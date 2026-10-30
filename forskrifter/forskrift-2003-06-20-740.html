@@ -19,64 +19,313 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-06-20-740.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i MSIS-forskriften" href="../feeds/forskrift-2003-06-20-740.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>MSIS-forskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2003-06-20-740</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2003-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-05-16-812</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2003-06-20-740" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-meldingssystemet-for-smittsomme-sykdommer-mv">§ 1-1. (Etablering av Meldingssystemet for smittsomme sykdommer mv.)</a></li>
+<li class="lvl4"><a href="#1-2-innholdet-i-msis">§ 1-2. (Innholdet i MSIS)</a></li>
+<li class="lvl4"><a href="#1-2a-opphevet">§ 1-2a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-3-registerets-formal">§ 1-3. (Registerets formål)</a></li>
+<li class="lvl4"><a href="#1-4-forbud-mot-bruk">§ 1-4. (Forbud mot bruk)</a></li>
+<li class="lvl4"><a href="#1-5-dataansvarlig-og-ansvarlig-for-biobank">§ 1-5. (Dataansvarlig og ansvarlig for biobank)</a></li>
+<li class="lvl4"><a href="#1-6-databehandler-og-ansvarshavende">§ 1-6. (Databehandler og ansvarshavende)</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-a">§ 1-7. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe A)</a></li>
+<li class="lvl4"><a href="#1-8-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-c">§ 1-8. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe C)</a></li>
+<li class="lvl4"><a href="#1-8a-biobank-tilknyttet-msis">§ 1-8a. (Biobank tilknyttet MSIS)</a></li>
+<li class="lvl4"><a href="#1-9-opplysninger-om-ddsarsak">§ 1-9. (Opplysninger om dødsårsak)</a></li>
+<li class="lvl4"><a href="#1-10-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon">§ 1-10. (Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon)</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-registeret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til registeret, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-legers-meldingsplikt">§ 2-1. (Legers meldingsplikt)</a></li>
+<li class="lvl4"><a href="#2-2-meldingsskjema-formkrav">§ 2-2. (Meldingsskjema, formkrav)</a></li>
+<li class="lvl4"><a href="#2-3-meldingsplikt-for-laboratorier">§ 2-3. (Meldingsplikt for laboratorier)</a></li>
+<li class="lvl4"><a href="#2-4-laboratorier-med-nasjonal-referansefunksjon-i-medisinsk-mikrobiologi">§ 2-4. (Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi)</a></li>
+<li class="lvl4"><a href="#2-4a-innsendingsplikt-for-smittestoff-og-prvemateriale">§ 2-4a. (Innsendingsplikt for smittestoff og prøvemateriale)</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter)</a></li>
+<li class="lvl4"><a href="#2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll)</a></li>
+<li class="lvl4"><a href="#2-7-rapportering-fra-registeret">§ 2-7. (Rapportering fra registeret)</a></li>
+<li class="lvl2"><a href="#kapittel-3-varsling-om-smittsomme-sykdommer">Kapittel 3. Varsling om smittsomme sykdommer</a></li>
+<li class="lvl4"><a href="#3-1-varsling-om-smittsomme-sykdommer">§ 3-1. (Varsling om smittsomme sykdommer)</a></li>
+<li class="lvl4"><a href="#3-2-helsepersonellets-varslingsplikt">§ 3-2. (Helsepersonellets varslingsplikt)</a></li>
+<li class="lvl4"><a href="#3-3-varsling-om-utbrudd-av-smittsom-sykdom">§ 3-3. (Varsling om utbrudd av smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-4-varsling-om-utbrudd-i-helseinstitusjon-av-smittsom-sykdom">§ 3-4. (Varsling om utbrudd i helseinstitusjon av smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-5-varsling-om-overlagt-spredning-av-smittestoffer">§ 3-5. (Varsling om overlagt spredning av smittestoffer)</a></li>
+<li class="lvl4"><a href="#3-6-varsling-om-smitte-fra-utstyr-mv">§ 3-6. (Varsling om smitte fra utstyr mv.)</a></li>
+<li class="lvl4"><a href="#3-7-varsling-om-smitte-fra-blodgiver">§ 3-7. (Varsling om smitte fra blodgiver)</a></li>
+<li class="lvl4"><a href="#3-8-varslingsplikt-ved-innleggelse-eller-overflytting-av-pasient-med-smittsom-sykdom">§ 3-8. (Varslingsplikt ved innleggelse eller overflytting av pasient med smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-9-varsling-om-smitte-fra-nringsmidler">§ 3-9. (Varsling om smitte fra næringsmidler)</a></li>
+<li class="lvl4"><a href="#3-10-varsling-om-smitte-fra-dyr">§ 3-10. (Varsling om smitte fra dyr)</a></li>
+<li class="lvl4"><a href="#3-11-oppbevaring-og-behandling-av-varslingsopplysninger">§ 3-11. (Oppbevaring og behandling av varslingsopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-4-behandling-av-helseopplysninger-i-registeret">Kapittel 4. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#4-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 4-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#4-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 4-2. (Informasjonsstrategi rettet mot brukergrupper)</a></li>
+<li class="lvl2"><a href="#kapittel-5-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 5. Taushetsplikt, informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#5-1-taushetsplikt">§ 5-1. (Taushetsplikt)</a></li>
+<li class="lvl4"><a href="#5-2-informasjonssikkerhet">§ 5-2. (Informasjonssikkerhet)</a></li>
+<li class="lvl4"><a href="#5-3-plikt-til-internkontroll">§ 5-3. (Plikt til internkontroll)</a></li>
+<li class="lvl4"><a href="#5-4-internkontrollens-innhold">§ 5-4. (Internkontrollens innhold)</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 6. Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#6-1-den-meldende-leges-plikt-til-a-informere">§ 6-1. (Den meldende leges plikt til å informere)</a></li>
+<li class="lvl4"><a href="#6-2-den-registrertes-rett-til-informasjon-og-innsyn">§ 6-2. (Den registrertes rett til informasjon og innsyn)</a></li>
+<li class="lvl4"><a href="#6-3-informasjon-og-innsyn-nar-den-registrerte-er-mindrearig">§ 6-3. (Informasjon og innsyn når den registrerte er mindreårig)</a></li>
+<li class="lvl4"><a href="#6-4-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 6-4. (Frist for å svare på henvendelser om innsyn)</a></li>
+<li class="lvl2"><a href="#kapittel-7-bevaring-av-helseopplysninger-i-registeret">Kapittel 7. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#7-1-bevaring-av-helseopplysninger">§ 7-1. (Bevaring av helseopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-8-opphevet">Kapittel 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-1-opphevet">§ 8-1. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikraftsetting">§ 9-1. (Ikraftsetting)</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-kapitler-og-paragrafer-i-msis-forskriften">Merknader til de enkelte kapitler og paragrafer i MSIS-forskriften</a></li>
+<li class="lvl3"><a href="#til-1-1-etablering-av-msis">Til § 1-1 Etablering av MSIS</a></li>
+<li class="lvl3"><a href="#til-1-2-innholdet-i-msis">Til § 1-2 Innholdet i MSIS</a></li>
+<li class="lvl3"><a href="#til-1-3-registerets-formal">Til § 1-3 Registerets formål</a></li>
+<li class="lvl3"><a href="#til-1-4-forbud-mot-bruk">Til § 1-4 Forbud mot bruk</a></li>
+<li class="lvl3"><a href="#til-1-5-dataansvarlig-og-ansvarlig-for-biobank">Til § 1-5 Dataansvarlig og ansvarlig for biobank</a></li>
+<li class="lvl3"><a href="#til-1-6-databehandler-og-ansvarshavende">Til § 1-6 Databehandler og ansvarshavende</a></li>
+<li class="lvl3"><a href="#til-1-7-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-a">Til § 1-7 Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe A</a></li>
+<li class="lvl3"><a href="#til-1-8-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-c">Til § 1-8 Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe C</a></li>
+<li class="lvl3"><a href="#til-1-8a-lagring-av-humant-biologisk-materiale">Til § 1-8a Lagring av humant biologisk materiale</a></li>
+<li class="lvl3"><a href="#til-1-9-opplysninger-om-ddsarsak">Til § 1-9 Opplysninger om dødsårsak</a></li>
+<li class="lvl3"><a href="#til-1-10-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon">Til § 1-10 Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-2-1-legers-meldingsplikt">Til § 2-1 Legers meldingsplikt</a></li>
+<li class="lvl3"><a href="#til-2-2-meldingsskjema-formkrav">Til § 2-2 Meldingsskjema, formkrav</a></li>
+<li class="lvl3"><a href="#til-2-3-meldingsplikt-for-laboratorier">Til § 2-3 Meldingsplikt for laboratorier</a></li>
+<li class="lvl3"><a href="#til-2-4-laboratorier-med-nasjonal-referansefunksjon-i-medisinsk-mikrobiologi">Til § 2-4 Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi</a></li>
+<li class="lvl3"><a href="#til-2-4a-innsendingsplikt-for-smittestoff-og-prvemateriale">Til § 2-4a Innsendingsplikt for smittestoff og prøvemateriale</a></li>
+<li class="lvl3"><a href="#til-2-5-virksomhetens-plikter">Til § 2-5 Virksomhetens plikter</a></li>
+<li class="lvl3"><a href="#til-2-6-mottakers-ansvar-for-kvalitetskontroll">Til § 2-6 Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-2-7-rapportering-fra-registeret">Til § 2-7 Rapportering fra registeret</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-varsling-om-smittsomme-sykdommer">Til kapittel 3 Varsling om smittsomme sykdommer</a></li>
+<li class="lvl3"><a href="#til-3-1-varsling-om-smittsomme-sykdommer">Til § 3-1 Varsling om smittsomme sykdommer</a></li>
+<li class="lvl3"><a href="#til-3-3-varsling-om-utbrudd-av-smittsom-sykdom">Til § 3-3 Varsling om utbrudd av smittsom sykdom</a></li>
+<li class="lvl3"><a href="#til-3-4-varsling-om-utbrudd-i-helseinstitusjon-av-smittsom-sykdom">Til § 3-4 Varsling om utbrudd i helseinstitusjon av smittsom sykdom</a></li>
+<li class="lvl3"><a href="#til-3-5-varsling-om-overlagt-spredning-av-smittestoffer">Til § 3-5 Varsling om overlagt spredning av smittestoffer</a></li>
+<li class="lvl3"><a href="#til-3-6-varsling-om-smitte-fra-utstyr-mv">Til § 3-6 Varsling om smitte fra utstyr mv.</a></li>
+<li class="lvl3"><a href="#til-3-7-varsling-om-smitte-fra-blodgiver">Til § 3-7 Varsling om smitte fra blodgiver</a></li>
+<li class="lvl3"><a href="#til-3-8-varsling-om-smitte-fra-helseinstitusjon">Til § 3-8 Varsling om smitte fra helseinstitusjon</a></li>
+<li class="lvl3"><a href="#til-3-9-varsling-om-smitte-fra-nringsmidler">Til § 3-9 Varsling om smitte fra næringsmidler</a></li>
+<li class="lvl3"><a href="#til-3-10-varsling-om-smitte-fra-dyr">Til § 3-10 Varsling om smitte fra dyr</a></li>
+<li class="lvl3"><a href="#til-4-1-sammenstilling-av-opplysninger-for-fremstilling-av-statistikk">Til § 4-1 Sammenstilling av opplysninger for fremstilling av statistikk</a></li>
+<li class="lvl3"><a href="#til-4-2-sammenstilling-av-opplysninger-fra-registeret-med-opplysninger-i-andre-registre-for-forskning-mv">Til § 4-2 Sammenstilling av opplysninger fra registeret med opplysninger i andre registre for forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-3-tilgjengliggjring-av-sammenstilte-datafiler-til-forskning-mv">Til § 4-3 Tilgjengliggjøring av sammenstilte datafiler til forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-4-plikt-til-a-tilgjengeliggjre-ikke-koblede-data-til-forskning-mv">Til § 4-4 Plikt til å tilgjengeliggjøre ikke koblede data til forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-5-tilgjengeliggjring-og-annen-behandling-av-opplysninger-i-registeret">Til § 4-5 Tilgjengeliggjøring og annen behandling av opplysninger i registeret</a></li>
+<li class="lvl3"><a href="#til-4-5a-behandling-av-helseopplysninger-om-personer-som-har-hiv-infeksjon-gonore-eller-syfilis">Til § 4-5a Behandling av helseopplysninger om personer som har hiv-infeksjon, gonoré eller syfilis</a></li>
+<li class="lvl3"><a href="#til-4-6-informasjonsstrategi-rettet-mot-brukergrupper">Til § 4-6 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl3"><a href="#til-4-7-kostnader">Til § 4-7 Kostnader</a></li>
+<li class="lvl3"><a href="#til-4-8-oversikt-over-tilgjengeliggjringer">Til § 4-8 Oversikt over tilgjengeliggjøringer</a></li>
+<li class="lvl3"><a href="#til-5-1-taushetsplikt">Til § 5-1 Taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-5-2-informasjonssikkerhet">Til § 5-2 Informasjonssikkerhet</a></li>
+<li class="lvl3"><a href="#til-5-3-plikt-til-internkontroll">Til § 5-3 Plikt til internkontroll</a></li>
+<li class="lvl3"><a href="#til-6-1-den-meldende-leges-plikt-til-a-informere">Til § 6-1 Den meldende leges plikt til å informere</a></li>
+<li class="lvl3"><a href="#til-6-3-informasjon-og-innsyn-nar-den-registrerte-er-mindrearig">Til § 6-3 Informasjon og innsyn når den registrerte er mindreårig</a></li>
+<li class="lvl3"><a href="#til-6-4-frist-for-a-svare-pa-henvendelser-om-innsyn">Til § 6-4 Frist for å svare på henvendelser om innsyn</a></li>
+<li class="lvl3"><a href="#til-7-1-bevaring-av-helseopplysninger">Til § 7-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-9-1-ikraftsetting">Til § 9-1 Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-05-16-812.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-06-20-740.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om Meldingssystem for smittsomme sykdommer (MSIS-forskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-06-20-740.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2003-06-20-740 <code>forskrift/2003-06-20-740</code></td></tr>
+<tr><th>Korttittel</th><td>MSIS-forskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2003</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-05-16-812 <code>forskrift/2025-05-16-812</code> fra 01.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2003-06-20-740" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-meldingssystemet-for-smittsomme-sykdommer-mv">§ 1-1. (Etablering av Meldingssystemet for smittsomme sykdommer mv.)</a></li>
+<li class="lvl4"><a href="#1-2-innholdet-i-msis">§ 1-2. (Innholdet i MSIS)</a></li>
+<li class="lvl4"><a href="#1-2a-opphevet">§ 1-2a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-3-registerets-formal">§ 1-3. (Registerets formål)</a></li>
+<li class="lvl4"><a href="#1-4-forbud-mot-bruk">§ 1-4. (Forbud mot bruk)</a></li>
+<li class="lvl4"><a href="#1-5-dataansvarlig-og-ansvarlig-for-biobank">§ 1-5. (Dataansvarlig og ansvarlig for biobank)</a></li>
+<li class="lvl4"><a href="#1-6-databehandler-og-ansvarshavende">§ 1-6. (Databehandler og ansvarshavende)</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-a">§ 1-7. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe A)</a></li>
+<li class="lvl4"><a href="#1-8-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-c">§ 1-8. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe C)</a></li>
+<li class="lvl4"><a href="#1-8a-biobank-tilknyttet-msis">§ 1-8a. (Biobank tilknyttet MSIS)</a></li>
+<li class="lvl4"><a href="#1-9-opplysninger-om-ddsarsak">§ 1-9. (Opplysninger om dødsårsak)</a></li>
+<li class="lvl4"><a href="#1-10-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon">§ 1-10. (Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon)</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-registeret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til registeret, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-legers-meldingsplikt">§ 2-1. (Legers meldingsplikt)</a></li>
+<li class="lvl4"><a href="#2-2-meldingsskjema-formkrav">§ 2-2. (Meldingsskjema, formkrav)</a></li>
+<li class="lvl4"><a href="#2-3-meldingsplikt-for-laboratorier">§ 2-3. (Meldingsplikt for laboratorier)</a></li>
+<li class="lvl4"><a href="#2-4-laboratorier-med-nasjonal-referansefunksjon-i-medisinsk-mikrobiologi">§ 2-4. (Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi)</a></li>
+<li class="lvl4"><a href="#2-4a-innsendingsplikt-for-smittestoff-og-prvemateriale">§ 2-4a. (Innsendingsplikt for smittestoff og prøvemateriale)</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter)</a></li>
+<li class="lvl4"><a href="#2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll)</a></li>
+<li class="lvl4"><a href="#2-7-rapportering-fra-registeret">§ 2-7. (Rapportering fra registeret)</a></li>
+<li class="lvl2"><a href="#kapittel-3-varsling-om-smittsomme-sykdommer">Kapittel 3. Varsling om smittsomme sykdommer</a></li>
+<li class="lvl4"><a href="#3-1-varsling-om-smittsomme-sykdommer">§ 3-1. (Varsling om smittsomme sykdommer)</a></li>
+<li class="lvl4"><a href="#3-2-helsepersonellets-varslingsplikt">§ 3-2. (Helsepersonellets varslingsplikt)</a></li>
+<li class="lvl4"><a href="#3-3-varsling-om-utbrudd-av-smittsom-sykdom">§ 3-3. (Varsling om utbrudd av smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-4-varsling-om-utbrudd-i-helseinstitusjon-av-smittsom-sykdom">§ 3-4. (Varsling om utbrudd i helseinstitusjon av smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-5-varsling-om-overlagt-spredning-av-smittestoffer">§ 3-5. (Varsling om overlagt spredning av smittestoffer)</a></li>
+<li class="lvl4"><a href="#3-6-varsling-om-smitte-fra-utstyr-mv">§ 3-6. (Varsling om smitte fra utstyr mv.)</a></li>
+<li class="lvl4"><a href="#3-7-varsling-om-smitte-fra-blodgiver">§ 3-7. (Varsling om smitte fra blodgiver)</a></li>
+<li class="lvl4"><a href="#3-8-varslingsplikt-ved-innleggelse-eller-overflytting-av-pasient-med-smittsom-sykdom">§ 3-8. (Varslingsplikt ved innleggelse eller overflytting av pasient med smittsom sykdom)</a></li>
+<li class="lvl4"><a href="#3-9-varsling-om-smitte-fra-nringsmidler">§ 3-9. (Varsling om smitte fra næringsmidler)</a></li>
+<li class="lvl4"><a href="#3-10-varsling-om-smitte-fra-dyr">§ 3-10. (Varsling om smitte fra dyr)</a></li>
+<li class="lvl4"><a href="#3-11-oppbevaring-og-behandling-av-varslingsopplysninger">§ 3-11. (Oppbevaring og behandling av varslingsopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-4-behandling-av-helseopplysninger-i-registeret">Kapittel 4. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#4-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 4-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#4-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 4-2. (Informasjonsstrategi rettet mot brukergrupper)</a></li>
+<li class="lvl2"><a href="#kapittel-5-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 5. Taushetsplikt, informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#5-1-taushetsplikt">§ 5-1. (Taushetsplikt)</a></li>
+<li class="lvl4"><a href="#5-2-informasjonssikkerhet">§ 5-2. (Informasjonssikkerhet)</a></li>
+<li class="lvl4"><a href="#5-3-plikt-til-internkontroll">§ 5-3. (Plikt til internkontroll)</a></li>
+<li class="lvl4"><a href="#5-4-internkontrollens-innhold">§ 5-4. (Internkontrollens innhold)</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 6. Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#6-1-den-meldende-leges-plikt-til-a-informere">§ 6-1. (Den meldende leges plikt til å informere)</a></li>
+<li class="lvl4"><a href="#6-2-den-registrertes-rett-til-informasjon-og-innsyn">§ 6-2. (Den registrertes rett til informasjon og innsyn)</a></li>
+<li class="lvl4"><a href="#6-3-informasjon-og-innsyn-nar-den-registrerte-er-mindrearig">§ 6-3. (Informasjon og innsyn når den registrerte er mindreårig)</a></li>
+<li class="lvl4"><a href="#6-4-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 6-4. (Frist for å svare på henvendelser om innsyn)</a></li>
+<li class="lvl2"><a href="#kapittel-7-bevaring-av-helseopplysninger-i-registeret">Kapittel 7. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#7-1-bevaring-av-helseopplysninger">§ 7-1. (Bevaring av helseopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-8-opphevet">Kapittel 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-1-opphevet">§ 8-1. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikraftsetting">§ 9-1. (Ikraftsetting)</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-kapitler-og-paragrafer-i-msis-forskriften">Merknader til de enkelte kapitler og paragrafer i MSIS-forskriften</a></li>
+<li class="lvl3"><a href="#til-1-1-etablering-av-msis">Til § 1-1 Etablering av MSIS</a></li>
+<li class="lvl3"><a href="#til-1-2-innholdet-i-msis">Til § 1-2 Innholdet i MSIS</a></li>
+<li class="lvl3"><a href="#til-1-3-registerets-formal">Til § 1-3 Registerets formål</a></li>
+<li class="lvl3"><a href="#til-1-4-forbud-mot-bruk">Til § 1-4 Forbud mot bruk</a></li>
+<li class="lvl3"><a href="#til-1-5-dataansvarlig-og-ansvarlig-for-biobank">Til § 1-5 Dataansvarlig og ansvarlig for biobank</a></li>
+<li class="lvl3"><a href="#til-1-6-databehandler-og-ansvarshavende">Til § 1-6 Databehandler og ansvarshavende</a></li>
+<li class="lvl3"><a href="#til-1-7-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-a">Til § 1-7 Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe A</a></li>
+<li class="lvl3"><a href="#til-1-8-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-c">Til § 1-8 Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe C</a></li>
+<li class="lvl3"><a href="#til-1-8a-lagring-av-humant-biologisk-materiale">Til § 1-8a Lagring av humant biologisk materiale</a></li>
+<li class="lvl3"><a href="#til-1-9-opplysninger-om-ddsarsak">Til § 1-9 Opplysninger om dødsårsak</a></li>
+<li class="lvl3"><a href="#til-1-10-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon">Til § 1-10 Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-2-1-legers-meldingsplikt">Til § 2-1 Legers meldingsplikt</a></li>
+<li class="lvl3"><a href="#til-2-2-meldingsskjema-formkrav">Til § 2-2 Meldingsskjema, formkrav</a></li>
+<li class="lvl3"><a href="#til-2-3-meldingsplikt-for-laboratorier">Til § 2-3 Meldingsplikt for laboratorier</a></li>
+<li class="lvl3"><a href="#til-2-4-laboratorier-med-nasjonal-referansefunksjon-i-medisinsk-mikrobiologi">Til § 2-4 Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi</a></li>
+<li class="lvl3"><a href="#til-2-4a-innsendingsplikt-for-smittestoff-og-prvemateriale">Til § 2-4a Innsendingsplikt for smittestoff og prøvemateriale</a></li>
+<li class="lvl3"><a href="#til-2-5-virksomhetens-plikter">Til § 2-5 Virksomhetens plikter</a></li>
+<li class="lvl3"><a href="#til-2-6-mottakers-ansvar-for-kvalitetskontroll">Til § 2-6 Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-2-7-rapportering-fra-registeret">Til § 2-7 Rapportering fra registeret</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-varsling-om-smittsomme-sykdommer">Til kapittel 3 Varsling om smittsomme sykdommer</a></li>
+<li class="lvl3"><a href="#til-3-1-varsling-om-smittsomme-sykdommer">Til § 3-1 Varsling om smittsomme sykdommer</a></li>
+<li class="lvl3"><a href="#til-3-3-varsling-om-utbrudd-av-smittsom-sykdom">Til § 3-3 Varsling om utbrudd av smittsom sykdom</a></li>
+<li class="lvl3"><a href="#til-3-4-varsling-om-utbrudd-i-helseinstitusjon-av-smittsom-sykdom">Til § 3-4 Varsling om utbrudd i helseinstitusjon av smittsom sykdom</a></li>
+<li class="lvl3"><a href="#til-3-5-varsling-om-overlagt-spredning-av-smittestoffer">Til § 3-5 Varsling om overlagt spredning av smittestoffer</a></li>
+<li class="lvl3"><a href="#til-3-6-varsling-om-smitte-fra-utstyr-mv">Til § 3-6 Varsling om smitte fra utstyr mv.</a></li>
+<li class="lvl3"><a href="#til-3-7-varsling-om-smitte-fra-blodgiver">Til § 3-7 Varsling om smitte fra blodgiver</a></li>
+<li class="lvl3"><a href="#til-3-8-varsling-om-smitte-fra-helseinstitusjon">Til § 3-8 Varsling om smitte fra helseinstitusjon</a></li>
+<li class="lvl3"><a href="#til-3-9-varsling-om-smitte-fra-nringsmidler">Til § 3-9 Varsling om smitte fra næringsmidler</a></li>
+<li class="lvl3"><a href="#til-3-10-varsling-om-smitte-fra-dyr">Til § 3-10 Varsling om smitte fra dyr</a></li>
+<li class="lvl3"><a href="#til-4-1-sammenstilling-av-opplysninger-for-fremstilling-av-statistikk">Til § 4-1 Sammenstilling av opplysninger for fremstilling av statistikk</a></li>
+<li class="lvl3"><a href="#til-4-2-sammenstilling-av-opplysninger-fra-registeret-med-opplysninger-i-andre-registre-for-forskning-mv">Til § 4-2 Sammenstilling av opplysninger fra registeret med opplysninger i andre registre for forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-3-tilgjengliggjring-av-sammenstilte-datafiler-til-forskning-mv">Til § 4-3 Tilgjengliggjøring av sammenstilte datafiler til forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-4-plikt-til-a-tilgjengeliggjre-ikke-koblede-data-til-forskning-mv">Til § 4-4 Plikt til å tilgjengeliggjøre ikke koblede data til forskning mv.</a></li>
+<li class="lvl3"><a href="#til-4-5-tilgjengeliggjring-og-annen-behandling-av-opplysninger-i-registeret">Til § 4-5 Tilgjengeliggjøring og annen behandling av opplysninger i registeret</a></li>
+<li class="lvl3"><a href="#til-4-5a-behandling-av-helseopplysninger-om-personer-som-har-hiv-infeksjon-gonore-eller-syfilis">Til § 4-5a Behandling av helseopplysninger om personer som har hiv-infeksjon, gonoré eller syfilis</a></li>
+<li class="lvl3"><a href="#til-4-6-informasjonsstrategi-rettet-mot-brukergrupper">Til § 4-6 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl3"><a href="#til-4-7-kostnader">Til § 4-7 Kostnader</a></li>
+<li class="lvl3"><a href="#til-4-8-oversikt-over-tilgjengeliggjringer">Til § 4-8 Oversikt over tilgjengeliggjøringer</a></li>
+<li class="lvl3"><a href="#til-5-1-taushetsplikt">Til § 5-1 Taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-5-2-informasjonssikkerhet">Til § 5-2 Informasjonssikkerhet</a></li>
+<li class="lvl3"><a href="#til-5-3-plikt-til-internkontroll">Til § 5-3 Plikt til internkontroll</a></li>
+<li class="lvl3"><a href="#til-6-1-den-meldende-leges-plikt-til-a-informere">Til § 6-1 Den meldende leges plikt til å informere</a></li>
+<li class="lvl3"><a href="#til-6-3-informasjon-og-innsyn-nar-den-registrerte-er-mindrearig">Til § 6-3 Informasjon og innsyn når den registrerte er mindreårig</a></li>
+<li class="lvl3"><a href="#til-6-4-frist-for-a-svare-pa-henvendelser-om-innsyn">Til § 6-4 Frist for å svare på henvendelser om innsyn</a></li>
+<li class="lvl3"><a href="#til-7-1-bevaring-av-helseopplysninger">Til § 7-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-9-1-ikraftsetting">Til § 9-1 Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-06-20-740.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-06-20-740.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-06-20-740.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2003-06-20-740.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2003-06-20-740.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-06-20-740.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2003-06-20-740.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2003-06-20-740.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-06-20-740.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-meldingssystem-for-smittsomme-sykdommer-msis-forskriften">Forskrift om Meldingssystem for smittsomme sykdommer (MSIS-forskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-etablering-av-meldingssystemet-for-smittsomme-sykdommer-mv">§ 1-1. (Etablering av Meldingssystemet for smittsomme sykdommer mv.) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Denne forskriften etablerer et landsomfattende Meldingssystem for smittsomme sykdommer (MSIS) hos mennesker. Forskriften gir regler for innsamling og behandling av helseopplysninger i registeret.</p>
@@ -84,7 +333,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Forskriften gir også bestemmelser om varsling om smittsomme sykdommer.</p>
 <p>Forskriften gir bestemmelser om oppbevaring og annen behandling av humant biologisk materiale i biobanker som er nødvendig for å ivareta MSIS-registerets formål.</p>
 <p>Forskriften gir bestemmelser om helseforskningslovens anvendelse på biobanker tilknyttet MSIS-registeret hjemlet i helseforskningsloven § 25 femte ledd.</p>
-<p><em>Endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</em></p>
+<p class="note">Endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</p>
 <h4 id="1-2-innholdet-i-msis">§ 1-2. (Innholdet i MSIS) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>MSIS inneholder direkte personidentifiserbare opplysninger om personer i Norge som er smittet med sykdommer som omfattes av gruppe A jf. tredje og sjette ledd, og opplysninger uten direkte identifiserbare kjennetegn om personer i Norge som er smittet med sykdommer som omfattes av gruppe C jf. femte og sjette ledd.</p>
 <p>MSIS kan inneholde mikrobiologiske prøvesvar. Direkte identifiserbare kjennetegn skal slettes så snart som mulig etter kvalitetssikring for sykdommer som ikke inngår i gruppe A og, jf. vedlegg I. Direkte identifiserbare kjennetegn for negative influensa- og RSV-prøvesvar skal ikke slettes.</p>
@@ -92,9 +341,9 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Smittsomme sykdommer i gruppe A, jf. vedlegg I, er sykdommer som det er nødvendig å overvåke med detaljerte opplysninger om hvert tilfelle av hensyn til smittevernet og internasjonale forpliktelser, jf. § 2-7 .</p>
 <p>Smittsomme sykdommer i gruppe C, jf. vedlegg I, er sykdommer der det er nødvendig med oversikt over situasjonen, men der det ikke er nødvendig med registrering av detaljerte opplysninger om enkelttilfeller.</p>
 <p>Departementet gir nærmere bestemmelser i forskrift om hvilke smittsomme sykdommer som tilhører gruppe A eller C. Ved alvorlig hendelse av betydning for folkehelsen kan departementet gi bestemmelser om hvilke smittsomme sykdommer som tilhører gruppe A eller C uten forutgående forhåndsvarsling, jf. lov om behandlingsmåten i forvaltningssaker § 37 fjerde ledd.</p>
-<p><em>Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 28 okt 2016 nr. 1251 , 22 mars 2019 nr. 279 , 5 april 2019 nr. 463 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 23 juni 2020 nr. 1287 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 28 okt 2016 nr. 1251 , 22 mars 2019 nr. 279 , 5 april 2019 nr. 463 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 23 juni 2020 nr. 1287 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</p>
 <h4 id="1-2a-opphevet">§ 1-2a. (Opphevet) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-2a.html" title="Endringshistorikk for § 1-2a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018), opphevet ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018), opphevet ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="1-3-registerets-formal">§ 1-3. (Registerets formål) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>MSIS skal bidra til overvåkingen av smittsomme sykdommer hos mennesker i Norge gjennom fortløpende og systematisk innsamling, analyse, tolkning og rapportering av opplysninger om forekomst av smittsomme sykdommer og dermed legge grunnlaget for å:</p>
 <ol>
@@ -106,19 +355,19 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>MSIS skal i tillegg til formål nevnt i første ledd, legge grunnlaget for å evaluere virkninger av behandlingstiltak og sikre kvaliteten av disse.</p>
 <p>Opplysninger i registeret kan foruten de formål som nevnt ovenfor, behandles til styring, planlegging og kvalitetssikring av helse- og omsorgstjenesten og helse- og omsorgsforvaltningen samt til utarbeiding av statistikk og til forskning.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 23 juni 2020 nr. 1287 , forskrift 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 23 juni 2020 nr. 1287 , forskrift 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ).</p>
 <h4 id="1-4-forbud-mot-bruk">§ 1-4. (Forbud mot bruk) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysningene i registeret kan ikke anvendes til formål som er uforenlig med formål som nevnt i § 1-3 .</p>
 <p>Kommersiell utnyttelse av forskningsdeltakere, humant biologisk materiale og helseopplysninger som sådan er forbudt. Helseforskningsloven § 8 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="1-5-dataansvarlig-og-ansvarlig-for-biobank">§ 1-5. (Dataansvarlig og ansvarlig for biobank) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet er dataansvarlig for innsamling og behandling av helseopplysninger i MSIS.</p>
 <p>Folkehelseinstituttet er ansvarlig for innsamling og behandling av biologisk materiale i biobanker tilknyttet MSIS i henhold til § 1-8a .</p>
-<p><em>Endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-6-databehandler-og-ansvarshavende">§ 1-6. (Databehandler og ansvarshavende) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet kan inngå skriftlig avtale med en databehandler om innsamling og behandling av helseopplysninger i registeret, herunder om overvåking og forskning, jf. § 1-3 , drift og kvalitetssikring av registeret, samt tilgjengeliggjøring av data til brukere.</p>
 <p>Folkehelseinstituttet kan inngå skriftlig avtale om lagring og behandling av biologisk materiale med laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi som er pekt ut i henhold til § 2-4 tredje ledd (ansvarshavende). Avtalen skal inneholde krav til biobanker tilknyttet MSIS i henhold til § 1-8a som benyttes til evaluering av vaksineeffekt, herunder krav oppstilt i helseforskningsloven § 26 , § 27 og § 31 .</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-7-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-a">§ 1-7. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe A) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>MSIS kan uten samtykke inneholde opplysninger som nevnt i tredje ledd om personer som har eller har hatt smittsom sykdom i gruppe A, eller har blitt testet for influensa eller RSV, jf. § 1-2 .</p>
 <p>MSIS kan uten samtykke inneholde opplysninger som nevnt i tredje ledd om personer som har eller har hatt tuberkulose eller personer som får forebyggende behandling mot tuberkulose, jf. forskrift om tuberkulosekontroll § 4-5 .</p>
@@ -143,7 +392,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
   4.1. om smitteforhold og smitteoppsporing,
   4.2. om varsling.</li>
 </ol>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 , 22 mars 2019 nr. 279 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 23 juni 2020 nr. 1287 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 , 22 mars 2019 nr. 279 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 23 juni 2020 nr. 1287 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</p>
 <h4 id="1-8-opplysninger-i-msis-om-tilfeller-av-smittsom-sykdom-i-gruppe-c">§ 1-8. (Opplysninger i MSIS om tilfeller av smittsom sykdom i gruppe C)</h4>
 <p>MSIS kan uten samtykke inneholde følgende opplysninger om personer som har eller har hatt smittsom sykdom i gruppe C, jf. § 1-2 i den utstrekning det er nødvendig for å nå formålet med registeret:</p>
 <ol>
@@ -160,31 +409,31 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <h4 id="1-8a-biobank-tilknyttet-msis">§ 1-8a. (Biobank tilknyttet MSIS) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-8a.html" title="Endringshistorikk for § 1-8a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>MSIS-registeret kan være tilknyttet biobank med humant biologisk materiale som er nødvendig for å ivareta registerets formål, jf. vedlegg II. Den enkelte skal informeres om at humant biologisk materiale kan lagres og benyttes til evaluering av vaksineeffekt, og har rett til å motsette seg dette. Helseforskningsloven § 16 annet og tredje ledd gjelder tilsvarende.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), endret ved forskrift 3 juni 2016 nr. 564 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), endret ved forskrift 3 juni 2016 nr. 564 .</p>
 <h4 id="1-9-opplysninger-om-ddsarsak">§ 1-9. (Opplysninger om dødsårsak) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-1-9.html" title="Endringshistorikk for § 1-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registeret kan inneholde opplysninger i samsvar med § 1-7 og § 1-8 om dødsårsak og dødsdato for alle som er registrert i registeret.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h4 id="1-10-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon">§ 1-10. (Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon)</h4>
 <p>Folkehelseinstituttet skal ved enhver registrering i registeret kunne dokumentere hvilke klassifikasjoner eller kodeverk som er benyttet.</p>
 <p>Departementet kan gi nærmere bestemmelser om hvilke nasjonale eller internasjonale kodeverk og klassifikasjoner som skal benyttes ved registrering av opplysninger i registeret.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h2 id="kapittel-2-melding-av-helseopplysninger-til-registeret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til registeret, kvalitetskontroll mv.</h2>
 <h4 id="2-1-legers-meldingsplikt">§ 2-1. (Legers meldingsplikt) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Enhver lege som oppdager eller får mistanke om smittsom sykdom i gruppe A, skal uten hensyn til taushetsplikt skriftlig melde opplysninger som nevnt i § 1-7 , jf. § 2-2 , til Folkehelseinstituttet og til kommunelegen i den kommunen der den smittede bor. Dersom den smittede oppholder seg i en annen kommune enn der vedkommende bor, skal det også gis melding til kommunelegen i den kommunen der den smittede oppholder seg. For tuberkulose skal meldingen i tillegg sendes tuberkulosekoordinator. For arbeidstakere i petroleumsvirksomhet skal melding om tuberkulose i tillegg sendes til medisinsk-faglig ansvarlig lege i det aktuelle operatørselskap. Meldingen skal sendes samme dag som sykdommen er oppdaget eller mistenkt. Kopi av meldingen skal oppbevares i pasientens journal.</p>
 <p>Meldeplikt etter første ledd gjelder ikke influensa og RSV. Dataansvarlig kan for enkelte andre sykdommer unnta leger for meldeplikt.</p>
 <p>Leger som er utpekt av Folkehelseinstituttet, og som oppdager smittsom sykdom i gruppe C, skal uten hensyn til taushetsplikt skriftlig melde opplysninger som nevnt i § 1-8 til Folkehelseinstituttet. Samlemelding skal sendes for tidsperioder definert av Folkehelseinstituttet.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 5 april 2019 nr. 463 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 5 april 2019 nr. 463 , 26 nov 2021 nr. 3293 (i kraft 13 des 2021, jf. vedtak 12 des 2021 nr. 3484 ), 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</p>
 <h4 id="2-2-meldingsskjema-formkrav">§ 2-2. (Meldingsskjema, formkrav) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Melding av opplysninger som nevnt i § 2-1 og § 2-3 , skal skje på skjema eller på annen måte fastsatt av departementet.</p>
 <p>Departementet kan gi pålegg om bruk av bestemte klassifikasjonssystemer og kodeverk ved registrering av opplysningene, og gi pålegg om bruk av standardiserte meldingsformater ved forsendelsen av opplysningene.</p>
-<p><em>Endret ved forskrift 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h4 id="2-3-meldingsplikt-for-laboratorier">§ 2-3. (Meldingsplikt for laboratorier) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Laboratorier skal sende melding om alle mikrobiologiske prøvesvar samme dag som prøvesvarene foreligger og indikere om det er funn av meldingspliktige sykdommer, jf. vedlegg I, til MSIS. Laboratoriet skal samme dag informere rekvirerende lege ved funn av meldingspliktige sykdommer, jf. vedlegg I. For tuberkulose skal melding i tillegg sendes tuberkulosekoordinatoren.</p>
 <p>Dataansvarlig kan for utvalgte meldingspliktige sykdommer avgjøre at de meldes i samlemeldinger for definerte tidsperioder.</p>
 <p>Laboratorier, inkludert laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi, som undersøker prøver av human opprinnelse på vegne av annet laboratorium eller som gjør spesialundersøkelser eller bekreftende undersøkelser for annet laboratorium, har samme meldingsplikt som det rekvirerende laboratorium. Laboratoriene skal informere rekvirerende lege om funn som er meldepliktige, jf. vedlegg I, til MSIS. For tuberkulose skal melding i tillegg sendes tuberkulosekoordinatoren.</p>
 <p>Dataansvarlig kan for enkelte sykdommer unnta laboratorier og laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi for meldeplikt.</p>
 <p>Kreftregisteret skal melde opplysninger etter § 1-7 for HPV-infeksjon som har forårsaket kreft eller forstadier til kreft.</p>
-<p><em>Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 22 mars 2019 nr. 279 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 22 mars 2019 nr. 279 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h4 id="2-4-laboratorier-med-nasjonal-referansefunksjon-i-medisinsk-mikrobiologi">§ 2-4. (Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi skal sikre høy kvalitet på mikrobiologiske tjenester for ivaretakelse av pasienter og folkehelsen.</p>
 <p>Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi er tillagt følgende oppgaver:</p>
@@ -198,90 +447,90 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Departementet peker ut laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi.</p>
 <p>Laboratorier med nasjonal referansefunksjon i medisinsk mikrobiologi skal rapportere årlig til departementet eller til det organ som departementet bestemmer.</p>
 <p>Departementet kan trekke tilbake status som laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi. Ved tilbaketrekking av status skal eventuell biobank overføres til nytt laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi.</p>
-<p><em>Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</p>
 <h4 id="2-4a-innsendingsplikt-for-smittestoff-og-prvemateriale">§ 2-4a. (Innsendingsplikt for smittestoff og prøvemateriale) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-4a.html" title="Endringshistorikk for § 2-4a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Mikrobiologiske laboratorier som undersøker prøver av human opprinnelse, skal sende smittestoff eller prøvemateriale til relevant laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi etter dets nærmere angivelser.</p>
 <p>Patologilaboratorier som undersøker prøver av human opprinnelse, skal sende smittestoff eller prøvemateriale til relevant laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi etter dets nærmere angivelser.</p>
 <p>Mikrobiologiske laboratorier som i prøver av fôrvarer, dyr, kosmetikk eller næringsmidler, herunder drikkevann, påviser smittestoff som kan gi sykdom hos mennesker, skal sende slikt smittestoff til relevant referanselaboratorium på matområdet etter Mattilsynets nærmere angivelser. Mattilsynet kan ved mistanke om sykdomsutbrudd i befolkningen eller dersom det er nødvendig av hensyn til smitteoppsporing, angi at laboratoriet også skal sende slikt smittestoff direkte til relevant laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi.</p>
 <p>Mikrobiologiske laboratorier som i andre kilder enn prøver av human opprinnelse, fôrvarer, dyr, kosmetikk eller næringsmidler, herunder drikkevann, påviser smittestoff som kan gi sykdom hos mennesker, skal sende slikt smittestoff til relevant laboratorium med nasjonal referansefunksjon i medisinsk mikrobiologi etter dets nærmere angivelser.</p>
-<p><em>Tilføyd ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012), endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012), endret ved forskrift 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</p>
 <h4 id="2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helseinstitusjon, poliklinikk, helsesenter, mikrobiologisk laboratorium, klinisk kjemisk laboratorium, patologisk laboratorium eller annen virksomhet som er ansvarlig for registrering av opplysninger som skal meldes til MSIS, jf. § 1-7 og § 1-8 , har ansvar for at pliktene som nevnt i § 2-1 til § 2-4 oppfylles, og skal sørge for at det finnes rutiner som sikrer dette, jf. forskriften § 5-2 og § 5-3 .</p>
 <p>Laboratorier som nevnt i § 2-4a annet og tredje ledd, skal oppfylle de plikter som nevnt der.</p>
-<p><em>Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014).</p>
 <h4 id="2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal sørge for at helseopplysninger som innsamles og behandles i registeret, er korrekte, relevante og nødvendige for de formål de innsamles for, jf. § 1-3 .</p>
 <p>Som ledd i kvalitetskontrollen kan Folkehelseinstituttet etablere kontakt med lege som har diagnostisert eller behandlet pasienten eller med pasientens fastlege. Som ledd i kvalitetskontrollen kan det gjennomføres rutinemessige sammenstillinger med tilsvarende opplysninger i andre helseregistre hjemlet i helseregisterloven § 11 og § 12 , i Folkeregisteret og i sykehusapotekenes lister over pasienter som har fått foreskrevet legemidler mot tuberkulose.</p>
 <p>Som ledd i overvåkingen av HPV som har forårsaket kreft eller forstadier til kreft, kan Folkehelseinstituttet oversende personopplysninger til laboratorium med nasjonal referansefunksjon for HPV.</p>
 <p>Dersom det er nødvendig for rask oppklaring av et utbrudd av smittsom sykdom, kan Folkehelseinstituttet eller kommunelegen etablere kontakt også med pasienten eller pasientens foreldre eller andre med foreldreansvar. Det kan ikke spørres om flere opplysninger enn det som er nødvendig for å registrere opplysningene som er nevnt for den aktuelle sykdommen i § 1-7 og § 1-8 .</p>
 <p>Dersom meldingsskjema er mangelfullt utfylt, skal avsenderen av skjema varsles, jf. helseregisterloven § 13 annet ledd annet punktum. Ved fortsatt mangelfull utfylling skal statsforvalteren varsles.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 , 6 mai 2022 nr. 806 , 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 22 juni 2012 nr. 586 (i kraft 1 juli 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 , 6 mai 2022 nr. 806 , 21 juni 2024 nr. 1104 (i kraft 1 juli 2024).</p>
 <h4 id="2-7-rapportering-fra-registeret">§ 2-7. (Rapportering fra registeret) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-2-7.html" title="Endringshistorikk for § 2-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal sørge for regelmessig rapportering om forekomsten av smittsomme sykdommer, jf. § 1-3 , gjennom å offentliggjøre ukentlige og årlige oversikter om forekomst av smittsomme sykdommer i hver kommune. Det må ikke offentliggjøres opplysninger som kan knyttes til enkeltpersoner.</p>
 <p>Folkehelseinstituttet skal ivareta rapportering om forekomst av smittsomme sykdommer i Norge til Verdens helseorganisasjon og Kommisjonen, jf. beslutning nr. 1082/2013/EU . Slike opplysninger kan være indirekte identifiserbare dersom det er nødvendig.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-3-varsling-om-smittsomme-sykdommer">Kapittel 3. Varsling om smittsomme sykdommer</h2>
 <h4 id="3-1-varsling-om-smittsomme-sykdommer">§ 3-1. (Varsling om smittsomme sykdommer) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Varsling om smittsom sykdom kommer i tillegg til den skriftlige meldingen, jf. kapittel 2 . Det skal varsles om smittsomme sykdommer i gruppe A jf. § 1-2 , der varsling er nødvendig for at smitteverntiltak umiddelbart kan iverksettes for å forebygge flere tilfeller. Varselet kan inneholde de opplysninger som går fram av § 1-7 .</p>
 <p>Departementet gir nærmere bestemmelser om hvilke smittsomme sykdommer i gruppe A som det skal varsles om.</p>
-<p><em>Endret ved forskrift 22 mars 2019 nr. 279 .</em></p>
+<p class="note">Endret ved forskrift 22 mars 2019 nr. 279 .</p>
 <h4 id="3-2-helsepersonellets-varslingsplikt">§ 3-2. (Helsepersonellets varslingsplikt) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Lege, sykepleier, jordmor, helsesykepleier eller tannlege som mistenker eller påviser et tilfelle av smittsom sykdom jf. § 3-1 annet ledd, skal varsle kommunelegen. Dersom det ikke er mulig å få varslet kommunelegen, skal de varsle Folkehelseinstituttet.</p>
 <p>Kommunelegen skal varsle Folkehelseinstituttet.</p>
 <p>Folkehelseinstituttet skal, dersom mistanken ikke raskt kan avkreftes, varsle Helsedirektoratet om de samme sykdomstilfeller.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 22 mars 2019 nr. 279 , 18 okt 2019 nr. 1383 .</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 22 mars 2019 nr. 279 , 18 okt 2019 nr. 1383 .</p>
 <h4 id="3-3-varsling-om-utbrudd-av-smittsom-sykdom">§ 3-3. (Varsling om utbrudd av smittsom sykdom) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leger som mistenker eller påviser et utbrudd utenfor helseinstitusjon av smittsomme sykdommer som skal meldes til registeret, utbrudd av andre særlig alvorlige sykdommer, utbrudd som mistenkes å ha sammenheng med næringsmidler eller særlig omfattende utbrudd, skal varsle kommunelegen.</p>
 <p>Kommunelegen skal, dersom mistanken ikke raskt kan avkreftes, varsle Folkehelseinstituttet. Folkehelseinstituttet skal bidra til samordnet etterforskning og rådgivning ved utbrudd av smittsomme sykdommer som rammer flere kommuner.</p>
 <p>Folkehelseinstituttet skal varsle Helsedirektoratet om de samme utbrudd, dersom de er alvorlige.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="3-4-varsling-om-utbrudd-i-helseinstitusjon-av-smittsom-sykdom">§ 3-4. (Varsling om utbrudd i helseinstitusjon av smittsom sykdom) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leger som mistenker eller påviser utbrudd av smittsomme sykdommer i sykehus eller annen institusjon som er omfattet av lov om spesialisthelsetjenesten m.m. § 1-2 , skal omgående varsle til kommunelegen og til Folkehelseinstituttet med kopi til det regionale helseforetakets kompetansesenter for smittevern i helsetjenesten. Folkehelseinstituttet skal varsle Helsedirektoratet om de samme utbruddene, dersom de er alvorlige.</p>
 <p>Leger som mistenker eller påviser utbrudd av smittsomme sykdommer i kommunal helseinstitusjon skal varsle til kommunelegen. Kommunelegen skal, dersom mistanken ikke raskt kan avkreftes, varsle Folkehelseinstituttet. Folkehelseinstituttet skal varsle Helsedirektoratet om de samme utbruddene, dersom de er alvorlige.</p>
 <p>Folkehelseinstituttet skal gi faglig bistand, råd, veiledning og informasjon i forbindelse med samordning, oppklaring og kontroll av utbrudd av smittsom sykdom i helseinstitusjoner.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h4 id="3-5-varsling-om-overlagt-spredning-av-smittestoffer">§ 3-5. (Varsling om overlagt spredning av smittestoffer)</h4>
 <p>Leger som mistenker eller påviser tilfeller av smittsomme sykdommer som kan være forårsaket av overlagt spredning av smittestoffer, skal varsle kommunelegen og Folkehelseinstituttet. Folkehelseinstituttet skal varsle Helsedirektoratet om de samme sykdomstilfeller.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 .</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 .</p>
 <h4 id="3-6-varsling-om-smitte-fra-utstyr-mv">§ 3-6. (Varsling om smitte fra utstyr mv.) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leger som mistenker eller påviser tilfeller av smittsomme sykdommer som kan være forårsaket av smitte fra medisinsk utstyr, kosmetika, legemidler, blod, blodprodukter, vev eller organer, skal varsle Folkehelseinstituttet. Folkehelseinstituttet skal varsle Direktoratet for medisinske produkter og Helsedirektoratet om de samme sykdomstilfeller.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2019 nr. 1930 (i kraft 1 jan 2020), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="3-7-varsling-om-smitte-fra-blodgiver">§ 3-7. (Varsling om smitte fra blodgiver) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Laboratorier og leger som i sin yrkespraksis finner at en blodgiver er smittet av en sykdom som kan overføres med blod eller blodprodukter, skal varsle blodbanken den smittede har donert blod ved. Varslet skal inneholde blodgiverens navn, fødselsnummer, adresse og hvilken sykdom som er påvist. Blodbanken skal varsle Direktoratet for medisinske produkter, Folkehelseinstituttet og Helsedirektoratet, men uten direkte identifiserbare opplysninger.</p>
-<p><em>Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2009 nr. 168 (i kraft 1 mars 2009), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 okt 2019 nr. 1383 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="3-8-varslingsplikt-ved-innleggelse-eller-overflytting-av-pasient-med-smittsom-sykdom">§ 3-8. (Varslingsplikt ved innleggelse eller overflytting av pasient med smittsom sykdom) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Behandlingsansvarlig lege som mistenker eller har påvist smittsom sykdom hos en pasient som skal innlegges ved eller overføres til en annen helseinstitusjon, skal varsle lege ved helseinstitusjonen i forkant dersom det er nødvendig av hensyn til smittevernet.</p>
 <p>Behandlingsansvarlig lege som mistenker eller har påvist smittsom sykdom hos en pasient overført fra en helseinstitusjon, skal varsle lege ved den institusjonen, dersom det er nødvendig av hensyn til smittevernet.</p>
-<p><em>Endret ved forskrift 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 20 des 2019 nr. 1930 (i kraft 1 jan 2020).</p>
 <h4 id="3-9-varsling-om-smitte-fra-nringsmidler">§ 3-9. (Varsling om smitte fra næringsmidler) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kommuneleger som får opplysninger om mistenkt eller påvist smittsom sykdom som kan være overført med næringsmidler, skal varsle det lokale mattilsynet. Varslet skal inneholde opplysninger om den antatte sykdommen, det antatte smittetidspunktet, pasientens alder og bostedskommune, samt eventuelt hvilket næringsmiddel som er mistenkt og hvor det ble frambudt.</p>
-<p><em>Endret ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012).</p>
 <h4 id="3-10-varsling-om-smitte-fra-dyr">§ 3-10. (Varsling om smitte fra dyr) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-3-10.html" title="Endringshistorikk for § 3-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kommuneleger som får opplysninger om mistenkt eller påvist smittsom sykdom som kan skyldes smitte fra dyr, skal varsle det lokale mattilsynet. Varslet skal inneholde opplysninger om den antatte sykdommen, det antatte smittetidspunktet, pasientens alder og bostedskommune, samt eventuelt hvilket dyr som er mistenkt og hvor det befinner seg.</p>
-<p><em>Endret ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2012 nr. 586 (i kraft 1 juli 2012).</p>
 <h4 id="3-11-oppbevaring-og-behandling-av-varslingsopplysninger">§ 3-11. (Oppbevaring og behandling av varslingsopplysninger)</h4>
 <p>Folkehelseinstituttet kan oppbevare og behandle helseopplysninger mottatt gjennom varsel så lenge det er nødvendig for å forebygge og motvirke spredning av smittsom sykdom. Opplysningene skal slettes eller anonymiseres når hendelsen er avklart.</p>
-<p><em>Tilføyd ved forskrift 21 des 2007 nr. 1573 (i kraft 1 jan 2008), endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 21 des 2007 nr. 1573 (i kraft 1 jan 2008), endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h2 id="kapittel-4-behandling-av-helseopplysninger-i-registeret">Kapittel 4. Behandling av helseopplysninger i registeret</h2>
 <h4 id="4-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 4-1. Tilgjengeliggjøring og annen behandling av helseopplysninger <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helseopplysninger i MSIS skal behandles i samsvar med personvernforordningen , personopplysningsloven og de alminnelige vilkårene i helseregisterloven § 6 og reglene om taushetsplikt i helseregisterloven § 17 , jf. helsepersonelloven §§ 21 flg.</p>
 <p>Ved tilgjengeliggjøring og sammenstilling av opplysninger i registeret gjelder i tillegg helseregisterloven § 19 til § 19h .</p>
-<p><em>Endret ved forskrifter 2 sep 2005 nr. 1010 (i kraft 24 april 2006), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 2 sep 2005 nr. 1010 (i kraft 24 april 2006), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="4-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 4-2. (Informasjonsstrategi rettet mot brukergrupper) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å fremme bruk av data fra registeret og for å bygge opp informasjon og kunnskap, jf. forskriften § 1-3 , skal Folkehelseinstituttet ha en aktiv informasjonsstrategi og -plan rettet mot så vel helse- og omsorgsforvaltningen, helse- og omsorgstjenesten og øvrig forvaltning, som mot forskere innen medisinsk forskning, helse- og omsorgstjenesteforskning og samfunnsforskning.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 4-6).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 4-6).</p>
 <h2 id="kapittel-5-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 5. Taushetsplikt, informasjonssikkerhet og internkontroll</h2>
 <h4 id="5-1-taushetsplikt">§ 5-1. (Taushetsplikt) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Enhver som behandler helseopplysninger etter denne forskriften, har taushetsplikt etter helsepersonelloven.</p>
 <p>Taushetsplikten etter første ledd gjelder også pasientens fødested, fødselsdato, personnummer, pseudonym, statsborgerforhold, sivilstand, yrke, bopel og arbeidssted.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 juni 2020 nr. 1287 , 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 juni 2020 nr. 1287 , 23 juni 2020 nr. 1287 (i kraft 1 juli 2024, endring endret ved forskrifter 17 juni 2022 nr. 1046 , 16 juni 2023 nr. 910 ).</p>
 <h4 id="5-2-informasjonssikkerhet">§ 5-2. (Informasjonssikkerhet) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet og databehandleren skal gjennomføre tekniske og organisatoriske tiltak for å oppnå et sikkerhetsnivå som er egnet med hensyn til risikoen, jf personvernforordningen artikkel 32 og helseregisterloven § 21 .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="5-3-plikt-til-internkontroll">§ 5-3. (Plikt til internkontroll) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal gjennomføre tekniske og organisatoriske tiltak for å sikre og påvise at behandling av opplysninger skjer i samsvar med personvernforordningen, personopplysningsloven og helseregisterloven, jf. helseregisterloven § 22 .</p>
 <p>Databehandleren som behandler helseopplysninger på vegne av Folkehelseinstituttet, skal behandle opplysninger i samsvar med rutiner Folkehelseinstituttet har oppstilt.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="5-4-internkontrollens-innhold">§ 5-4. (Internkontrollens innhold) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-5-4.html" title="Endringshistorikk for § 5-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Internkontrollen innebærer at den dataansvarlige skal ha kunnskap om gjeldende regler om behandling av helseopplysninger, tilstrekkelig og oppdatert dokumentasjon for gjennomføring av rutiner, samt ha denne dokumentasjonen tilgjengelig for dem det måtte angå.</p>
 <p>Internkontrollen skal blant annet inneholde:</p>
@@ -301,30 +550,30 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>rutiner for hvordan virksomheten sikrer at de ansatte har tilstrekkelig kompetanse til å overholde forskriftens krav.</li>
 </ol>
 <p>Skriftlig dokumentasjon skal minst omfatte dokumentasjon av rutiner som nevnt i annet ledd nr. 1 til 8. Tilsynsmyndighetene kan gi pålegg om skriftlig dokumentasjon ut over dette, dersom det anses påkrevet. Tilsynsmyndighetene kan dispensere fra hele eller deler av dette kapittel når særlige forhold foreligger.</p>
-<p><em>Endret ved forskrifter 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</p>
 <h2 id="kapittel-6-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 6. Den registrertes rett til informasjon og innsyn</h2>
 <h4 id="6-1-den-meldende-leges-plikt-til-a-informere">§ 6-1. (Den meldende leges plikt til å informere) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når en lege som har meldingsplikt etter § 2-1 første ledd, gir melding om smittsom sykdom i gruppe A, skal legen informere den meldingen angår, om hvem som skal få meldingene og hva de skal brukes til. Legen bør søke pasientens medvirkning til å gjøre opplysningene i meldingsskjemaet så korrekte som mulig.</p>
-<p><em>Endret ved forskrift 22 mars 2019 nr. 279 .</em></p>
+<p class="note">Endret ved forskrift 22 mars 2019 nr. 279 .</p>
 <h4 id="6-2-den-registrertes-rett-til-informasjon-og-innsyn">§ 6-2. (Den registrertes rett til informasjon og innsyn) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registrerte har rett til informasjon om registeret og innsyn i behandling av helseopplysninger om seg selv i samsvar med personvernforordningen artikkel 13 til 15, jf. helseregisterloven § 24 .</p>
 <p>Innsyn i helseopplysninger om en selv skal fortrinnsvis gis gjennom den registrertes sist behandlende lege og helseinstitusjon. Informasjonen skal gis i en forståelig form.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="6-3-informasjon-og-innsyn-nar-den-registrerte-er-mindrearig">§ 6-3. (Informasjon og innsyn når den registrerte er mindreårig) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-6-3.html" title="Endringshistorikk for § 6-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Foreldre eller andre med foreldreansvar har rett til innsyn etter regler tilsvarende dem i pasient- og brukerrettighetsloven § 3-4 .</p>
-<p><em>Endret ved forskrift 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrift 17 jan 2013 nr. 61 .</p>
 <h4 id="6-4-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 6-4. (Frist for å svare på henvendelser om innsyn) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Begjæringer om innsyn etter § 6-2 skal besvares uten ugrunnet opphold og senest én måned etter henvendelsen kom inn, jf. personvernforordningen artikkel 12 nr. 3.</p>
 <p>Dersom særlige forhold gjør det umulig å svare på henvendelsen innen én måned, kan gjennomføringen utsettes med ytterligere to måneder. Den dataansvarlige skal i så fall gi et foreløpig svar med opplysninger om grunnen til forsinkelsen og sannsynlig tidspunkt for når svar kan gis.</p>
-<p><em>Endret ved forskrifter 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2016 nr. 564 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-7-bevaring-av-helseopplysninger-i-registeret">Kapittel 7. Bevaring av helseopplysninger i registeret</h2>
 <h4 id="7-1-bevaring-av-helseopplysninger">§ 7-1. (Bevaring av helseopplysninger) <a class="para-history" href="../historikk/forskrift-2003-06-20-740/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysninger i MSIS skal oppbevares i ubegrenset tid, med mindre annet følger av denne forskriften eller helseregisterloven § 25 .</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 .</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 3 juni 2016 nr. 564 .</p>
 <h2 id="kapittel-8-opphevet">Kapittel 8. (Opphevet)</h2>
 <p>Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="8-1-opphevet">§ 8-1. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser</h2>
 <h4 id="9-1-ikraftsetting">§ 9-1. (Ikraftsetting)</h4>
 <p>Forskriften trer i kraft 1. juli 2003. Fra samme tidspunkt oppheves forskrift av 30. desember 1994 nr. 1224 om leger og annet helsepersonells melding og varsling av smittsomme sykdommer.</p>
@@ -535,6 +784,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>For øvrig vil arkivloven og forskrifter i medhold av arkivloven komme til anvendelse for MSIS.</p>
 <h3 id="til-9-1-ikraftsetting">Til § 9-1 Ikraftsetting</h3>
 <p>Bestemmelsen fastslår at denne forskriften trer i kraft 1. juli 2003.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

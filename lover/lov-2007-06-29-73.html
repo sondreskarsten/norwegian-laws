@@ -19,64 +19,247 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2007-06-29-73.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Eiendomsmeglingsloven – emgll" href="../feeds/lov-2007-06-29-73.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Eiendomsmeglingsloven – emgll</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2007-06-29-73</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Fast eiendoms rettsforhold &raquo; Eiendomsmegling</dd>
-<dt>Ikrafttredelse</dt><dd>2008-01-01, 2011-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-106</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2007-06-29-73" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-fravikelighet-utenfor-forbrukerforhold">§ 1-3. Fravikelighet utenfor forbrukerforhold</a></li>
+<li class="lvl4"><a href="#1-4-forskrifter-om-visse-former-for-eiendomsmeglingsvirksomhet">§ 1-4. Forskrifter om visse former for eiendomsmeglingsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-om-tillatelse-foretaksform-organisering-mv">Kapittel 2. Krav om tillatelse, foretaksform, organisering mv.</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-tillatelse-for-a-drive-eiendomsmegling">§ 2-1. Krav om tillatelse for å drive eiendomsmegling</a></li>
+<li class="lvl4"><a href="#2-2-melding-om-etablering-av-filial-mv">§ 2-2. Melding om etablering av filial mv.</a></li>
+<li class="lvl4"><a href="#2-3-konsesjonsmyndighet-sknad-om-tillatelse">§ 2-3. Konsesjonsmyndighet. Søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-foretaksform">§ 2-4. Krav til foretaksform</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-fast-kontorsted">§ 2-5. Krav til fast kontorsted</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-konomi">§ 2-6. Krav til økonomi</a></li>
+<li class="lvl4"><a href="#2-7-sikkerhetsstillelse">§ 2-7. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#2-8-aksjeeierstruktur">§ 2-8. Aksjeeierstruktur</a></li>
+<li class="lvl4"><a href="#2-9-krav-til-ledelsen-og-ansatte">§ 2-9. Krav til ledelsen og ansatte</a></li>
+<li class="lvl4"><a href="#2-10-tilslutning-til-utenrettslig-tvistelsningsordning">§ 2-10. Tilslutning til utenrettslig tvisteløsningsordning</a></li>
+<li class="lvl2"><a href="#kapittel-3-nrmere-krav-til-virksomheten">Kapittel 3. Nærmere krav til virksomheten</a></li>
+<li class="lvl4"><a href="#3-1-journalfring">§ 3-1. Journalføring</a></li>
+<li class="lvl4"><a href="#3-2-forvaltning-og-behandling-av-klientmidler">§ 3-2. Forvaltning og behandling av klientmidler</a></li>
+<li class="lvl4"><a href="#3-3-styrets-ansvar-for-rutiner-for-meglingen">§ 3-3. Styrets ansvar for rutiner for meglingen</a></li>
+<li class="lvl4"><a href="#3-4-forslags-mte-og-talerett-i-styret">§ 3-4. Forslags-, møte- og talerett i styret</a></li>
+<li class="lvl4"><a href="#3-5-bruk-av-kontraktsmedhjelpere">§ 3-5. Bruk av kontraktsmedhjelpere</a></li>
+<li class="lvl4"><a href="#3-6-taushetsplikt">§ 3-6. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-7-bruk-av-elektronisk-kommunikasjon-elektroniske-medier-mv">§ 3-7. Bruk av elektronisk kommunikasjon, elektroniske medier mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-kvalifikasjonskrav-tittel">Kapittel 4. Kvalifikasjonskrav. Tittel</a></li>
+<li class="lvl4"><a href="#4-1-kvalifikasjonskrav">§ 4-1. Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#4-2-eiendomsmeglerbrev">§ 4-2. Eiendomsmeglerbrev</a></li>
+<li class="lvl4"><a href="#4-3-adgang-for-jurister-til-a-vre-fagansvarlig-og-ansvarlig-megler">§ 4-3. Adgang for jurister til å være fagansvarlig og ansvarlig megler</a></li>
+<li class="lvl4"><a href="#4-4-medhjelpere-til-ansvarlig-megler">§ 4-4. Medhjelpere til ansvarlig megler</a></li>
+<li class="lvl4"><a href="#4-5-tittel">§ 4-5. Tittel</a></li>
+<li class="lvl4"><a href="#4-6-etterutdanning">§ 4-6. Etterutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-uavhengighet">Kapittel 5. Krav til uavhengighet</a></li>
+<li class="lvl4"><a href="#5-1-foretakets-adgang-til-a-drive-annen-nringsvirksomhet">§ 5-1. Foretakets adgang til å drive annen næringsvirksomhet</a></li>
+<li class="lvl4"><a href="#5-2-ansattes-adgang-til-a-drive-nringsvirksomhet-mv">§ 5-2. Ansattes adgang til å drive næringsvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#5-3-forbud-mot-egenhandel-opplysningsplikt-om-egeninteresse">§ 5-3. Forbud mot egenhandel. Opplysningsplikt om egeninteresse</a></li>
+<li class="lvl4"><a href="#5-4-forholdet-til-andre-tjenesteytere">§ 5-4. Forholdet til andre tjenesteytere</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppdraget-og-utfrelsen-av-dette">Kapittel 6. Oppdraget og utførelsen av dette</a></li>
+<li class="lvl4"><a href="#6-1-oppdragstaker">§ 6-1. Oppdragstaker</a></li>
+<li class="lvl4"><a href="#6-2-ansvarlig-megler">§ 6-2. Ansvarlig megler</a></li>
+<li class="lvl4"><a href="#6-3-god-meglerskikk">§ 6-3. God meglerskikk</a></li>
+<li class="lvl4"><a href="#6-4-oppdragsavtalen">§ 6-4. Oppdragsavtalen</a></li>
+<li class="lvl4"><a href="#6-5-oppdragets-varighet">§ 6-5. Oppdragets varighet</a></li>
+<li class="lvl4"><a href="#6-6-fullmakt">§ 6-6. Fullmakt</a></li>
+<li class="lvl4"><a href="#6-7-oppdragstakerens-underskelses-og-opplysningsplikt">§ 6-7. Oppdragstakerens undersøkelses- og opplysningsplikt</a></li>
+<li class="lvl4"><a href="#6-8-oppdragstakerens-plikter-ved-budgivningen">§ 6-8. Oppdragstakerens plikter ved budgivningen</a></li>
+<li class="lvl4"><a href="#6-9-oppdragstakerens-plikter-ved-kontraktsslutningen">§ 6-9. Oppdragstakerens plikter ved kontraktsslutningen.</a></li>
+<li class="lvl4"><a href="#6-10-oppdragstakerens-plikter-ved-gjennomfring-av-handelen">§ 6-10. Oppdragstakerens plikter ved gjennomføring av handelen</a></li>
+<li class="lvl2"><a href="#kapittel-7-vederlag-utlegg">Kapittel 7. Vederlag. Utlegg</a></li>
+<li class="lvl4"><a href="#7-1-prisinformasjon">§ 7-1. Prisinformasjon</a></li>
+<li class="lvl4"><a href="#7-2-generelt-om-vederlaget">§ 7-2. Generelt om vederlaget</a></li>
+<li class="lvl4"><a href="#7-3-oppdragstakerens-krav-pa-vederlag">§ 7-3. Oppdragstakerens krav på vederlag</a></li>
+<li class="lvl4"><a href="#7-4-betaling-av-vederlag">§ 7-4. Betaling av vederlag</a></li>
+<li class="lvl4"><a href="#7-5-dekning-av-utlegg">§ 7-5. Dekning av utlegg</a></li>
+<li class="lvl4"><a href="#7-6-deling-av-vederlag">§ 7-6. Deling av vederlag</a></li>
+<li class="lvl4"><a href="#7-7-nedsettelse-av-vederlag">§ 7-7. Nedsettelse av vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-8-tilsyn-og-sanksjoner">Kapittel 8. Tilsyn og sanksjoner</a></li>
+<li class="lvl4"><a href="#8-1-tilsyn-med-eiendomsmegling">§ 8-1. Tilsyn med eiendomsmegling</a></li>
+<li class="lvl4"><a href="#8-2-tilbakekall-av-tillatelse-for-foretak-og-vedtak-om-stans-av-virksomhet-i-filial">§ 8-2. Tilbakekall av tillatelse for foretak og vedtak om stans av virksomhet i filial</a></li>
+<li class="lvl4"><a href="#8-3-adgang-til-a-forby-advokat-a-drive-eiendomsmegling-etter-2-1-frste-ledd-nr-2">§ 8-3. Adgang til å forby advokat å drive eiendomsmegling etter § 2-1 første ledd nr. 2</a></li>
+<li class="lvl4"><a href="#8-4-tilbakekall-av-eiendomsmeglerbrev">§ 8-4. Tilbakekall av eiendomsmeglerbrev</a></li>
+<li class="lvl4"><a href="#8-5-tilbakekall-av-tillatelse-til-jurist">§ 8-5. Tilbakekall av tillatelse til jurist</a></li>
+<li class="lvl4"><a href="#8-6-adgang-til-a-forby-advokat-a-vre-fagansvarlig-og-ansvarlig-megler">§ 8-6. Adgang til å forby advokat å være fagansvarlig og ansvarlig megler</a></li>
+<li class="lvl4"><a href="#8-6-a-adgang-til-a-forby-person-a-vre-eiendomsmeglerfullmektig-eller-oppgjrsmedhjelper">§ 8-6 a. Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper</a></li>
+<li class="lvl4"><a href="#8-7-suspensjon-av-retten-til-a-drive-eiendomsmegling">§ 8-7. Suspensjon av retten til å drive eiendomsmegling.</a></li>
+<li class="lvl4"><a href="#8-8-behandling-av-tvister-i-klageorgan">§ 8-8. Behandling av tvister i klageorgan</a></li>
+<li class="lvl4"><a href="#8-9-overtredelsesgebyr">§ 8-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-10-straff">§ 8-10. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9. Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-og-overgangsregler">§ 9-1. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-106.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-06-29-73.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om eiendomsmegling (eiendomsmeglingsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2007-06-29-73.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2007-06-29-73 <code>lov/2007-06-29-73</code></td></tr>
+<tr><th>Korttittel</th><td>Eiendomsmeglingsloven – emgll</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Fast eiendoms rettsforhold &raquo; Eiendomsmegling</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2008, 01.07.2011</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-106 <code>lov/2025-06-20-106</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2007-06-29-73" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-fravikelighet-utenfor-forbrukerforhold">§ 1-3. Fravikelighet utenfor forbrukerforhold</a></li>
+<li class="lvl4"><a href="#1-4-forskrifter-om-visse-former-for-eiendomsmeglingsvirksomhet">§ 1-4. Forskrifter om visse former for eiendomsmeglingsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-om-tillatelse-foretaksform-organisering-mv">Kapittel 2. Krav om tillatelse, foretaksform, organisering mv.</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-tillatelse-for-a-drive-eiendomsmegling">§ 2-1. Krav om tillatelse for å drive eiendomsmegling</a></li>
+<li class="lvl4"><a href="#2-2-melding-om-etablering-av-filial-mv">§ 2-2. Melding om etablering av filial mv.</a></li>
+<li class="lvl4"><a href="#2-3-konsesjonsmyndighet-sknad-om-tillatelse">§ 2-3. Konsesjonsmyndighet. Søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-foretaksform">§ 2-4. Krav til foretaksform</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-fast-kontorsted">§ 2-5. Krav til fast kontorsted</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-konomi">§ 2-6. Krav til økonomi</a></li>
+<li class="lvl4"><a href="#2-7-sikkerhetsstillelse">§ 2-7. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#2-8-aksjeeierstruktur">§ 2-8. Aksjeeierstruktur</a></li>
+<li class="lvl4"><a href="#2-9-krav-til-ledelsen-og-ansatte">§ 2-9. Krav til ledelsen og ansatte</a></li>
+<li class="lvl4"><a href="#2-10-tilslutning-til-utenrettslig-tvistelsningsordning">§ 2-10. Tilslutning til utenrettslig tvisteløsningsordning</a></li>
+<li class="lvl2"><a href="#kapittel-3-nrmere-krav-til-virksomheten">Kapittel 3. Nærmere krav til virksomheten</a></li>
+<li class="lvl4"><a href="#3-1-journalfring">§ 3-1. Journalføring</a></li>
+<li class="lvl4"><a href="#3-2-forvaltning-og-behandling-av-klientmidler">§ 3-2. Forvaltning og behandling av klientmidler</a></li>
+<li class="lvl4"><a href="#3-3-styrets-ansvar-for-rutiner-for-meglingen">§ 3-3. Styrets ansvar for rutiner for meglingen</a></li>
+<li class="lvl4"><a href="#3-4-forslags-mte-og-talerett-i-styret">§ 3-4. Forslags-, møte- og talerett i styret</a></li>
+<li class="lvl4"><a href="#3-5-bruk-av-kontraktsmedhjelpere">§ 3-5. Bruk av kontraktsmedhjelpere</a></li>
+<li class="lvl4"><a href="#3-6-taushetsplikt">§ 3-6. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-7-bruk-av-elektronisk-kommunikasjon-elektroniske-medier-mv">§ 3-7. Bruk av elektronisk kommunikasjon, elektroniske medier mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-kvalifikasjonskrav-tittel">Kapittel 4. Kvalifikasjonskrav. Tittel</a></li>
+<li class="lvl4"><a href="#4-1-kvalifikasjonskrav">§ 4-1. Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#4-2-eiendomsmeglerbrev">§ 4-2. Eiendomsmeglerbrev</a></li>
+<li class="lvl4"><a href="#4-3-adgang-for-jurister-til-a-vre-fagansvarlig-og-ansvarlig-megler">§ 4-3. Adgang for jurister til å være fagansvarlig og ansvarlig megler</a></li>
+<li class="lvl4"><a href="#4-4-medhjelpere-til-ansvarlig-megler">§ 4-4. Medhjelpere til ansvarlig megler</a></li>
+<li class="lvl4"><a href="#4-5-tittel">§ 4-5. Tittel</a></li>
+<li class="lvl4"><a href="#4-6-etterutdanning">§ 4-6. Etterutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-uavhengighet">Kapittel 5. Krav til uavhengighet</a></li>
+<li class="lvl4"><a href="#5-1-foretakets-adgang-til-a-drive-annen-nringsvirksomhet">§ 5-1. Foretakets adgang til å drive annen næringsvirksomhet</a></li>
+<li class="lvl4"><a href="#5-2-ansattes-adgang-til-a-drive-nringsvirksomhet-mv">§ 5-2. Ansattes adgang til å drive næringsvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#5-3-forbud-mot-egenhandel-opplysningsplikt-om-egeninteresse">§ 5-3. Forbud mot egenhandel. Opplysningsplikt om egeninteresse</a></li>
+<li class="lvl4"><a href="#5-4-forholdet-til-andre-tjenesteytere">§ 5-4. Forholdet til andre tjenesteytere</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppdraget-og-utfrelsen-av-dette">Kapittel 6. Oppdraget og utførelsen av dette</a></li>
+<li class="lvl4"><a href="#6-1-oppdragstaker">§ 6-1. Oppdragstaker</a></li>
+<li class="lvl4"><a href="#6-2-ansvarlig-megler">§ 6-2. Ansvarlig megler</a></li>
+<li class="lvl4"><a href="#6-3-god-meglerskikk">§ 6-3. God meglerskikk</a></li>
+<li class="lvl4"><a href="#6-4-oppdragsavtalen">§ 6-4. Oppdragsavtalen</a></li>
+<li class="lvl4"><a href="#6-5-oppdragets-varighet">§ 6-5. Oppdragets varighet</a></li>
+<li class="lvl4"><a href="#6-6-fullmakt">§ 6-6. Fullmakt</a></li>
+<li class="lvl4"><a href="#6-7-oppdragstakerens-underskelses-og-opplysningsplikt">§ 6-7. Oppdragstakerens undersøkelses- og opplysningsplikt</a></li>
+<li class="lvl4"><a href="#6-8-oppdragstakerens-plikter-ved-budgivningen">§ 6-8. Oppdragstakerens plikter ved budgivningen</a></li>
+<li class="lvl4"><a href="#6-9-oppdragstakerens-plikter-ved-kontraktsslutningen">§ 6-9. Oppdragstakerens plikter ved kontraktsslutningen.</a></li>
+<li class="lvl4"><a href="#6-10-oppdragstakerens-plikter-ved-gjennomfring-av-handelen">§ 6-10. Oppdragstakerens plikter ved gjennomføring av handelen</a></li>
+<li class="lvl2"><a href="#kapittel-7-vederlag-utlegg">Kapittel 7. Vederlag. Utlegg</a></li>
+<li class="lvl4"><a href="#7-1-prisinformasjon">§ 7-1. Prisinformasjon</a></li>
+<li class="lvl4"><a href="#7-2-generelt-om-vederlaget">§ 7-2. Generelt om vederlaget</a></li>
+<li class="lvl4"><a href="#7-3-oppdragstakerens-krav-pa-vederlag">§ 7-3. Oppdragstakerens krav på vederlag</a></li>
+<li class="lvl4"><a href="#7-4-betaling-av-vederlag">§ 7-4. Betaling av vederlag</a></li>
+<li class="lvl4"><a href="#7-5-dekning-av-utlegg">§ 7-5. Dekning av utlegg</a></li>
+<li class="lvl4"><a href="#7-6-deling-av-vederlag">§ 7-6. Deling av vederlag</a></li>
+<li class="lvl4"><a href="#7-7-nedsettelse-av-vederlag">§ 7-7. Nedsettelse av vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-8-tilsyn-og-sanksjoner">Kapittel 8. Tilsyn og sanksjoner</a></li>
+<li class="lvl4"><a href="#8-1-tilsyn-med-eiendomsmegling">§ 8-1. Tilsyn med eiendomsmegling</a></li>
+<li class="lvl4"><a href="#8-2-tilbakekall-av-tillatelse-for-foretak-og-vedtak-om-stans-av-virksomhet-i-filial">§ 8-2. Tilbakekall av tillatelse for foretak og vedtak om stans av virksomhet i filial</a></li>
+<li class="lvl4"><a href="#8-3-adgang-til-a-forby-advokat-a-drive-eiendomsmegling-etter-2-1-frste-ledd-nr-2">§ 8-3. Adgang til å forby advokat å drive eiendomsmegling etter § 2-1 første ledd nr. 2</a></li>
+<li class="lvl4"><a href="#8-4-tilbakekall-av-eiendomsmeglerbrev">§ 8-4. Tilbakekall av eiendomsmeglerbrev</a></li>
+<li class="lvl4"><a href="#8-5-tilbakekall-av-tillatelse-til-jurist">§ 8-5. Tilbakekall av tillatelse til jurist</a></li>
+<li class="lvl4"><a href="#8-6-adgang-til-a-forby-advokat-a-vre-fagansvarlig-og-ansvarlig-megler">§ 8-6. Adgang til å forby advokat å være fagansvarlig og ansvarlig megler</a></li>
+<li class="lvl4"><a href="#8-6-a-adgang-til-a-forby-person-a-vre-eiendomsmeglerfullmektig-eller-oppgjrsmedhjelper">§ 8-6 a. Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper</a></li>
+<li class="lvl4"><a href="#8-7-suspensjon-av-retten-til-a-drive-eiendomsmegling">§ 8-7. Suspensjon av retten til å drive eiendomsmegling.</a></li>
+<li class="lvl4"><a href="#8-8-behandling-av-tvister-i-klageorgan">§ 8-8. Behandling av tvister i klageorgan</a></li>
+<li class="lvl4"><a href="#8-9-overtredelsesgebyr">§ 8-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-10-straff">§ 8-10. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9. Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-og-overgangsregler">§ 9-1. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-06-29-73.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2007-06-29-73.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-06-29-73.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2007-06-29-73.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2007-06-29-73.html">Observerte kildeutgaver</a> · <a href="../historie/eiendomsmeglingsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/a38654ef2cac6c5bfe8ecd7c09522022d7cad361/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2007-06-29-73.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2007-06-29-73.html">Observerte kildeutgaver</a> · <a href="../historie/eiendomsmeglingsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2007/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2007-06-29-73.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-eiendomsmegling-eiendomsmeglingsloven">Lov om eiendomsmegling (eiendomsmeglingsloven)</h1>
 <h2 id="kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Lovens formål er å legge til rette for at omsetning av fast eiendom ved bruk av mellommann skjer på en sikker, ordnet og effektiv måte, samt å legge til rette for at partene i handelen mottar uhildet bistand.</p>
@@ -95,7 +278,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Som eiendomsmegling regnes ikke formidling av avtale om utleie av hytte eller privatbolig eller rom i slike til fritidsformål, samt formidling av rom i hoteller, herberger mv. for overnatting eller opphold. Unntaket omfatter ikke deltidsbruksrett som gjelder fast eiendom og faller inn under lov om avtaler om deltidsbruksrett og langtidsferieprodukter mv .</p>
 <p>(5) Som eiendomsmegling etter annet ledd regnes ikke tjenester som utøves for foretak innen samme konsern, jf. aksjeloven og allmennaksjeloven § 1-3 , eller for foretak innen en gruppe med tilsvarende tilknytning mellom foretakene, dersom den aktuelle eiendommen ikke helt eller delvis er egnet brukt til bolig- eller fritidsformål.</p>
 <p>(6) Når det i denne lov brukes betegnelsene kjøp, handel, salg o.l., inngår også de øvrige erverv som nevnt i annet ledd.</p>
-<p><em>Endret ved lover 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 25 mai 2012 nr. 27 (ikr. 1 juli 2012 iflg. res. 25 mai 2012 nr. 472 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ).</em></p>
+<p class="note">Endret ved lover 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 25 mai 2012 nr. 27 (ikr. 1 juli 2012 iflg. res. 25 mai 2012 nr. 472 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ).</p>
 <h4 id="1-3-fravikelighet-utenfor-forbrukerforhold">§ 1-3. Fravikelighet utenfor forbrukerforhold</h4>
 <p>Bestemmelsene i § 6-4 , § 6-5 , § 7-1 , § 7-2 første til tredje ledd, § 7-4 første og tredje ledd og § 8-8 kan fravikes utenfor forbrukerforhold. Med forbrukerforhold i loven her menes tilfeller der oppdragsgiver er fysisk person som ikke hovedsakelig handler som ledd i næringsvirksomhet.</p>
 <h4 id="1-4-forskrifter-om-visse-former-for-eiendomsmeglingsvirksomhet">§ 1-4. Forskrifter om visse former for eiendomsmeglingsvirksomhet</h4>
@@ -114,17 +297,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Tillatelse kreves ikke for banker som forestår oppgjør som nevnt i § 1-2 annet ledd.</p>
 <p>(3) Departementet kan gi forskrift om at eiendomsmegling mot godtgjørelse også kan drives av foretak som yter rettslig bistand etter reglene i advokatloven kapittel 14 .</p>
 <p>(4) Departementet kan i forskrift gi regler om at eiendomsmegling mot godtgjørelse også kan drives midlertidig av personer som er lovlig etablert i en annen EØS-stat med sikte på å drive slik virksomhet der, og kan gi nærmere regler om utøvelsen av slik virksomhet, herunder unntak fra lovens regler.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</p>
 <h4 id="2-2-melding-om-etablering-av-filial-mv">§ 2-2. Melding om etablering av filial mv. <a class="para-history" href="../historikk/lov-2007-06-29-73/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , skal sende melding til Finanstilsynet senest 14 dager før etablering av filial i Norge. § 2-3 tredje ledd gjelder tilsvarende for meldingen.</p>
 <p>(2) Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , må ha tillatelse fra Finanstilsynet for å etablere filial eller datterselskap i utlandet. Departementet kan i forskrift fastsette nærmere regler for slike filialer/datterselskap.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="2-3-konsesjonsmyndighet-sknad-om-tillatelse">§ 2-3. Konsesjonsmyndighet. Søknad om tillatelse</h4>
 <p>(1) Finanstilsynet kan gi tillatelse til å drive eiendomsmegling til foretak som oppfyller kravene i § § 2-4 til 2-9 . Det kan stilles vilkår for tillatelsen, herunder at foretaket før virksomheten starter opp dokumenterer overfor Finanstilsynet at kravet i § 2-10 er oppfylt.</p>
 <p>(2) Dersom kravene i § 2-5 annet ledd og § 2-9 annet ledd tredje punktum er oppfylt, kan Finanstilsynet gi tillatelse som nevnt i § 2-2 .</p>
 <p>(3) Søknad om tillatelse skal inneholde opplysninger som viser at kravene som nevnt i første ledd første punktum eller annet ledd er oppfylt, samt andre opplysninger av betydning for vurderingen av om tillatelse skal gis. Finanstilsynet kan be om ytterligere opplysninger som er av betydning for behandling av søknaden. Departementet kan i forskrift fastsette nærmere regler om hvilke opplysninger som skal fremgå av søknaden.</p>
 <p>(4) Departementet kan gi forskrift om saksbehandlingsregler til utfylling av reglene i <a href="lov-2009-06-19-103.html">tjenesteloven</a> for tillatelse til å drive eiendomsmegling, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse. Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser. Saksbehandlingsreglene kan fravike reglene i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> .</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</p>
 <h4 id="2-4-krav-til-foretaksform">§ 2-4. Krav til foretaksform <a class="para-history" href="../historikk/lov-2007-06-29-73/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tillatelse til å drive eiendomsmegling kan gis til:</p>
 <ol>
@@ -133,11 +316,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>utenlandske foretak som er registrert i Foretaksregisteret, jf. <a href="lov-2025-06-20-106.html">foretaksregisterloven</a> , som oppfyller nærmere krav til organisering og revisjonsplikt fastsatt i forskrift gitt av departementet, og</li>
 <li>andre foretak som oppfyller nærmere krav til organisering og revisjonsplikt fastsatt i forskrift gitt av departementet.</li>
 </ol>
-<p><em>Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</p>
 <h4 id="2-5-krav-til-fast-kontorsted">§ 2-5. Krav til fast kontorsted</h4>
 <p>(1) Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , skal ha fast kontorsted i Norge. Finanstilsynet kan i enkeltvedtak gjøre unntak fra kravet til fast kontorsted, forutsatt at foretakets dokumenter som gjelder oppdrag som omfattes av denne lov, oppbevares på et fast sted her i riket på en ordnet og forsvarlig måte. Dokumentene skal være tilgjengelig og tilrettelagt for innsyn fra offentlig kontrollmyndighet og lovhjemlet innsyn for øvrig.</p>
 <p>(2) Første ledd gjelder tilsvarende for filial som nevnt i § 2-2 .</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</p>
 <h4 id="2-6-krav-til-konomi">§ 2-6. Krav til økonomi</h4>
 <p>(1) Foretak som driver eiendomsmegling, jf. § 2-1 må:</p>
 <ol>
@@ -150,14 +333,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-7-sikkerhetsstillelse">§ 2-7. Sikkerhetsstillelse <a class="para-history" href="../historikk/lov-2007-06-29-73/para-2-7.html" title="Endringshistorikk for § 2-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , må stille sikkerhet som dekker det ansvar de kan pådra seg under utøvelse av eiendomsmeglingsvirksomheten.</p>
 <p>(2) Departementet kan i forskrift fastsette nærmere regler om sikkerhet som nevnt i første ledd. Departementet kan i forskrift eller enkeltvedtak gjøre unntak fra kravet i første ledd.</p>
-<p><em>Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="2-8-aksjeeierstruktur">§ 2-8. Aksjeeierstruktur <a class="para-history" href="../historikk/lov-2007-06-29-73/para-2-8.html" title="Endringshistorikk for § 2-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Eier av betydelig eierandel i eiendomsmeglingsforetak, jf. § 2-1 første ledd nr. 1, skal være egnet til å sikre at foretaket drives i samsvar med lover, forskrifter og god meglerskikk. Med betydelig eierandel menes direkte eller indirekte eierandel som representerer minst 10 prosent av aksjekapitalen eller stemmene, eller som på annen måte gjør det mulig å utøve betydelig innflytelse over forvaltningen i selskapet. Like med vedkommende eiers egne aksjer regnes aksjer som eies av dennes nærstående. Med nærstående menes i denne bestemmelsen personer som nevnt i lov 29. juni 2007 nr. 75 om verdipapirhandel § 2-5 .</p>
 <p>(2) Erverv av betydelig eierandel i eiendomsmeglingsforetak kan bare gjennomføres etter at melding om dette på forhånd er sendt til Finanstilsynet.</p>
 <p>(3) Melding til Finanstilsynet skal også sendes før økning av eierandel som medfører at vedkommendes andel av aksjekapitalen eller stemmene når opp til eller overstiger 20 prosent, 33 prosent eller 50 prosent.</p>
 <p>(4) Finanstilsynet skal innen tre måneder fra den dag som melding etter annet og tredje ledd er mottatt, nekte slikt erverv dersom erververen ikke oppfyller vilkårene i første ledd.</p>
 <p>(5) Departementet kan i forskrift gi nærmere regler om plikten for eiendomsmeglingsforetak til å gi melding om foretakets eiere.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h4 id="2-9-krav-til-ledelsen-og-ansatte">§ 2-9. Krav til ledelsen og ansatte <a class="para-history" href="../historikk/lov-2007-06-29-73/para-2-9.html" title="Endringshistorikk for § 2-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Styremedlemmer og daglig leder i eiendomsmeglingsforetak, jf. § 2-1 , skal ha relevante kvalifikasjoner og yrkeserfaring, ha ført en hederlig vandel, jf. tredje ledd, og for øvrig ikke ha utvist utilbørlig atferd som gir grunn til å anta at stillingen eller vervet ikke vil kunne ivaretas på forsvarlig måte.</p>
 <p>(2) Foretaket skal ha en fagansvarlig person (fagansvarlig), som enten har eiendomsmeglerbrev, jf. § 4-2 , advokatbevilling eller tillatelse etter § 4-3 . Vedkommende skal være egnet til å sikre at foretaket drives i samsvar med lover, forskrifter og god meglerskikk. Dersom foretakets styre finner det forsvarlig, kan samme person være fagansvarlig for flere filialer. Finanstilsynet kan gi tillatelse til at samme person er fagansvarlig for mer enn ett foretak.</p>
@@ -165,10 +348,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Første og tredje ledd gjelder tilsvarende for eiendomsmeglerfullmektiger, jf. § 4-5 annet ledd , og medhjelpere som har bestått eksamen i oppgjør, jf. § 4-4 annet ledd , i eiendomsmeglingsforetak eller hos advokat som driver eiendomsmegling, jf. § 2-1 . Første punktum gjelder likevel ikke for autorisert fullmektig, jf. lov 12. mai 2022 nr. 28 om advokater og andre som yter rettslig bistand § 11 .</p>
 <p>(5) Eiendomsmeglingsforetak skal innen 14 dager sende melding til Finanstilsynet ved skifte av styremedlem, daglig leder og fagansvarlig. Det samme gjelder ved ansettelse av oppgjørsmedhjelpere og eiendomsmeglerfullmektiger som nevnt i fjerde ledd.</p>
 <p>(6) Departementet kan i forskrift gi nærmere regler til utfylling og gjennomføring av denne paragrafen, herunder om foretakets plikt til å gi melding etter femte ledd, om rettigheter og plikter for fagansvarlig, samt om hvilke straffbare forhold som skal avmerkes på politiattesten og om behandling av denne.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="2-10-tilslutning-til-utenrettslig-tvistelsningsordning">§ 2-10. Tilslutning til utenrettslig tvisteløsningsordning</h4>
 <p>Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , skal være tilsluttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.</p>
-<p><em>Endret ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ).</p>
 <h2 id="kapittel-3-nrmere-krav-til-virksomheten">Kapittel 3. Nærmere krav til virksomheten</h2>
 <h4 id="3-1-journalfring">§ 3-1. Journalføring</h4>
 <p>Foretak og advokat som driver eiendomsmegling, jf. § 2-1 , plikter å føre journal over mottatte og utførte oppdrag etter forskrift fastsatt av departementet.</p>
@@ -177,7 +360,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Klientmidler tilhører den som har innbetalt eller overlevert disse til foretaket eller advokaten, inntil de er brukt på den måten som er avtalt. Klientmidler kan ikke disponeres på annen måte enn det som er avtalt.</p>
 <p>(3) Kreditorer kan kun søke dekning i kjøpesummen som er oppbevart i henhold til første ledd dersom beløpet tilhører debitor på beslagstiden, jf. <a href="lov-1984-06-08-59.html">dekningsloven</a> § 2-2 , og betingelsene for frigivelse som gjelder mellom partene i handelen, er oppfylt.</p>
 <p>(4) Departementet kan i forskrift fastsette nærmere regler om behandling og sikring av klientmidler.</p>
-<p><em>Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="3-3-styrets-ansvar-for-rutiner-for-meglingen">§ 3-3. Styrets ansvar for rutiner for meglingen</h4>
 <p>Styret i eiendomsmeglingsforetaket, jf. § 2-1 , skal påse at det utarbeides rutiner for hvordan meglingen skal utføres og at disse oppdateres ved behov. Styret skal skriftlig bekrefte at dette er gjort.</p>
 <h4 id="3-4-forslags-mte-og-talerett-i-styret">§ 3-4. Forslags-, møte- og talerett i styret</h4>
@@ -192,7 +375,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. avtalens innhold i sin helhet er tilgjengelig ved avtaleinngåelsen, og
 b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</p>
 <p>(3) Departementet kan i forskrift fastsette regler om elektronisk kommunikasjon og elektroniske medier.</p>
-<p><em>Tilføyd ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Tilføyd ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h2 id="kapittel-4-kvalifikasjonskrav-tittel">Kapittel 4. Kvalifikasjonskrav. Tittel</h2>
 <h4 id="4-1-kvalifikasjonskrav">§ 4-1. Kvalifikasjonskrav</h4>
 <p>(1) Fagansvarlig, jf. § 2-9 annet ledd, og ansvarlig megler, jf. § 6-2 , må ha eiendomsmeglerbrev, jf. § 4-2 , advokatbevilling eller tillatelse etter § 4-3 .</p>
@@ -210,7 +393,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(3) Departementet kan i forskrift fastsette nærmere regler om kravene til eksamen og praksis, herunder gjøre unntak fra kravet til praksis.</p>
 <p>(4) Departementet kan i forskrift fastsette bestemmelser om godkjenning av søkere med yrkeskvalifikasjoner fra andre land.</p>
 <p>(5) Søkeren kan kreve at eiendomsmeglerbrevet utstedes på papir.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="4-3-adgang-for-jurister-til-a-vre-fagansvarlig-og-ansvarlig-megler">§ 4-3. Adgang for jurister til å være fagansvarlig og ansvarlig megler <a class="para-history" href="../historikk/lov-2007-06-29-73/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan gi tillatelse til å være fagansvarlig, jf. § 2-9 annet ledd, og ansvarlig megler, jf. § 6-2 , til personer som har bestått norsk juridisk embetseksamen og som:</p>
 <ol>
@@ -223,18 +406,18 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(3) Departementet kan i forskrift fastsette nærmere regler om kravene til praksis, herunder gjøre unntak fra dette kravet.</p>
 <p>(4) Finanstilsynet kan godta juridisk eksamen fra utlandet etter reglene i <a href="lov-1915-08-13-5.html">domstolloven</a> § 241 .</p>
 <p>(5) Søkeren kan kreve at tillatelsen utstedes på papir.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="4-4-medhjelpere-til-ansvarlig-megler">§ 4-4. Medhjelpere til ansvarlig megler <a class="para-history" href="../historikk/lov-2007-06-29-73/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Bare personer som har bestått eksamen godkjent av departementet, kan være medhjelper for ansvarlig megler.</p>
 <p>(2) Medhjelpere som arbeider med oppgjør, skal ha bestått en særskilt eksamen godkjent av departementet, som viser at vedkommende innehar de nødvendige kvalifikasjoner knyttet til gjennomføring av oppgjør.</p>
 <p>(3) Departementet kan i forskrift fastsette krav til eksamen som nevnt i første og annet ledd og fastsette unntak fra kravet om at eksamen må være bestått på ansettelsestidspunktet. Videre kan departementet i forskrift fastsette krav til tilsyn med oppgjørsmedhjelper som utfører oppgjør.</p>
-<p><em>Endret ved lov 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ).</p>
 <h4 id="4-5-tittel">§ 4-5. Tittel <a class="para-history" href="../historikk/lov-2007-06-29-73/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tittelen «eiendomsmegler» kan bare benyttes av personer som har eiendomsmeglerbrev, jf. § 4-2 , jurister med tillatelse etter § 4-3 , advokater som driver eiendomsmegling, og personer med tillatelse etter forskrift fastsatt i medhold av § 9-1 annet ledd.</p>
 <p>(2) Tittelen «eiendomsmeglerfullmektig» kan bare benyttes av personer med eiendomsmeglereksamen, jf. § 4-2 første ledd nr. 2, og personer med norsk juridisk embetseksamen, som er ansatt i et eiendomsmeglingsforetak, jf. § 2-1 , eller hos en advokat som driver eiendomsmegling etter § 2-1 første ledd nr. 2, og som arbeider under tilsyn av en ansvarlig megler.</p>
 <p>(3) Første og annet ledd gjelder tilsvarende for personer med tillatelse i medhold av § § 4-2 fjerde ledd og 4-3 fjerde ledd.</p>
 <p>(4) Tittelen «statsautorisert eiendomsmegler» kan ikke benyttes.</p>
-<p><em>Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="4-6-etterutdanning">§ 4-6. Etterutdanning</h4>
 <p>Personer som har eiendomsmeglerbrev etter § 4-2 , advokatbevilling, eller tillatelse etter § 4-3 , samt medhjelpere etter § 4-4 , som er engasjert i eiendomsmeglingsvirksomhet, skal gjennomgå etterutdanning i samsvar med forskrift fastsatt av departementet.</p>
 <h2 id="kapittel-5-krav-til-uavhengighet">Kapittel 5. Krav til uavhengighet</h2>
@@ -270,20 +453,20 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 </ol>
 <p>(7) Dersom personer eller foretak som nevnt i første og annet ledd i andre tilfeller har eller får personlig eller økonomisk interesse i den handelen oppdraget gjelder, skal partene straks gis opplysning om dette.</p>
 <p>(8) Departementet kan i forskrift fastsette nærmere regler om egenhandel, samt i forskrift eller enkeltvedtak gjøre unntak fra bestemmelsen her.</p>
-<p><em>Endret ved lov 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ).</em></p>
+<p class="note">Endret ved lov 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ).</p>
 <h4 id="5-4-forholdet-til-andre-tjenesteytere">§ 5-4. Forholdet til andre tjenesteytere</h4>
 <p>Foretak og advokater som driver eiendomsmegling, jf. § 2-1 , og personer som nevnt i § 5-3 første ledd, kan ikke motta inntekter eller andre fordeler fra andre enn oppdragsgiver for utføringen av oppdraget, herunder fra tjenesteytere som benyttes for gjennomføringen av det.</p>
 <h2 id="kapittel-6-oppdraget-og-utfrelsen-av-dette">Kapittel 6. Oppdraget og utførelsen av dette</h2>
 <h4 id="6-1-oppdragstaker">§ 6-1. Oppdragstaker <a class="para-history" href="../historikk/lov-2007-06-29-73/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Med oppdragstaker menes i loven her foretak og advokat som driver eiendomsmegling, jf. § 2-1 , som i avtale har påtatt seg å yte eiendomsmeglingstjenester, jf. § 1-2 annet ledd.</p>
 <p>(2) Plikter som påhviler oppdragstakeren etter dette kapitlet, påhviler også den enkelte person med eiendomsmeglerbrev, jf. § 4-2 , jurist med tillatelse etter § 4-3 , eiendomsmeglerfullmektig, jf. § 4-5 annet ledd, og advokat som har rett til å drive eiendomsmegling, i deres virksomhetsutøvelse.</p>
-<p><em>Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="6-2-ansvarlig-megler">§ 6-2. Ansvarlig megler <a class="para-history" href="../historikk/lov-2007-06-29-73/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det skal utpekes en ansvarlig megler for hvert oppdrag. Ansvarlig megler skal ha eiendomsmeglerbrev, jf. § 4-2 , advokatbevilling eller tillatelse etter § 4-3 .</p>
 <p>(2) Ansvarlig megler skal selv utføre de vesentligste elementene i meglingen, men kan benytte seg av medhjelpere, jf. § 4-4 , til mindre vesentlige oppgaver og oppgaver av rutinemessig eller teknisk karakter.</p>
 <p>(3) Annet ledd er ikke til hinder for at oppdrag utføres av eiendomsmeglerfullmektig som nevnt i § 4-5 annet ledd under tilsyn av ansvarlig megler for oppdraget, eller at oppgjør utføres av medhjelper som har bestått eksamen i oppgjør, jf. § 4-4 andre ledd.</p>
 <p>(4) Departementet kan i forskrift gi nærmere regler om ansvarlig meglers rettigheter og plikter, samt om arbeids- og ansvarsfordelingen mellom ansvarlig megler og eventuelle medhjelpere. Videre kan departementet i forskrift gi nærmere regler om ansvarlig meglers tilsyn med oppdrag som utføres av eiendomsmeglerfullmektig.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="6-3-god-meglerskikk">§ 6-3. God meglerskikk</h4>
 <p>(1) Oppdragstaker skal i sin virksomhetsutøvelse opptre i samsvar med god meglerskikk med omsorg for begge parters interesser. Oppdragstakeren må ikke opptre på noen måte som er egnet til å svekke tilliten til oppdragstakerens integritet og uavhengighet.</p>
 <p>(2) Oppdragstakeren skal gi kjøper og selger råd og opplysninger av betydning for handelen og gjennomføringen av denne.</p>
@@ -307,7 +490,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(2) Dersom det skal benyttes kontraktsmedhjelper som nevnt i § 3-5 , skal dennes navn, adresse og organisasjonsnummer opplyses.</p>
 <p>(3) Avtalen skal undertegnes av oppdragsgiveren og ansvarlig megler for oppdraget.</p>
 <p>(4) Skifte av ansvarlig megler skal skriftlig opplyses til oppdragsgiveren.</p>
-<p><em>Endret ved lover 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lover 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="6-5-oppdragets-varighet">§ 6-5. Oppdragets varighet</h4>
 <p>(1) Oppdraget skal gis for et bestemt tidsrom som ikke kan være lenger enn seks måneder. Oppdraget kan fornyes for inntil seks måneder om gangen. Fornyelse skal være skriftlig.</p>
 <p>(2) Oppdraget kan sies opp uten varsel av hver av partene.</p>
@@ -350,7 +533,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(5) I forbindelse med transaksjoner som omfattes av lovens § 1-2 annet ledd nr. 4, skal den skriftlige oppgaven inneholde vesentlige opplysninger om selskapets budsjett og regnskap, samt opplysninger om at disse dokumentene er tilgjengelige hos oppdragstakeren.</p>
 <p>(6) Med unntak av salg av bolig som ennå ikke er fullført, kan oppdragstakeren ikke markedsføre eiendommen for salg før oppgave som nevnt i annet ledd er ferdigstilt og tilgjengelig.</p>
 <p>(7) Departementet kan i forskrift fastsette nærmere regler om hvilke opplysninger som skal inntas i oppgave som nevnt i annet, tredje og fjerde ledd, samt fastsette ytterligere krav.</p>
-<p><em>Endret ved lover 3 sep 2010 nr. 54 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1238 ), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Endret ved lover 3 sep 2010 nr. 54 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1238 ), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="6-8-oppdragstakerens-plikter-ved-budgivningen">§ 6-8. Oppdragstakerens plikter ved budgivningen <a class="para-history" href="../historikk/lov-2007-06-29-73/para-6-8.html" title="Endringshistorikk for § 6-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Oppdragstakeren skal legge til rette for en forsvarlig avvikling av budrunden.</p>
 <p>(2) Oppdragstakeren skal oppfordre oppdragsgiveren til ikke å inngå avtale direkte med budgiveren, men henvise til oppdragstakeren. Oppdragstakeren skal videre oppfordre oppdragsgiveren til å konferere med oppdragstakeren, dersom oppdragsgiveren mottar bud direkte.</p>
@@ -360,11 +543,11 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(6) Oppdragstakeren skal kontrollere budgiverens finansiering før handel sluttes. Har oppdragstakeren ikke foretatt slik kontroll, skal selgeren før handel sluttes gis skriftlig orientering om grunnen til dette, og om mulige konsekvenser av at kontrollen ikke er foretatt.</p>
 <p>(7) Oppdragstakeren skal gi partene i handelen og budgivere innsyn i budjournalen i samsvar med nærmere regler fastsatt i forskrift av departementet.</p>
 <p>(8) Departementet kan i forskrift fastsette nærmere regler om oppdragstakerens plikter ved budgivningen.</p>
-<p><em>Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="6-9-oppdragstakerens-plikter-ved-kontraktsslutningen">§ 6-9. Oppdragstakerens plikter ved kontraktsslutningen. <a class="para-history" href="../historikk/lov-2007-06-29-73/para-6-9.html" title="Endringshistorikk for § 6-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Med mindre kjøper og selger ønsker noe annet, skal oppdragstakeren opprette skriftlig kjøpekontrakt som inneholder alle vesentlige vilkår for handelen.</p>
 <p>(2) Kjøpekontrakten kan utferdiges elektronisk dersom både kjøper og selger uttrykkelig har godtatt dette.</p>
-<p><em>Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 6-8).</em></p>
+<p class="note">Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 6-8).</p>
 <h4 id="6-10-oppdragstakerens-plikter-ved-gjennomfring-av-handelen">§ 6-10. Oppdragstakerens plikter ved gjennomføring av handelen <a class="para-history" href="../historikk/lov-2007-06-29-73/para-6-10.html" title="Endringshistorikk for § 6-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Med mindre kjøper og selger ønsker noe annet, skal oppdragstakeren sørge for</p>
 <ol>
@@ -375,7 +558,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 </ol>
 <p>(2) Oppdragstakere som bistår med oppgaver som nevnt i første ledd nr. 1, 2 eller 4 er etter lov 12. desember 1975 nr. 59 om dokumentavgift , lov 6. juni 2003 nr. 39 om burettslag og lov 7. juni 1935 nr. 2 om tinglysing , ansvarlig for at avgifter, gebyrer og renter knyttet til tinglysing av skjøte og andre dokumenter som har sammenheng med salget, blir betalt.</p>
 <p>(3) Oppdragstakere som forestår oppgjør, skal sørge for at kjøperen har fått rettsvern for sitt erverv før kjøpesummen disponeres på vegne av selgeren. Departementet kan gi nærmere regler i forskrift om gjennomføring av det økonomiske oppgjøret, herunder unntak fra regelen i første punktum.</p>
-<p><em>Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 6-9). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 6-9). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-7-vederlag-utlegg">Kapittel 7. Vederlag. Utlegg</h2>
 <h4 id="7-1-prisinformasjon">§ 7-1. Prisinformasjon</h4>
 <p>Foretak og advokater som driver eiendomsmegling, jf. § 2-1 , skal informere om prisene på sine tjenester, slik at de lett kan ses av kundene. Departementet kan i forskrift gi nærmere regler om slik plikt til å gi prisinformasjon.</p>
@@ -385,7 +568,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <p>(3) Uavhengig av avtalt vederlagsform skal oppdragstakeren skrive regning. Regningen skal gjøre det mulig for oppdragsgiveren å bedømme arten og omfanget av arbeidet som er utført.</p>
 <p>(4) Det kan ikke avtales at andre enn oppdragsgiveren skal betale oppdragstakerens vederlag, herunder utlegg.</p>
 <p>(5) Departementet kan i forskrift fastsette nærmere regler om oppdragstakerens vederlag, plikten til å gi tilbud basert på timepris som nevnt i annet ledd og plikten til å skrive regning som nevnt i tredje ledd.</p>
-<p><em>Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Endret ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="7-3-oppdragstakerens-krav-pa-vederlag">§ 7-3. Oppdragstakerens krav på vederlag</h4>
 <p>(1) Oppdragstakeren har krav på vederlag dersom handel kommer i stand i oppdragstiden. Dette gjelder selv om det ikke skyldes oppdragstakerens innsats at handel er kommet i stand. Handel er kommet i stand når partene er endelig bundet.</p>
 <p>(2) Oppdragstakeren har også krav på vederlag dersom handel er kommet i stand innen tre måneder etter at oppdragstiden er ute med noen</p>
@@ -416,7 +599,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 </ol>
 <p>(2) Foretak og personer som nevnt i første ledd plikter å gi Finanstilsynet de opplysninger som måtte bli krevd angående virksomheten. Disse plikter også å fremvise og i tilfelle utlevere til kontroll forretningsbøker og øvrige dokumenter samt utskrifter av den elektronisk lagrede informasjon som angår eiendomsmeglingsvirksomheten.</p>
 <p>(3) Første og annet ledd gjelder tilsvarende for foretak, advokater og personer som nevnt i første ledd som er fratatt tillatelse til å drive eiendomsmegling etter § 8-2 , er forbydd å drive eiendomsmegling etter § 8-3 , har fått tilbakekalt sitt eiendomsmeglerbrev etter § 8-4 , er fratatt sin tillatelse etter § 8-5 , er forbydd å være fagansvarlig eller ansvarlig megler etter § 8-6 , eller som selv har frasagt seg de nevnte rettigheter.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h4 id="8-2-tilbakekall-av-tillatelse-for-foretak-og-vedtak-om-stans-av-virksomhet-i-filial">§ 8-2. Tilbakekall av tillatelse for foretak og vedtak om stans av virksomhet i filial <a class="para-history" href="../historikk/lov-2007-06-29-73/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan kalle tilbake et foretaks tillatelse til å drive eiendomsmegling, jf. § 2-1 , dersom det finnes utilrådelig å la eiendomsmeglingsvirksomheten drives videre fordi foretaket</p>
 <ol>
@@ -431,7 +614,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 </ol>
 <p>(2) Finanstilsynet kan stanse virksomheten i en filial, jf. § 2-2 , dersom filialen ikke lenger oppfyller vilkårene i § 2-5 annet ledd eller § 2-9 annet ledd tredje punktum, eller ett eller flere av vilkårene i første ledd nr. 5 til 7 er oppfylt for filialen.</p>
 <p>(3) I tilfeller som nevnt i første ledd kan Finanstilsynet oppnevne en forvalter som selv har tillatelse til å drive eiendomsmegling etter § 2-1 første ledd til å sluttføre oppdrag etter denne loven. Departementet kan i forskrift fastsette nærmere bestemmelser om forvalterens rettigheter og plikter. Dersom det er nødvendig for en forsvarlig avvikling av løpende oppdrag, kan departementet i enkeltvedtak gjøre unntak fra lovens bestemmelser.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 ).</p>
 <h4 id="8-3-adgang-til-a-forby-advokat-a-drive-eiendomsmegling-etter-2-1-frste-ledd-nr-2">§ 8-3. Adgang til å forby advokat å drive eiendomsmegling etter § 2-1 første ledd nr. 2 <a class="para-history" href="../historikk/lov-2007-06-29-73/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan forby advokater å drive eiendomsmegling, jf. § 2-1 første ledd nr. 2, dersom det finnes utilrådelig å la eiendomsmeglingsvirksomheten drives videre fordi advokaten:</p>
 <ol>
@@ -443,7 +626,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <li>ikke innen den frist som er fastsatt av Finanstilsynet oppfyller pålegg om å slutte seg til utenrettslig tvisteløsningsordning.</li>
 </ol>
 <p>(2) I tilfelle som nevnt i første ledd kan Finanstilsynet oppnevne en forvalter som selv har tillatelse til å drive eiendomsmegling etter § 2-1 første ledd til å sluttføre oppdrag etter denne loven. Reglene i § 8-2 tredje ledd annet og tredje punktum gjelder tilsvarende.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 4 juni 2010 nr. 20 (ikr. 1 juli 2010 iflg. res. 4 juni 2010 nr. 771 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</p>
 <h4 id="8-4-tilbakekall-av-eiendomsmeglerbrev">§ 8-4. Tilbakekall av eiendomsmeglerbrev</h4>
 <p>Finanstilsynet kan kalle tilbake eiendomsmeglerbrev, jf. § 4-2 , dersom en innehaver av slikt brev anses uegnet fordi vedkommende</p>
 <ol>
@@ -451,7 +634,7 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <li>har gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, eller</li>
 <li>grovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.</li>
 </ol>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</p>
 <h4 id="8-5-tilbakekall-av-tillatelse-til-jurist">§ 8-5. Tilbakekall av tillatelse til jurist</h4>
 <p>Finanstilsynet kan kalle tilbake tillatelse til jurist, jf. § 4-3 , dersom vedkommende anses uegnet fordi vedkommende</p>
 <ol>
@@ -459,24 +642,24 @@ b. det er benyttet en betryggende metode for å autentisere avtaleinngåelsen.</
 <li>har gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, eller</li>
 <li>grovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.</li>
 </ol>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</p>
 <h4 id="8-6-adgang-til-a-forby-advokat-a-vre-fagansvarlig-og-ansvarlig-megler">§ 8-6. Adgang til å forby advokat å være fagansvarlig og ansvarlig megler</h4>
 <p>Finanstilsynet skal forby advokater å være fagansvarlig megler, jf. § 2-9 annet ledd, og ansvarlig megler, jf. § 6-2 , dersom denne ikke lenger har advokatbevilling. Finanstilsynet kan også forby advokater å være fagansvarlig megler og ansvarlig megler dersom advokaten anses uegnet fordi vedkommende</p>
 <ol>
 <li>har gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, eller</li>
 <li>grovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.</li>
 </ol>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</p>
 <h4 id="8-6-a-adgang-til-a-forby-person-a-vre-eiendomsmeglerfullmektig-eller-oppgjrsmedhjelper">§ 8-6 a. Adgang til å forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper</h4>
 <p>Finanstilsynet kan forby person å være eiendomsmeglerfullmektig eller oppgjørsmedhjelper dersom personen anses uegnet fordi vedkommende</p>
 <ol>
 <li>har gjort seg skyldig i straffbar handling og dette må antas å svekke den tillit som er nødvendig for yrkesutøvelsen, eller</li>
 <li>grovt eller gjentatte ganger har overtrådt sine plikter etter lov eller forskrifter.</li>
 </ol>
-<p><em>Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="8-7-suspensjon-av-retten-til-a-drive-eiendomsmegling">§ 8-7. Suspensjon av retten til å drive eiendomsmegling.</h4>
 <p>Dersom foretak med tillatelse til å drive eiendomsmegling, jf. § 2-1 , er siktet for et forhold som kan medføre tilbakekall av tillatelsen, kan Finanstilsynet suspendere tillatelsen inntil straffesaken er avsluttet. Finanstilsynet kan på tilsvarende måte nedlegge forbud mot at en advokat driver eiendomsmegling, jf. § 2-1 første ledd nr. 2, inntil straffesaken er avsluttet.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ).</p>
 <h4 id="8-8-behandling-av-tvister-i-klageorgan">§ 8-8. Behandling av tvister i klageorgan</h4>
 <p>Kongen kan godkjenne klageorgan for behandling av tvister mellom foretak eller advokat som driver eiendomsmegling og selger, kjøper eller øvrige interessenter til objekt som nevnt i § 1-2 , når organet er opprettet ved avtale mellom én eller flere organisasjoner som representerer foretak eller advokater som driver eiendomsmegling på den ene siden, og på den annen side én eller flere organisasjoner som representerer aktører i eiendomsmarkedet. Kongen kan i forskrift gi bestemmelser om klageorganets virksomhet, herunder om:</p>
 <p>a. hvem som kan bringe saker inn for klageorganet,
@@ -484,7 +667,7 @@ b. vilkår for behandling av saker hos klageorganet,
 c. behandlingens virkning mellom partene, herunder forholdet til alminnelige domstoler, adgangen til å bringe saker direkte inn for tingretten og tvangskraft og rettskraft for klageorganets avgjørelser,
 d. forholdet til annen lovgivning om utenrettslig tvisteløsning, og
 e. opplysningsplikt overfor foretakets og advokatens kunder og øvrige interessenter.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ).</p>
 <h4 id="8-9-overtredelsesgebyr">§ 8-9. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2007-06-29-73/para-8-9.html" title="Endringshistorikk for § 8-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan ilegge fysiske personer eller foretak overtredelsesgebyr ved overtredelse av § 2-2 , § 2-9 fjerde og femte ledd , §§ 3-1 til 3-3 , § 3-5 , § 3-6 , §§ 5-1 til 5-5, § 6-2 , § 6-3 , § 6-7 , § 6-8 , § 6-10 tredje ledd , § 7-1 , § 7-2 , § 7-4 tredje ledd , § 7-6 og § 8-1 annet og tredje ledd . Overtredelse av påbud, forbud eller vilkår fastsatt med hjemmel i bestemmelsene nevnt i første punktum, kan sanksjoneres på samme måte. I forskrift som gis i medhold av loven, kan det fastsettes at den som forsettlig eller uaktsomt overtrer forskriften, kan ilegges overtredelsesgebyr.</p>
 <p>(2) Medvirkning til overtredelse av bestemmelsene nevnt i første ledd kan sanksjoneres på samme måte.</p>
@@ -493,18 +676,20 @@ e. opplysningsplikt overfor foretakets og advokatens kunder og øvrige interesse
 <p>(5) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.</p>
 <p>(6) Ved avgjørelsen av om overtredelsesgebyr skal ilegges, og ved utmåling, kan det blant annet tas hensyn til eventuelle tap påført tredjeperson som følge av overtredelsen og i hvilken grad overtrederen har samarbeidet med Finanstilsynet, i tillegg til momentene i forvaltningsloven § 44 tredje ledd første punktum for fysiske personer og § 46 annet ledd for foretak.</p>
 <p>(7) Departementet kan fastsette forskrift om renter ved forsinket betaling av overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</em></p>
+<p class="note">Tilføyd ved lov 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 ).</p>
 <h4 id="8-10-straff">§ 8-10. Straff <a class="para-history" href="../historikk/lov-2007-06-29-73/para-8-10.html" title="Endringshistorikk for § 8-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forsettlig eller uaktsom overtredelse av bestemmelser gitt i eller i medhold av §§ 2-1 , 3-2 , 3-6 og 4-5 straffes med bøter eller fengsel inntil 3 år, eller inntil 6 år ved særlig skjerpende omstendigheter. Det samme gjelder overtredelse av påbud, forbud eller vilkår gitt i medhold av de nevnte bestemmelser.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 8-9).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2012 iflg. res. 22 juni 2012 nr. 566 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 10 april 2025 nr. 10 (i kraft 1 juli 2025 iflg. res. 10 juni 2025 nr. 987 , tidligere § 8-9).</p>
 <h2 id="kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9. Ikrafttredelse og overgangsregler</h2>
 <h4 id="9-1-ikrafttredelse-og-overgangsregler">§ 9-1. Ikrafttredelse og overgangsregler</h4>
 <p>(1) Loven gjelder fra den tid 1 Kongen bestemmer. De enkelte bestemmelser kan settes i kraft til ulik tid.</p>
 <p>(2) Kongen kan fastsette overgangsregler.</p>
 <p>(3) Forskrifter gitt i medhold av lov 16. juni 1989 nr. 53 om eiendomsmegling gjelder inntil noe annet er bestemt også etter at loven her har trådt i kraft.</p>
 <p>(4) Fra den tid loven her trer i kraft, gjøres følgende endring i annen lov: Lov 16. juni 1989 nr. 53 om eiendomsmegling oppheves.</p>
-<p><em>Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 , var tidligere del II).
-1 Fra 1 jan 2008 iflg. res. 29 juni 2007 nr. 754 , men iflg. forskr. 23 nov 2007 nr. 1282 trådte § 4-4 (1) og (2) og § 6-2 (1) annet punktum ikr. 1 juli 2011, og § 4-6 trer ikr. når departementet bestemmer.</em></p>
+<p class="note">Endret ved lov 15 des 2017 nr. 106 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2042 , var tidligere del II).
+1 Fra 1 jan 2008 iflg. res. 29 juni 2007 nr. 754 , men iflg. forskr. 23 nov 2007 nr. 1282 trådte § 4-4 (1) og (2) og § 6-2 (1) annet punktum ikr. 1 juli 2011, og § 4-6 trer ikr. når departementet bestemmer.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

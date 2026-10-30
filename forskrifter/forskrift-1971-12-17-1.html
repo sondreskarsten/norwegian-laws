@@ -19,64 +19,139 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1971-12-17-1.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om overlastgebyr" href="../feeds/forskrift-1971-12-17-1.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Forskrift om overlastgebyr</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1971-12-17-1</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1972-02-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-18-2798</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1971-12-17-1" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-gebyrplikten">§ 1. Gebyrplikten.</a></li>
+<li class="lvl3"><a href="#1a-definisjonen-av-transportr">§ 1a. Definisjonen av transportør</a></li>
+<li class="lvl3"><a href="#2-gebyrberegningen">§ 2. Gebyrberegningen.</a></li>
+<li class="lvl3"><a href="#3-gebyr-ved-gjentakelse-av-overlasting">§ 3. Gebyr ved gjentakelse av overlasting.</a></li>
+<li class="lvl3"><a href="#4-ileggelse-og-betaling-av-gebyr">§ 4. Ileggelse og betaling av gebyr</a></li>
+<li class="lvl3"><a href="#4a-erklring-om-vekt-ved-transport-av-containere">§ 4a. Erklæring om vekt ved transport av containere</a></li>
+<li class="lvl3"><a href="#5-myndighet">§ 5. Myndighet.</a></li>
+<li class="lvl3"><a href="#6-veiing">§ 6. Veiing.</a></li>
+<li class="lvl3"><a href="#7-klage-til-tingretten">§ 7. Klage til tingretten.</a></li>
+<li class="lvl3"><a href="#8-forberedelse-av-klagebehandlingen">§ 8. Forberedelse av klagebehandlingen.</a></li>
+<li class="lvl3"><a href="#9-frafallelse-av-gebyr">§ 9. Frafallelse av gebyr.</a></li>
+<li class="lvl3"><a href="#10-hvilken-tingrett-som-er-kompetent">§ 10. Hvilken tingrett som er kompetent.</a></li>
+<li class="lvl3"><a href="#11-klagebehandlingen-i-tingretten">§ 11. Klagebehandlingen i tingretten.</a></li>
+<li class="lvl3"><a href="#12-utfyllende-bestemmelser">§ 12. Utfyllende bestemmelser.</a></li>
+<li class="lvl3"><a href="#13-ikrafttreden">§ 13. Ikrafttreden.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-18-2798.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1971-12-17-1.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om gebyr for overlasting</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1971-12-17-1.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1971-12-17-1 <code>forskrift/1971-12-17-1</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om overlastgebyr</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.02.1972</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-18-2798 <code>forskrift/2025-12-18-2798</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1971-12-17-1" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-gebyrplikten">§ 1. Gebyrplikten.</a></li>
+<li class="lvl3"><a href="#1a-definisjonen-av-transportr">§ 1a. Definisjonen av transportør</a></li>
+<li class="lvl3"><a href="#2-gebyrberegningen">§ 2. Gebyrberegningen.</a></li>
+<li class="lvl3"><a href="#3-gebyr-ved-gjentakelse-av-overlasting">§ 3. Gebyr ved gjentakelse av overlasting.</a></li>
+<li class="lvl3"><a href="#4-ileggelse-og-betaling-av-gebyr">§ 4. Ileggelse og betaling av gebyr</a></li>
+<li class="lvl3"><a href="#4a-erklring-om-vekt-ved-transport-av-containere">§ 4a. Erklæring om vekt ved transport av containere</a></li>
+<li class="lvl3"><a href="#5-myndighet">§ 5. Myndighet.</a></li>
+<li class="lvl3"><a href="#6-veiing">§ 6. Veiing.</a></li>
+<li class="lvl3"><a href="#7-klage-til-tingretten">§ 7. Klage til tingretten.</a></li>
+<li class="lvl3"><a href="#8-forberedelse-av-klagebehandlingen">§ 8. Forberedelse av klagebehandlingen.</a></li>
+<li class="lvl3"><a href="#9-frafallelse-av-gebyr">§ 9. Frafallelse av gebyr.</a></li>
+<li class="lvl3"><a href="#10-hvilken-tingrett-som-er-kompetent">§ 10. Hvilken tingrett som er kompetent.</a></li>
+<li class="lvl3"><a href="#11-klagebehandlingen-i-tingretten">§ 11. Klagebehandlingen i tingretten.</a></li>
+<li class="lvl3"><a href="#12-utfyllende-bestemmelser">§ 12. Utfyllende bestemmelser.</a></li>
+<li class="lvl3"><a href="#13-ikrafttreden">§ 13. Ikrafttreden.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1971-12-17-1.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1971-12-17-1.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1971-12-17-1.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1971-12-17-1.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1971-12-17-1.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1971-12-17-1.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1971-12-17-1.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1971-12-17-1.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1971-12-17-1.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-gebyr-for-overlasting">Forskrift om gebyr for overlasting</h1>
 <h3 id="1-gebyrplikten">§ 1. Gebyrplikten.</h3>
 <p>For kjøretøy med tillatt totalvekt over 3 500 kg som på offentlig veg har vært brukt til overtredelse av bestemmelser om last av aksel/akselkombinasjon eller totalvekt, skal det betales gebyr etter reglene i § 2 . Hvem som ilegges gebyr reguleres i § 4 .</p>
 <p>Tillatt belastning for aksel/akselkombinasjon eller totalvekt etter denne forskriften er</p>
@@ -90,10 +165,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>De laveste tillatte vekter som forekommer av punktene 1-6 legges til grunn ved gebyrberegningen. Der det er gitt dispensasjon med hjemmel i forskrift om bruk av kjøretøy § 5-8 til § 5-10 , § 5-14 eller unntak med hjemmel i § 5-15 nr. 4 eller § 6-2 annet ledd, skal disse vektene legges til grunn.</p>
 <p>Gebyrplikt etter forskriften her er ikke til hinder for strafferettslige reaksjoner.</p>
-<p><em>Endret ved forskrifter 3 feb 1995 nr. 97 , 20 juni 2014 nr. 796 (i kraft 1 sep 2014), 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 3 feb 1995 nr. 97 , 20 juni 2014 nr. 796 (i kraft 1 sep 2014), 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</p>
 <h3 id="1a-definisjonen-av-transportr">§ 1a. Definisjonen av transportør</h3>
 <p>Med transportør menes i denne forskriften en fysisk eller juridisk person som benytter kjøretøyet som dets eier, eller har rett til å benytte kjøretøyet av dets eier, og som gjennomfører transporten enten det skjer i henhold til kontrakt eller ikke. Der sjåføren opptrer som ansatt i et transportforetak, er det transportforetaket som anses som transportør.</p>
-<p><em>Tilføyd ved forskrift 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</p>
 <h3 id="2-gebyrberegningen">§ 2. Gebyrberegningen.</h3>
 <p>For hver enkelt aksel/akselkombinasjonslast som er konstatert ved veiing, avrundes overlasten til nærmeste 100 kg.</p>
 <ol>
@@ -105,7 +180,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Av den gjenstående overlast beregnes gebyr etter satser fastsatt av Samferdselsdepartementet.</p>
 <p>Det høyeste gebyr som framkommer av beregningsmåtene i nr. 1 eller nr. 2 ilegges.</p>
-<p><em>Endret ved forskrifter 3 feb 1995 nr. 97 , 20 juni 2014 nr. 796 (i kraft 1 sep 2014).</em></p>
+<p class="note">Endret ved forskrifter 3 feb 1995 nr. 97 , 20 juni 2014 nr. 796 (i kraft 1 sep 2014).</p>
 <h3 id="3-gebyr-ved-gjentakelse-av-overlasting">§ 3. Gebyr ved gjentakelse av overlasting.</h3>
 <p>Det regnes som nytt overlastingstilfelle dersom kjøretøyet blir kjørt videre etter at gebyrpliktig overlast er konstatert, så lenge overlasten ikke er fjernet eller kontrollmyndigheten ikke har gitt skriftlig tillatelse til å fortsette kjøringen.</p>
 <h3 id="4-ileggelse-og-betaling-av-gebyr">§ 4. Ileggelse og betaling av gebyr</h3>
@@ -113,41 +188,41 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Hele eller deler av overlastgebyret ilegges avsenderen av containeren ved transport av containere der vekten overstiger det som er angitt i erklæringen etter § 4a og containeren er plombert eller på annen måte har vært låst under hele transporten. Dette gebyret skal beregnes ut fra avviket mellom containerens angitte og aktuelle vekt.</p>
 <p>Overlastgebyr skal betales innen 3 uker fra det tidspunkt da underretning om ileggelsen er sendt til den gebyrlagte. Oversittes fristen, kan gebyret innkreves i samsvar med vegtrafikkloven § 38 .</p>
 <p>For utenlandsk kjøretøy skal overlastgebyret være betalt eller garantert for av en godkjent garantist før kjøretøyet forlater kontrollstedet, jf. § 5 .</p>
-<p><em>Endret ved forskrifter 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</p>
 <h3 id="4a-erklring-om-vekt-ved-transport-av-containere">§ 4a. Erklæring om vekt ved transport av containere</h3>
 <p>Avsenderen av en container skal utstede en erklæring til transportøren som tydelig angir følgende:</p>
 <p>a. Avsenderens navn, adresse og signatur
 b. Containerens vekt inkludert last.</p>
 <p>Erklæringen skal følge containeren og kan fremgå av fraktbrev eller annen dokumentasjon som følger transporten. Elektronisk versjon av erklæringen, utformet på en måte som er likeverdig med papirdokumentasjon, godtas.</p>
-<p><em>Tilføyd ved forskrift 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 14 sep 2017 nr. 1392 (i kraft 1 jan 2018).</p>
 <h3 id="5-myndighet">§ 5. Myndighet.</h3>
 <p>Statens vegvesen og politiet har myndighet til å foreta vektkontroll og treffe vedtak om å ta kjøretøy påtruffet med last som medfører gebyrplikt, i forvaring for eierens regning og risiko eller forby bruk av det inntil gebyr er betalt eller sikkerhet stilt. Vegdirektoratet kan gi slik myndighet også til andre.</p>
 <p>Statens vegvesen har myndighet til å ilegge overlastgebyr. Når praktiske hensyn tilsier det, kan Vegdirektoratet overlate til dem som har myndighet etter første ledd, å ilegge gebyr. Gebyr kan ilegges på stedet.</p>
 <p>Innkrevingsmyndigheten har myndighet til å innkreve overlastgebyr.</p>
-<p><em>Endret ved forskrifter 3 feb 1995 nr. 97 , 28 feb 2003 nr. 238 , 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 19 des 2019 nr. 2046 (i kraft 1 jan 2020), 18 des 2025 nr. 2798 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 3 feb 1995 nr. 97 , 28 feb 2003 nr. 238 , 26 aug 2016 nr. 1000 (i kraft 1 sep 2016), 19 des 2019 nr. 2046 (i kraft 1 jan 2020), 18 des 2025 nr. 2798 (i kraft 1 jan 2026).</p>
 <h3 id="6-veiing">§ 6. Veiing.</h3>
 <p>Myndighet som nevnt i § 5 første ledd, kan gi pålegg om at kjøretøy skal kjøres til anvist veiested.</p>
 <p>Gebyrberegningen skal så vidt mulig skje på grunnlag av veiing av de enkelte aksel-/boggi-/trippelboggilaster på vekt som er justert for bruk i handel og vandel.</p>
 <p>Når det finnes uforsvarlig eller urimelig å beordre kjøretøyet kjørt til slik vekt som nevnt i annet ledd, kan gebyr beregnes på grunnlag av veiing med vekt som er justert for fastsettelse av kjøretøyers hjullast. Veiingen må da foretas i samsvar med de regler som Justervesenet har fastsatt eller godkjent for vedkommende vekttype.</p>
 <p>Beregning av gebyr kan også skje på grunnlag av veiing som allerede er foretatt for annet formål.</p>
 <p>Har vedkommende myndighet fått kjennskap til kjøring med gebyrpliktig overlast og lasten er lesset av eller veiing av annen årsak vil være vanskelig å gjennomføre, beregnes gebyr på grunnlag av kjøretøyets egenvekt og lastens vekt.</p>
-<p><em>Endret ved forskrift 26 aug 2016 nr. 1000 (i kraft 1 sep 2016).</em></p>
+<p class="note">Endret ved forskrift 26 aug 2016 nr. 1000 (i kraft 1 sep 2016).</p>
 <h3 id="7-klage-til-tingretten">§ 7. Klage til tingretten.</h3>
 <p>Klage til tingretten over ileggelse av overlastingsgebyr må framsettes skriftlig for Statens vegvesen av kjøretøyets eier eller av en som er ansvarlig for gebyrbeløpet. Fristen for å klage er 3 uker regnet fra det tidspunkt da underretning om ileggelsen er kommet fram. Forvaltningsloven § 29 og § 30 får tilsvarende anvendelse.</p>
 <p>I klagen skal angis de grunner som klagen støtter seg til, og eventuelle bevis som påberopes. For øvrig gjelder forvaltningsloven § 32 .</p>
-<p><em>Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</p>
 <h3 id="8-forberedelse-av-klagebehandlingen">§ 8. Forberedelse av klagebehandlingen.</h3>
 <p>Statens vegvesen forbereder klagebehandlingen og innhenter mulige opplysninger som kan være av betydning for saken. Dersom Statens vegvesen ikke finner grunn til å endre det påklagede vedtak, sender det saken snarest mulig til tingretten.</p>
 <p>Klagen har ikke oppsettende virkning med mindre Statens vegvesen eller tingretten beslutter at inndrivning av gebyret helt eller delvis skal utsettes til klagen er avgjort. Det kan sette vilkår for slik utsettelse.</p>
-<p><em>Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</p>
 <h3 id="9-frafallelse-av-gebyr">§ 9. Frafallelse av gebyr.</h3>
 <p>I særlige tilfeller kan Statens vegvesen unnlate å ilegge gebyr. Statens vegvesen kan frafalle ilagt gebyr dersom særlige grunner knyttet til ileggelsen tilsier det. Søknad om dette kan sendes enten sammen med eller uavhengig av klage til tingretten over ileggelse av gebyr. Statens vegvesen skal i forbindelse med klage til tingretten vurdere spørsmålet om å frafalle gebyr.</p>
 <p>For Statens vegvesens avgjørelse av en søknad som nevnt i første ledd, gjelder forvaltningslovens regler. Avgjørelsen kan påklages til Vegdirektoratet.</p>
-<p><em>Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020), 18 des 2025 nr. 2798 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020), 18 des 2025 nr. 2798 (i kraft 1 jan 2026).</p>
 <h3 id="10-hvilken-tingrett-som-er-kompetent">§ 10. Hvilken tingrett som er kompetent.</h3>
 <p>Statens vegvesen sender saken til tingretten på det sted der den betalingspliktige bor eller oppholder seg, der overtredelsen fant sted eller der opplysningene i saken for øvrig lettest kan skaffes til veie.</p>
 <p>Den tingrett som har fått saken oversendt fra Statens vegvesen, behandler saken, med mindre dommeren av særlige grunner finner det nødvendig å henvise den til behandling ved annen tingrett hvor det er verneting for saken.</p>
-<p><em>Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</p>
 <h3 id="11-klagebehandlingen-i-tingretten">§ 11. Klagebehandlingen i tingretten.</h3>
 <p>Klageren innkalles til rettsmøte til behandling av klagen ved forkynning av stevning. Klagen kan dog avgjøres uten at det holdes noe slikt rettsmøte, såframt retten finner det ubetenkelig. Det er ikke nødvendig å innkalle klageren til rettsmøte hvor det bare skal avsies kjennelse. Dersom klageren eller vitner innkalles til rettsmøte, skal også Statens vegvesen varsles.</p>
 <p>Retten kan beslutte å innhente de bevis den anser hensiktsmessig. Den kan gi politiet pålegg og begjære rettergangsskritt foretatt ved andre retter.</p>
@@ -155,11 +230,13 @@ b. Containerens vekt inkludert last.</p>
 <p>Uteblir klageren uten at det er opplyst eller sannsynlig at han har gyldig fravær, kan klagen avgjøres på grunnlag av sakens øvrige opplysninger.</p>
 <p>I tilfelle hvor det er begjært oppfriskning for oversitting av klagefristen, jf. vegtrafikkloven § 31a fjerde ledd annet punktum, kan tingretten samtidig avgjøre selve saken.</p>
 <p>For øvrig gjelder straffeprosesslovens regler, herunder reglene i kap. 30 om sakskostnader så langt de passer, jfr. også vegtrafikklovens § 31 a , fjerde ledd. Reglene i straffeprosessloven kap. 9 om offentlig forsvarer gjelder ikke.</p>
-<p><em>Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 14 sep 2007 nr. 1057 (i kraft 1 jan 2008), 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2002 nr. 1603 (i kraft 1 jan 2003), 28 feb 2003 nr. 238 , 14 sep 2007 nr. 1057 (i kraft 1 jan 2008), 19 des 2019 nr. 2046 (i kraft 1 jan 2020).</p>
 <h3 id="12-utfyllende-bestemmelser">§ 12. Utfyllende bestemmelser.</h3>
 <p>Vegdirektoratet kan gi nærmere bestemmelser til gjennomføring av disse forskrifter.</p>
 <h3 id="13-ikrafttreden">§ 13. Ikrafttreden.</h3>
 <p>Denne forskrift trer i kraft fra og med 1. februar 1972.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,179 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-18-2747.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Stortingets skattevedtak 2026" href="../feeds/forskrift-2025-12-18-2747.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-stortinget.html">Stortinget</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-stortinget.html">Stortinget</a> &rsaquo;
 <span>Stortingets skattevedtak 2026</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2025-12-18-2747</code></dd>
-<dt>Departement</dt><dd>Stortinget</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>Inntektsåret 2026</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-19-1243</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-18-2747" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelt">Kapittel 1. Generelt</a></li>
+<li class="lvl4"><a href="#1-1-vedtakets-anvendelsesomrade">§ 1-1. Vedtakets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#1-2-forholdet-til-skattelovgivningen">§ 1-2. Forholdet til skattelovgivningen</a></li>
+<li class="lvl2"><a href="#kapittel-2-formuesskatt-til-staten-og-kommunene">Kapittel 2. Formuesskatt til staten og kommunene</a></li>
+<li class="lvl4"><a href="#2-1-formuesskatt-til-staten-personlig-skattyter-og-ddsbo">§ 2-1. Formuesskatt til staten – personlig skattyter og dødsbo</a></li>
+<li class="lvl4"><a href="#2-2-formuesskatt-til-staten-upersonlig-skattyter">§ 2-2. Formuesskatt til staten – upersonlig skattyter</a></li>
+<li class="lvl4"><a href="#2-3-formuesskatt-til-kommunene">§ 2-3. Formuesskatt til kommunene</a></li>
+<li class="lvl2"><a href="#kapittel-3-inntektsskatt-til-staten-kommunene-og-fylkeskommunene">Kapittel 3. Inntektsskatt til staten, kommunene og fylkeskommunene</a></li>
+<li class="lvl4"><a href="#3-1-trinnskatt">§ 3-1. Trinnskatt</a></li>
+<li class="lvl4"><a href="#3-2-fellesskatt">§ 3-2. Fellesskatt</a></li>
+<li class="lvl4"><a href="#3-3-skatt-til-staten">§ 3-3. Skatt til staten</a></li>
+<li class="lvl4"><a href="#3-4-skatt-pa-grunnrenteinntekt-i-vannkraftforetak-og-vindkraftanlegg">§ 3-4. Skatt på grunnrenteinntekt i vannkraftforetak og vindkraftanlegg</a></li>
+<li class="lvl4"><a href="#3-4-a-skatt-pa-grunnrenteinntekt-i-havbruk">§ 3-4 A. Skatt på grunnrenteinntekt i havbruk</a></li>
+<li class="lvl4"><a href="#3-5-skatt-til-staten-for-person-bosatt-og-selskap-hjemmehrende-i-utlandet">§ 3-5. Skatt til staten for person bosatt og selskap hjemmehørende i utlandet</a></li>
+<li class="lvl4"><a href="#3-6-skatt-til-staten-pa-honorar-til-utenlandske-artister-mv">§ 3-6. Skatt til staten på honorar til utenlandske artister mv.</a></li>
+<li class="lvl4"><a href="#3-7-skattesats-for-utbetalinger-fra-individuell-pensjonsavtale-til-bo">§ 3-7. Skattesats for utbetalinger fra individuell pensjonsavtale til bo</a></li>
+<li class="lvl4"><a href="#3-8-inntektsskatt-til-kommunene-og-fylkeskommunene">§ 3-8. Inntektsskatt til kommunene og fylkeskommunene</a></li>
+<li class="lvl4"><a href="#3-9-skatt-til-staten-for-personer-bosatt-i-utlandet">§ 3-9. Skatt til staten for personer bosatt i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-4-skatt-etterlov-om-skattlegging-av-undersjiske-petroleumsforekomster-mv">Kapittel 4. Skatt etterlov om skattlegging av undersjøiske petroleumsforekomster mv.</a></li>
+<li class="lvl4"><a href="#4-1-ordinre-skatter">§ 4-1. Ordinære skatter</a></li>
+<li class="lvl4"><a href="#4-2-srskatt">§ 4-2. Særskatt</a></li>
+<li class="lvl4"><a href="#4-3-terminskatt">§ 4-3. Terminskatt</a></li>
+<li class="lvl4"><a href="#4-4-utbytte-utdelt-til-utenlandsk-eierselskap">§ 4-4. Utbytte utdelt til utenlandsk eierselskap</a></li>
+<li class="lvl2"><a href="#kapittel-5-tonnasjeskatt">Kapittel 5. Tonnasjeskatt</a></li>
+<li class="lvl4"><a href="#5-1-tonnasjeskatt">§ 5-1. Tonnasjeskatt</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-bestemmelser-om-skattegrunnlag-belpsgrenser-og-satser-mv">Kapittel 6. Særlige bestemmelser om skattegrunnlag, beløpsgrenser og satser mv.</a></li>
+<li class="lvl4"><a href="#6-1-minstefradrag">§ 6-1. Minstefradrag</a></li>
+<li class="lvl4"><a href="#6-2-foreldrefradrag">§ 6-2. Foreldrefradrag</a></li>
+<li class="lvl4"><a href="#6-3-personfradrag">§ 6-3. Personfradrag</a></li>
+<li class="lvl4"><a href="#6-4-skattebegrensning-ved-lav-alminnelig-inntekt">§ 6-4. Skattebegrensning ved lav alminnelig inntekt</a></li>
+<li class="lvl4"><a href="#6-5-skattefradrag-for-pensjonsinntekt">§ 6-5. Skattefradrag for pensjonsinntekt</a></li>
+<li class="lvl4"><a href="#6-6-forsksordning-med-arbeidsfradrag">§ 6-6. Forsøksordning med arbeidsfradrag</a></li>
+<li class="lvl2"><a href="#kapittel-7-forskriftskompetanse-mv">Kapittel 7. Forskriftskompetanse mv.</a></li>
+<li class="lvl4"><a href="#7-1-forskriftsfullmakt-til-gjennomfring-og-utfylling">§ 7-1. Forskriftsfullmakt til gjennomføring og utfylling</a></li>
+<li class="lvl4"><a href="#7-2-adgang-til-a-fravike-reglene-i-vedtaket">§ 7-2. Adgang til å fravike reglene i vedtaket</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-19-1243.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-18-2747.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2026 (Stortingets skattevedtak)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-18-2747.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2025-12-18-2747 <code>forskrift/2025-12-18-2747</code></td></tr>
+<tr><th>Korttittel</th><td>Stortingets skattevedtak 2026</td></tr>
+<tr><th>Departement</th><td>Stortinget</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>Inntektsåret 2026</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-19-1243 <code>forskrift/2026-06-19-1243</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-18-2747" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelt">Kapittel 1. Generelt</a></li>
+<li class="lvl4"><a href="#1-1-vedtakets-anvendelsesomrade">§ 1-1. Vedtakets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#1-2-forholdet-til-skattelovgivningen">§ 1-2. Forholdet til skattelovgivningen</a></li>
+<li class="lvl2"><a href="#kapittel-2-formuesskatt-til-staten-og-kommunene">Kapittel 2. Formuesskatt til staten og kommunene</a></li>
+<li class="lvl4"><a href="#2-1-formuesskatt-til-staten-personlig-skattyter-og-ddsbo">§ 2-1. Formuesskatt til staten – personlig skattyter og dødsbo</a></li>
+<li class="lvl4"><a href="#2-2-formuesskatt-til-staten-upersonlig-skattyter">§ 2-2. Formuesskatt til staten – upersonlig skattyter</a></li>
+<li class="lvl4"><a href="#2-3-formuesskatt-til-kommunene">§ 2-3. Formuesskatt til kommunene</a></li>
+<li class="lvl2"><a href="#kapittel-3-inntektsskatt-til-staten-kommunene-og-fylkeskommunene">Kapittel 3. Inntektsskatt til staten, kommunene og fylkeskommunene</a></li>
+<li class="lvl4"><a href="#3-1-trinnskatt">§ 3-1. Trinnskatt</a></li>
+<li class="lvl4"><a href="#3-2-fellesskatt">§ 3-2. Fellesskatt</a></li>
+<li class="lvl4"><a href="#3-3-skatt-til-staten">§ 3-3. Skatt til staten</a></li>
+<li class="lvl4"><a href="#3-4-skatt-pa-grunnrenteinntekt-i-vannkraftforetak-og-vindkraftanlegg">§ 3-4. Skatt på grunnrenteinntekt i vannkraftforetak og vindkraftanlegg</a></li>
+<li class="lvl4"><a href="#3-4-a-skatt-pa-grunnrenteinntekt-i-havbruk">§ 3-4 A. Skatt på grunnrenteinntekt i havbruk</a></li>
+<li class="lvl4"><a href="#3-5-skatt-til-staten-for-person-bosatt-og-selskap-hjemmehrende-i-utlandet">§ 3-5. Skatt til staten for person bosatt og selskap hjemmehørende i utlandet</a></li>
+<li class="lvl4"><a href="#3-6-skatt-til-staten-pa-honorar-til-utenlandske-artister-mv">§ 3-6. Skatt til staten på honorar til utenlandske artister mv.</a></li>
+<li class="lvl4"><a href="#3-7-skattesats-for-utbetalinger-fra-individuell-pensjonsavtale-til-bo">§ 3-7. Skattesats for utbetalinger fra individuell pensjonsavtale til bo</a></li>
+<li class="lvl4"><a href="#3-8-inntektsskatt-til-kommunene-og-fylkeskommunene">§ 3-8. Inntektsskatt til kommunene og fylkeskommunene</a></li>
+<li class="lvl4"><a href="#3-9-skatt-til-staten-for-personer-bosatt-i-utlandet">§ 3-9. Skatt til staten for personer bosatt i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-4-skatt-etterlov-om-skattlegging-av-undersjiske-petroleumsforekomster-mv">Kapittel 4. Skatt etterlov om skattlegging av undersjøiske petroleumsforekomster mv.</a></li>
+<li class="lvl4"><a href="#4-1-ordinre-skatter">§ 4-1. Ordinære skatter</a></li>
+<li class="lvl4"><a href="#4-2-srskatt">§ 4-2. Særskatt</a></li>
+<li class="lvl4"><a href="#4-3-terminskatt">§ 4-3. Terminskatt</a></li>
+<li class="lvl4"><a href="#4-4-utbytte-utdelt-til-utenlandsk-eierselskap">§ 4-4. Utbytte utdelt til utenlandsk eierselskap</a></li>
+<li class="lvl2"><a href="#kapittel-5-tonnasjeskatt">Kapittel 5. Tonnasjeskatt</a></li>
+<li class="lvl4"><a href="#5-1-tonnasjeskatt">§ 5-1. Tonnasjeskatt</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-bestemmelser-om-skattegrunnlag-belpsgrenser-og-satser-mv">Kapittel 6. Særlige bestemmelser om skattegrunnlag, beløpsgrenser og satser mv.</a></li>
+<li class="lvl4"><a href="#6-1-minstefradrag">§ 6-1. Minstefradrag</a></li>
+<li class="lvl4"><a href="#6-2-foreldrefradrag">§ 6-2. Foreldrefradrag</a></li>
+<li class="lvl4"><a href="#6-3-personfradrag">§ 6-3. Personfradrag</a></li>
+<li class="lvl4"><a href="#6-4-skattebegrensning-ved-lav-alminnelig-inntekt">§ 6-4. Skattebegrensning ved lav alminnelig inntekt</a></li>
+<li class="lvl4"><a href="#6-5-skattefradrag-for-pensjonsinntekt">§ 6-5. Skattefradrag for pensjonsinntekt</a></li>
+<li class="lvl4"><a href="#6-6-forsksordning-med-arbeidsfradrag">§ 6-6. Forsøksordning med arbeidsfradrag</a></li>
+<li class="lvl2"><a href="#kapittel-7-forskriftskompetanse-mv">Kapittel 7. Forskriftskompetanse mv.</a></li>
+<li class="lvl4"><a href="#7-1-forskriftsfullmakt-til-gjennomfring-og-utfylling">§ 7-1. Forskriftsfullmakt til gjennomføring og utfylling</a></li>
+<li class="lvl4"><a href="#7-2-adgang-til-a-fravike-reglene-i-vedtaket">§ 7-2. Adgang til å fravike reglene i vedtaket</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-18-2747.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-18-2747.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-18-2747.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2025-12-18-2747.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2025-12-18-2747.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-12-18-2747.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2025-12-18-2747.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2025-12-18-2747.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-12-18-2747.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="stortingsvedtak-om-skatt-av-inntekt-og-formue-mv-for-inntektsaret-2026-stortingets-skattevedtak">Stortingsvedtak om skatt av inntekt og formue mv. for inntektsåret 2026 (Stortingets skattevedtak)</h1>
 <h2 id="kapittel-1-generelt">Kapittel 1. Generelt</h2>
 <h4 id="1-1-vedtakets-anvendelsesomrade">§ 1-1. Vedtakets anvendelsesområde</h4>
 <p>Dette vedtaket gjelder utskriving av skatt på inntekt og formue for inntektsåret 2026. Vedtaket legges også til grunn for utskriving av forskudd på skatt for inntektsåret 2026 etter reglene i skattebetalingsloven kapittel 4 til 6 .</p>
@@ -169,7 +284,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="6-5-skattefradrag-for-pensjonsinntekt">§ 6-5. Skattefradrag for pensjonsinntekt <a class="para-history" href="../historikk/forskrift-2025-12-18-2747/para-6-5.html" title="Endringshistorikk for § 6-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fradraget som nevnt i skatteloven § 16-1 første ledd skal være 39 100 kroner.</p>
 <p>Beløpsgrensene som nevnt i skatteloven § 16-1 tredje ledd skal være 294 200 kroner i trinn 1 og 437 100 kroner i trinn 2.</p>
-<p><em>Endret ved vedtak 19 juni 2026 nr. 1243 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved vedtak 19 juni 2026 nr. 1243 (i kraft 1 juli 2026).</p>
 <h4 id="6-6-forsksordning-med-arbeidsfradrag">§ 6-6. Forsøksordning med arbeidsfradrag</h4>
 <p>Fradrag etter skatteloven § 6-86 tredje ledd er 125 000 kroner, og trappes ned med 40 pst. av den delen av inntekten det beregnes av som overstiger 345 000 kroner.</p>
 <h2 id="kapittel-7-forskriftskompetanse-mv">Kapittel 7. Forskriftskompetanse mv.</h2>
@@ -177,6 +292,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Departementet kan gi forskrift til gjennomføring og utfylling av bestemmelsene i dette vedtak.</p>
 <h4 id="7-2-adgang-til-a-fravike-reglene-i-vedtaket">§ 7-2. Adgang til å fravike reglene i vedtaket</h4>
 <p>Reglene i dette vedtaket kan fravikes på vilkår som nevnt i skattebetalingsloven § 4-8 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

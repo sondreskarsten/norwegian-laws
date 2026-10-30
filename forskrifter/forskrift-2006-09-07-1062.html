@@ -19,64 +19,189 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-09-07-1062.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift til regnskapsloven" href="../feeds/forskrift-2006-09-07-1062.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forskrift til regnskapsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2006-09-07-1062</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2007-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-13-1003</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2006-09-07-1062" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-1-2-regnskapspliktige">Utfyllende bestemmelser til regnskapsloven § 1-2. Regnskapspliktige</a></li>
+<li class="lvl4"><a href="#1-2-1-vilkar-for-regnskapsplikt-beregning-av-eiendelenes-verdi">§ 1-2-1. Vilkår for regnskapsplikt – beregning av eiendelenes verdi</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-1-5-annet-ledd-sma-foretak">Utfyllende bestemmelser til regnskapsloven § 1-5 annet ledd. Små foretak</a></li>
+<li class="lvl4"><a href="#1-5-1-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak">§ 1-5-1. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak</a></li>
+<li class="lvl4"><a href="#1-5-2-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-virkning-av-prinsippendringer">§ 1-5-2. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – virkning av prinsippendringer</a></li>
+<li class="lvl4"><a href="#1-5-3-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-sammenligningstall">§ 1-5-3. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – sammenligningstall</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-3-7-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern">Utfyllende bestemmelser til regnskapsloven § 3-7. Unntak fra konsernregnskapsplikt for morselskap i underkonsern</a></li>
+<li class="lvl4"><a href="#3-7-1-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern-lemping-av-sprakkrav-som-er-vilkar-for-slikt-unntak">§ 3-7-1. Unntak fra konsernregnskapsplikt for morselskap i underkonsern – lemping av språkkrav som er vilkår for slikt unntak</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-7-30b">Utfyllende bestemmelser til regnskapsloven § 7-30b</a></li>
+<li class="lvl4"><a href="#7-30b-1-definisjon-av-nrstaende-parter">§ 7-30b-1. Definisjon av nærstående parter</a></li>
+<li class="lvl4"><a href="#7-30b-2-foretak-som-star-det-offentlige-nr">§ 7-30b-2. Foretak som står det offentlige nær</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-1-offentlighet">Utfyllende bestemmelser til regnskapsloven § 8-1. Offentlighet</a></li>
+<li class="lvl4"><a href="#8-1-1-offentlighet-innsyn-i-opplysninger-i-regnskapsregisteret">§ 8-1-1. Offentlighet – innsyn i opplysninger i Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#8-1-2-offentlighet-innsyn-i-opplysninger-hos-den-regnskapspliktige">§ 8-1-2. Offentlighet – innsyn i opplysninger hos den regnskapspliktige</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-2-innsending-til-regnskapsregisteret">Utfyllende bestemmelser til regnskapsloven § 8-2. Innsending til Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#8-2-1-innsending-til-regnskapsregisteret-krav-til-dokumentene-og-oversendelsen">§ 8-2-1. Innsending til Regnskapsregisteret – krav til dokumentene og oversendelsen</a></li>
+<li class="lvl4"><a href="#8-2-2-innsending-til-regnskapsregisteret-registerfring-og-arkivering-av-innsendte-dokumenter">§ 8-2-2. Innsending til Regnskapsregisteret – registerføring og arkivering av innsendte dokumenter</a></li>
+<li class="lvl4"><a href="#8-2-3-innsending-til-regnskapsregisteret-adgang-til-a-fastsette-utfyllende-regler">§ 8-2-3. Innsending til Regnskapsregisteret – adgang til å fastsette utfyllende regler</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-3-forsinkelsesgebyr">Utfyllende bestemmelser til regnskapsloven § 8-3. Forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-1-beregning-av-forsinkelsesgebyr">§ 8-3-1. Beregning av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-2-innkreving-av-forsinkelsesgebyr">§ 8-3-2. Innkreving av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-3-ettergivelse-av-forsinkelsesgebyr">§ 8-3-3. Ettergivelse av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-4-utsatt-frist-for-palpt-forsinkelsesgebyr-ved-bruk-av-altinn">§ 8-3-4. Utsatt frist for påløpt forsinkelsesgebyr ved bruk av Altinn</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-9-1-plikt-til-a-utarbeide-adskilte-regnskaper">Utfyllende bestemmelser til regnskapsloven § 9-1. Plikt til å utarbeide adskilte regnskaper</a></li>
+<li class="lvl4"><a href="#9-1-1-plikt-til-a-utarbeide-adskilte-regnskaper-virkeomrade">§ 9-1-1. Plikt til å utarbeide adskilte regnskaper – virkeområde</a></li>
+<li class="lvl4"><a href="#9-1-2-plikt-til-a-utarbeide-adskilte-regnskaper-definisjoner">§ 9-1-2. Plikt til å utarbeide adskilte regnskaper – definisjoner</a></li>
+<li class="lvl4"><a href="#9-1-3-plikt-til-a-utarbeide-adskilte-regnskaper-pliktens-innhold">§ 9-1-3. Plikt til å utarbeide adskilte regnskaper – pliktens innhold</a></li>
+<li class="lvl4"><a href="#9-1-4-plikt-til-a-utarbeide-adskilte-regnskaper-registrering-og-dokumentasjon-av-regnskapsopplysninger-oppbevaring">§ 9-1-4. Plikt til å utarbeide adskilte regnskaper – registrering og dokumentasjon av regnskapsopplysninger – oppbevaring</a></li>
+<li class="lvl4"><a href="#9-1-5-plikt-til-a-utarbeide-adskilte-regnskaper-revisjon">§ 9-1-5. Plikt til å utarbeide adskilte regnskaper – revisjon</a></li>
+<li class="lvl4"><a href="#9-1-6-plikt-til-a-utarbeide-adskilte-regnskaper-innsendingsplikt-og-innsyn-i-regnskapene">§ 9-1-6. Plikt til å utarbeide adskilte regnskaper – innsendingsplikt og innsyn i regnskapene</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-9-3-offentlig-organs-opplysningsplikt-til-regnskapsregisteret">Utfyllende bestemmelser til regnskapsloven § 9-3. Offentlig organs opplysningsplikt til Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#9-3-1-offentlig-organs-opplysningsplikt-til-regnskapsregisteret">§ 9-3-1. Offentlig organs opplysningsplikt til regnskapsregisteret</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-10-1-regler-som-utfyller-eller-fraviker-loven">Utfyllende bestemmelser til regnskapsloven § 10-1. Regler som utfyller eller fraviker loven</a></li>
+<li class="lvl4"><a href="#10-1-1-arsregnskap-for-utenlandske-foretak-som-driver-virksomhet-pa-norsk-sokkel-unntatt-petroleumsutvinning-og-rrledningstransport-eller-foretak-som-driver-midlertidig-virksomhet-pa-land">§ 10-1-1. Årsregnskap for utenlandske foretak som driver virksomhet på norsk sokkel, unntatt petroleumsutvinning og rørledningstransport, eller foretak som driver midlertidig virksomhet på land</a></li>
+<li class="lvl4"><a href="#10-1-2-regnskapsplikt-mv-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-2. Regnskapsplikt mv. for regnskapspliktige nevnt i§ 10-1-1</a></li>
+<li class="lvl4"><a href="#10-1-3-fremleggelse-av-totalregnskap-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-3. Fremleggelse av totalregnskap for regnskapspliktige nevnt i§ 10-1-1</a></li>
+<li class="lvl4"><a href="#10-1-4-adgang-til-a-unnta-fra-regnskapsplikt-utenlandske-foretak-med-skatteplikt-til-norge-etterskatteloven-2-37tredje-ledd">§ 10-1-4. Adgang til å unnta fra regnskapsplikt utenlandske foretak med skatteplikt til Norge etterskatteloven § 2-37tredje ledd</a></li>
+<li class="lvl2"><a href="#ikrafttredelse-og-virkningstidspunkt">Ikrafttredelse og virkningstidspunkt</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse">§ 11-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#11-2-virkningstidspunkt">§ 11-2. Virkningstidspunkt</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-13-1003.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-09-07-1062.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til utfylling og gjennomføring mv. av regnskapsloven av 17. juli 1998 nr. 56</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-09-07-1062.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2006-09-07-1062 <code>forskrift/2006-09-07-1062</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift til regnskapsloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2007</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-13-1003 <code>forskrift/2025-06-13-1003</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2006-09-07-1062" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-1-2-regnskapspliktige">Utfyllende bestemmelser til regnskapsloven § 1-2. Regnskapspliktige</a></li>
+<li class="lvl4"><a href="#1-2-1-vilkar-for-regnskapsplikt-beregning-av-eiendelenes-verdi">§ 1-2-1. Vilkår for regnskapsplikt – beregning av eiendelenes verdi</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-1-5-annet-ledd-sma-foretak">Utfyllende bestemmelser til regnskapsloven § 1-5 annet ledd. Små foretak</a></li>
+<li class="lvl4"><a href="#1-5-1-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak">§ 1-5-1. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak</a></li>
+<li class="lvl4"><a href="#1-5-2-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-virkning-av-prinsippendringer">§ 1-5-2. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – virkning av prinsippendringer</a></li>
+<li class="lvl4"><a href="#1-5-3-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-sammenligningstall">§ 1-5-3. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – sammenligningstall</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-3-7-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern">Utfyllende bestemmelser til regnskapsloven § 3-7. Unntak fra konsernregnskapsplikt for morselskap i underkonsern</a></li>
+<li class="lvl4"><a href="#3-7-1-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern-lemping-av-sprakkrav-som-er-vilkar-for-slikt-unntak">§ 3-7-1. Unntak fra konsernregnskapsplikt for morselskap i underkonsern – lemping av språkkrav som er vilkår for slikt unntak</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-7-30b">Utfyllende bestemmelser til regnskapsloven § 7-30b</a></li>
+<li class="lvl4"><a href="#7-30b-1-definisjon-av-nrstaende-parter">§ 7-30b-1. Definisjon av nærstående parter</a></li>
+<li class="lvl4"><a href="#7-30b-2-foretak-som-star-det-offentlige-nr">§ 7-30b-2. Foretak som står det offentlige nær</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-1-offentlighet">Utfyllende bestemmelser til regnskapsloven § 8-1. Offentlighet</a></li>
+<li class="lvl4"><a href="#8-1-1-offentlighet-innsyn-i-opplysninger-i-regnskapsregisteret">§ 8-1-1. Offentlighet – innsyn i opplysninger i Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#8-1-2-offentlighet-innsyn-i-opplysninger-hos-den-regnskapspliktige">§ 8-1-2. Offentlighet – innsyn i opplysninger hos den regnskapspliktige</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-2-innsending-til-regnskapsregisteret">Utfyllende bestemmelser til regnskapsloven § 8-2. Innsending til Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#8-2-1-innsending-til-regnskapsregisteret-krav-til-dokumentene-og-oversendelsen">§ 8-2-1. Innsending til Regnskapsregisteret – krav til dokumentene og oversendelsen</a></li>
+<li class="lvl4"><a href="#8-2-2-innsending-til-regnskapsregisteret-registerfring-og-arkivering-av-innsendte-dokumenter">§ 8-2-2. Innsending til Regnskapsregisteret – registerføring og arkivering av innsendte dokumenter</a></li>
+<li class="lvl4"><a href="#8-2-3-innsending-til-regnskapsregisteret-adgang-til-a-fastsette-utfyllende-regler">§ 8-2-3. Innsending til Regnskapsregisteret – adgang til å fastsette utfyllende regler</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-8-3-forsinkelsesgebyr">Utfyllende bestemmelser til regnskapsloven § 8-3. Forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-1-beregning-av-forsinkelsesgebyr">§ 8-3-1. Beregning av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-2-innkreving-av-forsinkelsesgebyr">§ 8-3-2. Innkreving av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-3-ettergivelse-av-forsinkelsesgebyr">§ 8-3-3. Ettergivelse av forsinkelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-3-4-utsatt-frist-for-palpt-forsinkelsesgebyr-ved-bruk-av-altinn">§ 8-3-4. Utsatt frist for påløpt forsinkelsesgebyr ved bruk av Altinn</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-9-1-plikt-til-a-utarbeide-adskilte-regnskaper">Utfyllende bestemmelser til regnskapsloven § 9-1. Plikt til å utarbeide adskilte regnskaper</a></li>
+<li class="lvl4"><a href="#9-1-1-plikt-til-a-utarbeide-adskilte-regnskaper-virkeomrade">§ 9-1-1. Plikt til å utarbeide adskilte regnskaper – virkeområde</a></li>
+<li class="lvl4"><a href="#9-1-2-plikt-til-a-utarbeide-adskilte-regnskaper-definisjoner">§ 9-1-2. Plikt til å utarbeide adskilte regnskaper – definisjoner</a></li>
+<li class="lvl4"><a href="#9-1-3-plikt-til-a-utarbeide-adskilte-regnskaper-pliktens-innhold">§ 9-1-3. Plikt til å utarbeide adskilte regnskaper – pliktens innhold</a></li>
+<li class="lvl4"><a href="#9-1-4-plikt-til-a-utarbeide-adskilte-regnskaper-registrering-og-dokumentasjon-av-regnskapsopplysninger-oppbevaring">§ 9-1-4. Plikt til å utarbeide adskilte regnskaper – registrering og dokumentasjon av regnskapsopplysninger – oppbevaring</a></li>
+<li class="lvl4"><a href="#9-1-5-plikt-til-a-utarbeide-adskilte-regnskaper-revisjon">§ 9-1-5. Plikt til å utarbeide adskilte regnskaper – revisjon</a></li>
+<li class="lvl4"><a href="#9-1-6-plikt-til-a-utarbeide-adskilte-regnskaper-innsendingsplikt-og-innsyn-i-regnskapene">§ 9-1-6. Plikt til å utarbeide adskilte regnskaper – innsendingsplikt og innsyn i regnskapene</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-9-3-offentlig-organs-opplysningsplikt-til-regnskapsregisteret">Utfyllende bestemmelser til regnskapsloven § 9-3. Offentlig organs opplysningsplikt til Regnskapsregisteret</a></li>
+<li class="lvl4"><a href="#9-3-1-offentlig-organs-opplysningsplikt-til-regnskapsregisteret">§ 9-3-1. Offentlig organs opplysningsplikt til regnskapsregisteret</a></li>
+<li class="lvl2"><a href="#utfyllende-bestemmelser-til-regnskapsloven-10-1-regler-som-utfyller-eller-fraviker-loven">Utfyllende bestemmelser til regnskapsloven § 10-1. Regler som utfyller eller fraviker loven</a></li>
+<li class="lvl4"><a href="#10-1-1-arsregnskap-for-utenlandske-foretak-som-driver-virksomhet-pa-norsk-sokkel-unntatt-petroleumsutvinning-og-rrledningstransport-eller-foretak-som-driver-midlertidig-virksomhet-pa-land">§ 10-1-1. Årsregnskap for utenlandske foretak som driver virksomhet på norsk sokkel, unntatt petroleumsutvinning og rørledningstransport, eller foretak som driver midlertidig virksomhet på land</a></li>
+<li class="lvl4"><a href="#10-1-2-regnskapsplikt-mv-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-2. Regnskapsplikt mv. for regnskapspliktige nevnt i§ 10-1-1</a></li>
+<li class="lvl4"><a href="#10-1-3-fremleggelse-av-totalregnskap-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-3. Fremleggelse av totalregnskap for regnskapspliktige nevnt i§ 10-1-1</a></li>
+<li class="lvl4"><a href="#10-1-4-adgang-til-a-unnta-fra-regnskapsplikt-utenlandske-foretak-med-skatteplikt-til-norge-etterskatteloven-2-37tredje-ledd">§ 10-1-4. Adgang til å unnta fra regnskapsplikt utenlandske foretak med skatteplikt til Norge etterskatteloven § 2-37tredje ledd</a></li>
+<li class="lvl2"><a href="#ikrafttredelse-og-virkningstidspunkt">Ikrafttredelse og virkningstidspunkt</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse">§ 11-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#11-2-virkningstidspunkt">§ 11-2. Virkningstidspunkt</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-09-07-1062.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-09-07-1062.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-09-07-1062.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2006-09-07-1062.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2006-09-07-1062.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-09-07-1062.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2006-09-07-1062.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2006-09-07-1062.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-09-07-1062.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-utfylling-og-gjennomfring-mv-av-regnskapsloven-av-17-juli-1998-nr-56">Forskrift til utfylling og gjennomføring mv. av regnskapsloven av 17. juli 1998 nr. 56</h1>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-1-2-regnskapspliktige">Utfyllende bestemmelser til regnskapsloven § 1-2. Regnskapspliktige</h2>
 <h4 id="1-2-1-vilkar-for-regnskapsplikt-beregning-av-eiendelenes-verdi">§ 1-2-1. Vilkår for regnskapsplikt – beregning av eiendelenes verdi</h4>
 <p>For foretak hvor eiendelenes verdi er et kriterium for regnskapsplikt, jf. regnskapsloven § 1-2 første ledd nr. 9 og 11, kan eiendelenes verdi beregnes i samsvar med denne bestemmelsen.</p>
@@ -87,7 +212,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Endret ved forskrift 1 nov 2024 nr. 2615 .</p>
 <h4 id="1-5-1-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak">§ 1-5-1. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak</h4>
 <p>Foretak som tidligere har kunnet benytte regnskapslovens forenklingsregler for små foretak, men som går over til å følge regnskapslovens hovedregler, kan føre virkning av prinsippendring og utarbeide sammenligningstall etter reglene i § 1-5-2 og § 1-5-3 .</p>
-<p><em>Endret ved forskrift 1 nov 2024 nr. 2615 (tidligere § 1-6-1).</em></p>
+<p class="note">Endret ved forskrift 1 nov 2024 nr. 2615 (tidligere § 1-6-1).</p>
 <h4 id="1-5-2-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-virkning-av-prinsippendringer">§ 1-5-2. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – virkning av prinsippendringer</h4>
 <p>I inngående balanse ved overgang til regnskapslovens hovedregler kan det gjøres følgende unntak fra kravet etter regnskapsloven § 4-3 annet ledd om å føre virkning av prinsippendringer direkte mot egenkapitalen:</p>
 <ol>
@@ -98,7 +223,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Inngåtte avtaler om aksjebasert avlønning som ikke tidligere har vært kostnadsført kan regnskapsføres til virkelig verdi på datoen for inngående balanse ved overgang til regnskapslovens hovedregler.</li>
 </ol>
 <p>Anvendelse av bestemmelsen i første ledd skal skje på en ensartet og konsistent måte slik at alle like poster de siste fire år av betydning for fremtidige regnskapsperioder behandles likt. Velger den regnskapspliktige en lengre periode, gjelder kravet til ensartethet og konsistens tilsvarende for hele den valgte perioden.</p>
-<p><em>Endret ved forskrift 1 nov 2024 nr. 2615 (tidligere § 1-6-2).</em></p>
+<p class="note">Endret ved forskrift 1 nov 2024 nr. 2615 (tidligere § 1-6-2).</p>
 <h4 id="1-5-3-tilpasninger-ved-overgang-fra-kategorien-sma-foretak-til-vrige-foretak-sammenligningstall">§ 1-5-3. Tilpasninger ved overgang fra kategorien små foretak til øvrige foretak – sammenligningstall</h4>
 <p>Ved overgang til regnskapslovens hovedregler kan den regnskapspliktige ved utarbeidelsen av årsregnskapet som gjelder overgangsåret gjøre følgende unntak fra regnskapsloven § 6-6 :</p>
 <ol>
@@ -108,7 +233,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Unntaket for noteopplysninger i første ledd nr. 3 gjelder ikke for noteopplysninger til tall i balansen. Unntaket gjelder likevel for noteopplysninger til balansen som tidligere ikke har vært gitt i samsvar med de forenklede kravene til noteopplysninger for små foretak.</p>
 <p>Det må i noter til årsregnskapet opplyses særskilt om hvilke omarbeidelser som er foretatt av tallene fra foregående regnskapsår som følge av overgang til regnskapslovens hovedregler. Opplysninger etter første punktum skal gis i tilknytning til opplysninger etter regnskapsloven § 7-2 .</p>
-<p><em>Endret ved forskrifter 15 nov 2006 nr. 1258 , 1 nov 2024 nr. 2615 (tidligere § 1-6-3).</em></p>
+<p class="note">Endret ved forskrifter 15 nov 2006 nr. 1258 , 1 nov 2024 nr. 2615 (tidligere § 1-6-3).</p>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-3-7-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern">Utfyllende bestemmelser til regnskapsloven § 3-7. Unntak fra konsernregnskapsplikt for morselskap i underkonsern</h2>
 <h4 id="3-7-1-unntak-fra-konsernregnskapsplikt-for-morselskap-i-underkonsern-lemping-av-sprakkrav-som-er-vilkar-for-slikt-unntak">§ 3-7-1. Unntak fra konsernregnskapsplikt for morselskap i underkonsern – lemping av språkkrav som er vilkår for slikt unntak</h4>
 <p>Konsernregnskap som nevnt i regnskapsloven § 3-7 første ledd kan foruten å være på norsk, være på svensk, dansk eller engelsk.</p>
@@ -133,7 +258,7 @@ b. Et foretak og et rapporterende foretak er nærstående parter dersom et av f�
 b. barn av personens partner, og
 c. personer som forsørges av personen eller dennes ektefelle eller partner.</p>
 <p>Ved vurdering av et mulig forhold mellom nærstående parter skal oppmerksomheten rettes mot det reelle innholdet i forholdet og ikke bare mot forholdets juridiske form.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2010 nr. 1057 , endret ved forskrift 21 okt 2014 nr. 1316 (fom regnskapsår påbegynt 1 jan 2014 eller senere).</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2010 nr. 1057 , endret ved forskrift 21 okt 2014 nr. 1316 (fom regnskapsår påbegynt 1 jan 2014 eller senere).</p>
 <h4 id="7-30b-2-foretak-som-star-det-offentlige-nr">§ 7-30b-2. Foretak som står det offentlige nær</h4>
 <p>Kravene til opplysninger etter regnskapsloven § 7-30b , gjelder ikke for transaksjoner med:</p>
 <p>a. en myndighet som har bestemmende innflytelse, betydelig innflytelse eller felles kontroll over det rapporterende foretaket, og
@@ -142,13 +267,13 @@ b. et annet foretak som er en nærstående part fordi den samme offentlige myndi
 <p>a. navnet på den offentlige myndigheten og forholdet til det rapporterende foretaket (kontroll, felles kontroll eller betydelig innflytelse),
 b. arten og omfanget av betydelige transaksjoner, og
 c. for transaksjoner som samlet, men ikke hver for seg, er betydelige, skal det gis en kvalitativ eller kvantitativ indikasjon på deres omfang.</p>
-<p><em>Tilføyd ved forskrift 21 okt 2014 nr. 1316 (fom regnskapsår påbegynt 1 jan 2014 eller senere).</em></p>
+<p class="note">Tilføyd ved forskrift 21 okt 2014 nr. 1316 (fom regnskapsår påbegynt 1 jan 2014 eller senere).</p>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-8-1-offentlighet">Utfyllende bestemmelser til regnskapsloven § 8-1. Offentlighet</h2>
 <h4 id="8-1-1-offentlighet-innsyn-i-opplysninger-i-regnskapsregisteret">§ 8-1-1. Offentlighet – innsyn i opplysninger i Regnskapsregisteret</h4>
 <p>Regnskapsregisteret kan gi opplysninger som nevnt i regnskapsloven § 8-1 i form av papirkopier eller elektronisk overføring.</p>
 <p>Papirkopier og elektroniske kopier skal bekreftes å være «rett kopi», med mindre rekvirenten gir avkall på bekreftelsen. Elektronisk kopi som utstedes fra registeret skal autentiseres ved bruk av tillitstjenester som nevnt i forordning (EU) nr. 910/2014 , jf. lov 15. juni 2018 nr. 44 om gjennomføring av EUs forordning om elektronisk identifikasjon og tillitstjenester for elektroniske transaksjoner i det indre marked (lov om elektroniske tillitstjenester) § 1 , for å sikre at kopien er fra registeret og at innholdet er en rett kopi av dokumentet i registeret eller samsvarer med opplysninger i registeret.</p>
 <p>Registerfører fastsetter gebyrer for utlevering av opplysninger. Gebyrene skal godkjennes av departementet.</p>
-<p><em>Endret ved forskrift 28 des 2023 nr. 2338 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 28 des 2023 nr. 2338 (i kraft 1 jan 2024).</p>
 <h4 id="8-1-2-offentlighet-innsyn-i-opplysninger-hos-den-regnskapspliktige">§ 8-1-2. Offentlighet – innsyn i opplysninger hos den regnskapspliktige</h4>
 <p>Regnskapspliktige som utleverer årsregnskap mv. i form av papirkopier eller elektronisk overføring til andre enn offentlige myndigheter, kan kreve et gebyr fra mottaker. Gebyret kan ikke overstige den regnskapspliktiges kostnader ved utleveringen.</p>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-8-2-innsending-til-regnskapsregisteret">Utfyllende bestemmelser til regnskapsloven § 8-2. Innsending til Regnskapsregisteret</h2>
@@ -160,7 +285,7 @@ c. for transaksjoner som samlet, men ikke hver for seg, er betydelige, skal det 
 <li>årsregnskapet er utarbeidet av ekstern autorisert regnskapsfører,</li>
 <li>ekstern autorisert regnskapsfører i løpet av regnskapsåret har bistått ved den løpende regnskapsføringen eller utført andre tjenester for selskapet enn å utarbeide årsregnskapet.</li>
 </ul>
-<p><em>Endret ved forskrifter 15 april 2011 nr. 403 (i kraft 1 mai 2011 og 1 jan 2012), 3 juli 2014 nr. 937 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrifter 15 april 2011 nr. 403 (i kraft 1 mai 2011 og 1 jan 2012), 3 juli 2014 nr. 937 (i kraft 1 jan 2015).</p>
 <h4 id="8-2-2-innsending-til-regnskapsregisteret-registerfring-og-arkivering-av-innsendte-dokumenter">§ 8-2-2. Innsending til Regnskapsregisteret – registerføring og arkivering av innsendte dokumenter</h4>
 <p>De innsendte dokumenter registerføres ved registerenheten i Brønnøysund og arkiveres på den måte som registerfører finner hensiktsmessig.</p>
 <h4 id="8-2-3-innsending-til-regnskapsregisteret-adgang-til-a-fastsette-utfyllende-regler">§ 8-2-3. Innsending til Regnskapsregisteret – adgang til å fastsette utfyllende regler</h4>
@@ -174,17 +299,17 @@ c. for transaksjoner som samlet, men ikke hver for seg, er betydelige, skal det 
 <li>deretter tre R pr. uke de neste åtte uker.</li>
 </ol>
 <p>Gebyret ilegges for hele uker slik at del av en uke regnes som full uke. Gebyr ilegges til årsregnskapet, årsberetningen, revisjonsberetningen og andre innsendingspliktige dokumenter er mottatt av Regnskapsregisteret, men ikke for mer enn 26 uker. Dersom de innsendte dokumentene har mangler som gjør at de ikke kan godkjennes som årsregnskap mv., ilegges gebyr til manglene er rettet opp.</p>
-<p><em>Endret ved forskrift 15 april 2011 nr. 403 (i kraft 1 mai 2011).</em></p>
+<p class="note">Endret ved forskrift 15 april 2011 nr. 403 (i kraft 1 mai 2011).</p>
 <h4 id="8-3-2-innkreving-av-forsinkelsesgebyr">§ 8-3-2. Innkreving av forsinkelsesgebyr</h4>
 <p>Innkreving av forsinkelsesgebyr foretas av Innkrevingsmyndigheten. Regnskapsregisteret skal innhente opplysninger om styremedlemmer mv. hos den regnskapspliktige, jf. regnskapsloven § 8-3 annet ledd, fra Enhetsregisteret og Foretaksregisteret.</p>
-<p><em>Endret ved forskrift 13 juni 2025 nr. 1003 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 13 juni 2025 nr. 1003 (i kraft 1 jan 2026).</p>
 <h4 id="8-3-3-ettergivelse-av-forsinkelsesgebyr">§ 8-3-3. Ettergivelse av forsinkelsesgebyr</h4>
 <p>Regnskapsregisterets vedtak i sak om ettergivelse av forsinkelsesgebyr, jf. regnskapsloven § 8-3 tredje ledd , kan påklages til Skattedirektoratet.</p>
-<p><em>Endret ved forskrifter 16 des 2009 nr. 1555 (i kraft 1 jan 2010), 13 juni 2025 nr. 1003 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2009 nr. 1555 (i kraft 1 jan 2010), 13 juni 2025 nr. 1003 (i kraft 1 jan 2026).</p>
 <h4 id="8-3-4-utsatt-frist-for-palpt-forsinkelsesgebyr-ved-bruk-av-altinn">§ 8-3-4. Utsatt frist for påløpt forsinkelsesgebyr ved bruk av Altinn</h4>
 <p>Fristen etter regnskapsloven § 8-3 første ledd første punktum utsettes med én måned dersom innsending foretas elektronisk via Altinn ( http://www.altinn.no ) og dokumentene ikke har mangler som gjør at de ikke kan godkjennes som årsregnskap mv. Fristen etter regnskapsloven § 8-3 første ledd annet punktum er tilsvarende 1. mars.</p>
 <p>Fristene i første ledd gjelder for regnskapsår avsluttet på en dato fra 1. juli 2004 til 30. juni 2015.</p>
-<p><em>Endret ved forskrifter 30 mars 2007 nr. 369 , 4 des 2007 nr. 1355 , 3 des 2009 nr. 1440 , 16 mai 2012 nr. 441 , 29 jan 2014 nr. 74 .</em></p>
+<p class="note">Endret ved forskrifter 30 mars 2007 nr. 369 , 4 des 2007 nr. 1355 , 3 des 2009 nr. 1440 , 16 mai 2012 nr. 441 , 29 jan 2014 nr. 74 .</p>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-9-1-plikt-til-a-utarbeide-adskilte-regnskaper">Utfyllende bestemmelser til regnskapsloven § 9-1. Plikt til å utarbeide adskilte regnskaper</h2>
 <h4 id="9-1-1-plikt-til-a-utarbeide-adskilte-regnskaper-virkeomrade">§ 9-1-1. Plikt til å utarbeide adskilte regnskaper – virkeområde</h4>
 <p>Dette kapittelet gjelder for foretak som i tillegg til å drive annen virksomhet:</p>
@@ -229,17 +354,17 @@ c. for transaksjoner som samlet, men ikke hver for seg, er betydelige, skal det 
 <h4 id="9-3-1-offentlig-organs-opplysningsplikt-til-regnskapsregisteret">§ 9-3-1. Offentlig organs opplysningsplikt til regnskapsregisteret</h4>
 <p>Forvaltningsorgan som har opplysninger som kan være egnet til å fastslå om det foreligger regnskapsplikt etter regnskapsloven § 1-2 første til fjerde ledd, har plikt til å avgi disse til Regnskapsregisteret. Opplysningene skal gis uten hinder av taushetsplikt.</p>
 <p>Nærmere detaljer om overføringen og håndteringen av opplysninger fastsettes i avtale mellom det enkelte forvaltningsorgan og regnskapsregisteret.</p>
-<p><em>Tilføyd ved forskrift 15 mai 2009 nr. 520 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 mai 2009 nr. 520 .</p>
 <h2 id="utfyllende-bestemmelser-til-regnskapsloven-10-1-regler-som-utfyller-eller-fraviker-loven">Utfyllende bestemmelser til regnskapsloven § 10-1. Regler som utfyller eller fraviker loven</h2>
 <h4 id="10-1-1-arsregnskap-for-utenlandske-foretak-som-driver-virksomhet-pa-norsk-sokkel-unntatt-petroleumsutvinning-og-rrledningstransport-eller-foretak-som-driver-midlertidig-virksomhet-pa-land">§ 10-1-1. Årsregnskap for utenlandske foretak som driver virksomhet på norsk sokkel, unntatt petroleumsutvinning og rørledningstransport, eller foretak som driver midlertidig virksomhet på land</h4>
 <p>Bestemmelsene i § 10-1-2 og § 10-1-3 gjelder for regnskapspliktige som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som utøver eller deltar i virksomhet som er skattepliktig etter lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster mv. med unntak av skattepliktige etter lovens § 3 og § 5. Bestemmelsene i § 10-1-2 og § 10-1-3 gjelder også for regnskapspliktige som nevnt i regnskapsloven § 1-2 første ledd nr. 13 som ikke har varig tilknytning til riket.</p>
 <p>Bestemmelsene i § 10-1-2 og § 10-1-3 gjelder uavhengig av om virksomhet som nevnt i første ledd er unntatt fra skatteplikt til Norge i henhold til skatteavtale med annen stat.</p>
-<p><em>Endret ved forskrift 21 des 2007 nr. 1768 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrift 21 des 2007 nr. 1768 (i kraft 1 jan 2008).</p>
 <h4 id="10-1-2-regnskapsplikt-mv-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-2. Regnskapsplikt mv. for regnskapspliktige nevnt i§ 10-1-1</h4>
 <p>Bestemmelsene i regnskapsloven kapittel 3 til 7 gjelder ikke for regnskapspliktige som nevnt i § 10-1-1 som i regnskapsåret har en omsetning i Norge og/eller på norsk sokkel på mindre enn 5 millioner kroner. Skattekontoret kan ved enkeltvedtak bestemme at det samme skal gjelde for andre regnskapspliktige som nevnt i § 10-1-1 .</p>
 <p>Som små foretak etter regnskapsloven § 1-6 regnes foretak hvis virksomhet i Norge eller på norsk kontinentalsokkel oppfyller vilkårene i lovens § 1-6.</p>
 <p>Plikten til å sende årsregnskap mv. til Regnskapsregisteret etter regnskapsloven § 8-2 gjelder ikke regnskapspliktige som nevnt i første ledd.</p>
-<p><em>Endret ved forskrift 21 des 2007 nr. 1768 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrift 21 des 2007 nr. 1768 (i kraft 1 jan 2008).</p>
 <h4 id="10-1-3-fremleggelse-av-totalregnskap-for-regnskapspliktige-nevnt-i-10-1-1">§ 10-1-3. Fremleggelse av totalregnskap for regnskapspliktige nevnt i§ 10-1-1</h4>
 <p>Årsregnskap for den regnskapspliktiges totale virksomhet med revisjonsberetning og styrets beretning skal kunne fremlegges for offentlig kontrollmyndighet, med mindre det ikke foreligger plikt til å utarbeide årsregnskap m.m. etter regelverket i hjemlandet.</p>
 <h4 id="10-1-4-adgang-til-a-unnta-fra-regnskapsplikt-utenlandske-foretak-med-skatteplikt-til-norge-etterskatteloven-2-37tredje-ledd">§ 10-1-4. Adgang til å unnta fra regnskapsplikt utenlandske foretak med skatteplikt til Norge etterskatteloven § 2-37tredje ledd</h4>
@@ -261,11 +386,13 @@ c. for transaksjoner som samlet, men ikke hver for seg, er betydelige, skal det 
 <li>Forskrift 19. desember 2003 nr. 1642 om regnskapsføring av finansielle instrumenter</li>
 <li>Forskrift 4. juli 2003 nr. 897 om atskilte regnskaper for foretak som er gitt særlige eller eksklusive rettigheter eller som utfører tjenester av allmenn økonomisk betydning.</li>
 </ol>
-<p><em>Endret ved forskrift 15 nov 2006 nr. 1258 .</em></p>
+<p class="note">Endret ved forskrift 15 nov 2006 nr. 1258 .</p>
 <h4 id="11-2-virkningstidspunkt">§ 11-2. Virkningstidspunkt</h4>
 <p>Forskriften gjelder med virkning fra regnskapsår som starter 1. januar 2006 og senere.</p>
 <p>Opphevelsen av forskrift 19. desember 2003 nr. 1642 om regnskapsføring av finansielle instrumenter (jf. § 11-1 nr. 11) gjelder med virkning fra regnskapsår som starter 1. januar 2006 og senere.</p>
 <p>Kapittel 9-1 og opphevelsen av forskrift 4. juli 2003 nr. 897 om atskilte regnskaper for foretak som er gitt særlige eller eksklusive rettigheter eller som utfører tjenester av allmenn økonomisk betydning (jf. § 11-1 nr. 12) gjelder med virkning fra regnskapsår som starter 1. januar 2006 og senere.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,71 +19,292 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-01-565.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Viltforskriften" href="../feeds/forskrift-2020-04-01-565.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Viltforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-04-01-565</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementetLandbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-04-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-26-1384</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-04-01-565" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forholdet-til-annen-lovgivning">§ 1-3. Forholdet til annen lovgivning</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-innfanging-av-vilt">Kapittel 2. Innfanging av vilt</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-hjemmel-for-innfanging">§ 2-1. Krav om hjemmel for innfanging</a></li>
+<li class="lvl3"><a href="#innfanging-for-vitenskapelige-eller-andre-srlige-formal">Innfanging for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-2-innfanging-for-vitenskapelige-eller-andre-srlige-formal">§ 2-2. Innfanging for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-3-merking-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 2-3. Merking av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-4-utstedelse-av-lisens-for-ringmerking">§ 2-4. Utstedelse av lisens for ringmerking</a></li>
+<li class="lvl5"><a href="#2-5-ringmerking-i-medhold-av-lisens">§ 2-5. Ringmerking i medhold av lisens</a></li>
+<li class="lvl5"><a href="#2-6-om-bruk-av-fangstredskap-ved-ringmerking">§ 2-6. Om bruk av fangstredskap ved ringmerking</a></li>
+<li class="lvl5"><a href="#2-7-rapportering-av-ringmerking">§ 2-7. Rapportering av ringmerking</a></li>
+<li class="lvl3"><a href="#innfanging-til-viltoppdrett-fremvisning-og-rehabilitering">Innfanging til viltoppdrett, fremvisning og rehabilitering</a></li>
+<li class="lvl5"><a href="#2-8-innfanging-av-vilt-for-overfring-til-viltoppdrett">§ 2-8. Innfanging av vilt for overføring til viltoppdrett</a></li>
+<li class="lvl5"><a href="#2-9-innfanging-av-vilt-for-overfring-til-dyrepark">§ 2-9. Innfanging av vilt for overføring til dyrepark</a></li>
+<li class="lvl5"><a href="#2-10-ivaretakelse-av-vilt-for-rehabilitering">§ 2-10. Ivaretakelse av vilt for rehabilitering</a></li>
+<li class="lvl3"><a href="#felles-bestemmelser-om-innfanging">Felles bestemmelser om innfanging</a></li>
+<li class="lvl5"><a href="#2-11-sknad-om-innfanging">§ 2-11. Søknad om innfanging</a></li>
+<li class="lvl5"><a href="#2-12-merking-av-fangstredskaper">§ 2-12. Merking av fangstredskaper</a></li>
+<li class="lvl5"><a href="#2-13-varsling-og-innhenting-av-grunneiers-tillatelse">§ 2-13. Varsling og innhenting av grunneiers tillatelse</a></li>
+<li class="lvl5"><a href="#2-14-varsling-ved-immobilisering">§ 2-14. Varsling ved immobilisering</a></li>
+<li class="lvl2"><a href="#kapittel-3-skadefelling-og-annet-uttak-av-vilt">Kapittel 3. Skadefelling og annet uttak av vilt</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-hjemmel-for-skadefelling-og-annet-uttak">§ 3-1. Krav om hjemmel for skadefelling og annet uttak</a></li>
+<li class="lvl3"><a href="#skadefelling">Skadefelling</a></li>
+<li class="lvl5"><a href="#3-2-virkeomrade-for-bestemmelsene-om-skadefelling">§ 3-2. Virkeområde for bestemmelsene om skadefelling</a></li>
+<li class="lvl5"><a href="#3-3-vilkar-for-skadefelling">§ 3-3. Vilkår for skadefelling</a></li>
+<li class="lvl5"><a href="#3-4-skadefelling-etter-skadelidtes-egen-beslutning">§ 3-4. Skadefelling etter skadelidtes egen beslutning</a></li>
+<li class="lvl5"><a href="#3-5-skadefelling-etter-beslutning-fra-kommunen">§ 3-5. Skadefelling etter beslutning fra kommunen</a></li>
+<li class="lvl5"><a href="#3-6-skadefelling-etter-beslutning-fra-statsforvalteren">§ 3-6. Skadefelling etter beslutning fra statsforvalteren</a></li>
+<li class="lvl5"><a href="#3-7-skadefelling-etter-beslutning-fra-miljdirektoratet">§ 3-7. Skadefelling etter beslutning fra Miljødirektoratet</a></li>
+<li class="lvl5"><a href="#3-8-sknad-om-skadefelling">§ 3-8. Søknad om skadefelling</a></li>
+<li class="lvl5"><a href="#3-9-forbud-mot-lokking-ved-skadefelling">§ 3-9. Forbud mot lokking ved skadefelling</a></li>
+<li class="lvl5"><a href="#3-10-forbud-mot-salg-av-retten-til-skadefelling">§ 3-10. Forbud mot salg av retten til skadefelling</a></li>
+<li class="lvl3"><a href="#uttak-for-vitenskapelige-eller-andre-srlige-formal">Uttak for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#3-11-uttak-for-vitenskapelige-eller-andre-srlige-formal">§ 3-11. Uttak for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#3-12-sknad-om-uttak-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 3-12. Søknad om uttak av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl3"><a href="#om-metoder-og-varsling-ved-skadefelling-og-annet-uttak">Om metoder og varsling ved skadefelling og annet uttak</a></li>
+<li class="lvl5"><a href="#3-13-metode-for-skadefelling-og-annet-uttak-og-rapportering">§ 3-13. Metode for skadefelling og annet uttak og rapportering</a></li>
+<li class="lvl5"><a href="#3-14-varsling-til-grunneier-kommunen-og-politiet">§ 3-14. Varsling til grunneier, kommunen og politiet</a></li>
+<li class="lvl2"><a href="#kapittel-4-hold-av-vilt-i-fangenskap">Kapittel 4. Hold av vilt i fangenskap</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-hjemmel-for-hold-av-vilt">§ 4-1. Krav om hjemmel for hold av vilt</a></li>
+<li class="lvl4"><a href="#4-2-forbud-mot-hold-av-vilt-for-bestemte-formal">§ 4-2. Forbud mot hold av vilt for bestemte formål</a></li>
+<li class="lvl4"><a href="#4-3-forbud-mot-hybridisering">§ 4-3. Forbud mot hybridisering</a></li>
+<li class="lvl4"><a href="#4-4-plikt-til-a-hindre-rmming">§ 4-4. Plikt til å hindre rømming</a></li>
+<li class="lvl3"><a href="#oppdrett-av-vilt">Oppdrett av vilt</a></li>
+<li class="lvl5"><a href="#4-5-viltoppdrett-uten-krav-om-tillatelse-etter-denne-forskriften">§ 4-5. Viltoppdrett uten krav om tillatelse etter denne forskriften</a></li>
+<li class="lvl5"><a href="#4-6-viltoppdrett-etter-tillatelse">§ 4-6. Viltoppdrett etter tillatelse</a></li>
+<li class="lvl5"><a href="#4-7-anskaffelse-av-dyr-til-oppdrett">§ 4-7. Anskaffelse av dyr til oppdrett</a></li>
+<li class="lvl3"><a href="#hold-for-fremvisning-rehabilitering-i-dyrepark-eller-for-andre-formal">Hold for fremvisning, rehabilitering, i dyrepark eller for andre formål</a></li>
+<li class="lvl5"><a href="#4-8-tillatelse-til-hold-av-vilt-i-dyrepark-eller-for-midlertidig-fremvisning">§ 4-8. Tillatelse til hold av vilt i dyrepark eller for midlertidig fremvisning</a></li>
+<li class="lvl5"><a href="#4-9-hold-for-andre-srlige-formal">§ 4-9. Hold for andre særlige formål</a></li>
+<li class="lvl2"><a href="#kapittel-5-vilt-som-har-rmt">Kapittel 5. Vilt som har rømt</a></li>
+<li class="lvl4"><a href="#5-1-innfanging-og-uttak-av-vilt-som-har-rmt">§ 5-1. Innfanging og uttak av vilt som har rømt</a></li>
+<li class="lvl4"><a href="#5-2-plikt-til-varsling-ved-rmming">§ 5-2. Plikt til varsling ved rømming</a></li>
+<li class="lvl4"><a href="#5-3-ansvar-for-utgifter-ved-rmming">§ 5-3. Ansvar for utgifter ved rømming</a></li>
+<li class="lvl2"><a href="#kapittel-6-utsetting-av-vilt-i-naturen">Kapittel 6. Utsetting av vilt i naturen</a></li>
+<li class="lvl4"><a href="#6-1-krav-om-lovhjemmel-for-utsetting-av-vilt">§ 6-1. Krav om lovhjemmel for utsetting av vilt</a></li>
+<li class="lvl4"><a href="#6-2-utsetting-av-innfanget-vilt">§ 6-2. Utsetting av innfanget vilt</a></li>
+<li class="lvl4"><a href="#6-3-vilt-som-har-blitt-tamt-eller-uskikket-til-a-overleve-i-naturen">§ 6-3. Vilt som har blitt tamt eller uskikket til å overleve i naturen</a></li>
+<li class="lvl4"><a href="#6-4-uttak-av-ulovlig-utsatt-vilt">§ 6-4. Uttak av ulovlig utsatt vilt</a></li>
+<li class="lvl2"><a href="#kapittel-7-ivaretakelse-av-ddt-vilt">Kapittel 7. Ivaretakelse av dødt vilt</a></li>
+<li class="lvl3"><a href="#eiendomsretten-til-ddt-vilt">Eiendomsretten til dødt vilt</a></li>
+<li class="lvl5"><a href="#7-1-eiendomsrett-til-registreringspliktige-viltarter">§ 7-1. Eiendomsrett til registreringspliktige viltarter</a></li>
+<li class="lvl5"><a href="#7-2-eiendomsrett-til-viltarter-som-ikke-er-registreringspliktige">§ 7-2. Eiendomsrett til viltarter som ikke er registreringspliktige</a></li>
+<li class="lvl5"><a href="#7-3-eiendomsrett-til-uregistrert-ulovlig-avlivet-eller-ulovlig-innfrt-vilt">§ 7-3. Eiendomsrett til uregistrert, ulovlig avlivet eller ulovlig innført vilt</a></li>
+<li class="lvl5"><a href="#7-3a-saksbehandlingsregler-ved-inndragning">§ 7-3a. Saksbehandlingsregler ved inndragning</a></li>
+<li class="lvl5"><a href="#7-4-sknad-om-eiendomsrett-til-registreringspliktig-vilt">§ 7-4. Søknad om eiendomsrett til registreringspliktig vilt</a></li>
+<li class="lvl5"><a href="#7-5-forbud-mot-overdragelse-av-egg">§ 7-5. Forbud mot overdragelse av egg</a></li>
+<li class="lvl3"><a href="#registrering-og-merking-av-ddt-vilt">Registrering og merking av dødt vilt</a></li>
+<li class="lvl5"><a href="#7-6-plikt-til-registrering-og-merking">§ 7-6. Plikt til registrering og merking</a></li>
+<li class="lvl5"><a href="#7-7-registrering-av-registreringspliktige-arter">§ 7-7. Registrering av registreringspliktige arter</a></li>
+<li class="lvl5"><a href="#7-8-merking-av-merkepliktige-arter">§ 7-8. Merking av merkepliktige arter</a></li>
+<li class="lvl5"><a href="#7-9-oppbevaring-av-deler-av-vilt-i-preparantverksted">§ 7-9. Oppbevaring av deler av vilt i preparantverksted</a></li>
+<li class="lvl3"><a href="#autorisasjon-av-preparanter">Autorisasjon av preparanter</a></li>
+<li class="lvl5"><a href="#7-10-krav-om-autorisasjon-for-a-utve-preparantyrket">§ 7-10. Krav om autorisasjon for å utøve preparantyrket</a></li>
+<li class="lvl5"><a href="#7-11-autorisasjon-for-preparering-av-vilt">§ 7-11. Autorisasjon for preparering av vilt</a></li>
+<li class="lvl5"><a href="#7-12-tilbakekall-av-autorisasjon-for-preparering-av-vilt">§ 7-12. Tilbakekall av autorisasjon for preparering av vilt</a></li>
+<li class="lvl3"><a href="#gebyr-for-preparering">Gebyr for preparering</a></li>
+<li class="lvl5"><a href="#7-13-gebyr">§ 7-13. Gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-klage">§ 8-1. Klage</a></li>
+<li class="lvl4"><a href="#8-2-tilsyn-og-iverksetting-av-tiltak">§ 8-2. Tilsyn og iverksetting av tiltak</a></li>
+<li class="lvl4"><a href="#8-3-straff">§ 8-3. Straff</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse-oppheving-av-og-endringer-i-andre-forskrifter">§ 8-4. Ikrafttredelse, oppheving av og endringer i andre forskrifter</a></li>
+<li class="lvl4"><a href="#8-5-overgangsbestemmelse">§ 8-5. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-oversikt-over-registrerings-og-merkepliktige-arter">Vedlegg 1. Oversikt over registrerings- og merkepliktige arter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-26-1384.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-01-565.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om skadefelling, dødt vilt og bruk av vilt i oppdrett, forskning og dyrepark (viltforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-04-01-565.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-04-01-565 <code>forskrift/2020-04-01-565</code></td></tr>
+<tr><th>Korttittel</th><td>Viltforskriften</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementetLandbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.2020</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-26-1384 <code>forskrift/2026-06-26-1384</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-04-01-565" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forholdet-til-annen-lovgivning">§ 1-3. Forholdet til annen lovgivning</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-innfanging-av-vilt">Kapittel 2. Innfanging av vilt</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-hjemmel-for-innfanging">§ 2-1. Krav om hjemmel for innfanging</a></li>
+<li class="lvl3"><a href="#innfanging-for-vitenskapelige-eller-andre-srlige-formal">Innfanging for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-2-innfanging-for-vitenskapelige-eller-andre-srlige-formal">§ 2-2. Innfanging for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-3-merking-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 2-3. Merking av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#2-4-utstedelse-av-lisens-for-ringmerking">§ 2-4. Utstedelse av lisens for ringmerking</a></li>
+<li class="lvl5"><a href="#2-5-ringmerking-i-medhold-av-lisens">§ 2-5. Ringmerking i medhold av lisens</a></li>
+<li class="lvl5"><a href="#2-6-om-bruk-av-fangstredskap-ved-ringmerking">§ 2-6. Om bruk av fangstredskap ved ringmerking</a></li>
+<li class="lvl5"><a href="#2-7-rapportering-av-ringmerking">§ 2-7. Rapportering av ringmerking</a></li>
+<li class="lvl3"><a href="#innfanging-til-viltoppdrett-fremvisning-og-rehabilitering">Innfanging til viltoppdrett, fremvisning og rehabilitering</a></li>
+<li class="lvl5"><a href="#2-8-innfanging-av-vilt-for-overfring-til-viltoppdrett">§ 2-8. Innfanging av vilt for overføring til viltoppdrett</a></li>
+<li class="lvl5"><a href="#2-9-innfanging-av-vilt-for-overfring-til-dyrepark">§ 2-9. Innfanging av vilt for overføring til dyrepark</a></li>
+<li class="lvl5"><a href="#2-10-ivaretakelse-av-vilt-for-rehabilitering">§ 2-10. Ivaretakelse av vilt for rehabilitering</a></li>
+<li class="lvl3"><a href="#felles-bestemmelser-om-innfanging">Felles bestemmelser om innfanging</a></li>
+<li class="lvl5"><a href="#2-11-sknad-om-innfanging">§ 2-11. Søknad om innfanging</a></li>
+<li class="lvl5"><a href="#2-12-merking-av-fangstredskaper">§ 2-12. Merking av fangstredskaper</a></li>
+<li class="lvl5"><a href="#2-13-varsling-og-innhenting-av-grunneiers-tillatelse">§ 2-13. Varsling og innhenting av grunneiers tillatelse</a></li>
+<li class="lvl5"><a href="#2-14-varsling-ved-immobilisering">§ 2-14. Varsling ved immobilisering</a></li>
+<li class="lvl2"><a href="#kapittel-3-skadefelling-og-annet-uttak-av-vilt">Kapittel 3. Skadefelling og annet uttak av vilt</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-hjemmel-for-skadefelling-og-annet-uttak">§ 3-1. Krav om hjemmel for skadefelling og annet uttak</a></li>
+<li class="lvl3"><a href="#skadefelling">Skadefelling</a></li>
+<li class="lvl5"><a href="#3-2-virkeomrade-for-bestemmelsene-om-skadefelling">§ 3-2. Virkeområde for bestemmelsene om skadefelling</a></li>
+<li class="lvl5"><a href="#3-3-vilkar-for-skadefelling">§ 3-3. Vilkår for skadefelling</a></li>
+<li class="lvl5"><a href="#3-4-skadefelling-etter-skadelidtes-egen-beslutning">§ 3-4. Skadefelling etter skadelidtes egen beslutning</a></li>
+<li class="lvl5"><a href="#3-5-skadefelling-etter-beslutning-fra-kommunen">§ 3-5. Skadefelling etter beslutning fra kommunen</a></li>
+<li class="lvl5"><a href="#3-6-skadefelling-etter-beslutning-fra-statsforvalteren">§ 3-6. Skadefelling etter beslutning fra statsforvalteren</a></li>
+<li class="lvl5"><a href="#3-7-skadefelling-etter-beslutning-fra-miljdirektoratet">§ 3-7. Skadefelling etter beslutning fra Miljødirektoratet</a></li>
+<li class="lvl5"><a href="#3-8-sknad-om-skadefelling">§ 3-8. Søknad om skadefelling</a></li>
+<li class="lvl5"><a href="#3-9-forbud-mot-lokking-ved-skadefelling">§ 3-9. Forbud mot lokking ved skadefelling</a></li>
+<li class="lvl5"><a href="#3-10-forbud-mot-salg-av-retten-til-skadefelling">§ 3-10. Forbud mot salg av retten til skadefelling</a></li>
+<li class="lvl3"><a href="#uttak-for-vitenskapelige-eller-andre-srlige-formal">Uttak for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#3-11-uttak-for-vitenskapelige-eller-andre-srlige-formal">§ 3-11. Uttak for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl5"><a href="#3-12-sknad-om-uttak-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 3-12. Søknad om uttak av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl3"><a href="#om-metoder-og-varsling-ved-skadefelling-og-annet-uttak">Om metoder og varsling ved skadefelling og annet uttak</a></li>
+<li class="lvl5"><a href="#3-13-metode-for-skadefelling-og-annet-uttak-og-rapportering">§ 3-13. Metode for skadefelling og annet uttak og rapportering</a></li>
+<li class="lvl5"><a href="#3-14-varsling-til-grunneier-kommunen-og-politiet">§ 3-14. Varsling til grunneier, kommunen og politiet</a></li>
+<li class="lvl2"><a href="#kapittel-4-hold-av-vilt-i-fangenskap">Kapittel 4. Hold av vilt i fangenskap</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-hjemmel-for-hold-av-vilt">§ 4-1. Krav om hjemmel for hold av vilt</a></li>
+<li class="lvl4"><a href="#4-2-forbud-mot-hold-av-vilt-for-bestemte-formal">§ 4-2. Forbud mot hold av vilt for bestemte formål</a></li>
+<li class="lvl4"><a href="#4-3-forbud-mot-hybridisering">§ 4-3. Forbud mot hybridisering</a></li>
+<li class="lvl4"><a href="#4-4-plikt-til-a-hindre-rmming">§ 4-4. Plikt til å hindre rømming</a></li>
+<li class="lvl3"><a href="#oppdrett-av-vilt">Oppdrett av vilt</a></li>
+<li class="lvl5"><a href="#4-5-viltoppdrett-uten-krav-om-tillatelse-etter-denne-forskriften">§ 4-5. Viltoppdrett uten krav om tillatelse etter denne forskriften</a></li>
+<li class="lvl5"><a href="#4-6-viltoppdrett-etter-tillatelse">§ 4-6. Viltoppdrett etter tillatelse</a></li>
+<li class="lvl5"><a href="#4-7-anskaffelse-av-dyr-til-oppdrett">§ 4-7. Anskaffelse av dyr til oppdrett</a></li>
+<li class="lvl3"><a href="#hold-for-fremvisning-rehabilitering-i-dyrepark-eller-for-andre-formal">Hold for fremvisning, rehabilitering, i dyrepark eller for andre formål</a></li>
+<li class="lvl5"><a href="#4-8-tillatelse-til-hold-av-vilt-i-dyrepark-eller-for-midlertidig-fremvisning">§ 4-8. Tillatelse til hold av vilt i dyrepark eller for midlertidig fremvisning</a></li>
+<li class="lvl5"><a href="#4-9-hold-for-andre-srlige-formal">§ 4-9. Hold for andre særlige formål</a></li>
+<li class="lvl2"><a href="#kapittel-5-vilt-som-har-rmt">Kapittel 5. Vilt som har rømt</a></li>
+<li class="lvl4"><a href="#5-1-innfanging-og-uttak-av-vilt-som-har-rmt">§ 5-1. Innfanging og uttak av vilt som har rømt</a></li>
+<li class="lvl4"><a href="#5-2-plikt-til-varsling-ved-rmming">§ 5-2. Plikt til varsling ved rømming</a></li>
+<li class="lvl4"><a href="#5-3-ansvar-for-utgifter-ved-rmming">§ 5-3. Ansvar for utgifter ved rømming</a></li>
+<li class="lvl2"><a href="#kapittel-6-utsetting-av-vilt-i-naturen">Kapittel 6. Utsetting av vilt i naturen</a></li>
+<li class="lvl4"><a href="#6-1-krav-om-lovhjemmel-for-utsetting-av-vilt">§ 6-1. Krav om lovhjemmel for utsetting av vilt</a></li>
+<li class="lvl4"><a href="#6-2-utsetting-av-innfanget-vilt">§ 6-2. Utsetting av innfanget vilt</a></li>
+<li class="lvl4"><a href="#6-3-vilt-som-har-blitt-tamt-eller-uskikket-til-a-overleve-i-naturen">§ 6-3. Vilt som har blitt tamt eller uskikket til å overleve i naturen</a></li>
+<li class="lvl4"><a href="#6-4-uttak-av-ulovlig-utsatt-vilt">§ 6-4. Uttak av ulovlig utsatt vilt</a></li>
+<li class="lvl2"><a href="#kapittel-7-ivaretakelse-av-ddt-vilt">Kapittel 7. Ivaretakelse av dødt vilt</a></li>
+<li class="lvl3"><a href="#eiendomsretten-til-ddt-vilt">Eiendomsretten til dødt vilt</a></li>
+<li class="lvl5"><a href="#7-1-eiendomsrett-til-registreringspliktige-viltarter">§ 7-1. Eiendomsrett til registreringspliktige viltarter</a></li>
+<li class="lvl5"><a href="#7-2-eiendomsrett-til-viltarter-som-ikke-er-registreringspliktige">§ 7-2. Eiendomsrett til viltarter som ikke er registreringspliktige</a></li>
+<li class="lvl5"><a href="#7-3-eiendomsrett-til-uregistrert-ulovlig-avlivet-eller-ulovlig-innfrt-vilt">§ 7-3. Eiendomsrett til uregistrert, ulovlig avlivet eller ulovlig innført vilt</a></li>
+<li class="lvl5"><a href="#7-3a-saksbehandlingsregler-ved-inndragning">§ 7-3a. Saksbehandlingsregler ved inndragning</a></li>
+<li class="lvl5"><a href="#7-4-sknad-om-eiendomsrett-til-registreringspliktig-vilt">§ 7-4. Søknad om eiendomsrett til registreringspliktig vilt</a></li>
+<li class="lvl5"><a href="#7-5-forbud-mot-overdragelse-av-egg">§ 7-5. Forbud mot overdragelse av egg</a></li>
+<li class="lvl3"><a href="#registrering-og-merking-av-ddt-vilt">Registrering og merking av dødt vilt</a></li>
+<li class="lvl5"><a href="#7-6-plikt-til-registrering-og-merking">§ 7-6. Plikt til registrering og merking</a></li>
+<li class="lvl5"><a href="#7-7-registrering-av-registreringspliktige-arter">§ 7-7. Registrering av registreringspliktige arter</a></li>
+<li class="lvl5"><a href="#7-8-merking-av-merkepliktige-arter">§ 7-8. Merking av merkepliktige arter</a></li>
+<li class="lvl5"><a href="#7-9-oppbevaring-av-deler-av-vilt-i-preparantverksted">§ 7-9. Oppbevaring av deler av vilt i preparantverksted</a></li>
+<li class="lvl3"><a href="#autorisasjon-av-preparanter">Autorisasjon av preparanter</a></li>
+<li class="lvl5"><a href="#7-10-krav-om-autorisasjon-for-a-utve-preparantyrket">§ 7-10. Krav om autorisasjon for å utøve preparantyrket</a></li>
+<li class="lvl5"><a href="#7-11-autorisasjon-for-preparering-av-vilt">§ 7-11. Autorisasjon for preparering av vilt</a></li>
+<li class="lvl5"><a href="#7-12-tilbakekall-av-autorisasjon-for-preparering-av-vilt">§ 7-12. Tilbakekall av autorisasjon for preparering av vilt</a></li>
+<li class="lvl3"><a href="#gebyr-for-preparering">Gebyr for preparering</a></li>
+<li class="lvl5"><a href="#7-13-gebyr">§ 7-13. Gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-klage">§ 8-1. Klage</a></li>
+<li class="lvl4"><a href="#8-2-tilsyn-og-iverksetting-av-tiltak">§ 8-2. Tilsyn og iverksetting av tiltak</a></li>
+<li class="lvl4"><a href="#8-3-straff">§ 8-3. Straff</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse-oppheving-av-og-endringer-i-andre-forskrifter">§ 8-4. Ikrafttredelse, oppheving av og endringer i andre forskrifter</a></li>
+<li class="lvl4"><a href="#8-5-overgangsbestemmelse">§ 8-5. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-oversikt-over-registrerings-og-merkepliktige-arter">Vedlegg 1. Oversikt over registrerings- og merkepliktige arter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-01-565.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-04-01-565.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-01-565.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-04-01-565.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-04-01-565.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-04-01-565.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-04-01-565.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-04-01-565.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-04-01-565.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-skadefelling-ddt-vilt-og-bruk-av-vilt-i-oppdrett-forskning-og-dyrepark-viltforskriften">Forskrift om skadefelling, dødt vilt og bruk av vilt i oppdrett, forskning og dyrepark (viltforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Formålet med forskriften er å forvalte viltet i samsvar med naturmangfoldloven, slik at naturens produktivitet og artsrikdom bevares. Viltforvaltningen skal innenfor denne rammen ivareta hensynet til dyrevelferd og dyrehelse, forskning, undervisning, landbruk, friluftsliv, næringsliv og andre offentlige og private interesser.</p>
 <h4 id="1-2-virkeomrade">§ 1-2. Virkeområde <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder innenfor det stedlige virkeområdet til viltressursloven .</p>
 <p>Forskriften gjelder ikke høsting av vilt, som utøves i medhold av viltressursloven § 10 .</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="1-3-forholdet-til-annen-lovgivning">§ 1-3. Forholdet til annen lovgivning</h4>
 <p>All håndtering av dyr og annen aktivitet som skjer i medhold av denne forskriften skal utføres i samsvar med lov 19. juni 2009 nr. 97 om dyrevelferd (dyrevelferdsloven) og lov 19. desember 2003 nr. 124 om matproduksjon og mattrygghet mv. (matloven).</p>
 <h4 id="1-4-definisjoner">§ 1-4. Definisjoner <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -103,7 +324,7 @@ l. sirkus: alle former for omreisende forestillinger der dyr framvises for publi
 m. utsetting: når vilt slippes fritt ut i naturen
 n. uttak: enhver form for avliving eller fjerning av vilt fra naturen. Som uttak regnes også fjerning, flytting og skade på egg fra viltarter, uavhengig av om egget er med foster, ubefruktet eller dødt (råteegg)
 o. vilt: naturlig viltlevende landpattedyr, fugler, krypdyr og amfibier, inkludert krysninger med andre arter, uavhengig av om viltet lever eller kan leve vilt i Norge.</p>
-<p><em>Endret ved forskrifter 18 juni 2025 nr. 1070 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 juni 2025 nr. 1070 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-2-innfanging-av-vilt">Kapittel 2. Innfanging av vilt</h2>
 <h4 id="2-1-krav-om-hjemmel-for-innfanging">§ 2-1. Krav om hjemmel for innfanging</h4>
 <p>Vilt kan bare fanges inn fra naturen når dette følger av lov eller vedtak med hjemmel i lov.</p>
@@ -170,7 +391,7 @@ e. Uttaket ikke truer bestandens overlevelse.</p>
 <p>Dersom vilkårene i § 3-3 er oppfylt og det er nødvendig for å stanse eller avverge skade på avling, husdyr, tamrein, skog, fisk, vann eller annen eiendom, kan den skadelidte iverksette uttak av bestemte individ av kanadagås, stripegås, bydue, ringdue, gråtrost, måltrost, svarttrost, rødvingetrost, skjære, kråke, ravn, viltlevende kanin, sørhare, rødrev, røyskatt, mink, mår og grevling.</p>
 <p>Dersom vilkårene i § 3-3 er oppfylt og det er nødvendig for å hindre smitte- eller helserisiko i lokaler hvor det produseres eller oppbevares næringsmidler eller medisiner, kan den skadelidte iverksette uttak av bestemte individ av artene nevnt i første ledd og kjøttmeis, blåmeis, gråspurv, pilfink og rødstrupe, som har forvillet seg inn i slike lokaler.</p>
 <p>Den skadelidte skal uten ugrunnet opphold rapportere om uttaket til kommunen, med opplysning om antallet individer, art og hvilken skade som var grunnlag for uttaket. Den som ved felling eller forsøk på felling av skadegjørende individ etter første og andre ledd tar i bruk synlig lys eller særskilte siktemidler, jf. viltressursloven § 26 , eller luftfartøy, motorkjøretøy eller motorfartøy, jf. viltressursloven § 29 , skal rapportere bruken til kommunen.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="3-5-skadefelling-etter-beslutning-fra-kommunen">§ 3-5. Skadefelling etter beslutning fra kommunen <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Dersom vilkårene i § 3-3 er oppfylt, og det er nødvendig for å stanse eller avverge skade på avling, husdyr, tamrein, skog, fisk, vann eller annen eiendom, kan kommunen etter søknad gi tillatelse til uttak av bestemte individ av følgende arter:</p>
 <p>a. knoppsvane, gråmåke, svartbak, stokkand, siland, laksand, storskarv, toppskarv, gråhegre, grønnspett, svartspett, flaggspett, kaie, kornkråke, stær, dompap, gulspurv, ekorn og hare
@@ -178,7 +399,7 @@ b. grågås unntatt i de kommuner som frem til 1. januar 2020 tilhørte Finnmark
 c. hvitkinngås i fylkene Østfold, Buskerud, Akershus, Innlandet, Vestfold, Telemark og Agder.</p>
 <p>Kommunen kan av eget tiltak iverksette uttak av bestemte individ av alle hjorteviltartene og villsvin når de oppholder seg på trafikkerte eller tettbygde områder, og de utgjør en fare for skade på person eller skaper trafikkfarlige situasjoner.</p>
 <p>Kommunen kan av eget tiltak iverksette uttak av knoppsvane og kanadagås når de oppholder seg på områder hvor de utgjør en fare for skade på person, hindrer ferdsel eller utgjør en helserisiko ved omfattende tilgrising av friområder, badeplasser eller liknende.</p>
-<p><em>Endret ved forskrifter 18 juni 2025 nr. 1070 , 20 april 2026 nr. 620 .</em></p>
+<p class="note">Endret ved forskrifter 18 juni 2025 nr. 1070 , 20 april 2026 nr. 620 .</p>
 <h5 id="3-6-skadefelling-etter-beslutning-fra-statsforvalteren">§ 3-6. Skadefelling etter beslutning fra statsforvalteren</h5>
 <p>Dersom vilkårene i § 3-3 er oppfylt, og det er nødvendig for å stanse eller avverge skade på avling, husdyr, tamrein, skog, fisk, vann eller annen eiendom, kan statsforvalteren etter søknad gi tillatelse til uttak av bestemte individ av følgende arter:</p>
 <p>a. de artene som ikke er nevnt i § 3-4 eller § 3-5
@@ -186,7 +407,7 @@ b. grågås i de kommuner som frem til 1. januar 2020 tilhørte Finnmark fylke
 c. hvitkinngås i de fylker som ikke omfattes av § 3-5 første ledd bokstav c.</p>
 <p>Statsforvalteren kan etter søknad gi tillatelse til uttak av vilt for å beskytte naturlige forekommende planter, dyr og økosystemer.</p>
 <p>Statsforvalteren kan av eget tiltak iverksette uttak av bestemte individ av moskusfe når de vandrer til, eller oppholder seg i, tettbygde områder, slik at de kan utgjøre en fare for skade på person eller skape trafikkfarlige situasjoner.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h5 id="3-7-skadefelling-etter-beslutning-fra-miljdirektoratet">§ 3-7. Skadefelling etter beslutning fra Miljødirektoratet</h5>
 <p>Miljødirektoratet kan etter søknad eller av eget tiltak gi tillatelse til å iverksette uttak av vilt for å ivareta allmenne helse- og sikkerhetshensyn eller andre offentlige interesser av vesentlig betydning, i andre tilfeller enn de som er nevnt i § 3-5 annet og tredje ledd og § 3-6 tredje ledd.</p>
 <h5 id="3-8-sknad-om-skadefelling">§ 3-8. Søknad om skadefelling</h5>
@@ -209,13 +430,13 @@ c. hvitkinngås i de fylker som ikke omfattes av § 3-5 første ledd bokstav c.<
 <p>Den som bruker skytevåpen eller felle ved uttak skal være registrert i Jegerregisteret, men trenger ikke å ha betalt jegeravgift for inneværende år. Feller skal være synlig merket med brukerens jegernummer. Ved skadefelling etter skadelidtes egen beslutning etter § 3-4 og skadefelling etter beslutning fra kommunen etter § 3-5 , skal feller i tillegg merkes med telefonnummer til kommunal viltmyndighet. Ved skadefelling etter beslutning fra statsforvalteren etter § 3-6 , skal feller i tillegg til brukerens jegernummer, merkes med telefonnummeret til statsforvalteren. Ved skadefelling etter beslutning fra Miljødirektoratet etter § 3-7 , skal feller i tillegg til brukerens jegernummer, merkes med telefonnummeret til Miljødirektoratet.</p>
 <p>Øvrige fangstredskaper ut over feller som benyttes skal være synlig merket med brukerens navn og telefonnummer.</p>
 <p>Den som ved felling eller forsøk på felling av skadegjørende individ etter denne forskriften tar i bruk synlig lys eller særskilte siktemidler, jf. viltressursloven § 26 , eller luftfartøy, motorkjøretøy eller motorfartøy, jf. viltressursloven § 29 , skal rapportere bruken til beslutningsmyndigheten.</p>
-<p><em>Endret ved forskrifter 26 juni 2026 nr. 1379 (i kraft 1 juli 2026), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2026 nr. 1379 (i kraft 1 juli 2026), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="3-14-varsling-til-grunneier-kommunen-og-politiet">§ 3-14. Varsling til grunneier, kommunen og politiet <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-3-14.html" title="Endringshistorikk for § 3-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Den som gjennomfører uttak i medhold av tillatelse etter denne forskriften skal på forhånd varsle grunneier.</p>
 <p>Dersom uttak etter denne forskriften krever faste monteringer i terrenget eller inngrep i naturen, skal det innhentes tillatelse til dette fra grunneier.</p>
 <p>Den som gjennomfører uttak etter denne forskriften i tettbygd strøk skal på forhånd varsle politiet.</p>
 <p>Den som ved felling eller forsøk på felling av skadegjørende individ etter denne forskriften tar i bruk synlig lys eller særskilte siktemidler, jf. viltressursloven § 26 , eller luftfartøy, motorkjøretøy eller motorfartøy, jf. viltressursloven § 29 , skal varsle grunneieren, politiet og kommunen før metodene brukes.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-4-hold-av-vilt-i-fangenskap">Kapittel 4. Hold av vilt i fangenskap</h2>
 <h4 id="4-1-krav-om-hjemmel-for-hold-av-vilt">§ 4-1. Krav om hjemmel for hold av vilt</h4>
 <p>Hold av vilt i fangenskap er kun tillatt med hjemmel i lov eller vedtak med hjemmel i lov.</p>
@@ -235,7 +456,7 @@ c. hvitkinngås i de fylker som ikke omfattes av § 3-5 første ledd bokstav c.<
 <p>Miljødirektoratet eller Landbruksdirektoratet kan etter søknad gi tillatelse til hold for oppdrett av andre viltarter enn de som omfattes av første ledd. Søknad sendes kommunen, som videresender denne til direktoratet sammen med kommunens vurdering.</p>
 <p>Landbruksdirektoratet kan fastsette øvre rammer for satser for saksbehandlingsgebyr for kommunens behandling av søknader etter første ledd.</p>
 <p>Dersom driften av et viltoppdrett opphører, plikter eieren å gi melding om dette til kommunen innen tre måneder etter opphør.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h5 id="4-7-anskaffelse-av-dyr-til-oppdrett">§ 4-7. Anskaffelse av dyr til oppdrett</h5>
 <p>Til oppdrett kan det kun benyttes vilt eller avkom fra vilt som er</p>
 <p>a. innfanget med tillatelse etter § 2-8
@@ -248,10 +469,10 @@ c. innført fra utlandet for oppdrett i samsvar med forskrift om fremmede organi
 <p>a. vilt som er innfanget med tillatelse etter § 2-9
 b. hare, elg, hjort, rådyr, rein, rødrev, grevling, oter og grågås, som er ervervet fra dyrepark i Norge.</p>
 <p>Rovfugler og ugler skal ikke holdes i dyrepark eller benyttes til fremvisning.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h5 id="4-9-hold-for-andre-srlige-formal">§ 4-9. Hold for andre særlige formål <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Miljødirektoratet eller Landbruksdirektoratet kan etter søknad gi tillatelse til, eller av eget tiltak, holde vilt for å gjenoppbygge bestander eller andre særlige formål.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h2 id="kapittel-5-vilt-som-har-rmt">Kapittel 5. Vilt som har rømt</h2>
 <h4 id="5-1-innfanging-og-uttak-av-vilt-som-har-rmt">§ 5-1. Innfanging og uttak av vilt som har rømt</h4>
 <p>Vilt som har rømt fra fangenskap er å anse som viltlevende.</p>
@@ -284,19 +505,19 @@ b. hare, elg, hjort, rådyr, rein, rødrev, grevling, oter og grågås, som er e
 <p>I særlige tilfeller kan Miljødirektoratet eller Landbruksdirektoratet beslutte at fallvilt av viltarter som ikke er registreringspliktige skal tilfalle Viltfondet.</p>
 <p>Det er ikke tillatt å tilegne seg egg som man finner i naturen uten på forhånd å ha fått tillatelse etter kapittel 2 eller 3, eller ha hjemmel i bestemmelsene om å sanke egg i den til enhver tid gjeldende forskrift om jakt og fangsttider. Dette gjelder uavhengig av om egget er levende, ubefruktet eller dødt (råteegg).</p>
 <p>Fallvilt av villsvin og hjortevilt tilfaller det kommunale viltfondet.</p>
-<p><em>Endret ved forskrifter 18 juni 2025 nr. 1070 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 juni 2025 nr. 1070 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="7-3-eiendomsrett-til-uregistrert-ulovlig-avlivet-eller-ulovlig-innfrt-vilt">§ 7-3. Eiendomsrett til uregistrert, ulovlig avlivet eller ulovlig innført vilt <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Vilt som er ulovlig felt eller ulovlig innført til Norge tilfaller det statlige viltfondet. Ulovlig felt eller ulovlig innført villsvin eller hjortevilt tilfaller det kommunale viltfondet.</p>
 <p>Dødt vilt, preparater og egg fra viltarter som ikke er registrert og merket i samsvar med denne forskriften, eller som er registrert og merket etter tidligere regelverk, kan ikke lovlig oppbevares uten at man godtgjør å ha nødvendig tillatelse for det enkelte eksemplar. Forbudet i første punktum gjelder ikke oppbevaring av egg som er sanket med hjemmel i forskrift etter viltressursloven § 11 og egg fra lovlig oppdrettet vilt, når eggene skal benyttes som mat og eggene ikke er tømt for innhold.</p>
 <p>Vilt og egg som ikke lovlig kan oppbevares etter annet ledd er det statlige viltfondets eiendom.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="7-3a-saksbehandlingsregler-ved-inndragning">§ 7-3a. Saksbehandlingsregler ved inndragning <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-7-3a.html" title="Endringshistorikk for § 7-3a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Der viltmyndigheten avdekker forhold som tilsier at det er klar sannsynlighet for at det statlige viltfondet eller kommunen har eiendomsrett til vilt eller egg etter viltressursloven § 51 første ledd , kan dette inndras umiddelbart.</p>
 <p>Vedtak om umiddelbar inndragning etter første ledd begrunnes muntlig på stedet. Begrunnelsen skal også meddeles parten skriftlig innen tre uker etter at vedtaket ble fattet.</p>
 <p>Kommunen fatter vedtak om inndragning av hjortevilt og villsvin.</p>
 <p>Landbruksdirektoratet er klageinstans for vedtak fattet av kommunen etter tredje ledd. Landbruks- og matdepartementet er klageinstans for vedtak om inndragning av øvrige arter som har jakt- eller fangsttid unntatt gaupe. Klima- og miljødepartementet er klageinstans for vedtak om inndragning av gaupe og for øvrige vedtak om inndragning.</p>
 <p>Dersom det etter vedtaket om inndragning avdekkes at det statlige viltfondet eller kommunen ikke hadde eiendomsretten til inndratt vilt eller egg, skal verdien av det inndratte tilfalle den som har eiendomsretten. Dersom det inndratte ikke er forringet, kan den som har eiendomsretten i stedet kreve å få utlevert det inndratte.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="7-4-sknad-om-eiendomsrett-til-registreringspliktig-vilt">§ 7-4. Søknad om eiendomsrett til registreringspliktig vilt</h5>
 <p>Den som finner fallvilt av registreringspliktige viltarter kan ta hånd om viltet på vegne av Viltfondet. Den som tar hånd om slikt vilt, plikter å fryse ned viltet eller ta vare på det på annen forsvarlig måte.</p>
 <p>Den som ønsker å overta eiendomsretten til viltet fra Viltfondet, skal levere viltet til autorisert preparant innen fire uker etter at det ble funnet. Preparanten søker om å overføre eiendomsretten fra Viltfondet til ny eier ved å registrere dette i Fallviltbasen.</p>
@@ -305,7 +526,7 @@ b. hare, elg, hjort, rådyr, rein, rødrev, grevling, oter og grågås, som er e
 <h5 id="7-5-forbud-mot-overdragelse-av-egg">§ 7-5. Forbud mot overdragelse av egg <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-7-5.html" title="Endringshistorikk for § 7-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Det er ikke tillatt å erverve, motta, gi bort eller selge egg fra viltarter.</p>
 <p>Forbudet i første ledd gjelder ikke overdragelse av egg til museumsvirksomhet eller vitenskapelige formål. Forbudet gjelder heller ikke omsetning av egg som er sanket med hjemmel i forskrift etter viltressursloven § 11 og egg fra lovlig oppdrettet vilt, når eggene skal benyttes som mat og eggene ikke er tømt for innhold.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h3 id="registrering-og-merking-av-ddt-vilt">Registrering og merking av dødt vilt</h3>
 <h5 id="7-6-plikt-til-registrering-og-merking">§ 7-6. Plikt til registrering og merking</h5>
 <p>Døde eksemplarer av registreringspliktige viltarter som er tatt hånd om, skal i samsvar med § 7-7 registreres i Fallviltbasen. Døde eksemplarer av de artene som er merkepliktige skal merkes i samsvar med § 7-8 . Plikten til registrering og merking gjelder også dødt vilt av registrerings- og merkepliktige arter når disse kommer fra oppdrett eller dyrepark, er felt under lovlig jakt og fangst eller er lovlig innført fra utlandet eller fra Svalbard til fastlandet.</p>
@@ -337,33 +558,33 @@ f. Påsatt merke skal ikke fjernes fra preparatet.</p>
 <p>Autorisasjon skal også utstedes til statsborgere som omfattes av EØS-avtalen og dermed Europaparlamentets- og rådets direktiv 2005/36/EF av 7. september 2005 om godkjenning av yrkeskvalifikasjoner, i den grad vedkommende tilfredsstiller vilkårene i direktivet. Autorisasjon kan også utstedes den som har avlagt prøve i annet land som tilsvarer nivået i norsk svenneprøve.</p>
 <p>Saksbehandlingsfristen for søknader om autorisasjon etter denne bestemmelsen skal være to måneder, som nevnt i lov 19. juni 2009 nr. 103 om tjenestevirksomhet (tjenesteloven) § 11 første ledd første punktum. Tjenesteloven § 11 annet ledd om at tillatelsen skal anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke.</p>
 <p>Miljødirektoratet kan nekte å utstede autorisasjon til den som er straffet for overtredelse av viltressursloven , naturmangfoldloven eller annet relevant regelverk. Varigheten av nektelsen skal angis i vedtaket.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h5 id="7-12-tilbakekall-av-autorisasjon-for-preparering-av-vilt">§ 7-12. Tilbakekall av autorisasjon for preparering av vilt <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-7-12.html" title="Endringshistorikk for § 7-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Miljødirektoratet kan tilbakekalle autorisasjonen dersom den autoriserte preparanten er straffet for overtredelse av viltressursloven , naturmangfoldloven eller annet relevant regelverk, eller ved vesentlige brudd på fastsatte regler for preparantvirksomheten. Varigheten av tilbakekallet skal angis i vedtaket.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h3 id="gebyr-for-preparering">Gebyr for preparering</h3>
 <h5 id="7-13-gebyr">§ 7-13. Gebyr</h5>
 <p>For preparater som både registreres og merkes skal eier av viltet betale gebyr som fastsettes av Klima- og miljødepartementet.</p>
 <p>Merkepliktig vilt som er preparert skal ikke utleveres fra preparant før eier har dokumentert at gebyr for registrering og merking er betalt.</p>
 <p>Merkepliktig vilt som er registrert og merket av Sysselmesteren på Svalbard, og som innføres midlertidig for preparering, er fritatt for gebyrplikten.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2122 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2122 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</h2>
 <h4 id="8-1-klage">§ 8-1. Klage <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Enkeltvedtak fattet i medhold av denne forskriften kan påklages i samsvar med forvaltningslovens regler. Beslutninger fattet av forvaltningsorganets eget tiltak i medhold av forskriften § 2-2 , § 2-3 , § 2-8 annet ledd, § 2-10 tredje ledd, § 3-5 annet og tredje ledd, § 3-6 tredje ledd, § 3-7 , § 3-11 , § 4-9 , § 5-1 fjerde ledd, § 7-2 annet ledd og § 7-7 annet ledd regnes ikke som enkeltvedtak og kan ikke påklages.</p>
 <p>Statsforvalteren er klageinstans for vedtak fattet av kommunen.</p>
 <p>Miljødirektoratet eller Landbruksdirektoratet er klageinstans for vedtak fattet av statsforvalteren.</p>
 <p>Klima- og miljødepartementet er klageinstans for vedtak fattet av Miljødirektoratet. Landbruks- og matdepartementet er klageinstans for vedtak fattet av Landbruksdirektoratet.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h4 id="8-2-tilsyn-og-iverksetting-av-tiltak">§ 8-2. Tilsyn og iverksetting av tiltak <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kommunen og Miljødirektoratet eller Landbruksdirektoratet kan føre tilsyn med viltoppdrett og dyreparker som holder vilt med hjemmel i denne forskriften, og kontrollere vilt som holdes.</p>
 <p>Miljødirektoratet kan føre tilsyn med autoriserte preparanter og kontrollere vilt som oppbevares.</p>
 <p>Tilsynsmyndigheten kan kreve å få lagt frem og granske dokumenter eller annet materiale som kan ha betydning for tilsynet.</p>
 <p>Under utøvelse av tilsynet skal den som blir kontrollert, eller den ansvarlige for virksomheten, gi tilsynsmyndigheten nødvendig bistand og opplysninger.</p>
 <p>Dersom vilkår eller pålegg gitt i medhold av forskriften ikke blir fulgt eller etterkommet, kan kommunen, Miljødirektoratet eller Landbruksdirektoratet sørge for å iverksette nødvendige tiltak for eiers regning.</p>
-<p><em>Endret ved forskrift 18 juni 2025 nr. 1070 .</em></p>
+<p class="note">Endret ved forskrift 18 juni 2025 nr. 1070 .</p>
 <h4 id="8-3-straff">§ 8-3. Straff <a class="para-history" href="../historikk/forskrift-2020-04-01-565/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Overtredelser av bestemmelser gitt i denne forskriften straffes etter viltressursloven § 60 , dersom forholdet ikke straffes etter strengere bestemmelser.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="8-4-ikrafttredelse-oppheving-av-og-endringer-i-andre-forskrifter">§ 8-4. Ikrafttredelse, oppheving av og endringer i andre forskrifter</h4>
 <p>Forskriften trer i kraft straks.</p>
 <p>Fra samme tidspunkt oppheves følgende forskrifter:</p>
@@ -377,9 +598,11 @@ f. Påsatt merke skal ikke fjernes fra preparatet.</p>
 <p>Tillatelser til hold av vilt som kjæledyr eller hobbydyr, som er gitt før denne forskriftens ikrafttredelse, gjelder så lenge individene er i live. Slike tillatelser omfatter ikke avkom født etter denne forskriftens ikrafttredelse.</p>
 <p>Tillatelser til hold av vilt i oppdrett og dyrepark, som er gitt før denne forskriftens ikrafttredelse, gjelder fortsatt.</p>
 <p>Forbudet mot hold av vilt i viltressursloven § 49 gjelder ikke hold av individer av vilt som lovlig ble holdt som kjæledyr eller hobbydyr da viltressursloven trådte i kraft. Til og med 31. desember 2027 er det også tillatt å holde avkom av disse individene, så lenge avl ikke strider mot tillatelse til innførsel av fremmede organismer etter naturmangfoldloven § 29 med tilhørende forskrift. Forbudet i viltressursloven § 49 gjelder heller ikke individer som lovlig ble holdt i dyrepark eller i landbruk da viltressursloven trådte i kraft og avkom av disse individene.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1384 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1384 (i kraft 1 juli 2026).</p>
 <h2 id="vedlegg-1-oversikt-over-registrerings-og-merkepliktige-arter">Vedlegg 1. Oversikt over registrerings- og merkepliktige arter</h2>
 <p>Art Registrerings- pliktig Merkepliktig Flaggermus Vannflaggermus Myotis daubentonii X Skogflaggermus Myotis brandtii X Skjeggflaggermus Myotis mystacinus X Børsteflaggermus Myotis nattereri X Storflaggermus Nyctalus noctula X Tusseflaggermus Pipistrellus pipistrellus X Dvergflaggermus Pipistrellus pygmaeus X Trollflaggermus Pipistrellus nathusii X Skimmelflaggermus Vespertilio murinus X Nordflaggermus Eptesicus nilssonii X Bredøre Barbastella barbastellus X Brunlangøre Plecotus auritus X Rovdyr Ulv Canis lupus X X Fjellrev Vulpes lagopus X X Oter Lutra lutra X Brunbjørn Ursus arctos X X Jerv Gulo gulo X X Gaupe Lynx lynx X X Andefugler Sædgås Anser fabalis X Dverggås Anser erythropus X X Ringgås Branta bernicla X X Gravand Tadorna tadorna X Snadderand Anas strepera X Stjertand Anas acuta X Knekkand Anas querquedula X Skjeand Anas clypeata X Taffeland Aythya ferina X Bergand Aythya marila X Praktærfugl Somateria spectabilis X Stellerand Polysticta stelleri X Sjøorre Melanitta fusca X Lappfiskand Mergellus albellus X Lommer Smålom Gavia stellata X Storlom Gavia arctica X Islom Gavia immer X Gulnebblom Gavia adamsii X Lappedykkere Dvergdykker Tachybaptus ruficollis X Toppdykker Podiceps cristatus X Horndykker Podiceps auritus X Svarthalsdykker Podiceps nigricollis X Gråstrupedykker Podiceps grisegena X Stormfugler Havsvale Hydrobates pelagicus X Stormsvale Osceanodroma leucorhoa X Grålire Puffinus griseus X Havlire Puffinus puffinus X Rovfugler Vepsevåk Pernis apivorus X X Havørn Haliaeetus albicilla X X Sivhauk Circus aeruginosus X X Myrhauk Circus cyaneus X X Hønsehauk Accipiter gentilis X X Fjellvåk Buteo lagopus X Musvåk Buteo buteo X Kongeørn Aquila chrysaetos X X Fiskeørn Pandion haliaetus X X Tårnfalk Falco tinnunculus X Dvergfalk Falco columbarius X Lerkefalk Falco subbuteo X Jaktfalk Falco rusticolus X X Vandrefalk Falco peregrinus X X Tranefugler Vannrikse Rallus aquaticus X Myrrikse Porzana porzana X Åkerrikse Crex crex X X Vade-, måke- og alkefugler Dverglo Charadrius dubius X Boltit Charadrius morinellus X Fjellmyrløper Limicola falcinellus X X Kvartbekkasin Lymnocryptes minimus X Dobbeltbekkasin Gallinago media X X Svarthalespove Limosa limosa X Lappspove Limosa lapponica X Småspove Numenius phaeopus X Sotsnipe Tringa erythropus X Svømmesnipe Phalaropus lobatus X Polarjo Stercorarius pomarinus X Tyvjo Stercorarius parasiticus X Fjelljo Stercorarius longicaudus X Storjo Stercorarius skua X Dvergmåke Hydrocoloeus minutus X Sildemåke nordlig Larus fuscus fuscus X X Ismåke Pagophila eburnea X Lomvi Uria aalge X Polarlomvi Uria lomvia X Lunde Fratercula arctica X Duefugler Skogdue Columba oenas X Ugler Hubro Bubo bubo X X Snøugle Nyctea scandiaca X X Haukugle Surnia ulula X Spurveugle Glaucidium passerinum X Kattugle Strix aluco X Slagugle Strix uralensis X X Lappugle Strix nebulosa X X Hornugle Asio otus X Jordugle Asio flammeus X Perleugle Aegolius funereus X Nattravn-, og spettefugler Nattravn Caprimulgus europaeus X X Isfugl Alcedo atthis X Vendehals Jynx torquilla X Gråspett Picus canus X Grønnspett Picus viridis X Hvitryggspett Dendrocopos leucotos X X Dvergspett Dendrocopos minor X Tretåspett Picoides tridactylus X Spurvefugler Trelerke Lullula arborea X Fjellerke Eremophila alpestris X X Lappiplerke Anthus cervinus X Vintererle Motacilla cinerea X Nattergal Luscinia luscinia X Svartrødstjert Phoenicurus ochruros X Svartstrupe Saxicola torquata X Myrsanger Acrocephalus palustris X Hauksanger Sylvia nisoria X Lappsanger Phylloscopus borealis X Bøksanger Phylloscopus sibilatrix X Skjeggmeis Panurus biarmicus X Lappmeis Parus cinctus X Tornskate Parus cinctus X Varsler Lanius excubitor X Kornkråke Corvus frugilegus X Nøttekråke Nucifraga caryocatactes X Bergirisk Carduelis flavirostris X Rosenfink Carpodacus erythrinus X Konglebit Pinicola enucleator X Kjernebiter Coccothraustes coccothraustes X Hortulan Emberiza hortulana X X Vierspurv Emberiza rustica X Dvergspurv Emberiza pusilla X Krypdyr Slettsnok Coronella austriaca X X Buorm Natrix natrix X Stålorm Anguis fragilis X Amfibier Damfrosk Pelophylax lessonae X Storsalamander Triturus cristatus X Småsalamander Lissotriton vulgaris X Egg Alle fugleegg X X Fallvilt av viltarter som ikke har fast tilhold eller reproduserer i Norge, men som finnes dødt innenfor forskriftens stedlige virkeområde X</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

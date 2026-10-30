@@ -19,64 +19,315 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2016-08-12-77.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forsvarsloven" href="../feeds/lov-2016-08-12-77.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &rsaquo;
 <span>Forsvarsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2016-08-12-77</code></dd>
-<dt>Departement</dt><dd>Forsvarsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Stats-, statsforfatnings- og statsborgerrett &raquo; Forsvaret</dd>
-<dt>Ikrafttredelse</dt><dd>2017-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-65</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2016-08-12-77" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1 Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-hva-og-hvem-loven-gjelder">§ 2. Hva og hvem loven gjelder</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-begrensninger-i-tjenesten-for-dem-som-er-under-18-ar">§ 4. Begrensninger i tjenesten for dem som er under 18 år</a></li>
+<li class="lvl4"><a href="#5-organiseringen-av-forsvaret">§ 5. Organiseringen av Forsvaret</a></li>
+<li class="lvl2"><a href="#kapittel-2-verneplikten">Kapittel 2 Verneplikten</a></li>
+<li class="lvl4"><a href="#6-hvem-som-har-verneplikt">§ 6. Hvem som har verneplikt</a></li>
+<li class="lvl4"><a href="#7-opphevet">§ 7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-opplysningsplikt-og-meldeplikt">§ 8. Opplysningsplikt og meldeplikt</a></li>
+<li class="lvl4"><a href="#9-sesjon">§ 9. Sesjon</a></li>
+<li class="lvl4"><a href="#10-vurdering-av-hvem-som-er-skikket-til-tjeneste">§ 10. Vurdering av hvem som er skikket til tjeneste</a></li>
+<li class="lvl4"><a href="#11-klage-pa-og-omgjring-av-vedtak-om-helsetilstand">§ 11. Klage på og omgjøring av vedtak om helsetilstand</a></li>
+<li class="lvl4"><a href="#12-utvidet-verneplikt-ved-frivillig-tjeneste-og-opplring-i-forsvaret">§ 12. Utvidet verneplikt ved frivillig tjeneste og opplæring i Forsvaret</a></li>
+<li class="lvl4"><a href="#13-utvidet-verneplikt-for-tidligere-militrt-tilsatte">§ 13. Utvidet verneplikt for tidligere militært tilsatte</a></li>
+<li class="lvl4"><a href="#14-utvidet-verneplikt-i-heimevernet-for-personer-mellom-44-og-55-ar">§ 14. Utvidet verneplikt i Heimevernet for personer mellom 44 og 55 år</a></li>
+<li class="lvl4"><a href="#15-overfring-til-sivilforsvaret-og-til-politiet">§ 15. Overføring til Sivilforsvaret og til politiet</a></li>
+<li class="lvl4"><a href="#16-verneplikt-i-krig-eller-nar-krig-truer">§ 16. Verneplikt i krig eller når krig truer</a></li>
+<li class="lvl2"><a href="#kapittel-3-tjenesteplikten-for-vernepliktige-og-personer-med-kontrakt-om-tjeneste">Kapittel 3 Tjenesteplikten for vernepliktige og personer med kontrakt om tjeneste</a></li>
+<li class="lvl4"><a href="#17-tjenesteplikten">§ 17. Tjenesteplikten</a></li>
+<li class="lvl4"><a href="#18-tjenestens-lengde">§ 18. Tjenestens lengde</a></li>
+<li class="lvl4"><a href="#19-innkalling-til-tjeneste-i-forsvaret">§ 19. Innkalling til tjeneste i Forsvaret</a></li>
+<li class="lvl4"><a href="#20-vaksinering-og-andre-tiltak-for-a-forebygge-smittsomme-sykdommer">§ 20. Vaksinering og andre tiltak for å forebygge smittsomme sykdommer</a></li>
+<li class="lvl4"><a href="#21-gjennomfring-av-frstegangstjenesten">§ 21. Gjennomføring av førstegangstjenesten</a></li>
+<li class="lvl4"><a href="#22-nar-plikten-til-a-gjennomfre-frstegangstjenesten-faller-bort">§ 22. Når plikten til å gjennomføre førstegangstjenesten faller bort</a></li>
+<li class="lvl4"><a href="#23-arlig-heimevernstjeneste">§ 23. Årlig heimevernstjeneste</a></li>
+<li class="lvl4"><a href="#24-frivillige-i-heimevernet">§ 24. Frivillige i Heimevernet</a></li>
+<li class="lvl4"><a href="#25-kontrakt-om-tjenesteplikt-for-personer-uten-verneplikt-og-om-utvidet-tjenesteplikt-for-vernepliktige">§ 25. Kontrakt om tjenesteplikt for personer uten verneplikt og om utvidet tjenesteplikt for vernepliktige</a></li>
+<li class="lvl4"><a href="#25-a-kontrakt-om-tjenesteplikt-med-sivilt-tilsatte">§ 25 a. Kontrakt om tjenesteplikt med sivilt tilsatte</a></li>
+<li class="lvl4"><a href="#25-b-aremal-for-omradesjefer-i-heimevernet">§ 25 b. Åremål for områdesjefer i Heimevernet</a></li>
+<li class="lvl4"><a href="#25-c-kontrakt-om-utdanning-og-tjenesteplikt-i-forsvaret">§ 25 c. Kontrakt om utdanning og tjenesteplikt i Forsvaret</a></li>
+<li class="lvl4"><a href="#26-tilleggstjeneste">§ 26. Tilleggstjeneste</a></li>
+<li class="lvl4"><a href="#27-sivil-utdanning-som-har-betydning-for-forsvaret">§ 27. Sivil utdanning som har betydning for Forsvaret</a></li>
+<li class="lvl4"><a href="#28-sknad-om-annen-tjeneste-av-velferdsgrunner">§ 28. Søknad om annen tjeneste av velferdsgrunner</a></li>
+<li class="lvl4"><a href="#29-endring-av-stilling-og-grad">§ 29. Endring av stilling og grad</a></li>
+<li class="lvl4"><a href="#30-fritak-for-ordinr-tjeneste-etter-utfrt-tjeneste-i-et-annet-lands-forsvar">§ 30. Fritak for ordinær tjeneste etter utført tjeneste i et annet lands forsvar</a></li>
+<li class="lvl4"><a href="#31-utsatt-eller-avbrutt-tjeneste-pa-grunn-av-straffeforflgning">§ 31. Utsatt eller avbrutt tjeneste på grunn av straffeforfølgning</a></li>
+<li class="lvl4"><a href="#32-fritak-for-fremmte-i-forsvaret-pa-grunn-av-sivil-stilling-eller-fagkyndighet">§ 32. Fritak for fremmøte i Forsvaret på grunn av sivil stilling eller fagkyndighet</a></li>
+<li class="lvl4"><a href="#33-engangserstatning-ved-ddsfall-og-medisinsk-invaliditet">§ 33. Engangserstatning ved dødsfall og medisinsk invaliditet</a></li>
+<li class="lvl4"><a href="#33-a-erstatning-for-vernepliktige-inne-til-frstegangstjeneste">§ 33 a. Erstatning for vernepliktige inne til førstegangstjeneste</a></li>
+<li class="lvl4"><a href="#34-tjenesteplikt-i-krig-eller-nar-krig-truer">§ 34. Tjenesteplikt i krig eller når krig truer</a></li>
+<li class="lvl2"><a href="#kapittel-4-fritak-for-tjeneste-i-forsvaret-av-overbevisningsgrunner">Kapittel 4 Fritak for tjeneste i Forsvaret av overbevisningsgrunner</a></li>
+<li class="lvl4"><a href="#35-vilkar-for-fritak">§ 35. Vilkår for fritak</a></li>
+<li class="lvl4"><a href="#36-sknad-om-fritak">§ 36. Søknad om fritak</a></li>
+<li class="lvl4"><a href="#37-fritak-for-tjeneste-mens-sknaden-behandles">§ 37. Fritak for tjeneste mens søknaden behandles</a></li>
+<li class="lvl4"><a href="#38-omgjring-av-et-vedtak-om-fritak">§ 38. Omgjøring av et vedtak om fritak</a></li>
+<li class="lvl4"><a href="#39-prving-for-domstolene">§ 39. Prøving for domstolene</a></li>
+<li class="lvl4"><a href="#40-fritak-for-tjeneste-nar-det-er-reist-sak-for-domstolene">§ 40. Fritak for tjeneste når det er reist sak for domstolene</a></li>
+<li class="lvl4"><a href="#41-anke-og-gjenapning">§ 41. Anke og gjenåpning</a></li>
+<li class="lvl4"><a href="#42-dekning-av-sakskostnader-ved-en-domstolsbehandling">§ 42. Dekning av sakskostnader ved en domstolsbehandling</a></li>
+<li class="lvl4"><a href="#43-oppheving-av-et-vedtak-om-fritak">§ 43. Oppheving av et vedtak om fritak</a></li>
+<li class="lvl2"><a href="#kapittel-5-srregler-for-militrt-tilsatte">Kapittel 5 Særregler for militært tilsatte</a></li>
+<li class="lvl4"><a href="#44-tilsettingsvilkar-for-militrt-tilsatte">§ 44. Tilsettingsvilkår for militært tilsatte</a></li>
+<li class="lvl4"><a href="#45-tilsettingsforholdets-lengde">§ 45. Tilsettingsforholdets lengde</a></li>
+<li class="lvl4"><a href="#46-beordring-av-militrt-tilsatte">§ 46. Beordring av militært tilsatte</a></li>
+<li class="lvl4"><a href="#47-oppsigelse-og-fortrinnsrett">§ 47. Oppsigelse og fortrinnsrett</a></li>
+<li class="lvl4"><a href="#48-utvidet-tjenesteplikt-i-krig-for-tidligere-militrt-tilsatte">§ 48. Utvidet tjenesteplikt i krig for tidligere militært tilsatte</a></li>
+<li class="lvl2"><a href="#kapittel-6-tjeneste-i-internasjonale-operasjoner">Kapittel 6 Tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#49-beordring-til-tjeneste-i-internasjonale-operasjoner">§ 49. Beordring til tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#50-tjenesteplikt-etter-kontrakt">§ 50. Tjenesteplikt etter kontrakt</a></li>
+<li class="lvl4"><a href="#51-fritak-for-tjeneste-i-internasjonale-operasjoner">§ 51. Fritak for tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#52-hjemsending">§ 52. Hjemsending</a></li>
+<li class="lvl4"><a href="#53-oppsigelse-av-ordinrt-tilsettingsforhold">§ 53. Oppsigelse av ordinært tilsettingsforhold</a></li>
+<li class="lvl4"><a href="#54-rett-til-oppflging">§ 54. Rett til oppfølging</a></li>
+<li class="lvl4"><a href="#55-erstatningsansvar-ved-personskade">§ 55. Erstatningsansvar ved personskade</a></li>
+<li class="lvl4"><a href="#56-foreldelse-av-krav-om-erstatning-og-kompensasjon-som-flge-av-deltagelse-i-en-internasjonal-operasjon">§ 56. Foreldelse av krav om erstatning og kompensasjon som følge av deltagelse i en internasjonal operasjon</a></li>
+<li class="lvl4"><a href="#57-forholdet-til-arbeidsmiljloven-og-statsansatteloven">§ 57. Forholdet til arbeidsmiljøloven og statsansatteloven</a></li>
+<li class="lvl2"><a href="#kapittel-7-fellesbestemmelser">Kapittel 7 Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#57-a-behandling-av-personopplysninger">§ 57 a. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#58-forsvarets-rett-til-a-innhente-personopplysninger-og-andre-aktrers-plikt-til-a-gi-opplysninger-til-forsvaret">§ 58. Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til Forsvaret</a></li>
+<li class="lvl4"><a href="#59-vandelskontroll">§ 59. Vandelskontroll</a></li>
+<li class="lvl4"><a href="#60-sttte-fra-politiet-og-norske-utenriksstasjoner">§ 60. Støtte fra politiet og norske utenriksstasjoner</a></li>
+<li class="lvl4"><a href="#60-a-bistand-fra-forsvaret-for-a-ivareta-samfunnssikkerhet">§ 60 a. Bistand fra Forsvaret for å ivareta samfunnssikkerhet</a></li>
+<li class="lvl4"><a href="#61-adgang-til-a-ta-oppdrag-utenfor-forsvarsdepartementet-og-underliggende-etater">§ 61. Adgang til å ta oppdrag utenfor Forsvarsdepartementet og underliggende etater</a></li>
+<li class="lvl4"><a href="#62-pliktmessig-avhold">§ 62. Pliktmessig avhold</a></li>
+<li class="lvl4"><a href="#63-oppbevaring-og-vedlikehold-av-vapen">§ 63. Oppbevaring og vedlikehold av våpen</a></li>
+<li class="lvl4"><a href="#64-forholdet-til-forvaltningsloven">§ 64. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-8-refselse-og-straff">Kapittel 8 Refselse og straff</a></li>
+<li class="lvl4"><a href="#65-hvilke-handlinger-det-kan-ilegges-refselse-for">§ 65. Hvilke handlinger det kan ilegges refselse for</a></li>
+<li class="lvl4"><a href="#66-grunnvilkar-for-straffansvar-i-disiplinrsaker">§ 66. Grunnvilkår for straffansvar i disiplinærsaker</a></li>
+<li class="lvl4"><a href="#67-hvem-som-kan-ilegges-refselse">§ 67. Hvem som kan ilegges refselse</a></li>
+<li class="lvl4"><a href="#68-disiplinrbestemmelsenes-virkeomrade-i-tid">§ 68. Disiplinærbestemmelsenes virkeområde i tid</a></li>
+<li class="lvl4"><a href="#69-refselsesmidlene">§ 69. Refselsesmidlene</a></li>
+<li class="lvl4"><a href="#70-plikt-til-a-forelegge-forhold-for-patalemyndigheten">§ 70. Plikt til å forelegge forhold for påtalemyndigheten</a></li>
+<li class="lvl4"><a href="#71-hvem-som-har-disiplinrmyndighet">§ 71. Hvem som har disiplinærmyndighet</a></li>
+<li class="lvl4"><a href="#72-plikt-til-a-srge-for-at-saken-er-tilstrekkelig-opplyst">§ 72. Plikt til å sørge for at saken er tilstrekkelig opplyst</a></li>
+<li class="lvl4"><a href="#73-rett-til-bistand">§ 73. Rett til bistand</a></li>
+<li class="lvl4"><a href="#74-underretning-om-avgjrelse-og-klageadgang">§ 74. Underretning om avgjørelse og klageadgang</a></li>
+<li class="lvl4"><a href="#75-adgang-til-a-oppheve-og-omgjre-en-avgjrelse-i-saken">§ 75. Adgang til å oppheve og omgjøre en avgjørelse i saken</a></li>
+<li class="lvl4"><a href="#76-klage-til-klagenemnda-for-disiplinrsaker-i-forsvaret">§ 76. Klage til Klagenemnda for disiplinærsaker i Forsvaret</a></li>
+<li class="lvl4"><a href="#77-srskilte-begrensninger-i-adgangen-til-a-bringe-en-disiplinrsak-inn-for-domstolene">§ 77. Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstolene</a></li>
+<li class="lvl4"><a href="#78-begrensninger-som-flger-av-folkeretten-eller-avtale">§ 78. Begrensninger som følger av folkeretten eller avtale</a></li>
+<li class="lvl4"><a href="#79-iverksetting-av-refselse">§ 79. Iverksetting av refselse</a></li>
+<li class="lvl4"><a href="#80-erstatning">§ 80. Erstatning</a></li>
+<li class="lvl4"><a href="#81-radgivning-tilsyn-og-kontroll">§ 81. Rådgivning, tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#82-srregler-i-krig-eller-nar-krig-truer">§ 82. Særregler i krig eller når krig truer</a></li>
+<li class="lvl4"><a href="#83-forskrifter-i-medhold-av-loven">§ 83. Forskrifter i medhold av loven</a></li>
+<li class="lvl4"><a href="#84-straff">§ 84. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9 Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#85-ikrafttredelse">§ 85. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#86-overgangsregler">§ 86. Overgangsregler</a></li>
+<li class="lvl4"><a href="#87-oppheving-av-og-endring-i-andre-lover">§ 87. Oppheving av og endring i andre lover</a></li>
+<li class="lvl4"><a href="#88-endringer-i-andre-lover">§ 88. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-65.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-08-12-77.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om verneplikt og tjeneste i Forsvaret m.m. (forsvarsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-08-12-77.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2016-08-12-77 <code>lov/2016-08-12-77</code></td></tr>
+<tr><th>Korttittel</th><td>Forsvarsloven</td></tr>
+<tr><th>Departement</th><td>Forsvarsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Stats-, statsforfatnings- og statsborgerrett &raquo; Forsvaret</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2017</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-65 <code>lov/2025-06-20-65</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2016-08-12-77" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1 Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-hva-og-hvem-loven-gjelder">§ 2. Hva og hvem loven gjelder</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-begrensninger-i-tjenesten-for-dem-som-er-under-18-ar">§ 4. Begrensninger i tjenesten for dem som er under 18 år</a></li>
+<li class="lvl4"><a href="#5-organiseringen-av-forsvaret">§ 5. Organiseringen av Forsvaret</a></li>
+<li class="lvl2"><a href="#kapittel-2-verneplikten">Kapittel 2 Verneplikten</a></li>
+<li class="lvl4"><a href="#6-hvem-som-har-verneplikt">§ 6. Hvem som har verneplikt</a></li>
+<li class="lvl4"><a href="#7-opphevet">§ 7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-opplysningsplikt-og-meldeplikt">§ 8. Opplysningsplikt og meldeplikt</a></li>
+<li class="lvl4"><a href="#9-sesjon">§ 9. Sesjon</a></li>
+<li class="lvl4"><a href="#10-vurdering-av-hvem-som-er-skikket-til-tjeneste">§ 10. Vurdering av hvem som er skikket til tjeneste</a></li>
+<li class="lvl4"><a href="#11-klage-pa-og-omgjring-av-vedtak-om-helsetilstand">§ 11. Klage på og omgjøring av vedtak om helsetilstand</a></li>
+<li class="lvl4"><a href="#12-utvidet-verneplikt-ved-frivillig-tjeneste-og-opplring-i-forsvaret">§ 12. Utvidet verneplikt ved frivillig tjeneste og opplæring i Forsvaret</a></li>
+<li class="lvl4"><a href="#13-utvidet-verneplikt-for-tidligere-militrt-tilsatte">§ 13. Utvidet verneplikt for tidligere militært tilsatte</a></li>
+<li class="lvl4"><a href="#14-utvidet-verneplikt-i-heimevernet-for-personer-mellom-44-og-55-ar">§ 14. Utvidet verneplikt i Heimevernet for personer mellom 44 og 55 år</a></li>
+<li class="lvl4"><a href="#15-overfring-til-sivilforsvaret-og-til-politiet">§ 15. Overføring til Sivilforsvaret og til politiet</a></li>
+<li class="lvl4"><a href="#16-verneplikt-i-krig-eller-nar-krig-truer">§ 16. Verneplikt i krig eller når krig truer</a></li>
+<li class="lvl2"><a href="#kapittel-3-tjenesteplikten-for-vernepliktige-og-personer-med-kontrakt-om-tjeneste">Kapittel 3 Tjenesteplikten for vernepliktige og personer med kontrakt om tjeneste</a></li>
+<li class="lvl4"><a href="#17-tjenesteplikten">§ 17. Tjenesteplikten</a></li>
+<li class="lvl4"><a href="#18-tjenestens-lengde">§ 18. Tjenestens lengde</a></li>
+<li class="lvl4"><a href="#19-innkalling-til-tjeneste-i-forsvaret">§ 19. Innkalling til tjeneste i Forsvaret</a></li>
+<li class="lvl4"><a href="#20-vaksinering-og-andre-tiltak-for-a-forebygge-smittsomme-sykdommer">§ 20. Vaksinering og andre tiltak for å forebygge smittsomme sykdommer</a></li>
+<li class="lvl4"><a href="#21-gjennomfring-av-frstegangstjenesten">§ 21. Gjennomføring av førstegangstjenesten</a></li>
+<li class="lvl4"><a href="#22-nar-plikten-til-a-gjennomfre-frstegangstjenesten-faller-bort">§ 22. Når plikten til å gjennomføre førstegangstjenesten faller bort</a></li>
+<li class="lvl4"><a href="#23-arlig-heimevernstjeneste">§ 23. Årlig heimevernstjeneste</a></li>
+<li class="lvl4"><a href="#24-frivillige-i-heimevernet">§ 24. Frivillige i Heimevernet</a></li>
+<li class="lvl4"><a href="#25-kontrakt-om-tjenesteplikt-for-personer-uten-verneplikt-og-om-utvidet-tjenesteplikt-for-vernepliktige">§ 25. Kontrakt om tjenesteplikt for personer uten verneplikt og om utvidet tjenesteplikt for vernepliktige</a></li>
+<li class="lvl4"><a href="#25-a-kontrakt-om-tjenesteplikt-med-sivilt-tilsatte">§ 25 a. Kontrakt om tjenesteplikt med sivilt tilsatte</a></li>
+<li class="lvl4"><a href="#25-b-aremal-for-omradesjefer-i-heimevernet">§ 25 b. Åremål for områdesjefer i Heimevernet</a></li>
+<li class="lvl4"><a href="#25-c-kontrakt-om-utdanning-og-tjenesteplikt-i-forsvaret">§ 25 c. Kontrakt om utdanning og tjenesteplikt i Forsvaret</a></li>
+<li class="lvl4"><a href="#26-tilleggstjeneste">§ 26. Tilleggstjeneste</a></li>
+<li class="lvl4"><a href="#27-sivil-utdanning-som-har-betydning-for-forsvaret">§ 27. Sivil utdanning som har betydning for Forsvaret</a></li>
+<li class="lvl4"><a href="#28-sknad-om-annen-tjeneste-av-velferdsgrunner">§ 28. Søknad om annen tjeneste av velferdsgrunner</a></li>
+<li class="lvl4"><a href="#29-endring-av-stilling-og-grad">§ 29. Endring av stilling og grad</a></li>
+<li class="lvl4"><a href="#30-fritak-for-ordinr-tjeneste-etter-utfrt-tjeneste-i-et-annet-lands-forsvar">§ 30. Fritak for ordinær tjeneste etter utført tjeneste i et annet lands forsvar</a></li>
+<li class="lvl4"><a href="#31-utsatt-eller-avbrutt-tjeneste-pa-grunn-av-straffeforflgning">§ 31. Utsatt eller avbrutt tjeneste på grunn av straffeforfølgning</a></li>
+<li class="lvl4"><a href="#32-fritak-for-fremmte-i-forsvaret-pa-grunn-av-sivil-stilling-eller-fagkyndighet">§ 32. Fritak for fremmøte i Forsvaret på grunn av sivil stilling eller fagkyndighet</a></li>
+<li class="lvl4"><a href="#33-engangserstatning-ved-ddsfall-og-medisinsk-invaliditet">§ 33. Engangserstatning ved dødsfall og medisinsk invaliditet</a></li>
+<li class="lvl4"><a href="#33-a-erstatning-for-vernepliktige-inne-til-frstegangstjeneste">§ 33 a. Erstatning for vernepliktige inne til førstegangstjeneste</a></li>
+<li class="lvl4"><a href="#34-tjenesteplikt-i-krig-eller-nar-krig-truer">§ 34. Tjenesteplikt i krig eller når krig truer</a></li>
+<li class="lvl2"><a href="#kapittel-4-fritak-for-tjeneste-i-forsvaret-av-overbevisningsgrunner">Kapittel 4 Fritak for tjeneste i Forsvaret av overbevisningsgrunner</a></li>
+<li class="lvl4"><a href="#35-vilkar-for-fritak">§ 35. Vilkår for fritak</a></li>
+<li class="lvl4"><a href="#36-sknad-om-fritak">§ 36. Søknad om fritak</a></li>
+<li class="lvl4"><a href="#37-fritak-for-tjeneste-mens-sknaden-behandles">§ 37. Fritak for tjeneste mens søknaden behandles</a></li>
+<li class="lvl4"><a href="#38-omgjring-av-et-vedtak-om-fritak">§ 38. Omgjøring av et vedtak om fritak</a></li>
+<li class="lvl4"><a href="#39-prving-for-domstolene">§ 39. Prøving for domstolene</a></li>
+<li class="lvl4"><a href="#40-fritak-for-tjeneste-nar-det-er-reist-sak-for-domstolene">§ 40. Fritak for tjeneste når det er reist sak for domstolene</a></li>
+<li class="lvl4"><a href="#41-anke-og-gjenapning">§ 41. Anke og gjenåpning</a></li>
+<li class="lvl4"><a href="#42-dekning-av-sakskostnader-ved-en-domstolsbehandling">§ 42. Dekning av sakskostnader ved en domstolsbehandling</a></li>
+<li class="lvl4"><a href="#43-oppheving-av-et-vedtak-om-fritak">§ 43. Oppheving av et vedtak om fritak</a></li>
+<li class="lvl2"><a href="#kapittel-5-srregler-for-militrt-tilsatte">Kapittel 5 Særregler for militært tilsatte</a></li>
+<li class="lvl4"><a href="#44-tilsettingsvilkar-for-militrt-tilsatte">§ 44. Tilsettingsvilkår for militært tilsatte</a></li>
+<li class="lvl4"><a href="#45-tilsettingsforholdets-lengde">§ 45. Tilsettingsforholdets lengde</a></li>
+<li class="lvl4"><a href="#46-beordring-av-militrt-tilsatte">§ 46. Beordring av militært tilsatte</a></li>
+<li class="lvl4"><a href="#47-oppsigelse-og-fortrinnsrett">§ 47. Oppsigelse og fortrinnsrett</a></li>
+<li class="lvl4"><a href="#48-utvidet-tjenesteplikt-i-krig-for-tidligere-militrt-tilsatte">§ 48. Utvidet tjenesteplikt i krig for tidligere militært tilsatte</a></li>
+<li class="lvl2"><a href="#kapittel-6-tjeneste-i-internasjonale-operasjoner">Kapittel 6 Tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#49-beordring-til-tjeneste-i-internasjonale-operasjoner">§ 49. Beordring til tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#50-tjenesteplikt-etter-kontrakt">§ 50. Tjenesteplikt etter kontrakt</a></li>
+<li class="lvl4"><a href="#51-fritak-for-tjeneste-i-internasjonale-operasjoner">§ 51. Fritak for tjeneste i internasjonale operasjoner</a></li>
+<li class="lvl4"><a href="#52-hjemsending">§ 52. Hjemsending</a></li>
+<li class="lvl4"><a href="#53-oppsigelse-av-ordinrt-tilsettingsforhold">§ 53. Oppsigelse av ordinært tilsettingsforhold</a></li>
+<li class="lvl4"><a href="#54-rett-til-oppflging">§ 54. Rett til oppfølging</a></li>
+<li class="lvl4"><a href="#55-erstatningsansvar-ved-personskade">§ 55. Erstatningsansvar ved personskade</a></li>
+<li class="lvl4"><a href="#56-foreldelse-av-krav-om-erstatning-og-kompensasjon-som-flge-av-deltagelse-i-en-internasjonal-operasjon">§ 56. Foreldelse av krav om erstatning og kompensasjon som følge av deltagelse i en internasjonal operasjon</a></li>
+<li class="lvl4"><a href="#57-forholdet-til-arbeidsmiljloven-og-statsansatteloven">§ 57. Forholdet til arbeidsmiljøloven og statsansatteloven</a></li>
+<li class="lvl2"><a href="#kapittel-7-fellesbestemmelser">Kapittel 7 Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#57-a-behandling-av-personopplysninger">§ 57 a. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#58-forsvarets-rett-til-a-innhente-personopplysninger-og-andre-aktrers-plikt-til-a-gi-opplysninger-til-forsvaret">§ 58. Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til Forsvaret</a></li>
+<li class="lvl4"><a href="#59-vandelskontroll">§ 59. Vandelskontroll</a></li>
+<li class="lvl4"><a href="#60-sttte-fra-politiet-og-norske-utenriksstasjoner">§ 60. Støtte fra politiet og norske utenriksstasjoner</a></li>
+<li class="lvl4"><a href="#60-a-bistand-fra-forsvaret-for-a-ivareta-samfunnssikkerhet">§ 60 a. Bistand fra Forsvaret for å ivareta samfunnssikkerhet</a></li>
+<li class="lvl4"><a href="#61-adgang-til-a-ta-oppdrag-utenfor-forsvarsdepartementet-og-underliggende-etater">§ 61. Adgang til å ta oppdrag utenfor Forsvarsdepartementet og underliggende etater</a></li>
+<li class="lvl4"><a href="#62-pliktmessig-avhold">§ 62. Pliktmessig avhold</a></li>
+<li class="lvl4"><a href="#63-oppbevaring-og-vedlikehold-av-vapen">§ 63. Oppbevaring og vedlikehold av våpen</a></li>
+<li class="lvl4"><a href="#64-forholdet-til-forvaltningsloven">§ 64. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-8-refselse-og-straff">Kapittel 8 Refselse og straff</a></li>
+<li class="lvl4"><a href="#65-hvilke-handlinger-det-kan-ilegges-refselse-for">§ 65. Hvilke handlinger det kan ilegges refselse for</a></li>
+<li class="lvl4"><a href="#66-grunnvilkar-for-straffansvar-i-disiplinrsaker">§ 66. Grunnvilkår for straffansvar i disiplinærsaker</a></li>
+<li class="lvl4"><a href="#67-hvem-som-kan-ilegges-refselse">§ 67. Hvem som kan ilegges refselse</a></li>
+<li class="lvl4"><a href="#68-disiplinrbestemmelsenes-virkeomrade-i-tid">§ 68. Disiplinærbestemmelsenes virkeområde i tid</a></li>
+<li class="lvl4"><a href="#69-refselsesmidlene">§ 69. Refselsesmidlene</a></li>
+<li class="lvl4"><a href="#70-plikt-til-a-forelegge-forhold-for-patalemyndigheten">§ 70. Plikt til å forelegge forhold for påtalemyndigheten</a></li>
+<li class="lvl4"><a href="#71-hvem-som-har-disiplinrmyndighet">§ 71. Hvem som har disiplinærmyndighet</a></li>
+<li class="lvl4"><a href="#72-plikt-til-a-srge-for-at-saken-er-tilstrekkelig-opplyst">§ 72. Plikt til å sørge for at saken er tilstrekkelig opplyst</a></li>
+<li class="lvl4"><a href="#73-rett-til-bistand">§ 73. Rett til bistand</a></li>
+<li class="lvl4"><a href="#74-underretning-om-avgjrelse-og-klageadgang">§ 74. Underretning om avgjørelse og klageadgang</a></li>
+<li class="lvl4"><a href="#75-adgang-til-a-oppheve-og-omgjre-en-avgjrelse-i-saken">§ 75. Adgang til å oppheve og omgjøre en avgjørelse i saken</a></li>
+<li class="lvl4"><a href="#76-klage-til-klagenemnda-for-disiplinrsaker-i-forsvaret">§ 76. Klage til Klagenemnda for disiplinærsaker i Forsvaret</a></li>
+<li class="lvl4"><a href="#77-srskilte-begrensninger-i-adgangen-til-a-bringe-en-disiplinrsak-inn-for-domstolene">§ 77. Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstolene</a></li>
+<li class="lvl4"><a href="#78-begrensninger-som-flger-av-folkeretten-eller-avtale">§ 78. Begrensninger som følger av folkeretten eller avtale</a></li>
+<li class="lvl4"><a href="#79-iverksetting-av-refselse">§ 79. Iverksetting av refselse</a></li>
+<li class="lvl4"><a href="#80-erstatning">§ 80. Erstatning</a></li>
+<li class="lvl4"><a href="#81-radgivning-tilsyn-og-kontroll">§ 81. Rådgivning, tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#82-srregler-i-krig-eller-nar-krig-truer">§ 82. Særregler i krig eller når krig truer</a></li>
+<li class="lvl4"><a href="#83-forskrifter-i-medhold-av-loven">§ 83. Forskrifter i medhold av loven</a></li>
+<li class="lvl4"><a href="#84-straff">§ 84. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9 Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#85-ikrafttredelse">§ 85. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#86-overgangsregler">§ 86. Overgangsregler</a></li>
+<li class="lvl4"><a href="#87-oppheving-av-og-endring-i-andre-lover">§ 87. Oppheving av og endring i andre lover</a></li>
+<li class="lvl4"><a href="#88-endringer-i-andre-lover">§ 88. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-08-12-77.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-08-12-77.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-08-12-77.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2016-08-12-77.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2016-08-12-77.html">Observerte kildeutgaver</a> · <a href="../historie/forsvarsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2016-08-12-77.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2016-08-12-77.html">Observerte kildeutgaver</a> · <a href="../historie/forsvarsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2016-08-12-77.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-verneplikt-og-tjeneste-i-forsvaret-mm-forsvarsloven">Lov om verneplikt og tjeneste i Forsvaret m.m. (forsvarsloven)</h1>
 <h2 id="kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1 Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Loven skal</p>
@@ -89,14 +340,14 @@ d. ivareta de vernepliktige og de tjenestepliktige.</p>
 <p>Verneplikten er den plikten som norske statsborgere og utenlandske statsborgere etter § 6 har til i fred og krig å gjøre tjeneste i Forsvaret hvis Forsvaret finner dem skikket til tjeneste.</p>
 <p>Tjenesteplikten er plikten til i fred og krig å utføre de oppgavene som Forsvaret tildeler, i den stillingen og på det stedet Forsvaret bestemmer.</p>
 <p>Loven gjelder sivilt tilsatte i Forsvarsdepartementet og underliggende etater der det er fastsatt i loven her.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne loven menes med</p>
 <p>a. styrkeoppbygging: klargjøring og aktivering av militære styrker
 b. militært tilsatte: offiserer, befal, grenaderer og konstabler som har inngått kontrakt om tilsetting i Forsvaret
 c. internasjonale operasjoner: bruk av militære styrker i utlandet for å skape, bevare eller gjenopprette fred og stabilitet.
 d. militære studenter: personer som tar utdanning på bachelornivå i Forsvaret.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</p>
 <h4 id="4-begrensninger-i-tjenesten-for-dem-som-er-under-18-ar">§ 4. Begrensninger i tjenesten for dem som er under 18 år</h4>
 <p>De som er under 18 år og som gjør tjeneste i Forsvaret, skal ikke gis opplæring eller delta i stridsrelatert virksomhet. De som er under 18 år kan heller ikke bli satt til ekstraordinær tjeneste etter § 17 tredje ledd.</p>
 <p>Når Norge er i krig, når krig truer eller når Forsvaret har satt i gang styrkeoppbygging, skal de som er under 18 år straks fritas for tjeneste.</p>
@@ -112,7 +363,7 @@ d. militære studenter: personer som tar utdanning på bachelornivå i Forsvaret
 <p>Verneplikten gjelder ikke for ordinerte prester i Den norske kirke og prester og forstandere i registrerte tros- og livssynssamfunn som ikke har gjort tjeneste i Forsvaret.</p>
 <p>Kongen kan gi forskrift om vilkår for og fritak for verneplikten.</p>
 <h4 id="7-opphevet">§ 7. (Opphevet)</h4>
-<p><em>Opphevet ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Opphevet ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="8-opplysningsplikt-og-meldeplikt">§ 8. Opplysningsplikt og meldeplikt</h4>
 <p>De som kan bli kalt inn til tjeneste i Forsvaret, skal på oppfordring gi Forsvaret opplysninger som har betydning for verneplikten. Plikten gjelder fra det året de fyller 17 år. Opplysningene skal dokumenteres hvis Forsvaret krever det. Vernepliktige som søker om fritak for tjeneste etter kapittel 4 , kan bli pålagt å forklare seg muntlig.</p>
 <p>Forsvaret kan kreve skriftlig bekreftelse på at innkallinger, andre pålegg og dokumenter om verneplikt er mottatt. De som ikke oppholder seg på registrert adresse, skal sørge for å gjøre seg kjent med innholdet.</p>
@@ -163,7 +414,7 @@ c. tjeneste for å ivareta andre vesentlige samfunnsinteresser
 d. særlige øvelser som skal styrke Forsvaret
 e. beredskapstjeneste ved styrkeoppbygging.</p>
 <p>Kongen i statsråd bestemmer om vernepliktige og personer som har inngått kontrakt om tjenesteplikt i medhold av § 25 , kan kalles inn til ekstraordinær tjeneste. Kongen kan gi forskrift om gjennomføringen av ekstraordinær tjeneste, om at Heimevernet kan kalle inn vernepliktige og personer som har inngått kontrakt om tjenesteplikt i medhold av § 25 , til ekstraordinær tjeneste etter tredje ledd bokstav a til c, og om hvem som skal kunne be om bistand fra Heimevernet.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</p>
 <h4 id="18-tjenestens-lengde">§ 18. Tjenestens lengde</h4>
 <p>Vernepliktige kan bli pålagt inntil 19 måneders ordinær tjeneste. Stortinget bestemmer hvor lang førstegangstjenesten, den årlige heimevernstjenesten, repetisjonstjenesten og offisers-, befals- og spesialistopplæringen skal være.</p>
 <p>Den ekstraordinære tjenesten kan vare inntil seks måneder hver gang. Beredskapstjeneste ved styrkeoppbygging etter § 17 tredje ledd bokstav e kan vare mer enn seks måneder når situasjonen krever det.</p>
@@ -173,7 +424,7 @@ e. beredskapstjeneste ved styrkeoppbygging.</p>
 <p>Vernepliktige som Forsvaret har funnet skikket til tjeneste etter § 10 , kan innkalles til tjeneste i samsvar med Forsvarets behov. De som blir innkalt, plikter å møte. Innkallingen skal inneholde informasjon om oppmøtetidspunkt, tjenestested og tjenestens lengde.</p>
 <p>Når vernepliktige innkalles til førstegangstjeneste, skal det, så langt det er mulig, tas hensyn til den enkeltes ønske om type tjeneste.</p>
 <p>Departementet kan gi forskrift om innkalling til tjeneste, om godtgjøring og om utsettelse av tjenesten når samfunnsinteresser eller vektige velferdsgrunner krever det.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</p>
 <h4 id="20-vaksinering-og-andre-tiltak-for-a-forebygge-smittsomme-sykdommer">§ 20. Vaksinering og andre tiltak for å forebygge smittsomme sykdommer</h4>
 <p>Tjenestepliktige som er innkalt til tjeneste, plikter å la seg vaksinere, og å godta at Forsvaret gjennomfører andre tiltak som er nødvendige for å forebygge smittsomme sykdommer.</p>
 <p>Departementet kan gi forskrift om vaksineringen og om andre tiltak som er nødvendige for å forebygge smittsomme sykdommer.</p>
@@ -200,21 +451,21 @@ e. beredskapstjeneste ved styrkeoppbygging.</p>
 <p>Personer som inngår kontrakt om tjenesteplikt etter første ledd, er å anse som frivillig tjenestegjørende etter <a href="lov-1997-02-28-19.html">folketrygdloven</a> § 13-8 første ledd bokstav a.</p>
 <p>Personer som har påtatt seg en tjenesteplikt i medhold av første ledd, har for øvrig samme rettigheter og plikter etter denne loven som personer med lovpålagt verneplikt.</p>
 <p>Departementet kan gi forskrift om gjennomføringen av tjenesten, herunder bestemmelser om rettigheter, om innholdet i kontraktene, om fritak for tjenesteplikt, om godtgjøring og om adgangen til å inngå kontrakt om tjenesteplikt med utenlandske statsborgere.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</p>
 <h4 id="25-a-kontrakt-om-tjenesteplikt-med-sivilt-tilsatte">§ 25 a. Kontrakt om tjenesteplikt med sivilt tilsatte</h4>
 <p>Forsvarsdepartementet og underliggende etater kan inngå kontrakt om tjenesteplikt med sivilt tilsatte i virksomheten. Det skal fremgå av kontrakten at den sivilt tilsatte er tjenestepliktig etter § 2 .</p>
 <p>Når Norge er i krig eller når krig truer, kan kontrakt om tjenesteplikt etter første ledd ikke sies opp. Begrensningen i adgangen til oppsigelse skal fremgå av kontrakten.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</p>
 <h4 id="25-b-aremal-for-omradesjefer-i-heimevernet">§ 25 b. Åremål for områdesjefer i Heimevernet</h4>
 <p>Områdesjefer i Heimevernet kan tilsettes på åremål.</p>
 <p>Departementet kan gi nærmere bestemmelser i forskrift om åremål for områdesjefer i Heimevernet.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 113 (i kraft 1 jan 2024 iflg. res. 15 des 2023 nr. 2049 ).</p>
 <h4 id="25-c-kontrakt-om-utdanning-og-tjenesteplikt-i-forsvaret">§ 25 c. Kontrakt om utdanning og tjenesteplikt i Forsvaret</h4>
 <p>Militære studenter skal inngå kontrakt med Forsvaret om utdanning og tjenesteplikt før utdanningen starter. Det skal fremgå av kontrakten hvilke rettigheter og plikter som gjelder i utdanningsperioden.</p>
 <p>Militære studenter er under utdanningsperioden tjenestepliktig etter § 2 . De anses ikke som arbeidstakere.</p>
 <p>Forsvaret kan ved inngåelse av kontrakt etter første ledd pålegge militære studenter plikttjeneste etter endt utdanning.</p>
 <p>Departementet gir forskrift om gjennomføringen av utdanningen, innholdet i kontrakten og tjenesteplikt under utdanning.</p>
-<p><em>Tilføyd ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</em></p>
+<p class="note">Tilføyd ved lov 16 juni 2023 nr. 55 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 877 ).</p>
 <h4 id="26-tilleggstjeneste">§ 26. Tilleggstjeneste</h4>
 <p>Tjenestepliktige som på grunn av forsømmelser i tjenesten, sykdom, skade eller fravær ikke har fått tilstrekkelig opplæring, kan bli pålagt nødvendig tilleggstjeneste.</p>
 <p>Tjenestepliktige som har vært fraværende uten gyldig grunn, kan bli pålagt å ta igjen forsømt tjeneste selv om de har fått tilstrekkelig opplæring.</p>
@@ -251,7 +502,7 @@ c. reiser i forbindelse med velferdspermisjon klasse A, frie permisjonsreiser og
 d. frivillige kurs, opplæring og aktiviteter som arrangeres eller betales av Forsvaret.</p>
 <p>Erstatningen skal utmåles som om skaden var en yrkesskade etter yrkesskadeforsikringsloven . Yrkesskadeforsikringsloven §§ 14 og 15 gjelder tilsvarende.</p>
 <p>Departementet kan i forskrift gi nærmere regler om retten til erstatning, herunder om vilkårene for erstatning og saksbehandlingsregler.</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 50 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1038 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 50 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1038 ).</p>
 <h4 id="34-tjenesteplikt-i-krig-eller-nar-krig-truer">§ 34. Tjenesteplikt i krig eller når krig truer</h4>
 <p>Tjenestepliktige plikter å gjøre tjeneste i krig eller når krig truer, og skal møte til tjeneste på kort varsel. Tjenesteplikten varer så lenge det er nødvendig.</p>
 <p>Kongen kan gi forskrift om tjenesteplikten i krig eller når krig truer.</p>
@@ -297,21 +548,21 @@ d. frivillige kurs, opplæring og aktiviteter som arrangeres eller betales av Fo
 <p>Departementet kan gi forskrift om hvem som er tilsettingsmyndighet, og om fremgangsmåten ved tilsetting. Forskriftene kan fravike fra statsansatteloven .</p>
 <p>Departementet kan gi forskrift om unntak fra krav til statsborgerskap.</p>
 <p>Kongen kan i forskrift gi nærmere regler om utnevning av embetsmenn i åremålsstillinger.</p>
-<p><em>Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 20 juni 2025 nr. 65 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1114 ).</em></p>
+<p class="note">Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 20 juni 2025 nr. 65 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1114 ).</p>
 <h4 id="45-tilsettingsforholdets-lengde">§ 45. Tilsettingsforholdets lengde</h4>
 <p>Offiserer, befal, grenaderer og konstabler kan tilsettes i midlertidig stilling, i fast stilling til de fyller 35 år eller i fast stilling til de fyller 60 år. De som er fast tilsatt til 35 år, plikter å fratre stillingen ved første månedsskifte etter at de har fylt 35 år. De som er fast tilsatt til 60 år, plikter å fratre stillingen ved første månedsskifte etter at den alminnelige aldersgrensen i lov 21. desember 1956 nr. 1 om aldersgrenser for statsansatte m.fl. er oppnådd.</p>
 <p>Forsvaret kan ved behov forlenge tilsettingsperioden med inntil 3 år for dem som er tilsatt til de fyller 35 år.</p>
 <p>Departementet kan gi forskrift om varigheten av og om adgangen til å fornye det midlertidige tilsettingsforholdet.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 65 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1114 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 65 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1114 ).</p>
 <h4 id="46-beordring-av-militrt-tilsatte">§ 46. Beordring av militært tilsatte</h4>
 <p>Militært tilsatte kan bli beordret til stillinger i Norge og i utlandet i samsvar med Forsvarets behov.</p>
 <p>Militært tilsatte kan beordres fra en stilling når det er påkrevd av helsemessige, sikkerhetsmessige eller andre særskilte grunner. De som kan avskjediges eller suspenderes etter statsansatteloven §§ 26 , 27 og 29 eller refses etter disiplinærloven § 1 , kan ikke beordres fra en stilling av andre særskilte grunner.</p>
 <p>Militært tilsatte kan bli beordret til annen tjeneste eller annet tjenestested når det er nødvendig på grunn av organisasjonsendringer.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</p>
 <h4 id="47-oppsigelse-og-fortrinnsrett">§ 47. Oppsigelse og fortrinnsrett</h4>
 <p>Militært tilsatte som er pålagt tjeneste som motytelse for opplæring og utdanning betalt av Forsvaret, kan ikke i plikttiden si opp stillingen sin i Forsvaret.</p>
 <p>Midlertidig tilsatte og de som er fast tilsatt til de fyller 35 år, kan ikke kreve fortrinnsrett etter statsansatteloven .</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</p>
 <h4 id="48-utvidet-tjenesteplikt-i-krig-for-tidligere-militrt-tilsatte">§ 48. Utvidet tjenesteplikt i krig for tidligere militært tilsatte</h4>
 <p>I krig eller når krig truer, kan tidligere militært tilsatte bli pålagt tjenesteplikt ut over det året de fyller 55 år. Utvidet tjenesteplikt kan bare bli pålagt dem som er skikket til tjeneste og som mottar pensjon eller redusert lønn, eller som har opptjent fremtidig pensjon.</p>
 <p>Departementet kan gi forskrift om å utvide tjenesteplikten for tidligere militært tilsatte.</p>
@@ -344,22 +595,22 @@ d. frivillige kurs, opplæring og aktiviteter som arrangeres eller betales av Fo
 <p>Den som har fått erstatning etter første ledd, kan ikke få ytterligere erstatning fra staten på annet grunnlag.</p>
 <p>For øvrig gjelder yrkesskadeforsikringsloven §§ 12 , 13 første ledd, 14 og 15 .</p>
 <p>Departementet kan gi forskrift om utmåling og utbetaling. Departementet kan også gi forskrift om billighetserstatning for psykiske belastningsskader som følge av deltagelse i internasjonale operasjoner. Utbetaling etter slik forskrift skal samordnes med andre erstatningsutbetalinger fra staten.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</p>
 <h4 id="56-foreldelse-av-krav-om-erstatning-og-kompensasjon-som-flge-av-deltagelse-i-en-internasjonal-operasjon">§ 56. Foreldelse av krav om erstatning og kompensasjon som følge av deltagelse i en internasjonal operasjon</h4>
 <p>Krav om erstatning og kompensasjon for en psykisk belastningsskade som følge av deltagelse i en internasjonal operasjon foreldes tre år etter den dag skadelidte fikk eller burde skaffet seg kunnskap om skaden og den ansvarlige, men tidligst tre år etter den dag det offentlige har fattet vedtak om uføretrygd og yrkesskadedekning på grunn av psykisk belastningsskade etter folketrygdloven kapittel 12 og 13 . <a href="lov-1979-05-18-18.html">Foreldelsesloven</a> § 9 andre ledd får ikke anvendelse ved krav etter første punktum.</p>
 <p>Foreldelse av krav om erstatning og kompensasjon som følge av deltagelse i en internasjonal operasjon avbrytes ved at søknad om dette fremsettes for Statens pensjonskasse.</p>
 <p>Søksmål må reises innen seks måneder fra det tidspunkt underretning om endelig vedtak i Klagenemnda for krav om erstatning og kompensasjon for psykiske belastningsskader som følge av deltagelse i internasjonale operasjoner er kommet frem til skadelidte. Ved avgjørelse om erstatning i saker etter § 55 første ledd som ikke kan påklages, må søksmål reises innen seks måneder fra det tidspunkt underretning om endelig vedtak i Statens pensjonskasse er kommet frem til skadelidte.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 , se endringsloven del II for overgangsregel).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 , se endringsloven del II for overgangsregel).</p>
 <h4 id="57-forholdet-til-arbeidsmiljloven-og-statsansatteloven">§ 57. Forholdet til arbeidsmiljøloven og statsansatteloven</h4>
 <p>Arbeidsmiljøloven og statsansatteloven §§ 4 , 5 , 6 og § 22 andre ledd gjelder ikke under tjeneste i internasjonale operasjoner.</p>
 <p>Departementet kan gi forskrift om arbeidsmiljøet til norske styrker som deltar i internasjonale operasjoner.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</p>
 <h2 id="kapittel-7-fellesbestemmelser">Kapittel 7 Fellesbestemmelser</h2>
 <h4 id="57-a-behandling-av-personopplysninger">§ 57 a. Behandling av personopplysninger</h4>
 <p>Forsvaret kan behandle personopplysninger, inkludert personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , når det er nødvendig for å utøve myndighet eller utføre andre oppgaver etter loven her.</p>
 <p>Klagenemnda for disiplinærsaker i Forsvaret kan behandle personopplysninger som nevnt i første ledd når det er nødvendig ved klagebehandling etter loven her.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om behandlingen av personopplysninger, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="58-forsvarets-rett-til-a-innhente-personopplysninger-og-andre-aktrers-plikt-til-a-gi-opplysninger-til-forsvaret">§ 58. Forsvarets rett til å innhente personopplysninger og andre aktørers plikt til å gi opplysninger til Forsvaret</h4>
 <p>Forsvaret kan innhente personopplysninger om norske statsborgere og personer som oppholder seg i Norge uten å være norske statsborgere, når det er nødvendig for å</p>
 <p>a. avgjøre hvem som anses skikket til tjeneste
@@ -368,7 +619,7 @@ c. holde verneplikts- og tjenesteregisteret oppdatert
 d. utbetale godtgjøring til tjenestepliktige.</p>
 <p>Opplysningene i første ledd bokstav a til c kan innhentes fra offentlige og private registre fra det året personer fyller 17 år. Opplysningene registreres i Forsvarets verneplikts- og tjenesteregister.</p>
 <p>Offentlige myndigheter, arbeidsgivere, utdannings- og helseinstitusjoner, prester og forstandere i tros- og livssynssamfunn skal på forespørsel fra Forsvaret og uten hinder av lovpålagt taushetsplikt gi opplysninger som nevnt i første ledd, om personer som er knyttet til dem eller registrert hos dem. Det kan ikke kreves betaling for slike opplysninger. Opplysningene i første ledd bokstav a til c kan gis fra det året personene fyller 17 år.</p>
-<p><em>Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="59-vandelskontroll">§ 59. Vandelskontroll</h4>
 <p>Forsvaret skal kreve vandelsvurdering etter <a href="lov-2010-05-28-16.html">politiregisterloven</a> § 45 av personer som kalles inn til tjeneste i Forsvaret, og av personer som søker om fritak for tjeneste i Forsvaret etter kapittel 4 . Vandelsvurderingen inkluderer saker som er under behandling, jf. politiregisterloven § 41 nr. 2.</p>
 <p>Forsvaret skal også kreve vandelsvurdering av militært tilsatte, sivilt tilsatte og vernepliktige etter politiregisterloven § 45 hvis</p>
@@ -388,7 +639,7 @@ c. Bistanden er forenlig med utførelsen av Forsvarets primæroppgaver.</p>
 <p>Forsvarets bistand etter første ledd kan ikke innebære myndighetsutøvelse ut over de rammene som ellers gjelder for den som ber om bistand. Bistanden etter første ledd skal ikke innebære noen form for maktanvendelse.</p>
 <p>Forsvarets bistand til politiet omfattes ikke av første og annet ledd.</p>
 <p>Kongen kan gi forskrift om hva bistanden til offentlige myndigheter og andre beredskapsaktører etter første ledd skal omfatte, og om prosedyrene for og utgiftsfordelingen ved slik bistand.</p>
-<p><em>Tilføyd ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</em></p>
+<p class="note">Tilføyd ved lov 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ).</p>
 <h4 id="61-adgang-til-a-ta-oppdrag-utenfor-forsvarsdepartementet-og-underliggende-etater">§ 61. Adgang til å ta oppdrag utenfor Forsvarsdepartementet og underliggende etater</h4>
 <p>Tjenestepliktige i Forsvaret og sivilt tilsatte i Forsvarsdepartementet og underliggende etater skal på eget initiativ opplyse sine hovedarbeidsgivere om lønnede og ulønnede oppdrag som kan være uforenlige med hovedarbeidsgiverens interesser. Det skal opplyses om oppdragsgivers navn og oppdragets karakter og omfang. Oppdrag det skal opplyses om, kan blant annet være oppdrag som</p>
 <p>a. utad fremstår som en naturlig del av hovedarbeidsgiverens tjenesteoppgaver
@@ -413,7 +664,7 @@ d. unntak fra avholdsplikten.</p>
 <p>Forvaltningsloven kapittel IV til VI gjelder ikke behandlingen av saker etter §§ 6 til 31 og §§ 33 a , 34 , 49 , 52 og 55 .</p>
 <p>Forvaltningsloven §§ 16 , 17 og 21 og kapittel V og VI gjelder ikke ved behandlingen av disiplinærsaker etter §§ 65 til 83 .</p>
 <p>Departementet kan gi forskrift om at forvaltningsloven kapittel IV til VI likevel skal gjelde.</p>
-<p><em>Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 17 juni 2022 nr. 50 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1038 ), 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 17 juni 2022 nr. 50 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1038 ), 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h2 id="kapittel-8-refselse-og-straff">Kapittel 8 Refselse og straff</h2>
 <p>Kapittelet endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="65-hvilke-handlinger-det-kan-ilegges-refselse-for">§ 65. Hvilke handlinger det kan ilegges refselse for</h4>
@@ -423,17 +674,17 @@ d. unntak fra avholdsplikten.</p>
 <p>a. på militært område, jf. <a href="lov-2023-11-24-85.html">militærpolitiloven</a> § 5
 b. overfor tjenestepliktige, jf. § 2 første ledd
 c. mot eller ved bruk av militært materiell.</p>
-<p><em>Endret ved lover 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ), 24 nov 2023 nr. 85 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 876 ).</em></p>
+<p class="note">Endret ved lover 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ), 24 nov 2023 nr. 85 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 876 ).</p>
 <h4 id="66-grunnvilkar-for-straffansvar-i-disiplinrsaker">§ 66. Grunnvilkår for straffansvar i disiplinærsaker</h4>
 <p>Grunnvilkårene for straffansvar etter <a href="lov-2005-05-20-28.html">straffeloven</a> kapittel 3 gjelder tilsvarende i disiplinærsaker med de unntak som følger av paragrafen her.</p>
 <p>Forsøk kan refses uavhengig av lovbruddets strafferamme.</p>
 <p>Refselse kan ilegges for forsettlige og uaktsomme forhold.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="67-hvem-som-kan-ilegges-refselse">§ 67. Hvem som kan ilegges refselse</h4>
 <p>Refselse kan ilegges tjenestepliktige, jf. § 2 første ledd .</p>
 <p>Refselse kan også ilegges krigsfanger med de særregler som følger av Genève-konvensjonen 12. august 1949 om behandling av krigsfanger , og overfor den som omfattes av lov 17. mars 1916 om straffebestemmelser for utenlandske militærpersoner som er internert her i riket under krig mellem fremmede magter .</p>
 <p>Med unntak av det som gjelder i krig eller når krig truer, jf. § 82 , kan sivilt ansatte i Forsvaret ikke ilegges refselse.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="68-disiplinrbestemmelsenes-virkeomrade-i-tid">§ 68. Disiplinærbestemmelsenes virkeområde i tid</h4>
 <p>Refselse kan ilegges for forhold som finner sted i tjenestetiden.</p>
 <p>Utenfor tjenestetiden kan refselse brukes når det gjelder</p>
@@ -443,7 +694,7 @@ c. forhold utvist mens vedkommende på offentlig sted eller militært område lo
 d. unnlatelse av å besvare tjenstlige henvendelser om forhold oppstått i tjenestetiden
 e. bruk av utlevert militær bekledning, effekter eller utstyr i strid med militære bestemmelser.</p>
 <p>Adgangen til å ilegge refselse faller bort to år etter det refsbare forholdet.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="69-refselsesmidlene">§ 69. Refselsesmidlene</h4>
 <p>Som refselsesmiddel kan brukes</p>
 <p>a. irettesettelse
@@ -455,79 +706,79 @@ c. frihetsinnskrenkning.</p>
 <p>a. gå utenfor leiren eller annet nærmere avgrenset område eller fartøy for et tidsrom av inntil 30 dager
 b. forlate et fartøy for bestemte landgangsturer innen samme tidsrom.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om refselsesmidlene, blant annet om gjennomføringen av frihetsinnskrenkningen, de maksimale grensene for overtredelsesgebyr, utmålingen og trekk i tjenestetillegg, dimisjonsgodtgjørelse eller lønn ved innkreving av overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="70-plikt-til-a-forelegge-forhold-for-patalemyndigheten">§ 70. Plikt til å forelegge forhold for påtalemyndigheten</h4>
 <p>Forhold som kan kvalifisere til straff, skal etter nærmere retningslinjer fra riksadvokaten forelegges påtalemyndigheten for avgjørelse av om det skal iverksettes etterforskning.</p>
 <p>Plikten til å forelegge forhold for påtalemyndigheten ligger til militære sjefer med disiplinærmyndighet og sivilt ansatte ledere i Forsvaret med tilsvarende funksjon.</p>
 <p>Dersom det er grunn til å anta at både straff og refselse kan være en aktuell reaksjon mot samme forhold, må disiplinærmyndigheten i samråd med påtalemyndigheten avklare om forholdet skal forfølges strafferettslig, disiplinært eller begge deler.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="71-hvem-som-har-disiplinrmyndighet">§ 71. Hvem som har disiplinærmyndighet</h4>
 <p>Enhver offiser som fast eller for tilfellet fører kompanisjefs eller tilsvarende eller høyere kommando, har myndighet til å ilegge undergitt personell refselse.</p>
 <p>Disiplinærmyndighet kan ikke delegeres.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om hvem som har begrenset og full disiplinærmyndighet.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="72-plikt-til-a-srge-for-at-saken-er-tilstrekkelig-opplyst">§ 72. Plikt til å sørge for at saken er tilstrekkelig opplyst</h4>
 <p>Den som utøver disiplinærmyndighet, skal sørge for at saken er tilstrekkelig opplyst før det avgjøres om refselse skal ilegges. Det kreves klar sannsynlighetsovervekt for de faktiske omstendigheter som ligger til grunn for et vedtak om å ilegge en refselse.</p>
 <p>Før refselse ilegges, skal den som disiplinærundersøkelsen er rettet mot, gjøres kjent med de opplysninger som foreligger om det aktuelle forholdet. Vedkommende skal også gis adgang til å forklare seg muntlig eller skriftlig og oppgi bevis.</p>
 <p>Første og andre ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="73-rett-til-bistand">§ 73. Rett til bistand</h4>
 <p>Ut over det som følger av forvaltningsloven § 12 , har den som disiplinærundersøkelsen retter seg mot, rett til å la seg bistå av tillitsvalgt eller en tjenestepliktig i tjeneste. Valget av bistandsperson må ikke vesentlig forsinke saken.</p>
 <p>Første ledd gjelder også ved Klagenemnda for disiplinærsaker i Forsvarets klagebehandling etter loven her. Nemnda kan beslutte om det på Forsvarets bekostning skal oppnevnes advokat til å bistå klageren.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="74-underretning-om-avgjrelse-og-klageadgang">§ 74. Underretning om avgjørelse og klageadgang</h4>
 <p>Den disiplinærundersøkelsen har rettet seg mot, skal uten opphold underrettes om avgjørelsen i saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende underrettes om avgjørelsen i saken.</p>
 <p>Dersom avgjørelsen går ut på refselse, skal den refsede underrettes om klageadgangen og klagefristen.</p>
 <p>Dersom forholdet vil bli forelagt påtalemyndigheten, skal den som disiplinærundersøkelsen har rettet seg mot, underrettes om dette med mindre det vil kunne være til hinder for oppklaring av saken. Dersom det er en personlig fornærmet i saken, skal også vedkommende på samme vilkår underrettes om dette.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om avgjørelsen og hvordan underretningen skal gjennomføres, inkludert om bruk av elektronisk kommunikasjon.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="75-adgang-til-a-oppheve-og-omgjre-en-avgjrelse-i-saken">§ 75. Adgang til å oppheve og omgjøre en avgjørelse i saken</h4>
 <p>Offiser som har ilagt en refselse, kan innen tre måneder fra ileggelsen oppheve eller omgjøre refselsen, dersom det viser seg at vedtaket er uriktig, eller det på grunn av etterfølgende omstendigheter er urimelig at det blir stående.</p>
 <p>Den refsende sjefs foresatte kan oppheve eller omgjøre avgjørelsen i saken innen tre måneder fra den undergitte sjefen tok en avgjørelse i saken.</p>
 <p>Adgangen til omgjøring etter første og andre ledd faller bort når klage over refselsen er sendt til klagenemnda etter § 76.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om adgangen til å oppheve og omgjøre en avgjørelse i saken.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="76-klage-til-klagenemnda-for-disiplinrsaker-i-forsvaret">§ 76. Klage til Klagenemnda for disiplinærsaker i Forsvaret</h4>
 <p>Den som er ilagt en refselse, kan klage på refselsen til Klagenemnda for disiplinærsaker i Forsvaret. Vedkommende må fremsette klagen innen to virkedager etter å ha blitt underrettet om vedtaket. Klagen fremsettes for den som har ilagt refselsen (den refsende sjef). Dersom den refsende sjef ikke tar klagen til følge, sender vedkommende saken til klagenemnda.</p>
 <p>En personlig fornærmet i en disiplinærsak som ikke blir avgjort med refselse, har samme klageadgang til klagenemnda som den undersøkelsen har rettet seg mot og på de samme vilkår, jf. første ledd.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om klagen, klagebehandlingen og klagenemnda.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="77-srskilte-begrensninger-i-adgangen-til-a-bringe-en-disiplinrsak-inn-for-domstolene">§ 77. Særskilte begrensninger i adgangen til å bringe en disiplinærsak inn for domstolene</h4>
 <p>Søksmål etter tvisteloven kan bare reises når klageadgangen er uttømt. Søksmål må være reist innen to måneder etter at den refsede fikk underretning om avgjørelsen og om fristen for å reise søksmål.</p>
 <p>Søksmål har ikke oppsettende virkning for iverksetting av refselsen, jf. § 79.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="78-begrensninger-som-flger-av-folkeretten-eller-avtale">§ 78. Begrensninger som følger av folkeretten eller avtale</h4>
 <p>Utøvelsen av disiplinærmyndigheten skjer med de begrensninger som er anerkjent i folkeretten eller følger av avtale med fremmed stat eller med en internasjonal organisasjon.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om utøvelsen av disiplinærmyndighet etter første ledd.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="79-iverksetting-av-refselse">§ 79. Iverksetting av refselse</h4>
 <p>Et endelig vedtak om refselse skal iverksettes uten opphold. Iverksetting kan skje senest tre måneder etter at vedtaket ble endelig.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om unntak fra første ledd første punktum.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="80-erstatning">§ 80. Erstatning</h4>
 <p>Blir en refselse opphevet, skal den refsede ha erstatning av staten for det økonomiske tapet vedkommende måtte ha lidt.</p>
 <p>Blir en refselse som medfører frihetsinnskrenkning opphevet etter at den er gjennomført, kan det gis oppreisning.</p>
 <p>Erstatning tilkjennes ikke når vedkommende ved tilståelse eller på annen måte ved eget forsettlig forhold har fremkalt disiplinærundersøkelsen.</p>
 <p>Har den refsede medvirket til skaden på en måte som kan legges vedkommende til last, kan erstatningen settes ned eller falle helt bort.</p>
 <p>Erstatningsspørsmålet avgjøres av departementet.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="81-radgivning-tilsyn-og-kontroll">§ 81. Rådgivning, tilsyn og kontroll</h4>
 <p>De militære sjefer skal bistås av Forsvarets jurister ved utøvelsen av disiplinærmyndigheten.</p>
 <p>Enhver sjef skal føre tilsyn med sine undergittes utøvelse av disiplinærmyndigheten.</p>
 <p>Forsvaret skal gjennomføre legalitetskontroll av ilagte refselser og føre en sentral oversikt over disse.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om rådgivning, tilsyn og kontroll.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="82-srregler-i-krig-eller-nar-krig-truer">§ 82. Særregler i krig eller når krig truer</h4>
 <p>I krig kan refselse anvendes mot enhver som kan straffes etter militær straffelov § 9 , i tillegg til personer som nevnt i § 67 . Det samme gjelder når krig truer, for personer i de avdelinger som er under styrkeoppbygging.</p>
 <p>I tilfeller som nevnt i første ledd kan frihetsinnskrenkning innebære frihetsberøvelse, forutsatt derogasjon fra den europeiske menneskerettskonvensjon artikkel 5 , jf. artikkel 15 .</p>
 <p>I tilfeller som nevnt i første ledd gjelder ikke bestemmelsene i § 76 om klagenemnd. Den refsende sjefs nærmeste foresatte er klageinstans. De øvrige reglene for klagebehandlingen ved klagenemnda gjelder så langt de passer.</p>
 <p>Bestemmelsen i første, andre og tredje ledd gjelder også i de tilfeller hvor Kongen har truffet bestemmelse i medhold av <a href="lov-1981-05-22-25.html">straffeprosessloven</a> § 463 andre ledd .</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser som gjelder i krig eller når krig truer om begrenset disiplinærmyndighet, økning av satser for overtredelsesgebyr, økning i antall dager frihetsinnskrenkning kan anvendes, saksbehandling for krigsfanger og internerte og forenkling i saksbehandlingen, inkludert om rådgivning, frist for iverksetting og kontroll.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="83-forskrifter-i-medhold-av-loven">§ 83. Forskrifter i medhold av loven</h4>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om forholdet til forvaltningsloven , hvilke handlinger det kan ilegges refselse for, skyldkravet, virkeområde i tid, foreleggelsesplikten, opplysningsplikten, rett til bistand og erstatning. Departementet kan i forskrift også gi nærmere bestemmelser om gjennomføring av kapittel 8 i forbindelse med tjenestegjøring ved internasjonale enheter, i internasjonale operasjoner og lignende.</p>
 <p>Kongen kan i forskrift gi nærmere bestemmelser om gjennomføring av kapittel 8 for øvrig.</p>
-<p><em>Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</em></p>
+<p class="note">Tilføyd ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 ).</p>
 <h4 id="84-straff">§ 84. Straff</h4>
 <p>Med bot straffes den som forsettlig eller uaktsomt</p>
 <p>a. bryter opplysnings- eller meldeplikten etter §§ 8 og 58
@@ -547,16 +798,16 @@ e. å unndra seg vaksinering eller andre tiltak for å forebygge smittsomme sykd
 <p>Med fengsel inntil 2 år straffes den som gjør tjeneste i Forsvaret på grunnlag av opplysninger den vet er uriktige eller ufullstendige.</p>
 <p>Brudd på møteplikten kan etter § 19 straffes etter militær straffelov §§ 34 og 35 .</p>
 <p>I forskrift med hjemmel i §§ 8 , 9 , 10 , 16 bokstav e og §§ 19 , 20 og 63 kan det fastsettes at brudd på angitte bestemmelser i forskriften skal straffes.</p>
-<p><em>Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 66).</em></p>
+<p class="note">Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 66).</p>
 <h2 id="kapittel-9-ikrafttredelse-og-overgangsregler">Kapittel 9 Ikrafttredelse og overgangsregler</h2>
 <h4 id="85-ikrafttredelse">§ 85. Ikrafttredelse</h4>
 <p>Loven trer i kraft fra det tidspunktet 1 Kongen bestemmer. Kongen kan sette i kraft forskjellige bestemmelser til ulik tid.</p>
-<p><em>Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 67).
-1 Fra 1 juli 2017 iflg. res. 16 juni 2017 nr. 778 .</em></p>
+<p class="note">Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 67).
+1 Fra 1 juli 2017 iflg. res. 16 juni 2017 nr. 778 .</p>
 <h4 id="86-overgangsregler">§ 86. Overgangsregler</h4>
 <p>Tidligere yrkesbefal som er fast tilsatt til de fyller 60 år, og som ble tilsatt før 1. januar 2016, beholder sin stilling i Forsvaret til de har fylt 60 år.</p>
 <p>Tidligere yrkesbefal som er tilsatt før 1. januar 2005, kan sies opp bare etter statsansatteloven § 20 første ledd bokstav a.</p>
-<p><em>Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 68).</em></p>
+<p class="note">Endret ved lover 26 mars 2021 nr. 14 (ikr. 1 juli 2021 iflg. res. 26 mars 2021 nr. 1002 ), 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 68).</p>
 <h4 id="87-oppheving-av-og-endring-i-andre-lover">§ 87. Oppheving av og endring i andre lover</h4>
 <p>Fra det tidspunkt loven trer i kraft oppheves:</p>
 <ol>
@@ -565,10 +816,12 @@ e. å unndra seg vaksinering eller andre tiltak for å forebygge smittsomme sykd
 <li>lov 19. mars 1965 nr. 3 om fritaking for militærtjeneste av overbevisningsgrunner</li>
 <li>lov 2. juli 2004 nr. 59 om forsvarspersonell .</li>
 </ol>
-<p><em>Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 69).</em></p>
+<p class="note">Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 69).</p>
 <h4 id="88-endringer-i-andre-lover">§ 88. Endringer i andre lover</h4>
 <p>Fra det tidspunkt loven trer i kraft gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 70).</em></p>
+<p class="note">Endret ved lov 24 nov 2023 nr. 84 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 875 , tidligere § 70).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

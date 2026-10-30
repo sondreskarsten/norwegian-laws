@@ -19,74 +19,225 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-11-18-1546.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lån fra Husbanken" href="../feeds/forskrift-2019-11-18-1546.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Forskrift om lån fra Husbanken</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2019-11-18-1546</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-02-17-233</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2019-11-18-1546" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-forsk">§ 1-3. Forsøk</a></li>
+<li class="lvl2"><a href="#kapittel-2-lan-til-boligkvalitet">Kapittel 2. Lån til boligkvalitet</a></li>
+<li class="lvl4"><a href="#2-1-formalet-med-laneordningen">§ 2-1. Formålet med låneordningen</a></li>
+<li class="lvl4"><a href="#2-2-hvem-som-kan-fa-lan">§ 2-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#2-3-lan-til-oppfring-av-miljvennlige-boliger">§ 2-3. Lån til oppføring av miljøvennlige boliger</a></li>
+<li class="lvl4"><a href="#2-4-lan-til-oppfring-av-livslpsboliger">§ 2-4. Lån til oppføring av livsløpsboliger</a></li>
+<li class="lvl4"><a href="#2-5-lan-til-oppgradering-av-eksisterende-bolig">§ 2-5. Lån til oppgradering av eksisterende bolig</a></li>
+<li class="lvl2"><a href="#kapittel-3-lan-til-utleieboliger-til-vanskeligstilte">Kapittel 3. Lån til utleieboliger til vanskeligstilte</a></li>
+<li class="lvl4"><a href="#3-1-formalet-med-lanet">§ 3-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#3-2-hvem-som-kan-fa-lan">§ 3-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#3-3-hva-kan-det-gis-lan-til">§ 3-3. Hva kan det gis lån til</a></li>
+<li class="lvl4"><a href="#3-4-hvordan-sknadene-blir-vurdert">§ 3-4. Hvordan søknadene blir vurdert</a></li>
+<li class="lvl2"><a href="#kapittel-4-lan-til-studentboliger">Kapittel 4. Lån til studentboliger</a></li>
+<li class="lvl4"><a href="#4-1-formalet-med-lanet">§ 4-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#4-2-hvem-som-kan-fa-lan">§ 4-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#4-3-hva-det-kan-gis-lan-til">§ 4-3. Hva det kan gis lån til</a></li>
+<li class="lvl2"><a href="#kapittel-5-startlan">Kapittel 5. Startlån</a></li>
+<li class="lvl4"><a href="#5-1-formalet-med-lanet">§ 5-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#5-2-hvem-kan-fa-startlan">§ 5-2. Hvem kan få startlån</a></li>
+<li class="lvl4"><a href="#5-3-hva-det-kan-gis-lan-til">§ 5-3. Hva det kan gis lån til</a></li>
+<li class="lvl4"><a href="#5-4-tildeling-av-startlan">§ 5-4. Tildeling av startlån</a></li>
+<li class="lvl2"><a href="#kapittel-6-lan-til-barnehager">Kapittel 6. Lån til barnehager</a></li>
+<li class="lvl4"><a href="#6-1-formalet-med-lanet">§ 6-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#6-2-hvem-som-kan-fa-barnehagelan">§ 6-2. Hvem som kan få barnehagelån</a></li>
+<li class="lvl4"><a href="#6-3-hva-det-kan-gis-lan-til">§ 6-3. Hva det kan gis lån til</a></li>
+<li class="lvl4"><a href="#6-4-srlige-bestemmelser">§ 6-4. Særlige bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-7-generelle-bestemmelser-ved-husbankens-tildeling-og-forvaltning-av-lan">Kapittel 7. Generelle bestemmelser ved Husbankens tildeling og forvaltning av lån</a></li>
+<li class="lvl4"><a href="#7-1-generelle-krav-for-a-kunne-fa-lan">§ 7-1. Generelle krav for å kunne få lån</a></li>
+<li class="lvl4"><a href="#7-2-sknadslsning-og-dokumentasjon">§ 7-2. Søknadsløsning og dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-3-husbankens-rett-til-a-kreve-ytterligere-opplysninger-og-dokumentasjon">§ 7-3. Husbankens rett til å kreve ytterligere opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-4-kredittvurdering-og-laneutmaling">§ 7-4. Kredittvurdering og låneutmåling</a></li>
+<li class="lvl4"><a href="#7-5-sikkerhet-for-lanet">§ 7-5. Sikkerhet for lånet</a></li>
+<li class="lvl4"><a href="#7-6-lanetilsagn-og-utbetaling">§ 7-6. Lånetilsagn og utbetaling</a></li>
+<li class="lvl4"><a href="#7-7-avslag-ved-uredelighet-mm">§ 7-7. Avslag ved uredelighet m.m.</a></li>
+<li class="lvl4"><a href="#7-8-etikk-og-samfunnsansvar">§ 7-8. Etikk og samfunnsansvar</a></li>
+<li class="lvl4"><a href="#7-9-klageadgang">§ 7-9. Klageadgang</a></li>
+<li class="lvl4"><a href="#7-10-kontroll">§ 7-10. Kontroll</a></li>
+<li class="lvl4"><a href="#7-11-inngaelse-og-forvaltning-av-laneavtaler">§ 7-11. Inngåelse og forvaltning av låneavtaler</a></li>
+<li class="lvl2"><a href="#kapittel-8-rente-og-avdragsvilkar">Kapittel 8. Rente- og avdragsvilkår</a></li>
+<li class="lvl4"><a href="#8-1-generelle-rentevilkar">§ 8-1. Generelle rentevilkår</a></li>
+<li class="lvl4"><a href="#8-2-beregning-av-renter">§ 8-2. Beregning av renter</a></li>
+<li class="lvl4"><a href="#8-3-bestemmelser-om-beregning-av-renter-for-rentekompensasjonsordningene">§ 8-3. Bestemmelser om beregning av renter for rentekompensasjonsordningene</a></li>
+<li class="lvl4"><a href="#8-4-over-og-underkurs">§ 8-4. Over- og underkurs</a></li>
+<li class="lvl4"><a href="#8-5-nedbetalingsvilkar">§ 8-5. Nedbetalingsvilkår</a></li>
+<li class="lvl4"><a href="#8-6-terminforfall-pa-lan-i-husbanken">§ 8-6. Terminforfall på lån i Husbanken</a></li>
+<li class="lvl4"><a href="#8-7-gebyrer">§ 8-7. Gebyrer</a></li>
+<li class="lvl4"><a href="#8-8-virkemidler-ved-betalingsproblemer">§ 8-8. Virkemidler ved betalingsproblemer</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-veileder">§ 9-1. Veileder</a></li>
+<li class="lvl4"><a href="#9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-02-17-233.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-11-18-1546.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om lån fra Husbanken</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-11-18-1546.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2019-11-18-1546 <code>forskrift/2019-11-18-1546</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om lån fra Husbanken</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2020</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-02-17-233 <code>forskrift/2025-02-17-233</code> fra 17.02.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2019-11-18-1546" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-forsk">§ 1-3. Forsøk</a></li>
+<li class="lvl2"><a href="#kapittel-2-lan-til-boligkvalitet">Kapittel 2. Lån til boligkvalitet</a></li>
+<li class="lvl4"><a href="#2-1-formalet-med-laneordningen">§ 2-1. Formålet med låneordningen</a></li>
+<li class="lvl4"><a href="#2-2-hvem-som-kan-fa-lan">§ 2-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#2-3-lan-til-oppfring-av-miljvennlige-boliger">§ 2-3. Lån til oppføring av miljøvennlige boliger</a></li>
+<li class="lvl4"><a href="#2-4-lan-til-oppfring-av-livslpsboliger">§ 2-4. Lån til oppføring av livsløpsboliger</a></li>
+<li class="lvl4"><a href="#2-5-lan-til-oppgradering-av-eksisterende-bolig">§ 2-5. Lån til oppgradering av eksisterende bolig</a></li>
+<li class="lvl2"><a href="#kapittel-3-lan-til-utleieboliger-til-vanskeligstilte">Kapittel 3. Lån til utleieboliger til vanskeligstilte</a></li>
+<li class="lvl4"><a href="#3-1-formalet-med-lanet">§ 3-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#3-2-hvem-som-kan-fa-lan">§ 3-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#3-3-hva-kan-det-gis-lan-til">§ 3-3. Hva kan det gis lån til</a></li>
+<li class="lvl4"><a href="#3-4-hvordan-sknadene-blir-vurdert">§ 3-4. Hvordan søknadene blir vurdert</a></li>
+<li class="lvl2"><a href="#kapittel-4-lan-til-studentboliger">Kapittel 4. Lån til studentboliger</a></li>
+<li class="lvl4"><a href="#4-1-formalet-med-lanet">§ 4-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#4-2-hvem-som-kan-fa-lan">§ 4-2. Hvem som kan få lån</a></li>
+<li class="lvl4"><a href="#4-3-hva-det-kan-gis-lan-til">§ 4-3. Hva det kan gis lån til</a></li>
+<li class="lvl2"><a href="#kapittel-5-startlan">Kapittel 5. Startlån</a></li>
+<li class="lvl4"><a href="#5-1-formalet-med-lanet">§ 5-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#5-2-hvem-kan-fa-startlan">§ 5-2. Hvem kan få startlån</a></li>
+<li class="lvl4"><a href="#5-3-hva-det-kan-gis-lan-til">§ 5-3. Hva det kan gis lån til</a></li>
+<li class="lvl4"><a href="#5-4-tildeling-av-startlan">§ 5-4. Tildeling av startlån</a></li>
+<li class="lvl2"><a href="#kapittel-6-lan-til-barnehager">Kapittel 6. Lån til barnehager</a></li>
+<li class="lvl4"><a href="#6-1-formalet-med-lanet">§ 6-1. Formålet med lånet</a></li>
+<li class="lvl4"><a href="#6-2-hvem-som-kan-fa-barnehagelan">§ 6-2. Hvem som kan få barnehagelån</a></li>
+<li class="lvl4"><a href="#6-3-hva-det-kan-gis-lan-til">§ 6-3. Hva det kan gis lån til</a></li>
+<li class="lvl4"><a href="#6-4-srlige-bestemmelser">§ 6-4. Særlige bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-7-generelle-bestemmelser-ved-husbankens-tildeling-og-forvaltning-av-lan">Kapittel 7. Generelle bestemmelser ved Husbankens tildeling og forvaltning av lån</a></li>
+<li class="lvl4"><a href="#7-1-generelle-krav-for-a-kunne-fa-lan">§ 7-1. Generelle krav for å kunne få lån</a></li>
+<li class="lvl4"><a href="#7-2-sknadslsning-og-dokumentasjon">§ 7-2. Søknadsløsning og dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-3-husbankens-rett-til-a-kreve-ytterligere-opplysninger-og-dokumentasjon">§ 7-3. Husbankens rett til å kreve ytterligere opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-4-kredittvurdering-og-laneutmaling">§ 7-4. Kredittvurdering og låneutmåling</a></li>
+<li class="lvl4"><a href="#7-5-sikkerhet-for-lanet">§ 7-5. Sikkerhet for lånet</a></li>
+<li class="lvl4"><a href="#7-6-lanetilsagn-og-utbetaling">§ 7-6. Lånetilsagn og utbetaling</a></li>
+<li class="lvl4"><a href="#7-7-avslag-ved-uredelighet-mm">§ 7-7. Avslag ved uredelighet m.m.</a></li>
+<li class="lvl4"><a href="#7-8-etikk-og-samfunnsansvar">§ 7-8. Etikk og samfunnsansvar</a></li>
+<li class="lvl4"><a href="#7-9-klageadgang">§ 7-9. Klageadgang</a></li>
+<li class="lvl4"><a href="#7-10-kontroll">§ 7-10. Kontroll</a></li>
+<li class="lvl4"><a href="#7-11-inngaelse-og-forvaltning-av-laneavtaler">§ 7-11. Inngåelse og forvaltning av låneavtaler</a></li>
+<li class="lvl2"><a href="#kapittel-8-rente-og-avdragsvilkar">Kapittel 8. Rente- og avdragsvilkår</a></li>
+<li class="lvl4"><a href="#8-1-generelle-rentevilkar">§ 8-1. Generelle rentevilkår</a></li>
+<li class="lvl4"><a href="#8-2-beregning-av-renter">§ 8-2. Beregning av renter</a></li>
+<li class="lvl4"><a href="#8-3-bestemmelser-om-beregning-av-renter-for-rentekompensasjonsordningene">§ 8-3. Bestemmelser om beregning av renter for rentekompensasjonsordningene</a></li>
+<li class="lvl4"><a href="#8-4-over-og-underkurs">§ 8-4. Over- og underkurs</a></li>
+<li class="lvl4"><a href="#8-5-nedbetalingsvilkar">§ 8-5. Nedbetalingsvilkår</a></li>
+<li class="lvl4"><a href="#8-6-terminforfall-pa-lan-i-husbanken">§ 8-6. Terminforfall på lån i Husbanken</a></li>
+<li class="lvl4"><a href="#8-7-gebyrer">§ 8-7. Gebyrer</a></li>
+<li class="lvl4"><a href="#8-8-virkemidler-ved-betalingsproblemer">§ 8-8. Virkemidler ved betalingsproblemer</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-veileder">§ 9-1. Veileder</a></li>
+<li class="lvl4"><a href="#9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-11-18-1546.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-11-18-1546.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-11-18-1546.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2019-11-18-1546.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2019-11-18-1546.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-11-18-1546.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2019-11-18-1546.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2019-11-18-1546.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-11-18-1546.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-lan-fra-husbanken">Forskrift om lån fra Husbanken</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
-<h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
+<h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2019-11-18-1546/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Denne forskriften gjelder for tildeling og forvaltning av lån fra Husbanken. § 2-4 , kapittel 3 og kapittel 5 gjelder ikke for Svalbard.</p>
-<p><em>Endret ved forskrift 14 april 2020 nr. 795 .</em></p>
+<p class="note">Endret ved forskrift 14 april 2020 nr. 795 .</p>
 <h4 id="1-2-formal">§ 1-2. Formål</h4>
 <p>Lån fra Husbanken skal bidra til enten å fremme og utvikle viktige boligkvaliteter i ny og eksisterende bebyggelse, eller et godt boligtilbud for vanskeligstilte på boligmarkedet og studenter. Lån fra Husbanken skal også bidra til finansiering av boliger i distriktene og barnehager.</p>
 <p>Lån fra Husbanken skal ikke innebære overkompensasjon. Det vil si at anslåtte økonomiske fordeler ikke skal overstige anslåtte merkostnader og en rimelig fortjeneste.</p>
 <h4 id="1-3-forsk">§ 1-3. Forsøk <a class="para-history" href="../historikk/forskrift-2019-11-18-1546/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Husbanken kan gjennom forsøk gjøre avvik fra reglene i denne forskriften. Forsøket kan ikke gjelde lån til barnehager etter kapittel 6.</p>
-<p><em>Endret ved forskrift 25 juni 2024 nr. 1318 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2024 nr. 1318 (i kraft 1 juli 2024).</p>
 <h2 id="kapittel-2-lan-til-boligkvalitet">Kapittel 2. Lån til boligkvalitet</h2>
 <h4 id="2-1-formalet-med-laneordningen">§ 2-1. Formålet med låneordningen</h4>
 <p>Lån til boligkvalitet skal bidra til å fremme og utvikle boligkvaliteter som fremmer miljø og tilgjengelighet i nye og eksisterende boliger.</p>
@@ -105,7 +256,7 @@ c. Boligen skal kunne endres uten store bygningsmessige inngrep. Rom før og ett
 d. Minimum 25 areal-, volum- eller vektprosent av produkter innenfor utvalgte bygningsdeler skal ha miljødokumentasjon, slik det fremgår av veiledningen.
 e. Fossilt brensel kan ikke brukes til oppvarming og tørking av bygninger under oppføring.</p>
 <p>Husbanken kan også gi lån til bygg som ikke oppfyller vilkårene i annet ledd, men som har Svanemerke-sertifikat eller BREEAM-NOR-sertifikat «Very good», «Excellent» eller «Outstanding».</p>
-<p><em>Endret ved forskrift 1 des 2019 nr. 1639 .</em></p>
+<p class="note">Endret ved forskrift 1 des 2019 nr. 1639 .</p>
 <h4 id="2-4-lan-til-oppfring-av-livslpsboliger">§ 2-4. Lån til oppføring av livsløpsboliger</h4>
 <p>Husbanken kan gi lån til livsløpsboliger. Livsløpsboliger legger til rette for at personer uavhengig av funksjonsnivå kan bli boende i egen bolig gjennom hele livsløpet, leve aktive liv og være mest mulig selvhjulpne.</p>
 <p>Ved lån til livsløpsboliger må kravene til tilgjengelig boenhet i til enhver tid gjeldende byggteknisk forskrift være oppfylt.</p>
@@ -261,7 +412,7 @@ d. godkjente prosjektkostnader, kjøpesum for boligene eller aksjekjøpesum.</p>
 <p>Om Husbanken i samme sak gir tilskudd til utleieboliger, jf. forskrift 18. desember 2017 nr. 2235 , skal tilskuddet ikke anses som egenkapital ved låneutmålingen.</p>
 <p>Husbanken krever at låntaker er hjemmelshaver til eiendommen. Dette gjelder likevel ikke når Husbanken gir lån til kjøp av alle aksjene i et eiendomsselskap etter § 3-3 første ledd bokstav b .</p>
 <p>Mer detaljerte regler for låneutmåling og hvilke andeler av prosjektkostnadene som Husbanken kan finansiere innenfor maksimal belåningsgrad inngår i veileder.</p>
-<p><em>Endret ved forskrift 17 feb 2025 nr. 233 .</em></p>
+<p class="note">Endret ved forskrift 17 feb 2025 nr. 233 .</p>
 <h4 id="7-5-sikkerhet-for-lanet">§ 7-5. Sikkerhet for lånet</h4>
 <p>Lånet skal som hovedregel være sikret ved første prioritets pant i den bebygde eiendommen. Husbanken kan unntaksvis godta sideordnet førsteprioritet eller prioritet etter andre lån og heftelser. Lån til oppgradering kan gis med foranstående pant. Husbanken kan kreve at det i tillegg stilles garanti for barnehagelån etter kapittel 6 i denne forskrift.</p>
 <p>For lån til andre enn personlige låntakere kan Husbanken kreve tilleggssikkerhet. Lån til kommuner og fylkeskommuner skal gis som gjeldsbrevlån. Lån til kommuner kan gis uten pantesikkerhet.</p>
@@ -313,7 +464,7 @@ d. godkjente prosjektkostnader, kjøpesum for boligene eller aksjekjøpesum.</p>
 <p>Fra basisrenten for flytende rente blir det trukket fra 1,25 prosentpoeng for å komme fram til en årlig effektiv rente.</p>
 <p>Ut fra den årlige effektive renten beregner Husbanken den nominelle renten etter § 8-2 fjerde ledd som danner grunnlaget for beregning av rentekompensasjonen.</p>
 <p>De nominelle og effektive rentene blir oppgitt med to desimaler.</p>
-<p><em>Endret ved forskrift 25 juni 2024 nr. 1318 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2024 nr. 1318 (i kraft 1 juli 2024).</p>
 <h4 id="8-4-over-og-underkurs">§ 8-4. Over- og underkurs</h4>
 <p>Ved førtidig tilbakebetaling av lån med fast rente og ved overgang fra fast til flytende rente i bindingsperioden, skal det beregnes over- eller underkurs, jf. forskrift 7. mai 2010 nr. 654 om kredittavtaler mv. § 9 . Det tas utgangspunkt i årlige effektive renter avrundet til én desimal før gebyrer, som er beregnet av Finansdepartementet og publisert på Husbankens nettsider. Den årlige effektive renten før gebyrer vil fremgå av kundens låneavtale.</p>
 <p>Renten for en periode som er lik den gjenstående bindingstid, beregnes ved å ta det veide gjennomsnittet av renten for to tilsvarende lån med en kortere og lengre rentebindingstid som ligger nærmest gjenværende bindingstid på lånet som innfris. Ved kortere gjenstående bindingstid enn tre år benyttes den flytende renten og den faste treårsrenten.</p>
@@ -347,6 +498,8 @@ d. det dokumenteres at kommunen ikke anser det som økonomisk forsvarlig å gi e
 <h4 id="9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. januar 2020.</p>
 <p>Fra samme dato oppheves forskrift 20. desember 1995 nr. 1135 om barnehagelån fra Husbanken, forskrift 22. desember 2004 nr. 1758 om grunnlån fra Husbanken, forskrift 12. mars 2014 nr. 273 om startlån fra Husbanken, forskrift 21. desember 2015 nr. 1851 om rente- og avdragsvilkår for lån i Husbanken.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

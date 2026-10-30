@@ -19,68 +19,171 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1992-09-15-693.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om føring av dagbøker på skip mv." href="../feeds/forskrift-1992-09-15-693.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om føring av dagbøker på skip mv.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1992-09-15-693</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1992-11-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-26-1372</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1992-09-15-693" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-innretning-utgivelse-og-kontroll-mv-av-dagbker">Kapittel 2. Krav til innretning, utgivelse og kontroll mv. av dagbøker</a></li>
+<li class="lvl4"><a href="#5-utgivelse-av-dagbker-mv">§ 5. Utgivelse av dagbøker mv.</a></li>
+<li class="lvl4"><a href="#6-fring-av-dagbker">§ 6. Føring av dagbøker</a></li>
+<li class="lvl4"><a href="#7-oppbevaring-av-dagbker">§ 7. Oppbevaring av dagbøker</a></li>
+<li class="lvl4"><a href="#8-kontroll-av-dagbker">§ 8. Kontroll av dagbøker</a></li>
+<li class="lvl4"><a href="#8a-innsyn-i-dagbker">§ 8A. Innsyn i dagbøker</a></li>
+<li class="lvl2"><a href="#kapittel-3-dagbker-som-skal-fres-pa-norske-skip">Kapittel 3. Dagbøker som skal føres på norske skip</a></li>
+<li class="lvl4"><a href="#9-dekksdagbok">§ 9. Dekksdagbok</a></li>
+<li class="lvl4"><a href="#10-maskindagbok">§ 10. Maskindagbok</a></li>
+<li class="lvl4"><a href="#11-opphevet">§ 11. (Opphevet)</a></li>
+<li class="lvl4"><a href="#12-opphevet">§ 12. (Opphevet)</a></li>
+<li class="lvl4"><a href="#13-opphevet">§ 13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14a-opphevet">§ 14a. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-nrmere-om-hva-som-skal-innfres-i-dagbkene">Kapittel 4. Nærmere om hva som skal innføres i dagbøkene</a></li>
+<li class="lvl4"><a href="#15-dekksdagboken">§ 15. Dekksdagboken</a></li>
+<li class="lvl4"><a href="#16-maskindagboken">§ 16. Maskindagboken</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19-opphevet">§ 19. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19a-opphevet">§ 19a. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-26-1372.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1992-09-15-693.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om innretning og føring av dagbøker på skip og flyttbare innretninger</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1992-09-15-693.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1992-09-15-693 <code>forskrift/1992-09-15-693</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om føring av dagbøker på skip mv.</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.11.1992</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-26-1372 <code>forskrift/2025-06-26-1372</code> fra 26.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1992-09-15-693" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-innretning-utgivelse-og-kontroll-mv-av-dagbker">Kapittel 2. Krav til innretning, utgivelse og kontroll mv. av dagbøker</a></li>
+<li class="lvl4"><a href="#5-utgivelse-av-dagbker-mv">§ 5. Utgivelse av dagbøker mv.</a></li>
+<li class="lvl4"><a href="#6-fring-av-dagbker">§ 6. Føring av dagbøker</a></li>
+<li class="lvl4"><a href="#7-oppbevaring-av-dagbker">§ 7. Oppbevaring av dagbøker</a></li>
+<li class="lvl4"><a href="#8-kontroll-av-dagbker">§ 8. Kontroll av dagbøker</a></li>
+<li class="lvl4"><a href="#8a-innsyn-i-dagbker">§ 8A. Innsyn i dagbøker</a></li>
+<li class="lvl2"><a href="#kapittel-3-dagbker-som-skal-fres-pa-norske-skip">Kapittel 3. Dagbøker som skal føres på norske skip</a></li>
+<li class="lvl4"><a href="#9-dekksdagbok">§ 9. Dekksdagbok</a></li>
+<li class="lvl4"><a href="#10-maskindagbok">§ 10. Maskindagbok</a></li>
+<li class="lvl4"><a href="#11-opphevet">§ 11. (Opphevet)</a></li>
+<li class="lvl4"><a href="#12-opphevet">§ 12. (Opphevet)</a></li>
+<li class="lvl4"><a href="#13-opphevet">§ 13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14a-opphevet">§ 14a. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-nrmere-om-hva-som-skal-innfres-i-dagbkene">Kapittel 4. Nærmere om hva som skal innføres i dagbøkene</a></li>
+<li class="lvl4"><a href="#15-dekksdagboken">§ 15. Dekksdagboken</a></li>
+<li class="lvl4"><a href="#16-maskindagboken">§ 16. Maskindagboken</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19-opphevet">§ 19. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19a-opphevet">§ 19a. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1992-09-15-693.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1992-09-15-693.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1992-09-15-693.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1992-09-15-693.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1992-09-15-693.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1992-09-15-693.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1992-09-15-693.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1992-09-15-693.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1992-09-15-693.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-innretning-og-fring-av-dagbker-pa-skip-og-flyttbare-innretninger">Forskrift om innretning og føring av dagbøker på skip og flyttbare innretninger</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Denne forskriften gjelder krav til innretning og føring av dagbøker for norskregistrerte skip, herunder fiske- og fangstfartøy, samt flyttbare innretninger slik det fremgår av kapittel 2 og 3.</p>
-<p><em>Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskrift betyr:</p>
 <p>a. Bruttotonnasje: Den tallverdi som er oppgitt som bruttotonnasje i målebrevet. Dersom det i målebrevet er oppgitt sikkerhetstonnasje i anmerkningsrubrikken, gjelder tallverdien for denne som bruttotonnasje.
@@ -93,40 +196,40 @@ g. Oljetankskip: Skip som er bygget eller innrettet for primært å føre olje i
 h. Sjøsikkerhetskonvensjonen ( SOLAS): Den internasjonale konvensjon av 1974 om sikkerhet for menneskeliv til sjøs, med senere endringer.
 i. STCW-konvensjonen: Den internasjonale konvensjon om normer for opplæring, sertifikater og vakthold for sjøfolk, 1978 med endringer 1995 og senere endringer.
 j. Utenriks fart: Se forskrift av 4. november 1981 nr. 3793 om fartsområder kapittel 3 .</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003), 12 jan 2007 nr. 45 , 24 jan 2022 nr. 118 .</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003), 12 jan 2007 nr. 45 , 24 jan 2022 nr. 118 .</p>
 <h4 id="3-plikter">§ 3. Plikter</h4>
 <p>Rederiet, plattformsjef og andre som har sitt arbeid om bord skal utføre sine plikter i henhold til skipssikkerhetsloven og med de utfyllende bestemmelser som følger av denne forskrift.</p>
 <p>Skipets fører skal sørge for at dagbøker som skal føres om bord i henhold til de enkelte bestemmelser i denne forskriften blir ført og at de oppbevares som foreskrevet i § 7 .</p>
 <p>Skipets fører skal videre sørge for at nye dagbøker blir anskaffet i god tid før de som er i bruk blir utskrevet.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="4-fravik">§ 4. Fravik</h4>
 <p>I enkelttilfeller kan Sjøfartsdirektoratet etter skriftlig søknad fravike forskriftens krav.</p>
 <p>Spesielle grunner må gjøre fraviket nødvendig og fraviket må være sikkerhetsmessig forsvarlig. Det vil ikke bli gitt fravik som strider med internasjonal overenskomst som Norge har sluttet seg til.</p>
-<p><em>Endret ved forskrift 12 jan 2007 nr. 45 .</em></p>
+<p class="note">Endret ved forskrift 12 jan 2007 nr. 45 .</p>
 <h2 id="kapittel-2-krav-til-innretning-utgivelse-og-kontroll-mv-av-dagbker">Kapittel 2. Krav til innretning, utgivelse og kontroll mv. av dagbøker</h2>
 <p>Overskriften endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003).</p>
 <h4 id="5-utgivelse-av-dagbker-mv">§ 5. Utgivelse av dagbøker mv.</h4>
 <p>Dagbøkers innhold og form fastsettes av Sjøfartsdirektoratet. Det kan benyttes dagbøker i papirformat. Likeledes kan benyttes elektroniske dagbøker, når installasjon og system oppfyller internasjonale bestemmelser, og firmaet har avtale med Sjøfartsdirektoratet.</p>
-<p><em>Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003).</p>
 <h4 id="6-fring-av-dagbker">§ 6. Føring av dagbøker</h4>
 <p>Dagbøker skal føres ordentlig og tydelig. Det som engang er innført, må ikke raderes eller på annen måte gjøres uleselig. Elektroniske dagbøker skal være beskyttet mot overskriving, sletting og endringer. Når signering kreves kan elektroniske dagbøker signeres elektronisk. Blir rettelse nødvendig, skal den tilføyes som anmerkning.</p>
 <p>Dagbøker skal føres under tilsyn av skipets fører, som skal undertegne dagbøkene slik det fremgår av de enkelte bestemmelser.</p>
 <p>Hvem som skal føre dagbøkene fremgår av de enkelte bestemmelser i kapittel 3 .</p>
 <p>Dagbøker skal føres på norsk eller engelsk slik det fremgår av de enkelte bestemmelser i kapittel 3 .</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 7), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 7), 26 juni 2025 nr. 1372 .</p>
 <h4 id="7-oppbevaring-av-dagbker">§ 7. Oppbevaring av dagbøker</h4>
 <p>Dagbøker skal, unntatt på ubemannede skip under slep, oppbevares om bord på et slikt sted at de er lett tilgjengelige for kontroll til enhver rimelig tid. De skal oppbevares i minst 2 år etter at siste innførsel er blitt foretatt og deretter under rederiets kontroll i minst 3 år til. Selges skipet skal skipets tidligere eier (selgeren) oppbevare dagbøkene i land.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 8), 26 juni 2009 nr. 860 (i kraft 1 juli 2009), 10 juni 2010 nr. 795 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 8), 26 juni 2009 nr. 860 (i kraft 1 juli 2009), 10 juni 2010 nr. 795 (i kraft 1 juli 2010).</p>
 <h4 id="8-kontroll-av-dagbker">§ 8. Kontroll av dagbøker</h4>
 <p>På anmodning av Sjøfartsdirektoratet, havnemyndigheter, Kystverket, tollvesenet, politiet, Fiskeridirektoratet, Kystvakten og Statens vegvesen for så vidt gjelder riks- og fylkesvegferjer, eller andre som Sjøfartsdirektoratet bemyndiger, er skipets fører pliktig til å fremvise dagbøkene og i tilfelle utlevere bekreftet utskrift eller kopi av dem når skipet befinner seg i norsk havn.</p>
 <p>Dette gjelder også utenfor havn dersom det foreligger mistanke om at skipet ikke er sjødyktig eller det er skjellig grunn til mistanke om at skipet har foretatt ulovlig utslipp.</p>
 <p>På anmodning av Sjøfartsdirektoratet, norske utenriksstasjoner eller av vedkommende utenlandske myndighet, er skipets fører pliktig til å forholde seg som nevnt i første ledd når skipet befinner seg i utenlandsk havn.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 9), 26 juni 2009 nr. 860 (i kraft 1 juli 2009).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 9), 26 juni 2009 nr. 860 (i kraft 1 juli 2009).</p>
 <h4 id="8a-innsyn-i-dagbker">§ 8A. Innsyn i dagbøker</h4>
 <p>Enhver som påviser en rettslig interesse i å bli kjent med innholdet av bøkene og de kladdebøker som i tilfelle er ført, kan kreve å få se dem og ta avskrift. Med mindre Sjøfartsdirektoratet påbyr det, gjelder dette likevel ikke for tilfelle hvor skipet har støtt sammen med fremmed skip, dersom det ikke blir gitt tilsvarende adgang til dette skips bøker.</p>
 <p>For skipsbøker som er ført på dansk, finsk eller svensk skip, får reglene i første ledd tilsvarende anvendelse når skipet befinner seg i norsk havn. Det samme gjelder skipsbøker som er ført på andre fremmede skip, dersom ikke Sjøfartsdirektoratet bestemmer annet.</p>
 <p>Det som er bestemt om skipsbøker i første og annet ledd, gjelder også opptegnelser som blir gjort på mekanisk måte om bord vedrørende skipets navigering eller andre forhold som omhandles i skipsbøkene. Det samme gjelder reglene i annet ledd dersom ikke Sjøfartsdirektoratet bestemmer annet.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2009 nr. 860 (i kraft 1 juli 2009).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2009 nr. 860 (i kraft 1 juli 2009).</p>
 <h2 id="kapittel-3-dagbker-som-skal-fres-pa-norske-skip">Kapittel 3. Dagbøker som skal føres på norske skip</h2>
 <h4 id="9-dekksdagbok">§ 9. Dekksdagbok</h4>
 <p>Dekksdagbok skal føres om bord på:</p>
@@ -138,7 +241,7 @@ d. flyttbare innretninger.</p>
 <p>Dekksdagboken skal fortrinnsvis føres av vakthavende navigatør. På skip registrert i norsk internasjonalt skipsregister skal dekksdagboken føres på engelsk.</p>
 <p>Dekksdagboken føres i havn for hvert døgn, i sjøen for hver vakt. Det som skjer på den enkelte vakt, kan foreløpig nedtegnes i en kladdebok, men skal innføres snarest mulig og senest innen utløpet av påfølgende døgn.</p>
 <p>Dagbokfører attesterer ved sin underskrift at vakten er innført. Skipets fører skal undertegne dekksdagboken når døgnet er innført.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 10), 31 juli 2013 nr. 939 (i kraft 1 aug 2013).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 10), 31 juli 2013 nr. 939 (i kraft 1 aug 2013).</p>
 <h4 id="10-maskindagbok">§ 10. Maskindagbok</h4>
 <p>Maskindagbok skal føres om bord på</p>
 <p>a. maskindrevet skip i utenriksfart
@@ -148,17 +251,17 @@ d. flyttbare innretninger.</p>
 <p>Maskindagboken skal fortrinnsvis føres av vakthavende maskinist. På skip registrert i norsk internasjonalt skipsregister skal maskindagboken føres på engelsk.</p>
 <p>Maskindagboken føres i havn for hvert døgn, i sjøen for hver vakt. Det som skjer på den enkelte vakt kan foreløpig nedtegnes i en kladdebok, men skal innføres snarest mulig og senest innen utløpet av påfølgende døgn.</p>
 <p>Dagbokfører attesterer ved sin underskrift at vakten er innført. Maskinsjefen skal undertegne maskindagboken når døgnet er innført. Minst en gang hver uke skal skipets fører gjøre påtegning om at vedkommende har ettersett maskindagboken og anføre datoen for slikt ettersyn.</p>
-<p><em>Tilføyd ved forskrift 31 juli 2013 nr. 939 (i kraft 1 aug 2013), endret ved forskrifter 27 mars 2023 nr. 459 , 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 juli 2013 nr. 939 (i kraft 1 aug 2013), endret ved forskrifter 27 mars 2023 nr. 459 , 26 juni 2025 nr. 1372 .</p>
 <h4 id="11-opphevet">§ 11. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="12-opphevet">§ 12. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="13-opphevet">§ 13. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="14-opphevet">§ 14. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003), opphevet ved forskrift 1 juli 2014 nr. 955 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003), opphevet ved forskrift 1 juli 2014 nr. 955 (i kraft 15 sep 2014).</p>
 <h4 id="14a-opphevet">§ 14a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 10 juni 2010 nr. 795 (i kraft 1 juli 2010), opphevet ved forskrift 8 sep 2017 nr. 1369 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 juni 2010 nr. 795 (i kraft 1 juli 2010), opphevet ved forskrift 8 sep 2017 nr. 1369 .</p>
 <h2 id="kapittel-4-nrmere-om-hva-som-skal-innfres-i-dagbkene">Kapittel 4. Nærmere om hva som skal innføres i dagbøkene</h2>
 <h4 id="15-dekksdagboken">§ 15. Dekksdagboken</h4>
 <p>Den trykte tekst øverst på dagboksidene angir hva som skal innføres. For skip i utenriksfart skal døgnets første innførsel foretas på linjen ut for kl. 0000. Linjen fylles ut i rubrikkene 6-22 med de forhold som hersket kl. 2400.</p>
@@ -180,7 +283,7 @@ h. justering og kontroll av alarminstrumenter, samt overgang fra maskinromskontr
 i. – – –
 j. begrunnelse for ikke å følge obligatorisk routing system.
 k. de opplysninger som er påbudt i forskrifter fastsatt av Sjøfartsdirektoratet.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 14), 8 nov 2005 nr. 1415 , 12 jan 2007 nr. 45 , 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 14), 8 nov 2005 nr. 1415 , 12 jan 2007 nr. 45 , 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="16-maskindagboken">§ 16. Maskindagboken</h4>
 <p>Tittelbladet etter bokens skjema skal utfylles. Antall fremdriftsmotorer, motortype, to- eller firetakt og fabrikantens navn skal anføres. Videre skal anføres brennoljetankenes samlede rominnhold. Klokkeslett skal angis med et firesifret tall fra kl. 0000 til kl. 2400.</p>
 <p>I rubrikken for «Anmerkninger» skal det innføres:</p>
@@ -205,22 +308,24 @@ l. alle alarmer på skip som meldes til maskinisten fra broen eller maskinrom p�
 m. justering og kontroll av alarmer samt overgang fra maskinromskontroll til brokontroll og omvendt
 n. maskinbesetningen, herunder personell som inngår i maskinvakt, når de begynner og slutter, og om det er fremmed arbeidshjelp, samt forhold som ulykker i maskinrom og eventuelle andre uregelmessigheter vedrørende maskinbesetningen. (Sykdomsforhold vedrørende maskinbesetningen skal innføres i dekksdagboken.)
 o. de opplysninger som er påbudt i forskrifter fastsatt av Sjøfartsdirektoratet.</p>
-<p><em>Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 15).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 15).</p>
 <h4 id="17-opphevet">§ 17. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="18-opphevet">§ 18. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</em></p>
+<p class="note">Opphevet ved forskrift 30 mai 2012 nr. 488 (i kraft 1 juli 2012).</p>
 <h4 id="19-opphevet">§ 19. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003), opphevet ved forskrift 1 juli 2014 nr. 955 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2003 nr. 937 (i kraft 1 juli 2003), opphevet ved forskrift 1 juli 2014 nr. 955 (i kraft 15 sep 2014).</p>
 <h4 id="19a-opphevet">§ 19a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 10 juni 2010 nr. 795 (i kraft 1 juli 2010), opphevet ved forskrift 8 sep 2017 nr. 1369 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 juni 2010 nr. 795 (i kraft 1 juli 2010), opphevet ved forskrift 8 sep 2017 nr. 1369 .</p>
 <h2 id="kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</h2>
 <h4 id="20-ikrafttredelse">§ 20. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. november 1992.</p>
 <p>Fra samme tid oppheves forskrift av 1. juli 1968 nr. 7 om føring av kompass- og radiopeilebok, forskrift av 1. juli 1969 nr. 1 om innretning og føring av maskindagbok på motorskip og forskrift av 27. november 1979 nr. 2 om innretning og føring av dekksdagbok.</p>
-<p><em>Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 19), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 21).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2003 nr. 937 (i kraft 1 juli 2003, tidligere § 19), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 21).</p>
 <h2 id="vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</h2>
 <p>Vedlegg tilføyd ved forskrift 10 juni 2010 nr. 795 (i kraft 1 juli 2010), opphevet ved forskrift 8 sep 2017 nr. 1369 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

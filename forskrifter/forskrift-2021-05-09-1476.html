@@ -19,64 +19,195 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-09-1476.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om medisinsk utstyr" href="../feeds/forskrift-2021-05-09-1476.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om medisinsk utstyr</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2021-05-09-1476</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-05-26</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-10-14-2051</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2021-05-09-1476" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-gjennomfring-av-forordninger">Kapittel I. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#1-endringer-i-forordninger-om-medisinsk-utstyr">§ 1. Endringer i forordninger om medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1a-elektroniske-bruksanvisninger-for-medisinsk-utstyr">§ 1a. Elektroniske bruksanvisninger for medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1b-medisinsk-utstyr-framstilt-av-animalsk-vev">§ 1b. Medisinsk utstyr framstilt av animalsk vev</a></li>
+<li class="lvl4"><a href="#1c-utpeking-og-tilsyn-med-meldt-organ">§ 1c. Utpeking og tilsyn med meldt organ</a></li>
+<li class="lvl4"><a href="#1d-eudamed">§ 1d. Eudamed</a></li>
+<li class="lvl4"><a href="#1e-felles-spesifikasjoner-for-in-vitro-diagnostisk-medisinsk-utstyr-i-klasse-d">§ 1e. Felles spesifikasjoner for in vitro-diagnostisk medisinsk utstyr i klasse D</a></li>
+<li class="lvl4"><a href="#1f-eu-referanselaboratorier">§ 1f. EU-referanselaboratorier</a></li>
+<li class="lvl4"><a href="#1g-felles-spesifikasjoner-og-omklassifisering-av-produkter-uten-tiltenkt-medisinsk-formal">§ 1g. Felles spesifikasjoner og omklassifisering av produkter uten tiltenkt medisinsk formål</a></li>
+<li class="lvl4"><a href="#1h-metodevurdering-av-medisinsk-utstyr">§ 1h. Metodevurdering av medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1i-utvidet-mandat-til-det-europeiske-legemiddelbyraet">§ 1i. Utvidet mandat til Det europeiske legemiddelbyrået</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-om-myndigheter">Kapittel II. Utfyllende nasjonale bestemmelser om myndigheter</a></li>
+<li class="lvl4"><a href="#2-kompetent-myndighet">§ 2. Kompetent myndighet</a></li>
+<li class="lvl4"><a href="#3-myndighet-til-a-avgjre-om-et-produkt-er-medisinsk-utstyr">§ 3. Myndighet til å avgjøre om et produkt er medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#4-ansvarlig-myndighet-for-meldt-organ">§ 4. Ansvarlig myndighet for meldt organ</a></li>
+<li class="lvl4"><a href="#5-sknad-om-utpeking-av-ekspertlaboratorier-og-eu-referanselaboratorier">§ 5. Søknad om utpeking av ekspertlaboratorier og EU-referanselaboratorier</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-om-sprak">Kapittel III. Utfyllende nasjonale bestemmelser om språk</a></li>
+<li class="lvl4"><a href="#6-merking-og-bruksanvisning">§ 6. Merking og bruksanvisning</a></li>
+<li class="lvl4"><a href="#7-samsvarsvurdering">§ 7. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#8-samsvarserklring">§ 8. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#9-sertifikat">§ 9. Sertifikat</a></li>
+<li class="lvl4"><a href="#10-dokumentasjon-fra-produsent-og-autorisert-representant">§ 10. Dokumentasjon fra produsent og autorisert representant</a></li>
+<li class="lvl4"><a href="#11-sknad-om-utpeking-av-og-tilsyn-med-meldt-organ">§ 11. Søknad om utpeking av og tilsyn med meldt organ</a></li>
+<li class="lvl4"><a href="#12-sikkerhetsmelding-til-brukere-av-utstyr">§ 12. Sikkerhetsmelding til brukere av utstyr</a></li>
+<li class="lvl4"><a href="#13-informasjon-til-pasienter-med-implanterbart-utstyr">§ 13. Informasjon til pasienter med implanterbart utstyr</a></li>
+<li class="lvl4"><a href="#14-sammendrag-for-klinisk-utprving">§ 14. Sammendrag for klinisk utprøving</a></li>
+<li class="lvl4"><a href="#15-unntak">§ 15. Unntak</a></li>
+<li class="lvl2"><a href="#kapittel-iv-vrige-utfyllende-nasjonale-bestemmelser">Kapittel IV. Øvrige utfyllende nasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#16-krav-til-vrige-kliniske-utprvinger">§ 16. Krav til øvrige kliniske utprøvinger</a></li>
+<li class="lvl2"><a href="#kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#17-tilsyn-og-vedtak">§ 17. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#18-dispensasjon">§ 18. Dispensasjon</a></li>
+<li class="lvl4"><a href="#19-straff">§ 19. Straff</a></li>
+<li class="lvl4"><a href="#19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#19b-utmaling-av-overtredelsesgebyr">§ 19b. Utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-vi-overgangsbestemmelser-og-ikrafttredelse">Kapittel VI. Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#20-gjennomfring-av-overgangsordninger">§ 20. Gjennomføring av overgangsordninger</a></li>
+<li class="lvl4"><a href="#21-overgangsbestemmelse-for-unntak-fra-samsvarsvurdering">§ 21. Overgangsbestemmelse for unntak fra samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#22-plikt-til-a-melde-uhell">§ 22. Plikt til å melde uhell</a></li>
+<li class="lvl4"><a href="#23-overgangsregler-for-prosedyrer-for-utstyr-til-klinisk-utprving-av-vrig-medisinsk-utstyr-frem-til-eudamed-er-fullt-ut-funksjonell">§ 23. Overgangsregler for prosedyrer for utstyr til klinisk utprøving av øvrig medisinsk utstyr frem til Eudamed er fullt ut funksjonell</a></li>
+<li class="lvl4"><a href="#24-registrering-i-offentlig-utstyrsregister">§ 24. Registrering i offentlig utstyrsregister</a></li>
+<li class="lvl4"><a href="#25-sertifikatmeldinger">§ 25. Sertifikatmeldinger</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-10-14-2051.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-09-1476.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om medisinsk utstyr</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-05-09-1476.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2021-05-09-1476 <code>forskrift/2021-05-09-1476</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>26.05.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-10-14-2051 <code>forskrift/2026-10-14-2051</code> fra 14.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2021-05-09-1476" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-gjennomfring-av-forordninger">Kapittel I. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#1-endringer-i-forordninger-om-medisinsk-utstyr">§ 1. Endringer i forordninger om medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1a-elektroniske-bruksanvisninger-for-medisinsk-utstyr">§ 1a. Elektroniske bruksanvisninger for medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1b-medisinsk-utstyr-framstilt-av-animalsk-vev">§ 1b. Medisinsk utstyr framstilt av animalsk vev</a></li>
+<li class="lvl4"><a href="#1c-utpeking-og-tilsyn-med-meldt-organ">§ 1c. Utpeking og tilsyn med meldt organ</a></li>
+<li class="lvl4"><a href="#1d-eudamed">§ 1d. Eudamed</a></li>
+<li class="lvl4"><a href="#1e-felles-spesifikasjoner-for-in-vitro-diagnostisk-medisinsk-utstyr-i-klasse-d">§ 1e. Felles spesifikasjoner for in vitro-diagnostisk medisinsk utstyr i klasse D</a></li>
+<li class="lvl4"><a href="#1f-eu-referanselaboratorier">§ 1f. EU-referanselaboratorier</a></li>
+<li class="lvl4"><a href="#1g-felles-spesifikasjoner-og-omklassifisering-av-produkter-uten-tiltenkt-medisinsk-formal">§ 1g. Felles spesifikasjoner og omklassifisering av produkter uten tiltenkt medisinsk formål</a></li>
+<li class="lvl4"><a href="#1h-metodevurdering-av-medisinsk-utstyr">§ 1h. Metodevurdering av medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#1i-utvidet-mandat-til-det-europeiske-legemiddelbyraet">§ 1i. Utvidet mandat til Det europeiske legemiddelbyrået</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-om-myndigheter">Kapittel II. Utfyllende nasjonale bestemmelser om myndigheter</a></li>
+<li class="lvl4"><a href="#2-kompetent-myndighet">§ 2. Kompetent myndighet</a></li>
+<li class="lvl4"><a href="#3-myndighet-til-a-avgjre-om-et-produkt-er-medisinsk-utstyr">§ 3. Myndighet til å avgjøre om et produkt er medisinsk utstyr</a></li>
+<li class="lvl4"><a href="#4-ansvarlig-myndighet-for-meldt-organ">§ 4. Ansvarlig myndighet for meldt organ</a></li>
+<li class="lvl4"><a href="#5-sknad-om-utpeking-av-ekspertlaboratorier-og-eu-referanselaboratorier">§ 5. Søknad om utpeking av ekspertlaboratorier og EU-referanselaboratorier</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-om-sprak">Kapittel III. Utfyllende nasjonale bestemmelser om språk</a></li>
+<li class="lvl4"><a href="#6-merking-og-bruksanvisning">§ 6. Merking og bruksanvisning</a></li>
+<li class="lvl4"><a href="#7-samsvarsvurdering">§ 7. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#8-samsvarserklring">§ 8. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#9-sertifikat">§ 9. Sertifikat</a></li>
+<li class="lvl4"><a href="#10-dokumentasjon-fra-produsent-og-autorisert-representant">§ 10. Dokumentasjon fra produsent og autorisert representant</a></li>
+<li class="lvl4"><a href="#11-sknad-om-utpeking-av-og-tilsyn-med-meldt-organ">§ 11. Søknad om utpeking av og tilsyn med meldt organ</a></li>
+<li class="lvl4"><a href="#12-sikkerhetsmelding-til-brukere-av-utstyr">§ 12. Sikkerhetsmelding til brukere av utstyr</a></li>
+<li class="lvl4"><a href="#13-informasjon-til-pasienter-med-implanterbart-utstyr">§ 13. Informasjon til pasienter med implanterbart utstyr</a></li>
+<li class="lvl4"><a href="#14-sammendrag-for-klinisk-utprving">§ 14. Sammendrag for klinisk utprøving</a></li>
+<li class="lvl4"><a href="#15-unntak">§ 15. Unntak</a></li>
+<li class="lvl2"><a href="#kapittel-iv-vrige-utfyllende-nasjonale-bestemmelser">Kapittel IV. Øvrige utfyllende nasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#16-krav-til-vrige-kliniske-utprvinger">§ 16. Krav til øvrige kliniske utprøvinger</a></li>
+<li class="lvl2"><a href="#kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#17-tilsyn-og-vedtak">§ 17. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#18-dispensasjon">§ 18. Dispensasjon</a></li>
+<li class="lvl4"><a href="#19-straff">§ 19. Straff</a></li>
+<li class="lvl4"><a href="#19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#19b-utmaling-av-overtredelsesgebyr">§ 19b. Utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-vi-overgangsbestemmelser-og-ikrafttredelse">Kapittel VI. Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#20-gjennomfring-av-overgangsordninger">§ 20. Gjennomføring av overgangsordninger</a></li>
+<li class="lvl4"><a href="#21-overgangsbestemmelse-for-unntak-fra-samsvarsvurdering">§ 21. Overgangsbestemmelse for unntak fra samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#22-plikt-til-a-melde-uhell">§ 22. Plikt til å melde uhell</a></li>
+<li class="lvl4"><a href="#23-overgangsregler-for-prosedyrer-for-utstyr-til-klinisk-utprving-av-vrig-medisinsk-utstyr-frem-til-eudamed-er-fullt-ut-funksjonell">§ 23. Overgangsregler for prosedyrer for utstyr til klinisk utprøving av øvrig medisinsk utstyr frem til Eudamed er fullt ut funksjonell</a></li>
+<li class="lvl4"><a href="#24-registrering-i-offentlig-utstyrsregister">§ 24. Registrering i offentlig utstyrsregister</a></li>
+<li class="lvl4"><a href="#25-sertifikatmeldinger">§ 25. Sertifikatmeldinger</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-09-1476.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-05-09-1476.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-09-1476.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2021-05-09-1476.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2021-05-09-1476.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-05-09-1476.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2021-05-09-1476.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2021-05-09-1476.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-05-09-1476.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-medisinsk-utstyr">Forskrift om medisinsk utstyr</h1>
 <h2 id="kapittel-i-gjennomfring-av-forordninger">Kapittel I. Gjennomføring av forordninger</h2>
 <h4 id="1-endringer-i-forordninger-om-medisinsk-utstyr">§ 1. Endringer i forordninger om medisinsk utstyr</h4>
 <p>Forordning om medisinsk utstyr, jf. lov om medisinsk utstyr § 1 første ledd , gjelder med endringene som følger av</p>
@@ -91,98 +222,98 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>forordning (EU) 2026/1359</li>
 <li>forordning (EU) 2026/1451 .</li>
 </ul>
-<p><em>Tilføyd ved forskrift 20 des 2024 nr. 3418 , opphevet ved forskrift 4 sep 2025 nr. 1783 , tilføyd ved forskrift 2 des 2025 nr. 2410 , endret ved forskrift 2 des 2025 nr. 2423 (i kraft 6 des 2025), 14 okt 2026 nr. 2051 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2024 nr. 3418 , opphevet ved forskrift 4 sep 2025 nr. 1783 , tilføyd ved forskrift 2 des 2025 nr. 2410 , endret ved forskrift 2 des 2025 nr. 2423 (i kraft 6 des 2025), 14 okt 2026 nr. 2051 .</p>
 <h4 id="1a-elektroniske-bruksanvisninger-for-medisinsk-utstyr">§ 1a. Elektroniske bruksanvisninger for medisinsk utstyr</h4>
 <p>Forordning (EU) 2021/2226 om elektroniske bruksanvisninger for medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II kapittel XXX nr. 11b, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II kapittel XXX , protokoll 1 til avtalen og avtalen for øvrig, og med de endringene som følger av forordning (EU) 2025/1234 .</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 20 des 2024 nr. 3418 (tidligere § 1), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 20 des 2024 nr. 3418 (tidligere § 1), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</p>
 <h4 id="1b-medisinsk-utstyr-framstilt-av-animalsk-vev">§ 1b. Medisinsk utstyr framstilt av animalsk vev</h4>
 <p>EØS-avtalens vedlegg II kapittel XXX nr. 5a (forordning (EU) nr. 722/2012 ) om særskilte krav til kriteriene fastsatt i rådsdirektivene 90/385/EØF og 93/42/EØF om aktivt implanterbart medisinsk utstyr og medisinsk utstyr som er framstilt av animalsk vev gjelder som forskrift med de endringer og tillegg som følger av vedlegg II kapittel XXX, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1a).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1a).</p>
 <h4 id="1c-utpeking-og-tilsyn-med-meldt-organ">§ 1c. Utpeking og tilsyn med meldt organ</h4>
 <p>EØS-avtalen vedlegg II , kapittel XXX, nr. 10 (forordning (EU) nr. 920/2013 ) om utpeking og kontroll med meldt organ i henhold til rådsdirektiv 90/385/EØF om aktivt implanterbart medisinsk utstyr og rådsdirektiv 93/42/EØF om medisinsk utstyr som endret ved forordning (EU) 2020/666 gjelder som forskrift med de tilpasninger som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen vedlegg II , kapittel XXX, nr. 14 (forordning (EU) 2017/2185 ) om liste over koder og utstyr for utpeking av tekniske kontrollorgan etter Europaparlaments- og rådsforordning (EU) 2017/745 om medisinsk utstyr (MDR) og Europaparlaments- og rådsforordning (EU) 2017/746 om in vitro-diagnostisk medisinsk utstyr (IVDR) gjelder som forskrift.</p>
-<p><em>Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1b).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1b).</p>
 <h4 id="1d-eudamed">§ 1d. Eudamed</h4>
 <p>EØS-avtalen vedlegg II , kapittel XXX, nr. 11c (forordning (EU) 2021/2078 ) som fastsetter regler for anvendelse av Europaparlamentets og rådets forordning (EU) 2017/745 når det gjelder den europeiske databasen over medisinsk utstyr gjelder som forskrift med de tilpasninger som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1c).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1c).</p>
 <h4 id="1e-felles-spesifikasjoner-for-in-vitro-diagnostisk-medisinsk-utstyr-i-klasse-d">§ 1e. Felles spesifikasjoner for in vitro-diagnostisk medisinsk utstyr i klasse D</h4>
 <p>EØS-avtalen vedlegg II , kapittel XXX nr. 12a (forordning (EU) 2022/1107 ) om fastsettelse av felles spesifikasjoner for visse medisinske utstyr for in vitro-diagnostisk klasse D i samsvar med europaparlaments- og rådsforordning (EU) 2017/746 gjelder som forskrift med de tilpasninger som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1d).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 20 des 2024 nr. 3418 (tidligere § 1d).</p>
 <h4 id="1f-eu-referanselaboratorier">§ 1f. EU-referanselaboratorier</h4>
 <p>Forordning (EU) 2022/944 om oppgaver og kriterier for EU-referanselaboratorier på området in vitro-diagnostisk medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II kapittel XXX nr. 12b, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Forordning (EU) 2022/945 om avgifter som pålegges av EU-referanselaboratorier på området in vitro-diagnostisk medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II kapittel XXX nr. 12c, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Forordning (EU) 2023/2713 om utpeking av EU-referanselaboratorier på området for in vitro diagnostisk medisinsk utstyr, som inntatt i EØS-avtalen vedlegg II kapittel XXX nr. 12d, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av forordning (EU) 2025/2526 .</p>
-<p><em>Tilføyd ved forskrift 12 mars 2023 nr. 352 (i kraft 18 mars 2023), endret ved forskrifter 12 aug 2024 nr. 1957 , 20 des 2024 nr. 3418 (tidligere § 1e), 3 juli 2026 nr. 1579 (i kraft 11 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 12 mars 2023 nr. 352 (i kraft 18 mars 2023), endret ved forskrifter 12 aug 2024 nr. 1957 , 20 des 2024 nr. 3418 (tidligere § 1e), 3 juli 2026 nr. 1579 (i kraft 11 juli 2026).</p>
 <h4 id="1g-felles-spesifikasjoner-og-omklassifisering-av-produkter-uten-tiltenkt-medisinsk-formal">§ 1g. Felles spesifikasjoner og omklassifisering av produkter uten tiltenkt medisinsk formål</h4>
 <p>EØS-avtalens vedlegg II kapittel XXX nr. 11d (forordning (EU) 2022/2346 som endret ved forordning (EU) 2023/1194 ) om fastsettelse av felles spesifikasjoner for gruppene av produkter uten tiltenkt medisinsk formål oppført i vedlegg XVI til europaparlaments- og rådsforordning (EU) 2017/745 gjelder som forskrift med de tilpasninger som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalens vedlegg II kapittel XXX nr. 11e (forordning (EU) 2022/2347 ) om omklassifisering av grupper av aktivt utstyr uten et tiltenkt medisinsk formål gjelder som forskrift med de tilpasninger som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 8 mai 2023 nr. 674 , endret ved forskrifter 17 okt 2023 nr. 1676 (i kraft 28 okt 2023), 20 des 2024 nr. 3418 (tidligere § 1f).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mai 2023 nr. 674 , endret ved forskrifter 17 okt 2023 nr. 1676 (i kraft 28 okt 2023), 20 des 2024 nr. 3418 (tidligere § 1f).</p>
 <h4 id="1h-metodevurdering-av-medisinsk-utstyr">§ 1h. Metodevurdering av medisinsk utstyr</h4>
 <p>Legemiddelforskriften § 14-3a første , tredje , fjerde , sjette og syvende ledd gjelder for medisinsk utstyr etter forskriften her.</p>
-<p><em>Tilføyd ved forskrift 17 jan 2025 nr. 61 , endret ved forskrifter 29 aug 2025 nr. 1908 (i kraft 20 sep 2025), 23 mars 2026 nr. 471 , 28 april 2026 nr. 736 (i kraft 1 mai 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 17 jan 2025 nr. 61 , endret ved forskrifter 29 aug 2025 nr. 1908 (i kraft 20 sep 2025), 23 mars 2026 nr. 471 , 28 april 2026 nr. 736 (i kraft 1 mai 2026).</p>
 <h4 id="1i-utvidet-mandat-til-det-europeiske-legemiddelbyraet">§ 1i. Utvidet mandat til Det europeiske legemiddelbyrået</h4>
 <p>Legemiddelforskriften § 15-6 gjelder for medisinsk utstyr etter forskriften her.</p>
-<p><em>Tilføyd ved forskrift 15 juni 2026 nr. 1169 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 15 juni 2026 nr. 1169 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-ii-utfyllende-nasjonale-bestemmelser-om-myndigheter">Kapittel II. Utfyllende nasjonale bestemmelser om myndigheter</h2>
 <h4 id="2-kompetent-myndighet">§ 2. Kompetent myndighet</h4>
 <p>Direktoratet for medisinske produkter er etter lov om medisinsk utstyr § 11 første ledd kompetent myndighet, jf. forordning (EU) 2017/745 (MDR) og forordning (EU) 2017/746 (IVDR).</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 4), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 4), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="3-myndighet-til-a-avgjre-om-et-produkt-er-medisinsk-utstyr">§ 3. Myndighet til å avgjøre om et produkt er medisinsk utstyr</h4>
 <p>I tvilstilfeller avgjør Direktoratet for medisinske produkter om et produkt skal regnes som medisinsk utstyr.</p>
-<p><em>Endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 5), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 5), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="4-ansvarlig-myndighet-for-meldt-organ">§ 4. Ansvarlig myndighet for meldt organ</h4>
 <p>Direktoratet for medisinske produkter peker ut og fører tilsyn med meldt organ etter lov 16. juni 1994 nr. 20 om tekniske kontrollorgan som har til oppgåve å gjennomføre samsvarsvurderingar og (EU) 2017/745 (MDR) artikkel 35 og forordning (EU) 2017/746 (IVDR) artikkel 31.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 6), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 6), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="5-sknad-om-utpeking-av-ekspertlaboratorier-og-eu-referanselaboratorier">§ 5. Søknad om utpeking av ekspertlaboratorier og EU-referanselaboratorier</h4>
 <p>Direktoratet for medisinske produkter kan på vegne av norske laboratorier søke Kommisjonen om utpeking som ekspertlaboratorium eller EU-referanselaboratorium, jf. forordning (EU) 2017/745 (MDR) artikkel 106 nr. 7 og forordning (EU) 2017/746 (IVDR) artikkel 100 nr. 1.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 7), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 7), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-iii-utfyllende-nasjonale-bestemmelser-om-sprak">Kapittel III. Utfyllende nasjonale bestemmelser om språk</h2>
 <h4 id="6-merking-og-bruksanvisning">§ 6. Merking og bruksanvisning</h4>
 <p>Opplysninger på etiketten og i bruksanvisningen til utstyr skal gis på norsk, jf. forordning (EU) 2017/745 (MDR) artikkel 10 nr. 11 og forordning (EU) 2017/746 (IVDR) artikkel 10 nr. 10.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 8), 8 mai 2023 nr. 674 .</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 8), 8 mai 2023 nr. 674 .</p>
 <h4 id="7-samsvarsvurdering">§ 7. Samsvarsvurdering</h4>
 <p>Dokumentasjon som benyttes i prosedyrene for samsvarsvurdering, jf. forordning (EU) 2017/745 (MDR) artikkel 52 nr. 1 til 7 og nummer 9 til 11, herunder teknisk dokumentasjon, samt revisjons-, vurderings- og inspeksjonsrapporter, skal gis på engelsk, jf. forordning (EU) 2017/745 (MDR) artikkel 52 nr. 12.</p>
 <p>Dokumentasjon som benyttes i prosedyrene for samsvarsvurdering, jf. forordning (EU) 2017/746 (IVDR) artikkel 48 nr. 1 til 10, herunder teknisk dokumentasjon, samt revisjons-, vurderings- og inspeksjonsrapporter, skal gis på engelsk, jf. forordning (EU) 2017/746 (IVDR) artikkel 48 nr. 12.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 9).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 9).</p>
 <h4 id="8-samsvarserklring">§ 8. Samsvarserklæring</h4>
 <p>Opplysninger i samsvarserklæring skal gis på engelsk eller norsk, jf. forordning (EU) 2017/745 (MDR) artikkel 19 nr. 1 og forordning (EU) 2017/746 (IVDR) artikkel 17 nr. 1.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 10).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 10).</p>
 <h4 id="9-sertifikat">§ 9. Sertifikat</h4>
 <p>Sertifikater som er utstedt av meldt organ etablert i Norge, jf. forordning (EU) 2017/745 (MDR) vedlegg IX, X og XI, skal gis på engelsk eller et språk som meldt organ aksepterer, jf. forordning (EU) 2017/745 (MDR) artikkel 56.</p>
 <p>Sertifikater som er utstedt av meldt organ etablert i Norge, jf. forordning (EU) 2017/746 (IVDR) vedlegg IX, X og XI, skal gis på engelsk eller et språk som meldt organ aksepterer, jf. forordning (EU) 2017/746 (IVDR) artikkel 51.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 11).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 11).</p>
 <h4 id="10-dokumentasjon-fra-produsent-og-autorisert-representant">§ 10. Dokumentasjon fra produsent og autorisert representant</h4>
 <p>Produsent og autorisert representant skal på anmodning fra Direktoratet for medisinske produkter fremlegge all informasjon og dokumentasjon som er nødvendig for å vise at utstyret er i samsvar med kravene på norsk eller engelsk, jf. forordning (EU) 2017/745 (MDR) artikkel 10 nr. 14 og artikkel 11 nr. 3 bokstav d og forordning (EU) 2017/746 (IVDR) artikkel 10 nr. 13 og artikkel 11 nr. 3 bokstav d.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 12), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 12), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="11-sknad-om-utpeking-av-og-tilsyn-med-meldt-organ">§ 11. Søknad om utpeking av og tilsyn med meldt organ</h4>
 <p>Opplysningene i søknad om utpeking av meldt organ og dokumentene som vurderes ved tilsyn skal gis på engelsk, jf. forordning (EU) 2017/745 (MDR) artikkel 41 og forordning (EU) 2017/746 (IVDR) artikkel 37.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 13).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 13).</p>
 <h4 id="12-sikkerhetsmelding-til-brukere-av-utstyr">§ 12. Sikkerhetsmelding til brukere av utstyr</h4>
 <p>Sikkerhetsmelding fra produsenter til brukere av utstyr skal gis på norsk, jf. forordning (EU) 2017/745 (MDR) artikkel 89 nr. 8 og forordning (EU) 2017/746 (IVDR) artikkel 84 nr. 8.</p>
 <p>Sikkerhetsmeldingen kan i særlige tilfeller gis på engelsk inntil norsk oversettelse foreligger. Norsk oversettelse skal foreligge uten ugrunnet opphold.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 14), 8 mai 2023 nr. 674 .</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 14), 8 mai 2023 nr. 674 .</p>
 <h4 id="13-informasjon-til-pasienter-med-implanterbart-utstyr">§ 13. Informasjon til pasienter med implanterbart utstyr</h4>
 <p>Informasjon som gis til pasienter med implanterbart utstyr og som skal følges av et implantatkort, skal gis på norsk, jf. forordning (EU) 2017/745 (MDR) artikkel 18.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 15), 8 mai 2023 nr. 674 .</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 15), 8 mai 2023 nr. 674 .</p>
 <h4 id="14-sammendrag-for-klinisk-utprving">§ 14. Sammendrag for klinisk utprøving</h4>
 <p>Det generelle sammendraget for den kliniske utprøvingen, jf. forordning (EU) 2017/745 (MDR) vedlegg XV nr. 3.1.5, skal gis på norsk og engelsk.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 16).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 16).</p>
 <h4 id="15-unntak">§ 15. Unntak</h4>
 <p>Dersom trygg og korrekt bruk er sikret kan Direktoratet for medisinske produkter gjøre unntak fra kravet om norsk språk i § 6 .</p>
 <p>Direktoratet for medisinske produkter kan gjøre unntak fra språkkravene i § 7 til § 11 og § 13 og § 14 .</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 17), 12 mars 2023 nr. 352 (i kraft 18 mars 2023), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 17), 12 mars 2023 nr. 352 (i kraft 18 mars 2023), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-iv-vrige-utfyllende-nasjonale-bestemmelser">Kapittel IV. Øvrige utfyllende nasjonale bestemmelser</h2>
 <h4 id="16-krav-til-vrige-kliniske-utprvinger">§ 16. Krav til øvrige kliniske utprøvinger</h4>
 <p>Kliniske utprøvinger skal oppfylle kravene i forordning (EU) 2017/745 (MDR) artikkel 62. Dette gjelder også for kliniske utprøvinger som ikke gjennomføres etter formålene angitt i forordningens artikkel 62 nr. 1.</p>
 <p>Første ledd kommer ikke til anvendelse for kliniske utprøvinger med utstyr som er samsvarsvurdert i henhold til forordning (EU) 2017/745 (MDR) artikkel 52 eller forskrift 15. desember 2005 nr. 1690 (slik den lød før 26. mai 2021), med mindre vilkårene i forordningens artikkel 74 nr. 1 eller 2 er oppfylt.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 18).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022), 8 mars 2023 nr. 309 (tidligere § 18).</p>
 <h2 id="kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</h2>
 <h4 id="17-tilsyn-og-vedtak">§ 17. Tilsyn og vedtak</h4>
 <p>Direktoratet for medisinske produkter fører tilsyn og fatter enkeltvedtak i samsvar med lov 7. mai 2020 nr. 37 om medisinsk utstyr § 11 første ledd , jf. § 2 i denne forskriften.</p>
-<p><em>Endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 19), 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</em></p>
+<p class="note">Endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 19), 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</p>
 <h4 id="18-dispensasjon">§ 18. Dispensasjon</h4>
 <p>Direktoratet for medisinske produkter kan i særlige tilfeller gi dispensasjon fra bestemmelsene gitt i eller i medhold av lov 7. mai 2020 nr. 37 om medisinsk utstyr , forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen .</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 21), 8 mars 2023 nr. 309 (tidligere § 20), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 21), 8 mars 2023 nr. 309 (tidligere § 20), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="19-straff">§ 19. Straff</h4>
 <p>Den som forsettlig eller uaktsomt overtrer følgende bestemmelser, straffes i henhold til lov 7. mai 2020 nr. 37 om medisinsk utstyr med bøter eller fengsel inntil 3 måneder:</p>
 <p>a. bestemmelsene i denne forskrift § 6 til § 14 og § 16 .
@@ -192,7 +323,7 @@ d. forordning (EU) 2021/2226 artikkel 3 til 9.
 e. forordning (EU) nr. 207/2012 artikkel 3 til 7.
 f. forordning (EU) nr. 722/2012 artikkel 3.</p>
 <p>Grove overtredelser straffes med bøter eller fengsel inntil 2 år. Ved avgjørelsen av om overtredelsen er grov, skal det særlig legges vekt på om overtredelsen har ført til eller kunne ha ført til at pasient, bruker eller annen person dør eller at helsetilstanden blir eller kunne ha blitt midlertidig eller varig alvorlig forringet, eller om det oppstår en alvorlig trussel mot folkehelsen.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 20), 8 mars 2023 nr. 309 (tidligere § 21), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 20), 8 mars 2023 nr. 309 (tidligere § 21), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</p>
 <h4 id="19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</h4>
 <p>Direktoratet for medisinske produkter kan ilegge overtredelsesgebyr for den som forsettlig eller uaktsomt overtrer:</p>
 <p>a. bestemmelsene i denne forskrift § 6 til § 14 og § 16 .
@@ -201,25 +332,25 @@ c. forordning (EU) 2017/746 (IVDR) artikkel 5 til 7, 9 til 11, 13 til 20, 22, 24
 d. forordning (EU) 2021/2226 artikkel 3 til 9.
 e. forordning (EU) nr. 207/2012 artikkel 3 til 7.
 f. forordning (EU) nr. 722/2012 artikkel 3.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 21a), 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 21a), 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 21 jan 2026 nr. 198 (i kraft 7 feb 2026).</p>
 <h4 id="19b-utmaling-av-overtredelsesgebyr">§ 19b. Utmåling av overtredelsesgebyr</h4>
 <p>Overtredelsesgebyret kan ikke settes høyere enn et beløp tilsvarende 15 ganger folketrygdens grunnbeløp for foretak eller to ganger folketrygdens grunnbeløp for fysiske personer.</p>
 <p>Ved avgjørelsen av om fysiske personer skal ilegges overtredelsesgebyr skal det særlig tas hensyn til overtredelsens omfang og virkninger, samt overtrederens skyld og økonomiske evne.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrift 8 mars 2023 nr. 309 (tidligere § 21b).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrift 8 mars 2023 nr. 309 (tidligere § 21b).</p>
 <h2 id="kapittel-vi-overgangsbestemmelser-og-ikrafttredelse">Kapittel VI. Overgangsbestemmelser og ikrafttredelse</h2>
 <h4 id="20-gjennomfring-av-overgangsordninger">§ 20. Gjennomføring av overgangsordninger</h4>
 <p>Enhver henvisning til direktiv 90/385/EF (AIMDD) og direktiv 93/42/EF (MDD) i forordning (EU) 2017/745 (MDR) artikkel 120, 122 og 123 skal forstås som en henvisning til forskrift 15. desember 2005 nr. 1690 om medisinsk utstyr (slik den lød før 26. mai 2021).</p>
 <p>Enhver henvisning til direktiv 98/97/EF (IVDD) i forordning (EU) 2017/746 artikkel (EU) 2017/746 (IVDR) artikkel 110, 112 og 113 skal forstås som en henvisning til forskrift 15. desember 2005 nr. 1690 om medisinsk utstyr (slik den lød før 26. mai 2021).</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrift 8 mars 2023 nr. 309 (tidligere § 22).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrift 8 mars 2023 nr. 309 (tidligere § 22).</p>
 <h4 id="21-overgangsbestemmelse-for-unntak-fra-samsvarsvurdering">§ 21. Overgangsbestemmelse for unntak fra samsvarsvurdering</h4>
 <p>Unntak fra samsvarsvurdering gitt av Direktoratet for medisinske produkter i samsvar med forskrift 15. desember 2005 nr. 1690 om medisinsk utstyr jf. artikkel 9 nr. 9 i direktiv 90/385/EF (AIMDD), artikkel 11 nr. 13 i direktiv 93/42/EF (MDD) eller artikkel 9 nr. 12 i direktiv 98/79/EF (IVDD) skal være gyldige til tidspunkt angitt i unntaket.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 23), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 23), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="22-plikt-til-a-melde-uhell">§ 22. Plikt til å melde uhell</h4>
 <p>Den som i sin virksomhet produserer utstyr skal uten unødig opphold melde om følgende:</p>
 <p>a. enhver feilfunksjon eller enhver forringelse av et utstyrs egenskaper og/eller ytelser samt enhver mangel på merkingen eller bruksanvisningen som kan føre til eller kunne ha ført til pasientens, brukerens eller annen persons død eller alvorlig forverring av pasientens, brukerens eller annen persons helsetilstand.
 b. ethvert teknisk eller medisinsk hensyn i forbindelse med et utstyrs egenskaper eller ytelser som, av de årsaker som er omhandlet under bokstav a, har ført til at produsenten systematisk har trukket utstyr av samme type tilbake fra markedet eller gjort endringer som følge av dette.</p>
 <p>Meldingen sendes til Direktoratet for medisinske produkter. Direktoratet for medisinske produkter kan fastsette retningslinjer for meldeplikten.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 25), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 (tidligere § 25), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="23-overgangsregler-for-prosedyrer-for-utstyr-til-klinisk-utprving-av-vrig-medisinsk-utstyr-frem-til-eudamed-er-fullt-ut-funksjonell">§ 23. Overgangsregler for prosedyrer for utstyr til klinisk utprøving av øvrig medisinsk utstyr frem til Eudamed er fullt ut funksjonell</h4>
 <p>Frem til den seneste av datoene for Eudamed nevnt i forordning (EU) 2017/745 (MDR) artikkel 123 nr. 3 bokstav d gjelder følgende regler for prosedyrer for utstyr til klinisk utprøving:</p>
 <ul>
@@ -237,14 +368,16 @@ Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved for
 <p>Enhver med forretningsadresse i Norge, som produserer og i eget navn markedsfører medisinsk utstyr, eller markedsfører utstyret som systemer eller prosedyresett, skal føre inn sitt firmanavn, organisasjonsnummer, forretningsadresse, samt data som gjør det mulig å entydig identifisere utstyret, i et offentlig utstyrsregister.</p>
 <p>Produsent som ikke har forretningsadresse innenfor EØS-området, men som i eget navn markedsfører utstyr i EØS-området, skal før markedsføringen utpeke en ansvarlig representant etablert innenfor EØS-området. Ansvarlig representant med norsk forretningsadresse skal registrere opplysninger om sitt firma og det aktuelle utstyret i samsvar med bestemmelsen i første ledd.</p>
 <p>Direktoratet for medisinske produkter kan gi nærmere retningslinjer om gjennomføring av registreringsplikten, herunder bestemmelser om at opplysninger om utstyret skal gis ved bruk av gjeldende nomenklatur for medisinsk utstyr.</p>
-<p><em>Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 23 mai 2022 nr. 904 (i kraft 26 mai 2022), endret ved forskrifter 8 mars 2023 nr. 309 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="25-sertifikatmeldinger">§ 25. Sertifikatmeldinger</h4>
 <p>Meldte organer skal underrette Direktoratet for medisinske produkter om alle sertifikater som er utstedt, endret, utvidet, suspendert, tilbakekalt eller avslått, og øvrige meldte organer som er utpekt for samme direktiver om suspenderte, tilbakekalte eller avslåtte sertifikater, og på anmodning om sertifikater som er utstedt. Meldte organer skal også på anmodning stille all relevant tilleggsinformasjon til rådighet.</p>
 <p>Direktoratet for medisinske produkter kan fastsette retningslinjer for hvordan opplysninger som nevnt i denne bestemmelsen skal rapporteres.</p>
-<p><em>Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 8 mars 2023 nr. 309 , endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="26-ikrafttredelse">§ 26. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 26. mai 2021.</p>
-<p><em>Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 29), 8 mars 2023 nr. 309 (tidligere § 31).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2022 nr. 904 (i kraft 26 mai 2022, tidligere § 29), 8 mars 2023 nr. 309 (tidligere § 31).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

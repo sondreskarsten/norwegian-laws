@@ -19,64 +19,153 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1976-06-25-5.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om fastsetting av normpriser" href="../feeds/forskrift-1976-06-25-5.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Forskrift om fastsetting av normpriser</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1976-06-25-5</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1976-06-25</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-18-2278</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1976-06-25-5" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-normpris-ved-ligningsbehandlingen">I. Normpris ved ligningsbehandlingen.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#ii-normpris-ved-beregning-av-produksjonsavgift">II. Normpris ved beregning av produksjonsavgift.</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl2"><a href="#iii-normpris-ved-overdragelse-av-petroleum">III. Normpris ved overdragelse av petroleum.</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl2"><a href="#iv-alminnelige-bestemmelser">IV. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl2"><a href="#v-endringsbestemmelser">V. Endringsbestemmelser.</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl2"><a href="#vi-ikrafttreden">VI. Ikrafttreden.</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-18-2278.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1976-06-25-5.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fastsetting av normpriser</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1976-06-25-5.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1976-06-25-5 <code>forskrift/1976-06-25-5</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om fastsetting av normpriser</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>25.06.1976</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-18-2278 <code>forskrift/2023-12-18-2278</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1976-06-25-5" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-normpris-ved-ligningsbehandlingen">I. Normpris ved ligningsbehandlingen.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#ii-normpris-ved-beregning-av-produksjonsavgift">II. Normpris ved beregning av produksjonsavgift.</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl2"><a href="#iii-normpris-ved-overdragelse-av-petroleum">III. Normpris ved overdragelse av petroleum.</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl2"><a href="#iv-alminnelige-bestemmelser">IV. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl2"><a href="#v-endringsbestemmelser">V. Endringsbestemmelser.</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl2"><a href="#vi-ikrafttreden">VI. Ikrafttreden.</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1976-06-25-5.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1976-06-25-5.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1976-06-25-5.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1976-06-25-5.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1976-06-25-5.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1976-06-25-5.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1976-06-25-5.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1976-06-25-5.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1976-06-25-5.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fastsetting-av-normpriser">Forskrift om fastsetting av normpriser</h1>
 <h2 id="i-normpris-ved-ligningsbehandlingen">I. Normpris ved ligningsbehandlingen.</h2>
 <h4 id="1">§ 1</h4>
 <p>Til bruk ved ligningen, herunder utligning av særskatt i h.t. lov av 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. (petroleumsskatteloven), kan det fastsettes normpriser for ulike typer og kvaliteter petroleum eller for deler av sådanne som utvinnes i de områder som er nevnt i lovens § 1 , a-b.</p>
@@ -84,7 +173,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Normprisen skal svare til hva petroleum kunne ha vært omsatt for mellom uavhengige parter i et fritt marked. Med uavhengige parter menes kjøpere og selgere som innbyrdes ikke har slike felles interesser at det kunne ha påvirket en avtalt pris. Ved verdsettelsen skal det bl.a. tas hensyn til oppnådde og noterte priser for petroleum av samme eller tilsvarende art med nødvendig justering for kvalitetsforskjeller, transportkostnader m.v. til Nordsjøområdet eller andre aktuelle markeder, leveringstid, betalingstid og vilkår forøvrig, oppnådde og noterte priser for petroleumsprodukter med nødvendig justering for bearbeiding m.v. og andre sammenlignbare priser eller vedsettelse som måtte finnes. Det skal tas hensyn til hvorvidt det dreier seg om avtaler mellom tilknyttede selskaper eller andre avtaler der særlige forhold eller øvrige betingelser må ha hatt betydning for prisfastsettelsen.</p>
 <p>Normprisen fastsettes etterskuddsvis, som pris for petroleum som utvinnes i et bestemt tidsrom. Normprisen fastsettes normalt for den enkelte dag. Normprisen kan fastsettes for en lengre periode enn en enkelt dag når dette finnes hensiktsmessig og ikke urimelig.</p>
 <p>For petroleum som blir ilandført ved rørledning, fastsettes normprisen på grunnlag av verdien på ilandføringsstedet. For petroleum som blir ilandført ved skip, bestemmer departementet, etter en vurdering av de valgte transportløsninger, hvorvidt normpris skal fastsettes på grunnlag av verdien levert Nordsjøhavn, eller på grunnlag av verdien på produksjonsstedets avskipningspunkt. Departementet bestemmer i tvilstilfelle hva som skal regnes for ilandføringssted- og avskipningspunkt. Departementet kan gjøre unntak fra bestemmelsene i dette ledd når det er nødvendig eller hensiktsmessig for å håndheve bestemmelsene om norsk beskatningsrett i henhold til skatte- og avgiftslovgivningen eller avtaler med andre land vedrørende beskatning av petroleumsvirksomhet m.v.</p>
-<p><em>Endret ved forskrifter 24 sep 2007 nr. 1087 (i kraft 1 okt 2007), 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</em></p>
+<p class="note">Endret ved forskrifter 24 sep 2007 nr. 1087 (i kraft 1 okt 2007), 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</p>
 <h4 id="3">§ 3</h4>
 <p>Med mindre særlige grunner tilsier noe annet, skal fastsettelsen av normprisene skje fire ganger årlig, etter utløpet av hvert kvartal.</p>
 <p>Det kan fastsettes foreløpige normpriser.</p>
@@ -92,17 +181,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Prisfastsettingsmyndigheten skal deretter, enten skriftlig eller i møte med de berørte parter, gi en foreløpig vurdering av prisfastsettingsspørsmålet. Etter at de foreløpige vurderinger er kunngjort for de berørte parter, kan disse avgi uttalelse innen 2 uker. Når prisfastsettingsmyndigheten finner grunn til det, kan det settes lengre frister for uttalelse.</p>
 <p>Ved fastsetting av foreløpige normpriser skal de berørte parter såvidt mulig varsles og gis en kort frist til å uttale seg. Finner prisfastsettingsmyndigheten etter foreløpig vurdering at det ikke har skjedd helt vesentlige endringer, kan det treffes vedtak om at den sist fastsatte endelige normpris anvendes som foreløpig normpris for senere perioder.</p>
 <p>Når flere selskaper samarbeider om utvinningen, kan departementet kreve at gruppen skriftlig skal utpeke en eller flere representanter som mottar varsel, innkalles til møter og avgir uttalelse m.v. på gruppens vegne.</p>
-<p><em>Endret ved forskrifter 24 sep 2007 nr. 1087 (i kraft 1 okt 2007), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</em></p>
+<p class="note">Endret ved forskrifter 24 sep 2007 nr. 1087 (i kraft 1 okt 2007), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</p>
 <h4 id="4">§ 4</h4>
 <p>Departementet gis myndighet til å fastsette foreløpige og endelige normpriser, herunder bestemme at normpris ikke skal fastsettes for enkelte produksjonsområder. Departementet kan også unnta enkeltavskipninger fra fastsatt normpris når særlige hensyn tilsier det.</p>
 <p>Departementet kan gi et særskilt petroleumsprisråd myndighet til å treffe vedtak som nevnt i disse forskrifter.</p>
-<p><em>Endret ved forskrift 24 sep 2007 nr. 1087 (i kraft 1 okt 2007).</em></p>
+<p class="note">Endret ved forskrift 24 sep 2007 nr. 1087 (i kraft 1 okt 2007).</p>
 <h4 id="5">§ 5</h4>
 <p>Petroleumsprisrådets vedtak om foreløpig eller endelig fastsetting av normpris kan kreves overprøvet av departementet. Klage må være innkommet til Petroleumsprisrådet innen 30 dager etter at vedtaket er fattet. De øvrige parter skal underrettes om klagen og ha anledning til å slutte seg til klagesaken, selv om de ikke har krevet overprøvning innen fristens utløp.</p>
 <p>I forbindelse med overprøving av vedtak etter første ledd om endelig fastsetting av normpris, kan de parter som har krevet overprøvning eller senere har sluttet seg til klagesaken, kreve prisfastsettingen forelagt for et utvalg av sakkyndige til uttalelse om den fastsatte normpris er åpenbart urimelig før departementet treffer sin avgjørelse.</p>
 <p>Krav om oppnevning av slikt sakkyndig utvalg må være innkommet til departementet senest 14 dager etter klagefristens utløp. Utvalget skal ha 3 medlemmer som oppnevnes av Justitiarius i Høyesterett etter at departementet og de berørte parter som deltar i saken har hatt anledning til å uttale seg om oppnevnelsen. Utvalget skal gi Petroleumsprisrådet og de parter som har krevd fremleggelse for utvalget, anledning til å uttale seg skriftlig eller muntlig, og forøvrig innhente slike opplysninger som utvalget finner ønskelig. Utvalget skal avgi uttalelse senest 3 måneder etter oppnevnelsen, med mindre departementet bestemmer noe annet.</p>
 <p>Utvalget fastsetter selv sin godtgjørelse og hvordan betalingen av godtgjørelsen og andre utgifter ved utvalgsbehandlingen skal fordeles mellom partene.</p>
-<p><em>Endret ved forskrift 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</em></p>
+<p class="note">Endret ved forskrift 24 sep 2010 nr. 1290 (i kraft 1 okt 2010).</p>
 <h4 id="6">§ 6</h4>
 <p>Departementets vedtak om foreløpig eller endelig fastsetting av normpris kan kreves overprøvet av Kongen dersom vedtaket er truffet av departementet som førsteinstans eller hvis departementet har omgjort et tidligere vedtak av Petroleumsprisrådet uten klage.</p>
 <p>Bestemmelsene i § 5 første ledd gjelder tilsvarende.</p>
@@ -121,7 +210,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Funksjonstiden for medlemmer og varamedlemmer er 2 år. I det enkelte tilfelle kan det fastsettes en annen funksjonstid for å sikre kontinuitet i rådet.</p>
 <p>Rådet kan fatte vedtak når minst 4 av rådets medlemmer eller deres varamedlemmer er til stede, og et flertall av de tilstedeværende stemmer for vedtaket.</p>
 <p>Drøftelser med berørte parter eller innhenting av opplysninger kan, etter rådets nærmere bestemmelse, overlates til et medlem eller et utvalg, eller til rådets sekretariat.</p>
-<p><em>Endret ved forskrift 24 sep 2007 nr. 1087 (i kraft 1 okt 2007).</em></p>
+<p class="note">Endret ved forskrift 24 sep 2007 nr. 1087 (i kraft 1 okt 2007).</p>
 <h2 id="ii-normpris-ved-beregning-av-produksjonsavgift">II. Normpris ved beregning av produksjonsavgift.</h2>
 <h4 id="11">§ 11</h4>
 <p>Ved fastsetting av beregningsgrunnlaget for produksjonsavgift (royalty) eller beregningsgrunnlaget for foreløpige innbetalinger i henhold til kgl.res. av 8. desember 1972 (med senere endringer) om undersøkelse etter og utnyttelse av undersjøiske petroleumsforekomster § 26, får bestemmelsene i disse forskrifter tilsvarende anvendelse.</p>
@@ -143,6 +232,8 @@ Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
 <h2 id="vi-ikrafttreden">VI. Ikrafttreden.</h2>
 <h4 id="16">§ 16</h4>
 <p>Disse forskrifter trer ikraft straks.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

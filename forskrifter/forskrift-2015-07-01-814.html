@@ -19,64 +19,131 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-07-01-814.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om radioaktivitet i reinkjøtt" href="../feeds/forskrift-2015-07-01-814.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om radioaktivitet i reinkjøtt</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-07-01-814</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-24-1283</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-07-01-814" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-opphevet">§ 2. (Opphevet)</a></li>
+<li class="lvl3"><a href="#3-vilkar-for-kompensasjon">§ 3. Vilkår for kompensasjon.</a></li>
+<li class="lvl3"><a href="#4-tiltak-det-kan-gis-kompensasjon-til">§ 4. Tiltak det kan gis kompensasjon til</a></li>
+<li class="lvl3"><a href="#5-utmaling-av-kompensasjon-etter-fastsatte-satser">§ 5. Utmåling av kompensasjon etter fastsatte satser</a></li>
+<li class="lvl3"><a href="#6-kassering-av-reinkjtt">§ 6. Kassering av reinkjøtt</a></li>
+<li class="lvl3"><a href="#7-tap-av-dyr-ved-maling-av-radioaktivitet-eller-ved-nedforing">§ 7. Tap av dyr ved måling av radioaktivitet eller ved nedfôring</a></li>
+<li class="lvl3"><a href="#8-tilgang-pa-ikke-forurenset-rein-til-eget-hushold">§ 8. Tilgang på ikke forurenset rein til eget hushold</a></li>
+<li class="lvl3"><a href="#9-utbetaling-og-kontroll">§ 9. Utbetaling og kontroll</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-satser">Vedlegg 1: Satser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-24-1283.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-07-01-814.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om kompensasjon for utgifter, merarbeid og økonomiske tap som reineiere påføres som følge av tiltak mot radioaktivitet i reinkjøtt</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-07-01-814.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-07-01-814 <code>forskrift/2015-07-01-814</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om radioaktivitet i reinkjøtt</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-24-1283 <code>forskrift/2025-06-24-1283</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-07-01-814" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-opphevet">§ 2. (Opphevet)</a></li>
+<li class="lvl3"><a href="#3-vilkar-for-kompensasjon">§ 3. Vilkår for kompensasjon.</a></li>
+<li class="lvl3"><a href="#4-tiltak-det-kan-gis-kompensasjon-til">§ 4. Tiltak det kan gis kompensasjon til</a></li>
+<li class="lvl3"><a href="#5-utmaling-av-kompensasjon-etter-fastsatte-satser">§ 5. Utmåling av kompensasjon etter fastsatte satser</a></li>
+<li class="lvl3"><a href="#6-kassering-av-reinkjtt">§ 6. Kassering av reinkjøtt</a></li>
+<li class="lvl3"><a href="#7-tap-av-dyr-ved-maling-av-radioaktivitet-eller-ved-nedforing">§ 7. Tap av dyr ved måling av radioaktivitet eller ved nedfôring</a></li>
+<li class="lvl3"><a href="#8-tilgang-pa-ikke-forurenset-rein-til-eget-hushold">§ 8. Tilgang på ikke forurenset rein til eget hushold</a></li>
+<li class="lvl3"><a href="#9-utbetaling-og-kontroll">§ 9. Utbetaling og kontroll</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-satser">Vedlegg 1: Satser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-07-01-814.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-07-01-814.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-07-01-814.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-07-01-814.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-07-01-814.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-07-01-814.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-07-01-814.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-07-01-814.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-07-01-814.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-kompensasjon-for-utgifter-merarbeid-og-konomiske-tap-som-reineiere-pafres-som-flge-av-tiltak-mot-radioaktivitet-i-reinkjtt">Forskrift om kompensasjon for utgifter, merarbeid og økonomiske tap som reineiere påføres som følge av tiltak mot radioaktivitet i reinkjøtt</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Denne kompensasjonsordningen skal bidra til å opprettholde økonomisk og kulturell bærekraft i reindriften ved å forhindre at reindriftsutøvere påføres ekstraordinære kostnader som følge av atomhendelser.</p>
 <p>Tiltakene som er omhandlet i denne forskrift skal resultere i:</p>
@@ -84,9 +151,9 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. en høyest mulig produksjon av reinkjøtt til omsetning og eget forbruk,
 c. at kassering av rein unngås i størst mulig grad,
 d. en mest mulig kostnadseffektiv oppnåelse av målene.</p>
-<p><em>Endret ved forskrift 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrift 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</p>
 <h3 id="2-opphevet">§ 2. (Opphevet)</h3>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), opphevet ved forskrift 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), opphevet ved forskrift 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</p>
 <h3 id="3-vilkar-for-kompensasjon">§ 3. Vilkår for kompensasjon.</h3>
 <p>Kompensasjon etter denne forskriften kan gis til reinlag, reinbeitedistrikter og siidaer.</p>
 <p>For at økonomisk kompensasjon skal kunne innvilges etter denne forskrift må:</p>
@@ -95,7 +162,7 @@ b. tiltakene og behovet for anlegg på forhånd være godkjent av statsforvalter
 c. eventuell kassering, jf. § 6 , være godkjent av statsforvalteren,
 d. eventuelle tap, jf. § 7 , være godkjent av statsforvalteren,
 e. reinkjøtt være levert slakteri hvor kjøttet kontrolleres av den offentlige kjøttkontrollen.</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).</p>
 <h3 id="4-tiltak-det-kan-gis-kompensasjon-til">§ 4. Tiltak det kan gis kompensasjon til</h3>
 <p>Det kan gis kompensasjon etter fastsatte satser 1 til:</p>
 <p>a. Fremskyndet slakt. Kompensasjon ytes kun dersom det er sannsynliggjort at radioaktivitetsnivået vil komme over grenseverdien dersom fremskyndet slakt ikke gjennomføres.
@@ -108,8 +175,8 @@ c. transport av rein til fôringsgjerde,
 d. brøyting av vei til fôringsgjerde,
 e. direkte kostnader til forberedelse av godkjent fôringstiltak, som det viser seg unødvendig å gjennomføre.</p>
 <p>Kompensasjonen skal under enhver omstendighet ikke overstige kr 2000,- per rein i tiltak.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021).
-1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021).
+1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</p>
 <h3 id="5-utmaling-av-kompensasjon-etter-fastsatte-satser">§ 5. Utmåling av kompensasjon etter fastsatte satser</h3>
 <p>Kompensasjon til fremskyndet slakt ytes etter sats 1.</p>
 <p>Kompensasjon til nedfôring i anlegg ytes etter sats 2 (3000–5000 Bq/kg) eller sats 3 (over 5000 Bq/kg).</p>
@@ -122,14 +189,14 @@ b. når tiltak er gjennomført i samsvar med godkjente planer, men hvor innholde
 c. når tiltak må avbrytes før de er gjennomført, eller
 d. for enkeltdyr med radioaktivitetsnivå over 3000 Bq/kg.</p>
 <p>Tap av kalv dekkes etter sats 6, mens tap av rein over 1 år dekkes etter sats 7.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).
-1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).
+1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</p>
 <h3 id="7-tap-av-dyr-ved-maling-av-radioaktivitet-eller-ved-nedforing">§ 7. Tap av dyr ved måling av radioaktivitet eller ved nedfôring</h3>
 <p>Tap av dyr ved måling av radioaktivitet, eller ved gjennomføring av nedfôring etter § 4 , dekkes etter fastsatte satser. 1 Tap av kalv dekkes etter sats 6, mens tap av rein over 1 år dekkes etter sats 7.</p>
 <p>Tap skal være godkjent av statsforvalteren.</p>
 <p>Tap etter første ledd kan medregnes som del av slakteuttak i forbindelse med søknad om produksjonspremie og kalveslaktetilskudd.</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).
-1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 21 juni 2023 nr. 1017 (i kraft 1 juli 2023).
+1 Jf. gjeldende satser for kompensasjoner for tiltak vedrørende radioaktivitet i reinkjøtt.</p>
 <h3 id="8-tilgang-pa-ikke-forurenset-rein-til-eget-hushold">§ 8. Tilgang på ikke forurenset rein til eget hushold</h3>
 <p>For å sikre at reindriftsutøvere har tilgang til reinkjøtt med verdier under den nasjonale grensen for radioaktiv forurensing i basismatvarer på 600 Bq/kg, kan det iverksettes følgende tiltak:</p>
 <ul>
@@ -139,15 +206,17 @@ d. for enkeltdyr med radioaktivitetsnivå over 3000 Bq/kg.</p>
 <p>Dokumenterte kostnader til måling og kontroll av radioaktivitet i rein til eget hushold dekkes av myndighetene som for øvrig kontrollmåling.</p>
 <p>Behov for måling av rein til eget hushold utenom ordinær slakting må meldes til myndighetene senest 1 uke før planlagt slakting.</p>
 <p>Nødslakt som ikke kan nyttes som egen kost grunnet for høyt radioaktivitetsnivå, eller som leveres slakteri for kassering, jf. § 6 , kompenseres som for tap av dyr under nedfôring. Nødslaktingen må være skriftlig dokumentert med attestasjon fra veterinær og statsforvalteren.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="9-utbetaling-og-kontroll">§ 9. Utbetaling og kontroll</h3>
 <p>Statsforvalteren godkjenner og attesterer alle krav om kompensasjoner etter at dyrene er levert offentlig slakteri og godkjent for omsetning. Landbruksdirektoratet anviser kompensasjonene til utbetaling. For fôring kan inntil 60 % av den beregnede kompensasjonen utbetales når fôringen starter.</p>
 <p>Statsforvalteren kan dispensere fra denne forskriften dersom særlige grunner foreligger.</p>
-<p><em>Endret ved forskrifter 21 juni 2016 nr. 739 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2016 nr. 739 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="10-ikrafttredelse">§ 10. Ikrafttredelse</h3>
 <p>Denne forskrift trer ikraft 1. juli 2015. Samtidig oppheves forskrift 19. juni 2008 nr. 712 om kompensasjon for utgifter, merarbeid og økonomisk tap som reineiere påføres som følge av tiltak mot radioaktivitet i reinkjøtt.</p>
 <h2 id="vedlegg-1-satser">Vedlegg 1: Satser</h2>
 <p>Sats Tiltak Beløp (kr) 1 Fremskyndet slakt (per dyr) 300 2 Nedfôring i anlegg, 3000–5000 Bq/kg (per rein) 535 3 Nedfôring i anlegg, over 5000 Bq/kg (per rein) 805 4 Nedfôring på naturlig beite, 3000–5000 Bq/kg (per rein) 70 5 Nedfôring på naturlig beite, over 5000 Bq/kg (per rein) 135 6 Erstatning for tap av kalv (per kalv) 1340 7 Erstatning for tap av rein over 1 år (per rein) 2000</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

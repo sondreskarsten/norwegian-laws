@@ -19,64 +19,225 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-06-20-864.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift for Reindriftens Utviklingsfond" href="../feeds/forskrift-2019-06-20-864.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift for Reindriftens Utviklingsfond</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2019-06-20-864</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2019-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-22-1173</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2019-06-20-864" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-fellesbestemmelser-for-alle-tilskuddsordninger">§ 1-2. Fellesbestemmelser for alle tilskuddsordninger</a></li>
+<li class="lvl4"><a href="#1-3-styret-for-reindriftens-utviklingsfond">§ 1-3. Styret for Reindriftens Utviklingsfond</a></li>
+<li class="lvl4"><a href="#1-4-konomiske-rammer">§ 1-4. Økonomiske rammer</a></li>
+<li class="lvl4"><a href="#1-5-rapportering">§ 1-5. Rapportering</a></li>
+<li class="lvl4"><a href="#1-6-virkeomrade">§ 1-6. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-7-fellesvilkar">§ 1-7. Fellesvilkår</a></li>
+<li class="lvl4"><a href="#1-8-krav-til-sknad">§ 1-8. Krav til søknad</a></li>
+<li class="lvl4"><a href="#1-9-saksbehandling">§ 1-9. Saksbehandling</a></li>
+<li class="lvl4"><a href="#1-10-utbetaling">§ 1-10. Utbetaling</a></li>
+<li class="lvl4"><a href="#1-11-opplysningsplikt-og-kontroll">§ 1-11. Opplysningsplikt og kontroll</a></li>
+<li class="lvl4"><a href="#1-12-retting-av-feilutbetalinger">§ 1-12. Retting av feilutbetalinger</a></li>
+<li class="lvl4"><a href="#1-13-avkorting-og-tilbakeholdelse">§ 1-13. Avkorting og tilbakeholdelse</a></li>
+<li class="lvl4"><a href="#1-14-innkreving-av-tilbakebetalings-eller-avkortingsbelp">§ 1-14. Innkreving av tilbakebetalings- eller avkortingsbeløp</a></li>
+<li class="lvl4"><a href="#1-15-klageadgang">§ 1-15. Klageadgang</a></li>
+<li class="lvl2"><a href="#kapittel-2-opphevet">Kapittel 2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-1-opphevet">§ 2-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-2-opphevet">§ 2-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-4-opphevet">§ 2-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-5-opphevet">§ 2-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-6-opphevet">§ 2-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-3-tilskudd-til-reindriftsanlegg">Kapittel 3. Tilskudd til reindriftsanlegg</a></li>
+<li class="lvl4"><a href="#3-1-formal">§ 3-1. Formål</a></li>
+<li class="lvl4"><a href="#3-2-definisjoner">§ 3-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-3-vilkar-for-tilskudd">§ 3-3. Vilkår for tilskudd</a></li>
+<li class="lvl4"><a href="#3-4-tilskuddsberettigede-kostnader">§ 3-4. Tilskuddsberettigede kostnader</a></li>
+<li class="lvl4"><a href="#3-5-tilskuddsgrunnlag">§ 3-5. Tilskuddsgrunnlag</a></li>
+<li class="lvl4"><a href="#3-6-utmaling-av-tilskudd">§ 3-6. Utmåling av tilskudd</a></li>
+<li class="lvl4"><a href="#3-7-srskilt-krav-til-sknad">§ 3-7. Særskilt krav til søknad</a></li>
+<li class="lvl4"><a href="#3-8-rapportering">§ 3-8. Rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-4-refusjon-av-kursutgifter">Kapittel 4. Refusjon av kursutgifter</a></li>
+<li class="lvl4"><a href="#4-1-formal">§ 4-1. Formål</a></li>
+<li class="lvl4"><a href="#4-2-vilkar-for-refusjon">§ 4-2. Vilkår for refusjon</a></li>
+<li class="lvl4"><a href="#4-3-beregning-av-sttte">§ 4-3. Beregning av støtte</a></li>
+<li class="lvl4"><a href="#4-4-krav-til-sknaden">§ 4-4. Krav til søknaden</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilskudd-til-feltbarnehage">Kapittel 5. Tilskudd til feltbarnehage</a></li>
+<li class="lvl4"><a href="#5-1-formal">§ 5-1. Formål</a></li>
+<li class="lvl4"><a href="#5-2-definisjoner">§ 5-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-3-vilkar-for-tilskudd-til-feltbarnehage">§ 5-3. Vilkår for tilskudd til feltbarnehage</a></li>
+<li class="lvl4"><a href="#5-4-tilskuddets-strrelse">§ 5-4. Tilskuddets størrelse</a></li>
+<li class="lvl4"><a href="#5-5-srskilt-krav-til-sknad-og-sknadsfrist">§ 5-5. Særskilt krav til søknad og søknadsfrist</a></li>
+<li class="lvl2"><a href="#kapittel-6-opphevet">Kapittel 6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-1-opphevet">§ 6-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-2-opphevet">§ 6-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-3-opphevet">§ 6-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-4-opphevet">§ 6-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-5-opphevet">§ 6-5. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilskudd-til-juridisk-bistand-til-reinbeitedistrikter-eller-siidaer">Kapittel 7. Tilskudd til juridisk bistand til reinbeitedistrikter eller siidaer</a></li>
+<li class="lvl4"><a href="#7-1-formal">§ 7-1. Formål</a></li>
+<li class="lvl4"><a href="#7-2-vilkar">§ 7-2. Vilkår</a></li>
+<li class="lvl4"><a href="#7-3-tilskuddsberettigede-kostnader">§ 7-3. Tilskuddsberettigede kostnader</a></li>
+<li class="lvl4"><a href="#7-4-krav-til-sknad">§ 7-4. Krav til søknad</a></li>
+<li class="lvl4"><a href="#7-5-dokumentasjon">§ 7-5. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-6-tilbakebetaling">§ 7-6. Tilbakebetaling</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse">Kapittel 8. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-22-1173.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-06-20-864.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift for Reindriftens Utviklingsfond</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-06-20-864.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2019-06-20-864 <code>forskrift/2019-06-20-864</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2019</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-22-1173 <code>forskrift/2026-06-22-1173</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2019-06-20-864" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-fellesbestemmelser-for-alle-tilskuddsordninger">§ 1-2. Fellesbestemmelser for alle tilskuddsordninger</a></li>
+<li class="lvl4"><a href="#1-3-styret-for-reindriftens-utviklingsfond">§ 1-3. Styret for Reindriftens Utviklingsfond</a></li>
+<li class="lvl4"><a href="#1-4-konomiske-rammer">§ 1-4. Økonomiske rammer</a></li>
+<li class="lvl4"><a href="#1-5-rapportering">§ 1-5. Rapportering</a></li>
+<li class="lvl4"><a href="#1-6-virkeomrade">§ 1-6. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-7-fellesvilkar">§ 1-7. Fellesvilkår</a></li>
+<li class="lvl4"><a href="#1-8-krav-til-sknad">§ 1-8. Krav til søknad</a></li>
+<li class="lvl4"><a href="#1-9-saksbehandling">§ 1-9. Saksbehandling</a></li>
+<li class="lvl4"><a href="#1-10-utbetaling">§ 1-10. Utbetaling</a></li>
+<li class="lvl4"><a href="#1-11-opplysningsplikt-og-kontroll">§ 1-11. Opplysningsplikt og kontroll</a></li>
+<li class="lvl4"><a href="#1-12-retting-av-feilutbetalinger">§ 1-12. Retting av feilutbetalinger</a></li>
+<li class="lvl4"><a href="#1-13-avkorting-og-tilbakeholdelse">§ 1-13. Avkorting og tilbakeholdelse</a></li>
+<li class="lvl4"><a href="#1-14-innkreving-av-tilbakebetalings-eller-avkortingsbelp">§ 1-14. Innkreving av tilbakebetalings- eller avkortingsbeløp</a></li>
+<li class="lvl4"><a href="#1-15-klageadgang">§ 1-15. Klageadgang</a></li>
+<li class="lvl2"><a href="#kapittel-2-opphevet">Kapittel 2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-1-opphevet">§ 2-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-2-opphevet">§ 2-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-4-opphevet">§ 2-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-5-opphevet">§ 2-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-6-opphevet">§ 2-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-3-tilskudd-til-reindriftsanlegg">Kapittel 3. Tilskudd til reindriftsanlegg</a></li>
+<li class="lvl4"><a href="#3-1-formal">§ 3-1. Formål</a></li>
+<li class="lvl4"><a href="#3-2-definisjoner">§ 3-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-3-vilkar-for-tilskudd">§ 3-3. Vilkår for tilskudd</a></li>
+<li class="lvl4"><a href="#3-4-tilskuddsberettigede-kostnader">§ 3-4. Tilskuddsberettigede kostnader</a></li>
+<li class="lvl4"><a href="#3-5-tilskuddsgrunnlag">§ 3-5. Tilskuddsgrunnlag</a></li>
+<li class="lvl4"><a href="#3-6-utmaling-av-tilskudd">§ 3-6. Utmåling av tilskudd</a></li>
+<li class="lvl4"><a href="#3-7-srskilt-krav-til-sknad">§ 3-7. Særskilt krav til søknad</a></li>
+<li class="lvl4"><a href="#3-8-rapportering">§ 3-8. Rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-4-refusjon-av-kursutgifter">Kapittel 4. Refusjon av kursutgifter</a></li>
+<li class="lvl4"><a href="#4-1-formal">§ 4-1. Formål</a></li>
+<li class="lvl4"><a href="#4-2-vilkar-for-refusjon">§ 4-2. Vilkår for refusjon</a></li>
+<li class="lvl4"><a href="#4-3-beregning-av-sttte">§ 4-3. Beregning av støtte</a></li>
+<li class="lvl4"><a href="#4-4-krav-til-sknaden">§ 4-4. Krav til søknaden</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilskudd-til-feltbarnehage">Kapittel 5. Tilskudd til feltbarnehage</a></li>
+<li class="lvl4"><a href="#5-1-formal">§ 5-1. Formål</a></li>
+<li class="lvl4"><a href="#5-2-definisjoner">§ 5-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-3-vilkar-for-tilskudd-til-feltbarnehage">§ 5-3. Vilkår for tilskudd til feltbarnehage</a></li>
+<li class="lvl4"><a href="#5-4-tilskuddets-strrelse">§ 5-4. Tilskuddets størrelse</a></li>
+<li class="lvl4"><a href="#5-5-srskilt-krav-til-sknad-og-sknadsfrist">§ 5-5. Særskilt krav til søknad og søknadsfrist</a></li>
+<li class="lvl2"><a href="#kapittel-6-opphevet">Kapittel 6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-1-opphevet">§ 6-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-2-opphevet">§ 6-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-3-opphevet">§ 6-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-4-opphevet">§ 6-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-5-opphevet">§ 6-5. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilskudd-til-juridisk-bistand-til-reinbeitedistrikter-eller-siidaer">Kapittel 7. Tilskudd til juridisk bistand til reinbeitedistrikter eller siidaer</a></li>
+<li class="lvl4"><a href="#7-1-formal">§ 7-1. Formål</a></li>
+<li class="lvl4"><a href="#7-2-vilkar">§ 7-2. Vilkår</a></li>
+<li class="lvl4"><a href="#7-3-tilskuddsberettigede-kostnader">§ 7-3. Tilskuddsberettigede kostnader</a></li>
+<li class="lvl4"><a href="#7-4-krav-til-sknad">§ 7-4. Krav til søknad</a></li>
+<li class="lvl4"><a href="#7-5-dokumentasjon">§ 7-5. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#7-6-tilbakebetaling">§ 7-6. Tilbakebetaling</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse">Kapittel 8. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-06-20-864.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-06-20-864.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-06-20-864.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2019-06-20-864.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2019-06-20-864.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-06-20-864.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2019-06-20-864.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2019-06-20-864.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-06-20-864.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-for-reindriftens-utviklingsfond">Forskrift for Reindriftens Utviklingsfond</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Reindriftens Utviklingsfond skal gjennom bruk av økonomiske virkemidler bidra til å utvikle reindriftsnæringen i samsvar med de reindriftspolitiske mål.</p>
@@ -94,11 +255,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Det kan gis tilskudd for inntil 65 prosent av tilskuddsgrunnlaget, dersom ikke annet er bestemt for den enkelte ordningen.</p>
 <p>Fondsstyret kan i særlige tilfeller dispensere fra denne bestemmelsens fjerde ledd.</p>
 <p>Fondsstyrets virksomhet skal være i overensstemmelse med gjeldende regelverk for økonomistyring i staten.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</p>
 <h4 id="1-5-rapportering">§ 1-5. Rapportering <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Landbruksdirektoratet skal avlegge årsrapport for Reindriftens utviklingsfond innen 15. mars hvert år. Rapporten skal inneholde regnskap for siste år sammenholdt med budsjett og tidligere års regnskaper, samt en faglig evaluering av virksomheten.</p>
 <p>Regnskapet føres etter kontantprinsippet og Riksrevisjonen er revisor.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="1-6-virkeomrade">§ 1-6. Virkeområde <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskudd fra Reindriftens Utviklingsfond kan innvilges etter ordningene for</p>
 <ol>
@@ -118,22 +279,22 @@ g. forskning og kunnskapsformidling,
 h. tilrettelegging for at reineiere med nedsatt funksjonsevne kan delta i reindriftsarbeid,
 i. tilskudd til fjerning av gammelt gjerdemateriell,
 j. stipend på 15 000 kroner til personer med rein i eget merke som skriver reindriftsrelatert masteroppgave.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 20 juni 2024 nr. 1060 (i kraft 1 juli 2024), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 20 juni 2024 nr. 1060 (i kraft 1 juli 2024), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="1-7-fellesvilkar">§ 1-7. Fellesvilkår <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er et vilkår for å få støtte fra Reindriftens Utviklingsfond at tiltaket fremmer reindriften i distriktet og området. Der det er aktuelt må tiltakets påvirkning på beiteslitasje og miljøet for øvrig vurderes.</p>
 <p>Det er et vilkår for tilskudd etter denne forskrift at det omsøkte tiltaket er i samsvar med de til enhver tid gjeldende lover og forskrifter.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="1-8-krav-til-sknad">§ 1-8. Krav til søknad</h4>
 <p>Søknad om tilskudd fra Reindriftens Utviklingsfond skal sendes til Landbruksdirektoratet innen eventuell angitt frist.</p>
 <p>Dersom det er utarbeidet eget søknadsskjema for ordningen skal dette brukes. Nødvendig dokumentasjon skal vedlegges søknaden.</p>
 <h4 id="1-9-saksbehandling">§ 1-9. Saksbehandling <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-1-9.html" title="Endringshistorikk for § 1-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søknaden behandles av Landbruksdirektoratet, som avgir innstilling til styret for Reindriftens Utviklingsfond.</p>
 <p>Fondsstyret avgjør søknaden. Det kan fastsettes nærmere betingelser i tilskuddsvedtaket. Ved stemmelikhet har leder dobbeltstemme. Fondsstyret kan delegere avgjørelsesmyndighet til Landbruksdirektoratet.</p>
-<p><em>Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="1-10-utbetaling">§ 1-10. Utbetaling <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-1-10.html" title="Endringshistorikk for § 1-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Landbruksdirektoratet utbetaler 50 prosent av tilskuddet ved innvilgelse dersom ikke annet er bestemt for den enkelte ordning. Resterende blir utbetalt etter at Landbruksdirektoratet har godkjent innsendt regnskap og dokumentasjon.</p>
 <p>Uanvendt, innvilget tilskudd tilbakeføres til Reindriftens Utviklingsfond.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="1-11-opplysningsplikt-og-kontroll">§ 1-11. Opplysningsplikt og kontroll</h4>
 <p>Mottakere av tilskudd etter denne forskriften plikter å gi alle opplysninger som reindriftsmyndighetene finner nødvendige for å kunne forvalte tilskuddsordningen.</p>
 <p>Reindriftsmyndighetene kan foreta stedlig kontroll hos tilskuddsmottakeren.</p>
@@ -146,30 +307,30 @@ j. stipend på 15 000 kroner til personer med rein i eget merke som skriver rei
 <p>Differansen mellom utbetalt beløp og berettiget tilskudd som følge av vedtak om tilbakebetaling etter § 1-12 eller avkorting etter § 1-13 , kan kreves tilbakebetalt fra tilskuddsmottakeren eller motregnes i senere tilskuddsutbetalinger.</p>
 <p>Krav fra reindriftsmyndighetene kan motregnes i tilskuddsutbetalinger til tilskuddsmottakeren.</p>
 <p>Dersom tilskuddsmottakeren ikke var i aktsom god tro om utbetalingen, kan renter kreves fra det tidspunkt tilbakebetalingskravet er kommet fram til mottaker. Ved grov uaktsomhet eller forsett kan renter kreves fra tidspunktet for utbetaling av det urettmessige tilskuddet. Rentefoten skal settes lik den rentefot som til enhver tid er fastsatt av Finansdepartementet i medhold av § 3 i lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m.</p>
-<p><em>Endret ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="1-15-klageadgang">§ 1-15. Klageadgang</h4>
 <p>Vedtak etter denne forskrift kan påklages til Landbruks- og matdepartementet etter forvaltningslovens regler.</p>
 <h2 id="kapittel-2-opphevet">Kapittel 2. (Opphevet)</h2>
 <p>Kapittel 2 opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-1-opphevet">§ 2-1. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-2-opphevet">§ 2-2. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-3-opphevet">§ 2-3. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-4-opphevet">§ 2-4. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 20 juni 2022 nr. 1091 som endret ved forskrift 21 juni 2022 nr. 1121 (i kraft 1 juli 2022), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 20 juni 2022 nr. 1091 som endret ved forskrift 21 juni 2022 nr. 1121 (i kraft 1 juli 2022), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-5-opphevet">§ 2-5. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025) opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025) opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="2-6-opphevet">§ 2-6. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-3-tilskudd-til-reindriftsanlegg">Kapittel 3. Tilskudd til reindriftsanlegg</h2>
 <h4 id="3-1-formal">§ 3-1. Formål <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med tilskuddet er å bidra til å dekke utgifter til oppføring, endring og oppgradering av reindriftsanlegg.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="3-2-definisjoner">§ 3-2. Definisjoner <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med reindriftsanlegg menes permanente gjerder og anlegg, jf. reindriftsloven § 24 . Slakteanlegg kan unntas fra kravet om å være permanent.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="3-3-vilkar-for-tilskudd">§ 3-3. Vilkår for tilskudd <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskudd til reindriftsanlegg kan innvilges til siidaandel, siida, reinbeitedistrikt og reinlag.</p>
 <p>Tilskudd ytes kun til reindriftsanlegg som er beskrevet i godkjente bruksregler og vedtatte distriktsplaner. For reinlag skal reindriftsanlegg i stedet være beskrevet i vedtatte reindriftsplaner.</p>
@@ -182,30 +343,30 @@ c. rivning av reindriftsanlegg hvor eier- eller ansvarsforholdet er ukjent.</p>
 <p>Kostnader til vedlikehold og kostnader til flyttbare og midlertidige gjerder og anlegg er ikke tilskuddsberettigede kostnader, jf. § 3-4 .</p>
 <p>Det kan ikke innvilges tilskudd til anlegg som er gitt tilskudd etter forskrift om konfliktforebyggende tiltak i forholdet mellom reindrift og annen berørt part.</p>
 <p>Tiltaket må være gjennomført innen tre år fra bevilgningsdato.</p>
-<p><em>Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="3-4-tilskuddsberettigede-kostnader">§ 3-4. Tilskuddsberettigede kostnader <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskuddsberettigede kostnader er materialkostnader (med veggfast inventar), transport, spesialarbeid og eget arbeid.</p>
 <p>I særlige tilfeller, herunder bygging av større anlegg, kan leid konsulentbistand ansees som en tilskuddsberettiget kostnad. Ved slakte- og gjerdeanlegg kan også kostnadene til vei/parkering og vann/avløp inngå. Som spesialarbeid regnes elektriker-, rørlegger- og annet arbeid, som i henhold til gjeldende bestemmelser krever særlig kompetanse.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="3-5-tilskuddsgrunnlag">§ 3-5. Tilskuddsgrunnlag <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskuddsgrunnlaget er summen av de tilskuddsberettigede kostnadene for det omsøkte tiltaket.</p>
 <p>Tilskuddsgrunnlaget beregnes på grunnlag av netto materialkostnader (eksklusive merverdiavgift). For søkere som ikke har krav på fradrag for inngående merverdiavgift, tas merverdiavgiften med i beregningen av tilskuddsgrunnlaget.</p>
 <p>Timesatsen for eget arbeid er 210 kroner. Eget arbeid kan maksimalt utgjøre summen av de øvrige kostnadene som inngår i tilskuddsgrunnlaget, jf. § 3-4 .</p>
-<p><em>Tilføyd ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), endret ved forskrifter 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), endret ved forskrifter 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</p>
 <h4 id="3-6-utmaling-av-tilskudd">§ 3-6. Utmåling av tilskudd <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan gis tilskudd for inntil 35 prosent av tilskuddsgrunnlaget når søker er siidaandel/siida og inntil 50 prosent når søker er reinbeitedistrikt/reinlag, fellesbeitedistrikt eller minst to distrikter/reinlag i fellesskap. For slakteanlegg som klart er skilt fra øvrige anlegg kan det gis tilskudd for inntil 25 prosent av tilskuddsgrunnlaget. Nedre grense for tilskuddsgrunnlaget er fastsatt til 20 000 kroner.</p>
 <p>Styret for Reindriftens Utviklingsfond kan i særlige tilfeller dispensere fra denne bestemmelsens første ledd.</p>
-<p><em>Tilføyd ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021).</p>
 <h4 id="3-7-srskilt-krav-til-sknad">§ 3-7. Særskilt krav til søknad <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søknad om tilskudd sendes på særskilt skjema til Landbruksdirektoratet.</p>
 <p>Som vedlegg til søknad om tilskudd til reindriftsanlegg kreves oppføringstillatelse, spesifisert oversikt for alle kostnader knyttet til tiltaket, reell finansieringsplan og målsatt tegning av anlegget. Kostnader som ikke er tilskuddsberettiget, jf. § 3-4 , skal likevel tas med i kostnadsoversikten.</p>
 <p>For bygging, endring, utvidelse eller oppgradering av slakteri skal en spesifisert forretningsplan for minst tre år, samt nødvendige offentlige godkjenninger foreligge.</p>
 <p>For reindriftsanlegg med kostnad over 150 000 kroner skal det sendes skriftlig forespørsel til minst tre tilbydere på de tilskuddsberettigede kostnadene, jf. § 3-4 .</p>
 <p>Flere reindriftsanlegg som inngår i en helhet kan samles i én søknad, men kostnadene forutsettes da spesifisert i vedlegg til søknaden.</p>
-<p><em>Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021, tidligere § 3-5).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021, tidligere § 3-5).</p>
 <h4 id="3-8-rapportering">§ 3-8. Rapportering <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskuddsmottaker må innen ett år etter at anlegget er ferdigstilt sende inn rapport som skal omfatte regnskap og en beskrivelse av om eventuelle særskilte forutsetninger er oppfylt. Rapport sendes Landbruksdirektoratet.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021, tidligere § 3-6), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021, tidligere § 3-6), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h2 id="kapittel-4-refusjon-av-kursutgifter">Kapittel 4. Refusjon av kursutgifter</h2>
 <h4 id="4-1-formal">§ 4-1. Formål</h4>
 <p>Formålet med tilskuddet er å bidra til kompetanseheving i reindriften gjennom å gi støtte til kurs og etterutdanning.</p>
@@ -213,7 +374,7 @@ c. rivning av reindriftsanlegg hvor eier- eller ansvarsforholdet er ukjent.</p>
 <p>Reineiere kan få refundert utgifter til kursavgift, reise og opphold i forbindelse med kurs/etterutdanning som har som målsetting å opparbeide og/eller videreutvikle reindriftsutøverens kompetanse til utøvelse av reindrift.</p>
 <p>For at refusjon skal kunne innvilges må reineier ha rein i eget merke. Videre må reinlag eller siidaandel som søker tilhører oppfylle vilkårene i forskrift om tilskudd til siidaandeler og reinlag § 3 og § 4 .</p>
 <p>Dersom leder/ledere av siidaandel som søker tilhører oppfyller vilkårene for å motta etableringstilskudd etter forskrift om tilskudd til siidaandeler og reinlag § 9 gjelder ikke inntektskravet i forskrift om tilskudd til siidaandeler og reinlag § 3 første ledd nummer 2 .</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="4-3-beregning-av-sttte">§ 4-3. Beregning av støtte</h4>
 <p>Utgifter til kurs/etterutdanning kan refunderes med 50 prosent av dokumenterte utgifter, begrenset oppad til 6 000 kroner per år.</p>
 <h4 id="4-4-krav-til-sknaden">§ 4-4. Krav til søknaden</h4>
@@ -221,7 +382,7 @@ c. rivning av reindriftsanlegg hvor eier- eller ansvarsforholdet er ukjent.</p>
 <h2 id="kapittel-5-tilskudd-til-feltbarnehage">Kapittel 5. Tilskudd til feltbarnehage</h2>
 <h4 id="5-1-formal">§ 5-1. Formål</h4>
 <p>Formålet med tilskuddet er å legge til rette for at flere i familien kan delta under større reindriftsaktiviteter i reinbeitedistriktet, sommersiidaen, vintersiidaen eller reinlaget, samt å bidra til kunnskapsoppbygging hos barn om disse aktivitetene.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2269 (i kraft 1 juli 2021).</p>
 <h4 id="5-2-definisjoner">§ 5-2. Definisjoner</h4>
 <p>Med feltbarnehage menes organisert og tidsavgrenset pass av barn under skolepliktig alder i tilknytning til perioder med større reindriftsaktiviteter. Slik barnepass må omfatte tilrettelagte opplæringsaktiviteter i reindriften.</p>
 <h4 id="5-3-vilkar-for-tilskudd-til-feltbarnehage">§ 5-3. Vilkår for tilskudd til feltbarnehage <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -231,33 +392,33 @@ c. rivning av reindriftsanlegg hvor eier- eller ansvarsforholdet er ukjent.</p>
 <p>Den som utfører pass av barn, må være fylt 15 år.</p>
 <p>Reinbeitedistrikt, reinlag og reinbeitedistrikt som sommersiida tilhører må oppfylle vilkårene i forskrift om tilskudd til reinbeitedistrikter og reinlag § 2-1 .</p>
 <p>Dersom søker er siidaandelsleder i vintersiida, må siidaandelen oppfylle vilkårene i forskrift om tilskudd til siidaandeler og reinlag § 3 og § 4 . Dersom siidaandelsleder oppfyller vilkårene for å motta etableringstilskudd etter forskrift om tilskudd til siidaandeler og reinlag § 9 , gjelder ikke inntektskravet i forskrift om tilskudd til siidaandeler og reinlag § 3 første ledd nummer 2 .</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2269 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025), 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="5-4-tilskuddets-strrelse">§ 5-4. Tilskuddets størrelse <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-5-4.html" title="Endringshistorikk for § 5-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For barn fra og med fylte tre år kan det innvilges tilskudd med 1000 kroner per barn per uke.</p>
 <p>For barn under tre år kan det innvilges tilskudd med 2 000 kroner per barn per uke.</p>
-<p><em>Endret ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h4 id="5-5-srskilt-krav-til-sknad-og-sknadsfrist">§ 5-5. Særskilt krav til søknad og søknadsfrist <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-5-5.html" title="Endringshistorikk for § 5-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søknaden sendes Landbruksdirektoratet på særskilt skjema senest en måned etter at reindriftsaktiviteten er gjennomført.</p>
 <p>Søker må oppgi navn og fødselsdato på den som engasjeres til barnepasset, samt navn og fødselsdato og på de barn som omfattes. Avtale med barnepasser og bekreftelse på betaling til barnepasser må vedlegges.</p>
 <p>Søker må opplyse om hvilke aktiviteter barna har deltatt i, og start- og sluttdato for feltbarnehagen.</p>
-<p><em>Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2020 nr. 1422 (i kraft 1 juli 2020), 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</p>
 <h2 id="kapittel-6-opphevet">Kapittel 6. (Opphevet)</h2>
 <p>Kapittelet endret i sin helhet ved forskrift 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), endret i sin helhet ved forskrift 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="6-1-opphevet">§ 6-1. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="6-2-opphevet">§ 6-2. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="6-3-opphevet">§ 6-3. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="6-4-opphevet">§ 6-4. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h4 id="6-5-opphevet">§ 6-5. (Opphevet) <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-6-5.html" title="Endringshistorikk for § 6-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2306 (i kraft 1 juli 2021), 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), 21 juni 2023 nr. 1010 (i kraft 1 juli 2023), opphevet ved forskrift 20 juni 2024 nr. 1060 (i kraft 1 juli 2024).</p>
 <h2 id="kapittel-7-tilskudd-til-juridisk-bistand-til-reinbeitedistrikter-eller-siidaer">Kapittel 7. Tilskudd til juridisk bistand til reinbeitedistrikter eller siidaer</h2>
 <p>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h4 id="7-1-formal">§ 7-1. Formål <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med tilskuddet er å bidra til at reinbeitedistrikter eller siidaer får mulighet til å ivareta sine beiterettigheter.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h4 id="7-2-vilkar">§ 7-2. Vilkår <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Reinbeitedistrikter eller siidaer kan innvilges tilskudd til juridisk bistand i forbindelse med ivaretakelse av reindriftens beiterett i Norge. I slike saker innvilges det ikke tilskudd i tvister mellom norsk og svensk reindrift.</p>
 <p>Reinbeitedistrikter eller siidaer, som var omfattet av den opphevede reinbeitekonvensjonen av 9. februar 1972 nr. 1, kan innvilges tilskudd til juridisk bistand til domstolsbehandling i Sverige og Norge dersom svensk reindrift trekker reinbeitedistriktet eller siidaen inn i rettssaker om avklaring av rettigheter til reinbeitedistriktets eller siidaens:</p>
@@ -265,31 +426,33 @@ c. rivning av reindriftsanlegg hvor eier- eller ansvarsforholdet er ukjent.</p>
 b. beiteområder i Norge.</p>
 <p>Det innvilges ikke tilskudd i tvister internt i norsk reindrift eller i tvister mellom norsk reindrift og norske eller svenske reindriftsmyndigheter.</p>
 <p>Reinbeitedistrikt eller reinbeitedistrikt som siida tilhører må oppfylle vilkårene i forskrift om tilskudd til reinbeitedistrikter og reinlag § 2-1 .</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), endret ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), endret ved forskrift 22 juni 2026 nr. 1173 (i kraft 1 juli 2026).</p>
 <h4 id="7-3-tilskuddsberettigede-kostnader">§ 7-3. Tilskuddsberettigede kostnader <a class="para-history" href="../historikk/forskrift-2019-06-20-864/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilskudd kan innvilges til dekning av følgende nødvendige kostnader:</p>
 <p>a. juridisk bistand for inntil 100 timer i forbindelse med rettssak i første rettsinstans, og inntil 50 timer for hver ankeinstans. Tilskuddet beregnes ut fra antall dokumenterte timer. Det gis dekning etter den til enhver tid gjeldende offentlige salærsats i landet hvor rettssaken gjennomføres,
 b. reise og opphold, der slike utgifter har vært vesentlige og nødvendige i forbindelse med domstolsbehandling. Utgifter til reise dekkes etter statens satser. Utgifter til opphold dekkes etter regning, og
 c. juridisk bistand for inntil 50 timer i saker uten domstolsbehandling.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), endret ved forskrift 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022), endret ved forskrift 24 juni 2025 nr. 1259 (i kraft 1 juli 2025).</p>
 <h4 id="7-4-krav-til-sknad">§ 7-4. Krav til søknad</h4>
 <p>Søknad om tilskudd sendes på særskilt skjema til Landbruksdirektoratet.</p>
 <p>Som vedlegg til søknaden om tilskudd til juridisk bistand kreves oppdragsbekreftelse vedrørende juridisk bistand.</p>
 <p>Ved søknad om juridisk bistand i forbindelse med domstolsbehandling skal i tillegg dokumentasjon på at søker har initiert eller blitt trukket inn i rettsprosess vedlegges.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h4 id="7-5-dokumentasjon">§ 7-5. Dokumentasjon</h4>
 <p>For saker med domstolsbehandling må tilskuddsmottaker innen tre måneder etter domsavsigelse for hver rettsinstans dokumentere alle tilskuddsberettigede kostnader, jf. § 7-3 bokstav a og b.</p>
 <p>For saker uten domstolsbehandling må tilskuddsmottaker innen tre måneder etter at saken er avsluttet dokumentere tilskuddsberettigede kostnader, jf. § 7-3 bokstav c.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h4 id="7-6-tilbakebetaling">§ 7-6. Tilbakebetaling</h4>
 <p>Landbruksdirektoratet kan helt eller delvis kreve tilbakebetalt utbetalt tilskudd søker ikke har dokumentert i henhold til § 7-5 eller hvis søker får eller har fått dekket tilskuddsberettigede kostnader på annen måte.</p>
 <p>For øvrig gjelder de alminnelige reglene om retting av feilutbetaling, avkorting og tilbakeholdelse, og innkreving i § 1-12 til § 1-14 .</p>
-<p><em>Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022).</p>
 <h2 id="kapittel-8-ikrafttredelse">Kapittel 8. Ikrafttredelse</h2>
 <p>Endret ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022, tidligere kapittel 7).</p>
 <h4 id="8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft 1. juli 2019. Samtidig oppheves forskrift 21. juni 2011 nr. 616 for Reindriftens Utviklingsfond.</p>
-<p><em>Endret ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022, tidligere § 7-1).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2022 nr. 1091 (i kraft 1 juli 2022, tidligere § 7-1).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

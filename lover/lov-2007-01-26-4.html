@@ -19,64 +19,199 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2007-01-26-4.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om målenheter, måling og normaltid" href="../feeds/lov-2007-01-26-4.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Lov om målenheter, måling og normaltid</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2007-01-26-4</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>Forvaltnings- og kommunalrett &raquo; Offentlige reguleringer</dd>
-<dt>Ikrafttredelse</dt><dd>2008-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2013-04-12-13</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2007-01-26-4" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-definisjoner">§ 2. Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#3-myndighet">§ 3. Myndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-grunnleggende-maleteknisk-infrastruktur">Kapittel 2. Grunnleggende måleteknisk infrastruktur</a></li>
+<li class="lvl4"><a href="#4-malenheter">§ 4. Målenheter</a></li>
+<li class="lvl4"><a href="#5-realisering-av-malenheter">§ 5. Realisering av målenheter</a></li>
+<li class="lvl4"><a href="#6-norsk-normaltid">§ 6. Norsk normaltid</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-ved-salg-mv-av-maleredskaper">Kapittel 3. Krav ved salg mv. av måleredskaper</a></li>
+<li class="lvl4"><a href="#7-krav-til-maleredskapers-egenskaper-ved-salg-mv">§ 7. Krav til måleredskapers egenskaper ved salg mv.</a></li>
+<li class="lvl4"><a href="#8-samsvarsvurdering">§ 8. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#9-bortfall-av-beslutning-om-samsvar">§ 9. Bortfall av beslutning om samsvar</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-ved-bruk-av-maleredskaper-malinger">Kapittel 4. Krav ved bruk av måleredskaper (målinger)</a></li>
+<li class="lvl4"><a href="#10-krav-til-malinger-for-a-sikre-tilstrekkelig-nyaktige-maleresultater">§ 10. Krav til målinger for å sikre tilstrekkelig nøyaktige måleresultater</a></li>
+<li class="lvl4"><a href="#11-krav-til-bruk-av-srskilte-maleredskaper-og-malemetoder">§ 11. Krav til bruk av særskilte måleredskaper og målemetoder</a></li>
+<li class="lvl4"><a href="#12-krav-til-maleredskaper-som-allerede-er-tatt-i-bruk">§ 12. Krav til måleredskaper som allerede er tatt i bruk</a></li>
+<li class="lvl4"><a href="#13-krav-til-gyldig-beslutning-om-samsvar">§ 13. Krav til gyldig beslutning om samsvar</a></li>
+<li class="lvl4"><a href="#14-krav-pa-grunn-av-maleredskapets-plassering">§ 14. Krav på grunn av måleredskapets plassering</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-ved-angivelse-av-maleverdier">Kapittel 5. Krav ved angivelse av måleverdier</a></li>
+<li class="lvl4"><a href="#15-krav-ved-angivelse-av-maleresultater">§ 15. Krav ved angivelse av måleresultater</a></li>
+<li class="lvl4"><a href="#16-krav-til-produkters-kvantitative-innhold">§ 16. Krav til produkters kvantitative innhold</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-plikter-og-krav">Kapittel 6. Særlige plikter og krav</a></li>
+<li class="lvl4"><a href="#17-plikter-for-a-sikre-etterlevelse-av-regelverket">§ 17. Plikter for å sikre etterlevelse av regelverket</a></li>
+<li class="lvl4"><a href="#18-plikter-for-andre-som-har-oppgaver-i-forhold-til-maleredskaper-og-malinger">§ 18. Plikter for andre som har oppgaver i forhold til måleredskaper og målinger</a></li>
+<li class="lvl4"><a href="#19-krav-til-merking-av-maleredskaper">§ 19. Krav til merking av måleredskaper</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilsyn">Kapittel 7. Tilsyn</a></li>
+<li class="lvl4"><a href="#20-tilsyn">§ 20. Tilsyn</a></li>
+<li class="lvl4"><a href="#21-justervesenets-utfrelse-av-kontroll-pa-anmodning">§ 21. Justervesenets utførelse av kontroll på anmodning</a></li>
+<li class="lvl4"><a href="#22-uhindret-adgang">§ 22. Uhindret adgang</a></li>
+<li class="lvl4"><a href="#23-rett-til-opplysninger">§ 23. Rett til opplysninger</a></li>
+<li class="lvl4"><a href="#24-praktisk-bistand-og-tilretteleggelse-for-tilsynsarbeidet">§ 24. Praktisk bistand og tilretteleggelse for tilsynsarbeidet</a></li>
+<li class="lvl4"><a href="#25-opplysninger-for-a-vurdere-behovet-for-nye-regler-mv">§ 25. Opplysninger for å vurdere behovet for nye regler mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-reaksjoner-ved-brudd-pa-regelverket">Kapittel 8. Reaksjoner ved brudd på regelverket</a></li>
+<li class="lvl4"><a href="#26-retting-stansing-og-ubrukbargjring">§ 26. Retting, stansing og ubrukbargjøring</a></li>
+<li class="lvl4"><a href="#27-omsetningsforbud-og-tilbaketrekking">§ 27. Omsetningsforbud og tilbaketrekking</a></li>
+<li class="lvl4"><a href="#28-tilbakekall-av-godkjenning">§ 28. Tilbakekall av godkjenning</a></li>
+<li class="lvl4"><a href="#29-tvangsmulkt">§ 29. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#30-overtredelsesgebyr">§ 30. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-9-utfyllende-bestemmelser">Kapittel 9. Utfyllende bestemmelser</a></li>
+<li class="lvl4"><a href="#31-gebyrer-og-avgifter">§ 31. Gebyrer og avgifter</a></li>
+<li class="lvl4"><a href="#32-saksbehandlingsregler">§ 32. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#33-ikrafttredelse">§ 33. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#34-oppheving-og-endring-av-andre-lover">§ 34. Oppheving og endring av andre lover</a></li>
+<li class="lvl4"><a href="#35-overgangsbestemmelser">§ 35. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2013-04-12-13.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-01-26-4.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om målenheter, måling og normaltid</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2007-01-26-4.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2007-01-26-4 <code>lov/2007-01-26-4</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om målenheter, måling og normaltid</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Forvaltnings- og kommunalrett &raquo; Offentlige reguleringer</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2008</td></tr>
+<tr><th>Sist endret</th><td>LOV-2013-04-12-13 <code>lov/2013-04-12-13</code> fra 12.04.2013</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2007-01-26-4" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-definisjoner">§ 2. Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#3-myndighet">§ 3. Myndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-grunnleggende-maleteknisk-infrastruktur">Kapittel 2. Grunnleggende måleteknisk infrastruktur</a></li>
+<li class="lvl4"><a href="#4-malenheter">§ 4. Målenheter</a></li>
+<li class="lvl4"><a href="#5-realisering-av-malenheter">§ 5. Realisering av målenheter</a></li>
+<li class="lvl4"><a href="#6-norsk-normaltid">§ 6. Norsk normaltid</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-ved-salg-mv-av-maleredskaper">Kapittel 3. Krav ved salg mv. av måleredskaper</a></li>
+<li class="lvl4"><a href="#7-krav-til-maleredskapers-egenskaper-ved-salg-mv">§ 7. Krav til måleredskapers egenskaper ved salg mv.</a></li>
+<li class="lvl4"><a href="#8-samsvarsvurdering">§ 8. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#9-bortfall-av-beslutning-om-samsvar">§ 9. Bortfall av beslutning om samsvar</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-ved-bruk-av-maleredskaper-malinger">Kapittel 4. Krav ved bruk av måleredskaper (målinger)</a></li>
+<li class="lvl4"><a href="#10-krav-til-malinger-for-a-sikre-tilstrekkelig-nyaktige-maleresultater">§ 10. Krav til målinger for å sikre tilstrekkelig nøyaktige måleresultater</a></li>
+<li class="lvl4"><a href="#11-krav-til-bruk-av-srskilte-maleredskaper-og-malemetoder">§ 11. Krav til bruk av særskilte måleredskaper og målemetoder</a></li>
+<li class="lvl4"><a href="#12-krav-til-maleredskaper-som-allerede-er-tatt-i-bruk">§ 12. Krav til måleredskaper som allerede er tatt i bruk</a></li>
+<li class="lvl4"><a href="#13-krav-til-gyldig-beslutning-om-samsvar">§ 13. Krav til gyldig beslutning om samsvar</a></li>
+<li class="lvl4"><a href="#14-krav-pa-grunn-av-maleredskapets-plassering">§ 14. Krav på grunn av måleredskapets plassering</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-ved-angivelse-av-maleverdier">Kapittel 5. Krav ved angivelse av måleverdier</a></li>
+<li class="lvl4"><a href="#15-krav-ved-angivelse-av-maleresultater">§ 15. Krav ved angivelse av måleresultater</a></li>
+<li class="lvl4"><a href="#16-krav-til-produkters-kvantitative-innhold">§ 16. Krav til produkters kvantitative innhold</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-plikter-og-krav">Kapittel 6. Særlige plikter og krav</a></li>
+<li class="lvl4"><a href="#17-plikter-for-a-sikre-etterlevelse-av-regelverket">§ 17. Plikter for å sikre etterlevelse av regelverket</a></li>
+<li class="lvl4"><a href="#18-plikter-for-andre-som-har-oppgaver-i-forhold-til-maleredskaper-og-malinger">§ 18. Plikter for andre som har oppgaver i forhold til måleredskaper og målinger</a></li>
+<li class="lvl4"><a href="#19-krav-til-merking-av-maleredskaper">§ 19. Krav til merking av måleredskaper</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilsyn">Kapittel 7. Tilsyn</a></li>
+<li class="lvl4"><a href="#20-tilsyn">§ 20. Tilsyn</a></li>
+<li class="lvl4"><a href="#21-justervesenets-utfrelse-av-kontroll-pa-anmodning">§ 21. Justervesenets utførelse av kontroll på anmodning</a></li>
+<li class="lvl4"><a href="#22-uhindret-adgang">§ 22. Uhindret adgang</a></li>
+<li class="lvl4"><a href="#23-rett-til-opplysninger">§ 23. Rett til opplysninger</a></li>
+<li class="lvl4"><a href="#24-praktisk-bistand-og-tilretteleggelse-for-tilsynsarbeidet">§ 24. Praktisk bistand og tilretteleggelse for tilsynsarbeidet</a></li>
+<li class="lvl4"><a href="#25-opplysninger-for-a-vurdere-behovet-for-nye-regler-mv">§ 25. Opplysninger for å vurdere behovet for nye regler mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-reaksjoner-ved-brudd-pa-regelverket">Kapittel 8. Reaksjoner ved brudd på regelverket</a></li>
+<li class="lvl4"><a href="#26-retting-stansing-og-ubrukbargjring">§ 26. Retting, stansing og ubrukbargjøring</a></li>
+<li class="lvl4"><a href="#27-omsetningsforbud-og-tilbaketrekking">§ 27. Omsetningsforbud og tilbaketrekking</a></li>
+<li class="lvl4"><a href="#28-tilbakekall-av-godkjenning">§ 28. Tilbakekall av godkjenning</a></li>
+<li class="lvl4"><a href="#29-tvangsmulkt">§ 29. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#30-overtredelsesgebyr">§ 30. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-9-utfyllende-bestemmelser">Kapittel 9. Utfyllende bestemmelser</a></li>
+<li class="lvl4"><a href="#31-gebyrer-og-avgifter">§ 31. Gebyrer og avgifter</a></li>
+<li class="lvl4"><a href="#32-saksbehandlingsregler">§ 32. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#33-ikrafttredelse">§ 33. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#34-oppheving-og-endring-av-andre-lover">§ 34. Oppheving og endring av andre lover</a></li>
+<li class="lvl4"><a href="#35-overgangsbestemmelser">§ 35. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-01-26-4.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2007-01-26-4.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2007-01-26-4.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2007-01-26-4.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2007-01-26-4.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/a38654ef2cac6c5bfe8ecd7c09522022d7cad361/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2007-01-26-4.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2007-01-26-4.html">Observerte kildeutgaver</a> · <a href="../historie/målenheter-måling-og-normaltid.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2007/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2007-01-26-4.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-malenheter-maling-og-normaltid">Lov om målenheter, måling og normaltid</h1>
 <h2 id="kapittel-1-innledning">Kapittel 1. Innledning</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Lovens formål er å sikre en måleteknisk infrastruktur som har tillit nasjonalt og internasjonalt samt å bidra til en effektiv bruk av samfunnets ressurser.</p>
@@ -235,6 +370,8 @@ Endret ved lov 12 apr 2013 nr. 13 .</em></p>
 <p>Forskrifter gitt med hjemmel i lov 31. oktober 1946 nr. 2 om mål og vekt og log 29. juni 1894 nr. 1 um sams normaltid fyr kongeriket Norig gjelder også etter at loven her har trådt i kraft, med mindre de strider mot bestemmelser i denne lov eller bestemmelser fastsatt i medhold av loven.</p>
 <p>Departementet fastsetter i forskrift hvilke måleredskaper som det skal videreføres nærmere krav til, og i hvilke situasjoner, i en overgangsperiode inntil ny vurdering av om nærmere krav skal gjelde er foretatt i medhold av §§ 7 og 10 .</p>
 <p>Departementet kan også fastsette andre særskilte overgangsregler i forskrift.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

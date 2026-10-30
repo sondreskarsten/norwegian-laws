@@ -19,64 +19,259 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-05-28-1888.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om masterstudiene ved AHO" href="../feeds/forskrift-2010-05-28-1888.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om masterstudiene ved AHO</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2010-05-28-1888</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-08-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2010-05-28-1888" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftens-virkeomrade-og-formal">§ 1. Forskriftens virkeområde og formål</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-opptak-og-sknadsfrister">§ 3. Opptak og søknadsfrister</a></li>
+<li class="lvl3"><a href="#3-1-opptak-til-frste-ar">§ 3-1. Opptak til første år</a></li>
+<li class="lvl3"><a href="#3-2-overgang-til-annet-studieprogram">§ 3-2. Overgang til annet studieprogram</a></li>
+<li class="lvl3"><a href="#3-3-godkjenning-av-tidligere-utdanninginnpassing-i-studiet">§ 3-3. Godkjenning av tidligere utdanning/innpassing i studiet</a></li>
+<li class="lvl3"><a href="#3-4-opptak-til-masterniva">§ 3-4. Opptak til masternivå</a></li>
+<li class="lvl3"><a href="#3-5-utveksling">§ 3-5. Utveksling</a></li>
+<li class="lvl3"><a href="#3-6-gjestestudenter">§ 3-6. Gjestestudenter</a></li>
+<li class="lvl3"><a href="#3-7-kvoteordning">§ 3-7. Kvoteordning</a></li>
+<li class="lvl3"><a href="#3-8-sprakkrav">§ 3-8. Språkkrav</a></li>
+<li class="lvl3"><a href="#3-9-klage-pa-opptak">§ 3-9. Klage på opptak</a></li>
+<li class="lvl3"><a href="#3-10-utsatt-studiestart">§ 3-10. Utsatt studiestart</a></li>
+<li class="lvl3"><a href="#4-studierett-og-utdanningsplaner">§ 4. Studierett og utdanningsplaner</a></li>
+<li class="lvl3"><a href="#4-1-studierett">§ 4-1. Studierett</a></li>
+<li class="lvl3"><a href="#4-2-opphr-av-studierett">§ 4-2. Opphør av studierett</a></li>
+<li class="lvl3"><a href="#4-3-utdanningsplan">§ 4-3. Utdanningsplan</a></li>
+<li class="lvl3"><a href="#4-4-kurs-og-semesterregistrering">§ 4-4. Kurs- og semesterregistrering</a></li>
+<li class="lvl3"><a href="#5-studier">§ 5. Studier</a></li>
+<li class="lvl3"><a href="#5-1-studieordning">§ 5-1. Studieordning</a></li>
+<li class="lvl3"><a href="#5-2-studiearet">§ 5-2. Studieåret</a></li>
+<li class="lvl3"><a href="#5-3-selvprogrammering">§ 5-3. Selvprogrammering</a></li>
+<li class="lvl3"><a href="#5-4-krav-til-innlevering">§ 5-4. Krav til innlevering</a></li>
+<li class="lvl3"><a href="#5-5-studieplan">§ 5-5. Studieplan</a></li>
+<li class="lvl3"><a href="#5-6-semesterplan">§ 5-6. Semesterplan</a></li>
+<li class="lvl3"><a href="#5-7-opphavsrett">§ 5-7. Opphavsrett</a></li>
+<li class="lvl3"><a href="#5-8-endring-av-studieplan">§ 5-8. Endring av studieplan</a></li>
+<li class="lvl3"><a href="#5-9-karakterutskrift">§ 5-9. Karakterutskrift</a></li>
+<li class="lvl3"><a href="#5-10-grader-og-vitnemal">§ 5-10. Grader og vitnemål</a></li>
+<li class="lvl3"><a href="#5-11-utveksling">§ 5-11. Utveksling</a></li>
+<li class="lvl3"><a href="#5-12-permisjon">§ 5-12. Permisjon</a></li>
+<li class="lvl3"><a href="#6-eksamen">§ 6. Eksamen</a></li>
+<li class="lvl3"><a href="#6-1-eksamen">§ 6-1. Eksamen</a></li>
+<li class="lvl3"><a href="#6-2-oppmelding-til-eksamen">§ 6-2. Oppmelding til eksamen</a></li>
+<li class="lvl3"><a href="#6-3-vilkar-for-adgang-til-eksamen">§ 6-3. Vilkår for adgang til eksamen</a></li>
+<li class="lvl3"><a href="#6-4-tilrettelegging-av-eksamen-eller-prve-for-studenter-med-srskilte-behov">§ 6-4. Tilrettelegging av eksamen eller prøve for studenter med særskilte behov</a></li>
+<li class="lvl3"><a href="#6-5-forfall-til-eksamen">§ 6-5. Forfall til eksamen</a></li>
+<li class="lvl3"><a href="#6-6-antall-forsk-til-eksamen">§ 6-6. Antall forsøk til eksamen</a></li>
+<li class="lvl3"><a href="#6-7-supplering-og-kontinuasjon">§ 6-7. Supplering og kontinuasjon</a></li>
+<li class="lvl3"><a href="#6-8-utsatt-innlevering">§ 6-8. Utsatt innlevering</a></li>
+<li class="lvl3"><a href="#6-9-fravr-ved-eksamen">§ 6-9. Fravær ved eksamen</a></li>
+<li class="lvl3"><a href="#6-10-ny-eksamen">§ 6-10. Ny eksamen</a></li>
+<li class="lvl3"><a href="#6-11-kriterier-for-bedmmelse">§ 6-11. Kriterier for bedømmelse</a></li>
+<li class="lvl3"><a href="#6-12-sensur">§ 6-12. Sensur</a></li>
+<li class="lvl3"><a href="#6-13-sensorutvalg">§ 6-13. Sensorutvalg</a></li>
+<li class="lvl3"><a href="#6-14-karakterer">§ 6-14. Karakterer</a></li>
+<li class="lvl3"><a href="#6-15-annullering-av-eksamen">§ 6-15. Annullering av eksamen</a></li>
+<li class="lvl3"><a href="#6-16-bruk-av-hjelpemidler">§ 6-16. Bruk av hjelpemidler</a></li>
+<li class="lvl3"><a href="#6-17-bedmming-av-gruppearbeid">§ 6-17. Bedømming av gruppearbeid</a></li>
+<li class="lvl3"><a href="#6-18-fusk-ved-eksamen">§ 6-18. Fusk ved eksamen</a></li>
+<li class="lvl3"><a href="#6-19-klage-pa-formelle-feil-ved-eksamen">§ 6-19. Klage på formelle feil ved eksamen</a></li>
+<li class="lvl3"><a href="#6-20-klage-over-karakterfastsetting">§ 6-20. Klage over karakterfastsetting</a></li>
+<li class="lvl3"><a href="#7-diplom">§ 7. Diplom</a></li>
+<li class="lvl3"><a href="#7-1-oppmelding">§ 7-1. Oppmelding</a></li>
+<li class="lvl3"><a href="#7-2-omfang">§ 7-2. Omfang</a></li>
+<li class="lvl3"><a href="#7-3-varighet">§ 7-3. Varighet</a></li>
+<li class="lvl3"><a href="#7-4-program">§ 7-4. Program</a></li>
+<li class="lvl3"><a href="#7-5-ansvarsforhold-og-veiledning">§ 7-5. Ansvarsforhold og veiledning</a></li>
+<li class="lvl3"><a href="#7-6-innlevering">§ 7-6. Innlevering</a></li>
+<li class="lvl3"><a href="#7-7-utsatt-innlevering">§ 7-7. Utsatt innlevering</a></li>
+<li class="lvl3"><a href="#7-8-kriterier-for-bedmmelse">§ 7-8. Kriterier for bedømmelse</a></li>
+<li class="lvl3"><a href="#7-9-sensorer">§ 7-9. Sensorer</a></li>
+<li class="lvl3"><a href="#7-10-sensur">§ 7-10. Sensur</a></li>
+<li class="lvl3"><a href="#8-erfaringsbasert-mastergrad">§ 8. Erfaringsbasert mastergrad</a></li>
+<li class="lvl3"><a href="#8-1-opptak">§ 8-1. Opptak</a></li>
+<li class="lvl3"><a href="#8-2-studieordning">§ 8-2. Studieordning</a></li>
+<li class="lvl3"><a href="#8-3-godkjenning-av-tidligere-utdanninginnpassing-i-studiet">§ 8-3. Godkjenning av tidligere utdanning/innpassing i studiet</a></li>
+<li class="lvl3"><a href="#8-4-fravr-sykdom-og-adgang-til-utsatt-innlevering">§ 8-4. Fravær, sykdom og adgang til utsatt innlevering</a></li>
+<li class="lvl3"><a href="#8-5-kontinuasjon">§ 8-5. Kontinuasjon</a></li>
+<li class="lvl3"><a href="#8-6-masteroppgave">§ 8-6. Masteroppgave</a></li>
+<li class="lvl3"><a href="#8-7-sensur">§ 8-7. Sensur</a></li>
+<li class="lvl3"><a href="#8-8-sensorutvalg">§ 8-8. Sensorutvalg</a></li>
+<li class="lvl3"><a href="#9-bortvisning-og-utestengning">§ 9. Bortvisning og utestengning</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#10-1">§ 10-1</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-05-28-1888.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om masterstudiene ved Arkitektur- og designhøgskolen i Oslo</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-05-28-1888.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2010-05-28-1888 <code>forskrift/2010-05-28-1888</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om masterstudiene ved AHO</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2011</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2010-05-28-1888" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftens-virkeomrade-og-formal">§ 1. Forskriftens virkeområde og formål</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-opptak-og-sknadsfrister">§ 3. Opptak og søknadsfrister</a></li>
+<li class="lvl3"><a href="#3-1-opptak-til-frste-ar">§ 3-1. Opptak til første år</a></li>
+<li class="lvl3"><a href="#3-2-overgang-til-annet-studieprogram">§ 3-2. Overgang til annet studieprogram</a></li>
+<li class="lvl3"><a href="#3-3-godkjenning-av-tidligere-utdanninginnpassing-i-studiet">§ 3-3. Godkjenning av tidligere utdanning/innpassing i studiet</a></li>
+<li class="lvl3"><a href="#3-4-opptak-til-masterniva">§ 3-4. Opptak til masternivå</a></li>
+<li class="lvl3"><a href="#3-5-utveksling">§ 3-5. Utveksling</a></li>
+<li class="lvl3"><a href="#3-6-gjestestudenter">§ 3-6. Gjestestudenter</a></li>
+<li class="lvl3"><a href="#3-7-kvoteordning">§ 3-7. Kvoteordning</a></li>
+<li class="lvl3"><a href="#3-8-sprakkrav">§ 3-8. Språkkrav</a></li>
+<li class="lvl3"><a href="#3-9-klage-pa-opptak">§ 3-9. Klage på opptak</a></li>
+<li class="lvl3"><a href="#3-10-utsatt-studiestart">§ 3-10. Utsatt studiestart</a></li>
+<li class="lvl3"><a href="#4-studierett-og-utdanningsplaner">§ 4. Studierett og utdanningsplaner</a></li>
+<li class="lvl3"><a href="#4-1-studierett">§ 4-1. Studierett</a></li>
+<li class="lvl3"><a href="#4-2-opphr-av-studierett">§ 4-2. Opphør av studierett</a></li>
+<li class="lvl3"><a href="#4-3-utdanningsplan">§ 4-3. Utdanningsplan</a></li>
+<li class="lvl3"><a href="#4-4-kurs-og-semesterregistrering">§ 4-4. Kurs- og semesterregistrering</a></li>
+<li class="lvl3"><a href="#5-studier">§ 5. Studier</a></li>
+<li class="lvl3"><a href="#5-1-studieordning">§ 5-1. Studieordning</a></li>
+<li class="lvl3"><a href="#5-2-studiearet">§ 5-2. Studieåret</a></li>
+<li class="lvl3"><a href="#5-3-selvprogrammering">§ 5-3. Selvprogrammering</a></li>
+<li class="lvl3"><a href="#5-4-krav-til-innlevering">§ 5-4. Krav til innlevering</a></li>
+<li class="lvl3"><a href="#5-5-studieplan">§ 5-5. Studieplan</a></li>
+<li class="lvl3"><a href="#5-6-semesterplan">§ 5-6. Semesterplan</a></li>
+<li class="lvl3"><a href="#5-7-opphavsrett">§ 5-7. Opphavsrett</a></li>
+<li class="lvl3"><a href="#5-8-endring-av-studieplan">§ 5-8. Endring av studieplan</a></li>
+<li class="lvl3"><a href="#5-9-karakterutskrift">§ 5-9. Karakterutskrift</a></li>
+<li class="lvl3"><a href="#5-10-grader-og-vitnemal">§ 5-10. Grader og vitnemål</a></li>
+<li class="lvl3"><a href="#5-11-utveksling">§ 5-11. Utveksling</a></li>
+<li class="lvl3"><a href="#5-12-permisjon">§ 5-12. Permisjon</a></li>
+<li class="lvl3"><a href="#6-eksamen">§ 6. Eksamen</a></li>
+<li class="lvl3"><a href="#6-1-eksamen">§ 6-1. Eksamen</a></li>
+<li class="lvl3"><a href="#6-2-oppmelding-til-eksamen">§ 6-2. Oppmelding til eksamen</a></li>
+<li class="lvl3"><a href="#6-3-vilkar-for-adgang-til-eksamen">§ 6-3. Vilkår for adgang til eksamen</a></li>
+<li class="lvl3"><a href="#6-4-tilrettelegging-av-eksamen-eller-prve-for-studenter-med-srskilte-behov">§ 6-4. Tilrettelegging av eksamen eller prøve for studenter med særskilte behov</a></li>
+<li class="lvl3"><a href="#6-5-forfall-til-eksamen">§ 6-5. Forfall til eksamen</a></li>
+<li class="lvl3"><a href="#6-6-antall-forsk-til-eksamen">§ 6-6. Antall forsøk til eksamen</a></li>
+<li class="lvl3"><a href="#6-7-supplering-og-kontinuasjon">§ 6-7. Supplering og kontinuasjon</a></li>
+<li class="lvl3"><a href="#6-8-utsatt-innlevering">§ 6-8. Utsatt innlevering</a></li>
+<li class="lvl3"><a href="#6-9-fravr-ved-eksamen">§ 6-9. Fravær ved eksamen</a></li>
+<li class="lvl3"><a href="#6-10-ny-eksamen">§ 6-10. Ny eksamen</a></li>
+<li class="lvl3"><a href="#6-11-kriterier-for-bedmmelse">§ 6-11. Kriterier for bedømmelse</a></li>
+<li class="lvl3"><a href="#6-12-sensur">§ 6-12. Sensur</a></li>
+<li class="lvl3"><a href="#6-13-sensorutvalg">§ 6-13. Sensorutvalg</a></li>
+<li class="lvl3"><a href="#6-14-karakterer">§ 6-14. Karakterer</a></li>
+<li class="lvl3"><a href="#6-15-annullering-av-eksamen">§ 6-15. Annullering av eksamen</a></li>
+<li class="lvl3"><a href="#6-16-bruk-av-hjelpemidler">§ 6-16. Bruk av hjelpemidler</a></li>
+<li class="lvl3"><a href="#6-17-bedmming-av-gruppearbeid">§ 6-17. Bedømming av gruppearbeid</a></li>
+<li class="lvl3"><a href="#6-18-fusk-ved-eksamen">§ 6-18. Fusk ved eksamen</a></li>
+<li class="lvl3"><a href="#6-19-klage-pa-formelle-feil-ved-eksamen">§ 6-19. Klage på formelle feil ved eksamen</a></li>
+<li class="lvl3"><a href="#6-20-klage-over-karakterfastsetting">§ 6-20. Klage over karakterfastsetting</a></li>
+<li class="lvl3"><a href="#7-diplom">§ 7. Diplom</a></li>
+<li class="lvl3"><a href="#7-1-oppmelding">§ 7-1. Oppmelding</a></li>
+<li class="lvl3"><a href="#7-2-omfang">§ 7-2. Omfang</a></li>
+<li class="lvl3"><a href="#7-3-varighet">§ 7-3. Varighet</a></li>
+<li class="lvl3"><a href="#7-4-program">§ 7-4. Program</a></li>
+<li class="lvl3"><a href="#7-5-ansvarsforhold-og-veiledning">§ 7-5. Ansvarsforhold og veiledning</a></li>
+<li class="lvl3"><a href="#7-6-innlevering">§ 7-6. Innlevering</a></li>
+<li class="lvl3"><a href="#7-7-utsatt-innlevering">§ 7-7. Utsatt innlevering</a></li>
+<li class="lvl3"><a href="#7-8-kriterier-for-bedmmelse">§ 7-8. Kriterier for bedømmelse</a></li>
+<li class="lvl3"><a href="#7-9-sensorer">§ 7-9. Sensorer</a></li>
+<li class="lvl3"><a href="#7-10-sensur">§ 7-10. Sensur</a></li>
+<li class="lvl3"><a href="#8-erfaringsbasert-mastergrad">§ 8. Erfaringsbasert mastergrad</a></li>
+<li class="lvl3"><a href="#8-1-opptak">§ 8-1. Opptak</a></li>
+<li class="lvl3"><a href="#8-2-studieordning">§ 8-2. Studieordning</a></li>
+<li class="lvl3"><a href="#8-3-godkjenning-av-tidligere-utdanninginnpassing-i-studiet">§ 8-3. Godkjenning av tidligere utdanning/innpassing i studiet</a></li>
+<li class="lvl3"><a href="#8-4-fravr-sykdom-og-adgang-til-utsatt-innlevering">§ 8-4. Fravær, sykdom og adgang til utsatt innlevering</a></li>
+<li class="lvl3"><a href="#8-5-kontinuasjon">§ 8-5. Kontinuasjon</a></li>
+<li class="lvl3"><a href="#8-6-masteroppgave">§ 8-6. Masteroppgave</a></li>
+<li class="lvl3"><a href="#8-7-sensur">§ 8-7. Sensur</a></li>
+<li class="lvl3"><a href="#8-8-sensorutvalg">§ 8-8. Sensorutvalg</a></li>
+<li class="lvl3"><a href="#9-bortvisning-og-utestengning">§ 9. Bortvisning og utestengning</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#10-1">§ 10-1</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-05-28-1888.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-05-28-1888.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-05-28-1888.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2010-05-28-1888.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2010-05-28-1888.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-2010-05-28-1888.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2010-05-28-1888.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-05-28-1888.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-masterstudiene-ved-arkitektur-og-designhgskolen-i-oslo">Forskrift om masterstudiene ved Arkitektur- og designhøgskolen i Oslo</h1>
 <h3 id="1-forskriftens-virkeomrade-og-formal">§ 1. Forskriftens virkeområde og formål</h3>
 <p>Forskriften gjelder for masterstudiene ved Arkitektur- og designhøgskolen i Oslo (AHO). Forskriften gir regler om organisering av studier, gjennomføring av vurderinger, krav for tildeling av grader og bestemmelser om AHOs og studentenes rettigheter og plikter ved AHO. Forskriften skal kvalitetssikre en forsvarlig gjennomføring av studiene ved AHO.</p>
 <p>Forskriften forutsetter at studentene følger normert studieprogresjon. For studenter som har søkt om og fått innvilget avvik fra normert progresjon, skal anvendelsen av reglene ta hensyn til dette, med mindre noe annet er særskilt angitt.</p>
@@ -409,6 +604,8 @@ g. er utestengt i henhold til UH-lovens § 4-8.</p>
 <h3 id="10-ikrafttredelse">§ 10. Ikrafttredelse</h3>
 <h3 id="10-1">§ 10-1</h3>
 <p>Forskriften trer i kraft 1. august 2011.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

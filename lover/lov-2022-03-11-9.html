@@ -19,64 +19,419 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2022-03-11-9.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Vareførselsloven – vfl." href="../feeds/lov-2022-03-11-9.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Vareførselsloven – vfl.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2022-03-11-9</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skatte- og avgiftsrett &raquo; Toll</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-23-67</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2022-03-11-9" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-politiattest-og-tildeling-av-myndighet-til-studenter-i-praksis">§ 1-4. Politiattest og tildeling av myndighet til studenter i praksis</a></li>
+<li class="lvl4"><a href="#1-5-forholdet-til-forvaltningsloven">§ 1-5. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-plikter-ved-ankomst-til-tollomradet">Kapittel 2 Plikter ved ankomst til tollområdet</a></li>
+<li class="lvl4"><a href="#2-1-forhandsvarsel-om-varer">§ 2-1. Forhåndsvarsel om varer</a></li>
+<li class="lvl4"><a href="#2-2-bestemmelsessted-ved-ankomst-til-tollomradet">§ 2-2. Bestemmelsessted ved ankomst til tollområdet</a></li>
+<li class="lvl4"><a href="#2-3-melde-og-opplysningsplikt-om-ankomst-til-bestemmelsessted-i-tollomradet">§ 2-3. Melde- og opplysningsplikt om ankomst til bestemmelsessted i tollområdet</a></li>
+<li class="lvl4"><a href="#2-4-fremleggelse-av-varer-for-kontroll">§ 2-4. Fremleggelse av varer for kontroll</a></li>
+<li class="lvl4"><a href="#2-5-tillatelse-til-videre-transport-i-tollomradet">§ 2-5. Tillatelse til videre transport i tollområdet</a></li>
+<li class="lvl4"><a href="#2-6-lossing">§ 2-6. Lossing</a></li>
+<li class="lvl2"><a href="#kapittel-3-tollbehandling-ved-innfrsel">Kapittel 3 Tollbehandling ved innførsel</a></li>
+<li class="lvl4"><a href="#3-1-tollbehandling-av-varer-som-innfres-til-tollomradet">§ 3-1. Tollbehandling av varer som innføres til tollområdet</a></li>
+<li class="lvl4"><a href="#3-2-deklarering-av-varer">§ 3-2. Deklarering av varer</a></li>
+<li class="lvl4"><a href="#3-3-levering-av-deklarasjon">§ 3-3. Levering av deklarasjon</a></li>
+<li class="lvl4"><a href="#3-4-aksept-av-deklarasjon">§ 3-4. Aksept av deklarasjon</a></li>
+<li class="lvl4"><a href="#3-5-frigjring-av-vare">§ 3-5. Frigjøring av vare</a></li>
+<li class="lvl4"><a href="#3-6-annen-disponering-av-vare-enn-etter-den-deklarerte-prosedyren">§ 3-6. Annen disponering av vare enn etter den deklarerte prosedyren</a></li>
+<li class="lvl4"><a href="#3-7-adgang-til-a-gjenutfre-eller-avsta-vare-til-tollmyndighetene">§ 3-7. Adgang til å gjenutføre eller avstå vare til tollmyndighetene</a></li>
+<li class="lvl2"><a href="#kapittel-4-tollprosedyrer-ved-innfrsel">Kapittel 4 Tollprosedyrer ved innførsel</a></li>
+<li class="lvl4"><a href="#4-1-prosedyren-overgang-til-fri-disponering">§ 4-1. Prosedyren overgang til fri disponering</a></li>
+<li class="lvl4"><a href="#4-2-prosedyren-forpassing">§ 4-2. Prosedyren forpassing</a></li>
+<li class="lvl4"><a href="#4-3-prosedyren-transittering">§ 4-3. Prosedyren transittering</a></li>
+<li class="lvl4"><a href="#4-4-prosedyren-tollager">§ 4-4. Prosedyren tollager</a></li>
+<li class="lvl4"><a href="#4-5-prosedyren-frisone">§ 4-5. Prosedyren frisone</a></li>
+<li class="lvl4"><a href="#4-6-prosedyren-midlertidig-innfrsel">§ 4-6. Prosedyren midlertidig innførsel</a></li>
+<li class="lvl4"><a href="#4-7-prosedyren-innenlands-bearbeiding-av-industrivarer">§ 4-7. Prosedyren innenlands bearbeiding av industrivarer</a></li>
+<li class="lvl4"><a href="#4-8-prosedyren-innenlands-bearbeiding-av-landbruksvarer">§ 4-8. Prosedyren innenlands bearbeiding av landbruksvarer</a></li>
+<li class="lvl2"><a href="#kapittel-5-plikter-ved-utfrsel-og-utstedelse-av-opprinnelsesbevis">Kapittel 5 Plikter ved utførsel og utstedelse av opprinnelsesbevis</a></li>
+<li class="lvl4"><a href="#5-1-forhandsvarsel-om-varer">§ 5-1. Forhåndsvarsel om varer</a></li>
+<li class="lvl4"><a href="#5-2-lasting">§ 5-2. Lasting</a></li>
+<li class="lvl4"><a href="#5-3-meldeplikt-ved-avreise-fra-tollomradet">§ 5-3. Meldeplikt ved avreise fra tollområdet</a></li>
+<li class="lvl4"><a href="#5-4-fremleggelse-av-varer-for-kontroll">§ 5-4. Fremleggelse av varer for kontroll</a></li>
+<li class="lvl4"><a href="#5-5-tollbehandling-av-varer-som-utfres-fra-tollomradet">§ 5-5. Tollbehandling av varer som utføres fra tollområdet</a></li>
+<li class="lvl4"><a href="#5-6-deklarering-av-varer">§ 5-6. Deklarering av varer</a></li>
+<li class="lvl4"><a href="#5-7-levering-av-deklarasjon">§ 5-7. Levering av deklarasjon</a></li>
+<li class="lvl4"><a href="#5-8-aksept-av-deklarasjon">§ 5-8. Aksept av deklarasjon</a></li>
+<li class="lvl4"><a href="#5-9-prosedyren-utfrsel">§ 5-9. Prosedyren utførsel</a></li>
+<li class="lvl4"><a href="#5-10-frigjring-av-vare-for-utfrsel">§ 5-10. Frigjøring av vare for utførsel</a></li>
+<li class="lvl4"><a href="#5-11-preferensiell-opprinnelse">§ 5-11. Preferensiell opprinnelse</a></li>
+<li class="lvl4"><a href="#5-12-ikke-preferensiell-opprinnelse">§ 5-12. Ikke-preferensiell opprinnelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-klassifisering-og-tollverdi">Kapittel 6 Klassifisering og tollverdi</a></li>
+<li class="lvl4"><a href="#6-1-klassifisering-av-varer">§ 6-1. Klassifisering av varer</a></li>
+<li class="lvl4"><a href="#6-2-tollverdi">§ 6-2. Tollverdi</a></li>
+<li class="lvl4"><a href="#6-3-varens-transaksjonsverdi">§ 6-3. Varens transaksjonsverdi</a></li>
+<li class="lvl4"><a href="#6-4-transaksjonsverdien-av-identisk-vare">§ 6-4. Transaksjonsverdien av identisk vare</a></li>
+<li class="lvl4"><a href="#6-5-transaksjonsverdien-av-lignende-vare">§ 6-5. Transaksjonsverdien av lignende vare</a></li>
+<li class="lvl4"><a href="#6-6-den-deklarasjonspliktiges-valg-mellom-6-7-og-6-8">§ 6-6. Den deklarasjonspliktiges valg mellom §§ 6-7 og 6-8</a></li>
+<li class="lvl4"><a href="#6-7-tollverdi-fastsatt-med-utgangspunkt-i-salgspris-i-norge">§ 6-7. Tollverdi fastsatt med utgangspunkt i salgspris i Norge</a></li>
+<li class="lvl4"><a href="#6-8-utregnet-tollverdi">§ 6-8. Utregnet tollverdi</a></li>
+<li class="lvl4"><a href="#6-9-alternativ-tollverdi">§ 6-9. Alternativ tollverdi</a></li>
+<li class="lvl4"><a href="#6-10-poster-som-inngar-i-tollverdien-fastsatt-etter-6-3">§ 6-10. Poster som inngår i tollverdien fastsatt etter § 6-3</a></li>
+<li class="lvl4"><a href="#6-11-poster-som-ikke-skal-innga-i-tollverdien-fastsatt-etter-6-3">§ 6-11. Poster som ikke skal inngå i tollverdien fastsatt etter § 6-3</a></li>
+<li class="lvl4"><a href="#6-12-omregningskurs">§ 6-12. Omregningskurs</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlige-forvaltningsregler">Kapittel 7 Særlige forvaltningsregler</a></li>
+<li class="lvl4"><a href="#7-1-alminnelig-opplysningsplikt">§ 7-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#7-2-den-deklarasjonspliktiges-endring-av-opplysninger-i-deklarasjonen">§ 7-2. Den deklarasjonspliktiges endring av opplysninger i deklarasjonen</a></li>
+<li class="lvl4"><a href="#7-3-tollmyndighetenes-endring-av-opplysninger-mottatt-i-deklarasjon-mv">§ 7-3. Tollmyndighetenes endring av opplysninger mottatt i deklarasjon mv.</a></li>
+<li class="lvl4"><a href="#7-4-klagefrist">§ 7-4. Klagefrist</a></li>
+<li class="lvl4"><a href="#7-5-oppbevaring-av-meldinger-deklarasjoner-dokumenter-mv">§ 7-5. Oppbevaring av meldinger, deklarasjoner, dokumenter mv.</a></li>
+<li class="lvl4"><a href="#7-6-bindende-forhandsuttalelser">§ 7-6. Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#7-7-autorisering-av-foretak">§ 7-7. Autorisering av foretak</a></li>
+<li class="lvl4"><a href="#7-8-regelmessige-konsultasjoner">§ 7-8. Regelmessige konsultasjoner</a></li>
+<li class="lvl4"><a href="#7-9-apningstid-og-vederlag-for-tolltjenester-utenfor-apningstid-mv">§ 7-9. Åpningstid og vederlag for tolltjenester utenfor åpningstid mv.</a></li>
+<li class="lvl4"><a href="#7-10-taushetsplikt">§ 7-10. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-11-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 7-11. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#7-12-taushetsplikt-av-hensyn-til-tollmyndighetenes-kontrollvirksomhet-mv">§ 7-12. Taushetsplikt av hensyn til tollmyndighetenes kontrollvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#7-13-overfrt-taushetsplikt">§ 7-13. Overført taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-14-ubekreftede-personopplysninger-i-tips-mv">§ 7-14. Ubekreftede personopplysninger i tips mv.</a></li>
+<li class="lvl4"><a href="#7-15-sammenstilling-av-personopplysninger-og-automatiserte-avgjrelser">§ 7-15. Sammenstilling av personopplysninger og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#7-16-lagring-av-personopplysninger">§ 7-16. Lagring av personopplysninger</a></li>
+<li class="lvl4"><a href="#7-17-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 7-17. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#7-18-opplysninger-fra-myndigheter-som-gir-tillatelse-til-inn-eller-utfrsel-av-varer">§ 7-18. Opplysninger fra myndigheter som gir tillatelse til inn- eller utførsel av varer</a></li>
+<li class="lvl4"><a href="#7-19-bistands-og-opplysningsplikt-overfor-tollmyndighetene">§ 7-19. Bistands- og opplysningsplikt overfor tollmyndighetene</a></li>
+<li class="lvl4"><a href="#7-20-tollmyndighetenes-adgang-til-omrader">§ 7-20. Tollmyndighetenes adgang til områder</a></li>
+<li class="lvl4"><a href="#7-21-tollrepresentant">§ 7-21. Tollrepresentant</a></li>
+<li class="lvl4"><a href="#7-22-registrering-av-aktrer">§ 7-22. Registrering av aktører</a></li>
+<li class="lvl2"><a href="#kapittel-8-kontroll">Kapittel 8 Kontroll</a></li>
+<li class="lvl4"><a href="#8-1-gjennomfring-av-kontroll-med-varefrselen">§ 8-1. Gjennomføring av kontroll med vareførselen</a></li>
+<li class="lvl4"><a href="#8-2-underskelse-av-gjenstander-transportmidler-og-steder">§ 8-2. Undersøkelse av gjenstander, transportmidler og steder</a></li>
+<li class="lvl4"><a href="#8-3-vilkar-for-underskelse-av-personer">§ 8-3. Vilkår for undersøkelse av personer</a></li>
+<li class="lvl4"><a href="#8-4-gjennomfring-av-underskelser-av-personer">§ 8-4. Gjennomføring av undersøkelser av personer</a></li>
+<li class="lvl4"><a href="#8-5-plikt-til-a-medvirke-ved-kontroll">§ 8-5. Plikt til å medvirke ved kontroll</a></li>
+<li class="lvl4"><a href="#8-6-adgang-til-a-bruke-makt">§ 8-6. Adgang til å bruke makt</a></li>
+<li class="lvl4"><a href="#8-7-adgang-til-a-pagripe-person">§ 8-7. Adgang til å pågripe person</a></li>
+<li class="lvl4"><a href="#8-8-opplysninger-fra-transportselskap-om-passasjerer-og-besetning">§ 8-8. Opplysninger fra transportselskap om passasjerer og besetning</a></li>
+<li class="lvl4"><a href="#8-9-innhenting-av-opplysninger-ved-bruk-av-skiltgjenkjenningssystem">§ 8-9. Innhenting av opplysninger ved bruk av skiltgjenkjenningssystem</a></li>
+<li class="lvl4"><a href="#8-10-kontrollopplysninger-fra-opplysningspliktige">§ 8-10. Kontrollopplysninger fra opplysningspliktige</a></li>
+<li class="lvl4"><a href="#8-11-kontrollopplysninger-fra-tredjeparter">§ 8-11. Kontrollopplysninger fra tredjeparter</a></li>
+<li class="lvl4"><a href="#8-12-kontrollopplysninger-for-tollbehandling-i-et-annet-land">§ 8-12. Kontrollopplysninger for tollbehandling i et annet land</a></li>
+<li class="lvl4"><a href="#8-13-kontroll-hos-den-opplysningspliktige">§ 8-13. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#8-14-kontrollopplysninger-fra-offentlige-myndigheter">§ 8-14. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#8-15-kontrollopplysninger-fra-tilbyder-av-tilgang-til-elektronisk-kommunikasjonsnett-eller-tjeneste">§ 8-15. Kontrollopplysninger fra tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste</a></li>
+<li class="lvl4"><a href="#8-16-palegg-om-bokfring">§ 8-16. Pålegg om bokføring</a></li>
+<li class="lvl2"><a href="#kapittel-9-samarbeid-med-annen-stat">Kapittel 9 Samarbeid med annen stat</a></li>
+<li class="lvl4"><a href="#9-1-handheving-av-annen-stats-bestemmelser-om-varefrsel-i-srskilt-kontrollomrade">§ 9-1. Håndheving av annen stats bestemmelser om vareførsel i særskilt kontrollområde</a></li>
+<li class="lvl4"><a href="#9-2-srskilt-kontrollomrade">§ 9-2. Særskilt kontrollområde</a></li>
+<li class="lvl4"><a href="#9-3-handheving-av-norske-bestemmelser-om-varefrsel-pa-annen-stats-territorium">§ 9-3. Håndheving av norske bestemmelser om vareførsel på annen stats territorium</a></li>
+<li class="lvl4"><a href="#9-4-tjenestepersonell-som-utver-annen-stats-myndighet">§ 9-4. Tjenestepersonell som utøver annen stats myndighet</a></li>
+<li class="lvl4"><a href="#9-5-overlevering-av-person-til-annen-stats-kontrollmyndighet-mv">§ 9-5. Overlevering av person til annen stats kontrollmyndighet mv.</a></li>
+<li class="lvl4"><a href="#9-6-bruk-av-annen-stats-tollsegl">§ 9-6. Bruk av annen stats tollsegl</a></li>
+<li class="lvl4"><a href="#9-7-bistand-fra-andre-norske-myndigheter">§ 9-7. Bistand fra andre norske myndigheter</a></li>
+<li class="lvl4"><a href="#9-8-utveksling-av-opplysninger-med-annen-stat">§ 9-8. Utveksling av opplysninger med annen stat</a></li>
+<li class="lvl4"><a href="#9-9-innkreving-av-krav-utskrevet-av-myndighet-i-annen-stat">§ 9-9. Innkreving av krav utskrevet av myndighet i annen stat</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilbakehold-av-varer-som-gjr-inngrep-i-immaterialrettigheter">Kapittel 10 Tilbakehold av varer som gjør inngrep i immaterialrettigheter</a></li>
+<li class="lvl4"><a href="#10-1-sknad-om-bistand-fra-tollmyndighetene">§ 10-1. Søknad om bistand fra tollmyndighetene</a></li>
+<li class="lvl4"><a href="#10-2-vedtak-om-bistand-forlengelse">§ 10-2. Vedtak om bistand, forlengelse</a></li>
+<li class="lvl4"><a href="#10-3-midlertidig-forfyning">§ 10-3. Midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-4-varsel-mv-ved-tilbakehold-av-varer-etter-vedtak-om-bistand-eller-midlertidig-forfyning">§ 10-4. Varsel mv. ved tilbakehold av varer etter vedtak om bistand eller midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-5-varsel-og-tilbakehold-av-varer-fr-vedtak-eller-midlertidig-forfyning">§ 10-5. Varsel og tilbakehold av varer før vedtak eller midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-6-underskelse-av-varer-mv">§ 10-6. Undersøkelse av varer mv.</a></li>
+<li class="lvl4"><a href="#10-7-forenklet-fremgangsmate-for-deleggelse-av-varer">§ 10-7. Forenklet fremgangsmåte for ødeleggelse av varer</a></li>
+<li class="lvl4"><a href="#10-8-smaforsendelser">§ 10-8. Småforsendelser</a></li>
+<li class="lvl4"><a href="#10-9-tollbehandling-ansvar-for-lagerleie-mv">§ 10-9. Tollbehandling, ansvar for lagerleie mv.</a></li>
+<li class="lvl4"><a href="#10-10-opphevelse-og-bortfall-av-midlertidig-forfyning-eller-vedtak-om-bistand">§ 10-10. Opphevelse og bortfall av midlertidig forføyning eller vedtak om bistand</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilbakehold-og-beslag-av-varer-mv">Kapittel 11 Tilbakehold og beslag av varer mv.</a></li>
+<li class="lvl4"><a href="#11-1-tilbakehold-av-betalingsmidler">§ 11-1. Tilbakehold av betalingsmidler</a></li>
+<li class="lvl4"><a href="#11-2-tilbakehold-av-varer-ved-brudd-pa-regler-om-tollbehandling-mv">§ 11-2. Tilbakehold av varer ved brudd på regler om tollbehandling mv.</a></li>
+<li class="lvl4"><a href="#11-3-tilbakehold-av-varer-som-inn-eller-utfres-uten-ndvendig-tillatelse">§ 11-3. Tilbakehold av varer som inn- eller utføres uten nødvendig tillatelse</a></li>
+<li class="lvl4"><a href="#11-4-beslag-av-varer-og-transportmidler-mv">§ 11-4. Beslag av varer og transportmidler mv.</a></li>
+<li class="lvl4"><a href="#11-5-behandling-av-beslaglagte-varer-og-transportmidler-mv">§ 11-5. Behandling av beslaglagte varer og transportmidler mv.</a></li>
+<li class="lvl4"><a href="#11-6-salg-av-varer-mv">§ 11-6. Salg av varer mv.</a></li>
+<li class="lvl4"><a href="#11-7-destruksjon-av-varer">§ 11-7. Destruksjon av varer</a></li>
+<li class="lvl2"><a href="#kapittel-12-administrative-reaksjoner-og-straff">Kapittel 12 Administrative reaksjoner og straff</a></li>
+<li class="lvl4"><a href="#12-1-tvangsmulkt">§ 12-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#12-2-overtredelsesgebyr">§ 12-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-3-overtredelsesgebyr-ved-manglende-deklarering-av-betalingsmidler">§ 12-3. Overtredelsesgebyr ved manglende deklarering av betalingsmidler</a></li>
+<li class="lvl4"><a href="#12-4-bortfall-av-adgangen-til-a-representere-den-deklarasjonspliktige">§ 12-4. Bortfall av adgangen til å representere den deklarasjonspliktige</a></li>
+<li class="lvl4"><a href="#12-5-straff-for-ulovlig-varefrsel">§ 12-5. Straff for ulovlig vareførsel</a></li>
+<li class="lvl4"><a href="#12-6-straff-for-brudd-pa-las-eller-segl-mv">§ 12-6. Straff for brudd på lås eller segl mv.</a></li>
+<li class="lvl4"><a href="#12-7-straff-for-unnlatt-medvirkning-ved-kontroll-mv">§ 12-7. Straff for unnlatt medvirkning ved kontroll mv.</a></li>
+<li class="lvl4"><a href="#12-8-forsk">§ 12-8. Forsøk</a></li>
+<li class="lvl4"><a href="#12-9-grov-overtredelse">§ 12-9. Grov overtredelse</a></li>
+<li class="lvl4"><a href="#12-10-grovt-uaktsom-overtredelse">§ 12-10. Grovt uaktsom overtredelse</a></li>
+<li class="lvl4"><a href="#12-11-forenklet-forelegg">§ 12-11. Forenklet forelegg</a></li>
+<li class="lvl2"><a href="#kapittel-13-handelstiltak">Kapittel 13 Handelstiltak</a></li>
+<li class="lvl4"><a href="#13-1-opplysningsplikt-i-handelstiltakssaker">§ 13-1. Opplysningsplikt i handelstiltakssaker</a></li>
+<li class="lvl4"><a href="#13-2-handelstiltak-mot-dumping-antidumpingtiltak">§ 13-2. Handelstiltak mot dumping (antidumpingtiltak)</a></li>
+<li class="lvl4"><a href="#13-3-definisjon-av-dumping">§ 13-3. Definisjon av dumping</a></li>
+<li class="lvl4"><a href="#13-4-underskelser-mv-i-antidumpingsaker">§ 13-4. Undersøkelser mv. i antidumpingsaker</a></li>
+<li class="lvl4"><a href="#13-5-handelstiltak-mot-subsidier-utjevningstiltak">§ 13-5. Handelstiltak mot subsidier (utjevningstiltak)</a></li>
+<li class="lvl4"><a href="#13-6-definisjon-av-subsidier">§ 13-6. Definisjon av subsidier</a></li>
+<li class="lvl4"><a href="#13-7-underskelser-mv-i-subsidiesaker">§ 13-7. Undersøkelser mv. i subsidiesaker</a></li>
+<li class="lvl4"><a href="#13-8-beskyttelsestiltak-og-mottiltak">§ 13-8. Beskyttelsestiltak og mottiltak</a></li>
+<li class="lvl4"><a href="#13-9-underskelser-mv-i-beskyttelsestiltakssaker">§ 13-9. Undersøkelser mv. i beskyttelsestiltakssaker</a></li>
+<li class="lvl4"><a href="#13-10-spesielle-beskyttelsestiltak-for-landbruksvarer">§ 13-10. Spesielle beskyttelsestiltak for landbruksvarer</a></li>
+<li class="lvl4"><a href="#13-11-underskelser-mv-i-beskyttelsestiltakssaker-for-landbruksvarer">§ 13-11. Undersøkelser mv. i beskyttelsestiltakssaker for landbruksvarer</a></li>
+<li class="lvl4"><a href="#13-12-opphevelse-av-innrmmelser-eller-andre-forpliktelser">§ 13-12. Opphevelse av innrømmelser eller andre forpliktelser</a></li>
+<li class="lvl4"><a href="#13-13-handelstiltak-i-krigstid-eller-ved-annen-internasjonal-krisesituasjon">§ 13-13. Handelstiltak i krigstid eller ved annen internasjonal krisesituasjon</a></li>
+<li class="lvl2"><a href="#kapittel-14-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 14 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#14-1-ikrafttredelse">§ 14-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#14-2-overgangsbestemmelser">§ 14-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#14-3-forslag-til-endringer-i-andre-lover">§ 14-3. Forslag til endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-23-67.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-9.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om inn- og utførsel av varer (vareførselsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2022-03-11-9.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2022-03-11-9 <code>lov/2022-03-11-9</code></td></tr>
+<tr><th>Korttittel</th><td>Vareførselsloven – vfl.</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skatte- og avgiftsrett &raquo; Toll</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-23-67 <code>lov/2026-06-23-67</code> fra 15.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2022-03-11-9" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-politiattest-og-tildeling-av-myndighet-til-studenter-i-praksis">§ 1-4. Politiattest og tildeling av myndighet til studenter i praksis</a></li>
+<li class="lvl4"><a href="#1-5-forholdet-til-forvaltningsloven">§ 1-5. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-plikter-ved-ankomst-til-tollomradet">Kapittel 2 Plikter ved ankomst til tollområdet</a></li>
+<li class="lvl4"><a href="#2-1-forhandsvarsel-om-varer">§ 2-1. Forhåndsvarsel om varer</a></li>
+<li class="lvl4"><a href="#2-2-bestemmelsessted-ved-ankomst-til-tollomradet">§ 2-2. Bestemmelsessted ved ankomst til tollområdet</a></li>
+<li class="lvl4"><a href="#2-3-melde-og-opplysningsplikt-om-ankomst-til-bestemmelsessted-i-tollomradet">§ 2-3. Melde- og opplysningsplikt om ankomst til bestemmelsessted i tollområdet</a></li>
+<li class="lvl4"><a href="#2-4-fremleggelse-av-varer-for-kontroll">§ 2-4. Fremleggelse av varer for kontroll</a></li>
+<li class="lvl4"><a href="#2-5-tillatelse-til-videre-transport-i-tollomradet">§ 2-5. Tillatelse til videre transport i tollområdet</a></li>
+<li class="lvl4"><a href="#2-6-lossing">§ 2-6. Lossing</a></li>
+<li class="lvl2"><a href="#kapittel-3-tollbehandling-ved-innfrsel">Kapittel 3 Tollbehandling ved innførsel</a></li>
+<li class="lvl4"><a href="#3-1-tollbehandling-av-varer-som-innfres-til-tollomradet">§ 3-1. Tollbehandling av varer som innføres til tollområdet</a></li>
+<li class="lvl4"><a href="#3-2-deklarering-av-varer">§ 3-2. Deklarering av varer</a></li>
+<li class="lvl4"><a href="#3-3-levering-av-deklarasjon">§ 3-3. Levering av deklarasjon</a></li>
+<li class="lvl4"><a href="#3-4-aksept-av-deklarasjon">§ 3-4. Aksept av deklarasjon</a></li>
+<li class="lvl4"><a href="#3-5-frigjring-av-vare">§ 3-5. Frigjøring av vare</a></li>
+<li class="lvl4"><a href="#3-6-annen-disponering-av-vare-enn-etter-den-deklarerte-prosedyren">§ 3-6. Annen disponering av vare enn etter den deklarerte prosedyren</a></li>
+<li class="lvl4"><a href="#3-7-adgang-til-a-gjenutfre-eller-avsta-vare-til-tollmyndighetene">§ 3-7. Adgang til å gjenutføre eller avstå vare til tollmyndighetene</a></li>
+<li class="lvl2"><a href="#kapittel-4-tollprosedyrer-ved-innfrsel">Kapittel 4 Tollprosedyrer ved innførsel</a></li>
+<li class="lvl4"><a href="#4-1-prosedyren-overgang-til-fri-disponering">§ 4-1. Prosedyren overgang til fri disponering</a></li>
+<li class="lvl4"><a href="#4-2-prosedyren-forpassing">§ 4-2. Prosedyren forpassing</a></li>
+<li class="lvl4"><a href="#4-3-prosedyren-transittering">§ 4-3. Prosedyren transittering</a></li>
+<li class="lvl4"><a href="#4-4-prosedyren-tollager">§ 4-4. Prosedyren tollager</a></li>
+<li class="lvl4"><a href="#4-5-prosedyren-frisone">§ 4-5. Prosedyren frisone</a></li>
+<li class="lvl4"><a href="#4-6-prosedyren-midlertidig-innfrsel">§ 4-6. Prosedyren midlertidig innførsel</a></li>
+<li class="lvl4"><a href="#4-7-prosedyren-innenlands-bearbeiding-av-industrivarer">§ 4-7. Prosedyren innenlands bearbeiding av industrivarer</a></li>
+<li class="lvl4"><a href="#4-8-prosedyren-innenlands-bearbeiding-av-landbruksvarer">§ 4-8. Prosedyren innenlands bearbeiding av landbruksvarer</a></li>
+<li class="lvl2"><a href="#kapittel-5-plikter-ved-utfrsel-og-utstedelse-av-opprinnelsesbevis">Kapittel 5 Plikter ved utførsel og utstedelse av opprinnelsesbevis</a></li>
+<li class="lvl4"><a href="#5-1-forhandsvarsel-om-varer">§ 5-1. Forhåndsvarsel om varer</a></li>
+<li class="lvl4"><a href="#5-2-lasting">§ 5-2. Lasting</a></li>
+<li class="lvl4"><a href="#5-3-meldeplikt-ved-avreise-fra-tollomradet">§ 5-3. Meldeplikt ved avreise fra tollområdet</a></li>
+<li class="lvl4"><a href="#5-4-fremleggelse-av-varer-for-kontroll">§ 5-4. Fremleggelse av varer for kontroll</a></li>
+<li class="lvl4"><a href="#5-5-tollbehandling-av-varer-som-utfres-fra-tollomradet">§ 5-5. Tollbehandling av varer som utføres fra tollområdet</a></li>
+<li class="lvl4"><a href="#5-6-deklarering-av-varer">§ 5-6. Deklarering av varer</a></li>
+<li class="lvl4"><a href="#5-7-levering-av-deklarasjon">§ 5-7. Levering av deklarasjon</a></li>
+<li class="lvl4"><a href="#5-8-aksept-av-deklarasjon">§ 5-8. Aksept av deklarasjon</a></li>
+<li class="lvl4"><a href="#5-9-prosedyren-utfrsel">§ 5-9. Prosedyren utførsel</a></li>
+<li class="lvl4"><a href="#5-10-frigjring-av-vare-for-utfrsel">§ 5-10. Frigjøring av vare for utførsel</a></li>
+<li class="lvl4"><a href="#5-11-preferensiell-opprinnelse">§ 5-11. Preferensiell opprinnelse</a></li>
+<li class="lvl4"><a href="#5-12-ikke-preferensiell-opprinnelse">§ 5-12. Ikke-preferensiell opprinnelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-klassifisering-og-tollverdi">Kapittel 6 Klassifisering og tollverdi</a></li>
+<li class="lvl4"><a href="#6-1-klassifisering-av-varer">§ 6-1. Klassifisering av varer</a></li>
+<li class="lvl4"><a href="#6-2-tollverdi">§ 6-2. Tollverdi</a></li>
+<li class="lvl4"><a href="#6-3-varens-transaksjonsverdi">§ 6-3. Varens transaksjonsverdi</a></li>
+<li class="lvl4"><a href="#6-4-transaksjonsverdien-av-identisk-vare">§ 6-4. Transaksjonsverdien av identisk vare</a></li>
+<li class="lvl4"><a href="#6-5-transaksjonsverdien-av-lignende-vare">§ 6-5. Transaksjonsverdien av lignende vare</a></li>
+<li class="lvl4"><a href="#6-6-den-deklarasjonspliktiges-valg-mellom-6-7-og-6-8">§ 6-6. Den deklarasjonspliktiges valg mellom §§ 6-7 og 6-8</a></li>
+<li class="lvl4"><a href="#6-7-tollverdi-fastsatt-med-utgangspunkt-i-salgspris-i-norge">§ 6-7. Tollverdi fastsatt med utgangspunkt i salgspris i Norge</a></li>
+<li class="lvl4"><a href="#6-8-utregnet-tollverdi">§ 6-8. Utregnet tollverdi</a></li>
+<li class="lvl4"><a href="#6-9-alternativ-tollverdi">§ 6-9. Alternativ tollverdi</a></li>
+<li class="lvl4"><a href="#6-10-poster-som-inngar-i-tollverdien-fastsatt-etter-6-3">§ 6-10. Poster som inngår i tollverdien fastsatt etter § 6-3</a></li>
+<li class="lvl4"><a href="#6-11-poster-som-ikke-skal-innga-i-tollverdien-fastsatt-etter-6-3">§ 6-11. Poster som ikke skal inngå i tollverdien fastsatt etter § 6-3</a></li>
+<li class="lvl4"><a href="#6-12-omregningskurs">§ 6-12. Omregningskurs</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlige-forvaltningsregler">Kapittel 7 Særlige forvaltningsregler</a></li>
+<li class="lvl4"><a href="#7-1-alminnelig-opplysningsplikt">§ 7-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#7-2-den-deklarasjonspliktiges-endring-av-opplysninger-i-deklarasjonen">§ 7-2. Den deklarasjonspliktiges endring av opplysninger i deklarasjonen</a></li>
+<li class="lvl4"><a href="#7-3-tollmyndighetenes-endring-av-opplysninger-mottatt-i-deklarasjon-mv">§ 7-3. Tollmyndighetenes endring av opplysninger mottatt i deklarasjon mv.</a></li>
+<li class="lvl4"><a href="#7-4-klagefrist">§ 7-4. Klagefrist</a></li>
+<li class="lvl4"><a href="#7-5-oppbevaring-av-meldinger-deklarasjoner-dokumenter-mv">§ 7-5. Oppbevaring av meldinger, deklarasjoner, dokumenter mv.</a></li>
+<li class="lvl4"><a href="#7-6-bindende-forhandsuttalelser">§ 7-6. Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#7-7-autorisering-av-foretak">§ 7-7. Autorisering av foretak</a></li>
+<li class="lvl4"><a href="#7-8-regelmessige-konsultasjoner">§ 7-8. Regelmessige konsultasjoner</a></li>
+<li class="lvl4"><a href="#7-9-apningstid-og-vederlag-for-tolltjenester-utenfor-apningstid-mv">§ 7-9. Åpningstid og vederlag for tolltjenester utenfor åpningstid mv.</a></li>
+<li class="lvl4"><a href="#7-10-taushetsplikt">§ 7-10. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-11-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 7-11. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#7-12-taushetsplikt-av-hensyn-til-tollmyndighetenes-kontrollvirksomhet-mv">§ 7-12. Taushetsplikt av hensyn til tollmyndighetenes kontrollvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#7-13-overfrt-taushetsplikt">§ 7-13. Overført taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-14-ubekreftede-personopplysninger-i-tips-mv">§ 7-14. Ubekreftede personopplysninger i tips mv.</a></li>
+<li class="lvl4"><a href="#7-15-sammenstilling-av-personopplysninger-og-automatiserte-avgjrelser">§ 7-15. Sammenstilling av personopplysninger og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#7-16-lagring-av-personopplysninger">§ 7-16. Lagring av personopplysninger</a></li>
+<li class="lvl4"><a href="#7-17-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 7-17. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#7-18-opplysninger-fra-myndigheter-som-gir-tillatelse-til-inn-eller-utfrsel-av-varer">§ 7-18. Opplysninger fra myndigheter som gir tillatelse til inn- eller utførsel av varer</a></li>
+<li class="lvl4"><a href="#7-19-bistands-og-opplysningsplikt-overfor-tollmyndighetene">§ 7-19. Bistands- og opplysningsplikt overfor tollmyndighetene</a></li>
+<li class="lvl4"><a href="#7-20-tollmyndighetenes-adgang-til-omrader">§ 7-20. Tollmyndighetenes adgang til områder</a></li>
+<li class="lvl4"><a href="#7-21-tollrepresentant">§ 7-21. Tollrepresentant</a></li>
+<li class="lvl4"><a href="#7-22-registrering-av-aktrer">§ 7-22. Registrering av aktører</a></li>
+<li class="lvl2"><a href="#kapittel-8-kontroll">Kapittel 8 Kontroll</a></li>
+<li class="lvl4"><a href="#8-1-gjennomfring-av-kontroll-med-varefrselen">§ 8-1. Gjennomføring av kontroll med vareførselen</a></li>
+<li class="lvl4"><a href="#8-2-underskelse-av-gjenstander-transportmidler-og-steder">§ 8-2. Undersøkelse av gjenstander, transportmidler og steder</a></li>
+<li class="lvl4"><a href="#8-3-vilkar-for-underskelse-av-personer">§ 8-3. Vilkår for undersøkelse av personer</a></li>
+<li class="lvl4"><a href="#8-4-gjennomfring-av-underskelser-av-personer">§ 8-4. Gjennomføring av undersøkelser av personer</a></li>
+<li class="lvl4"><a href="#8-5-plikt-til-a-medvirke-ved-kontroll">§ 8-5. Plikt til å medvirke ved kontroll</a></li>
+<li class="lvl4"><a href="#8-6-adgang-til-a-bruke-makt">§ 8-6. Adgang til å bruke makt</a></li>
+<li class="lvl4"><a href="#8-7-adgang-til-a-pagripe-person">§ 8-7. Adgang til å pågripe person</a></li>
+<li class="lvl4"><a href="#8-8-opplysninger-fra-transportselskap-om-passasjerer-og-besetning">§ 8-8. Opplysninger fra transportselskap om passasjerer og besetning</a></li>
+<li class="lvl4"><a href="#8-9-innhenting-av-opplysninger-ved-bruk-av-skiltgjenkjenningssystem">§ 8-9. Innhenting av opplysninger ved bruk av skiltgjenkjenningssystem</a></li>
+<li class="lvl4"><a href="#8-10-kontrollopplysninger-fra-opplysningspliktige">§ 8-10. Kontrollopplysninger fra opplysningspliktige</a></li>
+<li class="lvl4"><a href="#8-11-kontrollopplysninger-fra-tredjeparter">§ 8-11. Kontrollopplysninger fra tredjeparter</a></li>
+<li class="lvl4"><a href="#8-12-kontrollopplysninger-for-tollbehandling-i-et-annet-land">§ 8-12. Kontrollopplysninger for tollbehandling i et annet land</a></li>
+<li class="lvl4"><a href="#8-13-kontroll-hos-den-opplysningspliktige">§ 8-13. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#8-14-kontrollopplysninger-fra-offentlige-myndigheter">§ 8-14. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#8-15-kontrollopplysninger-fra-tilbyder-av-tilgang-til-elektronisk-kommunikasjonsnett-eller-tjeneste">§ 8-15. Kontrollopplysninger fra tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste</a></li>
+<li class="lvl4"><a href="#8-16-palegg-om-bokfring">§ 8-16. Pålegg om bokføring</a></li>
+<li class="lvl2"><a href="#kapittel-9-samarbeid-med-annen-stat">Kapittel 9 Samarbeid med annen stat</a></li>
+<li class="lvl4"><a href="#9-1-handheving-av-annen-stats-bestemmelser-om-varefrsel-i-srskilt-kontrollomrade">§ 9-1. Håndheving av annen stats bestemmelser om vareførsel i særskilt kontrollområde</a></li>
+<li class="lvl4"><a href="#9-2-srskilt-kontrollomrade">§ 9-2. Særskilt kontrollområde</a></li>
+<li class="lvl4"><a href="#9-3-handheving-av-norske-bestemmelser-om-varefrsel-pa-annen-stats-territorium">§ 9-3. Håndheving av norske bestemmelser om vareførsel på annen stats territorium</a></li>
+<li class="lvl4"><a href="#9-4-tjenestepersonell-som-utver-annen-stats-myndighet">§ 9-4. Tjenestepersonell som utøver annen stats myndighet</a></li>
+<li class="lvl4"><a href="#9-5-overlevering-av-person-til-annen-stats-kontrollmyndighet-mv">§ 9-5. Overlevering av person til annen stats kontrollmyndighet mv.</a></li>
+<li class="lvl4"><a href="#9-6-bruk-av-annen-stats-tollsegl">§ 9-6. Bruk av annen stats tollsegl</a></li>
+<li class="lvl4"><a href="#9-7-bistand-fra-andre-norske-myndigheter">§ 9-7. Bistand fra andre norske myndigheter</a></li>
+<li class="lvl4"><a href="#9-8-utveksling-av-opplysninger-med-annen-stat">§ 9-8. Utveksling av opplysninger med annen stat</a></li>
+<li class="lvl4"><a href="#9-9-innkreving-av-krav-utskrevet-av-myndighet-i-annen-stat">§ 9-9. Innkreving av krav utskrevet av myndighet i annen stat</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilbakehold-av-varer-som-gjr-inngrep-i-immaterialrettigheter">Kapittel 10 Tilbakehold av varer som gjør inngrep i immaterialrettigheter</a></li>
+<li class="lvl4"><a href="#10-1-sknad-om-bistand-fra-tollmyndighetene">§ 10-1. Søknad om bistand fra tollmyndighetene</a></li>
+<li class="lvl4"><a href="#10-2-vedtak-om-bistand-forlengelse">§ 10-2. Vedtak om bistand, forlengelse</a></li>
+<li class="lvl4"><a href="#10-3-midlertidig-forfyning">§ 10-3. Midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-4-varsel-mv-ved-tilbakehold-av-varer-etter-vedtak-om-bistand-eller-midlertidig-forfyning">§ 10-4. Varsel mv. ved tilbakehold av varer etter vedtak om bistand eller midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-5-varsel-og-tilbakehold-av-varer-fr-vedtak-eller-midlertidig-forfyning">§ 10-5. Varsel og tilbakehold av varer før vedtak eller midlertidig forføyning</a></li>
+<li class="lvl4"><a href="#10-6-underskelse-av-varer-mv">§ 10-6. Undersøkelse av varer mv.</a></li>
+<li class="lvl4"><a href="#10-7-forenklet-fremgangsmate-for-deleggelse-av-varer">§ 10-7. Forenklet fremgangsmåte for ødeleggelse av varer</a></li>
+<li class="lvl4"><a href="#10-8-smaforsendelser">§ 10-8. Småforsendelser</a></li>
+<li class="lvl4"><a href="#10-9-tollbehandling-ansvar-for-lagerleie-mv">§ 10-9. Tollbehandling, ansvar for lagerleie mv.</a></li>
+<li class="lvl4"><a href="#10-10-opphevelse-og-bortfall-av-midlertidig-forfyning-eller-vedtak-om-bistand">§ 10-10. Opphevelse og bortfall av midlertidig forføyning eller vedtak om bistand</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilbakehold-og-beslag-av-varer-mv">Kapittel 11 Tilbakehold og beslag av varer mv.</a></li>
+<li class="lvl4"><a href="#11-1-tilbakehold-av-betalingsmidler">§ 11-1. Tilbakehold av betalingsmidler</a></li>
+<li class="lvl4"><a href="#11-2-tilbakehold-av-varer-ved-brudd-pa-regler-om-tollbehandling-mv">§ 11-2. Tilbakehold av varer ved brudd på regler om tollbehandling mv.</a></li>
+<li class="lvl4"><a href="#11-3-tilbakehold-av-varer-som-inn-eller-utfres-uten-ndvendig-tillatelse">§ 11-3. Tilbakehold av varer som inn- eller utføres uten nødvendig tillatelse</a></li>
+<li class="lvl4"><a href="#11-4-beslag-av-varer-og-transportmidler-mv">§ 11-4. Beslag av varer og transportmidler mv.</a></li>
+<li class="lvl4"><a href="#11-5-behandling-av-beslaglagte-varer-og-transportmidler-mv">§ 11-5. Behandling av beslaglagte varer og transportmidler mv.</a></li>
+<li class="lvl4"><a href="#11-6-salg-av-varer-mv">§ 11-6. Salg av varer mv.</a></li>
+<li class="lvl4"><a href="#11-7-destruksjon-av-varer">§ 11-7. Destruksjon av varer</a></li>
+<li class="lvl2"><a href="#kapittel-12-administrative-reaksjoner-og-straff">Kapittel 12 Administrative reaksjoner og straff</a></li>
+<li class="lvl4"><a href="#12-1-tvangsmulkt">§ 12-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#12-2-overtredelsesgebyr">§ 12-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-3-overtredelsesgebyr-ved-manglende-deklarering-av-betalingsmidler">§ 12-3. Overtredelsesgebyr ved manglende deklarering av betalingsmidler</a></li>
+<li class="lvl4"><a href="#12-4-bortfall-av-adgangen-til-a-representere-den-deklarasjonspliktige">§ 12-4. Bortfall av adgangen til å representere den deklarasjonspliktige</a></li>
+<li class="lvl4"><a href="#12-5-straff-for-ulovlig-varefrsel">§ 12-5. Straff for ulovlig vareførsel</a></li>
+<li class="lvl4"><a href="#12-6-straff-for-brudd-pa-las-eller-segl-mv">§ 12-6. Straff for brudd på lås eller segl mv.</a></li>
+<li class="lvl4"><a href="#12-7-straff-for-unnlatt-medvirkning-ved-kontroll-mv">§ 12-7. Straff for unnlatt medvirkning ved kontroll mv.</a></li>
+<li class="lvl4"><a href="#12-8-forsk">§ 12-8. Forsøk</a></li>
+<li class="lvl4"><a href="#12-9-grov-overtredelse">§ 12-9. Grov overtredelse</a></li>
+<li class="lvl4"><a href="#12-10-grovt-uaktsom-overtredelse">§ 12-10. Grovt uaktsom overtredelse</a></li>
+<li class="lvl4"><a href="#12-11-forenklet-forelegg">§ 12-11. Forenklet forelegg</a></li>
+<li class="lvl2"><a href="#kapittel-13-handelstiltak">Kapittel 13 Handelstiltak</a></li>
+<li class="lvl4"><a href="#13-1-opplysningsplikt-i-handelstiltakssaker">§ 13-1. Opplysningsplikt i handelstiltakssaker</a></li>
+<li class="lvl4"><a href="#13-2-handelstiltak-mot-dumping-antidumpingtiltak">§ 13-2. Handelstiltak mot dumping (antidumpingtiltak)</a></li>
+<li class="lvl4"><a href="#13-3-definisjon-av-dumping">§ 13-3. Definisjon av dumping</a></li>
+<li class="lvl4"><a href="#13-4-underskelser-mv-i-antidumpingsaker">§ 13-4. Undersøkelser mv. i antidumpingsaker</a></li>
+<li class="lvl4"><a href="#13-5-handelstiltak-mot-subsidier-utjevningstiltak">§ 13-5. Handelstiltak mot subsidier (utjevningstiltak)</a></li>
+<li class="lvl4"><a href="#13-6-definisjon-av-subsidier">§ 13-6. Definisjon av subsidier</a></li>
+<li class="lvl4"><a href="#13-7-underskelser-mv-i-subsidiesaker">§ 13-7. Undersøkelser mv. i subsidiesaker</a></li>
+<li class="lvl4"><a href="#13-8-beskyttelsestiltak-og-mottiltak">§ 13-8. Beskyttelsestiltak og mottiltak</a></li>
+<li class="lvl4"><a href="#13-9-underskelser-mv-i-beskyttelsestiltakssaker">§ 13-9. Undersøkelser mv. i beskyttelsestiltakssaker</a></li>
+<li class="lvl4"><a href="#13-10-spesielle-beskyttelsestiltak-for-landbruksvarer">§ 13-10. Spesielle beskyttelsestiltak for landbruksvarer</a></li>
+<li class="lvl4"><a href="#13-11-underskelser-mv-i-beskyttelsestiltakssaker-for-landbruksvarer">§ 13-11. Undersøkelser mv. i beskyttelsestiltakssaker for landbruksvarer</a></li>
+<li class="lvl4"><a href="#13-12-opphevelse-av-innrmmelser-eller-andre-forpliktelser">§ 13-12. Opphevelse av innrømmelser eller andre forpliktelser</a></li>
+<li class="lvl4"><a href="#13-13-handelstiltak-i-krigstid-eller-ved-annen-internasjonal-krisesituasjon">§ 13-13. Handelstiltak i krigstid eller ved annen internasjonal krisesituasjon</a></li>
+<li class="lvl2"><a href="#kapittel-14-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 14 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#14-1-ikrafttredelse">§ 14-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#14-2-overgangsbestemmelser">§ 14-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#14-3-forslag-til-endringer-i-andre-lover">§ 14-3. Forslag til endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-9.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2022-03-11-9.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-9.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2022-03-11-9.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2022-03-11-9.html">Observerte kildeutgaver</a> · <a href="../historie/vareførselsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2022-03-11-9.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2022-03-11-9.html">Observerte kildeutgaver</a> · <a href="../historie/vareførselsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2022-03-11-9.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-inn-og-utfrsel-av-varer-varefrselsloven">Lov om inn- og utførsel av varer (vareførselsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-1-lovens-formal">§ 1-1. Lovens formål</h4>
 <p>Loven skal</p>
@@ -103,7 +458,7 @@ h. vare: alt som omfattes av forskrift om klassifisering av varer.</p>
 <h4 id="1-4-politiattest-og-tildeling-av-myndighet-til-studenter-i-praksis">§ 1-4. Politiattest og tildeling av myndighet til studenter i praksis <a class="para-history" href="../historikk/lov-2022-03-11-9/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tollmyndighetene kan kreve fremleggelse av ordinær politiattest i forbindelse med tilsettinger. Ved tilsetting i særskilte stillinger kan det kreves utvidet og uttømmende politiattest. I vurderingen av om politiattest skal kreves, og i tilfelle hvilken type attest, skal det blant annet tas hensyn til stillingens art, omfang og varighet, hvilke rettigheter og plikter som ligger til stillingen, og hvilke oppgaver som skal utføres.</p>
 <p>(2) Departementet kan tildele myndighet etter denne loven til studenter som er i praksis hos tollmyndighetene.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="1-5-forholdet-til-forvaltningsloven">§ 1-5. Forholdet til <a href="lov-2025-06-20-81.html">forvaltningsloven</a></h4>
 <p>Forvaltningsloven gjelder for tollmyndighetenes virksomhet, hvis ikke annet er bestemt i denne loven.</p>
 <h2 id="kapittel-2-plikter-ved-ankomst-til-tollomradet">Kapittel 2 Plikter ved ankomst til tollområdet</h2>
@@ -118,7 +473,7 @@ h. vare: alt som omfattes av forskrift om klassifisering av varer.</p>
 <h4 id="2-3-melde-og-opplysningsplikt-om-ankomst-til-bestemmelsessted-i-tollomradet">§ 2-3. Melde- og opplysningsplikt om ankomst til bestemmelsessted i tollområdet <a class="para-history" href="../historikk/lov-2022-03-11-9/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Føreren av fartøy og luftfartøy skal melde fra til tollmyndighetene om ankomst til bestemmelsessted i tollområdet. I meldingen skal det gis opplysninger om transportmiddelet, besetningen, varer som bringes med som last, og referanse til deklarasjonen for varene.</p>
 <p>(2) Departementet kan gi forskrift om hvilke opplysninger som skal gis, når opplysningene skal gis, leveringsmåten og om unntak fra pliktene. Departementet kan gi forskrift om at melde- og opplysningsplikten også skal gjelde for fører av motorvogn og tog.</p>
-<p><em>Endret ved lover 20 des 2022 nr. 111 , 23 juni 2026 nr. 67 (i kraft 15 sep 2026 iflg. res. 23 juni 2026 nr. 1237 ).</em></p>
+<p class="note">Endret ved lover 20 des 2022 nr. 111 , 23 juni 2026 nr. 67 (i kraft 15 sep 2026 iflg. res. 23 juni 2026 nr. 1237 ).</p>
 <h4 id="2-4-fremleggelse-av-varer-for-kontroll">§ 2-4. Fremleggelse av varer for kontroll</h4>
 <p>(1) Den som innfører en vare til tollområdet, skal legge varen frem for tollmyndighetene for kontroll.</p>
 <p>(2) Departementet kan gi forskrift om fremleggelse, herunder om hvor og hvordan fremleggelsen skal skje, og om unntak fra fremleggelsesplikten.</p>
@@ -141,7 +496,7 @@ h. vare: alt som omfattes av forskrift om klassifisering av varer.</p>
 <p>(1) Enhver som kan gi de opplysningene som er nødvendige for den valgte prosedyren, kan levere deklarasjonen. Den som leverer deklarasjonen, må kunne legge frem den aktuelle varen eller få den fremlagt for tollmyndighetene.</p>
 <p>(2) Dersom en prosedyre medfører særlige forpliktelser for en bestemt person, skal deklarasjonen leveres av denne personen eller dennes fullmektig.</p>
 <p>(3) Deklarasjonen kan leveres før varen legges frem for tollmyndighetene. Hvis varen ikke legges frem senest 30 dager etter at deklarasjonen er levert, anses deklarasjonen som ikke levert.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="3-4-aksept-av-deklarasjon">§ 3-4. Aksept av deklarasjon</h4>
 <p>(1) En deklarasjon aksepteres når den oppfyller vilkårene i §§ 3-2 og 3-3 og varen som deklarasjonen gjelder, er fremlagt for tollmyndighetene.</p>
 <p>(2) Tidspunktet for aksept skal legges til grunn ved anvendelse av bestemmelsene som gjelder for prosedyren varen deklareres for.</p>
@@ -218,7 +573,7 @@ c. eieren av varen er bosatt eller hjemmehørende i utlandet.</p>
 <p>(1) Enhver som kan gi de opplysninger som er nødvendige for prosedyren, kan levere deklarasjonen. Den som leverer deklarasjonen, må kunne legge frem den aktuelle varen eller få den fremlagt for tollmyndighetene.</p>
 <p>(2) Deklarasjonen skal leveres i så god tid at tollmyndighetene kan undersøke varen før den lastes inn i transportmiddelet.</p>
 <p>(3) Deklarasjonen kan leveres før varene legges frem for tollmyndighetene. Hvis varen ikke legges frem senest 150 dager etter at deklarasjonen er levert, anses deklarasjonen som ikke levert.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="5-8-aksept-av-deklarasjon">§ 5-8. Aksept av deklarasjon</h4>
 <p>(1) En deklarasjon aksepteres når den oppfyller vilkårene i §§ 5-6 og 5-7 og varen som deklarasjonen gjelder, er fremlagt for tollmyndighetene.</p>
 <p>(2) Tidspunktet for aksept skal legges til grunn ved anvendelse av bestemmelsene som gjelder for prosedyren utførsel.</p>
@@ -259,7 +614,7 @@ d. kjøperen og selgeren ikke er avhengige av hverandre, eller hvis de er avheng
 <p>(2) Prisen skal omfatte alle betalinger som er en betingelse for salget av varen.</p>
 <p>(3) Prisen må være den som gjelder i et eksportsalg hvor varen sendes til en kjøper i Norge.</p>
 <p>(4) Departementet kan gi forskrift om i hvilke tilfeller transaksjonsverdien kan godtas som tollverdi, selv om det foreligger avhengighet etter første ledd bokstav d.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="6-4-transaksjonsverdien-av-identisk-vare">§ 6-4. Transaksjonsverdien av identisk vare</h4>
 <p>(1) Hvis tollverdien av en innført vare ikke kan fastsettes etter § 6-3 , skal tollverdien være transaksjonsverdien av identiske varer solgt for eksport til Norge i samme omsetningsledd, og i vesentlig samme mengde og på samme eller omtrent samme tidspunkt som den varen som skal verdifastsettes.</p>
 <p>(2) Med identisk vare menes vare som på alle måter er lik, både når det gjelder fysiske egenskaper, kvalitet og omdømme, og som er produsert i samme land som varen som skal verdifastsettes. Mindre ytre forskjeller skal ikke utelukke at varene kan betraktes som identiske.</p>
@@ -284,7 +639,7 @@ c. tollavgift og andre avgifter som skal svares i Norge.</p>
 b. fortjeneste og alminnelige kostnader som tilsvarer det som vanligvis beregnes av produsenter i eksportlandet ved salg for eksport til Norge av varer av samme kategori eller slag og
 c. transport- og forsikringskostnaden for den innførte varen frem til innførselsstedet, og kostnader for lasting og håndtering som er forbundet med forannevnte transport av varen, slik som bestemt i § 6-10 første ledd bokstav e og f.</p>
 <p>(2) Departementet kan gi forskrift om utregnet tollverdi.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="6-9-alternativ-tollverdi">§ 6-9. Alternativ tollverdi</h4>
 <p>(1) Hvis tollverdien av innført vare ikke kan fastsettes etter §§ 6-3 til 6-8 , skal tollverdien fastsettes på grunnlag av tilgjengelige opplysninger, og i samsvar med prinsippene i §§ 6-3 til 6-8 .</p>
 <p>(2) Tollverdien etter første ledd skal ikke fastsettes på grunnlag av</p>
@@ -376,7 +731,7 @@ c. tollavgift og gebyrer som vil påløpe ved inn- eller utførsel av en vare, e
 <p>(1) Når det er nødvendig for kontroll med inn- og utførsel av varer, kan tollmyndighetene sammenstille innhentede personopplysninger, også helseopplysninger som nevnt i personvernforordningen artikkel 9 nr. 1 og personopplysninger som nevnt i personvernforordningen artikkel 10 . Adgangen til sammenstilling omfatter profilering som nevnt i personvernforordningen artikkel 4 nr. 4. Graden av personidentifikasjon skal ikke være større enn det som er nødvendig for formålet.</p>
 <p>(2) Tollmyndighetene kan treffe avgjørelser hvor personopplysninger inngår og som utelukkende er basert på automatisert behandling, dersom partens krav om forsvarlig saksbehandling ivaretas. Den registrerte har rett til manuell overprøving av avgjørelsen.</p>
 <p>(3) Departementet kan gi forskrift om vilkårene for profilering etter personvernforordningen artikkel 4 nr. 4 og om bruk av automatiserte avgjørelser.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="7-16-lagring-av-personopplysninger">§ 7-16. Lagring av personopplysninger</h4>
 <p>(1) Personopplysninger skal ikke lagres lenger enn det som er nødvendig ut fra formålet med behandlingen.</p>
 <p>(2) Personopplysninger innhentet ved skiltgjenkjenningssystem etter § 8-9 kan lagres i inntil seks måneder etter at opplysningene er innhentet.</p>
@@ -394,7 +749,7 @@ c. tollavgift og gebyrer som vil påløpe ved inn- eller utførsel av en vare, e
 <p>(1) Enhver som har rettigheter eller plikter overfor tollmyndighetene, har rett til å la seg bistå eller representere av en tollrepresentant. Tollrepresentanten handler på vegne av den representerte og i den representertes navn.</p>
 <p>(2) Tollrepresentanten skal opplyse tollmyndighetene om at vedkommende handler på vegne av den representerte.</p>
 <p>(3) Tollmyndighetene kan kreve at tollrepresentanten sannsynliggjør at vedkommende handler på vegne av den representerte. Dersom dette ikke kan sannsynliggjøres, anses vedkommende for å handle i eget navn og på egne vegne.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="7-22-registrering-av-aktrer">§ 7-22. Registrering av aktører <a class="para-history" href="../historikk/lov-2022-03-11-9/para-7-22.html" title="Endringshistorikk for § 7-22" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Aktører i Norge som må ha et identifikasjonsnummer som følge av bruk av EORI-nummer i EU-rettsakter som er innlemmet i EØS-avtalen og gjennomført i norsk rett, må registrere seg hos tollmyndighetene.</p>
 <p>(2) Følgende opplysninger registreres:</p>
@@ -406,7 +761,7 @@ e. næringskode.</p>
 <p>Telefonnummer og andre elektroniske adresser kan registreres hvis opplysningene er registrert i Enhetsregisteret.</p>
 <p>(3) Ved registreringen tildeler tollmyndighetene identifikasjonsnummeret.</p>
 <p>(4) Tollmyndighetene kan dele de registrerte opplysningene med EU.</p>
-<p><em>Tilføyd ved lov 23 juni 2026 nr. 67 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved lov 23 juni 2026 nr. 67 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-8-kontroll">Kapittel 8 Kontroll</h2>
 <h4 id="8-1-gjennomfring-av-kontroll-med-varefrselen">§ 8-1. Gjennomføring av kontroll med vareførselen</h4>
 <p>(1) Tollmyndighetene kan stanse transportmidler, varesendinger og personer, og treffe de tiltak som er nødvendig for å gjennomføre kontroll med varer som føres inn i eller ut av tollområdet. Tollmyndighetene kan gjennomføre tilfeldige og målrettede kontroller. Kontrolltiltakene må stå i forhold til det antatte omfanget av brudd på regler om inn- og utførsel av varer og omstendighetene for øvrig.</p>
@@ -481,7 +836,7 @@ b. veimyndighetene gi opplysninger om motorvogn og førerkort av betydning for t
 <p>(3) Tvangsmidler etter annen stats lovgivning kan bare brukes i kontrollområdet ved undersøkelser i umiddelbar sammenheng med en overtredelse av § 12-5 om straff for ulovlig vareførsel, eller forsøk på slik overtredelse.</p>
 <p>(4) Er en vare gjenstand for inndragning etter begge staters lovgivning, skal inndragningen skje til fordel for den staten der beslaget fant sted, hvis ikke annet er avtalt i det enkelte tilfellet mellom de to statenes myndigheter.</p>
 <p>(5) Departementet kan gi forskrift om håndheving av annen stats bestemmelser om vareførsel.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="9-2-srskilt-kontrollomrade">§ 9-2. Særskilt kontrollområde</h4>
 <p>(1) Til gjennomføring av avtale med annen stat om tollsamarbeid eller annen gjensidig bistand kan det opprettes et særskilt kontrollområde</p>
 <p>a. langs grensen mot annen stat, som tilsvarer et lignende område på denne statens område. Kontrollområdets bredde på norsk område må ikke overstige 15 kilometer.
@@ -651,13 +1006,13 @@ g. ikke medvirker til kontroll etter 8-13 .</p>
 <p>(4) Vedtak om overtredelsesgebyr skal ikke iverksettes før klagefristen er ute eller klagen er avgjort.</p>
 <p>(5) Dersom den som er ilagt overtredelsesgebyr, vil prøve vedtakets gyldighet for domstolene, skal vedtaket, dersom parten ber om det, ikke iverksettes før søksmålsfristen løper ut eller en endelig rettsavgjørelse foreligger.</p>
 <p>(6) Departementet kan gi forskrift om utmåling av gebyret.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="12-3-overtredelsesgebyr-ved-manglende-deklarering-av-betalingsmidler">§ 12-3. Overtredelsesgebyr ved manglende deklarering av betalingsmidler</h4>
 <p>(1) Ved brudd på plikten til å deklarere kontanter og andre likestilte betalingsmidler etter §§ 3-2 og 5-6 kan tollmyndighetene ilegge et overtredelsesgebyr på inntil 30 prosent av betalingsmiddelets pålydende.</p>
 <p>(2) Departementet kan gi forskrift om utmåling av gebyret.</p>
 <h4 id="12-4-bortfall-av-adgangen-til-a-representere-den-deklarasjonspliktige">§ 12-4. Bortfall av adgangen til å representere den deklarasjonspliktige <a class="para-history" href="../historikk/lov-2022-03-11-9/para-12-4.html" title="Endringshistorikk for § 12-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tollmyndighetene kan bestemme at en tollrepresentant som har opptrådt i strid med loven eller i strid med meddelt tillatelse, ikke kan representere den deklarasjonspliktige ved tollbehandlingen. Handlingen må ha vært av en slik karakter at vedkommende ikke anses skikket eller egnet til å opptre som representant ved tollbehandlingen. Vedtaket skal gjelde for en bestemt periode.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="12-5-straff-for-ulovlig-varefrsel">§ 12-5. Straff for ulovlig vareførsel</h4>
 <p>Med bot eller fengsel inntil seks måneder eller begge deler straffes den som</p>
 <p>a. inn- eller utfører en vare uten å fremlegge varen for tollmyndighetene etter § 2-4 eller § 5-4
@@ -673,7 +1028,7 @@ c. en annen stats tollsegl som er benyttet etter § 9-6 .</p>
 <p>(3) Første og annet ledd gjelder tilsvarende når noen rettsstridig skaffer seg adgang til en vare som er under lås eller segl, selv om låsen eller seglet ikke er blitt brutt.</p>
 <h4 id="12-7-straff-for-unnlatt-medvirkning-ved-kontroll-mv">§ 12-7. Straff for unnlatt medvirkning ved kontroll mv. <a class="para-history" href="../historikk/lov-2022-03-11-9/para-12-7.html" title="Endringshistorikk for § 12-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med bot eller fengsel inntil seks måneder eller begge deler straffes den som unnlater å medvirke ved kontroll eller yte bistand etter §§ 8-5 og 8-13 .</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 52 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 52 .</p>
 <h4 id="12-8-forsk">§ 12-8. Forsøk</h4>
 <p>Forsøk på overtredelser som nevnt i §§ 12-5 til 12-7 er straffbart og straffes på samme måte som fullbyrdet overtredelse.</p>
 <h4 id="12-9-grov-overtredelse">§ 12-9. Grov overtredelse <a class="para-history" href="../historikk/lov-2022-03-11-9/para-12-9.html" title="Endringshistorikk for § 12-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -686,10 +1041,10 @@ e. er begått ved flere anledninger eller over lengre tid
 f. er begått av flere i fellesskap eller har et planmessig eller organisert preg
 g. er utført ved å misbruke stilling eller tillitsforhold
 h. er utført under utøvelse av næring eller gjelder en vare som var bestemt til omsetning.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="12-10-grovt-uaktsom-overtredelse">§ 12-10. Grovt uaktsom overtredelse <a class="para-history" href="../historikk/lov-2022-03-11-9/para-12-10.html" title="Endringshistorikk for § 12-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med bot eller fengsel inntil seks måneder eller begge deler straffes grovt uaktsom overtredelse som nevnt i §§ 12-5 til 12-7 .</p>
-<p><em>Endret ved lov 20 des 2022 nr. 111 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 111 .</p>
 <h4 id="12-11-forenklet-forelegg">§ 12-11. Forenklet forelegg</h4>
 <p>(1) Tollmyndighetene kan ilegge straff ved forenklet forelegg for mindre alvorlige overtredelser. Forenklet forelegg ilegges etter faste satser, på stedet eller i ettertid. I forenklet forelegg kan straffebudet og det straffbare forholdet betegnes ved stikkord eller på lignende måte.</p>
 <p>(2) Forelegget skal omfatte inndragning av varene som har vært gjenstand for overtredelsen, eller et beløp som svarer til varenes verdi.</p>
@@ -777,7 +1132,7 @@ e. det gis en eller annen form for inntekts- eller prisstøtte som direkte eller
 <p>(3) Departementet kan gi forskrift om opphevelse av innrømmelser eller andre forpliktelser etter WTO-avtalen etter denne paragrafen. Det samme gjelder opphevelse av innrømmelser eller vedtak i tvisteorgan under andre handelsavtaler enn WTO.</p>
 <h4 id="13-13-handelstiltak-i-krigstid-eller-ved-annen-internasjonal-krisesituasjon">§ 13-13. Handelstiltak i krigstid eller ved annen internasjonal krisesituasjon <a class="para-history" href="../historikk/lov-2022-03-11-9/para-13-13.html" title="Endringshistorikk for § 13-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kongen i statsråd kan gi forskrift om handelstiltak overfor ett eller flere land dersom vilkårene i sikkerhetsunntaksbestemmelsen i Generalavtalen om tolltariffer og handel 1994 (GATT 1994) artikkel XXI er oppfylt.</p>
-<p><em>Tilføyd ved lov 20 des 2024 nr. 91 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2024 nr. 91 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-14-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 14 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</h2>
 <h4 id="14-1-ikrafttredelse">§ 14-1. Ikrafttredelse</h4>
 <p>Loven trer i kraft fra den tid 1 Kongen bestemmer. Fra samme tidspunkt oppheves lov 21. desember 2007 nr. 119 om toll og vareførsel .</p>
@@ -786,6 +1141,8 @@ e. det gis en eller annen form for inntekts- eller prisstøtte som direkte eller
 <p>Departementet kan gi forskrift om overgangsbestemmelser.</p>
 <h4 id="14-3-forslag-til-endringer-i-andre-lover">§ 14-3. Forslag til endringer i andre lover</h4>
 <p>Fra det tidspunktet loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

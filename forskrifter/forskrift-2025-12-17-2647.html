@@ -19,64 +19,233 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-17-2647.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &rsaquo;
 <span>Arkivforskrifta</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2025-12-17-2647</code></dd>
-<dt>Departement</dt><dd>Kultur- og likestillingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2026-01-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-17-2647" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forvaltning-av-dokumentasjon-som-arkiv">Kapittel 1. Forvaltning av dokumentasjon som arkiv</a></li>
+<li class="lvl4"><a href="#1-kva-eit-organ-skal-ta-omsyn-til-nar-det-skal-avgjere-kva-dokumentasjon-det-skal-forvalte-som-arkiv">§ 1. Kva eit organ skal ta omsyn til når det skal avgjere kva dokumentasjon det skal forvalte som arkiv</a></li>
+<li class="lvl4"><a href="#2-forskrift-om-kva-dokumentasjon-som-skal-takast-vare-pa-for-ettertida">§ 2. Forskrift om kva dokumentasjon som skal takast vare på for ettertida</a></li>
+<li class="lvl4"><a href="#3-oppbevaringstider-for-dokumentasjon">§ 3. Oppbevaringstider for dokumentasjon</a></li>
+<li class="lvl4"><a href="#4-srlege-reglar-for-visse-organ">§ 4. Særlege reglar for visse organ</a></li>
+<li class="lvl4"><a href="#5-krav-til-informasjonssystem">§ 5. Krav til informasjonssystem</a></li>
+<li class="lvl4"><a href="#6-krav-til-skildringar-av-informasjonssystem">§ 6. Krav til skildringar av informasjonssystem</a></li>
+<li class="lvl4"><a href="#7-vedlikehald-av-digitale-arkiv">§ 7. Vedlikehald av digitale arkiv</a></li>
+<li class="lvl4"><a href="#8-avtale-om-ansvaret-for-dokumentasjon-i-system-for-felles-oppgavelysing">§ 8. Avtale om ansvaret for dokumentasjon i system for felles oppgåveløysing</a></li>
+<li class="lvl4"><a href="#9-konvertering-av-analog-dokumentasjon-til-digitalt-format-i-den-daglege-oppgavelysinga">§ 9. Konvertering av analog dokumentasjon til digitalt format i den daglege oppgåveløysinga</a></li>
+<li class="lvl4"><a href="#10-krav-til-sikring-av-lagringsmedium-for-arkiv">§ 10. Krav til sikring av lagringsmedium for arkiv</a></li>
+<li class="lvl4"><a href="#11-retting-av-feil-i-registrerte-opplysningar">§ 11. Retting av feil i registrerte opplysningar</a></li>
+<li class="lvl4"><a href="#12-kva-dokumentasjonsplanen-skal-innehalde">§ 12. Kva dokumentasjonsplanen skal innehalde</a></li>
+<li class="lvl4"><a href="#13-internkontroll-med-dokumentasjonsforvaltninga">§ 13. Internkontroll med dokumentasjonsforvaltninga</a></li>
+<li class="lvl2"><a href="#kapittel-2-journalfring">Kapittel 2. Journalføring</a></li>
+<li class="lvl4"><a href="#14-kva-dokument-som-skal-registrerast-i-journal">§ 14. Kva dokument som skal registrerast i journal</a></li>
+<li class="lvl4"><a href="#15-kva-metadata-som-skal-registrerast-om-eit-saksdokument-i-ein-journal">§ 15. Kva metadata som skal registrerast om eit saksdokument i ein journal</a></li>
+<li class="lvl2"><a href="#kapittel-3-konvertering-av-avslutta-analoge-arkiv-til-digitalt-format">Kapittel 3. Konvertering av avslutta analoge arkiv til digitalt format</a></li>
+<li class="lvl4"><a href="#16-tekniske-krav-til-konverteringa">§ 16. Tekniske krav til konverteringa</a></li>
+<li class="lvl4"><a href="#17-krav-om-registrering-av-metadata-om-konverterte-arkiv">§ 17. Krav om registrering av metadata om konverterte arkiv</a></li>
+<li class="lvl4"><a href="#18-destruksjon-av-dei-analoge-lagringsmedia-etter-konverteringa">§ 18. Destruksjon av dei analoge lagringsmedia etter konverteringa</a></li>
+<li class="lvl4"><a href="#19-unntak-fra-moglegheita-til-a-destruere-analoge-lagringsmedium-etter-konverteringa">§ 19. Unntak frå moglegheita til å destruere analoge lagringsmedium etter konverteringa</a></li>
+<li class="lvl2"><a href="#kapittel-4-overordna-reglar-om-avlevering-av-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 4. Overordna reglar om avlevering av arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#20-krav-om-digital-avlevering">§ 20. Krav om digital avlevering</a></li>
+<li class="lvl4"><a href="#21-tidspunktet-for-og-avtale-om-avlevering">§ 21. Tidspunktet for og avtale om avlevering</a></li>
+<li class="lvl4"><a href="#22-avtale-om-raderett-over-avleverte-arkiv">§ 22. Avtale om råderett over avleverte arkiv</a></li>
+<li class="lvl4"><a href="#23-kva-opplysningar-som-skal-flgje-arkiv-ved-avleveringa">§ 23. Kva opplysningar som skal følgje arkiv ved avleveringa</a></li>
+<li class="lvl4"><a href="#24-refusjon-av-nasjonalarkivets-kostnader">§ 24. Refusjon av Nasjonalarkivets kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-5-avlevering-av-digitale-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 5. Avlevering av digitale arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#25-korleis-digital-dokumentasjon-skal-strukturerast-og-overfrast-til-nasjonalarkivet">§ 25. Korleis digital dokumentasjon skal strukturerast og overførast til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#26-kva-ei-arkivpakke-skal-innehalde">§ 26. Kva ei arkivpakke skal innehalde</a></li>
+<li class="lvl4"><a href="#27-mottak-og-godkjenning-av-arkivpakker">§ 27. Mottak og godkjenning av arkivpakker</a></li>
+<li class="lvl4"><a href="#28-krav-til-uttrekk-fra-informasjonssystem-som-er-utforma-i-trad-med-noark-5">§ 28. Krav til uttrekk frå informasjonssystem som er utforma i tråd med Noark 5</a></li>
+<li class="lvl4"><a href="#29-krav-til-uttrekk-av-strukturert-informasjon-fra-databasar">§ 29. Krav til uttrekk av strukturert informasjon frå databasar</a></li>
+<li class="lvl4"><a href="#30-krav-til-format-for-datafiler-i-uttrekk-filformat">§ 30. Krav til format for datafiler i uttrekk (filformat)</a></li>
+<li class="lvl4"><a href="#31-krav-til-teiknsett-i-uttrekk">§ 31. Krav til teiknsett i uttrekk</a></li>
+<li class="lvl4"><a href="#32-krav-til-tekniske-skildringar-av-uttrekk">§ 32. Krav til tekniske skildringar av uttrekk</a></li>
+<li class="lvl4"><a href="#33-krav-om-a-oppretthalde-naudsynte-koplingar-nar-eit-uttrekk-blir-produsert">§ 33. Krav om å oppretthalde naudsynte koplingar når eit uttrekk blir produsert</a></li>
+<li class="lvl4"><a href="#34-krav-om-fjerning-av-kryptering-og-passordvern-for-datafiler-fr-avlevering">§ 34. Krav om fjerning av kryptering og passordvern for datafiler før avlevering</a></li>
+<li class="lvl2"><a href="#kapittel-6-avlevering-av-analoge-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 6. Avlevering av analoge arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#35-kva-opplysningar-som-skal-flgje-analoge-arkiv-ved-avleveringa">§ 35. Kva opplysningar som skal følgje analoge arkiv ved avleveringa</a></li>
+<li class="lvl4"><a href="#36-tilrettelegging-av-analoge-arkiv-fr-avlevering">§ 36. Tilrettelegging av analoge arkiv før avlevering</a></li>
+<li class="lvl4"><a href="#37-pakking-og-merking-av-analoge-arkiv">§ 37. Pakking og merking av analoge arkiv</a></li>
+<li class="lvl4"><a href="#38-transport-og-kostnader">§ 38. Transport og kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilgjengeleggjering-av-arkiv-som-er-avleverte-eller-overfrte-til-langtidsbevaring">Kapittel 7. Tilgjengeleggjering av arkiv som er avleverte eller overførte til langtidsbevaring</a></li>
+<li class="lvl4"><a href="#39-plikt-til-a-publisere-skbare-oversikter-over-avleverte-eller-overfrte-arkiv">§ 39. Plikt til å publisere søkbare oversikter over avleverte eller overførte arkiv</a></li>
+<li class="lvl4"><a href="#40-tilgang-for-allmenta-til-avleverte-eller-overfrte-arkiv">§ 40. Tilgang for allmenta til avleverte eller overførte arkiv</a></li>
+<li class="lvl4"><a href="#41-tilgang-for-organ-til-arkiv-som-er-avleverte-til-nasjonalarkivet">§ 41. Tilgang for organ til arkiv som er avleverte til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#42-betaling-for-tenester">§ 42. Betaling for tenester</a></li>
+<li class="lvl2"><a href="#kapittel-8-handsaming-av-personopplysningar-i-arkiv">Kapittel 8. Handsaming av personopplysningar i arkiv</a></li>
+<li class="lvl4"><a href="#43-handsaming-av-sknader-om-kassasjon-av-enkeltopplysningar">§ 43. Handsaming av søknader om kassasjon av enkeltopplysningar</a></li>
+<li class="lvl4"><a href="#44-sknad-om-kassasjon-av-enkeltopplysningar">§ 44. Søknad om kassasjon av enkeltopplysningar</a></li>
+<li class="lvl4"><a href="#45-nasjonalarkivets-rett-til-a-handsame-personopplysningar-som-ikkje-skal-takast-vare-pa-for-ettertida">§ 45. Nasjonalarkivets rett til å handsame personopplysningar som ikkje skal takast vare på for ettertida</a></li>
+<li class="lvl4"><a href="#46-nasjonalarkivets-rett-til-a-handsame-personopplysningar-i-samband-med-utvikling-og-testing-av-ny-teknologi">§ 46. Nasjonalarkivets rett til å handsame personopplysningar i samband med utvikling og testing av ny teknologi</a></li>
+<li class="lvl2"><a href="#kapittel-9-forvaltning-av-dokumentasjon-ved-omorganiseringar-i-offentleg-sektor">Kapittel 9. Forvaltning av dokumentasjon ved omorganiseringar i offentleg sektor</a></li>
+<li class="lvl4"><a href="#47-forvaltning-av-dokumentasjon-ved-omorganiseringar-i-staten">§ 47. Forvaltning av dokumentasjon ved omorganiseringar i staten</a></li>
+<li class="lvl4"><a href="#48-forvaltning-av-dokumentasjon-ved-flytting-av-oppgaver-mellom-forvaltningsniva-eller-til-private-rettssubjekt">§ 48. Forvaltning av dokumentasjon ved flytting av oppgåver mellom forvaltningsnivå eller til private rettssubjekt</a></li>
+<li class="lvl4"><a href="#49-oversikt-over-dokumentasjon-som-blir-overfrt">§ 49. Oversikt over dokumentasjon som blir overført</a></li>
+<li class="lvl4"><a href="#50-tilgang-til-dokumentasjon">§ 50. Tilgang til dokumentasjon</a></li>
+<li class="lvl4"><a href="#51-registrering-og-vedlikehald-av-metadata-om-opphavet-til-dokumentasjon">§ 51. Registrering og vedlikehald av metadata om opphavet til dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-iverksetjing-og-oppheving">Kapittel 10. Iverksetjing og oppheving</a></li>
+<li class="lvl4"><a href="#52-iverksetjing-og-oppheving">§ 52. Iverksetjing og oppheving</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-17-2647.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om dokumentasjon og arkiv (arkivforskrifta)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-17-2647.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2025-12-17-2647 <code>forskrift/2025-12-17-2647</code></td></tr>
+<tr><th>Korttittel</th><td>Arkivforskrifta</td></tr>
+<tr><th>Departement</th><td>Kultur- og likestillingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2026</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-17-2647" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forvaltning-av-dokumentasjon-som-arkiv">Kapittel 1. Forvaltning av dokumentasjon som arkiv</a></li>
+<li class="lvl4"><a href="#1-kva-eit-organ-skal-ta-omsyn-til-nar-det-skal-avgjere-kva-dokumentasjon-det-skal-forvalte-som-arkiv">§ 1. Kva eit organ skal ta omsyn til når det skal avgjere kva dokumentasjon det skal forvalte som arkiv</a></li>
+<li class="lvl4"><a href="#2-forskrift-om-kva-dokumentasjon-som-skal-takast-vare-pa-for-ettertida">§ 2. Forskrift om kva dokumentasjon som skal takast vare på for ettertida</a></li>
+<li class="lvl4"><a href="#3-oppbevaringstider-for-dokumentasjon">§ 3. Oppbevaringstider for dokumentasjon</a></li>
+<li class="lvl4"><a href="#4-srlege-reglar-for-visse-organ">§ 4. Særlege reglar for visse organ</a></li>
+<li class="lvl4"><a href="#5-krav-til-informasjonssystem">§ 5. Krav til informasjonssystem</a></li>
+<li class="lvl4"><a href="#6-krav-til-skildringar-av-informasjonssystem">§ 6. Krav til skildringar av informasjonssystem</a></li>
+<li class="lvl4"><a href="#7-vedlikehald-av-digitale-arkiv">§ 7. Vedlikehald av digitale arkiv</a></li>
+<li class="lvl4"><a href="#8-avtale-om-ansvaret-for-dokumentasjon-i-system-for-felles-oppgavelysing">§ 8. Avtale om ansvaret for dokumentasjon i system for felles oppgåveløysing</a></li>
+<li class="lvl4"><a href="#9-konvertering-av-analog-dokumentasjon-til-digitalt-format-i-den-daglege-oppgavelysinga">§ 9. Konvertering av analog dokumentasjon til digitalt format i den daglege oppgåveløysinga</a></li>
+<li class="lvl4"><a href="#10-krav-til-sikring-av-lagringsmedium-for-arkiv">§ 10. Krav til sikring av lagringsmedium for arkiv</a></li>
+<li class="lvl4"><a href="#11-retting-av-feil-i-registrerte-opplysningar">§ 11. Retting av feil i registrerte opplysningar</a></li>
+<li class="lvl4"><a href="#12-kva-dokumentasjonsplanen-skal-innehalde">§ 12. Kva dokumentasjonsplanen skal innehalde</a></li>
+<li class="lvl4"><a href="#13-internkontroll-med-dokumentasjonsforvaltninga">§ 13. Internkontroll med dokumentasjonsforvaltninga</a></li>
+<li class="lvl2"><a href="#kapittel-2-journalfring">Kapittel 2. Journalføring</a></li>
+<li class="lvl4"><a href="#14-kva-dokument-som-skal-registrerast-i-journal">§ 14. Kva dokument som skal registrerast i journal</a></li>
+<li class="lvl4"><a href="#15-kva-metadata-som-skal-registrerast-om-eit-saksdokument-i-ein-journal">§ 15. Kva metadata som skal registrerast om eit saksdokument i ein journal</a></li>
+<li class="lvl2"><a href="#kapittel-3-konvertering-av-avslutta-analoge-arkiv-til-digitalt-format">Kapittel 3. Konvertering av avslutta analoge arkiv til digitalt format</a></li>
+<li class="lvl4"><a href="#16-tekniske-krav-til-konverteringa">§ 16. Tekniske krav til konverteringa</a></li>
+<li class="lvl4"><a href="#17-krav-om-registrering-av-metadata-om-konverterte-arkiv">§ 17. Krav om registrering av metadata om konverterte arkiv</a></li>
+<li class="lvl4"><a href="#18-destruksjon-av-dei-analoge-lagringsmedia-etter-konverteringa">§ 18. Destruksjon av dei analoge lagringsmedia etter konverteringa</a></li>
+<li class="lvl4"><a href="#19-unntak-fra-moglegheita-til-a-destruere-analoge-lagringsmedium-etter-konverteringa">§ 19. Unntak frå moglegheita til å destruere analoge lagringsmedium etter konverteringa</a></li>
+<li class="lvl2"><a href="#kapittel-4-overordna-reglar-om-avlevering-av-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 4. Overordna reglar om avlevering av arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#20-krav-om-digital-avlevering">§ 20. Krav om digital avlevering</a></li>
+<li class="lvl4"><a href="#21-tidspunktet-for-og-avtale-om-avlevering">§ 21. Tidspunktet for og avtale om avlevering</a></li>
+<li class="lvl4"><a href="#22-avtale-om-raderett-over-avleverte-arkiv">§ 22. Avtale om råderett over avleverte arkiv</a></li>
+<li class="lvl4"><a href="#23-kva-opplysningar-som-skal-flgje-arkiv-ved-avleveringa">§ 23. Kva opplysningar som skal følgje arkiv ved avleveringa</a></li>
+<li class="lvl4"><a href="#24-refusjon-av-nasjonalarkivets-kostnader">§ 24. Refusjon av Nasjonalarkivets kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-5-avlevering-av-digitale-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 5. Avlevering av digitale arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#25-korleis-digital-dokumentasjon-skal-strukturerast-og-overfrast-til-nasjonalarkivet">§ 25. Korleis digital dokumentasjon skal strukturerast og overførast til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#26-kva-ei-arkivpakke-skal-innehalde">§ 26. Kva ei arkivpakke skal innehalde</a></li>
+<li class="lvl4"><a href="#27-mottak-og-godkjenning-av-arkivpakker">§ 27. Mottak og godkjenning av arkivpakker</a></li>
+<li class="lvl4"><a href="#28-krav-til-uttrekk-fra-informasjonssystem-som-er-utforma-i-trad-med-noark-5">§ 28. Krav til uttrekk frå informasjonssystem som er utforma i tråd med Noark 5</a></li>
+<li class="lvl4"><a href="#29-krav-til-uttrekk-av-strukturert-informasjon-fra-databasar">§ 29. Krav til uttrekk av strukturert informasjon frå databasar</a></li>
+<li class="lvl4"><a href="#30-krav-til-format-for-datafiler-i-uttrekk-filformat">§ 30. Krav til format for datafiler i uttrekk (filformat)</a></li>
+<li class="lvl4"><a href="#31-krav-til-teiknsett-i-uttrekk">§ 31. Krav til teiknsett i uttrekk</a></li>
+<li class="lvl4"><a href="#32-krav-til-tekniske-skildringar-av-uttrekk">§ 32. Krav til tekniske skildringar av uttrekk</a></li>
+<li class="lvl4"><a href="#33-krav-om-a-oppretthalde-naudsynte-koplingar-nar-eit-uttrekk-blir-produsert">§ 33. Krav om å oppretthalde naudsynte koplingar når eit uttrekk blir produsert</a></li>
+<li class="lvl4"><a href="#34-krav-om-fjerning-av-kryptering-og-passordvern-for-datafiler-fr-avlevering">§ 34. Krav om fjerning av kryptering og passordvern for datafiler før avlevering</a></li>
+<li class="lvl2"><a href="#kapittel-6-avlevering-av-analoge-arkiv-fra-statlege-organ-til-nasjonalarkivet">Kapittel 6. Avlevering av analoge arkiv frå statlege organ til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#35-kva-opplysningar-som-skal-flgje-analoge-arkiv-ved-avleveringa">§ 35. Kva opplysningar som skal følgje analoge arkiv ved avleveringa</a></li>
+<li class="lvl4"><a href="#36-tilrettelegging-av-analoge-arkiv-fr-avlevering">§ 36. Tilrettelegging av analoge arkiv før avlevering</a></li>
+<li class="lvl4"><a href="#37-pakking-og-merking-av-analoge-arkiv">§ 37. Pakking og merking av analoge arkiv</a></li>
+<li class="lvl4"><a href="#38-transport-og-kostnader">§ 38. Transport og kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilgjengeleggjering-av-arkiv-som-er-avleverte-eller-overfrte-til-langtidsbevaring">Kapittel 7. Tilgjengeleggjering av arkiv som er avleverte eller overførte til langtidsbevaring</a></li>
+<li class="lvl4"><a href="#39-plikt-til-a-publisere-skbare-oversikter-over-avleverte-eller-overfrte-arkiv">§ 39. Plikt til å publisere søkbare oversikter over avleverte eller overførte arkiv</a></li>
+<li class="lvl4"><a href="#40-tilgang-for-allmenta-til-avleverte-eller-overfrte-arkiv">§ 40. Tilgang for allmenta til avleverte eller overførte arkiv</a></li>
+<li class="lvl4"><a href="#41-tilgang-for-organ-til-arkiv-som-er-avleverte-til-nasjonalarkivet">§ 41. Tilgang for organ til arkiv som er avleverte til Nasjonalarkivet</a></li>
+<li class="lvl4"><a href="#42-betaling-for-tenester">§ 42. Betaling for tenester</a></li>
+<li class="lvl2"><a href="#kapittel-8-handsaming-av-personopplysningar-i-arkiv">Kapittel 8. Handsaming av personopplysningar i arkiv</a></li>
+<li class="lvl4"><a href="#43-handsaming-av-sknader-om-kassasjon-av-enkeltopplysningar">§ 43. Handsaming av søknader om kassasjon av enkeltopplysningar</a></li>
+<li class="lvl4"><a href="#44-sknad-om-kassasjon-av-enkeltopplysningar">§ 44. Søknad om kassasjon av enkeltopplysningar</a></li>
+<li class="lvl4"><a href="#45-nasjonalarkivets-rett-til-a-handsame-personopplysningar-som-ikkje-skal-takast-vare-pa-for-ettertida">§ 45. Nasjonalarkivets rett til å handsame personopplysningar som ikkje skal takast vare på for ettertida</a></li>
+<li class="lvl4"><a href="#46-nasjonalarkivets-rett-til-a-handsame-personopplysningar-i-samband-med-utvikling-og-testing-av-ny-teknologi">§ 46. Nasjonalarkivets rett til å handsame personopplysningar i samband med utvikling og testing av ny teknologi</a></li>
+<li class="lvl2"><a href="#kapittel-9-forvaltning-av-dokumentasjon-ved-omorganiseringar-i-offentleg-sektor">Kapittel 9. Forvaltning av dokumentasjon ved omorganiseringar i offentleg sektor</a></li>
+<li class="lvl4"><a href="#47-forvaltning-av-dokumentasjon-ved-omorganiseringar-i-staten">§ 47. Forvaltning av dokumentasjon ved omorganiseringar i staten</a></li>
+<li class="lvl4"><a href="#48-forvaltning-av-dokumentasjon-ved-flytting-av-oppgaver-mellom-forvaltningsniva-eller-til-private-rettssubjekt">§ 48. Forvaltning av dokumentasjon ved flytting av oppgåver mellom forvaltningsnivå eller til private rettssubjekt</a></li>
+<li class="lvl4"><a href="#49-oversikt-over-dokumentasjon-som-blir-overfrt">§ 49. Oversikt over dokumentasjon som blir overført</a></li>
+<li class="lvl4"><a href="#50-tilgang-til-dokumentasjon">§ 50. Tilgang til dokumentasjon</a></li>
+<li class="lvl4"><a href="#51-registrering-og-vedlikehald-av-metadata-om-opphavet-til-dokumentasjon">§ 51. Registrering og vedlikehald av metadata om opphavet til dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-iverksetjing-og-oppheving">Kapittel 10. Iverksetjing og oppheving</a></li>
+<li class="lvl4"><a href="#52-iverksetjing-og-oppheving">§ 52. Iverksetjing og oppheving</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-17-2647.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-17-2647.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-17-2647.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2025-12-17-2647.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2025-12-17-2647.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-dokumentasjon-og-arkiv-arkivforskrifta">Forskrift om dokumentasjon og arkiv (arkivforskrifta)</h1>
 <h2 id="kapittel-1-forvaltning-av-dokumentasjon-som-arkiv">Kapittel 1. Forvaltning av dokumentasjon som arkiv</h2>
 <h4 id="1-kva-eit-organ-skal-ta-omsyn-til-nar-det-skal-avgjere-kva-dokumentasjon-det-skal-forvalte-som-arkiv">§ 1. Kva eit organ skal ta omsyn til når det skal avgjere kva dokumentasjon det skal forvalte som arkiv</h4>
 <p>Når eit organ skal avgjere kva dokumentasjon det skal forvalte som arkiv etter arkivlova § 5 , skal det særleg ta omsyn til om dokumentasjonen</p>
@@ -382,6 +551,8 @@ d. kor mykje arbeid kassasjonen krev.</p>
 <h2 id="kapittel-10-iverksetjing-og-oppheving">Kapittel 10. Iverksetjing og oppheving</h2>
 <h4 id="52-iverksetjing-og-oppheving">§ 52. Iverksetjing og oppheving</h4>
 <p>Forskrifta tek til å gjelde 1. januar 2026. Samstundes blir forskrift 19. desember 2017 nr. 2286 om utfyllende tekniske og arkivfaglige bestemmelser om behandling av offentlige arkiver (riksarkivarens forskrift) oppheva.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

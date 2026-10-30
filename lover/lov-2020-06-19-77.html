@@ -19,64 +19,321 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2020-06-19-77.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Etterretningstjenesteloven" href="../feeds/lov-2020-06-19-77.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &rsaquo;
 <span>Etterretningstjenesteloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2020-06-19-77</code></dd>
-<dt>Departement</dt><dd>Forsvarsdepartementet</dd>
-<dt>Rettsområde</dt><dd>IKT- og medierett &raquo; Personopplysninger\nIKT- og medierett &raquo; Telekommunikasjon\nKultur, idrett og underholdning &raquo; Arkiv\nStats-, statsforfatnings- og statsborgerrett &raquo; Forsvaret</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01, 2022-01-01, 2022-09-02</dd>
-<dt>Sist endret</dt><dd>lov/2024-12-13-76</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2020-06-19-77" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisering-styring-og-kontroll">Kapittel 2. Organisering, styring og kontroll</a></li>
+<li class="lvl4"><a href="#2-1-nasjonal-tjeneste">§ 2-1. Nasjonal tjeneste</a></li>
+<li class="lvl4"><a href="#2-2-oppdragsstyring">§ 2-2. Oppdragsstyring</a></li>
+<li class="lvl4"><a href="#2-3-departementets-styring-og-kontroll">§ 2-3. Departementets styring og kontroll</a></li>
+<li class="lvl4"><a href="#2-4-varsling-og-rapportering">§ 2-4. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#2-5-saker-som-skal-forelegges-departementet-for-beslutning">§ 2-5. Saker som skal forelegges departementet for beslutning</a></li>
+<li class="lvl4"><a href="#2-6-eos-utvalgets-og-riksrevisjonens-kontroll">§ 2-6. EOS-utvalgets og Riksrevisjonens kontroll</a></li>
+<li class="lvl4"><a href="#2-7-andre-bestemmelser-om-tilsyn-og-kontroll">§ 2-7. Andre bestemmelser om tilsyn og kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-3-oppgaver">Kapittel 3. Oppgaver</a></li>
+<li class="lvl4"><a href="#3-1-informasjonsinnhenting-om-utenlandske-trusler">§ 3-1. Informasjonsinnhenting om utenlandske trusler</a></li>
+<li class="lvl4"><a href="#3-2-informasjonsinnhenting-om-andre-utenlandske-forhold">§ 3-2. Informasjonsinnhenting om andre utenlandske forhold</a></li>
+<li class="lvl4"><a href="#3-3-okkupasjonsberedskap">§ 3-3. Okkupasjonsberedskap</a></li>
+<li class="lvl4"><a href="#3-4-internasjonalt-etterretningssamarbeid">§ 3-4. Internasjonalt etterretningssamarbeid</a></li>
+<li class="lvl4"><a href="#3-5-innhenting-av-evneinformasjon">§ 3-5. Innhenting av evneinformasjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-forbud-mot-innhenting-i-norge-og-andre-srskilte-forbud">Kapittel 4. Forbud mot innhenting i Norge og andre særskilte forbud</a></li>
+<li class="lvl4"><a href="#4-1-forbud-mot-innhenting-i-norge">§ 4-1. Forbud mot innhenting i Norge</a></li>
+<li class="lvl4"><a href="#4-2-fremmed-statsaktivitet-i-norge">§ 4-2. Fremmed statsaktivitet i Norge</a></li>
+<li class="lvl4"><a href="#4-3-samordning-med-politiets-sikkerhetstjeneste">§ 4-3. Samordning med Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#4-4-apne-kilder-som-berrer-personer-i-norge">§ 4-4. Åpne kilder som berører personer i Norge</a></li>
+<li class="lvl4"><a href="#4-5-kilderekruttering-og-kildeverifikasjon-i-norge">§ 4-5. Kilderekruttering og kildeverifikasjon i Norge</a></li>
+<li class="lvl4"><a href="#4-6-trening-ving-og-testing-av-utstyr-i-norge">§ 4-6. Trening, øving og testing av utstyr i Norge</a></li>
+<li class="lvl4"><a href="#4-7-aksessorisk-informasjon-om-personer-i-norge">§ 4-7. Aksessorisk informasjon om personer i Norge</a></li>
+<li class="lvl4"><a href="#4-8-forbud-mot-a-innhente-informasjon-for-politiformal">§ 4-8. Forbud mot å innhente informasjon for politiformål</a></li>
+<li class="lvl4"><a href="#4-9-forbud-mot-industrispionasje">§ 4-9. Forbud mot industrispionasje</a></li>
+<li class="lvl2"><a href="#kapittel-5-grunnvilkar-for-innhenting-og-utlevering-av-informasjon">Kapittel 5. Grunnvilkår for innhenting og utlevering av informasjon</a></li>
+<li class="lvl4"><a href="#5-1-grunnvilkar-for-malsking">§ 5-1. Grunnvilkår for målsøking</a></li>
+<li class="lvl4"><a href="#5-2-grunnvilkar-for-malrettet-innhenting">§ 5-2. Grunnvilkår for målrettet innhenting</a></li>
+<li class="lvl4"><a href="#5-3-grunnvilkar-for-innhenting-av-og-sk-i-radata-i-bulk">§ 5-3. Grunnvilkår for innhenting av og søk i rådata i bulk</a></li>
+<li class="lvl4"><a href="#5-4-forholdsmessighet">§ 5-4. Forholdsmessighet</a></li>
+<li class="lvl2"><a href="#kapittel-6-metoder-for-innhenting-av-informasjon-som-kan-medfre-inngrep-overfor-den-enkelte">Kapittel 6. Metoder for innhenting av informasjon som kan medføre inngrep overfor den enkelte</a></li>
+<li class="lvl4"><a href="#6-1-generelle-vilkar">§ 6-1. Generelle vilkår</a></li>
+<li class="lvl4"><a href="#6-2-apne-kilder">§ 6-2. Åpne kilder</a></li>
+<li class="lvl4"><a href="#6-3-menneskebasert-innhenting">§ 6-3. Menneskebasert innhenting</a></li>
+<li class="lvl4"><a href="#6-4-systematisk-observasjon">§ 6-4. Systematisk observasjon</a></li>
+<li class="lvl4"><a href="#6-5-teknisk-sporing">§ 6-5. Teknisk sporing</a></li>
+<li class="lvl4"><a href="#6-6-gjennomsking-mv">§ 6-6. Gjennomsøking mv.</a></li>
+<li class="lvl4"><a href="#6-7-avlytting-og-bildeovervakning">§ 6-7. Avlytting og bildeovervåkning</a></li>
+<li class="lvl4"><a href="#6-8-annen-teknisk-innhenting">§ 6-8. Annen teknisk innhenting</a></li>
+<li class="lvl4"><a href="#6-9-midtpunktinnhenting">§ 6-9. Midtpunktinnhenting</a></li>
+<li class="lvl4"><a href="#6-10-endepunktinnhenting">§ 6-10. Endepunktinnhenting</a></li>
+<li class="lvl4"><a href="#6-11-forberedende-tiltak">§ 6-11. Forberedende tiltak</a></li>
+<li class="lvl4"><a href="#6-12-beslutning-om-bruk-av-en-innhentingsmetode">§ 6-12. Beslutning om bruk av en innhentingsmetode</a></li>
+<li class="lvl4"><a href="#6-13-krav-til-beslutningen">§ 6-13. Krav til beslutningen</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilrettelagt-innhenting-av-grenseoverskridende-elektronisk-kommunikasjon">Kapittel 7. Tilrettelagt innhenting av grenseoverskridende elektronisk kommunikasjon</a></li>
+<li class="lvl4"><a href="#7-1-generelle-vilkar-og-virkeomrade">§ 7-1. Generelle vilkår og virkeområde</a></li>
+<li class="lvl4"><a href="#7-2-tilretteleggingsplikt-for-ekomtilbydere">§ 7-2. Tilretteleggingsplikt for ekomtilbydere</a></li>
+<li class="lvl4"><a href="#7-3-vilkar-og-beslutningskompetanse-i-saker-om-tilrettelegging">§ 7-3. Vilkår og beslutningskompetanse i saker om tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-4-taushetsplikt">§ 7-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-5-testinnhenting-og-testanalyser">§ 7-5. Testinnhenting og testanalyser</a></li>
+<li class="lvl4"><a href="#7-6-utvalg-og-filtrering">§ 7-6. Utvalg og filtrering</a></li>
+<li class="lvl4"><a href="#7-7-innhenting-og-lagring-av-metadata-i-bulk">§ 7-7. Innhenting og lagring av metadata i bulk</a></li>
+<li class="lvl4"><a href="#7-8-sk-i-lagrede-metadata">§ 7-8. Søk i lagrede metadata</a></li>
+<li class="lvl4"><a href="#7-9-malrettet-innhenting-og-lagring-av-innholdsdata">§ 7-9. Målrettet innhenting og lagring av innholdsdata</a></li>
+<li class="lvl4"><a href="#7-10-internkontroll-og-aktivitetslogger">§ 7-10. Internkontroll og aktivitetslogger</a></li>
+<li class="lvl4"><a href="#7-11-lpende-kontroll">§ 7-11. Løpende kontroll</a></li>
+<li class="lvl4"><a href="#7-12-begjring-om-stansing-og-sletting">§ 7-12. Begjæring om stansing og sletting</a></li>
+<li class="lvl4"><a href="#7-13-forbud-mot-utlevering-av-overskuddsinformasjon">§ 7-13. Forbud mot utlevering av overskuddsinformasjon</a></li>
+<li class="lvl4"><a href="#7-14-bevisforbud-i-straffesaker">§ 7-14. Bevisforbud i straffesaker</a></li>
+<li class="lvl4"><a href="#7-15-informasjonssikkerhet">§ 7-15. Informasjonssikkerhet</a></li>
+<li class="lvl2"><a href="#kapittel-8-domstolskontroll">Kapittel 8. Domstolskontroll</a></li>
+<li class="lvl4"><a href="#8-1-kjennelse-om-tillatelse-til-tilrettelagt-innhenting-mv">§ 8-1. Kjennelse om tillatelse til tilrettelagt innhenting mv.</a></li>
+<li class="lvl4"><a href="#8-2-krav-til-begjringen">§ 8-2. Krav til begjæringen</a></li>
+<li class="lvl4"><a href="#8-3-muntlige-forhandlinger">§ 8-3. Muntlige forhandlinger</a></li>
+<li class="lvl4"><a href="#8-4-hva-retten-skal-prve">§ 8-4. Hva retten skal prøve</a></li>
+<li class="lvl4"><a href="#8-5-srskilt-advokat">§ 8-5. Særskilt advokat</a></li>
+<li class="lvl4"><a href="#8-6-varighet">§ 8-6. Varighet</a></li>
+<li class="lvl4"><a href="#8-7-informasjonssikkerhet">§ 8-7. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#8-8-taushetsplikt">§ 8-8. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-9-anke">§ 8-9. Anke</a></li>
+<li class="lvl4"><a href="#8-10-hastekompetanse">§ 8-10. Hastekompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-9-behandling-av-personopplysninger-etter-innhenting">Kapittel 9. Behandling av personopplysninger etter innhenting</a></li>
+<li class="lvl4"><a href="#9-1-forholdet-til-personopplysningsloven">§ 9-1. Forholdet til personopplysningsloven</a></li>
+<li class="lvl4"><a href="#9-2-behandlingsgrunnlag">§ 9-2. Behandlingsgrunnlag</a></li>
+<li class="lvl4"><a href="#9-3-unntak-for-innhenting-av-personopplysninger">§ 9-3. Unntak for innhenting av personopplysninger</a></li>
+<li class="lvl4"><a href="#9-4-diskrimineringsforbud">§ 9-4. Diskrimineringsforbud</a></li>
+<li class="lvl4"><a href="#9-5-behandling-av-fortrolig-kommunikasjon-med-srlige-yrkesutvere">§ 9-5. Behandling av fortrolig kommunikasjon med særlige yrkesutøvere</a></li>
+<li class="lvl4"><a href="#9-6-behandling-av-opplysninger-som-kan-identifisere-en-kilde">§ 9-6. Behandling av opplysninger som kan identifisere en kilde</a></li>
+<li class="lvl4"><a href="#9-7-korrekte-og-oppdaterte-personopplysninger">§ 9-7. Korrekte og oppdaterte personopplysninger</a></li>
+<li class="lvl4"><a href="#9-8-sletting">§ 9-8. Sletting</a></li>
+<li class="lvl4"><a href="#9-9-informasjonssikkerhet">§ 9-9. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#9-10-personvernradgiver">§ 9-10. Personvernrådgiver</a></li>
+<li class="lvl2"><a href="#kapittel-10-nasjonalt-og-internasjonalt-samarbeid-og-informasjonsutveksling">Kapittel 10. Nasjonalt og internasjonalt samarbeid og informasjonsutveksling</a></li>
+<li class="lvl4"><a href="#10-1-nasjonalt-og-internasjonalt-samarbeid">§ 10-1. Nasjonalt og internasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-2-utlevering-av-etterretningsinformasjon-som-ledd-i-nasjonalt-samarbeid">§ 10-2. Utlevering av etterretningsinformasjon som ledd i nasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-3-utlevering-av-etterretningsinformasjon-som-ledd-i-internasjonalt-samarbeid">§ 10-3. Utlevering av etterretningsinformasjon som ledd i internasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-4-utlevering-av-overskuddsinformasjon">§ 10-4. Utlevering av overskuddsinformasjon</a></li>
+<li class="lvl4"><a href="#10-5-utlevering-av-informasjon-til-etterretningstjenesten-fra-norske-myndigheter">§ 10-5. Utlevering av informasjon til Etterretningstjenesten fra norske myndigheter</a></li>
+<li class="lvl4"><a href="#10-6-formidling-av-opplysninger-pa-vegne-av-norske-myndigheter">§ 10-6. Formidling av opplysninger på vegne av norske myndigheter</a></li>
+<li class="lvl4"><a href="#10-7-bistand-til-politiet">§ 10-7. Bistand til politiet</a></li>
+<li class="lvl2"><a href="#kapittel-11-avsluttende-bestemmelser">Kapittel 11. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-forholdet-til-forvaltningsloven">§ 11-1. Forholdet til forvaltningsloven</a></li>
+<li class="lvl4"><a href="#11-2-taushetsplikt">§ 11-2. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-3-krav-til-statsborgerskap-og-sikkerhetsklarering">§ 11-3. Krav til statsborgerskap og sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#11-4-skjerming-av-etterretningsoperasjoner-mv">§ 11-4. Skjerming av etterretningsoperasjoner mv.</a></li>
+<li class="lvl4"><a href="#11-5-arkiver-informasjonssystemer-og-etterretningsregistre">§ 11-5. Arkiver, informasjonssystemer og etterretningsregistre</a></li>
+<li class="lvl4"><a href="#11-6-beredskap">§ 11-6. Beredskap</a></li>
+<li class="lvl4"><a href="#11-7-klage-og-underretning">§ 11-7. Klage og underretning</a></li>
+<li class="lvl4"><a href="#11-8-straff">§ 11-8. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 12. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-2-opphevelse">§ 12-2. Opphevelse</a></li>
+<li class="lvl4"><a href="#12-3-endringer-i-andre-lover">§ 12-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-12-13-76.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-19-77.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om Etterretningstjenesten (etterretningstjenesteloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-06-19-77.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2020-06-19-77 <code>lov/2020-06-19-77</code></td></tr>
+<tr><th>Korttittel</th><td>Etterretningstjenesteloven</td></tr>
+<tr><th>Departement</th><td>Forsvarsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>IKT- og medierett &raquo; Personopplysninger\nIKT- og medierett &raquo; Telekommunikasjon\nKultur, idrett og underholdning &raquo; Arkiv\nStats-, statsforfatnings- og statsborgerrett &raquo; Forsvaret</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021, 01.01.2022, 02.09.2022</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-12-13-76 <code>lov/2024-12-13-76</code> fra 01.01.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2020-06-19-77" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisering-styring-og-kontroll">Kapittel 2. Organisering, styring og kontroll</a></li>
+<li class="lvl4"><a href="#2-1-nasjonal-tjeneste">§ 2-1. Nasjonal tjeneste</a></li>
+<li class="lvl4"><a href="#2-2-oppdragsstyring">§ 2-2. Oppdragsstyring</a></li>
+<li class="lvl4"><a href="#2-3-departementets-styring-og-kontroll">§ 2-3. Departementets styring og kontroll</a></li>
+<li class="lvl4"><a href="#2-4-varsling-og-rapportering">§ 2-4. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#2-5-saker-som-skal-forelegges-departementet-for-beslutning">§ 2-5. Saker som skal forelegges departementet for beslutning</a></li>
+<li class="lvl4"><a href="#2-6-eos-utvalgets-og-riksrevisjonens-kontroll">§ 2-6. EOS-utvalgets og Riksrevisjonens kontroll</a></li>
+<li class="lvl4"><a href="#2-7-andre-bestemmelser-om-tilsyn-og-kontroll">§ 2-7. Andre bestemmelser om tilsyn og kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-3-oppgaver">Kapittel 3. Oppgaver</a></li>
+<li class="lvl4"><a href="#3-1-informasjonsinnhenting-om-utenlandske-trusler">§ 3-1. Informasjonsinnhenting om utenlandske trusler</a></li>
+<li class="lvl4"><a href="#3-2-informasjonsinnhenting-om-andre-utenlandske-forhold">§ 3-2. Informasjonsinnhenting om andre utenlandske forhold</a></li>
+<li class="lvl4"><a href="#3-3-okkupasjonsberedskap">§ 3-3. Okkupasjonsberedskap</a></li>
+<li class="lvl4"><a href="#3-4-internasjonalt-etterretningssamarbeid">§ 3-4. Internasjonalt etterretningssamarbeid</a></li>
+<li class="lvl4"><a href="#3-5-innhenting-av-evneinformasjon">§ 3-5. Innhenting av evneinformasjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-forbud-mot-innhenting-i-norge-og-andre-srskilte-forbud">Kapittel 4. Forbud mot innhenting i Norge og andre særskilte forbud</a></li>
+<li class="lvl4"><a href="#4-1-forbud-mot-innhenting-i-norge">§ 4-1. Forbud mot innhenting i Norge</a></li>
+<li class="lvl4"><a href="#4-2-fremmed-statsaktivitet-i-norge">§ 4-2. Fremmed statsaktivitet i Norge</a></li>
+<li class="lvl4"><a href="#4-3-samordning-med-politiets-sikkerhetstjeneste">§ 4-3. Samordning med Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#4-4-apne-kilder-som-berrer-personer-i-norge">§ 4-4. Åpne kilder som berører personer i Norge</a></li>
+<li class="lvl4"><a href="#4-5-kilderekruttering-og-kildeverifikasjon-i-norge">§ 4-5. Kilderekruttering og kildeverifikasjon i Norge</a></li>
+<li class="lvl4"><a href="#4-6-trening-ving-og-testing-av-utstyr-i-norge">§ 4-6. Trening, øving og testing av utstyr i Norge</a></li>
+<li class="lvl4"><a href="#4-7-aksessorisk-informasjon-om-personer-i-norge">§ 4-7. Aksessorisk informasjon om personer i Norge</a></li>
+<li class="lvl4"><a href="#4-8-forbud-mot-a-innhente-informasjon-for-politiformal">§ 4-8. Forbud mot å innhente informasjon for politiformål</a></li>
+<li class="lvl4"><a href="#4-9-forbud-mot-industrispionasje">§ 4-9. Forbud mot industrispionasje</a></li>
+<li class="lvl2"><a href="#kapittel-5-grunnvilkar-for-innhenting-og-utlevering-av-informasjon">Kapittel 5. Grunnvilkår for innhenting og utlevering av informasjon</a></li>
+<li class="lvl4"><a href="#5-1-grunnvilkar-for-malsking">§ 5-1. Grunnvilkår for målsøking</a></li>
+<li class="lvl4"><a href="#5-2-grunnvilkar-for-malrettet-innhenting">§ 5-2. Grunnvilkår for målrettet innhenting</a></li>
+<li class="lvl4"><a href="#5-3-grunnvilkar-for-innhenting-av-og-sk-i-radata-i-bulk">§ 5-3. Grunnvilkår for innhenting av og søk i rådata i bulk</a></li>
+<li class="lvl4"><a href="#5-4-forholdsmessighet">§ 5-4. Forholdsmessighet</a></li>
+<li class="lvl2"><a href="#kapittel-6-metoder-for-innhenting-av-informasjon-som-kan-medfre-inngrep-overfor-den-enkelte">Kapittel 6. Metoder for innhenting av informasjon som kan medføre inngrep overfor den enkelte</a></li>
+<li class="lvl4"><a href="#6-1-generelle-vilkar">§ 6-1. Generelle vilkår</a></li>
+<li class="lvl4"><a href="#6-2-apne-kilder">§ 6-2. Åpne kilder</a></li>
+<li class="lvl4"><a href="#6-3-menneskebasert-innhenting">§ 6-3. Menneskebasert innhenting</a></li>
+<li class="lvl4"><a href="#6-4-systematisk-observasjon">§ 6-4. Systematisk observasjon</a></li>
+<li class="lvl4"><a href="#6-5-teknisk-sporing">§ 6-5. Teknisk sporing</a></li>
+<li class="lvl4"><a href="#6-6-gjennomsking-mv">§ 6-6. Gjennomsøking mv.</a></li>
+<li class="lvl4"><a href="#6-7-avlytting-og-bildeovervakning">§ 6-7. Avlytting og bildeovervåkning</a></li>
+<li class="lvl4"><a href="#6-8-annen-teknisk-innhenting">§ 6-8. Annen teknisk innhenting</a></li>
+<li class="lvl4"><a href="#6-9-midtpunktinnhenting">§ 6-9. Midtpunktinnhenting</a></li>
+<li class="lvl4"><a href="#6-10-endepunktinnhenting">§ 6-10. Endepunktinnhenting</a></li>
+<li class="lvl4"><a href="#6-11-forberedende-tiltak">§ 6-11. Forberedende tiltak</a></li>
+<li class="lvl4"><a href="#6-12-beslutning-om-bruk-av-en-innhentingsmetode">§ 6-12. Beslutning om bruk av en innhentingsmetode</a></li>
+<li class="lvl4"><a href="#6-13-krav-til-beslutningen">§ 6-13. Krav til beslutningen</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilrettelagt-innhenting-av-grenseoverskridende-elektronisk-kommunikasjon">Kapittel 7. Tilrettelagt innhenting av grenseoverskridende elektronisk kommunikasjon</a></li>
+<li class="lvl4"><a href="#7-1-generelle-vilkar-og-virkeomrade">§ 7-1. Generelle vilkår og virkeområde</a></li>
+<li class="lvl4"><a href="#7-2-tilretteleggingsplikt-for-ekomtilbydere">§ 7-2. Tilretteleggingsplikt for ekomtilbydere</a></li>
+<li class="lvl4"><a href="#7-3-vilkar-og-beslutningskompetanse-i-saker-om-tilrettelegging">§ 7-3. Vilkår og beslutningskompetanse i saker om tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-4-taushetsplikt">§ 7-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#7-5-testinnhenting-og-testanalyser">§ 7-5. Testinnhenting og testanalyser</a></li>
+<li class="lvl4"><a href="#7-6-utvalg-og-filtrering">§ 7-6. Utvalg og filtrering</a></li>
+<li class="lvl4"><a href="#7-7-innhenting-og-lagring-av-metadata-i-bulk">§ 7-7. Innhenting og lagring av metadata i bulk</a></li>
+<li class="lvl4"><a href="#7-8-sk-i-lagrede-metadata">§ 7-8. Søk i lagrede metadata</a></li>
+<li class="lvl4"><a href="#7-9-malrettet-innhenting-og-lagring-av-innholdsdata">§ 7-9. Målrettet innhenting og lagring av innholdsdata</a></li>
+<li class="lvl4"><a href="#7-10-internkontroll-og-aktivitetslogger">§ 7-10. Internkontroll og aktivitetslogger</a></li>
+<li class="lvl4"><a href="#7-11-lpende-kontroll">§ 7-11. Løpende kontroll</a></li>
+<li class="lvl4"><a href="#7-12-begjring-om-stansing-og-sletting">§ 7-12. Begjæring om stansing og sletting</a></li>
+<li class="lvl4"><a href="#7-13-forbud-mot-utlevering-av-overskuddsinformasjon">§ 7-13. Forbud mot utlevering av overskuddsinformasjon</a></li>
+<li class="lvl4"><a href="#7-14-bevisforbud-i-straffesaker">§ 7-14. Bevisforbud i straffesaker</a></li>
+<li class="lvl4"><a href="#7-15-informasjonssikkerhet">§ 7-15. Informasjonssikkerhet</a></li>
+<li class="lvl2"><a href="#kapittel-8-domstolskontroll">Kapittel 8. Domstolskontroll</a></li>
+<li class="lvl4"><a href="#8-1-kjennelse-om-tillatelse-til-tilrettelagt-innhenting-mv">§ 8-1. Kjennelse om tillatelse til tilrettelagt innhenting mv.</a></li>
+<li class="lvl4"><a href="#8-2-krav-til-begjringen">§ 8-2. Krav til begjæringen</a></li>
+<li class="lvl4"><a href="#8-3-muntlige-forhandlinger">§ 8-3. Muntlige forhandlinger</a></li>
+<li class="lvl4"><a href="#8-4-hva-retten-skal-prve">§ 8-4. Hva retten skal prøve</a></li>
+<li class="lvl4"><a href="#8-5-srskilt-advokat">§ 8-5. Særskilt advokat</a></li>
+<li class="lvl4"><a href="#8-6-varighet">§ 8-6. Varighet</a></li>
+<li class="lvl4"><a href="#8-7-informasjonssikkerhet">§ 8-7. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#8-8-taushetsplikt">§ 8-8. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-9-anke">§ 8-9. Anke</a></li>
+<li class="lvl4"><a href="#8-10-hastekompetanse">§ 8-10. Hastekompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-9-behandling-av-personopplysninger-etter-innhenting">Kapittel 9. Behandling av personopplysninger etter innhenting</a></li>
+<li class="lvl4"><a href="#9-1-forholdet-til-personopplysningsloven">§ 9-1. Forholdet til personopplysningsloven</a></li>
+<li class="lvl4"><a href="#9-2-behandlingsgrunnlag">§ 9-2. Behandlingsgrunnlag</a></li>
+<li class="lvl4"><a href="#9-3-unntak-for-innhenting-av-personopplysninger">§ 9-3. Unntak for innhenting av personopplysninger</a></li>
+<li class="lvl4"><a href="#9-4-diskrimineringsforbud">§ 9-4. Diskrimineringsforbud</a></li>
+<li class="lvl4"><a href="#9-5-behandling-av-fortrolig-kommunikasjon-med-srlige-yrkesutvere">§ 9-5. Behandling av fortrolig kommunikasjon med særlige yrkesutøvere</a></li>
+<li class="lvl4"><a href="#9-6-behandling-av-opplysninger-som-kan-identifisere-en-kilde">§ 9-6. Behandling av opplysninger som kan identifisere en kilde</a></li>
+<li class="lvl4"><a href="#9-7-korrekte-og-oppdaterte-personopplysninger">§ 9-7. Korrekte og oppdaterte personopplysninger</a></li>
+<li class="lvl4"><a href="#9-8-sletting">§ 9-8. Sletting</a></li>
+<li class="lvl4"><a href="#9-9-informasjonssikkerhet">§ 9-9. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#9-10-personvernradgiver">§ 9-10. Personvernrådgiver</a></li>
+<li class="lvl2"><a href="#kapittel-10-nasjonalt-og-internasjonalt-samarbeid-og-informasjonsutveksling">Kapittel 10. Nasjonalt og internasjonalt samarbeid og informasjonsutveksling</a></li>
+<li class="lvl4"><a href="#10-1-nasjonalt-og-internasjonalt-samarbeid">§ 10-1. Nasjonalt og internasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-2-utlevering-av-etterretningsinformasjon-som-ledd-i-nasjonalt-samarbeid">§ 10-2. Utlevering av etterretningsinformasjon som ledd i nasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-3-utlevering-av-etterretningsinformasjon-som-ledd-i-internasjonalt-samarbeid">§ 10-3. Utlevering av etterretningsinformasjon som ledd i internasjonalt samarbeid</a></li>
+<li class="lvl4"><a href="#10-4-utlevering-av-overskuddsinformasjon">§ 10-4. Utlevering av overskuddsinformasjon</a></li>
+<li class="lvl4"><a href="#10-5-utlevering-av-informasjon-til-etterretningstjenesten-fra-norske-myndigheter">§ 10-5. Utlevering av informasjon til Etterretningstjenesten fra norske myndigheter</a></li>
+<li class="lvl4"><a href="#10-6-formidling-av-opplysninger-pa-vegne-av-norske-myndigheter">§ 10-6. Formidling av opplysninger på vegne av norske myndigheter</a></li>
+<li class="lvl4"><a href="#10-7-bistand-til-politiet">§ 10-7. Bistand til politiet</a></li>
+<li class="lvl2"><a href="#kapittel-11-avsluttende-bestemmelser">Kapittel 11. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-forholdet-til-forvaltningsloven">§ 11-1. Forholdet til forvaltningsloven</a></li>
+<li class="lvl4"><a href="#11-2-taushetsplikt">§ 11-2. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-3-krav-til-statsborgerskap-og-sikkerhetsklarering">§ 11-3. Krav til statsborgerskap og sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#11-4-skjerming-av-etterretningsoperasjoner-mv">§ 11-4. Skjerming av etterretningsoperasjoner mv.</a></li>
+<li class="lvl4"><a href="#11-5-arkiver-informasjonssystemer-og-etterretningsregistre">§ 11-5. Arkiver, informasjonssystemer og etterretningsregistre</a></li>
+<li class="lvl4"><a href="#11-6-beredskap">§ 11-6. Beredskap</a></li>
+<li class="lvl4"><a href="#11-7-klage-og-underretning">§ 11-7. Klage og underretning</a></li>
+<li class="lvl4"><a href="#11-8-straff">§ 11-8. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 12. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-2-opphevelse">§ 12-2. Opphevelse</a></li>
+<li class="lvl4"><a href="#12-3-endringer-i-andre-lover">§ 12-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-19-77.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-06-19-77.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-19-77.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2020-06-19-77.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2020-06-19-77.html">Observerte kildeutgaver</a> · <a href="../historie/etterretningstjenesteloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2020-06-19-77.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2020-06-19-77.html">Observerte kildeutgaver</a> · <a href="../historie/etterretningstjenesteloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2020-06-19-77.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-etterretningstjenesten-etterretningstjenesteloven">Lov om Etterretningstjenesten (etterretningstjenesteloven)</h1>
 <h2 id="kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Loven skal</p>
@@ -126,7 +383,7 @@ c. andre særlig viktige saker.</p>
 <p>Bestemmelsene i <a href="lov-2018-06-15-38.html">personopplysningsloven</a> kapittel 6 og 7 og personvernforordningen kapittel VI til VIII om tilsyn, klage og sanksjoner mv. gjelder ikke overfor Etterretningstjenesten.</p>
 <p>Bestemmelsene i <a href="lov-2024-12-13-76.html">ekomloven</a> kapittel 15 gjelder ikke i den utstrekning de vil gi myndigheten innsyn i Etterretningstjenestens virksomhet. Første punktum er ikke til hinder for at myndigheten fører tilsyn med hvordan tilbydere som omfattes av § 7-2 , utøver tilretteleggingsplikten.</p>
 <p>Domstolene fører kontroll med tilrettelagt innhenting av grenseoverskridende elektronisk kommunikasjon i samsvar med kapittel 8 .</p>
-<p><em>Endret ved lov 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</em></p>
+<p class="note">Endret ved lov 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</p>
 <h2 id="kapittel-3-oppgaver">Kapittel 3. Oppgaver</h2>
 <h4 id="3-1-informasjonsinnhenting-om-utenlandske-trusler">§ 3-1. Informasjonsinnhenting om utenlandske trusler</h4>
 <p>Etterretningstjenesten skal innhente og analysere informasjon om utenlandske forhold som kan bidra til å avdekke og motvirke</p>
@@ -164,7 +421,7 @@ d. opprettholde og videreutvikle Etterretningstjenestens informasjonstilganger o
 <p>Etterretningstjenesten kan uten hinder av § 4-1 benytte innhentingsmetoder etter kapittel 6 overfor utenlandske og statsløse personer i Norge som opptrer på vegne av en fremmed stat eller statslignende aktør.</p>
 <p>Ved tvil om en person opptrer på vegne av en fremmed stat eller statslignende aktør, skal Etterretningstjenesten søke å avklare forholdet. For dette formålet skal det kun brukes informasjon fra norske myndigheter, utenlandske samarbeidspartnere, åpne kilder eller egen innhenting i utlandet.</p>
 <p>Når riket er i krig, krig truer eller rikets selvstendighet eller sikkerhet er i fare, kan Kongen bestemme at Etterretningstjenesten uten hinder av § 4-1 kan innhente enhver opplysning som har betydning for Forsvarets evne til å håndtere fiendtlig militær aktivitet.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 16 juni 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 16 juni 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="4-3-samordning-med-politiets-sikkerhetstjeneste">§ 4-3. Samordning med Politiets sikkerhetstjeneste</h4>
 <p>Etterretningstjenesten skal be Politiets sikkerhetstjeneste om samtykke til innhenting etter § 4-2 første ledd om forhold som også faller inn under beskrivelsen av oppgavene til Politiets sikkerhetstjeneste i <a href="lov-1995-08-04-53.html">politiloven</a> § 17 b første ledd. Ved annen innhenting etter § 4-2 første ledd skal Politiets sikkerhetstjeneste informeres.</p>
 <h4 id="4-4-apne-kilder-som-berrer-personer-i-norge">§ 4-4. Åpne kilder som berører personer i Norge</h4>
@@ -191,7 +448,7 @@ d. opprettholde og videreutvikle Etterretningstjenestens informasjonstilganger o
 <p>Etterretningstjenesten kan iverksette målrettet innhenting når konkrete holdepunkter gir grunn til å undersøke om innhenting kan frembringe informasjon som er relevant for etterretningsformål.</p>
 <p>Målrettet innhenting mot journalister som er omfattet av § 9-6 første ledd eller målrettet innhenting der det er stor sannsynlighet for at innhentingen vil frembringe kildeidentifiserende opplysninger som er omfattet av § 9-6 første ledd, kan bare iverksettes dersom det er strengt nødvendig at de hensyn som begrunner kildevernet, viker for nasjonale sikkerhetsinteresser.</p>
 <p>Tillatelse til å iverksette målrettet innhenting etter andre ledd gis av retten ved kjennelse etter reglene i kapittel 8 .</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="5-3-grunnvilkar-for-innhenting-av-og-sk-i-radata-i-bulk">§ 5-3. Grunnvilkår for innhenting av og søk i rådata i bulk</h4>
 <p>Etterretningstjenesten kan innhente rådata i bulk når det er nødvendig for å få tilgang til et relevant og tilstrekkelig informasjonsgrunnlag.</p>
 <p>Søk i rådata i bulk skal tilfredsstille grunnvilkårene for målsøking eller målrettet innhenting og logges for kontrollformål. Søket skal ikke gjennomføres dersom det vil være et uforholdsmessig inngrep overfor den enkelte.</p>
@@ -251,7 +508,7 @@ e. sørge for tilgang til kommunikasjon uten hinder av linkkryptering eller tils
 f. medvirke til sikkerhetsmessig forsvarlige løsninger.</p>
 <p>Tilretteleggingen skal ikke forringe elektroniske kommunikasjonstjenester for brukerne. Merutgifter for tilbyder som følge av tilretteleggingen skal dekkes av staten.</p>
 <p>Departementet kan gi forskrift om tilretteleggingsplikten etter første ledd og prinsipper for utregning av merutgifter etter andre ledd.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="7-3-vilkar-og-beslutningskompetanse-i-saker-om-tilrettelegging">§ 7-3. Vilkår og beslutningskompetanse i saker om tilrettelegging <a class="para-history" href="../historikk/lov-2020-06-19-77/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Elektronisk kommunikasjon som transporteres over den norske grensen kan speiles som grunnlag for søk i lagrede metadata etter § 7-8 og målrettet innhenting og lagring av innholdsdata etter § 7-9 , når det er nødvendig for å etablere et informasjonsgrunnlag for etterretningsformål. Tillatelse til å gi pålegg om slik speiling gis av retten ved kjennelse etter reglene i kapittel 8 . Pålegget gis av sjefen for Etterretningstjenesten.</p>
 <p>Elektronisk kommunikasjon som transporteres over den norske grensen kan også speiles for å gjennomføre tekniske analyser med det formål å avklare om det foreligger grunnlag for å fremme begjæring om rettens tillatelse til speiling etter første ledd. Den speilede kommunikasjonen kan utelukkende brukes til dette formålet. Beslutning om å pålegge slik speiling treffes av sjefen for Etterretningstjenesten. Beslutningen gjelder i 21 dager fra speilingen påbegynnes, men opphører dersom retten avsier kjennelse etter første ledd. For tekniske analyser etter første punktum gjelder reglene i § 7-5 andre, fjerde og femte ledd tilsvarende. Den speilede kommunikasjonen skal holdes adskilt fra andre data som lagres etter reglene i kapittel 7 .</p>
@@ -259,7 +516,7 @@ f. medvirke til sikkerhetsmessig forsvarlige løsninger.</p>
 <p>Tilbyderen skal så langt som mulig gis anledning til å uttale seg før beslutning etter andre og tredje ledd treffes. Tilbyderen kan påklage beslutningen til departementet. Fristen for å klage er tre uker fra beslutningen ble meddelt tilbyderen. Departementet kan på anmodning fra tilbyderen bestemme at beslutningen ikke skal iverksettes før klagen er avgjort.</p>
 <p>Beslutninger etter andre og tredje ledd skal meddeles EOS-utvalget og Nasjonal kommunikasjonsmyndighet. Nasjonal kommunikasjonsmyndighet har ved forespørsel rett til informasjon fra Etterretningstjenesten om tekniske og operasjonelle løsninger som tjener til å oppfylle tilretteleggingsplikten.</p>
 <p>Departementet kan gi forskrift om beslutning om tilrettelegging etter andre og tredje ledd og klagebehandling etter fjerde ledd.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="7-4-taushetsplikt">§ 7-4. Taushetsplikt</h4>
 <p>Den som er underlagt tilretteleggingsplikt etter § 7-2 , plikter å bevare taushet om Etterretningstjenestens tilgang, tekniske og operasjonelle løsninger og andre forhold knyttet til tilretteleggingen. Taushetsplikten gjelder tilsvarende for enhver som utfører arbeid eller tjeneste for den som er underlagt tilretteleggingsplikt, eller som på annen måte bistår med tilrettelegging. Taushetsplikten gjelder også etter at vedkommende har avsluttet arbeidet eller tjenesten.</p>
 <p>Taushetsplikten er ikke til hinder for å gi opplysninger til EOS-utvalget eller Nasjonal kommunikasjonsmyndighet.</p>
@@ -311,12 +568,12 @@ e. behandle opplysninger som omfattes av § 9-6 første ledd.</p>
 <p>Det kan oppstilles vilkår i kjennelsen. Kjennelsen skal begrunnes. Retten kan omgjøre kjennelsen.</p>
 <p>Rettens avgjørelse skal treffes så raskt som mulig. Den som avgjørelsen retter seg mot eller ellers rammer, skal ikke gis adgang til å uttale seg og meddeles ikke kjennelsen.</p>
 <p>Kjennelsen skal meddeles Etterretningstjenesten. Tjenesten skal gjøre kjennelsen og begjæringen tilgjengelig for EOS-utvalget.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="8-2-krav-til-begjringen">§ 8-2. Krav til begjæringen <a class="para-history" href="../historikk/lov-2020-06-19-77/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Begjæring om tillatelse etter § 8-1 fremmes for Oslo tingrett av sjefen for Etterretningstjenesten eller den som sjefen gir fullmakt. Begjæringen skal være skriftlig og angi det faktiske og rettslige grunnlaget for tiltaket og hvor lenge tillatelsen bør vare, jf. § 8-6 .</p>
 <p>Begjæring om tillatelse til speiling av elektronisk kommunikasjon som transporteres over den norske grensen etter § 7-3 første ledd skal angi hvilke kommunikasjonsstrømmer og tilbydere som omfattes. Begjæringen skal også angi resultatet av eventuelle tekniske analyser etter § 7-3 andre ledd og andre relevante opplysninger som kan underbygge at kommunikasjonsstrømmene inneholder kommunikasjon som transporteres over den norske grensen.</p>
 <p>Begjæring om tillatelse til målrettet innhenting etter § 5-2 andre ledd, søk i lagrede metadata etter § 7-8 og målrettet innhenting og lagring av innholdsdata etter § 7-9 skal angi oppdraget som tiltaket knytter seg til. Begjæring om tillatelse til målrettet innhenting etter § 5-2 andre ledd og søk i lagrede metadata etter § 7-8 skal angi hvilke søkebegreper eller kategorier av søkebegreper som skal brukes. Begjæring om tillatelse til målrettet innhenting og lagring av innholdsdata etter § 7-9 skal angi hva eller hvem innhentingen retter seg mot.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="8-3-muntlige-forhandlinger">§ 8-3. Muntlige forhandlinger</h4>
 <p>Retten kan beslutte å avholde muntlige forhandlinger. Etterretningstjenesten møter ved sjefen for tjenesten eller den som sjefen gir fullmakt. Tjenesten kan også møte med tjenestepersoner eller andre som kan opplyse saken.</p>
 <p>Rettsmøtene holdes for lukkede dører.</p>
@@ -325,7 +582,7 @@ e. behandle opplysninger som omfattes av § 9-6 første ledd.</p>
 <p>a. om tiltaket ligger innenfor Etterretningstjenestens oppgaver etter kapittel 3
 b. om noen av forbudene i §§ 4-1 , 4-8 , 4-9 eller 9-4 er til hinder for tiltaket
 c. om grunnvilkårene etter kapittel 5 er oppfylt.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="8-5-srskilt-advokat">§ 8-5. Særskilt advokat</h4>
 <p>Retten skal etter å ha mottatt begjæring som nevnt i § 8-2 oppnevne en advokat som skal ivareta den enkeltes rettigheter og samfunnets interesser i saken. Oppnevnelse kan unnlates dersom retten finner det ubetenkelig. Advokaten oppnevnes fra en særlig krets av sikkerhetsklarerte advokater, og kan ikke la seg representere eller møte ved annen advokat eller fullmektig. Advokaten skal ha godtgjørelse av staten.</p>
 <p>Advokaten skal gjøres kjent med begjæringen og annen informasjon som legges frem for retten, men har ellers ingen innsynsrett. Advokaten må ikke sette seg i forbindelse med personer som berøres av saken.</p>
@@ -334,12 +591,12 @@ c. om grunnvilkårene etter kapittel 5 er oppfylt.</p>
 <h4 id="8-6-varighet">§ 8-6. Varighet <a class="para-history" href="../historikk/lov-2020-06-19-77/para-8-6.html" title="Endringshistorikk for § 8-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Rettens tillatelse etter § 8-1 skal ikke gis for lengre tid enn nødvendig. Gjelder tillatelsen målsøking etter § 7-8 , kan den ikke overstige ett år. Gjelder tillatelsen målrettet innhenting etter § 5-2 andre ledd, § 7-8 eller § 7-9 , kan den ikke overstige seks måneder. Gjelder tillatelsen speiling etter § 7-3 første ledd, kan den ikke overstige to år.</p>
 <p>Etterretningstjenesten skal avslutte pågående tiltak dersom lovens vilkår ikke lenger er til stede.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="8-7-informasjonssikkerhet">§ 8-7. Informasjonssikkerhet <a class="para-history" href="../historikk/lov-2020-06-19-77/para-8-7.html" title="Endringshistorikk for § 8-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Rettens kjennelse skal sikkerhetsgraderes etter reglene gitt i og i medhold av sikkerhetsloven.</p>
 <p>Domstolen skal sørge for at informasjon og dokumenter med høyeste sikkerhetsgrad kan behandles i henhold til reglene gitt i og i medhold av sikkerhetsloven hos domstolen som ledd i skriftlige eller muntlige forhandlinger. Domstolen skal legge til rette for at særskilte advokater oppnevnt etter § 8-5 kan gjøres kjent med sikkerhetsgradert informasjon i domstolens lokaler.</p>
 <p>Departementet kan gi forskrift om rettens og særskilt oppnevnte advokaters tilgang til rettspraksis i saker etter dette kapittelet.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="8-8-taushetsplikt">§ 8-8. Taushetsplikt</h4>
 <p>Dommere og andre som utfører tjeneste eller arbeid for domstolene, har taushetsplikt om begjæringer, rettsmøter, kjennelser og annet de får kjennskap til i saker etter dette kapittelet. Taushetsplikten gjelder også etter at arbeidet eller tjenesten er avsluttet.</p>
 <p>Taushetsplikten er ikke til hinder for å gi opplysninger til EOS-utvalget.</p>
@@ -349,7 +606,7 @@ c. om grunnvilkårene etter kapittel 5 er oppfylt.</p>
 <h4 id="8-10-hastekompetanse">§ 8-10. Hastekompetanse <a class="para-history" href="../historikk/lov-2020-06-19-77/para-8-10.html" title="Endringshistorikk for § 8-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom det ved opphold er stor fare for at informasjon av vesentlig betydning for utførelsen av Etterretningstjenestens oppgaver etter kapittel 3 kan gå tapt, kan ordre fra sjefen for tjenesten tre i stedet for rettens kjennelse. Tjenesten skal straks og senest innen 24 timer etter at innhentingen ble påbegynt, forelegge saken for retten.</p>
 <p>Retten avgjør ved kjennelse om tiltaket kan tillates, jf. § 8-1 . Kommer retten til at tiltaket var ulovlig, skal retten meddele dette til EOS-utvalget. Retten kan pålegge Etterretningstjenesten å slette innhentet informasjon.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h2 id="kapittel-9-behandling-av-personopplysninger-etter-innhenting">Kapittel 9. Behandling av personopplysninger etter innhenting</h2>
 <h4 id="9-1-forholdet-til-personopplysningsloven">§ 9-1. Forholdet til personopplysningsloven</h4>
 <p>Dette kapittelet gjelder for Etterretningstjenestens behandling av personopplysninger for etterretningsformål når personopplysninger behandles helt eller delvis automatisert eller behandles ikke-automatisert og inngår i eller skal inngå i et register.</p>
@@ -368,7 +625,7 @@ c. om grunnvilkårene etter kapittel 5 er oppfylt.</p>
 <p>Etterretningstjenesten skal ikke behandle opplysninger som er betrodd noen i deres journalistiske virke og som kan avsløre hvem som er kilde for opplysningen, dersom den som betror seg eller som er betrodd opplysningen, er bosatt i Norge, norsk statsborger eller arbeider på oppdrag for virksomhet i Norge som omfattes av <a href="lov-2020-05-29-59.html">medieansvarsloven</a> § 2 . Forbudet gjelder også dersom vedkommende ikke lenger bor i Norge eller arbeider for virksomheten, men gjorde dette da opplysningen ble gitt.</p>
 <p>Dersom det er strengt nødvendig at de hensyn som begrunner kildevernet, viker for nasjonale sikkerhetsinteresser, kan opplysninger som nevnt i første ledd likevel behandles.</p>
 <p>Avgjørelse om å behandle opplysninger etter andre ledd skal treffes av retten etter reglene i kapittel 8 .</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="9-7-korrekte-og-oppdaterte-personopplysninger">§ 9-7. Korrekte og oppdaterte personopplysninger</h4>
 <p>Etterretningstjenesten skal, så langt det er mulig, påse at personopplysninger som behandles og som ikke er rådata i bulk, er korrekte og oppdaterte. Uriktige personopplysninger skal rettes eller slettes uten unødig opphold. Tjenesten skal, så langt det er mulig, sørge for at feilen ikke får betydning for den personopplysningene gjelder.</p>
 <p>Dersom ikke-verifiserte personopplysninger utleveres etter kapittel 10 , skal mottakeren gjøres oppmerksom på dette.</p>
@@ -376,7 +633,7 @@ c. om grunnvilkårene etter kapittel 5 er oppfylt.</p>
 <p>Personopplysninger, og kildeidentifiserende opplysninger som det er gitt tillatelse til å behandle etter § 9-6 tredje ledd og som ikke er personopplysninger, skal slettes når de ikke lenger er nødvendige for formålet med behandlingen.</p>
 <p>Rådata i bulk skal slettes senest 15 år fra lagringstidspunktet, med mindre vesentlige hensyn tilsier at sletting utsettes. Beslutning om utsatt sletting treffes av sjefen for Etterretningstjenesten for ikke mer enn fem år av gangen. Metadata som er innhentet og lagret i bulk i samsvar med § 7-7 , skal likevel slettes senest etter 18 måneder, jf. § 7-7 tredje ledd.</p>
 <p>Sletting av personopplysninger i operative systemer og registre som er tilgjengelige for etterretningsproduksjon, er ikke til hinder for lagring av opplysningene etter annen lov.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 54 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 900 ).</p>
 <h4 id="9-9-informasjonssikkerhet">§ 9-9. Informasjonssikkerhet</h4>
 <p>Etterretningstjenesten skal gjennom systematiske tiltak sikre konfidensialitet, integritet og tilgjengelighet ved behandling av personopplysninger. Tiltakene skal utformes i samsvar med bestemmelsene i sikkerhetsloven.</p>
 <p>Personopplysninger skal ikke gjøres tilgjengelige for flere personer enn det som er nødvendig for formålet med behandlingen.</p>
@@ -422,7 +679,7 @@ c. Etterretningstjenesten ikke endrer opplysningene, legger til egen informasjon
 <h2 id="kapittel-11-avsluttende-bestemmelser">Kapittel 11. Avsluttende bestemmelser</h2>
 <h4 id="11-1-forholdet-til-forvaltningsloven">§ 11-1. Forholdet til <a href="lov-2025-06-20-81.html">forvaltningsloven</a></h4>
 <p>Med unntak av forvaltningsloven §§ 13 til 13 g om taushetsplikt kommer forvaltningsloven ikke til anvendelse for saksbehandling som knytter seg til utførelsen av Etterretningstjenestens oppgaver etter denne loven.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</p>
 <h4 id="11-2-taushetsplikt">§ 11-2. Taushetsplikt</h4>
 <p>Enhver som gjør arbeid eller tjeneste for Etterretningstjenesten, skal bevare livsvarig taushet om informasjon som vedkommende blir kjent med gjennom arbeidet eller tjenesten, dersom det kan skade nasjonale sikkerhetsinteresser om informasjonen blir kjent for uvedkommende.</p>
 <p>Ansatte i Etterretningstjenesten skal bevare livsvarig taushet om eget eller andres tilsettingsforhold.</p>
@@ -452,6 +709,8 @@ c. Etterretningstjenesten ikke endrer opplysningene, legger til egen informasjon
 <p>Fra det tidspunktet loven trer i kraft, oppheves lov 20. mars 1998 nr. 11 om Etterretningstjenesten.</p>
 <h4 id="12-3-endringer-i-andre-lover">§ 12-3. Endringer i andre lover</h4>
 <p>Fra det tidspunktet loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

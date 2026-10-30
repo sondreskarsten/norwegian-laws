@@ -19,70 +19,233 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-04-01-14.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i SE-loven" href="../feeds/lov-2005-04-01-14.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>SE-loven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2005-04-01-14</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett &raquo; Selskapsrett\nSelskaper, fond og foreninger &raquo; Aksjeselskaper og allmennaksjeselskaper</dd>
-<dt>Ikrafttredelse</dt><dd>2005-04-01</dd>
-<dt>Sist endret</dt><dd>lov/2022-12-20-122</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2005-04-01-14" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-se-forordningen">§ 1. SE-forordningen</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</a></li>
+<li class="lvl3"><a href="#3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</a></li>
+<li class="lvl3"><a href="#4-selskaper-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-selskap">§ 4. Selskaper utenfor EØS som kan delta i stiftelsen av et europeisk selskap</a></li>
+<li class="lvl3"><a href="#5-stiftelse-ved-fusjon">§ 5. Stiftelse ved fusjon</a></li>
+<li class="lvl3"><a href="#6-stiftelse-ved-omdanning">§ 6. Stiftelse ved omdanning</a></li>
+<li class="lvl3"><a href="#7-flytting-av-et-europeisk-selskap">§ 7. Flytting av et europeisk selskap</a></li>
+<li class="lvl3"><a href="#8-manglende-oppfyllelse-av-krav-til-forretningskontorets-og-hovedkontorets-plassering">§ 8. Manglende oppfyllelse av krav til forretningskontorets og hovedkontorets plassering</a></li>
+<li class="lvl3"><a href="#9-organiseringen-av-et-europeisk-selskap-etter-to-nivasystemet">§ 9. Organiseringen av et europeisk selskap etter to-nivåsystemet</a></li>
+<li class="lvl3"><a href="#10-organiseringen-av-et-europeisk-selskap-etter-ett-nivasystemet">§ 10. Organiseringen av et europeisk selskap etter ett-nivåsystemet</a></li>
+<li class="lvl3"><a href="#11-innkalling-til-generalforsamling">§ 11. Innkalling til generalforsamling</a></li>
+<li class="lvl3"><a href="#11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</a></li>
+<li class="lvl3"><a href="#12-valuta">§ 12. Valuta</a></li>
+<li class="lvl3"><a href="#13-ikraftsetting">§ 13. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#14-endringer-i-andre-lover">§ 14. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#es-avtalen-vedlegg-xxii-nr-10a-radsforordning-ef-nr-21572001-av-8-oktober-2001-om-vedtektene-for-det-europeiske-selskap-se">EØS-avtalen vedlegg XXII nr. 10a (Rådsforordning (EF) nr. 2157/2001 av 8. oktober 2001 om vedtektene for det europeiske selskap (SE))</a></li>
+<li class="lvl3"><a href="#avdeling-i-alminnelige-bestemmelser">Avdeling I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl3"><a href="#avdeling-ii-stiftelse">Avdeling II. Stiftelse</a></li>
+<li class="lvl4"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#avsnitt-2-stiftelse-ved-fusjon">Avsnitt 2. Stiftelse ved fusjon</a></li>
+<li class="lvl4"><a href="#avsnitt-3-stiftelse-av-et-se-holdingselskap">Avsnitt 3. Stiftelse av et SE-holdingselskap</a></li>
+<li class="lvl4"><a href="#avsnitt-4-stiftelse-av-et-se-datterselskap">Avsnitt 4. Stiftelse av et SE-datterselskap</a></li>
+<li class="lvl4"><a href="#avsnitt-5-omdanning-av-et-eksisterende-allmennaksjeselskap-til-et-se-selskap">Avsnitt 5. Omdanning av et eksisterende allmennaksjeselskap til et SE-selskap</a></li>
+<li class="lvl3"><a href="#avdeling-iii-se-selskapets-oppbygning">Avdeling III. SE-selskapets oppbygning</a></li>
+<li class="lvl5"><a href="#art-38">Art 38</a></li>
+<li class="lvl4"><a href="#avsnitt-1-tonivasystem">Avsnitt 1. Tonivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-2-ettnivasystem">Avsnitt 2. Ettnivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-3-felles-regler-for-ettniva-og-tonivasystemet">Avsnitt 3. Felles regler for ettnivå- og tonivåsystemet</a></li>
+<li class="lvl4"><a href="#avsnitt-4-generalforsamling">Avsnitt 4. Generalforsamling</a></li>
+<li class="lvl3"><a href="#avdeling-iv-arsregnskap-og-konsolidert-regnskap">Avdeling IV. Årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-61">Art 61</a></li>
+<li class="lvl5"><a href="#art-62">Art 62</a></li>
+<li class="lvl3"><a href="#avdeling-v-opplsning-avvikling-insolvens-og-betalingsstans">Avdeling V. Oppløsning, avvikling, insolvens og betalingsstans</a></li>
+<li class="lvl5"><a href="#art-63">Art 63</a></li>
+<li class="lvl5"><a href="#art-64">Art 64</a></li>
+<li class="lvl5"><a href="#art-65">Art 65</a></li>
+<li class="lvl5"><a href="#art-66">Art 66</a></li>
+<li class="lvl3"><a href="#avdeling-vi-tilleggsbestemmelser-og-overgangsbestemmelser">Avdeling VI. Tilleggsbestemmelser og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-67">Art 67</a></li>
+<li class="lvl3"><a href="#avdeling-vii-sluttbestemmelser">Avdeling VII. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-68">Art 68</a></li>
+<li class="lvl5"><a href="#art-69">Art 69</a></li>
+<li class="lvl5"><a href="#art-70">Art 70</a></li>
+<li class="lvl3"><a href="#vedlegg-i-allmennaksjeselskaper-nevnt-i-artikkel-2-nr-11">Vedlegg I. Allmennaksjeselskaper nevnt i artikkel 2 nr. 11</a></li>
+<li class="lvl3"><a href="#vedlegg-ii-allmennaksjeselskaper-og-private-aksjeselskaper-nevnt-i-artikkel-2-nr-21">Vedlegg II. Allmennaksjeselskaper og private aksjeselskaper nevnt i artikkel 2 nr. 21</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2022-12-20-122.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-04-01-14.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om europeiske selskaper (SE-loven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-04-01-14.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2005-04-01-14 <code>lov/2005-04-01-14</code></td></tr>
+<tr><th>Korttittel</th><td>SE-loven</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett &raquo; Selskapsrett\nSelskaper, fond og foreninger &raquo; Aksjeselskaper og allmennaksjeselskaper</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.2005</td></tr>
+<tr><th>Sist endret</th><td>LOV-2022-12-20-122 <code>lov/2022-12-20-122</code> fra 20.12.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2005-04-01-14" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-se-forordningen">§ 1. SE-forordningen</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</a></li>
+<li class="lvl3"><a href="#3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</a></li>
+<li class="lvl3"><a href="#4-selskaper-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-selskap">§ 4. Selskaper utenfor EØS som kan delta i stiftelsen av et europeisk selskap</a></li>
+<li class="lvl3"><a href="#5-stiftelse-ved-fusjon">§ 5. Stiftelse ved fusjon</a></li>
+<li class="lvl3"><a href="#6-stiftelse-ved-omdanning">§ 6. Stiftelse ved omdanning</a></li>
+<li class="lvl3"><a href="#7-flytting-av-et-europeisk-selskap">§ 7. Flytting av et europeisk selskap</a></li>
+<li class="lvl3"><a href="#8-manglende-oppfyllelse-av-krav-til-forretningskontorets-og-hovedkontorets-plassering">§ 8. Manglende oppfyllelse av krav til forretningskontorets og hovedkontorets plassering</a></li>
+<li class="lvl3"><a href="#9-organiseringen-av-et-europeisk-selskap-etter-to-nivasystemet">§ 9. Organiseringen av et europeisk selskap etter to-nivåsystemet</a></li>
+<li class="lvl3"><a href="#10-organiseringen-av-et-europeisk-selskap-etter-ett-nivasystemet">§ 10. Organiseringen av et europeisk selskap etter ett-nivåsystemet</a></li>
+<li class="lvl3"><a href="#11-innkalling-til-generalforsamling">§ 11. Innkalling til generalforsamling</a></li>
+<li class="lvl3"><a href="#11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</a></li>
+<li class="lvl3"><a href="#12-valuta">§ 12. Valuta</a></li>
+<li class="lvl3"><a href="#13-ikraftsetting">§ 13. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#14-endringer-i-andre-lover">§ 14. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#es-avtalen-vedlegg-xxii-nr-10a-radsforordning-ef-nr-21572001-av-8-oktober-2001-om-vedtektene-for-det-europeiske-selskap-se">EØS-avtalen vedlegg XXII nr. 10a (Rådsforordning (EF) nr. 2157/2001 av 8. oktober 2001 om vedtektene for det europeiske selskap (SE))</a></li>
+<li class="lvl3"><a href="#avdeling-i-alminnelige-bestemmelser">Avdeling I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl3"><a href="#avdeling-ii-stiftelse">Avdeling II. Stiftelse</a></li>
+<li class="lvl4"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#avsnitt-2-stiftelse-ved-fusjon">Avsnitt 2. Stiftelse ved fusjon</a></li>
+<li class="lvl4"><a href="#avsnitt-3-stiftelse-av-et-se-holdingselskap">Avsnitt 3. Stiftelse av et SE-holdingselskap</a></li>
+<li class="lvl4"><a href="#avsnitt-4-stiftelse-av-et-se-datterselskap">Avsnitt 4. Stiftelse av et SE-datterselskap</a></li>
+<li class="lvl4"><a href="#avsnitt-5-omdanning-av-et-eksisterende-allmennaksjeselskap-til-et-se-selskap">Avsnitt 5. Omdanning av et eksisterende allmennaksjeselskap til et SE-selskap</a></li>
+<li class="lvl3"><a href="#avdeling-iii-se-selskapets-oppbygning">Avdeling III. SE-selskapets oppbygning</a></li>
+<li class="lvl5"><a href="#art-38">Art 38</a></li>
+<li class="lvl4"><a href="#avsnitt-1-tonivasystem">Avsnitt 1. Tonivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-2-ettnivasystem">Avsnitt 2. Ettnivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-3-felles-regler-for-ettniva-og-tonivasystemet">Avsnitt 3. Felles regler for ettnivå- og tonivåsystemet</a></li>
+<li class="lvl4"><a href="#avsnitt-4-generalforsamling">Avsnitt 4. Generalforsamling</a></li>
+<li class="lvl3"><a href="#avdeling-iv-arsregnskap-og-konsolidert-regnskap">Avdeling IV. Årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-61">Art 61</a></li>
+<li class="lvl5"><a href="#art-62">Art 62</a></li>
+<li class="lvl3"><a href="#avdeling-v-opplsning-avvikling-insolvens-og-betalingsstans">Avdeling V. Oppløsning, avvikling, insolvens og betalingsstans</a></li>
+<li class="lvl5"><a href="#art-63">Art 63</a></li>
+<li class="lvl5"><a href="#art-64">Art 64</a></li>
+<li class="lvl5"><a href="#art-65">Art 65</a></li>
+<li class="lvl5"><a href="#art-66">Art 66</a></li>
+<li class="lvl3"><a href="#avdeling-vi-tilleggsbestemmelser-og-overgangsbestemmelser">Avdeling VI. Tilleggsbestemmelser og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-67">Art 67</a></li>
+<li class="lvl3"><a href="#avdeling-vii-sluttbestemmelser">Avdeling VII. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-68">Art 68</a></li>
+<li class="lvl5"><a href="#art-69">Art 69</a></li>
+<li class="lvl5"><a href="#art-70">Art 70</a></li>
+<li class="lvl3"><a href="#vedlegg-i-allmennaksjeselskaper-nevnt-i-artikkel-2-nr-11">Vedlegg I. Allmennaksjeselskaper nevnt i artikkel 2 nr. 11</a></li>
+<li class="lvl3"><a href="#vedlegg-ii-allmennaksjeselskaper-og-private-aksjeselskaper-nevnt-i-artikkel-2-nr-21">Vedlegg II. Allmennaksjeselskaper og private aksjeselskaper nevnt i artikkel 2 nr. 21</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-04-01-14.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-04-01-14.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-04-01-14.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2005-04-01-14.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2005-04-01-14.html">Observerte kildeutgaver</a> · <a href="../historie/se-loven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3374530ced584b9c5a5073143e3458049ae6a93d/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2005-04-01-14.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2005-04-01-14.html">Observerte kildeutgaver</a> · <a href="../historie/se-loven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2008/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2005-04-01-14.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-europeiske-selskaper-se-loven">Lov om europeiske selskaper (SE-loven)</h1>
 <h3 id="1-se-forordningen">§ 1. SE-forordningen</h3>
 <p>EØS-avtalens vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001 av 8. oktober 2001 om vedtektene for det europeiske selskap (SE)) (SE-forordningen) gjelder som lov med den tilpasning som følger av vedlegg XXII protokoll 1 til avtalen og avtalen for øvrig.</p>
 <h3 id="2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</h3>
 <p>For et europeisk selskap med forretningskontor i Norge gjelder reglene i <a href="lov-1997-06-13-45.html">allmennaksjeloven</a> tilsvarende så langt de passer, og såfremt ikke noe annet følger av SE-forordningen, vedtekter gitt i medhold av SE-forordningen eller loven her. På samme måte gjelder øvrige regler gitt i eller i medhold av lov som gjelder for allmennaksjeselskaper generelt, eller som gjelder for den virksomheten selskapet driver. Et krav i lovgivningen om organisering som allmennaksjeselskap er ikke til hinder for organisering som europeisk selskap.</p>
 <p>Ved tvil om forholdet mellom SE-forordningen, loven her og annen lovgivning kan Kongen gi forskrift som avklarer dette. Kongen kan i tillegg gi forskrift om nødvendige tilpasninger for europeiske selskaper til regler i allmennaksjeloven eller til regler som nevnt i første ledd annet punktum. Kongen kan også gi forskrift om ledelsesorganene i europeiske selskaper som driver virksomhet etter <a href="lov-2015-04-10-17.html">finansforetaksloven</a>, og kan i en slik forskrift gjøre unntak fra bestemmelser i loven i den utstrekning dette innebærer nødvendige tilpasninger til SE-forordningen og direktivet om arbeidstakernes innflytelse nevnt i forordningen artikkel 1 nr. 4.</p>
-<p><em>Endret ved lover 14 des 2018 nr. 95 (ikr. 1 jan 2019 iflg. res. 14 des 2018 nr. 1922 ), 20 des 2022 nr. 122 .</em></p>
+<p class="note">Endret ved lover 14 des 2018 nr. 95 (ikr. 1 jan 2019 iflg. res. 14 des 2018 nr. 1922 ), 20 des 2022 nr. 122 .</p>
 <h3 id="3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</h3>
 <p>Kongen gir i forskrift nærmere regler om arbeidstakernes innflytelse i et europeisk selskap, jf. SE-forordningen artikkel 1 nr. 4, herunder om avgjørelse av tvister. Reglene i forskriften gjelder i stedet for tilsvarende regler i allmennaksjeloven eller annen lovgivning om arbeidstakernes rett til representasjon i styrende organer.</p>
 <h3 id="4-selskaper-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-selskap">§ 4. Selskaper utenfor EØS som kan delta i stiftelsen av et europeisk selskap</h3>
@@ -98,32 +261,32 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. finansforetaksloven § 12-1 , og
 b. verdipapirhandelloven § 11-4 .</p>
 <p>Foretaksregisteret er kompetent myndighet til å utstede attesten som nevnt i SE-forordningen artikkel 8 nr. 8.</p>
-<p><em>Endret ved lover 10 juni 2005 nr. 44 (ikr. 1 juli 2006 iflg. res. 30 juni 2006 nr. 776 ), 29 juni 2007 nr. 74 (ikr. 1 nov 2007 iflg. vedtak 29 juni 2007 nr. 749 ), 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ), 14 des 2018 nr. 95 (ikr. 1 jan 2019 iflg. res. 14 des 2018 nr. 1922 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 20 des 2022 nr. 122 .</em></p>
+<p class="note">Endret ved lover 10 juni 2005 nr. 44 (ikr. 1 juli 2006 iflg. res. 30 juni 2006 nr. 776 ), 29 juni 2007 nr. 74 (ikr. 1 nov 2007 iflg. vedtak 29 juni 2007 nr. 749 ), 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ), 14 des 2018 nr. 95 (ikr. 1 jan 2019 iflg. res. 14 des 2018 nr. 1922 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 20 des 2022 nr. 122 .</p>
 <h3 id="8-manglende-oppfyllelse-av-krav-til-forretningskontorets-og-hovedkontorets-plassering">§ 8. Manglende oppfyllelse av krav til forretningskontorets og hovedkontorets plassering</h3>
 <p>Når et europeisk selskap ikke lenger oppfyller kravene i SE-forordningen artikkel 7, gjelder reglene i allmennaksjeloven §§ 16-15 til 16-18 om oppløsning og avvikling etter kjennelse fra tingretten tilsvarende så langt de passer.</p>
 <p>En anke over kjennelse om oppløsning når et europeisk selskap ikke lenger oppfyller kravene i SE-forordningen artikkel 7, har oppsettende virkning.</p>
 <p>Foretaksregisteret skal foreta slike underretninger som er nevnt i SE-forordningen artikkel 64 nr. 4.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h3 id="9-organiseringen-av-et-europeisk-selskap-etter-to-nivasystemet">§ 9. Organiseringen av et europeisk selskap etter to-nivåsystemet</h3>
 <p>For et europeisk selskap som er organisert etter to-nivåsystemet etter SE-forordningen artikkel 39 til 42, gjelder reglene i allmennaksjeloven kapittel 6 og andre regler i allmennaksjeloven om selskapets ledelse så langt de passer, og såfremt noe annet ikke følger av SE-forordningen. For ledelsesorganet gjelder allmennaksjelovens regler om styret tilsvarende så langt de passer, og for kontrollorganet gjelder allmennaksjelovens regler om bedriftsforsamlingen tilsvarende så langt de passer. Selskapet skal ha en daglig leder. For den daglige lederen gjelder allmennaksjelovens regler om daglig leder tilsvarende så langt de passer.</p>
 <p>Kontrollorganet skal ha minst fem medlemmer. Medlemmene velges av generalforsamlingen etter SE-forordningen artikkel 40 nr. 2, hvis ikke noe annet følger av forskrift etter § 3 i loven her.</p>
 <p>Hvert av medlemmene av kontrollorganet kan kreve opplysninger om selskapets drift etter regelen i allmennaksjeloven § 6-37 annet ledd annet punktum. Et medlem av kontrollorganet som ivaretar vervet til et medlem av ledelsesorganet etter SE-forordningen artikkel 39 nr. 3, kan gjøre dette for en tidsperiode som ikke må være lenger enn to måneder.</p>
 <p>Ledelsesorganet skal ha minst tre medlemmer.</p>
 <p>For daglig leder, ledelsesorganet og kontrollorganet gjelder ikke tilknytningskravet i allmennaksjeloven § 6-11 første ledd.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</p>
 <h3 id="10-organiseringen-av-et-europeisk-selskap-etter-ett-nivasystemet">§ 10. Organiseringen av et europeisk selskap etter ett-nivåsystemet</h3>
 <p>For et europeisk selskap som er organisert etter ett-nivåsystemet etter SE-forordningen artikkel 43 til 45, gjelder reglene i allmennaksjeloven kapittel 6 og andre regler i allmennaksjeloven om selskapets ledelse så langt de passer, og såfremt noe annet ikke følger av SE-forordningen. For administrasjonsorganet gjelder allmennaksjelovens regler om styret tilsvarende så langt de passer.</p>
 <p>Selskapet skal ha en daglig leder. For den daglige lederen gjelder allmennaksjelovens regler om daglig leder tilsvarende så langt de passer.</p>
 <p>Administrasjonsorganet skal ha minst tre medlemmer. Medlemmene velges av generalforsamlingen etter SE-forordningen artikkel 43 nr. 3, hvis ikke noe annet følger av forskrift etter § 3 i loven her.</p>
 <p>For daglig leder og administrasjonsorganet gjelder ikke tilknytningskravet i allmennaksjeloven § 6-11 første ledd.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</p>
 <h3 id="11-innkalling-til-generalforsamling">§ 11. Innkalling til generalforsamling</h3>
 <p>Tingretten er kompetent myndighet til å innkalle generalforsamlingen etter SE-forordningen artikkel 54 nr. 2 og artikkel 55 nr. 3.</p>
 <p>Aksjeeiere som representerer minst en tjuedel av aksjekapitalen, kan kreve at det innkalles til ekstraordinær generalforsamling etter reglene i allmennaksjeloven § 5-7 annet ledd.</p>
 <p>For aksjeeiernes rett til å få saker behandlet på generalforsamlingen gjelder allmennaksjeloven § 5-11 .</p>
 <h3 id="11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</h3>
 <p>Departementet kan gi forskrift for å gjennomføre forpliktelser som følger av EØS-avtalen om saksbehandling i selskapsorganer i europeiske selskaper. Forskriftene kan gjøre unntak fra SE-forordningen.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 122 .</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 122 .</p>
 <h3 id="12-valuta">§ 12. Valuta</h3>
 <p>Et europeisk selskap kan fastsette sin aksjekapital i norske kroner.</p>
 <h3 id="13-ikraftsetting">§ 13. Ikraftsetting</h3>
@@ -954,6 +1117,8 @@ d. om det bør tillates at en medlemsstat [EØS-stat] i lovgivningen den vedtar 
 <p>DET FORENTE KONGERIKE: public companies limited by shares, public companies limited by guarantee having a share capital, private companies limited by shares, private companies limited by guarantee having a share capital</p>
 <p>Tilføyd til vedlegg II ved EØS-avtalen vedlegg XXII nr. 10a: Island: Hlutafèlag Eikahlutafèlag Lichtenstein: die Aktiengesellschaft die Kommandanditaktiengesellschaft die Gesellschaft mit beschränkter Haftung Norge: Allmennaksjeselskap Aksjeselskap</p>
 <p>1 Tilsvarende nomenklatur for de 12 nye stater i EU og EØS i 2004 og 2007 er tilføyd til frd. 2157/2001 ved frd. 885/2004 og frd. 1791/2006 , begge gjort til del også av EØS-avtalen. Tilsvarende tilføyelse for Kroatia er gjort i frd. 517/2013 , også gjort til en del av EØS-avtalen. Lovens § 1 er imidlertid ikke endret.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

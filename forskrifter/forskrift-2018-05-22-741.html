@@ -19,64 +19,195 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-05-22-741.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Kontrollopplæringsforskriften" href="../feeds/forskrift-2018-05-22-741.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Kontrollopplæringsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2018-05-22-741</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2018-10-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-10-10-1653</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2018-05-22-741" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-grunnopplring-og-oppfriskningsopplring">Kapittel 2. Grunnopplæring og oppfriskningsopplæring</a></li>
+<li class="lvl4"><a href="#3-generelt-om-opplringen">§ 3. Generelt om opplæringen</a></li>
+<li class="lvl4"><a href="#4-undervisning-evaluering-av-elev-og-lreplaner">§ 4. Undervisning, evaluering av elev og læreplaner</a></li>
+<li class="lvl2"><a href="#kapittel-3-opplringsvirksomhet-opplringsansvarlig-og-opplringspersonell">Kapittel 3. Opplæringsvirksomhet, opplæringsansvarlig og opplæringspersonell</a></li>
+<li class="lvl4"><a href="#5-godkjenning-av-opplringsvirksomhet">§ 5. Godkjenning av opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#6-gebyr-for-godkjenning-av-opplringsvirksomhet">§ 6. Gebyr for godkjenning av opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#7-administrative-krav-til-opplringsvirksomheten">§ 7. Administrative krav til opplæringsvirksomheten</a></li>
+<li class="lvl4"><a href="#8-faglige-og-pedagogiske-krav-til-opplringsvirksomheten">§ 8. Faglige og pedagogiske krav til opplæringsvirksomheten</a></li>
+<li class="lvl4"><a href="#9-elevfortegnelse">§ 9. Elevfortegnelse</a></li>
+<li class="lvl4"><a href="#10-opplringsansvarlig-og-opplringspersonell">§ 10. Opplæringsansvarlig og opplæringspersonell</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-til-innhold-omfang-og-metode-i-grunnopplringen">Kapittel 4. Krav til innhold, omfang og metode i grunnopplæringen</a></li>
+<li class="lvl4"><a href="#11-modulbaserte-opplringslp-for-grunnopplringen">§ 11. Modulbaserte opplæringsløp for grunnopplæringen</a></li>
+<li class="lvl4"><a href="#12-hovedmal-for-grunnopplringen">§ 12. Hovedmål for grunnopplæringen</a></li>
+<li class="lvl4"><a href="#13-mal-og-timeantall-for-felles-modul-1-formal-med-periodisk-kontroll-av-kjrety">§ 13. Mål og timeantall for felles modul 1 – formål med periodisk kontroll av kjøretøy</a></li>
+<li class="lvl4"><a href="#14-mal-og-timeantall-for-felles-modul-2-offentlig-forvaltning-og-reguleringer-av-betydning-for-kontrollfunksjonen">§ 14. Mål og timeantall for felles modul 2 – offentlig forvaltning og reguleringer av betydning for kontrollfunksjonen</a></li>
+<li class="lvl4"><a href="#15-mal-og-timeantall-for-modul-3a-kjretyteknologi-for-lette-kjrety">§ 15. Mål og timeantall for modul 3A – kjøretøyteknologi for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#16-mal-og-timeantall-for-modul-3b-kjretyteknologi-for-tunge-kjrety">§ 16. Mål og timeantall for modul 3B – kjøretøyteknologi for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#17-mal-og-timeantall-for-modul-3c-kjretyteknologi-for-traktor">§ 17. Mål og timeantall for modul 3C – kjøretøyteknologi for traktor</a></li>
+<li class="lvl4"><a href="#18-mal-og-timeantall-for-modul-4a-kjretytekniske-krav-for-lette-kjrety">§ 18. Mål og timeantall for modul 4A – kjøretøytekniske krav for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#19-mal-og-timeantall-for-modul-4b-kjretytekniske-krav-for-tunge-kjrety">§ 19. Mål og timeantall for modul 4B – kjøretøytekniske krav for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#20-mal-og-timeantall-for-modul-4c-kjretytekniske-krav-for-traktor">§ 20. Mål og timeantall for modul 4C – kjøretøytekniske krav for traktor</a></li>
+<li class="lvl4"><a href="#21-mal-og-timeantall-for-felles-modul-5-forskrift-om-periodisk-kontroll-av-kjrety">§ 21. Mål og timeantall for felles modul 5 – forskrift om periodisk kontroll av kjøretøy</a></li>
+<li class="lvl4"><a href="#22-mal-og-timeantall-for-modul-6a-kontrollgjennomfring-for-lette-kjrety">§ 22. Mål og timeantall for modul 6A – kontrollgjennomføring for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#23-mal-og-timeantall-for-modul-6b-kontrollgjennomfring-for-tunge-kjrety">§ 23. Mål og timeantall for modul 6B – kontrollgjennomføring for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#24-mal-og-timeantall-for-modul-6c-kontrollgjennomfring-for-traktor">§ 24. Mål og timeantall for modul 6C – kontrollgjennomføring for traktor</a></li>
+<li class="lvl4"><a href="#25-mal-og-timeantall-for-felles-modul-7-riktig-bruk-vedlikehold-og-kalibrering-av-kontrollutstyr">§ 25. Mål og timeantall for felles modul 7 – riktig bruk, vedlikehold og kalibrering av kontrollutstyr</a></li>
+<li class="lvl4"><a href="#26-mal-og-timeantall-for-felles-modul-8-it-applikasjoner">§ 26. Mål og timeantall for felles modul 8 – IT-applikasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-innhold-omfang-og-metode-i-oppfriskningsopplringen">Kapittel 5. Krav til innhold, omfang og metode i oppfriskningsopplæringen</a></li>
+<li class="lvl4"><a href="#27-oppfriskningsopplring">§ 27. Oppfriskningsopplæring</a></li>
+<li class="lvl4"><a href="#28-hovedmal-for-oppfriskningsopplringen">§ 28. Hovedmål for oppfriskningsopplæringen</a></li>
+<li class="lvl4"><a href="#29-mal-og-timeantall-for-modul-amodul-atmodul-a-traktor-oppfriskning-med-srlig-vekt-pa-kontrollinstruksen">§ 29. Mål og timeantall for modul A/modul AT/modul A Traktor – oppfriskning med særlig vekt på kontrollinstruksen</a></li>
+<li class="lvl4"><a href="#30-mal-og-timeantall-for-modul-bmodul-btmodul-b-traktor-endringer-i-teknologi-og-regelverk">§ 30. Mål og timeantall for modul B/modul BT/modul B Traktor – endringer i teknologi og regelverk</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-reaksjoner">Kapittel 6. Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#31-tilsyn-med-opplringsvirksomhet">§ 31. Tilsyn med opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#32-krav-til-tilsynspersonellet">§ 32. Krav til tilsynspersonellet</a></li>
+<li class="lvl4"><a href="#33-reaksjoner-mot-opplringsvirksomhet">§ 33. Reaksjoner mot opplæringsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-unntak">§ 35. Unntak</a></li>
+<li class="lvl4"><a href="#36-ikrafttredelse">§ 36. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-10-10-1653.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-05-22-741.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om opplæring i periodisk kontroll av kjøretøy (kontrollopplæringsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-05-22-741.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2018-05-22-741 <code>forskrift/2018-05-22-741</code></td></tr>
+<tr><th>Korttittel</th><td>Kontrollopplæringsforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.10.2018</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-10-10-1653 <code>forskrift/2023-10-10-1653</code> fra 10.10.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2018-05-22-741" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-grunnopplring-og-oppfriskningsopplring">Kapittel 2. Grunnopplæring og oppfriskningsopplæring</a></li>
+<li class="lvl4"><a href="#3-generelt-om-opplringen">§ 3. Generelt om opplæringen</a></li>
+<li class="lvl4"><a href="#4-undervisning-evaluering-av-elev-og-lreplaner">§ 4. Undervisning, evaluering av elev og læreplaner</a></li>
+<li class="lvl2"><a href="#kapittel-3-opplringsvirksomhet-opplringsansvarlig-og-opplringspersonell">Kapittel 3. Opplæringsvirksomhet, opplæringsansvarlig og opplæringspersonell</a></li>
+<li class="lvl4"><a href="#5-godkjenning-av-opplringsvirksomhet">§ 5. Godkjenning av opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#6-gebyr-for-godkjenning-av-opplringsvirksomhet">§ 6. Gebyr for godkjenning av opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#7-administrative-krav-til-opplringsvirksomheten">§ 7. Administrative krav til opplæringsvirksomheten</a></li>
+<li class="lvl4"><a href="#8-faglige-og-pedagogiske-krav-til-opplringsvirksomheten">§ 8. Faglige og pedagogiske krav til opplæringsvirksomheten</a></li>
+<li class="lvl4"><a href="#9-elevfortegnelse">§ 9. Elevfortegnelse</a></li>
+<li class="lvl4"><a href="#10-opplringsansvarlig-og-opplringspersonell">§ 10. Opplæringsansvarlig og opplæringspersonell</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-til-innhold-omfang-og-metode-i-grunnopplringen">Kapittel 4. Krav til innhold, omfang og metode i grunnopplæringen</a></li>
+<li class="lvl4"><a href="#11-modulbaserte-opplringslp-for-grunnopplringen">§ 11. Modulbaserte opplæringsløp for grunnopplæringen</a></li>
+<li class="lvl4"><a href="#12-hovedmal-for-grunnopplringen">§ 12. Hovedmål for grunnopplæringen</a></li>
+<li class="lvl4"><a href="#13-mal-og-timeantall-for-felles-modul-1-formal-med-periodisk-kontroll-av-kjrety">§ 13. Mål og timeantall for felles modul 1 – formål med periodisk kontroll av kjøretøy</a></li>
+<li class="lvl4"><a href="#14-mal-og-timeantall-for-felles-modul-2-offentlig-forvaltning-og-reguleringer-av-betydning-for-kontrollfunksjonen">§ 14. Mål og timeantall for felles modul 2 – offentlig forvaltning og reguleringer av betydning for kontrollfunksjonen</a></li>
+<li class="lvl4"><a href="#15-mal-og-timeantall-for-modul-3a-kjretyteknologi-for-lette-kjrety">§ 15. Mål og timeantall for modul 3A – kjøretøyteknologi for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#16-mal-og-timeantall-for-modul-3b-kjretyteknologi-for-tunge-kjrety">§ 16. Mål og timeantall for modul 3B – kjøretøyteknologi for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#17-mal-og-timeantall-for-modul-3c-kjretyteknologi-for-traktor">§ 17. Mål og timeantall for modul 3C – kjøretøyteknologi for traktor</a></li>
+<li class="lvl4"><a href="#18-mal-og-timeantall-for-modul-4a-kjretytekniske-krav-for-lette-kjrety">§ 18. Mål og timeantall for modul 4A – kjøretøytekniske krav for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#19-mal-og-timeantall-for-modul-4b-kjretytekniske-krav-for-tunge-kjrety">§ 19. Mål og timeantall for modul 4B – kjøretøytekniske krav for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#20-mal-og-timeantall-for-modul-4c-kjretytekniske-krav-for-traktor">§ 20. Mål og timeantall for modul 4C – kjøretøytekniske krav for traktor</a></li>
+<li class="lvl4"><a href="#21-mal-og-timeantall-for-felles-modul-5-forskrift-om-periodisk-kontroll-av-kjrety">§ 21. Mål og timeantall for felles modul 5 – forskrift om periodisk kontroll av kjøretøy</a></li>
+<li class="lvl4"><a href="#22-mal-og-timeantall-for-modul-6a-kontrollgjennomfring-for-lette-kjrety">§ 22. Mål og timeantall for modul 6A – kontrollgjennomføring for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#23-mal-og-timeantall-for-modul-6b-kontrollgjennomfring-for-tunge-kjrety">§ 23. Mål og timeantall for modul 6B – kontrollgjennomføring for tunge kjøretøy</a></li>
+<li class="lvl4"><a href="#24-mal-og-timeantall-for-modul-6c-kontrollgjennomfring-for-traktor">§ 24. Mål og timeantall for modul 6C – kontrollgjennomføring for traktor</a></li>
+<li class="lvl4"><a href="#25-mal-og-timeantall-for-felles-modul-7-riktig-bruk-vedlikehold-og-kalibrering-av-kontrollutstyr">§ 25. Mål og timeantall for felles modul 7 – riktig bruk, vedlikehold og kalibrering av kontrollutstyr</a></li>
+<li class="lvl4"><a href="#26-mal-og-timeantall-for-felles-modul-8-it-applikasjoner">§ 26. Mål og timeantall for felles modul 8 – IT-applikasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-innhold-omfang-og-metode-i-oppfriskningsopplringen">Kapittel 5. Krav til innhold, omfang og metode i oppfriskningsopplæringen</a></li>
+<li class="lvl4"><a href="#27-oppfriskningsopplring">§ 27. Oppfriskningsopplæring</a></li>
+<li class="lvl4"><a href="#28-hovedmal-for-oppfriskningsopplringen">§ 28. Hovedmål for oppfriskningsopplæringen</a></li>
+<li class="lvl4"><a href="#29-mal-og-timeantall-for-modul-amodul-atmodul-a-traktor-oppfriskning-med-srlig-vekt-pa-kontrollinstruksen">§ 29. Mål og timeantall for modul A/modul AT/modul A Traktor – oppfriskning med særlig vekt på kontrollinstruksen</a></li>
+<li class="lvl4"><a href="#30-mal-og-timeantall-for-modul-bmodul-btmodul-b-traktor-endringer-i-teknologi-og-regelverk">§ 30. Mål og timeantall for modul B/modul BT/modul B Traktor – endringer i teknologi og regelverk</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-reaksjoner">Kapittel 6. Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#31-tilsyn-med-opplringsvirksomhet">§ 31. Tilsyn med opplæringsvirksomhet</a></li>
+<li class="lvl4"><a href="#32-krav-til-tilsynspersonellet">§ 32. Krav til tilsynspersonellet</a></li>
+<li class="lvl4"><a href="#33-reaksjoner-mot-opplringsvirksomhet">§ 33. Reaksjoner mot opplæringsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-unntak">§ 35. Unntak</a></li>
+<li class="lvl4"><a href="#36-ikrafttredelse">§ 36. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-05-22-741.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-05-22-741.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-05-22-741.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2018-05-22-741.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2018-05-22-741.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-05-22-741.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2018-05-22-741.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2018-05-22-741.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-05-22-741.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-opplring-i-periodisk-kontroll-av-kjrety-kontrollopplringsforskriften">Forskrift om opplæring i periodisk kontroll av kjøretøy (kontrollopplæringsforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</h4>
 <p>Forskriften gjelder for opplæringsvirksomheter som skal tilby grunnopplæring og oppfriskningsopplæring i periodisk kontroll av kjøretøy. Forskriften omhandler krav til grunnopplæring og oppfriskningsopplæring, godkjenning av og krav til opplæringsvirksomheter, krav til personell, tilsyn og reaksjoner samt gebyr for godkjenning.</p>
@@ -87,7 +218,7 @@ b. Opplæringsansvarlig: person med det faglige, administrative og pedagogiske a
 c. Undervisningstime: 45 minutter undervisning.
 d. Opplæringsplan: Plan som viser hvordan den enkelte opplæringsvirksomhet oppfyller forskriftens krav med de ressurser den har til rådighet. Planen skal gi opplysninger om virksomhetens opplæringspersonell, undervisningsmateriell, utstyr samt redegjøre for undervisningsmetoder, arbeidsmåter og gjennomføringen av de ulike modulene.
 e. Kontrollør: person som er godkjent for å gjennomføre periodisk kontroll av kjøretøy etter forskrift 13. mai 2009 nr. 591 om periodisk kontroll av kjøretøy § 12 og som har fått kontrollørbevis etter samme forskrift § 12b .</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2190 .</p>
 <h2 id="kapittel-2-grunnopplring-og-oppfriskningsopplring">Kapittel 2. Grunnopplæring og oppfriskningsopplæring</h2>
 <h4 id="3-generelt-om-opplringen">§ 3. Generelt om opplæringen</h4>
 <p>For å oppnå og opprettholde godkjenning som kontrollør i periodisk kontroll av kjøretøy må eleven gjennomføre grunnopplæring og oppfriskningsopplæring ved en opplæringsvirksomhet godkjent av Statens vegvesen.</p>
@@ -95,12 +226,12 @@ e. Kontrollør: person som er godkjent for å gjennomføre periodisk kontroll av
 <p>Grunnopplæringen og oppfriskningsopplæringen kan gjennomføres med inntil 24 elever ved ordinær undervisning i klasserom. Skjer teoretisk undervisning i virtuelt klasserom, kan grunnopplæringen og oppfriskningsopplæringen gjennomføres med inntil 6 elever. Praktisk undervisning i modul 6A, 6B og 6C i grunnopplæringen kan gjennomføres med grupper på inntil 6 elever samtidig.</p>
 <p>I grunnopplæringen skal eleven ha deltatt i minst 90 prosent av undervisningstiden for å få godkjent opplæringen.</p>
 <p>I oppfriskningsopplæringen skal eleven ha deltatt i alle undervisningstimene. Ved fravær må undervisning tilsvarende den tapte undervisningen gjennomføres for å få godkjent oppfriskningsopplæringen.</p>
-<p><em>Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="4-undervisning-evaluering-av-elev-og-lreplaner">§ 4. Undervisning, evaluering av elev og læreplaner</h4>
 <p>Undervisningen skal legge til rette for at eleven kan nå målene for opplæringen slik de er fastsatt i denne forskriften og skal gjennomføres på norsk.</p>
 <p>Opplæringsvirksomheten skal evaluere eleven for å sikre at eleven har oppnådd læringsmålene i den enkelte modul i opplæringen. Statens vegvesen kan gi nærmere retningslinjer for evalueringen. Ved manglende måloppnåelse hos en elev må opplæringsvirksomheten gi eleven tilleggsopplæring inntil tilfredsstillende måloppnåelse er nådd.</p>
 <p>Statens vegvesen fastsetter læreplan. Læreplanen er veiledende og anses ikke som forskrift etter forvaltningsloven.</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2190 .</p>
 <h2 id="kapittel-3-opplringsvirksomhet-opplringsansvarlig-og-opplringspersonell">Kapittel 3. Opplæringsvirksomhet, opplæringsansvarlig og opplæringspersonell</h2>
 <h4 id="5-godkjenning-av-opplringsvirksomhet">§ 5. Godkjenning av opplæringsvirksomhet</h4>
 <p>Grunnopplæring og oppfriskningsopplæring i periodisk kontroll av kjøretøy etter denne forskriften kan bare gis av opplæringsvirksomhet godkjent av Statens vegvesen.</p>
@@ -115,11 +246,11 @@ c. opplæringsplan definert i § 2 som viser hvordan virksomheten oppfyller fors
 d. opplysninger om opplæringsansvarlig og opplæringspersonellets kvalifikasjoner og faglige bakgrunn.</p>
 <p>Statens vegvesen kan gi nærmere retningslinjer for godkjenning og sette vilkår for godkjenningen.</p>
 <p>Statens vegvesen registrerer godkjenningen i sitt elektroniske register. Registeret inneholder opplysninger om alle virksomheter som har søkt om godkjenning og som har eller har hatt godkjenning, samt opplysninger om planlagt og gjennomført opplæring. Registeret vil inneholde personopplysninger om opplæringsansvarlig og andre personer som melder inn opplæring på vegne av opplæringsansvarlig.</p>
-<p><em>Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="6-gebyr-for-godkjenning-av-opplringsvirksomhet">§ 6. Gebyr for godkjenning av opplæringsvirksomhet</h4>
 <p>For første gangs behandling av søknad om godkjenning som opplæringsvirksomhet for opplæring i periodisk kontroll av kjøretøy og ved utvidelse av godkjenning skal opplæringsvirksomheten betale et gebyr.</p>
 <p>Gebyrsatsene fremgår av forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 12 .</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3083 (i kraft 1 jan 2021), 14 des 2021 nr. 3557 (i kraft 1 jan 2022), 20 des 2022 nr. 2393 (i kraft 1 jan 2023), 10 okt 2023 nr. 1653 .</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3083 (i kraft 1 jan 2021), 14 des 2021 nr. 3557 (i kraft 1 jan 2022), 20 des 2022 nr. 2393 (i kraft 1 jan 2023), 10 okt 2023 nr. 1653 .</p>
 <h4 id="7-administrative-krav-til-opplringsvirksomheten">§ 7. Administrative krav til opplæringsvirksomheten</h4>
 <p>Opplæringsvirksomheten skal</p>
 <p>a. ha tilgang på relevant utstyr og undervisningslokale som er nødvendig for å gjennomføre den undervisning opplæringsvirksomheten er godkjent for
@@ -129,7 +260,7 @@ d. på forhånd melde til Statens vegvesen sted og tidspunkt for gjennomføring 
 e. elektronisk melde til Statens vegvesens register opplysninger om tidspunkt og gjennomføring av den enkelte elev sin grunnopplæring og oppfriskningsopplæring snarest mulig og senest 7 dager etter at eleven har gjennomført opplæring
 f. skriftlig melde til Statens vegvesen om endring i forhold som har betydning for godkjenningen, herunder flytting, opphør av opplæringsvirksomheten og bytte av opplæringsansvarlig. Statens vegvesen avgjør hvorvidt endringene medfører krav om ny godkjenning.</p>
 <p>Statens vegvesen fastsetter nærmere krav til innmelding av data til sitt elektroniske register.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</p>
 <h4 id="8-faglige-og-pedagogiske-krav-til-opplringsvirksomheten">§ 8. Faglige og pedagogiske krav til opplæringsvirksomheten</h4>
 <p>Opplæringsvirksomheten skal</p>
 <p>a. drive opplæring i samsvar med gjeldende regelverk og læringsmål i kapittel 4 og 5 samt i henhold til eventuelle vilkår tilknyttet godkjenningen
@@ -141,7 +272,7 @@ f. benytte opplæringsansvarlig og opplæringspersonell som tilfredsstiller krav
 <h4 id="9-elevfortegnelse">§ 9. Elevfortegnelse</h4>
 <p>Opplæringsvirksomheter skal føre fortegnelse over alle sine elever. Fortegnelsen skal vise elevens navn, adresse, fødselsnummer og når eleven begynte og sluttet samt hvilke deler av opplæringen som er gjennomført. Fortegnelsen skal ajourføres snarest mulig og senest 7 dager etter at eleven har gjennomført opplæringen.</p>
 <p>Elevfortegnelsen skal oppbevares og være tilgjengelig og lesbar i 5 år uavhengig av om elevfortegnelsen er ført manuelt eller elektronisk og skal vises frem når Statens vegvesen krever det. Statens vegvesen kan fastsette modeller for elevfortegnelsen.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</p>
 <h4 id="10-opplringsansvarlig-og-opplringspersonell">§ 10. Opplæringsansvarlig og opplæringspersonell</h4>
 <p>Opplæringsansvarlig ved opplæringsvirksomheten må ha kompetanse innen periodisk kontroll av kjøretøy og undervisningserfaring.</p>
 <p>Opplæringsansvarlig har faglig, pedagogisk og administrativt ansvar for at opplæringsvirksomheten drives i samsvar med gjeldende regelverk og virksomhetens godkjenning.</p>
@@ -154,7 +285,7 @@ e. påse at bare kvalifisert personell gir undervisning og veilede disse
 f. ivareta opplæringsvirksomhetens ansvar for elektronisk innmelding av elevenes opplæring.</p>
 <p>Opplæringspersonell som skal undervise i grunnopplæringen og oppfriskningsopplæringen må ha kompetanse tilpasset den modul i den kategori de skal undervise i.</p>
 <p>Vegdirektoratet kan kreve at opplæringsansvarlig og opplæringspersonell gjennomfører opplæring i regi av Statens vegvesen.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</p>
 <h2 id="kapittel-4-krav-til-innhold-omfang-og-metode-i-grunnopplringen">Kapittel 4. Krav til innhold, omfang og metode i grunnopplæringen</h2>
 <h4 id="11-modulbaserte-opplringslp-for-grunnopplringen">§ 11. Modulbaserte opplæringsløp for grunnopplæringen</h4>
 <p>Grunnopplæringen legger opp til modulbaserte opplæringsløp bestående av</p>
@@ -166,7 +297,7 @@ c. modul 1, 2, 3C, 4C, 5, 6C, 7 og 8 for opplæring i kategori C Traktor, jf. §
 <p>Modulene skal gjennomføres i stigende nummerrekkefølge. Modul 6A, 6B og 6C kan likevel gjennomføres når det passer best i forhold til den øvrige undervisningen og deles opp ved behov.</p>
 <p>Statens vegvesen kan gi retningslinjer for godskriving av gjennomført opplæring i de kategorispesifikke modulene 3, 4 og 6 for elever som allerede har gjennomført og fått godkjent en grunnopplæring.</p>
 <p>Grunnopplæringen består av 60 timer i kategori A Lette, 68 timer i kategori B Tunge og 60 timer i kategori C Traktor ved ordinær undervisning i fast undervisningslokale.</p>
-<p><em>Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 7 des 2022 nr. 2190 , 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="12-hovedmal-for-grunnopplringen">§ 12. Hovedmål for grunnopplæringen</h4>
 <p>Etter gjennomført grunnopplæring i periodisk kontroll av kjøretøy skal eleven ha nødvendig kunnskap, ferdigheter og holdninger til å utføre periodisk kontroll av kjøretøy som regulert i forskrift 13. mai 2009 nr. 591 om periodisk kontroll av kjøretøy .</p>
 <p>Eleven skal</p>
@@ -174,7 +305,7 @@ c. modul 1, 2, 3C, 4C, 5, 6C, 7 og 8 for opplæring i kategori C Traktor, jf. §
 b. kunne utføre periodisk kontroll av kjøretøy riktig og med rett resultat
 c. vise profesjonalitet i sin utførelsen av kontrolloppdraget
 d. kunne veilede kjøretøyeier om resultatet på en riktig måte.</p>
-<p><em>Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="13-mal-og-timeantall-for-felles-modul-1-formal-med-periodisk-kontroll-av-kjrety">§ 13. Mål og timeantall for felles modul 1 – formål med periodisk kontroll av kjøretøy</h4>
 <p>Etter gjennomført modul 1 skal eleven forstå bakgrunnen for, hensikten med og de overordnede målene for ordningen med periodisk kontroll av kjøretøy.</p>
 <p>Eleven skal</p>
@@ -294,17 +425,17 @@ c. modul A Traktor og B Traktor for opplæring i kategori C Traktor, jf. § 5 an
 <p>Oppfriskningsopplæringen består av 14 timer i kategori A Lette, 14 timer i kategori B Tunge og 14 timer i kategori C Traktor ved ordinær undervisning.</p>
 <h4 id="28-hovedmal-for-oppfriskningsopplringen">§ 28. Hovedmål for oppfriskningsopplæringen</h4>
 <p>Etter gjennomført oppfriskningsopplæring i periodisk kontroll av kjøretøy skal eleven ha fått oppfrisket og oppdatert sine kunnskaper og ferdigheter til å utføre periodisk kontroll av kjøretøy som regulert i forskrift 13. mai 2009 nr. 591 om periodisk kontroll av kjøretøy .</p>
-<p><em>Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="29-mal-og-timeantall-for-modul-amodul-atmodul-a-traktor-oppfriskning-med-srlig-vekt-pa-kontrollinstruksen">§ 29. Mål og timeantall for modul A/modul AT/modul A Traktor – oppfriskning med særlig vekt på kontrollinstruksen</h4>
 <p>Etter gjennomført modul A/modul AT/modul A Traktor skal eleven ha gjennomgått og fått oppdatert kunnskap om gjeldende kontrollinstruks.</p>
 <p>Modul A/modul AT/modul A Traktor består hver av 7 timer oppfriskningsopplæring.</p>
 <p>Statens vegvesen kan gi nærmere retningslinjer for innholdet i og gjennomføringen av opplæringen.</p>
-<p><em>Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h4 id="30-mal-og-timeantall-for-modul-bmodul-btmodul-b-traktor-endringer-i-teknologi-og-regelverk">§ 30. Mål og timeantall for modul B/modul BT/modul B Traktor – endringer i teknologi og regelverk</h4>
 <p>Etter gjennomført modul B/modul BT/modul B Traktor skal eleven ha fått oppdatering på relevante endringer i kjøretøyteknologi samt endringer i regelverk av betydning for kontrollfunksjonen.</p>
 <p>Modul B/modul BT/modul B Traktor består hver av 7 timer oppfriskningsopplæring.</p>
 <p>Statens vegvesen kan gi nærmere retningslinjer for innholdet i og gjennomføringen av opplæringen.</p>
-<p><em>Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 13 des 2022 nr. 2229 (i kraft 1 jan 2023).</p>
 <h2 id="kapittel-6-tilsyn-og-reaksjoner">Kapittel 6. Tilsyn og reaksjoner</h2>
 <h4 id="31-tilsyn-med-opplringsvirksomhet">§ 31. Tilsyn med opplæringsvirksomhet</h4>
 <p>Statens vegvesen skal føre tilsyn med virksomheter som utfører godkjenningspliktig grunnopplæring og oppfriskningsopplæring i henhold til forskriften.</p>
@@ -313,10 +444,10 @@ c. modul A Traktor og B Traktor for opplæring i kategori C Traktor, jf. § 5 an
 <p>a. administrative, faglige og pedagogiske krav som følger av forskriften eller vedtak gitt med hjemmel i forskriften
 b. krav til opplæringens omfang, innhold og metode som følger av forskriften eller vedtak gitt med hjemmel i forskriften
 c. krav til evaluering av elevens måloppnåelse.</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="32-krav-til-tilsynspersonellet">§ 32. Krav til tilsynspersonellet</h4>
 <p>Statens vegvesen fastsetter krav til kompetanse og opplæring for personer som fører tilsyn etter denne forskriften.</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2190 .</p>
 <h4 id="33-reaksjoner-mot-opplringsvirksomhet">§ 33. Reaksjoner mot opplæringsvirksomhet</h4>
 <p>Som ledd i tilsynet kan Statens vegvesen gi opplæringsvirksomheten pålegg for å sikre at arbeidet utføres i samsvar med denne forskriften, og om nødvendig gi pålegg om stansing av opplæringsvirksomheten til avvik er rettet eller til vedtak om tilbakekalling er avgjort.</p>
 <p>Dersom retting ikke er foretatt innen gitt frist, kan Statens vegvesen fastsette en tvangsmulkt. Tvangsmulkten kan fastsettes som et engangsbeløp eller som en mulkt som løper fra det tidspunktet en gitt frist for retting er overskredet og til retting er foretatt. Endelig vedtak om betaling av tvangsmulkt er tvangsgrunnlag for utlegg, jf. tvangsfullbyrdelsesloven § 7-2 . Tvangsmulkt inndrives av Statens vegvesen.</p>
@@ -324,15 +455,17 @@ c. krav til evaluering av elevens måloppnåelse.</p>
 <p>Statens vegvesen kan midlertidig eller permanent tilbakekalle en opplæringsvirksomhet sin godkjenning dersom det avdekkes vesentlige eller gjentatte avvik fra administrative, faglige og pedagogiske krav, krav til opplæringens innhold, omfang og metode samt krav til evaluering av elevens måloppnåelse.</p>
 <p>I vurderingen av om godkjenningen skal tilbakekalles skal det tas hensyn til i hvilken grad opplæringsvirksomhetens administrative ledelse kan bebreides for overtredelsene nevnt i fjerde ledd.</p>
 <p>Første gangs tilbakekalling av godkjenningen skal normalt gjelde fra 1 til 6 måneder, andre gangs tilbakekalling fra 6 til 12 måneder og tredje gangs tilbakekalling for minst 12 måneder. I særlige tilfeller kan godkjenningen tilbakekalles for alltid.</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <h4 id="34-opphevet">§ 34. (Opphevet)</h4>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020), opphevet ved forskrift 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020), opphevet ved forskrift 7 des 2022 nr. 2190 .</p>
 <h4 id="35-unntak">§ 35. Unntak</h4>
 <p>Statens vegvesen kan, ved enkeltvedtak, gjøre unntak fra bestemmelsene i denne forskriften når det foreligger særlig tungtveiende grunner.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2190 .</p>
 <h4 id="36-ikrafttredelse">§ 36. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft den 1. oktober 2018.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

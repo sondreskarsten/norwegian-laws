@@ -19,64 +19,971 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1999-05-21-30.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Menneskerettsloven – mrl" href="../feeds/lov-1999-05-21-30.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Menneskerettsloven – mrl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1999-05-21-30</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Internasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nMenneskerettigheter</dd>
-<dt>Ikrafttredelse</dt><dd>1999-05-21</dd>
-<dt>Sist endret</dt><dd>lov/2025-12-19-113</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1999-05-21-30" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5">§ 5</a></li>
+<li class="lvl3"><a href="#6">§ 6</a></li>
+<li class="lvl2"><a href="#vedlegg-1-den-europeiske-menneskerettskonvensjon-med-protokoller-autentisk-engelsk-tekst">Vedlegg 1. Den europeiske menneskerettskonvensjon med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-for-the-protection-of-human-rights-and-fundamental-freedoms1">Convention for the Protection of Human Rights and Fundamental Freedoms1</a></li>
+<li class="lvl5"><a href="#art-1-obligation-to-respect-human-rights">Art 1. Obligation to respect human rights</a></li>
+<li class="lvl4"><a href="#section-i-rights-and-freedoms">Section I – Rights and freedoms</a></li>
+<li class="lvl4"><a href="#section-ii-european-court-of-human-rights">Section II – European Court of Human Rights</a></li>
+<li class="lvl4"><a href="#section-iii-miscellaneous-provisions">Section III – Miscellaneous provisions</a></li>
+<li class="lvl3"><a href="#protocol-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-of-4-november-1950">Protocol to the Convention for the Protection of Human Rights and Fundamental Freedoms of 4 November 1950</a></li>
+<li class="lvl5"><a href="#art-1-protection-of-property">Art 1. Protection of property</a></li>
+<li class="lvl5"><a href="#art-2-right-to-education">Art 2. Right to education</a></li>
+<li class="lvl5"><a href="#art-3-right-to-free-elections">Art 3. Right to free elections</a></li>
+<li class="lvl5"><a href="#art-4-territorial-application">Art 4. Territorial application</a></li>
+<li class="lvl5"><a href="#art-5-relationship-to-the-convention">Art 5. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-6-signature-and-ratification">Art 6. Signature and ratification</a></li>
+<li class="lvl3"><a href="#protocol-no-4-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-securing-certain-rights-and-freedoms-other-than-those-already-included-in-the-convention-and-in-the-first-protocol-thereto">Protocol no. 4 to the Convention for the Protection of Human Rights and Fundamental Freedoms, Securing Certain Rights and Freedoms other than those already included in the Convention and in the First Protocol Thereto</a></li>
+<li class="lvl5"><a href="#art-1-prohibition-of-imprisonment-for-debt">Art 1. Prohibition of imprisonment for debt</a></li>
+<li class="lvl5"><a href="#art-2-freedom-of-movement">Art 2. Freedom of movement</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-expulsion-of-nationals">Art 3. Prohibition of expulsion of nationals</a></li>
+<li class="lvl5"><a href="#art-4-prohibition-of-collective-expulsion-of-aliens">Art 4. Prohibition of collective expulsion of aliens</a></li>
+<li class="lvl5"><a href="#art-5-territorial-application">Art 5. Territorial application</a></li>
+<li class="lvl5"><a href="#art-6-relationship-to-the-convention">Art 6. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-7-signature-and-ratification">Art 7. Signature and ratification</a></li>
+<li class="lvl3"><a href="#protocol-no-6-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-concerning-the-abolition-of-the-death-penalty">Protocol no. 6 to the Convention for the Protection of Human Rights and Fundamental Freedoms, Concerning the Abolition of the Death Penalty</a></li>
+<li class="lvl5"><a href="#art-1-abolition-of-the-death-penalty">Art 1. Abolition of the death penalty</a></li>
+<li class="lvl5"><a href="#art-2-death-penalty-in-time-of-war">Art 2. Death penalty in time of war</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-derogations">Art 3. Prohibition of derogations</a></li>
+<li class="lvl5"><a href="#art-4-prohibition-of-reservations">Art 4. Prohibition of reservations</a></li>
+<li class="lvl5"><a href="#art-5-territorial-application_1">Art 5. Territorial application</a></li>
+<li class="lvl5"><a href="#art-6-relationship-to-the-convention_1">Art 6. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-7-signature-and-ratification_1">Art 7. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-8-entry-into-force">Art 8. Entry into force</a></li>
+<li class="lvl5"><a href="#art-9-depositary-functions">Art 9. Depositary functions</a></li>
+<li class="lvl3"><a href="#protocol-no-7-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms">Protocol no. 7 to the Convention for the Protection of Human Rights and Fundamental Freedoms</a></li>
+<li class="lvl5"><a href="#art-1-procedural-safeguards-relating-to-expulsion-of-aliens">Art 1. Procedural safeguards relating to expulsion of aliens</a></li>
+<li class="lvl5"><a href="#art-2-right-of-appeal-in-criminal-matters">Art 2. Right of appeal in criminal matters</a></li>
+<li class="lvl5"><a href="#art-3-compensation-for-wrongful-conviction">Art 3. Compensation for wrongful conviction</a></li>
+<li class="lvl5"><a href="#art-4-right-not-to-be-tried-or-punished-twice">Art 4. Right not to be tried or punished twice</a></li>
+<li class="lvl5"><a href="#art-5-equality-between-spouses">Art 5. Equality between spouses</a></li>
+<li class="lvl5"><a href="#art-6-territorial-application">Art 6. Territorial application</a></li>
+<li class="lvl5"><a href="#art-7-relationship-to-the-convention">Art 7. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-8-signature-and-ratification">Art 8. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-9-entry-into-force">Art 9. Entry into force</a></li>
+<li class="lvl5"><a href="#art-10-depositary-functions">Art 10. Depositary functions</a></li>
+<li class="lvl3"><a href="#protocol-no-13-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-concerning-the-abolition-of-the-death-penalty-in-all-circumstances">Protocol No. 13 to the Convention for the Protection of Human Rights and Fundamental Freedoms, concerning the Abolition of the Death Penalty in All Circumstances</a></li>
+<li class="lvl5"><a href="#art-1-abolition-of-the-death-penalty_1">Art 1. Abolition of the death penalty</a></li>
+<li class="lvl5"><a href="#art-2-prohibition-of-derogations">Art 2. Prohibition of derogations</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-reservations">Art 3. Prohibition of reservations</a></li>
+<li class="lvl5"><a href="#art-4-territorial-application_1">Art 4. Territorial application</a></li>
+<li class="lvl5"><a href="#art-5-relationship-to-the-convention_1">Art 5. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-6-signature-and-ratification_1">Art 6. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-7-entry-into-force">Art 7. Entry into force</a></li>
+<li class="lvl5"><a href="#art-8-depositary-functions">Art 8. Depositary functions</a></li>
+<li class="lvl2"><a href="#vedlegg-2-den-europeiske-menneskerettskonvensjon-med-protokoller-norsk-oversettelse1">Vedlegg 2. Den europeiske menneskerettskonvensjon med protokoller (norsk oversettelse)1</a></li>
+<li class="lvl3"><a href="#konvensjon-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter">Konvensjon om beskyttelse av menneskerettighetene og de grunnleggende friheter</a></li>
+<li class="lvl5"><a href="#art-1-forpliktelse-til-a-respektere-menneskerettighetene">Art 1. Forpliktelse til å respektere menneskerettighetene</a></li>
+<li class="lvl4"><a href="#del-i-rettigheter-og-friheter">Del I – Rettigheter og friheter</a></li>
+<li class="lvl4"><a href="#del-ii-den-europeiske-menneskerettsdomstol">Del II – Den europeiske menneskerettsdomstol</a></li>
+<li class="lvl4"><a href="#del-iii-diverse-bestemmelser">Del III – Diverse bestemmelser</a></li>
+<li class="lvl3"><a href="#protokoll-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-av-4-november-1950">Protokoll til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter av 4. november 1950</a></li>
+<li class="lvl5"><a href="#art-1-vern-om-eiendom">Art 1. Vern om eiendom</a></li>
+<li class="lvl5"><a href="#art-2-rett-til-utdanning">Art 2. Rett til utdanning</a></li>
+<li class="lvl5"><a href="#art-3-rett-til-frie-valg">Art 3. Rett til frie valg</a></li>
+<li class="lvl5"><a href="#art-4-territorial-anvendelse">Art 4. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-5-tilknytning-til-konvensjonen">Art 5. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-6-undertegning-og-ratifikasjon">Art 6. Undertegning og ratifikasjon</a></li>
+<li class="lvl3"><a href="#protokoll-nr-4-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-beskyttelse-av-visse-rettigheter-og-friheter-som-ikke-allerede-er-omfattet-av-konvensjonen-og-av-frste-tilleggsprotokoll-til-konvensjonen">Protokoll nr. 4 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om beskyttelse av visse rettigheter og friheter som ikke allerede er omfattet av konvensjonen og av første tilleggsprotokoll til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-1-forbud-mot-gjeldsfengsel">Art 1. Forbud mot gjeldsfengsel</a></li>
+<li class="lvl5"><a href="#art-2-bevegelsesfrihet">Art 2. Bevegelsesfrihet</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-utvisning-av-egne-statsborgere">Art 3. Forbud mot utvisning av egne statsborgere</a></li>
+<li class="lvl5"><a href="#art-4-forbud-mot-kollektiv-utvisning-av-utlendinger">Art 4. Forbud mot kollektiv utvisning av utlendinger</a></li>
+<li class="lvl5"><a href="#art-5-territorial-anvendelse">Art 5. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-6-tilknytning-til-konvensjonen">Art 6. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-7-undertegning-og-ratifikasjon">Art 7. Undertegning og ratifikasjon</a></li>
+<li class="lvl3"><a href="#protokoll-nr-6-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-avskaffelse-av-ddsstraffen">Protokoll nr. 6 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om avskaffelse av dødsstraffen</a></li>
+<li class="lvl5"><a href="#art-1-avskaffelse-av-ddsstraff">Art 1. Avskaffelse av dødsstraff</a></li>
+<li class="lvl5"><a href="#art-2-ddsstraff-i-krigstid">Art 2. Dødsstraff i krigstid</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-innskrenkninger">Art 3. Forbud mot innskrenkninger</a></li>
+<li class="lvl5"><a href="#art-4-forbud-mot-forbehold">Art 4. Forbud mot forbehold</a></li>
+<li class="lvl5"><a href="#art-5-territorial-anvendelse_1">Art 5. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-6-tilknytning-til-konvensjonen_1">Art 6. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-7-undertegning-og-ratifikasjon_1">Art 7. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-8-ikrafttredelse">Art 8. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-9-depositarfunksjoner">Art 9. Depositarfunksjoner</a></li>
+<li class="lvl3"><a href="#protokoll-nr-7-til-konvensjonen-om-beskyttelse-av-menneskerettigheter-og-grunnleggende-friheter">Protokoll nr. 7 til Konvensjonen om beskyttelse av menneskerettigheter og grunnleggende friheter</a></li>
+<li class="lvl5"><a href="#art-1-prosessuelle-garantier-i-forbindelse-med-utvisning-av-utlendinger">Art 1. Prosessuelle garantier i forbindelse med utvisning av utlendinger</a></li>
+<li class="lvl5"><a href="#art-2-ankerett-i-straffesaker">Art 2. Ankerett i straffesaker</a></li>
+<li class="lvl5"><a href="#art-3-erstatning-for-uriktig-domfellelse">Art 3. Erstatning for uriktig domfellelse</a></li>
+<li class="lvl5"><a href="#art-4-rett-til-ikke-a-bli-stilt-for-retten-eller-straffet-to-ganger">Art 4. Rett til ikke å bli stilt for retten eller straffet to ganger</a></li>
+<li class="lvl5"><a href="#art-5-likhet-mellom-ektefeller">Art 5. Likhet mellom ektefeller</a></li>
+<li class="lvl5"><a href="#art-6-territorial-anvendelse">Art 6. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-7-tilknytning-til-konvensjonen">Art 7. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-8-undertegning-og-ratifikasjon">Art 8. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-9-ikrafttredelse">Art 9. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-10-depositarfunksjoner">Art 10. Depositarfunksjoner</a></li>
+<li class="lvl3"><a href="#protokoll-nr-13-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-avskaffelse-av-ddsstraff-under-enhver-omstendighet">Protokoll nr. 13 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om avskaffelse av dødsstraff under enhver omstendighet</a></li>
+<li class="lvl5"><a href="#art-1-avskaffelse-av-ddsstraff_1">Art 1. Avskaffelse av dødsstraff</a></li>
+<li class="lvl5"><a href="#art-2-forbud-mot-fravikelser">Art 2. Forbud mot fravikelser</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-forbehold">Art 3. Forbud mot forbehold</a></li>
+<li class="lvl5"><a href="#art-4-territorial-anvendelse_1">Art 4. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-5-tilknytning-til-konvensjonen_1">Art 5. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-6-undertegning-og-ratifikasjon_1">Art 6. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-7-ikrafttredelse">Art 7. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-8-depositarfunksjoner">Art 8. Depositarfunksjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-3-den-internasjonale-konvensjonen-om-konomiske-sosiale-og-kulturelle-rettigheter-autentisk-engelsk-tekst">Vedlegg 3. Den internasjonale konvensjonen om økonomiske, sosiale og kulturelle rettigheter (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#international-covenant-on-economic-social-and-cultural-rights">International Covenant on Economic, Social and Cultural Rights</a></li>
+<li class="lvl4"><a href="#part-i">Part I</a></li>
+<li class="lvl4"><a href="#part-ii">Part II</a></li>
+<li class="lvl4"><a href="#part-iii">Part III</a></li>
+<li class="lvl4"><a href="#part-iv">Part IV</a></li>
+<li class="lvl4"><a href="#part-v">Part V</a></li>
+<li class="lvl2"><a href="#vedlegg-4-den-internasjonale-konvensjonen-om-konomiske-sosiale-og-kulturelle-rettigheter-norsk-oversettelse">Vedlegg 4. Den internasjonale konvensjonen om økonomiske, sosiale og kulturelle rettigheter (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#internasjonal-konvensjon-om-konomiske-sosiale-og-kulturelle-rettigheter">Internasjonal konvensjon om økonomiske, sosiale og kulturelle rettigheter</a></li>
+<li class="lvl4"><a href="#del-i">Del I</a></li>
+<li class="lvl4"><a href="#del-ii">Del II</a></li>
+<li class="lvl4"><a href="#del-iii">Del III</a></li>
+<li class="lvl4"><a href="#del-iv">Del IV</a></li>
+<li class="lvl4"><a href="#del-v">Del V</a></li>
+<li class="lvl2"><a href="#vedlegg-5-den-internasjonale-konvensjonen-om-sivile-og-politiske-rettigheter-med-protokoller-autentisk-engelsk-tekst">Vedlegg 5. Den internasjonale konvensjonen om sivile og politiske rettigheter med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#international-covenant-on-civil-and-political-rights">International Covenant on Civil and Political rights</a></li>
+<li class="lvl4"><a href="#part-i_1">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_1">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_1">Part III</a></li>
+<li class="lvl4"><a href="#part-iv_1">Part IV</a></li>
+<li class="lvl4"><a href="#part-v_1">Part V</a></li>
+<li class="lvl4"><a href="#part-vi">Part VI</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-international-covenant-on-civil-and-political-rights">Optional Protocol to the International Covenant on Civil and Political Rights</a></li>
+<li class="lvl5"><a href="#art-1_3">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_3">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_3">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_3">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_3">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_3">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_3">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_3">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_3">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_3">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_3">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_3">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_3">Art 14</a></li>
+<li class="lvl3"><a href="#second-optional-protocol-to-the-international-covenant-on-civil-and-political-rights-aiming-at-the-abolition-of-the-death-penalty">Second optional Protocol to the International Covenant on Civil and Political Rights, Aiming at the Abolition of the Death Penalty</a></li>
+<li class="lvl5"><a href="#art-1_4">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_4">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_4">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_4">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_4">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_4">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_4">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_4">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_4">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_4">Art 11</a></li>
+<li class="lvl2"><a href="#vedlegg-6-den-internasjonale-konvensjonen-om-sivile-og-politiske-rettigheter-med-protokoller-norsk-oversettelse">Vedlegg 6. Den internasjonale konvensjonen om sivile og politiske rettigheter med protokoller (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#internasjonal-konvensjon-om-sivile-og-politiske-rettigheter">Internasjonal konvensjon om sivile og politiske rettigheter</a></li>
+<li class="lvl4"><a href="#del-i_1">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_1">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_1">Del III</a></li>
+<li class="lvl4"><a href="#del-iv_1">Del IV</a></li>
+<li class="lvl4"><a href="#del-v_1">Del V</a></li>
+<li class="lvl4"><a href="#del-vi">Del VI</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-den-internasjonale-konvensjon-om-sivile-og-politiske-rettigheter">Valgfri protokoll til den internasjonale konvensjon om sivile og politiske rettigheter</a></li>
+<li class="lvl5"><a href="#art-1_6">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_6">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_6">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_6">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_6">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_6">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_6">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_6">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_6">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_6">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_5">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_5">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_5">Art 14</a></li>
+<li class="lvl3"><a href="#den-andre-tilleggsprotokoll-om-avskaffelse-av-ddsstraff-til-den-internasjonale-konvensjon-av-16-desember-1966-om-sivile-og-politiske-rettigheter">Den andre tilleggsprotokoll om avskaffelse av dødsstraff til den internasjonale konvensjon av 16. desember 1966 om sivile og politiske rettigheter</a></li>
+<li class="lvl5"><a href="#art-1_7">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_7">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_7">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_7">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_7">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_7">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_7">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_7">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_7">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_7">Art 11</a></li>
+<li class="lvl2"><a href="#vedlegg-7-fns-konvensjon-om-barnets-rettigheter-med-protokoller-autentisk-engelsk-tekst">Vedlegg 7. FNs konvensjon om barnets rettigheter med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-rights-of-the-child">Convention on the Rights of the Child</a></li>
+<li class="lvl4"><a href="#part-i_2">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_2">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_2">Part III</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-rights-of-the-child-on-the-involvement-of-children-in-armed-conflict-united-nations-25-may-2000">Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict, United Nations 25 May 2000</a></li>
+<li class="lvl5"><a href="#art-1_9">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_9">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_9">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_9">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_9">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_9">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_9">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_9">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_9">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_9">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_7">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_7">Art 13</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-rights-of-the-child-on-the-sale-of-children-child-prostitution-and-child-pornography-united-nations-25-may-2000">Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography, United Nations, 25 May 2000</a></li>
+<li class="lvl5"><a href="#art-1_10">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_10">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_10">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_10">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_10">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_10">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_10">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_10">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_10">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_10">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_8">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_8">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_7">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_5">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_5">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_5">Art 17</a></li>
+<li class="lvl2"><a href="#vedlegg-8-fns-konvensjon-om-barnets-rettigheter-med-protokoller-norsk-oversettelse">Vedlegg 8. FNs konvensjon om barnets rettigheter med protokoller (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#fns-konvensjon-om-barnets-rettigheter-av-20-november-1989">FNs konvensjon om barnets rettigheter av 20. november 1989</a></li>
+<li class="lvl4"><a href="#del-i_2">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_2">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_2">Del III</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-konvensjonen-om-barns-rettigheter-om-barn-i-vpnet-konflikt-25-mai-2000">Valgfri protokoll til konvensjonen om barns rettigheter om barn i væpnet konflikt, 25. mai 2000</a></li>
+<li class="lvl5"><a href="#art-1_12">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_12">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_12">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_12">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_12">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_12">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_12">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_12">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_12">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_12">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_12">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_10">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_10">Art 13</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-konvensjon-om-barnets-rettigheter-om-salg-av-barn-barneprostitusjon-og-barnepornografi-25-mai-2000">Valgfri protokoll til konvensjon om barnets rettigheter om salg av barn, barneprostitusjon og barnepornografi, 25. mai 2000</a></li>
+<li class="lvl5"><a href="#art-1_13">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_13">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_13">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_13">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_13">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_13">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_13">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_13">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_13">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_13">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_13">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_11">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_11">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_9">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_7">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_7">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_7">Art 17</a></li>
+<li class="lvl2"><a href="#vedlegg-9-konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-med-protokoll-autentisk-engelsk-tekst">Vedlegg 9. Konvensjon om avskaffelse av alle former for diskriminering av kvinner med protokoll (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-elimination-of-all-forms-of-discrimination-against-women-18-december-1979">Convention on the Elimination of All Forms of Discrimination against Women, 18 December 1979</a></li>
+<li class="lvl4"><a href="#part-i_3">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_3">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_3">Part III</a></li>
+<li class="lvl4"><a href="#part-iv_2">Part IV</a></li>
+<li class="lvl4"><a href="#part-v_2">Part V</a></li>
+<li class="lvl4"><a href="#part-vi_1">Part VI</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-elimination-of-all-forms-of-discrimination-against-women-6-october-1999">Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women, 6 October 1999</a></li>
+<li class="lvl5"><a href="#art-1_15">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_15">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_15">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_15">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_15">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_15">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_15">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_15">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_15">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_15">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_15">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_13">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_11">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_9">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_9">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_9">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_7">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_7">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_7">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_7">Art 21</a></li>
+<li class="lvl2"><a href="#vedlegg-10-konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-med-protokoll-norsk-oversettelse">Vedlegg 10. Konvensjon om avskaffelse av alle former for diskriminering av kvinner med protokoll (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-18-des-1979">Konvensjon om avskaffelse av alle former for diskriminering av kvinner, 18 des 1979</a></li>
+<li class="lvl4"><a href="#del-i_3">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_3">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_3">Del III</a></li>
+<li class="lvl4"><a href="#del-iv_2">Del IV</a></li>
+<li class="lvl4"><a href="#del-v_2">Del V</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-fns-konvensjon-om-a-avskaffe-alle-former-for-diskriminering-mot-kvinner-6-okt-1999">Valgfri protokoll til FNs konvensjon om å avskaffe alle former for diskriminering mot kvinner, 6 okt 1999</a></li>
+<li class="lvl5"><a href="#art-1_17">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_17">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_17">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_17">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_17">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_17">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_17">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_17">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_17">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_17">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_17">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_15">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_15">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_13">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_11">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_11">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_11">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_9">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_9">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_9">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_9">Art 21</a></li>
+<li class="lvl2"><a href="#vedlegg-11-konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne-autentisk-engelsk-tekst">Vedlegg 11. Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-rights-of-persons-with-disabilities">Convention on the Rights of Persons with Disabilities</a></li>
+<li class="lvl5"><a href="#article-1-purpose">Article 1. Purpose</a></li>
+<li class="lvl5"><a href="#article-2-definitions">Article 2. Definitions</a></li>
+<li class="lvl5"><a href="#article-3-general-principles">Article 3. General principles</a></li>
+<li class="lvl5"><a href="#article-4-general-obligations">Article 4. General obligations</a></li>
+<li class="lvl5"><a href="#article-5-equality-and-non-discrimination">Article 5. Equality and non-discrimination</a></li>
+<li class="lvl5"><a href="#article-6-women-with-disabilities">Article 6. Women with disabilities</a></li>
+<li class="lvl5"><a href="#article-7-children-with-disabilities">Article 7. Children with disabilities</a></li>
+<li class="lvl5"><a href="#article-8-awareness-raising">Article 8. Awareness-raising</a></li>
+<li class="lvl5"><a href="#article-9-accessibility">Article 9. Accessibility</a></li>
+<li class="lvl5"><a href="#article-10-right-to-life">Article 10. Right to life</a></li>
+<li class="lvl5"><a href="#article-11-situations-of-risk-and-humanitarian-emergencies">Article 11. Situations of risk and humanitarian emergencies</a></li>
+<li class="lvl5"><a href="#article-12-equal-recognition-before-the-law">Article 12. Equal recognition before the law</a></li>
+<li class="lvl5"><a href="#article-13-access-to-justice">Article 13. Access to justice</a></li>
+<li class="lvl5"><a href="#article-14-liberty-and-security-of-person">Article 14. Liberty and security of person</a></li>
+<li class="lvl5"><a href="#article-15-freedom-from-torture-or-cruel-inhuman-or-degrading-treatment-or-punishment">Article 15. Freedom from torture or cruel, inhuman or degrading treatment or punishment</a></li>
+<li class="lvl5"><a href="#article-16-freedom-from-exploitation-violence-and-abuse">Article 16. Freedom from exploitation, violence and abuse</a></li>
+<li class="lvl5"><a href="#article-17-protecting-the-integrity-of-the-person">Article 17. Protecting the integrity of the person</a></li>
+<li class="lvl5"><a href="#article-18-liberty-of-movement-and-nationality">Article 18. Liberty of movement and nationality</a></li>
+<li class="lvl5"><a href="#article-19-living-independently-and-being-included-in-the-community">Article 19. Living independently and being included in the community</a></li>
+<li class="lvl5"><a href="#article-20-personal-mobility">Article 20. Personal mobility</a></li>
+<li class="lvl5"><a href="#article-21-freedom-of-expression-and-opinion-and-access-to-information">Article 21. Freedom of expression and opinion, and access to information</a></li>
+<li class="lvl5"><a href="#article-22-respect-for-privacy">Article 22. Respect for privacy</a></li>
+<li class="lvl5"><a href="#article-23-respect-for-home-and-the-family">Article 23. Respect for home and the family</a></li>
+<li class="lvl5"><a href="#article-24-education">Article 24. Education</a></li>
+<li class="lvl5"><a href="#article-25-health">Article 25. Health</a></li>
+<li class="lvl5"><a href="#article-26-habilitation-and-rehabilitation">Article 26. Habilitation and rehabilitation</a></li>
+<li class="lvl5"><a href="#article-27-work-and-employment">Article 27. Work and employment</a></li>
+<li class="lvl5"><a href="#article-28-adequate-standard-of-living-and-social-protection">Article 28. Adequate standard of living and social protection</a></li>
+<li class="lvl5"><a href="#article-29-participation-in-political-and-public-life">Article 29. Participation in political and public life</a></li>
+<li class="lvl5"><a href="#article-30-participation-in-cultural-life-recreation-leisure-and-sport">Article 30. Participation in cultural life, recreation, leisure and sport</a></li>
+<li class="lvl5"><a href="#article-31-statistics-and-data-collection">Article 31. Statistics and data collection</a></li>
+<li class="lvl5"><a href="#article-32-international-cooperation">Article 32. International cooperation</a></li>
+<li class="lvl5"><a href="#article-33-national-implementation-and-monitoring">Article 33. National implementation and monitoring</a></li>
+<li class="lvl5"><a href="#article-34-committee-on-the-rights-of-persons-with-disabilities">Article 34. Committee on the Rights of Persons with Disabilities</a></li>
+<li class="lvl5"><a href="#article-35-reports-by-states-parties">Article 35. Reports by States Parties</a></li>
+<li class="lvl5"><a href="#article-36-consideration-of-reports">Article 36. Consideration of reports</a></li>
+<li class="lvl5"><a href="#article-37-cooperation-between-states-parties-and-the-committee">Article 37. Cooperation between States Parties and the Committee</a></li>
+<li class="lvl5"><a href="#article-38-relationship-of-the-committee-with-other-bodies">Article 38. Relationship of the Committee with other bodies</a></li>
+<li class="lvl5"><a href="#article-39-report-of-the-committee">Article 39. Report of the Committee</a></li>
+<li class="lvl5"><a href="#article-40-conference-of-states-parties">Article 40. Conference of States Parties</a></li>
+<li class="lvl5"><a href="#article-41-depositary">Article 41. Depositary</a></li>
+<li class="lvl5"><a href="#article-42-signature">Article 42. Signature</a></li>
+<li class="lvl5"><a href="#article-43-consent-to-be-bound">Article 43. Consent to be bound</a></li>
+<li class="lvl5"><a href="#article-44-regional-integration-organizations">Article 44. Regional integration organizations</a></li>
+<li class="lvl5"><a href="#article-45-entry-into-force">Article 45. Entry into force</a></li>
+<li class="lvl5"><a href="#article-46-reservations">Article 46. Reservations</a></li>
+<li class="lvl5"><a href="#article-47-amendments">Article 47. Amendments</a></li>
+<li class="lvl5"><a href="#article-48-denunciation">Article 48. Denunciation</a></li>
+<li class="lvl5"><a href="#article-49-accessible-format">Article 49. Accessible format</a></li>
+<li class="lvl5"><a href="#article-50-authentic-texts">Article 50. Authentic texts</a></li>
+<li class="lvl2"><a href="#vedlegg-12-konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne-norsk-oversettelse">Vedlegg 12. Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne">Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-1-formal">Artikkel 1. Formål</a></li>
+<li class="lvl5"><a href="#artikkel-2-definisjoner">Artikkel 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#artikkel-3-generelle-prinsipper">Artikkel 3. Generelle prinsipper</a></li>
+<li class="lvl5"><a href="#artikkel-4-generelle-forpliktelser">Artikkel 4. Generelle forpliktelser</a></li>
+<li class="lvl5"><a href="#artikkel-5-likhet-og-ikke-diskriminering">Artikkel 5. Likhet og ikke-diskriminering</a></li>
+<li class="lvl5"><a href="#artikkel-6-kvinner-med-nedsatt-funksjonsevne">Artikkel 6. Kvinner med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-7-barn-med-nedsatt-funksjonsevne">Artikkel 7. Barn med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-8-bevisstgjring">Artikkel 8. Bevisstgjøring</a></li>
+<li class="lvl5"><a href="#artikkel-9-tilgjengelighet">Artikkel 9. Tilgjengelighet</a></li>
+<li class="lvl5"><a href="#artikkel-10-retten-til-liv">Artikkel 10. Retten til liv</a></li>
+<li class="lvl5"><a href="#artikkel-11-risikosituasjoner-og-humanitre-ndssituasjoner">Artikkel 11. Risikosituasjoner og humanitære nødssituasjoner</a></li>
+<li class="lvl5"><a href="#artikkel-12-lik-rettslig-anerkjennelse">Artikkel 12. Lik rettslig anerkjennelse</a></li>
+<li class="lvl5"><a href="#artikkel-13-tilgang-til-rettssystemet">Artikkel 13. Tilgang til rettssystemet</a></li>
+<li class="lvl5"><a href="#artikkel-14-frihet-og-personlig-sikkerhet">Artikkel 14. Frihet og personlig sikkerhet</a></li>
+<li class="lvl5"><a href="#artikkel-15-frihet-fra-tortur-eller-grusom-umenneskelig-eller-nedverdigende-behandling-eller-straff">Artikkel 15. Frihet fra tortur eller grusom, umenneskelig eller nedverdigende behandling eller straff</a></li>
+<li class="lvl5"><a href="#artikkel-16-frihet-fra-utnytting-vold-og-misbruk">Artikkel 16. Frihet fra utnytting, vold og misbruk</a></li>
+<li class="lvl5"><a href="#artikkel-17-vern-om-personlig-integritet">Artikkel 17. Vern om personlig integritet</a></li>
+<li class="lvl5"><a href="#artikkel-18-statsborgerskap-og-bevegelsesfrihet">Artikkel 18. Statsborgerskap og bevegelsesfrihet</a></li>
+<li class="lvl5"><a href="#artikkel-19-retten-til-et-selvstendig-liv-og-til-a-vre-en-del-av-samfunnet">Artikkel 19. Retten til et selvstendig liv og til å være en del av samfunnet</a></li>
+<li class="lvl5"><a href="#artikkel-20-personlig-mobilitet">Artikkel 20. Personlig mobilitet</a></li>
+<li class="lvl5"><a href="#artikkel-21-ytringsfrihet-og-meningsfrihet-og-tilgang-til-informasjon">Artikkel 21. Ytringsfrihet og meningsfrihet, og tilgang til informasjon</a></li>
+<li class="lvl5"><a href="#artikkel-22-respekt-for-privatlivet">Artikkel 22. Respekt for privatlivet</a></li>
+<li class="lvl5"><a href="#artikkel-23-respekt-for-hjemmet-og-familien">Artikkel 23. Respekt for hjemmet og familien</a></li>
+<li class="lvl5"><a href="#artikkel-24-utdanning">Artikkel 24. Utdanning</a></li>
+<li class="lvl5"><a href="#artikkel-25-helse">Artikkel 25. Helse</a></li>
+<li class="lvl5"><a href="#artikkel-26-habilitering-og-rehabilitering">Artikkel 26. Habilitering og rehabilitering</a></li>
+<li class="lvl5"><a href="#artikkel-27-arbeid-og-sysselsetting">Artikkel 27. Arbeid og sysselsetting</a></li>
+<li class="lvl5"><a href="#artikkel-28-tilfredsstillende-levestandard-og-sosial-beskyttelse">Artikkel 28. Tilfredsstillende levestandard og sosial beskyttelse</a></li>
+<li class="lvl5"><a href="#artikkel-29-deltakelse-i-det-politiske-og-offentlige-liv">Artikkel 29. Deltakelse i det politiske og offentlige liv</a></li>
+<li class="lvl5"><a href="#artikkel-30-deltakelse-i-kulturliv-fritidsaktiviteter-fornyelser-og-idrett">Artikkel 30. Deltakelse i kulturliv, fritidsaktiviteter, fornøyelser og idrett</a></li>
+<li class="lvl5"><a href="#artikkel-31-statistikk-og-innhenting-av-data">Artikkel 31. Statistikk og innhenting av data</a></li>
+<li class="lvl5"><a href="#artikkel-32-internasjonalt-samarbeid">Artikkel 32. Internasjonalt samarbeid</a></li>
+<li class="lvl5"><a href="#artikkel-33-nasjonal-gjennomfring-og-overvakning">Artikkel 33. Nasjonal gjennomføring og overvåkning</a></li>
+<li class="lvl5"><a href="#artikkel-34-komiteen-for-rettighetene-til-mennesker-med-nedsatt-funksjonsevne">Artikkel 34. Komiteen for rettighetene til mennesker med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-35-rapporter-fra-partene">Artikkel 35. Rapporter fra partene</a></li>
+<li class="lvl5"><a href="#artikkel-36-behandling-av-rapportene">Artikkel 36. Behandling av rapportene</a></li>
+<li class="lvl5"><a href="#artikkel-37-samarbeid-mellom-partene-og-komiteen">Artikkel 37. Samarbeid mellom partene og komiteen</a></li>
+<li class="lvl5"><a href="#artikkel-38-komiteens-forhold-til-andre-organer">Artikkel 38. Komiteens forhold til andre organer</a></li>
+<li class="lvl5"><a href="#artikkel-39-rapport-fra-komiteen">Artikkel 39. Rapport fra komiteen</a></li>
+<li class="lvl5"><a href="#artikkel-40-statspartsmte">Artikkel 40. Statspartsmøte</a></li>
+<li class="lvl5"><a href="#artikkel-41-depositar">Artikkel 41. Depositar</a></li>
+<li class="lvl5"><a href="#artikkel-42-undertegning">Artikkel 42. Undertegning</a></li>
+<li class="lvl5"><a href="#artikkel-43-samtykke-til-a-vre-bundet">Artikkel 43. Samtykke til å være bundet</a></li>
+<li class="lvl5"><a href="#artikkel-44-organisasjoner-for-regional-integrasjon">Artikkel 44. Organisasjoner for regional integrasjon</a></li>
+<li class="lvl5"><a href="#artikkel-45-ikrafttredelse">Artikkel 45. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#artikkel-46-forbehold">Artikkel 46. Forbehold</a></li>
+<li class="lvl5"><a href="#artikkel-47-endringer">Artikkel 47. Endringer</a></li>
+<li class="lvl5"><a href="#artikkel-48-oppsigelse">Artikkel 48. Oppsigelse</a></li>
+<li class="lvl5"><a href="#artikkel-49-tilgjengelig-format">Artikkel 49. Tilgjengelig format</a></li>
+<li class="lvl5"><a href="#artikkel-50-gyldige-tekster">Artikkel 50. Gyldige tekster</a></li>
+<li class="lvl2"><a href="#vedlegg-13-den-europeiske-menneskerettskonvensjonen-med-protokoller-nordsamisk-oversettelse1">Vedlegg 13. Den europeiske menneskerettskonvensjonen med protokoller (nordsamisk oversettelse)1</a></li>
+<li class="lvl2"><a href="#vedlegg-14-fns-konvensjon-om-barnets-rettigheter-med-protokoller-nordsamisk-oversettelse1">Vedlegg 14. FNs konvensjon om barnets rettigheter med protokoller (nordsamisk oversettelse)1</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-12-19-113.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-05-21-30.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1999-05-21-30.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1999-05-21-30 <code>lov/1999-05-21-30</code></td></tr>
+<tr><th>Korttittel</th><td>Menneskerettsloven – mrl</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Internasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nMenneskerettigheter</td></tr>
+<tr><th>Ikrafttredelse</th><td>21.05.1999</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-12-19-113 <code>lov/2025-12-19-113</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1999-05-21-30" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5">§ 5</a></li>
+<li class="lvl3"><a href="#6">§ 6</a></li>
+<li class="lvl2"><a href="#vedlegg-1-den-europeiske-menneskerettskonvensjon-med-protokoller-autentisk-engelsk-tekst">Vedlegg 1. Den europeiske menneskerettskonvensjon med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-for-the-protection-of-human-rights-and-fundamental-freedoms1">Convention for the Protection of Human Rights and Fundamental Freedoms1</a></li>
+<li class="lvl5"><a href="#art-1-obligation-to-respect-human-rights">Art 1. Obligation to respect human rights</a></li>
+<li class="lvl4"><a href="#section-i-rights-and-freedoms">Section I – Rights and freedoms</a></li>
+<li class="lvl4"><a href="#section-ii-european-court-of-human-rights">Section II – European Court of Human Rights</a></li>
+<li class="lvl4"><a href="#section-iii-miscellaneous-provisions">Section III – Miscellaneous provisions</a></li>
+<li class="lvl3"><a href="#protocol-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-of-4-november-1950">Protocol to the Convention for the Protection of Human Rights and Fundamental Freedoms of 4 November 1950</a></li>
+<li class="lvl5"><a href="#art-1-protection-of-property">Art 1. Protection of property</a></li>
+<li class="lvl5"><a href="#art-2-right-to-education">Art 2. Right to education</a></li>
+<li class="lvl5"><a href="#art-3-right-to-free-elections">Art 3. Right to free elections</a></li>
+<li class="lvl5"><a href="#art-4-territorial-application">Art 4. Territorial application</a></li>
+<li class="lvl5"><a href="#art-5-relationship-to-the-convention">Art 5. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-6-signature-and-ratification">Art 6. Signature and ratification</a></li>
+<li class="lvl3"><a href="#protocol-no-4-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-securing-certain-rights-and-freedoms-other-than-those-already-included-in-the-convention-and-in-the-first-protocol-thereto">Protocol no. 4 to the Convention for the Protection of Human Rights and Fundamental Freedoms, Securing Certain Rights and Freedoms other than those already included in the Convention and in the First Protocol Thereto</a></li>
+<li class="lvl5"><a href="#art-1-prohibition-of-imprisonment-for-debt">Art 1. Prohibition of imprisonment for debt</a></li>
+<li class="lvl5"><a href="#art-2-freedom-of-movement">Art 2. Freedom of movement</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-expulsion-of-nationals">Art 3. Prohibition of expulsion of nationals</a></li>
+<li class="lvl5"><a href="#art-4-prohibition-of-collective-expulsion-of-aliens">Art 4. Prohibition of collective expulsion of aliens</a></li>
+<li class="lvl5"><a href="#art-5-territorial-application">Art 5. Territorial application</a></li>
+<li class="lvl5"><a href="#art-6-relationship-to-the-convention">Art 6. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-7-signature-and-ratification">Art 7. Signature and ratification</a></li>
+<li class="lvl3"><a href="#protocol-no-6-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-concerning-the-abolition-of-the-death-penalty">Protocol no. 6 to the Convention for the Protection of Human Rights and Fundamental Freedoms, Concerning the Abolition of the Death Penalty</a></li>
+<li class="lvl5"><a href="#art-1-abolition-of-the-death-penalty">Art 1. Abolition of the death penalty</a></li>
+<li class="lvl5"><a href="#art-2-death-penalty-in-time-of-war">Art 2. Death penalty in time of war</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-derogations">Art 3. Prohibition of derogations</a></li>
+<li class="lvl5"><a href="#art-4-prohibition-of-reservations">Art 4. Prohibition of reservations</a></li>
+<li class="lvl5"><a href="#art-5-territorial-application_1">Art 5. Territorial application</a></li>
+<li class="lvl5"><a href="#art-6-relationship-to-the-convention_1">Art 6. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-7-signature-and-ratification_1">Art 7. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-8-entry-into-force">Art 8. Entry into force</a></li>
+<li class="lvl5"><a href="#art-9-depositary-functions">Art 9. Depositary functions</a></li>
+<li class="lvl3"><a href="#protocol-no-7-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms">Protocol no. 7 to the Convention for the Protection of Human Rights and Fundamental Freedoms</a></li>
+<li class="lvl5"><a href="#art-1-procedural-safeguards-relating-to-expulsion-of-aliens">Art 1. Procedural safeguards relating to expulsion of aliens</a></li>
+<li class="lvl5"><a href="#art-2-right-of-appeal-in-criminal-matters">Art 2. Right of appeal in criminal matters</a></li>
+<li class="lvl5"><a href="#art-3-compensation-for-wrongful-conviction">Art 3. Compensation for wrongful conviction</a></li>
+<li class="lvl5"><a href="#art-4-right-not-to-be-tried-or-punished-twice">Art 4. Right not to be tried or punished twice</a></li>
+<li class="lvl5"><a href="#art-5-equality-between-spouses">Art 5. Equality between spouses</a></li>
+<li class="lvl5"><a href="#art-6-territorial-application">Art 6. Territorial application</a></li>
+<li class="lvl5"><a href="#art-7-relationship-to-the-convention">Art 7. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-8-signature-and-ratification">Art 8. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-9-entry-into-force">Art 9. Entry into force</a></li>
+<li class="lvl5"><a href="#art-10-depositary-functions">Art 10. Depositary functions</a></li>
+<li class="lvl3"><a href="#protocol-no-13-to-the-convention-for-the-protection-of-human-rights-and-fundamental-freedoms-concerning-the-abolition-of-the-death-penalty-in-all-circumstances">Protocol No. 13 to the Convention for the Protection of Human Rights and Fundamental Freedoms, concerning the Abolition of the Death Penalty in All Circumstances</a></li>
+<li class="lvl5"><a href="#art-1-abolition-of-the-death-penalty_1">Art 1. Abolition of the death penalty</a></li>
+<li class="lvl5"><a href="#art-2-prohibition-of-derogations">Art 2. Prohibition of derogations</a></li>
+<li class="lvl5"><a href="#art-3-prohibition-of-reservations">Art 3. Prohibition of reservations</a></li>
+<li class="lvl5"><a href="#art-4-territorial-application_1">Art 4. Territorial application</a></li>
+<li class="lvl5"><a href="#art-5-relationship-to-the-convention_1">Art 5. Relationship to the Convention</a></li>
+<li class="lvl5"><a href="#art-6-signature-and-ratification_1">Art 6. Signature and ratification</a></li>
+<li class="lvl5"><a href="#art-7-entry-into-force">Art 7. Entry into force</a></li>
+<li class="lvl5"><a href="#art-8-depositary-functions">Art 8. Depositary functions</a></li>
+<li class="lvl2"><a href="#vedlegg-2-den-europeiske-menneskerettskonvensjon-med-protokoller-norsk-oversettelse1">Vedlegg 2. Den europeiske menneskerettskonvensjon med protokoller (norsk oversettelse)1</a></li>
+<li class="lvl3"><a href="#konvensjon-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter">Konvensjon om beskyttelse av menneskerettighetene og de grunnleggende friheter</a></li>
+<li class="lvl5"><a href="#art-1-forpliktelse-til-a-respektere-menneskerettighetene">Art 1. Forpliktelse til å respektere menneskerettighetene</a></li>
+<li class="lvl4"><a href="#del-i-rettigheter-og-friheter">Del I – Rettigheter og friheter</a></li>
+<li class="lvl4"><a href="#del-ii-den-europeiske-menneskerettsdomstol">Del II – Den europeiske menneskerettsdomstol</a></li>
+<li class="lvl4"><a href="#del-iii-diverse-bestemmelser">Del III – Diverse bestemmelser</a></li>
+<li class="lvl3"><a href="#protokoll-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-av-4-november-1950">Protokoll til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter av 4. november 1950</a></li>
+<li class="lvl5"><a href="#art-1-vern-om-eiendom">Art 1. Vern om eiendom</a></li>
+<li class="lvl5"><a href="#art-2-rett-til-utdanning">Art 2. Rett til utdanning</a></li>
+<li class="lvl5"><a href="#art-3-rett-til-frie-valg">Art 3. Rett til frie valg</a></li>
+<li class="lvl5"><a href="#art-4-territorial-anvendelse">Art 4. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-5-tilknytning-til-konvensjonen">Art 5. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-6-undertegning-og-ratifikasjon">Art 6. Undertegning og ratifikasjon</a></li>
+<li class="lvl3"><a href="#protokoll-nr-4-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-beskyttelse-av-visse-rettigheter-og-friheter-som-ikke-allerede-er-omfattet-av-konvensjonen-og-av-frste-tilleggsprotokoll-til-konvensjonen">Protokoll nr. 4 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om beskyttelse av visse rettigheter og friheter som ikke allerede er omfattet av konvensjonen og av første tilleggsprotokoll til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-1-forbud-mot-gjeldsfengsel">Art 1. Forbud mot gjeldsfengsel</a></li>
+<li class="lvl5"><a href="#art-2-bevegelsesfrihet">Art 2. Bevegelsesfrihet</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-utvisning-av-egne-statsborgere">Art 3. Forbud mot utvisning av egne statsborgere</a></li>
+<li class="lvl5"><a href="#art-4-forbud-mot-kollektiv-utvisning-av-utlendinger">Art 4. Forbud mot kollektiv utvisning av utlendinger</a></li>
+<li class="lvl5"><a href="#art-5-territorial-anvendelse">Art 5. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-6-tilknytning-til-konvensjonen">Art 6. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-7-undertegning-og-ratifikasjon">Art 7. Undertegning og ratifikasjon</a></li>
+<li class="lvl3"><a href="#protokoll-nr-6-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-avskaffelse-av-ddsstraffen">Protokoll nr. 6 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om avskaffelse av dødsstraffen</a></li>
+<li class="lvl5"><a href="#art-1-avskaffelse-av-ddsstraff">Art 1. Avskaffelse av dødsstraff</a></li>
+<li class="lvl5"><a href="#art-2-ddsstraff-i-krigstid">Art 2. Dødsstraff i krigstid</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-innskrenkninger">Art 3. Forbud mot innskrenkninger</a></li>
+<li class="lvl5"><a href="#art-4-forbud-mot-forbehold">Art 4. Forbud mot forbehold</a></li>
+<li class="lvl5"><a href="#art-5-territorial-anvendelse_1">Art 5. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-6-tilknytning-til-konvensjonen_1">Art 6. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-7-undertegning-og-ratifikasjon_1">Art 7. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-8-ikrafttredelse">Art 8. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-9-depositarfunksjoner">Art 9. Depositarfunksjoner</a></li>
+<li class="lvl3"><a href="#protokoll-nr-7-til-konvensjonen-om-beskyttelse-av-menneskerettigheter-og-grunnleggende-friheter">Protokoll nr. 7 til Konvensjonen om beskyttelse av menneskerettigheter og grunnleggende friheter</a></li>
+<li class="lvl5"><a href="#art-1-prosessuelle-garantier-i-forbindelse-med-utvisning-av-utlendinger">Art 1. Prosessuelle garantier i forbindelse med utvisning av utlendinger</a></li>
+<li class="lvl5"><a href="#art-2-ankerett-i-straffesaker">Art 2. Ankerett i straffesaker</a></li>
+<li class="lvl5"><a href="#art-3-erstatning-for-uriktig-domfellelse">Art 3. Erstatning for uriktig domfellelse</a></li>
+<li class="lvl5"><a href="#art-4-rett-til-ikke-a-bli-stilt-for-retten-eller-straffet-to-ganger">Art 4. Rett til ikke å bli stilt for retten eller straffet to ganger</a></li>
+<li class="lvl5"><a href="#art-5-likhet-mellom-ektefeller">Art 5. Likhet mellom ektefeller</a></li>
+<li class="lvl5"><a href="#art-6-territorial-anvendelse">Art 6. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-7-tilknytning-til-konvensjonen">Art 7. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-8-undertegning-og-ratifikasjon">Art 8. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-9-ikrafttredelse">Art 9. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-10-depositarfunksjoner">Art 10. Depositarfunksjoner</a></li>
+<li class="lvl3"><a href="#protokoll-nr-13-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-om-avskaffelse-av-ddsstraff-under-enhver-omstendighet">Protokoll nr. 13 til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter, om avskaffelse av dødsstraff under enhver omstendighet</a></li>
+<li class="lvl5"><a href="#art-1-avskaffelse-av-ddsstraff_1">Art 1. Avskaffelse av dødsstraff</a></li>
+<li class="lvl5"><a href="#art-2-forbud-mot-fravikelser">Art 2. Forbud mot fravikelser</a></li>
+<li class="lvl5"><a href="#art-3-forbud-mot-forbehold">Art 3. Forbud mot forbehold</a></li>
+<li class="lvl5"><a href="#art-4-territorial-anvendelse_1">Art 4. Territorial anvendelse</a></li>
+<li class="lvl5"><a href="#art-5-tilknytning-til-konvensjonen_1">Art 5. Tilknytning til Konvensjonen</a></li>
+<li class="lvl5"><a href="#art-6-undertegning-og-ratifikasjon_1">Art 6. Undertegning og ratifikasjon</a></li>
+<li class="lvl5"><a href="#art-7-ikrafttredelse">Art 7. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-8-depositarfunksjoner">Art 8. Depositarfunksjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-3-den-internasjonale-konvensjonen-om-konomiske-sosiale-og-kulturelle-rettigheter-autentisk-engelsk-tekst">Vedlegg 3. Den internasjonale konvensjonen om økonomiske, sosiale og kulturelle rettigheter (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#international-covenant-on-economic-social-and-cultural-rights">International Covenant on Economic, Social and Cultural Rights</a></li>
+<li class="lvl4"><a href="#part-i">Part I</a></li>
+<li class="lvl4"><a href="#part-ii">Part II</a></li>
+<li class="lvl4"><a href="#part-iii">Part III</a></li>
+<li class="lvl4"><a href="#part-iv">Part IV</a></li>
+<li class="lvl4"><a href="#part-v">Part V</a></li>
+<li class="lvl2"><a href="#vedlegg-4-den-internasjonale-konvensjonen-om-konomiske-sosiale-og-kulturelle-rettigheter-norsk-oversettelse">Vedlegg 4. Den internasjonale konvensjonen om økonomiske, sosiale og kulturelle rettigheter (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#internasjonal-konvensjon-om-konomiske-sosiale-og-kulturelle-rettigheter">Internasjonal konvensjon om økonomiske, sosiale og kulturelle rettigheter</a></li>
+<li class="lvl4"><a href="#del-i">Del I</a></li>
+<li class="lvl4"><a href="#del-ii">Del II</a></li>
+<li class="lvl4"><a href="#del-iii">Del III</a></li>
+<li class="lvl4"><a href="#del-iv">Del IV</a></li>
+<li class="lvl4"><a href="#del-v">Del V</a></li>
+<li class="lvl2"><a href="#vedlegg-5-den-internasjonale-konvensjonen-om-sivile-og-politiske-rettigheter-med-protokoller-autentisk-engelsk-tekst">Vedlegg 5. Den internasjonale konvensjonen om sivile og politiske rettigheter med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#international-covenant-on-civil-and-political-rights">International Covenant on Civil and Political rights</a></li>
+<li class="lvl4"><a href="#part-i_1">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_1">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_1">Part III</a></li>
+<li class="lvl4"><a href="#part-iv_1">Part IV</a></li>
+<li class="lvl4"><a href="#part-v_1">Part V</a></li>
+<li class="lvl4"><a href="#part-vi">Part VI</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-international-covenant-on-civil-and-political-rights">Optional Protocol to the International Covenant on Civil and Political Rights</a></li>
+<li class="lvl5"><a href="#art-1_3">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_3">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_3">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_3">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_3">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_3">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_3">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_3">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_3">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_3">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_3">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_3">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_3">Art 14</a></li>
+<li class="lvl3"><a href="#second-optional-protocol-to-the-international-covenant-on-civil-and-political-rights-aiming-at-the-abolition-of-the-death-penalty">Second optional Protocol to the International Covenant on Civil and Political Rights, Aiming at the Abolition of the Death Penalty</a></li>
+<li class="lvl5"><a href="#art-1_4">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_4">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_4">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_4">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_4">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_4">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_4">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_4">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_4">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_4">Art 11</a></li>
+<li class="lvl2"><a href="#vedlegg-6-den-internasjonale-konvensjonen-om-sivile-og-politiske-rettigheter-med-protokoller-norsk-oversettelse">Vedlegg 6. Den internasjonale konvensjonen om sivile og politiske rettigheter med protokoller (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#internasjonal-konvensjon-om-sivile-og-politiske-rettigheter">Internasjonal konvensjon om sivile og politiske rettigheter</a></li>
+<li class="lvl4"><a href="#del-i_1">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_1">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_1">Del III</a></li>
+<li class="lvl4"><a href="#del-iv_1">Del IV</a></li>
+<li class="lvl4"><a href="#del-v_1">Del V</a></li>
+<li class="lvl4"><a href="#del-vi">Del VI</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-den-internasjonale-konvensjon-om-sivile-og-politiske-rettigheter">Valgfri protokoll til den internasjonale konvensjon om sivile og politiske rettigheter</a></li>
+<li class="lvl5"><a href="#art-1_6">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_6">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_6">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_6">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_6">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_6">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_6">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_6">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_6">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_6">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_5">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_5">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_5">Art 14</a></li>
+<li class="lvl3"><a href="#den-andre-tilleggsprotokoll-om-avskaffelse-av-ddsstraff-til-den-internasjonale-konvensjon-av-16-desember-1966-om-sivile-og-politiske-rettigheter">Den andre tilleggsprotokoll om avskaffelse av dødsstraff til den internasjonale konvensjon av 16. desember 1966 om sivile og politiske rettigheter</a></li>
+<li class="lvl5"><a href="#art-1_7">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_7">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_7">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_7">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_7">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_7">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_7">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_7">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_7">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_7">Art 11</a></li>
+<li class="lvl2"><a href="#vedlegg-7-fns-konvensjon-om-barnets-rettigheter-med-protokoller-autentisk-engelsk-tekst">Vedlegg 7. FNs konvensjon om barnets rettigheter med protokoller (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-rights-of-the-child">Convention on the Rights of the Child</a></li>
+<li class="lvl4"><a href="#part-i_2">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_2">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_2">Part III</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-rights-of-the-child-on-the-involvement-of-children-in-armed-conflict-united-nations-25-may-2000">Optional Protocol to the Convention on the Rights of the Child on the involvement of children in armed conflict, United Nations 25 May 2000</a></li>
+<li class="lvl5"><a href="#art-1_9">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_9">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_9">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_9">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_9">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_9">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_9">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_9">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_9">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_9">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_7">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_7">Art 13</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-rights-of-the-child-on-the-sale-of-children-child-prostitution-and-child-pornography-united-nations-25-may-2000">Optional Protocol to the Convention on the Rights of the Child on the sale of children, child prostitution and child pornography, United Nations, 25 May 2000</a></li>
+<li class="lvl5"><a href="#art-1_10">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_10">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_10">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_10">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_10">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_10">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_10">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_10">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_10">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_10">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_8">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_8">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_7">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_5">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_5">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_5">Art 17</a></li>
+<li class="lvl2"><a href="#vedlegg-8-fns-konvensjon-om-barnets-rettigheter-med-protokoller-norsk-oversettelse">Vedlegg 8. FNs konvensjon om barnets rettigheter med protokoller (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#fns-konvensjon-om-barnets-rettigheter-av-20-november-1989">FNs konvensjon om barnets rettigheter av 20. november 1989</a></li>
+<li class="lvl4"><a href="#del-i_2">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_2">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_2">Del III</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-konvensjonen-om-barns-rettigheter-om-barn-i-vpnet-konflikt-25-mai-2000">Valgfri protokoll til konvensjonen om barns rettigheter om barn i væpnet konflikt, 25. mai 2000</a></li>
+<li class="lvl5"><a href="#art-1_12">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_12">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_12">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_12">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_12">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_12">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_12">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_12">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_12">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_12">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_12">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_10">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_10">Art 13</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-konvensjon-om-barnets-rettigheter-om-salg-av-barn-barneprostitusjon-og-barnepornografi-25-mai-2000">Valgfri protokoll til konvensjon om barnets rettigheter om salg av barn, barneprostitusjon og barnepornografi, 25. mai 2000</a></li>
+<li class="lvl5"><a href="#art-1_13">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_13">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_13">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_13">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_13">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_13">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_13">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_13">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_13">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_13">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_13">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_11">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_11">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_9">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_7">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_7">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_7">Art 17</a></li>
+<li class="lvl2"><a href="#vedlegg-9-konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-med-protokoll-autentisk-engelsk-tekst">Vedlegg 9. Konvensjon om avskaffelse av alle former for diskriminering av kvinner med protokoll (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-elimination-of-all-forms-of-discrimination-against-women-18-december-1979">Convention on the Elimination of All Forms of Discrimination against Women, 18 December 1979</a></li>
+<li class="lvl4"><a href="#part-i_3">Part I</a></li>
+<li class="lvl4"><a href="#part-ii_3">Part II</a></li>
+<li class="lvl4"><a href="#part-iii_3">Part III</a></li>
+<li class="lvl4"><a href="#part-iv_2">Part IV</a></li>
+<li class="lvl4"><a href="#part-v_2">Part V</a></li>
+<li class="lvl4"><a href="#part-vi_1">Part VI</a></li>
+<li class="lvl3"><a href="#optional-protocol-to-the-convention-on-the-elimination-of-all-forms-of-discrimination-against-women-6-october-1999">Optional Protocol to the Convention on the Elimination of All Forms of Discrimination against Women, 6 October 1999</a></li>
+<li class="lvl5"><a href="#art-1_15">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_15">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_15">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_15">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_15">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_15">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_15">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_15">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_15">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_15">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_15">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_13">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_11">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_9">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_9">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_9">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_7">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_7">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_7">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_7">Art 21</a></li>
+<li class="lvl2"><a href="#vedlegg-10-konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-med-protokoll-norsk-oversettelse">Vedlegg 10. Konvensjon om avskaffelse av alle former for diskriminering av kvinner med protokoll (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#konvensjon-om-avskaffelse-av-alle-former-for-diskriminering-av-kvinner-18-des-1979">Konvensjon om avskaffelse av alle former for diskriminering av kvinner, 18 des 1979</a></li>
+<li class="lvl4"><a href="#del-i_3">Del I</a></li>
+<li class="lvl4"><a href="#del-ii_3">Del II</a></li>
+<li class="lvl4"><a href="#del-iii_3">Del III</a></li>
+<li class="lvl4"><a href="#del-iv_2">Del IV</a></li>
+<li class="lvl4"><a href="#del-v_2">Del V</a></li>
+<li class="lvl3"><a href="#valgfri-protokoll-til-fns-konvensjon-om-a-avskaffe-alle-former-for-diskriminering-mot-kvinner-6-okt-1999">Valgfri protokoll til FNs konvensjon om å avskaffe alle former for diskriminering mot kvinner, 6 okt 1999</a></li>
+<li class="lvl5"><a href="#art-1_17">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_17">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_17">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_17">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_17">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_17">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_17">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_17">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_17">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_17">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_17">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_15">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_15">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_13">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_11">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_11">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_11">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_9">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_9">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_9">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_9">Art 21</a></li>
+<li class="lvl2"><a href="#vedlegg-11-konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne-autentisk-engelsk-tekst">Vedlegg 11. Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne (autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#convention-on-the-rights-of-persons-with-disabilities">Convention on the Rights of Persons with Disabilities</a></li>
+<li class="lvl5"><a href="#article-1-purpose">Article 1. Purpose</a></li>
+<li class="lvl5"><a href="#article-2-definitions">Article 2. Definitions</a></li>
+<li class="lvl5"><a href="#article-3-general-principles">Article 3. General principles</a></li>
+<li class="lvl5"><a href="#article-4-general-obligations">Article 4. General obligations</a></li>
+<li class="lvl5"><a href="#article-5-equality-and-non-discrimination">Article 5. Equality and non-discrimination</a></li>
+<li class="lvl5"><a href="#article-6-women-with-disabilities">Article 6. Women with disabilities</a></li>
+<li class="lvl5"><a href="#article-7-children-with-disabilities">Article 7. Children with disabilities</a></li>
+<li class="lvl5"><a href="#article-8-awareness-raising">Article 8. Awareness-raising</a></li>
+<li class="lvl5"><a href="#article-9-accessibility">Article 9. Accessibility</a></li>
+<li class="lvl5"><a href="#article-10-right-to-life">Article 10. Right to life</a></li>
+<li class="lvl5"><a href="#article-11-situations-of-risk-and-humanitarian-emergencies">Article 11. Situations of risk and humanitarian emergencies</a></li>
+<li class="lvl5"><a href="#article-12-equal-recognition-before-the-law">Article 12. Equal recognition before the law</a></li>
+<li class="lvl5"><a href="#article-13-access-to-justice">Article 13. Access to justice</a></li>
+<li class="lvl5"><a href="#article-14-liberty-and-security-of-person">Article 14. Liberty and security of person</a></li>
+<li class="lvl5"><a href="#article-15-freedom-from-torture-or-cruel-inhuman-or-degrading-treatment-or-punishment">Article 15. Freedom from torture or cruel, inhuman or degrading treatment or punishment</a></li>
+<li class="lvl5"><a href="#article-16-freedom-from-exploitation-violence-and-abuse">Article 16. Freedom from exploitation, violence and abuse</a></li>
+<li class="lvl5"><a href="#article-17-protecting-the-integrity-of-the-person">Article 17. Protecting the integrity of the person</a></li>
+<li class="lvl5"><a href="#article-18-liberty-of-movement-and-nationality">Article 18. Liberty of movement and nationality</a></li>
+<li class="lvl5"><a href="#article-19-living-independently-and-being-included-in-the-community">Article 19. Living independently and being included in the community</a></li>
+<li class="lvl5"><a href="#article-20-personal-mobility">Article 20. Personal mobility</a></li>
+<li class="lvl5"><a href="#article-21-freedom-of-expression-and-opinion-and-access-to-information">Article 21. Freedom of expression and opinion, and access to information</a></li>
+<li class="lvl5"><a href="#article-22-respect-for-privacy">Article 22. Respect for privacy</a></li>
+<li class="lvl5"><a href="#article-23-respect-for-home-and-the-family">Article 23. Respect for home and the family</a></li>
+<li class="lvl5"><a href="#article-24-education">Article 24. Education</a></li>
+<li class="lvl5"><a href="#article-25-health">Article 25. Health</a></li>
+<li class="lvl5"><a href="#article-26-habilitation-and-rehabilitation">Article 26. Habilitation and rehabilitation</a></li>
+<li class="lvl5"><a href="#article-27-work-and-employment">Article 27. Work and employment</a></li>
+<li class="lvl5"><a href="#article-28-adequate-standard-of-living-and-social-protection">Article 28. Adequate standard of living and social protection</a></li>
+<li class="lvl5"><a href="#article-29-participation-in-political-and-public-life">Article 29. Participation in political and public life</a></li>
+<li class="lvl5"><a href="#article-30-participation-in-cultural-life-recreation-leisure-and-sport">Article 30. Participation in cultural life, recreation, leisure and sport</a></li>
+<li class="lvl5"><a href="#article-31-statistics-and-data-collection">Article 31. Statistics and data collection</a></li>
+<li class="lvl5"><a href="#article-32-international-cooperation">Article 32. International cooperation</a></li>
+<li class="lvl5"><a href="#article-33-national-implementation-and-monitoring">Article 33. National implementation and monitoring</a></li>
+<li class="lvl5"><a href="#article-34-committee-on-the-rights-of-persons-with-disabilities">Article 34. Committee on the Rights of Persons with Disabilities</a></li>
+<li class="lvl5"><a href="#article-35-reports-by-states-parties">Article 35. Reports by States Parties</a></li>
+<li class="lvl5"><a href="#article-36-consideration-of-reports">Article 36. Consideration of reports</a></li>
+<li class="lvl5"><a href="#article-37-cooperation-between-states-parties-and-the-committee">Article 37. Cooperation between States Parties and the Committee</a></li>
+<li class="lvl5"><a href="#article-38-relationship-of-the-committee-with-other-bodies">Article 38. Relationship of the Committee with other bodies</a></li>
+<li class="lvl5"><a href="#article-39-report-of-the-committee">Article 39. Report of the Committee</a></li>
+<li class="lvl5"><a href="#article-40-conference-of-states-parties">Article 40. Conference of States Parties</a></li>
+<li class="lvl5"><a href="#article-41-depositary">Article 41. Depositary</a></li>
+<li class="lvl5"><a href="#article-42-signature">Article 42. Signature</a></li>
+<li class="lvl5"><a href="#article-43-consent-to-be-bound">Article 43. Consent to be bound</a></li>
+<li class="lvl5"><a href="#article-44-regional-integration-organizations">Article 44. Regional integration organizations</a></li>
+<li class="lvl5"><a href="#article-45-entry-into-force">Article 45. Entry into force</a></li>
+<li class="lvl5"><a href="#article-46-reservations">Article 46. Reservations</a></li>
+<li class="lvl5"><a href="#article-47-amendments">Article 47. Amendments</a></li>
+<li class="lvl5"><a href="#article-48-denunciation">Article 48. Denunciation</a></li>
+<li class="lvl5"><a href="#article-49-accessible-format">Article 49. Accessible format</a></li>
+<li class="lvl5"><a href="#article-50-authentic-texts">Article 50. Authentic texts</a></li>
+<li class="lvl2"><a href="#vedlegg-12-konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne-norsk-oversettelse">Vedlegg 12. Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#konvensjon-om-rettighetene-til-mennesker-med-nedsatt-funksjonsevne">Konvensjon om rettighetene til mennesker med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-1-formal">Artikkel 1. Formål</a></li>
+<li class="lvl5"><a href="#artikkel-2-definisjoner">Artikkel 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#artikkel-3-generelle-prinsipper">Artikkel 3. Generelle prinsipper</a></li>
+<li class="lvl5"><a href="#artikkel-4-generelle-forpliktelser">Artikkel 4. Generelle forpliktelser</a></li>
+<li class="lvl5"><a href="#artikkel-5-likhet-og-ikke-diskriminering">Artikkel 5. Likhet og ikke-diskriminering</a></li>
+<li class="lvl5"><a href="#artikkel-6-kvinner-med-nedsatt-funksjonsevne">Artikkel 6. Kvinner med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-7-barn-med-nedsatt-funksjonsevne">Artikkel 7. Barn med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-8-bevisstgjring">Artikkel 8. Bevisstgjøring</a></li>
+<li class="lvl5"><a href="#artikkel-9-tilgjengelighet">Artikkel 9. Tilgjengelighet</a></li>
+<li class="lvl5"><a href="#artikkel-10-retten-til-liv">Artikkel 10. Retten til liv</a></li>
+<li class="lvl5"><a href="#artikkel-11-risikosituasjoner-og-humanitre-ndssituasjoner">Artikkel 11. Risikosituasjoner og humanitære nødssituasjoner</a></li>
+<li class="lvl5"><a href="#artikkel-12-lik-rettslig-anerkjennelse">Artikkel 12. Lik rettslig anerkjennelse</a></li>
+<li class="lvl5"><a href="#artikkel-13-tilgang-til-rettssystemet">Artikkel 13. Tilgang til rettssystemet</a></li>
+<li class="lvl5"><a href="#artikkel-14-frihet-og-personlig-sikkerhet">Artikkel 14. Frihet og personlig sikkerhet</a></li>
+<li class="lvl5"><a href="#artikkel-15-frihet-fra-tortur-eller-grusom-umenneskelig-eller-nedverdigende-behandling-eller-straff">Artikkel 15. Frihet fra tortur eller grusom, umenneskelig eller nedverdigende behandling eller straff</a></li>
+<li class="lvl5"><a href="#artikkel-16-frihet-fra-utnytting-vold-og-misbruk">Artikkel 16. Frihet fra utnytting, vold og misbruk</a></li>
+<li class="lvl5"><a href="#artikkel-17-vern-om-personlig-integritet">Artikkel 17. Vern om personlig integritet</a></li>
+<li class="lvl5"><a href="#artikkel-18-statsborgerskap-og-bevegelsesfrihet">Artikkel 18. Statsborgerskap og bevegelsesfrihet</a></li>
+<li class="lvl5"><a href="#artikkel-19-retten-til-et-selvstendig-liv-og-til-a-vre-en-del-av-samfunnet">Artikkel 19. Retten til et selvstendig liv og til å være en del av samfunnet</a></li>
+<li class="lvl5"><a href="#artikkel-20-personlig-mobilitet">Artikkel 20. Personlig mobilitet</a></li>
+<li class="lvl5"><a href="#artikkel-21-ytringsfrihet-og-meningsfrihet-og-tilgang-til-informasjon">Artikkel 21. Ytringsfrihet og meningsfrihet, og tilgang til informasjon</a></li>
+<li class="lvl5"><a href="#artikkel-22-respekt-for-privatlivet">Artikkel 22. Respekt for privatlivet</a></li>
+<li class="lvl5"><a href="#artikkel-23-respekt-for-hjemmet-og-familien">Artikkel 23. Respekt for hjemmet og familien</a></li>
+<li class="lvl5"><a href="#artikkel-24-utdanning">Artikkel 24. Utdanning</a></li>
+<li class="lvl5"><a href="#artikkel-25-helse">Artikkel 25. Helse</a></li>
+<li class="lvl5"><a href="#artikkel-26-habilitering-og-rehabilitering">Artikkel 26. Habilitering og rehabilitering</a></li>
+<li class="lvl5"><a href="#artikkel-27-arbeid-og-sysselsetting">Artikkel 27. Arbeid og sysselsetting</a></li>
+<li class="lvl5"><a href="#artikkel-28-tilfredsstillende-levestandard-og-sosial-beskyttelse">Artikkel 28. Tilfredsstillende levestandard og sosial beskyttelse</a></li>
+<li class="lvl5"><a href="#artikkel-29-deltakelse-i-det-politiske-og-offentlige-liv">Artikkel 29. Deltakelse i det politiske og offentlige liv</a></li>
+<li class="lvl5"><a href="#artikkel-30-deltakelse-i-kulturliv-fritidsaktiviteter-fornyelser-og-idrett">Artikkel 30. Deltakelse i kulturliv, fritidsaktiviteter, fornøyelser og idrett</a></li>
+<li class="lvl5"><a href="#artikkel-31-statistikk-og-innhenting-av-data">Artikkel 31. Statistikk og innhenting av data</a></li>
+<li class="lvl5"><a href="#artikkel-32-internasjonalt-samarbeid">Artikkel 32. Internasjonalt samarbeid</a></li>
+<li class="lvl5"><a href="#artikkel-33-nasjonal-gjennomfring-og-overvakning">Artikkel 33. Nasjonal gjennomføring og overvåkning</a></li>
+<li class="lvl5"><a href="#artikkel-34-komiteen-for-rettighetene-til-mennesker-med-nedsatt-funksjonsevne">Artikkel 34. Komiteen for rettighetene til mennesker med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#artikkel-35-rapporter-fra-partene">Artikkel 35. Rapporter fra partene</a></li>
+<li class="lvl5"><a href="#artikkel-36-behandling-av-rapportene">Artikkel 36. Behandling av rapportene</a></li>
+<li class="lvl5"><a href="#artikkel-37-samarbeid-mellom-partene-og-komiteen">Artikkel 37. Samarbeid mellom partene og komiteen</a></li>
+<li class="lvl5"><a href="#artikkel-38-komiteens-forhold-til-andre-organer">Artikkel 38. Komiteens forhold til andre organer</a></li>
+<li class="lvl5"><a href="#artikkel-39-rapport-fra-komiteen">Artikkel 39. Rapport fra komiteen</a></li>
+<li class="lvl5"><a href="#artikkel-40-statspartsmte">Artikkel 40. Statspartsmøte</a></li>
+<li class="lvl5"><a href="#artikkel-41-depositar">Artikkel 41. Depositar</a></li>
+<li class="lvl5"><a href="#artikkel-42-undertegning">Artikkel 42. Undertegning</a></li>
+<li class="lvl5"><a href="#artikkel-43-samtykke-til-a-vre-bundet">Artikkel 43. Samtykke til å være bundet</a></li>
+<li class="lvl5"><a href="#artikkel-44-organisasjoner-for-regional-integrasjon">Artikkel 44. Organisasjoner for regional integrasjon</a></li>
+<li class="lvl5"><a href="#artikkel-45-ikrafttredelse">Artikkel 45. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#artikkel-46-forbehold">Artikkel 46. Forbehold</a></li>
+<li class="lvl5"><a href="#artikkel-47-endringer">Artikkel 47. Endringer</a></li>
+<li class="lvl5"><a href="#artikkel-48-oppsigelse">Artikkel 48. Oppsigelse</a></li>
+<li class="lvl5"><a href="#artikkel-49-tilgjengelig-format">Artikkel 49. Tilgjengelig format</a></li>
+<li class="lvl5"><a href="#artikkel-50-gyldige-tekster">Artikkel 50. Gyldige tekster</a></li>
+<li class="lvl2"><a href="#vedlegg-13-den-europeiske-menneskerettskonvensjonen-med-protokoller-nordsamisk-oversettelse1">Vedlegg 13. Den europeiske menneskerettskonvensjonen med protokoller (nordsamisk oversettelse)1</a></li>
+<li class="lvl2"><a href="#vedlegg-14-fns-konvensjon-om-barnets-rettigheter-med-protokoller-nordsamisk-oversettelse1">Vedlegg 14. FNs konvensjon om barnets rettigheter med protokoller (nordsamisk oversettelse)1</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-05-21-30.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1999-05-21-30.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-05-21-30.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1999-05-21-30.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1999-05-21-30.html">Observerte kildeutgaver</a> · <a href="../historie/menneskerettsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1999-05-21-30.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1999-05-21-30.html">Observerte kildeutgaver</a> · <a href="../historie/menneskerettsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1999-05-21-30.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-styrking-av-menneskerettighetenes-stilling-i-norsk-rett-menneskerettsloven">Lov om styrking av menneskerettighetenes stilling i norsk rett (menneskerettsloven)</h1>
 <h3 id="1">§ 1</h3>
 <p>Lovens formål er å styrke menneskerettighetenes stilling i norsk rett.</p>
 <h3 id="2">§ 2</h3>
@@ -98,7 +1005,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>De forente nasjoners internasjonale konvensjon 18. desember 1979 om avskaffelse av alle former for diskriminering av kvinner med tilleggsprotokoll 6. oktober 1999,</li>
 <li>De forente nasjoners internasjonale konvensjon 13. desember 2006 om rettighetene til mennesker med nedsatt funksjonsevne.</li>
 </ol>
-<p><em>Endret ved lover 1 aug 2003 nr. 86 (ikr. 1 okt 2003 iflg. res. 1 aug 2003 nr. 991 ), 10 juni 2005 nr. 49 (protokoll nr. 13 til EMK ikr. 1 des 2005 iflg. res. 2 sep 2005 nr. 965 ; protokoll nr. 14 til EMK ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), 19 juni 2009 nr. 80 (ikr. 19 juni 2009 iflg. res. 19 juni 2009 nr. 696 ), 9 mai 2014 nr. 14 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 611 ), 9 mai 2014 nr. 14 (ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ), 19 des 2025 nr. 113 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2706 ).</em></p>
+<p class="note">Endret ved lover 1 aug 2003 nr. 86 (ikr. 1 okt 2003 iflg. res. 1 aug 2003 nr. 991 ), 10 juni 2005 nr. 49 (protokoll nr. 13 til EMK ikr. 1 des 2005 iflg. res. 2 sep 2005 nr. 965 ; protokoll nr. 14 til EMK ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), 19 juni 2009 nr. 80 (ikr. 19 juni 2009 iflg. res. 19 juni 2009 nr. 696 ), 9 mai 2014 nr. 14 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 611 ), 9 mai 2014 nr. 14 (ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ), 19 des 2025 nr. 113 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2706 ).</p>
 <h3 id="3">§ 3</h3>
 <p>Bestemmelsene i konvensjoner og protokoller som er nevnt i § 2 skal ved motstrid gå foran bestemmelser i annen lovgivning.</p>
 <h3 id="4">§ 4</h3>
@@ -1072,12 +1979,12 @@ e. å ha vederlagsfri bistand av en tolk hvis han ikke kan forstå eller tale de
 <p>I sin embetsperiode skal dommerne ikke delta i noen virksomhet som er uforenlig med deres uavhengige og upartiske stilling, eller med de krav et heltidsembete medfører. Alle spørsmål som oppstår ved anvendelsen av dette avsnitt skal avgjøres av Domstolen.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</em></p>
+<p class="note">Endret ved protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</p>
 <h6 id="art-22-valg-av-dommere">Art 22. Valg av dommere</h6>
 <ol>
 <li>Parlamentarikerforsamlingen skal med alminnelig flertall velge en dommer fra hver høy Kontraherende Part ut fra en liste på tre kandidater som den høye Kontraherende Parten nominerer.</li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-23-embetsperioder-og-avskjedigelse">Art 23. Embetsperioder og avskjedigelse</h6>
 <ol>
 <li>
@@ -1090,7 +1997,7 @@ e. å ha vederlagsfri bistand av en tolk hvis han ikke kan forstå eller tale de
 <p>En dommer kan ikke avskjediges fra embetet med mindre de øvrige dommerne med to tredjedels flertall avgjør at vedkommende ikke lenger oppfyller de fastsatte krav.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</p>
 <h6 id="art-24-justissekretariat-og-rapportrer">Art 24. Justissekretariat og rapportører</h6>
 <ol>
 <li>
@@ -1100,7 +2007,7 @@ e. å ha vederlagsfri bistand av en tolk hvis han ikke kan forstå eller tale de
 <p>Når Domstolen settes med enedommere, skal den bistås av rapportører som ved utøvelsen av sine funksjoner skal være underlagt Domstolens president. De skal utgjøre en del av Domstolens justissekretariat.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 25, tidligere artikkel 24 ble samtidig opphevet.</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 25, tidligere artikkel 24 ble samtidig opphevet.</p>
 <h6 id="art-25-domstolen-i-plenum">Art 25. Domstolen i plenum</h6>
 <p>Domstolen i plenum skal</p>
 <p>a. velge sin president og en eller to visepresidenter for en periode på tre år; de kan gjenvelges;
@@ -1109,7 +2016,7 @@ c. velge presidenter for Domstolens kamre; de kan gjenvelges;
 d. vedta forretningsorden for Domstolen;
 e. velge justissekretær og en eller flere visejustissekretærer;
 f. rette eventuelle anmodninger i henhold til artikkel 26, avsnitt 2.</p>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 26.</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 26.</p>
 <h6 id="art-26-enedommere-komiteer-kamre-og-storkammer">Art 26. Enedommere, komiteer, kamre og storkammer</h6>
 <ol>
 <li>
@@ -1128,7 +2035,7 @@ f. rette eventuelle anmodninger i henhold til artikkel 26, avsnitt 2.</p>
 <p>Storkammeret skal også omfatte presidenten for Domstolen, visepresidentene, presidentene for kamrene og andre dommere valgt i samsvar med forretningsordenen. Når en sak er henvist til storkammeret i henhold til artikkel 43, skal ingen dommer som satt i kammeret som avsa dommen, sitte i storkammeret, med unntak av kammerets president og den dommer som var valgt for vedkommende høye Kontraherende Part.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 27.</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), endret artikkelnummer fra 27.</p>
 <h6 id="art-27-enedommeres-kompetanse">Art 27. Enedommeres kompetanse</h6>
 <ol>
 <li>
@@ -1141,7 +2048,7 @@ f. rette eventuelle anmodninger i henhold til artikkel 26, avsnitt 2.</p>
 <p>Dersom enedommeren beslutter ikke å avvise en individklage eller stryke den fra sakslisten, skal vedkommende videresende den til en komité eller et kammer til videre behandling.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), tidligere art 27 endret artikkelnummer til 26.</em></p>
+<p class="note">Tilføyd ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), tidligere art 27 endret artikkelnummer til 26.</p>
 <h6 id="art-28-komiteers-kompetanse">Art 28. Komiteers kompetanse</h6>
 <ol>
 <li>Ved individklager innbrakt i henhold til artikkel 34 kan en komité ved enstemmig vedtak</li>
@@ -1156,7 +2063,7 @@ b. beslutte at klagen kan prøves og samtidig avsi dom om realitetsspørsmålene
 <p>Dersom den valgte dommer for den høye Kontraherende Part saken angår, ikke er medlem av komiteen, kan komiteen på et hvilket som helst stadium i saksbehandlingen be vedkommende om å ta en av komitémedlemmenes plass, idet det tas hensyn til alle relevante faktorer, herunder om vedkommende part har hatt innsigelser mot å anvende fremgangsmåten i avsnitt 1.b.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-29-avgjrelse-i-kamre-om-hvorvidt-saker-kan-prves-og-om-realitetssprsmalene-i-sakene">Art 29. Avgjørelse i kamre om hvorvidt saker kan prøves, og om realitetsspørsmålene i sakene</h6>
 <ol>
 <li>
@@ -1166,16 +2073,16 @@ b. beslutte at klagen kan prøves og samtidig avsi dom om realitetsspørsmålene
 <p>Et kammer skal avgjøre om statsklager fremsatt i henhold til artikkel 33 kan prøves og realitetsspørsmålene i saken. Vedtak om hvorvidt saker kan prøves, skal fattes separat med mindre Domstolen unntaksvis bestemmer noe annet.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-30-avstaelse-av-jurisdiksjon-til-storkammeret">Art 30. Avståelse av jurisdiksjon til storkammeret</h6>
 <p>Når en sak som verserer for et kammer reiser et alvorlig spørsmål angående tolkningen av konvensjonen og dens protokoller, eller når avgjørelsen av et spørsmål i kammeret kan få et resultat som er uforenlig med en tidligere dom avsagt av Domstolen, kan kammeret på et hvilket som helst tidspunkt før den har avsagt sin dom avstå jurisdiksjon til fordel for storkammeret.</p>
-<p><em>Endret ved protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</em></p>
+<p class="note">Endret ved protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ).</p>
 <h6 id="art-31-storkammerets-fullmakter">Art 31. Storkammerets fullmakter</h6>
 <p>Storkammeret skal</p>
 <p>a. avgjøre klager fremsatt i henhold til enten artikkel 33 eller artikkel 34 når et kammer har avstått jurisdiksjon i henhold til artikkel 30, eller når saken er forelagt for storkammeret i henholdt til artikkel 43;
 b. avgjøre saker som Ministerkomiteen har forelagt for Domstolen i samsvar med artikkel 46, avsnitt 4; og
 c. vurdere begjæringer om rådgivende uttalelser fremsatt i henhold til artikkel 47.</p>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-32-domstolens-jurisdiksjon">Art 32. Domstolens jurisdiksjon</h6>
 <ol>
 <li>
@@ -1185,7 +2092,7 @@ c. vurdere begjæringer om rådgivende uttalelser fremsatt i henhold til artikke
 <p>I tilfelle tvist om hvorvidt Domstolen har jurisdiksjon, skal Domstolen avgjøre spørsmålet.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-33-statsklager">Art 33. Statsklager</h6>
 <p>Enhver høy Kontraherende Part kan bringe inn for Domstolen ethvert påstått brudd av en annen høy Kontraherende Part på bestemmelsene i konvensjonen og dens protokoller.</p>
 <h6 id="art-34-individklager">Art 34. Individklager</h6>
@@ -1209,8 +2116,8 @@ b. klageren ikke har lidd noen ulempe av betydning, med mindre respekt for menne
 <ol>
 <li>Domstolen skal avvise enhver klage som den ut fra denne artikkelen finner ikke å kunne prøve. Den kan gjøre dette på et hvilket som helst stadium i saksbehandlingen.</li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 feb 2022 iflg. res. 18 juni 2021 nr. 1966 ).
-1 Etter protokoll 15 til EMK artikkel 8(3) får endringen i klagefristen fra seks til fire måneder ikke anvendelse på klager der siste avgjørelse etter EMK artikkel 35(1) ble truffet før den dag protokollens artikkel 4 trådte i kraft, det vil si før 1. februar 2022.</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 aug 2021 iflg. res. 18 juni 2021 nr. 1966 ), protokoll nr. 15 til EMK ( lov 9 mai 2014 nr. 14 , ikr. 1 feb 2022 iflg. res. 18 juni 2021 nr. 1966 ).
+1 Etter protokoll 15 til EMK artikkel 8(3) får endringen i klagefristen fra seks til fire måneder ikke anvendelse på klager der siste avgjørelse etter EMK artikkel 35(1) ble truffet før den dag protokollens artikkel 4 trådte i kraft, det vil si før 1. februar 2022.</p>
 <h6 id="art-36-tredjepersoners-adgang-til-a-opptre-i-saken">Art 36. Tredjepersoners adgang til å opptre i saken</h6>
 <ol>
 <li>
@@ -1223,7 +2130,7 @@ b. klageren ikke har lidd noen ulempe av betydning, med mindre respekt for menne
 <p>alle saker som er til behandling i et kammer eller i storkammeret, kan Europarådets kommissær for menneskerettigheter legge frem skriftlige kommentarer og ta del i rettsmøter.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-37-stryking-av-klager">Art 37. Stryking av klager</h6>
 <ol>
 <li>Domstolen kan når som helst i saksbehandlingen vedta å stryke en klage fra sakslisten når det ut fra omstendighetene må sluttes at</li>
@@ -1237,7 +2144,7 @@ c. Domstolen av andre grunner som den har fastslått, ikke lenger kan forsvare e
 </ol>
 <h6 id="art-38-behandling-av-saken">Art 38. Behandling av saken</h6>
 <p>Domstolen skalbehandle saken sammen med representantene for partene, og om nødvendig sette i verk en granskning, som de berørte høye Kontraherende Parter skal medvirke til ved å stille alle nødvendige hjelpemidler til disposisjon.</p>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-39-forlik">Art 39. Forlik</h6>
 <ol>
 <li>
@@ -1253,7 +2160,7 @@ c. Domstolen av andre grunner som den har fastslått, ikke lenger kan forsvare e
 <p>Dette vedtak skal overleveres Ministerkomiteen, som skal ha tilsyn med gjennomføringen av forliksvilkårene fastsatt i vedtaket.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-40-apne-rettsmter-og-dokumentinnsyn">Art 40. Åpne rettsmøter og dokumentinnsyn</h6>
 <ol>
 <li>
@@ -1321,7 +2228,7 @@ c. når panelet i storkammeret avviser kravet om oversendelse etter artikkel 43.
 <p>Dersom Domstolen finner at det har funnet sted et brudd på avsnitt 1, skal den oversende saken til Ministerkomiteen, som skal vurdere hvilke tiltak som skal treffes. Dersom Domstolen finner at det ikke har funnet sted et brudd på avsnitt 1, skal den oversende saken til Ministerkomiteen, som skal avslutte behandlingen av saken.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h6 id="art-47-radgivende-uttalelser">Art 47. Rådgivende uttalelser</h6>
 <ol>
 <li>
@@ -1419,7 +2326,7 @@ c. når panelet i storkammeret avviser kravet om oversendelse etter artikkel 43.
 </li>
 </ol>
 <p>Utferdiget i Roma den 4. november 1950 i ett eksemplar i engelsk og fransk tekst, som begge har samme gyldighet og som skal deponeres i Europarådets arkiv. Generalsekretæren skal oversende bekreftede kopier til hver av signatarstatene.</p>
-<p><em>Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</em></p>
+<p class="note">Endret ved protokoll nr. 14 til EMK ( lov 10 juni 2005 nr. 49 , ikr. 18 juni 2010 iflg. res. 18 juni 2010 nr. 846 ).</p>
 <h3 id="protokoll-til-konvensjonen-om-beskyttelse-av-menneskerettighetene-og-de-grunnleggende-friheter-av-4-november-1950">Protokoll til Konvensjonen om beskyttelse av menneskerettighetene og de grunnleggende friheter av 4. november 1950</h3>
 <p>Paris 20. mars 1952</p>
 <p>I kraft 18. mai 1954</p>
@@ -4985,7 +5892,7 @@ b. folkeretten som gjelder for vedkommende part.</p>
 <p>Med godkjenning fra Hovedforsamlingen skal medlemmene av komiteen opprettet i henhold til denne konvensjon, motta godtgjørelse fra De forente nasjoners midler, på de vilkår og betingelser Hovedforsamlingen beslutter.</p>
 </li>
 </ol>
-<p><em>Endret ved Generalforsamlingens resolusjon 50/155 av 21 des 1995 (ikr. 18 nov 2002).</em></p>
+<p class="note">Endret ved Generalforsamlingens resolusjon 50/155 av 21 des 1995 (ikr. 18 nov 2002).</p>
 <h6 id="art-44_3">Art 44</h6>
 <ol>
 <li>Partene forplikter seg til å oversende til komiteen gjennom De forente nasjoners generalsekretær rapporter over de tiltak som de har vedtatt og som iverksetter rettighetene anerkjent i konvensjonen, og om den fremgang som er gjort når det gjelder å nyte godt av disse rettigheter</li>
@@ -7500,6 +8407,8 @@ b. skal komiteen, når den utøver sitt mandat, rådføre seg etter behov med an
 <p>Mearriduvvon Ovttastuvvon našuvnnain skábmamánu 20.b. 1989. Dohkkehuvvon Norgga bealis ođđajagimánu 8.b. 1991. Divoduvvon jorgaleapmi borgemánu 2006 oktan lassiprotokollaiguin. (Vedtatt av De forente nasjoner 20. november 1989. Ratifisert av Norge 8. januar 1991. Korrigert oversettelse august 2006 med tilleggsprotokoller.)</p>
 <p>Se her for å lese konvensjonen på nordsamisk: pdf-lenke .</p>
 <p>1 Oversettelsen ble hentet fra regjeringen.no og tilføyd som vedlegg 12. mars 2025 av Lovdata.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

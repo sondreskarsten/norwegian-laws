@@ -19,80 +19,195 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-07-01-1019.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om redningsredskaper på skip" href="../feeds/forskrift-2014-07-01-1019.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om redningsredskaper på skip</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-07-01-1019</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-09-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-16-2652</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-07-01-1019" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-krav-til-redningsredskaper">§ 2. Krav til redningsredskaper</a></li>
+<li class="lvl3"><a href="#3-hovedalarmsystem">§ 3. Hovedalarmsystem</a></li>
+<li class="lvl3"><a href="#4-personvarslingsanlegg">§ 4. Personvarslingsanlegg</a></li>
+<li class="lvl3"><a href="#5-redningsredskaper-pa-skip-og-apne-bater-sertifisert-for-12-eller-frre-passasjerer">§ 5. Redningsredskaper på skip og åpne båter sertifisert for 12 eller færre passasjerer</a></li>
+<li class="lvl3"><a href="#5a-opphevet">§ 5a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#6-redningsredskaper-pa-lasteskip-med-bruttotonnasje-under-500-og-bemannede-lektere">§ 6. Redningsredskaper på lasteskip med bruttotonnasje under 500 og bemannede lektere</a></li>
+<li class="lvl3"><a href="#7-redningsredskaper-pa-passasjerskip-i-innenriksfart">§ 7. Redningsredskaper på passasjerskip i innenriksfart</a></li>
+<li class="lvl3"><a href="#8-redningsfarkoster">§ 8. Redningsfarkoster</a></li>
+<li class="lvl3"><a href="#9-mob-bat">§ 9. MOB-båt</a></li>
+<li class="lvl3"><a href="#9a-opphevet">§ 9a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#10-evakueringssystemer-pa-passasjerskip-i-innenriksfart">§ 10. Evakueringssystemer på passasjerskip i innenriksfart</a></li>
+<li class="lvl3"><a href="#10a-unntak-fra-krav-om-landings-og-evakueringsomrader-for-helikopter">§ 10a. Unntak fra krav om landings- og evakueringsområder for helikopter</a></li>
+<li class="lvl3"><a href="#11-livbyer">§ 11. Livbøyer</a></li>
+<li class="lvl3"><a href="#12-redningsdrakter-og-redningsvester">§ 12. Redningsdrakter og redningsvester</a></li>
+<li class="lvl3"><a href="#13-utskifting-av-redningsredskaper">§ 13. Utskifting av redningsredskaper</a></li>
+<li class="lvl3"><a href="#14-dispensasjon">§ 14. Dispensasjon</a></li>
+<li class="lvl3"><a href="#15-dokumentasjon">§ 15. Dokumentasjon</a></li>
+<li class="lvl3"><a href="#16-ikrafttredelse">§ 16. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#solas-74">SOLAS 74</a></li>
+<li class="lvl3"><a href="#kapittel-iiiredningsredskaper-og-arrangementer">KAPITTEL IIIREDNINGSREDSKAPER OG -ARRANGEMENTER</a></li>
+<li class="lvl4"><a href="#del-agenerelle-bestemmelser">Del AGenerelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-1-anvendelse">Regel 1 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-2-unntak">Regel 2 Unntak</a></li>
+<li class="lvl5"><a href="#regel-3-definisjoner">Regel 3 Definisjoner</a></li>
+<li class="lvl5"><a href="#regel-4-vurdering-prving-og-godkjenning-av-redningsredskaper-og-arrangementer">Regel 4 Vurdering, prøving og godkjenning av redningsredskaper og -arrangementer</a></li>
+<li class="lvl5"><a href="#regel-5-produksjonsprver">Regel 5 Produksjonsprøver</a></li>
+<li class="lvl4"><a href="#del-bkrav-til-skip-og-redningsredskaper">Del BKrav til skip og redningsredskaper</a></li>
+<li class="lvl5"><a href="#avsnitt-i-passasjerskip-og-lasteskip">Avsnitt I – Passasjerskip og lasteskip</a></li>
+<li class="lvl5"><a href="#avsnitt-ii-passasjerskiptilleggskrav">Avsnitt II – Passasjerskip(Tilleggskrav)</a></li>
+<li class="lvl5"><a href="#avsnitt-iii-lasteskiptilleggskrav">Avsnitt III – Lasteskip(Tilleggskrav)</a></li>
+<li class="lvl5"><a href="#avsnitt-iv-krav-til-redningsredskaper-og-arrangementer">Avsnitt IV – Krav til redningsredskaper og -arrangementer</a></li>
+<li class="lvl5"><a href="#avsnitt-v-ulike-bestemmelser">Avsnitt V – Ulike bestemmelser</a></li>
+<li class="lvl4"><a href="#del-calternative-utforminger-og-arrangementer">Del CAlternative utforminger og arrangementer</a></li>
+<li class="lvl5"><a href="#regel-38-alternative-utforminger-og-arrangementer">Regel 38 Alternative utforminger og arrangementer</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-16-2652.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-01-1019.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om redningsredskaper på skip</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-07-01-1019.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-07-01-1019 <code>forskrift/2014-07-01-1019</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.09.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-16-2652 <code>forskrift/2025-12-16-2652</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-07-01-1019" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-krav-til-redningsredskaper">§ 2. Krav til redningsredskaper</a></li>
+<li class="lvl3"><a href="#3-hovedalarmsystem">§ 3. Hovedalarmsystem</a></li>
+<li class="lvl3"><a href="#4-personvarslingsanlegg">§ 4. Personvarslingsanlegg</a></li>
+<li class="lvl3"><a href="#5-redningsredskaper-pa-skip-og-apne-bater-sertifisert-for-12-eller-frre-passasjerer">§ 5. Redningsredskaper på skip og åpne båter sertifisert for 12 eller færre passasjerer</a></li>
+<li class="lvl3"><a href="#5a-opphevet">§ 5a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#6-redningsredskaper-pa-lasteskip-med-bruttotonnasje-under-500-og-bemannede-lektere">§ 6. Redningsredskaper på lasteskip med bruttotonnasje under 500 og bemannede lektere</a></li>
+<li class="lvl3"><a href="#7-redningsredskaper-pa-passasjerskip-i-innenriksfart">§ 7. Redningsredskaper på passasjerskip i innenriksfart</a></li>
+<li class="lvl3"><a href="#8-redningsfarkoster">§ 8. Redningsfarkoster</a></li>
+<li class="lvl3"><a href="#9-mob-bat">§ 9. MOB-båt</a></li>
+<li class="lvl3"><a href="#9a-opphevet">§ 9a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#10-evakueringssystemer-pa-passasjerskip-i-innenriksfart">§ 10. Evakueringssystemer på passasjerskip i innenriksfart</a></li>
+<li class="lvl3"><a href="#10a-unntak-fra-krav-om-landings-og-evakueringsomrader-for-helikopter">§ 10a. Unntak fra krav om landings- og evakueringsområder for helikopter</a></li>
+<li class="lvl3"><a href="#11-livbyer">§ 11. Livbøyer</a></li>
+<li class="lvl3"><a href="#12-redningsdrakter-og-redningsvester">§ 12. Redningsdrakter og redningsvester</a></li>
+<li class="lvl3"><a href="#13-utskifting-av-redningsredskaper">§ 13. Utskifting av redningsredskaper</a></li>
+<li class="lvl3"><a href="#14-dispensasjon">§ 14. Dispensasjon</a></li>
+<li class="lvl3"><a href="#15-dokumentasjon">§ 15. Dokumentasjon</a></li>
+<li class="lvl3"><a href="#16-ikrafttredelse">§ 16. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#solas-74">SOLAS 74</a></li>
+<li class="lvl3"><a href="#kapittel-iiiredningsredskaper-og-arrangementer">KAPITTEL IIIREDNINGSREDSKAPER OG -ARRANGEMENTER</a></li>
+<li class="lvl4"><a href="#del-agenerelle-bestemmelser">Del AGenerelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-1-anvendelse">Regel 1 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-2-unntak">Regel 2 Unntak</a></li>
+<li class="lvl5"><a href="#regel-3-definisjoner">Regel 3 Definisjoner</a></li>
+<li class="lvl5"><a href="#regel-4-vurdering-prving-og-godkjenning-av-redningsredskaper-og-arrangementer">Regel 4 Vurdering, prøving og godkjenning av redningsredskaper og -arrangementer</a></li>
+<li class="lvl5"><a href="#regel-5-produksjonsprver">Regel 5 Produksjonsprøver</a></li>
+<li class="lvl4"><a href="#del-bkrav-til-skip-og-redningsredskaper">Del BKrav til skip og redningsredskaper</a></li>
+<li class="lvl5"><a href="#avsnitt-i-passasjerskip-og-lasteskip">Avsnitt I – Passasjerskip og lasteskip</a></li>
+<li class="lvl5"><a href="#avsnitt-ii-passasjerskiptilleggskrav">Avsnitt II – Passasjerskip(Tilleggskrav)</a></li>
+<li class="lvl5"><a href="#avsnitt-iii-lasteskiptilleggskrav">Avsnitt III – Lasteskip(Tilleggskrav)</a></li>
+<li class="lvl5"><a href="#avsnitt-iv-krav-til-redningsredskaper-og-arrangementer">Avsnitt IV – Krav til redningsredskaper og -arrangementer</a></li>
+<li class="lvl5"><a href="#avsnitt-v-ulike-bestemmelser">Avsnitt V – Ulike bestemmelser</a></li>
+<li class="lvl4"><a href="#del-calternative-utforminger-og-arrangementer">Del CAlternative utforminger og arrangementer</a></li>
+<li class="lvl5"><a href="#regel-38-alternative-utforminger-og-arrangementer">Regel 38 Alternative utforminger og arrangementer</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-01-1019.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-07-01-1019.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-01-1019.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-07-01-1019.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-07-01-1019.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-07-01-1019.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-07-01-1019.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-07-01-1019.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-07-01-1019.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-redningsredskaper-pa-skip">Forskrift om redningsredskaper på skip</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Forskriften gjelder for norske</p>
 <p>a. lasteskip med lengde (L) 24 meter eller mer eller med bruttotonnasje 500 eller mer
 b. skip med passasjersertifikat
 c. skip med sikkerhetssertifikat for passasjerskip i utenriksfart
 d. lektere som på grunn av sin operasjon har personell om bord utover operasjoner knyttet til fortøyning eller klargjøring til slep.</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="2-krav-til-redningsredskaper">§ 2. Krav til redningsredskaper</h3>
 <p>Den internasjonale konvensjonen om sikkerhet for menneskeliv til sjøs, 1974 (SOLAS) konsolidert utgave 2020 kapittel III, som endret ved MSC.482(103) og MSC.496(105) gjelder som forskrift.</p>
 <p>Reglene etter første ledd gjelder for skip og lekter uavhengig av fartsområde eller bruttotonnasje og med de tillegg og innskrenkinger som følger av forskriften, likevel slik at SOLAS regel III/30.3 ikke gjelder for skip i innenriksfart.</p>
-<p><em>Endret ved forskrifter 5 sep 2014 nr. 1158 (i kraft 15 sep 2014), 16 des 2014 nr. 1768 (i kraft 1 jan 2015), 18 des 2019 nr. 1988 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 5 sep 2014 nr. 1158 (i kraft 15 sep 2014), 16 des 2014 nr. 1768 (i kraft 1 jan 2015), 18 des 2019 nr. 1988 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</p>
 <h3 id="3-hovedalarmsystem">§ 3. Hovedalarmsystem</h3>
 <p>Lasteskip med bruttotonnasje under 200 skal kunne gi alarmsignal for å kalle alle om bord til mønstringsstasjoner og for å sette i gang tiltak som omfattes av alarminstruksen. Alarmsignalet kan gis med skipets fløyte, skipets sirene eller annen tilsvarende lydalarm.</p>
 <p>Lasteskip med bruttotonnasje 200 eller mer og alle passasjerskip skal være utstyrt med et hovedalarmsystem som skal oppfylle kravene i SOLAS regel III/6.4.</p>
 <p>Passasjerskip med lengde under 24 meter i innenriksfart unntas kravet i første ledd når alarmsignalet kan gis med skipets fløyte eller sirene.</p>
-<p><em>Endret ved forskrifter 16 des 2014 nr. 1768 (i kraft 1 jan 2015), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2014 nr. 1768 (i kraft 1 jan 2015), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="4-personvarslingsanlegg">§ 4. Personvarslingsanlegg</h3>
 <p>Alle passasjerskip skal ha et personvarslingsanlegg som oppfyller kravene i SOLAS regel III/6.5.</p>
 <p>For passasjerskip i innenriksfart sertifisert for 36 eller færre passasjerer og passasjerskip med fartsområde 1 og bruttotonnasje under 300 som opererer i tidsrommet 1. mai til 30. september, kan det gjøres unntak fra kravet om personvarslingsanlegg hvis besetningen og passasjerene kan varsles direkte fra skipets bro eller styreposisjon.</p>
@@ -104,15 +219,15 @@ c. redningsvester, termiske redningsvester eller termiske drakter i kombinasjon 
 d. en livbøye med lys og flytende redningsline
 e. en innretning som gjør det mulig å plukke opp en hjelpeløs person fra vannet</p>
 <p>Åpne båter med passasjersertifikat for 12 eller færre passasjerer som går i fart på innsjøer og elver skal føre redningsredskaper nevnt i første ledd bokstav c, d og e.</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 27 mars 2023 nr. 459 , 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 27 mars 2023 nr. 459 , 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</p>
 <h3 id="5a-opphevet">§ 5a. (Opphevet)</h3>
-<p><em>Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), endret ved forskrifter 18 des 2023 nr. 2173 (i kraft 1 jan 2024), 26 juni 2025 nr. 1372 , opphevet ved forskrift 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), endret ved forskrifter 18 des 2023 nr. 2173 (i kraft 1 jan 2024), 26 juni 2025 nr. 1372 , opphevet ved forskrift 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="6-redningsredskaper-pa-lasteskip-med-bruttotonnasje-under-500-og-bemannede-lektere">§ 6. Redningsredskaper på lasteskip med bruttotonnasje under 500 og bemannede lektere</h3>
 <p>Lasteskip med bruttotonnasje under 500 og lektere skal i stedet for å oppfylle kravene til antall redningsredskaper i SOLAS kapittel III minst ha om bord følgende antall redningsredskaper: Utstyr Bruttotonnasje og lengdeparametre Lasteskip i fartsområde 1 og 2 Lasteskip i fartsområde 3 til liten kystfart Lasteskip i utenriksfart Lektere Redningsfarkoster 2 x plass til det totale antallet personer om bord 2 x plass til det totale antallet personer om bord 1 x plass til det totale antallet personer om bord, jf. § 8 Redningsdrakter 1 x det totale antallet personer om bord Redningsvester 1,5 x det totale antallet personer om bord Redningsvester for barn Alle barn om bord (jf. § 12 andre ledd ) Livbøyer skip &lt; 300BT 300BT ≤ skip &lt; 500BT 3 5 MOB-båt Skip med lengde (L) 30 meter eller mer 1 Se § 9 Linekastende apparat skip &lt; 100BT Fire prosjektiler med fire liner, jf. SOLAS III/18 100BT ≤ skip &lt; 500BT Fire prosjektiler med fire liner, jf. SOLAS III/18 Fallskjermlys (nødraketter) 3 6 Håndbluss 3 6</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 18 des 2023 nr. 2173 (i kraft 1 jan 2024), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 18 des 2023 nr. 2173 (i kraft 1 jan 2024), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="7-redningsredskaper-pa-passasjerskip-i-innenriksfart">§ 7. Redningsredskaper på passasjerskip i innenriksfart</h3>
 <p>Passasjerskip i innenriksfart skal i stedet for å oppfylle kravene til antall redningsredskaper i SOLAS kapittel III, minst ha om bord følgende antall redningsredskaper: Utstyr Meter Passasjerskip i fartsområde 2 og mindre Passasjerskip i fartsområde 3, 4 og liten kystfart Antall personer om bord (N) skip &lt; 250 250 ≤ skip skip &lt; 250 250 ≤ skip Redningsfarkoster 1,1 x N MOB-båt: skip med lengde (L) ≥ 24 1 (MES) Marine evakueringssystem Jf. § 10 Redningsdrakter eller beskyttelsesdrakt Jf. § 12 Termisk redningsvest eller termisk drakt kombinert med redningsvest 1,05 N Termisk redningsvest eller termisk drakt kombinert med redningsvest for barn 0,1 x ombordværende passasjerer eller det større antallet redningsvester som kreves for det faktiske antallet barn jf. § 12 andre ledd Termisk redningsvest eller termisk drakt kombinert med redningsvest for spedbarn 0,025 x ombordværende passasjerer jf. § 12 andre ledd Livbøyer: skip med største lengde: ≥ 15 4 8 4 8 &lt; 15 2 Linekastende apparat – gjelder for skip med fartsområde 4 og liten kystfart. – Fire prosjektiler med fire liner, jf. SOLAS III/18 Fallskjermlys (nødraketter) 3 12</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</p>
 <h3 id="8-redningsfarkoster">§ 8. Redningsfarkoster</h3>
 <p>Redningsfarkostene om bord skal ha en samlet kapasitet tilstrekkelig for det antall personer skipet er sertifisert til å føre, selv om en redningsfarkost skulle gå tapt eller bli ubrukelig. Ved beregning av kapasiteten skal det tas hensyn til om svikt eller feil i felleskomponenter kan føre til at en redningsfarkost går tapt eller blir ubrukelig. Er skipet utstyrt med et evakueringssystem etter § 10 , skal den ekstra redningsfarkosten kunne tilknyttes dette.</p>
 <p>Redningsflåter skal kunne fortøyes til innskipningsstasjoner på en forsvarlig måte.</p>
@@ -121,7 +236,7 @@ e. en innretning som gjør det mulig å plukke opp en hjelpeløs person fra vann
 <p>Lasteskip, med unntak av tankskip, kan i fartsområde 2 eller mindre føre én redningsflåte som kan settes ut på begge sider av skipet.</p>
 <p>Tankskip skal enten føre en overbygd livbåt på hver side av skipet, eller en fritt-fall livbåt plassert akterut, med tilstrekkelig kapasitet til å oppta minst det totale antallet personer om bord.</p>
 <p>Lektere i fartsområde 3 eller større, skal utstyres med minst en oppblåsbar redningsflåte med tilstrekkelig kapasitet til å ta opp alle om bord. Lektere i fartsområde 1 og 2 skal utstyres med en CE-merket motordrevet lettbåt som minst tilfredsstiller konstruksjonskategori C, eller en redningsflåte som kan oppta minst det totale antallet personer om bord. For lektere som fører brennbar flytende last, fastsetter Sjøfartsdirektoratet krav i hvert enkelt tilfelle, avhengig av lekterens bemanning, fartsområde, konstruksjon og operasjonelle forhold.</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="9-mob-bat">§ 9. MOB-båt</h3>
 <p>Med MOB-båt menes her en båt som er konstruert for å redde personer i nød og for å assistere redningsfarkoster.</p>
 <p>Passasjerskip med fartsområde 1 eller mindre kan ha MOB-båt på slep når skipet har arrangement for ombordstigning i MOB-båt.</p>
@@ -133,25 +248,25 @@ b. ha arrangement som gjør det mulig å kunne observere fra broen ved styreposi
 c. ha manøvreringsegenskaper til å gå nær opp til og ta om bord personer på en sikker måte fra sjøen under alle forhold og
 d. ha en løfteinnretning som plasseres lett tilgjengelig, er klar for øyeblikkelig bruk og er dimensjonert for en statisk belastning på minimum 200 kg hvis fribordet er over 1 meter.</p>
 <p>Sjøfartsdirektoratet kan unnta et passasjerskip med lengde (L) mindre enn 30 meter med fartsområde 2 eller mindre fra kravet om MOB-båt når kravene etter femte ledd er oppfylt.</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 26 juni 2025 nr. 1372 .</p>
 <h3 id="9a-opphevet">§ 9a. (Opphevet)</h3>
-<p><em>Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), endret ved forskrift 26 juni 2025 nr. 1372 , opphevet ved forskrift 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), endret ved forskrift 26 juni 2025 nr. 1372 , opphevet ved forskrift 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="10-evakueringssystemer-pa-passasjerskip-i-innenriksfart">§ 10. Evakueringssystemer på passasjerskip i innenriksfart</h3>
 <p>Passasjerskip i innenriksfart skal i stedet for kravene i SOLAS regel III/16.1 være utstyrt med et marint evakueringssystem (MES), hvis skipet ikke har livbåter eller redningsflåter som settes ut med davit og som etter godkjente stabilitetsberegninger har en avstand fra vannlinjen til innskipningsdekket på 1,5 meter eller mer i en hvilken som helst intakt eller skadet tilstand. På passasjerskip uten krav om stabilitetsberegninger måles avstanden fra vannlinjen i lettskipstilstand til innskipningsdekket.</p>
 <p>Det skal være installert MES på begge sider av passasjerskipet. Systemet skal være operasjonelt selv om skipet krenger med inntil 10 grader til hvilken som helst side. Skipet kan alternativt ha minst en innskipningsstasjon med en kapasitet på minst 100 prosent av passasjerantallet med tilhørende arrangement på hver side av skipet.</p>
 <h3 id="10a-unntak-fra-krav-om-landings-og-evakueringsomrader-for-helikopter">§ 10a. Unntak fra krav om landings- og evakueringsområder for helikopter</h3>
 <p>Ro-ro passasjerskip sertifisert for fartsområde 2 og mindre, unntas kravet i SOLAS III/28.</p>
-<p><em>Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016).</p>
 <h3 id="11-livbyer">§ 11. Livbøyer</h3>
 <p>På lasteskip med bruttotonnasje under 300, som skal ha mer enn en livbøye, skal det være minst en livbøye på hver side av skipet. En av livbøyene skal ha redningsline på minst 30 meter og en av de andre livbøyene skal være utstyrt med selvtennende røyksignal og selvtennende lys. Øvrige livbøyer skal være utstyrt med selvtennende lys, men uten line.</p>
 <p>På passasjerskip med største lengde under 15 meter skal det være en livbøye på hver side av skipet. Den ene livbøyen skal være utstyrt med flytende redningsline på minst 30 meter, og den andre skal være med selvtennende lys og uten redningsline.</p>
-<p><em>Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 14 okt 2016 nr. 1211 (i kraft 17 okt 2016), 16 des 2025 nr. 2652 (i kraft 1 jan 2026).</p>
 <h3 id="12-redningsdrakter-og-redningsvester">§ 12. Redningsdrakter og redningsvester</h3>
 <p>Redningsvester for barn og spedbarn skal oppbevares atskilt fra redningsvester for voksne. Med barn menes personer som er 1 år eller eldre og som veier under 35 kg. Med spedbarn menes personer som er under 1 år og som veier under 15 kg.</p>
 <p>Passasjerskip som seiler i fartsområder nord for 30° N og sør for 30° S skal ha redningsvester med termisk isolering, eller termiske drakter i kombinasjon med redningsvest.</p>
 <p>Alle lasteskip uansett fartsområde som fører last i bulk og alle lasteskip som seiler i fartsområder nord for 30° N og sør for 30° S skal i tillegg til å oppfylle kravene i SOLAS regel III//32.3, ha redningsdrakter med termisk isolering til alle om bord.</p>
 <p>Alle passasjerskip skal ha redningsdrakt eller beskyttelsesdrakt til alle besetningsmedlemmer som har oppgaver knyttet til redningsfarkost eller marine evakueringssystemer. Drakten skal være av en type som har avtagbare hansker eller hansker som ikke er til hinder for å utføre nødvendig arbeide og betjene nødvendig utstyr i en nødssituasjon.</p>
-<p><em>Endret ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016).</em></p>
+<p class="note">Endret ved forskrift 14 okt 2016 nr. 1211 (i kraft 17 okt 2016).</p>
 <h3 id="13-utskifting-av-redningsredskaper">§ 13. Utskifting av redningsredskaper</h3>
 <p>Ved vesentlig ombygging eller reparasjon som får betydning for redningsredskaper, kan Sjøfartsdirektoratet bestemme at nytt utstyr skal installeres om bord. Det samme gjelder ved endret bruk, operasjonsmønster eller bemanning og ved endring av fartsområde.</p>
 <p>Sjøfartsdirektoratet kan kreve at redningsredskaper skiftes når direktoratet etter en demonstrasjon finner at disse ikke fungerer etter sin hensikt eller at de ut fra skipets operasjon og bemanning kan sette liv og helse i fare.</p>
@@ -504,6 +619,8 @@ b. Det godtgjøres at kompenserende tiltak vil opprettholde samme sikkerhetsniv�
 <p>5 Utveksling av opplysninger Administrasjonen skal oversende organisasjonen relevante opplysninger om alternative utforminger og arrangementer som administrasjonen har godkjent, for distribusjon til alle kontraherende regjeringer.</p>
 <p>6 Ny evaluering som følge av endrede vilkår Hvis forutsetningene og de driftsmessige begrensningene som ble fastsatt for den alternative utformingen og arrangementene, endres, skal den tekniske analysen utføres under de endrede forholdene og skal godkjennes av administrasjonen.</p>
 <p>37 Det vises til «Guidelines on alternative design and arrangements for SOLAS chapters II-1 and III» (MSC.1/Circ.1212/Rev.1). 38 Det vises til «Guidelines on alternative design and arrangements for SOLAS chapters II-1 and III» (MSC.1/Circ.1212/Rev.1)</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

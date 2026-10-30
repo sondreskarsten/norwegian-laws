@@ -19,71 +19,164 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-05-02-396.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om fremmede statsfartøyer" href="../feeds/forskrift-1997-05-02-396.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &rsaquo;
 <span>Forskrift om fremmede statsfartøyer</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1997-05-02-396</code></dd>
-<dt>Departement</dt><dd>Forsvarsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1997-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2014-10-17-1332</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1997-05-02-396" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-forskriftens-formal-og-virkeomrade">§ 1. Forskriftens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-adgang-til-og-opphold-pa-norsk-territorium">Kapittel II. Adgang til og opphold på norsk territorium</a></li>
+<li class="lvl4"><a href="#3-sknad">§ 3. Søknad</a></li>
+<li class="lvl4"><a href="#4-unntak-fra-kravet-om-diplomatisk-klarering">§ 4. Unntak fra kravet om diplomatisk klarering</a></li>
+<li class="lvl2"><a href="#kapittel-iii-fremmede-fartyer">Kapittel III. Fremmede fartøyer</a></li>
+<li class="lvl4"><a href="#5-rapporteringsplikt">§ 5. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#6-losplikt">§ 6. Losplikt</a></li>
+<li class="lvl4"><a href="#7-undervannsbater">§ 7. Undervannsbåter</a></li>
+<li class="lvl4"><a href="#8-lettbater-ol">§ 8. Lettbåter o.l.</a></li>
+<li class="lvl4"><a href="#9-farleder">§ 9. Farleder</a></li>
+<li class="lvl2"><a href="#kapittel-iv-fremmede-luftfartyer">Kapittel IV. Fremmede luftfartøyer</a></li>
+<li class="lvl4"><a href="#10-opphold-pa-norsk-territorium">§ 10. Opphold på norsk territorium</a></li>
+<li class="lvl4"><a href="#11-luftfartyer-om-bord-pa-fremmede-militre-og-sivile-statsfartyer">§ 11. Luftfartøyer om bord på fremmede militære og sivile statsfartøyer</a></li>
+<li class="lvl2"><a href="#kapittel-v-fellesbestemmelser">Kapittel V. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#12-kjennetegn">§ 12. Kjennetegn</a></li>
+<li class="lvl4"><a href="#13-radiokommunikasjon">§ 13. Radiokommunikasjon</a></li>
+<li class="lvl4"><a href="#14-velser-og-annen-militr-aktivitet">§ 14. Øvelser og annen militær aktivitet</a></li>
+<li class="lvl4"><a href="#15-forbudt-aktivitet">§ 15. Forbudt aktivitet</a></li>
+<li class="lvl4"><a href="#16-pabudt-aktivitet">§ 16. Påbudt aktivitet</a></li>
+<li class="lvl4"><a href="#17-opphr-av-tillatelse-til-anlp">§ 17. Opphør av tillatelse til anløp</a></li>
+<li class="lvl4"><a href="#18-dispensasjoner">§ 18. Dispensasjoner</a></li>
+<li class="lvl4"><a href="#19-ikrafttredelse-og-opphevelse-av-andre-bestemmelser">§ 19. Ikrafttredelse og opphevelse av andre bestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2014-10-17-1332.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-05-02-396.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om adgang til og opphold på norsk territorium under fredsforhold for fremmede militære og sivile statsfartøyer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-05-02-396.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1997-05-02-396 <code>forskrift/1997-05-02-396</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om fremmede statsfartøyer</td></tr>
+<tr><th>Departement</th><td>Forsvarsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.1997</td></tr>
+<tr><th>Sist endret</th><td>FOR-2014-10-17-1332 <code>forskrift/2014-10-17-1332</code> fra 17.10.2014</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1997-05-02-396" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-forskriftens-formal-og-virkeomrade">§ 1. Forskriftens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-adgang-til-og-opphold-pa-norsk-territorium">Kapittel II. Adgang til og opphold på norsk territorium</a></li>
+<li class="lvl4"><a href="#3-sknad">§ 3. Søknad</a></li>
+<li class="lvl4"><a href="#4-unntak-fra-kravet-om-diplomatisk-klarering">§ 4. Unntak fra kravet om diplomatisk klarering</a></li>
+<li class="lvl2"><a href="#kapittel-iii-fremmede-fartyer">Kapittel III. Fremmede fartøyer</a></li>
+<li class="lvl4"><a href="#5-rapporteringsplikt">§ 5. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#6-losplikt">§ 6. Losplikt</a></li>
+<li class="lvl4"><a href="#7-undervannsbater">§ 7. Undervannsbåter</a></li>
+<li class="lvl4"><a href="#8-lettbater-ol">§ 8. Lettbåter o.l.</a></li>
+<li class="lvl4"><a href="#9-farleder">§ 9. Farleder</a></li>
+<li class="lvl2"><a href="#kapittel-iv-fremmede-luftfartyer">Kapittel IV. Fremmede luftfartøyer</a></li>
+<li class="lvl4"><a href="#10-opphold-pa-norsk-territorium">§ 10. Opphold på norsk territorium</a></li>
+<li class="lvl4"><a href="#11-luftfartyer-om-bord-pa-fremmede-militre-og-sivile-statsfartyer">§ 11. Luftfartøyer om bord på fremmede militære og sivile statsfartøyer</a></li>
+<li class="lvl2"><a href="#kapittel-v-fellesbestemmelser">Kapittel V. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#12-kjennetegn">§ 12. Kjennetegn</a></li>
+<li class="lvl4"><a href="#13-radiokommunikasjon">§ 13. Radiokommunikasjon</a></li>
+<li class="lvl4"><a href="#14-velser-og-annen-militr-aktivitet">§ 14. Øvelser og annen militær aktivitet</a></li>
+<li class="lvl4"><a href="#15-forbudt-aktivitet">§ 15. Forbudt aktivitet</a></li>
+<li class="lvl4"><a href="#16-pabudt-aktivitet">§ 16. Påbudt aktivitet</a></li>
+<li class="lvl4"><a href="#17-opphr-av-tillatelse-til-anlp">§ 17. Opphør av tillatelse til anløp</a></li>
+<li class="lvl4"><a href="#18-dispensasjoner">§ 18. Dispensasjoner</a></li>
+<li class="lvl4"><a href="#19-ikrafttredelse-og-opphevelse-av-andre-bestemmelser">§ 19. Ikrafttredelse og opphevelse av andre bestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-05-02-396.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-05-02-396.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-05-02-396.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1997-05-02-396.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1997-05-02-396.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-05-02-396.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1997-05-02-396.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1997-05-02-396.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-05-02-396.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-adgang-til-og-opphold-pa-norsk-territorium-under-fredsforhold-for-fremmede-militre-og-sivile-statsfartyer">Forskrift om adgang til og opphold på norsk territorium under fredsforhold for fremmede militære og sivile statsfartøyer</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-forskriftens-formal-og-virkeomrade">§ 1. Forskriftens formål og virkeområde</h4>
 <p>Forskriftens formål er å gi bestemmelser om fremmede militære og sivile statsfartøyers adgang til og opphold på norsk territorium, herunder å sikre at norske myndigheter til enhver tid har oversikt over og kontroll med slike fartøyer.</p>
 <p>Forskriften gjelder i hele riket, herunder på Svalbard og Jan Mayen samt på Bouvet-øya. Den gjelder ikke Dronning Maud Land og Peter I's øy.</p>
 <p>Forsvarsdepartementet kan i krise- og krigstilfeller, eller når krise eller krig truer, helt eller delvis sette forskriften ut av kraft for ethvert fremmed militært eller sivilt statsfartøy.</p>
 <p>Disse regler skal ikke være til hinder for aktivitet i henhold til øvelser fastsatt i Forsvarssjefens øvelsesprogram eller i henhold til de rustningskontrollavtaler som Norge er part i.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>Med militære fartøyer forstås ethvert fartøy, herunder hjelpefartøy, som står under militær kommando i en fremmed stat eller i en internasjonal organisasjon.</p>
 <p>Med sivile statsfartøyer forstås ethvert fartøy, herunder hjelpefartøy, som eies eller drives av en fremmed stat og benyttes for ikke-kommersielle formål.</p>
@@ -97,7 +190,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Med norsk territorialfarvann forstås alt farvann innenfor territorialgrensen.</p>
 <p>Med norsk territorium forstås alt norsk landområde, indre farvann og sjøterritoriet, samt luftområdet over disse.</p>
 <p>Med uskyldig gjennomfart forstås navigasjon over sjøterritoriet, enten i transitt eller på vei til eller fra norsk indre farvann, i samsvar med FNs havrettskonvensjon.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h2 id="kapittel-ii-adgang-til-og-opphold-pa-norsk-territorium">Kapittel II. Adgang til og opphold på norsk territorium</h2>
 <p>Overskrift endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="3-sknad">§ 3. Søknad</h4>
@@ -107,27 +200,27 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>For fremmede fartøyer som medfører luftfartøyer om bord skal type og antall luftfartøyer oppgis.</p>
 <p>Hvis det nøyaktige tidspunkt for anløpet ikke kan oppgis samtidig med søknaden, skal dette meddeles snarest mulig.</p>
 <p>For fremmede militære fartøyer og luftfartøyer som skal delta i øvelser fastsatt i Forsvarsjefens øvelsesprogram kan klarering ansees som gitt i øvelsesordren.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="4-unntak-fra-kravet-om-diplomatisk-klarering">§ 4. Unntak fra kravet om diplomatisk klarering</h4>
 <p>Fremmede fartøyer har, uten å ha innhentet tillatelse diplomatisk vei, adgang til uskyldig gjennomfart i sjøterritoriet, og til stans eller ankring på sjøterritoriet under gjennomfarten når dette er nødvendig på grunn av force majeure eller havsnød eller for å yte assistanse til personer, skip eller luftfartøyer som er i fare eller nød.</p>
 <p>Fremmede luftfartøyer som er i nød har adgang til norsk territorium uten på forhånd å ha innhentet tillatelse diplomatisk vei.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h2 id="kapittel-iii-fremmede-fartyer">Kapittel III. Fremmede fartøyer</h2>
 <p>Overskriften endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="5-rapporteringsplikt">§ 5. Rapporteringsplikt</h4>
 <p>Fremmede fartøyer skal rapportere posisjon og planlagt seilas til norske myndigheter når de passerer territorialgrensen, og deretter hver sjette time under seilas i norsk territorialfarvann.</p>
 <p>Fremmede fartøyer som må stanse eller ankre opp under uskyldig gjennomfart på sjøterritoriet, skal uten opphold gi melding til norske myndigheter om oppholdet og om årsaken til dette. Det samme gjelder fremmede fartøyer i havsnød som må søke nødhavn i norsk indre farvann.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="6-losplikt">§ 6. Losplikt</h4>
 <p>Forsvarsdepartementet eller den departementet bemyndiger, kan av hensyn til rikets sikkerhet overfor fremmede militære og sivile statsfartøyer treffe enkeltvedtak om plikt til å bruke los ved seilas i norske indre farvann. Slikt påbud kan også gis for seilas på sjøterritoriet. Samferdselsdepartementet eller den departementet bemyndiger, kan av hensyn til trygg ferdsel overfor fremmede militære og sivile statsfartøyer fatte enkeltvedtak om plikt til å bruke los ved seilas i norske indre farvann og på sjøterritoriet.</p>
-<p><em>Endret ved forskrifter 27 juni 2008 nr. 735 , 17 okt 2014 nr. 1332 .</em></p>
+<p class="note">Endret ved forskrifter 27 juni 2008 nr. 735 , 17 okt 2014 nr. 1332 .</p>
 <h4 id="7-undervannsbater">§ 7. Undervannsbåter</h4>
 <p>Fremmede militære undervannsbåter skal i norsk territorialfarvann alltid være fullt oppdykket og vise flagg, unntatt som ledd i godkjente øvelser og trening som vist til i § 14 .</p>
 <h4 id="8-lettbater-ol">§ 8. Lettbåter o.l.</h4>
 <p>Lettbåter o.l. tilhørende fremmede militære fartøyer må ikke medbringe våpen under ferdsel i norsk territorialfarvann.</p>
 <h4 id="9-farleder">§ 9. Farleder</h4>
 <p>I norsk territorialfarvann skal fremmede fartøyer følge de til enhver tid fastsatte farleder.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h2 id="kapittel-iv-fremmede-luftfartyer">Kapittel IV. Fremmede luftfartøyer</h2>
 <p>Overskriften endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="10-opphold-pa-norsk-territorium">§ 10. Opphold på norsk territorium</h4>
@@ -136,42 +229,44 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. ikke uten å ha innhentet tillatelse på forhånd fly over eller lande i områder som av norske myndigheter i utgangspunktet er kunngjort forbudt for flyging;
 c. ikke uten på forhånd å ha innhentet tillatelse føre ammunisjon, bomber, raketter, fotoutstyr og sensorsystemer;
 d. finne seg i den kontroll som norske myndigheter måtte finne nødvendig for å sikre seg at gjeldende bestemmelser blir overholdt.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="11-luftfartyer-om-bord-pa-fremmede-militre-og-sivile-statsfartyer">§ 11. Luftfartøyer om bord på fremmede militære og sivile statsfartøyer</h4>
 <p>Hvis fremmede luftfartøyer, stasjonert om bord på fremmede fartøyer som allerede har fått tillatelse til å anløpe norsk territorium i henhold til § 3 , ønsker å fly over norsk territorium, må dette klareres med norske myndigheter på forhånd.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h2 id="kapittel-v-fellesbestemmelser">Kapittel V. Fellesbestemmelser</h2>
 <h4 id="12-kjennetegn">§ 12. Kjennetegn</h4>
 <p>Fremmede militære og sivile statsfartøyer skal til enhver tid bære synlige nasjonale kjennetegn.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="13-radiokommunikasjon">§ 13. Radiokommunikasjon</h4>
 <p>Fremmede militære og sivile statsfartøyer har på eller over norsk territorium adgang til å bruke sine radioapparater under forutsetning av at:</p>
 <p>a. de følger de regler som er fastsatt i den gjeldende internasjonale fjernmeldingskonvensjon med tilhørende radioreglementer, de til enhver tid gjeldende bestemmelser for luftfartsradiotjenesten som fastsettes av den internasjonale luftfartsorganisasjon (ICAO), samt de spesielle bestemmelser for bruk av radioapparater på norsk område, som til enhver tid gjelder;
 b. de på forhånd har søkt og mottatt tillatelse til bruk av radiostasjon. Slik søknad fremmes gjennom Fellesoperativt hovedkvarter, og skal ledsages av fartøyets navn, kallesignal, og opplysninger om hvilke frekvenser, emisjonstyper og effekter som skal benyttes.</p>
 <p>Radiostasjon i fremmede luftfartøyer som er meddelt overflygningstillatelse, kan til enhver tid nyttes på fastsatte frekvenser som ledd i sikring og gjennomføring av nødvendig trafikkprosedyre. Fremmede fartøyer som kun foretar uskyldig gjennomfart gjennom sjøterritoriet, kan benytte sine radioinstallasjoner i henhold til radioreglementet.</p>
 <p>All bruk av radioinstallasjoner må innstilles dersom dette forlanges av norske myndigheter eller Statens teleforvaltning.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="14-velser-og-annen-militr-aktivitet">§ 14. Øvelser og annen militær aktivitet</h4>
 <p>Enhver form for øvelse, trening eller annen militær aktivitet innenfor norsk territorium er forbudt, med mindre det finner sted i henhold til godkjente norske øvingsplaner eller det på forhånd er innhentet tillatelse fra norske myndigheter.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="15-forbudt-aktivitet">§ 15. Forbudt aktivitet</h4>
 <p>Uten spesiell tillatelse fra norske myndigheter må det ikke utføres andre registreringer eller målinger enn slike som er nødvendig for sikker navigering.</p>
 <p>Det er forbudt for enhver om bord på fremmede militære og sivile statsfartøyer å oppta kart eller kartskisse over rikets havner, farvann, flyplasser eller sjøflyhavner. Det er videre forbudt å oppta kart, kartskisse, fotografi, sensoropptak eller beskrivelse av norske militære anlegg og oppsetninger.</p>
 <p>Fører og besetning om bord på fremmede militære fartøyer og luftfartøyer må ikke medbringe våpen når de går i land (ved landlov eller forlater sitt fly), unntatt som ledd i seremoniell aktivitet eller som ledd i godkjente øvelser etter § 1 .</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="16-pabudt-aktivitet">§ 16. Påbudt aktivitet</h4>
 <p>Fremmede militære og sivile statsfartøyer skal benytte henholdsvis de anker-, fortøynings- eller landingsplasser som anvises av norske myndigheter. Fører og besetning om bord på fremmede militære fartøyer og luftfartøyer skal ellers rette seg etter de militære regler og bestemmelser som gis av den lokale militære kommandomyndighet.</p>
 <p>Fører og besetning på fremmede militære og sivile statsfartøyer skal følge gjeldende norsk lovgivning, herunder miljø-, sunnhets-, toll-, los-, trafikk-, havne-, utlendings- og ordensbestemmelser.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="17-opphr-av-tillatelse-til-anlp">§ 17. Opphør av tillatelse til anløp</h4>
 <p>Norske myndigheter kan ved overtredelse av bestemmelsene i denne forskrift trekke tilbake tillatelsen til å anløpe norsk territorium.</p>
 <p>Norske myndigheter kan for øvrig, uavhengig av brudd på gjeldende bestemmelser og når særlige grunner foreligger, gi pålegg om at fremmede militære og sivile statsfartøyer skal forlate norsk territorium uten forutgående varsel.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="18-dispensasjoner">§ 18. Dispensasjoner</h4>
 <p>Forsvarsdepartementet eller den departementet bemyndiger, kan gi dispensasjon fra disse bestemmelsene og kan gi bestemmelser for utfylling og gjennomføring av forskriften.</p>
-<p><em>Endret ved forskrift 27 juni 2008 nr. 735 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2008 nr. 735 .</p>
 <h4 id="19-ikrafttredelse-og-opphevelse-av-andre-bestemmelser">§ 19. Ikrafttredelse og opphevelse av andre bestemmelser</h4>
 <p>Den nye forskriften trer i kraft 1. juni 1997. Fra samme dato oppheves kgl.res. 19. januar 1951 nr. 1 om forskrifter for fremmede krigsskip og militære luftfartøyers adgang til norsk territorium under fredsforhold.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

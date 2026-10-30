@@ -19,80 +19,195 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-06-08-602.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om håndtering av farlig stoff" href="../feeds/forskrift-2009-06-08-602.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om håndtering av farlig stoff</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-06-08-602</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-06-08</dd>
-<dt>Sist endret</dt><dd>forskrift/2015-06-26-774</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-08-602" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-pliktsubjekt">§ 3. Pliktsubjekt</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#5-krav-til-aktsomhet">§ 5. Krav til aktsomhet</a></li>
+<li class="lvl4"><a href="#6-maksimal-tillatt-oppbevaring-i-visse-typer-av-objekt">§ 6. Maksimal tillatt oppbevaring i visse typer av objekt</a></li>
+<li class="lvl4"><a href="#7-kompetanse">§ 7. Kompetanse</a></li>
+<li class="lvl4"><a href="#8-utstyr-og-anlegg">§ 8. Utstyr og anlegg</a></li>
+<li class="lvl4"><a href="#9-kontroll">§ 9. Kontroll</a></li>
+<li class="lvl4"><a href="#10-drift-vedlikehold-og-opphr">§ 10. Drift, vedlikehold og opphør</a></li>
+<li class="lvl4"><a href="#11-skilting-og-merking">§ 11. Skilting og merking</a></li>
+<li class="lvl4"><a href="#12-innmelding-av-farlig-stoff">§ 12. Innmelding av farlig stoff</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon">§ 13. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-3-plikter-i-virksomhet-med-farlig-stoff">Kapittel 3. Plikter i virksomhet med farlig stoff</a></li>
+<li class="lvl4"><a href="#14-risiko-og-risikovurdering">§ 14. Risiko og risikovurdering</a></li>
+<li class="lvl4"><a href="#15-forebyggende-sikkerhetstiltak">§ 15. Forebyggende sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#15a-gassflasker-for-lpg">§ 15a. Gassflasker for LPG</a></li>
+<li class="lvl4"><a href="#15b-bunkring-av-brannfarlig-gass">§ 15b. Bunkring av brannfarlig gass</a></li>
+<li class="lvl4"><a href="#16-arealmessige-begrensninger">§ 16. Arealmessige begrensninger</a></li>
+<li class="lvl4"><a href="#17-samtykke-fra-direktoratet-for-samfunnssikkerhet-og-beredskap">§ 17. Samtykke fra Direktoratet for samfunnssikkerhet og beredskap</a></li>
+<li class="lvl4"><a href="#18-nabovirksomheter">§ 18. Nabovirksomheter</a></li>
+<li class="lvl4"><a href="#19-beredskapsplikt">§ 19. Beredskapsplikt</a></li>
+<li class="lvl4"><a href="#20-varsling-og-rapportering-av-uhell-og-ulykker">§ 20. Varsling og rapportering av uhell og ulykker</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#21-dispensasjon">§ 21. Dispensasjon</a></li>
+<li class="lvl4"><a href="#22-begrensninger-eller-forbud">§ 22. Begrensninger eller forbud</a></li>
+<li class="lvl4"><a href="#23-tilsyn">§ 23. Tilsyn</a></li>
+<li class="lvl4"><a href="#24-reaksjonsmidler">§ 24. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#25-klage">§ 25. Klage</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#27-overgangsbestemmelser">§ 27. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-1-farlig-stoff-kriterier-for-klassifisering">Vedlegg 1. Farlig stoff – kriterier for klassifisering</a></li>
+<li class="lvl2"><a href="#vedlegg-2-melding-av-farlig-stoff">Vedlegg. 2 Melding av farlig stoff</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2015-06-26-774.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-08-602.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om håndtering av brannfarlig, reaksjonsfarlig og trykksatt stoff samt utstyr og anlegg som benyttes ved håndteringen</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-08-602.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-06-08-602 <code>forskrift/2009-06-08-602</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om håndtering av farlig stoff</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>08.06.2009</td></tr>
+<tr><th>Sist endret</th><td>FOR-2015-06-26-774 <code>forskrift/2015-06-26-774</code> fra 01.07.2015</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-08-602" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-pliktsubjekt">§ 3. Pliktsubjekt</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#5-krav-til-aktsomhet">§ 5. Krav til aktsomhet</a></li>
+<li class="lvl4"><a href="#6-maksimal-tillatt-oppbevaring-i-visse-typer-av-objekt">§ 6. Maksimal tillatt oppbevaring i visse typer av objekt</a></li>
+<li class="lvl4"><a href="#7-kompetanse">§ 7. Kompetanse</a></li>
+<li class="lvl4"><a href="#8-utstyr-og-anlegg">§ 8. Utstyr og anlegg</a></li>
+<li class="lvl4"><a href="#9-kontroll">§ 9. Kontroll</a></li>
+<li class="lvl4"><a href="#10-drift-vedlikehold-og-opphr">§ 10. Drift, vedlikehold og opphør</a></li>
+<li class="lvl4"><a href="#11-skilting-og-merking">§ 11. Skilting og merking</a></li>
+<li class="lvl4"><a href="#12-innmelding-av-farlig-stoff">§ 12. Innmelding av farlig stoff</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon">§ 13. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-3-plikter-i-virksomhet-med-farlig-stoff">Kapittel 3. Plikter i virksomhet med farlig stoff</a></li>
+<li class="lvl4"><a href="#14-risiko-og-risikovurdering">§ 14. Risiko og risikovurdering</a></li>
+<li class="lvl4"><a href="#15-forebyggende-sikkerhetstiltak">§ 15. Forebyggende sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#15a-gassflasker-for-lpg">§ 15a. Gassflasker for LPG</a></li>
+<li class="lvl4"><a href="#15b-bunkring-av-brannfarlig-gass">§ 15b. Bunkring av brannfarlig gass</a></li>
+<li class="lvl4"><a href="#16-arealmessige-begrensninger">§ 16. Arealmessige begrensninger</a></li>
+<li class="lvl4"><a href="#17-samtykke-fra-direktoratet-for-samfunnssikkerhet-og-beredskap">§ 17. Samtykke fra Direktoratet for samfunnssikkerhet og beredskap</a></li>
+<li class="lvl4"><a href="#18-nabovirksomheter">§ 18. Nabovirksomheter</a></li>
+<li class="lvl4"><a href="#19-beredskapsplikt">§ 19. Beredskapsplikt</a></li>
+<li class="lvl4"><a href="#20-varsling-og-rapportering-av-uhell-og-ulykker">§ 20. Varsling og rapportering av uhell og ulykker</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#21-dispensasjon">§ 21. Dispensasjon</a></li>
+<li class="lvl4"><a href="#22-begrensninger-eller-forbud">§ 22. Begrensninger eller forbud</a></li>
+<li class="lvl4"><a href="#23-tilsyn">§ 23. Tilsyn</a></li>
+<li class="lvl4"><a href="#24-reaksjonsmidler">§ 24. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#25-klage">§ 25. Klage</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#27-overgangsbestemmelser">§ 27. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-1-farlig-stoff-kriterier-for-klassifisering">Vedlegg 1. Farlig stoff – kriterier for klassifisering</a></li>
+<li class="lvl2"><a href="#vedlegg-2-melding-av-farlig-stoff">Vedlegg. 2 Melding av farlig stoff</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-08-602.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-08-602.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-08-602.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-06-08-602.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-06-08-602.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-08-602.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-06-08-602.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-06-08-602.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-08-602.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-handtering-av-brannfarlig-reaksjonsfarlig-og-trykksatt-stoff-samt-utstyr-og-anlegg-som-benyttes-ved-handteringen">Forskrift om håndtering av brannfarlig, reaksjonsfarlig og trykksatt stoff samt utstyr og anlegg som benyttes ved håndteringen</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften har som formål å verne liv, helse, miljø og materielle verdier mot uhell og ulykker med farlig stoff.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften regulerer håndtering av farlig stoff og utstyr og anlegg, herunder rørledninger med tilhørende systemer, som benyttes ved håndtering av farlig stoff. Forskriften regulerer prosjektering, konstruksjon, produksjon, omsetning, installasjon, drift, endring, reparasjon, vedlikehold og kontroll av utstyr og anlegg som benyttes ved håndtering av farlig stoff.</p>
 <p>For rørsystem som har utgangspunkt til havs gjelder forskriften fra det punkt slikt rørsystem første gang krysser marbakken til fastland eller øy, og rørsystem med utgangspunkt på fastland, også når deler av rørsystem over land senere krysser fjorder, sund m.m.</p>
 <p>Forskriften regulerer lasting, lossing og stasjonær oppbevaring av farlig stoff på skip, herunder omlasting fra skip til skip.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="3-pliktsubjekt">§ 3. Pliktsubjekt</h4>
 <p>Enhver som håndterer farlig stoff, plikter å oppfylle forskriftens krav.</p>
 <p>Enhver som eier eller bruker utstyr og anlegg som benyttes ved håndtering av farlig stoff, plikter å oppfylle forskriftens krav.</p>
 <p>Enhver som prosjekterer, konstruerer, produserer, omsetter, installerer, drifter, endrer, reparerer, vedlikeholder og kontrollerer utstyr og anlegg som benyttes ved håndtering av farlig stoff, plikter å oppfylle forskriftens krav.</p>
 <h4 id="4-definisjoner">§ 4. Definisjoner</h4>
 <p>I denne forskrift skal følgende uttrykk forstås slik: Anerkjent norm Standard, bransjenorm, veiledning mv. som er internasjonalt og/eller nasjonalt anerkjent innenfor et fagområde. Farlig stoff – Brannfarlig stoff: Fast, flytende eller gassformig stoff, stoffblanding, samt stoff som forekommer i kombinasjoner av slike tilstander, som i kraft av sitt flammepunkt, kontakt med andre stoffer, trykk, temperatur eller andre kjemiske egenskaper representerer en fare for brann. – Reaksjonsfarlig stoff: Fast, flytende, eller gassformig stoff, stoffblanding, samt stoff som forekommer i kombinasjoner av slike tilstander, som ved kontakt med vann, ved sitt trykk, temperatur eller andre kjemiske forhold, representerer en fare for farlig reaksjon, eksplosjon eller utslipp av farlig gass, damp, støv eller tåke. – Trykksatt stoff: Annet fast, flytende eller gassformig stoff eller stoffblanding enn brann- eller reaksjonsfarlig stoff, som er under trykk, og som derved kan representere en fare ved ukontrollert utslipp. Definisjonen av farlig stoff er en innsnevring i forhold til brann- og eksplosjonsvernlovens definisjon i § 4 c) da denne også omfatter eksplosjonsfarlig stoff. Nærmere kriterier for klassifisering av brannfarlig, reaksjonsfarlig og trykksatt stoff er fastsatt i vedlegg 1. Håndtering Enhver omgang med farlig stoff slik som tilvirkning, oppbevaring, behandling, omtapping, transport, lasting, lossing, handel, overføring og bruk. Risiko Uttrykk for den fare som uønskede hendelser representerer for mennesker, miljø eller materielle verdier. Risikoen uttrykkes ved sannsynligheten for og konsekvensene av de uønskede hendelsene. Virksomhet Ethvert offentlig og privat foretak uansett om foretaket er etablert med henblikk på forretningsmessig fortjeneste eller ikke.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h2 id="kapittel-2-alminnelige-bestemmelser">Kapittel 2. Alminnelige bestemmelser</h2>
 <h4 id="5-krav-til-aktsomhet">§ 5. Krav til aktsomhet</h4>
 <p>Enhver plikter å vise alminnelig aktsomhet og opptre på en slik måte at brann, eksplosjon og annen ulykke forebygges.</p>
@@ -100,12 +215,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Det skal være ryddig og ikke finnes unødvendig brennbart materiale på sted hvor farlig stoff håndteres.</p>
 <p>Brannfarlig gass kategori 1 og 2 skal ikke oppbevares i kjeller eller annet rom under terreng eller på loft.</p>
 <p>Enhver som foretar gravearbeid skal før graving påbegynnes gjøre seg kjent med om det er rørsystemer som inneholder farlige stoffer i området og ta nødvendig hensyn til disse under gravingen. Befinner det seg slike rørsystemer i området, skal eier av rørsystemet varsles før graving påbegynnes. Rørledningen skal påvises før gravingen påbegynnes.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="6-maksimal-tillatt-oppbevaring-i-visse-typer-av-objekt">§ 6. Maksimal tillatt oppbevaring i visse typer av objekt</h4>
 <p>I boenhet kan det oppbevares inntil 55 liter brannfarlig gass kategori 1 og 2 og inntil 10 liter brannfarlig væske kategori 1 og 2.</p>
 <p>I garasje, i utvendig bod, båthus eller lignende kan det for personlig bruk oppbevares inntil 90 liter brannfarlig gass kategori 1 og 2 og inntil 50 liter brannfarlig væske kategori 1 og 2.</p>
 <p>I serveringssted, i overnattingssted og i forsamlingslokale er det ikke tillatt å oppbevare brannfarlig gass kategori 1 og 2, med mindre særskilte tiltak er iverksatt.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="7-kompetanse">§ 7. Kompetanse</h4>
 <p>Enhver som prosjekterer, konstruerer, produserer, installerer, drifter, endrer, reparerer, vedlikeholder eller kontrollerer utstyr og anlegg som benyttes ved håndtering av farlig stoff skal ha nødvendig kompetanse. Tilsvarende gjelder enhver som håndterer farlig stoff utover det som er beregnet for vedkommendes personlige bruk.</p>
 <p>Kompetansen skal omfatte kunnskap om aktuelt regelverk, om de farlige stoffene som skal håndteres og om teknisk utførelse og drift av utstyr og anlegg.</p>
@@ -113,7 +228,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Kompetansen skal vedlikeholdes slik at man er oppdatert på nytt regelverk, nye metoder og utvikling på fagområdet generelt.</p>
 <p>Den som skal drifte kjelanlegg med ytelse over kriterier fastsatt av Direktoratet for samfunnssikkerhet og beredskap skal ha særskilt kompetansebevis.</p>
 <p>Virksomheten skal påse at ansatte har nødvendig kompetanse samt gi opplæring slik at alle arbeidsoppgaver kan gjennomføres på en sikker måte både ved normal drift og ved unormale situasjoner og driftsbetingelser. Opplæringen skal også omfatte rutiner og forholdsregler ved uhell og ulykker.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="8-utstyr-og-anlegg">§ 8. Utstyr og anlegg</h4>
 <p>Enhver som prosjekterer, konstruerer, produserer, installerer, endrer, reparerer, vedlikeholder eller kontrollerer utstyr og anlegg skal sørge for at dette gjøres fagmessig i samsvar med anerkjente normer for å oppnå tilstrekkelig sikkerhet ved alle påregnelige driftsforhold. Det skal tas særlig hensyn til de mekaniske belastninger, temperaturforhold og miljøpåvirkninger som kan oppstå under bruk.</p>
 <p>Enhver som omsetter utstyr og anlegg som benyttes ved håndtering av farlig stoff skal påse at dette er formålstjenlig, sikkert og i tråd med anerkjent norm, samt at skriftlig monterings-, bruks- og vedlikeholdsveiledning på norsk medfølger. Direktoratet for samfunnssikkerhet og beredskap kan bestemme at utstyr som benyttes ved håndtering av farlig stoff ikke kan omsettes uten å være godkjent av direktoratet eller den direktoratet måtte bestemme.</p>
@@ -127,23 +242,23 @@ c. gassanlegg for bruk av brannfarlig gass kategori 1 og 2 tilknyttet fast rørn
 <p>Gassflasker for LPG skal gjennomgå periodisk kontroll etter prosedyrene som er fastsatt for slike flasker i forskrift 1. april 2009 nr. 384 om landtransport av farlig gods, ADR kapittel 4 og 6 og i overensstemmelse med fristen som fremkommer av merkingen på flasken. Nye og kontrollerte gassflasker for LPG skal merkes med dato for neste periodiske kontroll slik at kontrollintervallet blir på maksimalt 10 år, med følgende unntak:</p>
 <p>a. For gassflasker for LPG av komposittmateriale skal kontrollintervallet fastsettes av den myndigheten som har utstedt typegodkjenningen eller av et organ som denne myndigheten har utpekt.
 b. For sveisede gassflasker for LPG av stål kan kontrollintervallet etter søknad utvides til 15 år etter betingelsene i forskrift 1. april 2009 nr. 384 om landtransport av farlig gods, ADR 4.1.4.1 P200, (12).</p>
-<p><em>Endret ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015). Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027, endring endret ved forskrift 20 feb 2026 nr. 244 ).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015). Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027, endring endret ved forskrift 20 feb 2026 nr. 244 ).</p>
 <h4 id="10-drift-vedlikehold-og-opphr">§ 10. Drift, vedlikehold og opphør</h4>
 <p>Eier eller bruker av utstyr og anlegg som benyttes ved håndtering av farlig stoff skal sørge for at utstyr og anlegg holdes i forsvarlig stand og vedlikeholdes slik at sikkerhetsnivået opprettholdes.</p>
 <p>Når utstyr og anlegg ikke lenger er i bruk, skal dette enten fjernes eller sikres forsvarlig.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="11-skilting-og-merking">§ 11. Skilting og merking</h4>
 <p>Der farlig stoff håndteres skal det settes opp skilt, lett synlig på passende steder og i tilstrekkelig antall, som opplyser om faren for brann, eksplosjon eller annen ulykke.</p>
 <p>Der farlig stoff håndteres under slike forhold at brann eller eksplosjon lett kan oppstå skal det settes opp skilt med forbud mot bruk av åpen ild eller andre tennkilder.</p>
 <p>Utstyr og rørsystemer skal ha formålstjenlig og varig identifikasjonsmerking.</p>
 <p>Nedgravde transportrørledninger skal markeres tydelig og varig.</p>
 <p>Krav til skilting omfatter ikke håndtering av mindre mengder farlig stoff for personlig bruk.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="12-innmelding-av-farlig-stoff">§ 12. Innmelding av farlig stoff</h4>
 <p>Enhver som oppbevarer farlig stoff i et anlegg eller transporterer farlig stoff i rørledning i mengde lik eller større enn mengdene fastsatt i vedlegg 2, skal sende melding til Direktoratet for samfunnssikkerhet og beredskap. Melding skal sendes i rimelig tid før utstyr og anlegg tas i bruk. Dersom det skal bygges nytt anlegg som skal oppbevare farlig stoff eller transportere farlig stoff i rørledning i mengde lik eller større enn mengdene nevnt i vedlegg 2, skal melding sendes i rimelig tid før bygging påbegynnes.</p>
 <p>Ved endringer og opphør skal ny melding sendes tilsvarende.</p>
 <p>Melding skal sendes elektronisk i den form Direktoratet for samfunnssikkerhet og beredskap bestemmer.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="13-dokumentasjon">§ 13. Dokumentasjon</h4>
 <p>Den som er tillagt plikter etter forskriftens bestemmelser skal til enhver tid kunne dokumentere at kravene i forskriften er oppfylt.</p>
 <p>Dokumentasjonen skal oppdateres og opprettholdes for hele utstyret og anleggets levetid.</p>
@@ -152,7 +267,7 @@ b. For sveisede gassflasker for LPG av stål kan kontrollintervallet etter søkn
 <p>Eier eller bruker av utstyr og anlegg som benyttes ved håndtering av farlig stoff og virksomheter som håndterer farlig stoff skal sørge for at risikoen er redusert til et nivå som med rimelighet kan oppnås. Sikkerhetshensyn skal være integrert i alle virksomhetens faser, herunder prosjektering, etablering, drift og avvikling.</p>
 <p>Virksomheten skal kartlegge farer og problemer med hensyn på håndtering av farlig stoff og på denne bakgrunn vurdere risiko. Vurderingen skal inkludere interne og eksterne forhold samt uønskede tilsiktede handlinger.</p>
 <p>På bakgrunn av vurderingen skal det utarbeides planer og gjennomføres tiltak for å redusere risikoen til et akseptabelt nivå.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="15-forebyggende-sikkerhetstiltak">§ 15. Forebyggende sikkerhetstiltak</h4>
 <p>Virksomheten skal som et minimum iverksette følgende forebyggende sikkerhetstiltak relatert til bygg- og anleggstekniske forhold:</p>
 <p>a. Bygning der farlig stoff håndteres skal ha effektiv ventilasjon som sikrer mot brann, eksplosjon og annen ulykke.
@@ -187,7 +302,7 @@ c. Rørsystemet skal utstyres med korrosjonsbeskyttelse og korrosjonsovervåking
 d. Rørsystemer med driftstrykk over 16 bar skal utstyres med sender- og mottakermuligheter for rense- og inspeksjonsverktøy. Slusene for sending og mottak skal designes slik at de ikke kan åpnes under trykk.
 e. Ved driftstrykk over 16 bar skal traséen deles inn i klasser basert på kartlagt risiko for å etablere et helhetlig sikkerhetsnivå for rørsystemer. Dette sikkerhetsnivået skal opprettholdes i hele levetiden for rørsystemer.
 f. Umiddelbart etter førstegangs landfall skal det for rørsystem med driftstrykk over 16 bar installeres en nødavstengingsventil.</p>
-<p><em>Endret ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015). Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015). Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="15a-gassflasker-for-lpg">§ 15a. Gassflasker for LPG</h4>
 <p>Det er ikke tillatt å fylle gassflasker for LPG som er skadde, defekte, eller har forfalt til periodisk kontroll.</p>
 <p>Virksomheter som fyller gassflasker med LPG skal</p>
@@ -196,7 +311,7 @@ b. merke flaskene ved fylling, slik at de er sporbare tilbake til fyllestedet. M
 c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om fyllingsgrad er overholdt, at flaskene med utstyr er fri for lekkasje og at flaskene har påkrevd merking og identifikasjon.</p>
 <p>Virksomheter som fyller eller omsetter gassflasker for LPG skal ta imot slike flasker kostnadsfritt fra forbrukere, herunder ta imot flasker som ikke kan fylles eller som forbrukere av annen årsak ønsker å levere fra seg.</p>
 <p>Gassflasker for LPG som skal fylles skal være samsvarsmerket med π eller ε i henhold til forskrift 22. november 2012 nr. 1088 om transportabelt trykkutstyr. Ikke samsvarsmerkede gassflasker for LPG kan allikevel fylles dersom de oppfyller kravene i forskrift 1. april 2009 nr. 384 om landtransport av farlig gods og ble brakt i omsetning i Norge før kravet om samsvarsmerking ble gjort gjeldende.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2015 nr. 774 (i kraft 1 juli 2015).</p>
 <h4 id="15b-bunkring-av-brannfarlig-gass">§ 15b. Bunkring av brannfarlig gass</h4>
 <p><em>Tilføyes ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
 <h4 id="16-arealmessige-begrensninger">§ 16. Arealmessige begrensninger</h4>
@@ -207,10 +322,10 @@ c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om
 <p>Ved vesentlige endringer skal tilsvarende samtykke innhentes.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan i særskilte tilfeller treffe vedtak om at også andre virksomheter vil kunne omfattes av krav om samtykke dersom virksomhetens plassering og utforming samt håndtering av farlig stoff tilsier det.</p>
 <p>Virksomheter som pr. 13. desember 2013 bunkrer passasjerskip med LNG fra anlegg eller tankbil på land, og som ikke innehar samtykke fra Direktoratet for samfunnssikkerhet og beredskap etter § 17 eller midlertidig samtykke etter § 27 annet ledd til slik håndtering, må innen 31. desember 2014 søke direktoratet om samtykke til bunkring av passasjerskip. Uansett overgangsordning som nevnt i første punktum, skal virksomheter som skal bunkre passasjerskip mens det er passasjerer om bord, innhente samtykke fra direktoratet til dette før slik bunkring kan iverksettes.</p>
-<p><em>Endret ved forskrift 13 des 2013 nr. 1512 . Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endret ved forskrift 13 des 2013 nr. 1512 . Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="18-nabovirksomheter">§ 18. Nabovirksomheter</h4>
 <p>Nabovirksomheter som hver for seg håndterer farlig stoff der en hendelse kan få konsekvens for nabovirksomhet, skal utveksle informasjon og samordne tiltak slik at sikkerheten blir ivaretatt.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="19-beredskapsplikt">§ 19. Beredskapsplikt</h4>
 <p>Virksomheter som håndterer farlig stoff skal utarbeide en beredskapsplan og etablere en tilstrekkelig egenberedskap med tilhørende varslings- og innsatsplaner. Beredskapsplanen skal oppdateres jevnlig og redegjøre for ansvars-, oppgave- og ressursfordeling under innsats ved ulykker og andre uønskede hendelser. Beredskapsplanen skal inneholde alarmerings-, rømnings-, rednings- og slokkeinstrukser.</p>
 <p>Meldepliktige virksomheter etter § 12 skal samordne sin beredskapsplan med offentlige beredskapsplaner slik at det kan etableres et samarbeid med berørte lokale myndigheter.</p>
@@ -220,7 +335,7 @@ c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om
 <p>Virksomheten skal umiddelbart varsle Direktoratet for samfunnssikkerhet og beredskap om større ulykker i forbindelse med håndtering av farlig stoff og tilhørende utstyr og anlegg.</p>
 <p>Virksomheten skal etablere et system for registrering av uhell, ulykker og tilløp til slike i forbindelse med håndtering av farlig stoff og tilhørende utstyr og anlegg.</p>
 <p>Uhell og ulykker i forbindelse med håndtering av farlig stoff skal snarest mulig rapporteres til Direktoratet for samfunnssikkerhet og beredskap. Rapporten skal inneholde en beskrivelse av hendelsen, analyse av årsaken til hendelsen og opplyse om hvilke tiltak virksomheten vil iverksette for å forhindre slike hendelser i fremtiden.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h2 id="kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</h2>
 <h4 id="21-dispensasjon">§ 21. Dispensasjon</h4>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan i det enkelte tilfelle etter søknad dispensere fra bestemmelser i forskriften når særlige grunner foreligger, tilstrekkelig grad av sikkerhet kan opprettholdes og det vil være i tråd med forskriftens formål, jf. § 1 .</p>
@@ -230,14 +345,14 @@ c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om
 <p>Kommunen skal føre tilsyn med at bestemmelsene i denne forskriften blir overholdt.</p>
 <p>I tillegg fører Direktoratet for samfunnssikkerhet og beredskap alene eller i samarbeid med kommunen tilsyn med virksomheter som representerer en betydelig risiko eller der direktoratet anser det som nødvendig for å ha oversikt over risiko knyttet til håndtering av farlig stoff.</p>
 <p>Ved utøvelsen av tilsynet gjelder lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver § 33 – § 36.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="24-reaksjonsmidler">§ 24. Reaksjonsmidler</h4>
 <p>Ved overtredelsen av forskriften eller vedtak truffet i medhold av denne, gjelder bestemmelsene i lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver § 37 til § 40 og § 42 tilsvarende.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="25-klage">§ 25. Klage</h4>
 <p>Vedtak truffet av Direktoratet for samfunnssikkerhet og beredskap kan påklages til Justis- og politidepartementet.</p>
 <p>Vedtak truffet av kommunestyret kan påklages til Direktoratet for samfunnssikkerhet og beredskap. For øvrige vedtak fattet av kommunen gjelder forvaltningslovens § 28 annet ledd.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h4 id="26-ikrafttredelse">§ 26. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 8. juni 2009.</p>
 <p>Fra samme tid oppheves</p>
@@ -249,12 +364,12 @@ c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om
 </ul>
 <p>Ved ikrafttredelse faller alle gitte tillatelser for brannfarlige og trykksatte stoffer bort.</p>
 <p>For reaksjonsfarlig stoff gjelder denne forskriften fra 1. oktober 2009.</p>
-<p><em>Endret ved forskrift 1 sep 2009 nr. 1142 .</em></p>
+<p class="note">Endret ved forskrift 1 sep 2009 nr. 1142 .</p>
 <h4 id="27-overgangsbestemmelser">§ 27. Overgangsbestemmelser</h4>
 <p>Enhver som ved denne forskrifts ikrafttredelse oppbevarer eller transporterer farlig stoff i rørledning i mengde lik eller større enn mengdene nevnt i vedlegg 2, skal sende melding innen 31. desember 2009.</p>
 <p>For virksomheter som omfattes av § 17 gis det midlertidig samtykke på de vilkår som ligger til grunn for tillatelsen som var gyldig ved ikrafttredelse av denne forskriften.</p>
 <p>Tolv måneder etter denne forskrifts ikrafttredelse skal det kunne dokumenteres at krav etter denne forskrift utover det som fulgte av de etter § 26 annet ledd opphevede forskrifter er oppfylt.</p>
-<p><em>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
 <h2 id="vedlegg-1-farlig-stoff-kriterier-for-klassifisering">Vedlegg 1. Farlig stoff – kriterier for klassifisering</h2>
 <p>Stoffgruppene angitt i nedenstående tabell er omfattet av definisjonene av farlig stoff i henhold til § 4 .</p>
 <p>Tabellen er hovedsakelig basert på kriterier for klassifisering av farlige stoffer og stoffblandinger i det Globalt harmoniserte system for klassifisering og merking av kjemikalier (GHS) utgitt av De forente Nasjoner (FN). GHS henviser til FNs test manual (Recommendations on the Transport of Dangerous Goods, Manual of Tests and Criteria) for tester som gjelder fysisk-kjemiske egenskaper.</p>
@@ -270,6 +385,8 @@ c. kontrollere flaskene etter fylling. Kontrollen skal sikre at bestemmelsene om
 <li>Kriterium for innmelding av kjelanlegg: Gjelder kjeler som er beregnet for produksjon av damp eller hetvann med temperatur over 110 °C, og hvor produktet av trykk i bar og volum i liter er større enn 3 000 og hvor trykket er større enn 0,5 bar overtrykk og volumet er større enn 100 liter.</li>
 </ul>
 <p>Endres ved forskrift 4 feb 2026 nr. 140 (i kraft 1 jan 2027).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

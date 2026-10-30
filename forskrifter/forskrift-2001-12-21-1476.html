@@ -19,64 +19,179 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2001-12-21-1476.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Dødsårsaksregisterforskriften" href="../feeds/forskrift-2001-12-21-1476.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Dødsårsaksregisterforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2001-12-21-1476</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2002-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-11-19-3235</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2001-12-21-1476" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-ddsarsaksregisteret">§ 1-1. (Etablering av Dødsårsaksregisteret)</a></li>
+<li class="lvl4"><a href="#1-2-ddsarsaksregisterets-innhold">§ 1-2. (Dødsårsaksregisterets innhold)</a></li>
+<li class="lvl4"><a href="#1-2a-opphevet">§ 1-2a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-3-ddsarsaksregisterets-formal">§ 1-3. (Dødsårsaksregisterets formål)</a></li>
+<li class="lvl4"><a href="#1-4-dataansvarlig">§ 1-4. (Dataansvarlig)</a></li>
+<li class="lvl4"><a href="#1-5-databehandler">§ 1-5. (Databehandler)</a></li>
+<li class="lvl4"><a href="#1-6-opplysninger-i-ddsarsaksregisteret">§ 1-6. (Opplysninger i Dødsårsaksregisteret)</a></li>
+<li class="lvl4"><a href="#1-7-koding-og-klassifisering-av-opplysningene-i-ddsarsaksregisteret-krav-til-dokumentasjon">§ 1-7. (Koding og klassifisering av opplysningene i Dødsårsaksregisteret, krav til dokumentasjon)</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-ddsarsaksregisteret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til Dødsårsaksregisteret, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-legers-alminnelige-dokumentasjons-og-meldeplikt">§ 2-1. (Legers alminnelige dokumentasjons- og meldeplikt)</a></li>
+<li class="lvl4"><a href="#2-2-meldingsskjema-formkrav-mv">§ 2-2. (Meldingsskjema, formkrav mv.)</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-4-meldeplikt-for-lege-som-foretar-obduksjon">§ 2-4. (Meldeplikt for lege som foretar obduksjon)</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter)</a></li>
+<li class="lvl4"><a href="#2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll)</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 3. Behandling av helseopplysninger i Dødsårsaksregisteret</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-utlevering-av-opplysninger-til-forsvarets-helseregister-og-hjerte-og-karregisteret">§ 3-2. (Utlevering av opplysninger til Forsvarets helseregister og Hjerte- og karregisteret)</a></li>
+<li class="lvl4"><a href="#3-3-tilgjengeliggjring-av-opplysninger-for-leger">§ 3-3. (Tilgjengeliggjøring av opplysninger for leger)</a></li>
+<li class="lvl4"><a href="#3-4-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-4. (Informasjonsstrategi rettet mot brukergrupper)</a></li>
+<li class="lvl2"><a href="#kapittel-4-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 4. Taushetsplikt, informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#4-1-taushetsplikt">§ 4-1. (Taushetsplikt)</a></li>
+<li class="lvl4"><a href="#4-2-informasjonssikkerhet">§ 4-2. (Informasjonssikkerhet)</a></li>
+<li class="lvl4"><a href="#4-3-plikt-til-internkontroll">§ 4-3. (Plikt til internkontroll)</a></li>
+<li class="lvl4"><a href="#4-4-internkontrollens-innhold">§ 4-4. (Internkontrollens innhold)</a></li>
+<li class="lvl2"><a href="#kapittel-5-innsynsrett">Kapittel 5. Innsynsrett</a></li>
+<li class="lvl4"><a href="#5-1-parrendes-innsynsrett">§ 5-1. (Pårørendes innsynsrett)</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. (Frist for å svare på henvendelser om innsyn)</a></li>
+<li class="lvl2"><a href="#kapittel-6-bevaring-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 6. Bevaring av helseopplysninger i Dødsårsaksregisteret</a></li>
+<li class="lvl4"><a href="#6-1-bevaring-av-helseopplysninger">§ 6-1. (Bevaring av helseopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-7-opphevet">Kapittel 7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-1-opphevet">§ 7-1. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-ikraftsetting">§ 8-1. (Ikraftsetting)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-11-19-3235.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-12-21-1476.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om innsamling og behandling av helseopplysninger i Dødsårsaksregisteret (Dødsårsaksregisterforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-12-21-1476.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2001-12-21-1476 <code>forskrift/2001-12-21-1476</code></td></tr>
+<tr><th>Korttittel</th><td>Dødsårsaksregisterforskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2002</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-11-19-3235 <code>forskrift/2021-11-19-3235</code> fra 19.11.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2001-12-21-1476" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-ddsarsaksregisteret">§ 1-1. (Etablering av Dødsårsaksregisteret)</a></li>
+<li class="lvl4"><a href="#1-2-ddsarsaksregisterets-innhold">§ 1-2. (Dødsårsaksregisterets innhold)</a></li>
+<li class="lvl4"><a href="#1-2a-opphevet">§ 1-2a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-3-ddsarsaksregisterets-formal">§ 1-3. (Dødsårsaksregisterets formål)</a></li>
+<li class="lvl4"><a href="#1-4-dataansvarlig">§ 1-4. (Dataansvarlig)</a></li>
+<li class="lvl4"><a href="#1-5-databehandler">§ 1-5. (Databehandler)</a></li>
+<li class="lvl4"><a href="#1-6-opplysninger-i-ddsarsaksregisteret">§ 1-6. (Opplysninger i Dødsårsaksregisteret)</a></li>
+<li class="lvl4"><a href="#1-7-koding-og-klassifisering-av-opplysningene-i-ddsarsaksregisteret-krav-til-dokumentasjon">§ 1-7. (Koding og klassifisering av opplysningene i Dødsårsaksregisteret, krav til dokumentasjon)</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-ddsarsaksregisteret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til Dødsårsaksregisteret, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-legers-alminnelige-dokumentasjons-og-meldeplikt">§ 2-1. (Legers alminnelige dokumentasjons- og meldeplikt)</a></li>
+<li class="lvl4"><a href="#2-2-meldingsskjema-formkrav-mv">§ 2-2. (Meldingsskjema, formkrav mv.)</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-4-meldeplikt-for-lege-som-foretar-obduksjon">§ 2-4. (Meldeplikt for lege som foretar obduksjon)</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter)</a></li>
+<li class="lvl4"><a href="#2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll)</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 3. Behandling av helseopplysninger i Dødsårsaksregisteret</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-utlevering-av-opplysninger-til-forsvarets-helseregister-og-hjerte-og-karregisteret">§ 3-2. (Utlevering av opplysninger til Forsvarets helseregister og Hjerte- og karregisteret)</a></li>
+<li class="lvl4"><a href="#3-3-tilgjengeliggjring-av-opplysninger-for-leger">§ 3-3. (Tilgjengeliggjøring av opplysninger for leger)</a></li>
+<li class="lvl4"><a href="#3-4-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-4. (Informasjonsstrategi rettet mot brukergrupper)</a></li>
+<li class="lvl2"><a href="#kapittel-4-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 4. Taushetsplikt, informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#4-1-taushetsplikt">§ 4-1. (Taushetsplikt)</a></li>
+<li class="lvl4"><a href="#4-2-informasjonssikkerhet">§ 4-2. (Informasjonssikkerhet)</a></li>
+<li class="lvl4"><a href="#4-3-plikt-til-internkontroll">§ 4-3. (Plikt til internkontroll)</a></li>
+<li class="lvl4"><a href="#4-4-internkontrollens-innhold">§ 4-4. (Internkontrollens innhold)</a></li>
+<li class="lvl2"><a href="#kapittel-5-innsynsrett">Kapittel 5. Innsynsrett</a></li>
+<li class="lvl4"><a href="#5-1-parrendes-innsynsrett">§ 5-1. (Pårørendes innsynsrett)</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. (Frist for å svare på henvendelser om innsyn)</a></li>
+<li class="lvl2"><a href="#kapittel-6-bevaring-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 6. Bevaring av helseopplysninger i Dødsårsaksregisteret</a></li>
+<li class="lvl4"><a href="#6-1-bevaring-av-helseopplysninger">§ 6-1. (Bevaring av helseopplysninger)</a></li>
+<li class="lvl2"><a href="#kapittel-7-opphevet">Kapittel 7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-1-opphevet">§ 7-1. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-ikraftsetting">§ 8-1. (Ikraftsetting)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-12-21-1476.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-12-21-1476.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-12-21-1476.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2001-12-21-1476.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2001-12-21-1476.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-12-21-1476.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2001-12-21-1476.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2001-12-21-1476.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-12-21-1476.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-innsamling-og-behandling-av-helseopplysninger-i-ddsarsaksregisteret-ddsarsaksregisterforskriften">Forskrift om innsamling og behandling av helseopplysninger i Dødsårsaksregisteret (Dødsårsaksregisterforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-etablering-av-ddsarsaksregisteret">§ 1-1. (Etablering av Dødsårsaksregisteret)</h4>
 <p>Denne forskriften etablerer et landsomfattende Dødsårsaksregister. Forskriften gir regler for innsamling og behandling av helseopplysninger i registeret.</p>
@@ -87,9 +202,9 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>personer som på dødstidspunktet befinner seg i Norge</li>
 <li>personer som på dødstidspunktet er registrert bosatt i Norge, men dør i utlandet.</li>
 </ol>
-<p><em>Endret ved forskrift 15 juni 2012 nr. 544 .</em></p>
+<p class="note">Endret ved forskrift 15 juni 2012 nr. 544 .</p>
 <h4 id="1-2a-opphevet">§ 1-2a. (Opphevet) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-1-2a.html" title="Endringshistorikk for § 1-2a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018), opphevet ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018), opphevet ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="1-3-ddsarsaksregisterets-formal">§ 1-3. (Dødsårsaksregisterets formål) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med Dødsårsaksregisteret er å innsamle og innenfor forskriftens rammer behandle data om dødsårsaker i Norge for å:</p>
 <ol>
@@ -98,14 +213,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>fremme og gi grunnlag for forskning, og</li>
 <li>gi grunnlag for informasjon og kunnskap for planlegging, kvalitetssikring og kvalitetsutvikling av helse- og omsorgstjenesten og helse- og omsorgsforvaltningen.</li>
 </ol>
-<p><em>Endret ved forskrift 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrift 17 jan 2013 nr. 61 .</p>
 <h4 id="1-4-dataansvarlig">§ 1-4. (Dataansvarlig) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet er dataansvarlig for innsamling og behandling av helseopplysninger i Dødsårsaksregisteret.</p>
 <p>Når det er nødvendig for å formidle personopplysninger gitt av lege etter reglene i helsepersonelloven § 36 til Dødsårsaksregisteret eller til Folkeregisteret, kan opplysningene behandles av Norsk helsenett SF. Norsk helsenett SF er dataansvarlig for denne behandlingen.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019), 20 des 2019 nr. 1918 (i kraft 1 jan 2020), 18 juni 2021 nr. 2023 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019), 20 des 2019 nr. 1918 (i kraft 1 jan 2020), 18 juni 2021 nr. 2023 (i kraft 1 juli 2021).</p>
 <h4 id="1-5-databehandler">§ 1-5. (Databehandler)</h4>
 <p>Folkehelseinstituttet kan inngå skriftlig avtale med en databehandler om innsamling og behandling av helseopplysninger i Dødsårsaksregisteret, herunder om overvåking og forskning, jf. § 1-3 , drift og kvalitetssikring av registeret, samt tilgjengeliggjøring av data til brukere.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-6-opplysninger-i-ddsarsaksregisteret">§ 1-6. (Opplysninger i Dødsårsaksregisteret)</h4>
 <p>Dødsårsaksregisteret kan inneholde følgende opplysninger om avdøde i den utstrekning det er nødvendig for å nå formålet med registeret:</p>
 <ol>
@@ -131,16 +246,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Opplysningene i Dødsårsaksregisteret skal kodes i samsvar med den internasjonale statistiske sykdomklassifikasjonen (ICD) og de prinsipper og regler som gjelder for koding av dødsårsaker.</p>
 <p>Folkehelseinstituttet skal ved enhver registrering i Dødsårsaksregisteret kunne dokumentere hvilke klassifikasjoner og kodeverk som er benyttet.</p>
 <p>Departementet kan gi nærmere bestemmelser om eventuelt andre kodeverk og klassifikasjoner som skal benyttes.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h2 id="kapittel-2-melding-av-helseopplysninger-til-ddsarsaksregisteret-kvalitetskontroll-mv">Kapittel 2. Melding av helseopplysninger til Dødsårsaksregisteret, kvalitetskontroll mv.</h2>
 <h4 id="2-1-legers-alminnelige-dokumentasjons-og-meldeplikt">§ 2-1. (Legers alminnelige dokumentasjons- og meldeplikt) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leger som blir tilkalt til en døende eller til en som er død, skal, uten hensyn til taushetsplikt, snarest melde opplysninger som nevnt i § 1-6 , jf. § 2-2 , til Dødsårsaksregisteret. Leger som melder på papir sender meldingen via tingretten, lensmannen eller namsmannen. Fra 1.1.2022 skal meldingen sendes elektronisk på meldingsformat fastsatt av Folkehelseinstituttet.</p>
-<p><em>Endret ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</em></p>
+<p class="note">Endret ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</p>
 <h4 id="2-2-meldingsskjema-formkrav-mv">§ 2-2. (Meldingsskjema, formkrav mv.)</h4>
 <p>Melding av opplysninger som nevnt i § 1-6 skal skje på skjema eller på annen måte fastsatt av departementet. Dødsmeldingen skal utformes i en form som er i samsvar med anbefalinger av Verdens helseorganisasjon.</p>
 <p>Departementet kan gi pålegg om bruk av bestemte klassifikasjoner og kodeverk ved registrering av opplysningene, og gi pålegg om bruk av bestemte meldingsformater ved forsendelsen av opplysningene.</p>
 <h4 id="2-3-opphevet">§ 2-3. (Opphevet) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</em></p>
+<p class="note">Opphevet ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</p>
 <h4 id="2-4-meldeplikt-for-lege-som-foretar-obduksjon">§ 2-4. (Meldeplikt for lege som foretar obduksjon)</h4>
 <p>Lege som obduserer avdøde, skal melde resultatet av obduksjonen, obduksjonsnummer og laboratorienummer til Dødsårsaksregisteret innen to måneder etter obduksjonsrapporten er ferdig. Forskriften § 2-2 gjelder tilsvarende for obduksjonsmeldinger.</p>
 <h4 id="2-5-virksomhetens-plikter">§ 2-5. (Virksomhetens plikter)</h4>
@@ -148,36 +263,36 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-6-mottakers-ansvar-for-kvalitetskontroll">§ 2-6. (Mottakers ansvar for kvalitetskontroll) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal sørge for at helseopplysninger som innsamles og behandles i Dødsårsaksregisteret er korrekte, relevante og nødvendige for de formål de innsamles for, jf. § 1-3 . Dersom det er nødvendig, skal Folkehelseinstituttet innhente tilleggsopplysninger fra lege som har gitt helsehjelp til den person meldingen gjelder.</p>
 <p>Dersom meldingsskjema er mangelfullt utfylt, skal avsenderen av skjema varsles, jf. helseregisterloven § 13 annet ledd annet punktum. Ved fortsatt mangelfull utfylling av skjema skal statsforvalteren varsles.</p>
-<p><em>Endret ved forskrifter 20 juni 2003 nr. 741 (i kraft 1 juli 2003), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 .</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2003 nr. 741 (i kraft 1 juli 2003), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 .</p>
 <h2 id="kapittel-3-behandling-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 3. Behandling av helseopplysninger i Dødsårsaksregisteret</h2>
 <h4 id="3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helseopplysninger i Dødsårsaksregisteret skal behandles i samsvar med personvernforordningen , personopplysningsloven og de alminnelige vilkårene i helseregisterloven § 6 og reglene om taushetsplikt i helseregisterloven § 17 , jf. helsepersonelloven §§ 21 flg.</p>
 <p>Ved tilgjengeliggjøring og sammenstilling av opplysninger i registeret gjelder i tillegg helseregisterloven § 19 til § 19h .</p>
-<p><em>Endret ved forskrifter 20 juni 2003 nr. 741 (i kraft 1 juli 2003), 2 sep 2005 nr. 1010 (i kraft 24 april 2006), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2003 nr. 741 (i kraft 1 juli 2003), 2 sep 2005 nr. 1010 (i kraft 24 april 2006), 7 des 2007 nr. 1389 (i kraft 15 april 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="3-2-utlevering-av-opplysninger-til-forsvarets-helseregister-og-hjerte-og-karregisteret">§ 3-2. (Utlevering av opplysninger til Forsvarets helseregister og Hjerte- og karregisteret) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Personidentifiserende opplysninger om dødsårsak, obduksjon og dødsdato kan utleveres til Forsvarets helseregister.</p>
 <p>Forsvarets helseregister kan utlevere opplysninger som beskrevet i forskrift om nasjonalt register over hjerte- og karlidelser § 1-4 til Hjerte- og karregisteret.</p>
-<p><em>Tilføyd ved forskrift 2 sep 2005 nr. 1010 (i kraft 24 april 2006), endret ved forskrifter 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-5a)</em></p>
+<p class="note">Tilføyd ved forskrift 2 sep 2005 nr. 1010 (i kraft 24 april 2006), endret ved forskrifter 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-5a)</p>
 <h4 id="3-3-tilgjengeliggjring-av-opplysninger-for-leger">§ 3-3. (Tilgjengeliggjøring av opplysninger for leger) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet kan, uten hinder av taushetsplikt, gjøre indirekte identifiserbare opplysninger om dødsårsak for innbyggere i en kommune tilgjengelige for kommunelegen. Folkehelseinstituttet kan også, uten hinder av taushetsplikt, gjøre indirekte identifiserbare opplysninger om dødsårsak tilgjengelige for kommunelegen på dødsstedet.</p>
 <p>Dersom det er nødvendig for oppfyllelsen av kommunelegens plikter, kan Folkehelseinstituttet tilgjengeliggjøre opplysninger etter første ledd i direkte identifiserbar form.</p>
 <p>Leger kan få tilgjengeliggjort egne innsendte dødsmeldinger.</p>
-<p><em>Tilføyd ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019), endret ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-5b).</em></p>
+<p class="note">Tilføyd ved forskrift 21 juni 2019 nr. 795 (i kraft 1 okt 2019), endret ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-5b).</p>
 <h4 id="3-4-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-4. (Informasjonsstrategi rettet mot brukergrupper) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å fremme bruk av data fra Dødsårsaksregisteret og for å bygge opp informasjon og kunnskap, jf. forskriften § 1-3 , skal Folkehelseinstituttet ha en aktiv informasjonsstrategi og -plan rettet mot så vel helseforvaltningen, helse- og omsorgstjenesten og øvrig forvaltning, som mot forskere innen medisinsk forskning, helse- og omsorgstjenesteforskning og samfunnsforskning.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6).</p>
 <h2 id="kapittel-4-taushetsplikt-informasjonssikkerhet-og-internkontroll">Kapittel 4. Taushetsplikt, informasjonssikkerhet og internkontroll</h2>
 <h4 id="4-1-taushetsplikt">§ 4-1. (Taushetsplikt)</h4>
 <p>Enhver som behandler helseopplysninger etter denne forskriften har taushetsplikt etter helsepersonelloven.</p>
 <p>Taushetsplikten etter første ledd gjelder også pasientens fødested, fødselsdato, personnummer, pseudonym, statsborgerforhold, sivilstand, yrke, bopel og arbeidssted.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-2-informasjonssikkerhet">§ 4-2. (Informasjonssikkerhet)</h4>
 <p>Folkehelseinstituttet og databehandleren skal gjennomføre tekniske og organisatoriske tiltak for å oppnå et sikkerhetsnivå som er egnet med hensyn til risikoen, jf. personvernforordningen artikkel 32 og helseregisterloven § 21 .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-3-plikt-til-internkontroll">§ 4-3. (Plikt til internkontroll)</h4>
 <p>Folkehelseinstituttet skal gjennomføre tekniske og organisatoriske tiltak for å sikre og påvise at behandlingen av opplysninger utføres i samsvar med personvernforordningen, personopplysningsloven og helseregisterloven, jf. helseregisterloven § 22 .</p>
 <p>Databehandlere som behandler helseopplysninger på vegne av Folkehelseinstituttet, skal behandle opplysninger i samsvar med rutiner Folkehelseinstituttet har oppstilt.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-4-internkontrollens-innhold">§ 4-4. (Internkontrollens innhold) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Internkontrollen innebærer at den dataansvarlige skal ha kunnskap om gjeldende regler om behandling av helseopplysninger, tilstrekkelig og oppdatert dokumentasjon for gjennomføring av rutiner, samt ha denne dokumentasjonen tilgjengelig for dem den måtte angå. Internkontrollen skal blant annet inneholde:</p>
 <ol>
@@ -196,27 +311,29 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>rutiner for hvordan virksomheten sikrer at de ansatte har tilstrekkelig kompetanse til å overholde forskriftens krav.</li>
 </ol>
 <p>Skriftlig dokumentasjon skal minst omfatte dokumentasjon av rutiner som nevnt i første ledd nr. 1 til 8. Tilsynsmyndighetene kan gi pålegg om skriftlig dokumentasjon ut over dette dersom det anses påkrevet. Tilsynsmyndighetene kan dispensere fra hele eller deler av dette kapittel når særlige forhold foreligger.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</p>
 <h2 id="kapittel-5-innsynsrett">Kapittel 5. Innsynsrett</h2>
 <h4 id="5-1-parrendes-innsynsrett">§ 5-1. (Pårørendes innsynsrett) <a class="para-history" href="../historikk/forskrift-2001-12-21-1476/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Avdødes nærmeste pårørende har, med mindre særlige grunner taler mot det, rett til informasjon om Dødsårsaksregisteret og innsyn i behandling av opplysninger om den avdøde.</p>
 <p>Innsyn i behandling av helseopplysninger om den avdøde bør fortrinnsvis gis gjennom utsteder av dødsmeldingen eller av Folkehelseinstituttet. Informasjonen skal gis i en forståelig form.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 21 juni 2019 nr. 795 (i kraft 1 okt 2019).</p>
 <h4 id="5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. (Frist for å svare på henvendelser om innsyn)</h4>
 <p>Begjæringer om innsyn etter § 5-1 skal besvares uten ugrunnet opphold og senest 30 dager fra den dagen henvendelsen kom inn.</p>
 <p>Dersom særlige forhold gjør det umulig å svare på henvendelsen innen 30 dager, kan gjennomføringen utsettes inntil det er mulig å gi svar. Den dataansvarlige skal i så fall gi et foreløpig svar med opplysninger om grunnen til forsinkelsen og sannsynlig tidspunkt for når svar kan gis.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-6-bevaring-av-helseopplysninger-i-ddsarsaksregisteret">Kapittel 6. Bevaring av helseopplysninger i Dødsårsaksregisteret</h2>
 <h4 id="6-1-bevaring-av-helseopplysninger">§ 6-1. (Bevaring av helseopplysninger)</h4>
 <p>Opplysninger i Dødsårsaksregisteret skal bevares i ubegrenset tid, med mindre annet følger av denne forskriften eller helseregisterloven § 25 .</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-7-opphevet">Kapittel 7. (Opphevet)</h2>
 <p>Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="7-1-opphevet">§ 7-1. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</h2>
 <h4 id="8-1-ikraftsetting">§ 8-1. (Ikraftsetting)</h4>
 <p>Forskriften trer i kraft 1. januar 2002.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

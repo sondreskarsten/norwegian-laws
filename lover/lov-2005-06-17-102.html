@@ -19,64 +19,199 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-06-17-102.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Partiloven" href="../feeds/lov-2005-06-17-102.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Partiloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2005-06-17-102</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Stats-, statsforfatnings- og statsborgerrett &raquo; Stortinget</dd>
-<dt>Ikrafttredelse</dt><dd>2006-01-01, 2005-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-105</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-102" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal-og-virkeomrade">§ 1. Lovens formål og virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-registrering-av-politiske-partier">Kapittel 2. Registrering av politiske partier</a></li>
+<li class="lvl4"><a href="#2-registreringsmyndigheten-virkninger-av-registreringen">§ 2. Registreringsmyndigheten. Virkninger av registreringen</a></li>
+<li class="lvl4"><a href="#3-vilkar-for-registrering-av-partinavn-i-partiregisteret">§ 3. Vilkår for registrering av partinavn i Partiregisteret</a></li>
+<li class="lvl4"><a href="#4-endring-av-registrert-partinavn-sammenslaing-av-partier-under-nytt-navn">§ 4. Endring av registrert partinavn. Sammenslåing av partier under nytt navn</a></li>
+<li class="lvl4"><a href="#5-avregistrering-nar-et-partinavn-blir-fritt">§ 5. Avregistrering. Når et partinavn blir fritt</a></li>
+<li class="lvl4"><a href="#6-opplysning-om-hvem-som-sitter-i-partiets-utvende-organ">§ 6. Opplysning om hvem som sitter i partiets utøvende organ</a></li>
+<li class="lvl4"><a href="#7-kunngjring-av-vedtak">§ 7. Kunngjøring av vedtak</a></li>
+<li class="lvl4"><a href="#8-klage">§ 8. Klage</a></li>
+<li class="lvl4"><a href="#9-forskrift">§ 9. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-3-finansiering-av-politiske-partiers-organisasjoner-og-folkevalgte-grupper">Kapittel 3. Finansiering av politiske partiers organisasjoner og folkevalgte grupper</a></li>
+<li class="lvl4"><a href="#10-overordnede-prinsipper-for-offentlig-sttte">§ 10. Overordnede prinsipper for offentlig støtte</a></li>
+<li class="lvl4"><a href="#11-statlig-tilskudd-til-politiske-partiers-organisasjoner-og-ungdomsorganisasjoner-pa-nasjonalt-niva">§ 11. Statlig tilskudd til politiske partiers organisasjoner og ungdomsorganisasjoner på nasjonalt nivå</a></li>
+<li class="lvl4"><a href="#12-statlig-tilskudd-til-politiske-partiers-organisasjoner-og-ungdomsorganisasjoner-i-fylkene">§ 12. Statlig tilskudd til politiske partiers organisasjoner og ungdomsorganisasjoner i fylkene</a></li>
+<li class="lvl4"><a href="#13-statlig-tilskudd-til-politiske-partiers-organisasjoner-i-kommunene">§ 13. Statlig tilskudd til politiske partiers organisasjoner i kommunene</a></li>
+<li class="lvl4"><a href="#14-departementets-adgang-til-a-holde-tilbake-statssttten">§ 14. Departementets adgang til å holde tilbake statsstøtten</a></li>
+<li class="lvl4"><a href="#15-klage-over-vedtak-om-statlig-sttte">§ 15. Klage over vedtak om statlig støtte</a></li>
+<li class="lvl4"><a href="#16-forskrift">§ 16. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-4-sttte-fra-andre-regnskap-bokfring-og-innberetning-offentliggjring">Kapittel 4. Støtte fra andre. Regnskap, bokføring og innberetning. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#17-adgangen-til-a-motta-bidrag">§ 17. Adgangen til å motta bidrag</a></li>
+<li class="lvl4"><a href="#17-a-forbud-mot-bidrag-fra-enkelte-bidragsytere-srskilte-plikter-i-tilknytning-til-ulovlige-bidrag">§ 17 a. Forbud mot bidrag fra enkelte bidragsytere. Særskilte plikter i tilknytning til ulovlige bidrag</a></li>
+<li class="lvl4"><a href="#18-regnskapsplikt-bokfringsplikt-innberetningsplikt-mv">§ 18. Regnskapsplikt, bokføringsplikt, innberetningsplikt mv.</a></li>
+<li class="lvl4"><a href="#18-a-plikt-til-registrering-og-krav-til-regnskapssystem">§ 18 a. Plikt til registrering og krav til regnskapssystem</a></li>
+<li class="lvl4"><a href="#18-b-dokumentasjon-og-oppbevaring-av-regnskapsmateriale">§ 18 b. Dokumentasjon og oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#19-inntekter-som-skal-innberettes">§ 19. Inntekter som skal innberettes</a></li>
+<li class="lvl4"><a href="#20-identifisering-av-bidrag-bidragsytere-og-sponsorer-erklring-om-avtaler">§ 20. Identifisering av bidrag, bidragsytere og sponsorer. Erklæring om avtaler</a></li>
+<li class="lvl4"><a href="#20-a-kostnader-som-skal-innberettes">§ 20 a. Kostnader som skal innberettes</a></li>
+<li class="lvl4"><a href="#20-b-balansetall-som-skal-innberettes">§ 20 b. Balansetall som skal innberettes</a></li>
+<li class="lvl4"><a href="#21-erklringer-signatur-og-kontaktpersoner">§ 21. Erklæringer, signatur og kontaktpersoner</a></li>
+<li class="lvl4"><a href="#21-a-revisjonsplikt-srskilte-bestemmelser-om-revisjon-av-politiske-partier">§ 21 a. Revisjonsplikt. Særskilte bestemmelser om revisjon av politiske partier</a></li>
+<li class="lvl4"><a href="#22-offentliggjring">§ 22. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#22-a-forskrift">§ 22 a. Forskrift</a></li>
+<li class="lvl4"><a href="#23-innsyn-i-partiers-regnskaper-og-avtaler-med-bidragsytere">§ 23. Innsyn i partiers regnskaper og avtaler med bidragsytere</a></li>
+<li class="lvl2"><a href="#kapittel-5-nemnd-for-kontroll-med-partifinansieringen-klagebehandling-mv">Kapittel 5. Nemnd for kontroll med partifinansieringen, klagebehandling mv.</a></li>
+<li class="lvl4"><a href="#24-nemnd-for-kontroll-med-partifinansieringen-og-klagebehandling">§ 24. Nemnd for kontroll med partifinansieringen og klagebehandling</a></li>
+<li class="lvl4"><a href="#25-oppnevning-av-partilovnemnda-sammensetning">§ 25. Oppnevning av Partilovnemnda. Sammensetning</a></li>
+<li class="lvl4"><a href="#26-nemndas-arlige-rapport">§ 26. Nemndas årlige rapport</a></li>
+<li class="lvl4"><a href="#27-forskrift">§ 27. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-6-administrative-sanksjoner-inndragning-og-straff">Kapittel 6. Administrative sanksjoner, inndragning og straff</a></li>
+<li class="lvl4"><a href="#28-administrative-sanksjoner">§ 28. Administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#29-inndragning">§ 29. Inndragning</a></li>
+<li class="lvl4"><a href="#30-straff">§ 30. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-7-ikrafttredelses-og-overgangsregler">Kapittel 7. Ikrafttredelses- og overgangsregler</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse-og-overgangsbestemmelser">§ 31. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-105.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-102.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om visse forhold vedrørende de politiske partiene (partiloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-102.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2005-06-17-102 <code>lov/2005-06-17-102</code></td></tr>
+<tr><th>Korttittel</th><td>Partiloven</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Stats-, statsforfatnings- og statsborgerrett &raquo; Stortinget</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2006, 01.07.2005</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-105 <code>lov/2025-06-20-105</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-102" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal-og-virkeomrade">§ 1. Lovens formål og virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-registrering-av-politiske-partier">Kapittel 2. Registrering av politiske partier</a></li>
+<li class="lvl4"><a href="#2-registreringsmyndigheten-virkninger-av-registreringen">§ 2. Registreringsmyndigheten. Virkninger av registreringen</a></li>
+<li class="lvl4"><a href="#3-vilkar-for-registrering-av-partinavn-i-partiregisteret">§ 3. Vilkår for registrering av partinavn i Partiregisteret</a></li>
+<li class="lvl4"><a href="#4-endring-av-registrert-partinavn-sammenslaing-av-partier-under-nytt-navn">§ 4. Endring av registrert partinavn. Sammenslåing av partier under nytt navn</a></li>
+<li class="lvl4"><a href="#5-avregistrering-nar-et-partinavn-blir-fritt">§ 5. Avregistrering. Når et partinavn blir fritt</a></li>
+<li class="lvl4"><a href="#6-opplysning-om-hvem-som-sitter-i-partiets-utvende-organ">§ 6. Opplysning om hvem som sitter i partiets utøvende organ</a></li>
+<li class="lvl4"><a href="#7-kunngjring-av-vedtak">§ 7. Kunngjøring av vedtak</a></li>
+<li class="lvl4"><a href="#8-klage">§ 8. Klage</a></li>
+<li class="lvl4"><a href="#9-forskrift">§ 9. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-3-finansiering-av-politiske-partiers-organisasjoner-og-folkevalgte-grupper">Kapittel 3. Finansiering av politiske partiers organisasjoner og folkevalgte grupper</a></li>
+<li class="lvl4"><a href="#10-overordnede-prinsipper-for-offentlig-sttte">§ 10. Overordnede prinsipper for offentlig støtte</a></li>
+<li class="lvl4"><a href="#11-statlig-tilskudd-til-politiske-partiers-organisasjoner-og-ungdomsorganisasjoner-pa-nasjonalt-niva">§ 11. Statlig tilskudd til politiske partiers organisasjoner og ungdomsorganisasjoner på nasjonalt nivå</a></li>
+<li class="lvl4"><a href="#12-statlig-tilskudd-til-politiske-partiers-organisasjoner-og-ungdomsorganisasjoner-i-fylkene">§ 12. Statlig tilskudd til politiske partiers organisasjoner og ungdomsorganisasjoner i fylkene</a></li>
+<li class="lvl4"><a href="#13-statlig-tilskudd-til-politiske-partiers-organisasjoner-i-kommunene">§ 13. Statlig tilskudd til politiske partiers organisasjoner i kommunene</a></li>
+<li class="lvl4"><a href="#14-departementets-adgang-til-a-holde-tilbake-statssttten">§ 14. Departementets adgang til å holde tilbake statsstøtten</a></li>
+<li class="lvl4"><a href="#15-klage-over-vedtak-om-statlig-sttte">§ 15. Klage over vedtak om statlig støtte</a></li>
+<li class="lvl4"><a href="#16-forskrift">§ 16. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-4-sttte-fra-andre-regnskap-bokfring-og-innberetning-offentliggjring">Kapittel 4. Støtte fra andre. Regnskap, bokføring og innberetning. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#17-adgangen-til-a-motta-bidrag">§ 17. Adgangen til å motta bidrag</a></li>
+<li class="lvl4"><a href="#17-a-forbud-mot-bidrag-fra-enkelte-bidragsytere-srskilte-plikter-i-tilknytning-til-ulovlige-bidrag">§ 17 a. Forbud mot bidrag fra enkelte bidragsytere. Særskilte plikter i tilknytning til ulovlige bidrag</a></li>
+<li class="lvl4"><a href="#18-regnskapsplikt-bokfringsplikt-innberetningsplikt-mv">§ 18. Regnskapsplikt, bokføringsplikt, innberetningsplikt mv.</a></li>
+<li class="lvl4"><a href="#18-a-plikt-til-registrering-og-krav-til-regnskapssystem">§ 18 a. Plikt til registrering og krav til regnskapssystem</a></li>
+<li class="lvl4"><a href="#18-b-dokumentasjon-og-oppbevaring-av-regnskapsmateriale">§ 18 b. Dokumentasjon og oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#19-inntekter-som-skal-innberettes">§ 19. Inntekter som skal innberettes</a></li>
+<li class="lvl4"><a href="#20-identifisering-av-bidrag-bidragsytere-og-sponsorer-erklring-om-avtaler">§ 20. Identifisering av bidrag, bidragsytere og sponsorer. Erklæring om avtaler</a></li>
+<li class="lvl4"><a href="#20-a-kostnader-som-skal-innberettes">§ 20 a. Kostnader som skal innberettes</a></li>
+<li class="lvl4"><a href="#20-b-balansetall-som-skal-innberettes">§ 20 b. Balansetall som skal innberettes</a></li>
+<li class="lvl4"><a href="#21-erklringer-signatur-og-kontaktpersoner">§ 21. Erklæringer, signatur og kontaktpersoner</a></li>
+<li class="lvl4"><a href="#21-a-revisjonsplikt-srskilte-bestemmelser-om-revisjon-av-politiske-partier">§ 21 a. Revisjonsplikt. Særskilte bestemmelser om revisjon av politiske partier</a></li>
+<li class="lvl4"><a href="#22-offentliggjring">§ 22. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#22-a-forskrift">§ 22 a. Forskrift</a></li>
+<li class="lvl4"><a href="#23-innsyn-i-partiers-regnskaper-og-avtaler-med-bidragsytere">§ 23. Innsyn i partiers regnskaper og avtaler med bidragsytere</a></li>
+<li class="lvl2"><a href="#kapittel-5-nemnd-for-kontroll-med-partifinansieringen-klagebehandling-mv">Kapittel 5. Nemnd for kontroll med partifinansieringen, klagebehandling mv.</a></li>
+<li class="lvl4"><a href="#24-nemnd-for-kontroll-med-partifinansieringen-og-klagebehandling">§ 24. Nemnd for kontroll med partifinansieringen og klagebehandling</a></li>
+<li class="lvl4"><a href="#25-oppnevning-av-partilovnemnda-sammensetning">§ 25. Oppnevning av Partilovnemnda. Sammensetning</a></li>
+<li class="lvl4"><a href="#26-nemndas-arlige-rapport">§ 26. Nemndas årlige rapport</a></li>
+<li class="lvl4"><a href="#27-forskrift">§ 27. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-6-administrative-sanksjoner-inndragning-og-straff">Kapittel 6. Administrative sanksjoner, inndragning og straff</a></li>
+<li class="lvl4"><a href="#28-administrative-sanksjoner">§ 28. Administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#29-inndragning">§ 29. Inndragning</a></li>
+<li class="lvl4"><a href="#30-straff">§ 30. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-7-ikrafttredelses-og-overgangsregler">Kapittel 7. Ikrafttredelses- og overgangsregler</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse-og-overgangsbestemmelser">§ 31. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-102.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-102.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-102.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2005-06-17-102.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2005-06-17-102.html">Observerte kildeutgaver</a> · <a href="../historie/partiloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3374530ced584b9c5a5073143e3458049ae6a93d/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2005-06-17-102.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2005-06-17-102.html">Observerte kildeutgaver</a> · <a href="../historie/partiloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2008/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2005-06-17-102.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-visse-forhold-vedrrende-de-politiske-partiene-partiloven">Lov om visse forhold vedrørende de politiske partiene (partiloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-lovens-formal-og-virkeomrade">§ 1. Lovens formål og virkeområde</h4>
 <p>(1) Lovens formål er:</p>
@@ -87,13 +222,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ul>
 <p>(2) Kongen kan gi forskrift om lovens anvendelse på Svalbard og kan fastsette særlige regler under hensyn til forholdene der.</p>
 <p>(3) Loven gjelder for de politiske partienes hovedorganisasjon, sentrale ungdomsorganisasjon, fylkesorganisasjon, fylkesungdomsorganisasjon og kommunale organisasjon. Gruppene i Stortinget, fylkesting og kommunestyrer omfattes ikke av loven. Kapittel 3 og 4 gjelder for partier som er registrert i samsvar med kapittel 2 .</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h2 id="kapittel-2-registrering-av-politiske-partier">Kapittel 2. Registrering av politiske partier</h2>
 <h4 id="2-registreringsmyndigheten-virkninger-av-registreringen">§ 2. Registreringsmyndigheten. Virkninger av registreringen</h4>
 <p>(1) Et politisk parti som oppfyller vilkårene i § 3 , kan søke om registrering av partinavnet i Partiregisteret som føres av Registerenheten i Brønnøysund.</p>
 <p>(2) Før partiet kan bli registrert i Partiregisteret, må det registreres i Enhetsregisteret og tildeles et eget organisasjonsnummer, jf. <a href="lov-2025-06-20-105.html">enhetsregisterloven</a> § 5-1 og § 6-2 . Når partiet er registrert i Enhetsregisteret, legges de opplysninger som der er registrert, til grunn for Partiregisteret.</p>
 <p>(3) Registrering i Partiregisteret innebærer at partiet får enerett til å stille valglister under det registrerte navnet.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</p>
 <h4 id="3-vilkar-for-registrering-av-partinavn-i-partiregisteret">§ 3. Vilkår for registrering av partinavn i Partiregisteret</h4>
 <p>(1) For at et partinavn skal kunne bli registrert i Partiregisteret, må det ikke kunne forveksles med navnet på</p>
 <p>a. annet parti registrert i Partiregisteret eller
@@ -105,11 +240,11 @@ b. opplysning om hvem som er valgt til medlemmer i partiets utøvende organ, og 
 c. vedtekt som fastsetter hvilket organ i partiet som velger partiets utøvende organ, og
 d. erklæring fra minst 5 000 personer med stemmerett ved stortingsvalg, om at de ønsker partinavnet registrert. Den som avgir erklæring, må ha nådd stemmerettsalderen innen utløpet av det kalenderår søknaden fremsettes. Settes søknaden frem mindre enn ett år før et valg, er det tilstrekkelig at stemmerettsalderen er nådd innen utløpet av valgåret. Av erklæringen skal fremgå navnet, fødselsdatoen og adressen til den som har avgitt den. Erklæringen skal være egenhendig underskrevet og datert av den som har avgitt den. Ingen erklæring skal være mer enn ett år eldre enn søknaden.</p>
 <p>(3) Søknaden må ha blitt journalført hos registreringsmyndigheten innen 2. januar i valgåret, for at registreringen skal kunne få virkning ved valget.</p>
-<p><em>Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="4-endring-av-registrert-partinavn-sammenslaing-av-partier-under-nytt-navn">§ 4. Endring av registrert partinavn. Sammenslåing av partier under nytt navn</h4>
 <p>(1) Et registrert politisk parti kan søke om å få endre det registrerte partinavnet. Bestemmelsene i § 3 gjelder tilsvarende. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å endre navnet på partiet. Hvis partiet fikk minst 500 stemmer i ett valgdistrikt eller minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d.</p>
 <p>(2) Hvis to eller flere registrerte partier slår seg sammen og søker registrering under et nytt navn, anses det for søknad om navneendring. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å slå partiene sammen og søke registrering under et nytt navn. Hvis ett av partiene fikk minst 500 stemmer i ett valgdistrikt eller minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 66 . Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 66 . Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="5-avregistrering-nar-et-partinavn-blir-fritt">§ 5. Avregistrering. Når et partinavn blir fritt</h4>
 <p>(1) Virkningen av registreringen opphører og partinavnet blir fritt når partiet ikke har stilt liste i noe valgdistrikt ved to påfølgende stortingsvalg. Partinavnet skal da strykes fra Partiregisteret.</p>
 <p>(2) Det samme gjelder fire år etter at partiet er oppløst eller har skiftet navn.</p>
@@ -123,7 +258,7 @@ d. erklæring fra minst 5 000 personer med stemmerett ved stortingsvalg, om at d
 <p>(2) Partilovnemndas vedtak kan bringes inn for domstolene. Søksmål må i tilfelle reises innen to uker fra det tidspunktet melding om nemndas vedtak med opplysning om søksmålsfristen kom frem til vedkommende part. En rettsavgjørelse om partiregistrering har bare virkning for et forestående valg dersom den er rettskraftig senest 31. mars i valgåret. Inntil eventuell rettskraftig dom foreligger, legges nemndas vedtak til grunn for Partiregisteret.</p>
 <h4 id="9-forskrift">§ 9. Forskrift</h4>
 <p>Departementet kan i forskrift gi utfyllende bestemmelser om registreringsordningen og om registreringsmyndighetens virksomhet.</p>
-<p><em>Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 16 juni 2023 nr. 62 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-3-finansiering-av-politiske-partiers-organisasjoner-og-folkevalgte-grupper">Kapittel 3. Finansiering av politiske partiers organisasjoner og folkevalgte grupper</h2>
 <h4 id="10-overordnede-prinsipper-for-offentlig-sttte">§ 10. Overordnede prinsipper for offentlig støtte</h4>
 <p>(1) Statlig tilskudd til politiske partiers organisasjoner på nasjonalt, regionalt og kommunalt nivå ytes med de beløp som fastsettes av Stortinget.</p>
@@ -136,7 +271,7 @@ d. erklæring fra minst 5 000 personer med stemmerett ved stortingsvalg, om at d
 <p>(3) Den sentrale ungdomsorganisasjonen til et politisk parti som er berettiget til stemmestøtte, kan søke departementet om statlig støtte. Støtten ytes som et likt kronebeløp per stemme partiet oppnådde ved siste stortingsvalg.</p>
 <p>(4) Søknad om støtte første år etter et valg anses å gjelde hele valgperioden så lenge søkeren ikke gir annen underretning i perioden.</p>
 <p>(5) Før statlig støtte kan utbetales, skal søker gi departementet opplysninger om hvilken bankkonto utbetalingen skal skje til og hvem som har disposisjonsrett. Bekreftelse skal gis minst én gang årlig.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="12-statlig-tilskudd-til-politiske-partiers-organisasjoner-og-ungdomsorganisasjoner-i-fylkene">§ 12. Statlig tilskudd til politiske partiers organisasjoner og ungdomsorganisasjoner i fylkene</h4>
 <p>(1) En fylkesorganisasjon for et parti kan søke om støtte. Støtten ytes som stemmestøtte og grunnstøtte. Partiorganisasjonene i Oslo kan søke om støtte både som fylkesorganisasjon og som kommuneorganisasjon, jf. § 13 .</p>
 <p>(2) Stemmestøtte ytes som et likt kronebeløp per stemme oppnådd i fylket ved siste fylkestingsvalg. Grunnstøtte ytes som et likt kronebeløp til partier som ved siste fylkestingsvalg mottok minst 4 % av stemmene i fylket eller som fikk innvalgt minst én representant i fylkestinget. Av den samlede støtte fordeles 9/10 som stemmestøtte og 1/10 som grunnstøtte.</p>
@@ -144,14 +279,14 @@ d. erklæring fra minst 5 000 personer med stemmerett ved stortingsvalg, om at d
 <p>(4) Søknaden sendes til statsforvalteren. Søknad om støtte første år etter et valg anses å gjelde hele valgperioden så lenge søkeren ikke gir annen underretning i perioden. Støtten utbetales av statsforvalteren til partienes fylkesorganisasjoner og ungdomsorganisasjoner.</p>
 <p>(5) Felleslister, bestående av partier som alle oppfyller vilkårene i kapittel 2 , kan søke om stemmestøtte og grunnstøtte. Støtten beregnes i samsvar med annet ledd. Partienes omforente forslag til fordeling legges til grunn for utbetalingene. Blir partiene på felleslisten selv ikke enige om fordelingen, skal støtten fordeles etter skjønn og med utgangspunkt i stemmetallene for partiene på landsbasis eller etter stemmetallene ved et tidligere valg.</p>
 <p>(6) Før statlig støtte kan utbetales, skal søker gi statsforvalteren opplysninger om hvilken bankkonto utbetalingen skal skje til, navn på kontoinnehaver og hvem som har disposisjonsrett. Bekreftelse skal gis minst én gang årlig.</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="13-statlig-tilskudd-til-politiske-partiers-organisasjoner-i-kommunene">§ 13. Statlig tilskudd til politiske partiers organisasjoner i kommunene</h4>
 <p>(1) En kommuneorganisasjon for et parti kan søke om støtte. Støtten ytes som stemmestøtte og grunnstøtte. Partiorganisasjonene i Oslo kan søke om støtte både som kommuneorganisasjon og som fylkesorganisasjon, jf. § 12 .</p>
 <p>(2) Stemmestøtte ytes som et likt kronebeløp per stemme oppnådd i kommunen ved siste kommunestyrevalg. Grunnstøtte ytes som et likt kronebeløp til partier som ved siste kommunestyrevalg mottok minst 4 % av stemmene i kommunen eller som fikk innvalgt minst én representant i kommunestyret. Av den samlede støtte fordeles 9/10 som stemmestøtte og 1/10 som grunnstøtte.</p>
 <p>(3) Søknaden sendes til statsforvalteren. Søknad om støtte første år etter et valg anses å gjelde hele valgperioden så lenge søkeren ikke gir annen underretning i perioden. Støtten utbetales av statsforvalteren til partienes kommuneorganisasjoner.</p>
 <p>(4) Felleslister, bestående av partier som alle oppfyller vilkårene i kapittel 2 , kan søke om stemmestøtte og grunnstøtte. Støtten beregnes i samsvar med annet ledd. Partienes omforente forslag til fordeling legges til grunn for utbetalingene. Blir partiene på felleslisten selv ikke enige om fordelingen, skal støtten fordeles etter skjønn og med utgangspunkt i stemmetallene for partiene på landsbasis eller etter stemmetallene ved et tidligere valg.</p>
 <p>(5) Før statlig støtte kan utbetales, skal søker gi statsforvalteren opplysninger om hvilken bankkonto utbetalingen skal skje til, navn på kontoinnehaver og hvem som har disposisjonsrett. Bekreftelse skal gis minst én gang årlig.</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="14-departementets-adgang-til-a-holde-tilbake-statssttten">§ 14. Departementets adgang til å holde tilbake statsstøtten</h4>
 <p>Departementet kan sette som vilkår for utbetaling av statstilskudd til et parti eller partiledd at dette har foretatt innberetning etter reglene i kapittel 4 .</p>
 <h4 id="15-klage-over-vedtak-om-statlig-sttte">§ 15. Klage over vedtak om statlig støtte</h4>
@@ -162,7 +297,7 @@ d. erklæring fra minst 5 000 personer med stemmerett ved stortingsvalg, om at d
 <p>Overskriften endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="17-adgangen-til-a-motta-bidrag">§ 17. Adgangen til å motta bidrag</h4>
 <p>Det er tillatt for alle å gi bidrag til politiske partier og partiledd med de begrensninger som følger av § 17 a .</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="17-a-forbud-mot-bidrag-fra-enkelte-bidragsytere-srskilte-plikter-i-tilknytning-til-ulovlige-bidrag">§ 17 a. Forbud mot bidrag fra enkelte bidragsytere. Særskilte plikter i tilknytning til ulovlige bidrag</h4>
 <p>(1) Politiske partier og partiledd kan ikke motta bidrag fra</p>
 <p>a. givere som er ukjente for partiet (anonyme bidrag)
@@ -176,23 +311,23 @@ c. givere som nevnt i første ledd første punktum bokstav b og c som har mottat
 <p>(3) Med bidrag menes i denne paragraf enhver form for støtte.</p>
 <p>(4) Ulovlige bidrag skal tilbakebetales til giver innen fire uker etter at de er mottatt. Bidrag som ikke kan tilbakebetales til giver, skal overføres til statskassen innen samme frist.</p>
 <p>(5) Alle politiske partier og partiledd plikter å innberette ethvert bidrag etter denne paragraf som ikke er tilbakebetalt til giver eller overført til statskassen innen fristen i fjerde ledd. Reglene i § 19 første og annet ledd og § 20 sjette ledd gjelder tilsvarende. Slik innberetning skal gis senest fem måneder etter regnskapsårets avslutning.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), endret ved lov 20 juni 2025 nr. 94 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1138 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), endret ved lov 20 juni 2025 nr. 94 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1138 ).</p>
 <h4 id="18-regnskapsplikt-bokfringsplikt-innberetningsplikt-mv">§ 18. Regnskapsplikt, bokføringsplikt, innberetningsplikt mv.</h4>
 <p>(1) Alle politiske partier og partiledd som er nevnt i § 1 tredje ledd første punktum, har regnskapsplikt og bokføringsplikt etter denne loven og forskrift gitt med hjemmel i loven.</p>
 <p>(2) Partier og partiledd som nevnt i første ledd skal avgi årlige innberetninger om inntekter og kostnader i perioden 1. januar til 31. desember samt eiendeler og gjeld per 31. desember. Innberetningen skal gis senest fem måneder etter regnskapsårets avslutning.</p>
 <p>(3) Partier eller partiledd som i løpet av året har hatt samlede inntekter på under 17 000 kroner etter fradrag av all offentlig støtte, er unntatt fra regnskapsplikt, bokføringsplikt og innberetningsplikt etter første og annet ledd. Disse plikter å gi en erklæring (forenklet innberetning) om at inntektene for året har vært under dette nivået. For øvrig gjelder de samme regler i loven for slike erklæringer som for innberetninger etter annet ledd.</p>
 <p>(4) Alle partier og partiledd har i valgår plikt til særskilt å innberette bidrag som til sammen utgjør en verdi av 15 000 kroner eller mer fra hver enkelt bidragsyter, og som er mottatt i perioden 1. januar til og med fredag før valgdagen. Innberetningen skal skje innen fire uker etter at bidraget er mottatt. Bidrag mottatt senere enn fire uker før utløp av innberetningspliktig periode i første punktum skal være innberettet innen utløpet av fredag før valgdag.</p>
 <p>(5) Innberetninger etter denne paragraf sendes det sentrale registeret for ordningen.</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 17 juni 2022 nr. 66 , 20 juni 2025 nr. 94 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1138 ).</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 17 juni 2022 nr. 66 , 20 juni 2025 nr. 94 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1138 ).</p>
 <h4 id="18-a-plikt-til-registrering-og-krav-til-regnskapssystem">§ 18 a. Plikt til registrering og krav til regnskapssystem</h4>
 <p>(1) Enhver transaksjon eller disposisjon som har virkning på sammensetning av og størrelsen på partiets eller partileddets inntekter, kostnader, gjeld eller eiendeler, skal registreres i et regnskapssystem. Opplysningene skal regnskapsføres og spesifiseres korrekt og nøyaktig og på en slik måte at det etterpå er mulig å foreta rekonstruksjon.</p>
 <p>(2) Regnskapssystemet skal være innrettet ordentlig og oversiktlig og på en måte som muliggjør innberetning til det sentrale registeret for ordningen og kontroll med at innberetningspliktige opplysninger er riktige.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="18-b-dokumentasjon-og-oppbevaring-av-regnskapsmateriale">§ 18 b. Dokumentasjon og oppbevaring av regnskapsmateriale</h4>
 <p>(1) Dokumentasjon, spesifikasjoner og annet regnskapsmateriale skal oppbevares i minst fem år. Oppbevaring skal skje i en form som opprettholder muligheten for å lese materialet.</p>
 <p>(2) Oppbevaringsplikten for regnskaps- og innberetningspliktige partiledd som legges ned, overføres til partiet eller partileddet som er nærmest i partihierarkiet.</p>
 <p>(3) Oppbevaringspliktig materiale skal på en forsvarlig måte sikres mot urettmessig endring, sletting eller tap.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="19-inntekter-som-skal-innberettes">§ 19. Inntekter som skal innberettes</h4>
 <p>(1) Innberetningen skal inneholde en fullstendig oversikt over de inntekter partiet eller partileddet har hatt i løpet av perioden.</p>
 <p>(2) Inntektene skal kategoriseres på følgende måte: Offentlig støtte:</p>
@@ -298,7 +433,7 @@ c. givere som nevnt i første ledd første punktum bokstav b og c som har mottat
 <p>(3) Med bidrag menes pengebidrag og verdien av varer, tjenester og andre tilsvarende ytelser som er mottatt vederlagsfritt eller til underpris. Ytelse fra privatpersoner som består i ordinært dugnadsarbeid som ikke krever særskilte kvalifikasjoner, eller som ikke er en del av bidragsyters inntektsgrunnlag, regnes ikke som bidrag. Det samme gjelder utlån av lokaler og gjenstander fra privatpersoner som ikke har dette som del av sitt inntektsgrunnlag.</p>
 <p>(4) Andre bidrag enn pengebidrag skal verdsettes til omsetningsverdi.</p>
 <p>(5) Andre bidrag enn pengebidrag, med verdi under beløpsgrensene i § 20 første ledd, kan unntas fra innberetning.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="20-identifisering-av-bidrag-bidragsytere-og-sponsorer-erklring-om-avtaler">§ 20. Identifisering av bidrag, bidragsytere og sponsorer. Erklæring om avtaler</h4>
 <p>(1) Dersom en bidragsyter i løpet av perioden har gitt ett eller flere bidrag til partiets hovedorganisasjon som til sammen utgjør en verdi av 51 000 kroner eller mer, skal bidragets verdi og bidragsyterens identitet oppgis særskilt. Det samme gjelder for bidrag til partiledd på fylkeskommunalt nivå som til sammen utgjør en verdi av 34 000 kroner eller mer, og for bidrag til partiledd på kommunalt nivå som til sammen utgjør en verdi av 17 000 kroner eller mer. Beløpsgrensene gjelder tilsvarende for bidrag til partienes ungdomsorganisasjoner på tilsvarende nivå.</p>
 <p>(2) Dersom det er inngått politiske eller forretningsmessige avtaler med noen bidragsytere, skal det gis erklæring om dette i innberetningen. Kravet om erklæring gjelder enhver avtale, uavhengig av beløpsgrensene i første ledd. Bidragsyters identitet skal oppgis i samsvar med femte ledd.</p>
@@ -307,41 +442,41 @@ c. givere som nevnt i første ledd første punktum bokstav b og c som har mottat
 <p>(5) Den som har gitt bidrag til en giver som nevnt i § 17 a første ledd første punktum bokstav b og c , skal identifiseres etter sjette ledd når bidraget overskrider beløpsgrensene i første ledd eller § 18 fjerde ledd . Størrelsen på bidraget skal også oppgis.</p>
 <p>(6) Privatpersoner skal identifiseres med navn og bostedskommune. Andre bidragsytere, långivere eller sponsorer skal identifiseres med navn og postadresse.</p>
 <p>(7) Givere som nevnt i § 17 a første ledd første punktum bokstav b og c kan, der det er nødvendig for at partiet eller partileddet skal kunne oppfylle innberetningsplikten etter § 20 femte ledd , lagre og gi partiet eller partileddet opplysninger som identifiserer hvem giverne har mottatt bidrag fra, og om størrelsen på bidraget.</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 20 juni 2025 nr. 94 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1138 , gjelder femte ledd, nytt sjette ledd og nytt syvende ledd), 20 juni 2025 nr. 94 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1138 , gjelder første ledd).</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 20 juni 2025 nr. 94 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1138 , gjelder femte ledd, nytt sjette ledd og nytt syvende ledd), 20 juni 2025 nr. 94 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1138 , gjelder første ledd).</p>
 <h4 id="20-a-kostnader-som-skal-innberettes">§ 20 a. Kostnader som skal innberettes</h4>
 <p>(1) Innberetningen skal inneholde en fullstendig oversikt over de kostnader partiet eller partileddet har hatt i løpet av perioden.</p>
 <p>(2) Kostnadene skal kategoriseres på følgende måte: Kostnader etter art Lønnskostnader Varekostnader Kostnader til anskaffelse av tjenester Finanskostnader Kostnader etter aktivitet Administrasjonskostnader Kostnader i forbindelse med partiaktiviteter Valgkampkostnader markedsføringstiltak andre kostnader</p>
 <p>(3) Overføringer til andre partiledd skal spesifiseres i note.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="20-b-balansetall-som-skal-innberettes">§ 20 b. Balansetall som skal innberettes</h4>
 <p>(1) Partiet eller partileddet skal gi fullstendige opplysninger om eiendeler fordelt på anleggsmidler og omløpsmidler i tillegg til kortsiktig og langsiktig gjeld.</p>
 <p>(2) Långivers identitet og lånebeløpet skal oppgis særskilt hvis låneavtalens pålydende verdi overskrider beløpsgrensene i § 20 første ledd. § 20 femte ledd gjelder tilsvarende.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 jan 2014 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="21-erklringer-signatur-og-kontaktpersoner">§ 21. Erklæringer, signatur og kontaktpersoner</h4>
 <p>(1) Innberetning etter § 18 annet og tredje ledd skal inneholde en erklæring om at partiet eller partileddet ikke har hatt inntekter, kostnader, gjeldsposter eller eiendeler som avviker fra det som er oppgitt.</p>
 <p>(2) Innberetning skal undertegnes av partiets eller partileddets leder og minst ett annet styremedlem.</p>
 <p>(3) Partiet eller partileddet skal minst én gang årlig gi det sentrale registeret for ordningen opplysninger om hvem som er oppnevnt som kontaktperson. Opplysningene skal bekreftes av partiets hovedorganisasjon.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="21-a-revisjonsplikt-srskilte-bestemmelser-om-revisjon-av-politiske-partier">§ 21 a. Revisjonsplikt. Særskilte bestemmelser om revisjon av politiske partier</h4>
 <p>(1) Partiets hovedorganisasjon har revisjonsplikt etter <a href="lov-2020-11-20-128.html">revisorloven</a> § 2-1 . Unntakene i revisorloven § 2-1 annet ledd får ikke anvendelse. Andre partiledd som er nevnt i § 1 tredje ledd annet punktum, har ikke revisjonsplikt etter loven her.</p>
 <p>(2) I tillegg til regnskapet skal det årlig gis revisor erklæring om alle innberetningspliktige forhold etter kapittel 4 i denne loven.</p>
 <p>(3) Den som reviderer og godkjenner et politisk partis regnskap etter første ledd, kan ikke samtidig være medlem av partiet eller ha en samlet engasjementstid i partiet som overstiger åtte år. For revisjonsselskap gjelder dette den som er utpekt som ansvarlig revisor.</p>
 <p>(4) Reglene om taushetsplikt i revisorloven § 6-1 1 er ikke til hinder for at revisor kan gi opplysninger om partienes regnskapsmessige disposisjoner til Partilovnemnda og Partirevisjonsutvalget.</p>
 <p>(5) For øvrig kommer revisorlovens regler til anvendelse.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).
-1 Se nå lov 20 nov 2020 nr. 128 § 10-1 .</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).
+1 Se nå lov 20 nov 2020 nr. 128 § 10-1 .</p>
 <h4 id="22-offentliggjring">§ 22. Offentliggjøring</h4>
 <p>(1) Det opprettes et sentralt register for innberetninger etter denne loven.</p>
 <p>(2) Det sentrale registeret skal sammenstille opplysningene om partienes og partileddenes innberetninger og gjøre dette offentlig tilgjengelig på hensiktsmessig måte, for eksempel ved bruk av elektroniske hjelpemidler. Registeret skal sende en oversikt til Partilovnemnda og departementet over partier eller partiledd som ikke har overholdt innberetningskravet innen fristen.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="22-a-forskrift">§ 22 a. Forskrift</h4>
 <p>(1) Nærmere regler om regnskap og bokføring, definisjon av bidrag og ytelser, bruk av revisorer, tilbakebetaling, verdifastsetting og overføring av ulovlige bidrag til statskassen, innberetningsmåten og om organiseringen av det sentrale registeret fastsettes i forskrift av departementet.</p>
 <p>(2) Departementet kan i forskrift gi regler om at innberetningssystemet helt eller delvis også skal omfatte finansieringen av valgkamper til kandidater som representerer politiske partier eller partiledd og som vinner representasjon til folkevalgte organer. Innberetning foretas som en del av partiets eller partileddets årlige innberetning etter denne loven.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="23-innsyn-i-partiers-regnskaper-og-avtaler-med-bidragsytere">§ 23. Innsyn i partiers regnskaper og avtaler med bidragsytere</h4>
 <p>(1) Partier eller partiledd som er omfattet av denne loven, plikter på forespørsel å gi enhver innsyn i det regnskap som er utarbeidet for siste år.</p>
 <p>(2) Partiet eller partileddet plikter på forespørsel å gi enhver innsyn i avtaler inngått med bidragsytere.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h2 id="kapittel-5-nemnd-for-kontroll-med-partifinansieringen-klagebehandling-mv">Kapittel 5. Nemnd for kontroll med partifinansieringen, klagebehandling mv.</h2>
 <p>Overskriften endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="24-nemnd-for-kontroll-med-partifinansieringen-og-klagebehandling">§ 24. Nemnd for kontroll med partifinansieringen og klagebehandling</h4>
@@ -357,39 +492,41 @@ e. avgjøre klager over vedtak om tildeling av statlig støtte, jf. § 15</p>
 <p>(5) Partirevisjonsutvalget skal på anmodning fra Partilovnemnda i år utenom valgår gjennomføre rutinekontroll av innberetningspliktige partiers eller partiledds etterlevelse av pliktene i kapittel 4 . Kontrollen skal være politisk nøytral og ikke omfatte områder som berører partiets eller partileddets selvstendighet eller politiske handlefrihet. Partirevisjonsutvalget skal veilede partiet eller partileddet om forståelsen av pliktene i kapittel 4 .</p>
 <p>(6) Revisorloven § 6-1 1 om taushetsplikt er ikke til hinder for at Partirevisjonsutvalget legger fram opplysninger av betydning for etterlevelsen av denne loven eller <a href="lov-2005-05-20-28.html">straffeloven</a> §§ 387 til 389 , for Partilovnemnda.</p>
 <p>(7) Enhver som utfører tjeneste eller arbeid for Partilovnemnda eller Partirevisjonsutvalget, plikter å hindre at andre får adgang eller kjennskap til det vedkommende i forbindelse med tjenesten eller arbeidet får vite om partiinterne forhold. <a href="lov-2025-06-20-81.html">Forvaltningsloven</a> § 13 a første ledd nr. 1 til 3 og § 13 b første ledd nr. 2 til 7 får likevel anvendelse.</p>
-<p><em>Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).
-1 Se nå lov 20 nov 2020 nr. 128 § 10-1 .</em></p>
+<p class="note">Endret ved lover 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).
+1 Se nå lov 20 nov 2020 nr. 128 § 10-1 .</p>
 <h4 id="25-oppnevning-av-partilovnemnda-sammensetning">§ 25. Oppnevning av Partilovnemnda. Sammensetning</h4>
 <p>(1) Nemndas medlemmer oppnevnes av Kongen i statsråd for seks år av gangen. Departementet kan ved tidsperiodens utløp forlenge mandatet inntil en ny nemnd kan oppnevnes.</p>
 <p>(2) Nemnda skal ha minst fem medlemmer. Lederen skal ha dommerkompetanse. Nemndas medlemmer kan gjenoppnevnes.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="26-nemndas-arlige-rapport">§ 26. Nemndas årlige rapport</h4>
 <p>Nemnda skal avgi årlig rapport om sin virksomhet. Rapporten overleveres departementet innen 1. oktober.</p>
 <h4 id="27-forskrift">§ 27. Forskrift</h4>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om nemndas virksomhet og sammensetning. Departementet kan videre gi forskrift om klagerett over nemndas avgjørelser i saker om dokumentinnsyn etter forvaltningsloven og offentlighetsloven og saksomkostninger etter forvaltningsloven § 36 . Departementet kan i forskrift gi tilsvarende bestemmelser om Partirevisjonsutvalget.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h2 id="kapittel-6-administrative-sanksjoner-inndragning-og-straff">Kapittel 6. Administrative sanksjoner, inndragning og straff</h2>
 <p>Kapitlet tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="28-administrative-sanksjoner">§ 28. Administrative sanksjoner</h4>
 <p>(1) Ved brudd på reglene i kapittel 4 avgjør Partilovnemnda hvor mye den statlige partistøtten skal avkortes. Førstegangsregelbrudd av mindre omfang kan sanksjoneres med formell advarsel. Ved fastsettelsen av avkortingen skal det blant annet legges vekt på hvor mye støtte partiet eller partileddet kan søke om i det aktuelle året og overtredelsens grovhet og varighet. Departementet kan i forskrift gi nærmere regler om avkortingen.</p>
 <p>(2) Domstolene kan prøve alle sider av Partilovnemndas vedtak etter paragrafen her.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="29-inndragning">§ 29. Inndragning</h4>
 <p>(1) Partilovnemnda skal ved brudd på bestemmelsene i § 17 a første til fjerde ledd treffe vedtak om inndragning inntil den fulle verdien av det ulovlig mottatte bidraget.</p>
 <p>(2) § 28 annet ledd gjelder tilsvarende.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h4 id="30-straff">§ 30. Straff</h4>
 <p>(1) Den som forsettlig eller grovt uaktsomt gir vesentlig uriktige opplysninger i forbindelse med innberetningsplikten i kapittel 4 , straffes med bøter eller fengsel inntil 2 år.</p>
 <p>(2) Den som forsettlig eller grovt uaktsomt gjør seg skyldig i vesentlig brudd eller gjentatte brudd på bestemmelsene i § 17 a , straffes med bøter eller fengsel i inntil 2 år.</p>
-<p><em>Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</em></p>
+<p class="note">Tilføyd ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 ).</p>
 <h2 id="kapittel-7-ikrafttredelses-og-overgangsregler">Kapittel 7. Ikrafttredelses- og overgangsregler</h2>
 <p>Overskriften endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 , tidligere kapittel 6).</p>
 <h4 id="31-ikrafttredelse-og-overgangsbestemmelser">§ 31. Ikrafttredelse og overgangsbestemmelser</h4>
 <p>(1) Loven gjelder fra den tid Kongen bestemmer. 1 Fra samme tid oppheves kapittel 5 i lov 28. juni 2002 nr. 57 om valg til Stortinget, fylkesting og kommunestyrer (valgloven).</p>
 <p>(2) Kongen bestemmer når lov 22. mai 1998 nr. 30 om offentliggjøring av politiske partiers inntekter oppheves.</p>
 <p>(3) Departementet kan gi nærmere overgangsbestemmelser.</p>
-<p><em>Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 , tidligere § 28).
-1 Kapittel 4 i kraft fra 1 juli 2005 iflg. res. 17 juni 2005 nr. 635 . Lov 22 mai 1998 nr. 30 om offentliggjøring av politiske partiers inntekter ble opphevet fra samme dato. Øvrige deler av loven ble satt i kraft 1 jan 2006. Kapittel 5 i lov 28 juni 2002 nr. 57 om valg til Stortinget, fylkesting og kommunestyrer (valgloven) ble opphevet fra samme dato.</em></p>
+<p class="note">Endret ved lov 1 feb 2013 nr. 6 (ikr. 1 mars 2013 iflg. res. 1 feb 2013 nr. 128 , tidligere § 28).
+1 Kapittel 4 i kraft fra 1 juli 2005 iflg. res. 17 juni 2005 nr. 635 . Lov 22 mai 1998 nr. 30 om offentliggjøring av politiske partiers inntekter ble opphevet fra samme dato. Øvrige deler av loven ble satt i kraft 1 jan 2006. Kapittel 5 i lov 28 juni 2002 nr. 57 om valg til Stortinget, fylkesting og kommunestyrer (valgloven) ble opphevet fra samme dato.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

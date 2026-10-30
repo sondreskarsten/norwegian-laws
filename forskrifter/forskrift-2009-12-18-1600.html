@@ -19,64 +19,407 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-18-1600.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Damsikkerhetsforskriften" href="../feeds/forskrift-2009-12-18-1600.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Damsikkerhetsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-12-18-1600</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-05-16-706</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1600" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-myndighet">§ 1-2. Myndighet</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-virkeomrade">§ 1-4. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisatoriske-krav">Kapittel 2. Organisatoriske krav</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-organisasjon">§ 2-1. Krav til organisasjon</a></li>
+<li class="lvl4"><a href="#2-2-den-ansvarlige">§ 2-2. Den ansvarlige</a></li>
+<li class="lvl4"><a href="#2-3-leder">§ 2-3. Leder</a></li>
+<li class="lvl4"><a href="#2-4-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">§ 2-4. Vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#2-5-tilsynspersonell">§ 2-5. Tilsynspersonell</a></li>
+<li class="lvl4"><a href="#2-6-fagansvarlig">§ 2-6. Fagansvarlig</a></li>
+<li class="lvl4"><a href="#2-7-utfrende-foretak-og-anleggsleder">§ 2-7. Utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#2-8-kontrollr">§ 2-8. Kontrollør</a></li>
+<li class="lvl4"><a href="#2-9-melding-om-overfring-av-ansvaret-for-vassdragsanlegg">§ 2-9. Melding om overføring av ansvaret for vassdragsanlegg</a></li>
+<li class="lvl4"><a href="#2-10-innrapportering">§ 2-10. Innrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-3-faglige-kvalifikasjoner">Kapittel 3. Faglige kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#3-1-kvalifikasjonskrav">§ 3-1. Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#3-2-kvalifikasjonskrav-til-leder">§ 3-2. Kvalifikasjonskrav til leder</a></li>
+<li class="lvl4"><a href="#3-3-kvalifikasjonskrav-til-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">§ 3-3. Kvalifikasjonskrav til vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#3-4-kvalifikasjonskrav-til-tilsynspersonell">§ 3-4. Kvalifikasjonskrav til tilsynspersonell</a></li>
+<li class="lvl4"><a href="#3-5-kvalifikasjonskrav-til-fagansvarlig">§ 3-5. Kvalifikasjonskrav til fagansvarlig</a></li>
+<li class="lvl4"><a href="#3-6-godkjenning-av-vta-og-stedfortredende-vta">§ 3-6. Godkjenning av VTA og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#3-7-godkjenning-av-fagansvarlig">§ 3-7. Godkjenning av fagansvarlig</a></li>
+<li class="lvl4"><a href="#3-8-kvalifikasjonskrav-til-utfrende-foretak-og-anleggsleder">§ 3-8. Kvalifikasjonskrav til utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#3-9-kvalifikasjonskrav-til-kontrollr">§ 3-9. Kvalifikasjonskrav til kontrollør</a></li>
+<li class="lvl2"><a href="#kapittel-4-klassifisering">Kapittel 4. Klassifisering</a></li>
+<li class="lvl4"><a href="#4-1-klassifisering">§ 4-1. Klassifisering</a></li>
+<li class="lvl4"><a href="#4-2-klassifiseringskriterier">§ 4-2. Klassifiseringskriterier</a></li>
+<li class="lvl4"><a href="#4-3-dokumentasjon">§ 4-3. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-tekniske-planer-og-krav">Kapittel 5. Tekniske planer og krav</a></li>
+<li class="lvl4"><a href="#5-1-tekniske-krav">§ 5-1. Tekniske krav</a></li>
+<li class="lvl4"><a href="#5-2-tekniske-planer">§ 5-2. Tekniske planer</a></li>
+<li class="lvl4"><a href="#5-3-laster">§ 5-3. Laster</a></li>
+<li class="lvl4"><a href="#5-4-dimensjonering">§ 5-4. Dimensjonering</a></li>
+<li class="lvl4"><a href="#5-5-materialer-og-dimensjonerende-materialegenskaper">§ 5-5. Materialer og dimensjonerende materialegenskaper</a></li>
+<li class="lvl4"><a href="#5-6-utforming-og-atkomst">§ 5-6. Utforming og atkomst</a></li>
+<li class="lvl4"><a href="#5-7-flomberegninger">§ 5-7. Flomberegninger</a></li>
+<li class="lvl4"><a href="#5-8-flomlp-og-flomavledning">§ 5-8. Flomløp og flomavledning</a></li>
+<li class="lvl4"><a href="#5-9-senking-av-magasin">§ 5-9. Senking av magasin</a></li>
+<li class="lvl4"><a href="#5-10-fyllingsdammer">§ 5-10. Fyllingsdammer</a></li>
+<li class="lvl4"><a href="#5-11-betongdammer">§ 5-11. Betongdammer</a></li>
+<li class="lvl4"><a href="#5-12-murdammer">§ 5-12. Murdammer</a></li>
+<li class="lvl4"><a href="#5-13-andre-damtyper">§ 5-13. Andre damtyper</a></li>
+<li class="lvl4"><a href="#5-14-stenge-og-tappeorganer">§ 5-14. Stenge- og tappeorganer</a></li>
+<li class="lvl4"><a href="#5-15-rr-og-tverrslagsporter">§ 5-15. Rør og tverrslagsporter</a></li>
+<li class="lvl4"><a href="#5-16-andre-konstruksjoner-og-konstruksjonsdeler">§ 5-16. Andre konstruksjoner og konstruksjonsdeler</a></li>
+<li class="lvl2"><a href="#kapittel-6-bygging-og-idriftsettelse">Kapittel 6. Bygging og idriftsettelse</a></li>
+<li class="lvl4"><a href="#6-1-bygging">§ 6-1. Bygging</a></li>
+<li class="lvl4"><a href="#6-2-idriftsettelse">§ 6-2. Idriftsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-7-drift">Kapittel 7. Drift</a></li>
+<li class="lvl4"><a href="#7-1-driftsprosedyrer">§ 7-1. Driftsprosedyrer</a></li>
+<li class="lvl4"><a href="#7-2-overvaking">§ 7-2. Overvåking</a></li>
+<li class="lvl4"><a href="#7-3-dambruddsblgeberegninger">§ 7-3. Dambruddsbølgeberegninger</a></li>
+<li class="lvl4"><a href="#7-4-beredskap">§ 7-4. Beredskap</a></li>
+<li class="lvl4"><a href="#7-5-revurdering">§ 7-5. Revurdering</a></li>
+<li class="lvl4"><a href="#7-6-sikringstiltak-av-hensyn-til-allmennheten">§ 7-6. Sikringstiltak av hensyn til allmennheten</a></li>
+<li class="lvl4"><a href="#7-7-atkomsthindring">§ 7-7. Atkomsthindring</a></li>
+<li class="lvl4"><a href="#7-8-informasjonssikkerhet">§ 7-8. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#7-9-dambruddsvarsling">§ 7-9. Dambruddsvarsling</a></li>
+<li class="lvl4"><a href="#7-10-srlige-sikringstiltak">§ 7-10. Særlige sikringstiltak</a></li>
+<li class="lvl4"><a href="#7-11-melding-om-ulykke-eller-unsket-hendelse">§ 7-11. Melding om ulykke eller uønsket hendelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-fellesbestemmelser">Kapittel 8. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-opplysningsplikt">§ 8-1. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#8-2-dispensasjoner-og-skjerpede-krav">§ 8-2. Dispensasjoner og skjerpede krav</a></li>
+<li class="lvl4"><a href="#8-3-sektoravgift">§ 8-3. Sektoravgift</a></li>
+<li class="lvl2"><a href="#kapittel-9-gjennomfring-av-forskriften">Kapittel 9. Gjennomføring av forskriften</a></li>
+<li class="lvl4"><a href="#9-1-tilbaketrekking-av-godkjenning-som-vta-eller-fagansvarlig">§ 9-1. Tilbaketrekking av godkjenning som VTA eller fagansvarlig</a></li>
+<li class="lvl4"><a href="#9-2-palegg-om-retting-tvangsmulkt-og-umiddelbar-iverksetting">§ 9-2. Pålegg om retting, tvangsmulkt og umiddelbar iverksetting</a></li>
+<li class="lvl4"><a href="#9-3-overtredelsesgebyr">§ 9-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#9-4-straff">§ 9-4. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-10-ikrafttredelse">Kapittel 10. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-1-forskriftens-ikrafttreden">§ 10-1. Forskriftens ikrafttreden</a></li>
+<li class="lvl4"><a href="#10-2-overgangsbestemmelse">§ 10-2. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-bestemmelser">Merknader til de enkelte bestemmelser</a></li>
+<li class="lvl3"><a href="#til-kapittel-1-formal-og-virkeomrade">Til kapittel 1 Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#til-1-1-formal">Til § 1-1 Formål</a></li>
+<li class="lvl4"><a href="#til-1-2-myndighet">Til § 1-2 Myndighet</a></li>
+<li class="lvl4"><a href="#til-1-3-definisjoner">Til § 1-3 Definisjoner</a></li>
+<li class="lvl4"><a href="#til-1-4-virkeomrade">Til § 1-4 Virkeområde</a></li>
+<li class="lvl3"><a href="#til-kapittel-2-organisatoriske-krav">Til kapittel 2 Organisatoriske krav</a></li>
+<li class="lvl4"><a href="#til-2-1-krav-til-organisasjon">Til § 2-1 Krav til organisasjon</a></li>
+<li class="lvl4"><a href="#til-2-2-den-ansvarlige">Til § 2-2 Den ansvarlige</a></li>
+<li class="lvl4"><a href="#til-2-3-leder">Til § 2-3 Leder</a></li>
+<li class="lvl4"><a href="#til-2-4-vassdragsteknisk-ansvarlig">Til § 2-4 Vassdragsteknisk ansvarlig</a></li>
+<li class="lvl4"><a href="#til-2-5-tilsynspersonell">Til § 2-5 Tilsynspersonell</a></li>
+<li class="lvl4"><a href="#til-2-6-fagansvarlig">Til § 2-6 Fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-2-7-utfrende-foretak-og-anleggsleder">Til § 2-7 Utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#til-2-8-kontrollr">Til § 2-8 Kontrollør</a></li>
+<li class="lvl4"><a href="#til-2-9-melding-om-overfring-av-ansvaret-for-vassdraganlegg">Til § 2-9 Melding om overføring av ansvaret for vassdraganlegg</a></li>
+<li class="lvl4"><a href="#til-2-10-innrapportering">Til § 2-10 Innrapportering</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-faglige-kvalifikasjoner">Til kapittel 3 Faglige kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#til-3-1-kvalifikasjonskrav">Til § 3-1 Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#til-3-2-kvalifikasjonskrav-til-leder">Til § 3-2 Kvalifikasjonskrav til leder</a></li>
+<li class="lvl4"><a href="#til-3-3-kvalifikasjonskrav-til-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">Til § 3-3 Kvalifikasjonskrav til vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#til-3-4-kvalifikasjonskrav-til-tilsynspersonell">Til § 3-4 Kvalifikasjonskrav til tilsynspersonell</a></li>
+<li class="lvl4"><a href="#til-3-5-kvalifikasjonskrav-til-fagansvarlig">Til § 3-5 Kvalifikasjonskrav til fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-3-6-godkjenning-av-vta-og-stedfortredende-vta">Til § 3-6 Godkjenning av VTA og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#til-3-7-godkjenning-av-fagansvarlig">Til § 3-7 Godkjenning av fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-3-8-kvalifikasjonskrav-til-utfrende-foretak-og-anleggsleder">Til § 3-8 Kvalifikasjonskrav til utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#til-3-9-kvalifikasjonskrav-til-den-som-kontrollerer-bygging-og-fornyelse-av-vassdragsanlegg">Til § 3-9 Kvalifikasjonskrav til den som kontrollerer bygging og fornyelse av vassdragsanlegg</a></li>
+<li class="lvl3"><a href="#til-kapittel-4-klassifisering">Til kapittel 4 Klassifisering</a></li>
+<li class="lvl4"><a href="#til-4-1-klassifisering">Til § 4-1 Klassifisering</a></li>
+<li class="lvl4"><a href="#til-4-2-klassifiseringskriterier">Til § 4-2 Klassifiseringskriterier</a></li>
+<li class="lvl4"><a href="#til-4-3-dokumentasjon">Til § 4-3 Dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-kapittel-5-tekniske-planer-og-krav">Til kapittel 5 Tekniske planer og krav</a></li>
+<li class="lvl4"><a href="#til-5-1-tekniske-krav">Til § 5-1 Tekniske krav</a></li>
+<li class="lvl4"><a href="#til-5-2-tekniske-planer">Til § 5-2 Tekniske planer</a></li>
+<li class="lvl4"><a href="#til-5-3-laster">Til § 5-3 Laster</a></li>
+<li class="lvl4"><a href="#til-5-4-dimensjonering">Til § 5-4 Dimensjonering</a></li>
+<li class="lvl4"><a href="#til-5-5-materialer-og-dimensjonerende-materialegenskaper">Til § 5-5 Materialer og dimensjonerende materialegenskaper</a></li>
+<li class="lvl4"><a href="#til-5-6-utforming-og-atkomst">Til § 5-6 Utforming og atkomst</a></li>
+<li class="lvl4"><a href="#til-5-7-flomberegninger">Til § 5-7 Flomberegninger</a></li>
+<li class="lvl4"><a href="#til-5-8-flomlp-og-flomavledning">Til § 5-8 Flomløp og flomavledning</a></li>
+<li class="lvl4"><a href="#til-5-9-senking-av-magasin">Til § 5-9 Senking av magasin</a></li>
+<li class="lvl4"><a href="#til-5-10-fyllingsdammer">Til § 5-10 Fyllingsdammer</a></li>
+<li class="lvl4"><a href="#til-5-11-betongdammer">Til § 5-11 Betongdammer</a></li>
+<li class="lvl4"><a href="#til-5-12-murdammer">Til § 5-12 Murdammer</a></li>
+<li class="lvl4"><a href="#til-5-13-andre-damtyper">Til § 5-13 Andre damtyper</a></li>
+<li class="lvl4"><a href="#til-5-14-stenge-og-tappeorganer">Til § 5-14 Stenge- og tappeorganer</a></li>
+<li class="lvl4"><a href="#til-5-15-rr-og-tverrslagsporter">Til § 5-15 Rør og tverrslagsporter</a></li>
+<li class="lvl4"><a href="#til-5-16-andre-konstruksjoner-og-konstruksjonsdeler">Til § 5-16 Andre konstruksjoner og konstruksjonsdeler</a></li>
+<li class="lvl3"><a href="#til-kapittel-6-bygging-og-idriftsettelse">Til kapittel 6 Bygging og idriftsettelse</a></li>
+<li class="lvl4"><a href="#til-6-1-bygging">Til § 6-1 Bygging</a></li>
+<li class="lvl4"><a href="#til-6-2-idriftsettelse">Til § 6-2 Idriftsettelse</a></li>
+<li class="lvl3"><a href="#til-kapittel-7-drift">Til kapittel 7 Drift</a></li>
+<li class="lvl4"><a href="#til-7-1-driftsprosedyrer">Til § 7-1 Driftsprosedyrer</a></li>
+<li class="lvl4"><a href="#til-7-2-overvaking">Til § 7-2 Overvåking</a></li>
+<li class="lvl4"><a href="#til-7-3-dambruddsblgeberegninger">Til § 7-3 Dambruddsbølgeberegninger</a></li>
+<li class="lvl4"><a href="#til-7-4-beredskap">Til § 7-4 Beredskap</a></li>
+<li class="lvl4"><a href="#til-7-5-revurdering">Til § 7-5 Revurdering</a></li>
+<li class="lvl4"><a href="#til-7-6-sikringstiltak-av-hensyn-til-allmennheten">Til § 7-6 Sikringstiltak av hensyn til allmennheten</a></li>
+<li class="lvl4"><a href="#til-7-7-atkomsthindring">Til § 7-7 Atkomsthindring</a></li>
+<li class="lvl4"><a href="#til-7-8-informasjonssikkerhet">Til § 7-8 Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#til-7-9-dambruddsvarsling">Til § 7-9 Dambruddsvarsling</a></li>
+<li class="lvl4"><a href="#til-7-10-srlige-sikringstiltak">Til § 7-10 Særlige sikringstiltak</a></li>
+<li class="lvl4"><a href="#til-7-11-melding-om-ulykke-eller-unsket-hendelse">Til § 7-11 Melding om ulykke eller uønsket hendelse</a></li>
+<li class="lvl3"><a href="#til-kapittel-8-fellesbestemmelser">Til kapittel 8 Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#til-8-1-opplysningsplikt">Til § 8-1 Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#til-8-2-dispensasjoner-og-skjerpede-krav">Til § 8-2 Dispensasjoner og skjerpede krav</a></li>
+<li class="lvl4"><a href="#til-8-3-gebyr">Til § 8-3 Gebyr</a></li>
+<li class="lvl3"><a href="#til-kapittel-9-gjennomfring-av-forskriften">Til kapittel 9 Gjennomføring av forskriften</a></li>
+<li class="lvl4"><a href="#til-9-1-tilbaketrekking-av-godkjenning-som-vta-eller-fagansvarlig">Til § 9-1 Tilbaketrekking av godkjenning som VTA eller fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-9-2-palegg-om-retting-tvangsmulkt-og-umiddelbar-iverksetting">Til § 9-2 Pålegg om retting, tvangsmulkt og umiddelbar iverksetting</a></li>
+<li class="lvl4"><a href="#til-9-3-overtredelsesgebyr">Til § 9-3 Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#til-9-4-straff">Til § 9-4 Straff</a></li>
+<li class="lvl3"><a href="#til-kapittel-10-ikrafttreden">Til kapittel 10 Ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-10-1-ikrafttreden">Til § 10-1 Ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-10-2-overgangsbestemmelse">Til § 10-2 Overgangsbestemmelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-05-16-706.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1600.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om sikkerhet ved vassdragsanlegg (damsikkerhetsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1600.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-12-18-1600 <code>forskrift/2009-12-18-1600</code></td></tr>
+<tr><th>Korttittel</th><td>Damsikkerhetsforskriften</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-05-16-706 <code>forskrift/2023-05-16-706</code> fra 01.07.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1600" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-myndighet">§ 1-2. Myndighet</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-virkeomrade">§ 1-4. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisatoriske-krav">Kapittel 2. Organisatoriske krav</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-organisasjon">§ 2-1. Krav til organisasjon</a></li>
+<li class="lvl4"><a href="#2-2-den-ansvarlige">§ 2-2. Den ansvarlige</a></li>
+<li class="lvl4"><a href="#2-3-leder">§ 2-3. Leder</a></li>
+<li class="lvl4"><a href="#2-4-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">§ 2-4. Vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#2-5-tilsynspersonell">§ 2-5. Tilsynspersonell</a></li>
+<li class="lvl4"><a href="#2-6-fagansvarlig">§ 2-6. Fagansvarlig</a></li>
+<li class="lvl4"><a href="#2-7-utfrende-foretak-og-anleggsleder">§ 2-7. Utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#2-8-kontrollr">§ 2-8. Kontrollør</a></li>
+<li class="lvl4"><a href="#2-9-melding-om-overfring-av-ansvaret-for-vassdragsanlegg">§ 2-9. Melding om overføring av ansvaret for vassdragsanlegg</a></li>
+<li class="lvl4"><a href="#2-10-innrapportering">§ 2-10. Innrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-3-faglige-kvalifikasjoner">Kapittel 3. Faglige kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#3-1-kvalifikasjonskrav">§ 3-1. Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#3-2-kvalifikasjonskrav-til-leder">§ 3-2. Kvalifikasjonskrav til leder</a></li>
+<li class="lvl4"><a href="#3-3-kvalifikasjonskrav-til-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">§ 3-3. Kvalifikasjonskrav til vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#3-4-kvalifikasjonskrav-til-tilsynspersonell">§ 3-4. Kvalifikasjonskrav til tilsynspersonell</a></li>
+<li class="lvl4"><a href="#3-5-kvalifikasjonskrav-til-fagansvarlig">§ 3-5. Kvalifikasjonskrav til fagansvarlig</a></li>
+<li class="lvl4"><a href="#3-6-godkjenning-av-vta-og-stedfortredende-vta">§ 3-6. Godkjenning av VTA og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#3-7-godkjenning-av-fagansvarlig">§ 3-7. Godkjenning av fagansvarlig</a></li>
+<li class="lvl4"><a href="#3-8-kvalifikasjonskrav-til-utfrende-foretak-og-anleggsleder">§ 3-8. Kvalifikasjonskrav til utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#3-9-kvalifikasjonskrav-til-kontrollr">§ 3-9. Kvalifikasjonskrav til kontrollør</a></li>
+<li class="lvl2"><a href="#kapittel-4-klassifisering">Kapittel 4. Klassifisering</a></li>
+<li class="lvl4"><a href="#4-1-klassifisering">§ 4-1. Klassifisering</a></li>
+<li class="lvl4"><a href="#4-2-klassifiseringskriterier">§ 4-2. Klassifiseringskriterier</a></li>
+<li class="lvl4"><a href="#4-3-dokumentasjon">§ 4-3. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-tekniske-planer-og-krav">Kapittel 5. Tekniske planer og krav</a></li>
+<li class="lvl4"><a href="#5-1-tekniske-krav">§ 5-1. Tekniske krav</a></li>
+<li class="lvl4"><a href="#5-2-tekniske-planer">§ 5-2. Tekniske planer</a></li>
+<li class="lvl4"><a href="#5-3-laster">§ 5-3. Laster</a></li>
+<li class="lvl4"><a href="#5-4-dimensjonering">§ 5-4. Dimensjonering</a></li>
+<li class="lvl4"><a href="#5-5-materialer-og-dimensjonerende-materialegenskaper">§ 5-5. Materialer og dimensjonerende materialegenskaper</a></li>
+<li class="lvl4"><a href="#5-6-utforming-og-atkomst">§ 5-6. Utforming og atkomst</a></li>
+<li class="lvl4"><a href="#5-7-flomberegninger">§ 5-7. Flomberegninger</a></li>
+<li class="lvl4"><a href="#5-8-flomlp-og-flomavledning">§ 5-8. Flomløp og flomavledning</a></li>
+<li class="lvl4"><a href="#5-9-senking-av-magasin">§ 5-9. Senking av magasin</a></li>
+<li class="lvl4"><a href="#5-10-fyllingsdammer">§ 5-10. Fyllingsdammer</a></li>
+<li class="lvl4"><a href="#5-11-betongdammer">§ 5-11. Betongdammer</a></li>
+<li class="lvl4"><a href="#5-12-murdammer">§ 5-12. Murdammer</a></li>
+<li class="lvl4"><a href="#5-13-andre-damtyper">§ 5-13. Andre damtyper</a></li>
+<li class="lvl4"><a href="#5-14-stenge-og-tappeorganer">§ 5-14. Stenge- og tappeorganer</a></li>
+<li class="lvl4"><a href="#5-15-rr-og-tverrslagsporter">§ 5-15. Rør og tverrslagsporter</a></li>
+<li class="lvl4"><a href="#5-16-andre-konstruksjoner-og-konstruksjonsdeler">§ 5-16. Andre konstruksjoner og konstruksjonsdeler</a></li>
+<li class="lvl2"><a href="#kapittel-6-bygging-og-idriftsettelse">Kapittel 6. Bygging og idriftsettelse</a></li>
+<li class="lvl4"><a href="#6-1-bygging">§ 6-1. Bygging</a></li>
+<li class="lvl4"><a href="#6-2-idriftsettelse">§ 6-2. Idriftsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-7-drift">Kapittel 7. Drift</a></li>
+<li class="lvl4"><a href="#7-1-driftsprosedyrer">§ 7-1. Driftsprosedyrer</a></li>
+<li class="lvl4"><a href="#7-2-overvaking">§ 7-2. Overvåking</a></li>
+<li class="lvl4"><a href="#7-3-dambruddsblgeberegninger">§ 7-3. Dambruddsbølgeberegninger</a></li>
+<li class="lvl4"><a href="#7-4-beredskap">§ 7-4. Beredskap</a></li>
+<li class="lvl4"><a href="#7-5-revurdering">§ 7-5. Revurdering</a></li>
+<li class="lvl4"><a href="#7-6-sikringstiltak-av-hensyn-til-allmennheten">§ 7-6. Sikringstiltak av hensyn til allmennheten</a></li>
+<li class="lvl4"><a href="#7-7-atkomsthindring">§ 7-7. Atkomsthindring</a></li>
+<li class="lvl4"><a href="#7-8-informasjonssikkerhet">§ 7-8. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#7-9-dambruddsvarsling">§ 7-9. Dambruddsvarsling</a></li>
+<li class="lvl4"><a href="#7-10-srlige-sikringstiltak">§ 7-10. Særlige sikringstiltak</a></li>
+<li class="lvl4"><a href="#7-11-melding-om-ulykke-eller-unsket-hendelse">§ 7-11. Melding om ulykke eller uønsket hendelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-fellesbestemmelser">Kapittel 8. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-opplysningsplikt">§ 8-1. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#8-2-dispensasjoner-og-skjerpede-krav">§ 8-2. Dispensasjoner og skjerpede krav</a></li>
+<li class="lvl4"><a href="#8-3-sektoravgift">§ 8-3. Sektoravgift</a></li>
+<li class="lvl2"><a href="#kapittel-9-gjennomfring-av-forskriften">Kapittel 9. Gjennomføring av forskriften</a></li>
+<li class="lvl4"><a href="#9-1-tilbaketrekking-av-godkjenning-som-vta-eller-fagansvarlig">§ 9-1. Tilbaketrekking av godkjenning som VTA eller fagansvarlig</a></li>
+<li class="lvl4"><a href="#9-2-palegg-om-retting-tvangsmulkt-og-umiddelbar-iverksetting">§ 9-2. Pålegg om retting, tvangsmulkt og umiddelbar iverksetting</a></li>
+<li class="lvl4"><a href="#9-3-overtredelsesgebyr">§ 9-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#9-4-straff">§ 9-4. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-10-ikrafttredelse">Kapittel 10. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-1-forskriftens-ikrafttreden">§ 10-1. Forskriftens ikrafttreden</a></li>
+<li class="lvl4"><a href="#10-2-overgangsbestemmelse">§ 10-2. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-bestemmelser">Merknader til de enkelte bestemmelser</a></li>
+<li class="lvl3"><a href="#til-kapittel-1-formal-og-virkeomrade">Til kapittel 1 Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#til-1-1-formal">Til § 1-1 Formål</a></li>
+<li class="lvl4"><a href="#til-1-2-myndighet">Til § 1-2 Myndighet</a></li>
+<li class="lvl4"><a href="#til-1-3-definisjoner">Til § 1-3 Definisjoner</a></li>
+<li class="lvl4"><a href="#til-1-4-virkeomrade">Til § 1-4 Virkeområde</a></li>
+<li class="lvl3"><a href="#til-kapittel-2-organisatoriske-krav">Til kapittel 2 Organisatoriske krav</a></li>
+<li class="lvl4"><a href="#til-2-1-krav-til-organisasjon">Til § 2-1 Krav til organisasjon</a></li>
+<li class="lvl4"><a href="#til-2-2-den-ansvarlige">Til § 2-2 Den ansvarlige</a></li>
+<li class="lvl4"><a href="#til-2-3-leder">Til § 2-3 Leder</a></li>
+<li class="lvl4"><a href="#til-2-4-vassdragsteknisk-ansvarlig">Til § 2-4 Vassdragsteknisk ansvarlig</a></li>
+<li class="lvl4"><a href="#til-2-5-tilsynspersonell">Til § 2-5 Tilsynspersonell</a></li>
+<li class="lvl4"><a href="#til-2-6-fagansvarlig">Til § 2-6 Fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-2-7-utfrende-foretak-og-anleggsleder">Til § 2-7 Utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#til-2-8-kontrollr">Til § 2-8 Kontrollør</a></li>
+<li class="lvl4"><a href="#til-2-9-melding-om-overfring-av-ansvaret-for-vassdraganlegg">Til § 2-9 Melding om overføring av ansvaret for vassdraganlegg</a></li>
+<li class="lvl4"><a href="#til-2-10-innrapportering">Til § 2-10 Innrapportering</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-faglige-kvalifikasjoner">Til kapittel 3 Faglige kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#til-3-1-kvalifikasjonskrav">Til § 3-1 Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#til-3-2-kvalifikasjonskrav-til-leder">Til § 3-2 Kvalifikasjonskrav til leder</a></li>
+<li class="lvl4"><a href="#til-3-3-kvalifikasjonskrav-til-vassdragsteknisk-ansvarlig-vta-og-stedfortredende-vta">Til § 3-3 Kvalifikasjonskrav til vassdragsteknisk ansvarlig (VTA) og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#til-3-4-kvalifikasjonskrav-til-tilsynspersonell">Til § 3-4 Kvalifikasjonskrav til tilsynspersonell</a></li>
+<li class="lvl4"><a href="#til-3-5-kvalifikasjonskrav-til-fagansvarlig">Til § 3-5 Kvalifikasjonskrav til fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-3-6-godkjenning-av-vta-og-stedfortredende-vta">Til § 3-6 Godkjenning av VTA og stedfortredende VTA</a></li>
+<li class="lvl4"><a href="#til-3-7-godkjenning-av-fagansvarlig">Til § 3-7 Godkjenning av fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-3-8-kvalifikasjonskrav-til-utfrende-foretak-og-anleggsleder">Til § 3-8 Kvalifikasjonskrav til utførende foretak og anleggsleder</a></li>
+<li class="lvl4"><a href="#til-3-9-kvalifikasjonskrav-til-den-som-kontrollerer-bygging-og-fornyelse-av-vassdragsanlegg">Til § 3-9 Kvalifikasjonskrav til den som kontrollerer bygging og fornyelse av vassdragsanlegg</a></li>
+<li class="lvl3"><a href="#til-kapittel-4-klassifisering">Til kapittel 4 Klassifisering</a></li>
+<li class="lvl4"><a href="#til-4-1-klassifisering">Til § 4-1 Klassifisering</a></li>
+<li class="lvl4"><a href="#til-4-2-klassifiseringskriterier">Til § 4-2 Klassifiseringskriterier</a></li>
+<li class="lvl4"><a href="#til-4-3-dokumentasjon">Til § 4-3 Dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-kapittel-5-tekniske-planer-og-krav">Til kapittel 5 Tekniske planer og krav</a></li>
+<li class="lvl4"><a href="#til-5-1-tekniske-krav">Til § 5-1 Tekniske krav</a></li>
+<li class="lvl4"><a href="#til-5-2-tekniske-planer">Til § 5-2 Tekniske planer</a></li>
+<li class="lvl4"><a href="#til-5-3-laster">Til § 5-3 Laster</a></li>
+<li class="lvl4"><a href="#til-5-4-dimensjonering">Til § 5-4 Dimensjonering</a></li>
+<li class="lvl4"><a href="#til-5-5-materialer-og-dimensjonerende-materialegenskaper">Til § 5-5 Materialer og dimensjonerende materialegenskaper</a></li>
+<li class="lvl4"><a href="#til-5-6-utforming-og-atkomst">Til § 5-6 Utforming og atkomst</a></li>
+<li class="lvl4"><a href="#til-5-7-flomberegninger">Til § 5-7 Flomberegninger</a></li>
+<li class="lvl4"><a href="#til-5-8-flomlp-og-flomavledning">Til § 5-8 Flomløp og flomavledning</a></li>
+<li class="lvl4"><a href="#til-5-9-senking-av-magasin">Til § 5-9 Senking av magasin</a></li>
+<li class="lvl4"><a href="#til-5-10-fyllingsdammer">Til § 5-10 Fyllingsdammer</a></li>
+<li class="lvl4"><a href="#til-5-11-betongdammer">Til § 5-11 Betongdammer</a></li>
+<li class="lvl4"><a href="#til-5-12-murdammer">Til § 5-12 Murdammer</a></li>
+<li class="lvl4"><a href="#til-5-13-andre-damtyper">Til § 5-13 Andre damtyper</a></li>
+<li class="lvl4"><a href="#til-5-14-stenge-og-tappeorganer">Til § 5-14 Stenge- og tappeorganer</a></li>
+<li class="lvl4"><a href="#til-5-15-rr-og-tverrslagsporter">Til § 5-15 Rør og tverrslagsporter</a></li>
+<li class="lvl4"><a href="#til-5-16-andre-konstruksjoner-og-konstruksjonsdeler">Til § 5-16 Andre konstruksjoner og konstruksjonsdeler</a></li>
+<li class="lvl3"><a href="#til-kapittel-6-bygging-og-idriftsettelse">Til kapittel 6 Bygging og idriftsettelse</a></li>
+<li class="lvl4"><a href="#til-6-1-bygging">Til § 6-1 Bygging</a></li>
+<li class="lvl4"><a href="#til-6-2-idriftsettelse">Til § 6-2 Idriftsettelse</a></li>
+<li class="lvl3"><a href="#til-kapittel-7-drift">Til kapittel 7 Drift</a></li>
+<li class="lvl4"><a href="#til-7-1-driftsprosedyrer">Til § 7-1 Driftsprosedyrer</a></li>
+<li class="lvl4"><a href="#til-7-2-overvaking">Til § 7-2 Overvåking</a></li>
+<li class="lvl4"><a href="#til-7-3-dambruddsblgeberegninger">Til § 7-3 Dambruddsbølgeberegninger</a></li>
+<li class="lvl4"><a href="#til-7-4-beredskap">Til § 7-4 Beredskap</a></li>
+<li class="lvl4"><a href="#til-7-5-revurdering">Til § 7-5 Revurdering</a></li>
+<li class="lvl4"><a href="#til-7-6-sikringstiltak-av-hensyn-til-allmennheten">Til § 7-6 Sikringstiltak av hensyn til allmennheten</a></li>
+<li class="lvl4"><a href="#til-7-7-atkomsthindring">Til § 7-7 Atkomsthindring</a></li>
+<li class="lvl4"><a href="#til-7-8-informasjonssikkerhet">Til § 7-8 Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#til-7-9-dambruddsvarsling">Til § 7-9 Dambruddsvarsling</a></li>
+<li class="lvl4"><a href="#til-7-10-srlige-sikringstiltak">Til § 7-10 Særlige sikringstiltak</a></li>
+<li class="lvl4"><a href="#til-7-11-melding-om-ulykke-eller-unsket-hendelse">Til § 7-11 Melding om ulykke eller uønsket hendelse</a></li>
+<li class="lvl3"><a href="#til-kapittel-8-fellesbestemmelser">Til kapittel 8 Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#til-8-1-opplysningsplikt">Til § 8-1 Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#til-8-2-dispensasjoner-og-skjerpede-krav">Til § 8-2 Dispensasjoner og skjerpede krav</a></li>
+<li class="lvl4"><a href="#til-8-3-gebyr">Til § 8-3 Gebyr</a></li>
+<li class="lvl3"><a href="#til-kapittel-9-gjennomfring-av-forskriften">Til kapittel 9 Gjennomføring av forskriften</a></li>
+<li class="lvl4"><a href="#til-9-1-tilbaketrekking-av-godkjenning-som-vta-eller-fagansvarlig">Til § 9-1 Tilbaketrekking av godkjenning som VTA eller fagansvarlig</a></li>
+<li class="lvl4"><a href="#til-9-2-palegg-om-retting-tvangsmulkt-og-umiddelbar-iverksetting">Til § 9-2 Pålegg om retting, tvangsmulkt og umiddelbar iverksetting</a></li>
+<li class="lvl4"><a href="#til-9-3-overtredelsesgebyr">Til § 9-3 Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#til-9-4-straff">Til § 9-4 Straff</a></li>
+<li class="lvl3"><a href="#til-kapittel-10-ikrafttreden">Til kapittel 10 Ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-10-1-ikrafttreden">Til § 10-1 Ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-10-2-overgangsbestemmelse">Til § 10-2 Overgangsbestemmelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1600.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1600.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1600.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-12-18-1600.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-12-18-1600.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-12-18-1600.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-12-18-1600.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-12-18-1600.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-12-18-1600.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-sikkerhet-ved-vassdragsanlegg-damsikkerhetsforskriften">Forskrift om sikkerhet ved vassdragsanlegg (damsikkerhetsforskriften)</h1>
 <h2 id="kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriften skal fremme sikkerhet ved vassdragsanlegg og forebygge skade på mennesker, miljø og eiendom.</p>
@@ -236,7 +579,7 @@ d. kontrollør, jf. § 3-9 .</p>
 <p>Forslag til konsekvensklasse skal fremmes med utgangspunkt i tabellen nedenfor. Dersom minst ett av kriteriene knyttet til en bestemt konsekvensklasse er oppfylt, skal ikke konsekvensklassen settes lavere enn den aktuelle klassen som er angitt i tabellen. Der flere kriterier er oppfylt og summen av konsekvenser blir ekstra store, kan NVE ut fra en samlet vurdering fastsette en høyere konsekvensklasse enn det som fremgår direkte av tabellen. Tabell 4-2.1 Klassifiseringskriterier. Konsekvensklasse Boenheter Infrastruktur, samfunnsfunksjoner Miljø og eiendom 4 &gt; 150 3 21-150 Skade på sterkt trafikkert veg eller jernbane, eller annen infrastruktur, med spesielt stor betydning for liv og helse Stor skade på spesielt viktige miljøverdier eller spesielt stor skade på fremmed eiendom 2 1 – 20 Skader på middels trafikkert veg eller jernbane eller annen infrastruktur med stor betydning for liv og helse. Stor skade på viktige miljøverdier eller stor skade på fremmed eiendom 1 Midlertidig oppholdssted tilsvarende &lt; 1 permanent boenhet Skader på mindre trafikkert veg eller annen infrastruktur med betydning for liv og helse Skade på miljøverdier eller fremmed eiendom</p>
 <p>Eneboliger og leiligheter regnes som boenheter. Andre bygninger (institusjoner, skoler, bedrifter, hytter mv.) og midlertidige oppholdssteder i friluft, der mennesker oppholder seg over noe tid, skal omregnes til boenheter på bakgrunn av oppholdstid og antall personer.</p>
 <p>Komponenter og konstruksjoner som er innebygd i et vassdragsanlegg eller som har betydning for vassdragsanleggets konstruksjon eller funksjon skal følge vassdragsanleggets konsekvensklasse. Flomløp skal følge dammens konsekvensklasse.</p>
-<p><em>Endret ved forskrift 29 jan 2010 nr. 63 .</em></p>
+<p class="note">Endret ved forskrift 29 jan 2010 nr. 63 .</p>
 <h4 id="4-3-dokumentasjon">§ 4-3. Dokumentasjon</h4>
 <p>Vurderingen av konsekvensklasse skal være dokumentert og basert på relevant informasjon om anlegget og berørt område, befaringer og nødvendige beregninger.</p>
 <p>Omfanget av dokumentasjonen kan tilpasses usikkerheten ved å fastsette konsekvensklasse, men skal minimum omfatte kart og foto som viser beliggenhet av anlegget og berørt område, målsatte tegninger av dam, volum av oppdemt magasin, dimensjoner på vannvei og vurdering/beskrivelse av bruddkonsekvenser. Ved behov skal dokumentasjonen også omfatte relevante beregninger.</p>
@@ -633,7 +976,7 @@ e. angivelse av kvalifisert person som skal ha ansvar for gjennomføring av de u
 <h4 id="8-3-sektoravgift">§ 8-3. Sektoravgift <a class="para-history" href="../historikk/forskrift-2009-12-18-1600/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>NVE kan kreve inn sektoravgift til dekning av kostnader ved NVEs tilsyn, kontroll og godkjenning i henhold til denne forskrift og i henhold til forskrift om internkontroll. Sektoravgiften fastsettes ut fra en dams bruddkonsekvens, høyde og oppdemt magasinvolum. For mindre dammer eller andre vassdragsanlegg enn dammer kan det fastsettes minstesatser. Satsene settes slik at sektoravgiftene samlet ikke overskrider NVEs kostnader med kontrollen og til tiltak etter lov om vassdrag og grunnvann § 40 første ledd annet punktum.</p>
 <p>Sektoravgiften er tvangsgrunnlag for utlegg. Betales ikke sektoravgiften ved forfall, påløper rente som fastsatt i medhold av lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m. § 3 første ledd.</p>
-<p><em>Endret ved forskrift 16 mai 2023 nr. 706 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrift 16 mai 2023 nr. 706 (i kraft 1 juli 2023).</p>
 <h2 id="kapittel-9-gjennomfring-av-forskriften">Kapittel 9. Gjennomføring av forskriften</h2>
 <h4 id="9-1-tilbaketrekking-av-godkjenning-som-vta-eller-fagansvarlig">§ 9-1. Tilbaketrekking av godkjenning som VTA eller fagansvarlig</h4>
 <p>Dersom forskriftens krav i § 3-3 , § 3-5 , § 3-6 eller § 3-7 ikke lenger er oppfylt eller spesielle grunner i tilknytning til VTA eller fagansvarliges faglige oppgaver og ansvar gjør det utilrådelig at godkjenningen opprettholdes, kan NVE ta godkjenningen opp til ny vurdering og eventuelt trekke den tilbake etter at det er gitt varsel med rimelig frist til å rette opp forholdene.</p>
@@ -669,7 +1012,7 @@ e. angivelse av kvalifisert person som skal ha ansvar for gjennomføring av de u
 <p>Begrepet «klassifisering» er nytt. Klassifisering benyttes om beslutningen om å plassere et vassdragsanlegg i bruddkonsekvensklasse 0-4, basert på en vurdering av hvilke konsekvenser brudd, svikt eller feilfunksjon vil ha for mennesker, miljø og eiendom. Reglene om klassifisering står i kapittel 4 .</p>
 <p>Med «last» menes enhver påvirkning som medfører bevegelse, deformasjon, spenninger eller tøyninger i en konstruksjon. Med unntak av en liten språklig endring er samme formulering benyttet i gjeldende forskrift § 1-3 .</p>
 <p>«Maksimal flomvannstand» er definert som den høyeste vannstand som opptrer i magasinet ved påregnelig maksimal tilløpsflom. Formuleringen er identisk med definisjonen i gjeldende forskrift § 1-3 .</p>
-<p>«Midlere tilsig» er en ny definisjon i forskriften. Midlere tilsig er definert som midlere vannføring fra et nedbørfelt over en 30-årsperiode. Midlere tilsig for gjeldende normalperiode (pr. 2007 perioden 1961–1990) kan hentes fra NVEs avrenningskart ( www.nve.atlas.no ). Alternativt kan det benyttes data fra en representativ målestasjon med god kvalitet og tilstrekkelig lang måleserie.</p>
+<p>«Midlere tilsig» er en ny definisjon i forskriften. Midlere tilsig er definert som midlere vannføring fra et nedbørfelt over en 30-årsperiode. Midlere tilsig for gjeldende normalperiode (pr. 2007 perioden 1961–1990) kan hentes fra NVEs avrenningskart (www.nve.atlas.no). Alternativt kan det benyttes data fra en representativ målestasjon med god kvalitet og tilstrekkelig lang måleserie.</p>
 <p>Med «påregnelig maksimal avløpsflom» menes den vannføring som avledes ved maksimal flomvannstand. Samme formulering er benyttet i gjeldende forskrift § 1-3 .</p>
 <p>«Påregnelig maksimal tilløpsflom» er den største tilløpsflom som beregnes å kunne opptre, og som fører til høyest vannstand i magasinet ved gitte forutsetninger vedrørende flomløpenes manøvrering og magasinets initialtilstand. Samme formulering er benyttet i gjeldende forskrift § 1-3 .</p>
 <p>«Tilløpsflom» er flom til magasinet fra uregulert felt, tillagt avløpsflom fra eventuelle oppstrøms magasiner og overføringer. Formuleringen er identisk med definisjonen i gjeldende forskrift § 1-3 .</p>
@@ -1131,6 +1474,8 @@ e. angivelse av kvalifisert person som skal ha ansvar for gjennomføring av de u
 <p>De fleste anleggene som er klassifisert etter forskrift 18. desember 2000 nr. 1317 om klassifisering av vassdragsanlegg (klassifiseringsforskriften) vil bli plassert i den samme konsekvensklassen etter bestemmelsene i ny forskrift. Disse anleggene behøver ikke klassifiseres på nytt etter ny forskrift. Men en del anlegg vil bli plassert i annen konsekvensklasse. Dette vil spesielt gjelde anleggene med størst bruddkonsekvenser, dvs. anlegg som etter ny forskrift vil bli plassert i konsekvensklasse 4. Det kan også gjelde noen anlegg i konsekvensklasse 1 og 2 siden kriteriene er endret når det gjelder brudd som kan føre til skade på riks- og fylkesveier. Overgangsbestemmelsen i § 10-2 første ledd fastsetter en frist på 5 år for å klassifisere på nytt de anleggene som er klassifisert etter klassifiseringsforskriften, men som sannsynligvis vil få ny konsekvensklasse etter ny forskrift.</p>
 <p>NVE har registrert ca. 2300 klassifiserte dammer. Mange av disse er i dag satt i en konsekvensklasse ut fra en skjønnsmessig vurdering og er av ulike grunner ennå ikke klassifisert etter klassifiseringsforskriften. For disse anleggene gjelder ikke fristen på 5 år. Den ansvarlige skal her fremme et begrunnet forslag om konsekvensklasse så snart som mulig, jf. § 4-1 . Det samme gjelder dammer som ennå ikke er klassifisert.</p>
 <p>I annet ledd angis at egenerklæring etter § 3-7 og godkjenning av fagansvarlige i nytt fagområde V, jf. § 3-5 og § 3-7 , ikke trer i kraft før NVE bestemmer. NVE vil ikke sette i verk angitte bestemmelser før det er lagt til rette for det gjennom hensiktsmessige rutiner.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

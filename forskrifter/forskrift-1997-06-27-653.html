@@ -19,64 +19,403 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-06-27-653.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift til petroleumsloven" href="../feeds/forskrift-1997-06-27-653.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Forskrift til petroleumsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1997-06-27-653</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1997-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-05-27-870</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1997-06-27-653" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-sknad-om-underskelsestillatelse">§ 3. Søknad om undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#4-hvilke-underskelser-tillatelsen-gir-rett-til">§ 4. Hvilke undersøkelser tillatelsen gir rett til</a></li>
+<li class="lvl4"><a href="#5-betaling-for-underskelsestillatelsen">§ 5. Betaling for undersøkelsestillatelsen</a></li>
+<li class="lvl4"><a href="#6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser-mv">§ 6. Meddelelse av opplysninger i forbindelse med undersøkelser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2a-konsekvensutredning-ved-apning-av-nye-omrader-for-petroleumsvirksomhet">Kapittel 2a. Konsekvensutredning ved åpning av nye områder for petroleumsvirksomhet</a></li>
+<li class="lvl4"><a href="#6a-ansvarlig-myndighet-og-formal">§ 6a. Ansvarlig myndighet og formål</a></li>
+<li class="lvl4"><a href="#6b-konsekvensutredningsprogram">§ 6b. Konsekvensutredningsprogram</a></li>
+<li class="lvl4"><a href="#6c-konsekvensutredningen">§ 6c. Konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#6d-saksfremlegget">§ 6d. Saksfremlegget</a></li>
+<li class="lvl2"><a href="#kapittel-3-utvinningstillatelse-mv">Kapittel 3. Utvinningstillatelse m.v.</a></li>
+<li class="lvl4"><a href="#7-utlysning">§ 7. Utlysning</a></li>
+<li class="lvl4"><a href="#8-sknad-om-utvinningstillatelse">§ 8. Søknad om utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#9-behandlingsgebyr">§ 9. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#10-kriterier-for-tildeling-av-utvinningstillatelser-og-utvelse-av-virksomhet-i-henhold-til-utvinningstillatelser-mv">§ 10. Kriterier for tildeling av utvinningstillatelser og utøvelse av virksomhet i henhold til utvinningstillatelser mv.</a></li>
+<li class="lvl4"><a href="#11-vilkar-og-krav">§ 11. Vilkår og krav</a></li>
+<li class="lvl4"><a href="#12-statlig-deltakelse">§ 12. Statlig deltakelse</a></li>
+<li class="lvl4"><a href="#13-arbeidsforpliktelse">§ 13. Arbeidsforpliktelse</a></li>
+<li class="lvl4"><a href="#14-forlengelse-av-utvinningstillatelse">§ 14. Forlengelse av utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#15-form-og-strrelse-pa-omrader">§ 15. Form og størrelse på områder</a></li>
+<li class="lvl2"><a href="#kapittel-4-utvinning-mv-av-petroleum">Kapittel 4. Utvinning m.v. av petroleum</a></li>
+<li class="lvl4"><a href="#16-vurdering-av-en-petroleumsforekomst">§ 16. Vurdering av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#17-erklring-om-ikke-a-igangsette-utvinning">§ 17. Erklæring om ikke å igangsette utvinning</a></li>
+<li class="lvl4"><a href="#18-prveutvinning">§ 18. Prøveutvinning</a></li>
+<li class="lvl4"><a href="#19-opphevet">§ 19. (Opphevet)</a></li>
+<li class="lvl4"><a href="#20-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 20. Plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#21-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 21. Beskrivelse av utbyggingen i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22-utredningsprogram-for-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22. Utredningsprogram for konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22a-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22a. Konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22b-fritak-fra-kravet-om-konsekvensutredning">§ 22b. Fritak fra kravet om konsekvensutredning</a></li>
+<li class="lvl4"><a href="#22c-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 22c. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#23-fastsettelse-av-produksjonsforlp-mv">§ 23. Fastsettelse av produksjonsforløp m.v.</a></li>
+<li class="lvl4"><a href="#24-feltrapport">§ 24. Feltrapport</a></li>
+<li class="lvl4"><a href="#25-tiltak-for-a-fremskaffe-opplysninger">§ 25. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl4"><a href="#26-maling-av-produsert-petroleum">§ 26. Måling av produsert petroleum</a></li>
+<li class="lvl4"><a href="#27-overvakning-av-forekomst-og-produksjon-under-utvinning">§ 27. Overvåkning av forekomst og produksjon under utvinning</a></li>
+<li class="lvl4"><a href="#28-tillatelse-til-anlegg-og-drift-av-innretninger">§ 28. Tillatelse til anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#29-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 29. Innhold i plan for anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#30-traseunderskelser-og-andre-grunnunderskelser">§ 30. Traséundersøkelser og andre grunnundersøkelser</a></li>
+<li class="lvl4"><a href="#30a-samtykke-til-oppstart-og-viderefring">§ 30a. Samtykke til oppstart og videreføring</a></li>
+<li class="lvl4"><a href="#30b-leie-av-produksjonsinnretning">§ 30b. Leie av produksjonsinnretning</a></li>
+<li class="lvl2"><a href="#kapittel-4a-lagring-av-co2">Kapittel 4a. Lagring av CO2</a></li>
+<li class="lvl4"><a href="#30c-lagring-av-co2">§ 30c. Lagring av CO2</a></li>
+<li class="lvl4"><a href="#30d-utvelgelse-av-en-lagringslokalitet">§ 30d. Utvelgelse av en lagringslokalitet</a></li>
+<li class="lvl4"><a href="#30e-samtykke-til-injeksjon-og-lagring-av-co2">§ 30e. Samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#30f-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 30f. Vilkår for samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#30g-overvakning">§ 30g. Overvåkning</a></li>
+<li class="lvl4"><a href="#30h-tilsyn">§ 30h. Tilsyn</a></li>
+<li class="lvl4"><a href="#30i-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 30i. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</a></li>
+<li class="lvl4"><a href="#30j-nedstengning-og-etterdrift">§ 30j. Nedstengning og etterdrift</a></li>
+<li class="lvl4"><a href="#30k-ansvarsoverfring">§ 30k. Ansvarsoverføring</a></li>
+<li class="lvl4"><a href="#30l-finansiell-sikkerhetsstillelse">§ 30l. Finansiell sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#30m-finansiell-mekanisme">§ 30m. Finansiell mekanisme</a></li>
+<li class="lvl2"><a href="#kapittel-5-produksjons-og-arealavgift">Kapittel 5. Produksjons- og arealavgift</a></li>
+<li class="lvl4"><a href="#31-avgiftssatser-for-produksjonsavgift-mv">§ 31. Avgiftssatser for produksjonsavgift m.v.</a></li>
+<li class="lvl4"><a href="#32-verdifastsettelse-av-petroleum-mv">§ 32. Verdifastsettelse av petroleum m.v.</a></li>
+<li class="lvl4"><a href="#33-betaling-av-produksjonsavgift">§ 33. Betaling av produksjonsavgift</a></li>
+<li class="lvl4"><a href="#34-uttak-av-produksjonsavgift-i-form-av-petroleum">§ 34. Uttak av produksjonsavgift i form av petroleum</a></li>
+<li class="lvl4"><a href="#35-dokumentasjon-til-avgiftsoppgjret">§ 35. Dokumentasjon til avgiftsoppgjøret</a></li>
+<li class="lvl4"><a href="#36-bruk-av-valutakurser">§ 36. Bruk av valutakurser</a></li>
+<li class="lvl4"><a href="#37-felles-salg-av-petroleum">§ 37. Felles salg av petroleum</a></li>
+<li class="lvl4"><a href="#38-revisjon-av-grunnlaget-for-avgiftsoppgjret">§ 38. Revisjon av grunnlaget for avgiftsoppgjøret</a></li>
+<li class="lvl4"><a href="#39-avgiftssatser-for-arealavgift-mv">§ 39. Avgiftssatser for arealavgift m.v.</a></li>
+<li class="lvl4"><a href="#40-betaling-av-arealavgift">§ 40. Betaling av arealavgift</a></li>
+<li class="lvl4"><a href="#41-refusjon-av-arealavgift">§ 41. Refusjon av arealavgift</a></li>
+<li class="lvl4"><a href="#42-fradrag-for-arealavgift-i-produksjonsavgiften">§ 42. Fradrag for arealavgift i produksjonsavgiften</a></li>
+<li class="lvl2"><a href="#kapittel-6-avslutning-av-petroleumsvirksomheten">Kapittel 6. Avslutning av petroleumsvirksomheten</a></li>
+<li class="lvl4"><a href="#43-avslutningsplan">§ 43. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#44-disponeringsdel-av-avslutningsplan">§ 44. Disponeringsdel av avslutningsplan</a></li>
+<li class="lvl4"><a href="#45-konsekvensutredning">§ 45. Konsekvensutredning</a></li>
+<li class="lvl4"><a href="#45a-subsidirt-ansvar-for-disponering">§ 45a. Subsidiært ansvar for disponering</a></li>
+<li class="lvl2"><a href="#kapittel-7-opplysninger-og-dokumentasjon">Kapittel 7. Opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#46-bore-og-brnnaktivitet">§ 46. Bore- og brønnaktivitet</a></li>
+<li class="lvl4"><a href="#47-arlig-statusrapport-for-felt-i-produksjon">§ 47. Årlig statusrapport for felt i produksjon</a></li>
+<li class="lvl4"><a href="#48-opplysninger-om-produsert-petroleum-mv">§ 48. Opplysninger om produsert petroleum m.v.</a></li>
+<li class="lvl4"><a href="#49-opplysninger-om-salg-av-petroleum">§ 49. Opplysninger om salg av petroleum</a></li>
+<li class="lvl4"><a href="#50-opplysninger-om-planer-og-budsjett-mv">§ 50. Opplysninger om planer og budsjett m.v.</a></li>
+<li class="lvl4"><a href="#50a-rapportering-til-nasjonalbudsjettprosessen">§ 50a. Rapportering til nasjonalbudsjettprosessen</a></li>
+<li class="lvl4"><a href="#50b-rapportering-av-betalinger">§ 50b. Rapportering av betalinger</a></li>
+<li class="lvl4"><a href="#51-informasjon-om-forsknings-og-utviklingsprosjekt">§ 51. Informasjon om forsknings- og utviklingsprosjekt</a></li>
+<li class="lvl4"><a href="#52-opplysninger-fra-omrade-utenfor-norsk-kontinentalsokkel">§ 52. Opplysninger fra område utenfor norsk kontinentalsokkel</a></li>
+<li class="lvl4"><a href="#53-overlevering-av-materiale-og-opplysninger">§ 53. Overlevering av materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#54-overfring-av-dataprogrammer">§ 54. Overføring av dataprogrammer</a></li>
+<li class="lvl4"><a href="#55-oppbevaringsplikt">§ 55. Oppbevaringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-8-styringssystem-for-petroleumsvirksomheten">Kapittel 8. Styringssystem for petroleumsvirksomheten</a></li>
+<li class="lvl4"><a href="#56-styringssystem">§ 56. Styringssystem</a></li>
+<li class="lvl4"><a href="#57-dokumentasjon">§ 57. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#58-oppflging-av-styringssystemet">§ 58. Oppfølging av styringssystemet</a></li>
+<li class="lvl2"><a href="#kapittel-9-adgang-til-oppstrms-gassrrledningsnett">Kapittel 9. Adgang til oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#59-prinsipper-for-adgang-til-oppstrms-gassrrledningsnett">§ 59. Prinsipper for adgang til oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#60-definisjoner">§ 60. Definisjoner</a></li>
+<li class="lvl4"><a href="#61-inngaelse-av-avtale-i-frstehandsmarkedet">§ 61. Inngåelse av avtale i førstehåndsmarkedet</a></li>
+<li class="lvl4"><a href="#62-fordeling-av-ny-kapasitet-som-flge-av-utvidelser">§ 62. Fordeling av ny kapasitet som følge av utvidelser</a></li>
+<li class="lvl4"><a href="#63-tariff-ved-avtale-i-frstehandsmarkedet">§ 63. Tariff ved avtale i førstehåndsmarkedet</a></li>
+<li class="lvl4"><a href="#64-overfring-av-rett-til-bruk-av-kapasitet-i-oppstrms-gassrrledningsnett-annenhandsmarkedet">§ 64. Overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett – annenhåndsmarkedet</a></li>
+<li class="lvl4"><a href="#65-departementets-behandling-av-avtaler-om-bruk">§ 65. Departementets behandling av avtaler om bruk</a></li>
+<li class="lvl4"><a href="#66-systemansvar">§ 66. Systemansvar</a></li>
+<li class="lvl4"><a href="#66a-videreutvikling-av-oppstrms-gassrrledningsnett">§ 66A. Videreutvikling av oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#67-palegg">§ 67. Pålegg</a></li>
+<li class="lvl4"><a href="#68-tvister">§ 68. Tvister</a></li>
+<li class="lvl4"><a href="#68a-taushetsplikt">§ 68A. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#69-virkeomradet-for-enkelte-bestemmelser-i-dette-kapittel">§ 69. Virkeområdet for enkelte bestemmelser i dette kapittel</a></li>
+<li class="lvl4"><a href="#70-avsluttende-bestemmelser">§ 70. Avsluttende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-10-alminnelige-bestemmelser">Kapittel 10. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#71-organisering-av-virksomheten-pa-land">§ 71. Organisering av virksomheten på land</a></li>
+<li class="lvl4"><a href="#72-overdragelse-av-tillatelse">§ 72. Overdragelse av tillatelse</a></li>
+<li class="lvl4"><a href="#73-forsikring">§ 73. Forsikring</a></li>
+<li class="lvl4"><a href="#74-revisjon">§ 74. Revisjon</a></li>
+<li class="lvl4"><a href="#75-bruk-av-arbeidskraft">§ 75. Bruk av arbeidskraft</a></li>
+<li class="lvl4"><a href="#76-bruk-av-norsk-sprak">§ 76. Bruk av norsk språk</a></li>
+<li class="lvl4"><a href="#77-offentlig-tilgjengelige-opplysninger">§ 77. Offentlig tilgjengelige opplysninger</a></li>
+<li class="lvl4"><a href="#78-fagforeningsvirksomhet">§ 78. Fagforeningsvirksomhet</a></li>
+<li class="lvl4"><a href="#79-navnsetting-mv-av-petroleumsforekomster">§ 79. Navnsetting mv. av petroleumsforekomster</a></li>
+<li class="lvl4"><a href="#79a-varsling-og-rapportering">§ 79a. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#80-opplysninger-om-leverandrer">§ 80. Opplysninger om leverandører</a></li>
+<li class="lvl4"><a href="#81-tilsyn-mv">§ 81. Tilsyn m.v.</a></li>
+<li class="lvl4"><a href="#82-observatrer">§ 82. Observatører</a></li>
+<li class="lvl4"><a href="#83-ekspert-og-laboratorietjenester">§ 83. Ekspert- og laboratorietjenester</a></li>
+<li class="lvl4"><a href="#84-opplring-av-offentlig-ansatte">§ 84. Opplæring av offentlig ansatte</a></li>
+<li class="lvl4"><a href="#85-saksbehandling-og-taushetsplikt">§ 85. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#86-delegasjon-og-dispensasjon">§ 86. Delegasjon og dispensasjon</a></li>
+<li class="lvl4"><a href="#87-straffebestemmelse">§ 87. Straffebestemmelse</a></li>
+<li class="lvl4"><a href="#88-ikrafttredelse-mv">§ 88. Ikrafttredelse m.v.</a></li>
+<li class="lvl2"><a href="#vedlegg-ikriterier-for-beskrivelse-og-vurdering-av-det-mulige-lagringslokalitet-og-omkringliggende-omrade-nevnt-i-30d-i-denne-forskrift">Vedlegg IKriterier for beskrivelse og vurdering av det mulige lagringslokalitet og omkringliggende område nevnt i § 30d i denne forskrift</a></li>
+<li class="lvl2"><a href="#vedlegg-iikriterier-for-etablering-og-oppdatering-av-overvakingsplanen-i-30g-og-etterdriftsplan-i-30j">Vedlegg IIKriterier for etablering og oppdatering av overvåkingsplanen i § 30g og etterdriftsplan i § 30j</a></li>
+<li class="lvl2"><a href="#merknader">Merknader</a></li>
+<li class="lvl3"><a href="#generelle-merknader-til-kapittel-9-i-petroleumsforskriften">Generelle merknader til kapittel 9 i petroleumsforskriften</a></li>
+<li class="lvl3"><a href="#merknader-til-den-enkelte-bestemmelse-i-forskriften">Merknader til den enkelte bestemmelse i forskriften</a></li>
+<li class="lvl4"><a href="#til-59">Til § 59</a></li>
+<li class="lvl4"><a href="#til-60">Til § 60</a></li>
+<li class="lvl4"><a href="#til-61">Til § 61</a></li>
+<li class="lvl4"><a href="#til-62">Til § 62</a></li>
+<li class="lvl4"><a href="#til-63">Til § 63</a></li>
+<li class="lvl4"><a href="#til-64">Til § 64</a></li>
+<li class="lvl4"><a href="#til-65">Til § 65:</a></li>
+<li class="lvl4"><a href="#til-66">Til § 66:</a></li>
+<li class="lvl4"><a href="#til-66a">Til § 66A</a></li>
+<li class="lvl4"><a href="#til-67">Til § 67:</a></li>
+<li class="lvl4"><a href="#til-68">Til § 68</a></li>
+<li class="lvl4"><a href="#til-68a">Til § 68A</a></li>
+<li class="lvl4"><a href="#til-69">Til § 69</a></li>
+<li class="lvl4"><a href="#til-70">Til § 70</a></li>
+<li class="lvl3"><a href="#kommentarer-til-forskrift-om-endring-i-forskrift-til-lov-om-petroleumsvirksomhet-fastsatt-ved-kglres-20-januar-2006">Kommentarer til forskrift om endring i forskrift til lov om petroleumsvirksomhet, fastsatt ved kgl.res. 20. januar 2006</a></li>
+<li class="lvl3"><a href="#merknader-til-forskrift-24-juni-2011-nr-640-om-endring-i-forskrift-til-lov-om-petroleumsvirksomhet">Merknader til forskrift 24. juni 2011 nr. 640 om endring i forskrift til lov om petroleumsvirksomhet</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-05-27-870.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-06-27-653.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til lov om petroleumsvirksomhet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-06-27-653.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1997-06-27-653 <code>forskrift/1997-06-27-653</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift til petroleumsloven</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.1997</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-05-27-870 <code>forskrift/2025-05-27-870</code> fra 17.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1997-06-27-653" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-sknad-om-underskelsestillatelse">§ 3. Søknad om undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#4-hvilke-underskelser-tillatelsen-gir-rett-til">§ 4. Hvilke undersøkelser tillatelsen gir rett til</a></li>
+<li class="lvl4"><a href="#5-betaling-for-underskelsestillatelsen">§ 5. Betaling for undersøkelsestillatelsen</a></li>
+<li class="lvl4"><a href="#6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser-mv">§ 6. Meddelelse av opplysninger i forbindelse med undersøkelser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2a-konsekvensutredning-ved-apning-av-nye-omrader-for-petroleumsvirksomhet">Kapittel 2a. Konsekvensutredning ved åpning av nye områder for petroleumsvirksomhet</a></li>
+<li class="lvl4"><a href="#6a-ansvarlig-myndighet-og-formal">§ 6a. Ansvarlig myndighet og formål</a></li>
+<li class="lvl4"><a href="#6b-konsekvensutredningsprogram">§ 6b. Konsekvensutredningsprogram</a></li>
+<li class="lvl4"><a href="#6c-konsekvensutredningen">§ 6c. Konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#6d-saksfremlegget">§ 6d. Saksfremlegget</a></li>
+<li class="lvl2"><a href="#kapittel-3-utvinningstillatelse-mv">Kapittel 3. Utvinningstillatelse m.v.</a></li>
+<li class="lvl4"><a href="#7-utlysning">§ 7. Utlysning</a></li>
+<li class="lvl4"><a href="#8-sknad-om-utvinningstillatelse">§ 8. Søknad om utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#9-behandlingsgebyr">§ 9. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#10-kriterier-for-tildeling-av-utvinningstillatelser-og-utvelse-av-virksomhet-i-henhold-til-utvinningstillatelser-mv">§ 10. Kriterier for tildeling av utvinningstillatelser og utøvelse av virksomhet i henhold til utvinningstillatelser mv.</a></li>
+<li class="lvl4"><a href="#11-vilkar-og-krav">§ 11. Vilkår og krav</a></li>
+<li class="lvl4"><a href="#12-statlig-deltakelse">§ 12. Statlig deltakelse</a></li>
+<li class="lvl4"><a href="#13-arbeidsforpliktelse">§ 13. Arbeidsforpliktelse</a></li>
+<li class="lvl4"><a href="#14-forlengelse-av-utvinningstillatelse">§ 14. Forlengelse av utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#15-form-og-strrelse-pa-omrader">§ 15. Form og størrelse på områder</a></li>
+<li class="lvl2"><a href="#kapittel-4-utvinning-mv-av-petroleum">Kapittel 4. Utvinning m.v. av petroleum</a></li>
+<li class="lvl4"><a href="#16-vurdering-av-en-petroleumsforekomst">§ 16. Vurdering av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#17-erklring-om-ikke-a-igangsette-utvinning">§ 17. Erklæring om ikke å igangsette utvinning</a></li>
+<li class="lvl4"><a href="#18-prveutvinning">§ 18. Prøveutvinning</a></li>
+<li class="lvl4"><a href="#19-opphevet">§ 19. (Opphevet)</a></li>
+<li class="lvl4"><a href="#20-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 20. Plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#21-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 21. Beskrivelse av utbyggingen i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22-utredningsprogram-for-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22. Utredningsprogram for konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22a-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22a. Konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</a></li>
+<li class="lvl4"><a href="#22b-fritak-fra-kravet-om-konsekvensutredning">§ 22b. Fritak fra kravet om konsekvensutredning</a></li>
+<li class="lvl4"><a href="#22c-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 22c. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#23-fastsettelse-av-produksjonsforlp-mv">§ 23. Fastsettelse av produksjonsforløp m.v.</a></li>
+<li class="lvl4"><a href="#24-feltrapport">§ 24. Feltrapport</a></li>
+<li class="lvl4"><a href="#25-tiltak-for-a-fremskaffe-opplysninger">§ 25. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl4"><a href="#26-maling-av-produsert-petroleum">§ 26. Måling av produsert petroleum</a></li>
+<li class="lvl4"><a href="#27-overvakning-av-forekomst-og-produksjon-under-utvinning">§ 27. Overvåkning av forekomst og produksjon under utvinning</a></li>
+<li class="lvl4"><a href="#28-tillatelse-til-anlegg-og-drift-av-innretninger">§ 28. Tillatelse til anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#29-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 29. Innhold i plan for anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#30-traseunderskelser-og-andre-grunnunderskelser">§ 30. Traséundersøkelser og andre grunnundersøkelser</a></li>
+<li class="lvl4"><a href="#30a-samtykke-til-oppstart-og-viderefring">§ 30a. Samtykke til oppstart og videreføring</a></li>
+<li class="lvl4"><a href="#30b-leie-av-produksjonsinnretning">§ 30b. Leie av produksjonsinnretning</a></li>
+<li class="lvl2"><a href="#kapittel-4a-lagring-av-co2">Kapittel 4a. Lagring av CO2</a></li>
+<li class="lvl4"><a href="#30c-lagring-av-co2">§ 30c. Lagring av CO2</a></li>
+<li class="lvl4"><a href="#30d-utvelgelse-av-en-lagringslokalitet">§ 30d. Utvelgelse av en lagringslokalitet</a></li>
+<li class="lvl4"><a href="#30e-samtykke-til-injeksjon-og-lagring-av-co2">§ 30e. Samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#30f-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 30f. Vilkår for samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#30g-overvakning">§ 30g. Overvåkning</a></li>
+<li class="lvl4"><a href="#30h-tilsyn">§ 30h. Tilsyn</a></li>
+<li class="lvl4"><a href="#30i-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 30i. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</a></li>
+<li class="lvl4"><a href="#30j-nedstengning-og-etterdrift">§ 30j. Nedstengning og etterdrift</a></li>
+<li class="lvl4"><a href="#30k-ansvarsoverfring">§ 30k. Ansvarsoverføring</a></li>
+<li class="lvl4"><a href="#30l-finansiell-sikkerhetsstillelse">§ 30l. Finansiell sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#30m-finansiell-mekanisme">§ 30m. Finansiell mekanisme</a></li>
+<li class="lvl2"><a href="#kapittel-5-produksjons-og-arealavgift">Kapittel 5. Produksjons- og arealavgift</a></li>
+<li class="lvl4"><a href="#31-avgiftssatser-for-produksjonsavgift-mv">§ 31. Avgiftssatser for produksjonsavgift m.v.</a></li>
+<li class="lvl4"><a href="#32-verdifastsettelse-av-petroleum-mv">§ 32. Verdifastsettelse av petroleum m.v.</a></li>
+<li class="lvl4"><a href="#33-betaling-av-produksjonsavgift">§ 33. Betaling av produksjonsavgift</a></li>
+<li class="lvl4"><a href="#34-uttak-av-produksjonsavgift-i-form-av-petroleum">§ 34. Uttak av produksjonsavgift i form av petroleum</a></li>
+<li class="lvl4"><a href="#35-dokumentasjon-til-avgiftsoppgjret">§ 35. Dokumentasjon til avgiftsoppgjøret</a></li>
+<li class="lvl4"><a href="#36-bruk-av-valutakurser">§ 36. Bruk av valutakurser</a></li>
+<li class="lvl4"><a href="#37-felles-salg-av-petroleum">§ 37. Felles salg av petroleum</a></li>
+<li class="lvl4"><a href="#38-revisjon-av-grunnlaget-for-avgiftsoppgjret">§ 38. Revisjon av grunnlaget for avgiftsoppgjøret</a></li>
+<li class="lvl4"><a href="#39-avgiftssatser-for-arealavgift-mv">§ 39. Avgiftssatser for arealavgift m.v.</a></li>
+<li class="lvl4"><a href="#40-betaling-av-arealavgift">§ 40. Betaling av arealavgift</a></li>
+<li class="lvl4"><a href="#41-refusjon-av-arealavgift">§ 41. Refusjon av arealavgift</a></li>
+<li class="lvl4"><a href="#42-fradrag-for-arealavgift-i-produksjonsavgiften">§ 42. Fradrag for arealavgift i produksjonsavgiften</a></li>
+<li class="lvl2"><a href="#kapittel-6-avslutning-av-petroleumsvirksomheten">Kapittel 6. Avslutning av petroleumsvirksomheten</a></li>
+<li class="lvl4"><a href="#43-avslutningsplan">§ 43. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#44-disponeringsdel-av-avslutningsplan">§ 44. Disponeringsdel av avslutningsplan</a></li>
+<li class="lvl4"><a href="#45-konsekvensutredning">§ 45. Konsekvensutredning</a></li>
+<li class="lvl4"><a href="#45a-subsidirt-ansvar-for-disponering">§ 45a. Subsidiært ansvar for disponering</a></li>
+<li class="lvl2"><a href="#kapittel-7-opplysninger-og-dokumentasjon">Kapittel 7. Opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#46-bore-og-brnnaktivitet">§ 46. Bore- og brønnaktivitet</a></li>
+<li class="lvl4"><a href="#47-arlig-statusrapport-for-felt-i-produksjon">§ 47. Årlig statusrapport for felt i produksjon</a></li>
+<li class="lvl4"><a href="#48-opplysninger-om-produsert-petroleum-mv">§ 48. Opplysninger om produsert petroleum m.v.</a></li>
+<li class="lvl4"><a href="#49-opplysninger-om-salg-av-petroleum">§ 49. Opplysninger om salg av petroleum</a></li>
+<li class="lvl4"><a href="#50-opplysninger-om-planer-og-budsjett-mv">§ 50. Opplysninger om planer og budsjett m.v.</a></li>
+<li class="lvl4"><a href="#50a-rapportering-til-nasjonalbudsjettprosessen">§ 50a. Rapportering til nasjonalbudsjettprosessen</a></li>
+<li class="lvl4"><a href="#50b-rapportering-av-betalinger">§ 50b. Rapportering av betalinger</a></li>
+<li class="lvl4"><a href="#51-informasjon-om-forsknings-og-utviklingsprosjekt">§ 51. Informasjon om forsknings- og utviklingsprosjekt</a></li>
+<li class="lvl4"><a href="#52-opplysninger-fra-omrade-utenfor-norsk-kontinentalsokkel">§ 52. Opplysninger fra område utenfor norsk kontinentalsokkel</a></li>
+<li class="lvl4"><a href="#53-overlevering-av-materiale-og-opplysninger">§ 53. Overlevering av materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#54-overfring-av-dataprogrammer">§ 54. Overføring av dataprogrammer</a></li>
+<li class="lvl4"><a href="#55-oppbevaringsplikt">§ 55. Oppbevaringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-8-styringssystem-for-petroleumsvirksomheten">Kapittel 8. Styringssystem for petroleumsvirksomheten</a></li>
+<li class="lvl4"><a href="#56-styringssystem">§ 56. Styringssystem</a></li>
+<li class="lvl4"><a href="#57-dokumentasjon">§ 57. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#58-oppflging-av-styringssystemet">§ 58. Oppfølging av styringssystemet</a></li>
+<li class="lvl2"><a href="#kapittel-9-adgang-til-oppstrms-gassrrledningsnett">Kapittel 9. Adgang til oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#59-prinsipper-for-adgang-til-oppstrms-gassrrledningsnett">§ 59. Prinsipper for adgang til oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#60-definisjoner">§ 60. Definisjoner</a></li>
+<li class="lvl4"><a href="#61-inngaelse-av-avtale-i-frstehandsmarkedet">§ 61. Inngåelse av avtale i førstehåndsmarkedet</a></li>
+<li class="lvl4"><a href="#62-fordeling-av-ny-kapasitet-som-flge-av-utvidelser">§ 62. Fordeling av ny kapasitet som følge av utvidelser</a></li>
+<li class="lvl4"><a href="#63-tariff-ved-avtale-i-frstehandsmarkedet">§ 63. Tariff ved avtale i førstehåndsmarkedet</a></li>
+<li class="lvl4"><a href="#64-overfring-av-rett-til-bruk-av-kapasitet-i-oppstrms-gassrrledningsnett-annenhandsmarkedet">§ 64. Overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett – annenhåndsmarkedet</a></li>
+<li class="lvl4"><a href="#65-departementets-behandling-av-avtaler-om-bruk">§ 65. Departementets behandling av avtaler om bruk</a></li>
+<li class="lvl4"><a href="#66-systemansvar">§ 66. Systemansvar</a></li>
+<li class="lvl4"><a href="#66a-videreutvikling-av-oppstrms-gassrrledningsnett">§ 66A. Videreutvikling av oppstrøms gassrørledningsnett</a></li>
+<li class="lvl4"><a href="#67-palegg">§ 67. Pålegg</a></li>
+<li class="lvl4"><a href="#68-tvister">§ 68. Tvister</a></li>
+<li class="lvl4"><a href="#68a-taushetsplikt">§ 68A. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#69-virkeomradet-for-enkelte-bestemmelser-i-dette-kapittel">§ 69. Virkeområdet for enkelte bestemmelser i dette kapittel</a></li>
+<li class="lvl4"><a href="#70-avsluttende-bestemmelser">§ 70. Avsluttende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-10-alminnelige-bestemmelser">Kapittel 10. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#71-organisering-av-virksomheten-pa-land">§ 71. Organisering av virksomheten på land</a></li>
+<li class="lvl4"><a href="#72-overdragelse-av-tillatelse">§ 72. Overdragelse av tillatelse</a></li>
+<li class="lvl4"><a href="#73-forsikring">§ 73. Forsikring</a></li>
+<li class="lvl4"><a href="#74-revisjon">§ 74. Revisjon</a></li>
+<li class="lvl4"><a href="#75-bruk-av-arbeidskraft">§ 75. Bruk av arbeidskraft</a></li>
+<li class="lvl4"><a href="#76-bruk-av-norsk-sprak">§ 76. Bruk av norsk språk</a></li>
+<li class="lvl4"><a href="#77-offentlig-tilgjengelige-opplysninger">§ 77. Offentlig tilgjengelige opplysninger</a></li>
+<li class="lvl4"><a href="#78-fagforeningsvirksomhet">§ 78. Fagforeningsvirksomhet</a></li>
+<li class="lvl4"><a href="#79-navnsetting-mv-av-petroleumsforekomster">§ 79. Navnsetting mv. av petroleumsforekomster</a></li>
+<li class="lvl4"><a href="#79a-varsling-og-rapportering">§ 79a. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#80-opplysninger-om-leverandrer">§ 80. Opplysninger om leverandører</a></li>
+<li class="lvl4"><a href="#81-tilsyn-mv">§ 81. Tilsyn m.v.</a></li>
+<li class="lvl4"><a href="#82-observatrer">§ 82. Observatører</a></li>
+<li class="lvl4"><a href="#83-ekspert-og-laboratorietjenester">§ 83. Ekspert- og laboratorietjenester</a></li>
+<li class="lvl4"><a href="#84-opplring-av-offentlig-ansatte">§ 84. Opplæring av offentlig ansatte</a></li>
+<li class="lvl4"><a href="#85-saksbehandling-og-taushetsplikt">§ 85. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#86-delegasjon-og-dispensasjon">§ 86. Delegasjon og dispensasjon</a></li>
+<li class="lvl4"><a href="#87-straffebestemmelse">§ 87. Straffebestemmelse</a></li>
+<li class="lvl4"><a href="#88-ikrafttredelse-mv">§ 88. Ikrafttredelse m.v.</a></li>
+<li class="lvl2"><a href="#vedlegg-ikriterier-for-beskrivelse-og-vurdering-av-det-mulige-lagringslokalitet-og-omkringliggende-omrade-nevnt-i-30d-i-denne-forskrift">Vedlegg IKriterier for beskrivelse og vurdering av det mulige lagringslokalitet og omkringliggende område nevnt i § 30d i denne forskrift</a></li>
+<li class="lvl2"><a href="#vedlegg-iikriterier-for-etablering-og-oppdatering-av-overvakingsplanen-i-30g-og-etterdriftsplan-i-30j">Vedlegg IIKriterier for etablering og oppdatering av overvåkingsplanen i § 30g og etterdriftsplan i § 30j</a></li>
+<li class="lvl2"><a href="#merknader">Merknader</a></li>
+<li class="lvl3"><a href="#generelle-merknader-til-kapittel-9-i-petroleumsforskriften">Generelle merknader til kapittel 9 i petroleumsforskriften</a></li>
+<li class="lvl3"><a href="#merknader-til-den-enkelte-bestemmelse-i-forskriften">Merknader til den enkelte bestemmelse i forskriften</a></li>
+<li class="lvl4"><a href="#til-59">Til § 59</a></li>
+<li class="lvl4"><a href="#til-60">Til § 60</a></li>
+<li class="lvl4"><a href="#til-61">Til § 61</a></li>
+<li class="lvl4"><a href="#til-62">Til § 62</a></li>
+<li class="lvl4"><a href="#til-63">Til § 63</a></li>
+<li class="lvl4"><a href="#til-64">Til § 64</a></li>
+<li class="lvl4"><a href="#til-65">Til § 65:</a></li>
+<li class="lvl4"><a href="#til-66">Til § 66:</a></li>
+<li class="lvl4"><a href="#til-66a">Til § 66A</a></li>
+<li class="lvl4"><a href="#til-67">Til § 67:</a></li>
+<li class="lvl4"><a href="#til-68">Til § 68</a></li>
+<li class="lvl4"><a href="#til-68a">Til § 68A</a></li>
+<li class="lvl4"><a href="#til-69">Til § 69</a></li>
+<li class="lvl4"><a href="#til-70">Til § 70</a></li>
+<li class="lvl3"><a href="#kommentarer-til-forskrift-om-endring-i-forskrift-til-lov-om-petroleumsvirksomhet-fastsatt-ved-kglres-20-januar-2006">Kommentarer til forskrift om endring i forskrift til lov om petroleumsvirksomhet, fastsatt ved kgl.res. 20. januar 2006</a></li>
+<li class="lvl3"><a href="#merknader-til-forskrift-24-juni-2011-nr-640-om-endring-i-forskrift-til-lov-om-petroleumsvirksomhet">Merknader til forskrift 24. juni 2011 nr. 640 om endring i forskrift til lov om petroleumsvirksomhet</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-06-27-653.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-06-27-653.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-06-27-653.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1997-06-27-653.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1997-06-27-653.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-06-27-653.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1997-06-27-653.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1997-06-27-653.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-06-27-653.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-lov-om-petroleumsvirksomhet">Forskrift til lov om petroleumsvirksomhet</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Denne forskrift får anvendelse på petroleumsvirksomhet som nevnt i lov 29. november 1996 nr. 72 om petroleumsvirksomhet § 1-4 .</p>
@@ -100,7 +439,7 @@ i. Lagringskompleks , lagringslokalitet og de geologiske omgivelser som kan ha b
 j. Lagringslokalitet , et bestemt område innenfor en geologisk formasjon som anvendes til geologisk lagring av CO 2 , og tilhørende overflate- og injeksjonsinnretninger,
 k. Undersjøisk reservoar , en geologisk enhet, avgrenset av bergarttyper ved strukturelle eller stratigrafiske grenser, som har inneholdt petroleum og/eller vann i formasjonen, eller en kombinasjon av disse. Departementet bestemmer i tvilstilfelle hva som skal anses å være et undersjøisk reservoar.</p>
 <p>Lovens definisjoner gjelder for forskriften.</p>
-<p><em>Endret ved forskrifter 5 des 2014 nr. 1518 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 5 des 2014 nr. 1518 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</h2>
 <h4 id="3-sknad-om-underskelsestillatelse">§ 3. Søknad om undersøkelsestillatelse</h4>
 <p>Søknad om undersøkelsestillatelse etter loven § 2-1 sendes Oljedirektoratet og skal inneholde opplysninger om:</p>
@@ -119,7 +458,7 @@ d. formålet med og arten av undersøkelsen.</p>
 <p>Undersøkelsestillatelsen bortfaller dersom rettighetshaver innen 31. desember ikke har betalt avgiften for kommende år.</p>
 <p>For hver seismiske eller elektromagnetiske undersøkelse skal det betales et gebyr til staten ved Oljedirektoratet på kr 33 000. Gebyret skal betales senest samtidig med oppstart av undersøkelsen. Ved forsinket betaling skal det betales rente etter lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m.</p>
 <p>Departementet kan endre gebyr i denne bestemmelsen i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrifter 22 des 2006 nr. 1536 (i kraft 1 jan 2007), 18 des 2009 nr. 1731 (i kraft 1 jan 2010), 9 jan 2020 nr. 28 (i kraft 1 feb 2020).</em></p>
+<p class="note">Endret ved forskrifter 22 des 2006 nr. 1536 (i kraft 1 jan 2007), 18 des 2009 nr. 1731 (i kraft 1 jan 2010), 9 jan 2020 nr. 28 (i kraft 1 feb 2020).</p>
 <h4 id="6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser-mv">§ 6. Meddelelse av opplysninger i forbindelse med undersøkelser mv.</h4>
 <p>Rettighetshaver skal senest fem uker før aktiviteten etter en undersøkelsestillatelse påbegynnes sende opplysninger til Oljedirektoratet, Fiskeridirektoratet, Havforskningsinstituttet og Forsvaret om:</p>
 <p>a. tid, varighet og nøyaktige opplysninger om området for undersøkelsen,
@@ -131,18 +470,18 @@ c. hvilket fartøy som skal benyttes.</p>
 <p>Etter at den enkelte aktiviteten i medhold av en undersøkelsestillatelse er fullført, skal rettighetshaver sende data, registreringer og resultater fra aktiviteten til Oljedirektoratet. Rettighetshaver skal videre opplyse om resultatene mv. fra undersøkelsen skal være omsettelige. Oljedirektoratet fastsetter nærmere bestemmelser om innsending av slik data, registreringer og resultater.</p>
 <p>Fartøy som utfører geofysisk undersøkelse skal ha om bord og bruke utstyr som overvåker og rapporterer fartøyets posisjon og bevegelser så lenge undersøkelsesaktiviteten pågår. Oljedirektoratet fastsetter nærmere bestemmelser om sporingsutstyr, herunder tilgang til data.</p>
 <p>Denne paragrafen gjelder tilsvarende for undersøkelser som foretas etter en utvinningstillatelse.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 23 des 2022 nr. 2503 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 23 des 2022 nr. 2503 (i kraft 1 jan 2023).</p>
 <h2 id="kapittel-2a-konsekvensutredning-ved-apning-av-nye-omrader-for-petroleumsvirksomhet">Kapittel 2a. Konsekvensutredning ved åpning av nye områder for petroleumsvirksomhet</h2>
 <p>Kapitlet tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="6a-ansvarlig-myndighet-og-formal">§ 6a. Ansvarlig myndighet og formål</h4>
 <p>Departementet er ansvarlig for konsekvensutredning forut for åpning av nye områder for petroleumsvirksomhet i medhold av lovens § 3-1. Konsekvensutredningen skal bidra til å belyse de ulike interessene som gjør seg gjeldende på det aktuelle området. Konsekvensutredningen skal belyse virkningene åpning av et område for petroleumsvirksomhet kan ha for nærings- og miljømessige forhold, herunder mulige farer for forurensning, samt antatte økonomiske og sosiale virkninger. Konsekvensutredningen skal skje i tråd med bestemmelsene i § 6b og § 6c , og i samsvar med eventuelle utfyllende bestemmelser departementet fastsetter.</p>
 <p>Bestemmelsene i § 22c gjelder tilsvarende så langt de passer. Avgjørelser etter § 6b og § 6c er ikke enkeltvedtak etter forvaltningsloven.</p>
 <p>Bestemmelsene i dette kapittelet skal gjelde tilsvarende for andre typer overordnede utredninger, så langt bestemmelsene passer.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="6b-konsekvensutredningsprogram">§ 6b. Konsekvensutredningsprogram</h4>
 <p>Det skal utarbeides et forslag til utredningsprogram. Programmet skal klargjøre hvilke forhold som det skal gjøres rede for i konsekvensutredningen, herunder hvilke utredninger som er nødvendige for å gi et godt beslutningsgrunnlag. Forslag til utredningsprogram skal gi en beskrivelse av den planlagte beslutningen om åpning av område for petroleumsaktivitet, forskjellige mulige alternativer for fremtidig petroleumsvirksomhet i området og antatte problemstillinger som vil bli belyst. Forslag til utredningsprogram skal inneholde kart over området.</p>
 <p>Departementet sender forslag til program på høring til berørte myndigheter og interesseorganisasjoner, samt gjør forslaget tilgjengelig for offentligheten på Internett. Det skal settes rimelig frist for uttalelser. Fristen bør ikke settes kortere enn seks uker. Departementet fastsetter utredningsprogrammet på bakgrunn av forslaget og uttalelsene til dette. Det skal redegjøres for innkomne uttalelser og hvordan disse er vurdert og ivaretatt i fastsatt program. Kopi av fastsatt program skal sendes til dem som har avgitt uttalelse til forslaget til program.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="6c-konsekvensutredningen">§ 6c. Konsekvensutredningen</h4>
 <p>Konsekvensutredningen skal utarbeides på bakgrunn av fastsatt program, jf. § 6b annet ledd, og skal i innhold, omfang og detaljgrad tilpasses den konkrete saken og, så langt som mulig, basere seg på foreliggende kunnskap og nødvendig oppdatering av denne. Konsekvensutredningen skal beskrive antatte virkninger av åpning av området for petroleumsvirksomhet, forskjellige mulige alternativer for fremtidig petroleumsvirksomhet i området og virkningen av disse og i nødvendig grad inneholde blant annet følgende:</p>
 <p>a. beskrivelse av de områder som planlegges åpnet for petroleumsvirksomhet.
@@ -158,16 +497,16 @@ j. en redegjørelse for hva som kan gjøres for å forhindre eller avbøte event
 <p>Konsekvensutredningen skal inneholde nødvendige illustrasjoner og kartmateriale, samt et sammendrag.</p>
 <p>Departementet skal sende konsekvensutredningen på høring til berørte myndigheter og interesseorganisasjoner, samt gjøre forslaget tilgjengelig for offentligheten på Internett og skal samtidig kunngjøre i Norsk Lysingsblad at konsekvensutredningen er sendt på høring. Det skal settes en rimelig frist for uttalelse til konsekvensutredningen. Fristen skal normalt være 3 måneder, og ikke mindre enn 6 uker. Relevante bakgrunnsdokumenter og fagrapporter skal være tilgjengelig hos departementet. I den grad det er praktisk mulig skal departementet gjøre relevante fagrapporter og andre relevante dokumenter tilgjengelig på Internett.</p>
 <p>Departementet skal, på bakgrunn av høringen, ta stilling til om det er behov for tilleggsutredninger eller dokumentasjon om bestemte forhold. Eventuelle tilleggsutredninger skal sendes på høring til dem som har avgitt uttalelse i saken. Fristen for uttalelse bør ikke settes kortere enn to uker.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="6d-saksfremlegget">§ 6d. Saksfremlegget</h4>
 <p>Åpning av nytt område for petroleumsvirksomhet etter loven § 3-1 forelegges for Stortinget. I saksfremlegget skal det gjøres rede for hvordan virkningene av åpning av nytt område for petroleumsvirksomhet og innkomne høringsuttalelser er vurdert, samt hvilken betydning disse er tillagt. Det skal vurderes i saksfremlegget om det bør stilles krav til undersøkelser med sikte på å overvåke og klargjøre faktiske virkninger av petroleumsvirksomheten. Det skal i saksfremlegget også vurderes om det bør stilles vilkår med sikte på å begrense og avbøte negative virkninger av vesentlig betydning.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h2 id="kapittel-3-utvinningstillatelse-mv">Kapittel 3. Utvinningstillatelse m.v.</h2>
 <h4 id="7-utlysning">§ 7. Utlysning</h4>
 <p>I utlysningen skal i tillegg til det som følger av loven § 3-5, forventet tidspunkt for tildeling angis.</p>
 <p>Dersom søknader fra enkeltvise fysiske eller juridiske personer foretrekkes, skal dette angis i utlysningen.</p>
 <p>Tildelingskriteriene nevnt i denne forskriften § 10 skal inntas i utlysningen. Departementet bestemmer hvordan utlysningen nærmere skal utformes. Endres vilkår og krav for tildeling etter utlysningen, skal departementet underrette de fysiske og juridiske personer som har sendt inn, ellers om må forventes å sende inn søknad om tildeling av utvinningstillatelse innen søknadsfristens utløp.</p>
-<p><em>Endret ved forskrift 17 juli 1998 nr. 623 .</em></p>
+<p class="note">Endret ved forskrift 17 juli 1998 nr. 623 .</p>
 <h4 id="8-sknad-om-utvinningstillatelse">§ 8. Søknad om utvinningstillatelse</h4>
 <p>Søknad om utvinningstillatelse sendes departementet med kopi til Sokkeldirektoratet. Søknaden skal inneholde:</p>
 <p>a. søkerens navn, adresse og nasjonalitet samt angivelse av om søkeren er en fysisk eller juridisk person,
@@ -182,24 +521,24 @@ i. beskrivelse av den organisasjon og kompetanse søkeren vil ha til rådighet i
 j. kvittering for innbetalt behandlingsgebyr.</p>
 <p>Departementet kan fravike kravet til innhold i søknaden etter første ledd, herunder kreve ytterligere opplysninger.</p>
 <p>Søknad om utvinningstillatelse skal være skrevet på norsk eller engelsk.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="9-behandlingsgebyr">§ 9. Behandlingsgebyr</h4>
 <p>For behandlingen av hver søknad om utvinningstillatelse skal det betales et gebyr på kr 109 000 som innbetales til staten ved Sokkeldirektoratet.</p>
 <p>Dersom gebyr ikke er innbetalt, anses ikke søknaden for innkommet.</p>
 <p>For hver seismiske eller elektromagnetiske undersøkelse skal det betales et gebyr til staten ved Sokkeldirektoratet på kr 33 000. Gebyret skal betales senest samtidig med oppstart av undersøkelsen. Ved forsinket betaling skal det betales rente etter lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m.</p>
 <p>Departementet kan endre gebyr i denne bestemmelsen i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrifter 17 juli 1998 nr. 623 , 22 des 2006 nr. 1536 (i kraft 1 jan 2007), 18 des 2009 nr. 1731 (i kraft 1 jan 2010), 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juli 1998 nr. 623 , 22 des 2006 nr. 1536 (i kraft 1 jan 2007), 18 des 2009 nr. 1731 (i kraft 1 jan 2010), 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="10-kriterier-for-tildeling-av-utvinningstillatelser-og-utvelse-av-virksomhet-i-henhold-til-utvinningstillatelser-mv">§ 10. Kriterier for tildeling av utvinningstillatelser og utøvelse av virksomhet i henhold til utvinningstillatelser mv.</h4>
 <p>Utvinningstillatelse tildeles på grunnlag av søkerens tekniske kompetanse, finansielle kapasitet og plan for leting og utvinning i det området som søknaden gjelder, slik at den best mulige ressursforvaltning fremmes.</p>
 <p>I vurderingen etter første ledd kan det tas hensyn til at søkeren har utvist manglende effektivitet eller manglende ansvarlighet som rettighetshaver. Det kan også legges vekt på kriteriene nevnt i petroleumsloven § 3-5 tredje ledd, dersom disse anvendes på en ikke-diskriminerende måte, og på hensynene nevnt i § 11 annet ledd i denne forskriften. Dersom to eller flere søknader vurderes likt, kan valget mellom dem også skje på bakgrunn av andre relevante objektive og ikke-diskriminerende kriterier.</p>
 <p>En beslutning om sammensetning av rettighetshavergruppen og utpeking av operatør skal skje på grunnlag av objektive og ikke-diskriminerende kriterier.</p>
 <p>Departementet kan av hensyn til nasjonal sikkerhet nekte adgang til og utøvelse av petroleumsvirksomhet hvis søkeren eller rettighetshaveren faktisk kontrolleres av en stat utenfor EØS eller av statsborgere fra slik stat.</p>
-<p><em>Endret ved forskrifter 17 juli 1998 nr. 623 , 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</em></p>
+<p class="note">Endret ved forskrifter 17 juli 1998 nr. 623 , 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</p>
 <h4 id="11-vilkar-og-krav">§ 11. Vilkår og krav</h4>
 <p>Vilkår og krav for tildeling av en utvinningstillatelse og for utøvelse av petroleumsvirksomhet etter en utvinningstillatelse kan bare begrunnes i behovet for å sikre at petroleumsvirksomheten i området for utvinningstillatelsen gjennomføres på en god måte, og for å ivareta hensyn som nevnt i annet ledd.</p>
 <p>Vilkår for utøvelse av virksomhet etter en utvinningstillatelse skal være begrunnet i hensynet til nasjonal sikkerhet, offentlig orden, folkehelse, transportsikkerhet, miljøvern, vern av biologiske ressurser og nasjonale skatter av kunstnerisk, historisk eller arkeologisk verdi, anleggenes og arbeidstakerens sikkerhet, planmessig ressursforvaltning (for eksempel utvinningstempo eller optimeringen av utvinningsvirksomheten) eller behovet for å sikre skatte- og avgiftsinntekter.</p>
 <p>Denne paragraf får bare anvendelse for utvinningstillatelser som er tildelt etter 1. september 1995.</p>
-<p><em>Endret ved forskrift 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</p>
 <h4 id="12-statlig-deltakelse">§ 12. Statlig deltakelse</h4>
 <p>Kongen kan utpeke en juridisk person som forretningsfører for den direkte statlige deltakelse som nevnt i loven § 3-6.</p>
 <p>Følgende prinsipper skal gjelde for beslutningsprosessen i utvinningstillatelsen:</p>
@@ -214,22 +553,22 @@ b. den statlige deltaker eller forretningsføreren for den direkte statlige delt
 <h4 id="14-forlengelse-av-utvinningstillatelse">§ 14. Forlengelse av utvinningstillatelse</h4>
 <p>Søknad om forlengelse av utvinningstillatelse etter loven § 3-9 første ledd skal sendes Sokkeldirektoratet innen fire måneder før utvinningstillatelsen utløper, med mindre Sokkeldirektoratet bestemmer noe annet.</p>
 <p>Krav om forlengelse etter loven § 3-9 annet ledd skal sendes Sokkeldirektoratet innen to måneder før utvinningstillatelsen utløper, med mindre Sokkeldirektoratet bestemmer noe annet. Rettighetshaver skal opplyse hvilket område utvinningstillatelsen ønskes forlenget for.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="15-form-og-strrelse-pa-omrader">§ 15. Form og størrelse på områder</h4>
 <p>De områder som rettighetshaver tilbakeleverer etter loven §§ 3-9 og 3-14, skal være sammenhengende og avgrenset av meridianer og breddeparalleller uttrykt i hele gradminutter. Tilsvarende gjelder for de områder rettighetshaver beholder.</p>
 <p>Områder som fradeles etter loven § 3-10 skal være sammenhengende og avgrenset av meridianer og breddeparalleller uttrykt i hele gradminutter. Departementet kan når særlige grunner tilsier det godkjenne en horisontal deling av området for en utvinningstillatelse.</p>
 <p>Sokkeldirektoratet skal godkjenne form og størrelse på områdene og kan gi fritak fra kravet om at områdene skal være sammenhengende. Sokkeldirektoratet skal normalt gi slikt fritak dersom tilbakelevering skjer for å tilpasse områdets størrelse etter bestemmelsene om fritak for arealavgift i § 39 andre og tredje ledd. Når særlige grunner tilsier det kan Sokkeldirektoratet fravike kravet til avgrensning i hele gradminutter.</p>
-<p><em>Endret ved forskrifter 30 juni 2006 nr. 791 (i kraft 1 jan 2007), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2006 nr. 791 (i kraft 1 jan 2007), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-4-utvinning-mv-av-petroleum">Kapittel 4. Utvinning m.v. av petroleum</h2>
 <h4 id="16-vurdering-av-en-petroleumsforekomst">§ 16. Vurdering av en petroleumsforekomst</h4>
 <p>Når en petroleumsforekomst er påvist gjennom boring, skal rettighetshaver sende Sokkeldirektoratet informasjon om planer for nærmere undersøkelser og resultater fra utførte undersøkelser av forekomsten.</p>
 <p>En vurdering av petroleumsforekomsten skal skriftlig fremlegges for Sokkeldirektoratet innen seks måneder etter at forekomsten er påvist.</p>
 <p>Dersom petroleumsforekomsten gjennom testing, prøvetaking eller logging er sannsynliggjort å ha bevegelig petroleum, skal rettighetshaver også angi størrelse på petroleumsforekomsten og fremlegge planer for den videre aktivitet.</p>
 <p>Sokkeldirektoratet kan kreve fremlagt ytterligere vurderinger og opplysninger.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="17-erklring-om-ikke-a-igangsette-utvinning">§ 17. Erklæring om ikke å igangsette utvinning</h4>
 <p>Rettighetshaver skal skriftlig underrette departementet senest to år etter at siste letebrønn ble boret dersom rettighetshaver ikke finner å kunne igangsette utvinning fra en petroleumsforekomst. Kopi av underretningen sendes Sokkeldirektoratet. Det skal vedlegges en rapport som redegjør for grunnlaget for beslutningen og et sammendrag av reservoarmessige, tekniske og økonomiske forhold samt undersøkelser som er eller planlegges gjennomført med sikte på å klarlegge om petroleumsforekomsten er eller kan bli drivverdig.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="18-prveutvinning">§ 18. Prøveutvinning</h4>
 <p>Søknad om prøveutvinning jf. loven § 4-4 femte ledd, skal som hovedregel inneholde:</p>
 <p>a. beskrivelse av formålet med prøveutvinningen,
@@ -243,16 +582,16 @@ h. beskrivelse av miljømessige konsekvenser.</p>
 <p>Søknaden sendes departementet med kopi til Sokkeldirektoratet. Dersom innretning skal plasseres på land eller sjøgrunn undergitt privat eiendomsrett sendes også kopi til Havindustritilsynet.</p>
 <p>Ved prøveutvinning skal det også innhentes tillatelse etter loven § 4-4 annet og tredje ledd.</p>
 <p>Petroleum som produseres under prøveutvinning skal som hovedregel lagres for senere utnyttelse eller salg. Prøveutvinning skal normalt avsluttes før fremleggelse av plan for utbygging og drift av en petroleumsforekomst eller av søknad om fritak fra kravet om slik plan. Dersom særlige grunner tilsier det, kan rettighetshaver forelegge for departementet til godkjennelse en plan for utbygging og drift i medhold av loven § 4-2 før prøveutvinningen avsluttes.</p>
-<p><em>Endret ved forskrifter 20 jan 2006 nr. 49 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2006 nr. 49 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="19-opphevet">§ 19. (Opphevet)</h4>
-<p><em>Endret ved forskrift 20 jan 2006 nr. 49 , opphevet ved forskrift 9 jan 2020 nr. 28 (i kraft 1 feb 2020).</em></p>
+<p class="note">Endret ved forskrift 20 jan 2006 nr. 49 , opphevet ved forskrift 9 jan 2020 nr. 28 (i kraft 1 feb 2020).</p>
 <h4 id="20-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 20. Plan for utbygging og drift av en petroleumsforekomst</h4>
 <p>Plan for utbygging og drift av en eller flere petroleumsforekomster, jf. loven § 4-2 , skal inneholde en beskrivelse av utbyggingen og en konsekvensutredning. Uttalelser til konsekvensutredningen tas med i vurderingen ved godkjennelse av plan for utbygging og drift. Planen skal sendes departementet med kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
 <p>Plan for utbygging og drift av en forekomst som medfører bygge- og anleggstiltak i strid med arealdel av bindende planvedtak etter plan- og bygningsloven, kan ikke godkjennes av departementet før planmyndigheten har samtykket i dette.</p>
 <p>Departementet kan kreve at den enkelte rettighetshaver gir opplysning om hvordan rettighetshaver vil finansiere sin del av utbyggingen.</p>
 <p>Departementet skal i eget dokument, som skal offentliggjøres, redegjøre for og begrunne vedtaket om å godkjenne eller ikke godkjenne plan for utbygging og drift. I begrunnelsen skal det bl.a. fremgå hvilke miljøvilkår som eventuelt er knyttet til godkjennelsen samt hvilke tiltak som eventuelt er forutsatt å avbøte vesentlige negative miljøvirkninger. Taushetsbelagte opplysninger skal ikke offentliggjøres.</p>
 <p>Ved vesentlige endringer i eller avvik fra planen skal det gis melding til departementet. Departementet kan kreve fremlagt ny eller endret plan.</p>
-<p><em>Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="21-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 21. Beskrivelse av utbyggingen i plan for utbygging og drift av en petroleumsforekomst</h4>
 <p>Beskrivelsen av utbyggingen med tilhørende dokumentasjon skal tilpasses utbyggingens omfang. Beskrivelsen skal redegjøre for økonomiske, ressursmessige, tekniske og miljø- og sikkerhetsmessige forhold ved utbyggingen.</p>
 <p>Beskrivelsen av utbyggingen skal i nødvendig utstrekning inneholde:</p>
@@ -275,12 +614,12 @@ n. Hvis utbyggingen omfatter fangst, transport og lagring av CO 2 :
   - forslag til plan for utbedrende tiltak ved vesentlige uregelmessigheter, jf. § 30g første ledd b),
   - forslag til foreløpig plan for etterdrift, jf. § 30j og vedlegg II til denne forskrift.</p>
 <p>Departementet kan kreve alternative løsninger utredet.</p>
-<p><em>Endret ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Endret ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="22-utredningsprogram-for-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22. Utredningsprogram for konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</h4>
 <p>Rettighetshaver skal i god tid før fremleggelse av plan for utbygging og drift av en petroleumsforekomst utarbeide forslag til utredningsprogram. Forslaget skal gi en kort beskrivelse av utbyggingen, av aktuelle utbyggingsløsninger og på bakgrunn av tilgjengelig kunnskap, av antatte virkninger for andre næringer og miljø, herunder eventuelle grenseoverskridende miljøvirkninger. Videre skal forslaget klargjøre behovet for dokumentasjon. Dersom det er utarbeidet en konsekvensutredning for det området hvor utbyggingen planlegges gjennomført, skal forslaget klargjøre behovet for ytterligere dokumentasjon eller oppdatering.</p>
 <p>Forslaget til utredningsprogram bør i nødvendig grad inneholde en beskrivelse av hvordan utredningsarbeidet vil bli gjennomført, særlig med sikte på informasjon og medvirkning i forhold til grupper som antas å bli særlig berørt. Forslaget til utredningsprogram skal baseres på rammene for dokumentasjon i § 22a .</p>
 <p>Rettighetshaver sender forslaget til utredningsprogram til uttalelse til berørte myndigheter og interesseorganisasjoner. Det skal settes en rimelig frist for uttalelser. Fristen bør ikke være kortere enn seks uker. Departementet fastsetter utredningsprogrammet på bakgrunn av forslaget og uttalelsene til dette. Det skal redegjøres for innkomne uttalelser og hvordan disse er vurdert og ivaretatt i fastsatt program. Kopi av fastsatt program skal sendes til dem som har avgitt uttalelse i saken. Avgjørelser etter denne bestemmelsen er ikke enkeltvedtak etter forvaltningsloven. Departementet kan i særlige tilfeller bestemme at departementet sender forslag til utredningsprogram på høring.</p>
-<p><em>Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 .</p>
 <h4 id="22a-konsekvensutredning-i-plan-for-utbygging-og-drift-av-en-petroleumsforekomst">§ 22a. Konsekvensutredning i plan for utbygging og drift av en petroleumsforekomst</h4>
 <p>En konsekvensutredning i en plan for utbygging og drift av en petroleumsforekomst skal redegjøre for virkningene utbyggingen kan ha for næringsmessige forhold og miljømessige forhold, herunder forebyggende og avbøtende tiltak. Konsekvensutredningen skal blant annet:</p>
 <p>a. beskrive alternative utbyggingsløsninger som rettighetshaver har undersøkt og begrunne valg av utbyggingsløsning og utvinningsstrategi, redegjøre for kriteriene for det valg som er gjort, samt beskrive eventuelle påfølgende utbyggingstrinn, tilknytning til andre felt og landanlegg og eventuell samordning av petroleumsvirksomhet,
@@ -302,32 +641,32 @@ h. ha et sammendrag av ovennevnte punkter.</p>
 <p>Departementet skal, på bakgrunn av høringen, ta stilling til om det er behov for tilleggsutredninger eller dokumentasjon om bestemte forhold. Eventuelle tilleggsutredninger skal forelegges berørte myndigheter og dem som har avgitt uttalelse til konsekvensutredningen til uttalelse før det fattes vedtak i saken. Fristen for uttalelse bør ikke være kortere enn to uker.</p>
 <p>I departementets saksframlegg skal det fremgå hvordan virkningene av utbygningen og innkomne uttalelser er vurdert, og hvilken betydning disse er tillagt. Det skal vurderes i saksfremlegget om vilkår med sikte på å begrense og avbøte negative virkninger av vesentlig betydning skal settes. Departementet kan bestemme at det skal utarbeides et miljøoppfølgingsprogram med sikte på å overvåke og avbøte negative virkninger av vesentlig betydning.</p>
 <p>Departementets avgjørelser etter paragrafen her er ikke enkeltvedtak etter forvaltningsloven.</p>
-<p><em>Tilføyd ved forskrift 4 juni 1999 nr. 571 , endret ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 4 juni 1999 nr. 571 , endret ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="22b-fritak-fra-kravet-om-konsekvensutredning">§ 22b. Fritak fra kravet om konsekvensutredning</h4>
 <p>Departementet kan etter søknad fra rettighetshaver gi fritak fra kravet om konsekvensutredning dersom utbyggingen ikke vil medføre utvinning av olje og naturgass i kommersiell hensikt der utvunnet mengde overstiger 4.000 fat per dag for olje og 500.000 m 3 naturgass per dag for gass, og den ellers ikke antas å ha vesentlige næringsmessige eller miljømessige virkninger.</p>
 <p>Såfremt utbyggingen ikke kan antas å ha vesentlige grenseoverskridende miljøvirkninger, kan kravet om konsekvensutredning i unntakstilfeller fravikes helt eller delvis, selvom utbyggingen overskrider terskelverdiene i første ledd. Før unntak gis, skal departementet underrette EFTAs Overvåkningsorgan om begrunnelsen for unntaket.</p>
-<p><em>Tilføyd ved forskrift 4 juni 1999 nr. 571 .</em></p>
+<p class="note">Tilføyd ved forskrift 4 juni 1999 nr. 571 .</p>
 <h4 id="22c-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 22c. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</h4>
 <p>Dersom en utbygging kan få vesentlige grenseoverskridende miljøvirkninger, skal departementet oversende utredningsprogrammet og informasjon om kravet til godkjennelse av plan for utbygging og drift til stater som kan bli berørt, senest samtidig med at utredningsprogrammet blir sendt på høring. Slik informasjon skal også sendes dersom en stat som i betydelig utstrekning kan bli berørt, anmoder om det.</p>
 <p>Berørte stater kan delta i konsekvensutredningsprosessen, herunder avgi uttalelse om utredningsprogrammet og konsekvensutredningen til departementet. Departementet sender konsekvensutredningen til rette myndighet i berørte stater samtidig som konsekvensutredningen sendes på høring i Norge. Departementet kan pålegge rettighetshaver å utarbeide dokumentene tilknyttet konsekvensutredningen i de fremmede språk som er nødvendige.</p>
 <p>Departementet skal ved godkjennelse av plan for utbygging og drift oversende det i § 20 fjerde ledd nevnte dokument til rette myndighet i berørte stater.</p>
 <p>Dersom en utbygging kan forårsake betydelig forurensing av eller vesentlige og skadelige endringer i det marine miljøet i områder utenfor nasjonal jurisdiksjon, skal departementet sørge for deling av nødvendig informasjon gjennom Mekanismen for informasjonsutveksling, som er opprettet i medhold av Avtale om bevaring og bærekraftig bruk av marint biologisk mangfold i områder utenfor nasjonal jurisdiksjon under Havrettskonvensjonen .</p>
-<p><em>Tilføyd ved forskrift 4 juni 1999 nr. 571 , endret ved forskrifter 20 jan 2006 nr. 49 , 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juni 1999 nr. 571 , endret ved forskrifter 20 jan 2006 nr. 49 , 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</p>
 <h4 id="23-fastsettelse-av-produksjonsforlp-mv">§ 23. Fastsettelse av produksjonsforløp m.v.</h4>
 <p>Rettighetshaver skal søke departementet om produksjonstillatelse, herunder tillatelse til brenning og kaldventilering, innen de frister som departementet bestemmer. Kopi av søknaden skal sendes Sokkeldirektoratet. Tillatelsens varighet kan tilpasses feltets størrelse, og andre forhold av betydning.</p>
 <p>Departementet kan, i tilfeller som angitt i loven § 4-4, treffe vedtak vedrørende produksjon eller injisering fra hver enkelt brønn, forekomst eller felt.</p>
 <p>Departementet kan nærmere bestemme innhold i og utforming av den søknaden som skal innsendes etter loven § 4-4 annet og tredje ledd.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="24-feltrapport">§ 24. Feltrapport</h4>
 <p>Dersom departementet pålegger rettighetshaver etter loven § 4-4 sjette ledd å utarbeide en rapport om feltrelaterte forhold, skal det gis en frist på minst seks måneder for utarbeidelse av rapporten, med mindre særlige forhold tilsier en kortere frist.</p>
 <h4 id="25-tiltak-for-a-fremskaffe-opplysninger">§ 25. Tiltak for å fremskaffe opplysninger</h4>
 <p>Sokkeldirektoratet kan kreve gjennomført spesielle tiltak for å fremskaffe opplysninger, såfremt dette anses nødvendig for å kunne bedømme om driften av en petroleumsforekomst er forsvarlig eller for å få i stand en samordnet virksomhet mellom flere rettighetshavere.</p>
 <p>Særlig kostbare tiltak, som for eksempel boring av en brønn, kan ikke kreves gjennomført med mindre departementet finner at tiltaket er åpenbart nødvendig.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="26-maling-av-produsert-petroleum">§ 26. Måling av produsert petroleum</h4>
 <p>Rettighetshaver skal måle produsert petroleum.</p>
 <p>Sokkeldirektoratet fastsetter nærmere bestemmelser om slik måling, herunder om utstyr og fremgangsmåte og om korrigering av måleresultater.</p>
-<p><em>Endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="27-overvakning-av-forekomst-og-produksjon-under-utvinning">§ 27. Overvåkning av forekomst og produksjon under utvinning</h4>
 <p>Rettighetshaver skal kontinuerlig overvåke forekomsten under utvinning, herunder trykk- og strømningsforhold, produserte eller injiserte volumer pr. brønn, sone og reservoar, komponentvis sammensetning av petroleum m.v. Med sone forstås en del av en petroleumsforekomst som kan anses å være delvis adskilt fra forekomsten for øvrig ved begrensninger i trykk- og permeabilitetsforbindelsene.</p>
 <p>Det totale månedlige produksjons- og injeksjonsvolumet på feltet skal fordeles på hver enkelt brønn på månedsbasis etter anerkjent norm.</p>
@@ -342,7 +681,7 @@ c. rørledningens trasé, dimensjon og transportkapasitet.</p>
 <p>a. fastsette tariffer for bruk av innretningen for eierens egen og for annen petroleum,
 b. gi pålegg om at innretningen skal tilknyttes andre innretninger, at kapasiteten skal økes og at innretningen skal ombygges for å kunne benyttes for andre typer petroleum enn den opprinnelig er bygget for. Pålegg som nevnt må ikke fordyre eller i urimelig grad vanskeliggjøre bruk av innretningen som er sikret etter godkjennelse av departementet. Kostnadene ved gjennomføring av pålegg som nevnt, skal etter departementets nærmere bestemmelse dekkes av den eller de som pålegg er gitt til fordel for eller tas i betraktning ved fastsettelse av tariff,
 c. bestemme hvilken petroleum som skal transporteres i rørledning, dog kan det ikke bestemmes at petroleum skal transporteres til fortrengsel for petroleum som er sikret transport i rørledning etter godkjennelse av departementet.</p>
-<p><em>Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="29-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 29. Innhold i plan for anlegg og drift av innretninger</h4>
 <p>Plan for anlegg og drift av innretninger som nevnt i loven § 4-3 første ledd skal redegjøre for økonomiske, ressursmessige, tekniske og miljø- og sikkerhetsmessige forhold ved prosjektet. Dokumentasjon skal tilpasses prosjektets omfang.</p>
 <p>Plan for anlegg og drift av innretninger som nevnt i loven § 4-3 første ledd skal i nødvendig utstrekning inneholde:</p>
@@ -360,7 +699,7 @@ k. andre opplysninger som kreves etter de til enhver tid gjeldende sikkerhetsfor
 <p>Departementet kan fravike kravet til dokumentasjon etter første ledd, herunder kreve alternative løsninger utredet.</p>
 <p>Departementet kan etter søknad fra rettighetshaver gi fritak fra kravet om konsekvensutredning dersom prosjektet ikke gjelder transport av petroleum i rørledninger med en diameter på mer enn 800 mm og en lengde på mer enn 40 km, og den ellers ikke antas å ha vesentlige næringsmessige eller miljømessige virkninger. Bestemmelsene i § 20 fjerde ledd, § 22 , § 22b annet ledd og § 22c gjelder tilsvarende. Bestemmelsene i § 22a gjelder tilsvarende så langt de passer.</p>
 <p>Loven § 4-2, tredje, fjerde, sjette og syvende ledd gjelder tilsvarende for plan for anlegg og drift.</p>
-<p><em>Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Endret ved forskrifter 4 juni 1999 nr. 571 , 20 jan 2006 nr. 49 .</p>
 <h4 id="30-traseunderskelser-og-andre-grunnunderskelser">§ 30. Traséundersøkelser og andre grunnundersøkelser</h4>
 <p>Rettighetshaver skal senest fem uker før traséundersøkelser og andre grunnundersøkelser påbegynnes sende opplysninger til Sokkeldirektoratet, Fiskeridirektoratet, Havforskningsinstituttet og Forsvaret om:</p>
 <p>a. formålet med undersøkelsene,
@@ -371,28 +710,28 @@ e. hvor dypt det eventuelt skal bores.</p>
 <p>Sokkeldirektoratet fastsetter nærmere bestemmelser om innsending av opplysninger i forbindelse med traséundersøkelser og andre grunnundersøkelser, blant annet om unntak fra fristen i første ledd.</p>
 <p>Fartøy som foretar trasé- og andre grunnundersøkelser skal ha fiskerikyndig person om bord når det er nødvendig av hensyn til fiskerivirksomheten i området. I tvilstilfeller har Sokkeldirektoratet i samråd med Fiskeridirektoratet avgjørende myndighet. Sokkeldirektoratet fastsetter nærmere bestemmelser om fiskerikyndig person.</p>
 <p>Ved traséundersøkelser og andre grunnundersøkelser kan det ikke bores dypere enn 200 meter under sjøbunnen.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30a-samtykke-til-oppstart-og-viderefring">§ 30a. Samtykke til oppstart og videreføring</h4>
 <p>Før rettighetshaver kan utøve petroleumsvirksomhet som nevnt i punkt a) til c) nedenfor, kreves samtykke til oppstart eller videreføring fra Energidepartementet eller den det bemyndiger.</p>
 <p>Samtykke som nevnt i første ledd må være innhentet:</p>
 <p>a. før en innretning eller deler av den tas i bruk første gang,
 b. før en innretning eller deler av den tas i bruk etter gjennomføring av større ombygginger eller modifikasjoner, eller før endring av bruksformål som ikke er omfattet av godkjent plan for utbygging og drift eller tillatelse til anlegg og drift av innretninger eller vedtak om disponering, jf. loven § 4-2 og § 4-3,
 c. før bruk av innretning utover den levetiden og de forutsetningene som er lagt til grunn for godkjennelse av plan for utbygging og drift eller tillatelse til anlegg og drift av innretninger eller vedtak om disponering, jf. loven § 4-2, § 4-3 og § 5-3.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="30b-leie-av-produksjonsinnretning">§ 30b. Leie av produksjonsinnretning</h4>
 <p>Rettighetshaver skal ikke leie produksjonsinnretning av tilknyttet selskap, med mindre departementet samtykker til dette. Søknad om slikt samtykke sendes i kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
 <p>Departementet avgjør i enkeltsaker om utleier er å anse som et tilknyttet selskap.</p>
 <p>Departementet kan i tvilstilfeller bestemme om en innretning skal anses som en produksjonsinnretning.</p>
-<p><em>Tilføyd ved forskrift 2 juli 2012 nr. 729 , endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juli 2012 nr. 729 , endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-4a-lagring-av-co2">Kapittel 4a. Lagring av CO2</h2>
 <p>Kapitlet tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30c-lagring-av-co2">§ 30c. Lagring av CO2</h4>
 <p>Dette kapittel kommer til anvendelse på fangst, transport og lagring av CO 2 i petroleumsvirksomheten, som iverksettes i henhold til plan for utbygging og drift godkjent i medhold av loven § 4-2 første ledd etter denne forskriftens ikrafttredelse.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30d-utvelgelse-av-en-lagringslokalitet">§ 30d. Utvelgelse av en lagringslokalitet</h4>
 <p>Et undersjøisk reservoars egnethet som lagringslokalitet skal bestemmes gjennom en karakterisering og vurdering av en potensiell lagringslokalitet og omkringliggende område i henhold til kriteriene angitt i vedlegg 1.</p>
 <p>Et undersjøisk reservoar skal bare velges som lagringslokalitet dersom det under de forhold som foreslås for slik bruk ikke er vesentlig risiko for lekkasje, og det heller ikke anses å foreligge noen fare for helse- eller miljøskade av betydning.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30e-samtykke-til-injeksjon-og-lagring-av-co2">§ 30e. Samtykke til injeksjon og lagring av CO2</h4>
 <p>Før oppstart av injeksjon og lagring av CO 2 i undersjøisk reservoar, må rettighetshaver ha samtykke til injeksjon og lagring av CO 2 . Et samtykke til injeksjon og lagring av CO 2 gis av departementet eller den det bemyndiger og av Havindustritilsynet, jf. forskrift 12. februar 2010 nr. 158 om helse, miljø og sikkerhet i petroleumsvirksomheten og på enkelte landanlegg , med endringer.</p>
 <p>Samtykket til injeksjon og lagring av CO 2 skal være kompatibelt med lagringstillatelse gitt av forurensningsmyndigheten i medhold av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning (forurensningsforskriften) kapittel 35 . Det samme gjelder enhver senere endring av, unntak fra eller tillegg til slikt samtykke.</p>
@@ -405,13 +744,13 @@ e. måling av CO 2 -injeksjonsrater,
 f. planer for eventuelle korrigerende tiltak,
 g. plan for nedstenging og etterdrift.</p>
 <p>Energidepartementet eller den det bemyndiger skal underrettes ved lekkasje eller vesentlige uregelmessigheter.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrifter 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30f-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 30f. Vilkår for samtykke til injeksjon og lagring av CO2</h4>
 <p>Et samtykke til injeksjon og lagring av CO 2 er betinget av at følgende vilkår er oppfylt:</p>
 <p>a. alle relevante krav i denne forskrift er oppfylt,
 b. rettighetshaver har den finansielle styrke, tekniske kompetanse og pålitelighet som anses påkrevet for å operere og kontrollere lagringslokaliteten, og alle kvalitetskrav til rettighetshaver og hans organisasjon er oppfylt,
 c. potensielle gjensidige trykkpåvirkninger mellom lagringslokaliteter i samme hydrauliske enhet er av en slik karakter at denne forskriftens krav kan oppfylles for begge lokaliteter samtidig.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30g-overvakning">§ 30g. Overvåkning</h4>
 <p>Operatøren skal overvåke injeksjonsanleggene og lagringskomplekset, inklusive CO 2 -utbredelsen for å:</p>
 <p>a. sammenligne den faktiske og modellerte oppførselen til CO 2 og formasjonsvannet i lagringslokaliteten,
@@ -421,16 +760,16 @@ d. oppdage lekkasje av CO 2 fra lagringskomplekset,
 e. oppdatere vurderingen av lagringskompleksets sikkerhet og integritet på kort og lang sikt, herunder om den lagrede CO 2 vil forblir sikkert lagret.</p>
 <p>Overvåkningen skal foretas på grunnlag av en overvåkningsplan utarbeidet av operatøren i samsvar med kravene i vedlegg II til denne forskrift, og som departementet har samtykket til i medhold av § 30e .</p>
 <p>Planen skal oppdateres i samsvar med kravene i vedlegg II til denne forskrift, og under enhver omstendighet hvert femte år. Dette for å ivareta eventuelle endringer i risikovurderingen knyttet til lekkasje og for miljøet, menneskers helse, ny vitenskapelig kunnskap eller teknologiske forbedringer. Oppdaterte planer er betinget av departementets samtykke i medhold av § 30e .</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30h-tilsyn">§ 30h. Tilsyn</h4>
 <p>Departementet eller den det bemyndiger skal føre tilsyn med lagringslokaliteten minst en gang i året inntil tre år etter nedstengning, og deretter hvert femte år inntil ansvaret er overdratt til staten v/Energidepartementet. Ved tilsynet skal departementet eller den det bemyndiger undersøke relevante injeksjons- og overvåkningsanlegg, reservoarforhold, og eventuelle virkninger av lagringskomplekset på miljøet. Tilsynet skal så vidt mulig samordnes med tilsyn fra forurensningsmyndigheten i medhold av forurensningsforskriften ( forskrift 1. juni 2004 nr. 931 om begrensning av forurensning) § 35-11.</p>
 <p>Etter hvert tilsyn skal departementet eller den det bemyndiger utarbeide en rapport om tilsynsresultatene. I rapporten vurderes det hvorvidt bestemmelsene i denne forskrift er overholdt, og om ytterligere tiltak er nødvendig. Rapporten skal oversendes operatøren og gjøres tilgjengelig for offentligheten senest to måneder etter gjennomført tilsyn.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30i-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 30i. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</h4>
 <p>Ved fare for lekkasje eller vesentlige uregelmessigheter skal operatøren straks underrette departementet eller den det bemyndiger og treffe de nødvendige utbedrende tiltak.</p>
 <p>Utbedrende tiltak skal iverksettes i henhold til den plan for utbedrende tiltak som er utformet og godkjent i medhold av § 21 annet ledd bokstav n). Departementet eller den det bemyndiger kan til enhver tid pålegge operatøren å iverksette nødvendige utbedrende tiltak og tiltak for å beskytte menneskelig helse. Slike tiltak kan være i tillegg til, eller forskjellig fra de tiltak som er beskrevet i planen for utbedrende tiltak. Departementet eller den det bemyndiger kan også på ethvert tidspunkt selv iverksette utbedrende tiltak eller kreve injeksjonen stanset.</p>
 <p>Hvis operatøren ikke iverksetter de nødvendige utbedrende tiltak, skal departementet eller den det bemyndiger selv iverksette disse og inndrive utgiftene hos rettighetshaver.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 .</p>
 <h4 id="30j-nedstengning-og-etterdrift">§ 30j. Nedstengning og etterdrift</h4>
 <p>En lagringslokalitet skal nedstenges dersom:</p>
 <p>a. betingelsene som oppstilles for nedstengning i lagringstillatelsen gitt av forurensningsmyndigheten i medhold av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning (forurensningsforskriften) kapittel 35 og i samtykket til injeksjon og lagring er oppfylt,
@@ -438,7 +777,7 @@ b. Kongen samtykker i nedstengning på grunnlag av søknad fra operatøren.</p>
 <p>Etter nedstengning av en lagringslokalitet i medhold av første ledd bokstav a) eller b) og frem til ansvaret for lagringslokaliteten overdras til staten v/Energidepartementet i medhold av § 30k første og sjette ledd, er operatøren fortsatt ansvarlig for overvåkning, rapportering og iverksettelse av utbedrende tiltak i samsvar med bestemmelsene i denne forskrift. Operatøren er også ansvarlig for å forsegle lagringslokaliteten og fjerne injeksjonsanleggene.</p>
 <p>Forpliktelsene i annet ledd oppfylles på grunnlag av en etterdriftsplan som er utarbeidet av operatøren basert på beste praksis på området, og i overensstemmelse med vedlegg II til denne forskrift. En foreløpig etterdriftsplan skal forelegges departementet eller den det bemyndiger for godkjennelse i medhold av § 21 annet ledd bokstav n).</p>
 <p>Før nedstengning av en lagringslokalitet i medhold av første ledd bokstav a) og b), skal den foreløpige etterdriftsplanen om nødvendig oppdateres i henhold til risikoanalyse, beste praksis og teknologiske forbedringer og deretter forelegges departementet eller den et bemyndiger for godkjennelse som den endelige etterdriftsplanen.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30k-ansvarsoverfring">§ 30k. Ansvarsoverføring</h4>
 <p>Etter nedstengning av en lagringslokalitet i medhold av § 30 j første ledd bokstav a) eller b), skal alle forpliktelser vedrørende overvåkning og utbedrende tiltak i medhold av denne forskrift overføres til staten v/Energidepartementet eller den det bemyndiger, enten på eget initiativ eller etter søknad fra operatøren, såfremt følgende vilkår er oppfylt:</p>
 <p>a. alle tilgjengelige opplysninger peker i retning av at den lagrede CO 2 vil forbli fullstendig og permanent innesluttet. Operatøren må blant annet kunne dokumentere at den faktiske oppførsel av injisert CO 2 stemmer overens med den modellerte oppførsel, at det ikke kan påvises lekkasje og at lagringslokaliteten utvikler seg mot en tilstand av varig stabilitet,
@@ -455,13 +794,13 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Dersom EFTAs overvåkningsorgan beslutter å ikke avgi uttalelse, skal departementet innen en måned etter at utkastet til godkjennelse er mottatt informeres om dette og begrunnelsen for beslutningen om ikke å avgi uttalelse. Når departementet eller den det bemyndiger har forsikret seg om at vilkårene i første ledd bokstav a) til d) er oppfylt, skal ansvarsoverføringen godkjennes og operatøren informeres om dette. Godkjennelsen skal også notifiseres til EFTAs overvåkningsorgan, med begrunnelse for hvorfor eventuelle merknader fra EFTAs overvåkningsorgan ikke er tatt til følge.</p>
 <p>Etter ansvarsoverføringen innstilles det rutinemessige tilsyn i medhold av § 30h første ledd, og overvåkningen kan begrenses til et nivå som sikrer at lekkasje eller vesentlige uregelmessigheter påvises. Dersom lekkasje eller vesentlige uregelmessigheter påvises, skal overvåkningen intensiveres så langt det er nødvendig for å kunne vurdere omfanget av problemet og effektiviteten av de utbedrende tiltak.</p>
 <p>Dersom operatøren uaktsomt eller forsettlig har begått feil, herunder levert mangelfulle data eller fortiet relevante opplysninger, skal staten v/Energidepartementet inndrive de kostnader som er påløpt etter ansvarsoverføringen hos den tidligere operatør. Med mindre den finansielle mekanisme nevnt i § 30m kommer til anvendelse, skal ytterligere kostnader ikke inndrives etter ansvarsoverføringen.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30l-finansiell-sikkerhetsstillelse">§ 30l. Finansiell sikkerhetsstillelse</h4>
 <p>Ved søknad om tillatelse til injisering og lagring av CO 2 i medhold av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning (forurensningsforskriften) kapittel 35 skal operatøren på grunnlag av nærmere bestemmelser fastsatt av Miljødirektoratet, dokumentere at det kan foretas egnede disposisjoner i form av sikkerhetsstillelse eller tilsvarende for å sikre at alle forpliktelser som følger av nevnte forskrift kan oppfylles. Den finansielle sikkerhetsstillelsen skal være gyldig og effektiv innen injeksjonen starter. Klima- og miljødepartementet og Energidepartementet vil i fellesskap ta stilling til den finansielle sikkerhetstillelse.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30m-finansiell-mekanisme">§ 30m. Finansiell mekanisme</h4>
 <p>Før ansvarsoverføring finner sted i medhold av § 30i skal operatøren stille et finansielt bidrag til rådighet for staten v/Energidepartementet etter departementets nærmere bestemmelse. Rettighetshavers bidrag skal ta hensyn til de kriterier som er nevnt i vedlegg I, og til elementer som vedrører den historiske lagring av CO 2 av relevans for fastsettelse av forpliktelsene etter overføringen. Det finansielle bidraget skal i det minste dekke forventede overvåkningsomkostninger i en periode på 30 år. Bidraget kan anvendes til å dekke statens omkostninger etter ansvarsoverføringen til sikring av at CO 2 er sikkert lagret etter ansvarsoverføringen.</p>
-<p><em>Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2014 nr. 1518 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-5-produksjons-og-arealavgift">Kapittel 5. Produksjons- og arealavgift</h2>
 <h4 id="31-avgiftssatser-for-produksjonsavgift-mv">§ 31. Avgiftssatser for produksjonsavgift m.v.</h4>
 <p>Rettighetshaver skal ikke betale produksjonsavgift for petroleum produsert fra forekomster hvor plan for utbygging og drift godkjennes eller krav om slik plan frafalles etter 1. januar 1986.</p>
@@ -487,7 +826,7 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Dersom det innen betalingsfristens utløp ikke er fastsatt noen endelig verdi som skal legges til grunn for beregning av produksjonsavgift jf. § 32 , skal innbetalingen som en midlertidig ordning skje etter de foreløpige verdiansettelser som er foretatt etter forskrift 25. juni 1976 nr. 5 om fastsetting av normpris § 3 eller tilsvarende bestemmelser, med eventuelle justeringer for transport- og terminalkostnader. For petroleum som det ikke kan fastsettes normpris for, kan departementet fastsette slik foreløpig verdi.</p>
 <p>Dersom produksjonsavgift ikke betales innen forfall, skal det betales renter av avgiftsbeløpet i samsvar med lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m.</p>
 <p>Dersom betaling har funnet sted etter foreløpig verdifastsettelse, skal det ved avregningen når endelig produksjonsavgift er fastsatt, beregnes rente tilsvarende den til enhver tid gjeldende rentesats for for meget eller for lite innbetalt terminskatt. Oppgjør skal finne sted innen 15 dager etter at produksjonsavgift er endelig fastsatt. Dette gjelder også dersom verdifastsettelsen er påklaget til overordnet forvaltningsorgan.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="34-uttak-av-produksjonsavgift-i-form-av-petroleum">§ 34. Uttak av produksjonsavgift i form av petroleum</h4>
 <p>Kostnader ved transport, behandling og lagring av avgiftspetroleum mellom utvinningsområdets avskipningspunkt og det sted avgiftspetroleum stilles til disposisjon jf. loven § 4-9 fjerde ledd, kan rettighetshaver kreve dekket. Slike kostnader skal ikke være høyere enn de som rettighetshaver har for sin egen petroleum. Dersom det ikke er avtalt særskilte tariffer for transport, behandling og lagring av rettighetshavers petroleum, skal departementet etter forslag fra rettighetshaver fastsette slike tariffer for avgiftspetroleum. Ved slik fastsettelse skal tariffen gi dekning for en rimelig forretningsmessig fortjeneste.</p>
 <h4 id="35-dokumentasjon-til-avgiftsoppgjret">§ 35. Dokumentasjon til avgiftsoppgjøret</h4>
@@ -502,7 +841,7 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Ved felles salg av petroleum skal operatøren på vegne av rettighetshaver beregne brutto produksjonsavgift og felles kostnadsfradrag som fordeles på de enkelte rettighetshavere.</p>
 <h4 id="38-revisjon-av-grunnlaget-for-avgiftsoppgjret">§ 38. Revisjon av grunnlaget for avgiftsoppgjøret</h4>
 <p>Sokkeldirektoratet kan til enhver tid foreta revisjon hos operatør og rettighetshaver for å få verifisert oppgavene som er sendt Sokkeldirektoratet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="39-avgiftssatser-for-arealavgift-mv">§ 39. Avgiftssatser for arealavgift m.v.</h4>
 <p>Etter utløpet av den periode som er fastsatt etter loven § 3-9 første ledd første punktum skal arealavgiften være slik: Første år er avgiften kr 45 000 pr. km 2 , andre år er avgiften kr 90 000 pr. km 2 og avgiften er kr 181 000 pr. km 2 pr. år i de etterfølgende år. Ved beregning av avgiften avrundes arealet til nærmeste hele km 2 . Utvinningstillatelser som er stratigrafisk delt skal betale arealavgift for det området som utvinningstillatelsen dekker på havbunnen.</p>
 <p>I utvinningstillatelser hvor det er godkjent plan for utbygging og drift av petroleumsforekomster (PUD) etter loven § 4-2 , gir Sokkeldirektoratet, etter søknad, fritak for plikten til å betale arealavgift for det området som avgrenser forekomstene som er inkludert i PUD i perioden fra PUD er innlevert og så lenge det foregår utvinning fra forekomstene. Tilsvarende gjelder dersom departementet frafaller krav om PUD etter loven § 4-2 sjette ledd eller gir godkjennelse etter loven § 4-2 syvende ledd. Sokkeldirektoratet fastsetter avgrensningen av det aktuelle området etter forslag fra rettighetshaverne. Etter endt produksjon vil arealavgiften for dette området eskaleres over tre år som fastsatt i første ledd. Dette fritaket gjelder ikke tillatelser med redusert avgiftssats etter sjette ledd.</p>
@@ -511,16 +850,16 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Departementet kan justere arealavgiften med minst fem års mellomrom for å bringe den i overensstemmelse med forandringer i kroneverdien. Utgangspunktet for justeringen skal være Statistisk sentralbyrås konsumprisindeks.</p>
 <p>For utvinningstillatelser gitt i medhold av kgl.res. 9. april 1965 om utforskning og utnyttelse av undersjøiske petroleumsforekomster, skal rettighetshaver betale en avgift på kr 49 000 pr. km 2 pr. år. Departementet kan justere avgiften med minst 10 års mellomrom. Rettighetshaverne kan, etter søknad, med endelig virkning velge at de alminnelige reglene om arealavgift skal gjelde for utvinningstillatelsen.</p>
 <p>Departementet kan bestemme at arealavgift helt eller delvis ikke skal betales eller at plikten til å betale avgiften skal utsettes.</p>
-<p><em>Endret ved forskrifter 19 des 1997 nr. 1328 (i kraft 1 jan 1998), 17 juli 1998 nr. 623 , 30 juni 2006 nr. 791 (i kraft 1 jan 2007), 18 des 2007 nr. 1538 (i kraft 1 jan 2008), 9 okt 2013 nr. 1213 (i kraft 1 jan 2014), 7 des 2017 nr. 2281 (i kraft 1 jan 2018), 21 nov 2018 nr. 1757 (i kraft 1 jan 2019), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 16 okt 2023 nr. 1642 (i kraft 1 jan 2024), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 19 des 1997 nr. 1328 (i kraft 1 jan 1998), 17 juli 1998 nr. 623 , 30 juni 2006 nr. 791 (i kraft 1 jan 2007), 18 des 2007 nr. 1538 (i kraft 1 jan 2008), 9 okt 2013 nr. 1213 (i kraft 1 jan 2014), 7 des 2017 nr. 2281 (i kraft 1 jan 2018), 21 nov 2018 nr. 1757 (i kraft 1 jan 2019), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 16 okt 2023 nr. 1642 (i kraft 1 jan 2024), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="40-betaling-av-arealavgift">§ 40. Betaling av arealavgift</h4>
 <p>Arealavgift betales forskuddsvis for hvert kalenderår etter utløpet av den periode som er nevnt i loven § 3-9 første ledd første punktum. Arealavgiften forfaller til betaling siste virkedag i det foregående år. Operatøren er selv ansvarlig for å beregne og betale inn arealavgift.</p>
 <p>Arealavgift innbetales til staten ved Sokkeldirektoratet.</p>
 <p>Dersom arealavgift ikke betales innen forfall, skal det betales renter av avgiftsbeløpet i samsvar med lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m m.</p>
 <p>For utvinningstillatelser gitt i medhold av kgl.res. 9. april 1965 om utforskning og utnyttelse av undersjøiske petroleumsforekomster, betales arealavgiften forskuddsvis for ett år om gangen med tildelingsdato som forfallsdag. Det benyttes samme avgiftssats for hele året.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 857 (i kraft 1 juli 2009), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="41-refusjon-av-arealavgift">§ 41. Refusjon av arealavgift</h4>
 <p>Dersom en utvinningstillatelse oppgis, jf. loven § 3-15 , refunderes den delen av arealavgiften som er betalt for perioden etter at oppgivelsen får virkning. Tilsvarende gjelder dersom en utvinningstillatelse bortfaller eller utløper eller deler av et område som utvinningstillatelsen omfatter tilbakeleveres, jf. loven § 3-14 .</p>
-<p><em>Endret ved forskrift 23 des 2022 nr. 2503 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 23 des 2022 nr. 2503 (i kraft 1 jan 2023).</p>
 <h4 id="42-fradrag-for-arealavgift-i-produksjonsavgiften">§ 42. Fradrag for arealavgift i produksjonsavgiften</h4>
 <p>For utvinningstillatelser gitt i medhold av kgl.res. 9. april 1965 om utforskning og utnyttelse av undersjøiske petroleumsforekomster og kgl.res. 8. desember 1972 om undersøkelse etter og utnyttelse av undersjøiske petroleumsforekomster gjelder: Ved betaling av produksjonsavgift skal det gjøres fradrag for arealavgift som er innbetalt for utvinningstillatelsen i samme avgiftsperiode. Dersom arealavgiften er større enn produksjonsavgiften for petroleum utvunnet i medhold av vedkommende utvinningstillatelse, skal produksjonsavgift ikke betales.</p>
 <p>Dersom flere utvinningstillatelser omfatter samme petroleumsforekomst, fastsetter departementet hvor stor del av produksjonen som anses utvunnet i medhold av hver enkelt utvinningstillatelse. Dersom en utvinningstillatelse omfatter flere blokker, gis fradrag bare for den eller de blokker som dekker forekomsten.</p>
@@ -532,7 +871,7 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Avslutningsplanen kan omfatte forslag til disponering av flere innretninger.</p>
 <p>Departementet skal informeres om endringer i faktiske forhold etter at avslutningsplanen er fremlagt.</p>
 <p>Avslutningsplan skal sendes departementet med kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
-<p><em>Endret ved forskrifter 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="44-disponeringsdel-av-avslutningsplan">§ 44. Disponeringsdel av avslutningsplan</h4>
 <p>Disponeringsdelen av avslutningsplan skal inneholde en beskrivelse av:</p>
 <p>a. feltets historie,
@@ -548,7 +887,7 @@ h. andre opplysninger som kreves etter de til enhver tid gjeldende sikkerhetsfor
 b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om virkningen for fiskeri og skipsfart.</p>
 <p>Departementet kan fravike kravet til innhold i disponeringsdelen, herunder kreve ytterligere opplysninger og vurderinger.</p>
 <p>For innretninger plassert på landterritoriet eller sjøgrunn undergitt privat eiendomsrett skal disponeringsdelen kun omtale disponeringsalternativet videre bruk i petroleumsvirksomheten.</p>
-<p><em>Endret ved forskrift 20 jan 2006 nr. 49 .</em></p>
+<p class="note">Endret ved forskrift 20 jan 2006 nr. 49 .</p>
 <h4 id="45-konsekvensutredning">§ 45. Konsekvensutredning</h4>
 <p>Konsekvensutredningen skal inneholde en beskrivelse av virkningen hvert av de aktuelle disponeringsalternativ kan få for nærings- og miljømessige forhold, og hva som kan gjøres for å redusere utslipp knyttet til disponering og avbøte eventuelle skader og ulemper.</p>
 <p>Konsekvensutredningen skal utarbeides på grunnlag av et fastsatt utredningsprogram, jf. fjerde ledd, og skal tilpasses disponeringens omfang. Konsekvensutredningen skal sendes departementet senest samtidig med disponeringsdelen av avslutningsplanen.</p>
@@ -559,33 +898,33 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Med «innretninger, herunder brønner, som eksisterte» som nevnt i lovens § 5-3 tredje ledd menes innretninger, herunder brønner, som eksisterte fysisk på overdragelsestidspunktet og som er plassert på bestemmelsesstedet. Ansvaret omfatter også påbegynte innretninger, herunder brønner, som er under plassering innenfor området for utvinningstillatelsen.</p>
 <p>Med «overdragelsestidspunktet» som nevnt i lovens § 5-3 tredje ledd menes den dag overdragelsen er registrert i henhold til forskrift 19. juni 1997 nr. 618 om petroleumsregisteret § 4-2 andre ledd.</p>
 <p>Med subsidiært økonomisk ansvarlig menes i lovens § 5-3 tredje ledd et ansvar som inntrer når en rettighetshaver etter påkrav har misligholdt sin betalingsforpliktelse for kostnadene ved gjennomføringen av vedtak om disponering og avtalen mellom partene i utvinningstillatelsen ikke gir muligheter for dekning av kravet. Dersom en andel er overdratt flere ganger må de øvrige rettighetshavere alltid rette påkrav mot de overdragende selskaper i en suksessiv rekke slik at krav først rettes mot det selskap som sist har overdratt andelen, og deretter mot neste selskap når det forrige har misligholdt sin betalingsforpliktelse. Rettighetshaver og overdragende selskaper anses å ha misligholdt sin forpliktelse hvis de ikke har dekket sitt ansvar senest innen tre måneder etter at påkrav er mottatt.</p>
-<p><em>Tilføyd ved forskrift 2 juli 2012 nr. 729 .</em></p>
+<p class="note">Tilføyd ved forskrift 2 juli 2012 nr. 729 .</p>
 <h2 id="kapittel-7-opplysninger-og-dokumentasjon">Kapittel 7. Opplysninger og dokumentasjon</h2>
 <h4 id="46-bore-og-brnnaktivitet">§ 46. Bore- og brønnaktivitet</h4>
 <p>Sokkeldirektoratet skal underrettes om bore- og brønnaktivitet. Sokkeldirektoratet fastsetter nærmere bestemmelser for bore- og brønnaktiviteter, herunder om søknader, dokumentasjon, datainnsamling, rapportering, tidsfrister m.v.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="47-arlig-statusrapport-for-felt-i-produksjon">§ 47. Årlig statusrapport for felt i produksjon</h4>
 <p>En årlig statusrapport for felt i produksjon skal sendes Sokkeldirektoratet innen 15. oktober hvert år. Rapporten skal beskrive aktiviteter og tiltak for å danne grunnlag for myndighetenes vurdering av produksjonsstrategi, miljømessige forhold mv.</p>
 <p>Sokkeldirektoratet kan gi nærmere bestemmelser om innhold i og utforming av rapporten.</p>
-<p><em>Endret ved forskrifter 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="48-opplysninger-om-produsert-petroleum-mv">§ 48. Opplysninger om produsert petroleum m.v.</h4>
 <p>Rettighetshaver skal sende Sokkeldirektoratet opplysninger om produsert volum og sammensetning av petroleum m.v., herunder ved prøveutvinning og ved uttak av petroleum i forbindelse med formasjonstesting.</p>
 <p>Videre skal det gis opplysninger om bruk, injisering, kaldventilering og brenning av petroleum. Opplysningene skal så vidt mulig baseres på målinger.</p>
 <p>Opplysninger om volumer og øvrige resultater av overvåkning som angitt i § 27 , samt prosedyrer for overvåkningen, skal sendes Sokkeldirektoratet.</p>
 <p>Sokkeldirektoratet kan fastsette nærmere bestemmelser om rapportering. Sokkeldirektoratet kan kreve tilleggsopplysninger.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="49-opplysninger-om-salg-av-petroleum">§ 49. Opplysninger om salg av petroleum</h4>
 <p>Innen 15 dager etter utløpet av hvert kvartal skal det gis oppgaver til departementet over de kvanta som er avhendet i kvartalet, hvem de er avhendet til, samt de priser som er oppnådd. Videre skal det gis opplysninger om hvilke kvanta som er brukt til egen videreproduksjon eller foredling eller som er avhendet til tilknyttede selskap m.v. og om de avregningspriser som er lagt til grunn.</p>
 <p>Rettighetshaver skal likeledes gi fullstendige opplysninger om andre særlige omstendigheter som kan ha påvirket priser eller betalingsvilkår.</p>
 <p>Opplysninger pliktes ikke gitt etter denne paragraf i den utstrekning tilsvarende opplysninger gis etter lov 13. juni 1975 nr. 35 om skattlegging av undersjøiske petroleumsforekomster m.v. eller lov 27. mai 2016 nr. 14 om skatteforvaltning og forskrifter gitt i medhold av disse.</p>
-<p><em>Endret ved forskrift 17 des 2018 nr. 2039 .</em></p>
+<p class="note">Endret ved forskrift 17 des 2018 nr. 2039 .</p>
 <h4 id="50-opplysninger-om-planer-og-budsjett-mv">§ 50. Opplysninger om planer og budsjett m.v.</h4>
 <p>Så snart planer og budsjett for virksomhet som omhandlet i loven kapittel 3 og 4 er fastlagt for påfølgende år, skal kopier av disse sendes departementet og Sokkeldirektoratet til orientering. Vesentlige endringer i planer og budsjett skal ettersendes. Det kan kreves tilleggsopplysninger.</p>
 <p>Rettighetshaver plikter å stille til rådighet for departementet og Sokkeldirektoratet årsberetning og regnskapsdata vedrørende virksomheten. Tilsvarende gjelder for rettighetshavers morselskap og eventuelle filialer registrert i Norge.</p>
-<p><em>Endret ved forskrifter 20 jan 2006 nr. 49 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2006 nr. 49 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="50a-rapportering-til-nasjonalbudsjettprosessen">§ 50a. Rapportering til nasjonalbudsjettprosessen</h4>
 <p>Rapportering til nasjonalbudsjettprosessen skal sendes departementet og Sokkeldirektoratet. Rapporteringen skal omfatte økonomiske selskapsdata, prosjekter, ressursvolum og prognoser for produksjon, kostnader og miljøutslipp som nærmere angitt av mottager.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="50b-rapportering-av-betalinger">§ 50b. Rapportering av betalinger</h4>
 <p>Skatteetaten og Sokkeldirektoratet skal innen 1. august hvert år rapportere til departementet alle innbetalinger de har mottatt fra og utbetalinger til rettighetshaver i foregående kalenderår på grunnlag av de betalingsplikter som fremgår av:</p>
 <ul>
@@ -595,23 +934,23 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <li>loven § 4-10.</li>
 </ul>
 <p>Departementet kan fastsette skjema for rapportering av betalinger i henhold til denne bestemmelsen.</p>
-<p><em>Tilføyd ved forskrift 15 juni 2018 nr. 888 (i kraft 1 juli 2018), endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 15 juni 2018 nr. 888 (i kraft 1 juli 2018), endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="51-informasjon-om-forsknings-og-utviklingsprosjekt">§ 51. Informasjon om forsknings- og utviklingsprosjekt</h4>
 <p>Rettighetshaver skal på forespørsel fra departementet gi informasjon om planlagte, pågående eller avsluttede forsknings- og utviklingsprosjekt som har relevans for petroleumsvirksomheten på norsk kontinentalsokkel.</p>
 <h4 id="52-opplysninger-fra-omrade-utenfor-norsk-kontinentalsokkel">§ 52. Opplysninger fra område utenfor norsk kontinentalsokkel</h4>
 <p>Rettighetshaver til en utvinningstillatelse plikter vederlagsfritt å stille til rådighet for Sokkeldirektoratet, geologisk og geofysisk materiale fra område utenfor norsk kontinentalsokkel som er kjøpt eller byttet i tilknytning til virksomhet etter utvinningstillatelsen og som Sokkeldirektoratet finner har betydning for forståelsen av geologien på eller innenfor norsk kontinentalsokkel.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="53-overlevering-av-materiale-og-opplysninger">§ 53. Overlevering av materiale og opplysninger</h4>
 <p>Sokkeldirektoratet kan fastsette hvilket standardformat overlevering av materiale og opplysninger skal skje på, og rutiner for slik overlevering i den utstrekning dette finnes rimelig. Med format menes i denne sammenheng fysisk form, herunder medium. Med format menes også struktur, herunder datastruktur og emballasje m.v.</p>
 <p>Reformatering av gamle data kan bare kreves i den utstrekning dette anses rimelig ut fra kostnadene og myndighetenes behov for slike data.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="54-overfring-av-dataprogrammer">§ 54. Overføring av dataprogrammer</h4>
 <p>Materiale og opplysninger som departementet og Sokkeldirektoratet kan kreve overlevert etter loven § 10-4 og bestemmelser i denne forskrift, omfatter også de dataprogrammer som er nyttet for behandling av disse, samt nødvendig dokumentasjon i denne forbindelse. Rettighetshaver skal betale overføringskostnadene til brukernes maskiner i den utstrekning dette finnes rimelig.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="55-oppbevaringsplikt">§ 55. Oppbevaringsplikt</h4>
 <p>Rettighetshaver skal oppbevare materiale og opplysninger som er nødvendige for å sikre at departementet kan etterprøve om petroleumsvirksomheten utøves i samsvar med regelverket så lenge de gir nødvendig informasjon om petroleumsvirksomheten.</p>
 <p>Dersom operatøren ønsker å tilintetgjøre materiale eller opplysninger som kan ha betydning for ressursforvaltningen, skal Sokkeldirektoratet ha tilsendt en oversikt over materiale og opplysninger før tilintetgjøring og kan innen rimelig tid etter at oversikten er mottatt, pålegge vederlagsfri overlevering eller videre oppbevaring. Ved overlevering skal tilstrekkelig dokumentasjon over materiale og opplysninger inkluderes.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-8-styringssystem-for-petroleumsvirksomheten">Kapittel 8. Styringssystem for petroleumsvirksomheten</h2>
 <h4 id="56-styringssystem">§ 56. Styringssystem</h4>
 <p>Styringssystem som etableres etter loven § 10-6 for å sikre etterlevelse av myndighetskrav, skal ha som hovedmål å bidra til å sikre og forbedre kvaliteten på det arbeid som utføres i petroleumsvirksomheten.</p>
@@ -627,14 +966,14 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Operatør, eier og den med rett til bruk av oppstrøms gassrørledningsnett skal ved mottak av forespørsler fra naturgassforetak og kvalifiserte kunder om adgang til bruk av kapasitet i oppstrøms gassrørledningsnett sørge for at slike forespørsler behandles innen rimelig tid.</p>
 <p>Det er et vilkår for rett til bruk av kapasitet i oppstrøms gassrørledningsnett at naturgass for transport og/eller behandling har spesifikasjoner som med rimelighet er forenlige med tekniske krav for og hensynet til effektiv drift av oppstrøms gassrørledningsnett.</p>
 <p>Operatøren fastsetter de nærmere vilkår og prosedyrer for anvendelse av denne bestemmelsen etter konsultasjon med eier og brukere av oppstrøms gassrørledningsnett. Operatøren kan nekte adgang når vilkårene for rett til bruk etter denne bestemmelsen ikke er oppfylt.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003)d. Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003)d. Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</p>
 <h4 id="60-definisjoner">§ 60. Definisjoner</h4>
 <p>Med eier forstås i dette kapittel både interessentskap og selskap som eier oppstrøms gassrørledningsnett, og deltakere i slike interessentskap og selskap.</p>
 <p>Med ledig kapasitet forstås i dette kapittel den kapasitet som er fysisk tilgjengelig til enhver tid, unntatt den kapasitet som er nødvendig for å oppfylle eksisterende avtaler om transport av naturgass og rett til bruk av kapasitet i oppstrøms gassrørledningsnett og for å sikre god drift av oppstrøms gassrørledningsnett.</p>
 <p>Med avtale i førstehåndsmarkedet forstås i dette kapittel avtale om rett til bruk av ledig kapasitet i oppstrøms gassrørledningsnett, eller avtale om kapasitet som nevnt i § 61 syvende ledd, som naturgassforetak eller kvalifiserte kunder inngår med eier av oppstrøms gassrørledningsnett i egenskap av eier, eller med operatøren på vegne av eier i egenskap av eier.</p>
 <p>Med avtale i annenhåndsmarkedet forstås i dette kapittel annen avtale om overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett enn den som omfattes av avtale i førstehåndsmarkedet.</p>
 <p>Med tariff forstås i dette kapittel betaling for rett til bruk av kapasitet i oppstrøms gassrørledningsnett.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</p>
 <h4 id="61-inngaelse-av-avtale-i-frstehandsmarkedet">§ 61. Inngåelse av avtale i førstehåndsmarkedet</h4>
 <p>Eier skal gjøre ledig kapasitet i oppstrøms gassrørledningsnett i førstehåndsmarkedet tilgjengelig for operatøren som skal gjøre denne tilgjengelig samlet. Ledig kapasitet skal kun gjøres tilgjengelig for naturgassforetak og kvalifiserte kunder. Avtale i førstehåndsmarkedet inngås med operatøren på vegne av eieren.</p>
 <p>Operatøren skal fremlegge en innstilling til eier om hva som skal anses som fysisk tilgjengelig kapasitet. Før operatøren legger innstillingen til grunn ved fastsettelse av ledig kapasitet, må eier ha godkjent innstillingen. Fysisk tilgjengelig kapasitet i oppstrøms gassrørledningsnett skal under hensyn til effektiv drift fastsettes høyest mulig.</p>
@@ -643,10 +982,10 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Rett til bruk av ledig kapasitet på langsiktig basis skal tildeles før rett til bruk av ledig kapasitet på kortsiktig basis. Før tildeling av rett til bruk av ledig kapasitet på langsiktig basis kan operatøren fastsette en andel av ledig kapasitet som skal tilbakeholdes for tildeling på kortsiktig basis på et senere tidspunkt.</p>
 <p>Dersom summen av etterspurte reservasjoner overstiger den ledige kapasitet som det er åpnet for reservasjon av i henhold til tredje ledd, skal naturgassforetak og kvalifiserte kunder tildeles rett til bruk av ledig kapasitet i henhold til en fordelingsnøkkel. Fordelingsnøkkelen skal fastsettes for bestemte tidsrom av operatøren, basert på det enkelte naturgassforetak og kvalifiserte kunde sin produksjon, salg, lån eller kjøp av naturgass som medfører behov for transport og/eller behandling i oppstrøms gassrørledningsnett, korrigert for dennes eksisterende rett til bruk.</p>
 <p>Dersom det ikke er ledig kapasitet i oppstrøms gassrørledningsnett og reservert kapasitet ikke benyttes, kan operatøren gjøre den ubenyttede reserverte kapasiteten tilgjengelig for naturgassforetak og kvalifiserte kunder. Operatøren skal til enhver tid kunne avbryte bruken av ubenyttet reservert kapasitet, slik at kapasiteten blir tilgjengelig for den som har reservert den. Dersom summen av etterspurt bruk av ubenyttet reservert kapasitet overstiger ubenyttet reservert kapasitet, skal operatøren fordele denne i henhold til en fordelingsnøkkel fastsatt av operatøren.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</p>
 <h4 id="62-fordeling-av-ny-kapasitet-som-flge-av-utvidelser">§ 62. Fordeling av ny kapasitet som følge av utvidelser</h4>
 <p>Ved fordeling av rett til bruk av økt ledig kapasitet i oppstrøms gassrørledningsnett, skal det først tas hensyn til behørig begrunnet rimelig behov til den som bekoster slik kapasitet, oppad begrenset til dennes andel av investeringen. Departementet kan bestemme at begrensningen oppad til den enkeltes andel av investeringen etter første punktum ikke skal gjelde, herunder fastsette en annen begrensning.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h4 id="63-tariff-ved-avtale-i-frstehandsmarkedet">§ 63. Tariff ved avtale i førstehåndsmarkedet</h4>
 <p>Tariff ved avtale i førstehåndsmarkedet skal være i overensstemmelse med bestemmelsene fastsatt i og i medhold av dette kapittel.</p>
 <p>Tariff skal betales for den rett bruker har til kapasitet i oppstrøms gassrørledningsnett uavhengig av om denne kapasiteten faktisk benyttes.</p>
@@ -654,18 +993,18 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Kapitalelementet fastsettes av departementet. Ved fastsettelse skal det tas hensyn til at best mulig ressursforvaltning fremmes. Kapitalelementet skal videre fastsettes slik at eier kan forvente en rimelig avkastning på investert kapital. Det kan også tas hensyn til andre særlige forhold.</p>
 <p>Driftselementet skal være slik at verken eier eller operatøren har tap eller fortjeneste ved driften av oppstrøms gassrørledningsnett ut over den avkastning som er fastsatt i medhold av fjerde ledd. Departementet kan fastsette hvilke kostnader det skal tas hensyn til ved beregning av driftselementet. Dersom hensynet til effektiv drift tilsier det, kan departementet samtykke i at prinsippet som nevnt i første punktum fravikes.</p>
 <p>Departementet fastsetter hvordan kostnader knyttet til forpliktelser ved fremtidig disponering av innretninger for transport av naturgass skal dekkes.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h4 id="64-overfring-av-rett-til-bruk-av-kapasitet-i-oppstrms-gassrrledningsnett-annenhandsmarkedet">§ 64. Overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett – annenhåndsmarkedet</h4>
 <p>Rett til bruk av kapasitet i oppstrøms gassrørledningsnett kan overføres ved avtale i annenhåndsmarkedet. Slik avtale kan kun inngås med naturgassforetak og kvalifiserte kunder som har et behørig begrunnet rimelig behov for transport og/eller behandling av naturgass som samsvarer med de krav som gjelder for det relevante oppstrøms gassrørledningsnettet, jf. § 59 tredje ledd. Operatøren skal før slik avtale inngås eller så snart som mulig etter slik avtale er inngått ta stilling til om vilkårene for rett til adgang er oppfylt og således om det skal gis rett til adgang i henhold til avtalen.</p>
 <p>Når den som har rett til bruk av kapasitet i oppstrøms gassrørledningsnett ikke lenger selv har behørig begrunnet rimelig behov for hele eller deler av denne, skal naturgassforetak og kvalifiserte kunder som oppfyller vilkårene i første ledd, ha rett til adgang til denne kapasiteten.</p>
 <p>Operatøren skal gis opplysninger om forhold som nevnt i annet ledd og skal underrettes når det er inngått avtale i annenhåndsmarkedet.</p>
 <p>Operatøren skal tilrettelegge og drive en markedsplass for overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett. Operatøren skal utarbeide regler for markedsplassen som skal godkjennes av departementet. Andre enn operatøren kan ikke drive markedsplass for overføring av rett til bruk av kapasitet i oppstrøms gassrørledningsnett som de ikke selv disponerer, uten etter samtykke fra departementet. Departementet kan bestemme at all overføring av rett til bruk i annenhåndsmarkedet skal skje gjennom markedsplassen.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h4 id="65-departementets-behandling-av-avtaler-om-bruk">§ 65. Departementets behandling av avtaler om bruk</h4>
 <p>Den enkelte avtale om bruk av kapasitet i oppstrøms gassrørledningsnett inngått med naturgassforetak og kvalifiserte kunder skal ikke fremsendes departementet for godkjennelse, med mindre departementet bestemmer dette.</p>
 <p>Avtaler i førstehåndsmarkedet skal inngås i henhold til standardavtale utarbeidet av operatøren og godkjent av departementet. Ved utarbeidelse av standardavtalen skal operatøren konsultere eier og brukere av det relevante oppstrøms gassrørledningsnett og ta rimelig hensyn til deres interesser.</p>
 <p>Departementet kan bestemme at avtale om bruk av kapasitet i oppstrøms gassrørledningsnett og vilkårene for overføring av rett til bruk som nevnt i annenhåndsmarkedet, skal meddeles departementet eller den departementet utpeker.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h4 id="66-systemansvar">§ 66. Systemansvar</h4>
 <p>Operatøren skal forestå driften av oppstrøms gassrørledningsnett, herunder forestå vedlikehold og vedlikeholdsplanlegging, på en god og forsvarlig måte. Operatøren skal opptre nøytralt og ikke-diskriminerende. Operatøren skal koordinere vedlikeholdsplanlegging for tilknyttede felt.</p>
 <p>Operatøren skal samordne nominasjoner av gasskvalitet ved inngang og utgang av oppstrøms gassrørledningsnett.</p>
@@ -673,7 +1012,7 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Operatøren skal gjøre tilgjengelig opplysninger om ledig kapasitet i oppstrøms gassrørledningsnett samt om kapasitet som nevnt i § 64 tredje ledd til naturgassforetak og kvalifiserte kunder som ber om slike opplysninger.</p>
 <p>Eier av oppstrøms gassrørledningsnett kan ikke instruere operatøren i utførelsen av oppgaver som er tillagt operatøren i eller i medhold av dette kapittelet, med mindre annet er særskilt bestemt i denne forskrift.</p>
 <p>Lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) gjelder ikke for operatøren med unntak av saker hvor operatøren treffer enkeltvedtak i medhold av følgende bestemmelser: § 59 fjerde ledd siste punktum, § 61 , § 62 , § 64 første ledd siste punktum og denne paragraf tredje ledd. Vedtak fattet av operatøren i medhold av denne paragraf tredje ledd er likevel unntatt fra bestemmelsene i forvaltningsloven kapittel IV-VI og VIII. Departementet er klageinstans for vedtak fattet av operatøren.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrifter 20 jan 2006 nr. 49 , 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrifter 20 jan 2006 nr. 49 , 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</p>
 <h4 id="66a-videreutvikling-av-oppstrms-gassrrledningsnett">§ 66A. Videreutvikling av oppstrøms gassrørledningsnett</h4>
 <p>Operatøren skal som en del av sitt systemansvar etter § 66 vurdere videreutvikling av oppstrøms gassrørledningsnett og tilknyttede anlegg med sikte på å oppnå helhetlige transport- og behandlingsløsninger for petroleumsvirksomheten.</p>
 <p>Naturgassforetak og kvalifiserte kunder skal, når det fremtrer som sannsynlig at de vil få behov for kapasitet for transport eller behandling av naturgass, informere operatøren om dette.</p>
@@ -683,36 +1022,36 @@ b. forholdet til andre brukere av havet, herunder opplysninger og vurderinger om
 <p>Operatøren skal søke å identifisere konkrete naturgassforetak og/eller kvalifiserte kunder som har en interesse av vurderinger i samsvar med denne bestemmelse. Operatøren kan rette forespørsler til naturgassforetak og kvalifiserte kunder om deltakelse i videreutvikling av oppstrøms gassrørledningsnett og tilknyttede anlegg.</p>
 <p>Når operatøren foretar vurderinger i samsvar med denne bestemmelsen for ett eller flere konkrete naturgassforetak og/eller kvalifiserte kunder, skal kostnadene for slike vurderinger dekkes av disse. Øvrige kostnader for vurderinger som operatøren foretar i samsvar med denne bestemmelsen, skal dekkes av brukerne av oppstrøms gassrørledningsnett i samsvar med tarifforskriften § 4 . Før en vesentlig andel av kostnader knyttet til slike vurderinger pådras, skal operatøren samrå seg med disse brukerne.</p>
 <p>Operatøren skal forelegge de vurderinger som er gjort i samsvar med denne bestemmelsen for departementet.</p>
-<p><em>Tilføyd ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</p>
 <h4 id="67-palegg">§ 67. Pålegg</h4>
 <p>Dersom naturgassforetak og kvalifiserte kunder ikke gis adgang til oppstrøms gassrørledningsnett i samsvar med bestemmelsene i dette kapittel kan departementet, direkte eller gjennom operatøren, gi eier eller den som har rett til bruk av oppstrøms gassrørledningsnett pålegg om å gi disse rett til bruk av kapasitet.</p>
 <p>Departementet kan gi pålegg om fordeling og refordeling av kapasitet dersom departementet finner at kapasiteten ikke er fordelt eller fordeles på en måte som sikrer en best mulig ressursforvaltning, herunder forsyningsregularitet og produksjonsregularitet. Departementet kan også gi pålegg om fordeling og refordeling av kapasitet for å unngå vanskeligheter i oppstrøms gassrørledningsnett som ikke med rimelighet kan overvinnes, og som kan svekke effektiv eksisterende og planlagt produksjon av petroleum, herunder i forekomster med begrenset økonomisk levedyktighet.</p>
 <p>Naturgassforetak og kvalifiserte kunder som fratas kapasitet i medhold av bestemmelsene i første eller annet ledd, skal gis kompensasjon som tar hensyn til deres kostnader ved anskaffelse av slik kapasitet.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h4 id="68-tvister">§ 68. Tvister</h4>
 <p>Uenighet om adgang til oppstrøms gassrørledningsnett kan bringes inn for departementet eller den departementet bemyndiger for endelig avgjørelse. Slik avgjørelse skal fattes uten ugrunnet opphold etter at saken er brakt inn. Departementet eller den departementet bemyndiger kan, som tvisteløsningsorgan, kreve at eier av slike innretninger må avgi separat regnskap for transport i oppstrøms gassrørledningsnett, samt øvrige opplysninger for løsning av tvisten.</p>
 <p>Uenighet knyttet til § 66A om videreutvikling, kan bringes inn for departementet for avgjørelse. Departementet kan kreve at partene fremlegger nødvendige opplysninger for løsning av tvisten.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009).</p>
 <h4 id="68a-taushetsplikt">§ 68A. Taushetsplikt</h4>
 <p>Operatøren plikter å hindre at andre får tilgang eller kjennskap til opplysninger som operatøren får i forbindelse med sin virksomhet etter bestemmelsene i dette kapittel 9 , og som gjelder tekniske innretninger og fremgangsmåter samt drifts- eller forretningsforhold som det vil være av konkurransemessig betydning å hemmeligholde av hensyn til den som opplysningen angår.</p>
 <p>Taushetsplikten etter første ledd gjelder ikke overfor skattemyndighetene ved oversendelse av opplysninger i henhold til lov 27. mai 2016 nr. 14 om skatteforvaltning § 10-2 første og femte ledd.</p>
-<p><em>Tilføyd ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009), endret ved forskrift 17 des 2018 nr. 2039 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2008 nr. 1476 (i kraft 1 jan 2009), endret ved forskrift 17 des 2018 nr. 2039 .</p>
 <h4 id="69-virkeomradet-for-enkelte-bestemmelser-i-dette-kapittel">§ 69. Virkeområdet for enkelte bestemmelser i dette kapittel</h4>
 <p>Reglene i § 59 fjerde ledd, § 61 , § 63 , § 64 tredje og fjerde ledd, § 65 og § 66 annet, tredje, fjerde og femte ledd får kun anvendelse for oppstrøms gassrørledningsnett som omfattes av forskrift om fastsettelse av tariffer.</p>
 <p>Departementet kan bestemme at også tilknyttede anlegg til oppstrøms gassrørledningsnett, så som behandlingsanlegg, terminal og endelig mottaksterminal, samt innretninger for transport og behandling av kondensat, skal omfattes av reglene om oppstrøms gassrørledningsnett gitt i og i medhold av denne forskrift.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrifter 19 des 2008 nr. 1476 (i kraft 1 jan 2009), 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003). Endret ved forskrifter 19 des 2008 nr. 1476 (i kraft 1 jan 2009), 24 juni 2011 nr. 640 (i kraft 1 juli 2011).</p>
 <h4 id="70-avsluttende-bestemmelser">§ 70. Avsluttende bestemmelser</h4>
 <p>Departementet fastsetter utfyllende bestemmelser til reglene i dette kapittelet ved forskrift eller enkeltvedtak.</p>
 <p>Departementet kan fastsette at en eller flere av bestemmelsene i dette kapittel med unntak av § 59 ikke skal gjelde i forhold til nærmere bestemte avtaler om transport av naturgass i oppstrøms gassrørledningsnett godkjent i medhold av lovens § 4-8 før denne forskriftens ikrafttredelse.</p>
-<p><em>Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003).</p>
 <h2 id="kapittel-10-alminnelige-bestemmelser">Kapittel 10. Alminnelige bestemmelser</h2>
 <p>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere kapittel 9).</p>
 <h4 id="71-organisering-av-virksomheten-pa-land">§ 71. Organisering av virksomheten på land</h4>
 <p>Departementet kan kreve at rettighetshaver etter tildeling av en tillatelse som nevnt i loven § 3-3 og § 4-3 skal sende departementet en plan over hvordan virksomheten på landterritoriet eller sjøgrunn undergitt privat eiendomsrett ønskes lokalisert og organisert.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 59).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 59).</p>
 <h4 id="72-overdragelse-av-tillatelse">§ 72. Overdragelse av tillatelse</h4>
 <p>Ved søknad om samtykke til overdragelse av tillatelse etter loven § 10-12 første ledd, kommer bestemmelsene i § 8 , § 10 , § 11 , § 28 og § 29 til anvendelse så langt de passer.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 60), 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 60), 26 juni 2017 nr. 980 (endringen gjelder også saker der søknaden er kommet inn før forskriften trer i kraft, men tildeling skjer etter ikrafttredelse).</p>
 <h4 id="73-forsikring">§ 73. Forsikring</h4>
 <p>Den virksomhet rettighetshaver driver etter loven kapittel 3 og 4 skal til enhver tid være forsikret. I det minste må forsikringen omfatte:</p>
 <p>a. skade på innretninger,
@@ -723,48 +1062,48 @@ d. forsikring av egne arbeidstakere som er engasjert i virksomheten.</p>
 <p>Ved forsikring som nevnt under første ledd bokstav a) til c) skal rettighetshaver sørge for rimelig forsikringsdekning ut fra hensynet til risikoeksponering og premiekostnader. Forsikring som nevnt under bokstav d) skal tegnes etter nærmere avtale med arbeidstakernes organisasjoner.</p>
 <p>Departementet kan gi rettighetshaver samtykke til å benytte annen form for sikkerhetsstillelse.</p>
 <p>Rettighetshaver skal ved utgangen av hvert kalenderår underrette Sokkeldirektoratet med kopi til departementet om gjeldende forsikringsavtaler med angivelse av hovedvilkår. Departementet kan kreve at ytterligere forsikringer tegnes.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 61), 15 des 2020 nr. 2914 (i kraft 1 jan 2021), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 61), 15 des 2020 nr. 2914 (i kraft 1 jan 2021), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="74-revisjon">§ 74. Revisjon</h4>
 <p>I tillatelser med statlig deltakelse der årlige kostnader knyttet til statens deltakerandel er kr 20 millioner eller mer skal operatøren sørge for at årsavregningen for tillatelsen, som er utarbeidet i henhold til tillatelsen, blir revidert av statsautorisert revisor. Revisjonsberetning, i samsvar med ISA 800, skal foreligge senest fire måneder etter regnskapsårets utløp.</p>
 <p>Departementet kan endre beløpsgrensen i første ledd i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrifter 22 des 1999 nr. 1377 , 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 62), 15 des 2020 nr. 2914 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 22 des 1999 nr. 1377 , 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 62), 15 des 2020 nr. 2914 (i kraft 1 jan 2021).</p>
 <h4 id="75-bruk-av-arbeidskraft">§ 75. Bruk av arbeidskraft</h4>
 <p>Rettighetshaver er ansvarlig for at alle utenlandske arbeidstakere som trenger arbeidstillatelse har den nødvendige tillatelse før arbeidet tar til.</p>
 <p>Rettighetshaver skal ikke benytte arbeidskraft utleid i strid med norsk lovgivning. Rettighetshaver skal påse at denne bestemmelsen følges av rettighetshavers entreprenører og underentreprenører.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 63).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 63).</p>
 <h4 id="76-bruk-av-norsk-sprak">§ 76. Bruk av norsk språk</h4>
 <p>Norsk språk bør i størst mulig utstrekning brukes i petroleumsvirksomheten. Andre språk kan brukes dersom det er nødvendig eller rimelig for gjennomføringen av virksomheten.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 64).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 64).</p>
 <h4 id="77-offentlig-tilgjengelige-opplysninger">§ 77. Offentlig tilgjengelige opplysninger</h4>
 <p>Rettighetshaver plikter, gjennom operatøren, i størst mulig utstrekning å gjøre offentlig tilgjengelig opplysninger om petroleumsvirksomhet etterhvert som opplysningene blir tilgjengelig for rettighetshaveren.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 65).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 65).</p>
 <h4 id="78-fagforeningsvirksomhet">§ 78. Fagforeningsvirksomhet</h4>
 <p>Tillitsvalgte i fagforening som har tariffavtale med rettighetshaver, entreprenør eller underentreprenør som utfører arbeid for han, skal i rimelig utstrekning gis adgang til arbeidsplassen for å ivareta tariffmessige gjøremål etter å ha meldt fra til den stedlige bedriftsledelse.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 66).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 66).</p>
 <h4 id="79-navnsetting-mv-av-petroleumsforekomster">§ 79. Navnsetting mv. av petroleumsforekomster</h4>
 <p>Betegnelser på petroleumsforekomster, faste innretninger og brønner skal godkjennes av Sokkeldirektoratet.</p>
 <p>Sokkeldirektoratet kan gi nærmere bestemmelser til utfylling av første ledd.</p>
 <p>Bruk av egennavn ved navnsetting av felt skal godkjennes av departementet.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 67), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 67), 23 des 2022 nr. 2503 (i kraft 1 jan 2023), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="79a-varsling-og-rapportering">§ 79a. Varsling og rapportering</h4>
 <p>Hendelser og andre forhold som medfører nedstengning, reduksjon av utvinning av petroleum eller som påvirker gjennomføring av aktiviteter i tråd med vedtak fattet i medhold av loven og forskriften, skal omgående varsles til Sokkeldirektoratet. Dette gjelder ikke i tilfeller hvor forholdet allerede er varslet til Havindustritilsynet. Havindustritilsynet vil i slike tilfeller omgående varsle Sokkeldirektoratet. Departementet kan fastsette nærmere bestemmelser om varsling og rapportering til Sokkeldirektoratet.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2006 nr. 49 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2006 nr. 49 , endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="80-opplysninger-om-leverandrer">§ 80. Opplysninger om leverandører</h4>
 <p>Rettighetshaver kan ikke i medhold av loven pålegges å gi opplysninger om fremtidige eller nåværende leverandører, med mindre departementet anmoder om det ut fra hensynet til offentlig moral, orden og sikkerhet, folkehelse, vernet om menneskers og dyrs liv og helse, plantelivet, nasjonale skatter av kunstnerisk, historisk eller arkeologisk verdi, eller den industrielle eller kommersielle eiendomsrett.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 68).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 68).</p>
 <h4 id="81-tilsyn-mv">§ 81. Tilsyn m.v.</h4>
 <p>Representanter fra departementet, Sokkeldirektoratet eller annen myndighet som Sokkeldirektoratet bestemmer, skal til enhver tid ha adgang til fartøy og innretninger for petroleumsvirksomhet, samt til foreliggende data og materiale som er nødvendig for gjennomføring av tilsynsvirksomhet og ha rett til å delta i undersøkelser. Representanter for myndighetene har rett til å oppholde seg på fartøy og innretninger så lenge det er nødvendig. Rettighetshaver skal sørge for transport av representanter for myndighetene til og fra fartøy og innretninger, samt for opphold ombord.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 69), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 69), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="82-observatrer">§ 82. Observatører</h4>
 <p>Representanter fra departementet og Sokkeldirektoratet skal kunne delta som observatører i samarbeidsorganer som opprettes i henhold til avtaler som nevnt i loven § 3-3, av hensyn til samordnet virksomhet som nevnt i loven § 4-7 og i eventuelle samarbeidsorganer som opprettes i forbindelse med anlegg og drift av innretninger som nevnt i loven § 4-3.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 70), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 70), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="83-ekspert-og-laboratorietjenester">§ 83. Ekspert- og laboratorietjenester</h4>
 <p>Sokkeldirektoratet kan i den utstrekning det anses rimelig pålegge rettighetshaver å stille til disposisjon for Sokkeldirektoratet ekspert- og laboratorietjenester for å løse spesielle problemer i forbindelse med petroleumsvirksomheten.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 71), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 71), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="84-opplring-av-offentlig-ansatte">§ 84. Opplæring av offentlig ansatte</h4>
 <p>Rettighetshaver kan pålegges å forestå opplæring av ansatte i departementet, Sokkeldirektoratet eller annen norsk myndighet. Opplæringen skal skje etter nærmere avtale.</p>
 <p>Departementet kan pålegge rettighetshaver å sørge for at lærerpersonell som underviser i petroleumstilknyttede fag ved norske undervisningsinstitusjoner, får hospitere ved rettighetshavers kontorer, anlegg og innretninger.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 72), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 72), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="85-saksbehandling-og-taushetsplikt">§ 85. Saksbehandling og taushetsplikt</h4>
 <p>Reglene i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) § 18 første ledd om en parts rett til å gjøre seg kjent med sakens dokumenter, kommer ikke til anvendelse ved søknad om utvinningstillatelse.</p>
 <p>Opplysninger av enhver art som meddeles myndighetene i forbindelse med søknad om utvinningstillatelse, skal være underlagt taushetsplikt inntil utvinningstillatelsene til de aktuelle områder er tildelt. Deretter skal opplysningene være underlagt taushetsplikt i den utstrekning dette følger av forvaltningsloven i et tidsrom av 20 år, jf. forvaltningsloven § 13c tredje ledd.</p>
@@ -776,24 +1115,24 @@ c. 2 år for øvrige data.</p>
 <p>For øvrig kommer bestemmelsene om taushetsplikt i forvaltningsloven § 13 til § 13f til anvendelse for forvaltningsorganer som mottar eller behandler opplysninger eller materiale om petroleumsvirksomhet, dog slik at taushetsplikt bortfaller etter 20 år, jf. forvaltningsloven § 13c tredje ledd.</p>
 <p>Bestemmelsene i denne paragraf skal ikke være til hinder for at departementet gir generelle uttalelser om virksomheten og om mulighetene for å finne petroleumsforekomster, og heller ikke for utveksling av informasjon som forutsatt i lov 3. juni 1994 nr. 15 om Enhetsregisteret og lov 6. juni 1997 nr. 35 om Oppgaveregisteret .</p>
 <p>Bestemmelsen i denne paragraf skal heller ikke være til hinder for utveksling av informasjon med Havindustritilsynet og operatøren som nevnt i loven § 4-9 og forskriftens § 66 .</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 73), 12 des 2003 nr. 1504 (i kraft 1 jan 2004), 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 15 des 2020 nr. 2914 (i kraft 1 jan 2021, se endringsforskriften del II for overgangsregel), 23 des 2022 nr. 2503 (i kraft 1 jan 2023, se endringsforskriften del II for overgangsregler), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 73), 12 des 2003 nr. 1504 (i kraft 1 jan 2004), 20 jan 2006 nr. 49 , 9 jan 2020 nr. 28 (i kraft 1 feb 2020), 15 des 2020 nr. 2914 (i kraft 1 jan 2021, se endringsforskriften del II for overgangsregel), 23 des 2022 nr. 2503 (i kraft 1 jan 2023, se endringsforskriften del II for overgangsregler), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="86-delegasjon-og-dispensasjon">§ 86. Delegasjon og dispensasjon</h4>
 <p>Departementet kan utferdige de forskrifter og gi de pålegg som måtte være nødvendige for gjennomføring av denne forskriften.</p>
 <p>Departementet kan selv ta avgjørelse eller delegere myndighet til andre uten hensyn til om myndighet etter denne forskriften er lagt til Sokkeldirektoratet.</p>
 <p>Myndighet i forbindelse med tilsynsvirksomhet kan i spesielle tilfeller delegeres til andre enn offentlige forvaltningsorganer.</p>
 <p>Departementet kan i særlige tilfeller dispensere fra bestemmelser fastsatt i eller gitt i medhold av denne forskriften.</p>
 <p>Når myndighet i denne forskriften er lagt til Sokkeldirektoratet, omfatter dette også myndighet etter første og fjerde ledd.</p>
-<p><em>Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 74), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 74), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="87-straffebestemmelse">§ 87. Straffebestemmelse</h4>
 <p>Overtredelse av forskriften eller av vedtak truffet med hjemmel i den straffes som bestemt i loven § 10-17.</p>
-<p><em>Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 75).</em></p>
+<p class="note">Endret ved forskrift 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 75).</p>
 <h4 id="88-ikrafttredelse-mv">§ 88. Ikrafttredelse m.v.</h4>
 <p>Denne forskrift trer i kraft 1. juli 1997. Fra samme tid oppheves:</p>
 <ol>
 <li>Forskrift 14. juni 1985 nr. 1158 til lov om petroleumsvirksomhet.</li>
 <li>Forskrift 1. april 1980 nr. 9464 om innkreving av produksjonsavgift på utvinning av petroleumsforekomster i indre norsk farvann, norsk sjøterritorium og den del av kontinentalsokkelen som er undergitt norsk statshøyhet.</li>
 </ol>
-<p><em>Endret ved kgl.res. 18. juli 1997 nr. 802 , 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 76).</em></p>
+<p class="note">Endret ved kgl.res. 18. juli 1997 nr. 802 , 20 des 2002 nr. 1618 (i kraft 1 jan 2003, tidligere § 76).</p>
 <h2 id="vedlegg-ikriterier-for-beskrivelse-og-vurdering-av-det-mulige-lagringslokalitet-og-omkringliggende-omrade-nevnt-i-30d-i-denne-forskrift">Vedlegg IKriterier for beskrivelse og vurdering av det mulige lagringslokalitet og omkringliggende område nevnt i § 30d i denne forskrift</h2>
 <p>Beskrivelse og vurdering av den aktuelle lagringslokaliteten og omkringliggende områder nevnt i § 30d i denne forskrift skal foretas i tre trinn i samsvar med beste praksis på tidspunktet for vurderingen og basert på kriteriene nedenfor. Departementet kan tillate avvik fra ett eller flere av disse kriteriene, forutsatt at rettighetshaver har vist at dette ikke påvirker beskrivelsens og vurderingens egnethet som grunnlag for å treffe en beslutning i henhold til § 30d .</p>
 <p>Trinn 1: Datainnsamling</p>
@@ -1151,6 +1490,8 @@ c. 2 år for øvrige data.</p>
 <p>Tariff for avtale i førstehåndsmarkedet er regulert i tarifforskriften, jf. petroleumsforskriften § 63 første ledd. Departementet vil fastsette tariff for avbrytbar kapasitet i tarifforskriften. I henhold til § 63 annet ledd skal det, på samme måte som for fast kapasitet, også betales tariff for avbrytbar kapasitet, uavhengig av om denne faktisk benyttes. Også avbrytbar kapasitet kan i prinsippet tenkes omsatt i annenhåndsmarkedet, jf. § 64 .</p>
 <p>På samme måte som for tildeling av fast kapasitet vil operatøren være ansvarlig for praktiseringen av § 61 syvende ledd. Operatøren vil, innenfor rammen av bestemmelsen, selv måtte fastsette nærmere prosedyrer for tildeling av avbrytbar kapasitet.</p>
 <p>Merknadene tilføyd 1 des 2011, jf. forskrift 24 juni 2011 nr. 640 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

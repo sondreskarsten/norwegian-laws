@@ -19,68 +19,189 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-06-17-820.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om transport av akvakulturdyr" href="../feeds/forskrift-2008-06-17-820.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om transport av akvakulturdyr</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2008-06-17-820</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2008-08-01, 2010-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-14-2087</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2008-06-17-820" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-godkjenning-av-transportenhet-for-fisk">Kapittel 2. Godkjenning av transportenhet for fisk</a></li>
+<li class="lvl4"><a href="#4-krav-om-godkjenning-av-transportenhet">§ 4. Krav om godkjenning av transportenhet</a></li>
+<li class="lvl4"><a href="#5-krav-til-sknad-om-godkjenning-av-transportenheter">§ 5. Krav til søknad om godkjenning av transportenheter</a></li>
+<li class="lvl4"><a href="#6-forhold-som-vurderes-ved-godkjenning">§ 6. Forhold som vurderes ved godkjenning</a></li>
+<li class="lvl4"><a href="#7-tilbaketrekking-av-godkjenning">§ 7. Tilbaketrekking av godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-generelle-smittehygieniske-og-fiskevelferdsmessige-krav-til-transport">Kapittel 3. Generelle smittehygieniske og fiskevelferdsmessige krav til transport</a></li>
+<li class="lvl4"><a href="#8-krav-til-konstruksjon">§ 8. Krav til konstruksjon</a></li>
+<li class="lvl4"><a href="#9-journalfring">§ 9. Journalføring</a></li>
+<li class="lvl4"><a href="#9a-brnnbater-automatisk-registrering-og-rapportering-av-posisjon">§ 9a. Brønnbåter, automatisk registrering og rapportering av posisjon</a></li>
+<li class="lvl4"><a href="#10-varslingsplikt">§ 10. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#11-forsvarlig-drift-beredskapsplan-og-vurdering-av-risikofaktorer">§ 11. Forsvarlig drift, beredskapsplan og vurdering av risikofaktorer</a></li>
+<li class="lvl2"><a href="#kapittel-4-srskilte-velferdsmessige-krav-til-transport-mv-av-fisk">Kapittel 4. Særskilte velferdsmessige krav til transport mv. av fisk</a></li>
+<li class="lvl4"><a href="#12-kompetanse">§ 12. Kompetanse</a></li>
+<li class="lvl4"><a href="#13-ansvarsforhold-og-informasjonsplikt">§ 13. Ansvarsforhold og informasjonsplikt</a></li>
+<li class="lvl4"><a href="#14-generelle-velferdsmessige-krav-til-transporten">§ 14. Generelle velferdsmessige krav til transporten</a></li>
+<li class="lvl4"><a href="#15-transportmiddelet">§ 15. Transportmiddelet</a></li>
+<li class="lvl4"><a href="#16-vannkvalitet-og-vannvolum">§ 16. Vannkvalitet og vannvolum</a></li>
+<li class="lvl4"><a href="#17-srlig-om-vannkvalitet-og-vannvolum-i-lukket-system">§ 17. Særlig om vannkvalitet og vannvolum i lukket system</a></li>
+<li class="lvl4"><a href="#18-handtering-tilsyn-og-stell">§ 18. Håndtering, tilsyn og stell</a></li>
+<li class="lvl2"><a href="#kapittel-5-srskilte-smittehygieniske-krav-til-transport-mv-av-akvakulturdyr">Kapittel 5. Særskilte smittehygieniske krav til transport mv. av akvakulturdyr</a></li>
+<li class="lvl4"><a href="#19-generelle-smittehygieniske-krav-til-transport">§ 19. Generelle smittehygieniske krav til transport</a></li>
+<li class="lvl4"><a href="#20-rengjring-og-desinfeksjon-av-transportenhet-som-gjenbrukes">§ 20. Rengjøring og desinfeksjon av transportenhet som gjenbrukes</a></li>
+<li class="lvl4"><a href="#20a-ytterligere-krav-til-rengjring-og-desinfeksjon-av-brnnbat">§ 20a. Ytterligere krav til rengjøring og desinfeksjon av brønnbåt</a></li>
+<li class="lvl4"><a href="#21-landtransport">§ 21. Landtransport</a></li>
+<li class="lvl4"><a href="#22-sjtransport-og-behandling-av-transportvann">§ 22. Sjøtransport og behandling av transportvann</a></li>
+<li class="lvl4"><a href="#22a-opphevet">§ 22a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#23-transport-til-karantene">§ 23. Transport til karantene</a></li>
+<li class="lvl4"><a href="#24-handtering-av-dde-akvakulturdyr">§ 24. Håndtering av døde akvakulturdyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#25-tilsyn-og-vedtak">§ 25. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#26-dispensasjon">§ 26. Dispensasjon</a></li>
+<li class="lvl4"><a href="#27-straff">§ 27. Straff</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#29-overgangsbestemmelser">§ 29. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-14-2087.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-06-17-820.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om transport av akvakulturdyr</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2008-06-17-820.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2008-06-17-820 <code>forskrift/2008-06-17-820</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2008, 01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-14-2087 <code>forskrift/2023-12-14-2087</code> fra 14.12.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2008-06-17-820" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-godkjenning-av-transportenhet-for-fisk">Kapittel 2. Godkjenning av transportenhet for fisk</a></li>
+<li class="lvl4"><a href="#4-krav-om-godkjenning-av-transportenhet">§ 4. Krav om godkjenning av transportenhet</a></li>
+<li class="lvl4"><a href="#5-krav-til-sknad-om-godkjenning-av-transportenheter">§ 5. Krav til søknad om godkjenning av transportenheter</a></li>
+<li class="lvl4"><a href="#6-forhold-som-vurderes-ved-godkjenning">§ 6. Forhold som vurderes ved godkjenning</a></li>
+<li class="lvl4"><a href="#7-tilbaketrekking-av-godkjenning">§ 7. Tilbaketrekking av godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-generelle-smittehygieniske-og-fiskevelferdsmessige-krav-til-transport">Kapittel 3. Generelle smittehygieniske og fiskevelferdsmessige krav til transport</a></li>
+<li class="lvl4"><a href="#8-krav-til-konstruksjon">§ 8. Krav til konstruksjon</a></li>
+<li class="lvl4"><a href="#9-journalfring">§ 9. Journalføring</a></li>
+<li class="lvl4"><a href="#9a-brnnbater-automatisk-registrering-og-rapportering-av-posisjon">§ 9a. Brønnbåter, automatisk registrering og rapportering av posisjon</a></li>
+<li class="lvl4"><a href="#10-varslingsplikt">§ 10. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#11-forsvarlig-drift-beredskapsplan-og-vurdering-av-risikofaktorer">§ 11. Forsvarlig drift, beredskapsplan og vurdering av risikofaktorer</a></li>
+<li class="lvl2"><a href="#kapittel-4-srskilte-velferdsmessige-krav-til-transport-mv-av-fisk">Kapittel 4. Særskilte velferdsmessige krav til transport mv. av fisk</a></li>
+<li class="lvl4"><a href="#12-kompetanse">§ 12. Kompetanse</a></li>
+<li class="lvl4"><a href="#13-ansvarsforhold-og-informasjonsplikt">§ 13. Ansvarsforhold og informasjonsplikt</a></li>
+<li class="lvl4"><a href="#14-generelle-velferdsmessige-krav-til-transporten">§ 14. Generelle velferdsmessige krav til transporten</a></li>
+<li class="lvl4"><a href="#15-transportmiddelet">§ 15. Transportmiddelet</a></li>
+<li class="lvl4"><a href="#16-vannkvalitet-og-vannvolum">§ 16. Vannkvalitet og vannvolum</a></li>
+<li class="lvl4"><a href="#17-srlig-om-vannkvalitet-og-vannvolum-i-lukket-system">§ 17. Særlig om vannkvalitet og vannvolum i lukket system</a></li>
+<li class="lvl4"><a href="#18-handtering-tilsyn-og-stell">§ 18. Håndtering, tilsyn og stell</a></li>
+<li class="lvl2"><a href="#kapittel-5-srskilte-smittehygieniske-krav-til-transport-mv-av-akvakulturdyr">Kapittel 5. Særskilte smittehygieniske krav til transport mv. av akvakulturdyr</a></li>
+<li class="lvl4"><a href="#19-generelle-smittehygieniske-krav-til-transport">§ 19. Generelle smittehygieniske krav til transport</a></li>
+<li class="lvl4"><a href="#20-rengjring-og-desinfeksjon-av-transportenhet-som-gjenbrukes">§ 20. Rengjøring og desinfeksjon av transportenhet som gjenbrukes</a></li>
+<li class="lvl4"><a href="#20a-ytterligere-krav-til-rengjring-og-desinfeksjon-av-brnnbat">§ 20a. Ytterligere krav til rengjøring og desinfeksjon av brønnbåt</a></li>
+<li class="lvl4"><a href="#21-landtransport">§ 21. Landtransport</a></li>
+<li class="lvl4"><a href="#22-sjtransport-og-behandling-av-transportvann">§ 22. Sjøtransport og behandling av transportvann</a></li>
+<li class="lvl4"><a href="#22a-opphevet">§ 22a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#23-transport-til-karantene">§ 23. Transport til karantene</a></li>
+<li class="lvl4"><a href="#24-handtering-av-dde-akvakulturdyr">§ 24. Håndtering av døde akvakulturdyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#25-tilsyn-og-vedtak">§ 25. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#26-dispensasjon">§ 26. Dispensasjon</a></li>
+<li class="lvl4"><a href="#27-straff">§ 27. Straff</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#29-overgangsbestemmelser">§ 29. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-06-17-820.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2008-06-17-820.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-06-17-820.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2008-06-17-820.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2008-06-17-820.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2008-06-17-820.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2008-06-17-820.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2008-06-17-820.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2008-06-17-820.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-transport-av-akvakulturdyr">Forskrift om transport av akvakulturdyr</h1>
 <h2 id="kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med denne forskriften er å fremme god helse hos akvatiske dyr og ivareta god velferd hos fisk under transport.</p>
-<p><em>Endret ved forskrifter 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Endret ved forskrifter 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften gjelder for norsk landterritorium og territorialfarvann, på kontinentalsokkelen og i Norges økonomiske sone.</p>
 <p>Forskriften omfatter transport av levende akvakulturdyr. Kravene til velferd i kapitlene 2 , 3 og 4 omfatter kun fisk. Transport av akvariedyr til zoobutikker, hagesenter, hagedammer, kommersielle akvarier og grossister omfattes av kapittel 5 . Transport av bløtdyr og krepsdyr omfattes av § 9 unntatt bokstav d)–g) i første ledd, § 19 , § 20 første ledd bokstav b) og e) og andre ledd, § 21 , § 22 tredje ledd, § 23 og § 24 . Transport av fisk til og fra fangstbasert akvakultur, samt transport til og fra restitusjons- og mellomlagringsmerder, er unntatt forskriftens virkeområde.</p>
@@ -88,7 +209,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bestemmelsene i § 20 første ledd bokstav f, § 20a og § 22a omfatter også andre aktiviteter enn transport av levende akvakulturdyr.</p>
 <p>Forskriften retter seg mot juridiske og fysiske personer som er ansvarlig for, eller er involvert i transport av levende akvakulturdyr.</p>
 <p>Forskriften gjelder i tillegg til forordning (EF) nr. 1/2005 om vern av dyr under transport og andre tilknyttede aktiviteter som er vedtatt som norsk forskrift i forskrift om næringsmessig transport av dyr.</p>
-<p><em>Endret ved forskrifter 29 mars 2010 nr. 490 , 11 okt 2011 nr. 1016 , 15 des 2014 nr. 1831 (i kraft 1 jan 2015), 29 aug 2017 nr. 1319 , 19 april 2018 nr. 674 , 6 april 2022 nr. 629 (i kraft 28 april 2022), 14 des 2023 nr. 2087 .</em></p>
+<p class="note">Endret ved forskrifter 29 mars 2010 nr. 490 , 11 okt 2011 nr. 1016 , 15 des 2014 nr. 1831 (i kraft 1 jan 2015), 29 aug 2017 nr. 1319 , 19 april 2018 nr. 674 , 6 april 2022 nr. 629 (i kraft 28 april 2022), 14 des 2023 nr. 2087 .</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. Akvakulturanlegg: Enhver lokalitet, fysisk avgrenset område eller installasjon som drives av et akvakulturforetak der akvakulturdyr oppdrettes, med unntak av de lokaliteter, områder eller installasjoner der ville akvatiske dyr høstet eller fanget med tanke på konsum, holdes midlertidig uten å fôres i påvente av å bli slaktet. Med akvakulturforetak menes her ethvert privat eller offentlig foretak, ideelt eller ikke, som utøver en hvilken som helst virksomhet i forbindelse med oppdrett, hold eller dyrking av akvakulturdyr.
@@ -110,7 +231,7 @@ m. Transportmiddel: Båt, bil/vogntog, fly og helikopter og lignende som nyttes 
 n. Transportutstyr: Det rom der levende akvakulturdyr og transportvann oppbevares under transport så som kar, tank, brønn etc., samt spann/sylinder til transport av levende rogn av akvakulturdyr og beholder til transport av levende kreps- eller skalldyr. Til transportutstyr hører også alt teknisk utstyr knyttet til transportrommet, så som sirkulasjonsanlegg for vannpumper, oksygenanlegg, vannfiltreringsanlegg, vakuumpumpesystem for lasting og lossing av levende fisk, ventiler, ventildeksler, slanger, rør etc.
 o. Transportør: Enhver fysisk eller juridisk person som transporterer akvakulturdyr for egen eller annens regning.
 p. Vannkvalitet: Vannmiljøets egnethet ut fra fiskens behov, herunder vannets kjemiske, fysikalske og hygieniske kvalitet.</p>
-<p><em>Endret ved forskrifter 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 .</em></p>
+<p class="note">Endret ved forskrifter 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 .</p>
 <h2 id="kapittel-2-godkjenning-av-transportenhet-for-fisk">Kapittel 2. Godkjenning av transportenhet for fisk</h2>
 <h4 id="4-krav-om-godkjenning-av-transportenhet">§ 4. Krav om godkjenning av transportenhet</h4>
 <p>Transportenhet som benyttes til transport av levende akvakulturdyr, unntatt akvariedyr, krepsdyr, bløtdyr og rogn og melke av akvakulturdyr, skal være godkjent av Mattilsynet. Plastposer som benyttes til transport av mindre mengder fisk er ikke omfattet av krav om godkjenning. Godkjenning er gyldig i høyst fem år fra utstedelsesdatoen og blir ugyldig så snart transportmiddelet endres eller får montert nytt utstyr som påvirker akvakulturdyrenes velferd.</p>
@@ -125,16 +246,16 @@ e. Dokumentasjon på innretninger og utstyrets egnethet i forhold til fiskevelfe
 <p>a. Dokumentasjon på at posisjonsrapporteringsutstyr tilfredsstiller kravene i forskrift 24. mars 2010 nr. 454 om krav til utstyr og installasjon av posisjonsrapporteringsutstyr.
 b. Opplysninger om utstyr for automatisk registrering av tidspunkt for åpning og lukking av bunnventiler.
 c. Søknad om godkjenning av brønnbåt med utstyr for behandling av transportvann må også inneholde dokumentasjon utarbeidet av en uhildet faginstans på at det tekniske utstyret for behandling av transportvannet oppfyller krav til desinfeksjonseffekt fastsatt i denne forskrift. Utstyrets kapasitet for behandling av transportvann, uttrykt som mengde vann behandlet per tidsenhet, skal oppgis.</p>
-<p><em>Endret ved forskrift 11 april 2014 nr. 528 .</em></p>
+<p class="note">Endret ved forskrift 11 april 2014 nr. 528 .</p>
 <h4 id="6-forhold-som-vurderes-ved-godkjenning">§ 6. Forhold som vurderes ved godkjenning</h4>
 <p>For at godkjenning skal kunne gis må transportenheten tilfredsstille krav som er fastsatt i denne forskriften, samt krav i forskrift 8. februar 2012 nr. 139 om næringsmessig transport av dyr, jf. forordning (EF) nr. 1/2005 vedlegg I, kapittel II med hensyn til utforming, konstruksjon og vedlikehold. Det skal foreligge et internkontrollsystem som sannsynliggjør at krav til smittehygienisk og velferdsmessig forsvarlig drift, herunder om kompetanse, rutiner for rengjøring og desinfeksjon, dødfiskhåndtering, overvåking av vannkvalitet, uttak av vannkvalitetsprøver og journalføring, kan etterleves.</p>
 <p>Brønnbåter som ikke har utstyr for behandling av transportvann i henhold til § 22 annet ledd, kan bare godkjennes for lukket transport av settefisk og stamfisk. Med lukket transport menes her at transportvannet tas inn fra akvakulturanlegget som fisken kommer fra, og at det ikke tas inn eller slippes ut vann under transporten.</p>
-<p><em>Endret ved forskrift 11 april 2014 nr. 528 .</em></p>
+<p class="note">Endret ved forskrift 11 april 2014 nr. 528 .</p>
 <h4 id="7-tilbaketrekking-av-godkjenning">§ 7. Tilbaketrekking av godkjenning</h4>
 <p>Mattilsynet kan trekke tilbake godkjenning som nevnt i § 4 dersom:</p>
 <p>a. Det foreligger vesentlige brudd på vilkår i godkjenningen eller bestemmelser gitt i, eller i medhold av, matloven eller dyrevelferdsloven.
 b. Det viser seg at kunnskap om sykdomsmessige eller fiskevelferdmessige forhold er vesentlig endret i forhold til da godkjenningen ble gitt.</p>
-<p><em>Endret ved forskrift 6 aug 2010 nr. 1147 .</em></p>
+<p class="note">Endret ved forskrift 6 aug 2010 nr. 1147 .</p>
 <h2 id="kapittel-3-generelle-smittehygieniske-og-fiskevelferdsmessige-krav-til-transport">Kapittel 3. Generelle smittehygieniske og fiskevelferdsmessige krav til transport</h2>
 <h4 id="8-krav-til-konstruksjon">§ 8. Krav til konstruksjon</h4>
 <p>Overflatene i transportenheten skal være glatte, lette å rengjøre og desinfisere. Transportutstyret skal være uten lommer, sprekker, skarpe vinkler m.m. som i vesentlig grad vanskeliggjør effektiv rengjøring og desinfeksjon. Volum på tank, kar, brønn (resirkuleringssystem) skal være kjent.</p>
@@ -162,11 +283,11 @@ e. Identifikasjon av hvilken rapporttype som sendes.</p>
 <p>Når en brønnbåt har sendt automatiske posisjonsmeldinger i henhold til annet ledd fra samme posisjon i mer enn fire timer, kan slike meldinger sendes en gang hver tolvte time frem til båten igjen endrer posisjon.</p>
 <p>Dersom det oppstår tekniske feil i de elektroniske rapporteringssystemene, skal posisjonsrapportene føres manuelt og sendes via e-post eller telefaks til Fiskeridirektoratet minst en gang hver fjerde time. Posisjonsrapportene skal også lagres i rapporteringssystemet og sendes når kommunikasjonslinjene eller de elektroniske rapporteringssystemene fungerer.</p>
 <p>Åpning og lukking av bunnventiler skal registreres automatisk. Registreringer av bunnventilenes stilling skal kobles opp mot brønnbåtens posisjon, og skal på anmodning kunne sendes elektronisk til Mattilsynet. Registreringer av bunnventilenes stilling skal oppbevares tilgjengelig for tilsynsmyndighetene i minst fem år.</p>
-<p><em>Tilføyd ved forskrift 11 april 2014 nr. 528 , endret ved forskrift 19 april 2018 nr. 674 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 11 april 2014 nr. 528 , endret ved forskrift 19 april 2018 nr. 674 (i kraft 1 jan 2019).</p>
 <h4 id="10-varslingsplikt">§ 10. Varslingsplikt</h4>
 <p>– – –</p>
 <p>Mattilsynet skal varsles umiddelbart ved forhold som har medført vesentlige velferdsmessige konsekvenser for fisken, herunder sykdom, skade eller svikt.</p>
-<p><em>Endret ved forskrifter 29 mars 2010 nr. 490 , 6 april 2022 nr. 629 (i kraft 28 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 29 mars 2010 nr. 490 , 6 april 2022 nr. 629 (i kraft 28 april 2022).</p>
 <h4 id="11-forsvarlig-drift-beredskapsplan-og-vurdering-av-risikofaktorer">§ 11. Forsvarlig drift, beredskapsplan og vurdering av risikofaktorer</h4>
 <p>Driften skal være smittehygienisk og fiskevelferdsmessig forsvarlig. Det skal foreligge en beredskapsplan for å ivareta smittehygiene og fiskevelferd i krisesituasjoner. Den skal gi oversikt over smittehygieniske og fiskevelferdsmessige tiltak som er aktuelle å iverksette for å forhindre og eventuelt håndtere akutte hendelser og massedød, herunder håndtering av døde akvakulturdyr, avliving av akvakulturdyr og varsling av hendelser til mottaker og Mattilsynet.</p>
 <p>Før transport skal risikofaktorer som kan påvirke fiskevelferden og helsen til akvakulturdyr som transporteres, samt helsen til akvatiske dyr langs transportruten og på bestemmelsesstedet, vurderes.</p>
@@ -229,12 +350,12 @@ d. Etter at slaktefisk er losset ved slakteri hvor det samtidig losses fisk fra 
 e. Etter gjennomført transport av akvakulturdyr fra akvakulturanlegg eller akvakulturområde for bløtdyr, som er pålagt restriksjoner som følge av listeført smittsom sykdom.
 f. Etter at transportenheten har vært brukt til andre oppdrag i akvakulturanlegg med håndtering av levende fisk uten at fisken er transportert.</p>
 <p>Transportutstyret skal være tømt for akvakulturdyr før rengjøring og desinfeksjon gjennomføres. Rengjøringen skal sikre at belegg og organisk materiale fjernes før desinfeksjon gjennomføres.</p>
-<p><em>Endret ved forskrift 29 aug 2017 nr. 1319 .</em></p>
+<p class="note">Endret ved forskrift 29 aug 2017 nr. 1319 .</p>
 <h4 id="20a-ytterligere-krav-til-rengjring-og-desinfeksjon-av-brnnbat">§ 20a. Ytterligere krav til rengjøring og desinfeksjon av brønnbåt</h4>
 <p>Når en brønnbåt har vært brukt til andre oppdrag enn transport av settefisk og skal gå over til transport av settefisk av laks, ørret, regnbueørret og røye, skal båten være forsvarlig rengjort og desinfisert, og gjennomgå en karantenetid for å hindre at smitte overføres til settefisk. Gjennomført rengjøring og desinfeksjon skal være inspisert og attestert av veterinær eller fiskehelsebiolog. Karantenetiden skal være på minst 48 timer fra rengjøringen er attestert.</p>
 <p>Kravene i første ledd gjelder også for brønnbåt som forlater PD-sonen etter at transport eller annet oppdrag med håndtering av laks, ørret, regnbueørret og røye er utført innenfor PD-sonen. Når brønnbåten har transportert settefisk til et akvakulturanlegg i PD-sonen hvor det ikke er mer enn 10 dager siden anlegget var brakklagt, og brønnbåten går direkte ut av sonen etter leveringen, gjelder likevel ikke de skjerpede kravene til smittehygiene som følger av første ledd. Med brakklagt menes her brakklegging i tråd med akvakulturdriftsforskriften § 40 .</p>
 <p>Dersom smitterisikoen er lav, kan Mattilsynet gi unntak fra kravet om karantenetid for transporter av fisk utenfra og inn til PD-sonen når brønnbåten går direkte ut av sonen etter levering av fisken.</p>
-<p><em>Tilføyd ved forskrift 29 aug 2017 nr. 1319 , endret ved forskrift 25 juni 2019 nr. 919 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 aug 2017 nr. 1319 , endret ved forskrift 25 juni 2019 nr. 919 .</p>
 <h4 id="21-landtransport">§ 21. Landtransport</h4>
 <p>Ved landtransporter av akvakulturdyr skal transportmiddelet være konstruert på en slik måte at det ikke skjer vannlekkasjer under transporten. Vannskifting ved landtransport skal skje på en vannskiftestasjon som er godkjent av Mattilsynet. For å bli godkjent må følgende vilkår være oppfylt:</p>
 <p>a. Vannet som brukes til utskifting, må ikke påvirke helsestatusen til de akvakulturdyrene som transporteres.
@@ -249,9 +370,9 @@ b. Vannskiftestasjonen skal være innrettet slik at ikke miljøet blir forurense
 b. transportere levende laks, ørret, regnbueørret og røye til slakt over Hustadvika,
 c. transportere fisk fra akvakulturanlegg med mistanke om eller påvist PD til åpen slaktemerd ved slakteri, med mindre Mattilsynet har gitt tillatelse,
 d. transportere rensefisk fra akvakulturanlegg med ubehandlet sjøvann, ut av PD-sonen. Det samme gjelder ved transport fra område der aktuell subtype av SAV forekommer, til område fri for den aktuelle subtypen av SAV. Med ubehandlet sjøvann menes sjøvann som ikke er behandlet i samsvar med kravene i forskrift 20. februar 1997 nr. 192 om desinfeksjon av inntaksvann til og avløpsvann fra akvakulturrelatert virksomhet.</p>
-<p><em>Endret ved forskrifter 29 mars 2010 nr. 490 , 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 , 25 juni 2019 nr. 919 .</em></p>
+<p class="note">Endret ved forskrifter 29 mars 2010 nr. 490 , 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 , 25 juni 2019 nr. 919 .</p>
 <h4 id="22a-opphevet">§ 22a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 27 feb 2017 nr. 273 , opphevet ved forskrift 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Tilføyd ved forskrift 27 feb 2017 nr. 273 , opphevet ved forskrift 24 aug 2022 nr. 1487 .</p>
 <h4 id="23-transport-til-karantene">§ 23. Transport til karantene</h4>
 <p>Transport av akvatiske dyr til karantene skal foregå lukket og alt transportvann skal desinfiseres før det slippes ut. Ved sjøtransport kan vannskifte skje når transporten går mer enn 4 nautiske mil fra grunnlinjen.</p>
 <h4 id="24-handtering-av-dde-akvakulturdyr">§ 24. Håndtering av døde akvakulturdyr</h4>
@@ -260,27 +381,29 @@ d. transportere rensefisk fra akvakulturanlegg med ubehandlet sjøvann, ut av PD
 <h2 id="kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</h2>
 <h4 id="25-tilsyn-og-vedtak">§ 25. Tilsyn og vedtak</h4>
 <p>Mattilsynet fører tilsyn og fatter vedtak for å gjennomføre bestemmelsene gitt i og i medhold av denne forskriften i samsvar med matloven § 23 og dyrevelferdsloven § 30 .</p>
-<p><em>Endret ved forskrifter 6 aug 2010 nr. 1147 , 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Endret ved forskrifter 6 aug 2010 nr. 1147 , 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</p>
 <h4 id="26-dispensasjon">§ 26. Dispensasjon</h4>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskriften, forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen .</p>
-<p><em>Endret ved forskrifter 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Endret ved forskrifter 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</p>
 <h4 id="27-straff">§ 27. Straff</h4>
 <p>Overtredelse av bestemmelser gitt i denne forskriften eller enkeltvedtak gitt i medhold av forskriften, er straffbart i henhold til matloven § 28 og dyrevelferdsloven § 37 .</p>
-<p><em>Endret ved forskrifter 6 aug 2010 nr. 1147 , 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Endret ved forskrifter 6 aug 2010 nr. 1147 , 27 feb 2017 nr. 273 , 24 aug 2022 nr. 1487 .</p>
 <h4 id="28-ikrafttredelse">§ 28. Ikrafttredelse</h4>
 <p>Denne forskriften, med unntak av § 12 tredje ledd, trer i kraft 1. august 2008. Samtidig oppheves forskrift 20. februar 1997 nr. 193 om transport av akvatiske organismer.</p>
 <p>§ 12 tredje ledd om dokumentasjon av kompetanse trer i kraft 1. januar 2010.</p>
 <p>§ 5 annet ledd bokstav a og b og § 9a trer i kraft 1. januar 2016.</p>
 <p>§ 5 annet ledd bokstav c og § 6 annet ledd trer i kraft 1. januar 2021.</p>
 <p>§ 22 første og annet ledd trer i kraft 1. januar 2021.</p>
-<p><em>Endret ved forskrifter 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 .</em></p>
+<p class="note">Endret ved forskrifter 11 april 2014 nr. 528 , 29 aug 2017 nr. 1319 .</p>
 <h4 id="29-overgangsbestemmelser">§ 29. Overgangsbestemmelser</h4>
 <p>§ 22 første og annet ledd trer i kraft 1. januar 2021. Sjøtransport og behandling av transportvann kan foregå i tråd med bestemmelsene i § 22 første og annet ledd i overgangsperioden. Ellers gjelder følgende regler for sjøtransport og behandling av transportvann frem til 1. januar 2021:</p>
 <p>a. Transport av yngel til settefiskanlegg skal foregå uten vannutskifting.
 b. Transport av fisk til matfisk- og stamfiskanlegg og transport av slaktefisk kan foregå med kontinuerlig vannutskifting. Transporten skal likevel foregå uten vannutskifting når transporten passerer så nær akvakulturanlegg eller utslipp av avløp fra slakteri eller tilvirkningsanlegg at det er fare for at smitte spres til akvakulturdyrene som transporteres eller til akvakulturdyr som passeres under transporten. Vannutskiftingen skal stanses i størst mulig avstand fra akvakulturanlegg, slakteri og tilvirkningsanlegg som passeres.
 c. Transport av settefisk av laks, ørret, regnbueørret og røye, og rensefisk, med brønnbåt ut fra PD-sonen skal gjennomføres uten vannutskifting når brønnbåten er innenfor PD-sonen.
 d. Transport av levende laks, ørret, regnbueørret og røye med brønnbåt fra akvakulturanlegg utenfor PD-sonen med mistanke om eller påvist PD skal gjennomføres uten vannutskifting. Mattilsynet kan i enkelte tilfeller gjøre unntak fra dette kravet dersom smitterisikoen er lav og det er nødvendig for å kontrollere utbruddet.</p>
-<p><em>Tilføyd ved forskrift 29 aug 2017 nr. 1319 , endret ved forskrift 25 juni 2019 nr. 919 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 aug 2017 nr. 1319 , endret ved forskrift 25 juni 2019 nr. 919 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

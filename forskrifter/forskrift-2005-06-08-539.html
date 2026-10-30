@@ -19,64 +19,217 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-06-08-539.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om engrossalg mv. av alkohol" href="../feeds/forskrift-2005-06-08-539.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om engrossalg mv. av alkohol</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-06-08-539</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-09-13-2152</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-06-08-539" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-tilvirkning-av-alkoholholdig-drikk">Del I. Tilvirkning av alkoholholdig drikk</a></li>
+<li class="lvl3"><a href="#kapittel-1-sikkerhet-for-alkoholavgift">Kapittel 1. Sikkerhet for alkoholavgift</a></li>
+<li class="lvl5"><a href="#1-1">§ 1-1</a></li>
+<li class="lvl3"><a href="#kapittel-2-sikring-av-varelager">Kapittel 2. Sikring av varelager</a></li>
+<li class="lvl5"><a href="#2-1">§ 2-1</a></li>
+<li class="lvl5"><a href="#2-2">§ 2-2</a></li>
+<li class="lvl5"><a href="#2-3">§ 2-3</a></li>
+<li class="lvl5"><a href="#2-4">§ 2-4</a></li>
+<li class="lvl5"><a href="#2-5">§ 2-5</a></li>
+<li class="lvl5"><a href="#2-6">§ 2-6</a></li>
+<li class="lvl3"><a href="#kapittel-3-sknadsgebyr">Kapittel 3. Søknadsgebyr</a></li>
+<li class="lvl5"><a href="#3-1">§ 3-1</a></li>
+<li class="lvl5"><a href="#3-2">§ 3-2</a></li>
+<li class="lvl5"><a href="#3-3">§ 3-3</a></li>
+<li class="lvl3"><a href="#kapittel-4-bevillingsgebyr">Kapittel 4. Bevillingsgebyr</a></li>
+<li class="lvl5"><a href="#4-1-gebyrpliktens-omfang">§ 4-1. Gebyrpliktens omfang</a></li>
+<li class="lvl5"><a href="#4-2-lpende-gebyr">§ 4-2. Løpende gebyr</a></li>
+<li class="lvl5"><a href="#4-3-minstegebyr">§ 4-3. Minstegebyr</a></li>
+<li class="lvl5"><a href="#4-4-oppgavefrist">§ 4-4. Oppgavefrist</a></li>
+<li class="lvl5"><a href="#4-5-betalingsfrist">§ 4-5. Betalingsfrist</a></li>
+<li class="lvl5"><a href="#4-6-utfyllende-bestemmelser">§ 4-6. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#del-ii-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Del II. Engrossalg med varer som det er betalt særavgift for</a></li>
+<li class="lvl3"><a href="#kapittel-5-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Kapittel 5. Engrossalg med varer som det er betalt særavgift for</a></li>
+<li class="lvl5"><a href="#5-1">§ 5-1</a></li>
+<li class="lvl5"><a href="#5-2">§ 5-2</a></li>
+<li class="lvl2"><a href="#del-iii-utvelse-av-tilvirkningsbevilling-og-rett-til-engrossalg">Del III. Utøvelse av tilvirkningsbevilling og rett til engrossalg</a></li>
+<li class="lvl3"><a href="#kapittel-6-opplysninger-til-statistiske-formal">Kapittel 6. Opplysninger til statistiske formål</a></li>
+<li class="lvl5"><a href="#6-1-plikt-til-a-avgi-opplysninger-til-statistiske-formal">§ 6-1. Plikt til å avgi opplysninger til statistiske formål</a></li>
+<li class="lvl5"><a href="#6-2-innhenting-og-bearbeiding-av-opplysninger">§ 6-2. Innhenting og bearbeiding av opplysninger</a></li>
+<li class="lvl3"><a href="#kapittel-7-register-for-behandling-av-saker-om-tilvirkningsbevilling">Kapittel 7. Register for behandling av saker om tilvirkningsbevilling</a></li>
+<li class="lvl5"><a href="#7-1-registerets-omfang-og-formal">§ 7-1. Registerets omfang og formål</a></li>
+<li class="lvl5"><a href="#7-2-behandlingsansvarlig">§ 7-2. Behandlingsansvarlig</a></li>
+<li class="lvl5"><a href="#7-3-fring-av-registeret">§ 7-3. Føring av registeret</a></li>
+<li class="lvl5"><a href="#7-4-registerets-innhold">§ 7-4. Registerets innhold</a></li>
+<li class="lvl5"><a href="#7-5-utlevering-av-opplysninger-fra-registeret">§ 7-5. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl5"><a href="#7-6-retting-og-sletting-av-opplysninger">§ 7-6. Retting og sletting av opplysninger</a></li>
+<li class="lvl5"><a href="#7-7-sikkerhet">§ 7-7. Sikkerhet</a></li>
+<li class="lvl5"><a href="#7-8-taushetspliktinnsynsrett">§ 7-8. Taushetsplikt/innsynsrett</a></li>
+<li class="lvl3"><a href="#kapittel-8-register-med-opplysninger-om-innehavere-av-tilvirkningsbevilling-og-den-som-driver-engrossalg">Kapittel 8. Register med opplysninger om innehavere av tilvirkningsbevilling og den som driver engrossalg</a></li>
+<li class="lvl5"><a href="#8-1-registerets-omfang-og-formal">§ 8-1. Registerets omfang og formål</a></li>
+<li class="lvl5"><a href="#8-2-behandlingsansvarlig">§ 8-2. Behandlingsansvarlig</a></li>
+<li class="lvl5"><a href="#8-3-fring-av-registeret">§ 8-3. Føring av registeret</a></li>
+<li class="lvl5"><a href="#8-4-registerets-innhold">§ 8-4. Registerets innhold</a></li>
+<li class="lvl5"><a href="#8-5-utlevering-av-opplysninger-fra-registeret">§ 8-5. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl5"><a href="#8-6-forholdet-til-personopplysningsloven">§ 8-6. Forholdet til personopplysningsloven</a></li>
+<li class="lvl3"><a href="#kapittel-9-adgang-til-a-benytte-alkoholholdig-drikk-som-gave-lnn-eller-utbytte-samt-a-selge-alkohol-til-ansatte-til-eget-bruk">Kapittel 9. Adgang til å benytte alkoholholdig drikk som gave, lønn eller utbytte, samt å selge alkohol til ansatte til eget bruk</a></li>
+<li class="lvl5"><a href="#9-1">§ 9-1</a></li>
+<li class="lvl5"><a href="#9-2">§ 9-2</a></li>
+<li class="lvl5"><a href="#9-3">§ 9-3</a></li>
+<li class="lvl5"><a href="#9-4">§ 9-4</a></li>
+<li class="lvl2"><a href="#del-iv-ikrafttredelse-og-overgangsbestemmelser">Del IV. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-10-ikrafttredelse-og-overgangsbestemmelser">Kapittel 10. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#10-1">§ 10-1</a></li>
+<li class="lvl5"><a href="#10-2">§ 10-2</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-09-13-2152.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-08-539.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om engrossalg og tilvirkning av alkoholholdig drikk mv.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-06-08-539.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-06-08-539 <code>forskrift/2005-06-08-539</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om engrossalg mv. av alkohol</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-09-13-2152 <code>forskrift/2024-09-13-2152</code> fra 17.09.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-06-08-539" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-tilvirkning-av-alkoholholdig-drikk">Del I. Tilvirkning av alkoholholdig drikk</a></li>
+<li class="lvl3"><a href="#kapittel-1-sikkerhet-for-alkoholavgift">Kapittel 1. Sikkerhet for alkoholavgift</a></li>
+<li class="lvl5"><a href="#1-1">§ 1-1</a></li>
+<li class="lvl3"><a href="#kapittel-2-sikring-av-varelager">Kapittel 2. Sikring av varelager</a></li>
+<li class="lvl5"><a href="#2-1">§ 2-1</a></li>
+<li class="lvl5"><a href="#2-2">§ 2-2</a></li>
+<li class="lvl5"><a href="#2-3">§ 2-3</a></li>
+<li class="lvl5"><a href="#2-4">§ 2-4</a></li>
+<li class="lvl5"><a href="#2-5">§ 2-5</a></li>
+<li class="lvl5"><a href="#2-6">§ 2-6</a></li>
+<li class="lvl3"><a href="#kapittel-3-sknadsgebyr">Kapittel 3. Søknadsgebyr</a></li>
+<li class="lvl5"><a href="#3-1">§ 3-1</a></li>
+<li class="lvl5"><a href="#3-2">§ 3-2</a></li>
+<li class="lvl5"><a href="#3-3">§ 3-3</a></li>
+<li class="lvl3"><a href="#kapittel-4-bevillingsgebyr">Kapittel 4. Bevillingsgebyr</a></li>
+<li class="lvl5"><a href="#4-1-gebyrpliktens-omfang">§ 4-1. Gebyrpliktens omfang</a></li>
+<li class="lvl5"><a href="#4-2-lpende-gebyr">§ 4-2. Løpende gebyr</a></li>
+<li class="lvl5"><a href="#4-3-minstegebyr">§ 4-3. Minstegebyr</a></li>
+<li class="lvl5"><a href="#4-4-oppgavefrist">§ 4-4. Oppgavefrist</a></li>
+<li class="lvl5"><a href="#4-5-betalingsfrist">§ 4-5. Betalingsfrist</a></li>
+<li class="lvl5"><a href="#4-6-utfyllende-bestemmelser">§ 4-6. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#del-ii-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Del II. Engrossalg med varer som det er betalt særavgift for</a></li>
+<li class="lvl3"><a href="#kapittel-5-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Kapittel 5. Engrossalg med varer som det er betalt særavgift for</a></li>
+<li class="lvl5"><a href="#5-1">§ 5-1</a></li>
+<li class="lvl5"><a href="#5-2">§ 5-2</a></li>
+<li class="lvl2"><a href="#del-iii-utvelse-av-tilvirkningsbevilling-og-rett-til-engrossalg">Del III. Utøvelse av tilvirkningsbevilling og rett til engrossalg</a></li>
+<li class="lvl3"><a href="#kapittel-6-opplysninger-til-statistiske-formal">Kapittel 6. Opplysninger til statistiske formål</a></li>
+<li class="lvl5"><a href="#6-1-plikt-til-a-avgi-opplysninger-til-statistiske-formal">§ 6-1. Plikt til å avgi opplysninger til statistiske formål</a></li>
+<li class="lvl5"><a href="#6-2-innhenting-og-bearbeiding-av-opplysninger">§ 6-2. Innhenting og bearbeiding av opplysninger</a></li>
+<li class="lvl3"><a href="#kapittel-7-register-for-behandling-av-saker-om-tilvirkningsbevilling">Kapittel 7. Register for behandling av saker om tilvirkningsbevilling</a></li>
+<li class="lvl5"><a href="#7-1-registerets-omfang-og-formal">§ 7-1. Registerets omfang og formål</a></li>
+<li class="lvl5"><a href="#7-2-behandlingsansvarlig">§ 7-2. Behandlingsansvarlig</a></li>
+<li class="lvl5"><a href="#7-3-fring-av-registeret">§ 7-3. Føring av registeret</a></li>
+<li class="lvl5"><a href="#7-4-registerets-innhold">§ 7-4. Registerets innhold</a></li>
+<li class="lvl5"><a href="#7-5-utlevering-av-opplysninger-fra-registeret">§ 7-5. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl5"><a href="#7-6-retting-og-sletting-av-opplysninger">§ 7-6. Retting og sletting av opplysninger</a></li>
+<li class="lvl5"><a href="#7-7-sikkerhet">§ 7-7. Sikkerhet</a></li>
+<li class="lvl5"><a href="#7-8-taushetspliktinnsynsrett">§ 7-8. Taushetsplikt/innsynsrett</a></li>
+<li class="lvl3"><a href="#kapittel-8-register-med-opplysninger-om-innehavere-av-tilvirkningsbevilling-og-den-som-driver-engrossalg">Kapittel 8. Register med opplysninger om innehavere av tilvirkningsbevilling og den som driver engrossalg</a></li>
+<li class="lvl5"><a href="#8-1-registerets-omfang-og-formal">§ 8-1. Registerets omfang og formål</a></li>
+<li class="lvl5"><a href="#8-2-behandlingsansvarlig">§ 8-2. Behandlingsansvarlig</a></li>
+<li class="lvl5"><a href="#8-3-fring-av-registeret">§ 8-3. Føring av registeret</a></li>
+<li class="lvl5"><a href="#8-4-registerets-innhold">§ 8-4. Registerets innhold</a></li>
+<li class="lvl5"><a href="#8-5-utlevering-av-opplysninger-fra-registeret">§ 8-5. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl5"><a href="#8-6-forholdet-til-personopplysningsloven">§ 8-6. Forholdet til personopplysningsloven</a></li>
+<li class="lvl3"><a href="#kapittel-9-adgang-til-a-benytte-alkoholholdig-drikk-som-gave-lnn-eller-utbytte-samt-a-selge-alkohol-til-ansatte-til-eget-bruk">Kapittel 9. Adgang til å benytte alkoholholdig drikk som gave, lønn eller utbytte, samt å selge alkohol til ansatte til eget bruk</a></li>
+<li class="lvl5"><a href="#9-1">§ 9-1</a></li>
+<li class="lvl5"><a href="#9-2">§ 9-2</a></li>
+<li class="lvl5"><a href="#9-3">§ 9-3</a></li>
+<li class="lvl5"><a href="#9-4">§ 9-4</a></li>
+<li class="lvl2"><a href="#del-iv-ikrafttredelse-og-overgangsbestemmelser">Del IV. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-10-ikrafttredelse-og-overgangsbestemmelser">Kapittel 10. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#10-1">§ 10-1</a></li>
+<li class="lvl5"><a href="#10-2">§ 10-2</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-08-539.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-06-08-539.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-08-539.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-06-08-539.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-06-08-539.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-06-08-539.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-06-08-539.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-06-08-539.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-06-08-539.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-engrossalg-og-tilvirkning-av-alkoholholdig-drikk-mv">Forskrift om engrossalg og tilvirkning av alkoholholdig drikk mv.</h1>
 <h2 id="del-i-tilvirkning-av-alkoholholdig-drikk">Del I. Tilvirkning av alkoholholdig drikk</h2>
 <h3 id="kapittel-1-sikkerhet-for-alkoholavgift">Kapittel 1. Sikkerhet for alkoholavgift</h3>
 <h5 id="1-1">§ 1-1</h5>
@@ -102,10 +255,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <h5 id="2-5">§ 2-5</h5>
 <p>Varelager hvor brennevin eller sats og gjærende væske til fremstilling av brennevin oppbevares skal være sikret med forsvarlig alarmsystem. Helsedirektoratet kan i særlige tilfeller gi dispensasjon fra dette kravet dersom varelageret er forsvarlig sikret på annen måte.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="2-6">§ 2-6</h5>
 <p>Helsedirektoratet kan ilegge bevillingshavere som forsettlig eller uaktsomt overtrer § 2-1 og §§ 2-3 til 2-5 , overtredelsesgebyr. Forskrift 13. september 2024 nr. 2149 om ileggelse og utmåling av overtredelsesgebyr etter alkoholloven kommer til anvendelse.</p>
-<p><em>Tilføyd ved forskrift 13 sep 2024 nr. 2152 (i kraft 17 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 13 sep 2024 nr. 2152 (i kraft 17 sep 2024).</p>
 <h3 id="kapittel-3-sknadsgebyr">Kapittel 3. Søknadsgebyr</h3>
 <h5 id="3-1">§ 3-1</h5>
 <p>Ved søknad om bevilling for tilvirkning betales følgende søknadsgebyr: – alkoholholdig drikk som ikke er brennevin: kr 12000 – brennevin: kr 15000 – all alkoholholdig drikk: kr 15000</p>
@@ -127,7 +280,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ul>
 <p>Omsetningen er gebyrpliktig også om varen tidligere har gitt grunnlag for gebyrplikt.</p>
 <p>Gebyret skal betales etter en sats som fastsettes av Helse- og omsorgsdepartementet i forbindelse med det årlige statsbudsjett.</p>
-<p><em>Endret ved forskrift 10 jan 2006 nr. 62 .</em></p>
+<p class="note">Endret ved forskrift 10 jan 2006 nr. 62 .</p>
 <h5 id="4-3-minstegebyr">§ 4-3. Minstegebyr</h5>
 <p>Bevillingsgebyret utgjør minimum kr 5000 pr. år.</p>
 <p>Dersom bevilling gis etter 1. juli, betales halvt minstegebyr.</p>
@@ -136,15 +289,15 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bevillingshaverne skal for hver måned sende oppgave til Helsedirektoratet over månedens gebyrpliktige omsetning fordelt på kategoriene for alkoholinnhold og alkoholtype innen den 18. i påfølgende måned.</p>
 <p>Oppgaven gis på skjema fastsatt av direktoratet.</p>
 <p>Det skal sendes oppgave selv om det ikke har vært gebyrpliktig omsetning (0-oppgave).</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="4-5-betalingsfrist">§ 4-5. Betalingsfrist <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Løpende gebyr betales til Helsedirektoratet innen utløpet av oppgavefristen, jf. § 4-4 . Alternativt kan bevillingshaver betale gebyret forskuddsvis til Helsedirektoratet for ett år av gangen på grunnlag av forventet omsatt mengde tilvirket alkoholholdig drikk. Dersom gebyret betales forskuddsvis skal Helsedirektoratet ved årets slutt beregne avvik mellom forventet og faktisk omsetning og det skal foretas etteroppgjør.</p>
 <p>Helsedirektoratet kan sette kortere gebyrperiode ved forsinkelse av oppgave eller betaling, eller dersom det er opplysninger om virksomhetens forhold som gjør det overveiende sannsynlig at innbetalingen ikke vil skje rettidig.</p>
 <p>Minstegebyret betales forskuddsvis til Helsedirektoratet når bevillingen tas i bruk, og deretter innen 1. februar de påfølgende år.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="4-6-utfyllende-bestemmelser">§ 4-6. Utfyllende bestemmelser <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Helsedirektoratet kan gi nærmere bestemmelser til presisering, utfylling og gjennomføring av forskriften.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h2 id="del-ii-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Del II. Engrossalg med varer som det er betalt særavgift for</h2>
 <h3 id="kapittel-5-engrossalg-med-varer-som-det-er-betalt-sravgift-for">Kapittel 5. Engrossalg med varer som det er betalt særavgift for</h3>
 <h5 id="5-1">§ 5-1</h5>
@@ -155,11 +308,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>lov 27. mai 2016 nr. 14 om skatteforvaltning § 8-13 , § 10-1 til § 10-4 og § 10-5 annet ledd bokstav e og</li>
 <li>forskrift 23. november 2016 nr. 1360 til skatteforvaltningsloven § 8-13-2 så langt den passer.</li>
 </ul>
-<p><em>Endret ved forskrifter 20 nov 2015 nr. 1352 (i kraft 1 jan 2016), 8 april 2019 nr. 467 .</em></p>
+<p class="note">Endret ved forskrifter 20 nov 2015 nr. 1352 (i kraft 1 jan 2016), 8 april 2019 nr. 467 .</p>
 <h5 id="5-2">§ 5-2</h5>
 <p>Innehaver av tilvirkningsbevilling har rett til å drive engrossalg med den type alkoholholdig drikk bevillingen gjelder for på grunnlag av registrering hos skattekontoret etter forskrift 11. desember 2001 nr. 1451 om særavgifter § 5-1 bokstav a.</p>
 <p>Lov 27. mai 2016 nr. 14 om skatteforvaltning § 10-1 til § 10-4 gjelder tilsvarende for kontroll med tilvirkeres utøvelse av engrossalg med den type alkoholholdig drikk bevillingen gjelder for.</p>
-<p><em>Endret ved forskrifter 20 nov 2015 nr. 1352 (i kraft 1 jan 2016), 8 april 2019 nr. 467 .</em></p>
+<p class="note">Endret ved forskrifter 20 nov 2015 nr. 1352 (i kraft 1 jan 2016), 8 april 2019 nr. 467 .</p>
 <h2 id="del-iii-utvelse-av-tilvirkningsbevilling-og-rett-til-engrossalg">Del III. Utøvelse av tilvirkningsbevilling og rett til engrossalg</h2>
 <h3 id="kapittel-6-opplysninger-til-statistiske-formal">Kapittel 6. Opplysninger til statistiske formål</h3>
 <h5 id="6-1-plikt-til-a-avgi-opplysninger-til-statistiske-formal">§ 6-1. Plikt til å avgi opplysninger til statistiske formål <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
@@ -170,7 +323,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>omsetning av alkoholholdig drikk, herunder vareliter, type alkoholholdig drikk, alkoholstyrke, selgere/kjøpere</li>
 <li>tilvirkning av alkoholholdig drikk, herunder omfang, type alkoholholdig drikk, alkoholstyrke, kjøpere.</li>
 </ul>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="6-2-innhenting-og-bearbeiding-av-opplysninger">§ 6-2. Innhenting og bearbeiding av opplysninger <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Helsedirektoratet kan bestemme hvordan opplysningene skal innhentes og hvorledes statistikken skal utarbeides, herunder</p>
 <ul>
@@ -179,14 +332,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>databearbeidingen.</li>
 </ul>
 <p>Det skal legges vekt på statistikkhensyn og på hensynet til de berørte parters kostnader ved innhenting av opplysninger og utarbeidelse av statistikk.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h3 id="kapittel-7-register-for-behandling-av-saker-om-tilvirkningsbevilling">Kapittel 7. Register for behandling av saker om tilvirkningsbevilling</h3>
 <h5 id="7-1-registerets-omfang-og-formal">§ 7-1. Registerets omfang og formål</h5>
 <p>Registeret skal omfatte opplysninger om innehavere av tilvirkningsbevillinger.</p>
 <p>Registeret skal bare nyttes til å innhente opplysninger som er nødvendige for å kunne føre kontroll med og avgjøre søknader om bevilling til tilvirkning av alkoholholdig drikk, jf. alkoholloven § 6-1 .</p>
 <h5 id="7-2-behandlingsansvarlig">§ 7-2. Behandlingsansvarlig <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Helsedirektoratet er ansvarlig for registeret.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="7-3-fring-av-registeret">§ 7-3. Føring av registeret</h5>
 <p>Registeret kan føres både manuelt og ved hjelp av elektronisk databehandling (edb).</p>
 <p>Det skal legges til rette for at det kan benyttes opplysninger fra Enhetsregisteret der det er praktisk mulig, jf. lov 3. juni 1994 nr. 15 om Enhetsregisteret § 1 annet ledd tredje punktum.</p>
@@ -228,7 +381,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Det skal gjennomføres tiltak som sikrer at registeret og opplysninger er tilgjengelige når det er behov for dem. Kopier av opplysninger og annet nødvendig materiale skal sikres med tanke på rekonstruksjon av registeret etter tap. Opplysninger og registeret skal være sikret slik at de heller ikke midlertidig faller bort.</p>
 <p>Dersom det påvises et datainnbrudd i anlegget, skal Helse- og omsorgsdepartementet umiddelbart underrettes.</p>
 <p>For øvrig gjelder reglene i lov 14. april 2000 nr. 31 om behandling av personopplysninger § 13 og forskrift 15. desember 2000 nr. 1265 om behandling av personopplysninger kapittel 2 .</p>
-<p><em>Endret ved forskrift 10 jan 2006 nr. 62 .</em></p>
+<p class="note">Endret ved forskrift 10 jan 2006 nr. 62 .</p>
 <h5 id="7-8-taushetspliktinnsynsrett">§ 7-8. Taushetsplikt/innsynsrett</h5>
 <p>Ved praktiseringen av forskriften her gjelder offentlighetsloven og forvaltningslovens regler om taushetsplikt, og reglene om innsynsrett i lov 14. april 2000 nr. 31 om behandling av personopplysninger § 18 .</p>
 <h3 id="kapittel-8-register-med-opplysninger-om-innehavere-av-tilvirkningsbevilling-og-den-som-driver-engrossalg">Kapittel 8. Register med opplysninger om innehavere av tilvirkningsbevilling og den som driver engrossalg</h3>
@@ -237,12 +390,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Registeret skal nyttes til å holde oversikt over hvem som har tilvirkningsbevilling og rett til å drive engrossalg.</p>
 <h5 id="8-2-behandlingsansvarlig">§ 8-2. Behandlingsansvarlig <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Helsedirektoratet er ansvarlig for registeret.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="8-3-fring-av-registeret">§ 8-3. Føring av registeret <a class="para-history" href="../historikk/forskrift-2005-06-08-539/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Registeret føres ved hjelp av elektronisk databehandling (edb).</p>
 <p>Bevillingsmyndigheten og skattekontoret skal selv vedlikeholde opplysningene i registeret. Det skal legges til rette for at bevillingsmyndigheten og skattekontoret på enklest mulig måte kan registrere og endre opplysninger i registeret.</p>
 <p>Det skal legges til rette for at det kan benyttes opplysninger fra Enhetsregisteret der det er praktisk mulig, jf. lov 3. juni 1994 nr. 15 om Enhetsregisteret § 1 annet ledd tredje punktum.</p>
-<p><em>Endret ved forskrift 20 nov 2015 nr. 1352 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 20 nov 2015 nr. 1352 (i kraft 1 jan 2016).</p>
 <h5 id="8-4-registerets-innhold">§ 8-4. Registerets innhold</h5>
 <p>Registeret skal inneholde følgende typer opplysninger:</p>
 <ol>
@@ -272,10 +425,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ul>
 <p>De forskjellige typene alkoholholdig drikk kan kombineres. 2,25 liter av alternativ 2 tilsvarer da 8 liter av alternativ 1 eller 0,70 liter drikk med 22 volumprosent alkohol eller mer. Det er likevel ikke tillatt å selge mer enn 1,4 liter drikk med 22 volumprosent alkohol eller mer per kvote. Det kan bare selges en kvote i løpet av tre måneder. Kvotene reduseres forholdsmessig for deltidsansatte.</p>
 <p>Prisen på varene må ikke settes lavere enn bevillingshavers eller den som driver engrossalgs salgspris inklusiv alkoholavgift.</p>
-<p><em>Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 8 des 2011 nr. 1219 (i kraft 1 jan 2012).</p>
 <h5 id="9-4">§ 9-4</h5>
 <p>Helsedirektoratet kan ilegge bevillingshavere som forsettlig eller uaktsomt overtrer §§ 9-1 til 9-3 , overtredelsesgebyr. Forskrift 13. september 2024 nr. 2149 om ileggelse og utmåling av overtredelsesgebyr etter alkoholloven kommer til anvendelse.</p>
-<p><em>Tilføyd ved forskrift 13 sep 2024 nr. 2152 (i kraft 17 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 13 sep 2024 nr. 2152 (i kraft 17 sep 2024).</p>
 <h2 id="del-iv-ikrafttredelse-og-overgangsbestemmelser">Del IV. Ikrafttredelse og overgangsbestemmelser</h2>
 <h3 id="kapittel-10-ikrafttredelse-og-overgangsbestemmelser">Kapittel 10. Ikrafttredelse og overgangsbestemmelser</h3>
 <h5 id="10-1">§ 10-1</h5>
@@ -287,7 +440,9 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dersom virksomheten etter 30. september 2005 ønsker å drive engrossalg med varer som det er betalt særavgift for, må det gis melding til toll- og avgiftsetaten om dette innen 15. august 2005.</p>
 <p>Dersom virksomheten etter 30. september 2005 ønsker å importere alkoholholdig drikk, må denne registreres som avgiftspliktig virksomhet hos toll- og avgiftsetaten. Søknad om slik registrering må sendes innen 15. august 2005.</p>
 <p>Virksomheter uten tidligere engrosbevilling må søke toll- og avgiftsetaten om den nødvendige registrering.</p>
-<p><em>Tilføyd ved forskrift 21 juni 2005 nr. 666 (i kraft 1 juli 2005).</em></p>
+<p class="note">Tilføyd ved forskrift 21 juni 2005 nr. 666 (i kraft 1 juli 2005).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

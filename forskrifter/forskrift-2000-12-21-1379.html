@@ -19,64 +19,185 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-21-1379.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lisens til helsepersonell" href="../feeds/forskrift-2000-12-21-1379.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om lisens til helsepersonell</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2000-12-21-1379</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2001-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-06-02-977</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2000-12-21-1379" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lisens-til-medisinske-studenter-studentlisens">Kapittel 1. Lisens til medisinske studenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#1-lisens-til-medisinsk-student-ved-norsk-universitet">§ 1. Lisens til medisinsk student ved norsk universitet</a></li>
+<li class="lvl4"><a href="#2-lisens-til-medisinsk-student-ved-utenlandsk-universitet">§ 2. Lisens til medisinsk student ved utenlandsk universitet</a></li>
+<li class="lvl4"><a href="#3-dokumentasjon">§ 3. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#4-omfang-av-lisens">§ 4. Omfang av lisens</a></li>
+<li class="lvl4"><a href="#5-sknad-varighet-av-lisens">§ 5. Søknad, varighet av lisens</a></li>
+<li class="lvl2"><a href="#kapittel-1a-lisens-til-medisinske-kandidater">Kapittel 1a. Lisens til medisinske kandidater</a></li>
+<li class="lvl4"><a href="#1a-1-lisens-til-medisinske-kandidater-som-tar-utdanningens-frste-del">§ 1a-1. Lisens til medisinske kandidater som tar utdanningens første del</a></li>
+<li class="lvl4"><a href="#1a-2-lisensens-varighet">§ 1a-2. Lisensens varighet</a></li>
+<li class="lvl4"><a href="#1a-3-vilkar-for-lisens">§ 1a-3. Vilkår for lisens</a></li>
+<li class="lvl4"><a href="#1a-4-sknad-om-lisens">§ 1a-4. Søknad om lisens</a></li>
+<li class="lvl2"><a href="#kapittel-1b-lisens-til-farmasistudenter-studentlisens">Kapittel 1b. Lisens til farmasistudenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#1b-1-lisens-til-hovedfagstudent-i-farmasi-ved-norsk-universitet">§ 1b-1. Lisens til hovedfagstudent i farmasi ved norsk universitet</a></li>
+<li class="lvl4"><a href="#1b-2-lisens-til-farmasistudent-ved-utenlandsk-universitet">§ 1b-2. Lisens til farmasistudent ved utenlandsk universitet</a></li>
+<li class="lvl4"><a href="#1b-3-omfang-av-lisensen">§ 1b-3. Omfang av lisensen</a></li>
+<li class="lvl4"><a href="#1b-4-sknad-og-varighet-av-lisens">§ 1b-4. Søknad og varighet av lisens</a></li>
+<li class="lvl2"><a href="#kapittel-2-lisens-etter-fylte-80-ar">Kapittel 2. Lisens etter fylte 80 år</a></li>
+<li class="lvl4"><a href="#6-lisens">§ 6. Lisens</a></li>
+<li class="lvl4"><a href="#7-sknadens-innhold">§ 7. Søknadens innhold</a></li>
+<li class="lvl4"><a href="#8-tildeling-av-lisens">§ 8. Tildeling av lisens</a></li>
+<li class="lvl4"><a href="#9-endringer-i-lisensperioden">§ 9. Endringer i lisensperioden</a></li>
+<li class="lvl2"><a href="#kapittel-3-overgangsbestemmelser-og-ikrafttredelse">Kapittel 3. Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-overgangsbestemmelser">§ 10. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#merknader-til-forskriften">Merknader til forskriften</a></li>
+<li class="lvl3"><a href="#kapittel-1-lisens-til-medisinske-studenter-studentlisens_1">Kapittel 1 Lisens til medisinske studenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#til-1">Til § 1.</a></li>
+<li class="lvl4"><a href="#til-2">Til § 2.</a></li>
+<li class="lvl4"><a href="#til-3">Til § 3.</a></li>
+<li class="lvl4"><a href="#til-4">Til § 4.</a></li>
+<li class="lvl4"><a href="#til-5">Til § 5.</a></li>
+<li class="lvl3"><a href="#kapittel-2-lisens-til-helsepersonell-over-80-ar">Kapittel 2 Lisens til helsepersonell over 80 år</a></li>
+<li class="lvl4"><a href="#til-6">Til § 6.</a></li>
+<li class="lvl4"><a href="#til-7">Til § 7.</a></li>
+<li class="lvl4"><a href="#til-8">Til § 8.</a></li>
+<li class="lvl4"><a href="#til-9">Til § 9.</a></li>
+<li class="lvl3"><a href="#kapittel-3-overgangsbestemmelser-og-ikrafttredelse_1">Kapittel 3 Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#til-11">Til § 11</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-06-02-977.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-21-1379.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om lisens til helsepersonell</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-12-21-1379.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2000-12-21-1379 <code>forskrift/2000-12-21-1379</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2001</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-06-02-977 <code>forskrift/2022-06-02-977</code> fra 16.09.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2000-12-21-1379" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lisens-til-medisinske-studenter-studentlisens">Kapittel 1. Lisens til medisinske studenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#1-lisens-til-medisinsk-student-ved-norsk-universitet">§ 1. Lisens til medisinsk student ved norsk universitet</a></li>
+<li class="lvl4"><a href="#2-lisens-til-medisinsk-student-ved-utenlandsk-universitet">§ 2. Lisens til medisinsk student ved utenlandsk universitet</a></li>
+<li class="lvl4"><a href="#3-dokumentasjon">§ 3. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#4-omfang-av-lisens">§ 4. Omfang av lisens</a></li>
+<li class="lvl4"><a href="#5-sknad-varighet-av-lisens">§ 5. Søknad, varighet av lisens</a></li>
+<li class="lvl2"><a href="#kapittel-1a-lisens-til-medisinske-kandidater">Kapittel 1a. Lisens til medisinske kandidater</a></li>
+<li class="lvl4"><a href="#1a-1-lisens-til-medisinske-kandidater-som-tar-utdanningens-frste-del">§ 1a-1. Lisens til medisinske kandidater som tar utdanningens første del</a></li>
+<li class="lvl4"><a href="#1a-2-lisensens-varighet">§ 1a-2. Lisensens varighet</a></li>
+<li class="lvl4"><a href="#1a-3-vilkar-for-lisens">§ 1a-3. Vilkår for lisens</a></li>
+<li class="lvl4"><a href="#1a-4-sknad-om-lisens">§ 1a-4. Søknad om lisens</a></li>
+<li class="lvl2"><a href="#kapittel-1b-lisens-til-farmasistudenter-studentlisens">Kapittel 1b. Lisens til farmasistudenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#1b-1-lisens-til-hovedfagstudent-i-farmasi-ved-norsk-universitet">§ 1b-1. Lisens til hovedfagstudent i farmasi ved norsk universitet</a></li>
+<li class="lvl4"><a href="#1b-2-lisens-til-farmasistudent-ved-utenlandsk-universitet">§ 1b-2. Lisens til farmasistudent ved utenlandsk universitet</a></li>
+<li class="lvl4"><a href="#1b-3-omfang-av-lisensen">§ 1b-3. Omfang av lisensen</a></li>
+<li class="lvl4"><a href="#1b-4-sknad-og-varighet-av-lisens">§ 1b-4. Søknad og varighet av lisens</a></li>
+<li class="lvl2"><a href="#kapittel-2-lisens-etter-fylte-80-ar">Kapittel 2. Lisens etter fylte 80 år</a></li>
+<li class="lvl4"><a href="#6-lisens">§ 6. Lisens</a></li>
+<li class="lvl4"><a href="#7-sknadens-innhold">§ 7. Søknadens innhold</a></li>
+<li class="lvl4"><a href="#8-tildeling-av-lisens">§ 8. Tildeling av lisens</a></li>
+<li class="lvl4"><a href="#9-endringer-i-lisensperioden">§ 9. Endringer i lisensperioden</a></li>
+<li class="lvl2"><a href="#kapittel-3-overgangsbestemmelser-og-ikrafttredelse">Kapittel 3. Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-overgangsbestemmelser">§ 10. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#merknader-til-forskriften">Merknader til forskriften</a></li>
+<li class="lvl3"><a href="#kapittel-1-lisens-til-medisinske-studenter-studentlisens_1">Kapittel 1 Lisens til medisinske studenter (studentlisens)</a></li>
+<li class="lvl4"><a href="#til-1">Til § 1.</a></li>
+<li class="lvl4"><a href="#til-2">Til § 2.</a></li>
+<li class="lvl4"><a href="#til-3">Til § 3.</a></li>
+<li class="lvl4"><a href="#til-4">Til § 4.</a></li>
+<li class="lvl4"><a href="#til-5">Til § 5.</a></li>
+<li class="lvl3"><a href="#kapittel-2-lisens-til-helsepersonell-over-80-ar">Kapittel 2 Lisens til helsepersonell over 80 år</a></li>
+<li class="lvl4"><a href="#til-6">Til § 6.</a></li>
+<li class="lvl4"><a href="#til-7">Til § 7.</a></li>
+<li class="lvl4"><a href="#til-8">Til § 8.</a></li>
+<li class="lvl4"><a href="#til-9">Til § 9.</a></li>
+<li class="lvl3"><a href="#kapittel-3-overgangsbestemmelser-og-ikrafttredelse_1">Kapittel 3 Overgangsbestemmelser og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#til-11">Til § 11</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-21-1379.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-12-21-1379.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-21-1379.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2000-12-21-1379.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2000-12-21-1379.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-12-21-1379.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2000-12-21-1379.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2000-12-21-1379.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-12-21-1379.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-lisens-til-helsepersonell">Forskrift om lisens til helsepersonell</h1>
 <h2 id="kapittel-1-lisens-til-medisinske-studenter-studentlisens">Kapittel 1. Lisens til medisinske studenter (studentlisens)</h2>
 <h4 id="1-lisens-til-medisinsk-student-ved-norsk-universitet">§ 1. Lisens til medisinsk student ved norsk universitet</h4>
 <p>Medisinsk student ved norsk universitet kan få lisens dersom vedkommende:</p>
@@ -92,13 +213,13 @@ c. har gjennomført teoretisk og praktisk undervisning i farmakologi og reseptl�
 <p>Lisensen gir innehaveren rett til å rekvirere legemidler i gruppe B og C i sammenheng med arbeid som nevnt i første ledd.</p>
 <p>Lisensen gir ikke innehaveren adgang til i eget navn å sende regning til trygden for legehjelp.</p>
 <p>Lisensen gir ikke innehaveren rett til å kalle seg lege. Kun stud.med. kan benyttes som tittel.</p>
-<p><em>Endret ved forskrift 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</em></p>
+<p class="note">Endret ved forskrift 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</p>
 <h4 id="5-sknad-varighet-av-lisens">§ 5. Søknad, varighet av lisens</h4>
 <p>Søknad om lisens sendes Helsedirektoratet eller den det bemyndiger.</p>
 <p>Lisens til medisinsk student gis for et nærmere bestemt tidsrom av inntil 3 år. Den opphører ved påbegynnelse av turnustjenesten.</p>
 <p>Lisens bortfaller umiddelbart dersom sensurvedtak i niende semester viser at eksamen ikke er bestått.</p>
 <p>Lisens bortfaller dersom studenten helt avbryter det medisinske studium, eller uten å ha fått permisjon fra universitetet ikke følger normal studieprogresjon.</p>
-<p><em>Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 17 jan 2013 nr. 61 .</p>
 <h2 id="kapittel-1a-lisens-til-medisinske-kandidater">Kapittel 1a. Lisens til medisinske kandidater</h2>
 <p>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrift 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</p>
 <h4 id="1a-1-lisens-til-medisinske-kandidater-som-tar-utdanningens-frste-del">§ 1a-1. Lisens til medisinske kandidater som tar utdanningens første del</h4>
@@ -107,32 +228,32 @@ c. har gjennomført teoretisk og praktisk undervisning i farmakologi og reseptl�
 <p>a. har bestått medisinsk eksamen i et annet EØS-land og
 b. senest i 2012 hadde startet studiene eller mottatt tilbud om studieplass.</p>
 <p>Lisens til medisinske kandidater som tar turnus er gjeldende frem til hele turnustjenesten er gjennomført.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017), 10 juli 2018 nr. 1172 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017), 10 juli 2018 nr. 1172 (i kraft 1 jan 2019).</p>
 <h4 id="1a-2-lisensens-varighet">§ 1a-2. Lisensens varighet</h4>
 <p>Lisensen gjelder fra det tidspunktet som fremgår av lisensdokumentet og frem til to måneder etter at utdanningens første del er avsluttet.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</p>
 <h4 id="1a-3-vilkar-for-lisens">§ 1a-3. Vilkår for lisens</h4>
 <p>Det kan stilles vilkår for lisensen, jf. helsepersonelloven § 49 tredje ledd.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrift 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrift 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</p>
 <h4 id="1a-4-sknad-om-lisens">§ 1a-4. Søknad om lisens</h4>
 <p>Søknad om lisens sendes Helsedirektoratet eller den det bemyndiger. Det må vedlegges dokumentasjon for at avsluttet eksamen er bestått og at det er inngått arbeidsavtale om tilsetting i stilling i utdanningens første del.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrifter 1 des 2012 nr. 1118 , 8 des 2016 nr. 1482 (i kraft 1 mars 2017).</p>
 <h2 id="kapittel-1b-lisens-til-farmasistudenter-studentlisens">Kapittel 1b. Lisens til farmasistudenter (studentlisens)</h2>
 <p>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="1b-1-lisens-til-hovedfagstudent-i-farmasi-ved-norsk-universitet">§ 1b-1. Lisens til hovedfagstudent i farmasi ved norsk universitet</h4>
 <p>Hovedfagstudent i farmasi ved norsk universitet kan få lisens etter søknad dersom vedkommende har bestått alle eksamener i grunnstudiet i farmasi, herunder gjennomført praksis i apotek.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="1b-2-lisens-til-farmasistudent-ved-utenlandsk-universitet">§ 1b-2. Lisens til farmasistudent ved utenlandsk universitet</h4>
 <p>Farmasistudent ved utenlandsk universitet kan få lisens dersom vedkommende har bestått eksamener og gjennomført praksis som tilsvarer det som kreves etter § 1b-1 .</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="1b-3-omfang-av-lisensen">§ 1b-3. Omfang av lisensen</h4>
 <p>Lisens til hovedfagstudent i farmasi ved norsk universitet eller student i farmasi ved utenlandsk universitet gir adgang til å utøve selvstendig ekspedisjonsrett.</p>
 <p>Lisensen gir ikke innehaveren rett til å kalle seg cand.pharm. Kun farmasøyt eller stud.pharm. kan benyttes som tittel.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="1b-4-sknad-og-varighet-av-lisens">§ 1b-4. Søknad og varighet av lisens</h4>
 <p>Søknad om lisens, vedlagt nødvendig dokumentasjon, jf. § 3 , sendes Helsedirektoratet eller den det bemyndiger.</p>
 <p>Lisens bortfaller dersom studenten helt avbryter det farmasøytiske studiet, eller ikke følger normal studieprogresjon, uten å ha fått permisjon fra universitetet.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrift 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002), endret ved forskrift 17 jan 2013 nr. 61 .</p>
 <h2 id="kapittel-2-lisens-etter-fylte-80-ar">Kapittel 2. Lisens etter fylte 80 år</h2>
 <p>Endret ved forskrift 25 juni 2015 nr. 769 (i kraft 1 juli 2015).</p>
 <h4 id="6-lisens">§ 6. Lisens</h4>
@@ -140,7 +261,7 @@ b. senest i 2012 hadde startet studiene eller mottatt tilbud om studieplass.</p>
 <p>Lisens gis for et nærmere bestemt tidsrom av inntil ett år av gangen.</p>
 <p>Lisensen kan begrenses slik det fremgår av helsepersonelloven § 49 tredje ledd; i tid, til en bestemt stilling, til visse typer helsehjelp eller på annen måte.</p>
 <p>Søknad om lisens sendes Helsedirektoratet eller den det bemyndiger.</p>
-<p><em>Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 17 jan 2013 nr. 61 , 25 juni 2015 nr. 769 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 17 jan 2013 nr. 61 , 25 juni 2015 nr. 769 (i kraft 1 juli 2015).</p>
 <h4 id="7-sknadens-innhold">§ 7. Søknadens innhold</h4>
 <p>Søknaden skal gi opplysninger om:</p>
 <p>a. art og omfang av den virksomheten det søkes om lisens for, herunder organisering av virksomheten dersom det søkes om lisens for å drive pasientrettet virksomhet,
@@ -148,24 +269,24 @@ b. art og omfang av tidligere virksomhet, særlig de siste 5 årene,
 c. rekvireringsrett ønskes og
 d. tidsrommet det søkes om lisens for.</p>
 <p>Søknaden skal vedlegges legeattest utstedt av lisenssøkers fastlege eller annen lege med autorisasjon. Legeattesten skal bekrefte at lisenssøker er psykisk og fysisk i stand til å ivareta slik virksomhet som det søkes om lisens for. Attesten skal gis på fastsatt skjema.</p>
-<p><em>Endret ved forskrifter 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</em></p>
+<p class="note">Endret ved forskrifter 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</p>
 <h4 id="8-tildeling-av-lisens">§ 8. Tildeling av lisens</h4>
 <p>Ved tildeling av lisens, skal søkerens egnethet vurderes i forhold til art og omfang av den virksomheten det er søkt om lisens for. Det skal legges stor vekt på hvordan søkeren har holdt og vil holde seg faglig oppdatert.</p>
 <p>For dem det gjelder, kan lisens for å drive organisert pasientrettet virksomhet av et visst omfang, gis med full rekvireringsrett. Lisens for å drive pasientrettet virksomhet som ikke omfattes av første punktum, kan gis uten rekvireringsrett for A og B-preparater. Lisens for å drive pasientrettet virksomhet som kun omfatter familie, venner og andre nærstående, samt lisens som ikke skal benyttes til pasientrettet virksomhet, gis uten rekvireringsrett.</p>
-<p><em>Endret ved forskrifter 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 25 juni 2015 nr. 769 (i kraft 1 juli 2015), 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</em></p>
+<p class="note">Endret ved forskrifter 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 25 juni 2015 nr. 769 (i kraft 1 juli 2015), 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</p>
 <h4 id="9-endringer-i-lisensperioden">§ 9. Endringer i lisensperioden</h4>
 <p>Inntrer det i lisensperioden en svekkelse av lisensinnehavers psykiske eller fysiske helse som kan ha betydning for vedkommendes egnethet til å utøve virksomhet av den art og det omfang som det er utstedt lisens for, skal lisensinnehaver straks varsle Statens helsetilsyn om dette.</p>
 <p>Lisensinnehaver kan gi frivillig avkall på sin lisens, jf. helsepersonelloven § 61 .</p>
 <p>Dersom annet helsepersonell får kunnskap om slik endring i lisensinnehavers helsetilstand som nevnt i første ledd, eller til andre forhold av betydning for utøvelsen av virksomhet som det er utstedt lisens for, har vedkommende plikt til å underrette statsforvalteren eller Statens helsetilsyn om dette. Legen som har utstedt legeattesten, jf. § 7 andre ledd, har også slik underretningsplikt, og kan gi underretningen uten hinder av taushetsplikten, jf. helsepersonelloven § 23 nr. 6.</p>
-<p><em>Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 25 juni 2015 nr. 769 (i kraft 1 juli 2015), 17 sep 2021 nr. 2821 .</em></p>
+<p class="note">Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002), 30 aug 2004 nr. 1224 (i kraft 1 sep 2004), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 25 juni 2015 nr. 769 (i kraft 1 juli 2015), 17 sep 2021 nr. 2821 .</p>
 <h2 id="kapittel-3-overgangsbestemmelser-og-ikrafttredelse">Kapittel 3. Overgangsbestemmelser og ikrafttredelse</h2>
 <p>Endret ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="10-overgangsbestemmelser">§ 10. Overgangsbestemmelser</h4>
 <p>Studenter som har bestått alle eksamener i grunnstudiet i farmasi ved norsk universitet, men som ikke har lisens, har likevel rett til selvstendig å ekspedere legemidler i januar, februar og mars 2002. Det enkelte apotek må forvisse seg om at alle eksamener er bestått. Det samme gjelder med hensyn til studenter med utdanning fra utenlandske universitet.</p>
-<p><em>Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2001 nr. 1580 (i kraft 1 jan 2002).</p>
 <h4 id="11-ikrafttredelse">§ 11. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. januar 2001.</p>
-<p><em>Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002, tidligere § 10), 1 des 2012 nr. 1118 , 10 juli 2018 nr. 1172 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2001 nr. 1580 (i kraft 1 jan 2002, tidligere § 10), 1 des 2012 nr. 1118 , 10 juli 2018 nr. 1172 (i kraft 1 jan 2019).</p>
 <h2 id="merknader-til-forskriften">Merknader til forskriften</h2>
 <p>Merknadene endret ved forskrift 30 aug 2004 nr. 1224 (i kraft 1 sep 2004). Endret iht. e-post fra Helse- og omsorgsdepartementet av 6. des 2012. Endret ved forskrifter 25 juni 2015 nr. 769 (i kraft 1 juli 2015), 17 sep 2021 nr. 2821 , 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</p>
 <h3 id="kapittel-1-lisens-til-medisinske-studenter-studentlisens_1">Kapittel 1 Lisens til medisinske studenter (studentlisens)</h3>
@@ -203,6 +324,8 @@ d. tidsrommet det søkes om lisens for.</p>
 <h3 id="kapittel-3-overgangsbestemmelser-og-ikrafttredelse_1">Kapittel 3 Overgangsbestemmelser og ikrafttredelse</h3>
 <h4 id="til-11">Til § 11</h4>
 <p>Andre ledd innebærer at det etter 1. januar 2019 ikke lenger skal gis turnuslisens til den aktuelle studentgruppen. Bestemmelsen er ikke til hinder for at de lisensene som allerede er gitt før datoen for opphevelse fortsetter å gjelde frem til det opphørstidspunktet som fremgår av lisensdokumentet.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

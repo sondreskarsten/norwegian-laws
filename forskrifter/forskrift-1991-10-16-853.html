@@ -19,64 +19,181 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1991-10-16-853.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om beredskapsfartøy" href="../feeds/forskrift-1991-10-16-853.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om beredskapsfartøy</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1991-10-16-853</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1992-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-26-1372</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1991-10-16-853" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-ii-dokumentasjon-godkjenning-og-sertifisering">Kapittel II. Dokumentasjon, godkjenning og sertifisering</a></li>
+<li class="lvl4"><a href="#5-dokumentasjon">§ 5. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#6-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 6. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</a></li>
+<li class="lvl4"><a href="#7-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 7. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</a></li>
+<li class="lvl2"><a href="#kapittel-iii-spesielle-byggekrav">Kapittel III. Spesielle byggekrav</a></li>
+<li class="lvl4"><a href="#8-spesielle-stabilitetskrav-for-beredskapsfarty">§ 8. Spesielle stabilitetskrav for beredskapsfartøy</a></li>
+<li class="lvl4"><a href="#9-dokumentasjon-for-operasjon-i-omrader-med-en-dgnmiddeltemperatur-under-0-c">§ 9. Dokumentasjon for operasjon i områder med en døgnmiddeltemperatur under 0 °C</a></li>
+<li class="lvl4"><a href="#10-spesielle-lastelinjebestemmelser">§ 10. Spesielle lastelinjebestemmelser</a></li>
+<li class="lvl4"><a href="#11-spesielle-krav-til-fremdriftsmaskineriet">§ 11. Spesielle krav til fremdriftsmaskineriet</a></li>
+<li class="lvl2"><a href="#kapittel-iv-supplerende-beredskapsutstyr">Kapittel IV. Supplerende beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#12-gassdeteksjon">§ 12. Gassdeteksjon</a></li>
+<li class="lvl4"><a href="#13-beredskapsutstyr">§ 13. Beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#14-sleping-og-skyving">§ 14. Sleping og skyving</a></li>
+<li class="lvl2"><a href="#kapittel-v-srskilte-krav-til-beredskapsfarty-med-redningsoppgaver">Kapittel V. Særskilte krav til beredskapsfartøy med redningsoppgaver</a></li>
+<li class="lvl4"><a href="#15-manvreringsevne">§ 15. Manøvreringsevne</a></li>
+<li class="lvl4"><a href="#16-redningssone-og-fribord">§ 16. Redningssone og fribord</a></li>
+<li class="lvl4"><a href="#17-redningsutstyr">§ 17. Redningsutstyr</a></li>
+<li class="lvl4"><a href="#18-kommandoplass">§ 18. Kommandoplass</a></li>
+<li class="lvl4"><a href="#19-innredning-inventar-og-medisinsk-utstyr-for-reddede-mv">§ 19. Innredning, inventar og medisinsk utstyr for reddede mv.</a></li>
+<li class="lvl4"><a href="#20-belysning-av-redningssonen-og-omradet-rundt-beredskapsfartyet">§ 20. Belysning av redningssonen og området rundt beredskapsfartøyet</a></li>
+<li class="lvl4"><a href="#21-kommunikasjonsutstyr">§ 21. Kommunikasjonsutstyr</a></li>
+<li class="lvl4"><a href="#22-helikoptervinsjesone">§ 22. Helikoptervinsjesone</a></li>
+<li class="lvl2"><a href="#kapittel-vi-vilkar-for-godkjenning-av-utstyr-og-for-beredskapsutstyrets-effektivitet">Kapittel VI. Vilkår for godkjenning av utstyr og for beredskapsutstyrets effektivitet</a></li>
+<li class="lvl4"><a href="#23-vilkar-for-godkjenning-av-beredskapsutstyr">§ 23. Vilkår for godkjenning av beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#24-beredskapsutstyrets-effektivitet">§ 24. Beredskapsutstyrets effektivitet</a></li>
+<li class="lvl2"><a href="#kapittel-vii-bemanning-operasjon-og-beredskapsplaner-mv">Kapittel VII. Bemanning, operasjon- og beredskapsplaner mv.</a></li>
+<li class="lvl4"><a href="#25-bemanning">§ 25. Bemanning</a></li>
+<li class="lvl4"><a href="#26-opplring">§ 26. Opplæring</a></li>
+<li class="lvl4"><a href="#27-planer-og-instrukser">§ 27. Planer og instrukser</a></li>
+<li class="lvl2"><a href="#kapittel-viii-avsluttende-bestemmelser">Kapittel VIII. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-26-1372.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1991-10-16-853.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om beredskapsfartøy</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1991-10-16-853.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1991-10-16-853 <code>forskrift/1991-10-16-853</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om beredskapsfartøy</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1992</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-26-1372 <code>forskrift/2025-06-26-1372</code> fra 26.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1991-10-16-853" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-ii-dokumentasjon-godkjenning-og-sertifisering">Kapittel II. Dokumentasjon, godkjenning og sertifisering</a></li>
+<li class="lvl4"><a href="#5-dokumentasjon">§ 5. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#6-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 6. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</a></li>
+<li class="lvl4"><a href="#7-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 7. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</a></li>
+<li class="lvl2"><a href="#kapittel-iii-spesielle-byggekrav">Kapittel III. Spesielle byggekrav</a></li>
+<li class="lvl4"><a href="#8-spesielle-stabilitetskrav-for-beredskapsfarty">§ 8. Spesielle stabilitetskrav for beredskapsfartøy</a></li>
+<li class="lvl4"><a href="#9-dokumentasjon-for-operasjon-i-omrader-med-en-dgnmiddeltemperatur-under-0-c">§ 9. Dokumentasjon for operasjon i områder med en døgnmiddeltemperatur under 0 °C</a></li>
+<li class="lvl4"><a href="#10-spesielle-lastelinjebestemmelser">§ 10. Spesielle lastelinjebestemmelser</a></li>
+<li class="lvl4"><a href="#11-spesielle-krav-til-fremdriftsmaskineriet">§ 11. Spesielle krav til fremdriftsmaskineriet</a></li>
+<li class="lvl2"><a href="#kapittel-iv-supplerende-beredskapsutstyr">Kapittel IV. Supplerende beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#12-gassdeteksjon">§ 12. Gassdeteksjon</a></li>
+<li class="lvl4"><a href="#13-beredskapsutstyr">§ 13. Beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#14-sleping-og-skyving">§ 14. Sleping og skyving</a></li>
+<li class="lvl2"><a href="#kapittel-v-srskilte-krav-til-beredskapsfarty-med-redningsoppgaver">Kapittel V. Særskilte krav til beredskapsfartøy med redningsoppgaver</a></li>
+<li class="lvl4"><a href="#15-manvreringsevne">§ 15. Manøvreringsevne</a></li>
+<li class="lvl4"><a href="#16-redningssone-og-fribord">§ 16. Redningssone og fribord</a></li>
+<li class="lvl4"><a href="#17-redningsutstyr">§ 17. Redningsutstyr</a></li>
+<li class="lvl4"><a href="#18-kommandoplass">§ 18. Kommandoplass</a></li>
+<li class="lvl4"><a href="#19-innredning-inventar-og-medisinsk-utstyr-for-reddede-mv">§ 19. Innredning, inventar og medisinsk utstyr for reddede mv.</a></li>
+<li class="lvl4"><a href="#20-belysning-av-redningssonen-og-omradet-rundt-beredskapsfartyet">§ 20. Belysning av redningssonen og området rundt beredskapsfartøyet</a></li>
+<li class="lvl4"><a href="#21-kommunikasjonsutstyr">§ 21. Kommunikasjonsutstyr</a></li>
+<li class="lvl4"><a href="#22-helikoptervinsjesone">§ 22. Helikoptervinsjesone</a></li>
+<li class="lvl2"><a href="#kapittel-vi-vilkar-for-godkjenning-av-utstyr-og-for-beredskapsutstyrets-effektivitet">Kapittel VI. Vilkår for godkjenning av utstyr og for beredskapsutstyrets effektivitet</a></li>
+<li class="lvl4"><a href="#23-vilkar-for-godkjenning-av-beredskapsutstyr">§ 23. Vilkår for godkjenning av beredskapsutstyr</a></li>
+<li class="lvl4"><a href="#24-beredskapsutstyrets-effektivitet">§ 24. Beredskapsutstyrets effektivitet</a></li>
+<li class="lvl2"><a href="#kapittel-vii-bemanning-operasjon-og-beredskapsplaner-mv">Kapittel VII. Bemanning, operasjon- og beredskapsplaner mv.</a></li>
+<li class="lvl4"><a href="#25-bemanning">§ 25. Bemanning</a></li>
+<li class="lvl4"><a href="#26-opplring">§ 26. Opplæring</a></li>
+<li class="lvl4"><a href="#27-planer-og-instrukser">§ 27. Planer og instrukser</a></li>
+<li class="lvl2"><a href="#kapittel-viii-avsluttende-bestemmelser">Kapittel VIII. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1991-10-16-853.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1991-10-16-853.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1991-10-16-853.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1991-10-16-853.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1991-10-16-853.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1991-10-16-853.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1991-10-16-853.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1991-10-16-853.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1991-10-16-853.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-beredskapsfarty">Forskrift om beredskapsfartøy</h1>
 <h2 id="kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>(1) Denne forskrift gjelder for nye og eksisterende beredskapsfartøy som er eller skal registreres i norsk register.</p>
@@ -101,7 +218,7 @@ j. Typegodkjent:
   1. For utstyr som omfattes av forskrift 30. august 2016 nr. 1042 om skipsutstyr: Typegodkjent av teknisk kontrollorgan og merket i henhold til nevnte forskrift.
   2. For annet utstyr: Typegodkjent av Sjøfartsdirektoratet.
 k. 1- og 10-års stormkondisjon: Den minst gunstige kombinasjon av strøm-, bølge- og vindkrefter som kan forventes i løpet av henholdsvis 1 år og 10 år.</p>
-<p><em>Endret ved forskrifter 29 des 1998 nr. 1998 nr. 1466 (i kraft 1 jan 1999), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 29 des 1998 nr. 1998 nr. 1466 (i kraft 1 jan 1999), 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h4 id="3-plikter">§ 3. Plikter</h4>
 <p>(1) Rederiet, arbeidsgiveren, skipsføreren og andre som har sitt arbeid om bord skal utføre sine plikter i henhold til skipssikkerhetsloven og med de utfyllende bestemmelser som følger av forskriften her.</p>
 <p>(2) Rederiet skal legge forholdene til rette for å påse at bestemmelsene i denne forskriften følges. Rederiet skal også påse at enhver som måtte utføre arbeid for denne, enten personlig, ved ansatte eller ved selvstendige entreprenører, følger bestemmelsene i denne forskriften. Dette gjelder både under prosjektering, bygging og drift av beredskapsfartøy.</p>
@@ -110,7 +227,7 @@ k. 1- og 10-års stormkondisjon: Den minst gunstige kombinasjon av strøm-, bøl
 <p>(5) Skipsføreren skal følge forskriftens krav og rederiets operasjonsmanual. Skipsføreren plikter også å underrette rederiet ved feil eller mangler i operasjonsmanualene i relasjon til forskriftens krav eller andre forhold relatert til sikker drift. Inntil forholdet er avklart, plikter skipsfører å iverksette nødvendige korrigerende tiltak og å informere rederiet om disse</p>
 <p>(6) Skipsføreren skal sørge for at alle avvik under drift blir vurdert og avviksbehandlet etter dokumentert system. Avvik av betydning for sikkerheten skal rapporteres til Sjøfartsdirektoratet gjennom rederiet.</p>
 <p>(7) Skipsføreren skal gjennom rederiet rapportere til Sjøfartsdirektoratet om personskader, nestenulykker og andre hendelser av betydning for sikkerheten.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 19 aug 2013 nr. 1036 (i kraft 20 aug 2013), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 19 aug 2013 nr. 1036 (i kraft 20 aug 2013), 26 juni 2025 nr. 1372 .</p>
 <h4 id="4-fravik">§ 4. Fravik</h4>
 <p>I enkelttilfeller kan Sjøfartsdirektoratet etter skriftlig søknad fravike forskriftens krav. Spesielle grunner må gjøre fraviket nødvendig, og fraviket må være sikkerhetsmessig forsvarlig. Fravik må ikke være i strid med internasjonal overenskomst Norge har sluttet seg til.</p>
 <h2 id="kapittel-ii-dokumentasjon-godkjenning-og-sertifisering">Kapittel II. Dokumentasjon, godkjenning og sertifisering</h2>
@@ -131,7 +248,7 @@ l. Helikoptervinsjesonen (jf. § 22 ).
 m. Bemanning frigjort for beredskapsoppgaver samt planer og instrukser for gjennomføringen av de beredskapstjenester beredskapsfartøyet kan tilby, herunder opplæring og øvelser i forbindelse med disse tjenester (jf. § 25 , § 26 og § 27 ). (Kun ett eksemplar.)</p>
 <p>(2) For eksisterende beredskapsfartøy kan fartøyets og ombordværende beredskapsutstyrs kapasiteter og operasjonelle begrensninger være basert på rederiets og skipsførerens egenerklæring og relevant dokumentasjon i henhold til denne forskriftens krav i kapittel I-VIII.</p>
 <p>(3) Rederiet skal ved forandringer, ombygginger og installasjon av nytt utstyr sende Sjøfartsdirektoratet opprettet dokumentasjon i god tid før arbeidet påbegynnes.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="6-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 6. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</h4>
 <h4 id="7-opphevet-1-jan-2015-vedforskrift-22-des-2014-nr-1893">§ 7. (Opphevet 1 jan 2015 vedforskrift 22 des 2014 nr. 1893.)</h4>
 <h2 id="kapittel-iii-spesielle-byggekrav">Kapittel III. Spesielle byggekrav</h2>
@@ -151,7 +268,7 @@ e. Styrkemessig konsekvens av eventuell oppbygging av islast på komponenter og 
 f. Arrangement og utstyr for å holde områder på fartøyet isfritt (f.eks. avisingssystem for redningssone, redningsutstyr, helikoptervinsjesonen, arbeidsområder osv.).
 g. Materialanvendelse i utvendig utstyr og systemer med henblikk på å tåle temperaturer under 0 °C.
 h. Operasjonsinstrukser for tiltak som er nødvendige for forsvarlig drift i områder med en døgnmiddeltemperatur under 0 °C. Instruksene skal sette klare kriterier for når operative tiltak må iverksettes, f.eks. ved lav temperatur over lengre tid, lav temperatur i forbindelse med stor luftfuktighet (fare for isdannelse) mv.</p>
-<p><em>Endret ved forskrift 1 juni 2004 nr. 812 .</em></p>
+<p class="note">Endret ved forskrift 1 juni 2004 nr. 812 .</p>
 <h4 id="10-spesielle-lastelinjebestemmelser">§ 10. Spesielle lastelinjebestemmelser</h4>
 <p>(1) Fartøyet skal ha internasjonalt lastelinjesertifikat som for lasteskip.</p>
 <p>(2) For sider og frontskott av overbygninger og dekkshus som er plassert forenfor midtskips, skal lastelinjekonvensjonens krav om værtette dører, terskelhøyde for dører samt lysventiler med blindlokk m.m. gjøres gjeldende ett dekk høyere enn angitt i konvensjonen, – regel 13.</p>
@@ -198,7 +315,7 @@ h. Utstyr som livbøyer med bøyelys og line, line med karabinkroker, haker med 
 i. Eventuelle flyttbare/faste leidere langs fartøysiden for overflatesvømmere og dykkere.</p>
 <p>(5) En liste over alt utstyr som på denne måte er vurdert og godkjent gjennom rederiets egenkontroll, inkludert fastsatte operasjonelle begrensninger og kapasiteter der det er relevant, skal sendes Sjøfartsdirektoratet.</p>
 <p>(6) Alt beredskapsutstyr som fartøyet vil ha ombord i henhold til denne paragraf vil bli listet opp i vedlegg til Sertifikat for Beredskapsfartøy, jf. § 7 .</p>
-<p><em>Endret ved forskrifter 1 juni 2004 nr. 812 , 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrifter 1 juni 2004 nr. 812 , 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="14-sleping-og-skyving">§ 14. Sleping og skyving</h4>
 <p>(1) Beredskapsfartøy som ønsker å tilby nødsleping av drivende skip, lektere og andre innretninger samt gjenstander i sjøen som en del av sin beredskapstjeneste skal tilfredsstille følgende krav:</p>
 <p>a. For fartøy som sleper og blir utsatt for en tverrskipskraft som gir fartøyet en hastighet tverrskips gjennom vannet på 5 knop, skal første skjæringspunkt mellom kurvene for krengende arm og rettende arm (GZ-kurven) opptre ved en vinkel mindre enn fyllingsvinkelen.
@@ -215,7 +332,7 @@ k. Beredskapsfartøy skal også ha egnet utstyr for å kunne etablere slepeforbi
 <p>(2) Til beredskapsfartøy som skal utføre nødskyving av drivende skip, lektere og andre innretninger samt gjenstander i sjøen, stilles det spesielle krav til fartøyets kollisjonsstyrke, vanntetthet og stabilitet etter skade. Disse forhold skal dokumenteres og godkjennes gjennom:</p>
 <p>a. Kollisjonsberegninger som angir antatt maksimal skade av fartøyet i forbindelse med etablering av skyvekontakt med den drivende innretning/gjenstand under aktuelle maksimale værforhold, som spesifisert av rederiet.
 b. Skadestabilitetsberegninger ved antatt maksimal skade etter kollisjon. Beregningene skal tilfredsstille kravene angitt i § 8 .</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h2 id="kapittel-v-srskilte-krav-til-beredskapsfarty-med-redningsoppgaver">Kapittel V. Særskilte krav til beredskapsfartøy med redningsoppgaver</h2>
 <h4 id="15-manvreringsevne">§ 15. Manøvreringsevne</h4>
 <p>(1) Beredskapsfartøyet skal minst kunne gjøre 12 knops fart i stille vær med full utrustning, fulle bunkers og vanntanker.</p>
@@ -233,7 +350,7 @@ b. Skadestabilitetsberegninger ved antatt maksimal skade etter kollisjon. Beregn
 <p>(7) Kjølevannsutløp o.l. skal, om de ikke kan føres ut aktenfor redningssonen, føres ut i en dybde på minst 2 meter under vannlinjen.</p>
 <p>(8) Dekket ved redningssonene skal gi tilfredsstillende plass for redningsarbeidet på hver side av fartøyet, og ha beskyttet gangvei fri for hindringer med antisklibelegg og rekkverk fram til utvendig avspylingsdusj og resepsjon.</p>
 <p>(9) En av redningssonene kan utstyres som angitt i § 17 , fjerde ledd.</p>
-<p><em>Endret ved forskrift 2 mars 1999 nr. 411 (i kraft 1 sept 1999).</em></p>
+<p class="note">Endret ved forskrift 2 mars 1999 nr. 411 (i kraft 1 sept 1999).</p>
 <h4 id="17-redningsutstyr">§ 17. Redningsutstyr</h4>
 <p>(1) Beredskapsfartøyet skal være utstyrt med en hurtiggående typegodkjent MOB-båt i tillegg til de redningsmidler som kreves for lasteskip. MOB-båten skal tilfredsstille gjeldende forskrift om evakuerings- og redningsmidler for flyttbare innretninger.</p>
 <p>(2) Det skal være et arrangement som sikrer rask og sikker utsetting og ombordtaking av MOB-båt også under dårlige værforhold. MOB-båter skal ha et arrangement som skånsomt bringer personer fra sjøen og ombord på båten.</p>
@@ -244,7 +361,7 @@ c. Utsettingsarrangementet skal plasseres tilnærmet midtskips.
 d. MOB-båten skal kunne styres sikkert med hensyn på pendling og slag mot skipssiden under låring og heising i sjøgang.
 e. MOB-båten skal kunne settes ut ved «dødt skip» som forlangt for livbåter på lasteskip, dersom den skal inngå som en del av skipets redningsutstyr.</p>
 <p>(4) Beredskapsfartøyet skal for øvrig ha et arrangement som skånsomt bringer personer direkte fra sjøen og ombord på fartøyet. Dette arrangementet skal kunne opereres fra fartøyet og være egnet til bruk under vanskelige værforhold. Redningssonen skal ha et arrangement som gjør det mulig for personer i sjøen å klatre ombord ved egen hjelp. Arrangementet skal også kunne redde bevisstløse personer i sjøen.</p>
-<p><em>Endret ved forskrifter 28 jan 1997 nr. 119 (i kraft 1 juli 1997), 29 des 1998 nr. 1466 (i kraft 1 jan 1999), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 28 jan 1997 nr. 119 (i kraft 1 juli 1997), 29 des 1998 nr. 1466 (i kraft 1 jan 1999), 26 juni 2025 nr. 1372 .</p>
 <h4 id="18-kommandoplass">§ 18. Kommandoplass</h4>
 <p>Kommandoplassen skal være slik plassert at føreren av beredskapsfartøyet alltid kan ha oversikt over redningssonene og helikoptervinsjesonen samtidig som føreren kan manøvrere fartøyet og gjennomføre nødvendig kommunikasjon.</p>
 <h4 id="19-innredning-inventar-og-medisinsk-utstyr-for-reddede-mv">§ 19. Innredning, inventar og medisinsk utstyr for reddede mv.</h4>
@@ -270,7 +387,7 @@ h. telefon som kan betjenes samtidig som pasienten behandles (jf. § 21 bokstav 
 <p>(12) Ulltepper eller tilsvarende for det antall reddede som fartøyet er beregnet å kunne ta imot, skal oppbevares om bord.</p>
 <p>(13) Nødproviant og engangskrus tilstrekkelig for reddede i minst 2 dager, skal oppbevares ombord.</p>
 <p>(14) Vannforsyningen skal være minst 100 liter pr. person beredskapsfartøyet er beregnet for, utover fartøyets eget behov.</p>
-<p><em>Endret ved forskrift 22 des 1998 nr. 1345 (i kraft 1 jan 1999).</em></p>
+<p class="note">Endret ved forskrift 22 des 1998 nr. 1345 (i kraft 1 jan 1999).</p>
 <h4 id="20-belysning-av-redningssonen-og-omradet-rundt-beredskapsfartyet">§ 20. Belysning av redningssonen og området rundt beredskapsfartøyet</h4>
 <p>(1) Lysstyrken i redningssonen og i området rundt fartøyet skal være følgende:</p>
 <p>a. I redningssonen: minst 150 lux.
@@ -310,12 +427,12 @@ f. Telefon med hodesett for både VHF og MB som kan tilknyttes radioinstallasjon
 <p>(2) Sjøfartsdirektoratet vil, basert på reders søknad, fastsette den minimumsbemanning som kreves for skipets drift under inntrådte fare- og ulykkessituasjoner, og dermed hvor stor del av fartøyets minimum sikkerhetsbemanning som i en slik situasjon kan frigjøres for betjening av beredskapsutstyret.</p>
 <p>(3) Nødvendig beredskapsbemanning utover dette for betjening av beredskapsutstyr mv. bestemmes av reder i forhold til de samtidige tjenester som skal tilbys operatør.</p>
 <p>(4) Rederiet skal redegjøre for de språk mannskapet behersker i beredskapssammenheng. Dette vil bli inntatt i vedlegg til sertifikat for beredskapsfartøy. Minimum skal norsk og engelsk språk beherskes muntlig av den bemanning som skal benyttes til beredskapstjenesten.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="26-opplring">§ 26. Opplæring</h4>
 <p>(1) Rederiet skal spesifisere de beredskapsoppgaver som hvert enkelt besetningsmedlem om bord skal være trenet til å utføre.</p>
 <p>(2) Rederiet skal videre spesifisere den konkrete opplæring og øvelser på land og om bord som er nødvendig for at hvert enkelt besetningsmedlem kan utføre sine beredskapsoppgaver.</p>
 <p>(3) Før rederiet påtar seg beredskapstjenester skal det kunne dokumenteres at mannskapet har fått den opplæring og øvelse som er krevet i andre ledd.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="27-planer-og-instrukser">§ 27. Planer og instrukser</h4>
 <p>(1) Rederiet skal i operasjonsmanualen sette opp en overordnet plan for driften om bord og for de forskjellige beredskapstjenester fartøyet med utstyr og mannskap kan tilby. Planen skal vise hvordan mannskap, utstyr og fartøy er tenkt benyttet i kombinasjon med de forskjellige tjenester som tilbys eventuelt samtidig. Begrensninger som gjelder for beredskapstjenesten med tilhørende beredskapsutstyr skal fremgå.</p>
 <p>(2) Videre skal reder utarbeide:</p>
@@ -327,12 +444,14 @@ e. Øvelsesopplegg sammen med den faste installasjon.
 f. System for registrering av beredskapsutstyrets effektivitet og erfaringer ved bruk av dette.
 g. System for dokumentasjon av opplæring og øvelsesopplegg.
 h. Vedlikeholdsprogram for beredskapsutstyret.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h2 id="kapittel-viii-avsluttende-bestemmelser">Kapittel VIII. Avsluttende bestemmelser</h2>
 <h4 id="28-ikrafttredelse">§ 28. Ikrafttredelse</h4>
 <p>(1) Denne forskriften trer i kraft for nye beredskapsfartøy den 1. april 1992. Fra samme dato oppheves kapittel VI i forskrift av 15. juni 1987 nr. 504 om bygging av passasjer-, lasteskip og lektere.</p>
 <p>(2) For eksisterende beredskapsfartøy trer forskriften i kraft ved første periodiske besiktelse, jf. kapittel III i forskrift av 15. juni 1987 nr. 506 om besiktelse for utstedelse av sertifikater til lasteskip m.m.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 29).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 29).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

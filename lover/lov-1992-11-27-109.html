@@ -19,68 +19,407 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1992-11-27-109.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i EØS-loven – EØSL" href="../feeds/lov-1992-11-27-109.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-utenriksdepartementet.html">Utenriksdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-utenriksdepartementet.html">Utenriksdepartementet</a> &rsaquo;
 <span>EØS-loven – EØSL</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1992-11-27-109</code></dd>
-<dt>Departement</dt><dd>Utenriksdepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett</dd>
-<dt>Ikrafttredelse</dt><dd>1994-01-01 samtidig med EØS-avtalen</dd>
-<dt>Sist endret</dt><dd>lov/2014-04-11-11</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1992-11-27-109" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5">§ 5</a></li>
+<li class="lvl3"><a href="#6">§ 6</a></li>
+<li class="lvl3"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#avtale-om-det-europeiske-konomiske-samarbeidsomrade">Avtale om Det europeiske økonomiske samarbeidsområde.</a></li>
+<li class="lvl3"><a href="#del-i-formal-og-prinsipper">Del I. Formål og prinsipper.</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl3"><a href="#del-ii-det-frie-varebytte">Del II. Det frie varebytte.</a></li>
+<li class="lvl4"><a href="#kapittel-1-grunnleggende-prinsipper">Kapittel 1. Grunnleggende prinsipper.</a></li>
+<li class="lvl4"><a href="#kapittel-2-landbruks-og-fiskerivarer">Kapittel 2. Landbruks- og fiskerivarer.</a></li>
+<li class="lvl4"><a href="#kapittel-3-samarbeid-i-tollsaker-og-om-handelslettelser">Kapittel 3. Samarbeid i tollsaker og om handelslettelser.</a></li>
+<li class="lvl4"><a href="#kapittel-4-andre-regler-om-det-frie-varebytte">Kapittel 4. Andre regler om det frie varebytte.</a></li>
+<li class="lvl4"><a href="#kapittel-5-kull-og-stalprodukter">Kapittel 5. Kull- og stålprodukter.</a></li>
+<li class="lvl3"><a href="#del-iii-fri-bevegelighet-for-personer-tjenester-og-kapital">Del III. Fri bevegelighet for personer, tjenester og kapital.</a></li>
+<li class="lvl4"><a href="#kapittel-1-arbeidstagere-og-selvstendig-nringsdrivende">Kapittel 1. Arbeidstagere og selvstendig næringsdrivende.</a></li>
+<li class="lvl4"><a href="#kapittel-2-etableringsrett1">Kapittel 2. Etableringsrett.1</a></li>
+<li class="lvl4"><a href="#kapittel-3-tjenester">Kapittel 3. Tjenester.</a></li>
+<li class="lvl4"><a href="#kapittel-4-kapital">Kapittel 4. Kapital.</a></li>
+<li class="lvl4"><a href="#kapittel-5-samarbeid-om-konomisk-politikk-og-pengepolitikk">Kapittel 5. Samarbeid om økonomisk politikk og pengepolitikk.</a></li>
+<li class="lvl4"><a href="#kapittel-6-transportvirksomhet">Kapittel 6. Transportvirksomhet.</a></li>
+<li class="lvl3"><a href="#del-iv-konkurranseregler-og-andre-felles-regler">Del IV. Konkurranseregler og andre felles regler.</a></li>
+<li class="lvl4"><a href="#kapittel-1-bestemmelser-for-foretak">Kapittel 1. Bestemmelser for foretak.</a></li>
+<li class="lvl4"><a href="#kapittel-2-statssttte">Kapittel 2. Statsstøtte.</a></li>
+<li class="lvl4"><a href="#kapittel-3-andre-felles-regler">Kapittel 3. Andre felles regler.</a></li>
+<li class="lvl3"><a href="#del-v-bestemmelser-som-gjelder-alle-de-fire-friheter">Del V. Bestemmelser som gjelder alle de fire friheter.</a></li>
+<li class="lvl4"><a href="#kapittel-1-sosialpolitikk">Kapittel 1. Sosialpolitikk.</a></li>
+<li class="lvl4"><a href="#kapittel-2-forbrukervern">Kapittel 2. Forbrukervern.</a></li>
+<li class="lvl4"><a href="#kapittel-3-milj">Kapittel 3. Miljø.</a></li>
+<li class="lvl4"><a href="#kapittel-4-statistikk">Kapittel 4. Statistikk.</a></li>
+<li class="lvl4"><a href="#kapittel-5-selskapsrett">Kapittel 5. Selskapsrett.</a></li>
+<li class="lvl3"><a href="#del-vi-samarbeid-utenfor-de-fire-friheter">Del VI. Samarbeid utenfor de fire friheter.</a></li>
+<li class="lvl5"><a href="#art-78">Art 78</a></li>
+<li class="lvl5"><a href="#art-79">Art 79</a></li>
+<li class="lvl5"><a href="#art-80">Art 80</a></li>
+<li class="lvl5"><a href="#art-81">Art 81</a></li>
+<li class="lvl5"><a href="#art-82">Art 82</a></li>
+<li class="lvl5"><a href="#art-83">Art 83</a></li>
+<li class="lvl5"><a href="#art-84">Art 84</a></li>
+<li class="lvl5"><a href="#art-85">Art 85</a></li>
+<li class="lvl5"><a href="#art-86">Art 86</a></li>
+<li class="lvl5"><a href="#art-87">Art 87</a></li>
+<li class="lvl5"><a href="#art-88">Art 88</a></li>
+<li class="lvl3"><a href="#del-vii-bestemmelser-om-organene">Del VII. Bestemmelser om organene.</a></li>
+<li class="lvl4"><a href="#kapittel-1-organiseringen-av-samarbeidet">Kapittel 1. Organiseringen av samarbeidet.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-es-radet">Avsnitt 1. EØS-rådet.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-es-komiteen">Avsnitt 2. EØS-komiteen.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-parlamentarisk-samarbeid">Avsnitt 3. Parlamentarisk samarbeid.</a></li>
+<li class="lvl5"><a href="#avsnitt-4-samarbeid-mellom-partene-i-arbeidslivet">Avsnitt 4. Samarbeid mellom partene i arbeidslivet.</a></li>
+<li class="lvl4"><a href="#kapittel-2-beslutningsprosessen">Kapittel 2. Beslutningsprosessen.</a></li>
+<li class="lvl4"><a href="#kapittel-3-ensartethet-overvakingsordning-og-tvistelsning">Kapittel 3. Ensartethet, overvåkingsordning og tvisteløsning.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-ensartethet">Avsnitt 1. Ensartethet.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-overvakingsordning">Avsnitt 2. Overvåkingsordning.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-tvistelsning">Avsnitt 3. Tvisteløsning.</a></li>
+<li class="lvl4"><a href="#kapittel-4-beskyttelsestiltak">Kapittel 4. Beskyttelsestiltak.</a></li>
+<li class="lvl3"><a href="#del-viii-lane-og-tilskuddsordningen">Del VIII. Låne- og tilskuddsordningen.</a></li>
+<li class="lvl5"><a href="#art-115">Art 115</a></li>
+<li class="lvl5"><a href="#art-116">Art 116</a></li>
+<li class="lvl5"><a href="#art-117">Art 117</a></li>
+<li class="lvl3"><a href="#del-ix-alminnelige-bestemmelser-og-sluttbestemmelser">Del IX. Alminnelige bestemmelser og sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-118">Art 118</a></li>
+<li class="lvl5"><a href="#art-119">Art 119</a></li>
+<li class="lvl5"><a href="#art-120">Art 120</a></li>
+<li class="lvl5"><a href="#art-121">Art 121</a></li>
+<li class="lvl5"><a href="#art-122">Art 122</a></li>
+<li class="lvl5"><a href="#art-123">Art 123</a></li>
+<li class="lvl5"><a href="#art-124">Art 124</a></li>
+<li class="lvl5"><a href="#art-125">Art 125</a></li>
+<li class="lvl5"><a href="#art-126">Art 126</a></li>
+<li class="lvl5"><a href="#art-127">Art 127</a></li>
+<li class="lvl5"><a href="#art-128">Art 128</a></li>
+<li class="lvl5"><a href="#art-129">Art 129</a></li>
+<li class="lvl3"><a href="#protokoll-25-om-konkurranse-innen-kull-og-stalproduksjon">Protokoll 25 om konkurranse innen kull- og stålproduksjon.</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl2"><a href="#avtale-mellom-efta-statene-om-opprettelse-av-et-overvakingsorgan-og-en-domstol">Avtale mellom EFTA-statene om opprettelse av et Overvåkingsorgan og en Domstol.</a></li>
+<li class="lvl3"><a href="#del-i">Del I.</a></li>
+<li class="lvl5"><a href="#art-1_2">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_2">Art 3</a></li>
+<li class="lvl3"><a href="#del-ii-eftas-overvakingsorgan">Del II. EFTAs overvåkingsorgan.</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl3"><a href="#del-iii-efta-statenes-oppfyllelse-av-sine-forpliktelser-etter-es-avtalen-og-denne-avtale">Del III. EFTA-statenes oppfyllelse av sine forpliktelser etter EØS-avtalen og denne avtale.</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+<li class="lvl5"><a href="#art-25a">Art 25a</a></li>
+<li class="lvl5"><a href="#art-26_1">Art 26</a></li>
+<li class="lvl3"><a href="#del-iv-efta-domstolen">Del IV. EFTA-domstolen.</a></li>
+<li class="lvl5"><a href="#art-27_1">Art 27</a></li>
+<li class="lvl5"><a href="#art-28_1">Art 28</a></li>
+<li class="lvl5"><a href="#art-29_1">Art 29</a></li>
+<li class="lvl5"><a href="#art-30_1">Art 30</a></li>
+<li class="lvl5"><a href="#art-31_1">Art 31</a></li>
+<li class="lvl5"><a href="#art-32_1">Art 32</a></li>
+<li class="lvl5"><a href="#art-33_1">Art 33</a></li>
+<li class="lvl5"><a href="#art-34_1">Art 34</a></li>
+<li class="lvl5"><a href="#art-35_1">Art 35</a></li>
+<li class="lvl5"><a href="#art-36_1">Art 36</a></li>
+<li class="lvl5"><a href="#art-37_1">Art 37</a></li>
+<li class="lvl5"><a href="#art-38_1">Art 38</a></li>
+<li class="lvl5"><a href="#art-39_1">Art 39</a></li>
+<li class="lvl5"><a href="#art-40_1">Art 40</a></li>
+<li class="lvl5"><a href="#art-41_1">Art 41</a></li>
+<li class="lvl3"><a href="#del-v-alminnelige-bestemmelser-og-sluttbestemmelser">Del V. Alminnelige bestemmelser og sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-42_1">Art 42</a></li>
+<li class="lvl5"><a href="#art-43_1">Art 43</a></li>
+<li class="lvl5"><a href="#art-44_1">Art 44</a></li>
+<li class="lvl5"><a href="#art-44a">Art 44a</a></li>
+<li class="lvl5"><a href="#art-45_1">Art 45</a></li>
+<li class="lvl5"><a href="#art-46_1">Art 46</a></li>
+<li class="lvl5"><a href="#art-47_1">Art 47</a></li>
+<li class="lvl5"><a href="#art-48_1">Art 48</a></li>
+<li class="lvl5"><a href="#art-49_1">Art 49</a></li>
+<li class="lvl5"><a href="#art-50_1">Art 50</a></li>
+<li class="lvl5"><a href="#art-51_1">Art 51</a></li>
+<li class="lvl5"><a href="#art-52_1">Art 52</a></li>
+<li class="lvl5"><a href="#art-53_1">Art 53</a></li>
+<li class="lvl3"><a href="#protokoll-3-om-oppgaver-og-myndighet-for-eftas-overvakingsorgan-i-forbindelse-med-statssttte1">Protokoll 3 om oppgaver og myndighet for EFTAs overvåkingsorgan i forbindelse med statsstøtte.1</a></li>
+<li class="lvl4"><a href="#del-i-alminnelige-regler">Del I. Alminnelige regler</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2014-04-11-11.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-11-27-109.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om gjennomføring i norsk rett av hoveddelen i avtale om Det europeiske økonomiske samarbeidsområde (EØS) m.v. (EØS-loven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1992-11-27-109.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1992-11-27-109 <code>lov/1992-11-27-109</code></td></tr>
+<tr><th>Korttittel</th><td>EØS-loven – EØSL</td></tr>
+<tr><th>Departement</th><td>Utenriksdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1994 samtidig med EØS-avtalen</td></tr>
+<tr><th>Sist endret</th><td>LOV-2014-04-11-11 <code>lov/2014-04-11-11</code> fra 12.04.2014</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1992-11-27-109" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5">§ 5</a></li>
+<li class="lvl3"><a href="#6">§ 6</a></li>
+<li class="lvl3"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#avtale-om-det-europeiske-konomiske-samarbeidsomrade">Avtale om Det europeiske økonomiske samarbeidsområde.</a></li>
+<li class="lvl3"><a href="#del-i-formal-og-prinsipper">Del I. Formål og prinsipper.</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl3"><a href="#del-ii-det-frie-varebytte">Del II. Det frie varebytte.</a></li>
+<li class="lvl4"><a href="#kapittel-1-grunnleggende-prinsipper">Kapittel 1. Grunnleggende prinsipper.</a></li>
+<li class="lvl4"><a href="#kapittel-2-landbruks-og-fiskerivarer">Kapittel 2. Landbruks- og fiskerivarer.</a></li>
+<li class="lvl4"><a href="#kapittel-3-samarbeid-i-tollsaker-og-om-handelslettelser">Kapittel 3. Samarbeid i tollsaker og om handelslettelser.</a></li>
+<li class="lvl4"><a href="#kapittel-4-andre-regler-om-det-frie-varebytte">Kapittel 4. Andre regler om det frie varebytte.</a></li>
+<li class="lvl4"><a href="#kapittel-5-kull-og-stalprodukter">Kapittel 5. Kull- og stålprodukter.</a></li>
+<li class="lvl3"><a href="#del-iii-fri-bevegelighet-for-personer-tjenester-og-kapital">Del III. Fri bevegelighet for personer, tjenester og kapital.</a></li>
+<li class="lvl4"><a href="#kapittel-1-arbeidstagere-og-selvstendig-nringsdrivende">Kapittel 1. Arbeidstagere og selvstendig næringsdrivende.</a></li>
+<li class="lvl4"><a href="#kapittel-2-etableringsrett1">Kapittel 2. Etableringsrett.1</a></li>
+<li class="lvl4"><a href="#kapittel-3-tjenester">Kapittel 3. Tjenester.</a></li>
+<li class="lvl4"><a href="#kapittel-4-kapital">Kapittel 4. Kapital.</a></li>
+<li class="lvl4"><a href="#kapittel-5-samarbeid-om-konomisk-politikk-og-pengepolitikk">Kapittel 5. Samarbeid om økonomisk politikk og pengepolitikk.</a></li>
+<li class="lvl4"><a href="#kapittel-6-transportvirksomhet">Kapittel 6. Transportvirksomhet.</a></li>
+<li class="lvl3"><a href="#del-iv-konkurranseregler-og-andre-felles-regler">Del IV. Konkurranseregler og andre felles regler.</a></li>
+<li class="lvl4"><a href="#kapittel-1-bestemmelser-for-foretak">Kapittel 1. Bestemmelser for foretak.</a></li>
+<li class="lvl4"><a href="#kapittel-2-statssttte">Kapittel 2. Statsstøtte.</a></li>
+<li class="lvl4"><a href="#kapittel-3-andre-felles-regler">Kapittel 3. Andre felles regler.</a></li>
+<li class="lvl3"><a href="#del-v-bestemmelser-som-gjelder-alle-de-fire-friheter">Del V. Bestemmelser som gjelder alle de fire friheter.</a></li>
+<li class="lvl4"><a href="#kapittel-1-sosialpolitikk">Kapittel 1. Sosialpolitikk.</a></li>
+<li class="lvl4"><a href="#kapittel-2-forbrukervern">Kapittel 2. Forbrukervern.</a></li>
+<li class="lvl4"><a href="#kapittel-3-milj">Kapittel 3. Miljø.</a></li>
+<li class="lvl4"><a href="#kapittel-4-statistikk">Kapittel 4. Statistikk.</a></li>
+<li class="lvl4"><a href="#kapittel-5-selskapsrett">Kapittel 5. Selskapsrett.</a></li>
+<li class="lvl3"><a href="#del-vi-samarbeid-utenfor-de-fire-friheter">Del VI. Samarbeid utenfor de fire friheter.</a></li>
+<li class="lvl5"><a href="#art-78">Art 78</a></li>
+<li class="lvl5"><a href="#art-79">Art 79</a></li>
+<li class="lvl5"><a href="#art-80">Art 80</a></li>
+<li class="lvl5"><a href="#art-81">Art 81</a></li>
+<li class="lvl5"><a href="#art-82">Art 82</a></li>
+<li class="lvl5"><a href="#art-83">Art 83</a></li>
+<li class="lvl5"><a href="#art-84">Art 84</a></li>
+<li class="lvl5"><a href="#art-85">Art 85</a></li>
+<li class="lvl5"><a href="#art-86">Art 86</a></li>
+<li class="lvl5"><a href="#art-87">Art 87</a></li>
+<li class="lvl5"><a href="#art-88">Art 88</a></li>
+<li class="lvl3"><a href="#del-vii-bestemmelser-om-organene">Del VII. Bestemmelser om organene.</a></li>
+<li class="lvl4"><a href="#kapittel-1-organiseringen-av-samarbeidet">Kapittel 1. Organiseringen av samarbeidet.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-es-radet">Avsnitt 1. EØS-rådet.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-es-komiteen">Avsnitt 2. EØS-komiteen.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-parlamentarisk-samarbeid">Avsnitt 3. Parlamentarisk samarbeid.</a></li>
+<li class="lvl5"><a href="#avsnitt-4-samarbeid-mellom-partene-i-arbeidslivet">Avsnitt 4. Samarbeid mellom partene i arbeidslivet.</a></li>
+<li class="lvl4"><a href="#kapittel-2-beslutningsprosessen">Kapittel 2. Beslutningsprosessen.</a></li>
+<li class="lvl4"><a href="#kapittel-3-ensartethet-overvakingsordning-og-tvistelsning">Kapittel 3. Ensartethet, overvåkingsordning og tvisteløsning.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-ensartethet">Avsnitt 1. Ensartethet.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-overvakingsordning">Avsnitt 2. Overvåkingsordning.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-tvistelsning">Avsnitt 3. Tvisteløsning.</a></li>
+<li class="lvl4"><a href="#kapittel-4-beskyttelsestiltak">Kapittel 4. Beskyttelsestiltak.</a></li>
+<li class="lvl3"><a href="#del-viii-lane-og-tilskuddsordningen">Del VIII. Låne- og tilskuddsordningen.</a></li>
+<li class="lvl5"><a href="#art-115">Art 115</a></li>
+<li class="lvl5"><a href="#art-116">Art 116</a></li>
+<li class="lvl5"><a href="#art-117">Art 117</a></li>
+<li class="lvl3"><a href="#del-ix-alminnelige-bestemmelser-og-sluttbestemmelser">Del IX. Alminnelige bestemmelser og sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-118">Art 118</a></li>
+<li class="lvl5"><a href="#art-119">Art 119</a></li>
+<li class="lvl5"><a href="#art-120">Art 120</a></li>
+<li class="lvl5"><a href="#art-121">Art 121</a></li>
+<li class="lvl5"><a href="#art-122">Art 122</a></li>
+<li class="lvl5"><a href="#art-123">Art 123</a></li>
+<li class="lvl5"><a href="#art-124">Art 124</a></li>
+<li class="lvl5"><a href="#art-125">Art 125</a></li>
+<li class="lvl5"><a href="#art-126">Art 126</a></li>
+<li class="lvl5"><a href="#art-127">Art 127</a></li>
+<li class="lvl5"><a href="#art-128">Art 128</a></li>
+<li class="lvl5"><a href="#art-129">Art 129</a></li>
+<li class="lvl3"><a href="#protokoll-25-om-konkurranse-innen-kull-og-stalproduksjon">Protokoll 25 om konkurranse innen kull- og stålproduksjon.</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl2"><a href="#avtale-mellom-efta-statene-om-opprettelse-av-et-overvakingsorgan-og-en-domstol">Avtale mellom EFTA-statene om opprettelse av et Overvåkingsorgan og en Domstol.</a></li>
+<li class="lvl3"><a href="#del-i">Del I.</a></li>
+<li class="lvl5"><a href="#art-1_2">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_2">Art 3</a></li>
+<li class="lvl3"><a href="#del-ii-eftas-overvakingsorgan">Del II. EFTAs overvåkingsorgan.</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl3"><a href="#del-iii-efta-statenes-oppfyllelse-av-sine-forpliktelser-etter-es-avtalen-og-denne-avtale">Del III. EFTA-statenes oppfyllelse av sine forpliktelser etter EØS-avtalen og denne avtale.</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+<li class="lvl5"><a href="#art-25a">Art 25a</a></li>
+<li class="lvl5"><a href="#art-26_1">Art 26</a></li>
+<li class="lvl3"><a href="#del-iv-efta-domstolen">Del IV. EFTA-domstolen.</a></li>
+<li class="lvl5"><a href="#art-27_1">Art 27</a></li>
+<li class="lvl5"><a href="#art-28_1">Art 28</a></li>
+<li class="lvl5"><a href="#art-29_1">Art 29</a></li>
+<li class="lvl5"><a href="#art-30_1">Art 30</a></li>
+<li class="lvl5"><a href="#art-31_1">Art 31</a></li>
+<li class="lvl5"><a href="#art-32_1">Art 32</a></li>
+<li class="lvl5"><a href="#art-33_1">Art 33</a></li>
+<li class="lvl5"><a href="#art-34_1">Art 34</a></li>
+<li class="lvl5"><a href="#art-35_1">Art 35</a></li>
+<li class="lvl5"><a href="#art-36_1">Art 36</a></li>
+<li class="lvl5"><a href="#art-37_1">Art 37</a></li>
+<li class="lvl5"><a href="#art-38_1">Art 38</a></li>
+<li class="lvl5"><a href="#art-39_1">Art 39</a></li>
+<li class="lvl5"><a href="#art-40_1">Art 40</a></li>
+<li class="lvl5"><a href="#art-41_1">Art 41</a></li>
+<li class="lvl3"><a href="#del-v-alminnelige-bestemmelser-og-sluttbestemmelser">Del V. Alminnelige bestemmelser og sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-42_1">Art 42</a></li>
+<li class="lvl5"><a href="#art-43_1">Art 43</a></li>
+<li class="lvl5"><a href="#art-44_1">Art 44</a></li>
+<li class="lvl5"><a href="#art-44a">Art 44a</a></li>
+<li class="lvl5"><a href="#art-45_1">Art 45</a></li>
+<li class="lvl5"><a href="#art-46_1">Art 46</a></li>
+<li class="lvl5"><a href="#art-47_1">Art 47</a></li>
+<li class="lvl5"><a href="#art-48_1">Art 48</a></li>
+<li class="lvl5"><a href="#art-49_1">Art 49</a></li>
+<li class="lvl5"><a href="#art-50_1">Art 50</a></li>
+<li class="lvl5"><a href="#art-51_1">Art 51</a></li>
+<li class="lvl5"><a href="#art-52_1">Art 52</a></li>
+<li class="lvl5"><a href="#art-53_1">Art 53</a></li>
+<li class="lvl3"><a href="#protokoll-3-om-oppgaver-og-myndighet-for-eftas-overvakingsorgan-i-forbindelse-med-statssttte1">Protokoll 3 om oppgaver og myndighet for EFTAs overvåkingsorgan i forbindelse med statsstøtte.1</a></li>
+<li class="lvl4"><a href="#del-i-alminnelige-regler">Del I. Alminnelige regler</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-11-27-109.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1992-11-27-109.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-11-27-109.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1992-11-27-109.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1992-11-27-109.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1992-11-27-109.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1992-11-27-109.html">Observerte kildeutgaver</a> · <a href="../historie/eøs-loven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1992-11-27-109.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-gjennomfring-i-norsk-rett-av-hoveddelen-i-avtale-om-det-europeiske-konomiske-samarbeidsomrade-es-mv-es-loven">Lov om gjennomføring i norsk rett av hoveddelen i avtale om Det europeiske økonomiske samarbeidsområde (EØS) m.v. (EØS-loven)</h1>
 <h3 id="1">§ 1</h3>
 <p>Bestemmelsene i hoveddelen i avtale om Det europeiske økonomiske samarbeidsområde skal gjelde som norsk lov, med de endringer som følger av protokoll om justering av avtalen av 17. mars 1993 , av EØS-utvidelsesavtalen av 14. oktober 2003, av EØS-utvidelsesavtalen for Bulgaria og Romania i 2007 og av EØS-utvidelsesavtalen for Kroatia av 2014. 1 Det samme gjelder artikkel 1 til 3 i avtalens Protokoll 25 om konkurranse innen kull- og stålproduksjon.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 62 (ikr. 1 jan 1994), 7 mai 2004 nr. 20 (ikr. 7 mai 2004 iflg. res. 7 mai 2004 nr. 723 ), 10 aug 2007 nr. 96 (ikr. 10 aug 2007 iflg. res. 10 aug 2007 nr. 948 ), 11 apr 2014 nr. 11 (ikr. 12 apr 2014 iflg. res. 11 apr 2014 nr. 413 ).
-1 Avtale om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde av 25 juli 2007, midlertidig i kraft for Norge 1 aug 2007 iht. avtale i form av brevveksling mellom Norge og EU av samme dato, endelig i kraft fra 9 nov 2011. Avtale om Kroatias deltakelse trådte midlertidig i kraft ved avtale 11 apr 2014 i form av brevveksling mellom Norge og EU (med ikrafttredelse 12 apr 2014). I tillegg er artikkel 117 endret ved Avtale 3 mai 2016 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning 2014–2021, midlertidig i kraft fra 1 aug 2016 (med ikrafttredelse 1 sep 2017).</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 62 (ikr. 1 jan 1994), 7 mai 2004 nr. 20 (ikr. 7 mai 2004 iflg. res. 7 mai 2004 nr. 723 ), 10 aug 2007 nr. 96 (ikr. 10 aug 2007 iflg. res. 10 aug 2007 nr. 948 ), 11 apr 2014 nr. 11 (ikr. 12 apr 2014 iflg. res. 11 apr 2014 nr. 413 ).
+1 Avtale om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde av 25 juli 2007, midlertidig i kraft for Norge 1 aug 2007 iht. avtale i form av brevveksling mellom Norge og EU av samme dato, endelig i kraft fra 9 nov 2011. Avtale om Kroatias deltakelse trådte midlertidig i kraft ved avtale 11 apr 2014 i form av brevveksling mellom Norge og EU (med ikrafttredelse 12 apr 2014). I tillegg er artikkel 117 endret ved Avtale 3 mai 2016 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning 2014–2021, midlertidig i kraft fra 1 aug 2016 (med ikrafttredelse 1 sep 2017).</p>
 <h3 id="2">§ 2</h3>
 <p>Bestemmelser i lov som tjener til å oppfylle Norges forpliktelser etter avtalen, skal i tilfelle konflikt gå foran andre bestemmelser som regulerer samme forhold. Tilsvarende gjelder dersom en forskrift som tjener til å oppfylle Norges forpliktelser etter avtalen, er i konflikt med en annen forskrift, eller kommer i konflikt med en senere lov. 1</p>
 <p><em>1 Jf. EØS-avtalens protokoll 35 .</em></p>
@@ -142,8 +481,8 @@ c. «avtaleparter», når det gjelder Fellesskapet og EFs medlemsstater: Felless
 d. «tiltredelsesakten av 16 april 2003:» Akten om tiltredelsesvilkårene for Den tsjekkiske republikken, Republikken Estland, Republikken Kypros, Republikken Latvia, Republikken Litauen, Republikken Ungarn, Republikken Malta, Republikken Polen, Republikken Slovenia og Den slovakiske republikken og tilpasningen av de traktater som er Den europeiske unions grunnlag, vedtatt i Aten 16 april 2003. 4
 e. «tiltredelsesakten av 25 april 2005»: Akten om tiltredelsesvilkårene for Republikken Bulgaria og Romania og tilpasningen av de traktater som er Den europeiske unions grunnlag, vedtatt i Luxembourg 25 april 2005, 5
 f. «tiltredelsesakten av 9. desember 2011»: Akten om tiltredelsesvilkårene for Republikken Kroatia og tilpasninger av traktaten om Den europeiske union, traktaten om Den europeiske unions virkeområde og traktaten om opprettelse av Det europeiske atomenergifellesskap, undertegnet i Brussel 9. desember 2011. 6</p>
-<p><em>Endret ved protokoll 17 mars 1993 , avtale 14 okt 2003, avtale 25 juli 2007, avtale 11 apr 2014.
-1 Jf. EØS-avtalens art. 119 . 2 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft fra 1 aug 2007, endelig fra 9 nov 2011), og ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014). 3 Endret ved Avtalen 14 okt 2003 nevnt i note 2. 4 Innsatt ved Avtalen 14 okt 2003 nevnt i note 2. 5 Innsatt ved Avtalen 25 juli 2007 nevnt i note 2. 6 Innsatt ved Avtalen 11 apr 2014 nevnt i note 2.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 , avtale 14 okt 2003, avtale 25 juli 2007, avtale 11 apr 2014.
+1 Jf. EØS-avtalens art. 119 . 2 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft fra 1 aug 2007, endelig fra 9 nov 2011), og ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014). 3 Endret ved Avtalen 14 okt 2003 nevnt i note 2. 4 Innsatt ved Avtalen 14 okt 2003 nevnt i note 2. 5 Innsatt ved Avtalen 25 juli 2007 nevnt i note 2. 6 Innsatt ved Avtalen 11 apr 2014 nevnt i note 2.</p>
 <h5 id="art-3">Art 3</h5>
 <p>Avtalepartene skal treffe alle generelle eller særlige tiltak som er egnet til å oppfylle de forpliktelser som følger av denne avtale.</p>
 <p>De skal avholde seg fra alle tiltak som kan sette virkeliggjøringen av denne avtales mål i fare.</p>
@@ -1085,8 +1424,8 @@ c. å avgjøre tvister mellom to eller flere EFTA-stater. 3</p>
 <p>EFTA-statene skal opprette en låne- og tilskuddsordning som skal bidra, i EØS-sammenheng og i tillegg til de bestrebelser Fellesskapet allerede gjør i denne henseende, til det formål som er fastlagt i artikkel 115 .</p>
 <h5 id="art-117">Art 117</h5>
 <p>Bestemmelsene om finansieringsordningene er fastsatt i protokoll 38 , protokoll 38a , tillegget til protokoll 38a, protokoll 38b , tillegget til protokoll 38b, protokoll 38c og protokoll 38d . 1</p>
-<p><em>Endret ved avtale 14 okt 2003, avtale 25 juli 2007 (endelig fra 9 nov 2011), avtale 11 apr 2014, avtale 3 mai 2016, avtale 12 sep 2024 nr. 15.
-1 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011), Avtale 28 juli 2010 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning for 2009–2014, ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014), ved Avtale 3. mai 2016 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning 2014–2021, midlertidig i kraft fra 1 aug 2016, og ved Avtale 12. september 2024 mellom Den europeiske union, Island, Liechtenstein og Norge om en EØS-finansieringsordning for perioden mai 2021 – april 2028.</em></p>
+<p class="note">Endret ved avtale 14 okt 2003, avtale 25 juli 2007 (endelig fra 9 nov 2011), avtale 11 apr 2014, avtale 3 mai 2016, avtale 12 sep 2024 nr. 15.
+1 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011), Avtale 28 juli 2010 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning for 2009–2014, ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014), ved Avtale 3. mai 2016 mellom Den europeiske union, Island, Fyrstedømmet Liechtenstein og Kongeriket Norge om en EØS-finansieringsordning 2014–2021, midlertidig i kraft fra 1 aug 2016, og ved Avtale 12. september 2024 mellom Den europeiske union, Island, Liechtenstein og Norge om en EØS-finansieringsordning for perioden mai 2021 – april 2028.</p>
 <h3 id="del-ix-alminnelige-bestemmelser-og-sluttbestemmelser">Del IX. Alminnelige bestemmelser og sluttbestemmelser.</h3>
 <h5 id="art-118">Art 118</h5>
 <ol>
@@ -1102,8 +1441,8 @@ c. å avgjøre tvister mellom to eller flere EFTA-stater. 3</p>
 <p><em>1 Jf. EØS-avtalens art. 2 bokstav a.</em></p>
 <h5 id="art-120">Art 120</h5>
 <p>Med mindre annet er bestemt i denne avtale og særlig i protokoll 41 1 og 43 , 2 skal bestemmelsene i denne avtale gå foran bestemmelsene i bestående bilaterale eller multilaterale avtaler som forplikter Det europeiske økonomiske fellesskap på den ene side og en eller flere EFTA-stater på den annen side, 3 i den utstrekning det samme saksområde er regulert av denne avtale.</p>
-<p><em>Endret ved protokoll 17 mars 1993 .
-1 Om bestående avtaler (gjelder en avtale om Donau og en om markedsføring i Østerrike av EUs bordvin og «Landwein» i flasker). 2 Om avtalen mellom EØF og republikken Østerrike om godstransitt på vei og med jernbane. 3 Jf. også felleserklæring til EØS-avtalens sluttakt om forholdet mellom EØS-avtalens og bestående avtaler, som lyder: «EØS-avtalen skal ikke berøre rettigheter som er sikret gjennom bestående avtaler som er bindende for en eller flere av EFs medlemsstater på den annen side, eller som er bindende for to eller flere EFTA-stater, blant annet avtaler som gjelder enkeltpersoner, markedsdeltakere, regionalt samarbeid og forvaltningsordninger, før minst tilsvarende rettigheter er oppnådd gjennom avtalen».</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 .
+1 Om bestående avtaler (gjelder en avtale om Donau og en om markedsføring i Østerrike av EUs bordvin og «Landwein» i flasker). 2 Om avtalen mellom EØF og republikken Østerrike om godstransitt på vei og med jernbane. 3 Jf. også felleserklæring til EØS-avtalens sluttakt om forholdet mellom EØS-avtalens og bestående avtaler, som lyder: «EØS-avtalen skal ikke berøre rettigheter som er sikret gjennom bestående avtaler som er bindende for en eller flere av EFs medlemsstater på den annen side, eller som er bindende for to eller flere EFTA-stater, blant annet avtaler som gjelder enkeltpersoner, markedsdeltakere, regionalt samarbeid og forvaltningsordninger, før minst tilsvarende rettigheter er oppnådd gjennom avtalen».</p>
 <h5 id="art-121">Art 121</h5>
 <p>Bestemmelsene i denne avtale skal ikke være til hinder for samarbeid:</p>
 <p>a. innen rammen av det nordiske samarbeid i den utstrekning dette samarbeidet ikke svekker muligheten for at denne avtale kan virke tilfredsstillende;
@@ -1136,8 +1475,8 @@ c. som den anser vesentlig for sin sikkerhet i tilfelle av alvorlig indre uro so
   ii. begrensninger i etableringsretten og retten til å yte tjenester for fysiske personer som ikke har «hembygdsrett» på Åland, og for juridiske personer, uten tillatelse fra vedkommende myndigheter på Åland.
 b. De rettigheter Ålands innbyggere har i Finland, berøres ikke av denne avtale.
 c. Myndighetene på Åland skal gi avtalepartenes fysiske og juridiske personer samme behandling.</p>
-<p><em>Endret ved protokoll 17 mars 1993 , avtale 14 okt 2003, avtale 25 juli 2007.
-1 Jf. EØS-avtalens protokoll 40 : Norge har unntatt Svalbard fra EØS-avtalens geografiske anvendelsesområde. 2 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), og ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011).</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 , avtale 14 okt 2003, avtale 25 juli 2007.
+1 Jf. EØS-avtalens protokoll 40 : Norge har unntatt Svalbard fra EØS-avtalens geografiske anvendelsesområde. 2 Endret ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), og ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011).</p>
 <h5 id="art-127">Art 127</h5>
 <p>Hver avtalepart kan trekke seg fra denne avtale ved å gi minst tolv måneders skriftlig varsel til de andre avtaleparter.</p>
 <p>Straks etter varselet om at en avtalepart akter å trekke seg fra avtalen, skal de andre avtalepartene sammenkalle en diplomatisk konferanse for å vurdere de endringer det måtte være nødvendig å gjøre i avtalen.</p>
@@ -1150,7 +1489,7 @@ c. Myndighetene på Åland skal gi avtalepartenes fysiske og juridiske personer 
 <p>Vilkårene for tiltredelse skal fastsettes i en avtale mellom avtalepartene og søkerstaten. Avtalen skal forelegges alle avtaleparter for ratifikasjon eller godkjennelse i samsvar med deres fremgangsmåter.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll 17 mars 1993 .</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 .</p>
 <h5 id="art-129">Art 129</h5>
 <ol>
 <li>
@@ -1163,7 +1502,7 @@ c. Myndighetene på Åland skal gi avtalepartenes fysiske og juridiske personer 
 <p>Denne avtale trer i kraft på det tidspunkt og på de vilkår som er fastsatt i protokollen om justering av avtalen om Det europeiske økonomiske samarbeidsområde.</p>
 </li>
 </ol>
-<p><em>Endret ved protokoll 17 mars 1993 , ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011) og ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014).</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 , ved Avtale 14 okt 2003 om Den tsjekkiske republikkens, Republikken Estlands, Republikken Kypros', Republikken Latvias, Republikken Litauens, Republikken Ungarns, Republikken Maltas, Republikken Polens, Republikken Slovenias og Den slovakiske republikkens deltakelse i Det europeiske økonomiske samarbeidsområde (med ikrafttredelse fra 1 mai 2004), ved Avtale 25 juli 2007 om Republikken Bulgarias og Romanias deltakelse i Det europeiske økonomiske samarbeidsområde (midlertidig i kraft for Norge 1 aug 2007, endelig fra 9 nov 2011) og ved Avtale 11 apr 2014 om Republikken Kroatias deltakelse i Det europeiske økonomiske samarbeidsområde (med midlertidig ikrafttredelse 12 apr 2014 iht. brevveksling mellom Norge og EU 11 apr 2014).</p>
 <h3 id="protokoll-25-om-konkurranse-innen-kull-og-stalproduksjon">Protokoll 25 om konkurranse innen kull- og stålproduksjon.</h3>
 <h5 id="art-1_1">Art 1</h5>
 <ol>
@@ -1224,7 +1563,7 @@ c. avtalen ikke er egnet til å gi de berørte foretak mulighet til å fastsette
 <p>I denne avtale menes med</p>
 <p>a. «EØS-avtalen»: EØS-avtalens hovedel, dens protokoller og vedlegg samt de rettsakter som er omhandlet i dem,
 b. «EFTA-stater»: Republikken Island og Kongeriket Norge og, på de vilkår som er fastsatt i artikkel 1 nr. 2 i protokollen om justering av avtalen mellom EFTA-statene om opprettelse av et overvåkningsorgan og en domstol, Fyrstedømmet Liechtenstein,</p>
-<p><em>Endret ved protokoll 17 mars 1993 og ved Justeringsavtale mellom Norge og Island inngått i desember 1994.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 og ved Justeringsavtale mellom Norge og Island inngått i desember 1994.</p>
 <h5 id="art-2_2">Art 2</h5>
 <p>EFTA-statene skal treffe alle generelle eller særlige tiltak som er egnet til å oppfylle de forpliktelser som følger av denne avtale.</p>
 <p>De skal avholde seg fra alle tiltak som kan sette virkeliggjøringen av denne avtales mål i fare.</p>
@@ -1261,7 +1600,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 <h5 id="art-7_1">Art 7</h5>
 <p>EFTAs overvåkingsorgan skal bestå av tre medlemmer valgt i kraft av sin innsikt, og hvis uavhengighet er uomtvistelig.</p>
 <p>Unntatt i tilfeller som nevnt i artikkel 9 tredje ledd, skal minst to av tre medlemmer være statsborgere fra EFTA-statene.</p>
-<p><em>Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</p>
 <h5 id="art-8_1">Art 8</h5>
 <p>Medlemmene av EFTAs overvåkingorgan skal utføre sitt verv i full uavhengighet. De skal hverken anmode om eller motta instruks fra noen regjering eller instans. De skal avholde seg fra enhver handling som er uforenlig med deres verv. Enhver EFTA-stat forplikter seg til å respektere dette prinsipp og til ikke å forsøke å påvirke medlemmene av EFTAs overvåkingsorgan under utførelsen av deres oppgaver.</p>
 <p>Medlemmene av EFTAs overvåkingsorgan skal ikke utøve noe annet lønnet eller ulønnet yrke så lenge deres verv varer.</p>
@@ -1287,7 +1626,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 <h5 id="art-15_1">Art 15</h5>
 <p>EFTAs overvåkingsorgan skal treffe sine beslutninger med et flertall av dets medlemmer.</p>
 <p>Forretningsordenen skal bestemme det antall medlemmer som må være til stede for at organet skal være beslutningsdyktig.</p>
-<p><em>Endret ved Justeringsavtale inngått mellom Norge og Island i desember 1994.</em></p>
+<p class="note">Endret ved Justeringsavtale inngått mellom Norge og Island i desember 1994.</p>
 <h5 id="art-16_1">Art 16</h5>
 <p>Vedtak av EFTAs overvåkingsorgan skal begrunnes.</p>
 <h5 id="art-17_1">Art 17</h5>
@@ -1313,7 +1652,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 <p>I medhold av artikkel 5 nr. 2 bokstav b) skal EFTAs overvåkingsorgan ved denne avtales ikrafttredelse særlig vedta rettsakter som svarer til dem som er oppført i vedlegg II.</p>
 <h5 id="art-25a">Art 25a</h5>
 <p>EFTAs overvåkingsorgan skal, i samsvar med rettsaktene omhandlet i EØS-avtalens vedlegg IX som innenfor Den europeiske union gir myndighet til en europeisk tilsynsmyndighet som, når det gjelder EFTA-statene og ifølge tilpasningene i nevnte vedlegg skal utøves av EFTAs overvåkingsorgan, og i henhold til bestemmelsene i protokoll 8 til denne avtale, håndheve de relevante bestemmelsene i EØS-avtalen og sikre at bestemmelsene blir anvendt.</p>
-<p><em>Tilføyd ved Avtale 6 okt 2016 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av en ny artikkel 25a og en ny protokoll 8 til avtalen, ikr. 25 nov 2016.</em></p>
+<p class="note">Tilføyd ved Avtale 6 okt 2016 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av en ny artikkel 25a og en ny protokoll 8 til avtalen, ikr. 25 nov 2016.</p>
 <h5 id="art-26_1">Art 26</h5>
 <p>Bestemmelser om samarbeid, utveksling av opplysninger og samråd mellom EFTAs overvåkingsorgan og Kommisjonen for De europeiske fellesskap om anvendelsen av EØS-avtalen er fastsatt i EØS-avtalens artikkel 109 samt i artikkel 58 og 62 nr. 2 og protokoll 1 , 23 , 24 og 27 .</p>
 <h3 id="del-iv-efta-domstolen">Del IV. EFTA-domstolen.</h3>
@@ -1321,17 +1660,17 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 <p>Det skal opprettes en domstol for EFTA-statene, heretter kalt EFTA-domstolen. Den skal virke i samsvar med bestemmelsene i denne avtale og EØS-avtalen.</p>
 <h5 id="art-28_1">Art 28</h5>
 <p>EFTA-domstolen skal bestå av tre dommere.</p>
-<p><em>Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</p>
 <h5 id="art-29_1">Art 29</h5>
 <p>Domstolens avgjørelser skal være gyldige bare når alle medlemmene deltar i rådslagningene og avstemningene.</p>
-<p><em>Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.</p>
 <h5 id="art-30_1">Art 30</h5>
 <p>Dommerne skal velges ut blant personer hvis uavhengighet er uomtvistelig, og som fyller de krav som stilles for å inneha de høyeste dommerembeter i deres hjemland, eller hvis faglige dyktighet som jurister er alminnelig anerkjent. De skal oppnevnes av EFTA-statenes regjeringer ved felles overenskomst for seks år.</p>
 <p>De fratredende dommere kan oppnevnes på nytt.</p>
 <p>Dommerne skal i sin midte velge EFTA-domstolens president for tre år. Presidenten kan gjenvelges.</p>
 <p>Dersom én av dommerne etter de to andre dommernes mening ikke kan behandle en bestemt sak fordi han er ugild, 2 skal de to andre dommerne bli enige om en person til å erstatte ham, valgt fra en liste utarbeidet av EFTA-statenes regjeringer ved felles overenskomst. Dersom de ikke kommer til enighet, skal vedkommende velges fra listen ved loddtrekning foretatt av presidenten. Reglene som gjelder for ordinære dommere, får tilsvarende på en dommer valgt etter denne framgangsmåte. Protokoll 5 artikkel 4 annet ledd og artikkel 13 kommer ikke i noe tilfelle til anvendelse.</p>
-<p><em>Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.
-1 Sml. TEUV art. 253 , tidl. EF-traktaten art. 223 (før 1 mai 1999 art. 167). 2 Jf. ODA protokoll 5 artikkel 15.</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 og Justeringsavtale mellom Norge og Island inngått i desember 1994.
+1 Sml. TEUV art. 253 , tidl. EF-traktaten art. 223 (før 1 mai 1999 art. 167). 2 Jf. ODA protokoll 5 artikkel 15.</p>
 <h5 id="art-31_1">Art 31</h5>
 <p>Finner EFTAs overvåkingsorgan at en EFTA-stat har unnlatt å oppfylle en av sine forpliktelser etter EØS-avtalen eller denne avtale, skal den, med mindre annet er bestemt i denne avtale, avgi en grunngitt uttalelse om dette etter å ha gitt vedkommende stat anledning til å uttale seg.</p>
 <p>Dersom vedkommende stat ikke retter seg etter denne uttalelse innen den frist EFTAs overvåkingsorgan har satt, kan EFTAs overvåkingsorgan bringe saken inn for EFTA-domstolen.</p>
@@ -1397,7 +1736,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 </ol>
 <h5 id="art-44a">Art 44a</h5>
 <p>Særlige bestemmelser om Det forente kongerike Storbritannia og Nord-Irlands uttreden fra Den europeiske union og EØS-avtalen er fastsatt i protokoll 9 til denne avtalen.</p>
-<p><em>Tilføyd ved Avtale 30 jan 2020 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av artikkel 44a og protokoll 9 til avtalen, ikr. 25 juni 2020.</em></p>
+<p class="note">Tilføyd ved Avtale 30 jan 2020 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av artikkel 44a og protokoll 9 til avtalen, ikr. 25 juni 2020.</p>
 <h5 id="art-45_1">Art 45</h5>
 <p>Setet for henholdsvis EFTAs overvåkingsorgan og EFTA-domstolen skal fastsettes av EFTA-statens regjeringer ved felles overenskomst.</p>
 <h5 id="art-46_1">Art 46</h5>
@@ -1410,7 +1749,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 <p>EFTA-statenes regjeringer skal på forslag fra EFTA-domstolen hvert år før 1. januar ved felles overenskomst fastsette et budsjett for det påfølgende år og fordele utgiftene mellom EFTA-statene.</p>
 <h5 id="art-49_1">Art 49</h5>
 <p>EFTA-statenes regjeringer kan, på forslag fra eller etter å ha hørt EFTAs overvåkingsorgan og dersom ikke annet er bestemt i denne avtale, ved felles overenskomst endre avtalens hoveddel samt protokoll 1-4 og 6-9. Slike endringer skal forelegges EFTA-statene for godkjennelse og tre i kraft dersom de blir godkjent av alle EFTA-statene. Godkjennelsesdokumentene skal deponeres hos Kongeriket Sveriges regjering, som skal underrette de øvrige EFTA-statene.</p>
-<p><em>Endret ved Avtale 6 okt 2016 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av en ny artikkel 25a og en ny protokoll 8 til avtalen, ikr. 25 nov 2016, og ved Avtale 30 jan 2020 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av artikkel 44a og protokoll 9 til avtalen, ikr. 25 juni 2020.</em></p>
+<p class="note">Endret ved Avtale 6 okt 2016 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av en ny artikkel 25a og en ny protokoll 8 til avtalen, ikr. 25 nov 2016, og ved Avtale 30 jan 2020 om endring av avtalen mellom EFTA-statene om opprettelse av et overvåkingsorgan og en domstol ved tilføyelse av artikkel 44a og protokoll 9 til avtalen, ikr. 25 juni 2020.</p>
 <h5 id="art-50_1">Art 50</h5>
 <ol>
 <li>
@@ -1441,7 +1780,7 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 </ol>
 <p>Til bekreftelse på dette har de befullmektigede undertegnet denne avtale.</p>
 <p>Utferdiget i Oporto 2. mai 1992 i ett eksemplar med gyldighet på engelsk, som skal deponeres hos Kongeriket Sveriges regjering. Depositaren skal sende bekreftede kopier til alle stater som har undertegnet eller tiltrer denne avtale.</p>
-<p><em>Endret ved protokoll 17 mars 1993 .</em></p>
+<p class="note">Endret ved protokoll 17 mars 1993 .</p>
 <h3 id="protokoll-3-om-oppgaver-og-myndighet-for-eftas-overvakingsorgan-i-forbindelse-med-statssttte1">Protokoll 3 om oppgaver og myndighet for EFTAs overvåkingsorgan i forbindelse med statsstøtte.1</h3>
 <h4 id="del-i-alminnelige-regler">Del I. Alminnelige regler</h4>
 <h6 id="art-1_3">Art 1</h6>
@@ -1458,6 +1797,8 @@ d. utføre funksjoner som ved anvendelse av protokoll 1 til EØS-avtalen følger
 </ol>
 <p>– – –</p>
 <p><em>1 Sml. TEUV art. 108 , tidl. EF-traktaten art. 88 (før 1 mai 1999 art. 93).</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

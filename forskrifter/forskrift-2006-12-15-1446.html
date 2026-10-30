@@ -19,70 +19,375 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-12-15-1446.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Vannforskriften" href="../feeds/forskrift-2006-12-15-1446.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Vannforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2006-12-15-1446</code></dd>
-<dt>Departement</dt><dd>EnergidepartementetKlima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2007-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-07-02-1643</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2006-12-15-1446" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-vedlegg">§ 2. Vedlegg</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-miljmal">Kapittel 2. Miljømål</a></li>
+<li class="lvl4"><a href="#4-miljmal-for-overflatevann">§ 4. Miljømål for overflatevann</a></li>
+<li class="lvl4"><a href="#5-miljmal-for-kunstige-og-sterkt-modifiserte-vannforekomster">§ 5. Miljømål for kunstige og sterkt modifiserte vannforekomster</a></li>
+<li class="lvl4"><a href="#6-miljmal-for-grunnvann">§ 6. Miljømål for grunnvann</a></li>
+<li class="lvl4"><a href="#7-miljmal-for-beskyttede-omrader">§ 7. Miljømål for beskyttede områder</a></li>
+<li class="lvl4"><a href="#8-frister-for-a-na-miljmalene">§ 8. Frister for å nå miljømålene</a></li>
+<li class="lvl4"><a href="#9-utsatte-frister-for-a-na-miljmalene">§ 9. Utsatte frister for å nå miljømålene</a></li>
+<li class="lvl4"><a href="#10-mindre-strenge-miljmal">§ 10. Mindre strenge miljømål</a></li>
+<li class="lvl4"><a href="#11-midlertidig-forringelse-som-flge-av-uforutsette-omstendigheter">§ 11. Midlertidig forringelse som følge av uforutsette omstendigheter</a></li>
+<li class="lvl4"><a href="#12-ny-aktivitet-eller-nye-inngrep">§ 12. Ny aktivitet eller nye inngrep</a></li>
+<li class="lvl4"><a href="#13-forholdet-til-andre-miljbestemmelser">§ 13. Forholdet til andre miljøbestemmelser</a></li>
+<li class="lvl4"><a href="#14-vann-nett">§ 14. Vann-Nett</a></li>
+<li class="lvl2"><a href="#kapittel-3-kunnskapsgrunnlaget">Kapittel 3. Kunnskapsgrunnlaget</a></li>
+<li class="lvl4"><a href="#15-karakterisering-vurdering-av-miljpavirkning-og-konomisk-analyse">§ 15. Karakterisering, vurdering av miljøpåvirkning og økonomisk analyse</a></li>
+<li class="lvl4"><a href="#16-register-over-beskyttede-omrader">§ 16. Register over beskyttede områder</a></li>
+<li class="lvl4"><a href="#17-vann-som-brukes-til-uttak-av-drikkevann">§ 17. Vann som brukes til uttak av drikkevann</a></li>
+<li class="lvl4"><a href="#18-overvakningsprogram">§ 18. Overvåkningsprogram</a></li>
+<li class="lvl2"><a href="#kapittel-4-organisering-av-arbeidet">Kapittel 4. Organisering av arbeidet</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#20-vannregioner-og-vannregionmyndigheter">§ 20. Vannregioner og vannregionmyndigheter</a></li>
+<li class="lvl4"><a href="#21-vannregionmyndighetens-ansvar">§ 21. Vannregionmyndighetens ansvar</a></li>
+<li class="lvl4"><a href="#22-vannregionutvalg-og-statlige-myndigheter">§ 22. Vannregionutvalg og statlige myndigheter</a></li>
+<li class="lvl4"><a href="#23-organisering-av-arbeidet-i-vannregionen">§ 23. Organisering av arbeidet i vannregionen</a></li>
+<li class="lvl4"><a href="#24-miljmalsfastsettelse">§ 24. Miljømålsfastsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-innholdet-i-vannforvaltningsplaner-med-tilhrende-tiltaksprogram">Kapittel 5. Innholdet i vannforvaltningsplaner med tilhørende tiltaksprogram</a></li>
+<li class="lvl4"><a href="#25-tiltaksprogram">§ 25. Tiltaksprogram</a></li>
+<li class="lvl4"><a href="#26-vannforvaltningsplan">§ 26. Vannforvaltningsplan</a></li>
+<li class="lvl4"><a href="#27-offentlig-deltakelse-og-informasjon">§ 27. Offentlig deltakelse og informasjon</a></li>
+<li class="lvl4"><a href="#28-hring">§ 28. Høring</a></li>
+<li class="lvl4"><a href="#29-vedtak-og-godkjenning-av-oppdaterte-vannforvaltningsplaner">§ 29. Vedtak og godkjenning av oppdaterte vannforvaltningsplaner</a></li>
+<li class="lvl2"><a href="#kapittel-6-internasjonale-vannregioner">Kapittel 6. Internasjonale vannregioner</a></li>
+<li class="lvl4"><a href="#30-internasjonale-vannregioner-innenfor-es-omradet">§ 30. Internasjonale vannregioner innenfor EØS-området</a></li>
+<li class="lvl4"><a href="#31-internasjonalt-samarbeid-utenfor-es-omradet">§ 31. Internasjonalt samarbeid utenfor EØS-området</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#32-rapportering">§ 32. Rapportering</a></li>
+<li class="lvl4"><a href="#33-endring-av-forskriften">§ 33. Endring av forskriften</a></li>
+<li class="lvl4"><a href="#33a-unntak">§ 33a. Unntak</a></li>
+<li class="lvl4"><a href="#34-ikrafttredelse">§ 34. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-vannregioner-og-vannregionmyndigheter">Vedlegg I. Vannregioner og vannregionmyndigheter</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-karakterisering-identifisering-av-pavirkninger-og-vurdering-av-miljvirkninger">Vedlegg II. Karakterisering, identifisering av påvirkninger og vurdering av miljøvirkninger</a></li>
+<li class="lvl3"><a href="#1-overflatevann">1. Overflatevann</a></li>
+<li class="lvl4"><a href="#11-karakterisering-av-typer-av-forekomster-av-overflatevann">1.1 Karakterisering av typer av forekomster av overflatevann</a></li>
+<li class="lvl5"><a href="#111-elver">1.1.1 Elver</a></li>
+<li class="lvl5"><a href="#112-innsjer">1.1.2 Innsjøer</a></li>
+<li class="lvl5"><a href="#113-brakkvann">1.1.3 Brakkvann</a></li>
+<li class="lvl5"><a href="#114-kystvann">1.1.4 Kystvann</a></li>
+<li class="lvl4"><a href="#12-fastsettelse-av-typespesifikke-referanseforhold-for-typer-av-overflatevannforekomster">1.2 Fastsettelse av typespesifikke referanseforhold for typer av overflatevannforekomster</a></li>
+<li class="lvl4"><a href="#13-identifisere-belastninger">1.3 Identifisere belastninger</a></li>
+<li class="lvl4"><a href="#14-vurdering-av-miljeffekten-av-pavirkninger">1.4. Vurdering av miljøeffekten av påvirkninger</a></li>
+<li class="lvl3"><a href="#2-grunnvann">2. Grunnvann</a></li>
+<li class="lvl4"><a href="#21-frste-karakterisering">2.1 Første karakterisering</a></li>
+<li class="lvl4"><a href="#22-ytterligere-karakterisering">2.2 Ytterligere karakterisering</a></li>
+<li class="lvl4"><a href="#23-vurdering-av-virkningene-av-menneskelig-virksomhet-pa-grunnvannet">2.3 Vurdering av virkningene av menneskelig virksomhet på grunnvannet</a></li>
+<li class="lvl4"><a href="#24-vurdering-av-virkningene-av-endringer-i-grunnvannsstand">2.4 Vurdering av virkningene av endringer i grunnvannsstand</a></li>
+<li class="lvl4"><a href="#25-vurdering-av-virkningene-av-forurensning-pa-grunnvannskvaliteten">2.5 Vurdering av virkningene av forurensning på grunnvannskvaliteten</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-konomisk-analyse">Vedlegg III. Økonomisk analyse</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-beskyttede-omrader">Vedlegg IV. Beskyttede områder</a></li>
+<li class="lvl2"><a href="#vedlegg-v-klassifisering-og-overvaking">Vedlegg V. Klassifisering og overvåking</a></li>
+<li class="lvl3"><a href="#1-overflatevann_1">1. Overflatevann</a></li>
+<li class="lvl4"><a href="#11-kvalitetselementer-for-klassifisering-av-kologisk-tilstand">1.1 Kvalitetselementer for klassifisering av økologisk tilstand</a></li>
+<li class="lvl4"><a href="#12-normative-definisjoner-for-klassifisering-av-kologisk-tilstand">1.2 Normative definisjoner for klassifisering av økologisk tilstand</a></li>
+<li class="lvl5"><a href="#121-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-elver">1.2.1 Definisjoner for svært god, god og moderat økologisk tilstand i elver</a></li>
+<li class="lvl5"><a href="#122-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-innsjer">1.2.2 Definisjoner for svært god, god og moderat økologisk tilstand i innsjøer</a></li>
+<li class="lvl5"><a href="#123-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-brakkvann">1.2.3 Definisjoner for svært god, god og moderat økologisk tilstand i brakkvann</a></li>
+<li class="lvl5"><a href="#124-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-kystvann">1.2.4 Definisjoner for svært god, god og moderat økologisk tilstand i kystvann</a></li>
+<li class="lvl5"><a href="#125-definisjoner-for-maksimalt-godt-og-moderat-kologisk-potensial-for-sterkt-modifiserte-eller-kunstige-vannforekomster">1.2.5 Definisjoner for maksimalt, godt og moderat økologisk potensial for sterkt modifiserte eller kunstige vannforekomster</a></li>
+<li class="lvl5"><a href="#126-framgangsmate-for-fastsettelse-av-kjemiske-miljkvalitetsstandarder">1.2.6 Framgangsmåte for fastsettelse av kjemiske miljøkvalitetsstandarder</a></li>
+<li class="lvl4"><a href="#13-overvakning-av-kologisk-og-kjemisk-tilstand-i-overflatevann">1.3 Overvåkning av økologisk og kjemisk tilstand i overflatevann</a></li>
+<li class="lvl5"><a href="#131-utforming-av-basisovervaking">1.3.1 Utforming av basisovervåking</a></li>
+<li class="lvl5"><a href="#132-utforming-av-tiltaksorientert-overvaking">1.3.2 Utforming av tiltaksorientert overvåking</a></li>
+<li class="lvl5"><a href="#133-utforming-av-problemkartlegging">1.3.3 Utforming av problemkartlegging</a></li>
+<li class="lvl5"><a href="#134-overvakningsfrekvens">1.3.4 Overvåkningsfrekvens</a></li>
+<li class="lvl5"><a href="#135-ytterligere-overvakningskrav-for-beskyttede-omrader">1.3.5 Ytterligere overvåkningskrav for beskyttede områder</a></li>
+<li class="lvl5"><a href="#136-standarder-for-overvakning-av-kvalitetselementer">1.3.6 Standarder for overvåkning av kvalitetselementer</a></li>
+<li class="lvl4"><a href="#14-klassifisering-og-presentasjon-av-kologisk-tilstand">1.4 Klassifisering og presentasjon av økologisk tilstand</a></li>
+<li class="lvl5"><a href="#141-biologiske-overvakningsresultaters-sammenlignbarhet">1.4.1 Biologiske overvåkningsresultaters sammenlignbarhet</a></li>
+<li class="lvl5"><a href="#142-presentasjon-av-overvakingsresultater-og-klassifisering-av-kologisk-tilstand-og-kologisk-potensial">1.4.2 Presentasjon av overvåkingsresultater og klassifisering av økologisk tilstand og økologisk potensial</a></li>
+<li class="lvl5"><a href="#143-presentasjon-av-overvakingsresultater-og-klassifisering-av-kjemisk-tilstand">1.4.3. Presentasjon av overvåkingsresultater og klassifisering av kjemisk tilstand</a></li>
+<li class="lvl3"><a href="#2-grunnvann_1">2. Grunnvann</a></li>
+<li class="lvl4"><a href="#21-grunnvannets-kvantitative-tilstand">2.1 Grunnvannets kvantitative tilstand</a></li>
+<li class="lvl5"><a href="#211-parameter-for-klassifisering-av-kvantitativ-tilstand">2.1.1 Parameter for klassifisering av kvantitativ tilstand</a></li>
+<li class="lvl5"><a href="#212-definisjon-av-kvantitativ-tilstand">2.1.2 Definisjon av kvantitativ tilstand</a></li>
+<li class="lvl4"><a href="#22-overvakning-av-grunnvannets-kvantitative-tilstand">2.2 Overvåkning av grunnvannets kvantitative tilstand</a></li>
+<li class="lvl5"><a href="#221-overvakningsnettverk-for-grunnvannsstand">2.2.1 Overvåkningsnettverk for grunnvannsstand</a></li>
+<li class="lvl5"><a href="#222-overvakningslokalitetenes-tetthet">2.2.2. Overvåkningslokalitetenes tetthet</a></li>
+<li class="lvl5"><a href="#223-overvakningsfrekvens">2.2.3 Overvåkningsfrekvens</a></li>
+<li class="lvl5"><a href="#224-tolkning-og-presentasjon-av-grunnvannets-kvantitative-tilstand">2.2.4 Tolkning og presentasjon av grunnvannets kvantitative tilstand</a></li>
+<li class="lvl4"><a href="#23-grunnvannets-kjemiske-tilstand">2.3 Grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#231-parametere-for-bestemmelse-av-grunnvannets-kjemiske-tilstand">2.3.1 Parametere for bestemmelse av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#232-definisjon-av-god-kjemisk-tilstand-for-grunnvann">2.3.2 Definisjon av god kjemisk tilstand for grunnvann</a></li>
+<li class="lvl4"><a href="#24-overvakning-av-grunnvannets-kjemiske-tilstand">2.4 Overvåkning av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#241-overvakingsnettverk-for-grunnvann">2.4.1. Overvåkingsnettverk for grunnvann</a></li>
+<li class="lvl5"><a href="#242-basisovervaking">2.4.2 Basisovervåking</a></li>
+<li class="lvl5"><a href="#243-tiltaksovervaking">2.4.3 Tiltaksovervåking</a></li>
+<li class="lvl5"><a href="#244-identifikasjon-av-trender-for-konsentrasjoner-av-forurensende-stoffer">2.4.4 Identifikasjon av trender for konsentrasjoner av forurensende stoffer</a></li>
+<li class="lvl5"><a href="#245-tolkning-og-presentasjon-av-grunnvannets-kjemiske-tilstand">2.4.5 Tolkning og presentasjon av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl2"><a href="#vedlegg-va-klassifisering-interkalibrerte-grenseverdier-for-fastsettelse-av-miljtilstand">Vedlegg Va. Klassifisering – interkalibrerte grenseverdier for fastsettelse av miljøtilstand</a></li>
+<li class="lvl3"><a href="#1-vannkategori-elv">1. Vannkategori elv</a></li>
+<li class="lvl4"><a href="#11-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">1.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl3"><a href="#12-biologisk-kvalitetselement-vannplanter-makrovegetasjon-og-pavekstalger">1.2 Biologisk kvalitetselement: Vannplanter (Makrovegetasjon og påvekstalger)</a></li>
+<li class="lvl3"><a href="#2-vannkategori-innsj">2. Vannkategori innsjø</a></li>
+<li class="lvl4"><a href="#21-biologisk-kvalitetselement-planteplankton">2.1 Biologisk kvalitetselement: Planteplankton</a></li>
+<li class="lvl4"><a href="#22-biologisk-kvalitetselement-vannplanter">2.2 Biologisk kvalitetselement: Vannplanter</a></li>
+<li class="lvl4"><a href="#23-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">2.3 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#24-biologisk-kvalitetselement-fisk">2.4 Biologisk kvalitetselement: Fisk</a></li>
+<li class="lvl3"><a href="#3-vannkategori-store-elver">3. Vannkategori store elver</a></li>
+<li class="lvl4"><a href="#31-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">3.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#32-biologisk-kvalitetselement-fisk">3.2. Biologisk kvalitetselement: Fisk</a></li>
+<li class="lvl3"><a href="#4-vannkategori-kystvann">4. Vannkategori kystvann</a></li>
+<li class="lvl4"><a href="#41-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">4.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#42-biologisk-kvalitetselement-planteplankton">4.2 Biologisk kvalitetselement: Planteplankton</a></li>
+<li class="lvl4"><a href="#43-biologisk-kvalitetselement-fastsittende-alger-makroalger">4.3 Biologisk kvalitetselement: Fastsittende alger (makroalger)</a></li>
+<li class="lvl2"><a href="#vedlegg-vi-liste-over-tiltak-som-skal-tas-med-i-tiltaksprogrammene">Vedlegg VI. Liste over tiltak som skal tas med i tiltaksprogrammene</a></li>
+<li class="lvl3"><a href="#a-grunnleggende-tiltak">A. Grunnleggende tiltak</a></li>
+<li class="lvl3"><a href="#b-supplerende-tiltak">B. Supplerende tiltak</a></li>
+<li class="lvl2"><a href="#vedlegg-vii-krav-til-vannforvaltningsplaner">Vedlegg VII. Krav til vannforvaltningsplaner</a></li>
+<li class="lvl3"><a href="#a-forvaltningsplanene-for-vannregionene-skal-omfatte-flgende-elementer">A. Forvaltningsplanene for vannregionene skal omfatte følgende elementer:</a></li>
+<li class="lvl3"><a href="#b-en-oppdatering-av-vannforvaltningsplanen-skal-i-tillegg-inneholde">B. En oppdatering av vannforvaltningsplanen skal i tillegg inneholde</a></li>
+<li class="lvl2"><a href="#vedlegg-viii-miljkvalitetsstandarder-for-miljgifter-i-vannforekomster">Vedlegg VIII. Miljøkvalitetsstandarder for miljøgifter i vannforekomster</a></li>
+<li class="lvl3"><a href="#a-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-ferskvann-og-kystvann">A. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i ferskvann og kystvann</a></li>
+<li class="lvl3"><a href="#b-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-organismer">B. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i organismer</a></li>
+<li class="lvl3"><a href="#c-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-sediment">C. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i sediment</a></li>
+<li class="lvl3"><a href="#d-miljkvalitetsstandarder-for-andre-eu-utvalgte-stoffer">D. Miljøkvalitetsstandarder for andre EU-utvalgte stoffer</a></li>
+<li class="lvl3"><a href="#e-bruk-av-miljkvalitetsstandarder">E. Bruk av miljøkvalitetsstandarder</a></li>
+<li class="lvl3"><a href="#f-krav-til-analyser">F. Krav til analyser</a></li>
+<li class="lvl2"><a href="#vedlegg-ix-kjemisk-tilstand-for-grunnvann-terskel-og-vendepunktverdier">Vedlegg IX. Kjemisk tilstand for grunnvann: terskel- og vendepunktverdier</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-07-02-1643.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-12-15-1446.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om rammer for vannforvaltningen</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-12-15-1446.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2006-12-15-1446 <code>forskrift/2006-12-15-1446</code></td></tr>
+<tr><th>Korttittel</th><td>Vannforskriften</td></tr>
+<tr><th>Departement</th><td>EnergidepartementetKlima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2007</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-07-02-1643 <code>forskrift/2026-07-02-1643</code> fra 01.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2006-12-15-1446" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-vedlegg">§ 2. Vedlegg</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-miljmal">Kapittel 2. Miljømål</a></li>
+<li class="lvl4"><a href="#4-miljmal-for-overflatevann">§ 4. Miljømål for overflatevann</a></li>
+<li class="lvl4"><a href="#5-miljmal-for-kunstige-og-sterkt-modifiserte-vannforekomster">§ 5. Miljømål for kunstige og sterkt modifiserte vannforekomster</a></li>
+<li class="lvl4"><a href="#6-miljmal-for-grunnvann">§ 6. Miljømål for grunnvann</a></li>
+<li class="lvl4"><a href="#7-miljmal-for-beskyttede-omrader">§ 7. Miljømål for beskyttede områder</a></li>
+<li class="lvl4"><a href="#8-frister-for-a-na-miljmalene">§ 8. Frister for å nå miljømålene</a></li>
+<li class="lvl4"><a href="#9-utsatte-frister-for-a-na-miljmalene">§ 9. Utsatte frister for å nå miljømålene</a></li>
+<li class="lvl4"><a href="#10-mindre-strenge-miljmal">§ 10. Mindre strenge miljømål</a></li>
+<li class="lvl4"><a href="#11-midlertidig-forringelse-som-flge-av-uforutsette-omstendigheter">§ 11. Midlertidig forringelse som følge av uforutsette omstendigheter</a></li>
+<li class="lvl4"><a href="#12-ny-aktivitet-eller-nye-inngrep">§ 12. Ny aktivitet eller nye inngrep</a></li>
+<li class="lvl4"><a href="#13-forholdet-til-andre-miljbestemmelser">§ 13. Forholdet til andre miljøbestemmelser</a></li>
+<li class="lvl4"><a href="#14-vann-nett">§ 14. Vann-Nett</a></li>
+<li class="lvl2"><a href="#kapittel-3-kunnskapsgrunnlaget">Kapittel 3. Kunnskapsgrunnlaget</a></li>
+<li class="lvl4"><a href="#15-karakterisering-vurdering-av-miljpavirkning-og-konomisk-analyse">§ 15. Karakterisering, vurdering av miljøpåvirkning og økonomisk analyse</a></li>
+<li class="lvl4"><a href="#16-register-over-beskyttede-omrader">§ 16. Register over beskyttede områder</a></li>
+<li class="lvl4"><a href="#17-vann-som-brukes-til-uttak-av-drikkevann">§ 17. Vann som brukes til uttak av drikkevann</a></li>
+<li class="lvl4"><a href="#18-overvakningsprogram">§ 18. Overvåkningsprogram</a></li>
+<li class="lvl2"><a href="#kapittel-4-organisering-av-arbeidet">Kapittel 4. Organisering av arbeidet</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#20-vannregioner-og-vannregionmyndigheter">§ 20. Vannregioner og vannregionmyndigheter</a></li>
+<li class="lvl4"><a href="#21-vannregionmyndighetens-ansvar">§ 21. Vannregionmyndighetens ansvar</a></li>
+<li class="lvl4"><a href="#22-vannregionutvalg-og-statlige-myndigheter">§ 22. Vannregionutvalg og statlige myndigheter</a></li>
+<li class="lvl4"><a href="#23-organisering-av-arbeidet-i-vannregionen">§ 23. Organisering av arbeidet i vannregionen</a></li>
+<li class="lvl4"><a href="#24-miljmalsfastsettelse">§ 24. Miljømålsfastsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-innholdet-i-vannforvaltningsplaner-med-tilhrende-tiltaksprogram">Kapittel 5. Innholdet i vannforvaltningsplaner med tilhørende tiltaksprogram</a></li>
+<li class="lvl4"><a href="#25-tiltaksprogram">§ 25. Tiltaksprogram</a></li>
+<li class="lvl4"><a href="#26-vannforvaltningsplan">§ 26. Vannforvaltningsplan</a></li>
+<li class="lvl4"><a href="#27-offentlig-deltakelse-og-informasjon">§ 27. Offentlig deltakelse og informasjon</a></li>
+<li class="lvl4"><a href="#28-hring">§ 28. Høring</a></li>
+<li class="lvl4"><a href="#29-vedtak-og-godkjenning-av-oppdaterte-vannforvaltningsplaner">§ 29. Vedtak og godkjenning av oppdaterte vannforvaltningsplaner</a></li>
+<li class="lvl2"><a href="#kapittel-6-internasjonale-vannregioner">Kapittel 6. Internasjonale vannregioner</a></li>
+<li class="lvl4"><a href="#30-internasjonale-vannregioner-innenfor-es-omradet">§ 30. Internasjonale vannregioner innenfor EØS-området</a></li>
+<li class="lvl4"><a href="#31-internasjonalt-samarbeid-utenfor-es-omradet">§ 31. Internasjonalt samarbeid utenfor EØS-området</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#32-rapportering">§ 32. Rapportering</a></li>
+<li class="lvl4"><a href="#33-endring-av-forskriften">§ 33. Endring av forskriften</a></li>
+<li class="lvl4"><a href="#33a-unntak">§ 33a. Unntak</a></li>
+<li class="lvl4"><a href="#34-ikrafttredelse">§ 34. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-vannregioner-og-vannregionmyndigheter">Vedlegg I. Vannregioner og vannregionmyndigheter</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-karakterisering-identifisering-av-pavirkninger-og-vurdering-av-miljvirkninger">Vedlegg II. Karakterisering, identifisering av påvirkninger og vurdering av miljøvirkninger</a></li>
+<li class="lvl3"><a href="#1-overflatevann">1. Overflatevann</a></li>
+<li class="lvl4"><a href="#11-karakterisering-av-typer-av-forekomster-av-overflatevann">1.1 Karakterisering av typer av forekomster av overflatevann</a></li>
+<li class="lvl5"><a href="#111-elver">1.1.1 Elver</a></li>
+<li class="lvl5"><a href="#112-innsjer">1.1.2 Innsjøer</a></li>
+<li class="lvl5"><a href="#113-brakkvann">1.1.3 Brakkvann</a></li>
+<li class="lvl5"><a href="#114-kystvann">1.1.4 Kystvann</a></li>
+<li class="lvl4"><a href="#12-fastsettelse-av-typespesifikke-referanseforhold-for-typer-av-overflatevannforekomster">1.2 Fastsettelse av typespesifikke referanseforhold for typer av overflatevannforekomster</a></li>
+<li class="lvl4"><a href="#13-identifisere-belastninger">1.3 Identifisere belastninger</a></li>
+<li class="lvl4"><a href="#14-vurdering-av-miljeffekten-av-pavirkninger">1.4. Vurdering av miljøeffekten av påvirkninger</a></li>
+<li class="lvl3"><a href="#2-grunnvann">2. Grunnvann</a></li>
+<li class="lvl4"><a href="#21-frste-karakterisering">2.1 Første karakterisering</a></li>
+<li class="lvl4"><a href="#22-ytterligere-karakterisering">2.2 Ytterligere karakterisering</a></li>
+<li class="lvl4"><a href="#23-vurdering-av-virkningene-av-menneskelig-virksomhet-pa-grunnvannet">2.3 Vurdering av virkningene av menneskelig virksomhet på grunnvannet</a></li>
+<li class="lvl4"><a href="#24-vurdering-av-virkningene-av-endringer-i-grunnvannsstand">2.4 Vurdering av virkningene av endringer i grunnvannsstand</a></li>
+<li class="lvl4"><a href="#25-vurdering-av-virkningene-av-forurensning-pa-grunnvannskvaliteten">2.5 Vurdering av virkningene av forurensning på grunnvannskvaliteten</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-konomisk-analyse">Vedlegg III. Økonomisk analyse</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-beskyttede-omrader">Vedlegg IV. Beskyttede områder</a></li>
+<li class="lvl2"><a href="#vedlegg-v-klassifisering-og-overvaking">Vedlegg V. Klassifisering og overvåking</a></li>
+<li class="lvl3"><a href="#1-overflatevann_1">1. Overflatevann</a></li>
+<li class="lvl4"><a href="#11-kvalitetselementer-for-klassifisering-av-kologisk-tilstand">1.1 Kvalitetselementer for klassifisering av økologisk tilstand</a></li>
+<li class="lvl4"><a href="#12-normative-definisjoner-for-klassifisering-av-kologisk-tilstand">1.2 Normative definisjoner for klassifisering av økologisk tilstand</a></li>
+<li class="lvl5"><a href="#121-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-elver">1.2.1 Definisjoner for svært god, god og moderat økologisk tilstand i elver</a></li>
+<li class="lvl5"><a href="#122-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-innsjer">1.2.2 Definisjoner for svært god, god og moderat økologisk tilstand i innsjøer</a></li>
+<li class="lvl5"><a href="#123-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-brakkvann">1.2.3 Definisjoner for svært god, god og moderat økologisk tilstand i brakkvann</a></li>
+<li class="lvl5"><a href="#124-definisjoner-for-svrt-god-god-og-moderat-kologisk-tilstand-i-kystvann">1.2.4 Definisjoner for svært god, god og moderat økologisk tilstand i kystvann</a></li>
+<li class="lvl5"><a href="#125-definisjoner-for-maksimalt-godt-og-moderat-kologisk-potensial-for-sterkt-modifiserte-eller-kunstige-vannforekomster">1.2.5 Definisjoner for maksimalt, godt og moderat økologisk potensial for sterkt modifiserte eller kunstige vannforekomster</a></li>
+<li class="lvl5"><a href="#126-framgangsmate-for-fastsettelse-av-kjemiske-miljkvalitetsstandarder">1.2.6 Framgangsmåte for fastsettelse av kjemiske miljøkvalitetsstandarder</a></li>
+<li class="lvl4"><a href="#13-overvakning-av-kologisk-og-kjemisk-tilstand-i-overflatevann">1.3 Overvåkning av økologisk og kjemisk tilstand i overflatevann</a></li>
+<li class="lvl5"><a href="#131-utforming-av-basisovervaking">1.3.1 Utforming av basisovervåking</a></li>
+<li class="lvl5"><a href="#132-utforming-av-tiltaksorientert-overvaking">1.3.2 Utforming av tiltaksorientert overvåking</a></li>
+<li class="lvl5"><a href="#133-utforming-av-problemkartlegging">1.3.3 Utforming av problemkartlegging</a></li>
+<li class="lvl5"><a href="#134-overvakningsfrekvens">1.3.4 Overvåkningsfrekvens</a></li>
+<li class="lvl5"><a href="#135-ytterligere-overvakningskrav-for-beskyttede-omrader">1.3.5 Ytterligere overvåkningskrav for beskyttede områder</a></li>
+<li class="lvl5"><a href="#136-standarder-for-overvakning-av-kvalitetselementer">1.3.6 Standarder for overvåkning av kvalitetselementer</a></li>
+<li class="lvl4"><a href="#14-klassifisering-og-presentasjon-av-kologisk-tilstand">1.4 Klassifisering og presentasjon av økologisk tilstand</a></li>
+<li class="lvl5"><a href="#141-biologiske-overvakningsresultaters-sammenlignbarhet">1.4.1 Biologiske overvåkningsresultaters sammenlignbarhet</a></li>
+<li class="lvl5"><a href="#142-presentasjon-av-overvakingsresultater-og-klassifisering-av-kologisk-tilstand-og-kologisk-potensial">1.4.2 Presentasjon av overvåkingsresultater og klassifisering av økologisk tilstand og økologisk potensial</a></li>
+<li class="lvl5"><a href="#143-presentasjon-av-overvakingsresultater-og-klassifisering-av-kjemisk-tilstand">1.4.3. Presentasjon av overvåkingsresultater og klassifisering av kjemisk tilstand</a></li>
+<li class="lvl3"><a href="#2-grunnvann_1">2. Grunnvann</a></li>
+<li class="lvl4"><a href="#21-grunnvannets-kvantitative-tilstand">2.1 Grunnvannets kvantitative tilstand</a></li>
+<li class="lvl5"><a href="#211-parameter-for-klassifisering-av-kvantitativ-tilstand">2.1.1 Parameter for klassifisering av kvantitativ tilstand</a></li>
+<li class="lvl5"><a href="#212-definisjon-av-kvantitativ-tilstand">2.1.2 Definisjon av kvantitativ tilstand</a></li>
+<li class="lvl4"><a href="#22-overvakning-av-grunnvannets-kvantitative-tilstand">2.2 Overvåkning av grunnvannets kvantitative tilstand</a></li>
+<li class="lvl5"><a href="#221-overvakningsnettverk-for-grunnvannsstand">2.2.1 Overvåkningsnettverk for grunnvannsstand</a></li>
+<li class="lvl5"><a href="#222-overvakningslokalitetenes-tetthet">2.2.2. Overvåkningslokalitetenes tetthet</a></li>
+<li class="lvl5"><a href="#223-overvakningsfrekvens">2.2.3 Overvåkningsfrekvens</a></li>
+<li class="lvl5"><a href="#224-tolkning-og-presentasjon-av-grunnvannets-kvantitative-tilstand">2.2.4 Tolkning og presentasjon av grunnvannets kvantitative tilstand</a></li>
+<li class="lvl4"><a href="#23-grunnvannets-kjemiske-tilstand">2.3 Grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#231-parametere-for-bestemmelse-av-grunnvannets-kjemiske-tilstand">2.3.1 Parametere for bestemmelse av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#232-definisjon-av-god-kjemisk-tilstand-for-grunnvann">2.3.2 Definisjon av god kjemisk tilstand for grunnvann</a></li>
+<li class="lvl4"><a href="#24-overvakning-av-grunnvannets-kjemiske-tilstand">2.4 Overvåkning av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl5"><a href="#241-overvakingsnettverk-for-grunnvann">2.4.1. Overvåkingsnettverk for grunnvann</a></li>
+<li class="lvl5"><a href="#242-basisovervaking">2.4.2 Basisovervåking</a></li>
+<li class="lvl5"><a href="#243-tiltaksovervaking">2.4.3 Tiltaksovervåking</a></li>
+<li class="lvl5"><a href="#244-identifikasjon-av-trender-for-konsentrasjoner-av-forurensende-stoffer">2.4.4 Identifikasjon av trender for konsentrasjoner av forurensende stoffer</a></li>
+<li class="lvl5"><a href="#245-tolkning-og-presentasjon-av-grunnvannets-kjemiske-tilstand">2.4.5 Tolkning og presentasjon av grunnvannets kjemiske tilstand</a></li>
+<li class="lvl2"><a href="#vedlegg-va-klassifisering-interkalibrerte-grenseverdier-for-fastsettelse-av-miljtilstand">Vedlegg Va. Klassifisering – interkalibrerte grenseverdier for fastsettelse av miljøtilstand</a></li>
+<li class="lvl3"><a href="#1-vannkategori-elv">1. Vannkategori elv</a></li>
+<li class="lvl4"><a href="#11-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">1.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl3"><a href="#12-biologisk-kvalitetselement-vannplanter-makrovegetasjon-og-pavekstalger">1.2 Biologisk kvalitetselement: Vannplanter (Makrovegetasjon og påvekstalger)</a></li>
+<li class="lvl3"><a href="#2-vannkategori-innsj">2. Vannkategori innsjø</a></li>
+<li class="lvl4"><a href="#21-biologisk-kvalitetselement-planteplankton">2.1 Biologisk kvalitetselement: Planteplankton</a></li>
+<li class="lvl4"><a href="#22-biologisk-kvalitetselement-vannplanter">2.2 Biologisk kvalitetselement: Vannplanter</a></li>
+<li class="lvl4"><a href="#23-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">2.3 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#24-biologisk-kvalitetselement-fisk">2.4 Biologisk kvalitetselement: Fisk</a></li>
+<li class="lvl3"><a href="#3-vannkategori-store-elver">3. Vannkategori store elver</a></li>
+<li class="lvl4"><a href="#31-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">3.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#32-biologisk-kvalitetselement-fisk">3.2. Biologisk kvalitetselement: Fisk</a></li>
+<li class="lvl3"><a href="#4-vannkategori-kystvann">4. Vannkategori kystvann</a></li>
+<li class="lvl4"><a href="#41-biologisk-kvalitetselement-bunnfauna-virvellse-dyr">4.1 Biologisk kvalitetselement: Bunnfauna (virvelløse dyr)</a></li>
+<li class="lvl4"><a href="#42-biologisk-kvalitetselement-planteplankton">4.2 Biologisk kvalitetselement: Planteplankton</a></li>
+<li class="lvl4"><a href="#43-biologisk-kvalitetselement-fastsittende-alger-makroalger">4.3 Biologisk kvalitetselement: Fastsittende alger (makroalger)</a></li>
+<li class="lvl2"><a href="#vedlegg-vi-liste-over-tiltak-som-skal-tas-med-i-tiltaksprogrammene">Vedlegg VI. Liste over tiltak som skal tas med i tiltaksprogrammene</a></li>
+<li class="lvl3"><a href="#a-grunnleggende-tiltak">A. Grunnleggende tiltak</a></li>
+<li class="lvl3"><a href="#b-supplerende-tiltak">B. Supplerende tiltak</a></li>
+<li class="lvl2"><a href="#vedlegg-vii-krav-til-vannforvaltningsplaner">Vedlegg VII. Krav til vannforvaltningsplaner</a></li>
+<li class="lvl3"><a href="#a-forvaltningsplanene-for-vannregionene-skal-omfatte-flgende-elementer">A. Forvaltningsplanene for vannregionene skal omfatte følgende elementer:</a></li>
+<li class="lvl3"><a href="#b-en-oppdatering-av-vannforvaltningsplanen-skal-i-tillegg-inneholde">B. En oppdatering av vannforvaltningsplanen skal i tillegg inneholde</a></li>
+<li class="lvl2"><a href="#vedlegg-viii-miljkvalitetsstandarder-for-miljgifter-i-vannforekomster">Vedlegg VIII. Miljøkvalitetsstandarder for miljøgifter i vannforekomster</a></li>
+<li class="lvl3"><a href="#a-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-ferskvann-og-kystvann">A. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i ferskvann og kystvann</a></li>
+<li class="lvl3"><a href="#b-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-organismer">B. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i organismer</a></li>
+<li class="lvl3"><a href="#c-miljkvalitetsstandarder-for-prioriterte-stoffer-og-prioritert-farlige-stoffer-i-sediment">C. Miljøkvalitetsstandarder for prioriterte stoffer og prioritert farlige stoffer i sediment</a></li>
+<li class="lvl3"><a href="#d-miljkvalitetsstandarder-for-andre-eu-utvalgte-stoffer">D. Miljøkvalitetsstandarder for andre EU-utvalgte stoffer</a></li>
+<li class="lvl3"><a href="#e-bruk-av-miljkvalitetsstandarder">E. Bruk av miljøkvalitetsstandarder</a></li>
+<li class="lvl3"><a href="#f-krav-til-analyser">F. Krav til analyser</a></li>
+<li class="lvl2"><a href="#vedlegg-ix-kjemisk-tilstand-for-grunnvann-terskel-og-vendepunktverdier">Vedlegg IX. Kjemisk tilstand for grunnvann: terskel- og vendepunktverdier</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-12-15-1446.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-12-15-1446.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-12-15-1446.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2006-12-15-1446.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2006-12-15-1446.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-12-15-1446.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2006-12-15-1446.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2006-12-15-1446.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-12-15-1446.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-rammer-for-vannforvaltningen">Forskrift om rammer for vannforvaltningen</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med denne forskriften er å gi rammer for fastsettelse av miljømål som skal sikre en mest mulig helhetlig beskyttelse og bærekraftig bruk av vannforekomstene.</p>
 <p>Forskriften skal sikre at godkjente vannforvaltningsplaner med tilhørende tiltaksprogrammer revurderes og oppdateres hvert sjette år.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="2-vedlegg">§ 2. Vedlegg</h4>
 <p>Vedleggene til forskriften gjelder som en del av forskriften.</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
@@ -114,13 +419,13 @@ x. Matriks: Ferskvann, kystvann, sediment eller organismer.
 y. Planperiode: Periode på seks år som vannforvaltningsplan gjelder for. Første planperiode er 1. januar 2016–31. desember 2021, andre planperiode er 1. januar 2022–31. desember 2027, tredje planperiode er 1. januar 2028–31. desember 2033. Planperiodene fortsetter deretter på samme vis hvert sjette år.
 z. Vann-Nett: Database som inneholder informasjon om vannforekomstene.
 æ. Vannregionspesifikke stoffer: stoffer, utover de prioriterte stoffer, som er påvist tilført vannforekomstene i betydelige mengder.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 31 aug 2010 nr. 1220 , 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 31 aug 2010 nr. 1220 , 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-2-miljmal">Kapittel 2. Miljømål</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="4-miljmal-for-overflatevann">§ 4. Miljømål for overflatevann</h4>
 <p>Tilstanden i overflatevann skal beskyttes mot forringelse, forbedres og gjenopprettes med sikte på at vannforekomstene skal ha minst god økologisk og god kjemisk tilstand, i samsvar med klassifiseringen i vedlegg V og miljøkvalitetsstandardene i vedlegg VIII. Stoff nr. 34 til og med stoff nr. 45 i vedlegg VIII del A inngår i vurdering av kjemisk tilstand fra og med 22. desember 2018.</p>
 <p>Miljøkvalitetsstandardene i vedlegg VIII gjelder ikke dersom det kan dokumenteres at overskridelser av miljøkvalitetsstandardene skyldes langtransporterte forurensninger.</p>
-<p><em>Endret ved forskrifter 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="5-miljmal-for-kunstige-og-sterkt-modifiserte-vannforekomster">§ 5. Miljømål for kunstige og sterkt modifiserte vannforekomster</h4>
 <p>Tilstanden i kunstige og sterkt modifiserte vannforekomster skal beskyttes mot forringelse og forbedres med sikte på at vannforekomstene skal ha minst godt økologisk potensial og god kjemisk tilstand, i samsvar med klassifiseringen i vedlegg V og miljøkvalitetsstandardene i vedlegg VIII. Stoff nr. 34 til og med stoff nr. 45 i vedlegg VIII del A inngår i vurdering av kjemisk tilstand fra og med 22. desember 2018.</p>
 <p>Miljøkvalitetsstandardene i vedlegg VIII gjelder ikke dersom det kan dokumenteres at overskridelser av miljøkvalitetsstandardene skyldes langtransporterte forurensninger.</p>
@@ -132,27 +437,27 @@ d. flomvern, drenering, eller
 e. annen tilsvarende viktig bærekraftig virksomhet, og</p>
 <p>de samfunnsnyttige formålene den kunstige eller sterkt modifiserte vannforekomsten tjener, på grunn av manglende teknisk gjennomførbarhet eller uforholdsmessig store kostnader, ikke med rimelighet kan oppnås med andre midler som miljømessig er vesentlig bedre.</p>
 <p>En slik utpeking, og begrunnelsen for den, skal fremgå av vannforvaltningsplanen, og revurderes hvert sjette år.</p>
-<p><em>Endret ved forskrifter 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 27 mars 2012 nr. 321 , 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="6-miljmal-for-grunnvann">§ 6. Miljømål for grunnvann</h4>
 <p>Tilstanden i grunnvann skal beskyttes mot forringelse, forbedres og gjenopprettes og balansen mellom uttak og nydannelse sikres med sikte på at vannforekomstene minst skal ha god kjemisk og kvantitativ tilstand, i samsvar med klassifiseringen i vedlegg V, jf. terskel- og vendepunktverdiene gitt i vedlegg IX.</p>
-<p><em>Endret ved forskrifter 31 aug 2010 nr. 1220 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 31 aug 2010 nr. 1220 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="7-miljmal-for-beskyttede-omrader">§ 7. Miljømål for beskyttede områder</h4>
 <p>Beskyttede områder som inngår i registeret i henhold til § 16 skal oppfylle miljømålene i § 4 – § 6 og eventuelle miljømål som følger av grunnlaget for beskyttelse.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="8-frister-for-a-na-miljmalene">§ 8. Frister for å nå miljømålene</h4>
 <p>Miljømålene i § 4 – § 7 skal nås innen utgangen av den til enhver tid gjeldende planperiode.</p>
-<p><em>Endret ved forskrifter 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</p>
 <h4 id="9-utsatte-frister-for-a-na-miljmalene">§ 9. Utsatte frister for å nå miljømålene</h4>
 <p>Fristen i § 8 kan forlenges med sikte på gradvis måloppnåelse dersom naturforhold gjør at en forbedring av vannforekomsten innen fristen ikke lar seg gjennomføre, og det ikke forekommer ytterligere forringelse av tilstanden i den berørte vannforekomsten.</p>
 <p>Fastsettelsen av utsatte frister og begrunnelsen for det, samt et sammendrag av tiltak som er nødvendig for å gradvis bringe miljøtilstanden i overensstemmelse med miljømålet innen den forlengede fristen, årsaken til at tiltakene er vesentlig forsinket, og en forventet tidsplan for gjennomføring av tiltak, skal fremgå av vannforvaltningsplanen. Ved oppdateringen av vannforvaltningsplanen skal en revurdering av gjennomføringen av tiltakene og en oppsummering av eventuelle nye tiltak inkluderes i planen.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</p>
 <h4 id="10-mindre-strenge-miljmal">§ 10. Mindre strenge miljømål</h4>
 <p>Når en vannforekomst er så påvirket av menneskelig virksomhet at det er umulig eller uforholdsmessig kostnadskrevende å nå målene i § 4 – § 7 , kan det fastsettes mindre strenge miljømål dersom følgende vilkår er oppfylt:</p>
 <p>a. de miljømessige og samfunnsøkonomiske behov som denne menneskelige virksomheten tjener, ikke uten uforholdsmessige kostnader kan oppfylles på andre måter som er miljømessig vesentlig gunstigere,
 b. det sikres en best mulig økologisk og kjemisk tilstand for overflatevann og minst mulig avvik fra god kvantitativ tilstand for grunnvann gitt påvirkningene som er til stede, og som ikke med rimelighet kan unngås sett hen til typen av menneskelig virksomhet eller forurensning, og
 c. det ikke forekommer ytterligere forringelse av tilstanden i den berørte vannforekomsten.</p>
 <p>Fastsettelsen av mindre strenge miljømål og begrunnelsen for den skal fremgå av vannforvaltningsplanen, og skal revurderes hvert sjette år.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="11-midlertidig-forringelse-som-flge-av-uforutsette-omstendigheter">§ 11. Midlertidig forringelse som følge av uforutsette omstendigheter</h4>
 <p>Midlertidig forringelse av tilstanden i en vannforekomst er ikke i strid med miljømålene i § 4 – § 7 , dersom forringelsen skyldes ekstraordinære eller uforutsette naturlige omstendigheter, slik som ekstrem flom og langvarig tørke, eller ulykke som ikke med rimelighet kunne forutses, forutsatt at følgende vilkår er oppfylt:</p>
 <p>a. alle praktisk gjennomførbare tiltak treffes for å forhindre ytterligere forringelse av tilstanden og for å unngå forringelse av tilstanden i andre vannforekomster enn de som er berørt,
@@ -160,7 +465,7 @@ b. vannforvaltningsplanen må redegjøre for de forhold som gjør at omstendighe
 c. tiltakene som skal treffes i slike tilfeller skal inngå i tiltaksprogrammet, og skal ikke begrense mulighetene for å gjenopprette tilstanden så snart den uforutsette situasjonen er over, og
 d. tilstanden i vannforekomsten vurderes årlig med sikte på å vurdere alle praktisk gjennomførbare tiltak for å gjenopprette tilstanden i vannforekomsten så raskt som mulig.</p>
 <p>Ved oppdatering av vannforvaltningsplanen skal det tas inn en beskrivelse av virkningene av de uforutsette omstendighetene på vannforekomsten og de tiltak som er gjennomført eller planlagt gjennomført.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="12-ny-aktivitet-eller-nye-inngrep">§ 12. Ny aktivitet eller nye inngrep</h4>
 <p>Ny aktivitet eller nye inngrep i en vannforekomst kan gjennomføres selv om dette medfører at miljømålene i § 4 – § 7 ikke nås eller at tilstanden forringes, dersom dette skyldes:</p>
 <p>a. nye endringer i de fysiske egenskapene til en overflatevannforekomst eller endret nivå i en grunnvannsforekomst, eller
@@ -170,13 +475,13 @@ b. ny bærekraftig aktivitet som medfører forringelse i miljøtilstanden i en v
 b. samfunnsnytten av de nye inngrepene eller aktivitetene skal være større enn tapet av miljøkvalitet, og
 c. hensikten med de nye inngrepene eller aktivitetene kan på grunn av manglende teknisk gjennomførbarhet eller uforholdsmessig store kostnader, ikke med rimelighet oppnås med andre midler som miljømessig er vesentlig bedre.</p>
 <p>Der ny aktivitet eller nye inngrep er gjennomført i planperioden, skal begrunnelsen for dette gjengis i oppdatert vannforvaltningsplan. Dersom det er gitt tillatelse til nye aktiviteter eller nye inngrep, skal dette også fremgå av vannforvaltningsplanen.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="13-forholdet-til-andre-miljbestemmelser">§ 13. Forholdet til andre miljøbestemmelser</h4>
 <p>Hvis det i eller i medhold av annet regelverk er fastsatt strengere krav, utslippsgrenser, utfasingsmål, mål for beskyttelse eller lignende, enn det som følger av denne forskriften, skal den strengeste bestemmelsen legges til grunn.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="14-vann-nett">§ 14. Vann-Nett</h4>
 <p>Miljømålene i gjeldende plan, i tillegg til andre relevante data om vannforekomstene, skal fremgå av Vann-Nett. Vann-Nett skal understøtte deltakelse og informasjon til offentligheten. Miljødirektoratet har ansvaret for Vann-Nett.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-3-kunnskapsgrunnlaget">Kapittel 3. Kunnskapsgrunnlaget</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="15-karakterisering-vurdering-av-miljpavirkning-og-konomisk-analyse">§ 15. Karakterisering, vurdering av miljøpåvirkning og økonomisk analyse</h4>
@@ -185,23 +490,23 @@ c. hensikten med de nye inngrepene eller aktivitetene kan på grunn av manglende
 b. miljøeffekten av menneskeskapt påvirkning for vannforekomstene skal være vurdert, og
 c. en økonomisk analyse av vannbruk skal være utarbeidet i samsvar med vedlegg III.</p>
 <p>Statsforvalteren som miljøfaglig ansvarlig og rådgiver har ansvaret for å oppdatere kunnskapsgrunnlaget i Vann-Nett, i samråd med berørte sektormyndigheter, fylkeskommuner og kommuner.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h4 id="16-register-over-beskyttede-omrader">§ 16. Register over beskyttede områder</h4>
 <p>Miljødirektoratet skal sørge for løpende oppdatering av registeret over beskyttede områder i Vann-Nett, i samsvar med vedlegg IV. Registeret skal inneholde alle overflatevannforekomster og grunnvannsforekomster som har status som beskyttet etter sektorlovverk.</p>
 <p>Ansvarlig sektormyndighet skal angi områdene som skal inn i registeret.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="17-vann-som-brukes-til-uttak-av-drikkevann">§ 17. Vann som brukes til uttak av drikkevann</h4>
 <p>Alle vannforekomster som brukes til uttak av drikkevann og hvor uttaket er mer enn 10 m 3 vann per dag i gjennomsnitt eller forsyner flere enn 50 personer, skal identifiseres og registreres i samsvar med vedlegg IV. Dette gjelder også vannforekomster som er planlagt for slik bruk i fremtiden.</p>
 <p>Forekomster av overflatevann utpekt som drikkevannskilder og som gir mer enn 100 m 3 per dag i gjennomsnitt, skal overvåkes i samsvar med vedlegg V.</p>
 <p>Vannforekomster identifisert som drikkevannskilder etter denne bestemmelsen skal oppfylle miljømålene i § 4 – § 7 og kravene til råvann for drikkevann i annet regelverk, slik at omfanget av rensing ved produksjon av drikkevann reduseres.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="18-overvakningsprogram">§ 18. Overvåkningsprogram</h4>
 <p>Det skal være etablert tilstrekkelige regionale programmer for å sikre en helhetlig overvåkning av tilstanden i vannregionene. Disse skal revurderes og om nødvendig oppdateres hvert sjette år, i samsvar med kravene i vedlegg V. Overvåkningsprogrammene skal:</p>
 <p>a. For overflatevann omfatte økologisk og kjemisk tilstand og økologisk potensial, og i tillegg vannføring og/eller vannstand, i den grad det er relevant for økologisk og kjemisk tilstand og økologisk potensial.
 b. For grunnvann omfatte kjemisk og kvantitativ tilstand.
 c. For beskyttede områder suppleres med krav fra regelverket som hvert enkelt område er opprettet i henhold til.</p>
 <p>Statsforvalteren som miljøfaglig ansvarlig og rådgiver har ansvaret for å koordinere overvåkning og for registrering av overvåkingsdata i Vann-Nett, i samråd med berørte sektormyndigheter, fylkeskommuner og kommuner.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 okt 2012 nr. 1013 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 okt 2012 nr. 1013 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h2 id="kapittel-4-organisering-av-arbeidet">Kapittel 4. Organisering av arbeidet</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="19">§ 19</h4>
@@ -210,24 +515,24 @@ Opphevet ved forskrift 23 des 2009 nr. 1814 (i kraft 1 jan 2010).</em></p>
 <h4 id="20-vannregioner-og-vannregionmyndigheter">§ 20. Vannregioner og vannregionmyndigheter</h4>
 <p>Landet er delt inn i vannregioner med avrenning til norsk kyst eller med avrenning til Sverige eller Finland, jf. nærmere angivelse i vedlegg I.</p>
 <p>Landets vannregioner administreres av de fylkeskommuner som er utpekt som vannregionmyndigheter med ansvar for de vannregioner eller deler av internasjonale vannregioner som ligger i Norge, jf. nærmere angivelse i vedlegg I.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="21-vannregionmyndighetens-ansvar">§ 21. Vannregionmyndighetens ansvar</h4>
 <p>Vannregionmyndigheten skal koordinere arbeidet med å revurdere og om nødvendig oppdatere gjeldende vannforvaltningsplaner med tilhørende tiltaksprogram i samsvar med nasjonale føringer. Vannregionmyndigheten skal gjennomføre oppgavene som følger av denne forskriften i henhold til tidsfristene som er angitt. Dette innebærer blant annet å legge til rette for arbeidet som skal utføres, følge opp myndigheter som har oppgaver i henhold til forskriften, gjennomføre egne oppgaver og samordne de ulike bidragene. Dette skal skje i nært samarbeid med vannregionutvalget.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="22-vannregionutvalg-og-statlige-myndigheter">§ 22. Vannregionutvalg og statlige myndigheter</h4>
 <p>Vannregionmyndigheten skal innenfor den enkelte vannregion opprette et vannregionutvalg under ledelse av vannregionmyndigheten. Vannregionutvalget skal være sammensatt av representanter for vannregionmyndigheten og øvrige fylkeskommuner, statsforvaltere og andre berørte sektormyndigheter og kommuner. Representanter for berørte rettighetshavere og private og allmenne brukerinteresser skal være nært knyttet til vannregionutvalget gjennom en referansegruppe.</p>
 <p>Statlige organer og kommuner har rett og plikt til å delta i planleggingen når den berører deres ansvarsområde, jf. plan- og bygningsloven § 8-3 . Statlige myndigheter har et særlig ansvar for å påse at oppdatering som angår eget ansvarsområde ligger innenfor nasjonale føringer før og etter høring. Uenigheter kan gjengis i utkast til oppdatert plan og avklares eventuelt med endelig virkning i forbindelse med departementets godkjenning etter § 29 .</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h4 id="23-organisering-av-arbeidet-i-vannregionen">§ 23. Organisering av arbeidet i vannregionen</h4>
 <p>Vannregionmyndigheten kan i samarbeid med vannregionutvalget der det er hensiktsmessig, dele hele eller deler av vannregionen i vannområder. Ved inndeling i vannområder skal det tas utgangspunkt i de naturgitte forhold, som hele eller deler av nedbørfelt, fjorder og kystområder. I tillegg skal det legges vekt på eksisterende samarbeidsformer mellom kommuner, regionale myndigheter og andre interesser, forventede utfordringer og allerede igangsatte tiltak.</p>
 <p>Arbeidet som utføres i et vannområde fastsatt i henhold til første ledd, herunder bidrag til å karakterisere vannforekomster og vurdere tiltak, skal gjennomføres med sikte på å kunne inngå i arbeidet på vannregionnivå i henhold til denne forskriften.</p>
 <p>Vannregionmyndigheten gir i nødvendig utstrekning rammer og veiledning for organisering og gjennomføring av arbeidet i vannområdet, og legger til rette for at dette skjer på en faglig forsvarlig måte og innenfor fastsatte frister.</p>
 <p>Forslag til inndeling i vannområder skal inngå som en del av planprogrammet for oppdateringen av vannforvaltningsplanen.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="24-miljmalsfastsettelse">§ 24. Miljømålsfastsettelse</h4>
 <p>Vannregionmyndigheten skal i samarbeid med vannregionutvalget revurdere og om nødvendig oppdatere miljømålene for den enkelte vannforekomst.</p>
 <p>Miljømålene skal være i samsvar med bestemmelsene i denne forskriften og i overensstemmelse med nasjonale føringer og statlige planretningslinjer gitt i medhold av plan- og bygningslovens § 6-2 . Oppdateringen skal ta utgangspunkt i gjeldende vannforvaltningsplan og oppdaterte karakteriseringer og analyser, jf. § 15 og tiltaksvurderinger, jf. § 25 .</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-5-innholdet-i-vannforvaltningsplaner-med-tilhrende-tiltaksprogram">Kapittel 5. Innholdet i vannforvaltningsplaner med tilhørende tiltaksprogram</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="25-tiltaksprogram">§ 25. Tiltaksprogram</h4>
@@ -251,7 +556,7 @@ b. relevante tillatelser undersøkes og gjennomgås ved behov,
 c. overvåkningsprogrammene bli gjennomgått og justert ved behov, og
 d. ytterligere tiltak som er nødvendig for å oppnå miljømålene fastsettes. Det kan inkludere etablering av strengere miljøkvalitetsstandarder i henhold til prosedyrene fastsatt i vedlegg V .</p>
 <p>Tiltakene skal være operative senest tre år etter at tiltaksprogrammet er fastsatt.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 31 aug 2010 nr. 1220 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 12 des 2019 nr. 1760 (i kraft 1 jan 2020), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 31 aug 2010 nr. 1220 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 12 des 2019 nr. 1760 (i kraft 1 jan 2020), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</p>
 <h4 id="26-vannforvaltningsplan">§ 26. Vannforvaltningsplan</h4>
 <p>Vannregionmyndigheten skal i samarbeid med vannregionutvalget utarbeide utkast til oppdatert vannforvaltningsplan for den enkelte vannregion.</p>
 <p>Vannforvaltningsplanen skal revurderes og om nødvendig oppdateres hvert sjette år i samsvar med vedlegg VII og skal blant annet:</p>
@@ -264,16 +569,16 @@ f. sammenfatte tiltaksprogrammet.</p>
 <p>Vannforvaltningsplanen kan suppleres med mer detaljerte planer utarbeidet for deler av vannregionen, sektorer, påvirkningstyper, vanntyper eller vannforekomster.</p>
 <p>Vannregionmyndigheten skal arbeide for at det oppnås enighet om utkast til vannforvaltningsplan i vannregionutvalget. Vannregionmyndigheten eller medlemmene i vannregionutvalget kan kreve at eventuell uenighet blir gjengitt i planen. Ved behov kan spørsmål også kreves avklart på sentralt nivå.</p>
 <p>Departementene kan gi nærmere retningslinjer, herunder nasjonale føringer, om utforming av vannforvaltningsplaner.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="27-offentlig-deltakelse-og-informasjon">§ 27. Offentlig deltakelse og informasjon</h4>
 <p>Vannregionmyndigheten skal i samarbeid med vannregionutvalget tilrettelegge for at alle interesserte gis anledning til å delta aktivt i gjennomføringen av denne forskriften og særlig ved oppdatering av vannforvaltningsplaner med tilhørende tiltaksprogrammer. På forespørsel skal det i samsvar med miljøinformasjonsloven gis tilgang til bakgrunnsdokumenter og opplysninger som er brukt ved utarbeidelsen av vannforvaltningsplaner.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="28-hring">§ 28. Høring</h4>
 <p>Vannregionmyndigheten skal sørge for at:</p>
 <p>a. planprogram for utarbeidelse av vannforvaltningsplan og foreløpig oversikt over hovedutfordringer i vannregionen sendes på offentlig høring senest tre år før ny planperiode begynner.
 b. utkast til oppdatert vannforvaltningsplan med tilhørende tiltaksprogram sendes på offentlig høring senest 18 måneder før ny planperiode begynner.</p>
 <p>Høringsperiodene skal være minst seks måneder.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 25 jan 2024 nr. 131 (i kraft 1 feb 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 24 mai 2011 nr. 546 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 25 jan 2024 nr. 131 (i kraft 1 feb 2024).</p>
 <h4 id="29-vedtak-og-godkjenning-av-oppdaterte-vannforvaltningsplaner">§ 29. Vedtak og godkjenning av oppdaterte vannforvaltningsplaner</h4>
 <p>Oppdatert vannforvaltningsplan skal vedtas som regional plan etter plan- og bygningsloven § 8-4 .</p>
 <p>Vannregionmyndigheten oversender utkastet til oppdatert vannforvaltningsplan for vannregionen til berørte fylkeskommuner. Planen vedtas i fylkestingene i de berørte områder innen påfølgende planperiode begynner.</p>
@@ -281,30 +586,30 @@ b. utkast til oppdatert vannforvaltningsplan med tilhørende tiltaksprogram send
 <p>Miljødirektoratet skal sende sin tilråding til oppdatert plan til Klima- og miljødepartementet. Eventuell uenighet mellom direktoratene skal gjengis i tilrådingen, og vil bli avklart i forbindelse med departementets godkjenning.</p>
 <p>Oppdatert vannforvaltningsplan skal legges fram for Klima- og miljødepartementet som godkjenner planen i samråd med Energidepartementet, jf. plan- og bygningsloven § 8-1 andre ledd. I forbindelse med godkjenningen kan Klima- og miljødepartementet fastsette slike endringer i planen som finnes påkrevd ut fra hensynet til rikspolitiske interesser.</p>
 <p>Godkjente vannforvaltningsplaner skal legges til grunn for regionale organers virksomhet og for kommunal og statlig planlegging og virksomhet i vannregionen, jf. plan- og bygningslovens § 8-2 .</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019). 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 25 jan 2024 nr. 131 (i kraft 1 feb 2024), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019). 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 25 jan 2024 nr. 131 (i kraft 1 feb 2024), 2 juli 2026 nr. 1643 (i kraft 1 sep 2026).</p>
 <h2 id="kapittel-6-internasjonale-vannregioner">Kapittel 6. Internasjonale vannregioner</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="30-internasjonale-vannregioner-innenfor-es-omradet">§ 30. Internasjonale vannregioner innenfor EØS-området</h4>
 <p>Når et nedbørfelt strekker seg inn på en annen EØS-stats territorium, skal den aktuelle vannregionen defineres som en internasjonal vannregion. Vannregionmyndigheten skal samarbeide med den ansvarlige myndigheten i den tilgrensende EØS-staten med sikte på å etablere felles løsninger, slik at ønsket miljøtilstand kan oppnås for hele nedbørfeltet.</p>
 <p>Vannregionmyndigheten skal sørge for å utveksle relevant informasjon med den ansvarlige myndigheten i den tilgrensende EØS-staten. Tiltaksprogrammer og vannforvaltningsplaner for det berørte nedbørfeltet skal være koordinert med de tilgrensende EØS-statene.</p>
 <p>Reglene om offentlig informasjon og høring gjelder i denne forbindelse tilsvarende overfor den ansvarlige myndigheten i den tilgrensende EØS-staten.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 31).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 31).</p>
 <h4 id="31-internasjonalt-samarbeid-utenfor-es-omradet">§ 31. Internasjonalt samarbeid utenfor EØS-området</h4>
 <p>Når et nedbørfelt strekker seg utenfor EØS-området, skal det tas initiativ til internasjonalt samarbeid med sikte på å oppnå ønsket miljøtilstand for hele nedbørfeltet.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 32).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 32).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <p>Tilføyd ved forskrift 20 des 2018 nr. 2231 (i kraft 1 jan 2019).</p>
 <h4 id="32-rapportering">§ 32. Rapportering</h4>
 <p>Klima- og miljødepartementet kan pålegge vannregionmyndigheten å fremskaffe de opplysninger som departementet trenger for å oppfylle rapporteringsforpliktelser i henhold til direktiv 2000/60/EF .</p>
 <p>Sektormyndigheter, fylkeskommuner og kommuner skal fremskaffe informasjon som er nødvendig for vannregionmyndighetens rapportering til Klima- og miljødepartementet etter første ledd</p>
-<p><em>Tilføyd ved forskrift 23 des 2009 nr. 1814 (i kraft 1 jan 2010), endret ved forskrifter 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 32a).</em></p>
+<p class="note">Tilføyd ved forskrift 23 des 2009 nr. 1814 (i kraft 1 jan 2010), endret ved forskrifter 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 des 2018 nr. 2231 (i kraft 1 jan 2019, tidligere § 32a).</p>
 <h4 id="33-endring-av-forskriften">§ 33. Endring av forskriften</h4>
 <p>Forskriften kan endres av Klima- og miljødepartementet og Energidepartementet.</p>
 <p>Vedlegg Va , VIII og IX kan endres av Miljødirektoratet.</p>
-<p><em>Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 25 jan 2024 nr. 131 (i kraft 1 feb 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 des 2009 nr. 1814 (i kraft 1 jan 2010), 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 25 juni 2015 nr. 805 , 20 des 2018 nr. 2231 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 25 jan 2024 nr. 131 (i kraft 1 feb 2024).</p>
 <h4 id="33a-unntak">§ 33a. Unntak</h4>
 <p>Forskriften gjelder ikke for tiltak som kan unntas etter EØS-avtalen artikkel 123 .</p>
-<p><em>Tilføyd ved forskrift 14 feb 2024 nr. 277 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 feb 2024 nr. 277 .</p>
 <h4 id="34-ikrafttredelse">§ 34. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft 1. januar 2007.</p>
 <h2 id="vedlegg-i-vannregioner-og-vannregionmyndigheter">Vedlegg I. Vannregioner og vannregionmyndigheter</h2>
@@ -719,6 +1024,8 @@ b. utkast til oppdatert vannforvaltningsplan med tilhørende tiltaksprogram send
 <p>Ved bestemmelse av god kjemisk tilstand jf. vedlegg V 2.3.2 og ved identifikasjon av trender for forurensende stoffer, jf. vedlegg V 2.4.4, skal følgende terskelverdier og vendepunktverdier gjelde: Stoffer/Parameter Terskelverdi Vendepunktverdi Nitrat, mg/l 50 37,5 Bekjempningsmidler, μg/l 0,1 0,075 Sum bekjempningsmidler μg/l 0,5 0,4 Klorid, mg/l 200 150 Sulfat, mg/l 100 75 Ammonium, mg/l N 0,5 0,4 Arsen, μg/l 10 7,5 Kadmium, μg/l 5 3,75 Bly, μg/l 10 7,5 Kvikksølv, μg/l 0,5 0,4 Sum av Trikloreten og Tetrakloreten, μg/l 10 7 7,5</p>
 <p>Med bekjempningsmidler forstås plantevernmidler som definert i § 2 a) i forskrift om plantevernmidler og biocidholdige produkter som definert i § 3 e) i forskrift om godkjenning av biocider og biocidholdige produkter. Med sum bekjempningsmidler forstås summen av alle individuelle bekjempningsmidler, som påvises og kvantifiseres under overvåkingsprosedyren, herunder relevante omdannelses-, nedbrytnings- og reaksjonsprodukter.</p>
 <p>Vedlegg IX tilføyd ved forskrift 31 aug 2010 nr. 1220 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

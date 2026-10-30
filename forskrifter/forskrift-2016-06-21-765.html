@@ -19,71 +19,160 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-06-21-765.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om Husleietvistutvalget" href="../feeds/forskrift-2016-06-21-765.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Forskrift om Husleietvistutvalget</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-06-21-765</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-06-357</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-06-21-765" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl3"><a href="#3-geografisk-virkeomrade">§ 3. Geografisk virkeområde</a></li>
+<li class="lvl3"><a href="#4-sammensetning">§ 4. Sammensetning</a></li>
+<li class="lvl3"><a href="#5-framgangsmate-ved-forkynning-og-signatur-mv">§ 5. Framgangsmåte ved forkynning og signatur mv.</a></li>
+<li class="lvl3"><a href="#5a-forkynning-av-krav">§ 5a. Forkynning av krav</a></li>
+<li class="lvl3"><a href="#6-klage-til-husleietvistutvalget">§ 6. Klage til Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#7-saksforberedelsen">§ 7. Saksforberedelsen</a></li>
+<li class="lvl3"><a href="#8-saksstyring-under-saksforberedelsen">§ 8. Saksstyring under saksforberedelsen</a></li>
+<li class="lvl3"><a href="#9-fullmektig">§ 9. Fullmektig</a></li>
+<li class="lvl3"><a href="#10-varsling-om-a-mte-med-medhjelper-eller-fullmektig">§ 10. Varsling om å møte med medhjelper eller fullmektig</a></li>
+<li class="lvl3"><a href="#11-mekling">§ 11. Mekling</a></li>
+<li class="lvl3"><a href="#12-behandlingen-i-husleietvistutvalget">§ 12. Behandlingen i Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#13-avgjrelser-av-husleietvistutvalget">§ 13. Avgjørelser av Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#14-rettsvirkninger-av-klage-forlik-og-vedtak">§ 14. Rettsvirkninger av klage, forlik og vedtak</a></li>
+<li class="lvl3"><a href="#15-sksmal-for-tingretten">§ 15. Søksmål for tingretten</a></li>
+<li class="lvl3"><a href="#16-forholdet-til-voldgiftsklausuler">§ 16. Forholdet til voldgiftsklausuler</a></li>
+<li class="lvl3"><a href="#17-forholdet-til-andre-tvisteorganer">§ 17. Forholdet til andre tvisteorganer</a></li>
+<li class="lvl3"><a href="#18-sakskostnader">§ 18. Sakskostnader</a></li>
+<li class="lvl3"><a href="#19-publisering-av-enkeltsaker">§ 19. Publisering av enkeltsaker</a></li>
+<li class="lvl3"><a href="#20-innsynsrett">§ 20. Innsynsrett</a></li>
+<li class="lvl3"><a href="#21-ikraftsetting">§ 21. Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-06-357.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-06-21-765.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om Husleietvistutvalget</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-06-21-765.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-06-21-765 <code>forskrift/2016-06-21-765</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om Husleietvistutvalget</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2016</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-06-357 <code>forskrift/2026-03-06-357</code> fra 06.03.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-06-21-765" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl3"><a href="#3-geografisk-virkeomrade">§ 3. Geografisk virkeområde</a></li>
+<li class="lvl3"><a href="#4-sammensetning">§ 4. Sammensetning</a></li>
+<li class="lvl3"><a href="#5-framgangsmate-ved-forkynning-og-signatur-mv">§ 5. Framgangsmåte ved forkynning og signatur mv.</a></li>
+<li class="lvl3"><a href="#5a-forkynning-av-krav">§ 5a. Forkynning av krav</a></li>
+<li class="lvl3"><a href="#6-klage-til-husleietvistutvalget">§ 6. Klage til Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#7-saksforberedelsen">§ 7. Saksforberedelsen</a></li>
+<li class="lvl3"><a href="#8-saksstyring-under-saksforberedelsen">§ 8. Saksstyring under saksforberedelsen</a></li>
+<li class="lvl3"><a href="#9-fullmektig">§ 9. Fullmektig</a></li>
+<li class="lvl3"><a href="#10-varsling-om-a-mte-med-medhjelper-eller-fullmektig">§ 10. Varsling om å møte med medhjelper eller fullmektig</a></li>
+<li class="lvl3"><a href="#11-mekling">§ 11. Mekling</a></li>
+<li class="lvl3"><a href="#12-behandlingen-i-husleietvistutvalget">§ 12. Behandlingen i Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#13-avgjrelser-av-husleietvistutvalget">§ 13. Avgjørelser av Husleietvistutvalget</a></li>
+<li class="lvl3"><a href="#14-rettsvirkninger-av-klage-forlik-og-vedtak">§ 14. Rettsvirkninger av klage, forlik og vedtak</a></li>
+<li class="lvl3"><a href="#15-sksmal-for-tingretten">§ 15. Søksmål for tingretten</a></li>
+<li class="lvl3"><a href="#16-forholdet-til-voldgiftsklausuler">§ 16. Forholdet til voldgiftsklausuler</a></li>
+<li class="lvl3"><a href="#17-forholdet-til-andre-tvisteorganer">§ 17. Forholdet til andre tvisteorganer</a></li>
+<li class="lvl3"><a href="#18-sakskostnader">§ 18. Sakskostnader</a></li>
+<li class="lvl3"><a href="#19-publisering-av-enkeltsaker">§ 19. Publisering av enkeltsaker</a></li>
+<li class="lvl3"><a href="#20-innsynsrett">§ 20. Innsynsrett</a></li>
+<li class="lvl3"><a href="#21-ikraftsetting">§ 21. Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-06-21-765.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-06-21-765.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-06-21-765.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-06-21-765.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-06-21-765.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-06-21-765.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-06-21-765.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-06-21-765.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-06-21-765.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-husleietvistutvalget">Forskrift om Husleietvistutvalget</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Husleietvistutvalget skal legge til rette for at partene ved mekling eller avgjørelse i tvister om leie av bolig, får løst saken på en hurtig, billig og kompetent måte.</p>
 <h3 id="2-saklig-virkeomrade">§ 2. Saklig virkeområde</h3>
 <p>Husleietvistutvalget behandler tvister om leie av bolig som reguleres av husleielovene.</p>
 <h3 id="3-geografisk-virkeomrade">§ 3. Geografisk virkeområde</h3>
 <p>Husleietvistutvalget behandler tvister om leie av bolig som ligger i Norge, herunder Svalbard.</p>
-<p><em>Endret ved forskrifter 10 nov 2017 nr. 1815 (i kraft 1 jan 2018), 9 des 2019 nr. 1696 (i kraft 1 jan 2020), 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 10 nov 2017 nr. 1815 (i kraft 1 jan 2018), 9 des 2019 nr. 1696 (i kraft 1 jan 2020), 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</p>
 <h3 id="4-sammensetning">§ 4. Sammensetning</h3>
 <p>(1) Husleietvistutvalget skal ledes av en direktør som tilsettes av Husbanken. Direktøren skal oppfylle vilkårene for å være tingrettsdommer etter domstolloven § 53 til § 55 .</p>
 <p>(2) Til å lede den enkelte sak (saksleder) kan Husleietvistutvalget tilsette eller engasjere en eller flere personer som oppfyller vilkårene for å være tingrettsdommer etter domstolloven § 53 til § 55 .</p>
@@ -95,21 +184,21 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. den innklagede i tilsvar uttrykkelig har erkjent kravet, eller
 c. saken gjelder formuesverdier og tvistesummen er 150 000 kroner eller lavere. For fastsettelse av tvistesummen gjelder bestemmelsene i tvisteloven kapittel 17 tilsvarende så langt de passer.</p>
 <p>Ved saksleders vurdering av om saken skal avgjøres av saksleder alene, skal det særlig legges vekt på om kravene har grunnlag i et pågående leieforhold. Saker med krav om oppsigelse etter husleieloven § 9-8 , heving etter § 9-9 og fastsettelse av gjengs leie etter § 4-3 skal alltid behandles av fullt utvalg, unntatt når den innklagede i tilsvar uttrykkelig har erkjent kravet.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2023 nr. 2160 (i kraft 1 jan 2024), 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2023 nr. 2160 (i kraft 1 jan 2024), 6 mars 2026 nr. 357 .</p>
 <h3 id="5-framgangsmate-ved-forkynning-og-signatur-mv">§ 5. Framgangsmåte ved forkynning og signatur mv.</h3>
 <p>(1) Husleietvistutvalgets dokumenter skal forkynnes i vanlig brev vedlagt mottakskvittering for utfylling og retur, eller på slik måte som angitt i domstolloven § 163a . Blir mottakskvittering ikke returnert, skal dokumentet likevel regnes som forkynt dersom det er sannsynliggjort at adressaten har mottatt dokumentet, for eksempel ved bekreftelse på telefon, e-post eller lignende, og det ikke er grunn til å tvile på at vedkommende er rett person.</p>
 <p>(2) For øvrig gjelder reglene i domstolloven kapittel 9 om forkynnelser, meddelelser og elektronisk kommunikasjon så langt de passer.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 6 mars 2026 nr. 357 .</p>
 <h3 id="5a-forkynning-av-krav">§ 5a. Forkynning av krav</h3>
 <p>(1) Husleietvistutvalget sørger for at klagen og andre prosesskriv med nye krav som tas til behandling, forkynnes for motparten.</p>
 <p>(2) Husleietvistutvalget sørger for at begjæring om gjenåpning etter § 13 sjuende ledd , forkynnes for motparten. Forkynning kan likevel unnlates ved forenklet avgjørelse etter tvisteloven § 31-9 første ledd .</p>
 <p>(3) Husleietvistutvalget sørger for at krav om oppfriskning etter § 13 åttende ledd , forkynnes for motparten. Forkynning kan likevel unnlates når Husleietvistutvalget mener at det er sannsynlighetsovervekt for at kravet om oppfriskning ikke kan føre fram.</p>
-<p><em>Tilføyd ved forskrift 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 mars 2026 nr. 357 .</p>
 <h3 id="6-klage-til-husleietvistutvalget">§ 6. Klage til Husleietvistutvalget</h3>
 <p>(1) En klage til Husleietvistutvalget kan framsettes skriftlig, muntlig eller via elektronisk klageskjema på Husleietvistutvalgets nettside. En muntlig klage skal settes opp skriftlig av Husleietvistutvalget. Klagen skal signeres. Ved klage som fremsettes via Husleietvistutvalgets elektroniske klageskjema regnes sikker identifisering ved innlogging i ID-porten som signatur.</p>
 <p>(2) Klagen skal inneholde partenes navn og adresse, leieforholdets adresse, en kort forklaring om hva saken gjelder og hva klageren krever (påstanden). Hver påstand skal begrunnes og være utformet som det resultatet parten vil at utvalget skal komme fram til.</p>
 <p>(3) Klagen bør nevne de bevis som ønskes lagt fram, og opplyse om klageren ønsker mekling.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</p>
 <h3 id="7-saksforberedelsen">§ 7. Saksforberedelsen</h3>
 <p>(1) Etter å ha mottatt og registrert en klage, skal Husleietvistutvalget utpeke en saksleder som har ansvaret for forberedelsen av saken.</p>
 <p>(2) Sakslederen skal avvise saken dersom</p>
@@ -125,7 +214,7 @@ e. gebyret etter § 18 annet ledd ikke blir betalt.</p>
 <h3 id="8-saksstyring-under-saksforberedelsen">§ 8. Saksstyring under saksforberedelsen</h3>
 <p>(1) Husleietvistutvalget skal aktivt styre saksforberedelsen for å oppnå rask, prosessøkonomisk og forsvarlig behandling. Det bør være et rimelig forhold mellom tvistens betydning og omfanget av bevisførselen. Tvisteloven § 21-8 om begrensning av bevisførsel gjelder tilsvarende så langt den passer. Husleietvistutvalget kan gi veiledning som bidrar til at tvisten får en riktig avgjørelse ut fra de faktiske forhold og de aktuelle reglene. Veiledningen må gis på en måte som ikke svekker tilliten til at Husleietvistutvalget er upartisk.</p>
 <p>(2) Husleietvistutvalget kan forlenge frister det har gitt når det anses hensiktsmessig for saksgangen.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</p>
 <h3 id="9-fullmektig">§ 9. Fullmektig</h3>
 <p>En part kan gi fullmakt til andre myndige personer til å opptre på sine vegne i en sak for Husleietvistutvalget.</p>
 <h3 id="10-varsling-om-a-mte-med-medhjelper-eller-fullmektig">§ 10. Varsling om å møte med medhjelper eller fullmektig</h3>
@@ -142,7 +231,7 @@ e. gebyret etter § 18 annet ledd ikke blir betalt.</p>
 <p>(4) Partene skal gis mulighet til å være til stede når bevis føres muntlig for utvalget og når utvalget avholder befaring. I saker med krav om oppsigelse etter husleieloven § 9-8 eller heving etter § 9-9 skal saksleder særlig vurdere om det er behov for å gjennomføre muntlig partsmøte. Muntlig partsmøte kan avholdes som fysisk møte, telefonmøte, videokonferanse eller lignende.</p>
 <p>(5) Dersom en part som er gjort kjent med virkningen av å forholde seg passiv, likevel ikke har gitt tilsvar innen tilsvarsfristen, ikke har svart på en henvendelse fra utvalget innen en fastsatt frist eller har unnlatt å møte for utvalget, kan saken avgjøres på grunnlag av de opplysninger og bevis som foreligger. Dette gjelder likevel ikke dersom det er opplyst eller sannsynlig at parten har gyldig grunn for passiviteten. I vurderingen av om det foreligger en gyldig grunn for passivitet, gjelder tvisteloven § 16-12 andre ledd og § 13-4 så langt de passer.</p>
 <p>(6) Partene skal underveis i saksbehandlingen og før avgjørelsen treffes, gjøres kjent med avgjørelsesgrunnlaget.</p>
-<p><em>Endret ved forskrifter 19 des 2023 nr. 2160 (i kraft 1 jan 2024), 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2023 nr. 2160 (i kraft 1 jan 2024), 6 mars 2026 nr. 357 .</p>
 <h3 id="13-avgjrelser-av-husleietvistutvalget">§ 13. Avgjørelser av Husleietvistutvalget</h3>
 <p>(1) Når saken anses tilstrekkelig opplyst, avgjør Husleietvistutvalget saken ved et skriftlig begrunnet vedtak. Dersom vedtaket ikke er enstemmig, skal også mindretallets syn og begrunnelse framgå. Avgjørelsen kan ikke gå lengre enn partenes påstander.</p>
 <p>(2) Vedtaket skal treffes innen 90 dager etter at saken er tilstrekkelig opplyst. I svært komplekse saker kan fristen forlenges. Partene skal uten unødig opphold informeres om eventuell forlengelse av fristen, og samtidig opplyses om når vedtaket kan forventes.</p>
@@ -155,13 +244,13 @@ e. gebyret etter § 18 annet ledd ikke blir betalt.</p>
 <p>a. det er sannsynliggjort at tilsvar har blitt fremsatt for Husleietvistutvalget innen tilsvarsfristens utløp, eller
 b. parten sannsynliggjør at tilsvar ikke er inngitt som følge av en gyldig passivitetsgrunn, jf. § 12 (5) siste punktum.</p>
 <p>Krav etter denne bestemmelsen må fremsettes for Husleietvistutvalget innen én måned etter at vedtaket er forkynt. Husleietvistutvalgets avgjørelse om oppfriskning etter denne bestemmelsen treffes ved skriftlig vedtak. Et vedtak som går ut på at saken skal oppfriskes etter denne bestemmelse, kan ikke påklages eller kreves overprøvd for tingretten ved stevning.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2023 nr. 2160 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2023 nr. 2160 (i kraft 1 jan 2024).</p>
 <h3 id="14-rettsvirkninger-av-klage-forlik-og-vedtak">§ 14. Rettsvirkninger av klage, forlik og vedtak</h3>
 <p>(1) En klage til Husleietvistutvalget avbryter fristen for å reise søksmål etter husleielovene.</p>
 <p>(2) Husleietvistutvalget er å anse som forvaltningsorgan etter foreldelsesloven § 16 slik at en klage til Husleietvistutvalget avbryter foreldelse.</p>
 <p>(3) Forlik etter § 11 og vedtak etter § 13 , som ikke er brakt inn for domstolene etter reglene i § 15 , har samme virkning som en rettskraftig dom og kan fullbyrdes etter reglene for dommer. For vedtak om betaling av penger gjelder tvangsfullbyrdelsesloven § 4-12 annet ledd tilsvarende når oppfyllelsesfristen er oversittet, selv om vedtaket ikke har fått rettskraftvirkninger.</p>
 <p>(4) For forlik gjelder tvisteloven § 19-12 så langt den passer.</p>
-<p><em>Endret ved forskrift 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrift 6 mars 2026 nr. 357 .</p>
 <h3 id="15-sksmal-for-tingretten">§ 15. Søksmål for tingretten</h3>
 <p>(1) Husleietvistutvalgets vedtak etter § 12 kan innen én måned etter forkynning overprøves ved søksmål for tingretten, uten forliksrådsbehandling. En stevning sendes direkte til tingretten. Fristen beregnes etter reglene i domstolloven kapittel 8.</p>
 <p>(2) Retten kan gi oppfrisking mot oversitting av fristen i første ledd etter reglene i tvisteloven § 16-12 til § 16-14 .</p>
@@ -178,18 +267,20 @@ b. parten sannsynliggjør at tilsvar ikke er inngitt som følge av en gyldig pas
 <p>(3) Blir tvisten forlikt og det ikke er avtalt noe annet, bærer hver av partene sine sakskostnader.</p>
 <p>(4) Blir saken ikke forlikt, fastsetter Husleietvistutvalget hvem som skal bære sakskostnadene, herunder saksbehandlingsgebyret. Ansvar for å bære saksbehandlingsgebyret fordeles etter prinsippene i tvisteloven § 20-2 , § 20-3 og § 20-4 . En part som har fått medhold fullt ut eller i det vesentlige, kan tilkjennes erstatning fra motparten for kostnader som har vært strengt nødvendige for å vinne fram. Eventuelle advokatutgifter anses i hovedsak bare som strengt nødvendige kostnader dersom begge partene har vært bistått av advokat, og det ville virke urimelig ikke å refundere kostnadene. Når det ses bort fra merverdiavgift, kan advokatutgifter uansett bare erstattes med inntil 20 prosent av sakens tvistesum, likevel alltid inntil kr 2 500 og aldri mer enn kr 50 000. Merverdiavgift av kostnad som er erstattet etter femte punktum, kan erstattes når ikke sakens rettsforhold hovedsakelig skriver seg fra virksomhet hos parten som er merverdiavgiftspliktig.</p>
 <p>(5) Husleietvistutvalgets avgjørelse om kostnadsfordeling kan ankes til tingretten innen én måned etter at avgjørelsen er forkynt.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2025 nr. 2738 (i kraft 1 jan 2026), 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 19 des 2025 nr. 2738 (i kraft 1 jan 2026), 6 mars 2026 nr. 357 .</p>
 <h3 id="19-publisering-av-enkeltsaker">§ 19. Publisering av enkeltsaker</h3>
 <p>Et bredt utvalg av Husleieutvalgets avgjørelser, herunder samtlige avgjørelser av prinsipiell betydning, skal offentliggjøres i anonymisert form.</p>
-<p><em>Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 6 mars 2026 nr. 357 .</em></p>
+<p class="note">Endret ved forskrifter 22 juni 2021 nr. 2124 (i kraft 1 sep 2021), 6 mars 2026 nr. 357 .</p>
 <h3 id="20-innsynsrett">§ 20. Innsynsrett</h3>
 <p>(1) For partenes og allmennhetens rett til innsyn i Husleietvistutvalgets saksdokumenter gjelder reglene i tvisteloven § 14-1 til § 14-5 så langt de passer.</p>
 <p>(2) Et avslag på krav om innsyn skal være skriftlig, opplyse om hvilken bestemmelse som ligger til grunn for avslaget, med eventuelle ledd, bokstaver og nummer, og opplyse om retten til å klage og klagefristen. Departementet er klageinstans. Ved behandling av klage gjelder reglene i forvaltningsloven kapittel VI .</p>
-<p><em>Tilføyd ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021).</p>
 <h3 id="21-ikraftsetting">§ 21. Ikraftsetting</h3>
 <p>(1) Forskriften trer i kraft 1. juli 2016.</p>
 <p>(2) Fra samme tid oppheves forskrift 28. september 2000 nr. 1020 om husleietvistutvalget, Oslo, Akershus, Hordaland, Sør-Trøndelag og Nord-Trøndelag.</p>
-<p><em>Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021, tidligere § 20).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2021 nr. 2124 (i kraft 1 sep 2021, tidligere § 20).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

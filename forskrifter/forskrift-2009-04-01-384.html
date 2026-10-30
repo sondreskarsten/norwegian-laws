@@ -19,64 +19,225 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-04-01-384.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om landtransport av farlig gods" href="../feeds/forskrift-2009-04-01-384.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om landtransport av farlig gods</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-04-01-384</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-27-1356</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-04-01-384" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2 – Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#4-generelle-krav-til-sikker-gjennomfring-av-transport">§ 4. Generelle krav til sikker gjennomføring av transport</a></li>
+<li class="lvl4"><a href="#5-krav-til-virksomhet">§ 5. Krav til virksomhet</a></li>
+<li class="lvl4"><a href="#6-varsling-og-rapportering-av-uhell-og-nestenuhell">§ 6. Varsling og rapportering av uhell og nestenuhell</a></li>
+<li class="lvl4"><a href="#7-opphold-under-transport">§ 7. Opphold under transport</a></li>
+<li class="lvl4"><a href="#8-farlig-gods-pa-godsterminal">§ 8. Farlig gods på godsterminal</a></li>
+<li class="lvl4"><a href="#9-sprak">§ 9. Språk</a></li>
+<li class="lvl4"><a href="#10-sikkerhetsradgiver">§ 10. Sikkerhetsrådgiver</a></li>
+<li class="lvl4"><a href="#11-unntak-fra-krav-til-adr-kompetansebevis">§ 11. Unntak fra krav til ADR-kompetansebevis</a></li>
+<li class="lvl4"><a href="#11a-adr-eksamen">§ 11a. ADR-eksamen</a></li>
+<li class="lvl2"><a href="#kapittel-3-srskilte-krav-til-visse-typer-gods-emballasje-tanker-og-kjrety">Kapittel 3 – Særskilte krav til visse typer gods, emballasje, tanker og kjøretøy</a></li>
+<li class="lvl4"><a href="#12-transport-av-farlig-avfall">§ 12. Transport av farlig avfall</a></li>
+<li class="lvl4"><a href="#13-flyplasstankbil">§ 13. Flyplasstankbil</a></li>
+<li class="lvl4"><a href="#14-transport-av-brannfarlige-vsker-i-klasse-3-som-foretas-av-utenlandske-militre-styrker">§ 14. Transport av brannfarlige væsker i klasse 3 som foretas av utenlandske militære styrker</a></li>
+<li class="lvl4"><a href="#15-forbud-mot-fylling-og-tmming-av-ibc-pa-kjrety">§ 15. Forbud mot fylling og tømming av IBC på kjøretøy</a></li>
+<li class="lvl4"><a href="#16-utvidet-brukstid-for-emballasje-for-enkelte-etsende-stoffer">§ 16. Utvidet brukstid for emballasje for enkelte etsende stoffer</a></li>
+<li class="lvl4"><a href="#17-transport-av-farlig-gods-pa-buss">§ 17. Transport av farlig gods på buss</a></li>
+<li class="lvl4"><a href="#18-tanktransport-med-landbruks-eller-skogbrukstraktor">§ 18. Tanktransport med landbruks- eller skogbrukstraktor</a></li>
+<li class="lvl4"><a href="#18a-bruk-av-ekstra-store-kjretykombinasjoner">§ 18a. Bruk av ekstra store kjøretøykombinasjoner</a></li>
+<li class="lvl4"><a href="#18b-tanktransport-av-un-3375-mellomprodukt-for-sprengstoff">§ 18b. Tanktransport av UN 3375, mellomprodukt for sprengstoff</a></li>
+<li class="lvl2"><a href="#kapittel-4-transport-av-eksplosive-stoffer-og-gjenstander">Kapittel 4 – Transport av eksplosive stoffer og gjenstander</a></li>
+<li class="lvl4"><a href="#19-forbud-mot-samlasting-av-sprengstoff-og-tennere">§ 19. Forbud mot samlasting av sprengstoff og tennere</a></li>
+<li class="lvl4"><a href="#20-lasting-og-lossing-av-eksplosive-stoffer-og-gjenstander-klasse-1">§ 20. Lasting og lossing av eksplosive stoffer og gjenstander klasse 1</a></li>
+<li class="lvl4"><a href="#21-emballasje-for-pyroteknisk-ndutstyr-mm-som-skal-til-destruksjon">§ 21. Emballasje for pyroteknisk nødutstyr m.m. som skal til destruksjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-overgangsbestemmelser">Kapittel 5 – Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#22-nasjonal-godkjenningsattest-for-kjrety-som-transporterer-farlig-gods">§ 22. Nasjonal godkjenningsattest for kjøretøy som transporterer farlig gods</a></li>
+<li class="lvl4"><a href="#23-overgangsbestemmelse-for-tanker-og-tankkjrety">§ 23. Overgangsbestemmelse for tanker og tankkjøretøy</a></li>
+<li class="lvl4"><a href="#24-opphevet">§ 24. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25-opphevet">§ 25. (Opphevet)</a></li>
+<li class="lvl4"><a href="#26-overgangsbestemmelse-for-mobil-tilvirkningsenhet-for-eksplosiver-memu">§ 26. Overgangsbestemmelse for mobil tilvirkningsenhet for eksplosiver (MEMU)</a></li>
+<li class="lvl4"><a href="#27-opphevet">§ 27. (Opphevet)</a></li>
+<li class="lvl4"><a href="#28-opphevet">§ 28. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-kontroll">Kapittel 6 – Tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#30-tilsyns-og-kontrollmyndighet">§ 30. Tilsyns- og kontrollmyndighet</a></li>
+<li class="lvl4"><a href="#31-gjennomfring-av-kontroll-pa-vei">§ 31. Gjennomføring av kontroll på vei</a></li>
+<li class="lvl4"><a href="#32-samarbeid-med-andre-land-om-kontroll-pa-vei-og-tilsyn">§ 32. Samarbeid med andre land om kontroll på vei og tilsyn</a></li>
+<li class="lvl2"><a href="#kapittel-6a-kontrollorganer-som-skal-godkjenne-kontrollere-og-prve-emballasje-tanker-og-bulkcontainere">Kapittel 6a – Kontrollorganer som skal godkjenne, kontrollere og prøve emballasje, tanker og bulkcontainere</a></li>
+<li class="lvl4"><a href="#32a-virkeomrade">§ 32a. Virkeområde</a></li>
+<li class="lvl4"><a href="#32b-utpeking-av-kontrollorganer">§ 32b. Utpeking av kontrollorganer</a></li>
+<li class="lvl4"><a href="#32c-organisatoriske-krav-til-kontrollorganer">§ 32c. Organisatoriske krav til kontrollorganer</a></li>
+<li class="lvl4"><a href="#32d-kontrollorganers-oppgaver">§ 32d. Kontrollorganers oppgaver</a></li>
+<li class="lvl4"><a href="#32e-kontrollorganers-sertifisering-av-kontrollrer-for-ibc">§ 32e. Kontrollorganers sertifisering av kontrollører for IBC</a></li>
+<li class="lvl4"><a href="#32f-kontrollorganers-godkjenning-og-overvaking-av-internorganer">§ 32f. Kontrollorganers godkjenning og overvåking av internorganer</a></li>
+<li class="lvl4"><a href="#32g-kontrollorganers-rapporteringsplikt-til-dsb">§ 32g. Kontrollorganers rapporteringsplikt til DSB</a></li>
+<li class="lvl4"><a href="#32h-gebyr">§ 32h. Gebyr</a></li>
+<li class="lvl4"><a href="#32i-tilsyn-med-kontrollorganer">§ 32i. Tilsyn med kontrollorganer</a></li>
+<li class="lvl4"><a href="#32j-reaksjoner-mot-kontrollorganer">§ 32j. Reaksjoner mot kontrollorganer</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#33-eksamensadministrator">§ 33. Eksamensadministrator</a></li>
+<li class="lvl4"><a href="#34-klage">§ 34. Klage</a></li>
+<li class="lvl4"><a href="#35-reaksjonsmidler">§ 35. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#36-fravik">§ 36. Fravik</a></li>
+<li class="lvl4"><a href="#37-ikrafttredelse">§ 37. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-27-1356.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-04-01-384.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om landtransport av farlig gods</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-04-01-384.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-04-01-384 <code>forskrift/2009-04-01-384</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2009</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-27-1356 <code>forskrift/2025-06-27-1356</code> fra 27.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-04-01-384" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2 – Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#4-generelle-krav-til-sikker-gjennomfring-av-transport">§ 4. Generelle krav til sikker gjennomføring av transport</a></li>
+<li class="lvl4"><a href="#5-krav-til-virksomhet">§ 5. Krav til virksomhet</a></li>
+<li class="lvl4"><a href="#6-varsling-og-rapportering-av-uhell-og-nestenuhell">§ 6. Varsling og rapportering av uhell og nestenuhell</a></li>
+<li class="lvl4"><a href="#7-opphold-under-transport">§ 7. Opphold under transport</a></li>
+<li class="lvl4"><a href="#8-farlig-gods-pa-godsterminal">§ 8. Farlig gods på godsterminal</a></li>
+<li class="lvl4"><a href="#9-sprak">§ 9. Språk</a></li>
+<li class="lvl4"><a href="#10-sikkerhetsradgiver">§ 10. Sikkerhetsrådgiver</a></li>
+<li class="lvl4"><a href="#11-unntak-fra-krav-til-adr-kompetansebevis">§ 11. Unntak fra krav til ADR-kompetansebevis</a></li>
+<li class="lvl4"><a href="#11a-adr-eksamen">§ 11a. ADR-eksamen</a></li>
+<li class="lvl2"><a href="#kapittel-3-srskilte-krav-til-visse-typer-gods-emballasje-tanker-og-kjrety">Kapittel 3 – Særskilte krav til visse typer gods, emballasje, tanker og kjøretøy</a></li>
+<li class="lvl4"><a href="#12-transport-av-farlig-avfall">§ 12. Transport av farlig avfall</a></li>
+<li class="lvl4"><a href="#13-flyplasstankbil">§ 13. Flyplasstankbil</a></li>
+<li class="lvl4"><a href="#14-transport-av-brannfarlige-vsker-i-klasse-3-som-foretas-av-utenlandske-militre-styrker">§ 14. Transport av brannfarlige væsker i klasse 3 som foretas av utenlandske militære styrker</a></li>
+<li class="lvl4"><a href="#15-forbud-mot-fylling-og-tmming-av-ibc-pa-kjrety">§ 15. Forbud mot fylling og tømming av IBC på kjøretøy</a></li>
+<li class="lvl4"><a href="#16-utvidet-brukstid-for-emballasje-for-enkelte-etsende-stoffer">§ 16. Utvidet brukstid for emballasje for enkelte etsende stoffer</a></li>
+<li class="lvl4"><a href="#17-transport-av-farlig-gods-pa-buss">§ 17. Transport av farlig gods på buss</a></li>
+<li class="lvl4"><a href="#18-tanktransport-med-landbruks-eller-skogbrukstraktor">§ 18. Tanktransport med landbruks- eller skogbrukstraktor</a></li>
+<li class="lvl4"><a href="#18a-bruk-av-ekstra-store-kjretykombinasjoner">§ 18a. Bruk av ekstra store kjøretøykombinasjoner</a></li>
+<li class="lvl4"><a href="#18b-tanktransport-av-un-3375-mellomprodukt-for-sprengstoff">§ 18b. Tanktransport av UN 3375, mellomprodukt for sprengstoff</a></li>
+<li class="lvl2"><a href="#kapittel-4-transport-av-eksplosive-stoffer-og-gjenstander">Kapittel 4 – Transport av eksplosive stoffer og gjenstander</a></li>
+<li class="lvl4"><a href="#19-forbud-mot-samlasting-av-sprengstoff-og-tennere">§ 19. Forbud mot samlasting av sprengstoff og tennere</a></li>
+<li class="lvl4"><a href="#20-lasting-og-lossing-av-eksplosive-stoffer-og-gjenstander-klasse-1">§ 20. Lasting og lossing av eksplosive stoffer og gjenstander klasse 1</a></li>
+<li class="lvl4"><a href="#21-emballasje-for-pyroteknisk-ndutstyr-mm-som-skal-til-destruksjon">§ 21. Emballasje for pyroteknisk nødutstyr m.m. som skal til destruksjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-overgangsbestemmelser">Kapittel 5 – Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#22-nasjonal-godkjenningsattest-for-kjrety-som-transporterer-farlig-gods">§ 22. Nasjonal godkjenningsattest for kjøretøy som transporterer farlig gods</a></li>
+<li class="lvl4"><a href="#23-overgangsbestemmelse-for-tanker-og-tankkjrety">§ 23. Overgangsbestemmelse for tanker og tankkjøretøy</a></li>
+<li class="lvl4"><a href="#24-opphevet">§ 24. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25-opphevet">§ 25. (Opphevet)</a></li>
+<li class="lvl4"><a href="#26-overgangsbestemmelse-for-mobil-tilvirkningsenhet-for-eksplosiver-memu">§ 26. Overgangsbestemmelse for mobil tilvirkningsenhet for eksplosiver (MEMU)</a></li>
+<li class="lvl4"><a href="#27-opphevet">§ 27. (Opphevet)</a></li>
+<li class="lvl4"><a href="#28-opphevet">§ 28. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-kontroll">Kapittel 6 – Tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#30-tilsyns-og-kontrollmyndighet">§ 30. Tilsyns- og kontrollmyndighet</a></li>
+<li class="lvl4"><a href="#31-gjennomfring-av-kontroll-pa-vei">§ 31. Gjennomføring av kontroll på vei</a></li>
+<li class="lvl4"><a href="#32-samarbeid-med-andre-land-om-kontroll-pa-vei-og-tilsyn">§ 32. Samarbeid med andre land om kontroll på vei og tilsyn</a></li>
+<li class="lvl2"><a href="#kapittel-6a-kontrollorganer-som-skal-godkjenne-kontrollere-og-prve-emballasje-tanker-og-bulkcontainere">Kapittel 6a – Kontrollorganer som skal godkjenne, kontrollere og prøve emballasje, tanker og bulkcontainere</a></li>
+<li class="lvl4"><a href="#32a-virkeomrade">§ 32a. Virkeområde</a></li>
+<li class="lvl4"><a href="#32b-utpeking-av-kontrollorganer">§ 32b. Utpeking av kontrollorganer</a></li>
+<li class="lvl4"><a href="#32c-organisatoriske-krav-til-kontrollorganer">§ 32c. Organisatoriske krav til kontrollorganer</a></li>
+<li class="lvl4"><a href="#32d-kontrollorganers-oppgaver">§ 32d. Kontrollorganers oppgaver</a></li>
+<li class="lvl4"><a href="#32e-kontrollorganers-sertifisering-av-kontrollrer-for-ibc">§ 32e. Kontrollorganers sertifisering av kontrollører for IBC</a></li>
+<li class="lvl4"><a href="#32f-kontrollorganers-godkjenning-og-overvaking-av-internorganer">§ 32f. Kontrollorganers godkjenning og overvåking av internorganer</a></li>
+<li class="lvl4"><a href="#32g-kontrollorganers-rapporteringsplikt-til-dsb">§ 32g. Kontrollorganers rapporteringsplikt til DSB</a></li>
+<li class="lvl4"><a href="#32h-gebyr">§ 32h. Gebyr</a></li>
+<li class="lvl4"><a href="#32i-tilsyn-med-kontrollorganer">§ 32i. Tilsyn med kontrollorganer</a></li>
+<li class="lvl4"><a href="#32j-reaksjoner-mot-kontrollorganer">§ 32j. Reaksjoner mot kontrollorganer</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#33-eksamensadministrator">§ 33. Eksamensadministrator</a></li>
+<li class="lvl4"><a href="#34-klage">§ 34. Klage</a></li>
+<li class="lvl4"><a href="#35-reaksjonsmidler">§ 35. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#36-fravik">§ 36. Fravik</a></li>
+<li class="lvl4"><a href="#37-ikrafttredelse">§ 37. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-04-01-384.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-04-01-384.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-04-01-384.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-04-01-384.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-04-01-384.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-04-01-384.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-04-01-384.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-04-01-384.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-04-01-384.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-landtransport-av-farlig-gods">Forskrift om landtransport av farlig gods</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften har som formål å verne liv, helse, miljø og materielle verdier mot uhell, ulykker og uønskede tilsiktede hendelser ved landtransport av farlig gods.</p>
@@ -89,7 +250,7 @@ b. transport av farlig gods som foretas av mobile maskiner og det farlige godset
 c. militær transport av eksplosive stoffer og gjenstander i klasse 1, samt transport på militære kjøretøy av reservebeholdere med UN 1202 dieselolje, UN 1203 bensin, UN 1223 parafin eller UN 1863 jetdrivstoff fly
 d. politiets transport av farlig gods ved kontroll og annen myndighetsutøvelse
 e. tollvesenets transport av farlig gods ved kontroll og annen myndighetsutøvelse.</p>
-<p><em>Endret ved forskrifter 14 nov 2016 nr. 1311 (i kraft 1 jan 2017), 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 14 nov 2016 nr. 1311 (i kraft 1 jan 2017), 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I forskriften skal følgende forstås slik:</p>
 <p><em>ADR – den til enhver tid gjeldende utgave av den europeiske avtale om internasjonal veitransport av farlig gods, inngått 30. september 1957, med bilag A og B.
@@ -111,23 +272,23 @@ Endret ved forskrifter 13 jan 2014 nr. 26 , 14 nov 2016 nr. 1311 (i kraft 1 jan 
 <p>Virksomheten skal sørge for at alle som har befatning med farlig gods har tilstrekkelig kunnskap og ferdigheter som gjør dem i stand til å utføre oppgavene på en sikker og forsvarlig måte.</p>
 <p>Når ADR/RID krever at arbeidsgiver skal oppbevare dokumentasjon på gjennomgått opplæring, skal denne dokumentasjonen oppbevares gjennom hele ansettelsesperioden og minst ett år etter ansettelsesforholdets opphør.</p>
 <p>Eier og bruker av kjøretøy, jernbanevogn og annet materiell plikter å holde dette i forsvarlig stand gjennom systematisk tilstandskontroll og vedlikehold.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="6-varsling-og-rapportering-av-uhell-og-nestenuhell">§ 6. Varsling og rapportering av uhell og nestenuhell</h4>
 <p>Ved uhell hvor det har oppstått eller er fare for lekkasje eller brann, skal fører av kjøretøy, togfører/leder/lokomotivfører umiddelbart sørge for å varsle brannvesenet.</p>
 <p>Virksomheter skal rapportere om uhell og nestenuhell som skjer i forbindelse med transport av farlig gods, når hendelsen har eller kunne ha fått konsekvenser for liv, helse, miljø eller materielle verdier. Det skal rapporteres innen 8 dager og på et fastsatt skjema.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="7-opphold-under-transport">§ 7. Opphold under transport</h4>
 <p>Farlig gods skal transporteres og losses uten unødig opphold.</p>
 <p>Dersom det likevel er påkrevet med opphold under transporten, skal oppholdet foregå på et egnet sted. Ved vurderingen av egnethet skal det både tas hensyn til sikkerheten for omgivelsene og sikring av lasten mot uvedkommende.</p>
 <p>Brannvesenet kan i det enkelte tilfelle henvise kjøretøy med farlig gods til bestemte områder for opphold under transport.</p>
 <p>Transportdokument skal forevises brannvesenet på oppfordring.</p>
-<p><em>Endret ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</p>
 <h4 id="8-farlig-gods-pa-godsterminal">§ 8. Farlig gods på godsterminal</h4>
 <p>Ansvarlig for operativ drift av godsterminal skal på forespørsel fra brannvesen kunne anvise hvor farlig gods befinner seg på terminalen.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="9-sprak">§ 9. Språk</h4>
 <p>For transporter som i sin helhet foregår i Norge, er det tilstrekkelig å bruke norsk språk på merking og i dokumentasjon. Skriftlige instruksjoner med tiltak for ulykker eller nødsituasjoner skal imidlertid være utformet på et språk som kjøretøyets mannskap kan lese og forstå.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="10-sikkerhetsradgiver">§ 10. Sikkerhetsrådgiver</h4>
 <p>Virksomhet som kommer i befatning med transport av farlig gods skal utpeke en eller flere sikkerhetsrådgivere som skal ha ansvar for å medvirke til å verne liv, helse, miljø og materielle verdier, samt hindre uønskede tilsiktede hendelser knyttet til aktiviteter med farlig gods. Virksomheten skal sende melding om hvem den har utpekt som sikkerhetsrådgiver til DSB.</p>
 <p>Virksomhet som kun utøver følgende aktiviteter er unntatt fra plikten til å utpeke sikkerhetsrådgiver og sende melding etter første ledd:</p>
@@ -136,16 +297,16 @@ b. sporadisk transport av farlig avfall definert som farlig gods i transportkate
 c. kontroll- og redningsoppgaver i forbindelse med transport av farlig gods
 d. militær transport av farlig gods
 e. transport av farlig gods som i sin helhet foregår innenfor et lukket område.</p>
-<p><em>Endret ved forskrifter 13 jan 2014 nr. 26 , 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 13 jan 2014 nr. 26 , 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</p>
 <h4 id="11-unntak-fra-krav-til-adr-kompetansebevis">§ 11. Unntak fra krav til ADR-kompetansebevis</h4>
 <p>Krav til kompetansebevis etter bestemmelsene i ADR gjelder ikke:</p>
 <p>a. ved reparasjoner og verkstedskontroll av tom, ikke rengjort tank
 b. for tjenestemenn i Statens vegvesen i tilknytning til kontroll
 c. for militært personell som transporterer drivstoff tilhørende klasse 3 dersom transporten er militær og føreren har gjennomgått militær opplæring og prøve som er godkjent av Forsvaret.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="11a-adr-eksamen">§ 11a. ADR-eksamen</h4>
 <p>Den som ikke består eksamen innen 1 år etter fullført opplæring mister retten til å avlegge eksamen. For å kunne avlegge eksamen må opplæringen gjennomføres på nytt.</p>
-<p><em>Tilføyd ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-3-srskilte-krav-til-visse-typer-gods-emballasje-tanker-og-kjrety">Kapittel 3 – Særskilte krav til visse typer gods, emballasje, tanker og kjøretøy</h2>
 <p>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="12-transport-av-farlig-avfall">§ 12. Transport av farlig avfall</h4>
@@ -167,19 +328,19 @@ i. bestemmelsene for transport av farlig gods i vegtunneler og aktuelle forebygg
 <p>a. eksplosive stoffer og gjenstander klasse 1
 b. infeksjonsfremmende stoffer klasse 6.2
 c. radioaktivt materiale klasse 7.</p>
-<p><em>Endret ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Endret ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="13-flyplasstankbil">§ 13. Flyplasstankbil</h4>
 <p>Flyplasstankbil som ikke er beregnet for bruk på offentlig vei og som ikke har ADR godkjenningsattest, kan kjøre med tom ikke rengjort tank mellom flyplasser, til og fra verksteder, og gjennomføre testkjøring, dersom den er merket med oransje skilt og faresedler i henhold til ADR 5.3.</p>
-<p><em>Endret ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Endret ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="14-transport-av-brannfarlige-vsker-i-klasse-3-som-foretas-av-utenlandske-militre-styrker">§ 14. Transport av brannfarlige væsker i klasse 3 som foretas av utenlandske militære styrker</h4>
 <p>Kravene i ADR gjelder ikke for utenlandske militære styrker som transporterer brannfarlige væsker i klasse 3, dersom de oppfyller et tilsvarende regelverk fra hjemlandet.</p>
 <p>Kjøretøyene og tankene skal likevel være merket i samsvar med ADR.</p>
 <p>Kjøretøyene, tankene og det tilhørende utstyret skal ha et tilsvarende sikkerhetsnivå som i ADR og gjennomførte kontroller skal kunne dokumenteres på forespørsel.</p>
 <p>Føreren skal ha tilpasset opplæring, som også omfatter aktuelle kjøreforhold. Gjennomført opplæring skal kunne dokumenteres på forespørsel.</p>
-<p><em>Opphevet ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017), tilføyd ved forskrift 1 sep 2022 nr. 1531 .</em></p>
+<p class="note">Opphevet ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017), tilføyd ved forskrift 1 sep 2022 nr. 1531 .</p>
 <h4 id="15-forbud-mot-fylling-og-tmming-av-ibc-pa-kjrety">§ 15. Forbud mot fylling og tømming av IBC på kjøretøy</h4>
 <p>Det er ikke tillatt å fylle eller tømme brannfarlig væske klasse 3 i eller fra IBC som står på et kjøretøy. Forbudet gjelder ikke brannfarlig væske i emballasjegruppe III.</p>
-<p><em>Endret ved forskrift 16 mars 2010 nr. 394 .</em></p>
+<p class="note">Endret ved forskrift 16 mars 2010 nr. 394 .</p>
 <h4 id="16-utvidet-brukstid-for-emballasje-for-enkelte-etsende-stoffer">§ 16. Utvidet brukstid for emballasje for enkelte etsende stoffer</h4>
 <p>Emballasje, unntatt IBC og storemballasje, som kun benyttes til transport av UN 3412 maursyre, kan brukes inntil 10 år fra produksjonsdato dersom den brukes i et kontrollert retursystem.</p>
 <p>IBC av stiv plast (31H1) som kun benyttes til transport av følgende stoffer i klasse 8:</p>
@@ -190,7 +351,7 @@ d. UN 1791 natriumhypoklorittløsning med høyst 15 prosent natriumhypokloritt
 e. UN 1789 saltsyre</p>
 <p>som brukes i et kontrollert og dokumentert retursystem kan benyttes i inntil 7,5 år fra produksjonsdato.</p>
 <p>Det skal gjennomføres årlig tilstandskontroll for IBC som er eldre enn 5 år.</p>
-<p><em>Opphevet ved forskrift 13 jan 2014 nr. 26 , tilføyd igjen ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Opphevet ved forskrift 13 jan 2014 nr. 26 , tilføyd igjen ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="17-transport-av-farlig-gods-pa-buss">§ 17. Transport av farlig gods på buss</h4>
 <p>Dersom busselskapet tillater det, kan passasjerer ta med farlig gods som er til eget personlig bruk og emballert i originalemballasje.</p>
 <p>Uavhengig av busselskapets vurdering er eksplosive stoffer og gjenstander, med unntak av publikumstilgjengelig fyrverkeri og håndvåpenammunisjon, ikke tillatt transportert på buss med passasjerer.</p>
@@ -199,14 +360,14 @@ e. UN 1789 saltsyre</p>
 <p>For transporter utenfor egen jord- eller skogbruksvirksomhet gjelder i tillegg kravet om ADR-kompetansebevis.</p>
 <p>Traktor nevnt i første ledd skal ha nasjonal godkjenningsattest.</p>
 <p>Ammoniakktank skal oppfylle alle krav i ADR 2005 del 6.8 eller senere utgaver inkludert kravene til periodisk kontroll. Ammoniakktank skal minst hvert sjette år gjennomgå magnetpulverprøving for å avdekke eventuelle sprekker.</p>
-<p><em>Endret ved forskrifter 13 jan 2014 nr. 26 , 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 13 jan 2014 nr. 26 , 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="18a-bruk-av-ekstra-store-kjretykombinasjoner">§ 18a. Bruk av ekstra store kjøretøykombinasjoner</h4>
 <p>Kjøretøy som transporterer farlig gods og som skal ha godkjenning etter ADR del 9 som et FL, AT, EX/II eller EX/III-kjøretøy, skal ikke inngå i modulvogntog eller andre vogntog som overstiger de vekter og dimensjoner som er angitt i forskrift 25. januar 1990 nr. 92 om bruk av kjøretøy § 5-4 .</p>
-<p><em>Tilføyd ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</p>
 <h4 id="18b-tanktransport-av-un-3375-mellomprodukt-for-sprengstoff">§ 18b. Tanktransport av UN 3375, mellomprodukt for sprengstoff</h4>
 <p>Produkter klassifisert og godkjent som UN 3375 AMMONIUMNITRAT EMULSJON, LØSNING eller GEL, flytende eller fast stoff, og som har bestått testene a, b og c i testserie 8 i UN Testmanualen, del I seksjon 18, kan transporteres uten at egnetheten for transport i tank er ytterligere bevist ved prøving, dersom transporten skjer i tank som er tilvirket av aluminium. Når det benyttes aluminiumstank for UN 3375 på mobile tilvirkningsenheter for eksplosiver (MEMU), kreves det ikke sprengblekk eller andre særskilte trykkavlastningsordninger på tanken.</p>
 <p>Denne bestemmelsen gjelder ikke for transport i multimodale tanker.</p>
-<p><em>Tilføyd ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 22 nov 2018 nr. 1733 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-4-transport-av-eksplosive-stoffer-og-gjenstander">Kapittel 4 – Transport av eksplosive stoffer og gjenstander</h2>
 <h4 id="19-forbud-mot-samlasting-av-sprengstoff-og-tennere">§ 19. Forbud mot samlasting av sprengstoff og tennere</h4>
 <p>Samlasting av sprengstoff i forenlighetsgruppe D og tennere i forenlighetsgruppe B i samme kjøretøy er ikke tillatt.</p>
@@ -218,28 +379,28 @@ e. UN 1789 saltsyre</p>
 <p>a. betraktes som tilhørende klassifiseringskode 1.3G
 b. er emballert i inneremballasje av plast.</p>
 <p>Transportdokumentet skal indikere at emballeringsbestemmelse P101 er benyttet.</p>
-<p><em>Endret ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Endret ved forskrift 13 jan 2014 nr. 26 .</p>
 <h2 id="kapittel-5-overgangsbestemmelser">Kapittel 5 – Overgangsbestemmelser</h2>
 <h4 id="22-nasjonal-godkjenningsattest-for-kjrety-som-transporterer-farlig-gods">§ 22. Nasjonal godkjenningsattest for kjøretøy som transporterer farlig gods</h4>
 <p>Kjøretøy som ikke oppfyller de relevante kravene i ADR kapittel 9 for det farlige godset som skal transporteres, men som er tillatt brukt i henhold til en nasjonal overgangsbestemmelse i denne forskriften, skal ha en nasjonal godkjenningsattest for kjøretøyet. Denne attesten er kun gyldig i Norge. Teknisk kontroll og fornyelse av attesten skal skje årlig slik det er foreskrevet for ADR-godkjente kjøretøyer i ADR avsnitt 9.1.2.3 og 9.1.3.4.</p>
-<p><em>Endret ved forskrifter 13 jan 2014 nr. 26 , 27 april 2016 nr. 433 .</em></p>
+<p class="note">Endret ved forskrifter 13 jan 2014 nr. 26 , 27 april 2016 nr. 433 .</p>
 <h4 id="23-overgangsbestemmelse-for-tanker-og-tankkjrety">§ 23. Overgangsbestemmelse for tanker og tankkjøretøy</h4>
 <p>Tanker og tankkjøretøyer som ikke tilfredsstiller nåværende krav til konstruksjon, men som ble bygget før 1. januar 1997 i overensstemmelse med norske bestemmelser, kan likevel benyttes for innenlands transport frem til og med 31. desember 2019, dersom de tilfredsstiller de opprinnelige krav til sikkerhet samt at inspeksjon og prøver utføres i samsvar med bestemmelsene i ADR.</p>
-<p><em>Endret ved forskrifter 13 jan 2014 nr. 26 , 27 april 2016 nr. 433 .</em></p>
+<p class="note">Endret ved forskrifter 13 jan 2014 nr. 26 , 27 april 2016 nr. 433 .</p>
 <h4 id="24-opphevet">§ 24. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Opphevet ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="25-opphevet">§ 25. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Opphevet ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="26-overgangsbestemmelse-for-mobil-tilvirkningsenhet-for-eksplosiver-memu">§ 26. Overgangsbestemmelse for mobil tilvirkningsenhet for eksplosiver (MEMU)</h4>
 <p>Mobil tilvirkningsenhet for eksplosiver (MEMU) som ble bygget og godkjent i henhold til nasjonale bestemmelser før 1. juli 2009, men som ikke oppfyller kravene i ADR til konstruksjon og godkjenning som gjaldt fra 1. januar 2009, kan benyttes med nasjonal godkjenningsattest for kjøretøyet.</p>
 <p>Nasjonal godkjenningsattest for MEMU kan gis til kjøretøy som tilfredsstiller konstruksjonskravene som gjaldt da enheten ble bygget, samt betingelsene som er angitt i enhetens opprinnelige vedtak om godkjenning uavhengig av godkjenningens varighet.</p>
-<p><em>Endret ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Endret ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="27-opphevet">§ 27. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Opphevet ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="28-opphevet">§ 28. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 13 jan 2014 nr. 26 .</em></p>
+<p class="note">Opphevet ved forskrift 13 jan 2014 nr. 26 .</p>
 <h4 id="29-opphevet">§ 29. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Opphevet ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-6-tilsyn-og-kontroll">Kapittel 6 – Tilsyn og kontroll</h2>
 <h4 id="30-tilsyns-og-kontrollmyndighet">§ 30. Tilsyns- og kontrollmyndighet</h4>
 <p>DSB fører tilsyn med at bestemmelsene i denne forskriften overholdes.</p>
@@ -248,14 +409,14 @@ b. er emballert i inneremballasje av plast.</p>
 <p>DSB, politi og tollvesen kan kontrollere transport av farlig gods på jernbane.</p>
 <p>DSB kan hos virksomhet kontrollere forhold med direkte tilknytning til landtransport av farlig gods. Statens vegvesen og politiet kan hos virksomhet kontrollere farlig gods kjøretøy.</p>
 <p>DSB kan benytte anerkjente kontrollorganer og annen sakkyndig bistand i forbindelse med kontrollen.</p>
-<p><em>Endret ved forskrift 16 jan 2019 nr. 21 .</em></p>
+<p class="note">Endret ved forskrift 16 jan 2019 nr. 21 .</p>
 <h4 id="31-gjennomfring-av-kontroll-pa-vei">§ 31. Gjennomføring av kontroll på vei</h4>
 <p>Kontroll skal gjennomføres som stikkprøver over en så stor del av veinettet som mulig. Stedet der kontrollmyndigheten anser det nødvendig å holde kjøretøy tilbake eller henvise kjøretøyet til, skal være egnet for formålet og ikke innebære uakseptabel risiko.</p>
 <p>Kontroll av kjøretøy skal gjennomføres i henhold til sjekklisten i direktiv (EU) 2022/1999 vedlegg I. Kontrollmyndigheten skal gi fører av kjøretøyet et eksemplar av sjekklisten eller en attest som viser resultatet av kontrollen. Sjekklisten/attesten skal på anmodning fra kontrollmyndigheten fremvises ved senere kontroller slik at ytterligere kontroll kan forenkles eller så vidt mulig unngås.</p>
 <p>Kontrollmyndigheten kan kreve fremlagt de dokumenter som skal følge med ved transport av farlig gods, og kreve innsyn i lasten. Dersom det ikke innebærer uakseptabel risiko kan kontrollmyndigheten ta ut prøver av godset for nærmere undersøkelser i laboratorier anerkjent av DSB.</p>
 <p>Kontrollen skal ikke overstige rimelig tid.</p>
 <p>Ved overtredelse av bestemmelser i denne forskriften, og særlig ved overtredelser som listet i direktiv (EU) 2022/1999 vedlegg II, kan kontrollmyndigheten enten holde tilbake kjøretøy eller henvise kjøretøy til et passende sted inntil kjøretøyet er brakt i overensstemmelse med reglene. Avhengig av omstendighetene eller av hensynet til sikkerheten kan kontrollmyndigheten også pålegge andre nødvendige tiltak før transporten kan gjenopptas. Kontrollmyndigheten kan på stedet trekke tilbake en godkjenningsattest for et norskregistrert kjøretøy dersom det er i en slik forfatning at fortsatt bruk er uforsvarlig.</p>
-<p><em>Endret ved forskrift 26 sep 2024 nr. 2300 .</em></p>
+<p class="note">Endret ved forskrift 26 sep 2024 nr. 2300 .</p>
 <h4 id="32-samarbeid-med-andre-land-om-kontroll-pa-vei-og-tilsyn">§ 32. Samarbeid med andre land om kontroll på vei og tilsyn</h4>
 <p>Alvorlige og gjentatte overtredelser som utgjør en sikkerhetsrisiko for transport av farlig gods som begås av en virksomhet som er hjemmeværende i et annet land som er omfattet av EØS-avtalen , skal rapporteres/meldes til myndighetene i det landet hvor kjøretøyet er registrert eller hvor virksomheten er etablert.</p>
 <p>Myndighetene i det landet hvor alvorlige og gjentatte overtredelser er konstatert, kan anmode myndighetene i det landet hvor kjøretøyet er registrert eller hvor virksomheten er etablert, om å iverksette passende tiltak overfor overtrederen. Myndighetene i det landet hvor kjøretøyet er registrert eller hvor virksomheten er etablert skal i så fall underrette myndighetene i det landet hvor overtredelsen er konstatert om hvilke tiltak som er iverksatt overfor transporten eller virksomheten.</p>
@@ -265,14 +426,14 @@ b. er emballert i inneremballasje av plast.</p>
 <h4 id="32a-virkeomrade">§ 32a. Virkeområde</h4>
 <p>Dette kapittelet gjelder utpeking og krav til kontrollorganer som etter reglene i forskriften, herunder ADR/RID, skal godkjenne, kontrollere og prøve emballasje, tanker og bulkcontainere for lovlig transport av farlig gods. Kapittelet gjelder ikke godkjenning, kontroll og testing av emballasje, tanker og bulkcontainere til klasse 7 radioaktivt materiale.</p>
 <p>Dette kapittelet gjelder ikke utstyr som er regulert i forskrift om transportabelt trykkutstyr .</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32b-utpeking-av-kontrollorganer">§ 32b. Utpeking av kontrollorganer</h4>
 <p>Virksomheter som vil bli kontrollorgan for emballasje, tanker og bulkcontainere etter denne forskriften, kan etter søknad til DSB bli utpekt som kontrollorgan.</p>
 <p>Kontrollorganer skal ha norsk organisasjonsnummer og være akkrediterte for oppgavene.</p>
 <p>Kontrollorganer for tanker og bulkcontainere skal være akkrediterte etter EN ISO/ IEC 17020 type A (unntatt avsnitt 8.1.3). Kontrollorganer for emballasje skal være akkrediterte etter EN ISO/IEC 17020 type A (unntatt avsnitt 8.1.3) eller EN ISO/IEC 17025.</p>
 <p>Virksomheter skal i søknaden til DSB dokumentere med et akkrediteringssertifikat fra et nasjonalt akkrediteringsorgan at kravet i andre og tredje ledd er oppfylt. Akkrediteringsdokumentene skal vise til de godkjenningene, kontrollene og prøvene i ADR/RID som kontrollorganet kan utføre.</p>
 <p>En utpeking som kontrollorgan er gyldig inntil akkrediteringen utløper eller trekkes tilbake, eller inntil utpekingen omgjøres etter § 32j andre ledd.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32c-organisatoriske-krav-til-kontrollorganer">§ 32c. Organisatoriske krav til kontrollorganer</h4>
 <p>Kontrollorganer skal</p>
 <p>a. ha ansatte med relevant opplæring og gode faglige kvalifikasjoner,
@@ -280,33 +441,33 @@ b. ha tilgang på hensiktsmessige lokaler og utstyr,
 c. opprettholde et klart skille mellom kontrollorganfunksjoner og andre aktiviteter,
 d. ha et dokumentert system for kvalitetskontroll, og
 e. opprettholde et effektivt og hensiktsmessig rapport- og dokumentarkiv.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32d-kontrollorganers-oppgaver">§ 32d. Kontrollorganers oppgaver</h4>
 <p>I henhold til utpekingen skal kontrollorganene utføre oppgavene med godkjenning, kontroll og prøving etter ADR/RID del 4 og del 6.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32e-kontrollorganers-sertifisering-av-kontrollrer-for-ibc">§ 32e. Kontrollorganers sertifisering av kontrollører for IBC</h4>
 <p>Kontrollorganer for emballasje kan sertifisere kontrollører for førstegangskontroll og periodisk kontroll av IBC. Kontrollorganer skal sørge for at sertifiseringsordningen er forsvarlig og utstede kompetansebevis med gyldighet på fem år til kontrollører som har gjennomført kurs og bestått prøve.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32f-kontrollorganers-godkjenning-og-overvaking-av-internorganer">§ 32f. Kontrollorganers godkjenning og overvåking av internorganer</h4>
 <p>Kontrollorganer for tanker kan godkjenne og overvåke internorgan for periodiske-, mellomliggende- og ekstraordinære kontroller av atmosfæriske tanker etter ADR kapittel 6.8.2.4.2, 6.8.2.4.3 og 6.8.2.4.4.</p>
 <p>Reglene i ADR kapittel 1.8.7 gjelder tilsvarende for godkjenning og overvåking av internorganer for kontroll av atmosfæriske tanker for vegtransport av brannfarlige væsker i klasse 3.</p>
 <p>Internorganets kontroller av atmosfæriske tanker skal ikke gjennomføres av personell som har utført reparasjon eller vedlikehold på den samme tanken.</p>
 <p>Med atmosfæriske tanker forstås faste tanker eller løstanker for transport av væsker med damptrykk ikke over 110 kPa (1,1 bar) (absolutt) ved 50 °C som er konstruert i samsvar med bestemmelsene i ADR 6.8.1.1.14 a), og som er utstyrt med luftesystem i henhold til 6.8.2.2.6.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32g-kontrollorganers-rapporteringsplikt-til-dsb">§ 32g. Kontrollorganers rapporteringsplikt til DSB</h4>
 <p>Kontrollorganer skal innen første kvartal hvert år fremlegge en rapport til DSB om</p>
 <p>a. godkjenninger, kontroller og prøver som er utført i medhold av utpekingen,
 b. avslag, restriksjoner, suspensjoner eller tilbaketrekkinger av typegodkjenningssertifikater,
 c. eventuelle forhold som påvirker omfanget og betingelsene for utpekingen, og
 d. gjennomførte kurs for kontrollører av IBC.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32h-gebyr">§ 32h. Gebyr</h4>
 <p>Kontrollorganer kan ta gebyr for godkjenning, kontroll og prøving etter denne forskriften. Gebyrets størrelse skal stå i rimelig forhold til kontrollorganets utgifter ved gjennomføringen av oppgavene.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32i-tilsyn-med-kontrollorganer">§ 32i. Tilsyn med kontrollorganer</h4>
 <p>DSB kan føre tilsyn med kontrollorganer som er utpekt etter dette kapittelet.</p>
 <p>Ved utøvelse av tilsyn gjelder lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver § 33 til § 36 om tilsynsmyndighetenes rett til å kreve opplysninger, rett til adgang og rett til å innhente prøver.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h4 id="32j-reaksjoner-mot-kontrollorganer">§ 32j. Reaksjoner mot kontrollorganer</h4>
 <p>DSB kan gi kontrollorganer de pålegg som er nødvendige for å sikre at kontrollene utføres i samsvar med denne forskriften. Om nødvendig kan det gis pålegg om stansing av kontrollvirksomheten til avvik er rettet eller til vedtak om omgjøring av utpeking er avgjort.</p>
 <p>DSB kan midlertidig eller permanent omgjøre en utpeking av et kontrollorgan dersom det avdekkes:</p>
@@ -315,7 +476,7 @@ b. vesentlige eller gjentatte avvik fra kravene til kontrollenes innhold, metode
 c. at pålegg som er nødvendig for å sikre at kontrollene utføres i samsvar med forskriften, ikke etterkommes eller at skriftlig advarsel ikke tas til følge,
 d. at kontrollorganet unndrar seg tilsyn, eller
 e. at det utføres kontroller som kontrollorganet ikke er utpekt for.</p>
-<p><em>Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved forskrift 16 mai 2022 nr. 859 (i kraft 1 juli 2022, se endringsforskrift del II for overgangsregler).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</h2>
 <h4 id="33-eksamensadministrator">§ 33. Eksamensadministrator</h4>
 <p>DSB utpeker eksamensadministrator for sikkerhetsrådgiver og ADR-kompetansebevis. Eksamensadministrator utarbeider og gjør kjent de nødvendige administrative rutiner for gjennomføring av eksamen og utstedelse av bevis. Eksamensadministrator kan kreve gebyr for gjennomføring av eksamen, for ikke oppmøte til eksamen og for utstedelse av bevis.</p>
@@ -323,16 +484,18 @@ e. at det utføres kontroller som kontrollorganet ikke er utpekt for.</p>
 <p>Enkeltvedtak truffet av DSB kan påklages til Justis- og beredskapsdepartementet.</p>
 <p>Enkeltvedtak truffet av eksamensadministrator, Statens vegvesen, politi, tollvesen, og kontrollorganer, kan påklages til DSB.</p>
 <p>Klagen skal fremsettes overfor den myndigheten eller det kontrollorganet som har truffet enkeltvedtaket.</p>
-<p><em>Endret ved forskrifter 22 nov 2018 nr. 1733 (i kraft 1 jan 2019), 16 mai 2022 nr. 859 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 22 nov 2018 nr. 1733 (i kraft 1 jan 2019), 16 mai 2022 nr. 859 (i kraft 1 juli 2022).</p>
 <h4 id="35-reaksjonsmidler">§ 35. Reaksjonsmidler</h4>
 <p>Ved overtredelse av denne forskriftens bestemmelser eller vedtak fattet i medhold av den gjelder bestemmelsene i brann- og eksplosjonsvernloven § 37 – § 40 og § 42 tilsvarende.</p>
 <p>DSB kan trekke tilbake ADR-kompetansebevis ved overtredelse av bestemmelser i lov, forskrift eller dersom særlige grunner tilsier det. DSB avgjør når og på hvilke vilkår kompetansebeviset kan gis tilbake etter en slik tilbaketrekking.</p>
 <h4 id="36-fravik">§ 36. Fravik</h4>
 <p>DSB kan fravike bestemmelsene i denne forskriften i enkelttilfeller når særlige grunner foreligger og det ikke strider mot internasjonale avtaler som Norge har inngått. Fravik må være begrenset i tid og gjelde for tydelige definerte transportoperasjoner. Det kan settes særskilte betingelser for slike fravik. Ved vurderingen av om fravik skal gis legges spesielt vekt på at sikkerhetsnivået opprettholdes på tross av et fravik.</p>
-<p><em>Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2016 nr. 1311 (i kraft 1 jan 2017).</p>
 <h4 id="37-ikrafttredelse">§ 37. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. juli 2009.</p>
 <p>Fra samme tidspunkt oppheves forskrift 1. desember 2006 nr. 1331 om transport av farlig gods på veg og jernbane.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

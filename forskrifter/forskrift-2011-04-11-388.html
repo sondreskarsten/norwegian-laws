@@ -19,69 +19,192 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-04-11-388.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Jernbaneinfrastrukturforskriften" href="../feeds/forskrift-2011-04-11-388.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Jernbaneinfrastrukturforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2011-04-11-388</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-11-30-2051</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2011-04-11-388" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-drift-av-jernbaneinfrastruktur">Kapittel 2. Krav til drift av jernbaneinfrastruktur</a></li>
+<li class="lvl4"><a href="#2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</a></li>
+<li class="lvl4"><a href="#2-2-romblokkprinsippet">§ 2-2. Romblokkprinsippet</a></li>
+<li class="lvl4"><a href="#2-3-teknisk-dokumentasjon">§ 2-3. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#2-4-drift-og-vedlikehold-av-jernbaneinfrastruktur">§ 2-4. Drift og vedlikehold av jernbaneinfrastruktur</a></li>
+<li class="lvl4"><a href="#2-5-register-over-jernbaneinfrastrukturen">§ 2-5. Register over jernbaneinfrastrukturen</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-kompatibilitet-mm">§ 2-6. Krav til kompatibilitet m.m.</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-ruteplanlegging">§ 2-7. Krav til ruteplanlegging</a></li>
+<li class="lvl4"><a href="#2-8-opphevet">§ 2-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-9-trafikkstyring">§ 2-9. Trafikkstyring</a></li>
+<li class="lvl2"><a href="#kapittel-3-nasjonale-tekniske-krav-til-jernbaneinfrastruktur">Kapittel 3. Nasjonale tekniske krav til jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#i-generelle-krav-til-jernbaneinfrastruktur">I. Generelle krav til jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-1-generelle-krav-til-jernbaneinfrastruktur">§ 3-1. Generelle krav til jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-2-bruk-av-assessor-ved-bygging-av-ny-eller-endring-av-jernbaneinfrastruktur">§ 3-2. Bruk av assessor ved bygging av ny eller endring av jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#ii-infrastruktur">II. Infrastruktur</a></li>
+<li class="lvl5"><a href="#3-3-trase-mm">§ 3-3. Trasé m.m.</a></li>
+<li class="lvl5"><a href="#3-4-plattformer-mm">§ 3-4. Plattformer m.m.</a></li>
+<li class="lvl5"><a href="#3-5-tunneler-og-broer-mm">§ 3-5. Tunneler og broer m.m.</a></li>
+<li class="lvl5"><a href="#3-6-planoverganger">§ 3-6. Planoverganger</a></li>
+<li class="lvl5"><a href="#3-6a-melding-om-ny-eller-endret-jernbaneinfrastruktur">§ 3-6a. Melding om ny eller endret jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-6b-sknad-til-a-ta-i-bruk-jernbaneinfrastruktur">§ 3-6b. Søknad til å ta i bruk jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#iii-signalanlegg">III. Signalanlegg</a></li>
+<li class="lvl5"><a href="#3-7-signalanlegg">§ 3-7. Signalanlegg</a></li>
+<li class="lvl5"><a href="#3-8-signalprinsipper">§ 3-8. Signalprinsipper</a></li>
+<li class="lvl5"><a href="#3-9-testing-av-styrings-og-kontrollutstyr-ved-integrering-i-kjrety">§ 3-9. Testing av styrings- og kontrollutstyr ved integrering i kjøretøy</a></li>
+<li class="lvl5"><a href="#3-10-trafikkstyringssentral">§ 3-10. Trafikkstyringssentral</a></li>
+<li class="lvl5"><a href="#3-11-kommunikasjonssystem">§ 3-11. Kommunikasjonssystem</a></li>
+<li class="lvl3"><a href="#iv-opphevet">IV. (Opphevet)</a></li>
+<li class="lvl5"><a href="#3-12-opphevet">§ 3-12. (Opphevet)</a></li>
+<li class="lvl5"><a href="#3-13-opphevet">§ 3-13. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#4-1-unntak">§ 4-1. Unntak</a></li>
+<li class="lvl4"><a href="#4-2-overgangsbestemmelser">§ 4-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#4-3-ikrafttredelse">§ 4-3. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#4-4-endringer-i-andre-forskrifter">§ 4-4. Endringer i andre forskrifter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-11-30-2051.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-04-11-388.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om nasjonale tekniske krav m.m. for jernbaneinfrastruktur på det nasjonale jernbanenettet (jernbaneinfrastrukturforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-04-11-388.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2011-04-11-388 <code>forskrift/2011-04-11-388</code></td></tr>
+<tr><th>Korttittel</th><td>Jernbaneinfrastrukturforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-11-30-2051 <code>forskrift/2022-11-30-2051</code> fra 30.11.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2011-04-11-388" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-drift-av-jernbaneinfrastruktur">Kapittel 2. Krav til drift av jernbaneinfrastruktur</a></li>
+<li class="lvl4"><a href="#2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</a></li>
+<li class="lvl4"><a href="#2-2-romblokkprinsippet">§ 2-2. Romblokkprinsippet</a></li>
+<li class="lvl4"><a href="#2-3-teknisk-dokumentasjon">§ 2-3. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#2-4-drift-og-vedlikehold-av-jernbaneinfrastruktur">§ 2-4. Drift og vedlikehold av jernbaneinfrastruktur</a></li>
+<li class="lvl4"><a href="#2-5-register-over-jernbaneinfrastrukturen">§ 2-5. Register over jernbaneinfrastrukturen</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-kompatibilitet-mm">§ 2-6. Krav til kompatibilitet m.m.</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-ruteplanlegging">§ 2-7. Krav til ruteplanlegging</a></li>
+<li class="lvl4"><a href="#2-8-opphevet">§ 2-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-9-trafikkstyring">§ 2-9. Trafikkstyring</a></li>
+<li class="lvl2"><a href="#kapittel-3-nasjonale-tekniske-krav-til-jernbaneinfrastruktur">Kapittel 3. Nasjonale tekniske krav til jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#i-generelle-krav-til-jernbaneinfrastruktur">I. Generelle krav til jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-1-generelle-krav-til-jernbaneinfrastruktur">§ 3-1. Generelle krav til jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-2-bruk-av-assessor-ved-bygging-av-ny-eller-endring-av-jernbaneinfrastruktur">§ 3-2. Bruk av assessor ved bygging av ny eller endring av jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#ii-infrastruktur">II. Infrastruktur</a></li>
+<li class="lvl5"><a href="#3-3-trase-mm">§ 3-3. Trasé m.m.</a></li>
+<li class="lvl5"><a href="#3-4-plattformer-mm">§ 3-4. Plattformer m.m.</a></li>
+<li class="lvl5"><a href="#3-5-tunneler-og-broer-mm">§ 3-5. Tunneler og broer m.m.</a></li>
+<li class="lvl5"><a href="#3-6-planoverganger">§ 3-6. Planoverganger</a></li>
+<li class="lvl5"><a href="#3-6a-melding-om-ny-eller-endret-jernbaneinfrastruktur">§ 3-6a. Melding om ny eller endret jernbaneinfrastruktur</a></li>
+<li class="lvl5"><a href="#3-6b-sknad-til-a-ta-i-bruk-jernbaneinfrastruktur">§ 3-6b. Søknad til å ta i bruk jernbaneinfrastruktur</a></li>
+<li class="lvl3"><a href="#iii-signalanlegg">III. Signalanlegg</a></li>
+<li class="lvl5"><a href="#3-7-signalanlegg">§ 3-7. Signalanlegg</a></li>
+<li class="lvl5"><a href="#3-8-signalprinsipper">§ 3-8. Signalprinsipper</a></li>
+<li class="lvl5"><a href="#3-9-testing-av-styrings-og-kontrollutstyr-ved-integrering-i-kjrety">§ 3-9. Testing av styrings- og kontrollutstyr ved integrering i kjøretøy</a></li>
+<li class="lvl5"><a href="#3-10-trafikkstyringssentral">§ 3-10. Trafikkstyringssentral</a></li>
+<li class="lvl5"><a href="#3-11-kommunikasjonssystem">§ 3-11. Kommunikasjonssystem</a></li>
+<li class="lvl3"><a href="#iv-opphevet">IV. (Opphevet)</a></li>
+<li class="lvl5"><a href="#3-12-opphevet">§ 3-12. (Opphevet)</a></li>
+<li class="lvl5"><a href="#3-13-opphevet">§ 3-13. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#4-1-unntak">§ 4-1. Unntak</a></li>
+<li class="lvl4"><a href="#4-2-overgangsbestemmelser">§ 4-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#4-3-ikrafttredelse">§ 4-3. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#4-4-endringer-i-andre-forskrifter">§ 4-4. Endringer i andre forskrifter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-04-11-388.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-04-11-388.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-04-11-388.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2011-04-11-388.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2011-04-11-388.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-04-11-388.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2011-04-11-388.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2011-04-11-388.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-04-11-388.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-nasjonale-tekniske-krav-mm-for-jernbaneinfrastruktur-pa-det-nasjonale-jernbanenettet-jernbaneinfrastrukturforskriften">Forskrift om nasjonale tekniske krav m.m. for jernbaneinfrastruktur på det nasjonale jernbanenettet (jernbaneinfrastrukturforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder for jernbaneinfrastruktur på det nasjonale jernbanenettet.</p>
 <p>Forskriften gjelder likevel ikke der annet følger av forskrift 9. september 2021 nr. 2742 om samtrafikkevnen i jernbanesystyemet (samtrafikkforskriften) og/eller forskrifter om tekniske spesifikasjoner (TSI).</p>
-<p><em>Endret ved forskrift 30 nov 2022 nr. 2051 .</em></p>
+<p class="note">Endret ved forskrift 30 nov 2022 nr. 2051 .</p>
 <h4 id="1-2-formal">§ 1-2. Formål</h4>
 <p>Formålet med forskriften er å fastsette minimumskrav til sikker og hensiktsmessig prosjektering, bygging, drift og vedlikehold av jernbaneinfrastruktur.</p>
 <h4 id="1-3-definisjoner">§ 1-3. Definisjoner <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -105,7 +228,7 @@ p. sikringsanlegg: den del av signalanlegget som sikrer at kjørsignal bare gis 
 q. styring, kontroll og signal: alt utstyr som er nødvendig for å kunne garantere sikkerhet og for å kunne styre og kontrollere bevegelsene til tog som har tillatelse til å trafikkere jernbanenettet,
 r. tog: trekkraftkjøretøy, med eller uten vogner, som er gitt et tognummer i en rute og som skal kjøres fra et bestemt utgangssted til et bestemt ankomststed,
 s. trafikkstyring: fremgangsmåter og utstyr som muliggjør helhetlig drift av de ulike strukturelle delsystemene, både under normal og redusert drift, herunder særlig trafikkplanlegging og -styring.</p>
-<p><em>Endret ved forskrifter 19 sep 2018 nr. 1354 , 30 nov 2022 nr. 2051 .</em></p>
+<p class="note">Endret ved forskrifter 19 sep 2018 nr. 1354 , 30 nov 2022 nr. 2051 .</p>
 <h2 id="kapittel-2-krav-til-drift-av-jernbaneinfrastruktur">Kapittel 2. Krav til drift av jernbaneinfrastruktur</h2>
 <h4 id="2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</h4>
 <p>Infrastrukturforvalter skal sikre at jernbaneinfrastrukturen til enhver tid er utformet på en slik måte at det legges til rette for sikker drift av jernbanesystemet.</p>
@@ -125,7 +248,7 @@ s. trafikkstyring: fremgangsmåter og utstyr som muliggjør helhetlig drift av d
 <h4 id="2-7-krav-til-ruteplanlegging">§ 2-7. Krav til ruteplanlegging</h4>
 <p>Infrastrukturforvalters ruteplanlegging skal sikre at trafikkavviklingen skjer innenfor akseptabel risiko. Det skal tas hensyn til alle forhold av betydning for sikkerheten, herunder plassering av kryssinger, sporbruk på stasjoner og snutider.</p>
 <h4 id="2-8-opphevet">§ 2-8. (Opphevet) <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-2-8.html" title="Endringshistorikk for § 2-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 21 juni 2012 nr. 633 (i kraft 1 juli 2012), opphevet ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Endret ved forskrift 21 juni 2012 nr. 633 (i kraft 1 juli 2012), opphevet ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h4 id="2-9-trafikkstyring">§ 2-9. Trafikkstyring</h4>
 <p>Infrastrukturforvalter skal overvåke og lede all trafikk på jernbaneinfrastrukturen (trafikkstyring). Trafikkstyring skal skje på en slik måte at trafikken kan avvikles innenfor akseptabel risiko. Trafikkstyringen skal blant annet sikre at det er oversikt over de enkelte togs retning, posisjon og rekkefølge.</p>
 <h2 id="kapittel-3-nasjonale-tekniske-krav-til-jernbaneinfrastruktur">Kapittel 3. Nasjonale tekniske krav til jernbaneinfrastruktur</h2>
@@ -135,7 +258,7 @@ s. trafikkstyring: fremgangsmåter og utstyr som muliggjør helhetlig drift av d
 <p>Jernbaneinfrastrukturen skal prosjekteres, bygges og testes i henhold til nasjonale og internasjonale standarder. Infrastrukturforvalter skal gjøre en sikkerhetsmessig vurdering av avvik fra valgte standarder. Vurderingen skal dokumenteres.</p>
 <p>Infrastrukturforvalter skal benytte prosesstandarden EN 50126 ved bygging av ny jernbaneinfrastruktur og ved endring av programmerbare tekniske systemer. Ved andre endringer av jernbaneinfrastruktur skal infrastrukturforvalter vurdere om endringen er av en slik karakter at bruk av EN 50126 er hensiktsmessig. Vurderingen skal dokumenteres.</p>
 <p>Infrastrukturforvalter skal benytte standardene EN 50128 og EN 50129 ved anskaffelse av nye signalanlegg og ved endring av elektroniske signalanlegg.</p>
-<p><em>Endret ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Endret ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h5 id="3-2-bruk-av-assessor-ved-bygging-av-ny-eller-endring-av-jernbaneinfrastruktur">§ 3-2. Bruk av assessor ved bygging av ny eller endring av jernbaneinfrastruktur</h5>
 <p>Statens jernbanetilsyn kan kreve at det benyttes en assessor ved bygging av ny eller endring av jernbaneinfrastruktur. Statens jernbanetilsyn kan kreve å ha direkte kontakt med vedkommende.</p>
 <p>Assessor skal aksepteres av Statens jernbanetilsyn. Ved vurderingen av om aksept kan gis, legges det blant annet vekt på uavhengighet og kompetanse, samt assessors arbeidsplan.</p>
@@ -154,7 +277,7 @@ s. trafikkstyring: fremgangsmåter og utstyr som muliggjør helhetlig drift av d
 <p>Tunneler og broer skal utformes og utstyres slik at det gir muligheter for evakuering og selvredning i tilfelle av brann og andre ulykker. Det skal legges til rette for at redningspersonell kan drive effektivt redningsarbeid, herunder av orienterings- og bevegelseshemmede.</p>
 <p>Gangbaner på broer skal være skjermet med rekkverk. Gangbaner skal være fri for hindringer i høyden og bredden slik at evakuering kan foregå på en sikker måte.</p>
 <p>Tunneler skal ikke inneholde lett antennelige materialer. Materialene som skal brukes skal i minst mulig grad avgi røyk og skadelige branngasser ved en eventuell brann.</p>
-<p><em>Endret ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Endret ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h5 id="3-6-planoverganger">§ 3-6. Planoverganger</h5>
 <p>Planoverganger skal være tilrettelagt for sikker passering for veifarende.</p>
 <p>Planoverganger på offentlige veier skal ha veisikringsanlegg. Infrastrukturforvalter skal i tillegg vurdere om det er behov for veisikringsanlegg på andre planoverganger ved endring av blant annet mengde og type trafikk på vei eller jernbane eller endringer i hastighet på strekningen.</p>
@@ -172,7 +295,7 @@ e. sikkerhetsplan,
 f. risikovurdering(er),
 g. vesentlighetsvurdering etter CSM-RA.</p>
 <p>Søker må vurdere om TSI-er kommer til anvendelse for den nye eller endrede jernbaneinfrastrukturen. Kravene i § 3-2 får anvendelse.</p>
-<p><em>Tilføyd ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h5 id="3-6b-sknad-til-a-ta-i-bruk-jernbaneinfrastruktur">§ 3-6b. Søknad til å ta i bruk jernbaneinfrastruktur <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-3-6b.html" title="Endringshistorikk for § 3-6b" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Søknad om tillatelse til å ta i bruk jernbaneinfrastruktur skal minst inneholde:</p>
 <p>a. navn og kontaktopplysninger til kontaktperson,
@@ -188,7 +311,7 @@ i. sikkerhetsoppfølgingsplan/driftsoppfølgingsplan,
 j. vedlikeholdsplan.</p>
 <p>Er assessor eller andre uavhengige tredjeparter benyttet, skal utarbeidete rapporter, sertifikater, verifikasjoner, erklæringer etc. og oppfølgingen av disse, vedlegges.</p>
 <p>Kravene i § 3-2 får anvendelse.</p>
-<p><em>Tilføyd ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h3 id="iii-signalanlegg">III. Signalanlegg</h3>
 <h5 id="3-7-signalanlegg">§ 3-7. Signalanlegg <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Signalanlegg skal være konstruert slik at de feiler til sikker tilstand.</p>
@@ -196,26 +319,26 @@ j. vedlikeholdsplan.</p>
 <p>Signaler langs spor skal plasseres slik at det går klart frem hvilke spor signalene gjelder for, og signalbildet skal være synlig for togets fører i god tid før signalpassering.</p>
 <p>Nye strekninger skal ha fjernstyring. Strekninger med fjernstyring skal være utbygd med automatisk hastighetsovervåkning. På strekninger med fjernstyring skal alle hovedsignalbilder logges kontinuerlig og lagres sikkert og i tilstrekkelig tid i forhold til behovet ved eventuell undersøkelse av jernbaneulykker, alvorlige jernbanehendelser og jernbanehendelser. Tilsvarende gjelder alle forsignalbilder ved bygging av nye signalanlegg.</p>
 <p>Strekninger der det bygges automatisk hastighetsovervåkning og strekninger med delvis automatisk hastighetsovervåkning som ombygges, skal utbygges med fullstendig automatisk hastighetsovervåkning.</p>
-<p><em>Endret ved forskrifter 1 juli 2014 nr. 901 , 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Endret ved forskrifter 1 juli 2014 nr. 901 , 19 sep 2018 nr. 1354 .</p>
 <h5 id="3-8-signalprinsipper">§ 3-8. Signalprinsipper</h5>
 <p>Infrastrukturforvalter skal ha prinsipper for tillatte signalmidler og deres plassering, nødvendige signalavstander og sikkerhetssoner, samt bestemmelser for utforming av tegningsunderlag og dokumenter som angir forhold mellom tillatte togbevegelser eller skiftebevegelser på stasjoner og linjen.</p>
 <h5 id="3-9-testing-av-styrings-og-kontrollutstyr-ved-integrering-i-kjrety">§ 3-9. Testing av styrings- og kontrollutstyr ved integrering i kjøretøy <a class="para-history" href="../historikk/forskrift-2011-04-11-388/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Infrastrukturforvalter skal gjøre sitt ytterste for å tilrettelegge for at jernbaneforetaket kan foreta testing av styrings- og kontrollutstyr (klasse B-utstyr, STM-enheten og ERTMS), ved integrering av dette utstyret i kjøretøy (integrasjonstesting). Klasse B-utstyr som er tillatt i Norge fremgår av forskrift 10. mai 2017 nr. 600 om gjennomføring av den tekniske spesifikasjonen for samtrafikkevnen for delsystemet «styring, kontroll og signal» i det transeuropeiske jernbanesystemet for konvensjonelle tog (TSI-styring, kontroll og signal) vedlegg B.</p>
 <p>Infrastrukturforvalter skal ha utfyllende bestemmelser om slik integrasjonstesting.</p>
-<p><em>Endret ved forskrift 19 sep 2018 nr. 1354 .</em></p>
+<p class="note">Endret ved forskrift 19 sep 2018 nr. 1354 .</p>
 <h5 id="3-10-trafikkstyringssentral">§ 3-10. Trafikkstyringssentral</h5>
 <p>Trafikkstyring skal skje fra en trafikkstyringssentral. Trafikkstyringssentralen skal ha velegnet utstyr for å drive trafikkstyring, herunder for å kunne kommunisere med togbetjening.</p>
 <h5 id="3-11-kommunikasjonssystem">§ 3-11. Kommunikasjonssystem</h5>
 <p>Jernbaneinfrastruktur skal være utbygd med kommunikasjonssystem (togradio) til bruk i togframføringen.</p>
 <p>På all jernbaneinfrastruktur skal det være et system for nødkommunikasjon, slik at det til enhver tid er gjensidig mulighet for rask kontakt mellom fører og trafikkstyringssentralen.</p>
 <p>Kommunikasjon i forbindelse med trafikkstyringen skal lagres sikkert og i tilstrekkelig tid i forhold til behovet ved eventuell undersøkelse av jernbaneulykker, alvorlige jernbanehendelser og jernbanehendelser.</p>
-<p><em>Endret ved forskrift 19 aug 2011 nr. 851 .</em></p>
+<p class="note">Endret ved forskrift 19 aug 2011 nr. 851 .</p>
 <h3 id="iv-opphevet">IV. (Opphevet)</h3>
 <p>Opphevet ved forskrift 19 des 2016 nr. 1846 (i kraft 1 jan 2017).</p>
 <h5 id="3-12-opphevet">§ 3-12. (Opphevet)</h5>
-<p><em>Opphevet ved forskrift 19 des 2016 nr. 1846 (i kraft 1 jan 2017).</em></p>
+<p class="note">Opphevet ved forskrift 19 des 2016 nr. 1846 (i kraft 1 jan 2017).</p>
 <h5 id="3-13-opphevet">§ 3-13. (Opphevet)</h5>
-<p><em>Opphevet ved forskrift 19 des 2016 nr. 1846 (i kraft 1 jan 2017).</em></p>
+<p class="note">Opphevet ved forskrift 19 des 2016 nr. 1846 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-4-avsluttende-bestemmelser">Kapittel 4. Avsluttende bestemmelser</h2>
 <h4 id="4-1-unntak">§ 4-1. Unntak</h4>
 <p>Statens jernbanetilsyn kan i det enkelte tilfellet gjøre unntak fra denne forskriften dersom særlige grunner tilsier det.</p>
@@ -225,6 +348,8 @@ j. vedlikeholdsplan.</p>
 <p>Forskriften trer i kraft 1. juli 2011.</p>
 <h4 id="4-4-endringer-i-andre-forskrifter">§ 4-4. Endringer i andre forskrifter</h4>
 <p>I forskrift 19. desember 2005 nr. 1621 om krav til jernbanevirksomhet på det nasjonale jernbanenettet (sikkerhetsforskriften) gjøres følgende endringer: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

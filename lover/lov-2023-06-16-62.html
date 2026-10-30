@@ -19,64 +19,449 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2023-06-16-62.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Valgloven" href="../feeds/lov-2023-06-16-62.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Valgloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2023-06-16-62</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Forvaltnings- og kommunalrett &raquo; Kommuner og fylkeskommuner\nStats-, statsforfatnings- og statsborgerrett &raquo; Stortinget\nStats-, statsforfatnings- og statsborgerrett &raquo; Valg</dd>
-<dt>Ikrafttredelse</dt><dd>2024-05-01, Kongen bestemmer</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-21-51</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2023-06-16-62" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal-og-virkeomrade">§ 1-1. Lovens formål og virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-manntall">Kapittel 2. Stemmerett og manntall</a></li>
+<li class="lvl4"><a href="#2-1-stemmerett-ved-stortingsvalg">§ 2-1. Stemmerett ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#2-2-stemmerett-ved-fylkestingsvalg-og-kommunestyrevalg">§ 2-2. Stemmerett ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#2-3-ansvar-for-a-opprette-og-oppdatere-manntall">§ 2-3. Ansvar for å opprette og oppdatere manntall</a></li>
+<li class="lvl4"><a href="#2-4-tilgang-til-folkeregisteret">§ 2-4. Tilgang til folkeregisteret</a></li>
+<li class="lvl4"><a href="#2-5-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 2-5. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#2-6-hvilken-kommune-velgerne-skal-manntallsfres-i">§ 2-6. Hvilken kommune velgerne skal manntallsføres i</a></li>
+<li class="lvl4"><a href="#2-7-utlegging-av-manntallet-til-offentlig-ettersyn">§ 2-7. Utlegging av manntallet til offentlig ettersyn</a></li>
+<li class="lvl4"><a href="#2-8-retting-av-manntallet">§ 2-8. Retting av manntallet</a></li>
+<li class="lvl4"><a href="#2-9-melding-om-endringer-i-manntallet">§ 2-9. Melding om endringer i manntallet</a></li>
+<li class="lvl4"><a href="#2-10-informasjon-til-velgerne-om-stemmerett">§ 2-10. Informasjon til velgerne om stemmerett</a></li>
+<li class="lvl4"><a href="#2-11-forskrift">§ 2-11. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-og-ombudsplikt">Kapittel 3. Valgbarhet og ombudsplikt</a></li>
+<li class="lvl4"><a href="#3-1-valgbarhet-ved-stortingsvalg">§ 3-1. Valgbarhet ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#3-2-valgbarhet-ved-fylkestingsvalg-og-kommunestyrevalg">§ 3-2. Valgbarhet ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#3-3-hvem-som-er-utelukket-fra-valg">§ 3-3. Hvem som er utelukket fra valg</a></li>
+<li class="lvl4"><a href="#3-4-ombudsplikt">§ 3-4. Ombudsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-valgorganer">Kapittel 4. Valgorganer</a></li>
+<li class="lvl4"><a href="#4-1-riksvalgstyret">§ 4-1. Riksvalgstyret</a></li>
+<li class="lvl4"><a href="#4-2-fratreden-fra-verv-som-medlem-eller-varamedlem-av-riksvalgstyret">§ 4-2. Fratreden fra verv som medlem eller varamedlem av riksvalgstyret</a></li>
+<li class="lvl4"><a href="#4-3-distriktsvalgstyre">§ 4-3. Distriktsvalgstyre</a></li>
+<li class="lvl4"><a href="#4-4-fylkesvalgstyre">§ 4-4. Fylkesvalgstyre</a></li>
+<li class="lvl4"><a href="#4-5-valgstyre">§ 4-5. Valgstyre</a></li>
+<li class="lvl2"><a href="#kapittel-5-listeforslag">Kapittel 5. Listeforslag</a></li>
+<li class="lvl4"><a href="#5-1-krav-til-listeforslag">§ 5-1. Krav til listeforslag</a></li>
+<li class="lvl4"><a href="#5-2-antall-kandidater-pa-listeforslaget">§ 5-2. Antall kandidater på listeforslaget</a></li>
+<li class="lvl4"><a href="#5-3-stemmetillegg-ved-kommunestyrevalg">§ 5-3. Stemmetillegg ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#5-4-antall-underskrifter-pa-listeforslaget">§ 5-4. Antall underskrifter på listeforslaget</a></li>
+<li class="lvl4"><a href="#5-5-vedlegg-til-listeforslaget">§ 5-5. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#5-6-tillitsvalgte-og-tillitsutvalg">§ 5-6. Tillitsvalgte og tillitsutvalg</a></li>
+<li class="lvl4"><a href="#5-7-frist-for-a-levere-listeforslaget">§ 5-7. Frist for å levere listeforslaget</a></li>
+<li class="lvl4"><a href="#5-8-tilbakekalling-av-listeforslaget">§ 5-8. Tilbakekalling av listeforslaget</a></li>
+<li class="lvl4"><a href="#5-9-hvem-som-har-ansvaret-for-a-godkjenne-listeforslaget">§ 5-9. Hvem som har ansvaret for å godkjenne listeforslaget</a></li>
+<li class="lvl4"><a href="#5-10-valgmyndighetenes-behandling-av-listeforslagene">§ 5-10. Valgmyndighetenes behandling av listeforslagene</a></li>
+<li class="lvl4"><a href="#5-11-endring-av-listeforslaget-etter-innleveringsfristen">§ 5-11. Endring av listeforslaget etter innleveringsfristen</a></li>
+<li class="lvl4"><a href="#5-12-kunngjring-av-valglister">§ 5-12. Kunngjøring av valglister</a></li>
+<li class="lvl4"><a href="#5-13-trykking-av-stemmesedler">§ 5-13. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#5-14-forskrift">§ 5-14. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-6-fellesbestemmelser-for-stemming-innenlands">Kapittel 6. Fellesbestemmelser for stemming innenlands</a></li>
+<li class="lvl4"><a href="#6-1-kunngjring-av-nar-og-hvor-velgerne-kan-stemme">§ 6-1. Kunngjøring av når og hvor velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#6-2-hvem-som-har-ansvaret-for-stemmingen-i-et-valglokale">§ 6-2. Hvem som har ansvaret for stemmingen i et valglokale</a></li>
+<li class="lvl4"><a href="#6-3-antallet-valgmedarbeidere-ved-stemming-som-ikke-foregar-i-et-valglokale">§ 6-3. Antallet valgmedarbeidere ved stemming som ikke foregår i et valglokale</a></li>
+<li class="lvl4"><a href="#6-4-hvem-som-ikke-kan-vre-valgmedarbeidere-i-valglokalene-eller-ta-imot-stemmer">§ 6-4. Hvem som ikke kan være valgmedarbeidere i valglokalene eller ta imot stemmer</a></li>
+<li class="lvl4"><a href="#6-5-valgurner">§ 6-5. Valgurner</a></li>
+<li class="lvl4"><a href="#6-6-ordensregler">§ 6-6. Ordensregler</a></li>
+<li class="lvl4"><a href="#6-7-universell-utforming">§ 6-7. Universell utforming</a></li>
+<li class="lvl4"><a href="#6-8-rett-til-veiledning-og-assistanse">§ 6-8. Rett til veiledning og assistanse</a></li>
+<li class="lvl4"><a href="#6-9-hemmelig-stemming">§ 6-9. Hemmelig stemming</a></li>
+<li class="lvl4"><a href="#6-10-adgang-til-a-gi-personstemmer">§ 6-10. Adgang til å gi personstemmer</a></li>
+<li class="lvl4"><a href="#6-11-legitimasjon">§ 6-11. Legitimasjon</a></li>
+<li class="lvl4"><a href="#6-12-stemming-utenfor-valglokalet">§ 6-12. Stemming utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#6-13-oppbevaring-og-transport-av-valgmateriell">§ 6-13. Oppbevaring og transport av valgmateriell</a></li>
+<li class="lvl4"><a href="#6-14-forskrift">§ 6-14. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-forhandsstemming-innenlands">Kapittel 7. Forhåndsstemming innenlands</a></li>
+<li class="lvl4"><a href="#7-1-nar-velgerne-kan-forhandsstemme">§ 7-1. Når velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#7-2-hvor-velgerne-kan-forhandsstemme">§ 7-2. Hvor velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#7-3-hvem-som-oppnevner-stemmemottakere-pa-svalbard-og-jan-mayen">§ 7-3. Hvem som oppnevner stemmemottakere på Svalbard og Jan Mayen</a></li>
+<li class="lvl4"><a href="#7-4-elektronisk-manntall">§ 7-4. Elektronisk manntall</a></li>
+<li class="lvl4"><a href="#7-5-hvordan-velgerne-kan-forhandsstemme-i-egen-kommune">§ 7-5. Hvordan velgerne kan forhåndsstemme i egen kommune</a></li>
+<li class="lvl4"><a href="#7-6-hvordan-velgerne-kan-forhandsstemme-utenfor-egen-kommune">§ 7-6. Hvordan velgerne kan forhåndsstemme utenfor egen kommune</a></li>
+<li class="lvl4"><a href="#7-7-hvordan-velgerne-kan-forhandsstemme-pa-svalbard-og-jan-mayen">§ 7-7. Hvordan velgerne kan forhåndsstemme på Svalbard og Jan Mayen</a></li>
+<li class="lvl4"><a href="#7-8-hvordan-velgerne-kan-forhandsstemme-fr-den-ordinre-forhandsstemmingen-tidligstemming">§ 7-8. Hvordan velgerne kan forhåndsstemme før den ordinære forhåndsstemmingen (tidligstemming)</a></li>
+<li class="lvl2"><a href="#kapittel-8-forhandsstemming-i-utlandet">Kapittel 8. Forhåndsstemming i utlandet</a></li>
+<li class="lvl4"><a href="#8-1-nar-velgerne-kan-forhandsstemme">§ 8-1. Når velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-2-hvem-som-kan-motta-forhandsstemmer">§ 8-2. Hvem som kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#8-3-hvor-velgerne-kan-forhandsstemme">§ 8-3. Hvor velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-4-hvordan-velgerne-kan-forhandsstemme">§ 8-4. Hvordan velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-5-brevstemming">§ 8-5. Brevstemming</a></li>
+<li class="lvl2"><a href="#kapittel-9-stemming-pa-valgtinget">Kapittel 9. Stemming på valgtinget</a></li>
+<li class="lvl4"><a href="#9-1-nar-velgerne-kan-stemme">§ 9-1. Når velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#9-2-stemmekretser">§ 9-2. Stemmekretser</a></li>
+<li class="lvl4"><a href="#9-3-hvor-velgerne-kan-stemme">§ 9-3. Hvor velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#9-4-bruk-av-elektronisk-manntall-eller-papirmanntall">§ 9-4. Bruk av elektronisk manntall eller papirmanntall</a></li>
+<li class="lvl4"><a href="#9-5-hvordan-velgerne-kan-stemme-i-valglokaler-med-elektronisk-manntall">§ 9-5. Hvordan velgerne kan stemme i valglokaler med elektronisk manntall</a></li>
+<li class="lvl4"><a href="#9-6-hvordan-velgerne-kan-stemme-i-valglokaler-med-papirmanntall">§ 9-6. Hvordan velgerne kan stemme i valglokaler med papirmanntall</a></li>
+<li class="lvl2"><a href="#kapittel-10-godkjenning-av-stemmegivninger-og-stemmesedler-opptelling-og-protokollering-mm">Kapittel 10. Godkjenning av stemmegivninger og stemmesedler, opptelling og protokollering m.m.</a></li>
+<li class="lvl4"><a href="#10-1-godkjenning-av-stemmegivninger-hvis-stemmeseddelen-er-lagt-i-en-urne-uten-bruk-av-stemmeseddelkonvolutt">§ 10-1. Godkjenning av stemmegivninger hvis stemmeseddelen er lagt i en urne uten bruk av stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#10-2-godkjenning-av-stemmegivninger-hvis-stemmeseddelen-er-lagt-i-en-stemmeseddelkonvolutt">§ 10-2. Godkjenning av stemmegivninger hvis stemmeseddelen er lagt i en stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#10-3-godkjenning-av-stemmesedler">§ 10-3. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#10-4-hvem-som-har-ansvaret-for-godkjenning-av-stemmesedler-som-er-lagt-i-stemmeseddelkonvolutt-og-av-stemmesedler-som-det-er-tvil-om-skal-godkjennes">§ 10-4. Hvem som har ansvaret for godkjenning av stemmesedler som er lagt i stemmeseddelkonvolutt, og av stemmesedler som det er tvil om skal godkjennes</a></li>
+<li class="lvl4"><a href="#10-5-prinsipper-for-opptelling-av-stemmesedler">§ 10-5. Prinsipper for opptelling av stemmesedler</a></li>
+<li class="lvl4"><a href="#10-6-hvem-som-ikke-kan-delta-i-opptellingen">§ 10-6. Hvem som ikke kan delta i opptellingen</a></li>
+<li class="lvl4"><a href="#10-7-hvem-som-har-ansvaret-for-den-frste-opptellingen">§ 10-7. Hvem som har ansvaret for den første opptellingen</a></li>
+<li class="lvl4"><a href="#10-8-gjennomfring-av-frste-opptelling">§ 10-8. Gjennomføring av første opptelling</a></li>
+<li class="lvl4"><a href="#10-9-overlevering-av-materiell-til-valgstyret-fra-valglokalet-pa-valgtinget">§ 10-9. Overlevering av materiell til valgstyret fra valglokalet på valgtinget</a></li>
+<li class="lvl4"><a href="#10-10-hvem-som-har-ansvaret-for-den-andre-opptellingen">§ 10-10. Hvem som har ansvaret for den andre opptellingen</a></li>
+<li class="lvl4"><a href="#10-11-gjennomfring-av-andre-opptelling">§ 10-11. Gjennomføring av andre opptelling</a></li>
+<li class="lvl4"><a href="#10-12-kontroll-ved-den-andre-opptellingen-og-registrering-av-personstemmer">§ 10-12. Kontroll ved den andre opptellingen og registrering av personstemmer</a></li>
+<li class="lvl4"><a href="#10-13-oversending-av-materiell-til-distriktsvalgstyret-og-fylkesvalgstyret">§ 10-13. Oversending av materiell til distriktsvalgstyret og fylkesvalgstyret</a></li>
+<li class="lvl4"><a href="#10-14-opptelling-registrering-av-personstemmer-og-kontroll-av-valggjennomfringen">§ 10-14. Opptelling, registrering av personstemmer og kontroll av valggjennomføringen</a></li>
+<li class="lvl4"><a href="#10-15-protokoll">§ 10-15. Protokoll</a></li>
+<li class="lvl4"><a href="#10-16-forskrift">§ 10-16. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-11-mandatfordeling-og-karing-av-representanter-ved-stortingsvalg">Kapittel 11. Mandatfordeling og kåring av representanter ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-1-valgdistriktene-ved-stortingsvalg">§ 11-1. Valgdistriktene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-2-antallet-stortingsrepresentanter">§ 11-2. Antallet stortingsrepresentanter</a></li>
+<li class="lvl4"><a href="#11-3-antallet-stortingsmandater-fra-hvert-valgdistrikt">§ 11-3. Antallet stortingsmandater fra hvert valgdistrikt</a></li>
+<li class="lvl4"><a href="#11-4-fordelingen-av-de-direktevalgte-mandatene-ved-stortingsvalg">§ 11-4. Fordelingen av de direktevalgte mandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-5-karing-av-de-direktevalgte-representantene-ved-stortingsvalg">§ 11-5. Kåring av de direktevalgte representantene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-6-kunngjring-og-oversendelse-av-protokoll-ved-stortingsvalg">§ 11-6. Kunngjøring og oversendelse av protokoll ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-7-fordelingen-av-utjevningsmandatene-mellom-partiene-ved-stortingsvalg">§ 11-7. Fordelingen av utjevningsmandatene mellom partiene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-8-fordelingen-av-utjevningsmandatene-mellom-valgdistriktene-ved-stortingsvalg">§ 11-8. Fordelingen av utjevningsmandatene mellom valgdistriktene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-9-kunngjring-om-beregningen-av-utjevningsmandatene-ved-stortingsvalg">§ 11-9. Kunngjøring om beregningen av utjevningsmandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-10-karing-av-utjevningsmandatene-ved-stortingsvalg">§ 11-10. Kåring av utjevningsmandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-11-informasjon-til-de-valgte-stortingsrepresentantene">§ 11-11. Informasjon til de valgte stortingsrepresentantene</a></li>
+<li class="lvl4"><a href="#11-12-fullmakter-til-de-valgte-stortingsrepresentantene">§ 11-12. Fullmakter til de valgte stortingsrepresentantene</a></li>
+<li class="lvl2"><a href="#kapittel-12-mandatfordeling-og-karing-av-representanter-ved-fylkestingsvalg">Kapittel 12. Mandatfordeling og kåring av representanter ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-1-fordelingen-av-mandatene-ved-fylkestingsvalg">§ 12-1. Fordelingen av mandatene ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-2-karing-av-de-valgte-representantene-ved-fylkestingsvalg">§ 12-2. Kåring av de valgte representantene ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-3-informasjon-til-de-valgte-fylkestingsrepresentantene">§ 12-3. Informasjon til de valgte fylkestingsrepresentantene</a></li>
+<li class="lvl4"><a href="#12-4-kunngjring-og-oversendelse-av-protokoll-ved-fylkestingsvalg">§ 12-4. Kunngjøring og oversendelse av protokoll ved fylkestingsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-mandatfordeling-og-karing-av-representanter-ved-kommunestyrevalg">Kapittel 13. Mandatfordeling og kåring av representanter ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-1-fordelingen-av-mandatene-ved-kommunestyrevalg">§ 13-1. Fordelingen av mandatene ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-2-karing-av-de-valgte-representantene-ved-kommunestyrevalg">§ 13-2. Kåring av de valgte representantene ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-3-informasjon-til-de-valgte-kommunestyrerepresentantene">§ 13-3. Informasjon til de valgte kommunestyrerepresentantene</a></li>
+<li class="lvl4"><a href="#13-4-kunngjring-og-oversendelse-av-protokoll-ved-kommunestyrevalg">§ 13-4. Kunngjøring og oversendelse av protokoll ved kommunestyrevalg</a></li>
+<li class="lvl2"><a href="#kapittel-14-flertallsvalg-ved-kommunestyrevalg">Kapittel 14. Flertallsvalg ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#14-1-nar-det-skal-holdes-flertallsvalg">§ 14-1. Når det skal holdes flertallsvalg</a></li>
+<li class="lvl4"><a href="#14-2-hvordan-velgerne-kan-stemme">§ 14-2. Hvordan velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#14-3-valgoppgjr-ved-flertallsvalg">§ 14-3. Valgoppgjør ved flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-15-godkjenning-av-valg">Kapittel 15. Godkjenning av valg</a></li>
+<li class="lvl4"><a href="#15-1-godkjenning-av-stortingsvalget">§ 15-1. Godkjenning av stortingsvalget</a></li>
+<li class="lvl4"><a href="#15-2-godkjenning-av-fylkestingsvalget">§ 15-2. Godkjenning av fylkestingsvalget</a></li>
+<li class="lvl4"><a href="#15-3-godkjenning-av-kommunestyrevalget">§ 15-3. Godkjenning av kommunestyrevalget</a></li>
+<li class="lvl2"><a href="#kapittel-16-klage">Kapittel 16. Klage</a></li>
+<li class="lvl4"><a href="#16-1-hva-det-kan-klages-pa">§ 16-1. Hva det kan klages på</a></li>
+<li class="lvl4"><a href="#16-2-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-stortingsvalg-mm">§ 16-2. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av stortingsvalg m.m.</a></li>
+<li class="lvl4"><a href="#16-3-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-fylkestingsvalg-mm">§ 16-3. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av fylkestingsvalg m.m.</a></li>
+<li class="lvl4"><a href="#16-4-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-kommunestyrevalg-mm">§ 16-4. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av kommunestyrevalg m.m.</a></li>
+<li class="lvl4"><a href="#16-5-hvem-som-kan-klage-pa-godkjenning-av-valg">§ 16-5. Hvem som kan klage på godkjenning av valg</a></li>
+<li class="lvl4"><a href="#16-6-klagefrister">§ 16-6. Klagefrister</a></li>
+<li class="lvl4"><a href="#16-7-krav-til-klagen">§ 16-7. Krav til klagen</a></li>
+<li class="lvl4"><a href="#16-8-saksbehandlingen-i-det-organet-som-klagen-settes-frem-for">§ 16-8. Saksbehandlingen i det organet som klagen settes frem for</a></li>
+<li class="lvl4"><a href="#16-9-klagebehandlingen-i-riksvalgstyret">§ 16-9. Klagebehandlingen i riksvalgstyret</a></li>
+<li class="lvl4"><a href="#16-10-riksvalgstyrets-adgang-til-a-avvise-klager-og-gi-palegg-mm">§ 16-10. Riksvalgstyrets adgang til å avvise klager og gi pålegg m.m.</a></li>
+<li class="lvl4"><a href="#16-11-riksvalgstyrets-adgang-til-a-kjenne-valg-ugyldig">§ 16-11. Riksvalgstyrets adgang til å kjenne valg ugyldig</a></li>
+<li class="lvl4"><a href="#16-12-behandlingen-i-hyesterett">§ 16-12. Behandlingen i Høyesterett</a></li>
+<li class="lvl2"><a href="#kapittel-17-omvalg">Kapittel 17. Omvalg</a></li>
+<li class="lvl4"><a href="#17-1-nar-og-hvordan-omvalg-skal-gjennomfres">§ 17-1. Når og hvordan omvalg skal gjennomføres</a></li>
+<li class="lvl4"><a href="#17-2-hvem-som-fungerer-som-stortingsrepresentanter-ved-omvalg">§ 17-2. Hvem som fungerer som stortingsrepresentanter ved omvalg</a></li>
+<li class="lvl4"><a href="#17-3-hvem-som-fungerer-som-fylkestingsmedlemmer-eller-kommunestyremedlemmer-ved-omvalg">§ 17-3. Hvem som fungerer som fylkestingsmedlemmer eller kommunestyremedlemmer ved omvalg</a></li>
+<li class="lvl4"><a href="#17-4-forskrift">§ 17-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-18-forlenget-eller-utsatt-valgting-eller-omvalg-ved-ekstraordinre-hendelser">Kapittel 18. Forlenget eller utsatt valgting eller omvalg ved ekstraordinære hendelser</a></li>
+<li class="lvl4"><a href="#18-1-forlenget-eller-utsatt-valgting-eller-omvalg-ved-stortingsvalg">§ 18-1. Forlenget eller utsatt valgting eller omvalg ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#18-2-forlenget-eller-utsatt-valgting-eller-omvalg-ved-fylkestingsvalg-og-kommunestyrevalg">§ 18-2. Forlenget eller utsatt valgting eller omvalg ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#18-3-omvalg">§ 18-3. Omvalg</a></li>
+<li class="lvl4"><a href="#18-4-frste-opptelling-av-stemmesedler-som-er-avgitt-pa-forhand">§ 18-4. Første opptelling av stemmesedler som er avgitt på forhånd</a></li>
+<li class="lvl4"><a href="#18-5-offentliggjring-av-valgresultater-ved-forlenget-valgting">§ 18-5. Offentliggjøring av valgresultater ved forlenget valgting</a></li>
+<li class="lvl4"><a href="#18-6-hvem-som-fungerer-som-fylkestingsmedlemmer-eller-kommunestyremedlemmer-ved-omvalg">§ 18-6. Hvem som fungerer som fylkestingsmedlemmer eller kommunestyremedlemmer ved omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-19-nytt-valgoppgjr-i-perioden">Kapittel 19. Nytt valgoppgjør i perioden</a></li>
+<li class="lvl4"><a href="#19-1-nytt-valgoppgjr-til-stortinget">§ 19-1. Nytt valgoppgjør til Stortinget</a></li>
+<li class="lvl4"><a href="#19-2-nytt-valgoppgjr-til-fylkestinget-eller-kommunestyret">§ 19-2. Nytt valgoppgjør til fylkestinget eller kommunestyret</a></li>
+<li class="lvl2"><a href="#kapittel-20-bruk-av-elektronisk-valggjennomfringssystem">Kapittel 20. Bruk av elektronisk valggjennomføringssystem</a></li>
+<li class="lvl4"><a href="#20-1-elektronisk-valggjennomfringssystem">§ 20-1. Elektronisk valggjennomføringssystem</a></li>
+<li class="lvl4"><a href="#20-2-forskrift">§ 20-2. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-21-forskjellige-bestemmelser">Kapittel 21. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#21-1-forsk-i-forbindelse-med-valg">§ 21-1. Forsøk i forbindelse med valg</a></li>
+<li class="lvl4"><a href="#21-2-tilgang-til-manntallet-og-det-vrige-materiellet">§ 21-2. Tilgang til manntallet og det øvrige materiellet</a></li>
+<li class="lvl4"><a href="#21-3-taushetsplikt">§ 21-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#21-4-beregning-av-frister">§ 21-4. Beregning av frister</a></li>
+<li class="lvl4"><a href="#21-5-oversittelse-av-frister">§ 21-5. Oversittelse av frister</a></li>
+<li class="lvl4"><a href="#21-6-opplysninger-til-valgstatistikk">§ 21-6. Opplysninger til valgstatistikk</a></li>
+<li class="lvl4"><a href="#21-7-valgobservasjon">§ 21-7. Valgobservasjon</a></li>
+<li class="lvl4"><a href="#21-8-offentliggjring-av-valgresultater-og-prognoser-pa-valgdagen">§ 21-8. Offentliggjøring av valgresultater og prognoser på valgdagen</a></li>
+<li class="lvl4"><a href="#21-9-overtredelsesgebyr">§ 21-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#21-10-klage-pa-vedtak-om-overtredelsesgebyr-mm">§ 21-10. Klage på vedtak om overtredelsesgebyr m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-22-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 22. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#22-1-ikrafttredelse">§ 22-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#22-2-endringer-i-andre-lover">§ 22-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-21-51.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2023-06-16-62.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om valg til Stortinget, fylkesting og kommunestyrer (valgloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2023-06-16-62.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2023-06-16-62 <code>lov/2023-06-16-62</code></td></tr>
+<tr><th>Korttittel</th><td>Valgloven</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Forvaltnings- og kommunalrett &raquo; Kommuner og fylkeskommuner\nStats-, statsforfatnings- og statsborgerrett &raquo; Stortinget\nStats-, statsforfatnings- og statsborgerrett &raquo; Valg</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.05.2024, Kongen bestemmer</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-21-51 <code>lov/2024-06-21-51</code> fra 21.06.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2023-06-16-62" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal-og-virkeomrade">§ 1-1. Lovens formål og virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-manntall">Kapittel 2. Stemmerett og manntall</a></li>
+<li class="lvl4"><a href="#2-1-stemmerett-ved-stortingsvalg">§ 2-1. Stemmerett ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#2-2-stemmerett-ved-fylkestingsvalg-og-kommunestyrevalg">§ 2-2. Stemmerett ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#2-3-ansvar-for-a-opprette-og-oppdatere-manntall">§ 2-3. Ansvar for å opprette og oppdatere manntall</a></li>
+<li class="lvl4"><a href="#2-4-tilgang-til-folkeregisteret">§ 2-4. Tilgang til folkeregisteret</a></li>
+<li class="lvl4"><a href="#2-5-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 2-5. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#2-6-hvilken-kommune-velgerne-skal-manntallsfres-i">§ 2-6. Hvilken kommune velgerne skal manntallsføres i</a></li>
+<li class="lvl4"><a href="#2-7-utlegging-av-manntallet-til-offentlig-ettersyn">§ 2-7. Utlegging av manntallet til offentlig ettersyn</a></li>
+<li class="lvl4"><a href="#2-8-retting-av-manntallet">§ 2-8. Retting av manntallet</a></li>
+<li class="lvl4"><a href="#2-9-melding-om-endringer-i-manntallet">§ 2-9. Melding om endringer i manntallet</a></li>
+<li class="lvl4"><a href="#2-10-informasjon-til-velgerne-om-stemmerett">§ 2-10. Informasjon til velgerne om stemmerett</a></li>
+<li class="lvl4"><a href="#2-11-forskrift">§ 2-11. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-og-ombudsplikt">Kapittel 3. Valgbarhet og ombudsplikt</a></li>
+<li class="lvl4"><a href="#3-1-valgbarhet-ved-stortingsvalg">§ 3-1. Valgbarhet ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#3-2-valgbarhet-ved-fylkestingsvalg-og-kommunestyrevalg">§ 3-2. Valgbarhet ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#3-3-hvem-som-er-utelukket-fra-valg">§ 3-3. Hvem som er utelukket fra valg</a></li>
+<li class="lvl4"><a href="#3-4-ombudsplikt">§ 3-4. Ombudsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-valgorganer">Kapittel 4. Valgorganer</a></li>
+<li class="lvl4"><a href="#4-1-riksvalgstyret">§ 4-1. Riksvalgstyret</a></li>
+<li class="lvl4"><a href="#4-2-fratreden-fra-verv-som-medlem-eller-varamedlem-av-riksvalgstyret">§ 4-2. Fratreden fra verv som medlem eller varamedlem av riksvalgstyret</a></li>
+<li class="lvl4"><a href="#4-3-distriktsvalgstyre">§ 4-3. Distriktsvalgstyre</a></li>
+<li class="lvl4"><a href="#4-4-fylkesvalgstyre">§ 4-4. Fylkesvalgstyre</a></li>
+<li class="lvl4"><a href="#4-5-valgstyre">§ 4-5. Valgstyre</a></li>
+<li class="lvl2"><a href="#kapittel-5-listeforslag">Kapittel 5. Listeforslag</a></li>
+<li class="lvl4"><a href="#5-1-krav-til-listeforslag">§ 5-1. Krav til listeforslag</a></li>
+<li class="lvl4"><a href="#5-2-antall-kandidater-pa-listeforslaget">§ 5-2. Antall kandidater på listeforslaget</a></li>
+<li class="lvl4"><a href="#5-3-stemmetillegg-ved-kommunestyrevalg">§ 5-3. Stemmetillegg ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#5-4-antall-underskrifter-pa-listeforslaget">§ 5-4. Antall underskrifter på listeforslaget</a></li>
+<li class="lvl4"><a href="#5-5-vedlegg-til-listeforslaget">§ 5-5. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#5-6-tillitsvalgte-og-tillitsutvalg">§ 5-6. Tillitsvalgte og tillitsutvalg</a></li>
+<li class="lvl4"><a href="#5-7-frist-for-a-levere-listeforslaget">§ 5-7. Frist for å levere listeforslaget</a></li>
+<li class="lvl4"><a href="#5-8-tilbakekalling-av-listeforslaget">§ 5-8. Tilbakekalling av listeforslaget</a></li>
+<li class="lvl4"><a href="#5-9-hvem-som-har-ansvaret-for-a-godkjenne-listeforslaget">§ 5-9. Hvem som har ansvaret for å godkjenne listeforslaget</a></li>
+<li class="lvl4"><a href="#5-10-valgmyndighetenes-behandling-av-listeforslagene">§ 5-10. Valgmyndighetenes behandling av listeforslagene</a></li>
+<li class="lvl4"><a href="#5-11-endring-av-listeforslaget-etter-innleveringsfristen">§ 5-11. Endring av listeforslaget etter innleveringsfristen</a></li>
+<li class="lvl4"><a href="#5-12-kunngjring-av-valglister">§ 5-12. Kunngjøring av valglister</a></li>
+<li class="lvl4"><a href="#5-13-trykking-av-stemmesedler">§ 5-13. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#5-14-forskrift">§ 5-14. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-6-fellesbestemmelser-for-stemming-innenlands">Kapittel 6. Fellesbestemmelser for stemming innenlands</a></li>
+<li class="lvl4"><a href="#6-1-kunngjring-av-nar-og-hvor-velgerne-kan-stemme">§ 6-1. Kunngjøring av når og hvor velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#6-2-hvem-som-har-ansvaret-for-stemmingen-i-et-valglokale">§ 6-2. Hvem som har ansvaret for stemmingen i et valglokale</a></li>
+<li class="lvl4"><a href="#6-3-antallet-valgmedarbeidere-ved-stemming-som-ikke-foregar-i-et-valglokale">§ 6-3. Antallet valgmedarbeidere ved stemming som ikke foregår i et valglokale</a></li>
+<li class="lvl4"><a href="#6-4-hvem-som-ikke-kan-vre-valgmedarbeidere-i-valglokalene-eller-ta-imot-stemmer">§ 6-4. Hvem som ikke kan være valgmedarbeidere i valglokalene eller ta imot stemmer</a></li>
+<li class="lvl4"><a href="#6-5-valgurner">§ 6-5. Valgurner</a></li>
+<li class="lvl4"><a href="#6-6-ordensregler">§ 6-6. Ordensregler</a></li>
+<li class="lvl4"><a href="#6-7-universell-utforming">§ 6-7. Universell utforming</a></li>
+<li class="lvl4"><a href="#6-8-rett-til-veiledning-og-assistanse">§ 6-8. Rett til veiledning og assistanse</a></li>
+<li class="lvl4"><a href="#6-9-hemmelig-stemming">§ 6-9. Hemmelig stemming</a></li>
+<li class="lvl4"><a href="#6-10-adgang-til-a-gi-personstemmer">§ 6-10. Adgang til å gi personstemmer</a></li>
+<li class="lvl4"><a href="#6-11-legitimasjon">§ 6-11. Legitimasjon</a></li>
+<li class="lvl4"><a href="#6-12-stemming-utenfor-valglokalet">§ 6-12. Stemming utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#6-13-oppbevaring-og-transport-av-valgmateriell">§ 6-13. Oppbevaring og transport av valgmateriell</a></li>
+<li class="lvl4"><a href="#6-14-forskrift">§ 6-14. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-forhandsstemming-innenlands">Kapittel 7. Forhåndsstemming innenlands</a></li>
+<li class="lvl4"><a href="#7-1-nar-velgerne-kan-forhandsstemme">§ 7-1. Når velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#7-2-hvor-velgerne-kan-forhandsstemme">§ 7-2. Hvor velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#7-3-hvem-som-oppnevner-stemmemottakere-pa-svalbard-og-jan-mayen">§ 7-3. Hvem som oppnevner stemmemottakere på Svalbard og Jan Mayen</a></li>
+<li class="lvl4"><a href="#7-4-elektronisk-manntall">§ 7-4. Elektronisk manntall</a></li>
+<li class="lvl4"><a href="#7-5-hvordan-velgerne-kan-forhandsstemme-i-egen-kommune">§ 7-5. Hvordan velgerne kan forhåndsstemme i egen kommune</a></li>
+<li class="lvl4"><a href="#7-6-hvordan-velgerne-kan-forhandsstemme-utenfor-egen-kommune">§ 7-6. Hvordan velgerne kan forhåndsstemme utenfor egen kommune</a></li>
+<li class="lvl4"><a href="#7-7-hvordan-velgerne-kan-forhandsstemme-pa-svalbard-og-jan-mayen">§ 7-7. Hvordan velgerne kan forhåndsstemme på Svalbard og Jan Mayen</a></li>
+<li class="lvl4"><a href="#7-8-hvordan-velgerne-kan-forhandsstemme-fr-den-ordinre-forhandsstemmingen-tidligstemming">§ 7-8. Hvordan velgerne kan forhåndsstemme før den ordinære forhåndsstemmingen (tidligstemming)</a></li>
+<li class="lvl2"><a href="#kapittel-8-forhandsstemming-i-utlandet">Kapittel 8. Forhåndsstemming i utlandet</a></li>
+<li class="lvl4"><a href="#8-1-nar-velgerne-kan-forhandsstemme">§ 8-1. Når velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-2-hvem-som-kan-motta-forhandsstemmer">§ 8-2. Hvem som kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#8-3-hvor-velgerne-kan-forhandsstemme">§ 8-3. Hvor velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-4-hvordan-velgerne-kan-forhandsstemme">§ 8-4. Hvordan velgerne kan forhåndsstemme</a></li>
+<li class="lvl4"><a href="#8-5-brevstemming">§ 8-5. Brevstemming</a></li>
+<li class="lvl2"><a href="#kapittel-9-stemming-pa-valgtinget">Kapittel 9. Stemming på valgtinget</a></li>
+<li class="lvl4"><a href="#9-1-nar-velgerne-kan-stemme">§ 9-1. Når velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#9-2-stemmekretser">§ 9-2. Stemmekretser</a></li>
+<li class="lvl4"><a href="#9-3-hvor-velgerne-kan-stemme">§ 9-3. Hvor velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#9-4-bruk-av-elektronisk-manntall-eller-papirmanntall">§ 9-4. Bruk av elektronisk manntall eller papirmanntall</a></li>
+<li class="lvl4"><a href="#9-5-hvordan-velgerne-kan-stemme-i-valglokaler-med-elektronisk-manntall">§ 9-5. Hvordan velgerne kan stemme i valglokaler med elektronisk manntall</a></li>
+<li class="lvl4"><a href="#9-6-hvordan-velgerne-kan-stemme-i-valglokaler-med-papirmanntall">§ 9-6. Hvordan velgerne kan stemme i valglokaler med papirmanntall</a></li>
+<li class="lvl2"><a href="#kapittel-10-godkjenning-av-stemmegivninger-og-stemmesedler-opptelling-og-protokollering-mm">Kapittel 10. Godkjenning av stemmegivninger og stemmesedler, opptelling og protokollering m.m.</a></li>
+<li class="lvl4"><a href="#10-1-godkjenning-av-stemmegivninger-hvis-stemmeseddelen-er-lagt-i-en-urne-uten-bruk-av-stemmeseddelkonvolutt">§ 10-1. Godkjenning av stemmegivninger hvis stemmeseddelen er lagt i en urne uten bruk av stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#10-2-godkjenning-av-stemmegivninger-hvis-stemmeseddelen-er-lagt-i-en-stemmeseddelkonvolutt">§ 10-2. Godkjenning av stemmegivninger hvis stemmeseddelen er lagt i en stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#10-3-godkjenning-av-stemmesedler">§ 10-3. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#10-4-hvem-som-har-ansvaret-for-godkjenning-av-stemmesedler-som-er-lagt-i-stemmeseddelkonvolutt-og-av-stemmesedler-som-det-er-tvil-om-skal-godkjennes">§ 10-4. Hvem som har ansvaret for godkjenning av stemmesedler som er lagt i stemmeseddelkonvolutt, og av stemmesedler som det er tvil om skal godkjennes</a></li>
+<li class="lvl4"><a href="#10-5-prinsipper-for-opptelling-av-stemmesedler">§ 10-5. Prinsipper for opptelling av stemmesedler</a></li>
+<li class="lvl4"><a href="#10-6-hvem-som-ikke-kan-delta-i-opptellingen">§ 10-6. Hvem som ikke kan delta i opptellingen</a></li>
+<li class="lvl4"><a href="#10-7-hvem-som-har-ansvaret-for-den-frste-opptellingen">§ 10-7. Hvem som har ansvaret for den første opptellingen</a></li>
+<li class="lvl4"><a href="#10-8-gjennomfring-av-frste-opptelling">§ 10-8. Gjennomføring av første opptelling</a></li>
+<li class="lvl4"><a href="#10-9-overlevering-av-materiell-til-valgstyret-fra-valglokalet-pa-valgtinget">§ 10-9. Overlevering av materiell til valgstyret fra valglokalet på valgtinget</a></li>
+<li class="lvl4"><a href="#10-10-hvem-som-har-ansvaret-for-den-andre-opptellingen">§ 10-10. Hvem som har ansvaret for den andre opptellingen</a></li>
+<li class="lvl4"><a href="#10-11-gjennomfring-av-andre-opptelling">§ 10-11. Gjennomføring av andre opptelling</a></li>
+<li class="lvl4"><a href="#10-12-kontroll-ved-den-andre-opptellingen-og-registrering-av-personstemmer">§ 10-12. Kontroll ved den andre opptellingen og registrering av personstemmer</a></li>
+<li class="lvl4"><a href="#10-13-oversending-av-materiell-til-distriktsvalgstyret-og-fylkesvalgstyret">§ 10-13. Oversending av materiell til distriktsvalgstyret og fylkesvalgstyret</a></li>
+<li class="lvl4"><a href="#10-14-opptelling-registrering-av-personstemmer-og-kontroll-av-valggjennomfringen">§ 10-14. Opptelling, registrering av personstemmer og kontroll av valggjennomføringen</a></li>
+<li class="lvl4"><a href="#10-15-protokoll">§ 10-15. Protokoll</a></li>
+<li class="lvl4"><a href="#10-16-forskrift">§ 10-16. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-11-mandatfordeling-og-karing-av-representanter-ved-stortingsvalg">Kapittel 11. Mandatfordeling og kåring av representanter ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-1-valgdistriktene-ved-stortingsvalg">§ 11-1. Valgdistriktene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-2-antallet-stortingsrepresentanter">§ 11-2. Antallet stortingsrepresentanter</a></li>
+<li class="lvl4"><a href="#11-3-antallet-stortingsmandater-fra-hvert-valgdistrikt">§ 11-3. Antallet stortingsmandater fra hvert valgdistrikt</a></li>
+<li class="lvl4"><a href="#11-4-fordelingen-av-de-direktevalgte-mandatene-ved-stortingsvalg">§ 11-4. Fordelingen av de direktevalgte mandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-5-karing-av-de-direktevalgte-representantene-ved-stortingsvalg">§ 11-5. Kåring av de direktevalgte representantene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-6-kunngjring-og-oversendelse-av-protokoll-ved-stortingsvalg">§ 11-6. Kunngjøring og oversendelse av protokoll ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-7-fordelingen-av-utjevningsmandatene-mellom-partiene-ved-stortingsvalg">§ 11-7. Fordelingen av utjevningsmandatene mellom partiene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-8-fordelingen-av-utjevningsmandatene-mellom-valgdistriktene-ved-stortingsvalg">§ 11-8. Fordelingen av utjevningsmandatene mellom valgdistriktene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-9-kunngjring-om-beregningen-av-utjevningsmandatene-ved-stortingsvalg">§ 11-9. Kunngjøring om beregningen av utjevningsmandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-10-karing-av-utjevningsmandatene-ved-stortingsvalg">§ 11-10. Kåring av utjevningsmandatene ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#11-11-informasjon-til-de-valgte-stortingsrepresentantene">§ 11-11. Informasjon til de valgte stortingsrepresentantene</a></li>
+<li class="lvl4"><a href="#11-12-fullmakter-til-de-valgte-stortingsrepresentantene">§ 11-12. Fullmakter til de valgte stortingsrepresentantene</a></li>
+<li class="lvl2"><a href="#kapittel-12-mandatfordeling-og-karing-av-representanter-ved-fylkestingsvalg">Kapittel 12. Mandatfordeling og kåring av representanter ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-1-fordelingen-av-mandatene-ved-fylkestingsvalg">§ 12-1. Fordelingen av mandatene ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-2-karing-av-de-valgte-representantene-ved-fylkestingsvalg">§ 12-2. Kåring av de valgte representantene ved fylkestingsvalg</a></li>
+<li class="lvl4"><a href="#12-3-informasjon-til-de-valgte-fylkestingsrepresentantene">§ 12-3. Informasjon til de valgte fylkestingsrepresentantene</a></li>
+<li class="lvl4"><a href="#12-4-kunngjring-og-oversendelse-av-protokoll-ved-fylkestingsvalg">§ 12-4. Kunngjøring og oversendelse av protokoll ved fylkestingsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-mandatfordeling-og-karing-av-representanter-ved-kommunestyrevalg">Kapittel 13. Mandatfordeling og kåring av representanter ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-1-fordelingen-av-mandatene-ved-kommunestyrevalg">§ 13-1. Fordelingen av mandatene ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-2-karing-av-de-valgte-representantene-ved-kommunestyrevalg">§ 13-2. Kåring av de valgte representantene ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#13-3-informasjon-til-de-valgte-kommunestyrerepresentantene">§ 13-3. Informasjon til de valgte kommunestyrerepresentantene</a></li>
+<li class="lvl4"><a href="#13-4-kunngjring-og-oversendelse-av-protokoll-ved-kommunestyrevalg">§ 13-4. Kunngjøring og oversendelse av protokoll ved kommunestyrevalg</a></li>
+<li class="lvl2"><a href="#kapittel-14-flertallsvalg-ved-kommunestyrevalg">Kapittel 14. Flertallsvalg ved kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#14-1-nar-det-skal-holdes-flertallsvalg">§ 14-1. Når det skal holdes flertallsvalg</a></li>
+<li class="lvl4"><a href="#14-2-hvordan-velgerne-kan-stemme">§ 14-2. Hvordan velgerne kan stemme</a></li>
+<li class="lvl4"><a href="#14-3-valgoppgjr-ved-flertallsvalg">§ 14-3. Valgoppgjør ved flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-15-godkjenning-av-valg">Kapittel 15. Godkjenning av valg</a></li>
+<li class="lvl4"><a href="#15-1-godkjenning-av-stortingsvalget">§ 15-1. Godkjenning av stortingsvalget</a></li>
+<li class="lvl4"><a href="#15-2-godkjenning-av-fylkestingsvalget">§ 15-2. Godkjenning av fylkestingsvalget</a></li>
+<li class="lvl4"><a href="#15-3-godkjenning-av-kommunestyrevalget">§ 15-3. Godkjenning av kommunestyrevalget</a></li>
+<li class="lvl2"><a href="#kapittel-16-klage">Kapittel 16. Klage</a></li>
+<li class="lvl4"><a href="#16-1-hva-det-kan-klages-pa">§ 16-1. Hva det kan klages på</a></li>
+<li class="lvl4"><a href="#16-2-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-stortingsvalg-mm">§ 16-2. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av stortingsvalg m.m.</a></li>
+<li class="lvl4"><a href="#16-3-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-fylkestingsvalg-mm">§ 16-3. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av fylkestingsvalg m.m.</a></li>
+<li class="lvl4"><a href="#16-4-hvem-som-kan-klage-pa-feil-ved-forberedelsen-og-gjennomfringen-av-kommunestyrevalg-mm">§ 16-4. Hvem som kan klage på feil ved forberedelsen og gjennomføringen av kommunestyrevalg m.m.</a></li>
+<li class="lvl4"><a href="#16-5-hvem-som-kan-klage-pa-godkjenning-av-valg">§ 16-5. Hvem som kan klage på godkjenning av valg</a></li>
+<li class="lvl4"><a href="#16-6-klagefrister">§ 16-6. Klagefrister</a></li>
+<li class="lvl4"><a href="#16-7-krav-til-klagen">§ 16-7. Krav til klagen</a></li>
+<li class="lvl4"><a href="#16-8-saksbehandlingen-i-det-organet-som-klagen-settes-frem-for">§ 16-8. Saksbehandlingen i det organet som klagen settes frem for</a></li>
+<li class="lvl4"><a href="#16-9-klagebehandlingen-i-riksvalgstyret">§ 16-9. Klagebehandlingen i riksvalgstyret</a></li>
+<li class="lvl4"><a href="#16-10-riksvalgstyrets-adgang-til-a-avvise-klager-og-gi-palegg-mm">§ 16-10. Riksvalgstyrets adgang til å avvise klager og gi pålegg m.m.</a></li>
+<li class="lvl4"><a href="#16-11-riksvalgstyrets-adgang-til-a-kjenne-valg-ugyldig">§ 16-11. Riksvalgstyrets adgang til å kjenne valg ugyldig</a></li>
+<li class="lvl4"><a href="#16-12-behandlingen-i-hyesterett">§ 16-12. Behandlingen i Høyesterett</a></li>
+<li class="lvl2"><a href="#kapittel-17-omvalg">Kapittel 17. Omvalg</a></li>
+<li class="lvl4"><a href="#17-1-nar-og-hvordan-omvalg-skal-gjennomfres">§ 17-1. Når og hvordan omvalg skal gjennomføres</a></li>
+<li class="lvl4"><a href="#17-2-hvem-som-fungerer-som-stortingsrepresentanter-ved-omvalg">§ 17-2. Hvem som fungerer som stortingsrepresentanter ved omvalg</a></li>
+<li class="lvl4"><a href="#17-3-hvem-som-fungerer-som-fylkestingsmedlemmer-eller-kommunestyremedlemmer-ved-omvalg">§ 17-3. Hvem som fungerer som fylkestingsmedlemmer eller kommunestyremedlemmer ved omvalg</a></li>
+<li class="lvl4"><a href="#17-4-forskrift">§ 17-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-18-forlenget-eller-utsatt-valgting-eller-omvalg-ved-ekstraordinre-hendelser">Kapittel 18. Forlenget eller utsatt valgting eller omvalg ved ekstraordinære hendelser</a></li>
+<li class="lvl4"><a href="#18-1-forlenget-eller-utsatt-valgting-eller-omvalg-ved-stortingsvalg">§ 18-1. Forlenget eller utsatt valgting eller omvalg ved stortingsvalg</a></li>
+<li class="lvl4"><a href="#18-2-forlenget-eller-utsatt-valgting-eller-omvalg-ved-fylkestingsvalg-og-kommunestyrevalg">§ 18-2. Forlenget eller utsatt valgting eller omvalg ved fylkestingsvalg og kommunestyrevalg</a></li>
+<li class="lvl4"><a href="#18-3-omvalg">§ 18-3. Omvalg</a></li>
+<li class="lvl4"><a href="#18-4-frste-opptelling-av-stemmesedler-som-er-avgitt-pa-forhand">§ 18-4. Første opptelling av stemmesedler som er avgitt på forhånd</a></li>
+<li class="lvl4"><a href="#18-5-offentliggjring-av-valgresultater-ved-forlenget-valgting">§ 18-5. Offentliggjøring av valgresultater ved forlenget valgting</a></li>
+<li class="lvl4"><a href="#18-6-hvem-som-fungerer-som-fylkestingsmedlemmer-eller-kommunestyremedlemmer-ved-omvalg">§ 18-6. Hvem som fungerer som fylkestingsmedlemmer eller kommunestyremedlemmer ved omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-19-nytt-valgoppgjr-i-perioden">Kapittel 19. Nytt valgoppgjør i perioden</a></li>
+<li class="lvl4"><a href="#19-1-nytt-valgoppgjr-til-stortinget">§ 19-1. Nytt valgoppgjør til Stortinget</a></li>
+<li class="lvl4"><a href="#19-2-nytt-valgoppgjr-til-fylkestinget-eller-kommunestyret">§ 19-2. Nytt valgoppgjør til fylkestinget eller kommunestyret</a></li>
+<li class="lvl2"><a href="#kapittel-20-bruk-av-elektronisk-valggjennomfringssystem">Kapittel 20. Bruk av elektronisk valggjennomføringssystem</a></li>
+<li class="lvl4"><a href="#20-1-elektronisk-valggjennomfringssystem">§ 20-1. Elektronisk valggjennomføringssystem</a></li>
+<li class="lvl4"><a href="#20-2-forskrift">§ 20-2. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-21-forskjellige-bestemmelser">Kapittel 21. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#21-1-forsk-i-forbindelse-med-valg">§ 21-1. Forsøk i forbindelse med valg</a></li>
+<li class="lvl4"><a href="#21-2-tilgang-til-manntallet-og-det-vrige-materiellet">§ 21-2. Tilgang til manntallet og det øvrige materiellet</a></li>
+<li class="lvl4"><a href="#21-3-taushetsplikt">§ 21-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#21-4-beregning-av-frister">§ 21-4. Beregning av frister</a></li>
+<li class="lvl4"><a href="#21-5-oversittelse-av-frister">§ 21-5. Oversittelse av frister</a></li>
+<li class="lvl4"><a href="#21-6-opplysninger-til-valgstatistikk">§ 21-6. Opplysninger til valgstatistikk</a></li>
+<li class="lvl4"><a href="#21-7-valgobservasjon">§ 21-7. Valgobservasjon</a></li>
+<li class="lvl4"><a href="#21-8-offentliggjring-av-valgresultater-og-prognoser-pa-valgdagen">§ 21-8. Offentliggjøring av valgresultater og prognoser på valgdagen</a></li>
+<li class="lvl4"><a href="#21-9-overtredelsesgebyr">§ 21-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#21-10-klage-pa-vedtak-om-overtredelsesgebyr-mm">§ 21-10. Klage på vedtak om overtredelsesgebyr m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-22-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 22. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#22-1-ikrafttredelse">§ 22-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#22-2-endringer-i-andre-lover">§ 22-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2023-06-16-62.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2023-06-16-62.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2023-06-16-62.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2023-06-16-62.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2023-06-16-62.html">Observerte kildeutgaver</a> · <a href="../historie/valgloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2023-06-16-62.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2023-06-16-62.html">Observerte kildeutgaver</a> · <a href="../historie/valgloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2023-06-16-62.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-valg-til-stortinget-fylkesting-og-kommunestyrer-valgloven">Lov om valg til Stortinget, fylkesting og kommunestyrer (valgloven)</h1>
 <h2 id="kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</h2>
 <h4 id="1-1-lovens-formal-og-virkeomrade">§ 1-1. Lovens formål og virkeområde</h4>
 <p>(1) Loven skal sikre frie, hemmelige og tillitskapende valg.</p>
@@ -227,7 +612,7 @@ d. forsikring fra kandidater som på grunn av sin stilling ikke er valgbare ved 
 <h4 id="5-11-endring-av-listeforslaget-etter-innleveringsfristen">§ 5-11. Endring av listeforslaget etter innleveringsfristen <a class="para-history" href="../historikk/lov-2023-06-16-62/para-5-11.html" title="Endringshistorikk for § 5-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Etter at fristen for innlevering av listeforslag er utløpt, kan listeforslagets tillitsvalgte bare gjøre de endringer som er nødvendige for å bringe listeforslaget i samsvar med kravene i loven her.</p>
 <p>(2) Hvis en kandidat strykes fra listeforslaget, kan listen suppleres med et nytt navn. Listeforslagets tillitsvalgte kan i så fall bestemme om navnet skal settes på den tomme plassen, eller om de etterfølgende kandidatene skal rykke opp i uforandret rekkefølge, og at listen da skal suppleres med et nytt navn nederst. Den tillitsvalgte skal legge ved en erklæring fra den nye kandidaten om at han eller hun er villig til å stå som kandidat på listen. § 5-5 bokstav b til d gjelder tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 51 .</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 51 .</p>
 <h4 id="5-12-kunngjring-av-valglister">§ 5-12. Kunngjøring av valglister</h4>
 <p>Når listeforslagene er godkjent, skal valgmyndighetene legge valglistene ut til offentlig ettersyn. Valgmyndighetene skal kunngjøre hva som er overskriftene på valglistene og hvor listene er lagt ut.</p>
 <h4 id="5-13-trykking-av-stemmesedler">§ 5-13. Trykking av stemmesedler</h4>
@@ -479,7 +864,7 @@ p. Nord-Trøndelag valgdistrikt, som består av kommunene Flatanger, Frosta, Gro
 q. Nordland valgdistrikt, som består av kommunene Alstahaug, Andøy, Beiarn, Bindal, Bodø, Brønnøy, Bø, Dønna, Evenes, Fauske, Flakstad, Gildeskål, Grane, Hadsel, Hamarøy, Hattfjelldal, Hemnes, Herøy (Nordland), Leirfjord, Lurøy, Lødingen, Meløy, Moskenes, Narvik, Nesna, Rana, Rødøy, Røst, Saltdal, Sortland, Steigen, Sømna, Sørfold, Træna, Vefsn, Vega, Vestvågøy, Vevelstad, Værøy, Vågan og Øksnes
 r. Troms valgdistrikt, som består av kommunene Balsfjord, Bardu, Dyrøy, Gratangen, Harstad, Ibestad, Karlsøy, Kvæfjord, Kvænangen, Kåfjord, Lavangen, Lyngen, Målselv, Nordreisa, Salangen, Senja, Skjervøy, Storfjord, Sørreisa, Tjeldsund og Tromsø
 s. Finnmark valgdistrikt, som består av kommunene Alta, Berlevåg, Båtsfjord, Gamvik, Hammerfest, Hasvik, Karasjok, Kautokeino, Lebesby, Loppa, Måsøy, Nesseby, Nordkapp, Porsanger, Sør-Varanger, Tana, Vadsø og Vardø.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 57 (i kraft 1 jan 2028).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 57 (i kraft 1 jan 2028).</p>
 <h4 id="11-2-antallet-stortingsrepresentanter">§ 11-2. Antallet stortingsrepresentanter</h4>
 <p>(1) Det skal velges 169 representanter til Stortinget.</p>
 <p>(2) Fra hvert valgdistrikt velges én representant gjennom utjevningsmandatordningen. De øvrige representantene velges direkte i valgdistriktene.</p>
@@ -701,13 +1086,13 @@ c. når det er sannsynlighetsovervekt for at forhold nevnt i bokstav a og b til 
 <p>(3) Hvis det har skjedd noe ekstraordinært som har hindret en vesentlig del av velgerne fra å stemme, kan Kongen i statsråd bestemme at det skal holdes omvalg. Et vedtak om å holde omvalg kan fattes bare så langt det er nødvendig for å sikre velgerne mulighet til å stemme.</p>
 <h4 id="18-3-omvalg">§ 18-3. Omvalg <a class="para-history" href="../historikk/lov-2023-06-16-62/para-18-3.html" title="Endringshistorikk for § 18-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved omvalg etter §§ 18-1 eller 18-2 gjelder § 17-1 tredje og fjerde ledd og § 17-4 tilsvarende. Ved omvalg etter § 18-1 gjelder også § 17-2 tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 51 .</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 51 .</p>
 <h4 id="18-4-frste-opptelling-av-stemmesedler-som-er-avgitt-pa-forhand">§ 18-4. Første opptelling av stemmesedler som er avgitt på forhånd</h4>
 <p>(1) Hvis valgtinget forlenges eller utsettes, kan opptellingen av stemmesedler som er avgitt på forhånd, tidligst starte dagen før det forlengede eller utsatte valgtinget avsluttes.</p>
 <p>(2) Har opptellingen startet, skal den stoppes. Opptellingen kan fortsette dagen før valgtinget avsluttes.</p>
 <h4 id="18-5-offentliggjring-av-valgresultater-ved-forlenget-valgting">§ 18-5. Offentliggjøring av valgresultater ved forlenget valgting <a class="para-history" href="../historikk/lov-2023-06-16-62/para-18-5.html" title="Endringshistorikk for § 18-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Hvis valgtinget forlenges til etter klokken 21 på valgdagen, gjelder § 21-8 tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 51 .</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 51 .</p>
 <h4 id="18-6-hvem-som-fungerer-som-fylkestingsmedlemmer-eller-kommunestyremedlemmer-ved-omvalg">§ 18-6. Hvem som fungerer som fylkestingsmedlemmer eller kommunestyremedlemmer ved omvalg</h4>
 <p>(1) Hvis Kongen i statsråd har bestemt at det skal holdes omvalg etter § 18-2 tredje ledd før det nye fylkestinget eller kommunestyret har konstituert seg, skal valgperioden for de sittende fylkestingsmedlemmene eller kommunestyremedlemmene forlenges inntil omvalget er endelig godkjent.</p>
 <p>(2) Hvis Kongen i statsråd har bestemt at det skal holdes omvalg etter § 18-2 tredje ledd etter det nyvalgte fylkestingets eller kommunestyrets konstituerende møte, skal de nyvalgte fylkestingsmedlemmene eller kommunestyremedlemmene bli sittende i vervene inntil omvalget er endelig godkjent.</p>
@@ -757,7 +1142,7 @@ c. andre når det følger av loven her.</p>
 <p>Før klokken 21 på valgdagen er det ikke tillatt å</p>
 <p>a. gi ut informasjon om eller offentliggjøre valgresultater
 b. offentliggjøre prognoser laget på grunnlag av undersøkelser på valgdagen eller dagen i forveien.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 51 .</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 51 .</p>
 <h4 id="21-9-overtredelsesgebyr">§ 21-9. Overtredelsesgebyr</h4>
 <p>(1) Et foretak eller en enkeltperson som forsettlig eller uaktsomt overtrer § 18-5 eller § 21-8 , kan av Medietilsynet ilegges et overtredelsesgebyr på inntil 28 ganger grunnbeløpet i folketrygden. Med foretak menes her selskap, samvirkeforetak, forening eller annen sammenslutning, enkeltpersonforetak, stiftelse, bo eller offentlig virksomhet.</p>
 <p>(2) Ved utmålingen av gebyret skal det særlig legges vekt på</p>
@@ -789,6 +1174,8 @@ e. foretakets eller personens økonomiske evne.</p>
 § 4 . Endring av registrert partinavn. Sammenslåing av partier under nytt navn (1) Et registrert politisk parti kan søke om å få endre det registrerte partinavnet. Bestemmelsene i § 3 gjelder tilsvarende. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å endre navnet på partiet. Hvis partiet fikk minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d . (2) Hvis to eller flere registrerte partier slår seg sammen og søker registrering under et nytt navn, anses det for søknad om navneendring. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å slå partiene sammen og søke registrering under et nytt navn. Hvis ett av partiene fikk minst 5 000 stemmer i hele landet ved siste stortingsvalg, gjelder ikke vilkårene i § 3 annet ledd bokstav d .
 § 9 nytt andre punktum skal lyde:
 – – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,227 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-06-28-844.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om kvalitet på fisk og fiskevarer" href="../feeds/forskrift-2013-06-28-844.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om kvalitet på fisk og fiskevarer</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-06-28-844</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-09-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-02-27-266</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-06-28-844" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-levende-fisk">Kapittel II. Levende fisk</a></li>
+<li class="lvl4"><a href="#4-fangst-sleping-transport-og-lagring">§ 4. Fangst, sleping, transport og lagring</a></li>
+<li class="lvl2"><a href="#kapittel-iii-om-handtering-av-fisk">Kapittel III. Om håndtering av fisk</a></li>
+<li class="lvl4"><a href="#5-utstyrskrav">§ 5. Utstyrskrav</a></li>
+<li class="lvl4"><a href="#6-oppbevaring-etter-opptak-og-under-ilandfring">§ 6. Oppbevaring etter opptak og under ilandføring</a></li>
+<li class="lvl4"><a href="#7-blgging">§ 7. Bløgging</a></li>
+<li class="lvl4"><a href="#7a-unntak-for-notsei-som-skal-eksporteres">§ 7a. Unntak for notsei som skal eksporteres</a></li>
+<li class="lvl4"><a href="#8-slying-rensing-skylling-og-hodekapping">§ 8. Sløying, rensing, skylling og hodekapping</a></li>
+<li class="lvl4"><a href="#9-fring-av-rastoff-mellom-farty">§ 9. Føring av råstoff mellom fartøy</a></li>
+<li class="lvl2"><a href="#kapittel-iv-kvalitetskrav-til-rastoff">Kapittel IV. Kvalitetskrav til råstoff</a></li>
+<li class="lvl4"><a href="#10-fersk-fisk-og-ferske-fiskevarer">§ 10. Fersk fisk og ferske fiskevarer</a></li>
+<li class="lvl4"><a href="#11-trrfisk-og-fullsaltet-fisk">§ 11. Tørrfisk og fullsaltet fisk</a></li>
+<li class="lvl4"><a href="#12-rastoff-til-produksjon-av-fiskemel-fiskeproteinhydrolysat-fiskeolje-tran-og-andre-marine-ingredienser-til-humant-konsum">§ 12. Råstoff til produksjon av fiskemel, fiskeproteinhydrolysat, fiskeolje, tran og andre marine ingredienser til humant konsum</a></li>
+<li class="lvl4"><a href="#13-rastoff-til-annen-anvendelse-herunder-frysing">§ 13. Råstoff til annen anvendelse, herunder frysing</a></li>
+<li class="lvl4"><a href="#14-fisk-og-fiskevarer-som-ikke-kan-omsettes-til-humant-konsum">§ 14. Fisk og fiskevarer som ikke kan omsettes til humant konsum</a></li>
+<li class="lvl2"><a href="#kapittel-v-srlige-bestemmelser-om-fisk-og-fiskevarer-til-forbruker-i-norge">Kapittel V. Særlige bestemmelser om fisk og fiskevarer til forbruker i Norge</a></li>
+<li class="lvl4"><a href="#15-fisk-og-fiskevarer-til-forbruker-i-norge">§ 15. Fisk og fiskevarer til forbruker i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-vi-srlige-bestemmelser-om-oppdrettet-fisk">Kapittel VI. Særlige bestemmelser om oppdrettet fisk</a></li>
+<li class="lvl4"><a href="#16-forebygging-av-forrester-i-mage-og-tarm-fr-opptak">§ 16. Forebygging av fôrrester i mage og tarm før opptak</a></li>
+<li class="lvl4"><a href="#17-sortering-feilretting-og-bruk-til-ulike-formal">§ 17. Sortering, feilretting og bruk til ulike formål</a></li>
+<li class="lvl2"><a href="#kapittel-vii-srlige-bestemmelser-om-krepsdyr">Kapittel VII. Særlige bestemmelser om krepsdyr</a></li>
+<li class="lvl4"><a href="#18-fangstfangstbehandling">§ 18. Fangst/fangstbehandling</a></li>
+<li class="lvl4"><a href="#19-krav-ved-koking-av-krepsdyr">§ 19. Krav ved koking av krepsdyr</a></li>
+<li class="lvl2"><a href="#kapittel-viii-srlige-bestemmelser-om-salt">Kapittel VIII. Særlige bestemmelser om salt</a></li>
+<li class="lvl4"><a href="#20-varebetegnelser">§ 20. Varebetegnelser</a></li>
+<li class="lvl4"><a href="#21-flekking-og-vasking-av-fisk">§ 21. Flekking og vasking av fisk</a></li>
+<li class="lvl4"><a href="#22-salting-og-modning">§ 22. Salting og modning</a></li>
+<li class="lvl4"><a href="#23-krav-til-fisk-som-er-fullsaltet">§ 23. Krav til fisk som er fullsaltet</a></li>
+<li class="lvl4"><a href="#24-krav-til-salt">§ 24. Krav til salt</a></li>
+<li class="lvl2"><a href="#kapittel-ix-srlige-bestemmelser-om-trrfisk">Kapittel IX. Særlige bestemmelser om tørrfisk</a></li>
+<li class="lvl4"><a href="#25-produktbetegnelse">§ 25. Produktbetegnelse</a></li>
+<li class="lvl4"><a href="#26-behandling-fr-henging">§ 26. Behandling før henging</a></li>
+<li class="lvl4"><a href="#27-transport-til-og-behandling-ved-hjellhesjer">§ 27. Transport til og behandling ved hjell/hesjer</a></li>
+<li class="lvl2"><a href="#kapittel-x-krav-til-emballasje-og-merking-av-fisk-og-fiskevarer">Kapittel X. Krav til emballasje og merking av fisk og fiskevarer</a></li>
+<li class="lvl4"><a href="#28-generelle-krav-til-emballasje">§ 28. Generelle krav til emballasje</a></li>
+<li class="lvl4"><a href="#29-merking-av-fisk-og-fiskevarer">§ 29. Merking av fisk og fiskevarer</a></li>
+<li class="lvl4"><a href="#30-merkingens-plassering">§ 30. Merkingens plassering</a></li>
+<li class="lvl4"><a href="#31-merking-av-engrosemballert-rastoff-og-halvfabrikata">§ 31. Merking av engrosemballert råstoff og halvfabrikata</a></li>
+<li class="lvl4"><a href="#32-fiskeart">§ 32. Fiskeart</a></li>
+<li class="lvl4"><a href="#33-produksjonsmetode">§ 33. Produksjonsmetode</a></li>
+<li class="lvl4"><a href="#34-fangst-eller-slaktedato">§ 34. Fangst- eller slaktedato</a></li>
+<li class="lvl4"><a href="#35-fangstomrade-eller-opprinnelsesland">§ 35. Fangstområde eller opprinnelsesland</a></li>
+<li class="lvl2"><a href="#kapittel-xi-srlige-bestemmelser-for-handel-med-brasil">Kapittel XI. Særlige bestemmelser for handel med Brasil</a></li>
+<li class="lvl4"><a href="#36-opphevet">§ 36. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-xii-administrative-bestemmelser-og-straff">Kapittel XII. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#37-opphevet">§ 37. (Opphevet)</a></li>
+<li class="lvl4"><a href="#38-tilsyn-og-vedtak">§ 38. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#39-dispensasjon">§ 39. Dispensasjon</a></li>
+<li class="lvl4"><a href="#40-straff">§ 40. Straff</a></li>
+<li class="lvl4"><a href="#41-ikrafttredelse-og-oppheving-av-andre-forskrifter">§ 41. Ikrafttredelse og oppheving av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I</a></li>
+<li class="lvl3"><a href="#a-beskrivelse-av-hvilke-varer-som-er-omfattet-av-merkekrav-for-fisk-og-fiskevarer">A. Beskrivelse av hvilke varer som er omfattet av merkekrav for fisk og fiskevarer:</a></li>
+<li class="lvl3"><a href="#b-fangstomrade-for-arter-fisket-i-havet">B. Fangstområde for arter fisket i havet:</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl3"><a href="#liste-over-betegnelser-og-arter-til-bruk-i-merking">Liste over betegnelser og arter til bruk i merking</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-02-27-266.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-28-844.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om kvalitet på fisk og fiskevarer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-06-28-844.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-06-28-844 <code>forskrift/2013-06-28-844</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om kvalitet på fisk og fiskevarer</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.09.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-02-27-266 <code>forskrift/2023-02-27-266</code> fra 27.02.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-06-28-844" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-levende-fisk">Kapittel II. Levende fisk</a></li>
+<li class="lvl4"><a href="#4-fangst-sleping-transport-og-lagring">§ 4. Fangst, sleping, transport og lagring</a></li>
+<li class="lvl2"><a href="#kapittel-iii-om-handtering-av-fisk">Kapittel III. Om håndtering av fisk</a></li>
+<li class="lvl4"><a href="#5-utstyrskrav">§ 5. Utstyrskrav</a></li>
+<li class="lvl4"><a href="#6-oppbevaring-etter-opptak-og-under-ilandfring">§ 6. Oppbevaring etter opptak og under ilandføring</a></li>
+<li class="lvl4"><a href="#7-blgging">§ 7. Bløgging</a></li>
+<li class="lvl4"><a href="#7a-unntak-for-notsei-som-skal-eksporteres">§ 7a. Unntak for notsei som skal eksporteres</a></li>
+<li class="lvl4"><a href="#8-slying-rensing-skylling-og-hodekapping">§ 8. Sløying, rensing, skylling og hodekapping</a></li>
+<li class="lvl4"><a href="#9-fring-av-rastoff-mellom-farty">§ 9. Føring av råstoff mellom fartøy</a></li>
+<li class="lvl2"><a href="#kapittel-iv-kvalitetskrav-til-rastoff">Kapittel IV. Kvalitetskrav til råstoff</a></li>
+<li class="lvl4"><a href="#10-fersk-fisk-og-ferske-fiskevarer">§ 10. Fersk fisk og ferske fiskevarer</a></li>
+<li class="lvl4"><a href="#11-trrfisk-og-fullsaltet-fisk">§ 11. Tørrfisk og fullsaltet fisk</a></li>
+<li class="lvl4"><a href="#12-rastoff-til-produksjon-av-fiskemel-fiskeproteinhydrolysat-fiskeolje-tran-og-andre-marine-ingredienser-til-humant-konsum">§ 12. Råstoff til produksjon av fiskemel, fiskeproteinhydrolysat, fiskeolje, tran og andre marine ingredienser til humant konsum</a></li>
+<li class="lvl4"><a href="#13-rastoff-til-annen-anvendelse-herunder-frysing">§ 13. Råstoff til annen anvendelse, herunder frysing</a></li>
+<li class="lvl4"><a href="#14-fisk-og-fiskevarer-som-ikke-kan-omsettes-til-humant-konsum">§ 14. Fisk og fiskevarer som ikke kan omsettes til humant konsum</a></li>
+<li class="lvl2"><a href="#kapittel-v-srlige-bestemmelser-om-fisk-og-fiskevarer-til-forbruker-i-norge">Kapittel V. Særlige bestemmelser om fisk og fiskevarer til forbruker i Norge</a></li>
+<li class="lvl4"><a href="#15-fisk-og-fiskevarer-til-forbruker-i-norge">§ 15. Fisk og fiskevarer til forbruker i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-vi-srlige-bestemmelser-om-oppdrettet-fisk">Kapittel VI. Særlige bestemmelser om oppdrettet fisk</a></li>
+<li class="lvl4"><a href="#16-forebygging-av-forrester-i-mage-og-tarm-fr-opptak">§ 16. Forebygging av fôrrester i mage og tarm før opptak</a></li>
+<li class="lvl4"><a href="#17-sortering-feilretting-og-bruk-til-ulike-formal">§ 17. Sortering, feilretting og bruk til ulike formål</a></li>
+<li class="lvl2"><a href="#kapittel-vii-srlige-bestemmelser-om-krepsdyr">Kapittel VII. Særlige bestemmelser om krepsdyr</a></li>
+<li class="lvl4"><a href="#18-fangstfangstbehandling">§ 18. Fangst/fangstbehandling</a></li>
+<li class="lvl4"><a href="#19-krav-ved-koking-av-krepsdyr">§ 19. Krav ved koking av krepsdyr</a></li>
+<li class="lvl2"><a href="#kapittel-viii-srlige-bestemmelser-om-salt">Kapittel VIII. Særlige bestemmelser om salt</a></li>
+<li class="lvl4"><a href="#20-varebetegnelser">§ 20. Varebetegnelser</a></li>
+<li class="lvl4"><a href="#21-flekking-og-vasking-av-fisk">§ 21. Flekking og vasking av fisk</a></li>
+<li class="lvl4"><a href="#22-salting-og-modning">§ 22. Salting og modning</a></li>
+<li class="lvl4"><a href="#23-krav-til-fisk-som-er-fullsaltet">§ 23. Krav til fisk som er fullsaltet</a></li>
+<li class="lvl4"><a href="#24-krav-til-salt">§ 24. Krav til salt</a></li>
+<li class="lvl2"><a href="#kapittel-ix-srlige-bestemmelser-om-trrfisk">Kapittel IX. Særlige bestemmelser om tørrfisk</a></li>
+<li class="lvl4"><a href="#25-produktbetegnelse">§ 25. Produktbetegnelse</a></li>
+<li class="lvl4"><a href="#26-behandling-fr-henging">§ 26. Behandling før henging</a></li>
+<li class="lvl4"><a href="#27-transport-til-og-behandling-ved-hjellhesjer">§ 27. Transport til og behandling ved hjell/hesjer</a></li>
+<li class="lvl2"><a href="#kapittel-x-krav-til-emballasje-og-merking-av-fisk-og-fiskevarer">Kapittel X. Krav til emballasje og merking av fisk og fiskevarer</a></li>
+<li class="lvl4"><a href="#28-generelle-krav-til-emballasje">§ 28. Generelle krav til emballasje</a></li>
+<li class="lvl4"><a href="#29-merking-av-fisk-og-fiskevarer">§ 29. Merking av fisk og fiskevarer</a></li>
+<li class="lvl4"><a href="#30-merkingens-plassering">§ 30. Merkingens plassering</a></li>
+<li class="lvl4"><a href="#31-merking-av-engrosemballert-rastoff-og-halvfabrikata">§ 31. Merking av engrosemballert råstoff og halvfabrikata</a></li>
+<li class="lvl4"><a href="#32-fiskeart">§ 32. Fiskeart</a></li>
+<li class="lvl4"><a href="#33-produksjonsmetode">§ 33. Produksjonsmetode</a></li>
+<li class="lvl4"><a href="#34-fangst-eller-slaktedato">§ 34. Fangst- eller slaktedato</a></li>
+<li class="lvl4"><a href="#35-fangstomrade-eller-opprinnelsesland">§ 35. Fangstområde eller opprinnelsesland</a></li>
+<li class="lvl2"><a href="#kapittel-xi-srlige-bestemmelser-for-handel-med-brasil">Kapittel XI. Særlige bestemmelser for handel med Brasil</a></li>
+<li class="lvl4"><a href="#36-opphevet">§ 36. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-xii-administrative-bestemmelser-og-straff">Kapittel XII. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#37-opphevet">§ 37. (Opphevet)</a></li>
+<li class="lvl4"><a href="#38-tilsyn-og-vedtak">§ 38. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#39-dispensasjon">§ 39. Dispensasjon</a></li>
+<li class="lvl4"><a href="#40-straff">§ 40. Straff</a></li>
+<li class="lvl4"><a href="#41-ikrafttredelse-og-oppheving-av-andre-forskrifter">§ 41. Ikrafttredelse og oppheving av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I</a></li>
+<li class="lvl3"><a href="#a-beskrivelse-av-hvilke-varer-som-er-omfattet-av-merkekrav-for-fisk-og-fiskevarer">A. Beskrivelse av hvilke varer som er omfattet av merkekrav for fisk og fiskevarer:</a></li>
+<li class="lvl3"><a href="#b-fangstomrade-for-arter-fisket-i-havet">B. Fangstområde for arter fisket i havet:</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl3"><a href="#liste-over-betegnelser-og-arter-til-bruk-i-merking">Liste over betegnelser og arter til bruk i merking</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-28-844.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-06-28-844.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-28-844.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-06-28-844.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-06-28-844.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-06-28-844.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-06-28-844.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-06-28-844.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-06-28-844.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-kvalitet-pa-fisk-og-fiskevarer">Forskrift om kvalitet på fisk og fiskevarer</h1>
 <h2 id="kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å fremme god kvalitet på fisk og fiskevarer til forbruker, og bidra til markedsadgang for norsk fisk og norske fiskevarer i utlandet.</p>
@@ -95,7 +258,7 @@ g. Saltfilet : fullsaltet fisk av arter omtalt i § 20 hvor fiskesidene er frask
 h. Saltfisk : fullsaltet fisk av arter omtalt i § 20 som er blodtømt, sløyd, hodekappet, vasket og flekket (slik at ca. to tredjedeler av ryggbeinet er fjernet),
 i. Selvdød fisk : fisk som er død i sjø eller i ferskvann, men ikke fisk som dør som direkte konsekvens av fangstmetoden,
 j. Tørrfisk : fisk (rund, rotskjær eller filet) av arter omtalt i § 25 som er framstilt ved naturtørking eller industriell tørking, uten tilsetning av salt eller andre tilsetningsstoffer.</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h2 id="kapittel-ii-levende-fisk">Kapittel II. Levende fisk</h2>
 <h4 id="4-fangst-sleping-transport-og-lagring">§ 4. Fangst, sleping, transport og lagring</h4>
 <p>Fangst, sleping, transport og lagring av levende fisk skal være tilpasset og utføres slik at fisken ikke kvalitetsforringes, herunder får sårskader eller presskader. Ved rekefiske skal tråltid avpasses etter forekomstene slik at rekene kommer levende om bord.</p>
@@ -119,10 +282,10 @@ d. blåkveite under 2 kg som fryses inn umiddelbart, og senest fire timer etter 
 <p>I tillegg til unntakene i tredje og fjerde ledd, kan Mattilsynet gi fritak for bløgging for oppdrettet fisk som slaktes på grunn av uforutsette hendelser, herunder tiltak knyttet til sykdomsutbrudd og algeforekomst.</p>
 <p>Bløgging skal gjennomføres slik at det ikke unødig skjæres i muskelhinner som naturlig beskytter fiskens kvalitet.</p>
 <p>Fisk som har blodfylte årer i buk eller som etter skylling er rød av blod i nakke og buksnitt, anses ikke som bløgget.</p>
-<p><em>Endret ved forskrifter 12 mars 2014 nr. 365 , 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrifter 12 mars 2014 nr. 365 , 6 okt 2017 nr. 1630 .</p>
 <h4 id="7a-unntak-for-notsei-som-skal-eksporteres">§ 7a. Unntak for notsei som skal eksporteres</h4>
 <p>Notfanget sei som skal eksporteres til tredjeland er unntatt fra krav om bløgging i § 7 og krav om sløying i § 8 .</p>
-<p><em>Tilføyd ved forskrift 27 feb 2023 nr. 266 .</em></p>
+<p class="note">Tilføyd ved forskrift 27 feb 2023 nr. 266 .</p>
 <h4 id="8-slying-rensing-skylling-og-hodekapping">§ 8. Sløying, rensing, skylling og hodekapping</h4>
 <p>Fisk som skal bløgges etter § 7 , skal sløyes snarest mulig etter utblødning, slik at kvaliteten ikke forringes.</p>
 <p>Sei som er unntatt fra krav om bløgging i § 7 fjerde ledd bokstav a) og b) skal likevel sløyes.</p>
@@ -156,7 +319,7 @@ e. kjøtt langs ryggbein skal ikke ha rosa eller rød misfarge,
 f. 100 gram fiskekjøtt skal i gjennomsnitt av undersøkte prøver ikke inneholde mer enn 10 milligram trimetylamin-nitrogen og ingen enkeltprøve over 15 milligram.</p>
 <p>For lange og brosme oppbevart om bord før produksjon av tørrfisk til framstilling av lutefisk, gjelder ikke kravene i første ledd bokstavene e) og f).</p>
 <p>Råstoff til saltfilet og fullsaltet sild, makrell og brisling skal oppfylle kravene i § 13 .</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h4 id="12-rastoff-til-produksjon-av-fiskemel-fiskeproteinhydrolysat-fiskeolje-tran-og-andre-marine-ingredienser-til-humant-konsum">§ 12. Råstoff til produksjon av fiskemel, fiskeproteinhydrolysat, fiskeolje, tran og andre marine ingredienser til humant konsum</h4>
 <p>Til framstilling av fiskemel, fiskeproteinhydrolysat, fiskeolje og andre marine ingredienser til humant konsum kan all fisk og alle fiskevarer som forskriften gjelder for, brukes. Dette omfatter også hele fisk og restråstoff som oppstår etter bearbeiding og foredling av fiskevarer, såfremt de fortsatt er egnet til humant konsum.</p>
 <p>Til framstilling av tran kan bare lever av torsk, sei eller hyse, eventuelt i blanding, brukes. Lever som er gått i oppløsning, skal ikke brukes til framstilling av tran.</p>
@@ -196,7 +359,7 @@ l. har omfattende ytre sykdomsforandringer, herunder store sår eller byller.</p
 <p>Oppdrettet fisk skal sorteres innenlands slik at fisk med sår, misdannelser, grove behandlingsfeil eller indre kvalitetsfeil ikke omsettes til humant konsum.</p>
 <p>Fisk med slike feil som nevnt i første ledd, kan likevel omsettes direkte til virksomheter innenlands som har nødvendig utstyr og hvor feilretting før omsetning til humant konsum skal foretas, eller direkte til virksomheter innenlands for produksjon av fiskemel, fiskeproteinhydrolysat, fiskeolje, tran og andre marine ingredienser til humant konsum.</p>
 <p>Ved innenlands transport av fisk med feil som nevnt i første ledd, skal emballasjen merkes tydelig «Kun for tilvirkning innenlands».</p>
-<p><em>Endret ved forskrift 24 april 2019 nr. 538 .</em></p>
+<p class="note">Endret ved forskrift 24 april 2019 nr. 538 .</p>
 <h2 id="kapittel-vii-srlige-bestemmelser-om-krepsdyr">Kapittel VII. Særlige bestemmelser om krepsdyr</h2>
 <h4 id="18-fangstfangstbehandling">§ 18. Fangst/fangstbehandling</h4>
 <p>Ved fangst skal selvdød krabbe og blautkrabbe, vasskrabbe og tomkrabbe fjernes, og ikke omsettes til humant konsum.</p>
@@ -208,25 +371,25 @@ l. har omfattende ytre sykdomsforandringer, herunder store sår eller byller.</p
 <h4 id="20-varebetegnelser">§ 20. Varebetegnelser</h4>
 <p>Saltfisk, klippfisk og saltfilet kan bare tilvirkes av følgende arter som alle tilhører torskefamilien (familien Gadidae ): Norsk navn Engelsk navn Latinsk navn Torsk Cod Gadus morhua Stillehavstorsk Pacific cod Gadus macrocephalus Polartorsk Polar cod Boreogadus saida Grønlandstorsk Greenland cod Gadus ogac Sei Saithe Gadus virens (ss. Pollachius virens ) Lange Ling Molva molva Blålange Blue ling Molva dypterygia Brosme Tusk Brosme brosme Skjellbrosme (ss. bustebrosme) Forkbeard Phycis blennoides Hyse Haddock Gadus aeglefinus (ss. Melanogrammus aeglefinus )</p>
 <p>Betegnelsen saltfisk, klippfisk og saltfilet kan ikke brukes for tilvirking av saltet og tørket fisk av andre arter.</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h4 id="21-flekking-og-vasking-av-fisk">§ 21. Flekking og vasking av fisk</h4>
 <p>Fisken skal vaskes slik at all slimhud fjernes.</p>
 <p>Etter vasking skal fisken flekkes ved at ca. 2/3 av ryggbeinet fjernes.</p>
 <p>Flekkingen skal utføres slik at nakkeblod og blodstubb fjernes. Flekkingen skal være så dyp at gjenstående ryggvirvler ligger fritt. Fisken skal flekkes helt ut for å unngå rundspor. Etter flekking skal fisken vaskes slik at alle urenheter, blod og slintrer fjernes.</p>
 <p>Sei og hyse som i rå tilstand er under 58 cm (totalmål) kan flekkes uten fjerning av ryggbeinet. Ryggbeinet skal så vidt mulig kløyves på langs.</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h4 id="22-salting-og-modning">§ 22. Salting og modning</h4>
 <p>Uansett saltingsmetode skal hele fisken eller fiskevaren saltes jevnt og tilstrekkelig for å oppnå fullsaltet vare. Fisk og fiskevarer som har vært fryst, skal ikke bringes i salt før den/de er gjennomtint. Det skal ikke finnes råflekker på ferdig produkt.</p>
 <p>Fisk og fiskevarer skal saltes og modnes under kontrollerte betingelser for å fremme fiskens naturlige modningsprosess.</p>
 <h4 id="23-krav-til-fisk-som-er-fullsaltet">§ 23. Krav til fisk som er fullsaltet</h4>
 <p>Før pakking skal fisk være saltmoden med karakteristisk utseende, konsistens og smak for varen. Løssalt skal være fjernet før pakking og veiing.</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h4 id="24-krav-til-salt">§ 24. Krav til salt</h4>
 <p>Salt til produksjon av fisk og fiskevarer skal oppfylle følgende krav:</p>
 <p>a. saltet skal ha et rent utseende og ikke inneholde tydelige, fargede partikler eller fremmede krystaller. Det skal være fritt for avvikende lukt og ha en tydelig ren saltsmak,
 b. jerninnholdet skal ikke overstige 10 mg/kg salt,
 c. kopperinnholdet skal ikke overstige 0,1 mg/kg salt.</p>
-<p><em>Endret ved forskrift 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrift 6 okt 2017 nr. 1630 .</p>
 <h2 id="kapittel-ix-srlige-bestemmelser-om-trrfisk">Kapittel IX. Særlige bestemmelser om tørrfisk</h2>
 <h4 id="25-produktbetegnelse">§ 25. Produktbetegnelse</h4>
 <p>Tørrfisk skal bare tilvirkes av torsk, hyse, sei, lange, blålange eller brosme.</p>
@@ -234,7 +397,7 @@ c. kopperinnholdet skal ikke overstige 0,1 mg/kg salt.</p>
 <h4 id="26-behandling-fr-henging">§ 26. Behandling før henging</h4>
 <p>Fisk kan fryses for seinere tining og tørking så framt den oppfyller kravene til råstoff i § 11 .</p>
 <p>Fisk over 60 cm skal ikke tørkes med hode. Slintrer, lever, blodlevringer, galleblære og andre innvollsrester og urenheter skal fjernes fra fisken. Fisken skal skylles grundig i drikkevann eller rent vann. Fisk med utpreget rist (skjell), slik som hyse og sei, skal behandles atskilt og skal ikke skylles, sperres eller transporteres sammen med annen fisk.</p>
-<p><em>Endret ved forskrift 27 feb 2023 nr. 266 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2023 nr. 266 .</p>
 <h4 id="27-transport-til-og-behandling-ved-hjellhesjer">§ 27. Transport til og behandling ved hjell/hesjer</h4>
 <p>Fisk skal ved transport til, behandling ved, og henging på hjell/hesjer, oppbevares og håndteres på en slik måte at fisken ikke kvalitetsforringes, herunder påføres klebeflekker.</p>
 <h2 id="kapittel-x-krav-til-emballasje-og-merking-av-fisk-og-fiskevarer">Kapittel X. Krav til emballasje og merking av fisk og fiskevarer</h2>
@@ -245,11 +408,11 @@ c. kopperinnholdet skal ikke overstige 0,1 mg/kg salt.</p>
 <p>Merkeplikten i § 34 gjelder ikke for skjell, pigghuder og sjøsnegler som omsettes levende.</p>
 <p>Merkeplikten i § 32 – § 35 gjelder ikke ved omsetning av små mengder fisk og fiskevarer fra fisker og oppdretter direkte til sluttforbruker.</p>
 <p>Merkekravene i § 31 gjelder også for fisk og fiskevarer som skal eksporteres. Merkekravene i § 32 – § 35 gjelder ved omsetning i Norge.</p>
-<p><em>Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</p>
 <h4 id="30-merkingens-plassering">§ 30. Merkingens plassering</h4>
 <p>Opplysningene i § 31 må i alle omsetningsledd være merket på pakningen eller på etikett festet til pakningen.</p>
 <p>Ved salg til sluttforbruker skal opplysningene i § 32 – § 35 være merket på pakningen eller etikett festet til pakningen. For fisk og fiskevarer som ikke er ferdigpakket skal disse opplysningene gis skriftlig på skilt, oppslag eller lignende. I leddene før salg til sluttforbruker skal opplysningene være kjøper i hende senest samtidig med vareleveransen.</p>
-<p><em>Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</p>
 <h4 id="31-merking-av-engrosemballert-rastoff-og-halvfabrikata">§ 31. Merking av engrosemballert råstoff og halvfabrikata</h4>
 <p>Fisk og fiskevarer skal merkes med:</p>
 <p>a. Varebetegnelse, som skal inneholde fiskeart
@@ -258,7 +421,7 @@ c. Temperaturkrav under transport og lagring. Merking med temperaturkrav gjelder
 d. Dypfryste varer skal merkes med dato for første gangs innfrysing angitt som dag, måned og år. Slik merking vil dekke opplysningsplikten med hensyn på holdbarhet.</p>
 <p>Engrosemballasjen for hel og sløyd oppdrettsfisk skal også merkes med lokalitetsnummeret hvor oppdrettsfisken er produsert.</p>
 <p>Merkingen skal være være på norsk eller engelsk. Merkingen skal også være på et språk som kan forstås av den som skal motta produktet.</p>
-<p><em>Endret ved forskrifter 19 des 2014 nr. 1842 (i kraft 1 jan 2015), 6 okt 2017 nr. 1630 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2014 nr. 1842 (i kraft 1 jan 2015), 6 okt 2017 nr. 1630 .</p>
 <h4 id="32-fiskeart">§ 32. Fiskeart</h4>
 <p>For fisk og fiskevarer som er omfattet av vedlegg I del A, skal den aksepterte betegnelsen på arten angis. Listen over aksepterte betegnelser i vedlegg II, skal benyttes. I tidligere omsetningsledd enn ved omsetning til sluttforbruker skal det vitenskapelige/latinske navnet angis i tillegg.</p>
 <p>Mattilsynet kan endre listen over aksepterte betegnelser.</p>
@@ -283,14 +446,14 @@ c. fisk og fiskevarer fra oppdrett, skal merkes med det landet hvor fisken gjenn
 <p>Ved omsetning av en blanding av samme art som har opprinnelse fra flere fangstområder eller land, skal minimum opprinnelseslandet eller det fangstområdet hvor størstedelen av varepartiet stammer fra oppgis, sammen med opplysningen om at fiskevarene stammer fra forskjellige land eller fangstområder.</p>
 <h2 id="kapittel-xi-srlige-bestemmelser-for-handel-med-brasil">Kapittel XI. Særlige bestemmelser for handel med Brasil</h2>
 <h4 id="36-opphevet">§ 36. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 18 juni 2020 nr. 1547 (i kraft 15 juli 2020).</em></p>
+<p class="note">Opphevet ved forskrift 18 juni 2020 nr. 1547 (i kraft 15 juli 2020).</p>
 <h2 id="kapittel-xii-administrative-bestemmelser-og-straff">Kapittel XII. Administrative bestemmelser og straff</h2>
 <h4 id="37-opphevet">§ 37. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 18 juni 2020 nr. 1547 (i kraft 15 juli 2020).</em></p>
+<p class="note">Opphevet ved forskrift 18 juni 2020 nr. 1547 (i kraft 15 juli 2020).</p>
 <h4 id="38-tilsyn-og-vedtak">§ 38. Tilsyn og vedtak</h4>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige vedtak for gjennomføring av bestemmelsene i denne forskriften, jf. matloven § 23 .</p>
 <p>For hvitfisksektoren i Nordland, Troms og Finnmark skal Norges Råfisklag føre tilsyn med § 5 , § 6 , § 7 og § 8 i denne forskriften i henhold til retningslinje gitt av Mattilsynet, jf. lov 21. juni 2013 nr. 75 om førstehandsomsetning av viltlevande marine ressursar (fiskesalslagslova) § 16 .</p>
-<p><em>Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 19 des 2014 nr. 1842 (i kraft 1 jan 2015).</p>
 <h4 id="39-dispensasjon">§ 39. Dispensasjon</h4>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskriften, forutsatt at det ikke strider mot Norges internasjonale forpliktelser, herunder EØS-avtalen.</p>
 <h4 id="40-straff">§ 40. Straff</h4>
@@ -307,6 +470,8 @@ c. fisk og fiskevarer fra oppdrett, skal merkes med det landet hvor fisken gjenn
 <h2 id="vedlegg-ii">Vedlegg II</h2>
 <h3 id="liste-over-betegnelser-og-arter-til-bruk-i-merking">Liste over betegnelser og arter til bruk i merking</h3>
 <p>Norsk navn Latinsk navn Abbor Perca fluviatilis Akkar Todarodes sagittatus Alaskapollock Theragra chalcogramma Alaskatorsk Gadus macrocephalus Amerikansk hummer Homarus americanus Ansjos Engraulis encrasicolus Antarktisk krill Euphausia superba Berggylte Labrus bergylta Blå marlin Makaira nigricans Blåhai Prionace glauca Blåkveite Reinhardtius hippoglossoides Blålange Molva dypterygia Blåskjell Mytilus edulis Blåsteinbit Anarhichas denticulatus Breiflabb Lophius piscatorius Brisling Sprattus sprattus Brosme Brosme brosme Brudefisk Centroberyx affinis Brugde Cetorhinus maximus Chilensk blåskjell Mytilus chilensis Dypvannshå Centroscymnus coelolepis Ferskvannskreps Astacus astacus Fjesing Trachinus draco Gapeflyndre Hippoglossoides platessoides Gjedde Esox lucius Gjørs Stizostedion lucioperca Glassvar Lepidorhombus whiffiagonis Grønnskjell Perna canaliculus Gulfinnet tunfisk Thunnus albacares Gyllen havkaruss Sparus aurata Haneskjell Chlamys islandica Harpeskjell Chlamys opercularis Harr Thymallus thymallus Havabbor (Sea Bass) Dicentrarchus labrax Havbrasme Brama brama Havkaruss (Sea Bream) Spondyliosoma cantharus Hjerteskjell Cardium edule Hummer Homarus gammarus Hvitfotreke Penaeus vannamei Hvitting Merlangius merlangus Hyse, kolje Melanogrammus aeglefinus Hå Deania calceus Hå Etmopterus spinax Hå Galeorhinus galeus Hå Scyliorhinus canicula Håbrann Lamna nasus Hågjel Galeus melastomus Håkjerring Somniosus microcephalus Isgalt Macrourus berglax Kamskjell Pecten maximus Karpe Cyprinus carpio Knurr Eutrigla (= Trigla ) gurnardus Kolmule Micromesistius poutassou Kongekrabbe Paralithodes camtschaticus Kongemakrell Scomberomorus maculatus Kongereke Penaeus kerathurus Kongesnegl Buccinum undatum Kråkebolle Strongylocentrotus Droebachiensis Kuskjell Cyprina islandica Kveite Hippoglossus hippoglossus Laks Salmo salar Laksestørje Lampris guttatus Lange Molva molva Langfinnet tunfisk Thunnus alalunga Lodde Mallotus villosus Lomre Microstomus kitt Lyr Pollachius pollachius Lysing Merluccius merluccius Makrell Scomber scombrus Makrellstørje Thunnus thynnus Mort Rutilus rutilus Mulle Mullus surmuletus Niltilapia Oreochromis niloticus Oskjell Modiolus modiolus Pagell Pagellus acarne Pagell Pagellus bogaraveo Pagell Pagellus erythrinus Pangasius Pangasius hypophthalmus Pigghå Squalus acanthias Piggvar Psetta maxima Polartorsk Boreogadus saida Portugisisk østers Crassostrea angulata Ramsays isfisk Patagonotothen ramsayi Regnbueørret Oncorhynchus mykiss Reker Pandalus borealis Rognkjeks Cyclopterus lumpus Rød snapper Lutjanus campechanus Rødmulle Mullus barbatus Rødspette Pleuronectes platessa Røye Salvelinus alpinus Sandflyndre Limanda limanda Sandskjell Spisula solidissima Sanktpetersfisk Zeus faber Sardin Sardina pilchardus Sei Pollachius virens Sik Coregonus lavaretus Sild Clupea harengus Sjøkreps Nephrops norvegicus Skate Bathyraja spinicauda Skate Dipturus ( Raja ) oxyrinchus Skate Raja montagui Skate Rajella ( Raja ) fyllae Skjeggbrosme Urophycis tenuis Skjellbrosme Phycis phycis Skrubbe Platichthys flesus Slettvar Scopthalamus rhombos Smørflyndre Glyptocephalus cynoglossus Snabeluer Sebastes mentella Spansk makrell Scomber colias Stamsild Alosa fallax Steinbit Anarhichas lupus Steinbit Anarhichas minor Stillehavsøsters Crassostrea giga Storøyd tunfisk Thunnus obesus Strandreke Palaemon serratus Strandsnegl Littorina littoria Stripet havabbor Morone saxatilis Stripet pelamide Sarda sarda Strømsild Argentina sphyraena Sverdfisk Xiphias gladius Sølvlaks Oncorhynchus kisutch Sørlig laksestørje Lampris immaculatus Taggmakrell Trachurus trachurus Tannbrasme Dentex dentex Tannfisk Dissostichus elegonoides Tannfisk Dissostichus mawsoni Taskekrabbe Cancer pagurus Tiarmet blekksprut Illex illecebrosus Tiarmet blekksprut Loliginidae, Ommastrephidae Tiarmet blekksprut Loligo forbesi Tigerreke Penaeus kerathurus Tigerreke Penaeus monodon Torsk Gadus morhua Tunge Solea solea Vanlig papegøyefisk Sparisoma cretense Vanlig uer Sebastes marinus Vassild Argentina silus Ørret Salmo trutta Østers Ostrea edulis Ål Anguilla anguilla</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

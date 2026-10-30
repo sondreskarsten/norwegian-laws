@@ -19,64 +19,237 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-06-17-101.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Matrikkellova" href="../feeds/lov-2005-06-17-101.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Matrikkellova</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2005-06-17-101</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Fast eiendoms rettsforhold &raquo; Matrikkel\nFast eiendoms rettsforhold &raquo; Tinglysing. Registrering</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01, 2007-02-09, 2009-02-27, 2022-01-01, Kongen bestemmer</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-93</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-101" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-verkeomrade-og-definisjonar">Kapittel 1. Formål, verkeområde og definisjonar</a></li>
+<li class="lvl4"><a href="#1-formalet-med-lova">§ 1. Formålet med lova</a></li>
+<li class="lvl4"><a href="#2-geografisk-verkeomrade">§ 2. Geografisk verkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjonar">§ 3. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2-matrikkelen-og-innhaldet-i-den-oa">Kapittel 2. Matrikkelen og innhaldet i den o.a.</a></li>
+<li class="lvl4"><a href="#4-matrikkelen">§ 4. Matrikkelen</a></li>
+<li class="lvl4"><a href="#5-matrikkeleiningar">§ 5. Matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#5-a-matrikkelstyresmaktene">§ 5 a. Matrikkelstyresmaktene</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-matrikulering-og-andre-fringar-som-gjeld-matrikkeleiningar">Kapittel 3. Vilkår for matrikulering og andre føringar som gjeld matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#6-krav-om-oppmalingsforretning-fr-matrikkelfring">§ 6. Krav om oppmålingsforretning før matrikkelføring</a></li>
+<li class="lvl4"><a href="#7-krav-om-klarlagd-grense-fr-tinglysing-av-heimelsovergang">§ 7. Krav om klarlagd grense før tinglysing av heimelsovergang</a></li>
+<li class="lvl4"><a href="#8-krav-om-matrikkelfring">§ 8. Krav om matrikkelføring</a></li>
+<li class="lvl4"><a href="#9-kven-som-kan-krevje-matrikulering">§ 9. Kven som kan krevje matrikulering</a></li>
+<li class="lvl4"><a href="#10-felles-vilkar-for-matrikulering">§ 10. Felles vilkår for matrikulering</a></li>
+<li class="lvl4"><a href="#11-srskilt-om-matrikulering-av-anleggseigedom">§ 11. Særskilt om matrikulering av anleggseigedom</a></li>
+<li class="lvl4"><a href="#12-srskilt-om-matrikkelfring-av-festegrunn">§ 12. Særskilt om matrikkelføring av festegrunn</a></li>
+<li class="lvl4"><a href="#13-srskilt-om-matrikulering-av-umatrikulert-grunneigedom-og-umatrikulert-festegrunn">§ 13. Særskilt om matrikulering av umatrikulert grunneigedom og umatrikulert festegrunn</a></li>
+<li class="lvl4"><a href="#14-registrering-av-jordsameige">§ 14. Registrering av jordsameige</a></li>
+<li class="lvl4"><a href="#15-arealoverfring">§ 15. Arealoverføring</a></li>
+<li class="lvl4"><a href="#15-a-matrikkelomforming">§ 15 a. Matrikkelomforming</a></li>
+<li class="lvl4"><a href="#16-grensejustering">§ 16. Grensejustering</a></li>
+<li class="lvl4"><a href="#17-klarlegging-av-eksisterande-grense-punktfeste-og-stadbundne-rettar">§ 17. Klarlegging av eksisterande grense, punktfeste og stadbundne rettar</a></li>
+<li class="lvl4"><a href="#18-samanslaing-av-eksisterande-matrikkeleiningar">§ 18. Samanslåing av eksisterande matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#19-referanse-til-avtale-om-grenser-mm">§ 19. Referanse til avtale om grenser m.m.</a></li>
+<li class="lvl4"><a href="#20-fastsetjing-av-samla-fast-eigedom">§ 20. Fastsetjing av samla fast eigedom</a></li>
+<li class="lvl2"><a href="#kapittel-4-adresser-til-eigedommar-og-bygningar">Kapittel 4. Adresser til eigedommar og bygningar</a></li>
+<li class="lvl4"><a href="#21-fastsetjing-av-offisiell-adresse">§ 21. Fastsetjing av offisiell adresse</a></li>
+<li class="lvl2"><a href="#kapittel-5-fring-av-matrikkelen">Kapittel 5. Føring av matrikkelen</a></li>
+<li class="lvl4"><a href="#22-generelt-om-fring-av-matrikkelen">§ 22. Generelt om føring av matrikkelen</a></li>
+<li class="lvl4"><a href="#23-tildeling-av-matrikkelnummer">§ 23. Tildeling av matrikkelnummer</a></li>
+<li class="lvl4"><a href="#24-tinglysing-og-utferding-av-matrikkelbrev-mm">§ 24. Tinglysing og utferding av matrikkelbrev m.m.</a></li>
+<li class="lvl4"><a href="#25-matrikkelfring-av-opplysningar-om-bygningar-adresser-eigarseksjonar-kommunale-palegg-oa">§ 25. Matrikkelføring av opplysningar om bygningar, adresser, eigarseksjonar, kommunale pålegg o.a.</a></li>
+<li class="lvl4"><a href="#26-retting-av-opplysningar-i-matrikkelen-og-sletting-av-matrikkeleining">§ 26. Retting av opplysningar i matrikkelen og sletting av matrikkeleining</a></li>
+<li class="lvl4"><a href="#27-komplettering-av-opplysningane-i-matrikkelen">§ 27. Komplettering av opplysningane i matrikkelen</a></li>
+<li class="lvl4"><a href="#28-tilsyn-med-matrikkelfringa">§ 28. Tilsyn med matrikkelføringa</a></li>
+<li class="lvl2"><a href="#kapittel-6-innsyn-og-bruk-av-matrikkelopplysningar">Kapittel 6. Innsyn og bruk av matrikkelopplysningar</a></li>
+<li class="lvl4"><a href="#29-innsyn-i-matrikkelen">§ 29. Innsyn i matrikkelen</a></li>
+<li class="lvl4"><a href="#30-utlevering-og-behandling-av-opplysningar-fra-matrikkelen">§ 30. Utlevering og behandling av opplysningar frå matrikkelen</a></li>
+<li class="lvl4"><a href="#31-bruk-av-matrikkelnemningar-i-offentleg-saksbehandling-bruk-av-kart-saman-med-matrikkelen-oa">§ 31. Bruk av matrikkelnemningar i offentleg saksbehandling, bruk av kart saman med matrikkelen, o.a.</a></li>
+<li class="lvl4"><a href="#32-offentlege-gebyr-og-betaling-for-matrikkelopplysningar">§ 32. Offentlege gebyr og betaling for matrikkelopplysningar</a></li>
+<li class="lvl2"><a href="#kapittel-7-oppmalingsforretning-krav-til-landmalar-oa">Kapittel 7. Oppmålingsforretning, krav til landmålar o.a.</a></li>
+<li class="lvl4"><a href="#33-oppmalingsforretning">§ 33. Oppmålingsforretning</a></li>
+<li class="lvl4"><a href="#34-merking-og-maling-av-grenser">§ 34. Merking og måling av grenser</a></li>
+<li class="lvl4"><a href="#35-rekvisisjon-og-fullfring-av-oppmalingsforretning">§ 35. Rekvisisjon og fullføring av oppmålingsforretning</a></li>
+<li class="lvl4"><a href="#36-oppheva">§ 36. (Oppheva)</a></li>
+<li class="lvl4"><a href="#37-oppheva">§ 37. (Oppheva)</a></li>
+<li class="lvl4"><a href="#38-tildeling-av-landmalarbrev-oa">§ 38. Tildeling av landmålarbrev o.a.</a></li>
+<li class="lvl2"><a href="#kapittel-8-om-geodetisk-grunnlag-oppmalingsarbeid-oa">Kapittel 8 Om geodetisk grunnlag, oppmålingsarbeid o.a.</a></li>
+<li class="lvl4"><a href="#39-geodetisk-grunnlag">§ 39. Geodetisk grunnlag</a></li>
+<li class="lvl4"><a href="#40-oppheva">§ 40. (Oppheva)</a></li>
+<li class="lvl4"><a href="#41-rett-til-a-utfre-oppmalingsarbeid-pa-offentleg-og-privat-grunn">§ 41. Rett til å utføre oppmålingsarbeid på offentleg og privat grunn</a></li>
+<li class="lvl4"><a href="#42-fjerning-av-merke-og-signal">§ 42. Fjerning av merke og signal</a></li>
+<li class="lvl4"><a href="#43-varsling">§ 43. Varsling</a></li>
+<li class="lvl4"><a href="#44-ekspropriasjon">§ 44. Ekspropriasjon</a></li>
+<li class="lvl4"><a href="#45-skjnn">§ 45. Skjønn</a></li>
+<li class="lvl2"><a href="#kapittel-9-klage-sanksjonar-oa">Kapittel 9. Klage, sanksjonar, o.a.</a></li>
+<li class="lvl4"><a href="#46-klage-frehandsvarsel-og-underretning-om-vedtak-mm">§ 46. Klage, førehandsvarsel og underretning om vedtak m.m.</a></li>
+<li class="lvl4"><a href="#47-tvist-om-oppmalingsarbeid">§ 47. Tvist om oppmålingsarbeid</a></li>
+<li class="lvl4"><a href="#48-tvangsmulkt">§ 48. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#49-skadeverk-pa-fastmerke-oa">§ 49. Skadeverk på fastmerke o.a.</a></li>
+<li class="lvl2"><a href="#kapittel-10-iverksetjing-overgangsreglar-og-endringar-i-andre-lover">Kapittel 10. Iverksetjing, overgangsreglar og endringar i andre lover</a></li>
+<li class="lvl4"><a href="#50-iverksetjing">§ 50. Iverksetjing</a></li>
+<li class="lvl4"><a href="#51-overgangsreglar">§ 51. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#52-endring-av-andre-lover">§ 52. Endring av andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-93.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-101.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om eigedomsregistrering (matrikkellova)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-101.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2005-06-17-101 <code>lov/2005-06-17-101</code></td></tr>
+<tr><th>Korttittel</th><td>Matrikkellova</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Fast eiendoms rettsforhold &raquo; Matrikkel\nFast eiendoms rettsforhold &raquo; Tinglysing. Registrering</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010, 09.02.2007, 27.02.2009, 01.01.2022, Kongen bestemmer</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-93 <code>lov/2025-06-20-93</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-101" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-verkeomrade-og-definisjonar">Kapittel 1. Formål, verkeområde og definisjonar</a></li>
+<li class="lvl4"><a href="#1-formalet-med-lova">§ 1. Formålet med lova</a></li>
+<li class="lvl4"><a href="#2-geografisk-verkeomrade">§ 2. Geografisk verkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjonar">§ 3. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2-matrikkelen-og-innhaldet-i-den-oa">Kapittel 2. Matrikkelen og innhaldet i den o.a.</a></li>
+<li class="lvl4"><a href="#4-matrikkelen">§ 4. Matrikkelen</a></li>
+<li class="lvl4"><a href="#5-matrikkeleiningar">§ 5. Matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#5-a-matrikkelstyresmaktene">§ 5 a. Matrikkelstyresmaktene</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-matrikulering-og-andre-fringar-som-gjeld-matrikkeleiningar">Kapittel 3. Vilkår for matrikulering og andre føringar som gjeld matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#6-krav-om-oppmalingsforretning-fr-matrikkelfring">§ 6. Krav om oppmålingsforretning før matrikkelføring</a></li>
+<li class="lvl4"><a href="#7-krav-om-klarlagd-grense-fr-tinglysing-av-heimelsovergang">§ 7. Krav om klarlagd grense før tinglysing av heimelsovergang</a></li>
+<li class="lvl4"><a href="#8-krav-om-matrikkelfring">§ 8. Krav om matrikkelføring</a></li>
+<li class="lvl4"><a href="#9-kven-som-kan-krevje-matrikulering">§ 9. Kven som kan krevje matrikulering</a></li>
+<li class="lvl4"><a href="#10-felles-vilkar-for-matrikulering">§ 10. Felles vilkår for matrikulering</a></li>
+<li class="lvl4"><a href="#11-srskilt-om-matrikulering-av-anleggseigedom">§ 11. Særskilt om matrikulering av anleggseigedom</a></li>
+<li class="lvl4"><a href="#12-srskilt-om-matrikkelfring-av-festegrunn">§ 12. Særskilt om matrikkelføring av festegrunn</a></li>
+<li class="lvl4"><a href="#13-srskilt-om-matrikulering-av-umatrikulert-grunneigedom-og-umatrikulert-festegrunn">§ 13. Særskilt om matrikulering av umatrikulert grunneigedom og umatrikulert festegrunn</a></li>
+<li class="lvl4"><a href="#14-registrering-av-jordsameige">§ 14. Registrering av jordsameige</a></li>
+<li class="lvl4"><a href="#15-arealoverfring">§ 15. Arealoverføring</a></li>
+<li class="lvl4"><a href="#15-a-matrikkelomforming">§ 15 a. Matrikkelomforming</a></li>
+<li class="lvl4"><a href="#16-grensejustering">§ 16. Grensejustering</a></li>
+<li class="lvl4"><a href="#17-klarlegging-av-eksisterande-grense-punktfeste-og-stadbundne-rettar">§ 17. Klarlegging av eksisterande grense, punktfeste og stadbundne rettar</a></li>
+<li class="lvl4"><a href="#18-samanslaing-av-eksisterande-matrikkeleiningar">§ 18. Samanslåing av eksisterande matrikkeleiningar</a></li>
+<li class="lvl4"><a href="#19-referanse-til-avtale-om-grenser-mm">§ 19. Referanse til avtale om grenser m.m.</a></li>
+<li class="lvl4"><a href="#20-fastsetjing-av-samla-fast-eigedom">§ 20. Fastsetjing av samla fast eigedom</a></li>
+<li class="lvl2"><a href="#kapittel-4-adresser-til-eigedommar-og-bygningar">Kapittel 4. Adresser til eigedommar og bygningar</a></li>
+<li class="lvl4"><a href="#21-fastsetjing-av-offisiell-adresse">§ 21. Fastsetjing av offisiell adresse</a></li>
+<li class="lvl2"><a href="#kapittel-5-fring-av-matrikkelen">Kapittel 5. Føring av matrikkelen</a></li>
+<li class="lvl4"><a href="#22-generelt-om-fring-av-matrikkelen">§ 22. Generelt om føring av matrikkelen</a></li>
+<li class="lvl4"><a href="#23-tildeling-av-matrikkelnummer">§ 23. Tildeling av matrikkelnummer</a></li>
+<li class="lvl4"><a href="#24-tinglysing-og-utferding-av-matrikkelbrev-mm">§ 24. Tinglysing og utferding av matrikkelbrev m.m.</a></li>
+<li class="lvl4"><a href="#25-matrikkelfring-av-opplysningar-om-bygningar-adresser-eigarseksjonar-kommunale-palegg-oa">§ 25. Matrikkelføring av opplysningar om bygningar, adresser, eigarseksjonar, kommunale pålegg o.a.</a></li>
+<li class="lvl4"><a href="#26-retting-av-opplysningar-i-matrikkelen-og-sletting-av-matrikkeleining">§ 26. Retting av opplysningar i matrikkelen og sletting av matrikkeleining</a></li>
+<li class="lvl4"><a href="#27-komplettering-av-opplysningane-i-matrikkelen">§ 27. Komplettering av opplysningane i matrikkelen</a></li>
+<li class="lvl4"><a href="#28-tilsyn-med-matrikkelfringa">§ 28. Tilsyn med matrikkelføringa</a></li>
+<li class="lvl2"><a href="#kapittel-6-innsyn-og-bruk-av-matrikkelopplysningar">Kapittel 6. Innsyn og bruk av matrikkelopplysningar</a></li>
+<li class="lvl4"><a href="#29-innsyn-i-matrikkelen">§ 29. Innsyn i matrikkelen</a></li>
+<li class="lvl4"><a href="#30-utlevering-og-behandling-av-opplysningar-fra-matrikkelen">§ 30. Utlevering og behandling av opplysningar frå matrikkelen</a></li>
+<li class="lvl4"><a href="#31-bruk-av-matrikkelnemningar-i-offentleg-saksbehandling-bruk-av-kart-saman-med-matrikkelen-oa">§ 31. Bruk av matrikkelnemningar i offentleg saksbehandling, bruk av kart saman med matrikkelen, o.a.</a></li>
+<li class="lvl4"><a href="#32-offentlege-gebyr-og-betaling-for-matrikkelopplysningar">§ 32. Offentlege gebyr og betaling for matrikkelopplysningar</a></li>
+<li class="lvl2"><a href="#kapittel-7-oppmalingsforretning-krav-til-landmalar-oa">Kapittel 7. Oppmålingsforretning, krav til landmålar o.a.</a></li>
+<li class="lvl4"><a href="#33-oppmalingsforretning">§ 33. Oppmålingsforretning</a></li>
+<li class="lvl4"><a href="#34-merking-og-maling-av-grenser">§ 34. Merking og måling av grenser</a></li>
+<li class="lvl4"><a href="#35-rekvisisjon-og-fullfring-av-oppmalingsforretning">§ 35. Rekvisisjon og fullføring av oppmålingsforretning</a></li>
+<li class="lvl4"><a href="#36-oppheva">§ 36. (Oppheva)</a></li>
+<li class="lvl4"><a href="#37-oppheva">§ 37. (Oppheva)</a></li>
+<li class="lvl4"><a href="#38-tildeling-av-landmalarbrev-oa">§ 38. Tildeling av landmålarbrev o.a.</a></li>
+<li class="lvl2"><a href="#kapittel-8-om-geodetisk-grunnlag-oppmalingsarbeid-oa">Kapittel 8 Om geodetisk grunnlag, oppmålingsarbeid o.a.</a></li>
+<li class="lvl4"><a href="#39-geodetisk-grunnlag">§ 39. Geodetisk grunnlag</a></li>
+<li class="lvl4"><a href="#40-oppheva">§ 40. (Oppheva)</a></li>
+<li class="lvl4"><a href="#41-rett-til-a-utfre-oppmalingsarbeid-pa-offentleg-og-privat-grunn">§ 41. Rett til å utføre oppmålingsarbeid på offentleg og privat grunn</a></li>
+<li class="lvl4"><a href="#42-fjerning-av-merke-og-signal">§ 42. Fjerning av merke og signal</a></li>
+<li class="lvl4"><a href="#43-varsling">§ 43. Varsling</a></li>
+<li class="lvl4"><a href="#44-ekspropriasjon">§ 44. Ekspropriasjon</a></li>
+<li class="lvl4"><a href="#45-skjnn">§ 45. Skjønn</a></li>
+<li class="lvl2"><a href="#kapittel-9-klage-sanksjonar-oa">Kapittel 9. Klage, sanksjonar, o.a.</a></li>
+<li class="lvl4"><a href="#46-klage-frehandsvarsel-og-underretning-om-vedtak-mm">§ 46. Klage, førehandsvarsel og underretning om vedtak m.m.</a></li>
+<li class="lvl4"><a href="#47-tvist-om-oppmalingsarbeid">§ 47. Tvist om oppmålingsarbeid</a></li>
+<li class="lvl4"><a href="#48-tvangsmulkt">§ 48. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#49-skadeverk-pa-fastmerke-oa">§ 49. Skadeverk på fastmerke o.a.</a></li>
+<li class="lvl2"><a href="#kapittel-10-iverksetjing-overgangsreglar-og-endringar-i-andre-lover">Kapittel 10. Iverksetjing, overgangsreglar og endringar i andre lover</a></li>
+<li class="lvl4"><a href="#50-iverksetjing">§ 50. Iverksetjing</a></li>
+<li class="lvl4"><a href="#51-overgangsreglar">§ 51. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#52-endring-av-andre-lover">§ 52. Endring av andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-101.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-101.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-101.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2005-06-17-101.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2005-06-17-101.html">Observerte kildeutgaver</a> · <a href="../historie/matrikkellova.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3374530ced584b9c5a5073143e3458049ae6a93d/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2005-06-17-101.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2005-06-17-101.html">Observerte kildeutgaver</a> · <a href="../historie/matrikkellova.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2008/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2005-06-17-101.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-eigedomsregistrering-matrikkellova">Lov om eigedomsregistrering (matrikkellova)</h1>
 <h2 id="kapittel-1-formal-verkeomrade-og-definisjonar">Kapittel 1. Formål, verkeområde og definisjonar</h2>
 <h4 id="1-formalet-med-lova">§ 1. Formålet med lova</h4>
 <p>Lova skal sikre tilgang til viktige eigedomsopplysningar, ved at det blir ført eit einsarta og påliteleg register (matrikkelen) over alle faste eigedommar i landet, og at grenser og eigedomsforhold blir klarlagde.</p>
@@ -84,7 +257,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-geografisk-verkeomrade">§ 2. Geografisk verkeområde</h4>
 <p>Lova gjeld for heile landet. For sjøområda gjeld lova ut til ei nautisk mil utanfor grunnlinjene.</p>
 <p>Kongen kan bestemme at lova heilt eller delvis skal gjelde for andre sjøområde, Svalbard, Jan Mayen eller norske biland i Antarktis, og kan då fastsetje særskilde tilpassingar etter forholda på staden.</p>
-<p><em>Endra ved lov 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ).</em></p>
+<p class="note">Endra ved lov 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ).</p>
 <h4 id="3-definisjonar">§ 3. Definisjonar</h4>
 <p>I denne lova tyder:</p>
 <p>a. matrikkelen: landet sitt offisielle register over fast eigedom, og under dette bygningar, bustader og adresser, jf. § 4 ,
@@ -99,7 +272,7 @@ i. geodetisk grunnlag: referanseramme som gjer det mogleg å bestemme eintydige 
 j. grunnlagsmåling: etablering, kontroll og vedlikehald av geodetisk grunnlag,
 k. fastmerke: varig merkt punkt til bruk i grunnlagsmålingar eller for å gjere geodetisk grunnlag tilgjengeleg for kart- og oppmålingsarbeid,
 l. signal: merke, instrument eller konstruksjon som blir brukt for å vise eller kontrollere plasseringa til eit fastmerke.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h2 id="kapittel-2-matrikkelen-og-innhaldet-i-den-oa">Kapittel 2. Matrikkelen og innhaldet i den o.a.</h2>
 <p>Overskrifta endra ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ).</p>
 <h4 id="4-matrikkelen">§ 4. Matrikkelen</h4>
@@ -107,7 +280,7 @@ l. signal: merke, instrument eller konstruksjon som blir brukt for å vise eller
 <p>Matrikkelen skal innehalde opplysningar om pålegg som gjeld bruk av grunn eller bygningar på vedkommande matrikkeleining.</p>
 <p>Matrikkelen kan vise til opplysningar om fast eigedom i andre register.</p>
 <p>Departementet kan gi forskrift om innhaldet i matrikkelen, til dømes om geografiske opplysningar om rettar i fast eigedom.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="5-matrikkeleiningar">§ 5. Matrikkeleiningar</h4>
 <p>Følgjande objekt kan opprettast som eigne matrikkeleiningar:</p>
 <p>a. grunneigedom, eigedom som er avgrensa ved eigedomsgrenser på jordoverflata og som med dei avgrensingane som følgjer av at det eventuelt er oppretta anleggseigedom etter bokstav b, strekkjer seg så langt nedover i grunnen og oppover i lufta som privat eigedomsrett rekk etter alminnelege reglar,
@@ -121,7 +294,7 @@ e. festegrunn, del av grunneigedom eller jordsameige som nokon har festerett til
 <p>Staten ved sentral matrikkelstyresmakt skal syte for ordning, drift og forvaltning av matrikkelen.</p>
 <p>Kommunen er lokal matrikkelstyresmakt, og har under dette ansvaret for å utføre oppmålingsforretningar og føre matrikkelen i kommunen. Kommunen kan etter avtale overlate til andre å utføre oppmålingsforretningar på sine vegner. Kommunen kan etter avtale overlate til ein annan kommune etter reglane i <a href="lov-2018-06-22-83.html">kommuneloven</a> kapittel 20 , eller til sentral matrikkelstyresmakt, å føre matrikkelen på sine vegner.</p>
 <p>Departementet kan gi forskrift om matrikkelstyresmaktene, under dette om organ som kan utføre matrikkelføringsoppgåver.</p>
-<p><em>Tilføyd ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 apr 2018 nr. 12 (ikr. 1 apr 2019 iflg. res 30 nov 2018 nr. 1790 ), 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</em></p>
+<p class="note">Tilføyd ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 apr 2018 nr. 12 (ikr. 1 apr 2019 iflg. res 30 nov 2018 nr. 1790 ), 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</p>
 <h2 id="kapittel-3-vilkar-for-matrikulering-og-andre-fringar-som-gjeld-matrikkeleiningar">Kapittel 3. Vilkår for matrikulering og andre føringar som gjeld matrikkeleiningar</h2>
 <p>Overskrifta endra ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ).</p>
 <h4 id="6-krav-om-oppmalingsforretning-fr-matrikkelfring">§ 6. Krav om oppmålingsforretning før matrikkelføring</h4>
@@ -134,7 +307,7 @@ e. eigarseksjon som omfattar uteareal, eller nytt eller endra uteareal til eksis
 <p>Når det ligg føre særlege grunnar, kan kommunen etter søknad frå den som har rekvirert forretninga, føre ny matrikkeleining inn i matrikkelen utan at oppmålingsforretninga er fullført.</p>
 <p>Oppmålingsforretning er ikkje nødvendig for å matrikkelføre samanslåing etter § 18 eller fastsetjing av samla fast eigedom etter § 20 .</p>
 <p>Departementet kan gi forskrift om oppmålingsforretning før matrikkelføring, under dette om fullføring av slik oppmålingsforretning.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="7-krav-om-klarlagd-grense-fr-tinglysing-av-heimelsovergang">§ 7. Krav om klarlagd grense før tinglysing av heimelsovergang</h4>
 <p>Grensene for grunneigedom, anleggseigedom eller festegrunn skal vere klarlagde i oppmålingsforretning, eller tilsvarande forretning etter anna eller tidlegare lovgiving, før dokument som gir grunnboksheimel til eigedommen eller festegrunnen kan tinglysast.</p>
 <p>Dette gjeld likevel ikkje dersom:</p>
@@ -143,12 +316,12 @@ b. det av andre grunnar ikkje er formålstenleg å krevje at alle grensene blir 
 <p>Kommunen avgjer kva for eigedommar som fyller vilkåra i første og andre ledd, og noterer dette i matrikkelen.</p>
 <p>Tinglysing kan likevel finne stad dersom heimelsovergangen er ledd i arv, skifte eller tvangsfullføring, eller gjeld festerett for ei tid av 10 år eller kortare, jf. <a href="lov-1935-06-07-2.html">tinglysingsloven</a> § 12a .</p>
 <p>Departementet kan gi forskrift om krav til klarlagd grense før tinglysing av heimelsovergang.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).
-1 Ikkje ikr.</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).
+1 Ikkje ikr.</p>
 <h4 id="8-krav-om-matrikkelfring">§ 8. Krav om matrikkelføring</h4>
 <p>Saman med krav om matrikkelføring, skal det leggjast ved dokumentasjon som er nødvendig for føring av matrikkelen og grunnboka. Når det er rekvirert oppmålingsforretning etter § 35 , skal det ikkje setjast fram særskilt krav om matrikkelføring.</p>
 <p>Departementet kan gi forskrift om vilkår for matrikkelføring, under dette om innhaldet i og utforminga av krav om matrikkelføring.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="9-kven-som-kan-krevje-matrikulering">§ 9. Kven som kan krevje matrikulering</h4>
 <p>Matrikulering av ny grunneigedom, anleggseigedom eller festegrunn kan krevjast av:</p>
 <p>a. den som har grunnboksheimel som eigar av grunneigedom, anleggseigedom eller registrert jordsameige som den nye eininga blir delt frå eller oppretta på,
@@ -164,7 +337,7 @@ h. den som har innløyst festegrunn etter føresegnene i lov om tomtefeste.</p>
 b. staten, fylkeskommune eller kommune.</p>
 <p>Matrikulering av nytt jordsameige kan krevjast av dei som har grunnboksheimel som eigarar av grunneigedommane som skipar sameiget, saman med den som har grunnboksheimel som eigar av grunneigedommen som den nye eininga blir delt frå eller oppretta på.</p>
 <p>Departementet kan gi forskrift om kven som kan krevje matrikulering.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="10-felles-vilkar-for-matrikulering">§ 10. Felles vilkår for matrikulering</h4>
 <p>Før ny grunneigedom, ny anleggseigedom, ny festegrunn eller nytt jordsameige kan opprettast i matrikkelen, må det liggje føre løyve etter <a href="lov-2008-06-27-71.html">plan- og bygningsloven</a> § 20-2 . For innføring av ny eigarseksjon må det liggje føre kommunalt seksjoneringsvedtak etter <a href="lov-2017-06-16-65.html">eierseksjonsloven</a> § 13 .</p>
 <p>Ei ny matrikkeleining kan berre opprettast når det er klart kva for matrikkeleining eller matrikkeleiningar den nye eininga blir utskilt frå eller oppretta på. Dette gjeld ikkje ved oppretting av ny grunneigedom, anleggseigedom eller festegrunn i samsvar med § 9 første ledd bokstav b til h.</p>
@@ -175,7 +348,7 @@ b. eininga er så stor at det er urimeleg å krevje oppmåling av vedkommande gr
 c. det av andre grunnar ikkje er formålstenleg å krevje måling eller merking av vedkommande grense.</p>
 <p>Ny matrikkeleining kan også førast inn i matrikkelen når opprettinga er bestemt av jordskifteretten.</p>
 <p>Departementet kan gi forskrift om matrikkelføring av ny matrikkeleining, til dømes om unnatak frå plikt til matrikulering og innskrenking og utviding av vilkåra for matrikulering.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 27 juni 2008 nr. 71 (ikr. 1 juli 2010 iflg. res. 18 juni 2010 nr. 896 ) som endra ved lov 8 mai 2009 nr. 27 , 20 juni 2014 nr. 52 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 702 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 27 juni 2008 nr. 71 (ikr. 1 juli 2010 iflg. res. 18 juni 2010 nr. 896 ) som endra ved lov 8 mai 2009 nr. 27 , 20 juni 2014 nr. 52 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 702 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="11-srskilt-om-matrikulering-av-anleggseigedom">§ 11. Særskilt om matrikulering av anleggseigedom</h4>
 <p>Ved oppretting av anleggseigedom må det liggje føre dokumentasjon for nødvendig godkjenning etter plan- og bygningsloven som viser grensene for den bygningen eller konstruksjonen som blir søkt oppretta som anleggseigedom. Det same gjeld når eksisterande bygning og konstruksjon skal opprettast som anleggseigedom. Matrikulering av anleggseigedom som gjeld anlegg som ikkje eksisterer, kan først skje når vilkåra for igangsetting av tiltaket etter plan- og bygningsloven er oppfylte. Vedkommande anleggseigedom skal vere ei sjølvstendig funksjonell eining, klart og varig skilt frå den eller dei grunneigedommane eller anleggseigedommane den nye anleggseigedommen eventuelt blir skilt frå.</p>
 <p>Anleggseigedom som skal delast frå annan eigedom, kan berre opprettast dersom:</p>
@@ -183,7 +356,7 @@ c. det av andre grunnar ikkje er formålstenleg å krevje måling eller merking 
 b. den delen av ein eigedom som ligg over eller under anleggseigedommen framleis kan utnyttast til eit sjølvstendig formål.</p>
 <p>Grensene for anleggseigedommen skal svare til dei fysiske yttergrensene for eininga, med nødvendige tilpassingar. Anleggseigedom i undergrunnen skal omfatte nødvendig tryggleikssone.</p>
 <p>Dersom anleggseigedom og grunneigedom skal utnyttast under eitt, må det liggje føre dokument om dette og fråsegn om at eigedommane ikkje kan omsetjast eller pantsetjast kvar for seg.</p>
-<p><em>Endra ved lover 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</em></p>
+<p class="note">Endra ved lover 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</p>
 <h4 id="12-srskilt-om-matrikkelfring-av-festegrunn">§ 12. Særskilt om matrikkelføring av festegrunn</h4>
 <p>Matrikulering skal gjennomførast før del av grunneigedom eller jordsameige blir festa bort, dersom festet kan gjelde i meir enn 10 år.</p>
 <p>Tilsvarande gjeld ved forlenging for meir enn 10 år av festerett til umatrikulert festegrunn, og for festegrunn som skal nyttast som tilleggsareal til matrikkeleining.</p>
@@ -191,19 +364,19 @@ b. den delen av ein eigedom som ligg over eller under anleggseigedommen framleis
 <p>Før matrikkelføring av endring av grenser for festegrunn som går ut over justeringar som kan behandlast etter § 16, må det vere gitt løyve som for oppretting av ny festegrunn. Det må dessutan liggje føre nødvendige fråsegner om endring av festerett, pantefråfall og konsesjonar for arealet.</p>
 <p>Oppmålingsforretning som endrar grensene for festerett, kan krevjast av dei som er nemnde i § 9 første ledd bokstav a og f. I saker som er kravd etter § 9 første ledd bokstav a, må det liggje føre samtykke frå festaren. Endring av grenser som omfattar umatrikulerte einingar, kan berre skje i saker der dette er kravd etter § 9 første ledd bokstav f, og berre samtidig med at einingane blir matrikulerte.</p>
 <p>Departementet kan gi forskrift om matrikkelføring av festegrunn, til dømes om kven som kan krevje matrikkelføring.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</p>
 <h4 id="13-srskilt-om-matrikulering-av-umatrikulert-grunneigedom-og-umatrikulert-festegrunn">§ 13. Særskilt om matrikulering av umatrikulert grunneigedom og umatrikulert festegrunn</h4>
 <p>Lovleg oppretta umatrikulert grunneigedom og umatrikulert festegrunn, kan matrikulerast når eigedoms- eller festeretten kan dokumenterast gjennom avtale eller anna rettsgrunnlag.</p>
 <h4 id="14-registrering-av-jordsameige">§ 14. Registrering av jordsameige</h4>
 <p>Jordsameige kan registrerast i matrikkelen med eige matrikkelnummer når det er gjort sannsynleg at eininga er eit jordsameige. Jordsameige kan registrerast sjølv om det ikkje er fullstendig avklart kven som har partar i sameiget og kor store partane er. Føresegnene i § 10 fjerde og femte ledd gjeld tilsvarande.</p>
 <p>Registrering av jordsameige kan krevjast av nokon som har gjort sannsynleg å ha part i sameiget, eller av staten, fylkeskommune eller kommune.</p>
 <p>Departementet kan gi forskrift om registrering av jordsameige.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="15-arealoverfring">§ 15. Arealoverføring</h4>
 <p>Areal kan overførast mellom tilgrensande matrikkeleiningar utan at arealet blir oppretta som eiga matrikkeleining. Før slik arealoverføring kan matrikkelførast, må det vere gitt løyve som for oppretting av ny matrikkeleining. Det må dessutan liggje føre nødvendige fråsegner om overdraging av eigedomsrett, og om pantefråfall og konsesjonar for det aktuelle arealet.</p>
 <p>Arealoverføring kan krevjast av dei som er nemnde i § 9 første ledd bokstav a og f. Arealoverføring som omfattar umatrikulerte einingar, kan berre skje i sak som er kravd etter § 9 første ledd bokstav f, og berre samtidig med at einingane blir matrikulerte.</p>
 <p>Departementet kan gi forskrift om arealoverføring.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="15-a-matrikkelomforming">§ 15 a. Matrikkelomforming</h4>
 <p><em>Vert tilføyd ved lov 20 juni 2025 nr. 93 (i kraft frå den tid Kongen bestemmer).</em></p>
 <h4 id="16-grensejustering">§ 16. Grensejustering</h4>
@@ -213,35 +386,35 @@ b. den delen av ein eigedom som ligg over eller under anleggseigedommen framleis
 <p>Føresegna om panterett gjeld tilsvarande for andre rettar så langt det passar.</p>
 <p>Grensejustering kan krevjast av dei som er nemnde i § 9. Endra grenser for festerett kan berre matrikkelførast når det ligg føre samtykke frå festaren. Grensejustering av ei umatrikulert eining kan berre skje samstundes med at eininga blir matrikulert.</p>
 <p>Departementet kan gi forskrift om grensejustering, under dette setje areal- og verdigrenser for areal som blir overført mellom einingane.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</p>
 <h4 id="17-klarlegging-av-eksisterande-grense-punktfeste-og-stadbundne-rettar">§ 17. Klarlegging av eksisterande grense, punktfeste og stadbundne rettar</h4>
 <p>Matrikkelføring av klarlegging av eksisterande grenser, punktfeste og stadbundne rettar, utført som særskild forretning, kan krevjast av:</p>
 <p>a. nokon som har grunnboksheimel som eigar eller festar til den aktuelle matrikkeleininga, eller
 b. staten, statsføretak, fylkeskommune eller kommune.</p>
 <p>Departementet kan gi forskrift om klarlegging av eksisterande grense, punktfeste, stadbundne rettar, om kven som kan krevje dette, og om fritak frå krav om oppmålingsforretning.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</p>
 <h4 id="18-samanslaing-av-eksisterande-matrikkeleiningar">§ 18. Samanslåing av eksisterande matrikkeleiningar</h4>
 <p>Matrikkeleiningar som ligg i same kommune og har same heimelshavar, kan slåast saman. Festeeiningar kan slåast saman dersom dei ligg til eller er utskilt frå same grunneigedom, og festekontraktane har same innhald og gjeld mellom same partar. Samanslåing kan ikkje skje i strid med føresegner gitt i eller i medhald av anna lovgiving.</p>
 <p>Samanslåing kan krevjast av den som har grunnboksheimel som eigar til vedkommande matrikkeleiningar.</p>
 <p>Departementet kan gi forskrift om samanslåing, under dette innskrenke og utvide høvet til samanslåing.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="19-referanse-til-avtale-om-grenser-mm">§ 19. Referanse til avtale om grenser m.m.</h4>
 <p>Kommunen kan utan oppmålingsforretning ta inn i matrikkelen referansar til avtalar om eksisterande grenser for ei matrikkeleining dersom grensa ikkje er tidlegare fastlagd i ei oppmålingsforretning eller i ei tilsvarande forretning etter anna eller tidlegare lov. Det same gjeld for avtalar om lokalisering av eksisterande og ikkje fastlagde punktfeste og for avtalar om stadfesting av varige stadbundne rettar som ikkje er omfatta av § 6 , og som gjeld ein del av ein grunneigedom, anleggseigedom eller festegrunn eller ein del av eit jordsameige eller eit uteareal til ein eigarseksjon.</p>
 <p>Departementet kan gi forskrift om at ein slik avtale berre kan tinglysast dersom avtalen har referanse i matrikkelen.</p>
 <p>Departementet kan gi forskrift om avtalar som kan få referanse i matrikkelen.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</p>
 <h4 id="20-fastsetjing-av-samla-fast-eigedom">§ 20. Fastsetjing av samla fast eigedom</h4>
 <p>Kommunen kan fastsetje at to eller fleire matrikkeleiningar som har same eigar og som blir nytta under eitt, og som i økonomisk samanheng står fram som éin eigedom, skal registrerast i matrikkelen som ein samla fast eigedom. Eigar kan krevje slik registrering når vilkåra er til stades.</p>
 <p>Finn kommunen at vilkåra er endra, kan kommunen endre eller oppheve registreringa.</p>
 <p>Eigar skal varslast om registreringa på ein etter tilhøva formålstenleg og etterviseleg måte.</p>
 <p>Departementet kan gi forskrift om fastsetjing av samla fast eigedom, under dette innskrenke og utvide høvet til å fastsetje samla fast eigedom.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h2 id="kapittel-4-adresser-til-eigedommar-og-bygningar">Kapittel 4. Adresser til eigedommar og bygningar</h2>
 <p>Overskrifta endra og flytt hit ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ).</p>
 <h4 id="21-fastsetjing-av-offisiell-adresse">§ 21. Fastsetjing av offisiell adresse</h4>
 <p>Kommunen fastset offisiell adresse. Før kommunen tek ei endeleg avgjerd, skal dei som avgjerda får verknad for, få høve til å uttale seg.</p>
 <p>Departementet kan gi forskrift om utforming, tildeling, endring og skilting av offisiell adresse, og om kommunen sitt høve til å fastsetje utfyllande lokale forskrifter.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h2 id="kapittel-5-fring-av-matrikkelen">Kapittel 5. Føring av matrikkelen</h2>
 <h4 id="22-generelt-om-fring-av-matrikkelen">§ 22. Generelt om føring av matrikkelen</h4>
 <p>Kommunen skal behandle krav om matrikkelføring utan unødig opphald. Krav om matrikkelføring som ikkje tilfredsstiller vilkåra etter denne lova, skal avvisast. Avvisinga skal vere skriftleg og grunngitt. Dersom kravet har mindre manglar, kan kommunen likevel utføre matrikkelføring. Kommunen skal setje ein frist for å rette mangelen.</p>
@@ -251,12 +424,12 @@ b. staten, statsføretak, fylkeskommune eller kommune.</p>
 <p>Personvernforordningen artikkel 13 og 14 gjeld ikkje for føring av matrikkelen.</p>
 <p>Opplysningar som er graderte etter <a href="lov-2018-06-01-24.html">sikkerhetsloven</a>, skal førast i eit gradert register.</p>
 <p>Departementet kan gi forskrift og fatte enkeltvedtak eller avgjerd om føring av matrikkelen og gi forskrift om organ som kan utføre matrikkelføringsoppgåver, til dømes om informasjon til heimelshavarar eller andre saka vedkjem, om tidsfristar, rapportering, kvalitetssikring og oppbevaring av matrikkelopplysningar og om godkjenning av personar som skal føre opplysningar i matrikkelen.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 22 juni 2018 nr. 66 , 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 21 juni 2019 nr. 52 (ikr. 1 jan 2020 iflg. res. 22 nov 2019 nr. 1548 ), 21 juni 2019 nr. 68 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 869 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 22 juni 2018 nr. 66 , 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 21 juni 2019 nr. 52 (ikr. 1 jan 2020 iflg. res. 22 nov 2019 nr. 1548 ), 21 juni 2019 nr. 68 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 869 ).</p>
 <h4 id="23-tildeling-av-matrikkelnummer">§ 23. Tildeling av matrikkelnummer</h4>
 <p>Kommunen tildeler matrikkelnummer ved innføring av matrikkeleining i matrikkelen.</p>
 <p>Kommunen kan tildele nytt matrikkelnummer til matrikkeleining som ikkje er nummerert i samsvar med føresegnene i denne lova.</p>
 <p>Departementet kan gi forskrift og fatte enkeltvedtak eller avgjerd om tildeling av matrikkelnummer.</p>
-<p><em>Endra ved lov 21 juni 2017 nr. 97 (ikr. 1 juli 2017 iflg. res. 21 juni 2017 nr. 834 ).</em></p>
+<p class="note">Endra ved lov 21 juni 2017 nr. 97 (ikr. 1 juli 2017 iflg. res. 21 juni 2017 nr. 834 ).</p>
 <h4 id="24-tinglysing-og-utferding-av-matrikkelbrev-mm">§ 24. Tinglysing og utferding av matrikkelbrev m.m.</h4>
 <p>Så snart ei oppretting av ny matrikkeleining, matrikkelomforming, samanslåing, endring av festegrunn eller eigarseksjon eller arealoverføring er ført i matrikkelen, skal kommunen sende melding om dette til tinglysing. Kommunen skal likevel ikkje sende meldinga før eventuelle klager over vedtak om løyve etter plan- og bygningsloven § 20-2 eller vedtak etter eierseksjonsloven § 13 er avgjorde.</p>
 <p>Det skal gå fram av meldinga som blir brukt for å registrere matrikkeleininga i grunnboka, om eininga er grunneigedom, anleggseigedom, eigarseksjon, jordsameige eller festegrunn.</p>
@@ -264,7 +437,7 @@ b. staten, statsføretak, fylkeskommune eller kommune.</p>
 <p>I sak som gjeld grunn til offentleg veg eller jernbane, skal tinglysing skje berre når det er kravd særskilt. Stat, statsføretak, fylkeskommune og kommune kan i sak som gjeld arealoverføring eller oppretting av ny matrikkeleining, stadfeste eigedomsretten ved eigenfråsegn for grunn som skal brukast til offentleg veg eller jernbane. For bortfall av pant i areal som inngår i grunn til offentleg veg eller jernbane gjeld reglane i <a href="lov-1980-02-08-2.html">panteloven</a> § 1-11 fjerde ledd.</p>
 <p>I sak som gjeld matrikulering av umatrikulert grunneigedom eller umatrikulert festegrunn etter § 13 , eller registrering av jordsameige etter § 14 , skal tinglysing berre skje når det er kravd særskilt.</p>
 <p>Departementet kan gi forskrift om melding til tinglysing, utferding av matrikkelbrev m.m. og høve til å stadfeste eigedomsrett ved eigenfråsegn, og kan under dette fastsetje rutinar som sikrar samsvar mellom matrikkelen og grunnboka.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="25-matrikkelfring-av-opplysningar-om-bygningar-adresser-eigarseksjonar-kommunale-palegg-oa">§ 25. Matrikkelføring av opplysningar om bygningar, adresser, eigarseksjonar, kommunale pålegg o.a.</h4>
 <p>Kommunen skal tildele bygningsnummer og registrere nye bygningar i matrikkelen samtidig med at det blir gitt byggjeløyve. Fullstendige opplysningar om bygningar og bustader skal seinast vere førde inn når bygningen lovleg kan takast i bruk. Matrikkelen skal dessutan oppdaterast når ei byggjesak medfører at opplysningar i matrikkelen må endrast, eller når kommunen på annan måte får kjennskap til at opplysningane om ein bygning ikkje er i samsvar med dei reelle forholda.</p>
 <p>Offisiell adresse med tilhøyrande opplysningar skal førast i matrikkelen straks adressa er tildelt. Tilsvarande gjeld ved endring av offisiell adresse eller tilhøyrande opplysningar.</p>
@@ -272,7 +445,7 @@ b. staten, statsføretak, fylkeskommune eller kommune.</p>
 <p>Pålegg frå kommunen som gjeld bruk av grunn og bygningar, skal førast i matrikkelen straks pålegget er vedteke, endra eller oppheva.</p>
 <p>Kommunen skal elles føre inn opplysningar på grunnlag av anna kommunal saksbehandling når det i lov eller forskrift er fastsett at vedkommande opplysningar skal førast i matrikkelen.</p>
 <p>Departementet kan gi forskrift om rapportering og føring av opplysningar om bygningar, adresser, eigarseksjonar og andre opplysningar kommunen skal føre i matrikkelen, og om kommunen sitt høve til å fastsetje utfyllande lokale forskrifter.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="26-retting-av-opplysningar-i-matrikkelen-og-sletting-av-matrikkeleining">§ 26. Retting av opplysningar i matrikkelen og sletting av matrikkeleining</h4>
 <p>Kommunen kan slette ei matrikkeleining frå matrikkelen dersom det ikkje låg føre grunnlag for å opprette eininga. Det same gjeld for matrikkeleiningar som fysisk ikkje lenger eksisterer. Dersom eininga er ført inn i grunnboka, kan ho berre slettast frå matrikkelen dersom ho samtidig blir sletta i grunnboka.</p>
 <p>Eigarseksjonar som blir sletta i grunnboka etter vedtak med heimel i eierseksjonsloven § 22 andre ledd, skal slettast frå matrikkelen. Kommunen fullfører slettinga ved å utferde matrikkelbrev i samsvar med § 24 tredje ledd.</p>
@@ -281,21 +454,21 @@ b. staten, statsføretak, fylkeskommune eller kommune.</p>
 <p>Partar som retting, endring eller tilføying har noko å seie for, skal underrettast.</p>
 <p>Denne paragrafen går framom personvernforordningen artikkel 16 om retting av personopplysningar.</p>
 <p>Departementet kan gi forskrift om rettingar, endringar og tilføyingar til matrikkelen og om sletting av matrikkeleining, til dømes om underretting og når underretting kan sløyfast.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="27-komplettering-av-opplysningane-i-matrikkelen">§ 27. Komplettering av opplysningane i matrikkelen</h4>
 <p>Departementet kan gi forskrift om at ein eigar, rettshavar eller leigar til eigedom, bygning eller bygningsdel kan leggje inn opplysningar om eigedomen, bygningen eller bygningsdelen i matrikkelen, under dette om krav til elektronisk registrering og legitimasjon for den som skal kunne gjere slik komplettering.</p>
 <p>Sentral matrikkelstyresmakt eller kommunen kan påleggje ein eigar, rettshavar eller leigar til eigedom, bygning eller bygningsdel å skaffe opplysningar om eksisterande matrikkeleiningar, bygningar, bustader og adresser som det går fram av lov eller forskrift at matrikkelen skal innehalde. Departementet kan gi forskrift om slik komplettering, under dette bestemme kva for organ som skal føre opplysningane i matrikkelen, og offentlege organ si plikt til å rapportere slike opplysningar.</p>
 <p>Departementet kan gi forskrift om at dersom ein eigar eller rettshavar til fast eigedom har plikt til å gi opplysningar som nemnt i andre ledd til skattestyresmakta, kan skattestyresmakta rapportere opplysningane vidare til sentral matrikkelstyresmakt. Skattestyresmakta kan utføre slik rapportering utan hinder av teieplikta etter <a href="lov-2016-05-27-14.html">skatteforvaltningsloven</a> .</p>
-<p><em>Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</em></p>
+<p class="note">Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</p>
 <h4 id="28-tilsyn-med-matrikkelfringa">§ 28. Tilsyn med matrikkelføringa</h4>
 <p>Sentral matrikkelstyresmakt skal føre tilsyn med at matrikkelen blir ført i samsvar med lov og forskrift, og kan gi pålegg om retting av opplysningar eller andre tiltak for å rette opp manglar ved måten føringa skjer på. Reglane i kommunelova kapittel 30 gjeld for tilsyn med kommunane.</p>
-<p><em>Endra ved lov 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ).</em></p>
+<p class="note">Endra ved lov 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ).</p>
 <h2 id="kapittel-6-innsyn-og-bruk-av-matrikkelopplysningar">Kapittel 6. Innsyn og bruk av matrikkelopplysningar</h2>
 <h4 id="29-innsyn-i-matrikkelen">§ 29. Innsyn i matrikkelen</h4>
 <p>Alle har rett til innsyn i matrikkelen. Sentral matrikkelstyresmakt og kommunane skal syte for at informasjon om matrikkelen er tilgjengeleg på førespurnad.</p>
 <p>Kommunen skal utferde matrikkelbrev når nokon som er nemnde i § 9 krev det.</p>
 <p>Departementet kan gi forskrift om innsyn i matrikkelen.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="30-utlevering-og-behandling-av-opplysningar-fra-matrikkelen">§ 30. Utlevering og behandling av opplysningar frå matrikkelen</h4>
 <p>Matrikkelopplysningar kan utleverast:</p>
 <p>a. for offentleg planlegging, saksbehandling og administrasjon,
@@ -308,17 +481,17 @@ d. for å ta hand om andre interesser som gjeld rådvelde over matrikkeleiningar
 <p>Matrikkelinformasjon skal ikkje utleverast dersom vitale personlege eller offentlege interesser tilseier dette.</p>
 <p>Utlevering av fødselsnummer kan berre skje dersom vilkåra i <a href="lov-2018-06-15-38.html">personopplysningsloven</a> § 12 er oppfylte.</p>
 <p>Departementet kan i forskrift gi nærare reglar om behandling, utlevering og sal av opplysningar.</p>
-<p><em>Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</em></p>
+<p class="note">Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</p>
 <h4 id="31-bruk-av-matrikkelnemningar-i-offentleg-saksbehandling-bruk-av-kart-saman-med-matrikkelen-oa">§ 31. Bruk av matrikkelnemningar i offentleg saksbehandling, bruk av kart saman med matrikkelen, o.a.</h4>
 <p>Offentleg saksbehandling som knyter opplysningar til matrikkeleiningar, bygningar, bustader eller offisielle adresser, skal nytte dei nemningane som er registrerte i matrikkelen.</p>
 <p>Ved innsyn i matrikkelen, og til bruk i oppmålingsforretningar etter denne lova, skal det saman med opplysningar frå matrikkelen vere tilgjengeleg kart som viser tekniske og topografiske forhold på og i nærleiken av den aktuelle matrikkeleininga. Kommunen skal stille til rådvelde for sentral matrikkelstyresmakt dei opplysningane frå kommunen sitt kartverk som er nødvendige for å framstille slike kart.</p>
 <p>Departementet kan gi forskrift om bruk av matrikkelnemningar i andre offentlege register og bruk av kart saman med matrikkelen, under dette reglar om overføring av opplysningar frå kommunen sitt kartverk til bruk i slike kartutsnitt.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="32-offentlege-gebyr-og-betaling-for-matrikkelopplysningar">§ 32. Offentlege gebyr og betaling for matrikkelopplysningar</h4>
 <p>Kommunen kan ta gebyr for oppmålingsforretning, matrikkelføring, utferding av matrikkelbrev og anna arbeid etter lova her etter regulativ fastsett av kommunestyret sjølv. Den styresmakta som tildelar landmålarbrev, kan ta gebyr for dette. Gebyra kan i sum ikkje vere høgare enn nødvendige kostnader styresmakta har med slikt arbeid. For matrikulering av eigarseksjon kan det ikkje takast andre gebyr enn det som er fastsett i eierseksjonsloven § 15 .</p>
 <p>Det kan krevjast betaling for utlevering av opplysningar frå matrikkelen. Det kan ikkje takast betaling for innsyn i matrikkelen ved personleg frammøte hos kommunen eller sentral matrikkelstyresmakt.</p>
 <p>Departementet kan gi forskrift om gebyr og om betaling for opplysningar frå matrikkelen.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h2 id="kapittel-7-oppmalingsforretning-krav-til-landmalar-oa">Kapittel 7. Oppmålingsforretning, krav til landmålar o.a.</h2>
 <p>Overskrifta endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="33-oppmalingsforretning">§ 33. Oppmålingsforretning</h4>
@@ -328,25 +501,25 @@ d. for å ta hand om andre interesser som gjeld rådvelde over matrikkeleiningar
 <p>Partane og den som utfører forretninga, har tilgang til privat og offentleg eigedom i samsvar med § 41 .</p>
 <p>Oppmålingsforretning over areal som inngår i sak for jordskifteretten, blir utført av jordskifteretten etter reglane i <a href="lov-2013-06-21-100.html">jordskiftelova</a> med mindre jordskifteretten bestemmer noko anna.</p>
 <p>Departementet kan gi forskrift om varsling og proklama, og om utføring og dokumentasjon av oppmålingsforretning.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="34-merking-og-maling-av-grenser">§ 34. Merking og måling av grenser</h4>
 <p>I oppmålingsforretning for ny grunneigedom, ny festegrunn, nytt jordsameige og uteareal til eigarseksjon, skal alle grensene merkjast og målast i marka og oppgivast med koordinatar. Merking og måling er ikkje nødvendig for grenser som er tilfredsstillande merkte og koordinatbestemte i tidlegare forretning eller sak for jordskifteretten, når uteareal til eigarseksjon er eintydig fastlagt med koordinatar, eller når det er løyve til dette etter § 10 fjerde ledd. Koordinatane skal fastsetjast i eit geodetisk grunnlag som er godkjent av sentral matrikkelstyresmakt.</p>
 <p>Anleggseigedom skal kartfestast på tilsvarande måte. For punktfeste skal festepunktet vere merkt og målt.</p>
 <p>For matrikulering av umatrikulert grunneigedom, umatrikulert festegrunn og registrering av jordsameige, er det tilstrekkeleg at grensene blir viste på kart godkjent av kommunen for slik bruk.</p>
 <p>Reglane om merking og måling gjeld tilsvarande for arealoverføring, endring av festegrunn, matrikkelomforming, grensejustering og klarlegging av eksisterande grense.</p>
 <p>Departementet kan gi forskrift om merking, måling og kartfesting av matrikkeleiningar, mellom anna om når måling og grensemerking kan utelatast.</p>
-<p><em>Endra ved lover 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 18 juni 2021 nr. 130 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2008 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 16 juni 2017 nr. 65 (ikr. 1 jan 2018 iflg. res. 15 sep 2017 nr. 1393 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 18 juni 2021 nr. 130 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2008 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="35-rekvisisjon-og-fullfring-av-oppmalingsforretning">§ 35. Rekvisisjon og fullføring av oppmålingsforretning</h4>
 <p>Rekvisisjon av oppmålingsforretning skal setjast fram overfor den kommunen som skal matrikkelføre forretninga. Kommunen skal gjennomføre og matrikkelføre forretninga utan unødig opphald. Kommunen og rekvirenten kan avtale lengre frist etter reglar fastsett av departementet i forskrift.</p>
 <p>Kommunen skal peike ut ein landmålar for kvar oppmålingsforretning. Landmålaren må ha gyldig landmålarbrev. Landmålaren skal ta vare på interessene til alle partane, undersøke relevante dokument og elles sørge for at forretninga blir utført i samsvar med god landmålarskikk.</p>
 <p>Kommunen kan avvise rekvisisjon om klarlegging av eksisterande grense etter § 17 første ledd bokstav a, dersom det tidlegare er halde oppmålingsforretning, eller tilsvarande forretning etter anna eller tidlegare lovgiving, over vedkommande grense.</p>
 <p>Statsforvaltaren kan fatte vedtak om fullføring og matrikkelføring av oppmålingsforretning som ikkje er fullført eller matrikkelført innan oppgitt frist, for kommunen si rekning.</p>
 <p>Departementet kan gi forskrift om rekvisisjon og fullføring av oppmålingsforretning, til dømes om tidsfristar og avvising av rekvisisjon, og om utføring av oppmålingsforretning og matrikkelføring etter vedtak av statsforvaltaren.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 jan 2012 nr. 7 (ikr. 18 sep 2015 iflg. res. 18 sep 2015 nr. 1059 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 jan 2012 nr. 7 (ikr. 18 sep 2015 iflg. res. 18 sep 2015 nr. 1059 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="36-oppheva">§ 36. (Oppheva)</h4>
-<p><em>Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</em></p>
+<p class="note">Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</p>
 <h4 id="37-oppheva">§ 37. (Oppheva)</h4>
-<p><em>Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</em></p>
+<p class="note">Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</p>
 <h4 id="38-tildeling-av-landmalarbrev-oa">§ 38. Tildeling av landmålarbrev o.a.</h4>
 <p>Departementet kan etter søknad tildele landmålarbrev til personar som</p>
 <p>a. er myndige og eigna til å drive eigedomsoppmåling
@@ -355,16 +528,16 @@ c. har minst to års relevant erfaring etter ferdig utdanning, og
 d. har bestått ei godkjent autorisasjonsprøve.</p>
 <p>Landmålarbrev kan trekkjast tilbake mellombels eller varig ved brot på føresegner eller løyve gitt i eller i medhald av denne lova, plan- og bygningsloven eller eierseksjonsloven, ved gjentekne åtvaringar, eller dersom landmålaren ikkje lenger fyller vilkåra for å ha landmålarbrev. Ein landmålar som ikkje lenger tilfredsstiller krava til å ha landmålarbrev, skal sende melding om dette til den som tildelar landmålarbrev, innan 14 dagar.</p>
 <p>Departementet kan gi forskrift om vilkår for landmålarbrev, tildeling og tilbaketrekking av slikt brev, krav til etterutdanning og gebyr.</p>
-<p><em>Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), tilføyd ved lov 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), endra ved lover 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 18 juni 2021 nr. 130 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2008 ).</em></p>
+<p class="note">Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), tilføyd ved lov 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), endra ved lover 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 18 juni 2021 nr. 130 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2008 ).</p>
 <h2 id="kapittel-8-om-geodetisk-grunnlag-oppmalingsarbeid-oa">Kapittel 8 Om geodetisk grunnlag, oppmålingsarbeid o.a.</h2>
 <p>Overskrifta endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="39-geodetisk-grunnlag">§ 39. Geodetisk grunnlag</h4>
 <p>Staten sitt geodetiske fagorgan skal bestemme og gjere tilgjengeleg eit geodetisk grunnlag for heile landet, slik at kart- og oppmålingsarbeid og annan bruk av geodetisk relaterte koordinatar kan skje innan ei felles, eintydig referanseramme.</p>
 <p>Kommunen skal bestemme ytterlegare geodetiske data når kommunale oppgåver etter lova her eller plan- og bygningsloven krev det og gjere dei tilgjengelege for brukarane av slike data.</p>
 <p>Departementet kan gi forskrift om distribusjon av geodetiske data, og om pliktig bruk av nasjonalt geodetisk grunnlag for kart- og oppmålingsarbeid.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="40-oppheva">§ 40. (Oppheva)</h4>
-<p><em>Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</em></p>
+<p class="note">Oppheva ved lov 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 .)</p>
 <h4 id="41-rett-til-a-utfre-oppmalingsarbeid-pa-offentleg-og-privat-grunn">§ 41. Rett til å utføre oppmålingsarbeid på offentleg og privat grunn</h4>
 <p>Oppmålingsarbeid i samband med arbeid etter denne lova, plan- og bygningsloven eller eierseksjonsloven kan med dei avgrensingar som følgjer av lov, utførast på offentleg og privat grunn. Så langt formålet gjer det mogleg, skal arbeidet skje utan at det medfører ulempe for grunneigaren eller andre interesser. Tilsvarande gjeld for andre måleoppgåver som blir utførde på oppdrag av stat, statsføretak, fylkeskommune eller kommune, eller under rettleiing av kommunen eller staten sitt geodetiske fagorgan.</p>
 <p>Ved oppmålingsarbeid etter første ledd kan det etablerast fastmerke og signal og setjast opp oppmålingstekniske instrument. Det kan ryddast siktelinjer for målingane der dette er nødvendig utanom i hage eller park. I utmark kan materialar til fastmerke og signal takast på staden.</p>
@@ -372,23 +545,23 @@ d. har bestått ei godkjent autorisasjonsprøve.</p>
 <p>Ferdsel i samband med etablering, kontroll og vedlikehald av det nasjonale geodetiske grunnlaget, og i samband med oppmåling av administrative grenser, kan skje ved bruk av motorkøyretøy, båt og luftfartøy også i område der slik ferdsel er avgrensa i medhald av lov eller i kraft av privat eigedomsrett, når dette er strengt nødvendig og ikkje er til større skade for flora eller fauna.</p>
 <p>Dersom arbeidet valdar skade eller ulempe ut over det som er rimeleg å finne seg i, kan den som har lidd skade krevje erstatning.</p>
 <p>Departementet kan gi forskrift om oppmålingsarbeid, under dette kva for andre lover retten til å utføre oppmålingsarbeid skal gjelde tilsvarande for og kven som har rett til å utføre oppmålingsarbeidet.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 16 des 2016 nr. 101 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1591 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ), 20 juni 2025 nr. 93 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1328 ).</p>
 <h4 id="42-fjerning-av-merke-og-signal">§ 42. Fjerning av merke og signal</h4>
 <p>Merke og signal kan krevjast fjerna dersom bruken av eigedommen eller eigedommane dei står på gjer dette nødvendig. Fjerning skal utførast av eigarane av merket eller signalet. Fjerning av grensemerke kan berre skje etter avtale med kommunen.</p>
 <p>Merke og signal kan i alle tilfelle fjernast av kommunen eller staten sitt geodetiske fagorgan dersom dei er utforma og plasserte slik at det kan føre til forveksling med nærliggjande fastmerke og tilhøyrande signal. Utgåtte eller ugyldige grensemerke, eller merke som kan forvekslast med gyldige grensemerke, kan i alle tilfelle fjernast av kommunen eller jordskifteretten.</p>
 <p>Fastmerke og signal som inngår i det overordna nasjonale grunnlaget, kan ikkje krevjast fjerna etter første ledd eller fjernast av kommunen etter andre ledd første punktum. Det same gjeld basispunkt og monumentale fastmerke.</p>
 <p>Dersom det er gitt erstatning etter § 41 , kan erstatningssummen krevjast heilt eller delvis tilbakebetalt ved fjerning etter første ledd, dersom summen overstig det tapet som er lidd.</p>
 <p>Departementet kan gi forskrift om framgangsmåten ved fjerning av merke og signal.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="43-varsling">§ 43. Varsling</h4>
 <p>Før oppmålingsarbeid blir sett i verk, skal alle som arbeidet vedkjem, få varsel på ein etter forholda formålstenleg måte.</p>
 <p>Departementet kan gi forskrift om varsling.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="44-ekspropriasjon">§ 44. Ekspropriasjon</h4>
 <p>Kommunen eller staten kan utføre ekspropriasjon for gjennomføring og sikring av tiltak og innretningar i samband med grunnlagsmåling. Lov om oreigning av fast eigedom gjeld tilsvarande.</p>
 <h4 id="45-skjnn">§ 45. Skjønn</h4>
 <p>Erstatning for ekspropriasjon etter § 44 , skade og ulempe som skuldast tiltak etter § 41 , og tilbakebetaling etter § 42 fjerde ledd, skal fastsetjast ved skjønn dersom partane ikkje blir samde seg imellom. Skjønn blir styrt av jordskifteretten.</p>
-<p><em>Endra ved lov 11 mai 2017 nr. 26 (ikr. 1 jan 2018 iflg. res. 11 mai 2017 nr. 563 ).</em></p>
+<p class="note">Endra ved lov 11 mai 2017 nr. 26 (ikr. 1 jan 2018 iflg. res. 11 mai 2017 nr. 563 ).</p>
 <h2 id="kapittel-9-klage-sanksjonar-oa">Kapittel 9. Klage, sanksjonar, o.a.</h2>
 <h4 id="46-klage-frehandsvarsel-og-underretning-om-vedtak-mm">§ 46. Klage, førehandsvarsel og underretning om vedtak m.m.</h4>
 <p>Det kan klagast over følgjande avgjerder etter denne lova:</p>
@@ -408,13 +581,13 @@ m. tildeling og tilbaketrekking av landmålarbrev etter § 38
 n. vedtak om tvangsmulkt, jf. § 48 .</p>
 <p>Klageinstans er departementet eller det klageorganet departementet peikar ut. Reglane om klage på enkeltvedtak i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> kapittel VI gjeld for alle klager etter første ledd.</p>
 <p>Departementet kan gi forskrift om klage, førehandsvarsel og underretning.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ), 20 apr 2018 nr. 12 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ), 8 mars 2019 nr. 5 (i kraft 1 jan 2021 iflg. res. 29 april 2020 nr. 885 ).</p>
 <h4 id="47-tvist-om-oppmalingsarbeid">§ 47. Tvist om oppmålingsarbeid</h4>
 <p>Tvistar om gjennomføringa av oppmålingsarbeid etter § 41 eller om fjerning av merke eller signal etter § 42 blir avgjorde av statsforvaltaren. Vedtaket til statsforvaltaren kan ikkje klagast på.</p>
-<p><em>Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endra ved lover 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="48-tvangsmulkt">§ 48. Tvangsmulkt</h4>
 <p>Kommunen eller sentral matrikkelstyresmakt kan gjere vedtak om å påleggje tvangsmulkt for å få gjennomført vedtak gitt i medhald av denne lova. Vedtak kan berre gi grunnlag for tvangsmulkt dersom vedtaket set ein frist for gjennomføring. Mulkta kan givast som dagsbøter eller som ein eingongssum. Vedtak om tvangsmulkt er tvangsgrunnlag for utlegg. Departementet kan gi forskrift om fastsetjing, utrekning og ettergiving av tvangsmulkt.</p>
-<p><em>Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</em></p>
+<p class="note">Endra ved lov 20 apr 2018 nr. 12 (ikr. 20 apr 2018 iflg. res. 20 apr 2018 nr. 593 ).</p>
 <h4 id="49-skadeverk-pa-fastmerke-oa">§ 49. Skadeverk på fastmerke o.a.</h4>
 <p>Den som med forsett eller aktløyse rettsstridig endrar, flytter, skadar eller gjer ubrukeleg eit fastmerke, signal eller instrument sett opp for målingar, blir straffa med bøter eller fengsel i inntil 6 månader.</p>
 <p>Skadevaldar skal erstatte tapet som eigaren av fastmerke, signal eller instrument er påført som følgje av handlingar etter første ledd.</p>
@@ -423,19 +596,21 @@ n. vedtak om tvangsmulkt, jf. § 48 .</p>
 <p>Lova trer i kraft frå det tidspunktet Kongen bestemmer. 1 Kongen kan setje i verk dei enkelte føresegnene til ulik tid.</p>
 <p>Føresegnene i § 7 trer i kraft ikkje tidlegare enn fire år frå det at lova trer i kraft.</p>
 <p>Departementet kan i forskrift gi nærare reglar om iverksetjing, under dette reglar om iverksetjing til ulik tid i ulike kommunar. I kommunar der matrikkelen ikkje er sett i drift, skal opplysningar førast i GAB-registeret og på eksisterande eigedomskart.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ).
-1 Etter res. 9 feb 2007 nr. 150 er § 1, § 2, § 3, § 4, § 22, § 28, § 30 , § 31 , § 32 (2) og (3), § 50 og § 51 (5) ikr. 9 feb 2007. Etter res. 27 feb 2009 nr. 242 er § 5a og § 51 (2) og (3) ikr. 27 feb 2009. Etter res. 5 juni 2009 nr. 600 , som endra ved res. 4 des 2009 nr. 1453 , er § 5, § 6, § 8 til § 21, § 23 til § 27 , § 29 , § 32 første ledd, § 33 til § 49 , § 51 første ledd og § 52 nr. 1, 2, 4 til 8, 9 med unnatak for endringane i jordskiftelova § 24 og § 29 tredje ledd, og 10 til 16 sette ikr. frå 1 jan 2010. Lov 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ) opphevde endringane i § 52 nr. 9 og nr. 12. Etter res. 17 des 2021 nr. 3632 er § 52 nr. 3 sette i ikr. frå 1 jan 2022. Etter dette er det berre § 7 som ikkje er sette ikr.</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ).
+1 Etter res. 9 feb 2007 nr. 150 er § 1, § 2, § 3, § 4, § 22, § 28, § 30 , § 31 , § 32 (2) og (3), § 50 og § 51 (5) ikr. 9 feb 2007. Etter res. 27 feb 2009 nr. 242 er § 5a og § 51 (2) og (3) ikr. 27 feb 2009. Etter res. 5 juni 2009 nr. 600 , som endra ved res. 4 des 2009 nr. 1453 , er § 5, § 6, § 8 til § 21, § 23 til § 27 , § 29 , § 32 første ledd, § 33 til § 49 , § 51 første ledd og § 52 nr. 1, 2, 4 til 8, 9 med unnatak for endringane i jordskiftelova § 24 og § 29 tredje ledd, og 10 til 16 sette ikr. frå 1 jan 2010. Lov 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ) opphevde endringane i § 52 nr. 9 og nr. 12. Etter res. 17 des 2021 nr. 3632 er § 52 nr. 3 sette i ikr. frå 1 jan 2022. Etter dette er det berre § 7 som ikkje er sette ikr.</p>
 <h4 id="51-overgangsreglar">§ 51. Overgangsreglar</h4>
 <p>Kart- og delingsforretningar som er kravd før lova trer i kraft, skal fullførast etter reglane i delingsloven. Krav om seksjonering av fast eigedom etter eierseksjonsloven skal fullførast etter reglane som gjaldt då lova her tok til å gjelde.</p>
 <p>Staten ved sentral matrikkelstyresmakt har rett til å få overført alle opplysningar som ligg i kommunen sitt analoge og digitale kartverk, arkiv og elektroniske databasar, og som det er bestemt skal førast i matrikkelen, medrekna annan informasjon som er nødvendig for å få til ei rasjonell overføring. Det same gjeld tilsvarande opplysningar frå digitale kart og elektroniske databasar som kommunen eller statlege organ disponerer saman med andre, eller som blir disponerte av føretak på vegner av kommunen eller statleg organ.</p>
 <p>Departementet kan i forskrift gi nærare overgangsreglar, under dette reglar om overføring av opplysningar frå kommunane og statlege organ.</p>
-<p><em>Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</em></p>
+<p class="note">Endra ved lover 29 juni 2007 nr. 94 (ikr. 29 juni 2007 iflg. res. 29 juni 2007 nr. 760 ), 8 mars 2019 nr. 5 (ikr. 8 mars 2019 iflg. res. 8 mars 2019 nr. 195 ).</p>
 <h4 id="52-endring-av-andre-lover">§ 52. Endring av andre lover</h4>
 <p>Frå den tid Kongen bestemmer, blir det gjort følgjande endringar i andre lover:</p>
 <p><em>1. Lov 23. juni 1978 nr. 70 om kartlegging, deling og registrering av grunneiendom (Delingsloven) blir oppheva.
 2. Lov 9. juli 1923 nr. 1 om anbringelse av signaler og merker for målearbeider blir oppheva.
 – – –
 Endra ved lov 3 sep 2010 nr. 56 (ikr. 3 sep 2010 iflg. res. 3 sep 2010 nr. 1246 ).</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,311 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-03-28-305.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om innenriks passasjerskip" href="../feeds/forskrift-2000-03-28-305.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om innenriks passasjerskip</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2000-03-28-305</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2000-05-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-24-1309</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2000-03-28-305" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-opphevet">§ 3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-likeverdige-lsninger-og-fritak">§ 4. Likeverdige løsninger og fritak</a></li>
+<li class="lvl2"><a href="#kapittel-2-havomrader-og-passasjerskipsklasser">Kapittel 2. Havområder og passasjerskipsklasser</a></li>
+<li class="lvl4"><a href="#5-havomrader-og-passasjerskipsklasser">§ 5. Havområder og passasjerskipsklasser</a></li>
+<li class="lvl2"><a href="#kapittel-3-opphevet">Kapittel 3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-tekniske-og-utstyrsmessige-krav">Kapittel 4. Tekniske og utstyrsmessige krav</a></li>
+<li class="lvl4"><a href="#8-tekniske-og-utstyrsmessige-krav">§ 8. Tekniske og utstyrsmessige krav</a></li>
+<li class="lvl4"><a href="#8a-spesielle-krav-til-redningsvester">§ 8A. Spesielle krav til redningsvester</a></li>
+<li class="lvl4"><a href="#8b-stabilitetskrav-for-roro-passasjerskip">§ 8B. Stabilitetskrav for roro-passasjerskip</a></li>
+<li class="lvl4"><a href="#8c-stabilitetskrav-for-roro-passasjerskip-sesongbestemt-og-tidsbegrenset-rutetrafikk">§ 8C. Stabilitetskrav for roro-passasjerskip – sesongbestemt og tidsbegrenset rutetrafikk.</a></li>
+<li class="lvl4"><a href="#8d-sikkerhetskrav-for-personer-med-nedsatt-bevegelsesevne">§ 8D. Sikkerhetskrav for personer med nedsatt bevegelsesevne</a></li>
+<li class="lvl4"><a href="#9-spesielle-sikringstiltak-mot-brann-i-maskinrom">§ 9. Spesielle sikringstiltak mot brann i maskinrom</a></li>
+<li class="lvl4"><a href="#10-godkjenning-av-utstyr">§ 10. Godkjenning av utstyr</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl3"><a href="#avsnitt-1sikkerhetskrav-for-nye-og-eksisterende-passasjerskip-i-innenriks-hvis-kjl-ble-strukket-eller-som-var-pa-et-tilsvarende-byggetrinn-fr-19-september-2021">AVSNITT 1SIKKERHETSKRAV FOR NYE OG EKSISTERENDE PASSASJERSKIP I INNENRIKS HVIS KJØL BLE STRUKKET, ELLER SOM VAR PÅ ET TILSVARENDE BYGGETRINN, FØR 19. SEPTEMBER 2021</a></li>
+<li class="lvl4"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl4"><a href="#kapittel-ii-1bygging-oppdeling-og-stabilitet-maskineri-og-elektriske-installasjoner">KAPITTEL II-1BYGGING – OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-a-1skipskonstruksjon">DEL A-1SKIPSKONSTRUKSJON</a></li>
+<li class="lvl5"><a href="#del-bintaktstabilitet-oppdeling-og-skadestabilitet">DEL BINTAKTSTABILITET, OPPDELING OG SKADESTABILITET</a></li>
+<li class="lvl5"><a href="#del-b-1">Del B-1</a></li>
+<li class="lvl5"><a href="#del-b-2">DEL B-2</a></li>
+<li class="lvl5"><a href="#del-cmaskineri">DEL CMASKINERI</a></li>
+<li class="lvl5"><a href="#del-delektriske-installasjoner">DEL DELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-etilleggskrav-til-skip-bygget-med-periodisk-ubemannede-maskinrom">DEL ETILLEGGSKRAV TIL SKIP BYGGET MED PERIODISK UBEMANNEDE MASKINROM</a></li>
+<li class="lvl5"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt">DEL G:SKIP SOM BRUKER DRIVSTOFF MED LAVT FLAMMEPUNKT</a></li>
+<li class="lvl4"><a href="#kapittel-ii-2brannvern-branndeteksjon-og-brannslokking">KAPITTEL II-2BRANNVERN, BRANNDETEKSJON OG BRANNSLOKKING</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_1">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-bbrannsikringstiltak">DEL BBRANNSIKRINGSTILTAK</a></li>
+<li class="lvl4"><a href="#kapittel-iiiredningsredskaper">KAPITTEL IIIREDNINGSREDSKAPER</a></li>
+<li class="lvl5"><a href="#1-regel-iii1-definisjoner-r-3">1. Regel III/1: Definisjoner (R 3)</a></li>
+<li class="lvl5"><a href="#2-regel-iii2-kommunikasjon-redningsfarkoster-og-mob-bater-personlige-redningsredskaper-r-6-7-18-21-og-22">2. Regel III/2: Kommunikasjon, redningsfarkoster og MOB-båter, personlige redningsredskaper (R 6, 7, 18, 21 og 22)</a></li>
+<li class="lvl5"><a href="#3-regel-iii3-ndalarmsystem-hyttaleranlegg-alarminstruks-og-ndinstruks-radiokommunikasjonspersonell-betjeningsinstrukser-opplringshandbok-og-vedlikeholdsinstrukser-r-6-8-9-19-og-20">3. Regel III/3: Nødalarmsystem, høyttaleranlegg, alarminstruks og nødinstruks, radiokommunikasjonspersonell, betjeningsinstrukser, opplæringshåndbok og vedlikeholdsinstrukser (R 6, 8, 9, 19 og 20)</a></li>
+<li class="lvl5"><a href="#4-regel-iii4-bemanning-av-og-ansvar-for-redningsfarkoster-r-10">4. Regel III/4: Bemanning av og ansvar for redningsfarkoster (R 10)</a></li>
+<li class="lvl5"><a href="#5-regel-iii5-mnstrings-og-innskipingsarrangementer-for-redningsfarkoster-r-11-r-23-og-r-25">5. Regel III/5: Mønstrings- og innskipingsarrangementer for redningsfarkoster (R 11, R 23 og R 25)</a></li>
+<li class="lvl5"><a href="#5-1-regel-iii5-1-krav-til-roro-passasjerskip-r-26">5-1 Regel III/5-1: Krav til roro-passasjerskip (R 26)</a></li>
+<li class="lvl5"><a href="#5-2-regel-iii5-2-landings-og-evakueringsomrader-for-helikoptre-r-28">5-2 Regel III/5-2: Landings- og evakueringsområder for helikoptre (R 28)</a></li>
+<li class="lvl5"><a href="#5-3-regel-iii5-3-system-til-hjelp-for-skipsfrerens-beslutninger-r-29">5-3 Regel III/5-3: System til hjelp for skipsførerens beslutninger (R 29)</a></li>
+<li class="lvl5"><a href="#6-regel-iii6-utsettingsstasjoner-r-12">6. Regel III/6: Utsettingsstasjoner (R 12)</a></li>
+<li class="lvl5"><a href="#7-regel-iii7-stuing-av-redningsfarkoster-r-13-og-24">7. Regel III/7: Stuing av redningsfarkoster (R 13 og 24)</a></li>
+<li class="lvl5"><a href="#8-regel-iii8-stuing-av-mob-bater-r-14">8. Regel III/8: Stuing av MOB-båter (R 14)</a></li>
+<li class="lvl5"><a href="#8a-regel-iii8a-stuing-av-marine-evakueringssystemer-r-15">8a. Regel III/8a: Stuing av marine evakueringssystemer (R 15)</a></li>
+<li class="lvl5"><a href="#9-regel-iii9-arrangementer-for-utsetting-og-ombordtaking-av-redningsfarkoster-r-16">9. Regel III/9: Arrangementer for utsetting og ombordtaking av redningsfarkoster (R 16)</a></li>
+<li class="lvl5"><a href="#10-regel-iii10-arrangementer-for-innskiping-i-og-utsetting-og-ombordtaking-av-mob-bater-r-17">10. Regel III/10: Arrangementer for innskiping i og utsetting og ombordtaking av MOB-båter (R 17)</a></li>
+<li class="lvl5"><a href="#10a-regel-iii10a-ombordtaking-av-personer-fra-vannet">10a Regel III/10a: Ombordtaking av personer fra vannet</a></li>
+<li class="lvl5"><a href="#11-regel-iii11-ndinstrukser-r-19">11. Regel III/11: Nødinstrukser (R 19)</a></li>
+<li class="lvl5"><a href="#12-regel-iii12-operativ-beredskap-vedlikehold-og-inspeksjoner-r-20">12. Regel III/12: Operativ beredskap, vedlikehold og inspeksjoner (R 20)</a></li>
+<li class="lvl5"><a href="#13-regel-iii13-opplring-og-velser-i-a-forlate-skipet-r-19-og-30">13. Regel III/13: Opplæring og øvelser i å forlate skipet (R 19 og 30)</a></li>
+<li class="lvl5"><a href="#14-regel-iii14-registrering-r195">14. Regel III/14: Registrering (R19.5 )</a></li>
+<li class="lvl4"><a href="#kapittel-ivradiokommunikasjon">KAPITTEL IVRADIOKOMMUNIKASJON</a></li>
+<li class="lvl5"><a href="#1-regel-iv1-radiokommunikasjonsutstyr">1. Regel IV/1: Radiokommunikasjonsutstyr</a></li>
+<li class="lvl3"><a href="#avsnitt-2sikkerhetskrav-for-nye-passasjerskip-i-innenriksfart-hvis-kjl-ble-strukket-eller-som-var-pa-et-tilsvarende-byggetrinn-19-september-2021-eller-senere">AVSNITT 2SIKKERHETSKRAV FOR NYE PASSASJERSKIP I INNENRIKSFART HVIS KJØL BLE STRUKKET ELLER SOM VAR PÅ ET TILSVARENDE BYGGETRINN 19. SEPTEMBER 2021 ELLER SENERE</a></li>
+<li class="lvl4"><a href="#kapittel-ialminnelige-bestemmelser_1">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl4"><a href="#kapittel-ii-1bygging-konstruksjon-oppdeling-og-stabilitet-maskineri-og-elektriske-installasjoner">KAPITTEL II-1BYGGING – KONSTRUKSJON, OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_2">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-a-1skipskonstruksjon_1">DEL A-1SKIPSKONSTRUKSJON</a></li>
+<li class="lvl5"><a href="#del-bintaktstabilitet-oppdeling-og-skadestabilitet_1">DEL BINTAKTSTABILITET, OPPDELING OG SKADESTABILITET</a></li>
+<li class="lvl5"><a href="#del-cmaskineri_1">DEL CMASKINERI</a></li>
+<li class="lvl5"><a href="#del-delektriske-installasjoner_1">DEL DELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-etilleggskrav-til-skip-bygget-med-periodisk-ubemannede-maskinrom_1">DEL ETILLEGGSKRAV TIL SKIP BYGGET MED PERIODISK UBEMANNEDE MASKINROM</a></li>
+<li class="lvl5"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt_1">DEL G:SKIP SOM BRUKER DRIVSTOFF MED LAVT FLAMMEPUNKT</a></li>
+<li class="lvl5"><a href="#del-zsrlige-krav-i-direktiv-200945ef">DEL ZSÆRLIGE KRAV I DIREKTIV 2009/45/EF</a></li>
+<li class="lvl4"><a href="#kapittel-ii-2brannvern-branndeteksjon-og-brannslokking_1">KAPITTEL II-2BRANNVERN, BRANNDETEKSJON OG BRANNSLOKKING</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_3">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-bforebygging-av-brann-og-eksplosjon">DEL BFOREBYGGING AV BRANN OG EKSPLOSJON</a></li>
+<li class="lvl5"><a href="#del-cbranndemping">DEL CBRANNDEMPING</a></li>
+<li class="lvl5"><a href="#del-drmning">DEL DRØMNING</a></li>
+<li class="lvl5"><a href="#del-edriftskrav">DEL EDRIFTSKRAV</a></li>
+<li class="lvl5"><a href="#del-gsrlige-krav">DEL G:SÆRLIGE KRAV</a></li>
+<li class="lvl4"><a href="#kapittel-iiiredningsredskaper_1">KAPITTEL IIIREDNINGSREDSKAPER</a></li>
+<li class="lvl5"><a href="#regel-iii1-definisjoner-r-3">Regel III/1: Definisjoner (R 3)</a></li>
+<li class="lvl4"><a href="#kapittel-ivradiokommunikasjon_1">KAPITTEL IVRADIOKOMMUNIKASJON</a></li>
+<li class="lvl5"><a href="#regel-iv1-radiokommunikasjonsutstyr">Regel IV/1: Radiokommunikasjonsutstyr</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-opphevet">Vedlegg II. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-modellforsksmetoden">Vedlegg III. Modellforsøksmetoden</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-srlige-stabilitetskrav-for-roro-passasjerskip">Vedlegg IV. Særlige stabilitetskrav for roro-passasjerskip</a></li>
+<li class="lvl3"><a href="#avsnitt-a">Avsnitt A</a></li>
+<li class="lvl3"><a href="#avsnitt-b">Avsnitt B</a></li>
+<li class="lvl2"><a href="#vedlegg-v-opplysninger-i-underretningen">Vedlegg V. Opplysninger i underretningen</a></li>
+<li class="lvl2"><a href="#norsk-ikke-autorativ-oversettelse-av-msc1-circ735-retningslinjer-for-utforming-og-drift-av-nye-passasjerskip-for-a-imtekomme-behov-hos-eldre-og-personer-med-nedsatt-funksjonsevne">Norsk ikke-autorativ oversettelse av MSC.1 Circ.735 – Retningslinjer for utforming og drift av nye passasjerskip for å imøtekomme behov hos eldre og personer med nedsatt funksjonsevne</a></li>
+<li class="lvl3"><a href="#generell-informasjon-fr-ombordstigning">GENERELL INFORMASJON FØR OMBORDSTIGNING</a></li>
+<li class="lvl3"><a href="#atkomst-til-terminalen">ATKOMST TIL TERMINALEN</a></li>
+<li class="lvl3"><a href="#atkomst-til-skipet">ATKOMST TIL SKIPET</a></li>
+<li class="lvl3"><a href="#oppstilling-av-biler">OPPSTILLING AV BILER</a></li>
+<li class="lvl3"><a href="#parkering-om-bord">PARKERING OM BORD</a></li>
+<li class="lvl3"><a href="#heis">HEIS</a></li>
+<li class="lvl3"><a href="#fellesrom">FELLESROM</a></li>
+<li class="lvl3"><a href="#korridorer-drer-og-rekkverk">KORRIDORER, DØRER OG REKKVERK</a></li>
+<li class="lvl3"><a href="#dekk-og-gulv">DEKK OG GULV</a></li>
+<li class="lvl3"><a href="#lugarer">LUGARER</a></li>
+<li class="lvl3"><a href="#toaletter">TOALETTER</a></li>
+<li class="lvl3"><a href="#tildeling-av-lugarer">TILDELING AV LUGARER</a></li>
+<li class="lvl3"><a href="#opplring-av-besetning">OPPLÆRING AV BESETNING</a></li>
+<li class="lvl3"><a href="#tiltak-for-allergikere">TILTAK FOR ALLERGIKERE</a></li>
+<li class="lvl3"><a href="#informasjon">INFORMASJON</a></li>
+<li class="lvl3"><a href="#service">SERVICE</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-24-1309.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-03-28-305.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om besiktelse, bygging og utrustning av passasjerskip i innenriksfart</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-03-28-305.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2000-03-28-305 <code>forskrift/2000-03-28-305</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om innenriks passasjerskip</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.05.2000</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-24-1309 <code>forskrift/2025-06-24-1309</code> fra 01.08.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2000-03-28-305" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-opphevet">§ 3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-likeverdige-lsninger-og-fritak">§ 4. Likeverdige løsninger og fritak</a></li>
+<li class="lvl2"><a href="#kapittel-2-havomrader-og-passasjerskipsklasser">Kapittel 2. Havområder og passasjerskipsklasser</a></li>
+<li class="lvl4"><a href="#5-havomrader-og-passasjerskipsklasser">§ 5. Havområder og passasjerskipsklasser</a></li>
+<li class="lvl2"><a href="#kapittel-3-opphevet">Kapittel 3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-tekniske-og-utstyrsmessige-krav">Kapittel 4. Tekniske og utstyrsmessige krav</a></li>
+<li class="lvl4"><a href="#8-tekniske-og-utstyrsmessige-krav">§ 8. Tekniske og utstyrsmessige krav</a></li>
+<li class="lvl4"><a href="#8a-spesielle-krav-til-redningsvester">§ 8A. Spesielle krav til redningsvester</a></li>
+<li class="lvl4"><a href="#8b-stabilitetskrav-for-roro-passasjerskip">§ 8B. Stabilitetskrav for roro-passasjerskip</a></li>
+<li class="lvl4"><a href="#8c-stabilitetskrav-for-roro-passasjerskip-sesongbestemt-og-tidsbegrenset-rutetrafikk">§ 8C. Stabilitetskrav for roro-passasjerskip – sesongbestemt og tidsbegrenset rutetrafikk.</a></li>
+<li class="lvl4"><a href="#8d-sikkerhetskrav-for-personer-med-nedsatt-bevegelsesevne">§ 8D. Sikkerhetskrav for personer med nedsatt bevegelsesevne</a></li>
+<li class="lvl4"><a href="#9-spesielle-sikringstiltak-mot-brann-i-maskinrom">§ 9. Spesielle sikringstiltak mot brann i maskinrom</a></li>
+<li class="lvl4"><a href="#10-godkjenning-av-utstyr">§ 10. Godkjenning av utstyr</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl3"><a href="#avsnitt-1sikkerhetskrav-for-nye-og-eksisterende-passasjerskip-i-innenriks-hvis-kjl-ble-strukket-eller-som-var-pa-et-tilsvarende-byggetrinn-fr-19-september-2021">AVSNITT 1SIKKERHETSKRAV FOR NYE OG EKSISTERENDE PASSASJERSKIP I INNENRIKS HVIS KJØL BLE STRUKKET, ELLER SOM VAR PÅ ET TILSVARENDE BYGGETRINN, FØR 19. SEPTEMBER 2021</a></li>
+<li class="lvl4"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl4"><a href="#kapittel-ii-1bygging-oppdeling-og-stabilitet-maskineri-og-elektriske-installasjoner">KAPITTEL II-1BYGGING – OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-a-1skipskonstruksjon">DEL A-1SKIPSKONSTRUKSJON</a></li>
+<li class="lvl5"><a href="#del-bintaktstabilitet-oppdeling-og-skadestabilitet">DEL BINTAKTSTABILITET, OPPDELING OG SKADESTABILITET</a></li>
+<li class="lvl5"><a href="#del-b-1">Del B-1</a></li>
+<li class="lvl5"><a href="#del-b-2">DEL B-2</a></li>
+<li class="lvl5"><a href="#del-cmaskineri">DEL CMASKINERI</a></li>
+<li class="lvl5"><a href="#del-delektriske-installasjoner">DEL DELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-etilleggskrav-til-skip-bygget-med-periodisk-ubemannede-maskinrom">DEL ETILLEGGSKRAV TIL SKIP BYGGET MED PERIODISK UBEMANNEDE MASKINROM</a></li>
+<li class="lvl5"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt">DEL G:SKIP SOM BRUKER DRIVSTOFF MED LAVT FLAMMEPUNKT</a></li>
+<li class="lvl4"><a href="#kapittel-ii-2brannvern-branndeteksjon-og-brannslokking">KAPITTEL II-2BRANNVERN, BRANNDETEKSJON OG BRANNSLOKKING</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_1">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-bbrannsikringstiltak">DEL BBRANNSIKRINGSTILTAK</a></li>
+<li class="lvl4"><a href="#kapittel-iiiredningsredskaper">KAPITTEL IIIREDNINGSREDSKAPER</a></li>
+<li class="lvl5"><a href="#1-regel-iii1-definisjoner-r-3">1. Regel III/1: Definisjoner (R 3)</a></li>
+<li class="lvl5"><a href="#2-regel-iii2-kommunikasjon-redningsfarkoster-og-mob-bater-personlige-redningsredskaper-r-6-7-18-21-og-22">2. Regel III/2: Kommunikasjon, redningsfarkoster og MOB-båter, personlige redningsredskaper (R 6, 7, 18, 21 og 22)</a></li>
+<li class="lvl5"><a href="#3-regel-iii3-ndalarmsystem-hyttaleranlegg-alarminstruks-og-ndinstruks-radiokommunikasjonspersonell-betjeningsinstrukser-opplringshandbok-og-vedlikeholdsinstrukser-r-6-8-9-19-og-20">3. Regel III/3: Nødalarmsystem, høyttaleranlegg, alarminstruks og nødinstruks, radiokommunikasjonspersonell, betjeningsinstrukser, opplæringshåndbok og vedlikeholdsinstrukser (R 6, 8, 9, 19 og 20)</a></li>
+<li class="lvl5"><a href="#4-regel-iii4-bemanning-av-og-ansvar-for-redningsfarkoster-r-10">4. Regel III/4: Bemanning av og ansvar for redningsfarkoster (R 10)</a></li>
+<li class="lvl5"><a href="#5-regel-iii5-mnstrings-og-innskipingsarrangementer-for-redningsfarkoster-r-11-r-23-og-r-25">5. Regel III/5: Mønstrings- og innskipingsarrangementer for redningsfarkoster (R 11, R 23 og R 25)</a></li>
+<li class="lvl5"><a href="#5-1-regel-iii5-1-krav-til-roro-passasjerskip-r-26">5-1 Regel III/5-1: Krav til roro-passasjerskip (R 26)</a></li>
+<li class="lvl5"><a href="#5-2-regel-iii5-2-landings-og-evakueringsomrader-for-helikoptre-r-28">5-2 Regel III/5-2: Landings- og evakueringsområder for helikoptre (R 28)</a></li>
+<li class="lvl5"><a href="#5-3-regel-iii5-3-system-til-hjelp-for-skipsfrerens-beslutninger-r-29">5-3 Regel III/5-3: System til hjelp for skipsførerens beslutninger (R 29)</a></li>
+<li class="lvl5"><a href="#6-regel-iii6-utsettingsstasjoner-r-12">6. Regel III/6: Utsettingsstasjoner (R 12)</a></li>
+<li class="lvl5"><a href="#7-regel-iii7-stuing-av-redningsfarkoster-r-13-og-24">7. Regel III/7: Stuing av redningsfarkoster (R 13 og 24)</a></li>
+<li class="lvl5"><a href="#8-regel-iii8-stuing-av-mob-bater-r-14">8. Regel III/8: Stuing av MOB-båter (R 14)</a></li>
+<li class="lvl5"><a href="#8a-regel-iii8a-stuing-av-marine-evakueringssystemer-r-15">8a. Regel III/8a: Stuing av marine evakueringssystemer (R 15)</a></li>
+<li class="lvl5"><a href="#9-regel-iii9-arrangementer-for-utsetting-og-ombordtaking-av-redningsfarkoster-r-16">9. Regel III/9: Arrangementer for utsetting og ombordtaking av redningsfarkoster (R 16)</a></li>
+<li class="lvl5"><a href="#10-regel-iii10-arrangementer-for-innskiping-i-og-utsetting-og-ombordtaking-av-mob-bater-r-17">10. Regel III/10: Arrangementer for innskiping i og utsetting og ombordtaking av MOB-båter (R 17)</a></li>
+<li class="lvl5"><a href="#10a-regel-iii10a-ombordtaking-av-personer-fra-vannet">10a Regel III/10a: Ombordtaking av personer fra vannet</a></li>
+<li class="lvl5"><a href="#11-regel-iii11-ndinstrukser-r-19">11. Regel III/11: Nødinstrukser (R 19)</a></li>
+<li class="lvl5"><a href="#12-regel-iii12-operativ-beredskap-vedlikehold-og-inspeksjoner-r-20">12. Regel III/12: Operativ beredskap, vedlikehold og inspeksjoner (R 20)</a></li>
+<li class="lvl5"><a href="#13-regel-iii13-opplring-og-velser-i-a-forlate-skipet-r-19-og-30">13. Regel III/13: Opplæring og øvelser i å forlate skipet (R 19 og 30)</a></li>
+<li class="lvl5"><a href="#14-regel-iii14-registrering-r195">14. Regel III/14: Registrering (R19.5 )</a></li>
+<li class="lvl4"><a href="#kapittel-ivradiokommunikasjon">KAPITTEL IVRADIOKOMMUNIKASJON</a></li>
+<li class="lvl5"><a href="#1-regel-iv1-radiokommunikasjonsutstyr">1. Regel IV/1: Radiokommunikasjonsutstyr</a></li>
+<li class="lvl3"><a href="#avsnitt-2sikkerhetskrav-for-nye-passasjerskip-i-innenriksfart-hvis-kjl-ble-strukket-eller-som-var-pa-et-tilsvarende-byggetrinn-19-september-2021-eller-senere">AVSNITT 2SIKKERHETSKRAV FOR NYE PASSASJERSKIP I INNENRIKSFART HVIS KJØL BLE STRUKKET ELLER SOM VAR PÅ ET TILSVARENDE BYGGETRINN 19. SEPTEMBER 2021 ELLER SENERE</a></li>
+<li class="lvl4"><a href="#kapittel-ialminnelige-bestemmelser_1">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl4"><a href="#kapittel-ii-1bygging-konstruksjon-oppdeling-og-stabilitet-maskineri-og-elektriske-installasjoner">KAPITTEL II-1BYGGING – KONSTRUKSJON, OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_2">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-a-1skipskonstruksjon_1">DEL A-1SKIPSKONSTRUKSJON</a></li>
+<li class="lvl5"><a href="#del-bintaktstabilitet-oppdeling-og-skadestabilitet_1">DEL BINTAKTSTABILITET, OPPDELING OG SKADESTABILITET</a></li>
+<li class="lvl5"><a href="#del-cmaskineri_1">DEL CMASKINERI</a></li>
+<li class="lvl5"><a href="#del-delektriske-installasjoner_1">DEL DELEKTRISKE INSTALLASJONER</a></li>
+<li class="lvl5"><a href="#del-etilleggskrav-til-skip-bygget-med-periodisk-ubemannede-maskinrom_1">DEL ETILLEGGSKRAV TIL SKIP BYGGET MED PERIODISK UBEMANNEDE MASKINROM</a></li>
+<li class="lvl5"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt_1">DEL G:SKIP SOM BRUKER DRIVSTOFF MED LAVT FLAMMEPUNKT</a></li>
+<li class="lvl5"><a href="#del-zsrlige-krav-i-direktiv-200945ef">DEL ZSÆRLIGE KRAV I DIREKTIV 2009/45/EF</a></li>
+<li class="lvl4"><a href="#kapittel-ii-2brannvern-branndeteksjon-og-brannslokking_1">KAPITTEL II-2BRANNVERN, BRANNDETEKSJON OG BRANNSLOKKING</a></li>
+<li class="lvl5"><a href="#del-agenerelle-bestemmelser_3">DEL AGENERELLE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-bforebygging-av-brann-og-eksplosjon">DEL BFOREBYGGING AV BRANN OG EKSPLOSJON</a></li>
+<li class="lvl5"><a href="#del-cbranndemping">DEL CBRANNDEMPING</a></li>
+<li class="lvl5"><a href="#del-drmning">DEL DRØMNING</a></li>
+<li class="lvl5"><a href="#del-edriftskrav">DEL EDRIFTSKRAV</a></li>
+<li class="lvl5"><a href="#del-gsrlige-krav">DEL G:SÆRLIGE KRAV</a></li>
+<li class="lvl4"><a href="#kapittel-iiiredningsredskaper_1">KAPITTEL IIIREDNINGSREDSKAPER</a></li>
+<li class="lvl5"><a href="#regel-iii1-definisjoner-r-3">Regel III/1: Definisjoner (R 3)</a></li>
+<li class="lvl4"><a href="#kapittel-ivradiokommunikasjon_1">KAPITTEL IVRADIOKOMMUNIKASJON</a></li>
+<li class="lvl5"><a href="#regel-iv1-radiokommunikasjonsutstyr">Regel IV/1: Radiokommunikasjonsutstyr</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-opphevet">Vedlegg II. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-modellforsksmetoden">Vedlegg III. Modellforsøksmetoden</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-srlige-stabilitetskrav-for-roro-passasjerskip">Vedlegg IV. Særlige stabilitetskrav for roro-passasjerskip</a></li>
+<li class="lvl3"><a href="#avsnitt-a">Avsnitt A</a></li>
+<li class="lvl3"><a href="#avsnitt-b">Avsnitt B</a></li>
+<li class="lvl2"><a href="#vedlegg-v-opplysninger-i-underretningen">Vedlegg V. Opplysninger i underretningen</a></li>
+<li class="lvl2"><a href="#norsk-ikke-autorativ-oversettelse-av-msc1-circ735-retningslinjer-for-utforming-og-drift-av-nye-passasjerskip-for-a-imtekomme-behov-hos-eldre-og-personer-med-nedsatt-funksjonsevne">Norsk ikke-autorativ oversettelse av MSC.1 Circ.735 – Retningslinjer for utforming og drift av nye passasjerskip for å imøtekomme behov hos eldre og personer med nedsatt funksjonsevne</a></li>
+<li class="lvl3"><a href="#generell-informasjon-fr-ombordstigning">GENERELL INFORMASJON FØR OMBORDSTIGNING</a></li>
+<li class="lvl3"><a href="#atkomst-til-terminalen">ATKOMST TIL TERMINALEN</a></li>
+<li class="lvl3"><a href="#atkomst-til-skipet">ATKOMST TIL SKIPET</a></li>
+<li class="lvl3"><a href="#oppstilling-av-biler">OPPSTILLING AV BILER</a></li>
+<li class="lvl3"><a href="#parkering-om-bord">PARKERING OM BORD</a></li>
+<li class="lvl3"><a href="#heis">HEIS</a></li>
+<li class="lvl3"><a href="#fellesrom">FELLESROM</a></li>
+<li class="lvl3"><a href="#korridorer-drer-og-rekkverk">KORRIDORER, DØRER OG REKKVERK</a></li>
+<li class="lvl3"><a href="#dekk-og-gulv">DEKK OG GULV</a></li>
+<li class="lvl3"><a href="#lugarer">LUGARER</a></li>
+<li class="lvl3"><a href="#toaletter">TOALETTER</a></li>
+<li class="lvl3"><a href="#tildeling-av-lugarer">TILDELING AV LUGARER</a></li>
+<li class="lvl3"><a href="#opplring-av-besetning">OPPLÆRING AV BESETNING</a></li>
+<li class="lvl3"><a href="#tiltak-for-allergikere">TILTAK FOR ALLERGIKERE</a></li>
+<li class="lvl3"><a href="#informasjon">INFORMASJON</a></li>
+<li class="lvl3"><a href="#service">SERVICE</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-03-28-305.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-03-28-305.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-03-28-305.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2000-03-28-305.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2000-03-28-305.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-03-28-305.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2000-03-28-305.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2000-03-28-305.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-03-28-305.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-besiktelse-bygging-og-utrustning-av-passasjerskip-i-innenriksfart">Forskrift om besiktelse, bygging og utrustning av passasjerskip i innenriksfart</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>(1) Forskriften gjelder for norske passasjerskip med lengde 24 meter eller mer bygd i stål eller likeverdig materiale som skal gå i innenriksfart i havområdene A, B, C eller D innenfor EØS.</p>
@@ -91,7 +338,7 @@ e. treskip som følger forskrift 23. januar 2020 nr. 69 om åpne treskip som fø
 f. skip som er sertifisert for fartsområde 2 og mindre
 g. tenderfartøy
 h. skip som brukes til transport eller innkvartering av industrielt personell.</p>
-<p><em>Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskriften og i vedlegg I betyr:</p>
 <p>a. baughøyde: baughøyde som definert i regel 39 i Den internasjonale konvensjon om lastelinjer, 1966.
@@ -137,14 +384,14 @@ z. skip med heldekk: et skip som er utstyrt med heldekk som er utsatt for vær o
   Heldekket kan være et vanntett dekk eller en likeverdig konstruksjon bestående av et ikke vanntett dekk som er helt dekket av en værtett konstruksjon av tilstrekkelig styrke til å opprettholde værtett helhet og utstyrt med værtette lukkeinnretninger.
 aa. utenriks fart: en sjøreise fra en havn i en stat til en havn utenfor denne staten eller omvendt.
 bb. (opphevet)</p>
-<p><em>Endret ved forskrifter 8 des 2003 nr. 1739 , 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 8 des 2003 nr. 1739 , 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</p>
 <h4 id="3-opphevet">§ 3. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 19 aug 2013 nr. 1036 (i kraft 20 aug 2013), opphevet ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 19 aug 2013 nr. 1036 (i kraft 20 aug 2013), opphevet ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="4-likeverdige-lsninger-og-fritak">§ 4. Likeverdige løsninger og fritak</h4>
 <p>(1) Sjøfartsdirektoratet kan for spesifikke krav i forskriften tillate andre, likeverdige løsninger, forutsatt at de likeverdige løsningene er minst like effektive som kravene i forskriften.</p>
 <p>(2) Under forutsetning av at det ikke gir noen reduksjon i sikkerhetsnivået, kan Sjøfartsdirektoratet under visse driftsforhold frita passasjerskip som går i innenriksfart i Norge, medregnet øyhavområder, fra plikten til å oppfylle spesifikke krav i forskriften. Visse driftsforhold kan være mindre signifikant bølgehøyde, begrenset periode av året, drift bare i dagslys, gunstige klimatiske eller værmessige forhold, begrenset varighet av reisen eller nærhet til redningstjenester.</p>
 <p>(3) Sjøfartsdirektoratet skal straks underrette EFTAs Overvåkningsorgan (ESA) om vedtak etter første og andre ledd. Med underretningen skal det følge en begrunnet uttalelse. Dersom ESA finner at et unntak er uberettiget, kan ESA senest innen seks måneder kreve at Sjøfartsdirektoratet endrer eller opphever vedtaket.</p>
-<p><em>Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h2 id="kapittel-2-havomrader-og-passasjerskipsklasser">Kapittel 2. Havområder og passasjerskipsklasser</h2>
 <p>Overskriften endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="5-havomrader-og-passasjerskipsklasser">§ 5. Havområder og passasjerskipsklasser</h4>
@@ -153,7 +400,7 @@ bb. (opphevet)</p>
 <p>(3) Basert på kriteriene i første ledd fastsettes det en inndeling i havområder langs norskekysten. En oversikt over havområdene er tilgjengelig i kartløsning på Sjøfartsdirektoratets nettsider.</p>
 <p>(4) Skip som har eller skal ha sikkerhetssertifikat for passasjerskip i innenriksfart og går eller skal gå i rutetrafikk på kontrakt inngått før 19. september 2021, kan fortsette å følge havområdegrensene som var gjeldende før nevnte dato til kontrakten utløper.</p>
 <p>(5) Andre skip som har sikkerhetssertifikat for passasjerskip i innenriksfart før 19. september 2021 kan fortsette å følge havområdegrensene som var gjeldende før nevnte dato til 19. september 2023.</p>
-<p><em>Endret ved forskrifter 3 feb 2011 nr. 111 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 3 feb 2011 nr. 111 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h2 id="kapittel-3-opphevet">Kapittel 3. (Opphevet)</h2>
 <p>Kapitlet opphevet ved forskrift 22 des 2014 nr. 1893 (i kraft 1 jan 2015).</p>
 <h2 id="kapittel-4-tekniske-og-utstyrsmessige-krav">Kapittel 4. Tekniske og utstyrsmessige krav</h2>
@@ -190,10 +437,10 @@ d. likeverdige løsninger og fritak:
     c. hovedkraftkilden i hvert maskinrom oppfyller kravene i Vedlegg I regel II-1/D/3.2 til 3.5.
   2. Eksisterende roro-passasjerskip i klasse C eller D hvor det er fysisk umulig å installere en hurtig MOB-båt som oppfyller kravet i vedlegg I regel III/5-1.3.1, kan i stedet utstyres med en MOB-båt som oppfyller kravene i The International Life-Saving Appliance Code 2003 kapittel V.
   3. Eksisterende roro-passasjerskip i klasse C eller D som trafikkerer ruter hvor avstanden til nærmeste havn med et egnet område for evakuering med helikopter aldri overstiger en time, behøver ikke oppfylle kravet til landings- og evakueringsområder for helikopter i vedlegg I regel III/5-2.</p>
-<p><em>Endret ved forskrifter 8 des 2003 nr. 1739 , 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 16 april 2008 nr. 369 , 5 sep 2014 nr. 1158 (i kraft 15 sep 2014), 22 mai 2015 nr. 652 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 21 jan 2022 nr. 129 , 26 juni 2025 nr. 1372 , 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 8 des 2003 nr. 1739 , 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 2 des 2004 nr. 1561 , 16 april 2008 nr. 369 , 5 sep 2014 nr. 1158 (i kraft 15 sep 2014), 22 mai 2015 nr. 652 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 21 jan 2022 nr. 129 , 26 juni 2025 nr. 1372 , 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</p>
 <h4 id="8a-spesielle-krav-til-redningsvester">§ 8A. Spesielle krav til redningsvester</h4>
 <p>Redningsvester skal ha arrangement eller konstruksjon som gjør at redningsvesten er enkel å ta riktig på seg. Redningsvestene skal ha festestropper som ikke behøver tres gjennom løkker e.l. og som, ikke er basert på knyting. Redningsvestene skal dessuten ha skrittstropp eller annen likeverdig løsning som sikrer at den sitter på ved bruk. Redningsvestene skal være utstyrt med lys i henhold til SOLAS' regel III/22.3.1 (1966 Amendments) og termisk beskyttelse som tilfredsstiller kravene i IMO MSC/Circ.922. Krav om termisk beskyttelse gjelder ikke for passasjerskip som opererer i farvann mellom 30° S og 30° N.</p>
-<p><em>Tilføyd ved forskrift 19 des 2003 nr. 1787 (i kraft 1 jan 2004), endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2003 nr. 1787 (i kraft 1 jan 2004), endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="8b-stabilitetskrav-for-roro-passasjerskip">§ 8B. Stabilitetskrav for roro-passasjerskip</h4>
 <p>(1) Med «roro-passasjerskip» menes i denne paragrafen alle roro-passasjerskip i klasse C som ble kjølstrukket eller var på et tilsvarende byggetrinn på eller etter 1. oktober 2004, og alle roro-passasjerskip i klasse A og B.</p>
 <p>(2) Roro-passasjerskip som ble kjølstrukket eller var på et tilsvarende byggetrinn 5. desember 2024 eller senere, og som er sertifisert til å føre 1350 eller færre personer, skal oppfylle enten</p>
@@ -209,7 +456,7 @@ b. 1350 eller færre personer, skal oppfylle enten
 <p>(4) Roro-passasjerskip som ble satt i rutetrafikk i EØS-området før 5. desember 2024, skal oppfylle stabilitetskravene i vedlegg IV avsnitt A i denne forskriften.</p>
 <p>(5) Roro-passasjerskip som omfattes av annet ledd, skal rapportere til Sjøfartsdirektoratet hvilke stabilitetskrav som skal være oppfylt. Skjema for rapportering følger av vedlegg V.</p>
 <p>(6) Dersom stabilitetskravene i vedlegg IV avsnitt A legges til grunn, skal retningslinjene som er fastsatt i vedlegg II (Retningslinjer for nasjonale myndigheter) til direktiv 2003/25/EF av 14. april 2003 om særlige stabilitetskrav for roro-passasjerskip, sist endret ved direktiv (EU) 2023/946 oppfylles.</p>
-<p><em>Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrifter 10 mars 2006 nr. 337 , 3 feb 2011 nr. 111 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 27 mars 2023 nr. 459 , 3 des 2024 nr. 3131 (i kraft 5 des 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrifter 10 mars 2006 nr. 337 , 3 feb 2011 nr. 111 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 27 mars 2023 nr. 459 , 3 des 2024 nr. 3131 (i kraft 5 des 2024).</p>
 <h4 id="8c-stabilitetskrav-for-roro-passasjerskip-sesongbestemt-og-tidsbegrenset-rutetrafikk">§ 8C. Stabilitetskrav for roro-passasjerskip – sesongbestemt og tidsbegrenset rutetrafikk.</h4>
 <p>(1) Dersom et rederi som på helårsbasis driver rutetrafikk ønsker å sette i drift flere roro-passasjerskip som skal benyttes på samme rute i en kortere periode, skal det underrette Sjøfartsdirektoratet senest en måned før nevnte skip trafikkerer denne ruten. Når det som følge av uforutsette omstendigheter raskt må settes inn et annet roro-passasjerskip for å sikre at driften opprettholdes, kan skipet settes inn i trafikk, forutsatt at:</p>
 <p>a. visuell inspeksjon og kontroll av dokumentene ikke gir grunn til bekymring for at skipet ikke oppfyller nødvendige krav til sikker drift, og
@@ -217,7 +464,7 @@ b. Sjøfartsdirektoratet innen en måned foretar kontroll og de besiktelser som 
 <p>(2) Dersom et rederi ønsker å drive sesongbasert rutetrafikk i en kortere periode som ikke overstiger seks måneder per år, skal det underrette Sjøfartsdirektoratet senest tre måneder på forhånd.</p>
 <p>(3) Når slik trafikk finner sted under forhold med lavere signifikant bølgehøyde enn den som er fastsatt for samme havområde for helårstrafikk, skal Sjøfartsdirektoratet ved anvendelse av stabilitetskravene i vedlegg IV avsnitt A bruke den signifikante bølgehøyden som får anvendelse i denne kortere perioden for å bestemme vannivået på dekk. Den signifikante bølgehøyden som får anvendelse i denne kortere perioden skal fastsettes av Sjøfartsdirektoratet, eller ved overenskomst med vedkommende EØS-stat når skipet skal gå i rutefart i denne staten.</p>
 <p>(4) Når det er gitt tillatelse til slik trafikk som er fastsatt i første og andre ledd, skal det utstedes et vedlegg til sikkerhetssertifikatet, som fastsatt i forskrift 22. desember 2014 nr. 1893 om tilsyn og sertifikat for norske skip og flyttbare innretninger § 18 andre ledd bokstav b.</p>
-<p><em>Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 3 des 2024 nr. 3131 (i kraft 5 des 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 3 des 2024 nr. 3131 (i kraft 5 des 2024).</p>
 <h4 id="8d-sikkerhetskrav-for-personer-med-nedsatt-bevegelsesevne">§ 8D. Sikkerhetskrav for personer med nedsatt bevegelsesevne</h4>
 <p>(1) MSC sirkulære nr. 735 av 24. juni 1996 om anbefalinger med hensyn til passasjerskips konstruksjon og drift for å imøtekomme eldre og personer med nedsatt bevegelsesevnes behov (Recommendation on the design and operation of passenger ships to respond to elderly and disabled persons' need) skal følges i den utstrekning det passer.</p>
 <p>(2) For passasjerskip i klasse A, B, C og D som ble kjølstrukket eller som var på et tilsvarende byggetrinn på eller etter 1. oktober 2004 gjelder følgende:</p>
@@ -232,7 +479,7 @@ d. Alarm
 e. Tilleggskrav for å sikre bevegelighet inne i skipet
   Håndlister, korridorer og ganger, døråpninger og dører skal være tilgjengelige for rullestolbrukere. Heiser, bildekk, passasjersalonger, innredning og toaletter skal være konstruert slik at de på en rimelig måte og i rimelig omfang er tilgjengelige for personer med nedsatt bevegelsesevne.</p>
 <p>(3) For passasjerskip i klasse A, B, C og D som ble kjølstrukket eller som var på et tilsvarende byggetrinn før 1. oktober 2004 gjelder første og andre ledd i paragrafen her ved ombygging og i den utstrekning Sjøfartsdirektoratet bestemmer, jf. § 1 tredje ledd.</p>
-<p><em>Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 2 des 2004 nr. 1561 , endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="9-spesielle-sikringstiltak-mot-brann-i-maskinrom">§ 9. Spesielle sikringstiltak mot brann i maskinrom</h4>
 <p>(1) Fastmonterte lokaltvirkende brannslokkingsanlegg på passasjerskip på 500 tonn og mer, kjølstrukket på eller etter 1. august 2000 og på passasjerskip på 2000 tonn og mer, kjølstrukket før 1. august 2000.</p>
 <p>(2) Maskinrom av kategori A med bruttovolum på mer enn 500 m 3 skal, i stedet for det faste brannslokkingsanlegget som for passasjerskip kreves i SOLAS' regel II-2/10.5 og som for passasjerskip i klasse B, C og D kreves i vedlegg I regel II-2/A/6.8, beskyttes av et fastmontert vannbasert eller tilsvarende lokaltvirkende brannslokkingsanlegg. For periodevis ubemannede maskinrom skal det lokaltvirkende brannslokkingsanlegget ha mulighet for både automatisk og manuell utløsning. For fast bemannede maskinrom kreves det utelukkende en mulighet for manuell utløsning. Vannbasert anlegg skal være godkjent. 1</p>
@@ -243,16 +490,16 @@ c. de brannfarlige delene av forbrenningsovner; og
 d. separatorer for oppvarmet brennolje.</p>
 <p>(4) Brannslokkingsmiddelet som brukes må ikke sette menneskeliv i fare.</p>
 <p>(5) Aktivering av et hvilket som helst lokaltvirkende anlegg skal utløse en visuell og tydelig hørbar alarm i det beskyttede rommet og ved fast bemannede stasjoner. Denne alarmen skal indikere hvilket anlegg som er aktivert. Alarmkravene her gjelder i tillegg til branndeteksjons- og brannalarmsystemet som for passasjerskip i klasse A kreves i SOLAS' regel II-2/10.5.6.4 og som for passasjerskip i klasse B, C og D kreves i vedlegg I regel II-2/B/13.3.</p>
-<p><em>Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).
-1 Det vises til MSC/Circ. 913 4 juni 1999 «on the Guidelines for the approval of fixed water-based local application fixed fire-fighting systems for use in category A machinery spaces».</em></p>
+<p class="note">Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).
+1 Det vises til MSC/Circ. 913 4 juni 1999 «on the Guidelines for the approval of fixed water-based local application fixed fire-fighting systems for use in category A machinery spaces».</p>
 <h4 id="10-godkjenning-av-utstyr">§ 10. Godkjenning av utstyr</h4>
 <p>(1) Utstyr som kreves etter bestemmelsene i forskriften her og i vedlegg I skal være godkjent, typegodkjent eller akseptert.</p>
 <p>(2) Utstyr som oppfyller kravene i forskrift 30. august 2016 nr. 1042 om skipsutstyr, anses å være i samsvar med kravene i forskriften her, uansett om det etter første ledd og i andre relevante forskrifter kreves at utstyret skal være godkjent, typegodkjent eller akseptert.</p>
-<p><em>Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2003 nr. 1787 (i kraft 1 jan 2004), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h2 id="kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</h2>
 <h4 id="11-ikrafttredelse">§ 11. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. mai 2000.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 12).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 12).</p>
 <h2 id="vedlegg-i">VEDLEGG I</h2>
 <p>Vedlegg I endret ved forskrifter 14 feb 2012 nr. 236 , 22 mai 2015 nr. 652 , 28 juni 2017 nr. 1146 (i kraft 1 juli 2017), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 26 juni 2025 nr. 1372 .</p>
 <h3 id="avsnitt-1sikkerhetskrav-for-nye-og-eksisterende-passasjerskip-i-innenriks-hvis-kjl-ble-strukket-eller-som-var-pa-et-tilsvarende-byggetrinn-fr-19-september-2021">AVSNITT 1SIKKERHETSKRAV FOR NYE OG EKSISTERENDE PASSASJERSKIP I INNENRIKS HVIS KJØL BLE STRUKKET, ELLER SOM VAR PÅ ET TILSVARENDE BYGGETRINN, FØR 19. SEPTEMBER 2021</h3>
@@ -2915,6 +3162,8 @@ d. separatorer for oppvarmet brennolje.</p>
 <p>25 Dersom det er mat tilgjengelig om bord, skal eldre og personer med nedsatt funksjonsevne ha muligheten til å få maten servert ved bordet. Bordene skal være designet på en slik måte at rullestolbrukere kan benytte dem uhindret.</p>
 <p>26 Førerhunder skal ha adgang til passasjerområdene, også områder der det serveres mat.</p>
 <p>27 Hvis passasjerene har tilgang til telefoner, skal minst én være tilgjengelig for rullestolbrukere og merket deretter. Skilt skal angi utstyr, installasjoner og fasiliteter egnet for personer med nedsatt funksjonsevne.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

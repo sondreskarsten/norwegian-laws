@@ -19,76 +19,283 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2009-01-09-2.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Markedsføringsloven – mfl" href="../feeds/lov-2009-01-09-2.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &rsaquo;
 <span>Markedsføringsloven – mfl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2009-01-09-2</code></dd>
-<dt>Departement</dt><dd>Barne- og familiedepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett &raquo; Finansielle tjenester\nEU/EØS-rett &raquo; Forbrukersaker\nForbruker-, kjøps- og konkurranserett &raquo; Markedsføring\nNæringsrett &raquo; Handel og tjenester</dd>
-<dt>Ikrafttredelse</dt><dd>2009-06-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-05-07-17</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2009-01-09-2" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-loven-gjelder">§ 1. Hva loven gjelder</a></li>
+<li class="lvl4"><a href="#2-god-markedsfringsskikk-mv">§ 2. God markedsføringsskikk mv.</a></li>
+<li class="lvl4"><a href="#3-dokumentasjon-av-markedsfring">§ 3. Dokumentasjon av markedsføring</a></li>
+<li class="lvl4"><a href="#4-lovens-stedlige-virkeomrade">§ 4. Lovens stedlige virkeområde</a></li>
+<li class="lvl4"><a href="#5-definisjoner">§ 5. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-handelspraksis-overfor-forbrukere">Kapittel 2. Handelspraksis overfor forbrukere</a></li>
+<li class="lvl4"><a href="#6-urimelig-handelspraksis">§ 6. Urimelig handelspraksis</a></li>
+<li class="lvl4"><a href="#7-villedende-handlinger">§ 7. Villedende handlinger</a></li>
+<li class="lvl4"><a href="#8-villedende-utelatelser">§ 8. Villedende utelatelser</a></li>
+<li class="lvl4"><a href="#9-aggressiv-handelspraksis">§ 9. Aggressiv handelspraksis</a></li>
+<li class="lvl4"><a href="#10-prismerking-og-informasjonsplikt-mm">§ 10. Prismerking og informasjonsplikt m.m.</a></li>
+<li class="lvl4"><a href="#10-a-informasjon-om-klageorgan-mv">§ 10 a. Informasjon om klageorgan mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-srlige-former-for-markedsfring-mv">Kapittel 3. Særlige former for markedsføring mv.</a></li>
+<li class="lvl4"><a href="#11-krav-om-betaling-for-varer-tjenester-eller-andre-ytelser-uten-etter-avtale-mv">§ 11. Krav om betaling for varer, tjenester eller andre ytelser uten etter avtale mv.</a></li>
+<li class="lvl4"><a href="#12-forbud-mot-telefonmarkedsfring-i-strid-med-reservasjon">§ 12. Forbud mot telefonmarkedsføring i strid med reservasjon</a></li>
+<li class="lvl4"><a href="#13-forbud-mot-markedsfring-ved-adressert-post-i-strid-med-reservasjon">§ 13. Forbud mot markedsføring ved adressert post i strid med reservasjon</a></li>
+<li class="lvl4"><a href="#13-a-felles-regler-for-reservasjon-mot-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 13 a. Felles regler for reservasjon mot telefonmarkedsføring og markedsføring ved adressert post</a></li>
+<li class="lvl4"><a href="#14-forbud-mot-telefonmarkedsfring-pa-enkelte-tidspunkter-og-a-ringe-fra-skjult-telefonnummer-mv">§ 14. Forbud mot telefonmarkedsføring på enkelte tidspunkter og å ringe fra skjult telefonnummer mv.</a></li>
+<li class="lvl4"><a href="#15-begrensninger-i-bruk-av-visse-kommunikasjonsmetoder">§ 15. Begrensninger i bruk av visse kommunikasjonsmetoder</a></li>
+<li class="lvl4"><a href="#16-opplysningsplikt-ved-uanmodet-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 16. Opplysningsplikt ved uanmodet telefonmarkedsføring og markedsføring ved adressert post</a></li>
+<li class="lvl4"><a href="#16-a-srskilt-om-frivillige-organisasjoners-virksomhet-som-ikke-skjer-i-nring">§ 16 a. Særskilt om frivillige organisasjoners virksomhet som ikke skjer i næring</a></li>
+<li class="lvl4"><a href="#17-levering-av-uadressert-reklame-og-gratis-aviser">§ 17. Levering av uadressert reklame og gratis aviser</a></li>
+<li class="lvl4"><a href="#17-a-begrensninger-ved-uanmodet-drsalg-mv">§ 17 a. Begrensninger ved uanmodet dørsalg mv.</a></li>
+<li class="lvl4"><a href="#18-tilleggsfordel-ved-markedsfring-til-forbrukere">§ 18. Tilleggsfordel ved markedsføring til forbrukere</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-beskyttelse-av-barn">Kapittel 4. Særlig om beskyttelse av barn</a></li>
+<li class="lvl4"><a href="#19-alminnelig-bestemmelse">§ 19. Alminnelig bestemmelse</a></li>
+<li class="lvl4"><a href="#20-urimelig-handelspraksis-overfor-barn">§ 20. Urimelig handelspraksis overfor barn</a></li>
+<li class="lvl4"><a href="#21-srlig-om-god-markedsfringsskikk-overfor-barn">§ 21. Særlig om god markedsføringsskikk overfor barn</a></li>
+<li class="lvl2"><a href="#kapittel-5-kontroll-med-avtalevilkar-mv">Kapittel 5. Kontroll med avtalevilkår mv.</a></li>
+<li class="lvl4"><a href="#22-urimelige-avtalevilkar">§ 22. Urimelige avtalevilkår</a></li>
+<li class="lvl4"><a href="#23-krav-til-garantivilkar-i-forbrukerforhold">§ 23. Krav til garantivilkår i forbrukerforhold</a></li>
+<li class="lvl4"><a href="#24-avgrensning-mot-konkurranseloven">§ 24. Avgrensning mot konkurranseloven</a></li>
+<li class="lvl2"><a href="#kapittel-6-beskyttelse-av-nringsdrivendes-interesser">Kapittel 6. Beskyttelse av næringsdrivendes interesser</a></li>
+<li class="lvl4"><a href="#25-god-forretningsskikk">§ 25. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#26-villedende-forretningsmetoder">§ 26. Villedende forretningsmetoder</a></li>
+<li class="lvl4"><a href="#27-utilstrekkelig-veiledning-mv">§ 27. Utilstrekkelig veiledning mv.</a></li>
+<li class="lvl4"><a href="#28-presentasjon-av-markedsfring">§ 28. Presentasjon av markedsføring</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl4"><a href="#30-etterligning-av-annens-produkt">§ 30. Etterligning av annens produkt</a></li>
+<li class="lvl4"><a href="#31-uriktige-geografiske-betegnelser-for-vin-og-brennevin">§ 31. Uriktige geografiske betegnelser for vin og brennevin</a></li>
+<li class="lvl2"><a href="#kapittel-7-handheving">Kapittel 7. Håndheving</a></li>
+<li class="lvl4"><a href="#32-myndighetene-og-deres-uavhengighet-mv">§ 32. Myndighetene og deres uavhengighet mv.</a></li>
+<li class="lvl4"><a href="#33-myndighetenes-organisering">§ 33. Myndighetenes organisering</a></li>
+<li class="lvl4"><a href="#34-opplysningsplikt-og-stedlig-kontroll-mv">§ 34. Opplysningsplikt og stedlig kontroll mv.</a></li>
+<li class="lvl4"><a href="#35-forbrukertilsynets-oppgaver">§ 35. Forbrukertilsynets oppgaver</a></li>
+<li class="lvl4"><a href="#36-forbrukertilsynets-saksbehandling-og-vedtakskompetanse">§ 36. Forbrukertilsynets saksbehandling og vedtakskompetanse</a></li>
+<li class="lvl4"><a href="#37-markedsradets-oppgaver-mv">§ 37. Markedsrådets oppgaver mv.</a></li>
+<li class="lvl4"><a href="#38-forskrift">§ 38. Forskrift</a></li>
+<li class="lvl4"><a href="#39-forbrukertilsynets-og-markedsradets-vedtak">§ 39. Forbrukertilsynets og Markedsrådets vedtak</a></li>
+<li class="lvl4"><a href="#40-forbuds-og-pabudsvedtak">§ 40. Forbuds- og påbudsvedtak</a></li>
+<li class="lvl4"><a href="#41-vedtak-om-tvangsmulkt">§ 41. Vedtak om tvangsmulkt</a></li>
+<li class="lvl4"><a href="#42-vedtak-om-overtredelsesgebyr">§ 42. Vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#43-palegg-om-fjerning-av-digitalt-nettinnhold-mv">§ 43. Pålegg om fjerning av digitalt nettinnhold mv.</a></li>
+<li class="lvl4"><a href="#43-a-midlertidig-forfyning-ved-palegg-etter-43">§ 43 a. Midlertidig forføyning ved pålegg etter § 43</a></li>
+<li class="lvl4"><a href="#43-b-rettens-avgjrelse-mv">§ 43 b. Rettens avgjørelse mv.</a></li>
+<li class="lvl4"><a href="#43-c-forholdet-til-tvistelovens-regler">§ 43 c. Forholdet til tvistelovens regler</a></li>
+<li class="lvl2"><a href="#kapittel-8-grenseoverskridende-handheving-mv">Kapittel 8. Grenseoverskridende håndheving mv.</a></li>
+<li class="lvl4"><a href="#44-virkeomrade">§ 44. Virkeområde</a></li>
+<li class="lvl4"><a href="#45-adgang-til-a-bringe-saker-inn-for-forbrukertilsynet-og-markedsradet">§ 45. Adgang til å bringe saker inn for Forbrukertilsynet og Markedsrådet</a></li>
+<li class="lvl4"><a href="#46-godkjenning-av-myndigheter-og-organisasjoner">§ 46. Godkjenning av myndigheter og organisasjoner</a></li>
+<li class="lvl4"><a href="#47-innlemmelse-av-forordning-om-samarbeid-mellom-nasjonale-myndigheter-med-ansvar-for-handheving-av-forbrukervernlovgivning">§ 47. Innlemmelse av forordning om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-9-straff-og-sivilrettslige-sanksjoner">Kapittel 9. Straff og sivilrettslige sanksjoner</a></li>
+<li class="lvl4"><a href="#48-straff">§ 48. Straff</a></li>
+<li class="lvl4"><a href="#48-a-straff-og-sivilrettslige-sanksjoner-ved-ulovlig-bruk-av-geografiske-betegnelser">§ 48 a. Straff og sivilrettslige sanksjoner ved ulovlig bruk av geografiske betegnelser</a></li>
+<li class="lvl4"><a href="#48-b-vederlag-og-erstatning-ved-overtredelse-av-visse-bestemmelser-ikapittel-6">§ 48 b. Vederlag og erstatning ved overtredelse av visse bestemmelser ikapittel 6</a></li>
+<li class="lvl4"><a href="#48-c-avhjelpende-tiltak-for-forbrukere">§ 48 c. Avhjelpende tiltak for forbrukere</a></li>
+<li class="lvl4"><a href="#49-straffeprosessuelle-regler">§ 49. Straffeprosessuelle regler</a></li>
+<li class="lvl2"><a href="#kapittel-10-ikraftsetting-oppheving-av-tidligere-lov-overgangsregler-og-endringer-i-andre-lover">Kapittel 10. Ikraftsetting, oppheving av tidligere lov, overgangsregler og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#50-ikraftsetting-oppheving-av-tidligere-lov-og-overgangsregler">§ 50. Ikraftsetting, oppheving av tidligere lov og overgangsregler</a></li>
+<li class="lvl4"><a href="#51-endringer-i-andre-lover">§ 51. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#europaparlaments-og-radsforordningeu-20172394">Europaparlaments- og rådsforordning(EU) 2017/2394</a></li>
+<li class="lvl3"><a href="#europaparlaments-og-radsforordningeu-20172394av-12-desember-2017om-samarbeid-mellom-nasjonale-myndigheter-med-ansvar-for-handheving-av-forbrukervernlovgivning-og-om-oppheving-av-forordningef-nr-20062004">Europaparlaments- og rådsforordning(EU) 2017/2394av 12. desember 2017om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning og om oppheving av forordning(EF) nr. 2006/2004</a></li>
+<li class="lvl4"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl4"><a href="#kapittel-iivedkommende-myndigheter-og-deres-myndighet">Kapittel IIVedkommende myndigheter og deres myndighet</a></li>
+<li class="lvl4"><a href="#kapittel-iiiordning-for-gjensidig-bistand">Kapittel IIIOrdning for gjensidig bistand</a></li>
+<li class="lvl4"><a href="#kapittel-ivsamordnede-underskelses-og-handhevingsordninger-for-utbredte-overtredelser-og-for-utbredte-overtredelser-med-unionsdimensjon">Kapittel IVSamordnede undersøkelses- og håndhevingsordninger for utbredte overtredelser og for utbredte overtredelser med unionsdimensjon</a></li>
+<li class="lvl4"><a href="#kapittel-vunionsomfattende-virksomhet">Kapittel VUnionsomfattende virksomhet</a></li>
+<li class="lvl4"><a href="#kapittel-vifelles-ordninger">Kapittel VIFelles ordninger</a></li>
+<li class="lvl4"><a href="#kapittel-viisluttbestemmelser">Kapittel VIISluttbestemmelser</a></li>
+<li class="lvl4"><a href="#vedleggdirektiver-og-forordninger-nevnt-i-artikkel-3-nr-1">VedleggDirektiver og forordninger nevnt i artikkel 3 nr. 1</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-05-07-17.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-01-09-2.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om kontroll med markedsføring og avtalevilkår mv. (markedsføringsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2009-01-09-2.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2009-01-09-2 <code>lov/2009-01-09-2</code></td></tr>
+<tr><th>Korttittel</th><td>Markedsføringsloven – mfl</td></tr>
+<tr><th>Departement</th><td>Barne- og familiedepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett &raquo; Finansielle tjenester\nEU/EØS-rett &raquo; Forbrukersaker\nForbruker-, kjøps- og konkurranserett &raquo; Markedsføring\nNæringsrett &raquo; Handel og tjenester</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2009</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-05-07-17 <code>lov/2026-05-07-17</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2009-01-09-2" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-loven-gjelder">§ 1. Hva loven gjelder</a></li>
+<li class="lvl4"><a href="#2-god-markedsfringsskikk-mv">§ 2. God markedsføringsskikk mv.</a></li>
+<li class="lvl4"><a href="#3-dokumentasjon-av-markedsfring">§ 3. Dokumentasjon av markedsføring</a></li>
+<li class="lvl4"><a href="#4-lovens-stedlige-virkeomrade">§ 4. Lovens stedlige virkeområde</a></li>
+<li class="lvl4"><a href="#5-definisjoner">§ 5. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-handelspraksis-overfor-forbrukere">Kapittel 2. Handelspraksis overfor forbrukere</a></li>
+<li class="lvl4"><a href="#6-urimelig-handelspraksis">§ 6. Urimelig handelspraksis</a></li>
+<li class="lvl4"><a href="#7-villedende-handlinger">§ 7. Villedende handlinger</a></li>
+<li class="lvl4"><a href="#8-villedende-utelatelser">§ 8. Villedende utelatelser</a></li>
+<li class="lvl4"><a href="#9-aggressiv-handelspraksis">§ 9. Aggressiv handelspraksis</a></li>
+<li class="lvl4"><a href="#10-prismerking-og-informasjonsplikt-mm">§ 10. Prismerking og informasjonsplikt m.m.</a></li>
+<li class="lvl4"><a href="#10-a-informasjon-om-klageorgan-mv">§ 10 a. Informasjon om klageorgan mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-srlige-former-for-markedsfring-mv">Kapittel 3. Særlige former for markedsføring mv.</a></li>
+<li class="lvl4"><a href="#11-krav-om-betaling-for-varer-tjenester-eller-andre-ytelser-uten-etter-avtale-mv">§ 11. Krav om betaling for varer, tjenester eller andre ytelser uten etter avtale mv.</a></li>
+<li class="lvl4"><a href="#12-forbud-mot-telefonmarkedsfring-i-strid-med-reservasjon">§ 12. Forbud mot telefonmarkedsføring i strid med reservasjon</a></li>
+<li class="lvl4"><a href="#13-forbud-mot-markedsfring-ved-adressert-post-i-strid-med-reservasjon">§ 13. Forbud mot markedsføring ved adressert post i strid med reservasjon</a></li>
+<li class="lvl4"><a href="#13-a-felles-regler-for-reservasjon-mot-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 13 a. Felles regler for reservasjon mot telefonmarkedsføring og markedsføring ved adressert post</a></li>
+<li class="lvl4"><a href="#14-forbud-mot-telefonmarkedsfring-pa-enkelte-tidspunkter-og-a-ringe-fra-skjult-telefonnummer-mv">§ 14. Forbud mot telefonmarkedsføring på enkelte tidspunkter og å ringe fra skjult telefonnummer mv.</a></li>
+<li class="lvl4"><a href="#15-begrensninger-i-bruk-av-visse-kommunikasjonsmetoder">§ 15. Begrensninger i bruk av visse kommunikasjonsmetoder</a></li>
+<li class="lvl4"><a href="#16-opplysningsplikt-ved-uanmodet-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 16. Opplysningsplikt ved uanmodet telefonmarkedsføring og markedsføring ved adressert post</a></li>
+<li class="lvl4"><a href="#16-a-srskilt-om-frivillige-organisasjoners-virksomhet-som-ikke-skjer-i-nring">§ 16 a. Særskilt om frivillige organisasjoners virksomhet som ikke skjer i næring</a></li>
+<li class="lvl4"><a href="#17-levering-av-uadressert-reklame-og-gratis-aviser">§ 17. Levering av uadressert reklame og gratis aviser</a></li>
+<li class="lvl4"><a href="#17-a-begrensninger-ved-uanmodet-drsalg-mv">§ 17 a. Begrensninger ved uanmodet dørsalg mv.</a></li>
+<li class="lvl4"><a href="#18-tilleggsfordel-ved-markedsfring-til-forbrukere">§ 18. Tilleggsfordel ved markedsføring til forbrukere</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-beskyttelse-av-barn">Kapittel 4. Særlig om beskyttelse av barn</a></li>
+<li class="lvl4"><a href="#19-alminnelig-bestemmelse">§ 19. Alminnelig bestemmelse</a></li>
+<li class="lvl4"><a href="#20-urimelig-handelspraksis-overfor-barn">§ 20. Urimelig handelspraksis overfor barn</a></li>
+<li class="lvl4"><a href="#21-srlig-om-god-markedsfringsskikk-overfor-barn">§ 21. Særlig om god markedsføringsskikk overfor barn</a></li>
+<li class="lvl2"><a href="#kapittel-5-kontroll-med-avtalevilkar-mv">Kapittel 5. Kontroll med avtalevilkår mv.</a></li>
+<li class="lvl4"><a href="#22-urimelige-avtalevilkar">§ 22. Urimelige avtalevilkår</a></li>
+<li class="lvl4"><a href="#23-krav-til-garantivilkar-i-forbrukerforhold">§ 23. Krav til garantivilkår i forbrukerforhold</a></li>
+<li class="lvl4"><a href="#24-avgrensning-mot-konkurranseloven">§ 24. Avgrensning mot konkurranseloven</a></li>
+<li class="lvl2"><a href="#kapittel-6-beskyttelse-av-nringsdrivendes-interesser">Kapittel 6. Beskyttelse av næringsdrivendes interesser</a></li>
+<li class="lvl4"><a href="#25-god-forretningsskikk">§ 25. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#26-villedende-forretningsmetoder">§ 26. Villedende forretningsmetoder</a></li>
+<li class="lvl4"><a href="#27-utilstrekkelig-veiledning-mv">§ 27. Utilstrekkelig veiledning mv.</a></li>
+<li class="lvl4"><a href="#28-presentasjon-av-markedsfring">§ 28. Presentasjon av markedsføring</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl4"><a href="#30-etterligning-av-annens-produkt">§ 30. Etterligning av annens produkt</a></li>
+<li class="lvl4"><a href="#31-uriktige-geografiske-betegnelser-for-vin-og-brennevin">§ 31. Uriktige geografiske betegnelser for vin og brennevin</a></li>
+<li class="lvl2"><a href="#kapittel-7-handheving">Kapittel 7. Håndheving</a></li>
+<li class="lvl4"><a href="#32-myndighetene-og-deres-uavhengighet-mv">§ 32. Myndighetene og deres uavhengighet mv.</a></li>
+<li class="lvl4"><a href="#33-myndighetenes-organisering">§ 33. Myndighetenes organisering</a></li>
+<li class="lvl4"><a href="#34-opplysningsplikt-og-stedlig-kontroll-mv">§ 34. Opplysningsplikt og stedlig kontroll mv.</a></li>
+<li class="lvl4"><a href="#35-forbrukertilsynets-oppgaver">§ 35. Forbrukertilsynets oppgaver</a></li>
+<li class="lvl4"><a href="#36-forbrukertilsynets-saksbehandling-og-vedtakskompetanse">§ 36. Forbrukertilsynets saksbehandling og vedtakskompetanse</a></li>
+<li class="lvl4"><a href="#37-markedsradets-oppgaver-mv">§ 37. Markedsrådets oppgaver mv.</a></li>
+<li class="lvl4"><a href="#38-forskrift">§ 38. Forskrift</a></li>
+<li class="lvl4"><a href="#39-forbrukertilsynets-og-markedsradets-vedtak">§ 39. Forbrukertilsynets og Markedsrådets vedtak</a></li>
+<li class="lvl4"><a href="#40-forbuds-og-pabudsvedtak">§ 40. Forbuds- og påbudsvedtak</a></li>
+<li class="lvl4"><a href="#41-vedtak-om-tvangsmulkt">§ 41. Vedtak om tvangsmulkt</a></li>
+<li class="lvl4"><a href="#42-vedtak-om-overtredelsesgebyr">§ 42. Vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#43-palegg-om-fjerning-av-digitalt-nettinnhold-mv">§ 43. Pålegg om fjerning av digitalt nettinnhold mv.</a></li>
+<li class="lvl4"><a href="#43-a-midlertidig-forfyning-ved-palegg-etter-43">§ 43 a. Midlertidig forføyning ved pålegg etter § 43</a></li>
+<li class="lvl4"><a href="#43-b-rettens-avgjrelse-mv">§ 43 b. Rettens avgjørelse mv.</a></li>
+<li class="lvl4"><a href="#43-c-forholdet-til-tvistelovens-regler">§ 43 c. Forholdet til tvistelovens regler</a></li>
+<li class="lvl2"><a href="#kapittel-8-grenseoverskridende-handheving-mv">Kapittel 8. Grenseoverskridende håndheving mv.</a></li>
+<li class="lvl4"><a href="#44-virkeomrade">§ 44. Virkeområde</a></li>
+<li class="lvl4"><a href="#45-adgang-til-a-bringe-saker-inn-for-forbrukertilsynet-og-markedsradet">§ 45. Adgang til å bringe saker inn for Forbrukertilsynet og Markedsrådet</a></li>
+<li class="lvl4"><a href="#46-godkjenning-av-myndigheter-og-organisasjoner">§ 46. Godkjenning av myndigheter og organisasjoner</a></li>
+<li class="lvl4"><a href="#47-innlemmelse-av-forordning-om-samarbeid-mellom-nasjonale-myndigheter-med-ansvar-for-handheving-av-forbrukervernlovgivning">§ 47. Innlemmelse av forordning om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-9-straff-og-sivilrettslige-sanksjoner">Kapittel 9. Straff og sivilrettslige sanksjoner</a></li>
+<li class="lvl4"><a href="#48-straff">§ 48. Straff</a></li>
+<li class="lvl4"><a href="#48-a-straff-og-sivilrettslige-sanksjoner-ved-ulovlig-bruk-av-geografiske-betegnelser">§ 48 a. Straff og sivilrettslige sanksjoner ved ulovlig bruk av geografiske betegnelser</a></li>
+<li class="lvl4"><a href="#48-b-vederlag-og-erstatning-ved-overtredelse-av-visse-bestemmelser-ikapittel-6">§ 48 b. Vederlag og erstatning ved overtredelse av visse bestemmelser ikapittel 6</a></li>
+<li class="lvl4"><a href="#48-c-avhjelpende-tiltak-for-forbrukere">§ 48 c. Avhjelpende tiltak for forbrukere</a></li>
+<li class="lvl4"><a href="#49-straffeprosessuelle-regler">§ 49. Straffeprosessuelle regler</a></li>
+<li class="lvl2"><a href="#kapittel-10-ikraftsetting-oppheving-av-tidligere-lov-overgangsregler-og-endringer-i-andre-lover">Kapittel 10. Ikraftsetting, oppheving av tidligere lov, overgangsregler og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#50-ikraftsetting-oppheving-av-tidligere-lov-og-overgangsregler">§ 50. Ikraftsetting, oppheving av tidligere lov og overgangsregler</a></li>
+<li class="lvl4"><a href="#51-endringer-i-andre-lover">§ 51. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#europaparlaments-og-radsforordningeu-20172394">Europaparlaments- og rådsforordning(EU) 2017/2394</a></li>
+<li class="lvl3"><a href="#europaparlaments-og-radsforordningeu-20172394av-12-desember-2017om-samarbeid-mellom-nasjonale-myndigheter-med-ansvar-for-handheving-av-forbrukervernlovgivning-og-om-oppheving-av-forordningef-nr-20062004">Europaparlaments- og rådsforordning(EU) 2017/2394av 12. desember 2017om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning og om oppheving av forordning(EF) nr. 2006/2004</a></li>
+<li class="lvl4"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl4"><a href="#kapittel-iivedkommende-myndigheter-og-deres-myndighet">Kapittel IIVedkommende myndigheter og deres myndighet</a></li>
+<li class="lvl4"><a href="#kapittel-iiiordning-for-gjensidig-bistand">Kapittel IIIOrdning for gjensidig bistand</a></li>
+<li class="lvl4"><a href="#kapittel-ivsamordnede-underskelses-og-handhevingsordninger-for-utbredte-overtredelser-og-for-utbredte-overtredelser-med-unionsdimensjon">Kapittel IVSamordnede undersøkelses- og håndhevingsordninger for utbredte overtredelser og for utbredte overtredelser med unionsdimensjon</a></li>
+<li class="lvl4"><a href="#kapittel-vunionsomfattende-virksomhet">Kapittel VUnionsomfattende virksomhet</a></li>
+<li class="lvl4"><a href="#kapittel-vifelles-ordninger">Kapittel VIFelles ordninger</a></li>
+<li class="lvl4"><a href="#kapittel-viisluttbestemmelser">Kapittel VIISluttbestemmelser</a></li>
+<li class="lvl4"><a href="#vedleggdirektiver-og-forordninger-nevnt-i-artikkel-3-nr-1">VedleggDirektiver og forordninger nevnt i artikkel 3 nr. 1</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-01-09-2.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2009-01-09-2.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-01-09-2.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2009-01-09-2.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2009-01-09-2.html">Observerte kildeutgaver</a> · <a href="../historie/markedsføringsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2009-01-09-2.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2009-01-09-2.html">Observerte kildeutgaver</a> · <a href="../historie/markedsføringsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2009-01-09-2.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-kontroll-med-markedsfring-og-avtalevilkar-mv-markedsfringsloven">Lov om kontroll med markedsføring og avtalevilkår mv. (markedsføringsloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-hva-loven-gjelder">§ 1. Hva loven gjelder</h4>
 <p>Når ikke annet er bestemt, gjelder loven kontroll med markedsføring, handelspraksis og avtalevilkår i forbrukerforhold og stiller krav til god forretningsskikk mellom næringsdrivende.</p>
-<p><em>Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="2-god-markedsfringsskikk-mv">§ 2. God markedsføringsskikk mv.</h4>
 <p>Markedsføring må ikke stride mot god markedsføringsskikk. Ved vurderingen legges det vekt på om markedsføringen krenker allmenne etikk- og moraloppfatninger, eller om det tas i bruk støtende virkemidler.</p>
 <p>Annonsør og den som utformer reklame, skal sørge for at reklamen ikke er i strid med likeverdet mellom kjønnene, og at den ikke utnytter det ene kjønns kropp eller gir inntrykk av en støtende eller nedsettende vurdering av kvinne eller mann. Annonsør og den som utformer reklame, skal videre sørge for at reklamen der en kropps fasong, størrelse eller hud er endret ved retusjering eller annen manipulering, skal merkes. Departementet gir i forskrift nærmere bestemmelser om hvordan reklamen skal merkes, og om unntak fra merkeplikten.</p>
 <p>Ved vurderingen av om første eller annet ledd er overtrådt, legges det vekt på om markedsføringen, på grunn av utforming, format, omfang eller andre virkemidler, fremstår som særlig påtrengende.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</p>
 <h4 id="3-dokumentasjon-av-markedsfring">§ 3. Dokumentasjon av markedsføring</h4>
 <p>Påstander i markedsføring om faktiske forhold, herunder om ytelsers egenskaper eller virkning, skal kunne dokumenteres. Dokumentasjonen skal foreligge på annonsørens hånd når markedsføringen skjer.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="4-lovens-stedlige-virkeomrade">§ 4. Lovens stedlige virkeområde</h4>
 <p>Loven gjelder for handlinger og vilkår som er rettet mot forbrukere eller næringsdrivende her i riket, med de begrensninger som følger av annen lovgivning.</p>
 <p>Med unntak av kapittel 6 gjelder loven også for handlinger og vilkår som har virkning i utlandet, når de er ulovlige også etter lovgivningen i landet der de har virkning.</p>
@@ -100,7 +307,7 @@ b. næringsdrivende: en fysisk eller juridisk person som utøver næringsvirksom
 c. ytelse: vare, tjeneste, fast eiendom, rettigheter og forpliktelser,
 d. handelspraksis: enhver handling, utelatelse, atferd eller framstilling, kommersiell kommunikasjon, herunder reklame og markedsføring, fra en næringsdrivendes side, som er direkte knyttet til å fremme salget av, selge eller levere en ytelse til forbrukerne,
 e. garanti: enhver forpliktelse som den næringsdrivende har påtatt seg overfor forbrukeren i forbindelse med omsetning av varer, tjenester eller andre ytelser som gir forbrukeren rettigheter i tillegg til rettighetene forbrukeren ellers har.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-2-handelspraksis-overfor-forbrukere">Kapittel 2. Handelspraksis overfor forbrukere</h2>
 <h4 id="6-urimelig-handelspraksis">§ 6. Urimelig handelspraksis</h4>
 <p>Urimelig handelspraksis er forbudt.</p>
@@ -122,7 +329,7 @@ h. den næringsdrivendes forpliktelse til å følge bransjenormer.</p>
 <p>a. markedsføringen av en ytelse, herunder sammenlignende reklame, forårsaker forveksling med en konkurrents ytelse eller varemerke, handelsnavn eller andre kjennetegn
 b. en vare markedsføres som identisk med en vare som markedsføres i andre EU/EØS-stater, når disse varenes sammensetning eller egenskaper skiller seg vesentlig fra hverandre, med mindre det er begrunnet ut fra legitime og objektive faktorer.</p>
 <p>Praksisen anses likevel bare som villedende dersom den er egnet til å påvirke forbrukerne til å treffe en økonomisk beslutning som de ellers ikke ville ha truffet.</p>
-<p><em>Endret ved lover 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 14 juni 2024 nr. 32 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 956 ). Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 14 juni 2024 nr. 32 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 956 ). Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="8-villedende-utelatelser">§ 8. Villedende utelatelser</h4>
 <p>En handelspraksis er villedende dersom den, i sin konkrete sammenheng og etter en helhetsvurdering, utelater eller skjuler vesentlige opplysninger som forbrukerne ut fra sammenhengen trenger for å kunne ta en informert økonomisk beslutning eller presenterer opplysningene på en uklar, uforståelig, tvetydig eller uhensiktsmessig måte. En handelspraksis er også villedende dersom det ikke tydelig opplyses om at handelspraksisen har et kommersielt formål og dette ikke allerede fremgår tydelig av sammenhengen. Ved vurderingen av om opplysninger er utelatt, skal det tas i betraktning plass- eller tidsmessige begrensninger ved mediet som brukes til å formidle handelspraksisen, og eventuelle tiltak fra den næringsdrivende for å gjøre opplysningene tilgjengelige for forbrukerne på annen måte.</p>
 <p>Praksisen anses likevel bare som villedende dersom den er egnet til å påvirke forbrukerne til å treffe en økonomisk beslutning som de ellers ikke ville ha truffet.</p>
@@ -136,7 +343,7 @@ f. for ytelser som tilbys på nettbaserte markedsplasser, om tredjeparten som ti
 <p>Med oppfordring til kjøp menes en kommersiell kommunikasjon som angir ytelsens egenskaper og pris på en egnet måte for den anvendte kommersielle kommunikasjonen og dermed setter forbrukerne i stand til å foreta et kjøp.</p>
 <p>Dersom forbrukere i et nettbasert grensesnitt gis mulighet til å søke etter ytelser som tilbys av ulike næringsdrivende eller forbrukere, anses generelle opplysninger om hovedparametrene som avgjør rangeringen av produktene som presenteres for forbrukeren som et resultat av søket, som vesentlige. Det samme gjelder opplysninger om den relative betydningen av disse parametrene sammenlignet med andre parametrer. Opplysningene skal gjøres tilgjengelige i en særskilt del av det nettbaserte grensesnittet som er direkte og lett tilgjengelig fra siden der søkeresultatene presenteres. Første til tredje punktum gjelder ikke for leverandører av nettbaserte søkemotorer som definert i artikkel 2 nr. 6 i forordning om rimelig forretningspraksis på plattformer (EU) 2019/1150 .</p>
 <p>Når en næringsdrivende gir forbrukere tilgang til forbrukeromtaler av ytelser, anses opplysninger om hvorvidt og hvordan den næringsdrivende sikrer at de publiserte omtalene stammer fra forbrukere som faktisk har brukt eller kjøpt ytelsene, som vesentlige.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ). Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ). Endres ved lov 19 juni 2026 nr. 34 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="9-aggressiv-handelspraksis">§ 9. Aggressiv handelspraksis</h4>
 <p>En handelspraksis er aggressiv dersom den, i sin konkrete sammenheng og etter en helhetsvurdering, ved trakassering, tvang, herunder bruk av fysisk makt, eller utilbørlig påvirkning er egnet til vesentlig å begrense forbrukernes valgmuligheter eller atferd i forbindelse med en ytelse. Med utilbørlig påvirkning menes utnytting av en maktposisjon i forhold til forbrukere for å utøve press, også når det ikke trues med eller brukes fysisk makt, på en måte som vesentlig reduserer forbrukernes evne til å treffe en informert beslutning.</p>
 <p>Ved vurderingen av om en handelspraksis er aggressiv, skal det tas hensyn til</p>
@@ -153,11 +360,11 @@ e. enhver trussel om handlinger som er ulovlige.</p>
 <p>a. påby merking, oppslag eller annen underretning om pris, forretningsvilkår, kvalitet og andre egenskaper,
 b. gi påbud om sortering og bestemmelser om mål og vekt og opplysning om pris pr. enhet (jamførpris) for varer som frambys for salg,
 c. gi påbud om å opplyse om førpris der prisen på varer markedsføres som nedsatt.</p>
-<p><em>Endret ved lover 2 juni 2017 nr. 32 (ikr. 1 juli 2017 iflg. res. 2 juni 2017 nr. 683 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Endret ved lover 2 juni 2017 nr. 32 (ikr. 1 juli 2017 iflg. res. 2 juni 2017 nr. 683 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="10-a-informasjon-om-klageorgan-mv">§ 10 a. Informasjon om klageorgan mv.</h4>
 <p>Næringsdrivende skal på en klar og forståelig måte gi informasjon til forbrukere om klageorgan som kan behandle en sak mellom partene, og som er innmeldt i henhold til <a href="lov-2016-06-17-29.html">godkjenningsloven</a> § 25 . Informasjonen skal vise til klageorganenes hjemmesider på Internett. Informasjonen skal som et minimum gis i de generelle avtalevilkårene, hvor slike foreligger, og på den næringsdrivendes hjemmeside på Internett, hvor slik finnes. Informasjonen skal være lett tilgjengelig på hjemmesiden.</p>
 <p>Næringsdrivende skal informere forbrukeren i henhold til første ledd når det oppstår sak mellom partene, og det er klart at partene selv ikke kommer til en minnelig løsning. Informasjonen skal gis skriftlig eller på annet varig medium. Med varig medium forstås enhver innretning som gjør forbrukerne i stand til å lagre opplysninger på en slik måte at opplysningene i fremtiden er tilgjengelig i uendret form.</p>
-<p><em>Tilføyd ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 og 25 aug 2017 for tredje ledd iflg. res. 25 aug 2017 nr. 1287 ), endret ved lover 23 juni 2020 nr. 98 (ikr. 1 jan 2021 iflg. res. 23 juni 2020 nr. 1285 ), 20 juni 2025 nr. 41 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1097 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 og 25 aug 2017 for tredje ledd iflg. res. 25 aug 2017 nr. 1287 ), endret ved lover 23 juni 2020 nr. 98 (ikr. 1 jan 2021 iflg. res. 23 juni 2020 nr. 1285 ), 20 juni 2025 nr. 41 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1097 ).</p>
 <h2 id="kapittel-3-srlige-former-for-markedsfring-mv">Kapittel 3. Særlige former for markedsføring mv.</h2>
 <h4 id="11-krav-om-betaling-for-varer-tjenester-eller-andre-ytelser-uten-etter-avtale-mv">§ 11. Krav om betaling for varer, tjenester eller andre ytelser uten etter avtale mv.</h4>
 <p>I næringsvirksomhet er det forbudt</p>
@@ -167,30 +374,30 @@ b. å levere varer, tjenester eller andre ytelser med krav om betaling uten ette
 <p>I næringsvirksomhet er det forbudt å henvise forbrukere som skal ta kontakt med den næringsdrivende i forbindelse med en inngått avtale, til et telefonnummer som belaster forbrukeren med en høyere kostnad enn grunntakst.</p>
 <p>Før en avtale blir inngått, skal den næringsdrivende innhente forbrukerens uttrykkelige samtykke til enhver betaling utover vederlaget for hovedytelsen. Dersom slikt samtykke ikke er innhentet, men er lagt til grunn ved bruk av standardløsninger som forbrukeren må velge bort for å unngå tilleggsbetaling, har forbrukeren rett til å få tilbakeført tilleggsbetalingen.</p>
 <p>Departementet kan ved forskrift gi nærmere bestemmelser om krav til dokumentasjon og oppbevaring av dokumentasjon for inngåtte avtaler.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</p>
 <h4 id="12-forbud-mot-telefonmarkedsfring-i-strid-med-reservasjon">§ 12. Forbud mot telefonmarkedsføring i strid med reservasjon</h4>
 <p>I næringsvirksomhet er det forbudt å rette telefonmarkedsføring mot forbrukere som har reservert seg mot slik markedsføring i Reservasjonsregisteret.</p>
 <p>I næringsvirksomhet er det forbudt å rette telefonmarkedsføring mot fysiske personer som har reservert seg mot slik markedsføring direkte hos den næringsdrivende.</p>
 <p>Det er likevel tillatt å rette telefonmarkedsføring mot fysiske personer som har reservert seg etter første eller annet ledd, dersom den fysiske personen har rettet en uttrykkelig anmodning til en bestemt næringsdrivende om å motta slik markedsføring fra den næringsdrivende. Anmodningen kan når som helst trekkes tilbake.</p>
 <p>Det er også tillatt å rette telefonmarkedsføring mot forbrukere som har reservert seg mot slik markedsføring i Reservasjonsregisteret, dersom det foreligger et eksisterende kunde- eller giverforhold og der den næringsdrivende har mottatt forbrukerens kontaktopplysninger i forbindelse med salg eller innsamling. Slik markedsføring kan bare gjelde næringsdrivendes egne ytelser tilsvarende dem som kunde- eller giverforholdet bygger på.</p>
 <p>For frivillige organisasjoner skal et eksisterende giverforhold også anses å foreligge dersom giveren etter første bidrag har samtykket til eller bedt om å bli kontaktet ved en senere anledning, eller giveren innenfor en treårsperiode har ytet sporadiske bidrag.</p>
-<p><em>Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="13-forbud-mot-markedsfring-ved-adressert-post-i-strid-med-reservasjon">§ 13. Forbud mot markedsføring ved adressert post i strid med reservasjon</h4>
 <p>I næringsvirksomhet er det forbudt å rette markedsføring ved adressert post mot forbrukere som har reservert seg mot slik markedsføring i Reservasjonsregisteret.</p>
 <p>I næringsvirksomhet er det forbudt å rette markedsføring ved adressert post mot fysiske personer som har reservert seg mot slik markedsføring direkte hos den næringsdrivende.</p>
 <p>Det er likevel tillatt å rette markedsføring ved adressert post mot fysiske personer som har reservert seg etter første eller annet ledd, dersom den fysiske personen har rettet en uttrykkelig anmodning til næringsdrivende om å motta slik markedsføring fra den næringsdrivende. Anmodningen kan når som helst trekkes tilbake.</p>
 <p>Det er også tillatt å rette markedsføring ved adressert post mot forbrukere som har reservert seg mot slik markedsføring i Reservasjonsregisteret, dersom det foreligger et eksisterende kunde- eller giverforhold der den næringsdrivende har mottatt forbrukerens kontaktopplysninger i forbindelse med salg eller innsamling. Slik markedsføring kan bare gjelde næringsdrivendes egne ytelser tilsvarende dem som kunde- eller giverforholdet bygger på.</p>
-<p><em>Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="13-a-felles-regler-for-reservasjon-mot-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 13 a. Felles regler for reservasjon mot telefonmarkedsføring og markedsføring ved adressert post</h4>
 <p>Reservasjonsregisteret skal legge til rette for at forbrukere skal kunne velge å reservere seg kun mot markedsføring fra andre enn frivillige organisasjoner.</p>
 <p>Næringsdrivende skal oppdatere sitt adresseregister mot Reservasjonsregisteret før første gangs henvendelse og før henvendelse den måned markedsføring utføres.</p>
 <p>Næringsdrivende skal sørge for at fysiske personer enkelt og gebyrfritt skal kunne reservere seg mot markedsføring direkte hos den næringsdrivende.</p>
 <p>Departementet kan ved forskrift gi nærmere regler om Reservasjonsregisteret og direkte reservasjon hos den næringsdrivende.</p>
-<p><em>Tilføyd ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Tilføyd ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="14-forbud-mot-telefonmarkedsfring-pa-enkelte-tidspunkter-og-a-ringe-fra-skjult-telefonnummer-mv">§ 14. Forbud mot telefonmarkedsføring på enkelte tidspunkter og å ringe fra skjult telefonnummer mv.</h4>
 <p>I næringsvirksomhet er det forbudt å rette telefonmarkedsføring til forbrukere på lørdager, helgedager eller dager som i lov er likestilt med helgedager, og på virkedager før kl. 09.00 og etter kl. 21.00.</p>
 <p>I næringsvirksomhet er det forbudt å rette telefonmarkedsføring til forbrukere fra skjult telefonnummer og fra telefonnummer som ikke er registrert og søkbart i nummeropplysningstjenestene.</p>
-<p><em>Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="15-begrensninger-i-bruk-av-visse-kommunikasjonsmetoder">§ 15. Begrensninger i bruk av visse kommunikasjonsmetoder</h4>
 <p>I næringsvirksomhet er det forbudt, uten mottakerens forutgående samtykke, å rette markedsføringshenvendelser til fysiske personer ved elektroniske kommunikasjonsmetoder som tillater individuell kommunikasjon, som for eksempel elektronisk post, telefaks eller automatisert oppringningssystem (talemaskin).</p>
 <p>Krav om forhåndssamtykke etter første ledd gjelder likevel ikke for markedsføring der den fysiske personen kontaktes muntlig ved telefon.</p>
@@ -200,26 +407,26 @@ b. å levere varer, tjenester eller andre ytelser med krav om betaling uten ette
 <h4 id="16-opplysningsplikt-ved-uanmodet-telefonmarkedsfring-og-markedsfring-ved-adressert-post">§ 16. Opplysningsplikt ved uanmodet telefonmarkedsføring og markedsføring ved adressert post</h4>
 <p>Ved uanmodet telefonmarkedsføring eller markedsføring ved adressert post skal den næringsdrivende opplyse hvem som har gitt personopplysningene som ligger til grunn for henvendelsen. Der det er relevant, skal den næringsdrivende informere om retten til å reservere seg i Reservasjonsregisteret og direkte hos den næringsdrivende.</p>
 <p>Ved uanmodet telefonmarkedsføring til forbrukere skal den næringsdrivende straks presentere seg og opplyse om at henvendelsen skjer i markedsføringshensikt. Dersom henvendelsen skjer på vegne av en annen, skal dette opplyses.</p>
-<p><em>Endret ved lover 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ).</p>
 <h4 id="16-a-srskilt-om-frivillige-organisasjoners-virksomhet-som-ikke-skjer-i-nring">§ 16 a. Særskilt om frivillige organisasjoners virksomhet som ikke skjer i næring</h4>
 <p>Der frivillige organisasjoners virksomhet ikke reguleres av lovens alminnelige regler, gjelder følgende:</p>
 <p>a. Fysiske personer kan reservere seg mot frivillige organisasjoners innsamlinger ved telefonmarkedsføring og markedsføring ved adressert post. Reglene for telefonmarkedsføring og markedsføring ved adressert post i § 12 , § 13 , § 13 a annet til fjerde ledd, § 14 og § 16 gjelder tilsvarende for frivillige organisasjoners innsamlinger.
 b. Det er forbudt for frivillige organisasjoner å sende en forespørsel om økonomisk støtte til fysiske personer som er egnet til å bli oppfattet som et krav om betaling.</p>
 <p>Departementet kan ved forskrift gi nærmere regler om utformingen av forespørsler om å gi økonomisk støtte.</p>
-<p><em>Tilføyd ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Tilføyd ved lov 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="17-levering-av-uadressert-reklame-og-gratis-aviser">§ 17. Levering av uadressert reklame og gratis aviser</h4>
 <p>I næringsvirksomhet er det forbudt å levere ut eller å gi en formidler i oppdrag å levere ut uadressert reklame eller gratis aviser til forbrukere som klart har tilkjennegitt at de motsetter seg dette. En formidler er likevel ikke ansvarlig for leveringen hvis formidleren har fått opplyst, og har grunn til å anta, at det som leveres ut, ikke er reklame eller gratis avis.</p>
 <p>Innstikk i aviser og andre trykksaker, som er omfattet av redaktøransvaret, anses ikke som uadressert reklame eller gratis avis etter denne bestemmelsen.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 43 (ikr. 1 juli 2009 iflg. res. 19 juni 2009 nr. 821 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 43 (ikr. 1 juli 2009 iflg. res. 19 juni 2009 nr. 821 ).</p>
 <h4 id="17-a-begrensninger-ved-uanmodet-drsalg-mv">§ 17 a. Begrensninger ved uanmodet dørsalg mv.</h4>
 <p>Det skal i næringsvirksomhet ikke rettes markedsføringshenvendelser ved hjemmebesøk (dørsalg) til forbrukere som klart har tilkjennegitt at de motsetter seg dette.</p>
 <p>I næringsvirksomhet skal uanmodet dørsalg til forbrukere ikke finne sted i tidsrommet fra kl. 21.00 til kl. 09.00. Slikt dørsalg skal i næringsvirksomhet heller ikke finne sted på lørdager, helgedager eller dager som i lov er likestilt med helgedager. Annet punktum gjelder ikke for frivillige organisasjoners næringsvirksomhet.</p>
 <p>Ved uanmodet dørsalg skal den næringsdrivende straks presentere seg og opplyse om at henvendelsen skjer i markedsføringshensikt. Der det er relevant, skal den næringsdrivende også informere om retten til å motsette seg dørsalg etter første ledd og retten til å reservere seg mot dørsalg direkte hos den næringsdrivende.</p>
 <p>Ved avtaler inngått ved uanmodet dørsalg der kontraktssummen overstiger 1 500 kroner, kan den næringsdrivende ikke kreve betaling før tidligst 14 dager etter at tjenesten eller varen er levert.</p>
-<p><em>Tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="18-tilleggsfordel-ved-markedsfring-til-forbrukere">§ 18. Tilleggsfordel ved markedsføring til forbrukere</h4>
 <p>Næringsdrivende som i markedsføring tilbyr forbrukerne en tilleggsfordel eller en mulighet for å oppnå en slik fordel, eksempelvis i form av rabatter, gaver, deltakelse i konkurranser eller spill, skal sikre at vilkårene for å benytte seg av tilbudet er klare og lett tilgjengelige for forbrukerne.</p>
-<p><em>Endret ved lover 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ), 21 juni 2013 nr. 57 (ikr. 1 juli 2013 iflg. res. 21 juni 2013 nr. 714 , uten å endre henvisninger til § 18 ellers i loven).</em></p>
+<p class="note">Endret ved lover 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ), 21 juni 2013 nr. 57 (ikr. 1 juli 2013 iflg. res. 21 juni 2013 nr. 714 , uten å endre henvisninger til § 18 ellers i loven).</p>
 <h2 id="kapittel-4-srlig-om-beskyttelse-av-barn">Kapittel 4. Særlig om beskyttelse av barn</h2>
 <h4 id="19-alminnelig-bestemmelse">§ 19. Alminnelig bestemmelse</h4>
 <p>Når en handelspraksis rettes mot barn, eller for øvrig kan ses eller høres av barn, skal det vises særlig aktsomhet overfor barns påvirkelighet, manglende erfaring og naturlige godtroenhet.</p>
@@ -227,20 +434,20 @@ b. Det er forbudt for frivillige organisasjoner å sende en forespørsel om øko
 <h4 id="20-urimelig-handelspraksis-overfor-barn">§ 20. Urimelig handelspraksis overfor barn</h4>
 <p>Ved vurderingen av om en handelspraksis er urimelig etter § 6 skal det legges vekt på om handelspraksisen er særskilt rettet mot barn. Selv om handelspraksisen ikke er særskilt rettet mot barn, skal det legges vekt på om den, på grunn av art eller produkt, er egnet til å påvirke barn, og om den næringsdrivende kan forventes å forutse barns særlige sårbarhet for praksisen.</p>
 <p>Det er forbudt å ta med i reklame direkte oppfordringer til barn om å kjøpe annonserte ytelser eller overtale foreldrene eller andre voksne til å kjøpe de annonserte ytelsene til dem.</p>
-<p><em>Endret ved lov 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ).</em></p>
+<p class="note">Endret ved lov 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ).</p>
 <h4 id="21-srlig-om-god-markedsfringsskikk-overfor-barn">§ 21. Særlig om god markedsføringsskikk overfor barn</h4>
 <p>Når markedsføring overfor barn vurderes etter § 2 , skal det blant annet legges vekt på om markedsføringen</p>
 <p>a. oppfordrer til lovbrudd, farlig atferd eller brudd med vanlige sikkerhetsnormer,
 b. spiller på sosial usikkerhet, dårlig samvittighet, dårlig selvtillit eller bidrar til kroppspress,
 c. bruker skremmende virkemidler eller er egnet til å skape frykt eller angst, eller
 d. bruker aggressive virkemidler som vold, seksualitet eller rusmidler.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</p>
 <h2 id="kapittel-5-kontroll-med-avtalevilkar-mv">Kapittel 5. Kontroll med avtalevilkår mv.</h2>
 <h4 id="22-urimelige-avtalevilkar">§ 22. Urimelige avtalevilkår</h4>
 <p>I næringsvirksomhet skal det overfor forbrukere ikke nyttes eller tilsiktes å nytte urimelige avtalevilkår. Tilsvarende gjelder for vilkår overfor sammenslutninger som ikke hovedsakelig handler som ledd i næringsvirksomhet, forutsatt at avtalen skal tjene medlemmenes personlige formål.</p>
 <p>Ved rimelighetsvurderingen skal det legges vekt på hensynet til balanse mellom partenes rettigheter og plikter og på hensynet til klarhet i kontraktsforhold.</p>
 <p>Første og annet ledd gjelder ikke for innholdet i prisvilkår og i lønns- og arbeidsvilkår i tjeneste hos andre. Kongen kan gi nærmere regler om at første og annet ledd heller ikke skal gjelde for andre spesielle kontraktsforhold.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="23-krav-til-garantivilkar-i-forbrukerforhold">§ 23. Krav til garantivilkår i forbrukerforhold</h4>
 <p>Ytes det garanti, skal det på en tydelig og lettfattelig måte opplyses om følgende i garantivilkårene:</p>
 <p>a. garantiens innhold, herunder eventuelle begrensninger og særlige betingelser,
@@ -250,10 +457,10 @@ d. lengstefristen for reklamasjon etter aktuell og nærmere angitt lovgivning, d
 e. at det uansett kan reklameres på ytelsen i sin helhet etter aktuell og nærmere angitt lovgivning, dersom garantien er begrenset, for eksempel ved at garantien kun gjelder en del av ytelsen eller bare deler av utbedringskostnadene dekkes av garantien.</p>
 <p>Der markedsføringen forut for avtaleinngåelsen er rettet til norske forbrukere, skal garantivilkårene være utformet på norsk.</p>
 <p>Garantivilkårene skal utleveres til forbrukeren på et varig medium senest ved levering av ytelsen.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="24-avgrensning-mot-konkurranseloven">§ 24. Avgrensning mot <a href="lov-2004-03-05-12.html">konkurranseloven</a></h4>
 <p>Konkurranseloven § 10 gjelder ikke ved bruk av kontraktsvilkår som er fremforhandlet i samarbeid med Forbrukertilsynet.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h2 id="kapittel-6-beskyttelse-av-nringsdrivendes-interesser">Kapittel 6. Beskyttelse av næringsdrivendes interesser</h2>
 <h4 id="25-god-forretningsskikk">§ 25. God forretningsskikk</h4>
 <p>I næringsvirksomhet må det ikke foretas handling som strider mot god forretningsskikk næringsdrivende imellom.</p>
@@ -264,9 +471,9 @@ e. at det uansett kan reklameres på ytelsen i sin helhet etter aktuell og nærm
 <p>I næringsvirksomhet er det forbudt å anvende fremstilling som er egnet til å påvirke etterspørselen etter eller tilbudet av varer, tjenester eller andre ytelser, når fremstillingen ikke gir forsvarlig eller tilstrekkelig veiledning eller trekker inn uvedkommende forhold, og derfor må anses urimelig.</p>
 <h4 id="28-presentasjon-av-markedsfring">§ 28. Presentasjon av markedsføring</h4>
 <p>Markedsføring skal utformes og presenteres slik at den tydelig fremstår som markedsføring.</p>
-<p><em>Opphevet ved lov 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5), tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Opphevet ved lov 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5), tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="29-opphevet">§ 29. (Opphevet)</h4>
-<p><em>Opphevet ved lov 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</em></p>
+<p class="note">Opphevet ved lov 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</p>
 <h4 id="30-etterligning-av-annens-produkt">§ 30. Etterligning av annens produkt</h4>
 <p>I næringsvirksomhet er det forbudt å anvende etterlignede kjennetegn, produkter, kataloger, reklamemidler eller andre frambringelser på slik måte og under slike omstendigheter at det må anses som en urimelig utnyttelse av en annens innsats eller resultater og fører med seg fare for forveksling.</p>
 <h4 id="31-uriktige-geografiske-betegnelser-for-vin-og-brennevin">§ 31. Uriktige geografiske betegnelser for vin og brennevin</h4>
@@ -276,35 +483,35 @@ e. at det uansett kan reklameres på ytelsen i sin helhet etter aktuell og nærm
 <p>Forbrukertilsynet og Markedsrådet skal føre kontroll med næringsdrivendes handelspraksis og avtalevilkår i samsvar med kapittel 7 .</p>
 <p>Forbrukertilsynet og Markedsrådet er faglig uavhengige forvaltningsorganer som er administrativt underordnet departementet. Kongen og departementet kan ikke styre Forbrukertilsynets eller Markedsrådets utøving av myndighet i enkeltsaker eller generelle lovtolkning. Departementet behandler ikke avgjørelser fattet av Forbrukertilsynet eller Markedsrådet. Departementet behandler likevel klager på andre avgjørelser enn vedtak som Markedsrådet treffer i første instans, som kan påklages etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a>. Departementet behandler også klager på avslag på begjæring om innsyn etter <a href="lov-2006-05-19-16.html">offentleglova</a>.</p>
 <p>Dersom en næringsvirksomhet som faller inn under denne loven, også går inn under regulerings- eller kontrollbestemmelser i andre lover, kan Kongen gi nærmere regler om den innbyrdes avgrensningen av de forskjellige myndighetenes virkeområde og om samarbeidet mellom dem.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 43 (ikr. 1 juli 2009 iflg. res. 19 juni 2009 nr. 821 ), 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 43 (ikr. 1 juli 2009 iflg. res. 19 juni 2009 nr. 821 ), 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h4 id="33-myndighetenes-organisering">§ 33. Myndighetenes organisering</h4>
 <p>Forbrukertilsynet ledes av en direktør. Direktøren åremålsbeskikkes av Kongen for en periode på seks år, med mulighet for gjenoppnevning én gang.</p>
 <p>Markedsrådet skal ha en leder, en nestleder og så mange medlemmer som er nødvendig for å utføre Markedsrådets oppgaver.</p>
 <p>Markedsrådets leder og nestleder skal fylle kravene til dommere i <a href="lov-1915-08-13-5.html">domstolloven</a> § 53 første ledd og § 54 annet ledd. Leder, nestleder og øvrige medlemmer oppnevnes av Kongen for fire år.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h4 id="34-opplysningsplikt-og-stedlig-kontroll-mv">§ 34. Opplysningsplikt og stedlig kontroll mv.</h4>
 <p>Enhver plikter å gi Forbrukertilsynet og Markedsrådet de opplysningene disse myndighetene krever for å kunne utføre sine gjøremål etter loven, herunder opplysninger som er nødvendige for å vurdere om en handelspraksis er urimelig. Opplysningene kan kreves gitt skriftlig eller muntlig, innen en fastsatt frist. På samme vilkår som nevnt i første og annet punktum kan alle typer informasjon og bærere av slik informasjon kreves utlevert.</p>
 <p>Forbrukertilsynet og Markedsrådet kan undersøke alle lokaler, grunn, innretninger og utstyr, herunder transportmidler, som den næringsdrivende bruker i sin næringsvirksomhet. Representanter for eller ansatte hos den næringsdrivende plikter å gi nødvendig veiledning og bistand ved gjennomføringen av kontrollen. Forbrukertilsynet og Markedsrådet kan anmode om bistand fra politiet til å gjennomføre kontrollen.</p>
 <p>Forbrukertilsynet og Markedsrådet kan selv ta beslag i dokumenter og gjenstander, og ta kopier, som de finner påkrevet for å utføre sine gjøremål etter loven. Beslaget kan bare opprettholdes så lenge og i det omfanget det er nødvendig.</p>
 <p>Taushetsplikten som følger av lov, pålegg eller avtale, er ikke til hinder for opplysningsplikten, eller retten til å foreta stedlig kontroll og beslag, etter denne paragrafen. Dette gjelder likevel ikke opplysninger, dokumenter, gjenstander eller annet som er omfattet av taushetsplikten som nevnt i <a href="lov-1981-05-22-25.html">straffeprosessloven</a> §§ 117 til 120 , med unntak av § 118 første ledd første punktum. Når det er mistanke om overtredelse av bestemmelser som Forbrukertilsynet fører tilsyn med etter § 35 første ledd, og særlige hensyn gjør det nødvendig, kan en tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste pålegges å gi opplysninger om antall markedsføringshenvendelser ved elektroniske kommunikasjonsmetoder, avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger, samt elektronisk kommunikasjonsadresse, selv om opplysningene er omfattet av straffeprosessloven § 118 første ledd annet punktum.</p>
 <p>Forbrukertilsynet kan kjøpe varer og tjenester, om nødvendig med skjult identitet, for å avdekke brudd på bestemmelser som Forbrukertilsynet fører tilsyn med etter § 35 første ledd, og for å innhente bevis til bruk i Forbrukertilsynets saksbehandling. Forbrukertilsynet kan helt eller delvis kreve tilbake kjøpesummen eller kreve betalingskrav ettergitt, i den grad dette ikke fører til en uforholdsmessig ulempe for den næringsdrivende.</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</p>
 <h4 id="35-forbrukertilsynets-oppgaver">§ 35. Forbrukertilsynets oppgaver</h4>
 <p>Forbrukertilsynet fører tilsyn med at bestemmelsene i denne loven kapittel 1 til 5, og bestemmelsene gitt i medhold av denne loven, overholdes. Forbrukertilsynet skal videre føre slikt tilsyn som det er pålagt etter annet regelverk.</p>
 <p>Forbrukertilsynet fører tilsyn ut fra hensynet til forbrukerne. Tilsynet etter § 2 annet ledd første punktum skjer likevel ut fra hensynet til likestilling mellom kjønnene, særlig med vekt på hvordan kvinner fremstilles. Tilsynet etter § 10 med forskrifter skjer ut fra hensynet til at forbrukerne skal kunne orientere seg i markedet og enkelt sammenligne priser.</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ).</p>
 <h4 id="36-forbrukertilsynets-saksbehandling-og-vedtakskompetanse">§ 36. Forbrukertilsynets saksbehandling og vedtakskompetanse</h4>
 <p>Forbrukertilsynet skal av eget tiltak, eller etter henvendelse fra andre, søke å påvirke næringsdrivende til å innrette seg etter bestemmelsene som Forbrukertilsynet skal føre tilsyn med etter § 35 , herunder ved å føre forhandlinger med de næringsdrivende eller deres organisasjoner.</p>
 <p>Dersom Forbrukertilsynet finner at en næringsdrivende handler i strid med bestemmelsene nevnt i § 35 , kan Forbrukertilsynet innhente skriftlig bekreftelse på at det ulovlige forholdet skal opphøre, eller fatte vedtak. Forbrukertilsynet kan også innhente skriftlig bekreftelse på at næringsdrivende skal tilby avhjelpende tiltak til berørte forbrukere.</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</p>
 <h4 id="37-markedsradets-oppgaver-mv">§ 37. Markedsrådets oppgaver mv.</h4>
 <p>Markedsrådet behandler klager på Forbrukertilsynets vedtak, øvrige avgjørelser som kan påklages etter forvaltningsloven og avgjørelser etter annet ledd. Markedsrådet behandler også klager på avgjørelser andre instanser enn Forbrukertilsynet har avgjort, når dette følger av annet regelverk.</p>
 <p>Forbrukertilsynets avgjørelser om at vilkår eller handelspraksis er lovlig, eller at en sak ikke skal prioriteres, kan klages inn for Markedsrådet av næringsdrivende eller forbrukere som berøres av handlingen eller vilkåret, eller av en sammenslutning av næringsdrivende, forbrukere eller lønnstakere.</p>
 <p>Markedsrådets vedtak kan ikke påklages.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h4 id="38-forskrift">§ 38. Forskrift</h4>
 <p>Departementet kan ved forskrift gi nærmere bestemmelser om Forbrukertilsynets og Markedsrådets organisering, oppgaver og saksbehandling.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h4 id="39-forbrukertilsynets-og-markedsradets-vedtak">§ 39. Forbrukertilsynets og Markedsrådets vedtak</h4>
 <p>Forbrukertilsynet og Markedsrådet kan, dersom de finner at inngrep tilsies av hensyn som nevnt i § 35 annet ledd, fatte enkeltvedtak om:</p>
 <p>a. forbud eller påbud etter § 40
@@ -314,21 +521,21 @@ c. overtredelsesgebyr etter § 42 .</p>
 <p>Forbrukertilsynet kan fatte vedtak etter første ledd bokstav a med midlertidig virkning dersom det er rimelig grunn til å anta at det foreligger brudd på bestemmelser som Forbrukertilsynet fører tilsyn med etter § 35 , og det foreligger en risiko for alvorlig skade på forbrukernes interesser. Et vedtak med midlertidig virkning skal gjelde for en bestemt tid som ikke kan overstige tre uker fra virkningstidspunktet. Vedtaket kan fornyes dersom vilkårene i første punktum er oppfylt.</p>
 <p>Vedtak etter første og annet ledd kan også rettes mot medvirkere. Dette gjelder likevel ikke ved vedtak mot reklame i strid med <a href="lov-1992-12-04-127.html">kringkastingsloven</a> § 3-1 første ledd og forskrifter gitt i medhold av kringkastingsloven § 3-1 tredje ledd. § 48 femte ledd gjelder tilsvarende.</p>
 <p>Søksmål over Markedsrådets eller Forbrukertilsynets vedtak må reises innen seks måneder fra parten mottok underretning om vedtaket. Fristen beregnes etter reglene i domstolloven §§ 148 og 149 . Det kan gis oppfriskning for oversittelse av fristen etter reglene i <a href="lov-2005-06-17-90.html">tvisteloven</a> §§ 16-12 til 16-14 .</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 21 juni 2019 nr. 58 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 812 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 21 juni 2019 nr. 58 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 812 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</p>
 <h4 id="40-forbuds-og-pabudsvedtak">§ 40. Forbuds- og påbudsvedtak</h4>
 <p>Det kan nedlegges forbud og gis påbud for å sikre at bestemmelser som nevnt i § 35 første ledd overholdes. Det kan forbys å nytte eller tilsikte å nytte vilkår som nevnt i § 22 .</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res 20 mai 2020 nr. 1032 ).</p>
 <h4 id="41-vedtak-om-tvangsmulkt">§ 41. Vedtak om tvangsmulkt</h4>
 <p>For å sikre at vedtak etter § 40 eller bekreftelser etter § 36 annet ledd overholdes, skal det fastsettes en tvangsmulkt som må betales dersom vedtaket eller bekreftelsen ikke blir etterlevd. Fastsettelse av tvangsmulkt kan unnlates dersom særlige grunner tilsier det.</p>
 <p>Tvangsmulkten kan fastsettes som en løpende mulkt eller som et engangsbeløp. Ved fastsettelsen av tvangsmulkten skal det legges vekt på at det ikke skal lønne seg å overtre vedtaket.</p>
 <p>For å sikre at pålegg etter § 34 første ledd etterkommes, kan det fastsettes en tvangsmulkt som skal betales dersom pålegget ikke etterkommes. Annet ledd første punktum gjelder tilsvarende.</p>
 <p>Endelig vedtak om betaling av tvangsmulkt er tvangsgrunnlag for utlegg.</p>
 <p>Departementet kan ved forskrift fastsette nærmere regler om ileggelse av tvangsmulkt.</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 , tidligere § 42), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 , tidligere § 42), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="42-vedtak-om-overtredelsesgebyr">§ 42. Vedtak om overtredelsesgebyr</h4>
 <p>Ved forsettlig eller uaktsom overtredelse av § 2 annet ledd annet punktum , § 6 , § 10 , § 11 , § 12 , § 13 , § 13 a , § 14 første ledd , § 15 , § 16 , § 16 a første ledd bokstav a , § 17 , § 17 a , § 18 , § 20 annet ledd , § 21 jf. § 2 eller § 22 eller av forskrift gitt i medhold av § 6 femte ledd eller § 10 , som anses som vesentlig eller har skjedd gjentatte ganger, kan den ansvarlige ilegges et overtredelsesgebyr. Der den næringsdrivende, eller noen som opptrer på den næringsdrivendes vegne, forsettlig eller uaktsomt bryter bistandsplikten ved stedlig kontroll etter § 34 annet ledd, kan den næringsdrivende ilegges overtredelsesgebyr.</p>
 <p>Departementet kan ved forskrift gi nærmere regler om utmåling av overtredelsesgebyr.</p>
-<p><em>Endret ved lover 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ), 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 , tidligere § 43), 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 20 juni 2025 nr. 41 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1097 ).</em></p>
+<p class="note">Endret ved lover 3 sep 2010 nr. 53 (ikr. 1 jan 2011 iflg. res. 3 sep 2010 nr. 1245 ), 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ), 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 , tidligere § 43), 11 juni 2021 nr. 62 (i kraft 1 juli 2022 iflg. res. 17 juni 2022 nr. 1043 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 20 juni 2025 nr. 41 (i kraft 1 juli 2025 iflg. res. 20. juni 2025 nr. 1097 ).</p>
 <h4 id="43-palegg-om-fjerning-av-digitalt-nettinnhold-mv">§ 43. Pålegg om fjerning av digitalt nettinnhold mv.</h4>
 <p>Dersom en overtredelse av bestemmelser som Forbrukertilsynet fører tilsyn med etter § 35 første ledd, medfører en risiko for alvorlig skade på forbrukernes interesser, og det ikke finnes andre effektive midler for å stanse overtredelsen, kan retten etter begjæring fra Forbrukertilsynet pålegge</p>
 <p>a. en vertstjenesteleverandør eller en eier av et nettbasert grensesnitt å fjerne innhold på grensesnittet eller innta en tydelig advarsel som forbrukerne ser når de får tilgang til det nettbaserte grensesnittet,
@@ -336,37 +543,37 @@ b. en internettilbyder å begrense tilgangen til et nettbasert grensesnitt,
 c. en vertstjenesteleverandør å fjerne, deaktivere eller begrense tilgangen til et nettbasert grensesnitt,
 d. en registerenhet for toppdomener eller en domeneregistrar å slette, suspendere eller omregistrere et fullt kvalifisert domenenavn til Forbrukertilsynet.</p>
 <p>Ved vurderingen av om pålegg skal gis, skal det blant annet tas hensyn til informasjons- og ytringsfriheten, forbrukernes interesser, saksøktes interesser samt mulighetene for mindre inngripende tiltak.</p>
-<p><em>Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</p>
 <h4 id="43-a-midlertidig-forfyning-ved-palegg-etter-43">§ 43 a. Midlertidig forføyning ved pålegg etter § 43</h4>
 <p>Retten treffer pålegg etter § 43 som midlertidig forføyning etter reglene i tvisteloven kapittel 32 og 34 , med de tilpasninger som følger av § 43 b og § 43 c . Den som overtrer regelverket etter § 43 første ledd og den som skal gjennomføre pålegget etter § 43 første ledd bokstav a til d, får stilling som saksøkt.</p>
 <p>Begjæring om midlertidig forføyning settes frem skriftlig for Oslo tingrett. Begjæringen må angi alle partene. I begjæringen skal det redegjøres for de grunner den bygger på. Dokumenter som påberopes og som saksøkeren er i besittelse av, skal følge med begjæringen.</p>
-<p><em>Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ), endret ved lov 7 mai 2026 nr. 17 (i kraft 1 juli 2026 iflg. res. 7 mai 2026 nr. 743 ).</em></p>
+<p class="note">Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ), endret ved lov 7 mai 2026 nr. 17 (i kraft 1 juli 2026 iflg. res. 7 mai 2026 nr. 743 ).</p>
 <h4 id="43-b-rettens-avgjrelse-mv">§ 43 b. Rettens avgjørelse mv.</h4>
 <p>Dersom den som overtrer regelverket etter § 43 første ledd er ukjent eller har ukjent adresse, kan kjennelse som beslutter midlertidig forføyning etter § 43 a første ledd, treffes uten at den som overtrer regelverket innkalles til muntlig forhandling. Meddelelser fra retten til den som overtrer regelverket etter § 43 første ledd kan i så fall unnlates. I tilfeller som nevnt i første punktum kan den som overtrer regelverket etter § 43 første ledd kreve etterfølgende muntlige forhandlinger etter tvisteloven § 32-8 .</p>
 <p>Dersom en ankesak ikke er avgjort når den som overtrer regelverket etter § 43 første ledd krever etterfølgende muntlige forhandlinger etter tvisteloven § 32-8 , skal behandlingen av ankesaken stanses. Ankesaken og avgjørelser i ankesaken som gjelder sakens realitet, faller bort dersom retten treffer ny realitetsavgjørelse etter etterfølgende muntlige forhandlinger. Rettens avgjørelse truffet på grunnlag av etterfølgende muntlige forhandlinger kan påankes.</p>
-<p><em>Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</p>
 <h4 id="43-c-forholdet-til-tvistelovens-regler">§ 43 c. Forholdet til tvistelovens regler</h4>
 <p>Den som skal gjennomføre pålegget etter § 43 første ledd bokstav a til d kan bare ilegges ansvar for saksøkerens sakskostnader etter tvisteloven kapittel 20 i ankesak der denne parten har anket. Det kan likevel ilegges sakskostnader etter tvisteloven § 20-4 bokstav c.</p>
 <p>Tvisteloven § 32-9 gjelder ikke for den som skal gjennomføre pålegget etter § 43 første ledd bokstav a til d.</p>
 <p>Tvisteloven § 34-6 første ledd bokstav c gjelder ikke der saksøkeren har fått medhold i kravet.</p>
-<p><em>Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</em></p>
+<p class="note">Tilføyd ved lov 20 mai 2020 nr. 42 (ikr. 1 juli 2020 iflg. res. 20 mai 2020 nr. 1032 ).</p>
 <h2 id="kapittel-8-grenseoverskridende-handheving-mv">Kapittel 8. Grenseoverskridende håndheving mv.</h2>
 <h4 id="44-virkeomrade">§ 44. Virkeområde</h4>
 <p>Bestemmelsene i dette kapitlet får anvendelse på handlinger foretatt i næringsvirksomhet som strider mot bestemmelser som etter EØS-avtalen beskytter forbrukernes kollektive interesser slik de er gjennomført i norsk rett.</p>
 <p>§§ 45 og 46 får anvendelse på handlinger som strider mot bestemmelser som gjennomfører EØS-lovgivningen som er tatt inn i vedlegg 1 til europaparlaments- og rådsdirektiv 2009/22/EF om nedlegging av forbud med hensyn til vern av forbrukernes interesser. Bestemmelsene får kun anvendelse på handlinger foretatt i næringsvirksomhet i Norge som har virkning i en annen EØS-stat eller som er foretatt i næringsvirksomhet i en annen EØS-stat og har virkning i Norge.</p>
 <p>§ 47 får anvendelse på handlinger som strider mot bestemmelser som gjennomfører EØS-lovgivningen som er tatt inn i vedlegg til europaparlaments- og rådsforordning (EU) 2017/2394 om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning og om oppheving av forordning (EF) nr. 2006/2004 . Bestemmelsen får bare anvendelse hvis lovbruddet rammer forbrukere som har bopel i en annen medlemsstat enn der lovbruddet har sin opprinnelse eller har funnet sted, der den næringsdrivende er etablert eller der bevismaterialet befinner seg.</p>
 <p>Departementet fastsetter i forskrift hvilke bestemmelser som til enhver tid beskytter forbrukernes kollektive interesser etter annet og tredje ledd.</p>
-<p><em>Endret ved lover 25 mai 2012 nr. 27 (ikr. 1 juli 2012 iflg. res. 25 mai 2012 nr. 472 ), 20 mai 2020 nr. 42 (i kraft 1 sep 2023 iflg. res. 1 sep 2023 nr. 1380 ).</em></p>
+<p class="note">Endret ved lover 25 mai 2012 nr. 27 (ikr. 1 juli 2012 iflg. res. 25 mai 2012 nr. 472 ), 20 mai 2020 nr. 42 (i kraft 1 sep 2023 iflg. res. 1 sep 2023 nr. 1380 ).</p>
 <h4 id="45-adgang-til-a-bringe-saker-inn-for-forbrukertilsynet-og-markedsradet">§ 45. Adgang til å bringe saker inn for Forbrukertilsynet og Markedsrådet</h4>
 <p>Utenlandske myndigheter og organisasjoner som er oppført på listen over godkjente institusjoner som etter EØS-avtalens bestemmelser offentliggjøres av EU-kommisjonen i De Europeiske Fellesskapers Tidende og i EØS-tillegget til dette, kan bringe sak inn for Forbrukertilsynet og Markedsrådet med sikte på å få nedlagt forbud mot handling som nevnt i § 44 annet ledd.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 49 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 772 ).</p>
 <h4 id="46-godkjenning-av-myndigheter-og-organisasjoner">§ 46. Godkjenning av myndigheter og organisasjoner</h4>
 <p>Departementet godkjenner norske myndigheter og organisasjoner som kan opptre som part i sak i andre EØS-stater med sikte på å få nedlagt forbud mot handling som nevnt i § 44 annet ledd. Departementet underretter EFTA-statenes faste komité om de utpekte myndigheters og organisasjoners navn og formål, med sikte på oppføring på listen nevnt i § 45 .</p>
 <p>Departementet kan ved forskrift fastsette nærmere regler om godkjenning etter første ledd.</p>
 <h4 id="47-innlemmelse-av-forordning-om-samarbeid-mellom-nasjonale-myndigheter-med-ansvar-for-handheving-av-forbrukervernlovgivning">§ 47. Innlemmelse av forordning om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning</h4>
 <p>EØS-avtalen vedlegg XIX nr. 7f (europaparlaments- og rådsforordning (EU) 2017/2394 om samarbeid mellom nasjonale myndigheter med ansvar for håndheving av forbrukervernlovgivning og om oppheving av forordning (EF) nr. 2006/2004 (forordning om forbrukervernsamarbeid)) gjelder som lov med de tilpasninger som følger av vedlegget selv, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Departementet kan ved forskrift oppnevne myndigheter som håndhever forordningens bestemmelser, sentralt kontaktorgan og eksterne varslere.</p>
-<p><em>Endret ved lov 20 mai 2020 nr. 42 (i kraft 1 sep 2023 iflg. res. 1 sep 2023 nr. 1380 ).</em></p>
+<p class="note">Endret ved lov 20 mai 2020 nr. 42 (i kraft 1 sep 2023 iflg. res. 1 sep 2023 nr. 1380 ).</p>
 <h2 id="kapittel-9-straff-og-sivilrettslige-sanksjoner">Kapittel 9. Straff og sivilrettslige sanksjoner</h2>
 <p>Overskriften endret ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</p>
 <h4 id="48-straff">§ 48. Straff</h4>
@@ -375,12 +582,12 @@ d. en registerenhet for toppdomener eller en domeneregistrar å slette, suspende
 <p>Ved vurderingen av om en overtredelse er vesentlig, skal det særlig legges vekt på overtredelsens omfang, virkninger og graden av skyld. Dersom personen eller foretaket tidligere er ilagt straff eller overtredelsesgebyr for overtredelse av denne lov eller forskrift i medhold av loven, kan straff etter første og annet ledd anvendes selv om overtredelsen ikke er vesentlig.</p>
 <p>Den som forsettlig eller uaktsomt overtrer vedtak som er gjort i medhold av denne lov, straffes med bøter, fengsel inntil 6 måneder eller begge deler dersom ikke strengere straffebestemmelse kommer til anvendelse.</p>
 <p>Straff kommer ikke til anvendelse for overtredelse foretatt av en ekspeditør, betjent eller annen liknende underordnet når overtredelsen vesentlig har vært foranlediget av vedkommendes avhengige stilling til den næringsdrivende.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 2 juni 2017 nr. 31 (ikr. 1 jan 2018 iflg. res. 2 juni 2017 nr. 682 ), 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</p>
 <h4 id="48-a-straff-og-sivilrettslige-sanksjoner-ved-ulovlig-bruk-av-geografiske-betegnelser">§ 48 a. Straff og sivilrettslige sanksjoner ved ulovlig bruk av geografiske betegnelser</h4>
 <p>Den som bruker en geografisk betegnelse i strid med §§ 25 , 26 eller 31 , straffes med bøter eller fengsel inntil ett år.</p>
 <p>Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger, skal det særlig legges vekt på den skade som er påført den forurettede, herunder skade på dennes kommersielle omdømme, den vinning som krenkeren har oppnådd, og omfanget av krenkelsen for øvrig.</p>
 <p>Bestemmelsene om sanksjoner mot varemerkeinngrep i <a href="lov-2010-03-26-8.html">varemerkeloven</a> kapittel 8 , bortsett fra §§ 60 , 61 og 61 a , gjelder tilsvarende ved bruk av geografiske betegnelser i strid med §§ 25 , 26 eller 31 .</p>
-<p><em>Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ).</em></p>
+<p class="note">Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ).</p>
 <h4 id="48-b-vederlag-og-erstatning-ved-overtredelse-av-visse-bestemmelser-ikapittel-6">§ 48 b. Vederlag og erstatning ved overtredelse av visse bestemmelser ikapittel 6</h4>
 <p>For forsettlig eller uaktsom overtredelse av § 30 skal overtrederen betale til den forurettede:</p>
 <p>a. vederlag svarende til en rimelig lisensavgift for utnyttelsen, samt erstatning for skade som følge av overtredelsen som ikke ville oppstått ved lisensiering,
@@ -389,13 +596,13 @@ c. vederlag svarende til vinningen som er oppnådd ved overtredelsen.</p>
 <p>Vederlag og erstatning fastsettes etter det av grunnlagene i bokstav a til c som er gunstigst for den forurettede.</p>
 <p>Første ledd gjelder tilsvarende ved medvirkning.</p>
 <p>Første og annet ledd gjelder tilsvarende ved overtredelse av §§ 25 og 26 som består i etterligning av annens produkt, kjennetegn, reklamemidler eller andre frembringelser.</p>
-<p><em>Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), endret ved lover 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</em></p>
+<p class="note">Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), endret ved lover 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 27 mars 2020 nr. 15 (ikr. 1 jan 2021 iflg. res. 11 des 2020 nr. 2721 , for overgangsbestemmelser se dens punkt 5).</p>
 <h4 id="48-c-avhjelpende-tiltak-for-forbrukere">§ 48 c. Avhjelpende tiltak for forbrukere</h4>
 <p>Har en næringsdrivende handlet i strid med bestemmelsene i kapittel 1 til 5 eller bestemmelser gitt i medhold av § 35 , og en forbruker lider skade som følge av overtredelsen, kan forbrukeren ha krav på blant annet erstatning, prisavslag og heving etter kontraktsrettslige, avtalerettslige og erstatningsrettslige regler.</p>
-<p><em>Tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</em></p>
+<p class="note">Tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ).</p>
 <h4 id="49-straffeprosessuelle-regler">§ 49. Straffeprosessuelle regler</h4>
 <p>Påtalemyndigheten kan i forbindelse med straffesaken kreve dom for tiltak for å sikre at den lovstridige handlingen opphører og for å hindre at den gjentas.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h2 id="kapittel-10-ikraftsetting-oppheving-av-tidligere-lov-overgangsregler-og-endringer-i-andre-lover">Kapittel 10. Ikraftsetting, oppheving av tidligere lov, overgangsregler og endringer i andre lover</h2>
 <h4 id="50-ikraftsetting-oppheving-av-tidligere-lov-og-overgangsregler">§ 50. Ikraftsetting, oppheving av tidligere lov og overgangsregler</h4>
 <p>Loven gjelder fra den tid Kongen bestemmer. 1 Fra samme tidspunkt oppheves lov 16. juni 1972 nr. 47 om kontroll med markedsføring og avtalevilkår (markedsføringsloven). Kongen kan sette i kraft de enkelte bestemmelser til forskjellig tid.</p>
@@ -977,6 +1184,8 @@ b. for å stanse eller forby overtredelser som omfattes av denne forordning.</p>
 <p>For Europaparlamentet For Rådet A. TAJANI M. MAASIKAS President Formann</p>
 <h4 id="vedleggdirektiver-og-forordninger-nevnt-i-artikkel-3-nr-1">VedleggDirektiver og forordninger nevnt i artikkel 3 nr. 1</h4>
 <p>Rådsdirektiv 93/13/EØF av 5. april 1993 om urimelige vilkår i forbrukeravtaler (EFT L 95 av 21.4.1993, s. 29). Europaparlaments- og rådsdirektiv 98/6/EF av 16. februar 1998 om forbrukarvern ved opplysning av prisar på forbruksvarer (EFT L 80 av 18.3.1998, s. 27). Europaparlaments- og rådsdirektiv 1999/44/EF av 25. mai 1999 om visse sider ved forbrukerkjøp og tilknyttede garantier (EFT L 171 av 7.7.1999, s. 12). Europaparlaments- og rådsdirektiv 2000/31/EF av 8. juni 2000 om visse rettslige aspekter ved informasjonssamfunnstjenester, særlig elektronisk handel, i det indre marked (direktivet om elektronisk handel) (EFT L 178 av 17.7.2000, s. 1). Europaparlaments- og rådsdirektiv 2001/83/EF av 6. november 2001 om innføring av et fellesskapsregelverk for legemidler for mennesker (EFT L 311 av 28.11.2001, s. 67): artikkel 86-100. Europaparlaments- og rådsdirektiv 2002/58/EF av 12. juli 2002 om behandling av personopplysninger og personvern i sektoren for elektronisk kommunikasjon (direktivet om personvern og elektronisk kommunikasjon) (EFT L 201 av 31.7.2002, s. 37): artikkel 13. Europaparlaments- og rådsdirektiv 2002/65/EF av 23. september 2002 om fjernsal av finansielle tenester til forbrukarar, og om endring av rådsdirektiv 90/619/EØF og av direktiv 97/7/EF og 98/27/EF (EFT L 271 av 9.10.2002, s. 16). Europaparlaments- og rådsforordning (EF) nr. 261/2004 av 11. februar 2004 om fastsettelse av felles regler for erstatning og assistanse til passasjerer ved nektet ombordstigning og ved innstilte eller vesentlig forsinkede flyginger samt om oppheving av forordning (EØF) nr. 295/91 (EUT L 46 av 17.2.2004, s. 1). Europaparlaments- og rådsdirektiv 2005/29/EF av 11. mai 2005 om foretaks urimelige handelspraksis overfor forbrukere på det indre marked og om endring av rådsdirektiv 84/450/EØF , europaparlaments- og rådsdirektiv 97/7/EF , 98/27/EF og 2002/65/EF og europaparlaments- og rådsforordning (EF) nr. 2006/2004 (direktivet om urimelig handelspraksis) (EUT L 149 av 11.6.2005, s. 22). Europaparlaments- og rådsforordning (EF) nr. 1107/2006 av 5. juli 2006 om rettigheter for funksjonshemmede passasjerer og passasjerer med redusert mobilitet på flyreiser (EUT L 204 av 26.7.2006, s. 1). Europaparlaments- og rådsdirektiv 2006/114/EF av 12. desember 2006 om villedende og sammenlignende reklame (EUT L 376 av 27.12.2006, s. 21): artikkel 1, artikkel 2 bokstav c) og artikkel 4-8. Europaparlaments- og rådsdirektiv 2006/123/EF av 12. desember 2006 om tjenester i det indre marked (EUT L 376 av 27.12.2006, s. 36): artikkel 20. Europaparlaments- og rådsforordning (EF) nr. 1371/2007 av 23. oktober 2007 om jernbanepassasjerers rettigheter og forpliktelser (EUT L 315 av 3.12.2007, s.14). Europaparlaments- og rådsdirektiv 2008/48/EF av 23. april 2008 om forbrukerkredittavtaler og om oppheving av rådsdirektiv 87/102/EØF (EUT L 133 av 22.5.2008, s. 66). Europaparlaments- og rådsforordning (EF) nr. 1008/2008 av 24. september 2008 om felles regler for drift av lufttrafikk i Fellesskapet (EUT L 293 av 31.10.2008, s. 3): artikkel 22, 23 og 24. Europaparlaments- og rådsdirektiv 2008/122/EF av 14. januar 2009 om forbrukervern med hensyn til visse aspekter ved avtaler om deltidsbruksrett, langtidsferieprodukter, videresalg og bytte (EUT L 33 av 3.2.2009, s. 10). Europaparlaments- og rådsdirektiv 2010/13/EU av 10. mars 2010 om samordning av visse bestemmelser om tilbud av audiovisuelle medietjenester, fastsatt ved lov eller forskrift i medlemsstatene (direktivet om audiovisuelle medietjenester) (EUT L 95 av 15.4.2010, s. 1): artikkel 9, 10 og 11 og artikkel 19-26. Europaparlaments- og rådsforordning (EU) nr. 1177/2010 av 24. november 2010 om rettar ved passasjerfart med båt på sjøen og på innanlandske vassvegar og om endring av forordning (EF) nr. 2006/2004 (EUT L 334 av 17.12.2010, s. 1). Europaparlaments- og rådsforordning (EU) nr. 181/2011 av 16. februar 2011 om busspassasjerers rettigheter og om endring av forordning (EF) nr. 2006/2004 (EUT L 55 av 28.2.2011, s. 1). Europaparlaments- og rådsdirektiv 2011/83/EU av 25. oktober 2011 om forbrukerrettigheter, om endring av rådsdirektiv 93/13/EØF og europaparlaments- og rådsdirektiv 1999/44/EF og om oppheving av rådsdirektiv 85/577/EØF og europaparlaments- og rådsdirektiv 97/7/EF (EUT L 304 av 22.11.2011, s. 64). Europaparlaments- og rådsdirektiv 2013/11/EU av 21. mai 2013 om alternativ tvisteløsning i forbrukersaker og om endring av forordning (EF) nr. 2006/2004 og direktiv 2009/22/EF (ATF-direktivet) (EUT L 165 av 18.6.2013, s. 63): artikkel 13. Europaparlaments- og rådsforordning (EU) nr. 524/2013 av 21. mai 2013 om nettbasert tvisteløsning i forbrukersaker og om endring av forordning (EF) nr. 2006/2004 og direktiv 2009/22/EF (NTF-forordningen) (EUT L 165 av 18.6.2013, s. 1): artikkel 14. Europaparlaments- og rådsdirektiv 2014/17/EU av 4. februar 2014 om kredittavtaler for forbrukere i forbindelse med fast eiendom til boligformål og om endring av direktiv 2008/48/EF og 2013/36/EU og forordning (EU) nr. 1093/2010 (EUT L 60 av 28.2.2014, s. 34): artikkel 10, 11, 13, 14, 15, 16, 17, 18, 21, 22, 23, kapittel 10 og vedlegg I og II. Europaparlaments- og rådsdirektiv 2014/92/EU av 23. juli 2014 om sammenlignbarhet av kostnader forbundet med betalingskontoer, bytte av betalingskontoer og adgang til å opprette og bruke betalingskontoer med grunnleggende funksjoner (EUT L 257 av 28.8.2014, s. 214): artikkel 3-18 og artikkel 20 nr. 2. Europaparlaments- og rådsdirektiv (EU) 2015/2302 av 25. november 2015 om pakkereiser og sammensatte reisearrangementer, om endring av forordning (EF) nr. 2006/2004 og europaparlaments- og rådsdirektiv 2011/83/EU samt om oppheving av rådsdirektiv 90/314/EØF (EUT L 326 av 11.12.2015, s. 1). Europaparlaments- og rådsforordning (EU) 2017/1128 av 14. juni 2017 om portabilitet over landegrensene av nettinnholdstjenester i det indre marked (EUT L 168 av 30.6.2017, s. 1).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

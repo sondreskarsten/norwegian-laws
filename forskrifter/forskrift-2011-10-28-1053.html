@@ -19,70 +19,151 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-10-28-1053.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Vegsikkerhetsforskriften" href="../feeds/forskrift-2011-10-28-1053.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Vegsikkerhetsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2011-10-28-1053</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-10-28</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-02-08-198</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2011-10-28-1053" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal-og-virkeomrade">§ 1. Formål og virkeområde</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-trafikksikkerhetsmessig-konsekvensanalyse-av-vegprosjekter">§ 3. Trafikksikkerhetsmessig konsekvensanalyse av vegprosjekter</a></li>
+<li class="lvl3"><a href="#4-trafikksikkerhetsrevisjoner-av-vegprosjekter">§ 4. Trafikksikkerhetsrevisjoner av vegprosjekter</a></li>
+<li class="lvl3"><a href="#5-evaluering-av-sikkerhetsniva-pa-vegnettet">§ 5. Evaluering av sikkerhetsnivå på vegnettet</a></li>
+<li class="lvl3"><a href="#5a-oppflging-av-vegnettsevalueringer">§ 5a. Oppfølging av vegnettsevalueringer</a></li>
+<li class="lvl3"><a href="#6-periodiske-sikkerhetsinspeksjoner">§ 6. Periodiske sikkerhetsinspeksjoner</a></li>
+<li class="lvl3"><a href="#6a-beskyttelse-av-sarbare-trafikanter">§ 6a. Beskyttelse av sårbare trafikanter</a></li>
+<li class="lvl3"><a href="#6b-vegoppmerking-og-skilting">§ 6b. Vegoppmerking og skilting</a></li>
+<li class="lvl3"><a href="#7-behandling-av-data">§ 7. Behandling av data</a></li>
+<li class="lvl3"><a href="#8-opplring-og-godkjenning-av-revisorer">§ 8. Opplæring og godkjenning av revisorer</a></li>
+<li class="lvl3"><a href="#9-hjemmel-for-retningslinjer">§ 9. Hjemmel for retningslinjer</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-veiledende-elementer-i-trafikksikkerhetsmessige-konsekvensanalyser">Vedlegg I. Veiledende elementer i trafikksikkerhetsmessige konsekvensanalyser</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-veiledende-elementer-i-trafikksikkerhetsrevisjoner">Vedlegg II. Veiledende elementer i trafikksikkerhetsrevisjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-veiledende-elementer-i-vegnettsevalueringer">Vedlegg III. Veiledende elementer i vegnettsevalueringer</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-veiledende-elementer-i-malrettede-trafikksikkerhetsinspeksjoner">Vedlegg IV. Veiledende elementer i målrettede trafikksikkerhetsinspeksjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-v-opplysninger-om-ulykker-i-ulykkesrapporter">Vedlegg V. Opplysninger om ulykker i ulykkesrapporter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-02-08-198.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-10-28-1053.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om sikkerhetsforvaltning av veginfrastrukturen (vegsikkerhetsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-10-28-1053.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2011-10-28-1053 <code>forskrift/2011-10-28-1053</code></td></tr>
+<tr><th>Korttittel</th><td>Vegsikkerhetsforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>28.10.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-02-08-198 <code>forskrift/2022-02-08-198</code> fra 08.02.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2011-10-28-1053" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal-og-virkeomrade">§ 1. Formål og virkeområde</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-trafikksikkerhetsmessig-konsekvensanalyse-av-vegprosjekter">§ 3. Trafikksikkerhetsmessig konsekvensanalyse av vegprosjekter</a></li>
+<li class="lvl3"><a href="#4-trafikksikkerhetsrevisjoner-av-vegprosjekter">§ 4. Trafikksikkerhetsrevisjoner av vegprosjekter</a></li>
+<li class="lvl3"><a href="#5-evaluering-av-sikkerhetsniva-pa-vegnettet">§ 5. Evaluering av sikkerhetsnivå på vegnettet</a></li>
+<li class="lvl3"><a href="#5a-oppflging-av-vegnettsevalueringer">§ 5a. Oppfølging av vegnettsevalueringer</a></li>
+<li class="lvl3"><a href="#6-periodiske-sikkerhetsinspeksjoner">§ 6. Periodiske sikkerhetsinspeksjoner</a></li>
+<li class="lvl3"><a href="#6a-beskyttelse-av-sarbare-trafikanter">§ 6a. Beskyttelse av sårbare trafikanter</a></li>
+<li class="lvl3"><a href="#6b-vegoppmerking-og-skilting">§ 6b. Vegoppmerking og skilting</a></li>
+<li class="lvl3"><a href="#7-behandling-av-data">§ 7. Behandling av data</a></li>
+<li class="lvl3"><a href="#8-opplring-og-godkjenning-av-revisorer">§ 8. Opplæring og godkjenning av revisorer</a></li>
+<li class="lvl3"><a href="#9-hjemmel-for-retningslinjer">§ 9. Hjemmel for retningslinjer</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-veiledende-elementer-i-trafikksikkerhetsmessige-konsekvensanalyser">Vedlegg I. Veiledende elementer i trafikksikkerhetsmessige konsekvensanalyser</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-veiledende-elementer-i-trafikksikkerhetsrevisjoner">Vedlegg II. Veiledende elementer i trafikksikkerhetsrevisjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-veiledende-elementer-i-vegnettsevalueringer">Vedlegg III. Veiledende elementer i vegnettsevalueringer</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-veiledende-elementer-i-malrettede-trafikksikkerhetsinspeksjoner">Vedlegg IV. Veiledende elementer i målrettede trafikksikkerhetsinspeksjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-v-opplysninger-om-ulykker-i-ulykkesrapporter">Vedlegg V. Opplysninger om ulykker i ulykkesrapporter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-10-28-1053.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-10-28-1053.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-10-28-1053.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2011-10-28-1053.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2011-10-28-1053.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-10-28-1053.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2011-10-28-1053.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2011-10-28-1053.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-10-28-1053.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-sikkerhetsforvaltning-av-veginfrastrukturen-vegsikkerhetsforskriften">Forskrift om sikkerhetsforvaltning av veginfrastrukturen (vegsikkerhetsforskriften)</h1>
 <h3 id="1-formal-og-virkeomrade">§ 1. Formål og virkeområde</h3>
 <p>Formålet med forskriften er å bedre sikkerheten i veginfrastrukturen ved å sette krav til sikkerhetsforvaltningen av denne.</p>
 <p>Forskriften gjelder for veger i det transeuropeiske vegnettet i Norge (TEN-T-vegnettet), motorveger, hovedveger og øvrige riksveger. Forskriften gjelder for disse vegene i planfasen, prosjekteringsfasen, anleggsfasen og i drift.</p>
 <p>Forskriften gjelder ikke for vegtunneler som omfattes av forskrift 15. mai 2007 nr. 517 om minimum sikkerhetskrav til visse vegtunneler (tunnelsikkerhetsforskriften) og forskrift 10. desember 2014 nr. 1566 om minimum sikkerhetskrav til visse tunneler på fylkesvegnettet og kommunalt vegnett i Oslo (tunnelsikkerhetsforskrift for fylkesveg m.m.) .</p>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg kan ellers unnta hovedveger som har lav sikkerhetsrisiko fra krav i forskriften. I en slik beslutning, skal det i vurderingen av sikkerhetsrisiko legges vekt på trafikkmengde og ulykkesstatistikk.</p>
-<p><em>Endret ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="2-definisjoner">§ 2. Definisjoner</h3>
 <p>I forskriften forstås med:</p>
 <p>a. TEN-T-vegnettet: vegnettet som er definert i Europaparlaments- og rådsforordning (EU) nr. 1315/2013 av 11. desember 2013 om unionsretningslinjer for utviklingen av et transeuropeisk transportnett og om oppheving av beslutning nr. 661/2010/EU .
@@ -96,13 +177,13 @@ e. vegprosjekt: et veginfrastrukturprosjekt som omfatter anlegg av ny vegstrekni
   Vurderingen om hvorvidt et vegprosjekt omfattes av vegsikkerhetsforskriften , skal godkjennes av prosjekteier eller person med tilsvarende funksjon.
 f. trafikksikkerhetsmessig konsekvensanalyse: en strategisk sammenlignende analyse av de virkninger en ny veg eller en vesentlig endring av det eksisterende vegnettet vil få for vegnettets sikkerhetsnivå,
 g. trafikksikkerhetsrevisjon: en uavhengig, detaljert, systematisk og teknisk sikkerhetskontroll av et vegprosjekts utformingsmessige egenskaper, som omfatter alle faser fra prosjektering til innledende bruk.</p>
-<p><em>Endret ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="3-trafikksikkerhetsmessig-konsekvensanalyse-av-vegprosjekter">§ 3. Trafikksikkerhetsmessig konsekvensanalyse av vegprosjekter</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal sørge for at det gjennomføres en trafikksikkerhetsmessig konsekvensanalyse av alle vegprosjekter som de har ansvar for. For riksveger som ikke er på TEN-T, motorveg eller hovedveg, kan vegmyndigheten og et statlig utbyggingsselskap for veg bestemme om trafikksikkerhetsmessig konsekvensanalyse skal unnlates for vegprosjekter som ikke er konsekvensutredningspliktig etter plan- og bygningsloven .</p>
 <p>En trafikksikkerhetsmessig konsekvensanalyse er en strategisk sammenlignende analyse av de virkninger et vegprosjekt vil få for vegnettets sikkerhetsnivå. Den trafikksikkerhetsmessige konsekvensanalysen skal gjennomføres i den innledende planfasen før vegprosjektet er vedtatt. Ved gjennomføringen av analysen skal det bestrebes å oppfylle de veiledende elementene i vedlegg I.</p>
 <p>Den trafikksikkerhetsmessige konsekvensanalysen skal angi de trafikksikkerhetsmessige vurderingene som har bidratt til valget av den foreslåtte løsningen.</p>
 <p>Den trafikksikkerhetsmessige konsekvensanalysen skal inneholde alle relevante opplysninger som er nødvendige for å foreta en nytte- og kostnadsanalyse av de ulike alternativene som er analysert.</p>
-<p><em>Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</p>
 <h3 id="4-trafikksikkerhetsrevisjoner-av-vegprosjekter">§ 4. Trafikksikkerhetsrevisjoner av vegprosjekter</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal sørge for at det gjennomføres trafikksikkerhetsrevisjoner i forbindelse med gjennomføring av alle vegprosjekter. For riksveger som ikke er på TEN-T, motorveg eller hovedveg, kan vegmyndigheten og et statlig utbyggingsselskap for veg bestemme om trafikksikkerhetsrevisjon skal unnlates for alle eller enkelte faser.</p>
 <p>En trafikksikkerhetsrevisjon er en uavhengig, detaljert, systematisk og teknisk sikkerhetskontroll av et vegprosjekts utforming, som omfatter alle faser fra prosjektering til innledende bruk.</p>
@@ -111,44 +192,44 @@ g. trafikksikkerhetsrevisjon: en uavhengig, detaljert, systematisk og teknisk si
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal utnevne en revisor til å gjennomføre trafikksikkerhetsrevisjonen. Revisoren skal være godkjent i samsvar med bestemmelsene i § 8 . Dersom revisjonen gjennomføres av en gruppe, skal minst ett medlem av gruppen være en godkjent revisor.</p>
 <p>Revisoren skal angi de elementene i utformingen som er avgjørende for sikkerheten i en revisjonsrapport for hver fase av vegprosjektet. Dersom det avdekkes farlige forhold under revisjonen, men utformingen ikke utbedres, skal revisoren angi årsakene til dette i et vedlegg til revisjonsrapporten.</p>
 <p>På bakgrunn av revisjonsrapporten nevnt i sjette ledd, skal revisoren gi egnede anbefalinger fra et sikkerhetssynspunkt.</p>
-<p><em>Endret ved forskrifter 1 nov 2011 nr. 1067 , 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrifter 1 nov 2011 nr. 1067 , 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</p>
 <h3 id="5-evaluering-av-sikkerhetsniva-pa-vegnettet">§ 5. Evaluering av sikkerhetsnivå på vegnettet</h3>
 <p>Statens vegvesen og et statlig utbyggingsselskap for veg skal sørge for at det gjennomføres vegnettsevaluering av sikkerhetsnivået for det samlede vegnettet som er i drift.</p>
 <p>Vegnettsevalueringen skal vurdere ulykkes- og skaderisiko basert på en visuell inspeksjon av vegens utforming. Inspeksjonen kan gjennomføres fysisk på vegen eller ved bruk av elektroniske verktøy. I tillegg skal det gjøres en særskilt analyse av strekninger som har vært i drift i mer enn tre år, og der det har forekommet et stort antall alvorlige ulykker sett i forhold til trafikkmengden.</p>
 <p>Den første vegnettsevalueringen skal være gjennomført senest innen 2024. Etterfølgende evalueringer skal gjennomføres tilstrekkelig ofte til å sikre et tilfredsstillende sikkerhetsnivå, og uansett minst hvert femte år.</p>
 <p>Ved gjennomføring av vegnettsevalueringen kan det tas hensyn til de veiledende elementene som er angitt i vedlegg III.</p>
 <p>På bakgrunn av resultatene fra vegnettsevalueringen, skal Statens vegvesen og et statlig utbyggingsselskap for veg klassifisere alle strekningene på det samlede vegnettet i én av minst tre kategorier som gir uttrykk for strekningens sikkerhetsnivå.</p>
-<p><em>Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</p>
 <h3 id="5a-oppflging-av-vegnettsevalueringer">§ 5a. Oppfølging av vegnettsevalueringer</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal følge opp resultatene fra vegnettsevalueringer gjennomført iht. § 5 gjennom målrettede sikkerhetsinspeksjoner eller ved gjennomføring av direkte utbedringstiltak.</p>
 <p>Målrettede sikkerhetsinspeksjoner etter første ledd skal utføres av en ekspertgruppe med minst ett medlem som oppfyller kravene fastsatt i § 8 . Det kan tas hensyn til de veiledende elementene som er angitt i vedlegg IV.</p>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal følge opp resultatene fra en målrettet sikkerhetsinspeksjon med en begrunnet beslutning om hvorvidt det er behov for avbøtende tiltak. I beslutningsgrunnlaget skal vegstrekninger med behov for forbedring av sikkerheten identifiseres, med fastsatte prioriterte tiltak for økt sikkerhet på enkeltstrekningene.</p>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal hovedsakelig rette avbøtende tiltak mot vegstrekninger med et lavt sikkerhetsnivå, der det er mulig å gjennomføre tiltak med et stort potensial for å forbedre sikkerheten og redusere ulykkeskostnadene. De skal utarbeide og jevnlig oppdatere en risikobasert prioritert handlingsplan for å gjennomføre tiltakene.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="6-periodiske-sikkerhetsinspeksjoner">§ 6. Periodiske sikkerhetsinspeksjoner</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal sørge for at det gjennomføres periodiske sikkerhetsinspeksjoner på vegene som er i drift som de har ansvaret for. En periodisk sikkerhetsinspeksjon er en ordinær periodisk kontroll og gjennomgang av forhold og mangler som av sikkerhetsårsaker krever at det utføres vedlikehold eller lignende tiltak. Inspeksjonene skal gjennomføres tilstrekkelig ofte til å sikre at veginfrastrukturen har et tilfredsstillende sikkerhetsnivå.</p>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal gjennomføre periodiske sikkerhetsinspeksjoner av overgangssoner til tunneler omfattet av forskrift 15. mai 2007 nr. 517 om minimum sikkerhetskrav til visse vegtunneler (tunnelsikkerhetsforskriften) og forskrift 10. desember 2014 nr. 1566 om minimum sikkerhetskrav til visse tunneler på fylkesvegnettet og kommunalt vegnett i Oslo (tunnelsikkerhetsforskrift for fylkesveg m.m.) . Inspeksjonene skal gjennomføres av personell som både har kompetanse innen trafikksikkerhet og tunnelsikkerhet. Inspeksjonene skal gjennomføres tilstrekkelig ofte til å sikre et tilstrekkelig sikkerhetsnivå, og minst hvert sjette år.</p>
 <p>Statens vegvesen skal fastsette ordninger for midlertidige sikkerhetstiltak i forbindelse med vegarbeider. Statens vegvesen skal etablere en ordning for inspeksjoner av sikkerhetstiltak i forbindelse med midlertidige vegarbeider.</p>
-<p><em>Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020), 8 feb 2022 nr. 198 .</p>
 <h3 id="6a-beskyttelse-av-sarbare-trafikanter">§ 6a. Beskyttelse av sårbare trafikanter</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal sikre at hensynet til sårbare trafikanter blir tatt i betraktning når det gjennomføres trafikksikkerhetsmessige konsekvensanalyser av vegprosjekter som de har ansvar for og som er i bruk, trafikksikkerhetsrevisjoner, vegnettsevalueringer og periodiske sikkerhetsinspeksjoner. Med sårbare trafikanter menes syklende og gående, og brukere av tohjuls motorvogner, herunder motorsyklister.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="6b-vegoppmerking-og-skilting">§ 6b. Vegoppmerking og skilting</h3>
 <p>Vegmyndigheten og et statlig utbyggingsselskap for veg skal i nåværende og framtidig planlegging, utforming og vedlikehold av vegoppmerking og skilting spesifikt ta hensyn til lesbarhet og identifiserbarhet for førere og automatiserte førerstøttesystemer.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="7-behandling-av-data">§ 7. Behandling av data</h3>
 <p>Statens vegvesen og et statlig utbyggingsselskap for veg utarbeider ulykkesrapport for hver dødsulykke som inntreffer på vegnett som de har ansvaret for i tråd med vedtatte retningslinjer.</p>
 <p>Samferdselsdepartementet skal sørge for at det beregnes gjennomsnittlige sosiale kostnader ved en dødsulykke og den gjennomsnittlige sosiale kostnaden ved en alvorlig ulykke. Kostnadssatsene kan spesifiseres ytterligere, og satsene skal ajourføres minst hvert femte år.</p>
-<p><em>Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 13 des 2016 nr. 1577 (i kraft 1 jan 2017), 19 des 2019 nr. 2040 (i kraft 1 jan 2020).</p>
 <h3 id="8-opplring-og-godkjenning-av-revisorer">§ 8. Opplæring og godkjenning av revisorer</h3>
 <p>Statens vegvesen skal sørge for at det utarbeides utdanningsplaner for trafikksikkerhetsrevisorer som utfører oppgaver i henhold til denne forskriften. Utdanningsplanen skal ha informasjon om hvordan sårbare trafikanter ivaretas i infrastruktur som benyttes av denne trafikantgruppen.</p>
 <p>Trafikksikkerhetsrevisorer skal ha en grunnopplæring som bekreftes med tildeling av et kompetansebevis, og regelmessig delta i videreopplæring.</p>
 <p>Trafikksikkerhetsrevisorer skal ha relevant erfaring eller utdannelse i vegutforming, tekniske trafikksikkerhetsløsninger og ulykkesanalyse. Statens vegvesen godkjenner revisorene.</p>
 <p>Revisorene skal ikke på revisjonstidspunktet være involvert i utformingen eller driften av vegprosjektet de er satt til å revidere.</p>
-<p><em>Endret ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="9-hjemmel-for-retningslinjer">§ 9. Hjemmel for retningslinjer</h3>
 <p>Statens vegvesen kan gi retningslinjer for gjennomføringen av denne forskriften, herunder prosedyrer, metoder og faktorer som skal vektlegges.</p>
-<p><em>Endret ved forskrift 8 feb 2022 nr. 198 .</em></p>
+<p class="note">Endret ved forskrift 8 feb 2022 nr. 198 .</p>
 <h3 id="10-ikrafttredelse">§ 10. Ikrafttredelse</h3>
 <p>Forskriften trer i kraft straks.</p>
 <h2 id="vedlegg-i-veiledende-elementer-i-trafikksikkerhetsmessige-konsekvensanalyser">Vedlegg I. Veiledende elementer i trafikksikkerhetsmessige konsekvensanalyser</h2>
@@ -167,6 +248,8 @@ g. trafikksikkerhetsrevisjon: en uavhengig, detaljert, systematisk og teknisk si
 <h2 id="vedlegg-v-opplysninger-om-ulykker-i-ulykkesrapporter">Vedlegg V. Opplysninger om ulykker i ulykkesrapporter</h2>
 <p>Ulykkesrapporter skal inneholde følgende elementer: ulykkessted (så nøyaktig som mulig), herunder GNSS-koordinater. bilder og/eller tegninger av ulykkesstedet, dato og klokkeslett for ulykken, opplysninger om vegen, f.eks. områdetype, vegtype, type vegkryss (plankryss, rundkjøringer og rampetilknytninger), herunder signaler, antall kjørefelter, vegmerking, vegdekke, lys- og værforhold, fartsgrense og hindringer i vegkanten, ulykkens alvorlighetsgrad, opplysninger om personer som er innblandet, f.eks. alder, kjønn, nasjonalitet, alkoholinnhold i blodet, samt opplysning om hvorvidt sikkerhetsutstyr er brukt eller ikke, opplysninger om kjøretøyer som er innblandet (type, alder, land, eventuelt sikkerhetsutstyr, dato for siste periodiske kjøretøykontroll i henhold til gjeldende lovgivning), opplysninger om ulykken, f.eks. ulykkestype, kollisjonstype, kjøretøyets bevegelse og førerens manøvrering, om mulig opplysninger om hvor lang tid som er gått fra ulykkestidspunktet til registreringen av ulykken eller til nødtjenestens ankomst.</p>
 <p>Tilføyd ved forskrift 8 feb 2022 nr. 198 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

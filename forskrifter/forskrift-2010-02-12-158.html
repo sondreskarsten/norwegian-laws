@@ -19,64 +19,275 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-02-12-158.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Rammeforskriften (petroleumsvirksomheten)" href="../feeds/forskrift-2010-02-12-158.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Rammeforskriften (petroleumsvirksomheten)</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2010-02-12-158</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-18-2278</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2010-02-12-158" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-i-innledende-bestemmelser">Kap. I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-anvendelse-av-maritimt-regelverk-i-petroleumsvirksomheten-til-havs">§ 3. Anvendelse av maritimt regelverk i petroleumsvirksomheten til havs</a></li>
+<li class="lvl4"><a href="#4-arbeidsmiljlovens-anvendelse-i-petroleumsvirksomhet-til-havs-i-henhold-tilarbeidsmiljloven-1-3tredje-ledd">§ 4. Arbeidsmiljølovens anvendelse i petroleumsvirksomhet til havs i henhold tilarbeidsmiljøloven § 1-3tredje ledd</a></li>
+<li class="lvl4"><a href="#5-enkelte-helselovers-anvendelse-i-petroleumsvirksomhet-til-havs">§ 5. Enkelte helselovers anvendelse i petroleumsvirksomhet til havs</a></li>
+<li class="lvl4"><a href="#6-definisjoner">§ 6. Definisjoner</a></li>
+<li class="lvl4"><a href="#7-ansvar-etter-denne-forskriften">§ 7. Ansvar etter denne forskriften</a></li>
+<li class="lvl4"><a href="#8-arbeidsgivers-plikter-overfor-andre-enn-egne-arbeidstakere">§ 8. Arbeidsgivers plikter overfor andre enn egne arbeidstakere</a></li>
+<li class="lvl2"><a href="#kap-ii-grunnleggende-krav-til-helse-milj-og-sikkerhet">Kap. II. Grunnleggende krav til helse, miljø og sikkerhet</a></li>
+<li class="lvl4"><a href="#9-bruk-av-prinsippene-ikapittel-ii">§ 9. Bruk av prinsippene ikapittel II</a></li>
+<li class="lvl4"><a href="#10-forsvarlig-virksomhet">§ 10. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#11-prinsipper-for-risikoreduksjon">§ 11. Prinsipper for risikoreduksjon</a></li>
+<li class="lvl4"><a href="#12-organisasjon-og-kompetanse">§ 12. Organisasjon og kompetanse</a></li>
+<li class="lvl4"><a href="#13-tilrettelegging-for-arbeidstakermedvirkning">§ 13. Tilrettelegging for arbeidstakermedvirkning</a></li>
+<li class="lvl4"><a href="#14-bruk-av-norsk-sprak">§ 14. Bruk av norsk språk</a></li>
+<li class="lvl4"><a href="#15-god-helse-milj-og-sikkerhetskultur">§ 15. God helse-, miljø- og sikkerhetskultur</a></li>
+<li class="lvl4"><a href="#16-helsemessige-forhold">§ 16. Helsemessige forhold</a></li>
+<li class="lvl2"><a href="#kap-iii-styring-av-virksomheten">Kap. III. Styring av virksomheten</a></li>
+<li class="lvl4"><a href="#17-plikt-til-a-etablere-flge-opp-og-videreutvikle-styringssystem">§ 17. Plikt til å etablere, følge opp og videreutvikle styringssystem</a></li>
+<li class="lvl4"><a href="#18-kvalifisering-og-oppflging-av-andre-deltakere">§ 18. Kvalifisering og oppfølging av andre deltakere</a></li>
+<li class="lvl4"><a href="#19-verifikasjoner">§ 19. Verifikasjoner</a></li>
+<li class="lvl2"><a href="#kap-iv-beredskap">Kap. IV. Beredskap</a></li>
+<li class="lvl4"><a href="#20-samordning-av-beredskap-til-havs">§ 20. Samordning av beredskap til havs</a></li>
+<li class="lvl4"><a href="#21-samarbeid-om-beredskap-til-havs">§ 21. Samarbeid om beredskap til havs</a></li>
+<li class="lvl4"><a href="#22-beredskap-pa-landanlegg">§ 22. Beredskap på landanlegg</a></li>
+<li class="lvl2"><a href="#kap-v-materiale-og-opplysninger">Kap. V. Materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#23-generelle-krav-til-materiale-og-opplysninger">§ 23. Generelle krav til materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#24-bruk-av-anerkjente-normer">§ 24. Bruk av anerkjente normer</a></li>
+<li class="lvl4"><a href="#25-sknad-om-samsvarsuttalelse-for-enkelte-flyttbare-innretninger-til-havs">§ 25. Søknad om samsvarsuttalelse for enkelte flyttbare innretninger til havs</a></li>
+<li class="lvl4"><a href="#26-dokumentasjon-i-tidlig-fase">§ 26. Dokumentasjon i tidlig fase</a></li>
+<li class="lvl4"><a href="#27-forhold-som-gjelder-helse-milj-og-sikkerhet-i-plan-for-utbygging-og-drift-pud-av-petroleumsforekomster-og-plan-for-anlegg-og-drift-pad-av-innretninger-for-transport-og-for-utnyttelse-av-petroleum">§ 27. Forhold som gjelder helse, miljø og sikkerhet i plan for utbygging og drift (PUD) av petroleumsforekomster og plan for anlegg og drift (PAD) av innretninger for transport og for utnyttelse av petroleum</a></li>
+<li class="lvl4"><a href="#28-sknad-om-tillatelse-til-utbygging-av-ny-virksomhet-pa-land">§ 28. Søknad om tillatelse til utbygging av ny virksomhet på land</a></li>
+<li class="lvl4"><a href="#29-sknad-om-samtykke">§ 29. Søknad om samtykke</a></li>
+<li class="lvl4"><a href="#30-avslutningsplan">§ 30. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#31-opphr-av-virksomhet-pa-landanlegg">§ 31. Opphør av virksomhet på landanlegg</a></li>
+<li class="lvl4"><a href="#32-offentlig-tilgjengelige-opplysninger-om-sikkerhet">§ 32. Offentlig tilgjengelige opplysninger om sikkerhet</a></li>
+<li class="lvl2"><a href="#kap-vi-srregler-etter-arbeidsmiljloven-til-havs">Kap. VI. Særregler etter arbeidsmiljøloven til havs</a></li>
+<li class="lvl4"><a href="#33-flere-arbeidsgivere-pa-samme-arbeidsplass-hovedbedrift">§ 33. Flere arbeidsgivere på samme arbeidsplass, hovedbedrift</a></li>
+<li class="lvl4"><a href="#34-felles-arbeidsmiljutvalg">§ 34. Felles arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#35-det-ansvarlige-verneombudets-rett-til-a-stanse-farlig-arbeid">§ 35. Det ansvarlige verneombudets rett til å stanse farlig arbeid</a></li>
+<li class="lvl4"><a href="#36-minstealder">§ 36. Minstealder</a></li>
+<li class="lvl4"><a href="#37-den-alminnelige-arbeidstiden">§ 37. Den alminnelige arbeidstiden</a></li>
+<li class="lvl4"><a href="#38-planer-over-arbeidstidsordninger-og-oppholdsperioder">§ 38. Planer over arbeidstidsordninger og oppholdsperioder</a></li>
+<li class="lvl4"><a href="#39-arbeidsfrie-perioder">§ 39. Arbeidsfrie perioder</a></li>
+<li class="lvl4"><a href="#40-pauser">§ 40. Pauser</a></li>
+<li class="lvl4"><a href="#41-overtid">§ 41. Overtid</a></li>
+<li class="lvl4"><a href="#42-oppholdsperioder">§ 42. Oppholdsperioder</a></li>
+<li class="lvl4"><a href="#43-nattarbeid">§ 43. Nattarbeid</a></li>
+<li class="lvl4"><a href="#44-sndagsarbeid">§ 44. Søndagsarbeid</a></li>
+<li class="lvl2"><a href="#kap-vii-utforming-og-utrusting-av-innretninger-og-utfring-av-aktiviteter-i-petroleumsvirksomheten-til-havs">Kap. VII. Utforming og utrusting av innretninger og utføring av aktiviteter i petroleumsvirksomheten til havs</a></li>
+<li class="lvl4"><a href="#45-utbyggingslsninger">§ 45. Utbyggingsløsninger</a></li>
+<li class="lvl4"><a href="#46-data-om-oseanografi-meteorologi-og-jordskjelv">§ 46. Data om oseanografi, meteorologi og jordskjelv</a></li>
+<li class="lvl4"><a href="#47-plassering-av-innretninger-trasevalg">§ 47. Plassering av innretninger, trasévalg</a></li>
+<li class="lvl4"><a href="#47a-ankerlegging-som-kan-skade-sarbare-miljverdier">§ 47a. Ankerlegging som kan skade sårbare miljøverdier</a></li>
+<li class="lvl4"><a href="#48-plikt-til-a-overvake-det-ytre-miljet">§ 48. Plikt til å overvåke det ytre miljøet</a></li>
+<li class="lvl4"><a href="#49-bruk-av-innretninger">§ 49. Bruk av innretninger</a></li>
+<li class="lvl4"><a href="#50-sikkerhetsarbeid-ved-arbeidskonflikter">§ 50. Sikkerhetsarbeid ved arbeidskonflikter</a></li>
+<li class="lvl2"><a href="#kap-viii-sikkerhetssoner-til-havs">Kap. VIII. Sikkerhetssoner til havs</a></li>
+<li class="lvl4"><a href="#51-forholdet-til-folkeretten">§ 51. Forholdet til folkeretten</a></li>
+<li class="lvl4"><a href="#52-etablering-av-sikkerhetssoner">§ 52. Etablering av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#53-etablering-av-sikkerhetssoner-for-undervannsinnretninger">§ 53. Etablering av sikkerhetssoner for undervannsinnretninger</a></li>
+<li class="lvl4"><a href="#54-midlertidig-utelukkelses-og-fareomrade">§ 54. Midlertidig utelukkelses- og fareområde</a></li>
+<li class="lvl4"><a href="#55-krav-til-konsekvensvurderinger-med-mer">§ 55. Krav til konsekvensvurderinger med mer</a></li>
+<li class="lvl4"><a href="#56-opphevelse-av-sikkerhetssoner">§ 56. Opphevelse av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#57-overvaking-av-sikkerhetssoner">§ 57. Overvåking av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#58-varsling-og-melding-i-forbindelse-med-inntrenging-i-sikkerhetssoner">§ 58. Varsling og melding i forbindelse med inntrenging i sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#59-tiltak-mot-inntrengende-farty-eller-gjenstander">§ 59. Tiltak mot inntrengende fartøy eller gjenstander</a></li>
+<li class="lvl4"><a href="#60-merking-av-sikkerhetssoner">§ 60. Merking av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#61-kunngjring-av-sikkerhetssoner">§ 61. Kunngjøring av sikkerhetssoner</a></li>
+<li class="lvl2"><a href="#kap-ix-avsluttende-bestemmelser">Kap. IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#62-saksbehandling-og-taushetsplikt">§ 62. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#63-myndighetenes-adgang-til-innretninger-og-farty">§ 63. Myndighetenes adgang til innretninger og fartøy</a></li>
+<li class="lvl4"><a href="#64-observatrer">§ 64. Observatører</a></li>
+<li class="lvl4"><a href="#65-opplring-av-offentlig-ansatte">§ 65. Opplæring av offentlig ansatte</a></li>
+<li class="lvl4"><a href="#66-adgang-til-a-kreve-gebyr-og-sektoravgift">§ 66. Adgang til å kreve gebyr og sektoravgift</a></li>
+<li class="lvl4"><a href="#67-tilsynsmyndighet">§ 67. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#68-forskrifter">§ 68. Forskrifter</a></li>
+<li class="lvl4"><a href="#69-enkeltvedtak">§ 69. Enkeltvedtak</a></li>
+<li class="lvl4"><a href="#70-unntak">§ 70. Unntak</a></li>
+<li class="lvl4"><a href="#71-klage">§ 71. Klage</a></li>
+<li class="lvl4"><a href="#72-reaksjonsmidler">§ 72. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#73-ikrafttredelse">§ 73. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-18-2278.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-02-12-158.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om helse, miljø og sikkerhet i petroleumsvirksomheten og på enkelte landanlegg (rammeforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-02-12-158.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2010-02-12-158 <code>forskrift/2010-02-12-158</code></td></tr>
+<tr><th>Korttittel</th><td>Rammeforskriften (petroleumsvirksomheten)</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-18-2278 <code>forskrift/2023-12-18-2278</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2010-02-12-158" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-i-innledende-bestemmelser">Kap. I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-anvendelse-av-maritimt-regelverk-i-petroleumsvirksomheten-til-havs">§ 3. Anvendelse av maritimt regelverk i petroleumsvirksomheten til havs</a></li>
+<li class="lvl4"><a href="#4-arbeidsmiljlovens-anvendelse-i-petroleumsvirksomhet-til-havs-i-henhold-tilarbeidsmiljloven-1-3tredje-ledd">§ 4. Arbeidsmiljølovens anvendelse i petroleumsvirksomhet til havs i henhold tilarbeidsmiljøloven § 1-3tredje ledd</a></li>
+<li class="lvl4"><a href="#5-enkelte-helselovers-anvendelse-i-petroleumsvirksomhet-til-havs">§ 5. Enkelte helselovers anvendelse i petroleumsvirksomhet til havs</a></li>
+<li class="lvl4"><a href="#6-definisjoner">§ 6. Definisjoner</a></li>
+<li class="lvl4"><a href="#7-ansvar-etter-denne-forskriften">§ 7. Ansvar etter denne forskriften</a></li>
+<li class="lvl4"><a href="#8-arbeidsgivers-plikter-overfor-andre-enn-egne-arbeidstakere">§ 8. Arbeidsgivers plikter overfor andre enn egne arbeidstakere</a></li>
+<li class="lvl2"><a href="#kap-ii-grunnleggende-krav-til-helse-milj-og-sikkerhet">Kap. II. Grunnleggende krav til helse, miljø og sikkerhet</a></li>
+<li class="lvl4"><a href="#9-bruk-av-prinsippene-ikapittel-ii">§ 9. Bruk av prinsippene ikapittel II</a></li>
+<li class="lvl4"><a href="#10-forsvarlig-virksomhet">§ 10. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#11-prinsipper-for-risikoreduksjon">§ 11. Prinsipper for risikoreduksjon</a></li>
+<li class="lvl4"><a href="#12-organisasjon-og-kompetanse">§ 12. Organisasjon og kompetanse</a></li>
+<li class="lvl4"><a href="#13-tilrettelegging-for-arbeidstakermedvirkning">§ 13. Tilrettelegging for arbeidstakermedvirkning</a></li>
+<li class="lvl4"><a href="#14-bruk-av-norsk-sprak">§ 14. Bruk av norsk språk</a></li>
+<li class="lvl4"><a href="#15-god-helse-milj-og-sikkerhetskultur">§ 15. God helse-, miljø- og sikkerhetskultur</a></li>
+<li class="lvl4"><a href="#16-helsemessige-forhold">§ 16. Helsemessige forhold</a></li>
+<li class="lvl2"><a href="#kap-iii-styring-av-virksomheten">Kap. III. Styring av virksomheten</a></li>
+<li class="lvl4"><a href="#17-plikt-til-a-etablere-flge-opp-og-videreutvikle-styringssystem">§ 17. Plikt til å etablere, følge opp og videreutvikle styringssystem</a></li>
+<li class="lvl4"><a href="#18-kvalifisering-og-oppflging-av-andre-deltakere">§ 18. Kvalifisering og oppfølging av andre deltakere</a></li>
+<li class="lvl4"><a href="#19-verifikasjoner">§ 19. Verifikasjoner</a></li>
+<li class="lvl2"><a href="#kap-iv-beredskap">Kap. IV. Beredskap</a></li>
+<li class="lvl4"><a href="#20-samordning-av-beredskap-til-havs">§ 20. Samordning av beredskap til havs</a></li>
+<li class="lvl4"><a href="#21-samarbeid-om-beredskap-til-havs">§ 21. Samarbeid om beredskap til havs</a></li>
+<li class="lvl4"><a href="#22-beredskap-pa-landanlegg">§ 22. Beredskap på landanlegg</a></li>
+<li class="lvl2"><a href="#kap-v-materiale-og-opplysninger">Kap. V. Materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#23-generelle-krav-til-materiale-og-opplysninger">§ 23. Generelle krav til materiale og opplysninger</a></li>
+<li class="lvl4"><a href="#24-bruk-av-anerkjente-normer">§ 24. Bruk av anerkjente normer</a></li>
+<li class="lvl4"><a href="#25-sknad-om-samsvarsuttalelse-for-enkelte-flyttbare-innretninger-til-havs">§ 25. Søknad om samsvarsuttalelse for enkelte flyttbare innretninger til havs</a></li>
+<li class="lvl4"><a href="#26-dokumentasjon-i-tidlig-fase">§ 26. Dokumentasjon i tidlig fase</a></li>
+<li class="lvl4"><a href="#27-forhold-som-gjelder-helse-milj-og-sikkerhet-i-plan-for-utbygging-og-drift-pud-av-petroleumsforekomster-og-plan-for-anlegg-og-drift-pad-av-innretninger-for-transport-og-for-utnyttelse-av-petroleum">§ 27. Forhold som gjelder helse, miljø og sikkerhet i plan for utbygging og drift (PUD) av petroleumsforekomster og plan for anlegg og drift (PAD) av innretninger for transport og for utnyttelse av petroleum</a></li>
+<li class="lvl4"><a href="#28-sknad-om-tillatelse-til-utbygging-av-ny-virksomhet-pa-land">§ 28. Søknad om tillatelse til utbygging av ny virksomhet på land</a></li>
+<li class="lvl4"><a href="#29-sknad-om-samtykke">§ 29. Søknad om samtykke</a></li>
+<li class="lvl4"><a href="#30-avslutningsplan">§ 30. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#31-opphr-av-virksomhet-pa-landanlegg">§ 31. Opphør av virksomhet på landanlegg</a></li>
+<li class="lvl4"><a href="#32-offentlig-tilgjengelige-opplysninger-om-sikkerhet">§ 32. Offentlig tilgjengelige opplysninger om sikkerhet</a></li>
+<li class="lvl2"><a href="#kap-vi-srregler-etter-arbeidsmiljloven-til-havs">Kap. VI. Særregler etter arbeidsmiljøloven til havs</a></li>
+<li class="lvl4"><a href="#33-flere-arbeidsgivere-pa-samme-arbeidsplass-hovedbedrift">§ 33. Flere arbeidsgivere på samme arbeidsplass, hovedbedrift</a></li>
+<li class="lvl4"><a href="#34-felles-arbeidsmiljutvalg">§ 34. Felles arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#35-det-ansvarlige-verneombudets-rett-til-a-stanse-farlig-arbeid">§ 35. Det ansvarlige verneombudets rett til å stanse farlig arbeid</a></li>
+<li class="lvl4"><a href="#36-minstealder">§ 36. Minstealder</a></li>
+<li class="lvl4"><a href="#37-den-alminnelige-arbeidstiden">§ 37. Den alminnelige arbeidstiden</a></li>
+<li class="lvl4"><a href="#38-planer-over-arbeidstidsordninger-og-oppholdsperioder">§ 38. Planer over arbeidstidsordninger og oppholdsperioder</a></li>
+<li class="lvl4"><a href="#39-arbeidsfrie-perioder">§ 39. Arbeidsfrie perioder</a></li>
+<li class="lvl4"><a href="#40-pauser">§ 40. Pauser</a></li>
+<li class="lvl4"><a href="#41-overtid">§ 41. Overtid</a></li>
+<li class="lvl4"><a href="#42-oppholdsperioder">§ 42. Oppholdsperioder</a></li>
+<li class="lvl4"><a href="#43-nattarbeid">§ 43. Nattarbeid</a></li>
+<li class="lvl4"><a href="#44-sndagsarbeid">§ 44. Søndagsarbeid</a></li>
+<li class="lvl2"><a href="#kap-vii-utforming-og-utrusting-av-innretninger-og-utfring-av-aktiviteter-i-petroleumsvirksomheten-til-havs">Kap. VII. Utforming og utrusting av innretninger og utføring av aktiviteter i petroleumsvirksomheten til havs</a></li>
+<li class="lvl4"><a href="#45-utbyggingslsninger">§ 45. Utbyggingsløsninger</a></li>
+<li class="lvl4"><a href="#46-data-om-oseanografi-meteorologi-og-jordskjelv">§ 46. Data om oseanografi, meteorologi og jordskjelv</a></li>
+<li class="lvl4"><a href="#47-plassering-av-innretninger-trasevalg">§ 47. Plassering av innretninger, trasévalg</a></li>
+<li class="lvl4"><a href="#47a-ankerlegging-som-kan-skade-sarbare-miljverdier">§ 47a. Ankerlegging som kan skade sårbare miljøverdier</a></li>
+<li class="lvl4"><a href="#48-plikt-til-a-overvake-det-ytre-miljet">§ 48. Plikt til å overvåke det ytre miljøet</a></li>
+<li class="lvl4"><a href="#49-bruk-av-innretninger">§ 49. Bruk av innretninger</a></li>
+<li class="lvl4"><a href="#50-sikkerhetsarbeid-ved-arbeidskonflikter">§ 50. Sikkerhetsarbeid ved arbeidskonflikter</a></li>
+<li class="lvl2"><a href="#kap-viii-sikkerhetssoner-til-havs">Kap. VIII. Sikkerhetssoner til havs</a></li>
+<li class="lvl4"><a href="#51-forholdet-til-folkeretten">§ 51. Forholdet til folkeretten</a></li>
+<li class="lvl4"><a href="#52-etablering-av-sikkerhetssoner">§ 52. Etablering av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#53-etablering-av-sikkerhetssoner-for-undervannsinnretninger">§ 53. Etablering av sikkerhetssoner for undervannsinnretninger</a></li>
+<li class="lvl4"><a href="#54-midlertidig-utelukkelses-og-fareomrade">§ 54. Midlertidig utelukkelses- og fareområde</a></li>
+<li class="lvl4"><a href="#55-krav-til-konsekvensvurderinger-med-mer">§ 55. Krav til konsekvensvurderinger med mer</a></li>
+<li class="lvl4"><a href="#56-opphevelse-av-sikkerhetssoner">§ 56. Opphevelse av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#57-overvaking-av-sikkerhetssoner">§ 57. Overvåking av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#58-varsling-og-melding-i-forbindelse-med-inntrenging-i-sikkerhetssoner">§ 58. Varsling og melding i forbindelse med inntrenging i sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#59-tiltak-mot-inntrengende-farty-eller-gjenstander">§ 59. Tiltak mot inntrengende fartøy eller gjenstander</a></li>
+<li class="lvl4"><a href="#60-merking-av-sikkerhetssoner">§ 60. Merking av sikkerhetssoner</a></li>
+<li class="lvl4"><a href="#61-kunngjring-av-sikkerhetssoner">§ 61. Kunngjøring av sikkerhetssoner</a></li>
+<li class="lvl2"><a href="#kap-ix-avsluttende-bestemmelser">Kap. IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#62-saksbehandling-og-taushetsplikt">§ 62. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#63-myndighetenes-adgang-til-innretninger-og-farty">§ 63. Myndighetenes adgang til innretninger og fartøy</a></li>
+<li class="lvl4"><a href="#64-observatrer">§ 64. Observatører</a></li>
+<li class="lvl4"><a href="#65-opplring-av-offentlig-ansatte">§ 65. Opplæring av offentlig ansatte</a></li>
+<li class="lvl4"><a href="#66-adgang-til-a-kreve-gebyr-og-sektoravgift">§ 66. Adgang til å kreve gebyr og sektoravgift</a></li>
+<li class="lvl4"><a href="#67-tilsynsmyndighet">§ 67. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#68-forskrifter">§ 68. Forskrifter</a></li>
+<li class="lvl4"><a href="#69-enkeltvedtak">§ 69. Enkeltvedtak</a></li>
+<li class="lvl4"><a href="#70-unntak">§ 70. Unntak</a></li>
+<li class="lvl4"><a href="#71-klage">§ 71. Klage</a></li>
+<li class="lvl4"><a href="#72-reaksjonsmidler">§ 72. Reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#73-ikrafttredelse">§ 73. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-02-12-158.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-02-12-158.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-02-12-158.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2010-02-12-158.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2010-02-12-158.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-02-12-158.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2010-02-12-158.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2010-02-12-158.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-02-12-158.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-helse-milj-og-sikkerhet-i-petroleumsvirksomheten-og-pa-enkelte-landanlegg-rammeforskriften">Forskrift om helse, miljø og sikkerhet i petroleumsvirksomheten og på enkelte landanlegg (rammeforskriften)</h1>
 <h2 id="kap-i-innledende-bestemmelser">Kap. I. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med denne forskriften er å</p>
@@ -90,14 +301,14 @@ c. videreutvikle og forbedre nivået for helse, miljø og sikkerhet.</p>
 <h4 id="3-anvendelse-av-maritimt-regelverk-i-petroleumsvirksomheten-til-havs">§ 3. Anvendelse av maritimt regelverk i petroleumsvirksomheten til havs</h4>
 <p>For flyttbare innretninger som er registrert i et nasjonalt skipsregister, og som følger et maritimt driftskonsept, kan relevante tekniske krav i Sjøfartsdirektoratets regelverk for flyttbare innretninger med utfyllende klasseregler som er gitt av en klasseinstitusjon, eller internasjonale flaggstatsregler med utfyllende klasseregler som gir samme sikkerhetsnivå, med de presiseringer og begrensninger som følger av innretningsforskriften § 1 legges til grunn i stedet for tekniske krav som er gitt i og i medhold av petroleumsloven. Det maritime regelverket som velges brukt, skal legges til grunn i sin helhet.</p>
 <p>Havindustritilsynet kan fastsette tilleggskrav, når disse kravene kan begrunnes ut fra sikkerhetsmessige hensyn.</p>
-<p><em>Endret ved forskrifter 20 des 2018 nr. 2070 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2018 nr. 2070 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="4-arbeidsmiljlovens-anvendelse-i-petroleumsvirksomhet-til-havs-i-henhold-tilarbeidsmiljloven-1-3tredje-ledd">§ 4. Arbeidsmiljølovens anvendelse i petroleumsvirksomhet til havs i henhold tilarbeidsmiljøloven § 1-3tredje ledd</h4>
 <p>Arbeidsmiljøloven og denne forskriften gjelder for bemannede undervannsoperasjoner i petroleumsvirksomhet som blir utført fra fartøy eller innretninger, dersom det ikke er gitt særskilte regler.</p>
 <p>Fartøy med gangbro kan anvendes til innkvartering av arbeidstakere som arbeider på enklere innretninger. Arbeidsmiljøloven og denne forskriften gjelder for disse arbeidstakerne, også når de innkvarteres på denne typen fartøy.</p>
 <p>Unntatt fra arbeidsmiljøloven og bestemmelser i denne forskriften som er fastsatt i medhold av arbeidsmiljøloven er</p>
 <p>a. forsynings-, beredskaps- og ankerhåndteringstjeneste med fartøy, seismiske eller geologiske undersøkelser med fartøy og annen sammenlignbar aktivitet, som regnes som sjøfart,
 b. fartøy som utfører konstruksjons-, rørleggings- eller vedlikeholdsaktiviteter i petroleumsvirksomheten, dersom ikke noe annet blir fastsatt særskilt av Arbeidsdepartementet ved forskrift eller enkeltvedtak.</p>
-<p><em>Endret ved forskrift 26 april 2019 nr. 533 .</em></p>
+<p class="note">Endret ved forskrift 26 april 2019 nr. 533 .</p>
 <h4 id="5-enkelte-helselovers-anvendelse-i-petroleumsvirksomhet-til-havs">§ 5. Enkelte helselovers anvendelse i petroleumsvirksomhet til havs</h4>
 <p>Følgende lover gjøres gjeldende så langt de passer for petroleumsvirksomhet til havs:</p>
 <p>a. helsepersonelloven av 2. juli 1999 nr. 64 ,
@@ -105,7 +316,7 @@ b. pasient- og brukerrettighetsloven av 2. juli 1999 nr. 63 med unntak av kapitt
 c. smittevernloven av 5. august 1994 nr. 55 ,
 d. helseberedskapsloven av 23. juni 2000 nr. 56 .</p>
 <p>Det samme gjelder forskrifter som er fastsatt av Kongen eller Helse- og omsorgsdepartementet i medhold av legemiddelloven og lovene som nevnt i bokstav a til c. Forskrifter hjemlet i helseberedskapsloven gjelder ikke for petroleumsvirksomhet til havs, med mindre noe annet fremgår uttrykkelig av den enkelte forskriften.</p>
-<p><em>Endret ved forskrift 9 mars 2012 nr. 210 .</em></p>
+<p class="note">Endret ved forskrift 9 mars 2012 nr. 210 .</p>
 <h4 id="6-definisjoner">§ 6. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. Den ansvarlige: Operatør og andre som deltar i virksomhet som er omfattet av denne forskriften, uten å være rettighetshaver eller eier av landanlegg.
@@ -121,7 +332,7 @@ i. Sikkerhetssone: Et geografisk avgrenset område ved innretning til havs med f
   Med mindre Kongen bestemmer noe annet, strekker sonen seg fra havbunnen til maksimalt 500 meter over høyeste punkt på en innretning i vertikalplanet. Horisontalt strekker sonen seg 500 meter ut fra innretningens ytterpunkter, der denne til enhver tid befinner seg.
   Sonen begrenser ikke aktivitet som er særskilt tillatt etter petroleumsloven eller som er utøvelse av offentlig myndighet.
 j. Oppholdsperiode: Med oppholdsperiode som nevnt i denne forskriften kapittel VI , menes det tidsrommet en arbeidstaker oppholder seg i sammenheng på innretninger eller fartøy som omfattes av denne forskriften.</p>
-<p><em>Endret ved forskrifter 24 mai 2013 nr. 514 , 17 mars 2023 nr. 347 (i kraft 1 april 2023).</em></p>
+<p class="note">Endret ved forskrifter 24 mai 2013 nr. 514 , 17 mars 2023 nr. 347 (i kraft 1 april 2023).</p>
 <h4 id="7-ansvar-etter-denne-forskriften">§ 7. Ansvar etter denne forskriften</h4>
 <p>Operatøren og andre som deltar i virksomheten er ansvarlig etter denne forskriften. Den ansvarlige skal sikre at krav som er gitt i helse-, miljø- og sikkerhetslovgivningen, blir etterlevd.</p>
 <p>Operatøren skal påse at alle som utfører arbeid for seg, enten personlig, ved ansatte, ved entreprenører eller underentreprenører, etterlever krav som er gitt i helse-, miljø- og sikkerhetslovgivningen.</p>
@@ -153,7 +364,7 @@ d. se til at overtredelser av relevante bestemmelser i arbeidsmiljøloven og utf
 <p>Den ansvarlige skal sikre at alle som utfører arbeid for seg i virksomhet som omfattes av denne forskriften, har kompetanse til å utføre det arbeidet de er satt til å gjøre, på en forsvarlig måte.</p>
 <p>Havindustritilsynet kan ved enkeltvedtak eller forskrift kreve endringer i organiseringen av petroleumsvirksomhet, deriblant sammensetningen og antallet av personellet.</p>
 <p>Første og tredje ledd gjelder for landanleggene så langt disse faller inn under petroleumslovens virkeområde.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="13-tilrettelegging-for-arbeidstakermedvirkning">§ 13. Tilrettelegging for arbeidstakermedvirkning</h4>
 <p>Den ansvarlige skal sikre at arbeidstakerne og deres tillitsvalgte gis anledning til å medvirke i saker som har betydning for arbeidsmiljøet og sikkerheten i virksomheten etter krav gitt i og i medhold av arbeidsmiljøloven og denne forskriften. Slik medvirkning skal ivaretas i de ulike fasene av virksomheten.</p>
 <p>For å fremme helse, miljø og sikkerhet, skal det sikres at arbeidstakerne og deres tillitsvalgte gis anledning til å medvirke ved etablering, oppfølging og videreutvikling av styringssystem som nevnt i denne forskriften § 17 .</p>
@@ -183,15 +394,15 @@ d. se til at overtredelser av relevante bestemmelser i arbeidsmiljøloven og utf
 <p>Operatørens beredskapstiltak skal være egnet til å samordnes med offentlige beredskapsressurser.</p>
 <p>Operatøren skal lede og koordinere innsatsen av beredskapsressursene ved fare- og ulykkessituasjoner, inntil eventuelt offentlige instanser overtar dette ansvaret.</p>
 <p>Havindustritilsynet og Miljødirektoratet kan på sine respektive områder fastsette krav om at det skal være stasjonert beredskapsfartøy, deriblant luftfartøy, ved innretninger eller fartøy som deltar i petroleumsvirksomheten. Det kan fastsettes krav til de funksjonene som beredskapsfartøy skal kunne ivareta.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="21-samarbeid-om-beredskap-til-havs">§ 21. Samarbeid om beredskap til havs</h4>
 <p>Operatøren skal samarbeide med operatører i andre utvinningstillatelser for å sikre nødvendig beredskap på områdene helse, miljø og sikkerhet. Når særlige grunner tilsier det, kan Havindustritilsynet og Miljødirektoratet gi pålegg om og fastsette vilkår for slikt samarbeid, deriblant gi pålegg om at finansieringen skal være et kollektivt ansvar.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="22-beredskap-pa-landanlegg">§ 22. Beredskap på landanlegg</h4>
 <p>Operatøren skal etablere og til enhver tid opprettholde effektiv beredskap med sikte på å møte fare- og ulykkessituasjoner. Beredskapen skal være samordnet og egnet til å bli samordnet med offentlige beredskapsressurser.</p>
 <p>Operatører som har nabovirksomheter og -anlegg som innen et geografisk avgrenset område som også håndterer farlig stoff, skal aktivt bidra til utveksling av informasjon slik at de berørte til enhver tid har full oversikt over de mengder farlig stoff som håndteres. Operatører skal aktivt bidra til å samordne tiltak slik at sikkerhet, herunder beredskap, blir ivaretatt på en forsvarlig måte.</p>
 <p>Ved fare- og ulykkessituasjoner som nevnt i første ledd, kan Energidepartementet bestemme at andre innenfor sitt myndighetsområde eller private skal stille nødvendige beredskapsmessige ressurser til rådighet for rettighetshavers eller eier av landanleggets regning, og departementet kan for rettighetshavers eller eier av landanleggets regning også iverksette tiltak for å skaffe nødvendige tilleggsressurser på annen måte.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kap-v-materiale-og-opplysninger">Kap. V. Materiale og opplysninger</h2>
 <h4 id="23-generelle-krav-til-materiale-og-opplysninger">§ 23. Generelle krav til materiale og opplysninger</h4>
 <p>Den ansvarlige skal utarbeide og oppbevare materiale og opplysninger som er nødvendig for å kunne sikre og dokumentere at virksomheten planlegges og gjennomføres på en forsvarlig måte. Den ansvarlige skal sikre at det kan skaffes til veie dokumentasjon på at krav fastsatt i og i medhold av denne forskriften og utfyllende forskrifter, er oppfylt. Den ansvarlige skal fastsette kriterier for hva som er nødvendig dokumentasjon. Omfanget av dokumentasjonen skal være tilpasset virksomhetens egenart og den aktiviteten som gjennomføres.</p>
@@ -200,17 +411,17 @@ d. se til at overtredelser av relevante bestemmelser i arbeidsmiljøloven og utf
 <p>Når den ansvarlige bruker en norm som anbefales i veiledningen til en forskriftsbestemmelse som en måte å oppfylle forskriftens krav på innen helse-, arbeidsmiljø- og sikkerhetsområdet, kan den ansvarlige normalt legge til grunn at forskriftens krav er oppfylt.</p>
 <p>Ved bruk av andre løsninger enn de som anbefales i veiledningen til en forskriftsbestemmelse, skal den ansvarlige kunne dokumentere at den valgte løsningen oppfyller forskriftens krav. Kombinasjoner av deler av normer skal unngås, hvis ikke den ansvarlige kan dokumentere at en oppnår et tilsvarende nivå for helse, arbeidsmiljø og sikkerhet som det forskriftens krav angir.</p>
 <p>Eksisterende dokumentasjon, deriblant maritime sertifikater som er utstedt av norsk eller fremmed flaggstatsmyndighet, kan legges til grunn for å dokumentere oppfylling av krav som er gitt i eller i medhold av denne forskriften.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</p>
 <h4 id="25-sknad-om-samsvarsuttalelse-for-enkelte-flyttbare-innretninger-til-havs">§ 25. Søknad om samsvarsuttalelse for enkelte flyttbare innretninger til havs</h4>
 <p>Havindustritilsynet utsteder samsvarsuttalelse for følgende flyttbare innretninger som er registrert i et nasjonalt skipsregister: boreinnretninger, boliginnretninger, innretninger for produksjon, lagring og avskipning, innretninger for boring, produksjon, lagring og avskipning samt brønnintervensjonsinnretninger. Samsvarsuttalelsen utstedes etter søknad fra den som står for driften av en slik innretning uten å være operatør.</p>
 <p>Søknaden skal inneholde opplysninger om innretningens tekniske tilstand og søkerens organisasjon og relevante styringssystem, og en uttalelse om søknaden fra arbeidstakernes organisasjoner eller deres tillitsvalgte. Samsvarsuttalelsen skal inngå i dokumentasjonsgrunnlaget knyttet til bruk av flyttbare innretninger, jf. § 29 .</p>
-<p><em>Endret ved forskrifter 24 mai 2013 nr. 514 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 24 mai 2013 nr. 514 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="26-dokumentasjon-i-tidlig-fase">§ 26. Dokumentasjon i tidlig fase</h4>
 <p>Når det besluttes å starte planlegging av en leteboringsaktivitet, skal Havindustritilsynet informeres om tidspunktet for igangsettelse av planarbeidet. Planene skal dokumentere hvordan arbeidet organiseres, styres og utføres, samt opplysninger om den kompetansen som kreves for å utføre arbeidet.</p>
 <p>Når det besluttes å utarbeide planer med sikte på godkjennelse eller tillatelse etter petroleumsloven § 4-2 og § 4-3 , skal Havindustritilsynet informeres om tidspunktet for igangsettelse av planarbeidet. Planene skal dokumentere hvordan arbeidet organiseres, styres og utføres, samt opplysninger om den kompetansen som kreves for å utføre arbeidet.</p>
 <p>Dersom det med sikte på godkjennelse eller tillatelse etter petroleumsloven § 4-2 og § 4-3 planlegges å bruke helt eller delvis ferdigprosjektert eller ferdigfabrikkert innretning for å gjennomføre petroleumsvirksomheten, skal det i tillegg til dokumentasjon som nevnt i andre ledd gjøres rede for hvilke aktiviteter som settes i verk for å kvalifisere innretningen for bruk i denne virksomheten.</p>
 <p>Dokumentasjon av planene som nevnt i denne paragrafens første og andre ledd skal være tilgjengelig og kunne forelegges Havindustritilsynet ved behov.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="27-forhold-som-gjelder-helse-milj-og-sikkerhet-i-plan-for-utbygging-og-drift-pud-av-petroleumsforekomster-og-plan-for-anlegg-og-drift-pad-av-innretninger-for-transport-og-for-utnyttelse-av-petroleum">§ 27. Forhold som gjelder helse, miljø og sikkerhet i plan for utbygging og drift (PUD) av petroleumsforekomster og plan for anlegg og drift (PAD) av innretninger for transport og for utnyttelse av petroleum</h4>
 <p>Planer som rettighetshaveren skal utarbeide etter petroleumsloven § 4-2 og § 4-3 , skal inneholde en overordnet redegjørelse for forhold ved den valgte utvinningsstrategien og utbyggingsløsningen. Planene skal sendes til Energidepartementet med kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
 <p>Dokumentasjonen som nevnt i første ledd, skal tilpasses utbyggingens eller prosjektets omfang. Redegjørelsen i utbyggingsdelen skal omfatte</p>
@@ -243,11 +454,11 @@ Endret ved forskrifter 24 mai 2013 nr. 514 , 17 juni 2016 nr. 719 , 18 des 2023 
 <h4 id="28-sknad-om-tillatelse-til-utbygging-av-ny-virksomhet-pa-land">§ 28. Søknad om tillatelse til utbygging av ny virksomhet på land</h4>
 <p>Den som vil etablere landanlegg eller deler av slike som ikke omfattes av planer som nevnt i § 27 , skal søke Havindustritilsynet om tillatelse.</p>
 <p>Søknaden skal gi opplysninger som tilsvarer det som kreves i § 27 , for landanlegg.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="29-sknad-om-samtykke">§ 29. Søknad om samtykke</h4>
 <p>Havindustritilsynet kan bestemme i forskrift eller ved enkeltvedtak at operatøren skal innhente samtykke fra Havindustritilsynet før visse aktiviteter settes i gang, deriblant gi bestemmelser om dokumentasjonen som skal følge med søknad om samtykke. Havindustritilsynet kan ved enkeltvedtak avgrense samtykket til å gjelde enkelte trinn eller faser.</p>
 <p>For å ivareta sikkerheten i petroleumsvirksomheten til havs, kan Havindustritilsynet bestemme i forskrift eller ved enkeltvedtak at operatøren skal innhente samtykke før bruk eller fjerning av et fartøy.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="30-avslutningsplan">§ 30. Avslutningsplan</h4>
 <p>Planen som rettighetshaveren skal utarbeide etter petroleumsloven § 5-1 , skal sendes til Energidepartementet med kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
 <p>I tillegg til dokumentasjon som nevnt i <a href="forskrift-1997-06-27-653.html">forskrift til petroleumsloven</a> § 44, skal planen inneholde en beskrivelse av</p>
@@ -259,15 +470,15 @@ e. konsekvenser av en eventuell fjerning for tilstøtende felt og innretninger,
 f. andre forhold som er av betydning for en forsvarlig gjennomføring,
 g. eventuelle tiltak for å motvirke forurensning jf. forurensningsloven § 20 .</p>
 <p>Paragrafen gjelder for landanleggene så langt disse faller inn under petroleumslovens virkeområde.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="31-opphr-av-virksomhet-pa-landanlegg">§ 31. Opphør av virksomhet på landanlegg</h4>
 <p>Når det besluttes at driften av landanlegg eller deler av disse som ikke omfattes av en avslutningsplan, skal opphøre, skal den ansvarlige i god tid informere Havindustritilsynet og Miljødirektoratet om opphør.</p>
 <p>Havindustritilsynet kan i forbindelse med opphør stille vilkår som sikrer at opphøret skjer på en forsvarlig måte.</p>
 <p>Miljødirektoratet kan kreve at eventuelle tiltak for å motvirke mulig framtidig forurensning, jf. forurensningsloven § 20 , beskrives.</p>
-<p><em>Endret ved forskrifter 2 des 2011 nr. 1149 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 2 des 2011 nr. 1149 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="32-offentlig-tilgjengelige-opplysninger-om-sikkerhet">§ 32. Offentlig tilgjengelige opplysninger om sikkerhet</h4>
 <p>Havindustritilsynet kan i forskrift eller ved enkeltvedtak bestemme at den ansvarlige skal gjøre offentlig tilgjengelig opplysninger som er av betydning for sikkerheten, herunder når og hvordan slik offentliggjøring skal skje.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kap-vi-srregler-etter-arbeidsmiljloven-til-havs">Kap. VI. Særregler etter arbeidsmiljøloven til havs</h2>
 <h4 id="33-flere-arbeidsgivere-pa-samme-arbeidsplass-hovedbedrift">§ 33. Flere arbeidsgivere på samme arbeidsplass, hovedbedrift</h4>
 <p>Operatøren er hovedbedrift etter arbeidsmiljøloven § 2-2 andre ledd.</p>
@@ -275,7 +486,7 @@ g. eventuelle tiltak for å motvirke forurensning jf. forurensningsloven § 20 .
 <h4 id="34-felles-arbeidsmiljutvalg">§ 34. Felles arbeidsmiljøutvalg</h4>
 <p>Der arbeidsforholdene tilsier det, kan Havindustritilsynet bestemme at det skal opprettes felles arbeidsmiljøutvalg. Slike felles arbeidsmiljøutvalg får plikter og rettigheter som andre arbeidsmiljøutvalg etter arbeidsmiljøloven og forskrifter som er fastsatt i medhold av den.</p>
 <p>Årsrapport fra den enkelte arbeidsgiverens arbeidsmiljøutvalg og fra felles arbeidsmiljøutvalg skal sendes Havindustritilsynet på forespørsel.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="35-det-ansvarlige-verneombudets-rett-til-a-stanse-farlig-arbeid">§ 35. Det ansvarlige verneombudets rett til å stanse farlig arbeid</h4>
 <p>Det ansvarlige verneombudet kan med hjemmel i arbeidsmiljøloven § 6-3 kreve at en arbeidsoperasjon eller arbeidsprosess blir stanset av den som er ansvarlig for operasjonen eller prosessen. Stansingen skal gjennomføres straks dersom verneombudet ikke godtar at det settes i verk andre tiltak.</p>
 <h4 id="36-minstealder">§ 36. Minstealder</h4>
@@ -285,7 +496,7 @@ g. eventuelle tiltak for å motvirke forurensning jf. forurensningsloven § 20 .
 <p>Den alminnelige arbeidstiden skal ikke overstige tolv timer i døgnet og 36 timer i uken i gjennomsnitt i løpet av en periode på høyst ett år. For arbeidstakere som jevnlig arbeider mer enn tre timer om natten skal den alminnelige arbeidstiden ikke overstige 8 timer i døgnet i gjennomsnitt i løpet av en periode på ett år.</p>
 <p>Energidepartementet kan bestemme at arbeidsmiljøloven § 10-12 fjerde ledd, også skal gjelde for arbeidstakersammenslutninger som ikke har innstillingsrett, men som organiserer arbeidstakere i flere virksomheter, og som ikke har et avgrenset geografisk virkefelt.</p>
 <p>For arbeidstakere på flyttbare innretninger som er registrert i fremmed stats skipsregister, kan Energidepartementet vedta at bestemmelser om arbeidstid som er fastsatt i tariffavtaler for sammenlignbar virksomhet i medhold av arbeidsmiljøloven § 10-12 fjerde ledd eller forrige ledd, skal gjelde tilsvarende.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="38-planer-over-arbeidstidsordninger-og-oppholdsperioder">§ 38. Planer over arbeidstidsordninger og oppholdsperioder</h4>
 <p>Arbeidsmiljøloven § 10-3 første punktum gjelder ikke på denne forskriftens område.</p>
 <p>Operatøren eller den som står for driften av en innretning, skal sikre at det er utarbeidet planer over de arbeidstidsordningene og oppholdsperiodene som skal nyttes, både for egne arbeidstakere og for arbeidstakere hos entreprenører og underentreprenører.</p>
@@ -295,7 +506,7 @@ g. eventuelle tiltak for å motvirke forurensning jf. forurensningsloven § 20 .
 <p>Arbeidstaker skal ha en sammenhengende arbeidsfri periode på minst 11 timer i løpet av ett døgn. Den arbeidsfrie perioden skal plasseres mellom to hovedarbeidsperioder. Den arbeidsfrie perioden kan reduseres til 8 timer dersom arbeidstakerne sikres tilsvarende kompenserende hvileperioder eller, der dette ikke er mulig, annet passende vern.</p>
 <p>Den arbeidsfrie perioden mellom to oppholdsperioder skal ha en sammenhengende varighet på minst en tredel av den sist avsluttede oppholdsperioden.</p>
 <p>Den tiden som brukes til reiser til og fra arbeidsstedet ved begynnelsen eller slutten av hver arbeids- eller oppholdsperiode, skal ikke regnes som arbeidstid. Reisetid til og fra boligkvarter kan likevel ikke medføre at kravet til 8 timers hvile i andre ledd reduseres.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</p>
 <h4 id="40-pauser">§ 40. Pauser</h4>
 <p>Arbeidsmiljøloven § 10-9 første ledd, andre og tredje punktum gjelder ikke på denne forskriftens område.</p>
 <p>Hvilepauser skal være på minst en halv time dersom arbeidstiden er minst åtte timer i døgnet, og én time når arbeidstiden er tolv timer i døgnet. Hvilepauser skal regnes som arbeidstid.</p>
@@ -309,7 +520,7 @@ g. eventuelle tiltak for å motvirke forurensning jf. forurensningsloven § 20 .
 <p>Når vilkårene som nevnt i andre ledd er til stede, kan Havindustritilsynet fatte vedtak om å utvide oppholdsperioden utover sju døgn.</p>
 <p>For arbeidstakere med særskilte kvalifikasjoner kan Havindustritilsynet etter søknad godkjenne oppholdsperioder som overskrider 14 døgn i særlige tilfeller. En uttalelse fra det aktuelle arbeidsmiljøutvalget skal følge søknaden.</p>
 <p>Arbeidstaker har rett til å bli fritatt fra utvidet oppholdsperiode på samme vilkår som er fastsatt i arbeidsmiljøloven § 10-6 tiende ledd.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="43-nattarbeid">§ 43. Nattarbeid</h4>
 <p>Arbeidsmiljøloven § 10-11 gjelder ikke på denne forskriftens område.</p>
 <p>Arbeid mellom kl. 23.00 og kl. 06.00 eller mellom kl. 00.00 og kl. 07.00 er nattarbeid.</p>
@@ -330,19 +541,19 @@ c. driften på innretningen er stengt og arbeidet ikke innebærer en særlig ris
 <p>Petroleumsvirksomheten skal baseres på representative data om oseanografi, meteorologi og jordskjelv. Dersom slike data ikke er tilgjengelig, skal det settes i verk innsamling av slike data, slik at de nødvendige dataene er tilgjengelig for planlegging og gjennomføring av petroleumsvirksomheten. Havindustritilsynet kan i forskrift eller ved enkeltvedtak stille krav om innsamling, behandling og rapportering av slike data ved bruk av innretninger.</p>
 <p>Havindustritilsynet kan i forskrift gi bestemmelser om utplassering av instrumenter for registrering av data om oseanografi, meteorologi og jordskjelv som kan ha betydning for å sikre eller verifisere en sikkerhetsmessig forsvarlig gjennomføring av petroleumsvirksomheten.</p>
 <p>Havindustritilsynet kan i forskrift eller ved enkeltvedtak pålegge rettighetshaveren å bekoste instrumentering som nevnt i andre ledd, herunder vedlikehold, og arbeid ved registrering, bearbeiding og rapportering av innsamlede data.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="47-plassering-av-innretninger-trasevalg">§ 47. Plassering av innretninger, trasévalg</h4>
 <p>Innretninger, deriblant brønner, skal plasseres i sikker avstand fra andre innretninger og fra objekter som fyr, sjømerker, kabler, rørledninger og særlig sårbare miljøverdier og lignende, slik at de ikke utgjør en uakseptabel risiko for andre innretninger, annen virksomhet eller det ytre miljøet.</p>
 <p>Ved kryssing av andre rørledninger, kabler eller ledninger av enhver art, skal framgangsmåten avtales med eierne i hvert enkelt tilfelle.</p>
-<p><em>Endret ved forskrift 17 juni 2016 nr. 719 .</em></p>
+<p class="note">Endret ved forskrift 17 juni 2016 nr. 719 .</p>
 <h4 id="47a-ankerlegging-som-kan-skade-sarbare-miljverdier">§ 47a. Ankerlegging som kan skade sårbare miljøverdier</h4>
 <p>Ved legging av ankere og ankerliner som kan gi mekanisk skade på sårbare miljøverdier skal oppankring gjennomføres slik at skade minimeres. Ved ankerlegging skal det tas hensyn til innretningens mulighet til forhaling.</p>
 <p>Operatøren skal i det enkelte tilfelle vurdere hva som er tilstrekkelig avstand mellom sårbare miljøverdier av betydning og ankre og ankerliner, og gjennomføre risikoreduserende tiltak for å hindre skade på miljøverdiene.</p>
 <p>Ankerleggingsoperasjoner skal overvåkes for å sikre at ankerlegging utføres med minst mulig skade på sårbare miljøverdier.</p>
-<p><em>Tilføyd ved forskrift 17 juni 2016 nr. 719 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 juni 2016 nr. 719 .</p>
 <h4 id="48-plikt-til-a-overvake-det-ytre-miljet">§ 48. Plikt til å overvåke det ytre miljøet</h4>
 <p>For å sikre at beslutningsgrunnlaget og kunnskapen om det marine miljøet er tilstrekkelig for å opprettholde en akseptabel miljøtilstand, skal operatøren gjennomføre overvåking av det ytre miljøet. Det skal framskaffes tilstrekkelig informasjon til at forurensning som skyldes egen virksomhet blir oppdaget, kartlagt og vurdert, og at nødvendige tiltak blir iverksatt snarest mulig.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 20 des 2018 nr. 2070 (i kraft 1 jan 2019).</p>
 <h4 id="49-bruk-av-innretninger">§ 49. Bruk av innretninger</h4>
 <p>Innretninger skal være klargjort for planlagt bruk og skal brukes og eventuelt fjernes på en forsvarlig måte, i samsvar med forutsetningene for bruk som er lagt til grunn ved utforming, prosjektering og bygging.</p>
 <h4 id="50-sikkerhetsarbeid-ved-arbeidskonflikter">§ 50. Sikkerhetsarbeid ved arbeidskonflikter</h4>
@@ -358,13 +569,13 @@ b. Avtale om sikkerhetsbemanning: Hvilke funksjoner og stillinger som inngår i 
 <h4 id="52-etablering-av-sikkerhetssoner">§ 52. Etablering av sikkerhetssoner</h4>
 <p>Rundt og over innretninger, unntatt undervannsinnretninger, rørledninger og kabler, skal det være sikkerhetssone, med mindre Energidepartementet fastsetter annet.</p>
 <p>Dersom operatøren anser det unødvendig å etablere sikkerhetssone ut fra en sikkerhetsmessig vurdering, skal søknad om at slik sone ikke etableres, sendes departementet senest samtidig med plan for utbygging og drift av forekomsten, jf. § 27 .</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="53-etablering-av-sikkerhetssoner-for-undervannsinnretninger">§ 53. Etablering av sikkerhetssoner for undervannsinnretninger</h4>
 <p>Energidepartementet kan opprette sikkerhetssoner rundt og over undervannsinnretninger med unntak av rørledninger og kabler.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="54-midlertidig-utelukkelses-og-fareomrade">§ 54. Midlertidig utelukkelses- og fareområde</h4>
 <p>I fare- og ulykkessituasjoner som kan medføre personskade eller tap av menneskeliv, alvorlig forurensing, stor materiell skade eller vesentlig produksjonsstans, kan Energidepartementet etablere midlertidige utelukkelses- eller fareområder, i den utstrekning det anses nødvendig for å hindre eller begrense de nevnte skadevirkningene.</p>
-<p><em>Endret ved forskrifter 24 mai 2013 nr. 514 , 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 24 mai 2013 nr. 514 , 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="55-krav-til-konsekvensvurderinger-med-mer">§ 55. Krav til konsekvensvurderinger med mer</h4>
 <p>Før det fattes vedtak etter § 53 eller § 54 , skal det finne sted en avveining mellom de ulike interessene som blir berørt. Ved denne avveiningen skal det blant annet legges vekt på hvilke konsekvenser opprettelse av, endringer i eller opphør av slike soner, kan ha for gjennomføring av petroleumsvirksomheten og annen virksomhet. Det skal videre vurderes og klargjøres hvilke restriksjoner som vil gjelde i sikkerhetssonen.</p>
 <h4 id="56-opphevelse-av-sikkerhetssoner">§ 56. Opphevelse av sikkerhetssoner</h4>
@@ -376,19 +587,19 @@ b. Avtale om sikkerhetsbemanning: Hvilke funksjoner og stillinger som inngår i 
 <p>Dersom en gjenstand kan true sikkerheten i petroleumsvirksomheten, skal operatøren varsle den som har ansvaret for gjenstanden dersom det er mulig.</p>
 <p>Operatøren skal varsle Hovedredningssentralen og Havindustritilsynet om situasjoner som nevnt i første og andre ledd, og som kan medføre alvorlig fare for sikkerheten i petroleumsvirksomheten. Energidepartementet kan fastsette varslingsrutiner.</p>
 <p>Operatøren skal i tillegg melde krenking av sikkerhetssoner til rette politimyndighet og til Havindustritilsynet etter rutiner som fastsettes av Energidepartementet.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="59-tiltak-mot-inntrengende-farty-eller-gjenstander">§ 59. Tiltak mot inntrengende fartøy eller gjenstander</h4>
 <p>Ved krenking av sikkerhetssoner og i faresituasjoner som nevnt i § 58 , skal operatøren avvise fartøy eller gjenstander så langt dette er mulig og forsvarlig. Avvisningen kan bestå i tilrettevisning eller bortvisning.</p>
 <p>Dersom sikkerhetssoner krenkes av fartøy eller gjenstander, og krenkingen medfører alvorlig fare for sikkerheten i petroleumsvirksomheten, kan avvisningen bestå i fysiske tiltak. Tilsvarende gjelder hvis fartøy eller gjenstander utenfor sikkerhetssoner medfører slik fare, og operatøren først har gitt varsel som nevnt i § 58 .</p>
 <h4 id="60-merking-av-sikkerhetssoner">§ 60. Merking av sikkerhetssoner</h4>
 <p>Sikkerhetssoner som opprettes skal bare merkes dersom operatøren eller Energidepartementet finner det nødvendig. En eventuell merking skal være etter internasjonale merkeregler.</p>
 <p>Energidepartementet kan kreve endring av merking.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="61-kunngjring-av-sikkerhetssoner">§ 61. Kunngjøring av sikkerhetssoner</h4>
 <p>I god tid før en sikkerhetssone etableres, skal operatøren sikre nødvendig kunngjøring. Kunngjøringen skal blant annet stå i «Etterretninger for sjøfarende» og i fiskeripressen og være etter rutiner som er fastsatt av Energidepartementet.</p>
 <p>Kunngjøringen skal inneholde opplysninger om sikkerhetssonen og de forbudene eller begrensningene som gjelder for den. Sonens posisjon, utstrekning og varighet, samt eventuell merking og andre nødvendige opplysninger skal også oppgis.</p>
 <p>Opphevelse av en sikkerhetssone skal kunngjøres på tilsvarende måte.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kap-ix-avsluttende-bestemmelser">Kap. IX. Avsluttende bestemmelser</h2>
 <h4 id="62-saksbehandling-og-taushetsplikt">§ 62. Saksbehandling og taushetsplikt</h4>
 <p>Denne paragrafen gjelder sikkerhet og arbeidsmiljø for petroleumsvirksomhet til havs.</p>
@@ -398,21 +609,21 @@ b. Avtale om sikkerhetsbemanning: Hvilke funksjoner og stillinger som inngår i 
 <p>For øvrig kommer bestemmelsene om taushetsplikt i forvaltningsloven § 13 til § 13f til anvendelse for forvaltningsorganer som mottar eller behandler opplysninger eller materiale om petroleumsvirksomhet, dog slik at taushetsplikt bortfaller etter 20 år, jf. forvaltningsloven § 13 første ledd nr. 2 og § 13c tredje ledd.</p>
 <p>Bestemmelsene i denne paragrafen er ikke til hinder for at departementet gir generelle uttalelser om virksomheten, og heller ikke for utveksling av informasjon som forutsatt i enhetsregisterloven kapittel 6 .</p>
 <p>Bestemmelsen i denne paragrafen er heller ikke til hinder for utveksling av informasjon med Energidepartementet og Sokkeldirektoratet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="63-myndighetenes-adgang-til-innretninger-og-farty">§ 63. Myndighetenes adgang til innretninger og fartøy</h4>
 <p>Representanter fra Energidepartementet, Klima- og miljødepartementet, Helse- og omsorgsdepartementet, Helsedirektoratet, Havindustritilsynet, Miljødirektoratet, Statens helsetilsyn, Statens strålevern eller annen myndighet som Havindustritilsynet bestemmer, skal ha adgang til innretninger og fartøy for petroleumsvirksomhet til enhver tid, samt til materiale og opplysninger som er nødvendig for å gjennomføre tilsynsvirksomhet, og ha rett til å delta i undersøkelser. Representanter for myndighetene har rett til å oppholde seg på innretninger og fartøy så lenge det er nødvendig.</p>
 <p>Operatøren skal sørge for transport av representanter for myndighetene til og fra fartøy og innretninger til havs, samt for opphold om bord.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="64-observatrer">§ 64. Observatører</h4>
 <p>Representanter fra Energidepartementet og Havindustritilsynet skal kunne delta som observatører i samarbeidsorganer som opprettes i henhold til avtaler som nevnt i petroleumsloven § 3-3 , av hensyn til samordnet virksomhet som nevnt i petroleumsloven § 4-7 og i eventuelle samarbeidsorganer som opprettes i forbindelse med anlegg og drift av innretninger som nevnt i petroleumsloven § 4-3 .</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="65-opplring-av-offentlig-ansatte">§ 65. Opplæring av offentlig ansatte</h4>
 <p>Energidepartementet kan pålegge rettighetshaveren å stå for opplæring av ansatte i Energidepartementet, Klima- og miljødepartementet, Helse- og omsorgsdepartementet, Helsedirektoratet, Havindustritilsynet, Miljødirektoratet, Statens helsetilsyn, Direktoratet for strålevern og atomsikkerhet eller annen norsk myndighet. Opplæringen skal skje etter nærmere avtale.</p>
 <p>Energidepartementet kan pålegge rettighetshaveren å sørge for at lærere som underviser i petroleumstilknyttede fag ved norske undervisningsinstitusjoner, får hospitere ved rettighetshaverens kontorer, anlegg og innretninger.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="66-adgang-til-a-kreve-gebyr-og-sektoravgift">§ 66. Adgang til å kreve gebyr og sektoravgift</h4>
 <p>Forskrift 8. januar 2013 nr. 16 om adgang til å kreve gebyr og sektoravgift for tilsyn og annen oppfølging med arbeidsmiljø og sikkerhet i petroleumsvirksomheten gjelder på denne forskriftens område.</p>
-<p><em>Endret ved forskrift 24 mai 2013 nr. 514 .</em></p>
+<p class="note">Endret ved forskrift 24 mai 2013 nr. 514 .</p>
 <h4 id="67-tilsynsmyndighet">§ 67. Tilsynsmyndighet</h4>
 <p>Havindustritilsynet, Miljødirektoratet, Statens helsetilsyn, Mattilsynet og Direktoratet for strålevern og atomsikkerhet eller den disse gir myndighet, fører tilsyn på sine respektive ansvarsområder med at de kravene som er gitt i helse-, miljø- og sikkerhetslovgivningen, blir etterlevd.</p>
 <p>Havindustritilsynet fører tilsyn med systemet for styring som etableres etter denne forskriften og fatter de vedtakene som er nødvendige for å gjennomføre bestemmelser om krav til de administrative delene av styringssystemene som er gitt i denne forskriften eller i utfyllende forskrifter, med de begrensninger som følger av denne paragrafens tredje ledd. Dette gjøres i samarbeid med Miljødirektoratet, Statens helsetilsyn, Mattilsynet og Direktoratet for strålevern og atomsikkerhet eller den disse gir myndighet på deres ansvarsområder.</p>
@@ -420,30 +631,32 @@ b. Avtale om sikkerhetsbemanning: Hvilke funksjoner og stillinger som inngår i 
 <p>Havindustritilsynet kan gjøre unntak fra krav til styringssystem som er gitt i denne forskriften eller utfyllende forskrifter for petroleumsvirksomhet til havs.</p>
 <p>For virksomhet på landanlegg kan de respektive myndighetene for sine områder gjøre unntak fra krav til styringssystem.</p>
 <p>Tilsynsmyndighetene kan på sine respektive myndighetsområder pålegge operatøren å få gjennomført, eller eventuelt selv å gjennomføre verifikasjoner, jf. § 19 .</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="68-forskrifter">§ 68. Forskrifter</h4>
 <p>Havindustritilsynet, Miljødirektoratet, Helsedirektoratet, Mattilsynet og Direktoratet for strålevern og atomsikkerhet kan på sine respektive ansvarsområder gi de forskriftene som er nødvendige for å utfylle denne forskriften, blant annet bestemmelser om</p>
 <p>a. styring av petroleumsvirksomheten med mer, herunder innhold i, oppfølging av og videreutvikling av styringssystem; materiale og opplysninger, blant annet bestemmelser om innhold, omfang, type, format og tidspunkt for innsending eller tilgjengelighet,
 b. utforming og utrusting av innretninger med mer i petroleumsvirksomheten,
 c. utføring av aktiviteter i petroleumsvirksomheten, og
 d. utforming og utrusting av landanlegg og utføring av aktiviteter på landanlegg.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="69-enkeltvedtak">§ 69. Enkeltvedtak</h4>
 <p>Energidepartementet, Klima- og miljødepartementet, Helse- og omsorgsdepartementet, Helsedirektoratet, tilsynsmyndighetene som nevnt i § 67 eller den de gir myndighet kan fatte de enkeltvedtakene som er nødvendige for å gjennomføre bestemmelser som er gitt i denne forskriften og utfyllende forskrifter, med de presiseringene som går fram av § 67 .</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="70-unntak">§ 70. Unntak</h4>
 <p>Energidepartementet, Klima- og miljødepartementet, Helse- og omsorgsdepartementet, Helsedirektoratet, tilsynsmyndighetene som nevnt i § 67 eller den de gir myndighet kan gjøre unntak fra bestemmelsene som er gitt i eller i medhold av denne forskriften på sine respektive ansvarsområder når det foreligger særlige forhold, med de presiseringene som går fram av denne forskriften § 67 .</p>
 <p>Dersom unntaket kan ha betydning for sikkerheten og arbeidsmiljøet, skal en uttalelse fra arbeidstakernes tillitsvalgte legges ved søknaden om unntak.</p>
-<p><em>Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 juni 2016 nr. 719 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="71-klage">§ 71. Klage</h4>
 <p>Enkeltvedtak i medhold av denne forskriften, som er fattet av departementene som første instans kan påklages til Kongen.</p>
 <p>Enkeltvedtak som er fattet av Havindustritilsynet i medhold av denne forskriften kan påklages til Energidepartementet. Enkeltvedtak som er fattet av Miljødirektoratet, kan påklages til Klima- og miljødepartementet. Enkeltvedtak som er fattet av Helsedirektoratet eller den det gir myndighet, kan påklages til henholdsvis Helse- og omsorgsdepartementet eller Helsedirektoratet. Enkeltvedtak som er fattet av Statens helsetilsyn eller den det gir myndighet, kan påklages til henholdsvis Helse- og omsorgsdepartementet eller Statens helsetilsyn. Enkeltvedtak som er fattet av Mattilsynet eller den det gir myndighet kan påklages til overordnet organ i Mattilsynet i henhold til matloven § 23 . Enkeltvedtak etter forurensningsloven som er fattet av Direktoratet for strålevern og atomsikkerhet, kan påklages til Klima- og miljødepartementet.</p>
-<p><em>Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 17 juni 2016 nr. 719 , 15 des 2017 nr. 2134 (i kraft 1 jan 2018), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="72-reaksjonsmidler">§ 72. Reaksjonsmidler</h4>
 <p>Bestemmelser om straff og andre reaksjonsmidler som går fram av helse-, miljø- og sikkerhetslovgivningen gjelder ved brudd på krav som er gitt i og i medhold av denne forskriften.</p>
 <h4 id="73-ikrafttredelse">§ 73. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. januar 2011.</p>
 <p>Fra samme tidspunkt oppheves forskrift 31. august 2001 nr. 1016 om helse, miljø og sikkerhet i petroleumsvirksomheten (rammeforskriften) og midlertidig forskrift 19. desember 2003 nr. 1595 om sikkerhet og arbeidsmiljø for enkelte petroleumsanlegg på land og tilknyttede rørledningssystemer. Enkeltvedtak truffet i medhold av disse forskrifter gjelder fortsatt.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

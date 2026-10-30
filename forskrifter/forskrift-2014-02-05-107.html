@@ -19,64 +19,255 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-02-05-107.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Partilovforskriften" href="../feeds/forskrift-2014-02-05-107.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Partilovforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-02-05-107</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-02-05</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-06-343</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-02-05-107" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-registrering-av-politiske-partier">Kapittel 1. Registrering av politiske partier</a></li>
+<li class="lvl4"><a href="#1-1-om-fremsetting-av-sknaden-krav-til-underskrift">§ 1-1. Om fremsetting av søknaden. Krav til underskrift</a></li>
+<li class="lvl4"><a href="#1-2-opplysninger-som-skal-registreres-i-partiregisteret-offentlighet">§ 1-2. Opplysninger som skal registreres i Partiregisteret. Offentlighet</a></li>
+<li class="lvl4"><a href="#1-3-partiets-utvende-organ-melding-om-endringer">§ 1-3. Partiets utøvende organ – melding om endringer</a></li>
+<li class="lvl4"><a href="#1-4-underretning-om-registrerte-endringer">§ 1-4. Underretning om registrerte endringer</a></li>
+<li class="lvl4"><a href="#1-5-opplysninger-som-skal-legges-til-grunn-ved-valg">§ 1-5. Opplysninger som skal legges til grunn ved valg</a></li>
+<li class="lvl4"><a href="#1-6-motstridende-opplysninger">§ 1-6. Motstridende opplysninger</a></li>
+<li class="lvl4"><a href="#1-7-kunngjring-av-vedtak-varsel-til-de-andre-registrerte-partiene">§ 1-7. Kunngjøring av vedtak. Varsel til de andre registrerte partiene</a></li>
+<li class="lvl4"><a href="#1-8-klage">§ 1-8. Klage</a></li>
+<li class="lvl2"><a href="#kapittel-2-innberetning">Kapittel 2. Innberetning</a></li>
+<li class="lvl4"><a href="#2-1-det-sentrale-registeret-for-innberetning-av-opplysninger-om-partifinansieringen">§ 2-1. Det sentrale registeret for innberetning av opplysninger om partifinansieringen</a></li>
+<li class="lvl4"><a href="#2-2-innberetningenes-form">§ 2-2. Innberetningenes form</a></li>
+<li class="lvl4"><a href="#2-3-offentliggjring">§ 2-3. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#2-4-fortegnelse-over-innberetningspliktige-enheter">§ 2-4. Fortegnelse over innberetningspliktige enheter</a></li>
+<li class="lvl4"><a href="#2-5-melding-om-brudd-pa-innberetningsplikten">§ 2-5. Melding om brudd på innberetningsplikten</a></li>
+<li class="lvl4"><a href="#2-6-arkiv-retningslinjer-mv">§ 2-6. Arkiv, retningslinjer mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-regnskapsbestemmelser">Kapittel 3. Regnskapsbestemmelser</a></li>
+<li class="lvl4"><a href="#3-1-virkeomrade">§ 3-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-2-grunnleggende-krav-til-arsregnskapet-regnskapsprinsipper">§ 3-2. Grunnleggende krav til årsregnskapet – regnskapsprinsipper</a></li>
+<li class="lvl4"><a href="#3-3-vurderingsregler">§ 3-3. Vurderingsregler</a></li>
+<li class="lvl4"><a href="#3-4-regnskapsaret">§ 3-4. Regnskapsåret</a></li>
+<li class="lvl4"><a href="#3-5-arsregnskapet">§ 3-5. Årsregnskapet</a></li>
+<li class="lvl4"><a href="#3-6-oppstillingsplan-resultatregnskap">§ 3-6. Oppstillingsplan resultatregnskap</a></li>
+<li class="lvl4"><a href="#3-7-oppstillingsplan-for-balansen">§ 3-7. Oppstillingsplan for balansen</a></li>
+<li class="lvl4"><a href="#3-8-noteopplysninger">§ 3-8. Noteopplysninger</a></li>
+<li class="lvl4"><a href="#3-9-bidrag-og-avtaler-mv">§ 3-9. Bidrag og avtaler mv.</a></li>
+<li class="lvl4"><a href="#3-10-spesifisering-av-kostnader-etter-art">§ 3-10. Spesifisering av kostnader etter art</a></li>
+<li class="lvl4"><a href="#3-11-fordringer-gjeld-og-garantiforpliktelser">§ 3-11. Fordringer, gjeld og garantiforpliktelser</a></li>
+<li class="lvl4"><a href="#3-12-ytelser-lan-og-sikkerhetsstillelse-til-ledende-personer-og-revisor">§ 3-12. Ytelser, lån og sikkerhetsstillelse til ledende personer og revisor</a></li>
+<li class="lvl4"><a href="#3-13-antall-ansatte-og-medlemmer">§ 3-13. Antall ansatte og medlemmer</a></li>
+<li class="lvl4"><a href="#3-14-anleggsmidler">§ 3-14. Anleggsmidler</a></li>
+<li class="lvl4"><a href="#3-15-eierandeler-i-selskaper-og-andre-organisasjoner">§ 3-15. Eierandeler i selskaper og andre organisasjoner</a></li>
+<li class="lvl4"><a href="#3-16-pensjonsforpliktelser">§ 3-16. Pensjonsforpliktelser</a></li>
+<li class="lvl4"><a href="#3-17-avvikling">§ 3-17. Avvikling</a></li>
+<li class="lvl2"><a href="#kapittel-4-bokfringsbestemmelser">Kapittel 4. Bokføringsbestemmelser</a></li>
+<li class="lvl4"><a href="#4-1-virkeomrade">§ 4-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-grunnleggende-bokfringsprinsipper">§ 4-2. Grunnleggende bokføringsprinsipper</a></li>
+<li class="lvl4"><a href="#4-3-spesifikasjoner-i-tilknytning-til-arsregnskapet">§ 4-3. Spesifikasjoner i tilknytning til årsregnskapet</a></li>
+<li class="lvl4"><a href="#4-4-bokfring-og-ajourhold">§ 4-4. Bokføring og ajourhold</a></li>
+<li class="lvl4"><a href="#4-5-retting-av-opplysninger">§ 4-5. Retting av opplysninger</a></li>
+<li class="lvl4"><a href="#4-6-dokumentasjon-av-bokfrte-opplysninger">§ 4-6. Dokumentasjon av bokførte opplysninger</a></li>
+<li class="lvl4"><a href="#4-7-dokumentasjon-av-salg-av-varer-og-tjenester">§ 4-7. Dokumentasjon av salg av varer og tjenester</a></li>
+<li class="lvl4"><a href="#4-8-dokumentasjon-av-kontantsalg">§ 4-8. Dokumentasjon av kontantsalg</a></li>
+<li class="lvl4"><a href="#4-9-dokumentasjon-av-kjp">§ 4-9. Dokumentasjon av kjøp</a></li>
+<li class="lvl4"><a href="#4-10-dokumentasjon-av-lnn">§ 4-10. Dokumentasjon av lønn</a></li>
+<li class="lvl4"><a href="#4-11-reise-og-oppholdsutgifter">§ 4-11. Reise- og oppholdsutgifter</a></li>
+<li class="lvl4"><a href="#4-12-betalingstransaksjoner">§ 4-12. Betalingstransaksjoner</a></li>
+<li class="lvl4"><a href="#4-13-dokumentasjon-av-andre-regnskapsmessige-disposisjoner">§ 4-13. Dokumentasjon av andre regnskapsmessige disposisjoner</a></li>
+<li class="lvl4"><a href="#4-14-dokumentasjon-av-balansen">§ 4-14. Dokumentasjon av balansen</a></li>
+<li class="lvl4"><a href="#4-15-oppbevaring">§ 4-15. Oppbevaring</a></li>
+<li class="lvl4"><a href="#4-16-dokumentasjon-av-innberettede-opplysninger">§ 4-16. Dokumentasjon av innberettede opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-5-ulovlige-bidrag">Kapittel 5. Ulovlige bidrag</a></li>
+<li class="lvl4"><a href="#5-1-verdifastsetting-av-ulovlige-bidrag-og-overfring-til-statskassen">§ 5-1. Verdifastsetting av ulovlige bidrag og overføring til statskassen</a></li>
+<li class="lvl2"><a href="#kapittel-6-avkorting-av-partisttte">Kapittel 6. Avkorting av partistøtte</a></li>
+<li class="lvl4"><a href="#6-1-vedtak-om-avkorting-av-sttte">§ 6-1. Vedtak om avkorting av støtte</a></li>
+<li class="lvl4"><a href="#6-2-midlertidig-tilbakeholdelse-av-sttte">§ 6-2. Midlertidig tilbakeholdelse av støtte</a></li>
+<li class="lvl4"><a href="#6-3-klage-og-omgjring">§ 6-3. Klage og omgjøring</a></li>
+<li class="lvl4"><a href="#6-4-underretting-om-vedtak">§ 6-4. Underretting om vedtak</a></li>
+<li class="lvl4"><a href="#6-5-utbetaling-av-tilbakeholdt-eller-avkortet-sttte">§ 6-5. Utbetaling av tilbakeholdt eller avkortet støtte</a></li>
+<li class="lvl2"><a href="#kapittel-7-partilovnemnda">Kapittel 7. Partilovnemnda</a></li>
+<li class="lvl4"><a href="#7-1-partilovnemndas-sammensetning">§ 7-1. Partilovnemndas sammensetning</a></li>
+<li class="lvl4"><a href="#7-2-beslutningsdyktighet-mteform-etc">§ 7-2. Beslutningsdyktighet, møteform etc.</a></li>
+<li class="lvl4"><a href="#7-3-forholdet-til-tjenestemannsloven">§ 7-3. Forholdet til Tjenestemannsloven</a></li>
+<li class="lvl2"><a href="#kapittel-8-partirevisjonsutvalget">Kapittel 8. Partirevisjonsutvalget</a></li>
+<li class="lvl4"><a href="#8-1-formal">§ 8-1. Formål</a></li>
+<li class="lvl4"><a href="#8-2-myndighet-og-oppgaver">§ 8-2. Myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#8-3-gjennomfring-av-kontroll">§ 8-3. Gjennomføring av kontroll</a></li>
+<li class="lvl4"><a href="#8-4-oppnevning-og-sammensetning">§ 8-4. Oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#8-5-forholdet-til-andre-lover">§ 8-5. Forholdet til andre lover</a></li>
+<li class="lvl4"><a href="#8-6-habilitet">§ 8-6. Habilitet</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#veiledermerknader-til-partilovforskriften-kapittel-3-4-og-5-versjon-11">Veileder/merknader til partilovforskriften kapittel 3, 4 og 5 (versjon 1.1)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-06-343.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-05-107.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om visse forhold vedrørende de politiske partiene (partilovforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-02-05-107.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-02-05-107 <code>forskrift/2014-02-05-107</code></td></tr>
+<tr><th>Korttittel</th><td>Partilovforskriften</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>05.02.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-06-343 <code>forskrift/2026-03-06-343</code> fra 06.03.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-02-05-107" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-registrering-av-politiske-partier">Kapittel 1. Registrering av politiske partier</a></li>
+<li class="lvl4"><a href="#1-1-om-fremsetting-av-sknaden-krav-til-underskrift">§ 1-1. Om fremsetting av søknaden. Krav til underskrift</a></li>
+<li class="lvl4"><a href="#1-2-opplysninger-som-skal-registreres-i-partiregisteret-offentlighet">§ 1-2. Opplysninger som skal registreres i Partiregisteret. Offentlighet</a></li>
+<li class="lvl4"><a href="#1-3-partiets-utvende-organ-melding-om-endringer">§ 1-3. Partiets utøvende organ – melding om endringer</a></li>
+<li class="lvl4"><a href="#1-4-underretning-om-registrerte-endringer">§ 1-4. Underretning om registrerte endringer</a></li>
+<li class="lvl4"><a href="#1-5-opplysninger-som-skal-legges-til-grunn-ved-valg">§ 1-5. Opplysninger som skal legges til grunn ved valg</a></li>
+<li class="lvl4"><a href="#1-6-motstridende-opplysninger">§ 1-6. Motstridende opplysninger</a></li>
+<li class="lvl4"><a href="#1-7-kunngjring-av-vedtak-varsel-til-de-andre-registrerte-partiene">§ 1-7. Kunngjøring av vedtak. Varsel til de andre registrerte partiene</a></li>
+<li class="lvl4"><a href="#1-8-klage">§ 1-8. Klage</a></li>
+<li class="lvl2"><a href="#kapittel-2-innberetning">Kapittel 2. Innberetning</a></li>
+<li class="lvl4"><a href="#2-1-det-sentrale-registeret-for-innberetning-av-opplysninger-om-partifinansieringen">§ 2-1. Det sentrale registeret for innberetning av opplysninger om partifinansieringen</a></li>
+<li class="lvl4"><a href="#2-2-innberetningenes-form">§ 2-2. Innberetningenes form</a></li>
+<li class="lvl4"><a href="#2-3-offentliggjring">§ 2-3. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#2-4-fortegnelse-over-innberetningspliktige-enheter">§ 2-4. Fortegnelse over innberetningspliktige enheter</a></li>
+<li class="lvl4"><a href="#2-5-melding-om-brudd-pa-innberetningsplikten">§ 2-5. Melding om brudd på innberetningsplikten</a></li>
+<li class="lvl4"><a href="#2-6-arkiv-retningslinjer-mv">§ 2-6. Arkiv, retningslinjer mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-regnskapsbestemmelser">Kapittel 3. Regnskapsbestemmelser</a></li>
+<li class="lvl4"><a href="#3-1-virkeomrade">§ 3-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-2-grunnleggende-krav-til-arsregnskapet-regnskapsprinsipper">§ 3-2. Grunnleggende krav til årsregnskapet – regnskapsprinsipper</a></li>
+<li class="lvl4"><a href="#3-3-vurderingsregler">§ 3-3. Vurderingsregler</a></li>
+<li class="lvl4"><a href="#3-4-regnskapsaret">§ 3-4. Regnskapsåret</a></li>
+<li class="lvl4"><a href="#3-5-arsregnskapet">§ 3-5. Årsregnskapet</a></li>
+<li class="lvl4"><a href="#3-6-oppstillingsplan-resultatregnskap">§ 3-6. Oppstillingsplan resultatregnskap</a></li>
+<li class="lvl4"><a href="#3-7-oppstillingsplan-for-balansen">§ 3-7. Oppstillingsplan for balansen</a></li>
+<li class="lvl4"><a href="#3-8-noteopplysninger">§ 3-8. Noteopplysninger</a></li>
+<li class="lvl4"><a href="#3-9-bidrag-og-avtaler-mv">§ 3-9. Bidrag og avtaler mv.</a></li>
+<li class="lvl4"><a href="#3-10-spesifisering-av-kostnader-etter-art">§ 3-10. Spesifisering av kostnader etter art</a></li>
+<li class="lvl4"><a href="#3-11-fordringer-gjeld-og-garantiforpliktelser">§ 3-11. Fordringer, gjeld og garantiforpliktelser</a></li>
+<li class="lvl4"><a href="#3-12-ytelser-lan-og-sikkerhetsstillelse-til-ledende-personer-og-revisor">§ 3-12. Ytelser, lån og sikkerhetsstillelse til ledende personer og revisor</a></li>
+<li class="lvl4"><a href="#3-13-antall-ansatte-og-medlemmer">§ 3-13. Antall ansatte og medlemmer</a></li>
+<li class="lvl4"><a href="#3-14-anleggsmidler">§ 3-14. Anleggsmidler</a></li>
+<li class="lvl4"><a href="#3-15-eierandeler-i-selskaper-og-andre-organisasjoner">§ 3-15. Eierandeler i selskaper og andre organisasjoner</a></li>
+<li class="lvl4"><a href="#3-16-pensjonsforpliktelser">§ 3-16. Pensjonsforpliktelser</a></li>
+<li class="lvl4"><a href="#3-17-avvikling">§ 3-17. Avvikling</a></li>
+<li class="lvl2"><a href="#kapittel-4-bokfringsbestemmelser">Kapittel 4. Bokføringsbestemmelser</a></li>
+<li class="lvl4"><a href="#4-1-virkeomrade">§ 4-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-grunnleggende-bokfringsprinsipper">§ 4-2. Grunnleggende bokføringsprinsipper</a></li>
+<li class="lvl4"><a href="#4-3-spesifikasjoner-i-tilknytning-til-arsregnskapet">§ 4-3. Spesifikasjoner i tilknytning til årsregnskapet</a></li>
+<li class="lvl4"><a href="#4-4-bokfring-og-ajourhold">§ 4-4. Bokføring og ajourhold</a></li>
+<li class="lvl4"><a href="#4-5-retting-av-opplysninger">§ 4-5. Retting av opplysninger</a></li>
+<li class="lvl4"><a href="#4-6-dokumentasjon-av-bokfrte-opplysninger">§ 4-6. Dokumentasjon av bokførte opplysninger</a></li>
+<li class="lvl4"><a href="#4-7-dokumentasjon-av-salg-av-varer-og-tjenester">§ 4-7. Dokumentasjon av salg av varer og tjenester</a></li>
+<li class="lvl4"><a href="#4-8-dokumentasjon-av-kontantsalg">§ 4-8. Dokumentasjon av kontantsalg</a></li>
+<li class="lvl4"><a href="#4-9-dokumentasjon-av-kjp">§ 4-9. Dokumentasjon av kjøp</a></li>
+<li class="lvl4"><a href="#4-10-dokumentasjon-av-lnn">§ 4-10. Dokumentasjon av lønn</a></li>
+<li class="lvl4"><a href="#4-11-reise-og-oppholdsutgifter">§ 4-11. Reise- og oppholdsutgifter</a></li>
+<li class="lvl4"><a href="#4-12-betalingstransaksjoner">§ 4-12. Betalingstransaksjoner</a></li>
+<li class="lvl4"><a href="#4-13-dokumentasjon-av-andre-regnskapsmessige-disposisjoner">§ 4-13. Dokumentasjon av andre regnskapsmessige disposisjoner</a></li>
+<li class="lvl4"><a href="#4-14-dokumentasjon-av-balansen">§ 4-14. Dokumentasjon av balansen</a></li>
+<li class="lvl4"><a href="#4-15-oppbevaring">§ 4-15. Oppbevaring</a></li>
+<li class="lvl4"><a href="#4-16-dokumentasjon-av-innberettede-opplysninger">§ 4-16. Dokumentasjon av innberettede opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-5-ulovlige-bidrag">Kapittel 5. Ulovlige bidrag</a></li>
+<li class="lvl4"><a href="#5-1-verdifastsetting-av-ulovlige-bidrag-og-overfring-til-statskassen">§ 5-1. Verdifastsetting av ulovlige bidrag og overføring til statskassen</a></li>
+<li class="lvl2"><a href="#kapittel-6-avkorting-av-partisttte">Kapittel 6. Avkorting av partistøtte</a></li>
+<li class="lvl4"><a href="#6-1-vedtak-om-avkorting-av-sttte">§ 6-1. Vedtak om avkorting av støtte</a></li>
+<li class="lvl4"><a href="#6-2-midlertidig-tilbakeholdelse-av-sttte">§ 6-2. Midlertidig tilbakeholdelse av støtte</a></li>
+<li class="lvl4"><a href="#6-3-klage-og-omgjring">§ 6-3. Klage og omgjøring</a></li>
+<li class="lvl4"><a href="#6-4-underretting-om-vedtak">§ 6-4. Underretting om vedtak</a></li>
+<li class="lvl4"><a href="#6-5-utbetaling-av-tilbakeholdt-eller-avkortet-sttte">§ 6-5. Utbetaling av tilbakeholdt eller avkortet støtte</a></li>
+<li class="lvl2"><a href="#kapittel-7-partilovnemnda">Kapittel 7. Partilovnemnda</a></li>
+<li class="lvl4"><a href="#7-1-partilovnemndas-sammensetning">§ 7-1. Partilovnemndas sammensetning</a></li>
+<li class="lvl4"><a href="#7-2-beslutningsdyktighet-mteform-etc">§ 7-2. Beslutningsdyktighet, møteform etc.</a></li>
+<li class="lvl4"><a href="#7-3-forholdet-til-tjenestemannsloven">§ 7-3. Forholdet til Tjenestemannsloven</a></li>
+<li class="lvl2"><a href="#kapittel-8-partirevisjonsutvalget">Kapittel 8. Partirevisjonsutvalget</a></li>
+<li class="lvl4"><a href="#8-1-formal">§ 8-1. Formål</a></li>
+<li class="lvl4"><a href="#8-2-myndighet-og-oppgaver">§ 8-2. Myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#8-3-gjennomfring-av-kontroll">§ 8-3. Gjennomføring av kontroll</a></li>
+<li class="lvl4"><a href="#8-4-oppnevning-og-sammensetning">§ 8-4. Oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#8-5-forholdet-til-andre-lover">§ 8-5. Forholdet til andre lover</a></li>
+<li class="lvl4"><a href="#8-6-habilitet">§ 8-6. Habilitet</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#veiledermerknader-til-partilovforskriften-kapittel-3-4-og-5-versjon-11">Veileder/merknader til partilovforskriften kapittel 3, 4 og 5 (versjon 1.1)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-05-107.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-02-05-107.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-05-107.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-02-05-107.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-02-05-107.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-02-05-107.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-02-05-107.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-02-05-107.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-02-05-107.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-visse-forhold-vedrrende-de-politiske-partiene-partilovforskriften">Forskrift om visse forhold vedrørende de politiske partiene (partilovforskriften)</h1>
 <h2 id="kapittel-1-registrering-av-politiske-partier">Kapittel 1. Registrering av politiske partier</h2>
 <h4 id="1-1-om-fremsetting-av-sknaden-krav-til-underskrift">§ 1-1. Om fremsetting av søknaden. Krav til underskrift</h4>
 <p>(1) Registerfører er Registerenheten i Brønnøysund.</p>
@@ -129,7 +320,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Partier og partiledd som i løpet av regnskapsåret har hatt samlede inntekter på under 17 000 kroner etter fradrag av all offentlig støtte, er unntatt fra reglene i dette kapittelet og reglene i kapittel 4 .</p>
 <p>(3) Partier og partiledd som kun baserer seg på innsats fra frivillige og som ikke dekker lønn eller pensjonsytelser, er unntatt fra reglene i § 3-3 annet ledd bokstav b, § 3-7 fjerde ledd nr. 1, § 3-10 bokstav a og § 3-16 i denne forskriften.</p>
 <p>(4) For partier og partiledd som har regnskapsplikt etter regnskapsloven, gjelder kun § 3-6 , § 3-8 til § 3-17 og § 3-7 nr. 3.</p>
-<p><em>Endret ved forskrift 6 mars 2026 nr. 343 .</em></p>
+<p class="note">Endret ved forskrift 6 mars 2026 nr. 343 .</p>
 <h4 id="3-2-grunnleggende-krav-til-arsregnskapet-regnskapsprinsipper">§ 3-2. Grunnleggende krav til årsregnskapet – regnskapsprinsipper</h4>
 <p>(1) Årsregnskapet skal oppfylle følgende krav:</p>
 <p>a. Inntekter skal registreres i den periode de er inntjent. Utgifter skal registreres senest i den periode de er påløpt.
@@ -208,7 +399,7 @@ Formålskapital og gjeld: Formålskapital Formålskapital med eksternt pålagte 
 <p>(3) Det skal opplyses om sponsoravtaler dersom verdien av ytelsene fra den det er inngått sponsoravtale med, overskrider beløpsgrensene i første ledd. Sponsors identitet skal oppgis i samsvar med første ledd.</p>
 <p>(4) Det skal opplyses om bidrag til organisasjoner eller enheter som direkte eller indirekte kontrolleres av eller på annen måte er knyttet til parti eller partiledd som nevnt i partiloven § 1 , dersom samlet verdi overskrider beløpsgrensene i første ledd. Bidragsyters identitet skal oppgis i samsvar med første ledd.</p>
 <p>(5) Dersom partiet eller partileddet har inngått låneavtale, skal det opplyses om långivers identitet og lånebeløpet dersom låneavtalens pålydende verdi overskrider beløpsgrensene i første ledd. Långivers identitet skal oppgis i samsvar med første ledd.</p>
-<p><em>Endret ved forskrift 6 mars 2026 nr. 343 .</em></p>
+<p class="note">Endret ved forskrift 6 mars 2026 nr. 343 .</p>
 <h4 id="3-10-spesifisering-av-kostnader-etter-art">§ 3-10. Spesifisering av kostnader etter art</h4>
 <p>Partier og partiledd skal i tillegg til å gi en fullstendig oversikt over kostnader fordelt på aktiviteter, gi en oversikt over kostnadene etter art. Fordelingen skal gjøres slik:</p>
 <p>a. Lønnskostnader
@@ -373,43 +564,45 @@ b. når det er tvil om at partiet eller partileddet eksisterer.</p>
 <p>(3) Nemnda velger selv sin møteform og møtehyppighet.</p>
 <h4 id="7-3-forholdet-til-tjenestemannsloven">§ 7-3. Forholdet til Tjenestemannsloven <a class="para-history" href="../historikk/forskrift-2014-02-05-107/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tjenestemannsloven § 14 , § 15 og § 20 gjelder tilsvarende for Partilovnemndas medlemmer.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h2 id="kapittel-8-partirevisjonsutvalget">Kapittel 8. Partirevisjonsutvalget</h2>
 <p>Kapittel 8 tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-1-formal">§ 8-1. Formål</h4>
 <p>Partirevisjonsutvalget skal bistå nemnda i kontrollen med at partier og partiledd etterlever partiloven kapittel 4 , med det formål å sikre offentlighetens rett til innsyn i finansieringen av politiske partier og partiledd, og å motvirke korrupsjon.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-2-myndighet-og-oppgaver">§ 8-2. Myndighet og oppgaver</h4>
 <p>(1) Partirevisjonsutvalgets oppgaver følger av partiloven § 24 fjerde til sjette ledd og de utfyllende bestemmelser som er gitt i denne forskriften.</p>
 <p>(2) Partirevisjonsutvalget iverksetter kontrolloppdrag etter instruks fra Partilovnemnda. Det er kun Partilovnemnda som har instruksjonsmyndighet over Partirevisjonsutvalget.</p>
 <p>(3) Det må klart fremgå i kommunikasjon mellom Partirevisjonsutvalget og partiet eller partileddet om Partirevisjonsutvalget i den enkelte situasjon utøver kontroll eller om det gir veiledning.</p>
 <p>(4) Partirevisjonsutvalget har ikke myndighet til å fatte enkeltvedtak.</p>
 <p>(5) Utvalget skal sende skriftlig rapport til Partilovnemnda om funn som har betydning for etterlevelsen av pliktene i partiloven kapittel 4 og straffeloven § 276 a til § 276 c. Utvalget skal rapportere eventuelle brudd på habilitetsreglene i partiloven § 21a til Finanstilsynet. Utvalgets rapporter godkjennes og signeres av Partirevisjonsutvalgets leder.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-3-gjennomfring-av-kontroll">§ 8-3. Gjennomføring av kontroll</h4>
 <p>(1) Kontroll skal som hovedregel gjennomføres skriftlig (dokumentbasert). Ved skriftlig kontroll skal svarfristen for partiet eller partileddet ikke være kortere enn tre uker. Elektronisk oversendelse av dokumenter kan benyttes i den grad dette gir fullgod dokumentasjon. Ved tvil avgjøres saken av Partilovnemnda.</p>
 <p>(2) Stedlig kontroll krever samtykke fra partiets eller partileddets styreleder eller daglige leder. Ved stedlig kontroll skal daglig leder, styreleder eller annet styremedlem i partiet eller partileddet være tilstede. Ved stedlig kontroll skal tidspunkt for kontrollen avtales med partiet eller partilaget minst tre uker før kontroll gjennomføres.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-4-oppnevning-og-sammensetning">§ 8-4. Oppnevning og sammensetning</h4>
 <p>(1) Partirevisjonsutvalget oppnevnes av Partilovnemnda for en periode på seks år. Nemnda kan bestemme at et medlem av utvalget skal oppnevnes for kortere tid. Medlemmer av Partirevisjonsutvalget kan sitte i utvalget i inntil 12 sammenhengende år.</p>
 <p>(2) Partirevisjonsutvalget skal ha minst to medlemmer. Alle medlemmene skal være revisorer godkjent etter revisorloven kapittel 3 .</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-5-forholdet-til-andre-lover">§ 8-5. Forholdet til andre lover</h4>
 <p>(1) Reglene i forvaltningsloven og offentleglova gjelder for Partirevisjonsutvalget.</p>
 <p>(2) Tjenestemannsloven § 14 , § 15 og § 20 gjelder tilsvarende for Partirevisjonsutvalgets medlemmer.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h4 id="8-6-habilitet">§ 8-6. Habilitet</h4>
 <p>Partiloven § 21a tredje ledd gjelder tilsvarende for Partirevisjonsutvalgets medlemmer.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2015 nr. 118 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2015 nr. 118 .</p>
 <h2 id="kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</h2>
 <p>Endret ved forskrift 11 feb 2015 nr. 118 (tidligere kapittel 8).</p>
 <h4 id="9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft straks.</p>
 <p>Samtidig oppheves forskrift 16. mars 2006 nr. 321 om visse forhold vedrørende de politiske partiene (partilovforskriften).</p>
-<p><em>Endret ved forskrift 11 feb 2015 nr. 118 (tidligere § 8-1).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2015 nr. 118 (tidligere § 8-1).</p>
 <h2 id="veiledermerknader-til-partilovforskriften-kapittel-3-4-og-5-versjon-11">Veileder/merknader til partilovforskriften kapittel 3, 4 og 5 (versjon 1.1)</h2>
 <p>Se her for å lese dokumentet: (pdf)</p>
 <p>Endret uten kunngjøring 3 mars 2016, 1 des 2018.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

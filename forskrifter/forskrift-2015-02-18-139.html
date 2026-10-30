@@ -19,64 +19,135 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-02-18-139.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om frivillig merking med Nøkkelhullet" href="../feeds/forskrift-2015-02-18-139.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om frivillig merking med Nøkkelhullet</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-02-18-139</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-03-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-02-22-531</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-02-18-139" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-nkkelhullets-utforming">§ 3. Nøkkelhullets utforming</a></li>
+<li class="lvl3"><a href="#4-produkter-som-kan-merkes-med-nkkelhullet">§ 4. Produkter som kan merkes med Nøkkelhullet</a></li>
+<li class="lvl3"><a href="#5-produkter-som-ikke-kan-merkes-med-nkkelhullet">§ 5. Produkter som ikke kan merkes med Nøkkelhullet</a></li>
+<li class="lvl3"><a href="#6-krav-om-opplysninger-for-ikke-ferdigpakkede-nringsmidler">§ 6. Krav om opplysninger for ikke ferdigpakkede næringsmidler</a></li>
+<li class="lvl3"><a href="#7-generelle-vilkar">§ 7. Generelle vilkår</a></li>
+<li class="lvl3"><a href="#8-tilsyn-og-vedtak">§ 8. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#9-straff">§ 9. Straff</a></li>
+<li class="lvl3"><a href="#10-overgangsbestemmelse">§ 10. Overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#11-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 11. Ikrafttredelse og opphevelse av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-grafisk-utforming">Vedlegg 1. Grafisk utforming</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-02-22-531.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-02-18-139.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om frivillig merking av næringsmidler med Nøkkelhullet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-02-18-139.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-02-18-139 <code>forskrift/2015-02-18-139</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om frivillig merking med Nøkkelhullet</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-02-22-531 <code>forskrift/2021-02-22-531</code> fra 01.03.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-02-18-139" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl3"><a href="#3-nkkelhullets-utforming">§ 3. Nøkkelhullets utforming</a></li>
+<li class="lvl3"><a href="#4-produkter-som-kan-merkes-med-nkkelhullet">§ 4. Produkter som kan merkes med Nøkkelhullet</a></li>
+<li class="lvl3"><a href="#5-produkter-som-ikke-kan-merkes-med-nkkelhullet">§ 5. Produkter som ikke kan merkes med Nøkkelhullet</a></li>
+<li class="lvl3"><a href="#6-krav-om-opplysninger-for-ikke-ferdigpakkede-nringsmidler">§ 6. Krav om opplysninger for ikke ferdigpakkede næringsmidler</a></li>
+<li class="lvl3"><a href="#7-generelle-vilkar">§ 7. Generelle vilkår</a></li>
+<li class="lvl3"><a href="#8-tilsyn-og-vedtak">§ 8. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#9-straff">§ 9. Straff</a></li>
+<li class="lvl3"><a href="#10-overgangsbestemmelse">§ 10. Overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#11-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 11. Ikrafttredelse og opphevelse av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-grafisk-utforming">Vedlegg 1. Grafisk utforming</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-02-18-139.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-02-18-139.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-02-18-139.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-02-18-139.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-02-18-139.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-02-18-139.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-02-18-139.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-02-18-139.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-02-18-139.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-frivillig-merking-av-nringsmidler-med-nkkelhullet">Forskrift om frivillig merking av næringsmidler med Nøkkelhullet</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Denne forskriften gjelder frivillig merking og presentasjon av næringsmidler med Nøkkelhullet. Nøkkelhullet kan benyttes for næringsmidler i de næringsmiddelgruppene som angis i vedlegg 2 som oppfyller kravene til innhold av fett, sukkerarter, kostfiber eller salt.</p>
 <h3 id="2-definisjoner">§ 2. Definisjoner</h3>
@@ -94,7 +165,7 @@ i. Tilsatte sukkerarter: alle mono- og disakkarider som tilsettes under produksj
 Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
 <h3 id="3-nkkelhullets-utforming">§ 3. Nøkkelhullets utforming</h3>
 <p>Nøkkelhullets grafiske utforming skal være som angitt i vedlegg 1. Nøkkelhullet skal trykkes med grønn eller svart farge.</p>
-<p><em>Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
+<p class="note">Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</p>
 <h3 id="4-produkter-som-kan-merkes-med-nkkelhullet">§ 4. Produkter som kan merkes med Nøkkelhullet</h3>
 <p>Nøkkelhullet kan benyttes ved merking og presentasjon av næringsmidler, hvis de etter plassering i rett næringsmiddelgruppe, oppfyller samtlige vilkår for den aktuelle næringsmiddelgruppen angitt i vedlegg 2.</p>
 <p>Nøkkelhullet kan benyttes på:</p>
@@ -110,7 +181,7 @@ Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
   g. fiskerivarer (næringsmiddelgruppe 21)
   h. kjøtt (næringsmiddelgruppe 23).</li>
 </ol>
-<p><em>Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
+<p class="note">Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</p>
 <h3 id="5-produkter-som-ikke-kan-merkes-med-nkkelhullet">§ 5. Produkter som ikke kan merkes med Nøkkelhullet</h3>
 <p>Nøkkelhullet kan ikke benyttes på:</p>
 <ol>
@@ -120,7 +191,7 @@ Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
   c. plantesteroler, plantesterolestere, plantestanoler eller plantestanolestere</li>
 <li>spesielle næringsmidler til bruk for barn under 3 år.</li>
 </ol>
-<p><em>Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
+<p class="note">Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</p>
 <h3 id="6-krav-om-opplysninger-for-ikke-ferdigpakkede-nringsmidler">§ 6. Krav om opplysninger for ikke ferdigpakkede næringsmidler</h3>
 <p>Benyttes Nøkkelhullet ved presentasjon av ikke ferdigpakkede næringsmidler omfattet av næringsmiddelgruppene under her, skal virksomheten på anmodning kunne opplyse om grunnlaget for bruken av Nøkkelhullet:</p>
 <p>a. brød (næringsmiddelgruppe 8 a og 8 b)
@@ -139,7 +210,7 @@ b. Fett, sukkerarter eller salt kan bare tilsettes næringsmidler i de næringsm
 <h3 id="10-overgangsbestemmelse">§ 10. Overgangsbestemmelse</h3>
 <p>Inntil 1. september 2022 tillates produksjon og merking av næringsmidler i samsvar med forskrift 18. februar 2015 nr. 139 om frivillig merking av næringsmidler med Nøkkelhullet . Disse næringsmidlene kan omsettes inntil lagrene er tomme.</p>
 <p>Næringsmidler kan produseres og merkes med Nøkkelhullet etterfulgt av merket ®, jf. § 3 og vedlegg 1 i forskrift 18. februar 2015 nr. 139 om frivillig merking av næringsmidler med Nøkkelhullet , frem til 1. september 2024. Næringsmidler som er merket med Nøkkelhullet etterfulgt av merket ®, kan omsettes inntil lagrene er tomme.</p>
-<p><em>Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</em></p>
+<p class="note">Endret ved forskrift 22 feb 2021 nr. 531 (i kraft 1 mars 2021).</p>
 <h3 id="11-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 11. Ikrafttredelse og opphevelse av andre forskrifter</h3>
 <p>Denne forskriften trer i kraft 1. mars 2015.</p>
 <p>Samtidig oppheves forskrift 17. juni 2009 nr. 665 om frivillig merking av næringsmidler med Nøkkelhullet.</p>
@@ -149,6 +220,8 @@ b. Fett, sukkerarter eller salt kan bare tilsettes næringsmidler i de næringsm
 <h2 id="vedlegg-2">Vedlegg 2</h2>
 <p>Næringsmiddelgrupper som kan merkes med Nøkkelhullet og vilkår for den enkelte gruppe: Næringsmiddelgruppe Vilkår Grønnsaker, frukt, bær og nøtter 1 Grønnsaker, rotfrukter, belgvekster (unntatt peanøtter) og poteter. Produktene kan være foredlet. Uforedlede krydderurter omfattes også. – tilsatt fett høyst 3 g/100 g – tilsatt fett kan høyst inneholde 20 % mettet fett – tilsatte sukkerarter høyst 1 g/100 g – salt høyst 0,5 g/100 g 2 Frukt og bær som er uforedlet. Produktene kan likevel være varmebehandlet. 3 Nøtter og peanøtter som er uforedlet. Produktene kan likevel være varmebehandlet. – mettede fettsyrer høyst 10 g/100 g Mel, gryn og ris 4 Mel, gryn og flak av korn som inneholder 100 % fullkorn av korndelens tørrstoffinnhold. Kli og kim er unntatt fra kravet til fullkorn. Fullkornet kan helt eller delvis erstattes med grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) og rotfrukter for samme anvendelsesområde. – kostfiber minst 6 g/100 g 5 Ris som inneholder 100 % fullkorn av produktets tørrstoffinnhold. – kostfiber minst 3 g/100 g 6 Kornblandinger og frokostblandinger som inneholder minst 55 % fullkorn av produktets tørrstoffinnhold. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse ved beregningen av fullkornsmengden. Glutenfrie kornblandinger og frokostkorn skal inneholde minst 20 % fullkorn av produktets tørrstoffinnhold. – fett høyst 8 g/100 g – sukkerarter høyst 13 g/100 g – hvorav tilsatte sukkerarter høyst 9 g/100 g – kostfiber minst 6 g/100 g – salt høyst 1,0 g/100 g Grøt, brød og pasta 7 Grøt og grøtpulver (tilberedt ifølge produsentens anvisning) som inneholder minst 55 % fullkorn av produktets tørrstoffinnhold. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse, ved beregningen av fullkornsmengden. – fett høyst 4 g/100 g – sukkerarter høyst 5 g/100 g – kostfiber minst 1 g/100 g – salt høyst 0,3 g/100 g Vilkårene gjelder for det spiseklare produktet. 8 a) Brød og brødmikser hvor bare væske og eventuelt gjær skal tilsettes, og som inneholder minst 30 % fullkorn av produktets tørrstoffinnhold. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse, ved beregningen av fullkornsmengden. Produkter i gruppe 8 b) omfattes ikke. Glutenfrie brød og brødmikser skal inneholde minst 10 % fullkorn av produktets tørrstoffinnhold. – fett høyst 7 g/100 g – sukkerarter høyst 5 g/100 g – kostfiber minst 5 g/100 g – salt høyst 1,0 g/100 g Vilkårene gjelder for det spiseklare produktet. 8 b) Rugbrød og andre rugbaserte produkter samt brødmikser hvor bare væske og eventuelt gjær skal tilsettes, som inneholder minst 35 % fullkorn av produktets tørrstoffinnhold. I produktene skal minst 30 % av kornsortene være rug. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse, ved beregningen av fullkornsmengden. – fett høyst 7 g/100 g – sukkerarter høyst 5 g/100 g – kostfiber minst 6 g/100 g – salt høyst 1,2 g/100 g Vilkårene gjelder for det spiseklare produktet. 9 Knekkebrød, skonroker og melmikser til slike produkter, hvor bare væske og eventuelt gjær skal tilsettes. Produktet skal inneholde minst 50 % fullkorn av produktets tørrstoffinnhold. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse, ved beregningen av fullkornsmengden. Tilsvarende glutenfrie produkter skal inneholde minst 15 % fullkorn av produktets tørrstoffinnhold. – fett høyst 7 g/100 g – sukkerarter høyst 5 g/100 g – kostfiber minst 6 g/100 g – salt høyst 1,3 g/100 g Vilkårene gjelder for det spiseklare produktet. 10 Pasta (ikke fylt) Produktet skal inneholde minst 50 % fullkorn av produktets tørrstoffinnhold. Inneholder produktet grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter, medregnes ikke den andelen av produktet som utgjøres av disse, ved beregningen av fullkornsmengden. Glutenfri pasta (ikke fylt) har ikke krav til fullkorn. – kostfiber minst 6 g/100 g – salt høyst 0,1 g/100 g Vilkårene gjelder for produktets tørrstoffinnhold. Melk, syrnede melkeprodukter og vegetabilske alternativer 11 a) Melk og syrnede melkeprodukter som er beregnet til å drikke, uten tilsatt smak. Tilsvarende laktosefrie produkter og laktosefrie melkedrikker omfattes også. – fett høyst 0,7 g/100 g 11 b) Vegetabilske produkter med samme bruksområde som produkter i gruppe 11 a), uten tilsatt smak. – fett høyst 1,5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,1 g/100 g 12 a) Syrnede melkeprodukter som ikke er beregnet til å drikke, uten tilsatt smak. Tilsvarende laktosefrie produkter omfattes også. – fett høyst 1,5 g/100 g 12 b) Vegetabilske produkter med samme bruksområde som produkter i gruppe 12 a), uten tilsatt smak. – fett høyst 1,5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,1 g/100 g 13 a) Syrnede melkeprodukter som ikke er beregnet til å drikke, med tilsatt smak. Tilsvarende laktosefrie produkter omfattes også. – fett høyst 1,5 g/100 g – tilsatte sukkerarter høyst 4 g/100 g 13 b) Vegetabilske produkter med samme bruksområde som produkter i gruppe 13 a), med tilsatt smak. – fett høyst 1,5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 8 g/100 g – salt høyst 0,1 g/100 g 14 a) Produkter som består av en blanding av melk og fløte med samme bruksområde som fløte og tilsvarende syrnede produkter, uten tilsatt smak. Tilsvarende laktosefrie produkter omfattes også. – fett høyst 5 g/100 g 14 b) Helt eller delvis vegetabilske produkter med samme bruksområde som produkter i gruppe 14 a) uten tilsatt smak. – fett høyst 5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,3 g/100 g 15 a) Produkter som består av en blanding av melk og fløte med samme bruksområde som fløte og tilsvarende syrnede produkter, med tilsatt smak. Tilsvarende laktosefrie produkter omfattes også. – fett høyst 5 g/100 g – sukkerarter høyst 5 g/100 g – salt høyst 0,8 g/100 g 15 b) Helt eller delvis vegetabilske produkter med samme bruksområde som produkter i gruppe 15 a) med tilsatt smak. – fett høyst 5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,8 g/100 g Ost og vegetabilske alternativer 16 Oster, unntatt ferskoster i gruppe 18. Produktene kan være tilsatt smak. – fett høyst 17 g/100 g – salt høyst 1,6 g/100 g 17 Helt eller delvis vegetabilske produkter med samme bruksområde som produkter i gruppe 16. Produktene kan være tilsatt smak. – fett høyst 17 g/100 g – mettede fettsyrer høyst 20 % av fettinnholdet – salt høyst 1,5 g/100 g 18 Ferskoster og tilsvarende produkter. Produktene kan være tilsatt smak. – fett høyst 5 g/100 g – salt høyst 0,9 g/100 g – tilsatte sukkerarter høyst 1 g/100 g Matfett og oljer 19 Matfett og matfettblandinger. Produktene kan være tilsatt smak. – fett høyst 80 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – salt høyst 1,1 g/100 g 20 Matoljer, flytende matfett og flytende matfettblandinger. Produktene kan være tilsatt smak. – mettede fettsyrer høyst 20 % av fettinnholdet – salt høyst 1,0 g/100 g Fiskerivarer og produkter av fiskerivarer 21 Fiskerivarer og levende muslinger. Produktene kan være bearbeidede. 22 Produkter framstilt av minst 50 % foredlede fiskerivarer. Produktet kan inneholde saus eller lake. Prosentandelen og vilkårene gjelder for den delen av produktet som er beregnet til å spise. Produktet kan være panert, hvis tilberedningen ifølge produsentens anvisning, ikke tilfører produktet fett. 22 a) Produkter som ikke omfattes av gruppene 22 b–d. – annet fett enn fiskefett høyst 10 g/100 g – sukkerarter høyst 5 g/100 g – salt høyst 1,5 g/100 g 22 b) Påleggsprodukter, skivet. – annet fett enn fiskefett høyst 10 g/100 g – sukkerarter høyst 5 g/100 g – salt høyst 2,5 g/100 g 22 c) Røkt eller gravet fisk. – annet fett enn fiskefett høyst 10 g/100 g – sukkerarter høyst 5 g/100 g – salt høyst 3,0 g/100 g 22 d) Kaviar og andre halvkonserver av fisk. – annet fett enn fiskefett høyst 10 g/100 g – sukkerarter høyst 5 g/100 g – salt høyst 3,0 g/100 Kjøtt og produkter som inneholder kjøtt 23 Kjøtt som er uforedlet. – fett høyst 10 g/100 g 24 Kjøtt og produkter som inneholder kjøtt. Minst 50 % av produktet skal være framstilt av kjøtt, korn (100 % fullkorn), grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter) eller rotfrukter. Innholdet av kjøtt skal likevel være minst 20 % av produktet. Dette gjelder ikke for leverpostei som skal inneholde minst 35 % kjøtt. Produktet kan inneholde saus eller lake. Prosentandelen og vilkårene gjelder for den delen av produktet som er beregnet til å spise. Produktet kan være panert, hvis tilberedningen ifølge produsentens anvisning, ikke tilfører produktet fett. 24 a) Rå produkter av hele eller utskårne kjøttstykker som er overflatemarinert eller krydret. – for stikksaltede produkter likevel – fett høyst 10 g100g – sukkerarter høyst 3 g/100g – salt høyst 1,0 g/100 g – salt høyst 0,5 g/100 g 24 b) Rå eller spiseklare produkter som inneholder kvernet kjøtt. – for pølser likevel – for påleggspølser likevel – for karbonadedeig likevel – fett høyst 10 g/100 g – tilsatte sukkerarter høyst 3 g/100g – salt høyst 1,7 g/100 g – salt høyst 2,0 g/100 g – salt høyst 2,2 g/100 g – salt høyst 1,0 g/100 g – sukkerarter høyst 3 g/100 g 24 c) Spiseklare eller røkte produkter som inneholder helt eller utskåret kjøtt, og som ikke omfattes av gruppe 24 b). – for påleggsprodukter likevel – fett høyst 10 g/100 g – tilsatte sukkerarter høyst 3 g/100g – salt høyst 2,0 g/100 g – salt høyst 2,5 g Helt eller delvis vegetabilske produkter 25 Helt eller delvis vegetabilske produkter med samme anvendelsesområde som fiske- og kjøttprodukter i gruppene 22 og 24. Produktet skal bestå av minst 50 % korn (100 % fullkorn), grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller ikke-animalsk protein. Produktet skal ikke inneholde kjøtt eller fiskerivarer. Produktet kan inneholde saus eller lake. Prosentandelen og vilkårene gjelder for den delen av produktet som er beregnet til å spise. Produktet kan være panert, hvis tilberedningen ifølge produsentens anvisning, ikke tilfører produktet fett. 25 a) Skivede påleggsprodukter – fett høyst 10 g/100 g – mettede fettsyrer høyst 3,5 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 1,5 g/100 g 25 b) For øvrige produkter i gruppe 25 – fett høyst 10 g/100 g – mettede fettsyrer høyst 3,5 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 1,0 g/100 g Ferdigretter 26 Ferdigretter med grønnsaker, en proteindel og en karbohydratdel. Produkter med: – minst 28 g grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller frukt og bær per 100 g produkt, – en proteindel, og – en karbohydratdel, og som ikke er omfattet av gruppene 27, 28, 29, eller 30. Hvis rettens karbohydratdel inneholder korn, skal denne delen oppfylle kravet til fullkorn som er gitt i den relevante næringsmiddelgruppen. Hvis glutenfri pasta inngår i retten, gjelder kravet til kostfiber i gruppe 10. – mettede fettsyrer høyst 1,8 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 0,8 g/100 g 27 Ferdigretter med grønnsaker og eventuelt en proteindel eller en karbohydratdel. Produkter med: – minst 50 g grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller frukt og bær per 100 g produkt, og eventuelt – en proteindel, eller – en karbohydratdel. Hvis retten inneholder en korndel, skal denne oppfylle kravet til fullkorn som er gitt i den relevante næringsmiddelgruppen. Hvis glutenfri pasta inngår, gjelder kravet til kostfiber i gruppe 10. – mettede fettsyrer høyst 1,5 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 0,8 g/100 g 28 Piroger, pizzaer, vårruller, andre paier enn dessertpaier og lignende produkter. Produktet skal inneholde minst 28 g grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter, eller frukt og bær per 100 g produkt. Inneholder produktet en korndel, skal denne inneholde minst 30 % fullkorn beregnet ut fra korndelens tørrstoffinnhold. Inneholder produktet minst 50 % grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter, eller frukt og bær per 100 g produkt, skal produktets eventuelle korndel inneholde minst 15 % fullkorn beregnet ut fra korndelens tørrstoffinnhold. Er korndelen glutenfri, skal den inneholde minst 10 % fullkorn, beregnet ut fra korndelens tørrstoffinnhold. – mettede fettsyrer høyst 2,0 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 1,0 g/100 g 29 Smørbrød, bagetter, wraps og lignende produkter. Produktet skal inneholde minst 25 g grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller frukt og bær per 100 g produkt. Inneholder produktet en korndel, skal denne inneholde minst 30 % fullkorn, beregnet ut fra korndelens tørrstoffinnhold. Inneholder produktet minst 50 % grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller frukt og bær per 100 g produkt, skal produktets eventuelle korndel inneholde minst 15 % fullkorn beregnet ut fra korndelens tørrstoffinnhold. Er korndelen glutenfri, skal den inneholde minst 10 % fullkorn, beregnet ut fra korndelens tørrstoffinnhold. – mettede fettsyrer høyst 2,0 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 0,9 g/100 g 30 Supper. Produktet skal inneholde minst 35 g grønnsaker (unntatt poteter), belgvekster (unntatt peanøtter), rotfrukter eller frukt og bær per 100 g suppe. Inneholder produktet en korndel, skal denne oppfylle kravet til fullkorn som er gitt i den relevante næringsmiddelgruppen. Hvis glutenfri pasta inngår, gjelder kravet til kostfiber i gruppe 10. – mettede fettsyrer høyst 1,5 g/100 g – tilsatte sukkerarter høyst 3 g/100 g – salt høyst 0,8 g/100 g Vilkårene gjelder for det spiseklare produktet. Dressinger og sauser 31 Dressinger av olje og eddik. Produktene kan være tilsatt smak. – mettede fettsyrer høyst 20 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,8 g/100 g 32 Sauser til middagsretter (ferdige produkter og produkter tilberedt ifølge produsentens anvisning). – fett høyst 5 g/100 g – mettede fettsyrer høyst 33 % av fettinnholdet – sukkerarter høyst 5 g/100 g – salt høyst 0,8 g/100 g Vilkårene gjelder for det spiseklare produktet.</p>
 <p>Endret ved forskrift 22 feb 2021 nr. 531 i kraft 1 mars 2021.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

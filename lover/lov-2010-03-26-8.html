@@ -19,74 +19,333 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2010-03-26-8.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Varemerkeloven – vml" href="../feeds/lov-2010-03-26-8.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Varemerkeloven – vml</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2010-03-26-8</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Immaterialrett &raquo; Varemerke. Firma</dd>
-<dt>Ikrafttredelse</dt><dd>2010-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-45</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2010-03-26-8" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-enerett-til-varemerke-mv">§ 1. Enerett til varemerke mv.</a></li>
+<li class="lvl4"><a href="#2-tegn-som-kan-vre-varemerke">§ 2. Tegn som kan være varemerke</a></li>
+<li class="lvl4"><a href="#3-stiftelse-av-varemerkerett">§ 3. Stiftelse av varemerkerett</a></li>
+<li class="lvl4"><a href="#4-varemerkerettens-innhold">§ 4. Varemerkerettens innhold</a></li>
+<li class="lvl4"><a href="#4-a-transitt-forberedende-handlinger-og-agentmerker">§ 4 a. Transitt, forberedende handlinger og agentmerker</a></li>
+<li class="lvl4"><a href="#5-begrensning-av-varemerkeretten">§ 5. Begrensning av varemerkeretten</a></li>
+<li class="lvl4"><a href="#6-konsumpsjon-av-varemerkeretten">§ 6. Konsumpsjon av varemerkeretten</a></li>
+<li class="lvl4"><a href="#7-forrang-ved-kollisjon-mellom-rettigheter">§ 7. Forrang ved kollisjon mellom rettigheter</a></li>
+<li class="lvl4"><a href="#8-virkninger-av-passivitet">§ 8. Virkninger av passivitet</a></li>
+<li class="lvl4"><a href="#9-sameksistens">§ 9. Sameksistens</a></li>
+<li class="lvl4"><a href="#10-villedende-varemerker-mv">§ 10. Villedende varemerker mv.</a></li>
+<li class="lvl4"><a href="#11-gjengivelse-av-varemerke-i-oppslagsverk">§ 11. Gjengivelse av varemerke i oppslagsverk</a></li>
+<li class="lvl2"><a href="#kapittel-2-nasjonal-sknad-om-registrering-av-varemerke">Kapittel 2. Nasjonal søknad om registrering av varemerke</a></li>
+<li class="lvl4"><a href="#12-sknaden-om-registrering">§ 12. Søknaden om registrering</a></li>
+<li class="lvl4"><a href="#12-a-tilleggskrav-for-fellesmerker-og-garanti-og-kontrollmerker">§ 12 a. Tilleggskrav for fellesmerker og garanti- og kontrollmerker</a></li>
+<li class="lvl4"><a href="#12-b-sknadsdag">§ 12 b. Søknadsdag</a></li>
+<li class="lvl4"><a href="#13-endring-av-sknaden">§ 13. Endring av søknaden</a></li>
+<li class="lvl4"><a href="#14-alminnelige-registreringsvilkar">§ 14. Alminnelige registreringsvilkår</a></li>
+<li class="lvl4"><a href="#15-absolutte-registreringshindre">§ 15. Absolutte registreringshindre</a></li>
+<li class="lvl4"><a href="#16-relative-registreringshindre">§ 16. Relative registreringshindre</a></li>
+<li class="lvl4"><a href="#17-unntaksanmerkning">§ 17. Unntaksanmerkning</a></li>
+<li class="lvl4"><a href="#18-vare-og-tjenesteklasser">§ 18. Vare- og tjenesteklasser</a></li>
+<li class="lvl4"><a href="#19-prioritet">§ 19. Prioritet</a></li>
+<li class="lvl4"><a href="#20-prving-av-registreringsvilkarene">§ 20. Prøving av registreringsvilkårene</a></li>
+<li class="lvl4"><a href="#21-retten-til-varemerket">§ 21. Retten til varemerket</a></li>
+<li class="lvl4"><a href="#22-registrering-og-kunngjring">§ 22. Registrering og kunngjøring</a></li>
+<li class="lvl4"><a href="#23-mangler-ved-sknaden">§ 23. Mangler ved søknaden</a></li>
+<li class="lvl4"><a href="#24-avslag">§ 24. Avslag</a></li>
+<li class="lvl4"><a href="#25-innsyn-i-dokumentene-i-sknadssaken">§ 25. Innsyn i dokumentene i søknadssaken</a></li>
+<li class="lvl2"><a href="#kapittel-3-innsigelse-og-oppheving">Kapittel 3. Innsigelse og oppheving</a></li>
+<li class="lvl4"><a href="#26-innsigelse">§ 26. Innsigelse</a></li>
+<li class="lvl4"><a href="#27-behandling-av-innsigelser">§ 27. Behandling av innsigelser</a></li>
+<li class="lvl4"><a href="#27-a-forhandling-om-minnelig-lsning">§ 27 a. Forhandling om minnelig løsning</a></li>
+<li class="lvl4"><a href="#28-retten-til-varemerket">§ 28. Retten til varemerket</a></li>
+<li class="lvl4"><a href="#29-avgjrelse-i-innsigelsessaker">§ 29. Avgjørelse i innsigelsessaker</a></li>
+<li class="lvl4"><a href="#29-a-manglende-bruk-som-forsvar-i-innsigelsessak">§ 29 a. Manglende bruk som forsvar i innsigelsessak</a></li>
+<li class="lvl4"><a href="#30-oppheving-pa-grunn-av-sknader-med-bedre-prioritet">§ 30. Oppheving på grunn av søknader med bedre prioritet</a></li>
+<li class="lvl4"><a href="#31-innsyn-i-dokumenter">§ 31. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-varemerkeregistreringens-gyldighetstid-merkeendring">Kapittel 4. Varemerkeregistreringens gyldighetstid. Merkeendring</a></li>
+<li class="lvl4"><a href="#32-registreringens-varighet">§ 32. Registreringens varighet</a></li>
+<li class="lvl4"><a href="#33-fornyelse-av-registreringen">§ 33. Fornyelse av registreringen</a></li>
+<li class="lvl4"><a href="#34-endring-av-registrert-varemerke">§ 34. Endring av registrert varemerke</a></li>
+<li class="lvl2"><a href="#kapittel-5-overprving-ugyldighet-og-sletting">Kapittel 5. Overprøving, ugyldighet og sletting</a></li>
+<li class="lvl4"><a href="#35-ugyldighet">§ 35. Ugyldighet</a></li>
+<li class="lvl4"><a href="#35-a-manglende-bruk-som-forsvar-i-ugyldighetssak">§ 35 a. Manglende bruk som forsvar i ugyldighetssak</a></li>
+<li class="lvl4"><a href="#35-b-mellomliggende-rettigheter">§ 35 b. Mellomliggende rettigheter</a></li>
+<li class="lvl4"><a href="#36-sletting-ved-degenerasjon-mv">§ 36. Sletting ved degenerasjon mv.</a></li>
+<li class="lvl4"><a href="#37-sletting-ved-manglende-bruk-av-varemerke">§ 37. Sletting ved manglende bruk av varemerke</a></li>
+<li class="lvl4"><a href="#38-delvis-ugyldighet-og-sletting">§ 38. Delvis ugyldighet og sletting</a></li>
+<li class="lvl4"><a href="#39-krav-om-sakstilknytning-mv">§ 39. Krav om sakstilknytning mv.</a></li>
+<li class="lvl4"><a href="#40-levering-og-behandling-av-krav-om-administrativ-overprving">§ 40. Levering og behandling av krav om administrativ overprøving</a></li>
+<li class="lvl4"><a href="#41-forholdet-mellom-saker-for-patentstyret-og-domstolene">§ 41. Forholdet mellom saker for Patentstyret og domstolene</a></li>
+<li class="lvl4"><a href="#42-ugyldighet-og-sletting-i-visse-srlige-tilfeller">§ 42. Ugyldighet og sletting i visse særlige tilfeller</a></li>
+<li class="lvl4"><a href="#43-sletting-ved-ukjent-adresse-mv">§ 43. Sletting ved ukjent adresse mv.</a></li>
+<li class="lvl4"><a href="#44-virkningen-av-avgjrelser-om-ugyldighet-eller-sletting">§ 44. Virkningen av avgjørelser om ugyldighet eller sletting</a></li>
+<li class="lvl4"><a href="#45-oppheving-av-eget-tiltak">§ 45. Oppheving av eget tiltak</a></li>
+<li class="lvl4"><a href="#46-sletting-ved-registreringsperiodens-utlp-mv">§ 46. Sletting ved registreringsperiodens utløp mv.</a></li>
+<li class="lvl4"><a href="#47-innfring-i-varemerkeregistret-og-kunngjring">§ 47. Innføring i varemerkeregistret og kunngjøring</a></li>
+<li class="lvl4"><a href="#48-innsyn-i-dokumenter">§ 48. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-6-klage-og-sksmal">Kapittel 6. Klage og søksmål</a></li>
+<li class="lvl4"><a href="#49-klage-over-avgjrelse-fra-patentstyret">§ 49. Klage over avgjørelse fra Patentstyret</a></li>
+<li class="lvl4"><a href="#50-levering-av-klage">§ 50. Levering av klage</a></li>
+<li class="lvl4"><a href="#51-behandling-av-klage">§ 51. Behandling av klage</a></li>
+<li class="lvl4"><a href="#52-domstolsprving-av-avgjrelser-fra-klagenemnden-for-industrielle-rettigheter">§ 52. Domstolsprøving av avgjørelser fra Klagenemnden for industrielle rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-7-overdragelse-og-lisens-mv">Kapittel 7. Overdragelse og lisens mv.</a></li>
+<li class="lvl4"><a href="#53-overdragelse">§ 53. Overdragelse</a></li>
+<li class="lvl4"><a href="#54-lisens">§ 54. Lisens</a></li>
+<li class="lvl4"><a href="#55-forbud-mot-utlegg-mv-i-innarbeidet-varemerke">§ 55. Forbud mot utlegg mv. i innarbeidet varemerke</a></li>
+<li class="lvl4"><a href="#56-innfring-av-overdragelser-og-lisenser-i-varemerkeregistret-mv">§ 56. Innføring av overdragelser og lisenser i varemerkeregistret mv.</a></li>
+<li class="lvl4"><a href="#56-a-innfring-av-pantsettelser-og-utlegg-i-varemerkeregisteret">§ 56 a. Innføring av pantsettelser og utlegg i varemerkeregisteret</a></li>
+<li class="lvl4"><a href="#56-b-kollisjon-mellom-rettserverv-mv">§ 56 b. Kollisjon mellom rettserverv mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-sanksjoner-mot-varemerkeinngrep">Kapittel 8. Sanksjoner mot varemerkeinngrep</a></li>
+<li class="lvl4"><a href="#57-forbud-mot-inngrep">§ 57. Forbud mot inngrep</a></li>
+<li class="lvl4"><a href="#58-vederlag-og-erstatning-for-varemerkeinngrep">§ 58. Vederlag og erstatning for varemerkeinngrep</a></li>
+<li class="lvl4"><a href="#59-tiltak-for-a-hindre-inngrep">§ 59. Tiltak for å hindre inngrep</a></li>
+<li class="lvl4"><a href="#59-a-formidling-av-informasjon-om-dom-i-sak-om-inngrep">§ 59 a. Formidling av informasjon om dom i sak om inngrep</a></li>
+<li class="lvl4"><a href="#60-grunnlag-for-frifinnelse-i-sivile-saker">§ 60. Grunnlag for frifinnelse i sivile saker</a></li>
+<li class="lvl4"><a href="#61-straff">§ 61. Straff</a></li>
+<li class="lvl4"><a href="#61-a-utnyttelse-fr-kunngjring-av-registreringen">§ 61 a. Utnyttelse før kunngjøring av registreringen</a></li>
+<li class="lvl2"><a href="#kapittel-9-rettergangsbestemmelser">Kapittel 9. Rettergangsbestemmelser</a></li>
+<li class="lvl4"><a href="#62-tvungent-verneting">§ 62. Tvungent verneting</a></li>
+<li class="lvl4"><a href="#63-sksmalsrett-mv">§ 63. Søksmålsrett mv.</a></li>
+<li class="lvl4"><a href="#64-melding-om-sksmal">§ 64. Melding om søksmål</a></li>
+<li class="lvl4"><a href="#65-oversendelse-av-dommer">§ 65. Oversendelse av dommer</a></li>
+<li class="lvl2"><a href="#kapittel-10-internasjonal-varemerkeregistrering">Kapittel 10. Internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#66-definisjoner">§ 66. Definisjoner</a></li>
+<li class="lvl4"><a href="#67-sknad-om-internasjonal-varemerkeregistrering">§ 67. Søknad om internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#68-patentstyrets-behandling-av-sknaden">§ 68. Patentstyrets behandling av søknaden</a></li>
+<li class="lvl4"><a href="#69-krav-om-at-registreringen-skal-ha-virkning-i-ytterligere-land-mv">§ 69. Krav om at registreringen skal ha virkning i ytterligere land mv.</a></li>
+<li class="lvl4"><a href="#70-krav-om-at-en-internasjonal-varemerkeregistrering-skal-ha-virkning-i-norge">§ 70. Krav om at en internasjonal varemerkeregistrering skal ha virkning i Norge</a></li>
+<li class="lvl4"><a href="#71-innsigelse">§ 71. Innsigelse</a></li>
+<li class="lvl4"><a href="#72-virkningene-av-en-internasjonal-varemerkeregistrering">§ 72. Virkningene av en internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#73-forholdet-mellom-en-nasjonal-og-en-internasjonal-varemerkeregistrering">§ 73. Forholdet mellom en nasjonal og en internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#74-virkningen-av-at-en-internasjonal-varemerkeregistrering-opphrer">§ 74. Virkningen av at en internasjonal varemerkeregistrering opphører</a></li>
+<li class="lvl4"><a href="#75-omdanning-til-en-nasjonal-varemerkeregistrering">§ 75. Omdanning til en nasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#76-innsyn-i-dokumenter">§ 76. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-11-forskjellige-bestemmelser">Kapittel 11. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#77-adresse-for-korrespondanse">§ 77. Adresse for korrespondanse</a></li>
+<li class="lvl4"><a href="#78-bevis-for-registrering-i-hjemlandet">§ 78. Bevis for registrering i hjemlandet</a></li>
+<li class="lvl4"><a href="#79-rett-til-registrering-som-i-hjemlandet">§ 79. Rett til registrering som i hjemlandet</a></li>
+<li class="lvl4"><a href="#80-virkning-av-fristoversittelse">§ 80. Virkning av fristoversittelse</a></li>
+<li class="lvl4"><a href="#81-om-varemerkeregistret-mv">§ 81. Om varemerkeregistret mv.</a></li>
+<li class="lvl4"><a href="#82-forskrifter-til-loven-avgifter-og-gebyrer-mv">§ 82. Forskrifter til loven (avgifter og gebyrer mv.)</a></li>
+<li class="lvl2"><a href="#kapittel-12-sluttbestemmelser">Kapittel 12. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#83-ikraftsettings-og-overgangsbestemmelser">§ 83. Ikraftsettings- og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#84-endringer-i-andre-lover">§ 84. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-45.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-03-26-8.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om beskyttelse av varemerker (varemerkeloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-03-26-8.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2010-03-26-8 <code>lov/2010-03-26-8</code></td></tr>
+<tr><th>Korttittel</th><td>Varemerkeloven – vml</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Immaterialrett &raquo; Varemerke. Firma</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2010</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-45 <code>lov/2026-06-19-45</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2010-03-26-8" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-enerett-til-varemerke-mv">§ 1. Enerett til varemerke mv.</a></li>
+<li class="lvl4"><a href="#2-tegn-som-kan-vre-varemerke">§ 2. Tegn som kan være varemerke</a></li>
+<li class="lvl4"><a href="#3-stiftelse-av-varemerkerett">§ 3. Stiftelse av varemerkerett</a></li>
+<li class="lvl4"><a href="#4-varemerkerettens-innhold">§ 4. Varemerkerettens innhold</a></li>
+<li class="lvl4"><a href="#4-a-transitt-forberedende-handlinger-og-agentmerker">§ 4 a. Transitt, forberedende handlinger og agentmerker</a></li>
+<li class="lvl4"><a href="#5-begrensning-av-varemerkeretten">§ 5. Begrensning av varemerkeretten</a></li>
+<li class="lvl4"><a href="#6-konsumpsjon-av-varemerkeretten">§ 6. Konsumpsjon av varemerkeretten</a></li>
+<li class="lvl4"><a href="#7-forrang-ved-kollisjon-mellom-rettigheter">§ 7. Forrang ved kollisjon mellom rettigheter</a></li>
+<li class="lvl4"><a href="#8-virkninger-av-passivitet">§ 8. Virkninger av passivitet</a></li>
+<li class="lvl4"><a href="#9-sameksistens">§ 9. Sameksistens</a></li>
+<li class="lvl4"><a href="#10-villedende-varemerker-mv">§ 10. Villedende varemerker mv.</a></li>
+<li class="lvl4"><a href="#11-gjengivelse-av-varemerke-i-oppslagsverk">§ 11. Gjengivelse av varemerke i oppslagsverk</a></li>
+<li class="lvl2"><a href="#kapittel-2-nasjonal-sknad-om-registrering-av-varemerke">Kapittel 2. Nasjonal søknad om registrering av varemerke</a></li>
+<li class="lvl4"><a href="#12-sknaden-om-registrering">§ 12. Søknaden om registrering</a></li>
+<li class="lvl4"><a href="#12-a-tilleggskrav-for-fellesmerker-og-garanti-og-kontrollmerker">§ 12 a. Tilleggskrav for fellesmerker og garanti- og kontrollmerker</a></li>
+<li class="lvl4"><a href="#12-b-sknadsdag">§ 12 b. Søknadsdag</a></li>
+<li class="lvl4"><a href="#13-endring-av-sknaden">§ 13. Endring av søknaden</a></li>
+<li class="lvl4"><a href="#14-alminnelige-registreringsvilkar">§ 14. Alminnelige registreringsvilkår</a></li>
+<li class="lvl4"><a href="#15-absolutte-registreringshindre">§ 15. Absolutte registreringshindre</a></li>
+<li class="lvl4"><a href="#16-relative-registreringshindre">§ 16. Relative registreringshindre</a></li>
+<li class="lvl4"><a href="#17-unntaksanmerkning">§ 17. Unntaksanmerkning</a></li>
+<li class="lvl4"><a href="#18-vare-og-tjenesteklasser">§ 18. Vare- og tjenesteklasser</a></li>
+<li class="lvl4"><a href="#19-prioritet">§ 19. Prioritet</a></li>
+<li class="lvl4"><a href="#20-prving-av-registreringsvilkarene">§ 20. Prøving av registreringsvilkårene</a></li>
+<li class="lvl4"><a href="#21-retten-til-varemerket">§ 21. Retten til varemerket</a></li>
+<li class="lvl4"><a href="#22-registrering-og-kunngjring">§ 22. Registrering og kunngjøring</a></li>
+<li class="lvl4"><a href="#23-mangler-ved-sknaden">§ 23. Mangler ved søknaden</a></li>
+<li class="lvl4"><a href="#24-avslag">§ 24. Avslag</a></li>
+<li class="lvl4"><a href="#25-innsyn-i-dokumentene-i-sknadssaken">§ 25. Innsyn i dokumentene i søknadssaken</a></li>
+<li class="lvl2"><a href="#kapittel-3-innsigelse-og-oppheving">Kapittel 3. Innsigelse og oppheving</a></li>
+<li class="lvl4"><a href="#26-innsigelse">§ 26. Innsigelse</a></li>
+<li class="lvl4"><a href="#27-behandling-av-innsigelser">§ 27. Behandling av innsigelser</a></li>
+<li class="lvl4"><a href="#27-a-forhandling-om-minnelig-lsning">§ 27 a. Forhandling om minnelig løsning</a></li>
+<li class="lvl4"><a href="#28-retten-til-varemerket">§ 28. Retten til varemerket</a></li>
+<li class="lvl4"><a href="#29-avgjrelse-i-innsigelsessaker">§ 29. Avgjørelse i innsigelsessaker</a></li>
+<li class="lvl4"><a href="#29-a-manglende-bruk-som-forsvar-i-innsigelsessak">§ 29 a. Manglende bruk som forsvar i innsigelsessak</a></li>
+<li class="lvl4"><a href="#30-oppheving-pa-grunn-av-sknader-med-bedre-prioritet">§ 30. Oppheving på grunn av søknader med bedre prioritet</a></li>
+<li class="lvl4"><a href="#31-innsyn-i-dokumenter">§ 31. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-varemerkeregistreringens-gyldighetstid-merkeendring">Kapittel 4. Varemerkeregistreringens gyldighetstid. Merkeendring</a></li>
+<li class="lvl4"><a href="#32-registreringens-varighet">§ 32. Registreringens varighet</a></li>
+<li class="lvl4"><a href="#33-fornyelse-av-registreringen">§ 33. Fornyelse av registreringen</a></li>
+<li class="lvl4"><a href="#34-endring-av-registrert-varemerke">§ 34. Endring av registrert varemerke</a></li>
+<li class="lvl2"><a href="#kapittel-5-overprving-ugyldighet-og-sletting">Kapittel 5. Overprøving, ugyldighet og sletting</a></li>
+<li class="lvl4"><a href="#35-ugyldighet">§ 35. Ugyldighet</a></li>
+<li class="lvl4"><a href="#35-a-manglende-bruk-som-forsvar-i-ugyldighetssak">§ 35 a. Manglende bruk som forsvar i ugyldighetssak</a></li>
+<li class="lvl4"><a href="#35-b-mellomliggende-rettigheter">§ 35 b. Mellomliggende rettigheter</a></li>
+<li class="lvl4"><a href="#36-sletting-ved-degenerasjon-mv">§ 36. Sletting ved degenerasjon mv.</a></li>
+<li class="lvl4"><a href="#37-sletting-ved-manglende-bruk-av-varemerke">§ 37. Sletting ved manglende bruk av varemerke</a></li>
+<li class="lvl4"><a href="#38-delvis-ugyldighet-og-sletting">§ 38. Delvis ugyldighet og sletting</a></li>
+<li class="lvl4"><a href="#39-krav-om-sakstilknytning-mv">§ 39. Krav om sakstilknytning mv.</a></li>
+<li class="lvl4"><a href="#40-levering-og-behandling-av-krav-om-administrativ-overprving">§ 40. Levering og behandling av krav om administrativ overprøving</a></li>
+<li class="lvl4"><a href="#41-forholdet-mellom-saker-for-patentstyret-og-domstolene">§ 41. Forholdet mellom saker for Patentstyret og domstolene</a></li>
+<li class="lvl4"><a href="#42-ugyldighet-og-sletting-i-visse-srlige-tilfeller">§ 42. Ugyldighet og sletting i visse særlige tilfeller</a></li>
+<li class="lvl4"><a href="#43-sletting-ved-ukjent-adresse-mv">§ 43. Sletting ved ukjent adresse mv.</a></li>
+<li class="lvl4"><a href="#44-virkningen-av-avgjrelser-om-ugyldighet-eller-sletting">§ 44. Virkningen av avgjørelser om ugyldighet eller sletting</a></li>
+<li class="lvl4"><a href="#45-oppheving-av-eget-tiltak">§ 45. Oppheving av eget tiltak</a></li>
+<li class="lvl4"><a href="#46-sletting-ved-registreringsperiodens-utlp-mv">§ 46. Sletting ved registreringsperiodens utløp mv.</a></li>
+<li class="lvl4"><a href="#47-innfring-i-varemerkeregistret-og-kunngjring">§ 47. Innføring i varemerkeregistret og kunngjøring</a></li>
+<li class="lvl4"><a href="#48-innsyn-i-dokumenter">§ 48. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-6-klage-og-sksmal">Kapittel 6. Klage og søksmål</a></li>
+<li class="lvl4"><a href="#49-klage-over-avgjrelse-fra-patentstyret">§ 49. Klage over avgjørelse fra Patentstyret</a></li>
+<li class="lvl4"><a href="#50-levering-av-klage">§ 50. Levering av klage</a></li>
+<li class="lvl4"><a href="#51-behandling-av-klage">§ 51. Behandling av klage</a></li>
+<li class="lvl4"><a href="#52-domstolsprving-av-avgjrelser-fra-klagenemnden-for-industrielle-rettigheter">§ 52. Domstolsprøving av avgjørelser fra Klagenemnden for industrielle rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-7-overdragelse-og-lisens-mv">Kapittel 7. Overdragelse og lisens mv.</a></li>
+<li class="lvl4"><a href="#53-overdragelse">§ 53. Overdragelse</a></li>
+<li class="lvl4"><a href="#54-lisens">§ 54. Lisens</a></li>
+<li class="lvl4"><a href="#55-forbud-mot-utlegg-mv-i-innarbeidet-varemerke">§ 55. Forbud mot utlegg mv. i innarbeidet varemerke</a></li>
+<li class="lvl4"><a href="#56-innfring-av-overdragelser-og-lisenser-i-varemerkeregistret-mv">§ 56. Innføring av overdragelser og lisenser i varemerkeregistret mv.</a></li>
+<li class="lvl4"><a href="#56-a-innfring-av-pantsettelser-og-utlegg-i-varemerkeregisteret">§ 56 a. Innføring av pantsettelser og utlegg i varemerkeregisteret</a></li>
+<li class="lvl4"><a href="#56-b-kollisjon-mellom-rettserverv-mv">§ 56 b. Kollisjon mellom rettserverv mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-sanksjoner-mot-varemerkeinngrep">Kapittel 8. Sanksjoner mot varemerkeinngrep</a></li>
+<li class="lvl4"><a href="#57-forbud-mot-inngrep">§ 57. Forbud mot inngrep</a></li>
+<li class="lvl4"><a href="#58-vederlag-og-erstatning-for-varemerkeinngrep">§ 58. Vederlag og erstatning for varemerkeinngrep</a></li>
+<li class="lvl4"><a href="#59-tiltak-for-a-hindre-inngrep">§ 59. Tiltak for å hindre inngrep</a></li>
+<li class="lvl4"><a href="#59-a-formidling-av-informasjon-om-dom-i-sak-om-inngrep">§ 59 a. Formidling av informasjon om dom i sak om inngrep</a></li>
+<li class="lvl4"><a href="#60-grunnlag-for-frifinnelse-i-sivile-saker">§ 60. Grunnlag for frifinnelse i sivile saker</a></li>
+<li class="lvl4"><a href="#61-straff">§ 61. Straff</a></li>
+<li class="lvl4"><a href="#61-a-utnyttelse-fr-kunngjring-av-registreringen">§ 61 a. Utnyttelse før kunngjøring av registreringen</a></li>
+<li class="lvl2"><a href="#kapittel-9-rettergangsbestemmelser">Kapittel 9. Rettergangsbestemmelser</a></li>
+<li class="lvl4"><a href="#62-tvungent-verneting">§ 62. Tvungent verneting</a></li>
+<li class="lvl4"><a href="#63-sksmalsrett-mv">§ 63. Søksmålsrett mv.</a></li>
+<li class="lvl4"><a href="#64-melding-om-sksmal">§ 64. Melding om søksmål</a></li>
+<li class="lvl4"><a href="#65-oversendelse-av-dommer">§ 65. Oversendelse av dommer</a></li>
+<li class="lvl2"><a href="#kapittel-10-internasjonal-varemerkeregistrering">Kapittel 10. Internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#66-definisjoner">§ 66. Definisjoner</a></li>
+<li class="lvl4"><a href="#67-sknad-om-internasjonal-varemerkeregistrering">§ 67. Søknad om internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#68-patentstyrets-behandling-av-sknaden">§ 68. Patentstyrets behandling av søknaden</a></li>
+<li class="lvl4"><a href="#69-krav-om-at-registreringen-skal-ha-virkning-i-ytterligere-land-mv">§ 69. Krav om at registreringen skal ha virkning i ytterligere land mv.</a></li>
+<li class="lvl4"><a href="#70-krav-om-at-en-internasjonal-varemerkeregistrering-skal-ha-virkning-i-norge">§ 70. Krav om at en internasjonal varemerkeregistrering skal ha virkning i Norge</a></li>
+<li class="lvl4"><a href="#71-innsigelse">§ 71. Innsigelse</a></li>
+<li class="lvl4"><a href="#72-virkningene-av-en-internasjonal-varemerkeregistrering">§ 72. Virkningene av en internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#73-forholdet-mellom-en-nasjonal-og-en-internasjonal-varemerkeregistrering">§ 73. Forholdet mellom en nasjonal og en internasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#74-virkningen-av-at-en-internasjonal-varemerkeregistrering-opphrer">§ 74. Virkningen av at en internasjonal varemerkeregistrering opphører</a></li>
+<li class="lvl4"><a href="#75-omdanning-til-en-nasjonal-varemerkeregistrering">§ 75. Omdanning til en nasjonal varemerkeregistrering</a></li>
+<li class="lvl4"><a href="#76-innsyn-i-dokumenter">§ 76. Innsyn i dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-11-forskjellige-bestemmelser">Kapittel 11. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#77-adresse-for-korrespondanse">§ 77. Adresse for korrespondanse</a></li>
+<li class="lvl4"><a href="#78-bevis-for-registrering-i-hjemlandet">§ 78. Bevis for registrering i hjemlandet</a></li>
+<li class="lvl4"><a href="#79-rett-til-registrering-som-i-hjemlandet">§ 79. Rett til registrering som i hjemlandet</a></li>
+<li class="lvl4"><a href="#80-virkning-av-fristoversittelse">§ 80. Virkning av fristoversittelse</a></li>
+<li class="lvl4"><a href="#81-om-varemerkeregistret-mv">§ 81. Om varemerkeregistret mv.</a></li>
+<li class="lvl4"><a href="#82-forskrifter-til-loven-avgifter-og-gebyrer-mv">§ 82. Forskrifter til loven (avgifter og gebyrer mv.)</a></li>
+<li class="lvl2"><a href="#kapittel-12-sluttbestemmelser">Kapittel 12. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#83-ikraftsettings-og-overgangsbestemmelser">§ 83. Ikraftsettings- og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#84-endringer-i-andre-lover">§ 84. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-03-26-8.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-03-26-8.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-03-26-8.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2010-03-26-8.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2010-03-26-8.html">Observerte kildeutgaver</a> · <a href="../historie/varemerkeloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2010-03-26-8.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2010-03-26-8.html">Observerte kildeutgaver</a> · <a href="../historie/varemerkeloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2010-03-26-8.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-beskyttelse-av-varemerker-varemerkeloven">Lov om beskyttelse av varemerker (varemerkeloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-enerett-til-varemerke-mv">§ 1. Enerett til varemerke mv.</h4>
 <p>Enhver kan oppnå enerett til å bruke et varemerke som kjennetegn for varer eller tjenester i næringsvirksomhet etter bestemmelsene i denne loven (varemerkerett).</p>
 <p>En forening eller annen sammenslutning av produsenter, tjenesteytere eller andre næringsdrivende, samt offentligrettslige rettssubjekter, kan oppnå enerett til å bruke et varemerke som er egnet til å skille varer eller tjenester som stammer fra medlemmene av sammenslutningen, fra andre virksomheters varer eller tjenester (fellesmerke). Myndighet, stiftelse, selskap og enhver annen kan oppnå enerett til å bruke et varemerke som er egnet til å skille varer eller tjenester som er kontrollert med hensyn til materiale, produksjonsmetode, metode for yting av tjenester, kvalitet, nøyaktighet eller andre egenskaper, fra varer eller tjenester som ikke har vært underlagt slik kontroll (garanti- eller kontrollmerke). Innehaveren av merket kan ikke selv drive næringsvirksomhet med omsetning av den type vare eller tjenester kontrollen gjelder.</p>
 <p>Den som bruker eget navn eller beskyttet forretningsnavn som kjennetegn for sine varer eller tjenester, har beskyttelse etter reglene i loven her mot andres urettmessige bruk av navnet som varemerke innenfor samme geografiske område.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="2-tegn-som-kan-vre-varemerke">§ 2. Tegn som kan være varemerke</h4>
 <p>Et varemerke kan bestå av alle slags tegn som er egnet til å skille en virksomhets varer eller tjenester fra andres, for eksempel ord og ordforbindelser, herunder slagord, navn, bokstaver, tall, figurer, avbildninger, farger og lyder, eller en vares form, utstyr eller emballasje.</p>
 <p>Det kan ikke oppnås varemerkerett til tegn som utelukkende består av en form eller en annen egenskap som følger av varens art, er nødvendig for å oppnå et teknisk resultat eller tilfører varen en betydelig verdi.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="3-stiftelse-av-varemerkerett">§ 3. Stiftelse av varemerkerett</h4>
 <p>Varemerkerett kan oppnås for hele riket ved registrering i varemerkeregistret etter bestemmelsene i kapittel 2 .</p>
 <p>Varemerkerett kan også oppnås for hele riket ved internasjonal registrering etter bestemmelsene i kapittel 10 .</p>
@@ -104,14 +363,14 @@ d. å bruke tegnet på forretningspapirer og i reklame
 e. å bruke tegnet som foretaksnavn eller forretningskjennetegn, eller som del av et foretaksnavn eller forretningskjennetegn
 f. å bruke tegnet i sammenlignende reklame i strid med forskrift etter <a href="lov-2009-01-09-2.html">markedsføringsloven</a> § 26 annet ledd.</p>
 <p>Også muntlig bruk av tegnet anses som bruk.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="4-a-transitt-forberedende-handlinger-og-agentmerker">§ 4 a. Transitt, forberedende handlinger og agentmerker</h4>
 <p>Varemerkeretten innebærer at ingen uten samtykke fra merkehaveren i næringsvirksomhet kan innføre varer til norsk tollområde, selv om disse ikke går over i fri disponering her i landet, hvis varene, herunder emballasjen, er påført et varemerke som er identisk med eller i vesentlige elementer ikke kan skilles fra et varemerke som er registrert her i landet for varer av samme slag. Dette gjelder likevel ikke om eieren eller mottakeren av varene godtgjør at merkehaveren ikke har rett til å forby omsetning av varene i destinasjonslandet.</p>
 <p>Hvis det er risiko for at emballasje, etiketter, merkelapper, sikkerhets- eller ekthetskomponenter, eller utstyr eller andre midler som varemerket kan anbringes på, kan bli brukt i forbindelse med varer eller tjenester, og denne bruken vil utgjøre inngrep i et registrert varemerke etter § 4 , kan merkehaveren motsette seg at følgende handlinger utføres i næringsvirksomhet:</p>
 <p>a. å anbringe et tegn som er identisk med eller ligner varemerket på emballasje, etiketter, merkelapper, sikkerhets- eller ekthetskomponenter, utstyr eller andre midler som merket kan anbringes på
 b. å tilby eller bringe på markedet, eller lagre for disse formål, innføre eller utføre emballasje, etiketter, merker, sikkerhets- eller ekthetskomponenter eller utstyr eller andre midler som merket er anbrakt på.</p>
 <p>Er et varemerke registrert i en agents eller representants navn uten merkehaverens samtykke, og uten at agenten eller representanten har grunnlag for sin handling, kan merkehaveren kreve at merket overføres til seg og motsette seg agentens eller representantens bruk av merket.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="5-begrensning-av-varemerkeretten">§ 5. Begrensning av varemerkeretten</h4>
 <p>Varemerkerett oppnådd ved registrering omfatter ikke slik del av et varemerke som det ikke ville være adgang til å registrere særskilt.</p>
 <p>Varemerkeretten er ikke til hinder for at noen i samsvar med god forretningsskikk bruker:</p>
@@ -119,7 +378,7 @@ b. å tilby eller bringe på markedet, eller lagre for disse formål, innføre e
 b. tegn eller angivelser uten særpreg og angivelser som gjelder varens eller tjenestens art, beskaffenhet, mengde, formål, verdi, geografiske opprinnelse, tidspunktet for varens fremstilling eller for utførelse av tjenesten eller andre egenskaper ved varen eller tjenesten
 c. varemerket for å identifisere eller henvise til varer eller tjenester som tilhørende merkehaveren, blant annet når bruk av merket er nødvendig for å angi bruksformålet for en vare eller tjeneste, for eksempel når merket angir at varens bruksformål er som tilbehør eller reservedel.</p>
 <p>Enerett til en geografisk betegnelse oppnådd ved registrering som fellesmerke eller garanti- eller kontrollmerke, er ikke til hinder for at andre bruker betegnelsen når bruken skjer i samsvar med god forretningsskikk.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="6-konsumpsjon-av-varemerkeretten">§ 6. Konsumpsjon av varemerkeretten</h4>
 <p>Varemerkeretten er ikke til hinder for bruk av varemerket for varer som av innehaveren eller med dennes samtykke er brakt i omsetning innenfor Det europeiske økonomiske samarbeidsområde (EØS) under varemerket.</p>
 <p>Første ledd gjelder ikke hvis innehaveren har rimelig grunn til å motsette seg fortsatt omsetning av varene, for eksempel hvis varenes tilstand er endret eller forringet etter at de ble brakt i omsetning.</p>
@@ -128,7 +387,7 @@ c. varemerket for å identifisere eller henvise til varer eller tjenester som ti
 <h4 id="8-virkninger-av-passivitet">§ 8. Virkninger av passivitet</h4>
 <p>Retten til et registrert varemerke skal bestå ved siden av en eldre kjennetegnsrett, dersom innehaveren av den eldre retten har kjent til og avfunnet seg med at det yngre varemerket etter registreringsdagen har vært brukt her i riket i fem år i sammenheng, og søknaden om registrering av det yngre merket ble innlevert i god tro. Hvis det yngre varemerket har vært brukt bare for noen av de varer eller tjenester det er registrert for, skal retten bestå bare for disse varene eller tjenestene. Retten til et registrert varemerke skal også bestå ved siden av en eldre kjennetegnsrett der dette følger av §§ 29 a , 35 a eller 35 b .</p>
 <p>Retten til et innarbeidet varemerke skal bestå ved siden av en eldre kjennetegnsrett hvis innehaveren av den eldre retten ikke innen rimelig tid har tatt skritt for å hindre bruken av det yngre varemerket. Innehaveren av en eldre rett til et varemerke som er velkjent, jf. § 4 annet ledd, anses for å ha handlet innen rimelig tid når vedkommende tar skritt for å hindre bruken innen fem år etter at vedkommende fikk kjennskap til bruken.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="9-sameksistens">§ 9. Sameksistens</h4>
 <p>I tilfeller som nevnt i § 8 og § 35 annet ledd annet punktum kan innehaveren av den yngre retten ikke motsette seg bruk av det eldre kjennetegnet, selv om innehaveren av den eldre retten ikke lenger kan gjøre sin rett gjeldende mot bruk av det yngre varemerket.</p>
 <p>I tilfeller som nevnt i § 8 annet ledd kan retten, om den finner det rimelig, ved dom bestemme at det ene eller begge kjennetegn i fremtiden bare må brukes på en bestemt måte, slik som i en bestemt utforming eller med et klargjørende tillegg som for eksempel innehaverens navn eller en stedsangivelse, eller bare må brukes for bestemte varer eller tjenester eller innen et bestemt område.</p>
@@ -138,7 +397,7 @@ c. varemerket for å identifisere eller henvise til varer eller tjenester som ti
 <p>Søksmål etter første ledd kan reises av Patentstyret og enhver som har rettslig interesse i det.</p>
 <h4 id="11-gjengivelse-av-varemerke-i-oppslagsverk">§ 11. Gjengivelse av varemerke i oppslagsverk</h4>
 <p>Gir gjengivelsen av et varemerke i leksikon, ordbok eller lignende oppslagsverk i trykt eller elektronisk form inntrykk av at merket utgjør en alminnelige betegnelse for de varer eller tjenester det er registrert for, skal utgiveren av verket, etter krav fra merkehaveren, snarest mulig påse at det sammen med gjengivelsen angis at det er et registrert varemerke. For trykte verk skal dette fremgå senest i neste utgave.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h2 id="kapittel-2-nasjonal-sknad-om-registrering-av-varemerke">Kapittel 2. Nasjonal søknad om registrering av varemerke</h2>
 <h4 id="12-sknaden-om-registrering">§ 12. Søknaden om registrering</h4>
 <p>Søknad om registrering av et varemerke leveres skriftlig til Patentstyret.</p>
@@ -148,7 +407,7 @@ b. en klar og tydelig gjengivelse av merket, jf. § 14 første ledd første punk
 c. en liste over de varer eller tjenester som merket søkes registrert for.</p>
 <p>En søknad om registrering av et fellesmerke eller garanti- eller kontrollmerke skal dessuten angi om det gjelder et fellesmerke eller et garanti- eller kontrollmerke, og inneholde de bestemmelser som er fastsatt for bruken av merket, jf. § 12 a .</p>
 <p>Søknaden skal i tillegg oppfylle de kravene som er fastsatt av Kongen i forskrift. Det skal betales fastsatt gebyr, ellers henlegges søknaden.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="12-a-tilleggskrav-for-fellesmerker-og-garanti-og-kontrollmerker">§ 12 a. Tilleggskrav for fellesmerker og garanti- og kontrollmerker</h4>
 <p>Bestemmelsene som er fastsatt for bruken av et fellesmerke, skal oppgi:</p>
 <p>a. hvem som har rett til å bruke fellesmerket
@@ -158,14 +417,14 @@ d. merkehaverens forpliktelser til å gjøre ansvar gjeldende mot den som bruker
 e. merkehaverens rettigheter og forpliktelser overfor brukerne, herunder rett til kontroll, eventuelt ved bestemte kontrollorgan.</p>
 <p>Består et fellesmerke av en geografisk betegnelse, skal bestemmelsene for bruken av merket gi enhver som omsetter varer eller tjenester med opprinnelse i det geografiske området, rett til å bli medlem i sammenslutningen som er merkehaver, forutsatt at vedkommende oppfyller alle øvrige vilkår i bestemmelsene.</p>
 <p>Bestemmelsene som er fastsatt for bruken av et garanti- eller kontrollmerke, skal oppfylle vilkårene i første ledd bokstav a, c, d og e.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="12-b-sknadsdag">§ 12 b. Søknadsdag</h4>
 <p>Søknaden anses som levert (får søknadsdag) den dagen følgende opplysninger er kommet inn til Patentstyret:</p>
 <p>a. en anmodning om registrering
 b. opplysninger som gjør det mulig å identifisere søkeren
 c. en klar og tydelig gjengivelse av merket, jf. § 14 første ledd første punktum
 d. en liste over de varer og tjenester merket søkes registrert for.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="13-endring-av-sknaden">§ 13. Endring av søknaden</h4>
 <p>I et varemerke som er søkt registrert kan det gjøres uvesentlige endringer som ikke påvirker helhetsinntrykket av merket.</p>
 <p>Listen over varer eller tjenester som merket søkes registrert for kan begrenses.</p>
@@ -176,7 +435,7 @@ d. en liste over de varer og tjenester merket søkes registrert for.</p>
 b. i alminnelig språkbruk eller etter lojal og etablert forretningsskikk utgjør sedvanlige betegnelser for varen eller tjenesten.</p>
 <p>Vilkårene i første og annet ledd må være oppfylt både på søknadsdagen og registreringsdagen. Ved vurderingen etter første ledd annet punktum og annet ledd skal det tas hensyn til alle omstendigheter som forelå på søknadsdagen, og særlig til virkninger av bruk av varemerket før dette tidspunktet.</p>
 <p>Et tegn som i næringsvirksomhet brukes for å angi den geografiske opprinnelsen for en vare eller tjeneste, kan uten hinder av annet ledd bokstav a registreres som fellesmerke eller garanti- eller kontrollmerke. Et tegn som søkes registrert som fellesmerke eller garanti- eller kontrollmerke, må oppfylle kravene i § 1 annet ledd.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="15-absolutte-registreringshindre">§ 15. Absolutte registreringshindre</h4>
 <p>Et varemerke kan ikke registreres hvis det:</p>
 <p>a. strider mot lov, offentlig orden eller moral,
@@ -187,7 +446,7 @@ e. består av eller i vesentlige elementer gjengir et plantesortsnavn beskyttet 
 f. søkes registrert i ond tro.</p>
 <p>For vin og brennevin kan det heller ikke registreres varemerke som består av eller inneholder noe som er egnet til å oppfattes som en geografisk betegnelse for vin eller brennevin, med mindre varen har den geografiske opprinnelsen betegnelsen utpeker.</p>
 <p>Et fellesmerke eller garanti- eller kontrollmerke kan dessuten ikke registreres hvis det er egnet til å villede med hensyn til merkets karakter eller betydning, for eksempel ved at det oppfattes som noe annet enn et fellesmerke eller garanti- eller kontrollmerke.</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="16-relative-registreringshindre">§ 16. Relative registreringshindre</h4>
 <p>Et varemerke kan ikke registreres uten samtykke av vedkommende rettighetshaver hvis:</p>
 <p>a. bruk av merket ville krenke en annens rett her i riket til et varemerke, foretaksnavn eller annet forretningskjennetegn,
@@ -195,7 +454,7 @@ b. merket er søkt registrert av en agent eller representant i eget navn uten me
 c. merket inneholder noe som er egnet til å oppfattes som en annens navn, kunstnernavn eller lignende eller portrett, med mindre det åpenbart siktes til en forlengst avdød person,
 d. merket inneholder noe som er egnet til å oppfattes som den særpregede tittelen på en annens beskyttede åndsverk, eller krenker en annens rett her i riket til et åndsverk eller fotografisk bilde eller en design, eller
 e. merket krenker en annens rett her i riket til en betegnelse som er beskyttet ved forskrift etter matloven.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="17-unntaksanmerkning">§ 17. Unntaksanmerkning</h4>
 <p>Inneholder et varemerke en bestanddel som ikke kan registreres særskilt, kan Patentstyret for å unngå uvisshet om varemerkerettens omfang, sette som vilkår for registrering at det ved en unntaksanmerkning angis at denne bestanddelen ikke omfattes av den beskyttelsen registreringen gir. Det forhold at unntaksanmerkning ikke er gjort, har ikke betydning for varemerkerettens omfang.</p>
 <p>Om det senere viser seg at den bestanddelen av merket som har blitt unntatt fra beskyttelsen, vil kunne registreres særskilt, kan merkehaveren i en ny søknad kreve registrering av delen eller av merket i dets helhet uten unntaksanmerkning.</p>
@@ -210,31 +469,31 @@ e. merket krenker en annens rett her i riket til en betegnelse som er beskyttet 
 <p>Patentstyret skal påse at søknaden oppfyller kravene i §§ 12 til 15 , at eventuelle krav om unntaksanmerkning er etterkommet, og at det ikke foreligger registrerte varemerker eller søknader om registrering som er til hinder for at søknaden tas til følge.</p>
 <p>Patentstyret undersøker ikke særskilt om det finnes andre registreringshindre som nevnt i § 16 . Hvis Patentstyret likevel blir oppmerksom på slike hindre, skal søknaden prøves mot dem.</p>
 <p>For fellesmerker og garanti- eller kontrollmerker påser Patentstyret dessuten at bestemmelsene som er fastsatt for bruken av merket, ikke strider mot offentlig orden eller moral.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="21-retten-til-varemerket">§ 21. Retten til varemerket</h4>
 <p>Den som godtgjør å ha retten til et varemerke i en søknad som er innlevert av en annen, kan kreve at Patentstyret overfører søknaden. Vedkommende skal i så fall betale nytt søknadsgebyr, ellers henlegges søknaden.</p>
 <p>Er det tvil om rettighetsforholdet, kan Patentstyret oppfordre vedkommende som krever søknaden overført til seg til å reise søksmål innen en frist som Patentstyret fastsetter. Reises ikke søksmål innen fristen, kan Patentstyret se bort fra kravet. Vedkommende som krever overføring, skal gjøres oppmerksom på dette.</p>
 <p>Pågår sak om overføring for Patentstyret, kan søknaden ikke endres, henlegges, avslås eller innvilges før spørsmålet om overføring er endelig avgjort.</p>
 <p>Er det reist søksmål om retten til varemerket, skal Patentstyret utsette behandlingen av sak om registrering eller overføring inntil søksmålet er rettskraftig avgjort.</p>
 <p>Patentstyret skal gi melding om avgjørelse i overføringssaken til søkeren og den som har krevd søknaden overført til seg. Endelig avgjørelse om at søknaden overføres, skal innføres i varemerkeregistret og kunngjøres.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="22-registrering-og-kunngjring">§ 22. Registrering og kunngjøring</h4>
 <p>Hvis søknaden oppfyller vilkårene i § 20 , skal varemerket registreres og registreringsbrev sendes til søkeren. Registreringen skal kunngjøres.</p>
 <p>Når et fellesmerke eller garanti- eller kontrollmerke registreres, skal også bestemmelsene som er fastsatt for bruken av merket, registreres og kunngjøres. Blir bestemmelsene senere endret, skal den endrede teksten meldes til Patentstyret for registrering og kunngjøring. Endringene skal føres inn i varemerkeregisteret såfremt kravene i § 12 a , § 15 tredje ledd og § 20 tredje ledd er oppfylt. Endringene gjelder fra den dagen de føres inn i registeret.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="23-mangler-ved-sknaden">§ 23. Mangler ved søknaden</h4>
 <p>Hvis søknaden ikke oppfyller vilkårene i § 20 , skal Patentstyret gi søkeren melding om dette og informere om virkningene manglene kan få. Søkeren skal gis en rimelig frist for uttalelse og om mulig retting av manglene.</p>
 <p>Om manglene blir rettet innen den fristen Patentstyret setter, skal søknaden regnes som innlevert den dagen da den kom inn til Patentstyret. Søknaden regnes likevel ikke som innlevert (får søknadsdag) før kravene i § 12 b er oppfylt.</p>
 <p>Hvis søkeren ikke har uttalt seg eller rettet manglene innen fristens utløp, skal søknaden henlegges.</p>
 <p>Behandlingen av en henlagt søknad skal gjenopptas hvis søkeren uttaler seg eller retter manglene innen to måneder etter utløpet av fristen. Det skal betales fastsatt avgift. Behandlingen av en søknad kan bare gjenopptas én gang.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="24-avslag">§ 24. Avslag</h4>
 <p>Hvis søknaden har mangler som ikke blir rettet etter § 23 , skal søknaden avslås, med mindre Patentstyret finner at søkeren bør gis en ny frist for retting.</p>
 <h4 id="25-innsyn-i-dokumentene-i-sknadssaken">§ 25. Innsyn i dokumentene i søknadssaken</h4>
 <p>Enhver kan fra og med søknadsdagen kreve innsyn i søknaden med vedlegg og alle dokumenter i saken, om ikke annet er bestemt i annet og tredje ledd.</p>
 <p>Opplysninger om forretningshemmeligheter kan unntas fra offentlighet hvis søkeren krever det. Når slikt krav er innlevert, blir opplysningene ikke offentlige før kravet er endelig avslått. Opplysninger som har betydning for om varemerket kan registreres eller for varemerkerettens omfang kan ikke unntas fra offentlighet. Bestemmelser for bruken av fellesmerke og garanti- eller kontrollmerke kan heller ikke unntas fra offentlighet. <a href="lov-2006-05-19-16.html">Offentleglova</a> § 12 gjelder tilsvarende.</p>
 <p>Dokumenter som Patentstyret har utarbeidet for sin egen interne saksforberedelse kan unntas fra offentlighet.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h2 id="kapittel-3-innsigelse-og-oppheving">Kapittel 3. Innsigelse og oppheving</h2>
 <h4 id="26-innsigelse">§ 26. Innsigelse</h4>
 <p>Når registreringen av et varemerke er kunngjort, kan enhver fremsette innsigelse mot registreringen. En innsigelse skal fremsettes skriftlig og må være kommet inn til Patentstyret innen tre måneder fra kunngjøringsdagen.</p>
@@ -252,19 +511,19 @@ d. nødvendig dokumentasjon av forhold som påberopes til støtte for innsigelse
 <p>Patentstyret kan bare ta hensyn til forhold som er berørt i innsigelsen. Er en innsigelse trukket tilbake, kan Patentstyret fortsette innsigelsesbehandlingen hvis særlige grunner taler for det.</p>
 <h4 id="27-a-forhandling-om-minnelig-lsning">§ 27 a. Forhandling om minnelig løsning</h4>
 <p>Når partene forhandler om en minnelig løsning og leverer en felles begjæring om utsettelse av behandlingen av innsigelsessaken, skal Patentstyret gi slik utsettelse i minst to måneder.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="28-retten-til-varemerket">§ 28. Retten til varemerket</h4>
 <p>Hvis en innsiger krever registreringen av varemerket overført til seg, skal Patentstyret overføre registreringen hvis retten til varemerket blir godtgjort. Vedkommende skal i så fall betale nytt søknadsgebyr, ellers henlegges søknaden. § 21 annet til femte ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="29-avgjrelse-i-innsigelsessaker">§ 29. Avgjørelse i innsigelsessaker</h4>
 <p>Patentstyret skal oppheve registreringen av et varemerke helt eller delvis hvis den er skjedd i strid med §§ 14 til 16 , og registreringshindringen fortsatt foreligger, med mindre registreringen kan bestå etter § 29 a eller § 35 b . Registreringen av et fellesmerke eller garanti- eller kontrollmerke skal også oppheves hvis søknaden ikke inneholdt bestemmelser om bruken av merket, og mangelen ikke ble rettet under søknadsbehandlingen, eller hvis registreringen er skjedd i strid med § 12 a , § 15 tredje ledd eller § 20 tredje ledd, og merkehaveren ikke retter mangelen ved å endre bestemmelsene for bruken av merket. Registreringen av et varemerke skal likevel ikke oppheves av den grunn at den er skjedd i strid med § 14 første ledd annet punktum eller § 14 annet ledd hvis disse vilkårene var oppfylt da innsigelsen ble fremsatt.</p>
 <p>Hvis det ikke foreligger hinder for at registreringen opprettholdes, skal innsigelsen forkastes.</p>
 <p>Merkehaveren og innsigeren skal gis melding om Patentstyrets avgjørelse i saken. Når saken er endelig avgjort, skal utfallet innføres i varemerkeregistret og kunngjøres.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="29-a-manglende-bruk-som-forsvar-i-innsigelsessak">§ 29 a. Manglende bruk som forsvar i innsigelsessak</h4>
 <p>Hvis innsigelsen er begrunnet i et eldre registrert varemerke eller foretaksnavn, og det var gått minst fem år fra endelig avgjørelse om registrering av dette kjennetegnet på søknadsdagen for det yngre varemerket, eventuelt prioritetsdagen der denne er tidligere, skal innsigeren på anmodning fra registreringshaveren godtgjøre at det er gjort reell bruk av det eldre kjennetegnet som omhandlet i § 37 i løpet av femårsperioden forut for den nevnte søknads- eller prioritetsdagen, eller at det forelå rimelig grunn for manglende bruk. Kan innsigeren ikke godtgjøre dette, skal Patentstyret ikke oppheve registreringen på grunnlag av inngrep i retten til det eldre varemerket eller foretaksnavnet.</p>
 <p>Har et eldre varemerke eller foretaksnavn bare vært i reell bruk for deler av varene eller tjenestene eller deler av virksomheten det er registrert for, skal det ved behandlingen av innsigelsen anses som registrert bare for disse varene eller tjenestene eller denne delen av virksomheten.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="30-oppheving-pa-grunn-av-sknader-med-bedre-prioritet">§ 30. Oppheving på grunn av søknader med bedre prioritet</h4>
 <p>Hvis det etter at en søknad om registrering av et varemerke er imøtekommet, viser seg at en annen søknad etter § 19 skal anses som innlevert før den førstnevnte søknaden, og Patentstyret antar at den andre søknaden helt eller delvis ville ha utgjort registreringshinder for den førstnevnte søknaden, skal Patentstyret gi merkehaveren melding om dette og anledning til å uttale seg innen en rimelig frist. Blir søknaden med best prioritet imøtekommet, skal Patentstyret etter utløpet av den nevnte fristen oppheve den første registreringen i den utstrekning den best prioriterte søknaden er til hinder for at registreringen blir stående.</p>
 <p>Første ledd gjelder tilsvarende hvis Patentstyret antar at en eldre søknad som blir gjenopptatt etter § 23 fjerde ledd eller tatt under behandling etter § 80 , ville ha utgjort registreringshinder for en yngre søknad som allerede er imøtekommet.</p>
@@ -275,33 +534,33 @@ d. nødvendig dokumentasjon av forhold som påberopes til støtte for innsigelse
 <h2 id="kapittel-4-varemerkeregistreringens-gyldighetstid-merkeendring">Kapittel 4. Varemerkeregistreringens gyldighetstid. Merkeendring</h2>
 <h4 id="32-registreringens-varighet">§ 32. Registreringens varighet</h4>
 <p>Varemerkeregistreringen gjelder i ti år fra søknadsdagen. Registreringen kan deretter fornyes helt eller delvis for ti år av gangen. Hver periode løper fra utgangen av den forrige perioden.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="33-fornyelse-av-registreringen">§ 33. Fornyelse av registreringen</h4>
 <p>Krav om fornyelse leveres skriftlig til Patentstyret tidligst seks måneder før og senest seks måneder etter registreringsperiodens utløp. Det skal betales fastsatt avgift. Blir kravet om fornyelse innlevert etter utløpet av registreringsperioden, skal det betales en tilleggsavgift.</p>
 <p>Innbetaling av fornyelsesavgift med angivelse av varemerkets registreringsnummer innen fristene i første ledd skal anses som et krav om fornyelse.</p>
 <p>Fornyelsen av en registrering skal innføres i varemerkeregistret og kunngjøres. Ved delvis fornyelse skal fornyelsen innføres i registeret og kunngjøres bare for de varene eller tjenestene den gjelder.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="34-endring-av-registrert-varemerke">§ 34. Endring av registrert varemerke</h4>
 <p>Merkehaveren kan kreve at Patentstyret gjør endringer i et registrert varemerke hvis endringene er uvesentlige og ikke påvirker helhetsinntrykket av merket. Det skal betales fastsatt gebyr, ellers anses kravet som ikke innkommet.</p>
 <p>En endring av et registrert merke skal innføres i varemerkeregistret og kunngjøres. Nytt registreringsbrev skal sendes til merkehaveren.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h2 id="kapittel-5-overprving-ugyldighet-og-sletting">Kapittel 5. Overprøving, ugyldighet og sletting</h2>
 <h4 id="35-ugyldighet">§ 35. Ugyldighet</h4>
 <p>En registrering av et varemerke skal helt eller delvis settes til side som ugyldig ved dom eller ved avgjørelse av Patentstyret (administrativ overprøving) etter §§ 38 til 40 hvis registreringen er skjedd i strid med §§ 14 til 16 og ikke kan bestå etter § 8 første ledd, § 35 a eller § 35 b . Registreringen av et fellesmerke eller garanti- eller kontrollmerke skal settes til side som ugyldig hvis søknaden ikke inneholdt bestemmelser om bruken av merket, og mangelen ikke ble rettet under søknadsbehandlingen, eller hvis registreringen er skjedd i strid med § 12 a , § 15 tredje ledd eller § 20 tredje ledd, og merkehaveren ikke retter mangelen ved å endre bestemmelsene for bruken av merket.</p>
 <p>Registreringen skal likevel ikke settes til side som ugyldig av den grunn at den er skjedd i strid med § 14 første ledd annet punktum eller § 14 annet ledd hvis disse vilkårene var oppfylt da kravet om ugyldighet ble fremsatt. En registrering skal heller ikke settes til side som ugyldig av den grunn at bruk av merket ville krenke retten til et innarbeidet varemerke, hvis innarbeidelse bare foreligger innenfor en mindre del av riket.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="35-a-manglende-bruk-som-forsvar-i-ugyldighetssak">§ 35 a. Manglende bruk som forsvar i ugyldighetssak</h4>
 <p>Hvis kravet om ugyldighet er begrunnet i et eldre registrert varemerke eller foretaksnavn, skal innehaveren av det eldre kjennetegnet, hvis innehaveren av det yngre merket krever det, godtgjøre at det eldre kjennetegnet i løpet av femårsperioden forut for datoen for kravet om ugyldighet har vært i reell bruk som omhandlet i § 37 for de varer eller tjenester eller den virksomhet det er registrert for, og som er påberopt som grunnlag for kravet, eller at det foreligger rimelig grunn for manglende bruk. Første punktum gjelder bare hvis det da kravet om ugyldighet ble fremsatt, var gått minst fem år fra endelig avgjørelse om registrering av det eldre varemerket eller foretaksnavnet ble truffet.</p>
 <p>Hvis det på søknadsdagen for det yngre varemerket, eventuelt prioritetsdagen der denne er tidligere, var gått minst fem år fra endelig avgjørelse om registrering av det eldre varemerket eller foretaksnavnet, skal innehaveren av det eldre varemerket eller foretaksnavnet i tillegg godtgjøre at det ble gjort reell bruk av kjennetegnet i løpet av femårsperioden forut for den nevnte søknads- eller prioritetsdagen, eller at det forelå rimelig grunn til manglende bruk.</p>
 <p>Hvis innehaveren av det eldre varemerket eller foretaksnavnet ikke kan godtgjøre at kjennetegnet har vært i bruk som angitt i første og annet ledd, skal kravet om ugyldighet ikke tas til følge på grunnlag av inngrep i retten til det eldre varemerket eller foretaksnavnet.</p>
 <p>Hvis et eldre varemerke eller foretaksnavn bare har vært i reell bruk for deler av varene eller tjenestene eller virksomheten det er registrert for, anses det ved behandlingen av kravet om ugyldighet som registrert bare for disse varene eller tjenestene eller denne delen av virksomheten.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="35-b-mellomliggende-rettigheter">§ 35 b. Mellomliggende rettigheter</h4>
 <p>Et krav om ugyldighet på grunnlag av et eldre varemerke kan ikke tas til følge hvis kravet ikke ville blitt tatt til følge på søknads- eller prioritetsdagen for det yngre merket fordi:</p>
 <p>a. det eldre varemerket ikke oppfylte vilkårene i § 14 første ledd annet punktum eller § 14 annet ledd og ennå ikke hadde oppnådd særpreg etter § 14 tredje ledd annet punktum,
 b. kravet om ugyldighet er begrunnet i § 4 første ledd bokstav b, og det eldre varemerket ennå ikke hadde oppnådd slikt særpreg at det forelå risiko for forveksling, eller
 c. kravet om ugyldighet er begrunnet i § 4 annet ledd, og det eldre varemerket ennå ikke var velkjent.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="36-sletting-ved-degenerasjon-mv">§ 36. Sletting ved degenerasjon mv.</h4>
 <p>En registrering av et varemerke skal helt eller delvis slettes ved dom eller ved administrativ overprøving etter bestemmelsene i §§ 38 til 40 hvis:</p>
 <p>a. merket, som følge av merkehaverens handlinger eller passivitet, er blitt den alminnelige betegnelsen innen bransjen for slike varer eller tjenester som det er registrert for,
@@ -309,13 +568,13 @@ b. merket, som følge av den bruk merkehaveren eller noen med dennes samtykke ha
 c. fellesmerke eller garanti- eller kontrollmerke er brukt i strid med bestemmelsene for bruken av merket, herunder eventuelle endringer innført i varemerkeregisteret, uten at merkehaveren har tatt rimelige skritt for å hindre slik bruk,
 d. fellesmerke eller garanti- eller kontrollmerke er brukt av dem som har rett til å bruke merket, på en måte som har gjort merket egnet til å villede med hensyn til dets karakter eller betydning som nevnt i § 15 tredje ledd, eller
 e. endringer i bestemmelsene for bruken av fellesmerke eller garanti- eller kontrollmerke er innført i varemerkeregisteret i strid med kravene nevnt i § 22 annet ledd tredje punktum, med mindre merkehaveren retter mangelen ved ytterligere endring av bestemmelsene.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="37-sletting-ved-manglende-bruk-av-varemerke">§ 37. Sletting ved manglende bruk av varemerke</h4>
 <p>En registrering av et varemerke skal helt eller delvis slettes ved dom eller ved administrativ overprøving etter §§ 38 til 40 hvis merkehaveren ikke innen fem år fra den dagen da endelig avgjørelse om registrering av merket ble truffet, har tatt merket i reell bruk her i riket for de varer eller tjenester det er registrert for, eller hvis bruken har vært avbrutt i fem år i sammenheng. Registreringen skal likevel ikke slettes hvis det foreligger rimelig grunn for unnlatelsen eller avbrytelsen.</p>
 <p>Som bruk av varemerket etter første ledd regnes også bruk av merket i en form som bare skiller seg fra den form det er registrert i ved enkeltheter som ikke endrer dets særpreg, uavhengig av om varemerket i denne formen er beskyttet ved særskilt registrering for merkehaveren, og anbringelse av merket her i riket på varer eller deres emballasje for eksport. Som merkehaverens bruk regnes også bruk som en annen gjør med samtykke fra merkehaveren. For fellesmerker og garanti- eller kontrollmerker regnes bruk av enhver som har rett til å bruke merket, som merkehaverens bruk.</p>
 <p>En registrering skal ikke slettes hvis bruk av varemerket startes eller gjenopptas etter utløpet av femårsperioden, men før det er reist søksmål eller fremsatt krav om administrativ overprøving for å få registreringen slettet. Det skal likevel ikke tas hensyn til bruk i de siste tre månedene før søksmål reises eller krav om administrativ overprøving fremsettes, hvis forberedelser til bruken er innledet først etter at merkehaveren har fått kjennskap til at søksmål kan bli reist eller krav om overprøving fremsatt.</p>
 <p>Endelig avgjørelse om registrering av merket er truffet når innsigelsesfristen etter § 26 er utløpt, eller, hvis det leveres innsigelse, når det er truffet endelig avgjørelse i innsigelsessaken, eller innsigelsen er trukket. For internasjonal varemerkeregistrering er endelig avgjørelse om registrering truffet når det er endelig avgjort at registreringen skal ha virkning her i landet etter §§ 70 og 71 . Patentstyret skal føre inn datoen da femårsperioden begynner å løpe i varemerkeregisteret.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="38-delvis-ugyldighet-og-sletting">§ 38. Delvis ugyldighet og sletting</h4>
 <p>Hvis et grunnlag for ugyldighet eller sletting etter §§ 35 til 37 bare gjelder noen av de varene eller tjenestene varemerket er registrert for, skal registreringen settes til side som ugyldig eller slettes med virkning bare for disse varene eller tjenestene.</p>
 <h4 id="39-krav-om-sakstilknytning-mv">§ 39. Krav om sakstilknytning mv.</h4>
@@ -331,30 +590,30 @@ d. nødvendig dokumentasjon av forhold som påberopes til støtte for kravet.</p
 <p>Er kravet fremmet av andre enn innehaveren av registreringen, skal Patentstyret snarest mulig gi denne melding om kravet med en rimelig frist for uttalelse. Den som krever administrativ overprøving, skal gi melding om dette i rekommandert brev til alle lisenshavere og panthavere som er registrert i varemerkeregisteret med adresse. Dokumenteres det ikke at det er gitt slik melding, kan Patentstyret fastsette en frist for å gi melding. Oversittes fristen, skal kravet avvises.</p>
 <p>Er det innlevert to eller flere krav om overprøving av den samme varemerkeregistreringen, kan Patentstyret forene sakene hvis det ikke fremsettes en saklig begrunnet innvending mot dette.</p>
 <p>Patentstyret kan bare ta hensyn til forhold som er berørt i kravet.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="41-forholdet-mellom-saker-for-patentstyret-og-domstolene">§ 41. Forholdet mellom saker for Patentstyret og domstolene</h4>
 <p>Krav om administrativ overprøving kan ikke fremsettes så lenge et søksmål om ugyldighet eller sletting ikke er rettskraftig avgjort. Hvis det reises søksmål om ugyldighet eller sletting før det er truffet endelig avgjørelse i sak om administrativ overprøving, skal Patentstyret stanse behandlingen inntil søksmålet er rettskraftig avgjort hvis kravet om administrativ overprøving er fremsatt av andre enn merkehaveren.</p>
 <p>Den som har fremsatt krav om administrativ overprøving, kan ikke reise søksmål om ugyldighet eller sletting mens saken pågår hos Patentstyret.</p>
 <p>Krav om administrativ overprøving kan ikke fremsettes av en part som tidligere har reist søksmål om ugyldighet eller sletting hvis reglene om rettskraft er til hinder for at det reises nytt søksmål om det samme forholdet.</p>
 <h4 id="42-ugyldighet-og-sletting-i-visse-srlige-tilfeller">§ 42. Ugyldighet og sletting i visse særlige tilfeller</h4>
 <p>Hvis merkehaveren og den som angriper registreringen av varemerket, er enige om det, kan spørsmålet om registreringens gyldighet eller om sletting kreves endelig avgjort av Klagenemnden for industrielle rettigheter. Det skal betales fastsatt gebyr, ellers anses kravet som ikke innkommet.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="43-sletting-ved-ukjent-adresse-mv">§ 43. Sletting ved ukjent adresse mv.</h4>
 <p>Er det begrunnet tvil om en merkehaver finnes, kan enhver fremsette skriftlig krav overfor Patentstyret om at registreringen slettes. Det samme gjelder hvis merkehaverens adresse er ukjent. Det skal betales fastsatt gebyr, ellers anses kravet som ikke innkommet.</p>
 <p>Før sletting etter første ledd kan skje, skal Patentstyret oppfordre merkehaveren til å melde seg innen en rimelig frist. Oppfordringen skal gis i rekommandert brev eller på annen betryggende måte. Er merkehaverens adresse ukjent, gis oppfordringen ved kunngjøring i Norsk Varemerketidende.</p>
 <p>Har merkehaveren ikke meldt seg innen fristen, skal Patentstyret treffe avgjørelse om å slette registreringen av varemerket.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="44-virkningen-av-avgjrelser-om-ugyldighet-eller-sletting">§ 44. Virkningen av avgjørelser om ugyldighet eller sletting</h4>
 <p>En rettskraftig dom eller endelig avgjørelse fra Patentstyret om å sette en registrering helt eller delvis til side som ugyldig, har virkning allerede fra den dag søknaden om registrering ble innlevert.</p>
 <p>En rettskraftig dom eller endelig avgjørelse fra Patentstyret om helt eller delvis å slette en registrering har virkning fra det tidspunktet da søksmål ble reist eller krav om sletting innlevert til Patentstyret. Etter krav fra en part i saken kan det likevel fastsettes i en dom eller avgjørelse som bygger på § 36 at avgjørelsen skal ha virkning fra et tidligere tidspunkt da et grunnlag for sletting forelå.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="45-oppheving-av-eget-tiltak">§ 45. Oppheving av eget tiltak</h4>
 <p>Hvis en registrering av et varemerke, en fornyelse eller en endring av en registrering har skjedd ved en åpenbar feil, kan Patentstyret av eget tiltak helt eller delvis oppheve registreringen.</p>
 <p>Merkehaveren skal gis melding med rimelig frist for uttalelse før oppheving finner sted.</p>
 <h4 id="46-sletting-ved-registreringsperiodens-utlp-mv">§ 46. Sletting ved registreringsperiodens utløp mv.</h4>
 <p>Registreringen av et varemerke skal slettes etter utløpet av registreringsperioden hvis registreringen ikke blir fornyet, eller hvis merkehaveren skriftlig krever at registreringen slettes.</p>
 <p>Er det reist søksmål om retten til varemerket, eller er retten til varemerket pantsatt, kan registreringen ikke slettes etter krav fra merkehaveren før søksmålet er rettskraftig avgjort eller panteretten falt bort.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="47-innfring-i-varemerkeregistret-og-kunngjring">§ 47. Innføring i varemerkeregistret og kunngjøring</h4>
 <p>Er det fremsatt krav om administrativ overprøving av en varemerkeregistrering, eller reist søksmål om ugyldighet eller sletting av en slik registrering, skal dette innføres i varemerkeregistret og kunngjøres. Når saken er endelig avgjort, skal utfallet innføres i varemerkeregistret og kunngjøres.</p>
 <p>Endelig avgjørelse om oppheving av en registrering etter § 45 skal innføres i varemerkeregistret og kunngjøres. Det samme gjelder endelig avgjørelse om ugyldighet eller sletting etter § 42 og sletting etter §§ 43 og 46 .</p>
@@ -377,7 +636,7 @@ d. nødvendig dokumentasjon av forhold som påberopes til støtte for kravet.</p
 </ol>
 <p>kan påklages til Klagenemnden av den som har fremsatt kravet.</p>
 <p>Andre avgjørelser fra Patentstyret kan ikke påklages.</p>
-<p><em>Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</p>
 <h4 id="50-levering-av-klage">§ 50. Levering av klage</h4>
 <p>En klage leveres skriftlig til Patentstyret innen to måneder etter den dagen melding om avgjørelsen ble sendt vedkommende part. Klagen skal oppgi:</p>
 <p>a. klagerens navn og adresse
@@ -385,53 +644,53 @@ b. avgjørelsen som det klages over
 c. hvilken endring som ønskes i avgjørelsen
 d. hvilke grunner klagen bygger på.</p>
 <p>Klagen skal i tillegg oppfylle de vilkårene som er fastsatt av Kongen i forskrift. Det skal betales fastsatt klagegebyr, ellers opptas ikke klagen til behandling.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="51-behandling-av-klage">§ 51. Behandling av klage</h4>
 <p>Andre parter i saken skal snarest mulig gis melding om klagen med en rimelig frist for uttalelse.</p>
 <p>Er vilkårene for å behandle klagen oppfylt, kan Patentstyret oppheve eller endre avgjørelsen hvis det finner det klart at klagen vil føre frem. Blir det ikke truffet slik avgjørelse, skal saken forelegges for Klagenemnden. Gir Patentstyret en uttalelse til Klagenemnden, skal en kopi sendes til partene.</p>
 <p>Hvis vilkårene for å behandle klagen ikke er oppfylt, skal klageren gis en rimelig frist for uttalelse og om mulig retting av manglene. Blir manglene ikke rettet innen utløpet av fristen, skal klagen avvises hvis ikke Klagenemnden finner at det bør gis en ny frist for retting.</p>
 <p>Tas klagen under behandling, skal Klagenemnden foreta de undersøkelser som klagen gir grunn til. Den kan ta hensyn til forhold som ikke er berørt i klagen. Er klagen trukket tilbake, kan Klagenemnden fortsette behandlingen av saken hvis det foreligger særlige grunner for dette. Ved klage over avgjørelse av innsigelse eller krav om administrativ overprøving kan Klagenemnden likevel bare ta hensyn til forhold som er berørt i innsigelsen eller kravet. Ved administrativ overprøving kan klagebehandlingen ikke fortsette hvis klagen er trukket tilbake.</p>
 <p>Enhver kan kreve innsyn i dokumentene i klagesaker. Bestemmelsene i § 25 annet og tredje ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="52-domstolsprving-av-avgjrelser-fra-klagenemnden-for-industrielle-rettigheter">§ 52. Domstolsprøving av avgjørelser fra Klagenemnden for industrielle rettigheter</h4>
 <p>Avgjørelse fra Patentstyret kan bare bringes inn for domstolene hvis klageretten etter § 49 har blitt brukt, og Klagenemnden for industrielle rettigheter (Klagenemnden) har avgjort klagen. Første punktum berører ikke retten til å reise søksmål om ugyldighet eller sletting etter §§ 35 til 37 eller om retten til varemerket.</p>
 <p>Klagenemndens avgjørelse i klagesak kan bringes inn for domstolene av den parten som avgjørelsen har gått imot, om ikke annet følger av tredje ledd. Søksmål må reises innen to måneder etter den dagen da melding om avgjørelsen ble sendt vedkommende part. Opplysning om søksmålsfristen skal inntas i meldingen om avgjørelsen. Søksmål rettes mot staten ved Klagenemnden.</p>
 <p>Avgjørelsen i Klagenemnden av sak om overføring av en søknad eller registrering kan ikke bringes inn for domstolene. Det samme gjelder avgjørelse der Klagenemnden avviser eller forkaster en innsigelse, avviser eller avslår et krav om administrativ overprøving etter § 40 , eller opprettholder en avgjørelse fattet av Patentstyret om slik avvisning, forkasting eller avslag.</p>
-<p><em>Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</p>
 <h2 id="kapittel-7-overdragelse-og-lisens-mv">Kapittel 7. Overdragelse og lisens mv.</h2>
 <h4 id="53-overdragelse">§ 53. Overdragelse</h4>
 <p>En varemerkerett eller rett til søknad om varemerkeregistrering kan overdras helt eller delvis i eller uten forbindelse med den virksomheten som varemerket er knyttet til.</p>
 <p>Ved overdragelse av virksomhet går rett til varemerker som er knyttet til virksomheten, over til erververen hvis ikke annet er avtalt eller fremgår klart av omstendighetene.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="54-lisens">§ 54. Lisens</h4>
 <p>En merkehaver eller innehaver av søknad om varemerkeregistrering kan gi en annen rett til å bruke varemerket i næringsvirksomhet (lisens). Lisenshaveren kan ikke overdra retten videre hvis ikke annet er avtalt. Lisensen kan være eksklusiv eller ikke-eksklusiv, gjelde alle eller bare enkelte av de varene eller tjenestene merket er beskyttet for, og hele eller deler av riket.</p>
 <p>Merkehaveren kan påberope bestemmelsene i kapittel 8 overfor en lisenshaver som overtrer lisensavtalens bestemmelser om varigheten av lisensen, i hvilken utforming merket kan brukes, hvilke varer eller tjenester det kan brukes for, hvilket geografisk område merket kan brukes i, eller kvaliteten av de varer eller tjenester merket kan brukes for.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="55-forbud-mot-utlegg-mv-i-innarbeidet-varemerke">§ 55. Forbud mot utlegg mv. i innarbeidet varemerke</h4>
 <p>En varemerkerett som utelukkende er beskyttet ved innarbeidelse, jf. § 3 tredje ledd, kan ikke være gjenstand for utlegg eller annen separat tvangsforfølgning fra fordringshaverne.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="56-innfring-av-overdragelser-og-lisenser-i-varemerkeregistret-mv">§ 56. Innføring av overdragelser og lisenser i varemerkeregistret mv.</h4>
 <p>Søksmål som gjelder et registrert varemerke, kan alltid reises mot den som står som merkehaver i varemerkeregistret, og meldinger som Patentstyret skal gi merkehaveren, kan alltid sendes til denne.</p>
 <p>Er retten til et varemerke som er registrert eller søkt registrert, overdratt til en annen, skal dette innføres i varemerkeregisteret og kunngjøres hvis en av partene ber om det. § 78 gjelder tilsvarende.</p>
 <p>En lisens til et varemerke som er registrert eller søkt registrert, skal innføres i varemerkeregistret og kunngjøres hvis en av partene ber om det. Det samme gjelder hvis en registrert lisens er overdratt eller opphørt.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="56-a-innfring-av-pantsettelser-og-utlegg-i-varemerkeregisteret">§ 56 a. Innføring av pantsettelser og utlegg i varemerkeregisteret</h4>
 <p>Panterett i varemerke som nevnt i <a href="lov-1980-02-08-2.html">panteloven</a> § 4-11 skal etter krav fra panthaveren eller innehaveren av søknaden eller rettigheten som pantsettelsen gjelder, anmerkes i varemerkeregisteret. Det samme gjelder for overdragelse og frempantsettelse av en slik panterett. Dokumentasjon for pantsettelsen eller overdragelsen skal følge med et krav om anmerkning. Patentstyret skal bygge på at den som er oppført som innehaver av en søknad eller rettighet i varemerkeregisteret, har rett til å samtykke til pantsettelsen, med mindre det foreligger klare holdepunkter for at en annen er innehaver. Det samme gjelder for den som har overdratt eller frempantsatt en panterett. Når panteretten er opphørt, skal det gjøres anmerkning om dette.</p>
 <p>Om anmerkning i varemerkeregisteret av utlegg og arrest i registrerte varemerker og varemerkesøknader gjelder <a href="lov-1992-06-26-86.html">tvangsfullbyrdelsesloven</a> § 7-19 niende ledd , jf. <a href="lov-2005-06-17-90.html">tvisteloven</a> § 33-7 annet ledd .</p>
 <p>Partene kan påklage Patentstyrets nektelse av å foreta anmerkning etter paragrafen her til Klagenemnden. Klagen må være innkommet til Patentstyret innen to måneder fra den dagen meldingen om nektelsen ble sendt vedkommende part. Det skal betales fastsatt gebyr, ellers opptas ikke klagen til behandling. Er vilkårene for å behandle klagen oppfylt, kan Patentstyret endre avgjørelsen hvis det finner at klagen er begrunnet. Blir det ikke truffet slik avgjørelse, skal saken sendes til Klagenemnden. Klagenemndens leder kan alltid avgjøre klager etter leddet her alene.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler), endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler), endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</p>
 <h4 id="56-b-kollisjon-mellom-rettserverv-mv">§ 56 b. Kollisjon mellom rettserverv mv.</h4>
 <p>Ved kollisjon mellom rettserverv som går ut på frivillig overdragelse av registrert varemerke, herunder varemerkesøknad, meddelelse av avtalt lisens, overdragelse av avtalt lisens, pantsettelse av varemerke som nevnt i panteloven § 4-11 , herunder overdragelse og frempantsettelse av slik panterett, og utlegg og arrest, går rettserverv der krav om anmerkning i varemerkeregisteret er mottatt hos Patentstyret, foran rettserverv som ikke er mottatt samme dag eller tidligere.</p>
 <p>Rettserverv som er mottatt til anmerkning samme dag, er likestilte. Utlegg og arrest går likevel foran andre rettserverv. Er flere utleggsforretninger og arrestforretninger mottatt til anmerkning samme dag, går den eldste foran.</p>
 <p>En eldre rett går uten hensyn til første og annet ledd foran en yngre, dersom den yngre retten er basert på et frivillig rettserverv, og erververen kjente eller burde kjenne til den eldre retten da kravet om anmerkning ble mottatt hos Patentstyret.</p>
 <p>Bestemmelsene i <a href="lov-1935-06-07-2.html">tinglysingsloven</a> §§ 23 til 26 og §§ 30 til 32 a gjelder tilsvarende så langt de passer.</p>
 <p>Ved kollisjon mellom rettserverv som nevnt i første ledd og panterett i driftstilbehør etter panteloven §§ 3-4 eller 5-4 som omfatter en rett til varemerkesøknad, registrert varemerke eller en lisens som gjelder slike rettigheter, går rettserverv som er mottatt til anmerkning hos Patentstyret, foran panterett i driftstilbehør som ikke er mottatt til anmerkning hos Løsøreregisteret samme dag eller tidligere. Annet ledd gjelder tilsvarende. En eldre panterett i driftstilbehør som ikke er mottatt til anmerkning i Løsøreregisteret, går likevel foran et yngre rettserverv som nevnt i første ledd, dersom den yngre retten er basert på et frivillig rettserverv, og erververen kjente eller burde kjenne til driftstilbehørspanteretten da kravet om anmerkning ble mottatt hos Patentstyret.</p>
-<p><em>Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h2 id="kapittel-8-sanksjoner-mot-varemerkeinngrep">Kapittel 8. Sanksjoner mot varemerkeinngrep</h2>
 <h4 id="57-forbud-mot-inngrep">§ 57. Forbud mot inngrep</h4>
 <p>Den som har gjort inngrep i en annens rett etter denne loven, eller medvirket til det, kan ved dom forbys å gjenta handlingen. Den som har gjort vesentlige forberedelsestiltak med sikte på å utføre en handling som vil utgjøre inngrep, eller på annen måte har opptrådt slik at det er særlig grunn til å frykte at vedkommende vil gjøre inngrep, kan ved dom forbys å gjennomføre handlingen.</p>
 <p>Forbud kan likevel ikke nedlegges hvis vilkårene etter § 37 for å slette registreringen av saksøkerens varemerke var oppfylt da inngrepssaken ble reist. Hvis det da inngrepssaken ble reist, var gått mer enn fem år siden endelig avgjørelse om registrering av merket, og saksøkte krever det, skal saksøkeren godtgjøre at varemerket i femårsperioden forut for saken har vært i reell bruk som angitt i § 37 for de varene eller tjenestene det er registrert for og som saken gjelder, eller at det er rimelig grunn for manglende bruk.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="58-vederlag-og-erstatning-for-varemerkeinngrep">§ 58. Vederlag og erstatning for varemerkeinngrep</h4>
 <p>For forsettlig eller uaktsomt varemerkeinngrep skal inngriperen betale til rettighetshaveren:</p>
 <p>a. vederlag svarende til en rimelig lisensavgift for utnyttelsen, samt erstatning for skade som følge av inngrepet som ikke ville oppstått ved lisensiering,
@@ -443,7 +702,7 @@ c. vederlag svarende til vinningen som er oppnådd ved inngrepet.</p>
 <p>For inngrep som har skjedd i god tro skal inngriperen i den grad det ikke fremstår som urimelig, betale vederlag svarende til en rimelig lisensavgift for utnyttelsen eller til vinningen som er oppnådd ved inngrepet.</p>
 <p>Ansvaret etter første til tredje ledd kan lempes etter lov 13. juni 1969 nr. 26 om skadeserstatning § 5-2 .</p>
 <p>Innehaveren av et fellesmerke eller garanti- eller kontrollmerke kan kreve erstatning også for skade som er påført andre som har rett til å bruke merket.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="59-tiltak-for-a-hindre-inngrep">§ 59. Tiltak for å hindre inngrep</h4>
 <p>For å hindre inngrep kan retten i den utstrekning det finnes rimelig, gi pålegg om forebyggende tiltak for produkter som utgjør inngrep i en varemerkerett og for materialer og hjelpemidler som hovedsakelig er brukt, eller tilsiktet brukt, til å fremstille slike produkter. Slikt pålegg kan blant annet gå ut på at produkter og materialer og hjelpemidler skal:</p>
 <p>a. tilbakekalles fra handelen,
@@ -453,22 +712,22 @@ d. utleveres til rettighetshaveren.</p>
 <p>Avgjørelsen av om tiltak skal pålegges og valget mellom mulige tiltak skal skje ut fra en forholdsmessighetsvurdering. Det skal blant annet tas hensyn til inngrepets alvorlighet, virkningene av tiltakene og tredjeparts interesser.</p>
 <p>Første ledd gjelder tilsvarende i tilfeller som nevnt i § 57 annet punktum.</p>
 <p>Tiltak etter paragrafen her skal ikke være betinget av at rettighetshaveren yter kompensasjon til den tiltaket retter seg mot, og påvirker ikke rettighetshaverens rett til vederlag eller erstatning etter § 58 . Tiltak skal gjennomføres for saksøktes regning hvis ikke særlige grunner taler mot det.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</p>
 <h4 id="59-a-formidling-av-informasjon-om-dom-i-sak-om-inngrep">§ 59 a. Formidling av informasjon om dom i sak om inngrep</h4>
 <p>I dom i sak om inngrep kan retten bestemme at informasjon om dommen skal formidles på passende måte for inngriperens regning. Dette gjelder tilsvarende ved medvirkning til inngrep og i tilfeller som nevnt i § 57 annet punktum.</p>
-<p><em>Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</em></p>
+<p class="note">Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</p>
 <h4 id="60-grunnlag-for-frifinnelse-i-sivile-saker">§ 60. Grunnlag for frifinnelse i sivile saker</h4>
 <p>I sivile saker om inngrep i registrert varemerke kan det bare bygges på at registreringen er ugyldig, kan slettes etter bestemmelsene i §§ 35 til 37 eller kreves overført hvis det først er avsagt dom for ugyldighet, sletting eller overføring, eller hvis Patentstyret har truffet endelig avgjørelse om dette.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="61-straff">§ 61. Straff</h4>
 <p>Den som begår varemerkeinngrep straffes med bøter eller fengsel i inntil ett år.</p>
 <p>Dersom det foreligger særlig skjerpende omstendigheter, er straffen bøter eller fengsel inntil tre år. Ved vurderingen av om særlig skjerpende omstendigheter foreligger skal det særlig legges vekt på den skade som er påført rettighetshaveren, herunder skade på rettighetshaverens kommersielle omdømme, den vinning som inngriperen har oppnådd, og omfanget av inngrepet for øvrig.</p>
 <p>Ved inngrep i rett til fellesmerke eller garanti- eller kontrollmerke anses bare merkehaveren som fornærmet.</p>
-<p><em>Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler), 20 des 2023 nr. 110 (i kraft 24 mai 2024 iflg. res. 24 mai 2024 nr. 811 ).</em></p>
+<p class="note">Endret ved lover 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler), 20 des 2023 nr. 110 (i kraft 24 mai 2024 iflg. res. 24 mai 2024 nr. 811 ).</p>
 <h4 id="61-a-utnyttelse-fr-kunngjring-av-registreringen">§ 61 a. Utnyttelse før kunngjøring av registreringen</h4>
 <p>Utnytter noen uten samtykke fra søkeren et varemerke som er søkt registrert i tidsrommet mellom søknadens innlevering og kunngjøringen av registreringen, gjelder § 57 , § 58 første til tredje og femte og sjette ledd, §§ 59 og 59 a tilsvarende i den utstrekning søknaden fører til registrering.</p>
 <p>Foreldelsesfristen for krav etter denne paragrafen begynner ikke å løpe før varemerket er registrert.</p>
-<p><em>Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</em></p>
+<p class="note">Tilføyd ved lov 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</p>
 <h2 id="kapittel-9-rettergangsbestemmelser">Kapittel 9. Rettergangsbestemmelser</h2>
 <h4 id="62-tvungent-verneting">§ 62. Tvungent verneting</h4>
 <p>Følgende søksmål må reises ved Oslo tingrett:</p>
@@ -476,16 +735,16 @@ d. utleveres til rettighetshaveren.</p>
 b. søksmål om ugyldighet eller sletting av en varemerkeregistrering etter §§ 35 til 37
 c. sivilt søksmål om inngrep i registrert varemerke.</p>
 <p>Oslo tingrett er verneting for søkere og merkehavere som ikke har bopel i Norge.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ), 31 mai 2013 nr. 25 (ikr. 1 juli 2013 iflg. res. 31 mai 2013 nr. 543 ).</p>
 <h4 id="63-sksmalsrett-mv">§ 63. Søksmålsrett mv.</h4>
 <p>Hvis det er gitt lisens til bruk av et varemerke, kan lisenshaveren bare reise søksmål om varemerkeinngrep hvis merkehaveren samtykker, med mindre annet er avtalt. Innehaveren av en eksklusiv lisens kan likevel reise slikt søksmål hvis merkehaveren, etter å ha fått varsel om søksmålet, ikke selv reiser inngrepssøksmål innen rimelig tid.</p>
 <p>Lisenshaveren kan tre inn som part i søksmål om varemerkeinngrep reist av merkehaveren og fremme krav etter § 58 for den delen av inngrepet som rammer lisenshaveren.</p>
 <p>Første og annet ledd gjelder tilsvarende for den som har rett til å bruke et fellesmerke. Ved inngrep i rett til garanti- eller kontrollmerke kan bare merkehaveren reise søksmål.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="64-melding-om-sksmal">§ 64. Melding om søksmål</h4>
 <p>Den som reiser søksmål om ugyldighet eller sletting av en varemerkeregistrering etter §§ 35 til 37 , skal samtidig gi melding om dette til Patentstyret, samt i rekommandert brev til enhver lisenshaver og panthaver som er innført i varemerkeregisteret med adresse. En lisenshaver, panthaver eller bruker av fellesmerke som reiser søksmål om varemerkeinngrep, skal i rekommandert brev gi melding om dette til merkehaveren.</p>
 <p>Dokumenterer saksøkeren ikke at de nødvendige meldingene er gitt, kan retten sette en frist for å gi meldingene. Oversittes fristen, skal saken avvises.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="65-oversendelse-av-dommer">§ 65. Oversendelse av dommer</h4>
 <p>Retten skal sende Patentstyret utskrift av dommer i sivile saker om varemerkeregistreringer eller søknader.</p>
 <h2 id="kapittel-10-internasjonal-varemerkeregistrering">Kapittel 10. Internasjonal varemerkeregistrering</h2>
@@ -501,7 +760,7 @@ c. en gjengivelse av merket
 d. en liste over de varer eller tjenester som merket søkes registrert for
 e. en liste over land eller mellomstatlig organisasjon som registreringen ønskes gitt virkning for.</p>
 <p>Søknaden skal i tillegg oppfylle de krav som er fastsatt av Kongen i forskrift. Det skal betales fastsatt gebyr, ellers anses søknaden som ikke innkommet.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="68-patentstyrets-behandling-av-sknaden">§ 68. Patentstyrets behandling av søknaden</h4>
 <p>Patentstyret skal påse at vilkårene i § 67 er oppfylt, og at opplysningene i søknaden er i samsvar med de opplysninger som er gitt i den eller de norske varemerkeregistreringer eller søknader som den internasjonale søknaden bygger på.</p>
 <p>Hvis søknaden oppfyller kravene som nevnt i første ledd, skal Patentstyret oversende søknaden til Det internasjonale byrået.</p>
@@ -519,19 +778,19 @@ d. om søknaden gjelder alle eller bare nærmere angitte av de varene eller tjen
 <p>Er registreringsvilkårene ikke oppfylt, skal Patentstyret helt eller delvis avslå å gi den internasjonale registreringen virkning i Norge. Avslag må meldes til Det internasjonale byrået innen 18 måneder etter at Patentstyret fikk melding som nevnt i første ledd.</p>
 <p>Ved avslag kan innehaveren av den internasjonale registreringen på de vilkårene som er fastsatt i forskrift, kreve at Patentstyret foretar en fornyet vurdering av spørsmålet om den internasjonale registreringen skal ha virkning i Norge.</p>
 <p>For Patentstyrets behandling av krav om at en internasjonal varemerkeregistrering skal ha virkning i Norge, gjelder § 23 tilsvarende. Hvis innehaveren av den internasjonale registreringen har påberopt prioritet, gjelder § 19 .</p>
-<p><em>Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2012 nr. 58 (ikr. 1 apr 2013 iflg. res. 1 mars 2013 nr. 244 ).</p>
 <h4 id="71-innsigelse">§ 71. Innsigelse</h4>
 <p>Enhver kan innen tre måneder fra kunngjøringsdagen fremsette innsigelse mot at den internasjonale varemerkeregistreringen skal ha virkning i Norge. Om fremsettelse og kunngjøring av innsigelser gjelder § 26 tilsvarende. Om behandlingen av innsigelser gjelder §§ 27 , 27 a og 28 tilsvarende.</p>
 <p>Hvis et registreringsvilkår etter §§ 14 til 16 ikke er oppfylt, skal Patentstyret beslutte at den internasjonale registreringen helt eller delvis ikke skal ha virkning i Norge hvis fristen etter § 70 tredje ledd annet punktum ikke er utløpt, eller Patentstyret innen utløpet av nevnte frist har gitt Det internasjonale byrået melding om at det kan bli innlevert innsigelse etter fristens utløp og melding om innsigelsen er oversendt innen en måned etter utløpet av innsigelsesfristen. § 29 første ledd annet og tredje punktum og § 29 a gjelder tilsvarende.</p>
 <p>Hvis registreringsvilkårene er oppfylt, skal Patentstyret forkaste innsigelsen.</p>
 <p>Innehaveren av den internasjonale registreringen og innsigeren skal gis melding om Patentstyrets avgjørelse i innsigelsessaker. Når saken er endelig avgjort, skal utfallet innføres i varemerkeregistret og kunngjøres.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="72-virkningene-av-en-internasjonal-varemerkeregistrering">§ 72. Virkningene av en internasjonal varemerkeregistrering</h4>
 <p>En innføring i varemerkeregistret om at en internasjonal varemerkeregistrering har virkning i Norge, har samme virkning som om varemerket var registrert her i riket. Innføringen har virkning fra den dagen registreringen ved Det internasjonale byrået anses for å ha skjedd eller fra dagen for en etterfølgende utpeking av Norge. Frem til den internasjonale registreringen er innført i varemerkeregistret og kunngjort etter § 70 annet ledd, har registreringen eller en etterfølgende utpeking av Norge samme virkning som en søknad om varemerkeregistrering i Norge. Utnytter noen varemerket uten samtykke fra den internasjonale varemerkehaveren, og skjer utnyttelsen etter registreringen ved Det internasjonale byrået eller en etterfølgende utpeking av Norge, gjelder § 57 , § 58 første til tredje og femte og sjette ledd, § 59 og § 59 a tilsvarende hvis registreringen senere blir ført inn i varemerkeregisteret. Foreldelsesfristen for krav etter fjerde punktum begynner ikke å løpe før registreringen er innført i varemerkeregistret.</p>
 <p>Registreringen gjelder i ti år fra den dagen registreringen ved Det internasjonale byrået anses for å ha skjedd. Den kan fornyes for ti år av gangen etter reglene i Madridprotokollen. Når Patentstyret får melding fra Det internasjonale byrået om fornyelse av en internasjonal registrering skal dette innføres i varemerkeregistret og kunngjøres.</p>
 <p>En innføring i varemerkeregistret om at en internasjonal registrering har virkning i Norge, kan oppheves etter §§ 30 og 45 , og erklæres ugyldig eller slettes etter bestemmelsene i kapittel 5 . Oppheving etter §§ 30 og 45 må skje innen fristen i § 70 tredje ledd annet punktum.</p>
 <p>Overdragelse og lisensiering av retten til internasjonale varemerkeregistreringer meldes til Det internasjonale byrået. Søksmål som gjelder varemerket, kan alltid reises mot den som står som innehaver i det internasjonale registeret.</p>
-<p><em>Endret ved lover 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lover 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ), 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="73-forholdet-mellom-en-nasjonal-og-en-internasjonal-varemerkeregistrering">§ 73. Forholdet mellom en nasjonal og en internasjonal varemerkeregistrering</h4>
 <p>Hvis noen innehar både en internasjonal registrering med virkning i Norge og en norsk registrering av det samme varemerket, erstatter den internasjonale registreringen den norske hvis den internasjonale registreringen har virkning her i riket fra et senere tidspunkt enn den norske, og alle varer eller tjenester som er omfattet av den norske registreringen inngår i listen over varer eller tjenester som omfattes av den internasjonale registreringen slik den gjelder for Norge. Dette innebærer ingen innskrenkninger i rettigheter som allerede er ervervet på grunnlag av den norske registreringen.</p>
 <p>Etter krav fra merkehaveren skal Patentstyret innføre i varemerkeregistret og kunngjøre at den internasjonale registreringen har erstattet den norske.</p>
@@ -540,7 +799,7 @@ d. om søknaden gjelder alle eller bare nærmere angitte av de varene eller tjen
 <h4 id="75-omdanning-til-en-nasjonal-varemerkeregistrering">§ 75. Omdanning til en nasjonal varemerkeregistrering</h4>
 <p>Hvis en internasjonal registrering som har virkning i Norge, helt eller delvis opphører å gjelde som følge av bortfall av den nasjonale registreringen eller søknaden som den bygger på, og innehaveren deretter overfor Patentstyret ved søknad fremsetter krav om registrering av varemerket her i riket, skal slik registrering ha virkning fra den dagen den internasjonale registrereringen fikk virkning i Norge, såfremt søknaden leveres innen tre måneder fra den dagen den internasjonale registreringen opphørte, og de varer eller tjenester som angis i søknaden, var omfattet av den internasjonale registreringen slik den gjaldt i Norge.</p>
 <p>Hvis en internasjonal registrering som har virkning i Norge, helt eller delvis opphører å gjelde som følge av en oppsigelse av Madridprotokollen, og innehaveren deretter overfor Patentstyret ved søknad fremsetter krav om registrering av varemerket her i riket, skal slik registrering skje med virkning fra den dagen den internasjonale registreringen fikk virkning i Norge, hvis søknaden leveres innen to år fra den dagen oppsigelsen fikk virkning, og de varer eller tjenester som angis i søknaden, var omfattet av den internasjonale registreringen slik den gjaldt i Norge.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="76-innsyn-i-dokumenter">§ 76. Innsyn i dokumenter</h4>
 <p>Enhver kan kreve innsyn i dokumenter hos Patentstyret i saker etter kapittelet her. § 25 annet og tredje ledd gjelder tilsvarende.</p>
 <h2 id="kapittel-11-forskjellige-bestemmelser">Kapittel 11. Forskjellige bestemmelser</h2>
@@ -549,7 +808,7 @@ d. om søknaden gjelder alle eller bare nærmere angitte av de varene eller tjen
 <p>Hvis den registrerte adressen viser seg å være feil, inntas meddelelsen eller et sammendrag i Norsk Varemerketidende, med opplysning om at dokumentet kan fås hos Patentstyret eller Klagenemnden.</p>
 <p>Kan forkynnelse eller annen prosessuell meddelelse ikke skje ved den registrerte adressen eller hos fullmektigen, gjelder annet ledd tilsvarende for retten. Dokumentet anses i så fall som forkynt eller meddelt fire uker etter utgivelsen av Norsk Varemerketidende.</p>
 <p>Hvis en søker eller registreringsinnehaver ellers har oppnevnt en fullmektig til å representere seg i forhold som gjelder søknaden eller registreringen, skal fullmektigens navn og adresse innføres i varemerkeregistret. Det samme gjelder hvis en innsiger eller en som har krevd administrativ overprøving har oppnevnt en fullmektig til å representere seg i forhold som gjelder innsigelsen eller overprøvingskravet.</p>
-<p><em>Endret ved lov 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</em></p>
+<p class="note">Endret ved lov 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</p>
 <h4 id="78-bevis-for-registrering-i-hjemlandet">§ 78. Bevis for registrering i hjemlandet</h4>
 <p>Den som søker om registrering av et varemerke uten å drive virksomhet her i riket, og som ikke er bosatt i en stat som er tilsluttet Pariskonvensjonen 20. mars 1883 om beskyttelse av industriell eiendomsrett eller avtale 15. april 1994 om opprettelse av Verdens handelsorganisasjon (WTO-avtalen), må godtgjøre at varemerket er registrert for vedkommende i hjemlandet for de varer eller tjenester som søknaden gjelder.</p>
 <p>Første ledd gjelder ikke hvis søkerens hjemland ikke krever tilsvarende bevis for varemerker som søkes registrert der av innehaver av virksomhet i Norge.</p>
@@ -559,12 +818,12 @@ d. om søknaden gjelder alle eller bare nærmere angitte av de varene eller tjen
 <h4 id="80-virkning-av-fristoversittelse">§ 80. Virkning av fristoversittelse</h4>
 <p>Den som overfor Patentstyret har oversittet en frist fastsatt i eller i medhold av bestemmelsene i kapittel 2 , 4 , 6 eller § 68 tredje ledd, og som følge av dette har lidt rettstap, skal, når vedkommende krever det, likevel få en sak tatt under behandling hvis det godtgjøres at fristoversittelsen var utilsiktet. Kravet må være innlevert skriftlig til Patentstyret innen to måneder etter at hindringen som førte til fristoversittelsen opphørte, og senest seks måneder etter fristens utløp. Innen samme frist skal den unnlatte handlingen være foretatt. Det skal betales fastsatt gebyr, ellers anses kravet som ikke innkommet.</p>
 <p>Første ledd gjelder ikke frister etter § 19 om prioritet, fristen for å klage på avgjørelser som nevnt i § 49 annet og tredje ledd eller søksmålsfristen etter § 52 annet ledd annet punktum.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h4 id="81-om-varemerkeregistret-mv">§ 81. Om varemerkeregistret mv.</h4>
 <p>Patentstyret fører varemerkeregistret og utgir en tidende der registreringer mv. kunngjøres.</p>
 <p>Enhver har rett til å få se varemerkeregistret og få bekreftet utskrift av det. For utskrifter skal det betales fastsatt gebyr.</p>
 <p>For kopier av dokumenter som er offentlige etter loven her, skal det betales fastsatt gebyr. Gebyrsatsene for utskrifter og kopier etter leddet her skal fastsettes slik at de samlete inntektene ikke blir større enn de faktiske omkostningene ved formidling av informasjonen, med tillegg av en rimelig fortjeneste.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ).</p>
 <h4 id="82-forskrifter-til-loven-avgifter-og-gebyrer-mv">§ 82. Forskrifter til loven (avgifter og gebyrer mv.)</h4>
 <p>Kongen kan i forskrift gi nærmere bestemmelser til utfylling og gjennomføring av loven her. Kongen kan blant annet gi bestemmelser om:</p>
 <p>a. levering og behandling av søknader og innsigelser, herunder om adgang til å bruke annet språk enn norsk i korrespondanse med Patentstyret
@@ -575,7 +834,7 @@ e. føring av og innsyn i varemerkeregisteret, herunder om krav om anmerkninger 
 f. kunngjøringer etter loven
 g. den tidende Patentstyret utgir
 h. satser for avgifter og gebyr, og betaling av disse.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 49 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 798 ), 12 juni 2020 nr. 67 (i kraft 1 mars 2023 iflg. res. 17 feb 2023 nr. 229 , se res. 17 feb 2023 nr. 230 for overgangsregler).</p>
 <h2 id="kapittel-12-sluttbestemmelser">Kapittel 12. Sluttbestemmelser</h2>
 <h4 id="83-ikraftsettings-og-overgangsbestemmelser">§ 83. Ikraftsettings- og overgangsbestemmelser</h4>
 <p>Loven gjelder fra den tid Kongen bestemmer. 1 Fra samme tid som loven settes i kraft oppheves lov 3. mars 1961 nr. 4 om varemerker og lov 3. mars 1961 nr. 5 om fellesmerker.</p>
@@ -585,6 +844,8 @@ h. satser for avgifter og gebyr, og betaling av disse.</p>
 <p><em>1 Fra 1 juli 2010 iflg. res. 25 juni 2010 nr. 936 .</em></p>
 <h4 id="84-endringer-i-andre-lover">§ 84. Endringer i andre lover</h4>
 <p><em>– – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

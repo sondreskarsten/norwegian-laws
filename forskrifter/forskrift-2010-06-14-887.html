@@ -19,70 +19,153 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-06-14-887.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om tidligpensjon i reindriften" href="../feeds/forskrift-2010-06-14-887.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om tidligpensjon i reindriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2010-06-14-887</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-24-1283</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2010-06-14-887" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-overdragelse-og-avvikling">§ 4. Overdragelse og avvikling</a></li>
+<li class="lvl3"><a href="#5-varighet-i-nringen">§ 5. Varighet i næringen</a></li>
+<li class="lvl3"><a href="#6-aldersgrenser">§ 6. Aldersgrenser</a></li>
+<li class="lvl3"><a href="#7-referanseinntekten">§ 7. Referanseinntekten</a></li>
+<li class="lvl3"><a href="#8-inntektskrav-for-a-utlse-enbrukerpensjon">§ 8. Inntektskrav for å utløse enbrukerpensjon</a></li>
+<li class="lvl3"><a href="#9-tilleggskrav-for-a-utlse-tobrukerpensjon">§ 9. Tilleggskrav for å utløse tobrukerpensjon</a></li>
+<li class="lvl3"><a href="#10-deling-av-tobrukerpensjon">§ 10. Deling av tobrukerpensjon</a></li>
+<li class="lvl3"><a href="#11-samordning-og-avkorting">§ 11. Samordning og avkorting</a></li>
+<li class="lvl3"><a href="#12-innsending-og-behandling-av-sknader">§ 12. Innsending og behandling av søknader</a></li>
+<li class="lvl3"><a href="#13-beregning-og-utbetaling-av-tidligpensjon">§ 13. Beregning og utbetaling av tidligpensjon</a></li>
+<li class="lvl3"><a href="#14-forhandstilsagn">§ 14. Forhåndstilsagn</a></li>
+<li class="lvl3"><a href="#15-satser">§ 15. Satser</a></li>
+<li class="lvl3"><a href="#16-kontroll">§ 16. Kontroll</a></li>
+<li class="lvl3"><a href="#17-etterbetaling-og-tilbakebetaling-ved-feilutbetalinger">§ 17. Etterbetaling og tilbakebetaling ved feilutbetalinger</a></li>
+<li class="lvl3"><a href="#18-klage">§ 18. Klage</a></li>
+<li class="lvl3"><a href="#19-ikrafttredelse">§ 19. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-24-1283.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-06-14-887.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tidligpensjon i reindriften</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-06-14-887.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2010-06-14-887 <code>forskrift/2010-06-14-887</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-24-1283 <code>forskrift/2025-06-24-1283</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2010-06-14-887" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-overdragelse-og-avvikling">§ 4. Overdragelse og avvikling</a></li>
+<li class="lvl3"><a href="#5-varighet-i-nringen">§ 5. Varighet i næringen</a></li>
+<li class="lvl3"><a href="#6-aldersgrenser">§ 6. Aldersgrenser</a></li>
+<li class="lvl3"><a href="#7-referanseinntekten">§ 7. Referanseinntekten</a></li>
+<li class="lvl3"><a href="#8-inntektskrav-for-a-utlse-enbrukerpensjon">§ 8. Inntektskrav for å utløse enbrukerpensjon</a></li>
+<li class="lvl3"><a href="#9-tilleggskrav-for-a-utlse-tobrukerpensjon">§ 9. Tilleggskrav for å utløse tobrukerpensjon</a></li>
+<li class="lvl3"><a href="#10-deling-av-tobrukerpensjon">§ 10. Deling av tobrukerpensjon</a></li>
+<li class="lvl3"><a href="#11-samordning-og-avkorting">§ 11. Samordning og avkorting</a></li>
+<li class="lvl3"><a href="#12-innsending-og-behandling-av-sknader">§ 12. Innsending og behandling av søknader</a></li>
+<li class="lvl3"><a href="#13-beregning-og-utbetaling-av-tidligpensjon">§ 13. Beregning og utbetaling av tidligpensjon</a></li>
+<li class="lvl3"><a href="#14-forhandstilsagn">§ 14. Forhåndstilsagn</a></li>
+<li class="lvl3"><a href="#15-satser">§ 15. Satser</a></li>
+<li class="lvl3"><a href="#16-kontroll">§ 16. Kontroll</a></li>
+<li class="lvl3"><a href="#17-etterbetaling-og-tilbakebetaling-ved-feilutbetalinger">§ 17. Etterbetaling og tilbakebetaling ved feilutbetalinger</a></li>
+<li class="lvl3"><a href="#18-klage">§ 18. Klage</a></li>
+<li class="lvl3"><a href="#19-ikrafttredelse">§ 19. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-06-14-887.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-06-14-887.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-06-14-887.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2010-06-14-887.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2010-06-14-887.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-06-14-887.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2010-06-14-887.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2010-06-14-887.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-06-14-887.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tidligpensjon-i-reindriften">Forskrift om tidligpensjon i reindriften</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Tidligpensjon etter denne forskrift skal bidra til å lette generasjonsoverganger i reindriften for de som har hatt hoveddelen av sine inntekter fra reindrift. Ordningen skal videre stimulere til at reintallet og sysselsettingsstrukturen tilpasses næringens ressurs- og inntektsgrunnlag.</p>
 <h3 id="2-virkeomrade">§ 2. Virkeområde</h3>
 <p>Denne forskriften gjelder ved overdragelse eller avvikling av en siidaandel. Siidaandelen som avvikles eller overdras kan enten være felles siidaandel med ektefelle/samboer, eller en siidaandel som ledes av en utøver alene.</p>
 <p>Forskriften gjelder ikke for leder/ledere av siidaandel som har mottatt omstillingslønn, avviklingslønn eller har innløst siidaandel og mottatt innløsningsbeløp etter tidligere regler i forskrift for Reindriftens Utviklingsfond.</p>
-<p><em>Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022).</p>
 <h3 id="3-definisjoner">§ 3. Definisjoner</h3>
 <p>I denne forskrift menes med</p>
 <p>a. referanseperiode: fem sammenhengende år der siste år er to år før søknadsåret,
@@ -91,66 +174,68 @@ c. annen inntekt: lønnsinntekt, næringsinntekt og sykepenger som ikke er opptj
 d. samlet inntekt; summen av referanseinntekt og annen inntekt,
 e. enbrukerpensjon; tidligpensjon som ytes leder av siidaandel,
 f. tobrukerpensjon; tidligpensjon som ytes leder av siidaandel og dennes ektefelle/samboer, uavhengig av om siidaandelen er registrert på en eller begge ektefellene/samboerne.</p>
-<p><em>Endret ved forskrifter 26 juni 2018 nr. 1029 (i kraft 1 juli 2018), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2018 nr. 1029 (i kraft 1 juli 2018), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022).</p>
 <h3 id="4-overdragelse-og-avvikling">§ 4. Overdragelse og avvikling</h3>
 <p>Det er et krav for å oppnå tidligpensjon at siidaandelen er overdratt eller avviklet. Det skal foreligge skriftlig erklæring på at den/de som overdrar/avvikler ikke vil gjenoppta reindrift. Det kreves attestasjon fra statsforvalteren på at reinen er overført og eventuell dokumentasjon på at dyr er slaktet.</p>
 <p>Dersom ektefeller/samboere er leder av hver sin siidaandel, kan de oppnå tidligpensjon uavhengig av hverandre, ved avvikling/overdragelse av sin siidaandel.</p>
 <p>Ny eier kan ikke være overdragerens ektefelle/samboer, foreldre eller søsken.</p>
 <p>Tidligere leder av siidaandel som har gått av med tidligpensjon kan ha inntil 20 rein i eget merke i en siidaandel. Ektefeller/samboere, som var medlem av samme siidaandel, kan til sammen ha inntil 30 rein.</p>
-<p><em>Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 23 okt 2015 nr. 1213 , 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024, endring antatt å gjelde fjerde ledd, Lovdatas anm.).</em></p>
+<p class="note">Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 23 okt 2015 nr. 1213 , 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 20 juni 2022 nr. 1098 (i kraft 1 juli 2022), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024, endring antatt å gjelde fjerde ledd, Lovdatas anm.).</p>
 <h3 id="5-varighet-i-nringen">§ 5. Varighet i næringen</h3>
 <p>For å utløse tidligpensjon må leder av siidaandel på overdragelses- eller avviklingstidspunktet ha hatt siidaandel selv i minst de siste 15 år.</p>
-<p><em>Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="6-aldersgrenser">§ 6. Aldersgrenser</h3>
 <p>For å ha krav på enbrukerpensjon må leder av siidaandel ha fylt 57 år. For å ha krav på tobrukerpensjon må i tillegg ektefelle/samboer ha fylt 57 år.</p>
 <p>Retten til tidligpensjon bortfaller ved utgangen av den måned den som mottar pensjon fyller 67 år.</p>
-<p><em>Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="7-referanseinntekten">§ 7. Referanseinntekten</h3>
 <p>Leder av siidaandel og ektefellen/samboeren må ha hatt en samlet referanseinntekt på minst 45 000 kroner.</p>
 <p>Landbruksdirektoratet kan etter en særskilt vurdering la næringsinntekt fra fiske, fangst og annen tilleggsnæring til reindrift inngå i referanseinntekten.</p>
-<p><em>Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="8-inntektskrav-for-a-utlse-enbrukerpensjon">§ 8. Inntektskrav for å utløse enbrukerpensjon</h3>
 <p>Referanseinntekt til leder av siidaandel må utgjøre minst 50 prosent av siidaandelslederens inntekt, eller siidaandelslederens og ektefelles/samboers samlede referanseinntekt må utgjøre minst 50 prosent av deres samlede inntekt.</p>
-<p><em>Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="9-tilleggskrav-for-a-utlse-tobrukerpensjon">§ 9. Tilleggskrav for å utløse tobrukerpensjon</h3>
 <p>Ektefelle/samboer må ha mindre enn kr 80 000 i annen inntekt, og siidaandelslederens og ektefelles/samboers samlede referanseinntekt må utgjøre minst 50 prosent av deres samlede inntekt</p>
-<p><em>Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="10-deling-av-tobrukerpensjon">§ 10. Deling av tobrukerpensjon</h3>
 <p>Tobrukerpensjon deles likt mellom tidligere leder av siidaandel og ektefelle/samboer. Samme fordeling opprettholdes ved opphør av ekteskap/samboerskap.</p>
 <p>Dersom tidligere leder av siidaandel eller ektefelle/samboer som mottar tobrukerpensjon dør i tidligpensjonsperioden, går gjenlevende part over på enbrukerpensjon.</p>
 <h3 id="11-samordning-og-avkorting">§ 11. Samordning og avkorting</h3>
 <p>Det ytes ikke tidligpensjon etter denne forskrift for tidsrom det ytes uføretrygd, arbeidsavklaringspenger eller gjenlevendepensjon fra folketrygden.</p>
 <p>Utbetaling av tidligpensjon skal ikke overstige tidligere siidaandelsleders og eventuelt ektefelles/samboers samlede referanseinntekt.</p>
-<p><em>Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 26 juni 2018 nr. 1029 (i kraft 1 juli 2018), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 30 mai 2013 nr. 625 (i kraft 1 juli 2013), 26 juni 2018 nr. 1029 (i kraft 1 juli 2018), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024).</p>
 <h3 id="12-innsending-og-behandling-av-sknader">§ 12. Innsending og behandling av søknader</h3>
 <p>Søknaden skal skrives på skjema fastsatt av Landbruksdirektoratet og underskrives av tidligere leder av siidaandel og eventuelt ektefelle/samboer. Søknaden sendes til statsforvalteren.</p>
 <p>Søker er ansvarlig for at søknaden er fullstendig og korrekt utfylt. Statsforvalteren kontrollerer at søknaden er rett utfylt, at all nødvendig dokumentasjon følger vedlagt og gir om nødvendig uttalelse i saken. Statsforvalteren sender søknaden med vedlegg til Landbruksdirektoratet som avgjør søknaden.</p>
 <p>I tidligpensjonsperioden er det ikke anledning til å søke overgang fra enbruker- til tobrukerpensjon.</p>
-<p><em>Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="13-beregning-og-utbetaling-av-tidligpensjon">§ 13. Beregning og utbetaling av tidligpensjon</h3>
 <p>Tidligpensjon beregnes fra og med den måned kravene i ordningen er oppfylt og søknaden med all nødvendig dokumentasjon har kommet statsforvalteren i hende.</p>
 <p>Tidligpensjon utbetales månedlig. Det er ikke anledning til å overdra krav på tidligpensjon til eie eller pant.</p>
 <p>Beregnet beløp mindre enn 500 kroner per kvartal blir ikke utbetalt.</p>
-<p><em>Endret ved forskrifter 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="14-forhandstilsagn">§ 14. Forhåndstilsagn</h3>
 <p>Siidaandelsleder og ektefelle/samboer kan kreve å få et foreløpig tilsagn på om de er berettiget til tidligpensjon. Forhåndstilsagnet er gyldig i tolv måneder fra det er kommet frem til søker. Søker trenger ikke å sende inn en ny søknad dersom forhåndstilsagn innvilges og alle vilkår oppfylles i løpet av tolvmånedersperioden forhåndstilsagnet gjelder for.</p>
 <p>Dersom det i løpet av tolvmånedersperioden kommer et nytt fastsettingsår i beregningen, kan søker velge om han ønsker å ta dette året med i beregningen, eller om han ønsker å beholde perioden fra opprinnelig søknad.</p>
-<p><em>Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2019 nr. 765 (i kraft 1 juli 2019).</p>
 <h3 id="15-satser">§ 15. Satser</h3>
 <p>Satser for enbruker- og tobrukerpensjon blir fastsatt av Stortinget etter forslag i de årlige proposisjoner om reindriftsavtalen, og er henholdsvis 210 000 kroner for enbrukerpensjon og 300 000 kroner for tobrukerpensjon.</p>
-<p><em>Endret ved forskrifter 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 20 juni 2024 nr. 1066 (i kraft 1 juli 2024).</p>
 <h3 id="16-kontroll">§ 16. Kontroll</h3>
 <p>Statsforvalteren eller den Landbruksdirektoratet gir myndighet skal føre kontroll med at utbetaling av tidligpensjon er i samsvar med denne forskriften.</p>
 <p>Søker er forpliktet til å gi nødvendige opplysninger og dokumentasjon og til å godta de kontrolltiltak som iverksettes.</p>
-<p><em>Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2013 nr. 1372 , 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 21 juni 2016 nr. 741 (i kraft 1 juli 2016), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="17-etterbetaling-og-tilbakebetaling-ved-feilutbetalinger">§ 17. Etterbetaling og tilbakebetaling ved feilutbetalinger</h3>
 <p>Den som mottar tidligpensjon plikter å underrette statsforvalteren om endringer i forhold som kan være avgjørende for om vedkommende fortsatt har rett til tidligpensjon eller for størrelsen på ytelsen.</p>
 <p>Dersom en tidligere leder av siidaandel/ektefelle eller samboer har mottatt tidligpensjon i strid med aktsom god tro, kan beløpet kreves tilbakebetalt, eventuelt trekkes i fremtidige utbetalinger. Tidligpensjon kan også kreves tilbakebetalt, eventuelt trekkes i fremtidige utbetalinger, når tidligere leder av siidaandel/ektefelle eller samboer eller noen som har handlet på dennes vegne, i strid med aktsom god tro har gitt feilaktige eller mangelfulle opplysninger. Det samme gjelder dersom utbetalingen skyldes feil fra forvaltningens side, og mottakeren burde ha forstått dette.</p>
-<p><em>Endret ved forskrifter 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 12 juni 2014 nr. 774 (i kraft 1 juli 2014), 20 juni 2019 nr. 765 (i kraft 1 juli 2019), 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h3 id="18-klage">§ 18. Klage</h3>
 <p>Vedtak som er truffet i medhold av forskriften kan påklages til Landbruks- og matdepartementet etter forvaltningsloven.</p>
 <h3 id="19-ikrafttredelse">§ 19. Ikrafttredelse</h3>
 <p>Denne forskriften trer i kraft 1. juli 2010. Samtidig oppheves forskrift 17. juni 2009 nr. 662 om tidligpensjon i reindriften.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

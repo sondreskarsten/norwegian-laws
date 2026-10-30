@@ -19,64 +19,529 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-06-28-1392.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Universitets- og høyskoleforskriften" href="../feeds/forskrift-2024-06-28-1392.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Universitets- og høyskoleforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2024-06-28-1392</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2024-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-19-1251</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2024-06-28-1392" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-krav-til-akkreditering-studiekvalitet-mv">Kapittel 1. Krav til akkreditering, studiekvalitet mv.</a></li>
+<li class="lvl3"><a href="#i-institusjonsakkreditering">I. Institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#1-1-generelle-krav-til-institusjonsakkreditering">§ 1-1. Generelle krav til institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#1-2-krav-til-akkreditering-som-hyskole">§ 1-2. Krav til akkreditering som høyskole</a></li>
+<li class="lvl5"><a href="#1-3-krav-til-akkreditering-som-vitenskapelig-hyskole">§ 1-3. Krav til akkreditering som vitenskapelig høyskole</a></li>
+<li class="lvl5"><a href="#1-4-krav-til-akkreditering-som-universitet">§ 1-4. Krav til akkreditering som universitet</a></li>
+<li class="lvl5"><a href="#1-5-forenklet-prosedyre-for-vitenskapelige-hyskoler-som-sker-om-akkreditering-som-universitet">§ 1-5. Forenklet prosedyre for vitenskapelige høyskoler som søker om akkreditering som universitet</a></li>
+<li class="lvl3"><a href="#ii-kvalitetssystem-og-kvalitetsarbeid">II. Kvalitetssystem og kvalitetsarbeid</a></li>
+<li class="lvl5"><a href="#1-6-generelt">§ 1-6. Generelt</a></li>
+<li class="lvl5"><a href="#1-7-krav-til-kvalitetssystem">§ 1-7. Krav til kvalitetssystem</a></li>
+<li class="lvl5"><a href="#1-8-krav-til-kvalitetsarbeid">§ 1-8. Krav til kvalitetsarbeid</a></li>
+<li class="lvl5"><a href="#1-9-tilsyn-med-kvalitetssystemer-og-kvalitetsarbeid">§ 1-9. Tilsyn med kvalitetssystemer og kvalitetsarbeid</a></li>
+<li class="lvl3"><a href="#iii-akkreditering-av-studietilbud">III. Akkreditering av studietilbud</a></li>
+<li class="lvl5"><a href="#1-10-generelle-vilkar-for-akkreditering">§ 1-10. Generelle vilkår for akkreditering</a></li>
+<li class="lvl5"><a href="#1-11-krav-til-studietilbudet">§ 1-11. Krav til studietilbudet</a></li>
+<li class="lvl5"><a href="#1-12-generelle-krav-til-fagmilj">§ 1-12. Generelle krav til fagmiljø</a></li>
+<li class="lvl5"><a href="#1-13-srskilte-krav-til-studietilbud-pa-lavere-grad">§ 1-13. Særskilte krav til studietilbud på lavere grad</a></li>
+<li class="lvl5"><a href="#1-14-srskilte-krav-til-studietilbud-pa-hyere-grad">§ 1-14. Særskilte krav til studietilbud på høyere grad</a></li>
+<li class="lvl5"><a href="#1-15-srskilte-krav-til-doktorgradsutdanninger">§ 1-15. Særskilte krav til doktorgradsutdanninger</a></li>
+<li class="lvl5"><a href="#1-16-akkreditering-av-studietilbud-som-delvis-foregar-i-utlandet">§ 1-16. Akkreditering av studietilbud som delvis foregår i utlandet</a></li>
+<li class="lvl5"><a href="#1-17-akkreditering-av-fellesgrader">§ 1-17. Akkreditering av fellesgrader</a></li>
+<li class="lvl5"><a href="#1-18-europeisk-tilnrming-til-fellesgrader-unntak-fra-universitets-og-hyskoleloven-3-2">§ 1-18. Europeisk tilnærming til fellesgrader – unntak fra universitets- og høyskoleloven § 3-2</a></li>
+<li class="lvl3"><a href="#iv-nokuts-saksbehandling">IV. NOKUTs saksbehandling</a></li>
+<li class="lvl5"><a href="#1-19-nokuts-styre">§ 1-19. NOKUTs styre</a></li>
+<li class="lvl5"><a href="#1-20-sknad-om-akkreditering">§ 1-20. Søknad om akkreditering</a></li>
+<li class="lvl5"><a href="#1-21-oppnevning-av-sakkyndige">§ 1-21. Oppnevning av sakkyndige</a></li>
+<li class="lvl5"><a href="#1-22-sakkyndiges-kompetanse">§ 1-22. Sakkyndiges kompetanse</a></li>
+<li class="lvl5"><a href="#1-23-tilsyn">§ 1-23. Tilsyn</a></li>
+<li class="lvl5"><a href="#1-24-informasjonsplikt">§ 1-24. Informasjonsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-grader-og-faglig-godkjenning">Kapittel 2. Grader og faglig godkjenning</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#2-1-virkeomrade-for-dette-kapitlet">§ 2-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl3"><a href="#ii-krav-til-grader">II. Krav til grader</a></li>
+<li class="lvl5"><a href="#2-2-definisjoner">§ 2-2. Definisjoner</a></li>
+<li class="lvl5"><a href="#2-3-vitnemal-og-grader">§ 2-3. Vitnemål og grader</a></li>
+<li class="lvl5"><a href="#2-4-hgskolekandidatgrad">§ 2-4. Høgskolekandidatgrad</a></li>
+<li class="lvl5"><a href="#2-5-bachelorgrad">§ 2-5. Bachelorgrad</a></li>
+<li class="lvl5"><a href="#2-6-mastergrad">§ 2-6. Mastergrad</a></li>
+<li class="lvl5"><a href="#2-7-erfaringsbasert-mastergrad">§ 2-7. Erfaringsbasert mastergrad</a></li>
+<li class="lvl5"><a href="#2-8-integrert-mastergrad">§ 2-8. Integrert mastergrad</a></li>
+<li class="lvl5"><a href="#2-9-selvstendig-arbeid-i-mastergrader">§ 2-9. Selvstendig arbeid i mastergrader</a></li>
+<li class="lvl5"><a href="#2-10-srskilte-mastergrader">§ 2-10. Særskilte mastergrader</a></li>
+<li class="lvl5"><a href="#2-11-andre-hyere-grader">§ 2-11. Andre høyere grader</a></li>
+<li class="lvl5"><a href="#2-12-doktorgrad">§ 2-12. Doktorgrad</a></li>
+<li class="lvl5"><a href="#2-13-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">§ 2-13. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</a></li>
+<li class="lvl5"><a href="#2-14-beskyttede-titler-for-grader-som-ikke-lenger-gis">§ 2-14. Beskyttede titler for grader som ikke lenger gis</a></li>
+<li class="lvl3"><a href="#iii-faglig-godkjenning-av-utdanning-og-av-realkompetanse">III. Faglig godkjenning av utdanning og av realkompetanse</a></li>
+<li class="lvl5"><a href="#2-15-realkompetanse">§ 2-15. Realkompetanse</a></li>
+<li class="lvl5"><a href="#2-16-unntak-fra-tilknytningskravet">§ 2-16. Unntak fra tilknytningskravet</a></li>
+<li class="lvl5"><a href="#2-17-krav-ved-tildeling-av-flere-grader-pa-delvis-samme-grunnlag">§ 2-17. Krav ved tildeling av flere grader på delvis samme grunnlag</a></li>
+<li class="lvl5"><a href="#2-18-srskilte-godkjenningsregler">§ 2-18. Særskilte godkjenningsregler</a></li>
+<li class="lvl2"><a href="#kapittel-3-undervisnings-og-forskningsstillinger-rekrutteringsstillinger-og-innstegsstillinger">Kapittel 3. Undervisnings- og forskningsstillinger, rekrutteringsstillinger og innstegsstillinger</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser_1">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#3-1-virkeomrade-for-dette-kapitlet">§ 3-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl3"><a href="#ii-kvalifikasjonskrav-for-undervisnings-og-forskningsstillinger">II. Kvalifikasjonskrav for undervisnings- og forskningsstillinger</a></li>
+<li class="lvl5"><a href="#3-2-universitets-og-hyskolelrer">§ 3-2. Universitets- og høyskolelærer</a></li>
+<li class="lvl5"><a href="#3-3-universitet-og-hyskolelektor">§ 3-3. Universitet- og høyskolelektor</a></li>
+<li class="lvl5"><a href="#3-4-frstelektor">§ 3-4. Førstelektor</a></li>
+<li class="lvl5"><a href="#3-5-dosent">§ 3-5. Dosent</a></li>
+<li class="lvl5"><a href="#3-6-frsteamanuensis">§ 3-6. Førsteamanuensis</a></li>
+<li class="lvl5"><a href="#3-7-professor">§ 3-7. Professor</a></li>
+<li class="lvl5"><a href="#3-8-utdanningsfaglig-kompetanse">§ 3-8. Utdanningsfaglig kompetanse</a></li>
+<li class="lvl5"><a href="#3-9-unntak-fra-kvalifikasjonskravene-ved-ansettelse">§ 3-9. Unntak fra kvalifikasjonskravene ved ansettelse</a></li>
+<li class="lvl3"><a href="#iii-kompetansevurdering-ved-ansettelse-overgang-og-opprykk-i-undervisnings-og-forskningsstillinger">III. Kompetansevurdering ved ansettelse, overgang og opprykk i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl5"><a href="#3-10-kvalifikasjons-og-dokumentasjonskrav-for-kompetansevurdering">§ 3-10. Kvalifikasjons- og dokumentasjonskrav for kompetansevurdering</a></li>
+<li class="lvl5"><a href="#3-11-sakkyndig-komite">§ 3-11. Sakkyndig komite</a></li>
+<li class="lvl5"><a href="#3-12-vurderings-og-innstillingsprosessen-ved-ansettelse">§ 3-12. Vurderings- og innstillingsprosessen ved ansettelse</a></li>
+<li class="lvl5"><a href="#3-13-adgang-til-a-ske-opprykk">§ 3-13. Adgang til å søke opprykk</a></li>
+<li class="lvl5"><a href="#3-14-vurderings-og-beslutningsprosessen-ved-opprykk">§ 3-14. Vurderings- og beslutningsprosessen ved opprykk</a></li>
+<li class="lvl5"><a href="#3-15-adgang-til-a-ske-overgang">§ 3-15. Adgang til å søke overgang</a></li>
+<li class="lvl3"><a href="#iv-ansettelsesvilkar-for-rekrutteringsstillinger">IV. Ansettelsesvilkår for rekrutteringsstillinger</a></li>
+<li class="lvl5"><a href="#3-16-ansettelse-i-rekrutteringsstillinger-pa-aremal">§ 3-16. Ansettelse i rekrutteringsstillinger på åremål</a></li>
+<li class="lvl5"><a href="#3-17-permisjoner-og-forlengelse-av-aremalsperioden">§ 3-17. Permisjoner og forlengelse av åremålsperioden</a></li>
+<li class="lvl5"><a href="#3-18-postdoktor">§ 3-18. Postdoktor</a></li>
+<li class="lvl5"><a href="#3-19-stipendiat">§ 3-19. Stipendiat</a></li>
+<li class="lvl5"><a href="#3-20-spesialistkandidat">§ 3-20. Spesialistkandidat</a></li>
+<li class="lvl5"><a href="#3-21-vitenskapelig-assistent">§ 3-21. Vitenskapelig assistent</a></li>
+<li class="lvl5"><a href="#3-22-dobbeltkompetanseutdanning">§ 3-22. Dobbeltkompetanseutdanning</a></li>
+<li class="lvl3"><a href="#v-ansettelse-pa-innstegsvilkar">V. Ansettelse på innstegsvilkår</a></li>
+<li class="lvl5"><a href="#3-23-formal-med-ansettelse-pa-innstegsvilkar">§ 3-23. Formål med ansettelse på innstegsvilkår</a></li>
+<li class="lvl5"><a href="#3-24-ansettelsesvilkar">§ 3-24. Ansettelsesvilkår</a></li>
+<li class="lvl5"><a href="#3-25-arbeidsavtalen">§ 3-25. Arbeidsavtalen</a></li>
+<li class="lvl5"><a href="#3-26-oppflging-og-veiledning">§ 3-26. Oppfølging og veiledning</a></li>
+<li class="lvl5"><a href="#3-27-midtveisvurdering">§ 3-27. Midtveisvurdering</a></li>
+<li class="lvl5"><a href="#3-28-sluttvurdering">§ 3-28. Sluttvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-4-egenbetaling">Kapittel 4. Egenbetaling</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser_2">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#4-1-virkeomrade-for-dette-kapitlet">§ 4-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl5"><a href="#4-2-definisjoner">§ 4-2. Definisjoner</a></li>
+<li class="lvl3"><a href="#ii-felles-bestemmelser">II. Felles bestemmelser</a></li>
+<li class="lvl5"><a href="#4-3-eksamenskandidater-som-ikke-er-tatt-opp-som-studenter">§ 4-3. Eksamenskandidater som ikke er tatt opp som studenter</a></li>
+<li class="lvl5"><a href="#4-4-statsborgere-fra-land-utenfor-es-og-sveits">§ 4-4. Statsborgere fra land utenfor EØS og Sveits</a></li>
+<li class="lvl3"><a href="#iii-statlige-universiteter-og-hyskoler">III. Statlige universiteter og høyskoler</a></li>
+<li class="lvl5"><a href="#4-5-om-statlige-institusjoners-adgang-til-a-kreve-egenbetaling">§ 4-5. Om statlige institusjoners adgang til å kreve egenbetaling</a></li>
+<li class="lvl5"><a href="#4-6-adgang-til-a-kreve-egenbetaling-for-kurs-og-studiepoenggivende-utdanning">§ 4-6. Adgang til å kreve egenbetaling for kurs og studiepoenggivende utdanning</a></li>
+<li class="lvl5"><a href="#4-7-andre-utgifter-knyttet-til-studier-ved-statlige-institusjoner">§ 4-7. Andre utgifter knyttet til studier ved statlige institusjoner</a></li>
+<li class="lvl3"><a href="#iv-private-universiteter-og-hyskoler">IV. Private universiteter og høyskoler</a></li>
+<li class="lvl5"><a href="#4-8-om-private-institusjoners-adgang-til-a-kreve-egenbetaling">§ 4-8. Om private institusjoners adgang til å kreve egenbetaling</a></li>
+<li class="lvl5"><a href="#4-9-private-institusjoner-som-mottar-statstilskudd">§ 4-9. Private institusjoner som mottar statstilskudd</a></li>
+<li class="lvl2"><a href="#kapittel-5-skriftsprak-ved-eksamen">Kapittel 5. Skriftspråk ved eksamen</a></li>
+<li class="lvl4"><a href="#5-1-skriftsprak-i-eksamensoppgaver">§ 5-1. Skriftspråk i eksamensoppgaver</a></li>
+<li class="lvl4"><a href="#5-2-unntak">§ 5-2. Unntak</a></li>
+<li class="lvl4"><a href="#5-3-klage-pa-vedtak-om-unntak">§ 5-3. Klage på vedtak om unntak</a></li>
+<li class="lvl4"><a href="#5-4-skriftsprak-i-eksamensoppgaver">§ 5-4. Skriftspråk i eksamensoppgaver</a></li>
+<li class="lvl2"><a href="#kapittel-6-politiattest">Kapittel 6. Politiattest</a></li>
+<li class="lvl4"><a href="#6-1-informasjon-og-bekreftelse">§ 6-1. Informasjon og bekreftelse</a></li>
+<li class="lvl4"><a href="#6-2-tidsfrister-for-a-legge-fram-politiattest">§ 6-2. Tidsfrister for å legge fram politiattest</a></li>
+<li class="lvl4"><a href="#6-3-konsekvenser-av-at-politiattest-ikke-blir-lagt-fram">§ 6-3. Konsekvenser av at politiattest ikke blir lagt fram</a></li>
+<li class="lvl4"><a href="#6-4-institusjonens-behandling-av-politiattest">§ 6-4. Institusjonens behandling av politiattest</a></li>
+<li class="lvl4"><a href="#6-5-nye-opplysninger-etter-at-politiattest-er-utstedt">§ 6-5. Nye opplysninger etter at politiattest er utstedt</a></li>
+<li class="lvl2"><a href="#kapittel-7-skikkethetsvurderinger">Kapittel 7. Skikkethetsvurderinger</a></li>
+<li class="lvl4"><a href="#7-1-studier-underlagt-krav-om-skikkethetsvurdering">§ 7-1. Studier underlagt krav om skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#7-2-formalet-med-skikkethetsvurdering">§ 7-2. Formålet med skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#7-3-vurderingskriterier">§ 7-3. Vurderingskriterier</a></li>
+<li class="lvl4"><a href="#7-4-informasjon-til-studentene">§ 7-4. Informasjon til studentene</a></li>
+<li class="lvl4"><a href="#7-5-skikkethetsnemnd">§ 7-5. Skikkethetsnemnd</a></li>
+<li class="lvl4"><a href="#7-6-skikkethetsansvarlig">§ 7-6. Skikkethetsansvarlig</a></li>
+<li class="lvl4"><a href="#7-7-tvilsmelding">§ 7-7. Tvilsmelding</a></li>
+<li class="lvl4"><a href="#7-8-behandling-hos-skikkethetsansvarlig">§ 7-8. Behandling hos skikkethetsansvarlig</a></li>
+<li class="lvl4"><a href="#7-9-behandling-i-skikkethetsnemnda">§ 7-9. Behandling i skikkethetsnemnda</a></li>
+<li class="lvl4"><a href="#7-10-behandling-i-styret-eller-i-institusjonens-nemnd-for-studentsaker">§ 7-10. Behandling i styret eller i institusjonens nemnd for studentsaker</a></li>
+<li class="lvl2"><a href="#kapittel-8-felles-klagenemnd">Kapittel 8. Felles klagenemnd</a></li>
+<li class="lvl4"><a href="#8-1-felles-klagenemnds-arbeidsoppgaver">§ 8-1. Felles klagenemnds arbeidsoppgaver</a></li>
+<li class="lvl4"><a href="#8-2-klagenemndas-oppnevning-og-sammensetning">§ 8-2. Klagenemndas oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#8-3-vedtaksfrhet-og-flertallskrav">§ 8-3. Vedtaksførhet og flertallskrav</a></li>
+<li class="lvl4"><a href="#8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda</a></li>
+<li class="lvl2"><a href="#kapittel-9-universiteter-og-hyskolers-behandling-av-personopplysninger">Kapittel 9. Universiteter og høyskolers behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#9-1-innhenting-av-personopplysninger-og-automatisert-saksbehandling">§ 9-1. Innhenting av personopplysninger og automatisert saksbehandling</a></li>
+<li class="lvl4"><a href="#9-2-bruk-av-video-og-lydopptak-i-praksisopplring-i-lrerutdanningene">§ 9-2. Bruk av video- og lydopptak i praksisopplæring i lærerutdanningene</a></li>
+<li class="lvl2"><a href="#kapittel-10-registre-og-databaser-mv">Kapittel 10. Registre og databaser mv.</a></li>
+<li class="lvl4"><a href="#10-1-register-for-informasjonsutveksling-om-reaksjoner">§ 10-1. Register for informasjonsutveksling om reaksjoner</a></li>
+<li class="lvl4"><a href="#10-2-portal-for-deling-av-vitnemal-og-dokumentasjon-av-kompetanse">§ 10-2. Portal for deling av vitnemål og dokumentasjon av kompetanse</a></li>
+<li class="lvl4"><a href="#10-3-database-for-forskningsinformasjon">§ 10-3. Database for forskningsinformasjon</a></li>
+<li class="lvl4"><a href="#10-4-database-for-statistikk-om-hyere-utdanning">§ 10-4. Database for statistikk om høyere utdanning</a></li>
+<li class="lvl2"><a href="#kapittel-11-statsautoriserte-translatrer">Kapittel 11. Statsautoriserte translatører</a></li>
+<li class="lvl4"><a href="#11-1-bevilling-som-statsautorisert-translatr">§ 11-1. Bevilling som statsautorisert translatør</a></li>
+<li class="lvl4"><a href="#11-2-translatred-eller-forsikring">§ 11-2. Translatøred eller -forsikring</a></li>
+<li class="lvl4"><a href="#11-3-taushetsplikt">§ 11-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-4-tilbakekalling-av-bevilling">§ 11-4. Tilbakekalling av bevilling</a></li>
+<li class="lvl4"><a href="#11-5-stempel">§ 11-5. Stempel</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskjellige-regler">Kapittel 12. Forskjellige regler</a></li>
+<li class="lvl4"><a href="#12-1-overtredelsesgebyr">§ 12-1. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-2-tilskudd-til-private-hyskoler-uten-institusjonsakkreditering-overgangsordning">§ 12-2. Tilskudd til private høyskoler uten institusjonsakkreditering – overgangsordning</a></li>
+<li class="lvl4"><a href="#12-3-studenters-rett-til-a-fa-dekket-utgifter-til-advokat">§ 12-3. Studenters rett til å få dekket utgifter til advokat</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-overgangsregler-og-endringer-i-andre-forskrifter">Kapittel 13. Ikrafttredelse, overgangsregler og endringer i andre forskrifter</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsregler-for-kapittel-3-undervisnings-og-forskningsstillinger-og-rekrutteringsstillinger">§ 13-2. Overgangsregler for kapittel 3 Undervisnings- og forskningsstillinger og rekrutteringsstillinger</a></li>
+<li class="lvl4"><a href="#13-3-overgangsregler-for-kapittel-7-skikkethetsvurderinger">§ 13-3. Overgangsregler for kapittel 7 Skikkethetsvurderinger</a></li>
+<li class="lvl4"><a href="#13-4-endringer-i-forskrift-6-januar-2017-nr-13-om-opptak-til-hgare-utdanning-opptaksforskrifta">§ 13-4. Endringer i forskrift 6. januar 2017 nr. 13 om opptak til høgare utdanning (opptaksforskrifta)</a></li>
+<li class="lvl4"><a href="#13-5-oppheving-av-forskrifter">§ 13-5. Oppheving av forskrifter</a></li>
+<li class="lvl4"><a href="#13-6-overgangsregler-for-kapittel-1-krav-til-akkreditering-studiekvalitet-mv">§ 13-6. Overgangsregler for kapittel 1 Krav til akkreditering, studiekvalitet, mv.</a></li>
+<li class="lvl4"><a href="#13-7-overgangsregler-for-kapittel-12-forskjellige-regler">§ 13-7. Overgangsregler for kapittel 12 Forskjellige regler</a></li>
+<li class="lvl2"><a href="#vedlegg-i-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">Vedlegg I. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</a></li>
+<li class="lvl3"><a href="#statlige-institusjoner-under-kunnskapsdepartementet">Statlige institusjoner under Kunnskapsdepartementet:</a></li>
+<li class="lvl4"><a href="#universiteter">Universiteter</a></li>
+<li class="lvl5"><a href="#nord-universitet">Nord universitet</a></li>
+<li class="lvl5"><a href="#norges-milj-og-biovitenskapelige-universitet">Norges miljø- og biovitenskapelige universitet</a></li>
+<li class="lvl5"><a href="#norges-teknisk-naturvitenskapelige-universitet">Norges teknisk-naturvitenskapelige universitet</a></li>
+<li class="lvl5"><a href="#oslomet-storbyuniversitetet">OsloMet – storbyuniversitetet</a></li>
+<li class="lvl5"><a href="#universitetet-i-agder">Universitetet i Agder</a></li>
+<li class="lvl5"><a href="#universitetet-i-bergen">Universitetet i Bergen</a></li>
+<li class="lvl5"><a href="#universitetet-i-innlandet">Universitetet i Innlandet</a></li>
+<li class="lvl5"><a href="#universitetet-i-oslo">Universitetet i Oslo</a></li>
+<li class="lvl5"><a href="#universitetet-i-stavanger">Universitetet i Stavanger</a></li>
+<li class="lvl5"><a href="#universitetet-i-srst-norge">Universitetet i Sørøst-Norge</a></li>
+<li class="lvl5"><a href="#universitetet-i-troms-norges-arktiske-universitet">Universitetet i Tromsø – Norges arktiske universitet</a></li>
+<li class="lvl4"><a href="#vitenskapelige-hyskoler">Vitenskapelige høyskoler</a></li>
+<li class="lvl5"><a href="#arkitektur-og-designhgskolen-i-oslo">Arkitektur- og designhøgskolen i Oslo</a></li>
+<li class="lvl5"><a href="#hgskolen-i-molde-vitenskapelig-hgskole-i-logistikk">Høgskolen i Molde, vitenskapelig høgskole i logistikk</a></li>
+<li class="lvl5"><a href="#kunsthgskolen-i-oslo">Kunsthøgskolen i Oslo</a></li>
+<li class="lvl5"><a href="#norges-handelshyskole">Norges handelshøyskole</a></li>
+<li class="lvl5"><a href="#norges-idrettshgskole">Norges idrettshøgskole</a></li>
+<li class="lvl5"><a href="#norges-musikkhgskole">Norges musikkhøgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler">Akkrediterte høyskoler</a></li>
+<li class="lvl5"><a href="#hgskolen-i-volda">Høgskolen i Volda</a></li>
+<li class="lvl5"><a href="#hgskolen-i-stfold">Høgskolen i Østfold</a></li>
+<li class="lvl5"><a href="#hgskulen-pa-vestlandet">Høgskulen på Vestlandet</a></li>
+<li class="lvl5"><a href="#sami-allaskuvla-samisk-hgskole">Sámi allaskuvla / Samisk høgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler-under-andre-departement">Akkrediterte høyskoler under andre departement:</a></li>
+<li class="lvl5"><a href="#forsvarets-hgskole">Forsvarets høgskole</a></li>
+<li class="lvl5"><a href="#politihgskolen">Politihøgskolen</a></li>
+<li class="lvl4"><a href="#hyskoler-under-andre-departement-uten-institusjonsakkreditering">Høyskoler under andre departement, uten institusjonsakkreditering:</a></li>
+<li class="lvl5"><a href="#hgskolen-for-kriminalomsorg">Høgskolen for Kriminalomsorg</a></li>
+<li class="lvl3"><a href="#private-institusjoner">Private institusjoner:</a></li>
+<li class="lvl4"><a href="#vitenskapelige-hyskoler_1">Vitenskapelige høyskoler</a></li>
+<li class="lvl5"><a href="#handelshyskolen-bi">Handelshøyskolen BI</a></li>
+<li class="lvl5"><a href="#mf-vitenskapelig-hyskole">MF vitenskapelig høyskole</a></li>
+<li class="lvl5"><a href="#vid-vitenskapelige-hgskole">VID vitenskapelige høgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler_1">Akkrediterte høyskoler</a></li>
+<li class="lvl5"><a href="#ansgar-hyskole-for-teologi-musikk-og-psykologi">Ansgar høyskole for teologi, musikk og psykologi</a></li>
+<li class="lvl5"><a href="#bergen-arkitekthgskole">Bergen Arkitekthøgskole</a></li>
+<li class="lvl5"><a href="#dronning-mauds-minne-hgskole-for-barnehagelrerutdanning">Dronning Mauds Minne Høgskole for barnehagelærerutdanning</a></li>
+<li class="lvl5"><a href="#fjellhaug-internasjonale-hgskole">Fjellhaug Internasjonale Høgskole</a></li>
+<li class="lvl5"><a href="#hyskolen-for-ledelse-og-teologi">Høyskolen for ledelse og teologi</a></li>
+<li class="lvl5"><a href="#hyskolen-kristiania">Høyskolen Kristiania</a></li>
+<li class="lvl5"><a href="#lovisenberg-diakonale-hgskole">Lovisenberg diakonale høgskole</a></li>
+<li class="lvl5"><a href="#nla-hgskolen">NLA Høgskolen</a></li>
+<li class="lvl5"><a href="#steinerhyskolen">Steinerhøyskolen</a></li>
+<li class="lvl4"><a href="#hyskoler-uten-institusjonsakkreditering">Høyskoler uten institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#barratt-due-musikkinstitutt">Barratt Due musikkinstitutt</a></li>
+<li class="lvl5"><a href="#ekko-digitale-as">Ekko Digitale AS</a></li>
+<li class="lvl5"><a href="#hgskulen-for-grn-utvikling">Høgskulen for grøn utvikling</a></li>
+<li class="lvl5"><a href="#hyskolen-for-dansekunst">Høyskolen for dansekunst</a></li>
+<li class="lvl5"><a href="#hyskolen-for-yrkesfag-as">Høyskolen for yrkesfag AS</a></li>
+<li class="lvl5"><a href="#norges-hyskole-for-helsefag">Norges Høyskole for Helsefag</a></li>
+<li class="lvl5"><a href="#noroff-hyskole">Noroff Høyskole</a></li>
+<li class="lvl5"><a href="#norsk-barnebokinstitutt">Norsk barnebokinstitutt</a></li>
+<li class="lvl5"><a href="#nski-hyskole">NSKI Høyskole</a></li>
+<li class="lvl5"><a href="#oslo-nye-hyskole">Oslo Nye Høyskole</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-19-1251.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-28-1392.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til universitets- og høyskoleloven (universitets- og høyskoleforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2024-06-28-1392.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2024-06-28-1392 <code>forskrift/2024-06-28-1392</code></td></tr>
+<tr><th>Korttittel</th><td>Universitets- og høyskoleforskriften</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2024</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-19-1251 <code>forskrift/2026-06-19-1251</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2024-06-28-1392" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-krav-til-akkreditering-studiekvalitet-mv">Kapittel 1. Krav til akkreditering, studiekvalitet mv.</a></li>
+<li class="lvl3"><a href="#i-institusjonsakkreditering">I. Institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#1-1-generelle-krav-til-institusjonsakkreditering">§ 1-1. Generelle krav til institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#1-2-krav-til-akkreditering-som-hyskole">§ 1-2. Krav til akkreditering som høyskole</a></li>
+<li class="lvl5"><a href="#1-3-krav-til-akkreditering-som-vitenskapelig-hyskole">§ 1-3. Krav til akkreditering som vitenskapelig høyskole</a></li>
+<li class="lvl5"><a href="#1-4-krav-til-akkreditering-som-universitet">§ 1-4. Krav til akkreditering som universitet</a></li>
+<li class="lvl5"><a href="#1-5-forenklet-prosedyre-for-vitenskapelige-hyskoler-som-sker-om-akkreditering-som-universitet">§ 1-5. Forenklet prosedyre for vitenskapelige høyskoler som søker om akkreditering som universitet</a></li>
+<li class="lvl3"><a href="#ii-kvalitetssystem-og-kvalitetsarbeid">II. Kvalitetssystem og kvalitetsarbeid</a></li>
+<li class="lvl5"><a href="#1-6-generelt">§ 1-6. Generelt</a></li>
+<li class="lvl5"><a href="#1-7-krav-til-kvalitetssystem">§ 1-7. Krav til kvalitetssystem</a></li>
+<li class="lvl5"><a href="#1-8-krav-til-kvalitetsarbeid">§ 1-8. Krav til kvalitetsarbeid</a></li>
+<li class="lvl5"><a href="#1-9-tilsyn-med-kvalitetssystemer-og-kvalitetsarbeid">§ 1-9. Tilsyn med kvalitetssystemer og kvalitetsarbeid</a></li>
+<li class="lvl3"><a href="#iii-akkreditering-av-studietilbud">III. Akkreditering av studietilbud</a></li>
+<li class="lvl5"><a href="#1-10-generelle-vilkar-for-akkreditering">§ 1-10. Generelle vilkår for akkreditering</a></li>
+<li class="lvl5"><a href="#1-11-krav-til-studietilbudet">§ 1-11. Krav til studietilbudet</a></li>
+<li class="lvl5"><a href="#1-12-generelle-krav-til-fagmilj">§ 1-12. Generelle krav til fagmiljø</a></li>
+<li class="lvl5"><a href="#1-13-srskilte-krav-til-studietilbud-pa-lavere-grad">§ 1-13. Særskilte krav til studietilbud på lavere grad</a></li>
+<li class="lvl5"><a href="#1-14-srskilte-krav-til-studietilbud-pa-hyere-grad">§ 1-14. Særskilte krav til studietilbud på høyere grad</a></li>
+<li class="lvl5"><a href="#1-15-srskilte-krav-til-doktorgradsutdanninger">§ 1-15. Særskilte krav til doktorgradsutdanninger</a></li>
+<li class="lvl5"><a href="#1-16-akkreditering-av-studietilbud-som-delvis-foregar-i-utlandet">§ 1-16. Akkreditering av studietilbud som delvis foregår i utlandet</a></li>
+<li class="lvl5"><a href="#1-17-akkreditering-av-fellesgrader">§ 1-17. Akkreditering av fellesgrader</a></li>
+<li class="lvl5"><a href="#1-18-europeisk-tilnrming-til-fellesgrader-unntak-fra-universitets-og-hyskoleloven-3-2">§ 1-18. Europeisk tilnærming til fellesgrader – unntak fra universitets- og høyskoleloven § 3-2</a></li>
+<li class="lvl3"><a href="#iv-nokuts-saksbehandling">IV. NOKUTs saksbehandling</a></li>
+<li class="lvl5"><a href="#1-19-nokuts-styre">§ 1-19. NOKUTs styre</a></li>
+<li class="lvl5"><a href="#1-20-sknad-om-akkreditering">§ 1-20. Søknad om akkreditering</a></li>
+<li class="lvl5"><a href="#1-21-oppnevning-av-sakkyndige">§ 1-21. Oppnevning av sakkyndige</a></li>
+<li class="lvl5"><a href="#1-22-sakkyndiges-kompetanse">§ 1-22. Sakkyndiges kompetanse</a></li>
+<li class="lvl5"><a href="#1-23-tilsyn">§ 1-23. Tilsyn</a></li>
+<li class="lvl5"><a href="#1-24-informasjonsplikt">§ 1-24. Informasjonsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-grader-og-faglig-godkjenning">Kapittel 2. Grader og faglig godkjenning</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#2-1-virkeomrade-for-dette-kapitlet">§ 2-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl3"><a href="#ii-krav-til-grader">II. Krav til grader</a></li>
+<li class="lvl5"><a href="#2-2-definisjoner">§ 2-2. Definisjoner</a></li>
+<li class="lvl5"><a href="#2-3-vitnemal-og-grader">§ 2-3. Vitnemål og grader</a></li>
+<li class="lvl5"><a href="#2-4-hgskolekandidatgrad">§ 2-4. Høgskolekandidatgrad</a></li>
+<li class="lvl5"><a href="#2-5-bachelorgrad">§ 2-5. Bachelorgrad</a></li>
+<li class="lvl5"><a href="#2-6-mastergrad">§ 2-6. Mastergrad</a></li>
+<li class="lvl5"><a href="#2-7-erfaringsbasert-mastergrad">§ 2-7. Erfaringsbasert mastergrad</a></li>
+<li class="lvl5"><a href="#2-8-integrert-mastergrad">§ 2-8. Integrert mastergrad</a></li>
+<li class="lvl5"><a href="#2-9-selvstendig-arbeid-i-mastergrader">§ 2-9. Selvstendig arbeid i mastergrader</a></li>
+<li class="lvl5"><a href="#2-10-srskilte-mastergrader">§ 2-10. Særskilte mastergrader</a></li>
+<li class="lvl5"><a href="#2-11-andre-hyere-grader">§ 2-11. Andre høyere grader</a></li>
+<li class="lvl5"><a href="#2-12-doktorgrad">§ 2-12. Doktorgrad</a></li>
+<li class="lvl5"><a href="#2-13-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">§ 2-13. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</a></li>
+<li class="lvl5"><a href="#2-14-beskyttede-titler-for-grader-som-ikke-lenger-gis">§ 2-14. Beskyttede titler for grader som ikke lenger gis</a></li>
+<li class="lvl3"><a href="#iii-faglig-godkjenning-av-utdanning-og-av-realkompetanse">III. Faglig godkjenning av utdanning og av realkompetanse</a></li>
+<li class="lvl5"><a href="#2-15-realkompetanse">§ 2-15. Realkompetanse</a></li>
+<li class="lvl5"><a href="#2-16-unntak-fra-tilknytningskravet">§ 2-16. Unntak fra tilknytningskravet</a></li>
+<li class="lvl5"><a href="#2-17-krav-ved-tildeling-av-flere-grader-pa-delvis-samme-grunnlag">§ 2-17. Krav ved tildeling av flere grader på delvis samme grunnlag</a></li>
+<li class="lvl5"><a href="#2-18-srskilte-godkjenningsregler">§ 2-18. Særskilte godkjenningsregler</a></li>
+<li class="lvl2"><a href="#kapittel-3-undervisnings-og-forskningsstillinger-rekrutteringsstillinger-og-innstegsstillinger">Kapittel 3. Undervisnings- og forskningsstillinger, rekrutteringsstillinger og innstegsstillinger</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser_1">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#3-1-virkeomrade-for-dette-kapitlet">§ 3-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl3"><a href="#ii-kvalifikasjonskrav-for-undervisnings-og-forskningsstillinger">II. Kvalifikasjonskrav for undervisnings- og forskningsstillinger</a></li>
+<li class="lvl5"><a href="#3-2-universitets-og-hyskolelrer">§ 3-2. Universitets- og høyskolelærer</a></li>
+<li class="lvl5"><a href="#3-3-universitet-og-hyskolelektor">§ 3-3. Universitet- og høyskolelektor</a></li>
+<li class="lvl5"><a href="#3-4-frstelektor">§ 3-4. Førstelektor</a></li>
+<li class="lvl5"><a href="#3-5-dosent">§ 3-5. Dosent</a></li>
+<li class="lvl5"><a href="#3-6-frsteamanuensis">§ 3-6. Førsteamanuensis</a></li>
+<li class="lvl5"><a href="#3-7-professor">§ 3-7. Professor</a></li>
+<li class="lvl5"><a href="#3-8-utdanningsfaglig-kompetanse">§ 3-8. Utdanningsfaglig kompetanse</a></li>
+<li class="lvl5"><a href="#3-9-unntak-fra-kvalifikasjonskravene-ved-ansettelse">§ 3-9. Unntak fra kvalifikasjonskravene ved ansettelse</a></li>
+<li class="lvl3"><a href="#iii-kompetansevurdering-ved-ansettelse-overgang-og-opprykk-i-undervisnings-og-forskningsstillinger">III. Kompetansevurdering ved ansettelse, overgang og opprykk i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl5"><a href="#3-10-kvalifikasjons-og-dokumentasjonskrav-for-kompetansevurdering">§ 3-10. Kvalifikasjons- og dokumentasjonskrav for kompetansevurdering</a></li>
+<li class="lvl5"><a href="#3-11-sakkyndig-komite">§ 3-11. Sakkyndig komite</a></li>
+<li class="lvl5"><a href="#3-12-vurderings-og-innstillingsprosessen-ved-ansettelse">§ 3-12. Vurderings- og innstillingsprosessen ved ansettelse</a></li>
+<li class="lvl5"><a href="#3-13-adgang-til-a-ske-opprykk">§ 3-13. Adgang til å søke opprykk</a></li>
+<li class="lvl5"><a href="#3-14-vurderings-og-beslutningsprosessen-ved-opprykk">§ 3-14. Vurderings- og beslutningsprosessen ved opprykk</a></li>
+<li class="lvl5"><a href="#3-15-adgang-til-a-ske-overgang">§ 3-15. Adgang til å søke overgang</a></li>
+<li class="lvl3"><a href="#iv-ansettelsesvilkar-for-rekrutteringsstillinger">IV. Ansettelsesvilkår for rekrutteringsstillinger</a></li>
+<li class="lvl5"><a href="#3-16-ansettelse-i-rekrutteringsstillinger-pa-aremal">§ 3-16. Ansettelse i rekrutteringsstillinger på åremål</a></li>
+<li class="lvl5"><a href="#3-17-permisjoner-og-forlengelse-av-aremalsperioden">§ 3-17. Permisjoner og forlengelse av åremålsperioden</a></li>
+<li class="lvl5"><a href="#3-18-postdoktor">§ 3-18. Postdoktor</a></li>
+<li class="lvl5"><a href="#3-19-stipendiat">§ 3-19. Stipendiat</a></li>
+<li class="lvl5"><a href="#3-20-spesialistkandidat">§ 3-20. Spesialistkandidat</a></li>
+<li class="lvl5"><a href="#3-21-vitenskapelig-assistent">§ 3-21. Vitenskapelig assistent</a></li>
+<li class="lvl5"><a href="#3-22-dobbeltkompetanseutdanning">§ 3-22. Dobbeltkompetanseutdanning</a></li>
+<li class="lvl3"><a href="#v-ansettelse-pa-innstegsvilkar">V. Ansettelse på innstegsvilkår</a></li>
+<li class="lvl5"><a href="#3-23-formal-med-ansettelse-pa-innstegsvilkar">§ 3-23. Formål med ansettelse på innstegsvilkår</a></li>
+<li class="lvl5"><a href="#3-24-ansettelsesvilkar">§ 3-24. Ansettelsesvilkår</a></li>
+<li class="lvl5"><a href="#3-25-arbeidsavtalen">§ 3-25. Arbeidsavtalen</a></li>
+<li class="lvl5"><a href="#3-26-oppflging-og-veiledning">§ 3-26. Oppfølging og veiledning</a></li>
+<li class="lvl5"><a href="#3-27-midtveisvurdering">§ 3-27. Midtveisvurdering</a></li>
+<li class="lvl5"><a href="#3-28-sluttvurdering">§ 3-28. Sluttvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-4-egenbetaling">Kapittel 4. Egenbetaling</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser_2">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#4-1-virkeomrade-for-dette-kapitlet">§ 4-1. Virkeområde for dette kapitlet</a></li>
+<li class="lvl5"><a href="#4-2-definisjoner">§ 4-2. Definisjoner</a></li>
+<li class="lvl3"><a href="#ii-felles-bestemmelser">II. Felles bestemmelser</a></li>
+<li class="lvl5"><a href="#4-3-eksamenskandidater-som-ikke-er-tatt-opp-som-studenter">§ 4-3. Eksamenskandidater som ikke er tatt opp som studenter</a></li>
+<li class="lvl5"><a href="#4-4-statsborgere-fra-land-utenfor-es-og-sveits">§ 4-4. Statsborgere fra land utenfor EØS og Sveits</a></li>
+<li class="lvl3"><a href="#iii-statlige-universiteter-og-hyskoler">III. Statlige universiteter og høyskoler</a></li>
+<li class="lvl5"><a href="#4-5-om-statlige-institusjoners-adgang-til-a-kreve-egenbetaling">§ 4-5. Om statlige institusjoners adgang til å kreve egenbetaling</a></li>
+<li class="lvl5"><a href="#4-6-adgang-til-a-kreve-egenbetaling-for-kurs-og-studiepoenggivende-utdanning">§ 4-6. Adgang til å kreve egenbetaling for kurs og studiepoenggivende utdanning</a></li>
+<li class="lvl5"><a href="#4-7-andre-utgifter-knyttet-til-studier-ved-statlige-institusjoner">§ 4-7. Andre utgifter knyttet til studier ved statlige institusjoner</a></li>
+<li class="lvl3"><a href="#iv-private-universiteter-og-hyskoler">IV. Private universiteter og høyskoler</a></li>
+<li class="lvl5"><a href="#4-8-om-private-institusjoners-adgang-til-a-kreve-egenbetaling">§ 4-8. Om private institusjoners adgang til å kreve egenbetaling</a></li>
+<li class="lvl5"><a href="#4-9-private-institusjoner-som-mottar-statstilskudd">§ 4-9. Private institusjoner som mottar statstilskudd</a></li>
+<li class="lvl2"><a href="#kapittel-5-skriftsprak-ved-eksamen">Kapittel 5. Skriftspråk ved eksamen</a></li>
+<li class="lvl4"><a href="#5-1-skriftsprak-i-eksamensoppgaver">§ 5-1. Skriftspråk i eksamensoppgaver</a></li>
+<li class="lvl4"><a href="#5-2-unntak">§ 5-2. Unntak</a></li>
+<li class="lvl4"><a href="#5-3-klage-pa-vedtak-om-unntak">§ 5-3. Klage på vedtak om unntak</a></li>
+<li class="lvl4"><a href="#5-4-skriftsprak-i-eksamensoppgaver">§ 5-4. Skriftspråk i eksamensoppgaver</a></li>
+<li class="lvl2"><a href="#kapittel-6-politiattest">Kapittel 6. Politiattest</a></li>
+<li class="lvl4"><a href="#6-1-informasjon-og-bekreftelse">§ 6-1. Informasjon og bekreftelse</a></li>
+<li class="lvl4"><a href="#6-2-tidsfrister-for-a-legge-fram-politiattest">§ 6-2. Tidsfrister for å legge fram politiattest</a></li>
+<li class="lvl4"><a href="#6-3-konsekvenser-av-at-politiattest-ikke-blir-lagt-fram">§ 6-3. Konsekvenser av at politiattest ikke blir lagt fram</a></li>
+<li class="lvl4"><a href="#6-4-institusjonens-behandling-av-politiattest">§ 6-4. Institusjonens behandling av politiattest</a></li>
+<li class="lvl4"><a href="#6-5-nye-opplysninger-etter-at-politiattest-er-utstedt">§ 6-5. Nye opplysninger etter at politiattest er utstedt</a></li>
+<li class="lvl2"><a href="#kapittel-7-skikkethetsvurderinger">Kapittel 7. Skikkethetsvurderinger</a></li>
+<li class="lvl4"><a href="#7-1-studier-underlagt-krav-om-skikkethetsvurdering">§ 7-1. Studier underlagt krav om skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#7-2-formalet-med-skikkethetsvurdering">§ 7-2. Formålet med skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#7-3-vurderingskriterier">§ 7-3. Vurderingskriterier</a></li>
+<li class="lvl4"><a href="#7-4-informasjon-til-studentene">§ 7-4. Informasjon til studentene</a></li>
+<li class="lvl4"><a href="#7-5-skikkethetsnemnd">§ 7-5. Skikkethetsnemnd</a></li>
+<li class="lvl4"><a href="#7-6-skikkethetsansvarlig">§ 7-6. Skikkethetsansvarlig</a></li>
+<li class="lvl4"><a href="#7-7-tvilsmelding">§ 7-7. Tvilsmelding</a></li>
+<li class="lvl4"><a href="#7-8-behandling-hos-skikkethetsansvarlig">§ 7-8. Behandling hos skikkethetsansvarlig</a></li>
+<li class="lvl4"><a href="#7-9-behandling-i-skikkethetsnemnda">§ 7-9. Behandling i skikkethetsnemnda</a></li>
+<li class="lvl4"><a href="#7-10-behandling-i-styret-eller-i-institusjonens-nemnd-for-studentsaker">§ 7-10. Behandling i styret eller i institusjonens nemnd for studentsaker</a></li>
+<li class="lvl2"><a href="#kapittel-8-felles-klagenemnd">Kapittel 8. Felles klagenemnd</a></li>
+<li class="lvl4"><a href="#8-1-felles-klagenemnds-arbeidsoppgaver">§ 8-1. Felles klagenemnds arbeidsoppgaver</a></li>
+<li class="lvl4"><a href="#8-2-klagenemndas-oppnevning-og-sammensetning">§ 8-2. Klagenemndas oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#8-3-vedtaksfrhet-og-flertallskrav">§ 8-3. Vedtaksførhet og flertallskrav</a></li>
+<li class="lvl4"><a href="#8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda</a></li>
+<li class="lvl2"><a href="#kapittel-9-universiteter-og-hyskolers-behandling-av-personopplysninger">Kapittel 9. Universiteter og høyskolers behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#9-1-innhenting-av-personopplysninger-og-automatisert-saksbehandling">§ 9-1. Innhenting av personopplysninger og automatisert saksbehandling</a></li>
+<li class="lvl4"><a href="#9-2-bruk-av-video-og-lydopptak-i-praksisopplring-i-lrerutdanningene">§ 9-2. Bruk av video- og lydopptak i praksisopplæring i lærerutdanningene</a></li>
+<li class="lvl2"><a href="#kapittel-10-registre-og-databaser-mv">Kapittel 10. Registre og databaser mv.</a></li>
+<li class="lvl4"><a href="#10-1-register-for-informasjonsutveksling-om-reaksjoner">§ 10-1. Register for informasjonsutveksling om reaksjoner</a></li>
+<li class="lvl4"><a href="#10-2-portal-for-deling-av-vitnemal-og-dokumentasjon-av-kompetanse">§ 10-2. Portal for deling av vitnemål og dokumentasjon av kompetanse</a></li>
+<li class="lvl4"><a href="#10-3-database-for-forskningsinformasjon">§ 10-3. Database for forskningsinformasjon</a></li>
+<li class="lvl4"><a href="#10-4-database-for-statistikk-om-hyere-utdanning">§ 10-4. Database for statistikk om høyere utdanning</a></li>
+<li class="lvl2"><a href="#kapittel-11-statsautoriserte-translatrer">Kapittel 11. Statsautoriserte translatører</a></li>
+<li class="lvl4"><a href="#11-1-bevilling-som-statsautorisert-translatr">§ 11-1. Bevilling som statsautorisert translatør</a></li>
+<li class="lvl4"><a href="#11-2-translatred-eller-forsikring">§ 11-2. Translatøred eller -forsikring</a></li>
+<li class="lvl4"><a href="#11-3-taushetsplikt">§ 11-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-4-tilbakekalling-av-bevilling">§ 11-4. Tilbakekalling av bevilling</a></li>
+<li class="lvl4"><a href="#11-5-stempel">§ 11-5. Stempel</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskjellige-regler">Kapittel 12. Forskjellige regler</a></li>
+<li class="lvl4"><a href="#12-1-overtredelsesgebyr">§ 12-1. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-2-tilskudd-til-private-hyskoler-uten-institusjonsakkreditering-overgangsordning">§ 12-2. Tilskudd til private høyskoler uten institusjonsakkreditering – overgangsordning</a></li>
+<li class="lvl4"><a href="#12-3-studenters-rett-til-a-fa-dekket-utgifter-til-advokat">§ 12-3. Studenters rett til å få dekket utgifter til advokat</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-overgangsregler-og-endringer-i-andre-forskrifter">Kapittel 13. Ikrafttredelse, overgangsregler og endringer i andre forskrifter</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsregler-for-kapittel-3-undervisnings-og-forskningsstillinger-og-rekrutteringsstillinger">§ 13-2. Overgangsregler for kapittel 3 Undervisnings- og forskningsstillinger og rekrutteringsstillinger</a></li>
+<li class="lvl4"><a href="#13-3-overgangsregler-for-kapittel-7-skikkethetsvurderinger">§ 13-3. Overgangsregler for kapittel 7 Skikkethetsvurderinger</a></li>
+<li class="lvl4"><a href="#13-4-endringer-i-forskrift-6-januar-2017-nr-13-om-opptak-til-hgare-utdanning-opptaksforskrifta">§ 13-4. Endringer i forskrift 6. januar 2017 nr. 13 om opptak til høgare utdanning (opptaksforskrifta)</a></li>
+<li class="lvl4"><a href="#13-5-oppheving-av-forskrifter">§ 13-5. Oppheving av forskrifter</a></li>
+<li class="lvl4"><a href="#13-6-overgangsregler-for-kapittel-1-krav-til-akkreditering-studiekvalitet-mv">§ 13-6. Overgangsregler for kapittel 1 Krav til akkreditering, studiekvalitet, mv.</a></li>
+<li class="lvl4"><a href="#13-7-overgangsregler-for-kapittel-12-forskjellige-regler">§ 13-7. Overgangsregler for kapittel 12 Forskjellige regler</a></li>
+<li class="lvl2"><a href="#vedlegg-i-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">Vedlegg I. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</a></li>
+<li class="lvl3"><a href="#statlige-institusjoner-under-kunnskapsdepartementet">Statlige institusjoner under Kunnskapsdepartementet:</a></li>
+<li class="lvl4"><a href="#universiteter">Universiteter</a></li>
+<li class="lvl5"><a href="#nord-universitet">Nord universitet</a></li>
+<li class="lvl5"><a href="#norges-milj-og-biovitenskapelige-universitet">Norges miljø- og biovitenskapelige universitet</a></li>
+<li class="lvl5"><a href="#norges-teknisk-naturvitenskapelige-universitet">Norges teknisk-naturvitenskapelige universitet</a></li>
+<li class="lvl5"><a href="#oslomet-storbyuniversitetet">OsloMet – storbyuniversitetet</a></li>
+<li class="lvl5"><a href="#universitetet-i-agder">Universitetet i Agder</a></li>
+<li class="lvl5"><a href="#universitetet-i-bergen">Universitetet i Bergen</a></li>
+<li class="lvl5"><a href="#universitetet-i-innlandet">Universitetet i Innlandet</a></li>
+<li class="lvl5"><a href="#universitetet-i-oslo">Universitetet i Oslo</a></li>
+<li class="lvl5"><a href="#universitetet-i-stavanger">Universitetet i Stavanger</a></li>
+<li class="lvl5"><a href="#universitetet-i-srst-norge">Universitetet i Sørøst-Norge</a></li>
+<li class="lvl5"><a href="#universitetet-i-troms-norges-arktiske-universitet">Universitetet i Tromsø – Norges arktiske universitet</a></li>
+<li class="lvl4"><a href="#vitenskapelige-hyskoler">Vitenskapelige høyskoler</a></li>
+<li class="lvl5"><a href="#arkitektur-og-designhgskolen-i-oslo">Arkitektur- og designhøgskolen i Oslo</a></li>
+<li class="lvl5"><a href="#hgskolen-i-molde-vitenskapelig-hgskole-i-logistikk">Høgskolen i Molde, vitenskapelig høgskole i logistikk</a></li>
+<li class="lvl5"><a href="#kunsthgskolen-i-oslo">Kunsthøgskolen i Oslo</a></li>
+<li class="lvl5"><a href="#norges-handelshyskole">Norges handelshøyskole</a></li>
+<li class="lvl5"><a href="#norges-idrettshgskole">Norges idrettshøgskole</a></li>
+<li class="lvl5"><a href="#norges-musikkhgskole">Norges musikkhøgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler">Akkrediterte høyskoler</a></li>
+<li class="lvl5"><a href="#hgskolen-i-volda">Høgskolen i Volda</a></li>
+<li class="lvl5"><a href="#hgskolen-i-stfold">Høgskolen i Østfold</a></li>
+<li class="lvl5"><a href="#hgskulen-pa-vestlandet">Høgskulen på Vestlandet</a></li>
+<li class="lvl5"><a href="#sami-allaskuvla-samisk-hgskole">Sámi allaskuvla / Samisk høgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler-under-andre-departement">Akkrediterte høyskoler under andre departement:</a></li>
+<li class="lvl5"><a href="#forsvarets-hgskole">Forsvarets høgskole</a></li>
+<li class="lvl5"><a href="#politihgskolen">Politihøgskolen</a></li>
+<li class="lvl4"><a href="#hyskoler-under-andre-departement-uten-institusjonsakkreditering">Høyskoler under andre departement, uten institusjonsakkreditering:</a></li>
+<li class="lvl5"><a href="#hgskolen-for-kriminalomsorg">Høgskolen for Kriminalomsorg</a></li>
+<li class="lvl3"><a href="#private-institusjoner">Private institusjoner:</a></li>
+<li class="lvl4"><a href="#vitenskapelige-hyskoler_1">Vitenskapelige høyskoler</a></li>
+<li class="lvl5"><a href="#handelshyskolen-bi">Handelshøyskolen BI</a></li>
+<li class="lvl5"><a href="#mf-vitenskapelig-hyskole">MF vitenskapelig høyskole</a></li>
+<li class="lvl5"><a href="#vid-vitenskapelige-hgskole">VID vitenskapelige høgskole</a></li>
+<li class="lvl4"><a href="#akkrediterte-hyskoler_1">Akkrediterte høyskoler</a></li>
+<li class="lvl5"><a href="#ansgar-hyskole-for-teologi-musikk-og-psykologi">Ansgar høyskole for teologi, musikk og psykologi</a></li>
+<li class="lvl5"><a href="#bergen-arkitekthgskole">Bergen Arkitekthøgskole</a></li>
+<li class="lvl5"><a href="#dronning-mauds-minne-hgskole-for-barnehagelrerutdanning">Dronning Mauds Minne Høgskole for barnehagelærerutdanning</a></li>
+<li class="lvl5"><a href="#fjellhaug-internasjonale-hgskole">Fjellhaug Internasjonale Høgskole</a></li>
+<li class="lvl5"><a href="#hyskolen-for-ledelse-og-teologi">Høyskolen for ledelse og teologi</a></li>
+<li class="lvl5"><a href="#hyskolen-kristiania">Høyskolen Kristiania</a></li>
+<li class="lvl5"><a href="#lovisenberg-diakonale-hgskole">Lovisenberg diakonale høgskole</a></li>
+<li class="lvl5"><a href="#nla-hgskolen">NLA Høgskolen</a></li>
+<li class="lvl5"><a href="#steinerhyskolen">Steinerhøyskolen</a></li>
+<li class="lvl4"><a href="#hyskoler-uten-institusjonsakkreditering">Høyskoler uten institusjonsakkreditering</a></li>
+<li class="lvl5"><a href="#barratt-due-musikkinstitutt">Barratt Due musikkinstitutt</a></li>
+<li class="lvl5"><a href="#ekko-digitale-as">Ekko Digitale AS</a></li>
+<li class="lvl5"><a href="#hgskulen-for-grn-utvikling">Høgskulen for grøn utvikling</a></li>
+<li class="lvl5"><a href="#hyskolen-for-dansekunst">Høyskolen for dansekunst</a></li>
+<li class="lvl5"><a href="#hyskolen-for-yrkesfag-as">Høyskolen for yrkesfag AS</a></li>
+<li class="lvl5"><a href="#norges-hyskole-for-helsefag">Norges Høyskole for Helsefag</a></li>
+<li class="lvl5"><a href="#noroff-hyskole">Noroff Høyskole</a></li>
+<li class="lvl5"><a href="#norsk-barnebokinstitutt">Norsk barnebokinstitutt</a></li>
+<li class="lvl5"><a href="#nski-hyskole">NSKI Høyskole</a></li>
+<li class="lvl5"><a href="#oslo-nye-hyskole">Oslo Nye Høyskole</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-28-1392.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2024-06-28-1392.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-28-1392.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2024-06-28-1392.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2024-06-28-1392.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2024-06-28-1392.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2024-06-28-1392.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2024-06-28-1392.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2024-06-28-1392.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-universitets-og-hyskoleloven-universitets-og-hyskoleforskriften">Forskrift til universitets- og høyskoleloven (universitets- og høyskoleforskriften)</h1>
 <h2 id="kapittel-1-krav-til-akkreditering-studiekvalitet-mv">Kapittel 1. Krav til akkreditering, studiekvalitet mv.</h2>
 <h3 id="i-institusjonsakkreditering">I. Institusjonsakkreditering</h3>
 <p>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
@@ -87,14 +552,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Institusjonens organisering og infrastruktur skal være tilpasset virksomheten.</p>
 <p>Institusjonen skal ha et godkjent kvalitetssystem og kvalitetsarbeid når den søker NOKUT om institusjonsakkreditering.</p>
 <p>NOKUT skal gjennomføre en helhetlig vurdering av om institusjonens strategiske mål, organisering, kvalitetsarbeid og resultater tilsier at institusjonen på en god måte kan forvalte akkrediteringsmyndigheten som institusjonsakkrediteringen gir.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h5 id="1-2-krav-til-akkreditering-som-hyskole">§ 1-2. Krav til akkreditering som høyskole <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>For å oppnå og inneha akkreditering som høyskole skal institusjonen, i tillegg til å fylle grunnvilkåret i universitets- og høyskoleloven § 3-1 fjerde ledd , oppfylle følgende:</p>
 <p>a. Institusjonens utdanning, forskning eller kunstneriske utviklingsarbeid og faglige utviklingsarbeid skal være stabil og av høy kvalitet.
 b. Institusjonen skal ha en relevant kompetanseprofil, og de ansattes samlede faglige kompetanse skal være på nivå med sammenlignbare høyskoler. Institusjonen skal ha et tilstrekkelig antall ansatte i undervisnings- og forskerstillinger innenfor institusjonens faglige virksomhet.
 c. Institusjonen skal ha et jevnlig opptak av studenter og ha uteksaminert studenter i minst tre år. Institusjonen skal ha et tilfredsstillende antall studenter som fullfører til normert tid.
 d. Institusjonen skal samarbeide internasjonalt og være tilknyttet nasjonale og internasjonale nettverk innenfor høyere utdanning og forskning eller kunstnerisk utviklingsarbeid og faglig utviklingsarbeid.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-3-krav-til-akkreditering-som-vitenskapelig-hyskole">§ 1-3. Krav til akkreditering som vitenskapelig høyskole</h5>
 <p>For å oppnå og inneha akkreditering som vitenskapelig høyskole skal institusjonen, i tillegg til å fylle grunnvilkåret i universitets- og høyskoleloven § 3-1 tredje ledd , oppfylle følgende:</p>
 <p>a. Institusjonens utdanning, forskning eller kunstneriske utviklingsarbeid og faglige utviklingsarbeid skal være stabil og av høy internasjonal kvalitet.
@@ -103,7 +568,7 @@ c. Institusjonen kan tilby flere doktorgradsstudier, inkludert eventuelle felles
 d. Institusjonen skal ha stabil forskerutdanning. Institusjonen skal over en periode på fem år ha tatt opp minst 15 doktorgradskandidater og i gjennomsnitt ha uteksaminert minst fem doktorgradskandidater per år i tre år.
 e. Institusjonen skal alene ha akkreditering for studietilbud på både lavere og høyere grads nivå innenfor doktorgradenes fagområde. Institusjonen skal jevnlig ha tatt opp og uteksaminert studenter på disse studietilbudene. Institusjonen skal ha et tilfredsstillende antall studenter som fullfører til normert tid.
 f. Institusjonen skal delta aktivt i nasjonale og internasjonale nettverk, prosjekter og samarbeid innenfor høyere utdanning, forskning eller kunstnerisk utviklingsarbeid og faglig utviklingsarbeid. Institusjonen skal delta aktivt i nasjonalt samarbeid om doktorgradsutdanning.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-4-krav-til-akkreditering-som-universitet">§ 1-4. Krav til akkreditering som universitet <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>For å oppnå og inneha akkreditering som universitet skal institusjonen, i tillegg til å fylle grunnvilkåret i universitets- og høyskoleloven § 3-1 andre ledd , oppfylle følgende:</p>
 <p>a. Institusjonens utdanning, forskning eller kunstneriske utviklingsarbeid og faglige utviklingsarbeid skal være stabil og av høy internasjonal kvalitet.
@@ -112,25 +577,25 @@ c. Institusjonenes studietilbud skal være innenfor doktorgradenes fagområde, o
 d. Institusjonen skal ha stabil forskerutdanning. Institusjonen skal over en periode på fem år ha tatt opp minst 15 doktorgradskandidater og i gjennomsnitt ha uteksaminert minst fem doktorgradskandidater per år i tre år.
 e. Institusjonen skal alene ha akkreditering for studietilbud på både lavere og høyere grads nivå innenfor doktorgradsområdene. Institusjonen skal jevnlig ha tatt opp og uteksaminert studenter på disse studietilbudene. Institusjonen skal ha et tilfredsstillende antall studenter som fullfører til normert tid.
 f. Institusjonen skal delta aktivt i nasjonale og internasjonale nettverk, prosjekter og samarbeid innenfor høyere utdanning, forskning eller kunstnerisk utviklingsarbeid og faglig utviklingsarbeid. Institusjonen skal delta aktivt i nasjonale samarbeid om doktorgradsutdanning.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrifter 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrifter 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</p>
 <h5 id="1-5-forenklet-prosedyre-for-vitenskapelige-hyskoler-som-sker-om-akkreditering-som-universitet">§ 1-5. Forenklet prosedyre for vitenskapelige høyskoler som søker om akkreditering som universitet <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Vitenskapelige høyskoler som søker om akkreditering som universitet, skal få søknaden behandlet etter en forenklet prosedyre.</p>
 <p>NOKUT skal vurdere en søknad etter forenklet prosedyre basert på institusjonens redegjørelse for oppfyllelse av kravene til akkreditering som universitet.</p>
 <p>Institusjonen skal i utgangspunktet kun dokumentere oppfyllelse av krav som er nye i forhold til kravene til akkreditering som vitenskapelig høyskole, samt krav til høy internasjonal kvalitet. NOKUT kan etterspørre annen dokumentasjon hvis NOKUT finner at det er nødvendig å foreta ytterlige vurderinger. NOKUT skal foreta en helhetlig vurdering etter § 1-1 sjette ledd.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</p>
 <h3 id="ii-kvalitetssystem-og-kvalitetsarbeid">II. Kvalitetssystem og kvalitetsarbeid</h3>
 <p>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h5 id="1-6-generelt">§ 1-6. Generelt <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Ved vurdering av om systemet for å sikre og videreutvikle utdanningskvaliteten og kvalitetsarbeidet er tilfredsstillende etter denne forskriftens § 1-7 og § 1-8 , skal NOKUT ta hensyn til om kvalitetssystemet og kvalitetsarbeidet er egnet, og om det bidrar til kvalitetskultur blant ansatte og studenter.</p>
 <p>Kvalitetssystemet og kvalitetsarbeidet skal være tilpasset institusjonens størrelse, faglige profil og egenart.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025), endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-7-krav-til-kvalitetssystem">§ 1-7. Krav til kvalitetssystem</h5>
 <p>Institusjonen skal ha et kvalitetssystem som er skriftlig og tilgjengelig, og som gjelder for alle institusjonens studietilbud. Systemet skal minst bestå av følgende:</p>
 <p>a. beskrivelse av ansvarsforholdene, rapporteringslinjene og hvordan kvalitetsarbeidet skal gjennomføres i praksis
 b. institusjonens rutiner for systematisk kontroll med, og videreutvikling av, kvaliteten i studietilbudene, herunder rutiner for å sikre tilstrekkelig dokumentasjon av kvalitetsarbeidet og rutiner for å rette opp sviktende kvalitet innen rimelig tid
 c. beskrivelse av institusjonens arbeid med læringsmiljø, jf. universitets- og høyskoleloven § 10-1 tredje ledd
 d. beskrivelse av institusjonens rutiner for studentevalueringer, jf. universitets- og høyskoleloven § 3-5 første ledd annet punktum .</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h5 id="1-8-krav-til-kvalitetsarbeid">§ 1-8. Krav til kvalitetsarbeid</h5>
 <p>Kvalitetsarbeidet skal være del av institusjonens strategiske arbeid.</p>
 <p>Kvalitetsarbeidet skal være forankret i institusjonens styre og ledelse på alle nivåer.</p>
@@ -138,10 +603,10 @@ d. beskrivelse av institusjonens rutiner for studentevalueringer, jf. universite
 <p>Institusjonen skal sørge for å ha tilstrekkelig informasjon til å kunne vurdere kvaliteten i alle studietilbud.</p>
 <p>Institusjonen skal systematisk kontrollere at alle studietilbud til enhver tid oppfyller kravene til akkreditering.</p>
 <p>Institusjonen skal gjennomføre periodiske evalueringer av alle studietilbud som ledd i arbeidet med å videreutvikle kvaliteten. Studenter, samt representanter fra arbeids- eller samfunnsliv og eksterne fagfeller som er relevante for studietilbudet, skal bidra i evalueringene.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h5 id="1-9-tilsyn-med-kvalitetssystemer-og-kvalitetsarbeid">§ 1-9. Tilsyn med kvalitetssystemer og kvalitetsarbeid</h5>
 <p>NOKUTs tilsyn med kvalitetssystemer og kvalitetsarbeid etter universitets- og høyskoleloven § 3-6 skal være periodisk, og det skal ikke gå mer enn åtte år mellom hvert tilsyn ved den enkelte institusjon.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h3 id="iii-akkreditering-av-studietilbud">III. Akkreditering av studietilbud</h3>
 <p>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-10-generelle-vilkar-for-akkreditering">§ 1-10. Generelle vilkår for akkreditering <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-1-10.html" title="Endringshistorikk for § 1-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
@@ -155,7 +620,7 @@ e. institusjonens forskrifter og reglement som regulerer studentenes rettigheter
 f. læringsmiljøutvalg i samsvar med loven § 10-10 og nemnder for studentsaker i samsvar med loven § 14-1
 g. institusjonens tilrettelegging for studentorganer jf. loven § 10-11
 h. studentenes tilgang til et studentombud jf. loven § 10-8 .</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</p>
 <h5 id="1-11-krav-til-studietilbudet">§ 1-11. Krav til studietilbudet</h5>
 <p>Et studietilbud må oppfylle følgende vilkår for å bli og være akkreditert:</p>
 <p>a. Studietilbudet skal være definert og avgrenset, ha tilstrekkelig faglig bredde og et dekkende navn.
@@ -170,7 +635,7 @@ i. Studietilbudet skal ha ordninger for internasjonalisering som er tilpasset st
 j. Studietilbudet skal ha en tydelig faglig ledelse med et definert ansvar for kvalitetssikring og -utvikling av studiet.
 k. Informasjonen om studietilbudet skal være korrekt, vise studiets innhold, oppbygging og progresjon, herunder muligheter for studentutveksling.
 l. For studietilbud med praksis skal det foreligge praksisavtale mellom institusjon og praksissted.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-12-generelle-krav-til-fagmilj">§ 1-12. Generelle krav til fagmiljø</h5>
 <p>Fagmiljøet tilknyttet studietilbudet skal ha en størrelse som står i forhold til antallet studenter og studiets egenart, være kompetansemessig stabilt over tid og ha en sammensetning som dekker fag, emner og veiledningen som inngår i studietilbudet.</p>
 <p>Minst 50 prosent av årsverkene tilknyttet studietilbudet skal utføres av ansatte i hovedstilling ved institusjonen. I de sentrale delene av studietilbudene skal det være ansatte i hovedstilling med førstestillingskompetanse. Førstestillingskompetanse innehas av ansatte i førstestilling og andre med doktorgrad. Førstestillinger er stillingene førstelektor, førsteamanuensis, dosent og professor.</p>
@@ -178,17 +643,17 @@ l. For studietilbud med praksis skal det foreligge praksisavtale mellom institus
 <p>Fagmiljøet tilknyttet studietilbud som fører fram til en grad og andre studietilbud av et omfang på 60 studiepoeng eller mer, skal delta aktivt i relevante nasjonale og internasjonale samarbeid og nettverk.</p>
 <p>For studietilbud med obligatorisk praksis skal fagmiljøet tilknyttet studietilbudet ha relevant og oppdatert kunnskap fra praksisfeltet. Institusjonen må sikre at praksisveilederne har relevant kompetanse og erfaring fra praksisfeltet.</p>
 <p>Kravet til hovedstilling i andre ledd første punktum kan fravikes for studietilbud med et omfang på 30 studiepoeng eller mindre, dersom studietilbudet gis i samarbeid med eksterne miljøer. De eksterne miljøene må drive forskning, kunstnerisk utviklingsarbeid eller faglig utviklingsarbeid på nivå med institusjonens eget fagmiljø. Institusjonen må ha et eget fagmiljø innenfor studietilbudets fagområde eller i tilstøtende fagområde og ha et helhetlig ansvar for studietilbudet.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-13-srskilte-krav-til-studietilbud-pa-lavere-grad">§ 1-13. Særskilte krav til studietilbud på lavere grad</h5>
 <p>Fagmiljøet skal ha relevant og stabil kompetanse innenfor utdanning, faglig utviklingsarbeid og forskning eller kunstnerisk utviklingsarbeid.</p>
 <p>Innenfor studietilbudets fagområde skal minst 20 prosent av årsverkene i fagmiljøet ha førstestillingskompetanse.</p>
 <p>Fagmiljøet skal drive forskning eller kunstnerisk utviklingsarbeid og faglig utviklingsarbeid innenfor studietilbudets fagområde. Fagmiljøet skal kunne vise til dokumenterte resultater av en kvalitet og i et omfang som er tilfredsstillende for studietilbudets innhold og nivå i samsvar med kvalifikasjonsrammeverkets nivå 6.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-14-srskilte-krav-til-studietilbud-pa-hyere-grad">§ 1-14. Særskilte krav til studietilbud på høyere grad</h5>
 <p>Fagmiljøet skal være bredt og ha relevant, stabil og høy kompetanse innenfor utdanning, faglig utviklingsarbeid og forskning eller kunstnerisk utviklingsarbeid.</p>
 <p>Innenfor studietilbudets fagområde skal minst 50 prosent av årsverkene i fagmiljøet ha førstestillingskompetanse og minst ti prosent av årsverkene ha professor- eller dosentkompetanse. For studier med obligatorisk praksis kan inntil ti prosent av årsverkene utgjøres av ansatte i delte stillinger og erstatte årsverk med førstestillingskompetanse. Slike delte stillinger kan ikke erstatte andelen årsverk med professor- eller dosentkompetanse.</p>
 <p>Fagmiljøet skal drive forskning eller kunstnerisk utviklingsarbeid og faglig utviklingsarbeid innenfor studietilbudets fagområde. Fagmiljøet skal kunne vise til dokumenterte resultater på høyt nivå, av en kvalitet og i et omfang som er tilfredsstillende for studietilbudets innhold og nivå i samsvar med kvalifikasjonsrammeverket nivå 7. Fagmiljøet skal kunne vise til resultater fra samarbeid med andre fagmiljøer nasjonalt og internasjonalt.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-15-srskilte-krav-til-doktorgradsutdanninger">§ 1-15. Særskilte krav til doktorgradsutdanninger</h5>
 <p>På fagområdet for doktorgradsutdanningen skal institusjonen tilby utdanning og forskning eller kunstnerisk utviklingsarbeid av en kvalitet og i et omfang som sikrer at doktorgradsutdanningen kan gjennomføres på høyt vitenskapelig eller kunstnerisk nivå. Institusjonen skal ha bredde i studietilbudene på lavere og høyere grads nivå innenfor fagområdet for doktorgradsutdanningen.</p>
 <p>Fagområdet for doktorgradsutdanningen skal utgjøre en vitenskapelig eller kunstnerisk helhet, og det skal være sammenheng mellom de enkelte delene studiet er satt sammen av.</p>
@@ -198,13 +663,13 @@ l. For studietilbud med praksis skal det foreligge praksisavtale mellom institus
 <p>Fagmiljøet skal være stabilt og bestå av et tilstrekkelig antall ansatte med professor- og førsteamanuensiskompetanse innenfor hele bredden av studietilbudet. Fagmiljøet skal bestå av ansatte med førstestillingskompetanse innenfor doktorgradsområdet, og minst 50 prosent av årsverkene skal ha professorkompetanse.</p>
 <p>Institusjonen skal dokumentere at den har kapasitet og rekrutteringspotensial til å ta opp minst 15 stipendiater til doktorgradsutdanningen i løpet av fem år etter oppstart. Institusjonen skal i tillegg sannsynliggjøre at den over tid kan opprettholde et doktorgradsmiljø med minst 15 stipendiater. Doktorgradskandidater tilknyttet gjennom ordningene nærings-ph.d. og offentlig sektor-ph.d. kan inngå i beregningen av antallet stipendiater. Minst åtte av stipendiatene skal ha hovedarbeidsplass ved institusjonen.</p>
 <p>Samisk høgskole er unntatt fra kravet i sjuende ledd. Samisk høgskole må sikre at doktorgradskandidatene har et godt faglig miljø med høy kvalitet, blant annet gjennom forpliktende samarbeid med andre institusjoner.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-16-akkreditering-av-studietilbud-som-delvis-foregar-i-utlandet">§ 1-16. Akkreditering av studietilbud som delvis foregår i utlandet</h5>
 <p>For at et studietilbud som foregår delvis i utlandet skal fylle vilkåret i universitets- og høyskoleloven § 1-2 andre ledd tredje punktum om tydelig tilknytning til virksomheten i Norge, må institusjonen oppfylle følgende vilkår:</p>
 <p>a. institusjonen må minst ha ett akkreditert bachelorgradsstudium som i sin helhet foregår i Norge
 b. minst to tredjedeler av institusjonens samlede studietilbud må foregå i Norge, og minst to tredjedeler av studentene ved institusjonen må være tilknyttet studietilbud som foregår i Norge.</p>
 <p>Studietilbud som delvis foregår i utlandet, kan akkrediteres bare dersom det er faglig forankret i forskningen eller det kunstneriske utviklingsarbeidet, undervisningen, veiledningen og fagmiljøet ved virksomheten i Norge.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-17-akkreditering-av-fellesgrader">§ 1-17. Akkreditering av fellesgrader</h5>
 <p>Ved akkreditering av en internasjonal fellesgrad gjelder universitets- og høyskoleloven og denne forskriftens regler for akkreditering, kvalitetssikring og krav til grader for de delene som tilbys av norske institusjoner. Ved akkreditering av fellesgrad i samarbeid mellom norske institusjoner, må institusjonene samlet oppfylle reglene.</p>
 <p>Institusjonene skal påse at samarbeidsinstitusjonene er akkreditert eller offentlig godkjent for å kunne gi høyere utdanning i samsvar med gjeldende regler i aktuelle land, og at de aktuelle studiene er akkreditert eller offentlig godkjent som høyere utdanning på fellesgradens nivå.</p>
@@ -212,19 +677,19 @@ b. minst to tredjedeler av institusjonens samlede studietilbud må foregå i Nor
 <p>Delene som fellesgraden består av, skal utgjøre en samlet helhet i samsvar med læringsutbyttet for fellesgraden.</p>
 <p>Studenter som tas opp på fellesgradsprogram, skal sikres studieopphold av et visst omfang ved samarbeidende institusjoner.</p>
 <p>Dersom et samarbeid om fellesgrad opphører, skal institusjonene inngå avtale med en annen institusjon, eller iverksette andre tiltak slik at studentene kan fullføre studiet. Slike tiltak skal godkjennes av NOKUT i de tilfellene der NOKUT har akkreditert de aktuelle studiene ved institusjonen.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-18-europeisk-tilnrming-til-fellesgrader-unntak-fra-universitets-og-hyskoleloven-3-2">§ 1-18. Europeisk tilnærming til fellesgrader – unntak fra universitets- og høyskoleloven § 3-2</h5>
 <p>Institusjoner med institusjonsakkreditering og selvakkrediteringsrett på det aktuelle nivået og fagområdet kan søke om akkreditering av internasjonale fellesgrader ved kvalitetssikringsorgan som er godkjent i det europeiske registeret over kvalitetssikringsorgan (EQAR), i samsvar med den europeiske tilnærmingen til fellesgrader vedtatt i Bologna-samarbeidet i 2015, the European Approach for Quality Assurance of Joint Programmes.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h3 id="iv-nokuts-saksbehandling">IV. NOKUTs saksbehandling</h3>
 <p>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-19-nokuts-styre">§ 1-19. NOKUTs styre</h5>
 <p>NOKUTs styre er vedtaksført for behandling av saker etter denne forskriften når lederen eller lederens stedfortreder og fire andre medlemmer er til stede. Ved stemmelikhet er lederens stemme avgjørende.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-20-sknad-om-akkreditering">§ 1-20. Søknad om akkreditering</h5>
 <p>NOKUT utarbeider retningslinjer for utformingen og behandlingen av søknader om akkreditering av institusjoner og studietilbud etter universitets- og høyskoleloven kapittel 3 . For å effektivisere saksbehandlingen kan NOKUT fastsette søknadsfrister.</p>
 <p>For studietilbud en institusjon ikke selv har fullmakt til å etablere, bestemmer NOKUT hvilke endringer som institusjonen skal forelegge NOKUT.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-21-oppnevning-av-sakkyndige">§ 1-21. Oppnevning av sakkyndige</h5>
 <p>NOKUT skal oppnevne sakkyndige for å gjennomføre evaluering ved:</p>
 <p>a. akkreditering av institusjoner og studietilbud etter universitets- og høyskoleloven § 3-3
@@ -233,7 +698,7 @@ c. tilsyn med at institusjoner og studietilbud oppfyller gjeldende standarder og
 <p>Institusjonen skal gis anledning til å kommentere NOKUTs forslag til sakkyndige før oppnevning av enkeltstående komiteer.</p>
 <p>NOKUT kan avvise behandling av en søknad uten å oppnevne sakkyndige dersom søknaden har mangler som gjør den uegnet for sakkyndig behandling. NOKUT kan avslå en søknad uten å oppnevne sakkyndige dersom søknaden klart ikke oppfyller vilkårene for akkreditering.</p>
 <p>De sakkyndige skal avgi rapport om evalueringen og gi anbefalinger til NOKUT.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-22-sakkyndiges-kompetanse">§ 1-22. Sakkyndiges kompetanse</h5>
 <p>Ved akkreditering av studietilbud på lavere og høyere grad skal den sakkyndige komiteen samlet ha kompetanse i og erfaring fra gjennomføring av relevante studietilbud. I tillegg skal komiteen ha slik kompetanse:</p>
 <p>a. minst én skal ha formell kompetanse på et høyere nivå enn det studietilbudet som skal akkrediteres
@@ -256,13 +721,13 @@ b. minst én skal ha erfaring fra ledelse ved en høyere utdanningsinstitusjon
 c. minst én skal ha tilknytning til relevant utenlandsk institusjon
 d. én skal være student og ha erfaring fra institusjonsstyre, andre sentrale tillitsverv eller arbeid innen studentdemokratiet
 e. minst én skal ha professor- eller dosentkompetanse.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-23-tilsyn">§ 1-23. Tilsyn</h5>
 <p>Dersom NOKUT etter tilsyn finner at vilkårene for akkreditering ikke er oppfylt og fatter vedtak om å trekke tilbake akkrediteringen av et studietilbud, skal institusjonen iverksette tiltak som gjør det mulig for studentene å fullføre studiet. Tiltakene skal godkjennes av NOKUT.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="1-24-informasjonsplikt">§ 1-24. Informasjonsplikt</h5>
 <p>NOKUT kan kreve at institusjonene sender inn oppdaterte opplysninger om institusjonen, blant annet om akkrediterte studietilbud.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-2-grader-og-faglig-godkjenning">Kapittel 2. Grader og faglig godkjenning</h2>
 <h3 id="i-generelle-bestemmelser">I. Generelle bestemmelser</h3>
 <p>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
@@ -272,14 +737,14 @@ e. minst én skal ha professor- eller dosentkompetanse.</p>
 b. hvilke grader de enkelte universiteter og høyskoler har rett til å gi
 c. beskyttede gradstitler fra universitets- og høyskoleutdanning gitt etter tidligere ordninger
 d. universiteter og høyskolers faglige godkjenning av utdanning og av realkompetanse etter universitets- og høyskoleloven §§ 9-1 til 9-5 .</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h3 id="ii-krav-til-grader">II. Krav til grader</h3>
 <p>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-2-definisjoner">§ 2-2. Definisjoner</h5>
 <p>I dette kapitlet menes med</p>
 <p>a. normert studietid: den tid det skal ta for en fulltidsstudent som følger normal studieprogresjon, å fullføre et studieprogram. Ett studieår på fulltid i omfang og læringsutbytte tilsvarer 60 studiepoeng, jf. universitets- og høyskoleloven § 11-2
 b. yrkes- eller profesjonsrettet utdanning: studier som er innrettet mot enkeltyrker eller -profesjoner, og mer generelt sektor- eller næringsrettede studier.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-3-vitnemal-og-grader">§ 2-3. Vitnemål og grader</h5>
 <p>Universiteter og høyskoler kan gi vitnemål for oppnådd grad etter universitets- og høyskoleloven § 11-12 bare for grader etter loven § 3-7 og denne forskriften §§ 2-4 – 2-12 , og som er fastsatt for den enkelte institusjon i forskriften § 2-13 .</p>
 <p>På vitnemålene skal det stå aktuell gradsbetegnelse og eventuelt fagområde på norsk:</p>
@@ -292,17 +757,17 @@ b. yrkes- eller profesjonsrettet utdanning: studier som er innrettet mot enkelty
 <p>For studieprogram som i sin helhet gis på samiske språk, kan vitnemål utstedes på samisk, med norsk oversettelse av graden og fagområdet i parentes.</p>
 <p>For studieprogram som i sin helhet gis på engelsk, kan fagområdet angis på engelsk, med norsk oversettelse av fagområdet i parentes.</p>
 <p>For internasjonale fellesgrader som gis på grunnlag av et felles studieprogram mellom to eller flere institusjoner, og som det gis ett felles vitnemål for, avtales gradsbetegnelsen og eventuelt fagområde mellom de samarbeidende institusjonene.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-4-hgskolekandidatgrad">§ 2-4. Høgskolekandidatgrad</h5>
 <p>Høgskolekandidatgrad har normert studietid to år, 120 studiepoeng. Den skal være en helhetlig, yrkes- eller profesjonsrettet utdanning.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-5-bachelorgrad">§ 2-5. Bachelorgrad</h5>
 <p>Bachelorgrad har normert studietid tre år, 180 studiepoeng. Dette er den ordinære bachelorgraden.</p>
 <p>Utvidet bachelorgrad har normert studietid fire år, 240 studiepoeng, og kan bare gis på disse fagområdene:</p>
 <p>a. utøvende og skapende musikk
 b. nautikk.</p>
 <p>I en bachelorgrad skal det inngå enten fordypning i emne eller emnegruppe på minst 80 studiepoeng innenfor et fagområde, eller helhetlig yrkes- eller profesjonsrettet utdanning på minst 120 studiepoeng.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-6-mastergrad">§ 2-6. Mastergrad</h5>
 <p>Mastergrad har normert studietid to år, 120 studiepoeng. Dette er den ordinære mastergraden.</p>
 <p>Mastergradsutdanningen skal bygge på bachelorgrad eller tilsvarende, blant annet cand.mag.-grad, eller annen grad eller yrkesutdanning fra høyere utdanning av minimum tre års omfang.</p>
@@ -310,7 +775,7 @@ b. nautikk.</p>
 <p>Institusjonen skal fastsette hvilke emner eller emnegrupper som må inngå i bachelorgraden eller tilsvarende som en mastergrad skal bygge på, eller hvilke yrkes- eller profesjonsrettede utdanninger mastergraden bygger på.</p>
 <p>Institusjonen kan fastsette rangeringsregler for kvalifiserte søkere og faglige minstekrav.</p>
 <p>Mastergradsutdanningen skal utformes slik at den kan kvalifisere for direkte opptak til doktorgradsutdanning.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-7-erfaringsbasert-mastergrad">§ 2-7. Erfaringsbasert mastergrad</h5>
 <p>Erfaringsbasert mastergrad har normert studietid ett og et halvt år, 90 studiepoeng eller to år, 120 studiepoeng.</p>
 <p>Erfaringsbasert mastergrad skal bygge på bachelorgrad eller tilsvarende, blant annet cand.mag.-grad, eller annen grad eller yrkes- eller profesjonsutdanning fra høyere utdanning av minimum 3 års omfang, og minst 2 års relevant arbeidserfaring. Institusjonen fastsetter hva som er relevant arbeidserfaring for opptak.</p>
@@ -318,17 +783,17 @@ b. nautikk.</p>
 <p>Institusjonen kan fastsette hvilke emner eller emnegrupper som må inngå i bachelorgraden eller tilsvarende som en mastergrad skal bygge på, eller hvilken eller hvilke yrkes- eller profesjonsrettede utdanning eller utdanninger mastergraden bygger på.</p>
 <p>Institusjonen kan fastsette rangeringsregler for kvalifiserte søkere og faglige minstekrav.</p>
 <p>Erfaringsbasert mastergrad på 90 studiepoeng kvalifiserer ikke for direkte opptak til doktorgradsutdanning. Erfaringsbasert mastergrad på 120 studiepoeng kan utformes slik at den kan kvalifisere for direkte opptak til doktorgradsutdanning.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-8-integrert-mastergrad">§ 2-8. Integrert mastergrad</h5>
 <p>Integrert mastergrad har normert studietid fem år, 300 studiepoeng.</p>
 <p>En integrert mastergrad er et helhetlig og sammenhengende studieprogram som omfatter både bachelor- og mastergradsnivå.</p>
 <p>En integrert mastergradsutdanning skal omfatte et selvstendig arbeid etter § 2-9 på minimum 20 studiepoeng. Utdanningen skal utformes slik at den kan kvalifisere for direkte opptak til doktorgradsutdanning.</p>
 <p>Integrert mastergrad i arkitektur ved Arkitektur- og designhøgskolen i Oslo har normert studietid fem og et halvt år, 330 studiepoeng.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-9-selvstendig-arbeid-i-mastergrader">§ 2-9. Selvstendig arbeid i mastergrader</h5>
 <p>Med selvstendig arbeid menes en masteroppgave eller tilsvarende større arbeid, blant annet kunstnerisk eller teknologisk produkt. Det selvstendige arbeidet skal vise forståelse, refleksjon og modning.</p>
 <p>Institusjonen fastsetter nærmere regler om det selvstendige arbeidet, blant annet om omfang, vurderingsform og om arbeidet skal utføres individuelt eller av flere studenter.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-10-srskilte-mastergrader">§ 2-10. Særskilte mastergrader</h5>
 <p>Særskilte mastergrader har normert studietid ett år, 60 studiepoeng, eller ett og et halvt år, 90 studiepoeng. Dette gjelder mastergrader opprettet ved kongelig resolusjon før 1. juli 2002, med hjemmel i lov 12. mai 1995 nr. 22 om universiteter og høgskoler eller lov 11. juli 1986 nr. 53 om private høyskoler :</p>
 <ul>
@@ -340,42 +805,42 @@ b. nautikk.</p>
 <li>Master of Technology Management, ved Norges teknisk-naturvitenskapelige universitet.</li>
 </ul>
 <p>Departementet kan i spesielle tilfeller godkjenne nye masterstudier av denne typen etter søknad.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-11-andre-hyere-grader">§ 2-11. Andre høyere grader</h5>
 <p>Master i rettsvitenskap kan tilbys etter denne forskriften § 2-6 eller § 2-8 .</p>
 <p>Candidata eller candidatus medicinae (cand.med.), candidata eller candidatus psychologiae (cand.psychol.) og candidata eller candidatus theologiae (cand.theol.) har normert studietid seks år, 360 studiepoeng.</p>
 <p>Candidata eller candidatus medicinae veterinariae (cand.med.vet.) har normert studietid fem og et halvt år eller seks år, begge 330 studiepoeng.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-12-doktorgrad">§ 2-12. Doktorgrad</h5>
 <p>Philosophiae doctor (ph.d.) har normert studietid tre år.</p>
 <p>Philosophiae doctor i kunstnerisk utviklingsarbeid (ph.d. i kunstnerisk utviklingsarbeid) har normert studietid tre år.</p>
 <p>Doctor philosophiae (dr. philos.) har ikke normert studietid.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-13-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">§ 2-13. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</h5>
 <p>Universiteter og høyskoler har rett til å gi de grader og yrkesutdanninger med tilhørende beskyttet tittel som er listet opp i vedlegg I.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-14-beskyttede-titler-for-grader-som-ikke-lenger-gis">§ 2-14. Beskyttede titler for grader som ikke lenger gis</h5>
 <p>Forbudet mot misbruk av gradstitler i universitets- og høyskoleloven § 3-10 første ledd andre setning gjelder for de gradstitlene som er listet opp i vedlegg II.</p>
 <p>Universiteter og høyskoler med rett til å gi mastergrad i teknologiske fag kan gi den beskyttede tittelen sivilingeniør (siv.ing.) som tilleggsbetegnelse på vitnemål.</p>
 <p>Universiteter og høyskoler med rett til å gi mastergrad i økonomiske og administrative fag kan gi den beskyttede tittelen siviløkonom (siv.øk.) som tilleggsbetegnelse på vitnemål.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h3 id="iii-faglig-godkjenning-av-utdanning-og-av-realkompetanse">III. Faglig godkjenning av utdanning og av realkompetanse</h3>
 <p>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-15-realkompetanse">§ 2-15. Realkompetanse</h5>
 <p>Realkompetanse etter universitets- og høyskoleloven § 9-2 er kunnskap, ferdigheter og generell kompetanse, tilegnet uavhengig av læringsarena. Realkompetanse kan oppnås gjennom formell, ikke-formell og uformell læring. Formell læring er den som skjer i utdanningssystemet, eventuelt for annet autorisasjons- eller sertifiseringsformål, ikke-formell læring er strukturert opplæring gjennom kurs og andre tilbud som ikke inngår i utdanningssystemet, mens uformell læring skjer gjennom livet på arenaer som ikke først og fremst er beregnet på strukturert læring.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-16-unntak-fra-tilknytningskravet">§ 2-16. Unntak fra tilknytningskravet</h5>
 <p>Universiteter og høyskoler kan fastsette unntak fra tilknytningskravet i universitets- og høyskoleloven § 11-12 andre ledd på 60 studiepoeng for</p>
 <p>a. masterprogram i helse- og sosialfag som bygger på rammeplanstyrte videreutdanninger innenfor samme fagområde, slik at rammeplanstyrte videreutdanninger på samme fagområde kan godkjennes fullt ut som del av graden.
 b. grader som gis i samarbeid med andre norske eller utenlandske institusjoner (fellesgrader), jf. loven § 3-8 andre ledd bokstav c og denne forskriften § 1-17 .</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-17-krav-ved-tildeling-av-flere-grader-pa-delvis-samme-grunnlag">§ 2-17. Krav ved tildeling av flere grader på delvis samme grunnlag</h5>
 <p>For å oppnå en ny grad på delvis samme grunnlag som tidligere oppnådd grad eller yrkesutdanning, må en student i tillegg til utdanningen eller kompetansen som tidligere har inngått i grunnlaget for en grad eller yrkesutdanning, og som er godkjent som del av den nye graden, avlegge minst 60 nye studiepoeng ved institusjonen som skal skrive ut vitnemålet.</p>
 <p>Den nye graden må ha en annen faglig fordypning enn tidligere grad. Institusjonen fastsetter kravene for å oppnå ny grad.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="2-18-srskilte-godkjenningsregler">§ 2-18. Særskilte godkjenningsregler</h5>
 <p>Utdanninger som tidligere har blitt godkjent med redusert uttelling etter universitets- og høyskoleloven § 9-1 tredje ledd , skal godkjennes i samsvar med tidligere vedtak.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-3-undervisnings-og-forskningsstillinger-rekrutteringsstillinger-og-innstegsstillinger">Kapittel 3. Undervisnings- og forskningsstillinger, rekrutteringsstillinger og innstegsstillinger</h2>
 <h3 id="i-generelle-bestemmelser_1">I. Generelle bestemmelser</h3>
 <h5 id="3-1-virkeomrade-for-dette-kapitlet">§ 3-1. Virkeområde for dette kapitlet <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
@@ -384,7 +849,7 @@ b. grader som gis i samarbeid med andre norske eller utenlandske institusjoner (
 b. ansettelse i stilling på innstegsvilkår, postdoktor, stipendiat, spesialistkandidat og vitenskapelig assistent etter universitets- og høyskoleloven § 7-6 første ledd bokstav e til i ,
 c. ansettelse i kombinert stipendiat- og spesialistkandidatstilling organisert som dobbeltkompetanseutdanning,
 d. ansettelse på grunnlag av vitenskapelig eller kunstnerisk kompetanse i undervisnings- og forskningsstillinger etter særregel om ekstraerverv etter universitets- og høyskoleloven § 7-7 .</p>
-<p><em>Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h3 id="ii-kvalifikasjonskrav-for-undervisnings-og-forskningsstillinger">II. Kvalifikasjonskrav for undervisnings- og forskningsstillinger</h3>
 <h5 id="3-2-universitets-og-hyskolelrer">§ 3-2. Universitets- og høyskolelærer</h5>
 <p>For å innfri kvalifikasjonskravene til universitets- og høyskolelærer kreves minst:</p>
@@ -485,7 +950,7 @@ b. ansatte i stillinger etter universitets- og høyskoleloven § 7-6 første led
 <p>Det skal utarbeides en karriereplan for postdoktoren, som spesifiserer den kompetansen som postdoktoren skal opparbeide seg. Institusjonen har ansvar for at karriereplanen følges opp og at postdoktoren har tilgang til karriereveiledning gjennom postdoktorløpet.</p>
 <p>Dersom postdoktoren ikke allerede har utdanningsfaglig kompetanse som innfrir kravene til en stilling som førsteamanuensis, skal institusjonen tilrettelegge for at postdoktoren opparbeider seg slik kompetanse i løpet av ansettelsesperioden.</p>
 <p>Dersom den ansatte ikke har ferdigheter i norsk, svensk eller dansk på nivå A2 ved ansettelse, skal institusjonen tilby gratis norskopplæring med mål om å oppnå norskferdigheter på minimum dette nivået. Ved institusjoner som er gitt et særlig ansvar for samisk etter universitets- og høyskoleloven § 2-3 andre ledd , kan det isteden tilbys samiskopplæring.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1021 .</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1021 .</p>
 <h5 id="3-19-stipendiat">§ 3-19. Stipendiat <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-3-19.html" title="Endringshistorikk for § 3-19" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>For å bli ansatt som stipendiat kreves opptak i et doktorgradsprogram, eller at det foreligger en forpliktende avtale om opptak.</p>
 <p>En stipendiatstilling skal føre til oppnådd doktorgrad og bidra til at den ansatte kvalifiserer seg for relevante karrierer ved høyere utdannings- og forskningsinstitusjoner og andre sektorer i arbeidslivet der forskningskompetanse kreves.</p>
@@ -493,7 +958,7 @@ b. ansatte i stillinger etter universitets- og høyskoleloven § 7-6 første led
 <p>Det skal utarbeides en karriereplan som spesifiserer den kompetansen som stipendiaten skal opparbeide seg. Institusjonen har ansvar for at karriereplanen følges opp og at stipendiaten har tilgang til karriereveiledning gjennom doktorgradsutdanningen.</p>
 <p>Dersom den ansatte ikke har ferdigheter i norsk, svensk eller dansk på nivå A2 ved ansettelse, skal institusjonen tilby gratis norskopplæring med mål om å oppnå norskferdigheter på minimum dette nivået. Ved institusjoner som er gitt et særlig ansvar for samisk etter universitets- og høyskoleloven § 2-3 andre ledd , kan det isteden tilbys samiskopplæring.</p>
 <p>Ved direkte overgang fra stilling som stipendiat til annen stilling, medregnes ikke tid brukt til eget doktorgradsarbeid i ansettelsestiden. Permisjoner eller forlengelse av åremålet etter § 3-17 medregnes ikke i ansettelsestiden. Tid som er brukt til annet karrierefremmende arbeid i løpet av åremålsperioden regnes sammen til en sammenhengende periode .</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1021 .</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1021 .</p>
 <h5 id="3-20-spesialistkandidat">§ 3-20. Spesialistkandidat</h5>
 <p>For å bli ansatt som spesialistkandidat kreves høyere grads eksamen på fagområdet og praksis i faget.</p>
 <p>En spesialistkandidatstilling skal føre til godkjenning som spesialist på det aktuelle fagområdet.</p>
@@ -514,7 +979,7 @@ b. ansatte i stillinger etter universitets- og høyskoleloven § 7-6 første led
 <p>Formålet med ansettelse i åremålsstilling på innstegsvilkår er å legge til rette for at universiteter og høyskoler kan rekruttere særlig talentfulle kandidater til undervisnings- og forskningsstillinger.</p>
 <p>En ansatt på innstegsvilkår skal opparbeide seg kompetanse som førsteamanuensis etter § 3-6 eller som professor etter § 3-7 .</p>
 <p>Dersom kvalifikasjonskravene og de øvrige vilkårene i arbeidsavtalen er innfridd ved utløpet av åremålsperioden, har den ansatte på innstegsvilkår rett til fast ansettelse.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="3-24-ansettelsesvilkar">§ 3-24. Ansettelsesvilkår</h5>
 <p>Stillinger på innstegsvilkår skal lyses ut i samsvar med universitets- og høyskoleloven § 7-2 første ledd .</p>
 <p>Ansettelse på innstegsvilkår etter loven § 7-6 første ledd bokstav e kan skje i stilling som:</p>
@@ -522,21 +987,21 @@ b. ansatte i stillinger etter universitets- og høyskoleloven § 7-6 første led
 b. førsteamanuensis, jf. forskriften § 3-6 .</p>
 <p>En person kan ansettes bare dersom det er under 5 år fra kandidaten disputerte for doktorgraden til utløpet av søknadsfristen for stillingen.</p>
 <p>Reglene om permisjon og forlengelse av åremålsperioden i § 3-17 første, tredje og fjerde ledd gjelder for innstegsstillinger.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="3-25-arbeidsavtalen">§ 3-25. Arbeidsavtalen</h5>
 <p>Arbeidsavtalen skal inneholde hvilken stilling den ansatte skal ha som mål å kvalifisere seg til, og alle krav som må oppfylles for at den ansatte skal få fast ansettelse.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="3-26-oppflging-og-veiledning">§ 3-26. Oppfølging og veiledning</h5>
 <p>Institusjonen skal gi den ansatte tilgang til forskningsressurser, faglig veiledning og bistand som er nødvendig for å kunne oppfylle kravene i arbeidsavtalen.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="3-27-midtveisvurdering">§ 3-27. Midtveisvurdering</h5>
 <p>Institusjonen skal gjennomføre en midtveisvurdering, hvor den ansatte skal få skriftlig veiledning om hva som eventuelt må forbedres i siste del av åremålsperioden for å oppfylle vilkårene i arbeidsavtalen.</p>
 <p>Midtveisvurderingen skal være fullført før den ansatte har vært i stillingen i fire år.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h5 id="3-28-sluttvurdering">§ 3-28. Sluttvurdering</h5>
 <p>Institusjonen skal innen utløpet av åremålsperioden gjennomføre en sluttvurdering av om vilkårene i arbeidsavtalen er oppfylt. Reglene i §§ 3-11 første ledd og 3-12 gjelder.</p>
 <p>Institusjonen kan etter søknad fra den ansatte gjennomføre en tidligere sluttvurdering. Dersom den ansatte etter denne ikke oppnår fast ansettelse etter § 3-23 tredje ledd, har den ansatte rett til ny sluttvurdering, jf. første ledd.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-4-egenbetaling">Kapittel 4. Egenbetaling</h2>
 <h3 id="i-generelle-bestemmelser_2">I. Generelle bestemmelser</h3>
 <h5 id="4-1-virkeomrade-for-dette-kapitlet">§ 4-1. Virkeområde for dette kapitlet</h5>
@@ -597,7 +1062,7 @@ b. innholdet i tilbudet er særlig utviklet for personer med arbeidserfaring.</p
 <p>Studenter har rett til å levere eksamensoppgaver, herunder selvstendig arbeid (bachelor- og masteroppgaver eller lignende) på norsk (nynorsk eller bokmål).</p>
 <p>Studenter ved de institusjoner som er gitt et særlig ansvar for samisk forskning og høyere utdanning, har rett til å levere eksamensoppgaver, herunder selvstendig arbeid på samisk.</p>
 <p>Institusjonene kan gjøre unntak dersom det er faglig begrunnet.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025), endret ved forskrift 12 des 2025 nr. 2609 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-6-politiattest">Kapittel 6. Politiattest</h2>
 <h4 id="6-1-informasjon-og-bekreftelse">§ 6-1. Informasjon og bekreftelse</h4>
 <p>Universiteter og høyskoler skal informere om kravet om politiattest i tilknytning til studier der dette er relevant etter universitets- og høyskoleloven § 12-2 . Informasjon om kravet skal stå i tilbudet om studieplass.</p>
@@ -662,7 +1127,7 @@ b. innholdet i tilbudet er særlig utviklet for personer med arbeidserfaring.</p
 <li>utdanninger ved Høgskolen for kriminalomsorg.</li>
 </ol>
 <p>Institusjonene skal også gjøre skikkethetsvurderinger i master- og videreutdanninger som fører til en spesialisering, og som bygger på én eller flere av utdanningene som er nevnt i første ledd.</p>
-<p><em>Endret ved forskrifter 12 des 2025 nr. 2609 (i kraft 1 jan 2026, endringene i nr. 39 og 40 gjelder for utdanninger som starter opp etter 1. august 2026), 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2025 nr. 2609 (i kraft 1 jan 2026, endringene i nr. 39 og 40 gjelder for utdanninger som starter opp etter 1. august 2026), 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</p>
 <h4 id="7-2-formalet-med-skikkethetsvurdering">§ 7-2. Formålet med skikkethetsvurdering</h4>
 <p>Formålet med skikkethetsvurdering er å avgjøre om en student utgjør en mulig fare for liv, fysisk og psykisk helse, rettigheter eller sikkerhet til de pasienter, brukere, barnehagebarn, elever, dyr, klienter, dyreeiere eller andre studenten vil komme i kontakt med under praksis eller under framtidig yrkesutøvelse.</p>
 <h4 id="7-3-vurderingskriterier">§ 7-3. Vurderingskriterier</h4>
@@ -725,7 +1190,7 @@ b. Tre medlemmer med tre numeriske varamedlemmer. Medlemmene skal ha erfaring fr
 c. To medlemmer med tre numeriske varamedlemmer som representerer studentene. Medlemmene skal oppnevnes i samsvar med forslag fra representative studentorganisasjoner.</p>
 <p>Medlemmene oppnevnes for inntil fire år, med unntak av studentrepresentantene som oppnevnes for inntil to år. Medlemmene kan gjenoppnevnes én gang. Personer som har vært varamedlemmer, kan oppnevnes i to perioder som fast medlem.</p>
 <p>Kravene i likestillings- og diskrimineringsloven § 28 første ledd skal oppfylles for studentrepresentantene og de øvrige medlemmene hver for seg.</p>
-<p><em>Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025, se endringsforskrift til endringen for overgangsregel).</em></p>
+<p class="note">Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025, se endringsforskrift til endringen for overgangsregel).</p>
 <h4 id="8-3-vedtaksfrhet-og-flertallskrav">§ 8-3. Vedtaksførhet og flertallskrav</h4>
 <p>Klagenemnda er vedtaksfør når minst fire medlemmer, inkludert lederen eller nestlederen og en studentrepresentant, deltar i behandlingen.</p>
 <p>Klagenemndas avgjørelser i følgende saker fattes med to tredels flertall:</p>
@@ -736,10 +1201,10 @@ d. Vedtak etter 12-5 om bortvisning (etter andre ledd) og utestenging
 e. Vedtak etter §§ 12-6 og 12-7 om utestenging og tap av retten til å gå opp til eksamen.</p>
 <p>Klagenemndas avgjørelser i øvrige saker fattes med alminnelig flertall.</p>
 <p>Ved stemmelikhet har nemndas leder dobbeltstemme. Dersom nemndas leder ikke er til stede, har nestleder dobbeltstemme.</p>
-<p><em>Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h4 id="8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Klagenemnda kan delegere til nemndas leder å fatte vedtak i enkle saker. Beslutningen om delegering må være enstemmig.</p>
-<p><em>Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-9-universiteter-og-hyskolers-behandling-av-personopplysninger">Kapittel 9. Universiteter og høyskolers behandling av personopplysninger</h2>
 <h4 id="9-1-innhenting-av-personopplysninger-og-automatisert-saksbehandling">§ 9-1. Innhenting av personopplysninger og automatisert saksbehandling</h4>
 <p>Universiteter og høyskoler kan innhente opplysninger om navn, fødselsnummer eller d-nummer, arbeidserfaring og vitnemål og annen dokumentasjon på oppnådd kompetanse fra andre offentlige myndigheter, fra offentlige systemer for vitnemål og fra statlige, fylkeskommunale og private utdanningsinstitusjoner, når det er nødvendig for å utføre oppgaver etter universitets- og høyskoleloven .</p>
@@ -821,7 +1286,7 @@ b. I saker som gjelder uskikkethet etter loven § 12-3 :
   - 40 ganger offentlig salærsats for domstolen.</p>
 <p>I særlig tidkrevende saker kan institusjonen dekke utgifter til advokat med inntil 5 ganger offentlig salærsats utover satsene i første ledd.</p>
 <p>Ved advokatskifte har studentene rett på én gang offentlig salærsats i tillegg til satsene i første ledd.</p>
-<p><em>Tilføyd ved forskrift 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</p>
 <h2 id="kapittel-13-ikrafttredelse-overgangsregler-og-endringer-i-andre-forskrifter">Kapittel 13. Ikrafttredelse, overgangsregler og endringer i andre forskrifter</h2>
 <h4 id="13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. august 2024.</p>
@@ -856,10 +1321,10 @@ b. I saker som gjelder uskikkethet etter loven § 12-3 :
 <p>Søknader om institusjonsakkreditering som NOKUT har mottatt før 1. januar 2025, men som behandles etter 1. januar 2025, skal behandles etter reglene i denne forskriften.</p>
 <p>Institusjoner som er akkreditert som høyskole, vitenskapelig høyskole etter de regler som gjaldt frem til 1. januar 2025, skal oppfylle kravene i kapittel 1 som henholdsvis høyskole, vitenskapelig høyskole eller universitet innen 31. desember 2026.</p>
 <p>Tilsyn med akkreditering som NOKUT har påbegynt før 1. januar 2025, behandles etter tidligere regler med mindre det er til fordel for institusjonen å legge nye regler til grunn.</p>
-<p><em>Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 9 des 2024 nr. 3006 (i kraft 1 jan 2025).</p>
 <h4 id="13-7-overgangsregler-for-kapittel-12-forskjellige-regler">§ 13-7. Overgangsregler for kapittel 12 Forskjellige regler <a class="para-history" href="../historikk/forskrift-2024-06-28-1392/para-13-7.html" title="Endringshistorikk for § 13-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Begrensningene i § 12-3 i studenters rett til å få dekket utgifter til advokat etter universitets- og høyskoleloven § 12-9 gjelder for saker som blir besluttet fremmet ved institusjonen etter 1. september 2026.</p>
-<p><em>Tilføyd ved forskrift 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2026 nr. 1251 (i kraft 1 aug 2026).</p>
 <h2 id="vedlegg-i-institusjonenes-rett-til-a-gi-grader-og-yrkesutdanninger-med-beskyttet-tittel">Vedlegg I. Institusjonenes rett til å gi grader og yrkesutdanninger med beskyttet tittel</h2>
 <p>Vedlegg I tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <p>Universiteter og høyskoler har rett til å gi følgende grader og yrkesutdanninger med tilhørende beskyttet tittel, jf. § 2-13:</p>
@@ -987,6 +1452,8 @@ b. I saker som gjelder uskikkethet etter loven § 12-3 :
 <h2 id="vedlegg-ii">Vedlegg II</h2>
 <p>Vedlegg I tilføyd ved forskrift 4 juli 2025 nr. 1452 (i kraft 1 aug 2025).</p>
 <p>Forbudet mot misbruk av gradstitler, jf. forskriften § 2-14 , gjelder følgende gradstitler: candidata/candidatus magisterii (cand.mag.) candidata/candidatus agriculturae (cand.agric.) candidata/candidatus educationis (cand.ed.) candidata/candidatus juris (cand.jur.) candidata/candidatus mercatoria/mercatorius (cand.merc.) candidata/candidatus musicae (cand.musicae) candidata/candidatus odontologiae (cand.odont.) candidata/candidatus oeconomiae (cand.oecon.) candidata/candidatus paedagogiae (cand.paed.) candidata/candidatus paedagogiae specialis (cand.paed.spec.) candidata/candidatus pharmaciae (cand.pharm.) candidata/candidatus philologiae (cand.philol.) candidata/candidatus rerum politicarum (cand.polit.) candidata/candidatus sanitatis (cand.san.) candidata/candidatus scientiarum (cand.scient.) candidata/candidatus sociologiae (cand.sociol.) candidata/candidatus socionomiae (cand.socion.) designkandidat ernæringsfysiolog examinata/examinatus oeconomiae (exam.oecon.) fiskerikandidat kandidat i arbeidshelse kandidat i folkehelsevitenskap kandidat i helseadministrasjon kandidat i musikk kandidat i sykepleievitenskap hovedfagskandidat høgskoleingeniør høgskolekandidat (tre- og fireårig) høyere avdelings eksamen i økonomisk-administrative fag ved Norges handelshøyskole idrettskandidat kommunalkandidat kunstfagkandidat magister artium (mag.art.) maritim kandidat sivilarkitekt sivilbibliotekar sivilindustridesigner sivilingeniør (siv.ing.) sivilmarkedsfører siviløkonom (siv.øk.) licentiata/licentiatus juris (lic.jur.) licentiata/licentiatus odontologiae (lic.odont.) licentiata/licentiatus philosophiae (lic.philol.) doctor agriculturae (dr.agric.) doctor artium (dr.art.) doctor ingeniør (dr.ing.) doctor juris (dr.juris) doctor legis (dr.legis) doctor medicinae (dr.med.) doctor medicinae veterinariae (dr.med.vet.) doctor odontologiae (dr.odont.) doctor oeconomiae (dr.oecon.) doctor psychologiae (dr.psychol.) doctor rerum politicarum (dr.polit.) doctor scientiarum (dr.scient.) doctor technicae (dr.techn.) doctor theologiae (dr.theol.).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

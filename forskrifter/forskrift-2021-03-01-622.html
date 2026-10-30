@@ -19,64 +19,131 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-03-01-622.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om menerstatning ved pasientskader" href="../feeds/forskrift-2021-03-01-622.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om menerstatning ved pasientskader</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2021-03-01-622</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-03-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-09-25-1922</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2021-03-01-622" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-vilkar-for-menerstatning-ved-pasientskader">§ 3. Vilkår for menerstatning ved pasientskader</a></li>
+<li class="lvl4"><a href="#4-fastsetting-av-medisinsk-invaliditet">§ 4. Fastsetting av medisinsk invaliditet</a></li>
+<li class="lvl4"><a href="#5-utmaling-av-menerstatning">§ 5. Utmåling av menerstatning</a></li>
+<li class="lvl4"><a href="#6-utmaling-av-menerstatning-i-srlige-tilfeller">§ 6. Utmåling av menerstatning i særlige tilfeller</a></li>
+<li class="lvl4"><a href="#7-ddsfall">§ 7. Dødsfall</a></li>
+<li class="lvl4"><a href="#8-ikrafttredelse">§ 8. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#del-ii-invaliditetstabell">Del II. Invaliditetstabell</a></li>
+<li class="lvl2"><a href="#del-iii-invaliditetstabell-ved-flerfingerskader-multiple-fingerskader">Del III. Invaliditetstabell ved flerfingerskader (multiple fingerskader)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-09-25-1922.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-03-01-622.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om menerstatning ved pasientskader</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-03-01-622.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2021-03-01-622 <code>forskrift/2021-03-01-622</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.03.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-09-25-1922 <code>forskrift/2025-09-25-1922</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2021-03-01-622" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-vilkar-for-menerstatning-ved-pasientskader">§ 3. Vilkår for menerstatning ved pasientskader</a></li>
+<li class="lvl4"><a href="#4-fastsetting-av-medisinsk-invaliditet">§ 4. Fastsetting av medisinsk invaliditet</a></li>
+<li class="lvl4"><a href="#5-utmaling-av-menerstatning">§ 5. Utmåling av menerstatning</a></li>
+<li class="lvl4"><a href="#6-utmaling-av-menerstatning-i-srlige-tilfeller">§ 6. Utmåling av menerstatning i særlige tilfeller</a></li>
+<li class="lvl4"><a href="#7-ddsfall">§ 7. Dødsfall</a></li>
+<li class="lvl4"><a href="#8-ikrafttredelse">§ 8. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#del-ii-invaliditetstabell">Del II. Invaliditetstabell</a></li>
+<li class="lvl2"><a href="#del-iii-invaliditetstabell-ved-flerfingerskader-multiple-fingerskader">Del III. Invaliditetstabell ved flerfingerskader (multiple fingerskader)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-03-01-622.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-03-01-622.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-03-01-622.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2021-03-01-622.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2021-03-01-622.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-2021-03-01-622.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2021-03-01-622.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-03-01-622.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-menerstatning-ved-pasientskader">Forskrift om menerstatning ved pasientskader</h1>
 <h2 id="del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder ved utmåling av menerstatning etter pasientskadeloven .</p>
@@ -123,6 +190,8 @@ c. oppgjørstidspunktet: tidspunktet da Norsk pasientskadeerstatning (NPE) eller
 <p>Amputasjoner på tre fingre Nr. Type skade Invaliditet i prosent 44 1 + 2 + 3 35 ym 33 y 31 45 1 + 2ym + 3 33 ym 30 y 28 46 1 + 2y + 3 32 ym 28 y 25 47 1y + 2 + 3 24 ym 21 y 20 48 1y + 2ym + 3 24 ym 20 y 19 49 1y + 2y + 3 21 ym 18 y 16 50 1 + 2 + 4 34 ym 31 y 30 51 1 + 2ym + 4 33 ym 28 y 26 52 1 + 2y + 4 29 ym 26 y 26 53 1y + 2 + 4 24 ym 20 y 19 54 1y + 2ym + 4 21 ym 18 y 17 55 1y + 2y + 4 18 ym 15 y 14 56 1 + 2 + 5 33 ym 31 y 30 57 1 + 2ym + 5 31 ym 29 y 28 58 1 + 2y + 5 28 ym 27 y 27 59 1y + 2 + 5 23 ym 21 y 20 60 1y + 2ym + 5 20 ym 18 y 17 61 1y + 2y + 5 16 ym 15 y 14 62 1 + 3 + 4 33 ym 31 y 29 63 1 + 3ym + 4 33 ym 30 y 28 64 1 + 3y + 4 31 ym 28 y 25 65 1y + 3 + 4 23 ym 21 y 20 66 1y + 3ym + 4 21 ym 19 y 16 67 1y + 3y + 4 19 ym 15 y 14 68 1 + 3 + 5 33 ym 31 y 29 69 1 + 3ym + 5 32 ym 30 y 28 70 1 + 3y + 5 30 ym 28 y 26 71 1y + 3 + 5 24 ym 22 y 20 72 1y + 3ym + 5 20 ym 19 y 17 73 1y + 3y + 5 18 ym 16 y 15 74 1 + 4 + 5 30 ym 29 y 28 75 1 + 4ym + 5 28 ym 27 y 25 76 1 + 4y + 5 27 ym 25 y 24 77 1y + 4 + 5 22 ym 20 y 19 78 1y + 4ym + 5 20 ym 18 y 16 79 1y + 4y + 5 17 ym 15 y 14 80 2 + 3 + 4 26 ym 24 y 20 81 2 + 3ym + 4 23 ym 19 y 15 82 2 + 3y + 4 18 ym 15 y 13 83 2ym + 3 + 4 21 ym 19 y 16 84 2ym + 3ym + 4 18 ym 15 y 13 85 2ym + 3y + 4 15 ym 13 y 11 86 2y + 3 + 4 17 ym 15 y 14 87 2y + 3ym + 4 15 ym 12 y 11 88 2y + 3y + 4 13 ym 11 y 10 89 2 + 3 + 5 24 ym 23 y 20 90 2 + 3ym + 5 20 ym 17 y 15 91 2 + 3y + 5 18 ym 16 y 14 92 2ym + 3 + 5 21 ym 19 y 16 93 2ym + 3ym + 5 18 ym 15 y 14 94 2ym + 3y + 5 15 ym 14 y 12 95 2y + 3 + 5 17 ym 15 y 14 96 2y + 3ym + 5 15 ym 13 y 12 97 2y + 3y + 5 13 ym 11 y 10 98 2 + 4 + 5 24 ym 22 y 20 99 2 + 4ym + 5 22 ym 20 y 18 100 2 + 4y + 5 20 ym 18 y 15 101 2ym + 4 + 5 21 ym 19 y 16 102 2ym + 4ym + 5 18 ym 15 y 13 103 2ym + 4y + 5 15 ym 12 y 11 104 2y + 4 + 5 17 ym 14 y 12 105 2y + 4ym + 5 14 ym 11 y 10 106 2y + 4y + 5 11 ym 10 y 8 107 3 + 4 + 5 23 ym 21 y 19 108 3 + 4ym + 5 21 ym 20 y 18 109 3 + 4y + 5 18 ym 16 y 14 110 3ym + 4 + 5 21 ym 19 y 17 111 3ym + 4ym + 5 19 ym 16 y 14 112 3ym + 4y + 5 16 ym 15 y 12 113 3y + 4 + 5 18 ym 16 y 14 114 3y + 4ym + 5 16 ym 14 y 12 115 3y + 4y + 5 12 ym 10 y 8</p>
 <p>Amputasjoner på fire fingre Nr. Type skade Invaliditet i prosent 116 1 + 2 + 3 + 4 40 ym 39 y 37 117 1 + 2 + 3ym + 4 40 ym 39 y 37 118 1 + 2 + 3y + 4 38 ym 37 y 35 119 1 + 2ym + 3 + 4 40 ym 38 y 37 120 1 + 2ym + 3ym + 4 38 ym 37 y 35 121 1 + 2ym + 3y + 4 37 ym 35 y 33 122 1 + 2y + 3 + 4 37 ym 36 y 34 123 1 + 2y + 3ym + 4 36 ym 34 y 32 124 1 + 2y + 3y + 4 34 ym 33 y 31 125 1y + 2 + 3 + 4 35 ym 33 y 29 126 1y + 2 + 3ym + 4 32 ym 28 y 23 127 1y + 2 + 3y + 4 27 ym 23 y 22 128 1y + 2ym + 3 + 4 30 ym 28 y 25 129 1y + 2ym + 3ym + 4 27 ym 24 y 23 130 1y + 2ym + 3y + 4 24 ym 22 y 20 131 1y + 2y + 3 + 4 26 ym 24 y 23 132 1y + 2y + 3ym + 4 24 ym 22 y 21 133 1y + 2y + 3y + 4 24 ym 21 y 20 134 1 + 2 + 3 + 5 40 ym 39 y 38 135 1 + 2 + 3ym + 5 39 ym 38 y 37 136 1 + 2 + 3y + 5 38 ym 37 y 35 137 1 + 2ym + 3 + 5 40 ym 39 y 38 138 1 + 2ym + 3ym + 5 38 ym 37 y 36 139 1 + 2ym + 3y + 5 37 ym 35 y 33 140 1 + 2y + 3 + 5 37 ym 36 y 33 141 1 + 2y + 3ym + 5 36 ym 35 y 33 142 1 + 2y + 3y + 5 34 ym 33 y 31 143 1y + 2 + 3 + 5 33 ym 32 y 30 144 1y + 2 + 3ym + 5 30 ym 29 y 26 145 1y + 2 + 3y + 5 25 ym 23 y 22 146 1y + 2ym + 3 + 5 30 ym 29 y 27 147 1y + 2ym + 3ym + 5 27 ym 26 y 23 148 1y + 2ym + 3y + 5 24 ym 23 y 22 149 1y + 2y + 3 + 5 28 ym 27 y 20 150 1y + 2y + 3ym + 5 23 ym 21 y 20 151 1y + 2y + 3y + 5 22 ym 20 y 19 152 1 + 2 + 4 + 5 40 ym 39 y 38 153 1 + 2 + 4ym + 5 39 ym 38 y 37 154 1 + 2 + 4y + 5 38 ym 37 y 35 155 1 + 2ym + 4 + 5 39 ym 38 y 37 156 1 + 2ym + 4ym + 5 37 ym 36 y 35 157 1 + 2ym + 4y + 5 35 ym 34 y 32 158 1 + 2y + 4 + 5 37 ym 36 y 34 159 1 + 2y + 4ym + 5 36 ym 35 y 33 160 1 + 2y + 4y + 5 34 ym 33 y 31 161 1y + 2 + 4 + 5 33 ym 33 y 31 162 1y + 2 + 4ym + 5 29 ym 28 y 25 163 1y + 2 + 4y + 5 26 ym 25 y 23 164 1y + 2ym + 4 + 5 29 ym 28 y 26 165 1y + 2ym + 4ym + 5 27 ym 26 y 23 166 1y + 2ym + 4y + 5 25 ym 24 y 22 167 1y + 2y + 4 + 5 25 ym 24 y 23 168 1y + 2y + 4ym + 5 23 ym 21 y 20 169 1y + 2y + 4y + 5 22 ym 20 y 19 170 1 + 3 + 4 + 5 40 ym 39 y 38 171 1 + 3 + 4ym + 5 39 ym 38 y 37 172 1 + 3 + 4y + 5 38 ym 37 y 37 173 1 + 3ym + 4 + 5 39 ym 38 y 37 174 1 + 3ym + 4ym + 5 37 ym 36 y 35 175 1 + 3ym + 4y + 5 35 ym 34 y 32 176 1 + 3y + 4 + 5 37 ym 36 y 34 177 1 + 3y + 4ym + 5 36 ym 35 y 33 178 1 + 3y + 4y + 5 34 ym 33 y 31 179 1y + 3 + 4 + 5 32 ym 31 y 29 180 1y + 3 + 4ym + 5 31 ym 29 y 28 181 1y + 3 + 4y + 5 26 ym 25 y 23 182 1y + 3ym + 4 + 5 29 ym 28 y 26 183 1y + 3ym + 4ym + 5 27 ym 26 y 23 184 1y + 3ym + 4y + 5 25 ym 24 y 22 185 1y + 3y + 4 + 5 24 ym 23 y 22 186 1y + 3y + 4ym + 5 24 ym 23 y 21 187 1y + 3y + 4y + 5 22 ym 20 y 19 188 2 + 3 + 4 + 5 35 ym 32 y 30 189 2 + 3 + 4ym + 5 32 ym 30 y 28 190 2 + 3 + 4y + 5 29 ym 28 y 24 191 2 + 3ym + 4 + 5 32 ym 30 y 28 192 2 + 3ym + 4ym + 5 29 ym 28 y 26 193 2 + 3ym + 4y + 5 26 ym 23 y 21 194 2 + 3y + 4 + 5 29 ym 28 y 25 195 2 + 3y + 4ym + 5 26 ym 23 y 21 196 2 + 3y + 4y + 5 24 ym 21 y 20 197 2ym + 3 + 4 + 5 31 ym 28 y 25 198 2ym + 3 + 4ym + 5 29 ym 27 y 24 199 2ym + 3 + 4y + 5 25 ym 24 y 21 200 2ym + 3ym + 4 + 5 29 ym 27 y 24 201 2ym + 3ym + 4ym + 5 27 ym 24 y 22 202 2ym + 3ym + 4y + 5 22 ym 21 y 18 203 2ym + 3y + 4 + 5 25 ym 24 y 22 204 2ym + 3y + 4ym + 5 24 ym 22 y 20 205 2ym + 3y + 4y + 5 20 ym 19 y 16 206 2y + 3 + 4 + 5 25 ym 24 y 22 207 2y + 3 + 4y + 5 24 ym 23 y 22 208 2y + 3 + 4y + 5 23 ym 22 y 20 209 2y + 3ym + 4 + 5 24 ym 23 y 22 210 2y + 3ym + 4ym + 5 22 ym 20 y 19 211 2y + 3ym + 4y + 5 20 ym 19 y 16 212 2y + 3y + 4 + 5 19 ym 18 y 16 213 2y + 3y + 4ym + 5 17 ym 15 y 14 214 2y + 3y + 4y + 5 15 ym 14 y 12</p>
 <p>Amputasjoner på fem fingre Nr. Type skade Invaliditet i prosent 215 1 + 2 + 3 + 4 + 5 40 ym 40 y 38 216 1 + 2 + 3 + 4ym + 5 40 ym 39 y 38 217 1 + 2 + 3 + 4y + 5 38 ym 38 y 38 218 1 + 2 + 3ym + 4 + 5 40 ym 39 y 38 219 1 + 2 + 3ym + 4ym + 5 39 ym 38 y 38 220 1 + 2 + 3ym + 4y + 5 38 ym 38 y 37 221 1 + 2 + 3y + 4 + 5 38 ym 38 y 37 222 1 + 2 + 3y + 4ym + 5 38 ym 37 y 36 223 1 + 2 + 3y + 4y + 5 37 ym 37 y 34 224 1 + 2ym + 3 + 4 + 5 40 ym 40 y 38 225 1 + 2ym + 3 + 4ym + 5 38 ym 38 y 36 226 1 + 2ym + 3 + 4y + 5 38 ym 37 y 35 227 1 + 2ym + 3ym + 4 + 5 38 ym 37 y 36 228 1 + 2ym + 3ym + 4ym + 5 38 ym 37 y 36 229 1 + 2ym + 3ym + 4y + 5 36 ym 35 y 34 230 1 + 2ym + 3y + 4 + 5 38 ym 37 y 35 231 1 + 2ym + 3y + 4ym + 5 37 ym 35 y 34 232 1 + 2ym + 3y + 4y + 5 35 ym 34 y 33 233 1 + 2y + 3 + 4 + 5 38 ym 38 y 37 234 1 + 2y + 3 + 4ym + 5 38 ym 37 y 36 235 1 + 2y + 3 + 4y + 5 37 ym 36 y 34 236 1 + 2y + 3ym + 4 + 5 38 ym 38 y 36 237 1 + 2y + 3ym + 4ym + 5 37 ym 36 y 34 238 1 + 2y + 3ym + 4y + 5 35 ym 34 y 32 239 1 + 2y + 3y + 4 + 5 35 ym 34 y 33 240 1 + 2y + 3y + 4ym + 5 34 ym 33 y 31 241 1 + 2y + 3y + 4y + 5 32 ym 31 y 30 242 1y + 2 + 3 + 4 + 5 36 ym 36 y 35 243 1y + 2 + 3 + 4ym + 5 36 ym 35 y 34 244 1y + 2 + 3 + 4y + 5 33 ym 33 y 32 245 1y + 2 + 3ym + 4 + 5 36 ym 35 y 34 246 1y + 2 + 3ym + 4ym + 5 34 ym 32 y 32 247 1y + 2 + 3ym + 4y + 5 33 ym 32 y 31 248 1y + 2 + 3y + 4 + 5 33 ym 33 y 32 249 1y + 2 + 3y + 4ym + 5 33 ym 32 y 31 250 1y + 2 + 3y + 4y + 5 29 ym 29 y 26 251 1y + 2ym + 3 + 4 + 5 35 ym 35 y 33 252 1y + 2ym + 3 + 4ym + 5 35 ym 34 y 33 253 1y + 2ym + 3 + 4y + 5 33 ym 32 y 31 254 1y + 2ym + 3ym + 4 + 5 34 ym 34 y 32 255 1y + ym + 3ym + 4ym + 5 32 ym 31 y 30 256 1y + 2ym + 3ym + 4y + 5 30 ym 29 y 28 257 1y + 2ym + 3y + 4 + 5 33 ym 32 y 31 258 1y + 2ym + 3y + 4ym + 5 31 ym 29 y 28 259 1y + 2ym + 3y + 4y + 5 28 ym 27 y 26 260 1y + 2y + 3 + 4 + 5 31 ym 30 y 29 261 1y + 2y + 3 + 4ym + 5 30 ym 29 y 28 262 1y + 2y + 3 + 4y + 5 29 ym 28 y 27 263 1y + 2y + 3ym + 4 + 5 31 ym 30 y 29 264 1y + 2y + 3ym + 4ym + 5 29 ym 29 y 26 265 1y + 2y + 3ym + 4y + 5 28 ym 26 y 25 266 1y + 2y + 3y + 4 + 5 26 ym 25 y 24 267 1y + 2y + 3y + 4ym + 5 25 ym 24 y 23 268 1y + 2y + 3y + 4y + 5 23 ym 22 y 21</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

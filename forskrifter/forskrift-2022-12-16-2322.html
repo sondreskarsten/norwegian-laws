@@ -19,64 +19,133 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-12-16-2322.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Økonomiforskrift til barnehageloven" href="../feeds/forskrift-2022-12-16-2322.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Økonomiforskrift til barnehageloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-12-16-2322</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-19-2825</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-12-16-2322" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-tilleggsvirksomhet">§ 3. Tilleggsvirksomhet</a></li>
+<li class="lvl3"><a href="#3a-unntak-fra-kravet-om-selvstendig-rettssubjekt">§ 3a. Unntak fra kravet om selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#4-krav-til-regnskap-og-bokfring-for-barnehager-som-er-palagt-a-vre-et-selvstendig-rettssubjekt">§ 4. Krav til regnskap og bokføring for barnehager som er pålagt å være et selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#5-krav-til-regnskap-og-bokfring-for-barnehager-som-er-unntatt-fra-kravet-om-a-vre-et-selvstendig-rettssubjekt">§ 5. Krav til regnskap og bokføring for barnehager som er unntatt fra kravet om å være et selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#6-avtaler-med-nrstaende">§ 6. Avtaler med nærstående</a></li>
+<li class="lvl3"><a href="#7-revisjon">§ 7. Revisjon</a></li>
+<li class="lvl3"><a href="#8-rapportering">§ 8. Rapportering</a></li>
+<li class="lvl3"><a href="#9-oppbevaring-av-dokumentasjon">§ 9. Oppbevaring av dokumentasjon</a></li>
+<li class="lvl3"><a href="#10-meldeplikt">§ 10. Meldeplikt</a></li>
+<li class="lvl3"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-19-2825.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-12-16-2322.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om regnskapsplikt mv. for private barnehager (økonomiforskrift til barnehageloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-12-16-2322.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-12-16-2322 <code>forskrift/2022-12-16-2322</code></td></tr>
+<tr><th>Korttittel</th><td>Økonomiforskrift til barnehageloven</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-19-2825 <code>forskrift/2025-12-19-2825</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-12-16-2322" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-tilleggsvirksomhet">§ 3. Tilleggsvirksomhet</a></li>
+<li class="lvl3"><a href="#3a-unntak-fra-kravet-om-selvstendig-rettssubjekt">§ 3a. Unntak fra kravet om selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#4-krav-til-regnskap-og-bokfring-for-barnehager-som-er-palagt-a-vre-et-selvstendig-rettssubjekt">§ 4. Krav til regnskap og bokføring for barnehager som er pålagt å være et selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#5-krav-til-regnskap-og-bokfring-for-barnehager-som-er-unntatt-fra-kravet-om-a-vre-et-selvstendig-rettssubjekt">§ 5. Krav til regnskap og bokføring for barnehager som er unntatt fra kravet om å være et selvstendig rettssubjekt</a></li>
+<li class="lvl3"><a href="#6-avtaler-med-nrstaende">§ 6. Avtaler med nærstående</a></li>
+<li class="lvl3"><a href="#7-revisjon">§ 7. Revisjon</a></li>
+<li class="lvl3"><a href="#8-rapportering">§ 8. Rapportering</a></li>
+<li class="lvl3"><a href="#9-oppbevaring-av-dokumentasjon">§ 9. Oppbevaring av dokumentasjon</a></li>
+<li class="lvl3"><a href="#10-meldeplikt">§ 10. Meldeplikt</a></li>
+<li class="lvl3"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-12-16-2322.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-12-16-2322.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-12-16-2322.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-12-16-2322.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-12-16-2322.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-12-16-2322.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-12-16-2322.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-12-16-2322.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-12-16-2322.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-regnskapsplikt-mv-for-private-barnehager-konomiforskrift-til-barnehageloven">Forskrift om regnskapsplikt mv. for private barnehager (økonomiforskrift til barnehageloven)</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med forskriften er å sørge for at offentlige tilskudd og foreldrebetaling kommer barna i barnehagen til gode.</p>
 <p>Formålet er også å gi innsyn i de private barnehagenes bruk av offentlig tilskudd og foreldrebetaling.</p>
@@ -88,32 +157,32 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. utleie av barnehagens driftsmidler utenfor barnehagens åpningstid eller utenfor barnehagens område
 c. kurs og veiledning.</p>
 <p>Når vilkårene i barnehageloven § 23a andre ledd er oppfylt, kan barnehagene til studentsamskipnadene, jf. studentsamskipnadsloven , drive studentvelferdstjenester etter forskrift om studentsamskipnader § 8 første ledd .</p>
-<p><em>Endret ved forskrift 16 des 2024 nr. 3179 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 16 des 2024 nr. 3179 (i kraft 1 jan 2025).</p>
 <h3 id="3a-unntak-fra-kravet-om-selvstendig-rettssubjekt">§ 3a. Unntak fra kravet om selvstendig rettssubjekt</h3>
 <p>Kravet i barnehageloven § 7a første ledd om at hver private barnehage skal være et selvstendig rettssubjekt gjelder ikke for</p>
 <p>a. barnehager som er en del av virksomheten til sokn i Den norske kirke
 b. barnehager som er en del av virksomheten til Den franske skolen i Oslo, Den tysk-norske skolen i Oslo, International School of Bergen, International School of Stavanger eller Oslo International School og barnehager som er en del av private grunnskoler godkjent etter opplæringslova 2023 § 22-1
 c. barnehager som sammen med en eller flere andre barnehager var organisert i samme stiftelse før kravet i barnehageloven § 7a første ledd ble vedtatt, og som ikke driver annen virksomhet enn barnehagevirksomhet eller tilleggsvirksomhet som er tillatt etter barnehageloven § 23a andre ledd og som ikke gjør utdelinger.</p>
-<p><em>Tilføyd ved forskrift 14 juni 2024 nr. 1006 , endret ved forskrift 1 juli 2025 nr. 1378 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 juni 2024 nr. 1006 , endret ved forskrift 1 juli 2025 nr. 1378 .</p>
 <h3 id="4-krav-til-regnskap-og-bokfring-for-barnehager-som-er-palagt-a-vre-et-selvstendig-rettssubjekt">§ 4. Krav til regnskap og bokføring for barnehager som er pålagt å være et selvstendig rettssubjekt</h3>
 <p>Barnehager som er pålagt å være et selvstendig rettssubjekt etter barnehageloven § 7a første ledd, skal følge bokføringsloven og utarbeide årsregnskap i samsvar med kravene i regnskapsloven .</p>
 <p>Tilleggsvirksomhet etter § 3 første ledd skal føres på en egen avdeling. Avdelingsregnskap skal oppgis i note til årsregnskapet. Transaksjoner som ikke kan føres direkte på barnehage- eller tilleggsvirksomhet, skal fordeles etter fordelingsnøkler anvendt i tråd med de underliggende aktivitetene som forårsaker inntektene eller kostnadene (årsaksprinsippet). Interne transaksjoner mellom avdelingene og hvordan felleskostnadene er fordelt skal oppgis i note til årsregnskapet. Fordelingsnøklene skal være tilfredsstillende dokumentert.</p>
 <p>Ved handel med nærstående, jf. barnehageloven § 22 , skal barnehagen i note til årsregnskapet spesifisere hvem barnehagen har handlet med, hvilke varer og tjenester som er kjøpt og totalbeløpene for de ulike varene og tjenestene. Barnehager som ikke har hatt handel med nærstående, jf. barnehageloven § 22 , skal oppgi dette.</p>
-<p><em>Endret ved forskrifter 16 des 2024 nr. 3179 (i kraft 1 jan 2025), 19 des 2025 nr. 2825 (i kraft 1 jan 2026). Endres ved forskrift 26 juni 2026 nr. 1394 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2024 nr. 3179 (i kraft 1 jan 2025), 19 des 2025 nr. 2825 (i kraft 1 jan 2026). Endres ved forskrift 26 juni 2026 nr. 1394 (i kraft 1 jan 2027).</p>
 <h3 id="5-krav-til-regnskap-og-bokfring-for-barnehager-som-er-unntatt-fra-kravet-om-a-vre-et-selvstendig-rettssubjekt">§ 5. Krav til regnskap og bokføring for barnehager som er unntatt fra kravet om å være et selvstendig rettssubjekt</h3>
 <p>Barnehager som er omfattet av et av unntakene i barnehageloven § 7a tredje ledd eller forskriften § 3a og som ikke utarbeider årsregnskap for barnehagene etter kravene i regnskapsloven , skal utarbeide et eget regnskap for hver barnehage som er godkjent etter barnehageloven . Regnskapet skal vise alle inntekter og kostnader som gjelder godkjent barnehagedrift og relevante balanseposter. Inntekter og kostnader skal periodiseres i samsvar med regnskapsloven § 4-1 .</p>
 <p>Barnehager som er omfattet av et av unntakene i barnehageloven § 7a tredje ledd eller forskriften § 3a og som ikke utarbeider årsregnskap for barnehagene etter kravene i regnskapsloven , skal følge bokføringsloven .</p>
 <p>Barnehager med andre barnehager eller annen virksomhet i samme rettssubjekt, skal i årsregnskapet dokumentere sammenhengen mellom regnskapene for de enkelte barnehagene og regnskapet for rettssubjektet.</p>
 <p>Transaksjoner som ikke kan føres direkte på barnehagevirksomhet eller annen virksomhet, skal fordeles etter fordelingsnøkler anvendt i tråd med de underliggende aktivitetene som forårsaker inntektene eller kostnadene (årsaksprinsippet). Fordelingsnøklene skal være tilfredsstillende dokumentert.</p>
 <p>Ved handel med nærstående, jf. barnehageloven § 22 , skal barnehagen ha dokumentasjon som viser hvem barnehagen har handlet med, hvilke varer og tjenester som er kjøpt og totalbeløpene for de ulike varene og tjenestene. Dersom barnehagen ikke har hatt handel med nærstående, jf. barnehageloven § 22 , skal dette framgå av dokumentasjonen.</p>
-<p><em>Endret ved forskrifter 16 des 2024 nr. 3179 (i kraft 1 jan 2025), 19 des 2025 nr. 2825 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2024 nr. 3179 (i kraft 1 jan 2025), 19 des 2025 nr. 2825 (i kraft 1 jan 2026).</p>
 <h3 id="6-avtaler-med-nrstaende">§ 6. Avtaler med nærstående</h3>
 <p>Barnehagen skal behandle avtaler med nærstående, jf. barnehageloven § 22 , i samsvar med aksjeloven § 3-8 første, andre, tredje og femte ledd dersom handelen med den nærstående samlet overstiger 50 000 kroner per år.</p>
 <p>Løpende avtaler skal oppdateres og godkjennes årlig av den som er ansvarlig for barnehagen etter barnehageloven § 7 .</p>
-<p><em>Endret ved forskrift 19 des 2025 nr. 2825 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 19 des 2025 nr. 2825 (i kraft 1 jan 2026).</p>
 <h3 id="7-revisjon">§ 7. Revisjon</h3>
 <p>Barnehagen skal få regnskapet revidert av en statsautorisert revisor. Rapporteringen etter denne forskriften § 8 skal attesteres av en statsautorisert revisor.</p>
-<p><em>Endret ved forskrift 16 des 2024 nr. 3179 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 16 des 2024 nr. 3179 (i kraft 1 jan 2025).</p>
 <h3 id="8-rapportering">§ 8. Rapportering</h3>
 <p>Barnehagen skal hvert år innen en frist fastsatt av departementet, gi regnskapsopplysninger om bruk av offentlige tilskudd og foreldrebetaling og opplysninger som underbygger barnehagens regnskap til departementet. Rapporteringen skal skje på standardisert skjema fastsatt av departementet.</p>
 <p>Barnehager som er pålagt å være et selvstendig rettssubjekt etter barnehageloven § 7a første ledd, skal rapportere årsregnskap og revisjonsberetning til departementet.</p>
@@ -126,6 +195,8 @@ b. fisjon, fusjon, varsel om tvangsavvikling, sletting, nyregistrering eller ove
 <p>Barnehagen skal melde fra på standardisert skjema fastsatt av Utdanningsdirektoratet før endringene finner sted.</p>
 <h3 id="11-ikrafttredelse">§ 11. Ikrafttredelse</h3>
 <p>Forskriften trer i kraft 1. januar 2023. Fra samme tidspunkt oppheves forskrift 30. november 2012 nr. 1108 om regnskapsplikt for godkjente ikke-kommunale barnehager (økonomiforskrift til barnehageloven) .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,373 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-06-12-1547.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om studium og eksamen ved Høgskulen på V" href="../feeds/forskrift-2025-06-12-1547.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om studium og eksamen ved Høgskulen på V</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2025-06-12-1547</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2025-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-08-10-1624</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2025-06-12-1547" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade-og-definisjonar">Kapittel 1. Verkeområde og definisjonar</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjonar">§ 1-2. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2-gradar-og-utdanningar">Kapittel 2. Gradar og utdanningar</a></li>
+<li class="lvl4"><a href="#2-1-gradar-og-utdanningar">§ 2-1. Gradar og utdanningar</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-graden-bachelor">§ 2-2. Krav til graden bachelor</a></li>
+<li class="lvl4"><a href="#2-3-krav-til-graden-master">§ 2-3. Krav til graden master</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-graden-philosophiae-doctor-phd">§ 2-4. Krav til graden philosophiae doctor (ph.d.)</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-fellesgradar">§ 2-5. Krav til fellesgradar</a></li>
+<li class="lvl4"><a href="#2-6-krav-om-tilknyting-til-hgskulen-ved-tildeling-av-grad-med-unntak-av-phd-grad">§ 2-6. Krav om tilknyting til høgskulen ved tildeling av grad med unntak av ph.d.-grad</a></li>
+<li class="lvl4"><a href="#2-7-krav-om-nye-studiepoeng-ved-tildeling-av-ny-grad-som-byggjer-pa-ein-fullfrt-grad">§ 2-7. Krav om nye studiepoeng ved tildeling av ny grad som byggjer på ein fullført grad</a></li>
+<li class="lvl4"><a href="#2-8-tillegg-for-namn-for-gradar">§ 2-8. Tillegg for namn for gradar</a></li>
+<li class="lvl4"><a href="#2-9-internt-fagleg-overlapp">§ 2-9. Internt fagleg overlapp</a></li>
+<li class="lvl4"><a href="#2-10-fagleg-godkjenning-av-utdanning">§ 2-10. Fagleg godkjenning av utdanning</a></li>
+<li class="lvl4"><a href="#2-11-fagleg-godkjenning-av-utanlandsk-utdanning-anna-utdanning-og-realkompetanse">§ 2-11. Fagleg godkjenning av utanlandsk utdanning, anna utdanning og realkompetanse</a></li>
+<li class="lvl4"><a href="#2-12-studiepoeng-ved-godkjenning-av-emne">§ 2-12. Studiepoeng ved godkjenning av emne</a></li>
+<li class="lvl2"><a href="#kapittel-3-etablering-endring-og-nedlegging-av-studieprogram-og-emne">Kapittel 3. Etablering, endring og nedlegging av studieprogram og emne</a></li>
+<li class="lvl4"><a href="#3-1-studiestruktur-og-studieplan">§ 3-1. Studiestruktur og studieplan</a></li>
+<li class="lvl4"><a href="#3-2-akkreditering-og-etablering-av-nye-studieprogram">§ 3-2. Akkreditering og etablering av nye studieprogram</a></li>
+<li class="lvl4"><a href="#3-3-endring-av-etablerte-studieprogram-og-studieplanar">§ 3-3. Endring av etablerte studieprogram og studieplanar</a></li>
+<li class="lvl4"><a href="#3-4-nedlegging-og-nullopptak">§ 3-4. Nedlegging og nullopptak</a></li>
+<li class="lvl2"><a href="#kapittel-4-studierett">Kapittel 4. Studierett</a></li>
+<li class="lvl4"><a href="#4-1-studierett">§ 4-1. Studierett</a></li>
+<li class="lvl4"><a href="#4-2-semesterregistrering">§ 4-2. Semesterregistrering</a></li>
+<li class="lvl4"><a href="#4-3-lengd-pa-studieretten">§ 4-3. Lengd på studieretten</a></li>
+<li class="lvl4"><a href="#4-4-poststudierett">§ 4-4. Poststudierett</a></li>
+<li class="lvl4"><a href="#4-5-semesteravgift-kopi-og-lremiddelavgift-og-vederlag-privatistar">§ 4-5. Semesteravgift, kopi- og læremiddelavgift og vederlag privatistar</a></li>
+<li class="lvl4"><a href="#4-6-utdanningsplan-og-studieprogresjon">§ 4-6. Utdanningsplan og studieprogresjon</a></li>
+<li class="lvl4"><a href="#4-7-studierett-pa-emne">§ 4-7. Studierett på emne</a></li>
+<li class="lvl4"><a href="#4-8-tap-av-studierett">§ 4-8. Tap av studierett</a></li>
+<li class="lvl2"><a href="#kapittel-5-permisjon">Kapittel 5. Permisjon</a></li>
+<li class="lvl4"><a href="#5-1-dokumentert-permisjon">§ 5-1. Dokumentert permisjon</a></li>
+<li class="lvl4"><a href="#5-2-permisjon-utan-dokumentert-grunn">§ 5-2. Permisjon utan dokumentert grunn</a></li>
+<li class="lvl4"><a href="#5-2a-vilkar-for-studentar-pa-oppdragsfinansierte-studium-finansiert-av-staten">§ 5-2a. Vilkår for studentar på oppdragsfinansierte studium finansiert av staten</a></li>
+<li class="lvl4"><a href="#5-2b-vilkar-for-betalingsstudium-og-studieavgift">§ 5-2b. Vilkår for betalingsstudium og studieavgift</a></li>
+<li class="lvl4"><a href="#5-3-nedre-grense-for-permisjon">§ 5-3. Nedre grense for permisjon</a></li>
+<li class="lvl4"><a href="#5-4-frist-for-a-ske-permisjon">§ 5-4. Frist for å søke permisjon</a></li>
+<li class="lvl4"><a href="#5-5-under-permisjonen">§ 5-5. Under permisjonen</a></li>
+<li class="lvl4"><a href="#5-6-etter-permisjonen">§ 5-6. Etter permisjonen</a></li>
+<li class="lvl2"><a href="#kapittel-6-privatist">Kapittel 6. Privatist</a></li>
+<li class="lvl4"><a href="#6-1-eksamensrett-for-privatistar">§ 6-1. Eksamensrett for privatistar</a></li>
+<li class="lvl4"><a href="#6-2-eksamensforsk-for-privatistar">§ 6-2. Eksamensforsøk for privatistar</a></li>
+<li class="lvl4"><a href="#6-3-undervisning-for-privatistar">§ 6-3. Undervisning for privatistar</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilrettelegging">Kapittel 7. Tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-tilrettelegging">§ 7-1. Rett til tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-2-val-av-tilretteleggingstiltak">§ 7-2. Val av tilretteleggingstiltak</a></li>
+<li class="lvl4"><a href="#7-3-tilrettelegging-av-undervisning-og-obligatoriske-lringsaktiviteter">§ 7-3. Tilrettelegging av undervisning og obligatoriske læringsaktiviteter</a></li>
+<li class="lvl4"><a href="#7-4-tilrettelegging-av-eksamen">§ 7-4. Tilrettelegging av eksamen</a></li>
+<li class="lvl4"><a href="#7-5-tilrettelegging-av-praksis">§ 7-5. Tilrettelegging av praksis</a></li>
+<li class="lvl4"><a href="#7-6-tilrettelegging-av-fysisk-lringsmilj">§ 7-6. Tilrettelegging av fysisk læringsmiljø</a></li>
+<li class="lvl4"><a href="#7-7-dokumentasjon">§ 7-7. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-8-undervisning">Kapittel 8. Undervisning</a></li>
+<li class="lvl4"><a href="#8-1-studiear-og-undervisingsterminar">§ 8-1. Studieår og undervisingsterminar</a></li>
+<li class="lvl4"><a href="#8-2-timeplanar">§ 8-2. Timeplanar</a></li>
+<li class="lvl4"><a href="#8-3-litteratur-og-pensumlister">§ 8-3. Litteratur- og pensumlister</a></li>
+<li class="lvl4"><a href="#8-4-obligatoriske-lringsaktivitetar">§ 8-4. Obligatoriske læringsaktivitetar</a></li>
+<li class="lvl4"><a href="#8-5-obligatorisk-deltaking-i-undervisning">§ 8-5. Obligatorisk deltaking i undervisning</a></li>
+<li class="lvl4"><a href="#8-6-undervisningssprak">§ 8-6. Undervisningsspråk</a></li>
+<li class="lvl4"><a href="#8-7-utstyr">§ 8-7. Utstyr</a></li>
+<li class="lvl4"><a href="#8-8-arbeidsomfang">§ 8-8. Arbeidsomfang</a></li>
+<li class="lvl4"><a href="#8-9-skikkavurdering">§ 8-9. Skikkavurdering</a></li>
+<li class="lvl2"><a href="#kapittel-9-vurdering">Kapittel 9. Vurdering</a></li>
+<li class="lvl4"><a href="#9-1-vurdering-og-eksamen">§ 9-1. Vurdering og eksamen</a></li>
+<li class="lvl4"><a href="#9-2-vurderingsformer">§ 9-2. Vurderingsformer</a></li>
+<li class="lvl4"><a href="#9-3-justerande-munnleg-eksamen">§ 9-3. Justerande munnleg eksamen</a></li>
+<li class="lvl2"><a href="#kapittel-10-praksis">Kapittel 10. Praksis</a></li>
+<li class="lvl4"><a href="#10-1-vilkar-for-a-ga-ut-i-praksis">§ 10-1. Vilkår for å gå ut i praksis</a></li>
+<li class="lvl4"><a href="#10-2-srlege-krav-til-studentar-i-praksis">§ 10-2. Særlege krav til studentar i praksis</a></li>
+<li class="lvl4"><a href="#10-3-politiattest">§ 10-3. Politiattest</a></li>
+<li class="lvl4"><a href="#10-4-politiattest-med-merknad">§ 10-4. Politiattest med merknad</a></li>
+<li class="lvl4"><a href="#10-5-vurdering-av-praksis">§ 10-5. Vurdering av praksis</a></li>
+<li class="lvl4"><a href="#10-6-oppmte-i-praksis">§ 10-6. Oppmøte i praksis</a></li>
+<li class="lvl4"><a href="#10-7-ved-tvil-om-studenten-bestar-praksis">§ 10-7. Ved tvil om studenten består praksis</a></li>
+<li class="lvl4"><a href="#10-8-ikkje-bestatt-praksis-utan-varsel-pa-frehand">§ 10-8. Ikkje bestått praksis utan varsel på førehand</a></li>
+<li class="lvl4"><a href="#10-9-farlege-handlingar-eller-atferd">§ 10-9. Farlege handlingar eller åtferd</a></li>
+<li class="lvl4"><a href="#10-10-konsekvensar-av-ikkje-bestatt-praksis-eller-gyldig-fravr">§ 10-10. Konsekvensar av ikkje bestått praksis eller gyldig fråvær</a></li>
+<li class="lvl4"><a href="#10-11-gyldig-fravr-fra-praksis">§ 10-11. Gyldig fråvær frå praksis</a></li>
+<li class="lvl4"><a href="#10-12-talet-pa-forsk-i-praksis">§ 10-12. Talet på forsøk i praksis</a></li>
+<li class="lvl4"><a href="#10-13-tvilsmelding-ved-lpande-skikkavurdering">§ 10-13. Tvilsmelding ved løpande skikkavurdering</a></li>
+<li class="lvl2"><a href="#kapittel-11-eksamen">Kapittel 11. Eksamen</a></li>
+<li class="lvl4"><a href="#11-1-eksamensstad">§ 11-1. Eksamensstad</a></li>
+<li class="lvl4"><a href="#11-2-tidspunkt-for-eksamen-eksamensplan">§ 11-2. Tidspunkt for eksamen. Eksamensplan</a></li>
+<li class="lvl4"><a href="#11-3-vilkar-for-a-ga-opp-til-eksamen">§ 11-3. Vilkår for å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#11-4-oppmelding-til-eksamen">§ 11-4. Oppmelding til eksamen</a></li>
+<li class="lvl4"><a href="#11-5-eksamensforsk">§ 11-5. Eksamensforsøk</a></li>
+<li class="lvl4"><a href="#11-6-teljande-eksamensforsk">§ 11-6. Teljande eksamensforsøk</a></li>
+<li class="lvl4"><a href="#11-7-trekk-fra-eksamen">§ 11-7. Trekk frå eksamen</a></li>
+<li class="lvl4"><a href="#11-8-gyldig-fravr-til-eksamen">§ 11-8. Gyldig fråvær til eksamen</a></li>
+<li class="lvl4"><a href="#11-9-ordinr-eksamen">§ 11-9. Ordinær eksamen</a></li>
+<li class="lvl4"><a href="#11-10-ny-eksamen-kontinuasjonseksamen">§ 11-10. Ny eksamen (kontinuasjonseksamen)</a></li>
+<li class="lvl4"><a href="#11-11-rett-til-utsett-eksamen-ved-fdsel">§ 11-11. Rett til utsett eksamen ved fødsel</a></li>
+<li class="lvl4"><a href="#11-12-eksamen-i-utgatt-emne">§ 11-12. Eksamen i utgått emne</a></li>
+<li class="lvl4"><a href="#11-13-vurderingsstart">§ 11-13. Vurderingsstart</a></li>
+<li class="lvl4"><a href="#11-14-skuleeksamen">§ 11-14. Skuleeksamen</a></li>
+<li class="lvl4"><a href="#11-15-munnleg-justerande-munnleg-og-praktisk-eksamen">§ 11-15. Munnleg, justerande munnleg og praktisk eksamen</a></li>
+<li class="lvl4"><a href="#11-16-heimeeksamen-mappevurdering-og-oppgaver">§ 11-16. Heimeeksamen, mappevurdering og oppgåver</a></li>
+<li class="lvl4"><a href="#11-17-gruppeeksamen">§ 11-17. Gruppeeksamen</a></li>
+<li class="lvl4"><a href="#11-18-bachelor-og-masteroppgave">§ 11-18. Bachelor- og masteroppgåve</a></li>
+<li class="lvl4"><a href="#11-19a-oppattaking-av-bachelor-og-masteroppgave">§ 11-19a. Oppattaking av bachelor- og masteroppgåve</a></li>
+<li class="lvl4"><a href="#11-19b-oppattaking-av-andre-oppgaver">§ 11-19b. Oppattaking av andre oppgåver</a></li>
+<li class="lvl4"><a href="#11-19c-oppattaking-av-praksisrelaterte-oppgaver-pa-under-10-studiepoeng">§ 11-19c. Oppattaking av praksisrelaterte oppgåver på under 10 studiepoeng</a></li>
+<li class="lvl4"><a href="#11-19d-oppattaking-av-mappevurdering">§ 11-19d. Oppattaking av mappevurdering</a></li>
+<li class="lvl4"><a href="#11-20-malform-og-sprak-i-oppgavetekstar">§ 11-20. Målform og språk i oppgåvetekstar</a></li>
+<li class="lvl4"><a href="#11-21-malform-og-sprak-i-eksamenssvar">§ 11-21. Målform og språk i eksamenssvar</a></li>
+<li class="lvl4"><a href="#11-22-anonymitet">§ 11-22. Anonymitet</a></li>
+<li class="lvl2"><a href="#kapittel-12-fusk">Kapittel 12. Fusk</a></li>
+<li class="lvl4"><a href="#12-1-fusk-og-forsk-pa-fusk">§ 12-1. Fusk og forsøk på fusk</a></li>
+<li class="lvl4"><a href="#12-2-mistanke-om-fusk">§ 12-2. Mistanke om fusk</a></li>
+<li class="lvl4"><a href="#12-3-konsekvensar-av-fusk">§ 12-3. Konsekvensar av fusk</a></li>
+<li class="lvl2"><a href="#kapittel-13-sensur-og-klage">Kapittel 13. Sensur og klage</a></li>
+<li class="lvl4"><a href="#13-1-sensur">§ 13-1. Sensur</a></li>
+<li class="lvl4"><a href="#13-2-sensurfrist">§ 13-2. Sensurfrist</a></li>
+<li class="lvl4"><a href="#13-3-oppnemning-av-sensorar">§ 13-3. Oppnemning av sensorar</a></li>
+<li class="lvl4"><a href="#13-4-kvalifikasjonskrav-for-sensorar">§ 13-4. Kvalifikasjonskrav for sensorar</a></li>
+<li class="lvl4"><a href="#13-5-ekstern-sensor">§ 13-5. Ekstern sensor</a></li>
+<li class="lvl4"><a href="#13-6-godkjenning-av-eksamensoppgava-og-sensorrettleiing">§ 13-6. Godkjenning av eksamensoppgåva og sensorrettleiing</a></li>
+<li class="lvl4"><a href="#13-7-gjennomfring-av-sensur">§ 13-7. Gjennomføring av sensur</a></li>
+<li class="lvl4"><a href="#13-8-vesentleg-karakteravvik-ved-klagesensur">§ 13-8. Vesentleg karakteravvik ved klagesensur</a></li>
+<li class="lvl4"><a href="#13-9-karakterskala-utrekning-av-endeleg-karakter">§ 13-9. Karakterskala. Utrekning av endeleg karakter</a></li>
+<li class="lvl4"><a href="#13-10-kunngjering-av-eksamensresultat">§ 13-10. Kunngjering av eksamensresultat</a></li>
+<li class="lvl4"><a href="#13-11-rett-pa-grunngjeving-av-karakter">§ 13-11. Rett på grunngjeving av karakter</a></li>
+<li class="lvl4"><a href="#13-12-klagefrist-pa-karakterfastsetjing-og-trekkfrist">§ 13-12. Klagefrist på karakterfastsetjing og trekkfrist</a></li>
+<li class="lvl4"><a href="#13-13-ny-vurdering-ved-klage-pa-karakterfastsetjing">§ 13-13. Ny vurdering ved klage på karakterfastsetjing</a></li>
+<li class="lvl4"><a href="#13-14-klage-pa-formelle-feil">§ 13-14. Klage på formelle feil</a></li>
+<li class="lvl2"><a href="#kapittel-14-vitnemal-og-karakterutskrift">Kapittel 14. Vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#14-1-grunnlag-for-vitnemal">§ 14-1. Grunnlag for vitnemål</a></li>
+<li class="lvl4"><a href="#14-2-utferding-av-vitnemal">§ 14-2. Utferding av vitnemål</a></li>
+<li class="lvl4"><a href="#14-3-karakterutskrift">§ 14-3. Karakterutskrift</a></li>
+<li class="lvl2"><a href="#kapittel-15-iverksetjing-og-overgangsordningar">Kapittel 15. Iverksetjing og overgangsordningar</a></li>
+<li class="lvl4"><a href="#15-1-iverksetjing">§ 15-1. Iverksetjing</a></li>
+<li class="lvl4"><a href="#15-2-overgangsordning-for-studie-og-emneplanar">§ 15-2. Overgangsordning for studie- og emneplanar</a></li>
+<li class="lvl4"><a href="#15-3-overgangsordning-for-sjlvvald-bachelorgrad">§ 15-3. Overgangsordning for sjølvvald bachelorgrad</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-08-10-1624.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-06-12-1547.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om studium og eksamen ved Høgskulen på Vestlandet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-06-12-1547.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2025-06-12-1547 <code>forskrift/2025-06-12-1547</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2025</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-08-10-1624 <code>forskrift/2026-08-10-1624</code> fra 10.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2025-06-12-1547" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade-og-definisjonar">Kapittel 1. Verkeområde og definisjonar</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjonar">§ 1-2. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2-gradar-og-utdanningar">Kapittel 2. Gradar og utdanningar</a></li>
+<li class="lvl4"><a href="#2-1-gradar-og-utdanningar">§ 2-1. Gradar og utdanningar</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-graden-bachelor">§ 2-2. Krav til graden bachelor</a></li>
+<li class="lvl4"><a href="#2-3-krav-til-graden-master">§ 2-3. Krav til graden master</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-graden-philosophiae-doctor-phd">§ 2-4. Krav til graden philosophiae doctor (ph.d.)</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-fellesgradar">§ 2-5. Krav til fellesgradar</a></li>
+<li class="lvl4"><a href="#2-6-krav-om-tilknyting-til-hgskulen-ved-tildeling-av-grad-med-unntak-av-phd-grad">§ 2-6. Krav om tilknyting til høgskulen ved tildeling av grad med unntak av ph.d.-grad</a></li>
+<li class="lvl4"><a href="#2-7-krav-om-nye-studiepoeng-ved-tildeling-av-ny-grad-som-byggjer-pa-ein-fullfrt-grad">§ 2-7. Krav om nye studiepoeng ved tildeling av ny grad som byggjer på ein fullført grad</a></li>
+<li class="lvl4"><a href="#2-8-tillegg-for-namn-for-gradar">§ 2-8. Tillegg for namn for gradar</a></li>
+<li class="lvl4"><a href="#2-9-internt-fagleg-overlapp">§ 2-9. Internt fagleg overlapp</a></li>
+<li class="lvl4"><a href="#2-10-fagleg-godkjenning-av-utdanning">§ 2-10. Fagleg godkjenning av utdanning</a></li>
+<li class="lvl4"><a href="#2-11-fagleg-godkjenning-av-utanlandsk-utdanning-anna-utdanning-og-realkompetanse">§ 2-11. Fagleg godkjenning av utanlandsk utdanning, anna utdanning og realkompetanse</a></li>
+<li class="lvl4"><a href="#2-12-studiepoeng-ved-godkjenning-av-emne">§ 2-12. Studiepoeng ved godkjenning av emne</a></li>
+<li class="lvl2"><a href="#kapittel-3-etablering-endring-og-nedlegging-av-studieprogram-og-emne">Kapittel 3. Etablering, endring og nedlegging av studieprogram og emne</a></li>
+<li class="lvl4"><a href="#3-1-studiestruktur-og-studieplan">§ 3-1. Studiestruktur og studieplan</a></li>
+<li class="lvl4"><a href="#3-2-akkreditering-og-etablering-av-nye-studieprogram">§ 3-2. Akkreditering og etablering av nye studieprogram</a></li>
+<li class="lvl4"><a href="#3-3-endring-av-etablerte-studieprogram-og-studieplanar">§ 3-3. Endring av etablerte studieprogram og studieplanar</a></li>
+<li class="lvl4"><a href="#3-4-nedlegging-og-nullopptak">§ 3-4. Nedlegging og nullopptak</a></li>
+<li class="lvl2"><a href="#kapittel-4-studierett">Kapittel 4. Studierett</a></li>
+<li class="lvl4"><a href="#4-1-studierett">§ 4-1. Studierett</a></li>
+<li class="lvl4"><a href="#4-2-semesterregistrering">§ 4-2. Semesterregistrering</a></li>
+<li class="lvl4"><a href="#4-3-lengd-pa-studieretten">§ 4-3. Lengd på studieretten</a></li>
+<li class="lvl4"><a href="#4-4-poststudierett">§ 4-4. Poststudierett</a></li>
+<li class="lvl4"><a href="#4-5-semesteravgift-kopi-og-lremiddelavgift-og-vederlag-privatistar">§ 4-5. Semesteravgift, kopi- og læremiddelavgift og vederlag privatistar</a></li>
+<li class="lvl4"><a href="#4-6-utdanningsplan-og-studieprogresjon">§ 4-6. Utdanningsplan og studieprogresjon</a></li>
+<li class="lvl4"><a href="#4-7-studierett-pa-emne">§ 4-7. Studierett på emne</a></li>
+<li class="lvl4"><a href="#4-8-tap-av-studierett">§ 4-8. Tap av studierett</a></li>
+<li class="lvl2"><a href="#kapittel-5-permisjon">Kapittel 5. Permisjon</a></li>
+<li class="lvl4"><a href="#5-1-dokumentert-permisjon">§ 5-1. Dokumentert permisjon</a></li>
+<li class="lvl4"><a href="#5-2-permisjon-utan-dokumentert-grunn">§ 5-2. Permisjon utan dokumentert grunn</a></li>
+<li class="lvl4"><a href="#5-2a-vilkar-for-studentar-pa-oppdragsfinansierte-studium-finansiert-av-staten">§ 5-2a. Vilkår for studentar på oppdragsfinansierte studium finansiert av staten</a></li>
+<li class="lvl4"><a href="#5-2b-vilkar-for-betalingsstudium-og-studieavgift">§ 5-2b. Vilkår for betalingsstudium og studieavgift</a></li>
+<li class="lvl4"><a href="#5-3-nedre-grense-for-permisjon">§ 5-3. Nedre grense for permisjon</a></li>
+<li class="lvl4"><a href="#5-4-frist-for-a-ske-permisjon">§ 5-4. Frist for å søke permisjon</a></li>
+<li class="lvl4"><a href="#5-5-under-permisjonen">§ 5-5. Under permisjonen</a></li>
+<li class="lvl4"><a href="#5-6-etter-permisjonen">§ 5-6. Etter permisjonen</a></li>
+<li class="lvl2"><a href="#kapittel-6-privatist">Kapittel 6. Privatist</a></li>
+<li class="lvl4"><a href="#6-1-eksamensrett-for-privatistar">§ 6-1. Eksamensrett for privatistar</a></li>
+<li class="lvl4"><a href="#6-2-eksamensforsk-for-privatistar">§ 6-2. Eksamensforsøk for privatistar</a></li>
+<li class="lvl4"><a href="#6-3-undervisning-for-privatistar">§ 6-3. Undervisning for privatistar</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilrettelegging">Kapittel 7. Tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-tilrettelegging">§ 7-1. Rett til tilrettelegging</a></li>
+<li class="lvl4"><a href="#7-2-val-av-tilretteleggingstiltak">§ 7-2. Val av tilretteleggingstiltak</a></li>
+<li class="lvl4"><a href="#7-3-tilrettelegging-av-undervisning-og-obligatoriske-lringsaktiviteter">§ 7-3. Tilrettelegging av undervisning og obligatoriske læringsaktiviteter</a></li>
+<li class="lvl4"><a href="#7-4-tilrettelegging-av-eksamen">§ 7-4. Tilrettelegging av eksamen</a></li>
+<li class="lvl4"><a href="#7-5-tilrettelegging-av-praksis">§ 7-5. Tilrettelegging av praksis</a></li>
+<li class="lvl4"><a href="#7-6-tilrettelegging-av-fysisk-lringsmilj">§ 7-6. Tilrettelegging av fysisk læringsmiljø</a></li>
+<li class="lvl4"><a href="#7-7-dokumentasjon">§ 7-7. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-8-undervisning">Kapittel 8. Undervisning</a></li>
+<li class="lvl4"><a href="#8-1-studiear-og-undervisingsterminar">§ 8-1. Studieår og undervisingsterminar</a></li>
+<li class="lvl4"><a href="#8-2-timeplanar">§ 8-2. Timeplanar</a></li>
+<li class="lvl4"><a href="#8-3-litteratur-og-pensumlister">§ 8-3. Litteratur- og pensumlister</a></li>
+<li class="lvl4"><a href="#8-4-obligatoriske-lringsaktivitetar">§ 8-4. Obligatoriske læringsaktivitetar</a></li>
+<li class="lvl4"><a href="#8-5-obligatorisk-deltaking-i-undervisning">§ 8-5. Obligatorisk deltaking i undervisning</a></li>
+<li class="lvl4"><a href="#8-6-undervisningssprak">§ 8-6. Undervisningsspråk</a></li>
+<li class="lvl4"><a href="#8-7-utstyr">§ 8-7. Utstyr</a></li>
+<li class="lvl4"><a href="#8-8-arbeidsomfang">§ 8-8. Arbeidsomfang</a></li>
+<li class="lvl4"><a href="#8-9-skikkavurdering">§ 8-9. Skikkavurdering</a></li>
+<li class="lvl2"><a href="#kapittel-9-vurdering">Kapittel 9. Vurdering</a></li>
+<li class="lvl4"><a href="#9-1-vurdering-og-eksamen">§ 9-1. Vurdering og eksamen</a></li>
+<li class="lvl4"><a href="#9-2-vurderingsformer">§ 9-2. Vurderingsformer</a></li>
+<li class="lvl4"><a href="#9-3-justerande-munnleg-eksamen">§ 9-3. Justerande munnleg eksamen</a></li>
+<li class="lvl2"><a href="#kapittel-10-praksis">Kapittel 10. Praksis</a></li>
+<li class="lvl4"><a href="#10-1-vilkar-for-a-ga-ut-i-praksis">§ 10-1. Vilkår for å gå ut i praksis</a></li>
+<li class="lvl4"><a href="#10-2-srlege-krav-til-studentar-i-praksis">§ 10-2. Særlege krav til studentar i praksis</a></li>
+<li class="lvl4"><a href="#10-3-politiattest">§ 10-3. Politiattest</a></li>
+<li class="lvl4"><a href="#10-4-politiattest-med-merknad">§ 10-4. Politiattest med merknad</a></li>
+<li class="lvl4"><a href="#10-5-vurdering-av-praksis">§ 10-5. Vurdering av praksis</a></li>
+<li class="lvl4"><a href="#10-6-oppmte-i-praksis">§ 10-6. Oppmøte i praksis</a></li>
+<li class="lvl4"><a href="#10-7-ved-tvil-om-studenten-bestar-praksis">§ 10-7. Ved tvil om studenten består praksis</a></li>
+<li class="lvl4"><a href="#10-8-ikkje-bestatt-praksis-utan-varsel-pa-frehand">§ 10-8. Ikkje bestått praksis utan varsel på førehand</a></li>
+<li class="lvl4"><a href="#10-9-farlege-handlingar-eller-atferd">§ 10-9. Farlege handlingar eller åtferd</a></li>
+<li class="lvl4"><a href="#10-10-konsekvensar-av-ikkje-bestatt-praksis-eller-gyldig-fravr">§ 10-10. Konsekvensar av ikkje bestått praksis eller gyldig fråvær</a></li>
+<li class="lvl4"><a href="#10-11-gyldig-fravr-fra-praksis">§ 10-11. Gyldig fråvær frå praksis</a></li>
+<li class="lvl4"><a href="#10-12-talet-pa-forsk-i-praksis">§ 10-12. Talet på forsøk i praksis</a></li>
+<li class="lvl4"><a href="#10-13-tvilsmelding-ved-lpande-skikkavurdering">§ 10-13. Tvilsmelding ved løpande skikkavurdering</a></li>
+<li class="lvl2"><a href="#kapittel-11-eksamen">Kapittel 11. Eksamen</a></li>
+<li class="lvl4"><a href="#11-1-eksamensstad">§ 11-1. Eksamensstad</a></li>
+<li class="lvl4"><a href="#11-2-tidspunkt-for-eksamen-eksamensplan">§ 11-2. Tidspunkt for eksamen. Eksamensplan</a></li>
+<li class="lvl4"><a href="#11-3-vilkar-for-a-ga-opp-til-eksamen">§ 11-3. Vilkår for å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#11-4-oppmelding-til-eksamen">§ 11-4. Oppmelding til eksamen</a></li>
+<li class="lvl4"><a href="#11-5-eksamensforsk">§ 11-5. Eksamensforsøk</a></li>
+<li class="lvl4"><a href="#11-6-teljande-eksamensforsk">§ 11-6. Teljande eksamensforsøk</a></li>
+<li class="lvl4"><a href="#11-7-trekk-fra-eksamen">§ 11-7. Trekk frå eksamen</a></li>
+<li class="lvl4"><a href="#11-8-gyldig-fravr-til-eksamen">§ 11-8. Gyldig fråvær til eksamen</a></li>
+<li class="lvl4"><a href="#11-9-ordinr-eksamen">§ 11-9. Ordinær eksamen</a></li>
+<li class="lvl4"><a href="#11-10-ny-eksamen-kontinuasjonseksamen">§ 11-10. Ny eksamen (kontinuasjonseksamen)</a></li>
+<li class="lvl4"><a href="#11-11-rett-til-utsett-eksamen-ved-fdsel">§ 11-11. Rett til utsett eksamen ved fødsel</a></li>
+<li class="lvl4"><a href="#11-12-eksamen-i-utgatt-emne">§ 11-12. Eksamen i utgått emne</a></li>
+<li class="lvl4"><a href="#11-13-vurderingsstart">§ 11-13. Vurderingsstart</a></li>
+<li class="lvl4"><a href="#11-14-skuleeksamen">§ 11-14. Skuleeksamen</a></li>
+<li class="lvl4"><a href="#11-15-munnleg-justerande-munnleg-og-praktisk-eksamen">§ 11-15. Munnleg, justerande munnleg og praktisk eksamen</a></li>
+<li class="lvl4"><a href="#11-16-heimeeksamen-mappevurdering-og-oppgaver">§ 11-16. Heimeeksamen, mappevurdering og oppgåver</a></li>
+<li class="lvl4"><a href="#11-17-gruppeeksamen">§ 11-17. Gruppeeksamen</a></li>
+<li class="lvl4"><a href="#11-18-bachelor-og-masteroppgave">§ 11-18. Bachelor- og masteroppgåve</a></li>
+<li class="lvl4"><a href="#11-19a-oppattaking-av-bachelor-og-masteroppgave">§ 11-19a. Oppattaking av bachelor- og masteroppgåve</a></li>
+<li class="lvl4"><a href="#11-19b-oppattaking-av-andre-oppgaver">§ 11-19b. Oppattaking av andre oppgåver</a></li>
+<li class="lvl4"><a href="#11-19c-oppattaking-av-praksisrelaterte-oppgaver-pa-under-10-studiepoeng">§ 11-19c. Oppattaking av praksisrelaterte oppgåver på under 10 studiepoeng</a></li>
+<li class="lvl4"><a href="#11-19d-oppattaking-av-mappevurdering">§ 11-19d. Oppattaking av mappevurdering</a></li>
+<li class="lvl4"><a href="#11-20-malform-og-sprak-i-oppgavetekstar">§ 11-20. Målform og språk i oppgåvetekstar</a></li>
+<li class="lvl4"><a href="#11-21-malform-og-sprak-i-eksamenssvar">§ 11-21. Målform og språk i eksamenssvar</a></li>
+<li class="lvl4"><a href="#11-22-anonymitet">§ 11-22. Anonymitet</a></li>
+<li class="lvl2"><a href="#kapittel-12-fusk">Kapittel 12. Fusk</a></li>
+<li class="lvl4"><a href="#12-1-fusk-og-forsk-pa-fusk">§ 12-1. Fusk og forsøk på fusk</a></li>
+<li class="lvl4"><a href="#12-2-mistanke-om-fusk">§ 12-2. Mistanke om fusk</a></li>
+<li class="lvl4"><a href="#12-3-konsekvensar-av-fusk">§ 12-3. Konsekvensar av fusk</a></li>
+<li class="lvl2"><a href="#kapittel-13-sensur-og-klage">Kapittel 13. Sensur og klage</a></li>
+<li class="lvl4"><a href="#13-1-sensur">§ 13-1. Sensur</a></li>
+<li class="lvl4"><a href="#13-2-sensurfrist">§ 13-2. Sensurfrist</a></li>
+<li class="lvl4"><a href="#13-3-oppnemning-av-sensorar">§ 13-3. Oppnemning av sensorar</a></li>
+<li class="lvl4"><a href="#13-4-kvalifikasjonskrav-for-sensorar">§ 13-4. Kvalifikasjonskrav for sensorar</a></li>
+<li class="lvl4"><a href="#13-5-ekstern-sensor">§ 13-5. Ekstern sensor</a></li>
+<li class="lvl4"><a href="#13-6-godkjenning-av-eksamensoppgava-og-sensorrettleiing">§ 13-6. Godkjenning av eksamensoppgåva og sensorrettleiing</a></li>
+<li class="lvl4"><a href="#13-7-gjennomfring-av-sensur">§ 13-7. Gjennomføring av sensur</a></li>
+<li class="lvl4"><a href="#13-8-vesentleg-karakteravvik-ved-klagesensur">§ 13-8. Vesentleg karakteravvik ved klagesensur</a></li>
+<li class="lvl4"><a href="#13-9-karakterskala-utrekning-av-endeleg-karakter">§ 13-9. Karakterskala. Utrekning av endeleg karakter</a></li>
+<li class="lvl4"><a href="#13-10-kunngjering-av-eksamensresultat">§ 13-10. Kunngjering av eksamensresultat</a></li>
+<li class="lvl4"><a href="#13-11-rett-pa-grunngjeving-av-karakter">§ 13-11. Rett på grunngjeving av karakter</a></li>
+<li class="lvl4"><a href="#13-12-klagefrist-pa-karakterfastsetjing-og-trekkfrist">§ 13-12. Klagefrist på karakterfastsetjing og trekkfrist</a></li>
+<li class="lvl4"><a href="#13-13-ny-vurdering-ved-klage-pa-karakterfastsetjing">§ 13-13. Ny vurdering ved klage på karakterfastsetjing</a></li>
+<li class="lvl4"><a href="#13-14-klage-pa-formelle-feil">§ 13-14. Klage på formelle feil</a></li>
+<li class="lvl2"><a href="#kapittel-14-vitnemal-og-karakterutskrift">Kapittel 14. Vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#14-1-grunnlag-for-vitnemal">§ 14-1. Grunnlag for vitnemål</a></li>
+<li class="lvl4"><a href="#14-2-utferding-av-vitnemal">§ 14-2. Utferding av vitnemål</a></li>
+<li class="lvl4"><a href="#14-3-karakterutskrift">§ 14-3. Karakterutskrift</a></li>
+<li class="lvl2"><a href="#kapittel-15-iverksetjing-og-overgangsordningar">Kapittel 15. Iverksetjing og overgangsordningar</a></li>
+<li class="lvl4"><a href="#15-1-iverksetjing">§ 15-1. Iverksetjing</a></li>
+<li class="lvl4"><a href="#15-2-overgangsordning-for-studie-og-emneplanar">§ 15-2. Overgangsordning for studie- og emneplanar</a></li>
+<li class="lvl4"><a href="#15-3-overgangsordning-for-sjlvvald-bachelorgrad">§ 15-3. Overgangsordning for sjølvvald bachelorgrad</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-06-12-1547.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-06-12-1547.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-06-12-1547.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2025-06-12-1547.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2025-06-12-1547.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-06-12-1547.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2025-06-12-1547.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2025-06-12-1547.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-06-12-1547.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-studium-og-eksamen-ved-hgskulen-pa-vestlandet">Forskrift om studium og eksamen ved Høgskulen på Vestlandet</h1>
 <h2 id="kapittel-1-verkeomrade-og-definisjonar">Kapittel 1. Verkeområde og definisjonar</h2>
 <h4 id="1-1-verkeomrade">§ 1-1. Verkeområde</h4>
 <p>(1) Forskrifta gjeld for studentar som har fått opptak ved Høgskulen på Vestlandet, for privatistar som tek eksamen etter universitets- og høyskoleloven § 11-4 og for studentar under studieopphald i tilknyting til utvekslingsavtalar.</p>
@@ -307,7 +616,7 @@ c. På fastsett måte og innan fastsett frist søke om å få ta eksamen i emnet
 <p>(7) Studentar som har eit anna morsmål enn norsk og som har budd i Norge i mindre enn tre år kan søkje om utvida tid ved eksamen.</p>
 <p>(8) Studentar med eit anna morsmål enn norsk kan få bruke tospråkleg ordbok utan ordforklaring, med mindre faglege omsyn talar mot dette. Ordboka blir kontrollert.</p>
 <p>(9) Ved tungtvegande helse- eller sosiale grunnar kan studentar gjennomføre skriftleg skuleeksamen utanfor institusjonen. Høgskulen kan etter søknad godkjenne at eksamen blir avvikla utanfor institusjonen, når dette kan skje under forsvarleg kontroll. Eksamensstaden skal godkjennast av høgskulen på førehand. Frist for søknad er 1. september i haustsemesteret og 1. februar i vårsemesteret, eller straks etter behovet for tilrettelegging blir kjent.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="7-5-tilrettelegging-av-praksis">§ 7-5. Tilrettelegging av praksis</h4>
 <p>(1) Dokumentert søknad om tilrettelegging av praksis sendast fakultetet seinast 1. april for praksis som startar i haustsemesteret eller 1. oktober for praksis som startar i vårsemesteret. Ved praksis i løpet av første semester er søknadsfristen 1. september. Desse fristane gjeld òg søknad om å få gjennomføre praksis på ein særskilt stad, jf. tredje ledd. Ved situasjonar som har oppstått akutt blir søknad handsama jamleg.</p>
 <p>(2) I samråd med praksisstaden utarbeider høgskulen eigna tilrettelegging innanfor ramma av § 7-2 .</p>
@@ -345,7 +654,7 @@ h. verv i Studenttinget, studentråd eller høgskulestyret.</p>
 <p>(3) Dersom ikkje emneplanen presiserer noko anna, er godkjende obligatoriske læringsaktivitetar gyldig utan tidsavgrensing.</p>
 <p>(4) Emneansvarleg fastset frist for når obligatoriske læringsaktivitetar skal vere fullført. Så langt det lar seg gjere, skal fristen vere slik at studenten har høve til å gjennomføre eit nytt forsøk på ikkje godkjente obligatoriske læringsaktivitetar, før godkjende og ikkje godkjende obligatoriske læringsaktivitetar skal registrerast for semesteret. Studenten har rett på grunngjeving av ikkje godkjente obligatoriske læringsaktivitetar. For obligatorisk deltaking i undervisning gjeld eigne vilkår, sjå § 8-5 .</p>
 <p>(5) Emneansvarleg er ansvarleg for å registrere godkjende og ikkje godkjende obligatoriske læringsaktivitetar seinast to veker før eksamen tek til. I emne som avsluttar undervisninga tett opp til eksamen skal obligatoriske læringsaktivitetar vere registrerte éin dag etter siste undervisningsdag. Alle obligatoriske læringsaktivitetar skal vere godkjende før eksamensdagen, før datoen for siste innlevering av skriftleg arbeid eller før sluttvurdering.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="8-5-obligatorisk-deltaking-i-undervisning">§ 8-5. Obligatorisk deltaking i undervisning <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-8-5.html" title="Endringshistorikk for § 8-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) I obligatoriske læringsaktivitetar som tek form som obligatorisk deltaking er kravet til frammøte 80 prosent om ikkje emneplanen seier noko anna. § 8-4 1., 2., 3. og 5. ledd gjeld tilsvarande.</p>
 <p>(2) Ved dokumentert fråvær har høgskulen plikt til å vurdere om det er mogleg å tilby kompenserande tiltak. Det valte tiltaket må ikkje redusere dei faglege krava til utdanninga, eller vere ein uforholdsmessig byrde for høgskulen.</p>
@@ -361,22 +670,22 @@ f. forhold utanfor studenten sin kontroll som gjer det sterkt urimeleg å krevje
 <p>a. Sjukdom kan dokumenterast med ein attest frå lege, psykolog eller annan sakkunnig person, eller ved at studenten leverer eigenmelding. Attesten må opplyse om at den er gitt i høve fråvær frå obligatorisk deltaking, og at fråværet gjeld ein bestemt dag eller dagar. Det kan gis utfyllande retningslinjer og tidsfristar på den enkelte utdanninga.
 b. Ved dødsfall, gravferd eller bisetjing må studenten oppgje kven som har gått bort og kva for relasjon studenten hadde til avdøde.
 c. Andre omstende som blir rekna som gyldig fråvær må dokumenterast.</p>
-<p><em>Tilføyd ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="8-6-undervisningssprak">§ 8-6. Undervisningsspråk <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-8-6.html" title="Endringshistorikk for § 8-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Undervisningsspråket ved Høgskulen på Vestlandet er norsk. Det kan gjerast unntak dersom det ligg føre faglege grunnar, jf. universitets- og høyskoleloven § 2-3 tredje ledd . Unntak kan vere varige, til dømes der dei faglege grunnane knyter seg til innhaldet i faget. Dette kan vere at studiet inneber opplæring i framandspråk eller primært rettar seg mot internasjonale studentar. Unntak kan også vere mellombelse, til dømes dersom det ikkje er tilgang på norskspråklege undervisarar med den naudsynte fagkompetansen.</p>
 <p>(2) Dersom faglege grunnar tilseier det, kan dekan fastsetje at undervisningsspråket i heile eller delar av eit emne skal vere engelsk eller eit anna skandinavisk språk enn norsk. Dersom undervisningsspråket ikkje er norsk, skal det informerast om det så tidleg som mogeleg.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-5).</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-5).</p>
 <h4 id="8-7-utstyr">§ 8-7. Utstyr <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-8-7.html" title="Endringshistorikk for § 8-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Studenten skal disponere eigen berbar datamaskin til undervisning, jf. forskrift til universitets- og høyskoleloven § 4-7 tredje ledd . Studenten er sjølv ansvarleg for å ha lasta ned nødvendig programvare for å kunne gjennomføre studium og eksamen.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-6).</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-6).</p>
 <h4 id="8-8-arbeidsomfang">§ 8-8. Arbeidsomfang <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-8-8.html" title="Endringshistorikk for § 8-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tal på studiepoeng skal gi uttrykk for arbeidsomfanget i studiet. Eitt års heiltidsstudium svarar til 60 studiepoeng.</p>
 <p>(2) Til grunn for emnestorleiken skal det reknast eit arbeidsomfang for studenten på 1 600–1 800 timar per studieår.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-7).</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-7).</p>
 <h4 id="8-9-skikkavurdering">§ 8-9. Skikkavurdering <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-8-9.html" title="Endringshistorikk for § 8-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det skal gå fram av studieplanen om studieprogrammet har krav om at studentane er skikka for yrket, jf. forskrift til universitets- og høyskoleloven kapittel 7 .</p>
 <p>(2) Om det blir reist sak for skikkavurderingsnemnda, har studenten rett til å få dekka bistand frå advokat, jf. universitets- og høyskoleloven § 12-9 .</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-8).</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 (tidlegare § 8-8).</p>
 <h2 id="kapittel-9-vurdering">Kapittel 9. Vurdering</h2>
 <h4 id="9-1-vurdering-og-eksamen">§ 9-1. Vurdering og eksamen</h4>
 <p>(1) Vurdering omfattar all formell prøving, både vurdering undervegs og til slutt i eit emne. Vurderingsforma i eit emne går fram av emneplanen.</p>
@@ -423,7 +732,7 @@ b. den manglande prestasjonen blir tydeleg etter at halve praksisperioden er gje
 <p>(3) Høgskulen skal gjennomføre samtale med studenten, der det blir informert om grunnlaget for at praksis er avslutta og konsekvensane dette har for studenten.</p>
 <p>(4) Studenten skal få skriftleg vedtak om at praksis er avslutta.</p>
 <p>(5) Høgskulen og praksisstaden skal vurdere om det er grunnlag for å sende tvilsmelding til skikkaansvarleg når studenten går på eit utdanningsprogram med skikkavurdering.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="10-10-konsekvensar-av-ikkje-bestatt-praksis-eller-gyldig-fravr">§ 10-10. Konsekvensar av ikkje bestått praksis eller gyldig fråvær</h4>
 <p>(1) Når studenten får praksisen vurdert til ikkje bestått på grunn av ugyldig fråvær eller ikkje bestått praksis, må heile praksisperioden takast om att. Studenten må i slike tilfelle gjennomføre ny praksisperiode neste gong denne blir arrangert ordinært. Dette kan få konsekvensar for studenten sin studieprogresjon.</p>
 <p>(2) Når studenten har gyldig fråvær kan høgskulen tilrettelegge for at studenten får ny eller utsett delar av praksisperioden innanfor same studieår eller neste studieår. Tilrettelegging skal ikkje senke dei faglege krava til praksisen, jf. § 7-2 . Sjølv om fråværet er gyldig, kan forseinkinga få konsekvensar for studenten sin studieprogresjon.</p>
@@ -441,14 +750,14 @@ f. forhold utanfor studenten sin kontroll som gjer det sterkt urimeleg å krevje
 <p>a. Sjukdom kan dokumenterast med ein attest frå lege, psykolog eller annan sakkunnig person, eller ved at studenten leverer eigenmelding. Attesten eller eigenmeldinga må opplyse om at den er skriven i samband med fråvær frå praksis arrangert av Høgskulen på Vestlandet, og at fråværet gjeld ein bestemt dag eller dagar. Det kan gis utfyllande retningslinjer og tidsfristar på den enkelte utdanninga.
 b. Ved dødsfall, gravferd eller bisetjing må studenten oppgje kven som har gått bort og kva for relasjon studenten hadde til avdøde.
 c. Andre omstende som blir rekna som gyldig fråvær må dokumenterast.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="10-12-talet-pa-forsk-i-praksis">§ 10-12. Talet på forsøk i praksis</h4>
 <p>(1) Studenten har rett på to forsøk på same praksisperiode i eit emne.</p>
 <p>(2) Det er ikkje brukt eitt forsøk på praksis når studenten har gyldig fråvær eller har trekt seg frå praksisen to veker før første praksisdag, jf. § 11-7 (1) bokstav d .</p>
 <p>(3) Studenten kan søke om å få dispensasjon til ein tredje praksisperiode, dersom det ligg føre særlege grunnar. Særlege grunnar er særs viktige sosiale eller medisinske grunnar til at eitt eller begge dei tidlegare forsøka ikkje er bestått. Grunnane må vere dokumentert med attest frå lege, psykolog eller annan sakkunnig person. Studenten sin studieprogresjon og faglege prestasjonar skal òg telje med i vurderinga av søknaden. Studenten må grunngje kvifor forsøka i praksis ikkje er bestått tidlegare.</p>
 <h4 id="10-13-tvilsmelding-ved-lpande-skikkavurdering">§ 10-13. Tvilsmelding ved løpande skikkavurdering <a class="para-history" href="../historikk/forskrift-2025-06-12-1547/para-10-13.html" title="Endringshistorikk for § 10-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved ikkje bestått praksis skal høgskulen og praksisstaden vurdere om det er grunnlag for å sende tvilsmelding til skikkaansvarleg når studenten går på eit studieprogram underlagt skikkavurdering, jf. universitets- og høyskoleloven § 12-3 andre ledd .</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h2 id="kapittel-11-eksamen">Kapittel 11. Eksamen</h2>
 <h4 id="11-1-eksamensstad">§ 11-1. Eksamensstad</h4>
 <p>(1) Eksamenar som krev fysisk oppmøte skal gjennomførast på studiestaden der studenten er tatt opp. Høgskulen kan gjere unntak i særlege tilhøve, jf. kapittel 7 om tilrettelegging.</p>
@@ -576,7 +885,7 @@ j. Etter at eksamenssvaret, overflødig eksamenspapir og alle kladdeark er lever
 <p>(1) Ein student som har fått bachelor- eller masteroppgåva si vurdert til ikkje bestått, kan levere ny eller forbetra versjon til sensur i løpet av dei to påfølgjande semestera. Ved særs tyngande sosiale eller medisinske tilhøve kan studenten søke fakultetet om å levere forbetra versjon etter dei to påfølgande semestera. Krav til dokumentasjon etter § 11-5 (3) bokstav c gjeld tilsvarande. Det er berre mogleg å levere forbetra versjon éin gong.</p>
 <p>(2) Det er ikkje høve til å forbetre karakter på ei bestått bachelor- eller masteroppgåve innafor same studieprogram. Det kan gjerast unntak viss studenten skriv heilt ny oppgåve med ny problemstilling.</p>
 <p>(3) Ved innlevering av ny eller forbetra versjon av bachelor- eller masteroppgåve, kan rettleiinga til studenten bli avgrensa.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h4 id="11-19b-oppattaking-av-andre-oppgaver">§ 11-19b. Oppattaking av andre oppgåver</h4>
 <p>Studenten har rett til å levere forbetra versjon av ikkje bestått eller bestått oppgåve dersom det står i emneplanen. Forbetra versjon må leverast til sensur seinast ved utgangen av påfølgjande semester. Det er berre mogleg å levere forbetra versjon éin gong. Studenten har ikkje krav på ny rettleiing.</p>
 <h4 id="11-19c-oppattaking-av-praksisrelaterte-oppgaver-pa-under-10-studiepoeng">§ 11-19c. Oppattaking av praksisrelaterte oppgåver på under 10 studiepoeng</h4>
@@ -618,7 +927,7 @@ k. fabrikkering eller forfalsking av data.</p>
 <p>(2) Sak om annullering eller utestenging blir avgjort av høgskulen si nemnd for studentsaker.</p>
 <p>(3) Annullering av eksamen etter universitets- og høyskoleloven § 12-4 tel som eitt forsøk til eksamen, jf. § 11-6 (1) f.</p>
 <p>(4) Ein student som har fått bacheloroppgåva, masteroppgåva eller ei anna oppgåve annullert på grunn av fusk, kan ikkje levere ein forbetra versjon av oppgåva. I særlege tilfelle kan det gjerast unntak frå dette. Høgskulen kan bestemme at studenten må levere ny oppgåve med ny problemstilling.</p>
-<p><em>Endra ved forskrift 10 aug 2026 nr. 1624 .</em></p>
+<p class="note">Endra ved forskrift 10 aug 2026 nr. 1624 .</p>
 <h2 id="kapittel-13-sensur-og-klage">Kapittel 13. Sensur og klage</h2>
 <h4 id="13-1-sensur">§ 13-1. Sensur</h4>
 <p>Innlevert eksamenssvar kan ikkje haldast unna sensur. Det same gjeld for munnleg eller praktisk eksamen frå tidspunktet eksaminasjonen eller førebuinga har starta, jf. § 11-13 .</p>
@@ -728,6 +1037,8 @@ d. karaktersystemet.</p>
 <p>Ordningar i studie- eller emneplanar vedtekne våren 2025, som er i strid med nye reglar i forskrifta, kan gjennomførast etter tidlegare vedteken ordning i studieåret 2025–2026.</p>
 <h4 id="15-3-overgangsordning-for-sjlvvald-bachelorgrad">§ 15-3. Overgangsordning for sjølvvald bachelorgrad</h4>
 <p>Det blir til og med 1. september 2024 utferda sjølvvald bachelorgrad som oppfyller krava i forskrift 9. mai 2019 nr. 1000 om studium og eksamen ved Høgskulen på Vestlandet § 2-2 (2) .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

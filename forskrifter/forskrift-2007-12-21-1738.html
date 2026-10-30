@@ -19,70 +19,205 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-21-1738.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om krav til målesystem" href="../feeds/forskrift-2007-12-21-1738.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om krav til målesystem</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-12-21-1738</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2008-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-12-12-3135</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-21-1738" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-krav-til-malesystem">§ 3. Krav til målesystem</a></li>
+<li class="lvl4"><a href="#4-kontroll-og-godkjenning-ved-salg-av-malesystem">§ 4. Kontroll og godkjenning ved salg av målesystem</a></li>
+<li class="lvl4"><a href="#5-tilsynet-med-et-malesystem-som-brukes">§ 5. Tilsynet med et målesystem som brukes</a></li>
+<li class="lvl4"><a href="#5a-unntak-fra-meldingsplikt-ved-plombebrudd-for-malesystemer-for-flytende-drivstoff">§ 5a. Unntak fra meldingsplikt ved plombebrudd for målesystemer for flytende drivstoff</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-malesystem">Kapittel 2 – Krav til målesystem</a></li>
+<li class="lvl3"><a href="#avsnitt-i-generelle-krav">Avsnitt I – Generelle krav</a></li>
+<li class="lvl5"><a href="#6-maleteknisk-beskyttelse-og-kvalitetsniva">§ 6. Måleteknisk beskyttelse og kvalitetsnivå</a></li>
+<li class="lvl5"><a href="#7-patenkt-bruk-og-paregnelig-feilbruk">§ 7. Påtenkt bruk og påregnelig feilbruk</a></li>
+<li class="lvl5"><a href="#8-tillatte-feil">§ 8. Tillatte feil</a></li>
+<li class="lvl5"><a href="#9-pavirkende-strrelser">§ 9. Påvirkende størrelser</a></li>
+<li class="lvl5"><a href="#10-klimatiske-milj">§ 10. Klimatiske miljø</a></li>
+<li class="lvl5"><a href="#11-mekaniske-milj">§ 11. Mekaniske miljø</a></li>
+<li class="lvl5"><a href="#12-elektromagnetiske-milj">§ 12. Elektromagnetiske miljø</a></li>
+<li class="lvl5"><a href="#13-grunnleggende-regler-for-forsk-og-bestemmelse-av-feil">§ 13. Grunnleggende regler for forsøk og bestemmelse av feil</a></li>
+<li class="lvl5"><a href="#14-luftfuktighet">§ 14. Luftfuktighet</a></li>
+<li class="lvl5"><a href="#15-reproduserbarhet">§ 15. Reproduserbarhet</a></li>
+<li class="lvl5"><a href="#16-repeterbarhet">§ 16. Repeterbarhet</a></li>
+<li class="lvl5"><a href="#17-opplsning-og-flsomhet">§ 17. Oppløsning og følsomhet</a></li>
+<li class="lvl5"><a href="#18-holdbarhet">§ 18. Holdbarhet</a></li>
+<li class="lvl5"><a href="#19-palitelighet">§ 19. Pålitelighet</a></li>
+<li class="lvl5"><a href="#20-egnethet">§ 20. Egnethet</a></li>
+<li class="lvl5"><a href="#21-beskyttelse-mot-manipulering">§ 21. Beskyttelse mot manipulering</a></li>
+<li class="lvl5"><a href="#22-opplysninger-som-skal-pafres-eller-flge-malesystemet">§ 22. Opplysninger som skal påføres eller følge målesystemet</a></li>
+<li class="lvl5"><a href="#23-angivelse-av-maleverdi">§ 23. Angivelse av måleverdi</a></li>
+<li class="lvl5"><a href="#24-visning-av-resultat">§ 24. Visning av resultat</a></li>
+<li class="lvl5"><a href="#25-ytterligere-behandling-av-data-for-a-avslutte-en-handelstransaksjon">§ 25. Ytterligere behandling av data for å avslutte en handelstransaksjon</a></li>
+<li class="lvl5"><a href="#26-samsvarsvurdering">§ 26. Samsvarsvurdering</a></li>
+<li class="lvl3"><a href="#avsnitt-ii-spesifikke-krav">Avsnitt II – Spesifikke krav</a></li>
+<li class="lvl5"><a href="#27-definisjoner">§ 27. Definisjoner</a></li>
+<li class="lvl5"><a href="#28-angitte-driftsbetingelser">§ 28. Angitte driftsbetingelser</a></li>
+<li class="lvl5"><a href="#29-nyaktig-klassifisering-og-maksimal-tillatte-malefeil">§ 29. Nøyaktig klassifisering og maksimal tillatte målefeil</a></li>
+<li class="lvl5"><a href="#30-strste-tillatte-virkning-av-forstyrrelser">§ 30. Største tillatte virkning av forstyrrelser</a></li>
+<li class="lvl5"><a href="#31-holdbarhet">§ 31. Holdbarhet</a></li>
+<li class="lvl5"><a href="#32-egnethet">§ 32. Egnethet</a></li>
+<li class="lvl5"><a href="#33-malesystem-til-direktesalg">§ 33. Målesystem til direktesalg</a></li>
+<li class="lvl5"><a href="#34-mengdemaler-for-drivstoff">§ 34. Mengdemåler for drivstoff</a></li>
+<li class="lvl5"><a href="#35-strmforsyningsfeil">§ 35. Strømforsyningsfeil</a></li>
+<li class="lvl5"><a href="#36-krav-til-nyaktighetsklasser-for-malesystem-som-selges-til-ulike-anvendelser">§ 36. Krav til nøyaktighetsklasser for målesystem som selges til ulike anvendelser</a></li>
+<li class="lvl5"><a href="#37-malenheter">§ 37. Målenheter</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-overtredelsesgebyr">§ 38. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#39-ikrafttredelse">§ 39. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-12-12-3135.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1738.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-21-1738.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-12-21-1738 <code>forskrift/2007-12-21-1738</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om krav til målesystem</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2008</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-12-12-3135 <code>forskrift/2024-12-12-3135</code> fra 01.01.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-21-1738" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-krav-til-malesystem">§ 3. Krav til målesystem</a></li>
+<li class="lvl4"><a href="#4-kontroll-og-godkjenning-ved-salg-av-malesystem">§ 4. Kontroll og godkjenning ved salg av målesystem</a></li>
+<li class="lvl4"><a href="#5-tilsynet-med-et-malesystem-som-brukes">§ 5. Tilsynet med et målesystem som brukes</a></li>
+<li class="lvl4"><a href="#5a-unntak-fra-meldingsplikt-ved-plombebrudd-for-malesystemer-for-flytende-drivstoff">§ 5a. Unntak fra meldingsplikt ved plombebrudd for målesystemer for flytende drivstoff</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-malesystem">Kapittel 2 – Krav til målesystem</a></li>
+<li class="lvl3"><a href="#avsnitt-i-generelle-krav">Avsnitt I – Generelle krav</a></li>
+<li class="lvl5"><a href="#6-maleteknisk-beskyttelse-og-kvalitetsniva">§ 6. Måleteknisk beskyttelse og kvalitetsnivå</a></li>
+<li class="lvl5"><a href="#7-patenkt-bruk-og-paregnelig-feilbruk">§ 7. Påtenkt bruk og påregnelig feilbruk</a></li>
+<li class="lvl5"><a href="#8-tillatte-feil">§ 8. Tillatte feil</a></li>
+<li class="lvl5"><a href="#9-pavirkende-strrelser">§ 9. Påvirkende størrelser</a></li>
+<li class="lvl5"><a href="#10-klimatiske-milj">§ 10. Klimatiske miljø</a></li>
+<li class="lvl5"><a href="#11-mekaniske-milj">§ 11. Mekaniske miljø</a></li>
+<li class="lvl5"><a href="#12-elektromagnetiske-milj">§ 12. Elektromagnetiske miljø</a></li>
+<li class="lvl5"><a href="#13-grunnleggende-regler-for-forsk-og-bestemmelse-av-feil">§ 13. Grunnleggende regler for forsøk og bestemmelse av feil</a></li>
+<li class="lvl5"><a href="#14-luftfuktighet">§ 14. Luftfuktighet</a></li>
+<li class="lvl5"><a href="#15-reproduserbarhet">§ 15. Reproduserbarhet</a></li>
+<li class="lvl5"><a href="#16-repeterbarhet">§ 16. Repeterbarhet</a></li>
+<li class="lvl5"><a href="#17-opplsning-og-flsomhet">§ 17. Oppløsning og følsomhet</a></li>
+<li class="lvl5"><a href="#18-holdbarhet">§ 18. Holdbarhet</a></li>
+<li class="lvl5"><a href="#19-palitelighet">§ 19. Pålitelighet</a></li>
+<li class="lvl5"><a href="#20-egnethet">§ 20. Egnethet</a></li>
+<li class="lvl5"><a href="#21-beskyttelse-mot-manipulering">§ 21. Beskyttelse mot manipulering</a></li>
+<li class="lvl5"><a href="#22-opplysninger-som-skal-pafres-eller-flge-malesystemet">§ 22. Opplysninger som skal påføres eller følge målesystemet</a></li>
+<li class="lvl5"><a href="#23-angivelse-av-maleverdi">§ 23. Angivelse av måleverdi</a></li>
+<li class="lvl5"><a href="#24-visning-av-resultat">§ 24. Visning av resultat</a></li>
+<li class="lvl5"><a href="#25-ytterligere-behandling-av-data-for-a-avslutte-en-handelstransaksjon">§ 25. Ytterligere behandling av data for å avslutte en handelstransaksjon</a></li>
+<li class="lvl5"><a href="#26-samsvarsvurdering">§ 26. Samsvarsvurdering</a></li>
+<li class="lvl3"><a href="#avsnitt-ii-spesifikke-krav">Avsnitt II – Spesifikke krav</a></li>
+<li class="lvl5"><a href="#27-definisjoner">§ 27. Definisjoner</a></li>
+<li class="lvl5"><a href="#28-angitte-driftsbetingelser">§ 28. Angitte driftsbetingelser</a></li>
+<li class="lvl5"><a href="#29-nyaktig-klassifisering-og-maksimal-tillatte-malefeil">§ 29. Nøyaktig klassifisering og maksimal tillatte målefeil</a></li>
+<li class="lvl5"><a href="#30-strste-tillatte-virkning-av-forstyrrelser">§ 30. Største tillatte virkning av forstyrrelser</a></li>
+<li class="lvl5"><a href="#31-holdbarhet">§ 31. Holdbarhet</a></li>
+<li class="lvl5"><a href="#32-egnethet">§ 32. Egnethet</a></li>
+<li class="lvl5"><a href="#33-malesystem-til-direktesalg">§ 33. Målesystem til direktesalg</a></li>
+<li class="lvl5"><a href="#34-mengdemaler-for-drivstoff">§ 34. Mengdemåler for drivstoff</a></li>
+<li class="lvl5"><a href="#35-strmforsyningsfeil">§ 35. Strømforsyningsfeil</a></li>
+<li class="lvl5"><a href="#36-krav-til-nyaktighetsklasser-for-malesystem-som-selges-til-ulike-anvendelser">§ 36. Krav til nøyaktighetsklasser for målesystem som selges til ulike anvendelser</a></li>
+<li class="lvl5"><a href="#37-malenheter">§ 37. Målenheter</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-overtredelsesgebyr">§ 38. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#39-ikrafttredelse">§ 39. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1738.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-21-1738.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1738.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-12-21-1738.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-12-21-1738.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-21-1738.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-12-21-1738.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-12-21-1738.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-21-1738.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-malesystem-for-kontinuerlig-og-dynamisk-maling-av-andre-vsker-enn-vann">Forskrift om krav til målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder når det er fastsatt krav til målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann i forskrift 20. desember 2007 nr. 1723 om målenheter og måling § 3-1 .</p>
 <p>Kravene gjelder likevel ikke når slike målesystemer benyttes for beregning av økonomisk oppgjør ved direkte salg av spylevæsker til forbruker eller når de brukes til beregning av utmålt mengde olje for kjøretøy i verksteder.</p>
 <p>Forskriften setter ikke krav til elektromagnetisk stråling som avgis av måleinstrumentet.</p>
-<p><em>Endret ved forskrifter 1 mars 2016 nr. 209 (i kraft 20 april 2016), 23 okt 2017 nr. 1682 , 20 des 2021 nr. 3834 (i kraft 1 jan 2022), 1 des 2023 nr. 1989 (i kraft 1 jan 2024), 14 des 2023 nr. 2060 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 1 mars 2016 nr. 209 (i kraft 20 april 2016), 23 okt 2017 nr. 1682 , 20 des 2021 nr. 3834 (i kraft 1 jan 2022), 1 des 2023 nr. 1989 (i kraft 1 jan 2024), 14 des 2023 nr. 2060 (i kraft 1 jan 2024).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. Målesystem: Et system som består av selve gjennomstrømningsmåleren og alle anordninger som kreves for å sikre korrekt måling eller for å lette måleoperasjonene.
@@ -97,39 +232,39 @@ h. Direktesalg: En handelstransaksjon er direktesalg dersom:
   II. minst en av de involverte parter i transaksjonen i forbindelse med målingen er en kunde eller en annen part som krever et lignende beskyttelsesnivå, og
   III. alle parter i transaksjonen godtar måleresultatet på den tid og det sted transaksjonen skjer.
 i. Klimatiske miljøer: De omgivelser der målesystemet kan benyttes. Det er definert en rekke temperaturgrenser for å ta høyde for klimaforskjeller mellom EØS-statene.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h4 id="3-krav-til-malesystem">§ 3. Krav til målesystem</h4>
 <p>Målesystem skal minimum oppfylle de grunnleggende kravene fastsatt i kapittel 2 . Maksimale tillatte målefeil for målesystem er angitt i § 29 .</p>
 <p>Målesystem som er typegodkjent etter tidligere regelverk, skal under bruk oppfylle de kravene som var gjeldende da målesystemet ble typegodkjent, herunder kravene til målenøyaktighet under bruk.</p>
 <p>Målesystem som ikke er rettmessig samsvarsmerket eller har gyldig typegodkjenning og førstegangsgodkjenning, er ikke tillatt å bruke.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h4 id="4-kontroll-og-godkjenning-ved-salg-av-malesystem">§ 4. Kontroll og godkjenning ved salg av målesystem</h4>
 <p>Målesystem som selges eller tilbys for salg, skal ha gyldig samsvarsvurdering etter bestemmelsene i forskrift om målenheter og måling kapittel 4.</p>
-<p><em>Endret ved forskrifter 1 mars 2016 nr. 209 (i kraft 20 april 2016), 22 april 2016 nr. 413 , 19 des 2017 nr. 2287 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 1 mars 2016 nr. 209 (i kraft 20 april 2016), 22 april 2016 nr. 413 , 19 des 2017 nr. 2287 (i kraft 1 jan 2018).</p>
 <h4 id="5-tilsynet-med-et-malesystem-som-brukes">§ 5. Tilsynet med et målesystem som brukes</h4>
 <p>Testing av målesystemet i forbindelse med kontrollen skal utføres i henhold til relevante deler av gjeldende OIML R117, OIML R105 og Justervesenets prosedyrer, med mindre Justervesenet anser det mer hensiktsmessig og måleteknisk forsvarlig å utføre testingen på annen måte.</p>
 <p>De måletekniske testene skal normalt utføres med de samme væskene som målesystemet måler ved normal drift. Dersom dette er vanskelig å få til, av f.eks. sikkerhetsmessige årsaker, kan det i stedet benyttes væsker med tilsvarende fysiske egenskaper.</p>
 <p>Under testen må det være tilgjengelig tilstrekkelig mengde væske til testen samt nødvendig håndteringsutstyr, kvalifisert personell og kontrollredskap i nærheten.</p>
-<p><em>Endret ved forskrifter 20 des 2010 nr. 1750 (i kraft 1 jan 2011), 16 des 2013 nr. 1525 (i kraft 1 jan 2014), 18 des 2015 nr. 1755 (i kraft 1 jan 2016), 1 mars 2016 nr. 209 som endret ved forskrift 29 mars 2016 nr. 330 (i kraft 20 april 2016), 25 juni 2021 nr. 2229 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2010 nr. 1750 (i kraft 1 jan 2011), 16 des 2013 nr. 1525 (i kraft 1 jan 2014), 18 des 2015 nr. 1755 (i kraft 1 jan 2016), 1 mars 2016 nr. 209 som endret ved forskrift 29 mars 2016 nr. 330 (i kraft 20 april 2016), 25 juni 2021 nr. 2229 (i kraft 1 juli 2021).</p>
 <h4 id="5a-unntak-fra-meldingsplikt-ved-plombebrudd-for-malesystemer-for-flytende-drivstoff">§ 5a. Unntak fra meldingsplikt ved plombebrudd for målesystemer for flytende drivstoff</h4>
 <p>For små og mellomstore målesystemer for kontinuerlig og dynamisk måling av andre væsker enn vann på bensinstasjoner og lignende, gjøres det unntak fra plikten til å melde om plombebrudd i henhold til forskrift om målenheter og måling § 5-5 andre og fjerde ledd .</p>
-<p><em>Tilføyd ved forskrift 12 des 2024 nr. 3135 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 12 des 2024 nr. 3135 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-2-krav-til-malesystem">Kapittel 2 – Krav til målesystem</h2>
 <h3 id="avsnitt-i-generelle-krav">Avsnitt I – Generelle krav</h3>
 <h5 id="6-maleteknisk-beskyttelse-og-kvalitetsniva">§ 6. Måleteknisk beskyttelse og kvalitetsnivå</h5>
 <p>Et målesystem skal ha en høy grad av måleteknisk beskyttelse, slik at alle berørte parter kan ha tillitt til måleresultatet, og den skal konstrueres og fremstilles etter tilfredsstillende kvalitetsnivå med hensyn til måleteknologi og måledataenes sikkerhet.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="7-patenkt-bruk-og-paregnelig-feilbruk">§ 7. Påtenkt bruk og påregnelig feilbruk</h5>
 <p>Det skal tas hensyn til målesystemets påtenkte bruk samt den påregnelige feilbruk ved valg av løsninger som anvendes for å oppfylle kravene.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="8-tillatte-feil">§ 8. Tillatte feil</h5>
 <p>Under de angitte driftsbetingelser og i fravær av en forstyrrelse skal målefeilen ikke overstige den maksimale tillatte målefeil som er fastsatt i § 29 . Med mindre annet er angitt i avsnitt II, uttrykkes den maksimale tillatte målefeil som avviket fra den sanne måleverdi som et tosidig intervall.</p>
 <p>Under de angitte driftsbetingelser og dersom det foreligger en forstyrrelse, er kravet til yteevne som fastsatt i avsnitt II.</p>
 <p>Dersom målesystemet er beregnet brukt i et gitt permanent kontinuerlig elektromagnetisk felt, skal måleresultatet under forsøket med amplitudemodulert elektromagnetisk felt ligge innenfor maksimal tillatt målefeil.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="9-pavirkende-strrelser">§ 9. Påvirkende størrelser</h5>
 <p>Produsenten skal angi det klimatiske, mekaniske og elektromagnetiske miljø som målesystemet er beregnet brukt i, samt strømforsyning og andre påvirkende størrelser som kan påvirke målenøyaktigheten, idet det tas hensyn til kravene fastsatt i avsnitt II.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="10-klimatiske-milj">§ 10. Klimatiske miljø</h5>
 <p>Produsenten skal angi øvre og nedre temperaturgrense blant verdiene i tabell 1 og angi hvorvidt målesystemet er konstruert for kondenserende eller ikke-kondenserende fuktighet, samt om den tiltenkte plassering er åpen eller lukket.</p>
 <p><em>Tabell 1 Øvre temperaturgrense 30 °C 40 °C 55 °C 70 °C Nedre temperaturgrense 5 °C –10 °C –25 °C –40 °C
@@ -160,26 +295,26 @@ Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
 <h5 id="13-grunnleggende-regler-for-forsk-og-bestemmelse-av-feil">§ 13. Grunnleggende regler for forsøk og bestemmelse av feil</h5>
 <p>De grunnleggende kravene angitt i § 8 skal kontrolleres for hver relevant påvirkende størrelse. Med mindre annet er angitt i avsnitt II, gjelder disse grunnleggende kravene når hver påvirkende størrelse påføres og virkningen av den vurderes separat, idet alle andre påvirkende størrelser holdes relativt konstant ved sine referanseverdier.</p>
 <p>Måleforsøk skal utføres under og etter påføring av den påvirkende størrelsen, alt etter hva som tilsvarer normal driftsstatus for målesystemet når denne påvirkende størrelsen kan antas å opptre.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="14-luftfuktighet">§ 14. Luftfuktighet</h5>
 <p>Avhengig av det klimatiske miljø målesystemet er ment brukt i, kan det mest hensiktsmessige testforløp enten være stasjonær fuktig varme (ikke-kondenserende), eller syklisk fuktig varme (kondenserende).</p>
 <p>Testforløp med syklisk varierende fuktighet er hensiktsmessig dersom kondensering er viktig, eller dersom dampgjennomtrengning vil bli fremskyndet av ventilasjon. Ved forhold der ikke-kondenserende luftfuktighet er viktig, er testforløp med stasjonær fuktig varme hensiktsmessig.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="15-reproduserbarhet">§ 15. Reproduserbarhet</h5>
 <p>Dersom målesystemet brukes til å måle den samme målestørrelsen, men på ulike steder og av ulike brukere, skal resultatene av påfølgende målinger være i nært samsvar. Variasjonen i måleresultatene skal være liten i forhold til maksimal tillatt målefeil.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="16-repeterbarhet">§ 16. Repeterbarhet</h5>
 <p>Dersom målestørrelsen har samme verdi og måleforholdene er uendret, skal de påfølgende måleresultatene stemme godt overens. Variasjonen i måleresultatene skal være liten i forhold til maksimale tillatte målefeil.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="17-opplsning-og-flsomhet">§ 17. Oppløsning og følsomhet</h5>
 <p>Et målesystem skal være tilstrekkelig følsom, og skal ha tilstrekkelig oppløsning tilpasset måleoppgaven.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="18-holdbarhet">§ 18. Holdbarhet</h5>
 <p>Et målesystem skal være konstruert slik at dens måletekniske egenskaper er tilstrekkelig stabile i et tidsrom som produsenten fastsetter, forutsatt at det monteres, vedlikeholdes og brukes korrekt i samsvar med produsentens anvisninger og i det miljø det er bestemt for.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="19-palitelighet">§ 19. Pålitelighet</h5>
 <p>Et målesystem skal konstrueres slik at virkningen av en funksjonsfeil som medfører et unøyaktig måleresultat, reduseres så langt som mulig, med mindre en slik feil er åpenbar.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="20-egnethet">§ 20. Egnethet</h5>
 <p>Et målesystem skal være:</p>
 <p>a. Egnet til den påtenkte bruk, idet det tas hensyn til de i praksis forekommende driftsbetingelser, og det skal ikke stilles urimelige krav til brukeren for å oppnå et korrekt måleresultat
@@ -188,13 +323,13 @@ c. Konstruert slik at målefunksjonen skal kunne kontrolleres etter at måleren 
 d. Ufølsom overfor små variasjoner i målestørrelsens verdi, eller det skal reagere på en hensiktsmessig måte dersom måleren er beregnet til måling av verdier av målestørrelsen som er konstant over tid.</p>
 <p>Et målesystem skal ikke være av en slik art at det lett kan brukes til bedrageri, og muligheten for utilsiktet feilbruk skal være minst mulig.</p>
 <p>Dersom et målesystem har tilknyttet programvare med andre funksjoner enn målefunksjonen, skal programvaren som har avgjørende betydning for målefunksjonen, kunne identifiseres, og den skal ikke utsettes for forstyrrende påvirkning fra de tilknyttede programvarefunksjonene.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="21-beskyttelse-mot-manipulering">§ 21. Beskyttelse mot manipulering</h5>
 <p>Dersom målesystemet koples til en annen anordning direkte eller ved fjerntilkopling, skal dets måletekniske egenskaper ikke påvirkes av anordningen på en feilaktig måte.</p>
 <p>Komponenter som har avgjørende betydning for de måletekniske egenskapene, skal være konstruert slik at de kan sikres. De anvendte sikkerhetstiltak skal gjøre det mulig å påvise om inngrep har funnet sted.</p>
 <p>Programvare som har avgjørende betydning for de måletekniske egenskapene, skal være merket tilsvarende, og skal være sikret. Identifikasjon av slik programvare skal lett framskaffes fra målesystemet. Eventuell informasjon eller indikasjon på at det har funnet sted et inngrep skal være tilgjengelig i et rimelig tidsrom.</p>
 <p>Måledata, programvare som er av avgjørende betydning for måleegenskapene, og måleteknisk viktige parametere som lagres eller overføres, skal være beskyttet på hensiktsmessig vis mot tilsiktede eller utilsiktede endringer.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="22-opplysninger-som-skal-pafres-eller-flge-malesystemet">§ 22. Opplysninger som skal påføres eller følge målesystemet</h5>
 <p>Et målesystem skal være påført produsentens merke eller navn og opplysninger om målerens nøyaktighet. I den grad det er relevant skal også følgende opplysninger påføres målesystemet:</p>
 <p>a. Relevante opplysninger om bruksbetingelser
@@ -211,23 +346,23 @@ d. Anvisninger for montering, vedlikehold, reparasjoner og tillatte innstillinge
 e. Anvisninger for korrekt betjening og eventuelle særlige bruksvilkår
 f. Vilkår for kompatibilitet med grensesnitt, underenheter eller måleredskaper.</p>
 <p>Alle merker og påskrifter skal være tydelige og utvetydige og de skal ikke kunne fjernes eller flyttes. For grupper av identiske målesystem er det ikke nødvendig med individuelle bruksanvisninger.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="23-angivelse-av-maleverdi">§ 23. Angivelse av måleverdi</h5>
 <p>Med mindre annet er angitt i avsnitt II, skal skalaintervallet for en målt verdi være på formen 1 × 10 n , 2 × 10 n eller 5 × 10 n , hvor n er et heltall eller null. Målenheten eller dens symbol skal vises nær tallverdien.</p>
 <p>Det skal benyttes målenheter og symboler som er i samsvar med bestemmelsene i forskrift om målenheter og måling.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="24-visning-av-resultat">§ 24. Visning av resultat</h5>
 <p>Resultatet skal vises på et display eller som papirutskrift. Ved utskrift skal skriften eller registreringen være lett lesbar og ikke kunne fjernes.</p>
 <p>Alle resultater skal være tydelige og utvetydige og ledsaget av de merker og påskrifter som er nødvendige for å opplyse brukeren om resultatets betydning. Resultatet som vises, skal være lett lesbart under normale bruksforhold. Ytterligere informasjon kan vises under forutsetning av at den ikke kan forveksles med de måletekniske kontrollerte resultatene.</p>
 <p>Et målesystem for handelstransaksjoner i form av direktesalg skal være konstruert slik at måleresultatene vises for begge parter i transaksjonen når det er montert hensiktsmessig. Enhver kvittering som er avgjørende for direktesalg og som kunden får gjennom en tilknyttet anordning som ikke oppfyller krav i denne forskriften, skal være påført relevante opplysninger om begrensingen.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="25-ytterligere-behandling-av-data-for-a-avslutte-en-handelstransaksjon">§ 25. Ytterligere behandling av data for å avslutte en handelstransaksjon</h5>
 <p>Målesystem skal på en varig måte registrere måleresultatet sammen med opplysninger som identifiserer den bestemte transaksjon når målingen ikke kan gjentas og måleren normalt er beregnet brukt når den ene parten i transaksjonen er fraværende.</p>
 <p>I tillegg skal et varig bevis på måleresultatet og opplysninger for identifikasjon av transaksjonen kunne stilles til rådighet på anmodning idet målingen avsluttes.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="26-samsvarsvurdering">§ 26. Samsvarsvurdering</h5>
 <p>Et målesystem skal være konstruert slik at det lett kan vurderes om det er i samsvar med de relevante kravene i denne forskriften.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h3 id="avsnitt-ii-spesifikke-krav">Avsnitt II – Spesifikke krav</h3>
 <h5 id="27-definisjoner">§ 27. Definisjoner</h5>
 <p>I dette avsnittet menes med:</p>
@@ -245,7 +380,7 @@ h. Selvbetjeningsenhet: En spesifikk anordning som er en del av et selvbetjening
 i. Selvbetjeningssystem: En ordning som gjør det mulig for kunden å bruke et målesystem med sikte på å skaffe væske til egnet bruk
 j. Strømningsrateintervall: Intervallet mellom minste strømningsrate (Q min ) og største strømningsrate (Q max )
 k. Tilknyttet måleredskaper: Et måleredskap koplet til beregningsenheten for måling av visse størrelser som er karakteristiske for væsken, med sikte på å foreta en korreksjon og/eller konvertering.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="28-angitte-driftsbetingelser">§ 28. Angitte driftsbetingelser</h5>
 <p>Produsenten skal angi nominelle driftsbetingelser for målesystemet, særlig:</p>
 <p>a. Strømningsrateområde. For strømningsrateområdet gjelder følgende vilkår:
@@ -258,7 +393,7 @@ b. Egenskapene til væsken som målesystemet skal måle, med angivelse av navn e
   - viskositetsintervall.
 c. Den nominelle verdien av vekselspenningsforsyning og/eller grenser for likespenningsforsyning
 d. Referansebetingelser for konverterte verdier.</p>
-<p><em>Endret ved forskrifter 20 des 2010 nr. 1750 (i kraft 1 jan 2011), 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2010 nr. 1750 (i kraft 1 jan 2011), 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="29-nyaktig-klassifisering-og-maksimal-tillatte-malefeil">§ 29. Nøyaktig klassifisering og maksimal tillatte målefeil</h5>
 <p>For mengder på minst to liter er maksimal tillatte målefeil for visninger angitt i tabell 5. A gjelder for komplette målesystemer i felt ved normale driftsbetingelser, B gjelder for test av selve måleren i et testoppsett. For mengder på under to liter er maksimal tillatte målefeil for visninger angitt i tabell 6.</p>
 <p>Uansett hvilken mengde som måles, er imidlertid maksimal tillatt målefeil gitt ved den største av følgende to verdier:</p>
@@ -286,10 +421,10 @@ Endret ved forskrifter 9 sep 2011 nr. 921 , 1 mars 2016 nr. 209 (i kraft 20 apri
 b. Angivelsen av måleresultatet viser en forbigående variasjon som ikke kan tolkes, registreres eller overføres som måleresultat. For et system med mulighet for avbrudd kan dette også bety at det er umulig å utføre noen måling
 c. Endringen i måleresultatet er større enn den kritiske endringsverdien, i hvilket tilfelle målesystemet skal muliggjøre innhenting av måleresultatet rett før den kritiske endringsverdien opptrådte og avbrøt væskestrømmen.</p>
 <p>Den kritiske endringsverdien er større enn maksimal tillatte målefeil dividert med fem for en bestemt målt mengde eller E min .</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="31-holdbarhet">§ 31. Holdbarhet</h5>
 <p>Når det er gjennomført et egnet forsøk der det tas hensyn til tidsrommet produsenten har anslått, skal følgende kriterium være oppfylt: Variasjonen i måleresultatet etter langtidstesten skal, når det sammenlignes med det opprinnelige måleresultatet, ikke overstige verdien for målesystem angitt i linje B i tabell 5.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="32-egnethet">§ 32. Egnethet</h5>
 <p>For en målt mengde som vedrører samme måling, skal de viste verdiene fra forskjellige anordninger ikke avvike fra hverandre med mer enn en minstedeling dersom anordningene har samme minstedeling. Dersom anordningene har forskjellige minstedelinger, skal avviket ikke være større enn den største minstedelingen.</p>
 <p>For et selvbetjeningssystem gjelder imidlertid at minstedelingen på hovedanordningen i målesystemet skal være den samme som minstedelingen på selvbetjeningsenheten, og resultatene av målingene skal ikke avvike fra hverandre.</p>
@@ -298,31 +433,33 @@ c. Endringen i måleresultatet er større enn den kritiske endringsverdien, i hv
 <p>a. 0,5 % for andre væsker enn drikkevæsker og for væsker med en viskositet på høyst 1 mPa.s, eller
 b. 1 % for drikkevæsker og for væsker med en viskositet på over 1 mPa.s.</p>
 <p>Den tillatte variasjonen skal imidlertid aldri være under 1 % av minste tillatte målekvantum. Denne verdien gjelder for luft- eller gasslommer.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="33-malesystem-til-direktesalg">§ 33. Målesystem til direktesalg</h5>
 <p>Et målesystem for direktesalg skal ha mulighet for å nullstille indikatorene. Det skal ikke være mulig å bortlede en målt mengde. Ved målesystemer for direktesalg skal målingen kunne avbrytes.</p>
 <p>Visningen av mengden som transaksjonen bygger på, skal være permanent til alle parter i transaksjonen har godtatt måleresultatet.</p>
 <p>Enhver prosentdel av luft eller gass i væsken skal ikke føre til en variasjon i målefeilen på mer enn verdiene angitt i § 32 fjerde ledd.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="34-mengdemaler-for-drivstoff">§ 34. Mengdemåler for drivstoff</h5>
 <p>Indikatorer på mengdemåler for drivstoff skal ikke kunne nullstilles under en måling. Det skal være sperret for påbegynnelse av en ny måling til indikatoren er nullstilt.</p>
 <p>Dersom et målesystem er utstyrt med prisangivelse, skal differansen mellom den angitte prisen og prisen beregnet ut fra enhetsprisen og den angitte mengden ikke overstige prisen som tilsvarer E min. Denne differansen behøver imidlertid ikke være mindre enn den minste pengeenheten.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="35-strmforsyningsfeil">§ 35. Strømforsyningsfeil</h5>
 <p>Et målesystem skal enten være utstyrt med en anordning for nødstrømsforsyning som vil opprettholde alle målefunksjoner under feil i hovedstrømforsyningen eller være utstyrt med midler til å lagre og vise de foreliggende data, slik at den påbegynte transaksjonen kan avsluttes, og midler til å stoppe gjennomstrømningen det øyeblikk feilen oppstår i hovedstrømforsyningen.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h5 id="36-krav-til-nyaktighetsklasser-for-malesystem-som-selges-til-ulike-anvendelser">§ 36. Krav til nøyaktighetsklasser for målesystem som selges til ulike anvendelser</h5>
 <p>Tabell 8 angir krav til nøyaktighetsklasser for målesystem som selges til ulike anvendelser. Produsenten kan imidlertid angi bedre nøyaktighet for visse typer målesystemer.</p>
 <p><em>Tabell 8 Nøyaktighetsklasse Typer målesystem 0,3 Målesystemer på rørledninger. Målesystemer til innkreving av skatter og avgifter på mineralolje ved lasting eller lossing av store tankskip, unntatt bunkersbåter. 0,5 Alle målesystemer, med mindre annet er angitt annensteds i denne tabell, særlig – mengdemåler for drivstoff (ikke til flytende gasser) – målesystemer på tankbiler til væsker med lav viskositet (&lt; 20 mPa.s) – målesystemer til lasting/lossing av skip, jernbanetankvogner og tankbiler – målesystemer for melk – målesystemer for drivstoffpåfylling på luftfartøyer – målesystemer til innkreving av skatter og avgifter på mineralolje ved lasting eller lossing av jernbanetankvogner og tankbiler samt skip som ikke omfattes av nøyaktighetsklasse 0,3 1,0 Målesystemer for flytende gasser under trykk ved en temperatur på minst –10 °C. Målesystemer som normalt er i klasse 0,3 eller 0,5, men brukt til væsker – med en temperatur på under –10 °C eller over 50 °C – med en dynamisk viskositet på over 1000 mPa.s – med maksimalt volumetrisk strømningsrate på høyst 20 l/h 1,5 Målesystemer for flytende karbondioksid. Målesystemer for flytende gasser under trykk målt ved en temperatur under –10 °C (unntatt kryogene væsker). 2,5 Målesystemer for kryogene væsker (temperatur under –153 °C).
 Endret ved forskrifter 20 des 2010 nr. 1750 (i kraft 1 jan 2011), 1 mars 2016 nr. 209 (i kraft 20 april 2016), 10 des 2018 nr. 1884 (i kraft 1 jan 2019).</em></p>
 <h5 id="37-malenheter">§ 37. Målenheter</h5>
 <p>Den målte mengden skal vises i milliliter, kubikkcentimeter, liter, kubikkmeter, gram, kilogram eller tonn.</p>
-<p><em>Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 1 mars 2016 nr. 209 (i kraft 20 april 2016).</p>
 <h2 id="kapittel-3-avsluttende-bestemmelser">Kapittel 3 – Avsluttende bestemmelser</h2>
 <h4 id="38-overtredelsesgebyr">§ 38. Overtredelsesgebyr</h4>
 <p>Overtredelse av bestemmelsene i denne forskriften kan medføre pålegg av overtredelsesgebyr utmålt etter bestemmelsene i forskrift om målenheter og måling kapittel 7.</p>
 <h4 id="39-ikrafttredelse">§ 39. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. januar 2008.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

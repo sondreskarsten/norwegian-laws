@@ -19,64 +19,277 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2010-05-28-16.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Politiregisterloven" href="../feeds/lov-2010-05-28-16.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Politiregisterloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2010-05-28-16</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Personrett. Personvern\nForvaltnings- og kommunalrett &raquo; Statistikk. Registrering\nForvaltnings- og kommunalrett &raquo; Politi</dd>
-<dt>Ikrafttredelse</dt><dd>2014-07-01, 2013-09-13, 2013-09-27, 2016-01-01, 2018-05-06</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-49</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2010-05-28-16" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-definisjoner-og-virkeomrade">Kapittel 1. Lovens formål, definisjoner og virkeområde</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-lovens-virkeomrade">§ 3. Lovens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-behandlingen-av-opplysninger">Kapittel 2. Krav til behandlingen av opplysninger</a></li>
+<li class="lvl4"><a href="#4-formalsbestemthet">§ 4. Formålsbestemthet</a></li>
+<li class="lvl4"><a href="#5-ndvendighetskravet">§ 5. Nødvendighetskravet</a></li>
+<li class="lvl4"><a href="#6-krav-til-opplysningenes-kvalitet">§ 6. Krav til opplysningenes kvalitet</a></li>
+<li class="lvl4"><a href="#7-behandling-av-srlige-kategorier-av-personopplysninger">§ 7. Behandling av særlige kategorier av personopplysninger</a></li>
+<li class="lvl4"><a href="#8-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 8. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</a></li>
+<li class="lvl2"><a href="#kapittel-3-politiets-registre-og-andre-systemer">Kapittel 3. Politiets registre og andre systemer</a></li>
+<li class="lvl4"><a href="#9-reaksjonsregister">§ 9. Reaksjonsregister</a></li>
+<li class="lvl4"><a href="#10-vaktjournal">§ 10. Vaktjournal</a></li>
+<li class="lvl4"><a href="#11-kriminaletterretningsregister">§ 11. Kriminaletterretningsregister</a></li>
+<li class="lvl4"><a href="#12-dna-register">§ 12. DNA-register</a></li>
+<li class="lvl4"><a href="#13-fingeravtrykk-og-fotoregister">§ 13. Fingeravtrykk- og fotoregister</a></li>
+<li class="lvl4"><a href="#14-krav-om-forskriftsregulering-av-en-behandling-register">§ 14. Krav om forskriftsregulering av en behandling (register)</a></li>
+<li class="lvl2"><a href="#kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#15-informasjonssikkerhet">§ 15. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#16-internkontroll">§ 16. Internkontroll</a></li>
+<li class="lvl4"><a href="#17-kravet-til-sporbarhet">§ 17. Kravet til sporbarhet</a></li>
+<li class="lvl4"><a href="#18-databehandlerens-radighet-over-personopplysningene">§ 18. Databehandlerens rådighet over personopplysningene</a></li>
+<li class="lvl2"><a href="#kapittel-5-utlevering-og-tilgang-til-opplysninger">Kapittel 5. Utlevering og tilgang til opplysninger</a></li>
+<li class="lvl4"><a href="#19-generelt-om-utlevering-av-opplysninger">§ 19. Generelt om utlevering av opplysninger</a></li>
+<li class="lvl4"><a href="#20-srlige-regler-for-utlevering-av-ikke-verifiserte-opplysninger">§ 20. Særlige regler for utlevering av ikke-verifiserte opplysninger</a></li>
+<li class="lvl4"><a href="#21-tilgang-til-opplysninger-innad-i-politiet-og-patalemyndigheten">§ 21. Tilgang til opplysninger innad i politiet og påtalemyndigheten</a></li>
+<li class="lvl4"><a href="#22-utlevering-av-opplysninger-til-utlandet">§ 22. Utlevering av opplysninger til utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-6-begrensninger-i-taushetsplikten">Kapittel 6. Begrensninger i taushetsplikten</a></li>
+<li class="lvl4"><a href="#23-omfanget-av-taushetsplikten">§ 23. Omfanget av taushetsplikten</a></li>
+<li class="lvl4"><a href="#24-taushetsplikt-nar-det-ikke-er-behov-for-beskyttelse">§ 24. Taushetsplikt når det ikke er behov for beskyttelse</a></li>
+<li class="lvl4"><a href="#25-taushetsplikt-i-forhold-til-parter-eller-den-opplysningen-gjelder-og-til-bruk-i-sak-om-erstatning">§ 25. Taushetsplikt i forhold til parter eller den opplysningen gjelder, og til bruk i sak om erstatning</a></li>
+<li class="lvl4"><a href="#26-taushetsplikt-i-den-enkelte-straffesak">§ 26. Taushetsplikt i den enkelte straffesak</a></li>
+<li class="lvl4"><a href="#27-taushetsplikt-ved-avvergende-og-forebyggende-virksomhet">§ 27. Taushetsplikt ved avvergende og forebyggende virksomhet</a></li>
+<li class="lvl4"><a href="#28-taushetsplikt-ved-politiets-andre-oppgaver">§ 28. Taushetsplikt ved politiets andre oppgaver</a></li>
+<li class="lvl4"><a href="#29-taushetsplikt-ved-utlevering-til-politiets-forvaltningsvirksomhet-mv">§ 29. Taushetsplikt ved utlevering til politiets forvaltningsvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#30-taushetsplikt-ved-utlevering-til-offentlige-organer-i-deres-interesse">§ 30. Taushetsplikt ved utlevering til offentlige organer i deres interesse</a></li>
+<li class="lvl4"><a href="#31-taushetsplikt-ved-utlevering-til-private-i-deres-interesse">§ 31. Taushetsplikt ved utlevering til private i deres interesse</a></li>
+<li class="lvl4"><a href="#32-taushetsplikt-ved-statistisk-bearbeiding-utrednings-og-planleggingsoppgaver-mv">§ 32. Taushetsplikt ved statistisk bearbeiding, utrednings- og planleggingsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#33-taushetsplikt-ved-forskning">§ 33. Taushetsplikt ved forskning</a></li>
+<li class="lvl4"><a href="#34-taushetsplikt-ved-utlevering-til-allmennheten-i-straffesak">§ 34. Taushetsplikt ved utlevering til allmennheten i straffesak</a></li>
+<li class="lvl4"><a href="#35-palegg-om-taushetsplikt">§ 35. Pålegg om taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-7-vandelskontroll-og-attester">Kapittel 7. Vandelskontroll og attester</a></li>
+<li class="lvl4"><a href="#36-vandelskontroll">§ 36. Vandelskontroll</a></li>
+<li class="lvl4"><a href="#37-formal-som-berettiger-bruk-av-politiattest">§ 37. Formål som berettiger bruk av politiattest</a></li>
+<li class="lvl4"><a href="#38-politiattest-i-srlige-tilfeller">§ 38. Politiattest i særlige tilfeller</a></li>
+<li class="lvl4"><a href="#39-politiattest-for-personer-som-skal-ha-omsorg-for-eller-oppgaver-knyttet-til-mindrearige-barneomsorgsattest">§ 39. Politiattest for personer som skal ha omsorg for eller oppgaver knyttet til mindreårige (barneomsorgsattest)</a></li>
+<li class="lvl4"><a href="#40-ordinr-politiattest">§ 40. Ordinær politiattest</a></li>
+<li class="lvl4"><a href="#41-uttmmende-og-utvidet-politiattest">§ 41. Uttømmende og utvidet politiattest</a></li>
+<li class="lvl4"><a href="#42-anmerkning-av-frre-opplysninger-pa-politiattesten">§ 42. Anmerkning av færre opplysninger på politiattesten</a></li>
+<li class="lvl4"><a href="#43-utlevering-av-nye-eller-oppdaterte-opplysninger-etter-at-politiattest-er-utstedt">§ 43. Utlevering av nye eller oppdaterte opplysninger etter at politiattest er utstedt</a></li>
+<li class="lvl4"><a href="#44-saksbehandlingsregler-for-utstedelse-av-politiattest">§ 44. Saksbehandlingsregler for utstedelse av politiattest</a></li>
+<li class="lvl4"><a href="#45-vandelsvurdering">§ 45. Vandelsvurdering</a></li>
+<li class="lvl4"><a href="#46-straffattest">§ 46. Straffattest</a></li>
+<li class="lvl4"><a href="#47-taushetsplikt-for-mottaker-av-opplysninger-om-vandelskontroll">§ 47. Taushetsplikt for mottaker av opplysninger om vandelskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-8-informasjonsplikt-innsyn-retting-sperring-og-sletting">Kapittel 8. Informasjonsplikt, innsyn, retting, sperring og sletting</a></li>
+<li class="lvl4"><a href="#48-plikt-til-a-informere-den-registrerte">§ 48. Plikt til å informere den registrerte</a></li>
+<li class="lvl4"><a href="#49-innsyn">§ 49. Innsyn</a></li>
+<li class="lvl4"><a href="#50-sletting-sperring-og-avlevering-av-opplysninger-som-ikke-lenger-er-ndvendige-for-formalet">§ 50. Sletting, sperring og avlevering av opplysninger som ikke lenger er nødvendige for formålet</a></li>
+<li class="lvl4"><a href="#51-retting-sperring-og-sletting-av-opplysninger-med-feil-eller-mangler">§ 51. Retting, sperring og sletting av opplysninger med feil eller mangler</a></li>
+<li class="lvl4"><a href="#52-bruk-av-opplysninger-som-er-sperret">§ 52. Bruk av opplysninger som er sperret</a></li>
+<li class="lvl4"><a href="#53-politiets-handleplikt-ved-feil-eller-mangler">§ 53. Politiets handleplikt ved feil eller mangler</a></li>
+<li class="lvl4"><a href="#54-saksbehandlingsregler-for-innsyn-retting-sperring-og-sletting">§ 54. Saksbehandlingsregler for innsyn, retting, sperring og sletting</a></li>
+<li class="lvl2"><a href="#kapittel-9-klageadgang-erstatning-og-rettsmidler">Kapittel 9. Klageadgang, erstatning og rettsmidler</a></li>
+<li class="lvl4"><a href="#55-klageadgang">§ 55. Klageadgang</a></li>
+<li class="lvl4"><a href="#56-erstatning">§ 56. Erstatning</a></li>
+<li class="lvl4"><a href="#57-rettsmidler">§ 57. Rettsmidler</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilsyn">Kapittel 10. Tilsyn</a></li>
+<li class="lvl4"><a href="#58-datatilsynets-tilsynskompetanse">§ 58. Datatilsynets tilsynskompetanse</a></li>
+<li class="lvl4"><a href="#59-datatilsynets-kontroll-etter-begjring-fra-den-registrerte">§ 59. Datatilsynets kontroll etter begjæring fra den registrerte</a></li>
+<li class="lvl4"><a href="#60-datatilsynets-virkemidler-og-tvangsmulkt">§ 60. Datatilsynets virkemidler og tvangsmulkt</a></li>
+<li class="lvl4"><a href="#61-tilgang">§ 61. Tilgang</a></li>
+<li class="lvl4"><a href="#62-taushetsplikt-og-politiattest">§ 62. Taushetsplikt og politiattest</a></li>
+<li class="lvl4"><a href="#63-personvernradgiver">§ 63. Personvernrådgiver</a></li>
+<li class="lvl2"><a href="#kapittel-11-politiets-sikkerhetstjeneste">Kapittel 11. Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#64-ndvendighetskravet-for-politiets-sikkerhetstjeneste">§ 64. Nødvendighetskravet for Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#65-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 65. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</a></li>
+<li class="lvl4"><a href="#65-a-behandling-av-apent-tilgjengelig-informasjon-til-etterretningsformal">§ 65 a. Behandling av åpent tilgjengelig informasjon til etterretningsformål</a></li>
+<li class="lvl4"><a href="#66-informasjonsplikt-innsyn-og-forholdet-til-offentleglova">§ 66. Informasjonsplikt, innsyn og forholdet til offentleglova</a></li>
+<li class="lvl4"><a href="#67-personkontroll">§ 67. Personkontroll</a></li>
+<li class="lvl4"><a href="#68-tilsyn-og-den-registrertes-begjring-om-kontroll">§ 68. Tilsyn og den registrertes begjæring om kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskrifter">Kapittel 12. Forskrifter</a></li>
+<li class="lvl4"><a href="#69-forskrifter">§ 69. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-13-sluttbestemmelser">Kapittel 13. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#70-ikraftsetting">§ 70. Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-49.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-05-28-16.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-05-28-16.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2010-05-28-16 <code>lov/2010-05-28-16</code></td></tr>
+<tr><th>Korttittel</th><td>Politiregisterloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Personrett. Personvern\nForvaltnings- og kommunalrett &raquo; Statistikk. Registrering\nForvaltnings- og kommunalrett &raquo; Politi</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2014, 13.09.2013, 27.09.2013, 01.01.2016, 06.05.2018</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-49 <code>lov/2026-06-19-49</code> fra 01.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2010-05-28-16" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-formal-definisjoner-og-virkeomrade">Kapittel 1. Lovens formål, definisjoner og virkeområde</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-lovens-virkeomrade">§ 3. Lovens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-behandlingen-av-opplysninger">Kapittel 2. Krav til behandlingen av opplysninger</a></li>
+<li class="lvl4"><a href="#4-formalsbestemthet">§ 4. Formålsbestemthet</a></li>
+<li class="lvl4"><a href="#5-ndvendighetskravet">§ 5. Nødvendighetskravet</a></li>
+<li class="lvl4"><a href="#6-krav-til-opplysningenes-kvalitet">§ 6. Krav til opplysningenes kvalitet</a></li>
+<li class="lvl4"><a href="#7-behandling-av-srlige-kategorier-av-personopplysninger">§ 7. Behandling av særlige kategorier av personopplysninger</a></li>
+<li class="lvl4"><a href="#8-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 8. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</a></li>
+<li class="lvl2"><a href="#kapittel-3-politiets-registre-og-andre-systemer">Kapittel 3. Politiets registre og andre systemer</a></li>
+<li class="lvl4"><a href="#9-reaksjonsregister">§ 9. Reaksjonsregister</a></li>
+<li class="lvl4"><a href="#10-vaktjournal">§ 10. Vaktjournal</a></li>
+<li class="lvl4"><a href="#11-kriminaletterretningsregister">§ 11. Kriminaletterretningsregister</a></li>
+<li class="lvl4"><a href="#12-dna-register">§ 12. DNA-register</a></li>
+<li class="lvl4"><a href="#13-fingeravtrykk-og-fotoregister">§ 13. Fingeravtrykk- og fotoregister</a></li>
+<li class="lvl4"><a href="#14-krav-om-forskriftsregulering-av-en-behandling-register">§ 14. Krav om forskriftsregulering av en behandling (register)</a></li>
+<li class="lvl2"><a href="#kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#15-informasjonssikkerhet">§ 15. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#16-internkontroll">§ 16. Internkontroll</a></li>
+<li class="lvl4"><a href="#17-kravet-til-sporbarhet">§ 17. Kravet til sporbarhet</a></li>
+<li class="lvl4"><a href="#18-databehandlerens-radighet-over-personopplysningene">§ 18. Databehandlerens rådighet over personopplysningene</a></li>
+<li class="lvl2"><a href="#kapittel-5-utlevering-og-tilgang-til-opplysninger">Kapittel 5. Utlevering og tilgang til opplysninger</a></li>
+<li class="lvl4"><a href="#19-generelt-om-utlevering-av-opplysninger">§ 19. Generelt om utlevering av opplysninger</a></li>
+<li class="lvl4"><a href="#20-srlige-regler-for-utlevering-av-ikke-verifiserte-opplysninger">§ 20. Særlige regler for utlevering av ikke-verifiserte opplysninger</a></li>
+<li class="lvl4"><a href="#21-tilgang-til-opplysninger-innad-i-politiet-og-patalemyndigheten">§ 21. Tilgang til opplysninger innad i politiet og påtalemyndigheten</a></li>
+<li class="lvl4"><a href="#22-utlevering-av-opplysninger-til-utlandet">§ 22. Utlevering av opplysninger til utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-6-begrensninger-i-taushetsplikten">Kapittel 6. Begrensninger i taushetsplikten</a></li>
+<li class="lvl4"><a href="#23-omfanget-av-taushetsplikten">§ 23. Omfanget av taushetsplikten</a></li>
+<li class="lvl4"><a href="#24-taushetsplikt-nar-det-ikke-er-behov-for-beskyttelse">§ 24. Taushetsplikt når det ikke er behov for beskyttelse</a></li>
+<li class="lvl4"><a href="#25-taushetsplikt-i-forhold-til-parter-eller-den-opplysningen-gjelder-og-til-bruk-i-sak-om-erstatning">§ 25. Taushetsplikt i forhold til parter eller den opplysningen gjelder, og til bruk i sak om erstatning</a></li>
+<li class="lvl4"><a href="#26-taushetsplikt-i-den-enkelte-straffesak">§ 26. Taushetsplikt i den enkelte straffesak</a></li>
+<li class="lvl4"><a href="#27-taushetsplikt-ved-avvergende-og-forebyggende-virksomhet">§ 27. Taushetsplikt ved avvergende og forebyggende virksomhet</a></li>
+<li class="lvl4"><a href="#28-taushetsplikt-ved-politiets-andre-oppgaver">§ 28. Taushetsplikt ved politiets andre oppgaver</a></li>
+<li class="lvl4"><a href="#29-taushetsplikt-ved-utlevering-til-politiets-forvaltningsvirksomhet-mv">§ 29. Taushetsplikt ved utlevering til politiets forvaltningsvirksomhet mv.</a></li>
+<li class="lvl4"><a href="#30-taushetsplikt-ved-utlevering-til-offentlige-organer-i-deres-interesse">§ 30. Taushetsplikt ved utlevering til offentlige organer i deres interesse</a></li>
+<li class="lvl4"><a href="#31-taushetsplikt-ved-utlevering-til-private-i-deres-interesse">§ 31. Taushetsplikt ved utlevering til private i deres interesse</a></li>
+<li class="lvl4"><a href="#32-taushetsplikt-ved-statistisk-bearbeiding-utrednings-og-planleggingsoppgaver-mv">§ 32. Taushetsplikt ved statistisk bearbeiding, utrednings- og planleggingsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#33-taushetsplikt-ved-forskning">§ 33. Taushetsplikt ved forskning</a></li>
+<li class="lvl4"><a href="#34-taushetsplikt-ved-utlevering-til-allmennheten-i-straffesak">§ 34. Taushetsplikt ved utlevering til allmennheten i straffesak</a></li>
+<li class="lvl4"><a href="#35-palegg-om-taushetsplikt">§ 35. Pålegg om taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-7-vandelskontroll-og-attester">Kapittel 7. Vandelskontroll og attester</a></li>
+<li class="lvl4"><a href="#36-vandelskontroll">§ 36. Vandelskontroll</a></li>
+<li class="lvl4"><a href="#37-formal-som-berettiger-bruk-av-politiattest">§ 37. Formål som berettiger bruk av politiattest</a></li>
+<li class="lvl4"><a href="#38-politiattest-i-srlige-tilfeller">§ 38. Politiattest i særlige tilfeller</a></li>
+<li class="lvl4"><a href="#39-politiattest-for-personer-som-skal-ha-omsorg-for-eller-oppgaver-knyttet-til-mindrearige-barneomsorgsattest">§ 39. Politiattest for personer som skal ha omsorg for eller oppgaver knyttet til mindreårige (barneomsorgsattest)</a></li>
+<li class="lvl4"><a href="#40-ordinr-politiattest">§ 40. Ordinær politiattest</a></li>
+<li class="lvl4"><a href="#41-uttmmende-og-utvidet-politiattest">§ 41. Uttømmende og utvidet politiattest</a></li>
+<li class="lvl4"><a href="#42-anmerkning-av-frre-opplysninger-pa-politiattesten">§ 42. Anmerkning av færre opplysninger på politiattesten</a></li>
+<li class="lvl4"><a href="#43-utlevering-av-nye-eller-oppdaterte-opplysninger-etter-at-politiattest-er-utstedt">§ 43. Utlevering av nye eller oppdaterte opplysninger etter at politiattest er utstedt</a></li>
+<li class="lvl4"><a href="#44-saksbehandlingsregler-for-utstedelse-av-politiattest">§ 44. Saksbehandlingsregler for utstedelse av politiattest</a></li>
+<li class="lvl4"><a href="#45-vandelsvurdering">§ 45. Vandelsvurdering</a></li>
+<li class="lvl4"><a href="#46-straffattest">§ 46. Straffattest</a></li>
+<li class="lvl4"><a href="#47-taushetsplikt-for-mottaker-av-opplysninger-om-vandelskontroll">§ 47. Taushetsplikt for mottaker av opplysninger om vandelskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-8-informasjonsplikt-innsyn-retting-sperring-og-sletting">Kapittel 8. Informasjonsplikt, innsyn, retting, sperring og sletting</a></li>
+<li class="lvl4"><a href="#48-plikt-til-a-informere-den-registrerte">§ 48. Plikt til å informere den registrerte</a></li>
+<li class="lvl4"><a href="#49-innsyn">§ 49. Innsyn</a></li>
+<li class="lvl4"><a href="#50-sletting-sperring-og-avlevering-av-opplysninger-som-ikke-lenger-er-ndvendige-for-formalet">§ 50. Sletting, sperring og avlevering av opplysninger som ikke lenger er nødvendige for formålet</a></li>
+<li class="lvl4"><a href="#51-retting-sperring-og-sletting-av-opplysninger-med-feil-eller-mangler">§ 51. Retting, sperring og sletting av opplysninger med feil eller mangler</a></li>
+<li class="lvl4"><a href="#52-bruk-av-opplysninger-som-er-sperret">§ 52. Bruk av opplysninger som er sperret</a></li>
+<li class="lvl4"><a href="#53-politiets-handleplikt-ved-feil-eller-mangler">§ 53. Politiets handleplikt ved feil eller mangler</a></li>
+<li class="lvl4"><a href="#54-saksbehandlingsregler-for-innsyn-retting-sperring-og-sletting">§ 54. Saksbehandlingsregler for innsyn, retting, sperring og sletting</a></li>
+<li class="lvl2"><a href="#kapittel-9-klageadgang-erstatning-og-rettsmidler">Kapittel 9. Klageadgang, erstatning og rettsmidler</a></li>
+<li class="lvl4"><a href="#55-klageadgang">§ 55. Klageadgang</a></li>
+<li class="lvl4"><a href="#56-erstatning">§ 56. Erstatning</a></li>
+<li class="lvl4"><a href="#57-rettsmidler">§ 57. Rettsmidler</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilsyn">Kapittel 10. Tilsyn</a></li>
+<li class="lvl4"><a href="#58-datatilsynets-tilsynskompetanse">§ 58. Datatilsynets tilsynskompetanse</a></li>
+<li class="lvl4"><a href="#59-datatilsynets-kontroll-etter-begjring-fra-den-registrerte">§ 59. Datatilsynets kontroll etter begjæring fra den registrerte</a></li>
+<li class="lvl4"><a href="#60-datatilsynets-virkemidler-og-tvangsmulkt">§ 60. Datatilsynets virkemidler og tvangsmulkt</a></li>
+<li class="lvl4"><a href="#61-tilgang">§ 61. Tilgang</a></li>
+<li class="lvl4"><a href="#62-taushetsplikt-og-politiattest">§ 62. Taushetsplikt og politiattest</a></li>
+<li class="lvl4"><a href="#63-personvernradgiver">§ 63. Personvernrådgiver</a></li>
+<li class="lvl2"><a href="#kapittel-11-politiets-sikkerhetstjeneste">Kapittel 11. Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#64-ndvendighetskravet-for-politiets-sikkerhetstjeneste">§ 64. Nødvendighetskravet for Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#65-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 65. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</a></li>
+<li class="lvl4"><a href="#65-a-behandling-av-apent-tilgjengelig-informasjon-til-etterretningsformal">§ 65 a. Behandling av åpent tilgjengelig informasjon til etterretningsformål</a></li>
+<li class="lvl4"><a href="#66-informasjonsplikt-innsyn-og-forholdet-til-offentleglova">§ 66. Informasjonsplikt, innsyn og forholdet til offentleglova</a></li>
+<li class="lvl4"><a href="#67-personkontroll">§ 67. Personkontroll</a></li>
+<li class="lvl4"><a href="#68-tilsyn-og-den-registrertes-begjring-om-kontroll">§ 68. Tilsyn og den registrertes begjæring om kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskrifter">Kapittel 12. Forskrifter</a></li>
+<li class="lvl4"><a href="#69-forskrifter">§ 69. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-13-sluttbestemmelser">Kapittel 13. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#70-ikraftsetting">§ 70. Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-05-28-16.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-05-28-16.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-05-28-16.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2010-05-28-16.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2010-05-28-16.html">Observerte kildeutgaver</a> · <a href="../historie/politiregisterloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2010-05-28-16.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2010-05-28-16.html">Observerte kildeutgaver</a> · <a href="../historie/politiregisterloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2010-05-28-16.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-behandling-av-opplysninger-i-politiet-og-patalemyndigheten-politiregisterloven">Lov om behandling av opplysninger i politiet og påtalemyndigheten (politiregisterloven)</h1>
 <h2 id="kapittel-1-lovens-formal-definisjoner-og-virkeomrade">Kapittel 1. Lovens formål, definisjoner og virkeområde</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Formålet med loven er å bidra til effektiv løsning av politiets og påtalemyndighetens oppgaver, beskyttelse av personvernet og forutberegnlighet for den enkelte ved behandlingen av opplysninger.</p>
@@ -103,7 +316,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>biometrisk opplysning: opplysning som stammer fra en særskilt teknisk behandling knyttet til en fysisk persons fysiske, fysiologiske eller atferdsmessige egenskaper, og som muliggjør eller bekrefter en entydig identifikasjon av nevnte fysiske person, for eksempel ansiktsbilder eller fingeravtrykksopplysninger,</li>
 <li>internasjonal organisasjon: en organisasjon og dens underordnede organer som er underlagt folkeretten, eller ethvert annet organ opprettet ved eller på grunnlag av en avtale mellom to eller flere stater.</li>
 </ol>
-<p><em>Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ).</p>
 <h4 id="3-lovens-virkeomrade">§ 3. Lovens virkeområde</h4>
 <p>Loven gjelder for politiets og påtalemyndighetens behandling av opplysninger, med unntak av behandling av opplysninger som</p>
 <ol>
@@ -115,7 +328,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Loven gjelder elektronisk behandling av opplysninger, og manuell behandling av opplysninger når disse inngår eller skal inngå i et register.</p>
 <p>For opplysninger om gjenstand gjelder kapittel 4 og reglene om taushetsplikt i den grad opplysninger omfattes av § 23 .</p>
 <p>Loven gjelder også for Svalbard, Jan Mayen og de norske bilandene, med de endringer som Kongen fastsetter av hensyn til de stedlige forhold.</p>
-<p><em>Endret ved lover 11 juni 2021 nr. 72 (ikr. 17 sep 2021 iflg. res. 17 sep 2021 nr. 2775 ), 18 feb 2022 nr. 6 (i kraft 7 mars 2023 iflg. res. 10 feb 2023 nr. 173 ), 28 april 2023 nr. 11 (i kraft 1 sep 2023 iflg. res. 28 april 2023 nr. 614 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 11 juni 2021 nr. 72 (ikr. 17 sep 2021 iflg. res. 17 sep 2021 nr. 2775 ), 18 feb 2022 nr. 6 (i kraft 7 mars 2023 iflg. res. 10 feb 2023 nr. 173 ), 28 april 2023 nr. 11 (i kraft 1 sep 2023 iflg. res. 28 april 2023 nr. 614 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-2-krav-til-behandlingen-av-opplysninger">Kapittel 2. Krav til behandlingen av opplysninger</h2>
 <h4 id="4-formalsbestemthet">§ 4. Formålsbestemthet</h4>
 <p>Opplysninger kan behandles til det formålet de er innhentet for eller til andre politimessige formål, med mindre det er bestemt i lov eller i medhold av lov at retten til behandling er begrenset, eller at opplysninger kan behandles til andre formål enn de politimessige.</p>
@@ -131,7 +344,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
   Bokstav d får også anvendelse i straffesaker.</li>
 <li>Til politimessige formål som nevnt i § 2 nr. 13 bokstav b kan det behandles opplysninger utover formålet med virksomheten for å ivareta den enkeltes sikkerhet, herunder opplysninger om personer som representerer en særlig sikkerhetsrisiko.</li>
 </ol>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="6-krav-til-opplysningenes-kvalitet">§ 6. Krav til opplysningenes kvalitet</h4>
 <p>Opplysninger som behandles, skal</p>
 <ol>
@@ -142,21 +355,21 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ikke-verifiserte opplysninger kan behandles, dersom det er nødvendig ut fra formålet med behandlingen.</p>
 <p>Når opplysninger behandles skal det så vidt mulig og dersom det er relevant fremgå hvilken kategori personer den registrerte tilhører, for eksempel om vedkommende er domfelt, mistenkt, fornærmet, vitne eller melder eller har tilknytning til personer som nevnt. På samme måte skal det så vidt mulig fremgå om opplysninger bygger på faktiske forhold eller vurderinger. I tillegg skal opplysninger som behandles etter § 5 nr. 2 markeres med kildens pålitelighet og opplysningens holdbarhet.</p>
 <p>For politiets etterforskning, føring av vaktjournal og lignende betyr kravet i første ledd nr. 2 til korrekte opplysninger at opplysningene skal være gjengitt slik kilden ga dem. Kravet i første ledd nr. 2 om at opplysningene skal være oppdatert, betyr for etterforskningen at opplysningene så vidt mulig skal oppdateres når de brukes som bevis.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="7-behandling-av-srlige-kategorier-av-personopplysninger">§ 7. Behandling av særlige kategorier av personopplysninger</h4>
 <p>Behandling av personopplysninger om rasemessig eller etnisk opprinnelse, politisk, religiøs eller filosofisk overbevisning, fagforeningstilhørighet samt behandling av genetiske og biometriske opplysninger med det formål entydig å identifisere en fysisk person, eller opplysninger om helsemessige forhold, seksuelle forhold eller seksuell orientering kan bare finne sted dersom det er strengt nødvendig ut fra formålet med behandlingen. Slike opplysninger kan også behandles dersom det er strengt nødvendig for å verne den registrertes eller en annen persons vitale interesser.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="8-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 8. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</h4>
 <p>Opplysninger kan uansett behandles i 4 måneder dersom det er nødvendig for å avklare om kravene i § 4 , § 5 nr. 1 og 2 og § 6 første ledd nr. 1 er oppfylt.</p>
 <p>Opplysningene skal snarest mulig underlegges kontroll, slik at de enten slettes eller behandles etter annet rettslig grunnlag enn § 8 . Som ledd i kontrollen kan opplysningene gjøres kjent for andre tjenestemenn i politiet og påtalemyndigheten. Opplysningene kan også utleveres til andre dersom det er strengt nødvendig for kontrollen.</p>
 <p>Tidsbegrensningen gjelder ikke behandling av opplysninger i den enkelte straffesak.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h2 id="kapittel-3-politiets-registre-og-andre-systemer">Kapittel 3. Politiets registre og andre systemer</h2>
 <h4 id="9-reaksjonsregister">§ 9. Reaksjonsregister</h4>
 <p>Politiet skal føre et reaksjonsregister med opplysninger om fysiske eller juridiske personer som har vært ilagt straff eller andre strafferettslige reaksjoner eller andre tiltak som følge av lovbrudd. Det skal registreres personalia, reaksjoner og tiltak. Taushetsplikten i § 23 er ikke til hinder for at opplysninger i registeret brukes til kriminalstatistikk. Kongen gir i forskrift nærmere regler om registrering av utenlandske reaksjoner og tiltak.</p>
 <h4 id="10-vaktjournal">§ 10. Vaktjournal</h4>
 <p>Politiet skal føre registre som gir en fortløpende og døgnkontinuerlig oversikt over alle vesentlige opplysninger om ordning og utførelse av polititjenesten på vedkommende sted. Registeret kan brukes til politimessige, forvaltningsmessige og administrative formål.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="11-kriminaletterretningsregister">§ 11. Kriminaletterretningsregister</h4>
 <p>Politiet kan føre kriminaletterretningsregistre dersom vilkårene i § 5 nr. 2 og lovens øvrige vilkår er oppfylt.</p>
 <h4 id="12-dna-register">§ 12. DNA-register</h4>
@@ -173,11 +386,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Politiet kan føre et eliminasjonsregister. I eliminasjonsregisteret kan det registreres opplysninger innhentet i medhold av straffeprosessloven § 158 annet ledd om ansatte i politiet, analyseinstitusjoner og andre med kjent identitet som regelmessig kommer i kontakt med åsteder og bevismateriale.</p>
 <p>Opplysningene i registeret skal kun brukes i strafferettspleien, med mindre annet er fastsatt i bestemmelsen her. Kongen kan i forskrift likevel bestemme at opplysningene også kan brukes i forskningsøyemed og gi nærmere regler om slik bruk.</p>
 <p>Kongen gir forskrift med nærmere bestemmelser om DNA-registrering, som for eksempel regler om registrering i henholdsvis identitetsregisteret, etterforskningsregisteret og sporregisteret, om føring og bruk av registrene, om søk i registrene og om oppbevaring av DNA-profiler.</p>
-<p><em>Endret ved lover 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 4 des 2020 nr. 135 (ikr. 4 des 2020 iflg. res. 4 des 2020 nr. 2592 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</em></p>
+<p class="note">Endret ved lover 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 4 des 2020 nr. 135 (ikr. 4 des 2020 iflg. res. 4 des 2020 nr. 2592 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</p>
 <h4 id="13-fingeravtrykk-og-fotoregister">§ 13. Fingeravtrykk- og fotoregister</h4>
 <p>Politiet skal føre et register med fingeravtrykk og fotografi som er innhentet i samsvar med straffeprosessloven § 160 og bestemmelsene i påtaleinstruksen . Det kan i tillegg føres et register med fingeravtrykk og fotografi av personer med ukjent identitet når opplysningene antas å ha tilknytning til uoppklart straffesak.</p>
 <p>Politiet kan føre et register med fingeravtrykk av ansatte i politiet som kan få kontakt med åsteder eller bevismateriale.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</p>
 <h4 id="14-krav-om-forskriftsregulering-av-en-behandling-register">§ 14. Krav om forskriftsregulering av en behandling (register)</h4>
 <p>Før etablering av et sentralt register, gir Kongen forskrift om</p>
 <ol>
@@ -191,7 +404,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>informasjonssikkerhet og internkontroll.</li>
 </ol>
 <p>Krav om forskriftsregulering gjelder ikke for sammenstilling av opplysninger fra registre som er regulert i politiregisterforskriften dersom behandlingen følger reglene som gjelder for kilderegisteret.</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ).</p>
 <h2 id="kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</h2>
 <h4 id="15-informasjonssikkerhet">§ 15. Informasjonssikkerhet</h4>
 <p>Den behandlingsansvarlige og databehandleren skal gjennom planlagte og systematiske tiltak sørge for tilfredsstillende informasjonssikkerhet med hensyn til konfidensialitet, integritet og tilgjengelighet ved behandling av opplysninger.</p>
@@ -213,7 +426,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>En databehandler kan ikke behandle personopplysninger på annen måte enn den som følger av skriftlig avtale eller instruks. Opplysningene kan heller ikke uten slik avtale overlates til andre for lagring eller bearbeidelse.</p>
 <p>I avtalen med den behandlingsansvarlige skal det fremgå at databehandleren plikter å gjennomføre slike sikringstiltak som følger av § 15 .</p>
 <p>Den som er ansatt hos, eller utfører tjeneste eller arbeid for databehandler, og som får tilgang til opplysninger som er taushetsbelagt i henhold til denne loven, skal være underlagt taushetsplikt. Omfanget av taushetsplikten skal fremgå av den behandlingsansvarliges avtale med databehandler. Det kan kreves uttømmende og utvidet politiattest av enhver som er ansatt hos eller utfører tjeneste eller arbeid for databehandler. Databehandler plikter på forespørsel å oppgi hvem som får tilgang til de taushetsbelagte opplysningene.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</p>
 <h2 id="kapittel-5-utlevering-og-tilgang-til-opplysninger">Kapittel 5. Utlevering og tilgang til opplysninger</h2>
 <h4 id="19-generelt-om-utlevering-av-opplysninger">§ 19. Generelt om utlevering av opplysninger</h4>
 <p>Politiet og påtalemyndigheten kan utlevere opplysninger dersom det er adgang til dette etter reglene om taushetsplikt i kapittel 6 , og vilkårene for utlevering i § 8 annet ledd og § 20 er oppfylt for opplysninger som der nevnt.</p>
@@ -222,14 +435,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ikke-verifiserte opplysninger kan utleveres når det er nødvendig for å verifisere opplysningene.</p>
 <p>Ved utlevering til bruk i den enkelte straffesak og ved avvergende og forebyggende virksomhet, jf. §§ 26 og 27 , gjelder kun første ledd annet punktum.</p>
 <p>Bestemmelsen i § 53 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="21-tilgang-til-opplysninger-innad-i-politiet-og-patalemyndigheten">§ 21. Tilgang til opplysninger innad i politiet og påtalemyndigheten</h4>
 <p>Tjenestemenn i politiet og påtalemyndigheten kan gis tilgang (rett til direkte søk) til opplysninger, eller opplysninger kan på annen måte gjøres tilgjengelig for dem, i den utstrekning det er et tjenestemessig behov, og det er til formål som omfattes av denne loven.</p>
 <p>Opplysninger som etter sin art er sensitive, eller som er gitt av noen med særskilt beskyttelsesbehov, eller som er ikke-verifiserte, bør underlegges særskilt tilgangsbegrensning.</p>
 <h4 id="22-utlevering-av-opplysninger-til-utlandet">§ 22. Utlevering av opplysninger til utlandet</h4>
 <p>Opplysninger kan utleveres til utenlandske myndigheter til formål som nevnt i § 26 . Opplysninger kan også utleveres til utenlandske samarbeidende politimyndigheter og sikkerhets- og etterretningstjenester for å avverge eller forebygge lovbrudd eller dersom det er nødvendig for å verifisere opplysningene. Bestemmelsene i § 27 tredje og femte ledd gjelder tilsvarende. For utlevering av opplysninger til land som ikke er forpliktet etter direktiv (EU) 2016/680 og til internasjonale organisasjoner, gjelder i tillegg de vilkår som fastsettes i forskrift.</p>
 <p>Opplysninger kan for øvrig utleveres til eller på annen måte gjøres tilgjengelig for utenlandske myndigheter eller internasjonale organisasjoner når dette følger av lov eller konvensjon eller avtale som er bindende for Norge, eller av avtale inngått mellom norske og andre nordiske myndigheter.</p>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 29 mars 2019 nr. 9 .</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 29 mars 2019 nr. 9 .</p>
 <h2 id="kapittel-6-begrensninger-i-taushetsplikten">Kapittel 6. Begrensninger i taushetsplikten</h2>
 <h4 id="23-omfanget-av-taushetsplikten">§ 23. Omfanget av taushetsplikten</h4>
 <p>Enhver som er ansatt i eller utfører tjeneste eller arbeid for politiet eller påtalemyndigheten, plikter å hindre at andre får adgang eller kjennskap til det han i forbindelse med tjenesten eller arbeidet får vite om</p>
@@ -264,11 +477,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Utlevering må uansett være forholdsmessig i den konkrete situasjon, og det skal særlig legges vekt på om opplysningene formidles til en mottaker som er underlagt taushetsplikt, hvordan det kan forventes at mottaker benytter opplysningene og om opplysningene etter sin art eller kilde er beheftet med usikkerhet. Dersom det er mulig og hensiktsmessig å varsle den registrerte, bør dette gjøres før utlevering skjer.</p>
 <p>Taushetsplikten er heller ikke til hinder for at politiet utleverer opplysninger til andre offentlige organer og institusjoner som inngår i et kriminalitetsforebyggende samarbeid når det er nødvendig for å forebygge kriminalitet. Bestemmelsen i tredje ledd kommer til anvendelse.</p>
 <p>Utlevering av opplysninger etter annet ledd skal besluttes av den behandlingsansvarlige. Opplysningene skal fortrinnsvis utleveres i skriftlig form. Den behandlingsansvarlige skal nedtegne hvilke opplysninger som utleveres, hvem de utleveres til og årsaken til at de utleveres. Dersom opplysningene er ikke-verifisert, skal dette fremgå særskilt. Nedtegningsplikten gjelder også for utlevering av opplysninger etter første ledd.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="28-taushetsplikt-ved-politiets-andre-oppgaver">§ 28. Taushetsplikt ved politiets andre oppgaver</h4>
 <p>Taushetsplikten er ikke til hinder for at opplysninger utleveres til offentlige organer og private i den utstrekning det er nødvendig for utøvelsen av ordenstjenesten og politiets service- og bistandsfunksjon.</p>
 <p>Bestemmelsene i § 27 tredje ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="29-taushetsplikt-ved-utlevering-til-politiets-forvaltningsvirksomhet-mv">§ 29. Taushetsplikt ved utlevering til politiets forvaltningsvirksomhet mv.</h4>
 <p>Taushetsplikten er ikke til hinder for at opplysninger gjøres kjent for andre tjenestemenn i politiet og påtalemyndigheten i den utstrekning det er nødvendig for utøvelsen av politiets forvaltningsvirksomhet og sivile gjøremål.</p>
 <p>Kongen gir i forskrift nærmere regler om utlevering av opplysninger til politiets forvaltningsvirksomhet og sivile gjøremål.</p>
@@ -280,14 +493,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Taushetsplikten er ikke til hinder for at opplysninger utleveres til private i deres interesse, dersom dette er nødvendig for å fremme mottakerens oppgaver etter lov eller for å hindre at virksomhet blir utøvd på en uforsvarlig måte.</p>
 <p>Bestemmelsene i § 27 tredje ledd første punktum og femte ledd gjelder tilsvarende.</p>
 <p>Kongen gir i forskrift nærmere regler om utlevering av opplysninger til private i deres interesse, herunder hvem det er plikt til å utlevere opplysninger til, hvilke kategorier opplysninger som kan utleveres, hva som er kriteriene for at utlevering er nødvendig, den behandlingsansvarliges informasjonsplikt etter § 48 og den registrertes innsynsrett etter § 49 første ledd.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="32-taushetsplikt-ved-statistisk-bearbeiding-utrednings-og-planleggingsoppgaver-mv">§ 32. Taushetsplikt ved statistisk bearbeiding, utrednings- og planleggingsoppgaver mv.</h4>
 <p>Taushetsplikten er ikke til hinder for at opplysninger brukes for statistisk bearbeiding, utrednings- og planleggingsoppgaver eller i forbindelse med revisjon eller annen form for kontroll.</p>
 <h4 id="33-taushetsplikt-ved-forskning">§ 33. Taushetsplikt ved forskning</h4>
 <p>Når det finnes rimelig og ikke medfører uforholdsmessig ulempe for andre interesser, kan det bestemmes at opplysninger i det enkelte tilfelle gis til bruk for forskning uten hinder av taushetsplikten i § 23 .</p>
 <p>I straffesaker treffes beslutning etter første ledd av riksadvokaten og for øvrig av Politidirektoratet, eller av Justisdepartementet for så vidt gjelder opplysninger i saker som behandles av Politiets sikkerhetstjeneste.</p>
 <p>Bestemmelsene i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> § 13d annet og tredje ledd og § 13e kommer til anvendelse så langt de passer.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</p>
 <h4 id="34-taushetsplikt-ved-utlevering-til-allmennheten-i-straffesak">§ 34. Taushetsplikt ved utlevering til allmennheten i straffesak</h4>
 <p>Taushetsplikten som nevnt i § 23 første ledd er ikke til hinder for at allmennheten gis opplysninger fra straffesak på følgende vilkår:</p>
 <ol>
@@ -300,7 +513,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Politiet eller påtalemyndigheten kan pålegge taushetsplikt når mottaker får opplysninger undergitt taushetsplikt i forbindelse med at de uttaler seg til eller på annen måte bistår politiet eller påtalemyndigheten. Det samme gjelder når fornærmede, etterlatte og deres representanter får opplysninger undergitt taushetsplikt, jf. § 25 første ledd.</p>
 <p>Politiet eller påtalemyndigheten kan pålegge enhver som utfører tjeneste eller arbeid for statlig eller kommunalt organ, taushetsplikt om opplysninger som nevnt i § 23 annet ledd når organet mottar opplysninger som er taushetsbelagt i henhold til denne loven.</p>
 <p>Brudd på taushetsplikten etter første og annet ledd straffes etter straffeloven § 209 dersom vedkommende er gjort oppmerksom på at overtredelse kan få slik følge. Vedkommende myndighet skal sørge for at taushetsplikten og straffetrusselen blir kjent for dem den gjelder, og kan kreve skriftlig erklæring om at de kjenner og vil respektere reglene.</p>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</p>
 <h2 id="kapittel-7-vandelskontroll-og-attester">Kapittel 7. Vandelskontroll og attester</h2>
 <h4 id="36-vandelskontroll">§ 36. Vandelskontroll</h4>
 <p>Vandelskontroll kan bare foretas når den har hjemmel i lov eller i forskrift gitt i medhold av lov. Opplysninger fra kontrollen gis på følgende måter:</p>
@@ -310,7 +523,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Som straffattest. Dokumentet utstedes til bruk i straffesak og kan inneholde opplysninger om en fysisk eller juridisk person er ilagt straff eller andre strafferettslige reaksjoner eller andre tiltak som følge av lovbrudd.</li>
 </ol>
 <p>Det kan i lov eller i forskrift gitt i medhold av lov stilles krav om inntil 5 års botid i Norge dersom det i forbindelse med vandelskontroll ikke kan fremlegges politiattest som nevnt i første ledd nr. 1, og vesentlige samfunnshensyn tilsier det. Kravet til botid kan bare overstige 5 år dersom vesentlige sikkerhetsmessige hensyn tilsier det.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</p>
 <h4 id="37-formal-som-berettiger-bruk-av-politiattest">§ 37. Formål som berettiger bruk av politiattest</h4>
 <p>Politiattest, jf. § 36 første ledd nr. 1, kan bare brukes for å utelukke fysiske og juridiske personer fra stilling, virksomhet, aktivitet eller annen funksjon dersom</p>
 <ol>
@@ -330,7 +543,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>På politiattest som er begrunnet i formål som nevnt i § 37 første ledd nr. 4 skal det anmerkes om personen er siktet, tiltalt, har vedtatt forelegg eller er dømt for overtredelse av lov 22. mai 1902 nr. 10 Almindelig borgerlig Straffelov §§ 162 , 192 , 193 , 194 , 195 , 196 , 197 , 199 , § 200 annet ledd, § 201 første ledd bokstav c, §§ 201 a , 203 , 204 a , 219 , 224 , § 229 annet og tredje straffalternativ, §§ 231 , 233 og 268 jf. 267 og straffeloven §§ 231 , 232 , 257 , 258 , 274 , 275 , 282 , 283 , 291 , 293 , 294 , 295 , 296 , 299 , 301 , 302 , 303 , 304 , 305 , 306 , 309 , 310 , 311 , 312 , 314 , 327 og 328 . Overtredelse av lov 22. mai 1902 nr. 10 Almindelig borgerlig Straffelov §§ 192 , 193 , 194 , 195 , 196 , 197 , 199 , § 200 annet ledd, § 201 første ledd bokstav c, §§ 201 a , 204 a og 233 og straffeloven §§ 275 , 291 , 293 , 294 , 295 , 296 , 299 , 301 , 302 , 303 , 304 , 305 , 306 , 310 , 311 , 312 og 314 skal anmerkes i samsvar med § 41 nr. 1. Overtredelse av lov 22. mai 1902 nr. 10 Almindelig borgerlig Straffelov §§ 162 , 203 , 219 , 224 , § 229 annet og tredje straffalternativ, §§ 231 og 268 jf. 267 og straffeloven §§ 231 , 232 , 257 , 258 , 274 , 282 , 283 , 309 , 327 og 328 skal anmerkes i samsvar med § 40 .</p>
 <p>Det må foreligge særlige grunner for at det i forskrift gitt i medhold av annen lovgivning skal kunne innføres krav om flere eller færre straffebestemmelser enn de som følger av første ledd.</p>
 <p>Politiattest som er begrunnet i formål som nevnt i § 37 første ledd nr. 5 kan være uttømmende og utvidet, jf. § 41 , dersom det følger av annen lovgivning.</p>
-<p><em>Endret ved lov 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</em></p>
+<p class="note">Endret ved lov 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</p>
 <h4 id="40-ordinr-politiattest">§ 40. Ordinær politiattest</h4>
 <p><em>Med mindre annet er særskilt angitt i lov eller i forskrift gitt i medhold av lov, skal det utstedes ordinær politiattest. Med mindre annet fremgår av nr. 5, 6 eller 7, skal det i ordinær politiattest oppgis dom på betinget og ubetinget fengsel, dom på forvaring, eventuelt sikring, dom på samfunnsstraff, eventuelt samfunnstjeneste, dom på ungdomsstraff, dom på rettighetstap, bot for lovbrudd med øvre strafferamme på fengsel i mer enn 6 måneder, og dom på overføring til tvungent psykisk helsevern eller tvungen omsorg, eventuelt sikring. Med unntak av tilfellene omhandlet i nr. 4, skal det i ordinær politiattest ikke oppgis betinget dom hvor fastsetting av straff utstår, påtaleunnlatelse etter straffeprosessloven §§ 69 og 70 , bot for lovbrudd med øvre strafferamme på fengsel inntil 6 måneder, forenklet forelegg, overføring til behandling i konfliktråd, jf. straffeprosessloven § 71 a , overføring til barnevernstjenesten, dom med straffutmålingsfrafall, tap av retten til å føre motorvogn mv., jf. <a href="lov-1965-06-18-4.html">vegtrafikkloven</a> § 24 a annet ledd, § 33 nr. 1 og 2 , og § 35 første ledd og tap av retten til å drive persontransport mot vederlag (kjøreseddel), jf. yrkestransportloven § 37 f annet ledd, eller inndragning. Er det i samme reaksjonsileggelse ilagt reaksjoner som er omhandlet både i nr. 2 og 3, kan den samlede reaksjonen angis i attesten. I ordinær politiattest skal det ikke oppgis reaksjoner som er ilagt ved dom avsagt eller forelegg vedtatt mer enn 3 år før utstedelsen, med mindre annet følger av nr. 6, 7 eller 8. Varig rettighetstap oppgis alltid. I ordinær politiattest skal det ikke oppgis dom på betinget fengsel eller bot, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er inntil 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 2 år før utstedelsen av attesten, eller ungdomsstraff eller samfunnsstraff der den subsidiære fengselsstraffen er over 6 måneder, dersom lovbruddet er begått av person under 18 år mer enn 5 år før utstedelsen av attesten. På ordinær politiattest skal oppgis dom på ubetinget fengsel over 6 måneder, dersom den dømte er løslatt mindre enn 10 år før politiattesten utstedes, forvaring, eventuelt sikring, dersom den dømte er løslatt mindre enn 10 år før politiattesten utstedes, samfunnsstraff, eventuelt samfunnstjeneste, der den subsidiære fengselsstraff er over 6 måneder og samfunnsstraffen er gjennomført mindre enn 10 år før politiattesten utstedes, rettighetstap, som er opphørt mindre enn 10 år før politiattesten utstedes, og overføring til tvungent psykisk helsevern eller tvungen omsorg, eventuelt sikring, dersom reaksjonen opphørte mindre enn 10 år før politiattesten utstedes. Tilsvarende skal opphør av slik reaksjon anmerkes på attesten. Har en person flere dommer på ubetinget fengsel i 6 måneder eller mer, sikring, forvaring eller overføring til tvungent psykisk helsevern eller tvungen omsorg, tas alle dommene med i politiattesten, selv om bare en av dem skal oppgis etter tidsfristen i nr. 7. Kongen gir i forskrift nærmere regler om anmerkning av utenlandske reaksjoner og tiltak på politiattest.
 Endret ved lover 20 jan 2012 nr. 6 (ikr. 1 juli 2014 iflg. res. 13 juni 2014 nr. 721 ), 22 apr 2016 nr. 3 (ikr. 22 apr 2016 iflg. res. 22 apr 2016 nr. 407 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ), 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ), 20 des 2023 nr. 110 (i kraft 1 sep 2024 iflg. res. 24 mai 2024 nr. 811 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</em></p>
@@ -339,7 +552,7 @@ Endret ved lover 20 jan 2012 nr. 6 (ikr. 1 juli 2014 iflg. res. 13 juni 2014 nr.
 Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 795 ).</em></p>
 <h4 id="42-anmerkning-av-frre-opplysninger-pa-politiattesten">§ 42. Anmerkning av færre opplysninger på politiattesten</h4>
 <p>Den Kongen bemyndiger, kan beslutte at færre opplysninger skal anmerkes på politiattesten, dersom dette ikke strider mot formålet med politiattesten.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="43-utlevering-av-nye-eller-oppdaterte-opplysninger-etter-at-politiattest-er-utstedt">§ 43. Utlevering av nye eller oppdaterte opplysninger etter at politiattest er utstedt</h4>
 <p>Brukeren av tidligere utstedt politiattest kan få utlevert nye opplysninger av betydning, dersom vilkårene for utstedelse av politiattest fortsatt er til stede. Det kan ikke utleveres andre opplysninger enn de som fremgår av hjemmelsgrunnlaget for utstedelse av den opprinnelige attesten.</p>
 <p>Den som har begjært utstedelse av politiattest, skal snarest mulig varsles om at nye opplysninger er utlevert til brukeren. Dersom det ikke foreligger nye opplysninger, avsluttes saken ved at brukeren gis beskjed om dette.</p>
@@ -357,7 +570,7 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <h4 id="47-taushetsplikt-for-mottaker-av-opplysninger-om-vandelskontroll">§ 47. Taushetsplikt for mottaker av opplysninger om vandelskontroll</h4>
 <p>Enhver som mottar opplysninger i vandelskontroll som nevnt i §§ 38 til 45 skal hindre at uvedkommende får adgang eller kjennskap til opplysninger i vandelskontrollen.</p>
 <p>Brudd på taushetsplikten etter første ledd straffes etter straffeloven § 209 , dersom mottaker av opplysningene er gjort oppmerksom på at overtredelse kan få slike følger.</p>
-<p><em>Endret ved lov 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</em></p>
+<p class="note">Endret ved lov 11 des 2015 nr. 98 (ikr. 1 jan 2016 iflg. res. 11 des 2015 nr. 1438 ).</p>
 <h2 id="kapittel-8-informasjonsplikt-innsyn-retting-sperring-og-sletting">Kapittel 8. Informasjonsplikt, innsyn, retting, sperring og sletting</h2>
 <h4 id="48-plikt-til-a-informere-den-registrerte">§ 48. Plikt til å informere den registrerte</h4>
 <p>Den behandlingsansvarlige har plikt til å informere den registrerte om at det er utlevert personopplysninger til offentlige organer og private i deres interesse, jf. §§ 30 og 31 .</p>
@@ -368,7 +581,7 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <li>der utlevering ikke er av vesentlig betydning for den registrerte, eller</li>
 <li>der det i lov eller i medhold av lov er bestemt at informasjonsplikten ikke gjelder.</li>
 </ol>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="49-innsyn">§ 49. Innsyn</h4>
 <p>I den enkelte straffesak har den registrerte rett til dokumentinnsyn i samsvar med straffeprosesslovens regler.</p>
 <p>Utenfor den enkelte straffesak har den registrerte rett til å få opplyst hvilke opplysninger som er registrert om seg selv.</p>
@@ -385,17 +598,17 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <p>Opplysninger skal ikke lagres lenger enn det som er nødvendig for formålet med behandlingen. Opplysningene skal slettes eller sperres, med mindre de skal oppbevares i henhold til <a href="lov-2025-06-20-96.html">arkivlova</a> eller annen lovgivning.</p>
 <p>Den behandlingsansvarlige kan uten hinder av første ledd lagre personopplysninger for historiske, statistiske eller vitenskapelige formål, dersom samfunnets interesse i at opplysninger lagres klart overstiger de ulempene den kan medføre for den enkelte. Opplysningene skal ikke oppbevares på måter som gjør det mulig å identifisere den registrerte lenger enn nødvendig.</p>
 <p>Opplysninger innhentet ved kommunikasjonskontroll som ikke er brukt i saken, skal sperres når saken er avgjort ved rettskraftig dom eller endelig henleggelsesbeslutning. Sperrede opplysninger kan benyttes ved begjæring om gjenåpning, ved gjenopptakelse av etterforskning, eller for å ivareta siktedes legitime interesser. Opplysninger som det etter straffeprosessloven § 216 g ikke er adgang til å beholde, skal slettes så snart som mulig. Bestemmelsen gjelder tilsvarende for opplysninger innhentet etter straffeprosessloven §§ 216 m og 216 o , og for opplysninger innhentet etter straffeprosessloven §§ 202 c , 202 e og 202 f så langt den passer. Kongen gir i forskrift nærmere regler om sletting og bruk av sperrede opplysninger fra kommunikasjonskontroll.</p>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 24 april 2020 nr. 33 (ikr. 1 feb 2021 iflg. res. 11 des 2020 nr. 2702 ), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ), 19 juni 2026 nr. 49 (i kraft 1 okt 2026 iflg. res. 19 juni 2026 nr. 1135 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 24 april 2020 nr. 33 (ikr. 1 feb 2021 iflg. res. 11 des 2020 nr. 2702 ), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ), 19 juni 2026 nr. 49 (i kraft 1 okt 2026 iflg. res. 19 juni 2026 nr. 1135 ).</p>
 <h4 id="51-retting-sperring-og-sletting-av-opplysninger-med-feil-eller-mangler">§ 51. Retting, sperring og sletting av opplysninger med feil eller mangler</h4>
 <p>Den behandlingsansvarlige skal av eget tiltak eller på begjæring av den registrerte rette opplysninger som er mangelfulle, og om mulig eller nødvendig supplere eller oppdatere dem. Mangelfulle opplysninger som åpenbart ikke kan ha betydning som dokumentasjon, kan slettes.</p>
 <p>Opplysninger som er beheftet med en feil som ikke kan rettes, skal sperres eller slettes. Dersom det er grunn til å tro at sletting vil kunne påvirke den registrertes legitime interesser, skal opplysningene sperres.</p>
 <p>Opplysninger som er sperret i medhold av denne paragrafen kan bare brukes dersom det er nødvendig for å dokumentere hva som ble behandlet av opplysninger.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="52-bruk-av-opplysninger-som-er-sperret">§ 52. Bruk av opplysninger som er sperret</h4>
 <p>Opplysninger som er sperret med hjemmel i §§ 50 eller 51 eller på annet grunnlag, kan bare brukes til de formål som gjorde at opplysningen ikke ble slettet. Kongen gir i forskrift nærmere regler om hvilke formål sperrede opplysninger kan brukes til.</p>
 <h4 id="53-politiets-handleplikt-ved-feil-eller-mangler">§ 53. Politiets handleplikt ved feil eller mangler</h4>
 <p>Dersom det er behandlet mangelfulle opplysninger som nevnt i § 51 eller det er skjedd andre brudd på loven, skal den behandlingsansvarlige så langt som mulig sørge for at feilen ikke får betydning for den registrerte. Er opplysningene utlevert, skal mottaker av opplysningene varsles om feilen uten unødig opphold og anmodes om å rette, slette eller sperre opplysningene i samsvar med eget rettsgrunnlag.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="54-saksbehandlingsregler-for-innsyn-retting-sperring-og-sletting">§ 54. Saksbehandlingsregler for innsyn, retting, sperring og sletting</h4>
 <p>Begjæring om innsyn, retting, sperring eller sletting av opplysninger skal fremsettes skriftlig til politiet eller påtalemyndigheten. Begjæringen må angi hvilke behandlinger den gjelder. Den som fremsetter begjæringen må identifisere seg på en tilstrekkelig måte. Den behandlingsansvarlige avgjør om begjæringen skal tas til følge, og påser at det kun er vedkommendes opplysninger som rettes, sperres, slettes eller det gis innsyn i.</p>
 <p>Begjæringen skal besvares snarest mulig og senest innen 30 dager. Dersom begjæringen tas til følge, skal opplysningene gis skriftlig, med mindre Kongen bestemmer annet for den enkelte behandling.</p>
@@ -417,11 +630,11 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <p>Den behandlingsansvarlige skal erstatte skade som er oppstått som følge av at opplysninger er behandlet i strid med bestemmelser gitt i eller i medhold av denne loven, selv om ingen har skyld i skaden. Ved brudd på reglene om utlevering og taushetsplikt i §§ 19 til 35 gjelder de alminnelige erstatningsregler. Erstatningen skal svare til det økonomiske tapet som den skadelidte påføres som følge av den ulovlige behandlingen av opplysningene.</p>
 <p>Erstatningen kan også omfatte slik erstatning for skade av ikke-økonomisk art (oppreisning) som synes rimelig, med mindre det godtgjøres at skaden ikke skyldes feil eller forsømmelse på den behandlingsansvarliges side.</p>
 <p>Når krav fremsettes etter at en person har vært siktet i en straffesak, gjelder likevel behandlingsreglene i straffeprosessloven kapittel 31 så langt de passer og ikke annet er fastsatt i medhold av loven her.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="57-rettsmidler">§ 57. Rettsmidler</h4>
 <p>Den registrerte kan, uavhengig av rettighetene etter § 55 første ledd og § 59 , saksøke den behandlingsansvarlige eller databehandleren dersom vedkommendes rettigheter etter loven har blitt krenket som følge av behandlingen av opplysningene om vedkommende.</p>
 <p>Den registrerte kan, uavhengig av rettigheten etter § 60 tredje ledd, saksøke Datatilsynet når Datatilsynet har truffet en avgjørelse som er rettslig bindende for den registrerte. Det samme gjelder dersom Datatilsynet ikke behandler en begjæring om kontroll innen 3 måneder, eller ikke innen 3 måneder gir opplysning om sakens fremdrift eller utfall.</p>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 , flyttet til kapittel 9, se § 70).</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 , flyttet til kapittel 9, se § 70).</p>
 <h2 id="kapittel-10-tilsyn">Kapittel 10. Tilsyn</h2>
 <p>Overskrift endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="58-datatilsynets-tilsynskompetanse">§ 58. Datatilsynets tilsynskompetanse</h4>
@@ -434,7 +647,7 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <p>Datatilsynet kan gi anmerkning dersom det finner at behandling av opplysninger i den enkelte straffesak er i strid med loven. Det samme gjelder for behandling som nevnt i første ledd siste punktum. Slik anmerkning skal meddeles den behandlingsansvarlige med gjenpart til den behandlingsansvarliges overordnete organ.</p>
 <p>Datatilsynets vedtak etter første ledd kan påklages til Personvernnemnda. Kongen gir nærmere regler i forskrift.</p>
 <p>Ved pålegg som nevnt i første ledd kan Datatilsynet fastsette en tvangsmulkt som løper for hver dag som går etter utløpet av den fristen som er satt for oppfylling av pålegget, inntil pålegget er oppfylt.</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 22 juni 2018 nr. 81 (ikr. 1 juli 2018 iflg. res. 22 juni 2018 nr. 949 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</p>
 <h4 id="61-tilgang">§ 61. Tilgang</h4>
 <p>Datatilsynet og Personvernnemnda kan kreve de opplysninger som er nødvendige for at de kan gjennomføre sine oppgaver.</p>
 <p>Datatilsynet og Personvernnemnda kan som ledd i sine oppgaver etter loven kreve adgang til de steder der opplysninger behandles og der det finnes hjelpemidler for behandlingen. Datatilsynet kan gjennomføre prøver og kontroller som de mener er nødvendige, og kreve bistand fra personalet på stedet i den grad dette må til for å få utført prøvene eller kontrollene.</p>
@@ -442,11 +655,11 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <h4 id="62-taushetsplikt-og-politiattest">§ 62. Taushetsplikt og politiattest</h4>
 <p>Personer som gjennom tilsyn får tilgang til opplysninger underlagt taushetsplikt etter § 23 , er underlagt samme taushetsplikt.</p>
 <p>Det skal kreves uttømmende og utvidet politiattest for personer som skal utføre tilsyn.</p>
-<p><em>Endret ved lover 20 juni 2014 nr. 47 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 792 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2014 nr. 47 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 792 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h4 id="63-personvernradgiver">§ 63. Personvernrådgiver</h4>
 <p>Det skal etableres en ordning med personvernrådgiver.</p>
 <p>Kongen gir forskrift om det nærmere innholdet i ordningen.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ).</p>
 <h2 id="kapittel-11-politiets-sikkerhetstjeneste">Kapittel 11. Politiets sikkerhetstjeneste</h2>
 <h4 id="64-ndvendighetskravet-for-politiets-sikkerhetstjeneste">§ 64. Nødvendighetskravet for Politiets sikkerhetstjeneste</h4>
 <p>Politiets sikkerhetstjeneste kan behandle opplysninger når det er nødvendig for politimessige formål, etterretningsvirksomhet og forvaltningsvirksomhet i tjenesten. I tillegg må vilkårene i annet og tredje ledd være oppfylt.</p>
@@ -461,7 +674,7 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 4. er nødvendig for personkontroll eller akkreditering med de begrensninger som følger av § 67,
 5. er nødvendig for å dokumentere hvilken overskuddsinformasjon som er gjort tilgjengelig for andre, eller
 6. er nødvendig for å utarbeide analyser og etterretningsvurderinger som nevnt i politiloven § 17 a .</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 28 april 2023 nr. 11 (i kraft 1 sep 2023 iflg. res. 28 april 2023 nr. 614 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 28 april 2023 nr. 11 (i kraft 1 sep 2023 iflg. res. 28 april 2023 nr. 614 ).</p>
 <h4 id="65-tidsbegrenset-unntak-fra-kravene-til-formalsbestemthet-ndvendighet-og-relevans">§ 65. Tidsbegrenset unntak fra kravene til formålsbestemthet, nødvendighet og relevans</h4>
 <p>Opplysninger kan uansett behandles i 4 måneder dersom det er nødvendig for å avklare om kravene i § 4 , § 64 tredje ledd og § 6 første ledd nr. 1 er oppfylt.</p>
 <p>Bestemmelsene i § 8 annet og tredje ledd gjelder tilsvarende.</p>
@@ -475,13 +688,13 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 </ol>
 <p>Opplysningene skal slettes senest etter 5 år. Sjefen for Politiets sikkerhetstjeneste eller den denne bemyndiger, kan beslutte at nærmere angitte opplysninger skal beholdes i ytterligere 5 år av gangen, men ikke lenger enn 15 år totalt, dersom opplysningene etter en konkret vurdering fremdeles er nødvendige for formål som nevnt i annet ledd nr. 1.</p>
 <p>Kongen gir i forskrift nærmere regler om behandling av opplysninger etter denne bestemmelsen, herunder om utlevering, utsatt sletting, tilgangsbegrensning og kontroll.</p>
-<p><em>Tilføyd ved lov 28 april 2023 nr. 11 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 961 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Tilføyd ved lov 28 april 2023 nr. 11 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 961 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="66-informasjonsplikt-innsyn-og-forholdet-til-offentleglova">§ 66. Informasjonsplikt, innsyn og forholdet til <a href="lov-2006-05-19-16.html">offentleglova</a></h4>
 <p>Reglene om informasjonsplikt i § 48 og innsynsrett i § 49 annet og tredje ledd gjelder ikke for Politiets sikkerhetstjeneste.</p>
 <p>Offentleglova gjelder ikke for innsyn i opplysninger som behandles av Politiets sikkerhetstjeneste i medhold av denne loven. Avgjørelser om innsyn hos Politiets sikkerhetstjeneste kan heller ikke påklages etter offentleglova .</p>
 <p>For innsyn i opplysninger som behandles i forbindelse med klarering, gjelder bestemmelsene gitt i eller i medhold av <a href="lov-2018-06-01-24.html">sikkerhetsloven</a> .</p>
 <p>Innsyn i saksdokumenter i sak om båndlegging kan gis etter reglene i straffeprosessloven, som gjelder så langt de passer.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ).</p>
 <h4 id="67-personkontroll">§ 67. Personkontroll</h4>
 <p>Til bruk i en aktuell sak om personkontroll kan Politiets sikkerhetstjeneste behandle opplysninger som er av betydning for spørsmålet om klarering. Mottar Politiets sikkerhetstjeneste opplysninger som reiser tvil om en allerede sikkerhetsklarert person er sikkerhetsmessig skikket, kan opplysningene behandles og videreformidles til klareringsmyndigheten.</p>
 <p>Politiets sikkerhetstjeneste skal ikke innhente eller behandle opplysninger utelukkende fordi opplysningene kan være av betydning for en fremtidig personkontroll.</p>
@@ -526,13 +739,15 @@ Endret ved lov 20 juni 2014 nr. 49 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr.
 <li>særregler for militærpolitiets behandling av opplysninger.</li>
 </ol>
 <p>Kongen kan videre i forskrift gi nærmere regler om behandling av opplysninger som følger av konvensjoner mv. som nevnt i § 22 annet ledd.</p>
-<p><em>Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ), 11 juni 2021 nr. 72 (ikr. 17 sep 2021 iflg. res. 17 sep 2021 nr. 2775 ), 29 april 2022 nr. 26 (i kraft 1 mai 2022 iflg. res. 29 april 2022 nr. 639 ), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ), 21 juni 2017 nr. 94 (ikr. 6 mai 2018 iflg. res. 27 apr 2018 nr. 642 ), 21 juni 2019 nr. 50 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 779 ), 11 juni 2021 nr. 72 (ikr. 11 juni 2021 iflg. res. 11 juni 2021 nr. 1873 ), 11 juni 2021 nr. 72 (ikr. 17 sep 2021 iflg. res. 17 sep 2021 nr. 2775 ), 29 april 2022 nr. 26 (i kraft 1 mai 2022 iflg. res. 29 april 2022 nr. 639 ), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ). Endres ved lov 19 juni 2026 nr. 46 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-13-sluttbestemmelser">Kapittel 13. Sluttbestemmelser</h2>
 <h4 id="70-ikraftsetting">§ 70. Ikraftsetting</h4>
 <p>Loven trer i kraft fra den tid 1 Kongen bestemmer. Kongen kan bestemme at ulike bestemmelser i loven kan tre i kraft til forskjellig tid.</p>
 <p>Kongen kan gi nærmere overgangsregler.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ). Iflg. res. 4 des 2015 nr. 1397 trådte § 14 ikr. 1 jan 2016.
-1 Iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 og res. 20 juni 2014 nr. 789 trådte loven ikr. 1 juli 2014, med unntak av § 14 og § 57 (som ble gitt nytt innhold ved lov 21 juni 2017 nr. 94 med ikr. 6 mai 2018), og § 12, som trådte ikr. 27 sep 2013 med virkning fra 13 sep 2013. Iflg. res. 4 des 2015 nr. 1397 trådte § 14 ikr. 1 jan 2016.</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 82 (ikr. 1 juli 2014 iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 ). Iflg. res. 4 des 2015 nr. 1397 trådte § 14 ikr. 1 jan 2016.
+1 Iflg. res. 27 sep 2013 nr. 1132 som endret ved res. 13 des 2013 nr. 1449 og res. 20 juni 2014 nr. 789 trådte loven ikr. 1 juli 2014, med unntak av § 14 og § 57 (som ble gitt nytt innhold ved lov 21 juni 2017 nr. 94 med ikr. 6 mai 2018), og § 12, som trådte ikr. 27 sep 2013 med virkning fra 13 sep 2013. Iflg. res. 4 des 2015 nr. 1397 trådte § 14 ikr. 1 jan 2016.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

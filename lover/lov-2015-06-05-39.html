@@ -19,68 +19,149 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2015-06-05-39.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i ID-kortloven" href="../feeds/lov-2015-06-05-39.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>ID-kortloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2015-06-05-39</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett &raquo; Indre marked og EØS\nForvaltnings- og kommunalrett &raquo; Politi</dd>
-<dt>Ikrafttredelse</dt><dd>2020-10-19</dd>
-<dt>Sist endret</dt><dd>lov/2025-12-22-115</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2015-06-05-39" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-rett-til-nasjonalt-id-kort">§ 1. Rett til nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#2-ansvarlig-myndighet">§ 2. Ansvarlig myndighet</a></li>
+<li class="lvl3"><a href="#3-sknad-om-nasjonalt-id-kort">§ 3. Søknad om nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#4-nasjonalt-id-kort-til-mindrearige-og-personer-som-er-fratatt-rettslig-handleevne">§ 4. Nasjonalt ID-kort til mindreårige og personer som er fratatt rettslig handleevne</a></li>
+<li class="lvl3"><a href="#5-hindringer-for-a-fa-nasjonalt-id-kort-med-reiserett">§ 5. Hindringer for å få nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl3"><a href="#6-innholdet-i-nasjonalt-id-kort">§ 6. Innholdet i nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#7-oppbevaring-og-tap">§ 7. Oppbevaring og tap</a></li>
+<li class="lvl3"><a href="#8-tilbakekall-innlevering-og-beslag">§ 8. Tilbakekall, innlevering og beslag</a></li>
+<li class="lvl3"><a href="#8-a-underretningsplikt-til-kommunens-barnevernstjeneste">§ 8 a. Underretningsplikt til kommunens barnevernstjeneste</a></li>
+<li class="lvl3"><a href="#9-nasjonalt-id-kortregister">§ 9. Nasjonalt ID-kortregister</a></li>
+<li class="lvl3"><a href="#10-tilgang-rett-til-sk">§ 10. Tilgang (rett til søk)</a></li>
+<li class="lvl3"><a href="#11-utlevering-av-opplysninger">§ 11. Utlevering av opplysninger</a></li>
+<li class="lvl3"><a href="#12-utlevering-av-opplysninger-til-andre-formal">§ 12. Utlevering av opplysninger til andre formål</a></li>
+<li class="lvl3"><a href="#13-klage">§ 13. Klage</a></li>
+<li class="lvl3"><a href="#14-forskrifter">§ 14. Forskrifter</a></li>
+<li class="lvl3"><a href="#15-forholdet-til-folkeretten">§ 15. Forholdet til folkeretten</a></li>
+<li class="lvl3"><a href="#16-ikrafttredelse">§ 16. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#17-endring-i-andre-lover">§ 17. Endring i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-12-22-115.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-06-05-39.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om nasjonalt identitetskort (ID-kortloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-06-05-39.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2015-06-05-39 <code>lov/2015-06-05-39</code></td></tr>
+<tr><th>Korttittel</th><td>ID-kortloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett &raquo; Indre marked og EØS\nForvaltnings- og kommunalrett &raquo; Politi</td></tr>
+<tr><th>Ikrafttredelse</th><td>19.10.2020</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-12-22-115 <code>lov/2025-12-22-115</code> fra 23.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2015-06-05-39" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-rett-til-nasjonalt-id-kort">§ 1. Rett til nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#2-ansvarlig-myndighet">§ 2. Ansvarlig myndighet</a></li>
+<li class="lvl3"><a href="#3-sknad-om-nasjonalt-id-kort">§ 3. Søknad om nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#4-nasjonalt-id-kort-til-mindrearige-og-personer-som-er-fratatt-rettslig-handleevne">§ 4. Nasjonalt ID-kort til mindreårige og personer som er fratatt rettslig handleevne</a></li>
+<li class="lvl3"><a href="#5-hindringer-for-a-fa-nasjonalt-id-kort-med-reiserett">§ 5. Hindringer for å få nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl3"><a href="#6-innholdet-i-nasjonalt-id-kort">§ 6. Innholdet i nasjonalt ID-kort</a></li>
+<li class="lvl3"><a href="#7-oppbevaring-og-tap">§ 7. Oppbevaring og tap</a></li>
+<li class="lvl3"><a href="#8-tilbakekall-innlevering-og-beslag">§ 8. Tilbakekall, innlevering og beslag</a></li>
+<li class="lvl3"><a href="#8-a-underretningsplikt-til-kommunens-barnevernstjeneste">§ 8 a. Underretningsplikt til kommunens barnevernstjeneste</a></li>
+<li class="lvl3"><a href="#9-nasjonalt-id-kortregister">§ 9. Nasjonalt ID-kortregister</a></li>
+<li class="lvl3"><a href="#10-tilgang-rett-til-sk">§ 10. Tilgang (rett til søk)</a></li>
+<li class="lvl3"><a href="#11-utlevering-av-opplysninger">§ 11. Utlevering av opplysninger</a></li>
+<li class="lvl3"><a href="#12-utlevering-av-opplysninger-til-andre-formal">§ 12. Utlevering av opplysninger til andre formål</a></li>
+<li class="lvl3"><a href="#13-klage">§ 13. Klage</a></li>
+<li class="lvl3"><a href="#14-forskrifter">§ 14. Forskrifter</a></li>
+<li class="lvl3"><a href="#15-forholdet-til-folkeretten">§ 15. Forholdet til folkeretten</a></li>
+<li class="lvl3"><a href="#16-ikrafttredelse">§ 16. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#17-endring-i-andre-lover">§ 17. Endring i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-06-05-39.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-06-05-39.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-06-05-39.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2015-06-05-39.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2015-06-05-39.html">Observerte kildeutgaver</a> · <a href="../historie/id-kortloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2015-06-05-39.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2015-06-05-39.html">Observerte kildeutgaver</a> · <a href="../historie/id-kortloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2015-06-05-39.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-nasjonalt-identitetskort-id-kortloven">Lov om nasjonalt identitetskort (ID-kortloven)</h1>
 <h3 id="1-rett-til-nasjonalt-id-kort">§ 1. Rett til nasjonalt ID-kort</h3>
 <p>Norske statsborgere som fyller vilkårene i loven, har etter søknad rett til å få nasjonalt ID-kort med funksjonalitet som gyldig reisedokument i EØS-området (reiserett).</p>
 <p>Norske statsborgere som ikke ønsker eller ikke kan få nasjonalt ID-kort med reiserett, men fyller lovens øvrige vilkår, har etter søknad rett til å få nasjonalt ID-kort uten reiserett.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</p>
 <h3 id="2-ansvarlig-myndighet">§ 2. Ansvarlig myndighet</h3>
 <p>Politiet er ansvarlig myndighet for utstedelse av nasjonalt ID-kort (ID-kortmyndighet).</p>
 <h3 id="3-sknad-om-nasjonalt-id-kort">§ 3. Søknad om nasjonalt ID-kort</h3>
@@ -93,7 +174,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Samtykke fra den eller de som har foreldreansvaret, kreves også for utstedelse av nasjonalt ID-kort uten reiserett til mindreårige under 13 år. Har foreldrene felles foreldreansvar, må begge samtykke.</p>
 <p>For utstedelse av nasjonalt ID-kort med reiserett til personer som er fratatt rettslig handleevne, der fratakelsen omfatter retten til å få utstedt nasjonalt ID-kort med reiserett, kreves samtykke fra vergen.</p>
 <p>Nasjonalt ID-kort med reiserett kan i særlige tilfeller utstedes til person som nevnt i første og tredje ledd uten samtykke dersom det er åpenbart ubetenkelig.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ), 19 des 2025 nr. 113 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2706 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ), 19 des 2025 nr. 113 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2706 ).</p>
 <h3 id="5-hindringer-for-a-fa-nasjonalt-id-kort-med-reiserett">§ 5. Hindringer for å få nasjonalt ID-kort med reiserett</h3>
 <p>Nasjonalt ID-kort med reiserett skal ikke utstedes</p>
 <p>a. når søkeren er etterlyst med henblikk på pågripelse, er besluttet pågrepet eller varetektsfengslet eller har samtykket i innlevering av pass etter <a href="lov-1981-05-22-25.html">straffeprosessloven</a> kapittel 14
@@ -110,7 +191,7 @@ c. søkeren tidligere har forfalsket eller brukt falskt nasjonalt ID-kort med re
 d. det er grunn til å tro at formålet med reisen er å begå en handling som rammes av bestemmelsene i straffeloven §§ 101 til 107 om folkemord, forbrytelser mot menneskeheten og krigsforbrytelser eller straffeloven §§ 131 til 145 om terrorhandlinger og terrorrelaterte handlinger
 e. søkeren er mindreårig, og det er grunn til å tro at søkeren vil bli utsatt for straffbare forhold i utlandet eller forhold der som kan medføre fare for liv eller helse.</p>
 <p>Nasjonalt ID-kort med reiserett må ikke nektes uten at tungtveiende hensyn taler for det. Ved avgjørelsen skal det tas i betraktning hvilken betydning kortet vil ha for søkeren. Etter annet ledd skal det vurderes om søkeren vil unndra seg iverksettelse av den lovhjemlede forpliktelsen.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 22 des 2025 nr. 115 (i kraft 23 jan 2026 iflg. res. 23 jan 2026 nr. 68 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 22 des 2025 nr. 115 (i kraft 23 jan 2026 iflg. res. 23 jan 2026 nr. 68 ).</p>
 <h3 id="6-innholdet-i-nasjonalt-id-kort">§ 6. Innholdet i nasjonalt ID-kort</h3>
 <p>Nasjonalt ID-kort skal bare inneholde opplysninger som er nødvendige for å kontrollere kortets ekthet og bekrefte innehaverens identitet. Biometriske personopplysninger innhentet etter § 3 annet ledd lagres i det nasjonale ID-kortet på en slik måte at hensynet til informasjonens ekthet, integritet og konfidensialitet blir ivaretatt.</p>
 <p>Utfylling av personopplysninger i de enkelte nasjonale ID-kortene skal gjøres i Norge.</p>
@@ -130,7 +211,7 @@ e. kortet finnes i uvedkommendes besittelse.</p>
 <p>Politiet kan ta beslag i nasjonalt ID-kort med reiserett som forevises ved grensekontroll i inntil 3 uker når vilkårene etter første ledd antas oppfylt. Kortet skal tilbakeleveres hvis ID-kortmyndigheten ikke har fattet vedtak om tilbakekall innen 3 uker. Straffeprosessloven § 208 gjelder tilsvarende.</p>
 <h3 id="8-a-underretningsplikt-til-kommunens-barnevernstjeneste">§ 8 a. Underretningsplikt til kommunens barnevernstjeneste</h3>
 <p>ID-kortmyndigheten skal straks underrette kommunens barnevernstjeneste om vedtak om nektelse eller tilbakekall av nasjonalt ID-kort med reiserett etter § 5 tredje ledd bokstav e, jf. § 8 første ledd bokstav a.</p>
-<p><em>Tilføyd ved lov 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), endret ved lov 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2019 nr. 107 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), endret ved lov 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ).</p>
 <h3 id="9-nasjonalt-id-kortregister">§ 9. Nasjonalt ID-kortregister</h3>
 <p>Det skal opprettes et nasjonalt ID-kortregister. Registeret kan kobles mot passregisteret.</p>
 <p>Nasjonalt ID-kortregister kan inneholde opplysninger som er nødvendige for forvaltning av registeret og utstedelse av nasjonalt ID-kort, blant annet søkers navn, signatur, fødselsnummer, biometrisk ansiktsfoto, høyde, øyenfarge, hårfarge, serienummer eller annen entydig referanse for tilknyttet eID, og opplysninger om tap og tilbakekall av kortet. Ved endring av navn eller andre opplysninger, og ved utstedelse av nytt nasjonalt ID-kort kan også tidligere data beholdes i registeret. Ved søknad om nasjonalt ID-kort til mindreårige og personer uten rettslig handleevne kan biometrisk ansiktsfoto av foresatte eller verge inntas i registeret.</p>
@@ -138,14 +219,14 @@ e. kortet finnes i uvedkommendes besittelse.</p>
 <p>a. hvilke opplysninger som kan registreres
 b. hvem som er behandlingsansvarlig
 c. innsyn, begrensning av behandling, retting og sletting av opplysninger.</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</p>
 <h3 id="10-tilgang-rett-til-sk">§ 10. Tilgang (rett til søk)</h3>
 <p>ID-kortmyndigheten, passmyndigheten, Politidirektoratet, Kripos og ansatte i norsk grensekontroll kan gis tilgang til opplysningene i nasjonalt ID-kortregister, eller opplysningene kan på annen måte gjøres tilgjengelig for dem, når det er tjenestemessig behov for opplysningene for utstedelse, forvaltning, innlevering eller beslag av pass og nasjonalt ID-kort eller for utførelse av grensekontroll.</p>
-<p><em>Endret ved lov 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</em></p>
+<p class="note">Endret ved lov 12 juni 2020 nr. 65 (ikr. 19 okt 2020 iflg. res. 16 okt 2020 nr. 2062 ).</p>
 <h3 id="11-utlevering-av-opplysninger">§ 11. Utlevering av opplysninger</h3>
 <p>Opplysninger fra nasjonalt ID-kortregister kan utleveres når det er nødvendig for å kontrollere et nasjonalt ID-kort eller innehaverens identitet. Opplysninger om utstedte ID-kort kan utleveres til registermyndigheten for Folkeregisteret. Ansiktsfoto kan utleveres til utlendingsmyndighetene når det er nødvendig i forbindelse med opptak og registrering av ansiktsfoto etter <a href="lov-2008-05-15-35.html">utlendingsloven</a> § 100 .</p>
 <p>Utlevering av opplysninger etter første ledd kan skje ved direkte søk som går ut på treff eller ikke-treff.</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 28 april 2023 nr. 10 (i kraft 14 mars 2025 iflg. res. 14 mars 2025 nr. 446 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ), 28 april 2023 nr. 10 (i kraft 14 mars 2025 iflg. res. 14 mars 2025 nr. 446 ).</p>
 <h3 id="12-utlevering-av-opplysninger-til-andre-formal">§ 12. Utlevering av opplysninger til andre formål</h3>
 <p>Opplysninger fra nasjonalt ID-kortregister kan utleveres til politiet til bruk</p>
 <p>a. i arbeid med å finne savnet person eller med å identifisere en død person eller en person som det hører under politiets oppgaver å hjelpe
@@ -160,7 +241,7 @@ g. for utførelse av oppgaver etter passloven.</p>
 <p>Til oppgaver nevnt i første ledd kan opplysninger fra nasjonalt ID-kortregister utleveres til utenlandske samarbeidende politimyndigheter og sikkerhetstjenester når utleveringen ikke anses uforholdsmessig. Utleveringen skal besluttes av den som Politidirektoratet utpeker. Første og annet punktum innebærer ingen begrensning i adgangen til å utlevere opplysninger på annet grunnlag.</p>
 <h3 id="13-klage">§ 13. Klage</h3>
 <p>Avgjørelser om nasjonalt ID-kort etter denne loven kan påklages til Politidirektoratet.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 93 (ikr. 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 ).</p>
 <h3 id="14-forskrifter">§ 14. Forskrifter</h3>
 <p>Kongen gir forskrifter med nærmere regler om</p>
 <p>a. gyldighetstiden for nasjonalt ID-kort, blant annet om begrenset eller forlenget gyldighetstid
@@ -179,6 +260,8 @@ f. adgang til å få midlertidig ID-dokument ved tap av nasjonalt ID-kort med re
 <p><em>1 Fra 19 okt 2020 iflg. res. 9 okt 2020 nr. 2008 .</em></p>
 <h3 id="17-endring-i-andre-lover">§ 17. Endring i andre lover</h3>
 <p>I lov 19. juni 1997 nr. 82 om pass skal § 8 fjerde ledd lyde: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,235 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2001-03-09-439.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om skipsmedisin" href="../feeds/forskrift-2001-03-09-439.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om skipsmedisin</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2001-03-09-439</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2001-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-10-29-2589</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2001-03-09-439" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-i-virkeomrade-og-definisjoner">Kap. I. Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-fartygrupper">§ 4. Fartøygrupper</a></li>
+<li class="lvl2"><a href="#kap-ii-ansvarsforhold-og-tilsyn">Kap. II. Ansvarsforhold og tilsyn</a></li>
+<li class="lvl4"><a href="#5-ansvar">§ 5. Ansvar</a></li>
+<li class="lvl4"><a href="#6-tilsyn">§ 6. Tilsyn</a></li>
+<li class="lvl2"><a href="#kap-iii-krav-til-skipsmedisinbeholdningen">Kap. III. Krav til skipsmedisinbeholdningen</a></li>
+<li class="lvl4"><a href="#7-generelle-krav-til-skipsmedisinen">§ 7. Generelle krav til skipsmedisinen</a></li>
+<li class="lvl4"><a href="#8-srskilte-krav-til-legemidler">§ 8. Særskilte krav til legemidler</a></li>
+<li class="lvl4"><a href="#9-skipsmedisinbeholdning">§ 9. Skipsmedisinbeholdning</a></li>
+<li class="lvl4"><a href="#10-tilleggskrav-for-skip-over-500-bruttotonn">§ 10. Tilleggskrav for skip over 500 bruttotonn</a></li>
+<li class="lvl4"><a href="#11-tilleggskrav-for-passasjerskip">§ 11. Tilleggskrav for passasjerskip</a></li>
+<li class="lvl4"><a href="#12-skip-som-frakter-farlig-last">§ 12. Skip som frakter farlig last</a></li>
+<li class="lvl4"><a href="#13-skipsmedisin-for-redningsmidler">§ 13. Skipsmedisin for redningsmidler</a></li>
+<li class="lvl2"><a href="#kap-iv-sykelugar-lege-om-bord">Kap. IV. Sykelugar, lege om bord</a></li>
+<li class="lvl4"><a href="#14-sykelugar">§ 14. Sykelugar</a></li>
+<li class="lvl4"><a href="#15-lege-om-bord">§ 15. Lege om bord</a></li>
+<li class="lvl2"><a href="#kap-v-rekvirering-av-legemidler-til-skip">Kap. V. Rekvirering av legemidler til skip</a></li>
+<li class="lvl4"><a href="#16-rekvirering">§ 16. Rekvirering</a></li>
+<li class="lvl4"><a href="#17-tap-av-rekvisisjonsrett">§ 17. Tap av rekvisisjonsrett</a></li>
+<li class="lvl2"><a href="#kap-vi-oppbevaring-av-skipsmedisin">Kap. VI. Oppbevaring av skipsmedisin</a></li>
+<li class="lvl4"><a href="#18-oppbevaring-av-skipsmedisin">§ 18. Oppbevaring av skipsmedisin</a></li>
+<li class="lvl4"><a href="#19-skipsmedisin-for-redningsmidler">§ 19. Skipsmedisin for redningsmidler</a></li>
+<li class="lvl4"><a href="#20-frstehjelpsutstyr">§ 20. Førstehjelpsutstyr</a></li>
+<li class="lvl2"><a href="#kap-vii-utlevering-og-kontroll-med-skipsmedisin">Kap. VII. Utlevering og kontroll med skipsmedisin</a></li>
+<li class="lvl4"><a href="#21-utlevering-av-legemidler-om-bord">§ 21. Utlevering av legemidler om bord</a></li>
+<li class="lvl4"><a href="#22-ettersyn-og-kassasjon">§ 22. Ettersyn og kassasjon</a></li>
+<li class="lvl4"><a href="#23-dokumentasjon">§ 23. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kap-viii-legerad-opplring-utdannelse-handbker">Kap. VIII. Legeråd, opplæring, utdannelse, håndbøker</a></li>
+<li class="lvl4"><a href="#24-legerad-og-evakuering">§ 24. Legeråd og evakuering</a></li>
+<li class="lvl4"><a href="#25-handbker-mv">§ 25. Håndbøker mv.</a></li>
+<li class="lvl4"><a href="#26-opplring">§ 26. Opplæring</a></li>
+<li class="lvl2"><a href="#kap-ix-diverse-bestemmelser">Kap. IX. Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#27-fravik">§ 27. Fravik</a></li>
+<li class="lvl4"><a href="#28-straffebestemmelser">§ 28. Straffebestemmelser</a></li>
+<li class="lvl4"><a href="#29-ikrafttredelse">§ 29. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#30-overgangsbestemmelse">§ 30. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl3"><a href="#eksempelliste-over-legemidler-mforslag-til-dosering">Eksempelliste over legemidler m/forslag til dosering</a></li>
+<li class="lvl3"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl3"><a href="#vedlegg-3">Vedlegg 3</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-bestemmelser">Merknader til de enkelte bestemmelser:</a></li>
+<li class="lvl3"><a href="#til-2-bokstav-c">Til § 2 bokstav c</a></li>
+<li class="lvl3"><a href="#til-3">Til § 3</a></li>
+<li class="lvl3"><a href="#til-4">Til § 4</a></li>
+<li class="lvl3"><a href="#til-7">Til § 7</a></li>
+<li class="lvl3"><a href="#til-9">Til § 9</a></li>
+<li class="lvl3"><a href="#til-10">Til § 10</a></li>
+<li class="lvl3"><a href="#til-11">Til § 11</a></li>
+<li class="lvl3"><a href="#til-12">Til § 12</a></li>
+<li class="lvl3"><a href="#til-14">Til § 14</a></li>
+<li class="lvl3"><a href="#til-15">Til § 15</a></li>
+<li class="lvl3"><a href="#til-16">Til § 16</a></li>
+<li class="lvl3"><a href="#til-17">Til § 17</a></li>
+<li class="lvl3"><a href="#til-18">Til § 18</a></li>
+<li class="lvl3"><a href="#til-21">Til § 21</a></li>
+<li class="lvl3"><a href="#til-22">Til § 22</a></li>
+<li class="lvl3"><a href="#til-24">Til § 24</a></li>
+<li class="lvl3"><a href="#til-vedlegg-1">Til Vedlegg 1</a></li>
+<li class="lvl3"><a href="#til-vedlegg-3">Til Vedlegg 3</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-10-29-2589.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-03-09-439.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om skipsmedisin</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-03-09-439.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2001-03-09-439 <code>forskrift/2001-03-09-439</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2001</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-10-29-2589 <code>forskrift/2024-10-29-2589</code> fra 29.10.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2001-03-09-439" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-i-virkeomrade-og-definisjoner">Kap. I. Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-fartygrupper">§ 4. Fartøygrupper</a></li>
+<li class="lvl2"><a href="#kap-ii-ansvarsforhold-og-tilsyn">Kap. II. Ansvarsforhold og tilsyn</a></li>
+<li class="lvl4"><a href="#5-ansvar">§ 5. Ansvar</a></li>
+<li class="lvl4"><a href="#6-tilsyn">§ 6. Tilsyn</a></li>
+<li class="lvl2"><a href="#kap-iii-krav-til-skipsmedisinbeholdningen">Kap. III. Krav til skipsmedisinbeholdningen</a></li>
+<li class="lvl4"><a href="#7-generelle-krav-til-skipsmedisinen">§ 7. Generelle krav til skipsmedisinen</a></li>
+<li class="lvl4"><a href="#8-srskilte-krav-til-legemidler">§ 8. Særskilte krav til legemidler</a></li>
+<li class="lvl4"><a href="#9-skipsmedisinbeholdning">§ 9. Skipsmedisinbeholdning</a></li>
+<li class="lvl4"><a href="#10-tilleggskrav-for-skip-over-500-bruttotonn">§ 10. Tilleggskrav for skip over 500 bruttotonn</a></li>
+<li class="lvl4"><a href="#11-tilleggskrav-for-passasjerskip">§ 11. Tilleggskrav for passasjerskip</a></li>
+<li class="lvl4"><a href="#12-skip-som-frakter-farlig-last">§ 12. Skip som frakter farlig last</a></li>
+<li class="lvl4"><a href="#13-skipsmedisin-for-redningsmidler">§ 13. Skipsmedisin for redningsmidler</a></li>
+<li class="lvl2"><a href="#kap-iv-sykelugar-lege-om-bord">Kap. IV. Sykelugar, lege om bord</a></li>
+<li class="lvl4"><a href="#14-sykelugar">§ 14. Sykelugar</a></li>
+<li class="lvl4"><a href="#15-lege-om-bord">§ 15. Lege om bord</a></li>
+<li class="lvl2"><a href="#kap-v-rekvirering-av-legemidler-til-skip">Kap. V. Rekvirering av legemidler til skip</a></li>
+<li class="lvl4"><a href="#16-rekvirering">§ 16. Rekvirering</a></li>
+<li class="lvl4"><a href="#17-tap-av-rekvisisjonsrett">§ 17. Tap av rekvisisjonsrett</a></li>
+<li class="lvl2"><a href="#kap-vi-oppbevaring-av-skipsmedisin">Kap. VI. Oppbevaring av skipsmedisin</a></li>
+<li class="lvl4"><a href="#18-oppbevaring-av-skipsmedisin">§ 18. Oppbevaring av skipsmedisin</a></li>
+<li class="lvl4"><a href="#19-skipsmedisin-for-redningsmidler">§ 19. Skipsmedisin for redningsmidler</a></li>
+<li class="lvl4"><a href="#20-frstehjelpsutstyr">§ 20. Førstehjelpsutstyr</a></li>
+<li class="lvl2"><a href="#kap-vii-utlevering-og-kontroll-med-skipsmedisin">Kap. VII. Utlevering og kontroll med skipsmedisin</a></li>
+<li class="lvl4"><a href="#21-utlevering-av-legemidler-om-bord">§ 21. Utlevering av legemidler om bord</a></li>
+<li class="lvl4"><a href="#22-ettersyn-og-kassasjon">§ 22. Ettersyn og kassasjon</a></li>
+<li class="lvl4"><a href="#23-dokumentasjon">§ 23. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kap-viii-legerad-opplring-utdannelse-handbker">Kap. VIII. Legeråd, opplæring, utdannelse, håndbøker</a></li>
+<li class="lvl4"><a href="#24-legerad-og-evakuering">§ 24. Legeråd og evakuering</a></li>
+<li class="lvl4"><a href="#25-handbker-mv">§ 25. Håndbøker mv.</a></li>
+<li class="lvl4"><a href="#26-opplring">§ 26. Opplæring</a></li>
+<li class="lvl2"><a href="#kap-ix-diverse-bestemmelser">Kap. IX. Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#27-fravik">§ 27. Fravik</a></li>
+<li class="lvl4"><a href="#28-straffebestemmelser">§ 28. Straffebestemmelser</a></li>
+<li class="lvl4"><a href="#29-ikrafttredelse">§ 29. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#30-overgangsbestemmelse">§ 30. Overgangsbestemmelse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl3"><a href="#eksempelliste-over-legemidler-mforslag-til-dosering">Eksempelliste over legemidler m/forslag til dosering</a></li>
+<li class="lvl3"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl3"><a href="#vedlegg-3">Vedlegg 3</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-bestemmelser">Merknader til de enkelte bestemmelser:</a></li>
+<li class="lvl3"><a href="#til-2-bokstav-c">Til § 2 bokstav c</a></li>
+<li class="lvl3"><a href="#til-3">Til § 3</a></li>
+<li class="lvl3"><a href="#til-4">Til § 4</a></li>
+<li class="lvl3"><a href="#til-7">Til § 7</a></li>
+<li class="lvl3"><a href="#til-9">Til § 9</a></li>
+<li class="lvl3"><a href="#til-10">Til § 10</a></li>
+<li class="lvl3"><a href="#til-11">Til § 11</a></li>
+<li class="lvl3"><a href="#til-12">Til § 12</a></li>
+<li class="lvl3"><a href="#til-14">Til § 14</a></li>
+<li class="lvl3"><a href="#til-15">Til § 15</a></li>
+<li class="lvl3"><a href="#til-16">Til § 16</a></li>
+<li class="lvl3"><a href="#til-17">Til § 17</a></li>
+<li class="lvl3"><a href="#til-18">Til § 18</a></li>
+<li class="lvl3"><a href="#til-21">Til § 21</a></li>
+<li class="lvl3"><a href="#til-22">Til § 22</a></li>
+<li class="lvl3"><a href="#til-24">Til § 24</a></li>
+<li class="lvl3"><a href="#til-vedlegg-1">Til Vedlegg 1</a></li>
+<li class="lvl3"><a href="#til-vedlegg-3">Til Vedlegg 3</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-03-09-439.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-03-09-439.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-03-09-439.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2001-03-09-439.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2001-03-09-439.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-03-09-439.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2001-03-09-439.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2001-03-09-439.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-03-09-439.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-skipsmedisin">Forskrift om skipsmedisin</h1>
 <h2 id="kap-i-virkeomrade-og-definisjoner">Kap. I. Virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften har til formål å sikre at det om bord på skip finnes skipsmedisin som er nødvendig for å ivareta arbeidstakeres og passasjerers helse og sikkerhet. Forskriften skal bidra til forsvarlig anskaffelse, oppbevaring, utlevering og kontroll av skipsmedisin.</p>
@@ -99,8 +270,8 @@ f. skipsmedisin: legemidler, medisinsk utstyr mv., jf. de ikke-uttømmende liste
 g. narkotika: legemidler som er oppført i narkotikalisten, 2 se vedlegg 3,
 h. utlevering: utlevering av skipsmedisin fra bemyndiget person til rekvirent og pasient og umiddelbar bruk av skipsmedisin av bemyndiget person på pasient,
 i. farlig last: last som er omtalt som farlig i IMDG-koden, International Maritime Dangerous Goods Code, utgitt av International Maritime Organization (IMO).</p>
-<p><em>Endret ved forskrifter 14 feb 2013 nr. 199 , 29 okt 2024 nr. 2589 .
-1 Lov av 9. juni 1903 nr. 7 om Statskontrol med Skibes Sjødygtighed m.v. 2 Forskrift 14. februar 2013 nr. 199 om narkotika (narkotikaforskriften) .</em></p>
+<p class="note">Endret ved forskrifter 14 feb 2013 nr. 199 , 29 okt 2024 nr. 2589 .
+1 Lov av 9. juni 1903 nr. 7 om Statskontrol med Skibes Sjødygtighed m.v. 2 Forskrift 14. februar 2013 nr. 199 om narkotika (narkotikaforskriften) .</p>
 <h4 id="4-fartygrupper">§ 4. Fartøygrupper</h4>
 <p>Med fartøygrupper menes:</p>
 <p><em>Fartøygruppe A: Havgående fartøyer herunder fartøyer som driver fiske til havs, uten begrensninger i fartsområde, samt havgående fartøyer som ikke faller inn under fartøygruppe B.
@@ -125,8 +296,8 @@ Fartøygruppe C: Fartøyer som driver havnetrafikk og fartøyer som oppholder se
 <p>Fiske- og fangstfartøyer som opererer innenfor fartsområde bankfiske II, jf. forskrift om fartsområder 1 § 23 , kan utstyres som fartøygruppe B, jf. første ledd.</p>
 <p>Fartøy under 15 meter som tilhører fartøygruppe C og fartøy med tillatelse til begrenset passasjerbefordring, kan i stedet for skipsmedisinenhet i samsvar med første ledd utstyres med nødvendig førstehjelpsutstyr.</p>
 <p>Skipsmedisinenheten skal til enhver tid inneholde tilstrekkelig mengde skipsmedisin. Ved denne vurdering skal det blant annet tas hensyn til antall arbeidstakere, reisens varighet, bestemmelsessted og anløpshavner, typer arbeid som skal utføres i løpet av reisen, lastens art og faktisk fartsområde.</p>
-<p><em>Endret ved forskrift 14 juni 2004 nr. 888 .
-1 Forskrift av 4. november 1981 nr. 3793 om fartsområder.</em></p>
+<p class="note">Endret ved forskrift 14 juni 2004 nr. 888 .
+1 Forskrift av 4. november 1981 nr. 3793 om fartsområder.</p>
 <h4 id="10-tilleggskrav-for-skip-over-500-bruttotonn">§ 10. Tilleggskrav for skip over 500 bruttotonn</h4>
 <p>Skip over 500 bruttotonn skal i tillegg til de øvrige krav som følger av forskriften, ha nødvendig førstehjelpsutstyr i maskinrom og bysse.</p>
 <h4 id="11-tilleggskrav-for-passasjerskip">§ 11. Tilleggskrav for passasjerskip</h4>
@@ -145,7 +316,7 @@ Fartøygruppe C: Fartøyer som driver havnetrafikk og fartøyer som oppholder se
 <p>Skip med et mannskap på 100 arbeidstakere eller flere på en utenriksreise som overstiger tre døgn, skal ha en lege om bord med ansvar for den medisinske behandling av arbeidstakerne.</p>
 <p>Andre skip skal ha lege om bord dersom det er nødvendig. Ved vurdering av hva som er nødvendig, skal det blant annet tas hensyn til risiko og fartsområde mv.</p>
 <p>For passasjerskip gjelder i tillegg kravene i forskrift 2. oktober 1972 nr. 4 om beregning av passasjerantall og om passasjerbekvemmeligheter m.v. § 27 .</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1345 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1345 (i kraft 1 jan 2013).</p>
 <h2 id="kap-v-rekvirering-av-legemidler-til-skip">Kap. V. Rekvirering av legemidler til skip</h2>
 <h4 id="16-rekvirering">§ 16. Rekvirering</h4>
 <p>Skipsfører, rederi eller den lege som er tilknyttet rederiet, har etter forskrift om rekvirering og utlevering av legemidler m.m. , 1 rett til å rekvirere de legemidler som skal være om bord i skip. Ved behov for øyeblikkelig hjelp plikter skipsfører å skaffe til veie nødvendig skipsmedisin så raskt som mulig.</p>
@@ -154,23 +325,23 @@ Fartøygruppe C: Fartøyer som driver havnetrafikk og fartøyer som oppholder se
 <p>Legemidler som rekvireres, skal være lovlig omsatt i det land de utleveres fra og være av tilfredsstillende kvalitet, jf. § 7 og § 8 .</p>
 <p>Et hvert innkjøp av narkotika skal føres i kontrollboken, jf. § 25 .</p>
 <p>Ved innkjøp av skipsmedisin skal skipsfører påse at selger utsteder en fortegnelse på norsk eller engelsk i 2 eksemplarer over de leverte varer. Fortegnelsen skal oppbevares om bord frem til neste sakkyndige ettersyn etter § 22 .</p>
-<p><em>Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 , 14 feb 2013 nr. 199 , 29 okt 2024 nr. 2589 .
-1 Forskrift 2. juni 2022 nr. 977 om rekvirering og utlevering av legemidler m.m.</em></p>
+<p class="note">Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 , 14 feb 2013 nr. 199 , 29 okt 2024 nr. 2589 .
+1 Forskrift 2. juni 2022 nr. 977 om rekvirering og utlevering av legemidler m.m.</p>
 <h4 id="17-tap-av-rekvisisjonsrett">§ 17. Tap av rekvisisjonsrett</h4>
 <p>Dersom Helsedirektoratet finner at skipsførers eller rederis rekvirering av reseptpliktige legemidler er uforsvarlig, kan dennes rett til å rekvirere reseptpliktige legemidler, gitt i medhold av forskrift om rekvirering og utlevering av legemidler m.m. , 1 tilbakekalles.</p>
-<p><em>Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 , 29 okt 2024 nr. 2589 .
-1 Forskrift 2. juni 2022 nr. 977 om rekvirering og utlevering av legemidler m.m.</em></p>
+<p class="note">Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 , 29 okt 2024 nr. 2589 .
+1 Forskrift 2. juni 2022 nr. 977 om rekvirering og utlevering av legemidler m.m.</p>
 <h2 id="kap-vi-oppbevaring-av-skipsmedisin">Kap. VI. Oppbevaring av skipsmedisin</h2>
 <h4 id="18-oppbevaring-av-skipsmedisin">§ 18. Oppbevaring av skipsmedisin</h4>
 <p>Skipsmedisin skal oppbevares slik at den holdes i god stand.</p>
 <p>Legemidler om bord skal oppbevares oversiktlig i avlåst skap, skrin, koffert e.l., godt beskyttet mot fuktighet, frost og sterk varme. Legemidler som skal oppbevares kaldt, skal oppbevares i kjøleskap. Skip i fartøygruppe A og B skal være utstyrt med låsbart medisinskap. I skip med sykelugar skal medisinskap plasseres i sykelugaren. Bare skipsfører og de han gir fullmakt, skal ha nøkkel og adgang til legemidlene i skipsmedisinenheten, jf. § 9 . Narkotika skal alltid oppbevares innelåst.</p>
 <p>Legemidlene i skipsmedisinenhetene skal ordnes etter bruksområde, jf. vedlegg 1.</p>
 <p>Desinfeksjonsmidler til teknisk bruk skal oppbevares adskilt fra legemidler.</p>
-<p><em>Endret ved forskrift 14 feb 2013 nr. 199 .</em></p>
+<p class="note">Endret ved forskrift 14 feb 2013 nr. 199 .</p>
 <h4 id="19-skipsmedisin-for-redningsmidler">§ 19. Skipsmedisin for redningsmidler</h4>
 <p>Skipsmedisin for redningsmidler skal oppbevares i vanntette, forseglede beholdere tydelig merket med at det inneholder førstehjelpsutstyr og med dato for siste ettersyn og dato som angir hvor lenge utstyret er holdbart. Liste over innholdet skal finnes i beholderen.</p>
 <p>På fartøyer som ligger ubevoktet i havn, herunder fiske- og fangstfartøyer, frakteskuter og lokale ferger, skal det ikke oppbevares narkotika i redningsmidler. Narkotika til redningsmidlene skal for disse fartøyer pakkes i egne, vanntette beholdere, og oppbevares på lett tilgjengelig sted slik at de lett kan medbringes i en krisesituasjon. Det er skipsførers ansvar å sørge for sikker oppbevaring når fartøyet er forlatt ved kai. Redningsmidlene skal påføres tydelig merking som sier at de ikke inneholder narkotiske legemidler.</p>
-<p><em>Endret ved forskrift 14 feb 2013 nr. 199 .</em></p>
+<p class="note">Endret ved forskrift 14 feb 2013 nr. 199 .</p>
 <h4 id="20-frstehjelpsutstyr">§ 20. Førstehjelpsutstyr</h4>
 <p>Førstehjelpsutstyr, jf. § 9 og § 10 , skal oppbevares i veske, koffert, skap e.l. som skal være tydelig merket med at det inneholder førstehjelpsutstyr, dato for siste ettersyn og dato som angir hvor lenge utstyret er holdbart. Liste over innholdet skal finnes sammen med utstyret.</p>
 <h2 id="kap-vii-utlevering-og-kontroll-med-skipsmedisin">Kap. VII. Utlevering og kontroll med skipsmedisin</h2>
@@ -178,7 +349,7 @@ Fartøygruppe C: Fartøyer som driver havnetrafikk og fartøyer som oppholder se
 <p>Utlevering av legemidler om bord skal bare foretas av skipsføreren eller de han gir fullmakt. Utlevering skal bare skje ved behandling av ombordværende personer. Utlevering skal som hovedregel skje etter kontakt med lege eller etter skriftlige instrukser gitt på forhånd av lege. Utlevering av legemidler skal nedtegnes av den som utleverer legemidlet.</p>
 <p>Utleveres noe legemiddel i større mengde enn den som umiddelbart anvendes, skal det leveres i egnet emballasje påført legemidlets navn og bruksanvisning.</p>
 <p>Det må vises særskilt aktsomhet ved utlevering av narkotika. Et hvert uttak av narkotika skal føres i kontrollboken, jf. § 25 .</p>
-<p><em>Endret ved forskrift 14 feb 2013 nr. 199 .</em></p>
+<p class="note">Endret ved forskrift 14 feb 2013 nr. 199 .</p>
 <h4 id="22-ettersyn-og-kassasjon">§ 22. Ettersyn og kassasjon</h4>
 <p>Skipsmedisin skal underlegges sakkyndig ettersyn minst en gang hver tolvte måned. Kontrollen kan i unntakstilfeller utsettes i opptil fem måneder. Utført ettersyn skal dokumenteres, jf. fjerde ledd. Med sakkyndig ettersyn menes ettersyn av farmasøyt eller lege.</p>
 <p>For skip med sikkerhetsstyringssertifikat, jf. sjødyktighetsloven 1 femte kapittel med tilhørende forskrifter, kan sakkyndig ettersyn foretas hvert tredje år, forutsatt at skipsfører eller den han gir fullmakt, jf. § 5 , foretar tilsvarende ettersyn av legemidler og medisinsk utstyr, jf. første ledd, minst en gang hver tolvte måned. Sikkerhetsstyringssystemet skal inneholde prosedyre for kontroll og ettersyn av skipsmedisin.</p>
@@ -186,8 +357,8 @@ Fartøygruppe C: Fartøyer som driver havnetrafikk og fartøyer som oppholder se
 <p>Ved ettersynet skal det kontrolleres at skipsmedisinen er i samsvar med kravene i forskriften, at det oppbevares på korrekt måte, at holdbarhetsdatoer ikke er overskredet og at utlevering av legemidler er nedtegnet, jf. § 21 . Det må kontrolleres at beholdningen av narkotika er i samsvar med kontrollboken og eventuelt avvik må protokolleres og nærmere forklares.</p>
 <p>Legemidler til kassasjon skal normalt innleveres til apotek eller lignende.</p>
 <p>Ved destruksjon av legemidler om bord skal dette skje på forsvarlig måte.</p>
-<p><em>Endret ved forskrift 14 feb 2013 nr. 199 .
-1 Lov av 9. juni 1903 nr. 7 om Statskontrol med Skibes Sjødygtighet m.v.</em></p>
+<p class="note">Endret ved forskrift 14 feb 2013 nr. 199 .
+1 Lov av 9. juni 1903 nr. 7 om Statskontrol med Skibes Sjødygtighet m.v.</p>
 <h4 id="23-dokumentasjon">§ 23. Dokumentasjon</h4>
 <p>Dokumentasjon på utført ettersyn skal for den enkelte artikkel skipet, herunder redningsmidlene, er pliktig til å medbringe, angi:</p>
 <p>a. fastsatt mengde om bord i henhold til denne forskrift,
@@ -196,7 +367,7 @@ c. merknader om begrenset holdbarhet mv.</p>
 <p>Dokumentasjonen skal være datert og signert, og ved sakkyndig ettersyn også påført vedkommendes persons virksomhets eller myndighets stempel.</p>
 <p>Dokumentasjonen på utført ettersyn skal oppbevares om bord og skal på anmodning forevises Sjøfartsdirektoratet og Helsedirektoratet eller den disse har gitt myndighet til det.</p>
 <p>All dokumentasjon om foretatte ettersyn, jf. § 22 , og utlevering av legemidler, jf. § 21 , skal oppbevares om bord i minst tre år.</p>
-<p><em>Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 .</p>
 <h2 id="kap-viii-legerad-opplring-utdannelse-handbker">Kap. VIII. Legeråd, opplæring, utdannelse, håndbøker</h2>
 <h4 id="24-legerad-og-evakuering">§ 24. Legeråd og evakuering</h4>
 <p>Skip skal få gratis råd fra lege ved sykdom eller ulykkestilfeller formidlet gjennom kystradiostasjonene eller fra den medisinske nødmeldetjenesten.</p>
@@ -209,15 +380,15 @@ b. Innbundet og paginert kontrollbok til innføring av innkjøp, utlevering og i
 c. Egnet førstehjelpshåndbok på norsk og engelsk beregnet til skip. Førstehjelpshåndbok skal oppbevares sammen med utstyret av legemidler mv. Krav om norsk eller engelsk førstehjelpshåndbok kan fravikes, dersom det kan dokumenteres at skipets mannskap er språkkyndig i samsvar med førstehjelpshåndboken som medbringes.
 d. Kort rettledning om førstehjelp, som skal oppbevares sammen med skipsmedisinen i det enkelte redningsmiddel. Rettledningen skal være på egnet språk og skal på skip som går i norske farvann være på norsk og engelsk.</p>
 <p>Skip som transporterer farlig last, jf. § 12 , skal i tillegg ha om bord boken «Medical first aid guide for use in accidents involving dangerous goods (MFAG)» eller «Veiledning for medisinsk førstehjelp» utgitt av International Maritime Organization.</p>
-<p><em>Endret ved forskrift 14 feb 2013 nr. 199 .</em></p>
+<p class="note">Endret ved forskrift 14 feb 2013 nr. 199 .</p>
 <h4 id="26-opplring">§ 26. Opplæring</h4>
 <p>Skipsføreren og de han gir fullmakt til utlevering og bruk av skipsmedisin på pasient om bord skal ha gjennomgått godkjent opplæring, jf. forskrift om kvalifikasjonskrav, utstedelse av sertifikater og om sertifikatrettigheter for personell på norske skip. 1</p>
-<p><em>Endret ved forskrift 14 juni 2004 nr. 888 .
-1 Forskrift 9. mai 2003 nr. 687 om kvalifikasjonskrav og sertifikatrettigheter for personell på norske skip, fiske- og fangstfartøyer og flyttbare innretninger.</em></p>
+<p class="note">Endret ved forskrift 14 juni 2004 nr. 888 .
+1 Forskrift 9. mai 2003 nr. 687 om kvalifikasjonskrav og sertifikatrettigheter for personell på norske skip, fiske- og fangstfartøyer og flyttbare innretninger.</p>
 <h2 id="kap-ix-diverse-bestemmelser">Kap. IX. Diverse bestemmelser</h2>
 <h4 id="27-fravik">§ 27. Fravik</h4>
 <p>Helsedirektoratet, eller den det gir myndighet, kan når særlige grunner foreligger fravike forskriftens krav. Fraviket må være nødvendig og sikkerhetsmessig forsvarlig. Dette kan bare skje når det ikke er i strid med internasjonal overenskomst som Norge har sluttet seg til.</p>
-<p><em>Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrifter 10 juni 2002 nr. 530 , 17 jan 2013 nr. 61 .</p>
 <h4 id="28-straffebestemmelser">§ 28. Straffebestemmelser</h4>
 <p>Overtredelse straffes med bøter i henhold til § 339 nr. 2 i straffeloven, 1 hvis ikke strengere straff kommer til anvendelse i henhold til annen lovbestemmelse.</p>
 <p><em>1 Den almindelige borgerlige straffelov av 22. mai 1902 nr. 10 .</em></p>
@@ -309,6 +480,8 @@ d. Kort rettledning om førstehjelp, som skal oppbevares sammen med skipsmedisin
 <h3 id="til-vedlegg-3">Til Vedlegg 3</h3>
 <p>Dersom ett eller flere av legemidlene i vedlegget ikke er på markedet, må det erstattes av et mest mulig likt legemiddel.</p>
 <p>Merknadene endret ved forskrifter 14 feb 2013 nr. 199 , 17. januar 2013 nr. 61 , 29 okt 2024 nr. 2589 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

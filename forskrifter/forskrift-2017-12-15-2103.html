@@ -19,64 +19,179 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-12-15-2103.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om restriktive tiltak, Venezuela" href="../feeds/forskrift-2017-12-15-2103.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-utenriksdepartementet.html">Utenriksdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-utenriksdepartementet.html">Utenriksdepartementet</a> &rsaquo;
 <span>Forskrift om restriktive tiltak, Venezuela</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-12-15-2103</code></dd>
-<dt>Departement</dt><dd>Utenriksdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-12-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-11-22-2888</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-12-15-2103" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-innarbeiding-av-forordningeu-20172063">§ 2. Innarbeiding av forordning(EU) 2017/2063</a></li>
+<li class="lvl3"><a href="#3-straff">§ 3. Straff</a></li>
+<li class="lvl3"><a href="#4-dispensasjon">§ 4. Dispensasjon</a></li>
+<li class="lvl3"><a href="#5-endring-av-forskriften">§ 5. Endring av forskriften</a></li>
+<li class="lvl3"><a href="#6-forskriftens-ikrafttredelse">§ 6. Forskriftens ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-a">Vedlegg A</a></li>
+<li class="lvl3"><a href="#radsforordningeu-20172063av-13-november-2017om-restriktive-tiltak-i-lys-av-situasjonen-i-venezuela">RÅDSFORORDNING(EU) 2017/2063av 13. november 2017om restriktive tiltak i lys av situasjonen i Venezuela</a></li>
+<li class="lvl5"><a href="#artikkel-1">Artikkel 1</a></li>
+<li class="lvl5"><a href="#artikkel-2">Artikkel 2</a></li>
+<li class="lvl5"><a href="#artikkel-3">Artikkel 3</a></li>
+<li class="lvl5"><a href="#artikkel-4">Artikkel 4</a></li>
+<li class="lvl5"><a href="#artikkel-5">Artikkel 5</a></li>
+<li class="lvl5"><a href="#artikkel-6">Artikkel 6</a></li>
+<li class="lvl5"><a href="#artikkel-7">Artikkel 7</a></li>
+<li class="lvl5"><a href="#artikkel-8">Artikkel 8</a></li>
+<li class="lvl5"><a href="#artikkel-9">Artikkel 9</a></li>
+<li class="lvl5"><a href="#artikkel-9a">Artikkel 9a</a></li>
+<li class="lvl5"><a href="#artikkel-10">Artikkel 10</a></li>
+<li class="lvl5"><a href="#artikkel-11">Artikkel 11</a></li>
+<li class="lvl5"><a href="#artikkel-12">Artikkel 12</a></li>
+<li class="lvl5"><a href="#artikkel-13">Artikkel 13</a></li>
+<li class="lvl5"><a href="#artikkel-14">Artikkel 14</a></li>
+<li class="lvl5"><a href="#artikkel-15">Artikkel 15</a></li>
+<li class="lvl5"><a href="#artikkel-16">Artikkel 16</a></li>
+<li class="lvl5"><a href="#artikkel-17">Artikkel 17</a></li>
+<li class="lvl5"><a href="#artikkel-18">Artikkel 18</a></li>
+<li class="lvl5"><a href="#artikkel-19">Artikkel 19</a></li>
+<li class="lvl5"><a href="#artikkel-20">Artikkel 20</a></li>
+<li class="lvl5"><a href="#artikkel-21">Artikkel 21</a></li>
+<li class="lvl4"><a href="#vedlegg-ilist-of-equipment-which-might-be-used-for-internal-repressionas-referred-to-in-article-3">Vedlegg IList of equipment which might be used for internal repressionas referred to in Article 3</a></li>
+<li class="lvl4"><a href="#vedlegg-iiequipment-technology-and-software-referred-to-in-articles-6-and-7">Vedlegg IIEquipment, technology and software referred to in Articles 6 and 7</a></li>
+<li class="lvl4"><a href="#vedlegg-iiiwebsites-for-information-on-the-competent-authorities-and-address-for-notifications-to-the-commission">Vedlegg IIIWebsites for information on the competent authorities and address for notifications to the Commission</a></li>
+<li class="lvl4"><a href="#vedlegg-ivlist-of-natural-and-legal-persons-entities-and-bodies-referred-to-in-article-83">Vedlegg IVList of natural and legal persons, entities and bodies referred to in Article 8(3)</a></li>
+<li class="lvl4"><a href="#vedlegg-vlist-of-natural-and-legal-persons-entities-and-bodies-referred-to-in-article-84">Vedlegg VList of natural and legal persons, entities and bodies referred to in Article 8(4)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-11-22-2888.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-15-2103.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om restriktive tiltak vedrørende situasjonen i Venezuela</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-12-15-2103.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-12-15-2103 <code>forskrift/2017-12-15-2103</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om restriktive tiltak, Venezuela</td></tr>
+<tr><th>Departement</th><td>Utenriksdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.12.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-11-22-2888 <code>forskrift/2024-11-22-2888</code> fra 01.01.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-12-15-2103" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-innarbeiding-av-forordningeu-20172063">§ 2. Innarbeiding av forordning(EU) 2017/2063</a></li>
+<li class="lvl3"><a href="#3-straff">§ 3. Straff</a></li>
+<li class="lvl3"><a href="#4-dispensasjon">§ 4. Dispensasjon</a></li>
+<li class="lvl3"><a href="#5-endring-av-forskriften">§ 5. Endring av forskriften</a></li>
+<li class="lvl3"><a href="#6-forskriftens-ikrafttredelse">§ 6. Forskriftens ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-a">Vedlegg A</a></li>
+<li class="lvl3"><a href="#radsforordningeu-20172063av-13-november-2017om-restriktive-tiltak-i-lys-av-situasjonen-i-venezuela">RÅDSFORORDNING(EU) 2017/2063av 13. november 2017om restriktive tiltak i lys av situasjonen i Venezuela</a></li>
+<li class="lvl5"><a href="#artikkel-1">Artikkel 1</a></li>
+<li class="lvl5"><a href="#artikkel-2">Artikkel 2</a></li>
+<li class="lvl5"><a href="#artikkel-3">Artikkel 3</a></li>
+<li class="lvl5"><a href="#artikkel-4">Artikkel 4</a></li>
+<li class="lvl5"><a href="#artikkel-5">Artikkel 5</a></li>
+<li class="lvl5"><a href="#artikkel-6">Artikkel 6</a></li>
+<li class="lvl5"><a href="#artikkel-7">Artikkel 7</a></li>
+<li class="lvl5"><a href="#artikkel-8">Artikkel 8</a></li>
+<li class="lvl5"><a href="#artikkel-9">Artikkel 9</a></li>
+<li class="lvl5"><a href="#artikkel-9a">Artikkel 9a</a></li>
+<li class="lvl5"><a href="#artikkel-10">Artikkel 10</a></li>
+<li class="lvl5"><a href="#artikkel-11">Artikkel 11</a></li>
+<li class="lvl5"><a href="#artikkel-12">Artikkel 12</a></li>
+<li class="lvl5"><a href="#artikkel-13">Artikkel 13</a></li>
+<li class="lvl5"><a href="#artikkel-14">Artikkel 14</a></li>
+<li class="lvl5"><a href="#artikkel-15">Artikkel 15</a></li>
+<li class="lvl5"><a href="#artikkel-16">Artikkel 16</a></li>
+<li class="lvl5"><a href="#artikkel-17">Artikkel 17</a></li>
+<li class="lvl5"><a href="#artikkel-18">Artikkel 18</a></li>
+<li class="lvl5"><a href="#artikkel-19">Artikkel 19</a></li>
+<li class="lvl5"><a href="#artikkel-20">Artikkel 20</a></li>
+<li class="lvl5"><a href="#artikkel-21">Artikkel 21</a></li>
+<li class="lvl4"><a href="#vedlegg-ilist-of-equipment-which-might-be-used-for-internal-repressionas-referred-to-in-article-3">Vedlegg IList of equipment which might be used for internal repressionas referred to in Article 3</a></li>
+<li class="lvl4"><a href="#vedlegg-iiequipment-technology-and-software-referred-to-in-articles-6-and-7">Vedlegg IIEquipment, technology and software referred to in Articles 6 and 7</a></li>
+<li class="lvl4"><a href="#vedlegg-iiiwebsites-for-information-on-the-competent-authorities-and-address-for-notifications-to-the-commission">Vedlegg IIIWebsites for information on the competent authorities and address for notifications to the Commission</a></li>
+<li class="lvl4"><a href="#vedlegg-ivlist-of-natural-and-legal-persons-entities-and-bodies-referred-to-in-article-83">Vedlegg IVList of natural and legal persons, entities and bodies referred to in Article 8(3)</a></li>
+<li class="lvl4"><a href="#vedlegg-vlist-of-natural-and-legal-persons-entities-and-bodies-referred-to-in-article-84">Vedlegg VList of natural and legal persons, entities and bodies referred to in Article 8(4)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-15-2103.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-12-15-2103.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-15-2103.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-12-15-2103.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-12-15-2103.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-12-15-2103.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-12-15-2103.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-12-15-2103.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-12-15-2103.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-restriktive-tiltak-vedrrende-situasjonen-i-venezuela">Forskrift om restriktive tiltak vedrørende situasjonen i Venezuela</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Denne forskriften med vedlegg kommer til anvendelse:</p>
 <p>a. på norsk territorium, inkludert norsk luftrom
@@ -92,13 +207,13 @@ e. overfor alle juridiske personer, enheter og organer med hensyn til forretning
 <p>(5) Det er forbudt å transportere varer og teknologi oppført i vedlegg I til forskrift om eksport av forsvarsmateriell mv. til Venezuela om bord i fartøyer eller luftfartøyer som fører norsk flagg, enten det har sin opprinnelse på norsk territorium eller ikke.</p>
 <p>(6) Ingen av forordningens bestemmelser om informasjonsutveksling mellom medlemsstater og Kommisjonen kommer til anvendelse. Det gjør heller ikke bestemmelser om at fysiske og juridiske personer, enheter og organer skal gi opplysninger til Kommisjonen. Videre er også Artikkel 16 til 21 EU-interne og kommer ikke til anvendelse. Tilsvarende gjelder Artikkel 8 nr. 5 og 6 og forordningens vedlegg III.</p>
 <p>(7) Listen i vedlegg IV til forordningen er erstattet med en egen nasjonal liste over fysiske og juridiske personer, enheter og organer underlagt restriktive tiltak.</p>
-<p><em>Endret ved forskrifter 5 feb 2018 nr. 151 , 13 feb 2020 nr. 145 , 22 nov 2024 nr. 2888 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 5 feb 2018 nr. 151 , 13 feb 2020 nr. 145 , 22 nov 2024 nr. 2888 (i kraft 1 jan 2025).</p>
 <h3 id="3-straff">§ 3. Straff</h3>
 <p>Den som overtrer bestemmelser gitt i forskriften, straffes i henhold til sanksjonsloven § 4 .</p>
-<p><em>Endret ved forskrift 29 april 2021 nr. 1344 .</em></p>
+<p class="note">Endret ved forskrift 29 april 2021 nr. 1344 .</p>
 <h3 id="4-dispensasjon">§ 4. Dispensasjon</h3>
 <p>Direktoratet for eksportkontroll og sanksjoner kan dispensere fra forskriften på grunnlag av vedlagte forordnings dispensasjonsbestemmelser. Direktoratet for eksportkontroll og sanksjoner kan også i særskilte tilfeller dispensere fra forskriften dersom den får en klart utilsiktet virkning, og forutsatt at det ikke strider mot Norges folkerettslige forpliktelser eller hensynene bak tiltakene og sanksjonene mot Venezuela.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2888 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2888 (i kraft 1 jan 2025).</p>
 <h3 id="5-endring-av-forskriften">§ 5. Endring av forskriften</h3>
 <p>Utenriksdepartementet gis fullmakt til å endre, suspendere eller oppheve forskriften.</p>
 <h3 id="6-forskriftens-ikrafttredelse">§ 6. Forskriftens ikrafttredelse</h3>
@@ -424,6 +539,8 @@ e. for alle juridiske personer, enheter og organer med hensyn til forretningsvir
 <p>Name Identifying information Reasons Date of listing 1. Néstor Luis Reverol Torres Date of birth: 28 October 1964 Gender: male Minister for Interior, Justice and Peace since 2016. Also appointed as Vice President of Public Works and Services and Executive Secretary of the Electrical General Staff in April 2019. Former Commander General of the Bolivarian National Guard. Responsible for serious human rights violations, including torture of (political) prisoners, and repression of the democratic opposition in Venezuela, including the prohibition and repression of political demonstrations, committed by security forces under his command. 22.1.2018 2. Gustavo Enrique González López Date of birth: 2 November 1960 Gender: male Reappointed as Head of the Bolivarian National Intelligence Service (SEBIN) on 30 April 2019. Formerly Security and Intelligence Adviser for the President's office from 8 January 2019 to 30 April 2019 and Head of SEBIN until October 2018. As Head of SEBIN, responsible for serious human rights violations (including arbitrary detention, inhuman and degrading treatment, and torture) and repression of civil society and the democratic opposition in Venezuela. 22.1.2018 3. Tibisay Lucena Ramírez Date of birth: 26 April 1959 Gender: female President of the National Electoral Council (Consejo Nacional Electoral (CNE)). Her actions and policies have undermined democracy and the rule of law in Venezuela, including by failing to ensure that the CNE remains an impartial and independent institution in accordance with the Venezuelan Constitution thereby facilitating the establishment of the Constituent Assembly and the re-election of Nicolás Maduro in May 2018 through presidential elections that were neither free nor fair. 22.1.2018 4. Antonio José Benavides Torres Date of birth: 13 June 1961 Gender: male Chief of the Capital District (Distrito Capital) Government until January 2018. General Commander of the Bolivarian National Guard until 21 June 2017. Involved in repression of civil society and democratic opposition in Venezuela, and responsible for serious human rights violations committed by the Bolivarian National Guard under his command. His actions and policies as General Commander of the Bolivarian National Guard, including the Bolivarian National Guard taking the lead in the policing of civilian demonstrations and publicly advocating that military courts should have jurisdiction over civilians, have undermined the rule of law in Venezuela. 22.1.2018 5. Maikel José Moreno Pérez Date of birth: 12 December 1965 Gender: male President, and former Vice President, of the Supreme Court of Justice of Venezuela (Tribunal Supremo de Justicia). In these roles, he has supported and facilitated the Government's actions and policies which have undermined democracy and the rule of law in Venezuela, and is responsible for actions and statements that have usurped the authority of the National Assembly. 22.1.2018 6. Tarek William Saab Halabi Date of birth: 10 September 1963 Place of birth: El Tigre, Anzoátegui state, Venezuela Gender: male Venezuelan Attorney General appointed by the Constituent Assembly. In this role, and previous roles as Ombudsman and President of the Republican Moral Council, he has undermined democracy and the rule of law in Venezuela by publicly supporting actions against opponents of the government of Venezuela and the withdrawal of competences from the National Assembly. 22.1.2018 7. Diosdado Cabello Rondón Date of birth: 15 April 1963 Gender: male President of the Constituent Assembly and First Vice President of the United Socialist Party of Venezuela (PSUV). Involved in undermining democracy and the rule of law in Venezuela, including by using the media to publicly attack and threaten political opposition, other media and civil society. 22.1.2018 8. Tareck Zaidan El-Aissami Maddah Vice President of Economy and Minister for National Industry and Production Date of birth: 12 November 1974 Gender: male Vice President of Economy and Minister for National Industry and Production. As the former Vice President of Venezuela with oversight of the direction of the Bolivarian National Intelligence Service (SEBIN) Maddah is responsible for the serious human rights violations carried out by the organisation, including arbitrary detention, politically motivated investigations, inhumane and degrading treatment, and torture. He is also responsible for supporting and implementing policies and activities which undermine democracy and the rule of law, including the prohibition of public demonstrations, and heading President Maduro's ‘anti-coup command’ which has targeted civil society and the democratic opposition. 25.6.2018 9. Sergio José Rivero Marcano Inspector General of the Bolivarian National Armed Forces Date of birth: 8 November 1964 Gender: male General Commander of the Bolivarian National Guard until 16 January 2018. Involved in the repression of civil society and democratic opposition in Venezuela, and responsible for serious human rights violations committed by the Bolivarian National Guard under his command, including the excessive use of force, and the arbitrary detention and abuse of civil society and opposition members. His actions and policies as General Commander of the Bolivarian National Guard, including the Bolivarian National Guard assaulting members of the democratically elected National Assembly and intimidating journalists reporting on the fraudulent elections for the illegitimate Constituent Assembly, have undermined democracy and the rule of law in Venezuela. 25.6.2018 10. Jesús Rafael Suárez Chourio Date of birth: 19 July 1962 Gender: male Commander in Chief of the Venezuelan Bolivarian National Army and Chief of the General Staff to the Commander-in-Chief. Former General Commander of the Venezuelan Bolivarian National Army and former Commander of Venezuela's Comprehensive Defence Region of the Central Zone (REDI Central). Responsible for serious human rights violations by forces under his command during his tenure as General Commander of the Venezuelan Bolivarian National Army, including the use of excessive force and the mistreatment of detainees. He has targeted the democratic opposition and supported the use of military courts to try civilian protestors. 25.6.2018 11. Iván Hernández Dala Head of Directorate-General of Military Counter-Intelligence Date of birth: 18 May 1966 Gender: male Head of the Directorate-General of Military Counter-Intelligence (DGCIM) since January 2014 and Head of the Presidential Guard since September 2015. As Head of the DGCIM, Iván Hernández Dala is responsible for serious human rights violations and the repression of civil society and democratic opposition committed by members of the DGCIM under his command, including excessive use of force and the ill-treatment of detainees. 25.6.2018 12. Delcy Eloina Rodríguez Gómez Vice President of the Bolivarian Republic of Venezuela Date of birth: 18 May 1969 Gender: female Vice President of Venezuela, former President of the illegitimate Constituent Assembly and former member of the Presidential Commission for the illegitimate National Constituent Assembly. Her actions on the Presidential Commission and then as President of the illegitimate Constituent Assembly have undermined democracy and the rule of law in Venezuela, including usurping the powers of the National Assembly and using them to target the opposition and prevent them taking part in the political process. 25.6.2018 13. Elías José Jaua Milano Date of birth: 16 December 1969 Gender: male Former Minister of Popular Power for Education. Former President of the Presidential Commission for the illegitimate National Constituent Assembly. Responsible for undermining democracy and the rule of law in Venezuela through his role in leading the establishment of the illegitimate Constituent Assembly. 25.6.2018 14. Sandra Oblitas Ruzza Vice President of National Electoral Council Date of birth: 7 June 1969 Gender: female Vice President of the National Electoral Council (CNE) and President of the Commission of the Electoral and Civilian Register. Responsible for the CNE's activities which have undermined democracy in Venezuela, including facilitating the establishment of the illegitimate Constituent Assembly and manipulation of the electoral process. 25.6.2018 15. Freddy Alirio Bernal Rosales Date of birth: 16 June 1962 Place of birth: San Cristóbal, Táchira state, Venezuela Gender: male Head of the National Control Centre of the Committee for Local Supply and Production (CLAP) and Protector of Táchira State. Also a Commissioner General of the Bolivarian National Intelligence Service (SEBIN). As Head of the CLAP and Protector of Táchira State he can call upon Special Forces (FAES) and is able to influence appointments of judges and prosecutors. Responsible for undermining democracy through manipulation of CLAP programme distributions amongst voters. Additionally, as Commissioner General of SEBIN he is responsible for SEBIN's activities which include serious human rights violations such as arbitrary detention. 25.6.2018 16. Katherine Nayarith Harrington Padrón Date of birth: 5 December 1971 Gender: female Deputy Prosecutor General (also translated as Deputy Attorney General) from July 2017 until October 2018. Appointed Deputy Prosecutor General by the Supreme Court in violation of the Constitution, rather than by the National Assembly. Responsible for undermining democracy and the rule of law in Venezuela, including by initiating politically-motivated prosecutions and failing to investigate allegations of human rights violations by the Maduro regime. 25.6.2018 17. Socorro Elizabeth Hernández Hernández Date of birth: 11 March 1952 Gender: female Member (Rector) of the National Electoral Council (CNE) and member of the National Electoral Board (JNE). Responsible for the CNE's activities which have undermined democracy in Venezuela, including facilitating the establishment of the illegitimate Constituent Assembly and manipulation of the electoral process in relation to a cancelled presidential recall election in 2016, postponement of gubernatorial elections in 2016, and the relocation of polling stations at short notice before gubernatorial elections in 2017. 25.6.2018 18. Xavier Antonio Moreno Reyes Secretary-General of the National Electoral Council Gender: male Secretary-General of the National Electoral Council (CNE). Responsible for approving CNE decisions which have undermined democracy in Venezuela, including facilitating the establishment of the illegitimate Constituent Assembly and manipulation of the electoral process. 25.6.2018</p>
 <p>Endret ved forskrifter 5 feb 2018 nr. 151 , 13 feb 2020 nr. 145 .</p>
 <h4 id="vedlegg-vlist-of-natural-and-legal-persons-entities-and-bodies-referred-to-in-article-84">Vedlegg VList of natural and legal persons, entities and bodies referred to in Article 8(4)</h4>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

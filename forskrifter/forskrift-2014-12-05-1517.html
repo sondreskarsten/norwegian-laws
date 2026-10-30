@@ -19,64 +19,373 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-12-05-1517.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lagring og transport av CO2 på sokkelen" href="../feeds/forskrift-2014-12-05-1517.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Forskrift om lagring og transport av CO2 på sokkelen</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-12-05-1517</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-12-05</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-05-27-870</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-05-1517" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-retten-til-undersjiske-reservoarer-for-lagring-av-co2">§ 1-2. Retten til undersjøiske reservoarer for lagring av CO2</a></li>
+<li class="lvl4"><a href="#1-3-virkeomrade">§ 1-3. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-4-krav-om-tillatelse-mv">§ 1-4. Krav om tillatelse mv.</a></li>
+<li class="lvl4"><a href="#1-5-annen-norsk-rett">§ 1-5. Annen norsk rett</a></li>
+<li class="lvl4"><a href="#1-6-definisjoner">§ 1-6. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-7-statlig-deltagelse">§ 1-7. Statlig deltagelse</a></li>
+<li class="lvl4"><a href="#1-8-operatr">§ 1-8. Operatør</a></li>
+<li class="lvl4"><a href="#1-9-inndeling-av-kontinentalsokkelen">§ 1-9. Inndeling av kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#1-10-utvelgelse-av-en-lagringslokalitet">§ 1-10. Utvelgelse av en lagringslokalitet</a></li>
+<li class="lvl4"><a href="#1-11-traseunderskelser-og-andre-grunnunderskelser">§ 1-11. Traséundersøkelser og andre grunnundersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-1-tildeling-av-underskelsestillatelse-mv">§ 2-1. Tildeling av undersøkelsestillatelse mv.</a></li>
+<li class="lvl4"><a href="#2-2-omradet-for-en-underskelsestillatelse">§ 2-2. Området for en undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-3-sknad-om-underskelsestillatelse">§ 2-3. Søknad om undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-4-hvilke-underskelser-tillatelsen-gir-rett-til">§ 2-4. Hvilke undersøkelser tillatelsen gir rett til</a></li>
+<li class="lvl4"><a href="#2-5-betaling-for-underskelsestillatelsen">§ 2-5. Betaling for undersøkelsestillatelsen</a></li>
+<li class="lvl4"><a href="#2-6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser">§ 2-6. Meddelelse av opplysninger i forbindelse med undersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-tillatelse-til-leting-letetillatelse">Kapittel 3. Tillatelse til leting (letetillatelse)</a></li>
+<li class="lvl4"><a href="#3-1-tillatelse-til-leting-letetillatelse">§ 3-1. Tillatelse til leting (letetillatelse)</a></li>
+<li class="lvl4"><a href="#3-2-behandlingsgebyr">§ 3-2. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#3-3-arbeidsforpliktelse">§ 3-3. Arbeidsforpliktelse</a></li>
+<li class="lvl4"><a href="#3-4-varigheten-av-en-letetillatelse">§ 3-4. Varigheten av en letetillatelse</a></li>
+<li class="lvl4"><a href="#3-5-tilbakelevering-eller-oppgivelse-av-en-letetillatelse">§ 3-5. Tilbakelevering eller oppgivelse av en letetillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-tillatelse-til-utnyttelse-av-et-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2utnyttelsestillatelse">Kapittel 4. Tillatelse til utnyttelse av et undersjøisk reservoar til injeksjon og lagring av CO2(utnyttelsestillatelse)</a></li>
+<li class="lvl4"><a href="#4-1-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-1. Tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-2-sknad-om-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-2. Søknad om tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-3-behandlingsgebyr">§ 4-3. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#4-4-varigheten-av-en-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-4. Varigheten av en tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-5-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-5. Plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-6-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-6. Beskrivelse av utbyggingen i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-7-utredningsprogram-for-konsekvensutredning-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-7. Utredningsprogram for konsekvensutredning i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-8-konsekvensutredning-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-8. Konsekvensutredning i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-9-fritak-fra-kravet-om-konsekvensutredning">§ 4-9. Fritak fra kravet om konsekvensutredning</a></li>
+<li class="lvl4"><a href="#4-10-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 4-10. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#4-11-fastsettelse-av-injeksjonsforlp-mv">§ 4-11. Fastsettelse av injeksjonsforløp mv.</a></li>
+<li class="lvl4"><a href="#4-12-oppgivelse-av-en-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-lagring-av-co2">§ 4-12. Oppgivelse av en tillatelse til utnyttelse av undersjøisk reservoar til lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-13-rett-for-andre-til-underskelser">§ 4-13. Rett for andre til undersøkelser</a></li>
+<li class="lvl4"><a href="#4-14-rett-for-andre-til-a-plassere-innretninger-mv">§ 4-14. Rett for andre til å plassere innretninger mv.</a></li>
+<li class="lvl4"><a href="#4-15-andre-naturforekomster-enn-undersjisk-reservoar-for-lagring-av-co2mv">§ 4-15. Andre naturforekomster enn undersjøisk reservoar for lagring av CO2mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-injeksjon-og-lagring-av-co2">Kapittel 5. Injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-1-forsvarlig-lagring-av-co2">§ 5-1. Forsvarlig lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-2-samtykke-til-injeksjon-og-lagring-av-co2">§ 5-2. Samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-3-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 5-3. Vilkår for samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-4-overvakning">§ 5-4. Overvåkning</a></li>
+<li class="lvl4"><a href="#5-5-tilsyn">§ 5-5. Tilsyn</a></li>
+<li class="lvl4"><a href="#5-6-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 5-6. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</a></li>
+<li class="lvl4"><a href="#5-7-nedstengning-og-etterdrift">§ 5-7. Nedstengning og etterdrift</a></li>
+<li class="lvl4"><a href="#5-8-ansvarsoverfring">§ 5-8. Ansvarsoverføring</a></li>
+<li class="lvl4"><a href="#5-9-finansiell-sikkerhetsstillelse">§ 5-9. Finansiell sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#5-10-finansiell-mekanisme">§ 5-10. Finansiell mekanisme</a></li>
+<li class="lvl4"><a href="#5-11-samordnet-lagring-av-co2">§ 5-11. Samordnet lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-12-tredjepartsadgang-til-innretninger-for-lagring-av-co2og-lagringslokaliteter">§ 5-12. Tredjepartsadgang til innretninger for lagring av CO2og lagringslokaliteter</a></li>
+<li class="lvl4"><a href="#5-13-tvister">§ 5-13. Tvister</a></li>
+<li class="lvl2"><a href="#kapittel-6-transport-mv-av-co2">Kapittel 6. Transport mv. av CO2</a></li>
+<li class="lvl4"><a href="#6-1-srskilt-tillatelse-til-anlegg-og-drift-av-innretninger">§ 6-1. Særskilt tillatelse til anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#6-2-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 6-2. Innhold i plan for anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#6-3-vilkar-mv">§ 6-3. Vilkår mv.</a></li>
+<li class="lvl2"><a href="#kapittel-7-avslutning-av-injeksjon-og-lagring-av-co2">Kapittel 7. Avslutning av injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#7-1-avslutningsplan">§ 7-1. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#7-2-melding-om-opphr-av-bruk">§ 7-2. Melding om opphør av bruk</a></li>
+<li class="lvl4"><a href="#7-3-vedtak-om-disponering">§ 7-3. Vedtak om disponering</a></li>
+<li class="lvl4"><a href="#7-4-ansvar">§ 7-4. Ansvar</a></li>
+<li class="lvl4"><a href="#7-5-heftelser">§ 7-5. Heftelser</a></li>
+<li class="lvl4"><a href="#7-6-statlig-overtagelse">§ 7-6. Statlig overtagelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-erstatningsansvar-for-forurensningsskade">Kapittel 8. Erstatningsansvar for forurensningsskade</a></li>
+<li class="lvl4"><a href="#8-1-definisjon">§ 8-1. Definisjon</a></li>
+<li class="lvl4"><a href="#8-2-virkeomrade-og-lovvalg">§ 8-2. Virkeområde og lovvalg</a></li>
+<li class="lvl4"><a href="#8-3-den-ansvarlige-og-ansvarets-omfang">§ 8-3. Den ansvarlige og ansvarets omfang</a></li>
+<li class="lvl4"><a href="#8-4-kanalisering-av-ansvaret">§ 8-4. Kanalisering av ansvaret</a></li>
+<li class="lvl4"><a href="#8-5-regress">§ 8-5. Regress</a></li>
+<li class="lvl4"><a href="#8-6-transport-og-lagring-av-co2i-undersjisk-reservoar-uten-tillatelse">§ 8-6. Transport og lagring av CO2i undersjøisk reservoar uten tillatelse</a></li>
+<li class="lvl4"><a href="#8-7-offentlig-kunngjring-proklama">§ 8-7. Offentlig kunngjøring. Proklama</a></li>
+<li class="lvl4"><a href="#8-8-verneting">§ 8-8. Verneting</a></li>
+<li class="lvl2"><a href="#kapittel-9-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 9. Særlige regler om erstatning til norske fiskere</a></li>
+<li class="lvl4"><a href="#9-1-saklig-virkeomrade-og-definisjoner">§ 9-1. Saklig virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#9-2-beslagleggelse">§ 9-2. Beslagleggelse</a></li>
+<li class="lvl4"><a href="#9-3-forurensning-og-avfall">§ 9-3. Forurensning og avfall</a></li>
+<li class="lvl4"><a href="#9-4-solidaransvar">§ 9-4. Solidaransvar</a></li>
+<li class="lvl4"><a href="#9-5-innretning-mv-som-volder-skade">§ 9-5. Innretning mv. som volder skade</a></li>
+<li class="lvl4"><a href="#9-6-nemnd-mv">§ 9-6. Nemnd mv.</a></li>
+<li class="lvl2"><a href="#kapittel-10-srskilte-krav-til-sikkerhet">Kapittel 10. Særskilte krav til sikkerhet</a></li>
+<li class="lvl4"><a href="#10-1-sikkerhet">§ 10-1. Sikkerhet</a></li>
+<li class="lvl4"><a href="#10-2-beredskap">§ 10-2. Beredskap</a></li>
+<li class="lvl4"><a href="#10-3-beredskap-mot-bevisste-anslag">§ 10-3. Beredskap mot bevisste anslag</a></li>
+<li class="lvl4"><a href="#10-4-sikkerhetssoner-mv">§ 10-4. Sikkerhetssoner mv.</a></li>
+<li class="lvl4"><a href="#10-5-stansing-av-lagring-av-co2mv">§ 10-5. Stansing av lagring av CO2mv.</a></li>
+<li class="lvl4"><a href="#10-6-krav-til-sikkerhetsdokumentasjon">§ 10-6. Krav til sikkerhetsdokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-11-alminnelige-bestemmelser">Kapittel 11. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-krav-til-forsvarlig-transport-og-lagring-av-co2">§ 11-1. Krav til forsvarlig transport og lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-2-ledelse-av-virksomhet-knyttet-til-transport-og-utnyttelse-av-undersjiske-reservoarer-til-lagring-av-co2-base-mv">§ 11-2. Ledelse av virksomhet knyttet til transport og utnyttelse av undersjøiske reservoarer til lagring av CO2, base mv.</a></li>
+<li class="lvl4"><a href="#11-3-tilsyn-med-transport-og-lagring-av-co2">§ 11-3. Tilsyn med transport og lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-4-register-over-lagringslokaliteter">§ 11-4. Register over lagringslokaliteter</a></li>
+<li class="lvl4"><a href="#11-5-arealavgift">§ 11-5. Arealavgift</a></li>
+<li class="lvl4"><a href="#11-6-kvalifikasjoner">§ 11-6. Kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#11-7-materiale-og-opplysninger-vedrrende-lagring-av-co2">§ 11-7. Materiale og opplysninger vedrørende lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-8-plikt-til-a-etterleve-forskriften-og-til-a-pase-at-bestemmelser-blir-overholdt">§ 11-8. Plikt til å etterleve forskriften og til å påse at bestemmelser blir overholdt</a></li>
+<li class="lvl4"><a href="#11-9-sikkerhetsstillelse">§ 11-9. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#11-10-ansvar-for-forpliktelser">§ 11-10. Ansvar for forpliktelser</a></li>
+<li class="lvl4"><a href="#11-11-ansvar-for-skadeforvoldelse">§ 11-11. Ansvar for skadeforvoldelse</a></li>
+<li class="lvl4"><a href="#11-12-underskelseskommisjon">§ 11-12. Undersøkelseskommisjon</a></li>
+<li class="lvl4"><a href="#11-13-overdragelse-mv">§ 11-13. Overdragelse mv.</a></li>
+<li class="lvl4"><a href="#11-14-forsikring">§ 11-14. Forsikring</a></li>
+<li class="lvl4"><a href="#11-15-revisjon">§ 11-15. Revisjon</a></li>
+<li class="lvl4"><a href="#11-16-fagforeningsvirksomhet">§ 11-16. Fagforeningsvirksomhet</a></li>
+<li class="lvl4"><a href="#11-17-varsling-og-rapportering">§ 11-17. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#11-18-observatrer">§ 11-18. Observatører</a></li>
+<li class="lvl4"><a href="#11-19-ekspert-og-laboratorietjenester">§ 11-19. Ekspert- og laboratorietjenester</a></li>
+<li class="lvl4"><a href="#11-20-saksbehandling-og-taushetsplikt">§ 11-20. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-21-tilbakekall">§ 11-21. Tilbakekall</a></li>
+<li class="lvl4"><a href="#11-22-flgene-av-tilbakekall-oppgivelse-av-rettigheter-eller-bortfall-av-andre-grunner">§ 11-22. Følgene av tilbakekall, oppgivelse av rettigheter eller bortfall av andre grunner</a></li>
+<li class="lvl4"><a href="#11-23-forskrifter-og-enkeltvedtak">§ 11-23. Forskrifter og enkeltvedtak</a></li>
+<li class="lvl4"><a href="#11-24-straffebestemmelser">§ 11-24. Straffebestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse">Kapittel 12. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-kriterier-for-beskrivelse-og-vurdering-av-det-mulige-lagringslokalitet-og-omkringliggende-omrade-nevnt-i-1-10-i-denne-forskrift">Vedlegg I. Kriterier for beskrivelse og vurdering av det mulige lagringslokalitet og omkringliggende område nevnt i § 1-10 i denne forskrift</a></li>
+<li class="lvl3"><a href="#trinn-1-datainnsamling">Trinn 1: Datainnsamling</a></li>
+<li class="lvl3"><a href="#trinn-2-etablering-av-tredimensjonal-geologisk-modell-for-injeksjon">Trinn 2: Etablering av tredimensjonal geologisk modell (for injeksjon)</a></li>
+<li class="lvl3"><a href="#trinn-3-karakterisering-av-lagringens-dynamiske-utvikling-flsomhet-og-risikovurdering">Trinn 3: Karakterisering av lagringens dynamiske utvikling, følsomhet og risikovurdering</a></li>
+<li class="lvl4"><a href="#trinn-31-karakterisering-av-dynamiske-forhold-i-lagringslokaliteten">Trinn 3.1: Karakterisering av dynamiske forhold i lagringslokaliteten</a></li>
+<li class="lvl4"><a href="#trinn-32-flsomhetskarakteristikk">Trinn 3.2: Følsomhetskarakteristikk</a></li>
+<li class="lvl4"><a href="#trinn-33-risikovurdering">Trinn 3.3: Risikovurdering</a></li>
+<li class="lvl5"><a href="#331-farekarakteristikk">3.3.1. Farekarakteristikk</a></li>
+<li class="lvl5"><a href="#332-eksponeringsvurdering">3.3.2. Eksponeringsvurdering</a></li>
+<li class="lvl5"><a href="#333-effektvurderinger">3.3.3. Effektvurderinger</a></li>
+<li class="lvl5"><a href="#334-risikokarakterisering">3.3.4. Risikokarakterisering</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-kriterier-for-etablering-og-oppdatering-av-overvakingsplanen-i-5-4-og-etterdriftsplan-i-5-7">Vedlegg II. Kriterier for etablering og oppdatering av overvåkingsplanen i § 5-4 og etterdriftsplan i § 5-7</a></li>
+<li class="lvl3"><a href="#1-etablering-og-oppdatering-av-overvakingsplan">1. Etablering og oppdatering av overvåkingsplan</a></li>
+<li class="lvl4"><a href="#11-etablere-planen">1.1. Etablere planen</a></li>
+<li class="lvl4"><a href="#12-oppdatering-av-planen">1.2. Oppdatering av planen</a></li>
+<li class="lvl3"><a href="#2-overvaking-etter-nedlukking">2. Overvåking etter nedlukking</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-05-27-870.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1517.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om utnyttelse av undersjøiske reservoarer på kontinentalsokkelen til lagring av CO2og om transport av CO2på kontinentalsokkelen</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-05-1517.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-12-05-1517 <code>forskrift/2014-12-05-1517</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om lagring og transport av CO2 på sokkelen</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>05.12.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-05-27-870 <code>forskrift/2025-05-27-870</code> fra 17.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-05-1517" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-retten-til-undersjiske-reservoarer-for-lagring-av-co2">§ 1-2. Retten til undersjøiske reservoarer for lagring av CO2</a></li>
+<li class="lvl4"><a href="#1-3-virkeomrade">§ 1-3. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-4-krav-om-tillatelse-mv">§ 1-4. Krav om tillatelse mv.</a></li>
+<li class="lvl4"><a href="#1-5-annen-norsk-rett">§ 1-5. Annen norsk rett</a></li>
+<li class="lvl4"><a href="#1-6-definisjoner">§ 1-6. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-7-statlig-deltagelse">§ 1-7. Statlig deltagelse</a></li>
+<li class="lvl4"><a href="#1-8-operatr">§ 1-8. Operatør</a></li>
+<li class="lvl4"><a href="#1-9-inndeling-av-kontinentalsokkelen">§ 1-9. Inndeling av kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#1-10-utvelgelse-av-en-lagringslokalitet">§ 1-10. Utvelgelse av en lagringslokalitet</a></li>
+<li class="lvl4"><a href="#1-11-traseunderskelser-og-andre-grunnunderskelser">§ 1-11. Traséundersøkelser og andre grunnundersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-1-tildeling-av-underskelsestillatelse-mv">§ 2-1. Tildeling av undersøkelsestillatelse mv.</a></li>
+<li class="lvl4"><a href="#2-2-omradet-for-en-underskelsestillatelse">§ 2-2. Området for en undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-3-sknad-om-underskelsestillatelse">§ 2-3. Søknad om undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#2-4-hvilke-underskelser-tillatelsen-gir-rett-til">§ 2-4. Hvilke undersøkelser tillatelsen gir rett til</a></li>
+<li class="lvl4"><a href="#2-5-betaling-for-underskelsestillatelsen">§ 2-5. Betaling for undersøkelsestillatelsen</a></li>
+<li class="lvl4"><a href="#2-6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser">§ 2-6. Meddelelse av opplysninger i forbindelse med undersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-tillatelse-til-leting-letetillatelse">Kapittel 3. Tillatelse til leting (letetillatelse)</a></li>
+<li class="lvl4"><a href="#3-1-tillatelse-til-leting-letetillatelse">§ 3-1. Tillatelse til leting (letetillatelse)</a></li>
+<li class="lvl4"><a href="#3-2-behandlingsgebyr">§ 3-2. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#3-3-arbeidsforpliktelse">§ 3-3. Arbeidsforpliktelse</a></li>
+<li class="lvl4"><a href="#3-4-varigheten-av-en-letetillatelse">§ 3-4. Varigheten av en letetillatelse</a></li>
+<li class="lvl4"><a href="#3-5-tilbakelevering-eller-oppgivelse-av-en-letetillatelse">§ 3-5. Tilbakelevering eller oppgivelse av en letetillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-tillatelse-til-utnyttelse-av-et-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2utnyttelsestillatelse">Kapittel 4. Tillatelse til utnyttelse av et undersjøisk reservoar til injeksjon og lagring av CO2(utnyttelsestillatelse)</a></li>
+<li class="lvl4"><a href="#4-1-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-1. Tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-2-sknad-om-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-2. Søknad om tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-3-behandlingsgebyr">§ 4-3. Behandlingsgebyr</a></li>
+<li class="lvl4"><a href="#4-4-varigheten-av-en-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-4. Varigheten av en tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-5-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-5. Plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-6-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-6. Beskrivelse av utbyggingen i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-7-utredningsprogram-for-konsekvensutredning-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-7. Utredningsprogram for konsekvensutredning i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-8-konsekvensutredning-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-8. Konsekvensutredning i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-9-fritak-fra-kravet-om-konsekvensutredning">§ 4-9. Fritak fra kravet om konsekvensutredning</a></li>
+<li class="lvl4"><a href="#4-10-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 4-10. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#4-11-fastsettelse-av-injeksjonsforlp-mv">§ 4-11. Fastsettelse av injeksjonsforløp mv.</a></li>
+<li class="lvl4"><a href="#4-12-oppgivelse-av-en-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-lagring-av-co2">§ 4-12. Oppgivelse av en tillatelse til utnyttelse av undersjøisk reservoar til lagring av CO2</a></li>
+<li class="lvl4"><a href="#4-13-rett-for-andre-til-underskelser">§ 4-13. Rett for andre til undersøkelser</a></li>
+<li class="lvl4"><a href="#4-14-rett-for-andre-til-a-plassere-innretninger-mv">§ 4-14. Rett for andre til å plassere innretninger mv.</a></li>
+<li class="lvl4"><a href="#4-15-andre-naturforekomster-enn-undersjisk-reservoar-for-lagring-av-co2mv">§ 4-15. Andre naturforekomster enn undersjøisk reservoar for lagring av CO2mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-injeksjon-og-lagring-av-co2">Kapittel 5. Injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-1-forsvarlig-lagring-av-co2">§ 5-1. Forsvarlig lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-2-samtykke-til-injeksjon-og-lagring-av-co2">§ 5-2. Samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-3-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 5-3. Vilkår for samtykke til injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-4-overvakning">§ 5-4. Overvåkning</a></li>
+<li class="lvl4"><a href="#5-5-tilsyn">§ 5-5. Tilsyn</a></li>
+<li class="lvl4"><a href="#5-6-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 5-6. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</a></li>
+<li class="lvl4"><a href="#5-7-nedstengning-og-etterdrift">§ 5-7. Nedstengning og etterdrift</a></li>
+<li class="lvl4"><a href="#5-8-ansvarsoverfring">§ 5-8. Ansvarsoverføring</a></li>
+<li class="lvl4"><a href="#5-9-finansiell-sikkerhetsstillelse">§ 5-9. Finansiell sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#5-10-finansiell-mekanisme">§ 5-10. Finansiell mekanisme</a></li>
+<li class="lvl4"><a href="#5-11-samordnet-lagring-av-co2">§ 5-11. Samordnet lagring av CO2</a></li>
+<li class="lvl4"><a href="#5-12-tredjepartsadgang-til-innretninger-for-lagring-av-co2og-lagringslokaliteter">§ 5-12. Tredjepartsadgang til innretninger for lagring av CO2og lagringslokaliteter</a></li>
+<li class="lvl4"><a href="#5-13-tvister">§ 5-13. Tvister</a></li>
+<li class="lvl2"><a href="#kapittel-6-transport-mv-av-co2">Kapittel 6. Transport mv. av CO2</a></li>
+<li class="lvl4"><a href="#6-1-srskilt-tillatelse-til-anlegg-og-drift-av-innretninger">§ 6-1. Særskilt tillatelse til anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#6-2-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 6-2. Innhold i plan for anlegg og drift av innretninger</a></li>
+<li class="lvl4"><a href="#6-3-vilkar-mv">§ 6-3. Vilkår mv.</a></li>
+<li class="lvl2"><a href="#kapittel-7-avslutning-av-injeksjon-og-lagring-av-co2">Kapittel 7. Avslutning av injeksjon og lagring av CO2</a></li>
+<li class="lvl4"><a href="#7-1-avslutningsplan">§ 7-1. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#7-2-melding-om-opphr-av-bruk">§ 7-2. Melding om opphør av bruk</a></li>
+<li class="lvl4"><a href="#7-3-vedtak-om-disponering">§ 7-3. Vedtak om disponering</a></li>
+<li class="lvl4"><a href="#7-4-ansvar">§ 7-4. Ansvar</a></li>
+<li class="lvl4"><a href="#7-5-heftelser">§ 7-5. Heftelser</a></li>
+<li class="lvl4"><a href="#7-6-statlig-overtagelse">§ 7-6. Statlig overtagelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-erstatningsansvar-for-forurensningsskade">Kapittel 8. Erstatningsansvar for forurensningsskade</a></li>
+<li class="lvl4"><a href="#8-1-definisjon">§ 8-1. Definisjon</a></li>
+<li class="lvl4"><a href="#8-2-virkeomrade-og-lovvalg">§ 8-2. Virkeområde og lovvalg</a></li>
+<li class="lvl4"><a href="#8-3-den-ansvarlige-og-ansvarets-omfang">§ 8-3. Den ansvarlige og ansvarets omfang</a></li>
+<li class="lvl4"><a href="#8-4-kanalisering-av-ansvaret">§ 8-4. Kanalisering av ansvaret</a></li>
+<li class="lvl4"><a href="#8-5-regress">§ 8-5. Regress</a></li>
+<li class="lvl4"><a href="#8-6-transport-og-lagring-av-co2i-undersjisk-reservoar-uten-tillatelse">§ 8-6. Transport og lagring av CO2i undersjøisk reservoar uten tillatelse</a></li>
+<li class="lvl4"><a href="#8-7-offentlig-kunngjring-proklama">§ 8-7. Offentlig kunngjøring. Proklama</a></li>
+<li class="lvl4"><a href="#8-8-verneting">§ 8-8. Verneting</a></li>
+<li class="lvl2"><a href="#kapittel-9-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 9. Særlige regler om erstatning til norske fiskere</a></li>
+<li class="lvl4"><a href="#9-1-saklig-virkeomrade-og-definisjoner">§ 9-1. Saklig virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#9-2-beslagleggelse">§ 9-2. Beslagleggelse</a></li>
+<li class="lvl4"><a href="#9-3-forurensning-og-avfall">§ 9-3. Forurensning og avfall</a></li>
+<li class="lvl4"><a href="#9-4-solidaransvar">§ 9-4. Solidaransvar</a></li>
+<li class="lvl4"><a href="#9-5-innretning-mv-som-volder-skade">§ 9-5. Innretning mv. som volder skade</a></li>
+<li class="lvl4"><a href="#9-6-nemnd-mv">§ 9-6. Nemnd mv.</a></li>
+<li class="lvl2"><a href="#kapittel-10-srskilte-krav-til-sikkerhet">Kapittel 10. Særskilte krav til sikkerhet</a></li>
+<li class="lvl4"><a href="#10-1-sikkerhet">§ 10-1. Sikkerhet</a></li>
+<li class="lvl4"><a href="#10-2-beredskap">§ 10-2. Beredskap</a></li>
+<li class="lvl4"><a href="#10-3-beredskap-mot-bevisste-anslag">§ 10-3. Beredskap mot bevisste anslag</a></li>
+<li class="lvl4"><a href="#10-4-sikkerhetssoner-mv">§ 10-4. Sikkerhetssoner mv.</a></li>
+<li class="lvl4"><a href="#10-5-stansing-av-lagring-av-co2mv">§ 10-5. Stansing av lagring av CO2mv.</a></li>
+<li class="lvl4"><a href="#10-6-krav-til-sikkerhetsdokumentasjon">§ 10-6. Krav til sikkerhetsdokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-11-alminnelige-bestemmelser">Kapittel 11. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-krav-til-forsvarlig-transport-og-lagring-av-co2">§ 11-1. Krav til forsvarlig transport og lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-2-ledelse-av-virksomhet-knyttet-til-transport-og-utnyttelse-av-undersjiske-reservoarer-til-lagring-av-co2-base-mv">§ 11-2. Ledelse av virksomhet knyttet til transport og utnyttelse av undersjøiske reservoarer til lagring av CO2, base mv.</a></li>
+<li class="lvl4"><a href="#11-3-tilsyn-med-transport-og-lagring-av-co2">§ 11-3. Tilsyn med transport og lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-4-register-over-lagringslokaliteter">§ 11-4. Register over lagringslokaliteter</a></li>
+<li class="lvl4"><a href="#11-5-arealavgift">§ 11-5. Arealavgift</a></li>
+<li class="lvl4"><a href="#11-6-kvalifikasjoner">§ 11-6. Kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#11-7-materiale-og-opplysninger-vedrrende-lagring-av-co2">§ 11-7. Materiale og opplysninger vedrørende lagring av CO2</a></li>
+<li class="lvl4"><a href="#11-8-plikt-til-a-etterleve-forskriften-og-til-a-pase-at-bestemmelser-blir-overholdt">§ 11-8. Plikt til å etterleve forskriften og til å påse at bestemmelser blir overholdt</a></li>
+<li class="lvl4"><a href="#11-9-sikkerhetsstillelse">§ 11-9. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#11-10-ansvar-for-forpliktelser">§ 11-10. Ansvar for forpliktelser</a></li>
+<li class="lvl4"><a href="#11-11-ansvar-for-skadeforvoldelse">§ 11-11. Ansvar for skadeforvoldelse</a></li>
+<li class="lvl4"><a href="#11-12-underskelseskommisjon">§ 11-12. Undersøkelseskommisjon</a></li>
+<li class="lvl4"><a href="#11-13-overdragelse-mv">§ 11-13. Overdragelse mv.</a></li>
+<li class="lvl4"><a href="#11-14-forsikring">§ 11-14. Forsikring</a></li>
+<li class="lvl4"><a href="#11-15-revisjon">§ 11-15. Revisjon</a></li>
+<li class="lvl4"><a href="#11-16-fagforeningsvirksomhet">§ 11-16. Fagforeningsvirksomhet</a></li>
+<li class="lvl4"><a href="#11-17-varsling-og-rapportering">§ 11-17. Varsling og rapportering</a></li>
+<li class="lvl4"><a href="#11-18-observatrer">§ 11-18. Observatører</a></li>
+<li class="lvl4"><a href="#11-19-ekspert-og-laboratorietjenester">§ 11-19. Ekspert- og laboratorietjenester</a></li>
+<li class="lvl4"><a href="#11-20-saksbehandling-og-taushetsplikt">§ 11-20. Saksbehandling og taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-21-tilbakekall">§ 11-21. Tilbakekall</a></li>
+<li class="lvl4"><a href="#11-22-flgene-av-tilbakekall-oppgivelse-av-rettigheter-eller-bortfall-av-andre-grunner">§ 11-22. Følgene av tilbakekall, oppgivelse av rettigheter eller bortfall av andre grunner</a></li>
+<li class="lvl4"><a href="#11-23-forskrifter-og-enkeltvedtak">§ 11-23. Forskrifter og enkeltvedtak</a></li>
+<li class="lvl4"><a href="#11-24-straffebestemmelser">§ 11-24. Straffebestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse">Kapittel 12. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-kriterier-for-beskrivelse-og-vurdering-av-det-mulige-lagringslokalitet-og-omkringliggende-omrade-nevnt-i-1-10-i-denne-forskrift">Vedlegg I. Kriterier for beskrivelse og vurdering av det mulige lagringslokalitet og omkringliggende område nevnt i § 1-10 i denne forskrift</a></li>
+<li class="lvl3"><a href="#trinn-1-datainnsamling">Trinn 1: Datainnsamling</a></li>
+<li class="lvl3"><a href="#trinn-2-etablering-av-tredimensjonal-geologisk-modell-for-injeksjon">Trinn 2: Etablering av tredimensjonal geologisk modell (for injeksjon)</a></li>
+<li class="lvl3"><a href="#trinn-3-karakterisering-av-lagringens-dynamiske-utvikling-flsomhet-og-risikovurdering">Trinn 3: Karakterisering av lagringens dynamiske utvikling, følsomhet og risikovurdering</a></li>
+<li class="lvl4"><a href="#trinn-31-karakterisering-av-dynamiske-forhold-i-lagringslokaliteten">Trinn 3.1: Karakterisering av dynamiske forhold i lagringslokaliteten</a></li>
+<li class="lvl4"><a href="#trinn-32-flsomhetskarakteristikk">Trinn 3.2: Følsomhetskarakteristikk</a></li>
+<li class="lvl4"><a href="#trinn-33-risikovurdering">Trinn 3.3: Risikovurdering</a></li>
+<li class="lvl5"><a href="#331-farekarakteristikk">3.3.1. Farekarakteristikk</a></li>
+<li class="lvl5"><a href="#332-eksponeringsvurdering">3.3.2. Eksponeringsvurdering</a></li>
+<li class="lvl5"><a href="#333-effektvurderinger">3.3.3. Effektvurderinger</a></li>
+<li class="lvl5"><a href="#334-risikokarakterisering">3.3.4. Risikokarakterisering</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-kriterier-for-etablering-og-oppdatering-av-overvakingsplanen-i-5-4-og-etterdriftsplan-i-5-7">Vedlegg II. Kriterier for etablering og oppdatering av overvåkingsplanen i § 5-4 og etterdriftsplan i § 5-7</a></li>
+<li class="lvl3"><a href="#1-etablering-og-oppdatering-av-overvakingsplan">1. Etablering og oppdatering av overvåkingsplan</a></li>
+<li class="lvl4"><a href="#11-etablere-planen">1.1. Etablere planen</a></li>
+<li class="lvl4"><a href="#12-oppdatering-av-planen">1.2. Oppdatering av planen</a></li>
+<li class="lvl3"><a href="#2-overvaking-etter-nedlukking">2. Overvåking etter nedlukking</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1517.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-05-1517.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1517.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-12-05-1517.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-12-05-1517.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-2014-12-05-1517.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-12-05-1517.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-12-05-1517.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-utnyttelse-av-undersjiske-reservoarer-pa-kontinentalsokkelen-til-lagring-av-co2og-om-transport-av-co2pa-kontinentalsokkelen">Forskrift om utnyttelse av undersjøiske reservoarer på kontinentalsokkelen til lagring av CO2og om transport av CO2på kontinentalsokkelen</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Denne forskrift har som formål å bidra til bærekraftig energi- og industriproduksjon, ved å legge til rette for utnyttelse av undersjøiske reservoarer på kontinentalsokkelen til miljøsikker lagring av CO 2 som et tiltak for å motvirke klimaendringer.</p>
@@ -119,7 +428,7 @@ w. Utbedrende tiltak , tiltak som iverksettes for å korrigere vesentlig uregelm
 x. Vannsøyle , den kontinuerlige vertikale vannmengde fra overflaten til bunnsedimentene i en vannmasse,
 y. Vesentlig risiko , en risiko for skade på miljøet eller menneskers helse som ikke kan overses uten at formålet om miljøsikker geologisk lagring av CO 2 kommer i fare. I vurderingen av om det foreligger en vesentlig risiko er det nødvendig å ta hensyn til både sannsynligheten for at skade inntreffer og det omfanget skaden vil få dersom den inntreffer,
 z. Vesentlig uregelmessighet , en uregelmessighet i injeksjons- eller lagringsoperasjonen eller i selve lagringskompleksets tilstand som innebærer en fare for lekkasje eller en risiko for miljøet eller menneskers helse.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="1-7-statlig-deltagelse">§ 1-7. Statlig deltagelse</h4>
 <p>Kongen kan bestemme at staten skal delta i transport og utnyttelse av undersjøisk reservoar til lagring av CO 2 etter denne forskrift.</p>
 <h4 id="1-8-operatr">§ 1-8. Operatør</h4>
@@ -145,7 +454,7 @@ e. Hvor dypt det eventuelt skal bores.</p>
 <p>Sokkeldirektoratet kan, når det foreligger særlige grunner, bestemme at en undersøkelse skal tilpasses eller utsettes, sette særlige vilkår for fortsettelse eller stanse undersøkelsen som angitt i første ledd.</p>
 <p>Sokkeldirektoratet kan gjøre unntak fra fristene i første og annet ledd.</p>
 <p>Ved traséundersøkelser og andre grunnundersøkelser kan det ikke bores dypere enn 200 meter under sjøbunnen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-2-underskelsestillatelse">Kapittel 2. Undersøkelsestillatelse</h2>
 <h4 id="2-1-tildeling-av-underskelsestillatelse-mv">§ 2-1. Tildeling av undersøkelsestillatelse mv.</h4>
 <p>Departementet kan tildele juridisk person tillatelse til undersøkelse etter undersjøisk reservoar for lagring av CO 2 .</p>
@@ -163,17 +472,17 @@ d. Formålet med og arten av undersøkelsen.</p>
 <p>Departementet eller den det bemyndiger kan kreve tilleggsopplysninger.</p>
 <p>Kvittering for innbetalt gebyr, jf. § 2-5 skal vedlegges søknaden.</p>
 <p>Søknad om undersøkelsestillatelse med vedlegg skal være skrevet på norsk eller engelsk.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="2-4-hvilke-underskelser-tillatelsen-gir-rett-til">§ 2-4. Hvilke undersøkelser tillatelsen gir rett til</h4>
 <p>Undersøkelsestillatelsen gir rett til å foreta geologiske, petrofysiske, geofysiske, geokjemiske og geotekniske aktiviteter. Det kan foretas grunne boringer til en dybde som fastsettes av departementet eller den det bemyndiger. Departementet eller den det bemyndiger kan begrense den enkelte undersøkelsestillatelse til å gjelde bestemte typer undersøkelser.</p>
 <p>Departementet eller den det bemyndiger kan sette som vilkår for undersøkelsestillatelse at det skal gis opplysninger om salg eller bytte av undersøkelsesresultater og sette vilkår for utførelse av undersøkelsene.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="2-5-betaling-for-underskelsestillatelsen">§ 2-5. Betaling for undersøkelsestillatelsen</h4>
 <p>For undersøkelsestillatelsen skal det forskuddsvis betales et gebyr til staten ved Sokkeldirektoratet på kr 65 000 pr. kalenderår.</p>
 <p>Undersøkelsestillatelsen bortfaller dersom rettighetshaver innen 31. desember ikke har betalt avgiften for kommende år.</p>
 <p>For hver seismiske undersøkelse skal det betales et gebyr til staten ved Sokkeldirektoratet på kr 33 000. Gebyret skal betales senest samtidig med oppstart av undersøkelsen. Ved forsinket betaling skal det betales rente etter lov 17. desember 1976 nr. 100 ved forsinket betaling m.m.</p>
 <p>Departementet kan endre gebyr i denne bestemmelsen i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="2-6-meddelelse-av-opplysninger-i-forbindelse-med-underskelser">§ 2-6. Meddelelse av opplysninger i forbindelse med undersøkelser</h4>
 <p>Rettighetshaver skal senest fem uker før aktiviteten etter en undersøkelsestillatelse påbegynnes sende opplysninger til Sokkeldirektoratet, Fiskeridirektoratet, Havforskningsinstituttet og Forsvarsdepartementet om:</p>
 <p>a. Tid, varighet og nøyaktige opplysninger om området for undersøkelsen med posisjonslinjer,
@@ -189,7 +498,7 @@ d. I hvilken form resultatene fra undersøkelsen vil foreligge.</p>
 <p>Så snart som mulig og senest innen tre måneder etter at den enkelte aktiviteten i medhold av en undersøkelsestillatelse er fullført, skal rettighetshaver sende data, registreringer og resultater fra aktiviteten til Sokkeldirektoratet. Med mindre Sokkeldirektoratet ønsker oversendelse av rådata, skal data som krever bearbeiding ut over 3 måneder sendes så snart de er bearbeidet. Rettighetshaver skal videre opplyse om resultatene mv. fra undersøkelsen skal være omsettelige.</p>
 <p>Fartøy som driver undersøkelse etter undersjøisk reservoar for lagring av CO 2 skal ha om bord og bruke satelittsporingsutstyr og ferdskriver. Sokkeldirektoratet fastsetter nærmere bestemmelser om sporingsutstyr, herunder tilgang til data.</p>
 <p>Denne paragrafen gjelder tilsvarende for undersøkelser som foretas etter en letetillatelse eller tillatelse til utnyttelse av undersjøisk reservoar til lagring av CO 2 .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-3-tillatelse-til-leting-letetillatelse">Kapittel 3. Tillatelse til leting (letetillatelse)</h2>
 <h4 id="3-1-tillatelse-til-leting-letetillatelse">§ 3-1. Tillatelse til leting (letetillatelse)</h4>
 <p>Kongen i Statsråd kan på nærmere bestemte vilkår tildele letetillatelse med sikte på vurdering av potensialet for utnyttelse av et undersjøisk reservoar til lagring av CO 2 . En letetillatelse som nevnt kan omfatte stratigrafisk angitte områder innenfor en eller flere blokker eller deler av blokker.</p>
@@ -201,14 +510,14 @@ d. I hvilken form resultatene fra undersøkelsen vil foreligge.</p>
 <p>For behandlingen av hver søknad om letetillatelse skal det betales et gebyr på kr 109 000, som innbetales til staten ved Sokkeldirektoratet.</p>
 <p>Dersom gebyr ikke er innbetalt, anses ikke søknaden for innkommet.</p>
 <p>Departementet kan endre gebyr i denne bestemmelsen i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="3-3-arbeidsforpliktelse">§ 3-3. Arbeidsforpliktelse</h4>
 <p>Kongen kan pålegge rettighetshaver en nærmere bestemt arbeidsforpliktelse for det område letetillatelsen omfatter.</p>
 <p>Arbeidsforpliktelsen kan bestå i undersøkelse og leteboring av et bestemt antall brønner ned til nærmere angitte dybder eller geologiske formasjoner. Arbeidsforpliktelsens innhold, omfang og frist for oppfyllelse fastsettes i den enkelte letetillatelse. Arbeidsforpliktelsen kan ved behov også omfatte overvåkning av injeksjonstester.</p>
 <p>For hver seismiske undersøkelse skal det betales et gebyr til staten ved Sokkeldirektoratet på kr 33 000. Gebyret skal betales senest samtidig med oppstart av undersøkelsen. Ved forsinket betaling skal det betales rente etter lov 17. desember 1976 nr. 100 ved forsinket betaling m.m.</p>
 <p>Departementet kan endre gebyr i denne bestemmelsen i samsvar med endringer i pengeverdien.</p>
 <p>Departementet kan etter søknad gjøre unntak fra arbeidsforpliktelsen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="3-4-varigheten-av-en-letetillatelse">§ 3-4. Varigheten av en letetillatelse</h4>
 <p>Varigheten av en letetillatelse skal ikke overstige det tidsrommet som anses nødvendig for å gjennomføre den leteaktivitet som tillatelsen gjelder og kan gis for inntil 10 år. Dersom letetillatelsen gis for en kortere periode, kan departementet senere forlenge tillatelsen innenfor rammen på 10 år.</p>
 <h4 id="3-5-tilbakelevering-eller-oppgivelse-av-en-letetillatelse">§ 3-5. Tilbakelevering eller oppgivelse av en letetillatelse</h4>
@@ -237,12 +546,12 @@ i. Beskrivelse av den organisasjon og kompetanse søkeren vil ha til rådighet i
 j. Kvittering for innbetalt behandlingsgebyr.</p>
 <p>Departementet kan fravike kravet til innhold i søknaden etter første ledd, herunder kreve ytterligere opplysninger.</p>
 <p>Søknad om utnyttelsestillatelse skal være skrevet på norsk eller engelsk.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="4-3-behandlingsgebyr">§ 4-3. Behandlingsgebyr</h4>
 <p>For behandlingen av hver søknad om utnyttelsestillatelse skal det betales et gebyr på kr 109 000, som innbetales til staten ved Sokkeldirektoratet.</p>
 <p>Dersom gebyr ikke er innbetalt, anses ikke søknaden for innkommet.</p>
 <p>Departementet kan endre gebyr i denne bestemmelse i samsvar med endringer i pengeverdien.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="4-4-varigheten-av-en-tillatelse-til-utnyttelse-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-4. Varigheten av en tillatelse til utnyttelse av undersjøisk reservoar til injeksjon og lagring av CO2</h4>
 <p>Varigheten av en utnyttelsestillatelse fastsettes ved tildeling. Varigheten av tillatelsen forutsetter at det undersjøiske reservoaret tas i bruk gjennom utbygging og lagring innen en frist som fastsettes ved tildeling</p>
 <p>Departementet kan etter søknad fra rettighetshaver når særlige grunner tilsier det, forlenge den fastsatte frist for utbygging og lagring.</p>
@@ -258,7 +567,7 @@ j. Kvittering for innbetalt behandlingsgebyr.</p>
 <p>Departementet skal i eget dokument, som skal offentliggjøres, redegjøre for og begrunne vedtaket om å godkjenne eller ikke godkjenne plan for utbygging og lagring av CO 2 . I begrunnelsen skal det bl.a. fremgå hvilke miljøvilkår som eventuelt er knyttet til godkjennelsen samt hvilke tiltak som eventuelt er forutsatt å avbøte vesentlige negative miljøvirkninger. Taushetsbelagte opplysninger skal ikke offentliggjøres.</p>
 <p>Departementet kan etter søknad fra rettighetshaver frafalle krav om plan for utbygging og lagring av CO 2 i undersjøisk reservoar.</p>
 <p>Departementet skal underrettes om og godkjenne vesentlig avvik eller endring av forutsetningene for fremlagt eller godkjent plan og vesentlige endringer av innretninger. Departementet kan kreve fremlagt ny eller endret plan for godkjennelse.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="4-6-beskrivelse-av-utbyggingen-i-plan-for-utbygging-og-drift-av-undersjisk-reservoar-til-injeksjon-og-lagring-av-co2">§ 4-6. Beskrivelse av utbyggingen i plan for utbygging og drift av undersjøisk reservoar til injeksjon og lagring av CO2</h4>
 <p>Beskrivelsen av utbyggingen med tilhørende dokumentasjon skal tilpasses utbyggingens omfang. Beskrivelsen skal redegjøre for økonomiske, ressursmessige, tekniske og sikkerhets- og miljømessige forhold ved utbyggingen.</p>
 <p>Beskrivelsen av utbyggingen skal i nødvendig utstrekning inneholde:</p>
@@ -307,12 +616,12 @@ h. Ha et sammendrag av ovennevnte punkter.</p>
 <p>Departementets avgjørelser etter paragrafen her er ikke enkeltvedtak etter forvaltningsloven.</p>
 <h4 id="4-9-fritak-fra-kravet-om-konsekvensutredning">§ 4-9. Fritak fra kravet om konsekvensutredning</h4>
 <p>Såfremt utbyggingen ikke kan antas å ha vesentlige grenseoverskridende miljøvirkninger, kan kravet om konsekvensutredning i unntakstilfeller fravikes helt eller delvis. Før unntak gis, skal departementet underrette EFTAs Overvåkningsorgan om begrunnelsen for unntaket.</p>
-<h4 id="4-10-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 4-10. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon</h4>
+<h4 id="4-10-konsekvensutredning-ved-vesentlige-grenseoverskridende-miljvirkninger-og-ved-negative-miljvirkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">§ 4-10. Konsekvensutredning ved vesentlige grenseoverskridende miljøvirkninger og ved negative miljøvirkninger i områder utenfor nasjonal jurisdiksjon <a class="para-history" href="../historikk/forskrift-2014-12-05-1517/para-4-10.html" title="Endringshistorikk for § 4-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom en utbygging kan få vesentlige grenseoverskridende miljøvirkninger, skal departementet oversende utredningsprogrammet og informasjon om kravet til godkjennelse av plan for utbygging og drift til stater som kan bli berørt, senest samtidig med at utredningsprogrammet blir sendt på høring. Slik informasjon skal også sendes dersom en stat som i betydelig utstrekning kan bli berørt, anmoder om det.</p>
 <p>Berørte stater kan delta i konsekvensutredningsprosessen, herunder avgi uttalelse om utredningsprogrammet og konsekvensutredningen til departementet. Departementet sender konsekvensutredningen til rette myndighet i berørte stater samtidig som konsekvensutredningen sendes på høring i Norge. Departementet kan pålegge rettighetshaver å utarbeide dokumentene tilknyttet konsekvensutredningen i de fremmede språk som er nødvendige.</p>
 <p>Departementet skal ved godkjennelse av plan for utbygging og lagring av CO 2 i undersjøisk reservoar oversende det i § 4-5 åttende ledd nevnte dokument til rette myndighet i berørte stater.</p>
 <p>Dersom en utbygging kan forårsake betydelig forurensing av eller vesentlige og skadelige endringer i det marine miljøet i områder utenfor nasjonal jurisdiksjon, skal departementet sørge for deling av nødvendig informasjon gjennom Mekanismen for informasjonsutveksling, som er opprettet i medhold av Avtale om bevaring og bærekraftig bruk av marint biologisk mangfold i områder utenfor nasjonal jurisdiksjon under Havrettskonvensjonen .</p>
-<p><em>Endret ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</em></p>
+<p class="note">Endret ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</p>
 <h4 id="4-11-fastsettelse-av-injeksjonsforlp-mv">§ 4-11. Fastsettelse av injeksjonsforløp mv.</h4>
 <p>Departementet skal godkjenne injeksjonsforløpet før eller samtidig med at godkjennelse gis i medhold av § 4-5 . Det kan fastsettes et annet injeksjonsforløp enn det som følger av godkjent plan for utbygging og lagring av CO 2 i undersjøisk reservoar, dersom hensynet til ressursforvaltning eller andre vesentlige samfunnshensyn tilsier det.</p>
 <p>Departementet kan pålegge rettighetshaver å utarbeide en rapport om reservoarrelaterte forhold, herunder alternative injeksjonsopplegg.</p>
@@ -347,7 +656,7 @@ h. Ha et sammendrag av ovennevnte punkter.</p>
 <li>Plan for nedstenging og etterdrift.</li>
 </ul>
 <p>Departementet eller den det bemyndiger skal underrettes ved lekkasje eller vesentlige uregelmessigheter.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-3-vilkar-for-samtykke-til-injeksjon-og-lagring-av-co2">§ 5-3. Vilkår for samtykke til injeksjon og lagring av CO2</h4>
 <p>Et samtykke til injeksjon og lagring av CO 2 er betinget av at følgende vilkår er oppfylt:</p>
 <p>a. Alle relevante krav i denne forskrift er oppfylt,
@@ -365,7 +674,7 @@ e. Oppdatere vurderingen av lagringskompleksets sikkerhet og integritet på kort
 <h4 id="5-5-tilsyn">§ 5-5. Tilsyn</h4>
 <p>Departementet eller den det bemyndiger skal føre tilsyn med lagringslokaliteten minst en gang i året inntil tre år etter nedstengning, og deretter hvert femte år inntil ansvaret er overdratt til staten v/departementet. Ved tilsynet skal departementet eller den det bemyndiger undersøke relevante injeksjons- og overvåkningsanlegg, reservoarforhold, og eventuelle virkninger av lagringskomplekset på miljøet. Tilsynet skal så vidt mulig samordnes med tilsyn fra forurensningsmyndigheten i medhold av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning ( forurensningsforskriften) § 35-11 .</p>
 <p>Etter hvert tilsyn skal departementet eller den det bemyndiger utarbeide en rapport om tilsynsresultatene. I rapporten vurderes det hvorvidt bestemmelsene i denne forskrift er overholdt, og om ytterligere tiltak er nødvendig. Rapporten skal oversendes operatøren og gjøres tilgjengelig for offentligheten senest to måneder etter gjennomført tilsyn.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-6-tiltak-i-tilfelle-vesentlige-uregelmessigheter-eller-lekkasje">§ 5-6. Tiltak i tilfelle vesentlige uregelmessigheter eller lekkasje</h4>
 <p>Ved fare for lekkasje eller vesentlige uregelmessigheter skal operatøren straks underrette departementet eller den det bemyndiger og treffe de nødvendige utbedrende tiltak.</p>
 <p>Utbedrende tiltak skal iverksettes i henhold til den plan for utbedrende tiltak som er utformet og godkjent i medhold av § 4-6 første ledd bokstav o). Departementet eller den det bemyndiger kan til enhver tid pålegge operatøren å iverksette nødvendige utbedrende tiltak og tiltak for å beskytte menneskelig helse. Slike tiltak kan være i tillegg til, eller forskjellig fra de tiltak som er beskrevet i planen for utbedrende tiltak. Departementet eller den det bemyndiger kan også på ethvert tidspunkt selv iverksette utbedrende tiltak eller kreve injeksjonen stanset.</p>
@@ -377,7 +686,7 @@ b. Kongen samtykker i nedstengning på grunnlag av søknad fra operatøren.</p>
 <p>Etter nedstengning av en lagringslokalitet i medhold av første ledd bokstav a) eller b) og frem til ansvaret for lagringslokaliteten overdras til staten v/departementet i medhold av § 5-8 første og sjette ledd, er operatøren fortsatt ansvarlig for overvåkning, rapportering og iverksettelse av utbedrende tiltak i samsvar med bestemmelsene i denne forskrift. Operatøren er også ansvarlig for å forsegle lagringslokaliteten og fjerne injeksjonsanleggene.</p>
 <p>Forpliktelsene i annet ledd oppfylles på grunnlag av en etterdriftsplan som er utarbeidet av operatøren basert på beste praksis på området, og i overensstemmelse med vedlegg II til denne forskrift. En foreløpig etterdriftsplan skal forelegges departementet eller den det bemyndiger for godkjennelse i medhold av § 4-6 bokstav p).</p>
 <p>Før nedstengning av en lagringslokalitet i medhold av første ledd bokstav a) og b), skal den foreløpige etterdriftsplanen om nødvendig oppdateres i henhold til risikoanalyse, beste praksis og teknologiske forbedringer og deretter forelegges departementet eller den et bemyndiger for godkjennelse som den endelige etterdriftsplanen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-8-ansvarsoverfring">§ 5-8. Ansvarsoverføring</h4>
 <p>Etter nedstengning av en lagringslokalitet i medhold av § 5-7 første ledd bokstav a) eller b), skal alle forpliktelser vedrørende overvåkning og utbedrende tiltak i medhold av denne forskrift overføres til staten v/departementet eller den det bemyndiger, enten på eget initiativ eller etter søknad fra operatøren, såfremt følgende vilkår er oppfylt:</p>
 <p>a. Alle tilgjengelige opplysninger peker i retning av at den lagrede CO 2 vil forbli fullstendig og permanent innesluttet. Operatøren må blant annet kunne dokumentere at den faktiske oppførsel av injisert CO 2 stemmer overens med den modellerte oppførsel, at det ikke kan påvises lekkasje og at lagringslokaliteten utvikler seg mot en tilstand av varig stabilitet,
@@ -394,13 +703,13 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>Dersom EFTAs overvåkningsorgan beslutter å ikke avgi uttalelse, skal departementet innen en måned etter at utkastet til godkjennelse er mottatt informeres om dette og begrunnelsen for beslutningen om ikke å avgi uttalelse. Når departementet eller den det bemyndiger har forsikret seg om at vilkårene i første ledd bokstav a) til d) er oppfylt, skal ansvarsoverføringen godkjennes og operatøren informeres om dette. Godkjennelsen skal også notifiseres til EFTAs overvåkningsorgan, med begrunnelse for hvorfor eventuelle merknader fra EFTAs overvåkningsorgan ikke er tatt til følge.</p>
 <p>Etter ansvarsoverføringen innstilles det rutinemessige tilsyn i medhold av § 5-5 første ledd, og overvåkningen kan begrenses til et nivå som sikrer at lekkasje eller vesentlige uregelmessigheter påvises. Dersom lekkasje eller vesentlige uregelmessigheter påvises, skal overvåkningen intensiveres så langt det er nødvendig for å kunne vurdere omfanget av problemet og effektiviteten av de utbedrende tiltak.</p>
 <p>Dersom operatøren uaktsomt eller forsettlig har begått feil, herunder levert mangelfulle data eller fortiet relevante opplysninger, skal staten v/departementet inndrive de kostnader som er påløpt etter ansvarsoverføringen hos den tidligere operatør. Med mindre den finansielle mekanisme nevnt i § 5-10 kommer til anvendelse, skal ytterligere kostnader ikke inndrives etter ansvarsoverføringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-9-finansiell-sikkerhetsstillelse">§ 5-9. Finansiell sikkerhetsstillelse</h4>
 <p>Ved søknad om tillatelse til injisering og lagring av CO 2 i medhold av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning (forurensningsforskriften) kapittel 35 skal den potensielle operatør på grunnlag av nærmere bestemmelser fastsatt av Miljødirektoratet, dokumentere at det kan foretas egnede disposisjoner i form av sikkerhetsstillelse eller tilsvarende for å sikre at alle forpliktelser som følger av nevnte forskrift kan oppfylles. Den finansielle sikkerhetsstillelsen skal være gyldig og effektiv innen injeksjonen starter. Klima- og miljødepartementet og departementet vil i fellesskap ta stilling til den finansielle sikkerhetstillelse.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-10-finansiell-mekanisme">§ 5-10. Finansiell mekanisme</h4>
 <p>Før ansvarsoverføring finner sted i medhold av § 5-8 , skal operatøren stille et finansielt bidrag til rådighet for staten v/departementet etter departementets nærmere bestemmelse. Bidraget skal ta hensyn til de kriterier som er nevnt i vedlegg I, og til elementer som vedrører den historiske lagring av CO 2 av relevans for fastsettelse av forpliktelsene etter overføringen. Det finansielle bidraget skal i det minste dekke forventede overvåkningsomkostninger i en periode på 30 år. Bidraget kan anvendes til å dekke statens omkostninger etter ansvarsoverføringen til sikring av at CO 2 er sikkert lagret etter ansvarsoverføringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="5-11-samordnet-lagring-av-co2">§ 5-11. Samordnet lagring av CO2</h4>
 <p>Strekker et undersjøisk reservoar og/eller en hydraulisk enhet seg over flere tillatelser som ikke har samme rettighetshaver, eller inn på en annen stats kontinentalsokkel, skal det søkes oppnådd enighet om den mest rasjonelle samordning av lagring av CO 2 i tilknytning til reservoaret. Tilsvarende gjelder når det for flere undersjøiske reservoarer åpenbart er rasjonelt med samordnet lagring av CO 2 .</p>
 <p>Avtaler om samordnet transport, injeksjon, avslutning og permanent lagring av CO 2 skal forelegges departementet til godkjennelse. Hvis det ikke oppnås enighet om slike avtaler innen rimelig tid, kan departementet bestemme hvordan slik samordnet lagring av CO 2 skal foregå.</p>
@@ -423,7 +732,7 @@ c. at lagringsstedet utvikles i retning av en tilstand av langsiktig stabilitet.
 <p>En samlet søknad om tillatelse til anlegg og drift av innretninger som nevnt i første ledd og som også omfatter sikkerhet og arbeidsmiljø, jf. forskrift 12. februar 2010 nr. 158 om helse, miljø og sikkerhet i petroleumsvirksomheten og på enkelte landanlegg, med endringer, skal omfatte en plan som skal inneholde beskrivelse av prosjektet og en konsekvensutredning. Uttalelser til konsekvensutredningen tas med i vurderingen ved godkjennelse av plan for anlegg og drift. Søknaden skal sendes departementet med kopi til Sokkeldirektoratet og Havindustritilsynet. Dersom en søknad fremmes av andre enn rettighetshaver etter en tillatelse til utnyttelse av et undersjøisk reservoar til injeksjon og lagring av CO 2 , kommer bestemmelsene i § 4-2 til anvendelse så langt de passer.</p>
 <p>Tillatelse kan gis for en bestemt periode og kan etter søknad fra rettighetshaver forlenges av departementet.</p>
 <p>Bestemmelsene i § 4-5 , unntatt første ledd første punktum og syvende ledd gjelder tilsvarende med mindre departementet bestemmer noe annet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="6-2-innhold-i-plan-for-anlegg-og-drift-av-innretninger">§ 6-2. Innhold i plan for anlegg og drift av innretninger</h4>
 <p>Søknad om tillatelse til anlegg og drift av innretninger som nevnt i § 6-1 første ledd skal redegjøre for økonomiske, ressursmessige, tekniske og miljø- og sikkerhetsmessige forhold ved prosjektet. Dokumentasjon skal tilpasses prosjektets omfang.</p>
 <p>Plan for anlegg og drift av innretninger som nevnt i § 6-1 første ledd skal i nødvendig utstrekning inneholde:</p>
@@ -457,10 +766,10 @@ c. Bestemme hvilken CO 2 som skal transporteres i rørledning, dog kan det ikke 
 <p>Beskrivelsen skal også samordnes med krav i forskrift 12. februar 2010 nr. 158 om helse, miljø og sikkerhet i petroleumsvirksomheten og på enkelte landanlegg , med endringer og skal sendes departementet med kopi til Sokkeldirektoratet og Havindustritilsynet.</p>
 <p>Med mindre departementet samtykker i eller bestemmer noe annet, skal tidspunktet for å legge frem avslutningsplan være senest to år før bruken av en innretning antas å endelig opphøre. Tilsvarende frist gjelder ved utløp av tillatelse gitt i medhold av § 4-1 eller § 6-1 , såfremt tillatelsen utløper før bruken av innretningen antas å endelig opphøre.</p>
 <p>Departementet kan frafalle kravet om å legge frem avslutningsplan.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="7-2-melding-om-opphr-av-bruk">§ 7-2. Melding om opphør av bruk</h4>
 <p>Rettighetshaver skal gi departementet melding om opphørstidspunktet dersom bruken av en innretning antas å endelig opphøre før tillatelsen til lagring av CO 2 eller transport av CO 2 utløper.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="7-3-vedtak-om-disponering">§ 7-3. Vedtak om disponering</h4>
 <p>Departementet skal fatte vedtak om disponering og fastsette en frist for gjennomføring av vedtaket. I vurderingen som ligger til grunn for vedtaket skal det blant annet legges vekt på tekniske, sikkerhetsmessige, miljømessige og økonomiske forhold og hensynet til andre brukere av havet. Departementet kan fastsette nærmere vilkår i forbindelse med vedtaket, herunder i tilknytning til overvåkning og ansvar i forhold til permanent lagring av injisert CO 2 , jf. også § 5-8 .</p>
 <p>Rettighetshaver og eier er forpliktet til å sørge for at vedtak om disponering blir gjennomført, med mindre departementet bestemmer noe annet. Forpliktelsen til å gjennomføre disponeringsvedtaket gjelder selv om disponeringsvedtaket treffes eller skal gjennomføres etter utløpet av tillatelsen.</p>
@@ -493,7 +802,7 @@ c. Bestemme hvilken CO 2 som skal transporteres i rørledning, dog kan det ikke 
 <p>Dersom departementet har truffet bestemmelse etter første ledd, skal erstatningskrav først rettes mot operatøren. I tilfelle noen del av erstatningen ikke blir dekket av operatøren ved forfall, skal den dekkes av rettighetshaverne i forhold til deres andel i tillatelsen. Hvis noen ikke dekker sin andel, fordeles denne forholdsmessig på de andre.</p>
 <p>Dersom det godtgjøres at en uavvendelig naturhending, krigshandling, offentlig myndighetsakt eller liknende force majeure i betydelig grad har bidratt til skaden eller dennes omfang under forhold som er utenfor den ansvarliges kontroll, kan ansvaret settes ned så langt det er rimelig, særlig under hensyn til omfanget av virksomheten, skadelidtes situasjon og forsikringsmulighetene på begge sider.</p>
 <p>Ved forurensningsskade fra innretning på område utenfor norsk kontinentalsokkel anses som rettighetshaver den som har tillatelse fra kompetent myndighet til å drive den virksomhet som innretningen er knyttet til.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="8-4-kanalisering-av-ansvaret">§ 8-4. Kanalisering av ansvaret</h4>
 <p>Erstatningsansvar mot rettighetshaver for forurensningsskade gjøres gjeldende etter reglene i denne forskrift.</p>
 <p>Ansvar for forurensningsskade kan ikke gjøres gjeldende mot:</p>
@@ -514,7 +823,7 @@ d. Den som er ansatt hos rettighetshaver eller hos noen som nevnt under a, b ell
 <p>Med mindre departementet finner det åpenbart unødvendig skal operatøren uten ugrunnet opphold, ved offentlig kunngjøring gi opplysning om hvem erstatningskrav for forurensningsskade skal rettes mot og om foreldelsesfristens lengde.</p>
 <p>Kunngjøring skal skje med to gangers innrykking med minst en ukes mellomrom i Norsk lysingsblad og i aviser og andre publikasjoner som er alminnelig lest på de steder hvor skade er voldt eller antas å inntre.</p>
 <p>Med departementets samtykke kan eventuelle fordringshavere innkalles ved proklama, med den virkning at krav som ikke er anmeldt innen proklamafristens utløp faller bort. Departementet gir i tilfelle nærmere regler om innkallelsen og proklamafristens lengde og kan gi regler om oppgjørsmåten.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="8-8-verneting">§ 8-8. Verneting</h4>
 <p>Søksmål om erstatning for forurensningsskade skal reises i den rettskrets der utstrømming eller utslipp av CO 2 har funnet sted eller hvor skade er voldt.</p>
 <p>Departementet bestemmer hvor søksmål skal reises dersom:</p>
@@ -522,7 +831,7 @@ d. Den som er ansatt hos rettighetshaver eller hos noen som nevnt under a, b ell
 b. Det ikke kan påvises innen hvilken rettskrets utstrømmingen eller utslippet har funnet sted eller skade er voldt.
 c. Utstrømmingen eller utslippet har funnet sted i en rettskrets og skade er voldt i en annen rettskrets.
 d. Skade er voldt i mer enn en rettskrets.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-9-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 9. Særlige regler om erstatning til norske fiskere</h2>
 <h4 id="9-1-saklig-virkeomrade-og-definisjoner">§ 9-1. Saklig virkeområde og definisjoner</h4>
 <p>Dette kapittel gjelder erstatning for økonomisk tap som transport og lagring av CO 2 påfører norske fiskere som følge av at virksomheten legger beslag på fiskefelt, eller medfører forurensning og avfall eller ved at innretning eller tiltak i forbindelse med plassering av denne volder skade.</p>
@@ -556,12 +865,12 @@ d. Skade er voldt i mer enn en rettskrets.</p>
 <p>Rettighetshaver og andre som deltar i transport og lagring av CO 2 skal til enhver tid opprettholde effektiv beredskap med sikte på å møte fare- og ulykkessituasjoner som kan medføre tap av menneskeliv eller personskade, forurensning eller stor materiell skade. Rettighetshaver plikter å påse at nødvendige tiltak iverksettes for å hindre eller minske skadevirkninger, herunder det som er nødvendig for så langt som mulig å føre miljøet tilbake til tilstanden før uhellet skjedde. Departementet kan gi regler om slik beredskap og slike tiltak, herunder påby beredskapssamarbeid mellom flere rettighetshavere.</p>
 <p>Ved fare- og ulykkessituasjoner som nevnt i første ledd, kan departementet bestemme at andre skal stille nødvendige beredskapsmessige ressurser til rådighet for rettighetshavers regning. Departementet kan for rettighetshavers regning også iverksette tiltak for å skaffe nødvendige tilleggsressurser på annen måte.</p>
 <p>Reglene i lov 15. desember 1950 nr. 7 om særlige rådgjerder under krig, krigsfare og liknende forhold, kapittel 5 om tvangsavståing til det offentlige, gjelder tilsvarende så langt de passer.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="10-3-beredskap-mot-bevisste-anslag">§ 10-3. Beredskap mot bevisste anslag</h4>
 <p>Rettighetshaver skal iverksette og opprettholde sikringstiltak for å bidra til å hindre bevisste anslag mot innretninger samt til enhver tid ha beredskapsplaner for slike anslag.</p>
 <p>Rettighetshaver skal stille innretninger til disposisjon for offentlige myndigheter til øvelser og i nødvendig grad delta i slike øvelser.</p>
 <p>Departementet kan gi pålegg om gjennomføring av tiltak som nevnt i første og annet ledd.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="10-4-sikkerhetssoner-mv">§ 10-4. Sikkerhetssoner mv.</h4>
 <p>Rundt og over innretninger skal det være en sikkerhetssone med mindre departementet bestemmer noe annet. I fare- og ulykkessituasjoner kan departementet opprette midlertidige fare- og utelukkelsesområder i den utstrekning det anses nødvendig for å hindre eller begrense skadevirkninger. Utstrekning av soner som nevnt i første og annet punktum bestemmes av Kongen. Denne bestemmelse får ikke anvendelse for rørledninger og kabler.</p>
 <p>Kongen kan bestemme at en sikkerhetssone skal gå over grenselinjen til en annen stats kontinentalsokkel. Videre kan Kongen bestemme at det skal være en sikkerhetssone på norsk kontinentalsokkel selv om vedkommende innretning ligger utenfor denne.</p>
@@ -570,15 +879,15 @@ d. Skade er voldt i mer enn en rettskrets.</p>
 <p>Uvedkommende fartøy, luftputefartøy, luftfartøy, fiskeredskaper eller andre gjenstander må ikke befinne seg innenfor sone som nevnt i første, annet, tredje og fjerde ledd. Dersom fiske kan foregå i sonen eller deler av sonen uten å true sikkerheten eller hindre lagring av CO 2 , kan departementet likevel bestemme at slikt fiske kan finne sted.</p>
 <p>Departementet kan gi bestemmelser som anses nødvendige for å sikre adkomst for innretninger som nevnt i første ledd til sone som nevnt i tredje ledd.</p>
 <p>Paragrafen her gjelder ikke for innretninger plassert på land eller sjøgrunn undergitt privat eiendomsrett.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="10-5-stansing-av-lagring-av-co2mv">§ 10-5. Stansing av lagring av CO2mv.</h4>
 <p>Ved fare- og ulykkessituasjoner som nevnt i § 10-2 skal rettighetshaver eller andre som står for drift og bruk av innretningen i nødvendig utstrekning stanse lagring av CO 2 så lenge kravet til forsvarlig virksomhet tilsier det.</p>
 <p>Når det foreligger særlige grunner kan departementet påby at lagring av CO 2 stanses i nødvendig utstrekning eller sette særlige vilkår for fortsettelse.</p>
 <p>Når vedtak som nevnt i annet ledd er begrunnet i forhold som ikke skyldes rettighetshaver, kan departementet etter søknad forlenge det tidsrom som tillatelsen gjelder for og i rimelig utstrekning lempe på de forpliktelser som påhviler rettighetshaver.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="10-6-krav-til-sikkerhetsdokumentasjon">§ 10-6. Krav til sikkerhetsdokumentasjon</h4>
 <p>Beslutter rettighetshaver å utarbeide planer med sikte på godkjennelse eller tillatelse etter § 4-2 eller § 6-1 , skal planene og rettighetshavers dokumentasjon for gjennomføring av dette arbeidet forelegges departementet som ledd i tilsynet med sikkerheten.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-11-alminnelige-bestemmelser">Kapittel 11. Alminnelige bestemmelser</h2>
 <h4 id="11-1-krav-til-forsvarlig-transport-og-lagring-av-co2">§ 11-1. Krav til forsvarlig transport og lagring av CO2</h4>
 <p>Transport og lagring av CO 2 etter denne forskrift skal foregå på en forsvarlig måte og i samsvar med gjeldende regelverk for slik transport og lagring av CO 2 . Transport og lagring av CO 2 skal ivareta hensynet til sikkerhet for personell, miljø og de økonomiske verdier innretninger og fartøyer representerer, herunder driftstilgjengelighet.</p>
@@ -592,7 +901,7 @@ d. Skade er voldt i mer enn en rettskrets.</p>
 <p>Departementet kan når det anses nødvendig gi pålegg om at fartøy eller flyttbar innretning eller del av innretning skal bringes til norsk havn eller annet sted.</p>
 <p>Representanter fra departementet, Sokkeldirektoratet, Havindustritilsynet eller annen myndighet som myndighetene bestemmer, skal til enhver tid ha adgang til fartøy og innretninger for transport og lagring av CO 2 , samt til foreliggende data og materiale som er nødvendig for gjennomføring av tilsynsvirksomhet og ha rett til å delta i undersøkelser. Representanter for myndighetene har rett til å oppholde seg på fartøy og innretninger så lenge det er nødvendig. Rettighetshaver skal sørge for transport av representanter for myndighetene til og fra fartøy og innretninger, samt for opphold om bord.</p>
 <p>Utgifter vedrørende tilsynet kan kreves dekket av rettighetshaver eller den som tilsynet i det enkelte tilfelle retter seg mot eller finner sted hos. Det kan også kreves en sektoravgift til dekning av hele eller deler av virksomheten.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-4-register-over-lagringslokaliteter">§ 11-4. Register over lagringslokaliteter</h4>
 <p>Departementet eller den det bemyndiger skal sørge for at det opprettes og føres:</p>
 <p>a. Et register over tildelte tillatelser til lagring av CO 2 , og
@@ -609,7 +918,7 @@ b. Et permanent register over alle lukkede lagringslokaliteter og omgivende lagr
 <p>Materiale og opplysninger som rettighetshaver, operatør, entreprenør mv. har eller utarbeider vedrørende planlegging og gjennomføring av transport, injeksjon og lagring av CO 2 i henhold til denne forskrift, skal være tilgjengelige i Norge og kan kreves vederlagsfritt overlevert departementet eller den departementet utpeker. Overleveringen skal skje på det format departementet bestemmer i den utstrekning dette finnes rimelig. Departementet kan i denne forbindelse også kreve utført analyser og studier. Ved oppgivelse av tillatelse til lagring av CO 2 overtar operatøren ansvar etter denne bestemmelsen for materiale og opplysninger vedrørende den oppgitte tillatelsen til lagring av CO 2 .</p>
 <p>Kongen gir nærmere regler om hvilket materiale som skal være tilgjengelig for myndighetene og hva som kan kreves overlevert, samt hvilke opplysninger som skal gis offentlige myndigheter før transport og lagring av CO 2 begynner og etter at den er kommet i gang.</p>
 <p>Opplysninger som er gitt til myndighetene, skal etter nærmere bestemmelser gitt av departementet blant annet kunne brukes til utarbeidelse av oversiktskart og for statistiske formål, bl.a. i Statistisk sentralbyrå.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-8-plikt-til-a-etterleve-forskriften-og-til-a-pase-at-bestemmelser-blir-overholdt">§ 11-8. Plikt til å etterleve forskriften og til å påse at bestemmelser blir overholdt</h4>
 <p>Rettighetshaver og andre som deltar i transport og lagring av CO 2 som omfattes av denne forskrift, plikter å etterleve forskriften, og forskrifter og enkeltvedtak gitt med hjemmel i forskriften gjennom iverksettelse av nødvendige systematiske tiltak.</p>
 <p>I tillegg plikter rettighetshaver å påse at enhver som utfører arbeid for seg, enten personlig, ved ansatte eller ved entreprenører eller underentreprenører, overholder bestemmelsene gitt i eller i medhold av forskriften.</p>
@@ -645,13 +954,13 @@ d. Forsikring av egne arbeidstakere som er engasjert i virksomheten.</p>
 <p>Tillitsvalgte i fagforening som har tariffavtale med rettighetshaver, entreprenør eller underentreprenør som utfører arbeid for han, skal i rimelig utstrekning gis adgang til arbeidsplassen for å ivareta tariffmessige gjøremål etter å ha meldt fra til den stedlige bedriftsledelse.</p>
 <h4 id="11-17-varsling-og-rapportering">§ 11-17. Varsling og rapportering</h4>
 <p>Hendelser og andre forhold som medfører nedstengning av en lagringslokalitet eller som påvirker gjennomføring av aktiviteter i tråd med vedtak fattet i medhold av forskriften, skal omgående varsles til Sokkeldirektoratet. Departementet kan fastsette nærmere bestemmelser om varsling og rapportering til myndighetene.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-18-observatrer">§ 11-18. Observatører</h4>
 <p>Representanter fra departementet, Sokkeldirektoratet og Havindustritilsynet skal kunne delta som observatører i samarbeidsorganer som opprettes i henhold til avtaler som nevnt i § 4-1 sjette ledd , av hensyn til samordnet virksomhet som nevnt i § 5-11 og i eventuelle samarbeidsorganer som opprettes i forbindelse med anlegg og drift av innretninger som nevnt i loven § 6-1.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-19-ekspert-og-laboratorietjenester">§ 11-19. Ekspert- og laboratorietjenester</h4>
 <p>Sokkeldirektoratet kan i den utstrekning det anses rimelig pålegge rettighetshaver å stille til disposisjon for Sokkeldirektoratet ekspert- og laboratorietjenester for å løse spesielle problemer i forbindelse med transport og lagring av CO 2 .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-20-saksbehandling-og-taushetsplikt">§ 11-20. Saksbehandling og taushetsplikt</h4>
 <p>Reglene i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker ( forvaltningsloven) § 18 første ledd om en parts rett til å gjøre seg kjent med sakens dokumenter, kommer ikke til anvendelse ved søknad om letetillatelse, tillatelse til lagring av CO 2 eller tillatelse til transport av CO 2 .</p>
 <p>Opplysninger av enhver art som meddeles myndighetene i forbindelse med søknad om letetillatelse, tillatelse til lagring av CO 2 eller tillatelse til transport av CO 2 , skal være underlagt taushetsplikt inntil letetillatelse, tillatelse til lagring av CO 2 eller tillatelse til transport av CO 2 til de aktuelle områder er tildelt. Deretter skal opplysningene være underlagt taushetsplikt i den utstrekning dette følger av forvaltningsloven i et tidsrom av 20 år, jf. forvaltningsloven § 13 c ) tredje ledd.</p>
@@ -663,7 +972,7 @@ c. 5 år for øvrige data.</p>
 <p>For øvrig kommer bestemmelsene om taushetsplikt i forvaltningsloven § 13 til § 13f til anvendelse for forvaltningsorganer som mottar eller behandler opplysninger eller materiale om undersøkelse og leting etter, utnyttelse, transport og lagring av CO 2 i, undersjøiske reservoarer dog slik at taushetsplikt bortfaller etter 10 år, jf. forvaltningsloven § 13 c ) tredje ledd.</p>
 <p>Bestemmelsene i denne paragraf skal ikke være til hinder for at departementet gir generelle uttalelser om virksomheten og om mulighetene for å finne lagringslokaliteter, og heller ikke for utveksling av informasjon som forutsatt i lov 3. juni 1994 nr. 15 om Enhetsregisteret.</p>
 <p>Bestemmelsen i denne paragraf skal heller ikke være til hinder for utveksling av informasjon med Havindustritilsynet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-21-tilbakekall">§ 11-21. Tilbakekall</h4>
 <p>Kongen kan ved alvorlig overtredelse eller gjentatte overtredelser av denne forskrift, forskrifter gitt i medhold av den, fastsatte vilkår eller gitte pålegg, tilbakekalle tillatelse etter forskriften her.</p>
 <p>Hvis det i en søknad om tillatelse er gitt uriktige opplysninger eller opplysninger av betydning er tilbakeholdt og det må antas at tillatelse ikke ville ha vært gitt om riktige eller fullstendige opplysninger hadde foreligget, kan tillatelsen tilbakekalles overfor vedkommende rettighetshaver.</p>
@@ -677,7 +986,7 @@ c. 5 år for øvrige data.</p>
 <p>Departementet kan i særlige tilfeller dispensere fra bestemmelser fastsatt i eller gitt i medhold av denne forskriften.</p>
 <p>Når myndighet i denne forskriften er lagt til Sokkeldirektoratet eller Havindustritilsynet, omfatter dette også myndighet etter første og fjerde ledd.</p>
 <p>I forbindelse med enkeltvedtak kan det settes andre vilkår enn de som er nevnt i denne forskrift, når de har en naturlig tilknytning til det tiltak eller den virksomhet som enkeltvedtaket gjelder.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="11-24-straffebestemmelser">§ 11-24. Straffebestemmelser</h4>
 <p>Forsettlig eller uaktsom overtredelse av bestemmelser eller vedtak truffet i eller i medhold av denne forskrift straffes med bøter eller fengsel inntil 3 måneder. Under særlig skjerpende omstendigheter kan fengsel inntil 2 år anvendes. Medvirkning straffes på samme måte. Disse bestemmelser får ikke anvendelse dersom forholdet rammes av strengere straffebud.</p>
 <h2 id="kapittel-12-ikrafttredelse">Kapittel 12. Ikrafttredelse</h2>
@@ -728,6 +1037,8 @@ c. 5 år for øvrige data.</p>
 <p>For nye CO 2 -kilder, lekkasjeveier og fluksrater eller ved observerte vesentlige avvik fra tidligere vurderinger identifisert ved sammenligning med historiske data, tilpasning og kalibrering av modellen, skal overvåkingsplanen oppdateres i samsvar med dette.</p>
 <h3 id="2-overvaking-etter-nedlukking">2. Overvåking etter nedlukking</h3>
 <p>Overvåking etter at lagringslokaliteten er nedlukket skal baseres på informasjonen som er samlet og modellert under gjennomføring av overvåkingsplanen i § 5-4 annet ledd og i ovennevnte nr. 1.2 i dette vedlegg. Den skal særlig tjene til å gi informasjonen som kreves for å treffe en beslutning i samsvar med denne forskriften § 5-7 første ledd.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

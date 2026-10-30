@@ -19,68 +19,219 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-05-22-30.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Tivoliloven" href="../feeds/lov-2017-05-22-30.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Tivoliloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-05-22-30</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>HMS og beredskaps- og sikkerhetsrett &raquo; Samfunnssikkerhet\nKultur, idrett og underholdning &raquo; Underholdning</dd>
-<dt>Ikrafttredelse</dt><dd>2017-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2023-06-20-82</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-05-22-30" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-myndighet-etter-loven">§ 4. Myndighet etter loven</a></li>
+<li class="lvl2"><a href="#kapittel-2-tillatelse-og-krav-til-virksomheten">Kapittel 2. Tillatelse og krav til virksomheten</a></li>
+<li class="lvl4"><a href="#5-virksomhetens-plikter">§ 5. Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#6-krav-om-driftstillatelse">§ 6. Krav om driftstillatelse</a></li>
+<li class="lvl4"><a href="#7-plikt-til-sikkerhetsstyringssystem-internkontrollsystem">§ 7. Plikt til sikkerhetsstyringssystem (internkontrollsystem)</a></li>
+<li class="lvl4"><a href="#8-erstatnings-og-forsikringsplikt">§ 8. Erstatnings- og forsikringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-3-varslingsplikt-rapportering-og-taushetsplikt">Kapittel 3. Varslingsplikt, rapportering og taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-varslingsplikt">§ 9. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#10-rapporteringsplikt">§ 10. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#11-taushetsplikt">§ 11. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-a-taushetsplikt-for-virksomhetens-personell">§ 11 a. Taushetsplikt for virksomhetens personell</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilsyn-reaksjoner-ved-lovbrudd">Kapittel 4. Tilsyn. Reaksjoner ved lovbrudd</a></li>
+<li class="lvl4"><a href="#12-tilsynsmyndighet">§ 12. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#13-tilsynsmyndighetens-adgang-til-virksomheten">§ 13. Tilsynsmyndighetens adgang til virksomheten</a></li>
+<li class="lvl4"><a href="#14-opplysningsplikt">§ 14. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#15-palegg-om-korrigerende-tiltak">§ 15. Pålegg om korrigerende tiltak</a></li>
+<li class="lvl4"><a href="#16-palegg-om-yeblikkelig-stans-eller-opphr-av-bruk">§ 16. Pålegg om øyeblikkelig stans eller opphør av bruk</a></li>
+<li class="lvl4"><a href="#17-tilbakekall-av-tillatelse">§ 17. Tilbakekall av tillatelse</a></li>
+<li class="lvl4"><a href="#18-tvangsmulkt">§ 18. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#19-overtredelsesgebyr">§ 19. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#20-straff">§ 20. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-5-pliktavhold-og-testing-av-ruspavirkning">Kapittel 5. Pliktavhold og testing av ruspåvirkning</a></li>
+<li class="lvl4"><a href="#21-pliktavhold">§ 21. Pliktavhold</a></li>
+<li class="lvl4"><a href="#22-testing-av-ruspavirkning">§ 22. Testing av ruspåvirkning</a></li>
+<li class="lvl2"><a href="#kapittel-5-a-om-underskelsesmyndigheten">Kapittel 5 A Om undersøkelsesmyndigheten</a></li>
+<li class="lvl4"><a href="#23-a-underskelsesmyndighetens-oppgaver-og-uavhengighet">§ 23 a. Undersøkelsesmyndighetens oppgaver og uavhengighet</a></li>
+<li class="lvl4"><a href="#23-b-tilsynsmyndighetens-oppgaver">§ 23 b. Tilsynsmyndighetens oppgaver</a></li>
+<li class="lvl4"><a href="#23-c-underskelse-av-ulykker-og-alvorlige-hendelser">§ 23 c. Undersøkelse av ulykker og alvorlige hendelser</a></li>
+<li class="lvl4"><a href="#23-d-iverksetting-av-underskelse-og-underskelsens-omfang">§ 23 d. Iverksetting av undersøkelse og undersøkelsens omfang</a></li>
+<li class="lvl4"><a href="#23-e-forbud-mot-a-fjerne-gjenstander-mv-samt-behov-for-a-gjenopprette-drift">§ 23 e. Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette drift</a></li>
+<li class="lvl4"><a href="#23-f-forklaringsplikt-til-underskelsesmyndigheten-mv">§ 23 f. Forklaringsplikt til undersøkelsesmyndigheten mv.</a></li>
+<li class="lvl4"><a href="#23-g-tiltak-for-a-fremskaffe-opplysninger">§ 23 g. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl4"><a href="#23-h-bevissikring">§ 23 h. Bevissikring</a></li>
+<li class="lvl4"><a href="#23-i-rettigheter-for-dem-saken-angar">§ 23 i. Rettigheter for dem saken angår</a></li>
+<li class="lvl4"><a href="#23-j-bruk-av-data-fra-overvakings-og-registreringssystemer">§ 23 j. Bruk av data fra overvåkings- og registreringssystemer</a></li>
+<li class="lvl4"><a href="#23-k-underskelsesmyndighetens-taushetsplikt">§ 23 k. Undersøkelsesmyndighetens taushetsplikt</a></li>
+<li class="lvl4"><a href="#23-l-informasjon-til-tilsynsmyndigheten">§ 23 l. Informasjon til tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#23-m-underskelsesrapport">§ 23 m. Undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-n-behandling-av-utkast-til-underskelsesrapport">§ 23 n. Behandling av utkast til undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-o-unntatt-dokumentoffentlighet-for-utkast-til-underskelsesrapport">§ 23 o. Unntatt dokumentoffentlighet for utkast til undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-p-forbud-mot-bruk-som-bevis-i-straffesak">§ 23 p. Forbud mot bruk som bevis i straffesak</a></li>
+<li class="lvl2"><a href="#kapittel-6-andre-bestemmelser">Kapittel 6. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#23-gebyr-og-avgift">§ 23. Gebyr og avgift</a></li>
+<li class="lvl4"><a href="#24-fjerning-av-fornyelsesinnretning">§ 24. Fjerning av fornøyelsesinnretning</a></li>
+<li class="lvl4"><a href="#25-forbud-mot-sanksjoner-fra-arbeidsgiver">§ 25. Forbud mot sanksjoner fra arbeidsgiver</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</a></li>
+<li class="lvl4"><a href="#28-overgangsbestemmelser">§ 28. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2023-06-20-82.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-05-22-30.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om fornøyelsesinnretninger (tivoliloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-05-22-30.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-05-22-30 <code>lov/2017-05-22-30</code></td></tr>
+<tr><th>Korttittel</th><td>Tivoliloven</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>HMS og beredskaps- og sikkerhetsrett &raquo; Samfunnssikkerhet\nKultur, idrett og underholdning &raquo; Underholdning</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2017</td></tr>
+<tr><th>Sist endret</th><td>LOV-2023-06-20-82 <code>lov/2023-06-20-82</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-05-22-30" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-myndighet-etter-loven">§ 4. Myndighet etter loven</a></li>
+<li class="lvl2"><a href="#kapittel-2-tillatelse-og-krav-til-virksomheten">Kapittel 2. Tillatelse og krav til virksomheten</a></li>
+<li class="lvl4"><a href="#5-virksomhetens-plikter">§ 5. Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#6-krav-om-driftstillatelse">§ 6. Krav om driftstillatelse</a></li>
+<li class="lvl4"><a href="#7-plikt-til-sikkerhetsstyringssystem-internkontrollsystem">§ 7. Plikt til sikkerhetsstyringssystem (internkontrollsystem)</a></li>
+<li class="lvl4"><a href="#8-erstatnings-og-forsikringsplikt">§ 8. Erstatnings- og forsikringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-3-varslingsplikt-rapportering-og-taushetsplikt">Kapittel 3. Varslingsplikt, rapportering og taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-varslingsplikt">§ 9. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#10-rapporteringsplikt">§ 10. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#11-taushetsplikt">§ 11. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#11-a-taushetsplikt-for-virksomhetens-personell">§ 11 a. Taushetsplikt for virksomhetens personell</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilsyn-reaksjoner-ved-lovbrudd">Kapittel 4. Tilsyn. Reaksjoner ved lovbrudd</a></li>
+<li class="lvl4"><a href="#12-tilsynsmyndighet">§ 12. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#13-tilsynsmyndighetens-adgang-til-virksomheten">§ 13. Tilsynsmyndighetens adgang til virksomheten</a></li>
+<li class="lvl4"><a href="#14-opplysningsplikt">§ 14. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#15-palegg-om-korrigerende-tiltak">§ 15. Pålegg om korrigerende tiltak</a></li>
+<li class="lvl4"><a href="#16-palegg-om-yeblikkelig-stans-eller-opphr-av-bruk">§ 16. Pålegg om øyeblikkelig stans eller opphør av bruk</a></li>
+<li class="lvl4"><a href="#17-tilbakekall-av-tillatelse">§ 17. Tilbakekall av tillatelse</a></li>
+<li class="lvl4"><a href="#18-tvangsmulkt">§ 18. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#19-overtredelsesgebyr">§ 19. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#20-straff">§ 20. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-5-pliktavhold-og-testing-av-ruspavirkning">Kapittel 5. Pliktavhold og testing av ruspåvirkning</a></li>
+<li class="lvl4"><a href="#21-pliktavhold">§ 21. Pliktavhold</a></li>
+<li class="lvl4"><a href="#22-testing-av-ruspavirkning">§ 22. Testing av ruspåvirkning</a></li>
+<li class="lvl2"><a href="#kapittel-5-a-om-underskelsesmyndigheten">Kapittel 5 A Om undersøkelsesmyndigheten</a></li>
+<li class="lvl4"><a href="#23-a-underskelsesmyndighetens-oppgaver-og-uavhengighet">§ 23 a. Undersøkelsesmyndighetens oppgaver og uavhengighet</a></li>
+<li class="lvl4"><a href="#23-b-tilsynsmyndighetens-oppgaver">§ 23 b. Tilsynsmyndighetens oppgaver</a></li>
+<li class="lvl4"><a href="#23-c-underskelse-av-ulykker-og-alvorlige-hendelser">§ 23 c. Undersøkelse av ulykker og alvorlige hendelser</a></li>
+<li class="lvl4"><a href="#23-d-iverksetting-av-underskelse-og-underskelsens-omfang">§ 23 d. Iverksetting av undersøkelse og undersøkelsens omfang</a></li>
+<li class="lvl4"><a href="#23-e-forbud-mot-a-fjerne-gjenstander-mv-samt-behov-for-a-gjenopprette-drift">§ 23 e. Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette drift</a></li>
+<li class="lvl4"><a href="#23-f-forklaringsplikt-til-underskelsesmyndigheten-mv">§ 23 f. Forklaringsplikt til undersøkelsesmyndigheten mv.</a></li>
+<li class="lvl4"><a href="#23-g-tiltak-for-a-fremskaffe-opplysninger">§ 23 g. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl4"><a href="#23-h-bevissikring">§ 23 h. Bevissikring</a></li>
+<li class="lvl4"><a href="#23-i-rettigheter-for-dem-saken-angar">§ 23 i. Rettigheter for dem saken angår</a></li>
+<li class="lvl4"><a href="#23-j-bruk-av-data-fra-overvakings-og-registreringssystemer">§ 23 j. Bruk av data fra overvåkings- og registreringssystemer</a></li>
+<li class="lvl4"><a href="#23-k-underskelsesmyndighetens-taushetsplikt">§ 23 k. Undersøkelsesmyndighetens taushetsplikt</a></li>
+<li class="lvl4"><a href="#23-l-informasjon-til-tilsynsmyndigheten">§ 23 l. Informasjon til tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#23-m-underskelsesrapport">§ 23 m. Undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-n-behandling-av-utkast-til-underskelsesrapport">§ 23 n. Behandling av utkast til undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-o-unntatt-dokumentoffentlighet-for-utkast-til-underskelsesrapport">§ 23 o. Unntatt dokumentoffentlighet for utkast til undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#23-p-forbud-mot-bruk-som-bevis-i-straffesak">§ 23 p. Forbud mot bruk som bevis i straffesak</a></li>
+<li class="lvl2"><a href="#kapittel-6-andre-bestemmelser">Kapittel 6. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#23-gebyr-og-avgift">§ 23. Gebyr og avgift</a></li>
+<li class="lvl4"><a href="#24-fjerning-av-fornyelsesinnretning">§ 24. Fjerning av fornøyelsesinnretning</a></li>
+<li class="lvl4"><a href="#25-forbud-mot-sanksjoner-fra-arbeidsgiver">§ 25. Forbud mot sanksjoner fra arbeidsgiver</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</a></li>
+<li class="lvl4"><a href="#28-overgangsbestemmelser">§ 28. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-05-22-30.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-05-22-30.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-05-22-30.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-05-22-30.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-05-22-30.html">Observerte kildeutgaver</a> · <a href="../historie/tivoliloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-05-22-30.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-05-22-30.html">Observerte kildeutgaver</a> · <a href="../historie/tivoliloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-05-22-30.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-fornyelsesinnretninger-tivoliloven">Lov om fornøyelsesinnretninger (tivoliloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Loven skal sikre at fornøyelsesinnretninger blir anlagt, bygget, drevet, vedlikeholdt og fjernet slik at innretninger ikke fører til skade på person, eiendom eller miljø. Loven skal legge til rette for en stadig forbedring av sikkerheten og forebygging av ulykker gjennom systematisk, risikobasert sikkerhetsarbeid, herunder undersøkelser av ulykker og hendelser.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Loven gjelder den som tilbyr publikum bruk av fornøyelsesinnretninger.</p>
 <p>Departementet kan ved forskrift eller enkeltvedtak unnta fornøyelsesinnretninger helt eller delvis fra loven. Enkeltvedtak om unntak for fornøyelsesinnretninger kan ikke påklages.</p>
@@ -108,7 +259,7 @@ j. tvangsmulkt og overtredelsesgebyr, inkludert hvordan den skal fastsettes, ber
 k. gebyr, årsgebyr og sektoravgift
 l. hvem som omfattes av forbudet mot ruspåvirkning og av påbudet om pliktmessig avhold, samt om testing av ruspåvirkning
 m. undersøkelsesmyndighetens oppgaver og kompetanse, inkludert varsling og rapportering til og fra undersøkelsesmyndigheten, og om samarbeid og utveksling av opplysninger med andre land og internasjonale organisasjoner i den grad det følger av internasjonale avtaler som Norge har inngått.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h2 id="kapittel-2-tillatelse-og-krav-til-virksomheten">Kapittel 2. Tillatelse og krav til virksomheten</h2>
 <h4 id="5-virksomhetens-plikter">§ 5. Virksomhetens plikter</h4>
 <p>Virksomheten skal drive fornøyelsesinnretningen på en sikker måte og sikre at vilkårene som er satt for fornyelsesinnretningen i eller i medhold av denne loven, er oppfylt.</p>
@@ -127,25 +278,25 @@ m. undersøkelsesmyndighetens oppgaver og kompetanse, inkludert varsling og rapp
 <h4 id="9-varslingsplikt">§ 9. Varslingsplikt</h4>
 <p>Virksomheten skal straks varsle politiet og undersøkelsesmyndigheten om ulykke eller alvorlig hendelse.</p>
 <p>Undersøkelsesmyndigheten skal varsle tilsynsmyndigheten om ulykke eller alvorlig hendelse.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="10-rapporteringsplikt">§ 10. Rapporteringsplikt</h4>
 <p>Virksomheten skal rapportere opplysninger om ulykker, alvorlige hendelser og hendelser til tilsynsmyndigheten og undersøkelsesmyndigheten.</p>
 <p>Ulykker og alvorlige hendelser skal rapporteres skriftlig til tilsynsmyndigheten og undersøkelsesmyndigheten så snart som mulig og senest innen 72 timer. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten og undersøkelsesmyndigheten i fellesskap.</p>
 <p>Hendelser skal rapporteres til tilsynsmyndigheten innen åtte dager. Rapportering skal skje på skjema fastsatt av tilsynsmyndigheten.</p>
 <p>Rapportering kan skje elektronisk.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="11-taushetsplikt">§ 11. Taushetsplikt</h4>
 <p>Enhver som utfører arbeid eller tjeneste for tilsynsmyndigheten, har taushetsplikt etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a> om det de får kjennskap til under utføring av arbeidet eller tjenesten. Forvaltningsloven § 13 b første ledd nr. 6 gjelder likevel ikke.</p>
 <p>Personer som nevnt i første ledd har i tillegg taushetsplikt om alle opplysninger som er innrapportert etter § 10 , og om opplysninger som er fremkommet under forklaring for undersøkelsesmyndigheten etter §23 f og § 23 k så langt det passer. Dette gjelder ikke dersom tungtveiende offentlige hensyn tilsier at opplysningene bør kunne gis videre, eller opplysningene er nødvendige for å forklare årsaken til en ulykke eller hendelse.</p>
 <p>Taushetsplikt etter første og andre ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, eller dersom opplysningene har statistisk form eller de er alminnelig tilgjengelig andre steder.</p>
 <p>Opplysninger som er taushetsbelagt etter andre ledd, kan gis videre til utenlandske og internasjonale myndigheter og organisasjoner når dette følger av internasjonale avtaler som Norge har inngått.</p>
 <p>Opplysninger som tilsynsmyndigheten mottar i medhold av § 10 , kan ikke brukes som bevis i en senere straffesak mot den som har gitt opplysningene.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="11-a-taushetsplikt-for-virksomhetens-personell">§ 11 a. Taushetsplikt for virksomhetens personell</h4>
 <p>Enhver som utfører tjeneste eller arbeid for den som driver virksomhet etter loven her, har taushetsplikt som nevnt i forvaltningsloven §§ 13 flg. om det de får kjennskap til i forbindelse med undersøkelser og rapportering av ulykker og hendelser etter loven her.</p>
 <p>Personer som nevnt i første ledd har i tillegg taushetsplikt om alle opplysninger som er innrapportert etter § 10 , og om opplysninger som er fremkommet under forklaring for undersøkelsesmyndigheten etter § 23 f og § 23 k . Dette gjelder ikke dersom tungtveiende offentlige hensyn tilsier at opplysningene bør kunne gis videre, eller opplysningene er nødvendige for å forklare årsaken til en ulykke eller hendelse.</p>
 <p>Taushetsplikt som nevnt i annet ledd er ikke til hinder for at opplysningene bringes videre i den grad den som har krav på taushet samtykker, forutsatt at opplysningene har statistisk form eller de er alminnelig tilgjengelig andre steder.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h2 id="kapittel-4-tilsyn-reaksjoner-ved-lovbrudd">Kapittel 4. Tilsyn. Reaksjoner ved lovbrudd</h2>
 <h4 id="12-tilsynsmyndighet">§ 12. Tilsynsmyndighet</h4>
 <p>Departementet, eller den departementet delegerer oppgaven til, skal føre tilsyn med at loven med tilhørende forskrifter overholdes (tilsynsmyndigheten).</p>
@@ -193,26 +344,26 @@ e. overtrederens økonomiske evne.</p>
 <p>Undersøkelsesmyndigheten skal klarlegge hendelsesforløp og årsaksfaktorer, utrede forhold av betydning for å forebygge ulykker og avgi undersøkelsesrapport som nevnt i § 23 m .</p>
 <p>Undersøkelsesmyndigheten skal ikke ta stilling til sivilrettslig eller strafferettslig skyld og ansvar. Undersøkelsen skal foregå uavhengig av annen etterforskning eller undersøkelse som helt eller delvis har slikt formål.</p>
 <p>Undersøkelsesmyndigheten skal hvert år offentliggjøre en rapport om de undersøkelser som er gjennomført året før, inkludert sikkerhetstilrådinger og tiltak som er truffet i samsvar med disse.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-b-tilsynsmyndighetens-oppgaver">§ 23 b. Tilsynsmyndighetens oppgaver</h4>
 <p>Tilsynsmyndigheten skal vurdere rapportene som undersøkelsesmyndigheten avgir, for å kunne identifisere og iverksette tiltak som kan bedre sikkerheten for fornøyelsesinnretninger.</p>
 <p>Tilsynsmyndigheten kan gi pålegg om oppfølging av sikkerhetstilrådinger til den som driver virksomhet etter loven her.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-c-underskelse-av-ulykker-og-alvorlige-hendelser">§ 23 c. Undersøkelse av ulykker og alvorlige hendelser</h4>
 <p>Undersøkelsesmyndigheten undersøker ulykker og alvorlige hendelser.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-d-iverksetting-av-underskelse-og-underskelsens-omfang">§ 23 d. Iverksetting av undersøkelse og undersøkelsens omfang</h4>
 <p>Når undersøkelsesmyndigheten har mottatt varsel om en ulykke eller alvorlig hendelse etter § 9, skal den straks avgjøre om det er behov for å iverksette umiddelbar undersøkelse. Når undersøkelsesmyndigheten mottar rapport etter § 10, skal den uten ugrunnet opphold avgjøre om og når det skal iverksettes undersøkelse.</p>
 <p>Undersøkelsesmyndigheten avgjør selv omfanget av undersøkelsen og hvordan den skal gjennomføres. Ved avgjørelsen skal undersøkelsesmyndigheten blant annet ta hensyn til hvilken lærdom undersøkelsen forventes å gi med sikte på å forbedre sikkerheten, ulykkens eller hendelsens alvorlighetsgrad, dens innvirkning på sikkerheten generelt og om den inngår i en serie av ulykker eller hendelser.</p>
 <p>Undersøkelsesmyndigheten kan uten hensyn til tidligere avgjørelser beslutte å undersøke forhold ved én eller flere ulykker eller hendelser.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-e-forbud-mot-a-fjerne-gjenstander-mv-samt-behov-for-a-gjenopprette-drift">§ 23 e. Forbud mot å fjerne gjenstander mv. samt behov for å gjenopprette drift</h4>
 <p>Ingen må fjerne eller røre gjenstander eller spor fra ulykken uten samtykke fra undersøkelsesmyndigheten og politiet, med mindre det er nødvendig for å redde eller avverge fare for liv eller eiendom eller for å hindre at noe som kan ha betydning for undersøkelsen, ødelegges eller forsvinner.</p>
 <p>Undersøkelsesmyndigheten skal avslutte sine undersøkelser på ulykkesstedet så snart som mulig slik at virksomheten kan bli i stand til å gjenopprette driften.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-f-forklaringsplikt-til-underskelsesmyndigheten-mv">§ 23 f. Forklaringsplikt til undersøkelsesmyndigheten mv.</h4>
 <p>Enhver plikter på forlangende, og uten hensyn til taushetsplikt, å gi undersøkelsesmyndigheten de opplysninger han eller hun sitter inne med om forhold som kan være av betydning for undersøkelsen. Enhver som forklarer seg, har rett til å la seg bistå av advokat eller annen person under forklaringen.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-g-tiltak-for-a-fremskaffe-opplysninger">§ 23 g. Tiltak for å fremskaffe opplysninger</h4>
 <p>Undersøkelsesmyndigheten har rett til å benytte privat grunn og kan kreve å få undersøke og ta i besittelse relevante gjenstander, dokumenter og andre ting i den utstrekning den trenger det for å kunne utøve sitt verv. Herunder skal undersøkelsesmyndigheten ha rett til</p>
 <ol>
@@ -220,17 +371,17 @@ e. overtrederens økonomiske evne.</p>
 <li>å kreve legeundersøkelse av alle personer involvert i ulykken eller hendelsen, eller be om at det utføres tester på prøver som er tatt av slike personer, og ha umiddelbar tilgang til resultatet av slike undersøkelser eller tester.</li>
 </ol>
 <p>Om nødvendig kan undersøkelsesmyndigheten kreve bistand fra politiet.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-h-bevissikring">§ 23 h. Bevissikring</h4>
 <p>Undersøkelsesmyndigheten kan kreve bevissikring utenfor rettssak etter reglene i <a href="lov-2005-06-17-90.html">tvisteloven</a> § 28-3 tredje ledd og § 28-4 . Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-i-rettigheter-for-dem-saken-angar">§ 23 i. Rettigheter for dem saken angår</h4>
 <p>Når undersøkelsesmyndigheten iverksetter undersøkelse, skal den så vidt mulig underrette den som driver den aktuelle virksomheten, ofrene og deres familie, eiere av skadede ting, produsenter, berørte beredskapstjenester, representanter for personalet og for brukerne, samt andre som saken angår, om dette. Slik underretning skal gis så snart som mulig, og skal opplyse om rettighetene etter annet ledd i paragrafen her og etter § 23 n første ledd.</p>
 <p>Innen undersøkelsene avsluttes, skal de som er nevnt i første ledd, gis adgang til å gi opplysninger og fremme sine synspunkter om ulykken eller hendelsen og dens årsaksfaktorer. De skal også underrettes jevnlig om fremdriften av undersøkelsen og gis adgang til å fremme sine synspunkter på undersøkelsen i den grad det er praktisk mulig. Videre bør de også gis adgang til å være til stede under undersøkelsen og ha rett til å gjøre seg kjent med dokumentene, i den utstrekning undersøkelsesmyndigheten finner at dette kan skje uten hinder for undersøkelsen. Tredje punktum gjelder med de begrensninger som følger av taushetsplikten etter § 23 k .</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-j-bruk-av-data-fra-overvakings-og-registreringssystemer">§ 23 j. Bruk av data fra overvåkings- og registreringssystemer</h4>
 <p>Undersøkelsesmyndigheten skal ha tilgang til alle data fra overvåkings- og registreringssystemer virksomheten har i forbindelse med driften, men har ikke anledning til å utlevere slikt materiale til andre. Opplysninger fra overvåkings- og registreringssystemer kan likevel utleveres til bruk som bevis i en straffesak eller sivil sak for domstolene etter rettens kjennelse. Retten kan bare godkjenne utlevering etter annet punktum dersom behovet for utlevering i den konkrete saken veier tyngre enn faren for at man ved slik utlevering vanskeliggjør undersøkelsesmyndighetens arbeid med den aktuelle saken eller fremtidige nasjonale eller internasjonale undersøkelser.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-k-underskelsesmyndighetens-taushetsplikt">§ 23 k. Undersøkelsesmyndighetens taushetsplikt</h4>
 <p>Enhver som utfører tjeneste eller arbeid for undersøkelsesmyndigheten har taushetsplikt etter forvaltningsloven .</p>
 <p>Personer som nevnt i første ledd har også taushetsplikt for alle opplysninger undersøkelsesmyndigheten mottar, får utarbeidet eller selv utarbeider som ledd i undersøkelse av en ulykke eller alvorlig hendelse.</p>
@@ -250,24 +401,24 @@ e. overtrederens økonomiske evne.</p>
 <li>at opplysninger gis videre til utenlandsk og internasjonal myndighet og organisasjon når dette følger av internasjonale avtaler Norge har inngått.</li>
 </ol>
 <p>Taushetsplikten etter første og annet ledd er heller ikke til hinder for at det offentliggjøres opplysninger i dokumenter som undersøkelsesmyndigheten ikke selv har utarbeidet eller fått utarbeidet. Dette gjelder likevel ikke opplysninger som nevnt i tredje ledd nr. 1 bokstav a til d, opplysninger som er taushetspliktige etter forvaltningsloven § 13 , og opplysninger som i utgangspunktet er omfattet av en strengere taushetspliktbestemmelse i særlov enn den som følger av tredje ledd nr. 1 bokstav a til d, eller forvaltningsloven § 13 . Opplysningene kan heller ikke offentliggjøres etter første punktum dersom undersøkelsesmyndigheten mener at offentliggjøring kan bli brukt av andre til å vurdere sivilrettslig eller strafferettslig skyld eller ansvar eller dersom undersøkelsesmyndigheten har fått tilgang til dokumentet i tilknytning til forklaring som nevnt i § 23 f , og undersøkelsesmyndigheten anser opplysninger i dokumentet som en del av forklaringen.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-l-informasjon-til-tilsynsmyndigheten">§ 23 l. Informasjon til tilsynsmyndigheten</h4>
 <p>Undersøkelsesmyndigheten skal fortløpende holde tilsynsmyndigheten underrettet om forhold som avdekkes i løpet av undersøkelsen, og sine egne foreløpige vurderinger av disse, i den grad dette anses nødvendig for sikkerheten for fornøyelsesinnretningen.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-m-underskelsesrapport">§ 23 m. Undersøkelsesrapport</h4>
 <p>Når undersøkelsesmyndigheten har undersøkt en ulykke eller alvorlige hendelser, skal den utarbeide en rapport som redegjør for hendelsesforløpet og inneholder undersøkelsesmyndighetens uttalelse om årsaksforholdene. Rapporten skal opplyse om formålet med undersøkelsen, jf. § 23 a . Rapporten skal også så langt det er formålstjenlig, inneholde undersøkelsesmyndighetens eventuelle tilrådinger om tiltak som bør treffes eller vurderes for å hindre lignende ulykker eller alvorlige hendelser i fremtiden.</p>
 <p>Rapporten skal ikke inneholde referanser til enkeltpersoners navn eller adresse. Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-n-behandling-av-utkast-til-underskelsesrapport">§ 23 n. Behandling av utkast til undersøkelsesrapport</h4>
 <p>Før undersøkelsesmyndigheten sluttbehandler rapporten, skal et utkast til rapport etter anmodning forelegges for personer som nevnt i § 23 i første ledd, med en rimelig frist for vedkommende til å gi uttalelse, med mindre særlige forhold tilsier at dette ikke gjøres. Tilsynsmyndigheten skal forelegges utkastet til rapport, med rimelig frist til å uttale seg. Plikten til foreleggelse etter første punktum gjelder bare de delene av utkastet til rapport som vedkommende på grunn av sin tilknytning til saken eller undersøkelsen har særlige forutsetninger for å uttale seg om.</p>
 <p>Undersøkelsesmyndighetens avgjørelse etter denne paragrafen kan ikke påklages.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-o-unntatt-dokumentoffentlighet-for-utkast-til-underskelsesrapport">§ 23 o. Unntatt dokumentoffentlighet for utkast til undersøkelsesrapport</h4>
 <p>Undersøkelsesmyndighetens utkast til rapport er ikke offentlig etter <a href="lov-2006-05-19-16.html">offentleglova</a> .</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h4 id="23-p-forbud-mot-bruk-som-bevis-i-straffesak">§ 23 p. Forbud mot bruk som bevis i straffesak</h4>
 <p>Opplysninger undersøkelsesmyndigheten mottar etter §§ 10 og 23 f kan ikke brukes som bevis i en senere straffesak mot den som har gitt opplysningene. Det samme gjelder alle opplysninger som er mottatt med hjemmel i lov om elektronisk kommunikasjon § 2-9 .</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h2 id="kapittel-6-andre-bestemmelser">Kapittel 6. Andre bestemmelser</h2>
 <h4 id="23-gebyr-og-avgift">§ 23. Gebyr og avgift</h4>
 <p>Departementet kan kreve gebyrer for å behandle søknader om å få eller opprettholde tillatelser o.l. i eller i medhold av denne loven, og for tilsyn som gjennomføres for å sikre at loven eller vedtak i medhold av loven blir fulgt. Gebyrene settes slik at de samlet ikke overstiger tilsynsmyndighetens kostnader med saksbehandlingen eller tilsynet.</p>
@@ -281,18 +432,20 @@ e. overtrederens økonomiske evne.</p>
 <h4 id="25-forbud-mot-sanksjoner-fra-arbeidsgiver">§ 25. Forbud mot sanksjoner fra arbeidsgiver</h4>
 <p>En arbeidstaker som avgir rapport etter § 10 eller forklaring etter § 23 f , skal ikke som følge av dette utsettes for noen form for sanksjoner fra arbeidsgiverens side. Første punktum gjelder ikke tiltak som arbeidsgiveren iverksetter med hovedformål å forbedre arbeidstakerens kvalifikasjoner.</p>
 <p>Første ledd gjelder ikke dersom de mottatte opplysningene viser at arbeidstakeren ikke oppfyller helsemessige krav til å inneha sin stilling, eller at arbeidstakeren selv har opptrådt grovt uaktsomt i forbindelse med den rapporterte ulykken eller hendelsen. Første ledd gjelder heller ikke omstendigheter knyttet til arbeidstakeren eller dennes handlinger og unnlatelser som er blitt kjent på annen måte enn gjennom arbeidstakerens rapportering eller forklaring som nevnt i første ledd.</p>
-<p><em>Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 ).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <h4 id="26-ikrafttredelse">§ 26. Ikrafttredelse</h4>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 25).
-1 Fra 1 juli 2017 iflg. res. 22 mai 2017 nr. 618 .</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 25).
+1 Fra 1 juli 2017 iflg. res. 22 mai 2017 nr. 618 .</p>
 <h4 id="27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</h4>
 <p>Fra det tidspunktet loven trer i kraft, oppheves lov 7. juni 1991 nr. 24 om godkjenning og drift av innretninger til bruk i tivoli og fornøyelsesparker.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 26).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 26).</p>
 <h4 id="28-overgangsbestemmelser">§ 28. Overgangsbestemmelser</h4>
 <p>Forskrifter og vedtak gitt i medhold av bestemmelser i lov 7. juni 1991 nr. 24 om godkjenning og drift av innretninger til bruk i tivoli og fornøyelsesparker, gjelder i den utstrekning de ikke strider mot bestemmelser i eller i medhold av denne loven.</p>
-<p><em>Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 27).</em></p>
+<p class="note">Endret ved lov 20 juni 2023 nr. 82 (i kraft 1 jan 2024 iflg. res. 20 juni 2023 nr. 958 , tidligere § 27).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

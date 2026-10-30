@@ -19,71 +19,262 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2019-03-15-6.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Verdipapirsentralloven" href="../feeds/lov-2019-03-15-6.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Verdipapirsentralloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2019-03-15-6</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Obligasjoner\nEU/EØS-rett &raquo; Finansielle tjenester</dd>
-<dt>Ikrafttredelse</dt><dd>2020-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-45</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2019-03-15-6" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-gjennomfring-av-verdipapirsentralforordningen">§ 1-1. Gjennomføring av verdipapirsentralforordningen</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forskrifter-for-velfungerende-og-trygg-verdipapirregistrering-mv">§ 1-3. Forskrifter for velfungerende og trygg verdipapirregistrering mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2-selskapsform-politiattest-utfyllende-regelverk-mv">Kapittel 2. Selskapsform, politiattest, utfyllende regelverk mv.</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-selskapsform-og-politiattest">§ 2-1. Krav til selskapsform og politiattest</a></li>
+<li class="lvl4"><a href="#2-2-verdipapirsentralenes-utfyllende-regelverk-mv">§ 2-2. Verdipapirsentralenes utfyllende regelverk mv.</a></li>
+<li class="lvl4"><a href="#2-3-adgang-til-a-reise-sak-for-domstolene-dersom-vedtak-om-tillatelse-ikke-er-fattet-innen-seks-maneder">§ 2-3. Adgang til å reise sak for domstolene dersom vedtak om tillatelse ikke er fattet innen seks måneder</a></li>
+<li class="lvl2"><a href="#kapittel-3-innfring-av-finansielle-instrumenter-i-en-verdipapirsentral-mv">Kapittel 3. Innføring av finansielle instrumenter i en verdipapirsentral mv.</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-innfre-ihendehaverobligasjoner-i-en-verdipapirsentral">§ 3-1. Plikt til å innføre ihendehaverobligasjoner i en verdipapirsentral</a></li>
+<li class="lvl4"><a href="#3-2-krav-til-makulering-av-fysiske-dokumenter-mv">§ 3-2. Krav til makulering av fysiske dokumenter mv.</a></li>
+<li class="lvl4"><a href="#3-3-beslutning-om-innfring-i-en-verdipapirsentral-og-fastsettelse-av-vederlag">§ 3-3. Beslutning om innføring i en verdipapirsentral og fastsettelse av vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-4-verdipapirkontoer-og-forvaltere-mv">Kapittel 4. Verdipapirkontoer og forvaltere mv.</a></li>
+<li class="lvl4"><a href="#4-1-enkeltkonto-og-forvalterkonto">§ 4-1. Enkeltkonto og forvalterkonto</a></li>
+<li class="lvl4"><a href="#4-2-rett-til-a-fa-opprettet-konto">§ 4-2. Rett til å få opprettet konto</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-forvaltere">§ 4-3. Krav til forvaltere</a></li>
+<li class="lvl4"><a href="#4-4-forvalterkontoer">§ 4-4. Forvalterkontoer</a></li>
+<li class="lvl4"><a href="#4-5-formidler">§ 4-5. Formidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-av-rettigheter-til-finansielle-instrumenter-som-er-innfrt-i-verdipapirsentralen">Kapittel 5. Registrering av rettigheter til finansielle instrumenter som er innført i verdipapirsentralen</a></li>
+<li class="lvl4"><a href="#5-1-registreringsberettigede">§ 5-1. Registreringsberettigede</a></li>
+<li class="lvl4"><a href="#5-2-gjennomfring-av-registreringer">§ 5-2. Gjennomføring av registreringer</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-som-skal-fremga-av-registeret">§ 5-3. Opplysninger som skal fremgå av registeret</a></li>
+<li class="lvl4"><a href="#5-4-retting-og-sletting-av-opplysninger-fra-registeret">§ 5-4. Retting og sletting av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#5-5-endringsmeldinger-og-beholdningsoversikter">§ 5-5. Endringsmeldinger og beholdningsoversikter</a></li>
+<li class="lvl2"><a href="#kapittel-6-kontofrere">Kapittel 6. Kontoførere</a></li>
+<li class="lvl4"><a href="#6-1-adgang-til-a-bruke-kontofrere">§ 6-1. Adgang til å bruke kontoførere</a></li>
+<li class="lvl4"><a href="#6-2-tillatelse-til-a-vre-kontofrer-mv">§ 6-2. Tillatelse til å være kontofører mv.</a></li>
+<li class="lvl4"><a href="#6-3-kontofrernes-plikter-mv">§ 6-3. Kontoførernes plikter mv.</a></li>
+<li class="lvl4"><a href="#6-4-kontofrernes-adgang-til-a-utkontraktere-oppgaver">§ 6-4. Kontoførernes adgang til å utkontraktere oppgaver</a></li>
+<li class="lvl4"><a href="#6-5-verdipapirsentralens-kontroll-med-kontofrerne-mv">§ 6-5. Verdipapirsentralens kontroll med kontoførerne mv.</a></li>
+<li class="lvl4"><a href="#6-6-tilbakekall-av-tillatelse-til-a-vre-kontofrer">§ 6-6. Tilbakekall av tillatelse til å være kontofører</a></li>
+<li class="lvl4"><a href="#6-7-avvikling-av-ordningen-med-kontofrere">§ 6-7. Avvikling av ordningen med kontoførere</a></li>
+<li class="lvl2"><a href="#kapittel-7-rettsvern-og-andre-virkninger-av-registrering-og-notifikasjon">Kapittel 7. Rettsvern og andre virkninger av registrering og notifikasjon</a></li>
+<li class="lvl4"><a href="#7-1-rettsvern-og-andre-rettsvirkninger-av-registrering-pa-en-verdipapirkonto">§ 7-1. Rettsvern og andre rettsvirkninger av registrering på en verdipapirkonto</a></li>
+<li class="lvl4"><a href="#7-2-rettsvirkninger-av-registrering-for-finansielle-instrumenter-som-er-innfrt-gjennom-en-forbindelse-til-en-annen-verdipapirsentral-mv">§ 7-2. Rettsvirkninger av registrering for finansielle instrumenter som er innført gjennom en forbindelse til en annen verdipapirsentral mv.</a></li>
+<li class="lvl4"><a href="#7-3-kolliderende-rettigheter">§ 7-3. Kolliderende rettigheter</a></li>
+<li class="lvl4"><a href="#7-4-mangler-ved-avhenderens-rett">§ 7-4. Mangler ved avhenderens rett</a></li>
+<li class="lvl4"><a href="#7-5-utstederens-innsigelser">§ 7-5. Utstederens innsigelser</a></li>
+<li class="lvl4"><a href="#7-6-frigjrende-betaling">§ 7-6. Frigjørende betaling</a></li>
+<li class="lvl4"><a href="#7-7-rettsvirkninger-av-registrering-pa-en-forvalterkonto-i-en-verdipapirsentral">§ 7-7. Rettsvirkninger av registrering på en forvalterkonto i en verdipapirsentral</a></li>
+<li class="lvl4"><a href="#7-8-forskrifter-om-finansielle-instrumenter-utstedt-etter-en-annen-stats-lovgivning-mv">§ 7-8. Forskrifter om finansielle instrumenter utstedt etter en annen stats lovgivning mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-taushetsplikt-og-innsyn">Kapittel 8. Taushetsplikt og innsyn</a></li>
+<li class="lvl4"><a href="#8-1-taushetsplikt">§ 8-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-2-taushetsplikt-om-varsling">§ 8-2. Taushetsplikt om varsling</a></li>
+<li class="lvl4"><a href="#8-3-innsynsrett">§ 8-3. Innsynsrett</a></li>
+<li class="lvl4"><a href="#8-4-opplysninger-til-bruk-for-forskning">§ 8-4. Opplysninger til bruk for forskning</a></li>
+<li class="lvl4"><a href="#8-5-forskeres-taushetsplikt">§ 8-5. Forskeres taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-6-tilgang-til-opplysninger-i-verdipapirsentraler">§ 8-6. Tilgang til opplysninger i verdipapirsentraler</a></li>
+<li class="lvl4"><a href="#8-7-vederlag">§ 8-7. Vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-9-erstatning">Kapittel 9. Erstatning</a></li>
+<li class="lvl4"><a href="#9-1-verdipapirsentralers-erstatningsansvar">§ 9-1. Verdipapirsentralers erstatningsansvar</a></li>
+<li class="lvl4"><a href="#9-2-kontofreres-erstatningsansvar-og-verdipapirsentralens-solidaransvar">§ 9-2. Kontoføreres erstatningsansvar og verdipapirsentralens solidaransvar</a></li>
+<li class="lvl4"><a href="#9-3-skadelidtes-medvirkning">§ 9-3. Skadelidtes medvirkning</a></li>
+<li class="lvl2"><a href="#kapittel-10-avvikling-og-krisehandtering">Kapittel 10. Avvikling og krisehåndtering</a></li>
+<li class="lvl4"><a href="#10-1-vedtak-om-opplsning-og-avvikling">§ 10-1. Vedtak om oppløsning og avvikling</a></li>
+<li class="lvl4"><a href="#10-2-melding-til-finanstilsynet">§ 10-2. Melding til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#10-3-konkursforbud">§ 10-3. Konkursforbud</a></li>
+<li class="lvl4"><a href="#10-4-krisehandtering">§ 10-4. Krisehåndtering</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilsyn-forvaltningstiltak-og-sanksjoner-mv">Kapittel 11. Tilsyn, forvaltningstiltak og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-1-vedkommende-myndighet-og-tilsyn">§ 11-1. Vedkommende myndighet og tilsyn</a></li>
+<li class="lvl4"><a href="#11-2-taushetsplikt-om-varsling-og-sanksjoner-mv">§ 11-2. Taushetsplikt om varsling og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-3-opplysningsplikt-overfor-finanstilsynet">§ 11-3. Opplysningsplikt overfor Finanstilsynet</a></li>
+<li class="lvl4"><a href="#11-4-meldeplikt-om-avhendelse-av-vesentlig-del-av-virksomheten-fusjon-og-fisjon-mv">§ 11-4. Meldeplikt om avhendelse av vesentlig del av virksomheten, fusjon og fisjon mv.</a></li>
+<li class="lvl4"><a href="#11-5-palegg-om-retting">§ 11-5. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#11-6-palegg-om-at-stemmerettigheter-til-aksjer-ikke-kan-utves">§ 11-6. Pålegg om at stemmerettigheter til aksjer ikke kan utøves</a></li>
+<li class="lvl4"><a href="#11-7-tiltak-ved-brudd-pa-forvalteres-plikter">§ 11-7. Tiltak ved brudd på forvalteres plikter</a></li>
+<li class="lvl4"><a href="#11-8-forbud-mot-a-ha-ledelsesfunksjon">§ 11-8. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#11-9-overtredelsesgebyr">§ 11-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-10-vurderingsmomenter-for-forbud-mot-a-ha-ledelsesfunksjon-og-vedtak-om-overtredelsesgebyr">§ 11-10. Vurderingsmomenter for forbud mot å ha ledelsesfunksjon og vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-11-straff">§ 11-11. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse-overgangsregler-og-endringer-i-andre-lover">Kapittel 12. Ikrafttredelse, overgangsregler og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse-og-overgangsregler">§ 12-1. Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#12-2-endringer-i-andre-lover">§ 12-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-45.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-15-6.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-03-15-6.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2019-03-15-6 <code>lov/2019-03-15-6</code></td></tr>
+<tr><th>Korttittel</th><td>Verdipapirsentralloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Obligasjoner\nEU/EØS-rett &raquo; Finansielle tjenester</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2020</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-45 <code>lov/2026-06-19-45</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2019-03-15-6" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-gjennomfring-av-verdipapirsentralforordningen">§ 1-1. Gjennomføring av verdipapirsentralforordningen</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forskrifter-for-velfungerende-og-trygg-verdipapirregistrering-mv">§ 1-3. Forskrifter for velfungerende og trygg verdipapirregistrering mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2-selskapsform-politiattest-utfyllende-regelverk-mv">Kapittel 2. Selskapsform, politiattest, utfyllende regelverk mv.</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-selskapsform-og-politiattest">§ 2-1. Krav til selskapsform og politiattest</a></li>
+<li class="lvl4"><a href="#2-2-verdipapirsentralenes-utfyllende-regelverk-mv">§ 2-2. Verdipapirsentralenes utfyllende regelverk mv.</a></li>
+<li class="lvl4"><a href="#2-3-adgang-til-a-reise-sak-for-domstolene-dersom-vedtak-om-tillatelse-ikke-er-fattet-innen-seks-maneder">§ 2-3. Adgang til å reise sak for domstolene dersom vedtak om tillatelse ikke er fattet innen seks måneder</a></li>
+<li class="lvl2"><a href="#kapittel-3-innfring-av-finansielle-instrumenter-i-en-verdipapirsentral-mv">Kapittel 3. Innføring av finansielle instrumenter i en verdipapirsentral mv.</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-innfre-ihendehaverobligasjoner-i-en-verdipapirsentral">§ 3-1. Plikt til å innføre ihendehaverobligasjoner i en verdipapirsentral</a></li>
+<li class="lvl4"><a href="#3-2-krav-til-makulering-av-fysiske-dokumenter-mv">§ 3-2. Krav til makulering av fysiske dokumenter mv.</a></li>
+<li class="lvl4"><a href="#3-3-beslutning-om-innfring-i-en-verdipapirsentral-og-fastsettelse-av-vederlag">§ 3-3. Beslutning om innføring i en verdipapirsentral og fastsettelse av vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-4-verdipapirkontoer-og-forvaltere-mv">Kapittel 4. Verdipapirkontoer og forvaltere mv.</a></li>
+<li class="lvl4"><a href="#4-1-enkeltkonto-og-forvalterkonto">§ 4-1. Enkeltkonto og forvalterkonto</a></li>
+<li class="lvl4"><a href="#4-2-rett-til-a-fa-opprettet-konto">§ 4-2. Rett til å få opprettet konto</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-forvaltere">§ 4-3. Krav til forvaltere</a></li>
+<li class="lvl4"><a href="#4-4-forvalterkontoer">§ 4-4. Forvalterkontoer</a></li>
+<li class="lvl4"><a href="#4-5-formidler">§ 4-5. Formidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-av-rettigheter-til-finansielle-instrumenter-som-er-innfrt-i-verdipapirsentralen">Kapittel 5. Registrering av rettigheter til finansielle instrumenter som er innført i verdipapirsentralen</a></li>
+<li class="lvl4"><a href="#5-1-registreringsberettigede">§ 5-1. Registreringsberettigede</a></li>
+<li class="lvl4"><a href="#5-2-gjennomfring-av-registreringer">§ 5-2. Gjennomføring av registreringer</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-som-skal-fremga-av-registeret">§ 5-3. Opplysninger som skal fremgå av registeret</a></li>
+<li class="lvl4"><a href="#5-4-retting-og-sletting-av-opplysninger-fra-registeret">§ 5-4. Retting og sletting av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#5-5-endringsmeldinger-og-beholdningsoversikter">§ 5-5. Endringsmeldinger og beholdningsoversikter</a></li>
+<li class="lvl2"><a href="#kapittel-6-kontofrere">Kapittel 6. Kontoførere</a></li>
+<li class="lvl4"><a href="#6-1-adgang-til-a-bruke-kontofrere">§ 6-1. Adgang til å bruke kontoførere</a></li>
+<li class="lvl4"><a href="#6-2-tillatelse-til-a-vre-kontofrer-mv">§ 6-2. Tillatelse til å være kontofører mv.</a></li>
+<li class="lvl4"><a href="#6-3-kontofrernes-plikter-mv">§ 6-3. Kontoførernes plikter mv.</a></li>
+<li class="lvl4"><a href="#6-4-kontofrernes-adgang-til-a-utkontraktere-oppgaver">§ 6-4. Kontoførernes adgang til å utkontraktere oppgaver</a></li>
+<li class="lvl4"><a href="#6-5-verdipapirsentralens-kontroll-med-kontofrerne-mv">§ 6-5. Verdipapirsentralens kontroll med kontoførerne mv.</a></li>
+<li class="lvl4"><a href="#6-6-tilbakekall-av-tillatelse-til-a-vre-kontofrer">§ 6-6. Tilbakekall av tillatelse til å være kontofører</a></li>
+<li class="lvl4"><a href="#6-7-avvikling-av-ordningen-med-kontofrere">§ 6-7. Avvikling av ordningen med kontoførere</a></li>
+<li class="lvl2"><a href="#kapittel-7-rettsvern-og-andre-virkninger-av-registrering-og-notifikasjon">Kapittel 7. Rettsvern og andre virkninger av registrering og notifikasjon</a></li>
+<li class="lvl4"><a href="#7-1-rettsvern-og-andre-rettsvirkninger-av-registrering-pa-en-verdipapirkonto">§ 7-1. Rettsvern og andre rettsvirkninger av registrering på en verdipapirkonto</a></li>
+<li class="lvl4"><a href="#7-2-rettsvirkninger-av-registrering-for-finansielle-instrumenter-som-er-innfrt-gjennom-en-forbindelse-til-en-annen-verdipapirsentral-mv">§ 7-2. Rettsvirkninger av registrering for finansielle instrumenter som er innført gjennom en forbindelse til en annen verdipapirsentral mv.</a></li>
+<li class="lvl4"><a href="#7-3-kolliderende-rettigheter">§ 7-3. Kolliderende rettigheter</a></li>
+<li class="lvl4"><a href="#7-4-mangler-ved-avhenderens-rett">§ 7-4. Mangler ved avhenderens rett</a></li>
+<li class="lvl4"><a href="#7-5-utstederens-innsigelser">§ 7-5. Utstederens innsigelser</a></li>
+<li class="lvl4"><a href="#7-6-frigjrende-betaling">§ 7-6. Frigjørende betaling</a></li>
+<li class="lvl4"><a href="#7-7-rettsvirkninger-av-registrering-pa-en-forvalterkonto-i-en-verdipapirsentral">§ 7-7. Rettsvirkninger av registrering på en forvalterkonto i en verdipapirsentral</a></li>
+<li class="lvl4"><a href="#7-8-forskrifter-om-finansielle-instrumenter-utstedt-etter-en-annen-stats-lovgivning-mv">§ 7-8. Forskrifter om finansielle instrumenter utstedt etter en annen stats lovgivning mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-taushetsplikt-og-innsyn">Kapittel 8. Taushetsplikt og innsyn</a></li>
+<li class="lvl4"><a href="#8-1-taushetsplikt">§ 8-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-2-taushetsplikt-om-varsling">§ 8-2. Taushetsplikt om varsling</a></li>
+<li class="lvl4"><a href="#8-3-innsynsrett">§ 8-3. Innsynsrett</a></li>
+<li class="lvl4"><a href="#8-4-opplysninger-til-bruk-for-forskning">§ 8-4. Opplysninger til bruk for forskning</a></li>
+<li class="lvl4"><a href="#8-5-forskeres-taushetsplikt">§ 8-5. Forskeres taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-6-tilgang-til-opplysninger-i-verdipapirsentraler">§ 8-6. Tilgang til opplysninger i verdipapirsentraler</a></li>
+<li class="lvl4"><a href="#8-7-vederlag">§ 8-7. Vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-9-erstatning">Kapittel 9. Erstatning</a></li>
+<li class="lvl4"><a href="#9-1-verdipapirsentralers-erstatningsansvar">§ 9-1. Verdipapirsentralers erstatningsansvar</a></li>
+<li class="lvl4"><a href="#9-2-kontofreres-erstatningsansvar-og-verdipapirsentralens-solidaransvar">§ 9-2. Kontoføreres erstatningsansvar og verdipapirsentralens solidaransvar</a></li>
+<li class="lvl4"><a href="#9-3-skadelidtes-medvirkning">§ 9-3. Skadelidtes medvirkning</a></li>
+<li class="lvl2"><a href="#kapittel-10-avvikling-og-krisehandtering">Kapittel 10. Avvikling og krisehåndtering</a></li>
+<li class="lvl4"><a href="#10-1-vedtak-om-opplsning-og-avvikling">§ 10-1. Vedtak om oppløsning og avvikling</a></li>
+<li class="lvl4"><a href="#10-2-melding-til-finanstilsynet">§ 10-2. Melding til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#10-3-konkursforbud">§ 10-3. Konkursforbud</a></li>
+<li class="lvl4"><a href="#10-4-krisehandtering">§ 10-4. Krisehåndtering</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilsyn-forvaltningstiltak-og-sanksjoner-mv">Kapittel 11. Tilsyn, forvaltningstiltak og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-1-vedkommende-myndighet-og-tilsyn">§ 11-1. Vedkommende myndighet og tilsyn</a></li>
+<li class="lvl4"><a href="#11-2-taushetsplikt-om-varsling-og-sanksjoner-mv">§ 11-2. Taushetsplikt om varsling og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-3-opplysningsplikt-overfor-finanstilsynet">§ 11-3. Opplysningsplikt overfor Finanstilsynet</a></li>
+<li class="lvl4"><a href="#11-4-meldeplikt-om-avhendelse-av-vesentlig-del-av-virksomheten-fusjon-og-fisjon-mv">§ 11-4. Meldeplikt om avhendelse av vesentlig del av virksomheten, fusjon og fisjon mv.</a></li>
+<li class="lvl4"><a href="#11-5-palegg-om-retting">§ 11-5. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#11-6-palegg-om-at-stemmerettigheter-til-aksjer-ikke-kan-utves">§ 11-6. Pålegg om at stemmerettigheter til aksjer ikke kan utøves</a></li>
+<li class="lvl4"><a href="#11-7-tiltak-ved-brudd-pa-forvalteres-plikter">§ 11-7. Tiltak ved brudd på forvalteres plikter</a></li>
+<li class="lvl4"><a href="#11-8-forbud-mot-a-ha-ledelsesfunksjon">§ 11-8. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#11-9-overtredelsesgebyr">§ 11-9. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-10-vurderingsmomenter-for-forbud-mot-a-ha-ledelsesfunksjon-og-vedtak-om-overtredelsesgebyr">§ 11-10. Vurderingsmomenter for forbud mot å ha ledelsesfunksjon og vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-11-straff">§ 11-11. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikrafttredelse-overgangsregler-og-endringer-i-andre-lover">Kapittel 12. Ikrafttredelse, overgangsregler og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse-og-overgangsregler">§ 12-1. Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#12-2-endringer-i-andre-lover">§ 12-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-15-6.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-03-15-6.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-15-6.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2019-03-15-6.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2019-03-15-6.html">Observerte kildeutgaver</a> · <a href="../historie/verdipapirsentralloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2019-03-15-6.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2019-03-15-6.html">Observerte kildeutgaver</a> · <a href="../historie/verdipapirsentralloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2019-03-15-6.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-verdipapirsentraler-og-verdipapiroppgjr-mv-verdipapirsentralloven">Lov om verdipapirsentraler og verdipapiroppgjør mv. (verdipapirsentralloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-gjennomfring-av-verdipapirsentralforordningen">§ 1-1. Gjennomføring av verdipapirsentralforordningen <a class="para-history" href="../historikk/lov-2019-03-15-6/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalen vedlegg IX forordning (EU) nr. 909/2014 (om forbedring av verdipapiroppgjør i Den europeiske union og om verdipapirsentraler samt om endring av direktiv 98/26/EF og 2014/65/EU og forordning (EU) nr. 236/2012 (verdipapirsentralforordningen)) som endret ved forordning (EU) 2022/2554 , jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1 , gjelder som lov med de tilpasninger som følger av vedlegg IX til avtalen, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Til gjennomføring av Norges forpliktelser etter EØS-avtalen kan departementet i forskrift gi regler om verdipapirsentraler og om verdipapiroppgjør. I forskriften kan det gjøres unntak fra bestemmelsene som er gjennomført etter første ledd.</p>
 <p>Finanstilsynet kan i forskrift gi bestemmelser om at rettslige og tilsynsmessige rammer i tredjestater er likeverdige.</p>
 <p>Når det i loven her vises til verdipapirsentralforordningen, menes forordningen slik den er gjennomført etter bestemmelsen her.</p>
-<p><em>Endret ved lover 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ), 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</em></p>
+<p class="note">Endret ved lover 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ), 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</p>
 <h4 id="1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</h4>
 <p>Der annet ikke er særskilt bestemt, gjelder denne loven for verdipapirsentraler med Norge som hjemstat. Kongen kan i forskrift bestemme i hvilken utstrekning loven skal gjøres gjeldende for Svalbard og Jan Mayen.</p>
 <p>Departementet kan i forskrift gjøre unntak fra deler av loven og forskrifter gitt i medhold av loven for filialer etablert utenfor Norge av verdipapirsentraler med Norge som hjemstat.</p>
@@ -137,12 +328,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Forvalteren plikter å gi opplysninger om de reelle eierne i samme omfang og på samme måte som verdipapirsentralen plikter å gi opplysninger etter § 8-3 første ledd eller annen lov, herunder sørge for å innhente opplysninger om de reelle eierne der det er flere ledd med forvaltere eller andre formidlere.</p>
 <p>Forvalteren skal fastsette regler for når den skal anses for å ha fått melding om en rettsstiftelse etter § 7-7 . Reglene skal godkjennes av Finanstilsynet.</p>
 <p>Departementet kan i forskrift gi nærmere regler om forvaltere og forvalterkontoer, herunder forvalternes opplysningsplikt, plikt til å oppbevare opplysninger, videreformidlingsplikt, formater, tidsfrister, gebyrer mv. og unntak fra taushetsplikt. Reglene om gebyr mv. kan omfatte begrensninger i adgangen til å ta gebyr og krav til offentliggjøring av hvilke gebyrer mv. forvalteren krever.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</p>
 <h4 id="4-5-formidler">§ 4-5. Formidler <a class="para-history" href="../historikk/lov-2019-03-15-6/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med formidler i denne loven menes en person som yter tjenester i form av oppbevaring av aksjer, administrasjon av aksjer eller vedlikehold av verdipapirkontoer på vegne av aksjeeiere eller andre.</p>
 <p>Formidlere plikter å formidle informasjon mellom aksjeeiere og utstedere.</p>
 <p>Departementet kan i forskrift gi regler om formidlere, herunder om virkeområde, oppbevaringsplikt, registreringsplikt, opplysnings- og videreformidlingsplikt, plikt til å tilrettelegge for utøvelse av aksjeeierrettigheter, formater, tidsfrister, gebyrer mv. og unntak fra taushetsplikt. Reglene om gebyr mv. kan omfatte begrensninger i adgangen til å ta gebyr og krav til offentliggjøring av hvilke gebyrer mv. formidleren krever.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</p>
 <h2 id="kapittel-5-registrering-av-rettigheter-til-finansielle-instrumenter-som-er-innfrt-i-verdipapirsentralen">Kapittel 5. Registrering av rettigheter til finansielle instrumenter som er innført i verdipapirsentralen</h2>
 <h4 id="5-1-registreringsberettigede">§ 5-1. Registreringsberettigede</h4>
 <p>Berettiget til å melde registrering av rettigheter til finansielle instrumenter er den som ifølge registeret fremstår som berettiget, eller den som godtgjør at rettigheten er gått over til ham.</p>
@@ -210,7 +401,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>ikke oppfyller opplysningsplikten overfor eller pålegg om retting fra Finanstilsynet.</li>
 </ol>
 <p>Beslutninger om tilbakekall etter første ledd skal behandles etter reglene om behandling av klager fastsatt i medhold av verdipapirsentralforordningen artikkel 32 nr. 2.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="6-7-avvikling-av-ordningen-med-kontofrere">§ 6-7. Avvikling av ordningen med kontoførere</h4>
 <p>Dersom en verdipapirsentral beslutter helt eller delvis å avvikle ordningen med kontoførere, skal den sende skriftlig melding til Finanstilsynet og de berørte kontoførerne senest tolv måneder før endringen trer i kraft.</p>
 <p>Finanstilsynet kan innen seks måneder fra melding etter første ledd er mottatt, stille vilkår for gjennomføring av avviklingen.</p>
@@ -255,7 +446,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Dersom noen med hjemmel i selskapslovgivning eller tilsvarende lovgivning i en annen EØS-stat har krav på å få opplysninger om eiere og andre rettighetshavere til finansielle instrumenter utstedt etter den aktuelle EØS-statens lovgivning, og opplysningene finnes i en verdipapirsentral, har vedkommende rett til å få disse opplysningene fra verdipapirsentralen. For aksjer og andre finansielle instrumenter som kan sidestilles med aksjer og som er utstedt etter lovgivningen i en stat utenfor EØS-området, har utstederen rett til å få opplysninger om hvem som eier aksjene, dersom utstederen har krav på å få opplysningene etter utstederlandets selskapslovgivning eller tilsvarende lovgivning.</p>
 <p>Departementet kan i forskrift gi nærmere regler om rett til innsyn, herunder utvide retten til innsyn etter bestemmelsen her og gi regler om en verdipapirsentrals adgang til å gi opplysninger til en annen verdipapirsentral som den har opprettet en forbindelse til etter verdipapirsentralforordningen artikkel 48.</p>
-<p><em>Endret ved lover 30 april 2021 nr. 28 (ikr. 15 mai 2021 iflg. res. 30 april 2021 nr. 1334 ), 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 30 april 2021 nr. 28 (ikr. 15 mai 2021 iflg. res. 30 april 2021 nr. 1334 ), 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="8-4-opplysninger-til-bruk-for-forskning">§ 8-4. Opplysninger til bruk for forskning</h4>
 <p>Finanstilsynet kan bestemme at en verdipapirsentral kan gi opplysninger til bruk for forskning uten hinder av taushetsplikt etter § 8-1 når det finnes rimelig og ikke medfører uforholdsmessig ulempe for andre interesser.</p>
 <p>Til vedtak som nevnt i første ledd kan det stilles vilkår om blant annet hvem som skal ha ansvar for opplysningene, og hvem som skal ha tilgang til dem, om oppbevaring og tilbakelevering av utlånt materiale, om sletting av avskrifter, om hvorvidt forskerne skal ha adgang til å henvende seg til eller innhente nærmere opplysninger om dem det er gitt opplysninger om, og om bruken av opplysninger for øvrig.</p>
@@ -309,7 +500,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Meldingen skal inneholde alle relevante opplysninger om verdipapirsentralens økonomiske og markedsmessige situasjon og redegjøre for årsakene til vanskelighetene.</p>
 <h4 id="10-3-konkursforbud">§ 10-3. Konkursforbud</h4>
 <p>Gjeldsforhandling eller konkurs etter <a href="lov-1984-06-08-58.html">konkursloven</a> kan ikke åpnes i verdipapirsentraler med tillatelse etter denne lov.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="10-4-krisehandtering">§ 10-4. Krisehåndtering</h4>
 <p>For verdipapirsentraler med tillatelse til å yte tilknyttede banktjenester etter verdipapirsentralforordningen artikkel 54 nr. 2 gjelder reglene i <a href="lov-2015-04-10-17.html">finansforetaksloven</a> kapittel 20 med tilhørende forskrifter.</p>
 <p>Departementet kan i forskrift fastsette at reglene i finansforetaksloven kapittel 20 med tilhørende forskrifter helt eller delvis skal gjelde også for andre verdipapirsentraler. Departementet kan i tillegg fastsette regler i forskrift som fraviker eller supplerer reglene nevnt i første punktum.</p>
@@ -330,7 +521,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Finanstilsynet kan gi en kontofører pålegg om retting dersom foretaket opptrer i strid med lov, forskrift eller verdipapirsentralens regelverk. Tilsvarende gjelder overfor den som handler på vegne av en kontofører.</p>
 <p>Finanstilsynet kan gi en forvalter eller annen formidler pålegg om retting dersom vedkommende opptrer i strid med lov, bestemmelser gitt med hjemmel i lov eller vilkår for tillatelse.</p>
 <p>Finanstilsynet kan gi en verdipapirsentral som ikke har Norge som hjemstat, pålegg om retting i de tilfellene som følger av verdipapirsentralforordningen artikkel 24 nr. 5 annet avsnitt.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ).</p>
 <h4 id="11-6-palegg-om-at-stemmerettigheter-til-aksjer-ikke-kan-utves">§ 11-6. Pålegg om at stemmerettigheter til aksjer ikke kan utøves</h4>
 <p>Dersom en aksjeeier som direkte eller indirekte kan øve innflytelse på en verdipapirsentrals ledelse etter verdipapirsentralforordningen artikkel 27 nr. 6, ikke oppfyller kravet om å være skikket etter nevnte bestemmelse eller ikke har underrettet verdipapirsentralen eller Finanstilsynet etter verdipapirsentralforordningen artikkel 27 nr. 7, kan Finanstilsynet gi pålegg om at stemmerettighetene til aksjene ikke kan utøves.</p>
 <h4 id="11-7-tiltak-ved-brudd-pa-forvalteres-plikter">§ 11-7. Tiltak ved brudd på forvalteres plikter</h4>
@@ -339,7 +530,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Departementet kan i forskrift gi nærmere regler om tvangssalg av finansielle instrumenter registrert på forvalterkontoer i de tilfeller der kontoen forvaltes av noen som ikke oppfyller kravene i § 4-3 , eller der forvalteren ikke oppfyller sin plikt etter § 4-4 fjerde ledd.</p>
 <h4 id="11-8-forbud-mot-a-ha-ledelsesfunksjon">§ 11-8. Forbud mot å ha ledelsesfunksjon <a class="para-history" href="../historikk/lov-2019-03-15-6/para-11-8.html" title="Endringshistorikk for § 11-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom et styremedlem, en daglig leder eller en faktisk leder i en verdipapirsentral eller i en kredittinstitusjon som er utpekt etter verdipapirsentralforordningen artikkel 54, har overtrådt en bestemmelse som nevnt i verdipapirsentralforordningen artikkel 63 nr. 1 og overtredelsen medfører at vedkommende anses uskikket til å ha ledelsesfunksjon i foretaket, kan Finanstilsynet forby vedkommende å ha slike ledelsesfunksjoner. Tilsvarende gjelder overfor andre fysiske personer som kan holdes ansvarlig for overtredelsen.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="11-9-overtredelsesgebyr">§ 11-9. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2019-03-15-6/para-11-9.html" title="Endringshistorikk for § 11-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved overtredelse av bestemmelse som nevnt i verdipapirsentralforordningen artikkel 63 nr. 1 kan Finanstilsynet ilegge overtredelsesgebyr. Tilsvarende gjelder ved overtredelse av plikten til å underrette verdipapirsentralen eller vedkommende myndigheter om erverv eller avhendelse av aksjer etter verdipapirsentralforordningen artikkel 27 nr. 7 annet avsnitt. Finanstilsynet kan også ilegge overtredelsesgebyr ved overtredelse av § 2-1 , § 3-2 første ledd, § 3-3 annet ledd, § 4-1 , § 4-2 , § 4-3 første og annet ledd, § 4-4 første til femte ledd, § 4-5, kapittel 5 , kapittel 6 , § 10-1 første ledd, § 10-2 eller § § 11-3 til 11-5 eller forskrifter gitt i medhold av disse bestemmelsene.</p>
 <p>Når overtredelsesgebyr kan ilegges foretak etter første ledd, kan overtredelsesgebyr i tillegg ilegges styremedlemmer, daglig leder eller faktisk leder i foretaket dersom vedkommende har utvist forsett eller grov uaktsomhet.</p>
@@ -348,7 +539,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ved forsinket betaling av overtredelsesgebyr påløper det renter etter <a href="lov-1976-12-17-100.html">forsinkelsesrenteloven</a>.</p>
 <p>Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.</p>
 <p>Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 84 (i kraft 1 juli 2023 iflg. res. 2 sep 2022 nr. 1527 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="11-10-vurderingsmomenter-for-forbud-mot-a-ha-ledelsesfunksjon-og-vedtak-om-overtredelsesgebyr">§ 11-10. Vurderingsmomenter for forbud mot å ha ledelsesfunksjon og vedtak om overtredelsesgebyr</h4>
 <p>Ved vurderingen av om det skal nedlegges forbud mot å ha ledelsesfunksjon etter § 11-8 eller ilegges overtredelsesgebyr etter § 11-9 , kan det blant annet tas hensyn til:</p>
 <ol>
@@ -372,6 +563,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p><em>1 Fra 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 .</em></p>
 <h4 id="12-2-endringer-i-andre-lover">§ 12-2. Endringer i andre lover</h4>
 <p>Fra den tid loven her trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

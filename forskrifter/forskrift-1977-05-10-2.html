@@ -19,64 +19,133 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1977-05-10-2.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om kjemiske desinfeksjonsmidler" href="../feeds/forskrift-1977-05-10-2.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om kjemiske desinfeksjonsmidler</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1977-05-10-2</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1978-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-21-2281</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1977-05-10-2" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftenes-omfang">§ 1. Forskriftenes omfang.</a></li>
+<li class="lvl3"><a href="#3-sknad">§ 3. Søknad.</a></li>
+<li class="lvl3"><a href="#4-behandling-av-sknaden">§ 4. Behandling av søknaden.</a></li>
+<li class="lvl3"><a href="#5-desinfeksjonsmiddelregister">§ 5. Desinfeksjonsmiddelregister.</a></li>
+<li class="lvl3"><a href="#6-fornyet-registrering">§ 6. Fornyet registrering.</a></li>
+<li class="lvl3"><a href="#7-merking">§ 7. Merking.</a></li>
+<li class="lvl3"><a href="#8-avgift">§ 8. Avgift.</a></li>
+<li class="lvl3"><a href="#9-tilbakekalling-av-godkjenning">§ 9. Tilbakekalling av godkjenning.</a></li>
+<li class="lvl3"><a href="#10-midlertidig-forbud-mot-salg">§ 10. Midlertidig forbud mot salg.</a></li>
+<li class="lvl3"><a href="#11-unntak">§ 11. Unntak.</a></li>
+<li class="lvl3"><a href="#12-anke">§ 12. Anke.</a></li>
+<li class="lvl3"><a href="#13">§ 13</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-21-2281.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1977-05-10-2.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrifter om kjemiske desinfeksjonsmidler til teknisk bruk i helse- og sykepleie.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1977-05-10-2.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1977-05-10-2 <code>forskrift/1977-05-10-2</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om kjemiske desinfeksjonsmidler</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1978</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-21-2281 <code>forskrift/2023-12-21-2281</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1977-05-10-2" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftenes-omfang">§ 1. Forskriftenes omfang.</a></li>
+<li class="lvl3"><a href="#3-sknad">§ 3. Søknad.</a></li>
+<li class="lvl3"><a href="#4-behandling-av-sknaden">§ 4. Behandling av søknaden.</a></li>
+<li class="lvl3"><a href="#5-desinfeksjonsmiddelregister">§ 5. Desinfeksjonsmiddelregister.</a></li>
+<li class="lvl3"><a href="#6-fornyet-registrering">§ 6. Fornyet registrering.</a></li>
+<li class="lvl3"><a href="#7-merking">§ 7. Merking.</a></li>
+<li class="lvl3"><a href="#8-avgift">§ 8. Avgift.</a></li>
+<li class="lvl3"><a href="#9-tilbakekalling-av-godkjenning">§ 9. Tilbakekalling av godkjenning.</a></li>
+<li class="lvl3"><a href="#10-midlertidig-forbud-mot-salg">§ 10. Midlertidig forbud mot salg.</a></li>
+<li class="lvl3"><a href="#11-unntak">§ 11. Unntak.</a></li>
+<li class="lvl3"><a href="#12-anke">§ 12. Anke.</a></li>
+<li class="lvl3"><a href="#13">§ 13</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1977-05-10-2.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1977-05-10-2.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1977-05-10-2.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1977-05-10-2.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1977-05-10-2.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1977-05-10-2.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1977-05-10-2.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1977-05-10-2.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1977-05-10-2.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrifter-om-kjemiske-desinfeksjonsmidler-til-teknisk-bruk-i-helse-og-sykepleie">Forskrifter om kjemiske desinfeksjonsmidler til teknisk bruk i helse- og sykepleie.</h1>
 <h3 id="1-forskriftenes-omfang">§ 1. Forskriftenes omfang.</h3>
 <p>Forskriftene omfatter kjemiske desinfeksjonsmidler til teknisk bruk i helse- og sykepleie. Som kjemisk desinfeksjonsmiddel regnes i forskriftene ethvert kjemisk middel som er beregnet til å bekjempe eller forebygge mikrobiell sykdom, untatt stoffer som er beregnet til innvortes bruk eller til bruk på hud eller slimhinner, og derfor regnes som legemidler.</p>
 <p>Kjemiske desinfeksjonsmidler må registreres og godkjennes i samsvar med disse forskrifter før de innføres eller bringes i handelen til teknisk bruk i helse- og sykepleie.</p>
@@ -85,7 +154,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Godkjenning gis på grunnlag av bedømmelse av preparatets bruksområde, sammensetning, kvalitet og holdbarhet. Godkjenning skal bare gis for desinfeksjonsmiddel som ansees medisinsk berettiget og svarer til de krav til sikkerhet og effektivitet som må stilles av hensyn til liv og helse. Det kan settes særlige vilkår for godkjenning av et preparat.</p>
 <p>Godkjenningen gjelder vanligvis for et tidsrom på 5 år. Midlertidig godkjenning kan gis for kortere tid.</p>
 <p>Det må ikke markedsføres andre pakningsstørrelser, konsentrasjoner eller pakningsformer enn de som er registrert.</p>
-<p><em>Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 17 jan 2013 nr. 61 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 17 jan 2013 nr. 61 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="3-sknad">§ 3. Søknad.</h3>
 <p>Søknad om godkjenning og registrering sendes Direktoratet for medisinske produkter. Søknaden kan kreves innsendt på fastsatt skjema.</p>
 <p>Følgende opplysninger og vedlegg skal følge med søknaden:</p>
@@ -102,19 +171,19 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Direktoratet for medisinske produkter kan kreve opplysninger om produksjonsforhold og kontrolltiltak som er av betydning for vurdering av søknaden.</p>
 <p>Helsedirektoratet kan gi nærmere bestemmelser om søknadens innhold og krav til dokumentasjon.</p>
-<p><em>Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 17 jan 2013 nr. 61 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 17 jan 2013 nr. 61 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="4-behandling-av-sknaden">§ 4. Behandling av søknaden.</h3>
 <p>Direktoratet for medisinske produkter foretar de undersøkelser og innhenter de opplysninger som anses nødvendig for å kunne vurdere søknaden.</p>
 <p>Blir preparatet godkjent av Direktoratet for medisinske produkter, underrettes søkeren om at preparatet vil bli registrert.</p>
 <p>Blir preparatet nektet godkjent, skal grunnen for avslaget meddeles søkeren. Det kan stilles spesielle vilkår som må oppfylles, før endelig registrering blir foretatt.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="5-desinfeksjonsmiddelregister">§ 5. Desinfeksjonsmiddelregister.</h3>
 <p>Når et desinfeksjonsmiddel er godkjent og vilkårene for registrering er oppfylt, fører Direktoratet for medisinske produkter preparatet opp i Desinfeksjonsmiddelregister, hvor det blir tildelt et eget varenummer.</p>
 <p>Ajourført oversikt over godkjente desinfeksjonsmidler til teknisk bruk i helse- og sykepleie skal sendes ut minst en gang årlig.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="6-fornyet-registrering">§ 6. Fornyet registrering.</h3>
 <p>Søknad om fornyet registrering må være innsendt til Direktoratet for medisinske produkter senest seks måneder før utløpet av den fastsatte registreringstid.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="7-merking">§ 7. Merking.</h3>
 <p>Emballasjen for et registrert desinfeksjonsmiddel skal av tilvirkeren være forsynt med følgende opplysninger:</p>
 <ol>
@@ -135,7 +204,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>For hvert preparat som søkes registrert betales en avgift på kr. 10.000,-.</p>
 <p>Samme avgift betales ved søknad om fornyet registrering.</p>
 <p>Direktoratet for medisinske produkter kan frafalle kravet om avgift i særlige tilfeller.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="9-tilbakekalling-av-godkjenning">§ 9. Tilbakekalling av godkjenning.</h3>
 <p>Godkjenning av et registrert desinfeksjonsmiddel kan kalles tilbake av Direktoratet for medisinske produkter før registreringsperioden er utløpt:</p>
 <ol>
@@ -143,20 +212,22 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>hvis nye opplysninger om eller vurderinger av preparatet medfører at det ikke lenger anses for å svare til de krav som er fastsatt i § 2,</li>
 <li>hvis preparatet ikke bringes i handelen.</li>
 </ol>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="10-midlertidig-forbud-mot-salg">§ 10. Midlertidig forbud mot salg.</h3>
 <p>Direktoratet for medisinske produkter kan midlertidig forby salg av et registrert desinfeksjonsmiddel dersom det antas å foreligge grunn til å tilbakekalle godkjenningen og bruk av preparatet kan medføre fare.</p>
 <p>Tilvirkere, deres representanter eller importører i Norge skal omgående underrette Direktoratet for medisinske produkter om skadelige virkninger av preparatet, og om risiko for slike på mennesker og dyr, såvel som på materiale og utstyr, som en måtte få kjennskap til.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="11-unntak">§ 11. Unntak.</h3>
 <p>Når særlige grunner foreligger, kan Direktoratet for medisinske produkter i det enkelte tilfelle tillate unntak fra forskriftene.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="12-anke">§ 12. Anke.</h3>
 <p>Klage over vedtak som er truffet av Direktoratet for medisinske produkter i henhold til disse forskrifter, avgjøres av Helsedepartementet. Klager sendes til Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2002 nr. 1714 (i kraft 1 jan 2003), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="13">§ 13</h3>
 <p>Disse forskrifter trer i kraft 1. januar 1978.</p>
 <p>For kjemiske desinfeksjonsmidler som kommer inn under forskriftene, og som ved ikrafttredelsen er i handelen her i landet, må søknad om godkjenning sendes Statens legemiddelkontroll innen 30. juni 1978.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

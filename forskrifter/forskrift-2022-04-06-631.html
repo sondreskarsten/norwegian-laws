@@ -19,64 +19,299 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-631.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Dyrehelseforskriften" href="../feeds/forskrift-2022-04-06-631.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Dyrehelseforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-04-06-631</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-04-28</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-15-1033</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-04-06-631" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-gjennomfring">Kapittel I. Formål, virkeområde og gjennomføring</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#3-stedlig-virkeomrade">§ 3. Stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#4-dyrehelseforordningen">§ 4. Dyrehelseforordningen</a></li>
+<li class="lvl4"><a href="#5-liste-med-kategorisering-av-sykdommer-og-relevante-arter">§ 5. Liste med kategorisering av sykdommer og relevante arter</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-for-akvatiske-dyr-listefring-og-meldeplikt">Kapittel II. Utfyllende nasjonale bestemmelser for akvatiske dyr – listeføring og meldeplikt</a></li>
+<li class="lvl4"><a href="#6-nasjonal-liste-og-kategorisering-av-sykdommer-hos-akvatiske-dyr">§ 6. Nasjonal liste og kategorisering av sykdommer hos akvatiske dyr</a></li>
+<li class="lvl4"><a href="#7-meldeplikt-for-akvatiske-dyr">§ 7. Meldeplikt for akvatiske dyr</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-tiltak-for-kategori-e-sykdom-og-nasjonalt-listet-sykdom-hos-akvatiske-dyr">Kapittel III. Utfyllende nasjonale bestemmelser – tiltak for kategori E-sykdom og nasjonalt listet sykdom hos akvatiske dyr</a></li>
+<li class="lvl4"><a href="#8-nasjonale-tiltak-mot-kategori-e-sykdom">§ 8. Nasjonale tiltak mot kategori E-sykdom</a></li>
+<li class="lvl4"><a href="#9-nasjonale-restriksjoner-pa-a-ta-akvatiske-dyr-ut-eller-inn">§ 9. Nasjonale restriksjoner på å ta akvatiske dyr ut eller inn</a></li>
+<li class="lvl4"><a href="#10-nasjonale-restriksjoner-pa-avl-og-reproduksjon">§ 10. Nasjonale restriksjoner på avl og reproduksjon</a></li>
+<li class="lvl4"><a href="#11-opprettelse-av-restriksjonssoner-kategori-f-sykdom">§ 11. Opprettelse av restriksjonssoner – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#12-fjerning-slakting-avliving-og-destruering-kategori-f-sykdom">§ 12. Fjerning, slakting, avliving og destruering – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#13-brakklegging-kategori-f-sykdom">§ 13. Brakklegging – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#14-behandling-eller-avliving-mv-ved-pavisning-av-kategori-f-sykdom-hos-viltlevende-akvatiske-dyr">§ 14. Behandling eller avliving mv. ved påvisning av kategori F-sykdom hos viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#15-nasjonale-tiltak-mot-kategori-g-sykdom">§ 15. Nasjonale tiltak mot kategori G-sykdom</a></li>
+<li class="lvl2"><a href="#kapittel-iv-utfyllende-nasjonale-bestemmelser-generelle-tiltak-for-viltlevende-akvatiske-dyr">Kapittel IV. Utfyllende nasjonale bestemmelser – generelle tiltak for viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#16-nasjonale-restriksjoner-pa-flytting-mv-av-viltlevende-akvatiske-dyr">§ 16. Nasjonale restriksjoner på flytting mv. av viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#17-trking-og-desinfeksjon-av-fiskeutstyr-bater-og-andre-gjenstander">§ 17. Tørking og desinfeksjon av fiskeutstyr, båter og andre gjenstander</a></li>
+<li class="lvl2"><a href="#kapittel-v-utfyllende-nasjonale-bestemmelser-for-landdyr-reptiler-amfibier-og-sjpattedyr-listefring-og-meldeplikt">Kapittel V. Utfyllende nasjonale bestemmelser for landdyr, reptiler, amfibier og sjøpattedyr – listeføring og meldeplikt</a></li>
+<li class="lvl4"><a href="#18-nasjonal-liste-og-kategorisering-av-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 18. Nasjonal liste og kategorisering av sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#19-meldeplikt-for-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 19. Meldeplikt for sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#20-meldeplikt-som-ledd-i-overvakningen-av-brucellose">§ 20. Meldeplikt som ledd i overvåkningen av brucellose</a></li>
+<li class="lvl4"><a href="#21-meldeplikt-som-ledd-i-overvakningen-av-tse">§ 21. Meldeplikt som ledd i overvåkningen av TSE</a></li>
+<li class="lvl2"><a href="#kapittel-vi-utfyllende-nasjonale-bestemmelser-ytterligere-tiltak-for-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">Kapittel VI. Utfyllende nasjonale bestemmelser – ytterligere tiltak for sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#22-driftsansvarliges-plikter-ved-mistanke-om-eller-pavisning-av-nasjonal-liste-1-eller-2-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 22. Driftsansvarliges plikter ved mistanke om eller påvisning av nasjonal liste 1- eller 2-sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#23-driftsansvarliges-plikter-ved-kliniske-tegn-pa-nasjonal-liste-3-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 23. Driftsansvarliges plikter ved kliniske tegn på nasjonal liste 3-sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#24-ytterligere-tiltak-i-norge-for-a-forebygge-begrense-eller-utrydde-sykdommer-som-opptrer-hos-eller-spres-med-landdyr-reptiler-amfibier-og-sjpattedyr">§ 24. Ytterligere tiltak i Norge for å forebygge, begrense eller utrydde sykdommer som opptrer hos eller spres med landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#25-soneforskrifter">§ 25. Soneforskrifter</a></li>
+<li class="lvl4"><a href="#26-prvetaking-og-underskelser">§ 26. Prøvetaking og undersøkelser</a></li>
+<li class="lvl4"><a href="#27-beordring-i-regionen">§ 27. Beordring i regionen</a></li>
+<li class="lvl2"><a href="#kapittel-vii-utfyllende-nasjonale-bestemmelser-generelle-forebyggende-tiltak-i-anlegg-der-landdyr-reptiler-amfibier-og-sjpattedyr-holdes">Kapittel VII. Utfyllende nasjonale bestemmelser – generelle forebyggende tiltak i anlegg der landdyr, reptiler, amfibier og sjøpattedyr holdes</a></li>
+<li class="lvl4"><a href="#28-definisjoner">§ 28. Definisjoner</a></li>
+<li class="lvl4"><a href="#29-handtering-og-behandling-av-syke-dyr">§ 29. Håndtering og behandling av syke dyr</a></li>
+<li class="lvl4"><a href="#30-hygiene">§ 30. Hygiene</a></li>
+<li class="lvl4"><a href="#31-srskilte-hygienekrav-i-anlegg-med-nringsrettet-dyrehold">§ 31. Særskilte hygienekrav i anlegg med næringsrettet dyrehold</a></li>
+<li class="lvl4"><a href="#32-rutiner-for-smittevern">§ 32. Rutiner for smittevern</a></li>
+<li class="lvl4"><a href="#33-varmebehandling-av-bivoks-og-tiltak-mot-sverming-fra-bigarder">§ 33. Varmebehandling av bivoks og tiltak mot sverming fra bigårder</a></li>
+<li class="lvl4"><a href="#34-fangst-og-mottak-av-bisvermer">§ 34. Fangst og mottak av bisvermer</a></li>
+<li class="lvl4"><a href="#35-dyreansamlinger-og-apne-garder">§ 35. Dyreansamlinger og åpne gårder</a></li>
+<li class="lvl4"><a href="#36-krav-til-registreringspliktige-anlegg-for-oppsamling-av-dyr">§ 36. Krav til registreringspliktige anlegg for oppsamling av dyr</a></li>
+<li class="lvl4"><a href="#37-kunnskapskurs-om-dyrehelse">§ 37. Kunnskapskurs om dyrehelse</a></li>
+<li class="lvl2"><a href="#kapittel-viii-utfyllende-nasjonale-bestemmelser-veterinrers-og-laboratoriers-plikter-i-forbindelse-med-melding-om-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">Kapittel VIII. Utfyllende nasjonale bestemmelser – veterinærers og laboratoriers plikter i forbindelse med melding om sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#38-hastemeldingsplikt-for-veterinrer-og-laboratorier">§ 38. Hastemeldingsplikt for veterinærer og laboratorier</a></li>
+<li class="lvl4"><a href="#39-melding-for-veterinrer-og-laboratorier">§ 39. Melding for veterinærer og laboratorier</a></li>
+<li class="lvl4"><a href="#40-ndvendige-opplysninger-i-meldinger">§ 40. Nødvendige opplysninger i meldinger</a></li>
+<li class="lvl4"><a href="#41-isolater-og-nye-prver">§ 41. Isolater og nye prøver</a></li>
+<li class="lvl4"><a href="#42-tilgang-til-opplysninger">§ 42. Tilgang til opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-ix-administrative-bestemmelser">Kapittel IX. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#43-tiltak-tilsyn-og-vedtak">§ 43. Tiltak, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#44-straff">§ 44. Straff</a></li>
+<li class="lvl4"><a href="#45-dispensasjon">§ 45. Dispensasjon</a></li>
+<li class="lvl4"><a href="#46-ikrafttredelse">§ 46. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-nasjonal-liste-for-sykdommer-hos-landdyr-reptiler-og-amfibier-og-sjpattedyr">Vedlegg – Nasjonal liste for sykdommer hos landdyr, reptiler og amfibier og sjøpattedyr</a></li>
+<li class="lvl3"><a href="#liste-1-sykdommer">Liste 1. Sykdommer</a></li>
+<li class="lvl3"><a href="#liste-2-sykdommer">Liste 2. Sykdommer</a></li>
+<li class="lvl4"><a href="#1-sykdommer-hos-flere-dyrearter">1. Sykdommer hos flere dyrearter</a></li>
+<li class="lvl4"><a href="#2-hest">2. Hest</a></li>
+<li class="lvl4"><a href="#3-storfe">3. Storfe</a></li>
+<li class="lvl4"><a href="#4-smafe">4. Småfe</a></li>
+<li class="lvl4"><a href="#5-svin">5. Svin</a></li>
+<li class="lvl4"><a href="#6-fugler">6. Fugler</a></li>
+<li class="lvl4"><a href="#7-bier-og-humler">7. Bier og humler</a></li>
+<li class="lvl4"><a href="#8-hund-katt-pelsdyr-gnagere-haredyr-og-primater">8. Hund, katt, pelsdyr, gnagere, haredyr og primater</a></li>
+<li class="lvl3"><a href="#liste-3-sykdommer">Liste 3. Sykdommer</a></li>
+<li class="lvl4"><a href="#1-hest">1. Hest</a></li>
+<li class="lvl4"><a href="#2-storfe">2. Storfe</a></li>
+<li class="lvl4"><a href="#3-smafe">3. Småfe</a></li>
+<li class="lvl4"><a href="#4-svin">4. Svin</a></li>
+<li class="lvl4"><a href="#5-fugler">5. Fugler</a></li>
+<li class="lvl4"><a href="#6-bier-og-humler">6. Bier og humler</a></li>
+<li class="lvl4"><a href="#7-sjukdommer-hos-flere-dyrearter">7. Sjukdommer hos flere dyrearter</a></li>
+<li class="lvl4"><a href="#8-antibiotikaresistente-bakterier">8. Antibiotikaresistente bakterier</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2016429-om-smittsomme-dyresykdommer-og-om-endring-og-oppheving-av-visse-rettsakter-pa-dyrehelseomradet-dyrehelseforordningen">Konsolidert forordning (EU) 2016/429 om smittsomme dyresykdommer og om endring og oppheving av visse rettsakter på dyrehelseområdet («dyrehelseforordningen»)</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordning-eu-2016429av-9-mars-2016om-smittsomme-dyresykdommer-og-om-endring-og-oppheving-av-visse-rettsakter-pa-dyrehelseomradet-dyrehelseforordningen">EUROPAPARLAMENTS- OG RÅDSFORORDNING (EU) 2016/429av 9. mars 2016om smittsomme dyresykdommer og om endring og oppheving av visse rettsakter på dyrehelseområdet («dyrehelseforordningen»)</a></li>
+<li class="lvl5"><a href="#del-ialminnelige-regler">DEL IALMINNELIGE REGLER</a></li>
+<li class="lvl5"><a href="#del-iimelding-om-og-rapportering-av-sykdom-overvaking-utryddelsesprogrammer-sykdomsfri-status">DEL IIMELDING OM OG RAPPORTERING AV SYKDOM, OVERVÅKING, UTRYDDELSESPROGRAMMER, SYKDOMSFRI STATUS</a></li>
+<li class="lvl5"><a href="#del-iiibevissthet-om-beredskap-mot-og-bekjempelse-av-sykdom">DEL IIIBEVISSTHET OM, BEREDSKAP MOT OG BEKJEMPELSE AV SYKDOM</a></li>
+<li class="lvl5"><a href="#del-ivregistrering-godkjenning-sporbarhet-og-forflytninger">DEL IVREGISTRERING, GODKJENNING, SPORBARHET OG FORFLYTNINGER</a></li>
+<li class="lvl5"><a href="#del-vinnfrsel-til-unionen-og-eksport">DEL VINNFØRSEL TIL UNIONEN OG EKSPORT</a></li>
+<li class="lvl5"><a href="#del-viikke-kommersielle-forflytninger-av-kjledyr-til-en-medlemsstat-fra-en-annen-medlemsstat-eller-fra-et-tredjeland-eller-et-territorium">DEL VIIKKE-KOMMERSIELLE FORFLYTNINGER AV KJÆLEDYR TIL EN MEDLEMSSTAT FRA EN ANNEN MEDLEMSSTAT, ELLER FRA ET TREDJELAND ELLER ET TERRITORIUM</a></li>
+<li class="lvl5"><a href="#del-viindtiltak">DEL VIINØDTILTAK</a></li>
+<li class="lvl5"><a href="#del-viiifelles-bestemmelser">DEL VIIIFELLES BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-ixovergangs-og-sluttbestemmelser">DEL IXOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-iarter-av-kjledyr">VEDLEGG IARTER AV KJÆLEDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iiliste-over-dyresykdommer">VEDLEGG IILISTE OVER DYRESYKDOMMER</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiarter-av-hov-og-klovdyr">VEDLEGG IIIARTER AV HOV- OG KLOVDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-ivkriterier-for-anvendelse-av-reglene-for-forebygging-og-bekjempelse-av-sykdom-nevnt-i-artikkel-9-nr-1-pa-sykdommer-som-er-listefrt-i-samsvar-med-artikkel-5">VEDLEGG IVKRITERIER FOR ANVENDELSE AV REGLENE FOR FOREBYGGING OG BEKJEMPELSE AV SYKDOM NEVNT I ARTIKKEL 9 NR. 1 PÅ SYKDOMMER SOM ER LISTEFØRT I SAMSVAR MED ARTIKKEL 5</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellen-nevnt-i-artikkel-270-nr-2">VEDLEGG VSAMMENLIGNINGSTABELLEN NEVNT I ARTIKKEL 270 NR. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-20181882-om-kategorisering-av-listefrte-sykdommer">Forordning (EU) 2018/1882 om kategorisering av listeførte sykdommer</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20181882av-3-desember-2018om-anvendelsen-av-visse-regler-for-forebygging-og-bekjempelse-av-sykdom-som-skal-gjelde-for-kategorier-av-listefrte-sykdommer-og-om-opprettelse-av-en-liste-over-arter-og-grupper-av-arter-som-utgjr-en-betydelig-risiko-for-spredning-av-disse-listefrte-sykdommene">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2018/1882av 3. desember 2018om anvendelsen av visse regler for forebygging og bekjempelse av sykdom som skal gjelde for kategorier av listeførte sykdommer, og om opprettelse av en liste over arter og grupper av arter som utgjør en betydelig risiko for spredning av disse listeførte sykdommene</a></li>
+<li class="lvl5"><a href="#vedleggtabell-nevnt-i-artikkel-2">VEDLEGGTABELL NEVNT I ARTIKKEL 2</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-15-1033.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-631.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om dyrehelse (dyrehelseforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-04-06-631.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-04-06-631 <code>forskrift/2022-04-06-631</code></td></tr>
+<tr><th>Korttittel</th><td>Dyrehelseforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>28.04.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-15-1033 <code>forskrift/2025-06-15-1033</code> fra 15.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-04-06-631" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-gjennomfring">Kapittel I. Formål, virkeområde og gjennomføring</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#3-stedlig-virkeomrade">§ 3. Stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#4-dyrehelseforordningen">§ 4. Dyrehelseforordningen</a></li>
+<li class="lvl4"><a href="#5-liste-med-kategorisering-av-sykdommer-og-relevante-arter">§ 5. Liste med kategorisering av sykdommer og relevante arter</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-for-akvatiske-dyr-listefring-og-meldeplikt">Kapittel II. Utfyllende nasjonale bestemmelser for akvatiske dyr – listeføring og meldeplikt</a></li>
+<li class="lvl4"><a href="#6-nasjonal-liste-og-kategorisering-av-sykdommer-hos-akvatiske-dyr">§ 6. Nasjonal liste og kategorisering av sykdommer hos akvatiske dyr</a></li>
+<li class="lvl4"><a href="#7-meldeplikt-for-akvatiske-dyr">§ 7. Meldeplikt for akvatiske dyr</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-tiltak-for-kategori-e-sykdom-og-nasjonalt-listet-sykdom-hos-akvatiske-dyr">Kapittel III. Utfyllende nasjonale bestemmelser – tiltak for kategori E-sykdom og nasjonalt listet sykdom hos akvatiske dyr</a></li>
+<li class="lvl4"><a href="#8-nasjonale-tiltak-mot-kategori-e-sykdom">§ 8. Nasjonale tiltak mot kategori E-sykdom</a></li>
+<li class="lvl4"><a href="#9-nasjonale-restriksjoner-pa-a-ta-akvatiske-dyr-ut-eller-inn">§ 9. Nasjonale restriksjoner på å ta akvatiske dyr ut eller inn</a></li>
+<li class="lvl4"><a href="#10-nasjonale-restriksjoner-pa-avl-og-reproduksjon">§ 10. Nasjonale restriksjoner på avl og reproduksjon</a></li>
+<li class="lvl4"><a href="#11-opprettelse-av-restriksjonssoner-kategori-f-sykdom">§ 11. Opprettelse av restriksjonssoner – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#12-fjerning-slakting-avliving-og-destruering-kategori-f-sykdom">§ 12. Fjerning, slakting, avliving og destruering – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#13-brakklegging-kategori-f-sykdom">§ 13. Brakklegging – kategori F-sykdom</a></li>
+<li class="lvl4"><a href="#14-behandling-eller-avliving-mv-ved-pavisning-av-kategori-f-sykdom-hos-viltlevende-akvatiske-dyr">§ 14. Behandling eller avliving mv. ved påvisning av kategori F-sykdom hos viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#15-nasjonale-tiltak-mot-kategori-g-sykdom">§ 15. Nasjonale tiltak mot kategori G-sykdom</a></li>
+<li class="lvl2"><a href="#kapittel-iv-utfyllende-nasjonale-bestemmelser-generelle-tiltak-for-viltlevende-akvatiske-dyr">Kapittel IV. Utfyllende nasjonale bestemmelser – generelle tiltak for viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#16-nasjonale-restriksjoner-pa-flytting-mv-av-viltlevende-akvatiske-dyr">§ 16. Nasjonale restriksjoner på flytting mv. av viltlevende akvatiske dyr</a></li>
+<li class="lvl4"><a href="#17-trking-og-desinfeksjon-av-fiskeutstyr-bater-og-andre-gjenstander">§ 17. Tørking og desinfeksjon av fiskeutstyr, båter og andre gjenstander</a></li>
+<li class="lvl2"><a href="#kapittel-v-utfyllende-nasjonale-bestemmelser-for-landdyr-reptiler-amfibier-og-sjpattedyr-listefring-og-meldeplikt">Kapittel V. Utfyllende nasjonale bestemmelser for landdyr, reptiler, amfibier og sjøpattedyr – listeføring og meldeplikt</a></li>
+<li class="lvl4"><a href="#18-nasjonal-liste-og-kategorisering-av-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 18. Nasjonal liste og kategorisering av sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#19-meldeplikt-for-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 19. Meldeplikt for sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#20-meldeplikt-som-ledd-i-overvakningen-av-brucellose">§ 20. Meldeplikt som ledd i overvåkningen av brucellose</a></li>
+<li class="lvl4"><a href="#21-meldeplikt-som-ledd-i-overvakningen-av-tse">§ 21. Meldeplikt som ledd i overvåkningen av TSE</a></li>
+<li class="lvl2"><a href="#kapittel-vi-utfyllende-nasjonale-bestemmelser-ytterligere-tiltak-for-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">Kapittel VI. Utfyllende nasjonale bestemmelser – ytterligere tiltak for sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#22-driftsansvarliges-plikter-ved-mistanke-om-eller-pavisning-av-nasjonal-liste-1-eller-2-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 22. Driftsansvarliges plikter ved mistanke om eller påvisning av nasjonal liste 1- eller 2-sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#23-driftsansvarliges-plikter-ved-kliniske-tegn-pa-nasjonal-liste-3-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 23. Driftsansvarliges plikter ved kliniske tegn på nasjonal liste 3-sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#24-ytterligere-tiltak-i-norge-for-a-forebygge-begrense-eller-utrydde-sykdommer-som-opptrer-hos-eller-spres-med-landdyr-reptiler-amfibier-og-sjpattedyr">§ 24. Ytterligere tiltak i Norge for å forebygge, begrense eller utrydde sykdommer som opptrer hos eller spres med landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#25-soneforskrifter">§ 25. Soneforskrifter</a></li>
+<li class="lvl4"><a href="#26-prvetaking-og-underskelser">§ 26. Prøvetaking og undersøkelser</a></li>
+<li class="lvl4"><a href="#27-beordring-i-regionen">§ 27. Beordring i regionen</a></li>
+<li class="lvl2"><a href="#kapittel-vii-utfyllende-nasjonale-bestemmelser-generelle-forebyggende-tiltak-i-anlegg-der-landdyr-reptiler-amfibier-og-sjpattedyr-holdes">Kapittel VII. Utfyllende nasjonale bestemmelser – generelle forebyggende tiltak i anlegg der landdyr, reptiler, amfibier og sjøpattedyr holdes</a></li>
+<li class="lvl4"><a href="#28-definisjoner">§ 28. Definisjoner</a></li>
+<li class="lvl4"><a href="#29-handtering-og-behandling-av-syke-dyr">§ 29. Håndtering og behandling av syke dyr</a></li>
+<li class="lvl4"><a href="#30-hygiene">§ 30. Hygiene</a></li>
+<li class="lvl4"><a href="#31-srskilte-hygienekrav-i-anlegg-med-nringsrettet-dyrehold">§ 31. Særskilte hygienekrav i anlegg med næringsrettet dyrehold</a></li>
+<li class="lvl4"><a href="#32-rutiner-for-smittevern">§ 32. Rutiner for smittevern</a></li>
+<li class="lvl4"><a href="#33-varmebehandling-av-bivoks-og-tiltak-mot-sverming-fra-bigarder">§ 33. Varmebehandling av bivoks og tiltak mot sverming fra bigårder</a></li>
+<li class="lvl4"><a href="#34-fangst-og-mottak-av-bisvermer">§ 34. Fangst og mottak av bisvermer</a></li>
+<li class="lvl4"><a href="#35-dyreansamlinger-og-apne-garder">§ 35. Dyreansamlinger og åpne gårder</a></li>
+<li class="lvl4"><a href="#36-krav-til-registreringspliktige-anlegg-for-oppsamling-av-dyr">§ 36. Krav til registreringspliktige anlegg for oppsamling av dyr</a></li>
+<li class="lvl4"><a href="#37-kunnskapskurs-om-dyrehelse">§ 37. Kunnskapskurs om dyrehelse</a></li>
+<li class="lvl2"><a href="#kapittel-viii-utfyllende-nasjonale-bestemmelser-veterinrers-og-laboratoriers-plikter-i-forbindelse-med-melding-om-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">Kapittel VIII. Utfyllende nasjonale bestemmelser – veterinærers og laboratoriers plikter i forbindelse med melding om sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</a></li>
+<li class="lvl4"><a href="#38-hastemeldingsplikt-for-veterinrer-og-laboratorier">§ 38. Hastemeldingsplikt for veterinærer og laboratorier</a></li>
+<li class="lvl4"><a href="#39-melding-for-veterinrer-og-laboratorier">§ 39. Melding for veterinærer og laboratorier</a></li>
+<li class="lvl4"><a href="#40-ndvendige-opplysninger-i-meldinger">§ 40. Nødvendige opplysninger i meldinger</a></li>
+<li class="lvl4"><a href="#41-isolater-og-nye-prver">§ 41. Isolater og nye prøver</a></li>
+<li class="lvl4"><a href="#42-tilgang-til-opplysninger">§ 42. Tilgang til opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-ix-administrative-bestemmelser">Kapittel IX. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#43-tiltak-tilsyn-og-vedtak">§ 43. Tiltak, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#44-straff">§ 44. Straff</a></li>
+<li class="lvl4"><a href="#45-dispensasjon">§ 45. Dispensasjon</a></li>
+<li class="lvl4"><a href="#46-ikrafttredelse">§ 46. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-nasjonal-liste-for-sykdommer-hos-landdyr-reptiler-og-amfibier-og-sjpattedyr">Vedlegg – Nasjonal liste for sykdommer hos landdyr, reptiler og amfibier og sjøpattedyr</a></li>
+<li class="lvl3"><a href="#liste-1-sykdommer">Liste 1. Sykdommer</a></li>
+<li class="lvl3"><a href="#liste-2-sykdommer">Liste 2. Sykdommer</a></li>
+<li class="lvl4"><a href="#1-sykdommer-hos-flere-dyrearter">1. Sykdommer hos flere dyrearter</a></li>
+<li class="lvl4"><a href="#2-hest">2. Hest</a></li>
+<li class="lvl4"><a href="#3-storfe">3. Storfe</a></li>
+<li class="lvl4"><a href="#4-smafe">4. Småfe</a></li>
+<li class="lvl4"><a href="#5-svin">5. Svin</a></li>
+<li class="lvl4"><a href="#6-fugler">6. Fugler</a></li>
+<li class="lvl4"><a href="#7-bier-og-humler">7. Bier og humler</a></li>
+<li class="lvl4"><a href="#8-hund-katt-pelsdyr-gnagere-haredyr-og-primater">8. Hund, katt, pelsdyr, gnagere, haredyr og primater</a></li>
+<li class="lvl3"><a href="#liste-3-sykdommer">Liste 3. Sykdommer</a></li>
+<li class="lvl4"><a href="#1-hest">1. Hest</a></li>
+<li class="lvl4"><a href="#2-storfe">2. Storfe</a></li>
+<li class="lvl4"><a href="#3-smafe">3. Småfe</a></li>
+<li class="lvl4"><a href="#4-svin">4. Svin</a></li>
+<li class="lvl4"><a href="#5-fugler">5. Fugler</a></li>
+<li class="lvl4"><a href="#6-bier-og-humler">6. Bier og humler</a></li>
+<li class="lvl4"><a href="#7-sjukdommer-hos-flere-dyrearter">7. Sjukdommer hos flere dyrearter</a></li>
+<li class="lvl4"><a href="#8-antibiotikaresistente-bakterier">8. Antibiotikaresistente bakterier</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2016429-om-smittsomme-dyresykdommer-og-om-endring-og-oppheving-av-visse-rettsakter-pa-dyrehelseomradet-dyrehelseforordningen">Konsolidert forordning (EU) 2016/429 om smittsomme dyresykdommer og om endring og oppheving av visse rettsakter på dyrehelseområdet («dyrehelseforordningen»)</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordning-eu-2016429av-9-mars-2016om-smittsomme-dyresykdommer-og-om-endring-og-oppheving-av-visse-rettsakter-pa-dyrehelseomradet-dyrehelseforordningen">EUROPAPARLAMENTS- OG RÅDSFORORDNING (EU) 2016/429av 9. mars 2016om smittsomme dyresykdommer og om endring og oppheving av visse rettsakter på dyrehelseområdet («dyrehelseforordningen»)</a></li>
+<li class="lvl5"><a href="#del-ialminnelige-regler">DEL IALMINNELIGE REGLER</a></li>
+<li class="lvl5"><a href="#del-iimelding-om-og-rapportering-av-sykdom-overvaking-utryddelsesprogrammer-sykdomsfri-status">DEL IIMELDING OM OG RAPPORTERING AV SYKDOM, OVERVÅKING, UTRYDDELSESPROGRAMMER, SYKDOMSFRI STATUS</a></li>
+<li class="lvl5"><a href="#del-iiibevissthet-om-beredskap-mot-og-bekjempelse-av-sykdom">DEL IIIBEVISSTHET OM, BEREDSKAP MOT OG BEKJEMPELSE AV SYKDOM</a></li>
+<li class="lvl5"><a href="#del-ivregistrering-godkjenning-sporbarhet-og-forflytninger">DEL IVREGISTRERING, GODKJENNING, SPORBARHET OG FORFLYTNINGER</a></li>
+<li class="lvl5"><a href="#del-vinnfrsel-til-unionen-og-eksport">DEL VINNFØRSEL TIL UNIONEN OG EKSPORT</a></li>
+<li class="lvl5"><a href="#del-viikke-kommersielle-forflytninger-av-kjledyr-til-en-medlemsstat-fra-en-annen-medlemsstat-eller-fra-et-tredjeland-eller-et-territorium">DEL VIIKKE-KOMMERSIELLE FORFLYTNINGER AV KJÆLEDYR TIL EN MEDLEMSSTAT FRA EN ANNEN MEDLEMSSTAT, ELLER FRA ET TREDJELAND ELLER ET TERRITORIUM</a></li>
+<li class="lvl5"><a href="#del-viindtiltak">DEL VIINØDTILTAK</a></li>
+<li class="lvl5"><a href="#del-viiifelles-bestemmelser">DEL VIIIFELLES BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-ixovergangs-og-sluttbestemmelser">DEL IXOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-iarter-av-kjledyr">VEDLEGG IARTER AV KJÆLEDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iiliste-over-dyresykdommer">VEDLEGG IILISTE OVER DYRESYKDOMMER</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiarter-av-hov-og-klovdyr">VEDLEGG IIIARTER AV HOV- OG KLOVDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-ivkriterier-for-anvendelse-av-reglene-for-forebygging-og-bekjempelse-av-sykdom-nevnt-i-artikkel-9-nr-1-pa-sykdommer-som-er-listefrt-i-samsvar-med-artikkel-5">VEDLEGG IVKRITERIER FOR ANVENDELSE AV REGLENE FOR FOREBYGGING OG BEKJEMPELSE AV SYKDOM NEVNT I ARTIKKEL 9 NR. 1 PÅ SYKDOMMER SOM ER LISTEFØRT I SAMSVAR MED ARTIKKEL 5</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellen-nevnt-i-artikkel-270-nr-2">VEDLEGG VSAMMENLIGNINGSTABELLEN NEVNT I ARTIKKEL 270 NR. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-20181882-om-kategorisering-av-listefrte-sykdommer">Forordning (EU) 2018/1882 om kategorisering av listeførte sykdommer</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20181882av-3-desember-2018om-anvendelsen-av-visse-regler-for-forebygging-og-bekjempelse-av-sykdom-som-skal-gjelde-for-kategorier-av-listefrte-sykdommer-og-om-opprettelse-av-en-liste-over-arter-og-grupper-av-arter-som-utgjr-en-betydelig-risiko-for-spredning-av-disse-listefrte-sykdommene">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2018/1882av 3. desember 2018om anvendelsen av visse regler for forebygging og bekjempelse av sykdom som skal gjelde for kategorier av listeførte sykdommer, og om opprettelse av en liste over arter og grupper av arter som utgjør en betydelig risiko for spredning av disse listeførte sykdommene</a></li>
+<li class="lvl5"><a href="#vedleggtabell-nevnt-i-artikkel-2">VEDLEGGTABELL NEVNT I ARTIKKEL 2</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-631.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-04-06-631.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-631.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-04-06-631.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-04-06-631.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-04-06-631.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-04-06-631.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-04-06-631.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-04-06-631.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-dyrehelse-dyrehelseforskriften">Forskrift om dyrehelse (dyrehelseforskriften)</h1>
 <h2 id="kapittel-i-formal-virkeomrade-og-gjennomfring">Kapittel I. Formål, virkeområde og gjennomføring</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften skal fremme forebygging og bekjempelse av dyresykdommer som kan overføres til dyr eller mennesker.</p>
@@ -94,11 +329,11 @@ f. smittsomme sykdommer, herunder zoonoser, i den utstrekning det ikke allerede 
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13 (forordning (EU) 2016/429 som endret ved forordning (EU) 2017/625 og forordning (EU) 2018/1629 ) om smittsomme dyresykdommer og om endring og oppheving av visse rettsakter på dyrehelseområdet («dyrehelseforordningen») gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <h4 id="5-liste-med-kategorisering-av-sykdommer-og-relevante-arter">§ 5. Liste med kategorisering av sykdommer og relevante arter</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13a (forordning (EU) 2018/1882 som endret ved forordning (EU) 2022/925 og forordning (EU) 2024/216 ) om anvendelsen av visse regler for forebygging og bekjempelse av sykdom som skal gjelde for kategorier av listeførte sykdommer og om opprettelse av en liste over arter og grupper av arter som utgjør en betydelig risiko for spredning av disse listeførte sykdommene gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 20 mars 2023 nr. 363 , 9 des 2024 nr. 2995 .</em></p>
+<p class="note">Endret ved forskrifter 20 mars 2023 nr. 363 , 9 des 2024 nr. 2995 .</p>
 <h2 id="kapittel-ii-utfyllende-nasjonale-bestemmelser-for-akvatiske-dyr-listefring-og-meldeplikt">Kapittel II. Utfyllende nasjonale bestemmelser for akvatiske dyr – listeføring og meldeplikt</h2>
 <h4 id="6-nasjonal-liste-og-kategorisering-av-sykdommer-hos-akvatiske-dyr">§ 6. Nasjonal liste og kategorisering av sykdommer hos akvatiske dyr</h4>
 <p>Nasjonal liste for sykdommer hos akvatiske dyr og kategorisering er som følger: Navn på nasjonalt listet sykdom – akvatiske dyr Nasjonal kategori Art/gruppe av arter Bakteriell nyresyke (BKD, Renibacterium salmoninarum ) F Familie: Laksefisk Infeksjon med Gyrodactylus salaris F Atlanterhavslaks ( Salmo salar ), regnbueørret ( Oncorhynchus mykiss ), arktisk røye ( Salvelinus alpinus ), nordamerikansk bekkeørret ( Salvelinus fontinalis ), harr ( Thymallus thymallus ), canadarøye ( Salvelinus namaycush ) og sjøørret ( Salmo trutta ) Furunkulose ( Aeromonas salmonicida subsp. salmonicida ) F Familie: Laksefisk Pankreassykdom (PD, Salmonid alfavirus) F Atlanterhavslaks ( Salmo salar ), regnbueørret ( Oncorhynchus mykiss ) og sjøørret ( Salmo trutta ) Systemisk infeksjon med Flavobacterium psychrophilum F Regnbueørret ( Oncorhynchus mykiss ) Francisellose ( Francisella sp. ) F Torsk ( Gadus morhua ) Krepsepest ( Aphanomyces ataci ) F Ferskvannskreps Infeksjon med Lepeophtheirus salmonis (Lakselus) F Familie: Laksefisk Viral nervøs nekrose (VNN) / Viral encephalo- og retinopati (VER) Nodavirus G Marine fiskearter Piscirickettsiose ( Piscirickettsia salmonis ) G Familie: Laksefisk, Marine fiskearter</p>
-<p><em>Endret ved forskrifter 1 juli 2022 nr. 1300 , 15 juni 2025 nr. 1033 .</em></p>
+<p class="note">Endret ved forskrifter 1 juli 2022 nr. 1300 , 15 juni 2025 nr. 1033 .</p>
 <h4 id="7-meldeplikt-for-akvatiske-dyr">§ 7. Meldeplikt for akvatiske dyr</h4>
 <p>Ved grunn til mistanke om forekomst eller ved påvisning av en listeført sykdom hos akvatiske dyr som nevnt i vedlegg II til forordning (EU) 2016/429 , eller i nasjonal sykdomsliste for akvatiske dyr i § 6 , unntatt lakselus, skal driftsansvarlige og enhver fysisk eller juridisk person umiddelbart melde fra til Mattilsynet.</p>
 <p>Ved unormal dødelighet, andre tegn på sykdom eller vesentlig redusert produksjonstakt av ukjent årsak hos akvakulturdyr, skal driftsansvarlige så snart som praktisk mulig sikre at veterinær eller fiskehelsebiolog vurderer helsesituasjonen i hele anlegget og gjennomfører relevante undersøkelser og prøveuttak for å fastslå årsaken. Dersom forholdene vedvarer, skal ny vurdering gjennomføres innen 14 dager med mindre årsaksforholdene er entydig og avklart. Driftsansvarlige skal så snart som praktisk mulig melde fra til Mattilsynet dersom årsaksforholdene fortsatt er uavklart etter at ny vurdering er gjennomført.</p>
@@ -152,7 +387,7 @@ h. ferdsel og aktiviteter i og ut av sonen.</p>
 <p>Ved unormal dødelighet, andre tegn på alvorlig sykdom eller vesentlig redusert produksjonstakt av ukjent årsak hos landdyr, reptiler, amfibier og sjøpattedyr, skal driftsansvarlige så snart som praktisk mulig melde fra til veterinær med henblikk på ytterligere undersøkelser.</p>
 <p>Ved unormal dødelighet og andre tegn på alvorlig sykdom hos viltlevende landdyr, reptiler og amfibier og viltlevende sjøpattedyr, skal enhver fysisk eller juridisk person så snart som praktisk mulig melde fra til Mattilsynet.</p>
 <p>Meldeplikt for sykdom hos kjæledyr og meldeplikt for nasjonal liste 3-sykdommer gjelder ikke for den som har meldt ifra til veterinær om mistanke om eller påvisning av sykdommen. Det er likevel ikke unntak fra meldeplikten ved mistanke om eller ved påvisning av Bsal hos salamander, rabies hos flaggermus eller varroainfeksjon hos honningbier.</p>
-<p><em>Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</p>
 <h4 id="20-meldeplikt-som-ledd-i-overvakningen-av-brucellose">§ 20. Meldeplikt som ledd i overvåkningen av brucellose</h4>
 <p>Som ledd i overvåkningen av brucellose hos storfe skal den driftsansvarlige eller veterinæren melde ifra til Mattilsynet hvis det i løpet av en periode på 12 måneder er mer enn 2 kyr i besetningen som aborterer fra og med femte drektighetsmåned og fram til 14 dager før forventet kalving.</p>
 <h4 id="21-meldeplikt-som-ledd-i-overvakningen-av-tse">§ 21. Meldeplikt som ledd i overvåkningen av TSE</h4>
@@ -169,17 +404,17 @@ h. ferdsel og aktiviteter i og ut av sonen.</p>
 <li>Uvedkommende personer skal ikke gis adgang til dyrerom hvor dyr av arter som er mottakelige for sykdommen oppholder seg. Inngang til driftsbygninger skal være merket med Mattilsynets varselskilt.</li>
 <li>Sørge for at anleggets journaler over produksjon, helse og sporbarhet ajourføres.</li>
 </ol>
-<p><em>Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</p>
 <h4 id="23-driftsansvarliges-plikter-ved-kliniske-tegn-pa-nasjonal-liste-3-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">§ 23. Driftsansvarliges plikter ved kliniske tegn på nasjonal liste 3-sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</h4>
 <p>Driftsansvarlig skal påse at landdyr, reptiler, amfibier og sjøpattedyr med kliniske tegn på nasjonal liste 3-sykdom ikke bringes i kontakt med dyr fra andre anlegg inntil annet er bestemt.</p>
 <p>Første ledd er likevel ikke til hinder for at driftsansvarlig kan omsette eller flytte honningbier med kliniske tegn på varroainfeksjon innenfor «region C», som angitt i vedlegg II til landdyrforflytningsforskriften , der sykdommen er endemisk. Første ledd er heller ikke til hinder for at driftsansvarlig kan omsette eller flytte honningbier med kliniske tegn på trakémiddinfeksjon innenfor «sone B1», som angitt i vedlegg II til landdyrforflytningsforskriften , der sykdommen er endemisk.</p>
 <h4 id="24-ytterligere-tiltak-i-norge-for-a-forebygge-begrense-eller-utrydde-sykdommer-som-opptrer-hos-eller-spres-med-landdyr-reptiler-amfibier-og-sjpattedyr">§ 24. Ytterligere tiltak i Norge for å forebygge, begrense eller utrydde sykdommer som opptrer hos eller spres med landdyr, reptiler, amfibier og sjøpattedyr</h4>
 <p>Mattilsynet kan treffe tiltak for å forebygge, begrense eller utrydde sykdommer, herunder antibiotikaresistens, som kan opptre hos eller spres med landdyr, reptiler, amfibier og sjøpattedyr.</p>
-<p><em>Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</p>
 <h4 id="25-soneforskrifter">§ 25. Soneforskrifter</h4>
 <p>Som ledd i å forebygge, begrense eller utrydde sykdommer, kan Mattilsynet gi forskrift om opprettelse, endring og oppheving av soner og tiltak i sonene.</p>
 <p>Mattilsynet kan vedta forskrifter etter første ledd uten forutgående høring, og kunngjøre disse på særskilt måte.</p>
-<p><em>Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</p>
 <h4 id="26-prvetaking-og-underskelser">§ 26. Prøvetaking og undersøkelser</h4>
 <p>Mattilsynet kan tillate at prøver tatt av dyr, fôr, gjødsel m.m. kan undersøkes for andre smittestoffer enn de som var den opprinnelige årsaken til at prøvene ble tatt.</p>
 <p>Mattilsynet kan ved mistanke om nasjonal liste 1- og liste 2-sykdom pålegge driftsansvarlige og kjæledyrholdere å få avlivet dyr for å gjennomføre spesielle undersøkelser. De kan også pålegges å sende dyret eller prøver av dyret for å undersøkes videre ved en diagnostisk institusjon.</p>
@@ -198,7 +433,7 @@ e. «anlegg med næringsrettet dyrehold»: anlegg der storfe, sau, geit, svin, o
 f. «åpen gård»: et arrangement som innebærer at et anlegg med næringsrettet dyrehold holdes midlertidig åpent for publikum.</p>
 <h4 id="29-handtering-og-behandling-av-syke-dyr">§ 29. Håndtering og behandling av syke dyr</h4>
 <p>Den driftsansvarlige eller kjæledyrholderen skal sikre at syke dyr tas hånd om og får forsvarlig behandling for å hindre smittespredning til andre dyr eller til mennesker. Hvis det er nødvendig, skal den driftsansvarlige eller kjæledyrholderen kontakte en veterinær.</p>
-<p><em>Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrift 21 aug 2024 nr. 1995 (i kraft 1 sep 2024).</p>
 <h4 id="30-hygiene">§ 30. Hygiene</h4>
 <p>Den driftsansvarlig skal sørge for at varmt og kaldt vann er tilgjengelig i anlegget. Det skal være mulig å rengjøre hender, støvler, overtrekkstøy og utstyr. Kravet om tilgjengelig vann gjelder ikke for utmark eller lignende steder.</p>
 <p>Den driftsansvarlig skal sørge for at utstyr, innredning og andre gjenstander som kan spre smitte, er tilstrekkelig rengjort og om nødvendig desinfisert før de blir tatt inn til områder på anlegget der dyrene holdes eller kan komme i kontakt med.</p>
@@ -213,7 +448,7 @@ c. i et melkeproduksjonsanlegg, en dør eller en annen innretning som bare bruke
 <p>Den driftsansvarlige må sørge for at dyretransportører som må inn i et tilholdsrom for å hente dyr, har rent og ved behov desinfisert fottøy og overtrekkstøy. Hvis transportøren bruker fottøy eller overtrekkstøy som hører til i anlegget, må dette vaskes og ved behov desinfiseres etter bruk.</p>
 <p>Materialene og innredningen i tilholdsrommet for dyrene, smitteslusen og fôrlageret skal kunne rengjøres. Rommene skal holdes ryddige og rene og desinfiseres ved behov. Rommene skal også så langt det er praktisk mulig, være sikret mot gnagere og ville fugler. Fôr skal oppbevares hygienisk forsvarlig.</p>
 <p>Toaletter skal ikke ha avløp til eller tømmes i gjødsellageret. Dette gjelder ikke toaletter som er installert før 1. januar 2020.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h4 id="32-rutiner-for-smittevern">§ 32. Rutiner for smittevern</h4>
 <p>Driftsansvarlige i anlegg med næringsrettet dyrehold skal ha rutiner som sikrer godt smittevern.</p>
 <p>Rutinene skal beskrives i en skriftlig smittevernplan. Den skal inneholde en plantegning over dyre- og persontrafikken, være tilpassa hvert enkelt dyrehold og omfatte hele driftsopplegget. Smittevernplanen skal blant annet beskrive hvordan</p>
@@ -238,7 +473,7 @@ i. risikoen for å spre smitte ved krysstrafikk mellom dyr, mennesker og kjøret
 <p>Etter at siste bisverm er fanget inn eller mottatt for sesongen, skal den driftsansvarlige sørge for at undersøkelsene som kreves for å kunne flytte honningbiene til en annen bigård i Norge, jf. landdyrforflytningsforskriften § 13 , blir gjennomført i alle bikubene snarest mulig. Undersøkelsene skal gjennomføres selv om honningbiene ikke skal flyttes.</p>
 <p>Den driftsansvarlige må ha fjernet alle honningbier, som stammer fra bisvermer fanget inn eller mottatt en foregående sesong, fra svermebigården før den kan brukes til fangst eller mottak av nye bisvermer.</p>
 <p>Den driftsansvarlige skal sikre at utstyr som brukes i en svermebigård ikke blir brukt i andre bigårder.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h4 id="35-dyreansamlinger-og-apne-garder">§ 35. Dyreansamlinger og åpne gårder</h4>
 <p>Den driftsansvarlige skal sikre at en dyreansamling eller åpen gård gjennomføres på en måte som i størst mulig grad hindrer smitteoverføring.</p>
 <p>Den driftsansvarlige skal melde fra til Mattilsynet om arrangementet senest 7 dager i forveien. Meldingen skal inneholde opplysninger om registreringsnummeret til anlegget der arrangementet skal finne sted, tidsrommet for arrangementet og hvilke tiltak som er planlagt for å hindre smitteoverføring.</p>
@@ -252,7 +487,7 @@ i. risikoen for å spre smitte ved krysstrafikk mellom dyr, mennesker og kjøret
 <p>Driftsansvarlige i anlegg med næringsrettet dyrehold skal ha gjennomført et kurs i dyrehelse, og må ta oppdateringskurs ved behov. Nye driftsansvarlige skal ha gjennomført kurset i løpet av det første året som driftsansvarlig.</p>
 <p>Driftsansvarlige for honningbier, som kan dokumentere at de er over 18 år og har gjennomgått og bestått et kompetansekurs godkjent av Mattilsynet, kan foreta den kliniske undersøkelsen og varroaundersøkelsen som kreves etter landdyrforflytningsforskriften § 13 i sine egne bigårder. For å beholde retten må de bestå fornyet prøve minst hvert tiende år.</p>
 <p>Kravet om kurs etter første ledd gjelder ikke driftsansvarlige i anlegg med næringsrettet dyrehold som kan dokumentere kompetanse i dyrehelse på agronomnivå eller høyere.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h2 id="kapittel-viii-utfyllende-nasjonale-bestemmelser-veterinrers-og-laboratoriers-plikter-i-forbindelse-med-melding-om-sykdommer-hos-landdyr-reptiler-amfibier-og-sjpattedyr">Kapittel VIII. Utfyllende nasjonale bestemmelser – veterinærers og laboratoriers plikter i forbindelse med melding om sykdommer hos landdyr, reptiler, amfibier og sjøpattedyr</h2>
 <h4 id="38-hastemeldingsplikt-for-veterinrer-og-laboratorier">§ 38. Hastemeldingsplikt for veterinærer og laboratorier</h4>
 <p>Veterinærer og laboratorier skal sende hastemelding etter § 19 første ledd om nasjonal liste 1- og 2-sykdom eller Bsal hos landdyr, reptiler, amfibier eller sjøpattedyr skriftlig via Mattilsynets meldesystem. For nasjonal liste 1-sykdommer og andre sykdommer som Mattilsynet bestemmer skal meldingen også skje muntlig.</p>
@@ -265,12 +500,12 @@ e. antas ikke å forekomme i Norge
 f. har uvanlig utbredelse
 g. svekker dyrets helsetilstand på uvanlig måte eller i uvanlig høy grad.</p>
 <p>Plikten til å gi hastemelding gjelder ikke nye tilfeller i samme sykdomshendelse.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h4 id="39-melding-for-veterinrer-og-laboratorier">§ 39. Melding for veterinærer og laboratorier</h4>
 <p>Laboratorier som påviser nye tilfeller av sykdom hos landdyr, reptiler, amfibier eller sjøpattedyr i anlegg som Mattilsynet har pålagt restriksjoner, skal gi Mattilsynet skriftlig melding innen 24 timer etter påvisningen.</p>
 <p>Laboratorier som påviser antibiotikaresistente bakterier som fastsatt i vedlegget over nasjonal liste 3-sykdommer, skal sende melding etter § 19 annet ledd skriftlig til Mattilsynet. Meldingen skal sendes senest innen 7 dager etter påvisningen. Dette gjelder likevel ikke dersom det er inngått avtale mellom laboratoriet og Mattilsynet om at melding skal gis på en annen måte eller på et annet tidspunkt.</p>
 <p>Veterinærer som påviser nasjonal liste 3-sykdom hos landdyr, andre dyr som lever på land eller sjøpattedyr, foruten Bsal, skal sende melding etter § 19 annet ledd skriftlig til Mattilsynet. Meldingen skal sendes senest 7 dager etter påvisningen. Når prøver sendes til analyse for undersøkelse i laboratorium utenfor Norge, skal skriftlig melding sendes av veterinær som er ansvarlig for prøvetakingen.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h4 id="40-ndvendige-opplysninger-i-meldinger">§ 40. Nødvendige opplysninger i meldinger</h4>
 <p>Når veterinærer og laboratorier sender meldinger etter § 19 eller dette kapittel skal meldingen inneholde nødvendige opplysninger om</p>
 <p>a. melderen
@@ -278,7 +513,7 @@ b. sykdommen, herunder symptomer og eventuell diagnose
 c. stedet dyrene holdes og art
 d. dyrene som er rammet av sykdommen
 e. tidspunktet for mistanke eller påvisning.</p>
-<p><em>Endret ved forskrift 1 juli 2022 nr. 1300 .</em></p>
+<p class="note">Endret ved forskrift 1 juli 2022 nr. 1300 .</p>
 <h4 id="41-isolater-og-nye-prver">§ 41. Isolater og nye prøver</h4>
 <p>Laboratorier skal på anmodning fra Mattilsynet sende bakterieisolater til Veterinærinstituttet.</p>
 <h4 id="42-tilgang-til-opplysninger">§ 42. Tilgang til opplysninger</h4>
@@ -4890,6 +5125,8 @@ Artikkel 23 Komitéprosedyre 1. Kommisjonen skal, for de gjennomføringsrettsakt
 <p>For Kommisjonen Jean-Claude Juncker President</p>
 <h5 id="vedleggtabell-nevnt-i-artikkel-2">VEDLEGGTABELL NEVNT I ARTIKKEL 2</h5>
 <p>Navn på listeført sykdom Kategori av listeført sykdom Listeførte arter Arter og grupper av arter Vektorarter Munn- og klovsyke A+D+E Artiodactyla, Proboscidea Infeksjon med kvegpestvirus A+D+E Artiodactyla Infeksjon med Rift Valley Fever-virus A+D+E Perissodactyla, Antilocapridae, Bovidae, Camelidae, Cervidae, Giraffidae, Hippopotamidae, Moschidae, Proboscidea Culicidae Infeksjon med Brucella abortus , B. melitensis , B. suis B+D+E Bison ssp., Bos ssp., Bubalus ssp., Ovis ssp., Capra ssp. D+E Artiodactyla , unntatt Bison ssp., Bos ssp., Bubalus ssp., Ovis ssp., Capra ssp. E Perissodactyla, Carnivora, Lagomorpha Infeksjon med Mycobacterium tuberculosis -kompleks ( M. bovis , M. caprae, M. tuberculosis ) B+D+E Bison ssp., Bos ssp., Bubalus ssp. D+E Artiodactyla , unntatt Bison ssp., Bos ssp., Bubalus ssp. E Mammalia (landdyr) Infeksjon med rabiesvirus B+D+E Carnivora, Bovidae, Suidae, Equidae, Cervidae, Camelidae E Chiroptera Infestasjon med Echinococcus multilocularis C+D+E Canidae Infeksjon med blåtungevirus (serotype 1-24) C+D+E Antilocapridae, Bovidae, Camelidae, Cervidae, Giraffidae, Moschidae, Tragulidae Culicoides spp. Infeksjon med hemoragisk epizooti-virus D+E Antilocapridae, Bovidae, Camelidae, Cervidae, Giraffidae, Moschidae, Tragulidae Culicoides spp. Miltbrann D+E Perissodactyla, Artiodactyla, Proboscidea Surra ( Trypanosoma evansi ) D+E Equidae, Artiodactyla Tabanidae Ebolavirussykdom D+E Ikke-menneskelige primater (aper) Paratuberkulose E Bison ssp., Bos ssp., Bubalus ssp., Ovis ssp., Capra ssp., Camelidae , Cervidae Japansk encefalitt E Equidae Culicidae Vestnilfeber E Equidae, Aves Culicidae Q-feber E Bison ssp., Bos ssp., Bubalus ssp., Ovis ssp., Capra ssp. Infeksjon med lumpy skin disease A+D+E Bison ssp., Bos ssp., Bubalus ssp. Blodsugende leddyr Infeksjon med Mycoplasma mycoides subsp. mycoides SC (ondartet lungesyke hos storfe) A+D+E Bison ssp., Bos ssp., Bubalus ssp., Syncerus cafer Infeksiøs bovin rhinotrakeitt/infeksiøs pustuløs vulvovaginitt C+D+E Bison ssp., Bos ssp., Bubalus ssp. D+E Camelidae, Cervidae Bovin virusdiaré C+D+E Bison ssp., Bos ssp., Bubalus ssp. Bovin genital campylobakteriose D+E Bison ssp., Bos ssp., Bubalus ssp. Trichomoniasis D+E Bison ssp., Bos ssp., Bubalus ssp. Enzootisk bovin leukose C+D+E Bison ssp., Bos ssp., Bubalus ssp. Saue- og geitekopper A+D+E Ovis ssp., Capra ssp. Infeksjon med småfepestvirus A+D+E Ovis ssp., Capra ssp., Camelidae, Cervidae Ondartet lungesyke hos geit A+D+E Ovis ssp., Capra ssp., Gazella ssp. Epididymitt hos sau ( Brucella ovis ) D+E Ovis ssp., Capra ssp. Afrikansk hestepest A+D+E Equidae Culicoides spp. Infeksjon med Burkholderia mallei (snive) A+D+E Equidae, Capra ssp., Camelidae Infeksjon med arterittvirus hos hest D+E Equidae Infeksiøs anemi hos hest D+E Equidae Tabanidae Ondartet beskjelersyke D+E Equidae Venezuelansk encefalomyelitt hos hest D+E Equidae Culicidae Smittsom metritt hos hoppe D+E Equidae Encefalomyelitt hos hest (østlig og vestlig) E Equidae Culicidae Klassisk svinepest A+D+E Suidae, Tayassuidae Afrikansk svinepest A+D+E Suidae Ornithodoros Infeksjon med pseudorabiesvirus C+D+E Suidae Infeksjon med reproduksjons- og respirasjonssyndromvirus hos svin D+E Suidae Høypatogen aviær influensa A+D+E Aves Infeksjon med Newcastle disease-virus A+D+E Aves Aviær mykoplasmainfeksjon ( Mycoplasma gallisepticum og M. meleagridis ) D+E Gallus gallus, Meleagris gallopavo Infeksjon med Salmonella Pullorum, S. Gallinarum, S. arizonae D+E Gallus gallus, Meleagris gallopavo, Numida meleagris, Coturnix coturnix, Phasianus colchicus, Perdix perdix, Anas spp. Infeksjon med lavpatogen aviær influensa-virus D+E Aves Aviær klamydia D+E Psittaciformes Infestasjon med Varroa spp. (varroatose) C+D+E Apis Infestasjon med Aethina tumida (liten kubebille) D+E Apis, Bombus ssp. Lukket yngelråte D+E Apis Infestasjon med Tropilaelaps spp. D+E Apis Infeksjon med Batrachochytrium salamandrivorans D+E Caudata ► M2 «Epizootisk hematopoietisk nekrose A+D+E Ameiurus melas , Bidyanus bidyanus, Esox lucius , Galaxias olidus , Gambusia affinis , Gambusia holbrooki , Macquaria australasica , Melanotaenia fluviatilis , Oncorhynchus mykiss, Perca fluviatilis , Sander lucioperca Hemoragisk virusseptikemi C+D+E Alosa immaculata, Ameiurus nebulosus, Ambloplites rupestris, Ammodytes hexapterus, Aplodinotus grunniens, Centrolabrus exoletus, Clupea harengus, Clupea pallasii pallasii, Coregonus artedii, Coregonus clupeaformis, Coregonus lavaretus, Ctenolabrus rupestris, Cyclopterus lumpus, Cymatogaster aggregata, Dorosoma cepedianum, Danio rerio, Engraulis encrasicolus, Esox lucius, Esox masquinongy, Fundulus heteroclitus, Gadus macrocephalus, Gadus morhua, Gaidropsarus vulgaris, Gasterosteus aculeatus, Labrus bergylta, Labrus mixtus, Lampetra fluviatilis, Lepomis gibbosus, Lepomis macrochirus, Limanda limanda, Merlangius merlangus, Micropterus dolomieu, Micropterus salmoides, Micromesistius poutassou, Morone americana, Morone chrysops, Morone saxatilis, Mullus barbatus, Neogobius melanostomus, Notropis atherinoides, Notropis hudsonius, Oncorhynchus kisutch, Oncorhynchus mykiss, Oncorhynchus mykiss x Oncorhynchus kisutch -hybrider , Oncorhynchus tshawytscha, Paralichthys olivaceus, Perca flavescens, Pimephales notatus, Pimephales promelas, Platichthys flesus, Pleuronectes platessa, Pomatoschistus minutus, Pomoxis nigromaculatus, Raja clavata, Salmo marmoratus, Salmo salar, Salmo trutta, Salvelinus namaycush, Sander vitreus, Sardina pilchardus, Sardinops sagax, Scomber japonicus, Scophthalmus maximus, Solea senegalensis, Sprattus sprattus, Symphodus melops, Thaleichthys pacificus, Trachurus mediterraneus, Trisopterus esmarkii, Thymallus thymallus, Uranoscopus scaber Infeksiøs hematopoietisk nekrose C+D+E Esox lucius , Oncorhynchus clarkii , Oncorhynchus keta , Oncorhynchus kisutch , Oncorhynchus masou , Oncorhynchus mykiss, Oncorhynchus nerka, Oncorhynchus tshawytscha , Salmo marmoratus , Salvelinus namaycush , Salmo salar , Salmo trutta , Salvelinus alpinus , Salvelinus fontinalis Infeksjon med HPR-deletert infeksiøs lakseanemi-virus C+D+E Oncorhynchus mykiss, Salmo salar , Salmo trutta Koiherpesvirussykdom E Alle varianter og underarter av Cyprinus carpio og hybrider av Cyprinus carpio , f.eks. Cyprinus carpio × Carassius auratus, Cyprinus carpio × Carassius carassius Carassius auratus, Carassius gibelio, Ctenopharyngodon idella, Gymnocephalus cernua, Hypophthalmichthys molitrix, Rutilus rutilus, Tinca tinca Infeksjon med Microcytos mackini A+D+E Crassostrea gigas , Crassostrea sikamea, Ostrea edulis Crassostrea virginica Infeksjon med Perkinsus marinus A+D+E Crassostrea gigas , Crassostrea virginica Infeksjon med Bonamia exitiosa C+D+E Crassostrea ariakensis, Crassostrea virginica, Ostrea puelchana , Ostrea angasi, Ostrea chilensis, Ostrea equestris, Ostrea edulis, Ostrea lurida Infeksjon med Bonamia ostreae C+D+E Crassostrea ariakensis, Ostrea chilensis, Ostrea edulis Infeksjon med Marteilia refringens C+D+E Chamelea gallina, Ostrea edulis , Ostrea stentina, Solen marginatus, Xenostrobus securis Infeksjon med Taura-syndromvirus A+D+E Metapenaeus ensis , Penaeus aztecus , Penaeus monodon , Penaeus setiferus , Penaeus stylirostris, Penaeus vannamei Episesarma mederi, Macrobrachium lanchesteri » Infeksjon med Yellowhead disease-virus A+D+E Metapenaeus affinis , Penaeus monodon , Palaemonetes pugio , Penaeus stylirostris, Penaeus vannamei Infeksjon med hvitflekksyndromvirus C+D+E Alle krepsdyr av ordenen Decapoda ◄ M2</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

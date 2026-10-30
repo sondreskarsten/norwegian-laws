@@ -19,71 +19,202 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-05-30-488.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om miljømessig sikkerhet for skip mv." href="../feeds/forskrift-2012-05-30-488.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om miljømessig sikkerhet for skip mv.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-05-30-488</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2012-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-08-13-1689</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-05-30-488" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-tegninger-opplysninger-mv">§ 2. Tegninger, opplysninger mv.</a></li>
+<li class="lvl3"><a href="#3-dokumentasjon-om-den-forurensende-lasten">§ 3. Dokumentasjon om den forurensende lasten</a></li>
+<li class="lvl3"><a href="#4-hindring-av-oljeforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-i">§ 4. Hindring av oljeforurensing fra skip og flyttbare innretninger – MARPOL vedlegg I</a></li>
+<li class="lvl3"><a href="#5-framskyndet-innfring-av-krav-til-dobbeltskrog">§ 5. Framskyndet innføring av krav til dobbeltskrog</a></li>
+<li class="lvl3"><a href="#6-utstyr-for-oppsamling-av-oljeholdig-lensevann-pa-skip-med-bruttotonnasje-under-400">§ 6. Utstyr for oppsamling av oljeholdig lensevann på skip med bruttotonnasje under 400</a></li>
+<li class="lvl3"><a href="#7-hindring-av-forurensing-fra-skadelige-flytende-stoffer-i-bulk-marpol-vedlegg-ii-mv">§ 7. Hindring av forurensing fra skadelige flytende stoffer i bulk – MARPOL vedlegg II mv.</a></li>
+<li class="lvl3"><a href="#8-hindring-av-forurensing-fra-skadelige-forurensende-stoffer-i-pakket-form-marpol-vedlegg-iii">§ 8. Hindring av forurensing fra skadelige forurensende stoffer i pakket form – MARPOL vedlegg III</a></li>
+<li class="lvl3"><a href="#9-hindring-av-kloakkforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-iv">§ 9. Hindring av kloakkforurensing fra skip og flyttbare innretninger – MARPOL vedlegg IV</a></li>
+<li class="lvl3"><a href="#10-forbud-mot-utslipp-av-kloakk-vaskevann-og-lignende-i-norsk-farvann">§ 10. Forbud mot utslipp av kloakk, vaskevann og lignende i norsk farvann</a></li>
+<li class="lvl3"><a href="#10a-srlige-regler-om-utslipp-av-kloakk-og-gravann-i-verdensarvfjordene">§ 10a. Særlige regler om utslipp av kloakk og gråvann i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#10b-srlige-regler-om-utslipp-av-karbondioksid-co2-og-metan-ch4-fra-passasjerskip-i-verdensarvfjordene">§ 10b. Særlige regler om utslipp av karbondioksid (CO2) og metan (CH4) fra passasjerskip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#10c-dispensasjon-for-passasjerskip-med-bruttotonnasje-under-10-000-i-verdensarvfjordene">§ 10c. Dispensasjon for passasjerskip med bruttotonnasje under 10 000 i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#11-hindring-av-sppelforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-v">§ 11. Hindring av søppelforurensing fra skip og flyttbare innretninger – MARPOL vedlegg V</a></li>
+<li class="lvl3"><a href="#12-hindring-av-luftforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-vi">§ 12. Hindring av luftforurensing fra skip og flyttbare innretninger – MARPOL vedlegg VI</a></li>
+<li class="lvl3"><a href="#12a-overvaking-rapportering-og-verifikasjon-av-klimagassutslipp-fra-skip">§ 12a. Overvåking, rapportering og verifikasjon av klimagassutslipp fra skip</a></li>
+<li class="lvl3"><a href="#13-svovelinnhold-i-drivstoff-som-brukes-ved-kai-eller-for-anker">§ 13. Svovelinnhold i drivstoff som brukes ved kai eller for anker</a></li>
+<li class="lvl3"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl3"><a href="#14a-forsk-med-nye-utslippsreduserende-metoder">§ 14a. Forsøk med nye utslippsreduserende metoder</a></li>
+<li class="lvl3"><a href="#14b-srlige-regler-om-utslipp-av-svoveloksider-sox-fra-skip-i-verdensarvfjordene">§ 14b. Særlige regler om utslipp av svoveloksider (SOx) fra skip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14c-srlige-regler-om-utslipp-av-nitrogenoksider-nox-fra-skip-i-verdensarvfjordene">§ 14c. Særlige regler om utslipp av nitrogenoksider (NOx) fra skip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14d-miljinstruks-for-skip-med-bruttotonnasje-10-000-eller-mer-som-seiler-i-verdensarvfjordene">§ 14d. Miljøinstruks for skip med bruttotonnasje 10 000 eller mer som seiler i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14e-srlige-regler-om-forbrenning-av-avfall-om-bord-i-verdensarvfjordene">§ 14e. Særlige regler om forbrenning av avfall om bord i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14f-srlige-regler-om-skip-vernet-eller-fredet-av-riksantikvaren-i-verdensarvfjordene">§ 14f. Særlige regler om skip vernet eller fredet av Riksantikvaren i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#15-prvetaking-av-marin-gassolje-solgt-i-norge-til-bruk-i-innenriks-fart">§ 15. Prøvetaking av marin gassolje solgt i Norge til bruk i innenriks fart</a></li>
+<li class="lvl3"><a href="#16-opphevet">§ 16. Opphevet</a></li>
+<li class="lvl3"><a href="#17-forbud-mot-bruk-av-organiske-tinnforbindelser-pa-skip-og-flyttbare-innretninger">§ 17. Forbud mot bruk av organiske tinnforbindelser på skip og flyttbare innretninger</a></li>
+<li class="lvl3"><a href="#18-internasjonale-sertifikater">§ 18. Internasjonale sertifikater</a></li>
+<li class="lvl3"><a href="#19-polarkoden-del-ii-a">§ 19. Polarkoden del II-A</a></li>
+<li class="lvl3"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#21-endringer-i-andre-forskrifter">§ 21. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-material-safety-data-sheets-msds-to-be-supplied-to-a-ship-prior-to-the-loading-of-marpol-annex-i-type-oil-as-cargo-in-bulk">Vedlegg 1. Material safety data sheets (MSDS) to be supplied to a ship prior to the loading of MARPOL Annex I type oil as cargo in bulk</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-4172002">Konsolidert forordning (EF) nr. 417/2002</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-7822003">Konsolidert forordning (EF) nr. 782/2003</a></li>
+<li class="lvl2"><a href="#polarkoden-del-ii">Polarkoden del II</a></li>
+<li class="lvl2"><a href="#marpol">MARPOL</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-i">MARPOL vedlegg I</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-ii">MARPOL vedlegg II</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-iii">MARPOL vedlegg III</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-iv">MARPOL vedlegg IV</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-v">MARPOL vedlegg V</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-vi">MARPOL vedlegg VI</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-08-13-1689.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-05-30-488.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om miljømessig sikkerhet for skip og flyttbare innretninger</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-05-30-488.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-05-30-488 <code>forskrift/2012-05-30-488</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om miljømessig sikkerhet for skip mv.</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2012</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-08-13-1689 <code>forskrift/2026-08-13-1689</code> fra 01.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-05-30-488" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-tegninger-opplysninger-mv">§ 2. Tegninger, opplysninger mv.</a></li>
+<li class="lvl3"><a href="#3-dokumentasjon-om-den-forurensende-lasten">§ 3. Dokumentasjon om den forurensende lasten</a></li>
+<li class="lvl3"><a href="#4-hindring-av-oljeforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-i">§ 4. Hindring av oljeforurensing fra skip og flyttbare innretninger – MARPOL vedlegg I</a></li>
+<li class="lvl3"><a href="#5-framskyndet-innfring-av-krav-til-dobbeltskrog">§ 5. Framskyndet innføring av krav til dobbeltskrog</a></li>
+<li class="lvl3"><a href="#6-utstyr-for-oppsamling-av-oljeholdig-lensevann-pa-skip-med-bruttotonnasje-under-400">§ 6. Utstyr for oppsamling av oljeholdig lensevann på skip med bruttotonnasje under 400</a></li>
+<li class="lvl3"><a href="#7-hindring-av-forurensing-fra-skadelige-flytende-stoffer-i-bulk-marpol-vedlegg-ii-mv">§ 7. Hindring av forurensing fra skadelige flytende stoffer i bulk – MARPOL vedlegg II mv.</a></li>
+<li class="lvl3"><a href="#8-hindring-av-forurensing-fra-skadelige-forurensende-stoffer-i-pakket-form-marpol-vedlegg-iii">§ 8. Hindring av forurensing fra skadelige forurensende stoffer i pakket form – MARPOL vedlegg III</a></li>
+<li class="lvl3"><a href="#9-hindring-av-kloakkforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-iv">§ 9. Hindring av kloakkforurensing fra skip og flyttbare innretninger – MARPOL vedlegg IV</a></li>
+<li class="lvl3"><a href="#10-forbud-mot-utslipp-av-kloakk-vaskevann-og-lignende-i-norsk-farvann">§ 10. Forbud mot utslipp av kloakk, vaskevann og lignende i norsk farvann</a></li>
+<li class="lvl3"><a href="#10a-srlige-regler-om-utslipp-av-kloakk-og-gravann-i-verdensarvfjordene">§ 10a. Særlige regler om utslipp av kloakk og gråvann i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#10b-srlige-regler-om-utslipp-av-karbondioksid-co2-og-metan-ch4-fra-passasjerskip-i-verdensarvfjordene">§ 10b. Særlige regler om utslipp av karbondioksid (CO2) og metan (CH4) fra passasjerskip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#10c-dispensasjon-for-passasjerskip-med-bruttotonnasje-under-10-000-i-verdensarvfjordene">§ 10c. Dispensasjon for passasjerskip med bruttotonnasje under 10 000 i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#11-hindring-av-sppelforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-v">§ 11. Hindring av søppelforurensing fra skip og flyttbare innretninger – MARPOL vedlegg V</a></li>
+<li class="lvl3"><a href="#12-hindring-av-luftforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-vi">§ 12. Hindring av luftforurensing fra skip og flyttbare innretninger – MARPOL vedlegg VI</a></li>
+<li class="lvl3"><a href="#12a-overvaking-rapportering-og-verifikasjon-av-klimagassutslipp-fra-skip">§ 12a. Overvåking, rapportering og verifikasjon av klimagassutslipp fra skip</a></li>
+<li class="lvl3"><a href="#13-svovelinnhold-i-drivstoff-som-brukes-ved-kai-eller-for-anker">§ 13. Svovelinnhold i drivstoff som brukes ved kai eller for anker</a></li>
+<li class="lvl3"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl3"><a href="#14a-forsk-med-nye-utslippsreduserende-metoder">§ 14a. Forsøk med nye utslippsreduserende metoder</a></li>
+<li class="lvl3"><a href="#14b-srlige-regler-om-utslipp-av-svoveloksider-sox-fra-skip-i-verdensarvfjordene">§ 14b. Særlige regler om utslipp av svoveloksider (SOx) fra skip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14c-srlige-regler-om-utslipp-av-nitrogenoksider-nox-fra-skip-i-verdensarvfjordene">§ 14c. Særlige regler om utslipp av nitrogenoksider (NOx) fra skip i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14d-miljinstruks-for-skip-med-bruttotonnasje-10-000-eller-mer-som-seiler-i-verdensarvfjordene">§ 14d. Miljøinstruks for skip med bruttotonnasje 10 000 eller mer som seiler i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14e-srlige-regler-om-forbrenning-av-avfall-om-bord-i-verdensarvfjordene">§ 14e. Særlige regler om forbrenning av avfall om bord i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#14f-srlige-regler-om-skip-vernet-eller-fredet-av-riksantikvaren-i-verdensarvfjordene">§ 14f. Særlige regler om skip vernet eller fredet av Riksantikvaren i verdensarvfjordene</a></li>
+<li class="lvl3"><a href="#15-prvetaking-av-marin-gassolje-solgt-i-norge-til-bruk-i-innenriks-fart">§ 15. Prøvetaking av marin gassolje solgt i Norge til bruk i innenriks fart</a></li>
+<li class="lvl3"><a href="#16-opphevet">§ 16. Opphevet</a></li>
+<li class="lvl3"><a href="#17-forbud-mot-bruk-av-organiske-tinnforbindelser-pa-skip-og-flyttbare-innretninger">§ 17. Forbud mot bruk av organiske tinnforbindelser på skip og flyttbare innretninger</a></li>
+<li class="lvl3"><a href="#18-internasjonale-sertifikater">§ 18. Internasjonale sertifikater</a></li>
+<li class="lvl3"><a href="#19-polarkoden-del-ii-a">§ 19. Polarkoden del II-A</a></li>
+<li class="lvl3"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#21-endringer-i-andre-forskrifter">§ 21. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-material-safety-data-sheets-msds-to-be-supplied-to-a-ship-prior-to-the-loading-of-marpol-annex-i-type-oil-as-cargo-in-bulk">Vedlegg 1. Material safety data sheets (MSDS) to be supplied to a ship prior to the loading of MARPOL Annex I type oil as cargo in bulk</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-4172002">Konsolidert forordning (EF) nr. 417/2002</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-7822003">Konsolidert forordning (EF) nr. 782/2003</a></li>
+<li class="lvl2"><a href="#polarkoden-del-ii">Polarkoden del II</a></li>
+<li class="lvl2"><a href="#marpol">MARPOL</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-i">MARPOL vedlegg I</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-ii">MARPOL vedlegg II</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-iii">MARPOL vedlegg III</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-iv">MARPOL vedlegg IV</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-v">MARPOL vedlegg V</a></li>
+<li class="lvl3"><a href="#marpol-vedlegg-vi">MARPOL vedlegg VI</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-05-30-488.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-05-30-488.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-05-30-488.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-05-30-488.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-05-30-488.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-05-30-488.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-05-30-488.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-05-30-488.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-05-30-488.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-miljmessig-sikkerhet-for-skip-og-flyttbare-innretninger">Forskrift om miljømessig sikkerhet for skip og flyttbare innretninger</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Forskriften gjelder for norske skip, herunder fritidsfartøy og for flyttbare innretninger. Med de begrensninger som følger av folkeretten, gjelder forskriften utenlandske skip og flyttbare innretninger som befinner seg</p>
 <p>a. i Norges territorialfarvann, herunder ved Svalbard og Jan Mayen
 b. i Norges økonomiske sone
 c. på Norges kontinentalsokkel.</p>
 <p>For utenlandske skip som frivillig befinner seg i norsk havn, ved installasjon på norsk kontinentalsokkel eller ved installasjon i norsk økonomisk sone, gjelder § 4 og § 7 for utslipp på det åpne hav.</p>
-<p><em>Endret ved forskrift 19 april 2013 nr. 424 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 19 april 2013 nr. 424 (i kraft 1 juli 2013).</p>
 <h3 id="2-tegninger-opplysninger-mv">§ 2. Tegninger, opplysninger mv.</h3>
 <p>Krav til anlegg, utstyr, innretninger mv. skal dokumenteres oppfylt ved tegninger. Tegningene skal være så detaljerte og tydelige at vurderingen av om kravene er oppfylt kan gjøres på bakgrunn av tegningene med eventuelle tilleggsopplysninger. Sjøfartsdirektoratet kan be om ytterligere opplysninger, herunder i hvilken form opplysningene skal legges fram.</p>
 <h3 id="3-dokumentasjon-om-den-forurensende-lasten">§ 3. Dokumentasjon om den forurensende lasten</h3>
@@ -97,14 +228,14 @@ d. transportenhetens identifikasjonsnummer når den forurensende lasten transpor
 e. nødnumrene til avskiperen eller en annen person eller instans som har kunnskap om den forurensende lastens fysisk-kjemiske egenskaper og om nødvendige tiltak i tilfelle en nødssituasjon.</p>
 <p>Dokumentasjonen skal være tilgjengelig om bord på skipet.</p>
 <p>For last som omfattes av § 4 skal informasjonen omfatte opplysninger som framgår av vedlegg 1.</p>
-<p><em>Endret ved forskrift 31 juli 2013 nr. 938 (i kraft 1 aug 2013).</em></p>
+<p class="note">Endret ved forskrift 31 juli 2013 nr. 938 (i kraft 1 aug 2013).</p>
 <h3 id="4-hindring-av-oljeforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-i">§ 4. Hindring av oljeforurensing fra skip og flyttbare innretninger – MARPOL vedlegg I</h3>
 <p>Den internasjonale konvensjonen om hindring av forurensning fra skip (MARPOL) konsolidert utgave 2022 vedlegg I om hindring av oljeforurensning, unntatt regel I/42, som endret ved MEPC.343(78), MEPC.359(79) og MEPC.381(80) gjelder som forskrift.</p>
 <p>Med «skip» menes i MARPOL også flyttbare innretninger.</p>
-<p><em>Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 19 des 2024 nr. 3397 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 19 des 2024 nr. 3397 (i kraft 1 jan 2025).</p>
 <h3 id="5-framskyndet-innfring-av-krav-til-dobbeltskrog">§ 5. Framskyndet innføring av krav til dobbeltskrog</h3>
 <p>EØS-avtalen vedlegg XIII nr. 56m (forordning (EU) nr. 530/2012 ) om framskyndet innføring av krav til dobbeltskrogdesign eller tilsvarende for oljetankskip gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 30 juni 2014 nr. 940 .</em></p>
+<p class="note">Endret ved forskrift 30 juni 2014 nr. 940 .</p>
 <h3 id="6-utstyr-for-oppsamling-av-oljeholdig-lensevann-pa-skip-med-bruttotonnasje-under-400">§ 6. Utstyr for oppsamling av oljeholdig lensevann på skip med bruttotonnasje under 400</h3>
 <p>Skip med største lengde 15 meter eller mer og bruttotonnasje under 400 skal ha utstyr for oppsamling av oljeholdig lensevann og røropplegg for levering av lensevann til mottaksanlegg.</p>
 <p>På skip med bruttotonnasje mellom 200 og 400 skal oppsamlingstanken plasseres under dekk. På skip med bruttotonnasje under 200 kan oppsamlingstanken plasseres på dekk. Skip med bruttotonnasje under 100 kan alternativt benytte forsvarlig festet oppsamlingsfat.</p>
@@ -128,10 +259,10 @@ c. lastetankene er utstyrt med kontrollert ventilasjon og lukket nivåmålingssy
 <p>Sjøfartsdirektoratet kan unnta et skip i innenriksfart fra ett eller flere av kravene i første ledd dersom rederiet søker skriftlig om unntak og et av følgende krav er oppfylt</p>
 <p>a. det godtgjøres at kravet ikke er vesentlig og at det anses sikkerhetsmessig forsvarlig
 b. det godtgjøres at kompenserende tiltak vil opprettholde samme sikkerhetsnivå som kravet i forskriften.</p>
-<p><em>Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 17 des 2020 nr. 2985 (i kraft 1 jan 2021), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 21 juni 2024 nr. 1307 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 17 des 2020 nr. 2985 (i kraft 1 jan 2021), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 21 juni 2024 nr. 1307 (i kraft 1 juli 2024).</p>
 <h3 id="8-hindring-av-forurensing-fra-skadelige-forurensende-stoffer-i-pakket-form-marpol-vedlegg-iii">§ 8. Hindring av forurensing fra skadelige forurensende stoffer i pakket form – MARPOL vedlegg III</h3>
 <p>MARPOL konsolidert utgave 2022 vedlegg III om hindring av forurensning fra skadelige forurensende stoffer i pakket form gjelder som forskrift.</p>
-<p><em>Endret ved forskrifter 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 20 okt 2023 nr. 1680 (i kraft 1 nov 2023).</em></p>
+<p class="note">Endret ved forskrifter 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 20 okt 2023 nr. 1680 (i kraft 1 nov 2023).</p>
 <h3 id="9-hindring-av-kloakkforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-iv">§ 9. Hindring av kloakkforurensing fra skip og flyttbare innretninger – MARPOL vedlegg IV</h3>
 <p>MARPOL konsolidert utgave 2022 vedlegg IV om hindring av kloakkforurensning som endret ved MEPC.359(79) gjelder som forskrift for skip med bruttotonnasje 400 eller mer eller som er sertifisert for mer enn 15 personer, på strekningen sør for Lindesnes (N 57° 58′ 8″ Ø 7° 3′ 4″) til delelinjen Norge-Danmark (N 57° 10′ 3″ Ø 7° 3′ 4″) og i farvannet derfra til svenskegrensen. Med «skip» menes her også flyttbare innretninger.</p>
 <p>I tillegg til MARPOL vedlegg IV regel 9 om kloakkanlegg, gjelder for oppmalings- og desinfiseringsanlegg følgende krav</p>
@@ -140,7 +271,7 @@ b. anlegget skal ha kapasitet til midlertidig kloakkoppbevaring, og kapasiteten 
 c. oppsamlingstanken i anlegget skal ha visuell indikering av mengde og tilfredsstille konstruksjonskrav fra anerkjent klasseselskap eller forskrift om bygging av passasjer-, lasteskip og lektere, og
 d. egnet desinfeksjonsmiddel eller saneringsvæske skal tilføres anlegget samtidig med kloakken.</p>
 <p>Oppsamlingstank som nevnt i MARPOL vedlegg IV regel 9 (1) nr. 3 og regel 9 (2) nr. 2 skal ha tilstrekkelig kapasitet for oppsamling av all kloakk. Kapasiteten skal beregnes etter annet ledd bokstav b og oppsamlingstanken skal være konstruert for å oppfylle kravene i annet ledd bokstav c.</p>
-<p><em>Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 1 mars 2019 nr. 170 , 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 1 mars 2019 nr. 170 , 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024).</p>
 <h3 id="10-forbud-mot-utslipp-av-kloakk-vaskevann-og-lignende-i-norsk-farvann">§ 10. Forbud mot utslipp av kloakk, vaskevann og lignende i norsk farvann</h3>
 <p>Det er forbudt å slippe ut kloakk, vaskevann og lignende i vassdrag.</p>
 <p>Det er forbudt å slippe ut kloakk i norsk sjøområde nærmere enn 300 meter fra fastland og øyer. Utslipp fra kloakkrenseanlegg som oppfyller kravene i MARPOL regel IV/9.1.1, omfattes ikke av forbudet i første punktum.</p>
@@ -151,7 +282,7 @@ b. avløp fra vask, badekar og spygatt i lokaler som benyttes til medisinske for
 c. avløp fra rom som benyttes av levende dyr,
 d. annet avfallsvann når dette er blandet med avløp nevnt i bokstav a til c.</p>
 <p>Sjøfartsdirektoratet kan for skip som ikke er omfattet av MARPOL regel IV/2 jf. § 9 , i særlige tilfeller gjøre unntak fra første og annet ledd. Ved avgjørelsen av om det skal gjøres unntak skal det særlig legges vekt på om skipet er fredet eller har fått status som vernet av Riksantikvaren eller den Riksantikvaren bemyndiger, og om gjennomføring av kravene kommer i konflikt med skipets verneverdi.</p>
-<p><em>Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 1 mars 2019 nr. 170 , 31 mai 2024 nr. 886 (i kraft 1 juli 2024), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 1 mars 2019 nr. 170 , 31 mai 2024 nr. 886 (i kraft 1 juli 2024), 26 juni 2025 nr. 1372 .</p>
 <h3 id="10a-srlige-regler-om-utslipp-av-kloakk-og-gravann-i-verdensarvfjordene">§ 10a. Særlige regler om utslipp av kloakk og gråvann i verdensarvfjordene</h3>
 <p>For skip med bruttotonnasje 400 eller mer eller som er sertifisert for mer enn 15 personer, er det ikke tillatt å slippe ut kloakk i verdensarvfjordene.</p>
 <p>For skip med bruttotonnasje 2500 eller mer og som er sertifisert for mer enn 100 personer, er det ikke tillatt å slippe ut gråvann i verdensarvfjordene. Med gråvann menes her vaskevann fra oppvask, håndvasker og andre vasker, dusjer, vaskeri og badekar og lignende.</p>
@@ -159,7 +290,7 @@ d. annet avfallsvann når dette er blandet med avløp nevnt i bokstav a til c.</
 <p>a. Geirangerfjord-området: Geirangerfjorden/Sunnylvsfjorden sør for linjen mellom N 62° 13′ 42″ Ø 7° 2′ 30″ og N 62° 13′ 48″ Ø 7° 0′ 30″ unntatt Hellesylt vest for linjen mellom N 62° 5′ 42″ Ø 6° 54′ 18″ og N 62° 6′ 30″ Ø 6° 54′ 42″ og med tillegg av Tafjorden øst for linjen mellom N 62° 17′ 12″ Ø 7° 19′ 48″ og N 62° 17′ 36″ Ø 7° 20′ 12″.
 b. Nærøyfjord-området: Nærøyfjorden/Aurlandsfjorden sør for linjen mellom N 61° 3′ 36″ Ø 7° 2′ 54″ og N 61° 3′ 24″ Ø 7° 0′ 54″.</p>
 <p>Sjøfartsdirektoratet kan etter skriftlig søknad fram til 2024 gi tidsavgrenset tillatelse til utslipp av kloakk i verdensarvfjordene til skip som betjener ruter på anbud, og til skip som driver etablert fjordcruise der.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 .</p>
 <h3 id="10b-srlige-regler-om-utslipp-av-karbondioksid-co2-og-metan-ch4-fra-passasjerskip-i-verdensarvfjordene">§ 10b. Særlige regler om utslipp av karbondioksid (CO2) og metan (CH4) fra passasjerskip i verdensarvfjordene</h3>
 <p>Fra 1. januar 2026 skal passasjerskip i verdensarvfjordene med bruttotonnasje under 10 000 bruke energikilder som ikke gir direkte utslipp av karbondioksid (CO 2 ) eller metan (CH 4 ).</p>
 <p>Fra 1. januar 2032 skal passasjerskip i verdensarvfjordene med bruttotonnasje 10 000 eller mer bruke energikilder som ikke gir direkte utslipp av karbondioksid (CO 2 ) eller metan (CH 4 ).</p>
@@ -171,7 +302,7 @@ b. Nærøyfjord-området: Nærøyfjorden/Aurlandsfjorden sør for linjen mellom 
 <p>Skipet skal ha dokumentasjon om bord som viser at kravene er oppfylt. Oppfyllelse av bærekraftegenskaper og klimagassreduksjoner for drivstoff skal dokumenteres gjennom sertifisering og dokumentasjon som beskrevet i forordning (EU) 2023/1805 artikkel 10(3).</p>
 <p>Passasjerskip som settes inn i rutetrafikk med offentlig oppdragsgiver som følge av planlagt veiarbeid eller akutte beredskapssituasjoner, er unntatt fra denne bestemmelsen.</p>
 <p>Fylkeskommunale hurtigbåter som opererer på offentlig kontrakt, er unntatt fra denne bestemmelsen.</p>
-<p><em>Tilføyd ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</p>
 <h3 id="10c-dispensasjon-for-passasjerskip-med-bruttotonnasje-under-10-000-i-verdensarvfjordene">§ 10c. Dispensasjon for passasjerskip med bruttotonnasje under 10 000 i verdensarvfjordene</h3>
 <p>Sjøfartsdirektoratet kan etter skriftlig søknad fra rederiet gi dispensasjon fra § 10b første ledd for passasjerskip med bruttotonnasje under 10 000 når følgende vilkår er oppfylt:</p>
 <p>a. Passasjerskipet har operert i verdensarvfjordene i 2024 og hvert år fram til søknadstidspunktet.
@@ -179,27 +310,27 @@ b. Passasjerskipet oppfyller de øvrige særkravene for operasjon i verdensarvfj
 c. Rederiet kan dokumentere at nullutslippskravene i § 10b ikke kan oppfylles som følge av manglende innvilgelse av tilgang til landstrøm.
 d. Rederiet kan dokumentere en plan for tilgang til landstrøm.</p>
 <p>Dispensasjonsadgangen gjelder for det enkelte skip, og kan bare innvilges for inntil to år om gangen, likevel ikke lenger enn til 31. desember 2029.</p>
-<p><em>Tilføyd ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</p>
 <h3 id="11-hindring-av-sppelforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-v">§ 11. Hindring av søppelforurensing fra skip og flyttbare innretninger – MARPOL vedlegg V</h3>
 <p>MARPOL konsolidert utgave 2022 vedlegg V om hindring av søppelforurensning som endret ved MEPC.360(79) og MEPC.382(80) gjelder som forskrift. Med «skip» menes i MARPOL også flyttbare innretninger.</p>
 <p>Skip i Antarktisområdet sør for 60° S skal ha tilstrekkelig kapasitet til å kunne oppbevare søppel som produseres om bord mens skipet er i området, og ha innretninger for overføring av søppel til mottaksanlegg.</p>
 <p>Kravet om avfallsdagbok i MARPOL regel V/10.3 gjelder ikke når den flyttbare innretningen er i petroleumsvirksomhet på norsk kontinentalsokkel og innretningen har et system for å loggføre avfallshåndteringen om bord.</p>
-<p><em>Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 19 des 2024 nr. 3397 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 19 des 2024 nr. 3397 (i kraft 1 jan 2025).</p>
 <h3 id="12-hindring-av-luftforurensing-fra-skip-og-flyttbare-innretninger-marpol-vedlegg-vi">§ 12. Hindring av luftforurensing fra skip og flyttbare innretninger – MARPOL vedlegg VI</h3>
 <p>MARPOL konsolidert utgave 2022 vedlegg VI om hindring av luftforurensning samt NOx Technical Code som endret ved MEPC.177(58), MEPC.217(63), MEPC.251(66), MEPC.272(69), MEPC.317(74) MEPC.361(79), MEPC.362(79), MEPC.385(81), MEPC.392(82) og MEPC.398(83) gjelder som forskrift. Med «skip» menes i MARPOL også flyttbare innretninger.</p>
 <p>Skip i innenriksfart med bruttotonnasje 400 eller mer skal ha om bord en energieffektivtetsplan i henhold til retningslinjene for utvikling av Ship Energy Efficiency Management Plan (SEEMP) del I jf. MEPC.346(78).</p>
-<p><em>Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 5 juni 2015 nr. 616 (i kraft 1 juli 2015), 31 aug 2015 nr. 1038 (i kraft 1 sep 2015), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 5 juni 2018 nr. 842 , 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 4 mars 2022 nr. 351 (i kraft 1 april 2022), 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 14 juli 2025 nr. 1532 (i kraft 1 aug 2025), 26 feb 2026 nr. 307 (i kraft 1 mars 2026), 13 aug 2026 nr. 1689 (i kraft 1 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 5 juni 2015 nr. 616 (i kraft 1 juli 2015), 31 aug 2015 nr. 1038 (i kraft 1 sep 2015), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), 1 sep 2017 nr. 1333 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 5 juni 2018 nr. 842 , 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 4 mars 2022 nr. 351 (i kraft 1 april 2022), 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), 20 okt 2023 nr. 1680 (i kraft 1 nov 2023), 30 april 2024 nr. 764 (i kraft 1 mai 2024), 14 juli 2025 nr. 1532 (i kraft 1 aug 2025), 26 feb 2026 nr. 307 (i kraft 1 mars 2026), 13 aug 2026 nr. 1689 (i kraft 1 sep 2026).</p>
 <h3 id="12a-overvaking-rapportering-og-verifikasjon-av-klimagassutslipp-fra-skip">§ 12a. Overvåking, rapportering og verifikasjon av klimagassutslipp fra skip</h3>
 <p>For lasteskip og passasjerskip med bruttotonnasje 5000 eller mer som fører last eller passasjerer til eller fra havn i EØS-området, gjelder krav til overvåkning, rapportering og verifikasjon av klimagassutslipp i forordning (EU) 2015/757 , jf. forskrift 23. desember 2004 nr. 1851 om kvoteplikt og handel med kvoter for utslipp av klimagasser § 2-1a tilsvarende.</p>
 <p>Fra 1. januar 2025 omfatter bestemmelsen stykkgodsskip med bruttotonnasje 400 eller mer som fører last til eller fra havn i EØS-området, og offshorefartøy med bruttotonnasje 400 eller mer som skifter besetning i en havn i EØS-området.</p>
-<p><em>Tilføyd ved forskrift 1 juni 2017 nr. 691 , endret ved forskrifter 5 juni 2018 nr. 842 , 21 des 2023 nr. 2269 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 1 juni 2017 nr. 691 , endret ved forskrifter 5 juni 2018 nr. 842 , 21 des 2023 nr. 2269 (i kraft 1 jan 2024).</p>
 <h3 id="13-svovelinnhold-i-drivstoff-som-brukes-ved-kai-eller-for-anker">§ 13. Svovelinnhold i drivstoff som brukes ved kai eller for anker</h3>
 <p>Svovelinnholdet skal ikke overstige 0,10 vektprosent i drivstoff som brukes av skip eller flyttbare innretninger som er sikkert fortøyd ved kai eller sikkert for anker i et havneområde.</p>
 <p>Bytte av drivstoff skal skje så raskt som mulig og loggføres i maskindagboken.</p>
 <p>Første og annet ledd gjelder ikke når planlagt opphold ved kai etter publisert rutetabell er mindre enn to timer.</p>
-<p><em>Endret ved forskrift 30 juni 2014 nr. 940 .</em></p>
+<p class="note">Endret ved forskrift 30 juni 2014 nr. 940 .</p>
 <h3 id="14-opphevet">§ 14. (Opphevet)</h3>
-<p><em>Opphevet ved forskrift 29 mai 2020 nr. 1124 .</em></p>
+<p class="note">Opphevet ved forskrift 29 mai 2020 nr. 1124 .</p>
 <h3 id="14a-forsk-med-nye-utslippsreduserende-metoder">§ 14a. Forsøk med nye utslippsreduserende metoder</h3>
 <p>Sjøfartsdirektoratet kan gi tillatelse til forsøk med utslippsreduserende metoder om bord på norske skip og flyttbare innretninger eller utenlandske skip og flyttbare innretninger i norske farvann, for en periode på maksimalt 18 måneder.</p>
 <p>Under forsøkene gis det fritak fra kravene i § 13 og § 14 under forutsetning av at alle de følgende vilkår er oppfylt:</p>
@@ -208,14 +339,14 @@ b. det oppnås utslippsreduksjoner som minst tilsvarer de reduksjonene man ville
 c. det finnes tilfredsstillende systemer for avfallshåndtering for alt avfall som oppstår på grunn av de utslippsreduserende metodene under hele forsøksperioden
 d. det foretas en vurdering av virkningene på havmiljøet, særlig på økosystemet i beskyttede havner, ved anløpssteder og elvemunninger, under hele forsøksperioden
 e. fullstendige rapporter gjøres offentlig innen seks måneder etter at forsøkene er avsluttet.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2014 nr. 940 .</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2014 nr. 940 .</p>
 <h3 id="14b-srlige-regler-om-utslipp-av-svoveloksider-sox-fra-skip-i-verdensarvfjordene">§ 14b. Særlige regler om utslipp av svoveloksider (SOx) fra skip i verdensarvfjordene</h3>
 <p>Skip i verdensarvfjordene skal enten bruke</p>
 <p>a. drivstoff som ikke overstiger 0,10 vektprosent svovelinnhold,
 b. godkjent lukket eksosvaskeanlegg, eller
 c. godkjent hybrid eksosvaskeanlegg i lukket modus.</p>
 <p>Skip som bruker eksosvaskeanlegg for å nå svovelkravet, skal ha i bruk en innretning for å redusere synlig utslipp til luft.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 .</p>
 <h3 id="14c-srlige-regler-om-utslipp-av-nitrogenoksider-nox-fra-skip-i-verdensarvfjordene">§ 14c. Særlige regler om utslipp av nitrogenoksider (NOx) fra skip i verdensarvfjordene</h3>
 <p>Med unntak av skip som nevnt i annet ledd, skal skip med bruttotonnasje 1000 eller mer, uavhengig av kravene som gjaldt ved skipets byggeår, i verdensarvfjordene oppfylle:</p>
 <p>a. Nivå I-kravene, jf. MARPOL regel VI/13, fra 1. januar 2020,
@@ -223,36 +354,36 @@ b. Nivå II-kravene, jf. MARPOL regel VI/13, fra 1. januar 2022,
 c. Nivå III-kravene, jf. MARPOL regel VI/13, fra 1. januar 2025.</p>
 <p>Lasteskip med bruttotonnasje 1000 eller mer som seiler i verdensarvfjordene skal, uavhengig av kravene som gjaldt ved skipets byggeår, oppfylle Nivå III-kravene, jf. MARPOL regel VI/13, fra 1. januar 2030.</p>
 <p>Sjøfartsdirektoratet kan etter skriftlig søknad fra rederiet gi dispensasjon til et skip fra kravene i første ledd bokstav a og b, dersom det kan dokumenteres at skipet vil innfri Nivå III-kravene senest fra første seilas i verdensarvfjordene i 2023.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 , endret ved forskrifter 23 juni 2020 nr. 1353 , 26 nov 2021 nr. 3301 , 1 juni 2022 nr. 950 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 , endret ved forskrifter 23 juni 2020 nr. 1353 , 26 nov 2021 nr. 3301 , 1 juni 2022 nr. 950 .</p>
 <h3 id="14d-miljinstruks-for-skip-med-bruttotonnasje-10-000-eller-mer-som-seiler-i-verdensarvfjordene">§ 14d. Miljøinstruks for skip med bruttotonnasje 10 000 eller mer som seiler i verdensarvfjordene</h3>
 <p>Skip med bruttotonnasje 10 000 eller mer som seiler i verdensarvfjordene, skal ha en miljøinstruks som er spesielt tilpasset skipet og fart i disse områdene. Miljøinstruksen skal sikre at skipet opereres på en mest mulig miljøvennlig måte gjennom tekniske og operasjonelle tiltak og opplæring av mannskapet. Instruksen skal minst omfatte:</p>
 <p>a. operasjonelle og tekniske tiltak for reduksjon av partikkelutslipp og synlig røyk
 b. hastighet som tiltak for reduksjon av utslipp.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 .</p>
 <h3 id="14e-srlige-regler-om-forbrenning-av-avfall-om-bord-i-verdensarvfjordene">§ 14e. Særlige regler om forbrenning av avfall om bord i verdensarvfjordene</h3>
 <p>I verdensarvfjordene er forbrenning av avfall om bord i skip forbudt.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 .</p>
 <h3 id="14f-srlige-regler-om-skip-vernet-eller-fredet-av-riksantikvaren-i-verdensarvfjordene">§ 14f. Særlige regler om skip vernet eller fredet av Riksantikvaren i verdensarvfjordene</h3>
 <p>Sjøfartsdirektoratet kan etter skriftlig søknad gi dispensasjon fra kravene i § 10a , § 10b , § 14b og § 14c til skip som er vernet eller fredet av Riksantikvaren. I vurderingen av om dispensasjon kan innvilges vektlegges det om gjennomføring av kravene kommer i konflikt med skipets verneverdi, om skipet har historisk tilhørighet til verdensarvfjordene, og formålet med den særskilte reguleringen av verdensarvfjordene.</p>
-<p><em>Tilføyd ved forskrift 1 mars 2019 nr. 170 , endret ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 1 mars 2019 nr. 170 , endret ved forskrift 10 april 2025 nr. 671 (i kraft 1 jan 2026).</p>
 <h3 id="15-prvetaking-av-marin-gassolje-solgt-i-norge-til-bruk-i-innenriks-fart">§ 15. Prøvetaking av marin gassolje solgt i Norge til bruk i innenriks fart</h3>
 <p>Prøve som nevnt i MARPOL vedlegg VI regel 18 nr. 8.1 jf. § 12 kreves ikke av marin gassolje som er solgt i Norge til skip som går i innenriks fart.</p>
 <h3 id="16-opphevet">§ 16. Opphevet</h3>
-<p><em>Opphevet ved forskrift 2 juni 2023 nr. 1213 (i kraft 1 okt 2023).</em></p>
+<p class="note">Opphevet ved forskrift 2 juni 2023 nr. 1213 (i kraft 1 okt 2023).</p>
 <h3 id="17-forbud-mot-bruk-av-organiske-tinnforbindelser-pa-skip-og-flyttbare-innretninger">§ 17. Forbud mot bruk av organiske tinnforbindelser på skip og flyttbare innretninger</h3>
 <p>EØS-avtalen vedlegg XIII nr. 56p (forordning (EF) nr. 782/2003 som endret ved forordning (EF) nr. 536/2008 ) om forbud mot organiske tinnforbindelser på skip gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Fra 1. januar 2023 er det ikke tillatt å påføre bunnstoffsystem som inneholder stoffet cybutryn (CAS-nr. 28159-98-0).</p>
 <p>Skip med bunnstoffsystem som inneholder cybutryn skal enten fjerne bunnstoffsystemet eller påføre en barriere som forhindrer utvasking fra underliggende bunnstoffsystem ved første planlagte fornyelse av bunnstoffsystemet etter 1. januar 2023, men ikke senere enn 60 måneder etter at bunnstoffsystemet først ble påført.</p>
 <p>Etter godkjenning av vedkommende kyststat, gjelder ikke kravene etter tredje ledd for skip i utenriksfart med bruttotonnasje under 400.</p>
 <p>Flyttbare innretninger med bunnstoffsystem som inneholder cybutryn skal enten fjerne bunnstoffsystemet eller påføre en barriere som forhindrer utvasking fra underliggende bunnstoffsystem ved første planlagte tørrdokk etter 1. januar 2023.</p>
-<p><em>Endret ved forskrift 13 des 2022 nr. 2194 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 13 des 2022 nr. 2194 (i kraft 1 jan 2023).</p>
 <h3 id="18-internasjonale-sertifikater">§ 18. Internasjonale sertifikater</h3>
 <p>Skip og flyttbare innretninger med fartsområde «stor kystfart», «bankfiske I» eller større skal ha relevante sertifikater angitt i § 4 , § 7 , § 9 og § 12 .</p>
-<p><em>Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h3 id="19-polarkoden-del-ii-a">§ 19. Polarkoden del II-A</h3>
 <p>MEPC.264(68) om et internasjonalt regelverk for skip som opererer i polare farvann (polarkoden) del II-A, og de miljørelaterte bestemmelsene i innledningen, gjelder som forskrift.</p>
 <p>Skip av kategori A bygget før 1. januar 2017 som ikke kan tilfredsstille kravene i polarkoden del II-A nr. 1.1.1 for olje eller oljeholdige blandinger fra maskinrom, og som opererer i arktiske farvann i mer enn 30 dager sammenhengende, skal oppfylle disse kravene senest ved første mellomliggende tilsyn eller første fornyelsestilsyn, dersom dette kommer først, etter 1. januar 2018. Frem til denne datoen skal disse skipene tilfredsstille utslippskravene i MARPOL vedlegg I regel 15.3.</p>
-<p><em>Tilføyd ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017).</p>
 <h3 id="20-ikrafttredelse">§ 20. Ikrafttredelse</h3>
 <p>Forskriften trer i kraft 1. juli 2012.</p>
 <p>Fra samme tidspunkt oppheves:</p>
@@ -262,13 +393,13 @@ b. hastighet som tiltak for reduksjon av utslipp.</p>
 <li>forskrift 22. juli 1983 nr. 1331 om hindring av forurensing fra den maritime drift av flyttbare innretninger.</li>
 <li>forskrift 20. november 2003 nr. 1388 om forbud mot organiske tinnforbindelser på skip.</li>
 </ol>
-<p><em>Endret ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017, tidligere § 19).</em></p>
+<p class="note">Endret ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017, tidligere § 19).</p>
 <h3 id="21-endringer-i-andre-forskrifter">§ 21. Endringer i andre forskrifter</h3>
 <p>Fra den tid forskriften trer i kraft gjøres følgende endringer i andre forskrifter:</p>
 <ol>
 <li>I forskrift 15. september 1992 nr. 693 om innretning og føring av dagbøker på skip og flyttbare innretninger oppheves: – – –</li>
 </ol>
-<p><em>Endret ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017, tidligere § 20).</em></p>
+<p class="note">Endret ved forskrift 23 nov 2016 nr. 1362 (i kraft 1 jan 2017, tidligere § 20).</p>
 <h2 id="vedlegg-1-material-safety-data-sheets-msds-to-be-supplied-to-a-ship-prior-to-the-loading-of-marpol-annex-i-type-oil-as-cargo-in-bulk">Vedlegg 1. Material safety data sheets (MSDS) to be supplied to a ship prior to the loading of MARPOL Annex I type oil as cargo in bulk</h2>
 <p>Section Heading Content 1 Identification of the substance or mixture and of the supplier – Name of the category – see guidance in annex 2 1 for MARPOL Annex 1 type oil cargoes and oil fuels. – The name of the substances. – Trade name of the substances. – Description on Bill of Lading (B/L), Bunker Delivery Note or other shipping document. – Other means of identification. – Supplier's details (including name, address, telephone number, etc.). – Emergency telephone number. 2 Hazards identification – GHS 2 classification of the substance/mixture and any regional information. – Other hazards which do not result in classification (e.g., hydrogen sulphide) or are not covered by the GHS. See Guidelines in annex 2. 3 Composition/information on ingredients – Common name, synonyms, etc. on ingredients. – Impurities and stabilizing additives which are themselves classified and which contribute to the classification of the substances. – The chemical identity and concentration or concentration ranges of all ingredients which are hazardous within the meaning of GHS and are present above their cut-off levels. Cut-off level for reproductive toxicity, carcinogenicity and category 1 mutagenicity is 0.1 %. Cut-off level for all other hazard classes is 1 %. See Guidelines in annex 2. 4 First aid measures – Description of necessary measures, subdivided according to the different routes of exposure, i.e. inhalation, skin and eye contact and ingestion. – Most important symptoms/effects, acute and delayed. – Indication of immediate medical attention and special treatment, if necessary. 5 Fire-fighting measures – Suitable extinguishing media. – Specific hazards arising from the chemical (e.g., nature of any hazardous combustion products). – Special protective equipment and precautions for fire-fighters. 6 Accidental release measures – Personal precautions, protective equipment and measures emergency procedures. – Environmental precautions. – Methods and materials for containment and clean-up. 7 Handling and storage – Precautions for safe handling. – Conditions for safe storage, including any incompatibilities. 8 Exposure controls/personal protection – Control parameters (e.g., occupational exposure personal protection limit values). – Appropriate technical precautions. – Individual protection measures, such as personal protective equipment. 9 Physical and chemical properties – See Guidelines in annex 2 10 Stability and reactivity – Chemical stability. – Possibility of hazardous reactions. – Conditions to avoid (e.g., static discharge). 11 Toxicological information – Concise but complete and comprehensible description of the various toxicological (health) effects and the available data used to identify those effects, including: – Information on the likely routes of exposure (inhalation, ingestion, skin and eye contact); – Symptoms related to the physical, chemical and toxicological characteristics; – Delayed and immediate effects and also chronic effects from short- and long-term exposure. – Numerical measures of toxicity (such as acute toxicity estimates). – See Guidelines in annex 2. 12 Ecological information – Ecotoxicity (aquatiq and terrestial, where available) – Persistence and degradability – Bioaccumulation potential – Mobility in soil – Other adverse effects – See Guidelines in Annex 2. 13 Disposal considerations – Description of waste residues and information on their safe handling and methods of disposal, in line with MARPOL requirements. 14 Transport information – UN number, where applicable – UN Proper shipping name, where applicable – Transport Hazard class(es), where applicable – Special precautions which a user needs to be aware of or needs to comply with in connection with transport (e.g., heating and carriage temperatures) – Note that this product is being carried under the scope of MARPOL Annex I. 15 Regulatory information – Safety, health and environmental regulations specific for the product in question. 16 Other information including information on preparation and revision of the MSDS – Version No. – Date of issue – Issuing source.</p>
 <p>1 Se MSC.286(86). 2 Globally Harmonized System of Classification and Labelling of Chemicals (GHS), United Nations (2007 edition, as revised).</p>
@@ -299,6 +430,8 @@ b. hastighet som tiltak for reduksjon av utslipp.</p>
 <h3 id="marpol-vedlegg-vi">MARPOL vedlegg VI</h3>
 <p>For å lese MARPOL vedlegg VI se her: pdf-fil</p>
 <p>Endret ved forskrifter 18 des 2012 nr. 1295 (i kraft 1 jan 2013), 31 juli 2013 nr. 938 (i kraft 1 aug 2013), 5 juni 2015 nr. 616 (i kraft 1 juli 2015), 31 aug 2015 nr. 1038 (i kraft 1 sep 2015), 23 nov 2016 nr. 1362 (i kraft 1 jan 2017), endret uten kunngjøring i Norsk Lovtidend 12 sep 2017, endret uten kunngjøring i Norsk Lovtidend 13 juni 2018, endret ved forskrifter 29 mai 2020 nr. 1124 , 24 sep 2020 nr. 1957 (i kraft 1 okt 2020), 4 mars 2022 nr. 351 (i kraft 1 april 2022), 31 okt 2022 nr. 1912 (i kraft 1 nov 2022), endret uten kunngjøring i Norsk Lovtidend 1 nov 2023, 30 april 2024 nr. 764 (i kraft 1 mai 2024), 26 juni 2025 nr. 1372 (ikke innarbeidet i PDF).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

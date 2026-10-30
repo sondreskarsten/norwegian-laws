@@ -19,64 +19,223 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-03-18-242.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Rovviltforskriften" href="../feeds/forskrift-2005-03-18-242.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Rovviltforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-03-18-242</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-04-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-26-1380</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-03-18-242" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-definisjoner">Kapittel 1. Formål og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-bestandsmal-forvaltningsregioner-og-rovviltnemnder">Kapittel 2. Bestandsmål, forvaltningsregioner og rovviltnemnder</a></li>
+<li class="lvl4"><a href="#3-nasjonale-bestandsmal-og-bestandsovervaking">§ 3. Nasjonale bestandsmål og bestandsovervåking</a></li>
+<li class="lvl4"><a href="#4-forvaltningsregioner-og-nasjonale-bestandsmal-for-regionene">§ 4. Forvaltningsregioner og nasjonale bestandsmål for regionene</a></li>
+<li class="lvl4"><a href="#5-regionale-rovviltnemnder">§ 5. Regionale rovviltnemnder</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltningsplan-myndighet-og-jakt-og-fellingsformer">Kapittel 3. Forvaltningsplan, myndighet og jakt- og fellingsformer</a></li>
+<li class="lvl4"><a href="#6-regional-forvaltningsplan-for-rovvilt">§ 6. Regional forvaltningsplan for rovvilt</a></li>
+<li class="lvl4"><a href="#7-generelle-bestemmelser-om-vedtak-fattet-av-rovviltnemnden">§ 7. Generelle bestemmelser om vedtak fattet av rovviltnemnden</a></li>
+<li class="lvl4"><a href="#8-kvote-for-betinget-skadefelling-av-gaupe-jerv-bjrn-og-ulv">§ 8. Kvote for betinget skadefelling av gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#9-statsforvalterens-myndighet-til-iverksetting-av-betinget-skadefelling">§ 9. Statsforvalterens myndighet til iverksetting av betinget skadefelling</a></li>
+<li class="lvl4"><a href="#9a-godtgjring-ved-fellingsforsk">§ 9a. Godtgjøring ved fellingsforsøk</a></li>
+<li class="lvl4"><a href="#10-kvote-for-lisensfelling-pa-gaupe-jerv-bjrn-og-ulv">§ 10. Kvote for lisensfelling på gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#11-kvote-for-jakt-pa-gaupe">§ 11. Kvote for jakt på gaupe</a></li>
+<li class="lvl4"><a href="#12-skadefelling-av-kongern">§ 12. Skadefelling av kongeørn</a></li>
+<li class="lvl4"><a href="#13-miljdirektoratets-myndighet-til-a-fatte-vedtak-om-felling-og-jakt">§ 13. Miljødirektoratets myndighet til å fatte vedtak om felling og jakt</a></li>
+<li class="lvl4"><a href="#13a-avliving-av-vilt-til-forsvar-av-person-dyr">§ 13a. Avliving av vilt til forsvar av person, dyr</a></li>
+<li class="lvl2"><a href="#kapittel-4-administrasjon-deltakelse-rapportering-meldeplikt-og-ettersk">Kapittel 4. Administrasjon, deltakelse, rapportering, meldeplikt og ettersøk</a></li>
+<li class="lvl4"><a href="#14-administrasjon-og-kunngjring">§ 14. Administrasjon og kunngjøring</a></li>
+<li class="lvl4"><a href="#15-vilkar-for-deltakelse-i-lisensfelling">§ 15. Vilkår for deltakelse i lisensfelling</a></li>
+<li class="lvl4"><a href="#16-rapportering-meldeplikt-og-underskelse-av-felte-dyr">§ 16. Rapportering, meldeplikt og undersøkelse av felte dyr</a></li>
+<li class="lvl4"><a href="#17-ettersk-av-saret-og-skadet-rovvilt">§ 17. Ettersøk av såret og skadet rovvilt</a></li>
+<li class="lvl4"><a href="#17a-varsling-og-rapportering-av-bruk-av-metoder-ved-skadefelling">§ 17a. Varsling og rapportering av bruk av metoder ved skadefelling</a></li>
+<li class="lvl2"><a href="#kapittel-5-klage-dispensasjon-straff-og-ikrafttreden">Kapittel 5. Klage, dispensasjon, straff og ikrafttreden</a></li>
+<li class="lvl4"><a href="#18-klageadgang">§ 18. Klageadgang</a></li>
+<li class="lvl4"><a href="#19-dispensasjon">§ 19. Dispensasjon</a></li>
+<li class="lvl4"><a href="#20-myndighet-til-a-endre-forskriften">§ 20. Myndighet til å endre forskriften</a></li>
+<li class="lvl4"><a href="#21-straff">§ 21. Straff</a></li>
+<li class="lvl4"><a href="#22-ikrafttreden">§ 22. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#kommentarer-til-forskriftens-enkelte-bestemmelser">Kommentarer til forskriftens enkelte bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-formal-og-definisjoner_1">Kapittel 1. Formål og definisjoner</a></li>
+<li class="lvl4"><a href="#til-1-formal">Til § 1 Formål</a></li>
+<li class="lvl4"><a href="#til-2-definisjoner">Til § 2 Definisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-2-bestandsmal-forvaltningsregioner-og-rovviltnemnder_1">Kapittel 2. Bestandsmål, forvaltningsregioner og rovviltnemnder</a></li>
+<li class="lvl4"><a href="#til-3-nasjonale-bestandsmal-og-bestandsovervaking">Til § 3 Nasjonale bestandsmål og bestandsovervåking</a></li>
+<li class="lvl4"><a href="#til-4-forvaltningsregioner-og-nasjonale-bestandsmal-for-regionene">Til § 4 Forvaltningsregioner og nasjonale bestandsmål for regionene</a></li>
+<li class="lvl4"><a href="#til-5-regionale-rovviltnemnder">Til § 5 Regionale rovviltnemnder</a></li>
+<li class="lvl3"><a href="#kapittel-3-forvaltningsplan-myndighet-og-jakt-og-fellingsformer_1">Kapittel 3. Forvaltningsplan, myndighet og jakt- og fellingsformer</a></li>
+<li class="lvl4"><a href="#til-6-regional-forvaltningsplan-for-rovvilt">Til § 6 Regional forvaltningsplan for rovvilt</a></li>
+<li class="lvl4"><a href="#til-7-generelle-bestemmelser-om-vedtak-fattet-av-rovviltnemnden">Til § 7 Generelle bestemmelser om vedtak fattet av rovviltnemnden</a></li>
+<li class="lvl4"><a href="#til-8-kvote-for-betinget-skadefelling-av-gaupe-jerv-bjrn-og-ulv">Til § 8 Kvote for betinget skadefelling av gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#til-9-statsforvalterens-myndighet-til-iverksetting-av-betinget-skadefelling">Til § 9 Statsforvalterens myndighet til iverksetting av betinget skadefelling</a></li>
+<li class="lvl4"><a href="#til-9a-godtgjring-ved-fellingsforsk">Til § 9a Godtgjøring ved fellingsforsøk</a></li>
+<li class="lvl4"><a href="#til-10-kvote-for-lisensfelling-pa-gaupe-jerv-bjrn-og-ulv">Til § 10 Kvote for lisensfelling på gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#til-11-kvote-for-jakt-pa-gaupe">Til § 11 Kvote for jakt på gaupe</a></li>
+<li class="lvl4"><a href="#til-12-skadefelling-av-kongern">Til § 12 Skadefelling av kongeørn</a></li>
+<li class="lvl4"><a href="#til-13-miljdirektoratets-myndighet-til-a-fatte-vedtak-om-felling-og-jakt">Til § 13 Miljødirektoratets myndighet til å fatte vedtak om felling og jakt</a></li>
+<li class="lvl3"><a href="#kapittel-4-administrasjon-deltakelse-rapportering-meldeplikt-og-ettersk_1">Kapittel 4. Administrasjon, deltakelse, rapportering, meldeplikt og ettersøk</a></li>
+<li class="lvl4"><a href="#til-14-administrasjon-og-kunngjring">Til § 14 Administrasjon og kunngjøring</a></li>
+<li class="lvl4"><a href="#til-15-vilkar-for-deltakelse-i-lisensfelling">Til § 15 Vilkår for deltakelse i lisensfelling</a></li>
+<li class="lvl4"><a href="#til-16-rapportering-meldeplikt-og-underskelse-av-felte-dyr">Til § 16 Rapportering, meldeplikt og undersøkelse av felte dyr</a></li>
+<li class="lvl4"><a href="#til-17-ettersk-av-saret-og-skadet-rovvilt">Til § 17 Ettersøk av såret og skadet rovvilt</a></li>
+<li class="lvl4"><a href="#til-17a-varsling-og-rapportering-av-bruk-av-metoder-ved-skadefelling">Til § 17a Varsling og rapportering av bruk av metoder ved skadefelling</a></li>
+<li class="lvl3"><a href="#kapittel-5-klage-dispensasjon-straff-og-ikrafttreden_1">Kapittel 5. Klage, dispensasjon, straff og ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-18-klageadgang">Til § 18 Klageadgang</a></li>
+<li class="lvl4"><a href="#til-20-myndighet-til-a-endre-forskriften">Til § 20 Myndighet til å endre forskriften</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-26-1380.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-03-18-242.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om forvaltning av rovvilt</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-03-18-242.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-03-18-242 <code>forskrift/2005-03-18-242</code></td></tr>
+<tr><th>Korttittel</th><td>Rovviltforskriften</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-26-1380 <code>forskrift/2026-06-26-1380</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-03-18-242" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-definisjoner">Kapittel 1. Formål og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-bestandsmal-forvaltningsregioner-og-rovviltnemnder">Kapittel 2. Bestandsmål, forvaltningsregioner og rovviltnemnder</a></li>
+<li class="lvl4"><a href="#3-nasjonale-bestandsmal-og-bestandsovervaking">§ 3. Nasjonale bestandsmål og bestandsovervåking</a></li>
+<li class="lvl4"><a href="#4-forvaltningsregioner-og-nasjonale-bestandsmal-for-regionene">§ 4. Forvaltningsregioner og nasjonale bestandsmål for regionene</a></li>
+<li class="lvl4"><a href="#5-regionale-rovviltnemnder">§ 5. Regionale rovviltnemnder</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltningsplan-myndighet-og-jakt-og-fellingsformer">Kapittel 3. Forvaltningsplan, myndighet og jakt- og fellingsformer</a></li>
+<li class="lvl4"><a href="#6-regional-forvaltningsplan-for-rovvilt">§ 6. Regional forvaltningsplan for rovvilt</a></li>
+<li class="lvl4"><a href="#7-generelle-bestemmelser-om-vedtak-fattet-av-rovviltnemnden">§ 7. Generelle bestemmelser om vedtak fattet av rovviltnemnden</a></li>
+<li class="lvl4"><a href="#8-kvote-for-betinget-skadefelling-av-gaupe-jerv-bjrn-og-ulv">§ 8. Kvote for betinget skadefelling av gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#9-statsforvalterens-myndighet-til-iverksetting-av-betinget-skadefelling">§ 9. Statsforvalterens myndighet til iverksetting av betinget skadefelling</a></li>
+<li class="lvl4"><a href="#9a-godtgjring-ved-fellingsforsk">§ 9a. Godtgjøring ved fellingsforsøk</a></li>
+<li class="lvl4"><a href="#10-kvote-for-lisensfelling-pa-gaupe-jerv-bjrn-og-ulv">§ 10. Kvote for lisensfelling på gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#11-kvote-for-jakt-pa-gaupe">§ 11. Kvote for jakt på gaupe</a></li>
+<li class="lvl4"><a href="#12-skadefelling-av-kongern">§ 12. Skadefelling av kongeørn</a></li>
+<li class="lvl4"><a href="#13-miljdirektoratets-myndighet-til-a-fatte-vedtak-om-felling-og-jakt">§ 13. Miljødirektoratets myndighet til å fatte vedtak om felling og jakt</a></li>
+<li class="lvl4"><a href="#13a-avliving-av-vilt-til-forsvar-av-person-dyr">§ 13a. Avliving av vilt til forsvar av person, dyr</a></li>
+<li class="lvl2"><a href="#kapittel-4-administrasjon-deltakelse-rapportering-meldeplikt-og-ettersk">Kapittel 4. Administrasjon, deltakelse, rapportering, meldeplikt og ettersøk</a></li>
+<li class="lvl4"><a href="#14-administrasjon-og-kunngjring">§ 14. Administrasjon og kunngjøring</a></li>
+<li class="lvl4"><a href="#15-vilkar-for-deltakelse-i-lisensfelling">§ 15. Vilkår for deltakelse i lisensfelling</a></li>
+<li class="lvl4"><a href="#16-rapportering-meldeplikt-og-underskelse-av-felte-dyr">§ 16. Rapportering, meldeplikt og undersøkelse av felte dyr</a></li>
+<li class="lvl4"><a href="#17-ettersk-av-saret-og-skadet-rovvilt">§ 17. Ettersøk av såret og skadet rovvilt</a></li>
+<li class="lvl4"><a href="#17a-varsling-og-rapportering-av-bruk-av-metoder-ved-skadefelling">§ 17a. Varsling og rapportering av bruk av metoder ved skadefelling</a></li>
+<li class="lvl2"><a href="#kapittel-5-klage-dispensasjon-straff-og-ikrafttreden">Kapittel 5. Klage, dispensasjon, straff og ikrafttreden</a></li>
+<li class="lvl4"><a href="#18-klageadgang">§ 18. Klageadgang</a></li>
+<li class="lvl4"><a href="#19-dispensasjon">§ 19. Dispensasjon</a></li>
+<li class="lvl4"><a href="#20-myndighet-til-a-endre-forskriften">§ 20. Myndighet til å endre forskriften</a></li>
+<li class="lvl4"><a href="#21-straff">§ 21. Straff</a></li>
+<li class="lvl4"><a href="#22-ikrafttreden">§ 22. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#kommentarer-til-forskriftens-enkelte-bestemmelser">Kommentarer til forskriftens enkelte bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-formal-og-definisjoner_1">Kapittel 1. Formål og definisjoner</a></li>
+<li class="lvl4"><a href="#til-1-formal">Til § 1 Formål</a></li>
+<li class="lvl4"><a href="#til-2-definisjoner">Til § 2 Definisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-2-bestandsmal-forvaltningsregioner-og-rovviltnemnder_1">Kapittel 2. Bestandsmål, forvaltningsregioner og rovviltnemnder</a></li>
+<li class="lvl4"><a href="#til-3-nasjonale-bestandsmal-og-bestandsovervaking">Til § 3 Nasjonale bestandsmål og bestandsovervåking</a></li>
+<li class="lvl4"><a href="#til-4-forvaltningsregioner-og-nasjonale-bestandsmal-for-regionene">Til § 4 Forvaltningsregioner og nasjonale bestandsmål for regionene</a></li>
+<li class="lvl4"><a href="#til-5-regionale-rovviltnemnder">Til § 5 Regionale rovviltnemnder</a></li>
+<li class="lvl3"><a href="#kapittel-3-forvaltningsplan-myndighet-og-jakt-og-fellingsformer_1">Kapittel 3. Forvaltningsplan, myndighet og jakt- og fellingsformer</a></li>
+<li class="lvl4"><a href="#til-6-regional-forvaltningsplan-for-rovvilt">Til § 6 Regional forvaltningsplan for rovvilt</a></li>
+<li class="lvl4"><a href="#til-7-generelle-bestemmelser-om-vedtak-fattet-av-rovviltnemnden">Til § 7 Generelle bestemmelser om vedtak fattet av rovviltnemnden</a></li>
+<li class="lvl4"><a href="#til-8-kvote-for-betinget-skadefelling-av-gaupe-jerv-bjrn-og-ulv">Til § 8 Kvote for betinget skadefelling av gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#til-9-statsforvalterens-myndighet-til-iverksetting-av-betinget-skadefelling">Til § 9 Statsforvalterens myndighet til iverksetting av betinget skadefelling</a></li>
+<li class="lvl4"><a href="#til-9a-godtgjring-ved-fellingsforsk">Til § 9a Godtgjøring ved fellingsforsøk</a></li>
+<li class="lvl4"><a href="#til-10-kvote-for-lisensfelling-pa-gaupe-jerv-bjrn-og-ulv">Til § 10 Kvote for lisensfelling på gaupe, jerv, bjørn og ulv</a></li>
+<li class="lvl4"><a href="#til-11-kvote-for-jakt-pa-gaupe">Til § 11 Kvote for jakt på gaupe</a></li>
+<li class="lvl4"><a href="#til-12-skadefelling-av-kongern">Til § 12 Skadefelling av kongeørn</a></li>
+<li class="lvl4"><a href="#til-13-miljdirektoratets-myndighet-til-a-fatte-vedtak-om-felling-og-jakt">Til § 13 Miljødirektoratets myndighet til å fatte vedtak om felling og jakt</a></li>
+<li class="lvl3"><a href="#kapittel-4-administrasjon-deltakelse-rapportering-meldeplikt-og-ettersk_1">Kapittel 4. Administrasjon, deltakelse, rapportering, meldeplikt og ettersøk</a></li>
+<li class="lvl4"><a href="#til-14-administrasjon-og-kunngjring">Til § 14 Administrasjon og kunngjøring</a></li>
+<li class="lvl4"><a href="#til-15-vilkar-for-deltakelse-i-lisensfelling">Til § 15 Vilkår for deltakelse i lisensfelling</a></li>
+<li class="lvl4"><a href="#til-16-rapportering-meldeplikt-og-underskelse-av-felte-dyr">Til § 16 Rapportering, meldeplikt og undersøkelse av felte dyr</a></li>
+<li class="lvl4"><a href="#til-17-ettersk-av-saret-og-skadet-rovvilt">Til § 17 Ettersøk av såret og skadet rovvilt</a></li>
+<li class="lvl4"><a href="#til-17a-varsling-og-rapportering-av-bruk-av-metoder-ved-skadefelling">Til § 17a Varsling og rapportering av bruk av metoder ved skadefelling</a></li>
+<li class="lvl3"><a href="#kapittel-5-klage-dispensasjon-straff-og-ikrafttreden_1">Kapittel 5. Klage, dispensasjon, straff og ikrafttreden</a></li>
+<li class="lvl4"><a href="#til-18-klageadgang">Til § 18 Klageadgang</a></li>
+<li class="lvl4"><a href="#til-20-myndighet-til-a-endre-forskriften">Til § 20 Myndighet til å endre forskriften</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-03-18-242.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-03-18-242.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-03-18-242.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-03-18-242.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-03-18-242.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-03-18-242.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-03-18-242.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-03-18-242.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-03-18-242.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-forvaltning-av-rovvilt">Forskrift om forvaltning av rovvilt</h1>
 <h2 id="kapittel-1-formal-og-definisjoner">Kapittel 1. Formål og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med denne forskrift er å sikre en bærekraftig forvaltning av gaupe, jerv, bjørn, ulv og kongeørn. Innenfor en slik ramme skal forvaltningen også ivareta hensyn til næringsutøvelse og andre samfunnsinteresser. Forvaltningen skal være differensiert slik at hensynet til ulike interesser vektlegges forskjellig i ulike områder og for de ulike rovviltarter.</p>
@@ -100,13 +259,13 @@ j. Rovvilt: Gaupe, jerv, bjørn, ulv og kongeørn.
 k. Rovviltnemnd: Offentlig organ opprettet i medhold av viltressursloven § 6 med ansvar forvaltning av gaupe, jerv, bjørn og ulv i en region.
 l. Tamrein: Rein som inngår i reindrift som drives i samsvar med reindriftslovens bestemmelser. Rein som eies av Rendalen Renselskap omfattes ikke.
 m. Årlig yngling: Yngling som er godkjent av Nasjonalt overvåkingsprogram for rovvilt.</p>
-<p><em>Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 20 juni 2016 nr. 725 , 6 juni 2017 nr. 705 , 12 okt 2020 nr. 2036 , 18 des 2023 nr. 2258 (i kraft 1 jan 2024), 28 mai 2026 nr. 939 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 20 juni 2016 nr. 725 , 6 juni 2017 nr. 705 , 12 okt 2020 nr. 2036 , 18 des 2023 nr. 2258 (i kraft 1 jan 2024), 28 mai 2026 nr. 939 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-2-bestandsmal-forvaltningsregioner-og-rovviltnemnder">Kapittel 2. Bestandsmål, forvaltningsregioner og rovviltnemnder</h2>
 <h4 id="3-nasjonale-bestandsmal-og-bestandsovervaking">§ 3. Nasjonale bestandsmål og bestandsovervåking</h4>
 <p>I Norge skal det årlig være 65 ynglinger av gaupe, 39 ynglinger av jerv og 13 ynglinger av bjørn. Det skal være 4–6 årlige ynglinger av ulv. 3 av disse skal ha skjedd i revir som i sin helhet ligger i Norge. Ynglinger utenfor ulvesonen skal medregnes. Der en del av reviret ligger i Sverige skal en yngling medregnes med en faktor på 0,5.</p>
 <p>Kongeørnbestanden skal forvaltes slik at bestanden opprettholdes på 850-1200 hekkende par i Norge.</p>
 <p>Nasjonalt overvåkingsprogram for rovvilt skal gi data om status og utvikling i rovviltbestandene, herunder også beskrive det antall årlige ynglinger som er dokumentert i regionene. Metodikk, datagrunnlag og resultater skal være offentlig tilgjengelig.</p>
-<p><em>Endret ved forskrifter 2 mai 2013 nr. 431 , 20 juni 2016 nr. 725 .</em></p>
+<p class="note">Endret ved forskrifter 2 mai 2013 nr. 431 , 20 juni 2016 nr. 725 .</p>
 <h4 id="4-forvaltningsregioner-og-nasjonale-bestandsmal-for-regionene">§ 4. Forvaltningsregioner og nasjonale bestandsmål for regionene</h4>
 <p>Det skal være åtte forvaltningsregioner med tilhørende nasjonale mål for antall årlige ynglinger innenfor regionens grenser:</p>
 <p>a. Region 1 – Rogaland fylke, Vestland fylke og Farsund, Flekkefjord, Hægebostad, Kristiansand, Kvinesdal, Lindesnes, Lyngdal, Sirdal, Vennesla og Åseral kommuner: Ingen nasjonale mål for ynglinger av gaupe, jerv, bjørn eller ulv
@@ -117,7 +276,7 @@ e. Region 5 – Alvdal, Eidskog, Elverum, Engerdal, Folldal, Grue, Hamar, Kongsv
 f. Region 6 – Møre og Romsdal fylke og Trøndelag fylke: 12 ynglinger av gaupe, 10 ynglinger av jerv og 3 ynglinger av bjørn
 g. Region 7 – Nordland fylke: 10 ynglinger av gaupe, 10 ynglinger av jerv og 1 yngling av bjørn
 h. Region 8 – Troms fylke og Finnmark fylke: 10 ynglinger av gaupe – hvorav 4 i Finnmark, 10 ynglinger av jerv – hvorav 3 i Finnmark og 6 ynglinger av bjørn.</p>
-<p><em>Endret ved forskrifter 2 mai 2013 nr. 431 , 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 , 29 jan 2021 nr. 274 , 18 des 2023 nr. 2258 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 2 mai 2013 nr. 431 , 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 , 29 jan 2021 nr. 274 , 18 des 2023 nr. 2258 (i kraft 1 jan 2024).</p>
 <h4 id="5-regionale-rovviltnemnder">§ 5. Regionale rovviltnemnder</h4>
 <p>I hver forvaltningsregion skal en rovviltnemnd ha hovedansvaret for forvaltningen av gaupe, jerv, bjørn og ulv. Rovviltnemnden skal gjennomføre vedtatt nasjonal rovviltpolitikk innenfor sin region, og skal ha nær kontakt med berørte kommuner og organisasjoner.</p>
 <p>Til de enkelte rovviltnemndene oppnevnes av Klima- og miljødepartementet, etter forslag fra fylkestingene, eller av Sametinget følgende antall faste medlemmer:</p>
@@ -132,23 +291,23 @@ h. Region 8: Troms fylkesting to medlemmer, Finnmark fylkesting to medlemmer, Sa
 <p>Fylkestingene skal foreslå en kvinnelig og en mannlig kandidat for hvert medlem fra fylkestinget. Kandidatene skal ha fast plass i fylkestinget. Dersom fylkeskommunen har fylkesutvalg, skal kandidatene også ha fast plass i fylkesutvalget. Medlemmene oppnevnt av Sametinget skal være bosatt i forvaltningsregionen.</p>
 <p>Oppnevningsperioden for medlemmene følger valgperioden for fylkestinget og Sametinget. Rovviltnemnden velger leder.</p>
 <p>Miljødirektoratet avgjør hvilket statsforvalterembete som skal være sekretariat for den enkelte rovviltnemnd. Miljødirektoratet gir nærmere veiledning og retningslinjer for rovviltnemndens og sekretariatets virksomhet, herunder om samarbeid over regiongrenser, jf. viltressursloven § 6 andre ledd .</p>
-<p><em>Endret ved forskrifter 24 sep 2010 nr. 1300 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 18 des 2023 nr. 2258 (i kraft 1 jan 2024), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 24 sep 2010 nr. 1300 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 18 des 2023 nr. 2258 (i kraft 1 jan 2024), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-3-forvaltningsplan-myndighet-og-jakt-og-fellingsformer">Kapittel 3. Forvaltningsplan, myndighet og jakt- og fellingsformer</h2>
 <h4 id="6-regional-forvaltningsplan-for-rovvilt">§ 6. Regional forvaltningsplan for rovvilt</h4>
 <p>Rovviltnemnden skal utarbeide en regional forvaltningsplan for rovvilt. I forvaltningsplanen skal det etableres en geografisk differensiert forvaltning i regionen, jf. forskriften § 1 . Forvaltningsplanen skal vise hvordan rovviltnemnden vil prioritere midler til forebyggende og konfliktdempende tiltak innenfor regionen i tråd med prinsippet om en geografisk differensiert forvaltning. Planen skal også gi anbefalinger om bruken av landbrukspolitiske og reindriftspolitiske virkemidler innenfor regionen for å bidra til en samordnet virkemiddelbruk og reduserte tap og konflikter.</p>
 <p>I utarbeidelsen av den geografiske differensieringen skal rovviltnemnden samarbeide med tilgrensende forvaltningsregioner. Ved utarbeidelse og revidering av forvaltningsplaner skal rovviltnemnder i berørte forvaltingsregioner få saken på alminnelig høring, og dersom høringen viser at det er uenighet skal det være en dialog mellom de aktuelle nemndene med siktemål om å komme til enighet. Dersom aktuelle nemnder ikke kommer til enighet, kan en rovviltnemnd i en berørt forvaltningsregion bringe den aktuelle forvaltningsplanen inn for Klima- og miljødepartementet som fastsetter forvaltningsplanen.</p>
 <p>Rovviltnemnden skal ha nær kontakt med kommuner og organisasjoner innenfor regionen ved utformingen av forvaltningsplanen. Planen skal sendes Miljødirektoratet og Landbruksdirektoratet til uttalelse før den vedtas av rovviltnemnden. Miljødirektoratet skal i sin uttalelse blant annet vurdere om planen er i samsvar med nasjonalt vedtatt rovviltpolitikk. Landbruksdirektoratet skal gjennom sin uttalelse bidra med kunnskap om forvaltning av sau og tamrein, hvordan den geografiske differensierte forvaltningen best kan ivaretas og hvordan landbrukets virkemidler eventuelt kan benyttes for å redusere tapene av sau og tamrein til rovvilt i de rovviltprioriterte områdene.</p>
-<p><em>Endret ved forskrifter 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 .</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 .</p>
 <h4 id="7-generelle-bestemmelser-om-vedtak-fattet-av-rovviltnemnden">§ 7. Generelle bestemmelser om vedtak fattet av rovviltnemnden</h4>
 <p>Rovviltnemnden har myndighet til å fatte vedtak om kvote for felling etter forskriften § 8 og § 10 og kvote for jakt etter forskriften § 11 når bestanden av den enkelte art ligger over de nasjonalt fastsatte bestandsmålene for regionen, jf. forskriften § 4 . Videre har rovviltnemnden vedtaksmyndighet for bjørn når det er 10 ynglinger eller mer av bjørn i Norge. Klima- og miljødepartementet kan beslutte unntak fra bestemmelsen om vedtaksmyndighet for bjørn dersom det foreligger særskilte grunner. Nemndens myndighet skal for ulv og bjørn baseres på de siste dokumenterte data om siste års ynglinger fra Nasjonalt overvåkingsprogram for rovvilt, jf. forskriften § 3 tredje ledd. Tilsvarende skal nemndens myndighet for gaupe og jerv baseres på gjennomsnittet av dokumenterte data om ynglinger de tre siste årene fra Nasjonalt overvåkingsprogram for rovvilt.</p>
 <p>Rovviltnemndens vedtak skal bygge på den regionale forvaltningsplanen for rovvilt, data om biologiske og bestandsmessige forhold og om skade- og konfliktsituasjonen, jf. forskriften § 3 tredje ledd og § 6 .</p>
 <p>For at rovviltnemnden skal være beslutningsdyktig må minst tre medlemmer (eller varamedlemmer) være til stede. Vedtak fattes ved flertallsbeslutninger. Ved stemmelikhet har leder dobbeltstemme.</p>
 <p>Etter at vedtak om kvote for felling er fattet etter forskriften § 8 og § 10 og kvote for jakt etter forskriften § 11 , skal irregulær avgang av rovvilt innenfor regionen belastes den kvote som er bestemt av rovviltnemnden.</p>
-<p><em>Endret ved forskrifter 2 mai 2013 nr. 431 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 .</em></p>
+<p class="note">Endret ved forskrifter 2 mai 2013 nr. 431 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 .</p>
 <h4 id="8-kvote-for-betinget-skadefelling-av-gaupe-jerv-bjrn-og-ulv">§ 8. Kvote for betinget skadefelling av gaupe, jerv, bjørn og ulv</h4>
 <p>Dersom vilkårene i forskriften § 7 er oppfylt, kan en rovviltnemnd tildele kvote for betinget skadefelling på gaupe, jerv, bjørn og ulv til statsforvalteren for å forhindre at disse artene gjør skade på husdyr, tamrein eller annen eiendom som nevnt i naturmangfoldloven § 18 første ledd b). Kvote for betinget skadefelling gjelder fra 1. juni til og med 15. februar.</p>
 <p>Vedtak etter første ledd som gjelder ulv i regionene 4 og 5 skal fattes av rovviltnemndene i disse to regionene i fellesskap.</p>
-<p><em>Endret ved forskrifter 6 juni 2017 nr. 705 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 6 juni 2017 nr. 705 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="9-statsforvalterens-myndighet-til-iverksetting-av-betinget-skadefelling">§ 9. Statsforvalterens myndighet til iverksetting av betinget skadefelling</h4>
 <p>Statsforvalteren kan av eget tiltak eller etter søknad fatte vedtak om iverksetting av felling for å forhindre fremtidig skade innenfor rammen av kvote for betinget skadefelling gitt av rovviltnemnden, jf. forskriften § 8 , eller Miljødirektoratet, jf. § 13 . Statsforvalteren kan delegere sin myndighet til iverksetting av slik felling til kommunen i særskilte tilfeller.</p>
 <p>Ved vurderingen av om det skal gis tillatelse til skadefelling skal det legges vekt på føringene i regional forvaltningsplan, jf. forskriften § 6 . Felling kan bare gjennomføres dersom det ikke finnes annen tilfredsstillende løsning ut fra prinsippet om geografisk differensiert forvaltning. Det skal særlig tas hensyn til</p>
@@ -157,11 +316,11 @@ b. skadenes omfang og utvikling
 c. potensialet for fremtidige skader
 d. muligheten for å gjennomføre forebyggende tiltak.</p>
 <p>Felling skal være rettet mot bestemte individer. Vedtak om felling skal være begrenset til et bestemt område, tidsrom og antall dyr. Det kan knyttes nærmere vilkår til fellingstillatelsen, herunder at bestemte typer dyr skal være unntatt, at felling skal foretas av nærmere bestemte personer, samt metoder for felling. Bruk av metoder for felling som i utgangspunktet er forbudt etter Bernkonvensjonen , forutsetter at det ikke vil være skadelig for bestandens overlevelse og at det ikke er noen annen tilfredsstillende løsning. Formålet med bruken av metoden må være for enten å verne flora og fauna, for å avverge alvorlig skade på avling, husdyr, tamrein, skog, fiske, vann eller andre former for eiendom. Metoder for felling kan også avgrenses av hensyn til arten som skal felles, øvrig vilt, dyrevelferd, økonomi, påvirkning på naturmangfold, allmenn sikkerhet eller andre offentlige interesser av vesentlig betydning. Det kan også gis bestemmelser om dekning av påløpte utgifter i forbindelse med felling. Felling og forsøk på felling i henhold til denne bestemmelsen gjennomføres uavhengig av grunneiers jaktrett, jf. viltressursloven § 33 .</p>
-<p><em>Endret ved forskrifter 28 aug 2008 nr. 965 (med virkning fra 1 juni 2008 til 31 des 2009), 16 des 2008 nr. 1373 (med virkning til 31 des 2009), 14 sep 2011 nr. 934 (i kraft 1 okt 2011), 20 juni 2016 nr. 725 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 28 aug 2008 nr. 965 (med virkning fra 1 juni 2008 til 31 des 2009), 16 des 2008 nr. 1373 (med virkning til 31 des 2009), 14 sep 2011 nr. 934 (i kraft 1 okt 2011), 20 juni 2016 nr. 725 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="9a-godtgjring-ved-fellingsforsk">§ 9a. Godtgjøring ved fellingsforsøk</h4>
 <p>Der forsøk på skadefelling utføres av kommunalt/interkommunalt oppnevnt fellingslag, kan kommunen utbetale godtgjøring til fellingslaget for den tid som er benyttet til fellingsforsøk. Deltakere som mottar godtgjøring etter ordningen må være registrerte lisensjegere, jf. § 15 .</p>
 <p>Utbetalingen skjer på grunnlag av satser fastsatt av Klima- og miljødepartementet samt rapport fra fellingsleder om fellingsforsøket og den tid som er benyttet. Utbetalingen må ikke overskride de rammer som fremgår av statsforvalterens vedtak om felling. Statsforvalteren yter etter søknad tilskudd til kommunen til dekning av godtgjøring utbetalt etter vilkårene over.</p>
-<p><em>Tilføyd ved forskrift 14 sep 2011 nr. 934 (i kraft 1 okt 2011, se endringsforskriften for overgangsregler), endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 14 sep 2011 nr. 934 (i kraft 1 okt 2011, se endringsforskriften for overgangsregler), endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="10-kvote-for-lisensfelling-pa-gaupe-jerv-bjrn-og-ulv">§ 10. Kvote for lisensfelling på gaupe, jerv, bjørn og ulv</h4>
 <p>Dersom vilkårene i forskriften § 7 er oppfylt, kan en rovviltnemnd fatte vedtak om kvote for lisensfelling for å begrense veksten og/eller utbredelsen av en bestand av gaupe, jerv, bjørn og ulv.</p>
 <p>Felling kan bare gjennomføres dersom det ikke finnes annen tilfredsstillende løsning ut fra prinsippet om geografisk differensiert forvaltning. Ved vurdering av felling etter naturmangfoldloven § 18 første ledd bokstav c skal det legges vekt på om bestandsmål som er vedtatt i Stortinget er nådd.</p>
@@ -170,16 +329,16 @@ d. muligheten for å gjennomføre forebyggende tiltak.</p>
 <p>Fellingsperioden er for: a. gaupe: 1. februar til og med 31. mars b. jerv: 20. august til og med 15. februar c. bjørn: 21. august til og med 15. oktober d. ulv innenfor ulvesonen: 1. januar til og med 15. februar e. ulv utenfor ulvesonen: 1. desember til og med 31. mai.</p>
 <p>Rovviltnemnden kan fastsette en kortere fellingsperiode dersom særlige forhold tilsier det. Det kan ikke utøves lisensfelling i de fredningsperioder som viltressursloven § 13 fastsetter.</p>
 <p>Vedtak etter denne paragraf skal avgrense fellingsområder, bestemme antall dyr som kan felles, eventuell fordeling på kjønn og alder og om bestemte typer dyr skal være unntatt, samt nærmere vilkår for gjennomføring av lisensfellingen i samsvar med regional forvaltningsplan for rovvilt, jf. forskriften § 6 .</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 748 , 20 juni 2016 nr. 725 , 14 feb 2017 nr. 180 , 6 juni 2017 nr. 705 , 7 mars 2019 nr. 252 , 12 okt 2020 nr. 2036 , 17 aug 2022 nr. 1452 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 748 , 20 juni 2016 nr. 725 , 14 feb 2017 nr. 180 , 6 juni 2017 nr. 705 , 7 mars 2019 nr. 252 , 12 okt 2020 nr. 2036 , 17 aug 2022 nr. 1452 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="11-kvote-for-jakt-pa-gaupe">§ 11. Kvote for jakt på gaupe</h4>
 <p>Dersom vilkårene i forskriften § 7 er oppfylt, kan en rovviltnemnd fatte vedtak om kvote for jakt på gaupe i medhold av viltressursloven § 10 , jf. naturmangfoldloven § 16 .</p>
 <p>Vedtak etter første ledd skal avgrense jaktområdet, bestemme antall dyr som kan skytes, eventuell fordeling på kjønn og alder og om bestemte typer dyr skal være unntatt, samt nærmere vilkår for gjennomføring av kvotejakten i samsvar med regional forvaltningsplan, jf. forskriften § 6 .</p>
 <p>Rovviltnemnden kan til enhver tid endre eget vedtak om kvote for jakt på gaupe dersom nye opplysninger tilsier det.</p>
 <p>Jakttidsramme for kvotejakt på gaupe er 1. februar til og med 31. mars. Rovviltnemnden kan fastsette en kortere jakttid dersom særlige forhold tilsier det. Det kan ikke utøves kvotejakt i de fredningsperioder som viltressursloven § 13 fastsetter.</p>
-<p><em>Endret ved forskrifter 6 juni 2017 nr. 705 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 6 juni 2017 nr. 705 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="12-skadefelling-av-kongern">§ 12. Skadefelling av kongeørn</h4>
 <p>Statsforvalteren kan gi tillatelse til felling av enkeltindivider av kongeørn som volder vesentlig skade på bufe eller tamrein, forutsatt at felling kan rettes mot bestemte individer, jf. naturmangfoldloven § 18 første ledd b). Vedtak om felling skal være begrenset til et bestemt område og tidsrom. Det kan knyttes vilkår til fellingstillatelsen.</p>
-<p><em>Endret ved forskrifter 6 juni 2017 nr. 705 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 6 juni 2017 nr. 705 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="13-miljdirektoratets-myndighet-til-a-fatte-vedtak-om-felling-og-jakt">§ 13. Miljødirektoratets myndighet til å fatte vedtak om felling og jakt</h4>
 <p>Miljødirektoratet kan fatte vedtak om skadefelling, kvote for betinget skadefelling, kvote for lisensfelling av gaupe, jerv, bjørn og ulv eller kvotejakt på gaupe av eget tiltak eller etter søknad. Direktoratet kan fatte slike vedtak også der bestanden ligger under det fastsatte bestandsmålet for en region eller for landet. Det er et vilkår at slik felling eller jakt ikke er skadelig for bestandens overlevelse. Dessuten er det et vilkår at det ikke finnes annen tilfredsstillende løsning ut fra prinsippet om en geografisk differensiert forvaltning, jf. forskriften § 1 og § 6 . Ved vurdering av felling etter naturmangfoldloven § 18 første ledd bokstav c skal det legges vekt på om bestandsmål som er vedtatt i Stortinget er nådd.</p>
 <p>Foreligger en vedtatt forvaltningsplan for vedkommende region, jf. forskriften § 6 , kan direktoratet delegere myndighet for kvote på lisensfelling eller kvotejakt på gaupe etter første ledd annet punktum til rovviltnemnden eller statsforvalteren etter en konkret vurdering i det enkelte tilfelle.</p>
@@ -187,17 +346,17 @@ d. muligheten for å gjennomføre forebyggende tiltak.</p>
 <p>All irregulær avgang av vedkommende rovviltart innenfor den aktuelle regionen belastes den kvote som er bestemt av Miljødirektoratet.</p>
 <p>For vedtak etter denne paragraf kan Miljødirektoratet i særlige tilfeller bestemme at fellingsoppdrag skal gjennomføres i regi av offentlig myndighet. Tilsvarende kan direktoratet eller den direktoratet bemyndiger som alternativ til felling iverksette særskilte tiltak for å skremme eller avskrekke bestemte individer av rovvilt fra uønsket adferd.</p>
 <p>Direktoratet eller den det bemyndiger kan, uten hensyn til de regler som ellers gjelder, av eget tiltak iverksette felling av vilt, når dette anses nødvendig for å ivareta offentlige interesser av betydning, herunder å forhindre skade på person, vesentlig skade på eiendom, eller skade på naturlig fauna, flora eller økosystemer, jf. naturmangfoldloven § 18 tredje ledd.</p>
-<p><em>Endret ved forskrifter 20 juni 2016 nr. 725 , 6 juni 2017 nr. 705 , 12 okt 2020 nr. 2036 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 20 juni 2016 nr. 725 , 6 juni 2017 nr. 705 , 12 okt 2020 nr. 2036 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="13a-avliving-av-vilt-til-forsvar-av-person-dyr">§ 13a. Avliving av vilt til forsvar av person, dyr</h4>
 <p>For avliving av vilt til forsvar av person og dyr gjelder naturmangfoldloven § 17 og § 17a .</p>
 <p>I tillegg kan eieren, eller en som opptrer på vegne av eieren, avlive jerv og gaupe når avliving må anses påkrevd for å fjerne en umiddelbar og betydelig fare for skade på bufe, tamrein og gris. Avliving og forsøk på avliving skal straks meldes til politiet.</p>
-<p><em>Tilføyd ved forskrift 17 sep 2010 nr. 1277 (i kraft 1 okt 2010), endret ved forskrift 2 mai 2013 nr. 431 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 sep 2010 nr. 1277 (i kraft 1 okt 2010), endret ved forskrift 2 mai 2013 nr. 431 .</p>
 <h2 id="kapittel-4-administrasjon-deltakelse-rapportering-meldeplikt-og-ettersk">Kapittel 4. Administrasjon, deltakelse, rapportering, meldeplikt og ettersøk</h2>
 <h4 id="14-administrasjon-og-kunngjring">§ 14. Administrasjon og kunngjøring</h4>
 <p>Statsforvalteren administrerer lisensfelling på gaupe, jerv, bjørn og ulv og kvotejakt på gaupe, i tråd med vedtak i rovviltnemnden eller i Miljødirektoratet.</p>
 <p>Dersom et fastsatt lisensfellingsområde eller jaktområde omfatter arealer i flere fylker, jf. forskriften § 10 siste ledd og forskriften § 11 annet ledd, administreres fellingen/jakten av den statsforvalter som har størst areal innenfor fellings-/jaktområdet.</p>
 <p>Fastsatt kvote og avgrensning av område for lisensfelling og kvotejakt, samt vilkår for å delta i fellingen/jakten, skal kunngjøres offentlig på den måte som er vanlig i vedkommende distrikt.</p>
-<p><em>Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 20 juni 2016 nr. 725 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 20 juni 2016 nr. 725 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="15-vilkar-for-deltakelse-i-lisensfelling">§ 15. Vilkår for deltakelse i lisensfelling</h4>
 <p>Lisensfelling kan bare utøves av registrert lisensjeger. Som lisensjeger regnes også deltakelse som hundefører. Registreringen skjer i Jegerregisteret for hver enkelt rovviltart det enkelte jaktår.</p>
 <p>For å kunne registrere seg som lisensjeger må en jeger ha</p>
@@ -205,36 +364,36 @@ d. muligheten for å gjennomføre forebyggende tiltak.</p>
 b. overholdt rapporteringsplikten i henhold til forskriften § 16 .</p>
 <p>Alle som deltar i lisensfelling plikter å holde seg oppdatert om kvotens størrelse, gjenværende kvote og eventuelle andre begrensninger for fellingsutøvelsen. Kvittering fra registrering som lisensjeger i Jegerregisteret skal medbringes under felling/fellingsforsøk.</p>
 <p>Ved brudd på gjeldende bestemmelser og fastsatte vilkår for lisensfelling, og i andre særlig tilfeller, kan registrering som lisensjeger nektes. Med særlige tilfeller regnes her deltakelse i ulovlig felling eller forsøk på felling, og annen adferd som er uforenlig med rovviltforvaltningen.</p>
-<p><em>Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 29 mai 2012 nr. 468 .</em></p>
+<p class="note">Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 29 mai 2012 nr. 468 .</p>
 <h4 id="16-rapportering-meldeplikt-og-underskelse-av-felte-dyr">§ 16. Rapportering, meldeplikt og undersøkelse av felte dyr</h4>
 <p>Felling eller forsøk på felling av gaupe, jerv, bjørn, ulv eller kongeørn og jakt på gaupe skal umiddelbart meldes til statsforvalteren og andre på slik måte som det bestemmes i vedtak om skadefelling, lisensfelling eller kvotejakt. Jeger skal fremvise felt dyr for Statens naturoppsyn for umiddelbar kontroll, merking og prøvetaking av biologisk materiale, og jeger skal kunne påvise fellingssted etter anmodning fra Statens naturoppsyn, politiet eller statsforvalteren.</p>
 <p>Den som feller gaupe, jerv, bjørn eller ulv plikter vederlagsfritt å innlevere dyret til vitenskapelige formål, jf. viltressursloven §§ 19 og 51 . Jeger eller preparant plikter å innlevere dyret innen 1. juni. Dersom felt rovvilt først leveres til preparant, skal dette gjøres innen 1. mai. Dersom innleveringsplikten ikke overholdes tilfaller individet i sin helhet det statlige viltfondet, jf. viltressursloven §§ 19 og 51 .</p>
-<p><em>Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 feb 2006 nr. 231 (i kraft 1 april 2006), 14 des 2020 nr. 3367 (i kraft 10 sep 2021), 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="17-ettersk-av-saret-og-skadet-rovvilt">§ 17. Ettersøk av såret og skadet rovvilt</h4>
 <p>Den som skadeskyter gaupe, jerv, bjørn, ulv eller kongeørn under forsøk på felling eller jakt i medhold av bestemmelsene i denne forskrift plikter å gjøre det en kan for å avlive dyret snarest mulig. Vedkommende plikter å forvisse seg om påskutt dyr er truffet eller ikke. Det skal ikke gjøres forsøk på felling eller jakt på nye dyr mens ettersøk pågår.</p>
 <p>Den som under jakt eller ved skadefelling/lisensfelling skadeskyter gaupe, jerv, bjørn, ulv eller kongeørn skal uten opphold underrette statsforvalteren og nærmeste politimyndighet. Statsforvalteren avgjør videre gjennomføring og avslutning av ettersøk. De som har deltatt i forsøket på felling eller jakt skal uten godtgjørelse bistå forvaltningsmyndighet eller politimyndighet i det videre ettersøk.</p>
 <p>Ved ettersøk av rovvilt som påtreffes skadet eller skades utenom lovlig jakt eller fellingsforsøk skal kommunen straks varsle statsforvalteren og nærmeste politimyndighet. Statsforvalteren og politiet kan beslutte at ettersøk skal gjennomføres med særlig kvalifisert personell.</p>
-<p><em>Endret ved forskrift 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 14 des 2020 nr. 3367 (i kraft 10 sep 2021).</p>
 <h4 id="17a-varsling-og-rapportering-av-bruk-av-metoder-ved-skadefelling">§ 17a. Varsling og rapportering av bruk av metoder ved skadefelling</h4>
 <p>Den som ved skadefelling eller forsøk på skadefelling av gaupe, jerv, bjørn, ulv eller kongeørn tar i bruk synlig lys eller særskilte siktemidler, jf. viltressursloven § 26 , eller luftfartøy, motorkjøretøy eller motorfartøy, jf. viltressursloven § 29 , skal varsle grunneieren, politiet og kommunen før metodene brukes.</p>
 <p>Den som ved skadefelling eller forsøk på skadefelling av gaupe, jerv, bjørn, ulv eller kongeørn tar i bruk synlig lys eller særskilte siktemidler, jf. viltressursloven § 26 , eller luftfartøy, motorkjøretøy eller motorfartøy, jf. viltressursloven § 29 , skal rapportere bruken til den myndighet som har fattet avgjørelsen om uttak av det skadegjørende individ.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h2 id="kapittel-5-klage-dispensasjon-straff-og-ikrafttreden">Kapittel 5. Klage, dispensasjon, straff og ikrafttreden</h2>
 <h4 id="18-klageadgang">§ 18. Klageadgang</h4>
 <p>Rovviltnemndens vedtak om kvote for betinget skadefellingstillatelse og kvote for lisensfelling, jf. forskriften § 8 og § 10 eller kvotejakt på gaupe, jf. forskriften § 11 , kan påklages til Klima- og miljødepartementet. Klima- og miljødepartementet skal før klagen sluttbehandles gi Miljødirektoratet anledning til å gi en faglig tilråding i saken. For øvrig følger klagebehandlingen forvaltningslovens regler.</p>
 <p>Vedtak etter forskriften § 13 sjette ledd kan påklages til Klima- og miljødepartementet.</p>
 <p>Enkeltvedtak om kvote for betinget skadefellingstillatelse og kvote for lisensfelling, jf. forskriften § 8 , § 10 og § 13 , og kvotejakt på gaupe, jf. forskriften § 11 og § 13 , kan påklages av kommuner som har en tilknytning til vedtaket.</p>
 <p>Andre vedtak som fattes med hjemmel i denne forskrift kan påklages etter reglene i forvaltningsloven.</p>
-<p><em>Endret ved forskrifter 21 juni 2005 nr. 681 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 .</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2005 nr. 681 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 , 12 okt 2020 nr. 2036 .</p>
 <h4 id="19-dispensasjon">§ 19. Dispensasjon</h4>
 <p>Miljødirektoratet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskrift.</p>
-<p><em>Endret ved forskrift 20 juni 2016 nr. 725 .</em></p>
+<p class="note">Endret ved forskrift 20 juni 2016 nr. 725 .</p>
 <h4 id="20-myndighet-til-a-endre-forskriften">§ 20. Myndighet til å endre forskriften</h4>
 <p>Klima- og miljødepartementet kan vedta endringer i denne forskrift.</p>
-<p><em>Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="21-straff">§ 21. Straff</h4>
 <p>Overtredelse av bestemmelsene i denne forskriften er straffbart, jf. viltressursloven § 60 og naturmangfoldloven § 75 .</p>
-<p><em>Endret ved forskrifter 6 juni 2017 nr. 705 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 6 juni 2017 nr. 705 , 26 juni 2026 nr. 1380 (i kraft 1 juli 2026).</p>
 <h4 id="22-ikrafttreden">§ 22. Ikrafttreden</h4>
 <p>Denne forskrift trer i kraft 1. april 2005. Samtidig oppheves og endres følgende forskrifter</p>
 <ol>
@@ -472,6 +631,8 @@ b. overholdt rapporteringsplikten i henhold til forskriften § 16 .</p>
 <p>Det fremgår av forskriften § 20 at Klima- og miljødepartementet har myndighet til å foreta endringer i forskriften. Eventuelle forslag til endringer i forskrift vil bli sendt på høring på vanlig måte.</p>
 <p>Kommentarene til forskriften har ikke karakter av rettslig bindende regler, men presiserer og utdyper hvordan myndighetene tolker bestemmelsene og hva som vil bli lagt til grunn ved anvendelsen. Kommentarene kan innenfor rammen av bestemmelsene videreutvikles gjennom forvaltningspraksis av Klima- og miljødepartementet og av Miljødirektoratet i samråd med departementet. Vesentlige endringer i kommentarene bør normalt i forkant drøftes med representanter for de interessene som blir mest berørt av endringene.</p>
 <p>Kommentarene endret ved forskrift 21 feb 2006 nr. 231 (i kraft 1 april 2006), ved e-post fra Miljøverndepartementet 13 okt 2009, ved forskrift 14 sep 2011 nr. 934 (i kraft 1 okt 2011), ved e-post fra Miljøverndepartementet 13 nov 2013, ved forskrifter 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 20 juni 2016 nr. 725 , ved e-post fra Klima- og miljødepartementet 9 jan 2017, ved forskrifter 14 feb 2017 nr. 180 , 6 juni 2017 nr. 705 , ved e-post fra Klima- og miljødepartementet 7 juni 2017, ved e-post fra Klima- og miljødepartementet 9 mai 2018, 7 mars 2019 nr. 252 , 12 okt 2020 nr. 2036 , 14 des 2020 nr. 3367 (i kraft 10 sep 2021), ved e-post fra Klima- og miljødepartementet 11 april 2023.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

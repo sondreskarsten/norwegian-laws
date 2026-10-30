@@ -19,69 +19,410 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1987-06-15-507.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om sikkerhetstiltak m.m. på skip" href="../feeds/forskrift-1987-06-15-507.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om sikkerhetstiltak m.m. på skip</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1987-06-15-507</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1987-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-26-1372</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1987-06-15-507" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 3. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#4-dispensasjon">§ 4. Dispensasjon</a></li>
+<li class="lvl4"><a href="#5-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 5. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#6-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 6. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl2"><a href="#kapittel-2-atkomstmidler-mm">Kapittel 2. Atkomstmidler m.m.</a></li>
+<li class="lvl4"><a href="#7-kontroll-mm-av-faste-og-flyttbare-atkomstmidler-og-passasjer-om-bord">§ 7. Kontroll m.m. av faste og flyttbare atkomstmidler og passasjer om bord</a></li>
+<li class="lvl4"><a href="#8-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 8. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#9-landganger-fallrep-personheisanlegg-mm">§ 9. Landganger, fallrep, personheisanlegg m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-3-lukningsanordninger-plassering-av-last-mm">Kapittel 3. Lukningsanordninger, plassering av last m.m.</a></li>
+<li class="lvl4"><a href="#10-luker-lukedeksel-mm">§ 10. Luker, lukedeksel m.m.</a></li>
+<li class="lvl4"><a href="#11-porter-i-skipssiden">§ 11. Porter i skipssiden</a></li>
+<li class="lvl4"><a href="#12-fring-av-dekkslast">§ 12. Føring av dekkslast</a></li>
+<li class="lvl4"><a href="#13-ombord-og-ilandkjring-og-plassering-av-kjrety-mm-pa-ferjer">§ 13. Ombord- og ilandkjøring og plassering av kjøretøy m.m. på ferjer</a></li>
+<li class="lvl4"><a href="#14-stabilitet">§ 14. Stabilitet</a></li>
+<li class="lvl2"><a href="#kapittel-3a-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">Kapittel 3a. Havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</a></li>
+<li class="lvl4"><a href="#14a-virkeomradet-tilkapittel-3aom-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">§ 14a. Virkeområdet tilkapittel 3aom havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</a></li>
+<li class="lvl4"><a href="#14b-havarikontrollopplysninger-solasregel-ii-119">§ 14b. Havarikontrollopplysninger (SOLASregel II-1/19)</a></li>
+<li class="lvl4"><a href="#14b-1-havarikontrollvelser-for-passasjerskip-solasregel-ii-119-1">§ 14b-1. Havarikontrolløvelser for passasjerskip (SOLASregel II-1/19-1)</a></li>
+<li class="lvl4"><a href="#14c-lasting-av-passasjerskip-solasregel-ii-120">§ 14c. Lasting av passasjerskip (SOLASregel II-1/20)</a></li>
+<li class="lvl4"><a href="#14d-periodisk-betjening-og-inspeksjon-av-vanntette-drer-osv-pa-passasjerskip-solasregel-ii-121">§ 14d. Periodisk betjening og inspeksjon av vanntette dører osv. på passasjerskip (SOLASregel II-1/21)</a></li>
+<li class="lvl4"><a href="#14e-hindring-av-og-kontroll-med-vanninntrenging-osv-solasregel-ii-122">§ 14e. Hindring av og kontroll med vanninntrenging osv. (SOLASregel II-1/22)</a></li>
+<li class="lvl4"><a href="#14f-srlige-krav-til-roro-passasjerskip-solasregel-ii-123">§ 14f. Særlige krav til roro-passasjerskip (SOLASregel II-1/23)</a></li>
+<li class="lvl4"><a href="#14g-hindring-av-og-kontroll-med-vanninntrenging-osv-pa-lasteskip-solasregel-ii-124">§ 14g. Hindring av og kontroll med vanninntrenging osv. på lasteskip (SOLASregel II-1/24)</a></li>
+<li class="lvl2"><a href="#kapittel-4-sikkerhetstiltak-ved-fare-for-gassdannelse-oksygenmangel-mm-i-lukkede-rom-ol">Kapittel 4. Sikkerhetstiltak ved fare for gassdannelse, oksygenmangel m.m. i lukkede rom o.l.</a></li>
+<li class="lvl4"><a href="#15-opphevet">§ 15. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-opphevet">§ 16. (Opphevet)</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19-fring-av-truck-eller-kran">§ 19. Føring av truck eller kran</a></li>
+<li class="lvl2"><a href="#kapittel-5-sikkerhetstiltak-under-helikopteroperasjoner-pa-skip-med-helikopterdekklandingsdekklandingsomradendlandingsomradeomrade-for-vinsjoperasjoner">Kapittel 5. Sikkerhetstiltak under helikopteroperasjoner på skip med helikopterdekk/landingsdekk/landingsområde/nødlandingsområde/område for vinsjoperasjoner</a></li>
+<li class="lvl4"><a href="#20-sikkerhetstiltak-mm">§ 20. Sikkerhetstiltak m.m.</a></li>
+<li class="lvl4"><a href="#21-grunnlag-for-helikopteroperasjoner">§ 21. Grunnlag for helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#22-kommunikasjon-mm-under-helikopteroperasjoner">§ 22. Kommunikasjon m.m. under helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#23-andre-srlige-tiltak-under-helikopteroperasjoner">§ 23. Andre særlige tiltak under helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#24-srskilte-tiltak-pa-tankskip-og-obo-skip">§ 24. Særskilte tiltak på tankskip og OBO-skip</a></li>
+<li class="lvl4"><a href="#25-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 25. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl2"><a href="#kapittel-6">Kapittel 6.</a></li>
+<li class="lvl2"><a href="#kapittel-7-andre-sikkerhetstiltak">Kapittel 7. Andre sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#30-spesielle-driftsbetingelser-for-farty-med-passasjersertifikat">§ 30. Spesielle driftsbetingelser for fartøy med passasjersertifikat</a></li>
+<li class="lvl4"><a href="#31-opphevet">§ 31. (Opphevet)</a></li>
+<li class="lvl4"><a href="#32-skilter-og-oppslag">§ 32. Skilter og oppslag</a></li>
+<li class="lvl4"><a href="#33-oppbevaring-og-bruk-av-brennstoff-og-sprengstoff">§ 33. Oppbevaring og bruk av brennstoff og sprengstoff</a></li>
+<li class="lvl4"><a href="#34-varselskilt-ved-radar">§ 34. Varselskilt ved radar</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#35-ikrafttredelse-mv">§ 35. Ikrafttredelse mv.</a></li>
+<li class="lvl2"><a href="#vedlegg-1-bestemmelser-vedrrende-fallrepsplattformer-opphengingsarrangement-og-landganger">Vedlegg 1. Bestemmelser vedrørende fallrepsplattformer, opphengingsarrangement og landganger</a></li>
+<li class="lvl2"><a href="#vedlegg-2-opphevet">Vedlegg 2. (Opphevet)</a></li>
+<li class="lvl2"><a href="#solas-74">SOLAS 74</a></li>
+<li class="lvl3"><a href="#kapittel-ii-1bygging-konstruksjon-oppdeling-og-stabilitet-maskineri-og-elektriske-anlegg">KAPITTEL II-1BYGGING – KONSTRUKSJON, OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE ANLEGG</a></li>
+<li class="lvl4"><a href="#del-agenerelle-bestemmelser">Del AGenerelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-1-anvendelse">Regel 1 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-2-definisjoner">Regel 2 Definisjoner</a></li>
+<li class="lvl5"><a href="#regel-3-definisjoner-til-del-c-d-og-e">Regel 3 Definisjoner til del C, D og E</a></li>
+<li class="lvl4"><a href="#del-a-1skipskonstruksjon">Del A-1Skipskonstruksjon</a></li>
+<li class="lvl5"><a href="#regel-3-1-strukturelle-mekaniske-og-elektriske-krav-til-skip">Regel 3-1 Strukturelle, mekaniske og elektriske krav til skip</a></li>
+<li class="lvl5"><a href="#regel-3-2-beskyttende-overflatebehandling-av-dedikerte-sjvannsballasttanker-i-alle-typer-skip-og-dobbeltsiderom-i-bulkskip">Regel 3-2 Beskyttende overflatebehandling av dedikerte sjøvannsballasttanker i alle typer skip og dobbeltsiderom i bulkskip</a></li>
+<li class="lvl5"><a href="#regel-3-3-sikker-atkomst-til-baugen-pa-tankskip">Regel 3-3 Sikker atkomst til baugen på tankskip</a></li>
+<li class="lvl5"><a href="#regel-3-4-ndslepearrangementer-og-prosedyrer">Regel 3-4 Nødslepearrangementer og -prosedyrer</a></li>
+<li class="lvl5"><a href="#regel-3-5-installering-av-nye-materialer-som-inneholder-asbest">Regel 3-5 Installering av nye materialer som inneholder asbest</a></li>
+<li class="lvl5"><a href="#regel-3-6-atkomst-til-og-innenfor-rom-i-og-forut-for-lasteomradet-pa-oljetankskip-og-bulkskip">Regel 3-6 Atkomst til og innenfor rom i og forut for lasteområdet på oljetankskip og bulkskip</a></li>
+<li class="lvl5"><a href="#regel-3-7-byggetegninger-oppbevart-om-bord-og-pa-land">Regel 3-7 Byggetegninger oppbevart om bord og på land</a></li>
+<li class="lvl5"><a href="#regel-3-8-slepe-og-fortyningsutstyr">Regel 3-8 Slepe- og fortøyningsutstyr</a></li>
+<li class="lvl5"><a href="#regel-3-9-midler-for-ombord-og-ilandstigning">Regel 3-9 Midler for ombord- og ilandstigning</a></li>
+<li class="lvl5"><a href="#regel-3-10-malbaserte-skipsbyggingsstandarder-for-bulkskip-og-oljetankskip">Regel 3-10 Målbaserte skipsbyggingsstandarder for bulkskip og oljetankskip</a></li>
+<li class="lvl5"><a href="#regel-3-11-korrosjonsbeskyttelse-av-lasteoljetanker-pa-raoljetankskip">Regel 3-11 Korrosjonsbeskyttelse av lasteoljetanker på råoljetankskip</a></li>
+<li class="lvl5"><a href="#regel-3-12-vern-mot-sty">Regel 3-12 Vern mot støy</a></li>
+<li class="lvl5"><a href="#regel-3-1321lfteinnretninger-og-ankerhandteringsvinsjer">Regel 3-1321Løfteinnretninger og ankerhåndteringsvinsjer</a></li>
+<li class="lvl4"><a href="#del-boppdeling-og-stabilitet">Del BOppdeling og stabilitet</a></li>
+<li class="lvl5"><a href="#regel-4-generelle-bestemmelser">Regel 4 Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#del-b-1stabilitet">Del B-1Stabilitet</a></li>
+<li class="lvl5"><a href="#regel-5-intaktstabilitet">Regel 5 Intaktstabilitet</a></li>
+<li class="lvl5"><a href="#regel-5-1-stabilitetsopplysninger-som-skipsfreren-skal-motta32">Regel 5-1 Stabilitetsopplysninger som skipsføreren skal motta32</a></li>
+<li class="lvl5"><a href="#regel-6-pakrevd-oppdelingsindeks-r34">Regel 6 Påkrevd oppdelingsindeks R34</a></li>
+<li class="lvl5"><a href="#regel-7-oppnadd-oppdelingsindeks-a">Regel 7 Oppnådd oppdelingsindeks A</a></li>
+<li class="lvl5"><a href="#regel-7-1-beregning-av-faktorpi">Regel 7-1 Beregning av faktorpi</a></li>
+<li class="lvl5"><a href="#regel-7-2-beregning-av-faktorsi">Regel 7-2 Beregning av faktorsi</a></li>
+<li class="lvl5"><a href="#regel-7-3-fyllingsgrad">Regel 7-3 Fyllingsgrad</a></li>
+<li class="lvl5"><a href="#regel-8-srlige-stabilitetskrav-for-passasjerskip">Regel 8 Særlige stabilitetskrav for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-8-1-systemytelse-etter-en-fyllingsulykke-pa-passasjerskip">Regel 8-1 Systemytelse etter en fyllingsulykke på passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-2oppdeling-vanntett-og-vrtett-integritet">Del B-2Oppdeling, vanntett og værtett integritet</a></li>
+<li class="lvl5"><a href="#regel-9-dobbeltbunner-i-passasjerskip-og-andre-lasteskip-enn-tankskip">Regel 9 Dobbeltbunner i passasjerskip og andre lasteskip enn tankskip</a></li>
+<li class="lvl5"><a href="#regel-10-konstruksjon-av-vanntette-skott">Regel 10 Konstruksjon av vanntette skott</a></li>
+<li class="lvl5"><a href="#regel-11-frstegangsprving-av-vanntette-skott-osv">Regel 11 Førstegangsprøving av vanntette skott osv.</a></li>
+<li class="lvl5"><a href="#regel-12-skarpskott-og-maskinromskott-akseltunneler-osv">Regel 12 Skarpskott og maskinromskott, akseltunneler osv.</a></li>
+<li class="lvl5"><a href="#regel-13-apninger-i-vanntette-avgrensninger-under-skottdekket-pa-passasjerskip">Regel 13 Åpninger i vanntette avgrensninger under skottdekket på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-13-1-apninger-i-vanntette-skott-og-innvendige-dekk-pa-lasteskip">Regel 13-1 Åpninger i vanntette skott og innvendige dekk på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-14-passasjerskip-som-transporterer-godskjretyer-og-medflgende-personale">Regel 14 Passasjerskip som transporterer godskjøretøyer og medfølgende personale</a></li>
+<li class="lvl5"><a href="#regel-15-apninger-i-platehuden-under-skottdekket-pa-passasjerskip-og-fribordsdekket-pa-lasteskip">Regel 15 Åpninger i platehuden under skottdekket på passasjerskip og fribordsdekket på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-15-1-utvendige-apninger-pa-lasteskip">Regel 15-1 Utvendige åpninger på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-16-konstruksjon-og-frstegangsprving-av-vanntette-lukninger">Regel 16 Konstruksjon og førstegangsprøving av vanntette lukninger</a></li>
+<li class="lvl5"><a href="#regel-16-1-konstruksjon-og-frstegangsprving-av-vanntette-dekk-sjakter-osv">Regel 16-1 Konstruksjon og førstegangsprøving av vanntette dekk, sjakter osv.</a></li>
+<li class="lvl5"><a href="#regel-17-innvendig-vanntett-integritet-over-skottdekket-pa-passasjerskip">Regel 17 Innvendig vanntett integritet over skottdekket på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-17-1-skrogets-og-overbygningers-integritet-skadeforhindring-og-skadekontroll-pa-roro-passasjerskip">Regel 17-1 Skrogets og overbygningers integritet, skadeforhindring og skadekontroll på roro-passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-3fastsettelse-av-oppdelingslastelinje-for-passasjerskip">Del B-3Fastsettelse av oppdelingslastelinje for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-18-fastsettelse-avmerking-og-innfring-av-oppdelingslastelinjer-for-passasjerskip">Regel 18 Fastsettelse, avmerking og innføring av oppdelingslastelinjer for passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-4stabilitetsstyring">Del B-4Stabilitetsstyring</a></li>
+<li class="lvl5"><a href="#regel-19-skadekontrollopplysninger42">Regel 19 Skadekontrollopplysninger42</a></li>
+<li class="lvl5"><a href="#regel-19-1-skadekontrollvelser-for-passasjerskip">Regel 19-1 Skadekontrolløvelser for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-20-lasting-av-skip">Regel 20 Lasting av skip</a></li>
+<li class="lvl5"><a href="#regel-21-periodisk-betjening-og-inspeksjon-av-vanntette-drer-osv-pa-passasjerskip">Regel 21 Periodisk betjening og inspeksjon av vanntette dører osv. på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-22-hindring-av-og-kontroll-med-vanninntrenging-osv">Regel 22 Hindring av og kontroll med vanninntrenging osv.</a></li>
+<li class="lvl5"><a href="#regel-22-1-fyllingsdeteksjonssystem-for-passasjerskip-som-frer-36-personer-eller-mer">Regel 22-1 Fyllingsdeteksjonssystem for passasjerskip som fører 36 personer eller mer</a></li>
+<li class="lvl5"><a href="#regel-23-srlige-krav-til-roro-passasjerskip">Regel 23 Særlige krav til roro-passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-24-tilleggskrav-til-hindring-av-og-kontroll-med-vanninntrenging-osv-pa-lasteskip">Regel 24 Tilleggskrav til hindring av og kontroll med vanninntrenging osv. på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-25-vannstandsdetektorer-pa-lasteskip-med-ett-enkelt-lasterom-unntatt-bulkskip">Regel 25 Vannstandsdetektorer på lasteskip med ett enkelt lasterom, unntatt bulkskip</a></li>
+<li class="lvl5"><a href="#regel-25-1-vannstandsdetektorer-pa-lasteskip-med-flere-lasterom-unntatt-bulkskip-og-tankskip">Regel 25-1 Vannstandsdetektorer på lasteskip med flere lasterom, unntatt bulkskip og tankskip</a></li>
+<li class="lvl4"><a href="#del-cmaskinerianlegg">Del CMaskinerianlegg</a></li>
+<li class="lvl5"><a href="#regel-26-generelle-bestemmelser">Regel 26 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-27-maskineri">Regel 27 Maskineri</a></li>
+<li class="lvl5"><a href="#regel-28-midler-for-gang-akterover49">Regel 28 Midler for gang akterover49</a></li>
+<li class="lvl5"><a href="#regel-29-styremaskin50">Regel 29 Styremaskin50</a></li>
+<li class="lvl5"><a href="#regel-30-tilleggskrav-for-elektriske-og-elektrohydrauliske-styremaskiner">Regel 30 Tilleggskrav for elektriske og elektrohydrauliske styremaskiner</a></li>
+<li class="lvl5"><a href="#regel-31-betjeningsinnretninger-for-maskineri-pa-skip-bygget-1-juli-1998-eller-senere">Regel 31 Betjeningsinnretninger for maskineri på skip bygget 1. juli 1998 eller senere</a></li>
+<li class="lvl5"><a href="#regel-32-dampkjeler-og-fdevannssystemer">Regel 32 Dampkjeler og fødevannssystemer</a></li>
+<li class="lvl5"><a href="#regel-33-damprrsystemer">Regel 33 Damprørsystemer</a></li>
+<li class="lvl5"><a href="#regel-34-trykkluftsystemer">Regel 34 Trykkluftsystemer</a></li>
+<li class="lvl5"><a href="#regel-35-ventilasjonssystemer-i-maskinrom">Regel 35 Ventilasjonssystemer i maskinrom</a></li>
+<li class="lvl5"><a href="#regel-35-1-lensepumpearrangementer">Regel 35-1 Lensepumpearrangementer</a></li>
+<li class="lvl5"><a href="#regel-3652vern-mot-sty">Regel 3652Vern mot støy</a></li>
+<li class="lvl5"><a href="#regel-37-samband-mellom-kommandobro-og-maskinrom">Regel 37 Samband mellom kommandobro og maskinrom</a></li>
+<li class="lvl5"><a href="#regel-38-maskinistalarm">Regel 38 Maskinistalarm</a></li>
+<li class="lvl5"><a href="#regel-39-plassering-av-ndinstallasjoner-i-passasjerskip">Regel 39 Plassering av nødinstallasjoner i passasjerskip</a></li>
+<li class="lvl4"><a href="#del-delektriske-installasjoner">Del DElektriske installasjoner</a></li>
+<li class="lvl5"><a href="#regel-40-generelle-bestemmelser">Regel 40 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-41-elektrisk-hovedkraftkilde-og-belysningsanlegg">Regel 41 Elektrisk hovedkraftkilde og belysningsanlegg</a></li>
+<li class="lvl5"><a href="#regel-42-elektrisk-ndkraftkilde-pa-passasjerskip">Regel 42 Elektrisk nødkraftkilde på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-42-1-ekstra-ndbelysning-for-roro-passasjerskip">Regel 42-1 Ekstra nødbelysning for roro-passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-43-elektrisk-ndkraftkilde-pa-lasteskip">Regel 43 Elektrisk nødkraftkilde på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-44-startarrangementer-for-ndgeneratorsett">Regel 44 Startarrangementer for nødgeneratorsett</a></li>
+<li class="lvl5"><a href="#regel-45-sikkerhetstiltak-mot-stt-brann-og-andre-farer-som-skyldes-elektrisitet">Regel 45 Sikkerhetstiltak mot støt, brann og andre farer som skyldes elektrisitet</a></li>
+<li class="lvl4"><a href="#del-etilleggskrav-for-periodisk-ubemannede-maskinrom">Del ETilleggskrav for periodisk ubemannede maskinrom</a></li>
+<li class="lvl5"><a href="#regel-46-generelle-bestemmelser">Regel 46 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-47-brannsikring">Regel 47 Brannsikring</a></li>
+<li class="lvl5"><a href="#regel-48-beskyttelse-mot-fylling">Regel 48 Beskyttelse mot fylling</a></li>
+<li class="lvl5"><a href="#regel-49-betjening-av-framdriftsmaskineriet-fra-kommandobroen">Regel 49 Betjening av framdriftsmaskineriet fra kommandobroen</a></li>
+<li class="lvl5"><a href="#regel-50-kommunikasjon">Regel 50 Kommunikasjon</a></li>
+<li class="lvl5"><a href="#regel-51-alarmsystem">Regel 51 Alarmsystem</a></li>
+<li class="lvl5"><a href="#regel-52-sikkerhetssystemer">Regel 52 Sikkerhetssystemer</a></li>
+<li class="lvl5"><a href="#regel-53-srlige-krav-til-maskineri-kjeler-og-elektriske-installasjoner">Regel 53 Særlige krav til maskineri, kjeler og elektriske installasjoner</a></li>
+<li class="lvl5"><a href="#regel-54-srskilt-vurdering-av-passasjerskip">Regel 54 Særskilt vurdering av passasjerskip</a></li>
+<li class="lvl4"><a href="#del-falternative-utforminger-og-arrangementer">Del FAlternative utforminger og arrangementer</a></li>
+<li class="lvl5"><a href="#regel-55-alternative-utforminger-og-arrangementer">Regel 55 Alternative utforminger og arrangementer</a></li>
+<li class="lvl4"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt">Del GSkip som bruker drivstoff med lavt flammepunkt</a></li>
+<li class="lvl5"><a href="#regel-56-anvendelse">Regel 56 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-57-krav-til-skip-som-bruker-drivstoff-med-lavt-flammepunkt">Regel 57 Krav til skip som bruker drivstoff med lavt flammepunkt</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-26-1372.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1987-06-15-507.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om sikkerhetstiltak m.m. på passasjerskip, lasteskip og lektere</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1987-06-15-507.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1987-06-15-507 <code>forskrift/1987-06-15-507</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om sikkerhetstiltak m.m. på skip</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.1987</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-26-1372 <code>forskrift/2025-06-26-1372</code> fra 26.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1987-06-15-507" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 3. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#4-dispensasjon">§ 4. Dispensasjon</a></li>
+<li class="lvl4"><a href="#5-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 5. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#6-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 6. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl2"><a href="#kapittel-2-atkomstmidler-mm">Kapittel 2. Atkomstmidler m.m.</a></li>
+<li class="lvl4"><a href="#7-kontroll-mm-av-faste-og-flyttbare-atkomstmidler-og-passasjer-om-bord">§ 7. Kontroll m.m. av faste og flyttbare atkomstmidler og passasjer om bord</a></li>
+<li class="lvl4"><a href="#8-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 8. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl4"><a href="#9-landganger-fallrep-personheisanlegg-mm">§ 9. Landganger, fallrep, personheisanlegg m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-3-lukningsanordninger-plassering-av-last-mm">Kapittel 3. Lukningsanordninger, plassering av last m.m.</a></li>
+<li class="lvl4"><a href="#10-luker-lukedeksel-mm">§ 10. Luker, lukedeksel m.m.</a></li>
+<li class="lvl4"><a href="#11-porter-i-skipssiden">§ 11. Porter i skipssiden</a></li>
+<li class="lvl4"><a href="#12-fring-av-dekkslast">§ 12. Føring av dekkslast</a></li>
+<li class="lvl4"><a href="#13-ombord-og-ilandkjring-og-plassering-av-kjrety-mm-pa-ferjer">§ 13. Ombord- og ilandkjøring og plassering av kjøretøy m.m. på ferjer</a></li>
+<li class="lvl4"><a href="#14-stabilitet">§ 14. Stabilitet</a></li>
+<li class="lvl2"><a href="#kapittel-3a-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">Kapittel 3a. Havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</a></li>
+<li class="lvl4"><a href="#14a-virkeomradet-tilkapittel-3aom-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">§ 14a. Virkeområdet tilkapittel 3aom havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</a></li>
+<li class="lvl4"><a href="#14b-havarikontrollopplysninger-solasregel-ii-119">§ 14b. Havarikontrollopplysninger (SOLASregel II-1/19)</a></li>
+<li class="lvl4"><a href="#14b-1-havarikontrollvelser-for-passasjerskip-solasregel-ii-119-1">§ 14b-1. Havarikontrolløvelser for passasjerskip (SOLASregel II-1/19-1)</a></li>
+<li class="lvl4"><a href="#14c-lasting-av-passasjerskip-solasregel-ii-120">§ 14c. Lasting av passasjerskip (SOLASregel II-1/20)</a></li>
+<li class="lvl4"><a href="#14d-periodisk-betjening-og-inspeksjon-av-vanntette-drer-osv-pa-passasjerskip-solasregel-ii-121">§ 14d. Periodisk betjening og inspeksjon av vanntette dører osv. på passasjerskip (SOLASregel II-1/21)</a></li>
+<li class="lvl4"><a href="#14e-hindring-av-og-kontroll-med-vanninntrenging-osv-solasregel-ii-122">§ 14e. Hindring av og kontroll med vanninntrenging osv. (SOLASregel II-1/22)</a></li>
+<li class="lvl4"><a href="#14f-srlige-krav-til-roro-passasjerskip-solasregel-ii-123">§ 14f. Særlige krav til roro-passasjerskip (SOLASregel II-1/23)</a></li>
+<li class="lvl4"><a href="#14g-hindring-av-og-kontroll-med-vanninntrenging-osv-pa-lasteskip-solasregel-ii-124">§ 14g. Hindring av og kontroll med vanninntrenging osv. på lasteskip (SOLASregel II-1/24)</a></li>
+<li class="lvl2"><a href="#kapittel-4-sikkerhetstiltak-ved-fare-for-gassdannelse-oksygenmangel-mm-i-lukkede-rom-ol">Kapittel 4. Sikkerhetstiltak ved fare for gassdannelse, oksygenmangel m.m. i lukkede rom o.l.</a></li>
+<li class="lvl4"><a href="#15-opphevet">§ 15. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-opphevet">§ 16. (Opphevet)</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19-fring-av-truck-eller-kran">§ 19. Føring av truck eller kran</a></li>
+<li class="lvl2"><a href="#kapittel-5-sikkerhetstiltak-under-helikopteroperasjoner-pa-skip-med-helikopterdekklandingsdekklandingsomradendlandingsomradeomrade-for-vinsjoperasjoner">Kapittel 5. Sikkerhetstiltak under helikopteroperasjoner på skip med helikopterdekk/landingsdekk/landingsområde/nødlandingsområde/område for vinsjoperasjoner</a></li>
+<li class="lvl4"><a href="#20-sikkerhetstiltak-mm">§ 20. Sikkerhetstiltak m.m.</a></li>
+<li class="lvl4"><a href="#21-grunnlag-for-helikopteroperasjoner">§ 21. Grunnlag for helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#22-kommunikasjon-mm-under-helikopteroperasjoner">§ 22. Kommunikasjon m.m. under helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#23-andre-srlige-tiltak-under-helikopteroperasjoner">§ 23. Andre særlige tiltak under helikopteroperasjoner</a></li>
+<li class="lvl4"><a href="#24-srskilte-tiltak-pa-tankskip-og-obo-skip">§ 24. Særskilte tiltak på tankskip og OBO-skip</a></li>
+<li class="lvl4"><a href="#25-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 25. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</a></li>
+<li class="lvl2"><a href="#kapittel-6">Kapittel 6.</a></li>
+<li class="lvl2"><a href="#kapittel-7-andre-sikkerhetstiltak">Kapittel 7. Andre sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#30-spesielle-driftsbetingelser-for-farty-med-passasjersertifikat">§ 30. Spesielle driftsbetingelser for fartøy med passasjersertifikat</a></li>
+<li class="lvl4"><a href="#31-opphevet">§ 31. (Opphevet)</a></li>
+<li class="lvl4"><a href="#32-skilter-og-oppslag">§ 32. Skilter og oppslag</a></li>
+<li class="lvl4"><a href="#33-oppbevaring-og-bruk-av-brennstoff-og-sprengstoff">§ 33. Oppbevaring og bruk av brennstoff og sprengstoff</a></li>
+<li class="lvl4"><a href="#34-varselskilt-ved-radar">§ 34. Varselskilt ved radar</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#35-ikrafttredelse-mv">§ 35. Ikrafttredelse mv.</a></li>
+<li class="lvl2"><a href="#vedlegg-1-bestemmelser-vedrrende-fallrepsplattformer-opphengingsarrangement-og-landganger">Vedlegg 1. Bestemmelser vedrørende fallrepsplattformer, opphengingsarrangement og landganger</a></li>
+<li class="lvl2"><a href="#vedlegg-2-opphevet">Vedlegg 2. (Opphevet)</a></li>
+<li class="lvl2"><a href="#solas-74">SOLAS 74</a></li>
+<li class="lvl3"><a href="#kapittel-ii-1bygging-konstruksjon-oppdeling-og-stabilitet-maskineri-og-elektriske-anlegg">KAPITTEL II-1BYGGING – KONSTRUKSJON, OPPDELING OG STABILITET, MASKINERI OG ELEKTRISKE ANLEGG</a></li>
+<li class="lvl4"><a href="#del-agenerelle-bestemmelser">Del AGenerelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-1-anvendelse">Regel 1 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-2-definisjoner">Regel 2 Definisjoner</a></li>
+<li class="lvl5"><a href="#regel-3-definisjoner-til-del-c-d-og-e">Regel 3 Definisjoner til del C, D og E</a></li>
+<li class="lvl4"><a href="#del-a-1skipskonstruksjon">Del A-1Skipskonstruksjon</a></li>
+<li class="lvl5"><a href="#regel-3-1-strukturelle-mekaniske-og-elektriske-krav-til-skip">Regel 3-1 Strukturelle, mekaniske og elektriske krav til skip</a></li>
+<li class="lvl5"><a href="#regel-3-2-beskyttende-overflatebehandling-av-dedikerte-sjvannsballasttanker-i-alle-typer-skip-og-dobbeltsiderom-i-bulkskip">Regel 3-2 Beskyttende overflatebehandling av dedikerte sjøvannsballasttanker i alle typer skip og dobbeltsiderom i bulkskip</a></li>
+<li class="lvl5"><a href="#regel-3-3-sikker-atkomst-til-baugen-pa-tankskip">Regel 3-3 Sikker atkomst til baugen på tankskip</a></li>
+<li class="lvl5"><a href="#regel-3-4-ndslepearrangementer-og-prosedyrer">Regel 3-4 Nødslepearrangementer og -prosedyrer</a></li>
+<li class="lvl5"><a href="#regel-3-5-installering-av-nye-materialer-som-inneholder-asbest">Regel 3-5 Installering av nye materialer som inneholder asbest</a></li>
+<li class="lvl5"><a href="#regel-3-6-atkomst-til-og-innenfor-rom-i-og-forut-for-lasteomradet-pa-oljetankskip-og-bulkskip">Regel 3-6 Atkomst til og innenfor rom i og forut for lasteområdet på oljetankskip og bulkskip</a></li>
+<li class="lvl5"><a href="#regel-3-7-byggetegninger-oppbevart-om-bord-og-pa-land">Regel 3-7 Byggetegninger oppbevart om bord og på land</a></li>
+<li class="lvl5"><a href="#regel-3-8-slepe-og-fortyningsutstyr">Regel 3-8 Slepe- og fortøyningsutstyr</a></li>
+<li class="lvl5"><a href="#regel-3-9-midler-for-ombord-og-ilandstigning">Regel 3-9 Midler for ombord- og ilandstigning</a></li>
+<li class="lvl5"><a href="#regel-3-10-malbaserte-skipsbyggingsstandarder-for-bulkskip-og-oljetankskip">Regel 3-10 Målbaserte skipsbyggingsstandarder for bulkskip og oljetankskip</a></li>
+<li class="lvl5"><a href="#regel-3-11-korrosjonsbeskyttelse-av-lasteoljetanker-pa-raoljetankskip">Regel 3-11 Korrosjonsbeskyttelse av lasteoljetanker på råoljetankskip</a></li>
+<li class="lvl5"><a href="#regel-3-12-vern-mot-sty">Regel 3-12 Vern mot støy</a></li>
+<li class="lvl5"><a href="#regel-3-1321lfteinnretninger-og-ankerhandteringsvinsjer">Regel 3-1321Løfteinnretninger og ankerhåndteringsvinsjer</a></li>
+<li class="lvl4"><a href="#del-boppdeling-og-stabilitet">Del BOppdeling og stabilitet</a></li>
+<li class="lvl5"><a href="#regel-4-generelle-bestemmelser">Regel 4 Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#del-b-1stabilitet">Del B-1Stabilitet</a></li>
+<li class="lvl5"><a href="#regel-5-intaktstabilitet">Regel 5 Intaktstabilitet</a></li>
+<li class="lvl5"><a href="#regel-5-1-stabilitetsopplysninger-som-skipsfreren-skal-motta32">Regel 5-1 Stabilitetsopplysninger som skipsføreren skal motta32</a></li>
+<li class="lvl5"><a href="#regel-6-pakrevd-oppdelingsindeks-r34">Regel 6 Påkrevd oppdelingsindeks R34</a></li>
+<li class="lvl5"><a href="#regel-7-oppnadd-oppdelingsindeks-a">Regel 7 Oppnådd oppdelingsindeks A</a></li>
+<li class="lvl5"><a href="#regel-7-1-beregning-av-faktorpi">Regel 7-1 Beregning av faktorpi</a></li>
+<li class="lvl5"><a href="#regel-7-2-beregning-av-faktorsi">Regel 7-2 Beregning av faktorsi</a></li>
+<li class="lvl5"><a href="#regel-7-3-fyllingsgrad">Regel 7-3 Fyllingsgrad</a></li>
+<li class="lvl5"><a href="#regel-8-srlige-stabilitetskrav-for-passasjerskip">Regel 8 Særlige stabilitetskrav for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-8-1-systemytelse-etter-en-fyllingsulykke-pa-passasjerskip">Regel 8-1 Systemytelse etter en fyllingsulykke på passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-2oppdeling-vanntett-og-vrtett-integritet">Del B-2Oppdeling, vanntett og værtett integritet</a></li>
+<li class="lvl5"><a href="#regel-9-dobbeltbunner-i-passasjerskip-og-andre-lasteskip-enn-tankskip">Regel 9 Dobbeltbunner i passasjerskip og andre lasteskip enn tankskip</a></li>
+<li class="lvl5"><a href="#regel-10-konstruksjon-av-vanntette-skott">Regel 10 Konstruksjon av vanntette skott</a></li>
+<li class="lvl5"><a href="#regel-11-frstegangsprving-av-vanntette-skott-osv">Regel 11 Førstegangsprøving av vanntette skott osv.</a></li>
+<li class="lvl5"><a href="#regel-12-skarpskott-og-maskinromskott-akseltunneler-osv">Regel 12 Skarpskott og maskinromskott, akseltunneler osv.</a></li>
+<li class="lvl5"><a href="#regel-13-apninger-i-vanntette-avgrensninger-under-skottdekket-pa-passasjerskip">Regel 13 Åpninger i vanntette avgrensninger under skottdekket på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-13-1-apninger-i-vanntette-skott-og-innvendige-dekk-pa-lasteskip">Regel 13-1 Åpninger i vanntette skott og innvendige dekk på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-14-passasjerskip-som-transporterer-godskjretyer-og-medflgende-personale">Regel 14 Passasjerskip som transporterer godskjøretøyer og medfølgende personale</a></li>
+<li class="lvl5"><a href="#regel-15-apninger-i-platehuden-under-skottdekket-pa-passasjerskip-og-fribordsdekket-pa-lasteskip">Regel 15 Åpninger i platehuden under skottdekket på passasjerskip og fribordsdekket på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-15-1-utvendige-apninger-pa-lasteskip">Regel 15-1 Utvendige åpninger på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-16-konstruksjon-og-frstegangsprving-av-vanntette-lukninger">Regel 16 Konstruksjon og førstegangsprøving av vanntette lukninger</a></li>
+<li class="lvl5"><a href="#regel-16-1-konstruksjon-og-frstegangsprving-av-vanntette-dekk-sjakter-osv">Regel 16-1 Konstruksjon og førstegangsprøving av vanntette dekk, sjakter osv.</a></li>
+<li class="lvl5"><a href="#regel-17-innvendig-vanntett-integritet-over-skottdekket-pa-passasjerskip">Regel 17 Innvendig vanntett integritet over skottdekket på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-17-1-skrogets-og-overbygningers-integritet-skadeforhindring-og-skadekontroll-pa-roro-passasjerskip">Regel 17-1 Skrogets og overbygningers integritet, skadeforhindring og skadekontroll på roro-passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-3fastsettelse-av-oppdelingslastelinje-for-passasjerskip">Del B-3Fastsettelse av oppdelingslastelinje for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-18-fastsettelse-avmerking-og-innfring-av-oppdelingslastelinjer-for-passasjerskip">Regel 18 Fastsettelse, avmerking og innføring av oppdelingslastelinjer for passasjerskip</a></li>
+<li class="lvl4"><a href="#del-b-4stabilitetsstyring">Del B-4Stabilitetsstyring</a></li>
+<li class="lvl5"><a href="#regel-19-skadekontrollopplysninger42">Regel 19 Skadekontrollopplysninger42</a></li>
+<li class="lvl5"><a href="#regel-19-1-skadekontrollvelser-for-passasjerskip">Regel 19-1 Skadekontrolløvelser for passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-20-lasting-av-skip">Regel 20 Lasting av skip</a></li>
+<li class="lvl5"><a href="#regel-21-periodisk-betjening-og-inspeksjon-av-vanntette-drer-osv-pa-passasjerskip">Regel 21 Periodisk betjening og inspeksjon av vanntette dører osv. på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-22-hindring-av-og-kontroll-med-vanninntrenging-osv">Regel 22 Hindring av og kontroll med vanninntrenging osv.</a></li>
+<li class="lvl5"><a href="#regel-22-1-fyllingsdeteksjonssystem-for-passasjerskip-som-frer-36-personer-eller-mer">Regel 22-1 Fyllingsdeteksjonssystem for passasjerskip som fører 36 personer eller mer</a></li>
+<li class="lvl5"><a href="#regel-23-srlige-krav-til-roro-passasjerskip">Regel 23 Særlige krav til roro-passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-24-tilleggskrav-til-hindring-av-og-kontroll-med-vanninntrenging-osv-pa-lasteskip">Regel 24 Tilleggskrav til hindring av og kontroll med vanninntrenging osv. på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-25-vannstandsdetektorer-pa-lasteskip-med-ett-enkelt-lasterom-unntatt-bulkskip">Regel 25 Vannstandsdetektorer på lasteskip med ett enkelt lasterom, unntatt bulkskip</a></li>
+<li class="lvl5"><a href="#regel-25-1-vannstandsdetektorer-pa-lasteskip-med-flere-lasterom-unntatt-bulkskip-og-tankskip">Regel 25-1 Vannstandsdetektorer på lasteskip med flere lasterom, unntatt bulkskip og tankskip</a></li>
+<li class="lvl4"><a href="#del-cmaskinerianlegg">Del CMaskinerianlegg</a></li>
+<li class="lvl5"><a href="#regel-26-generelle-bestemmelser">Regel 26 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-27-maskineri">Regel 27 Maskineri</a></li>
+<li class="lvl5"><a href="#regel-28-midler-for-gang-akterover49">Regel 28 Midler for gang akterover49</a></li>
+<li class="lvl5"><a href="#regel-29-styremaskin50">Regel 29 Styremaskin50</a></li>
+<li class="lvl5"><a href="#regel-30-tilleggskrav-for-elektriske-og-elektrohydrauliske-styremaskiner">Regel 30 Tilleggskrav for elektriske og elektrohydrauliske styremaskiner</a></li>
+<li class="lvl5"><a href="#regel-31-betjeningsinnretninger-for-maskineri-pa-skip-bygget-1-juli-1998-eller-senere">Regel 31 Betjeningsinnretninger for maskineri på skip bygget 1. juli 1998 eller senere</a></li>
+<li class="lvl5"><a href="#regel-32-dampkjeler-og-fdevannssystemer">Regel 32 Dampkjeler og fødevannssystemer</a></li>
+<li class="lvl5"><a href="#regel-33-damprrsystemer">Regel 33 Damprørsystemer</a></li>
+<li class="lvl5"><a href="#regel-34-trykkluftsystemer">Regel 34 Trykkluftsystemer</a></li>
+<li class="lvl5"><a href="#regel-35-ventilasjonssystemer-i-maskinrom">Regel 35 Ventilasjonssystemer i maskinrom</a></li>
+<li class="lvl5"><a href="#regel-35-1-lensepumpearrangementer">Regel 35-1 Lensepumpearrangementer</a></li>
+<li class="lvl5"><a href="#regel-3652vern-mot-sty">Regel 3652Vern mot støy</a></li>
+<li class="lvl5"><a href="#regel-37-samband-mellom-kommandobro-og-maskinrom">Regel 37 Samband mellom kommandobro og maskinrom</a></li>
+<li class="lvl5"><a href="#regel-38-maskinistalarm">Regel 38 Maskinistalarm</a></li>
+<li class="lvl5"><a href="#regel-39-plassering-av-ndinstallasjoner-i-passasjerskip">Regel 39 Plassering av nødinstallasjoner i passasjerskip</a></li>
+<li class="lvl4"><a href="#del-delektriske-installasjoner">Del DElektriske installasjoner</a></li>
+<li class="lvl5"><a href="#regel-40-generelle-bestemmelser">Regel 40 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-41-elektrisk-hovedkraftkilde-og-belysningsanlegg">Regel 41 Elektrisk hovedkraftkilde og belysningsanlegg</a></li>
+<li class="lvl5"><a href="#regel-42-elektrisk-ndkraftkilde-pa-passasjerskip">Regel 42 Elektrisk nødkraftkilde på passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-42-1-ekstra-ndbelysning-for-roro-passasjerskip">Regel 42-1 Ekstra nødbelysning for roro-passasjerskip</a></li>
+<li class="lvl5"><a href="#regel-43-elektrisk-ndkraftkilde-pa-lasteskip">Regel 43 Elektrisk nødkraftkilde på lasteskip</a></li>
+<li class="lvl5"><a href="#regel-44-startarrangementer-for-ndgeneratorsett">Regel 44 Startarrangementer for nødgeneratorsett</a></li>
+<li class="lvl5"><a href="#regel-45-sikkerhetstiltak-mot-stt-brann-og-andre-farer-som-skyldes-elektrisitet">Regel 45 Sikkerhetstiltak mot støt, brann og andre farer som skyldes elektrisitet</a></li>
+<li class="lvl4"><a href="#del-etilleggskrav-for-periodisk-ubemannede-maskinrom">Del ETilleggskrav for periodisk ubemannede maskinrom</a></li>
+<li class="lvl5"><a href="#regel-46-generelle-bestemmelser">Regel 46 Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#regel-47-brannsikring">Regel 47 Brannsikring</a></li>
+<li class="lvl5"><a href="#regel-48-beskyttelse-mot-fylling">Regel 48 Beskyttelse mot fylling</a></li>
+<li class="lvl5"><a href="#regel-49-betjening-av-framdriftsmaskineriet-fra-kommandobroen">Regel 49 Betjening av framdriftsmaskineriet fra kommandobroen</a></li>
+<li class="lvl5"><a href="#regel-50-kommunikasjon">Regel 50 Kommunikasjon</a></li>
+<li class="lvl5"><a href="#regel-51-alarmsystem">Regel 51 Alarmsystem</a></li>
+<li class="lvl5"><a href="#regel-52-sikkerhetssystemer">Regel 52 Sikkerhetssystemer</a></li>
+<li class="lvl5"><a href="#regel-53-srlige-krav-til-maskineri-kjeler-og-elektriske-installasjoner">Regel 53 Særlige krav til maskineri, kjeler og elektriske installasjoner</a></li>
+<li class="lvl5"><a href="#regel-54-srskilt-vurdering-av-passasjerskip">Regel 54 Særskilt vurdering av passasjerskip</a></li>
+<li class="lvl4"><a href="#del-falternative-utforminger-og-arrangementer">Del FAlternative utforminger og arrangementer</a></li>
+<li class="lvl5"><a href="#regel-55-alternative-utforminger-og-arrangementer">Regel 55 Alternative utforminger og arrangementer</a></li>
+<li class="lvl4"><a href="#del-gskip-som-bruker-drivstoff-med-lavt-flammepunkt">Del GSkip som bruker drivstoff med lavt flammepunkt</a></li>
+<li class="lvl5"><a href="#regel-56-anvendelse">Regel 56 Anvendelse</a></li>
+<li class="lvl5"><a href="#regel-57-krav-til-skip-som-bruker-drivstoff-med-lavt-flammepunkt">Regel 57 Krav til skip som bruker drivstoff med lavt flammepunkt</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1987-06-15-507.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1987-06-15-507.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1987-06-15-507.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1987-06-15-507.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1987-06-15-507.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1987-06-15-507.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1987-06-15-507.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1987-06-15-507.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1987-06-15-507.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-sikkerhetstiltak-mm-pa-passasjerskip-lasteskip-og-lektere">Forskrift om sikkerhetstiltak m.m. på passasjerskip, lasteskip og lektere</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>(1) Forskriften gjelder for norske lasteskip, passasjerskip og lektere.</p>
 <p>(2) Når ikke annet framgår av de enkelte paragrafene, gjelder bestemmelsene etter første ledd for skip med bruttotonnasje 50 eller mer.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskrift betyr:</p>
 <p>a. Bemannet lekter: Lekter som har fått fastsatt bemanning etter de til enhver tid gjeldende forskrifter om bemanning av norske skip.
@@ -105,14 +446,14 @@ m. Område for vinsjoperasjon: Område på skipet som er oppmerket for vinsjoper
 n. Passasjerskip: Et skip som kan føre mer enn 12 passasjerer eller som skal ha offentlig tillatelse til å føre passasjerer.
 o. Sjøsikkerhetskonvensjonen (SOLAS): Den internasjonale konvensjon av 1974 om sikkerhet for menneskeliv til sjøs, med senere endringer.
 p. Verneverdig skip: Skip som har fått slik status etter godkjennelse av Riksantikvaren eller den Riksantikvaren bemyndiger. Dette status opprettholdes så lenge Riksantikvaren gjennom egen avtale med eieren, finner at de antikvariske betingelser er opprettholdt.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 26 juni 2025 nr. 1372 .</p>
 <h4 id="3-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 3. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</h4>
 <h4 id="4-dispensasjon">§ 4. Dispensasjon</h4>
 <p>Sjøfartsdirektoratet kan etter skriftlig søknad godkjenne andre løsninger enn de som kreves etter forskriften når det er godtgjort at løsningene er likeverdige med forskriftens krav.</p>
 <p>Sjøfartsdirektoratet kan unnta et skip fra ett eller flere av kravene i forskriften hvis rederiet søker skriftlig om unntak og ett av følgende vilkår er oppfylt:</p>
 <p>a. Det godtgjøres at kravet ikke er vesentlig og at unntaket vurderes som sikkerhetsmessig forsvarlig.
 b. Det godtgjøres at kompenserende tiltak vil opprettholde samme sikkerhetsnivå som kravet i forskriften.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="5-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 5. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</h4>
 <h4 id="6-opphevet-15-sep-2014-vedforskrift-5-sep-2014-nr-1159">§ 6. (Opphevet 15 sep 2014 vedforskrift 5 sep 2014 nr. 1159.)</h4>
 <h2 id="kapittel-2-atkomstmidler-mm">Kapittel 2. Atkomstmidler m.m.</h2>
@@ -136,7 +477,7 @@ f. Største tillatte skråstilling for landganger er 35°. Største tillatte skr
 <p>(6) Gangveier skal oppfylle bestemmelsene i vedlegg til denne forskrift eller ISO-standard nr. 7061.</p>
 <p>(7) Fallrep skal ha lengde slik at det ved 55° (50° for faste trinn) med horisontalplanet minst rekker ned til 1 meter over vannlinjen ved ugunstig trim og dypgående. Er avstanden fra dekket til vannlinjen over 10 meter, skal fallrepet ved en vinkel på 50° med horisontalplanet minst rekkes ned til 1 meter over vannlinjen ved ugunstig trim og dypgående. Teleskopiske fallrep tillates for lengder opp til 30 meter.</p>
 <p>(8) Heisanlegg skal vedlikeholdes og kontrolleres i henhold til ISO-standard 8383–1985.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h2 id="kapittel-3-lukningsanordninger-plassering-av-last-mm">Kapittel 3. Lukningsanordninger, plassering av last m.m.</h2>
 <h4 id="10-luker-lukedeksel-mm">§ 10. Luker, lukedeksel m.m.</h4>
 <p>(1) Alle luker og lukningsmidler skal være forsvarlig lukket og skalket når skipet ikke befinner seg i havn.</p>
@@ -146,7 +487,7 @@ f. Største tillatte skråstilling for landganger er 35°. Største tillatte skr
 <p>(5) Åpninger i dekk som ikke er beskyttet av lukekarmer e.l. med netto høyde på 750 mm over dekk, skal være effektivt avsperret. Åpninger i dekk skal være godt belyst.</p>
 <p>(6) Hvor det kreves truckavvisere og disse er demonterbare, skal det påses at disse er på plass før kjøring med trucker igangsettes.</p>
 <p>(7) Svømmebasseng skal sikres ved at det spennes over et nett e.l. når de ikke er i bruk.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="11-porter-i-skipssiden">§ 11. Porter i skipssiden</h4>
 <p>(1) Manøverspaker og ratt til mekanisk opererte porter i skipssiden, skal være sikret når de ikke er i bruk.</p>
 <p>(2) Før porter i skipssidene, baug eller akterskip åpnes, skal nødvendige avsperringer og verneinnretninger være på plass. Portene skal bare opereres av kyndige personer.</p>
@@ -169,7 +510,7 @@ m. Det skal være lett atkomst til brannhydrantene.
 n. Dekkslast skal ikke hindre atkomst eller bruk av ankerutrustning, ankerspill, vinsjer eller fortøyningsarrangementer.</p>
 <p>(2) – – –</p>
 <p>(3) Skip med største lengde under 15 meter eller med bruttotonnasje under 50 som ikke har om bord stabilitetsoppgaver for føring av dekkslast, skal før avgang med dekkslast om mulig krenges tilstrekkelig eller undersøkes på annen måte slik at skipets fører har forvisset seg om at skipets stabilitet er betryggende for den reisen som skal foretas. Det skal tas hensyn til lastens egenskaper og forhold som kan inntreffe under reisen.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="13-ombord-og-ilandkjring-og-plassering-av-kjrety-mm-pa-ferjer">§ 13. Ombord- og ilandkjøring og plassering av kjøretøy m.m. på ferjer</h4>
 <p>(1) For alle ferjer gjelder:</p>
 <p>a. Passasjerene kan oppholde seg i kjøretøyene under ombord- og ilandkjøring når ferjens fortøynings- og låsearrangement m.m. til kjørebro er i henhold til den til enhver tid gjeldende forskrift om bygging av passasjer- og lasteskip. Under ombord- og ilandkjøring skal ferjekaibru være fastlåst til ferjens recess.
@@ -196,7 +537,7 @@ c. skipet har midler til å overvåke bildekket
 d. bildekket er utstyrt med tilstrekkelig ventilasjon
 e. kjøretøyene plasseres slik at klaringen på begge sider av kjøretøyet er minst 60 cm og slik at det er tilstrekkelig passasje med fri atkomst til sidene på fergen
 f. passasjer til innredning, nødutganger, brann- og redningsutstyr ikke sperres.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 30 aug 2013 nr. 1091 (i kraft 1 nov 2013), 22 mars 2021 nr. 947 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 30 aug 2013 nr. 1091 (i kraft 1 nov 2013), 22 mars 2021 nr. 947 .</p>
 <h4 id="14-stabilitet">§ 14. Stabilitet</h4>
 <p>(1) Alle skip skal ha følgende stabilitetsoppgaver og hjelpemidler som oppbevares om bord:</p>
 <p>a. Et godkjent eksemplar av hver av de tegningene og beregningene som dokumenterer skipets stabilitet i intakt og skadet tilstand.
@@ -209,22 +550,22 @@ d. Samlet vekt av dekkslast ikke overskrider 3% av skipets dødvekt eller 30 bru
 e. Det tas hensyn til vektøkning som følge av at dekkslasten kan absorbere eller samle vann. Inklusive den forutsatte vektøkning, skal det ikke lastes dypere enn til lastelinjen for vedkommende fart og årstid.
 f. Om skipet anvendes i farvann hvor ising kan forekomme, skal godkjente lastetilstander med is være om bord. Ved lasting vinterstid skal det også tas rimelig hensyn til forventet nedising og endring av dypgående og stabilitet under reisen. Under slike omstendigheter må ikke fartøyet lastes helt ned til lastelinjen for vedkommende fart og årstid.
 g. Konsekvensene av tap av kranlast vurderes spesielt dersom det ved laste-/losseoperasjoner til havs benyttes motballastering for å balansere krengende momenter pga. vekt i kran.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).
-1 Vedrørende stuing av trelast, vises det til IMO-Code of Safe Practice for Ships carrying timber deck cargo (A.287 VIII), og Den internasjonale konvensjon om lastelinjer, 1966 dersom skipet har trelastfribord.</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).
+1 Vedrørende stuing av trelast, vises det til IMO-Code of Safe Practice for Ships carrying timber deck cargo (A.287 VIII), og Den internasjonale konvensjon om lastelinjer, 1966 dersom skipet har trelastfribord.</p>
 <h2 id="kapittel-3a-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">Kapittel 3a. Havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</h2>
 <p>Kapitlet tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="14a-virkeomradet-tilkapittel-3aom-havarikontrollopplysninger-og-hindring-av-og-kontroll-med-vanninntrengning-mm">§ 14a. Virkeområdet tilkapittel 3aom havarikontrollopplysninger og hindring av og kontroll med vanninntrengning m.m.</h4>
 <p>(1) Kapittel 3a gjelder for norske</p>
 <p>a. lasteskip med bruttotonnasje 500 eller mer i utenriksfart
 b. passasjerskip i utenriksfart.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="14b-havarikontrollopplysninger-solasregel-ii-119">§ 14b. Havarikontrollopplysninger (SOLASregel II-1/19)</h4>
 <p>(1) Som veiledning for ansvarshavende offiser på skipet skal det være permanent oppslått, eller lett tilgjengelig på kommandobroen, tegninger som for hvert dekk og lasterom tydelig viser grensene for vanntette rom, åpningene i dem med lukkemidler og plasseringen av eventuelle betjeningsinnretninger for disse samt arrangementer for oppretting av enhver slagside som skyldes innstrømming av vann. Dessuten skal hefter med ovennevnte opplysninger være tilgjengelige for skipets offiserer.</p>
 <p>(2) Alminnelige sikkerhetstiltak som skal inngå i opplysningene, skal være en fortegnelse over utstyr, forhold og driftsmetoder som Sjøfartsdirektoratet anser som nødvendige for å opprettholde vanntettheten under normal drift av skipet.</p>
 <p>(3) Særlige sikkerhetstiltak som skal inngå i opplysningene, skal være en fortegnelse over elementer (dvs. lukking, sikring av last, utløsing av alarmer osv.) som Sjøfartsdirektoratet anser som avgjørende for å redde skipet, passasjerene og besetningen.</p>
 <p>(4) Når det gjelder skip som kravene til stabilitet i skadet tilstand etter forskrift 1. juli 2014 nr. 1072 om bygging av skip (byggeforskriften) § 3 jf. SOLAS del B-1 får anvendelse på, skal havaristabilitetsopplysningene gi skipsføreren en enkel og lettforståelig måte å vurdere skipets evne til å holde seg flytende på i alle skadetilfeller som omfatter et rom eller en avdeling.</p>
 <p>(5) For passasjerskip som er bygget 1. januar 2024 eller senere og omfattes av SOLAS regel II-1/ 8-1.3, skal skadekontrollopplysningene inkludere en referanse til aktivering av skadestabilitetsstøtte fra en eventuell stabilitetskalkulator om bord og til landbasert støtte, hvis dette tilbys.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014), endret ved forskrifter 19 des 2019 nr. 2214 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014), endret ved forskrifter 19 des 2019 nr. 2214 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</p>
 <h4 id="14b-1-havarikontrollvelser-for-passasjerskip-solasregel-ii-119-1">§ 14b-1. Havarikontrolløvelser for passasjerskip (SOLASregel II-1/19-1)</h4>
 <p>(1) Bestemmelsen gjelder for skip bygget 1. januar 2020 eller senere.</p>
 <p>(2) Havarikontrolløvelser skal gjennomføres minst hver tredje måned. Besetningsmedlemmer med kontrollansvar skal delta på hver øvelse.</p>
@@ -241,18 +582,18 @@ h. instruksjon i skadeinspeksjon og bruk av skipets havarikontrollsystemer.</p>
 <p>(5) Minst én havarikontrolløvelse i året skal omfatte aktivering av den landbaserte støtten, dersom slik støtte finnes i samsvar med byggeforskriften § 3 jf. SOLAS regel II-1/8-1.3, for å utføre stabilitetsvurderinger for de simulerte skadetilstandene.</p>
 <p>(6) Hvert besetningsmedlem med tildelt havarikontrollansvar skal gjøre seg kjent med sine plikter og om havarikontrollinformasjonen før reisen begynner.</p>
 <p>(7) Hver havarikontrolløvelse skal innføres i dagbok på samme måte som andre øvelser etter forskrift 1. juli 2014 nr. 1019 om redningsredskaper på skip § 2 første ledd jf. SOLAS regel III/19.5.</p>
-<p><em>Tilføyd ved forskrift 19 des 2019 nr. 2214 (i kraft 1 jan 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2019 nr. 2214 (i kraft 1 jan 2020).</p>
 <h4 id="14c-lasting-av-passasjerskip-solasregel-ii-120">§ 14c. Lasting av passasjerskip (SOLASregel II-1/20)</h4>
 <p>(1) Når et passasjerskip er ferdig lastet, og før avgang, skal skipsføreren beregne skipets trim og stabilitet samt forvisse seg om og notere skriftlig at skipet er i samsvar med stabilitetskriteriene i de aktuelle reglene. Skipets stabilitet skal alltid fastsettes ved beregning. Sjøfartsdirektoratet kan godta at en elektronisk laste- og stabilitetskalkulator eller tilsvarende midler brukes til dette formålet.</p>
 <p>(2) Ballastvann skal i alminnelighet ikke transporteres i tanker som er beregnet på brennolje. På skip der det ikke er praktisk mulig å unngå å plassere vann i brennoljetanker, skal det være montert olje-vannsepareringsutstyr til Sjøfartsdirektoratets tilfredshet, eller det skal finnes andre alternative ordninger for deponering av oljeholdig vannballast, for eksempel tømming i mottaksanlegg på land, som kan godtas av Sjøfartsdirektoratet.</p>
 <p>(3) Bestemmelsene i denne paragrafen berører ikke bestemmelsene i forskrift 30. mai 2012 nr. 488 om miljømessig sikkerhet for skip og flyttbare innretninger.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="14d-periodisk-betjening-og-inspeksjon-av-vanntette-drer-osv-pa-passasjerskip-solasregel-ii-121">§ 14d. Periodisk betjening og inspeksjon av vanntette dører osv. på passasjerskip (SOLASregel II-1/21)</h4>
 <p>(1) Det skal hver uke holdes øvelser i betjening av vanntette dører, lysventiler, ventiler og lukkemekanismer for spygatter og aske- og søppelsjakter. På skip der reisen varer mer enn én uke, skal det holdes en fullstendig øvelse før skipet går fra havn, og deretter andre øvelser minst én gang per uke under reisen.</p>
 <p>(2) Alle vanntette dører, både på hengsler og maskinelt betjente, i vanntette skott, som er i bruk i sjøen, skal betjenes hver dag.</p>
 <p>(3) Vanntette dører og alle tilhørende mekanismer og indikatorer, alle ventiler som må stenges for å gjøre et rom vanntett, og alle ventiler som må betjenes for tverrskipsforbindelser til bruk i havaritilfeller, skal i sjøen inspiseres periodisk minst en gang hver uke.</p>
 <p>(4) Det skal føres fortegnelse i skipsdagboken over alle øvelser og inspeksjoner som kreves etter denne paragrafen, med tydelig angivelse av enhver mangel som oppdages.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="14e-hindring-av-og-kontroll-med-vanninntrenging-osv-solasregel-ii-122">§ 14e. Hindring av og kontroll med vanninntrenging osv. (SOLASregel II-1/22)</h4>
 <p>(1) Alle vanntette dører skal holdes lukket under fart, unntatt under forhold som fastsatt i tredje ledd. Vanntette dører med en bredde på mer enn 1,2 m i maskinrom, som er tillatt etter byggeforskriften § 3 , jf. SOLAS regel II-1/13 nr. 9, kan bare åpnes under de omstendighetene som er angitt i nevnte ledd. En dør som åpnes i samsvar med leddet her, skal være klar til å lukkes øyeblikkelig. Enhver dør som åpnes i samsvar med dette nummeret, skal kunne lukkes øyeblikkelig.</p>
 <p>(2) Vanntette dører under skottdekket på passasjerskip og fribordsdekket på lasteskip som har en største fri bredde på mer enn 1,2 m, skal holdes lukket under fart, unntatt i begrensede perioder når Sjøfartsdirektoratet vurderer det som absolutt nødvendig.</p>
@@ -280,7 +621,7 @@ h. instruksjon i skadeinspeksjon og bruk av skipets havarikontrollsystemer.</p>
 </ol>
 <p>(15) Lysventiler og deres blindlokk som ikke vil være tilgjengelige under fart, skal være lukket og sikret før skipet går fra havn.</p>
 <p>(16) Når last transporteres i rom nevnt i byggeforskriften § 3 jf. SOLAS regel II-1/15 nr. 5.2, skal lysventilene og deres blindlokk lukkes vanntett og låses før lasten tas om bord, og denne lukkingen og låsingen skal innføres i skipsdagboken som foreskrevet av Sjøfartsdirektoratet.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014), endret ved forskrifter 29 juni 2016 nr. 850 (i kraft 1 juli 2016), 19 des 2019 nr. 2214 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014), endret ved forskrifter 29 juni 2016 nr. 850 (i kraft 1 juli 2016), 19 des 2019 nr. 2214 (i kraft 1 jan 2020), 18 des 2023 nr. 2173 (i kraft 1 jan 2024).</p>
 <h4 id="14f-srlige-krav-til-roro-passasjerskip-solasregel-ii-123">§ 14f. Særlige krav til roro-passasjerskip (SOLASregel II-1/23)</h4>
 <p>(1) Spesiallasterom og roro-rom skal patruljeres eller overvåkes kontinuerlig med effektive midler, f.eks. fjernsynsovervåking, slik at enhver kjøretøybevegelse under ugunstige værforhold og ikke-tillatt passasjerferdsel der kan oppdages mens skipet er underveis.</p>
 <p>(2) Dokumenter som angir prosedyrer for lukking og sikring av alle porter i skipssiden, lasteporter og andre lukkeinnretninger som, etter Sjøfartsdirektoratets mening, kan føre til fylling av et spesiallasterom eller roro-rom hvis de står åpne eller ikke sikres forsvarlig, skal finnes om bord og være oppslått på et egnet sted.</p>
@@ -291,22 +632,22 @@ h. instruksjon i skadeinspeksjon og bruk av skipets havarikontrollsystemer.</p>
 <p>(7) Alle tverrskips- eller langskipsskott som regnes som effektive for å holde på oppsamlet sjøvann på roro-dekket, skal være på plass og sikret før skipet går fra kai, og skal holdes på plass og være sikret til skipet er ved neste kaiplass.</p>
 <p>(8) Uten hensyn til kravene i syvende ledd kan Sjøfartsdirektoratet tillate at noen atkomstveier i slike skott åpnes under sjøreisen, men bare i et tidsrom som er nødvendig av hensyn til gjennomgang og når det er helt nødvendig for selve driften av skipet.</p>
 <p>(9) På alle roro-passasjerskip skal skipsføreren eller den offiseren vedkommende har utpekt, sørge for at ingen passasjerer har adgang til et innelukket roro-dekk når skipet er underveis, med mindre skipsføreren eller offiseren har gitt uttrykkelig samtykke til det.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="14g-hindring-av-og-kontroll-med-vanninntrenging-osv-pa-lasteskip-solasregel-ii-124">§ 14g. Hindring av og kontroll med vanninntrenging osv. på lasteskip (SOLASregel II-1/24)</h4>
 <p>(1) Åpninger i platehuden under dekk som begrenser den vertikale skadeutstrekningen skal holdes permanent lukket til sjøs.</p>
 <p>(2) Når det er nødvendig for skipets drift og forutsatt at skipets sikkerhet ikke settes i fare og uten hensyn til kravene i tredje ledd, kan Sjøfartsdirektoratet tillate at bestemte dører kan åpnes etter skipsførerens skjønn.</p>
 <p>(3) Vanntette dører eller ramper som er montert innvendig for å dele opp store lasterom, skal lukkes før sjøreisen begynner og skal holdes lukket under fart, og tidspunktet for åpning av slike dører i havn og lukking av dem før skipets avreise fra havn skal innføres i skipsdagboken.</p>
 <p>(4) Bruken av atkomstdører og lukedeksler beregnet på å sikre vanntettheten for innvendige åpninger, skal godkjennes av vakthavende offiser.</p>
-<p><em>Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h2 id="kapittel-4-sikkerhetstiltak-ved-fare-for-gassdannelse-oksygenmangel-mm-i-lukkede-rom-ol">Kapittel 4. Sikkerhetstiltak ved fare for gassdannelse, oksygenmangel m.m. i lukkede rom o.l.</h2>
 <h4 id="15-opphevet">§ 15. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 29 juni 2016 nr. 850 (i kraft 1 juli 2016), 20 des 2017 nr. 2379 (i kraft 1 jan 2018), opphevet ved forskrift 23 jan 2024 nr. 165 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2016 nr. 850 (i kraft 1 juli 2016), 20 des 2017 nr. 2379 (i kraft 1 jan 2018), opphevet ved forskrift 23 jan 2024 nr. 165 .</p>
 <h4 id="16-opphevet">§ 16. (Opphevet)</h4>
-<p><em>Endret ved forskrift 27 mars 2023 nr. 459 , opphevet ved forskrift 23 jan 2024 nr. 165 .</em></p>
+<p class="note">Endret ved forskrift 27 mars 2023 nr. 459 , opphevet ved forskrift 23 jan 2024 nr. 165 .</p>
 <h4 id="17-opphevet">§ 17. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 23 jan 2024 nr. 165 .</em></p>
+<p class="note">Opphevet ved forskrift 23 jan 2024 nr. 165 .</p>
 <h4 id="18-opphevet">§ 18. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 23 jan 2024 nr. 165 .</em></p>
+<p class="note">Opphevet ved forskrift 23 jan 2024 nr. 165 .</p>
 <h4 id="19-fring-av-truck-eller-kran">§ 19. Føring av truck eller kran</h4>
 <p>Besetningsmedlemmer som pålegges å kjøre truck eller kran, skal være opplært til dette, og skal være over 18 år.</p>
 <h2 id="kapittel-5-sikkerhetstiltak-under-helikopteroperasjoner-pa-skip-med-helikopterdekklandingsdekklandingsomradendlandingsomradeomrade-for-vinsjoperasjoner">Kapittel 5. Sikkerhetstiltak under helikopteroperasjoner på skip med helikopterdekk/landingsdekk/landingsområde/nødlandingsområde/område for vinsjoperasjoner</h2>
@@ -339,7 +680,7 @@ d. Blinkende rødt lys – helikopteret må komme seg bort fra skipet.</p>
 <p>(5) To livbøyer skal være utstyrt med bøyelys, røksignal og line av tilstrekkelig lengde, være plassert og være klare til bruk på fast plass i umiddelbar nærhet av helikopterdekket.</p>
 <p>(6) Personer som deltar i helikopteroperasjonen skal være utstyrt med arbeids-/flytevest og godkjent hjelm.</p>
 <p>(7) Før helikopteroperasjoner om natten må det kontrolleres at all belysning rundt dekket og flombelysning av dekket er i orden.</p>
-<p><em>Endret ved forskrift 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2025 nr. 1372 .</p>
 <h4 id="24-srskilte-tiltak-pa-tankskip-og-obo-skip">§ 24. Særskilte tiltak på tankskip og OBO-skip</h4>
 <p>Ved landing/vinsjeoperasjoner på tank- og OBO-skip som ikke er gassfrie skal følgende tiltak iakttas i tillegg til bestemmelsene i § 21 :</p>
 <p>a. Umiddelbart før landing eller vinsjoperasjoner skal helikoptre foreta utladning til sjøen av eventuell statisk oppladning i helikopteret.
@@ -357,19 +698,19 @@ f. Rotoren skal holdes i gang under oppholdet. Dersom rotoren i et nødstilfelle
 <p>a. Seil må kun benyttes når det er tilstrekkelig bemanning om bord for å håndtere seil og rigg, og når føreren for øvrig finner det forsvarlig ut fra hensynet til passasjerenes og fartøyets sikkerhet.
 b. Fører og mannskap må ha erfaring med bruk av seil og rigg.
 c. Dersom det er grunn til å anta at bruk av seil kan sette fartøy og passasjerer i fare, skal seil tas ned og maskin benyttes.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="31-opphevet">§ 31. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Opphevet ved forskrift forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="32-skilter-og-oppslag">§ 32. Skilter og oppslag</h4>
 <p>(1) Påbudte skilt og oppslag på alle skip i utenriks fart, og på passasjerskip i innenriks fart, skal være avfattet på norsk og engelsk. På øvrige skip i innenriks fart skal teksten være på norsk.</p>
 <p>(2) Teksten på skilt og oppslag skal alltid være leselig, og skal derfor om nødvendig belyses.</p>
 <p>(3) Varselskilt skal ha minst 20 mm høye bokstaver og forbudsskilt minst 30 mm høye bokstaver.</p>
 <p>(4) Om ikke annet er bestemt, skal fargene være i overensstemmelse med Norsk Standard NS-6033 eller NS-ISO 3864-1 og NS-ISO 3864-3.</p>
-<p><em>Endret ved forskrift 27 mars 2023 nr. 459 .</em></p>
+<p class="note">Endret ved forskrift 27 mars 2023 nr. 459 .</p>
 <h4 id="33-oppbevaring-og-bruk-av-brennstoff-og-sprengstoff">§ 33. Oppbevaring og bruk av brennstoff og sprengstoff</h4>
 <p>(1) Dersom det er behov for å oppbevare motorbrennstoff om bord i annet enn fast anordnede tanker, skal slikt brennstoff være anbrakt i egnet beholder i eget lett tilgjengelig godt ventilert rom/skap med dør kun til åpent dekk. Skott og dør til rommet/skapet skal ha brannisolasjon tilsvarende A60.</p>
 <p>(2) Oppbevares sprengstoff om bord, skal dette lagres i originalemballasje i stålkasser og oppbevares i eget låsbart skap/rom atskilt fra brannfarlige og giftige produkter. Sprengstoff og tennsatser skal lagres atskilt, og mengden av sprengstoff skal begrenses til minimumsbehovet.</p>
-<p><em>Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</em></p>
+<p class="note">Endret ved forskrift 5 sep 2014 nr. 1159 (i kraft 15 sep 2014).</p>
 <h4 id="34-varselskilt-ved-radar">§ 34. Varselskilt ved radar</h4>
 <p>Under arbeid i radarmast skal radaranlegg være avslått. Ved hvert radaranlegg skal det være oppsatt synlig skilt med tekst: Arbeid i radarmast pågår.</p>
 <h2 id="kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</h2>
@@ -379,7 +720,7 @@ c. Dersom det er grunn til å anta at bruk av seil kan sette fartøy og passasje
 <p>a. Forskrift av 13. august 1970 om dekkslast,
 b. Forskrift av 13. desember 1976 om anordninger på og under dekk og om skipets verneutstyr.
 c. Forskrift av 1. mars 1978 om forbud mot bruk av asbest om bord i skip.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 36).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 36).</p>
 <h2 id="vedlegg-1-bestemmelser-vedrrende-fallrepsplattformer-opphengingsarrangement-og-landganger">Vedlegg 1. Bestemmelser vedrørende fallrepsplattformer, opphengingsarrangement og landganger</h2>
 <ol>
 <li>
@@ -1151,6 +1492,8 @@ c. Forskrift av 1. mars 1978 om forbud mot bruk av asbest om bord i skip.</p>
 <p>5 Dette kapittelet skal ikke få anvendelse på skip som eies eller opereres av en kontraherende regjering og for tiden bare benyttes i offentlig, ikke-kommersiell tjeneste. Skip som eies eller drives av en kontraherende regjering, og som for tiden bare benyttes i offentlig, ikke-kommersiell tjeneste, oppfordres likevel til å opptre, så langt det er rimelig og praktisk mulig, på en måte som er i samsvar med denne delen.</p>
 <h5 id="regel-57-krav-til-skip-som-bruker-drivstoff-med-lavt-flammepunkt">Regel 57 Krav til skip som bruker drivstoff med lavt flammepunkt</h5>
 <p>Med unntak av det som er fastsatt i regel nr. 4 og regel 56 nr. 5, skal skip som bruker drivstoff med lavt flammepunkt, oppfylle kravene i IGF-koden.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

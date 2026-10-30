@@ -19,64 +19,281 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-06-16-65.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Eierseksjonsloven – eiersl" href="../feeds/lov-2017-06-16-65.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Eierseksjonsloven – eiersl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-06-16-65</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Anskaffelser, avtaler, bygg og entrepriser &raquo; Boligoppføring\nFast eiendoms rettsforhold &raquo; Sameie\nFast eiendoms rettsforhold &raquo; Tinglysing. Registrering\nKonkurs, gjeld og pant &raquo; Pant\nTvangsfullbyrdelse &raquo; Tvangsgrunnlag og tvangskraft</dd>
-<dt>Ikrafttredelse</dt><dd>2018-01-01, 2018-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-12-19-114</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-65" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-lovens-virkeomrade">§ 2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#3-lovens-betydning-for-andre-sameieformer-eiendomsrett-til-bolig-i-bygning-med-flere-bruksenheter">§ 3. Lovens betydning for andre sameieformer. Eiendomsrett til bolig i bygning med flere bruksenheter</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-fravikelighet">§ 5. Fravikelighet</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-diskriminering">§ 6. Forbud mot diskriminering</a></li>
+<li class="lvl4"><a href="#6-a-kommunikasjon-mellom-styret-og-seksjonseierne">§ 6 a. Kommunikasjon mellom styret og seksjonseierne</a></li>
+<li class="lvl4"><a href="#6-b-utarbeidelse-og-oppbevaring-av-dokumentasjon">§ 6 b. Utarbeidelse og oppbevaring av dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-ii-vilkar-for-seksjonering-seksjoneringstidspunktet-rett-til-a-kreve-seksjonering">Kapittel II. Vilkår for seksjonering. Seksjoneringstidspunktet. Rett til å kreve seksjonering</a></li>
+<li class="lvl4"><a href="#7-vilkar-for-seksjonering">§ 7. Vilkår for seksjonering</a></li>
+<li class="lvl4"><a href="#8-seksjoneringstidspunktet">§ 8. Seksjoneringstidspunktet</a></li>
+<li class="lvl4"><a href="#9-rett-til-a-kreve-seksjonering-for-sameiere-med-bruksrett-til-bolig-i-sameier-som-ikke-er-seksjonert">§ 9. Rett til å kreve seksjonering for sameiere med bruksrett til bolig i sameier som ikke er seksjonert</a></li>
+<li class="lvl2"><a href="#kapittel-iii-fremgangsmaten-ved-seksjonering">Kapittel III. Fremgangsmåten ved seksjonering</a></li>
+<li class="lvl4"><a href="#10-hvordan-en-eierseksjon-opprettes">§ 10. Hvordan en eierseksjon opprettes</a></li>
+<li class="lvl4"><a href="#11-krav-til-sknaden-om-seksjonering">§ 11. Krav til søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#12-kommunens-behandling-av-sknaden-om-seksjonering">§ 12. Kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#13-kommunens-vedtak-om-seksjonering">§ 13. Kommunens vedtak om seksjonering</a></li>
+<li class="lvl4"><a href="#14-saksbehandlingstid-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 14. Saksbehandlingstid for kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#15-gebyrer-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 15. Gebyrer for kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#16-klage-pa-kommunens-vedtak-om-seksjonering">§ 16. Klage på kommunens vedtak om seksjonering</a></li>
+<li class="lvl4"><a href="#17-oversendelse-til-tinglysing">§ 17. Oversendelse til tinglysing</a></li>
+<li class="lvl4"><a href="#18-utsteding-av-matrikkelbrev">§ 18. Utsteding av matrikkelbrev</a></li>
+<li class="lvl4"><a href="#19-registrering-i-foretaksregisteret">§ 19. Registrering i Foretaksregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-iv-reseksjonering-og-sammenslaing-av-eierseksjonssameier">Kapittel IV Reseksjonering og sammenslåing av eierseksjonssameier</a></li>
+<li class="lvl4"><a href="#20-reseksjonering-ved-deling-og-sammenslaing-av-seksjoner">§ 20. Reseksjonering ved deling og sammenslåing av seksjoner</a></li>
+<li class="lvl4"><a href="#21-reseksjonering-i-andre-tilfeller">§ 21. Reseksjonering i andre tilfeller</a></li>
+<li class="lvl4"><a href="#22-kommunens-rett-til-a-kreve-reseksjonering">§ 22. Kommunens rett til å kreve reseksjonering</a></li>
+<li class="lvl4"><a href="#22-a-sammenslaing-av-eierseksjonssameier">§ 22 a. Sammenslåing av eierseksjonssameier</a></li>
+<li class="lvl4"><a href="#22-b-plan-for-sammenslaing">§ 22 b. Plan for sammenslåing</a></li>
+<li class="lvl2"><a href="#kapittel-v-disposisjonsretten-over-seksjonene">Kapittel V. Disposisjonsretten over seksjonene</a></li>
+<li class="lvl4"><a href="#23-begrensninger-i-muligheten-til-a-kjpe-boligseksjoner">§ 23. Begrensninger i muligheten til å kjøpe boligseksjoner</a></li>
+<li class="lvl4"><a href="#23-a-unntak-fra-23-for-juridiske-personer-som-tilbyr-avtale-om-leie-til-eie-eller-deleie">§ 23 a. Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleie</a></li>
+<li class="lvl4"><a href="#23-b-foreldelse-av-kjpsrett-ved-avtale-om-leie-til-eie-og-deleie">§ 23 b. Foreldelse av kjøpsrett ved avtale om leie til eie og deleie</a></li>
+<li class="lvl4"><a href="#24-seksjonseierens-rettslige-disposisjonsrett">§ 24. Seksjonseierens rettslige disposisjonsrett</a></li>
+<li class="lvl4"><a href="#25-seksjonseierens-rett-til-a-bruke-bruksenheten-og-fellesarealer">§ 25. Seksjonseierens rett til å bruke bruksenheten og fellesarealer</a></li>
+<li class="lvl4"><a href="#25-a-rett-til-a-sette-opp-ladepunkt-for-elbil-og-ladbar-hybridbil">§ 25 a. Rett til å sette opp ladepunkt for elbil og ladbar hybridbil</a></li>
+<li class="lvl4"><a href="#26-parkering-og-andre-tiltak-for-seksjonseiere-med-nedsatt-funksjonsevne">§ 26. Parkering og andre tiltak for seksjonseiere med nedsatt funksjonsevne</a></li>
+<li class="lvl4"><a href="#27-vedtekter">§ 27. Vedtekter</a></li>
+<li class="lvl4"><a href="#28-ordensregler-og-dyrehold">§ 28. Ordensregler og dyrehold</a></li>
+<li class="lvl4"><a href="#29-fordeling-av-felleskostnader-og-fellesinntekter">§ 29. Fordeling av felleskostnader og fellesinntekter</a></li>
+<li class="lvl4"><a href="#30-seksjonseierens-heftelse-for-sameiets-ansvar-og-forpliktelser-utad">§ 30. Seksjonseierens heftelse for sameiets ansvar og forpliktelser utad</a></li>
+<li class="lvl4"><a href="#31-panterett-for-seksjonseiernes-forpliktelser">§ 31. Panterett for seksjonseiernes forpliktelser</a></li>
+<li class="lvl4"><a href="#32-seksjonseierens-plikt-til-a-vedlikeholde-bruksenheten">§ 32. Seksjonseierens plikt til å vedlikeholde bruksenheten</a></li>
+<li class="lvl4"><a href="#33-sameiets-plikt-til-a-vedlikeholde-og-utbedre-fellesarealer-mm">§ 33. Sameiets plikt til å vedlikeholde og utbedre fellesarealer m.m.</a></li>
+<li class="lvl4"><a href="#34-seksjonseierens-erstatningsansvar-for-mangelfullt-vedlikehold">§ 34. Seksjonseierens erstatningsansvar for mangelfullt vedlikehold</a></li>
+<li class="lvl4"><a href="#35-sameiets-erstatningsansvar-for-mangelfullt-vedlikehold">§ 35. Sameiets erstatningsansvar for mangelfullt vedlikehold</a></li>
+<li class="lvl4"><a href="#36-fellesregler-om-omfanget-av-erstatning">§ 36. Fellesregler om omfanget av erstatning</a></li>
+<li class="lvl4"><a href="#37-krav-mot-tidligere-avtalepart">§ 37. Krav mot tidligere avtalepart</a></li>
+<li class="lvl4"><a href="#38-palegg-om-salg-av-seksjonen">§ 38. Pålegg om salg av seksjonen</a></li>
+<li class="lvl4"><a href="#39-fravikelse-av-bruksenheten-utkastelse">§ 39. Fravikelse av bruksenheten (utkastelse)</a></li>
+<li class="lvl2"><a href="#kapittel-vi-arsmtet">Kapittel VI. Årsmøtet</a></li>
+<li class="lvl4"><a href="#40-arsmtets-myndighet-mindretallsvern">§ 40. Årsmøtets myndighet. Mindretallsvern</a></li>
+<li class="lvl4"><a href="#41-ordinrt-arsmte">§ 41. Ordinært årsmøte</a></li>
+<li class="lvl4"><a href="#42-ekstraordinrt-arsmte">§ 42. Ekstraordinært årsmøte</a></li>
+<li class="lvl4"><a href="#43-innkalling-til-arsmte">§ 43. Innkalling til årsmøte</a></li>
+<li class="lvl4"><a href="#44-saker-arsmtet-skal-behandle">§ 44. Saker årsmøtet skal behandle</a></li>
+<li class="lvl4"><a href="#45-saker-arsmtet-kan-behandle">§ 45. Saker årsmøtet kan behandle</a></li>
+<li class="lvl4"><a href="#46-hvem-som-kan-delta-pa-arsmtet">§ 46. Hvem som kan delta på årsmøtet</a></li>
+<li class="lvl4"><a href="#47-ledelse-av-arsmtet">§ 47. Ledelse av årsmøtet</a></li>
+<li class="lvl4"><a href="#48-inhabilitet">§ 48. Inhabilitet</a></li>
+<li class="lvl4"><a href="#49-flertallskrav-ved-ulike-beslutninger-pa-arsmtet-srlige-begrensninger-i-arsmtets-myndighet">§ 49. Flertallskrav ved ulike beslutninger på årsmøtet. Særlige begrensninger i årsmøtets myndighet</a></li>
+<li class="lvl4"><a href="#50-flertallskrav-for-srlige-bomiljtiltak">§ 50. Flertallskrav for særlige bomiljøtiltak</a></li>
+<li class="lvl4"><a href="#51-beslutninger-som-krever-enighet-fra-alle-seksjonseiere">§ 51. Beslutninger som krever enighet fra alle seksjonseiere</a></li>
+<li class="lvl4"><a href="#52-beregning-av-flertall-og-opptelling-av-stemmer-pa-arsmtet">§ 52. Beregning av flertall og opptelling av stemmer på årsmøtet</a></li>
+<li class="lvl4"><a href="#53-protokoll-fra-arsmtet">§ 53. Protokoll fra årsmøtet</a></li>
+<li class="lvl2"><a href="#kapittel-vii-styret">Kapittel VII. Styret</a></li>
+<li class="lvl4"><a href="#54-plikt-til-a-ha-et-styre-styrets-sammensetning">§ 54. Plikt til å ha et styre. Styrets sammensetning</a></li>
+<li class="lvl4"><a href="#55-valg-av-styret-tjenestetid-og-vederlag">§ 55. Valg av styret, tjenestetid og vederlag</a></li>
+<li class="lvl4"><a href="#56-styremter">§ 56. Styremøter</a></li>
+<li class="lvl4"><a href="#57-styrets-oppgaver">§ 57. Styrets oppgaver</a></li>
+<li class="lvl4"><a href="#58-styrets-beslutningsmyndighet">§ 58. Styrets beslutningsmyndighet</a></li>
+<li class="lvl4"><a href="#59-inhabilitet">§ 59. Inhabilitet</a></li>
+<li class="lvl4"><a href="#60-styrets-representasjonsadgang-og-ansvar">§ 60. Styrets representasjonsadgang og ansvar</a></li>
+<li class="lvl2"><a href="#kapittel-viii-forretningsfrer-gebyr">Kapittel VIII Forretningsfører. Gebyr.</a></li>
+<li class="lvl4"><a href="#61-ansettelse-eller-engasjement-av-forretningsfrer">§ 61. Ansettelse eller engasjement av forretningsfører</a></li>
+<li class="lvl4"><a href="#62-forretningsfrerens-beslutningsmyndighet-og-representasjonsrett">§ 62. Forretningsførerens beslutningsmyndighet og representasjonsrett</a></li>
+<li class="lvl4"><a href="#63-inhabilitet">§ 63. Inhabilitet</a></li>
+<li class="lvl4"><a href="#63-a-eierskiftegebyr">§ 63 a. Eierskiftegebyr</a></li>
+<li class="lvl2"><a href="#kapittel-ix-regnskap-og-revisjon">Kapittel IX. Regnskap og revisjon</a></li>
+<li class="lvl4"><a href="#64-plikt-til-a-fre-regnskap">§ 64. Plikt til å føre regnskap</a></li>
+<li class="lvl4"><a href="#65-plikt-til-a-ha-revisor">§ 65. Plikt til å ha revisor</a></li>
+<li class="lvl2"><a href="#kapittel-x-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel X. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#66-ikrafttredelse">§ 66. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#67-overgangsbestemmelser">§ 67. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#68-endringer-i-andre-lover">§ 68. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-12-19-114.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-65.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om eierseksjoner (eierseksjonsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-65.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-06-16-65 <code>lov/2017-06-16-65</code></td></tr>
+<tr><th>Korttittel</th><td>Eierseksjonsloven – eiersl</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Anskaffelser, avtaler, bygg og entrepriser &raquo; Boligoppføring\nFast eiendoms rettsforhold &raquo; Sameie\nFast eiendoms rettsforhold &raquo; Tinglysing. Registrering\nKonkurs, gjeld og pant &raquo; Pant\nTvangsfullbyrdelse &raquo; Tvangsgrunnlag og tvangskraft</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2018, 01.07.2018</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-12-19-114 <code>lov/2025-12-19-114</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-65" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-lovens-virkeomrade">§ 2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#3-lovens-betydning-for-andre-sameieformer-eiendomsrett-til-bolig-i-bygning-med-flere-bruksenheter">§ 3. Lovens betydning for andre sameieformer. Eiendomsrett til bolig i bygning med flere bruksenheter</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-fravikelighet">§ 5. Fravikelighet</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-diskriminering">§ 6. Forbud mot diskriminering</a></li>
+<li class="lvl4"><a href="#6-a-kommunikasjon-mellom-styret-og-seksjonseierne">§ 6 a. Kommunikasjon mellom styret og seksjonseierne</a></li>
+<li class="lvl4"><a href="#6-b-utarbeidelse-og-oppbevaring-av-dokumentasjon">§ 6 b. Utarbeidelse og oppbevaring av dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-ii-vilkar-for-seksjonering-seksjoneringstidspunktet-rett-til-a-kreve-seksjonering">Kapittel II. Vilkår for seksjonering. Seksjoneringstidspunktet. Rett til å kreve seksjonering</a></li>
+<li class="lvl4"><a href="#7-vilkar-for-seksjonering">§ 7. Vilkår for seksjonering</a></li>
+<li class="lvl4"><a href="#8-seksjoneringstidspunktet">§ 8. Seksjoneringstidspunktet</a></li>
+<li class="lvl4"><a href="#9-rett-til-a-kreve-seksjonering-for-sameiere-med-bruksrett-til-bolig-i-sameier-som-ikke-er-seksjonert">§ 9. Rett til å kreve seksjonering for sameiere med bruksrett til bolig i sameier som ikke er seksjonert</a></li>
+<li class="lvl2"><a href="#kapittel-iii-fremgangsmaten-ved-seksjonering">Kapittel III. Fremgangsmåten ved seksjonering</a></li>
+<li class="lvl4"><a href="#10-hvordan-en-eierseksjon-opprettes">§ 10. Hvordan en eierseksjon opprettes</a></li>
+<li class="lvl4"><a href="#11-krav-til-sknaden-om-seksjonering">§ 11. Krav til søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#12-kommunens-behandling-av-sknaden-om-seksjonering">§ 12. Kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#13-kommunens-vedtak-om-seksjonering">§ 13. Kommunens vedtak om seksjonering</a></li>
+<li class="lvl4"><a href="#14-saksbehandlingstid-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 14. Saksbehandlingstid for kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#15-gebyrer-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 15. Gebyrer for kommunens behandling av søknaden om seksjonering</a></li>
+<li class="lvl4"><a href="#16-klage-pa-kommunens-vedtak-om-seksjonering">§ 16. Klage på kommunens vedtak om seksjonering</a></li>
+<li class="lvl4"><a href="#17-oversendelse-til-tinglysing">§ 17. Oversendelse til tinglysing</a></li>
+<li class="lvl4"><a href="#18-utsteding-av-matrikkelbrev">§ 18. Utsteding av matrikkelbrev</a></li>
+<li class="lvl4"><a href="#19-registrering-i-foretaksregisteret">§ 19. Registrering i Foretaksregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-iv-reseksjonering-og-sammenslaing-av-eierseksjonssameier">Kapittel IV Reseksjonering og sammenslåing av eierseksjonssameier</a></li>
+<li class="lvl4"><a href="#20-reseksjonering-ved-deling-og-sammenslaing-av-seksjoner">§ 20. Reseksjonering ved deling og sammenslåing av seksjoner</a></li>
+<li class="lvl4"><a href="#21-reseksjonering-i-andre-tilfeller">§ 21. Reseksjonering i andre tilfeller</a></li>
+<li class="lvl4"><a href="#22-kommunens-rett-til-a-kreve-reseksjonering">§ 22. Kommunens rett til å kreve reseksjonering</a></li>
+<li class="lvl4"><a href="#22-a-sammenslaing-av-eierseksjonssameier">§ 22 a. Sammenslåing av eierseksjonssameier</a></li>
+<li class="lvl4"><a href="#22-b-plan-for-sammenslaing">§ 22 b. Plan for sammenslåing</a></li>
+<li class="lvl2"><a href="#kapittel-v-disposisjonsretten-over-seksjonene">Kapittel V. Disposisjonsretten over seksjonene</a></li>
+<li class="lvl4"><a href="#23-begrensninger-i-muligheten-til-a-kjpe-boligseksjoner">§ 23. Begrensninger i muligheten til å kjøpe boligseksjoner</a></li>
+<li class="lvl4"><a href="#23-a-unntak-fra-23-for-juridiske-personer-som-tilbyr-avtale-om-leie-til-eie-eller-deleie">§ 23 a. Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleie</a></li>
+<li class="lvl4"><a href="#23-b-foreldelse-av-kjpsrett-ved-avtale-om-leie-til-eie-og-deleie">§ 23 b. Foreldelse av kjøpsrett ved avtale om leie til eie og deleie</a></li>
+<li class="lvl4"><a href="#24-seksjonseierens-rettslige-disposisjonsrett">§ 24. Seksjonseierens rettslige disposisjonsrett</a></li>
+<li class="lvl4"><a href="#25-seksjonseierens-rett-til-a-bruke-bruksenheten-og-fellesarealer">§ 25. Seksjonseierens rett til å bruke bruksenheten og fellesarealer</a></li>
+<li class="lvl4"><a href="#25-a-rett-til-a-sette-opp-ladepunkt-for-elbil-og-ladbar-hybridbil">§ 25 a. Rett til å sette opp ladepunkt for elbil og ladbar hybridbil</a></li>
+<li class="lvl4"><a href="#26-parkering-og-andre-tiltak-for-seksjonseiere-med-nedsatt-funksjonsevne">§ 26. Parkering og andre tiltak for seksjonseiere med nedsatt funksjonsevne</a></li>
+<li class="lvl4"><a href="#27-vedtekter">§ 27. Vedtekter</a></li>
+<li class="lvl4"><a href="#28-ordensregler-og-dyrehold">§ 28. Ordensregler og dyrehold</a></li>
+<li class="lvl4"><a href="#29-fordeling-av-felleskostnader-og-fellesinntekter">§ 29. Fordeling av felleskostnader og fellesinntekter</a></li>
+<li class="lvl4"><a href="#30-seksjonseierens-heftelse-for-sameiets-ansvar-og-forpliktelser-utad">§ 30. Seksjonseierens heftelse for sameiets ansvar og forpliktelser utad</a></li>
+<li class="lvl4"><a href="#31-panterett-for-seksjonseiernes-forpliktelser">§ 31. Panterett for seksjonseiernes forpliktelser</a></li>
+<li class="lvl4"><a href="#32-seksjonseierens-plikt-til-a-vedlikeholde-bruksenheten">§ 32. Seksjonseierens plikt til å vedlikeholde bruksenheten</a></li>
+<li class="lvl4"><a href="#33-sameiets-plikt-til-a-vedlikeholde-og-utbedre-fellesarealer-mm">§ 33. Sameiets plikt til å vedlikeholde og utbedre fellesarealer m.m.</a></li>
+<li class="lvl4"><a href="#34-seksjonseierens-erstatningsansvar-for-mangelfullt-vedlikehold">§ 34. Seksjonseierens erstatningsansvar for mangelfullt vedlikehold</a></li>
+<li class="lvl4"><a href="#35-sameiets-erstatningsansvar-for-mangelfullt-vedlikehold">§ 35. Sameiets erstatningsansvar for mangelfullt vedlikehold</a></li>
+<li class="lvl4"><a href="#36-fellesregler-om-omfanget-av-erstatning">§ 36. Fellesregler om omfanget av erstatning</a></li>
+<li class="lvl4"><a href="#37-krav-mot-tidligere-avtalepart">§ 37. Krav mot tidligere avtalepart</a></li>
+<li class="lvl4"><a href="#38-palegg-om-salg-av-seksjonen">§ 38. Pålegg om salg av seksjonen</a></li>
+<li class="lvl4"><a href="#39-fravikelse-av-bruksenheten-utkastelse">§ 39. Fravikelse av bruksenheten (utkastelse)</a></li>
+<li class="lvl2"><a href="#kapittel-vi-arsmtet">Kapittel VI. Årsmøtet</a></li>
+<li class="lvl4"><a href="#40-arsmtets-myndighet-mindretallsvern">§ 40. Årsmøtets myndighet. Mindretallsvern</a></li>
+<li class="lvl4"><a href="#41-ordinrt-arsmte">§ 41. Ordinært årsmøte</a></li>
+<li class="lvl4"><a href="#42-ekstraordinrt-arsmte">§ 42. Ekstraordinært årsmøte</a></li>
+<li class="lvl4"><a href="#43-innkalling-til-arsmte">§ 43. Innkalling til årsmøte</a></li>
+<li class="lvl4"><a href="#44-saker-arsmtet-skal-behandle">§ 44. Saker årsmøtet skal behandle</a></li>
+<li class="lvl4"><a href="#45-saker-arsmtet-kan-behandle">§ 45. Saker årsmøtet kan behandle</a></li>
+<li class="lvl4"><a href="#46-hvem-som-kan-delta-pa-arsmtet">§ 46. Hvem som kan delta på årsmøtet</a></li>
+<li class="lvl4"><a href="#47-ledelse-av-arsmtet">§ 47. Ledelse av årsmøtet</a></li>
+<li class="lvl4"><a href="#48-inhabilitet">§ 48. Inhabilitet</a></li>
+<li class="lvl4"><a href="#49-flertallskrav-ved-ulike-beslutninger-pa-arsmtet-srlige-begrensninger-i-arsmtets-myndighet">§ 49. Flertallskrav ved ulike beslutninger på årsmøtet. Særlige begrensninger i årsmøtets myndighet</a></li>
+<li class="lvl4"><a href="#50-flertallskrav-for-srlige-bomiljtiltak">§ 50. Flertallskrav for særlige bomiljøtiltak</a></li>
+<li class="lvl4"><a href="#51-beslutninger-som-krever-enighet-fra-alle-seksjonseiere">§ 51. Beslutninger som krever enighet fra alle seksjonseiere</a></li>
+<li class="lvl4"><a href="#52-beregning-av-flertall-og-opptelling-av-stemmer-pa-arsmtet">§ 52. Beregning av flertall og opptelling av stemmer på årsmøtet</a></li>
+<li class="lvl4"><a href="#53-protokoll-fra-arsmtet">§ 53. Protokoll fra årsmøtet</a></li>
+<li class="lvl2"><a href="#kapittel-vii-styret">Kapittel VII. Styret</a></li>
+<li class="lvl4"><a href="#54-plikt-til-a-ha-et-styre-styrets-sammensetning">§ 54. Plikt til å ha et styre. Styrets sammensetning</a></li>
+<li class="lvl4"><a href="#55-valg-av-styret-tjenestetid-og-vederlag">§ 55. Valg av styret, tjenestetid og vederlag</a></li>
+<li class="lvl4"><a href="#56-styremter">§ 56. Styremøter</a></li>
+<li class="lvl4"><a href="#57-styrets-oppgaver">§ 57. Styrets oppgaver</a></li>
+<li class="lvl4"><a href="#58-styrets-beslutningsmyndighet">§ 58. Styrets beslutningsmyndighet</a></li>
+<li class="lvl4"><a href="#59-inhabilitet">§ 59. Inhabilitet</a></li>
+<li class="lvl4"><a href="#60-styrets-representasjonsadgang-og-ansvar">§ 60. Styrets representasjonsadgang og ansvar</a></li>
+<li class="lvl2"><a href="#kapittel-viii-forretningsfrer-gebyr">Kapittel VIII Forretningsfører. Gebyr.</a></li>
+<li class="lvl4"><a href="#61-ansettelse-eller-engasjement-av-forretningsfrer">§ 61. Ansettelse eller engasjement av forretningsfører</a></li>
+<li class="lvl4"><a href="#62-forretningsfrerens-beslutningsmyndighet-og-representasjonsrett">§ 62. Forretningsførerens beslutningsmyndighet og representasjonsrett</a></li>
+<li class="lvl4"><a href="#63-inhabilitet">§ 63. Inhabilitet</a></li>
+<li class="lvl4"><a href="#63-a-eierskiftegebyr">§ 63 a. Eierskiftegebyr</a></li>
+<li class="lvl2"><a href="#kapittel-ix-regnskap-og-revisjon">Kapittel IX. Regnskap og revisjon</a></li>
+<li class="lvl4"><a href="#64-plikt-til-a-fre-regnskap">§ 64. Plikt til å føre regnskap</a></li>
+<li class="lvl4"><a href="#65-plikt-til-a-ha-revisor">§ 65. Plikt til å ha revisor</a></li>
+<li class="lvl2"><a href="#kapittel-x-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel X. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#66-ikrafttredelse">§ 66. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#67-overgangsbestemmelser">§ 67. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#68-endringer-i-andre-lover">§ 68. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-65.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-65.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-65.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-06-16-65.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-06-16-65.html">Observerte kildeutgaver</a> · <a href="../historie/eierseksjonsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-06-16-65.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-06-16-65.html">Observerte kildeutgaver</a> · <a href="../historie/eierseksjonsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-06-16-65.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-eierseksjoner-eierseksjonsloven">Lov om eierseksjoner (eierseksjonsloven)</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Loven skal sikre interessene til både eierseksjonssameiet som fellesskap, de enkelte seksjonseierne, brukerne, utbyggerne og samfunnet når et eierseksjonssameie opprettes og ved den senere driften.</p>
@@ -109,18 +326,18 @@ l. sameiet (eierseksjonssameiet): fellesskapet av alle seksjonseierne.</p>
 <p>Loven er ufravikelig med mindre annet er uttrykkelig sagt eller fremgår av sammenhengen.</p>
 <h4 id="6-forbud-mot-diskriminering">§ 6. Forbud mot diskriminering</h4>
 <p>Vedtektene kan ikke fastsette vilkår for å være seksjonseier som tar hensyn til kjønn, etnisitet, religion, livssyn, nedsatt funksjonsevne, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk. Slike forhold kan ikke regnes som saklig grunn til å nekte å godkjenne en seksjonseier eller bruker av eiendommen eller tillegges vekt ved bruk av eventuell forkjøpsrett. Ved diskriminering gjelder <a href="lov-2017-06-16-51.html">likestillings- og diskrimineringsloven</a>.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="6-a-kommunikasjon-mellom-styret-og-seksjonseierne">§ 6 a. Kommunikasjon mellom styret og seksjonseierne</h4>
 <p>Styret bestemmer hvordan meldinger og lignende etter loven gis til seksjonseierne. Seksjonseierne kan reservere seg mot å motta meldinger elektronisk. Styret skal informere seksjonseierne i rimelig tid før ny kommunikasjonsmåte tas i bruk. Meldinger skal gis på en betryggende og hensiktsmessig måte.</p>
 <p>Når en seksjonseier skal gi meldinger og lignende etter denne loven til sameiet, kan han eller hun gjøre dette ved bruk av elektronisk kommunikasjon til den e-postadressen eller på den måten sameiet har fastsatt for dette formålet.</p>
 <p>Krav i loven om at meldinger og lignende skal være eller gis skriftlig, er ikke til hinder for elektronisk kommunikasjon.</p>
 <p>Departementet kan i forskrift gi regler om krav til meldinger og lignende mellom styret og seksjonseierne.</p>
-<p><em>Tilføyd ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</em></p>
+<p class="note">Tilføyd ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</p>
 <h4 id="6-b-utarbeidelse-og-oppbevaring-av-dokumentasjon">§ 6 b. Utarbeidelse og oppbevaring av dokumentasjon</h4>
 <p>Styret skal utarbeide og oppbevare dokumentasjon som det er krav om etter loven, på en trygg og forsvarlig måte. Dokumentasjonen skal være tilgjengelig fra Norge.</p>
 <p>Krav om at dokumentasjon skal være eller gis skriftlig, er ikke til hinder for bruk av elektroniske løsninger.</p>
 <p>Departementet kan i forskrift gi bestemmelser om oppbevaringstid for bestemte dokumenttyper, hva som er egnet format på dokumentasjonen, hva som skal regnes som trygg og forsvarlig utarbeidelse og oppbevaring, og om sikkerhetsnivå for signatur.</p>
-<p><em>Tilføyd ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</em></p>
+<p class="note">Tilføyd ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</p>
 <h2 id="kapittel-ii-vilkar-for-seksjonering-seksjoneringstidspunktet-rett-til-a-kreve-seksjonering">Kapittel II. Vilkår for seksjonering. Seksjoneringstidspunktet. Rett til å kreve seksjonering</h2>
 <h4 id="7-vilkar-for-seksjonering">§ 7. Vilkår for seksjonering</h4>
 <p>En søker har krav på tillatelse til å seksjonere en eiendom dersom</p>
@@ -166,7 +383,7 @@ d. rekvisisjon av oppmålingsforretning dersom bruksenheten har utendørs tilleg
 <p>Kommunen skal føre seksjonene inn i matrikkelen straks seksjoneringsvedtaket foreligger. En bruksenhet som skal omfatte ubebygde deler, kan ikke registreres i matrikkelen før det er holdt oppmålingsforretning for grensene for utearealet etter <a href="lov-2005-06-17-101.html">matrikkellova</a>.</p>
 <p>Departementet kan gi forskrift om innholdet i seksjoneringsvedtaket og om blanketter som kommunen skal bruke.</p>
 <p>Kommunen kan uten hinder av taushetsplikt innhente opplysninger fra Folkeregisteret når det er nødvendig for å løse oppgaver etter loven her.</p>
-<p><em>Endret ved lov 22 juni 2018 nr. 74 .</em></p>
+<p class="note">Endret ved lov 22 juni 2018 nr. 74 .</p>
 <h4 id="14-saksbehandlingstid-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 14. Saksbehandlingstid for kommunens behandling av søknaden om seksjonering</h4>
 <p>Kommunen skal behandle seksjoneringssøknaden og registrere seksjonene i matrikkelen innen 12 uker etter at søknaden er mottatt. Ved retting av søknaden etter § 12 første ledd løper fristen fra kommunen har mottatt en rettet søknad. Oversitter kommunen disse fristene, reduseres seksjoneringsgebyret etter § 15 med 25 prosent av det totale gebyret for hver påbegynte uke tidsfristen oversittes.</p>
 <h4 id="15-gebyrer-for-kommunens-behandling-av-sknaden-om-seksjonering">§ 15. Gebyrer for kommunens behandling av søknaden om seksjonering</h4>
@@ -193,7 +410,7 @@ d. rekvisisjon av oppmålingsforretning dersom bruksenheten har utendørs tilleg
 <p>Søknad om reseksjonering i andre tilfeller enn nevnt i § 20 skal settes frem av styret. Vilkårene etter § 7 gjelder også ved reseksjonering. Reglene i kapittel III gjelder tilsvarende.</p>
 <p>Søknad om tillatelse til endring av bruksenhetens formål fra boligformål til næringsformål eller omvendt, skal settes frem av seksjonenes hjemmelshaver med samtykke fra årsmøtet, jf. § 49 annet ledd bokstav d. Vilkårene i § 7 første ledd bokstav g gjelder tilsvarende.</p>
 <p>Reseksjonering etter første og annet ledd kan bare skje med samtykke fra alle som har tinglyst pant i de seksjonene det gjelder.</p>
-<p><em>Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</em></p>
+<p class="note">Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
 <h4 id="22-kommunens-rett-til-a-kreve-reseksjonering">§ 22. Kommunens rett til å kreve reseksjonering</h4>
 <p>Dersom en eiendom ble seksjonert før den var ferdig utbygd, og det når ferdigattesten er utstedt, eller etter fem år fra seksjoneringen ble tinglyst, viser seg at det er avvik av betydning mellom det seksjonerte og de ferdige bruksenhetene, kan kommunen pålegge de seksjonseierne som er berørt av avviket, å reseksjonere slik at seksjoneringen stemmer med virkeligheten. Er sameiebrøken fastsatt på grunnlag av bruksenhetenes areal eller det er andre klare holdepunkter for grunnlaget for fastsetting av brøken, skal brøken endres tilsvarende. Reseksjonering kan gjennomføres uten panthavers samtykke og uten hinder av eventuelle rådighetsinnskrenkninger som hefter på de aktuelle seksjonene.</p>
 <p>Dersom en eiendom ble seksjonert før den var ferdig utbygd, og det ikke har blitt bygget ut to eller flere bruksenheter på eiendommen innen fem år etter at seksjoneringen ble tinglyst, kan kommunen vedta at seksjoneringen skal slettes. Med ferdig utbygd menes i denne paragrafen at en bruksenhet er bygget i slik utstrekning at den oppfyller minstekravene til den type seksjon (boligseksjon eller næringsseksjon) det er tale om. Kommunen skal sende melding om at seksjoneringen er slettet i matrikkelen til tinglysingsmyndigheten, som deretter skal slette seksjoneringen i grunnboken. Slettingen kan gjennomføres uten hinder av eventuelle rådighetsinnskrenkninger som hefter på noen av seksjonene. Tinglysingsmyndigheten sender melding om slettingen til kommunen som fullfører slettingen av seksjonene i matrikkelen og utsteder matrikkelbrev.</p>
@@ -206,7 +423,7 @@ d. rekvisisjon av oppmålingsforretning dersom bruksenheten har utendørs tilleg
 <p>Dersom bruksenhetene ikke endres ved sammenslåingen, beholder tinglyste rettigheter sin prioritet, og det er ikke krav til samtykke fra den som har en tinglyst rettighet i seksjonen.</p>
 <p>Nye vedtekter for det utvidede sameiet må senest samtidig med beslutningen om sammenslåing vedtas med slikt flertall som er fastsatt i lov eller vedtekter.</p>
 <p>Departementet kan i forskrift gi nærmere regler om hvordan sammenslåing av eierseksjonssameier skal gjennomføres.</p>
-<p><em>Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</em></p>
+<p class="note">Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
 <h4 id="22-b-plan-for-sammenslaing">§ 22 b. Plan for sammenslåing</h4>
 <p>Styret skal senest i innkallingen til årsmøtet legge frem en plan for sammenslåingen som minst viser</p>
 <p>a. en angivelse av sameiene med gårds-, bruks- og seksjonsnummer
@@ -214,7 +431,7 @@ b. et forslag til nye vedtekter for det utvidede sameiet
 c. en utregning av sameiebrøker i det utvidede sameiet
 d. det siste årsregnskapet, den siste årsmeldingen og revisjonsmeldingen hvis det foreligger for de sameiene som skal slås sammen.</p>
 <p>Departementet kan i forskrift fastsette at søknad om sammenslåing og vedleggene til denne skal fremsettes på fastsatte blanketter.</p>
-<p><em>Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</em></p>
+<p class="note">Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
 <h2 id="kapittel-v-disposisjonsretten-over-seksjonene">Kapittel V. Disposisjonsretten over seksjonene</h2>
 <h4 id="23-begrensninger-i-muligheten-til-a-kjpe-boligseksjoner">§ 23. Begrensninger i muligheten til å kjøpe boligseksjoner</h4>
 <p>Ingen kan kjøpe eller på annen måte erverve en boligseksjon hvis ervervet fører til at man blir eier av flere enn to boligseksjoner i eierseksjonssameiet.</p>
@@ -224,15 +441,15 @@ b. eierne er selskaper i samme konsern. Aksjeloven § 1-3 gjelder tilsvarende, l
 c. eierne er selskaper som en fysisk person alene eller sammen med nærstående har bestemmende innflytelse over. Aksjeloven §§ 1-5 og 1-3 gjelder tilsvarende.</p>
 <p>Annet ledd bokstav a er ikke til hinder for at en nærstående erverver en boligseksjon som den nærstående selv eller dennes nærstående skal bruke som egen bolig.</p>
 <p>Begrensningen i første ledd gjelder ikke kjøp og erverv av fritidsboliger, erverv ved ekspropriasjon, arv eller forskudd på arv til livsarving eller en kreditors erverv for å redde en fordring som er sikret med pant i en seksjon. Borettslag, staten, fylkeskommuner, kommuner samt selskaper og organisasjoner som eies eller kontrolleres av staten, en fylkeskommune eller en kommune, og som har til formål å skaffe boliger, kan erverve flere seksjoner. Det samme gjelder institusjoner eller sammenslutninger med samfunnsnyttig formål som har til formål å skaffe boliger, eller en arbeidsgiver som skal leie ut seksjonene til sine ansatte.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="23-a-unntak-fra-23-for-juridiske-personer-som-tilbyr-avtale-om-leie-til-eie-eller-deleie">§ 23 a. Unntak fra § 23 for juridiske personer som tilbyr avtale om leie til eie eller deleie</h4>
 <p>Med leie til eie menes i denne loven avtale mellom en juridisk person og en eller flere fysiske personer om leie av bolig, der den eller de fysiske personene innenfor en tidsbestemt periode har rett til å kjøpe boligen.</p>
 <p>Med deleie menes i denne loven avtale om delt eierskap av en bolig mellom en juridisk person og en eller flere fysiske personer, der den eller de fysiske personene har rett til å kjøpe hele boligen. Den eller de fysiske personene må eie minst 50 prosent av boligen og ha en eksklusiv bruksrett til hele boligen.</p>
 <p>Departementet kan gi forskrift om unntak fra begrensningen i adgangen til å kjøpe eller på annen måte erverve boligseksjoner etter § 23 , slik at inntil 50 prosent av boligseksjonene i sameiet kan erverves av juridiske personer som tilbyr en bolig med avtale om leie til eie eller deleie. Forskriften skal stille nærmere vilkår til avtalene om leie til eie og deleie.</p>
-<p><em>Tilføyd ved lov 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</p>
 <h4 id="23-b-foreldelse-av-kjpsrett-ved-avtale-om-leie-til-eie-og-deleie">§ 23 b. Foreldelse av kjøpsrett ved avtale om leie til eie og deleie</h4>
 <p>Når en person har fått tilbud om kjøp av bolig som nevnt i § 23 a første eller andre ledd, foreldes ikke retten til å tre inn i kjøpsavtalen før akseptfristen som er angitt i kjøpsretten, er gått ut. For krav med grunnlag i en inngått kjøpsavtale gjelder reglene i <a href="lov-1979-05-18-18.html">foreldelsesloven</a> .</p>
-<p><em>Tilføyd ved lov 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</p>
 <h4 id="24-seksjonseierens-rettslige-disposisjonsrett">§ 24. Seksjonseierens rettslige disposisjonsrett</h4>
 <p>Seksjonseieren disponerer fritt over egen seksjon med de begrensningene som følger av sameieforholdet og denne loven. Seksjonseieren kan fritt selge, pantsette og leie ut sin egen seksjon. Seksjonseieren kan også påhefte seksjonen servitutter, forkjøpsretter eller andre løsningsretter og foreta andre rettslige disposisjoner over seksjonen.</p>
 <p>Seksjonseiernes rettslige disposisjonsrett over seksjonene kan begrenses i vedtektene dersom de som berøres, samtykker i begrensningen. Slike begrensninger kan også fastsettes i avtaler mellom seksjonseiere eller i avtaler mellom seksjonseiere og tredjepersoner.</p>
@@ -247,7 +464,7 @@ f. selskaper, stiftelser eller andre som har inngått en avtale med staten, en f
 <p>Fjerde ledd gjelder tilsvarende når det er fastsatt en begrensning på hvor mange seksjoner noen kan eie.</p>
 <p>En eventuell forkjøpsrett kan ikke gjøres gjeldende når en boligseksjon overføres fra en eier som nevnt i fjerde ledd til en leier av seksjonen.</p>
 <p>Korttidsutleie av hele boligseksjonen i mer enn 90 døgn årlig er ikke tillatt. Med korttidsutleie menes utleie i inntil 30 døgn sammenhengende. Grensen på 90 døgn kan fravikes i vedtektene og kan i så fall settes til mellom 60 og 120 døgn. Slik beslutning krever et flertall på minst to tredjedeler av de avgitte stemmene på årsmøtet. Første til fjerde punktum gjelder ikke for sameier hvor alle bruksenhetene brukes som fritidsboliger.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="25-seksjonseierens-rett-til-a-bruke-bruksenheten-og-fellesarealer">§ 25. Seksjonseierens rett til å bruke bruksenheten og fellesarealer</h4>
 <p>Seksjonseieren har enerett til å bruke sin bruksenhet. Seksjonseieren har også rett til å bruke fellesarealene til det de er beregnet til eller vanligvis brukes til, og til annet som er i samsvar med tiden og forholdene.</p>
 <p>Bruksenheten og fellesarealene må ikke brukes slik at andre seksjonseiere påføres skade eller ulempe på en urimelig eller unødvendig måte.</p>
@@ -255,15 +472,15 @@ f. selskaper, stiftelser eller andre som har inngått en avtale med staten, en f
 <p>Dersom eieren samtykker, kan det i vedtektene fastsettes bestemmelser om bruken av en næringsseksjon.</p>
 <p>I boligsameier kan det fastsettes i vedtektene at én eller flere seksjonseiere har enerett til å bruke bestemte deler av fellesarealene i inntil tretti år. Vedtektene kan fastsette nærmere regulering av eneretten, for eksempel om kostnadsfordeling eller vedlikeholdsplikt. Etablering av slik midlertidig enerett krever samtykke fra seksjonseiere som får enerett. Endring av en etablert midlertidig enerett krever samtykke fra de seksjonseierne som direkte berøres av endringen. Begrensningen i § 7 annet ledd gjelder på samme måte.</p>
 <p>I sameier som inneholder næringsseksjoner, kan det fastsettes i vedtektene at én eller flere seksjonseiere har enerett til å bruke bestemte deler av fellesarealene i inntil tretti år. I vedtektene kan det også fastsettes at det til to eller flere seksjoner skal knyttes slik enerett i mer enn tretti år, eller uten tidsbegrensning. I sameier hvor næringsseksjonene bare skal brukes av boligseksjonene til parkering, boder eller annet, kan slik enerett likevel ikke gjelde for mer enn tretti år. Vedtektene kan fastsette nærmere regulering av enerett etter første til tredje punktum, for eksempel om kostnadsfordeling eller vedlikeholdsplikt. Etablering av enerett for inntil tretti år krever samtykke fra seksjonseierne som får eneretten, mens samtykke fra alle seksjonseierne kreves hvis eneretten varer i mer enn tretti år eller er uten tidsbegrensning. Endring av en etablert enerett krever samtykke fra de seksjonseierne som direkte berøres av endringen. Begrensningen i § 7 annet ledd gjelder på samme måte.</p>
-<p><em>Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</em></p>
+<p class="note">Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
 <h4 id="25-a-rett-til-a-sette-opp-ladepunkt-for-elbil-og-ladbar-hybridbil">§ 25 a. Rett til å sette opp ladepunkt for elbil og ladbar hybridbil</h4>
 <p>En seksjonseier som disponerer egen parkeringsplass på eierseksjonssameiets eiendom, har med styrets samtykke rett til å sette opp ladepunkt for elbil og ladbar hybridbil i tilknytning til parkeringsplassen. Samtykke kan bare nektes om det foreligger saklig grunn til det.</p>
 <p>En seksjonseier som har rett til å parkere på eierseksjonssameiets eiendom, men uten å disponere egen plass, kan kreve at det blir satt opp ladepunkt for elbil og ladbar hybridbil. Styret skal etterkomme kravet med mindre det foreligger saklig grunn til å nekte. Styret bestemmer hvor ladepunktet skal settes opp.</p>
-<p><em>Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</em></p>
+<p class="note">Tilføyd ved lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
 <h4 id="26-parkering-og-andre-tiltak-for-seksjonseiere-med-nedsatt-funksjonsevne">§ 26. Parkering og andre tiltak for seksjonseiere med nedsatt funksjonsevne</h4>
 <p>En seksjonseier kan med samtykke fra styret gjennomføre tiltak på fellesarealene som er nødvendige på grunn av seksjonseierens eller husstandsmedlemmenes nedsatte funksjonsevne. Styret kan bare nekte å samtykke dersom det foreligger en saklig grunn.</p>
 <p>Sameiet må i sine vedtekter, gjennom en bytteordning eller på annen måte, sikre at parkeringsplasser som i vedtak etter plan- og bygningsloven er krevet opparbeidet til bruk av personer med nedsatt funksjonsevne, gjøres tilgjengelige for disse. En seksjonseier med nedsatt funksjonsevne kan kreve at styret pålegger en seksjonseier uten behov for en tilrettelagt plass å bytte parkeringsplass. Bytteretten gjelder bare dersom seksjonseieren med nedsatt funksjonsevne allerede disponerer en parkeringsplass i sameiet. Retten til å bruke en tilrettelagt plass varer så lenge et dokumentert behov er til stede. Vedtektsbestemmelsen kan bare endres dersom samtlige seksjonseiere uttrykkelig sier seg enige. Kommunen har vetorett mot endring av vedtektsbestemmelsen. Vedtekten må registreres i Foretaksregisteret. Sameier som nevnt i § 19 første ledd tredje punktum må registreres i Foretaksregisteret dersom de har vedtektsbestemmelser som nevnt i dette leddet.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="27-vedtekter">§ 27. Vedtekter</h4>
 <p>Alle sameier skal ha vedtekter. Vedtektene skal minst angi eiendommens grunnboksbetegnelse og hvor mange medlemmer styret skal ha.</p>
 <p>Vedtektene kan, med unntak for opprinnelige vedtekter, jf. § 11 annet ledd bokstav a, bare fastsettes eller endres på årsmøtet. Om ikke loven stiller strengere krav, kan slike beslutninger bare tas med minst to tredjedels flertall av de avgitte stemmer.</p>
@@ -279,7 +496,7 @@ f. selskaper, stiftelser eller andre som har inngått en avtale med staten, en f
 <p>Den enkelte seksjonseieren skal betale et akontobeløp som fastsettes av seksjonseierne på årsmøtet, eller av styret, for å dekke sin andel av felleskostnadene. Akontobeløpet kan også dekke avsetning av midler til fremtidig vedlikehold, påkostninger eller andre fellestiltak på eiendommen dersom årsmøtet har vedtatt slik avsetning.</p>
 <p>En seksjonseier som har betalt mer i felleskostnader enn det som følger av første eller tredje ledd, har krav på å få tilbake det som er betalt for mye.</p>
 <p>Inntekter av eiendommen som ikke knytter seg til den enkelte bruksenhet, skal fordeles mellom seksjonseierne etter sameiebrøken. Dersom de seksjonseierne som berøres uttrykkelig sier seg enige, kan det i vedtektene fastsettes en annen fordeling enn den som følger av første punktum.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="30-seksjonseierens-heftelse-for-sameiets-ansvar-og-forpliktelser-utad">§ 30. Seksjonseierens heftelse for sameiets ansvar og forpliktelser utad</h4>
 <p>Den enkelte seksjonseieren hefter for felles ansvar og forpliktelser etter sin sameiebrøk.</p>
 <h4 id="31-panterett-for-seksjonseiernes-forpliktelser">§ 31. Panterett for seksjonseiernes forpliktelser</h4>
@@ -336,7 +553,7 @@ i. vinduer og ytterdører.</p>
 <p>Et pålegg om salg etter første og annet ledd skal gis skriftlig og opplyse om at seksjonen kan kreves solgt ved tvangssalg hvis pålegget ikke er etterkommet innen en fastsatt frist. Fristen skal ikke settes kortere enn seks måneder fra pålegget er mottatt.</p>
 <p>Er pålegget ikke etterkommet innen fristen, kan seksjonen kreves solgt gjennom namsmyndighetene etter reglene om tvangssalg. <a href="lov-1992-06-26-86.html">Tvangsfullbyrdelsesloven</a> §§ 4-18 og 4-19 gjelder tilsvarende. Dersom det innen fristen etter tvangsfullbyrdelsesloven § 11-7 første ledd reises innvendinger mot tvangssalget som ikke er klart grunnløse, skal begjæringen om tvangssalg ikke tas til følge uten behandling ved allmennprosess. Bestemmelsene i tvangsfullbyrdelsesloven § 11-20 om det minste bud som kan stadfestes, gjelder ikke ved tvangssalg etter denne paragrafen.</p>
 <p>I sameier med to seksjoner kan en seksjonseier kreve salgspålegg overfor den andre seksjonseieren etter reglene i denne paragrafen.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="39-fravikelse-av-bruksenheten-utkastelse">§ 39. Fravikelse av bruksenheten (utkastelse)</h4>
 <p>Hvis seksjonseierens oppførsel medfører fare for ødeleggelse eller vesentlig forringelse av eiendommen, eller seksjonseierens oppførsel er til alvorlig plage eller sjenanse for eiendommens øvrige brukere, kan styret kreve fravikelse av bruksenheten etter tvangsfullbyrdelsesloven kapittel 13 . En begjæring om fravikelse kan settes frem tidligst samtidig med at det gis pålegg etter § 38 om salg. Begjæringen settes frem for tingretten. Dersom det innen fristen etter tvangsfullbyrdelsesloven § 13-6 reises innvendinger mot fravikelsen som ikke er klart grunnløse, skal begjæringen om fravikelse ikke tas til følge uten behandling ved allmennprosess.</p>
 <p>Etter reglene i paragrafen her kan det også kreves fravikelse overfor en bruker som ikke er seksjonseier.</p>
@@ -347,10 +564,10 @@ i. vinduer og ytterdører.</p>
 <h4 id="41-ordinrt-arsmte">§ 41. Ordinært årsmøte</h4>
 <p>Ordinært årsmøte skal holdes hvert år innen utgangen av juni. Styret skal på forhånd varsle seksjonseierne om dato for møtet og om siste frist for å innlevere saker som ønskes behandlet.</p>
 <p>Styret beslutter hvordan årsmøtet skal gjennomføres. Årsmøtet skal gjennomføres som fysisk møte dersom minst to seksjonseiere som til sammen har minst ti prosent av stemmene, krever det. Styret kan sette en frist for når et krav om fysisk møte kan settes frem. Fristen kan tidligst løpe fra seksjonseierne har blitt informert om hvilke saker årsmøtet skal behandle, og må være så lang at seksjonseierne får rimelig tid til å vurdere om de skal fremme krav om fysisk møte. Dersom årsmøtet ikke gjennomføres som fysisk møte, må styret sørge for en forsvarlig gjennomføring og at det foreligger systemer som sikrer at lovens krav til årsmøte er oppfylt. Systemene må sikre at deltakelsen og stemmegivningen kan kontrolleres på en betryggende måte, og det må benyttes en betryggende metode for å bekrefte deltakernes identitet.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 , se endringsloven del IV for overgangsregel).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 , se endringsloven del IV for overgangsregel).</p>
 <h4 id="42-ekstraordinrt-arsmte">§ 42. Ekstraordinært årsmøte</h4>
 <p>Ekstraordinært årsmøte skal holdes når styret finner det nødvendig, eller når minst to seksjonseiere som til sammen har minst ti prosent av stemmene, krever det og samtidig oppgir hvilke saker de ønsker behandlet. Bestemmelsene i § 41 annet ledd gjelder tilsvarende for ekstraordinære årsmøter.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</p>
 <h4 id="43-innkalling-til-arsmte">§ 43. Innkalling til årsmøte</h4>
 <p>Styret innkaller årsmøtet med et varsel som skal være på minst åtte og høyst tjue dager. Styret kan om nødvendig innkalle til ekstraordinært årsmøte med kortere varsel, men varselet kan aldri være kortere enn tre dager.</p>
 <p>Blir det ikke innkalt til årsmøte som skal holdes etter loven, vedtektene eller tidligere beslutning på årsmøte, skal tingretten snarest innkalle til årsmøte når det kreves av en seksjonseier, et styremedlem eller forretningsføreren. Kostnadene dekkes som felleskostnader.</p>
@@ -364,7 +581,7 @@ i. vinduer og ytterdører.</p>
 b. behandle og eventuelt godkjenne styrets regnskap for foregående kalenderår
 c. velge styremedlemmer.</p>
 <p>Årsberetning, regnskap og eventuell revisjonsberetning skal senest en uke før ordinært årsmøte sendes ut til alle seksjonseiere med kjent adresse. Dokumentene skal dessuten være tilgjengelige i årsmøtet.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="45-saker-arsmtet-kan-behandle">§ 45. Saker årsmøtet kan behandle</h4>
 <p>Bortsett fra saker som skal behandles av ordinært årsmøte etter § 44 annet ledd, kan årsmøtet bare ta beslutning om saker som er angitt i innkallingen til møtet i samsvar med § 43 fjerde ledd. Hvis alle seksjonseierne er til stede på årsmøtet og stemmer for det, kan årsmøtet også ta beslutning i saker som ikke står i innkallingen. At saken ikke er nevnt i innkallingen, er ikke til hinder for at styret beslutter å innkalle til nytt årsmøte for å avgjøre forslag som er fremsatt i møtet.</p>
 <h4 id="46-hvem-som-kan-delta-pa-arsmtet">§ 46. Hvem som kan delta på årsmøtet</h4>
@@ -390,7 +607,7 @@ d. samtykke til at formålet for én eller flere bruksenheter endres fra boligfo
 e. samtykke til reseksjonering som nevnt i § 20 annet ledd annet punktum
 f. samtykke til sammenslåing av eierseksjonssameier som nevnt i § 22 a
 g. ombygging eller annen tilrettelegging som fører til at bruksenheten kan brukes som bolig for flere personer enn det som er vanlig for bruksenheter med tilsvarende størrelse og romløsning.</p>
-<p><em>Endret ved lover 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</em></p>
+<p class="note">Endret ved lover 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ), 11 mai 2021 nr. 37 (ikr. 1 juli 2021 iflg. res. 11 mai 2021 nr. 1542 ).</p>
 <h4 id="50-flertallskrav-for-srlige-bomiljtiltak">§ 50. Flertallskrav for særlige bomiljøtiltak</h4>
 <p>Tiltak som har sammenheng med seksjonseiernes bo- eller bruksinteresser, og som går ut over vanlig forvaltning, og som fører med seg økonomisk ansvar eller utlegg for seksjonseierne i fellesskap på mindre enn fem prosent av de årlige felleskostnadene, besluttes med vanlig flertall av de avgitte stemmene på årsmøtet. Hvis tiltaket fører med seg økonomisk ansvar eller utlegg for seksjonseierne i fellesskap på mer enn fem prosent av de årlige felleskostnadene, kreves det et flertall på minst to tredjedeler av de avgitte stemmene på årsmøtet.</p>
 <p>Hvis tiltak etter første ledd fører med seg et samlet økonomisk ansvar eller utlegg for enkelte seksjonseiere på mer enn halvparten av folketrygdens grunnbeløp på det tidspunktet tiltaket besluttes, kan tiltaket bare gjennomføres hvis disse seksjonseierne uttrykkelig sier seg enige.</p>
@@ -405,10 +622,10 @@ d. tiltak som går ut over seksjonseiernes bo- eller bruksinteresser, uavhengig 
 <p>Det kan ikke avgis stemme for boligseksjoner som er ervervet i strid med § 23 , og slike seksjoner skal ikke tas med i beregningsgrunnlaget for flertallsavgjørelser.</p>
 <p>Ved opptelling av stemmer anses blanke stemmer som ikke avgitt. Står stemmene likt, avgjøres saken ved loddtrekning.</p>
 <p>Departementet kan gi forskrift om stemmerett på årsmøtet ved bruk av avtale om leie til eie eller deleie i sameiet.</p>
-<p><em>Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</em></p>
+<p class="note">Endret ved lover 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ), 19 des 2025 nr. 114 (i kraft 1 jan 2026 iflg. res. 19 des 2025 nr. 2708 ).</p>
 <h4 id="53-protokoll-fra-arsmtet">§ 53. Protokoll fra årsmøtet</h4>
 <p>Møtelederen har ansvar for at det føres protokoll over alle saker som behandles, og alle beslutninger som tas på årsmøtet. Møtelederen og minst én seksjonseier som utpekes av årsmøtet blant dem som deltar, skal signere protokollen. Protokollen skal til enhver tid holdes tilgjengelig for seksjonseierne.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</p>
 <h2 id="kapittel-vii-styret">Kapittel VII. Styret</h2>
 <h4 id="54-plikt-til-a-ha-et-styre-styrets-sammensetning">§ 54. Plikt til å ha et styre. Styrets sammensetning</h4>
 <p>Sameiet skal ha et styre. Styret skal ha en leder. Styret skal ha tre medlemmer hvis ikke annet er fastsatt i vedtektene.</p>
@@ -424,7 +641,7 @@ d. tiltak som går ut over seksjonseiernes bo- eller bruksinteresser, uavhengig 
 <p>Styret er beslutningsdyktig når mer enn halvparten av alle styremedlemmene er til stede. Beslutninger kan treffes med mer enn halvparten av de avgitte stemmene. Står stemmene likt, gjør møtelederens stemme utslaget. De som stemmer for en beslutning, må likevel utgjøre mer enn en tredjedel av alle styremedlemmene.</p>
 <p>Bestemmelsene i tredje ledd gjelder ikke for styrer som består av alle seksjonseierne, jf. § 54 annet ledd. For slike styrer beregnes stemmene på samme måte som bestemt i § 52 , og styret er beslutningsdyktig når styremedlemmer som representerer mer enn halvparten av stemmene, er til stede.</p>
 <p>Styret skal føre protokoll fra styremøtene. Alle de deltakende styremedlemmene skal signere protokollen.</p>
-<p><em>Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</em></p>
+<p class="note">Endret ved lov 26 mars 2021 nr. 16 (ikr. 1 apr 2021 iflg. res. 26 mars 2021 nr. 966 ).</p>
 <h4 id="57-styrets-oppgaver">§ 57. Styrets oppgaver</h4>
 <p>Styret skal sørge for vedlikehold og drift av eiendommen og ellers sørge for forvaltningen av sameiets anliggender i samsvar med lov, vedtekter og beslutninger på årsmøtet.</p>
 <h4 id="58-styrets-beslutningsmyndighet">§ 58. Styrets beslutningsmyndighet</h4>
@@ -436,7 +653,7 @@ d. tiltak som går ut over seksjonseiernes bo- eller bruksinteresser, uavhengig 
 <p>Styret har rett til å representere seksjonseierne og forplikte dem med sin underskrift i saker som gjelder seksjonseiernes felles rettigheter og plikter. Dette omfatter å gjennomføre beslutninger truffet av årsmøtet eller styret, og rettigheter og plikter som ellers angår fellesareal og fast eiendom. Styret kan også gjøre gjeldende krav seksjonseierne har mot utbyggeren dersom kravet knytter seg til mangler ved fellesarealene eller forsinket ferdigstillelse av disse. Dersom alle seksjonseierne uttrykkelig samtykker til det, kan det fastsettes i vedtektene at seksjonseierne forpliktes ved underskrift av to eller flere styremedlemmer i fellesskap.</p>
 <p>Styrelederen kan saksøke og saksøkes med bindende virkning for alle seksjonseierne i saker som nevnt i første ledd første, annet og tredje punktum. Er det ikke valgt styreleder, kan ethvert styremedlem saksøkes med samme virkning.</p>
 <p>Har styret eller styremedlemmene overskredet sin myndighet, er avtale med tredjeperson ikke bindende for seksjonseierne dersom de kan godtgjøre at tredjepersonen innså eller burde innse at myndigheten ble overskredet, og det derfor ville være uredelig å påberope seg avtalen.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h2 id="kapittel-viii-forretningsfrer-gebyr">Kapittel VIII Forretningsfører. Gebyr.</h2>
 <p>Overskriften endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="61-ansettelse-eller-engasjement-av-forretningsfrer">§ 61. Ansettelse eller engasjement av forretningsfører</h4>
@@ -452,7 +669,7 @@ d. tiltak som går ut over seksjonseiernes bo- eller bruksinteresser, uavhengig 
 <p>Forretningsføreren kan ikke delta i behandlingen eller avgjørelsen av noe spørsmål som forretningsføreren selv eller dennes nærstående har en fremtredende personlig eller økonomisk særinteresse i.</p>
 <h4 id="63-a-eierskiftegebyr">§ 63 a. Eierskiftegebyr</h4>
 <p>Sameiet kan kreve at den som avhender en seksjon, betaler et gebyr på opptil fire ganger rettsgebyret for arbeid som må gjøres i forbindelse med eierskiftet og eventuell godkjenning av erververen. Det kan ikke avtales at andre enn den som avhender seksjonen, skal betale gebyret.</p>
-<p><em>Tilføyd ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Tilføyd ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h2 id="kapittel-ix-regnskap-og-revisjon">Kapittel IX. Regnskap og revisjon</h2>
 <h4 id="64-plikt-til-a-fre-regnskap">§ 64. Plikt til å føre regnskap</h4>
 <p>Styret skal sørge for ordentlig og tilstrekkelig regnskapsførsel. Styret skal legge frem regnskapet for det forrige kalenderåret på det ordinære årsmøtet.</p>
@@ -476,9 +693,11 @@ d. tiltak som går ut over seksjonseiernes bo- eller bruksinteresser, uavhengig 
 <p>For kjøperett som er utløst før loven trer i kraft, gjelder reglene i lov 23. mai 1997 nr. 31 om eierseksjoner kapittel III selv om kjøperetten ikke er gjort gjeldende.</p>
 <p>§§ 34 , 35 , 36 og 37 gjelder ikke når den handlingen eller den unnlatelsen som førte til skaden, skjedde før loven trer i kraft.</p>
 <p>Avtaler eller bestemmelser som er i strid med loven her, opphører å gjelde senest ett år etter at loven trer i kraft, om ikke annet går frem av loven. Eksisterende avtaler om midlertidige eneretter til å bruke fellesareal som kommer i strid med trettiårsbegrensningen i § 25 femte og sjette ledd består, men ikke lenger enn tretti år fra lovens ikrafttredelse.</p>
-<p><em>Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</em></p>
+<p class="note">Endret ved lov 10 apr 2019 nr. 13 (ikr. 1 jan 2020 iflg. res. 10 apr 2019 nr. 474 ).</p>
 <h4 id="68-endringer-i-andre-lover">§ 68. Endringer i andre lover</h4>
 <p>Fra det tidspunktet loven trer i kraft gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

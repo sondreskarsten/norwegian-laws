@@ -19,64 +19,257 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2025-06-20-102.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Viltressursloven" href="../feeds/lov-2025-06-20-102.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Viltressursloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2025-06-20-102</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementetKlima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Jakt og innlandsfiske</dd>
-<dt>Ikrafttredelse</dt><dd>2026-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-61</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2025-06-20-102" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-geografisk-virkeomrade">§ 2. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-samiske-interesser">§ 4. Samiske interesser</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-folkeretten">§ 5. Forholdet til folkeretten</a></li>
+<li class="lvl2"><a href="#kapittel-2-viltforvaltning">Kapittel 2 Viltforvaltning</a></li>
+<li class="lvl4"><a href="#6-statlige-viltmyndigheter">§ 6. Statlige viltmyndigheter</a></li>
+<li class="lvl4"><a href="#7-fylkeskommunens-og-kommunens-oppgaver-etter-loven-klagerett-og-omgjring">§ 7. Fylkeskommunens og kommunens oppgaver etter loven, klagerett og omgjøring</a></li>
+<li class="lvl4"><a href="#8-jegerregisteret">§ 8. Jegerregisteret</a></li>
+<li class="lvl4"><a href="#9-jegeravgift-fellingsavgift-og-viltfond">§ 9. Jegeravgift, fellingsavgift og viltfond</a></li>
+<li class="lvl2"><a href="#kapittel-3-adgangen-til-jakt-og-fangst-sanking-av-egg-og-dun-mv">Kapittel 3 Adgangen til jakt og fangst, sanking av egg og dun mv.</a></li>
+<li class="lvl4"><a href="#10-adgangen-til-jakt-og-fangst">§ 10. Adgangen til jakt og fangst</a></li>
+<li class="lvl4"><a href="#11-sanking-av-fugleegg-og-dun">§ 11. Sanking av fugleegg og dun</a></li>
+<li class="lvl4"><a href="#12-lodden-jakt-pa-ender-av-hensyn-til-samisk-kultur-og-sedvane">§ 12. Lodden (jakt på ender) av hensyn til samisk kultur og sedvane</a></li>
+<li class="lvl4"><a href="#13-dager-med-jakt-og-fangstforbud">§ 13. Dager med jakt- og fangstforbud</a></li>
+<li class="lvl2"><a href="#kapittel-4-jegerprve-registrering-i-jegerregisteret-betaling-av-jegeravgift-mv">Kapittel 4 Jegerprøve, registrering i Jegerregisteret, betaling av jegeravgift mv.</a></li>
+<li class="lvl4"><a href="#14-jegerprve">§ 14. Jegerprøve</a></li>
+<li class="lvl4"><a href="#15-registrering-i-jegerregisteret">§ 15. Registrering i Jegerregisteret</a></li>
+<li class="lvl4"><a href="#16-betaling-av-jegeravgift">§ 16. Betaling av jegeravgift</a></li>
+<li class="lvl4"><a href="#17-aldersgrenser-ved-utvelse-av-jakt-og-fangst">§ 17. Aldersgrenser ved utøvelse av jakt og fangst</a></li>
+<li class="lvl4"><a href="#18-unntak-fra-kravet-om-jegerprve-mv-for-deltakere-under-jakt-og-fangst">§ 18. Unntak fra kravet om jegerprøve mv. for deltakere under jakt og fangst</a></li>
+<li class="lvl4"><a href="#19-rapportering-og-innlevering-for-statistiske-eller-vitenskapelige-formal">§ 19. Rapportering og innlevering for statistiske eller vitenskapelige formål</a></li>
+<li class="lvl4"><a href="#20-kompetansekrav">§ 20. Kompetansekrav</a></li>
+<li class="lvl2"><a href="#kapittel-5-utvelse-av-jakt-og-fangst">Kapittel 5 Utøvelse av jakt og fangst</a></li>
+<li class="lvl4"><a href="#21-forsvarlig-jakt-og-fangstutvelse">§ 21. Forsvarlig jakt- og fangstutøvelse</a></li>
+<li class="lvl4"><a href="#22-underskelses-og-ettersksplikt">§ 22. Undersøkelses- og ettersøksplikt</a></li>
+<li class="lvl4"><a href="#23-rett-til-a-forflge-saret-storvilt-pa-andres-grunn-ved-ettersk">§ 23. Rett til å forfølge såret storvilt på andres grunn ved ettersøk</a></li>
+<li class="lvl4"><a href="#24-jaktvapen-og-ammunisjon">§ 24. Jaktvåpen og ammunisjon</a></li>
+<li class="lvl4"><a href="#25-fangst">§ 25. Fangst</a></li>
+<li class="lvl4"><a href="#26-bruk-av-synlig-lys-og-srskilte-siktemidler">§ 26. Bruk av synlig lys og særskilte siktemidler</a></li>
+<li class="lvl4"><a href="#27-jakthundtrening-og-bruk-av-hund-under-jakt">§ 27. Jakthundtrening og bruk av hund under jakt</a></li>
+<li class="lvl4"><a href="#28-srskilte-forbud-mot-a-lsne-skudd">§ 28. Særskilte forbud mot å løsne skudd</a></li>
+<li class="lvl4"><a href="#29-forbud-mot-bruk-av-luftfarty-motorkjrety-og-motorfarty">§ 29. Forbud mot bruk av luftfartøy, motorkjøretøy og motorfartøy</a></li>
+<li class="lvl4"><a href="#30-bruk-av-ate-til-jakt-og-fangst-mv">§ 30. Bruk av åte til jakt og fangst mv.</a></li>
+<li class="lvl4"><a href="#31-forbud-mot-bruk-av-kjemikalier-eller-gift">§ 31. Forbud mot bruk av kjemikalier eller gift</a></li>
+<li class="lvl4"><a href="#32-forbud-mot-bestemte-jakt-og-fangstmetoder">§ 32. Forbud mot bestemte jakt- og fangstmetoder</a></li>
+<li class="lvl2"><a href="#kapittel-6-retten-til-jakt-og-fangst-mv">Kapittel 6 Retten til jakt og fangst mv.</a></li>
+<li class="lvl4"><a href="#33-grunneiers-enerett-til-jakt-og-fangst">§ 33. Grunneiers enerett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#34-rekkevidden-av-grunneiers-enerett-til-jakt-og-fangst">§ 34. Rekkevidden av grunneiers enerett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#35-grunneiers-adgang-til-a-overlate-retten-til-jakt-og-fangst">§ 35. Grunneiers adgang til å overlate retten til jakt og fangst</a></li>
+<li class="lvl4"><a href="#36-jakt-og-fangst-i-sameie-mellom-eiendommer">§ 36. Jakt og fangst i sameie mellom eiendommer</a></li>
+<li class="lvl4"><a href="#37-rett-til-jakt-og-fangst-pa-statens-grunn-som-ikke-omfattes-av-fjellova">§ 37. Rett til jakt og fangst på statens grunn som ikke omfattes av fjellova</a></li>
+<li class="lvl4"><a href="#38-reindriftssamenes-rett-til-jakt-og-fangst">§ 38. Reindriftssamenes rett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#39-ferdsel-med-skytevapen-eller-feller-pa-eiendommer-der-jegeren-ikke-har-rett-til-jakt-og-fangst">§ 39. Ferdsel med skytevåpen eller feller på eiendommer der jegeren ikke har rett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#40-forbud-mot-jaging-av-vilt-fra-andres-jaktomrader">§ 40. Forbud mot jaging av vilt fra andres jaktområder</a></li>
+<li class="lvl4"><a href="#41-grunneiers-enerett-til-sanking-av-fugleegg-og-dun">§ 41. Grunneiers enerett til sanking av fugleegg og dun</a></li>
+<li class="lvl2"><a href="#kapittel-7-hjortevilt-og-bever">Kapittel 7 Hjortevilt og bever</a></li>
+<li class="lvl4"><a href="#42-apning-for-jakt-pa-hjortevilt-og-krav-om-fellingstillatelse">§ 42. Åpning for jakt på hjortevilt og krav om fellingstillatelse</a></li>
+<li class="lvl4"><a href="#43-svmmende-hjortevilt">§ 43. Svømmende hjortevilt</a></li>
+<li class="lvl4"><a href="#44-jakt-pa-og-fangst-av-bever">§ 44. Jakt på og fangst av bever</a></li>
+<li class="lvl2"><a href="#kapittel-8-felling-etternaturmangfoldloven-18mv">Kapittel 8 Felling etternaturmangfoldloven § 18mv.</a></li>
+<li class="lvl4"><a href="#45-lisensfelling">§ 45. Lisensfelling</a></li>
+<li class="lvl4"><a href="#46-skadefelling">§ 46. Skadefelling</a></li>
+<li class="lvl4"><a href="#47-felling-iverksatt-av-myndighetene">§ 47. Felling iverksatt av myndighetene</a></li>
+<li class="lvl4"><a href="#48-vederlag-for-felling-mv">§ 48. Vederlag for felling mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-diverse-bestemmelser">Kapittel 9 Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#49-forbud-mot-hold-av-vilt-i-fangenskap-mv">§ 49. Forbud mot hold av vilt i fangenskap mv.</a></li>
+<li class="lvl4"><a href="#50-oppbevaring-omsetning-og-annen-handtering-av-vilt-og-egg-fra-viltarter">§ 50. Oppbevaring, omsetning og annen håndtering av vilt og egg fra viltarter</a></li>
+<li class="lvl4"><a href="#51-det-statlige-viltfondets-eiendomsrett-og-inndragning-av-ulovlig-felt-vilt-mv">§ 51. Det statlige viltfondets eiendomsrett og inndragning av ulovlig felt vilt mv.</a></li>
+<li class="lvl4"><a href="#52-skuddpremieordninger">§ 52. Skuddpremieordninger</a></li>
+<li class="lvl4"><a href="#53-bestandsregulering-under-sregne-forhold">§ 53. Bestandsregulering under særegne forhold</a></li>
+<li class="lvl4"><a href="#54-handtering-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 54. Håndtering av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl4"><a href="#55-offentlig-ettersk-av-sykt-eller-skadd-vilt-utenom-jaktutvelse">§ 55. Offentlig ettersøk av sykt eller skadd vilt utenom jaktutøvelse</a></li>
+<li class="lvl4"><a href="#56-merke-og-registreringsplikt">§ 56. Merke- og registreringsplikt</a></li>
+<li class="lvl4"><a href="#57-autorisasjon-og-tilsyn-med-taksidermister">§ 57. Autorisasjon og tilsyn med taksidermister</a></li>
+<li class="lvl2"><a href="#kapittel-10-handheving-og-sanksjoner">Kapittel 10 Håndheving og sanksjoner</a></li>
+<li class="lvl4"><a href="#58-overtredelsesgebyr">§ 58. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#59-administrativt-rettighetstap">§ 59. Administrativt rettighetstap</a></li>
+<li class="lvl4"><a href="#60-straff">§ 60. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 11 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#61-ikrafttredelse-opphevelse-og-overgangsbestemmelser">§ 61. Ikrafttredelse, opphevelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#62-endringer-i-andre-lover">§ 62. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-61.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-102.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om jakt, fangst og felling av vilt mv. (viltressursloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2025-06-20-102.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2025-06-20-102 <code>lov/2025-06-20-102</code></td></tr>
+<tr><th>Korttittel</th><td>Viltressursloven</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementetKlima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Jakt og innlandsfiske</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2026</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-61 <code>lov/2026-06-19-61</code> fra 19.06.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2025-06-20-102" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-geografisk-virkeomrade">§ 2. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-samiske-interesser">§ 4. Samiske interesser</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-folkeretten">§ 5. Forholdet til folkeretten</a></li>
+<li class="lvl2"><a href="#kapittel-2-viltforvaltning">Kapittel 2 Viltforvaltning</a></li>
+<li class="lvl4"><a href="#6-statlige-viltmyndigheter">§ 6. Statlige viltmyndigheter</a></li>
+<li class="lvl4"><a href="#7-fylkeskommunens-og-kommunens-oppgaver-etter-loven-klagerett-og-omgjring">§ 7. Fylkeskommunens og kommunens oppgaver etter loven, klagerett og omgjøring</a></li>
+<li class="lvl4"><a href="#8-jegerregisteret">§ 8. Jegerregisteret</a></li>
+<li class="lvl4"><a href="#9-jegeravgift-fellingsavgift-og-viltfond">§ 9. Jegeravgift, fellingsavgift og viltfond</a></li>
+<li class="lvl2"><a href="#kapittel-3-adgangen-til-jakt-og-fangst-sanking-av-egg-og-dun-mv">Kapittel 3 Adgangen til jakt og fangst, sanking av egg og dun mv.</a></li>
+<li class="lvl4"><a href="#10-adgangen-til-jakt-og-fangst">§ 10. Adgangen til jakt og fangst</a></li>
+<li class="lvl4"><a href="#11-sanking-av-fugleegg-og-dun">§ 11. Sanking av fugleegg og dun</a></li>
+<li class="lvl4"><a href="#12-lodden-jakt-pa-ender-av-hensyn-til-samisk-kultur-og-sedvane">§ 12. Lodden (jakt på ender) av hensyn til samisk kultur og sedvane</a></li>
+<li class="lvl4"><a href="#13-dager-med-jakt-og-fangstforbud">§ 13. Dager med jakt- og fangstforbud</a></li>
+<li class="lvl2"><a href="#kapittel-4-jegerprve-registrering-i-jegerregisteret-betaling-av-jegeravgift-mv">Kapittel 4 Jegerprøve, registrering i Jegerregisteret, betaling av jegeravgift mv.</a></li>
+<li class="lvl4"><a href="#14-jegerprve">§ 14. Jegerprøve</a></li>
+<li class="lvl4"><a href="#15-registrering-i-jegerregisteret">§ 15. Registrering i Jegerregisteret</a></li>
+<li class="lvl4"><a href="#16-betaling-av-jegeravgift">§ 16. Betaling av jegeravgift</a></li>
+<li class="lvl4"><a href="#17-aldersgrenser-ved-utvelse-av-jakt-og-fangst">§ 17. Aldersgrenser ved utøvelse av jakt og fangst</a></li>
+<li class="lvl4"><a href="#18-unntak-fra-kravet-om-jegerprve-mv-for-deltakere-under-jakt-og-fangst">§ 18. Unntak fra kravet om jegerprøve mv. for deltakere under jakt og fangst</a></li>
+<li class="lvl4"><a href="#19-rapportering-og-innlevering-for-statistiske-eller-vitenskapelige-formal">§ 19. Rapportering og innlevering for statistiske eller vitenskapelige formål</a></li>
+<li class="lvl4"><a href="#20-kompetansekrav">§ 20. Kompetansekrav</a></li>
+<li class="lvl2"><a href="#kapittel-5-utvelse-av-jakt-og-fangst">Kapittel 5 Utøvelse av jakt og fangst</a></li>
+<li class="lvl4"><a href="#21-forsvarlig-jakt-og-fangstutvelse">§ 21. Forsvarlig jakt- og fangstutøvelse</a></li>
+<li class="lvl4"><a href="#22-underskelses-og-ettersksplikt">§ 22. Undersøkelses- og ettersøksplikt</a></li>
+<li class="lvl4"><a href="#23-rett-til-a-forflge-saret-storvilt-pa-andres-grunn-ved-ettersk">§ 23. Rett til å forfølge såret storvilt på andres grunn ved ettersøk</a></li>
+<li class="lvl4"><a href="#24-jaktvapen-og-ammunisjon">§ 24. Jaktvåpen og ammunisjon</a></li>
+<li class="lvl4"><a href="#25-fangst">§ 25. Fangst</a></li>
+<li class="lvl4"><a href="#26-bruk-av-synlig-lys-og-srskilte-siktemidler">§ 26. Bruk av synlig lys og særskilte siktemidler</a></li>
+<li class="lvl4"><a href="#27-jakthundtrening-og-bruk-av-hund-under-jakt">§ 27. Jakthundtrening og bruk av hund under jakt</a></li>
+<li class="lvl4"><a href="#28-srskilte-forbud-mot-a-lsne-skudd">§ 28. Særskilte forbud mot å løsne skudd</a></li>
+<li class="lvl4"><a href="#29-forbud-mot-bruk-av-luftfarty-motorkjrety-og-motorfarty">§ 29. Forbud mot bruk av luftfartøy, motorkjøretøy og motorfartøy</a></li>
+<li class="lvl4"><a href="#30-bruk-av-ate-til-jakt-og-fangst-mv">§ 30. Bruk av åte til jakt og fangst mv.</a></li>
+<li class="lvl4"><a href="#31-forbud-mot-bruk-av-kjemikalier-eller-gift">§ 31. Forbud mot bruk av kjemikalier eller gift</a></li>
+<li class="lvl4"><a href="#32-forbud-mot-bestemte-jakt-og-fangstmetoder">§ 32. Forbud mot bestemte jakt- og fangstmetoder</a></li>
+<li class="lvl2"><a href="#kapittel-6-retten-til-jakt-og-fangst-mv">Kapittel 6 Retten til jakt og fangst mv.</a></li>
+<li class="lvl4"><a href="#33-grunneiers-enerett-til-jakt-og-fangst">§ 33. Grunneiers enerett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#34-rekkevidden-av-grunneiers-enerett-til-jakt-og-fangst">§ 34. Rekkevidden av grunneiers enerett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#35-grunneiers-adgang-til-a-overlate-retten-til-jakt-og-fangst">§ 35. Grunneiers adgang til å overlate retten til jakt og fangst</a></li>
+<li class="lvl4"><a href="#36-jakt-og-fangst-i-sameie-mellom-eiendommer">§ 36. Jakt og fangst i sameie mellom eiendommer</a></li>
+<li class="lvl4"><a href="#37-rett-til-jakt-og-fangst-pa-statens-grunn-som-ikke-omfattes-av-fjellova">§ 37. Rett til jakt og fangst på statens grunn som ikke omfattes av fjellova</a></li>
+<li class="lvl4"><a href="#38-reindriftssamenes-rett-til-jakt-og-fangst">§ 38. Reindriftssamenes rett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#39-ferdsel-med-skytevapen-eller-feller-pa-eiendommer-der-jegeren-ikke-har-rett-til-jakt-og-fangst">§ 39. Ferdsel med skytevåpen eller feller på eiendommer der jegeren ikke har rett til jakt og fangst</a></li>
+<li class="lvl4"><a href="#40-forbud-mot-jaging-av-vilt-fra-andres-jaktomrader">§ 40. Forbud mot jaging av vilt fra andres jaktområder</a></li>
+<li class="lvl4"><a href="#41-grunneiers-enerett-til-sanking-av-fugleegg-og-dun">§ 41. Grunneiers enerett til sanking av fugleegg og dun</a></li>
+<li class="lvl2"><a href="#kapittel-7-hjortevilt-og-bever">Kapittel 7 Hjortevilt og bever</a></li>
+<li class="lvl4"><a href="#42-apning-for-jakt-pa-hjortevilt-og-krav-om-fellingstillatelse">§ 42. Åpning for jakt på hjortevilt og krav om fellingstillatelse</a></li>
+<li class="lvl4"><a href="#43-svmmende-hjortevilt">§ 43. Svømmende hjortevilt</a></li>
+<li class="lvl4"><a href="#44-jakt-pa-og-fangst-av-bever">§ 44. Jakt på og fangst av bever</a></li>
+<li class="lvl2"><a href="#kapittel-8-felling-etternaturmangfoldloven-18mv">Kapittel 8 Felling etternaturmangfoldloven § 18mv.</a></li>
+<li class="lvl4"><a href="#45-lisensfelling">§ 45. Lisensfelling</a></li>
+<li class="lvl4"><a href="#46-skadefelling">§ 46. Skadefelling</a></li>
+<li class="lvl4"><a href="#47-felling-iverksatt-av-myndighetene">§ 47. Felling iverksatt av myndighetene</a></li>
+<li class="lvl4"><a href="#48-vederlag-for-felling-mv">§ 48. Vederlag for felling mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-diverse-bestemmelser">Kapittel 9 Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#49-forbud-mot-hold-av-vilt-i-fangenskap-mv">§ 49. Forbud mot hold av vilt i fangenskap mv.</a></li>
+<li class="lvl4"><a href="#50-oppbevaring-omsetning-og-annen-handtering-av-vilt-og-egg-fra-viltarter">§ 50. Oppbevaring, omsetning og annen håndtering av vilt og egg fra viltarter</a></li>
+<li class="lvl4"><a href="#51-det-statlige-viltfondets-eiendomsrett-og-inndragning-av-ulovlig-felt-vilt-mv">§ 51. Det statlige viltfondets eiendomsrett og inndragning av ulovlig felt vilt mv.</a></li>
+<li class="lvl4"><a href="#52-skuddpremieordninger">§ 52. Skuddpremieordninger</a></li>
+<li class="lvl4"><a href="#53-bestandsregulering-under-sregne-forhold">§ 53. Bestandsregulering under særegne forhold</a></li>
+<li class="lvl4"><a href="#54-handtering-av-vilt-for-vitenskapelige-eller-andre-srlige-formal">§ 54. Håndtering av vilt for vitenskapelige eller andre særlige formål</a></li>
+<li class="lvl4"><a href="#55-offentlig-ettersk-av-sykt-eller-skadd-vilt-utenom-jaktutvelse">§ 55. Offentlig ettersøk av sykt eller skadd vilt utenom jaktutøvelse</a></li>
+<li class="lvl4"><a href="#56-merke-og-registreringsplikt">§ 56. Merke- og registreringsplikt</a></li>
+<li class="lvl4"><a href="#57-autorisasjon-og-tilsyn-med-taksidermister">§ 57. Autorisasjon og tilsyn med taksidermister</a></li>
+<li class="lvl2"><a href="#kapittel-10-handheving-og-sanksjoner">Kapittel 10 Håndheving og sanksjoner</a></li>
+<li class="lvl4"><a href="#58-overtredelsesgebyr">§ 58. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#59-administrativt-rettighetstap">§ 59. Administrativt rettighetstap</a></li>
+<li class="lvl4"><a href="#60-straff">§ 60. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 11 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#61-ikrafttredelse-opphevelse-og-overgangsbestemmelser">§ 61. Ikrafttredelse, opphevelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#62-endringer-i-andre-lover">§ 62. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-102.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2025-06-20-102.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-102.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2025-06-20-102.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2025-06-20-102.html">Observerte kildeutgaver</a> · <a href="../historie/viltressursloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2025-06-20-102.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2025-06-20-102.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2025-06-20-102.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2025-06-20-102.html">Observerte kildeutgaver</a> · <a href="../historie/viltressursloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2025-06-20-102.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2025-06-20-102.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-jakt-fangst-og-felling-av-vilt-mv-viltressursloven">Lov om jakt, fangst og felling av vilt mv. (viltressursloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Lovens formål er å sikre at forvaltning av viltressursene gjennom jakt, fangst, felling og annen håndtering av vilt skjer på en bærekraftig og forsvarlig måte, i samsvar med <a href="lov-2009-06-19-100.html">naturmangfoldloven</a> og <a href="lov-2009-06-19-97.html">dyrevelferdsloven</a> .</p>
@@ -173,7 +366,7 @@ c. tilleggsavgift til jegeravgiften for det påfølgende jaktåret ved manglende
 <p>Bruk av feller til fangst av vilt er forbudt, med mindre annet følger av eller i medhold av lov.</p>
 <p>Kongen kan gi forskrift om bruk av feller, hvilke arter det tillates fangst av ved bruk av feller, tillatte feller, krav om merking av feller med jegernummer og telefonnummer til viltmyndigheten, krav om tilsyn, håndtering av fanget vilt, fjerning av ulovlige feller, typegodkjenning av feller og organisering av en godkjenningsordning, inkludert fastsetting av gebyr for godkjenning.</p>
 <p>Kongen kan gi forskrift om skytevåpen og ammunisjon eller andre metoder som kan brukes ved avliving av levende fanget vilt.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 61 .</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 61 .</p>
 <h4 id="26-bruk-av-synlig-lys-og-srskilte-siktemidler">§ 26. Bruk av synlig lys og særskilte siktemidler</h4>
 <p>Bruk av lyskilder som gir synlig lys under jakt og fangst, er forbudt, med mindre annet følger av eller i medhold av lov. Det samme gjelder bruk av restlysforsterkende og termiske siktemidler og andre siktemidler med teknologi som har til formål å lyse opp eller forbedre synligheten av omgivelsene eller viltet for jegeren.</p>
 <p>Kongen gir forskrift om unntak fra forbudet etter første ledd for blant annet ettersøk av påskutt vilt, jakt på nærmere bestemte arter og når det anses nødvendig for å regulere viltbestanden i nærmere bestemte områder.</p>
@@ -195,7 +388,7 @@ b. luftfartøy eller motorkjøretøy utenfor vei til lokalisering av vilt
 c. fartøy med motor innen en avstand av to kilometer fra land, også holmer og skjær.</p>
 <p>Forbudet i første ledd bokstav a og b gjelder ikke bruk av drone ved ettersøk etter § 22 av storvilt med jakttid. Jegeren har bevisbyrden for at bruken er lovlig, og skal snarest varsle grunneieren, politiet og kommunen om bruken av drone under ettersøket. Ved ettersøk av gaupe skal også statsforvalteren varsles før det benyttes drone.</p>
 <p>Forbudet i første ledd bokstav c gjelder ikke ved ettersøk etter § 22 av fugl i sjø, forutsatt at fartøyets hastighet ikke overstiger 5 knop. Jegeren har bevisbyrden for at bruken er lovlig, og skal snarest varsle politiet og kommunen om bruken av fartøy med motor under ettersøket.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 61 .</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 61 .</p>
 <h4 id="30-bruk-av-ate-til-jakt-og-fangst-mv">§ 30. Bruk av åte til jakt og fangst mv.</h4>
 <p>Kongen kan gi forskrift om adgangen til å legge ut åte eller til å fôre vilt i forbindelse med jakt og fangst av vilt eller for andre særlige formål.</p>
 <h4 id="31-forbud-mot-bruk-av-kjemikalier-eller-gift">§ 31. Forbud mot bruk av kjemikalier eller gift</h4>
@@ -358,6 +551,8 @@ c. saksbehandlingen til utfylling av reglene i <a href="lov-2009-06-19-103.html"
 <h2 id="vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</h2>
 <p>Se her for å lese loven på nordsamisk: pdf-lenke .</p>
 <p>Oversettelsen er levert av Landbruks- og matdepartementet. Oversettelsen er à jour per 1. juli 2026. Dette er en uoffisiell oversettelse av den norske versjonen av loven. Hvis det er forskjeller mellom samisk og norsk versjon, så gjelder den norske versjonen slik den er kunngjort i Norsk Lovtidend.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

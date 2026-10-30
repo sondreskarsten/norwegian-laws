@@ -19,64 +19,357 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2019-06-14-21.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Arveloven" href="../feeds/lov-2019-06-14-21.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Arveloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2019-06-14-21</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Arv\nFamilie-, person- og barnerett &raquo; Ekteskap og samboerskap (husstandsfellesskap)\nFamilie-, person- og barnerett &raquo; Skifte</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2023-06-16-59</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2019-06-14-21" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-del-innledende-bestemmelser">Første del. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-lovens-virkeomrade-definisjoner-mv">Kapittel 1. Lovens virkeområde, definisjoner mv.</a></li>
+<li class="lvl5"><a href="#1-hva-loven-gjelder">§ 1. Hva loven gjelder</a></li>
+<li class="lvl5"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-hvordan-arv-fordeles-skifte">§ 3. Hvordan arv fordeles. Skifte</a></li>
+<li class="lvl2"><a href="#andre-del-retten-til-arv">Andre del. Retten til arv</a></li>
+<li class="lvl3"><a href="#kapittel-2-slektens-arverett">Kapittel 2. Slektens arverett</a></li>
+<li class="lvl5"><a href="#4-frste-arvegangsklasse">§ 4. Første arvegangsklasse</a></li>
+<li class="lvl5"><a href="#5-andre-arvegangsklasse">§ 5. Andre arvegangsklasse</a></li>
+<li class="lvl5"><a href="#6-tredje-arvegangsklasse">§ 6. Tredje arvegangsklasse</a></li>
+<li class="lvl5"><a href="#7-nar-foreldreskap-gir-grunnlag-for-arverett">§ 7. Når foreldreskap gir grunnlag for arverett</a></li>
+<li class="lvl3"><a href="#kapittel-3-ektefellers-arverett">Kapittel 3. Ektefellers arverett</a></li>
+<li class="lvl5"><a href="#8-ektefellens-arverett-nar-arvelateren-etterlater-seg-livsarvinger">§ 8. Ektefellens arverett når arvelateren etterlater seg livsarvinger</a></li>
+<li class="lvl5"><a href="#9-ektefellens-arverett-nar-arvelateren-ikke-etterlater-seg-livsarvinger">§ 9. Ektefellens arverett når arvelateren ikke etterlater seg livsarvinger</a></li>
+<li class="lvl5"><a href="#10-inngrep-i-ektefellens-arverett-ved-testament">§ 10. Inngrep i ektefellens arverett ved testament</a></li>
+<li class="lvl5"><a href="#11-opphr-av-ektefellens-arverett-ved-separasjon-og-skilsmisse">§ 11. Opphør av ektefellens arverett ved separasjon og skilsmisse</a></li>
+<li class="lvl3"><a href="#kapittel-4-samboeres-arverett">Kapittel 4. Samboeres arverett</a></li>
+<li class="lvl5"><a href="#12-arverett-for-samboere-med-felles-barn">§ 12. Arverett for samboere med felles barn</a></li>
+<li class="lvl5"><a href="#13-arverett-etter-testament-for-samboere-med-minst-fem-ars-samboerskap">§ 13. Arverett etter testament for samboere med minst fem års samboerskap</a></li>
+<li class="lvl3"><a href="#kapittel-5-ektefellers-rett-til-uskifte">Kapittel 5. Ektefellers rett til uskifte</a></li>
+<li class="lvl5"><a href="#14-retten-til-uskifte">§ 14. Retten til uskifte</a></li>
+<li class="lvl5"><a href="#15-uskifte-med-srskilt-livsarving">§ 15. Uskifte med særskilt livsarving</a></li>
+<li class="lvl5"><a href="#16-uskifteretten-nar-noen-av-arvingene-kan-kreve-arv">§ 16. Uskifteretten når noen av arvingene kan kreve arv</a></li>
+<li class="lvl5"><a href="#17-inngrep-i-ektefellens-uskifterett-ved-testament">§ 17. Inngrep i ektefellens uskifterett ved testament</a></li>
+<li class="lvl5"><a href="#18-personlige-forhold-som-fratar-ektefellen-rett-til-uskifte">§ 18. Personlige forhold som fratar ektefellen rett til uskifte</a></li>
+<li class="lvl5"><a href="#19-frist-for-melding-om-uskifte">§ 19. Frist for melding om uskifte</a></li>
+<li class="lvl5"><a href="#20-ektefellens-ansvar-for-arvelaterens-forpliktelser">§ 20. Ektefellens ansvar for arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#21-hvilke-eiendeler-som-gar-inn-i-uskifteformuen-etter-at-boet-er-overtatt-uskiftet">§ 21. Hvilke eiendeler som går inn i uskifteformuen etter at boet er overtatt uskiftet</a></li>
+<li class="lvl5"><a href="#22-raderetten-over-uskifteformuen">§ 22. Råderetten over uskifteformuen</a></li>
+<li class="lvl5"><a href="#23-adgangen-til-a-gi-gaver-av-uskifteformuen">§ 23. Adgangen til å gi gaver av uskifteformuen</a></li>
+<li class="lvl5"><a href="#24-adgangen-til-a-gi-arveoppgjr-av-uskifteformuen">§ 24. Adgangen til å gi arveoppgjør av uskifteformuen</a></li>
+<li class="lvl5"><a href="#25-arvingenes-adgang-til-a-kreve-bevissikring-utenfor-rettssak">§ 25. Arvingenes adgang til å kreve bevissikring utenfor rettssak</a></li>
+<li class="lvl5"><a href="#26-hvem-som-tar-arv-ved-skifte-av-uskifteformuen">§ 26. Hvem som tar arv ved skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#27-bortfall-av-retten-til-uskifte-hvis-den-lengstlevende-gifter-seg-eller-blir-samboer">§ 27. Bortfall av retten til uskifte hvis den lengstlevende gifter seg eller blir samboer</a></li>
+<li class="lvl5"><a href="#28-retten-til-a-kreve-skifte-av-uskifteformuen">§ 28. Retten til å kreve skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#29-skifte-av-uskifteformuen">§ 29. Skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#30-arvingenes-krav-pa-vederlag-ved-skifte-av-uskifteformuen">§ 30. Arvingenes krav på vederlag ved skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#31-hva-som-inngar-i-uskifteformuen-nar-den-skal-skiftes">§ 31. Hva som inngår i uskifteformuen når den skal skiftes</a></li>
+<li class="lvl3"><a href="#kapittel-6-samboeres-rett-til-uskifte">Kapittel 6. Samboeres rett til uskifte</a></li>
+<li class="lvl5"><a href="#32-retten-til-uskifte">§ 32. Retten til uskifte</a></li>
+<li class="lvl5"><a href="#33-inngrep-i-samboerens-uskifterett-ved-testament">§ 33. Inngrep i samboerens uskifterett ved testament</a></li>
+<li class="lvl5"><a href="#34-frist-for-melding-om-uskifte">§ 34. Frist for melding om uskifte</a></li>
+<li class="lvl5"><a href="#35-samboerens-ansvar-for-arvelaterens-forpliktelser-mv">§ 35. Samboerens ansvar for arvelaterens forpliktelser mv.</a></li>
+<li class="lvl5"><a href="#36-hvilke-eiendeler-som-inngar-i-uskifteformuen">§ 36. Hvilke eiendeler som inngår i uskifteformuen</a></li>
+<li class="lvl5"><a href="#37-raderetten-over-uskifteformuen">§ 37. Råderetten over uskifteformuen</a></li>
+<li class="lvl5"><a href="#38-bortfall-av-retten-til-uskifte-hvis-den-lengstlevende-gifter-seg-eller-blir-samboer">§ 38. Bortfall av retten til uskifte hvis den lengstlevende gifter seg eller blir samboer</a></li>
+<li class="lvl5"><a href="#39-skifte-av-uskifteformuen">§ 39. Skifte av uskifteformuen</a></li>
+<li class="lvl3"><a href="#kapittel-7-arv-etter-testament">Kapittel 7. Arv etter testament</a></li>
+<li class="lvl4"><a href="#i-opprettelse-av-testament">I. Opprettelse av testament</a></li>
+<li class="lvl4"><a href="#ii-tilbakekall-og-endring-av-testament-arvepakt">II. Tilbakekall og endring av testament. Arvepakt</a></li>
+<li class="lvl4"><a href="#iii-livsarvingenes-pliktdelsarv-mv">III. Livsarvingenes pliktdelsarv mv.</a></li>
+<li class="lvl4"><a href="#iv-tolkning-av-testament">IV. Tolkning av testament</a></li>
+<li class="lvl4"><a href="#v-felles-testament-og-gjensidig-testament">V. Felles testament og gjensidig testament</a></li>
+<li class="lvl4"><a href="#vi-oppbevaring-og-fremleggelse-av-testament-mv">VI. Oppbevaring og fremleggelse av testament mv.</a></li>
+<li class="lvl3"><a href="#kapittel-8-forskjellige-bestemmelser-om-retten-til-arv-etter-loven-eller-etter-testament">Kapittel 8. Forskjellige bestemmelser om retten til arv etter loven eller etter testament</a></li>
+<li class="lvl5"><a href="#66-arvefall-og-vilkar-for-a-ta-arv">§ 66. Arvefall og vilkår for å ta arv</a></li>
+<li class="lvl5"><a href="#67-ukjent-ddsrekkeflge-og-ddsfall-straks-etter-hverandre-som-flge-av-samme-hendelse">§ 67. Ukjent dødsrekkefølge og dødsfall straks etter hverandre som følge av samme hendelse</a></li>
+<li class="lvl5"><a href="#68-fravrende-arving">§ 68. Fraværende arving</a></li>
+<li class="lvl5"><a href="#69-forbigatt-arving">§ 69. Forbigått arving</a></li>
+<li class="lvl5"><a href="#70-krav-om-tilbakefring-av-arv-etter-6768eller69">§ 70. Krav om tilbakeføring av arv etter§§ 67,68eller69</a></li>
+<li class="lvl5"><a href="#71-foreldelse-av-arverett">§ 71. Foreldelse av arverett</a></li>
+<li class="lvl5"><a href="#72-fradmmelse-av-arverett">§ 72. Fradømmelse av arverett</a></li>
+<li class="lvl3"><a href="#kapittel-9-avtaler-om-arv">Kapittel 9. Avtaler om arv</a></li>
+<li class="lvl5"><a href="#73-arvingens-raderett-over-fremtidig-og-falt-arv">§ 73. Arvingens råderett over fremtidig og falt arv</a></li>
+<li class="lvl5"><a href="#74-avkall-pa-arv">§ 74. Avkall på arv</a></li>
+<li class="lvl5"><a href="#75-avkorting-i-arv">§ 75. Avkorting i arv</a></li>
+<li class="lvl3"><a href="#kapittel-10-fordeling-av-formuen-nar-den-avdde-ikke-har-arvinger">Kapittel 10. Fordeling av formuen når den avdøde ikke har arvinger</a></li>
+<li class="lvl5"><a href="#76-fordeling-av-formuen-nar-den-avdde-ikke-har-arvinger">§ 76. Fordeling av formuen når den avdøde ikke har arvinger</a></li>
+<li class="lvl5"><a href="#77-avgjrelser-ved-skiftet-nar-formuen-skal-fordeles-etter-76">§ 77. Avgjørelser ved skiftet når formuen skal fordeles etter§ 76</a></li>
+<li class="lvl3"><a href="#kapittel-11-internasjonal-arverett">Kapittel 11. Internasjonal arverett</a></li>
+<li class="lvl5"><a href="#78-lovvalg">§ 78. Lovvalg</a></li>
+<li class="lvl5"><a href="#79-arvelaterens-adgang-til-a-foreta-lovvalg">§ 79. Arvelaterens adgang til å foreta lovvalg</a></li>
+<li class="lvl5"><a href="#80-formkrav-for-testamenter">§ 80. Formkrav for testamenter</a></li>
+<li class="lvl5"><a href="#81-grunnleggende-rettsprinsipper-ordre-public">§ 81. Grunnleggende rettsprinsipper (ordre public)</a></li>
+<li class="lvl5"><a href="#82-overenskomst-med-fremmed-stat">§ 82. Overenskomst med fremmed stat</a></li>
+<li class="lvl2"><a href="#tredje-del-skifte-av-ddsbo">Tredje del. Skifte av dødsbo</a></li>
+<li class="lvl3"><a href="#kapittel-12-skiftemyndigheten-kompetanse-og-generelle-saksbehandlingsregler">Kapittel 12. Skiftemyndigheten. Kompetanse og generelle saksbehandlingsregler</a></li>
+<li class="lvl5"><a href="#83-skiftemyndigheten">§ 83. Skiftemyndigheten</a></li>
+<li class="lvl5"><a href="#84-skiftemyndighetens-stedlige-kompetanse">§ 84. Skiftemyndighetens stedlige kompetanse</a></li>
+<li class="lvl5"><a href="#85-skiftebehandling-i-norge-lovvalg">§ 85. Skiftebehandling i Norge. Lovvalg</a></li>
+<li class="lvl5"><a href="#86-inhabilitet">§ 86. Inhabilitet</a></li>
+<li class="lvl5"><a href="#87-rett-til-innsyn-i-testament-hos-tingretten-etter-arvelaterens-dd">§ 87. Rett til innsyn i testament hos tingretten etter arvelaterens død</a></li>
+<li class="lvl5"><a href="#88-oppgaver-etter-loven-som-kan-delegeres-til-saksbehandlere">§ 88. Oppgaver etter loven som kan delegeres til saksbehandlere</a></li>
+<li class="lvl5"><a href="#88-a-digitalt-skifte-av-ddsbo">§ 88 a. Digitalt skifte av dødsbo</a></li>
+<li class="lvl3"><a href="#kapittel-13-perioden-fra-ddsfallet-og-frem-til-skifteform-er-valgt">Kapittel 13. Perioden fra dødsfallet og frem til skifteform er valgt</a></li>
+<li class="lvl5"><a href="#89-melding-om-ddsfall-opplysninger-om-den-avdde">§ 89. Melding om dødsfall. Opplysninger om den avdøde</a></li>
+<li class="lvl5"><a href="#90-tingrettens-innledende-behandling">§ 90. Tingrettens innledende behandling</a></li>
+<li class="lvl5"><a href="#91-registrering-og-sikring-av-boets-eiendeler">§ 91. Registrering og sikring av boets eiendeler</a></li>
+<li class="lvl5"><a href="#92-formuesfullmakter-og-bankboksfullmakter-mv">§ 92. Formuesfullmakter og bankboksfullmakter mv.</a></li>
+<li class="lvl5"><a href="#93-kunngjring-av-frist-for-a-melde-krav-proklama-fr-skifteform-er-valgt">§ 93. Kunngjøring av frist for å melde krav (proklama) før skifteform er valgt</a></li>
+<li class="lvl5"><a href="#94-testamentarisk-bestemmelse-om-opprettelse-av-en-stiftelse">§ 94. Testamentarisk bestemmelse om opprettelse av en stiftelse</a></li>
+<li class="lvl3"><a href="#kapittel-14-bo-som-ikke-skal-skiftes">Kapittel 14. Bo som ikke skal skiftes</a></li>
+<li class="lvl5"><a href="#95-fullmakt-til-a-disponere-uten-skifteattest-i-bo-der-den-avddes-eiendeler-er-av-liten-verdi">§ 95. Fullmakt til å disponere uten skifteattest i bo der den avdødes eiendeler er av liten verdi</a></li>
+<li class="lvl5"><a href="#96-melding-om-uskifte-mv">§ 96. Melding om uskifte mv.</a></li>
+<li class="lvl5"><a href="#97-uskifteattest">§ 97. Uskifteattest</a></li>
+<li class="lvl3"><a href="#kapittel-15-felles-bestemmelser-for-privat-og-offentlig-skifte">Kapittel 15. Felles bestemmelser for privat og offentlig skifte</a></li>
+<li class="lvl4"><a href="#i-generelle-bestemmelser-om-skifte">I. Generelle bestemmelser om skifte</a></li>
+<li class="lvl4"><a href="#ii-proklama-kunngjring-av-frist-for-kreditorene-til-a-melde-sine-krav">II. Proklama – kunngjøring av frist for kreditorene til å melde sine krav</a></li>
+<li class="lvl4"><a href="#iii-arvingenes-rett-til-a-overta-eiendeler-pa-skiftet-verdsettelse-og-oppgjr">III. Arvingenes rett til å overta eiendeler på skiftet. Verdsettelse og oppgjør</a></li>
+<li class="lvl4"><a href="#iv-nar-arvelateren-etterlater-seg-ektefelle-eller-samboer">IV. Når arvelateren etterlater seg ektefelle eller samboer</a></li>
+<li class="lvl3"><a href="#kapittel-16-privat-skifte">Kapittel 16. Privat skifte</a></li>
+<li class="lvl5"><a href="#116-ansvaret-for-arvelaterens-forpliktelser">§ 116. Ansvaret for arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#117-frist-for-a-kreve-privat-skifte">§ 117. Frist for å kreve privat skifte</a></li>
+<li class="lvl5"><a href="#118-utstedelse-av-skifteattest">§ 118. Utstedelse av skifteattest</a></li>
+<li class="lvl5"><a href="#119-oppgaver-ved-gjennomfringen-av-et-privat-skifte">§ 119. Oppgaver ved gjennomføringen av et privat skifte</a></li>
+<li class="lvl5"><a href="#120-krav-om-enighet-for-beslutninger-under-skiftet">§ 120. Krav om enighet for beslutninger under skiftet</a></li>
+<li class="lvl5"><a href="#121-kunngjring-av-frist-for-a-melde-krav-proklama">§ 121. Kunngjøring av frist for å melde krav (proklama)</a></li>
+<li class="lvl5"><a href="#122-dekning-av-boets-og-arvelaterens-forpliktelser">§ 122. Dekning av boets og arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#123-rett-til-a-kreve-at-forpliktelsene-dekkes-fr-utdeling-av-arv">§ 123. Rett til å kreve at forpliktelsene dekkes før utdeling av arv</a></li>
+<li class="lvl5"><a href="#124-oppfyllelse-av-bestemmelser-i-testament">§ 124. Oppfyllelse av bestemmelser i testament</a></li>
+<li class="lvl5"><a href="#125-arving-som-er-forsvunnet-eller-uten-kjent-oppholdssted">§ 125. Arving som er forsvunnet eller uten kjent oppholdssted</a></li>
+<li class="lvl5"><a href="#126-tvister-under-privat-skifte">§ 126. Tvister under privat skifte</a></li>
+<li class="lvl3"><a href="#kapittel-17-offentlig-skifte">Kapittel 17. Offentlig skifte</a></li>
+<li class="lvl4"><a href="#i-apning-av-offentlig-skifte">I. Åpning av offentlig skifte</a></li>
+<li class="lvl4"><a href="#ii-gjennomfringen-av-det-offentlige-skiftet-skiftemyndighetens-oppgaver">II. Gjennomføringen av det offentlige skiftet. Skiftemyndighetens oppgaver</a></li>
+<li class="lvl4"><a href="#iii-srlig-om-skiftebehandling-med-bostyrer">III. Særlig om skiftebehandling med bostyrer</a></li>
+<li class="lvl4"><a href="#iv-avslutning-av-skiftet-booppgjr-og-utdeling-fra-boet">IV. Avslutning av skiftet. Booppgjør og utdeling fra boet</a></li>
+<li class="lvl4"><a href="#v-tvister-ved-offentlig-skifte">V. Tvister ved offentlig skifte</a></li>
+<li class="lvl4"><a href="#vi-srregler-for-bo-der-eiendelene-ikke-er-tilstrekkelige-til-a-oppfylle-alle-forpliktelsene-etter-arvelateren">VI. Særregler for bo der eiendelene ikke er tilstrekkelige til å oppfylle alle forpliktelsene etter arvelateren</a></li>
+<li class="lvl2"><a href="#fjerde-del-avsluttende-bestemmelser">Fjerde del. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-18-ikrafttredelsesregler-og-overgangsregler-endringer-i-andre-lover">Kapittel 18. Ikrafttredelsesregler og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl5"><a href="#179-ikrafttredelse">§ 179. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#180-overgangsregler">§ 180. Overgangsregler</a></li>
+<li class="lvl5"><a href="#181-endringer-i-andre-lover">§ 181. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2023-06-16-59.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-06-14-21.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om arv og dødsboskifte (arveloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-06-14-21.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2019-06-14-21 <code>lov/2019-06-14-21</code></td></tr>
+<tr><th>Korttittel</th><td>Arveloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Arv\nFamilie-, person- og barnerett &raquo; Ekteskap og samboerskap (husstandsfellesskap)\nFamilie-, person- og barnerett &raquo; Skifte</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021</td></tr>
+<tr><th>Sist endret</th><td>LOV-2023-06-16-59 <code>lov/2023-06-16-59</code> fra 01.10.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2019-06-14-21" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-del-innledende-bestemmelser">Første del. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-lovens-virkeomrade-definisjoner-mv">Kapittel 1. Lovens virkeområde, definisjoner mv.</a></li>
+<li class="lvl5"><a href="#1-hva-loven-gjelder">§ 1. Hva loven gjelder</a></li>
+<li class="lvl5"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-hvordan-arv-fordeles-skifte">§ 3. Hvordan arv fordeles. Skifte</a></li>
+<li class="lvl2"><a href="#andre-del-retten-til-arv">Andre del. Retten til arv</a></li>
+<li class="lvl3"><a href="#kapittel-2-slektens-arverett">Kapittel 2. Slektens arverett</a></li>
+<li class="lvl5"><a href="#4-frste-arvegangsklasse">§ 4. Første arvegangsklasse</a></li>
+<li class="lvl5"><a href="#5-andre-arvegangsklasse">§ 5. Andre arvegangsklasse</a></li>
+<li class="lvl5"><a href="#6-tredje-arvegangsklasse">§ 6. Tredje arvegangsklasse</a></li>
+<li class="lvl5"><a href="#7-nar-foreldreskap-gir-grunnlag-for-arverett">§ 7. Når foreldreskap gir grunnlag for arverett</a></li>
+<li class="lvl3"><a href="#kapittel-3-ektefellers-arverett">Kapittel 3. Ektefellers arverett</a></li>
+<li class="lvl5"><a href="#8-ektefellens-arverett-nar-arvelateren-etterlater-seg-livsarvinger">§ 8. Ektefellens arverett når arvelateren etterlater seg livsarvinger</a></li>
+<li class="lvl5"><a href="#9-ektefellens-arverett-nar-arvelateren-ikke-etterlater-seg-livsarvinger">§ 9. Ektefellens arverett når arvelateren ikke etterlater seg livsarvinger</a></li>
+<li class="lvl5"><a href="#10-inngrep-i-ektefellens-arverett-ved-testament">§ 10. Inngrep i ektefellens arverett ved testament</a></li>
+<li class="lvl5"><a href="#11-opphr-av-ektefellens-arverett-ved-separasjon-og-skilsmisse">§ 11. Opphør av ektefellens arverett ved separasjon og skilsmisse</a></li>
+<li class="lvl3"><a href="#kapittel-4-samboeres-arverett">Kapittel 4. Samboeres arverett</a></li>
+<li class="lvl5"><a href="#12-arverett-for-samboere-med-felles-barn">§ 12. Arverett for samboere med felles barn</a></li>
+<li class="lvl5"><a href="#13-arverett-etter-testament-for-samboere-med-minst-fem-ars-samboerskap">§ 13. Arverett etter testament for samboere med minst fem års samboerskap</a></li>
+<li class="lvl3"><a href="#kapittel-5-ektefellers-rett-til-uskifte">Kapittel 5. Ektefellers rett til uskifte</a></li>
+<li class="lvl5"><a href="#14-retten-til-uskifte">§ 14. Retten til uskifte</a></li>
+<li class="lvl5"><a href="#15-uskifte-med-srskilt-livsarving">§ 15. Uskifte med særskilt livsarving</a></li>
+<li class="lvl5"><a href="#16-uskifteretten-nar-noen-av-arvingene-kan-kreve-arv">§ 16. Uskifteretten når noen av arvingene kan kreve arv</a></li>
+<li class="lvl5"><a href="#17-inngrep-i-ektefellens-uskifterett-ved-testament">§ 17. Inngrep i ektefellens uskifterett ved testament</a></li>
+<li class="lvl5"><a href="#18-personlige-forhold-som-fratar-ektefellen-rett-til-uskifte">§ 18. Personlige forhold som fratar ektefellen rett til uskifte</a></li>
+<li class="lvl5"><a href="#19-frist-for-melding-om-uskifte">§ 19. Frist for melding om uskifte</a></li>
+<li class="lvl5"><a href="#20-ektefellens-ansvar-for-arvelaterens-forpliktelser">§ 20. Ektefellens ansvar for arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#21-hvilke-eiendeler-som-gar-inn-i-uskifteformuen-etter-at-boet-er-overtatt-uskiftet">§ 21. Hvilke eiendeler som går inn i uskifteformuen etter at boet er overtatt uskiftet</a></li>
+<li class="lvl5"><a href="#22-raderetten-over-uskifteformuen">§ 22. Råderetten over uskifteformuen</a></li>
+<li class="lvl5"><a href="#23-adgangen-til-a-gi-gaver-av-uskifteformuen">§ 23. Adgangen til å gi gaver av uskifteformuen</a></li>
+<li class="lvl5"><a href="#24-adgangen-til-a-gi-arveoppgjr-av-uskifteformuen">§ 24. Adgangen til å gi arveoppgjør av uskifteformuen</a></li>
+<li class="lvl5"><a href="#25-arvingenes-adgang-til-a-kreve-bevissikring-utenfor-rettssak">§ 25. Arvingenes adgang til å kreve bevissikring utenfor rettssak</a></li>
+<li class="lvl5"><a href="#26-hvem-som-tar-arv-ved-skifte-av-uskifteformuen">§ 26. Hvem som tar arv ved skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#27-bortfall-av-retten-til-uskifte-hvis-den-lengstlevende-gifter-seg-eller-blir-samboer">§ 27. Bortfall av retten til uskifte hvis den lengstlevende gifter seg eller blir samboer</a></li>
+<li class="lvl5"><a href="#28-retten-til-a-kreve-skifte-av-uskifteformuen">§ 28. Retten til å kreve skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#29-skifte-av-uskifteformuen">§ 29. Skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#30-arvingenes-krav-pa-vederlag-ved-skifte-av-uskifteformuen">§ 30. Arvingenes krav på vederlag ved skifte av uskifteformuen</a></li>
+<li class="lvl5"><a href="#31-hva-som-inngar-i-uskifteformuen-nar-den-skal-skiftes">§ 31. Hva som inngår i uskifteformuen når den skal skiftes</a></li>
+<li class="lvl3"><a href="#kapittel-6-samboeres-rett-til-uskifte">Kapittel 6. Samboeres rett til uskifte</a></li>
+<li class="lvl5"><a href="#32-retten-til-uskifte">§ 32. Retten til uskifte</a></li>
+<li class="lvl5"><a href="#33-inngrep-i-samboerens-uskifterett-ved-testament">§ 33. Inngrep i samboerens uskifterett ved testament</a></li>
+<li class="lvl5"><a href="#34-frist-for-melding-om-uskifte">§ 34. Frist for melding om uskifte</a></li>
+<li class="lvl5"><a href="#35-samboerens-ansvar-for-arvelaterens-forpliktelser-mv">§ 35. Samboerens ansvar for arvelaterens forpliktelser mv.</a></li>
+<li class="lvl5"><a href="#36-hvilke-eiendeler-som-inngar-i-uskifteformuen">§ 36. Hvilke eiendeler som inngår i uskifteformuen</a></li>
+<li class="lvl5"><a href="#37-raderetten-over-uskifteformuen">§ 37. Råderetten over uskifteformuen</a></li>
+<li class="lvl5"><a href="#38-bortfall-av-retten-til-uskifte-hvis-den-lengstlevende-gifter-seg-eller-blir-samboer">§ 38. Bortfall av retten til uskifte hvis den lengstlevende gifter seg eller blir samboer</a></li>
+<li class="lvl5"><a href="#39-skifte-av-uskifteformuen">§ 39. Skifte av uskifteformuen</a></li>
+<li class="lvl3"><a href="#kapittel-7-arv-etter-testament">Kapittel 7. Arv etter testament</a></li>
+<li class="lvl4"><a href="#i-opprettelse-av-testament">I. Opprettelse av testament</a></li>
+<li class="lvl4"><a href="#ii-tilbakekall-og-endring-av-testament-arvepakt">II. Tilbakekall og endring av testament. Arvepakt</a></li>
+<li class="lvl4"><a href="#iii-livsarvingenes-pliktdelsarv-mv">III. Livsarvingenes pliktdelsarv mv.</a></li>
+<li class="lvl4"><a href="#iv-tolkning-av-testament">IV. Tolkning av testament</a></li>
+<li class="lvl4"><a href="#v-felles-testament-og-gjensidig-testament">V. Felles testament og gjensidig testament</a></li>
+<li class="lvl4"><a href="#vi-oppbevaring-og-fremleggelse-av-testament-mv">VI. Oppbevaring og fremleggelse av testament mv.</a></li>
+<li class="lvl3"><a href="#kapittel-8-forskjellige-bestemmelser-om-retten-til-arv-etter-loven-eller-etter-testament">Kapittel 8. Forskjellige bestemmelser om retten til arv etter loven eller etter testament</a></li>
+<li class="lvl5"><a href="#66-arvefall-og-vilkar-for-a-ta-arv">§ 66. Arvefall og vilkår for å ta arv</a></li>
+<li class="lvl5"><a href="#67-ukjent-ddsrekkeflge-og-ddsfall-straks-etter-hverandre-som-flge-av-samme-hendelse">§ 67. Ukjent dødsrekkefølge og dødsfall straks etter hverandre som følge av samme hendelse</a></li>
+<li class="lvl5"><a href="#68-fravrende-arving">§ 68. Fraværende arving</a></li>
+<li class="lvl5"><a href="#69-forbigatt-arving">§ 69. Forbigått arving</a></li>
+<li class="lvl5"><a href="#70-krav-om-tilbakefring-av-arv-etter-6768eller69">§ 70. Krav om tilbakeføring av arv etter§§ 67,68eller69</a></li>
+<li class="lvl5"><a href="#71-foreldelse-av-arverett">§ 71. Foreldelse av arverett</a></li>
+<li class="lvl5"><a href="#72-fradmmelse-av-arverett">§ 72. Fradømmelse av arverett</a></li>
+<li class="lvl3"><a href="#kapittel-9-avtaler-om-arv">Kapittel 9. Avtaler om arv</a></li>
+<li class="lvl5"><a href="#73-arvingens-raderett-over-fremtidig-og-falt-arv">§ 73. Arvingens råderett over fremtidig og falt arv</a></li>
+<li class="lvl5"><a href="#74-avkall-pa-arv">§ 74. Avkall på arv</a></li>
+<li class="lvl5"><a href="#75-avkorting-i-arv">§ 75. Avkorting i arv</a></li>
+<li class="lvl3"><a href="#kapittel-10-fordeling-av-formuen-nar-den-avdde-ikke-har-arvinger">Kapittel 10. Fordeling av formuen når den avdøde ikke har arvinger</a></li>
+<li class="lvl5"><a href="#76-fordeling-av-formuen-nar-den-avdde-ikke-har-arvinger">§ 76. Fordeling av formuen når den avdøde ikke har arvinger</a></li>
+<li class="lvl5"><a href="#77-avgjrelser-ved-skiftet-nar-formuen-skal-fordeles-etter-76">§ 77. Avgjørelser ved skiftet når formuen skal fordeles etter§ 76</a></li>
+<li class="lvl3"><a href="#kapittel-11-internasjonal-arverett">Kapittel 11. Internasjonal arverett</a></li>
+<li class="lvl5"><a href="#78-lovvalg">§ 78. Lovvalg</a></li>
+<li class="lvl5"><a href="#79-arvelaterens-adgang-til-a-foreta-lovvalg">§ 79. Arvelaterens adgang til å foreta lovvalg</a></li>
+<li class="lvl5"><a href="#80-formkrav-for-testamenter">§ 80. Formkrav for testamenter</a></li>
+<li class="lvl5"><a href="#81-grunnleggende-rettsprinsipper-ordre-public">§ 81. Grunnleggende rettsprinsipper (ordre public)</a></li>
+<li class="lvl5"><a href="#82-overenskomst-med-fremmed-stat">§ 82. Overenskomst med fremmed stat</a></li>
+<li class="lvl2"><a href="#tredje-del-skifte-av-ddsbo">Tredje del. Skifte av dødsbo</a></li>
+<li class="lvl3"><a href="#kapittel-12-skiftemyndigheten-kompetanse-og-generelle-saksbehandlingsregler">Kapittel 12. Skiftemyndigheten. Kompetanse og generelle saksbehandlingsregler</a></li>
+<li class="lvl5"><a href="#83-skiftemyndigheten">§ 83. Skiftemyndigheten</a></li>
+<li class="lvl5"><a href="#84-skiftemyndighetens-stedlige-kompetanse">§ 84. Skiftemyndighetens stedlige kompetanse</a></li>
+<li class="lvl5"><a href="#85-skiftebehandling-i-norge-lovvalg">§ 85. Skiftebehandling i Norge. Lovvalg</a></li>
+<li class="lvl5"><a href="#86-inhabilitet">§ 86. Inhabilitet</a></li>
+<li class="lvl5"><a href="#87-rett-til-innsyn-i-testament-hos-tingretten-etter-arvelaterens-dd">§ 87. Rett til innsyn i testament hos tingretten etter arvelaterens død</a></li>
+<li class="lvl5"><a href="#88-oppgaver-etter-loven-som-kan-delegeres-til-saksbehandlere">§ 88. Oppgaver etter loven som kan delegeres til saksbehandlere</a></li>
+<li class="lvl5"><a href="#88-a-digitalt-skifte-av-ddsbo">§ 88 a. Digitalt skifte av dødsbo</a></li>
+<li class="lvl3"><a href="#kapittel-13-perioden-fra-ddsfallet-og-frem-til-skifteform-er-valgt">Kapittel 13. Perioden fra dødsfallet og frem til skifteform er valgt</a></li>
+<li class="lvl5"><a href="#89-melding-om-ddsfall-opplysninger-om-den-avdde">§ 89. Melding om dødsfall. Opplysninger om den avdøde</a></li>
+<li class="lvl5"><a href="#90-tingrettens-innledende-behandling">§ 90. Tingrettens innledende behandling</a></li>
+<li class="lvl5"><a href="#91-registrering-og-sikring-av-boets-eiendeler">§ 91. Registrering og sikring av boets eiendeler</a></li>
+<li class="lvl5"><a href="#92-formuesfullmakter-og-bankboksfullmakter-mv">§ 92. Formuesfullmakter og bankboksfullmakter mv.</a></li>
+<li class="lvl5"><a href="#93-kunngjring-av-frist-for-a-melde-krav-proklama-fr-skifteform-er-valgt">§ 93. Kunngjøring av frist for å melde krav (proklama) før skifteform er valgt</a></li>
+<li class="lvl5"><a href="#94-testamentarisk-bestemmelse-om-opprettelse-av-en-stiftelse">§ 94. Testamentarisk bestemmelse om opprettelse av en stiftelse</a></li>
+<li class="lvl3"><a href="#kapittel-14-bo-som-ikke-skal-skiftes">Kapittel 14. Bo som ikke skal skiftes</a></li>
+<li class="lvl5"><a href="#95-fullmakt-til-a-disponere-uten-skifteattest-i-bo-der-den-avddes-eiendeler-er-av-liten-verdi">§ 95. Fullmakt til å disponere uten skifteattest i bo der den avdødes eiendeler er av liten verdi</a></li>
+<li class="lvl5"><a href="#96-melding-om-uskifte-mv">§ 96. Melding om uskifte mv.</a></li>
+<li class="lvl5"><a href="#97-uskifteattest">§ 97. Uskifteattest</a></li>
+<li class="lvl3"><a href="#kapittel-15-felles-bestemmelser-for-privat-og-offentlig-skifte">Kapittel 15. Felles bestemmelser for privat og offentlig skifte</a></li>
+<li class="lvl4"><a href="#i-generelle-bestemmelser-om-skifte">I. Generelle bestemmelser om skifte</a></li>
+<li class="lvl4"><a href="#ii-proklama-kunngjring-av-frist-for-kreditorene-til-a-melde-sine-krav">II. Proklama – kunngjøring av frist for kreditorene til å melde sine krav</a></li>
+<li class="lvl4"><a href="#iii-arvingenes-rett-til-a-overta-eiendeler-pa-skiftet-verdsettelse-og-oppgjr">III. Arvingenes rett til å overta eiendeler på skiftet. Verdsettelse og oppgjør</a></li>
+<li class="lvl4"><a href="#iv-nar-arvelateren-etterlater-seg-ektefelle-eller-samboer">IV. Når arvelateren etterlater seg ektefelle eller samboer</a></li>
+<li class="lvl3"><a href="#kapittel-16-privat-skifte">Kapittel 16. Privat skifte</a></li>
+<li class="lvl5"><a href="#116-ansvaret-for-arvelaterens-forpliktelser">§ 116. Ansvaret for arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#117-frist-for-a-kreve-privat-skifte">§ 117. Frist for å kreve privat skifte</a></li>
+<li class="lvl5"><a href="#118-utstedelse-av-skifteattest">§ 118. Utstedelse av skifteattest</a></li>
+<li class="lvl5"><a href="#119-oppgaver-ved-gjennomfringen-av-et-privat-skifte">§ 119. Oppgaver ved gjennomføringen av et privat skifte</a></li>
+<li class="lvl5"><a href="#120-krav-om-enighet-for-beslutninger-under-skiftet">§ 120. Krav om enighet for beslutninger under skiftet</a></li>
+<li class="lvl5"><a href="#121-kunngjring-av-frist-for-a-melde-krav-proklama">§ 121. Kunngjøring av frist for å melde krav (proklama)</a></li>
+<li class="lvl5"><a href="#122-dekning-av-boets-og-arvelaterens-forpliktelser">§ 122. Dekning av boets og arvelaterens forpliktelser</a></li>
+<li class="lvl5"><a href="#123-rett-til-a-kreve-at-forpliktelsene-dekkes-fr-utdeling-av-arv">§ 123. Rett til å kreve at forpliktelsene dekkes før utdeling av arv</a></li>
+<li class="lvl5"><a href="#124-oppfyllelse-av-bestemmelser-i-testament">§ 124. Oppfyllelse av bestemmelser i testament</a></li>
+<li class="lvl5"><a href="#125-arving-som-er-forsvunnet-eller-uten-kjent-oppholdssted">§ 125. Arving som er forsvunnet eller uten kjent oppholdssted</a></li>
+<li class="lvl5"><a href="#126-tvister-under-privat-skifte">§ 126. Tvister under privat skifte</a></li>
+<li class="lvl3"><a href="#kapittel-17-offentlig-skifte">Kapittel 17. Offentlig skifte</a></li>
+<li class="lvl4"><a href="#i-apning-av-offentlig-skifte">I. Åpning av offentlig skifte</a></li>
+<li class="lvl4"><a href="#ii-gjennomfringen-av-det-offentlige-skiftet-skiftemyndighetens-oppgaver">II. Gjennomføringen av det offentlige skiftet. Skiftemyndighetens oppgaver</a></li>
+<li class="lvl4"><a href="#iii-srlig-om-skiftebehandling-med-bostyrer">III. Særlig om skiftebehandling med bostyrer</a></li>
+<li class="lvl4"><a href="#iv-avslutning-av-skiftet-booppgjr-og-utdeling-fra-boet">IV. Avslutning av skiftet. Booppgjør og utdeling fra boet</a></li>
+<li class="lvl4"><a href="#v-tvister-ved-offentlig-skifte">V. Tvister ved offentlig skifte</a></li>
+<li class="lvl4"><a href="#vi-srregler-for-bo-der-eiendelene-ikke-er-tilstrekkelige-til-a-oppfylle-alle-forpliktelsene-etter-arvelateren">VI. Særregler for bo der eiendelene ikke er tilstrekkelige til å oppfylle alle forpliktelsene etter arvelateren</a></li>
+<li class="lvl2"><a href="#fjerde-del-avsluttende-bestemmelser">Fjerde del. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-18-ikrafttredelsesregler-og-overgangsregler-endringer-i-andre-lover">Kapittel 18. Ikrafttredelsesregler og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl5"><a href="#179-ikrafttredelse">§ 179. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#180-overgangsregler">§ 180. Overgangsregler</a></li>
+<li class="lvl5"><a href="#181-endringer-i-andre-lover">§ 181. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-06-14-21.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-06-14-21.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-06-14-21.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2019-06-14-21.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2019-06-14-21.html">Observerte kildeutgaver</a> · <a href="../historie/arveloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2019-06-14-21.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2019-06-14-21.html">Observerte kildeutgaver</a> · <a href="../historie/arveloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2019-06-14-21.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-arv-og-ddsboskifte-arveloven">Lov om arv og dødsboskifte (arveloven)</h1>
 <h2 id="frste-del-innledende-bestemmelser">Første del. Innledende bestemmelser</h2>
 <h3 id="kapittel-1-lovens-virkeomrade-definisjoner-mv">Kapittel 1. Lovens virkeområde, definisjoner mv.</h3>
 <h5 id="1-hva-loven-gjelder">§ 1. Hva loven gjelder</h5>
@@ -120,7 +413,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Et beløp tilsvarende seks ganger folketrygdens grunnbeløp ved arvefallet kan ikke fratas ektefellen ved testament. Etterlater arvelateren seg livsarvinger, er beløpsgrensen etter første punktum fire ganger folketrygdens grunnbeløp.</p>
 <h5 id="11-opphr-av-ektefellens-arverett-ved-separasjon-og-skilsmisse">§ 11. Opphør av ektefellens arverett ved separasjon og skilsmisse</h5>
 <p>Ektefellen har ikke rett til arv etter §§ 8 eller 9 hvis en av ektefellene har begjært separasjon eller fremsatt stevning med krav om skilsmisse før arvelateren døde, og begjæringen eller stevningen er mottatt av statsforvalteren eller retten før dødsfallet.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h3 id="kapittel-4-samboeres-arverett">Kapittel 4. Samboeres arverett</h3>
 <h5 id="12-arverett-for-samboere-med-felles-barn">§ 12. Arverett for samboere med felles barn</h5>
 <p>Den som var samboer med arvelateren ved dødsfallet og har, har hatt eller venter barn med arvelateren, har rett til en arv på fire ganger folketrygdens grunnbeløp ved arvefallet. Dette gjelder også om det er livsarvinger etter arvelateren. § 8 annet ledd gjelder tilsvarende.</p>
@@ -135,11 +428,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Hvis arvelateren eller den lengstlevende sitter i uskifte fra før av når arvelateren dør, må det første uskifteboet skiftes før det kan etableres uskifte etter arvelateren.</p>
 <p>§ 11 om opphør av arverettigheter i forbindelse med separasjon og skilsmisse gjelder tilsvarende.</p>
 <p>Er den lengstlevende fratatt rettslig handleevne på det økonomiske området, er det vergen som med samtykke fra statsforvalteren begjærer uskifte.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="15-uskifte-med-srskilt-livsarving">§ 15. Uskifte med særskilt livsarving</h5>
 <p>Den lengstlevende ektefellen har rett til uskifte med arvelaterens særskilte livsarving (særkullsbarn eller livsarving til særkullsbarn) bare hvis denne arvingen samtykker. Hvis den særskilte livsarvingen er mindreårig eller fratatt rettslig handleevne på det økonomiske området, kreves samtykke fra både vergen og statsforvalteren.</p>
 <p>Det kan settes vilkår for samtykke etter første ledd.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="16-uskifteretten-nar-noen-av-arvingene-kan-kreve-arv">§ 16. Uskifteretten når noen av arvingene kan kreve arv</h5>
 <p>Selv om noen arvinger kan kreve arv, mister ikke den lengstlevende ektefellen retten til uskifte med andre arvinger.</p>
 <h5 id="17-inngrep-i-ektefellens-uskifterett-ved-testament">§ 17. Inngrep i ektefellens uskifterett ved testament</h5>
@@ -150,7 +443,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>En ektefelle som vil gjøre bruk av retten til uskifte, skal innen 60 dager etter dødsfallet sende melding til tingretten etter reglene i § 96 .</p>
 <h5 id="20-ektefellens-ansvar-for-arvelaterens-forpliktelser">§ 20. Ektefellens ansvar for arvelaterens forpliktelser</h5>
 <p>Ved å overta boet uskiftet blir den lengstlevende ektefellen ansvarlig for arvelaterens forpliktelser. Ektefellen kan utstede proklama etter §§ 100 til 103 . § 116 femte ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</p>
 <h5 id="21-hvilke-eiendeler-som-gar-inn-i-uskifteformuen-etter-at-boet-er-overtatt-uskiftet">§ 21. Hvilke eiendeler som går inn i uskifteformuen etter at boet er overtatt uskiftet</h5>
 <p>Alt som den lengstlevende ektefellen blir eier av, går inn i uskifteformuen. Dette gjelder likevel ikke eiendeler som skal være særeie for den lengstlevende etter ektepakt mellom ektefellene, eller som en giver eller testator har bestemt at skal være særeie, jf. ekteskapsloven § 48 . Hvis den lengstlevende har overtatt arvelaterens særeie uskiftet etter § 14 annet ledd, gjelder reglene der tilsvarende.</p>
 <p>Får den lengstlevende gave, arv eller utbetaling etter en livsforsikring, går dette ikke inn i uskifteformuen hvis det blir krevd skifte innen tre måneder etter at gaven, arven eller utbetalingen ble mottatt.</p>
@@ -164,7 +457,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h5 id="24-adgangen-til-a-gi-arveoppgjr-av-uskifteformuen">§ 24. Adgangen til å gi arveoppgjør av uskifteformuen</h5>
 <p>Den lengstlevende ektefellen kan gi fullt eller delvis arveoppgjør av uskifteformuen til en arving bare hvis alle arvingene får en like stor del av sin arv eller har gitt samtykke. Er en arving mindreårig eller fratatt rettslig handleevne på det økonomiske området, kreves samtykke fra både vergen og statsforvalteren.</p>
 <p>Har en arving fått arveoppgjør i strid med første ledd, og ingen av de andre arvingene krever omstøtelse etter § 23 , kan hver av dem kreve tilsvarende oppgjør. Et slikt krav kan fremmes også ved et senere skifte av uskifteformuen. Hvis den lengstlevende ikke er villig til å gi et slikt oppgjør, kan arvingene kreve at uskifteformuen skiftes.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="25-arvingenes-adgang-til-a-kreve-bevissikring-utenfor-rettssak">§ 25. Arvingenes adgang til å kreve bevissikring utenfor rettssak</h5>
 <p>En arving kan begjære bevissikring utenfor rettssak etter reglene i <a href="lov-2005-06-17-90.html">tvisteloven</a> kapittel 28 også i tilfeller der det er grunn til å tro at den lengstlevende ektefellen har rådet over uskifteformuen i strid med reglene i §§ 23 eller 24 eller på en måte som omfattes av § 28 annet ledd.</p>
 <h5 id="26-hvem-som-tar-arv-ved-skifte-av-uskifteformuen">§ 26. Hvem som tar arv ved skifte av uskifteformuen</h5>
@@ -179,7 +472,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>En arving kan kreve skifte av uskifteformuen hvis den lengstlevende rår over den på en så klanderverdig måte at den blir vesentlig redusert eller står i fare for å bli det.</p>
 <p>Har vergen og statsforvalteren samtykket i uskifte på vegne av en livsarving etter § 15 første ledd annet punktum, kan livsarvingen kreve skifte for seg selv når han eller hun er blitt myndig.</p>
 <p>Er den lengstlevende eller arvingen mindreårig eller fratatt rettslig handleevne på det økonomiske området, er det vergen som med samtykke fra statsforvalteren reiser krav om skifte.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="29-skifte-av-uskifteformuen">§ 29. Skifte av uskifteformuen</h5>
 <p>Ved skifte etter den lengstlevende ektefellens død skal uskifteformuen deles likt mellom den førstavdødes arvinger og den lengstlevendes arvinger om ikke noe annet er bestemt.</p>
 <p>Ved skifte mens den lengstlevende ektefellen lever, har han eller hun krav på arv etter §§ 8 eller 9. Den lengstlevende ektefellen kan også holde utenfor eiendeler som nevnt i ekteskapsloven § 61 .</p>
@@ -207,7 +500,7 @@ b. bil og fritidsbolig med innbo som tjente til felles bruk for samboerne.</p>
 <p>En samboer som vil gjøre bruk av retten til uskifte, skal innen 60 dager etter dødsfallet sende melding til tingretten etter reglene i § 96 .</p>
 <h5 id="35-samboerens-ansvar-for-arvelaterens-forpliktelser-mv">§ 35. Samboerens ansvar for arvelaterens forpliktelser mv.</h5>
 <p>Ved å overta boet uskiftet blir samboeren ansvarlig for arvelaterens forpliktelser. Samboeren kan utstede proklama etter §§ 100 til 103 . § 116 femte ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</p>
 <h5 id="36-hvilke-eiendeler-som-inngar-i-uskifteformuen">§ 36. Hvilke eiendeler som inngår i uskifteformuen</h5>
 <p>Alt samboeren er eller blir eier av som hører naturlig sammen med de eiendelene han eller hun har overtatt uskiftet, går inn i uskifteformuen. § 21 annet ledd gjelder tilsvarende.</p>
 <h5 id="37-raderetten-over-uskifteformuen">§ 37. Råderetten over uskifteformuen</h5>
@@ -222,7 +515,7 @@ b. bil og fritidsbolig med innbo som tjente til felles bruk for samboerne.</p>
 <p>Den lengstlevende samboeren kan når som helst skifte uskifteformuen helt eller delvis med alle arvingene, jf. § 37 tredje ledd og § 24 . For arvingenes rett til å kreve skifte gjelder § 28 annet og tredje ledd tilsvarende. Er samboeren eller arvingen mindreårig eller fratatt rettslig handleevne på det økonomiske området, er det vergen som med samtykke fra statsforvalteren reiser krav om skifte etter første og annet punktum.</p>
 <p>Ved skifte etter den lengstlevende samboerens død, skal uskifteformuen deles mellom den førstavdødes arvinger og den lengstlevendes arvinger på grunnlag av verdiforholdet mellom samboernes eiendeler i uskifteboet da uskiftet ble etablert. Ved skifte mens den lengstlevende samboeren lever, har han eller hun krav på arv etter §§ 12 eller 13 .</p>
 <p>§ 26 , § 29 fjerde og femte ledd og § 30 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h3 id="kapittel-7-arv-etter-testament">Kapittel 7. Arv etter testament</h3>
 <h4 id="i-opprettelse-av-testament">I. Opprettelse av testament</h4>
 <h6 id="40-ddsdisposisjoner">§ 40. Dødsdisposisjoner</h6>
@@ -238,10 +531,10 @@ b. bil og fritidsbolig med innbo som tjente til felles bruk for samboerne.</p>
 <p>Hvis reglene i første og annet ledd ikke er fulgt, er testamentet ugyldig.</p>
 <p>Testamentet bør dateres.</p>
 <p>Kongen kan i forskrift gi regler om at testamenter kan opprettes digitalt, og om hvilke krav som i så fall må være oppfylt for at slike testamenter skal være gyldige. I forskriften kan det gjøres unntak fra første og tredje ledd.</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
 <h6 id="43-pategning-pa-testamentet-om-formkrav-mv">§ 43. Påtegning på testamentet om formkrav mv.</h6>
 <p>Testamentsvitnene bør i påtegning på testamentet opplyse om reglene i § 42 er fulgt, om testator har opprettet testamentet av fri vilje, og om testator var ved sans og samling. Påtegningen bør dateres, og vitnene bør oppgi sine fødselsdatoer. Påtegningen skal anses som bevis nok for de forhold den omfatter, om ikke særlige forhold gir grunn til å tvile på den.</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
 <h6 id="44-ugyldighet-ved-testasjon-til-fordel-for-testamentsvitne-mv">§ 44. Ugyldighet ved testasjon til fordel for testamentsvitne mv.</h6>
 <p>En disposisjon i testamentet til fordel for et av testamentsvitnene er ugyldig. Det samme gjelder en disposisjon til fordel for følgende personer som står vitnet nær:</p>
 <p>a. ektefellen eller samboeren
@@ -267,12 +560,12 @@ d. ektefellen eller samboeren til slektning i rett opp- eller nedstigende linje.
 <h6 id="49-arvepakt">§ 49. Arvepakt</h6>
 <p>Testator kan ved arvepakt binde seg til ikke å opprette, endre eller tilbakekalle et testament.</p>
 <p>Arvepakt opprettes etter reglene i §§ 41 til 46 . Vil noen som er under vergemål, opprette arvepakt, kreves dessuten samtykke fra statsforvalteren i den utstrekning arvepakten gjelder midler som personen ikke selv rår over.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="iii-livsarvingenes-pliktdelsarv-mv">III. Livsarvingenes pliktdelsarv mv.</h4>
 <h6 id="50-livsarvingenes-pliktdelsarv">§ 50. Livsarvingenes pliktdelsarv</h6>
 <p>To tredeler av formuen etter arvelateren er pliktdelsarv for livsarvingene. Pliktdelsarven er likevel aldri større enn 15 ganger folketrygdens grunnbeløp ved arvefallet til hvert av arvelaterens barn eller hvert barns linje.</p>
 <p>Arvelateren kan bare rå over pliktdelsarven ved testament hvis det er særskilt hjemmel for dette i lov eller livsarvingene samtykker. Hvis en livsarving er mindreårig eller fratatt rettslig handleevne på det økonomiske området, kreves samtykke fra både vergen og statsforvalteren.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h6 id="51-testators-bestemmelse-om-hvilke-eiendeler-pliktdelsarven-skal-omfatte">§ 51. Testators bestemmelse om hvilke eiendeler pliktdelsarven skal omfatte</h6>
 <p>Arvelateren kan bestemme ved testament at en livsarving skal få pliktdelsarven utbetalt i kontanter.</p>
 <p>Arvelateren kan ved testament gi en livsarving rett til å få arven utdelt som en bestemt eiendel, også om eiendelen er verd mer enn arvingens del av arven, forutsatt at livsarvingen betaler det overskytende til boet. En slik rett kan ikke gripe inn i ektefellens eller samboerens rettigheter etter §§ 113 og 114 i denne loven eller <a href="lov-1991-07-04-45.html">husstandsfellesskapsloven</a> § 2 .</p>
@@ -328,7 +621,7 @@ c. Hvis testamentet ikke bestemmer noe om arvefordelingen etter den lengstlevend
 <p>a. hvis det er gjort feil i registreringen, slik at testamentet ikke blir funnet, eller
 b. hvis retten unnlater å legge frem et testament enda den vet eller burde vite at testator er død, og at testamentet er innlevert for oppbevaring.</p>
 <p>Departementet kan i forskrift gi nærmere regler om innlevering, registrering, oppbevaring, utlevering og fremleggelse av testamenter og kan i forskriften gjøre unntak fra reglene i denne paragrafen.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h6 id="64-bortkommet-testament">§ 64. Bortkommet testament</h6>
 <p>Hvis det kan sannsynliggjøres at testator har etterlatt seg et gyldig testament, men dette testamentet ikke er å finne etter testators død, skal det gjelde hvis innholdet kan bringes på det rene. Testamentet legges likevel ikke til grunn hvis det mest trolig er tilbakekalt.</p>
 <h6 id="65-frister-for-a-kreve-arv-etter-et-testament-eller-for-a-motsette-seg-et-testament">§ 65. Frister for å kreve arv etter et testament eller for å motsette seg et testament</h6>
@@ -384,7 +677,7 @@ d. Avkortingsbeløpet får betydning bare for fordelingen mellom livsarvingene o
 <p>I særlige tilfeller kan departementet etter søknad bestemme at hele eller deler av formuen skal gå til slektninger eller andre som har stått den avdøde nær. Departementet kan i forskrift gi nærmere regler om slik fordeling av formuen.</p>
 <h5 id="77-avgjrelser-ved-skiftet-nar-formuen-skal-fordeles-etter-76">§ 77. Avgjørelser ved skiftet når formuen skal fordeles etter§ 76</h5>
 <p>Når det er slått fast at den avdøde ikke har arvinger, jf. § 76 , treffer departementet de avgjørelsene under skiftet som ellers treffes av arvingene, slik som avgjørelser om salg av eiendeler. Departementet skal påse at utgiftene til bobehandling og gravferd blir dekket, og at det blir satt av midler til fremtidige utgifter til stell av graven. Departementet kan i forskrift gi nærmere regler om oppgavene etter denne paragrafen, herunder om utpeking av en ansvarlig for graven og bestiller av gravstellet.</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
 <h3 id="kapittel-11-internasjonal-arverett">Kapittel 11. Internasjonal arverett</h3>
 <h5 id="78-lovvalg">§ 78. Lovvalg</h5>
 <p>Hvis ikke noe annet følger av overenskomst etter § 82 , skal arveretten i den staten der arvelateren ved sin død hadde sitt vanlige bosted, anvendes.</p>
@@ -436,20 +729,20 @@ d. å oppnevne bostyrer, jf. § 134 annet ledd.</p>
 <p>Departementet kan gi forskrift om nødvendig behandling av personopplysninger i forbindelse med digitalt skifte av dødsbo etter første ledd, blant annet om behandlingsansvar, formålet med behandlingen, automatiserte avgjørelser, deling, lagring, adgangen til viderebehandling, retting og sletting.</p>
 <p>Departementet kan gi forskrift om utlevering av opplysninger til offentlige myndigheter for bruk til statistikkformål.</p>
 <p>Så langt det er nødvendig for å utføre oppgaver som følger av lovens tredje del , kan offentlige og private virksomheter, domstolene og forvaltningsorganer uten hinder av taushetsplikt dele opplysninger i forbindelse med gjennomføring av digitalt skifte av dødsbo. Departementet kan gi forskrift om plikt til å dele opplysninger uten hinder av taushetsplikt, og om at enkelte opplysninger ikke skal kunne deles etter første punktum.</p>
-<p><em>Tilføyd ved lov 22 juni 2022 nr. 81 .</em></p>
+<p class="note">Tilføyd ved lov 22 juni 2022 nr. 81 .</p>
 <h3 id="kapittel-13-perioden-fra-ddsfallet-og-frem-til-skifteform-er-valgt">Kapittel 13. Perioden fra dødsfallet og frem til skifteform er valgt</h3>
 <h5 id="89-melding-om-ddsfall-opplysninger-om-den-avdde">§ 89. Melding om dødsfall. Opplysninger om den avdøde</h5>
 <p>Dødsfall skal straks meldes til tingretten som skal behandle dødsboet etter § 84 , hvis ikke legen melder dødsfallet til Folkeregisteret. Meldingen skal gis av legen som utstedte dødsattesten, av den avdødes ektefelle, samboer eller nærmeste slektninger eller av person som var til stede ved dødsfallet. Den meldepliktige kan gi en annen i oppdrag å melde dødsfallet på sine vegne.</p>
 <p>Ektefelle, samboer, de nærmeste slektningene og testamentsarvinger etter den avdøde plikter å gi opplysninger om det de vet om den avdødes formuesforhold og slektskapsforhold og om andre spørsmål som har betydning for den videre behandlingen av dødsboet, herunder om de kjenner til om den avdøde har opprettet testament. Fører dødsfallet til at ingen lenger har foreldreansvaret for et barn, skal det opplyses om dette.</p>
 <p>Departementet kan i forskrift gi nærmere regler om melding og opplysninger etter første og annet ledd, herunder om innholdet, til hvem meldingen eller opplysningene skal gis, og hvordan opplysningene skal behandles og meldes videre. I forskriften kan det gjøres unntak fra reglene i første og annet ledd.</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
 <h5 id="90-tingrettens-innledende-behandling">§ 90. Tingrettens innledende behandling</h5>
 <p>Når tingretten mottar meldingen om dødsfallet, skal den kontrollere om den avdøde har innlevert testament til en domstol, jf. § 63 . Retten bør, i den utstrekning den finner det hensiktsmessig, av eget tiltak søke å finne frem til mulige slektsarvinger som kan ha krav på arv etter den avdøde.</p>
 <p>Retten skal så snart som mulig varsle dem som etter loven kan ha krav på arv, med mindre de må antas å ha kunnskap om dødsfallet. Foreligger det et testament, skal retten uten opphold gi melding til den eller dem som etter testamentet har rettigheter i boet, om disse rettighetene. Er noen av arvingene mindreårige eller fratatt rettslig handleevne, skal retten varsle statsforvalteren. Går et testament ut på at det skal opprettes en stiftelse, skal retten varsle medlemmene av stiftelsens styre, eventuelt den eller dem som skal oppnevne stiftelsens styre, og Stiftelsestilsynet.</p>
 <p>Retten kan om nødvendig kreve bistand fra politiet for å finne ut hvor personer oppholder seg.</p>
 <p>Retten skal gi nødvendig veiledning slik at de som kan ha rettigheter i boet, kan ivareta sine interesser.</p>
 <p>Inngår det en landbrukseiendom i boet, skal tingretten melde fra til landbruksmyndighetene i den kommunen eiendommen ligger, om hvem som er arvinger i boet.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="91-registrering-og-sikring-av-boets-eiendeler">§ 91. Registrering og sikring av boets eiendeler</h5>
 <p>Enhver som har rettigheter i boet, kan kreve at retten foretar en foreløpig registrering eller nødvendig sikring av boets eiendeler. Retten bestemmer omfanget av registreringen eller sikringen og om det i forbindelse med registreringen samtidig skal skje en veiledende verdsettelse av eiendelene. Ved avgjørelsen skal det tas hensyn til behovet for å verne rekvirentens interesser.</p>
 <p>Retten kan av eget tiltak ta de skritt som er nødvendige for å sikre boets eiendeler. For fast eiendom kan retten om nødvendig tinglyse en erklæring om at eiendommen tilhører dødsboet. Det samme gjelder for andre typer eiendeler som er registrert i liknende offentlige registre.</p>
@@ -463,7 +756,7 @@ d. å oppnevne bostyrer, jf. § 134 annet ledd.</p>
 <p>Retten kan gi et begravelsesbyrå fullmakt til innsyn i arvelaterens siste års skattemelding og fastsetting av skatt for siste år hvis begravelsesbyrået har behov for dette som følge av at det er gitt i oppdrag å søke om gravferdsstønad.</p>
 <p>Retten kan gi fullmakt til å gjennomgå arvelaterens bankboks. En av finansinstitusjonens ansatte skal være til stede når bankboksen gås gjennom.</p>
 <p>Departementet kan i forskrift gi nærmere regler om fullmakter og innsynsrett som nevnt i første til fjerde ledd og kan herunder gi regler som presiserer omfanget av innsynsretten og hos hvem det kan kreves innsyn. I forskriften kan det gjøres unntak fra reglene i denne paragrafen.</p>
-<p><em>Endret ved lover 18 des 2020 nr. 149 , 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</em></p>
+<p class="note">Endret ved lover 18 des 2020 nr. 149 , 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</p>
 <h5 id="93-kunngjring-av-frist-for-a-melde-krav-proklama-fr-skifteform-er-valgt">§ 93. Kunngjøring av frist for å melde krav (proklama) før skifteform er valgt</h5>
 <p>Før det er avgjort om boet skal skiftes privat eller offentlig, skal retten, hvis noen av arvingene krever det, kunngjøre en frist for kreditorene til å melde sine krav etter reglene om proklama i §§ 100 til 103 .</p>
 <h5 id="94-testamentarisk-bestemmelse-om-opprettelse-av-en-stiftelse">§ 94. Testamentarisk bestemmelse om opprettelse av en stiftelse</h5>
@@ -479,10 +772,10 @@ d. å oppnevne bostyrer, jf. § 134 annet ledd.</p>
 <p>Er det en samboer som vil gjøre bruk av retten til uskifte etter kapittel 6 , gjelder reglene i annet ledd tilsvarende for å fastslå forholdet mellom samboernes eiendeler og forpliktelser.</p>
 <p>Er den lengstlevende ektefellen eller samboeren eller noen av arvingene under vergemål, skal retten sende statsforvalteren der personen bor, opplysninger om melding, erklæring, registrering og verdsettelse som nevnt i første til tredje ledd. For arving under vergemål skal statsforvalteren vurdere om det skal oppnevnes setteverge etter vergemålsloven § 34 . Departementet kan i forskrift gi regler om statsforvalterens tilsyn med uskiftebo som nevnt i første punktum og om opplysningsplikt overfor statsforvalteren for den lengstlevende ektefellen eller samboeren der det er arvinger under vergemål.</p>
 <p>Fristen etter første ledd er ikke til hinder for at et bo under offentlig skifte tilbakeleveres til arvelaterens ektefelle eller samboer til uskifte etter reglene i § 158 annet ledd. Fristen etter første ledd er heller ikke til hinder for at arvelaterens ektefelle eller samboer overtar boet i uskifte etter at privat skifte er påbegynt, så lenge skiftet ikke er avsluttet.</p>
-<p><em>Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 31 mars 2023 nr. 5 (i kraft 1 april 2023 iflg. res. 31 mars 2023 nr. 445 ).</em></p>
+<p class="note">Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 31 mars 2023 nr. 5 (i kraft 1 april 2023 iflg. res. 31 mars 2023 nr. 445 ).</p>
 <h5 id="97-uskifteattest">§ 97. Uskifteattest</h5>
 <p>Retten skal så snart det er avklart at vilkårene for uskifte er oppfylt, og statsforvalteren eventuelt er varslet etter § 96 fjerde ledd, utstede en uskifteattest. Ved privat skifte mellom den lengstlevende og de av arvelaterens arvinger som har krav på arven straks, skal uskifteattesten utstedes når arvingene gir samtykke til det eller bekrefter at det er inngått bindende avtale om oppgjøret. Ved uskifteattesten blir den lengstlevende ektefellen eller samboeren legitimert til å rå over arvelaterens eiendeler.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h3 id="kapittel-15-felles-bestemmelser-for-privat-og-offentlig-skifte">Kapittel 15. Felles bestemmelser for privat og offentlig skifte</h3>
 <h4 id="i-generelle-bestemmelser-om-skifte">I. Generelle bestemmelser om skifte</h4>
 <h6 id="98-skifte-av-ddsbo-skifteformene">§ 98. Skifte av dødsbo. Skifteformene</h6>
@@ -499,7 +792,7 @@ d. å oppnevne bostyrer, jf. § 134 annet ledd.</p>
 <p>Oversittes fristen etter første eller annet ledd, kan kommunen der eiendommen ligger, la eiendommen selge etter <a href="lov-2003-11-28-98.html">konsesjonsloven</a> § 19 . Reglene om odelsløsning i <a href="lov-1974-06-28-58.html">odelslova</a> § 28 gjelder tilsvarende.</p>
 <p>Departementet er klageinstans for kommunens vedtak etter annet ledd og tredje ledd første punktum.</p>
 <p>Departementet kan i forskrift gi nærmere regler om oppgavetildeling og saksbehandling ved gjennomføring av bestemmelsene i første til fjerde ledd.</p>
-<p><em>Tilføyd ved lov 18 des 2020 nr. 149 (ikr. 1 jan 2022 iflg. res. 28 mai 2021 nr. 1698 , se endringsloven del II for overgangsregler).</em></p>
+<p class="note">Tilføyd ved lov 18 des 2020 nr. 149 (ikr. 1 jan 2022 iflg. res. 28 mai 2021 nr. 1698 , se endringsloven del II for overgangsregler).</p>
 <h4 id="ii-proklama-kunngjring-av-frist-for-kreditorene-til-a-melde-sine-krav">II. Proklama – kunngjøring av frist for kreditorene til å melde sine krav</h4>
 <h6 id="100-utstedelse-av-proklama-melding-til-kreditorer-utenfor-norge">§ 100. Utstedelse av proklama. Melding til kreditorer utenfor Norge</h6>
 <p>I tilfeller som nevnt i §§ 20 , 35 , 93 , 121 og 142 skal arvelaterens kreditorer ved proklama gis melding om dødsfallet og oppfordring til å melde sine krav.</p>
@@ -524,7 +817,7 @@ b. at kravet er blitt meldt under gjeldsforhandling eller konkurs i skyldnerens 
 c. at sak er anlagt mot arvingene.</p>
 <p>I tilfelle som nevnt i første ledd bokstav c gjelder foreldelsesloven § 15 nr. 2 og § 22 nr. 1 tilsvarende.</p>
 <p>Saksanlegg overfor en enkelt av arvingene avbryter ikke fristen for de andre. Den saksøkte kan likevel holde sitt regresskrav åpent hvis han eller hun innen en måned etter utløpet av proklamafristen melder kravet på foreskrevet måte.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="iii-arvingenes-rett-til-a-overta-eiendeler-pa-skiftet-verdsettelse-og-oppgjr">III. Arvingenes rett til å overta eiendeler på skiftet. Verdsettelse og oppgjør</h4>
 <h6 id="104-rett-til-a-overta-eiendeler-og-rett-til-a-kreve-eiendeler-solgt">§ 104. Rett til å overta eiendeler og rett til å kreve eiendeler solgt</h6>
 <p>En arving kan overta bestemte eiendeler i boet hvis det ikke er noen av de andre arvingene som motsetter seg dette. Er det uenighet om en arving skal få overta en eiendel, kan arvingen overta eiendelen hvis gode grunner taler for det, og det ikke er noen rimelig grunn for de andre arvingene til å motsette seg det. Ved offentlig skifte skal retten påse at avgjørelsen ikke blir til skade for en arving som er under vergemål, som er forhindret fra selv å gjøre sine ønsker gjeldende, eller som er forhindret fra selv å være til stede under skiftet.</p>
@@ -585,7 +878,7 @@ d. løsøre som ektefellen trenger til å fortsette sin næring.</p>
 <p>Er ingen av arvingene myndige, kan boet skiftes privat uten at noen påtar seg ansvaret for arvelaterens forpliktelser etter første ledd. Arvingene er da ansvarlige for arvelaterens forpliktelser bare inntil verdien av sin arv.</p>
 <p>En arving som etter testament bare skal motta et bestemt, avgrenset gode av liten verdi, regnes ikke som arving etter første ledd første og annet punktum og tredje ledd første punktum.</p>
 <p>Hvis eiendelene i boet ikke er tilstrekkelige til å oppfylle alle forpliktelsene etter arvelateren, kan en arvings ansvar etter første ledd første punktum i ekstraordinære tilfeller lempes overfor enkeltstående kreditorer når retten under hensyn til kravets størrelse, arvingens økonomiske bæreevne og forholdene ellers finner at ansvaret for dette kravet virker urimelig tyngende for arvingen. Første punktum gjelder ikke for krav arvingen hadde eller må ha hatt kunnskap om før han eller hun påtok seg ansvaret. Kravet kan ikke reduseres til et beløp som er lavere enn det kreditoren kunne ha regnet med å få dekket dersom boet hadde vært skiftet offentlig. Sak om lemping av ansvaret etter første punktum må reises av arvingen etter tvistelovens regler med kreditor som motpart innen ett år etter at arvingen fikk kunnskap om kravet.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 , se endringsloven del III for overgangsregel).</p>
 <h5 id="117-frist-for-a-kreve-privat-skifte">§ 117. Frist for å kreve privat skifte</h5>
 <p>Innen 60 dager etter dødsfallet eller innen en annen frist som retten setter, må en arving ha påtatt seg ansvaret for arvelaterens forpliktelser etter § 116 første ledd hvis boet skal skiftes privat.</p>
 <p>Fristen etter første ledd er ikke til hinder for at et bo under offentlig skifte tilbakeleveres til privat skifte etter § 158 .</p>
@@ -598,7 +891,7 @@ d. løsøre som ektefellen trenger til å fortsette sin næring.</p>
 <p>Retten skal underrette samtlige kjente arvinger om innholdet i skifteattesten. Er noen av arvingene mindreårige eller fratatt rettslig handleevne, skal retten sende kopi av skifteattesten til statsforvalteren. Går et testament ut på at det skal opprettes en stiftelse, skal retten sende kopi av skifteattesten til Stiftelsestilsynet.</p>
 <p>Skifteattesten gir rett til innsyn i arvelaterens formues- og gjeldsforhold, herunder opplysninger om fastsetting av skatt, jf. skatteforvaltningsloven § 3-10 . § 92 første ledd tredje til femte punktum gjelder tilsvarende.</p>
 <p>Departementet kan i forskrift gi nærmere regler om skifteattester, herunder om hvem skifteattester skal utstedes til, og innholdet i skifteattester. Det kan i en slik forskrift gjøres unntak fra reglene i denne paragrafen.</p>
-<p><em>Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+<p class="note">Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</p>
 <h5 id="119-oppgaver-ved-gjennomfringen-av-et-privat-skifte">§ 119. Oppgaver ved gjennomføringen av et privat skifte</h5>
 <p>Den eller de av arvingene som skifteattesten er utstedt til, gjennomfører det private skiftet. Oppgavene kan likevel fordeles til andre. Boet skal skiftes innen rimelig tid og på en måte som ivaretar arvingenes og øvrige rettighetshaveres interesser. Følgende oppgaver skal eller bør normalt utføres:</p>
 <p>a. Det skal skaffes oversikt over arvingene i boet og omfanget av den enkeltes arverett.
@@ -652,7 +945,7 @@ e. den som har et krav mot arvelateren, hvis det ikke er krevd privat skifte inn
 f. den som har et krav mot arvelateren, hvis sannsynligheten for å få dekning vesentlig forringes som følge av arvingenes forhold.</p>
 <p>Som arving etter første ledd bokstav a til d regnes ikke arving som etter testament bare skal motta et bestemt, avgrenset gode av liten verdi. En slik arving kan likevel kreve offentlig skifte hvis vedkommende, når det har gått ett år etter dødsfallet, ennå ikke har mottatt det han eller hun har krav på, og de øvrige arvingene kan bebreides for dette.</p>
 <p>Er arvingen mindreårig, fratatt rettslig handleevne på det økonomiske området eller i en tilstand som nevnt i § 139 annet ledd annet punktum, er det vergen som må kreve offentlig skifte på vegne av arvingen etter første ledd bokstav a.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h6 id="128-arvelaterens-adgang-til-a-bestemme-offentlig-skifte">§ 128. Arvelaterens adgang til å bestemme offentlig skifte</h6>
 <p>Arvelateren kan bestemme ved testament at boet skal skiftes offentlig. En slik bestemmelse er bindende for alle arvingene, herunder livsarvingene og ektefelle eller samboer.</p>
 <h6 id="129-tingrettens-apning-av-offentlig-skifte-av-eget-tiltak">§ 129. Tingrettens åpning av offentlig skifte av eget tiltak</h6>
@@ -662,7 +955,7 @@ f. den som har et krav mot arvelateren, hvis sannsynligheten for å få dekning 
 <p>Det kan ikke kreves offentlig skifte etter at det private skiftet er avsluttet. Statsforvalteren kan likevel kreve offentlig skifte hvis statsforvalteren finner at en arving under vergemål har fått en arv som ikke er tilfredsstillende i forhold til det arvingen hadde krav på.</p>
 <p>Retten til å kreve offentlig skifte faller bort tre år etter dødsfallet. For en ektefelle eller samboer som har sittet i uskifte, løper fristen fra det tidspunktet retten til uskifte opphørte.</p>
 <p>Taler sterke grunner for det, kan retten bestemme at offentlig skifte skal åpnes også etter utløpet av fristene etter annet ledd.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h6 id="131-forberedende-rettsmte">§ 131. Forberedende rettsmøte</h6>
 <p>Før det åpnes offentlig skifte skal retten innkalle arvingene og den som har krevd offentlig skifte, til et forberedende rettsmøte, med mindre retten finner at et slikt møte vil ha liten hensikt. En arving som etter testament bare skal motta et bestemt, avgrenset gode av liten verdi, innkalles bare om det anses hensiktsmessig. I møtet skal det gis veiledning om reglene som gjelder for arveoppgjøret, og om mulig skal spørsmål partene tvistes om, avklares. Dommeren kan mekle mellom partene.</p>
 <p>Kommer partene til enighet, og dommeren finner det ubetenkelig, kan det i rettsmøtet inngås rettsforlik.</p>
@@ -696,7 +989,7 @@ f. den som har et krav mot arvelateren, hvis sannsynligheten for å få dekning 
 <p>Første ledd første punktum gjelder tilsvarende for en arving som er fratatt rettslig handleevne, når fratakelsen omfatter slike disposisjoner som er nødvendige for å ivareta en arvings rettigheter og plikter under et skifte. Første ledd første punktum gjelder tilsvarende også for en arving som på grunn av sin psykiske helsetilstand ikke er i stand til å ivareta sine egne interesser under skiftet. Har arvingen ikke verge, skal retten eller bostyreren gi melding til statsforvalteren om at det skal oppnevnes verge, med mindre arvingen har en fremtidsfullmektig som kan ivareta arvingens interesser under skiftet.</p>
 <p>En mindreårig arving over 15 år og en arving som nevnt i annet ledd skal innkalles til skiftesamlinger og bomøter. Arvingen skal opplyses om at han eller hun har rett, men ikke plikt, til å være til stede. Arvingen skal samtidig med vergen gjøres kjent med avgjørelser som treffes under skiftet, hvis ikke arvingen selv har erklært at det er unødvendig. For arvingens rett til innsyn i dokumenter gjelder tvisteloven § 14-1 første ledd annet og tredje punktum tilsvarende.</p>
 <p>Er arvingen et upersonlig rettssubjekt, gjelder reglene i tvisteloven kapittel 2 tilsvarende under skiftet.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</p>
 <h6 id="140-skiftesamlingen">§ 140. Skiftesamlingen</h6>
 <p>Retten kan innkalle arvingene til skiftesamling hvis den finner det hensiktsmessig. En arving som etter testament bare skal motta et bestemt, avgrenset gode av liten verdi, innkalles bare om det anses hensiktsmessig.</p>
 <p>Innkallingen skal skje med minst 14 dagers varsel og på den måten retten finner det hensiktsmessig.</p>
@@ -730,7 +1023,7 @@ f. den som har et krav mot arvelateren, hvis sannsynligheten for å få dekning 
 <h6 id="149-hvem-som-kan-oppnevnes-som-bostyrer-sikkerhetsstillelse">§ 149. Hvem som kan oppnevnes som bostyrer. Sikkerhetsstillelse</h6>
 <p>Som bostyrer oppnevnes en advokat. Andre kan oppnevnes hvis retten finner det ubetenkelig. Er det i testament bestemt at en testamentsfullbyrder skal gjennomføre skiftet, gjelder § 99 .</p>
 <p>Bostyreren skal for sitt mulige ansvar som bostyrer være sikret gjennom en forsikringsordning godkjent etter regler fastsatt av departementet i forskrift. Forsikringspremien regnes som en skifteomkostning. Bostyreren kan under skiftet omsette boets faste eiendommer mv. uten å stille ekstra sikkerhet etter <a href="lov-2007-06-29-73.html">eiendomsmeglingsloven</a> § 2-7 dersom sikkerhetsstillelsen etter første punktum tilfredsstiller kravene som følger av eiendomsmeglingsloven.</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
 <h6 id="150-bostyrerens-oppgave-og-kompetanse">§ 150. Bostyrerens oppgave og kompetanse</h6>
 <p>Bostyrerens oppgave er å gjennomføre skiftet på tingrettens vegne. Bostyreren kan engasjere medhjelpere til å bistå ved skiftebehandlingen. Bostyreren skal medvirke til at skiftet gjennomføres uten unødig opphold og uten unødige omkostninger.</p>
 <p>Bostyreren har ved gjennomføringen av skiftet den samme kompetansen som tingretten. Bostyreren kan likevel ikke avgjøre rettstvister eller innkalle til skiftesamlinger.</p>
@@ -776,7 +1069,7 @@ f. den som har et krav mot arvelateren, hvis sannsynligheten for å få dekning 
 <p>Er en arving under vergemål, skal kjennelsen om booppgjøret også sendes til statsforvalteren og vergen.</p>
 <p>Er en arving forsvunnet eller fraværende uten kjent oppholdssted, jf. § 146 , skal kjennelsen om booppgjøret sendes til vergen eller en annen som er oppnevnt for å ivareta personens interesser. I tillegg skal kjennelsen sendes til statsforvalteren i det fylket der personen sist var bosatt.</p>
 <p>Går et testament ut på at det skal opprettes en stiftelse, skal kjennelsen om booppgjøret sendes Stiftelsestilsynet.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h6 id="162-anke-mv">§ 162. Anke mv.</h6>
 <p>Fristen for å anke over kjennelsen om booppgjøret er én måned regnet fra dagen kjennelsen ble avsagt. Reglene om ankesum i tvisteloven § 29-13 gjelder tilsvarende.</p>
 <p>Retten kan omgjøre booppgjøret så langt dette ikke nødvendiggjør noen tilbakebetaling. Omgjøringen fastsettes ved en beslutning, og ankefristen etter første ledd løper i så fall fra dagen for beslutningen.</p>
@@ -846,7 +1139,7 @@ f. tvist om boets krav mot en tredjeperson, herunder krav mot en arving når kra
 <p>Etter avstemningen avgjør retten ved kjennelse om akkorden skal stadfestes. Hvis boets kontantbeholdning ikke er tilstrekkelig til å dekke massekrav og fortrinnsberettigede krav, kan akkorden stadfestes bare hvis det stilles betryggende sikkerhet for at det manglende beløpet vil bli innbetalt i tilfelle av stadfestelse. For øvrig gjelder konkursloven § 38 , §§ 47 til 51 , § 54 og § 55 tilsvarende.</p>
 <p>Blir akkorden stadfestet, skal skiftebehandlingen innstilles samtidig. Kunngjøring om at akkorden er blitt stadfestet og skiftebehandlingen innstilt, skal sendes til alle kjente kreditorer.</p>
 <p>Når kjennelsen om stadfestelse er rettskraftig, skal retten dekke massekravene og de fortrinnsberettigede kravene, eller sette inn i bank nødvendige beløp til dekning av omtvistede krav, jf. konkursloven § 47 annet ledd.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="fjerde-del-avsluttende-bestemmelser">Fjerde del. Avsluttende bestemmelser</h2>
 <h3 id="kapittel-18-ikrafttredelsesregler-og-overgangsregler-endringer-i-andre-lover">Kapittel 18. Ikrafttredelsesregler og overgangsregler. Endringer i andre lover</h3>
 <h5 id="179-ikrafttredelse">§ 179. Ikrafttredelse</h5>
@@ -864,7 +1157,9 @@ f. tvist om boets krav mot en tredjeperson, herunder krav mot en arving når kra
 <p>Departementet kan gi overgangsregler. I overgangsreglene kan det gjøres unntak fra reglene i denne paragrafen.</p>
 <h5 id="181-endringer-i-andre-lover">§ 181. Endringer i andre lover</h5>
 <p>Fra den tid loven trer i kraft gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lov 18 des 2020 nr. 149 .</em></p>
+<p class="note">Endret ved lov 18 des 2020 nr. 149 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

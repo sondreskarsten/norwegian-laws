@@ -19,68 +19,217 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-12-17-1579.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Byggevareforskriften (DOK)" href="../feeds/forskrift-2013-12-17-1579.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Byggevareforskriften (DOK)</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-12-17-1579</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-05-06-750</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-12-17-1579" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledende-bestemmelser">I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</a></li>
+<li class="lvl4"><a href="#2-omsetning-markedsfring-og-distribusjon-av-produkter">§ 2. Omsetning, markedsføring og distribusjon av produkter</a></li>
+<li class="lvl2"><a href="#ii-krav-til-byggevarer-som-er-ce-merket">II. Krav til byggevarer som er CE-merket</a></li>
+<li class="lvl4"><a href="#3-gjennomfring-av-byggevareforordningen-samt-delegerte-rettsakter-og-gjennomfringsrettsakter">§ 3. Gjennomføring av byggevareforordningen samt delegerte rettsakter og gjennomføringsrettsakter</a></li>
+<li class="lvl4"><a href="#3a-gjennomfring-av-delegerte-rettsakter-av-teknisk-karakter">§ 3a. Gjennomføring av delegerte rettsakter av teknisk karakter</a></li>
+<li class="lvl4"><a href="#4-sprak-i-ytelseserklring">§ 4. Språk i ytelseserklæring</a></li>
+<li class="lvl4"><a href="#5-sprak-pa-anvisninger-og-sikkerhetsinformasjon">§ 5. Språk på anvisninger og sikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#6-varekontaktpunkt-for-byggevarer">§ 6. Varekontaktpunkt for byggevarer</a></li>
+<li class="lvl4"><a href="#7-teknisk-bedmmelsesorgan">§ 7. Teknisk bedømmelsesorgan</a></li>
+<li class="lvl4"><a href="#8-tekniske-kontrollorgan-etter-byggevareforordningen">§ 8. Tekniske kontrollorgan etter byggevareforordningen</a></li>
+<li class="lvl2"><a href="#iii-krav-til-byggevarer-som-ikke-er-ce-merket">III. Krav til byggevarer som ikke er CE-merket</a></li>
+<li class="lvl4"><a href="#9-virkeomrade-forkapittel-iii">§ 9. Virkeområde forkapittel III</a></li>
+<li class="lvl4"><a href="#10-dokumentasjon-av-vesentlige-egenskaper">§ 10. Dokumentasjon av vesentlige egenskaper</a></li>
+<li class="lvl4"><a href="#11-markedsdeltakernes-plikter">§ 11. Markedsdeltakernes plikter</a></li>
+<li class="lvl4"><a href="#12-vurdering-og-verifikasjon-av-byggevarers-ytelser">§ 12. Vurdering og verifikasjon av byggevarers ytelser</a></li>
+<li class="lvl4"><a href="#13-innhold-i-dokumentasjonen">§ 13. Innhold i dokumentasjonen</a></li>
+<li class="lvl4"><a href="#14-gjensidig-godkjenning">§ 14. Gjensidig godkjenning</a></li>
+<li class="lvl2"><a href="#iv-lfteinnretning-og-varmtvannskjel">IV. Løfteinnretning og varmtvannskjel</a></li>
+<li class="lvl4"><a href="#15-virkeomrade-forkapittel-iv">§ 15. Virkeområde forkapittel IV</a></li>
+<li class="lvl4"><a href="#16-lfteinnretning">§ 16. Løfteinnretning</a></li>
+<li class="lvl4"><a href="#17-varmtvannskjel-som-fyres-med-flytende-eller-gassformig-brensel">§ 17. Varmtvannskjel som fyres med flytende eller gassformig brensel</a></li>
+<li class="lvl4"><a href="#18-ce-merking-av-lfteinnretninger-og-varmtvannskjeler">§ 18. CE-merking av løfteinnretninger og varmtvannskjeler</a></li>
+<li class="lvl4"><a href="#19-teknisk-kontrollorgan-for-lfteinnretninger-og-varmtvannskjel">§ 19. Teknisk kontrollorgan for løfteinnretninger og varmtvannskjel</a></li>
+<li class="lvl2"><a href="#v-fellesbestemmelser">V. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#20-forbud-mot-villedende-informasjon">§ 20. Forbud mot villedende informasjon</a></li>
+<li class="lvl4"><a href="#21-tilsynsmyndighet">§ 21. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#22-tilsyn-med-produkter-til-byggverk">§ 22. Tilsyn med produkter til byggverk</a></li>
+<li class="lvl4"><a href="#23-reaksjoner-fra-tilsynsmyndigheten">§ 23. Reaksjoner fra tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#24-overtredelsesgebyr-gebyrenes-strrelse">§ 24. Overtredelsesgebyr. Gebyrenes størrelse</a></li>
+<li class="lvl4"><a href="#25-utmaling-av-overtredelsesgebyr">§ 25. Utmåling av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#26-gebyr">§ 26. Gebyr</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse-overgangsbestemmelse-og-endringer-i-andre-forskrifter">§ 27. Ikrafttredelse, overgangsbestemmelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i-liste-over-kommisjonens-vedtak-og-delegerte-rettsakter-som-fastsetter-eller-endrer-systemene-for-vurdering-og-verifikasjon-av-byggevarers-ytelser">Vedlegg I. Liste over Kommisjonens vedtak og delegerte rettsakter som fastsetter eller endrer systemene for vurdering og verifikasjon av byggevarers ytelser</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-liste-over-publiserte-harmoniserte-standarder-og-europeiske-tekniske-bedmmelsesdokumenter">Vedlegg II. Liste over publiserte harmoniserte standarder og europeiske tekniske bedømmelsesdokumenter</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-3052011">Forordning (EU) nr. 305/2011</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-10622013-av-30-oktober-2013">Forordning (EU) nr. 1062/2013 av 30. oktober 2013</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1572014-av-30-oktober-2013">Forordning (EU) nr. 157/2014 av 30. oktober 2013</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5742014-av-21-februar-2014">Forordning (EU) nr. 574/2014 av 21. februar 2014</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5682014-av-18-februar-2014">Forordning (EU) nr. 568/2014 av 18. februar 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-fororodning-eu-nr-12912014-av-16-juli-2014">Kommisjonsdelegert fororodning (EU) nr. 1291/2014 av 16. juli 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-forordning-eu-nr-12922014-av-17-juli-2014">Kommisjonsdelegert forordning (EU) nr. 1292/2014 av 17. juli 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-forordning-eu-nr-12932014-av-17-juli-2014">Kommisjonsdelegert forordning (EU) nr. 1293/2014 av 17. juli 2014</a></li>
+<li class="lvl3"><a href="#delegert-kommisjonsforordning-eu-2016364-av-1-juli-2016">Delegert kommisjonsforordning (EU) 2016/364 av 1. juli 2016</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-2016364av-1-juli-2015om-klassifisering-av-byggevarers-ytelse-ved-brannpavirkning-i-henhold-til-europaparlaments-og-radsforordningeu-nr-3052011">DELEGERT KOMMISJONSFORORDNING(EU) 2016/364av 1. juli 2015om klassifisering av byggevarers ytelse ved brannpåvirkning i henhold til europaparlaments- og rådsforordning(EU) nr. 305/2011</a></li>
+<li class="lvl5"><a href="#vedleggklasser-for-ytelse-ved-brannpavirkning">VEDLEGGKlasser for ytelse ved brannpåvirkning</a></li>
+<li class="lvl3"><a href="#forordning-eu-2017959">Forordning (EU) 2017/959</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171475">Forordning (EU) 2017/1475</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171227">Forordning (EU) 2017/1227</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171228">Forordning (EU) 2017/1228</a></li>
+<li class="lvl3"><a href="#forordning-eu-20172293">Forordning (EU) 2017/2293</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-05-06-750.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-12-17-1579.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om omsetning og dokumentasjon av produkter til byggverk</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-12-17-1579.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-12-17-1579 <code>forskrift/2013-12-17-1579</code></td></tr>
+<tr><th>Korttittel</th><td>Byggevareforskriften (DOK)</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-05-06-750 <code>forskrift/2026-05-06-750</code> fra 06.05.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-12-17-1579" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledende-bestemmelser">I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</a></li>
+<li class="lvl4"><a href="#2-omsetning-markedsfring-og-distribusjon-av-produkter">§ 2. Omsetning, markedsføring og distribusjon av produkter</a></li>
+<li class="lvl2"><a href="#ii-krav-til-byggevarer-som-er-ce-merket">II. Krav til byggevarer som er CE-merket</a></li>
+<li class="lvl4"><a href="#3-gjennomfring-av-byggevareforordningen-samt-delegerte-rettsakter-og-gjennomfringsrettsakter">§ 3. Gjennomføring av byggevareforordningen samt delegerte rettsakter og gjennomføringsrettsakter</a></li>
+<li class="lvl4"><a href="#3a-gjennomfring-av-delegerte-rettsakter-av-teknisk-karakter">§ 3a. Gjennomføring av delegerte rettsakter av teknisk karakter</a></li>
+<li class="lvl4"><a href="#4-sprak-i-ytelseserklring">§ 4. Språk i ytelseserklæring</a></li>
+<li class="lvl4"><a href="#5-sprak-pa-anvisninger-og-sikkerhetsinformasjon">§ 5. Språk på anvisninger og sikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#6-varekontaktpunkt-for-byggevarer">§ 6. Varekontaktpunkt for byggevarer</a></li>
+<li class="lvl4"><a href="#7-teknisk-bedmmelsesorgan">§ 7. Teknisk bedømmelsesorgan</a></li>
+<li class="lvl4"><a href="#8-tekniske-kontrollorgan-etter-byggevareforordningen">§ 8. Tekniske kontrollorgan etter byggevareforordningen</a></li>
+<li class="lvl2"><a href="#iii-krav-til-byggevarer-som-ikke-er-ce-merket">III. Krav til byggevarer som ikke er CE-merket</a></li>
+<li class="lvl4"><a href="#9-virkeomrade-forkapittel-iii">§ 9. Virkeområde forkapittel III</a></li>
+<li class="lvl4"><a href="#10-dokumentasjon-av-vesentlige-egenskaper">§ 10. Dokumentasjon av vesentlige egenskaper</a></li>
+<li class="lvl4"><a href="#11-markedsdeltakernes-plikter">§ 11. Markedsdeltakernes plikter</a></li>
+<li class="lvl4"><a href="#12-vurdering-og-verifikasjon-av-byggevarers-ytelser">§ 12. Vurdering og verifikasjon av byggevarers ytelser</a></li>
+<li class="lvl4"><a href="#13-innhold-i-dokumentasjonen">§ 13. Innhold i dokumentasjonen</a></li>
+<li class="lvl4"><a href="#14-gjensidig-godkjenning">§ 14. Gjensidig godkjenning</a></li>
+<li class="lvl2"><a href="#iv-lfteinnretning-og-varmtvannskjel">IV. Løfteinnretning og varmtvannskjel</a></li>
+<li class="lvl4"><a href="#15-virkeomrade-forkapittel-iv">§ 15. Virkeområde forkapittel IV</a></li>
+<li class="lvl4"><a href="#16-lfteinnretning">§ 16. Løfteinnretning</a></li>
+<li class="lvl4"><a href="#17-varmtvannskjel-som-fyres-med-flytende-eller-gassformig-brensel">§ 17. Varmtvannskjel som fyres med flytende eller gassformig brensel</a></li>
+<li class="lvl4"><a href="#18-ce-merking-av-lfteinnretninger-og-varmtvannskjeler">§ 18. CE-merking av løfteinnretninger og varmtvannskjeler</a></li>
+<li class="lvl4"><a href="#19-teknisk-kontrollorgan-for-lfteinnretninger-og-varmtvannskjel">§ 19. Teknisk kontrollorgan for løfteinnretninger og varmtvannskjel</a></li>
+<li class="lvl2"><a href="#v-fellesbestemmelser">V. Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#20-forbud-mot-villedende-informasjon">§ 20. Forbud mot villedende informasjon</a></li>
+<li class="lvl4"><a href="#21-tilsynsmyndighet">§ 21. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#22-tilsyn-med-produkter-til-byggverk">§ 22. Tilsyn med produkter til byggverk</a></li>
+<li class="lvl4"><a href="#23-reaksjoner-fra-tilsynsmyndigheten">§ 23. Reaksjoner fra tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#24-overtredelsesgebyr-gebyrenes-strrelse">§ 24. Overtredelsesgebyr. Gebyrenes størrelse</a></li>
+<li class="lvl4"><a href="#25-utmaling-av-overtredelsesgebyr">§ 25. Utmåling av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#26-gebyr">§ 26. Gebyr</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse-overgangsbestemmelse-og-endringer-i-andre-forskrifter">§ 27. Ikrafttredelse, overgangsbestemmelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i-liste-over-kommisjonens-vedtak-og-delegerte-rettsakter-som-fastsetter-eller-endrer-systemene-for-vurdering-og-verifikasjon-av-byggevarers-ytelser">Vedlegg I. Liste over Kommisjonens vedtak og delegerte rettsakter som fastsetter eller endrer systemene for vurdering og verifikasjon av byggevarers ytelser</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-liste-over-publiserte-harmoniserte-standarder-og-europeiske-tekniske-bedmmelsesdokumenter">Vedlegg II. Liste over publiserte harmoniserte standarder og europeiske tekniske bedømmelsesdokumenter</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-3052011">Forordning (EU) nr. 305/2011</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-10622013-av-30-oktober-2013">Forordning (EU) nr. 1062/2013 av 30. oktober 2013</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1572014-av-30-oktober-2013">Forordning (EU) nr. 157/2014 av 30. oktober 2013</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5742014-av-21-februar-2014">Forordning (EU) nr. 574/2014 av 21. februar 2014</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5682014-av-18-februar-2014">Forordning (EU) nr. 568/2014 av 18. februar 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-fororodning-eu-nr-12912014-av-16-juli-2014">Kommisjonsdelegert fororodning (EU) nr. 1291/2014 av 16. juli 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-forordning-eu-nr-12922014-av-17-juli-2014">Kommisjonsdelegert forordning (EU) nr. 1292/2014 av 17. juli 2014</a></li>
+<li class="lvl3"><a href="#kommisjonsdelegert-forordning-eu-nr-12932014-av-17-juli-2014">Kommisjonsdelegert forordning (EU) nr. 1293/2014 av 17. juli 2014</a></li>
+<li class="lvl3"><a href="#delegert-kommisjonsforordning-eu-2016364-av-1-juli-2016">Delegert kommisjonsforordning (EU) 2016/364 av 1. juli 2016</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-2016364av-1-juli-2015om-klassifisering-av-byggevarers-ytelse-ved-brannpavirkning-i-henhold-til-europaparlaments-og-radsforordningeu-nr-3052011">DELEGERT KOMMISJONSFORORDNING(EU) 2016/364av 1. juli 2015om klassifisering av byggevarers ytelse ved brannpåvirkning i henhold til europaparlaments- og rådsforordning(EU) nr. 305/2011</a></li>
+<li class="lvl5"><a href="#vedleggklasser-for-ytelse-ved-brannpavirkning">VEDLEGGKlasser for ytelse ved brannpåvirkning</a></li>
+<li class="lvl3"><a href="#forordning-eu-2017959">Forordning (EU) 2017/959</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171475">Forordning (EU) 2017/1475</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171227">Forordning (EU) 2017/1227</a></li>
+<li class="lvl3"><a href="#forordning-eu-20171228">Forordning (EU) 2017/1228</a></li>
+<li class="lvl3"><a href="#forordning-eu-20172293">Forordning (EU) 2017/2293</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-12-17-1579.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-12-17-1579.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-12-17-1579.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-12-17-1579.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-12-17-1579.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-12-17-1579.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-12-17-1579.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-12-17-1579.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-12-17-1579.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-omsetning-og-dokumentasjon-av-produkter-til-byggverk">Forskrift om omsetning og dokumentasjon av produkter til byggverk</h1>
 <h2 id="i-innledende-bestemmelser">I. Innledende bestemmelser</h2>
 <h4 id="1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</h4>
 <p>Bestemmelsene i denne forskriften gjelder for produkter som framstilles, omsettes, markedsføres og distribueres for bruk i byggverk. For heiser og sikkerhetskomponenter til heis gjelder forskrift om omsetning og dokumentasjon av heiser og sikkerhetskomponenter for heiser.</p>
-<p><em>Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</p>
 <h4 id="2-omsetning-markedsfring-og-distribusjon-av-produkter">§ 2. Omsetning, markedsføring og distribusjon av produkter</h4>
 <p>Produkter til byggverk med dokumenterte egenskaper etter denne forskriften skal fritt kunne omsettes, markedsføres og distribueres.</p>
 <h2 id="ii-krav-til-byggevarer-som-er-ce-merket">II. Krav til byggevarer som er CE-merket</h2>
@@ -94,7 +243,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Forordning (EU) nr. 157/2014 av 30. oktober 2013 om vilkår for å gjøre ytelseserklæringer for byggevarer tilgjengelig på et nettsted</li>
 <li>Forordning (EU) 2016/364 av 1. juli 2015 om klassifisering av byggevarers ytelse ved brannpåvirkning i henhold til europaparlaments- og rådsforordning (EU) nr. 305/2011 .</li>
 </ul>
-<p><em>Endret ved forskrifter 8 des 2014 nr. 1604 (i kraft 1 jan 2015), 21 sep 2016 nr. 1093 .</em></p>
+<p class="note">Endret ved forskrifter 8 des 2014 nr. 1604 (i kraft 1 jan 2015), 21 sep 2016 nr. 1093 .</p>
 <h4 id="3a-gjennomfring-av-delegerte-rettsakter-av-teknisk-karakter">§ 3a. Gjennomføring av delegerte rettsakter av teknisk karakter</h4>
 <p>EØS–avtalen vedlegg II kap. XXI</p>
 <ul>
@@ -108,7 +257,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>nr. 2w (forordning (EU) 2017/2293 ) om vilkår for klassifisering uten prøving av produkter av krysslaminert tre som er omfattet av harmonisert standard EN 16351 og produkter av laminert finér som er omfattet av harmonisert standard EN 14374 med hensyn til produktenes egenskaper ved brannpåvirkning</li>
 </ul>
 <p>gjelder som forskrift med de tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 31 aug 2015 nr. 1014 , endret ved forskrifter 18 des 2017 nr. 2196 , 26 mars 2018 nr. 519 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2015 nr. 1014 , endret ved forskrifter 18 des 2017 nr. 2196 , 26 mars 2018 nr. 519 .</p>
 <h4 id="4-sprak-i-ytelseserklring">§ 4. Språk i ytelseserklæring</h4>
 <p>Ytelseserklæringen jf. forordning (EU) nr. 305/2011 art. 7 nr. 4, skal være på norsk eller på et annet skandinavisk språk.</p>
 <h4 id="5-sprak-pa-anvisninger-og-sikkerhetsinformasjon">§ 5. Språk på anvisninger og sikkerhetsinformasjon</h4>
@@ -125,7 +274,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dette kapittelet gjelder for byggevarer som ikke er CE-merket. Kapittelet gjelder likevel ikke for byggevarer som tas ut av et byggverk, som det ikke er foretatt vesentlige endringer av, og som skal brukes på nytt i et byggverk.</p>
 <p>For byggevarer som bestilles eller lages for ett spesielt byggverk og produksjonsmetoden ikke inngår i produsentens ordinære virksomhet gjelder ikke § 10 tredje ledd og § 12 .</p>
 <p>For byggevarer uten vesentlig betydning for at byggverket oppfyller krav i byggteknisk forskrift gjelder ikke § 10 tredje ledd og § 12 .</p>
-<p><em>Endret ved forskrifter 19 juni 2017 nr. 847 (i kraft 1 juli 2017), 19 mai 2022 nr. 903 (i kraft 1 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 19 juni 2017 nr. 847 (i kraft 1 juli 2017), 19 mai 2022 nr. 903 (i kraft 1 juli 2022).</p>
 <h4 id="10-dokumentasjon-av-vesentlige-egenskaper">§ 10. Dokumentasjon av vesentlige egenskaper</h4>
 <p>Byggevarer som ikke er CE-merket skal ha slike egenskaper som, når byggevaren er forsvarlig benyttet, medvirker til at byggverk tilfredsstiller grunnleggende krav til:</p>
 <p>a. Mekanisk motstandsevne og stabilitet
@@ -141,7 +290,7 @@ g. Bærekraftig bruk av naturressurser.</p>
 <p>Produsent, dennes representant, importør og distributør, skal sørge for at vesentlige egenskaper til byggevarer er dokumentert og at tilfredsstillende produktdokumentasjon er tilgjengelig før byggevaren omsettes, markedsføres, distribueres eller brukes i et byggverk.</p>
 <p>Produsenter og importørene skal oppbevare dokumentasjonen til byggevaren 10 år etter at byggevaren er gjort tilgjengelig på markedet for første gang.</p>
 <p>En importør eller distributør som bringer i omsetning en byggevare under sitt eget navn eller varemerke eller endrer en byggevare som allerede er brakt i omsetning, på en slik måte at det kan påvirke byggevarens ytelser, skal anses som byggevareprodusenter, og ha de samme forpliktelsene som produsentene.</p>
-<p><em>Endret ved forskrift 31 aug 2015 nr. 1014 .</em></p>
+<p class="note">Endret ved forskrift 31 aug 2015 nr. 1014 .</p>
 <h4 id="12-vurdering-og-verifikasjon-av-byggevarers-ytelser">§ 12. Vurdering og verifikasjon av byggevarers ytelser</h4>
 <p>Ikke CE-merkede byggevarer underlegges systemene for vurdering og verifikasjon av byggevarers ytelser fastsatt av EU-kommisjonen for de ulike kategoriene av byggevarer med tanke på CE-merking av byggevarer.</p>
 <p>Listen over EU-Kommisjonens vedtak og delegerte rettsakter som fastsetter eller endrer systemene for vurdering og verifikasjon av byggevarers ytelser er lagt ved denne forskriften.</p>
@@ -153,7 +302,7 @@ g. Bærekraftig bruk av naturressurser.</p>
 <li>Risikoen for at feil oppstår ved produksjon av byggevaren.</li>
 </ul>
 <p>Tredjepartsorgan skal være akkreditert for de aktuelle oppgavene. Der slik akkreditering ikke er mulig skal tredjepartsorganet dokumentere tilsvarende krav til kompetanse, uavhengighet og upartiskhet.</p>
-<p><em>Endret ved forskrift 31 aug 2015 nr. 1014 .</em></p>
+<p class="note">Endret ved forskrift 31 aug 2015 nr. 1014 .</p>
 <h4 id="13-innhold-i-dokumentasjonen">§ 13. Innhold i dokumentasjonen</h4>
 <p>Dokumentasjonen skal inneholde identifikasjon av produsent og importør, produsentens og importørens kontaktdetaljer, byggevarens egenskaper, hvilke tekniske spesifikasjoner som er lagt til grunn, og der det er relevant, navnet på tredjepartsorgan som har utført oppgavene beskrevet i § 12 første ledd, hvilke oppgaver som ble utført og når disse ble utført.</p>
 <p>Byggevaren skal ledsages av nødvendige anvisninger og sikkerhetsinformasjon. Produktdokumentasjonen, samt anvisninger og sikkerhetsinformasjon, skal være på norsk eller et annet skandinavisk språk.</p>
@@ -167,7 +316,7 @@ g. Bærekraftig bruk av naturressurser.</p>
 <p>Bestemmelsen gjelder for permanente løfteinnretninger som løfteplattformer, rulletrapper, rullende fortau og trappeheiser i byggverk med unntak av løfteinnretninger som del av en produksjonsprosess. Følgende krav gjelder:</p>
 <p>a. Løfteplattformer, rulletrapper, rullende fortau og trappeheiser skal tilfredsstille Maskindirektivet.
 b. Som grunnlag for EU-typegodkjenning skal samsvarsvurdering utføres av teknisk kontrollorgan. Produktet skal vurderes mot tekniske spesifikasjoner og mot relevante sikkerhetskrav i direktivet.</p>
-<p><em>Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</p>
 <h4 id="17-varmtvannskjel-som-fyres-med-flytende-eller-gassformig-brensel">§ 17. Varmtvannskjel som fyres med flytende eller gassformig brensel</h4>
 <p>Bestemmelsen gjelder for varmtvannskjel som fyres med flytende eller gassformig brensel og som har en effekt på mellom 4 kW og 400 kW innfyrt effekt. Bestemmelsen gjelder ikke for kjeler som kan bruke forskjellige typer brensel.</p>
 <p>Varmtvannskjel skal ha samsvarserklæring eller EU-typegodkjenning som omfatter kjelens energieffektivitet. Typegodkjenningen skal være utført av et teknisk kontrollorgan og vurderes direkte mot de sikkerhetskrav som er beskrevet i direktiv som gjelder for det aktuelle produktet.</p>
@@ -188,7 +337,7 @@ c. de to siste sifrene i det året da merkingen ble påført og om nødvendig pr
 d. deklarerte produktegenskaper, klassifisering og lignende som angitt i direktiv for produktet.</p>
 <p>De ulike delene som CE-merket består av, skal så langt som mulig ha samme høyde og ikke være under 5 mm.</p>
 <p>Opplysninger som er nødvendige ut fra et sikkerhetssynspunkt skal være på norsk.</p>
-<p><em>Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 13 april 2016 nr. 373 (i kraft 20 april 2016).</p>
 <h4 id="19-teknisk-kontrollorgan-for-lfteinnretninger-og-varmtvannskjel">§ 19. Teknisk kontrollorgan for løfteinnretninger og varmtvannskjel</h4>
 <p>Et teknisk kontrollorgan skal attestere at produkter til byggverk som omfattes av dette kapittel, er i samsvar med den gitte tekniske spesifikasjon.</p>
 <p>Tekniske kontrollorgan skal utpekes at Direktoratet for byggkvalitet etter reglene i lov 16. juni 1994 nr. 20 om tekniske kontrollorgan.</p>
@@ -204,7 +353,7 @@ d. deklarerte produktegenskaper, klassifisering og lignende som angitt i direkti
 <p>Tilsynsmyndighet skal gis adgang til produkt, rom, areal eller annet område som anses nødvendig for å kunne utføre vurdering av produktet.</p>
 <p>Ved begrunnet mistanke om at det omsettes, markedsføres, distribueres eller brukes produkt som ikke har tilfredsstillende produktdokumentasjon, herunder ufullstendig eller uriktig dokumentasjon eller hvor produktet kan medføre fare for sikkerhet, helse eller miljø, skal bygningsmyndighet og annen offentlig myndighet som behandler tiltak etter sektorlovgivning som omfattes av plan- og bygningsloven § 29-7 , melde forholdet til tilsynsmyndigheten.</p>
 <p>Dersom produsent eller dennes representant trekker et produkt som ikke har tilfredsstillende produktdokumentasjon, herunder ufullstendig eller uriktig dokumentasjon eller hvor produktet kan medføre fare for sikkerhet, helse og miljø, tilbake fra markedet, skal det sendes melding til tilsynsmyndigheten.</p>
-<p><em>Endret ved forskrift 31 aug 2015 nr. 1014 .</em></p>
+<p class="note">Endret ved forskrift 31 aug 2015 nr. 1014 .</p>
 <h4 id="23-reaksjoner-fra-tilsynsmyndigheten">§ 23. Reaksjoner fra tilsynsmyndigheten</h4>
 <p>Ved brudd på reglene i denne forskriftens kapittel II , brukes virkemidlene i forordning (EU) nr. 305/2011 kap. XIII.</p>
 <p>Ved brudd på reglene i denne forskriftens kapittel III og IV, brukes følgende virkemidler:</p>
@@ -212,11 +361,11 @@ d. deklarerte produktegenskaper, klassifisering og lignende som angitt i direkti
 b. Tilsynsmyndigheten kan gi pålegg om å kalle tilbake produkt som beskrevet i første ledd fra markedet eller kan kreve andre tiltak for å sikre at produktet bringes i overensstemmelse med forskriften.
 c. I tilfeller der vanlig eller forventet bruk av produkt til byggverk kan utgjøre en alvorlig risiko for sikkerhet, helse eller miljø, kan tilsynsmyndigheten midlertidig stanse omsetning, markedsføring, distribusjon og bruk av produkter for å utføre nødvendige undersøkelser og sikkerhetsvurderinger.</p>
 <p>Tilsynsmyndigheten kan ilegge tvangsmulkt etter plan- og bygningsloven § 29-7b dersom pålegg etter første eller annet ledd i denne paragrafen ikke etterkommes.</p>
-<p><em>Endret ved forskrift 8 des 2014 nr. 1604 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 8 des 2014 nr. 1604 (i kraft 1 jan 2015).</p>
 <h4 id="24-overtredelsesgebyr-gebyrenes-strrelse">§ 24. Overtredelsesgebyr. Gebyrenes størrelse</h4>
 <p>Tilsynsmyndigheten kan ilegge overtredelsesgebyr etter plan- og bygningsloven § 29-7c inntil angitte beløpsgrenser for forsettlige eller uaktsomme overtredelser av denne forskriften.</p>
 <p>Tilsynsmyndigheten kan ilegge overtredelsesgebyr inntil kr 50 000 for mindre avvik og inntil kr 100 000 for vesentlige avvik.</p>
-<p><em>Endret ved forskrift 8 des 2014 nr. 1604 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 8 des 2014 nr. 1604 (i kraft 1 jan 2015).</p>
 <h4 id="25-utmaling-av-overtredelsesgebyr">§ 25. Utmåling av overtredelsesgebyr</h4>
 <p>Ved vurdering av overtredelsesgebyrets størrelse kan tilsynsmyndigheten legge vekt på:</p>
 <p>a. Hvor alvorlig overtredelsen er
@@ -325,6 +474,8 @@ f. Om overtredelsesgebyret vil virke urimelig ut fra overtrederens økonomiske s
 <h3 id="forordning-eu-20172293">Forordning (EU) 2017/2293</h3>
 <p>For å lese forordning (EU) 2017/2293 se her: (pdf)</p>
 <p>Tilføyd ved forskrift 26 mars 2018 nr. 519 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

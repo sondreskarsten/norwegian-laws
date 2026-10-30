@@ -19,80 +19,187 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1984-11-02-1809.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om nukleære materialer og anlegg" href="../feeds/forskrift-1984-11-02-1809.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om nukleære materialer og anlegg</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1984-11-02-1809</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1984-11-02</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-11-21-2307</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1984-11-02-1809" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledning">I. Innledning</a></li>
+<li class="lvl4"><a href="#1-innledende-bestemmelser">§ 1. Innledende bestemmelser.</a></li>
+<li class="lvl4"><a href="#2-taushetsplikt">§ 2. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#ii-definisjoner">II. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-nuklert-materiale">§ 3. Nukleært materiale.</a></li>
+<li class="lvl4"><a href="#4-autorisert-person">§ 4. Autorisert person.</a></li>
+<li class="lvl4"><a href="#5-vakt">§ 5. Vakt.</a></li>
+<li class="lvl4"><a href="#6-kontrollert-omrade">§ 6. Kontrollert område.</a></li>
+<li class="lvl4"><a href="#7-beskyttet-omrade">§ 7. Beskyttet område.</a></li>
+<li class="lvl4"><a href="#8-vitalt-omrade">§ 8. Vitalt område.</a></li>
+<li class="lvl4"><a href="#9-anleggsinnehaver">§ 9. Anleggsinnehaver.</a></li>
+<li class="lvl4"><a href="#10-konvensjonen">§ 10. Konvensjonen.</a></li>
+<li class="lvl4"><a href="#10a-designbasistrusselen">§ 10a. Designbasistrusselen</a></li>
+<li class="lvl2"><a href="#iii-klasseinndeling-av-nuklert-materiale">III. Klasseinndeling av nukleært materiale</a></li>
+<li class="lvl4"><a href="#11-klasseinndeling">§ 11. Klasseinndeling.</a></li>
+<li class="lvl2"><a href="#iv-fysisk-beskyttelse">IV. Fysisk beskyttelse</a></li>
+<li class="lvl4"><a href="#12-generelle-tiltak">§ 12. Generelle tiltak</a></li>
+<li class="lvl4"><a href="#13-beredskapsplan">§ 13. Beredskapsplan.</a></li>
+<li class="lvl2"><a href="#v-beskyttelseskrav-for-lagret-nuklert-materiale-og-nuklere-anlegg">V. Beskyttelseskrav for lagret nukleært materiale og nukleære anlegg</a></li>
+<li class="lvl4"><a href="#14-klasseomrader">§ 14. Klasseområder.</a></li>
+<li class="lvl4"><a href="#15-adgangskontroll">§ 15. Adgangskontroll.</a></li>
+<li class="lvl4"><a href="#16-beskyttelses-og-alarmsystemer">§ 16. Beskyttelses- og alarmsystemer.</a></li>
+<li class="lvl2"><a href="#vi-fysisk-beskyttelse-under-transport">VI. Fysisk beskyttelse under transport</a></li>
+<li class="lvl4"><a href="#17-grunnleggende-regler-for-transport-av-nuklert-materiale-i-klasse-i-ii-og-iii">§ 17. Grunnleggende regler for transport av nukleært materiale i klasse I, II og III.</a></li>
+<li class="lvl4"><a href="#18-srlige-bestemmelser-i-forbindelse-med-transport-av-nuklert-materiale-i-klasse-i">§ 18. Særlige bestemmelser i forbindelse med transport av nukleært materiale i klasse I.</a></li>
+<li class="lvl4"><a href="#19-forholdet-til-andre-forskrifter">§ 19. Forholdet til andre forskrifter</a></li>
+<li class="lvl4"><a href="#19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#vii-ikrafttredelse">VII. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl2"><a href="#vedlegg-1-klassifisering-av-nuklert-materiale">Vedlegg 1. Klassifisering av nukleært materiale</a></li>
+<li class="lvl2"><a href="#vedlegg-2-nivaer-for-fysisk-beskyttelse-som-skal-anvendes-ved-internasjonal-transport-av-nuklert-materiale">VEDLEGG 2. Nivåer for fysisk beskyttelse som skal anvendes ved internasjonal transport av nukleært materiale</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-11-21-2307.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1984-11-02-1809.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fysisk beskyttelse av nukleært materiale og nukleære anlegg</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1984-11-02-1809.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1984-11-02-1809 <code>forskrift/1984-11-02-1809</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om nukleære materialer og anlegg</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>02.11.1984</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-11-21-2307 <code>forskrift/2025-11-21-2307</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1984-11-02-1809" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledning">I. Innledning</a></li>
+<li class="lvl4"><a href="#1-innledende-bestemmelser">§ 1. Innledende bestemmelser.</a></li>
+<li class="lvl4"><a href="#2-taushetsplikt">§ 2. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#ii-definisjoner">II. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-nuklert-materiale">§ 3. Nukleært materiale.</a></li>
+<li class="lvl4"><a href="#4-autorisert-person">§ 4. Autorisert person.</a></li>
+<li class="lvl4"><a href="#5-vakt">§ 5. Vakt.</a></li>
+<li class="lvl4"><a href="#6-kontrollert-omrade">§ 6. Kontrollert område.</a></li>
+<li class="lvl4"><a href="#7-beskyttet-omrade">§ 7. Beskyttet område.</a></li>
+<li class="lvl4"><a href="#8-vitalt-omrade">§ 8. Vitalt område.</a></li>
+<li class="lvl4"><a href="#9-anleggsinnehaver">§ 9. Anleggsinnehaver.</a></li>
+<li class="lvl4"><a href="#10-konvensjonen">§ 10. Konvensjonen.</a></li>
+<li class="lvl4"><a href="#10a-designbasistrusselen">§ 10a. Designbasistrusselen</a></li>
+<li class="lvl2"><a href="#iii-klasseinndeling-av-nuklert-materiale">III. Klasseinndeling av nukleært materiale</a></li>
+<li class="lvl4"><a href="#11-klasseinndeling">§ 11. Klasseinndeling.</a></li>
+<li class="lvl2"><a href="#iv-fysisk-beskyttelse">IV. Fysisk beskyttelse</a></li>
+<li class="lvl4"><a href="#12-generelle-tiltak">§ 12. Generelle tiltak</a></li>
+<li class="lvl4"><a href="#13-beredskapsplan">§ 13. Beredskapsplan.</a></li>
+<li class="lvl2"><a href="#v-beskyttelseskrav-for-lagret-nuklert-materiale-og-nuklere-anlegg">V. Beskyttelseskrav for lagret nukleært materiale og nukleære anlegg</a></li>
+<li class="lvl4"><a href="#14-klasseomrader">§ 14. Klasseområder.</a></li>
+<li class="lvl4"><a href="#15-adgangskontroll">§ 15. Adgangskontroll.</a></li>
+<li class="lvl4"><a href="#16-beskyttelses-og-alarmsystemer">§ 16. Beskyttelses- og alarmsystemer.</a></li>
+<li class="lvl2"><a href="#vi-fysisk-beskyttelse-under-transport">VI. Fysisk beskyttelse under transport</a></li>
+<li class="lvl4"><a href="#17-grunnleggende-regler-for-transport-av-nuklert-materiale-i-klasse-i-ii-og-iii">§ 17. Grunnleggende regler for transport av nukleært materiale i klasse I, II og III.</a></li>
+<li class="lvl4"><a href="#18-srlige-bestemmelser-i-forbindelse-med-transport-av-nuklert-materiale-i-klasse-i">§ 18. Særlige bestemmelser i forbindelse med transport av nukleært materiale i klasse I.</a></li>
+<li class="lvl4"><a href="#19-forholdet-til-andre-forskrifter">§ 19. Forholdet til andre forskrifter</a></li>
+<li class="lvl4"><a href="#19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#vii-ikrafttredelse">VII. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl2"><a href="#vedlegg-1-klassifisering-av-nuklert-materiale">Vedlegg 1. Klassifisering av nukleært materiale</a></li>
+<li class="lvl2"><a href="#vedlegg-2-nivaer-for-fysisk-beskyttelse-som-skal-anvendes-ved-internasjonal-transport-av-nuklert-materiale">VEDLEGG 2. Nivåer for fysisk beskyttelse som skal anvendes ved internasjonal transport av nukleært materiale</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1984-11-02-1809.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1984-11-02-1809.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1984-11-02-1809.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1984-11-02-1809.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1984-11-02-1809.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1984-11-02-1809.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1984-11-02-1809.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1984-11-02-1809.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1984-11-02-1809.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fysisk-beskyttelse-av-nuklert-materiale-og-nuklere-anlegg">Forskrift om fysisk beskyttelse av nukleært materiale og nukleære anlegg</h1>
 <h2 id="i-innledning">I. Innledning</h2>
 <h4 id="1-innledende-bestemmelser">§ 1. Innledende bestemmelser.</h4>
 <p>Hensikten med fysisk beskyttelse av nukleært materiale og nukleære anlegg er å legge forholdene til rette for å minimalisere mulighetene for tyveri av nukleært materiale og sabotasje mot nukleære anlegg. Den fysiske beskyttelsen skal også lette gjenfinningen av stjålet materiale.</p>
 <p>Disse forskrifter angir rammen for anleggsinnehaverens og myndighetenes forpliktelser med hensyn til fysisk beskyttelse.</p>
 <p>Nukleært materiale og nukleære anlegg som faller inn under denne forskrift, er å anse som skjermingsobjekter. Lov 1. juni 2018 nr. 24 om nasjonal sikkerhet og forskrifter gitt med hjemmel i denne kommer til anvendelse for rettsubjekter omfattet av denne forskriften. På grunn av objektenes særlige karakter skal Direktoratet for strålevern og atomsikkerhet ha den koordinerende rolle ved tilsyn og myndighetsutøvelse overfor skjermingsverdige objekter omfattet av lov 12. mai 1972 nr. 28 om atomenergivirksomhet .</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h4 id="2-taushetsplikt">§ 2. Taushetsplikt</h4>
 <p>Bestemmelsene i lov 12. mai 1972 nr. 28 om atomenergivirksomhet § 53 og lov 1. juni 2018 nr. 24 om nasjonal sikkerhet § 5-4 regulerer taushetsplikt etter denne forskrift.</p>
-<p><em>Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h2 id="ii-definisjoner">II. Definisjoner</h2>
 <h4 id="3-nuklert-materiale">§ 3. Nukleært materiale.</h4>
 <p>Plutonium, uran og thorium samt ethvert materiale som inneholder ett eller flere av disse stoffer. Plutonium som inneholder mer enn 80 % av isotopen Pu-238 samt malmer og forbrukerartikler regnes ikke som nukleært materiale.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h4 id="4-autorisert-person">§ 4. Autorisert person.</h4>
 <p>Enhver person som er bemyndiget av anleggsinnehaveren eller av Direktoratet for strålevern og atomsikkerhet til å oppholde seg i områder der nukleært materiale benytttes, bearbeides eller lagres, samt til å delta under planlegging og utførelse av transport av nukleært materiale.</p>
-<p><em>Endret ved forskrift 20 des 2018 nr. 2067 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 20 des 2018 nr. 2067 (i kraft 1 jan 2019).</p>
 <h4 id="5-vakt">§ 5. Vakt.</h4>
 <p>En person som ivaretar adgangskontroll og overvåker aktiviteter på eller omkring et anlegg der nukleært materiale benyttes, bearbeides eller lagres, eller ved transport av nukleært materiale.</p>
 <h4 id="6-kontrollert-omrade">§ 6. Kontrollert område.</h4>
@@ -105,17 +212,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Den som i henhold til lov om atomenergivirksomhet § 4 har konsesjon til å drive atomanlegg.</p>
 <h4 id="10-konvensjonen">§ 10. Konvensjonen.</h4>
 <p>Konvensjon om fysisk beskyttelse av nukleært materiale av 3. mars 1980 endret ved protokoll av 8. juli 2005 (ikke i kraft).</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h4 id="10a-designbasistrusselen">§ 10a. Designbasistrusselen</h4>
 <p>Evner og egenskaper ved en mulig intern og/eller ekstern fiende, som kan forsøke sabotasje mot eller uautorisert fjerning av nukleært materiale og/eller nukleære anlegg og som den fysiske beskyttelse er vurdert og designet for å motstå.</p>
-<p><em>Tilføyd ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</em></p>
+<p class="note">Tilføyd ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h2 id="iii-klasseinndeling-av-nuklert-materiale">III. Klasseinndeling av nukleært materiale</h2>
 <p>Overskriften endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h4 id="11-klasseinndeling">§ 11. Klasseinndeling.</h4>
 <p>Nukleært materiale klassifiseres som angitt i vedlegg 1 til disse forskrifter på basis av den potensielle risiko som tyveri, sabotasje eller lignende kan medføre.</p>
 <p>Klassifikasjonen er basert på type og mengde av nukleært materiale. For reaktoranlegg fastsettes beskyttelsestiltakenes omfang på basis av en vurdering av anleggets sårbarhet overfor sabotasje og den strålingsrisiko som sabotasje vil kunne medføre.</p>
 <p>Disse forskrifter gjelder bare for mengder av nukleært materiale som overstiger minstemengdene i klasse III i vedlegg 1.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h2 id="iv-fysisk-beskyttelse">IV. Fysisk beskyttelse</h2>
 <h4 id="12-generelle-tiltak">§ 12. Generelle tiltak</h4>
 <p>Direktoratet for strålevern og atomsikkerhet skal, på bakgrunn av en trusselvurdering utarbeidet av Politiets sikkerhetstjeneste, utarbeide en designbasistrussel. Designbasistrusselen skal holdes oppdatert basert på endringer i politiets trusselvurderinger og det generelle trusselbildet. Designbasistrusselen skal graderes etter sitt innhold, men minimum BEGRENSET i henhold til lov 1. juni 2018 nr. 24 om nasjonal sikkerhet § 5-3 første ledd bokstav d .</p>
@@ -123,12 +230,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Anleggsinnehaveren skal utarbeide en sikkerhetsrapport vedrørende den fysiske beskyttelse. Denne rapporten skal graderes etter sitt innhold, men minimum BEGRENSET i henhold til lov 1. juni 2018 nr. 24 om nasjonal sikkerhet § 5-3 første ledd bokstav d . Rapporten skal godkjennes av Direktoratet for strålevern og atomsikkerhet. Ved utarbeidelse av rapporten skal det også tas hensyn til andre sikkerhetskrav så som strålevern og kritikalitetsfare. Den skal også holdes à jour ved nyanlegg, forandringer av anlegg eller når det erverves nukleært materiale som krever strengere sikkerhetstiltak.</p>
 <p>Anleggsinnehaveren skal utpeke èn eller flere personer som skal ha ansvar for alle forhold som har betydning for den fysiske beskyttelsen av lagret materiale, anlegg og materiale under transport.</p>
 <p>Anleggsinnehaveren skal jevnlig kontrollere at systemet for fysisk beskyttelse virker.</p>
-<p><em>Endret ved forskrifter 21 des 2001 nr. 1484 (i kraft 1 jan 2002), 18 feb 2005 nr. 167 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2001 nr. 1484 (i kraft 1 jan 2002), 18 feb 2005 nr. 167 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h4 id="13-beredskapsplan">§ 13. Beredskapsplan.</h4>
 <p>En beredskapsplan skal utarbeides i samråd med politiet og den skal være i samsvar med de reelle myndighetsforhold mellom de involverte instanser. Nødvendig verne-/måleutstyr som anleggsinnehaveren kan stille til politiets disposisjon, skal tas med i planen, og den skal også omfatte nødvendige øvelsesaktiviteter. Beredskapsplanen for fysisk beskyttelse skal også inkludere transport av nukleært materiale. Som nevnt under § 12 skal anleggsinnehaveren utarbeide en sikkerhetsrapport. Denne skal legge forholdene til rette for effektiv innsats av så vel anleggets stab som politiet ved tyveri av nukleære materialer, sabotasje eller trussel om dette. Beredskapsplanen skal graderes etter sitt innhold, men minimum BEGRENSET i henhold til lov 1. juni 2018 nr. 24 om nasjonal sikkerhet § 5-3 første ledd bokstav d .</p>
 <p>Ved tyveri og sabotasje eller mistanke om, forsøk på eller trussel om slike handlinger plikter anleggsinnehaveren øyeblikkelig å varsle det lokale politi og Direktoratet for strålevern og atomsikkerhet. Direktoratet skal varsle Helse- og omsorgsdepartementet, Justis- og beredskapsdepartementet, Utenriksdepartementet, Nasjonal sikkerhetsmyndighet og Kriseutvalget for atomberedskap.</p>
 <p>Justis- og beredskapsdepartementet og Utenriksdepartementet skal på sin side varsle utenlandske myndigheter og internasjonale organisasjoner i henhold til forpliktelser spesifisert i artikkel 5 i Konvensjonen.</p>
-<p><em>Endret ved forskrifter 21 des 2001 nr. 1484 (i kraft 1 jan 2002), 18 feb 2005 nr. 167 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2001 nr. 1484 (i kraft 1 jan 2002), 18 feb 2005 nr. 167 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h2 id="v-beskyttelseskrav-for-lagret-nuklert-materiale-og-nuklere-anlegg">V. Beskyttelseskrav for lagret nukleært materiale og nukleære anlegg</h2>
 <p>Overskriften endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008).</p>
 <h4 id="14-klasseomrader">§ 14. Klasseområder.</h4>
@@ -208,7 +315,7 @@ k. Internasjonale transporter
   Ved eksport og import av nukleært materiale skal anleggsinnehaveren i samarbeide med Direktoratet for strålevern og atomsikkerhet treffe avtale med eksport-, import- eller transittland om på hvilket sted ansvaret for fysisk beskyttelse går over fra det ene lands myndighet til det andre.
   Dersom kontrakt eller avtale om en internasjonal transport forutsetter levering i et kjøretøy fra utlandet, skal anleggsinnehaveren sørge for at kontrakten eller avtalen inneholder bestemmelser som skal sikre at anleggsinnehaveren i tide får de opplysninger som er av betydning for de tiltak for fysisk beskyttelse som skal treffes i Norge.
   Anleggsinnehaverens plikter med hensyn til fysisk beskyttelse under internasjonale transporter skal spesifiseres i Direktoratet for strålevern og atomsikkerhets forhåndsgodkjennelse (ref. § 17c). I forbindelse med fysisk beskyttelse under transport i de nordiske land kan Direktoratet kreve at anleggsinnehaveren gjennomfører tiltak som avviker fra dem som er spesifisert i disse forskrifter.</p>
-<p><em>Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h4 id="18-srlige-bestemmelser-i-forbindelse-med-transport-av-nuklert-materiale-i-klasse-i">§ 18. Særlige bestemmelser i forbindelse med transport av nukleært materiale i klasse I.</h4>
 <p><em>Krav til transportkjøretøy og eskorte Transportkjøretøyet skal være konstruert og utstyrt med henblikk på å motstå angrep og skal være forsynt med to uavhengige, toveis kommunikasjonssystemer. Det skal være bemannet med minst 2 personer og være utstyrt slik at det ikke kan benyttes av uvedkommende. Transporten skal ha politieskorte hvis styrke skal avgjøres av politiet i samarbeid med Direktoratet for strålevern og atomsikkerhet for den enkelte transport. Kjøretøyets posisjon skal meddeles den ytre transportledelse flere ganger i timen. Jernbane-, skips- og lufttransport Ved jernbanetransport skal forsendelsen foregå i godstog eller i separat vogn i persontog. Forsendelsen skal ha politieskorte hvis styrke skal avgjøres av politiet i samarbeid med Direktoratet for strålevern og atomsikkerhet for den enkelte transport. Den ledsagende vakt skal være utstyrt med et toveis kommunikasjonssystem for kontakt med den ytre transportledelse. Ved skipstransport skal forsendelsen ha politieskorte hvis styrke skal avgjøres av politiet i samarbeid med Direktoratet for strålevern og atomsikkerhet for den enkelte transport. Forsendelsen skal foregå i et avlåst og forseglet rom eller i en låst og forseglet container. Lås og segl skal kontrolleres regelmessig under transporten av ledsagende politieskorte. Flytransport skal foregå med spesielt chartrede lastefly eller spesielt valgte lasterutefly. Forsendelsen skal ha politieskorte hvis styrke skal avgjøres av politiet i samarbeide med Direktoratet for strålevern og atomsikkerhet for den enkelte transport.
 Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 2008), 20 des 2018 nr. 2067 (i kraft 1 jan 2019).</em></p>
@@ -217,20 +324,22 @@ Endret ved forskrifter 9 mai 2003 nr. 569 , 29 juni 2007 nr. 902 (i kraft 1 jan 
 <ul>
 <li>Forskrift 1. desember 2006 nr. 1331 om transport av farlig gods på veg og jernbane , forskrift 1. juli 2014 nr. 944 om farlig last på norske skip og forskrift 11. januar 2003 nr. 41 om transport av gods i luftfartøy (BSL D 1-7) § 8 og forskrift 16. desember 2016 nr. 1659 om strålevern og bruk av stråling .</li>
 </ul>
-<p><em>Tilføyd ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008), endret ved forskrifter 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008), endret ved forskrifter 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h4 id="19a-overtredelsesgebyr">§ 19a. Overtredelsesgebyr</h4>
 <p>Direktoratet for strålevern og atomsikkerhet kan ilegge den som forsettlig eller uaktsomt overtrer bestemmelsene i §§ 12 til 18 i denne forskriften, overtredelsesgebyr. Nærmere regler om ileggelse og utmåling av overtredelsesgebyr følger av forskrift 2. november 2025 om ileggelse og utmåling av overtredelsesgebyr etter strålevernloven .</p>
-<p><em>Tilføyd ved forskrift 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 21 nov 2025 nr. 2307 (i kraft 1 jan 2026).</p>
 <h2 id="vii-ikrafttredelse">VII. Ikrafttredelse</h2>
 <h4 id="20">§ 20</h4>
 <p>Forskriftene trer i kraft straks.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008, tidligere § 19).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008, tidligere § 19).</p>
 <h2 id="vedlegg-1-klassifisering-av-nuklert-materiale">Vedlegg 1. Klassifisering av nukleært materiale</h2>
 <p>Klasse Materiale Form I II III c 1. Plutonium a Ubestrålt b 2 kg eller mer Mindre en 2 kg, men mer enn 500 g 500 g eller mindre, men mer enn 15 g 2. Uran-235 Ubestrålt b -uran anriket til 20% U-235 eller mer 5 kg eller mer Mindre enn 5 kg, men mer enn 1 kg 1 kg eller mindre, men mer enn 15 g -uran anriket til 10% U-235, men mindre enn 20% 10 kg eller mer Mindre enn 10 kg, men mer enn 1 kg -uran anriket over naturlig nivå, men mindre enn 10% U-235 10 kg eller mer 3. Uran-233 Ubestrålt b 2 kg eller mer Mindre enn 2 kg, men mer enn 500 g 500 g eller mindre, men mer enn 15 g 4. Bestrålt brensel Utarmet eller naturlig uran eller lavanriket brensel (mindre enn 10% spaltbart innhold) d e</p>
 <p>a All plutonium unntatt plutonium som inneholder mer enn 80 % plutonium-238. b Materiale som ikke er bestrålt i en reaktor, eller materiale som er bestrålt i en reaktor, men med et strålingsnivå som er likt eller mindre enn 1 gray/time (100 rad/time) på 1 m avstand uten skjerming. c Mengder som ikke faller inn under klasse III samt naturlig uran, bør beskyttes i samsvar med streng administrasjonspraksis. d Selv om dette beskyttelsesnivå anbefales, skal det være anledning for stater, etter vurdering av de nærmere omstendigheter, å fastsette et annet klassenivå for fysisk beskyttelse. e Annet brensel som i kraft av sitt opprinnelige, spaltbare materialinnhold klassifiseres i klasse I og II før bestråling, kan bli gradert ett klassenivå lavere når strålingsnivået fra brenselet overstiger 1 gray/time (100 rad/time) på en meters avstand uten skjerming.</p>
 <h2 id="vedlegg-2-nivaer-for-fysisk-beskyttelse-som-skal-anvendes-ved-internasjonal-transport-av-nuklert-materiale">VEDLEGG 2. Nivåer for fysisk beskyttelse som skal anvendes ved internasjonal transport av nukleært materiale</h2>
 <p>Nivåer for fysisk beskyttelse av nukleært materiale under lagring i forbindelse med internasjonal nukleær transport omfatter, for klasse III materialer: Lagring innenfor et område hvor adgangen er kontrollert; for klasse II materialer: Lagring innenfor et område under konstant overvåking av vakter eller elektroniske innretninger, omgitt av en fysisk barriere med et begrenset antall innganger under hensiktsmessig kontroll eller ethvert område med et tilsvarende nivå for fysisk beskyttelse; for klasse I materiale: Lagring innenfor et beskyttet område som definert for klasse II ovenfor, hvor adgangen dessuten er begrenset til personer hvis pålitelighet er kontrollert. Området skal dessuten overvåkes av vakter som står i nær forbindelse med hensiktsmessige sikkerhetsstyrker. Bestemte tiltak som er truffet i denne sammenheng, skal ha som sitt formål å oppdage og forebygge ethvert angrep på, ikke-autorisert adgang til eller ikke-autorisert fjerning av materiale. Nivåer for fysisk beskyttelse av nukleært materiale under internasjonal transport omfatter: For materialer i klasse II og III skal det ved transport treffes særlige tiltak, herunder forhåndsordninger mellom sender, mottaker og fraktfører, og forhåndsavtale mellom fysiske eller juridiske personer underlagt eksport- og importstatenes jurisdiksjon og bestemmelser, som fastsetter tid, sted og fremgangsmåter for overdragelse av transportansvaret; For materialer i klasse I skal det ved transport treffes slike særlige tiltak som spesifisert ovenfor for transport av klasse II og III materialer, og i tillegg skal slike materialer være kontinuerlig overvåket av eskortepersonell under betingelser som sikrer god forbindelse med hensiktsmessige sikkerhetsstyrker; For naturlig uran unntatt i form av malm eller malmresiduum, skal transportsikringen for mengder som overstiger 500 kilogram uran omfatte forhåndsmelding om forsendelsen som spesifiserer transportmiddel og ventet ankomsttid samt bekreftelse på mottakelse av forsendelsen.</p>
 <p>Endret ved forskrift 29 juni 2007 nr. 902 (i kraft 1 jan 2008, tidligere vedlegg 3).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

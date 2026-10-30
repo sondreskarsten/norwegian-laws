@@ -19,64 +19,233 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-10-24-1413.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i NEM" href="../feeds/forskrift-2019-10-24-1413.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>NEM</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2019-10-24-1413</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2019-11-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-11-2496</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2019-10-24-1413" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-reguleringsmyndighet-for-energi">Kapittel 2. Reguleringsmyndighet for energi</a></li>
+<li class="lvl4"><a href="#2-1-utpeking-og-organisering">§ 2-1. Utpeking og organisering</a></li>
+<li class="lvl4"><a href="#2-2-saksbehandling">§ 2-2. Saksbehandling</a></li>
+<li class="lvl4"><a href="#2-3-rapportering">§ 2-3. Rapportering</a></li>
+<li class="lvl4"><a href="#2-4-samarbeid-med-andre-myndigheter-mm">§ 2-4. Samarbeid med andre myndigheter m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-3-leverings-og-tilknytningsplikt">Kapittel 3. Leverings- og tilknytningsplikt</a></li>
+<li class="lvl4"><a href="#3-1-omradekonsesjonrens-leveringsplikt">§ 3-1. Områdekonsesjonærens leveringsplikt</a></li>
+<li class="lvl4"><a href="#3-2-anleggskonsesjonrens-plikt-til-a-tilknytte-uttakskunder">§ 3-2. Anleggskonsesjonærens plikt til å tilknytte uttakskunder</a></li>
+<li class="lvl4"><a href="#3-2a-plikt-til-a-holde-av-kapasitet-til-uttakskunder">§ 3-2a. Plikt til å holde av kapasitet til uttakskunder</a></li>
+<li class="lvl4"><a href="#3-3-plikt-til-a-tilknytte-anlegg-for-produksjon-av-elektrisk-energi">§ 3-3. Plikt til å tilknytte anlegg for produksjon av elektrisk energi</a></li>
+<li class="lvl4"><a href="#3-4-plikt-til-a-foreta-modenhetsvurdering">§ 3-4. Plikt til å foreta modenhetsvurdering</a></li>
+<li class="lvl4"><a href="#3-5-overgangsregel-for-modenhetsvurdering">§ 3-5. Overgangsregel for modenhetsvurdering</a></li>
+<li class="lvl4"><a href="#3-6-krav-til-registrering-og-rapportering-av-tidsbruk-for-tilknytninger">§ 3-6. Krav til registrering og rapportering av tidsbruk for tilknytninger</a></li>
+<li class="lvl4"><a href="#3-7-prinsipper-for-nettselskapenes-driftsmessig-forsvarlighetsvurderinger">§ 3-7. Prinsipper for nettselskapenes driftsmessig forsvarlighetsvurderinger</a></li>
+<li class="lvl4"><a href="#3-8-rett-til-a-nedjustere-maksimalt-tillatt-effektuttak">§ 3-8. Rett til å nedjustere maksimalt tillatt effektuttak</a></li>
+<li class="lvl2"><a href="#kapittel-4-omsetning-av-elektrisk-energi">Kapittel 4. Omsetning av elektrisk energi</a></li>
+<li class="lvl4"><a href="#4-1-formalet-med-omsetningskonsesjon">§ 4-1. Formålet med omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-2-virkeomradet-for-omsetningskonsesjon">§ 4-2. Virkeområdet for omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-3-innholdet-i-sknader-om-omsetningskonsesjon">§ 4-3. Innholdet i søknader om omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-4-intern-organisering-og-regnskap">§ 4-4. Intern organisering og regnskap</a></li>
+<li class="lvl4"><a href="#4-5-inntekter-ved-salg-av-nettjenester">§ 4-5. Inntekter ved salg av nettjenester</a></li>
+<li class="lvl4"><a href="#4-6-markedsadgang-og-tariffer">§ 4-6. Markedsadgang og tariffer</a></li>
+<li class="lvl4"><a href="#4-7-andre-vilkar-for-omsetningskonsesjon">§ 4-7. Andre vilkår for omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-8-maling-avregning-og-fakturering">§ 4-8. Måling, avregning og fakturering</a></li>
+<li class="lvl4"><a href="#4-9-markedsplasskonsesjon">§ 4-9. Markedsplasskonsesjon</a></li>
+<li class="lvl4"><a href="#4-10-vilkar-for-markedsplasskonsesjon">§ 4-10. Vilkår for markedsplasskonsesjon</a></li>
+<li class="lvl4"><a href="#4-10a-organiserte-markedsplasser-underlagt-es-regelverk">§ 4-10a. (Organiserte markedsplasser underlagt EØS-regelverk)</a></li>
+<li class="lvl4"><a href="#4-11-utenlandsforbindelser">§ 4-11. Utenlandsforbindelser</a></li>
+<li class="lvl4"><a href="#4-12-konsesjonens-varighet-og-saksbehandling">§ 4-12. Konsesjonens varighet og saksbehandling</a></li>
+<li class="lvl4"><a href="#4-13-uenighet">§ 4-13. Uenighet</a></li>
+<li class="lvl4"><a href="#4-14-nytral-opptreden">§ 4-14. Nøytral opptreden</a></li>
+<li class="lvl4"><a href="#4-15-samarbeid-om-felles-driftssentral">§ 4-15. Samarbeid om felles driftssentral</a></li>
+<li class="lvl4"><a href="#4-16-salg-av-egen-kapasitet">§ 4-16. Salg av egen kapasitet</a></li>
+<li class="lvl4"><a href="#4-17-personer-i-ledelsen-i-et-nettselskap">§ 4-17. Personer i ledelsen i et nettselskap</a></li>
+<li class="lvl4"><a href="#4-18-markedsfring-og-kommunikasjon">§ 4-18. Markedsføring og kommunikasjon</a></li>
+<li class="lvl4"><a href="#4-19-nettselskap-uten-inntektsramme">§ 4-19. Nettselskap uten inntektsramme</a></li>
+<li class="lvl2"><a href="#kapittel-5-bestemmelser-om-markedsadferd-og-transparens-i-kraftmarkedet">Kapittel 5. Bestemmelser om markedsadferd og transparens i kraftmarkedet</a></li>
+<li class="lvl4"><a href="#5-1-definisjoner">§ 5-1. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-2-forbud-mot-innsidehandel">§ 5-2. Forbud mot innsidehandel</a></li>
+<li class="lvl4"><a href="#5-3-offentliggjring-av-innsideinformasjon">§ 5-3. Offentliggjøring av innsideinformasjon</a></li>
+<li class="lvl4"><a href="#5-4-forbud-mot-markedsmanipulasjon">§ 5-4. Forbud mot markedsmanipulasjon</a></li>
+<li class="lvl4"><a href="#5-5-krav-til-rutiner-for-a-avdekke-brudd-pa-5-2og-5-4">§ 5-5. Krav til rutiner for å avdekke brudd på§ 5-2og§ 5-4</a></li>
+<li class="lvl4"><a href="#5-6-krav-til-systemansvarlig-om-deling-av-data-til-reguleringsmyndigheten-for-energi">§ 5-6. Krav til systemansvarlig om deling av data til Reguleringsmyndigheten for energi</a></li>
+<li class="lvl4"><a href="#5-7-krav-til-markedsplass-om-deling-av-data-til-reguleringsmyndigheten-for-energi">§ 5-7. Krav til markedsplass om deling av data til Reguleringsmyndigheten for energi</a></li>
+<li class="lvl2"><a href="#kapittel-6-systemansvar-og-tilsyn">Kapittel 6. Systemansvar og tilsyn</a></li>
+<li class="lvl4"><a href="#6-1-systemansvar">§ 6-1. Systemansvar</a></li>
+<li class="lvl4"><a href="#6-2-tilsyn-med-den-systemansvarlige">§ 6-2. Tilsyn med den systemansvarlige</a></li>
+<li class="lvl4"><a href="#6-3-tilsyn-med-leveringskvalitet">§ 6-3. Tilsyn med leveringskvalitet</a></li>
+<li class="lvl2"><a href="#kapittel-7-transmisjon-av-elektrisitet">Kapittel 7. Transmisjon av elektrisitet</a></li>
+<li class="lvl4"><a href="#7-1-sertifisering-som-transmisjonssystemoperatr-tso">§ 7-1. Sertifisering som transmisjonssystemoperatør (TSO)</a></li>
+<li class="lvl4"><a href="#7-2-unntak-for-nye-utenlandsforbindelser">§ 7-2. Unntak for nye utenlandsforbindelser</a></li>
+<li class="lvl2"><a href="#kapittel-8-vrige-bestemmelser">Kapittel 8. Øvrige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-kontroll">§ 8-1. Kontroll</a></li>
+<li class="lvl4"><a href="#8-2-tvangsmulkt">§ 8-2. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#8-3-overtredelsesgebyr">§ 8-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-4-straff">§ 8-4. Straff</a></li>
+<li class="lvl4"><a href="#8-5-forskrift">§ 8-5. Forskrift</a></li>
+<li class="lvl4"><a href="#8-6-vurdering-av-reglene-om-anleggsbidrag">§ 8-6. Vurdering av reglene om anleggsbidrag</a></li>
+<li class="lvl4"><a href="#8-7-ikrafttredelse">§ 8-7. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-11-2496.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-10-24-1413.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om nettregulering og energimarkedet (NEM)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-10-24-1413.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2019-10-24-1413 <code>forskrift/2019-10-24-1413</code></td></tr>
+<tr><th>Korttittel</th><td>NEM</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.11.2019</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-11-2496 <code>forskrift/2025-12-11-2496</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2019-10-24-1413" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-reguleringsmyndighet-for-energi">Kapittel 2. Reguleringsmyndighet for energi</a></li>
+<li class="lvl4"><a href="#2-1-utpeking-og-organisering">§ 2-1. Utpeking og organisering</a></li>
+<li class="lvl4"><a href="#2-2-saksbehandling">§ 2-2. Saksbehandling</a></li>
+<li class="lvl4"><a href="#2-3-rapportering">§ 2-3. Rapportering</a></li>
+<li class="lvl4"><a href="#2-4-samarbeid-med-andre-myndigheter-mm">§ 2-4. Samarbeid med andre myndigheter m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-3-leverings-og-tilknytningsplikt">Kapittel 3. Leverings- og tilknytningsplikt</a></li>
+<li class="lvl4"><a href="#3-1-omradekonsesjonrens-leveringsplikt">§ 3-1. Områdekonsesjonærens leveringsplikt</a></li>
+<li class="lvl4"><a href="#3-2-anleggskonsesjonrens-plikt-til-a-tilknytte-uttakskunder">§ 3-2. Anleggskonsesjonærens plikt til å tilknytte uttakskunder</a></li>
+<li class="lvl4"><a href="#3-2a-plikt-til-a-holde-av-kapasitet-til-uttakskunder">§ 3-2a. Plikt til å holde av kapasitet til uttakskunder</a></li>
+<li class="lvl4"><a href="#3-3-plikt-til-a-tilknytte-anlegg-for-produksjon-av-elektrisk-energi">§ 3-3. Plikt til å tilknytte anlegg for produksjon av elektrisk energi</a></li>
+<li class="lvl4"><a href="#3-4-plikt-til-a-foreta-modenhetsvurdering">§ 3-4. Plikt til å foreta modenhetsvurdering</a></li>
+<li class="lvl4"><a href="#3-5-overgangsregel-for-modenhetsvurdering">§ 3-5. Overgangsregel for modenhetsvurdering</a></li>
+<li class="lvl4"><a href="#3-6-krav-til-registrering-og-rapportering-av-tidsbruk-for-tilknytninger">§ 3-6. Krav til registrering og rapportering av tidsbruk for tilknytninger</a></li>
+<li class="lvl4"><a href="#3-7-prinsipper-for-nettselskapenes-driftsmessig-forsvarlighetsvurderinger">§ 3-7. Prinsipper for nettselskapenes driftsmessig forsvarlighetsvurderinger</a></li>
+<li class="lvl4"><a href="#3-8-rett-til-a-nedjustere-maksimalt-tillatt-effektuttak">§ 3-8. Rett til å nedjustere maksimalt tillatt effektuttak</a></li>
+<li class="lvl2"><a href="#kapittel-4-omsetning-av-elektrisk-energi">Kapittel 4. Omsetning av elektrisk energi</a></li>
+<li class="lvl4"><a href="#4-1-formalet-med-omsetningskonsesjon">§ 4-1. Formålet med omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-2-virkeomradet-for-omsetningskonsesjon">§ 4-2. Virkeområdet for omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-3-innholdet-i-sknader-om-omsetningskonsesjon">§ 4-3. Innholdet i søknader om omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-4-intern-organisering-og-regnskap">§ 4-4. Intern organisering og regnskap</a></li>
+<li class="lvl4"><a href="#4-5-inntekter-ved-salg-av-nettjenester">§ 4-5. Inntekter ved salg av nettjenester</a></li>
+<li class="lvl4"><a href="#4-6-markedsadgang-og-tariffer">§ 4-6. Markedsadgang og tariffer</a></li>
+<li class="lvl4"><a href="#4-7-andre-vilkar-for-omsetningskonsesjon">§ 4-7. Andre vilkår for omsetningskonsesjon</a></li>
+<li class="lvl4"><a href="#4-8-maling-avregning-og-fakturering">§ 4-8. Måling, avregning og fakturering</a></li>
+<li class="lvl4"><a href="#4-9-markedsplasskonsesjon">§ 4-9. Markedsplasskonsesjon</a></li>
+<li class="lvl4"><a href="#4-10-vilkar-for-markedsplasskonsesjon">§ 4-10. Vilkår for markedsplasskonsesjon</a></li>
+<li class="lvl4"><a href="#4-10a-organiserte-markedsplasser-underlagt-es-regelverk">§ 4-10a. (Organiserte markedsplasser underlagt EØS-regelverk)</a></li>
+<li class="lvl4"><a href="#4-11-utenlandsforbindelser">§ 4-11. Utenlandsforbindelser</a></li>
+<li class="lvl4"><a href="#4-12-konsesjonens-varighet-og-saksbehandling">§ 4-12. Konsesjonens varighet og saksbehandling</a></li>
+<li class="lvl4"><a href="#4-13-uenighet">§ 4-13. Uenighet</a></li>
+<li class="lvl4"><a href="#4-14-nytral-opptreden">§ 4-14. Nøytral opptreden</a></li>
+<li class="lvl4"><a href="#4-15-samarbeid-om-felles-driftssentral">§ 4-15. Samarbeid om felles driftssentral</a></li>
+<li class="lvl4"><a href="#4-16-salg-av-egen-kapasitet">§ 4-16. Salg av egen kapasitet</a></li>
+<li class="lvl4"><a href="#4-17-personer-i-ledelsen-i-et-nettselskap">§ 4-17. Personer i ledelsen i et nettselskap</a></li>
+<li class="lvl4"><a href="#4-18-markedsfring-og-kommunikasjon">§ 4-18. Markedsføring og kommunikasjon</a></li>
+<li class="lvl4"><a href="#4-19-nettselskap-uten-inntektsramme">§ 4-19. Nettselskap uten inntektsramme</a></li>
+<li class="lvl2"><a href="#kapittel-5-bestemmelser-om-markedsadferd-og-transparens-i-kraftmarkedet">Kapittel 5. Bestemmelser om markedsadferd og transparens i kraftmarkedet</a></li>
+<li class="lvl4"><a href="#5-1-definisjoner">§ 5-1. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-2-forbud-mot-innsidehandel">§ 5-2. Forbud mot innsidehandel</a></li>
+<li class="lvl4"><a href="#5-3-offentliggjring-av-innsideinformasjon">§ 5-3. Offentliggjøring av innsideinformasjon</a></li>
+<li class="lvl4"><a href="#5-4-forbud-mot-markedsmanipulasjon">§ 5-4. Forbud mot markedsmanipulasjon</a></li>
+<li class="lvl4"><a href="#5-5-krav-til-rutiner-for-a-avdekke-brudd-pa-5-2og-5-4">§ 5-5. Krav til rutiner for å avdekke brudd på§ 5-2og§ 5-4</a></li>
+<li class="lvl4"><a href="#5-6-krav-til-systemansvarlig-om-deling-av-data-til-reguleringsmyndigheten-for-energi">§ 5-6. Krav til systemansvarlig om deling av data til Reguleringsmyndigheten for energi</a></li>
+<li class="lvl4"><a href="#5-7-krav-til-markedsplass-om-deling-av-data-til-reguleringsmyndigheten-for-energi">§ 5-7. Krav til markedsplass om deling av data til Reguleringsmyndigheten for energi</a></li>
+<li class="lvl2"><a href="#kapittel-6-systemansvar-og-tilsyn">Kapittel 6. Systemansvar og tilsyn</a></li>
+<li class="lvl4"><a href="#6-1-systemansvar">§ 6-1. Systemansvar</a></li>
+<li class="lvl4"><a href="#6-2-tilsyn-med-den-systemansvarlige">§ 6-2. Tilsyn med den systemansvarlige</a></li>
+<li class="lvl4"><a href="#6-3-tilsyn-med-leveringskvalitet">§ 6-3. Tilsyn med leveringskvalitet</a></li>
+<li class="lvl2"><a href="#kapittel-7-transmisjon-av-elektrisitet">Kapittel 7. Transmisjon av elektrisitet</a></li>
+<li class="lvl4"><a href="#7-1-sertifisering-som-transmisjonssystemoperatr-tso">§ 7-1. Sertifisering som transmisjonssystemoperatør (TSO)</a></li>
+<li class="lvl4"><a href="#7-2-unntak-for-nye-utenlandsforbindelser">§ 7-2. Unntak for nye utenlandsforbindelser</a></li>
+<li class="lvl2"><a href="#kapittel-8-vrige-bestemmelser">Kapittel 8. Øvrige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-kontroll">§ 8-1. Kontroll</a></li>
+<li class="lvl4"><a href="#8-2-tvangsmulkt">§ 8-2. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#8-3-overtredelsesgebyr">§ 8-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#8-4-straff">§ 8-4. Straff</a></li>
+<li class="lvl4"><a href="#8-5-forskrift">§ 8-5. Forskrift</a></li>
+<li class="lvl4"><a href="#8-6-vurdering-av-reglene-om-anleggsbidrag">§ 8-6. Vurdering av reglene om anleggsbidrag</a></li>
+<li class="lvl4"><a href="#8-7-ikrafttredelse">§ 8-7. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-10-24-1413.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-10-24-1413.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-10-24-1413.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2019-10-24-1413.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2019-10-24-1413.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-10-24-1413.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2019-10-24-1413.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2019-10-24-1413.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-10-24-1413.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-nettregulering-og-energimarkedet-nem">Forskrift om nettregulering og energimarkedet (NEM)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriften skal legge til rette for et effektivt energimarked, der omsetning av energi foregår på en samfunnsmessig rasjonell måte, og sikre en effektiv markedsovervåkning.</p>
@@ -91,16 +260,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Vassdrags- og energidirektøren kan ikke omdisponere tildelte budsjettmidler mellom Reguleringsmyndigheten for energi og andre deler av Norges vassdrags- og energidirektorat.</p>
 <p>Reguleringsmyndigheten for energi er administrativt underlagt Energidepartementet, men kan ikke instrueres i det enkelte tilfellet om utøvelsen av oppgaver og tillagt myndighet eller disponeringen av tildelte budsjettmidler.</p>
 <p>Ansatte kan ikke samtidig utføre arbeid i Reguleringsmyndigheten for energi og andre deler av Norges vassdrags- og energidirektorat, eller arbeid i en annen virksomhet, dersom dette er egnet til å svekke tilliten til den ansattes upartiskhet og uavhengighet.</p>
-<p><em>Endret ved forskrifter 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 17 juni 2025 nr. 1066 (i kraft 1 juli 2025).</em></p>
-<h4 id="2-2-saksbehandling">§ 2-2. Saksbehandling</h4>
+<p class="note">Endret ved forskrifter 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 17 juni 2025 nr. 1066 (i kraft 1 juli 2025).</p>
+<h4 id="2-2-saksbehandling">§ 2-2. Saksbehandling <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søknader m.m. etter denne forskriften skal sendes til Reguleringsmyndigheten for energi. En søknad skal inneholde tilstrekkelig med opplysninger for å vurdere om det bør fattes vedtak og hvilke vilkår som eventuelt skal settes.</p>
 <p>Tildelinger av konsesjon skal skje på grunnlag av objektive, transparente og ikke-diskriminerende kriterier.</p>
 <p>Enkeltvedtak som Reguleringsmyndigheten for energi fatter i medhold av energiloven , naturgassloven , offentleglova og lov om Norgespris og strømstønad til husholdninger , kan påklages til Energiklagenemnda.</p>
-<p><em>Endret ved forskrift 8 sep 2025 nr. 1794 (i kraft 15 sep 2025).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2025 nr. 1794 (i kraft 15 sep 2025).</p>
 <h4 id="2-3-rapportering">§ 2-3. Rapportering</h4>
 <p>Reguleringsmyndigheten for energi skal utarbeide en årlig rapport til Energidepartementet, byrået for samarbeid mellom energireguleringsmyndigheter og EFTAs overvåkingsorgan om sin virksomhet. Departementet kan fastsette nærmere krav til hva rapporten skal omfatte.</p>
 <p>Energidepartementet kan kreve at Reguleringsmyndigheten for energi redegjør for ethvert forhold innenfor sitt eget ansvarsområde.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="2-4-samarbeid-med-andre-myndigheter-mm">§ 2-4. Samarbeid med andre myndigheter m.m.</h4>
 <p>Reguleringsmyndigheten for energi skal samarbeide med andre norske myndigheter om utførelsen av tillagte oppgaver og med andre lands reguleringsmyndigheter og internasjonale organisasjoner i samsvar med Norges EØS-rettslige forpliktelser.</p>
 <p>I utøvelsen av sine oppgaver skal Reguleringsmyndigheten for energi sørge for at beslutninger truffet av EFTAs overvåkingsorgan i henhold til EØS-avtalen vedlegg IV nr. 47 blir gjennomført i samsvar med Norges EØS-rettslige forpliktelser.</p>
@@ -111,7 +280,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Et nettselskap og en uttakskunde kan inngå avtale om tilknytning med vilkår om utkobling eller begrensning i forbruket. Det skal ikke gis kompensasjon til uttakskunden ved inngåelse av slik avtale eller ved utkobling eller begrensning i forbruket i henhold til avtalen.</p>
 <p>Konsesjonærer skal forelegge for Reguleringsmyndigheten for energi et utkast til vilkår eller metoder for tilknytning til og bruk av nettet til forhåndsgodkjenning. Forhåndsgodkjenning er ikke nødvendig dersom konsesjonæren anvender vilkår som er godkjent og publisert av Reguleringsmyndigheten for energi.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak jf. energiloven § 3-3 fjerde ledd, fastsette eller godkjenne vilkår for leveringsplikt eller metoder for å fastsette slike vilkår.</p>
-<p><em>Endret ved forskrifter 7 april 2021 nr. 1072 (i kraft 15 april 2021), 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 7 april 2021 nr. 1072 (i kraft 15 april 2021), 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</p>
 <h4 id="3-2-anleggskonsesjonrens-plikt-til-a-tilknytte-uttakskunder">§ 3-2. Anleggskonsesjonærens plikt til å tilknytte uttakskunder <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilknytningsplikten etter energiloven § 3-4 gjelder for den som har konsesjon for nettanlegg hvor nye uttakskunder mest rasjonelt kan tilknyttes, eller en forbruksøkning kan gjennomføres. Hvis tilknytningen medfører behov for investeringer i overliggende nettanlegg, gjelder tilknytningsplikten tilsvarende for konsesjonærer for slikt nett.</p>
 <p>Tilknytningsplikten gjelder nødvendig nettkapasitet som sikrer at det er driftsmessig forsvarlig å koble til nye uttakskunder eller tillate forbruksøkningen.</p>
@@ -119,12 +288,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Tilknytningsplikten omfatter om nødvendig en plikt til å planlegge, søke konsesjon for og investere i nye nettanlegg uten ugrunnet opphold. Konsesjonæren plikter å legge frem en forsvarlig og veiledende tidsplan for nettilknytningen. Departementet kan i ekstraordinære tilfeller gi dispensasjon jf. energiloven § 3-4 annet ledd, fra tilknytnings- og investeringsplikten for uttakskunder.</p>
 <p>Konsesjonærer skal forelegge for Reguleringsmyndigheten for energi et utkast til vilkår og metoder for tilknytning til og bruk av nettet til forhåndsgodkjenning. Forhåndsgodkjenning er ikke nødvendig dersom konsesjonæren anvender vilkår og betingelser som er godkjent og publisert av Reguleringsmyndigheten for energi.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak jf. energiloven § 3-4 tredje ledd, fastsette eller godkjenne vilkår for tilknytning av anlegg eller metoder for å fastsette slike vilkår.</p>
-<p><em>Endret ved forskrift 7 april 2021 nr. 1072 (i kraft 15 april 2021).</em></p>
+<p class="note">Endret ved forskrift 7 april 2021 nr. 1072 (i kraft 15 april 2021).</p>
 <h4 id="3-2a-plikt-til-a-holde-av-kapasitet-til-uttakskunder">§ 3-2a. Plikt til å holde av kapasitet til uttakskunder <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-2a.html" title="Endringshistorikk for § 3-2a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap som har inntektsramme for regionalnett plikter å holde av kapasitet i regionalnettet til uttakskunder med samlet avtalt kapasitet mindre enn 1 MW, basert på forventninger til forbruksutviklingen.</p>
 <p>Nettselskap som eier transmisjonsnett plikter å holde av kapasitet i transmisjonsnettet til uttakskunder med samlet avtalt kapasitet mindre enn 5 MW når kundens forventede årlig forbruk er mindre enn 20 GWh, basert på forventninger til forbruksutviklingen.</p>
 <p>Dersom et nettselskap ikke kan overholde plikten etter første eller annet ledd, skal nettselskapet informere Reguleringsmyndigheten for energi.</p>
-<p><em>Tilføyd ved forskrift 17 juni 2025 nr. 1066 (i kraft 1 juli 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 17 juni 2025 nr. 1066 (i kraft 1 juli 2025).</p>
 <h4 id="3-3-plikt-til-a-tilknytte-anlegg-for-produksjon-av-elektrisk-energi">§ 3-3. Plikt til å tilknytte anlegg for produksjon av elektrisk energi <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilknytningsplikten etter energiloven § 3-4a gjelder for den som etter loven kapittel 3 har konsesjon for nettanlegg hvor produksjonsanlegget mest rasjonelt kan tilknyttes, eller en produksjonsøkning kan gjennomføres. Hvis tilknytningen av produsent medfører behov for investeringer i overliggende nettanlegg, gjelder tilknytningsplikten tilsvarende for konsesjonærer for slikt nett.</p>
 <p>Tilknytningsplikten gjelder nødvendig nettkapasitet som sikrer at det er driftsmessig forsvarlig å koble til nye kunder eller tillate produksjonsøkningen.</p>
@@ -132,7 +301,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Tilknytningsplikten omfatter om nødvendig en plikt til å planlegge, søke konsesjon for og investere i nye nettanlegg uten ugrunnet opphold. Konsesjonæren plikter å legge frem en forsvarlig og veiledende tidsplan for nettilknytningen eller produksjonsøkningen. Norges vassdrags- og energidirektorat kan gi dispensasjon fra tilknytnings- og investeringsplikten for produksjon etter energiloven § 3-4a tredje ledd dersom tiltaket ikke er samfunnsmessig rasjonelt.</p>
 <p>Konsesjonærer skal forelegge for Reguleringsmyndigheten for energi utkast til vilkår og metoder for tilknytning til og bruk av nettet til forhåndsgodkjenning. Forhåndsgodkjenning er ikke nødvendig dersom konsesjonæren anvender vilkår og betingelser som er godkjent og publisert av Reguleringsmyndigheten for energi.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak jf. energiloven § 3-4a fjerde ledd , fastsette eller godkjenne vilkår for tilknytning av anlegg eller metoder for å fastsette slike vilkår.</p>
-<p><em>Endret ved forskrift 11 des 2025 nr. 2496 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 11 des 2025 nr. 2496 (i kraft 1 jan 2026).</p>
 <h4 id="3-4-plikt-til-a-foreta-modenhetsvurdering">§ 3-4. Plikt til å foreta modenhetsvurdering <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilknyttende nettselskap skal uten ugrunnet opphold gjennomføre en modenhetsvurdering av forespørsler om tilknytning eller økt kapasitet for uttak eller innmating av elektrisk energi på 1 MW eller mer. For forespørsler om 10 MW eller mer i distribusjonsnettet, skal overliggende regionalnettselskap ha ansvar for vurderingen. For forespørsler om 100 MW eller mer, skal Statnett ha ansvar for vurderingen. For forespørsler etter andre og tredje punktum skal vurderingen gjennomføres i samarbeid med tilknyttende nettselskap, uten ugrunnet opphold og basert på modenhetskriteriene til nettselskapet som er ansvarlig. Tilknyttende nettselskap skal være aktørens kontaktpunkt også for disse tilknytningsforespørslene.</p>
 <p>Modenhetsvurderingen skal som minimum baseres på følgende modenhetskriterier</p>
@@ -153,11 +322,11 @@ b. tidspunkt for når aktøren har levert tilstrekkelig informasjon
 c. tidspunktet for reservasjon av kapasitet eller tildelt plass i kapasitetskø
 d. tidspunkt for eventuell tilbaketrekning av reservert kapasitet eller plass i kapasitetskø.</p>
 <p>Dokumentasjonen etter bokstav a til d skal oppbevares i minst ti år etter at kunden er tilknyttet eller etter avbrutt tilknytningsprosess.</p>
-<p><em>Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</p>
 <h4 id="3-5-overgangsregel-for-modenhetsvurdering">§ 3-5. Overgangsregel for modenhetsvurdering <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>§ 3-4 skal også gjelde for aktører som har fått reservert kapasitet, plass i kapasitetskøen eller som har sendt forespørsler om tilknytning eller økt kapasitet på 1 MW eller mer, før 1. januar 2025.</p>
 <p>Tilknyttende nettselskap skal uten ugrunnet opphold be om dokumentasjon fra aktører omfattet av første ledd slik at modenhetsvurdering kan gjennomføres. Dersom aktøren ikke sender inn denne informasjonen innen seks måneder etter at nettselskapet ba om det, eller dersom nettselskapet på bakgrunn av innsendt informasjon vurderer at aktøren ikke er moden, skal reservert kapasitet eller plass i kapasitetskøen trekkes tilbake. Beslutningen kan gjelde hele eller deler av kapasiteten, og skal forhåndsvarsles. Forhåndsvarselet og beslutningen skal begrunnes og meddeles aktøren og relevante nettselskap skriftlig uten ugrunnet opphold. Dersom nettselskapet vurderer aktøren som moden, vil aktøren beholde sin opprinnelige reservasjon eller plass i kapasitetskø.</p>
-<p><em>Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</p>
 <h4 id="3-6-krav-til-registrering-og-rapportering-av-tidsbruk-for-tilknytninger">§ 3-6. Krav til registrering og rapportering av tidsbruk for tilknytninger <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap med inntektsramme skal for hver forespørsel om tilknytning og endring av eksisterende tilknytning under 1 MW registrere dato for når</p>
 <p>a. nettselskapet mottok endelig forespørsel fra kunden
@@ -166,16 +335,16 @@ c. tilbud om anleggsbidrag ble akseptert av kunden
 d. forespørselen i bokstav a ble innfridd.</p>
 <p>Datoene i bokstav b og c skal bare registreres ved forespørsler som medfører at nettselskap skal kreve inn et anleggsbidrag etter forskrift om kontroll av nettvirksomhet § 16-1 . Nettselskapet skal registrere kapasitetsendringen, og om det er en ny tilknytning eller endring av en eksisterende tilknytning.</p>
 <p>Data som registreres etter første og annet ledd skal rapporteres til Reguleringsmyndigheten for energi senest en måned etter at forespørselen i bokstav a ble innfridd, på format fastsatt av Reguleringsmyndigheten for energi. Kapasitetsendringen skal rapporteres i kilowatt. Rapporteringsplikten gjelder fra 1. januar 2026.</p>
-<p><em>Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2024 nr. 3274 (i kraft 1 jan 2025).</p>
 <h4 id="3-7-prinsipper-for-nettselskapenes-driftsmessig-forsvarlighetsvurderinger">§ 3-7. Prinsipper for nettselskapenes driftsmessig forsvarlighetsvurderinger <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap skal fastsette og tilgjengeliggjøre prinsipper for vurderinger av om en tilknytning eller kapasitetsøkning er driftsmessig forsvarlig. Prinsippene skal være objektive og ikke-diskriminerende.</p>
 <p>Nettselskap skal dokumentere vurderinger i enkeltsaker. På forespørsel fra kunde skal nettselskapet uten ugrunnet opphold gi innsyn i vurderingen som gjelder kunden. Kunden har ikke rett til innsyn i informasjon som er underlagt taushetsplikt.</p>
-<p><em>Tilføyd ved forskrift 12 sep 2025 nr. 1827 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 12 sep 2025 nr. 1827 (i kraft 1 jan 2026).</p>
 <h4 id="3-8-rett-til-a-nedjustere-maksimalt-tillatt-effektuttak">§ 3-8. Rett til å nedjustere maksimalt tillatt effektuttak <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap kan i særlige tilfeller nedjustere en kundes maksimalt tillatte effektuttak etter en konkret vurdering.</p>
 <p>Nettselskapets kriterier for nedjustering skal være skriftlige og tilgjengelige for kundene.</p>
 <p>Nettselskapet skal varsle kunden skriftlig i rimelig tid før nettselskapet treffer endelig beslutning om å nedjustere kundens maksimalt tillatte effektuttak. Varselet skal begrunnes, og inneholde informasjon om at uenighet kan bringes inn for Reguleringsmyndigheten for energi. Kunden har rett til å uttale seg til varselet.</p>
-<p><em>Tilføyd ved forskrift 12 sep 2025 nr. 1827 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 12 sep 2025 nr. 1827 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-4-omsetning-av-elektrisk-energi">Kapittel 4. Omsetning av elektrisk energi</h2>
 <h4 id="4-1-formalet-med-omsetningskonsesjon">§ 4-1. Formålet med omsetningskonsesjon</h4>
 <p>Konsesjonsordningen for omsetning av elektrisk energi har som formål å sikre en samfunnsmessig rasjonell kraftomsetning og nettvirksomhet gjennom å legge til rette for et effektivt kraftmarked og en effektiv drift, utnyttelse og utvikling av elektrisitetsnettet. Det skal tas hensyn til allmenne og private interesser som blir berørt.</p>
@@ -200,7 +369,7 @@ c. siste års regnskap og årsberetning, eller for nye selskaper vedtekter, åpn
 <p>Reguleringsmyndigheten for energi fastsetter ved enkeltvedtak årlige inntektsrammer for den enkelte konsesjonæren. Inntekten skal over tid dekke kostnadene ved drift og avskrivning av nettet, samt gi en rimelig avkastning på investert kapital gitt effektiv drift, utnyttelse og utvikling av nettet.</p>
 <p>Ved feil i datagrunnlaget for enkeltvedtak om fastsettelse av nettselskapenes inntektsrammer kan vedtaket endres etter klage eller omgjøres uten klage også til skade for den vedtaket retter seg mot eller direkte tilgodeser, uavhengig av begrensningene i forvaltningsloven § 34 og § 35 , dersom hensynet til andre privatpersoner eller offentlige interesser tilsier det. Dette skal gjøres i form av korreksjon i enkeltvedtak om inntektsramme senest det andre påfølgende inntektsrammeåret.</p>
 <p>Reguleringsmyndigheten for energi gir forskrift etter § 8-5 om hovedprinsippene for beregningen av inntektsrammen. Disse skal revurderes periodevis, og hver periode skal vare minimum 5 år. Konsesjonæren skal sikres en minimumsavkastning, men den oppnådde avkastningen skal ikke være urimelig høy.</p>
-<p><em>Endret ved forskrift 20 jan 2025 nr. 55 (i kraft 1 feb 2025).</em></p>
+<p class="note">Endret ved forskrift 20 jan 2025 nr. 55 (i kraft 1 feb 2025).</p>
 <h4 id="4-6-markedsadgang-og-tariffer">§ 4-6. Markedsadgang og tariffer</h4>
 <p>Konsesjonærene skal sørge for markedsadgang for alle som etterspør nettjenester til ikke-diskriminerende og objektive punkttariffer og vilkår. Med punkttariffer forstås tariffer som er referert til kundens tilknytningspunkt til nettet, og som er uavhengig av avtaler om kjøp eller salg av kraft.</p>
 <p>Konsesjonærene fastsetter tariffene. Dette omfatter alle priser og annen økonomisk godtgjørelse som konsesjonæren fastsetter for tilknytning til og bruk av elektriske nettanlegg. Tariffene skal utformes slik at de i størst mulig grad gir signaler om effektiv utnyttelse og effektiv utvikling av nettet. Tariffene kan differensieres etter objektive og kontrollerbare kriterier basert på relevante nettforhold.</p>
@@ -211,13 +380,13 @@ c. siste års regnskap og årsberetning, eller for nye selskaper vedtekter, åpn
 <p>Norges- vassdrags og energidirektorat kan ved enkeltvedtak fastsette hvilke anlegg som inngår i transmisjonsnettet, og hvilke som inngår i regionalnettet.</p>
 <p>Departementet kan fastsette krav til tariffmessig samordning av nett og nettområder, oppdeling av nett og nettjenester, nærmere vilkår for hvilke anlegg som skal omfattes, samt utpeke hvem som får ansvaret for å administrere slike ordninger.</p>
 <p>Reguleringsmyndigheten for energi kan fastsette ytterligere vilkår etter energiloven § 4-1 tredje ledd dersom det finnes påkrevet av hensyn til allmenne interesser, og i særlige tilfeller gi dispensasjon fra vilkår i omsetningskonsesjoner.</p>
-<p><em>Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h4 id="4-8-maling-avregning-og-fakturering">§ 4-8. Måling, avregning og fakturering <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-8.html" title="Endringshistorikk for § 4-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Måling, avregning og fakturering skal utføres i samsvar med forskrift om måling, avregning, fakturering av nettjenester og elektrisk energi, nettselskapenes nøytralitet mv. på en måte som sikrer en enkel markedsadgang og legger til rette for en effektiv kraftomsetning. Dette gjelder blant annet regulerkraftavregning, leverandørskifte, måling, avregning og fakturering av nettjenester og elektrisk energi, og felles fakturering av nettjenester og elektrisk energi.</p>
 <p>Fakturering gjennomføres på en måte som bidrar til at sluttbruker bevisstgjøres sitt forbruk av elektrisk energi.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak utpeke en avregningsansvarlig, og kan fastsette nærmere vilkår overfor denne, jf. energiloven § 4-3 annet ledd.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak fastsette eller godkjenne den avregningsansvarliges vilkår, eller metoder for å fastsette slike vilkår, om utøvelsen av avregningsansvaret, jf. energiloven § 4-3 femte ledd. Den avregningsansvarlige skal forelegge forslag til vilkår og metoder for Reguleringsmyndigheten for energi til godkjenning før de gjøres gjeldende.</p>
-<p><em>Endret ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</em></p>
+<p class="note">Endret ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</p>
 <h4 id="4-9-markedsplasskonsesjon">§ 4-9. Markedsplasskonsesjon</h4>
 <p>Det kreves konsesjon fra Reguleringsmyndigheten for energi for å forestå organisering eller drift av en markedsplass for omsetning av elektrisk energi for fysisk levering. En slik konsesjon har som formål å bidra til effektiv prisdannelse i kraftmarkedet gjennom å legge til rette for effektive, hensiktsmessige og tillitvekkende handelssystemer og handelsregler. Det skal tas hensyn til allmenne og private interesser som blir berørt. Ved tvil om det foreligger konsesjonsplikt, treffes avgjørelsen av Reguleringsmyndigheten for energi.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak fastsette eller godkjenne vilkår for handel på markedsplasser som nevnt i første ledd eller metoder for å fastsette slike vilkår.</p>
@@ -235,48 +404,48 @@ d. sørge for at markedsplassen bidrar til en effektiv utøvelse av systemansvar
 <p>Operatører som er utpekt i en annen EØS-stat, og som ønsker å utvide virksomheten til budområder innenfor kraftmarkedet i Norge, skal gi melding til Reguleringsmyndigheten for energi senest to måneder før virksomhetens oppstart.</p>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak fastsette eller godkjenne vilkår for handel på markedsplasser som nevnt i første og annet ledd, eller metoder for å fastsette slike vilkår.</p>
 <p>Reguleringsmyndigheten for energi kan ved enkeltvedtak fastsette ytterligere vilkår overfor operatører nevnt i første og annet ledd for å legge til rette for effektiv konkurranse, ivareta hensynet til systemsikkerhet og fremme et effektivt kraftmarked.</p>
-<p><em>Tilføyd ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</p>
 <h4 id="4-11-utenlandsforbindelser">§ 4-11. Utenlandsforbindelser</h4>
 <p>Når departementet har gitt konsesjon etter energiloven § 4-2 , skal Reguleringsmyndigheten for energi, innenfor rammen av konsesjonsvilkårene, ved enkeltvedtak fastsette eller godkjenne vilkår for tilgang til forbindelsen, eller metoder for å fastsette slike vilkår.</p>
 <h4 id="4-12-konsesjonens-varighet-og-saksbehandling">§ 4-12. Konsesjonens varighet og saksbehandling <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-12.html" title="Endringshistorikk for § 4-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Konsesjoner for omsetning av elektrisk energi og markedsplasskonsesjon etter energiloven § 4-5 kan gis med varighet inntil 10 år.</p>
 <p>For søknader om markedsplasskonsesjon etter energiloven § 4-5 skal saksbehandlingsfristen som nevnt i tjenesteloven § 11 første ledd første punktum være 18 måneder. Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke for søknader om markedsplasskonsesjon.</p>
 <p>Konsesjonen kan ikke overdras.</p>
-<p><em>Endret ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</em></p>
+<p class="note">Endret ved forskrift 28 juni 2021 nr. 2277 (i kraft 1 aug 2021).</p>
 <h4 id="4-13-uenighet">§ 4-13. Uenighet</h4>
 <p>Uenighet om vilkår for tilknytning til og bruk av nettet kan bringes inn til Reguleringsmyndigheten for energi, som skal fatte vedtak i saken innen to måneder etter at klagen kom fram. Fristen kan forlenges med to måneder hvis Reguleringsmyndigheten for energi ønsker ytterligere opplysninger, og kan etter samtykke fra klageren forlenges ytterligere. Fristen kan også forlenges hvis uenigheten gjelder tariffering av nye større produksjonsanlegg.</p>
 <h4 id="4-14-nytral-opptreden">§ 4-14. Nøytral opptreden <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-14.html" title="Endringshistorikk for § 4-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap skal opptre nøytralt og ikke-diskriminerende.</p>
 <p>Et nettselskap innenfor et integrert foretak skal ikke ta beslutninger eller utføre handlinger som kan gi en særlig fordel til andre foretak innenfor gruppen, herunder gi tilgang til informasjon som andre aktører ikke har, og som kan utnyttes i markedet.</p>
 <p>Foretak med omsetningskonsesjon og morselskap eller kontrollerende eier i integrert foretak, skal ikke forsøke å oppnå en særlig fordel fra det integrerte nettselskapet.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h4 id="4-15-samarbeid-om-felles-driftssentral">§ 4-15. Samarbeid om felles driftssentral <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-15.html" title="Endringshistorikk for § 4-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap og foretak som driver produksjon av elektrisk energi eller fjernvarmevirksomhet kan samarbeide om felles driftssentral og øvrig driftskontrollsystem.</p>
 <p>Ved slikt samarbeid skal nettselskap ha ansvar for anskaffelse, utvikling og drift av driftskontrollsystemet og andre relevante informasjonssystem, samt tildeling av rettigheter i disse. Bare ansatte i nettselskap skal ha adgang til nettselskapets del av driftssentralen.</p>
 <p>Ansatte i foretak som driver produksjon av elektrisk energi eller fjernvarmevirksomhet kan ikke utføre driftssentraltjenester for nettselskap. Ansatte i nettselskap kan utføre driftssentraltjenester for foretak som driver produksjon av elektrisk energi eller fjernvarmevirksomhet innenfor rammene i § 4-16 bokstav d.</p>
 <p>I ekstraordinære situasjoner kan ansatte i foretak som driver produksjon av elektrisk energi eller fjernvarmevirksomhet få adgang til nettselskaps del av driftssentralen og utføre driftssentraltjenester.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</p>
 <h4 id="4-16-salg-av-egen-kapasitet">§ 4-16. Salg av egen kapasitet <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-16.html" title="Endringshistorikk for § 4-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap kan ikke selge eller leie ut egen kapasitet, unntatt i følgende tilfeller:</p>
 <p>a. Salg eller utleie av overskuddskapasitet i et begrenset omfang. Med overskuddskapasitet menes egen kapasitet som er anskaffet og opprettholdes for å dekke behov i foretakets egen nettdrift, men som ikke fullt ut kan benyttes for dette formålet. Nettselskap skal ikke bygge opp eller opprettholde egen kapasitet med formål om å selge eller leie denne ut.
 b. Salg av fiberkapasitet engros. Nettselskap skal ikke bygge opp egen fiberkapasitet med formål å selge eller leie denne ut. Salg av fiberkapasitet skal skje på like og ikke-diskriminerende vilkår.
 c. I ekstraordinære beredskapssituasjoner kan nettselskap bistå andre foretak. Nettselskapet skal kreve et rimelig vederlag for slike tjenester. Et nettselskap skal ikke bygge opp eller opprettholde egen beredskapskapasitet med formål å bistå andre.
 d. Salg av driftssentraltjenester til kraftprodusenter og foretak som driver fjernvarmevirksomhet. Tillatte driftssentraltjenester etter denne bestemmelsen omfatter overvåking av anlegg, i tillegg til koordinerende og nødvendige tiltak for operativ drift av disse. Nettselskapet skal ikke ta kommersielle beslutninger på vegne av konkurranseutsatt virksomhet. Salg av driftssentraltjenester til kraftprodusenter eller foretak som driver fjernvarmevirksomhet skal skje på like og ikke-diskriminerende vilkår. Nettselskap kan selge driftssentraltjenester til andre nettselskap.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</p>
 <h4 id="4-17-personer-i-ledelsen-i-et-nettselskap">§ 4-17. Personer i ledelsen i et nettselskap <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-17.html" title="Endringshistorikk for § 4-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Styreleder, styremedlem, daglig leder eller andre ansatte med reell beslutningsmyndighet i et nettselskap som inngår i et integrert foretak, kan ikke delta i ledelsen i et foretak som driver annen virksomhet innenfor det integrerte foretaket. Daglig leder i et nettselskap kan ikke være daglig leder i dets morselskap eller kontrollerende eier.</p>
 <p>Denne paragrafen gjelder ikke for nettselskap som har færre nettkunder enn grensen som følger av energiloven § 4-7 .</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h4 id="4-18-markedsfring-og-kommunikasjon">§ 4-18. Markedsføring og kommunikasjon <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-18.html" title="Endringshistorikk for § 4-18" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Nettselskap skal i sin markedsføring og kommunikasjon skille seg klart fra enhver kraftleverandør og fra foretak i det integrerte foretaket som nettselskapet er en del av. Blant annet skal nettselskapets foretaksnavn, andre forretningskjennetegn og varemerke utformes slik at nettselskapet skiller seg klart fra kraftleverandører og fra andre foretak i det integrerte foretaket.</p>
 <p>Enhver kraftleverandør og andre foretak i det integrerte foretaket skal i sin markedsføring og kommunikasjon skille seg klart fra nettselskap. Blant annet skal foretaksnavn, andre forretningskjennetegn og varemerke utformes slik at foretaket skiller seg klart fra nettselskap.</p>
 <p>Dersom et nettselskap og en kraftleverandør utenfor det integrerte foretaket ikke oppfyller kravene som nevnt i første og annet ledd, ligger plikten til å endre markedsføring og kommunikasjon det foretaket som sist har gjort registrering eller bruk av foretaksnavn, forretningskjennetegn, varemerke eller andre former for markedsføring og kommunikasjon.</p>
 <p>I vurderingen etter første og annet ledd skal det legges vekt på hvorvidt det foreligger fare for forveksling eller en utnyttelse av nettselskapets anseelse. I tvilstilfeller kan Reguleringsmyndigheten for energi fatte vedtak om hvorvidt vilkårene i første og annet ledd er oppfylt, og hvem som er pliktsubjekt etter tredje ledd.</p>
 <p>Reguleringsmyndigheten for energi kan i særlige tilfeller gi dispensasjon fra kravene i denne paragrafen.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021, se endringsforskriften for overgangsbestemmelser).</p>
 <h4 id="4-19-nettselskap-uten-inntektsramme">§ 4-19. Nettselskap uten inntektsramme <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-4-19.html" title="Endringshistorikk for § 4-19" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kravene i energiloven § 4-6 og § 4-7 , og forskrift om nettregulering og energimarkedet § 4-15 , § 4-16 , § 4-17 og § 4-18 , gjelder ikke for nettselskap uten inntektsramme.</p>
-<p><em>Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h2 id="kapittel-5-bestemmelser-om-markedsadferd-og-transparens-i-kraftmarkedet">Kapittel 5. Bestemmelser om markedsadferd og transparens i kraftmarkedet</h2>
 <h4 id="5-1-definisjoner">§ 5-1. Definisjoner</h4>
 <p>I dette kapittelet forstås med:</p>
@@ -328,7 +497,7 @@ d. overvåke utviklingen av kraftsystemet og holde myndighetene løpende oriente
 e. bidra til at overføringsnettet bygges ut på en samfunnsmessig rasjonell måte.</p>
 <p>I forbindelse med vanskelige driftssituasjoner kan den systemansvarlige rekvirere effekttilgang ved å kreve at all tilgjengelig regulerytelse innenfor produksjon og forbruk skal anmeldes i marked for regulerkraft. I helt spesielle driftssituasjoner kan den systemansvarlige foreta en kortvarig tvangsutkobling av forbruket for å opprettholde balansen. Den systemansvarlige kan bli ilagt en kostnad for en slik tvangsutkobling.</p>
 <p>De som omfattes av et vedtak fattet av den systemansvarlige under utøvelsen av systemansvaret, plikter å rette seg etter vedtaket.</p>
-<p><em>Endret ved forskrifter 28 juni 2021 nr. 2277 (i kraft 1 aug 2021), 8 mai 2024 nr. 752 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 28 juni 2021 nr. 2277 (i kraft 1 aug 2021), 8 mai 2024 nr. 752 (i kraft 1 juli 2024).</p>
 <h4 id="6-2-tilsyn-med-den-systemansvarlige">§ 6-2. Tilsyn med den systemansvarlige</h4>
 <p>Reguleringsmyndigheten for energi skal ved enkeltvedtak fastsette eller godkjenne den systemansvarliges vilkår, eller metoden for å fastsette slike vilkår, om</p>
 <p>a. system- og balansetjenester
@@ -348,7 +517,7 @@ d. utøvelsen av systemansvaret.</p>
 <h4 id="7-2-unntak-for-nye-utenlandsforbindelser">§ 7-2. Unntak for nye utenlandsforbindelser</h4>
 <p>En søknad om unntak fra kravene til eier og operatør av transmisjonssystem etter bestemmelsene i EØS-avtalen vedlegg IV nr. 20 (forordning (EF) nr. 714/2009 ) artikkel 17 skal sendes til Reguleringsmyndigheten for energi, som av eget tiltak skal sende en kopi av søknaden til EFTAs overvåkingsorgan og byrået for samarbeid mellom energireguleringsmyndigheter.</p>
 <p>Reguleringsmyndigheten for energi skal i rimelig tid etter at søknaden er mottatt gi en uttalelse til Energidepartementet før departementet fatter vedtak i saken.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-8-vrige-bestemmelser">Kapittel 8. Øvrige bestemmelser</h2>
 <h4 id="8-1-kontroll">§ 8-1. Kontroll</h4>
 <p>Reguleringsmyndigheten for energi kan gi nødvendige pålegg for gjennomføringen av bestemmelser gitt i eller i medhold av denne forskriften. Reguleringsmyndigheten for energi fører kontroll med at bestemmelser gitt i eller i medhold av denne forskriften blir overholdt.</p>
@@ -357,14 +526,14 @@ d. utøvelsen av systemansvaret.</p>
 <p>Ved utlevering av taushetsbelagte opplysninger etter tredje ledd annet punktum skal det stilles som vilkår at opplysningene undergis taushetsplikt hos mottakeren. Opplysningene kan bare formidles videre med samtykke fra det organet som utleverte dem, og bare for det formålet som samtykket omfatter. Ved videreformidling av taushetsbelagte opplysninger skal den opplysningene gjelder, underrettes dersom opplysningene opprinnelig ble innhentet fra vedkommende. Dette gjelder ikke dersom en slik underretning vil motvirke formålet med tiltakene videreformidlingen av opplysningene skal ivareta, eller medføre fare for at tiltakene ikke kan gjennomføres.</p>
 <h4 id="8-2-tvangsmulkt">§ 8-2. Tvangsmulkt <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Reguleringsmyndigheten for energi kan ilegge tvangsmulkt ved overtredelse av enkeltvedtak etter § 3-1 femte ledd, § 3-2 sjette ledd, § 3-3 sjette ledd, § 4-4 , § 4-5 , § 4-6 , § 4-7 , § 4-8 , § 4-9 annet ledd, § 4-10 , § 4-11 , § 4-14 , § 4-15 , § 4-16 , § 4-17 , § 4-18 , § 6-2 annet ledd og pålegg som nevnt i § 8-1 første ledd.</p>
-<p><em>Endret ved forskrifter 30 juni 2020 nr. 1454 (i kraft 1 jan 2021), 7 april 2021 nr. 1072 (i kraft 15 april 2021).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2020 nr. 1454 (i kraft 1 jan 2021), 7 april 2021 nr. 1072 (i kraft 15 april 2021).</p>
 <h4 id="8-3-overtredelsesgebyr">§ 8-3. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Reguleringsmyndigheten for energi kan ilegge overtredelsesgebyr til den som forsettlig eller uaktsomt overtrer eller medvirker til overtredelse av § 3-1 , § 3-2 , § 3-3 , § 4-2 annet ledd, § 4-4 , § 4-6 , § 4-7 første, annet og tredje ledd, § 4-8 , § 4-9 første ledd første punktum og enkeltvedtak fastsatt etter annet ledd, § 4-10 , § 4-11 , § 4-14 , § 4-15 , § 4-16 , § 4-17 , § 4-18 , § 5-2 første ledd, § 5-3 , § 5-4 , § 5-5 , enkeltvedtak fastsatt etter § 6-2 annet ledd, § 7-1 første, annet og femte ledd, § 8-1 første og annet ledd, samt pålegg gitt i medhold av disse bestemmelsene når det i pålegget er særskilt bestemt at overtredelse kan medføre overtredelsesgebyr, jf. energiloven § 10-7 annet ledd.</p>
-<p><em>Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h4 id="8-4-straff">§ 8-4. Straff <a class="para-history" href="../historikk/forskrift-2019-10-24-1413/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som overtrer § 3-1 , § 3-2 , § 3-3 , § 4-2 annet ledd, § 4-4 , § 4-6 , § 4-7 første, annet og tredje ledd, § 4-8 , § 4-9 første ledd første punktum og annet ledd, § 4-10 , § 4-11 , § 4-14 første ledd, § 5-2 første ledd, § 5-3 , § 5-4 , § 5-5 , § 7-1 første, annet og femte ledd, § 8-1 første og annet ledd, straffes med bøter eller fengsel i inntil 1 år eller begge deler.</p>
 <p>Den som uaktsomt overtrer bestemmelse som nevnt i første ledd, straffes med bøter eller fengsel i inntil tre måneder eller begge deler.</p>
-<p><em>Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 30 juni 2020 nr. 1454 (i kraft 1 jan 2021).</p>
 <h4 id="8-5-forskrift">§ 8-5. Forskrift</h4>
 <p>Reguleringsmyndigheten for energi kan gi forskrift om metoder for beregning av nettselskapenes tillatte og faktiske inntekter og håndtering av avvik mellom disse.</p>
 <p>Forskriften skal ha bestemmelser for nettselskaper om</p>
@@ -375,6 +544,8 @@ c. fordeling av tillatt inntekt for eget nett på ulike nettnivåer basert på o
 <p>Innen 30. juni 2020 og deretter innen 30. juni hvert annet år, skal Reguleringsmyndigheten for energi vurdere hvorvidt gjeldende regler om anleggsbidrag fra produsenter av fornybar energi er i samsvar med Norges EØS-rettslige forpliktelser. Resultatet av vurderingen skal meddeles departementet.</p>
 <h4 id="8-7-ikrafttredelse">§ 8-7. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. november 2019.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

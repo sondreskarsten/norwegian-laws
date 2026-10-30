@@ -19,64 +19,229 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2023-01-01-122.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &rsaquo;
 <span>Forskrift om tilskudd til funksjonshemmedes organi</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2023-01-01-122</code></dd>
-<dt>Departement</dt><dd>Kultur- og likestillingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2023-01-01-122" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-mal">§ 1. Mål</a></li>
+<li class="lvl4"><a href="#2-opplysningsplikt">§ 2. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#3-kriterier-for-maloppnaelse">§ 3. Kriterier for måloppnåelse</a></li>
+<li class="lvl2"><a href="#kapittel-2-definisjoner">Kapittel 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-generelle-definisjoner">§ 4. Generelle definisjoner</a></li>
+<li class="lvl4"><a href="#5-kontingent">§ 5. Kontingent</a></li>
+<li class="lvl4"><a href="#6-tellende-medlem">§ 6. Tellende medlem</a></li>
+<li class="lvl4"><a href="#7-dokumentasjon-av-medlemstall">§ 7. Dokumentasjon av medlemstall</a></li>
+<li class="lvl4"><a href="#8-tellende-lokallag">§ 8. Tellende lokallag</a></li>
+<li class="lvl4"><a href="#9-dokumentasjon-av-tellende-lokallag">§ 9. Dokumentasjon av tellende lokallag</a></li>
+<li class="lvl4"><a href="#10-tellende-likepersoner">§ 10. Tellende likepersoner</a></li>
+<li class="lvl4"><a href="#11-tellende-likepersonsaktiviteter">§ 11. Tellende likepersonsaktiviteter</a></li>
+<li class="lvl4"><a href="#12-andre-former-for-erfaringsutveksling">§ 12. Andre former for erfaringsutveksling</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon-av-tellende-likepersoner-tellende-likepersonsaktiviteter-og-andre-former-for-erfaringsutveksling">§ 13. Dokumentasjon av tellende likepersoner, tellende likepersonsaktiviteter og andre former for erfaringsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-3-kriterier-for-a-kunne-motta-tilskudd">Kapittel 3. Kriterier for å kunne motta tilskudd</a></li>
+<li class="lvl4"><a href="#14-organisasjoner-som-omfattes-av-forskriften">§ 14. Organisasjoner som omfattes av forskriften</a></li>
+<li class="lvl4"><a href="#15-unntaksbestemmelse-for-sjeldne-diagnoser">§ 15. Unntaksbestemmelse for sjeldne diagnoser</a></li>
+<li class="lvl4"><a href="#16-tilskudd-gis-ikke-til-flgende">§ 16. Tilskudd gis ikke til følgende</a></li>
+<li class="lvl2"><a href="#kapittel-4-driftstilskudd">Kapittel 4. Driftstilskudd</a></li>
+<li class="lvl4"><a href="#17-driftstilskuddet-dt">§ 17. Driftstilskuddet (DT)</a></li>
+<li class="lvl4"><a href="#18-basistilskuddet-bt">§ 18. Basistilskuddet (BT)</a></li>
+<li class="lvl4"><a href="#19-variabelt-tilskudd-vt-og-variable-utmalingskriterier-vu">§ 19. Variabelt tilskudd (VT) og variable utmålingskriterier (VU)</a></li>
+<li class="lvl4"><a href="#20-gruppefaktor-gf-og-kroner-per-poeng-kp">§ 20. Gruppefaktor (GF) og kroner per poeng (KP)</a></li>
+<li class="lvl2"><a href="#kapittel-5-gruppeplassering">Kapittel 5. Gruppeplassering</a></li>
+<li class="lvl4"><a href="#21-mal-med-gruppeplassering">§ 21. Mål med gruppeplassering</a></li>
+<li class="lvl4"><a href="#22-definisjon-av-ekstrakostnader">§ 22. Definisjon av ekstrakostnader</a></li>
+<li class="lvl4"><a href="#23-innplassering-i-grupper">§ 23. Innplassering i grupper</a></li>
+<li class="lvl4"><a href="#24-sknad-om-endring-i-gruppeplassering">§ 24. Søknad om endring i gruppeplassering</a></li>
+<li class="lvl2"><a href="#kapittel-6-uttrappings-og-sammenslaingstilskudd">Kapittel 6. Uttrappings- og sammenslåingstilskudd</a></li>
+<li class="lvl4"><a href="#25-uttrappingstilskudd">§ 25. Uttrappingstilskudd</a></li>
+<li class="lvl4"><a href="#26-sammenslaingstilskudd">§ 26. Sammenslåingstilskudd</a></li>
+<li class="lvl2"><a href="#kapittel-7-dokumentasjonsbestemmelser">Kapittel 7. Dokumentasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#27-generelt-om-dokumentasjon">§ 27. Generelt om dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-8-sknad-og-revisjon">Kapittel 8. Søknad og revisjon</a></li>
+<li class="lvl4"><a href="#28-krav-til-sknader">§ 28. Krav til søknader</a></li>
+<li class="lvl4"><a href="#29-sknadsfrist">§ 29. Søknadsfrist</a></li>
+<li class="lvl4"><a href="#30-ufullstendige-sknader">§ 30. Ufullstendige søknader</a></li>
+<li class="lvl4"><a href="#31-revisjon">§ 31. Revisjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-kunngjring-utbetaling-og-klage">Kapittel 9. Kunngjøring, utbetaling og klage</a></li>
+<li class="lvl4"><a href="#32-utbetaling">§ 32. Utbetaling</a></li>
+<li class="lvl4"><a href="#33-tilskuddsmottaker">§ 33. Tilskuddsmottaker</a></li>
+<li class="lvl4"><a href="#34-hva-tilskuddet-ikke-kan-benyttes-til">§ 34. Hva tilskuddet ikke kan benyttes til</a></li>
+<li class="lvl4"><a href="#35-opplysning-om-vedtak">§ 35. Opplysning om vedtak</a></li>
+<li class="lvl4"><a href="#36-klageadgang">§ 36. Klageadgang</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll-og-sanksjoner-ved-brudd-pa-forskriften">Kapittel 10. Kontroll og sanksjoner ved brudd på forskriften</a></li>
+<li class="lvl4"><a href="#37-kontroll">§ 37. Kontroll</a></li>
+<li class="lvl4"><a href="#38-sanksjoner-ved-brudd-pa-forskriften">§ 38. Sanksjoner ved brudd på forskriften</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilskuddsmyndighetene">Kapittel 11. Tilskuddsmyndighetene</a></li>
+<li class="lvl4"><a href="#39-ekspertutvalget">§ 39. Ekspertutvalget</a></li>
+<li class="lvl4"><a href="#40-departementet">§ 40. Departementet</a></li>
+<li class="lvl4"><a href="#41-direktoratet">§ 41. Direktoratet</a></li>
+<li class="lvl2"><a href="#kapittel-12-srskilte-bestemmelser">Kapittel 12. Særskilte bestemmelser</a></li>
+<li class="lvl4"><a href="#42-paraplyorganisasjoner">§ 42. Paraplyorganisasjoner</a></li>
+<li class="lvl4"><a href="#43-dvblindes-organisasjoner">§ 43. Døvblindes organisasjoner</a></li>
+<li class="lvl4"><a href="#44-stiftelser">§ 44. Stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-dispensasjonsbestemmelser">Kapittel 13. Ikrafttredelse og dispensasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#46-dispensasjonsbestemmelser">§ 46. Dispensasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#47-midlertidige-bestemmelser-for-tilskuddsarene-2022-og-2023">§ 47. Midlertidige bestemmelser for tilskuddsårene 2022 og 2023</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2023-01-01-122.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tilskudd til funksjonshemmedes organisasjoner</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2023-01-01-122.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2023-01-01-122 <code>forskrift/2023-01-01-122</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kultur- og likestillingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2023-01-01-122" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-mal">§ 1. Mål</a></li>
+<li class="lvl4"><a href="#2-opplysningsplikt">§ 2. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#3-kriterier-for-maloppnaelse">§ 3. Kriterier for måloppnåelse</a></li>
+<li class="lvl2"><a href="#kapittel-2-definisjoner">Kapittel 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-generelle-definisjoner">§ 4. Generelle definisjoner</a></li>
+<li class="lvl4"><a href="#5-kontingent">§ 5. Kontingent</a></li>
+<li class="lvl4"><a href="#6-tellende-medlem">§ 6. Tellende medlem</a></li>
+<li class="lvl4"><a href="#7-dokumentasjon-av-medlemstall">§ 7. Dokumentasjon av medlemstall</a></li>
+<li class="lvl4"><a href="#8-tellende-lokallag">§ 8. Tellende lokallag</a></li>
+<li class="lvl4"><a href="#9-dokumentasjon-av-tellende-lokallag">§ 9. Dokumentasjon av tellende lokallag</a></li>
+<li class="lvl4"><a href="#10-tellende-likepersoner">§ 10. Tellende likepersoner</a></li>
+<li class="lvl4"><a href="#11-tellende-likepersonsaktiviteter">§ 11. Tellende likepersonsaktiviteter</a></li>
+<li class="lvl4"><a href="#12-andre-former-for-erfaringsutveksling">§ 12. Andre former for erfaringsutveksling</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon-av-tellende-likepersoner-tellende-likepersonsaktiviteter-og-andre-former-for-erfaringsutveksling">§ 13. Dokumentasjon av tellende likepersoner, tellende likepersonsaktiviteter og andre former for erfaringsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-3-kriterier-for-a-kunne-motta-tilskudd">Kapittel 3. Kriterier for å kunne motta tilskudd</a></li>
+<li class="lvl4"><a href="#14-organisasjoner-som-omfattes-av-forskriften">§ 14. Organisasjoner som omfattes av forskriften</a></li>
+<li class="lvl4"><a href="#15-unntaksbestemmelse-for-sjeldne-diagnoser">§ 15. Unntaksbestemmelse for sjeldne diagnoser</a></li>
+<li class="lvl4"><a href="#16-tilskudd-gis-ikke-til-flgende">§ 16. Tilskudd gis ikke til følgende</a></li>
+<li class="lvl2"><a href="#kapittel-4-driftstilskudd">Kapittel 4. Driftstilskudd</a></li>
+<li class="lvl4"><a href="#17-driftstilskuddet-dt">§ 17. Driftstilskuddet (DT)</a></li>
+<li class="lvl4"><a href="#18-basistilskuddet-bt">§ 18. Basistilskuddet (BT)</a></li>
+<li class="lvl4"><a href="#19-variabelt-tilskudd-vt-og-variable-utmalingskriterier-vu">§ 19. Variabelt tilskudd (VT) og variable utmålingskriterier (VU)</a></li>
+<li class="lvl4"><a href="#20-gruppefaktor-gf-og-kroner-per-poeng-kp">§ 20. Gruppefaktor (GF) og kroner per poeng (KP)</a></li>
+<li class="lvl2"><a href="#kapittel-5-gruppeplassering">Kapittel 5. Gruppeplassering</a></li>
+<li class="lvl4"><a href="#21-mal-med-gruppeplassering">§ 21. Mål med gruppeplassering</a></li>
+<li class="lvl4"><a href="#22-definisjon-av-ekstrakostnader">§ 22. Definisjon av ekstrakostnader</a></li>
+<li class="lvl4"><a href="#23-innplassering-i-grupper">§ 23. Innplassering i grupper</a></li>
+<li class="lvl4"><a href="#24-sknad-om-endring-i-gruppeplassering">§ 24. Søknad om endring i gruppeplassering</a></li>
+<li class="lvl2"><a href="#kapittel-6-uttrappings-og-sammenslaingstilskudd">Kapittel 6. Uttrappings- og sammenslåingstilskudd</a></li>
+<li class="lvl4"><a href="#25-uttrappingstilskudd">§ 25. Uttrappingstilskudd</a></li>
+<li class="lvl4"><a href="#26-sammenslaingstilskudd">§ 26. Sammenslåingstilskudd</a></li>
+<li class="lvl2"><a href="#kapittel-7-dokumentasjonsbestemmelser">Kapittel 7. Dokumentasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#27-generelt-om-dokumentasjon">§ 27. Generelt om dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-8-sknad-og-revisjon">Kapittel 8. Søknad og revisjon</a></li>
+<li class="lvl4"><a href="#28-krav-til-sknader">§ 28. Krav til søknader</a></li>
+<li class="lvl4"><a href="#29-sknadsfrist">§ 29. Søknadsfrist</a></li>
+<li class="lvl4"><a href="#30-ufullstendige-sknader">§ 30. Ufullstendige søknader</a></li>
+<li class="lvl4"><a href="#31-revisjon">§ 31. Revisjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-kunngjring-utbetaling-og-klage">Kapittel 9. Kunngjøring, utbetaling og klage</a></li>
+<li class="lvl4"><a href="#32-utbetaling">§ 32. Utbetaling</a></li>
+<li class="lvl4"><a href="#33-tilskuddsmottaker">§ 33. Tilskuddsmottaker</a></li>
+<li class="lvl4"><a href="#34-hva-tilskuddet-ikke-kan-benyttes-til">§ 34. Hva tilskuddet ikke kan benyttes til</a></li>
+<li class="lvl4"><a href="#35-opplysning-om-vedtak">§ 35. Opplysning om vedtak</a></li>
+<li class="lvl4"><a href="#36-klageadgang">§ 36. Klageadgang</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll-og-sanksjoner-ved-brudd-pa-forskriften">Kapittel 10. Kontroll og sanksjoner ved brudd på forskriften</a></li>
+<li class="lvl4"><a href="#37-kontroll">§ 37. Kontroll</a></li>
+<li class="lvl4"><a href="#38-sanksjoner-ved-brudd-pa-forskriften">§ 38. Sanksjoner ved brudd på forskriften</a></li>
+<li class="lvl2"><a href="#kapittel-11-tilskuddsmyndighetene">Kapittel 11. Tilskuddsmyndighetene</a></li>
+<li class="lvl4"><a href="#39-ekspertutvalget">§ 39. Ekspertutvalget</a></li>
+<li class="lvl4"><a href="#40-departementet">§ 40. Departementet</a></li>
+<li class="lvl4"><a href="#41-direktoratet">§ 41. Direktoratet</a></li>
+<li class="lvl2"><a href="#kapittel-12-srskilte-bestemmelser">Kapittel 12. Særskilte bestemmelser</a></li>
+<li class="lvl4"><a href="#42-paraplyorganisasjoner">§ 42. Paraplyorganisasjoner</a></li>
+<li class="lvl4"><a href="#43-dvblindes-organisasjoner">§ 43. Døvblindes organisasjoner</a></li>
+<li class="lvl4"><a href="#44-stiftelser">§ 44. Stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-dispensasjonsbestemmelser">Kapittel 13. Ikrafttredelse og dispensasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#46-dispensasjonsbestemmelser">§ 46. Dispensasjonsbestemmelser</a></li>
+<li class="lvl4"><a href="#47-midlertidige-bestemmelser-for-tilskuddsarene-2022-og-2023">§ 47. Midlertidige bestemmelser for tilskuddsårene 2022 og 2023</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2023-01-01-122.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2023-01-01-122.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2023-01-01-122.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2023-01-01-122.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2023-01-01-122.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tilskudd-til-funksjonshemmedes-organisasjoner">Forskrift om tilskudd til funksjonshemmedes organisasjoner</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-mal">§ 1. Mål</h4>
 <p>Målet med tilskuddsordningen er å styrke mulighetene for frivillige og demokratiske landsomfattende organisasjoner for personer med funksjonsnedsettelse til å jobbe mot diskriminering og for likestilling av personer med funksjonsnedsettelser i samfunnet.</p>
@@ -332,6 +497,8 @@ b. Krav om at et lokallag må ha minst en medlemsrettet aktivitet i året utover
 <h4 id="47-midlertidige-bestemmelser-for-tilskuddsarene-2022-og-2023">§ 47. Midlertidige bestemmelser for tilskuddsårene 2022 og 2023</h4>
 <p>For å beregne det variable tilskuddet i tilskuddsåret 2022, se § 18 og § 19 , benyttes poengsummene fra grunnlagstallene for hver organisasjon fra grunnlagsåret 2019. En organisasjon kan søke om å dispensere fra denne regelen dersom den har uvanlig lave grunnlagstall i 2019. Bufdir kan da benytte et gjennomsnitt av poengsummene for grunnlagsårene 2017–2019. Organisasjoner som ikke har mottatt tilskudd i tilskuddsårene 2017–2021, kan enten benytte grunnlagstallene i 2019 eller 2021.</p>
 <p>For å beregne det variable tilskuddet i tilskuddsåret 2023, se § 18 og § 19 , benyttes poengsummene fra grunnlagstallene for hver organisasjon fra enten grunnlagsåret 2019 eller 2021. Organisasjonene kan selv velge hvilket år de vil bruke som grunnlagsår. Dersom en organisasjon har uvanlig lave grunnlagstall i 2019 og 2021, kan den søke Bufdir om å få bruke et gjennomsnitt av poengene for grunnlagsårene 2017 til 2019. Organisasjoner som ikke har mottatt tilskudd i tilskuddsårene 2017–2021, kan enten benytte grunnlagstallene i 2019 eller 2021.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

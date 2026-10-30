@@ -19,64 +19,565 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2018-06-22-83.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Kommuneloven" href="../feeds/lov-2018-06-22-83.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Kommuneloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2018-06-22-83</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Forvaltnings- og kommunalrett &raquo; Kommuner og fylkeskommuner</dd>
-<dt>Ikrafttredelse</dt><dd>2019-11-01, 2020-01-01, 2019-10-03, 2021-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-96</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2018-06-22-83" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-del-generelle-bestemmelser">Første del. Generelle bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl5"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl5"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl3"><a href="#kapittel-2-det-kommunale-og-fylkeskommunale-selvstyret">Kapittel 2. Det kommunale og fylkeskommunale selvstyret</a></li>
+<li class="lvl5"><a href="#2-1-kommunalt-og-fylkeskommunalt-selvstyre">§ 2-1. Kommunalt og fylkeskommunalt selvstyre</a></li>
+<li class="lvl5"><a href="#2-2-prinsipper-for-nasjonale-myndigheters-forhold-til-det-kommunale-og-fylkeskommunale-selvstyret">§ 2-2. Prinsipper for nasjonale myndigheters forhold til det kommunale og fylkeskommunale selvstyret</a></li>
+<li class="lvl3"><a href="#kapittel-3-kommuneinndeling-og-kommunenavn-mv">Kapittel 3. Kommuneinndeling og kommunenavn mv.</a></li>
+<li class="lvl5"><a href="#3-1-kommuneinndeling-og-kommunenavn">§ 3-1. Kommuneinndeling og kommunenavn</a></li>
+<li class="lvl5"><a href="#3-2-kommunevapen-og-kommuneflagg">§ 3-2. Kommunevåpen og kommuneflagg</a></li>
+<li class="lvl3"><a href="#kapittel-4-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">Kapittel 4. Informasjon om kommunens og fylkeskommunens virksomhet</a></li>
+<li class="lvl5"><a href="#4-1-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">§ 4-1. Informasjon om kommunens og fylkeskommunens virksomhet</a></li>
+<li class="lvl2"><a href="#andre-del-folkevalgte">Andre del. Folkevalgte</a></li>
+<li class="lvl3"><a href="#kapittel-5-kommunal-organisering-folkevalgte-organer">Kapittel 5. Kommunal organisering. Folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-1-folkevalgte-organer">§ 5-1. Folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-2-andre-kommunale-organer">§ 5-2. Andre kommunale organer</a></li>
+<li class="lvl5"><a href="#5-3-kommunestyre-og-fylkesting-intern-delegering">§ 5-3. Kommunestyre og fylkesting. Intern delegering</a></li>
+<li class="lvl5"><a href="#5-4-kommunestyrets-og-fylkestingets-adgang-til-a-delegere-vedtaksmyndighet-til-andre-rettssubjekter">§ 5-4. Kommunestyrets og fylkestingets adgang til å delegere vedtaksmyndighet til andre rettssubjekter</a></li>
+<li class="lvl5"><a href="#5-5-kommunestyrets-og-fylkestingets-sammensetning">§ 5-5. Kommunestyrets og fylkestingets sammensetning</a></li>
+<li class="lvl5"><a href="#5-6-formannskap-og-fylkesutvalg">§ 5-6. Formannskap og fylkesutvalg</a></li>
+<li class="lvl5"><a href="#5-7-utvalg">§ 5-7. Utvalg</a></li>
+<li class="lvl5"><a href="#5-8-direkte-valg-til-kommunedelsutvalg">§ 5-8. Direkte valg til kommunedelsutvalg</a></li>
+<li class="lvl5"><a href="#5-9-kommunestyre-og-fylkestingskomiteer">§ 5-9. Kommunestyre- og fylkestingskomiteer</a></li>
+<li class="lvl5"><a href="#5-10-styre-for-institusjon">§ 5-10. Styre for institusjon</a></li>
+<li class="lvl5"><a href="#5-11-partssammensatte-utvalg-administrasjonsutvalg">§ 5-11. Partssammensatte utvalg (administrasjonsutvalg)</a></li>
+<li class="lvl5"><a href="#5-12-eldrerad-rad-for-personer-med-funksjonsnedsettelse-og-ungdomsrad-eller-annet-medvirkningsorgan-for-ungdom">§ 5-12. Eldreråd, råd for personer med funksjonsnedsettelse og ungdomsråd eller annet medvirkningsorgan for ungdom</a></li>
+<li class="lvl5"><a href="#5-13-reglement-for-folkevalgte-organer">§ 5-13. Reglement for folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-14-reglement-for-delegering-og-innstilling">§ 5-14. Reglement for delegering og innstilling</a></li>
+<li class="lvl5"><a href="#5-15-overdragelse-av-tariffavtalemyndighet">§ 5-15. Overdragelse av tariffavtalemyndighet</a></li>
+<li class="lvl3"><a href="#kapittel-6-ordfrer">Kapittel 6. Ordfører</a></li>
+<li class="lvl5"><a href="#6-1-ordfrerens-myndighet-og-oppgaver">§ 6-1. Ordførerens myndighet og oppgaver</a></li>
+<li class="lvl5"><a href="#6-2-valg-av-ordfrer-og-varaordfrer">§ 6-2. Valg av ordfører og varaordfører</a></li>
+<li class="lvl3"><a href="#kapittel-7-valg-til-folkevalgte-organer">Kapittel 7. Valg til folkevalgte organer</a></li>
+<li class="lvl5"><a href="#7-1-konstituerende-mte-i-kommunestyret-og-fylkestinget">§ 7-1. Konstituerende møte i kommunestyret og fylkestinget</a></li>
+<li class="lvl5"><a href="#7-2-valgbarhet-og-plikt-til-a-ta-imot-valg">§ 7-2. Valgbarhet og plikt til å ta imot valg</a></li>
+<li class="lvl5"><a href="#7-2-a-opphevet">§ 7-2 a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-3-utelukket-fra-valg">§ 7-3. Utelukket fra valg</a></li>
+<li class="lvl5"><a href="#7-4-forholdsvalg-avtalevalg-eller-flertallsvalg">§ 7-4. Forholdsvalg, avtalevalg eller flertallsvalg</a></li>
+<li class="lvl5"><a href="#7-5-listeforslag-ved-forholdsvalg">§ 7-5. Listeforslag ved forholdsvalg</a></li>
+<li class="lvl5"><a href="#7-6-valgoppgjr-ved-forholdsvalg">§ 7-6. Valgoppgjør ved forholdsvalg</a></li>
+<li class="lvl5"><a href="#7-7-avtalevalg">§ 7-7. Avtalevalg</a></li>
+<li class="lvl5"><a href="#7-8-flertallsvalg">§ 7-8. Flertallsvalg</a></li>
+<li class="lvl5"><a href="#7-9-uttreden-og-fritak">§ 7-9. Uttreden og fritak</a></li>
+<li class="lvl5"><a href="#7-10-opprykk-nyvalg-og-suppleringsvalg">§ 7-10. Opprykk, nyvalg og suppleringsvalg</a></li>
+<li class="lvl5"><a href="#7-11-settemedlemmer">§ 7-11. Settemedlemmer</a></li>
+<li class="lvl5"><a href="#7-12-suspensjon-ol">§ 7-12. Suspensjon o.l.</a></li>
+<li class="lvl3"><a href="#kapittel-8-rettigheter-og-plikter-for-folkevalgte">Kapittel 8. Rettigheter og plikter for folkevalgte</a></li>
+<li class="lvl5"><a href="#8-1-rett-og-plikt-til-a-delta-i-mte">§ 8-1. Rett og plikt til å delta i møte</a></li>
+<li class="lvl5"><a href="#8-2-rett-til-fri-fra-arbeid">§ 8-2. Rett til fri fra arbeid</a></li>
+<li class="lvl5"><a href="#8-3-dekning-av-utgifter-og-konomisk-tap">§ 8-3. Dekning av utgifter og økonomisk tap</a></li>
+<li class="lvl5"><a href="#8-4-arbeidsgodtgjring">§ 8-4. Arbeidsgodtgjøring</a></li>
+<li class="lvl5"><a href="#8-5-godtgjring-ved-frikjp">§ 8-5. Godtgjøring ved frikjøp</a></li>
+<li class="lvl5"><a href="#8-6-ettergodtgjring">§ 8-6. Ettergodtgjøring</a></li>
+<li class="lvl5"><a href="#8-7-pensjonsordning">§ 8-7. Pensjonsordning</a></li>
+<li class="lvl5"><a href="#8-8-rett-til-sykepenger">§ 8-8. Rett til sykepenger</a></li>
+<li class="lvl5"><a href="#8-9-rettigheter-ved-yrkesskade">§ 8-9. Rettigheter ved yrkesskade</a></li>
+<li class="lvl5"><a href="#8-10-permisjoner">§ 8-10. Permisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-9-kommunale-og-fylkeskommunale-foretak">Kapittel 9. Kommunale og fylkeskommunale foretak</a></li>
+<li class="lvl5"><a href="#9-1-opprettelse-av-kommunale-eller-fylkeskommunale-foretak">§ 9-1. Opprettelse av kommunale eller fylkeskommunale foretak</a></li>
+<li class="lvl5"><a href="#9-2-delegering-av-myndighet-til-kommuneradet-eller-fylkesradet">§ 9-2. Delegering av myndighet til kommunerådet eller fylkesrådet</a></li>
+<li class="lvl5"><a href="#9-3-vedtekter">§ 9-3. Vedtekter</a></li>
+<li class="lvl5"><a href="#9-4-foretakets-ledelse">§ 9-4. Foretakets ledelse</a></li>
+<li class="lvl5"><a href="#9-5-styrets-sammensetning">§ 9-5. Styrets sammensetning</a></li>
+<li class="lvl5"><a href="#9-6-ansattes-rett-til-a-velge-styremedlemmer">§ 9-6. Ansattes rett til å velge styremedlemmer</a></li>
+<li class="lvl5"><a href="#9-7-valgperiode-for-styremedlemmene">§ 9-7. Valgperiode for styremedlemmene</a></li>
+<li class="lvl5"><a href="#9-8-styrets-myndighet">§ 9-8. Styrets myndighet</a></li>
+<li class="lvl5"><a href="#9-9-styremter">§ 9-9. Styremøter</a></li>
+<li class="lvl5"><a href="#9-10-vedtak-som-ma-godkjennes-av-kommunestyret-eller-fylkestinget">§ 9-10. Vedtak som må godkjennes av kommunestyret eller fylkestinget</a></li>
+<li class="lvl5"><a href="#9-11-daglig-leder">§ 9-11. Daglig leder</a></li>
+<li class="lvl5"><a href="#9-12-daglig-leders-myndighet">§ 9-12. Daglig leders myndighet</a></li>
+<li class="lvl5"><a href="#9-13-internkontroll-i-kommunalt-og-fylkeskommunalt-foretak">§ 9-13. Internkontroll i kommunalt og fylkeskommunalt foretak</a></li>
+<li class="lvl5"><a href="#9-14-rapportering-til-styret-i-foretaket-om-internkontroll-og-statlig-tilsyn">§ 9-14. Rapportering til styret i foretaket om internkontroll og statlig tilsyn</a></li>
+<li class="lvl5"><a href="#9-15-budsjettstyring">§ 9-15. Budsjettstyring</a></li>
+<li class="lvl5"><a href="#9-16-forholdet-til-kommunens-eller-fylkeskommunens-administrasjon">§ 9-16. Forholdet til kommunens eller fylkeskommunens administrasjon</a></li>
+<li class="lvl5"><a href="#9-17-representasjon">§ 9-17. Representasjon</a></li>
+<li class="lvl5"><a href="#9-18-overskridelse-av-representasjonsretten">§ 9-18. Overskridelse av representasjonsretten</a></li>
+<li class="lvl3"><a href="#kapittel-10-parlamentarisk-styreform">Kapittel 10. Parlamentarisk styreform</a></li>
+<li class="lvl5"><a href="#10-1-innfring-og-oppheving-av-parlamentarisk-styreform">§ 10-1. Innføring og oppheving av parlamentarisk styreform</a></li>
+<li class="lvl5"><a href="#10-2-kommunerad-og-fylkesrad">§ 10-2. Kommuneråd og fylkesråd</a></li>
+<li class="lvl5"><a href="#10-3-mteplikt-mte-og-talerett">§ 10-3. Møteplikt. Møte- og talerett</a></li>
+<li class="lvl5"><a href="#10-4-valg-av-kommunerad-eller-fylkesrad">§ 10-4. Valg av kommuneråd eller fylkesråd</a></li>
+<li class="lvl5"><a href="#10-5-utpeking-av-kommuneradsleder-eller-fylkesradsleder">§ 10-5. Utpeking av kommunerådsleder eller fylkesrådsleder</a></li>
+<li class="lvl5"><a href="#10-6-politiske-stillinger">§ 10-6. Politiske stillinger</a></li>
+<li class="lvl5"><a href="#10-7-fratreden">§ 10-7. Fratreden</a></li>
+<li class="lvl5"><a href="#10-8-styrer">§ 10-8. Styrer</a></li>
+<li class="lvl5"><a href="#10-9-forslagsrett">§ 10-9. Forslagsrett</a></li>
+<li class="lvl5"><a href="#10-10-kontorlokaler-og-assistanse">§ 10-10. Kontorlokaler og assistanse</a></li>
+<li class="lvl3"><a href="#kapittel-11-saksbehandling-i-folkevalgte-organer">Kapittel 11. Saksbehandling i folkevalgte organer</a></li>
+<li class="lvl5"><a href="#11-1-virkeomrade">§ 11-1. Virkeområde</a></li>
+<li class="lvl5"><a href="#11-2-mte">§ 11-2. Møte</a></li>
+<li class="lvl5"><a href="#11-3-innkalling-og-saksliste">§ 11-3. Innkalling og saksliste</a></li>
+<li class="lvl5"><a href="#11-4-mtebok">§ 11-4. Møtebok</a></li>
+<li class="lvl5"><a href="#11-5-mteoffentlighet">§ 11-5. Møteoffentlighet</a></li>
+<li class="lvl5"><a href="#11-6-lyd-og-bildeopptak">§ 11-6. Lyd- og bildeopptak</a></li>
+<li class="lvl5"><a href="#11-7-fjernmter">§ 11-7. Fjernmøter</a></li>
+<li class="lvl5"><a href="#11-8-hastesaker">§ 11-8. Hastesaker</a></li>
+<li class="lvl5"><a href="#11-9-vedtaksfrhet-og-avstemninger">§ 11-9. Vedtaksførhet og avstemninger</a></li>
+<li class="lvl5"><a href="#11-10-inhabilitet-for-folkevalgte">§ 11-10. Inhabilitet for folkevalgte</a></li>
+<li class="lvl5"><a href="#11-11-fritak-av-personlige-grunner">§ 11-11. Fritak av personlige grunner</a></li>
+<li class="lvl5"><a href="#11-12-reglement-for-saksbehandling">§ 11-12. Reglement for saksbehandling</a></li>
+<li class="lvl5"><a href="#11-13-utvidet-innsynsrett-for-folkevalgte-organer">§ 11-13. Utvidet innsynsrett for folkevalgte organer</a></li>
+<li class="lvl2"><a href="#tredje-del-innbyggerdeltakelse">Tredje del. Innbyggerdeltakelse</a></li>
+<li class="lvl3"><a href="#kapittel-12-innbyggerdeltakelse">Kapittel 12. Innbyggerdeltakelse</a></li>
+<li class="lvl5"><a href="#12-1-innbyggerforslag">§ 12-1. Innbyggerforslag</a></li>
+<li class="lvl5"><a href="#12-2-folkeavstemninger">§ 12-2. Folkeavstemninger</a></li>
+<li class="lvl2"><a href="#fjerde-del-administrasjonen">Fjerde del. Administrasjonen</a></li>
+<li class="lvl3"><a href="#kapittel-13-administrasjonen">Kapittel 13. Administrasjonen</a></li>
+<li class="lvl5"><a href="#13-1-kommunedirektr-myndighet-og-oppgaver">§ 13-1. Kommunedirektør. Myndighet og oppgaver</a></li>
+<li class="lvl5"><a href="#13-2-aremal-og-ombud">§ 13-2. Åremål og ombud</a></li>
+<li class="lvl5"><a href="#13-3-inhabilitet-for-ansatte">§ 13-3. Inhabilitet for ansatte</a></li>
+<li class="lvl5"><a href="#13-4-mterett-for-ansattes-representanter-i-folkevalgte-organer">§ 13-4. Møterett for ansattes representanter i folkevalgte organer</a></li>
+<li class="lvl5"><a href="#13-5-pensjonsordning-for-ansatte">§ 13-5. Pensjonsordning for ansatte</a></li>
+<li class="lvl2"><a href="#femte-del-konomi">Femte del. Økonomi</a></li>
+<li class="lvl3"><a href="#kapittel-14-konomiforvaltning">Kapittel 14. Økonomiforvaltning</a></li>
+<li class="lvl5"><a href="#14-1-grunnleggende-krav-til-konomiforvaltningen">§ 14-1. Grunnleggende krav til økonomiforvaltningen</a></li>
+<li class="lvl5"><a href="#14-2-kommunestyrets-og-fylkestingets-plikter">§ 14-2. Kommunestyrets og fylkestingets plikter</a></li>
+<li class="lvl5"><a href="#14-3-behandling-av-konomiplan-arsbudsjett-arsregnskap-og-arsberetning">§ 14-3. Behandling av økonomiplan, årsbudsjett, årsregnskap og årsberetning</a></li>
+<li class="lvl5"><a href="#14-4-konomiplan-og-arsbudsjett">§ 14-4. Økonomiplan og årsbudsjett</a></li>
+<li class="lvl5"><a href="#14-5-arsbudsjettets-bindende-virkning-budsjettstyring">§ 14-5. Årsbudsjettets bindende virkning. Budsjettstyring</a></li>
+<li class="lvl5"><a href="#14-6-arsregnskap-og-bokfring">§ 14-6. Årsregnskap og bokføring</a></li>
+<li class="lvl5"><a href="#14-7-arsberetning">§ 14-7. Årsberetning</a></li>
+<li class="lvl5"><a href="#14-8-budsjett-regnskap-og-arsberetning-for-interkommunalt-politisk-rad-og-kommunalt-oppgavefellesskap">§ 14-8. Budsjett, regnskap og årsberetning for interkommunalt politisk råd og kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#14-9-skillet-mellom-drift-og-investering-i-konomiplan-arsbudsjett-og-arsregnskap">§ 14-9. Skillet mellom drift og investering i økonomiplan, årsbudsjett og årsregnskap</a></li>
+<li class="lvl5"><a href="#14-10-balanse-i-konomiplanen-og-arsbudsjettet">§ 14-10. Balanse i økonomiplanen og årsbudsjettet</a></li>
+<li class="lvl5"><a href="#14-11-inndekning-av-merforbruk-i-kommunekassen-og-fylkeskommunekassen">§ 14-11. Inndekning av merforbruk i kommunekassen og fylkeskommunekassen</a></li>
+<li class="lvl5"><a href="#14-12-inndekning-av-merforbruk-i-kommunalt-og-fylkeskommunalt-foretak-interkommunalt-politisk-rad-og-kommunalt-oppgavefellesskap">§ 14-12. Inndekning av merforbruk i kommunalt og fylkeskommunalt foretak, interkommunalt politisk råd og kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#14-13-finans-og-gjeldsforvaltning">§ 14-13. Finans- og gjeldsforvaltning</a></li>
+<li class="lvl5"><a href="#14-14-vilkar-for-a-ta-opp-lan">§ 14-14. Vilkår for å ta opp lån</a></li>
+<li class="lvl5"><a href="#14-15-lan-til-egne-investeringer-driftskreditt">§ 14-15. Lån til egne investeringer. Driftskreditt</a></li>
+<li class="lvl5"><a href="#14-16-lan-til-andres-investeringer-lan-til-innfrielse-av-kausjoner">§ 14-16. Lån til andres investeringer. Lån til innfrielse av kausjoner</a></li>
+<li class="lvl5"><a href="#14-17-lan-til-videre-utlan-og-mottatte-avdrag-pa-videreutlan">§ 14-17. Lån til videre utlån og mottatte avdrag på videreutlån</a></li>
+<li class="lvl5"><a href="#14-18-avdrag-pa-lan">§ 14-18. Avdrag på lån</a></li>
+<li class="lvl5"><a href="#14-19-garantier">§ 14-19. Garantier</a></li>
+<li class="lvl5"><a href="#14-20-pantsetting-for-andres-gjeld">§ 14-20. Pantsetting for andres gjeld</a></li>
+<li class="lvl5"><a href="#14-21-overdragelse-av-krav-pa-skatter-og-avgifter">§ 14-21. Overdragelse av krav på skatter og avgifter</a></li>
+<li class="lvl5"><a href="#14-22-motregning">§ 14-22. Motregning</a></li>
+<li class="lvl3"><a href="#kapittel-15-selvkost">Kapittel 15. Selvkost</a></li>
+<li class="lvl5"><a href="#15-1-beregning-av-selvkost">§ 15-1. Beregning av selvkost</a></li>
+<li class="lvl3"><a href="#kapittel-16-kommunenes-og-fylkeskommunenes-rapportering-til-staten">Kapittel 16. Kommunenes og fylkeskommunenes rapportering til staten</a></li>
+<li class="lvl5"><a href="#16-1-rapportering-til-staten-kostra">§ 16-1. Rapportering til staten (KOSTRA)</a></li>
+<li class="lvl5"><a href="#16-2-kommunalt-rapporteringsregister-kor">§ 16-2. Kommunalt rapporteringsregister (KOR)</a></li>
+<li class="lvl2"><a href="#sjette-del-interkommunalt-samarbeid">Sjette del. Interkommunalt samarbeid</a></li>
+<li class="lvl3"><a href="#kapittel-17-interkommunalt-samarbeid">Kapittel 17. Interkommunalt samarbeid</a></li>
+<li class="lvl5"><a href="#17-1-interkommunalt-samarbeid">§ 17-1. Interkommunalt samarbeid</a></li>
+<li class="lvl3"><a href="#kapittel-18-interkommunalt-politisk-rad">Kapittel 18. Interkommunalt politisk råd</a></li>
+<li class="lvl5"><a href="#18-1-interkommunalt-politisk-rad">§ 18-1. Interkommunalt politisk råd</a></li>
+<li class="lvl5"><a href="#18-2-deltakeransvar">§ 18-2. Deltakeransvar</a></li>
+<li class="lvl5"><a href="#18-3-representantskap">§ 18-3. Representantskap</a></li>
+<li class="lvl5"><a href="#18-4-samarbeidsavtale">§ 18-4. Samarbeidsavtale</a></li>
+<li class="lvl3"><a href="#kapittel-19-kommunalt-oppgavefellesskap">Kapittel 19. Kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#19-1-kommunalt-oppgavefellesskap">§ 19-1. Kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#19-2-deltakeransvar">§ 19-2. Deltakeransvar</a></li>
+<li class="lvl5"><a href="#19-3-representantskap">§ 19-3. Representantskap</a></li>
+<li class="lvl5"><a href="#19-4-samarbeidsavtale">§ 19-4. Samarbeidsavtale</a></li>
+<li class="lvl3"><a href="#kapittel-20-vertskommune">Kapittel 20. Vertskommune</a></li>
+<li class="lvl5"><a href="#20-1-vertskommunesamarbeid">§ 20-1. Vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-2-administrativt-vertskommunesamarbeid">§ 20-2. Administrativt vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-3-vertskommunesamarbeid-med-felles-folkevalgt-nemnd">§ 20-3. Vertskommunesamarbeid med felles, folkevalgt nemnd</a></li>
+<li class="lvl5"><a href="#20-4-samarbeidsavtale">§ 20-4. Samarbeidsavtale</a></li>
+<li class="lvl5"><a href="#20-5-klagebehandling-i-et-administrativt-vertskommunesamarbeid">§ 20-5. Klagebehandling i et administrativt vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-6-klagebehandling-i-et-vertskommunesamarbeid-med-felles-folkevalgt-nemnd">§ 20-6. Klagebehandling i et vertskommunesamarbeid med felles, folkevalgt nemnd</a></li>
+<li class="lvl5"><a href="#20-7-lovlighetskontroll">§ 20-7. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#20-8-opplsning-og-uttreden">§ 20-8. Oppløsning og uttreden</a></li>
+<li class="lvl5"><a href="#20-9-kontrollutvalgets-myndighet-i-en-vertskommune">§ 20-9. Kontrollutvalgets myndighet i en vertskommune</a></li>
+<li class="lvl5"><a href="#20-10-statlig-tilsyn-med-vertskommuner">§ 20-10. Statlig tilsyn med vertskommuner</a></li>
+<li class="lvl3"><a href="#kapittel-21-representasjon-av-begge-kjnn-i-styret-i-aksjeselskaper">Kapittel 21. Representasjon av begge kjønn i styret i aksjeselskaper</a></li>
+<li class="lvl5"><a href="#21-1-representasjon-av-begge-kjnn-i-styret">§ 21-1. Representasjon av begge kjønn i styret</a></li>
+<li class="lvl2"><a href="#syvende-del-egenkontroll">Syvende del. Egenkontroll</a></li>
+<li class="lvl3"><a href="#kapittel-22-kommunestyrets-og-fylkestingets-kontrollansvar">Kapittel 22. Kommunestyrets og fylkestingets kontrollansvar</a></li>
+<li class="lvl5"><a href="#22-1-kommunestyrets-og-fylkestingets-kontrollansvar">§ 22-1. Kommunestyrets og fylkestingets kontrollansvar</a></li>
+<li class="lvl3"><a href="#kapittel-23-kontrollutvalgets-virksomhet">Kapittel 23. Kontrollutvalgets virksomhet</a></li>
+<li class="lvl5"><a href="#23-1-kontrollutvalget">§ 23-1. Kontrollutvalget</a></li>
+<li class="lvl5"><a href="#23-2-kontrollutvalgets-ansvar-og-myndighet">§ 23-2. Kontrollutvalgets ansvar og myndighet</a></li>
+<li class="lvl5"><a href="#23-3-forvaltningsrevisjon">§ 23-3. Forvaltningsrevisjon</a></li>
+<li class="lvl5"><a href="#23-4-eierskapskontroll">§ 23-4. Eierskapskontroll</a></li>
+<li class="lvl5"><a href="#23-5-rapportering-til-kommunestyret-eller-fylkestinget">§ 23-5. Rapportering til kommunestyret eller fylkestinget</a></li>
+<li class="lvl5"><a href="#23-6-innsyn-og-underskelser-i-selskaper-ol">§ 23-6. Innsyn og undersøkelser i selskaper o.l.</a></li>
+<li class="lvl5"><a href="#23-7-sekretariatet">§ 23-7. Sekretariatet</a></li>
+<li class="lvl3"><a href="#kapittel-24-revisjon">Kapittel 24. Revisjon</a></li>
+<li class="lvl5"><a href="#24-1-valg-av-revisor">§ 24-1. Valg av revisor</a></li>
+<li class="lvl5"><a href="#24-2-revisors-ansvar-og-myndighet">§ 24-2. Revisors ansvar og myndighet</a></li>
+<li class="lvl5"><a href="#24-3-revisors-mterett-opplysningsplikt-mv">§ 24-3. Revisors møterett, opplysningsplikt mv.</a></li>
+<li class="lvl5"><a href="#24-4-revisors-uavhengighet-og-vandel">§ 24-4. Revisors uavhengighet og vandel</a></li>
+<li class="lvl5"><a href="#24-5-regnskapsrevisjonens-innhold">§ 24-5. Regnskapsrevisjonens innhold</a></li>
+<li class="lvl5"><a href="#24-6-revisors-plikter-ved-utfrelsen-av-regnskapsrevisjon">§ 24-6. Revisors plikter ved utførelsen av regnskapsrevisjon</a></li>
+<li class="lvl5"><a href="#24-7-skriftlige-papekninger-fra-regnskapsrevisor">§ 24-7. Skriftlige påpekninger fra regnskapsrevisor</a></li>
+<li class="lvl5"><a href="#24-8-revisjonsberetning">§ 24-8. Revisjonsberetning</a></li>
+<li class="lvl5"><a href="#24-9-forenklet-etterlevelseskontroll-med-konomi-forvaltningen">§ 24-9. Forenklet etterlevelseskontroll med økonomi- forvaltningen</a></li>
+<li class="lvl5"><a href="#24-10-innsyn-og-underskelser-i-selskaper-ol">§ 24-10. Innsyn og undersøkelser i selskaper o.l.</a></li>
+<li class="lvl3"><a href="#kapittel-25-internkontroll">Kapittel 25. Internkontroll</a></li>
+<li class="lvl5"><a href="#25-1-internkontroll-i-kommunen-og-fylkeskommunen">§ 25-1. Internkontroll i kommunen og fylkeskommunen</a></li>
+<li class="lvl5"><a href="#25-2-rapportering-til-kommunestyret-og-fylkestinget-om-internkontroll-og-statlig-tilsyn">§ 25-2. Rapportering til kommunestyret og fylkestinget om internkontroll og statlig tilsyn</a></li>
+<li class="lvl3"><a href="#kapittel-26-eierstyring">Kapittel 26. Eierstyring</a></li>
+<li class="lvl5"><a href="#26-1-eierskapsmelding">§ 26-1. Eierskapsmelding</a></li>
+<li class="lvl2"><a href="#attende-del-statlig-kontroll-og-tilsyn">Åttende del. Statlig kontroll og tilsyn</a></li>
+<li class="lvl3"><a href="#kapittel-27-lovlighetskontroll">Kapittel 27. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#27-1-lovlighetskontroll">§ 27-1. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#27-2-hva-som-kan-lovlighetskontrolleres">§ 27-2. Hva som kan lovlighetskontrolleres</a></li>
+<li class="lvl5"><a href="#27-3-innholdet-i-lovlighetskontrollen">§ 27-3. Innholdet i lovlighetskontrollen</a></li>
+<li class="lvl5"><a href="#27-4-opplysningsplikt-ved-lovlighetskontroll">§ 27-4. Opplysningsplikt ved lovlighetskontroll</a></li>
+<li class="lvl3"><a href="#kapittel-28-statlig-kontroll-med-kommuner-og-fylkeskommuner-med-konomisk-ubalanse">Kapittel 28. Statlig kontroll med kommuner og fylkeskommuner med økonomisk ubalanse</a></li>
+<li class="lvl5"><a href="#28-1-innmelding-i-registeret-om-betinget-godkjenning-og-kontroll-robek">§ 28-1. Innmelding i registeret om betinget godkjenning og kontroll (ROBEK)</a></li>
+<li class="lvl5"><a href="#28-2-robek-registerets-betydning-for-tredjeperson">§ 28-2. ROBEK-registerets betydning for tredjeperson</a></li>
+<li class="lvl5"><a href="#28-3-departementets-kontroll-med-arsbudsjett-og-laneopptak-mv">§ 28-3. Departementets kontroll med årsbudsjett og låneopptak mv.</a></li>
+<li class="lvl5"><a href="#28-4-kommunens-og-fylkeskommunens-orienteringsplikt-og-plikt-til-a-vedta-en-tiltaksplan">§ 28-4. Kommunens og fylkeskommunens orienteringsplikt og plikt til å vedta en tiltaksplan</a></li>
+<li class="lvl5"><a href="#28-5-utmelding-fra-robek-registeret">§ 28-5. Utmelding fra ROBEK-registeret</a></li>
+<li class="lvl5"><a href="#28-6-lovlighetskontroll-av-vedtak-om-arsregnskap-ved-negativ-revisjonsberetning">§ 28-6. Lovlighetskontroll av vedtak om årsregnskap ved negativ revisjonsberetning</a></li>
+<li class="lvl3"><a href="#kapittel-29-utlegg-og-konkurs-betalingsinnstilling-og-statlig-tilsynsnemnd">Kapittel 29. Utlegg og konkurs. Betalingsinnstilling og statlig tilsynsnemnd</a></li>
+<li class="lvl5"><a href="#29-1-utlegg-og-arrest-konkurs-og-gjeldsforhandling">§ 29-1. Utlegg og arrest, konkurs og gjeldsforhandling</a></li>
+<li class="lvl5"><a href="#29-2-vedtak-om-betalingsinnstilling-oppnevning-av-tilsynsnemnd">§ 29-2. Vedtak om betalingsinnstilling. Oppnevning av tilsynsnemnd</a></li>
+<li class="lvl5"><a href="#29-3-utbetalinger-etter-vedtak-om-betalingsinnstilling">§ 29-3. Utbetalinger etter vedtak om betalingsinnstilling</a></li>
+<li class="lvl5"><a href="#29-4-utarbeiding-av-en-ny-konomiplan-og-et-nytt-arsbudsjett">§ 29-4. Utarbeiding av en ny økonomiplan og et nytt årsbudsjett</a></li>
+<li class="lvl3"><a href="#kapittel-30-statlig-tilsyn">Kapittel 30. Statlig tilsyn</a></li>
+<li class="lvl5"><a href="#30-1-kapitlets-virkeomrade">§ 30-1. Kapitlets virkeområde</a></li>
+<li class="lvl5"><a href="#30-2-lovlighetstilsyn">§ 30-2. Lovlighetstilsyn</a></li>
+<li class="lvl5"><a href="#30-3-innsyn-og-underskelser">§ 30-3. Innsyn og undersøkelser</a></li>
+<li class="lvl5"><a href="#30-4-palegg-om-retting">§ 30-4. Pålegg om retting</a></li>
+<li class="lvl5"><a href="#30-5-partsrettigheter">§ 30-5. Partsrettigheter</a></li>
+<li class="lvl5"><a href="#30-6-samordning-av-statlige-tilsynsmyndigheter">§ 30-6. Samordning av statlige tilsynsmyndigheter</a></li>
+<li class="lvl5"><a href="#30-7-samordning-mellom-statlig-tilsynsvirksomhet-og-kommuner-eller-fylkeskommuner">§ 30-7. Samordning mellom statlig tilsynsvirksomhet og kommuner eller fylkeskommuner</a></li>
+<li class="lvl2"><a href="#niende-del-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Niende del. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl3"><a href="#kapittel-31-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 31. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl5"><a href="#31-1-ikrafttredelse">§ 31-1. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#31-2-overgangsregler-for-interkommunale-styrer-etter-27-ikommuneloven-av-1992">§ 31-2. Overgangsregler for interkommunale styrer etter § 27 ikommuneloven av 1992</a></li>
+<li class="lvl5"><a href="#31-3-overgangsregler-om-internkontroll">§ 31-3. Overgangsregler om internkontroll</a></li>
+<li class="lvl5"><a href="#31-4-andre-overgangsregler">§ 31-4. Andre overgangsregler</a></li>
+<li class="lvl5"><a href="#31-5-viderefring-av-forskrifter">§ 31-5. Videreføring av forskrifter</a></li>
+<li class="lvl5"><a href="#31-6-endringer-i-andre-lover">§ 31-6. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-96.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-22-83.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om kommuner og fylkeskommuner (kommuneloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-06-22-83.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2018-06-22-83 <code>lov/2018-06-22-83</code></td></tr>
+<tr><th>Korttittel</th><td>Kommuneloven</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Forvaltnings- og kommunalrett &raquo; Kommuner og fylkeskommuner</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.11.2019, 01.01.2020, 03.10.2019, 01.01.2021</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-96 <code>lov/2025-06-20-96</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2018-06-22-83" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-del-generelle-bestemmelser">Første del. Generelle bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</a></li>
+<li class="lvl5"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl5"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl3"><a href="#kapittel-2-det-kommunale-og-fylkeskommunale-selvstyret">Kapittel 2. Det kommunale og fylkeskommunale selvstyret</a></li>
+<li class="lvl5"><a href="#2-1-kommunalt-og-fylkeskommunalt-selvstyre">§ 2-1. Kommunalt og fylkeskommunalt selvstyre</a></li>
+<li class="lvl5"><a href="#2-2-prinsipper-for-nasjonale-myndigheters-forhold-til-det-kommunale-og-fylkeskommunale-selvstyret">§ 2-2. Prinsipper for nasjonale myndigheters forhold til det kommunale og fylkeskommunale selvstyret</a></li>
+<li class="lvl3"><a href="#kapittel-3-kommuneinndeling-og-kommunenavn-mv">Kapittel 3. Kommuneinndeling og kommunenavn mv.</a></li>
+<li class="lvl5"><a href="#3-1-kommuneinndeling-og-kommunenavn">§ 3-1. Kommuneinndeling og kommunenavn</a></li>
+<li class="lvl5"><a href="#3-2-kommunevapen-og-kommuneflagg">§ 3-2. Kommunevåpen og kommuneflagg</a></li>
+<li class="lvl3"><a href="#kapittel-4-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">Kapittel 4. Informasjon om kommunens og fylkeskommunens virksomhet</a></li>
+<li class="lvl5"><a href="#4-1-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">§ 4-1. Informasjon om kommunens og fylkeskommunens virksomhet</a></li>
+<li class="lvl2"><a href="#andre-del-folkevalgte">Andre del. Folkevalgte</a></li>
+<li class="lvl3"><a href="#kapittel-5-kommunal-organisering-folkevalgte-organer">Kapittel 5. Kommunal organisering. Folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-1-folkevalgte-organer">§ 5-1. Folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-2-andre-kommunale-organer">§ 5-2. Andre kommunale organer</a></li>
+<li class="lvl5"><a href="#5-3-kommunestyre-og-fylkesting-intern-delegering">§ 5-3. Kommunestyre og fylkesting. Intern delegering</a></li>
+<li class="lvl5"><a href="#5-4-kommunestyrets-og-fylkestingets-adgang-til-a-delegere-vedtaksmyndighet-til-andre-rettssubjekter">§ 5-4. Kommunestyrets og fylkestingets adgang til å delegere vedtaksmyndighet til andre rettssubjekter</a></li>
+<li class="lvl5"><a href="#5-5-kommunestyrets-og-fylkestingets-sammensetning">§ 5-5. Kommunestyrets og fylkestingets sammensetning</a></li>
+<li class="lvl5"><a href="#5-6-formannskap-og-fylkesutvalg">§ 5-6. Formannskap og fylkesutvalg</a></li>
+<li class="lvl5"><a href="#5-7-utvalg">§ 5-7. Utvalg</a></li>
+<li class="lvl5"><a href="#5-8-direkte-valg-til-kommunedelsutvalg">§ 5-8. Direkte valg til kommunedelsutvalg</a></li>
+<li class="lvl5"><a href="#5-9-kommunestyre-og-fylkestingskomiteer">§ 5-9. Kommunestyre- og fylkestingskomiteer</a></li>
+<li class="lvl5"><a href="#5-10-styre-for-institusjon">§ 5-10. Styre for institusjon</a></li>
+<li class="lvl5"><a href="#5-11-partssammensatte-utvalg-administrasjonsutvalg">§ 5-11. Partssammensatte utvalg (administrasjonsutvalg)</a></li>
+<li class="lvl5"><a href="#5-12-eldrerad-rad-for-personer-med-funksjonsnedsettelse-og-ungdomsrad-eller-annet-medvirkningsorgan-for-ungdom">§ 5-12. Eldreråd, råd for personer med funksjonsnedsettelse og ungdomsråd eller annet medvirkningsorgan for ungdom</a></li>
+<li class="lvl5"><a href="#5-13-reglement-for-folkevalgte-organer">§ 5-13. Reglement for folkevalgte organer</a></li>
+<li class="lvl5"><a href="#5-14-reglement-for-delegering-og-innstilling">§ 5-14. Reglement for delegering og innstilling</a></li>
+<li class="lvl5"><a href="#5-15-overdragelse-av-tariffavtalemyndighet">§ 5-15. Overdragelse av tariffavtalemyndighet</a></li>
+<li class="lvl3"><a href="#kapittel-6-ordfrer">Kapittel 6. Ordfører</a></li>
+<li class="lvl5"><a href="#6-1-ordfrerens-myndighet-og-oppgaver">§ 6-1. Ordførerens myndighet og oppgaver</a></li>
+<li class="lvl5"><a href="#6-2-valg-av-ordfrer-og-varaordfrer">§ 6-2. Valg av ordfører og varaordfører</a></li>
+<li class="lvl3"><a href="#kapittel-7-valg-til-folkevalgte-organer">Kapittel 7. Valg til folkevalgte organer</a></li>
+<li class="lvl5"><a href="#7-1-konstituerende-mte-i-kommunestyret-og-fylkestinget">§ 7-1. Konstituerende møte i kommunestyret og fylkestinget</a></li>
+<li class="lvl5"><a href="#7-2-valgbarhet-og-plikt-til-a-ta-imot-valg">§ 7-2. Valgbarhet og plikt til å ta imot valg</a></li>
+<li class="lvl5"><a href="#7-2-a-opphevet">§ 7-2 a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-3-utelukket-fra-valg">§ 7-3. Utelukket fra valg</a></li>
+<li class="lvl5"><a href="#7-4-forholdsvalg-avtalevalg-eller-flertallsvalg">§ 7-4. Forholdsvalg, avtalevalg eller flertallsvalg</a></li>
+<li class="lvl5"><a href="#7-5-listeforslag-ved-forholdsvalg">§ 7-5. Listeforslag ved forholdsvalg</a></li>
+<li class="lvl5"><a href="#7-6-valgoppgjr-ved-forholdsvalg">§ 7-6. Valgoppgjør ved forholdsvalg</a></li>
+<li class="lvl5"><a href="#7-7-avtalevalg">§ 7-7. Avtalevalg</a></li>
+<li class="lvl5"><a href="#7-8-flertallsvalg">§ 7-8. Flertallsvalg</a></li>
+<li class="lvl5"><a href="#7-9-uttreden-og-fritak">§ 7-9. Uttreden og fritak</a></li>
+<li class="lvl5"><a href="#7-10-opprykk-nyvalg-og-suppleringsvalg">§ 7-10. Opprykk, nyvalg og suppleringsvalg</a></li>
+<li class="lvl5"><a href="#7-11-settemedlemmer">§ 7-11. Settemedlemmer</a></li>
+<li class="lvl5"><a href="#7-12-suspensjon-ol">§ 7-12. Suspensjon o.l.</a></li>
+<li class="lvl3"><a href="#kapittel-8-rettigheter-og-plikter-for-folkevalgte">Kapittel 8. Rettigheter og plikter for folkevalgte</a></li>
+<li class="lvl5"><a href="#8-1-rett-og-plikt-til-a-delta-i-mte">§ 8-1. Rett og plikt til å delta i møte</a></li>
+<li class="lvl5"><a href="#8-2-rett-til-fri-fra-arbeid">§ 8-2. Rett til fri fra arbeid</a></li>
+<li class="lvl5"><a href="#8-3-dekning-av-utgifter-og-konomisk-tap">§ 8-3. Dekning av utgifter og økonomisk tap</a></li>
+<li class="lvl5"><a href="#8-4-arbeidsgodtgjring">§ 8-4. Arbeidsgodtgjøring</a></li>
+<li class="lvl5"><a href="#8-5-godtgjring-ved-frikjp">§ 8-5. Godtgjøring ved frikjøp</a></li>
+<li class="lvl5"><a href="#8-6-ettergodtgjring">§ 8-6. Ettergodtgjøring</a></li>
+<li class="lvl5"><a href="#8-7-pensjonsordning">§ 8-7. Pensjonsordning</a></li>
+<li class="lvl5"><a href="#8-8-rett-til-sykepenger">§ 8-8. Rett til sykepenger</a></li>
+<li class="lvl5"><a href="#8-9-rettigheter-ved-yrkesskade">§ 8-9. Rettigheter ved yrkesskade</a></li>
+<li class="lvl5"><a href="#8-10-permisjoner">§ 8-10. Permisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-9-kommunale-og-fylkeskommunale-foretak">Kapittel 9. Kommunale og fylkeskommunale foretak</a></li>
+<li class="lvl5"><a href="#9-1-opprettelse-av-kommunale-eller-fylkeskommunale-foretak">§ 9-1. Opprettelse av kommunale eller fylkeskommunale foretak</a></li>
+<li class="lvl5"><a href="#9-2-delegering-av-myndighet-til-kommuneradet-eller-fylkesradet">§ 9-2. Delegering av myndighet til kommunerådet eller fylkesrådet</a></li>
+<li class="lvl5"><a href="#9-3-vedtekter">§ 9-3. Vedtekter</a></li>
+<li class="lvl5"><a href="#9-4-foretakets-ledelse">§ 9-4. Foretakets ledelse</a></li>
+<li class="lvl5"><a href="#9-5-styrets-sammensetning">§ 9-5. Styrets sammensetning</a></li>
+<li class="lvl5"><a href="#9-6-ansattes-rett-til-a-velge-styremedlemmer">§ 9-6. Ansattes rett til å velge styremedlemmer</a></li>
+<li class="lvl5"><a href="#9-7-valgperiode-for-styremedlemmene">§ 9-7. Valgperiode for styremedlemmene</a></li>
+<li class="lvl5"><a href="#9-8-styrets-myndighet">§ 9-8. Styrets myndighet</a></li>
+<li class="lvl5"><a href="#9-9-styremter">§ 9-9. Styremøter</a></li>
+<li class="lvl5"><a href="#9-10-vedtak-som-ma-godkjennes-av-kommunestyret-eller-fylkestinget">§ 9-10. Vedtak som må godkjennes av kommunestyret eller fylkestinget</a></li>
+<li class="lvl5"><a href="#9-11-daglig-leder">§ 9-11. Daglig leder</a></li>
+<li class="lvl5"><a href="#9-12-daglig-leders-myndighet">§ 9-12. Daglig leders myndighet</a></li>
+<li class="lvl5"><a href="#9-13-internkontroll-i-kommunalt-og-fylkeskommunalt-foretak">§ 9-13. Internkontroll i kommunalt og fylkeskommunalt foretak</a></li>
+<li class="lvl5"><a href="#9-14-rapportering-til-styret-i-foretaket-om-internkontroll-og-statlig-tilsyn">§ 9-14. Rapportering til styret i foretaket om internkontroll og statlig tilsyn</a></li>
+<li class="lvl5"><a href="#9-15-budsjettstyring">§ 9-15. Budsjettstyring</a></li>
+<li class="lvl5"><a href="#9-16-forholdet-til-kommunens-eller-fylkeskommunens-administrasjon">§ 9-16. Forholdet til kommunens eller fylkeskommunens administrasjon</a></li>
+<li class="lvl5"><a href="#9-17-representasjon">§ 9-17. Representasjon</a></li>
+<li class="lvl5"><a href="#9-18-overskridelse-av-representasjonsretten">§ 9-18. Overskridelse av representasjonsretten</a></li>
+<li class="lvl3"><a href="#kapittel-10-parlamentarisk-styreform">Kapittel 10. Parlamentarisk styreform</a></li>
+<li class="lvl5"><a href="#10-1-innfring-og-oppheving-av-parlamentarisk-styreform">§ 10-1. Innføring og oppheving av parlamentarisk styreform</a></li>
+<li class="lvl5"><a href="#10-2-kommunerad-og-fylkesrad">§ 10-2. Kommuneråd og fylkesråd</a></li>
+<li class="lvl5"><a href="#10-3-mteplikt-mte-og-talerett">§ 10-3. Møteplikt. Møte- og talerett</a></li>
+<li class="lvl5"><a href="#10-4-valg-av-kommunerad-eller-fylkesrad">§ 10-4. Valg av kommuneråd eller fylkesråd</a></li>
+<li class="lvl5"><a href="#10-5-utpeking-av-kommuneradsleder-eller-fylkesradsleder">§ 10-5. Utpeking av kommunerådsleder eller fylkesrådsleder</a></li>
+<li class="lvl5"><a href="#10-6-politiske-stillinger">§ 10-6. Politiske stillinger</a></li>
+<li class="lvl5"><a href="#10-7-fratreden">§ 10-7. Fratreden</a></li>
+<li class="lvl5"><a href="#10-8-styrer">§ 10-8. Styrer</a></li>
+<li class="lvl5"><a href="#10-9-forslagsrett">§ 10-9. Forslagsrett</a></li>
+<li class="lvl5"><a href="#10-10-kontorlokaler-og-assistanse">§ 10-10. Kontorlokaler og assistanse</a></li>
+<li class="lvl3"><a href="#kapittel-11-saksbehandling-i-folkevalgte-organer">Kapittel 11. Saksbehandling i folkevalgte organer</a></li>
+<li class="lvl5"><a href="#11-1-virkeomrade">§ 11-1. Virkeområde</a></li>
+<li class="lvl5"><a href="#11-2-mte">§ 11-2. Møte</a></li>
+<li class="lvl5"><a href="#11-3-innkalling-og-saksliste">§ 11-3. Innkalling og saksliste</a></li>
+<li class="lvl5"><a href="#11-4-mtebok">§ 11-4. Møtebok</a></li>
+<li class="lvl5"><a href="#11-5-mteoffentlighet">§ 11-5. Møteoffentlighet</a></li>
+<li class="lvl5"><a href="#11-6-lyd-og-bildeopptak">§ 11-6. Lyd- og bildeopptak</a></li>
+<li class="lvl5"><a href="#11-7-fjernmter">§ 11-7. Fjernmøter</a></li>
+<li class="lvl5"><a href="#11-8-hastesaker">§ 11-8. Hastesaker</a></li>
+<li class="lvl5"><a href="#11-9-vedtaksfrhet-og-avstemninger">§ 11-9. Vedtaksførhet og avstemninger</a></li>
+<li class="lvl5"><a href="#11-10-inhabilitet-for-folkevalgte">§ 11-10. Inhabilitet for folkevalgte</a></li>
+<li class="lvl5"><a href="#11-11-fritak-av-personlige-grunner">§ 11-11. Fritak av personlige grunner</a></li>
+<li class="lvl5"><a href="#11-12-reglement-for-saksbehandling">§ 11-12. Reglement for saksbehandling</a></li>
+<li class="lvl5"><a href="#11-13-utvidet-innsynsrett-for-folkevalgte-organer">§ 11-13. Utvidet innsynsrett for folkevalgte organer</a></li>
+<li class="lvl2"><a href="#tredje-del-innbyggerdeltakelse">Tredje del. Innbyggerdeltakelse</a></li>
+<li class="lvl3"><a href="#kapittel-12-innbyggerdeltakelse">Kapittel 12. Innbyggerdeltakelse</a></li>
+<li class="lvl5"><a href="#12-1-innbyggerforslag">§ 12-1. Innbyggerforslag</a></li>
+<li class="lvl5"><a href="#12-2-folkeavstemninger">§ 12-2. Folkeavstemninger</a></li>
+<li class="lvl2"><a href="#fjerde-del-administrasjonen">Fjerde del. Administrasjonen</a></li>
+<li class="lvl3"><a href="#kapittel-13-administrasjonen">Kapittel 13. Administrasjonen</a></li>
+<li class="lvl5"><a href="#13-1-kommunedirektr-myndighet-og-oppgaver">§ 13-1. Kommunedirektør. Myndighet og oppgaver</a></li>
+<li class="lvl5"><a href="#13-2-aremal-og-ombud">§ 13-2. Åremål og ombud</a></li>
+<li class="lvl5"><a href="#13-3-inhabilitet-for-ansatte">§ 13-3. Inhabilitet for ansatte</a></li>
+<li class="lvl5"><a href="#13-4-mterett-for-ansattes-representanter-i-folkevalgte-organer">§ 13-4. Møterett for ansattes representanter i folkevalgte organer</a></li>
+<li class="lvl5"><a href="#13-5-pensjonsordning-for-ansatte">§ 13-5. Pensjonsordning for ansatte</a></li>
+<li class="lvl2"><a href="#femte-del-konomi">Femte del. Økonomi</a></li>
+<li class="lvl3"><a href="#kapittel-14-konomiforvaltning">Kapittel 14. Økonomiforvaltning</a></li>
+<li class="lvl5"><a href="#14-1-grunnleggende-krav-til-konomiforvaltningen">§ 14-1. Grunnleggende krav til økonomiforvaltningen</a></li>
+<li class="lvl5"><a href="#14-2-kommunestyrets-og-fylkestingets-plikter">§ 14-2. Kommunestyrets og fylkestingets plikter</a></li>
+<li class="lvl5"><a href="#14-3-behandling-av-konomiplan-arsbudsjett-arsregnskap-og-arsberetning">§ 14-3. Behandling av økonomiplan, årsbudsjett, årsregnskap og årsberetning</a></li>
+<li class="lvl5"><a href="#14-4-konomiplan-og-arsbudsjett">§ 14-4. Økonomiplan og årsbudsjett</a></li>
+<li class="lvl5"><a href="#14-5-arsbudsjettets-bindende-virkning-budsjettstyring">§ 14-5. Årsbudsjettets bindende virkning. Budsjettstyring</a></li>
+<li class="lvl5"><a href="#14-6-arsregnskap-og-bokfring">§ 14-6. Årsregnskap og bokføring</a></li>
+<li class="lvl5"><a href="#14-7-arsberetning">§ 14-7. Årsberetning</a></li>
+<li class="lvl5"><a href="#14-8-budsjett-regnskap-og-arsberetning-for-interkommunalt-politisk-rad-og-kommunalt-oppgavefellesskap">§ 14-8. Budsjett, regnskap og årsberetning for interkommunalt politisk råd og kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#14-9-skillet-mellom-drift-og-investering-i-konomiplan-arsbudsjett-og-arsregnskap">§ 14-9. Skillet mellom drift og investering i økonomiplan, årsbudsjett og årsregnskap</a></li>
+<li class="lvl5"><a href="#14-10-balanse-i-konomiplanen-og-arsbudsjettet">§ 14-10. Balanse i økonomiplanen og årsbudsjettet</a></li>
+<li class="lvl5"><a href="#14-11-inndekning-av-merforbruk-i-kommunekassen-og-fylkeskommunekassen">§ 14-11. Inndekning av merforbruk i kommunekassen og fylkeskommunekassen</a></li>
+<li class="lvl5"><a href="#14-12-inndekning-av-merforbruk-i-kommunalt-og-fylkeskommunalt-foretak-interkommunalt-politisk-rad-og-kommunalt-oppgavefellesskap">§ 14-12. Inndekning av merforbruk i kommunalt og fylkeskommunalt foretak, interkommunalt politisk råd og kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#14-13-finans-og-gjeldsforvaltning">§ 14-13. Finans- og gjeldsforvaltning</a></li>
+<li class="lvl5"><a href="#14-14-vilkar-for-a-ta-opp-lan">§ 14-14. Vilkår for å ta opp lån</a></li>
+<li class="lvl5"><a href="#14-15-lan-til-egne-investeringer-driftskreditt">§ 14-15. Lån til egne investeringer. Driftskreditt</a></li>
+<li class="lvl5"><a href="#14-16-lan-til-andres-investeringer-lan-til-innfrielse-av-kausjoner">§ 14-16. Lån til andres investeringer. Lån til innfrielse av kausjoner</a></li>
+<li class="lvl5"><a href="#14-17-lan-til-videre-utlan-og-mottatte-avdrag-pa-videreutlan">§ 14-17. Lån til videre utlån og mottatte avdrag på videreutlån</a></li>
+<li class="lvl5"><a href="#14-18-avdrag-pa-lan">§ 14-18. Avdrag på lån</a></li>
+<li class="lvl5"><a href="#14-19-garantier">§ 14-19. Garantier</a></li>
+<li class="lvl5"><a href="#14-20-pantsetting-for-andres-gjeld">§ 14-20. Pantsetting for andres gjeld</a></li>
+<li class="lvl5"><a href="#14-21-overdragelse-av-krav-pa-skatter-og-avgifter">§ 14-21. Overdragelse av krav på skatter og avgifter</a></li>
+<li class="lvl5"><a href="#14-22-motregning">§ 14-22. Motregning</a></li>
+<li class="lvl3"><a href="#kapittel-15-selvkost">Kapittel 15. Selvkost</a></li>
+<li class="lvl5"><a href="#15-1-beregning-av-selvkost">§ 15-1. Beregning av selvkost</a></li>
+<li class="lvl3"><a href="#kapittel-16-kommunenes-og-fylkeskommunenes-rapportering-til-staten">Kapittel 16. Kommunenes og fylkeskommunenes rapportering til staten</a></li>
+<li class="lvl5"><a href="#16-1-rapportering-til-staten-kostra">§ 16-1. Rapportering til staten (KOSTRA)</a></li>
+<li class="lvl5"><a href="#16-2-kommunalt-rapporteringsregister-kor">§ 16-2. Kommunalt rapporteringsregister (KOR)</a></li>
+<li class="lvl2"><a href="#sjette-del-interkommunalt-samarbeid">Sjette del. Interkommunalt samarbeid</a></li>
+<li class="lvl3"><a href="#kapittel-17-interkommunalt-samarbeid">Kapittel 17. Interkommunalt samarbeid</a></li>
+<li class="lvl5"><a href="#17-1-interkommunalt-samarbeid">§ 17-1. Interkommunalt samarbeid</a></li>
+<li class="lvl3"><a href="#kapittel-18-interkommunalt-politisk-rad">Kapittel 18. Interkommunalt politisk råd</a></li>
+<li class="lvl5"><a href="#18-1-interkommunalt-politisk-rad">§ 18-1. Interkommunalt politisk råd</a></li>
+<li class="lvl5"><a href="#18-2-deltakeransvar">§ 18-2. Deltakeransvar</a></li>
+<li class="lvl5"><a href="#18-3-representantskap">§ 18-3. Representantskap</a></li>
+<li class="lvl5"><a href="#18-4-samarbeidsavtale">§ 18-4. Samarbeidsavtale</a></li>
+<li class="lvl3"><a href="#kapittel-19-kommunalt-oppgavefellesskap">Kapittel 19. Kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#19-1-kommunalt-oppgavefellesskap">§ 19-1. Kommunalt oppgavefellesskap</a></li>
+<li class="lvl5"><a href="#19-2-deltakeransvar">§ 19-2. Deltakeransvar</a></li>
+<li class="lvl5"><a href="#19-3-representantskap">§ 19-3. Representantskap</a></li>
+<li class="lvl5"><a href="#19-4-samarbeidsavtale">§ 19-4. Samarbeidsavtale</a></li>
+<li class="lvl3"><a href="#kapittel-20-vertskommune">Kapittel 20. Vertskommune</a></li>
+<li class="lvl5"><a href="#20-1-vertskommunesamarbeid">§ 20-1. Vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-2-administrativt-vertskommunesamarbeid">§ 20-2. Administrativt vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-3-vertskommunesamarbeid-med-felles-folkevalgt-nemnd">§ 20-3. Vertskommunesamarbeid med felles, folkevalgt nemnd</a></li>
+<li class="lvl5"><a href="#20-4-samarbeidsavtale">§ 20-4. Samarbeidsavtale</a></li>
+<li class="lvl5"><a href="#20-5-klagebehandling-i-et-administrativt-vertskommunesamarbeid">§ 20-5. Klagebehandling i et administrativt vertskommunesamarbeid</a></li>
+<li class="lvl5"><a href="#20-6-klagebehandling-i-et-vertskommunesamarbeid-med-felles-folkevalgt-nemnd">§ 20-6. Klagebehandling i et vertskommunesamarbeid med felles, folkevalgt nemnd</a></li>
+<li class="lvl5"><a href="#20-7-lovlighetskontroll">§ 20-7. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#20-8-opplsning-og-uttreden">§ 20-8. Oppløsning og uttreden</a></li>
+<li class="lvl5"><a href="#20-9-kontrollutvalgets-myndighet-i-en-vertskommune">§ 20-9. Kontrollutvalgets myndighet i en vertskommune</a></li>
+<li class="lvl5"><a href="#20-10-statlig-tilsyn-med-vertskommuner">§ 20-10. Statlig tilsyn med vertskommuner</a></li>
+<li class="lvl3"><a href="#kapittel-21-representasjon-av-begge-kjnn-i-styret-i-aksjeselskaper">Kapittel 21. Representasjon av begge kjønn i styret i aksjeselskaper</a></li>
+<li class="lvl5"><a href="#21-1-representasjon-av-begge-kjnn-i-styret">§ 21-1. Representasjon av begge kjønn i styret</a></li>
+<li class="lvl2"><a href="#syvende-del-egenkontroll">Syvende del. Egenkontroll</a></li>
+<li class="lvl3"><a href="#kapittel-22-kommunestyrets-og-fylkestingets-kontrollansvar">Kapittel 22. Kommunestyrets og fylkestingets kontrollansvar</a></li>
+<li class="lvl5"><a href="#22-1-kommunestyrets-og-fylkestingets-kontrollansvar">§ 22-1. Kommunestyrets og fylkestingets kontrollansvar</a></li>
+<li class="lvl3"><a href="#kapittel-23-kontrollutvalgets-virksomhet">Kapittel 23. Kontrollutvalgets virksomhet</a></li>
+<li class="lvl5"><a href="#23-1-kontrollutvalget">§ 23-1. Kontrollutvalget</a></li>
+<li class="lvl5"><a href="#23-2-kontrollutvalgets-ansvar-og-myndighet">§ 23-2. Kontrollutvalgets ansvar og myndighet</a></li>
+<li class="lvl5"><a href="#23-3-forvaltningsrevisjon">§ 23-3. Forvaltningsrevisjon</a></li>
+<li class="lvl5"><a href="#23-4-eierskapskontroll">§ 23-4. Eierskapskontroll</a></li>
+<li class="lvl5"><a href="#23-5-rapportering-til-kommunestyret-eller-fylkestinget">§ 23-5. Rapportering til kommunestyret eller fylkestinget</a></li>
+<li class="lvl5"><a href="#23-6-innsyn-og-underskelser-i-selskaper-ol">§ 23-6. Innsyn og undersøkelser i selskaper o.l.</a></li>
+<li class="lvl5"><a href="#23-7-sekretariatet">§ 23-7. Sekretariatet</a></li>
+<li class="lvl3"><a href="#kapittel-24-revisjon">Kapittel 24. Revisjon</a></li>
+<li class="lvl5"><a href="#24-1-valg-av-revisor">§ 24-1. Valg av revisor</a></li>
+<li class="lvl5"><a href="#24-2-revisors-ansvar-og-myndighet">§ 24-2. Revisors ansvar og myndighet</a></li>
+<li class="lvl5"><a href="#24-3-revisors-mterett-opplysningsplikt-mv">§ 24-3. Revisors møterett, opplysningsplikt mv.</a></li>
+<li class="lvl5"><a href="#24-4-revisors-uavhengighet-og-vandel">§ 24-4. Revisors uavhengighet og vandel</a></li>
+<li class="lvl5"><a href="#24-5-regnskapsrevisjonens-innhold">§ 24-5. Regnskapsrevisjonens innhold</a></li>
+<li class="lvl5"><a href="#24-6-revisors-plikter-ved-utfrelsen-av-regnskapsrevisjon">§ 24-6. Revisors plikter ved utførelsen av regnskapsrevisjon</a></li>
+<li class="lvl5"><a href="#24-7-skriftlige-papekninger-fra-regnskapsrevisor">§ 24-7. Skriftlige påpekninger fra regnskapsrevisor</a></li>
+<li class="lvl5"><a href="#24-8-revisjonsberetning">§ 24-8. Revisjonsberetning</a></li>
+<li class="lvl5"><a href="#24-9-forenklet-etterlevelseskontroll-med-konomi-forvaltningen">§ 24-9. Forenklet etterlevelseskontroll med økonomi- forvaltningen</a></li>
+<li class="lvl5"><a href="#24-10-innsyn-og-underskelser-i-selskaper-ol">§ 24-10. Innsyn og undersøkelser i selskaper o.l.</a></li>
+<li class="lvl3"><a href="#kapittel-25-internkontroll">Kapittel 25. Internkontroll</a></li>
+<li class="lvl5"><a href="#25-1-internkontroll-i-kommunen-og-fylkeskommunen">§ 25-1. Internkontroll i kommunen og fylkeskommunen</a></li>
+<li class="lvl5"><a href="#25-2-rapportering-til-kommunestyret-og-fylkestinget-om-internkontroll-og-statlig-tilsyn">§ 25-2. Rapportering til kommunestyret og fylkestinget om internkontroll og statlig tilsyn</a></li>
+<li class="lvl3"><a href="#kapittel-26-eierstyring">Kapittel 26. Eierstyring</a></li>
+<li class="lvl5"><a href="#26-1-eierskapsmelding">§ 26-1. Eierskapsmelding</a></li>
+<li class="lvl2"><a href="#attende-del-statlig-kontroll-og-tilsyn">Åttende del. Statlig kontroll og tilsyn</a></li>
+<li class="lvl3"><a href="#kapittel-27-lovlighetskontroll">Kapittel 27. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#27-1-lovlighetskontroll">§ 27-1. Lovlighetskontroll</a></li>
+<li class="lvl5"><a href="#27-2-hva-som-kan-lovlighetskontrolleres">§ 27-2. Hva som kan lovlighetskontrolleres</a></li>
+<li class="lvl5"><a href="#27-3-innholdet-i-lovlighetskontrollen">§ 27-3. Innholdet i lovlighetskontrollen</a></li>
+<li class="lvl5"><a href="#27-4-opplysningsplikt-ved-lovlighetskontroll">§ 27-4. Opplysningsplikt ved lovlighetskontroll</a></li>
+<li class="lvl3"><a href="#kapittel-28-statlig-kontroll-med-kommuner-og-fylkeskommuner-med-konomisk-ubalanse">Kapittel 28. Statlig kontroll med kommuner og fylkeskommuner med økonomisk ubalanse</a></li>
+<li class="lvl5"><a href="#28-1-innmelding-i-registeret-om-betinget-godkjenning-og-kontroll-robek">§ 28-1. Innmelding i registeret om betinget godkjenning og kontroll (ROBEK)</a></li>
+<li class="lvl5"><a href="#28-2-robek-registerets-betydning-for-tredjeperson">§ 28-2. ROBEK-registerets betydning for tredjeperson</a></li>
+<li class="lvl5"><a href="#28-3-departementets-kontroll-med-arsbudsjett-og-laneopptak-mv">§ 28-3. Departementets kontroll med årsbudsjett og låneopptak mv.</a></li>
+<li class="lvl5"><a href="#28-4-kommunens-og-fylkeskommunens-orienteringsplikt-og-plikt-til-a-vedta-en-tiltaksplan">§ 28-4. Kommunens og fylkeskommunens orienteringsplikt og plikt til å vedta en tiltaksplan</a></li>
+<li class="lvl5"><a href="#28-5-utmelding-fra-robek-registeret">§ 28-5. Utmelding fra ROBEK-registeret</a></li>
+<li class="lvl5"><a href="#28-6-lovlighetskontroll-av-vedtak-om-arsregnskap-ved-negativ-revisjonsberetning">§ 28-6. Lovlighetskontroll av vedtak om årsregnskap ved negativ revisjonsberetning</a></li>
+<li class="lvl3"><a href="#kapittel-29-utlegg-og-konkurs-betalingsinnstilling-og-statlig-tilsynsnemnd">Kapittel 29. Utlegg og konkurs. Betalingsinnstilling og statlig tilsynsnemnd</a></li>
+<li class="lvl5"><a href="#29-1-utlegg-og-arrest-konkurs-og-gjeldsforhandling">§ 29-1. Utlegg og arrest, konkurs og gjeldsforhandling</a></li>
+<li class="lvl5"><a href="#29-2-vedtak-om-betalingsinnstilling-oppnevning-av-tilsynsnemnd">§ 29-2. Vedtak om betalingsinnstilling. Oppnevning av tilsynsnemnd</a></li>
+<li class="lvl5"><a href="#29-3-utbetalinger-etter-vedtak-om-betalingsinnstilling">§ 29-3. Utbetalinger etter vedtak om betalingsinnstilling</a></li>
+<li class="lvl5"><a href="#29-4-utarbeiding-av-en-ny-konomiplan-og-et-nytt-arsbudsjett">§ 29-4. Utarbeiding av en ny økonomiplan og et nytt årsbudsjett</a></li>
+<li class="lvl3"><a href="#kapittel-30-statlig-tilsyn">Kapittel 30. Statlig tilsyn</a></li>
+<li class="lvl5"><a href="#30-1-kapitlets-virkeomrade">§ 30-1. Kapitlets virkeområde</a></li>
+<li class="lvl5"><a href="#30-2-lovlighetstilsyn">§ 30-2. Lovlighetstilsyn</a></li>
+<li class="lvl5"><a href="#30-3-innsyn-og-underskelser">§ 30-3. Innsyn og undersøkelser</a></li>
+<li class="lvl5"><a href="#30-4-palegg-om-retting">§ 30-4. Pålegg om retting</a></li>
+<li class="lvl5"><a href="#30-5-partsrettigheter">§ 30-5. Partsrettigheter</a></li>
+<li class="lvl5"><a href="#30-6-samordning-av-statlige-tilsynsmyndigheter">§ 30-6. Samordning av statlige tilsynsmyndigheter</a></li>
+<li class="lvl5"><a href="#30-7-samordning-mellom-statlig-tilsynsvirksomhet-og-kommuner-eller-fylkeskommuner">§ 30-7. Samordning mellom statlig tilsynsvirksomhet og kommuner eller fylkeskommuner</a></li>
+<li class="lvl2"><a href="#niende-del-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Niende del. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl3"><a href="#kapittel-31-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 31. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl5"><a href="#31-1-ikrafttredelse">§ 31-1. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#31-2-overgangsregler-for-interkommunale-styrer-etter-27-ikommuneloven-av-1992">§ 31-2. Overgangsregler for interkommunale styrer etter § 27 ikommuneloven av 1992</a></li>
+<li class="lvl5"><a href="#31-3-overgangsregler-om-internkontroll">§ 31-3. Overgangsregler om internkontroll</a></li>
+<li class="lvl5"><a href="#31-4-andre-overgangsregler">§ 31-4. Andre overgangsregler</a></li>
+<li class="lvl5"><a href="#31-5-viderefring-av-forskrifter">§ 31-5. Videreføring av forskrifter</a></li>
+<li class="lvl5"><a href="#31-6-endringer-i-andre-lover">§ 31-6. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-22-83.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-06-22-83.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-22-83.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2018-06-22-83.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2018-06-22-83.html">Observerte kildeutgaver</a> · <a href="../historie/kommuneloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2018-06-22-83.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2018-06-22-83.html">Observerte kildeutgaver</a> · <a href="../historie/kommuneloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2018-06-22-83.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-kommuner-og-fylkeskommuner-kommuneloven">Lov om kommuner og fylkeskommuner (kommuneloven)</h1>
 <h2 id="frste-del-generelle-bestemmelser">Første del. Generelle bestemmelser</h2>
 <h3 id="kapittel-1-lovens-formal-og-virkeomrade">Kapittel 1. Lovens formål og virkeområde</h3>
 <h5 id="1-1-lovens-formal">§ 1-1. Lovens formål</h5>
@@ -103,7 +604,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Kommunestyret fatter selv vedtak om kommunevåpen og kommuneflagg. Fylkestinget fatter selv vedtak om fylkesvåpen og fylkesflagg.</p>
 <p>Kommunale og fylkeskommunale våpen og flagg skal ikke kunne forveksles med eksisterende kommunale eller fylkeskommunale våpen eller flagg, andre kjennetegn som er omfattet av <a href="lov-2005-05-20-28.html">straffeloven</a> § 165 bokstav b eller § 166 , et statsflagg eller noe som kan oppfattes som slike kjennetegn eller flagg.</p>
 <p>Kommunen og fylkeskommunen skal uten ugrunnet opphold sende vedtak om kommunale eller fylkeskommunale våpen og flagg til Nasjonalarkivet. Nasjonalarkivet skal publisere mottatte våpen og flagg uten ugrunnet opphold. Departementet kan gi forskrift om innsendingen og publiseringen.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ).</p>
 <h3 id="kapittel-4-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">Kapittel 4. Informasjon om kommunens og fylkeskommunens virksomhet</h3>
 <h5 id="4-1-informasjon-om-kommunens-og-fylkeskommunens-virksomhet">§ 4-1. Informasjon om kommunens og fylkeskommunens virksomhet</h5>
 <p>Kommuner og fylkeskommuner skal aktivt informere om egen virksomhet og om virksomhet som andre rettssubjekter utfører på vegne av kommuner og fylkeskommuner. De skal også legge til rette for at alle kan få tilgang til slik informasjon.</p>
@@ -131,7 +632,7 @@ c. medlemmer til kommunedelsutvalg valgt ved direkte valg etter § 5-8
 d. kommunerådsleder og fylkesrådsleder utpekt av ordføreren etter § 10-5 første ledd
 e. medlemmer av kommunerådet eller fylkesrådet som er utnevnt av kommunerådslederen eller fylkesrådslederen etter § 10-5 andre ledd.</p>
 <p>Personer nevnt i § 7-3 første ledd bokstav b og c og som er valgt inn i underordnet styringsorgan i kommunalt oppgavefellesskap, er likevel ikke å anse som folkevalgte.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 55 .</p>
 <h5 id="5-2-andre-kommunale-organer">§ 5-2. Andre kommunale organer <a class="para-history" href="../historikk/lov-2018-06-22-83/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Andre kommunale organer skal opprettes etter bestemmelsene i denne loven.</p>
 <p>Andre kommunale organer etter denne loven er</p>
@@ -141,7 +642,7 @@ c. underordnete styringsorganer for et kommunalt oppgavefellesskap
 d. styret for et kommunalt eller fylkeskommunalt foretak
 e. eldreråd, råd for personer med funksjonsnedsettelse og ungdomsråd eller annet medvirkningsorgan for ungdom, og arbeidsutvalg for disse.</p>
 <p>For øvrig gjelder de samme bestemmelsene som for folkevalgte organer etter § 5-1 .</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="5-3-kommunestyre-og-fylkesting-intern-delegering">§ 5-3. Kommunestyre og fylkesting. Intern delegering</h5>
 <p>Kommunestyret er det øverste organet i kommunen, og fylkestinget er det øverste organet i fylkeskommunen.</p>
 <p>Kommunestyret treffer vedtak på vegne av kommunen, og fylkestinget treffer vedtak på vegne av fylkeskommunen, hvis ikke noe annet følger av lov.</p>
@@ -170,14 +671,14 @@ d. Fylkestinget skal ha minst 43 medlemmer i fylkeskommuner med over 300 000 in
 <p>Formannskapet og fylkesutvalget kan opprette et arbeidsutvalg som består av medlemmer fra formannskapet eller fylkesutvalget. Formannskapet og fylkesutvalget kan selv når som helst omorganisere eller nedlegge slike arbeidsutvalg.</p>
 <p>Formannskapet og fylkesutvalget kan gi arbeidsutvalget myndighet til å treffe vedtak i saker som ikke har prinsipiell betydning, hvis ikke kommunestyret eller fylkestinget selv har bestemt noe annet.</p>
 <p>Formannskapet og fylkesutvalget innstiller til kommunestyrets eller fylkestingets vedtak i økonomisaker som nevnt i § 14-3 tredje ledd og til skattevedtak. Formannskapet og fylkesutvalget kan få tildelt vedtaksmyndighet i alle saker hvis ikke noe annet følger av lov.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="5-7-utvalg">§ 5-7. Utvalg <a class="para-history" href="../historikk/lov-2018-06-22-83/para-5-7.html" title="Endringshistorikk for § 5-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Kommunestyret og fylkestinget kan selv opprette utvalg for kommunale og fylkeskommunale formål og for deler av den kommunale eller fylkeskommunale virksomheten. Kommunestyret kan selv også opprette utvalg med ansvar for en geografisk del av kommunen (kommunedelsutvalg). Utvalg etter denne paragrafen skal ha minst tre medlemmer.</p>
 <p>Kommunestyret og fylkestinget velger selv en leder, en nestleder og øvrige medlemmer og varamedlemmer til utvalget. Kommunestyret og fylkestinget fastsetter selv hva slags saker utvalget skal behandle. Utvalget kan få tildelt vedtaksmyndighet hvis ikke noe annet følger av lov.</p>
 <p>Utvalget kan opprette et arbeidsutvalg med medlemmer som er valgt blant medlemmene av utvalget. Dette kravet gjelder ikke når kommunedelsutvalg velger arbeidsutvalg. Utvalget kan selv når som helst omorganisere eller nedlegge slike arbeidsutvalg.</p>
 <p>Utvalget kan gi lederen eller arbeidsutvalget myndighet til å treffe vedtak i saker som ikke har prinsipiell betydning, hvis ikke kommunestyret eller fylkestinget selv har bestemt noe annet. Kommunedelsutvalg kan i tillegg gi lederen av administrasjonen i kommunedelen tilsvarende myndighet.</p>
 <p>Kommunestyret og fylkestinget kan selv når som helst omorganisere eller nedlegge utvalg.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="5-8-direkte-valg-til-kommunedelsutvalg">§ 5-8. Direkte valg til kommunedelsutvalg</h5>
 <p>Kommunestyret kan selv bestemme at medlemmene til ett eller flere kommunedelsutvalg skal velges av innbyggerne i kommunedelen (direkte valg). Der medlemmene til kommunedelsutvalget er valgt ved direkte valg, velger utvalget selv en leder og en nestleder. Ved direkte valg til kommunedelsutvalg gjelder bestemmelsene i <a href="lov-2023-06-16-62.html">valgloven</a> så langt de passer.</p>
 <p>Kommunedelsutvalg som er valgt ved direkte valg, kan ikke omorganiseres eller nedlegges i perioden.</p>
@@ -190,7 +691,7 @@ d. Fylkestinget skal ha minst 43 medlemmer i fylkeskommuner med over 300 000 in
 <p>Hvis et medlem trer ut av kommunestyret eller fylkestinget, skal det nye medlemmet i kommunestyret eller fylkestinget overta komitevervet til det forrige medlemmet.</p>
 <p>Komiteen kan opprette arbeidsutvalg med medlemmer fra komiteen hvis ikke kommunestyret eller fylkestinget selv har bestemt noe annet. Komiteen kan selv når som helst omorganisere eller nedlegge slike arbeidsutvalg hvis ikke kommunestyret eller fylkestinget selv har bestemt noe annet.</p>
 <p>Kommunestyret og fylkestinget kan selv når som helst omorganisere eller nedlegge kommunestyrekomiteer og fylkestingskomiteer.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="5-10-styre-for-institusjon">§ 5-10. Styre for institusjon</h5>
 <p>Kommunestyret og fylkestinget kan selv opprette egne styrer for kommunale eller fylkeskommunale institusjoner. Slike styrer skal ha minst tre medlemmer.</p>
 <p>Kommunestyret og fylkestinget gir selv bestemmelser om styrets sammensetning. Det kan fastsettes at styret helt eller delvis skal oppnevnes av kommunedirektøren, eller at styret helt eller delvis skal velges av de ansatte eller brukerne ved institusjonen det gjelder. Medlemmer som ikke skal oppnevnes eller velges etter andre punktum, velges av kommunestyret eller fylkestinget selv.</p>
@@ -209,7 +710,7 @@ d. Fylkestinget skal ha minst 43 medlemmer i fylkeskommuner med over 300 000 in
 <p>Rådene eller annet medvirkningsorgan for ungdom kan opprette arbeidsutvalg med medlemmer som er valgt blant medlemmene av rådet eller annet medvirkningsorgan for ungdom. Rådene eller annet medvirkningsorgan for ungdom kan selv når som helst omorganisere eller nedlegge slike arbeidsutvalg.</p>
 <p>Ved valg av leder og nestleder i ungdomsråd eller annet medvirkningsorgan for ungdom kan hvert enkelt medlem kreve skriftlig avstemning.</p>
 <p>Departementet gir forskrift om oppgaver, organisering og saksbehandling for rådene eller annet medvirkningsorgan for ungdom.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="5-13-reglement-for-folkevalgte-organer">§ 5-13. Reglement for folkevalgte organer</h5>
 <p>Folkevalgte organer skal ha et reglement som fastsetter</p>
 <p>a. organets virkeområde og eventuelle vedtaksmyndighet
@@ -220,7 +721,7 @@ c. eventuelle andre sentrale bestemmelser om organets virksomhet.</p>
 <p>Kommunestyret og fylkestinget fastsetter selv et reglement for hvordan vedtaksmyndighet og innstillingsrett skal delegeres. Dette skal gjøres innen 31. desember året etter at kommunestyret og fylkestinget ble konstituert. Det sist fastsatte reglementet og eventuelle andre vedtak om delegering og innstillingsrett gjelder inntil et nytt reglement er fastsatt.</p>
 <h5 id="5-15-overdragelse-av-tariffavtalemyndighet">§ 5-15. Overdragelse av tariffavtalemyndighet <a class="para-history" href="../historikk/lov-2018-06-22-83/para-5-15.html" title="Endringshistorikk for § 5-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Kommunestyret og fylkestinget kan selv gi en sammenslutning av kommuner og fylkeskommuner fullmakt til å inngå og si opp tariffavtaler, samt å gi eller motta kollektiv arbeidsoppsigelse på kommunens eller fylkeskommunens vegne.</p>
-<p><em>Tilføyd ved lov 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2019 nr. 55 .</p>
 <h3 id="kapittel-6-ordfrer">Kapittel 6. Ordfører</h3>
 <h5 id="6-1-ordfrerens-myndighet-og-oppgaver">§ 6-1. Ordførerens myndighet og oppgaver</h5>
 <p>Ordføreren i kommunen er møteleder i kommunestyret og formannskapet. Ordføreren i fylkeskommunen er møteleder i fylkestinget og fylkesutvalget.</p>
@@ -237,9 +738,9 @@ c. opprette utvalg som skal forberede saker som ikke har prinsipiell betydning.<
 <p>Den som skal velges, må før valget ha samtykket til å stille til valg. Ordføreren og varaordføreren velges for hele valgperioden.</p>
 <p>I kommuner og fylkeskommuner som har innført parlamentarisk styreform, skal ordfører og varaordfører velges blant kommunestyrets eller fylkestingets medlemmer.</p>
 <p>Hvis ordføreren trer midlertidig ut av vervet, rykker varaordføreren opp som ordfører. En ny varaordfører skal da velges midlertidig. Hvis ordføreren trer endelig ut av vervet, skal det velges en ny ordfører. Hvis varaordføreren trer midlertidig ut av vervet, skal det velges en ny varaordfører midlertidig. Hvis varaordføreren trer endelig ut av vervet, skal det velges en ny varaordfører.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h3 id="kapittel-7-valg-til-folkevalgte-organer">Kapittel 7. Valg til folkevalgte organer</h3>
-<h5 id="7-1-konstituerende-mte-i-kommunestyret-og-fylkestinget">§ 7-1. Konstituerende møte i kommunestyret og fylkestinget</h5>
+<h5 id="7-1-konstituerende-mte-i-kommunestyret-og-fylkestinget">§ 7-1. Konstituerende møte i kommunestyret og fylkestinget <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Etter at valgoppgjøret ved kommunestyrevalget eller fylkestingsvalget er avsluttet, skal sittende ordfører kalle inn til konstituerende møte i det nyvalgte kommunestyret eller fylkestinget. Medlemmene skal innkalles med minst 14 dagers varsel, og møtet skal holdes innen utgangen av oktober måned. Minst 2/3 av medlemmene må være til stede for at kommunestyret eller fylkestinget skal kunne treffe vedtak.</p>
 <p>Som første sak i det konstituerende møtet tar kommunestyret og fylkestinget stilling til om kommunestyrevalget eller fylkestingsvalget er gyldig, jf. valgloven § 15-2 første ledd og § 15-3 første ledd . Hvis kommunen har avholdt direkte valg til kommunedelsutvalg, tar kommunestyret også stilling til om dette valget er gyldig, før øvrige valg avholdes.</p>
 <p>Når det er avgjort at valg som nevnt i andre ledd er gyldig, velges formannskap eller fylkesutvalg, ordfører, varaordfører og kontrollutvalg for den nye valgperioden. I det konstituerende møtet bør det også velges medlemmer av andre folkevalgte kommunale eller fylkeskommunale organer og ledere for disse organene. Valg av leder kan overlates til organet selv hvis ikke denne loven eller en annen lov bestemmer noe annet.</p>
@@ -247,7 +748,7 @@ c. opprette utvalg som skal forberede saker som ikke har prinsipiell betydning.<
 <p>For folkevalgte organer der nye medlemmer ikke blir valgt i det konstituerende møtet, utvides de sittende medlemmenes funksjonstid til det er avholdt nyvalg, men ikke lenger enn til første årsskifte i den nye valgperioden.</p>
 <p>Hvis valgperioden for de sittende kommunestyremedlemmene eller fylkestingsmedlemmene forlenges ved et omvalg, jf. valgloven § 17-3 første ledd og § 18-6 første ledd , forlenges funksjonstiden tilsvarende for medlemmer av andre folkevalgte organer i kommunene og fylkeskommunene, med et tillegg på inntil to måneder.</p>
 <p>Hvis de nyvalgte kommunestyremedlemmene eller fylkestingsmedlemmene blir sittende i vervene ved et omvalg, jf. valgloven § 17-3 andre ledd og § 18-6 andre ledd , blir funksjonstiden til medlemmene av andre folkevalgte organer i kommunene og fylkeskommunene forlenget inntil omvalget til kommunestyret eller fylkestinget er endelig godkjent, med et tillegg på inntil to måneder.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h5 id="7-2-valgbarhet-og-plikt-til-a-ta-imot-valg">§ 7-2. Valgbarhet og plikt til å ta imot valg <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Denne bestemmelsen gjelder ved valg til</p>
 <p>a. kommuneråd og fylkesråd
@@ -267,9 +768,9 @@ b. Han eller hun er innført i folkeregisteret som bosatt i kommunen eller i en 
 c. Han eller hun har skriftlig samtykket til å stille til valg.</p>
 <p>Når styret for en institusjon, et styre etter § 10-8 , et annet styringsorgan for kommunalt oppgavefellesskap enn representantskapet, eller styret for et kommunalt eller fylkeskommunalt foretak skal velges, er også de som er innført i folkeregisteret som bosatt i en annen kommune når valget skjer, valgbare.</p>
 <p>Personer som ikke har nådd stemmerettsalderen, men som for øvrig fyller vilkårene for valgbarhet og stemmerett, er valgbare, men er ikke pliktige til å ta imot valg.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 55 , 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 55 , 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h5 id="7-2-a-opphevet">§ 7-2 a. (Opphevet)</h5>
-<p><em>Tilføyd ved lov 23 april 2021 nr. 24 , opphevet ved lov 23 april 2021 nr. 24 (ikr. 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved lov 23 april 2021 nr. 24 , opphevet ved lov 23 april 2021 nr. 24 (ikr. 1 jan 2022).</p>
 <h5 id="7-3-utelukket-fra-valg">§ 7-3. Utelukket fra valg</h5>
 <p>Utelukket fra valg til organer nevnt i § 7-2 er</p>
 <p>a. statsforvalteren og assisterende statsforvalter
@@ -290,7 +791,7 @@ e. medlem eller varamedlem av kommunestyrekomité eller fylkestingskomité.</p>
 <p>Ved valg til kommunedelsutvalg kan kommunestyret selv vedta at bare de som er innført i folkeregisteret som bosatt i kommunedelen, er valgbare.</p>
 <p>Den som er ansvarlig for regnskapet i et kommunalt eller fylkeskommunalt foretak, er ikke valgbar til styret i foretaket. Den som er ansvarlig for regnskapet eller foretar revisjon av interkommunalt politisk råd eller kommunalt oppgavefellesskap, er ikke valgbar til representantskapet eller andre styringsorganer for virksomheten.</p>
 <p>En kandidat som ellers ville vært utelukket fra valg på grunn av sin stilling, er likevel valgbar hvis han eller hun har fratrådt stillingen når organet trer i funksjon.</p>
-<p><em>Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lover 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h5 id="7-4-forholdsvalg-avtalevalg-eller-flertallsvalg">§ 7-4. Forholdsvalg, avtalevalg eller flertallsvalg</h5>
 <p>Medlemmer til folkevalgte organer skal velges ved forholdsvalg hvis minst ett medlem krever det. I andre tilfeller skal medlemmene velges ved avtalevalg.</p>
 <p>Leder og nestleder for folkevalgte organer skal velges ved flertallsvalg.</p>
@@ -299,14 +800,14 @@ e. medlem eller varamedlem av kommunestyrekomité eller fylkestingskomité.</p>
 <p>Hvis det skal velges fire medlemmer eller flere, skal hvert kjønn være representert med minst 40 prosent blant de foreslåtte kandidatene på den enkelte listen. Hvis det skal velges to eller tre medlemmer, skal begge kjønn være representert. Ved valg til folkevalgte organer som etter lov bare skal bestå av medlemmer av kommunestyre eller fylkesting, og ved valg av arbeidsutvalg for folkevalgte organer, skal reglene i dette leddet følges så langt det er mulig.</p>
 <p>Listeforslaget skal være underskrevet av minst ett medlem av det partiet eller den gruppen som fremmer forslaget. Den som underskriver forslaget, må være medlem av det velgende organet.</p>
 <p>Det velgende organet avgjør selv om valget skal foretas ved skriftlig avstemning eller om det skal foretas ved å vise stemmetegn.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="7-6-valgoppgjr-ved-forholdsvalg">§ 7-6. Valgoppgjør ved forholdsvalg <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-6.html" title="Endringshistorikk for § 7-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Ved valgoppgjøret fordeles organets medlemsplasser på de ulike listene etter hvor mange stemmer hver liste har fått, ved bruk av delingstall 1, 2, 3, 4 osv. Hvis flere lister har samme kvotient, tilfaller plassen den av listene som har fått flest stemmer. Har listene fått like mange stemmer, avgjøres valget ved loddtrekning.</p>
 <p>Når det er avgjort hvor mange medlemsplasser en liste vil få, pekes medlemmene fra den enkelte listen ut i den rekkefølgen de står oppført på det innleverte listeforslaget.</p>
 <p>Hvis en liste får minst fire medlemmer i organet, skal hvert kjønn være representert med minst 40 prosent fra listen. Får listen tre eller færre medlemmer i organet, skal begge kjønn være representert fra listen. Viser det seg at utpekingen etter andre ledd vil føre til at kravene i første eller andre punktum ikke blir oppfylt, skal kandidater fra det underrepresenterte kjønnet rykke opp på listen inntil kravet er oppfylt.</p>
 <p>Ved valg til folkevalgte organer som etter lov bare skal bestå av medlemmer av kommunestyret eller fylkestinget, og ved valg av arbeidsutvalg for folkevalgte organer, skal reglene i tredje ledd følges så langt det er mulig.</p>
 <p>Hver liste skal tildeles varamedlemmer. Så langt det er mulig, skal det være to flere varamedlemmer enn faste medlemmer. Varamedlemsplassene fordeles i samsvar med andre og tredje ledd.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="7-7-avtalevalg">§ 7-7. Avtalevalg</h5>
 <p>Kommunestyret eller fylkestinget kan selv enstemmig vedta at valg til folkevalgte organer skal foregå som avtalevalg etter denne paragrafen.</p>
 <p>Valget gjennomføres på grunnlag av en innstilling med forslag til medlemmer og varamedlemmer. Innstillingen skal inneholde like mange navn som det skal velges medlemmer, og det skal angis hvilket parti eller hvilken gruppe medlemmene representerer. Innstillingen kan også inneholde navn på varamedlemmer for hvert parti eller hver gruppe. Antall varamedlemmer kan være inntil to flere enn de faste medlemmene fra partiet eller gruppen. Innstillingen vedtas enstemmig av kommunestyret eller fylkestinget.</p>
@@ -315,7 +816,7 @@ e. medlem eller varamedlem av kommunestyrekomité eller fylkestingskomité.</p>
 <h5 id="7-8-flertallsvalg">§ 7-8. Flertallsvalg <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-8.html" title="Endringshistorikk for § 7-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Ved flertallsvalg er den personen valgt som har fått mer enn halvparten av de avgitte stemmene. Hvis ingen får mer enn halvparten av stemmene, holdes en ny avstemning. Den som får flest stemmer ved den nye avstemningen, blir valgt. Hvis to eller flere kandidater får like mange stemmer, avgjøres valget ved loddtrekning.</p>
 <p>Flertallsvalg skal foretas ved å vise stemmetegn.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="7-9-uttreden-og-fritak">§ 7-9. Uttreden og fritak</h5>
 <p>En folkevalgt som ikke lenger er valgbar til et folkevalgt organ, trer endelig ut av organet. En folkevalgt som er registrert som utflyttet fra kommunen eller fylkeskommunen, og derfor ikke lenger er valgbar, kan likevel tre inn igjen i vervet hvis han eller hun flytter tilbake igjen innen to år.</p>
 <p>Hvis en folkevalgt ikke kan ivareta vervet sitt uten at det fører til vesentlig ulempe for han eller henne, kan kommunestyret eller fylkestinget etter søknad frita den folkevalgte for vervet midlertidig eller for resten av valgperioden. Når søknaden vurderes, skal det legges vekt på om grunnlaget for søknaden var kjent på det tidspunktet da den folkevalgte samtykket i å bli valgt. Den som ikke har nådd stemmerettsalderen, har krav på fritak hvis han eller hun søker om det.</p>
@@ -328,25 +829,25 @@ e. medlem eller varamedlem av kommunestyrekomité eller fylkestingskomité.</p>
 <p>Hvis antallet varamedlemmer eller en gruppes varamedlemmer til formannskapet, fylkesutvalget eller et annet folkevalgt organ som er valgt av kommunestyret eller fylkestinget, er blitt for lavt, kan kommunestyret eller fylkestinget selv velge ett eller flere faste eller midlertidige varamedlemmer. Disse varamedlemmene skal velges fra den gruppen som har et for lavt antall varamedlemmer (suppleringsvalg). Hvis det viser seg at denne framgangsmåten fører til at ett kjønn vil bli representert med mindre enn 40 prosent av varamedlemmene til organet eller gruppens varamedlemmer, skal det, hvis det er mulig, velges nytt varamedlem fra det underrepresenterte kjønnet. Formannskapet eller fylkesutvalget kan få delegert myndighet til å velge varamedlemmer til andre organer.</p>
 <p>Ved nyvalg etter tredje ledd og suppleringsvalg etter femte ledd kan gruppen selv foreslå hvem som skal velges. Gruppen skal deretter informere kommunestyret, formannskapet, fylkestinget eller fylkesutvalget, som skal velge den foreslåtte kandidaten hvis de lovbestemte vilkårene er oppfylt. Ved nyvalg etter tredje ledd rykker det nye medlemmet eller varamedlemmet inn på den ledige plassen. Ved suppleringsvalg etter femte ledd skal det nyvalgte varamedlemmet plasseres nederst på listen over varamedlemmer.</p>
 <p>Ved nyvalg etter tredje ledd til arbeidsutvalg kan gruppen i det folkevalgte organet som opprettet arbeidsutvalget, selv foreslå hvem som skal velges. Gruppen skal deretter informere det folkevalgte organet som opprettet arbeidsutvalget. Det folkevalgte organet skal velge den foreslåtte kandidaten hvis de lovbestemte vilkårene er oppfylt.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="7-11-settemedlemmer">§ 7-11. Settemedlemmer <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-11.html" title="Endringshistorikk for § 7-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Hvis en folkevalgt i andre organer enn kommunestyret, fylkestinget eller direkte valgte kommunedelsutvalg er innvilget fritak i minst tre måneder, kan kommunestyret eller fylkestinget selv velge et settemedlem for den perioden fritaket gjelder. Det samme gjelder hvis det er gitt et tidsubestemt fritak som antas å vare mer enn tre måneder. Settemedlemmet skal velges fra den samme gruppen som det fritatte medlemmet tilhørte.</p>
 <p>Ved valg av settemedlem etter første ledd kan gruppen selv foreslå hvem som skal velges. Gruppen skal deretter informere kommunestyret eller fylkestinget, som skal velge den foreslåtte kandidaten hvis de lovbestemte vilkårene er oppfylt.</p>
 <p>Ved valg av settemedlem til arbeidsutvalg kan gruppen i det folkevalgte organet som opprettet arbeidsutvalget, selv foreslå hvem som skal velges. Gruppen skal deretter informere det folkevalgte organet som opprettet arbeidsutvalget. Det folkevalgte organet skal velge den foreslåtte kandidaten hvis de lovbestemte vilkårene er oppfylt.</p>
-<p><em>Tilføyd ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Tilføyd ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="7-12-suspensjon-ol">§ 7-12. Suspensjon o.l. <a class="para-history" href="../historikk/lov-2018-06-22-83/para-7-12.html" title="Endringshistorikk for § 7-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Hvis det blir tatt ut siktelse eller tiltale mot en folkevalgt for et straffbart forhold som er nevnt i straffeloven §§ 151 til 154 , § 170 bokstav b, §§ 171 til 175 , 209 til 210 , 351 til 352 , kapittel 27 eller kapittel 30 , og forholdet er knyttet til utøvelse av tjeneste eller et verv for kommunen eller fylkeskommunen, kan kommunestyret eller fylkestinget selv vedta å suspendere den folkevalgte fra vervet inntil saken er rettskraftig avgjort. Hvis det dreier seg om forhold som er nevnt i straffeloven §§ 151 til 154 , gjelder ikke vilkåret om at forholdet skal være knyttet til utøvelse av verv eller tjeneste for kommunen eller fylkeskommunen.</p>
 <p>Hvis det blir tatt ut tiltale mot ordføreren for et forhold som kan straffes med fengsel i mer enn tre år, kan kommunestyret eller fylkestinget selv vedta å suspendere ordføreren fra vervet inntil saken er rettskraftig avgjort. Vedtaket skal treffes med minst 2/3 av de avgitte stemmene.</p>
 <p>En folkevalgt som er suspendert, har krav på erstatning for tapt arbeidsfortjeneste, krav på arbeidsgodtgjøring eller godtgjøring ved frikjøp etter reglene i §§ 8-3 , 8-4 og 8-5 i inntil ett år. Dette gjelder likevel bare hvis den folkevalgte har et verv som utgjør minimum en 20 prosent stilling.</p>
 <p>Kommunestyret eller fylkestinget kan selv vedta å frata ordføreren vervet hvis ordføreren ved sin oppførsel viser at han eller hun er uskikket til å ivareta vervet. Vedtaket skal treffes med minst 90 prosent av de avgitte stemmene.</p>
 <p>Et vedtak om å suspendere en folkevalgt eller om å frata en folkevalgt ordførervervet, er et enkeltvedtak etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a> § 2 .</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 , tidligere § 7-11).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 , tidligere § 7-11).</p>
 <h3 id="kapittel-8-rettigheter-og-plikter-for-folkevalgte">Kapittel 8. Rettigheter og plikter for folkevalgte</h3>
 <h5 id="8-1-rett-og-plikt-til-a-delta-i-mte">§ 8-1. Rett og plikt til å delta i møte <a class="para-history" href="../historikk/lov-2018-06-22-83/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Medlemmer av et kommunalt eller fylkeskommunalt folkevalgt organ plikter å delta i organets møter hvis de ikke har gyldig forfall.</p>
 <p>Medlemmer av et kommunalt eller fylkeskommunalt folkevalgt organ har møte-, tale- og forslagsrett i organets møter. Det kan ikke gis møte-, tale- og forslagsrett til andre enn organets medlemmer, hvis ikke noe annet følger av lov.</p>
 <p>Medlemmer som er til stede i et kommunalt eller fylkeskommunalt folkevalgt organ når en sak tas opp til avstemning, plikter å stemme. Ved valg og vedtak om ansettelse er det adgang til å stemme blankt.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="8-2-rett-til-fri-fra-arbeid">§ 8-2. Rett til fri fra arbeid</h5>
 <p>Arbeidstakere har krav på fri fra sitt arbeid når det er nødvendig på grunn av møteplikt i kommunale eller fylkeskommunale folkevalgte organer.</p>
 <p>Arbeidstakere som har et kommunalt eller fylkeskommunalt verv på heltid eller deltid, har også rett til permisjon fra sitt arbeid i fire år eller for resten av valgperioden.</p>
@@ -513,7 +1014,7 @@ c. Minst 1/3 av medlemmene krever det.</p>
 <p>Sakslisten til møtet og andre møtedokumenter som ikke er unntatt fra offentlighet, skal være tilgjengelige for allmennheten.</p>
 <p>Et folkevalgt organ kan med alminnelig flertall vedta å utsette realitetsbehandlingen av en sak som er oppført på den utsendte sakslisten.</p>
 <p>Et folkevalgt organ kan fatte vedtak i en sak som ikke er oppført på sakslisten, hvis ikke møtelederen eller minst 1/3 av de møtende medlemmene motsetter seg det. På tilsvarende måte kan organet fatte vedtak i en sak der saksdokumentene ikke er sendt ut sammen med innkallingen, hvis ikke møtelederen eller minst 1/3 av de møtende medlemmene motsetter seg det.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="11-4-mtebok">§ 11-4. Møtebok</h5>
 <p>Det skal føres møtebok for møter i alle folkevalgte organer. Med unntak av delene som er unntatt fra offentlighet, skal møteboken være tilgjengelig for allmennheten. Møteboken skal inneholde opplysninger om</p>
 <p>a. tid og sted for møtet
@@ -546,13 +1047,13 @@ b. Hensynet til tungtveiende offentlige interesser tilsier at møtet lukkes, og 
 <p>For at et folkevalgt organ skal kunne treffe et vedtak, må minst halvparten av medlemmene ha vært til stede under forhandlingene og avgitt stemme i den aktuelle saken.</p>
 <p>Et vedtak treffes med flertallet av de avgitte stemmene hvis ikke noe annet følger av denne loven eller av valgloven § 9-1 femte ledd . I andre saker enn de som gjelder valg, er møtelederens stemme avgjørende hvis antallet stemmer for og imot et forslag er likt.</p>
 <p>Når økonomiplanen eller årsbudsjettet skal behandles i kommunestyret eller i fylkestinget, skal medlemmene ved den endelige avstemningen stemme over forslaget til økonomiplan eller årsbudsjett som helhet. Hvis det er fremmet flere alternative forslag, og ingen av disse får flertall ved første gangs avstemning, skal det deretter stemmes over bare de to forslagene som fikk flest stemmer ved første gangs avstemning.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h5 id="11-10-inhabilitet-for-folkevalgte">§ 11-10. Inhabilitet for folkevalgte <a class="para-history" href="../historikk/lov-2018-06-22-83/para-11-10.html" title="Endringshistorikk for § 11-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Bestemmelsene om inhabilitet i forvaltningsloven kapittel II gjelder ved behandlingen av saker i folkevalgte organer, med de særreglene som følger av denne paragrafen.</p>
 <p>En folkevalgt som har vært med på å forberede eller treffe vedtak i en sak som ansatt i kommunen eller fylkeskommunen, er inhabil til senere å behandle den samme saken i et folkevalgt organ i henholdsvis kommunen eller fylkeskommunen. Første punktum gjelder ikke når årsbudsjett, økonomiplan, kommuneplan, regional planstrategi og regional plan behandles i et folkevalgt organ.</p>
 <p>Når en klage skal behandles etter forvaltningsloven § 28 andre ledd, er en folkevalgt som har vært med på å forberede eller treffe vedtaket, inhabil til å delta i klageinstansens behandling av vedtaket, eller i forberedelsen av saken for klageinstansen.</p>
 <p>En folkevalgt er ikke inhabil når det skal velges personer til offentlige tillitsverv, eller når det skal fastsettes godtgjøring o.l. for slike verv.</p>
-<p><em>Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</p>
 <h5 id="11-11-fritak-av-personlige-grunner">§ 11-11. Fritak av personlige grunner</h5>
 <p>En folkevalgt kan søke om å bli fritatt fra å delta i behandlingen av en sak hvis personlige grunner tilsier fritak. Det folkevalgte organet avgjør selv om han eller hun skal fritas.</p>
 <h5 id="11-12-reglement-for-saksbehandling">§ 11-12. Reglement for saksbehandling</h5>
@@ -585,7 +1086,7 @@ b. Hensynet til tungtveiende offentlige interesser tilsier at møtet lukkes, og 
 <h5 id="13-2-aremal-og-ombud">§ 13-2. Åremål og ombud <a class="para-history" href="../historikk/lov-2018-06-22-83/para-13-2.html" title="Endringshistorikk for § 13-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Kommunestyret og fylkestinget kan selv bestemme at ledende administrative stillinger skal være åremålsstillinger. Det samme gjelder for ombud. Åremålsperioden skal være på minst seks år.</p>
 <p>Dersom kommunestyret eller fylkestinget vedtar at kommunen eller fylkeskommunen skal ha ombud, skal kommunestyret eller fylkestinget selv ansette ombudet.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="13-3-inhabilitet-for-ansatte">§ 13-3. Inhabilitet for ansatte</h5>
 <p>Bestemmelsene om inhabilitet i forvaltningsloven kapittel II gjelder ved behandlingen av saker i kommunens og fylkeskommunens administrasjon, med de særreglene som følger av denne paragrafen.</p>
 <p>Når en klage skal behandles etter forvaltningsloven § 28 andre ledd, er en ansatt som har vært med på å forberede eller treffe vedtaket, inhabil til å delta i klageinstansens behandling av vedtaket, eller i forberedelsen av saken for klageinstansen.</p>
@@ -654,7 +1155,7 @@ d. tiltak som er iverksatt og tiltak som planlegges iverksatt for å sikre en h�
 e. den faktiske tilstanden når det gjelder kjønnslikestilling
 f. hva kommunen eller fylkeskommunen gjør for å oppfylle arbeidsgivers aktivitetsplikt etter <a href="lov-2017-06-16-51.html">likestillings- og diskrimineringsloven</a> § 26 .</p>
 <p>Årsberetningene skal avgis senest 31. mars.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h5 id="14-8-budsjett-regnskap-og-arsberetning-for-interkommunalt-politisk-rad-og-kommunalt-oppgavefellesskap">§ 14-8. Budsjett, regnskap og årsberetning for interkommunalt politisk råd og kommunalt oppgavefellesskap</h5>
 <p>Interkommunalt politisk råd etter kapittel 18 og kommunalt oppgavefellesskap etter kapittel 19 skal utarbeide et eget årsbudsjett innenfor de rammene som er vedtatt av kommunestyret eller fylkestinget i deltakerkommunene. Det skal også utarbeides et eget årsregnskap og en egen årsberetning. Vedtak om årsbudsjett, årsregnskap og årsberetning skal treffes av representantskapet i rådet eller oppgavefellesskapet.</p>
 <p>Regnskapet til interkommunalt politisk råd og kommunalt oppgavefellesskap som ikke er eget rettssubjekt skal innarbeides i kontorkommunens samlete årsregnskap etter § 14-6 første ledd bokstav d.</p>
@@ -664,7 +1165,7 @@ f. hva kommunen eller fylkeskommunen gjør for å oppfylle arbeidsgivers aktivit
 <p>Økonomiplanens driftsdel, driftsbudsjettet og driftsregnskapet skal bare finansieres av løpende inntekter. Løpende inntekter som ikke benyttes i budsjettåret, skal settes av til driftsfond.</p>
 <p>Departementet kan gi forskrift om hvilke utgifter og inntekter som hører til i henholdsvis driftsdelen og investeringsdelen.</p>
 <p>En andel av inntektene fra salg av aksjer som er klassifisert som finansielle anleggsmidler, skal regnes som løpende inntekter. Dette gjelder bare hvis kommuner eller fylkeskommuner har bestemmende innflytelse i selskapet. Departementet kan gi forskrift om hvordan andelen skal beregnes.</p>
-<p><em>Endret ved lov 23 juni 2020 nr. 97 (ikr. 30 des 2020 iflg. res. 27 nov 2020 nr. 2486 ).</em></p>
+<p class="note">Endret ved lov 23 juni 2020 nr. 97 (ikr. 30 des 2020 iflg. res. 27 nov 2020 nr. 2486 ).</p>
 <h5 id="14-10-balanse-i-konomiplanen-og-arsbudsjettet">§ 14-10. Balanse i økonomiplanen og årsbudsjettet <a class="para-history" href="../historikk/lov-2018-06-22-83/para-14-10.html" title="Endringshistorikk for § 14-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>All bruk av midler i årsbudsjettet skal ha dekning i årets tilgang på midler.</p>
 <p>Driftsbudsjettet skal dekke avdrag på lån med et beløp som minst tilsvarer avdrag beregnet etter § 14-18 . Departementet kan gi forskrift om dekning av avdrag på lån i årsbudsjettet og unntak fra første punktum.</p>
@@ -672,7 +1173,7 @@ f. hva kommunen eller fylkeskommunen gjør for å oppfylle arbeidsgivers aktivit
 <p>Midler som etter lov eller avtale er reservert for særskilte formål, og som ikke benyttes i budsjettåret, skal settes av til et bundet fond.</p>
 <p>Årsbudsjettet skal dekke avsetninger som er nødvendige for en god kommunal økonomiforvaltning. Investeringene skal over tid ha en egenfinansiering som ivaretar kommunens eller fylkeskommunens økonomiske handleevne.</p>
 <p>Første til femte ledd gjelder på tilsvarende måte for hvert enkelt år i økonomiplanen.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="14-11-inndekning-av-merforbruk-i-kommunekassen-og-fylkeskommunekassen">§ 14-11. Inndekning av merforbruk i kommunekassen og fylkeskommunekassen</h5>
 <p>Et merforbruk i driftsregnskapet til kommunekassen eller fylkeskommunekassen skal dekkes inn året etter at det oppsto. Hvis merforbruket ikke kan dekkes inn året etter at det oppsto, skal det dekkes inn senest det andre året etter at det oppsto.</p>
 <p>Kommunestyret eller fylkestinget kan i særlige tilfeller vedta at et merforbruk i driftsregnskapet til kommunekassen eller fylkeskommunekassen skal dekkes inn senest fire år etter at det oppsto. Hvis de samfunnsmessige og økonomiske konsekvensene av å dekke inn et merforbruk etter første punktum vil bli uforholdsmessig store, kan departementet godkjenne et vedtak om at merforbruket dekkes inn over en periode på flere enn fire år etter at det oppsto.</p>
@@ -721,7 +1222,7 @@ c. utlånet ikke innebærer en vesentlig økonomisk risiko for kommunen eller fy
 <p>Første ledd gjelder også for lån som er tatt opp med hjemmel i annen lov. Lån som er tatt opp etter trossamfunnsloven § 14 fjerde ledd til investeringer i kirkebygg, kan likevel avdras over investeringens regnskapsmessige levetid hvis levetiden er vesentlig lengre enn levetiden på kommunens egne anleggsmidler.</p>
 <p>Hvis mottatte avdrag på videreutlån er brukt til å betale avdrag på lån til formål som er nevnt i § 14-15 første og andre ledd og § 14-16 , skal dette ikke redusere minimumsavdraget etter første ledd.</p>
 <p>Departementet kan gi forskrift om avdrag på lån, beregning av minimumsavdraget og unntak fra første ledd.</p>
-<p><em>Endret ved lover 23 juni 2020 nr. 97 (ikr. 30 des 2020 iflg. res. 27 nov 2020 nr. 2486 ), 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lover 23 juni 2020 nr. 97 (ikr. 30 des 2020 iflg. res. 27 nov 2020 nr. 2486 ), 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="14-19-garantier">§ 14-19. Garantier</h5>
 <p>Kommuner og fylkeskommuner kan ikke stille kausjon eller annen økonomisk garanti for virksomhet som drives av andre enn kommunen eller fylkeskommunen selv, hvis garantien innebærer en vesentlig økonomisk risiko eller er stilt for næringsvirksomhet. Et tilsagn om kausjon eller annen økonomisk garanti som en kommune eller fylkeskommune stiller for virksomhet som drives av andre enn kommunen eller fylkeskommunen selv, er bare gyldig hvis vedtaket om å stille garantien er godkjent av departementet. Ved godkjenningen skal departementet bare vurdere om garantien er i strid med første ledd eller forskrift gitt i medhold av denne paragrafen. Departementet kan ikke godkjenne garantier i strid med første ledd eller forskrift gitt i medhold av denne paragrafen. Er garantien godkjent av departementet, regnes den ikke som ugyldig, selv om den er i strid med første ledd eller forskrift gitt i medhold av denne paragrafen.</p>
 <p>Garantier for små beløp er unntatt fra kravet om godkjenning. Et garantitilsagn for små beløp er ikke gyldig hvis mottakeren av garantien forsto eller burde ha forstått at garantien er i strid med første ledd.</p>
@@ -765,7 +1266,7 @@ c. Investeringskostnadene skal fordeles over den tiden investeringene forventes 
 <p>Et interkommunalt politisk råd kan ikke gis myndighet til å treffe enkeltvedtak. Rådet kan likevel gis myndighet til å treffe slike vedtak om interne forhold i samarbeidet og til å forvalte tilskuddsordninger.</p>
 <p>Rådets navn skal inneholde ordene interkommunalt politisk råd eller forkortelsen IPR.</p>
 <p>De øvrige kapitlene i denne loven gjelder på tilsvarende måte så langt de passer for interkommunale politiske råd.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ). Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ). Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</p>
 <h5 id="18-2-deltakeransvar">§ 18-2. Deltakeransvar</h5>
 <p>Den enkelte deltakeren i et interkommunalt politisk råd har ubegrenset økonomisk ansvar for sin andel av rådets forpliktelser. Til sammen skal andelene utgjøre rådets samlete forpliktelser.</p>
 <p>Rådets kreditorer må først gjøre sitt krav gjeldende mot rådet. Hvis kreditor ikke får dekket kravet sitt innen 14 dager regnet fra påkrav, kan kreditor kreve den enkelte deltakeren for dennes andel av forpliktelsen. En deltaker som helt eller delvis har dekket sin andel av en fordring på rådet, kan straks kreve tilbake utlegget sitt fra rådet.</p>
@@ -794,7 +1295,7 @@ h. hvordan rådet skal oppløses, blant annet hvem som skal ha ansvaret for oppb
 <p>Et oppgavefellesskap kan ikke gis myndighet til å treffe enkeltvedtak. Oppgavefellesskapet kan likevel gis myndighet til å treffe denne typen vedtak om interne forhold i samarbeidet og til å forvalte tilskuddsordninger.</p>
 <p>Oppgavefellesskapets navn skal inneholde ordene kommunalt oppgavefellesskap eller forkortelsen KO.</p>
 <p>De øvrige kapitlene i denne loven gjelder på tilsvarende måte så langt de passer for oppgavefellesskap.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ). Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ). Endres ved lov 20 juni 2025 nr. 81 (i kraft fra den tiden Kongen bestemmer).</p>
 <h5 id="19-2-deltakeransvar">§ 19-2. Deltakeransvar</h5>
 <p>Den enkelte deltakeren i et kommunalt oppgavefellesskap har ubegrenset økonomisk ansvar for sin andel av oppgavefellesskapets forpliktelser. Til sammen skal andelene utgjøre oppgavefellesskapets samlete forpliktelser.</p>
 <p>Oppgavefellesskapets kreditorer må først gjøre sitt krav gjeldende mot oppgavefellesskapet. Hvis kreditor ikke får dekket kravet sitt innen 14 dager regnet fra påkrav, kan kreditor kreve den enkelte deltakeren for dennes andel av forpliktelsen. En deltaker som helt eller delvis har dekket sin andel av en fordring på oppgavefellesskapet, kan straks kreve tilbake utlegget sitt fra oppgavefellesskapet.</p>
@@ -805,7 +1306,7 @@ h. hvordan rådet skal oppløses, blant annet hvem som skal ha ansvaret for oppb
 <p>Daglig leder i oppgavefellesskapet kan ikke være medlem av representantskapet.</p>
 <p>Representantskapets medlemmer og varamedlemmer velges for fire år hvis ikke noe annet er fastsatt i samarbeidsavtalen. Den enkelte deltakeren kan selv når som helst ved nyvalg skifte ut de medlemmene og varamedlemmene som deltakeren selv har valgt. Nye medlemmer og varamedlemmer velges for resten av valgperioden.</p>
 <p>Representantskapet kan selv opprette andre organer til styring av oppgavefellesskapet. Representantskapet velger selv en leder, en nestleder og øvrige medlemmer og varamedlemmer til slike organer.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 55 .</p>
 <h5 id="19-4-samarbeidsavtale">§ 19-4. Samarbeidsavtale</h5>
 <p>Når det opprettes et oppgavefellesskap, skal det inngås en skriftlig samarbeidsavtale mellom alle deltakerne i oppgavefellesskapet.</p>
 <p>De enkelte kommunestyrene og fylkestingene i alle deltakerkommunene skal selv vedta samarbeidsavtalen og avtaleendringer som gjelder noen av momentene nevnt i fjerde ledd.</p>
@@ -855,7 +1356,7 @@ h. hvordan samarbeidet skal oppløses
 i. annet som etter lov skal fastsettes i avtale.</p>
 <p>Avtaler om vertskommunesamarbeid med felles nemnd skal også inneholde bestemmelser om hvor mange medlemmer den enkelte deltakeren skal ha i nemnda.</p>
 <p>I et vertskommunesamarbeid mellom kommuner skal vertskommunen orientere statsforvalteren om at samarbeidet er opprettet. I et vertskommunesamarbeid mellom fylkeskommuner skal vertskommunen orientere departementet om at samarbeidet er opprettet.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="20-5-klagebehandling-i-et-administrativt-vertskommunesamarbeid">§ 20-5. Klagebehandling i et administrativt vertskommunesamarbeid</h5>
 <p>Når det i et administrativt vertskommunesamarbeid treffes vedtak som kan påklages etter forvaltningsloven § 28 første ledd, er klageinstansen den kommunen eller fylkeskommunen som har delegert myndigheten. Administrasjonen i vertskommunen er da underinstans etter forvaltningsloven § 33 andre ledd. Administrasjonen er også underinstans der det i lov er fastsatt at et statlig organ er klageinstans.</p>
 <p>Klageinstansen har ikke omgjøringsrett etter forvaltningsloven § 35 andre og tredje ledd. Statlige klageinstanser kan likevel oppheve vedtak som må anses som ugyldige.</p>
@@ -930,7 +1431,7 @@ d. aksjeselskap der en kommune eller fylkeskommune alene eller sammen med andre 
 <p>Kommunestyret og fylkestinget kan fastsette regler om kontrollutvalgets kontroll med forvaltningen av kommunens eller fylkeskommunens interesser i selskaper som er nevnt i første ledd, og om hvilke dokumenter mv. som skal sendes til kontrollutvalget.</p>
 <p>Kommuner og fylkeskommuner skal sørge for at kontrollutvalget blir varslet om møter i generalforsamling, representantskap og tilsvarende organer. Kontrollutvalget har rett til å være til stede i disse møtene.</p>
 <p>Kontrollutvalgets innsynsrett og rett til å foreta undersøkelser etter første og andre ledd gjelder på tilsvarende måte overfor andre virksomheter som utfører oppgaver på vegne av kommunen eller fylkeskommunen. Innsynet og undersøkelsene skal imidlertid bare omfatte det som er nødvendig for å undersøke om kontrakten blir oppfylt.</p>
-<p><em>Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</em></p>
+<p class="note">Endret ved lov 2 juni 2023 nr. 21 (i kraft 1 juli 2023 iflg. res. 2 juni 2023 nr. 767 ).</p>
 <h5 id="23-7-sekretariatet">§ 23-7. Sekretariatet</h5>
 <p>Kommunestyret og fylkestinget skal sørge for at kontrollutvalget får sekretariatsbistand som tilfredsstiller utvalgets behov.</p>
 <p>Sekretariatet skal påse at de sakene som behandles av kontrollutvalget, er forsvarlig utredet, og at utvalgets vedtak blir iverksatt.</p>
@@ -954,7 +1455,7 @@ c. medlemmer av kontrollutvalget, kommunestyret eller fylkestinget i den aktuell
 <p>Revisor kan kreve at kommunen eller fylkeskommunen legger fram alle opplysninger, redegjørelser eller dokumenter som han eller hun finner nødvendige for å utføre sine oppgaver. Revisor kan også foreta undersøkelser som han eller hun mener er nødvendige. Taushetsplikt er ikke til hinder for å gjennomføre kontrolltiltak etter dette leddet.</p>
 <p>Revisor har taushetsplikt etter forvaltningsloven §§ 13 til 13 e og 13 g .</p>
 <p>Departementet kan gi forskrift om revisors plikter og kvalifikasjoner, skifte av revisor og begrensninger i revisors taushetsplikt.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</p>
 <h5 id="24-3-revisors-mterett-opplysningsplikt-mv">§ 24-3. Revisors møterett, opplysningsplikt mv.</h5>
 <p>Oppdragsansvarlig revisor eller hans eller hennes stedfortreder har møte- og talerett i kontrollutvalgets møter. Revisoren har rett til å få uttalelsene sine protokollert. Møteretten gjelder likevel ikke når en sak som angår en revisors tilsettingsforhold behandles.</p>
 <p>Oppdragsansvarlig revisor eller hans eller hennes stedfortreder har møteplikt i kommunestyrets eller fylkestingets møter når kommunestyret eller fylkestinget skal behandle saker som er knyttet til revisors oppdrag.</p>
@@ -1025,7 +1526,7 @@ c. kommunens eller fylkeskommunens formål med sine eierinteresser eller tilsvar
 <h5 id="27-1-lovlighetskontroll">§ 27-1. Lovlighetskontroll <a class="para-history" href="../historikk/lov-2018-06-22-83/para-27-1.html" title="Endringshistorikk for § 27-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Tre eller flere medlemmer av kommunestyret eller fylkestinget kan sammen kreve at departementet kontrollerer om et vedtak er lovlig. Et slikt krav må fremmes innen tre uker fra vedtaket ble truffet. Fristreglene i forvaltningsloven § 30 gjelder. Kravet skal settes fram for det organet som traff vedtaket. Hvis organet opprettholder vedtaket, skal saken sendes til departementet.</p>
 <p>Hvis særlige grunner tilsier det, kan departementet på eget initiativ kontrollere om et vedtak er lovlig.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 55 .</p>
 <h5 id="27-2-hva-som-kan-lovlighetskontrolleres">§ 27-2. Hva som kan lovlighetskontrolleres</h5>
 <p>Følgende kan lovlighetskontrolleres:</p>
 <p>a. endelige vedtak som er truffet av et folkevalgt organ eller den kommunale eller fylkeskommunale administrasjonen
@@ -1036,7 +1537,7 @@ c. vedtak som gjelder spørsmål om inhabilitet.</p>
 b. vedtak om ansettelse, oppsigelse eller avskjed
 c. spørsmål om et vedtak er i strid med bestemmelser gitt i eller i medhold av lov om offentlige anskaffelser.
 d. avgjørelse om kommunestyrevalget eller fylkestingsvalget er gyldig, jf. valgloven § 15-2 første ledd og § 15-3 første ledd .</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 62 (i kraft 1 mai 2024 iflg. res. 22 mars 2024 nr. 553 ).</p>
 <h5 id="27-3-innholdet-i-lovlighetskontrollen">§ 27-3. Innholdet i lovlighetskontrollen</h5>
 <p>Ved lovlighetskontroll skal departementet ta stilling til om vedtaket</p>
 <p>a. har et lovlig innhold
@@ -1086,7 +1587,7 @@ g. Departementet har fattet et vedtak etter <a href="lov-2001-06-15-70.html">inn
 <h5 id="29-1-utlegg-og-arrest-konkurs-og-gjeldsforhandling">§ 29-1. Utlegg og arrest, konkurs og gjeldsforhandling</h5>
 <p>Det kan ikke tas utlegg eller arrest i eiendelene til en kommune eller fylkeskommune.</p>
 <p>En kommune eller fylkeskommune kan ikke tas under konkursbehandling eller begjære åpning av gjeldsforhandling etter <a href="lov-1984-06-08-58.html">konkursloven</a>.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="29-2-vedtak-om-betalingsinnstilling-oppnevning-av-tilsynsnemnd">§ 29-2. Vedtak om betalingsinnstilling. Oppnevning av tilsynsnemnd</h5>
 <p>Hvis en kommune eller fylkeskommune på grunn av vanskeligheter som ikke er helt forbigående, ikke kan betale forfalt gjeld, plikter kommunestyret eller fylkestinget selv å treffe et vedtak om betalingsinnstilling. Det skal straks sendes en melding til departementet om et slikt vedtak.</p>
 <p>Hvis det ikke blir truffet vedtak etter første ledd, kan departementet vedta en betalingsinnstilling for den kommunen eller fylkeskommunen det gjelder.</p>
@@ -1110,27 +1611,27 @@ c. utbetalinger som er nødvendige for å unngå fare for betydelig økonomisk t
 <p>Reglene i dette kapitlet gjelder for tilsyn med oppfyllelse av plikter som bare er pålagt kommunene eller fylkeskommunene. Bestemmelsene i §§ 30-6 og 30-7 gjelder likevel for alt statlig tilsyn rettet mot en kommune eller fylkeskommune.</p>
 <h5 id="30-2-lovlighetstilsyn">§ 30-2. Lovlighetstilsyn</h5>
 <p>Statsforvalteren kan føre tilsyn med lovligheten av kommunens eller fylkeskommunens oppfyllelse av plikter som er pålagt i eller i medhold av lov. Statsforvalteren kan bare føre slikt tilsyn der det i lov er gitt hjemmel for å føre tilsyn.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="30-3-innsyn-og-underskelser">§ 30-3. Innsyn og undersøkelser</h5>
 <p>Statsforvalteren kan kreve at kommunen eller fylkeskommunen gir opplysninger om enkeltsaker og forhold ved kommunens eller fylkeskommunens virksomhet. Statsforvalteren har rett til innsyn i alle kommunale og fylkeskommunale saksdokumenter og kan kreve at kommunale eller fylkeskommunale organer, folkevalgte og ansatte gir de opplysningene og meldingene som statsforvalteren mener er nødvendige for å gjennomføre tilsyn etter dette kapitlet. Statsforvalteren kan også foreta de undersøkelsene som statsforvalteren mener er nødvendige. Taushetsplikt er ikke til hinder for innsyn og undersøkelser etter dette leddet.</p>
 <p>Første ledd gjelder også overfor selvstendige rettssubjekter som utfører kommunale eller fylkeskommunale oppgaver for kommuner eller fylkeskommuner.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="30-4-palegg-om-retting">§ 30-4. Pålegg om retting</h5>
 <p>Statsforvalteren kan gi pålegg til kommunen eller fylkeskommunen om å rette forhold som er i strid med de bestemmelsene statsforvalteren fører tilsyn med oppfyllelsen av.</p>
 <p>Før statsforvalteren eller en annen statlig tilsynsmyndighet vedtar pålegg om retting etter første ledd eller annen reaksjon hjemlet i lov mot en kommune eller en fylkeskommune, skal tilsynsmyndigheten vurdere virkningene for kommunens eller fylkeskommunens øvrige virksomhet.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="30-5-partsrettigheter">§ 30-5. Partsrettigheter</h5>
 <p>Ved statlig tilsyn kan kommuner og fylkeskommuner klage på vedtak og utøve andre partsrettigheter etter reglene i forvaltningsloven kapittel IV , V og VI og §§ 14 , 41 og 42 .</p>
 <h5 id="30-6-samordning-av-statlige-tilsynsmyndigheter">§ 30-6. Samordning av statlige tilsynsmyndigheter</h5>
 <p>Statsforvalteren samordner planlagte statlige tilsynsaktiviteter overfor kommunen og fylkeskommunen og vurderer det samlete omfanget av statlig tilsyn med den enkelte kommunen eller fylkeskommunen.</p>
 <p>Alle statlige tilsynsmyndigheter skal underrette statsforvalteren om planer for tilsyn og om varsel om pålegg om retting eller andre reaksjoner som har vesentlige virkninger for kommunen eller fylkeskommunen. Statsforvalteren kan fastsette frister for når underretning om tilsynsplaner skal være sendt statsforvalteren. Tilsynsmyndigheter som er utpekt som koordinerende myndighet for tilsyn, skal underrette statsforvalteren om koordinerte tilsynsplaner.</p>
 <p>Statsforvalteren skal formidle til andre tilsynsmyndigheter sin vurdering av situasjonen i enkeltkommuner og i fylkeskommunen.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h5 id="30-7-samordning-mellom-statlig-tilsynsvirksomhet-og-kommuner-eller-fylkeskommuner">§ 30-7. Samordning mellom statlig tilsynsvirksomhet og kommuner eller fylkeskommuner</h5>
 <p>Statsforvalteren skal drøfte med kommunene og fylkeskommunene prioritering og gjennomføring av planlagte tilsyn.</p>
 <p>Statlige tilsynsmyndigheter skal i sin planlegging, prioritering og gjennomføring av tilsyn ta hensyn til det samlete statlige tilsynet med den enkelte kommunen eller fylkeskommunen og til relevante forvaltningsrevisjonsrapporter. Tilsynsmyndighetene skal vurdere å utsette eller å ikke gjennomføre tilsyn hvis kommunen eller fylkeskommunen nylig har gjennomført en kontroll med det samme temaet.</p>
 <p>Før det eventuelt vedtas pålegg om retting eller andre reaksjoner med vesentlige virkninger for kommunen eller fylkeskommunen, skal tilsynsmyndigheten ha dialog med kommunen eller fylkeskommunen om slike pålegg eller reaksjoner og om kommunens eller fylkeskommunens oppfølging. Kommunen eller fylkeskommunen plikter å delta i dialogen.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h2 id="niende-del-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Niende del. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</h2>
 <h3 id="kapittel-31-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 31. Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</h3>
 <h5 id="31-1-ikrafttredelse">§ 31-1. Ikrafttredelse</h5>
@@ -1150,12 +1651,14 @@ c. Kommunedirektøren skal rapportere til kommunestyret og fylkestinget om resul
 <h5 id="31-4-andre-overgangsregler">§ 31-4. Andre overgangsregler <a class="para-history" href="../historikk/lov-2018-06-22-83/para-31-4.html" title="Endringshistorikk for § 31-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>For Longyearbyen lokalstyre gjelder lov 25. september 1992 nr. 107 kapittel 11 og 12 , § 10 a , § 16 , § 24 nr. 2 og §§ 30 , 31 , 36 , 37 , 38 , 39 a og 59 inntil lokalstyret holder konstituerende lokalstyremøte ved oppstart av valgperioden 2019–2023.</p>
 <p>Kongen kan gi nærmere overgangsregler.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 55 .</p>
 <h5 id="31-5-viderefring-av-forskrifter">§ 31-5. Videreføring av forskrifter</h5>
 <p>Forskrifter gitt i medhold av lov 25. september 1992 nr. 107 gjelder også etter at loven her har trådt i kraft, så langt de også kunne ha vært gitt med hjemmel i loven her.</p>
 <h5 id="31-6-endringer-i-andre-lover">§ 31-6. Endringer i andre lover <a class="para-history" href="../historikk/lov-2018-06-22-83/para-31-6.html" title="Endringshistorikk for § 31-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Fra samme tid som loven settes i kraft, gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lover 24 mai 2019 nr. 17 , 21 juni 2019 nr. 55 .</em></p>
+<p class="note">Endret ved lover 24 mai 2019 nr. 17 , 21 juni 2019 nr. 55 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

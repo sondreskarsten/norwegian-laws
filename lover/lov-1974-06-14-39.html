@@ -19,64 +19,227 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1974-06-14-39.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om eksplosive varer (Svalbard)" href="../feeds/lov-1974-06-14-39.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Lov om eksplosive varer (Svalbard)</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1974-06-14-39</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Svalbard og biland &raquo; Arbeidsforhold\nSvalbard og biland &raquo; Generelt</dd>
-<dt>Ikrafttredelse</dt><dd>1977-04-01, 1978-04-01, 1988-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2015-06-19-65</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1974-06-14-39" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapitel-1-alminnelige-regler">Kapitel 1. Alminnelige regler.</a></li>
+<li class="lvl4"><a href="#1-lovens-omrade">§ 1. Lovens område.</a></li>
+<li class="lvl4"><a href="#2-eksplosiv-vare">§ 2. Eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#3-godkjenning-av-eksplosiv-vare">§ 3. Godkjenning av eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#4-om-utfrelse-og-montering-av-maskin-apparat-beholder-eller-annen-innretning-og-om-godkjenning">§ 4. Om utførelse og montering av maskin, apparat, beholder eller annen innretning og om godkjenning.</a></li>
+<li class="lvl4"><a href="#4-a-produktgodkjenning">§ 4 a. Produktgodkjenning</a></li>
+<li class="lvl4"><a href="#5-underskelse-av-eksplosiv-vare-innhenting-av-prver-mv">§ 5. Undersøkelse av eksplosiv vare, innhenting av prøver m.v.</a></li>
+<li class="lvl4"><a href="#6-srlige-vilkar-eller-forbud">§ 6. Særlige vilkår eller forbud.</a></li>
+<li class="lvl4"><a href="#7-varigheten-av-tillatelse-og-godkjenning">§ 7. Varigheten av tillatelse og godkjenning.</a></li>
+<li class="lvl4"><a href="#8-melding-om-at-virksomhet-kan-begynne">§ 8. Melding om at virksomhet kan begynne.</a></li>
+<li class="lvl4"><a href="#9-srskilt-ansvarshavende">§ 9. Særskilt ansvarshavende.</a></li>
+<li class="lvl4"><a href="#10-overlatelse-av-eksplosiv-vare">§ 10. Overlatelse av eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#11-pakking-og-merking">§ 11. Pakking og merking.</a></li>
+<li class="lvl4"><a href="#11-a-sikkerhetsdatablad-og-stoffregister">§ 11 a. Sikkerhetsdatablad og stoffregister</a></li>
+<li class="lvl4"><a href="#12-oppslag-om-fare">§ 12. Oppslag om fare.</a></li>
+<li class="lvl4"><a href="#13-apen-ild-og-ryking">§ 13. Åpen ild og røyking.</a></li>
+<li class="lvl4"><a href="#14-forsiktighet-for-a-forebygge-fare-for-brann-eller-eksplosjon-mv">§ 14. Forsiktighet for å forebygge fare for brann eller eksplosjon m.v.</a></li>
+<li class="lvl2"><a href="#kapitel-2-tilvirking">Kapitel 2. Tilvirking.</a></li>
+<li class="lvl4"><a href="#15-hva-det-forstas-med-tilvirking">§ 15. Hva det forstås med tilvirking.</a></li>
+<li class="lvl4"><a href="#16-tillatelse-til-tilvirking">§ 16. Tillatelse til tilvirking.</a></li>
+<li class="lvl4"><a href="#17-tillatelse-til-forsk">§ 17. Tillatelse til forsøk.</a></li>
+<li class="lvl4"><a href="#18-tilvirking-uten-srskilt-tillatelse">§ 18. Tilvirking uten særskilt tillatelse.</a></li>
+<li class="lvl4"><a href="#19-rom-bygning-eller-anlegg">§ 19. Rom, bygning eller anlegg.</a></li>
+<li class="lvl4"><a href="#20-beliggenheten-av-tilvirkingssted">§ 20. Beliggenheten av tilvirkingssted.</a></li>
+<li class="lvl4"><a href="#21-framgangsmate-og-formal">§ 21. Framgangsmåte og formål.</a></li>
+<li class="lvl2"><a href="#kapitel-3-oppbevaring">Kapitel 3. Oppbevaring.</a></li>
+<li class="lvl4"><a href="#22-tillatelse-til-oppbevaring">§ 22. Tillatelse til oppbevaring.</a></li>
+<li class="lvl4"><a href="#23-rom-bygning-eller-innretning-oppbevaringsmate">§ 23. Rom, bygning eller innretning. Oppbevaringsmåte.</a></li>
+<li class="lvl4"><a href="#24-beliggenheten-av-oppbevaringssted">§ 24. Beliggenheten av oppbevaringssted.</a></li>
+<li class="lvl2"><a href="#kapitel-4-erverv">Kapitel 4. Erverv.</a></li>
+<li class="lvl4"><a href="#25-tillatelse-til-erverv">§ 25. Tillatelse til erverv.</a></li>
+<li class="lvl2"><a href="#kapitel-5-handel">Kapitel 5. Handel.</a></li>
+<li class="lvl4"><a href="#26-tillatelse-til-handel">§ 26. Tillatelse til handel.</a></li>
+<li class="lvl2"><a href="#kapitel-6-transport">Kapitel 6. Transport.</a></li>
+<li class="lvl4"><a href="#27-hva-det-forstas-med-transport">§ 27. Hva det forstås med transport.</a></li>
+<li class="lvl4"><a href="#28-ammunisjon-til-handvapen">§ 28. Ammunisjon til håndvåpen.</a></li>
+<li class="lvl4"><a href="#29-tillatelse-til-transport">§ 29. Tillatelse til transport.</a></li>
+<li class="lvl4"><a href="#30-bil-mv-som-blir-brukt-til-transport">§ 30. Bil m.v. som blir brukt til transport.</a></li>
+<li class="lvl4"><a href="#31-forskrifter-om-transport-mv">§ 31. Forskrifter om transport m.v.</a></li>
+<li class="lvl2"><a href="#kapittel-7-innfrsel-utfrsel-og-overfring">Kapittel 7. Innførsel, utførsel og overføring.</a></li>
+<li class="lvl4"><a href="#32-tillatelse-til-innfrsel-utfrsel-og-overfring">§ 32. Tillatelse til innførsel, utførsel og overføring.</a></li>
+<li class="lvl4"><a href="#33-hvem-som-kan-gis-tillatelse-til-innfrsel">§ 33. Hvem som kan gis tillatelse til innførsel.</a></li>
+<li class="lvl4"><a href="#34-srlige-bestemmelser">§ 34. Særlige bestemmelser.</a></li>
+<li class="lvl2"><a href="#kapitel-8-bruk">Kapitel 8. Bruk.</a></li>
+<li class="lvl4"><a href="#35-forskrifter-om-bruk">§ 35. Forskrifter om bruk.</a></li>
+<li class="lvl2"><a href="#kapitel-9-tilsyn-forskrifter-klage-mv">Kapitel 9. Tilsyn, forskrifter, klage m.v.</a></li>
+<li class="lvl4"><a href="#36-tilsynsmyndighetene">§ 36. Tilsynsmyndighetene.</a></li>
+<li class="lvl4"><a href="#37-forskrifter-enkeltvedtak-og-rettleiing">§ 37. Forskrifter, enkeltvedtak og rettleiing.</a></li>
+<li class="lvl4"><a href="#38-klage">§ 38. Klage.</a></li>
+<li class="lvl4"><a href="#39-stedlige-underskelser-opplysning-kontakt-med-og-rapport-til-arbeidsgivere-og-arbeidstakere-inspeksjonsbok">§ 39. Stedlige undersøkelser. Opplysning. Kontakt med og rapport til arbeidsgivere og arbeidstakere. Inspeksjonsbok.</a></li>
+<li class="lvl4"><a href="#40-avgiftsplikt">§ 40. Avgiftsplikt.</a></li>
+<li class="lvl2"><a href="#kapitel-10-straff-forelegg-og-tvangsfullbyrdelse">Kapitel 10. Straff, forelegg og tvangsfullbyrdelse.</a></li>
+<li class="lvl4"><a href="#41-straff">§ 41. Straff.</a></li>
+<li class="lvl4"><a href="#42-tvangsmulkt">§ 42. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#43-forelegg-om-plikt-til-a-etterkomme-palegg-eller-forbud">§ 43. Forelegg om plikt til å etterkomme pålegg eller forbud</a></li>
+<li class="lvl4"><a href="#43-a-tvangsfullbyrdelse">§ 43 a. Tvangsfullbyrdelse</a></li>
+<li class="lvl2"><a href="#kapitel-11-overgangsbestemmelser-ikrafttreden-oppheving-og-endring-av-andre-lover">Kapitel 11. Overgangsbestemmelser, ikrafttreden, oppheving og endring av andre lover.</a></li>
+<li class="lvl4"><a href="#44-overgangsbestemmelser">§ 44. Overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#45-ikrafttreden-oppheving-og-endring-av-andre-lover">§ 45. Ikrafttreden. Oppheving og endring av andre lover.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2015-06-19-65.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1974-06-14-39.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om eksplosive varer [gjelder bare for Svalbard]</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1974-06-14-39.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1974-06-14-39 <code>lov/1974-06-14-39</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om eksplosive varer (Svalbard)</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Svalbard og biland &raquo; Arbeidsforhold\nSvalbard og biland &raquo; Generelt</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.1977, 01.04.1978, 01.01.1988</td></tr>
+<tr><th>Sist endret</th><td>LOV-2015-06-19-65 <code>lov/2015-06-19-65</code> fra 01.10.2015</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1974-06-14-39" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapitel-1-alminnelige-regler">Kapitel 1. Alminnelige regler.</a></li>
+<li class="lvl4"><a href="#1-lovens-omrade">§ 1. Lovens område.</a></li>
+<li class="lvl4"><a href="#2-eksplosiv-vare">§ 2. Eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#3-godkjenning-av-eksplosiv-vare">§ 3. Godkjenning av eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#4-om-utfrelse-og-montering-av-maskin-apparat-beholder-eller-annen-innretning-og-om-godkjenning">§ 4. Om utførelse og montering av maskin, apparat, beholder eller annen innretning og om godkjenning.</a></li>
+<li class="lvl4"><a href="#4-a-produktgodkjenning">§ 4 a. Produktgodkjenning</a></li>
+<li class="lvl4"><a href="#5-underskelse-av-eksplosiv-vare-innhenting-av-prver-mv">§ 5. Undersøkelse av eksplosiv vare, innhenting av prøver m.v.</a></li>
+<li class="lvl4"><a href="#6-srlige-vilkar-eller-forbud">§ 6. Særlige vilkår eller forbud.</a></li>
+<li class="lvl4"><a href="#7-varigheten-av-tillatelse-og-godkjenning">§ 7. Varigheten av tillatelse og godkjenning.</a></li>
+<li class="lvl4"><a href="#8-melding-om-at-virksomhet-kan-begynne">§ 8. Melding om at virksomhet kan begynne.</a></li>
+<li class="lvl4"><a href="#9-srskilt-ansvarshavende">§ 9. Særskilt ansvarshavende.</a></li>
+<li class="lvl4"><a href="#10-overlatelse-av-eksplosiv-vare">§ 10. Overlatelse av eksplosiv vare.</a></li>
+<li class="lvl4"><a href="#11-pakking-og-merking">§ 11. Pakking og merking.</a></li>
+<li class="lvl4"><a href="#11-a-sikkerhetsdatablad-og-stoffregister">§ 11 a. Sikkerhetsdatablad og stoffregister</a></li>
+<li class="lvl4"><a href="#12-oppslag-om-fare">§ 12. Oppslag om fare.</a></li>
+<li class="lvl4"><a href="#13-apen-ild-og-ryking">§ 13. Åpen ild og røyking.</a></li>
+<li class="lvl4"><a href="#14-forsiktighet-for-a-forebygge-fare-for-brann-eller-eksplosjon-mv">§ 14. Forsiktighet for å forebygge fare for brann eller eksplosjon m.v.</a></li>
+<li class="lvl2"><a href="#kapitel-2-tilvirking">Kapitel 2. Tilvirking.</a></li>
+<li class="lvl4"><a href="#15-hva-det-forstas-med-tilvirking">§ 15. Hva det forstås med tilvirking.</a></li>
+<li class="lvl4"><a href="#16-tillatelse-til-tilvirking">§ 16. Tillatelse til tilvirking.</a></li>
+<li class="lvl4"><a href="#17-tillatelse-til-forsk">§ 17. Tillatelse til forsøk.</a></li>
+<li class="lvl4"><a href="#18-tilvirking-uten-srskilt-tillatelse">§ 18. Tilvirking uten særskilt tillatelse.</a></li>
+<li class="lvl4"><a href="#19-rom-bygning-eller-anlegg">§ 19. Rom, bygning eller anlegg.</a></li>
+<li class="lvl4"><a href="#20-beliggenheten-av-tilvirkingssted">§ 20. Beliggenheten av tilvirkingssted.</a></li>
+<li class="lvl4"><a href="#21-framgangsmate-og-formal">§ 21. Framgangsmåte og formål.</a></li>
+<li class="lvl2"><a href="#kapitel-3-oppbevaring">Kapitel 3. Oppbevaring.</a></li>
+<li class="lvl4"><a href="#22-tillatelse-til-oppbevaring">§ 22. Tillatelse til oppbevaring.</a></li>
+<li class="lvl4"><a href="#23-rom-bygning-eller-innretning-oppbevaringsmate">§ 23. Rom, bygning eller innretning. Oppbevaringsmåte.</a></li>
+<li class="lvl4"><a href="#24-beliggenheten-av-oppbevaringssted">§ 24. Beliggenheten av oppbevaringssted.</a></li>
+<li class="lvl2"><a href="#kapitel-4-erverv">Kapitel 4. Erverv.</a></li>
+<li class="lvl4"><a href="#25-tillatelse-til-erverv">§ 25. Tillatelse til erverv.</a></li>
+<li class="lvl2"><a href="#kapitel-5-handel">Kapitel 5. Handel.</a></li>
+<li class="lvl4"><a href="#26-tillatelse-til-handel">§ 26. Tillatelse til handel.</a></li>
+<li class="lvl2"><a href="#kapitel-6-transport">Kapitel 6. Transport.</a></li>
+<li class="lvl4"><a href="#27-hva-det-forstas-med-transport">§ 27. Hva det forstås med transport.</a></li>
+<li class="lvl4"><a href="#28-ammunisjon-til-handvapen">§ 28. Ammunisjon til håndvåpen.</a></li>
+<li class="lvl4"><a href="#29-tillatelse-til-transport">§ 29. Tillatelse til transport.</a></li>
+<li class="lvl4"><a href="#30-bil-mv-som-blir-brukt-til-transport">§ 30. Bil m.v. som blir brukt til transport.</a></li>
+<li class="lvl4"><a href="#31-forskrifter-om-transport-mv">§ 31. Forskrifter om transport m.v.</a></li>
+<li class="lvl2"><a href="#kapittel-7-innfrsel-utfrsel-og-overfring">Kapittel 7. Innførsel, utførsel og overføring.</a></li>
+<li class="lvl4"><a href="#32-tillatelse-til-innfrsel-utfrsel-og-overfring">§ 32. Tillatelse til innførsel, utførsel og overføring.</a></li>
+<li class="lvl4"><a href="#33-hvem-som-kan-gis-tillatelse-til-innfrsel">§ 33. Hvem som kan gis tillatelse til innførsel.</a></li>
+<li class="lvl4"><a href="#34-srlige-bestemmelser">§ 34. Særlige bestemmelser.</a></li>
+<li class="lvl2"><a href="#kapitel-8-bruk">Kapitel 8. Bruk.</a></li>
+<li class="lvl4"><a href="#35-forskrifter-om-bruk">§ 35. Forskrifter om bruk.</a></li>
+<li class="lvl2"><a href="#kapitel-9-tilsyn-forskrifter-klage-mv">Kapitel 9. Tilsyn, forskrifter, klage m.v.</a></li>
+<li class="lvl4"><a href="#36-tilsynsmyndighetene">§ 36. Tilsynsmyndighetene.</a></li>
+<li class="lvl4"><a href="#37-forskrifter-enkeltvedtak-og-rettleiing">§ 37. Forskrifter, enkeltvedtak og rettleiing.</a></li>
+<li class="lvl4"><a href="#38-klage">§ 38. Klage.</a></li>
+<li class="lvl4"><a href="#39-stedlige-underskelser-opplysning-kontakt-med-og-rapport-til-arbeidsgivere-og-arbeidstakere-inspeksjonsbok">§ 39. Stedlige undersøkelser. Opplysning. Kontakt med og rapport til arbeidsgivere og arbeidstakere. Inspeksjonsbok.</a></li>
+<li class="lvl4"><a href="#40-avgiftsplikt">§ 40. Avgiftsplikt.</a></li>
+<li class="lvl2"><a href="#kapitel-10-straff-forelegg-og-tvangsfullbyrdelse">Kapitel 10. Straff, forelegg og tvangsfullbyrdelse.</a></li>
+<li class="lvl4"><a href="#41-straff">§ 41. Straff.</a></li>
+<li class="lvl4"><a href="#42-tvangsmulkt">§ 42. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#43-forelegg-om-plikt-til-a-etterkomme-palegg-eller-forbud">§ 43. Forelegg om plikt til å etterkomme pålegg eller forbud</a></li>
+<li class="lvl4"><a href="#43-a-tvangsfullbyrdelse">§ 43 a. Tvangsfullbyrdelse</a></li>
+<li class="lvl2"><a href="#kapitel-11-overgangsbestemmelser-ikrafttreden-oppheving-og-endring-av-andre-lover">Kapitel 11. Overgangsbestemmelser, ikrafttreden, oppheving og endring av andre lover.</a></li>
+<li class="lvl4"><a href="#44-overgangsbestemmelser">§ 44. Overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#45-ikrafttreden-oppheving-og-endring-av-andre-lover">§ 45. Ikrafttreden. Oppheving og endring av andre lover.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1974-06-14-39.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1974-06-14-39.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1974-06-14-39.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1974-06-14-39.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1974-06-14-39.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1974-06-14-39.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1974-06-14-39.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1974-06-14-39.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-eksplosive-varer-gjelder-bare-for-svalbard">Lov om eksplosive varer [gjelder bare for Svalbard]</h1>
 <h2 id="kapitel-1-alminnelige-regler">Kapitel 1. Alminnelige regler.</h2>
 <h4 id="1-lovens-omrade">§ 1. Lovens område.</h4>
 <p>Denne lov gjelder tilvirking, oppbevaring, transport, herunder lasting og lossing, erverv, bruk og inn- og utførsel av eksplosiv vare samt handel med slik vare.</p>
@@ -86,8 +249,8 @@ b. eksplosiv vare som er bestemt for eller som tilhører Forsvaret, politiet ell
 c. fyrstikker for så vidt gjelder reglene i kap. 3-6 og kap. 8.</p>
 <p>For Svalbard gjelder loven med de endringer som Kongen fastsetter.</p>
 <p>Kongen kan fastsette forskrifter om eksplosive varer som avviker fra bestemmelsene i loven når dette er nødvendig for norsk tilpasning til regelverk som Norge gjennom internasjonal avtale er forpliktet til å følge.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 88 , 24 juni 1994 nr. 41 (ikr. 1 juli 1994), 16 feb 2007 nr. 9 (ikr. 1 juli 2007 iflg. res. 16 feb 2007 nr. 170 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 88 , 24 juni 1994 nr. 41 (ikr. 1 juli 1994), 16 feb 2007 nr. 9 (ikr. 1 juli 2007 iflg. res. 16 feb 2007 nr. 170 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="2-eksplosiv-vare">§ 2. Eksplosiv vare.</h4>
 <p>Med eksplosiv vare forstås i denne lov vare som helt eller delvis består av eller inneholder slikt emne at varen kan eksplodere eller forbrenne på eksplosjonsartet måte.</p>
 <p>Eksplosive varer inndeles i følgende hovedslag:</p>
@@ -105,26 +268,26 @@ e. pyroteknisk vare, slik som fyrverkeri, pyroteknisk leketøy, fyrstikker og ly
 <p>Ved vurderingen av om eksplosiv vare skal godkjennes, skal departementet i tillegg til sikkerhetsmessige hensyn blant annet legge vekt på varens nytteverdi og hensynet til den alminnelige orden.</p>
 <p>Tilsynsmyndighetene kan om nødvendig på eierens eller innehaverens kostnad, tilintetgjøre eksplosiv vare som ikke er godkjent.</p>
 <p>Direktoratet for brann- og eksplosjonsvern skal utarbeide og offentliggjøre en fortegnelse over de eksplosive varer som til enhver tid er godkjent. I fortegnelsen skal gis de opplysninger som er av interesse for å vurdere hvordan denne lov skal anvendes på varen.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="4-om-utfrelse-og-montering-av-maskin-apparat-beholder-eller-annen-innretning-og-om-godkjenning">§ 4. Om utførelse og montering av maskin, apparat, beholder eller annen innretning og om godkjenning.</h4>
 <p>Maskin, apparat, beholder eller annen innretning med tilbehør som blir anvendt ved tilvirking, oppbevaring, transport, salg eller bruk av eksplosiv vare, skal være formålstjenlig og betryggende utført og skal til enhver tid være i slik stand at det ikke oppstår fare for brann eller eksplosjon og slik at varen ikke kommer på avveie eller urette hender. Montering skal være utført fagmessig og betryggende.</p>
 <p>Departementet kan ved forskrift bestemme at maskin, apparat, beholder eller annen innretning med tilbehør til bruk som nevnt i første ledd ikke må selges, utbys til salg eller brukes her i landet med mindre den er godkjent eller med mindre type av innretning som nevnt er godkjent (typegodkjenning). Godkjenning gis av Direktoratet for brann- og eksplosjonsvern eller den departementet bestemmer.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="4-a-produktgodkjenning">§ 4 a. Produktgodkjenning</h4>
 <p>Produkt underlagt godkjenningsplikt i henhold til §§ 3 eller 4 som er produsert og kontrollert i overensstemmelse med regelverk som Norge gjennom internasjonal avtale er forpliktet til å følge, anses godkjent i henhold til loven. 2</p>
-<p><em>Tilføyd ved lov 27 nov 1992 nr. 115 (ikr. 1 jan 1994), endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard. 2 Jf. EØS-avtalen vedlegg II .</em></p>
+<p class="note">Tilføyd ved lov 27 nov 1992 nr. 115 (ikr. 1 jan 1994), endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard. 2 Jf. EØS-avtalen vedlegg II .</p>
 <h4 id="5-underskelse-av-eksplosiv-vare-innhenting-av-prver-mv">§ 5. Undersøkelse av eksplosiv vare, innhenting av prøver m.v.</h4>
 <p>Direktoratet for brann- og eksplosjonsvern kan kreve at den som eier, tilvirker, innfører eller markedsfører eksplosiv vare eller innretning o.l. som nevnt i § 3 og § 4 , fremlegger representativ prøve av varen eller innretningen eller iverksetter undersøkelser som finnes nødvendige for å vurdere varens eller innretningens egenskaper eller virkninger. Det samme gjelder annen vare enn nevnt i § 2 første ledd når dette er nødvendig for å avgjøre om den skal bringes inn under loven. Direktoratet for brann- og eksplosjonsvern kan selv iverksette slike undersøkelser eller foreta nødvendig prøvetaking og kontroll. Kostnadene bæres av den som kravet om undersøkelser, prøvetaking og kontroll er rettet mot. Departementet kan likevel bestemme at kostnadene skal fordeles på flere eiere, tilvirkere, importører eller markedsførere eller at de helt eller delvis skal dekkes av det offentlige. Krav på refusjon av kostnadene er tvangsgrunnlag for utlegg.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 88 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 88 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="6-srlige-vilkar-eller-forbud">§ 6. Særlige vilkår eller forbud.</h4>
 <p>Når det etter denne lov eller forskrifter i medhold av loven blir gitt tillatelse eller godkjenning, kan det, med de begrensninger som følger av § 4a , i tillatelsen eller godkjenningen fastsettes særlige vilkår for å forebygge fare for brann eller eksplosjon eller for at varen kommer på avveie eller urette hender.</p>
 <p>Når tilvirking eller oppbevaring av eksplosiv vare kan foregå uten tillatelse, kan tilsynsmyndighetene fastsette nærmere vilkår for tilvirkingen eller oppbevaringen. Tilsynsmyndighetene kan videre fastsette begrensninger i eller forbud mot slik tilvirking eller oppbevaring som ellers lovlig kan skje. Forutsetningen for vedtak etter første og annet punktum er at det etter forholdene på stedet foreligger en særlig, fare for brann eller eksplosjon eller for at varen skal komme på avveie eller urette hender. Reglene her gjelder tilsvarende for lasting, lossing og midlertidig oppbevaring av eksplosiv vare under transport.</p>
-<p><em>Endret ved lov 27 nov 1992 nr. 115 (ikr. 1 jan 1994).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 27 nov 1992 nr. 115 (ikr. 1 jan 1994).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="7-varigheten-av-tillatelse-og-godkjenning">§ 7. Varigheten av tillatelse og godkjenning.</h4>
 <p>Tillatelse og godkjenning etter denne lov skal gis skriftlig og gjelder inntil videre dersom varigheten ikke er særskilt fastsatt.</p>
 <p>En tillatelse faller bort hvis den ikke blir nyttet innen den frist som måtte være fastsatt, eller dersom frist ikke er fastsatt, innen to år fra den dag den ble gitt.</p>
@@ -138,46 +301,46 @@ e. når de sikkerhetsmessige krav som ble stilt da tillatelsen ble gitt på noe 
 <p>En godkjenning kan tilbakekalles på samme vilkår som nevnt i fjerde ledd. Typegodkjenning etter §§ 3 og 4 kan dessuten tilbakekalles dersom det typegodkjente produkt ikke blir utført i samsvar med godkjenningen.</p>
 <p>Når en godkjenning tilbakekalles, kan Direktoratet for brann- og eksplosjonsvern kreve at den som tilvirker eller markedsfører varen eller innretningen tilbakekaller denne fra bruker eller distributør. Direktoratet for brann- og eksplosjonsvern kan selv iverksette slike tiltak og kreve kostnadene dekket av den som kunne fått pålegg om slike tiltak. Krav på refusjon av kostnadene er tvangsgrunnlag for utlegg.</p>
 <p>Er innehaver av tillatelse avgått ved døden eller gått konkurs, kan dødsboet eller konkursboet utøve virksomheten inntil ett år fra dødsfallet eller konkursens åpning, dersom ikke kortere varighet er særskilt fastsatt. Boet skal sende vedkommende tilsynsmyndighet melding om at det vil fortsette virksomheten innen en måned fra dødsfallet eller konkursens åpning og plikter å følge de regler som gjelder for virksomheten.</p>
-<p><em>Endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="8-melding-om-at-virksomhet-kan-begynne">§ 8. Melding om at virksomhet kan begynne.</h4>
 <p>Tilvirking, oppbevaring eller handel som det er gitt tillatelse til etter §§ 16 , 17 , 22 og 26 må ikke påbegynnes før tilsynsmyndigheten har inspisert tilvirkings- og oppbevaringsrom, utsalgssted eller maskin, apparat, beholder eller annen innretning med tilbehør til bruk for eksplosiv vare i den tillatte virksomhet og ved skriftlig melding har godkjent at virksomheten kan begynne.</p>
 <p>Departementet kan tillate at tilvirking av sprengstoff ved forbrukssted til bruk der kan begynne uten hinder av reglene i første ledd. Likeledes kan Direktoratet for brann- og eksplosjonsvern tillate tilvirking som prøvedrift uten hinder av reglene i første ledd.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="9-srskilt-ansvarshavende">§ 9. Særskilt ansvarshavende.</h4>
 <p>Ved tilvirking av eksplosiv vare eller ved oppbevaring av slik vare i større mengde skal det være en ansvarshavende som personlig skal føre tilsyn med at virksomheten foregår teknisk riktig og på lovlig måte.</p>
 <p>Ansvarshavende og hans stedfortreder skal være godkjent av den myndighet som gir tillatelse til virksomheten. Nevnte myndighet kan samtykke i at stedfortreder ikke blir utpekt.</p>
 <p>Ansvarshavende ved bedrift for tilvirking til salg eller stedfortreder ved forfall, skal bo i nærheten av bedriften hvis vedkommende myndighet ikke samtykker i annet bosted.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="10-overlatelse-av-eksplosiv-vare">§ 10. Overlatelse av eksplosiv vare.</h4>
 <p>Det er ikke tillatt å overlate eksplosiv vare til noen som etter regler i denne lov eller forskrifter gitt i medhold av loven ikke har adgang til å inneha varen.</p>
 <p>Den som lovlig innehar eksplosiv vare, kan uten hinder av reglene i første ledd overlate slik vare til andre til bruk på hans vegne i samsvar med forskrifter etter § 35 eller etter <a href="lov-2005-06-17-62.html">arbeidsmiljøloven</a> .</p>
 <p>Innehar noen under 18 år sprengstoff, krutt eller tennmidler ulovlig, kan tilsynsmyndighetene ta varen i forvaring. Det samme gjelder når noen under 16 år innehar pyroteknisk vare. Varen utleveres etter anmodning av eieren, eller hvis dette er barnet selv, av dets foreldre eller den som har omsorgen for det. Er varen ikke forlangt utlevert innen 3 måneder, kan tilsynsmyndighetene bestemme at den skal selges for eierens regning eller tilintetgjøres.</p>
-<p><em>Endret ved lover 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ), 17 juni 2005 nr. 62 (ikr. 1 jan 2006 iflg. res. 17 juni 2005 nr. 609 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ), 17 juni 2005 nr. 62 (ikr. 1 jan 2006 iflg. res. 17 juni 2005 nr. 609 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="11-pakking-og-merking">§ 11. Pakking og merking.</h4>
 <p>Eksplosiv vare som er tilvirket for salg skal være pakket på formålstjenlig og betryggende måte når den leveres fra tilvirker eller handlende.</p>
 <p>Den ytre pakning på eksplosiv vare skal være tydelig merket med opplysning om at innholdet er eksplosivt.</p>
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
 <h4 id="11-a-sikkerhetsdatablad-og-stoffregister">§ 11 a. Sikkerhetsdatablad og stoffregister</h4>
 <p>Departementet kan gi forskrifter om krav til utarbeidelse av sikkerhetsdatablad og stoffregister for opplysninger om egenskaper og sikkerhetstiltak for de stoffer og produkter som omfattes av denne lov.</p>
-<p><em>Tilføyd ved lov 11 juni 1993 nr. 88 , endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Tilføyd ved lov 11 juni 1993 nr. 88 , endret ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="12-oppslag-om-fare">§ 12. Oppslag om fare.</h4>
 <p>Hvor eksplosiv vare forekommer i større mengde, skal det være oppslag som gir opplysning om faren for eksplosjon. Oppslag skal anbringes slik at det er lett synlig og i tilstrekkelig antall.</p>
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
 <h4 id="13-apen-ild-og-ryking">§ 13. Åpen ild og røyking.</h4>
 <p>Røyking og bruk av åpen ild eller andre tennkilder er forbudt innenfor anlegg, på område eller i rom hvor eksplosiv vare forekommer under slike forhold at det er fare for brann eller eksplosjon. Oppslag herom skal i nødvendig utstrekning finnes på passende steder.</p>
 <p>Kommunestyret kan gi tillatelse til å fravike forbudet for enkelt anledning. I andre tilfelle kan Direktoratet for brann- og eksplosjonsvern gi tillatelse til å fravike forbudet.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 85 , 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 85 , 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="14-forsiktighet-for-a-forebygge-fare-for-brann-eller-eksplosjon-mv">§ 14. Forsiktighet for å forebygge fare for brann eller eksplosjon m.v.</h4>
 <p>Enhver som har befatning med eksplosiv vare skal vise forsiktighet for å forebygge fare for brann eller eksplosjon og for å hindre at varen kommer på avveie eller urette hender.</p>
 <p>Departementet gir nærmere regler om internkontroll og internkontrollsystemer for å sikre at krav fastsatt i eller i medhold av denne lov overholdes.</p>
-<p><em>Endret ved lov 27 juli 1990 nr. 52 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 27 juli 1990 nr. 52 .
+1 Loven gjelder bare for Svalbard.</p>
 <h2 id="kapitel-2-tilvirking">Kapitel 2. Tilvirking.</h2>
 <h4 id="15-hva-det-forstas-med-tilvirking">§ 15. Hva det forstås med tilvirking.</h4>
 <p>Med tilvirking av eksplosiv vare forstås i denne lov enhver framgangsmåte hvorved slik vare blir framstilt eller bearbeidet.</p>
@@ -191,15 +354,15 @@ e. når de sikkerhetsmessige krav som ble stilt da tillatelsen ble gitt på noe 
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
 <h4 id="17-tillatelse-til-forsk">§ 17. Tillatelse til forsøk.</h4>
 <p>Departementet kan gi den som innehar nødvendig teoretisk eller praktisk innsikt og ellers er skikket, tillatelse til å tilvirke bestemte eksplosive varer, derunder eksplosiv vare som ikke er godkjent etter § 3 , til forsøk med sikte på oppfinnelse eller i vitenskapelig øyemed. Fysisk person må være fylt 20 år. Tillatelse kan bare gis til tilvirking i en mengde som trengs for å vurdere den eksplosive vares praktiske brukbarhet. Tilvirket vare må ikke utleveres til annet formål enn forsøk under kontroll som Direktoratet for brann- og eksplosjonsvern bestemmer.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="18-tilvirking-uten-srskilt-tillatelse">§ 18. Tilvirking uten særskilt tillatelse.</h4>
 <p>Den som har tillatelse til å tilvirke eksplosiv vare for salg, kan i forsøksøyemed tilvirke også eksplosiv vare som ikke omfattes av tillatelsen, derunder eksplosiv vare som ikke er godkjent etter § 3 . Det må likevel, med mindre Direktoratet for brann- og eksplosjonsvern tillater annet, bare tilvirkes vare av samme hovedslag som tilvirkingstillatelsen omfatter. Tilvirking i forsøksøyemed må bare skje i en mengde som trenges til å vurdere varens praktiske brukbarhet. Varen må ikke føres ut fra tilvirkingsstedets område uten til forsøk som foregår under ledelse og tilsyn av ansvarshavende som nevnt i § 9 eller under kontroll som Direktoratet for brann- og eksplosjonsvern bestemmer.</p>
 <p>I laboratorium på universitet, høgskole, vidaregåande skole som nevnt i lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa og på forskningsanstalt som tilhører staten eller som har statsstøtte, kan tilvirkes eksplosiv vare, derunder eksplosiv vare som ikke er godkjent etter § 3 , i den utstrekning som trenges til laboratoriemessige forsøk hvis tilvirkingen kan skje på betryggende måte. Tilvirkingen skal skje under ledelse og tilsyn av kyndig lærer eller forsker. Eksplosiv vare som ikke går med til forsøket, skal snarest mulig gjøres uskadelig.</p>
 <p>Den som etter lov av 9 juni 1961 nr. 1 om skytevåpen og ammunisjon m.v. har tillatelse til å inneha skytevåpen, kan selv lade opp ammunisjon til våpenet.</p>
 <p>Forbudet i § 20 mot tilvirking i tettbygd strøk og kravet i § 9 om ansvarshavende får ikke anvendelse på tilvirking som nevnt i annet og tredje ledd.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 88 , 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 88 , 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="19-rom-bygning-eller-anlegg">§ 19. Rom, bygning eller anlegg.</h4>
 <p>Rom, bygning eller anlegg hvor eksplosiv vare blir tilvirket skal være utført og innredet slik at det ikke oppstår særlig fare for brann eller eksplosjon, og slik at varen ikke kommer på avveie eller urette hender.</p>
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
@@ -207,8 +370,8 @@ e. når de sikkerhetsmessige krav som ble stilt da tillatelsen ble gitt på noe 
 <p>Tilvirking av eksplosiv vare må ikke foregå i tettbygd strøk eller på sted hvor virksomheten kan medføre særlig fare for omgivelsene.</p>
 <p>Det sted der tilvirking av eksplosiv vare foregår skal være omgitt av et sikringsfelt (sikkerhetssone). Nærmere regler om sikringsfeltets omfang fastsettes i forskrift. Stedet skal, med mindre Direktoratet for brann- og eksplosjonsvern finner det unødvendig, være innhegnet på hensiktsmessig måte.</p>
 <p>Hvis tilvirkingen er mindre farlig eller skal foregå i mindre omfang eller hvis det ellers er særlig grunn til det, kan departementet i det enkelte tilfelle tillate at tilvirking foregår i tettbygd strøk og kan fravike forskriftene om sikringsfelt.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="21-framgangsmate-og-formal">§ 21. Framgangsmåte og formål.</h4>
 <p>Departementet kan forby framgangsmåte som fører med seg særlig fare under tilvirkingen og det kan fastsette at eksplosiv vare bare må tilvirkes til nærmere bestemt formål.</p>
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
@@ -238,8 +401,8 @@ d. pyroteknisk vare som kan erverves etter forskrifter fastsatt av departementet
 <p>Tillatelse som nevnt i første ledd gis av den Kongen bestemmer.</p>
 <p>Tillatelse til erverv som nevnt i første ledd, kan bare gis når søkeren har behov for å ha slik eksplosiv vare og ikke av særlige grunner anses uskikket til det. Fysisk person må være over 18 år. Søknad fra person som er fratatt rettslig handleevne, må være tiltrådt av verge. Tillatelsen skal omfatte en bestemt mengde og kan ikke gjøres gjeldende for lengre tidsrom enn 6 måneder uten etter forskrifter fastsatt av departementet.</p>
 <p>Hvis ikke annet framgår av tillatelsen, gjelder den bare for erverv av eksplosiv vare hos handlende som etter § 26 kan drive handel med den vare tillatelsen omfatter.</p>
-<p><em>Endret ved lov 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 .
+1 Loven gjelder bare for Svalbard.</p>
 <h2 id="kapitel-5-handel">Kapitel 5. Handel.</h2>
 <h4 id="26-tillatelse-til-handel">§ 26. Tillatelse til handel.</h4>
 <p>Den som vil drive handel med eksplosiv vare må ha tillatelse. For søknad herom gjelder § 16 tredje ledd tilsvarende.</p>
@@ -269,8 +432,8 @@ c. de varer av egen eller annens tilvirking som tilvirkingstillatelse for salg e
 <p>Departementet kan i forskrifter bestemme at fører av kjøretøy som nevnt i første ledd skal være godkjent.</p>
 <p>Kontroll og godkjenning foretas av Direktoratet for brann- og eksplosjonsvern eller av den departementet bestemmer.</p>
 <p>Bevis for godkjenning av kjøretøyet og i tilfelle av fører skal bringes med når det brukes til transport av eksplosiv vare, og skal forevises når representant for tilsynsmyndighetene krever det.</p>
-<p><em>Endret ved lov 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="31-forskrifter-om-transport-mv">§ 31. Forskrifter om transport m.v.</h4>
 <p>Departementet fastsetter forskrifter om transport av eksplosiv vare, derunder om hvem som kan motta eksplosiv vare til transport, om tilsyn med varen og om hva som for øvrig skal iakttas ved transport, ved lasting og lossing og ved midlertidig oppbevaring under transport. Videre fastsettes forskrifter om de mengder eksplosiv vare som kan sendes med de forskjellige transportmidler. I forskriftene kan fastsettes forbud mot transport av eksplosiv vare med transportmiddel bestemt for offentlig personbefordring og med transportmidler som innebærer særlig risiko.</p>
 <p>Departementet kan i forskrifter også fastsette bestemmelser om flytting av eksplosiv vare som ikke er transport etter denne lov, jfr. § 27 første ledd.</p>
@@ -281,8 +444,8 @@ c. de varer av egen eller annens tilvirking som tilvirkingstillatelse for salg e
 <p>Den som vil innføre eller utføre eksplosiv vare må ha tillatelse av departementet. For søknad herom gjelder § 16 tredje ledd tilsvarende. Tillatelse til innførsel og utførsel gjelder også som tillatelse til overføring når dette kreves i henhold til regelverk som Norge gjennom internasjonal avtale er forpliktet til å følge. 2 Tillatelse til overføring kreves også for innførsel og utførsel av ammunisjon som er omfattet av andre ledd så langt dette er nødvendig som følge av slik internasjonal avtale.</p>
 <p>Unntatt fra kravet om tillatelse etter første ledd er ammunisjon som innføres eller utføres etter reglene i lov av 9 juni 1961 om skytevåpen og ammunisjon m.v. samt de pyrotekniske varer som kan innføres eller utføres etter forskrifter fastsatt av departementet.</p>
 <p>Tillatelsen skal angi varens art og mengde og gjelde for et bestemt tidsrom som etter søknad kan forlenges.</p>
-<p><em>Endret ved lov 24 juni 1994 nr. 41 (ikr. 1 juli 1994).
-1 Loven gjelder bare for Svalbard. 2 Jf. EØS-avtalen vedlegg II kap. XXIX nr. 1 (direktiv 93/15 ) – jf. EØS-komiteens beslutning nr. 7/94 .</em></p>
+<p class="note">Endret ved lov 24 juni 1994 nr. 41 (ikr. 1 juli 1994).
+1 Loven gjelder bare for Svalbard. 2 Jf. EØS-avtalen vedlegg II kap. XXIX nr. 1 (direktiv 93/15 ) – jf. EØS-komiteens beslutning nr. 7/94 .</p>
 <h4 id="33-hvem-som-kan-gis-tillatelse-til-innfrsel">§ 33. Hvem som kan gis tillatelse til innførsel.</h4>
 <p>Tillatelse til innførsel kan bare gis den som etter § 26 kan drive handel med eksplosiv vare og den som etter § 17 eller 18 annet ledd kan tilvirke slik vare til forsøk.</p>
 <p>Gjelder det innførsel bare til eget bruk, kan tillatelse likevel gis den som etter § 25 første ledd, eller annet ledd bokstav d, kan erverve varen.</p>
@@ -298,48 +461,48 @@ c. de varer av egen eller annens tilvirking som tilvirkingstillatelse for salg e
 <h4 id="36-tilsynsmyndighetene">§ 36. Tilsynsmyndighetene.</h4>
 <p>Direktoratet for brann- og eksplosjonsvern, 2 kommunestyret og for øvrig de myndigheter Kongen bestemmer, fører tilsyn med at reglene i denne lov og vedtak i medhold av loven blir overholdt.</p>
 <p>Lov av 21 mai 1971 nr. 47 om brannfarlige varer § 35 annet, fjerde, femte og sjette ledd gjelder tilsvarende for denne lov.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 85 , 11 juni 1993 nr. 88 .
-1 Loven gjelder bare for Svalbard. 2 Inkurie: Nå Direktoratet for samfunnssikkerhet og beredskap.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 85 , 11 juni 1993 nr. 88 .
+1 Loven gjelder bare for Svalbard. 2 Inkurie: Nå Direktoratet for samfunnssikkerhet og beredskap.</p>
 <h4 id="37-forskrifter-enkeltvedtak-og-rettleiing">§ 37. Forskrifter, enkeltvedtak og rettleiing.</h4>
 <p>Når intet annet er sagt i denne lov, fastsetter departementet de forskrifter som er nødvendige for gjennomføring og utfylling av reglene i loven.</p>
 <p>Departementet kan, når særlige grunner foreligger, dispensere fra reglene i denne lov eller i forskrift.</p>
 <p>Departementets myndighet og gjøremål etter loven kan delegeres til Direktoratet for brann- og eksplosjonsvern. Departementet kan også gi andre tilsynsmyndigheter fullmakt til å meddele dispensasjoner.</p>
 <p>Tilsynsmyndigheten gir de pålegg og treffer de enkeltvedtak ellers som er nødvendige for gjennomføringen av bestemmelsene gitt i eller i medhold av denne lov. Det skal settes en frist for når pålegget skal være utført. Ved overhengende fare kan tilsynsmyndigheten kreve at nødvendige tiltak blir iverksatt straks.</p>
 <p>Dispensasjoner og pålegg skal gis skriftlig. Dersom pålegg ikke oppfylles innen fristen kan tilsynsmyndigheten helt eller delvis stanse virksomheten inntil pålegget er utført. Ved overhengende fare kan tilsynsmyndigheten stanse virksomheten selv om pålegg ikke er gitt.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 88 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 88 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="38-klage">§ 38. Klage.</h4>
 <p>Om klage over enkeltvedtak gjelder bestemmelsene i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> kap. VI med de tilleggsbestemmelser som er fastsatt i § 38 i lov av 21 mai 1971 nr. 47 om brannfarlige varer.</p>
 <p><em>1 Loven gjelder bare for Svalbard.</em></p>
 <h4 id="39-stedlige-underskelser-opplysning-kontakt-med-og-rapport-til-arbeidsgivere-og-arbeidstakere-inspeksjonsbok">§ 39. Stedlige undersøkelser. Opplysning. Kontakt med og rapport til arbeidsgivere og arbeidstakere. Inspeksjonsbok.</h4>
 <p>Lov 21 mai 1971 nr. 47 om brannfarlige varer §§ 39 , 40 og 42 annet ledd gjelder tilsvarende for loven her. Likeens gjelder samme lovs § 42 første ledd for tjenestemenn i tilsynsmyndigheter etter denne lov.</p>
-<p><em>Endret ved lov 16 mai 1986 nr. 21 .
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lov 16 mai 1986 nr. 21 .
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="40-avgiftsplikt">§ 40. Avgiftsplikt.</h4>
 <p>Lov av 21. mai 1971 nr. 47 om brannfarlige varer samt væsker og gasser under trykk § 43 første og tredje til femte ledd gjelder tilsvarende.</p>
 <p>Kongen kan også pålegge avgift for tillatelse til handel og til inn- og utførsel samt for godkjenning av eksplosiv vare.</p>
-<p><em>Endret ved lover 16 juni 1994 nr. 16 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 16 juni 1994 nr. 16 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h2 id="kapitel-10-straff-forelegg-og-tvangsfullbyrdelse">Kapitel 10. Straff, forelegg og tvangsfullbyrdelse.</h2>
 <h4 id="41-straff">§ 41. Straff.</h4>
 <p>Den som legger hindringer i veien for undersøkelser som offentlig myndighet iverksetter etter denne lov, eller unnlater å yte pliktig bistand eller å gi opplysninger som kreves for utførelsen av tilsynet etter denne lov, straffes med bøter såfremt forholdet ikke rammes av strengere straffebud.</p>
-<p><em>Endret ved lover 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="42-tvangsmulkt">§ 42. Tvangsmulkt</h4>
 <p>I pålegg etter loven her kan det fastsettes en løpende tvangsmulkt for hver dag/uke/måned som går etter utløpet av den frist som er satt for oppfylling av pålegget, inntil pålegget er oppfylt. Tvangsmulkt kan også fastsettes som engangsmulkt. Direktoratet for brann- og eksplosjonsvern kan frafalle påløpt tvangsmulkt.</p>
-<p><em>Endret ved lover 11 juni 1993 nr. 85 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 11 juni 1993 nr. 85 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="43-forelegg-om-plikt-til-a-etterkomme-palegg-eller-forbud">§ 43. Forelegg om plikt til å etterkomme pålegg eller forbud</h4>
 <p>Tilsynsmyndigheten kan utferdige forelegg mot den som innen fastsatt frist unnlater å etterkomme pålegg eller forbud som er gitt med hjemmel i denne lov. Forelegget skal gi opplysninger om bestemmelsene i annet ledd og skal, så langt mulig, forkynnes for den det er rettet mot.</p>
 <p>Den forelegget er rettet mot, kan reise søksmål mot det offentlige for å få forelegget prøvet. Blir søksmål ikke reist innen 30 dager fra forkynnelsen, har forelegget samme virkning som rettskraftig dom, og kan fullbyrdes etter reglene for dommer.</p>
 <p>Forelegg kan ikke påklages.</p>
-<p><em>Endret ved lover 26 juni 1992 nr. 86 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Endret ved lover 26 juni 1992 nr. 86 , 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h4 id="43-a-tvangsfullbyrdelse">§ 43 a. Tvangsfullbyrdelse</h4>
 <p>Blir pålegg i rettskraftig dom eller dermed likestilt forelegg ikke etterkommet, kan vedkommende tilsynsmyndighet selv besørge eller få besørget at pålegget utføres for regning av den som dommen eller forelegget er rettet mot uten at det er nødvendig med kjennelse etter <a href="lov-1992-06-26-86.html">tvangsfullbyrdelsesloven</a> § 13-14 .</p>
 <p>Ved overhengende fare kan pålegg fullbyrdes etter reglene i tvangsfullbyrdelsesloven § 13-14 uten at dom eller forelegg kreves.</p>
-<p><em>Tilføyd ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
-1 Loven gjelder bare for Svalbard.</em></p>
+<p class="note">Tilføyd ved lov 8 des 2000 nr. 85 (ikr. 1 jan 2001 iflg. res. 8 des 2000 nr. 1234 ).
+1 Loven gjelder bare for Svalbard.</p>
 <h2 id="kapitel-11-overgangsbestemmelser-ikrafttreden-oppheving-og-endring-av-andre-lover">Kapitel 11. Overgangsbestemmelser, ikrafttreden, oppheving og endring av andre lover.</h2>
 <h4 id="44-overgangsbestemmelser">§ 44. Overgangsbestemmelser.</h4>
 <p>– – –</p>
@@ -353,6 +516,8 @@ c. de varer av egen eller annens tilvirking som tilvirkingstillatelse for salg e
 <h4 id="45-ikrafttreden-oppheving-og-endring-av-andre-lover">§ 45. Ikrafttreden. Oppheving og endring av andre lover.</h4>
 <p><em>Denne lov trer i kraft fra den tid Kongen bestemmer. 1 Det kan fastsettes særskilt tidspunkt for lovens ikrafttreden på Svalbard. 2 Fra samme tid oppheves lov av 3 mai 1871 angående Behandling av ildsfarlige Gjenstande §§ 1-13, § 21 og §§ 23-27. Fra samme tid gjøres følgende endringer: – – –.
 1 For Norge utenom Svalbard fra 1 apr 1977, iflg. res. 18 mars 1977, med unntak av § 3 (1) som trådte i kraft 1 apr 1978. Se note til lovens tittel. 2 Ved res. 30 okt 1987 nr. 841 er loven med forskrifter, retningslinjer m.v. gitt i medhold av loven, satt i kraft for Svalbard (se lov 17 juli 1925 nr. 11 § 1 (2)) fra 1 jan 1988, med endringer i medhold av lovens § 1, siste ledd.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

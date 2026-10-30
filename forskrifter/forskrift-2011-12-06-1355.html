@@ -19,64 +19,337 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-12-06-1355.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om organisering, ledelse og medvirkning" href="../feeds/forskrift-2011-12-06-1355.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Forskrift om organisering, ledelse og medvirkning</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2011-12-06-1355</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-16-2617</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2011-12-06-1355" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-hvem-forskriften-retter-seg-mot">§ 1-3. Hvem forskriften retter seg mot</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-5-dispensasjon">§ 1-5. Dispensasjon</a></li>
+<li class="lvl4"><a href="#1-6-opphevet">§ 1-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-2-medvirkning-fra-arbeidstakere-eller-deres-representanter">Kapittel 2. Medvirkning fra arbeidstakere eller deres representanter</a></li>
+<li class="lvl4"><a href="#2-1-arbeidstakernes-medvirkning">§ 2-1. Arbeidstakernes medvirkning</a></li>
+<li class="lvl4"><a href="#2-2-verneombudets-oppgaver-og-medvirkning">§ 2-2. Verneombudets oppgaver og medvirkning</a></li>
+<li class="lvl4"><a href="#2-3-arbeidsmiljutvalgets-oppgaver">§ 2-3. Arbeidsmiljøutvalgets oppgaver</a></li>
+<li class="lvl4"><a href="#2-4-behandling-av-planer-for-bygningsmessige-arbeider-mm-i-arbeidsmiljutvalg">§ 2-4. Behandling av planer for bygningsmessige arbeider m.m. i arbeidsmiljøutvalg</a></li>
+<li class="lvl2"><a href="#kapittel-3-valg-opplring-mm-av-verneombud-og-arbeidsmiljutvalg">Kapittel 3. Valg, opplæring m.m. av verneombud og arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-1-inndeling-i-verneomrader">§ 3-1. Inndeling i verneområder</a></li>
+<li class="lvl4"><a href="#3-2-valg-av-verneombud">§ 3-2. Valg av verneombud</a></li>
+<li class="lvl4"><a href="#3-3-valg-av-stedfortreder-for-verneombudet">§ 3-3. Valg av stedfortreder for verneombudet</a></li>
+<li class="lvl4"><a href="#3-4-verneombudenes-funksjonstid">§ 3-4. Verneombudenes funksjonstid</a></li>
+<li class="lvl4"><a href="#3-5-hovedverneombudet">§ 3-5. Hovedverneombudet</a></li>
+<li class="lvl4"><a href="#3-6-valg-av-stedfortreder-for-hovedverneombudet">§ 3-6. Valg av stedfortreder for hovedverneombudet</a></li>
+<li class="lvl4"><a href="#3-7-arbeidsmiljutvalg">§ 3-7. Arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-8-stemmerett-ved-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-8. Stemmerett ved valg av medlemmer til arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-9-gjennomfring-av-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-9. Gjennomføring av valg av medlemmer til arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-10-gjennomfring-av-valg-til-arbeidsmiljutvalg-i-virksomhet-med-flere-lokale-fagforeninger">§ 3-10. Gjennomføring av valg til arbeidsmiljøutvalg i virksomhet med flere lokale fagforeninger</a></li>
+<li class="lvl4"><a href="#3-11-stedfortredere-for-arbeidsmiljutvalgets-medlemmer">§ 3-11. Stedfortredere for arbeidsmiljøutvalgets medlemmer</a></li>
+<li class="lvl4"><a href="#3-12-leder-av-arbeidsmiljutvalg">§ 3-12. Leder av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-13-saker-som-gjelder-arbeidstakergruppe-uten-medlem-i-arbeidsmiljutvalget">§ 3-13. Saker som gjelder arbeidstakergruppe uten medlem i arbeidsmiljøutvalget</a></li>
+<li class="lvl4"><a href="#3-14-flere-arbeidsmiljutvalg-i-samme-virksomhet">§ 3-14. Flere arbeidsmiljøutvalg i samme virksomhet</a></li>
+<li class="lvl4"><a href="#3-15-funksjonstid-for-medlemmer-av-arbeidsmiljutvalg">§ 3-15. Funksjonstid for medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-16-saksbehandlingen-i-arbeidsmiljutvalget">§ 3-16. Saksbehandlingen i arbeidsmiljøutvalget</a></li>
+<li class="lvl4"><a href="#3-17-taushetsplikt-for-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-17. Taushetsplikt for verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-18-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-18. Opplæring av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-19-varighet-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-19. Varighet av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-20-gjennomfringen-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-20. Gjennomføringen av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-21-arbeidstilsynets-adgang-til-a-palegge-arbeidsgiveren-a-gi-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-21. Arbeidstilsynets adgang til å pålegge arbeidsgiveren å gi opplæring av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-22-virksomheter-med-andre-samarbeidsorganer">§ 3-22. Virksomheter med andre samarbeidsorganer</a></li>
+<li class="lvl4"><a href="#3-23-spesielle-grupper">§ 3-23. Spesielle grupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-lokale-verneombud-og-arbeidsmiljutvalg-for-laste-og-lossearbeidere">Kapittel 4. Lokale verneombud og arbeidsmiljøutvalg for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-1-valg-av-verneombud-og-arbeidsmiljutvalg-pa-bedriftskaier-og-i-havner">§ 4-1. Valg av verneombud og arbeidsmiljøutvalg på bedriftskaier og i havner</a></li>
+<li class="lvl4"><a href="#4-2-valg-av-verneombud-for-laste-og-lossearbeidere">§ 4-2. Valg av verneombud for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-3-valg-av-arbeidsmiljutvalg-for-laste-og-lossearbeidere">§ 4-3. Valg av arbeidsmiljøutvalg for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-4-verneombudets-og-arbeidsmiljutvalgets-oppgaver-plikter-og-rettigheter">§ 4-4. Verneombudets og arbeidsmiljøutvalgets oppgaver, plikter og rettigheter</a></li>
+<li class="lvl4"><a href="#4-5-arbeidsgivers-rett-til-a-uttale-seg">§ 4-5. Arbeidsgivers rett til å uttale seg</a></li>
+<li class="lvl4"><a href="#4-6-arbeidsgivers-adgang-til-a-forelegge-arbeidsmiljutvalgets-vedtak-for-arbeidstilsynet">§ 4-6. Arbeidsgivers adgang til å forelegge arbeidsmiljøutvalgets vedtak for Arbeidstilsynet</a></li>
+<li class="lvl4"><a href="#4-7-utgifter-knyttet-til-verneombudenes-og-arbeidsmiljutvalgets-virksomhet">§ 4-7. Utgifter knyttet til verneombudenes og arbeidsmiljøutvalgets virksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-5-regionale-verneombud-for-bygge-og-anleggsvirksomhet">Kapittel 5. Regionale verneombud for bygge- og anleggsvirksomhet</a></li>
+<li class="lvl4"><a href="#5-1-virkeomrade">§ 5-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#5-2-regionale-verneombuds-myndighet-og-oppgaver">§ 5-2. Regionale verneombuds myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#5-3-regionale-verneombuds-rett-til-opplysninger">§ 5-3. Regionale verneombuds rett til opplysninger</a></li>
+<li class="lvl4"><a href="#5-4-taushetsplikt">§ 5-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#5-5-kompetansekrav">§ 5-5. Kompetansekrav</a></li>
+<li class="lvl2"><a href="#kapittel-6-regionale-verneombud-for-overnattingsvirksomheter-serveringsvirksomheter-rengjringsvirksomheter-mfl">Kapittel 6. Regionale verneombud for overnattingsvirksomheter, serveringsvirksomheter, rengjøringsvirksomheter mfl.</a></li>
+<li class="lvl4"><a href="#6-1-virkeomrade">§ 6-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjoner-mv">§ 6-2. Kvalifikasjoner mv.</a></li>
+<li class="lvl4"><a href="#6-3-regionale-verneombuds-myndighet-og-oppgaver">§ 6-3. Regionale verneombuds myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#6-4-rett-til-opplysninger">§ 6-4. Rett til opplysninger</a></li>
+<li class="lvl4"><a href="#6-5-taushetsplikt">§ 6-5. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-7-risikovurdering">Kapittel 7. Risikovurdering</a></li>
+<li class="lvl4"><a href="#7-1-gjennomgaende-krav-til-kartlegging-og-risikovurdering">§ 7-1. Gjennomgående krav til kartlegging og risikovurdering</a></li>
+<li class="lvl4"><a href="#7-2-maling-som-grunnlag-for-risikovurdering">§ 7-2. Måling som grunnlag for risikovurdering</a></li>
+<li class="lvl4"><a href="#7-3-tilleggskrav-til-risikovurderingen">§ 7-3. Tilleggskrav til risikovurderingen</a></li>
+<li class="lvl2"><a href="#kapittel-8-opplring">Kapittel 8. Opplæring</a></li>
+<li class="lvl4"><a href="#8-1-gjennomgaende-krav-til-opplring">§ 8-1. Gjennomgående krav til opplæring</a></li>
+<li class="lvl4"><a href="#8-2-kvalifikasjons-og-tilleggskrav-til-opplring">§ 8-2. Kvalifikasjons- og tilleggskrav til opplæring</a></li>
+<li class="lvl2"><a href="#kapittel-9-informasjon-til-arbeidstakerne">Kapittel 9. Informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#9-1-gjennomgaende-krav-om-informasjon-til-arbeidstakerne">§ 9-1. Gjennomgående krav om informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#9-2-tilleggskrav-om-informasjon-til-arbeidstakerne">§ 9-2. Tilleggskrav om informasjon til arbeidstakerne</a></li>
+<li class="lvl2"><a href="#kapittel-10-planlegging-tilrettelegging-av-arbeidet-og-sikker-drift">Kapittel 10. Planlegging, tilrettelegging av arbeidet og sikker drift</a></li>
+<li class="lvl4"><a href="#10-1-planlegging-og-tilrettelegging-av-arbeidet">§ 10-1. Planlegging og tilrettelegging av arbeidet</a></li>
+<li class="lvl4"><a href="#10-2-forebygging-av-skader-ved-ergonomisk-belastende-arbeid">§ 10-2. Forebygging av skader ved ergonomisk belastende arbeid</a></li>
+<li class="lvl4"><a href="#10-3-krav-til-valg-av-arbeidsutstyr">§ 10-3. Krav til valg av arbeidsutstyr</a></li>
+<li class="lvl4"><a href="#10-4-krav-om-systematisk-kontroll-og-vedlikehold">§ 10-4. Krav om systematisk kontroll og vedlikehold</a></li>
+<li class="lvl4"><a href="#10-5-krav-om-sikkerhetsskilting-og-signalgivning">§ 10-5. Krav om sikkerhetsskilting og signalgivning</a></li>
+<li class="lvl4"><a href="#10-6-krav-om-varslings-og-kommunikasjonsmidler">§ 10-6. Krav om varslings- og kommunikasjonsmidler</a></li>
+<li class="lvl4"><a href="#10-7-krav-til-programvare-og-datasystemer">§ 10-7. Krav til programvare og datasystemer</a></li>
+<li class="lvl4"><a href="#10-8-variasjon-og-hvile">§ 10-8. Variasjon og hvile</a></li>
+<li class="lvl2"><a href="#kapittel-11-arbeidsinstruks">Kapittel 11. Arbeidsinstruks</a></li>
+<li class="lvl4"><a href="#11-1-gjennomgaende-krav-til-arbeidsinstruks-for-utfrelse-av-arbeid-og-bruk-av-arbeidsutstyr">§ 11-1. Gjennomgående krav til arbeidsinstruks for utførelse av arbeid og bruk av arbeidsutstyr</a></li>
+<li class="lvl4"><a href="#11-2-tilleggskrav-om-arbeidsinstruks">§ 11-2. Tilleggskrav om arbeidsinstruks</a></li>
+<li class="lvl2"><a href="#kapittel-12-arbeid-av-barn-og-ungdom">Kapittel 12. Arbeid av barn og ungdom</a></li>
+<li class="lvl4"><a href="#12-1-risikovurdering-og-srlig-tilpassede-tiltak-for-arbeidstakere-under-18-ar">§ 12-1. Risikovurdering og særlig tilpassede tiltak for arbeidstakere under 18 år</a></li>
+<li class="lvl4"><a href="#12-2-adgang-til-a-sette-barn-som-har-fylt-13-ar-til-arbeid">§ 12-2. Adgang til å sette barn som har fylt 13 år til arbeid</a></li>
+<li class="lvl4"><a href="#12-3-adgang-til-a-sette-barn-til-kulturelt-eller-lignende-arbeid">§ 12-3. Adgang til å sette barn til kulturelt eller lignende arbeid</a></li>
+<li class="lvl4"><a href="#12-4-samtykke-fra-foreldre-eller-foresatte">§ 12-4. Samtykke fra foreldre eller foresatte</a></li>
+<li class="lvl4"><a href="#12-5-begrensninger-i-arbeid-av-barn-og-ungdom">§ 12-5. Begrensninger i arbeid av barn og ungdom</a></li>
+<li class="lvl4"><a href="#12-6-forbud-mot-arbeid-som-kan-medfre-srlig-fare-for-helseskade">§ 12-6. Forbud mot arbeid som kan medføre særlig fare for helseskade</a></li>
+<li class="lvl4"><a href="#12-7-unntak-fra-arbeidsforbudet-ved-yrkesrettet-opplring">§ 12-7. Unntak fra arbeidsforbudet ved yrkesrettet opplæring</a></li>
+<li class="lvl4"><a href="#12-7a-unntak-fraarbeidsmiljloven-11-2tredje-ledd-og11-5tredje-ledd-ved-yrkesrettet-opplring-i-anleggsfag">§ 12-7A. Unntak fraarbeidsmiljøloven §§ 11-2tredje ledd og11-5tredje ledd ved yrkesrettet opplæring i anleggsfag</a></li>
+<li class="lvl4"><a href="#12-8-adgang-til-a-sette-barn-til-kulturelt-kunstnerisk-eller-sportslig-arbeid">§ 12-8. Adgang til å sette barn til kulturelt, kunstnerisk eller sportslig arbeid</a></li>
+<li class="lvl4"><a href="#12-9-vilkar-for-a-sette-ungdom-til-arbeid-om-natten">§ 12-9. Vilkår for å sette ungdom til arbeid om natten</a></li>
+<li class="lvl4"><a href="#12-10-krav-om-informasjon">§ 12-10. Krav om informasjon</a></li>
+<li class="lvl4"><a href="#12-11-krav-om-medvirkning-fra-verneombudet-nar-arbeidstaker-er-under-18-ar">§ 12-11. Krav om medvirkning fra verneombudet når arbeidstaker er under 18 år</a></li>
+<li class="lvl4"><a href="#12-12-krav-om-listefring-av-unge-arbeidstakere">§ 12-12. Krav om listeføring av unge arbeidstakere</a></li>
+<li class="lvl2"><a href="#kapittel-13-bedriftshelsetjeneste">Kapittel 13. Bedriftshelsetjeneste</a></li>
+<li class="lvl4"><a href="#13-1-plikt-til-a-knytte-bedriftshelsetjeneste-til-virksomheten">§ 13-1. Plikt til å knytte bedriftshelsetjeneste til virksomheten</a></li>
+<li class="lvl4"><a href="#13-2-arbeidsgivers-bruk-av-bedriftshelsetjenesten">§ 13-2. Arbeidsgivers bruk av bedriftshelsetjenesten</a></li>
+<li class="lvl4"><a href="#13-3-planer-arsrapporter-og-meldinger">§ 13-3. Planer, årsrapporter og meldinger</a></li>
+<li class="lvl2"><a href="#kapittel-14-meldeplikt-og-helseovervakning">Kapittel 14. Meldeplikt og helseovervåkning</a></li>
+<li class="lvl4"><a href="#14-1-krav-til-helseovervakning">§ 14-1. Krav til helseovervåkning</a></li>
+<li class="lvl4"><a href="#14-2-registrering-og-varsling-av-arbeidsulykke-og-yrkessykdom">§ 14-2. Registrering og varsling av arbeidsulykke og yrkessykdom</a></li>
+<li class="lvl4"><a href="#14-3-leges-meldeplikt-i-bygge-og-anleggsvirksomhet">§ 14-3. Leges meldeplikt i bygge- og anleggsvirksomhet</a></li>
+<li class="lvl4"><a href="#14-4-underskelse-av-arbeidstakeres-syn-ved-arbeid-ved-dataskjerm">§ 14-4. Undersøkelse av arbeidstakeres syn ved arbeid ved dataskjerm</a></li>
+<li class="lvl4"><a href="#14-5-arbeidsgivers-oppflging-av-helseunderskelsene">§ 14-5. Arbeidsgivers oppfølging av helseundersøkelsene</a></li>
+<li class="lvl4"><a href="#14-6-krav-til-leges-kompetanse">§ 14-6. Krav til leges kompetanse</a></li>
+<li class="lvl4"><a href="#14-7-arbeidsgivers-dekning-av-utgifter-til-helseunderskelse">§ 14-7. Arbeidsgivers dekning av utgifter til helseundersøkelse</a></li>
+<li class="lvl2"><a href="#kapittel-15-bruk-av-personlig-verneutstyr">Kapittel 15. Bruk av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-1-gjennomgaende-krav-om-bruk-av-personlig-verneutstyr">§ 15-1. Gjennomgående krav om bruk av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-2-tilleggskrav-til-personlig-verneutstyr">§ 15-2. Tilleggskrav til personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-3-krav-til-personlig-verneutstyr">§ 15-3. Krav til personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-4-krav-til-vedlikehold-og-kontroll-av-personlig-verneutstyr">§ 15-4. Krav til vedlikehold og kontroll av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-5-krav-til-informasjon-om-personlig-verneutstyr">§ 15-5. Krav til informasjon om personlig verneutstyr</a></li>
+<li class="lvl2"><a href="#kapittel-16-avsluttende-bestemmelser">Kapittel 16. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#16-1-straff">§ 16-1. Straff</a></li>
+<li class="lvl4"><a href="#16-2-overtredelsesgebyr">§ 16-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#16-3-ikrafttredelse">§ 16-3. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-16-2617.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-12-06-1355.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om organisering, ledelse og medvirkning</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-12-06-1355.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2011-12-06-1355 <code>forskrift/2011-12-06-1355</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om organisering, ledelse og medvirkning</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-16-2617 <code>forskrift/2025-12-16-2617</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2011-12-06-1355" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-hvem-forskriften-retter-seg-mot">§ 1-3. Hvem forskriften retter seg mot</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-5-dispensasjon">§ 1-5. Dispensasjon</a></li>
+<li class="lvl4"><a href="#1-6-opphevet">§ 1-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-2-medvirkning-fra-arbeidstakere-eller-deres-representanter">Kapittel 2. Medvirkning fra arbeidstakere eller deres representanter</a></li>
+<li class="lvl4"><a href="#2-1-arbeidstakernes-medvirkning">§ 2-1. Arbeidstakernes medvirkning</a></li>
+<li class="lvl4"><a href="#2-2-verneombudets-oppgaver-og-medvirkning">§ 2-2. Verneombudets oppgaver og medvirkning</a></li>
+<li class="lvl4"><a href="#2-3-arbeidsmiljutvalgets-oppgaver">§ 2-3. Arbeidsmiljøutvalgets oppgaver</a></li>
+<li class="lvl4"><a href="#2-4-behandling-av-planer-for-bygningsmessige-arbeider-mm-i-arbeidsmiljutvalg">§ 2-4. Behandling av planer for bygningsmessige arbeider m.m. i arbeidsmiljøutvalg</a></li>
+<li class="lvl2"><a href="#kapittel-3-valg-opplring-mm-av-verneombud-og-arbeidsmiljutvalg">Kapittel 3. Valg, opplæring m.m. av verneombud og arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-1-inndeling-i-verneomrader">§ 3-1. Inndeling i verneområder</a></li>
+<li class="lvl4"><a href="#3-2-valg-av-verneombud">§ 3-2. Valg av verneombud</a></li>
+<li class="lvl4"><a href="#3-3-valg-av-stedfortreder-for-verneombudet">§ 3-3. Valg av stedfortreder for verneombudet</a></li>
+<li class="lvl4"><a href="#3-4-verneombudenes-funksjonstid">§ 3-4. Verneombudenes funksjonstid</a></li>
+<li class="lvl4"><a href="#3-5-hovedverneombudet">§ 3-5. Hovedverneombudet</a></li>
+<li class="lvl4"><a href="#3-6-valg-av-stedfortreder-for-hovedverneombudet">§ 3-6. Valg av stedfortreder for hovedverneombudet</a></li>
+<li class="lvl4"><a href="#3-7-arbeidsmiljutvalg">§ 3-7. Arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-8-stemmerett-ved-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-8. Stemmerett ved valg av medlemmer til arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-9-gjennomfring-av-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-9. Gjennomføring av valg av medlemmer til arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-10-gjennomfring-av-valg-til-arbeidsmiljutvalg-i-virksomhet-med-flere-lokale-fagforeninger">§ 3-10. Gjennomføring av valg til arbeidsmiljøutvalg i virksomhet med flere lokale fagforeninger</a></li>
+<li class="lvl4"><a href="#3-11-stedfortredere-for-arbeidsmiljutvalgets-medlemmer">§ 3-11. Stedfortredere for arbeidsmiljøutvalgets medlemmer</a></li>
+<li class="lvl4"><a href="#3-12-leder-av-arbeidsmiljutvalg">§ 3-12. Leder av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-13-saker-som-gjelder-arbeidstakergruppe-uten-medlem-i-arbeidsmiljutvalget">§ 3-13. Saker som gjelder arbeidstakergruppe uten medlem i arbeidsmiljøutvalget</a></li>
+<li class="lvl4"><a href="#3-14-flere-arbeidsmiljutvalg-i-samme-virksomhet">§ 3-14. Flere arbeidsmiljøutvalg i samme virksomhet</a></li>
+<li class="lvl4"><a href="#3-15-funksjonstid-for-medlemmer-av-arbeidsmiljutvalg">§ 3-15. Funksjonstid for medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-16-saksbehandlingen-i-arbeidsmiljutvalget">§ 3-16. Saksbehandlingen i arbeidsmiljøutvalget</a></li>
+<li class="lvl4"><a href="#3-17-taushetsplikt-for-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-17. Taushetsplikt for verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-18-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-18. Opplæring av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-19-varighet-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-19. Varighet av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-20-gjennomfringen-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-20. Gjennomføringen av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-21-arbeidstilsynets-adgang-til-a-palegge-arbeidsgiveren-a-gi-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-21. Arbeidstilsynets adgang til å pålegge arbeidsgiveren å gi opplæring av verneombud og medlemmer av arbeidsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#3-22-virksomheter-med-andre-samarbeidsorganer">§ 3-22. Virksomheter med andre samarbeidsorganer</a></li>
+<li class="lvl4"><a href="#3-23-spesielle-grupper">§ 3-23. Spesielle grupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-lokale-verneombud-og-arbeidsmiljutvalg-for-laste-og-lossearbeidere">Kapittel 4. Lokale verneombud og arbeidsmiljøutvalg for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-1-valg-av-verneombud-og-arbeidsmiljutvalg-pa-bedriftskaier-og-i-havner">§ 4-1. Valg av verneombud og arbeidsmiljøutvalg på bedriftskaier og i havner</a></li>
+<li class="lvl4"><a href="#4-2-valg-av-verneombud-for-laste-og-lossearbeidere">§ 4-2. Valg av verneombud for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-3-valg-av-arbeidsmiljutvalg-for-laste-og-lossearbeidere">§ 4-3. Valg av arbeidsmiljøutvalg for laste- og lossearbeidere</a></li>
+<li class="lvl4"><a href="#4-4-verneombudets-og-arbeidsmiljutvalgets-oppgaver-plikter-og-rettigheter">§ 4-4. Verneombudets og arbeidsmiljøutvalgets oppgaver, plikter og rettigheter</a></li>
+<li class="lvl4"><a href="#4-5-arbeidsgivers-rett-til-a-uttale-seg">§ 4-5. Arbeidsgivers rett til å uttale seg</a></li>
+<li class="lvl4"><a href="#4-6-arbeidsgivers-adgang-til-a-forelegge-arbeidsmiljutvalgets-vedtak-for-arbeidstilsynet">§ 4-6. Arbeidsgivers adgang til å forelegge arbeidsmiljøutvalgets vedtak for Arbeidstilsynet</a></li>
+<li class="lvl4"><a href="#4-7-utgifter-knyttet-til-verneombudenes-og-arbeidsmiljutvalgets-virksomhet">§ 4-7. Utgifter knyttet til verneombudenes og arbeidsmiljøutvalgets virksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-5-regionale-verneombud-for-bygge-og-anleggsvirksomhet">Kapittel 5. Regionale verneombud for bygge- og anleggsvirksomhet</a></li>
+<li class="lvl4"><a href="#5-1-virkeomrade">§ 5-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#5-2-regionale-verneombuds-myndighet-og-oppgaver">§ 5-2. Regionale verneombuds myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#5-3-regionale-verneombuds-rett-til-opplysninger">§ 5-3. Regionale verneombuds rett til opplysninger</a></li>
+<li class="lvl4"><a href="#5-4-taushetsplikt">§ 5-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#5-5-kompetansekrav">§ 5-5. Kompetansekrav</a></li>
+<li class="lvl2"><a href="#kapittel-6-regionale-verneombud-for-overnattingsvirksomheter-serveringsvirksomheter-rengjringsvirksomheter-mfl">Kapittel 6. Regionale verneombud for overnattingsvirksomheter, serveringsvirksomheter, rengjøringsvirksomheter mfl.</a></li>
+<li class="lvl4"><a href="#6-1-virkeomrade">§ 6-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjoner-mv">§ 6-2. Kvalifikasjoner mv.</a></li>
+<li class="lvl4"><a href="#6-3-regionale-verneombuds-myndighet-og-oppgaver">§ 6-3. Regionale verneombuds myndighet og oppgaver</a></li>
+<li class="lvl4"><a href="#6-4-rett-til-opplysninger">§ 6-4. Rett til opplysninger</a></li>
+<li class="lvl4"><a href="#6-5-taushetsplikt">§ 6-5. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-7-risikovurdering">Kapittel 7. Risikovurdering</a></li>
+<li class="lvl4"><a href="#7-1-gjennomgaende-krav-til-kartlegging-og-risikovurdering">§ 7-1. Gjennomgående krav til kartlegging og risikovurdering</a></li>
+<li class="lvl4"><a href="#7-2-maling-som-grunnlag-for-risikovurdering">§ 7-2. Måling som grunnlag for risikovurdering</a></li>
+<li class="lvl4"><a href="#7-3-tilleggskrav-til-risikovurderingen">§ 7-3. Tilleggskrav til risikovurderingen</a></li>
+<li class="lvl2"><a href="#kapittel-8-opplring">Kapittel 8. Opplæring</a></li>
+<li class="lvl4"><a href="#8-1-gjennomgaende-krav-til-opplring">§ 8-1. Gjennomgående krav til opplæring</a></li>
+<li class="lvl4"><a href="#8-2-kvalifikasjons-og-tilleggskrav-til-opplring">§ 8-2. Kvalifikasjons- og tilleggskrav til opplæring</a></li>
+<li class="lvl2"><a href="#kapittel-9-informasjon-til-arbeidstakerne">Kapittel 9. Informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#9-1-gjennomgaende-krav-om-informasjon-til-arbeidstakerne">§ 9-1. Gjennomgående krav om informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#9-2-tilleggskrav-om-informasjon-til-arbeidstakerne">§ 9-2. Tilleggskrav om informasjon til arbeidstakerne</a></li>
+<li class="lvl2"><a href="#kapittel-10-planlegging-tilrettelegging-av-arbeidet-og-sikker-drift">Kapittel 10. Planlegging, tilrettelegging av arbeidet og sikker drift</a></li>
+<li class="lvl4"><a href="#10-1-planlegging-og-tilrettelegging-av-arbeidet">§ 10-1. Planlegging og tilrettelegging av arbeidet</a></li>
+<li class="lvl4"><a href="#10-2-forebygging-av-skader-ved-ergonomisk-belastende-arbeid">§ 10-2. Forebygging av skader ved ergonomisk belastende arbeid</a></li>
+<li class="lvl4"><a href="#10-3-krav-til-valg-av-arbeidsutstyr">§ 10-3. Krav til valg av arbeidsutstyr</a></li>
+<li class="lvl4"><a href="#10-4-krav-om-systematisk-kontroll-og-vedlikehold">§ 10-4. Krav om systematisk kontroll og vedlikehold</a></li>
+<li class="lvl4"><a href="#10-5-krav-om-sikkerhetsskilting-og-signalgivning">§ 10-5. Krav om sikkerhetsskilting og signalgivning</a></li>
+<li class="lvl4"><a href="#10-6-krav-om-varslings-og-kommunikasjonsmidler">§ 10-6. Krav om varslings- og kommunikasjonsmidler</a></li>
+<li class="lvl4"><a href="#10-7-krav-til-programvare-og-datasystemer">§ 10-7. Krav til programvare og datasystemer</a></li>
+<li class="lvl4"><a href="#10-8-variasjon-og-hvile">§ 10-8. Variasjon og hvile</a></li>
+<li class="lvl2"><a href="#kapittel-11-arbeidsinstruks">Kapittel 11. Arbeidsinstruks</a></li>
+<li class="lvl4"><a href="#11-1-gjennomgaende-krav-til-arbeidsinstruks-for-utfrelse-av-arbeid-og-bruk-av-arbeidsutstyr">§ 11-1. Gjennomgående krav til arbeidsinstruks for utførelse av arbeid og bruk av arbeidsutstyr</a></li>
+<li class="lvl4"><a href="#11-2-tilleggskrav-om-arbeidsinstruks">§ 11-2. Tilleggskrav om arbeidsinstruks</a></li>
+<li class="lvl2"><a href="#kapittel-12-arbeid-av-barn-og-ungdom">Kapittel 12. Arbeid av barn og ungdom</a></li>
+<li class="lvl4"><a href="#12-1-risikovurdering-og-srlig-tilpassede-tiltak-for-arbeidstakere-under-18-ar">§ 12-1. Risikovurdering og særlig tilpassede tiltak for arbeidstakere under 18 år</a></li>
+<li class="lvl4"><a href="#12-2-adgang-til-a-sette-barn-som-har-fylt-13-ar-til-arbeid">§ 12-2. Adgang til å sette barn som har fylt 13 år til arbeid</a></li>
+<li class="lvl4"><a href="#12-3-adgang-til-a-sette-barn-til-kulturelt-eller-lignende-arbeid">§ 12-3. Adgang til å sette barn til kulturelt eller lignende arbeid</a></li>
+<li class="lvl4"><a href="#12-4-samtykke-fra-foreldre-eller-foresatte">§ 12-4. Samtykke fra foreldre eller foresatte</a></li>
+<li class="lvl4"><a href="#12-5-begrensninger-i-arbeid-av-barn-og-ungdom">§ 12-5. Begrensninger i arbeid av barn og ungdom</a></li>
+<li class="lvl4"><a href="#12-6-forbud-mot-arbeid-som-kan-medfre-srlig-fare-for-helseskade">§ 12-6. Forbud mot arbeid som kan medføre særlig fare for helseskade</a></li>
+<li class="lvl4"><a href="#12-7-unntak-fra-arbeidsforbudet-ved-yrkesrettet-opplring">§ 12-7. Unntak fra arbeidsforbudet ved yrkesrettet opplæring</a></li>
+<li class="lvl4"><a href="#12-7a-unntak-fraarbeidsmiljloven-11-2tredje-ledd-og11-5tredje-ledd-ved-yrkesrettet-opplring-i-anleggsfag">§ 12-7A. Unntak fraarbeidsmiljøloven §§ 11-2tredje ledd og11-5tredje ledd ved yrkesrettet opplæring i anleggsfag</a></li>
+<li class="lvl4"><a href="#12-8-adgang-til-a-sette-barn-til-kulturelt-kunstnerisk-eller-sportslig-arbeid">§ 12-8. Adgang til å sette barn til kulturelt, kunstnerisk eller sportslig arbeid</a></li>
+<li class="lvl4"><a href="#12-9-vilkar-for-a-sette-ungdom-til-arbeid-om-natten">§ 12-9. Vilkår for å sette ungdom til arbeid om natten</a></li>
+<li class="lvl4"><a href="#12-10-krav-om-informasjon">§ 12-10. Krav om informasjon</a></li>
+<li class="lvl4"><a href="#12-11-krav-om-medvirkning-fra-verneombudet-nar-arbeidstaker-er-under-18-ar">§ 12-11. Krav om medvirkning fra verneombudet når arbeidstaker er under 18 år</a></li>
+<li class="lvl4"><a href="#12-12-krav-om-listefring-av-unge-arbeidstakere">§ 12-12. Krav om listeføring av unge arbeidstakere</a></li>
+<li class="lvl2"><a href="#kapittel-13-bedriftshelsetjeneste">Kapittel 13. Bedriftshelsetjeneste</a></li>
+<li class="lvl4"><a href="#13-1-plikt-til-a-knytte-bedriftshelsetjeneste-til-virksomheten">§ 13-1. Plikt til å knytte bedriftshelsetjeneste til virksomheten</a></li>
+<li class="lvl4"><a href="#13-2-arbeidsgivers-bruk-av-bedriftshelsetjenesten">§ 13-2. Arbeidsgivers bruk av bedriftshelsetjenesten</a></li>
+<li class="lvl4"><a href="#13-3-planer-arsrapporter-og-meldinger">§ 13-3. Planer, årsrapporter og meldinger</a></li>
+<li class="lvl2"><a href="#kapittel-14-meldeplikt-og-helseovervakning">Kapittel 14. Meldeplikt og helseovervåkning</a></li>
+<li class="lvl4"><a href="#14-1-krav-til-helseovervakning">§ 14-1. Krav til helseovervåkning</a></li>
+<li class="lvl4"><a href="#14-2-registrering-og-varsling-av-arbeidsulykke-og-yrkessykdom">§ 14-2. Registrering og varsling av arbeidsulykke og yrkessykdom</a></li>
+<li class="lvl4"><a href="#14-3-leges-meldeplikt-i-bygge-og-anleggsvirksomhet">§ 14-3. Leges meldeplikt i bygge- og anleggsvirksomhet</a></li>
+<li class="lvl4"><a href="#14-4-underskelse-av-arbeidstakeres-syn-ved-arbeid-ved-dataskjerm">§ 14-4. Undersøkelse av arbeidstakeres syn ved arbeid ved dataskjerm</a></li>
+<li class="lvl4"><a href="#14-5-arbeidsgivers-oppflging-av-helseunderskelsene">§ 14-5. Arbeidsgivers oppfølging av helseundersøkelsene</a></li>
+<li class="lvl4"><a href="#14-6-krav-til-leges-kompetanse">§ 14-6. Krav til leges kompetanse</a></li>
+<li class="lvl4"><a href="#14-7-arbeidsgivers-dekning-av-utgifter-til-helseunderskelse">§ 14-7. Arbeidsgivers dekning av utgifter til helseundersøkelse</a></li>
+<li class="lvl2"><a href="#kapittel-15-bruk-av-personlig-verneutstyr">Kapittel 15. Bruk av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-1-gjennomgaende-krav-om-bruk-av-personlig-verneutstyr">§ 15-1. Gjennomgående krav om bruk av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-2-tilleggskrav-til-personlig-verneutstyr">§ 15-2. Tilleggskrav til personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-3-krav-til-personlig-verneutstyr">§ 15-3. Krav til personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-4-krav-til-vedlikehold-og-kontroll-av-personlig-verneutstyr">§ 15-4. Krav til vedlikehold og kontroll av personlig verneutstyr</a></li>
+<li class="lvl4"><a href="#15-5-krav-til-informasjon-om-personlig-verneutstyr">§ 15-5. Krav til informasjon om personlig verneutstyr</a></li>
+<li class="lvl2"><a href="#kapittel-16-avsluttende-bestemmelser">Kapittel 16. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#16-1-straff">§ 16-1. Straff</a></li>
+<li class="lvl4"><a href="#16-2-overtredelsesgebyr">§ 16-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#16-3-ikrafttredelse">§ 16-3. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-12-06-1355.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-12-06-1355.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-12-06-1355.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2011-12-06-1355.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2011-12-06-1355.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-12-06-1355.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2011-12-06-1355.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2011-12-06-1355.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-12-06-1355.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-organisering-ledelse-og-medvirkning">Forskrift om organisering, ledelse og medvirkning</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Formålet med forskriften er at arbeid organiseres og tilrettelegges slik at arbeidstakere sikres et fullt forsvarlig arbeidsmiljø beskyttet mot fysiske eller psykiske belastninger ved at</p>
@@ -88,12 +361,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="1-2-virkeomrade">§ 1-2. Virkeområde <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder organisering, tilrettelegging og ledelse av arbeidet, og medvirkning fra arbeidstakerne eller deres representanter.</p>
 <p>Forskriftens kapitler 6, 7, 8 og 9 gjelder ikke for petroleumsvirksomhet til havs og for virksomhet på landanlegg som nevnt i rammeforskriften § 6 bokstav e. Forskriftens kapittel 12 gjelder ikke for petroleumsvirksomheten til havs.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 27 april 2018 nr. 636 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 27 april 2018 nr. 636 (i kraft 1 jan 2019).</p>
 <h4 id="1-3-hvem-forskriften-retter-seg-mot">§ 1-3. Hvem forskriften retter seg mot <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsgiver skal sørge for at bestemmelsene i denne forskriften blir gjennomført.</p>
 <p>Forskriften kapittel 5 , 6 og 15 , samt § 10-1 bokstav m og o, og § 14-2 gjelder også for virksomheter som ikke sysselsetter arbeidstakere.</p>
 <p>Forskriften § 14-3 gjelder leger i forbindelse med meldeplikt.</p>
-<p><em>Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 24 feb 2014 nr. 210 , 25 aug 2014 nr. 1108 , 20 des 2017 nr. 2352 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 24 feb 2014 nr. 210 , 25 aug 2014 nr. 1108 , 20 des 2017 nr. 2352 (i kraft 1 jan 2018).</p>
 <h4 id="1-4-definisjoner">§ 1-4. Definisjoner <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I denne forskriften menes med:</p>
 <ol>
@@ -123,26 +396,26 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>risiko: en funksjon av sannsynligheten for at en uønsket hendelse kan inntreffe og konsekvensen for arbeidstakernes liv eller helse.</li>
 <li>sikkerhetsskilting og signalgivning: anvendelse av skilt, farge, lyssignal, lydsignal, muntlig anvisning eller et hånd- og armsignal som henviser til en bestemt gjenstand, virksomhet eller situasjon og som gir opplysninger eller instruksjoner om hvordan personer skal forholde seg i forskjellige situasjoner av hensyn til sikkerhet og helse på arbeidsplassen. Definisjonen omfatter ikke skilting og signalgivning som reguleres av annen lovgivning eller i medhold av veg-, jernbane-, luft- eller sjøtransport eller transport på innenlandske sjøveier.</li>
 </ol>
-<p><em>Endret ved forskrift 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</em></p>
+<p class="note">Endret ved forskrift 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</p>
 <h4 id="1-5-dispensasjon">§ 1-5. Dispensasjon <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidstilsynet, Havindustritilsynet og Luftfartstilsynet kan på sine områder gi dispensasjon fra forskriften dersom det foreligger særlige grunner, det er sikkerhets- og helsemessig forsvarlig, og det ikke strider mot EØS-avtalen.</p>
-<p><em>Endret ved forskrifter 20 des 2018 nr. 2183 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2018 nr. 2183 (i kraft 1 jan 2019), 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="1-6-opphevet">§ 1-6. (Opphevet) <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013), opphevet ved forskrift 20 des 2018 nr. 2183 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013), opphevet ved forskrift 20 des 2018 nr. 2183 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-2-medvirkning-fra-arbeidstakere-eller-deres-representanter">Kapittel 2. Medvirkning fra arbeidstakere eller deres representanter</h2>
 <h4 id="2-1-arbeidstakernes-medvirkning">§ 2-1. Arbeidstakernes medvirkning <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Planlegging og vurdering av arbeidsmiljøet og gjennomføring av nødvendige og forebyggende tiltak skal skje i samarbeid med arbeidstakerne, verneombud og tillitsvalgte.</p>
 <p>Utviklingstiltak for å forebygge skader ved ergonomisk belastende arbeid skal iverksettes i samarbeid med berørte arbeidstakere.</p>
 <p>Ved utarbeidelse av sikkerhetsprosedyrer, beredskapsplaner og nødprosedyrer ved arbeid under vann eller økt omgivende trykk skal verneombudet eller, hvis virksomheten ikke har verneombud, en representant for arbeidstakerne tas med på råd.</p>
 <p>Arbeidstakerne skal medvirke ved planlegging av dykkeoperasjoner, herunder risikovurdering og tiltak.</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="2-2-verneombudets-oppgaver-og-medvirkning">§ 2-2. Verneombudets oppgaver og medvirkning <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Verneombudet skal virke for gjennomføringen av arbeidsmiljølovens målsettinger og ellers utføre sine oppgaver etter arbeidsmiljølovens § 6-2 og forskriften her § 12-11 .</p>
 <p>Verneombudet har rett til å bruke den tid som er nødvendig for å utføre oppgavene på forsvarlig måte.</p>
 <p>I virksomhet som ikke har arbeidsmiljøutvalg, skal verneombudet også:</p>
 <p>a. vurdere og avgi uttalelse om saker som er nevnt i arbeidsmiljøloven § 7-2 (2) og (3).
 b. gjennomgå rapporter om yrkessykdommer, arbeidsulykker, yrkeshygieniske undersøkelser mv. som nevnt i arbeidsmiljøloven § 7-2 (4). Verneombudet skal i slike tilfelle ha samme adgang til Arbeidstilsynets og politiets etterforskningsdokumenter som arbeidsmiljøutvalget. Verneombudet skal medvirke til at årsaken til arbeidsulykker og yrkessykdommer søkes klarlagt og se til at arbeidsgiveren treffer tiltak for å hindre gjentakelse.</p>
-<p><em>Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 24 feb 2014 nr. 210 .</em></p>
+<p class="note">Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 24 feb 2014 nr. 210 .</p>
 <h4 id="2-3-arbeidsmiljutvalgets-oppgaver">§ 2-3. Arbeidsmiljøutvalgets oppgaver <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsmiljøutvalget er et besluttende og rådgivende organ som skal virke for gjennomføringen av arbeidsmiljølovgivningen i virksomheten.</p>
 <p>Foruten de oppgaver som er spesielt nevnt i arbeidsmiljøloven § 7-2 , skal</p>
@@ -153,11 +426,11 @@ d. utvalget fastsette retningslinjer for introduksjon av nye tilsatte arbeidstak
 e. utvalget også arbeide for at de tilsatte i virksomheten får innsikt i arbeidsmiljøproblemer og søke deres medvirkning i verne- og miljøarbeidet.
 f. utvalget behandle arbeidsinstruks som skal utarbeides ved samtidig arbeid med cytostatika og ioniserende stråling, jf. forskrift om utførelse av arbeid § 15-2 .</p>
 <p>I slike tilfelle som nevnt i arbeidsmiljøloven § 7-2 (4), skal utvalget i alminnelighet ha adgang til Arbeidstilsynets og politiets etterforskningsdokumenter. Arbeidstilsynet eller politiet avgjør i hvilken utstrekning dokumenter skal framlegges. Opplysninger utvalget får fra Arbeidstilsynet eller politiet, skal utelukkende benyttes så langt det er nødvendig for å klarlegge årsaken til en arbeidsulykke.</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="2-4-behandling-av-planer-for-bygningsmessige-arbeider-mm-i-arbeidsmiljutvalg">§ 2-4. Behandling av planer for bygningsmessige arbeider m.m. i arbeidsmiljøutvalg <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En arbeidsgiver som legger fram for arbeidsmiljøutvalget planer for bygningsmessige arbeider eller andre planer som kan få vesentlig betydning for arbeidsmiljøet, jf. lovens § 7-2 (2) bokstav c) og d), skal samtidig gi utvalget beskjed om hvorvidt planene vil bli forelagt Arbeidstilsynet etter arbeidsmiljøloven § 18-9 .</p>
 <p>Tilsvarende gjelder når planene behandles av verneombud i virksomheter som ikke har arbeidsmiljøutvalg, eller eventuelt av særskilte lokale arbeidsmiljøutvalg eller lokale eller regionale verneombud, jf. arbeidsmiljøloven § 6-4 .</p>
-<p><em>Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</p>
 <h2 id="kapittel-3-valg-opplring-mm-av-verneombud-og-arbeidsmiljutvalg">Kapittel 3. Valg, opplæring m.m. av verneombud og arbeidsmiljøutvalg</h2>
 <h4 id="3-1-inndeling-i-verneomrader">§ 3-1. Inndeling i verneområder</h4>
 <p>Arbeidsmiljøutvalget deler inn arbeidsplassen i verneområder. I virksomheter som ikke har arbeidsmiljøutvalg, gjøres dette av lokal fagforening etter at arbeidsgiveren har uttalt seg.</p>
@@ -190,7 +463,7 @@ f. utvalget behandle arbeidsinstruks som skal utarbeides ved samtidig arbeid med
 <p>Arbeidsgiveren peker ut sine representanter i utvalget. Arbeidsgiveren, den som i arbeidsgiverens sted leder virksomheten, eller når virksomheten er omfattende, en representant fra den øverste ledelse, skal alltid være medlem av arbeidsmiljøutvalget.</p>
 <p>Hovedverneombudet skal være en av arbeidstakernes representanter i utvalget og ha stemmerett. Er det flere hovedverneombud ved virksomheten, velger de en felles representant. Er det bare ett verneombud ved virksomheten, skal det være medlem av utvalget. Arbeidstakerne velger sine øvrige representanter ved flertallsvalg. Bare tilsatte i virksomheten kan velges.</p>
 <p>Personale i bedriftshelsetjenesten, jf. arbeidsmiljøloven § 3-3 , kan ikke velges som representanter for arbeidsgiveren eller arbeidstakerne. Minst én representant fra bedriftshelsetjenesten skal være fast medlem av utvalget.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 18 des 2023 nr. 2115 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 18 des 2023 nr. 2115 (i kraft 1 jan 2024).</p>
 <h4 id="3-8-stemmerett-ved-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-8. Stemmerett ved valg av medlemmer til arbeidsmiljøutvalg</h4>
 <p>Alle arbeidstakere har stemmerett ved valget med unntak av den som i arbeidsgivers sted leder virksomheten.</p>
 <h4 id="3-9-gjennomfring-av-valg-av-medlemmer-til-arbeidsmiljutvalg">§ 3-9. Gjennomføring av valg av medlemmer til arbeidsmiljøutvalg</h4>
@@ -200,7 +473,7 @@ f. utvalget behandle arbeidsinstruks som skal utarbeides ved samtidig arbeid med
 <p>De som har fått flest stemmer, er valgt i den rekkefølge stemmetallene tilsier. Ved stemmelikhet avgjøres valget ved loddtrekning.</p>
 <h4 id="3-10-gjennomfring-av-valg-til-arbeidsmiljutvalg-i-virksomhet-med-flere-lokale-fagforeninger">§ 3-10. Gjennomføring av valg til arbeidsmiljøutvalg i virksomhet med flere lokale fagforeninger <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-3-10.html" title="Endringshistorikk for § 3-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I virksomhet med flere lokale fagforeninger, kan to eller flere fagforeninger som til sammen organiserer flertallet av arbeidstakerne avtale at valget skal skje som forholdstallsvalg eller at fagforeningene skal utpeke arbeidstakernes representanter i arbeidsmiljøutvalg. Blir slik avtale ikke inngått, skal valget skje som flertallsvalg.</p>
-<p><em>Endret ved forskrift 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</p>
 <h4 id="3-11-stedfortredere-for-arbeidsmiljutvalgets-medlemmer">§ 3-11. Stedfortredere for arbeidsmiljøutvalgets medlemmer</h4>
 <p>Medlemmene i arbeidsmiljøutvalget skal ha stedfortredere. Stedfortreder for arbeidsgiver skal utpekes av denne og være fra virksomhetens øverste ledelse. Stedfortredere for arbeidstakernes representanter skal velges eller utpekes etter reglene i § 3-9 og § 3-10 . Avholdes valg, velges arbeidstakerrepresentanter og stedfortredere under ett. Medlemmer og stedfortredere blir innvalgt i den rekkefølge stemmetallene tilsier. Stedfortreder med flest stemmer blir personlig stedfortreder for medlem med flest stemmer osv.</p>
 <h4 id="3-12-leder-av-arbeidsmiljutvalg">§ 3-12. Leder av arbeidsmiljøutvalg</h4>
@@ -210,7 +483,7 @@ f. utvalget behandle arbeidsinstruks som skal utarbeides ved samtidig arbeid med
 <h4 id="3-14-flere-arbeidsmiljutvalg-i-samme-virksomhet">§ 3-14. Flere arbeidsmiljøutvalg i samme virksomhet <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-3-14.html" title="Endringshistorikk for § 3-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I virksomheter med flere atskilte driftsenheter, kan arbeidsmiljøutvalget vedta at det skal velges lokale arbeidsmiljøutvalg for hver driftsenhet. Arbeidsmiljøutvalget for hele virksomheten fastsetter arbeidsoppgaver og beslutningsmyndighet for det lokale arbeidsmiljøutvalg. For øvrig gjelder forskriftenes regler om arbeidsmiljøutvalg.</p>
 <p>Arbeidsmiljøutvalget kan opprette underutvalg som skal behandle særskilte problemer (f.eks. attføringsutvalg, ergonomiutvalg mv.). Underutvalgene er rådgivende for arbeidsmiljøutvalget. Arbeidsmiljøutvalget kan likevel vedta at de enkelte underutvalg skal ha en viss avgjørelsesmyndighet.</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="3-15-funksjonstid-for-medlemmer-av-arbeidsmiljutvalg">§ 3-15. Funksjonstid for medlemmer av arbeidsmiljøutvalg</h4>
 <p>Medlemmer av arbeidsmiljøutvalget velges for to år av gangen. Dersom et utvalgsmedlem slutter i virksomheten, opphører vervet. Da trer stedfortrederen inn som medlem for den resterende del av valgperioden.</p>
 <h4 id="3-16-saksbehandlingen-i-arbeidsmiljutvalget">§ 3-16. Saksbehandlingen i arbeidsmiljøutvalget</h4>
@@ -225,7 +498,7 @@ b. tekniske innretninger, produksjonsmetoder, forretningsmessige analyser og ber
 <p>Taushetsplikten gjelder ikke om de får samtykke fra virksomheten eller den opplysningene gjelder til å legge dem fram, eller dette er nødvendig for å informere berørte arbeidstakere eller medlemmer av virksomhetens organer om ulykkes- eller helsefare i virksomheten.</p>
 <p>Arbeidsmiljøutvalget kan vedta at medlemmene skal være bundet av taushetsplikt. Unntakene fra taushetsplikten i annet ledd gjelder tilsvarende.</p>
 <p>Er verneombudet, annen representant for arbeidstakerne der verneombud ikke er valgt, eller et utvalgsmedlem i tvil om det kan skade å legge fram opplysninger, skal det rådføre seg med den opplysningen gjelder.</p>
-<p><em>Endret ved forskrift 15 des 2021 nr. 3562 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 15 des 2021 nr. 3562 (i kraft 1 jan 2022).</p>
 <h4 id="3-18-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-18. Opplæring av verneombud og medlemmer av arbeidsmiljøutvalg <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-3-18.html" title="Endringshistorikk for § 3-18" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Verneombud og medlemmer av arbeidsmiljøutvalg skal få den opplæring som er nødvendig for at de kan utføre sine verv på forsvarlig måte, jf. arbeidsmiljøloven § 6-5 første ledd og § 7-4 . Opplæringen skal</p>
 <p>a. gi deltakerne forståelse av hva fullt forsvarlig arbeidsmiljø innebærer på deres arbeidsplass, arbeidsgivers og arbeidstakers roller og ansvar samt arbeidsmiljøutvalgets, verneombudets, bedriftshelsetjenestens og Arbeidstilsynets rolle og oppgaver,
@@ -237,13 +510,13 @@ f. gi en innføring og orientering om arbeidsmiljøloven og andre aktuelle lover
 <p>Brukes det kjemiske stoffer eller biologisk materiale slik som nevnt i arbeidsmiljøloven § 4-5 , skal det gis opplæring om de helsefarer stoffene kan medføre.</p>
 <p>Det skal gis ytterligere opplæring i emner nevnt i første og andre ledd som særlig er av betydning for arbeidsmiljøet i vedkommende virksomhet, i den utstrekning dette er nødvendig for at verneombud og medlemmer av arbeidsmiljøutvalg skal kunne utføre sine verv på forsvarlig måte.</p>
 <p>Det bør også gis spesiell opplæring av verneombud innenfor verneområder med særlig kompliserte arbeidsmiljøproblemer. Hovedverneombudet skal ha minst samme opplæring som andre verneombud i virksomheten og i tillegg den opplæring som er nødvendig for å utføre oppgavene etter forskriften her § 3-5 .</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</p>
 <h4 id="3-19-varighet-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-19. Varighet av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg</h4>
 <p>Opplæringens varighet skal være minst 40 timer. Det kan avtales en kortere opplæring enn 40 timer, dersom partene i fellesskap er kommet fram til at det er forsvarlig ut fra en vurdering av problemenes karakter og omfang.</p>
 <h4 id="3-20-gjennomfringen-av-opplringen-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-20. Gjennomføringen av opplæringen av verneombud og medlemmer av arbeidsmiljøutvalg <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-3-20.html" title="Endringshistorikk for § 3-20" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Praktiske spørsmål i forbindelse med gjennomføringen av opplæringen avklares i samarbeid mellom arbeidsgiveren og arbeidstakernes tillitsvalgte eller ved avtale mellom arbeidsgiverforening og fagforening med innstillingsrett etter arbeidstvistloven § 39 . Er det ingen tillitsvalgte ved virksomheten, avklarer arbeidsgiveren dette med de som skal delta i opplæringen.</p>
 <p>Opplæring skal gis snarest mulig etter nyvalg, og den skal fortrinnsvis legges i arbeidstida. Arbeidsgiveren skal dekke utgiftene ved opplæringen. Ved gjennomføringen av opplæring i arbeidstida skal deltakerne ha tjenestefri med full lønn. Er opplæringen lagt i fritida, skal lønn betales som om det gjaldt ordinær arbeidstid, uten overtidstillegg for den faktiske undervisningstid.</p>
-<p><em>Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</p>
 <h4 id="3-21-arbeidstilsynets-adgang-til-a-palegge-arbeidsgiveren-a-gi-opplring-av-verneombud-og-medlemmer-av-arbeidsmiljutvalg">§ 3-21. Arbeidstilsynets adgang til å pålegge arbeidsgiveren å gi opplæring av verneombud og medlemmer av arbeidsmiljøutvalg</h4>
 <p>I tilfelle hvor arbeidsforholdene gjør det nødvendig med en mer omfattende opplæring av verneombud eller utvalgsmedlemmer enn det er besluttet i virksomheten, kan Arbeidstilsynet pålegge arbeidsgiveren å sørge for dette. Arbeidstilsynet kan også fastsette minimumskrav til opplæringen innenfor spesielle bransjer og typer av virksomhet.</p>
 <p>Hvor opplæring ikke er planlagt eller ikke gjennomført, kan Arbeidstilsynet pålegge arbeidsgiveren å gjennomføre opplæring som fastsatt i denne bestemmelse og § 3-18 til § 3-20 og herunder fastsette innholdet og omfanget av opplæringen.</p>
@@ -283,7 +556,7 @@ d. Bedriftshelsetjenesten skal være representert uten stemmerett, jf. § 3-7 .<
 <h2 id="kapittel-5-regionale-verneombud-for-bygge-og-anleggsvirksomhet">Kapittel 5. Regionale verneombud for bygge- og anleggsvirksomhet</h2>
 <h4 id="5-1-virkeomrade">§ 5-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dette kapitlet gjelder for bygge- og anleggsvirksomhet hvor arbeidsplassene er midlertidige eller mobile, inkludert virksomhet som ikke sysselsetter arbeidstakere.</p>
-<p><em>Tilføyd ved forskrift 24 feb 2014 nr. 210 .</em></p>
+<p class="note">Tilføyd ved forskrift 24 feb 2014 nr. 210 .</p>
 <h4 id="5-2-regionale-verneombuds-myndighet-og-oppgaver">§ 5-2. Regionale verneombuds myndighet og oppgaver <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>De regionale verneombudene skal arbeide på de arbeidsplassene som ikke har valgt verneombud eller opprettet arbeidsmiljøutvalg i samsvar med arbeidsmiljølovens regler.</p>
 <p>På arbeidsplasser hvor det ikke er valgt verneombud, skal det regionale verneombudet gjøre arbeidsgiver og arbeidstakerne oppmerksom på plikten til å velge verneombud etter arbeidsmiljøloven § 6-1 . Hvis verneombud etter dette ikke velges, skal det regionale verneombudet gi melding til Arbeidstilsynet.</p>
@@ -291,16 +564,16 @@ d. Bedriftshelsetjenesten skal være representert uten stemmerett, jf. § 3-7 .<
 <p>På arbeidsplasser med flere arbeidsgivere på samme arbeidsplass og hvor virksomhetene ikke har avtalt hvem av dem som skal ha ansvaret for samordningen av de enkelte virksomheters verne- og miljøarbeid, skal det regionale verneombudet gjøre arbeidsgiverne oppmerksom på plikten til skriftlig å avtale hvem av dem som skal ha ansvaret for samordningen, jf. arbeidsmiljøloven § 2-2 . Dersom arbeidsgiverne etter dette ikke avtaler hvem som skal ha ansvaret for samordningen, skal det regionale verneombudet gi melding til Arbeidstilsynet.</p>
 <p>Dersom det ikke er opprettet arbeidsmiljøutvalg i virksomheter som har plikt til det etter arbeidsmiljøloven § 7-1 , skal de regionale verneombudene gjøre arbeidsgiver og arbeidstakerne oppmerksomme på denne plikten. Hvis arbeidsmiljøutvalg etter dette ikke opprettes, skal det regionale verneombudet gi melding til Arbeidstilsynet.</p>
 <p>De regionale verneombudene skal utarbeide årsrapport om sin virksomhet til forbundene.</p>
-<p><em>Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-1).</em></p>
+<p class="note">Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-1).</p>
 <h4 id="5-3-regionale-verneombuds-rett-til-opplysninger">§ 5-3. Regionale verneombuds rett til opplysninger <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Regionale verneombud har tilsvarende krav på opplysninger fra virksomhetene som ordinært valgt verneombud har og ellers de opplysninger som anses nødvendige for at det regionale verneombudet skal kunne utføre sine oppgaver etter § 5-2 i denne forskrift.</p>
-<p><em>Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-2).</em></p>
+<p class="note">Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-2).</p>
 <h4 id="5-4-taushetsplikt">§ 5-4. Taushetsplikt</h4>
 <p>Regionale verneombud har taushetsplikt i samsvar med § 3-17 .</p>
-<p><em>Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-3).</em></p>
+<p class="note">Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-3).</p>
 <h4 id="5-5-kompetansekrav">§ 5-5. Kompetansekrav</h4>
 <p>De regionale verneombudene plikter å gjøre seg kjent med de regler om sikkerhet, helse og arbeidsmiljø som gjelder for bygge- og anleggsvirksomhet under denne forskriften.</p>
-<p><em>Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-4).</em></p>
+<p class="note">Endret ved forskrift 24 feb 2014 nr. 210 (tidligere § 5-4).</p>
 <h2 id="kapittel-6-regionale-verneombud-for-overnattingsvirksomheter-serveringsvirksomheter-rengjringsvirksomheter-mfl">Kapittel 6. Regionale verneombud for overnattingsvirksomheter, serveringsvirksomheter, rengjøringsvirksomheter mfl.</h2>
 <h4 id="6-1-virkeomrade">§ 6-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dette kapitlet gjelder for virksomheter</p>
@@ -308,7 +581,7 @@ d. Bedriftshelsetjenesten skal være representert uten stemmerett, jf. § 3-7 .<
 b. som har krav om å være godkjent av Arbeidstilsynet etter forskrift 8. mai 2012 nr. 408 om offentlig godkjenning av renholdsvirksomheter og om kjøp av renholdstjenester,
 c. som tilbyr overnatting, herunder hotellvirksomhet, drift av vandrerhjem, ferieleiligheter, campingplasser og turisthytter.</p>
 <p>Dette kapitlet gjelder ikke for petroleumsvirksomheten, jf. § 1-2 . Kapitlet gjelder også for virksomheter som ikke har arbeidstakere og virksomheter som leier ut arbeidstakere til virksomheter som er omfattet av denne bestemmelsens første ledd bokstav a–c.</p>
-<p><em>Endret ved forskrift 27 april 2018 nr. 636 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 27 april 2018 nr. 636 (i kraft 1 jan 2019).</p>
 <h4 id="6-2-kvalifikasjoner-mv">§ 6-2. Kvalifikasjoner mv.</h4>
 <p>Regionale verneombud skal ha minst tre års erfaring fra arbeid innenfor den bransjen de skal være verneombud for, og ha minst to års erfaring som verneombud. Kvalifikasjonskravene kan i særlige tilfeller fravikes.</p>
 <p>Regionale verneombud plikter å gjøre seg kjent med de regler om helse-, miljø- og sikkerhet som gjelder for sin bransje.</p>
@@ -330,7 +603,7 @@ c. som tilbyr overnatting, herunder hotellvirksomhet, drift av vandrerhjem, feri
 <p>Risikovurdering skal gjentas regelmessig, ved endringer som kan ha betydning for risikoforholdene og ved innkjøp av maskiner og utstyr, som kan ha betydning for helse, arbeidsmiljøet og sikkerheten i virksomheten.</p>
 <p>Risikovurdering skal foretas i samarbeid med arbeidstakerne og deres representanter.</p>
 <p>Kartlegging og risikovurdering, samt planer og tiltak som utløses av risikovurderinger, skal dokumenteres i den form og det omfang som er nødvendig på bakgrunn av virksomhetens art, aktiviteter, risikoforhold og størrelse og oppbevares slik at opplysningene kan anvendes på et senere tidspunkt.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</p>
 <h4 id="7-2-maling-som-grunnlag-for-risikovurdering">§ 7-2. Måling som grunnlag for risikovurdering</h4>
 <p>Når det gjennomføres måling som grunnlag for risikovurdering, skal målemetoder og måleinstrumenter være tilpasset miljøet, den type eksponering som forekommer og eksponeringens varighet. Målemetodene som brukes skal være representative for den enkelte arbeidstakers personlige eksponering, og det skal tas hensyn til måleusikkerhet ved vurdering av risiko.</p>
 <h4 id="7-3-tilleggskrav-til-risikovurderingen">§ 7-3. Tilleggskrav til risikovurderingen <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -350,7 +623,7 @@ c. som tilbyr overnatting, herunder hotellvirksomhet, drift av vandrerhjem, feri
 <li>arbeid under vann eller økt omgivende trykk, jf. kapittel 26 ,</li>
 <li>snøskredfare, jf. kapittel 30 .</li>
 </ul>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-8-opplring">Kapittel 8. Opplæring</h2>
 <h4 id="8-1-gjennomgaende-krav-til-opplring">§ 8-1. Gjennomgående krav til opplæring</h4>
 <p>Arbeidsgiver skal sørge for at arbeidstakere som bruker utstyr og anlegg eller håndterer varer, stoffer eller produkter, har nødvendig opplæring og øvelse i hensiktsmessig arbeidsteknikk, organiseringen av arbeidet, andre relevante forhold, og har nødvendige kvalifikasjoner for sikker utførelse av arbeidet.</p>
@@ -380,7 +653,7 @@ c. som tilbyr overnatting, herunder hotellvirksomhet, drift av vandrerhjem, feri
 <li>arbeid med driftskontroll og sikkerhetsovervåking (kontrollrom), jf. kapittel 24</li>
 <li>arbeid under vann eller økt omgivende trykk, jf. kapittel 26 .</li>
 </ul>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-9-informasjon-til-arbeidstakerne">Kapittel 9. Informasjon til arbeidstakerne</h2>
 <h4 id="9-1-gjennomgaende-krav-om-informasjon-til-arbeidstakerne">§ 9-1. Gjennomgående krav om informasjon til arbeidstakerne</h4>
 <p>Arbeidsgiver skal sørge for at arbeidstakerne og deres representanter får løpende informasjon om risikofaktorer i tilknytning til arbeidet og hvordan disse kan unngås.</p>
@@ -400,7 +673,7 @@ c. som tilbyr overnatting, herunder hotellvirksomhet, drift av vandrerhjem, feri
 <li>ergonomisk belastende arbeid, jf. kapittel 23</li>
 <li>arbeid som kan medføre risiko for å bli utsatt for vold og trusler, jf. kapittel 3A .</li>
 </ul>
-<p><em>Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 15 des 2021 nr. 3601 (i kraft 1 jan 2022), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-10-planlegging-tilrettelegging-av-arbeidet-og-sikker-drift">Kapittel 10. Planlegging, tilrettelegging av arbeidet og sikker drift</h2>
 <h4 id="10-1-planlegging-og-tilrettelegging-av-arbeidet">§ 10-1. Planlegging og tilrettelegging av arbeidet <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsgiver skal planlegge arbeidet og kontrollere rutinene for det systematiske arbeidsmiljøarbeidet, slik at arbeidet kan utføres sikkert og helsemessig forsvarlig.</p>
@@ -419,7 +692,7 @@ l. Det skal være hensiktsmessig førstehjelpsutstyr tilgjengelig på alle stede
 m. Arbeidstidsordninger skal legges opp slik at helse- og sikkerhetshensyn ivaretas.
 n. Arbeidet skal planlegges og gjennomføres på en slik måte at arbeidstakerne beskyttes mot vold og trusler så langt det er mulig.
 o. Arbeidet skal planlegges og gjennomføres på en slik måte at ikke andre som utfører arbeid på samme arbeidsplass utsettes for ulykkes- eller helsefare.</p>
-<p><em>Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 20 des 2017 nr. 2352 (i kraft 1 jan 2018), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 17 nov 2016 nr. 1337 (i kraft 1 jan 2017), 20 des 2017 nr. 2352 (i kraft 1 jan 2018), 16 des 2025 nr. 2617 (i kraft 1 jan 2026).</p>
 <h4 id="10-2-forebygging-av-skader-ved-ergonomisk-belastende-arbeid">§ 10-2. Forebygging av skader ved ergonomisk belastende arbeid</h4>
 <p>Arbeidsgiver skal gjennomføre nødvendige tiltak for å fjerne eller redusere forekomsten av belastende og helseskadelig manuelt arbeid, herunder iverksette utviklingstiltak, jf. § 2-1 andre ledd. Tiltakene skal ta utgangspunkt i arbeidet som utføres og omfatte faktorer som:</p>
 <ul>
@@ -438,7 +711,7 @@ o. Arbeidet skal planlegges og gjennomføres på en slik måte at ikke andre som
 <h4 id="10-4-krav-om-systematisk-kontroll-og-vedlikehold">§ 10-4. Krav om systematisk kontroll og vedlikehold <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-10-4.html" title="Endringshistorikk for § 10-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsutstyr og anlegg som er i bruk, skal underlegges regelmessig kontroll og vedlikehold slik at det er samsvar med bestemmelsene i forskrift om utførelse av arbeid, jf. § 10-6 første ledd.</p>
 <p>Når det er nødvendig, skal det utarbeides rutiner for kontroll og vedlikehold av arbeidsutstyr og anlegg før bruk.</p>
-<p><em>Endret ved forskrift 22 des 2016 nr. 1857 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 22 des 2016 nr. 1857 (i kraft 1 jan 2017).</p>
 <h4 id="10-5-krav-om-sikkerhetsskilting-og-signalgivning">§ 10-5. Krav om sikkerhetsskilting og signalgivning</h4>
 <p>Arbeidsgiver skal vurdere farlige forhold i virksomheten med sikte på å sørge for sikkerhetsskilting og signalgivning der hvor farene ikke kan unngås ved andre tiltak.</p>
 <p>Dersom virkningen er den samme, kan det velges mellom:</p>
@@ -483,7 +756,7 @@ d. arbeidsutstyr som skal repareres, ikke tas i bruk dersom feilen, slitasjen el
 <li>arbeid ved CO 2 -anlegg, jf. kapittel 28,</li>
 <li>snøskredfare, jf kapittel 30.</li>
 </ul>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 11 mars 2022 nr. 373 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014), 21 juni 2016 nr. 758 (i kraft 1 juli 2016), 11 mars 2022 nr. 373 .</p>
 <h2 id="kapittel-12-arbeid-av-barn-og-ungdom">Kapittel 12. Arbeid av barn og ungdom</h2>
 <h4 id="12-1-risikovurdering-og-srlig-tilpassede-tiltak-for-arbeidstakere-under-18-ar">§ 12-1. Risikovurdering og særlig tilpassede tiltak for arbeidstakere under 18 år</h4>
 <p>Når personer under 18 år skal nyttes i arbeidet, skal arbeidsgiver foreta en vurdering av den risiko de utsettes for.</p>
@@ -556,20 +829,20 @@ r. arbeid med masseforflytningsmaskiner,
 s. arbeid med spikerpistoler,
 t. arbeid med boltpistoler.
 u. arbeid med væskestråleutstyr med arbeidstrykk over eller lik 250 bar (25 MPa).</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 26 juni 2015 nr. 797 , 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 26 juni 2015 nr. 797 , 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</p>
 <h4 id="12-7-unntak-fra-arbeidsforbudet-ved-yrkesrettet-opplring">§ 12-7. Unntak fra arbeidsforbudet ved yrkesrettet opplæring <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-12-7.html" title="Endringshistorikk for § 12-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom arbeidet utføres som ledd i praktisk opplæring i skolens regi, eller praktisk opplæring på lærekontrakt eller opplæringskontrakt, kan ungdom mellom 15 og 18 år og som ikke er skolepliktig, utføre arbeid som nevnt i § 12-5 bokstav b til d og § 12-6 bokstav b til p.</p>
 <p>På samme vilkår som nevnt i første ledd kan ungdom mellom 16 og 18 år som ikke er skolepliktig utføre arbeid som nevnt i § 12-6 bokstav a når den effektive doseekvivalenten ikke overstiger 5 mSv i løpet av 12 måneder. Ved bestråling av enkeltorganer skal dosegrensen ikke overstige 50 mSv/år for øyelinse og 150 mSv/år for hud, hender og føtter.</p>
 <p>Ungdom som har fylt 17 år kan gis praktisk opplæring i bruk av arbeidsutstyr som nevnt i § 12-6 bokstav q til u, dersom opplæringen skjer i samsvar med kravene om sikkerhetsopplæring i forskrift om utførelse av arbeid kapittel 10 . Slik opplæring kan også gis til elev i videregående skole når eleven er fylt 16 år og opplæring skjer under skolens kyndige veiledning.</p>
 <p>Når ungdom settes til arbeid som nevnt i første, annet og tredje ledd, skal arbeidsgiver organisere og tilrettelegge arbeidet under hensyn til den enkeltes arbeidslivserfaring og modenhet, og ellers iverksette de tiltak som er nødvendige for å ivareta deres sikkerhet, helse og utvikling.</p>
 <p>Arbeidsgiver skal sørge for at ungdom som settes til slikt arbeid, er underlagt tilsyn i nødvendig utstrekning av en erfaren og kompetent person.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</p>
 <h4 id="12-7a-unntak-fraarbeidsmiljloven-11-2tredje-ledd-og11-5tredje-ledd-ved-yrkesrettet-opplring-i-anleggsfag">§ 12-7A. Unntak fraarbeidsmiljøloven §§ 11-2tredje ledd og11-5tredje ledd ved yrkesrettet opplæring i anleggsfag</h4>
 <p>Arbeidstakernes tillitsvalgte kan samtykke til at arbeidstidsordninger etter arbeidsmiljøloven § 10-5 andre ledd og § 10-12 fjerde ledd som går ut over grensene i arbeidsmiljøloven § 11-2 tredje ledd og § 11-5 tredje ledd gjøres gjeldende for ungdom mellom 17 og 18 år som utfører arbeid som ledd i praktisk opplæring på lærekontrakt eller opplæringskontrakt i fag som bygger på vg2 anleggsteknikk.</p>
 <p>Arbeidstilsynet kan samtykke til at arbeidstidsordninger etter arbeidsmiljøloven § 10-5 tredje ledd og § 10-12 sjette ledd som går ut over grensene i arbeidsmiljøloven § 11-2 tredje ledd og § 11-5 tredje ledd gjøres gjeldende for ungdom mellom 17 og 18 år som utfører arbeid som ledd i praktisk opplæring på lærekontrakt eller opplæringskontrakt i fag som bygger på vg2 anleggsteknikk.</p>
 <p>Arbeidstidsordning som nevnt i første og andre ledd kan bare gjøres gjeldende i den utstrekning den ikke strider mot øvrige bestemmelser i arbeidsmiljøloven kapittel 11 .</p>
 <p>Ungdom som settes til arbeid som nevnt i første eller andre ledd skal ha en sammenhengende arbeidsfri periode på minst 36 timer i løpet av sju dager. Ungdommen kan ikke pålegges overtid.</p>
-<p><em>Tilføyd ved forskrift 10 mars 2020 nr. 257 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 mars 2020 nr. 257 .</p>
 <h4 id="12-8-adgang-til-a-sette-barn-til-kulturelt-kunstnerisk-eller-sportslig-arbeid">§ 12-8. Adgang til å sette barn til kulturelt, kunstnerisk eller sportslig arbeid</h4>
 <p>Barn som er under 15 år eller er skolepliktig kan utføre kulturelt, kunstnerisk eller sportslig arbeid i perioden mellom kl. 20.00 og kl. 23.00 på de vilkår som er nevnt i § 12-3 . Den arbeidsfrie perioden skal i tilfeller der arbeidet avsluttes etter kl. 22.00 vare til kl. 07.00.</p>
 <h4 id="12-9-vilkar-for-a-sette-ungdom-til-arbeid-om-natten">§ 12-9. Vilkår for å sette ungdom til arbeid om natten <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-12-9.html" title="Endringshistorikk for § 12-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -582,7 +855,7 @@ e. Rengjøringsarbeid kan utføres fram til kl. 24.00 når arbeidet ikke kan dri
 f. Lett vakthold og portnerarbeid kan utføres mellom kl. 06.00 og kl. 24.00.
 g. Lett arbeid i virksomhet for syke- og pleiehjelp, samt i internat som er knyttet til internatskoler, barnehjem, barnehager o.l. kan utføres mellom kl. 06.00 og kl. 24.00.
 h. Lett arbeid ved sykehus eller liknende institusjoner kan utføres fram til kl. 06.00 av elever, lærlinger og lærekandidater i helsefagarbeider innen videregående opplæring. Arbeidet må inngå som ledd i den praktiske opplæringen i henhold til gjeldende læreplan.</p>
-<p><em>Endret ved forskrift 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 22 des 2014 nr. 1884 (i kraft 1 jan 2015).</p>
 <h4 id="12-10-krav-om-informasjon">§ 12-10. Krav om informasjon</h4>
 <p>Arbeidsgiver skal sørge for at personer under 18 år, deres foreldre eller andre foresatte, informeres om eventuell risiko som er forbundet med arbeidet og om alle tiltak som iverksettes for å ivareta de unges sikkerhet og helse.</p>
 <h4 id="12-11-krav-om-medvirkning-fra-verneombudet-nar-arbeidstaker-er-under-18-ar">§ 12-11. Krav om medvirkning fra verneombudet når arbeidstaker er under 18 år</h4>
@@ -604,7 +877,7 @@ f. tidspunkt for avvikling av fritid i sommerferien.</p>
 <p>Virksomheter innenfor følgende næringsgrupperinger skal være tilknyttet bedriftshelsetjeneste som er godkjent av Arbeidstilsynet: Næringskode Hovedgruppe eller undergruppe der bare deler av hovedgruppen er omfattet 02 Skogbruk og tjenester tilknyttet skogbruk 03 03.2 Akvakultur 03.3 Tjenester tilknyttet akvakultur 05 Bryting av steinkull og brunkull 07 Bryting av metallholdig malm 08 Bryting og bergverksdrift ellers 09 09.9 Tjenester tilknyttet annen bergverksdrift 10 Produksjon av nærings- og nytelsesmidler 11 Produksjon av drikkevarer 12 Produksjon av tobakksvarer 13 Produksjon av tekstiler 14 Produksjon av klær 15 Produksjon av lær og andre relaterte produkter 16 Produksjon av trelast og varer av tre, kork, strå og flettematerialer, unntatt møbler 17 Produksjon av papir og papirvarer 18 18.1 Trykking og tjenester tilknyttet trykking 19 Produksjon av kullprodukter og raffinerte petroleumsprodukter 20 Produksjon av kjemikalier og kjemiske produkter 21 Produksjon av farmasøytiske råvarer og preparater 22 Produksjon av gummi- og plastprodukter 23 Produksjon av andre ikke-metalliske mineralprodukter 24 Produksjon av metaller 25 Produksjon av metallvarer, unntatt maskiner og utstyr 26 26.1 Produksjon av elektroniske komponenter og kretskort 26.2 Produksjon av datamaskiner og tilleggsutstyr 26.3 Produksjon av kommunikasjonsutstyr 26.4 Produksjon av elektronikk til husholdningsbruk 26.51 Produksjon av måle-, kontroll- og navigasjonsinstrumenter 26.6 Produksjon av strålingsutstyr, elektromedisinsk- og elektroterapeutisk utstyr 26.7 Produksjon av optiske instrumenter, magnetiske og optiske media og fotografisk utstyr 27 Produksjon av elektrisk utstyr 28 Produksjon av maskiner og utstyr ikke nevnt annet sted 29 Produksjon av motorvogner og tilhengere 30 Produksjon av andre transportmidler 31 Produksjon av møbler 32 32.3 Produksjon av sportsartikler. Kun den del som gjelder gummi- og plastprodukter 32.4 Produksjon av spill og leker. Kun den del som gjelder gummi- og plastprodukter 32.5 Produksjon av medisinske og tanntekniske instrumenter og utstyr 32.990 Annen industriproduksjon ikke nevnt annet sted 33 Reparasjon, vedlikehold og installasjon av maskiner og utstyr 35 35.1 Produksjon, overføring og distribusjon av elektrisitet 35.21 Produksjon av gass 35.22 Distribusjon av gass gjennom ledningsnett 35.23 Handel med gass gjennom ledningsnett 35.3 Vannbåren og luftbåren varme- og kjøleforsyning 35.4 Aktiviteter til meglere og agenter knyttet til elektrisk kraft og naturgass 36 Uttak fra kilde, rensing og distribusjon av vann 37 Oppsamling og behandling av avløpsvann 38 Innsamling, gjenvinning og behandling av avfall 39 Miljøutbedring, opprydding og lignende aktivitet 41 Oppføring av bygninger 42 Anleggsvirksomhet 43 43.1 Riving og grunnarbeid 43.2 Elektrisk installasjonsarbeid, VVS-arbeid og annet installasjonsarbeid 43.3 Ferdiggjøring av bygninger 43.4 Spesialisert byggevirksomhet i forbindelse med oppføring av bygninger 43.5 Spesialisert byggevirksomhet i forbindelse med anleggsarbeid 43.9 Annen spesialisert bygge- og anleggsvirksomhet 46 46.87 Engroshandel med avfall og skrap 49 Landtransport og rørtransport 52 52.21 Andre tjenester tilknyttet landtransport 52.22 Andre tjenester tilknyttet sjøtransport – unntatt redningstjeneste 52.23 Andre tjenester tilknyttet lufttransport 52.24 Lasting og lossing 53 53.1 Landsdekkende posttjenester 53.2 Andre post- og budtjenester 55 55.1 Drift av hoteller 56 56.11 Drift av restauranter 56.22 Kantinedrift og annen cateringvirksomhet – unntatt cateringvirksomhet 56.3 Drift av barer 61 Telekommunikasjon 75 Veterinærtjenester 77 77.1 Utleie og leasing av motorvogner 80 80.01 Etterforskningstjenester og private vakttjenester – unntatt etterforskningstjenester 80.09 Vakttjenester ikke nevnt annet sted 81 81.2 Rengjøringsvirksomhet 84 84.23 Aktiviteter i rettsvesen og kriminalomsorg – bare for kriminalomsorgen 84.24 Aktiviteter utført av politi- og påtalemyndighet – bare for politiet 84.25 Brannvernaktiviteter 85 85.1 Førskoleundervisning og drift av barnehager 85.2 Grunnskoleundervisning 85.3 Videregående opplæring 85.4 Undervisning innenfor høyere utdanning 85.5 Annen undervisning 85.69 Tjenester tilknyttet undervisning ikke nevnt annet sted 86 86.1 Sykehustjenester 86.2 Lege- og tannlegetjenester 86.91 Medisinske laboratorietjenester og bildediagnostikk 86.92 Ambulansetransport 86.93 Psykolog- og psykoterapitjenester, unntatt legetjenester innenfor psykiatri 86.94 Sykepleie- og jordmortjenester 86.95 Fysioterapi- og ergoterapitjenester 86.96 Aktiviteter innenfor tradisjonell, komplementær og alternativ medisin 86.99 Andre helsetjenester ikke nevnt annet sted 87 87.1 Helse- og omsorgstjenester med sykepleie i institusjoner og andre botilbud 87.2 Omsorgstjenester i botilbud for personer med psykiske helseproblemer, utviklingshemming eller rusmiddelproblemer 87.3 Omsorgstjenester i botilbud for eldre eller personer med fysisk funksjonsnedsettelse 87.99 Andre omsorgs- og sosialtjenester i botilbud ikke nevnt annet sted 88 Omsorgs- og sosialtjenester uten botilbud 91 91.3 Konservering, restaurering og andre tjenester tilknyttet kulturarv 95 95.23 Reparasjon og vedlikehold av skotøy og lærvarer. Gjelder fottøy av gummi og plast 95.24 Reparasjon og vedlikehold av møbler og boliginnredning 95.29 Reparasjon og vedlikehold av andre husholdningsvarer og varer til personlig bruk ikke nevnt annet sted. Gjelder varer av gummi og plast 95.31 Reparasjon og vedlikehold av motorvogner, unntatt motorsykler 95.32 Reparasjon og vedlikehold av motorsykler 96 96.1 Vaskeri og renserivirksomhet 96.21 Frisering og barbering 96.91 Personlig tjenesteyting i husholdninger</p>
 <p>Arbeidstilsynet kan fastsette at virksomhet som etter sin hovedaktivitet faller utenfor første ledd, men som også driver aktivitet som nevnt her, likevel helt eller delvis skal være tilknyttet godkjent bedriftshelsetjeneste.</p>
 <p>Listen over næringsgrupper i andre ledd skal gjennomgås og oppdateres hvert sjette år.</p>
-<p><em>Endret ved forskrifter 30 sep 2022 nr. 1687 (i kraft 1 jan 2023), 7 okt 2025 nr. 1993 .</em></p>
+<p class="note">Endret ved forskrifter 30 sep 2022 nr. 1687 (i kraft 1 jan 2023), 7 okt 2025 nr. 1993 .</p>
 <h4 id="13-2-arbeidsgivers-bruk-av-bedriftshelsetjenesten">§ 13-2. Arbeidsgivers bruk av bedriftshelsetjenesten <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-13-2.html" title="Endringshistorikk for § 13-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsgiver skal sørge for at bedriftshelsetjenesten</p>
 <p>a. bistår med løpende kartlegging av arbeidsmiljøet, foretar undersøkelser av arbeidsplassene og arbeidsprosessene og vurderer risiko for helsefare,
@@ -615,13 +888,13 @@ e. bistår i arbeidet med å overvåke og kontrollere arbeidstakernes helse unde
 f. bistår med individuell tilrettelegging, herunder med bistand i henhold til arbeidsmiljøloven § 4-6 ,
 g. bistår med informasjon og opplæring om relevant arbeidshelse-, arbeidsmiljø- og sikkerhetsrisiko og aktuelle tiltak,
 h. bistår ved henvendelser fra arbeidstaker, verneombud og arbeidsmiljøutvalg.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 sep 2022 nr. 1687 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 sep 2022 nr. 1687 (i kraft 1 jan 2023).</p>
 <h4 id="13-3-planer-arsrapporter-og-meldinger">§ 13-3. Planer, årsrapporter og meldinger <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-13-3.html" title="Endringshistorikk for § 13-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsgiver skal i samarbeid med bedriftshelsetjenesten utarbeide følgende dokumentasjon som skal inngå i virksomhetens systematiske helse-, miljø- og sikkerhetsarbeid:</p>
 <p>a. planer og årsrapporter for bedriftshelsetjenestens bistand i virksomheten,
 b. periodevise meldinger og resultater av kartlegginger, risikovurderinger, målinger o.l. som beskriver helsefarlige arbeidsforhold, forslag til forebyggende tiltak og resultater,
 c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
-<p><em>Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</p>
 <h2 id="kapittel-14-meldeplikt-og-helseovervakning">Kapittel 14. Meldeplikt og helseovervåkning</h2>
 <p>Overskrift endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="14-1-krav-til-helseovervakning">§ 14-1. Krav til helseovervåkning <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-14-1.html" title="Endringshistorikk for § 14-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -639,12 +912,12 @@ c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
 <li>gass, støv eller andre helseskadelige forhold ved bergarbeid, jf. kapittel 27.</li>
 </ul>
 <p>Egnet helseundersøkelse etter andre ledd skal utføres av, eller under kontroll av kompetent lege.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 22 des 2014 nr. 1884 (i kraft 1 jan 2015), 21 juni 2016 nr. 758 (i kraft 1 juli 2016).</p>
 <h4 id="14-2-registrering-og-varsling-av-arbeidsulykke-og-yrkessykdom">§ 14-2. Registrering og varsling av arbeidsulykke og yrkessykdom</h4>
 <p>Registrering og varsling av arbeidsulykke og yrkessykdom gjelder også for familiebruk i landbruk og virksomheter i landbruk som ikke sysselsetter arbeidstakere.</p>
 <h4 id="14-3-leges-meldeplikt-i-bygge-og-anleggsvirksomhet">§ 14-3. Leges meldeplikt i bygge- og anleggsvirksomhet <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-14-3.html" title="Endringshistorikk for § 14-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Legers meldeplikt til Arbeidstilsynet gjelder tilsvarende for virksomhet innen bygge- og anleggsvirksomhet som ikke sysselsetter arbeidstakere.</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="14-4-underskelse-av-arbeidstakeres-syn-ved-arbeid-ved-dataskjerm">§ 14-4. Undersøkelse av arbeidstakeres syn ved arbeid ved dataskjerm</h4>
 <p>Arbeidstakerne som jevnlig og som en betydelig del av sitt arbeid arbeider ved dataskjerm, skal få tilbud om undersøkelse av øyne og syn foretatt av en person med nødvendige kvalifikasjoner:</p>
 <ul>
@@ -675,7 +948,7 @@ c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
 <li>risiko for å bli utsatt for helseskadelig støy, jf. kapittel 14 .</li>
 </ul>
 <p>Arbeidsgiver skal om nødvendig sørge for hensiktsmessig arbeidstøy før håndtering av farlig last ved havnearbeid.</p>
-<p><em>Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 19 des 2012 nr. 1371 (i kraft 1 jan 2013).</p>
 <h4 id="15-3-krav-til-personlig-verneutstyr">§ 15-3. Krav til personlig verneutstyr <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-15-3.html" title="Endringshistorikk for § 15-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidsgiver skal sørge for at personlig verneutstyr som stilles til rådighet for arbeidstaker, oppfyller kravene gitt i forskrift 22. juni 2018 nr. 1019 om konstruksjon, utforming og produksjon av personlig verneutstyr (PVU) , og dermed er merket med CE-merket. For petroleumsvirksomheten til havs gjelder likevel ikke denne forskrifts § 49 nr. 2, jf. innretningsforskriften § 75 annet ledd.</p>
 <p>Arbeidsgiver skal sørge for at personlig verneutstyr som anvendes på arbeidsplassen til enhver tid gir fullt forsvarlig vern. Arbeidsgiver skal særlig påse at personlig verneutstyr</p>
@@ -686,7 +959,7 @@ c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
 <li>at verneutstyret ikke lett antennes eller smelter der det foreligger slik risiko.</li>
 </ul>
 <p>Hvis arbeidstaker må bruke flere forskjellige typer verneutstyr samtidig, skal utstyret kunne kombineres uten at det enkelte utstyrs verneeffekt nedsettes.</p>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 10 mai 2022 nr. 819 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 10 mai 2022 nr. 819 .</p>
 <h4 id="15-4-krav-til-vedlikehold-og-kontroll-av-personlig-verneutstyr">§ 15-4. Krav til vedlikehold og kontroll av personlig verneutstyr</h4>
 <p>Arbeidsgiver skal sørge for rutiner for oppbevaring, vedlikehold, reparasjon og utskifting av personlig verneutstyr, og at det personlige verneutstyret er i god hygienisk stand. Hvis ett og samme personlig verneutstyr må benyttes av flere personer, skal arbeidsgiver sørge for at slik bruk ikke medfører helsemessige eller hygieniske problemer for arbeidstakerne.</p>
 <h4 id="15-5-krav-til-informasjon-om-personlig-verneutstyr">§ 15-5. Krav til informasjon om personlig verneutstyr</h4>
@@ -696,7 +969,7 @@ c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller vedtak gitt i medhold av denne, eller medvirkning til dette, er straffbart i henhold til arbeidsmiljøloven kapittel 19 .</p>
 <h4 id="16-2-overtredelsesgebyr">§ 16-2. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2011-12-06-1355/para-16-2.html" title="Endringshistorikk for § 16-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom noen som har handlet på vegne av virksomheten har overtrådt bestemmelser i forskriften her eller vedtak gitt i medhold av denne, kan virksomheten ilegges overtredelsesgebyr etter arbeidsmiljøloven § 18-10 .</p>
-<p><em>Tilføyd ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 30 des 2013 nr. 1695 (i kraft 1 jan 2014).</p>
 <h4 id="16-3-ikrafttredelse">§ 16-3. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. januar 2013.</p>
 <p>Fra samme dato oppheves</p>
@@ -750,7 +1023,9 @@ c. rutiner for utarbeidelse av oppfølgingsplaner og tilretteleggingstiltak</p>
 <li>Forskrift 16. november 2010 nr. 1452 om regionale verneombud for visse bransjer.</li>
 <li>Forskrift 2. juni 1977 nr. 3219 om maskiner, redskap og verktøy.</li>
 </ul>
-<p><em>Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014, tidligere § 16-2).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2012 nr. 1371 (i kraft 1 jan 2013), 30 des 2013 nr. 1695 (i kraft 1 jan 2014, tidligere § 16-2).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

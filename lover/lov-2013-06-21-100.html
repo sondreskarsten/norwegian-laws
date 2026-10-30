@@ -19,64 +19,439 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2013-06-21-100.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Jordskiftelova – jskl" href="../feeds/lov-2013-06-21-100.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Jordskiftelova – jskl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2013-06-21-100</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Jordskifte</dd>
-<dt>Ikrafttredelse</dt><dd>2016-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-06-28</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2013-06-21-100" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-verkeomrade-definisjonar-saksinnhald-og-sakstilknyting">Kapittel 1. Formål, verkeområde, definisjonar, saksinnhald og sakstilknyting</a></li>
+<li class="lvl3"><a href="#i-formal-verkeomrade-og-definisjonar">I. Formål, verkeområde og definisjonar</a></li>
+<li class="lvl5"><a href="#1-1-formalet-med-lova">§ 1-1. Formålet med lova</a></li>
+<li class="lvl5"><a href="#1-2-verkeomrade-for-lova-mm">§ 1-2. Verkeområde for lova m.m.</a></li>
+<li class="lvl5"><a href="#1-3-definisjonar">§ 1-3. Definisjonar</a></li>
+<li class="lvl3"><a href="#ii-saksinnhald-og-sakstilknyting">II. Saksinnhald og sakstilknyting</a></li>
+<li class="lvl5"><a href="#1-4-kva-det-kan-reisast-sak-om-for-jordskifteretten">§ 1-4. Kva det kan reisast sak om for jordskifteretten</a></li>
+<li class="lvl5"><a href="#1-5-kven-som-kan-reise-sak">§ 1-5. Kven som kan reise sak</a></li>
+<li class="lvl2"><a href="#kapittel-2-jordskifterettane">Kapittel 2. Jordskifterettane</a></li>
+<li class="lvl3"><a href="#i-organisering-av-jordskifterettane">I. Organisering av jordskifterettane</a></li>
+<li class="lvl5"><a href="#2-1-jordskiftesokn-verneting">§ 2-1. Jordskiftesokn (verneting)</a></li>
+<li class="lvl5"><a href="#2-2-tilhvet-til-domstolloven">§ 2-2. Tilhøvet til domstolloven</a></li>
+<li class="lvl5"><a href="#2-3-bemanning">§ 2-3. Bemanning</a></li>
+<li class="lvl5"><a href="#2-4-utdanningskrav">§ 2-4. Utdanningskrav</a></li>
+<li class="lvl5"><a href="#2-5-utval-av-jordskiftemeddommarar">§ 2-5. Utval av jordskiftemeddommarar</a></li>
+<li class="lvl3"><a href="#ii-samansetjinga-av-jordskifteretten-i-ulike-slags-saker-lovnad-fra-jordskiftemeddommar-med-meir">II. Samansetjinga av jordskifteretten i ulike slags saker. Lovnad frå jordskiftemeddommar med meir</a></li>
+<li class="lvl5"><a href="#2-6-samansetjinga-av-jordskifteretten">§ 2-6. Samansetjinga av jordskifteretten</a></li>
+<li class="lvl5"><a href="#2-7-oppnemning-av-jordskiftemeddommarar">§ 2-7. Oppnemning av jordskiftemeddommarar</a></li>
+<li class="lvl5"><a href="#2-8-innprenting-og-lovnad">§ 2-8. Innprenting og lovnad</a></li>
+<li class="lvl2"><a href="#kapittel-3-jordskifte">Kapittel 3. Jordskifte</a></li>
+<li class="lvl3"><a href="#i-utenlege-eigedomstilhve-og-bruk-av-verkemiddel-i-jordskifte">I. Utenlege eigedomstilhøve og bruk av verkemiddel i jordskifte</a></li>
+<li class="lvl5"><a href="#3-1-verkemiddel-for-a-bte-pa-utenlege-eigedomstilhve">§ 3-1. Verkemiddel for å bøte på utenlege eigedomstilhøve</a></li>
+<li class="lvl5"><a href="#3-2-utenlege-eigedomstilhve">§ 3-2. Utenlege eigedomstilhøve</a></li>
+<li class="lvl5"><a href="#3-3-meir-tenlege-eigedomstilhve-i-jordskifteomradet">§ 3-3. Meir tenlege eigedomstilhøve i jordskifteområdet</a></li>
+<li class="lvl3"><a href="#ii-verkemiddel">II. Verkemiddel</a></li>
+<li class="lvl5"><a href="#3-4-ny-utforming-av-eigedom-og-alltidvarande-bruksrett">§ 3-4. Ny utforming av eigedom og alltidvarande bruksrett</a></li>
+<li class="lvl5"><a href="#3-5-skiping-av-sameige">§ 3-5. Skiping av sameige</a></li>
+<li class="lvl5"><a href="#3-6-opplysing-av-sameige-og-sambruk-mellom-eigedommar">§ 3-6. Oppløysing av sameige og sambruk mellom eigedommar</a></li>
+<li class="lvl5"><a href="#3-7-deling-av-eigedom">§ 3-7. Deling av eigedom</a></li>
+<li class="lvl5"><a href="#3-8-reglar-om-sambruk-bruksordning">§ 3-8. Reglar om sambruk (bruksordning)</a></li>
+<li class="lvl5"><a href="#3-9-palegg-om-felles-tiltak-og-palegg-om-felles-investeringar">§ 3-9. Pålegg om felles tiltak og pålegg om felles investeringar</a></li>
+<li class="lvl5"><a href="#3-10-skiping-av-lag-og-fastsetjing-av-vedtekter-driftsselskap">§ 3-10. Skiping av lag og fastsetjing av vedtekter. Driftsselskap</a></li>
+<li class="lvl5"><a href="#3-11-omskiping-og-avlysing-av-tidsavgrensa-bruksrett-og-alltidvarande-bruksrett-som-ikkje-ligg-til-fast-eigedom">§ 3-11. Omskiping og avløysing av tidsavgrensa bruksrett og alltidvarande bruksrett som ikkje ligg til fast eigedom</a></li>
+<li class="lvl5"><a href="#3-12-avlysing-av-alltidvarande-bruksrett-som-ligg-til-fast-eigedom-og-negativ-servitutt">§ 3-12. Avløysing av alltidvarande bruksrett som ligg til fast eigedom, og negativ servitutt</a></li>
+<li class="lvl3"><a href="#iii-grunnlaget-for-jordskiftelysinga">III. Grunnlaget for jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-13-eigedoms-og-bruksrettstilhva">§ 3-13. Eigedoms- og bruksrettstilhøva</a></li>
+<li class="lvl5"><a href="#3-14-kva-jordskifteretten-skal-verdsetje">§ 3-14. Kva jordskifteretten skal verdsetje</a></li>
+<li class="lvl5"><a href="#3-15-korleis-jordskifteretten-skal-verdsetje">§ 3-15. Korleis jordskifteretten skal verdsetje</a></li>
+<li class="lvl3"><a href="#iv-jordskiftelysinga">IV. Jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-16-avgrensing-av-jordskiftelysinga">§ 3-16. Avgrensing av jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-17-fresegner-og-lyve">§ 3-17. Føresegner og løyve</a></li>
+<li class="lvl5"><a href="#3-18-vern-mot-tap">§ 3-18. Vern mot tap</a></li>
+<li class="lvl5"><a href="#3-19-korleis-jordskifteretten-legg-ut-grunn-og-bruksrett">§ 3-19. Korleis jordskifteretten legg ut grunn og bruksrett</a></li>
+<li class="lvl5"><a href="#3-20-utlegging-av-grunn-og-bruksrett">§ 3-20. Utlegging av grunn og bruksrett</a></li>
+<li class="lvl5"><a href="#3-21-vederlag-ved-overfring-av-anlegg-til-vassforsyning-kraftoverfring-og-liknande">§ 3-21. Vederlag ved overføring av anlegg til vassforsyning, kraftoverføring og liknande</a></li>
+<li class="lvl5"><a href="#3-22-utlegging-av-grunn-til-srskilde-formal">§ 3-22. Utlegging av grunn til særskilde formål</a></li>
+<li class="lvl5"><a href="#3-23-utlegging-av-grunn-og-bruksrett-som-kan-endre-verdi">§ 3-23. Utlegging av grunn og bruksrett som kan endre verdi</a></li>
+<li class="lvl5"><a href="#3-24-leigeareal">§ 3-24. Leigeareal</a></li>
+<li class="lvl5"><a href="#3-25-utjamning-ved-overfring-av-standskog">§ 3-25. Utjamning ved overføring av standskog</a></li>
+<li class="lvl5"><a href="#3-26-vederlag-ved-avlysing-av-rettar">§ 3-26. Vederlag ved avløysing av rettar</a></li>
+<li class="lvl5"><a href="#3-27-omsyn-ved-palegg-om-felles-investeringar-etter-3-9">§ 3-27. Omsyn ved pålegg om felles investeringar etter§ 3-9</a></li>
+<li class="lvl5"><a href="#3-28-fordeling-av-kostnader">§ 3-28. Fordeling av kostnader</a></li>
+<li class="lvl5"><a href="#3-29-ansvar-for-gjeld">§ 3-29. Ansvar for gjeld</a></li>
+<li class="lvl3"><a href="#v-fordeling-av-planskapt-netto-verdiauke">V. Fordeling av planskapt netto verdiauke</a></li>
+<li class="lvl5"><a href="#3-30-kompetansen-jordskifteretten-har">§ 3-30. Kompetansen jordskifteretten har</a></li>
+<li class="lvl5"><a href="#3-31-korleis-jordskifteretten-skal-verdsetje">§ 3-31. Korleis jordskifteretten skal verdsetje</a></li>
+<li class="lvl5"><a href="#3-32-korleis-jordskifteretten-skal-fordele-planskapt-netto-verdiauke">§ 3-32. Korleis jordskifteretten skal fordele planskapt netto verdiauke</a></li>
+<li class="lvl3"><a href="#vi-fare-for-naturskade">VI. Fare for naturskade</a></li>
+<li class="lvl5"><a href="#3-33-fare-for-elvebrot-skred-sandfok-og-liknande">§ 3-33. Fare for elvebrot, skred, sandfok og liknande</a></li>
+<li class="lvl3"><a href="#vii-andre-reglar-om-jordskifte">VII. Andre reglar om jordskifte</a></li>
+<li class="lvl5"><a href="#3-34-reglar-for-bruken-av-jordskifteomradet">§ 3-34. Reglar for bruken av jordskifteområdet</a></li>
+<li class="lvl5"><a href="#3-35-skiping-og-oppmaling-av-nye-matrikkeleiningar">§ 3-35. Skiping og oppmåling av nye matrikkeleiningar</a></li>
+<li class="lvl5"><a href="#3-36-frist-for-iverksetjing-av-avgjerd">§ 3-36. Frist for iverksetjing av avgjerd</a></li>
+<li class="lvl5"><a href="#3-37-sperretid-for-nytt-jordskifte">§ 3-37. Sperretid for nytt jordskifte</a></li>
+<li class="lvl2"><a href="#kapittel-4-rettsutgreiing-og-grensefastsetjing-og-anna">Kapittel 4. Rettsutgreiing og grensefastsetjing og anna</a></li>
+<li class="lvl4"><a href="#4-1-rettsutgreiing">§ 4-1. Rettsutgreiing</a></li>
+<li class="lvl4"><a href="#4-2-grensefastsetjing">§ 4-2. Grensefastsetjing</a></li>
+<li class="lvl4"><a href="#4-3-andre-reglar-om-grensefastsetjing">§ 4-3. Andre reglar om grensefastsetjing</a></li>
+<li class="lvl4"><a href="#4-4-tvist-om-underliggjande-rettshve">§ 4-4. Tvist om underliggjande rettshøve</a></li>
+<li class="lvl2"><a href="#kapittel-5-skjnn-og-andre-avgjerder-etter-andre-lover">Kapittel 5. Skjønn og andre avgjerder etter andre lover</a></li>
+<li class="lvl4"><a href="#5-1-skjnn-i-samband-med-tiltaksjordskifte-og-vernejordskifte">§ 5-1. Skjønn i samband med tiltaksjordskifte og vernejordskifte</a></li>
+<li class="lvl4"><a href="#5-2-skjnn-i-samband-med-jordskifte-som-flgje-av-tiltak-fastsett-av-jordskifteretten-i-vassdrag">§ 5-2. Skjønn i samband med jordskifte som følgje av tiltak fastsett av jordskifteretten i vassdrag</a></li>
+<li class="lvl4"><a href="#5-3-skjnn-og-andre-avgjerder-etter-andre-lover-i-samband-med-sak-for-jordskifteretten">§ 5-3. Skjønn og andre avgjerder etter andre lover i samband med sak for jordskifteretten</a></li>
+<li class="lvl4"><a href="#5-4-skjnn-og-andre-avgjerder-etter-andre-lover-som-eiga-sak">§ 5-4. Skjønn og andre avgjerder etter andre lover som eiga sak</a></li>
+<li class="lvl4"><a href="#5-5-avtaleskjnn-som-eiga-sak">§ 5-5. Avtaleskjønn som eiga sak</a></li>
+<li class="lvl4"><a href="#5-6-skjnn-og-andre-avgjerder-i-samband-med-sak-for-jordskifteretten-skilt-ut-som-eiga-sak">§ 5-6. Skjønn og andre avgjerder i samband med sak for jordskifteretten skilt ut som eiga sak</a></li>
+<li class="lvl4"><a href="#5-7-behandlinga-av-saker-etterkapittel-5">§ 5-7. Behandlinga av saker etterkapittel 5</a></li>
+<li class="lvl4"><a href="#5-8-tvist">§ 5-8. Tvist</a></li>
+<li class="lvl2"><a href="#kapittel-6-reglar-om-saksbehandling">Kapittel 6. Reglar om saksbehandling</a></li>
+<li class="lvl3"><a href="#i-tilhvet-til-tvisteloven-og-lov-om-skjnn-og-ekspropriasjonssaker">I. Tilhøvet til tvisteloven og lov om skjønn og ekspropriasjonssaker</a></li>
+<li class="lvl5"><a href="#6-1-saksbehandlinga-og-tilhvet-til-tvisteloven-og-lov-om-skjnn-og-ekspropriasjonssaker">§ 6-1. Saksbehandlinga og tilhøvet til tvisteloven og lov om skjønn og ekspropriasjonssaker</a></li>
+<li class="lvl3"><a href="#ii-frebuing-av-saka">II. Førebuing av saka</a></li>
+<li class="lvl5"><a href="#6-2-krav-om-sak">§ 6-2. Krav om sak</a></li>
+<li class="lvl5"><a href="#6-3-kvar-krav-om-sak-skal-setjast-fram-verneting">§ 6-3. Kvar krav om sak skal setjast fram (verneting)</a></li>
+<li class="lvl5"><a href="#6-4-avgjerd-om-vilkara-for-a-reise-sak-er-til-stades">§ 6-4. Avgjerd om vilkåra for å reise sak er til stades</a></li>
+<li class="lvl5"><a href="#6-5-merknader-til-kravet">§ 6-5. Merknader til kravet</a></li>
+<li class="lvl5"><a href="#6-6-aktiv-saksstyring-og-planlegging">§ 6-6. Aktiv saksstyring og planlegging</a></li>
+<li class="lvl5"><a href="#6-7-saksfrebuande-rettsmte">§ 6-7. Saksførebuande rettsmøte</a></li>
+<li class="lvl5"><a href="#6-8-merknader-til-avgjerder-om-saksbehandlinga">§ 6-8. Merknader til avgjerder om saksbehandlinga</a></li>
+<li class="lvl5"><a href="#6-9-sakleg-og-geografisk-avgrensing-av-saka">§ 6-9. Sakleg og geografisk avgrensing av saka</a></li>
+<li class="lvl3"><a href="#iii-rettsmte">III. Rettsmøte</a></li>
+<li class="lvl5"><a href="#6-10-innkalling-til-rettsmte">§ 6-10. Innkalling til rettsmøte</a></li>
+<li class="lvl5"><a href="#6-11-mte-og-forklaringsplikt">§ 6-11. Møte- og forklaringsplikt</a></li>
+<li class="lvl5"><a href="#6-12-saksbehandlinga-i-rettsmte">§ 6-12. Saksbehandlinga i rettsmøte</a></li>
+<li class="lvl5"><a href="#6-13-rettsbok">§ 6-13. Rettsbok</a></li>
+<li class="lvl3"><a href="#iv-generelle-reglar">IV. Generelle reglar</a></li>
+<li class="lvl5"><a href="#6-14-grunnlaget-for-avgjerdene">§ 6-14. Grunnlaget for avgjerdene</a></li>
+<li class="lvl5"><a href="#6-15-bevis">§ 6-15. Bevis</a></li>
+<li class="lvl5"><a href="#6-16-rettleiing-og-retting">§ 6-16. Rettleiing og retting</a></li>
+<li class="lvl5"><a href="#6-17-minneleg-lysing-av-saker-for-jordskifteretten">§ 6-17. Minneleg løysing av saker for jordskifteretten</a></li>
+<li class="lvl5"><a href="#6-18-rettsmekling">§ 6-18. Rettsmekling</a></li>
+<li class="lvl5"><a href="#6-19-trekking-av-krav">§ 6-19. Trekking av krav</a></li>
+<li class="lvl5"><a href="#6-20-delvis-avslutting-av-sakene">§ 6-20. Delvis avslutting av sakene</a></li>
+<li class="lvl3"><a href="#v-forslag-til-jordskifteavgjerd-og-fastsetjing-av-grenser-rettar-og-anna">V. Forslag til jordskifteavgjerd og fastsetjing av grenser, rettar og anna</a></li>
+<li class="lvl5"><a href="#6-21-forslag-til-jordskifteavgjerd">§ 6-21. Forslag til jordskifteavgjerd</a></li>
+<li class="lvl5"><a href="#6-22-forslag-til-fastsetjing-av-grenser-rettar-og-anna">§ 6-22. Forslag til fastsetjing av grenser, rettar og anna</a></li>
+<li class="lvl3"><a href="#vi-rettslege-avgjerder-og-rettsforlik">VI. Rettslege avgjerder og rettsforlik</a></li>
+<li class="lvl5"><a href="#6-23-avgjerdsformer">§ 6-23. Avgjerdsformer</a></li>
+<li class="lvl5"><a href="#6-24-innhaldet-i-avgjerdene">§ 6-24. Innhaldet i avgjerdene</a></li>
+<li class="lvl5"><a href="#6-25-avseiing-av-avgjerd-melding-om-avgjerd">§ 6-25. Avseiing av avgjerd. Melding om avgjerd</a></li>
+<li class="lvl5"><a href="#6-26-rettsforlik">§ 6-26. Rettsforlik</a></li>
+<li class="lvl5"><a href="#6-27-frist-for-iverksetjing-av-endeleg-jordskiftelysing">§ 6-27. Frist for iverksetjing av endeleg jordskifteløysing</a></li>
+<li class="lvl5"><a href="#6-28-tvangskraft-og-rettskraft">§ 6-28. Tvangskraft og rettskraft</a></li>
+<li class="lvl5"><a href="#6-29-merking-og-koordinatfesting-av-grenser">§ 6-29. Merking og koordinatfesting av grenser</a></li>
+<li class="lvl3"><a href="#vii-rapportering-og-tinglysing">VII. Rapportering og tinglysing</a></li>
+<li class="lvl5"><a href="#6-30-rapportering-til-matrikkelmyndigheita">§ 6-30. Rapportering til matrikkelmyndigheita</a></li>
+<li class="lvl5"><a href="#6-31-tinglysing">§ 6-31. Tinglysing</a></li>
+<li class="lvl2"><a href="#kapittel-7-sakskostnader-og-gebyr">Kapittel 7. Sakskostnader og gebyr</a></li>
+<li class="lvl3"><a href="#i-sakskostnader">I. Sakskostnader</a></li>
+<li class="lvl5"><a href="#7-1-sakskostnader">§ 7-1. Sakskostnader</a></li>
+<li class="lvl3"><a href="#ii-gebyr">II. Gebyr</a></li>
+<li class="lvl5"><a href="#7-2-inngangsgebyr">§ 7-2. Inngangsgebyr</a></li>
+<li class="lvl5"><a href="#7-3-grenselengdegebyr">§ 7-3. Grenselengdegebyr</a></li>
+<li class="lvl5"><a href="#7-4-partsgebyr">§ 7-4. Partsgebyr</a></li>
+<li class="lvl5"><a href="#7-5-samla-gebyr-og-arbeidstid">§ 7-5. Samla gebyr og arbeidstid</a></li>
+<li class="lvl3"><a href="#iii-fordeling-av-sakskostnader">III. Fordeling av sakskostnader</a></li>
+<li class="lvl5"><a href="#7-6-fordeling-av-sakskostnader">§ 7-6. Fordeling av sakskostnader</a></li>
+<li class="lvl5"><a href="#7-7-sakskostnader-som-flgje-av-trekking-av-sak-avvising-med-vidare">§ 7-7. Sakskostnader som følgje av trekking av sak, avvising med vidare</a></li>
+<li class="lvl3"><a href="#iv-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">IV. Kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl5"><a href="#7-8-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">§ 7-8. Kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl5"><a href="#7-9-erstatning-for-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">§ 7-9. Erstatning for kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl3"><a href="#v-kostnader-knytte-til-skjnn-og-andre-avgjerder-i-samband-med-jordskifte-anke-med-meir">V. Kostnader knytte til skjønn og andre avgjerder i samband med jordskifte, anke med meir</a></li>
+<li class="lvl5"><a href="#7-10-kostnader-med-skjnn-og-andre-avgjerder-etter-5-2og-5-3">§ 7-10. Kostnader med skjønn og andre avgjerder etter§§ 5-2og 5-3</a></li>
+<li class="lvl5"><a href="#7-11-kostnader-med-anke-over-jordskifteavgjerd">§ 7-11. Kostnader med anke over jordskifteavgjerd</a></li>
+<li class="lvl5"><a href="#7-12-kostnader-ved-gjenopning">§ 7-12. Kostnader ved gjenopning</a></li>
+<li class="lvl3"><a href="#vi-andre-reglar">VI. Andre reglar</a></li>
+<li class="lvl5"><a href="#7-13-forskott">§ 7-13. Forskott</a></li>
+<li class="lvl5"><a href="#7-14-betalingsfrist">§ 7-14. Betalingsfrist</a></li>
+<li class="lvl5"><a href="#7-15-statens-erstatningsansvar">§ 7-15. Statens erstatningsansvar</a></li>
+<li class="lvl5"><a href="#7-16-panterett-for-palagd-kostnad-eller-yting">§ 7-16. Panterett for pålagd kostnad eller yting</a></li>
+<li class="lvl2"><a href="#kapittel-8-rettsmiddel-med-vidare">Kapittel 8. Rettsmiddel med vidare</a></li>
+<li class="lvl4"><a href="#8-1-rettsmiddel-og-kva-for-prosessreglar-som-gjeld-ved-bruk-av-rettsmiddel">§ 8-1. Rettsmiddel og kva for prosessreglar som gjeld ved bruk av rettsmiddel</a></li>
+<li class="lvl4"><a href="#8-2-nar-avgjerd-kan-ankast-og-utsett-iverksetjing-av-jordskiftet">§ 8-2. Når avgjerd kan ankast, og utsett iverksetjing av jordskiftet</a></li>
+<li class="lvl4"><a href="#8-3-frist-for-anke">§ 8-3. Frist for anke</a></li>
+<li class="lvl4"><a href="#8-4-avkall-pa-rett-til-a-anke">§ 8-4. Avkall på rett til å anke</a></li>
+<li class="lvl4"><a href="#8-5-ankefrasegna">§ 8-5. Ankefråsegna</a></li>
+<li class="lvl4"><a href="#8-6-saksfrebuing-i-jordskifteretten">§ 8-6. Saksførebuing i jordskifteretten</a></li>
+<li class="lvl4"><a href="#8-7-samansetjinga-av-lagmannsretten">§ 8-7. Samansetjinga av lagmannsretten</a></li>
+<li class="lvl4"><a href="#8-8-nekting-eller-avvising-av-anken">§ 8-8. Nekting eller avvising av anken</a></li>
+<li class="lvl4"><a href="#8-9-tilbakekalling-av-anke-nye-fristar">§ 8-9. Tilbakekalling av anke, nye fristar</a></li>
+<li class="lvl4"><a href="#8-10-prving-av-jordskifteavgjerd">§ 8-10. Prøving av jordskifteavgjerd</a></li>
+<li class="lvl4"><a href="#8-11-hjelp-til-teknisk-arbeid">§ 8-11. Hjelp til teknisk arbeid</a></li>
+<li class="lvl4"><a href="#8-12-frist-for-a-setje-i-verk-jordskiftet">§ 8-12. Frist for å setje i verk jordskiftet</a></li>
+<li class="lvl4"><a href="#8-13-anke-til-hgsterett">§ 8-13. Anke til Høgsterett</a></li>
+<li class="lvl4"><a href="#8-14-gjenopning">§ 8-14. Gjenopning</a></li>
+<li class="lvl4"><a href="#8-15-srlege-vilkar-ved-gjenopning-av-jordskifteavgjerd">§ 8-15. Særlege vilkår ved gjenopning av jordskifteavgjerd</a></li>
+<li class="lvl4"><a href="#8-16-nrare-om-behandlinga-av-sak-om-gjenopning">§ 8-16. Nærare om behandlinga av sak om gjenopning</a></li>
+<li class="lvl2"><a href="#kapittel-9-ymse-reglar">Kapittel 9. Ymse reglar</a></li>
+<li class="lvl4"><a href="#9-1-utbetaling-av-pengevederlag">§ 9-1. Utbetaling av pengevederlag</a></li>
+<li class="lvl4"><a href="#9-2-skyldnader-knytte-til-eigedom-som-er-med-i-jordskifte">§ 9-2. Skyldnader knytte til eigedom som er med i jordskifte</a></li>
+<li class="lvl4"><a href="#9-3-meldeplikt-etter-kulturminnelova">§ 9-3. Meldeplikt etter kulturminnelova</a></li>
+<li class="lvl4"><a href="#9-4-fordeling-av-skogfond">§ 9-4. Fordeling av skogfond</a></li>
+<li class="lvl4"><a href="#9-5-iverksetjing">§ 9-5. Iverksetjing</a></li>
+<li class="lvl4"><a href="#9-6-overgangsreglar">§ 9-6. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#9-7-endringar-i-andre-lover">§ 9-7. Endringar i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-06-28.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-100.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. (jordskiftelova)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-06-21-100.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2013-06-21-100 <code>lov/2013-06-21-100</code></td></tr>
+<tr><th>Korttittel</th><td>Jordskiftelova – jskl</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Jordskifte</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2016</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-06-28 <code>lov/2025-06-06-28</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2013-06-21-100" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-verkeomrade-definisjonar-saksinnhald-og-sakstilknyting">Kapittel 1. Formål, verkeområde, definisjonar, saksinnhald og sakstilknyting</a></li>
+<li class="lvl3"><a href="#i-formal-verkeomrade-og-definisjonar">I. Formål, verkeområde og definisjonar</a></li>
+<li class="lvl5"><a href="#1-1-formalet-med-lova">§ 1-1. Formålet med lova</a></li>
+<li class="lvl5"><a href="#1-2-verkeomrade-for-lova-mm">§ 1-2. Verkeområde for lova m.m.</a></li>
+<li class="lvl5"><a href="#1-3-definisjonar">§ 1-3. Definisjonar</a></li>
+<li class="lvl3"><a href="#ii-saksinnhald-og-sakstilknyting">II. Saksinnhald og sakstilknyting</a></li>
+<li class="lvl5"><a href="#1-4-kva-det-kan-reisast-sak-om-for-jordskifteretten">§ 1-4. Kva det kan reisast sak om for jordskifteretten</a></li>
+<li class="lvl5"><a href="#1-5-kven-som-kan-reise-sak">§ 1-5. Kven som kan reise sak</a></li>
+<li class="lvl2"><a href="#kapittel-2-jordskifterettane">Kapittel 2. Jordskifterettane</a></li>
+<li class="lvl3"><a href="#i-organisering-av-jordskifterettane">I. Organisering av jordskifterettane</a></li>
+<li class="lvl5"><a href="#2-1-jordskiftesokn-verneting">§ 2-1. Jordskiftesokn (verneting)</a></li>
+<li class="lvl5"><a href="#2-2-tilhvet-til-domstolloven">§ 2-2. Tilhøvet til domstolloven</a></li>
+<li class="lvl5"><a href="#2-3-bemanning">§ 2-3. Bemanning</a></li>
+<li class="lvl5"><a href="#2-4-utdanningskrav">§ 2-4. Utdanningskrav</a></li>
+<li class="lvl5"><a href="#2-5-utval-av-jordskiftemeddommarar">§ 2-5. Utval av jordskiftemeddommarar</a></li>
+<li class="lvl3"><a href="#ii-samansetjinga-av-jordskifteretten-i-ulike-slags-saker-lovnad-fra-jordskiftemeddommar-med-meir">II. Samansetjinga av jordskifteretten i ulike slags saker. Lovnad frå jordskiftemeddommar med meir</a></li>
+<li class="lvl5"><a href="#2-6-samansetjinga-av-jordskifteretten">§ 2-6. Samansetjinga av jordskifteretten</a></li>
+<li class="lvl5"><a href="#2-7-oppnemning-av-jordskiftemeddommarar">§ 2-7. Oppnemning av jordskiftemeddommarar</a></li>
+<li class="lvl5"><a href="#2-8-innprenting-og-lovnad">§ 2-8. Innprenting og lovnad</a></li>
+<li class="lvl2"><a href="#kapittel-3-jordskifte">Kapittel 3. Jordskifte</a></li>
+<li class="lvl3"><a href="#i-utenlege-eigedomstilhve-og-bruk-av-verkemiddel-i-jordskifte">I. Utenlege eigedomstilhøve og bruk av verkemiddel i jordskifte</a></li>
+<li class="lvl5"><a href="#3-1-verkemiddel-for-a-bte-pa-utenlege-eigedomstilhve">§ 3-1. Verkemiddel for å bøte på utenlege eigedomstilhøve</a></li>
+<li class="lvl5"><a href="#3-2-utenlege-eigedomstilhve">§ 3-2. Utenlege eigedomstilhøve</a></li>
+<li class="lvl5"><a href="#3-3-meir-tenlege-eigedomstilhve-i-jordskifteomradet">§ 3-3. Meir tenlege eigedomstilhøve i jordskifteområdet</a></li>
+<li class="lvl3"><a href="#ii-verkemiddel">II. Verkemiddel</a></li>
+<li class="lvl5"><a href="#3-4-ny-utforming-av-eigedom-og-alltidvarande-bruksrett">§ 3-4. Ny utforming av eigedom og alltidvarande bruksrett</a></li>
+<li class="lvl5"><a href="#3-5-skiping-av-sameige">§ 3-5. Skiping av sameige</a></li>
+<li class="lvl5"><a href="#3-6-opplysing-av-sameige-og-sambruk-mellom-eigedommar">§ 3-6. Oppløysing av sameige og sambruk mellom eigedommar</a></li>
+<li class="lvl5"><a href="#3-7-deling-av-eigedom">§ 3-7. Deling av eigedom</a></li>
+<li class="lvl5"><a href="#3-8-reglar-om-sambruk-bruksordning">§ 3-8. Reglar om sambruk (bruksordning)</a></li>
+<li class="lvl5"><a href="#3-9-palegg-om-felles-tiltak-og-palegg-om-felles-investeringar">§ 3-9. Pålegg om felles tiltak og pålegg om felles investeringar</a></li>
+<li class="lvl5"><a href="#3-10-skiping-av-lag-og-fastsetjing-av-vedtekter-driftsselskap">§ 3-10. Skiping av lag og fastsetjing av vedtekter. Driftsselskap</a></li>
+<li class="lvl5"><a href="#3-11-omskiping-og-avlysing-av-tidsavgrensa-bruksrett-og-alltidvarande-bruksrett-som-ikkje-ligg-til-fast-eigedom">§ 3-11. Omskiping og avløysing av tidsavgrensa bruksrett og alltidvarande bruksrett som ikkje ligg til fast eigedom</a></li>
+<li class="lvl5"><a href="#3-12-avlysing-av-alltidvarande-bruksrett-som-ligg-til-fast-eigedom-og-negativ-servitutt">§ 3-12. Avløysing av alltidvarande bruksrett som ligg til fast eigedom, og negativ servitutt</a></li>
+<li class="lvl3"><a href="#iii-grunnlaget-for-jordskiftelysinga">III. Grunnlaget for jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-13-eigedoms-og-bruksrettstilhva">§ 3-13. Eigedoms- og bruksrettstilhøva</a></li>
+<li class="lvl5"><a href="#3-14-kva-jordskifteretten-skal-verdsetje">§ 3-14. Kva jordskifteretten skal verdsetje</a></li>
+<li class="lvl5"><a href="#3-15-korleis-jordskifteretten-skal-verdsetje">§ 3-15. Korleis jordskifteretten skal verdsetje</a></li>
+<li class="lvl3"><a href="#iv-jordskiftelysinga">IV. Jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-16-avgrensing-av-jordskiftelysinga">§ 3-16. Avgrensing av jordskifteløysinga</a></li>
+<li class="lvl5"><a href="#3-17-fresegner-og-lyve">§ 3-17. Føresegner og løyve</a></li>
+<li class="lvl5"><a href="#3-18-vern-mot-tap">§ 3-18. Vern mot tap</a></li>
+<li class="lvl5"><a href="#3-19-korleis-jordskifteretten-legg-ut-grunn-og-bruksrett">§ 3-19. Korleis jordskifteretten legg ut grunn og bruksrett</a></li>
+<li class="lvl5"><a href="#3-20-utlegging-av-grunn-og-bruksrett">§ 3-20. Utlegging av grunn og bruksrett</a></li>
+<li class="lvl5"><a href="#3-21-vederlag-ved-overfring-av-anlegg-til-vassforsyning-kraftoverfring-og-liknande">§ 3-21. Vederlag ved overføring av anlegg til vassforsyning, kraftoverføring og liknande</a></li>
+<li class="lvl5"><a href="#3-22-utlegging-av-grunn-til-srskilde-formal">§ 3-22. Utlegging av grunn til særskilde formål</a></li>
+<li class="lvl5"><a href="#3-23-utlegging-av-grunn-og-bruksrett-som-kan-endre-verdi">§ 3-23. Utlegging av grunn og bruksrett som kan endre verdi</a></li>
+<li class="lvl5"><a href="#3-24-leigeareal">§ 3-24. Leigeareal</a></li>
+<li class="lvl5"><a href="#3-25-utjamning-ved-overfring-av-standskog">§ 3-25. Utjamning ved overføring av standskog</a></li>
+<li class="lvl5"><a href="#3-26-vederlag-ved-avlysing-av-rettar">§ 3-26. Vederlag ved avløysing av rettar</a></li>
+<li class="lvl5"><a href="#3-27-omsyn-ved-palegg-om-felles-investeringar-etter-3-9">§ 3-27. Omsyn ved pålegg om felles investeringar etter§ 3-9</a></li>
+<li class="lvl5"><a href="#3-28-fordeling-av-kostnader">§ 3-28. Fordeling av kostnader</a></li>
+<li class="lvl5"><a href="#3-29-ansvar-for-gjeld">§ 3-29. Ansvar for gjeld</a></li>
+<li class="lvl3"><a href="#v-fordeling-av-planskapt-netto-verdiauke">V. Fordeling av planskapt netto verdiauke</a></li>
+<li class="lvl5"><a href="#3-30-kompetansen-jordskifteretten-har">§ 3-30. Kompetansen jordskifteretten har</a></li>
+<li class="lvl5"><a href="#3-31-korleis-jordskifteretten-skal-verdsetje">§ 3-31. Korleis jordskifteretten skal verdsetje</a></li>
+<li class="lvl5"><a href="#3-32-korleis-jordskifteretten-skal-fordele-planskapt-netto-verdiauke">§ 3-32. Korleis jordskifteretten skal fordele planskapt netto verdiauke</a></li>
+<li class="lvl3"><a href="#vi-fare-for-naturskade">VI. Fare for naturskade</a></li>
+<li class="lvl5"><a href="#3-33-fare-for-elvebrot-skred-sandfok-og-liknande">§ 3-33. Fare for elvebrot, skred, sandfok og liknande</a></li>
+<li class="lvl3"><a href="#vii-andre-reglar-om-jordskifte">VII. Andre reglar om jordskifte</a></li>
+<li class="lvl5"><a href="#3-34-reglar-for-bruken-av-jordskifteomradet">§ 3-34. Reglar for bruken av jordskifteområdet</a></li>
+<li class="lvl5"><a href="#3-35-skiping-og-oppmaling-av-nye-matrikkeleiningar">§ 3-35. Skiping og oppmåling av nye matrikkeleiningar</a></li>
+<li class="lvl5"><a href="#3-36-frist-for-iverksetjing-av-avgjerd">§ 3-36. Frist for iverksetjing av avgjerd</a></li>
+<li class="lvl5"><a href="#3-37-sperretid-for-nytt-jordskifte">§ 3-37. Sperretid for nytt jordskifte</a></li>
+<li class="lvl2"><a href="#kapittel-4-rettsutgreiing-og-grensefastsetjing-og-anna">Kapittel 4. Rettsutgreiing og grensefastsetjing og anna</a></li>
+<li class="lvl4"><a href="#4-1-rettsutgreiing">§ 4-1. Rettsutgreiing</a></li>
+<li class="lvl4"><a href="#4-2-grensefastsetjing">§ 4-2. Grensefastsetjing</a></li>
+<li class="lvl4"><a href="#4-3-andre-reglar-om-grensefastsetjing">§ 4-3. Andre reglar om grensefastsetjing</a></li>
+<li class="lvl4"><a href="#4-4-tvist-om-underliggjande-rettshve">§ 4-4. Tvist om underliggjande rettshøve</a></li>
+<li class="lvl2"><a href="#kapittel-5-skjnn-og-andre-avgjerder-etter-andre-lover">Kapittel 5. Skjønn og andre avgjerder etter andre lover</a></li>
+<li class="lvl4"><a href="#5-1-skjnn-i-samband-med-tiltaksjordskifte-og-vernejordskifte">§ 5-1. Skjønn i samband med tiltaksjordskifte og vernejordskifte</a></li>
+<li class="lvl4"><a href="#5-2-skjnn-i-samband-med-jordskifte-som-flgje-av-tiltak-fastsett-av-jordskifteretten-i-vassdrag">§ 5-2. Skjønn i samband med jordskifte som følgje av tiltak fastsett av jordskifteretten i vassdrag</a></li>
+<li class="lvl4"><a href="#5-3-skjnn-og-andre-avgjerder-etter-andre-lover-i-samband-med-sak-for-jordskifteretten">§ 5-3. Skjønn og andre avgjerder etter andre lover i samband med sak for jordskifteretten</a></li>
+<li class="lvl4"><a href="#5-4-skjnn-og-andre-avgjerder-etter-andre-lover-som-eiga-sak">§ 5-4. Skjønn og andre avgjerder etter andre lover som eiga sak</a></li>
+<li class="lvl4"><a href="#5-5-avtaleskjnn-som-eiga-sak">§ 5-5. Avtaleskjønn som eiga sak</a></li>
+<li class="lvl4"><a href="#5-6-skjnn-og-andre-avgjerder-i-samband-med-sak-for-jordskifteretten-skilt-ut-som-eiga-sak">§ 5-6. Skjønn og andre avgjerder i samband med sak for jordskifteretten skilt ut som eiga sak</a></li>
+<li class="lvl4"><a href="#5-7-behandlinga-av-saker-etterkapittel-5">§ 5-7. Behandlinga av saker etterkapittel 5</a></li>
+<li class="lvl4"><a href="#5-8-tvist">§ 5-8. Tvist</a></li>
+<li class="lvl2"><a href="#kapittel-6-reglar-om-saksbehandling">Kapittel 6. Reglar om saksbehandling</a></li>
+<li class="lvl3"><a href="#i-tilhvet-til-tvisteloven-og-lov-om-skjnn-og-ekspropriasjonssaker">I. Tilhøvet til tvisteloven og lov om skjønn og ekspropriasjonssaker</a></li>
+<li class="lvl5"><a href="#6-1-saksbehandlinga-og-tilhvet-til-tvisteloven-og-lov-om-skjnn-og-ekspropriasjonssaker">§ 6-1. Saksbehandlinga og tilhøvet til tvisteloven og lov om skjønn og ekspropriasjonssaker</a></li>
+<li class="lvl3"><a href="#ii-frebuing-av-saka">II. Førebuing av saka</a></li>
+<li class="lvl5"><a href="#6-2-krav-om-sak">§ 6-2. Krav om sak</a></li>
+<li class="lvl5"><a href="#6-3-kvar-krav-om-sak-skal-setjast-fram-verneting">§ 6-3. Kvar krav om sak skal setjast fram (verneting)</a></li>
+<li class="lvl5"><a href="#6-4-avgjerd-om-vilkara-for-a-reise-sak-er-til-stades">§ 6-4. Avgjerd om vilkåra for å reise sak er til stades</a></li>
+<li class="lvl5"><a href="#6-5-merknader-til-kravet">§ 6-5. Merknader til kravet</a></li>
+<li class="lvl5"><a href="#6-6-aktiv-saksstyring-og-planlegging">§ 6-6. Aktiv saksstyring og planlegging</a></li>
+<li class="lvl5"><a href="#6-7-saksfrebuande-rettsmte">§ 6-7. Saksførebuande rettsmøte</a></li>
+<li class="lvl5"><a href="#6-8-merknader-til-avgjerder-om-saksbehandlinga">§ 6-8. Merknader til avgjerder om saksbehandlinga</a></li>
+<li class="lvl5"><a href="#6-9-sakleg-og-geografisk-avgrensing-av-saka">§ 6-9. Sakleg og geografisk avgrensing av saka</a></li>
+<li class="lvl3"><a href="#iii-rettsmte">III. Rettsmøte</a></li>
+<li class="lvl5"><a href="#6-10-innkalling-til-rettsmte">§ 6-10. Innkalling til rettsmøte</a></li>
+<li class="lvl5"><a href="#6-11-mte-og-forklaringsplikt">§ 6-11. Møte- og forklaringsplikt</a></li>
+<li class="lvl5"><a href="#6-12-saksbehandlinga-i-rettsmte">§ 6-12. Saksbehandlinga i rettsmøte</a></li>
+<li class="lvl5"><a href="#6-13-rettsbok">§ 6-13. Rettsbok</a></li>
+<li class="lvl3"><a href="#iv-generelle-reglar">IV. Generelle reglar</a></li>
+<li class="lvl5"><a href="#6-14-grunnlaget-for-avgjerdene">§ 6-14. Grunnlaget for avgjerdene</a></li>
+<li class="lvl5"><a href="#6-15-bevis">§ 6-15. Bevis</a></li>
+<li class="lvl5"><a href="#6-16-rettleiing-og-retting">§ 6-16. Rettleiing og retting</a></li>
+<li class="lvl5"><a href="#6-17-minneleg-lysing-av-saker-for-jordskifteretten">§ 6-17. Minneleg løysing av saker for jordskifteretten</a></li>
+<li class="lvl5"><a href="#6-18-rettsmekling">§ 6-18. Rettsmekling</a></li>
+<li class="lvl5"><a href="#6-19-trekking-av-krav">§ 6-19. Trekking av krav</a></li>
+<li class="lvl5"><a href="#6-20-delvis-avslutting-av-sakene">§ 6-20. Delvis avslutting av sakene</a></li>
+<li class="lvl3"><a href="#v-forslag-til-jordskifteavgjerd-og-fastsetjing-av-grenser-rettar-og-anna">V. Forslag til jordskifteavgjerd og fastsetjing av grenser, rettar og anna</a></li>
+<li class="lvl5"><a href="#6-21-forslag-til-jordskifteavgjerd">§ 6-21. Forslag til jordskifteavgjerd</a></li>
+<li class="lvl5"><a href="#6-22-forslag-til-fastsetjing-av-grenser-rettar-og-anna">§ 6-22. Forslag til fastsetjing av grenser, rettar og anna</a></li>
+<li class="lvl3"><a href="#vi-rettslege-avgjerder-og-rettsforlik">VI. Rettslege avgjerder og rettsforlik</a></li>
+<li class="lvl5"><a href="#6-23-avgjerdsformer">§ 6-23. Avgjerdsformer</a></li>
+<li class="lvl5"><a href="#6-24-innhaldet-i-avgjerdene">§ 6-24. Innhaldet i avgjerdene</a></li>
+<li class="lvl5"><a href="#6-25-avseiing-av-avgjerd-melding-om-avgjerd">§ 6-25. Avseiing av avgjerd. Melding om avgjerd</a></li>
+<li class="lvl5"><a href="#6-26-rettsforlik">§ 6-26. Rettsforlik</a></li>
+<li class="lvl5"><a href="#6-27-frist-for-iverksetjing-av-endeleg-jordskiftelysing">§ 6-27. Frist for iverksetjing av endeleg jordskifteløysing</a></li>
+<li class="lvl5"><a href="#6-28-tvangskraft-og-rettskraft">§ 6-28. Tvangskraft og rettskraft</a></li>
+<li class="lvl5"><a href="#6-29-merking-og-koordinatfesting-av-grenser">§ 6-29. Merking og koordinatfesting av grenser</a></li>
+<li class="lvl3"><a href="#vii-rapportering-og-tinglysing">VII. Rapportering og tinglysing</a></li>
+<li class="lvl5"><a href="#6-30-rapportering-til-matrikkelmyndigheita">§ 6-30. Rapportering til matrikkelmyndigheita</a></li>
+<li class="lvl5"><a href="#6-31-tinglysing">§ 6-31. Tinglysing</a></li>
+<li class="lvl2"><a href="#kapittel-7-sakskostnader-og-gebyr">Kapittel 7. Sakskostnader og gebyr</a></li>
+<li class="lvl3"><a href="#i-sakskostnader">I. Sakskostnader</a></li>
+<li class="lvl5"><a href="#7-1-sakskostnader">§ 7-1. Sakskostnader</a></li>
+<li class="lvl3"><a href="#ii-gebyr">II. Gebyr</a></li>
+<li class="lvl5"><a href="#7-2-inngangsgebyr">§ 7-2. Inngangsgebyr</a></li>
+<li class="lvl5"><a href="#7-3-grenselengdegebyr">§ 7-3. Grenselengdegebyr</a></li>
+<li class="lvl5"><a href="#7-4-partsgebyr">§ 7-4. Partsgebyr</a></li>
+<li class="lvl5"><a href="#7-5-samla-gebyr-og-arbeidstid">§ 7-5. Samla gebyr og arbeidstid</a></li>
+<li class="lvl3"><a href="#iii-fordeling-av-sakskostnader">III. Fordeling av sakskostnader</a></li>
+<li class="lvl5"><a href="#7-6-fordeling-av-sakskostnader">§ 7-6. Fordeling av sakskostnader</a></li>
+<li class="lvl5"><a href="#7-7-sakskostnader-som-flgje-av-trekking-av-sak-avvising-med-vidare">§ 7-7. Sakskostnader som følgje av trekking av sak, avvising med vidare</a></li>
+<li class="lvl3"><a href="#iv-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">IV. Kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl5"><a href="#7-8-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">§ 7-8. Kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl5"><a href="#7-9-erstatning-for-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">§ 7-9. Erstatning for kostnader til rettshjelp og til anna sakkunnig hjelp</a></li>
+<li class="lvl3"><a href="#v-kostnader-knytte-til-skjnn-og-andre-avgjerder-i-samband-med-jordskifte-anke-med-meir">V. Kostnader knytte til skjønn og andre avgjerder i samband med jordskifte, anke med meir</a></li>
+<li class="lvl5"><a href="#7-10-kostnader-med-skjnn-og-andre-avgjerder-etter-5-2og-5-3">§ 7-10. Kostnader med skjønn og andre avgjerder etter§§ 5-2og 5-3</a></li>
+<li class="lvl5"><a href="#7-11-kostnader-med-anke-over-jordskifteavgjerd">§ 7-11. Kostnader med anke over jordskifteavgjerd</a></li>
+<li class="lvl5"><a href="#7-12-kostnader-ved-gjenopning">§ 7-12. Kostnader ved gjenopning</a></li>
+<li class="lvl3"><a href="#vi-andre-reglar">VI. Andre reglar</a></li>
+<li class="lvl5"><a href="#7-13-forskott">§ 7-13. Forskott</a></li>
+<li class="lvl5"><a href="#7-14-betalingsfrist">§ 7-14. Betalingsfrist</a></li>
+<li class="lvl5"><a href="#7-15-statens-erstatningsansvar">§ 7-15. Statens erstatningsansvar</a></li>
+<li class="lvl5"><a href="#7-16-panterett-for-palagd-kostnad-eller-yting">§ 7-16. Panterett for pålagd kostnad eller yting</a></li>
+<li class="lvl2"><a href="#kapittel-8-rettsmiddel-med-vidare">Kapittel 8. Rettsmiddel med vidare</a></li>
+<li class="lvl4"><a href="#8-1-rettsmiddel-og-kva-for-prosessreglar-som-gjeld-ved-bruk-av-rettsmiddel">§ 8-1. Rettsmiddel og kva for prosessreglar som gjeld ved bruk av rettsmiddel</a></li>
+<li class="lvl4"><a href="#8-2-nar-avgjerd-kan-ankast-og-utsett-iverksetjing-av-jordskiftet">§ 8-2. Når avgjerd kan ankast, og utsett iverksetjing av jordskiftet</a></li>
+<li class="lvl4"><a href="#8-3-frist-for-anke">§ 8-3. Frist for anke</a></li>
+<li class="lvl4"><a href="#8-4-avkall-pa-rett-til-a-anke">§ 8-4. Avkall på rett til å anke</a></li>
+<li class="lvl4"><a href="#8-5-ankefrasegna">§ 8-5. Ankefråsegna</a></li>
+<li class="lvl4"><a href="#8-6-saksfrebuing-i-jordskifteretten">§ 8-6. Saksførebuing i jordskifteretten</a></li>
+<li class="lvl4"><a href="#8-7-samansetjinga-av-lagmannsretten">§ 8-7. Samansetjinga av lagmannsretten</a></li>
+<li class="lvl4"><a href="#8-8-nekting-eller-avvising-av-anken">§ 8-8. Nekting eller avvising av anken</a></li>
+<li class="lvl4"><a href="#8-9-tilbakekalling-av-anke-nye-fristar">§ 8-9. Tilbakekalling av anke, nye fristar</a></li>
+<li class="lvl4"><a href="#8-10-prving-av-jordskifteavgjerd">§ 8-10. Prøving av jordskifteavgjerd</a></li>
+<li class="lvl4"><a href="#8-11-hjelp-til-teknisk-arbeid">§ 8-11. Hjelp til teknisk arbeid</a></li>
+<li class="lvl4"><a href="#8-12-frist-for-a-setje-i-verk-jordskiftet">§ 8-12. Frist for å setje i verk jordskiftet</a></li>
+<li class="lvl4"><a href="#8-13-anke-til-hgsterett">§ 8-13. Anke til Høgsterett</a></li>
+<li class="lvl4"><a href="#8-14-gjenopning">§ 8-14. Gjenopning</a></li>
+<li class="lvl4"><a href="#8-15-srlege-vilkar-ved-gjenopning-av-jordskifteavgjerd">§ 8-15. Særlege vilkår ved gjenopning av jordskifteavgjerd</a></li>
+<li class="lvl4"><a href="#8-16-nrare-om-behandlinga-av-sak-om-gjenopning">§ 8-16. Nærare om behandlinga av sak om gjenopning</a></li>
+<li class="lvl2"><a href="#kapittel-9-ymse-reglar">Kapittel 9. Ymse reglar</a></li>
+<li class="lvl4"><a href="#9-1-utbetaling-av-pengevederlag">§ 9-1. Utbetaling av pengevederlag</a></li>
+<li class="lvl4"><a href="#9-2-skyldnader-knytte-til-eigedom-som-er-med-i-jordskifte">§ 9-2. Skyldnader knytte til eigedom som er med i jordskifte</a></li>
+<li class="lvl4"><a href="#9-3-meldeplikt-etter-kulturminnelova">§ 9-3. Meldeplikt etter kulturminnelova</a></li>
+<li class="lvl4"><a href="#9-4-fordeling-av-skogfond">§ 9-4. Fordeling av skogfond</a></li>
+<li class="lvl4"><a href="#9-5-iverksetjing">§ 9-5. Iverksetjing</a></li>
+<li class="lvl4"><a href="#9-6-overgangsreglar">§ 9-6. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#9-7-endringar-i-andre-lover">§ 9-7. Endringar i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-100.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-06-21-100.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-100.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2013-06-21-100.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2013-06-21-100.html">Observerte kildeutgaver</a> · <a href="../historie/jordskiftelova.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2013-06-21-100.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2013-06-21-100.html">Observerte kildeutgaver</a> · <a href="../historie/jordskiftelova.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2013-06-21-100.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-fastsetjing-og-endring-av-eigedoms-og-rettshve-pa-fast-eigedom-mm-jordskiftelova">Lov om fastsetjing og endring av eigedoms- og rettshøve på fast eigedom m.m. (jordskiftelova)</h1>
 <h2 id="kapittel-1-formal-verkeomrade-definisjonar-saksinnhald-og-sakstilknyting">Kapittel 1. Formål, verkeområde, definisjonar, saksinnhald og sakstilknyting</h2>
 <h3 id="i-formal-verkeomrade-og-definisjonar">I. Formål, verkeområde og definisjonar</h3>
 <h5 id="1-1-formalet-med-lova">§ 1-1. Formålet med lova</h5>
@@ -104,7 +479,7 @@ d. skjønn og andre avgjerder etter andre lover, slik det går fram av kapittel 
 <p>Offentleg styresmakt og andre tiltakshavarar med heimel til å ekspropriere til tiltak og anlegg, kan krevje jordskifte etter kapittel 3 .</p>
 <p>Offentleg styresmakt med heimel til å regulere eigarrådvelde, kan krevje jordskifte etter kapittel 3 og grensefastsetjing etter § 4-2 .</p>
 <p>Retten til å krevje sak kan ein ikkje skrive frå seg.</p>
-<p><em>Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</em></p>
+<p class="note">Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</p>
 <h2 id="kapittel-2-jordskifterettane">Kapittel 2. Jordskifterettane</h2>
 <h3 id="i-organisering-av-jordskifterettane">I. Organisering av jordskifterettane</h3>
 <h5 id="2-1-jordskiftesokn-verneting">§ 2-1. Jordskiftesokn (verneting)</h5>
@@ -118,7 +493,7 @@ d. skjønn og andre avgjerder etter andre lover, slik det går fram av kapittel 
 <p>Domstolloven § 19 andre ledd gjeld ved tilkalling av jordskiftedommarar.</p>
 <h5 id="2-4-utdanningskrav">§ 2-4. Utdanningskrav</h5>
 <p>Jordskiftelagdommarar, jordskiftedommarar og jordskiftedommarfullmektigar må ha jordskiftefagleg utdanning på mastergradsnivå med fagkrins fastsett av departementet.</p>
-<h5 id="2-5-utval-av-jordskiftemeddommarar">§ 2-5. Utval av jordskiftemeddommarar</h5>
+<h5 id="2-5-utval-av-jordskiftemeddommarar">§ 2-5. Utval av jordskiftemeddommarar <a class="para-history" href="../historikk/lov-2013-06-21-100/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>I kvart jordskiftesokn skal det vere eit særskilt utval av jordskiftemeddommarar. Medlemmene i utvalet skal vere kunnige i saker som jordskifteretten i jordskiftesoknet til vanleg har. Jordskifterettsleiaren fastset kor mange jordskiftemeddommarar som skal utpeikast, slik at ein kan rekne med at kvart medlem kan gjere teneste i ei sak i valperioden.</p>
 <p>Utvalet skal utpeikast etter reglane i domstolloven om val av meddommarar. Jordskifterettsleiaren fastset kor mange det skal vere i utvalet for kvar kommune. Alle kommunar i jordskiftesoknet skal peike ut minst éin medlem av kvart kjønn til utvalet, og alltid like mange av kvart kjønn. Meddommarar og skjønnsmedlemmer er ikkje fritekne for val til utvalet av jordskiftemeddommarar.</p>
 <p><em>Endra med lov 16 juni 2017 nr. 58 (ikr. 1 jan 2018 iflg. res. 13 okt 2017 nr. 1613 ).</em></p>
@@ -140,7 +515,7 @@ d. skjønn og andre avgjerder etter andre lover, slik det går fram av kapittel 
 <h5 id="3-1-verkemiddel-for-a-bte-pa-utenlege-eigedomstilhve">§ 3-1. Verkemiddel for å bøte på utenlege eigedomstilhøve <a class="para-history" href="../historikk/lov-2013-06-21-100/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Jordskifteretten kan bruke verkemidla i §§ 3-4 til 3-10 for å bøte på utenlege eigedomstilhøve slik det går fram av § 3-2 . Ei jordskiftesak kan omfatte eitt eller fleire av desse verkemidla. Om jordskifteretten brukar verkemiddel etter §§ 3-4 til 3-10, kan han òg bruke verkemidla i §§ 3-11 og 3-12.</p>
 <p>For jordskifte i bygdeallmenningar gjeld lov 19. juni 1992 nr. 59 om bygdeallmenninger § 1-4 . For jordskifte i statsallmenningar gjeld lov 6. juni 1975 nr. 31 om utnytting av rettar og lunnende m.m. i statsallmenningane § 16 og lov 19. juni 1992 nr. 60 om skogsdrift mv. i statsallmenningene § 4-2 . For jordskifte i dei samiske reinbeiteområda gjeld lov 15. juni 2007 nr. 40 om reindrift § 62 a .</p>
-<p><em>Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</em></p>
+<p class="note">Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</p>
 <h5 id="3-2-utenlege-eigedomstilhve">§ 3-2. Utenlege eigedomstilhøve</h5>
 <p>Jordskifteretten kan halde jordskifte etter §§ 3-4 til 3-10 dersom minst éin eigedom eller bruksrett i jordskifteområdet er vanskeleg å bruke på tenleg måte etter tida og tilhøva. Det same gjeld dersom det er grunn til å rekne med at minst éin eigedom eller bruksrett vil bli vanskeleg å bruke på tenleg måte som følgje av eit offentleg eller privat tiltak. Som offentleg tiltak skal òg reknast offentleg regulering av eigarrådvelde eller vedteken reguleringsplan med tilhøyrande omsynssone.</p>
 <p>Jordskifteretten kan ikkje gjere andre endringar enn dei som er nødvendige for å bøte på dei utenlege eigedomstilhøva som partane har teke opp i jordskiftet.</p>
@@ -150,7 +525,7 @@ d. skjønn og andre avgjerder etter andre lover, slik det går fram av kapittel 
 <h5 id="3-4-ny-utforming-av-eigedom-og-alltidvarande-bruksrett">§ 3-4. Ny utforming av eigedom og alltidvarande bruksrett <a class="para-history" href="../historikk/lov-2013-06-21-100/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Jordskifteretten kan forme ut eigedom og alltidvarande bruksrett på nytt. Bruksretten må liggje til fast eigedom, eller ha grunnlag i samisk reindrift.</p>
 <p>Jordskifteretten kan påby at vassleidningar, damanlegg, kraftleidningar, gjerde, anlegg og liknande som står på grunn som går i byte etter første ledd, blir overførte til ny eigar. Det same gjeld bygningar.</p>
-<p><em>Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</em></p>
+<p class="note">Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</p>
 <h5 id="3-5-skiping-av-sameige">§ 3-5. Skiping av sameige</h5>
 <p>Jordskifteretten kan skipe sameige mellom eigedommar dersom dette bøter på dei utenlege eigedomstilhøva på ein betre måte enn det å gi reglar om sambruk mellom eigedommar etter § 3-8 ville ha gjort.</p>
 <h5 id="3-6-opplysing-av-sameige-og-sambruk-mellom-eigedommar">§ 3-6. Oppløysing av sameige og sambruk mellom eigedommar</h5>
@@ -162,7 +537,7 @@ d. skjønn og andre avgjerder etter andre lover, slik det går fram av kapittel 
 <p>Jordskifteretten kan både gi varige og mellombelse reglar.</p>
 <p>Jordskifteretten kan gi reglar om sambruk av uteareala til eigarseksjonar. Første og andre ledd gjeld for skiping av sambruk i uteareala til eigarseksjonar.</p>
 <p>Jordskifteretten kan gi reglar om bruken i det samiske reinbeiteområdet der det blir drive reindrift.</p>
-<p><em>Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</em></p>
+<p class="note">Endret ved lov 6 juni 2025 nr. 28 (i kraft 1 juli 2025 iflg. res. 6 juni 2025 nr. 946 ).</p>
 <h5 id="3-9-palegg-om-felles-tiltak-og-palegg-om-felles-investeringar">§ 3-9. Pålegg om felles tiltak og pålegg om felles investeringar</h5>
 <p>Jordskifteretten kan påleggje felles tiltak og påleggje felles investeringar i samband med bruk av eigedommar eller bruksrettar.</p>
 <p>Jordskifteretten kan òg påleggje felles tiltak og felles investeringar mellom reindrifta og grunneigarar eller bruksrettshavarar.</p>
@@ -303,12 +678,12 @@ p. – – –</p>
 <p><em>Endra med lover 11 mai 2017 nr. 26 (ikr. 1 jan 2018 iflg. res. 11 mai 2017 nr. 563 ), 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ), 9 juni 2023 nr. 32 (i kraft 9 juni 2023 iflg. res. 9 juni 2023 nr. 829 ).</em></p>
 <h4 id="5-4-skjnn-og-andre-avgjerder-etter-andre-lover-som-eiga-sak">§ 5-4. Skjønn og andre avgjerder etter andre lover som eiga sak</h4>
 <p>Jordskifteretten held skjønn og tek andre avgjerder som eiga sak etter dei lovene som er nemnde i § 5-3 .</p>
-<p><em>Endra ved lov 9 juni 2023 nr. 32 (i kraft 9 juni 2023 iflg. res. 9 juni 2023 nr. 829 ).</em></p>
+<p class="note">Endra ved lov 9 juni 2023 nr. 32 (i kraft 9 juni 2023 iflg. res. 9 juni 2023 nr. 829 ).</p>
 <h4 id="5-5-avtaleskjnn-som-eiga-sak">§ 5-5. Avtaleskjønn som eiga sak</h4>
 <p>Jordskifteretten kan òg halde skjønn i andre tilfelle enn dei som er nemnde i §§ 5-1 til 5-4, dersom partane er samde om det.</p>
 <h4 id="5-6-skjnn-og-andre-avgjerder-i-samband-med-sak-for-jordskifteretten-skilt-ut-som-eiga-sak">§ 5-6. Skjønn og andre avgjerder i samband med sak for jordskifteretten skilt ut som eiga sak</h4>
 <p>Jordskifteretten kan bestemme at skjønn og andre avgjerder etter §§ 5-1 til 5-3, skal behandlast som eiga sak.</p>
-<p><em>Endra ved lov 9 juni 2023 nr. 32 (i kraft 9 juni 2023 iflg. res. 9 juni 2023 nr. 829 ).</em></p>
+<p class="note">Endra ved lov 9 juni 2023 nr. 32 (i kraft 9 juni 2023 iflg. res. 9 juni 2023 nr. 829 ).</p>
 <h4 id="5-7-behandlinga-av-saker-etterkapittel-5">§ 5-7. Behandlinga av saker etterkapittel 5 <a class="para-history" href="../historikk/lov-2013-06-21-100/para-5-7.html" title="Endringshistorikk for § 5-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kapitla 1, 2, 6 og 8 gjeld så langt dei høver for skjønn og andre avgjerder som jordskifteretten held eller tek etter §§ 5-1 til 5-3. I tillegg gjeld § 7-1 andre ledd og § 7-10 . Reglane for skjønn styrt av tingretten i lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker gjeld så langt kapittel 1, 2, 6 og 8 ikkje har reglar om behandlinga. I tillegg gjeld reglane i dei lovene som er nemnde i § 5-3 , for behandlinga.</p>
 <p>Avgjerder som jordskifteretten tek som eiga sak etter §§ 5-4 til 5-6, følgjer reglane for skjønn styrt av tingretten i lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker. I tillegg gjeld reglane i dei lovene som er nemnde i § 5-3 , for behandlinga.</p>
@@ -523,7 +898,7 @@ g. sideutgifter etter <a href="lov-1982-12-17-86.html">rettsgebyrloven</a> § 2 
 <h5 id="7-9-erstatning-for-kostnader-til-rettshjelp-og-til-anna-sakkunnig-hjelp">§ 7-9. Erstatning for kostnader til rettshjelp og til anna sakkunnig hjelp <a class="para-history" href="../historikk/lov-2013-06-21-100/para-7-9.html" title="Endringshistorikk for § 7-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Om det blir sagt dom i tvist, gjeld tvisteloven kapittel 20 for erstatning for kostnader som er direkte knytte til tvistebehandlinga. Dersom tvistesummen er under 250 000 kr, gjeld tvisteloven § 10-5 første og andre ledd.</p>
 <p>Når ei sak blir trekt eller blir avvist fordi formelle vilkår for å behandle saka ikkje er oppfylte, gjeld tvisteloven kapittel 20 . Tvisteloven kapittel 20 gjeld òg ved trekking av krav om endra sakleg og geografisk avgrensing av saka og ved avvising av eit endringskrav.</p>
-<p><em>Endra ved lov 11 mai 2023 nr. 13 (i kraft 1 juli 2023 iflg. res. 11 mai 2023 nr. 683 , se overgangsregler i res. 2 juni 2023 nr. 779 ).</em></p>
+<p class="note">Endra ved lov 11 mai 2023 nr. 13 (i kraft 1 juli 2023 iflg. res. 11 mai 2023 nr. 683 , se overgangsregler i res. 2 juni 2023 nr. 779 ).</p>
 <h3 id="v-kostnader-knytte-til-skjnn-og-andre-avgjerder-i-samband-med-jordskifte-anke-med-meir">V. Kostnader knytte til skjønn og andre avgjerder i samband med jordskifte, anke med meir</h3>
 <h5 id="7-10-kostnader-med-skjnn-og-andre-avgjerder-etter-5-2og-5-3">§ 7-10. Kostnader med skjønn og andre avgjerder etter§§ 5-2og 5-3</h5>
 <p>Lov 1. juni 1917 nr. 1 om skjønn og ekspropriasjonssaker § 54 gjeld for kostnader med skjønn og andre avgjerder etter §§ 5-2 og 5-3 som råkar eigedom som ikkje er med i jordskifteområdet.</p>
@@ -584,14 +959,14 @@ d. ankegrunnane, der det skal stå kvifor ein ankar og kva ein vil med anken.</p
 <p>Er det anka over ulike avgjerder i same sak, og behandlinga av saka etter § 8-1 sjette ledd er samla i ei sak for lagmannsretten, fastset førstelagmannen samansetjinga av retten. Dersom ei av dei anka avgjerdene er ei jordskifteavgjerd, skal jordskiftelagdommaren alltid delta ved behandlinga.</p>
 <p>Førstelagmannen avgjer kven som skal vere saksførebuande dommar og leiar for retten.</p>
 <p>Avgjerda førstelagmannen tek etter paragrafen her kan ikkje ankast.</p>
-<p><em>Endra ved lov 9 juni 2023 nr. 32 (i kraft 1 juli 2023 iflg. res. 9 juni 2023 nr. 829 ).</em></p>
+<p class="note">Endra ved lov 9 juni 2023 nr. 32 (i kraft 1 juli 2023 iflg. res. 9 juni 2023 nr. 829 ).</p>
 <h4 id="8-8-nekting-eller-avvising-av-anken">§ 8-8. Nekting eller avvising av anken <a class="para-history" href="../historikk/lov-2013-06-21-100/para-8-8.html" title="Endringshistorikk for § 8-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Anken kan avvisast, ankesaka kan hevast og ei anka avgjerd kan opphevast under saksførebuinga i lagmannsretten etter tvisteloven § 29-12 første ledd.</p>
 <p>Ved anke over dom gjeld tvisteloven § 29-13 .</p>
 <p>Ved anke over jordskifteavgjerd kan lagmannsretten nekte å ta anken opp til behandling dersom retten finn at det er klar sannsynleg overvekt for at anken ikkje vil føre fram. Tvisteloven § 29-13 andre ledd gjeld i slike høve.</p>
 <p>Den saksførebuande dommaren kan ta avgjerd som einedommar etter tredje ledd i denne paragrafen, etter at partane har fått høve til å uttale seg.</p>
 <p>Tvisteloven § 29-13 femte ledd gjeld så langt han høver for avgjerd etter tredje og fjerde ledd.</p>
-<p><em>Endra ved lov 11 mai 2023 nr. 13 (i kraft 1 juli 2023 iflg. res. 11 mai 2023 nr. 683 , se overgangsregler i res. 2 juni 2023 nr. 779 ).</em></p>
+<p class="note">Endra ved lov 11 mai 2023 nr. 13 (i kraft 1 juli 2023 iflg. res. 11 mai 2023 nr. 683 , se overgangsregler i res. 2 juni 2023 nr. 779 ).</p>
 <h4 id="8-9-tilbakekalling-av-anke-nye-fristar">§ 8-9. Tilbakekalling av anke, nye fristar</h4>
 <p>Om anken blir kalla tilbake, gjeld tvisteloven § 29-19 .</p>
 <p>Blir anken kalla tilbake, skal lagmannsretten endre fristar for iverksetjing etter §§ 3-36 og 6-27 om det trengst.</p>
@@ -637,6 +1012,8 @@ d. ankegrunnane, der det skal stå kvifor ein ankar og kva ein vil med anken.</p
 <p>Anke som er innlevert før lova her tek til å gjelde, men som ikkje er behandla ferdig og avgjord, skal behandlast av lagmannsretten, og med lagmannsretten samansett etter § 8-7 . Lagmannsretten skal leggje lov 21. desember 1979 nr. 77 om jordskifte til grunn for prøving av saksbehandling og materielle tilhøve.</p>
 <h4 id="9-7-endringar-i-andre-lover">§ 9-7. Endringar i andre lover <a class="para-history" href="../historikk/lov-2013-06-21-100/para-9-7.html" title="Endringshistorikk for § 9-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når lova tek til å gjelde, skal det gjerast desse endringane i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

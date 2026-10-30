@@ -19,64 +19,377 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2011-11-25-44.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Verdipapirfondloven" href="../feeds/lov-2011-11-25-44.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Verdipapirfondloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2011-11-25-44</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Børs- og verdipapir\nSelskaper, fond og foreninger &raquo; Fond</dd>
-<dt>Ikrafttredelse</dt><dd>2012-01-01, 2012-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-05-27-18</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2011-11-25-44" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forvaltning-av-verdipapirfond">§ 1-3. Forvaltning av verdipapirfond</a></li>
+<li class="lvl4"><a href="#1-4-annen-lovgivnings-anvendelse">§ 1-4. Annen lovgivnings anvendelse</a></li>
+<li class="lvl4"><a href="#1-5-forskriftshjemler">§ 1-5. Forskriftshjemler</a></li>
+<li class="lvl4"><a href="#1-6-behandling-av-personopplysninger-i-tilknytning-til-autorisasjonsordninger-for-ansatte">§ 1-6. Behandling av personopplysninger i tilknytning til autorisasjonsordninger for ansatte</a></li>
+<li class="lvl4"><a href="#1-7-gjennomfring-av-pengemarkedsfondsforordningen">§ 1-7. Gjennomføring av pengemarkedsfondsforordningen</a></li>
+<li class="lvl4"><a href="#1-8-forordning-om-grensekryssende-distribusjon-av-fond">§ 1-8. Forordning om grensekryssende distribusjon av fond</a></li>
+<li class="lvl2"><a href="#kapittel-2-forvaltningsselskap">Kapittel 2. Forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-tillatelse">§ 2-1. Krav om tillatelse</a></li>
+<li class="lvl4"><a href="#2-2-sknad-om-tillatelse">§ 2-2. Søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#2-3-vilkar-for-tillatelse">§ 2-3. Vilkår for tillatelse</a></li>
+<li class="lvl4"><a href="#2-4-tilknyttet-virksomhet-som-kan-drives-av-forvaltningsselskap">§ 2-4. Tilknyttet virksomhet som kan drives av forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-5-erverv-og-avhendelse-av-betydelig-eierandel">§ 2-5. Erverv og avhendelse av betydelig eierandel</a></li>
+<li class="lvl4"><a href="#2-6-styre-og-daglig-leder">§ 2-6. Styre og daglig leder</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-tillitsvalgte-og-ansatte-i-forvaltningsselskap">§ 2-7. Krav til tillitsvalgte og ansatte i forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-8-ansvarlig-kapital">§ 2-8. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#2-9-utkontraktering">§ 2-9. Utkontraktering</a></li>
+<li class="lvl4"><a href="#2-10-tilknyttede-agenter">§ 2-10. Tilknyttede agenter</a></li>
+<li class="lvl4"><a href="#2-11-organisering-av-virksomheten">§ 2-11. Organisering av virksomheten</a></li>
+<li class="lvl4"><a href="#2-12-risikostyring">§ 2-12. Risikostyring</a></li>
+<li class="lvl4"><a href="#2-13-kundeklager">§ 2-13. Kundeklager</a></li>
+<li class="lvl4"><a href="#2-14-forvaltningsselskapets-kompetanse">§ 2-14. Forvaltningsselskapets kompetanse</a></li>
+<li class="lvl4"><a href="#2-15-god-forretningsskikk">§ 2-15. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#2-16-godtgjrelsesordninger">§ 2-16. Godtgjørelsesordninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltningsselskapers-grenseoverskridende-virksomhet">Kapittel 3. Forvaltningsselskapers grenseoverskridende virksomhet</a></li>
+<li class="lvl4"><a href="#3-1-melding-om-norske-forvaltningsselskapers-virksomhet-i-annen-es-stat">§ 3-1. Melding om norske forvaltningsselskapers virksomhet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#3-2-oversendelse-av-melding-til-vertslandsmyndighet-i-annen-es-stat">§ 3-2. Oversendelse av melding til vertslandsmyndighet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#3-3-forvaltningsselskap-etablert-i-annen-es-stat-virksomhet-i-norge">§ 3-3. Forvaltningsselskap etablert i annen EØS-stat – virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#3-4-andre-utenlandske-forvaltningsselskapers-virksomhet-i-norge">§ 3-4. Andre utenlandske forvaltningsselskapers virksomhet i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-4-verdipapirfond">Kapittel 4. Verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-1-tillatelse-til-etablering-av-verdipapirfond">§ 4-1. Tillatelse til etablering av verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-2-skifte-av-forvaltningsselskap">§ 4-2. Skifte av forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#4-3-retten-til-a-bruke-betegnelsen-verdipapirfond">§ 4-3. Retten til å bruke betegnelsen verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-4-vedtektenes-innhold">§ 4-4. Vedtektenes innhold</a></li>
+<li class="lvl4"><a href="#4-5-lik-rett-i-fondet-andelsklasser">§ 4-5. Lik rett i fondet – andelsklasser</a></li>
+<li class="lvl4"><a href="#4-6-kostnader">§ 4-6. Kostnader</a></li>
+<li class="lvl4"><a href="#4-7-utdeling-av-verdipapirfondets-midler">§ 4-7. Utdeling av verdipapirfondets midler</a></li>
+<li class="lvl4"><a href="#4-8-beregning-og-kunngjring-av-andelsverdi">§ 4-8. Beregning og kunngjøring av andelsverdi</a></li>
+<li class="lvl4"><a href="#4-9-tegning-av-andeler">§ 4-9. Tegning av andeler</a></li>
+<li class="lvl4"><a href="#4-10-andelseierregister-forvalterregistrering">§ 4-10. Andelseierregister – forvalterregistrering</a></li>
+<li class="lvl4"><a href="#4-11-virkning-av-registrering-i-andelseierregisteret">§ 4-11. Virkning av registrering i andelseierregisteret</a></li>
+<li class="lvl4"><a href="#4-12-innlsning-av-andeler">§ 4-12. Innløsning av andeler</a></li>
+<li class="lvl4"><a href="#4-13-forbud-mot-utstedelse-og-innlsning-i-visse-tilfeller">§ 4-13. Forbud mot utstedelse og innløsning i visse tilfeller</a></li>
+<li class="lvl4"><a href="#4-14-endring-av-vedtekter">§ 4-14. Endring av vedtekter</a></li>
+<li class="lvl4"><a href="#4-15-informasjon-til-andelseierne-ved-vedtektsendring">§ 4-15. Informasjon til andelseierne ved vedtektsendring</a></li>
+<li class="lvl4"><a href="#4-16-andelseiernes-radighet-og-ansvar">§ 4-16. Andelseiernes rådighet og ansvar</a></li>
+<li class="lvl4"><a href="#4-17-andelseiermte">§ 4-17. Andelseiermøte</a></li>
+<li class="lvl2"><a href="#kapittel-5-fusjon-og-avvikling-av-verdipapirfond">Kapittel 5. Fusjon og avvikling av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-1-fusjon-av-verdipapirfond">§ 5-1. Fusjon av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-2-tillatelse-til-fusjon-av-verdipapirfond">§ 5-2. Tillatelse til fusjon av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-3-krav-til-fusjonsavtale-mv">§ 5-3. Krav til fusjonsavtale mv.</a></li>
+<li class="lvl4"><a href="#5-4-informasjon-til-andelseiere-ved-fusjon">§ 5-4. Informasjon til andelseiere ved fusjon</a></li>
+<li class="lvl4"><a href="#5-5-gjennomfring-av-fusjon">§ 5-5. Gjennomføring av fusjon</a></li>
+<li class="lvl4"><a href="#5-6-bekreftelse-pa-gjennomfring">§ 5-6. Bekreftelse på gjennomføring</a></li>
+<li class="lvl4"><a href="#5-7-avvikling-av-verdipapirfond">§ 5-7. Avvikling av verdipapirfond</a></li>
+<li class="lvl2"><a href="#kapittel-6-plassering-av-verdipapirfondets-midler">Kapittel 6. Plassering av verdipapirfondets midler</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#6-1-generelt-om-investeringsomrade">§ 6-1. Generelt om investeringsområde</a></li>
+<li class="lvl5"><a href="#6-2-verdipapirfondsandeler">§ 6-2. Verdipapirfondsandeler</a></li>
+<li class="lvl5"><a href="#6-3-pengemarkedsinstrumenter">§ 6-3. Pengemarkedsinstrumenter</a></li>
+<li class="lvl5"><a href="#6-4-innskudd-i-kredittinstitusjon">§ 6-4. Innskudd i kredittinstitusjon</a></li>
+<li class="lvl5"><a href="#6-5-krav-til-likviditet">§ 6-5. Krav til likviditet</a></li>
+<li class="lvl5"><a href="#6-6-plasseringsbegrensninger-fondets-midler">§ 6-6. Plasseringsbegrensninger – fondets midler</a></li>
+<li class="lvl5"><a href="#6-7-unntak-og-presiseringer-plasseringsbegrensninger">§ 6-7. Unntak og presiseringer – plasseringsbegrensninger</a></li>
+<li class="lvl5"><a href="#6-8-unntak-fra-plasseringsbegrensninger-for-indeksfond">§ 6-8. Unntak fra plasseringsbegrensninger for indeksfond</a></li>
+<li class="lvl5"><a href="#6-9-plasseringsbegrensninger-eierandel-hos-utsteder">§ 6-9. Plasseringsbegrensninger – eierandel hos utsteder</a></li>
+<li class="lvl5"><a href="#6-10-opptak-av-lan">§ 6-10. Opptak av lån</a></li>
+<li class="lvl5"><a href="#6-11-teknikker-for-portefljeforvaltning">§ 6-11. Teknikker for porteføljeforvaltning</a></li>
+<li class="lvl3"><a href="#ii-fond-i-ett-fond">II. Fond i ett fond</a></li>
+<li class="lvl5"><a href="#6-12-fond-i-ett-fond">§ 6-12. Fond i ett fond</a></li>
+<li class="lvl5"><a href="#6-13-sknad">§ 6-13. Søknad</a></li>
+<li class="lvl5"><a href="#6-14-konvertering-til-tilfringsfond-og-bytte-av-mottakerfond">§ 6-14. Konvertering til tilføringsfond og bytte av mottakerfond</a></li>
+<li class="lvl5"><a href="#6-15-mottakerfond">§ 6-15. Mottakerfond</a></li>
+<li class="lvl5"><a href="#6-16-tilfringsfond">§ 6-16. Tilføringsfond</a></li>
+<li class="lvl5"><a href="#6-17-prospekt-og-rapporter-mv-for-tilfringsfond">§ 6-17. Prospekt og rapporter mv. for tilføringsfond</a></li>
+<li class="lvl5"><a href="#6-18-forholdet-mellom-tilfrings-og-mottakerfond">§ 6-18. Forholdet mellom tilførings- og mottakerfond</a></li>
+<li class="lvl5"><a href="#6-19-revisor">§ 6-19. Revisor</a></li>
+<li class="lvl5"><a href="#6-20-depotmottaker">§ 6-20. Depotmottaker</a></li>
+<li class="lvl5"><a href="#6-21-avvikling-og-fusjon-i-mottakerfond">§ 6-21. Avvikling og fusjon i mottakerfond</a></li>
+<li class="lvl2"><a href="#kapittel-7-nasjonale-fond">Kapittel 7. Nasjonale fond</a></li>
+<li class="lvl4"><a href="#7-1-nasjonale-fond-som-ikke-er-spesialfond">§ 7-1. Nasjonale fond som ikke er spesialfond</a></li>
+<li class="lvl4"><a href="#7-2-spesialfond">§ 7-2. Spesialfond</a></li>
+<li class="lvl4"><a href="#7-3-opplysningskrav-for-spesialfond">§ 7-3. Opplysningskrav for spesialfond</a></li>
+<li class="lvl4"><a href="#7-4-styring-av-risiko-i-spesialfond">§ 7-4. Styring av risiko i spesialfond</a></li>
+<li class="lvl4"><a href="#7-5-innlsning-av-andeler-i-spesialfond">§ 7-5. Innløsning av andeler i spesialfond</a></li>
+<li class="lvl4"><a href="#7-6-srlige-bestemmelser-om-depotmottaker-for-spesialfond">§ 7-6. Særlige bestemmelser om depotmottaker for spesialfond</a></li>
+<li class="lvl4"><a href="#7-7-salg-og-markedsfring-av-spesialfond">§ 7-7. Salg og markedsføring av spesialfond</a></li>
+<li class="lvl2"><a href="#kapittel-8-pliktig-informasjon-til-investor">Kapittel 8. Pliktig informasjon til investor</a></li>
+<li class="lvl4"><a href="#8-1-arsregnskap-arsberetning-og-halvarsrapport">§ 8-1. Årsregnskap, årsberetning og halvårsrapport</a></li>
+<li class="lvl4"><a href="#8-1-a-opplysningsplikt-overfor-livsforsikringsforetak-og-pensjonsforetak">§ 8-1 a. Opplysningsplikt overfor livsforsikringsforetak og pensjonsforetak</a></li>
+<li class="lvl4"><a href="#8-2-prospekt">§ 8-2. Prospekt</a></li>
+<li class="lvl4"><a href="#8-3-krav-om-nkkelinformasjon">§ 8-3. Krav om nøkkelinformasjon</a></li>
+<li class="lvl4"><a href="#8-4-plikt-til-a-gi-nkkelinformasjon">§ 8-4. Plikt til å gi nøkkelinformasjon</a></li>
+<li class="lvl4"><a href="#8-5-sprak">§ 8-5. Språk</a></li>
+<li class="lvl4"><a href="#8-6-rapporteringsplikt-til-sentral-database">§ 8-6. Rapporteringsplikt til sentral database</a></li>
+<li class="lvl4"><a href="#8-7-informasjon-om-andelsbeholdning-mv">§ 8-7. Informasjon om andelsbeholdning m.v.</a></li>
+<li class="lvl4"><a href="#8-8-retningslinjer-for-aktivt-aksjeeierskap">§ 8-8. Retningslinjer for aktivt aksjeeierskap</a></li>
+<li class="lvl2"><a href="#kapittel-9-salg-og-markedsfring-av-verdipapirfond">Kapittel 9. Salg og markedsføring av verdipapirfond</a></li>
+<li class="lvl4"><a href="#9-1-salg-og-innlsning-av-verdipapirfondsandeler">§ 9-1. Salg og innløsning av verdipapirfondsandeler</a></li>
+<li class="lvl4"><a href="#9-2-markedsfring-av-norske-ucits-i-annen-es-stat">§ 9-2. Markedsføring av norske UCITS i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#9-3-markedsfring-av-utenlandske-ucits-i-norge">§ 9-3. Markedsføring av utenlandske UCITS i Norge</a></li>
+<li class="lvl4"><a href="#9-4-markedsfring-av-utenlandske-verdipapirfond-som-ikke-er-ucits">§ 9-4. Markedsføring av utenlandske verdipapirfond som ikke er UCITS</a></li>
+<li class="lvl4"><a href="#9-5-forskriftshjemmel">§ 9-5. Forskriftshjemmel</a></li>
+<li class="lvl4"><a href="#9-5-a-opphr-av-markedsfring-av-utenlandske-ucits-i-norge">§ 9-5 a. Opphør av markedsføring av utenlandske UCITS i Norge</a></li>
+<li class="lvl4"><a href="#9-6-melding-om-avregistrering-av-markedsfring-av-norske-ucits-i-annen-es-stat">§ 9-6. Melding om avregistrering av markedsføring av norske UCITS i annen EØS-stat</a></li>
+<li class="lvl2"><a href="#kapittel-10-depotmottaker">Kapittel 10. Depotmottaker</a></li>
+<li class="lvl4"><a href="#10-1-plikt-til-a-ha-en-depotmottaker-mv">§ 10-1. Plikt til å ha en depotmottaker mv.</a></li>
+<li class="lvl4"><a href="#10-2-krav-til-depotmottakeren">§ 10-2. Krav til depotmottakeren</a></li>
+<li class="lvl4"><a href="#10-3-depotmottakerens-oppgaver">§ 10-3. Depotmottakerens oppgaver</a></li>
+<li class="lvl4"><a href="#10-4-depotmottakerens-adgang-til-a-utkontraktere-oppgaver">§ 10-4. Depotmottakerens adgang til å utkontraktere oppgaver</a></li>
+<li class="lvl4"><a href="#10-5-god-forretningsskikk-og-interessekonflikter">§ 10-5. God forretningsskikk og interessekonflikter</a></li>
+<li class="lvl4"><a href="#10-6-depotmottakerens-erstatningsansvar">§ 10-6. Depotmottakerens erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-11-erstatning-tilsyn-straffebestemmelser">Kapittel 11. Erstatning, tilsyn, straffebestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-erstatning">§ 11-1. Erstatning</a></li>
+<li class="lvl4"><a href="#11-2-tilsyn">§ 11-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#11-3-opplysningsplikt">§ 11-3. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#11-4-palegg-om-retting">§ 11-4. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#11-5-tilbakekall-og-bortfall-av-tillatelse">§ 11-5. Tilbakekall og bortfall av tillatelse</a></li>
+<li class="lvl4"><a href="#11-5-a-oppnevning-av-administrator">§ 11-5 a. Oppnevning av administrator</a></li>
+<li class="lvl4"><a href="#11-6-overtredelsesgebyr">§ 11-6. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-6-a-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 11-6 a. Momenter ved ileggelse av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-7-straff">§ 11-7. Straff</a></li>
+<li class="lvl4"><a href="#11-8-finanstilsynets-taushetsplikt-om-varsling-og-sanksjoner-mv">§ 11-8. Finanstilsynets taushetsplikt om varsling og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-9-forbud-mot-a-ha-ledelsesfunksjon">§ 11-9. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl2"><a href="#kapittel-12-tilsyn-med-utenlandsk-forvaltningsselskap-med-hovedsete-i-en-annen-es-stat-mv">Kapittel 12. Tilsyn med utenlandsk forvaltningsselskap med hovedsete i en annen EØS-stat mv.</a></li>
+<li class="lvl4"><a href="#12-1-opplysningsplikt">§ 12-1. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#12-2-palegg-om-retting-mv">§ 12-2. Pålegg om retting mv.</a></li>
+<li class="lvl4"><a href="#12-3-tilsyn-ved-markedsfring-av-utenlandske-ucits">§ 12-3. Tilsyn ved markedsføring av utenlandske UCITS</a></li>
+<li class="lvl4"><a href="#12-4-tilsynssamarbeid">§ 12-4. Tilsynssamarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-overgangsbestemmelser-endringer-i-andre-lover">Kapittel 13. Ikrafttredelse og overgangsbestemmelser. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-05-27-18.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-11-25-44.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om verdipapirfond (verdipapirfondloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2011-11-25-44.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2011-11-25-44 <code>lov/2011-11-25-44</code></td></tr>
+<tr><th>Korttittel</th><td>Verdipapirfondloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Børs- og verdipapir\nSelskaper, fond og foreninger &raquo; Fond</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2012, 01.07.2012</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-05-27-18 <code>lov/2025-05-27-18</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2011-11-25-44" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forvaltning-av-verdipapirfond">§ 1-3. Forvaltning av verdipapirfond</a></li>
+<li class="lvl4"><a href="#1-4-annen-lovgivnings-anvendelse">§ 1-4. Annen lovgivnings anvendelse</a></li>
+<li class="lvl4"><a href="#1-5-forskriftshjemler">§ 1-5. Forskriftshjemler</a></li>
+<li class="lvl4"><a href="#1-6-behandling-av-personopplysninger-i-tilknytning-til-autorisasjonsordninger-for-ansatte">§ 1-6. Behandling av personopplysninger i tilknytning til autorisasjonsordninger for ansatte</a></li>
+<li class="lvl4"><a href="#1-7-gjennomfring-av-pengemarkedsfondsforordningen">§ 1-7. Gjennomføring av pengemarkedsfondsforordningen</a></li>
+<li class="lvl4"><a href="#1-8-forordning-om-grensekryssende-distribusjon-av-fond">§ 1-8. Forordning om grensekryssende distribusjon av fond</a></li>
+<li class="lvl2"><a href="#kapittel-2-forvaltningsselskap">Kapittel 2. Forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-tillatelse">§ 2-1. Krav om tillatelse</a></li>
+<li class="lvl4"><a href="#2-2-sknad-om-tillatelse">§ 2-2. Søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#2-3-vilkar-for-tillatelse">§ 2-3. Vilkår for tillatelse</a></li>
+<li class="lvl4"><a href="#2-4-tilknyttet-virksomhet-som-kan-drives-av-forvaltningsselskap">§ 2-4. Tilknyttet virksomhet som kan drives av forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-5-erverv-og-avhendelse-av-betydelig-eierandel">§ 2-5. Erverv og avhendelse av betydelig eierandel</a></li>
+<li class="lvl4"><a href="#2-6-styre-og-daglig-leder">§ 2-6. Styre og daglig leder</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-tillitsvalgte-og-ansatte-i-forvaltningsselskap">§ 2-7. Krav til tillitsvalgte og ansatte i forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#2-8-ansvarlig-kapital">§ 2-8. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#2-9-utkontraktering">§ 2-9. Utkontraktering</a></li>
+<li class="lvl4"><a href="#2-10-tilknyttede-agenter">§ 2-10. Tilknyttede agenter</a></li>
+<li class="lvl4"><a href="#2-11-organisering-av-virksomheten">§ 2-11. Organisering av virksomheten</a></li>
+<li class="lvl4"><a href="#2-12-risikostyring">§ 2-12. Risikostyring</a></li>
+<li class="lvl4"><a href="#2-13-kundeklager">§ 2-13. Kundeklager</a></li>
+<li class="lvl4"><a href="#2-14-forvaltningsselskapets-kompetanse">§ 2-14. Forvaltningsselskapets kompetanse</a></li>
+<li class="lvl4"><a href="#2-15-god-forretningsskikk">§ 2-15. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#2-16-godtgjrelsesordninger">§ 2-16. Godtgjørelsesordninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltningsselskapers-grenseoverskridende-virksomhet">Kapittel 3. Forvaltningsselskapers grenseoverskridende virksomhet</a></li>
+<li class="lvl4"><a href="#3-1-melding-om-norske-forvaltningsselskapers-virksomhet-i-annen-es-stat">§ 3-1. Melding om norske forvaltningsselskapers virksomhet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#3-2-oversendelse-av-melding-til-vertslandsmyndighet-i-annen-es-stat">§ 3-2. Oversendelse av melding til vertslandsmyndighet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#3-3-forvaltningsselskap-etablert-i-annen-es-stat-virksomhet-i-norge">§ 3-3. Forvaltningsselskap etablert i annen EØS-stat – virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#3-4-andre-utenlandske-forvaltningsselskapers-virksomhet-i-norge">§ 3-4. Andre utenlandske forvaltningsselskapers virksomhet i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-4-verdipapirfond">Kapittel 4. Verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-1-tillatelse-til-etablering-av-verdipapirfond">§ 4-1. Tillatelse til etablering av verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-2-skifte-av-forvaltningsselskap">§ 4-2. Skifte av forvaltningsselskap</a></li>
+<li class="lvl4"><a href="#4-3-retten-til-a-bruke-betegnelsen-verdipapirfond">§ 4-3. Retten til å bruke betegnelsen verdipapirfond</a></li>
+<li class="lvl4"><a href="#4-4-vedtektenes-innhold">§ 4-4. Vedtektenes innhold</a></li>
+<li class="lvl4"><a href="#4-5-lik-rett-i-fondet-andelsklasser">§ 4-5. Lik rett i fondet – andelsklasser</a></li>
+<li class="lvl4"><a href="#4-6-kostnader">§ 4-6. Kostnader</a></li>
+<li class="lvl4"><a href="#4-7-utdeling-av-verdipapirfondets-midler">§ 4-7. Utdeling av verdipapirfondets midler</a></li>
+<li class="lvl4"><a href="#4-8-beregning-og-kunngjring-av-andelsverdi">§ 4-8. Beregning og kunngjøring av andelsverdi</a></li>
+<li class="lvl4"><a href="#4-9-tegning-av-andeler">§ 4-9. Tegning av andeler</a></li>
+<li class="lvl4"><a href="#4-10-andelseierregister-forvalterregistrering">§ 4-10. Andelseierregister – forvalterregistrering</a></li>
+<li class="lvl4"><a href="#4-11-virkning-av-registrering-i-andelseierregisteret">§ 4-11. Virkning av registrering i andelseierregisteret</a></li>
+<li class="lvl4"><a href="#4-12-innlsning-av-andeler">§ 4-12. Innløsning av andeler</a></li>
+<li class="lvl4"><a href="#4-13-forbud-mot-utstedelse-og-innlsning-i-visse-tilfeller">§ 4-13. Forbud mot utstedelse og innløsning i visse tilfeller</a></li>
+<li class="lvl4"><a href="#4-14-endring-av-vedtekter">§ 4-14. Endring av vedtekter</a></li>
+<li class="lvl4"><a href="#4-15-informasjon-til-andelseierne-ved-vedtektsendring">§ 4-15. Informasjon til andelseierne ved vedtektsendring</a></li>
+<li class="lvl4"><a href="#4-16-andelseiernes-radighet-og-ansvar">§ 4-16. Andelseiernes rådighet og ansvar</a></li>
+<li class="lvl4"><a href="#4-17-andelseiermte">§ 4-17. Andelseiermøte</a></li>
+<li class="lvl2"><a href="#kapittel-5-fusjon-og-avvikling-av-verdipapirfond">Kapittel 5. Fusjon og avvikling av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-1-fusjon-av-verdipapirfond">§ 5-1. Fusjon av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-2-tillatelse-til-fusjon-av-verdipapirfond">§ 5-2. Tillatelse til fusjon av verdipapirfond</a></li>
+<li class="lvl4"><a href="#5-3-krav-til-fusjonsavtale-mv">§ 5-3. Krav til fusjonsavtale mv.</a></li>
+<li class="lvl4"><a href="#5-4-informasjon-til-andelseiere-ved-fusjon">§ 5-4. Informasjon til andelseiere ved fusjon</a></li>
+<li class="lvl4"><a href="#5-5-gjennomfring-av-fusjon">§ 5-5. Gjennomføring av fusjon</a></li>
+<li class="lvl4"><a href="#5-6-bekreftelse-pa-gjennomfring">§ 5-6. Bekreftelse på gjennomføring</a></li>
+<li class="lvl4"><a href="#5-7-avvikling-av-verdipapirfond">§ 5-7. Avvikling av verdipapirfond</a></li>
+<li class="lvl2"><a href="#kapittel-6-plassering-av-verdipapirfondets-midler">Kapittel 6. Plassering av verdipapirfondets midler</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I. Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#6-1-generelt-om-investeringsomrade">§ 6-1. Generelt om investeringsområde</a></li>
+<li class="lvl5"><a href="#6-2-verdipapirfondsandeler">§ 6-2. Verdipapirfondsandeler</a></li>
+<li class="lvl5"><a href="#6-3-pengemarkedsinstrumenter">§ 6-3. Pengemarkedsinstrumenter</a></li>
+<li class="lvl5"><a href="#6-4-innskudd-i-kredittinstitusjon">§ 6-4. Innskudd i kredittinstitusjon</a></li>
+<li class="lvl5"><a href="#6-5-krav-til-likviditet">§ 6-5. Krav til likviditet</a></li>
+<li class="lvl5"><a href="#6-6-plasseringsbegrensninger-fondets-midler">§ 6-6. Plasseringsbegrensninger – fondets midler</a></li>
+<li class="lvl5"><a href="#6-7-unntak-og-presiseringer-plasseringsbegrensninger">§ 6-7. Unntak og presiseringer – plasseringsbegrensninger</a></li>
+<li class="lvl5"><a href="#6-8-unntak-fra-plasseringsbegrensninger-for-indeksfond">§ 6-8. Unntak fra plasseringsbegrensninger for indeksfond</a></li>
+<li class="lvl5"><a href="#6-9-plasseringsbegrensninger-eierandel-hos-utsteder">§ 6-9. Plasseringsbegrensninger – eierandel hos utsteder</a></li>
+<li class="lvl5"><a href="#6-10-opptak-av-lan">§ 6-10. Opptak av lån</a></li>
+<li class="lvl5"><a href="#6-11-teknikker-for-portefljeforvaltning">§ 6-11. Teknikker for porteføljeforvaltning</a></li>
+<li class="lvl3"><a href="#ii-fond-i-ett-fond">II. Fond i ett fond</a></li>
+<li class="lvl5"><a href="#6-12-fond-i-ett-fond">§ 6-12. Fond i ett fond</a></li>
+<li class="lvl5"><a href="#6-13-sknad">§ 6-13. Søknad</a></li>
+<li class="lvl5"><a href="#6-14-konvertering-til-tilfringsfond-og-bytte-av-mottakerfond">§ 6-14. Konvertering til tilføringsfond og bytte av mottakerfond</a></li>
+<li class="lvl5"><a href="#6-15-mottakerfond">§ 6-15. Mottakerfond</a></li>
+<li class="lvl5"><a href="#6-16-tilfringsfond">§ 6-16. Tilføringsfond</a></li>
+<li class="lvl5"><a href="#6-17-prospekt-og-rapporter-mv-for-tilfringsfond">§ 6-17. Prospekt og rapporter mv. for tilføringsfond</a></li>
+<li class="lvl5"><a href="#6-18-forholdet-mellom-tilfrings-og-mottakerfond">§ 6-18. Forholdet mellom tilførings- og mottakerfond</a></li>
+<li class="lvl5"><a href="#6-19-revisor">§ 6-19. Revisor</a></li>
+<li class="lvl5"><a href="#6-20-depotmottaker">§ 6-20. Depotmottaker</a></li>
+<li class="lvl5"><a href="#6-21-avvikling-og-fusjon-i-mottakerfond">§ 6-21. Avvikling og fusjon i mottakerfond</a></li>
+<li class="lvl2"><a href="#kapittel-7-nasjonale-fond">Kapittel 7. Nasjonale fond</a></li>
+<li class="lvl4"><a href="#7-1-nasjonale-fond-som-ikke-er-spesialfond">§ 7-1. Nasjonale fond som ikke er spesialfond</a></li>
+<li class="lvl4"><a href="#7-2-spesialfond">§ 7-2. Spesialfond</a></li>
+<li class="lvl4"><a href="#7-3-opplysningskrav-for-spesialfond">§ 7-3. Opplysningskrav for spesialfond</a></li>
+<li class="lvl4"><a href="#7-4-styring-av-risiko-i-spesialfond">§ 7-4. Styring av risiko i spesialfond</a></li>
+<li class="lvl4"><a href="#7-5-innlsning-av-andeler-i-spesialfond">§ 7-5. Innløsning av andeler i spesialfond</a></li>
+<li class="lvl4"><a href="#7-6-srlige-bestemmelser-om-depotmottaker-for-spesialfond">§ 7-6. Særlige bestemmelser om depotmottaker for spesialfond</a></li>
+<li class="lvl4"><a href="#7-7-salg-og-markedsfring-av-spesialfond">§ 7-7. Salg og markedsføring av spesialfond</a></li>
+<li class="lvl2"><a href="#kapittel-8-pliktig-informasjon-til-investor">Kapittel 8. Pliktig informasjon til investor</a></li>
+<li class="lvl4"><a href="#8-1-arsregnskap-arsberetning-og-halvarsrapport">§ 8-1. Årsregnskap, årsberetning og halvårsrapport</a></li>
+<li class="lvl4"><a href="#8-1-a-opplysningsplikt-overfor-livsforsikringsforetak-og-pensjonsforetak">§ 8-1 a. Opplysningsplikt overfor livsforsikringsforetak og pensjonsforetak</a></li>
+<li class="lvl4"><a href="#8-2-prospekt">§ 8-2. Prospekt</a></li>
+<li class="lvl4"><a href="#8-3-krav-om-nkkelinformasjon">§ 8-3. Krav om nøkkelinformasjon</a></li>
+<li class="lvl4"><a href="#8-4-plikt-til-a-gi-nkkelinformasjon">§ 8-4. Plikt til å gi nøkkelinformasjon</a></li>
+<li class="lvl4"><a href="#8-5-sprak">§ 8-5. Språk</a></li>
+<li class="lvl4"><a href="#8-6-rapporteringsplikt-til-sentral-database">§ 8-6. Rapporteringsplikt til sentral database</a></li>
+<li class="lvl4"><a href="#8-7-informasjon-om-andelsbeholdning-mv">§ 8-7. Informasjon om andelsbeholdning m.v.</a></li>
+<li class="lvl4"><a href="#8-8-retningslinjer-for-aktivt-aksjeeierskap">§ 8-8. Retningslinjer for aktivt aksjeeierskap</a></li>
+<li class="lvl2"><a href="#kapittel-9-salg-og-markedsfring-av-verdipapirfond">Kapittel 9. Salg og markedsføring av verdipapirfond</a></li>
+<li class="lvl4"><a href="#9-1-salg-og-innlsning-av-verdipapirfondsandeler">§ 9-1. Salg og innløsning av verdipapirfondsandeler</a></li>
+<li class="lvl4"><a href="#9-2-markedsfring-av-norske-ucits-i-annen-es-stat">§ 9-2. Markedsføring av norske UCITS i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#9-3-markedsfring-av-utenlandske-ucits-i-norge">§ 9-3. Markedsføring av utenlandske UCITS i Norge</a></li>
+<li class="lvl4"><a href="#9-4-markedsfring-av-utenlandske-verdipapirfond-som-ikke-er-ucits">§ 9-4. Markedsføring av utenlandske verdipapirfond som ikke er UCITS</a></li>
+<li class="lvl4"><a href="#9-5-forskriftshjemmel">§ 9-5. Forskriftshjemmel</a></li>
+<li class="lvl4"><a href="#9-5-a-opphr-av-markedsfring-av-utenlandske-ucits-i-norge">§ 9-5 a. Opphør av markedsføring av utenlandske UCITS i Norge</a></li>
+<li class="lvl4"><a href="#9-6-melding-om-avregistrering-av-markedsfring-av-norske-ucits-i-annen-es-stat">§ 9-6. Melding om avregistrering av markedsføring av norske UCITS i annen EØS-stat</a></li>
+<li class="lvl2"><a href="#kapittel-10-depotmottaker">Kapittel 10. Depotmottaker</a></li>
+<li class="lvl4"><a href="#10-1-plikt-til-a-ha-en-depotmottaker-mv">§ 10-1. Plikt til å ha en depotmottaker mv.</a></li>
+<li class="lvl4"><a href="#10-2-krav-til-depotmottakeren">§ 10-2. Krav til depotmottakeren</a></li>
+<li class="lvl4"><a href="#10-3-depotmottakerens-oppgaver">§ 10-3. Depotmottakerens oppgaver</a></li>
+<li class="lvl4"><a href="#10-4-depotmottakerens-adgang-til-a-utkontraktere-oppgaver">§ 10-4. Depotmottakerens adgang til å utkontraktere oppgaver</a></li>
+<li class="lvl4"><a href="#10-5-god-forretningsskikk-og-interessekonflikter">§ 10-5. God forretningsskikk og interessekonflikter</a></li>
+<li class="lvl4"><a href="#10-6-depotmottakerens-erstatningsansvar">§ 10-6. Depotmottakerens erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-11-erstatning-tilsyn-straffebestemmelser">Kapittel 11. Erstatning, tilsyn, straffebestemmelser</a></li>
+<li class="lvl4"><a href="#11-1-erstatning">§ 11-1. Erstatning</a></li>
+<li class="lvl4"><a href="#11-2-tilsyn">§ 11-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#11-3-opplysningsplikt">§ 11-3. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#11-4-palegg-om-retting">§ 11-4. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#11-5-tilbakekall-og-bortfall-av-tillatelse">§ 11-5. Tilbakekall og bortfall av tillatelse</a></li>
+<li class="lvl4"><a href="#11-5-a-oppnevning-av-administrator">§ 11-5 a. Oppnevning av administrator</a></li>
+<li class="lvl4"><a href="#11-6-overtredelsesgebyr">§ 11-6. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-6-a-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 11-6 a. Momenter ved ileggelse av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#11-7-straff">§ 11-7. Straff</a></li>
+<li class="lvl4"><a href="#11-8-finanstilsynets-taushetsplikt-om-varsling-og-sanksjoner-mv">§ 11-8. Finanstilsynets taushetsplikt om varsling og sanksjoner mv.</a></li>
+<li class="lvl4"><a href="#11-9-forbud-mot-a-ha-ledelsesfunksjon">§ 11-9. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl2"><a href="#kapittel-12-tilsyn-med-utenlandsk-forvaltningsselskap-med-hovedsete-i-en-annen-es-stat-mv">Kapittel 12. Tilsyn med utenlandsk forvaltningsselskap med hovedsete i en annen EØS-stat mv.</a></li>
+<li class="lvl4"><a href="#12-1-opplysningsplikt">§ 12-1. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#12-2-palegg-om-retting-mv">§ 12-2. Pålegg om retting mv.</a></li>
+<li class="lvl4"><a href="#12-3-tilsyn-ved-markedsfring-av-utenlandske-ucits">§ 12-3. Tilsyn ved markedsføring av utenlandske UCITS</a></li>
+<li class="lvl4"><a href="#12-4-tilsynssamarbeid">§ 12-4. Tilsynssamarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-overgangsbestemmelser-endringer-i-andre-lover">Kapittel 13. Ikrafttredelse og overgangsbestemmelser. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-11-25-44.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2011-11-25-44.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-11-25-44.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2011-11-25-44.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2011-11-25-44.html">Observerte kildeutgaver</a> · <a href="../historie/verdipapirfondloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2011-11-25-44.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2011-11-25-44.html">Observerte kildeutgaver</a> · <a href="../historie/verdipapirfondloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2011-11-25-44.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-verdipapirfond-verdipapirfondloven">Lov om verdipapirfond (verdipapirfondloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>(1) Loven gjelder verdipapirfond, forvaltningen av verdipapirfond og øvrig virksomhet som drives av forvaltningsselskap etter denne lov.</p>
@@ -104,7 +417,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Varig medium: en innretning som gjør det mulig for en investor å lagre informasjon adressert personlig til vedkommende investor. Informasjonen må være tilgjengelig for fremtidig bruk i et tidsrom som er tilstrekkelig for informasjonens formål, og informasjonen må kunne reproduseres uforandret.</li>
 <li>Finansielle instrumenter: finansielle instrumenter som definert i <a href="lov-2007-06-29-75.html">verdipapirhandelloven</a> § 2-2 og tilhørende forskrift.</li>
 </ol>
-<p><em>Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="1-3-forvaltning-av-verdipapirfond">§ 1-3. Forvaltning av verdipapirfond</h4>
 <p>(1) Verdipapirfond skal forvaltes av et forvaltningsselskap i samsvar med reglene i denne lov. Dette medfører ingen innskrenkning i aksjeselskapers, allmennaksjeselskapers og andre selskapers adgang til utstedelse av egne aksjer og andeler.</p>
 <h4 id="1-4-annen-lovgivnings-anvendelse">§ 1-4. Annen lovgivnings anvendelse</h4>
@@ -115,18 +428,18 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Departementet kan i forskrift gi nærmere regler om virksomhet som er undergitt denne lov.</p>
 <p>(3) Departementet kan ved forskrift unnta forvaltningsselskap som ikke forvalter UCITS, og som har tillatelse eller er registrert etter lov om forvaltning av alternative investeringsfond , fra én eller flere bestemmelser i loven og forskrifter gitt i medhold av loven.</p>
 <p>(4) Departementet kan gi forskrift om plikt for forvaltningsselskap for verdipapirfond til å lenke til prisopplysninger i nettbaserte prisportaler.</p>
-<p><em>Endret ved lover 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="1-6-behandling-av-personopplysninger-i-tilknytning-til-autorisasjonsordninger-for-ansatte">§ 1-6. Behandling av personopplysninger i tilknytning til autorisasjonsordninger for ansatte</h4>
 <p>Næringsorganisasjon eller tilknyttet juridisk enhet som gir opplæring til og autoriserer personer ansatt i et forvaltningsselskap, tilknyttet agent, eller utenlandsk forvaltningsselskap som nevnt i §§ 3-3 første ledd eller 3-4 første ledd, kan behandle slike opplysninger som nevnt i personvernforordningen artikkel 10 som ledd i vurderingen av om en ansatt skal gis autorisasjon, fratas autorisasjon eller gis advarsel.</p>
-<p><em>Tilføyd ved lov 20 juni 2014 nr. 29 (ikr. 1 juli 2014 iflg. vedtak 26 juni 2014 nr. 866 ), endret ved lov 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2014 nr. 29 (ikr. 1 juli 2014 iflg. vedtak 26 juni 2014 nr. 866 ), endret ved lov 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195 ).</p>
 <h4 id="1-7-gjennomfring-av-pengemarkedsfondsforordningen">§ 1-7. Gjennomføring av pengemarkedsfondsforordningen <a class="para-history" href="../historikk/lov-2011-11-25-44/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) EØS-avtalen vedlegg IX forordning (EU) 2017/1131 (om pengemarkedsfond (pengemarkedsfondsforordningen)) gjelder som lov med de endringer og tillegg som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) Når det i loven her vises til pengemarkedsfondsforordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller tredje ledd.</p>
 <p>(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen .</p>
-<p><em>Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 feb 2023 iflg. res. 16 des 2022 nr. 2265 ).</em></p>
+<p class="note">Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 feb 2023 iflg. res. 16 des 2022 nr. 2265 ).</p>
 <h4 id="1-8-forordning-om-grensekryssende-distribusjon-av-fond">§ 1-8. Forordning om grensekryssende distribusjon av fond <a class="para-history" href="../historikk/lov-2011-11-25-44/para-1-8.html" title="Endringshistorikk for § 1-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) 2019/1156 om grensekryssende distribusjon av fond gjelder på tilsvarende måte for forvaltningsselskap for UCITS-fond som er omfattet av forordningens anvendelsesområde, jf. <a href="lov-2014-06-20-28.html">AIF-loven</a> § 1a-5 .</p>
-<p><em>Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h2 id="kapittel-2-forvaltningsselskap">Kapittel 2. Forvaltningsselskap</h2>
 <h4 id="2-1-krav-om-tillatelse">§ 2-1. Krav om tillatelse <a class="para-history" href="../historikk/lov-2011-11-25-44/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Verdipapirfondsforvaltning kan bare drives av aksjeselskap eller allmennaksjeselskap med tillatelse fra Finanstilsynet.</p>
@@ -137,7 +450,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>oppbevaring og forvaltning av fondsandeler.</li>
 </ol>
 <p>(4) Finanstilsynet kan stille vilkår for tillatelsen. Dersom hensynet til andelseierne eller allmenne interesser tilsier det, kan Finanstilsynet i særlige tilfelle stille nye vilkår eller endre gjeldende vilkår for forvaltningsselskapets tillatelse.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 41 (ikr. 21 juli 2019 iflg. res. 21 juni 2019 nr. 802 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 41 (ikr. 21 juli 2019 iflg. res. 21 juni 2019 nr. 802 ).</p>
 <h4 id="2-2-sknad-om-tillatelse">§ 2-2. Søknad om tillatelse</h4>
 <p>(1) Søknad om tillatelse skal inneholde opplysninger som viser at de lovbestemte krav til forvaltningsselskap er oppfylt.</p>
 <p>(2) Søknaden skal inneholde driftsplan med beskrivelse av forvaltningsselskapets organisering, selskapets vedtekter samt fremstilling av selskapets interne rutiner for forhold som nevnt i §§ 2-9 , 2-11 , 2-12 og 2-13 .</p>
@@ -157,13 +470,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Finanstilsynet kan samtykke i at forvaltningsselskap kan drive virksomhet som har tilknytning til de tjenester selskapet har tillatelse til etter § 2-1 .</p>
 <p>(2) Forvaltningsselskap som er registrert etter § 1-4 eller har tillatelse etter § 2-2 i lov om forvaltning av alternative investeringsfond , kan i tillegg forvalte alternative investeringsfond.</p>
 <p>(3) Departementet kan gi nærmere regler om forvaltningsselskapers adgang til å drive tilknyttet virksomhet.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</p>
 <h4 id="2-5-erverv-og-avhendelse-av-betydelig-eierandel">§ 2-5. Erverv og avhendelse av betydelig eierandel <a class="para-history" href="../historikk/lov-2011-11-25-44/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Erverv av betydelig eierandel i forvaltningsselskap kan bare gjennomføres etter at erververen har sendt Finanstilsynet melding om dette. Det samme gjelder erverv som medfører at eierandelen utgjør eller overstiger 20 prosent, 33 prosent eller 50 prosent av aksjekapitalen eller stemmene i selskapet.</p>
 <p>(2) Finanstilsynet kan nekte slikt erverv dersom aksjeeieren ikke anses egnet til å sikre en god og fornuftig forvaltning av forvaltningsselskapet. Den som erverver betydelig eierandel etter reglene i første ledd, skal fremlegge ordinær politiattest etter <a href="lov-2010-05-28-16.html">politiregisterloven</a> § 40 dersom Finanstilsynet ber om det.</p>
 <p>(3) Avhendelse av betydelig eierandel i forvaltningsselskap kan bare gjennomføres etter at avhenderen har sendt Finanstilsynet melding om dette. Det samme gjelder ved avhendelse av eierandel som medfører at eierandelen kommer under 20 prosent, 33 prosent eller 50 prosent av aksjekapitalen eller stemmene i selskapet.</p>
 <p>(4) Departementet kan i forskrift gi nærmere regler om erverv og avhendelse av eierandel, herunder regler om meldeplikt for forvaltningsselskapet.</p>
-<p><em>Endret ved lov 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ).</p>
 <h4 id="2-6-styre-og-daglig-leder">§ 2-6. Styre og daglig leder</h4>
 <p>(1) Forvaltningsselskapets styre skal ha minst fem medlemmer.</p>
 <p>(2) Andelseierne i de verdipapirfond som selskapet forvalter, velger minst en tredel av styrets medlemmer. Valgene skjer på valgmøter som innkalles og gjennomføres etter regler som fastsettes i forvaltningsselskapets vedtekter. På valgmøtet justeres stemmeretten slik at andelseiere som eier lik verdi, får likt antall stemmer. Beregningen skal gjøres på grunnlag av andelsverdi etter sist kunngjorte kurs. En andelseier kan stemme ved fullmektig.</p>
@@ -176,7 +489,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Styremedlem som velges av andelseierne, kan ikke være aksjeeier, tillitsvalgt eller ansatt i forvaltningsselskap eller hos depotmottaker.</p>
 <p>(4) Forvaltningsselskap skal opplyse Finanstilsynet om skifte av ledende ansatte og styremedlemmer.</p>
 <p>(5) Ansatte, tillitsvalgte og personer med bestemmende innflytelse i forvaltningsselskap har taushetsplikt om det de i sin virksomhet får kjennskap til om andres forhold med mindre noe annet er bestemt i lov eller forskrifter. Taushetsplikten omfatter også enhver som utfører oppdrag for forvaltningsselskapet.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</p>
 <h4 id="2-8-ansvarlig-kapital">§ 2-8. Ansvarlig kapital</h4>
 <p>(1) Et forvaltningsselskap skal ha en ansvarlig kapital som er forsvarlig med hensyn til virksomhetens art og omfang. Den ansvarlige kapitalen skal til enhver tid utgjøre et beløp i norske kroner som minst svarer til 125 000 euro.</p>
 <p>(2) Departementet kan i forskrift gi nærmere regler for hva som skal anses som ansvarlig kapital, stille ytterligere krav om ansvarlig kapital, samt gjøre unntak fra kravet til kapital i første ledd.</p>
@@ -185,7 +498,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Forvaltningsselskapet skal gi melding til Finanstilsynet før avtale om bortsetting av virksomhet settes i verk.</p>
 <h4 id="2-10-tilknyttede-agenter">§ 2-10. Tilknyttede agenter <a class="para-history" href="../historikk/lov-2011-11-25-44/para-2-10.html" title="Endringshistorikk for § 2-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Et forvaltningsselskap kan benytte tilknyttede agenter for å markedsføre sine tjenester samt formidle ordre om andeler i verdipapirfond. Slik virksomhet krever ikke tillatelse etter verdipapirhandelloven § 9-1 . Agenten kan være tilknyttet bare ett forvaltningsselskap. Bestemmelsene gitt i eller i medhold av verdipapirhandelloven § 10-22 annet til fjerde ledd gjelder tilsvarende så langt de passer.</p>
-<p><em>Endret ved lover 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 30 april 2021 nr. 26 (ikr. 1 juli 2021 iflg. res. 30 april 2021 nr. 1316 ).</em></p>
+<p class="note">Endret ved lover 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 30 april 2021 nr. 26 (ikr. 1 juli 2021 iflg. res. 30 april 2021 nr. 1316 ).</p>
 <h4 id="2-11-organisering-av-virksomheten">§ 2-11. Organisering av virksomheten <a class="para-history" href="../historikk/lov-2011-11-25-44/para-2-11.html" title="Endringshistorikk for § 2-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Et forvaltningsselskap skal, sett hen til de verdipapirfond som forvaltes, innrette sin virksomhet slik at selskapet har:</p>
 <ol>
@@ -196,7 +509,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Et forvaltningsselskap skal være organisert på en slik måte at risikoen for interessekonflikt mellom foretaket og dets kunder, mellom to kunder, mellom en kunde og et verdipapirfond eller mellom to verdipapirfond begrenses til et minimum.</p>
 <p>(4) Forvaltningsselskap med tillatelse etter § 2-1 annet ledd kan ikke plassere kundens midler i verdipapirfond forvaltet av selskapet, med mindre kunden har gitt skriftlig samtykke til dette.</p>
 <p>(5) Departementet kan i forskrift gi utfyllende regler om organisering av forvaltningsselskapets virksomhet.</p>
-<p><em>Endret ved lov 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</em></p>
+<p class="note">Endret ved lov 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</p>
 <h4 id="2-12-risikostyring">§ 2-12. Risikostyring</h4>
 <p>(1) Et forvaltningsselskap skal ha systemer for risikostyring som til enhver tid sikrer overvåking og måling av risikoen ved posisjonene og deres bidrag til porteføljens samlede risikoprofil.</p>
 <p>(2) Departementet kan i forskrift gi nærmere regler om risikostyring.</p>
@@ -204,7 +517,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Et forvaltningsselskap skal ha interne rutiner for behandling av kundeklager.</p>
 <p>(2) Departementet kan i forskrift fastsette nærmere regler om klagebehandling, herunder at forvaltningsselskap skal være tilknyttet utenrettslig tvisteløsningsordning godkjent i medhold av lov.</p>
 <p>(3) <a href="lov-2015-04-10-17.html">Finansforetaksloven</a> § 16-3 gjelder tilsvarende for forvaltningsselskap.</p>
-<p><em>Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lover 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h4 id="2-14-forvaltningsselskapets-kompetanse">§ 2-14. Forvaltningsselskapets kompetanse</h4>
 <p>(1) Forvaltningsselskapet treffer alle disposisjoner over fondet.</p>
 <p>(2) Forvaltningsselskapet utøver de rettigheter som knytter seg til de finansielle instrumenter selskapet forvalter.</p>
@@ -223,7 +536,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-16-godtgjrelsesordninger">§ 2-16. Godtgjørelsesordninger <a class="para-history" href="../historikk/lov-2011-11-25-44/para-2-16.html" title="Endringshistorikk for § 2-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forvaltningsselskapet skal etablere og praktisere en godtgjørelsesordning som fremmer god og effektiv risikostyring og forvaltning i samsvar med investeringsmandatene for de verdipapirfondene som forvaltes. Godtgjørelsesordningen skal omfatte ansatte med vesentlig betydning for risikoprofilen til forvaltningsselskapet eller fond under forvaltning, herunder ledende ansatte, ansatte med kontrolloppgaver og ansatte med tilsvarende godtgjørelse som ledende ansatte. Godtgjørelsesordningen skal tilpasses virksomhetens art, omfang og kompleksitet.</p>
 <p>(2) Departementet kan i forskrift gi nærmere regler om godtgjørelsesordninger.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h2 id="kapittel-3-forvaltningsselskapers-grenseoverskridende-virksomhet">Kapittel 3. Forvaltningsselskapers grenseoverskridende virksomhet</h2>
 <h4 id="3-1-melding-om-norske-forvaltningsselskapers-virksomhet-i-annen-es-stat">§ 3-1. Melding om norske forvaltningsselskapers virksomhet i annen EØS-stat</h4>
 <p>(1) Et forvaltningsselskap som vil utøve virksomhet i annen EØS-stat, skal gi Finanstilsynet melding om dette. Meldingen skal inneholde opplysninger om hvor selskapet vil utøve virksomhet. Meldingen skal også inneholde en virksomhetsplan som beskriver hvilke tjenester som skal ytes, selskapets risikostyringssystemer og hvilke tiltak som vil iverksettes for å kunne foreta utbetalinger til andelseiere, innløse andeler, holde informasjon tilgjengelig og behandle kundeklager.</p>
@@ -241,7 +554,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Melding om etablering av filial skal ikke oversendes hvis Finanstilsynet antar at forvaltningsselskapets administrative organisering eller økonomiske stilling ikke er god nok i forhold til den planlagte virksomheten. Unnlatt oversendelse er enkeltvedtak, og skal begrunnes overfor forvaltningsselskapet innen to måneder etter at tilsynsmyndigheten har mottatt alle opplysninger i saken.</p>
 <p>(5) Forvaltningsselskapet skal informere Finanstilsynet og myndigheten i vertslandet skriftlig før det gjennomfører endringer i det som tidligere er opplyst. Der det er etablert filial, skal informasjon om endring gis minst én måned før endringen gjennomføres. Dersom endringen i en filial medfører at forvaltningsselskapet ikke vil overholde loven, skal Finanstilsynet innen 15 virkedager fra komplett melding er mottatt, informere forvaltningsselskapet om at endringen ikke kan iverksettes, samt informere myndigheten i vertslandet. Dersom forvaltningsselskapet likevel gjennomfører endringen, skal Finanstilsynet iverksette nødvendige tiltak og uten ugrunnet opphold informere vertslandet.</p>
 <p>(6) Finanstilsynet skal gi melding til myndigheten i vertslandet ved endringer i erstatningsordninger som skal verne filialens kunder og endringer i forvaltningsselskapets tillatelse.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="3-3-forvaltningsselskap-etablert-i-annen-es-stat-virksomhet-i-norge">§ 3-3. Forvaltningsselskap etablert i annen EØS-stat – virksomhet i Norge</h4>
 <p>(1) Utenlandsk forvaltningsselskap som omfattes av EØS-reglene som svarer til rådsdirektiv 2009/65/EF (UCITS-direktivet), kan utøve virksomhet som beskrevet i § 2-1 i Norge direkte fra forretningsstedet i en annen EØS-stat eller gjennom etablering av filial. Foretaket må ha rett til å drive slik virksomhet i hjemlandet.</p>
 <p>(2) Innen to måneder etter at Finanstilsynet har mottatt melding fra myndighetene i en annen EØS-stat om etablering av filial, skal Finanstilsynet forberede tilsynet med forvaltningsselskapets virksomhet og opplyse selskapet om reglene for god forretningsskikk som gjelder for virksomheten. Filialen kan starte virksomhet i Norge to måneder etter at Finanstilsynet har mottatt meldingen, eller ved mottak av opplysninger etter første punktum.</p>
@@ -270,7 +583,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Ved søknad fra forvaltningsselskap med tillatelse fra en annen EØS-stat kan Finanstilsynet be den aktuelle myndigheten i forvaltningsselskapets hjemland om klargjøring og informasjon vedrørende den dokumentasjon som er mottatt etter annet ledd, og meldingen etter § 3-3 . Forvaltningsselskapet må ha rett til å drive virksomhet i Norge etter bestemmelsene i § 3-3 .</p>
 <p>(5) Dersom et norsk forvaltningsselskap vil forvalte fond etablert i en annen EØS-stat, skal Finanstilsynet gi myndighetene i fondets hjemland tilsvarende informasjon om og klargjøring av dokumentasjon som nevnt i fjerde ledd senest ti arbeidsdager etter at disse har bedt om det.</p>
 <p>(6) Søknad om etablering av verdipapirfond skal avgjøres innen to måneder etter at Finanstilsynet har mottatt fullstendig søknad.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</p>
 <h4 id="4-2-skifte-av-forvaltningsselskap">§ 4-2. Skifte av forvaltningsselskap</h4>
 <p>(1) Finanstilsynet kan gi tillatelse til at et forvaltningsselskap overfører forvaltningen av et verdipapirfond til et annet forvaltningsselskap. Finanstilsynet kan stille vilkår om gjennomføringstidspunkt, og hvordan overføringen skal offentliggjøres. Bestemmelsen i § 4-1 tredje ledd gis tilsvarende anvendelse.</p>
 <h4 id="4-3-retten-til-a-bruke-betegnelsen-verdipapirfond">§ 4-3. Retten til å bruke betegnelsen verdipapirfond</h4>
@@ -322,7 +635,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Eier flere en andel i fellesskap, skal de oppnevne én enkelt til å opptre som andelseier overfor forvaltningsselskapet.</p>
 <p>(3) Andelseierne skal gis melding når andelene er registrert i andelseierregisteret, med mindre andelseieren frasier seg denne retten.</p>
 <p>(4) En forvalter kan føres inn i den fortegnelsen som er nevnt i første ledd i stedet for andelseieren etter nærmere regler gitt av departementet i forskrift. En forvalter kan ikke delta i andelseiermøtet uten fullmakt fra den reelle eieren av andelene.</p>
-<p><em>Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</em></p>
+<p class="note">Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</p>
 <h4 id="4-11-virkning-av-registrering-i-andelseierregisteret">§ 4-11. Virkning av registrering i andelseierregisteret</h4>
 <p>(1) Eieren av en andel er legitimert til å motta utbytte og delta i valgmøte og andelseiermøte når vedkommende er registrert i andelseierregisteret.</p>
 <h4 id="4-12-innlsning-av-andeler">§ 4-12. Innløsning av andeler</h4>
@@ -439,7 +752,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Revisor for det overdragende og det overtakende fondet skal regnes som uavhengig etter første ledd.</p>
 <p>(3) Bekreftelsen skal være tilgjengelig for andelseiere og tilsynsmyndigheter.</p>
 <p>(4) Departementet kan i forskrift fastsette nærmere regler om bekreftelse som nevnt i første ledd, herunder at bekreftelsen skal omfatte flere forhold.</p>
-<p><em>Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</em></p>
+<p class="note">Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</p>
 <h4 id="5-7-avvikling-av-verdipapirfond">§ 5-7. Avvikling av verdipapirfond</h4>
 <p>(1) Avvikling av et verdipapirfond krever tillatelse fra Finanstilsynet. Søknad om tillatelse til avvikling skal begrunnes. Det kan settes vilkår for tillatelsen som utfyller eller supplerer bestemmelsene i denne paragraf.</p>
 <p>(2) Alle andelseiere skal gis informasjon om avviklingen etter at Finanstilsynet har gitt tillatelse. Informasjonen skal minst omfatte følgende:</p>
@@ -501,7 +814,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Inntil ti prosent av et verdipapirfonds midler kan plasseres i andre finansielle instrumenter enn de som er nevnt i første og annet ledd.</p>
 <p>(4) Første til tredje ledd er ikke til hinder for at et verdipapirfonds midler kan plasseres i verdipapirfondsandeler.</p>
 <p>(5) Verdipapirfondets midler kan plasseres i derivater som omsettes på et annet marked enn angitt i første ledd nr. 1 til 4 etter forskrift fastsatt av departementet.</p>
-<p><em>Endret ved lov 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</em></p>
+<p class="note">Endret ved lov 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</p>
 <h5 id="6-6-plasseringsbegrensninger-fondets-midler">§ 6-6. Plasseringsbegrensninger – fondets midler <a class="para-history" href="../historikk/lov-2011-11-25-44/para-6-6.html" title="Endringshistorikk for § 6-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Verdipapirfondets beholdning av finansielle instrumenter skal ha en sammensetning som gir en hensiktsmessig spredning av risikoen for tap.</p>
 <p>(2) Verdipapirfondets plasseringer i finansielle instrumenter kan overfor samme utsteder ikke overstige:</p>
@@ -513,7 +826,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>(3) Verdipapirfondets plasseringer i verdipapirfondsandeler tilhørende ett verdipapirfond kan ikke utgjøre mer enn 20 prosent av fondets eiendeler.</p>
 <p>(4) Alternativt kan et verdipapirfonds plasseringer i innskudd hos én kredittinstitusjon ikke utgjøre mer enn 20 prosent av fondets eiendeler.</p>
-<p><em>Endret ved lover 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ), 23 mai 2022 nr. 31 (i kraft 8 juli 2022 iflg. res. 23 mai 2022 nr. 893 ).</em></p>
+<p class="note">Endret ved lover 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ), 23 mai 2022 nr. 31 (i kraft 8 juli 2022 iflg. res. 23 mai 2022 nr. 893 ).</p>
 <h5 id="6-7-unntak-og-presiseringer-plasseringsbegrensninger">§ 6-7. Unntak og presiseringer – plasseringsbegrensninger <a class="para-history" href="../historikk/lov-2011-11-25-44/para-6-7.html" title="Endringshistorikk for § 6-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Et verdipapirfond kan, innenfor 20 prosent av fondets eiendeler, anvende følgende plasseringsbegrensninger samtidig overfor samme utsteder:</p>
 <ol>
@@ -529,7 +842,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>(4) Plasseringsbegrensningene i § 6-6 annet ledd, § 6-8 og tredje ledd i paragrafen her gjelder ikke tegning i emisjoner i henhold til fortrinnsrett for finansielle instrumenter som verdipapirfondet eier.</p>
 <p>(5) Et verdipapirfond kan, innenfor 35 prosent av fondets eiendeler, anvende plasseringsbegrensningene i § 6-6 annet og fjerde ledd og regler om motpartsrisiko ved unoterte derivater fastsatt i forskrift med hjemmel i § 6-1 samtidig overfor samme utsteder, men slik at plasseringer etter første ledd ikke kan overstige 20 prosent av fondets eiendeler.</p>
-<p><em>Endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h5 id="6-8-unntak-fra-plasseringsbegrensninger-for-indeksfond">§ 6-8. Unntak fra plasseringsbegrensninger for indeksfond</h5>
 <p>(1) Et verdipapirfonds plasseringer i aksjer og obligasjoner utstedt av samme utsteder kan utgjøre inntil 20 prosent av fondets eiendeler når følgende betingelser er oppfylt:</p>
 <ol>
@@ -551,10 +864,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Forvaltningsselskapet kan ikke oppta lån på vegne av et verdipapirfond, pådra fondet kausjons- eller garantiforpliktelser eller stille verdipapirfondets midler som sikkerhet. Forvaltningsselskapet kan ikke selge finansielle instrumenter fondet ikke eier, med mindre departementet gir nærmere regler om dette i forskrift.</p>
 <p>(2) Bestemmelsen i første ledd er ikke til hinder for at forvaltningsselskapet på vegne av verdipapirfondet opptar kortsiktige lån for inntil ti prosent av fondets eiendeler og stiller fondets midler som sikkerhet for oppfyllelse av derivatkontrakter og kontrakter som inngås for å oppnå en effektiv porteføljeforvaltning.</p>
 <p>(3) Departementet kan gi nærmere regler om sikkerhetsstillelse etter annet ledd.</p>
-<p><em>Endret ved lov 4 des 2015 nr. 96 (ikr. 1 juli 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Endret ved lov 4 des 2015 nr. 96 (ikr. 1 juli 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h5 id="6-11-teknikker-for-portefljeforvaltning">§ 6-11. Teknikker for porteføljeforvaltning <a class="para-history" href="../historikk/lov-2011-11-25-44/para-6-11.html" title="Endringshistorikk for § 6-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Departementet kan i forskrift gi regler om bruk av teknikker for porteføljeforvaltning.</p>
-<p><em>Endret ved lov 4 des 2015 nr. 96 (ikr. 1 juli 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Endret ved lov 4 des 2015 nr. 96 (ikr. 1 juli 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h3 id="ii-fond-i-ett-fond">II. Fond i ett fond</h3>
 <h5 id="6-12-fond-i-ett-fond">§ 6-12. Fond i ett fond</h5>
 <p>(1) Et UCITS (tilføringsfond) kan, uavhengig av § 6-9 første ledd nr. 3, gis tillatelse av Finanstilsynet til å plassere minst 85 prosent av sine eiendeler i andeler i et annet UCITS (mottakerfond) etablert i en EØS-stat. Eventuelle resterende midler skal plasseres i:</p>
@@ -610,7 +923,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Fondene skal gjennom hensiktsmessige tiltak koordinere tidspunkt for beregning og offentliggjøring av andelsverdi.</p>
 <p>(4) Tilføringsfondet kan midlertidig suspendere innløsningsretten eller stoppe utstedelse av andeler i samme grad som mottakerfondet gjør dette. Vilkårene i § 4-12 syvende ledd gjelder ikke i et slikt tilfelle.</p>
 <p>(5) Departementet kan gi forskrift om avtalen, interne forretningsregler og koordineringstiltak etter tredje ledd.</p>
-<p><em>Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</em></p>
+<p class="note">Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</p>
 <h5 id="6-19-revisor">§ 6-19. Revisor</h5>
 <p>(1) Hvis fondene ikke har samme revisor, skal revisorene inngå avtale om utveksling av informasjon for å sikre at de begge kan oppfylle sine forpliktelser, herunder samordning av revisjonsberetninger etter annet og tredje ledd. Avtalen skal gjelde fra det tidspunkt tilføringsfondet foretar investeringer i mottakerfondet.</p>
 <p>(2) Revisor skal i revisjonsberetningen for tilføringsfondet ta i betraktning revisjonsberetningen for mottakerfondet. Hvis fondene har ulikt regnskapsår, skal mottakerfondets revisor utarbeide en ad hoc rapport på balansedagen for tilføringsfondet.</p>
@@ -646,7 +959,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Spesialfond er verdipapirfond som er betegnet spesialfond i stadfestede vedtekter. § 4-3 gjelder tilsvarende for spesialfond.</p>
 <p>(2) Spesialfond og forvaltning av spesialfond er unntatt fra bestemmelsene i § 4-6 tredje ledd, § 4-8 , § 4-9 første ledd, §§ 6-2 , 6-3 , 6-5 , 6-6 og 6-10 . Forvaltningsselskapet kan likevel ikke pådra fondet kausjons- eller garantiforpliktelser. Finanstilsynet kan samtykke til at spesialfond fraviker bestemmelsen i § 6-9 .</p>
 <p>(3) Et spesialfonds midler kan bare plasseres i verdipapirfondsandeler dersom fondet og forvaltningen av det er underlagt betryggende tilsyn i hjemlandet, og det er etablert et tilfredsstillende samarbeid om tilsyn mellom tilsynsmyndighetene i forvaltningsselskapets hjemland og Norge.</p>
-<p><em>Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</em></p>
+<p class="note">Endret ved lov 11 apr 2014 nr. 12 (ikr. 1 juli 2014 iflg. res. 11 apr 2014 nr. 547 ).</p>
 <h4 id="7-3-opplysningskrav-for-spesialfond">§ 7-3. Opplysningskrav for spesialfond</h4>
 <p>(1) Vedtektene for spesialfond skal angi fondets investeringsområde, strategi, risikorammer og metode for styring av risiko for fondet. Departementet kan i forskrift fastsette nærmere krav til hvorledes vedtektene skal utformes for å tilfredsstille kravene i første punktum. Departementet kan i forskrift kreve at ytterligere informasjon om risiko og styring av risiko skal fremgå av vedtektene for spesialfond.</p>
 <p>(2) Forvaltningsselskap for verdipapirfond skal umiddelbart gi melding om brudd på bestemmelser i fondets vedtekter som nevnt i første ledd, og skal innen rimelig tid gi en skriftlig redegjørelse for forholdet til Finanstilsynet.</p>
@@ -666,7 +979,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Ved markedsføring av spesialfond og tilsvarende utenlandsk innretning (utenlandsk spesialfond) til ikke-profesjonelle investorer skal det fremgå klart at det er tale om spesialfond.</p>
 <p>(2) Finanstilsynet kan i særlige tilfeller forby forvalter å markedsføre og å selge spesialfond til ikke-profesjonelle investorer. Departementet kan gi nærmere regler om slikt forbud i forskrift.</p>
 <p>(3) Departementet kan i forskrift gi nærmere regler om salg og markedsføring av spesialfond, herunder hvem spesialfond kan tilbys til.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ).</p>
 <h2 id="kapittel-8-pliktig-informasjon-til-investor">Kapittel 8. Pliktig informasjon til investor</h2>
 <h4 id="8-1-arsregnskap-arsberetning-og-halvarsrapport">§ 8-1. Årsregnskap, årsberetning og halvårsrapport <a class="para-history" href="../historikk/lov-2011-11-25-44/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forvaltningsselskapet skal for hvert verdipapirfond offentliggjøre:</p>
@@ -694,7 +1007,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) Forvaltningsselskapet skal årlig gi opplysninger til livsforsikringsforetak og pensjonsforetak om investeringer i aksjer tatt opp til handel på regulert marked som ligger i eller driver virksomhet i EØS, som de forvalter på vegne av slike foretak. Opplysningene kan tas inn i årsrapporten for verdipapirfondet de forvalter, jf. § 8-1 .</p>
 <p>(2) Forvaltningsselskapet er ikke forpliktet til å gi opplysninger som nevnt i første ledd, dersom opplysningene allerede er tilgjengelig for foretakene.</p>
 <p>(3) Departementet kan i forskrift fastsette regler om innhold, utarbeidelse og offentliggjøring av informasjon som nevnt i første ledd.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 77 (i kraft 11 aug 2023 jfr. res. 11 aug 2023 nr. 1319 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 77 (i kraft 11 aug 2023 jfr. res. 11 aug 2023 nr. 1319 ).</p>
 <h4 id="8-2-prospekt">§ 8-2. Prospekt</h4>
 <p>(1) Forvaltningsselskapet skal offentliggjøre prospekt for hvert verdipapirfond det forvalter. Prospektet skal inneholde den informasjon som kreves for å kunne foreta en velbegrunnet bedømmelse av fondet og risikoen forbundet ved investering i fondet. Prospektet skal inneholde en klar og forståelig forklaring av fondets risikoprofil. Verdipapirfondets vedtekter skal vedlegges prospektet.</p>
 <p>(2) Prospektet skal gis investor vederlagsfritt på anmodning. Prospektet kan gis investor på et varig medium eller gjennom et nettsted. Investor har rett til vederlagsfri kopi av prospektet.</p>
@@ -717,7 +1030,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>(3) Vesentlige forhold i informasjonen skal holdes oppdatert. En oppdatert versjon av nøkkelinformasjonen skal være tilgjengelig på forvaltningsselskapets nettsted.</p>
 <p>(4) Departementet kan i forskrift gi nærmere regler om innhold i nøkkelinformasjon, format og fremstilling. Departementet kan i forskrift også gjøre unntak fra regler om nøkkelinformasjon i denne loven med forskrifter når forvaltningsselskapet for fondet følger kravene til nøkkelinformasjonsdokument etter PRIIPs-loven med forskrifter.</p>
-<p><em>Endret ved lover 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), 21 juni 2024 nr. 40 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1912 ).</em></p>
+<p class="note">Endret ved lover 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), 21 juni 2024 nr. 40 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1912 ).</p>
 <h4 id="8-4-plikt-til-a-gi-nkkelinformasjon">§ 8-4. Plikt til å gi nøkkelinformasjon</h4>
 <p>(1) Forvaltningsselskap og den som opptrer på selskapets vegne og under selskapets ansvar, skal gi investorer nøkkelinformasjon før tegning av andeler. Nøkkelinformasjon kan gis på et varig medium eller gjennom et nettsted. Investor har rett til vederlagsfri kopi av informasjonen.</p>
 <p>(2) Nøkkelinformasjon for verdipapirfond etablert her i riket, skal sendes Finanstilsynet før det innbys til tegning. Tilsvarende gjelder endringer i informasjonen.</p>
@@ -734,7 +1047,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Retningslinjene eller forklaringen skal være offentlig og kostnadsfritt tilgjengelig på selskapets nettside. Dersom selskapet ikke har egen nettside, skal retningslinjene eller forklaringen holdes tilgjengelig på en annen nettside.</p>
 <p>(3) Forvaltningsselskapet skal årlig offentliggjøre hvordan retningslinjene er gjennomført.</p>
 <p>(4) Departementet kan gi forskrift om retningslinjene for aktivt eierskap.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 77 (i kraft 11 aug 2023 jfr. res. 11 aug 2023 nr. 1319 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 77 (i kraft 11 aug 2023 jfr. res. 11 aug 2023 nr. 1319 ).</p>
 <h2 id="kapittel-9-salg-og-markedsfring-av-verdipapirfond">Kapittel 9. Salg og markedsføring av verdipapirfond</h2>
 <h4 id="9-1-salg-og-innlsning-av-verdipapirfondsandeler">§ 9-1. Salg og innløsning av verdipapirfondsandeler</h4>
 <p>(1) I tillegg til forvaltningsselskaper kan salg av nyutstedte andeler og innløsning av andeler forestås av kredittinstitusjoner, forsikringsselskaper og verdipapirforetak med tillatelse til å yte tjenester som nevnt i verdipapirhandelloven § 2-1 første ledd nr. 2.</p>
@@ -744,7 +1057,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Forvaltningsselskapet skal holde oppdaterte og oversatte dokumenter som nevnt i første ledd elektronisk tilgjengelig.</p>
 <p>(4) Forvaltningsselskapet skal gi Finanstilsynet og vedkommende myndighet i vertslandet melding om endringer i dokumentene minst én måned før endringene gjennomføres, og opplyse hvor dokumentene er elektronisk tilgjengelig. Endringer i hvordan fondet markedsføres, eller endringer vedrørende andelsklasser, kan ikke gjennomføres før vedkommende myndighet i vertslandet har fått skriftlig melding om det fra forvaltningsselskapet. Dersom endringen medfører at loven ikke overholdes, skal Finanstilsynet innen 15 virkedager fra komplett melding er mottatt, informere forvaltningsselskapet om at endringen ikke kan iverksettes, samt informere myndigheten i vertslandet. Dersom endringen likevel gjennomføres, skal Finanstilsynet iverksette nødvendige tiltak, herunder, om nødvendig, forby markedsføring av fondet, og uten ugrunnet opphold informere vertslandet om tiltakene.</p>
 <p>(5) Departementet kan i forskrift gi utfyllende regler om melding og bekreftelse som nevnt i denne paragrafen. Ved markedsføring etter denne paragraf gjelder ikke § 8-5 . Departementet kan i forskrift gi nærmere regler om på hvilket språk melding og bekreftelse kan utformes.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="9-3-markedsfring-av-utenlandske-ucits-i-norge">§ 9-3. Markedsføring av utenlandske UCITS i Norge <a class="para-history" href="../historikk/lov-2011-11-25-44/para-9-3.html" title="Endringshistorikk for § 9-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) UCITS etablert i en annen EØS-stat kan markedsføres i Norge etter at vedkommende myndighet i fondets hjemland har oversendt Finanstilsynet melding om markedsføring. Meldingen skal vedlegges en bekreftelse på at fondet er et UCITS, og siste versjon av fondets vedtekter, prospekt, nøkkelinformasjon, siste årsrapport og eventuell halvårsrapport.</p>
 <p>(2) Fondet skal gi melding til Finanstilsynet om endringer i dokumenter som nevnt i første ledd samtidig som det skal opplyses hvor dokumentene er elektronisk tilgjengelig. Fondet skal i tillegg gi skriftlig melding til Finanstilsynet før det gjennomføres endringer i hvordan fondet markedsføres eller vedrørende andelsklasser.</p>
@@ -754,7 +1067,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(6) Salg av andeler i verdipapirfondet og tilbud av andre tjenester i Norge må skje direkte fra hovedkontoret til forvalteren av verdipapirfondet, gjennom et representasjonskontor i Norge eller gjennom forvaltningsselskap med tillatelse etter §§ 2-1 , 3-3 eller 3-4 , kredittinstitusjon med rett til å drive finansieringsvirksomhet i Norge, forsikringsselskap med rett til å drive forsikringsvirksomhet i Norge eller verdipapirforetak med rett til å yte investeringstjenester i Norge. Dersom tjenestene tilbys av tredjeparter, skal dette følge av en skriftlig avtale som spesifiserer hvilke tjenester som ikke utøves av fondet, og som sikrer at tredjeparten mottar all relevant informasjon og dokumenter.</p>
 <p>(7) Ved markedsføring etter denne paragraf gjelder ikke § 8-5. Departementet kan i forskrift gi nærmere regler om på hvilket språk melding, bekreftelse og øvrige dokumenter med etterfølgende endringer kan utformes. I tillegg kan det fastsettes nærmere regler om informasjonsplikt utover det som følger av denne paragrafen.</p>
 <p>(8) Unntaket i syvende ledd gjelder ikke for fasiliteter. Disse skal tilbys på norsk og fremgå av et varig medium. Fasilitetene kan tilbys elektronisk.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="9-4-markedsfring-av-utenlandske-verdipapirfond-som-ikke-er-ucits">§ 9-4. Markedsføring av utenlandske verdipapirfond som ikke er UCITS <a class="para-history" href="../historikk/lov-2011-11-25-44/para-9-4.html" title="Endringshistorikk for § 9-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Utenlandsk verdipapirfond som ikke omfattes av EØS-regler som svarer til rådsdirektiv 2009/65/EF , kan markedsføres til ikke-profesjonelle investorer i Norge etter tillatelse fra Finanstilsynet. Slik tillatelse kan gis dersom:</p>
 <ol>
@@ -773,7 +1086,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>regler fastsatt i medhold av § 9-5 ikke er overholdt, eller</li>
 <li>krav i § 8-5 om språk ikke er overholdt.</li>
 </ol>
-<p><em>Endret ved lover 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ), 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2014 nr. 28 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 785 ), 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="9-5-forskriftshjemmel">§ 9-5. Forskriftshjemmel <a class="para-history" href="../historikk/lov-2011-11-25-44/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Departementet kan i forskrift gi nærmere regler om hva som regnes som salg og markedsføring, og om hvordan salg og markedsføring i Norge skal skje.</p>
 <h4 id="9-5-a-opphr-av-markedsfring-av-utenlandske-ucits-i-norge">§ 9-5 a. Opphør av markedsføring av utenlandske UCITS i Norge</h4>
@@ -781,25 +1094,25 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Informasjonen som skal gis etter første ledd, skal gis på norsk og tydelig angi konsekvensene for andelseierne ved å forbli investert i fondet.</p>
 <p>(3) Direkte og indirekte tilbud om investering i fondet skal opphøre senest på tidspunktet for oversendelse av melding om opphør av markedsføring fra vedkommende myndighet i fondets hjemland til Finanstilsynet. Avtaler med tredjeparter om distribusjon av verdipapirfondsandeler skal være endret eller terminert senest på samme tidspunkt.</p>
 <p>(4) Etter avregistrering skal gjenværende andelseiere i fondet motta informasjon som angitt i lovens kapittel 8 med forskrifter.</p>
-<p><em>Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="9-6-melding-om-avregistrering-av-markedsfring-av-norske-ucits-i-annen-es-stat">§ 9-6. Melding om avregistrering av markedsføring av norske UCITS i annen EØS-stat <a class="para-history" href="../historikk/lov-2011-11-25-44/para-9-6.html" title="Endringshistorikk for § 9-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Opphør av markedsføring av norske UCITS, herunder av en andelsklasse, i en annen EØS-stat skal meldes til Finanstilsynet. Meldingen skal inneholde informasjon som viser at krav tilsvarende det som følger av § 9-5 a første, annet og tredje ledd, er oppfylt.</p>
 <p>(2) Finanstilsynet skal innen 15 virkedager fra komplett melding er mottatt, oversende meldingen til vedkommende myndighet i de stater der markedsføringen skal opphøre. Finanstilsynet skal uten ugrunnet opphold informere forvaltningsselskapet om at melding om opphør av markedsføring er videresendt.</p>
 <p>(3) Direkte og indirekte tilbud om investering i fondet skal opphøre i det aktuelle landet senest på tidspunktet for Finanstilsynets oversendelse av opphørsmelding etter annet ledd. Avtaler med tredjeparter om distribusjon av verdipapirfondsandeler skal være endret eller terminert senest på samme tidspunkt.</p>
 <p>(4) Forvaltningsselskapet skal sørge for at eventuelle gjenværende andelseiere og Finanstilsynet mottar den informasjon som kreves etter artikkel 68 til 82 samt artikkel 94 i direktiv 2009/65/EF .</p>
-<p><em>Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h2 id="kapittel-10-depotmottaker">Kapittel 10. Depotmottaker</h2>
 <p>Kapitlet endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="10-1-plikt-til-a-ha-en-depotmottaker-mv">§ 10-1. Plikt til å ha en depotmottaker mv.</h4>
 <p>(1) Forvaltningsselskapet skal utpeke én depotmottaker for hvert fond det forvalter.</p>
 <p>(2) Avtalen med depotmottakeren skal være skriftlig. Departementet kan i forskrift gi regler om avtalens innhold.</p>
 <p>(3) Skifte av depotmottaker krever tillatelse fra Finanstilsynet.</p>
-<p><em>Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="10-2-krav-til-depotmottakeren">§ 10-2. Krav til depotmottakeren</h4>
 <p>(1) Depotmottakeren skal være en kredittinstitusjon med vedtektsfestet hjemsted i en EØS-stat og etablert i Norge.</p>
 <p>(2) Finanstilsynet kan samtykke i at en kredittinstitusjon etablert i Norge med vedtektsfestet hjemsted utenfor EØS, kan være depotmottaker dersom institusjonen er underlagt betryggende tilsyn og regulering i hjemlandet.</p>
 <p>(3) Departementet kan i forskrift gi nærmere regler om krav til depotmottaker, godkjennelse av ledelsen for depotmottakerfunksjonen og om plikt for foretaket til å melde fra til Finanstilsynet om endringer i ledelsen. Departementet kan i forskrift også fastsette at ledende ansatte skal fremlegge ordinær politiattest etter politiregisterloven § 40 i forbindelse med godkjennelse av ledelsen for depotmottakerfunksjonen.</p>
-<p><em>Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 , tidligere § 10-3).</em></p>
+<p class="note">Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 , tidligere § 10-3).</p>
 <h4 id="10-3-depotmottakerens-oppgaver">§ 10-3. Depotmottakerens oppgaver <a class="para-history" href="../historikk/lov-2011-11-25-44/para-10-3.html" title="Endringshistorikk for § 10-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Depotmottakeren skal kontrollere verdipapirfondets kontantstrømmer, at innbetalinger fra andelseiere i forbindelse med tegninger av andeler er mottatt, og at alle likvide midler er bokført på kontoer som er åpnet i fondets navn eller i forvaltningsselskapets eller depotmottakerens navn på vegne av fondet. Kontoer skal være opprettet i sentralbank, kredittinstitusjon med tillatelse etter finansforetaksloven § 2-7 , § 2-8 eller direktiv 2013/36/EU eller tilsvarende foretak i stat utenfor EØS underlagt regulering og tilsyn for beskyttelse av kundemidler.</p>
 <p>(2) Depotmottakeren skal kontrollere at disposisjoner over fondet, herunder handel for fondet, tegning og innløsning, skjer i samsvar med lov, forskrift og fondets vedtekter.</p>
@@ -812,17 +1125,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(9) Depotmottakeren skal jevnlig gi forvaltningsselskapet en samlet oversikt over alle fondets aktiva.</p>
 <p>(10) Fondsaktiva som oppbevares av depotmottakeren, kan ikke gjenbrukes, med mindre gjenbruk er tillatt etter regler fastsatt av departementet i forskrift.</p>
 <p>(11) Departementet kan i forskrift gi nærmere regler om depotmottakere, herunder om depotmottakerens oppgaver.</p>
-<p><em>Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2012 nr. 35 (ikr. 1 juli 2014 iflg. res. 22 juni 2012 nr. 566 og res. 13 des 2013 nr. 1449 ), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="10-4-depotmottakerens-adgang-til-a-utkontraktere-oppgaver">§ 10-4. Depotmottakerens adgang til å utkontraktere oppgaver</h4>
 <p>(1) Depotmottakeren kan ikke gi et annet foretak i oppdrag å forestå utførelsen av oppgaver som nevnt i § 10-3 første til sjette ledd.</p>
 <p>(2) Departementet kan i forskrift gi regler om depotmottakerens adgang til å utkontraktere andre oppgaver enn nevnt i første ledd.</p>
 <p>(3) Bruk av oppdragstaker er uten innvirkning på depotmottakerens ansvar etter § 10-6 .</p>
-<p><em>Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="10-5-god-forretningsskikk-og-interessekonflikter">§ 10-5. God forretningsskikk og interessekonflikter</h4>
 <p>(1) Depotmottakeren skal opptre ærlig, rettferdig, profesjonelt, uavhengig og i fondets og dets andelseieres interesse.</p>
 <p>(2) Funksjonen som depotmottaker skal utføres uavhengig av oppgaver som kan medføre interessekonflikter mellom fondet, dets andelseiere, forvaltningsselskapet og depotmottakeren. Potensielle interessekonflikter skal være tilstrekkelig identifisert, håndtert og overvåket og forelagt fondets andelseiere.</p>
 <p>(3) Departementet kan i forskrift gi nærmere regler om god forretningsskikk og interessekonflikter.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="10-6-depotmottakerens-erstatningsansvar">§ 10-6. Depotmottakerens erstatningsansvar</h4>
 <p>(1) Depotmottakeren er ansvarlig overfor verdipapirfondet og dets andelseiere for tap av finansielle instrumenter som oppbevares etter § 10-3 syvende ledd første punktum av depotmottakeren eller depotmottakerens oppdragstaker, med mindre tapet skyldes forhold utenfor depotmottakerens kontroll som depotmottakeren ikke med rimelighet kunne ventes å unngå eller overvinne følgene av.</p>
 <p>(2) Ved tap som nevnt i første ledd, skal depotmottakeren uten ugrunnet opphold overføre et finansielt instrument av identisk type, eller et beløp som tilsvarer verdien av instrumentet, til fondet eller til forvaltningsselskapet på vegne av fondet.</p>
@@ -830,11 +1143,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Depotmottakeren kan ikke begrense eller fraskrive seg erstatningsansvar ved avtale. Avtaler i strid med første punktum er ugyldige.</p>
 <p>(5) Depotmottakerens erstatningsansvar overfor nasjonale fond og dets andelseiere, herunder spesialfond, reguleres av lov 20. juni 2014 nr. 28 om forvaltning av alternative investeringsfond § 5-4 og tilhørende forskrifter.</p>
 <p>(6) Departementet kan i forskrift gi nærmere regler om depotmottakerens erstatningsansvar.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h2 id="kapittel-11-erstatning-tilsyn-straffebestemmelser">Kapittel 11. Erstatning, tilsyn, straffebestemmelser</h2>
 <h4 id="11-1-erstatning">§ 11-1. Erstatning <a class="para-history" href="../historikk/lov-2011-11-25-44/para-11-1.html" title="Endringshistorikk for § 11-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forvaltningsselskap er ansvarlig for tap som påføres fondet ved forsømmelser i forretningsførselen.</p>
-<p><em>Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</em></p>
+<p class="note">Endret ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ).</p>
 <h4 id="11-2-tilsyn">§ 11-2. Tilsyn</h4>
 <p>(1) Finanstilsynet fører tilsyn med overholdelse av denne lovs bestemmelser.</p>
 <h4 id="11-3-opplysningsplikt">§ 11-3. Opplysningsplikt</h4>
@@ -858,7 +1171,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>(3) Når tillatelsen bortfaller eller blir kalt tilbake, skal den konsesjonspliktige virksomheten avvikles. Finanstilsynet fører tilsyn under avviklingsperioden og kan gi pålegg om gjennomføringen av avviklingen. Departementet kan fastsette utfyllende forskrifter om avviklingen.</p>
 <p>(4) Dersom tillatelsen til et forvaltningsselskap som driver virksomhet i en annen EØS-stat bortfaller eller blir kalt tilbake, skal tilsynsmyndighetene i vertsstaten underrettes.</p>
-<p><em>Endret ved lov 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="11-5-a-oppnevning-av-administrator">§ 11-5 a. Oppnevning av administrator</h4>
 <p>(1) Dersom forvaltningsselskapet ikke overholder pålegg gitt etter § 11-5 tredje ledd annet punktum , og det anses nødvendig for å ivareta investorenes interesser, kan Finanstilsynet oppnevne en eller flere administratorer til å sikre en forsvarlig avvikling av den konsesjonspliktige virksomheten. Det samme gjelder dersom Finanstilsynet har grunn til å anta at foretaket ikke vil overholde et pålegg gitt etter § 11-5 tredje ledd annet punktum , og risikoen for at kundene vil lide vesentlige tap er betydelig større om oppnevningen må vente. Oppdraget skal gjelde til den konsesjonspliktige virksomheten er avviklet, eller til Finanstilsynet bringer det til opphør. Administratoren skal ha de nødvendige kvalifikasjonene for å utføre oppdraget og skal ikke ha interessekonflikter.</p>
 <p>(2) Administratorens oppgaver og myndighet fastsettes av Finanstilsynet i det enkelte tilfellet og kan omfatte daglig leders og styrets oppgaver. Det kan fastsettes at vedtak i bestemte saker ikke kan treffes uten samtykke fra administratoren eller godkjennelse fra Finanstilsynet.</p>
@@ -866,7 +1179,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Administratoren skal regelmessig gi Finanstilsynet rapport om utførelsen av sitt oppdrag. Administratoren er ikke ansvarlig for skade voldt under utførelsen av oppdraget, med mindre skaden skyldes eget forsett eller grov uaktsomhet.</p>
 <p>(5) Kostnadene til administratoren skal dekkes av forvaltningsselskapet.</p>
 <p>(6) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.</p>
-<p><em>Tilføyd ved lov 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ).</p>
 <h4 id="11-6-overtredelsesgebyr">§ 11-6. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2011-11-25-44/para-11-6.html" title="Endringshistorikk for § 11-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av:</p>
 <ol>
@@ -884,7 +1197,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(8) Overtredelsesgebyret kan fastsettes til inntil to ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, dersom dette gir høyere gebyr enn utmålingen etter sjette og syvende ledd.</p>
 <p>(9) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.</p>
 <p>(10) Departementet kan fastsette forskrift om renter ved forsinket betaling av overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), endret ved lover 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 , unntatt første ledd nr. 2), 18 juni 2021 nr. 101 (i kraft 1 feb 2023 iflg. res. 16 des 2022 nr. 2265 , gjelder første ledd nr. 2), 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ), 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 , gjelder første ledd nr. 3). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), endret ved lover 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 , unntatt første ledd nr. 2), 18 juni 2021 nr. 101 (i kraft 1 feb 2023 iflg. res. 16 des 2022 nr. 2265 , gjelder første ledd nr. 2), 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ), 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 , gjelder første ledd nr. 3). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="11-6-a-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 11-6 a. Momenter ved ileggelse av overtredelsesgebyr</h4>
 <p>Ved avgjørelsen av om overtredelsesgebyr skal ilegges, og ved utmåling kan det tas hensyn til:</p>
 <ol>
@@ -898,19 +1211,19 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>forhold som nevnt i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> § 46 andre ledd</li>
 <li>andre relevante forhold.</li>
 </ol>
-<p><em>Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 ).</em></p>
+<p class="note">Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 ).</p>
 <h4 id="11-7-straff">§ 11-7. Straff <a class="para-history" href="../historikk/lov-2011-11-25-44/para-11-7.html" title="Endringshistorikk for § 11-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med bøter eller fengsel inntil 1 år straffes den som grovt eller gjentatte ganger forsettlig eller uaktsomt overtrer § 1-3 første punktum , § 2-1 første ledd , § 2-4 , § 2-7 femte ledd , § 2-9 , § 2-15 , § 3-1 , § 3-2 , § 4-1 første ledd , § 4-6 , § 4-7 , § 6-1 til § 6-9 , § 6-10 første ledd , § 6-11 , § 8-2 , § 8-3 , § 8-4 , § 10-3 , § 11-3 , § 11-4 første, annet eller fjerde ledd, § 12-1 eller § 12-2 , SFTR , jf. verdipapirhandelloven § 17A-1 , artikkel 14, eller forskrifter gitt i medhold av de nevnte bestemmelsene, eller vilkår i tillatelser gitt i medhold av de nevnte bestemmelsene.</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 , tidligere § 11-6), 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 , tidligere § 11-6), 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ).</p>
 <h4 id="11-8-finanstilsynets-taushetsplikt-om-varsling-og-sanksjoner-mv">§ 11-8. Finanstilsynets taushetsplikt om varsling og sanksjoner mv. <a class="para-history" href="../historikk/lov-2011-11-25-44/para-11-8.html" title="Endringshistorikk for § 11-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Enhver som utfører arbeid eller tjeneste for Finanstilsynet eller departementet, har taushetsplikt overfor uvedkommende om opplysninger som omhandler tiltak og sanksjoner som knytter seg til overtredelse av regler i loven her eller forskrifter i medhold av loven, så lenge offentliggjøring av opplysningene kan skape alvorlig uro på finansmarkedene eller påføre de berørte parter uforholdsmessig stor skade. Forvaltningsloven §§ 13 , 13 b til 13 e og 13 g gjelder ikke for opplysninger som nevnt i første punktum.</p>
 <p>(2) Enhver som utfører arbeid eller tjeneste for Finanstilsynet eller departementet, har taushetsplikt overfor uvedkommende om identiteten til personer som har gitt meldinger, tips eller liknende opplysninger om overtredelser av loven og tilhørende forskrifter, og om andre opplysninger som kan gjøre identiteten kjent, med mindre bruk av opplysningene er nødvendig som ledd i ytterligere undersøkelser av overtredelsen eller etterfølgende rettsforfølgning av saken. Taushetsplikten etter første punktum gjelder også overfor sakens parter og deres representanter.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2018 iflg. res. 15 des 2017 nr. 2043 ), endret ved lov 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ).</p>
 <h4 id="11-9-forbud-mot-a-ha-ledelsesfunksjon">§ 11-9. Forbud mot å ha ledelsesfunksjon <a class="para-history" href="../historikk/lov-2011-11-25-44/para-11-9.html" title="Endringshistorikk for § 11-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Dersom styremedlemmer, oppdragstakere eller ansatte i foretak med tillatelse til å drive virksomhet som omfattes av denne loven, har overtrådt eller medvirket til overtredelse av bestemmelser gitt i eller i medhold av loven her, lov om forvaltning av alternative investeringsfond , eller SFTR , jf. verdipapirhandelloven § 17A-1 , artikkel 13 og 14, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller lov om forvaltning av alternative investeringsfond , dersom overtredelsen eller medvirkningen til denne medfører at vedkommende må anses uskikket til å ha ledelsesfunksjon i et foretak som må ha tillatelse til å drive virksomhet etter loven her eller lov om forvaltning av alternative investeringsfond .</p>
 <p>(2) Et vedtak etter første ledd kan gis for et tidsrom av inntil fem år.</p>
 <p>(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.</p>
-<p><em>Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 ), endret ved lov 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ).</em></p>
+<p class="note">Tilføyd ved lov 18 juni 2021 nr. 101 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2265 ), endret ved lov 25 juni 2024 nr. 60 (i kraft 1 aug 2024 iflg. res. 25. juni 2024 nr. 1214 ).</p>
 <h2 id="kapittel-12-tilsyn-med-utenlandsk-forvaltningsselskap-med-hovedsete-i-en-annen-es-stat-mv">Kapittel 12. Tilsyn med utenlandsk forvaltningsselskap med hovedsete i en annen EØS-stat mv.</h2>
 <h4 id="12-1-opplysningsplikt">§ 12-1. Opplysningsplikt</h4>
 <p>(1) Finanstilsynet kan til statistisk bruk pålegge utenlandske forvaltningsselskap som driver virksomhet i henhold til § 3-3 , å avgi rapporter om sin virksomhet.</p>
@@ -924,7 +1237,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="12-3-tilsyn-ved-markedsfring-av-utenlandske-ucits">§ 12-3. Tilsyn ved markedsføring av utenlandske UCITS <a class="para-history" href="../historikk/lov-2011-11-25-44/para-12-3.html" title="Endringshistorikk for § 12-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan gi verdipapirfond som markedsføres i henhold til § 9-3 , pålegg om retting dersom markedsføringen utøves i strid med § 9-3 tredje til åttende ledd eller § 9-5 a .</p>
 <p>(2) Finanstilsynet kan treffe nødvendige tiltak for å beskytte investorer her i landet, herunder hindre fremtidig markedsføring dersom regler i verdipapirfondets hjemland ikke følges. Før tiltak treffes, skal verdipapirfondets hjemlandsmyndighet varsles.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 79 (i kraft 1 okt 2024 iflg. res. 9 aug 2024 nr. 1913 ).</p>
 <h4 id="12-4-tilsynssamarbeid">§ 12-4. Tilsynssamarbeid</h4>
 <p>(1) Vedkommende myndigheter i en EØS-stat kan anmode Finanstilsynet om å samarbeide om utøvelse av tilsyn i Norge dersom dette er nødvendig for vedkommende myndigheters kontroll eller håndhevelse. Finanstilsynet kan gjennomføre tilsynet selv, eller tillate at det andre landets myndigheter gjennomfører tilsynet.</p>
 <p>(2) Etter forhåndsmelding til Finanstilsynet kan vedkommende myndigheter i forvaltningsselskapets hjemland, i samarbeid med Finanstilsynet, foreta stedlig kontroll i filial etablert i henhold til § 3-3 .</p>
@@ -938,6 +1251,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p><em>1 Fra 1 jan 2012 iflg. res. 25 nov 2011 nr. 1128 , med unntak av § 8-3 og § 8-4 som gjelder fra 1 juli 2012.</em></p>
 <h4 id="13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</h4>
 <p>(1) Fra den tid loven gjelder, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

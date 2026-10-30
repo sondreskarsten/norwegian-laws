@@ -19,80 +19,153 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2015-12-04-95.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Referanseverdiloven" href="../feeds/lov-2015-12-04-95.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Referanseverdiloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2015-12-04-95</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Banker\nBank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Forsikring</dd>
-<dt>Ikrafttredelse</dt><dd>2016-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-05-27-18</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2015-12-04-95" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-referanseverdiforordningen">§ 1. Referanseverdiforordningen</a></li>
+<li class="lvl3"><a href="#2-tillatelse-til-eller-godkjenning-av-administratorer">§ 2. Tillatelse til eller godkjenning av administratorer</a></li>
+<li class="lvl3"><a href="#3-tilsyn-mv">§ 3. Tilsyn mv.</a></li>
+<li class="lvl3"><a href="#4-srskilt-opplysningsplikt-for-bidragsytere-til-en-varereferanseverdi">§ 4. Særskilt opplysningsplikt for bidragsytere til en varereferanseverdi</a></li>
+<li class="lvl3"><a href="#5-opplysningsplikt-for-enhver-ved-mistanke-om-overtredelse">§ 5. Opplysningsplikt for enhver ved mistanke om overtredelse</a></li>
+<li class="lvl3"><a href="#6-bevissikring">§ 6. Bevissikring</a></li>
+<li class="lvl3"><a href="#7-palegg-om-retting">§ 7. Pålegg om retting</a></li>
+<li class="lvl3"><a href="#8-palegg-om-publisering">§ 8. Pålegg om publisering</a></li>
+<li class="lvl3"><a href="#9-tvangsmulkt">§ 9. Tvangsmulkt</a></li>
+<li class="lvl3"><a href="#10-forbud-mot-a-ha-ledelsesfunksjon">§ 10. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl3"><a href="#11-administrativ-inndragning">§ 11. Administrativ inndragning</a></li>
+<li class="lvl3"><a href="#12-overtredelsesgebyr">§ 12. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#13-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 13. Momenter ved ileggelse av overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelse">§ 14. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-05-27-18.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-12-04-95.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om fastsettelse av finansielle referanseverdier (referanseverdiloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-12-04-95.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2015-12-04-95 <code>lov/2015-12-04-95</code></td></tr>
+<tr><th>Korttittel</th><td>Referanseverdiloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Banker\nBank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Forsikring</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2016</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-05-27-18 <code>lov/2025-05-27-18</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2015-12-04-95" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-referanseverdiforordningen">§ 1. Referanseverdiforordningen</a></li>
+<li class="lvl3"><a href="#2-tillatelse-til-eller-godkjenning-av-administratorer">§ 2. Tillatelse til eller godkjenning av administratorer</a></li>
+<li class="lvl3"><a href="#3-tilsyn-mv">§ 3. Tilsyn mv.</a></li>
+<li class="lvl3"><a href="#4-srskilt-opplysningsplikt-for-bidragsytere-til-en-varereferanseverdi">§ 4. Særskilt opplysningsplikt for bidragsytere til en varereferanseverdi</a></li>
+<li class="lvl3"><a href="#5-opplysningsplikt-for-enhver-ved-mistanke-om-overtredelse">§ 5. Opplysningsplikt for enhver ved mistanke om overtredelse</a></li>
+<li class="lvl3"><a href="#6-bevissikring">§ 6. Bevissikring</a></li>
+<li class="lvl3"><a href="#7-palegg-om-retting">§ 7. Pålegg om retting</a></li>
+<li class="lvl3"><a href="#8-palegg-om-publisering">§ 8. Pålegg om publisering</a></li>
+<li class="lvl3"><a href="#9-tvangsmulkt">§ 9. Tvangsmulkt</a></li>
+<li class="lvl3"><a href="#10-forbud-mot-a-ha-ledelsesfunksjon">§ 10. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl3"><a href="#11-administrativ-inndragning">§ 11. Administrativ inndragning</a></li>
+<li class="lvl3"><a href="#12-overtredelsesgebyr">§ 12. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#13-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 13. Momenter ved ileggelse av overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelse">§ 14. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-12-04-95.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-12-04-95.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-12-04-95.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2015-12-04-95.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2015-12-04-95.html">Observerte kildeutgaver</a> · <a href="../historie/referanseverdiloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2015-12-04-95.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2015-12-04-95.html">Observerte kildeutgaver</a> · <a href="../historie/referanseverdiloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2015-12-04-95.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-fastsettelse-av-finansielle-referanseverdier-referanseverdiloven">Lov om fastsettelse av finansielle referanseverdier (referanseverdiloven)</h1>
 <h3 id="1-referanseverdiforordningen">§ 1. Referanseverdiforordningen</h3>
 <p>(1) EØS-avtalen vedlegg IX (forordning (EU) 2016/1011 ) om indekser brukt som referanseverdier i finansielle instrumenter og finansielle kontrakter eller for å måle resultatet i investeringsfond (referanseverdiforordningen), som endret ved forordning (EU) 2022/2554 , jf. lov om digital operasjonell motstandsdyktighet i finanssektoren § 1 , gjelder som lov med de tilpasninger som følger av vedlegg IX , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen. Departementet kan også av hensyn til å etablere et helhetlig system for referanseverdier fastsette forskrifter som gir nærmere regler om referanseverdier tilknyttet klimagassutslipp og publisering av informasjon om referanseverdiers betydning for bærekraftsmål. Forskriften kan også forlenge tiden administratorer og bidragsytere kan gis pålegg som nevnt i referanseverdiforordningen artikkel 21 og artikkel 23.</p>
 <p>(3) Når det i loven her vises til referanseverdiforordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller annet ledd.</p>
 <p>(4) Departementet kan i forskrift gi regler om referanseverdier, administratorer av referanseverdier, fastsettelse av referanseverdier, bidragsytere til referanseverdier og publisering av referanseverdier dersom dette er nødvendig av hensyn til finansiell stabilitet og sikre og velfungerende markeder.</p>
-<p><em>Endret ved lover 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ), 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</em></p>
+<p class="note">Endret ved lover 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ), 27 mai 2025 nr. 18 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1084 ).</p>
 <h3 id="2-tillatelse-til-eller-godkjenning-av-administratorer">§ 2. Tillatelse til eller godkjenning av administratorer</h3>
 <p>Finanstilsynet gir tillatelse til eller godkjenner registrering av administratorer av referanseverdier etter referanseverdiforordningen. Finanstilsynet kan trekke tilbake eller suspendere en tillatelse eller godkjenning etter artikkel 35 i referanseverdiforordningen.</p>
-<p><em>Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="3-tilsyn-mv">§ 3. Tilsyn mv.</h3>
 <p>(1) Finanstilsynet er nasjonal tilsynsmyndighet etter referanseverdiforordningen og fører tilsyn med overholdelse av bestemmelser gitt i eller i medhold av denne loven.</p>
 <p>(2) Bidragsytere til en referanseverdi omfattet av referanseverdiforordningen kan pålegges opplysningsplikt og retting etter bestemmelsene i <a href="lov-2024-06-21-41.html">finanstilsynsloven</a> for så vidt gjelder deres virksomhet omfattet av loven her.</p>
-<p><em>Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="4-srskilt-opplysningsplikt-for-bidragsytere-til-en-varereferanseverdi">§ 4. Særskilt opplysningsplikt for bidragsytere til en varereferanseverdi</h3>
 <p>Finanstilsynet kan kreve at bidragsytere til referanseverdier som nevnt i referanseverdiforordningens artikkel 3 nr. 1 punkt 23 utleverer opplysningene i standardisert format, og kan kreve utlevert transaksjonsrapportering. I tillegg kan Finanstilsynet kreve direkte tilgang til handelssystemene.</p>
-<p><em>Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="5-opplysningsplikt-for-enhver-ved-mistanke-om-overtredelse">§ 5. Opplysningsplikt for enhver ved mistanke om overtredelse</h3>
 <p>(1) Dersom Finanstilsynet har mistanke om overtredelse av bestemmelser gitt i eller i medhold av denne loven, kan enhver pålegges å gi de opplysninger Finanstilsynet krever, herunder stille til muntlig forklaring.</p>
 <p>(2) Opplysningsplikten i første ledd gjelder uten hinder av taushetsplikt, med unntak av opplysninger som vedkommende ville vært forhindret fra å gi i en straffesak. Opplysningsplikten gjelder uansett uten hinder av:</p>
@@ -103,7 +176,7 @@ d. taushetsplikt som nevnt i <a href="lov-2024-12-13-76.html">ekomloven</a> § 3
 <p>(3) Opplysningene kan kreves gitt skriftlig eller muntlig innen en fastsatt frist og kan nedtegnes eller lagres som lydopptak. Den som innkalles til muntlig forklaring, har rett til å la seg bistå av advokat.</p>
 <p>(4) Første til tredje ledd gjelder selv om det er besluttet bevissikring etter § 6 , og gis tilsvarende anvendelse der Finanstilsynet anmodes av annen stats myndighet som fører tilsyn som nevnt i finanstilsynsloven, om å innhente opplysninger på bakgrunn av mistanke om tilsvarende overtredelse av vedkommende stats lovgivning.</p>
 <p>(5) Departementet kan i forskrift fastsette nærmere regler om innholdet av opplysningsplikten, herunder bestemmelser om unntak fra taushetsplikt, i hvilket format opplysningene skal gis og Finanstilsynets behandling av opplysninger som innhentes.</p>
-<p><em>Endret ved lover 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ), 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</em></p>
+<p class="note">Endret ved lover 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ), 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</p>
 <h3 id="6-bevissikring">§ 6. Bevissikring</h3>
 <p>(1) For å søke etter bevis kan Finanstilsynet når det er rimelig grunn til å anta at bestemmelser i eller fastsatt i medhold av denne loven er overtrådt, eller det er nødvendig for å oppfylle Norges avtaleforpliktelser overfor annen stat, kreve</p>
 <p>a. å få adgang til lokaler, eiendommer og andre oppbevaringssteder hvor det kan finnes bevis for overtredelse,
@@ -113,20 +186,20 @@ c. å ta med ting, herunder kopi av dokumenter og annen informasjon og teknisk l
 <p>(3) Finanstilsynet kan kreve bistand av politiet for å iverksette beslutning om bevissikring.</p>
 <p>(4) Dersom det ikke er tid til å avvente rettens beslutning, kan Finanstilsynet kreve at politiet avstenger områder der bevisene kan være, inntil rettens beslutning foreligger.</p>
 <p>(5) Departementet kan i forskrift fastsette nærmere regler om bevissikring og behandling av overskuddsinformasjon.</p>
-<p><em>Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="7-palegg-om-retting">§ 7. Pålegg om retting</h3>
 <p>Dersom Finanstilsynet har grunn til å anta at noen handler i strid med bestemmelser gitt i eller i medhold av denne loven, eller vedtak fattet med hjemmel i loven, kan Finanstilsynet pålegge vedkommende å rette forholdet.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="8-palegg-om-publisering">§ 8. Pålegg om publisering</h3>
 <p>Finanstilsynet kan gi administrator eller andre som har publisert en referanseverdi, pålegg om å publisere en rettelse til referanseverdien.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="9-tvangsmulkt">§ 9. Tvangsmulkt</h3>
 <p>Ved pålegg etter §§ 7 og 8 kan Finanstilsynet fastsette en tvangsmulkt som løper for hver dag som går etter utløpet av fristen som er satt for oppfyllelse av pålegget, inntil pålegget er oppfylt.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="10-forbud-mot-a-ha-ledelsesfunksjon">§ 10. Forbud mot å ha ledelsesfunksjon</h3>
 <p>(1) Dersom styremedlemmer, andre tillitsvalgte, oppdragstakere eller ansatte i foretak med tillatelse eller godkjenning av registrering etter denne loven har overtrådt eller medvirket til overtredelse av bestemmelser gitt i eller i medhold av loven her, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan inneha ledelsesfunksjon i administrator som nevnt i § 2 eller bidragsytere under tilsyn, dersom overtredelsen eller medvirkningen til denne medfører at vedkommende må anses uskikket til å inneha slik ledelsesfunksjon.</p>
 <p>(2) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h3 id="11-administrativ-inndragning">§ 11. Administrativ inndragning</h3>
 <p>(1) Finanstilsynet kan helt eller delvis inndra vinning som er oppnådd ved overtredelse av bestemmelsene nevnt i referanseverdiforordningen artikkel 42 nr. 1 eller forskrifter gitt til utfylling av disse bestemmelsene.</p>
 <p>(2) Inndragningen foretas overfor den som vinningen er tilfalt, også når den som vinningen tilfaller, er en annen enn lovovertrederen.</p>
@@ -139,7 +212,7 @@ c. å ta med ting, herunder kopi av dokumenter og annen informasjon og teknisk l
 <p>(9) Adgangen for Finanstilsynet til å treffe beslutning om administrativ inndragning foreldes ti år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet gir forhåndsvarsel eller treffer beslutning om administrativ inndragning.</p>
 <p>(10) Vedtatt administrativ inndragning er tvangsgrunnlag for utlegg.</p>
 <p>(11) Departementet kan i forskrift fastsette nærmere bestemmelser om administrativ inndragning etter bestemmelsene her.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="12-overtredelsesgebyr">§ 12. Overtredelsesgebyr</h3>
 <p>(1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av bestemmelser som nevnt i referanseverdiforordningen artikkel 42 nr. 1 eller forskrifter gitt til utfylling av disse bestemmelsene. Det samme gjelder ved overtredelse av pålegg om å innrette seg etter bestemmelser som nevnt i første punktum eller ved brudd på plikter som følger av enkeltvedtak gitt med hjemmel i disse bestemmelsene. Overtredelsesgebyr kan også ilegges ved manglende etterlevelse av pålegg om opplysningsplikt gitt i medhold av §§ 4 eller 5 eller finanstilsynsloven, og ved brudd på vilkår i tillatelse eller godkjenning etter § 2 .</p>
 <p>(2) Fysiske personer kan ilegges overtredelsesgebyr bare for forsettlige eller uaktsomme overtredelser. Forvaltningsloven § 46 første ledd gjelder for foretak.</p>
@@ -148,7 +221,7 @@ c. å ta med ting, herunder kopi av dokumenter og annen informasjon og teknisk l
 <p>(5) Overtredelsesgebyret kan fastsettes til tre ganger oppnådd fortjeneste eller unngått tap som følge av overtredelsen, selv om dette gir høyere gebyr enn utmålingen etter tredje og fjerde ledd.</p>
 <p>(6) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen er opphørt. Fristen avbrytes ved at Finanstilsynet gir forhåndsvarsel eller fatter vedtak om overtredelsesgebyr.</p>
 <p>(7) Departementet kan i forskrift gi nærmere bestemmelser om kvalifisert skyldkrav for å ilegge overtredelsesgebyr. Departementet kan i forskrift gi nærmere regler om renter ved forsinket betaling av overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h3 id="13-momenter-ved-ileggelse-av-overtredelsesgebyr">§ 13. Momenter ved ileggelse av overtredelsesgebyr</h3>
 <p>Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av gebyr kan det blant annet tas hensyn til</p>
 <p>a. overtredelsens grovhet og varighet
@@ -158,12 +231,14 @@ d. oppnådd fortjeneste eller unngått tap
 e. tap påført tredjeperson som følge av overtredelsen
 f. vilje til å samarbeide med myndighetene
 g. tidligere overtredelser</p>
-<p><em>Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</em></p>
+<p class="note">Tilføyd ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 ).</p>
 <h3 id="14-ikrafttredelse">§ 14. Ikrafttredelse</h3>
 <p>(1) Loven gjelder fra den tid Kongen bestemmer. 1 Kongen kan sette i kraft de enkelte bestemmelser til forskjellig tid.</p>
 <p>(2) Departementet kan fastsette overgangsregler.</p>
-<p><em>Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 , tidligere § 7).
-1 Fra 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 .</em></p>
+<p class="note">Endret ved lov 6 des 2019 nr. 76 (ikr. 20 des 2019 iflg. res. 20 des 2019 nr. 1913 , tidligere § 7).
+1 Fra 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

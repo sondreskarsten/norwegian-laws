@@ -19,64 +19,151 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2002-06-07-19.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Navneloven" href="../feeds/lov-2002-06-07-19.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Navneloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2002-06-07-19</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Personrett. Personvern</dd>
-<dt>Ikrafttredelse</dt><dd>2003-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2021-05-07-34</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2002-06-07-19" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-navneplikt">Kapittel 1. Navneplikt</a></li>
+<li class="lvl4"><a href="#1-plikt-til-a-ha-navn">§ 1. Plikt til å ha navn</a></li>
+<li class="lvl4"><a href="#2-plikt-til-a-velge-navn-for-barn">§ 2. Plikt til å velge navn for barn</a></li>
+<li class="lvl2"><a href="#kapittel-2-etternavn-fornavn-og-mellomnavn">Kapittel 2. Etternavn, fornavn og mellomnavn</a></li>
+<li class="lvl4"><a href="#3-frie-beskyttede-og-nye-etternavn">§ 3. Frie, beskyttede og nye etternavn</a></li>
+<li class="lvl4"><a href="#4-avledede-etternavn">§ 4. Avledede etternavn</a></li>
+<li class="lvl4"><a href="#5-etternavn-ved-adopsjon">§ 5. Etternavn ved adopsjon</a></li>
+<li class="lvl4"><a href="#6-endringer-i-samme-etternavn">§ 6. Endringer i samme etternavn</a></li>
+<li class="lvl4"><a href="#7-doble-etternavn">§ 7. Doble etternavn</a></li>
+<li class="lvl4"><a href="#8-fornavn">§ 8. Fornavn</a></li>
+<li class="lvl4"><a href="#9-mellomnavn">§ 9. Mellomnavn</a></li>
+<li class="lvl4"><a href="#10-alminnelige-begrensninger">§ 10. Alminnelige begrensninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-saksbehandling-mm">Kapittel 3. Saksbehandling m.m.</a></li>
+<li class="lvl4"><a href="#11-meldeplikt-og-forvaltningsorgan-for-navnesaker">§ 11. Meldeplikt og forvaltningsorgan for navnesaker</a></li>
+<li class="lvl4"><a href="#12-melding-om-navn-for-barn">§ 12. Melding om navn for barn</a></li>
+<li class="lvl4"><a href="#13-sksmal">§ 13. Søksmål</a></li>
+<li class="lvl4"><a href="#14-hvem-loven-gjelder-for-utenlandske-navneavgjrelser-mm">§ 14. Hvem loven gjelder for, utenlandske navneavgjørelser m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-sluttbestemmelser">Kapittel 4. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#15-ikrafttredelse">§ 15. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-overgangsregler">§ 16. Overgangsregler</a></li>
+<li class="lvl4"><a href="#17-endringer-i-andre-lover">§ 17. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2021-05-07-34.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-07-19.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om personnavn (navneloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2002-06-07-19.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2002-06-07-19 <code>lov/2002-06-07-19</code></td></tr>
+<tr><th>Korttittel</th><td>Navneloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Personrett. Personvern</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2003</td></tr>
+<tr><th>Sist endret</th><td>LOV-2021-05-07-34 <code>lov/2021-05-07-34</code> fra 01.06.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2002-06-07-19" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-navneplikt">Kapittel 1. Navneplikt</a></li>
+<li class="lvl4"><a href="#1-plikt-til-a-ha-navn">§ 1. Plikt til å ha navn</a></li>
+<li class="lvl4"><a href="#2-plikt-til-a-velge-navn-for-barn">§ 2. Plikt til å velge navn for barn</a></li>
+<li class="lvl2"><a href="#kapittel-2-etternavn-fornavn-og-mellomnavn">Kapittel 2. Etternavn, fornavn og mellomnavn</a></li>
+<li class="lvl4"><a href="#3-frie-beskyttede-og-nye-etternavn">§ 3. Frie, beskyttede og nye etternavn</a></li>
+<li class="lvl4"><a href="#4-avledede-etternavn">§ 4. Avledede etternavn</a></li>
+<li class="lvl4"><a href="#5-etternavn-ved-adopsjon">§ 5. Etternavn ved adopsjon</a></li>
+<li class="lvl4"><a href="#6-endringer-i-samme-etternavn">§ 6. Endringer i samme etternavn</a></li>
+<li class="lvl4"><a href="#7-doble-etternavn">§ 7. Doble etternavn</a></li>
+<li class="lvl4"><a href="#8-fornavn">§ 8. Fornavn</a></li>
+<li class="lvl4"><a href="#9-mellomnavn">§ 9. Mellomnavn</a></li>
+<li class="lvl4"><a href="#10-alminnelige-begrensninger">§ 10. Alminnelige begrensninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-saksbehandling-mm">Kapittel 3. Saksbehandling m.m.</a></li>
+<li class="lvl4"><a href="#11-meldeplikt-og-forvaltningsorgan-for-navnesaker">§ 11. Meldeplikt og forvaltningsorgan for navnesaker</a></li>
+<li class="lvl4"><a href="#12-melding-om-navn-for-barn">§ 12. Melding om navn for barn</a></li>
+<li class="lvl4"><a href="#13-sksmal">§ 13. Søksmål</a></li>
+<li class="lvl4"><a href="#14-hvem-loven-gjelder-for-utenlandske-navneavgjrelser-mm">§ 14. Hvem loven gjelder for, utenlandske navneavgjørelser m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-sluttbestemmelser">Kapittel 4. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#15-ikrafttredelse">§ 15. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-overgangsregler">§ 16. Overgangsregler</a></li>
+<li class="lvl4"><a href="#17-endringer-i-andre-lover">§ 17. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-07-19.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2002-06-07-19.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-07-19.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2002-06-07-19.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2002-06-07-19.html">Observerte kildeutgaver</a> · <a href="../historie/navneloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/46b02a1967fa3cf728590262511c89c938f0ff7d/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2002</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/011dc1833d83a8386cca5e1edc8ff5fba32674cd/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2002-06-07-19.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2002-06-07-19.html">Observerte kildeutgaver</a> · <a href="../historie/navneloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2002/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2002</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2006/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2002-06-07-19.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-personnavn-navneloven">Lov om personnavn (navneloven)</h1>
 <h2 id="kapittel-1-navneplikt">Kapittel 1. Navneplikt</h2>
 <h4 id="1-plikt-til-a-ha-navn">§ 1. Plikt til å ha navn</h4>
 <p>Alle skal ha fornavn og ett enkelt eller dobbelt etternavn og kan i tillegg ha mellomnavn. Enhver har plikt til å bruke sitt fornavn og etternavn som personnavn. Ingen kan ta, endre eller sløyfe navn på annen måte enn etter loven her.</p>
@@ -93,7 +180,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>er identisk eller har likhet som nevnt i nr. 1 med et alminnelig kjent foretaksnavn, varemerke eller annet kjennetegn som er vernet her i riket, med et alminnelig kjent navn på en stiftelse, forening, institusjon eller lignende eller med et alminnelig kjent kunstnernavn, og det må antas at berettigede interesser vil lide skade dersom vedkommende får navnet.</li>
 <li>er registrert i Folkeregisteret som et navn som er eller har vært i bruk som fornavn. Navnet kan likevel tas som etternavn dersom det har opphav eller tradisjon som etternavn i Norge eller i utlandet eller har tradisjon i en kultur som ikke skiller mellom fornavn og etternavn.</li>
 </ol>
-<p><em>Endret ved lover 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ), 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</em></p>
+<p class="note">Endret ved lover 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ), 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</p>
 <h4 id="4-avledede-etternavn">§ 4. Avledede etternavn</h4>
 <p>Uavhengig av begrensningene i § 3 kan følgende navn tas som etternavn:</p>
 <ol>
@@ -109,11 +196,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Samboere som har bodd sammen i minst to år eller som har felles barn, kan velge navn etter første ledd nr. 4 og 5 på samme måte som ektefeller dersom samboeren samtykker.</p>
 <p>Foruten etter adoptivslekten kan den som er adoptert ta navn etter sin biologiske slekt etter første ledd nr. 1, 2 og 3.</p>
-<p><em>Endret ved lov 10 juni 2005 nr. 53 (ikr. 1 aug 2006 iflg. res. 10 juni 2005 nr. 533 ).</em></p>
+<p class="note">Endret ved lov 10 juni 2005 nr. 53 (ikr. 1 aug 2006 iflg. res. 10 juni 2005 nr. 533 ).</p>
 <h4 id="5-etternavn-ved-adopsjon">§ 5. Etternavn ved adopsjon</h4>
 <p>Hvis en person under 18 år blir adoptert, får han eller hun adoptantens etternavn med mindre annet er fastsatt i forbindelse med adopsjonen. Dette gjelder ikke der den ene ektefellen eller samboeren adopterer den andres barn.</p>
 <p>Når ektefeller eller samboere sammen adopterer noen som er under 18 år, får adoptivbarnet adoptivmorens etternavn med mindre annet er fastsatt i forbindelse med adopsjonen. § 2 annet ledd annet punktum gjelder tilsvarende.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 48 (ikr. 1 juli 2018 iflg. res. 15 juni 2018 nr. 884 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 48 (ikr. 1 juli 2018 iflg. res. 15 juni 2018 nr. 884 ).</p>
 <h4 id="6-endringer-i-samme-etternavn">§ 6. Endringer i samme etternavn</h4>
 <p>En endring av stavemåten av et etternavn som bringer stavemåten nærmere den alminnelige uttalen av navnet eller nærmere skriftspråket for øvrig, regnes ikke som å ta et annet navn. Det samme gjelder en endring av stavemåten til bokstaver som er alminnelig kjent i utlandet.</p>
 <p>En endring av et etternavns kjønnsbestemte ending regnes ikke som å ta et annet navn.</p>
@@ -121,7 +208,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>To navn som kan tas som etternavn, kan tas som et dobbelt etternavn der de to navnene er satt sammen med bindestrek. I forhold til §§ 3 og 4 regnes et dobbelt etternavn som to adskilte etternavn.</p>
 <h4 id="8-fornavn">§ 8. Fornavn</h4>
 <p>Som fornavn kan det ikke velges et navn som er registrert i Folkeregisteret som et navn som er eller har vært i bruk som etternavn eller mellomnavn. Navnet kan likevel tas som fornavn dersom det har opphav eller tradisjon som fornavn i Norge eller i utlandet eller har tradisjon i en kultur som ikke skiller mellom fornavn og etternavn.</p>
-<p><em>Endret ved lov 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</em></p>
+<p class="note">Endret ved lov 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</p>
 <h4 id="9-mellomnavn">§ 9. Mellomnavn</h4>
 <p>Navn som kan tas som etternavn, kan tas som mellomnavn.</p>
 <h4 id="10-alminnelige-begrensninger">§ 10. Alminnelige begrensninger</h4>
@@ -134,23 +221,23 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>endre fornavnet tilbake til det fornavnet vedkommende hadde før endringen,</li>
 <li>ta, endre eller sløyfe fornavn eller etternavn dersom det foreligger særlige grunner.</li>
 </ol>
-<p><em>Endret ved lov 17 juni 2016 nr. 46 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 702 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2016 nr. 46 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 702 ).</p>
 <h2 id="kapittel-3-saksbehandling-mm">Kapittel 3. Saksbehandling m.m.</h2>
 <h4 id="11-meldeplikt-og-forvaltningsorgan-for-navnesaker">§ 11. Meldeplikt og forvaltningsorgan for navnesaker</h4>
 <p>Den som vil ta, endre eller sløyfe navn, må gi melding om det til skattekontoret, som avgjør om meldingen skal godtas. For enkelte navnesaker kan departementet bestemme at meldinger skal gis til og behandles av et annet forvaltningsorgan. Vedtak om å godta eller nekte å godta en melding kan påklages til statsforvalteren.</p>
 <p>Departementet kan gi nærmere regler om bruk av meldingsskjema og meldingenes innhold og om saksbehandlingen for øvrig.</p>
-<p><em>Endret ved lover 29 juni 2007 nr. 63 (ikr. 1 jan 2008 iflg. res. 7 des 2007 nr. 1370 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lover 29 juni 2007 nr. 63 (ikr. 1 jan 2008 iflg. res. 7 des 2007 nr. 1370 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h4 id="12-melding-om-navn-for-barn">§ 12. Melding om navn for barn</h4>
 <p>Melding om å ta, endre eller sløyfe navn for noen som ikke har fylt 16 år, skal fremsettes av den eller de som har foreldreansvaret, eller disse må ha samtykket i meldingen. Gjelder meldingen et barn over 12 år, må også barnet selv ha samtykket. Selv om det ikke foreligger samtykke etter første eller annet punktum, kan meldingen godtas dersom det foreligger særlig grunn.</p>
 <p>Gjelder meldingen en person som har endret juridisk kjønn etter lov om endring av juridisk kjønn § 4 andre ledd andre punktum, er det tilstrekkelig med samtykke fra en av dem som har foreldreansvaret.</p>
-<p><em>Endret ved lov 17 juni 2016 nr. 46 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 702 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2016 nr. 46 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 702 ).</p>
 <h4 id="13-sksmal">§ 13. Søksmål</h4>
 <p>Er noens rettigheter krenket ved et vedtak som godtar en melding om å ta, endre eller sløyfe navn, kan vedkommende gjøre sin rett gjeldende ved søksmål innen to år etter at vedkommende fikk eller burde skaffet seg kunnskap om vedtaket. Søksmålet må være reist innen 10 år etter at vedtaket ble truffet.</p>
 <h4 id="14-hvem-loven-gjelder-for-utenlandske-navneavgjrelser-mm">§ 14. Hvem loven gjelder for, utenlandske navneavgjørelser m.m.</h4>
 <p>Loven gjelder for alle som i Folkeregisteret er registrert som bosatt her i riket og har til hensikt å bli boende her varig.</p>
 <p>Den som omfattes av første ledd og er utenlandsk statsborger, kan her i riket inngi melding om å ta, endre eller sløyfe navn i samsvar med avgjørelse truffet av statsborgerlandets myndigheter, med mindre annet følger av forskrift etter tredje ledd.</p>
 <p>Kongen kan ved forskrift gi regler om hvilke navnerettsregler som skal gjelde for utenlandske statsborgere som bor her i riket, og for norske statsborgere som bor i utlandet, og om beskyttelse her i riket for etternavn som er i bruk i utlandet.</p>
-<p><em>Endret ved lov 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</em></p>
+<p class="note">Endret ved lov 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ).</p>
 <h2 id="kapittel-4-sluttbestemmelser">Kapittel 4. Sluttbestemmelser</h2>
 <h4 id="15-ikrafttredelse">§ 15. Ikrafttredelse</h4>
 <p>Loven gjelder fra den tid Kongen 1 bestemmer. Fra samme tid opphører lov 29. mai 1964 nr. 1 om personnamn å gjelde.</p>
@@ -160,6 +247,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Etternavn som ved lovens ikrafttredelse består av to navn forbundet med bindestrek, anses som et dobbelt etternavn bestående av to etternavn.</p>
 <h4 id="17-endringer-i-andre-lover">§ 17. Endringer i andre lover</h4>
 <p>Fra den tid loven her trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

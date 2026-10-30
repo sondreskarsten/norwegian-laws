@@ -19,64 +19,253 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-03-07-529.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om studium ved Fagskulen Vestland" href="../feeds/forskrift-2025-03-07-529.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om studium ved Fagskulen Vestland</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2025-03-07-529</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2025-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-10-23-2128</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2025-03-07-529" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade">Kapittel 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisering-av-studia">Kapittel 2. Organisering av studia</a></li>
+<li class="lvl4"><a href="#2-1-organisering">§ 2-1. Organisering</a></li>
+<li class="lvl4"><a href="#2-2-oppretting-endring-og-nedlegging-av-utdanningar-og-emne">§ 2-2. Oppretting, endring og nedlegging av utdanningar og emne</a></li>
+<li class="lvl2"><a href="#kapittel-3-studierett">Kapittel 3. Studierett</a></li>
+<li class="lvl4"><a href="#3-1-opptak">§ 3-1. Opptak</a></li>
+<li class="lvl4"><a href="#3-2-studierett">§ 3-2. Studierett</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-studentane">§ 3-3. Krav til studentane</a></li>
+<li class="lvl4"><a href="#3-4-krav-til-studieprogresjon">§ 3-4. Krav til studieprogresjon</a></li>
+<li class="lvl4"><a href="#3-5-tap-av-studierett">§ 3-5. Tap av studierett</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilpassing-av-studia-og-fravr">Kapittel 4. Tilpassing av studia og fråvær</a></li>
+<li class="lvl4"><a href="#4-1-permisjon">§ 4-1. Permisjon</a></li>
+<li class="lvl4"><a href="#4-2-tilrettelegging-av-undervisning-og-vurdering">§ 4-2. Tilrettelegging av undervisning og vurdering</a></li>
+<li class="lvl4"><a href="#4-3-gyldig-fravr">§ 4-3. Gyldig fråvær</a></li>
+<li class="lvl4"><a href="#4-4-rettar-ved-gyldig-fravr">§ 4-4. Rettar ved gyldig fråvær</a></li>
+<li class="lvl4"><a href="#4-5-godskriving-og-fritak">§ 4-5. Godskriving og fritak</a></li>
+<li class="lvl2"><a href="#kapittel-5-undervisning">Kapittel 5. Undervisning</a></li>
+<li class="lvl4"><a href="#5-1-studiearet">§ 5-1. Studieåret</a></li>
+<li class="lvl4"><a href="#5-2-undervisningsstad">§ 5-2. Undervisningsstad</a></li>
+<li class="lvl4"><a href="#5-3-undervisningssprak">§ 5-3. Undervisningsspråk</a></li>
+<li class="lvl4"><a href="#5-4-obligatorisk-lringsaktivitet">§ 5-4. Obligatorisk læringsaktivitet</a></li>
+<li class="lvl4"><a href="#5-5-praksis">§ 5-5. Praksis</a></li>
+<li class="lvl4"><a href="#5-6-krav-til-studentar-i-praksis">§ 5-6. Krav til studentar i praksis</a></li>
+<li class="lvl2"><a href="#kapittel-6-vurdering">Kapittel 6. Vurdering</a></li>
+<li class="lvl4"><a href="#6-1-vurdering">§ 6-1. Vurdering</a></li>
+<li class="lvl4"><a href="#6-2-vurderingssprak">§ 6-2. Vurderingsspråk</a></li>
+<li class="lvl4"><a href="#6-3-vurderingsform">§ 6-3. Vurderingsform</a></li>
+<li class="lvl4"><a href="#6-4-rett-til-vurdering">§ 6-4. Rett til vurdering</a></li>
+<li class="lvl4"><a href="#6-5-gjennomfring-av-vurdering">§ 6-5. Gjennomføring av vurdering</a></li>
+<li class="lvl4"><a href="#6-6-om-skriftleg-skuleeksamen">§ 6-6. Om skriftleg skuleeksamen</a></li>
+<li class="lvl4"><a href="#6-7-om-munnleg-eksamen">§ 6-7. Om munnleg eksamen</a></li>
+<li class="lvl4"><a href="#6-8-om-heimeeksamen">§ 6-8. Om heimeeksamen</a></li>
+<li class="lvl4"><a href="#6-9-om-mappevurdering">§ 6-9. Om mappevurdering</a></li>
+<li class="lvl4"><a href="#6-10-om-gruppevurdering">§ 6-10. Om gruppevurdering</a></li>
+<li class="lvl4"><a href="#6-11-om-praktisk-vurdering">§ 6-11. Om praktisk vurdering</a></li>
+<li class="lvl4"><a href="#6-12-om-hovudprosjekt">§ 6-12. Om hovudprosjekt</a></li>
+<li class="lvl4"><a href="#6-13-om-justerande-munnleg-hyring">§ 6-13. Om justerande munnleg høyring</a></li>
+<li class="lvl4"><a href="#6-14-antal-vurderingsforsk">§ 6-14. Antal vurderingsforsøk</a></li>
+<li class="lvl4"><a href="#6-15-teljande-vurderingsforsk">§ 6-15. Teljande vurderingsforsøk</a></li>
+<li class="lvl4"><a href="#6-16-avbrot-av-vurdering">§ 6-16. Avbrot av vurdering</a></li>
+<li class="lvl4"><a href="#6-17-kontinuasjonsvurdering">§ 6-17. Kontinuasjonsvurdering</a></li>
+<li class="lvl4"><a href="#6-18-frivillig-gjentak">§ 6-18. Frivillig gjentak</a></li>
+<li class="lvl2"><a href="#kapittel-7-vurderingsuttrykk-og-sensur">Kapittel 7. Vurderingsuttrykk og sensur</a></li>
+<li class="lvl4"><a href="#7-1-vurderingsuttrykk">§ 7-1. Vurderingsuttrykk</a></li>
+<li class="lvl4"><a href="#7-2-sensur">§ 7-2. Sensur</a></li>
+<li class="lvl4"><a href="#7-3-sensurfrist">§ 7-3. Sensurfrist</a></li>
+<li class="lvl4"><a href="#7-4-sensor">§ 7-4. Sensor</a></li>
+<li class="lvl2"><a href="#kapittel-8-grunngiving-og-klage">Kapittel 8. Grunngiving og klage</a></li>
+<li class="lvl4"><a href="#8-1-grunngiving">§ 8-1. Grunngiving</a></li>
+<li class="lvl4"><a href="#8-2-klage-pa-enkeltvedtak">§ 8-2. Klage på enkeltvedtak</a></li>
+<li class="lvl4"><a href="#8-3-klage-pa-karakterfastsetting">§ 8-3. Klage på karakterfastsetting</a></li>
+<li class="lvl4"><a href="#8-4-klage-pa-formelle-feil">§ 8-4. Klage på formelle feil</a></li>
+<li class="lvl4"><a href="#8-5-lokal-klagenemnd-for-fagskular-i-vestland">§ 8-5. Lokal klagenemnd for fagskular i Vestland</a></li>
+<li class="lvl2"><a href="#kapittel-9-disiplinrsaker">Kapittel 9. Disiplinærsaker</a></li>
+<li class="lvl4"><a href="#9-1-fusk">§ 9-1. Fusk</a></li>
+<li class="lvl4"><a href="#9-2-mistanke-om-fusk">§ 9-2. Mistanke om fusk</a></li>
+<li class="lvl4"><a href="#9-3-konsekvensar-av-fusk">§ 9-3. Konsekvensar av fusk</a></li>
+<li class="lvl4"><a href="#9-4-annullering">§ 9-4. Annullering</a></li>
+<li class="lvl4"><a href="#9-5-bortvising-og-utestenging">§ 9-5. Bortvising og utestenging</a></li>
+<li class="lvl4"><a href="#9-6-vurdering-av-skikkaheit">§ 9-6. Vurdering av skikkaheit</a></li>
+<li class="lvl4"><a href="#9-7-politiattest">§ 9-7. Politiattest</a></li>
+<li class="lvl2"><a href="#kapittel-10-grader">Kapittel 10. Grader</a></li>
+<li class="lvl4"><a href="#10-1-tildeling-av-grader">§ 10-1. Tildeling av grader</a></li>
+<li class="lvl4"><a href="#10-2-namn-pa-grader">§ 10-2. Namn på grader</a></li>
+<li class="lvl4"><a href="#10-3-krav-om-tilknyting-til-fagskulen-vestland-ved-tildeling-av-grad">§ 10-3. Krav om tilknyting til Fagskulen Vestland ved tildeling av grad</a></li>
+<li class="lvl2"><a href="#kapittel-11-vitnemal-og-karakterutskrift">Kapittel 11. Vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#11-1-vitnemal">§ 11-1. Vitnemål</a></li>
+<li class="lvl4"><a href="#11-2-karakterutskrift">§ 11-2. Karakterutskrift</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikraftsetjing-og-overgangsregel">Kapittel 12. Ikraftsetjing og overgangsregel</a></li>
+<li class="lvl4"><a href="#12-1-ikraftsetjing-og-oppheving">§ 12-1. Ikraftsetjing og oppheving</a></li>
+<li class="lvl4"><a href="#12-2-overgangsregel">§ 12-2. Overgangsregel</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-10-23-2128.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-03-07-529.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om studium ved Fagskulen Vestland</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-03-07-529.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2025-03-07-529 <code>forskrift/2025-03-07-529</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2025</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-10-23-2128 <code>forskrift/2026-10-23-2128</code> fra 23.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2025-03-07-529" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade">Kapittel 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-organisering-av-studia">Kapittel 2. Organisering av studia</a></li>
+<li class="lvl4"><a href="#2-1-organisering">§ 2-1. Organisering</a></li>
+<li class="lvl4"><a href="#2-2-oppretting-endring-og-nedlegging-av-utdanningar-og-emne">§ 2-2. Oppretting, endring og nedlegging av utdanningar og emne</a></li>
+<li class="lvl2"><a href="#kapittel-3-studierett">Kapittel 3. Studierett</a></li>
+<li class="lvl4"><a href="#3-1-opptak">§ 3-1. Opptak</a></li>
+<li class="lvl4"><a href="#3-2-studierett">§ 3-2. Studierett</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-studentane">§ 3-3. Krav til studentane</a></li>
+<li class="lvl4"><a href="#3-4-krav-til-studieprogresjon">§ 3-4. Krav til studieprogresjon</a></li>
+<li class="lvl4"><a href="#3-5-tap-av-studierett">§ 3-5. Tap av studierett</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilpassing-av-studia-og-fravr">Kapittel 4. Tilpassing av studia og fråvær</a></li>
+<li class="lvl4"><a href="#4-1-permisjon">§ 4-1. Permisjon</a></li>
+<li class="lvl4"><a href="#4-2-tilrettelegging-av-undervisning-og-vurdering">§ 4-2. Tilrettelegging av undervisning og vurdering</a></li>
+<li class="lvl4"><a href="#4-3-gyldig-fravr">§ 4-3. Gyldig fråvær</a></li>
+<li class="lvl4"><a href="#4-4-rettar-ved-gyldig-fravr">§ 4-4. Rettar ved gyldig fråvær</a></li>
+<li class="lvl4"><a href="#4-5-godskriving-og-fritak">§ 4-5. Godskriving og fritak</a></li>
+<li class="lvl2"><a href="#kapittel-5-undervisning">Kapittel 5. Undervisning</a></li>
+<li class="lvl4"><a href="#5-1-studiearet">§ 5-1. Studieåret</a></li>
+<li class="lvl4"><a href="#5-2-undervisningsstad">§ 5-2. Undervisningsstad</a></li>
+<li class="lvl4"><a href="#5-3-undervisningssprak">§ 5-3. Undervisningsspråk</a></li>
+<li class="lvl4"><a href="#5-4-obligatorisk-lringsaktivitet">§ 5-4. Obligatorisk læringsaktivitet</a></li>
+<li class="lvl4"><a href="#5-5-praksis">§ 5-5. Praksis</a></li>
+<li class="lvl4"><a href="#5-6-krav-til-studentar-i-praksis">§ 5-6. Krav til studentar i praksis</a></li>
+<li class="lvl2"><a href="#kapittel-6-vurdering">Kapittel 6. Vurdering</a></li>
+<li class="lvl4"><a href="#6-1-vurdering">§ 6-1. Vurdering</a></li>
+<li class="lvl4"><a href="#6-2-vurderingssprak">§ 6-2. Vurderingsspråk</a></li>
+<li class="lvl4"><a href="#6-3-vurderingsform">§ 6-3. Vurderingsform</a></li>
+<li class="lvl4"><a href="#6-4-rett-til-vurdering">§ 6-4. Rett til vurdering</a></li>
+<li class="lvl4"><a href="#6-5-gjennomfring-av-vurdering">§ 6-5. Gjennomføring av vurdering</a></li>
+<li class="lvl4"><a href="#6-6-om-skriftleg-skuleeksamen">§ 6-6. Om skriftleg skuleeksamen</a></li>
+<li class="lvl4"><a href="#6-7-om-munnleg-eksamen">§ 6-7. Om munnleg eksamen</a></li>
+<li class="lvl4"><a href="#6-8-om-heimeeksamen">§ 6-8. Om heimeeksamen</a></li>
+<li class="lvl4"><a href="#6-9-om-mappevurdering">§ 6-9. Om mappevurdering</a></li>
+<li class="lvl4"><a href="#6-10-om-gruppevurdering">§ 6-10. Om gruppevurdering</a></li>
+<li class="lvl4"><a href="#6-11-om-praktisk-vurdering">§ 6-11. Om praktisk vurdering</a></li>
+<li class="lvl4"><a href="#6-12-om-hovudprosjekt">§ 6-12. Om hovudprosjekt</a></li>
+<li class="lvl4"><a href="#6-13-om-justerande-munnleg-hyring">§ 6-13. Om justerande munnleg høyring</a></li>
+<li class="lvl4"><a href="#6-14-antal-vurderingsforsk">§ 6-14. Antal vurderingsforsøk</a></li>
+<li class="lvl4"><a href="#6-15-teljande-vurderingsforsk">§ 6-15. Teljande vurderingsforsøk</a></li>
+<li class="lvl4"><a href="#6-16-avbrot-av-vurdering">§ 6-16. Avbrot av vurdering</a></li>
+<li class="lvl4"><a href="#6-17-kontinuasjonsvurdering">§ 6-17. Kontinuasjonsvurdering</a></li>
+<li class="lvl4"><a href="#6-18-frivillig-gjentak">§ 6-18. Frivillig gjentak</a></li>
+<li class="lvl2"><a href="#kapittel-7-vurderingsuttrykk-og-sensur">Kapittel 7. Vurderingsuttrykk og sensur</a></li>
+<li class="lvl4"><a href="#7-1-vurderingsuttrykk">§ 7-1. Vurderingsuttrykk</a></li>
+<li class="lvl4"><a href="#7-2-sensur">§ 7-2. Sensur</a></li>
+<li class="lvl4"><a href="#7-3-sensurfrist">§ 7-3. Sensurfrist</a></li>
+<li class="lvl4"><a href="#7-4-sensor">§ 7-4. Sensor</a></li>
+<li class="lvl2"><a href="#kapittel-8-grunngiving-og-klage">Kapittel 8. Grunngiving og klage</a></li>
+<li class="lvl4"><a href="#8-1-grunngiving">§ 8-1. Grunngiving</a></li>
+<li class="lvl4"><a href="#8-2-klage-pa-enkeltvedtak">§ 8-2. Klage på enkeltvedtak</a></li>
+<li class="lvl4"><a href="#8-3-klage-pa-karakterfastsetting">§ 8-3. Klage på karakterfastsetting</a></li>
+<li class="lvl4"><a href="#8-4-klage-pa-formelle-feil">§ 8-4. Klage på formelle feil</a></li>
+<li class="lvl4"><a href="#8-5-lokal-klagenemnd-for-fagskular-i-vestland">§ 8-5. Lokal klagenemnd for fagskular i Vestland</a></li>
+<li class="lvl2"><a href="#kapittel-9-disiplinrsaker">Kapittel 9. Disiplinærsaker</a></li>
+<li class="lvl4"><a href="#9-1-fusk">§ 9-1. Fusk</a></li>
+<li class="lvl4"><a href="#9-2-mistanke-om-fusk">§ 9-2. Mistanke om fusk</a></li>
+<li class="lvl4"><a href="#9-3-konsekvensar-av-fusk">§ 9-3. Konsekvensar av fusk</a></li>
+<li class="lvl4"><a href="#9-4-annullering">§ 9-4. Annullering</a></li>
+<li class="lvl4"><a href="#9-5-bortvising-og-utestenging">§ 9-5. Bortvising og utestenging</a></li>
+<li class="lvl4"><a href="#9-6-vurdering-av-skikkaheit">§ 9-6. Vurdering av skikkaheit</a></li>
+<li class="lvl4"><a href="#9-7-politiattest">§ 9-7. Politiattest</a></li>
+<li class="lvl2"><a href="#kapittel-10-grader">Kapittel 10. Grader</a></li>
+<li class="lvl4"><a href="#10-1-tildeling-av-grader">§ 10-1. Tildeling av grader</a></li>
+<li class="lvl4"><a href="#10-2-namn-pa-grader">§ 10-2. Namn på grader</a></li>
+<li class="lvl4"><a href="#10-3-krav-om-tilknyting-til-fagskulen-vestland-ved-tildeling-av-grad">§ 10-3. Krav om tilknyting til Fagskulen Vestland ved tildeling av grad</a></li>
+<li class="lvl2"><a href="#kapittel-11-vitnemal-og-karakterutskrift">Kapittel 11. Vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#11-1-vitnemal">§ 11-1. Vitnemål</a></li>
+<li class="lvl4"><a href="#11-2-karakterutskrift">§ 11-2. Karakterutskrift</a></li>
+<li class="lvl2"><a href="#kapittel-12-ikraftsetjing-og-overgangsregel">Kapittel 12. Ikraftsetjing og overgangsregel</a></li>
+<li class="lvl4"><a href="#12-1-ikraftsetjing-og-oppheving">§ 12-1. Ikraftsetjing og oppheving</a></li>
+<li class="lvl4"><a href="#12-2-overgangsregel">§ 12-2. Overgangsregel</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-03-07-529.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-03-07-529.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-03-07-529.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2025-03-07-529.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2025-03-07-529.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-03-07-529.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2025-03-07-529.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2025-03-07-529.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-03-07-529.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-studium-ved-fagskulen-vestland">Forskrift om studium ved Fagskulen Vestland</h1>
 <h2 id="kapittel-1-verkeomrade">Kapittel 1. Verkeområde</h2>
 <h4 id="1-1-verkeomrade">§ 1-1. Verkeområde</h4>
 <p>(1) Forskrifta fastset hovudreglane for studium ved Fagskulen Vestland, innanfor rammene av fagskoleloven og sentrale forskrifter frå departementet og NOKUT.</p>
@@ -424,7 +613,7 @@ f. Barn og unge si psykiske helse.</p>
 <p>(4) For utdanningar underlagt skikkavurdering skal rektor utnemne skikkaansvarleg(e) for skikkavurdering, jf. fagskoleforskriften 32 første ledd . Styret sjølv oppretter ei skikkanemnd i tråd med fagskoleforskriften § 31 .</p>
 <p>(5) Den lokale klagenemnda kan etter innstilling frå skikkanemnda vedta at ein student ikkje er skikka for yrket. Blir det fatta eit slikt vedtak, kan klagenemnda vedta at studenten også skal stengast ute frå utdanninga i inntil fem år, jf. fagskoleloven § 26 tredje ledd .</p>
 <p>(6) Ved utestenging vil studenten miste studieplassen, og må søke nytt opptak dersom hen vil starte opp igjen på utdanninga etter utestengingsperioden, jf. fagskoleforskriften § 36 siste ledd, jf. § 3-5 første ledd bokstav g .</p>
-<p><em>Endra ved forskrift 23 okt 2026 nr. 2128 .</em></p>
+<p class="note">Endra ved forskrift 23 okt 2026 nr. 2128 .</p>
 <h4 id="9-7-politiattest">§ 9-7. Politiattest</h4>
 <p>(1) Fagskulen kan krevje politiattest ved opptak og undervegs i utdanninga, jf. fagskoleloven § 27 første ledd . Politiattesten må ikkje vere eldre enn tre månadar på tidspunktet for framlegging av attesten.</p>
 <p>(2) I utdanningar der studenten kan komme i kontakt med mindreårige som del av klinisk undervisning eller praksisstudium, er det krav om at studenten legg fram politiattest ved opptak, jf. fagskoleloven § 27 første ledd . Ved særlege reglar om politiattest for bestemte typar arbeid, gjeld tilsvarande reglar for studentane, jf. fagskoleloven § 27 andre ledd .</p>
@@ -470,6 +659,8 @@ j. datoen for når vitnemålet er skrive ut.</p>
 <p>Forskrifta trer i kraft 1. august 2025. Frå same tid blir forskrift 17. september 2021 nr. 3061 om studium ved Fagskulen Vestland oppheva.</p>
 <h4 id="12-2-overgangsregel">§ 12-2. Overgangsregel</h4>
 <p>Ordningar i studieplanar vedtatt før denne forskrifta tredde i kraft, som er i strid med nye reglar i forskrifta, kan gjennomførast etter tidlegare vedtatt ordning i studieåret 2025/2026.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

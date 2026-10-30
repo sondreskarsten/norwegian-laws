@@ -19,71 +19,234 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-10-30-1321.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om klinisk utprøving av legemidler til m" href="../feeds/forskrift-2009-10-30-1321.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om klinisk utprøving av legemidler til m</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-10-30-1321</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-10-30</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-21-2281</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-10-30-1321" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1 – Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-god-klinisk-utprvingspraksis-og-helsinkideklarasjonen">§ 1-2. God klinisk utprøvingspraksis og Helsinkideklarasjonen</a></li>
+<li class="lvl4"><a href="#1-3-grunnleggende-krav">§ 1-3. Grunnleggende krav</a></li>
+<li class="lvl4"><a href="#1-4-vilkar-for-igangsetting-av-en-klinisk-utprving">§ 1-4. Vilkår for igangsetting av en klinisk utprøving</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner">§ 1-5. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-6-sponsor-og-utprvers-ansvar-i-henhold-til-annen-lovgivning">§ 1-6. Sponsor og utprøvers ansvar i henhold til annen lovgivning</a></li>
+<li class="lvl4"><a href="#1-7-sponsors-tilholdssted">§ 1-7. Sponsors tilholdssted</a></li>
+<li class="lvl4"><a href="#1-8-utprver-og-sponsor">§ 1-8. Utprøver og sponsor</a></li>
+<li class="lvl4"><a href="#1-9-finansiering-av-utprvingspreparatet">§ 1-9. Finansiering av utprøvingspreparatet</a></li>
+<li class="lvl4"><a href="#1-10-adgang-til-behandling-av-personopplysninger">§ 1-10. Adgang til behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#1-11-investigators-brochure">§ 1-11. Investigator's brochure</a></li>
+<li class="lvl4"><a href="#1-12-overdragelse-av-eiendomsrett-til-dokumentasjon">§ 1-12. Overdragelse av eiendomsrett til dokumentasjon</a></li>
+<li class="lvl4"><a href="#1-13-ytterligere-sknadsplikt-for-srskilte-studier">§ 1-13. Ytterligere søknadsplikt for særskilte studier</a></li>
+<li class="lvl4"><a href="#1-14-tilvirkning-og-import-av-legemidler-til-klinisk-utprvning">§ 1-14. Tilvirkning og import av legemidler til klinisk utprøvning</a></li>
+<li class="lvl2"><a href="#kapittel-2-beskyttelse-av-forskspersonene">Kapittel 2 – Beskyttelse av forsøkspersonene</a></li>
+<li class="lvl4"><a href="#2-1-vurdering-av-legemidlets-nytte-og-risikoforhold">§ 2-1. Vurdering av legemidlets nytte og risikoforhold</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-informert-samtykke">§ 2-2. Krav til informert samtykke</a></li>
+<li class="lvl4"><a href="#2-3-tilbakekall-av-samtykke">§ 2-3. Tilbakekall av samtykke</a></li>
+<li class="lvl4"><a href="#2-4-forsikring-av-forskspersonene">§ 2-4. Forsikring av forsøkspersonene</a></li>
+<li class="lvl4"><a href="#2-5-vern-av-fysisk-og-mental-integritet-og-personopplysninger">§ 2-5. Vern av fysisk og mental integritet og personopplysninger</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-behandlers-kvalifikasjoner">§ 2-6. Krav til behandlers kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-kontaktpunkt">§ 2-7. Krav til kontaktpunkt</a></li>
+<li class="lvl4"><a href="#2-8-klinisk-utprving-pa-personer-under-18-ar">§ 2-8. Klinisk utprøving på personer under 18 år</a></li>
+<li class="lvl4"><a href="#2-9-utprving-pa-personer-uten-samtykkekompetanse-eller-med-redusert-samtykkekompetanse">§ 2-9. Utprøving på personer uten samtykkekompetanse eller med redusert samtykkekompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-3-etikkomiteen">Kapittel 3 – Etikkomiteen</a></li>
+<li class="lvl4"><a href="#3-1-sknad-om-klinisk-utprving-til-etikkomiteen">§ 3-1. Søknad om klinisk utprøving til etikkomiteen</a></li>
+<li class="lvl4"><a href="#3-2-etikkomiteens-vurdering-av-sknaden">§ 3-2. Etikkomiteens vurdering av søknaden</a></li>
+<li class="lvl4"><a href="#3-3-saksbehandlingsfrister">§ 3-3. Saksbehandlingsfrister</a></li>
+<li class="lvl4"><a href="#3-4-enkeltuttalelse-ved-multisenterunderskelser">§ 3-4. Enkeltuttalelse ved multisenterundersøkelser</a></li>
+<li class="lvl4"><a href="#3-5-forretningsorden-og-oppbevaring-av-dokumenter">§ 3-5. Forretningsorden og oppbevaring av dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-direktoratet-for-medisinske-produkter">Kapittel 4 – Direktoratet for medisinske produkter</a></li>
+<li class="lvl4"><a href="#4-1-sknad-om-klinisk-utprving-til-direktoratet-for-medisinske-produkter">§ 4-1. Søknad om klinisk utprøving til Direktoratet for medisinske produkter</a></li>
+<li class="lvl4"><a href="#4-2-saksbehandlingsfrister">§ 4-2. Saksbehandlingsfrister</a></li>
+<li class="lvl4"><a href="#4-3-direktoratet-for-medisinske-produkters-avgjrelse">§ 4-3. Direktoratet for medisinske produkters avgjørelse</a></li>
+<li class="lvl4"><a href="#4-4-merking-av-utprvingspreparatet">§ 4-4. Merking av utprøvingspreparatet</a></li>
+<li class="lvl4"><a href="#4-5-utlevering-av-legemidler">§ 4-5. Utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-regler-under-utprvingen">Kapittel 5 – Regler under utprøvingen</a></li>
+<li class="lvl4"><a href="#5-1-protokollendringer">§ 5-1. Protokollendringer</a></li>
+<li class="lvl4"><a href="#5-2-iverksettelse-av-sikkerhetstiltak">§ 5-2. Iverksettelse av sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#5-3-stansing-av-klinisk-utprving">§ 5-3. Stansing av klinisk utprøving</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-inspeksjon">Kapittel 6 – Tilsyn og inspeksjon</a></li>
+<li class="lvl4"><a href="#6-1-tilsynsmyndighet">§ 6-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#6-2-inspeksjon">§ 6-2. Inspeksjon</a></li>
+<li class="lvl4"><a href="#6-3-inspeksjonsrapport">§ 6-3. Inspeksjonsrapport</a></li>
+<li class="lvl4"><a href="#6-4-gcp-inspektr">§ 6-4. GCP-inspektør</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-om-medisinske-hendelser-og-bivirkninger">Kapittel 7 – Meldeplikt om medisinske hendelser og bivirkninger</a></li>
+<li class="lvl4"><a href="#7-1-utprvers-meldeplikt-ved-unskede-medisinske-hendelser">§ 7-1. Utprøvers meldeplikt ved uønskede medisinske hendelser</a></li>
+<li class="lvl4"><a href="#7-2-sponsors-plikt-til-a-oppbevare-opplysninger-om-unskede-medisinske-hendelser">§ 7-2. Sponsors plikt til å oppbevare opplysninger om uønskede medisinske hendelser</a></li>
+<li class="lvl4"><a href="#7-3-sponsors-meldeplikt-ved-uventede-og-alvorlige-bivirkninger">§ 7-3. Sponsors meldeplikt ved uventede og alvorlige bivirkninger</a></li>
+<li class="lvl4"><a href="#7-4-arsrapport">§ 7-4. Årsrapport</a></li>
+<li class="lvl2"><a href="#kapittel-8-dokumentasjon-master-file-og-sluttrapport">Kapittel 8 – Dokumentasjon (Master File) og sluttrapport</a></li>
+<li class="lvl4"><a href="#8-1-dokumentasjonen-for-den-kliniske-utprvingen">§ 8-1. Dokumentasjonen for den kliniske utprøvingen</a></li>
+<li class="lvl4"><a href="#8-2-sponsors-og-utprvers-oppbevaring-av-dokumentasjon">§ 8-2. Sponsors og utprøvers oppbevaring av dokumentasjon</a></li>
+<li class="lvl4"><a href="#8-3-ansvarlig-person-og-tilgang-til-arkiv">§ 8-3. Ansvarlig person og tilgang til arkiv</a></li>
+<li class="lvl4"><a href="#8-4-krav-til-medier-for-oppbevaring-av-dokumenter">§ 8-4. Krav til medier for oppbevaring av dokumenter</a></li>
+<li class="lvl4"><a href="#8-5-sluttmelding-og-sluttrapport">§ 8-5. Sluttmelding og sluttrapport</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-mv">Kapittel 9 – Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-mv">§ 9-1. Ikrafttredelse mv.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-21-2281.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-10-30-1321.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om klinisk utprøving av legemidler til mennesker</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-10-30-1321.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-10-30-1321 <code>forskrift/2009-10-30-1321</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>30.10.2009</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-21-2281 <code>forskrift/2023-12-21-2281</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-10-30-1321" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1 – Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-god-klinisk-utprvingspraksis-og-helsinkideklarasjonen">§ 1-2. God klinisk utprøvingspraksis og Helsinkideklarasjonen</a></li>
+<li class="lvl4"><a href="#1-3-grunnleggende-krav">§ 1-3. Grunnleggende krav</a></li>
+<li class="lvl4"><a href="#1-4-vilkar-for-igangsetting-av-en-klinisk-utprving">§ 1-4. Vilkår for igangsetting av en klinisk utprøving</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner">§ 1-5. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-6-sponsor-og-utprvers-ansvar-i-henhold-til-annen-lovgivning">§ 1-6. Sponsor og utprøvers ansvar i henhold til annen lovgivning</a></li>
+<li class="lvl4"><a href="#1-7-sponsors-tilholdssted">§ 1-7. Sponsors tilholdssted</a></li>
+<li class="lvl4"><a href="#1-8-utprver-og-sponsor">§ 1-8. Utprøver og sponsor</a></li>
+<li class="lvl4"><a href="#1-9-finansiering-av-utprvingspreparatet">§ 1-9. Finansiering av utprøvingspreparatet</a></li>
+<li class="lvl4"><a href="#1-10-adgang-til-behandling-av-personopplysninger">§ 1-10. Adgang til behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#1-11-investigators-brochure">§ 1-11. Investigator's brochure</a></li>
+<li class="lvl4"><a href="#1-12-overdragelse-av-eiendomsrett-til-dokumentasjon">§ 1-12. Overdragelse av eiendomsrett til dokumentasjon</a></li>
+<li class="lvl4"><a href="#1-13-ytterligere-sknadsplikt-for-srskilte-studier">§ 1-13. Ytterligere søknadsplikt for særskilte studier</a></li>
+<li class="lvl4"><a href="#1-14-tilvirkning-og-import-av-legemidler-til-klinisk-utprvning">§ 1-14. Tilvirkning og import av legemidler til klinisk utprøvning</a></li>
+<li class="lvl2"><a href="#kapittel-2-beskyttelse-av-forskspersonene">Kapittel 2 – Beskyttelse av forsøkspersonene</a></li>
+<li class="lvl4"><a href="#2-1-vurdering-av-legemidlets-nytte-og-risikoforhold">§ 2-1. Vurdering av legemidlets nytte og risikoforhold</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-informert-samtykke">§ 2-2. Krav til informert samtykke</a></li>
+<li class="lvl4"><a href="#2-3-tilbakekall-av-samtykke">§ 2-3. Tilbakekall av samtykke</a></li>
+<li class="lvl4"><a href="#2-4-forsikring-av-forskspersonene">§ 2-4. Forsikring av forsøkspersonene</a></li>
+<li class="lvl4"><a href="#2-5-vern-av-fysisk-og-mental-integritet-og-personopplysninger">§ 2-5. Vern av fysisk og mental integritet og personopplysninger</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-behandlers-kvalifikasjoner">§ 2-6. Krav til behandlers kvalifikasjoner</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-kontaktpunkt">§ 2-7. Krav til kontaktpunkt</a></li>
+<li class="lvl4"><a href="#2-8-klinisk-utprving-pa-personer-under-18-ar">§ 2-8. Klinisk utprøving på personer under 18 år</a></li>
+<li class="lvl4"><a href="#2-9-utprving-pa-personer-uten-samtykkekompetanse-eller-med-redusert-samtykkekompetanse">§ 2-9. Utprøving på personer uten samtykkekompetanse eller med redusert samtykkekompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-3-etikkomiteen">Kapittel 3 – Etikkomiteen</a></li>
+<li class="lvl4"><a href="#3-1-sknad-om-klinisk-utprving-til-etikkomiteen">§ 3-1. Søknad om klinisk utprøving til etikkomiteen</a></li>
+<li class="lvl4"><a href="#3-2-etikkomiteens-vurdering-av-sknaden">§ 3-2. Etikkomiteens vurdering av søknaden</a></li>
+<li class="lvl4"><a href="#3-3-saksbehandlingsfrister">§ 3-3. Saksbehandlingsfrister</a></li>
+<li class="lvl4"><a href="#3-4-enkeltuttalelse-ved-multisenterunderskelser">§ 3-4. Enkeltuttalelse ved multisenterundersøkelser</a></li>
+<li class="lvl4"><a href="#3-5-forretningsorden-og-oppbevaring-av-dokumenter">§ 3-5. Forretningsorden og oppbevaring av dokumenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-direktoratet-for-medisinske-produkter">Kapittel 4 – Direktoratet for medisinske produkter</a></li>
+<li class="lvl4"><a href="#4-1-sknad-om-klinisk-utprving-til-direktoratet-for-medisinske-produkter">§ 4-1. Søknad om klinisk utprøving til Direktoratet for medisinske produkter</a></li>
+<li class="lvl4"><a href="#4-2-saksbehandlingsfrister">§ 4-2. Saksbehandlingsfrister</a></li>
+<li class="lvl4"><a href="#4-3-direktoratet-for-medisinske-produkters-avgjrelse">§ 4-3. Direktoratet for medisinske produkters avgjørelse</a></li>
+<li class="lvl4"><a href="#4-4-merking-av-utprvingspreparatet">§ 4-4. Merking av utprøvingspreparatet</a></li>
+<li class="lvl4"><a href="#4-5-utlevering-av-legemidler">§ 4-5. Utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-regler-under-utprvingen">Kapittel 5 – Regler under utprøvingen</a></li>
+<li class="lvl4"><a href="#5-1-protokollendringer">§ 5-1. Protokollendringer</a></li>
+<li class="lvl4"><a href="#5-2-iverksettelse-av-sikkerhetstiltak">§ 5-2. Iverksettelse av sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#5-3-stansing-av-klinisk-utprving">§ 5-3. Stansing av klinisk utprøving</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilsyn-og-inspeksjon">Kapittel 6 – Tilsyn og inspeksjon</a></li>
+<li class="lvl4"><a href="#6-1-tilsynsmyndighet">§ 6-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#6-2-inspeksjon">§ 6-2. Inspeksjon</a></li>
+<li class="lvl4"><a href="#6-3-inspeksjonsrapport">§ 6-3. Inspeksjonsrapport</a></li>
+<li class="lvl4"><a href="#6-4-gcp-inspektr">§ 6-4. GCP-inspektør</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-om-medisinske-hendelser-og-bivirkninger">Kapittel 7 – Meldeplikt om medisinske hendelser og bivirkninger</a></li>
+<li class="lvl4"><a href="#7-1-utprvers-meldeplikt-ved-unskede-medisinske-hendelser">§ 7-1. Utprøvers meldeplikt ved uønskede medisinske hendelser</a></li>
+<li class="lvl4"><a href="#7-2-sponsors-plikt-til-a-oppbevare-opplysninger-om-unskede-medisinske-hendelser">§ 7-2. Sponsors plikt til å oppbevare opplysninger om uønskede medisinske hendelser</a></li>
+<li class="lvl4"><a href="#7-3-sponsors-meldeplikt-ved-uventede-og-alvorlige-bivirkninger">§ 7-3. Sponsors meldeplikt ved uventede og alvorlige bivirkninger</a></li>
+<li class="lvl4"><a href="#7-4-arsrapport">§ 7-4. Årsrapport</a></li>
+<li class="lvl2"><a href="#kapittel-8-dokumentasjon-master-file-og-sluttrapport">Kapittel 8 – Dokumentasjon (Master File) og sluttrapport</a></li>
+<li class="lvl4"><a href="#8-1-dokumentasjonen-for-den-kliniske-utprvingen">§ 8-1. Dokumentasjonen for den kliniske utprøvingen</a></li>
+<li class="lvl4"><a href="#8-2-sponsors-og-utprvers-oppbevaring-av-dokumentasjon">§ 8-2. Sponsors og utprøvers oppbevaring av dokumentasjon</a></li>
+<li class="lvl4"><a href="#8-3-ansvarlig-person-og-tilgang-til-arkiv">§ 8-3. Ansvarlig person og tilgang til arkiv</a></li>
+<li class="lvl4"><a href="#8-4-krav-til-medier-for-oppbevaring-av-dokumenter">§ 8-4. Krav til medier for oppbevaring av dokumenter</a></li>
+<li class="lvl4"><a href="#8-5-sluttmelding-og-sluttrapport">§ 8-5. Sluttmelding og sluttrapport</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-mv">Kapittel 9 – Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-mv">§ 9-1. Ikrafttredelse mv.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-10-30-1321.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-10-30-1321.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-10-30-1321.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-10-30-1321.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-10-30-1321.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-10-30-1321.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-10-30-1321.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-10-30-1321.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-10-30-1321.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-klinisk-utprving-av-legemidler-til-mennesker">Forskrift om klinisk utprøving av legemidler til mennesker</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1 – Alminnelige bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder klinisk utprøving, herunder multisenterutprøving, av legemidler til mennesker. Forskriften gjelder utprøving både på pasienter og på friske personer.</p>
 <p>Forskriften omfatter ikke utprøvende behandling på enkeltpasienter og ikke-intervensjonsstudier.</p>
 <p>Det skal ikke gjennomføres klinisk utprøving som medfører modifisering av forsøkspersonens kjønnscelleidentitet (germ line genetic identity).</p>
 <p>For klinisk utprøving av legemidler til mennesker gjelder forskrift 18. desember 2009 nr. 1839 om legemidler (legemiddelforskriften) § 15-6a .</p>
-<p><em>Endret ved forskrift 12 jan 2017 nr. 36 som endret ved forskrift 4 feb 2022 nr. 181 (i kraft 4 feb 2022).</em></p>
+<p class="note">Endret ved forskrift 12 jan 2017 nr. 36 som endret ved forskrift 4 feb 2022 nr. 181 (i kraft 4 feb 2022).</p>
 <h4 id="1-2-god-klinisk-utprvingspraksis-og-helsinkideklarasjonen">§ 1-2. God klinisk utprøvingspraksis og Helsinkideklarasjonen</h4>
 <p>All klinisk utprøving, herunder bioekvivalens- og biotilgjengelighetsstudier, skal planlegges, meldes og gjennomføres i overensstemmelse med reglene i forskriften og standarden for god klinisk utprøvingspraksis.</p>
 <p>Kliniske utprøvinger skal skje i samsvar med Helsinkideklarasjonen om etiske prinsipper for medisinsk forskning med mennesker.</p>
@@ -99,7 +262,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. reglene i kapittel 2 om beskyttelse av forsøkspersonene er oppfylt
 b. det foreligger en forhåndsgodkjenning fra etikkomiteen etter reglene i kapittel 3
 c. Direktoratet for medisinske produkter ikke har innsigelser etter reglene i kapittel 4 .</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="1-5-definisjoner">§ 1-5. Definisjoner</h4>
 <p>I forskriften menes med</p>
 <p>a. alvorlig uønsket medisinsk hendelse eller alvorlig bivirkning: skadelig og utilsiktet respons eller effekt, som i hvilken som helst dose resulterer i død, er livstruende, krever sykehusinnleggelse eller forlengelse av sykehusopphold, resulterer i vedvarende eller betydelig handikap eller uførhet, eller er en medfødt anomali eller fødselsskade;
@@ -125,28 +288,28 @@ t. utprøver: lege eller tannlege som utfører klinisk utprøving;
 u. utprøvingspreparat: en farmasøytisk formulering av et aktivt virkestoff eller placebo, som blir utprøvd eller benyttet som en referanse i en klinisk utprøving. Som utprøvningspreparat regnes også legemiddel med markedsføringstillatelse dersom de blir brukt, formulert, eller pakket på en annen måte enn den godkjente formuleringen, eller brukt for en ikke godkjent indikasjon, eller for å skaffe til veie ytterligere informasjon om den markedsførte formuleringen;
 v. uventet bivirkning: en bivirkning der egenskapene og/eller alvorlighetsgraden ikke er i overensstemmelse med gjeldende produktinformasjon;
 w. uønsket medisinsk hendelse: en uheldig medisinsk hendelse hos en forsøksperson som har fått et legemiddel i en klinisk utprøving, og som ikke nødvendigvis har direkte sammenheng med denne behandlingen.</p>
-<p><em>Endret ved forskrift 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</em></p>
+<p class="note">Endret ved forskrift 2 juni 2022 nr. 977 (i kraft 16 sep 2022).</p>
 <h4 id="1-6-sponsor-og-utprvers-ansvar-i-henhold-til-annen-lovgivning">§ 1-6. Sponsor og utprøvers ansvar i henhold til annen lovgivning</h4>
 <p>Reglene i forskriften endrer ikke ansvaret som sponsor og utprøver har i henhold til annen lovgivning.</p>
 <p>Sponsor kan delegere sine oppgaver i forbindelse med en klinisk utprøving til en enkeltperson, virksomhet, institusjon eller organisasjon.</p>
 <p>Sponsor er ansvarlig for å sikre at gjennomføringen av den kliniske utprøvingen og behandlingen av de data som genereres, skjer i overensstemmelse med bestemmelsene i denne forskrift.</p>
 <h4 id="1-7-sponsors-tilholdssted">§ 1-7. Sponsors tilholdssted <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Sponsor skal ha tilhold i EØS-området. Dette gjelder likevel ikke dersom sponsor er representert ved fullmektig med tilhold i EØS-området. Fullmektigen skal dokumentere sin fullmakt overfor Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="1-8-utprver-og-sponsor">§ 1-8. Utprøver og sponsor</h4>
 <p>Utprøver og sponsor kan være én og samme person.</p>
 <h4 id="1-9-finansiering-av-utprvingspreparatet">§ 1-9. Finansiering av utprøvingspreparatet</h4>
 <p>Sponsor skal sørge for at utprøvingspreparatet med eventuelt tilhørende utstyr gjøres gratis tilgjengelig.</p>
 <h4 id="1-10-adgang-til-behandling-av-personopplysninger">§ 1-10. Adgang til behandling av personopplysninger <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-1-10.html" title="Endringshistorikk for § 1-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Sponsor er ansvarlig for at det foreligger nødvendig forhåndsgodkjenning fra etikkomiteen for behandling av helseopplysninger i samsvar med lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning § 33 , jf. kapittel 3 .</p>
-<p><em>Endret ved forskrift 4 juli 2018 nr. 1154 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 4 juli 2018 nr. 1154 (i kraft 20 juli 2018).</p>
 <h4 id="1-11-investigators-brochure">§ 1-11. Investigator's brochure</h4>
 <p>Opplysningene i Investigator's brochure skal gis i en kortfattet, enkel, objektiv, avbalansert og ikke-reklamemessig form, slik at en potensiell utprøver kan foreta en nøytral vurdering av nytte-/risikoforholdet ved den kliniske utprøvingen.</p>
 <p>Har utprøvingspreparatet markedsføringstillatelse, kan godkjent preparatomtale (SPC) benyttes i stedet for Investigator's brochure.</p>
 <p>Sponsor validerer og ajourfører Investigator's brochure minst en gang i året.</p>
 <h4 id="1-12-overdragelse-av-eiendomsrett-til-dokumentasjon">§ 1-12. Overdragelse av eiendomsrett til dokumentasjon</h4>
 <p>Eiendomsretten til dokumenter og resultater fra en klinisk utprøving kan overdras. Slik overdragelse skal dokumenteres skriftlig, og kopi skal sendes Direktoratet for medisinske produkter. Den nye rettighetshaveren skal oppbevare og arkivere materialet i henhold til bestemmelsen i § 8-2 .</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="1-13-ytterligere-sknadsplikt-for-srskilte-studier">§ 1-13. Ytterligere søknadsplikt for særskilte studier</h4>
 <p>Klinisk utprøving som omfatter genterapi, bruk av genmodifiserte organismer som legemiddel eller prediktive, presymptomatiske eller bærerdiagnostiske undersøkelser, skal også godkjennes i henhold til lov 5. desember 2003 nr. 100 om humanmedisinsk bruk av bioteknologi m.m.</p>
 <p>Klinisk utprøving med legemiddel som består av eller inneholder genmodifiserte organismer, kan innebære en utsetting av organismen og skal på forhånd være godkjent etter lov 2. april 1993 nr. 38 om framstilling og bruk av genmodifiserte mekanismer m.m.</p>
@@ -154,14 +317,14 @@ w. uønsket medisinsk hendelse: en uheldig medisinsk hendelse hos en forsøksper
 <h4 id="1-14-tilvirkning-og-import-av-legemidler-til-klinisk-utprvning">§ 1-14. Tilvirkning og import av legemidler til klinisk utprøvning <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-1-14.html" title="Endringshistorikk for § 1-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilvirkning og import av legemidler til klinisk utprøvning krever tillatelse fra Direktoratet for medisinske produkter.</p>
 <p>Forskrift 18. desember 2009 nr. 1839 om legemidler § 15-6a gjelder for tilvirkning og import av legemidler til klinisk utprøving.</p>
-<p><em>Endret ved forskrifter 21 aug 2018 nr. 1262 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 21 aug 2018 nr. 1262 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-2-beskyttelse-av-forskspersonene">Kapittel 2 – Beskyttelse av forsøkspersonene</h2>
 <h4 id="2-1-vurdering-av-legemidlets-nytte-og-risikoforhold">§ 2-1. Vurdering av legemidlets nytte og risikoforhold</h4>
 <p>En klinisk utprøving kan bare igangsettes dersom:</p>
 <p>a. det kjente nytte- og risikoforholdet er veiet i forhold til den antatte gevinsten for den enkelte forsøksperson og for andre nåværende og fremtidige pasienter
 b. etikkomiteen og Direktoratet for medisinske produkter finner at legemidlets forventede nytte kan berettige risikoen ved å gjennomføre forsøket, jf. kapittel 3 og kapittel 4 .</p>
 <p>Sponsor skal under forsøket fortløpende vurdere om kravene i første ledd er oppfylt.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="2-2-krav-til-informert-samtykke">§ 2-2. Krav til informert samtykke <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Før forsøket starter skal utprøver, eller den som leder informasjonsprosessen på utprøvers vegne, informere forsøkspersonen om formålet med utprøvingen, nytte og risiko knyttet til forsøkspersonens deltakelse, vilkår for gjennomføring av forsøket og om at forsøkspersonen når som helst kan trekke seg fra forsøket.</p>
 <p>Dersom forsøkspersonen ikke kan avgi et informert samtykke, skal informasjonen som nevnt i første ledd gis til den som i henhold til § 2-8 og § 2-9 kan samtykke på forsøkspersonens vegne.</p>
@@ -173,7 +336,7 @@ b. etikkomiteen og Direktoratet for medisinske produkter finner at legemidlets f
 <p>Sponsor skal forsikre de forsøkspersoner som deltar i utprøvingen, på tilfredsstillende måte mot eventuelle skader som kan oppstå under utprøvingen, jf. lov 23. desember 1988 nr. 104 om produktansvar.</p>
 <h4 id="2-5-vern-av-fysisk-og-mental-integritet-og-personopplysninger">§ 2-5. Vern av fysisk og mental integritet og personopplysninger <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En klinisk utprøving kan bare igangsettes, dersom forsøkspersonens rett til fysisk og mental integritet samt retten til privatlivets fred respekteres og opplysninger vedrørende forsøkspersonen beskyttes i henhold til bestemmelsene i personvernforordningen og lov 15. juni 2018 nr. 38 om behandling av personopplysninger, jf. lov 20. juni 2008 nr. 44 om medisinsk og helsefaglig forskning § 2 andre ledd.</p>
-<p><em>Endret ved forskrift 4 juli 2018 nr. 1154 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 4 juli 2018 nr. 1154 (i kraft 20 juli 2018).</p>
 <h4 id="2-6-krav-til-behandlers-kvalifikasjoner">§ 2-6. Krav til behandlers kvalifikasjoner</h4>
 <p>Den ansvarlige for behandling og beslutninger om behandling av forsøkspersonene skal være en kvalifisert lege eller tannlege.</p>
 <h4 id="2-7-krav-til-kontaktpunkt">§ 2-7. Krav til kontaktpunkt</h4>
@@ -203,7 +366,7 @@ f. utprøvingen medfører bare minimal risiko og byrde for forsøkspersonen
 g. forsøkspersonens interesser til enhver tid tillegges større vekt enn de vitenskapelige og samfunnsmessige interesser
 h. utprøvingen er utformet slik at smerter, ubehag, frykt, og enhver annen risiko minimeres i forhold til sykdommen
 i. protokollen er godkjent av etikkomiteen, som har ekspertise i den aktuelle sykdom og den aktuelle pasientgruppe eller har innhentet råd om kliniske, etiske og psykososiale spørsmål vedrørende den aktuelle sykdom og den aktuelle pasientgruppe.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 22 april 2013 nr. 408 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 22 april 2013 nr. 408 (i kraft 1 juli 2013).</p>
 <h2 id="kapittel-3-etikkomiteen">Kapittel 3 – Etikkomiteen</h2>
 <h4 id="3-1-sknad-om-klinisk-utprving-til-etikkomiteen">§ 3-1. Søknad om klinisk utprøving til etikkomiteen</h4>
 <p>Søknad om klinisk utprøvning sendes etikkomiteen. Før en klinisk utprøving igangsettes, må det foreligge en forhåndsgodkjenning fra etikkomiteen.</p>
@@ -227,7 +390,7 @@ m. hvordan forsøkspersonene rekrutteres.</p>
 <p>Etikkomiteen kan be søker om å supplere søknaden én gang. Tidsfristen suspenderes i slike tilfeller fra det tidspunktet etikkomiteen sender underretning til søker og frem til de etterspurte opplysningene er mottatt.</p>
 <p>Gjelder søknaden klinisk utprøving av legemiddel til genterapi, somatisk celleterapi eller genmodifiserte organismer, kan fristen som nevnt i første ledd forlenges én gang med 30 dager. Er etikkomiteen i henhold til gjeldende regelverk pålagt å konsultere en ekspertgruppe, kan fristen for slikt legemiddel forlenges med ytterligere 90 dager.</p>
 <p>Gjelder søknaden klinisk utprøving som involverer xenogen celleterapi, er det ingen maksimal behandlingstid for når uttalelsen skal gis.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="3-4-enkeltuttalelse-ved-multisenterunderskelser">§ 3-4. Enkeltuttalelse ved multisenterundersøkelser</h4>
 <p>Ved multisenterundersøkelser som geografisk sett dekkes av flere komiteer, skal det likevel bare gis én uttalelse fra én etikkomité.</p>
 <p>Ved multisenterundersøkelser som omfatter klinisk utprøving i flere EØS-land, skal det gis en uttalelse fra én etikkomité i hvert land.</p>
@@ -238,12 +401,12 @@ m. hvordan forsøkspersonene rekrutteres.</p>
 <p>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="4-1-sknad-om-klinisk-utprving-til-direktoratet-for-medisinske-produkter">§ 4-1. Søknad om klinisk utprøving til Direktoratet for medisinske produkter</h4>
 <p>Før en klinisk utprøving igangsettes i Norge, må det sendes søknad til Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="4-2-saksbehandlingsfrister">§ 4-2. Saksbehandlingsfrister</h4>
 <p>Søknad om igangsettelse av klinisk utprøving skal behandles innen 60 dager etter fremleggelse av komplett søknad.</p>
 <p>Gjelder søknaden klinisk utprøving som involverer genterapi, somatisk celleterapi eller genmodifiserte organismer, kan fristen som nevnt i første ledd forlenges én gang med 30 dager. Er Direktoratet for medisinske produkter i henhold til gjeldende regelverk pålagt å konsultere en ekspertgruppe, kan fristen for slikt legemiddel forlenges med ytterligere 90 dager.</p>
 <p>Gjelder søknaden klinisk utprøving som involverer xenogen celleterapi, er det ingen maksimal behandlingstid for når søknaden skal være ferdigbehandlet.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="4-3-direktoratet-for-medisinske-produkters-avgjrelse">§ 4-3. Direktoratet for medisinske produkters avgjørelse</h4>
 <p>Dersom Direktoratet for medisinske produkter ikke har innsigelser mot igangsetting av den kliniske utprøvingen, informeres søker om dette.</p>
 <p>Dersom Direktoratet for medisinske produkter har innsigelser til søknaden, har søker rett til å supplere søknaden én gang. Dersom søknaden ikke suppleres, eller dersom Direktoratet for medisinske produkter til tross for endringen opprettholder innsigelsene, anses søknaden avslått og utprøvingen kan ikke iverksettes. Avslag på søknad om klinisk utprøvning skal begrunnes.</p>
@@ -254,12 +417,12 @@ b. et legemiddel der virkestoffet er et biologisk produkt som stammer fra dyr el
 c. et legemiddel som inneholder biologiske bestanddeler som stammer fra dyr eller mennesker, eller hvis fremstilling krever slike komponenter,
 d. et legemiddel til genterapi, somatisk celleterapi, herunder xenogen celleterapi, eller
 e. et legemiddel som inneholder genetisk modifiserte organismer.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="4-4-merking-av-utprvingspreparatet">§ 4-4. Merking av utprøvingspreparatet</h4>
 <p>Utprøvingspreparatet skal være merket.</p>
 <h4 id="4-5-utlevering-av-legemidler">§ 4-5. Utlevering av legemidler</h4>
 <p>Med mindre Direktoratet for medisinske produkter i forbindelse med søknaden om klinisk utprøving har bestemt noe annet, skal utprøvingspreparatet utleveres fra apotek eller det enkelte utprøvningssted.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-5-regler-under-utprvingen">Kapittel 5 – Regler under utprøvingen</h2>
 <h4 id="5-1-protokollendringer">§ 5-1. Protokollendringer</h4>
 <p>Sponsor kan endre protokollen etter at den kliniske utprøvingen er iverksatt.</p>
@@ -271,23 +434,23 @@ c. som er betydningsfulle,</p>
 <p>Etikkomiteen skal innen 35 dager etter mottak av en komplett søknad godkjenne eller avslå søknaden i henhold til kriteriene som nevnt i § 3-3 . Dersom komiteen avslår søknaden, kan sponsor ikke foreta endringene i protokollen.</p>
 <p>Har etikkomiteen godkjent søknaden, og Direktoratet for medisinske produkter ikke motsetter seg endringene innen 35 dager etter mottak av en komplett søknad, kan sponsor foreta endringene i protokollen.</p>
 <p>Har etikkomiteen godkjent søknaden, mens Direktoratet for medisinske produkter har motsatt seg endringene, kan sponsor endre protokollen dersom det tas hensyn til Direktoratet for medisinske produkters innsigelser. I motsatt fall skal sponsor trekke endringsforslaget tilbake.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="5-2-iverksettelse-av-sikkerhetstiltak">§ 5-2. Iverksettelse av sikkerhetstiltak</h4>
 <p>Dersom det fremkommer nye forhold eller opplysninger vedrørende den kliniske utprøvingen eller legemidlet som vil kunne påvirke forsøkspersonens sikkerhet, skal sponsor og utprøver umiddelbart iverksette nødvendige sikkerhetstiltak for å hindre at forsøkspersonene påføres skade.</p>
 <p>Sponsor skal umiddelbart informere etikkomiteen og Direktoratet for medisinske produkter om endringene og de tiltak som er iverksatt.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="5-3-stansing-av-klinisk-utprving">§ 5-3. Stansing av klinisk utprøving</h4>
 <p>Direktoratet for medisinske produkter kan stanse en igangsatt klinisk utprøving, dersom</p>
 <p>a. vilkårene for igangsetting ikke lenger anses oppfylt
 b. nye opplysninger skaper tvil om sikkerheten i utprøvingen
 c. nye opplysninger skaper tvil om den vitenskapelige verdien av utprøvingen.</p>
 <p>Før Direktoratet for medisinske produkter fatter vedtak etter første ledd, skal sponsor eller utprøver gis en frist på en uke til å uttale seg i saken, dersom en slik utsettelse av avgjørelsen ikke innebærer en risiko.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-6-tilsyn-og-inspeksjon">Kapittel 6 – Tilsyn og inspeksjon</h2>
 <h4 id="6-1-tilsynsmyndighet">§ 6-1. Tilsynsmyndighet <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Direktoratet for medisinske produkter fører tilsyn med at bestemmelsene i denne forskrift overholdes.</p>
 <p>Statens helsetilsyn fører tilsyn med helsetjenesten som ytes ved utprøvinger, jf. lov 15. desember 2017 nr. 107 om statlig tilsyn med helse- og omsorgstjenesten mv. (helsetilsynsloven) . Direktoratet for medisinske produkter skal på anmodning fra Statens helsetilsyn opplyse om hvilke leger/tannleger som driver utprøving og om foretatte og planlagte inspeksjoner.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 20 sep 2021 nr. 2838 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 20 sep 2021 nr. 2838 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="6-2-inspeksjon">§ 6-2. Inspeksjon <a class="para-history" href="../historikk/forskrift-2009-10-30-1321/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Direktoratet for medisinske produkter fører tilsyn med at kravet til god klinisk utprøvingspraksis overholdes i forbindelse med klinisk utprøving.</p>
 <p>Direktoratet for medisinske produkter kan som ledd i tilsynet foreta inspeksjon hos enhver som er eller har vært involvert i gjennomføringen av utprøvingen.</p>
@@ -296,10 +459,10 @@ c. nye opplysninger skaper tvil om den vitenskapelige verdien av utprøvingen.</
 b. som ledd i vurderingen av søknad om markedsføringstillatelse etter forskrift 18. desember 2009 nr. 1839 om legemidler
 c. som oppfølging av en utstedt markedsføringstillatelse.</p>
 <p>Inspeksjon kan foretas uten hinder av lovbestemt taushetsplikt, jf. lov 4. desember 1992 nr. 132 om legemidler m.v. § 28 annet ledd.</p>
-<p><em>Endret ved forskrifter 18 des 2009 nr. 1839 (i kraft 12 jan 2010), 10 mai 2022 nr. 831 , 27 mars 2023 nr. 432 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2009 nr. 1839 (i kraft 12 jan 2010), 10 mai 2022 nr. 831 , 27 mars 2023 nr. 432 , 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="6-3-inspeksjonsrapport">§ 6-3. Inspeksjonsrapport</h4>
 <p>På grunnlag av tilsynet utarbeider Direktoratet for medisinske produkter en inspeksjonsrapport som gjøres tilgjengelig for sponsor. Den skal på forespørsel gjøres tilgjengelig for etikkomiteen, myndighetene i andre EØS-land og det europeiske legemiddelkontor (EMEA).</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="6-4-gcp-inspektr">§ 6-4. GCP-inspektør</h4>
 <p>Inspeksjon etter denne forskrift foretas av en eller flere GCP-inspektører. En inspektør skal</p>
 <p>a. ha utdannelse på universitetsnivå eller ha tilsvarende erfaring innen medisin, farmasi, farmakologi, toksikologi eller andre relevante områder
@@ -322,7 +485,7 @@ h. være utstyrt med legitimasjon som viser vedkommendes status som inspektør.<
 <p>Ved rapporterte dødsfall har utprøver plikt til å oversende sponsor og etikkomiteen den informasjon disse etterspør.</p>
 <h4 id="7-2-sponsors-plikt-til-a-oppbevare-opplysninger-om-unskede-medisinske-hendelser">§ 7-2. Sponsors plikt til å oppbevare opplysninger om uønskede medisinske hendelser</h4>
 <p>Sponsor skal oppbevare detaljerte opplysninger over alle uønskede medisinske hendelser som er meddelt ham av utprøver. Opplysningene skal på forespørsel oversendes Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="7-3-sponsors-meldeplikt-ved-uventede-og-alvorlige-bivirkninger">§ 7-3. Sponsors meldeplikt ved uventede og alvorlige bivirkninger</h4>
 <p>Sponsor skal umiddelbart og senest syv dager etter at han fikk kjennskap til en uventet og alvorlig bivirkning som er dødelig eller livstruende, sende rapport til myndighetene i alle berørte EØS-land. Relevante opplysninger om det videre forløp skal deretter gis innen åtte dager.</p>
 <p>Sponsor skal umiddelbart og senest 15 dager etter at han fikk kjennskap til en uventet og alvorlig bivirkning som ikke er dødelige eller livstruende, sende rapport til myndighetene i alle berørte EØS-land.</p>
@@ -356,11 +519,13 @@ c. at enhver endring i dokumentene kan spores.</p>
 <p>Innen 90 dager etter at den kliniske utprøvingen er avsluttet, plikter sponsor å melde fra til Direktoratet for medisinske produkter og etikkomiteen om at studien er avsluttet.</p>
 <p>Dersom den kliniske utprøvingen må avbrytes, skal sponsor melde dette til Direktoratet for medisinske produkter og etikkomiteen innen 15 dager. Det skal gis en begrunnelse for hvorfor utprøvingen ble stanset.</p>
 <p>Senest ett år etter at utprøvningen er avsluttet, skal sponsor sende inn sluttrapport til Direktoratet for medisinske produkter. Denne fristen kan etter søknad forlenges av Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-9-ikrafttredelse-mv">Kapittel 9 – Ikrafttredelse mv.</h2>
 <h4 id="9-1-ikrafttredelse-mv">§ 9-1. Ikrafttredelse mv.</h4>
 <p>Forskriften trer i kraft straks.</p>
 <p>Fra samme tid oppheves forskrift 24. september 2003 nr. 1202 om klinisk utprøving av legemidler til mennesker.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

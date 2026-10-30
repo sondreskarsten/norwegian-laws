@@ -19,64 +19,147 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-04-18-336.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om dekning av utgifter til proteser mv." href="../feeds/forskrift-1997-04-18-336.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Forskrift om dekning av utgifter til proteser mv.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1997-04-18-336</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1997-05-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-26-1386</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1997-04-18-336" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-ortopediske-hjelpemidler">I Ortopediske hjelpemidler</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl2"><a href="#ii-brystprotese-ansiktsdefektprotese-yeprotese-og-parykk">II Brystprotese, ansiktsdefektprotese, øyeprotese og parykk</a></li>
+<li class="lvl4"><a href="#5-brystprotese">§ 5. Brystprotese</a></li>
+<li class="lvl4"><a href="#6-ansiktsdefektprotese">§ 6. Ansiktsdefektprotese</a></li>
+<li class="lvl4"><a href="#7-yeprotese">§ 7. Øyeprotese</a></li>
+<li class="lvl4"><a href="#8-parykk">§ 8. Parykk</a></li>
+<li class="lvl2"><a href="#iii-standardprodukter">III Standardprodukter</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#9a">§ 9a</a></li>
+<li class="lvl2"><a href="#iv-fellesbestemmelser">IV Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-26-1386.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-04-18-336.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om stønad til dekning av utgifter til ortopediske hjelpemidler, brystprotese, ansiktsdefektprotese, øyeprotese og parykk</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-04-18-336.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1997-04-18-336 <code>forskrift/1997-04-18-336</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om dekning av utgifter til proteser mv.</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.05.1997</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-26-1386 <code>forskrift/2026-06-26-1386</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1997-04-18-336" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-ortopediske-hjelpemidler">I Ortopediske hjelpemidler</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl2"><a href="#ii-brystprotese-ansiktsdefektprotese-yeprotese-og-parykk">II Brystprotese, ansiktsdefektprotese, øyeprotese og parykk</a></li>
+<li class="lvl4"><a href="#5-brystprotese">§ 5. Brystprotese</a></li>
+<li class="lvl4"><a href="#6-ansiktsdefektprotese">§ 6. Ansiktsdefektprotese</a></li>
+<li class="lvl4"><a href="#7-yeprotese">§ 7. Øyeprotese</a></li>
+<li class="lvl4"><a href="#8-parykk">§ 8. Parykk</a></li>
+<li class="lvl2"><a href="#iii-standardprodukter">III Standardprodukter</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#9a">§ 9a</a></li>
+<li class="lvl2"><a href="#iv-fellesbestemmelser">IV Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-04-18-336.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-04-18-336.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-04-18-336.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1997-04-18-336.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1997-04-18-336.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-04-18-336.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1997-04-18-336.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1997-04-18-336.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1997-04-18-336.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-stnad-til-dekning-av-utgifter-til-ortopediske-hjelpemidler-brystprotese-ansiktsdefektprotese-yeprotese-og-parykk">Forskrift om stønad til dekning av utgifter til ortopediske hjelpemidler, brystprotese, ansiktsdefektprotese, øyeprotese og parykk</h1>
 <h2 id="i-ortopediske-hjelpemidler">I Ortopediske hjelpemidler</h2>
 <h4 id="1">§ 1</h4>
 <p>Et medlem med varige og vesentlige funksjonsforstyrrelser i støtte- og bevegelsesorganene, har rett til stønad til dekning av utgifter til anskaffelse, fornyelse og vedlikehold av nødvendig og hensiktsmessig protese eller ortose. Det kan også gis stønad til spesialprotese til fritidsbruk.</p>
@@ -84,7 +167,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Utgiftene ved anskaffelse av spesiallaget «myk fotseng» dekkes i den utstrekning de overstiger en sats fastsatt av departementet. Det kan ytes stønad til ett par fotsenger pr. kalenderår. Hvis det foreligger særlige grunner, kan det ytes stønad til mer enn ett par. Dersom spesialist i indremedisin eller ortopedi godtgjør at medlemmet har behov for hyppig utskifting av fotseng på grunn av forebygging eller behandling av alvorlige sårdannelser ved diabetes mellitus, dekkes utgiftene for mer enn ett par fotsenger pr. kalenderår fullt ut.</p>
 <p>Ved anskaffelse av fottøy til fast montering på protese eller ortose gjelder reglene i § 2 og § 3 om antall fottøy, egenbetaling og fornyelse tilsvarende.</p>
 <p>Hvis et medlem har et særlig behov for å skifte protese eller ortose eller av andre særlige grunner trenger det, kan medlemmet få dekket utgiftene til reserveeksemplar.</p>
-<p><em>Endret ved forskrifter 21 des 1999 nr. 1522 (i kraft 1 jan 2000), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 22 des 2011 nr. 1485 (i kraft 1 jan 2012), forskrift 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 2 okt 2018 nr. 1537 , 30 des 2023 nr. 2343 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 21 des 1999 nr. 1522 (i kraft 1 jan 2000), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 22 des 2011 nr. 1485 (i kraft 1 jan 2012), forskrift 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 2 okt 2018 nr. 1537 , 30 des 2023 nr. 2343 (i kraft 1 jan 2024).</p>
 <h4 id="2">§ 2</h4>
 <p>Et medlem som fyller vilkårene i § 1 første ledd har rett til stønad til anskaffelse og tilpasning av ortopedisk fottøy når:</p>
 <p>a. fottøyet er spesialsydd for medlemmet,
@@ -93,14 +176,14 @@ c. fabrikkmessig framstilt fottøy erstatter spesiallaget ortopedisk fottøy. De
 <p>Det ytes stønad til anskaffelse av inntil to par ortopedisk fottøy pr. kalenderår. Det kan likevel ytes stønad til mer enn to par ortopedisk fottøy ved første gangs anskaffelse, til barn i vekst og når lege godtgjør at funksjonsforstyrrelsen er av en slik art at fottøyet slites mer enn normalt.</p>
 <p>Utgiftene ved anskaffelse av ortopedisk fottøy som nevnt i første ledd bokstav a, dekkes i den utstrekning de overstiger et beløp fastsatt av departementet. Det kan settes en egen beløpsgrense for dekning av utgiftene for barn under 10 år. Ved anskaffelse av ortopedisk fottøy som nevnt i første ledd bokstav c ytes det stønad opp til sats fastsatt av departementet.</p>
 <p>Når det gis dispensasjon etter bestemmelsen i andre ledd for barn i vekst og på grunn av funksjonsforstyrrelsens art, dekkes utgiftene fullt ut.</p>
-<p><em>Endret ved forskrifter 22 des 1998 nr. 1436 (i kraft 1 jan 1999), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 23 des 2004 nr. 1811 (i kraft 1 jan 2005), 10 jan 2006 nr. 19 (i kraft 1 jan 2006), 22 des 2006 nr. 1600 (i kraft 1 jan 2007), 4 jan 2008 nr. 22 (i kraft 1 jan 2008), 8 des 2008 nr. 1287 (i kraft 1 jan 2009), 9 april 2010 nr. 603 , 22 des 2011 nr. 1485 (i kraft 1 jan 2012), 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 10 jan 2014 nr. 12 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 20 des 2017 nr. 2326 (i kraft 1 jan 2018), 2 okt 2018 nr. 1537 .</em></p>
+<p class="note">Endret ved forskrifter 22 des 1998 nr. 1436 (i kraft 1 jan 1999), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 23 des 2004 nr. 1811 (i kraft 1 jan 2005), 10 jan 2006 nr. 19 (i kraft 1 jan 2006), 22 des 2006 nr. 1600 (i kraft 1 jan 2007), 4 jan 2008 nr. 22 (i kraft 1 jan 2008), 8 des 2008 nr. 1287 (i kraft 1 jan 2009), 9 april 2010 nr. 603 , 22 des 2011 nr. 1485 (i kraft 1 jan 2012), 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 10 jan 2014 nr. 12 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 20 des 2017 nr. 2326 (i kraft 1 jan 2018), 2 okt 2018 nr. 1537 .</p>
 <h4 id="3">§ 3</h4>
 <p><em>Det gis stønad til anskaffelse, fornyelse og vedlikehold av ortopediske hjelpemidler som er nevnt i § 1 og § 2 , når det foreligger søknad som er begrunnet av en spesialist i ortopedisk kirurgi eller en spesialist i fysikalsk medisin og rehabilitering. For ortoser og ortopedisk fottøy kan søknad også begrunnes av en spesialist i nevrologi, revmatologi eller indremedisin, alt etter hvilken tilstand som gjør anskaffelsen nødvendig. Spesialist i pediatri kan begrunne søknader om ortoser til bruk i barnets første leveår. Søknad kan også begrunnes av avdelingsoverlege eller den lege overlegen bemyndiger ved sykehusavdeling som har behov for å kunne rekvirere ortopediske hjelpemidler. Søknaden gis på blankett fastsatt av Arbeids- og velferdsdirektoratet, eller på andre måter som Arbeids- og velferdsetaten bestemmer. Legen kan ikke begrunne søknader om ortopediske hjelpemidler som leveres av et ortopedisk verksted som legen selv eller legens nærmeste pårørende har økonomiske interesser i. Legen sørger for at det ortopediske hjelpemidlet blir bestilt. I den utstrekning det er mulig bør arbeidet med de vanskeligere typer av ortopediske hjelpemidler utføres ved de protesesentra som er eller blir opprettet, eventuelt av avdeling eller institusjon som har spesialisert seg på ortopediteknikkens område. Etter fullmakt fra legen kan medlemmet selv søke om fornyelse av sitt ortopediske hjelpemiddel i en periode på inntil fem år. Hvis legen godtgjør at det er åpenbart at hjelpemiddelbehovet ikke vil endres, kan fullmakt gis for en periode på inntil ti år. En offentlig godkjent ortopediingeniør skal attestere at fornyelsen av hjelpemidlet er faglig forsvarlig. Hvis det er fastslått at medlemmets medisinske tilstand og behovet for hjelpemiddel er uendret, kan medlemmets fastlege forlenge gyldighetstiden med inntil fem år for en fullmakt gitt av en godkjent begrunner. Hvis legen som begrunnet den opprinnelige søknaden har gitt fullmakt for en periode på inntil ti år, kan fastlegen forlenge gyldighetstiden med inntil ti år. Medlemmet kan ved fornyelse selv søke om forhåndstilsagn om stønad til mer enn to par ortopedisk fottøy og ett par fotsenger pr. kalenderår hvis legen har angitt at fullmakten kan gjelde ved fornyelser i en periode på inntil fem år. Legen skal påse at medlemmet ved første gangs anskaffelse av et ortopedisk hjelpemiddel blir trenet i bruken av hjelpemidlet, om nødvendig ved opphold i sykehus eller attføringsinstitutt. Den ortopediingeniøren som har hatt ansvaret for å tilpasse hjelpemidlet skal attestere at hjelpemidlet er hensiktsmessig og kvalitetsmessig utført.
 Endret ved forskrifter 21 des 1999 nr. 1522 (i kraft 1 jan 2000), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 4 april 2002 nr. 324 , 7 juni 2002 nr. 790 , 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 8 juli 2005 nr. 899 (i kraft 1 sep 2005), 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel), 2 okt 2018 nr. 1537 .</em></p>
 <h4 id="4">§ 4</h4>
 <p>Arbeids- og velferdsdirektoratet skal inngå avtaler med ortopediske verksteder og forhandlere om levering av og priser på ortopediske hjelpemidler. Det ytes bare stønad til ortopediske hjelpemidler som er levert av verksteder og forhandlere i henhold til slik avtale.</p>
 <p>Bestemmelsen i første ledd gjelder ikke for ortopediske hjelpemidler til den som har rett til stønad etter folketrygdloven § 5-24 .</p>
-<p><em>Endret ved forskrifter 28 jan 2000 nr. 69 , 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</em></p>
+<p class="note">Endret ved forskrifter 28 jan 2000 nr. 69 , 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</p>
 <h2 id="ii-brystprotese-ansiktsdefektprotese-yeprotese-og-parykk">II Brystprotese, ansiktsdefektprotese, øyeprotese og parykk</h2>
 <h4 id="5-brystprotese">§ 5. Brystprotese</h4>
 <p><em>Etter operative inngrep eller ved medfødt ensidig utviklingsanomali ytes det stønad til anskaffelse av hensiktsmessig brystprotese når det er bekreftet ved legeerklæring at protese er nødvendig. Det kan også ytes stønad til personer med kjønnsinkongruens, når behovet er dokumentert med erklæring fra lege eller annet helsepersonell med nødvendig medisinsk kompetanse. Ved fornyelse av protese ytes det stønad uten at det foreligger legeerklæring fra lege eller annet helsepersonell. Når særlige grunner tilsier det, kan Arbeids- og velferdsetaten likevel kreve slik erklæring ved fornyelse. Det skal også ytes stønad til reserveeksemplar. Arbeids- og velferdsdirektoratet skal inngå avtaler med leverandører om levering av og priser på brystproteser. Det ytes bare stønad til brystproteser som er levert i henhold til slik avtale. Stønad til brystprotese kan begrenses til et beløp som fastsettes av Arbeids- og velferdsdirektoratet. Ved den første tilpasningen av brystprotese kan det ytes stønad til en spesialbrystholder opp til sats fastsatt av departementet. Det kan ikke ytes stønad til spesielle klær for den som bruker brystprotese.
@@ -116,7 +199,7 @@ Endret ved forskrift 7 april 2003 nr. 453 .</em></p>
 <p>Det ytes stønad til en eller flere parykker i kalenderåret etter medlemmets behov. Tidspunkt for bestilling av parykken er bestemmende for hvilket kalenderår stønaden gis for. Det kan ytes stønad opp til satser fastsatt av departementet. Det kan fastsettes ulike satser avhengig av om medlemmet har fylt 30 år. Det kan i særskilte tilfeller ytes stønad til parykk utover satsen for personer under 30 år dersom nødvendige utgifter til parykk overstiger satsen. Det kan settes egen sats for personer som har fylt 30 år for dekning av utgifter hvis medlemmet må bruke individuelt tillaget parykk eller standardparykk av ekte hår på grunn av avvikende hodeform eller allergisk reaksjon mot syntetisk materiale. Det er et vilkår at relevant kontaktallergi er dokumentert av dermatolog eller spesialavdeling i sykehus.</p>
 <p>Innenfor den årlige stønadsgrensen kan det også ytes stønad til reparasjon og vedlikehold av parykk.</p>
 <p>Det kan i stedet for stønad til parykk ytes stønad til hodeplagg, hårforlengelse eller hårintegrasjon opp til sats fastsatt av departementet.</p>
-<p><em>Endret ved forskrifter 21 des 1999 nr. 1522 (i kraft 1 jan 2000), 10 feb 2000 nr. 124 (i kraft 1 mars 2000 med virkning fra 1 jan 2000), 7 april 2003 nr. 453 , 11 des 2003 nr. 1492 (i kraft 1 jan 2004), 11 okt 2004 nr. 1374 , 23 des 2004 nr. 1811 (i kraft 1 jan 2005), 10 jan 2006 nr. 19 (i kraft 1 jan 2006), 22 des 2006 nr. 1600 (i kraft 1 jan 2007), 4 jan 2008 nr. 22 (i kraft 1 jan 2008), 8 des 2008 nr. 1287 (i kraft 1 jan 2009), 9 april 2010 nr. 603 , 22 des 2011 nr. 1485 (i kraft 1 jan 2012), 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 20 des 2017 nr. 2326 (i kraft 1 jan 2018), 2 okt 2018 nr. 1537 , 2 aug 2021 nr. 2471 (i kraft 1 sep 2021), 29 okt 2025 nr. 2139 (i kraft 1 jan 2026, endringen endret ved forskrift 31 okt 2025 nr. 2164 ), 26 juni 2026 nr. 1386 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 1999 nr. 1522 (i kraft 1 jan 2000), 10 feb 2000 nr. 124 (i kraft 1 mars 2000 med virkning fra 1 jan 2000), 7 april 2003 nr. 453 , 11 des 2003 nr. 1492 (i kraft 1 jan 2004), 11 okt 2004 nr. 1374 , 23 des 2004 nr. 1811 (i kraft 1 jan 2005), 10 jan 2006 nr. 19 (i kraft 1 jan 2006), 22 des 2006 nr. 1600 (i kraft 1 jan 2007), 4 jan 2008 nr. 22 (i kraft 1 jan 2008), 8 des 2008 nr. 1287 (i kraft 1 jan 2009), 9 april 2010 nr. 603 , 22 des 2011 nr. 1485 (i kraft 1 jan 2012), 17 des 2012 nr. 1273 (i kraft 1 jan 2013), 19 des 2013 nr. 1660 (i kraft 1 jan 2014), 18 des 2016 nr. 1821 (i kraft 1 jan 2016), 20 des 2017 nr. 2326 (i kraft 1 jan 2018), 2 okt 2018 nr. 1537 , 2 aug 2021 nr. 2471 (i kraft 1 sep 2021), 29 okt 2025 nr. 2139 (i kraft 1 jan 2026, endringen endret ved forskrift 31 okt 2025 nr. 2164 ), 26 juni 2026 nr. 1386 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h2 id="iii-standardprodukter">III Standardprodukter</h2>
 <p>Overskrift endret ved forskrift 13 mars 2009 nr. 300 (i kraft 1 juni 2009).</p>
 <h4 id="9">§ 9</h4>
@@ -131,16 +214,18 @@ Tilføyd ved forskrift 13 mars 2009 nr. 300 (i kraft 1 juni 2009). Endret ved fo
 Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 9), 20 juni 2001 nr. 732 (i kraft 1 juli 2001), 12 des 2002 nr. 1487 (i kraft 1 jan 2003), 24 april 2006 nr. 435 , 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</em></p>
 <h4 id="11">§ 11</h4>
 <p>Trygden yter full stønad til nødvendig legeundersøkelse i forbindelse med anskaffelse av ortopedisk hjelpemiddel eller protese som nevnt i denne forskrift etter takster fastsatt av Arbeids- og velferdsdirektoratet.</p>
-<p><em>Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 10), 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</em></p>
+<p class="note">Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 10), 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</p>
 <h4 id="12">§ 12</h4>
 <p>Hvis et medlem må reise til lege, helseinstitusjon, attføringsinstitutt eller forhandler i forbindelse med anskaffelse av ortopedisk hjelpemiddel eller protese, dekker trygden reiseutgiftene etter regler og takster fastsatt av Arbeids- og velferdsdirektoratet.</p>
-<p><em>Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 11), 14 juni 2004 nr. 890 , 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</em></p>
+<p class="note">Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 11), 14 juni 2004 nr. 890 , 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</p>
 <h4 id="13">§ 13</h4>
 <p>Arbeids- og velferdsdirektoratet kan gi nærmere bestemmelser om den praktiske gjennomføringen av denne forskriften.</p>
-<p><em>Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 12), 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</em></p>
+<p class="note">Endret ved forskrifter 15 feb 1999 nr. 215 (tidligere § 12), 30 juni 2006 nr. 790 (i kraft 1 juli 2006, se endringsforskriften for overgangsregel).</p>
 <h4 id="14">§ 14</h4>
 <p>Forskriften trer i kraft den 1. mai 1997.</p>
-<p><em>Endret ved forskrift 15 feb 1999 nr. 215 (tidligere § 13).</em></p>
+<p class="note">Endret ved forskrift 15 feb 1999 nr. 215 (tidligere § 13).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

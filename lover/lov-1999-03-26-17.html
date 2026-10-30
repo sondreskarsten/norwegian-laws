@@ -19,64 +19,321 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1999-03-26-17.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Husleieloven – husll" href="../feeds/lov-1999-03-26-17.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Husleieloven – husll</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1999-03-26-17</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Fast eiendoms rettsforhold &raquo; Husleie</dd>
-<dt>Ikrafttredelse</dt><dd>2000-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-12-22</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1999-03-26-17" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade-mv">§ 1-1. Lovens virkeområde m.v.</a></li>
+<li class="lvl4"><a href="#1-2-ufravikelighet">§ 1-2. Ufravikelighet</a></li>
+<li class="lvl4"><a href="#1-3-standardvilkar">§ 1-3. Standardvilkår</a></li>
+<li class="lvl4"><a href="#1-4-avtaleform">§ 1-4. Avtaleform</a></li>
+<li class="lvl4"><a href="#1-5-risikoen-for-sending-av-meldinger">§ 1-5. Risikoen for sending av meldinger</a></li>
+<li class="lvl4"><a href="#1-6-beregning-av-frister">§ 1-6. Beregning av frister</a></li>
+<li class="lvl4"><a href="#1-7-erstatningsansvar-for-skade-pa-person-mv">§ 1-7. Erstatningsansvar for skade på person m.v.</a></li>
+<li class="lvl4"><a href="#1-8-forbud-mot-diskriminering">§ 1-8. Forbud mot diskriminering</a></li>
+<li class="lvl2"><a href="#kapittel-2-overlevering-og-krav-til-husrommet">Kapittel 2. Overlevering og krav til husrommet</a></li>
+<li class="lvl4"><a href="#2-1-tidspunkt-for-overlevering">§ 2-1. Tidspunkt for overlevering</a></li>
+<li class="lvl4"><a href="#2-2-generelle-krav-til-tilstand">§ 2-2. Generelle krav til tilstand</a></li>
+<li class="lvl4"><a href="#2-3-uriktige-opplysninger-om-husrommet">§ 2-3. Uriktige opplysninger om husrommet</a></li>
+<li class="lvl4"><a href="#2-4-manglende-opplysninger-om-husrommet">§ 2-4. Manglende opplysninger om husrommet</a></li>
+<li class="lvl4"><a href="#2-5-husrom-leid-som-det-er-el">§ 2-5. Husrom leid «som det er» e.l.</a></li>
+<li class="lvl4"><a href="#2-6-forunderskelse-mv">§ 2-6. Forundersøkelse m.v.</a></li>
+<li class="lvl4"><a href="#2-7-tiden-for-mangelsbedmmelsen">§ 2-7. Tiden for mangelsbedømmelsen</a></li>
+<li class="lvl4"><a href="#2-8-reklamasjon">§ 2-8. Reklamasjon</a></li>
+<li class="lvl4"><a href="#2-9-leierens-rett-til-a-fastholde-avtalen-ved-forsinkelse">§ 2-9. Leierens rett til å fastholde avtalen ved forsinkelse</a></li>
+<li class="lvl4"><a href="#2-10-krav-pa-retting-av-mangel">§ 2-10. Krav på retting av mangel</a></li>
+<li class="lvl4"><a href="#2-11-avslag-i-leie">§ 2-11. Avslag i leie</a></li>
+<li class="lvl4"><a href="#2-12-heving-av-leieavtalen">§ 2-12. Heving av leieavtalen</a></li>
+<li class="lvl4"><a href="#2-13-erstatning">§ 2-13. Erstatning</a></li>
+<li class="lvl4"><a href="#2-14-erstatningsansvarets-omfang">§ 2-14. Erstatningsansvarets omfang</a></li>
+<li class="lvl4"><a href="#2-15-rett-til-a-holde-leie-tilbake">§ 2-15. Rett til å holde leie tilbake</a></li>
+<li class="lvl4"><a href="#2-16-rettsmangler">§ 2-16. Rettsmangler</a></li>
+<li class="lvl4"><a href="#2-17-offentligrettslige-radighetsinnskrenkinger">§ 2-17. Offentligrettslige rådighetsinnskrenkinger</a></li>
+<li class="lvl2"><a href="#kapittel-3-leie-og-andre-ytelser">Kapittel 3. Leie og andre ytelser</a></li>
+<li class="lvl4"><a href="#3-1-leien">§ 3-1. Leien</a></li>
+<li class="lvl4"><a href="#3-2-forfallstid">§ 3-2. Forfallstid</a></li>
+<li class="lvl4"><a href="#3-3-oppgjrsmate">§ 3-3. Oppgjørsmåte</a></li>
+<li class="lvl4"><a href="#3-4-betaling-for-elektrisitet-og-brensel-mv">§ 3-4. Betaling for elektrisitet og brensel mv.</a></li>
+<li class="lvl4"><a href="#3-5-depositum">§ 3-5. Depositum</a></li>
+<li class="lvl4"><a href="#3-6-garanti">§ 3-6. Garanti</a></li>
+<li class="lvl4"><a href="#3-7-forbud-mot-andre-ytelser-ved-leie-av-bolig">§ 3-7. Forbud mot andre ytelser ved leie av bolig</a></li>
+<li class="lvl4"><a href="#3-8-deponering-av-omtvistet-leie">§ 3-8. Deponering av omtvistet leie</a></li>
+<li class="lvl2"><a href="#kapittel-4-leieprisvern">Kapittel 4. Leieprisvern</a></li>
+<li class="lvl4"><a href="#4-1-det-alminnelige-leieprisvern">§ 4-1. Det alminnelige leieprisvern</a></li>
+<li class="lvl4"><a href="#4-2-indeksregulering">§ 4-2. Indeksregulering</a></li>
+<li class="lvl4"><a href="#4-3-tilpassing-til-gjengs-leie">§ 4-3. Tilpassing til gjengs leie</a></li>
+<li class="lvl4"><a href="#4-4-tilbakebetaling-av-ulovlig-leie">§ 4-4. Tilbakebetaling av ulovlig leie</a></li>
+<li class="lvl4"><a href="#4-5-unntak-fra-leieprisvernet">§ 4-5. Unntak fra leieprisvernet</a></li>
+<li class="lvl4"><a href="#4-6-forskrifter">§ 4-6. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-5-partenes-plikter-i-leietiden">Kapittel 5. Partenes plikter i leietiden</a></li>
+<li class="lvl4"><a href="#5-1-leierens-bruk-mv">§ 5-1. Leierens bruk m.v.</a></li>
+<li class="lvl4"><a href="#5-2-ro-og-orden">§ 5-2. Ro og orden</a></li>
+<li class="lvl4"><a href="#5-3-vedlikehold">§ 5-3. Vedlikehold</a></li>
+<li class="lvl4"><a href="#5-4-forandringer-i-husrommet-og-pa-eiendommen-for-vrig">§ 5-4. Forandringer i husrommet og på eiendommen for øvrig</a></li>
+<li class="lvl4"><a href="#5-5-skade-pa-husrommet">§ 5-5. Skade på husrommet</a></li>
+<li class="lvl4"><a href="#5-6-utleierens-adgang-til-husrommet">§ 5-6. Utleierens adgang til husrommet</a></li>
+<li class="lvl4"><a href="#5-7-leierens-krav-pa-grunn-av-mangler-som-oppstar-i-leietiden">§ 5-7. Leierens krav på grunn av mangler som oppstår i leietiden</a></li>
+<li class="lvl4"><a href="#5-8-leierens-erstatningsansvar">§ 5-8. Leierens erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-6-beboerrepresentasjon-i-visse-boligleieforhold">Kapittel 6. Beboerrepresentasjon i visse boligleieforhold</a></li>
+<li class="lvl4"><a href="#6-1-felles-representasjon">§ 6-1. Felles representasjon</a></li>
+<li class="lvl4"><a href="#6-2-den-tillitsvalgtes-plikter">§ 6-2. Den tillitsvalgtes plikter</a></li>
+<li class="lvl4"><a href="#6-3-informasjon-til-tillitsvalgt-mv">§ 6-3. Informasjon til tillitsvalgt m.v.</a></li>
+<li class="lvl2"><a href="#kapittel-7-opptak-i-husstand-og-framleie">Kapittel 7. Opptak i husstand og framleie</a></li>
+<li class="lvl4"><a href="#7-1-opptak-i-husstand">§ 7-1. Opptak i husstand</a></li>
+<li class="lvl4"><a href="#7-2-den-alminnelige-regelen-om-framleie">§ 7-2. Den alminnelige regelen om framleie</a></li>
+<li class="lvl4"><a href="#7-3-framleie-av-del-av-bolig">§ 7-3. Framleie av del av bolig</a></li>
+<li class="lvl4"><a href="#7-4-framleie-av-bolig-ved-midlertidig-fravr">§ 7-4. Framleie av bolig ved midlertidig fravær</a></li>
+<li class="lvl4"><a href="#7-5-framleie-ved-tidsbestemte-leieavtaler">§ 7-5. Framleie ved tidsbestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#7-6-godkjenning-ved-passivitet">§ 7-6. Godkjenning ved passivitet</a></li>
+<li class="lvl4"><a href="#7-7-framleierens-stilling-ved-opphr-av-hovedleieavtalen">§ 7-7. Framleierens stilling ved opphør av hovedleieavtalen</a></li>
+<li class="lvl2"><a href="#kapittel-8-personskifte">Kapittel 8. Personskifte</a></li>
+<li class="lvl4"><a href="#8-1-den-alminnelige-regelen-om-overfring">§ 8-1. Den alminnelige regelen om overføring</a></li>
+<li class="lvl4"><a href="#8-2-leierens-dd">§ 8-2. Leierens død</a></li>
+<li class="lvl4"><a href="#8-3-samlivsbrudd-separasjon-skilsmisse-og-opphr-av-husstandsfellesskap">§ 8-3. Samlivsbrudd, separasjon, skilsmisse og opphør av husstandsfellesskap</a></li>
+<li class="lvl4"><a href="#8-4-overfring-av-leierett-til-lokale">§ 8-4. Overføring av leierett til lokale</a></li>
+<li class="lvl4"><a href="#8-5-gjennomfring-av-leierskifte">§ 8-5. Gjennomføring av leierskifte</a></li>
+<li class="lvl4"><a href="#8-6-eierskifte">§ 8-6. Eierskifte</a></li>
+<li class="lvl2"><a href="#kapittel-9-leieforholdets-varighet-opphr">Kapittel 9. Leieforholdets varighet – opphør</a></li>
+<li class="lvl4"><a href="#9-1-tidsbestemte-og-tidsubestemte-leieavtaler">§ 9-1. Tidsbestemte og tidsubestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#9-2-tidsbestemte-leieavtaler">§ 9-2. Tidsbestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#9-3-adgangen-til-a-innga-tidsbestemt-leieavtale-for-bolig">§ 9-3. Adgangen til å inngå tidsbestemt leieavtale for bolig</a></li>
+<li class="lvl4"><a href="#9-3-a-midlertidig-unntak-ved-utleie-av-fritidsbolig-som-bolig">§ 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig</a></li>
+<li class="lvl4"><a href="#9-4-leierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-4. Leierens oppsigelse av tidsubestemt leieavtale</a></li>
+<li class="lvl4"><a href="#9-5-utleierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-5. Utleierens oppsigelse av tidsubestemt leieavtale</a></li>
+<li class="lvl4"><a href="#9-6-oppsigelsesfrist">§ 9-6. Oppsigelsesfrist</a></li>
+<li class="lvl4"><a href="#9-7-formkrav-til-utleierens-oppsigelse">§ 9-7. Formkrav til utleierens oppsigelse</a></li>
+<li class="lvl4"><a href="#9-8-tilsidesettelse-av-oppsigelse">§ 9-8. Tilsidesettelse av oppsigelse</a></li>
+<li class="lvl4"><a href="#9-9-utleierens-hevingsrett">§ 9-9. Utleierens hevingsrett</a></li>
+<li class="lvl4"><a href="#9-10-leierens-dd">§ 9-10. Leierens død</a></li>
+<li class="lvl4"><a href="#9-11-varsel-om-fravikelse">§ 9-11. Varsel om fravikelse</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilbakelevering-av-husrommet-ved-leieforholdets-opphr">Kapittel 10. Tilbakelevering av husrommet ved leieforholdets opphør</a></li>
+<li class="lvl4"><a href="#10-1-visning-fr-flytting">§ 10-1. Visning før flytting</a></li>
+<li class="lvl4"><a href="#10-2-tilbakelevering">§ 10-2. Tilbakelevering</a></li>
+<li class="lvl4"><a href="#10-3-erstatning-for-forsinkelse-og-mangel">§ 10-3. Erstatning for forsinkelse og mangel</a></li>
+<li class="lvl4"><a href="#10-4-etterlatt-lsre">§ 10-4. Etterlatt løsøre</a></li>
+<li class="lvl4"><a href="#10-5-vederlag-for-forbedringer">§ 10-5. Vederlag for forbedringer</a></li>
+<li class="lvl4"><a href="#10-6-vederlag-for-kundekrets">§ 10-6. Vederlag for kundekrets</a></li>
+<li class="lvl2"><a href="#kapittel-11-srregler-for-visse-boligleieforhold">Kapittel 11. Særregler for visse boligleieforhold</a></li>
+<li class="lvl4"><a href="#11-1-boliger-til-vanskeligstilte-pa-boligmarkedet">§ 11-1. Boliger til vanskeligstilte på boligmarkedet</a></li>
+<li class="lvl4"><a href="#11-2-elev-og-studentboliger">§ 11-2. Elev- og studentboliger</a></li>
+<li class="lvl4"><a href="#11-3-tjenestebolig">§ 11-3. Tjenestebolig</a></li>
+<li class="lvl4"><a href="#11-4-utleie-av-egen-bolig">§ 11-4. Utleie av egen bolig</a></li>
+<li class="lvl2"><a href="#kapittel-12-prosessuelle-bestemmelser">Kapittel 12. Prosessuelle bestemmelser</a></li>
+<li class="lvl4"><a href="#12-1-voldgift">§ 12-1. Voldgift</a></li>
+<li class="lvl4"><a href="#12-2-takstnemnd">§ 12-2. Takstnemnd</a></li>
+<li class="lvl4"><a href="#12-3-midlertidig-bruksrett">§ 12-3. Midlertidig bruksrett</a></li>
+<li class="lvl4"><a href="#12-4-foregrepet-tvangskraft">§ 12-4. Foregrepet tvangskraft</a></li>
+<li class="lvl4"><a href="#12-5-husleietvistutvalget">§ 12-5. Husleietvistutvalget</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelses-og-overgangsbestemmelser-endringer-i-andre-lover">Kapittel 13. Ikrafttredelses- og overgangsbestemmelser. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsbestemmelser">§ 13-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-3-opphevelse-og-endringer-av-andre-lover">§ 13-3. Opphevelse og endringer av andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-12-22.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-03-26-17.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om husleieavtaler (husleieloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1999-03-26-17.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1999-03-26-17 <code>lov/1999-03-26-17</code></td></tr>
+<tr><th>Korttittel</th><td>Husleieloven – husll</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Fast eiendoms rettsforhold &raquo; Husleie</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2000</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-12-22 <code>lov/2026-06-12-22</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1999-03-26-17" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade-mv">§ 1-1. Lovens virkeområde m.v.</a></li>
+<li class="lvl4"><a href="#1-2-ufravikelighet">§ 1-2. Ufravikelighet</a></li>
+<li class="lvl4"><a href="#1-3-standardvilkar">§ 1-3. Standardvilkår</a></li>
+<li class="lvl4"><a href="#1-4-avtaleform">§ 1-4. Avtaleform</a></li>
+<li class="lvl4"><a href="#1-5-risikoen-for-sending-av-meldinger">§ 1-5. Risikoen for sending av meldinger</a></li>
+<li class="lvl4"><a href="#1-6-beregning-av-frister">§ 1-6. Beregning av frister</a></li>
+<li class="lvl4"><a href="#1-7-erstatningsansvar-for-skade-pa-person-mv">§ 1-7. Erstatningsansvar for skade på person m.v.</a></li>
+<li class="lvl4"><a href="#1-8-forbud-mot-diskriminering">§ 1-8. Forbud mot diskriminering</a></li>
+<li class="lvl2"><a href="#kapittel-2-overlevering-og-krav-til-husrommet">Kapittel 2. Overlevering og krav til husrommet</a></li>
+<li class="lvl4"><a href="#2-1-tidspunkt-for-overlevering">§ 2-1. Tidspunkt for overlevering</a></li>
+<li class="lvl4"><a href="#2-2-generelle-krav-til-tilstand">§ 2-2. Generelle krav til tilstand</a></li>
+<li class="lvl4"><a href="#2-3-uriktige-opplysninger-om-husrommet">§ 2-3. Uriktige opplysninger om husrommet</a></li>
+<li class="lvl4"><a href="#2-4-manglende-opplysninger-om-husrommet">§ 2-4. Manglende opplysninger om husrommet</a></li>
+<li class="lvl4"><a href="#2-5-husrom-leid-som-det-er-el">§ 2-5. Husrom leid «som det er» e.l.</a></li>
+<li class="lvl4"><a href="#2-6-forunderskelse-mv">§ 2-6. Forundersøkelse m.v.</a></li>
+<li class="lvl4"><a href="#2-7-tiden-for-mangelsbedmmelsen">§ 2-7. Tiden for mangelsbedømmelsen</a></li>
+<li class="lvl4"><a href="#2-8-reklamasjon">§ 2-8. Reklamasjon</a></li>
+<li class="lvl4"><a href="#2-9-leierens-rett-til-a-fastholde-avtalen-ved-forsinkelse">§ 2-9. Leierens rett til å fastholde avtalen ved forsinkelse</a></li>
+<li class="lvl4"><a href="#2-10-krav-pa-retting-av-mangel">§ 2-10. Krav på retting av mangel</a></li>
+<li class="lvl4"><a href="#2-11-avslag-i-leie">§ 2-11. Avslag i leie</a></li>
+<li class="lvl4"><a href="#2-12-heving-av-leieavtalen">§ 2-12. Heving av leieavtalen</a></li>
+<li class="lvl4"><a href="#2-13-erstatning">§ 2-13. Erstatning</a></li>
+<li class="lvl4"><a href="#2-14-erstatningsansvarets-omfang">§ 2-14. Erstatningsansvarets omfang</a></li>
+<li class="lvl4"><a href="#2-15-rett-til-a-holde-leie-tilbake">§ 2-15. Rett til å holde leie tilbake</a></li>
+<li class="lvl4"><a href="#2-16-rettsmangler">§ 2-16. Rettsmangler</a></li>
+<li class="lvl4"><a href="#2-17-offentligrettslige-radighetsinnskrenkinger">§ 2-17. Offentligrettslige rådighetsinnskrenkinger</a></li>
+<li class="lvl2"><a href="#kapittel-3-leie-og-andre-ytelser">Kapittel 3. Leie og andre ytelser</a></li>
+<li class="lvl4"><a href="#3-1-leien">§ 3-1. Leien</a></li>
+<li class="lvl4"><a href="#3-2-forfallstid">§ 3-2. Forfallstid</a></li>
+<li class="lvl4"><a href="#3-3-oppgjrsmate">§ 3-3. Oppgjørsmåte</a></li>
+<li class="lvl4"><a href="#3-4-betaling-for-elektrisitet-og-brensel-mv">§ 3-4. Betaling for elektrisitet og brensel mv.</a></li>
+<li class="lvl4"><a href="#3-5-depositum">§ 3-5. Depositum</a></li>
+<li class="lvl4"><a href="#3-6-garanti">§ 3-6. Garanti</a></li>
+<li class="lvl4"><a href="#3-7-forbud-mot-andre-ytelser-ved-leie-av-bolig">§ 3-7. Forbud mot andre ytelser ved leie av bolig</a></li>
+<li class="lvl4"><a href="#3-8-deponering-av-omtvistet-leie">§ 3-8. Deponering av omtvistet leie</a></li>
+<li class="lvl2"><a href="#kapittel-4-leieprisvern">Kapittel 4. Leieprisvern</a></li>
+<li class="lvl4"><a href="#4-1-det-alminnelige-leieprisvern">§ 4-1. Det alminnelige leieprisvern</a></li>
+<li class="lvl4"><a href="#4-2-indeksregulering">§ 4-2. Indeksregulering</a></li>
+<li class="lvl4"><a href="#4-3-tilpassing-til-gjengs-leie">§ 4-3. Tilpassing til gjengs leie</a></li>
+<li class="lvl4"><a href="#4-4-tilbakebetaling-av-ulovlig-leie">§ 4-4. Tilbakebetaling av ulovlig leie</a></li>
+<li class="lvl4"><a href="#4-5-unntak-fra-leieprisvernet">§ 4-5. Unntak fra leieprisvernet</a></li>
+<li class="lvl4"><a href="#4-6-forskrifter">§ 4-6. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-5-partenes-plikter-i-leietiden">Kapittel 5. Partenes plikter i leietiden</a></li>
+<li class="lvl4"><a href="#5-1-leierens-bruk-mv">§ 5-1. Leierens bruk m.v.</a></li>
+<li class="lvl4"><a href="#5-2-ro-og-orden">§ 5-2. Ro og orden</a></li>
+<li class="lvl4"><a href="#5-3-vedlikehold">§ 5-3. Vedlikehold</a></li>
+<li class="lvl4"><a href="#5-4-forandringer-i-husrommet-og-pa-eiendommen-for-vrig">§ 5-4. Forandringer i husrommet og på eiendommen for øvrig</a></li>
+<li class="lvl4"><a href="#5-5-skade-pa-husrommet">§ 5-5. Skade på husrommet</a></li>
+<li class="lvl4"><a href="#5-6-utleierens-adgang-til-husrommet">§ 5-6. Utleierens adgang til husrommet</a></li>
+<li class="lvl4"><a href="#5-7-leierens-krav-pa-grunn-av-mangler-som-oppstar-i-leietiden">§ 5-7. Leierens krav på grunn av mangler som oppstår i leietiden</a></li>
+<li class="lvl4"><a href="#5-8-leierens-erstatningsansvar">§ 5-8. Leierens erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-6-beboerrepresentasjon-i-visse-boligleieforhold">Kapittel 6. Beboerrepresentasjon i visse boligleieforhold</a></li>
+<li class="lvl4"><a href="#6-1-felles-representasjon">§ 6-1. Felles representasjon</a></li>
+<li class="lvl4"><a href="#6-2-den-tillitsvalgtes-plikter">§ 6-2. Den tillitsvalgtes plikter</a></li>
+<li class="lvl4"><a href="#6-3-informasjon-til-tillitsvalgt-mv">§ 6-3. Informasjon til tillitsvalgt m.v.</a></li>
+<li class="lvl2"><a href="#kapittel-7-opptak-i-husstand-og-framleie">Kapittel 7. Opptak i husstand og framleie</a></li>
+<li class="lvl4"><a href="#7-1-opptak-i-husstand">§ 7-1. Opptak i husstand</a></li>
+<li class="lvl4"><a href="#7-2-den-alminnelige-regelen-om-framleie">§ 7-2. Den alminnelige regelen om framleie</a></li>
+<li class="lvl4"><a href="#7-3-framleie-av-del-av-bolig">§ 7-3. Framleie av del av bolig</a></li>
+<li class="lvl4"><a href="#7-4-framleie-av-bolig-ved-midlertidig-fravr">§ 7-4. Framleie av bolig ved midlertidig fravær</a></li>
+<li class="lvl4"><a href="#7-5-framleie-ved-tidsbestemte-leieavtaler">§ 7-5. Framleie ved tidsbestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#7-6-godkjenning-ved-passivitet">§ 7-6. Godkjenning ved passivitet</a></li>
+<li class="lvl4"><a href="#7-7-framleierens-stilling-ved-opphr-av-hovedleieavtalen">§ 7-7. Framleierens stilling ved opphør av hovedleieavtalen</a></li>
+<li class="lvl2"><a href="#kapittel-8-personskifte">Kapittel 8. Personskifte</a></li>
+<li class="lvl4"><a href="#8-1-den-alminnelige-regelen-om-overfring">§ 8-1. Den alminnelige regelen om overføring</a></li>
+<li class="lvl4"><a href="#8-2-leierens-dd">§ 8-2. Leierens død</a></li>
+<li class="lvl4"><a href="#8-3-samlivsbrudd-separasjon-skilsmisse-og-opphr-av-husstandsfellesskap">§ 8-3. Samlivsbrudd, separasjon, skilsmisse og opphør av husstandsfellesskap</a></li>
+<li class="lvl4"><a href="#8-4-overfring-av-leierett-til-lokale">§ 8-4. Overføring av leierett til lokale</a></li>
+<li class="lvl4"><a href="#8-5-gjennomfring-av-leierskifte">§ 8-5. Gjennomføring av leierskifte</a></li>
+<li class="lvl4"><a href="#8-6-eierskifte">§ 8-6. Eierskifte</a></li>
+<li class="lvl2"><a href="#kapittel-9-leieforholdets-varighet-opphr">Kapittel 9. Leieforholdets varighet – opphør</a></li>
+<li class="lvl4"><a href="#9-1-tidsbestemte-og-tidsubestemte-leieavtaler">§ 9-1. Tidsbestemte og tidsubestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#9-2-tidsbestemte-leieavtaler">§ 9-2. Tidsbestemte leieavtaler</a></li>
+<li class="lvl4"><a href="#9-3-adgangen-til-a-innga-tidsbestemt-leieavtale-for-bolig">§ 9-3. Adgangen til å inngå tidsbestemt leieavtale for bolig</a></li>
+<li class="lvl4"><a href="#9-3-a-midlertidig-unntak-ved-utleie-av-fritidsbolig-som-bolig">§ 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig</a></li>
+<li class="lvl4"><a href="#9-4-leierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-4. Leierens oppsigelse av tidsubestemt leieavtale</a></li>
+<li class="lvl4"><a href="#9-5-utleierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-5. Utleierens oppsigelse av tidsubestemt leieavtale</a></li>
+<li class="lvl4"><a href="#9-6-oppsigelsesfrist">§ 9-6. Oppsigelsesfrist</a></li>
+<li class="lvl4"><a href="#9-7-formkrav-til-utleierens-oppsigelse">§ 9-7. Formkrav til utleierens oppsigelse</a></li>
+<li class="lvl4"><a href="#9-8-tilsidesettelse-av-oppsigelse">§ 9-8. Tilsidesettelse av oppsigelse</a></li>
+<li class="lvl4"><a href="#9-9-utleierens-hevingsrett">§ 9-9. Utleierens hevingsrett</a></li>
+<li class="lvl4"><a href="#9-10-leierens-dd">§ 9-10. Leierens død</a></li>
+<li class="lvl4"><a href="#9-11-varsel-om-fravikelse">§ 9-11. Varsel om fravikelse</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilbakelevering-av-husrommet-ved-leieforholdets-opphr">Kapittel 10. Tilbakelevering av husrommet ved leieforholdets opphør</a></li>
+<li class="lvl4"><a href="#10-1-visning-fr-flytting">§ 10-1. Visning før flytting</a></li>
+<li class="lvl4"><a href="#10-2-tilbakelevering">§ 10-2. Tilbakelevering</a></li>
+<li class="lvl4"><a href="#10-3-erstatning-for-forsinkelse-og-mangel">§ 10-3. Erstatning for forsinkelse og mangel</a></li>
+<li class="lvl4"><a href="#10-4-etterlatt-lsre">§ 10-4. Etterlatt løsøre</a></li>
+<li class="lvl4"><a href="#10-5-vederlag-for-forbedringer">§ 10-5. Vederlag for forbedringer</a></li>
+<li class="lvl4"><a href="#10-6-vederlag-for-kundekrets">§ 10-6. Vederlag for kundekrets</a></li>
+<li class="lvl2"><a href="#kapittel-11-srregler-for-visse-boligleieforhold">Kapittel 11. Særregler for visse boligleieforhold</a></li>
+<li class="lvl4"><a href="#11-1-boliger-til-vanskeligstilte-pa-boligmarkedet">§ 11-1. Boliger til vanskeligstilte på boligmarkedet</a></li>
+<li class="lvl4"><a href="#11-2-elev-og-studentboliger">§ 11-2. Elev- og studentboliger</a></li>
+<li class="lvl4"><a href="#11-3-tjenestebolig">§ 11-3. Tjenestebolig</a></li>
+<li class="lvl4"><a href="#11-4-utleie-av-egen-bolig">§ 11-4. Utleie av egen bolig</a></li>
+<li class="lvl2"><a href="#kapittel-12-prosessuelle-bestemmelser">Kapittel 12. Prosessuelle bestemmelser</a></li>
+<li class="lvl4"><a href="#12-1-voldgift">§ 12-1. Voldgift</a></li>
+<li class="lvl4"><a href="#12-2-takstnemnd">§ 12-2. Takstnemnd</a></li>
+<li class="lvl4"><a href="#12-3-midlertidig-bruksrett">§ 12-3. Midlertidig bruksrett</a></li>
+<li class="lvl4"><a href="#12-4-foregrepet-tvangskraft">§ 12-4. Foregrepet tvangskraft</a></li>
+<li class="lvl4"><a href="#12-5-husleietvistutvalget">§ 12-5. Husleietvistutvalget</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelses-og-overgangsbestemmelser-endringer-i-andre-lover">Kapittel 13. Ikrafttredelses- og overgangsbestemmelser. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsbestemmelser">§ 13-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-3-opphevelse-og-endringer-av-andre-lover">§ 13-3. Opphevelse og endringer av andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-03-26-17.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1999-03-26-17.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1999-03-26-17.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1999-03-26-17.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1999-03-26-17.html">Observerte kildeutgaver</a> · <a href="../historie/husleieloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1999-03-26-17.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1999-03-26-17.html">Observerte kildeutgaver</a> · <a href="../historie/husleieloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1999-03-26-17.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-husleieavtaler-husleieloven">Lov om husleieavtaler (husleieloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-1-lovens-virkeomrade-mv">§ 1-1. Lovens virkeområde m.v.</h4>
 <p>Loven gjelder avtaler om bruksrett til husrom mot vederlag.</p>
@@ -100,7 +357,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Tap som følge av skade på person faller utenfor bestemmelsene om erstatningsansvar i loven her. For slikt tap og for tap som ikke er følge av mislighold, gjelder de alminnelige erstatningsregler.</p>
 <h4 id="1-8-forbud-mot-diskriminering">§ 1-8. Forbud mot diskriminering</h4>
 <p>Ved utleie av husrom kan det ikke tas hensyn til kjønn, graviditet, etnisitet, religion, livssyn, funksjonsnedsettelse, seksuell orientering, kjønnsidentitet, kjønnsuttrykk eller alder. Slike omstendigheter kan ikke regnes som saklig grunn til å nekte opptak i husstand, framleie, personskifte eller tillegges vekt ved opphør av leieforholdet. Ved diskriminering gjelder <a href="lov-2017-06-16-51.html">likestillings- og diskrimineringsloven</a>.</p>
-<p><em>Tilføyd ved lov 6 juni 2003 nr. 39 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1766 ), endret ved lover 3 juni 2005 nr. 33 (ikr. 1 jan 2006 iflg. res. 17 juni 2005 nr. 608 ), 10 juni 2005 nr. 40 (ikr. 1 jan 2006 iflg. res. 10 juni 2005 nr. 528 ), 20 juni 2008 nr. 42 (ikr. 1 jan 2009 iflg. res. 20 juni 2008 nr. 631 ), 21 juni 2013 nr. 61 (ikr. 1 jan 2014 iflg. res. 21 juni 2013 nr. 707 ), 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ).</em></p>
+<p class="note">Tilføyd ved lov 6 juni 2003 nr. 39 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1766 ), endret ved lover 3 juni 2005 nr. 33 (ikr. 1 jan 2006 iflg. res. 17 juni 2005 nr. 608 ), 10 juni 2005 nr. 40 (ikr. 1 jan 2006 iflg. res. 10 juni 2005 nr. 528 ), 20 juni 2008 nr. 42 (ikr. 1 jan 2009 iflg. res. 20 juni 2008 nr. 631 ), 21 juni 2013 nr. 61 (ikr. 1 jan 2014 iflg. res. 21 juni 2013 nr. 707 ), 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ).</p>
 <h2 id="kapittel-2-overlevering-og-krav-til-husrommet">Kapittel 2. Overlevering og krav til husrommet</h2>
 <h4 id="2-1-tidspunkt-for-overlevering">§ 2-1. Tidspunkt for overlevering</h4>
 <p>Utleieren skal stille husrommet med tilbehør til leierens disposisjon til avtalt tid.</p>
@@ -148,7 +405,7 @@ b. passer til de særlige formål som leieren etter avtalen skulle bruke husromm
 <p>Leieren kan i alle tilfeller kreve erstatning dersom</p>
 <p>a. forsinkelsen, mangelen eller tapet skyldes feil eller forsømmelse på utleierens side, eller
 b. husrommet alt på avtaletiden avvek fra det som er tilsikret fra utleieren.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="2-14-erstatningsansvarets-omfang">§ 2-14. Erstatningsansvarets omfang</h4>
 <p>Erstatningen skal svare til det økonomiske tap leieren har lidt som følge av forsinkelsen eller mangelen. Dette gjelder likevel bare tap som utleieren med rimelighet kunne ha forutsett som en mulig følge av misligholdet.</p>
 <p>Som indirekte tap regnes:</p>
@@ -171,7 +428,7 @@ c. tap som følge av tingskade.</p>
 <h4 id="3-1-leien">§ 3-1. Leien <a class="para-history" href="../historikk/lov-1999-03-26-17/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leien skal fastsettes til et bestemt beløp. Det kan likevel avtales at utleierens utgifter ved forbruk av elektrisitet og brensel skal fordeles forholdsmessig mellom brukerne av eiendommen, jf. § 3-4 . Det samme gjelder utleierens utgifter til vann og avløp når disse utgiftene skal betales etter målt forbruk.</p>
 <p>Er leiens størrelse ikke avtalt, kan utleieren kreve en leie som svarer til det som vanligvis oppnås på avtaletidspunktet ved ny utleie av liknende husrom på liknende avtalevilkår. Blir partene ikke enige om leiens størrelse, kan hver av dem kreve at den blir fastsatt etter bestemmelsene i § 12-2 .</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="3-2-forfallstid">§ 3-2. Forfallstid</h4>
 <p>Er ikke annet avtalt, kan utleieren kreve at leien betales forskuddsvis for hver måned eller annen avtalt betalingstermin. Det kan ikke avtales forskuddsbetaling for lengre tid enn én måned.</p>
 <p>Forfaller leien på en lørdag eller søndag, en helligdag, eller den 1. eller 17. mai, utskytes forfallsdagen til den nærmest påfølgende virkedag.</p>
@@ -181,12 +438,12 @@ c. tap som følge av tingskade.</p>
 <p>Betaler leieren gjennom finansinstitusjon, skal betaling i forhold til forfallsreglene anses for skjedd når</p>
 <p>a. beløpet er mottatt av finansinstitusjon i Norge, eller
 b. et betalingsoppdrag er mottatt av finansinstitusjon i Norge, forutsatt at det er dekning for oppdraget.</p>
-<p><em>Endret ved lover 25 juni 1999 nr. 46 (ikr. 25 juni 1999 iflg. res. 25 juni 1999 nr. 702 ), 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lover 25 juni 1999 nr. 46 (ikr. 25 juni 1999 iflg. res. 25 juni 1999 nr. 702 ), 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="3-4-betaling-for-elektrisitet-og-brensel-mv">§ 3-4. Betaling for elektrisitet og brensel mv. <a class="para-history" href="../historikk/lov-1999-03-26-17/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Er det avtalt at leieren skal bidra særskilt til utleierens utgifter ved forbruk av elektrisitet eller brensel i eiendommen, kan leieren kreve at utleieren hvert år legger fram regnskap som viser størrelsen på kostnadene og fordelingen av disse på eiendommens husrom. Det samme gjelder hvis leieren skal bidra særskilt til utleierens utgifter ved forbruk av vann og avløp i eiendommen.</p>
 <p>I eiendom med felles anlegg for levering av varme eller varmt vann kan et flertall på to tredjedeler av leierne kreve at det blir installert apparat for måling av den enkeltes forbruk. Det samme flertall av leierne kan kreve at det blir installert apparat for måling av den enkeltes forbruk av vann og avløp. Utleieren kan i så fall over et tidsrom på ett år utlikne omkostningene ved slike installasjoner på samtlige leiere i eiendommen.</p>
 <p>I forhold til reglene i <a href="lov-1992-06-26-86.html">tvangsfullbyrdelsesloven</a> kapittel 13 regnes krav som nevnt i første og annet ledd som leie.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="3-5-depositum">§ 3-5. Depositum <a class="para-history" href="../historikk/lov-1999-03-26-17/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan avtales at leieren til sikkerhet for skyldig leie, skader på husrommet, utgifter ved fraviking og for andre krav som reiser seg av leieavtalen, skal deponere et beløp oppad begrenset til summen av seks måneders leie. Det kan avtales at depositumet skal endres i takt med endringer i leien.</p>
 <p>Det deponerte beløp skal settes på særskilt konto i leierens navn med vanlige rentevilkår i finansinstitusjon som har rett til å tilby slik tjeneste i Norge.</p>
@@ -199,7 +456,7 @@ c. leieren ikke dokumenterer å ha reist søksmål innen fem uker etter at varse
 <p>Hver av partene kan kreve utbetaling av det deponerte beløpet i samsvar med den annen parts skriftlige samtykke, rettskraftig dom eller annen avgjørelse som har virkning som rettskraftig dom. Krever leieren utbetaling av depositum ut over opptjente renter, skal finansinstitusjonen varsle utleieren skriftlig om kravet og opplyse om at beløpet vil bli utbetalt til leieren hvis utleieren ikke innen fem uker etter at varselet ble sendt, fremmer krav etter bestemmelsene i fjerde ledd eller dokumenterer å ha reist søksmål. Mottar ikke finansinstitusjonen slikt krav eller dokumentasjon innen fristen, og leieren ikke har trukket kravet tilbake, skal finansinstitusjonen med frigjørende virkning utbetale beløpet til leieren.</p>
 <p>Utleieren dekker kostnadene med å opprette depositumskonto. Utleieren kan anvise i hvilken finansinstitusjon depositumskontoen skal opprettes så sant dette ikke er til vesentlig ulempe for leieren. Leieren plikter ikke å opprette depositumskonto i utlandet.</p>
 <p>Departementet kan i forskrift gjøre unntak fra bestemmelsene i paragrafen her.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for depositumskontoer opprettet etter 1 sep 2009).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for depositumskontoer opprettet etter 1 sep 2009).</p>
 <h4 id="3-6-garanti">§ 3-6. Garanti</h4>
 <p>Det kan avtales at leieren til sikkerhet for krav på skyldig leie, skader på husrommet, utgifter ved fraviking og for andre krav som reiser seg av leieavtalen, skal stille garanti. Garantibeløpet kan sammen med depositum etter § 3-5 ikke overstige summen av seks måneders leie. Det kan ikke avtales med virkning for leierens regressansvar at garantisten skal ha rett til å utbetale garantien uten hensyn til leierens innsigelser mot utleierens krav.</p>
 <h4 id="3-7-forbud-mot-andre-ytelser-ved-leie-av-bolig">§ 3-7. Forbud mot andre ytelser ved leie av bolig</h4>
@@ -210,7 +467,7 @@ c. leieren ikke dokumenterer å ha reist søksmål innen fem uker etter at varse
 <p>Er partene uenige om hvilken leie som skal betales, kan avtalen ikke sies opp eller heves på grunn av manglende leiebetaling hvis leieren deponerer den omtvistede delen av leien i samsvar med annet ledd. Det samme gjelder hvis leieren vil motregne med krav som reiser seg av leieavtalen, og utleieren ikke godtar motregningen. Leieren skal gi utleieren melding om begrunnelsen for deponeringen og gi utleieren fjorten dagers frist til å medvirke til deponeringen. Fristen regnes fra meldingen er sendt.</p>
 <p>Deponering etter første ledd skjer ved at beløpet settes inn på konto i finansinstitusjon som har rett til å tilby slik tjeneste i Norge. Beløpet, herunder renter, skal bare kunne disponeres av leieren og utleieren i fellesskap. Finansinstitusjonen skal likevel kunne utbetale beløpet i samsvar med rettskraftig dom eller annen avgjørelse som har virkning som rettskraftig dom.</p>
 <p>Er utleierens manglende medvirkning eneste grunn til at deponering etter annet ledd ikke kan skje, kan avtalen ikke sies opp eller heves på grunn av manglende leiebetaling hvis leieren setter beløpet inn på egen konto atskilt fra leierens øvrige midler. Hvis utleieren på et senere tidspunkt vil medvirke til deponering etter annet ledd, plikter leieren innen rimelig tid å overføre beløpet til konto som nevnt i annet ledd.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h2 id="kapittel-4-leieprisvern">Kapittel 4. Leieprisvern</h2>
 <h4 id="4-1-det-alminnelige-leieprisvern">§ 4-1. Det alminnelige leieprisvern</h4>
 <p>Det kan ikke avtales en leie som er urimelig i forhold til det som vanligvis oppnås på avtaletidspunktet ved ny utleie av liknende husrom på liknende avtalevilkår.</p>
@@ -229,7 +486,7 @@ c. den annen part må gis skriftlig varsel med minst én måneds frist før endr
 <h4 id="4-5-unntak-fra-leieprisvernet">§ 4-5. Unntak fra leieprisvernet <a class="para-history" href="../historikk/lov-1999-03-26-17/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Bestemmelsen i § 4-2 gjelder ikke for særskilt betaling av en forholdsmessig andel av utgiftene ved forbruk av elektrisitet, brensel, vann eller avløp i eiendommen, jf. § 3-4 . Dette vederlaget kan reguleres slik at utleieren får dekket de nødvendige omkostningene med ytelsene.</p>
 <p>Bestemmelsene i §§ 4-2 og 4-3 gjelder ikke for den del av leien som er avtalt i et bestemt forhold til omsetningen i eller resultatet av leierens virksomhet.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="4-6-forskrifter">§ 4-6. Forskrifter</h4>
 <p>Dersom forholdene gjør det nødvendig, kan Kongen for bestemte perioder, bestemte områder eller bestemte leieforhold fastsette leiestopp og maksimalsatser for leie. Kongen kan også gi forskrifter om hva som skal regnes som gjengs leie.</p>
 <h2 id="kapittel-5-partenes-plikter-i-leietiden">Kapittel 5. Partenes plikter i leietiden</h2>
@@ -245,13 +502,13 @@ c. den annen part må gis skriftlig varsel med minst én måneds frist før endr
 <p>Er ikke annet avtalt, plikter utleieren i leietiden å holde utleid husrom og eiendommen for øvrig i den stand som leieren har krav på etter reglene i lovens kapittel 2 .</p>
 <p>Er ikke annet avtalt, plikter leieren å vedlikeholde dørlåser, kraner, vannklosetter, elektriske kontakter og brytere, varmtvannsbeholdere og inventar og utstyr i husrommet som ikke er en del av den faste eiendommen. Leieren plikter også å foreta nødvendig funksjonskontroll, rengjøring, batteriskift, testing og lignende av røykvarsler og brannslukkingsutstyr. Må gjenstander som tilhører utleieren skiftes ut, påhviler dette utleieren hvis annet ikke er avtalt.</p>
 <p>Utbedring av tilfeldig skade regnes ikke som vedlikehold etter annet ledd.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="5-4-forandringer-i-husrommet-og-pa-eiendommen-for-vrig">§ 5-4. Forandringer i husrommet og på eiendommen for øvrig</h4>
 <p>Leieren må finne seg i forandringer av husrommet dersom arbeidet kan utføres uten nevneverdig ulempe for leieren, og forandringen ikke reduserer husrommets verdi for leieren. Andre forandringer kan bare utføres med leierens samtykke.</p>
 <p>Leieren kan ikke uten utleierens samtykke foreta forandringer i husrommet eller på eiendommen for øvrig.</p>
 <p>Leier av bolig kan med utleierens godkjenning gjennomføre tiltak på eiendommen som er nødvendige på grunn av leierens eller husstandsmedlemmers nedsatte funksjonsevne. Leier av lokale kan med utleierens godkjenning sette opp vanlige skilter, markiser o.l. Godkjenning etter første og annet punktum kan ikke nektes uten saklig grunn.</p>
 <p>Om leierens plikt til å sette husrommet tilbake i opprinnelig stand gjelder § 10-2 .</p>
-<p><em>Endret ved lov 20 juni 2008 nr. 42 (ikr. 1 jan 2009 iflg. res. 20 juni 2008 nr. 631 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2008 nr. 42 (ikr. 1 jan 2009 iflg. res. 20 juni 2008 nr. 631 ).</p>
 <h4 id="5-5-skade-pa-husrommet">§ 5-5. Skade på husrommet</h4>
 <p>Oppdager leieren skade på husrommet som må utbedres uten opphold, plikter leieren straks å sende melding om det til utleieren. Andre skader på husrommet som oppdages, plikter leieren å sende melding om innen rimelig tid.</p>
 <p>Leieren plikter å gjøre det som med rimelighet kan kreves for å avverge økonomisk tap for utleieren som følge av skade som nevnt i første ledd første punktum. Er leieren ikke ansvarlig for skaden, kan leieren kreve erstattet sine forsvarlige utgifter ved tiltaket og en rimelig godtgjørelse for utført arbeid.</p>
@@ -286,25 +543,25 @@ c. den annen part må gis skriftlig varsel med minst én måneds frist før endr
 <h2 id="kapittel-7-opptak-i-husstand-og-framleie">Kapittel 7. Opptak i husstand og framleie</h2>
 <h4 id="7-1-opptak-i-husstand">§ 7-1. Opptak i husstand <a class="para-history" href="../historikk/lov-1999-03-26-17/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leieren har rett til å ta opp i sin husstand sin ektefelle eller samboer, sine egne eller ektefellens eller samboerens slektninger i rett opp- eller nedstigende linje og fosterbarn. Opptak av andre personer i husstanden krever godkjenning fra utleieren. Godkjenning kan bare nektes dersom vedkommende persons forhold gir saklig grunn til det eller husrommet klart blir overbefolket.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="7-2-den-alminnelige-regelen-om-framleie">§ 7-2. Den alminnelige regelen om framleie</h4>
 <p>Leieren har ikke adgang til å framleie eller på annen måte overlate sin bruksrett til andre uten samtykke fra utleieren, med mindre annet følger av avtale eller lovbestemmelse.</p>
 <h4 id="7-3-framleie-av-del-av-bolig">§ 7-3. Framleie av del av bolig <a class="para-history" href="../historikk/lov-1999-03-26-17/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leier av bolig som selv skal bo i boligen, kan framleie en del av boligen med godkjenning fra utleieren. Godkjenning kan bare nektes dersom framleierens forhold gir saklig grunn til det eller husrommet klart blir overbefolket.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="7-4-framleie-av-bolig-ved-midlertidig-fravr">§ 7-4. Framleie av bolig ved midlertidig fravær <a class="para-history" href="../historikk/lov-1999-03-26-17/para-7-4.html" title="Endringshistorikk for § 7-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leier av bolig kan framleie med godkjenning fra utleieren i inntil to år ved midlertidig fravær på grunn av arbeid, utdanning, militærtjeneste, sykdom eller andre tungtveiende grunner. Godkjenning kan bare nektes dersom framleierens forhold gir saklig grunn til det eller husrommet klart blir overbefolket.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="7-5-framleie-ved-tidsbestemte-leieavtaler">§ 7-5. Framleie ved tidsbestemte leieavtaler <a class="para-history" href="../historikk/lov-1999-03-26-17/para-7-5.html" title="Endringshistorikk for § 7-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Er leieavtalen inngått for en bestemt tid, kan leieren framleie for resten av leietiden med godkjenning fra utleieren. Blir godkjenning nektet uten at framleierens forhold gir saklig grunn til det eller husrommet klart blir overbefolket, kan leieren si opp med varsel som nevnt i § 9-6 .</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="7-6-godkjenning-ved-passivitet">§ 7-6. Godkjenning ved passivitet</h4>
 <p>Svarer ikke utleieren på en skriftlig søknad om godkjenning etter bestemmelsene i §§ 7-1 til 7-5 innen én måned etter at søknaden er mottatt, skal dette regnes som godkjenning.</p>
 <h4 id="7-7-framleierens-stilling-ved-opphr-av-hovedleieavtalen">§ 7-7. Framleierens stilling ved opphør av hovedleieavtalen <a class="para-history" href="../historikk/lov-1999-03-26-17/para-7-7.html" title="Endringshistorikk for § 7-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Sier utleieren opp hovedleieavtalen, har hovedleieren overfor framleieren plikt til å protestere etter § 9-8 . Hovedleieren har likevel ikke plikt til å protestere dersom hovedleieren underretter framleieren om oppsigelsen senest 15 dager før fristen for å protestere etter reglene i § 9-8 løper ut.</p>
 <p>Framleieren har en selvstendig rett til å protestere mot oppsigelsen etter § 9-8 , innen den fristen som gjelder for hovedleieren. Har utleieren godkjent framleieren, skal utleieren samtidig sende gjenpart av oppsigelsen til framleieren. Oppsigelsen skal opplyse om at framleieren kan protestere mot oppsigelsen innen én måned etter at hovedleieren har mottatt den. Har framleieren protestert innen fristen, skal eventuelt søksmål rettes også mot hovedleieren. Er reglene i annet og tredje punktum ikke fulgt, er oppsigelsen ugyldig.</p>
 <p>Framleieren kan kreve erstatning av hovedleieren for det økonomiske tapet som er en følge av bortfallet av hovedleieavtalen. Dette gjelder likevel ikke så langt hovedleieren godtgjør at bortfallet eller tapet skyldes forhold utenfor hovedleierens kontroll, som hovedleieren ikke med rimelighet kunne ventes å ha tatt i betraktning da framleieavtalen ble inngått, eller unngå eller overvinne følgene av. Bestemmelsene i §§ 2-13 annet til femte ledd og 2-14 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h2 id="kapittel-8-personskifte">Kapittel 8. Personskifte</h2>
 <h4 id="8-1-den-alminnelige-regelen-om-overfring">§ 8-1. Den alminnelige regelen om overføring</h4>
 <p>Leieren har ikke adgang til å overføre sine rettigheter eller plikter etter leieavtalen til andre uten samtykke fra utleieren, med mindre annet følger av avtale eller lovbestemmelse.</p>
@@ -338,7 +595,7 @@ c. andre som ved dødsfallet hadde felles husstand med leieren, forutsatt at de 
 <p>En leieavtale som er inngått for bestemt tid, opphører uten oppsigelse ved utløpet av den avtalte leietid. Ved utleie av bolig må utleieren skriftlig opplyse at leieavtalen ikke kan sies opp i den avtalte leietid.</p>
 <p>En tidsbestemt leieavtale kan sies opp i leietiden i samsvar med bestemmelsene i §§ 9-4 til 9-8 , dersom det er avtalt, eller dersom utleieren har forsømt sin opplysningsplikt etter første ledd annet punktum.</p>
 <p>Fortsetter leieforholdet i mer enn tre måneder etter utløpet av den avtalte leietid uten at utleieren skriftlig har oppfordret leieren til å flytte, er leieavtalen gått over til å være tidsubestemt.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for tidsbestemt avtale inngått etter 1 sep 2009, se lovens II).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for tidsbestemt avtale inngått etter 1 sep 2009, se lovens II).</p>
 <h4 id="9-3-adgangen-til-a-innga-tidsbestemt-leieavtale-for-bolig">§ 9-3. Adgangen til å inngå tidsbestemt leieavtale for bolig</h4>
 <p>Det er ikke adgang til å inngå tidsbestemt leieavtale for bolig for kortere tid enn tre år. Minstetiden kan likevel settes til ett år hvis avtalen gjelder lofts- eller sokkelbolig i enebolig eller bolig i tomannsbolig, og utleieren bor i samme hus. Bestemmelsene i første og annet punktum gjelder ikke dersom:</p>
 <p>a. husrommet skal brukes som bolig av utleieren selv eller noen som hører til husstanden, eller
@@ -347,7 +604,7 @@ b. utleieren har en annen saklig grunn for tidsavgrensningen.</p>
 <p>Er tidsbestemt leieavtale for bolig inngått i strid med bestemmelsene i denne paragrafen, skal avtalen anses som tidsubestemt.</p>
 <h4 id="9-3-a-midlertidig-unntak-ved-utleie-av-fritidsbolig-som-bolig">§ 9-3 a. Midlertidig unntak ved utleie av fritidsbolig som bolig</h4>
 <p>For bygning hvor det er gitt unntak for tidsbestemt bruksendring fra fritidsbolig til bolig etter <a href="lov-2008-06-27-71.html">plan- og bygningsloven</a> §§ 20-9 og 20-10 , kan det inngås tidsbestemt leieavtale med minstetid på ned til ett år.</p>
-<p><em>Tilføyd ved lov 2 juni 2023 nr. 17 (endringslov til lov 10 juni 2022 nr. 35 ), opphevet ved lov 10 juni 2022 nr. 35 (i kraft 1 juli 2024, midlertidig lov endret ved 2 juni 2023 nr. 17 ), tilføyd ved lov 25 juni 2024 nr. 53 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1212 ), opphevet ved lov 25 juni 2024 nr. 53 (i kraft 1 juli 2026), tilføyd ved lov 12 juni 2026 nr. 22 (i kraft 1 juli 2026 iflg. res. 12 juni 2026 nr. 1076 ). Oppheves ved lov 12 juni 2026 nr. 22 (i kraft 1 juli 2028).</em></p>
+<p class="note">Tilføyd ved lov 2 juni 2023 nr. 17 (endringslov til lov 10 juni 2022 nr. 35 ), opphevet ved lov 10 juni 2022 nr. 35 (i kraft 1 juli 2024, midlertidig lov endret ved 2 juni 2023 nr. 17 ), tilføyd ved lov 25 juni 2024 nr. 53 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1212 ), opphevet ved lov 25 juni 2024 nr. 53 (i kraft 1 juli 2026), tilføyd ved lov 12 juni 2026 nr. 22 (i kraft 1 juli 2026 iflg. res. 12 juni 2026 nr. 1076 ). Oppheves ved lov 12 juni 2026 nr. 22 (i kraft 1 juli 2028).</p>
 <h4 id="9-4-leierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-4. Leierens oppsigelse av tidsubestemt leieavtale</h4>
 <p>Er ikke annet avtalt, kan tidsubestemt leieavtale sies opp av leieren.</p>
 <h4 id="9-5-utleierens-oppsigelse-av-tidsubestemt-leieavtale">§ 9-5. Utleierens oppsigelse av tidsubestemt leieavtale</h4>
@@ -385,10 +642,10 @@ e. leieren for øvrig misligholder sine plikter på en måte som gjør det nødv
 <p>Dør leieren før leieforholdet er slutt, har både utleieren og dødsboet rett til å si opp leieavtalen med varsel som nevnt i § 9-6 , selv om avtalen er inngått for lengre tid eller med lengre oppsigelsesfrist.</p>
 <p>Har leieren rett til å overføre bruksretten, har utleieren ikke rett til å si opp leieavtalen etter første ledd. Vil dødsboet i dette tilfelle si opp etter første ledd, må oppsigelse gis innen tre måneder regnet fra dødsfallet.</p>
 <p>Oppsigelse etter første ledd skal være skriftlig. For øvrig gjelder ikke bestemmelsene i §§ 9-5 til 9-9 for oppsigelsen.</p>
-<h4 id="9-11-varsel-om-fravikelse">§ 9-11. Varsel om fravikelse</h4>
+<h4 id="9-11-varsel-om-fravikelse">§ 9-11. Varsel om fravikelse <a class="para-history" href="../historikk/lov-1999-03-26-17/para-9-11.html" title="Endringshistorikk for § 9-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når det er grunnlag for å begjære fravikelse av husrommet kan utleier, dersom det er grunn til det, sende skriftlig varsel til sosialtjenesten i kommunen om misligholdet. En eventuell begjæring om tvangsfravikelse bør tidligst fremsettes for namsmyndigheten to uker etter at skriftlig varsel er sendt til sosialtjenesten. Utleier kan gi andre fullmakt til å sende slikt varsel. Leier kan i skriftlig melding til utleier reservere seg mot at slikt varsel blir sendt til sosialtjenesten.</p>
 <p>Utleier skal senest samtidig med oversendelse av varsel til sosialtjenesten i kommunen etter første ledd, sende kopi av varselet eller annen melding om innholdet til leier.</p>
-<p><em>Tilføyd ved lov 15 juni 2007 nr. 39 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 648 ).</em></p>
+<p class="note">Tilføyd ved lov 15 juni 2007 nr. 39 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 648 ).</p>
 <h2 id="kapittel-10-tilbakelevering-av-husrommet-ved-leieforholdets-opphr">Kapittel 10. Tilbakelevering av husrommet ved leieforholdets opphør</h2>
 <h4 id="10-1-visning-fr-flytting">§ 10-1. Visning før flytting</h4>
 <p>I tiden før fraflytting plikter leieren i rimelig utstrekning å gi leiesøkende adgang for å se på husrommet.</p>
@@ -426,7 +683,7 @@ e. leieren for øvrig misligholder sine plikter på en måte som gjør det nødv
 <p>Det kan avtales at framleie ved midlertidig fravær som nevnt i § 7-4 kan nektes dersom utleieren tilbyr seg å disponere boligen under leierens fravær, og leieren gis rett til å ta boligen i bruk igjen etter fraværet.</p>
 <p>Dersom det foreligger særlige grunner, kan det inngås tidsbestemt leieavtale for kortere tid enn tre år uten hinder av § 9-3 . Det er ikke adgang til å inngå mer enn én tidsbestemt avtale for samme bolig mellom de samme partene av kortere varighet enn det som følger av § 9-3 . Dersom det foreligger tungtveiende grunner, kan det likevel inngås flere tidsbestemte leieavtaler av kortere varighet enn det som følger av § 9-3 . En tidsbestemt leieavtale inngått i strid med bestemmelsene her, skal anses som tidsubestemt.</p>
 <p>Uten hinder av bestemmelsene i § 3-7 kan det avtales at leier av bolig som nevnt i første ledd skal yte et lån til utleieren, dersom stat, fylkeskommune eller kommune er utleier.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for avtaler som er inngått etter 1 sep 2009).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for avtaler som er inngått etter 1 sep 2009).</p>
 <h4 id="11-2-elev-og-studentboliger">§ 11-2. Elev- og studentboliger <a class="para-history" href="../historikk/lov-1999-03-26-17/para-11-2.html" title="Endringshistorikk for § 11-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Bestemmelsene i paragrafen her gjelder utleie av bolig som etter vedtak av organ for stat, fylkeskommune eller kommune skal brukes av elever og studenter. Bestemmelsene gjelder bare dersom leieren har fått opplyst skriftlig at avtalen gjelder slik bolig, og at dette gir leieren færre rettigheter enn ved leie av annen bolig.</p>
 <p>Det kan avtales at opptak av husstandsmedlem som nevnt i § 7-1 første punktum bare kan skje med utleierens godkjenning. Godkjenning kan i så fall bare nektes dersom forhold knyttet til boligens utforming eller formål tilsier det.</p>
@@ -435,7 +692,7 @@ e. leieren for øvrig misligholder sine plikter på en måte som gjør det nødv
 <p>Uten hinder av bestemmelsene i kapittel 9 om opphør kan det avtales at leieavtalen skal falle bort uten oppsigelse ved endt semester, endt studieår eller endt utdannelse. Uten hinder av § 9-3 kan partene også inngå en tidsbestemt leieavtale for kortere tid enn tre år. Er leieavtalen ikke inngått for bestemt tid, har leieren før fraflytting alltid krav på varsel med frist som nevnt i § 9-6 .</p>
 <p>Uten hinder av § 3-5 tredje ledd kan det avtales at rentene av konto for depositum skal godskrives utleieren.</p>
 <p>Uten hinder av § 3-2 første ledd annet punktum kan det avtales forskuddsbetaling for inntil tre måneder.</p>
-<p><em>Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</em></p>
+<p class="note">Endret ved lov 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ).</p>
 <h4 id="11-3-tjenestebolig">§ 11-3. Tjenestebolig</h4>
 <p>Bestemmelsene i paragrafen her gjelder ved utleie av bolig som leieren har leid i egenskap av arbeidstaker, når leieren har fått opplyst skriftlig at avtalen gjelder bolig som her nevnt, og at dette gir leieren færre rettigheter enn ved leie av annen bolig.</p>
 <p>Retten til å tre inn i leieavtalen etter § 8-2 gjelder ikke når leieren, eller noen som har fortsatt leieforholdet, dør. Før begjæring om fraflytting kan settes fram, har hustandsmedlem krav på varsel med frist som nevnt i § 9-6 .</p>
@@ -462,10 +719,10 @@ b. verdsettelsen åpenbart er uriktig.</p>
 <p>Hver av partene kan bringe saken inn for tingretten ved stevning. Stevningen må være inngått til retten innen én måned etter at takstnemndas skriftlige og begrunnede avgjørelse er mottatt. På samme måte kan saken bringes inn for tingretten dersom takstnemndas avgjørelse ikke foreligger to måneder etter oppnevningen. En avgjørelse som ikke er brakt inn for retten innen fristen nevnt i annet punktum, har virkning som en rettskraftig dom. Retten kan gi oppfriskning for oversittelse av frist som nevnt i annet punktum.</p>
 <p>Retten skal fastsette godtgjørelsen for medlemmene av takstnemnda. Retten kan bestemme at den som har krevd takst skal betale inn et beløp til sikkerhet for godtgjørelsen. Utleieren skal bære kostnadene dersom takstnemnda fastsetter et lavere beløp enn det utleieren har krevd i leie, eller høyere vederlag enn det utleieren har vært villig til å betale for påkostningene. Ellers skal leieren betale kostnadene. Rettens avgjørelse treffes ved kjennelse og skal begrunnes. Partene kan anke kjennelsen innen én måned.</p>
 <p>Blir saken brakt inn for retten etter tredje ledd, kan retten avgjøre spørsmålet om ansvar for kostnadene med takstnemnd etter <a href="lov-2005-06-17-90.html">tvisteloven</a> kapittel 20 .</p>
-<p><em>Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for avgjørelser som er truffet av takstnemnda etter 1 sep 2009).</em></p>
+<p class="note">Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 og gjelder for avgjørelser som er truffet av takstnemnda etter 1 sep 2009).</p>
 <h4 id="12-3-midlertidig-bruksrett">§ 12-3. Midlertidig bruksrett <a class="para-history" href="../historikk/lov-1999-03-26-17/para-12-3.html" title="Endringshistorikk for § 12-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når søksmål om godkjenning etter reglene i kapitlene 7 , 8 eller 11 er reist, kan retten ved kjennelse etter begjæring fra saksøkeren, mot eller uten sikkerhetsstillelse, beslutte at den som kreves godkjent som framleier, husstandsmedlem eller ny leier, skal ha bruksrett til husrommet inntil saken er rettskraftig avgjort. Saksbehandlingsreglene i tvisteloven kapittel 32 og 34 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h4 id="12-4-foregrepet-tvangskraft">§ 12-4. Foregrepet tvangskraft</h4>
 <p>Når det er avsagt dom i sak som nevnt i § 9-8 og oppsigelsen ikke er satt til side, kan retten etter begjæring fra utleieren, mot eller uten sikkerhetsstillelse, i særlige tilfelle ved kjennelse gi samtykke til at fraviking gjennomføres før dommen er rettskraftig. Er dommen påanket, kan samtykke gis av ankedomstolen.</p>
 <h4 id="12-5-husleietvistutvalget">§ 12-5. Husleietvistutvalget <a class="para-history" href="../historikk/lov-1999-03-26-17/para-12-5.html" title="Endringshistorikk for § 12-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -475,7 +732,7 @@ b. verdsettelsen åpenbart er uriktig.</p>
 <p>Tvister om leie av bolig må behandles av Husleietvistutvalget før de kan bringes inn for tingretten hvis det følger av rettergangslovgivningen at behandling i forliksrådet ellers ville vært nødvendig. Forliksrådet kan ikke behandle tvister om leie av bolig.</p>
 <p>Innbringelse av en sak for Husleietvistutvalget skal likestilles med søksmål etter tvangsfullbyrdelsesloven § 5-11 første ledd annet punktum.</p>
 <p>Departementet kan gi forskrift om Husleietvistutvalget.</p>
-<p><em>Endret ved lover 11 mai 2001 nr. 19 (ikr. 15 mai 2001 iflg. res. 11 mai 2001 nr. 481 ), 16 juni 2006 nr. 34 (ikr. 1 juli 2006, men slik at nytt annet ledd ikke gjelder for saker som er brakt inn for forliksrådet før 1 juli 2006), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lover 26 jan 2007 nr. 3 og 21 des 2007 nr. 127 , 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 6 mai 2022 nr. 27 (i kraft 1 juli 2022 iflg. res. 6 mai 2022 nr. 758 , se endringslov del III for overgangsregel), 22 des 2025 nr. 127 (i kraft 1 jan 2026 iflg. res. 22 des 2025 nr. 2815 ).</em></p>
+<p class="note">Endret ved lover 11 mai 2001 nr. 19 (ikr. 15 mai 2001 iflg. res. 11 mai 2001 nr. 481 ), 16 juni 2006 nr. 34 (ikr. 1 juli 2006, men slik at nytt annet ledd ikke gjelder for saker som er brakt inn for forliksrådet før 1 juli 2006), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lover 26 jan 2007 nr. 3 og 21 des 2007 nr. 127 , 16 jan 2009 nr. 6 (ikr. 1 sep 2009 iflg. res. 12 juni 2009 nr. 641 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 6 mai 2022 nr. 27 (i kraft 1 juli 2022 iflg. res. 6 mai 2022 nr. 758 , se endringslov del III for overgangsregel), 22 des 2025 nr. 127 (i kraft 1 jan 2026 iflg. res. 22 des 2025 nr. 2815 ).</p>
 <h2 id="kapittel-13-ikrafttredelses-og-overgangsbestemmelser-endringer-i-andre-lover">Kapittel 13. Ikrafttredelses- og overgangsbestemmelser. Endringer i andre lover</h2>
 <h4 id="13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</h4>
 <p>Denne lov trer i kraft fra den tid Kongen bestemmer. 1</p>
@@ -491,10 +748,12 @@ e. Bestemmelsene i § 12-1 om voldgift skal gjelde for voldgiftsavtale som er in
 <p>Som tidsubestemt etter bestemmelsen her regnes også leieavtale mellom borettslag eller boligaksjeselskap og selskapsmedlem med bruksrett.</p>
 <p>Bestemmelsene i lovens kapittel 1 til 11 skal ikke gjelde for tidsbestemt leieavtale som er inngått før lovens ikrafttredelse. Bestemmelsene i annet ledd bokstav e skal likevel gjelde tilsvarende for tidsbestemt leieavtale som er inngått før lovens ikrafttredelse. Leieavtale som bare kan sies opp av en av partene, og leieavtale som bare kan sies opp dersom det foreligger vesentlig mislighold, regnes som tidsbestemt i forhold til reglene her, jf. likevel tredje ledd.</p>
 <p>Reglene om bortleie av bolig mot lån i kapittel 9 i lov av 16. juni 1939 nr. 6 om husleie fortsetter å gjelde for avtaler som er inngått før loven her har trådt i kraft.</p>
-<p><em>Endret ved lover 28 apr 2000 nr. 34 (ikr. 1 juli 2000 iflg. res. 28 apr 2000 nr. 366 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lover 28 apr 2000 nr. 34 (ikr. 1 juli 2000 iflg. res. 28 apr 2000 nr. 366 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h4 id="13-3-opphevelse-og-endringer-av-andre-lover">§ 13-3. Opphevelse og endringer av andre lover</h4>
 <p>Fra den tid loven her trer i kraft, oppheves lov av 16. juni 1939 nr. 6 om husleie.</p>
 <p>Fra samme tidspunkt gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

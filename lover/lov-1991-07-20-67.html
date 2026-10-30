@@ -19,64 +19,213 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1991-07-20-67.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om overføring av domfelte – domfovfl" href="../feeds/lov-1991-07-20-67.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Lov om overføring av domfelte – domfovfl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1991-07-20-67</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Internasjonal rett &raquo; Konvensjoner. Overenskomster\nSivil- og straffeprosess &raquo; Straffeprosess/straffeprosessloven &raquo; Utlevering\nSivil- og straffeprosess &raquo; Straffegjennomføring</dd>
-<dt>Ikrafttredelse</dt><dd>1993-04-01</dd>
-<dt>Sist endret</dt><dd>lov/2016-12-16-98</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1991-07-20-67" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-lov-om-overfring-av-domfelte">I. Lov om overføring av domfelte</a></li>
+<li class="lvl3"><a href="#del-a">Del A.</a></li>
+<li class="lvl4"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser.</a></li>
+<li class="lvl4"><a href="#kapittel-ii-srlig-om-saker-etter-den-europeiske-konvensjonen-21-mars-1983-om-overfring-av-domfelte-overfringskonvensjonen">Kapittel II. Særlig om saker etter den europeiske konvensjonen 21. mars 1983 om overføring av domfelte (overføringskonvensjonen).</a></li>
+<li class="lvl4"><a href="#kapittel-iii-srlig-om-saker-etter-den-europeiske-konvensjonen-28-mai-1970-om-internasjonal-gyldighet-av-straffedommer-gyldighetskonvensjonen">Kapittel III. Særlig om saker etter den europeiske konvensjonen 28. mai 1970 om internasjonal gyldighet av straffedommer (gyldighetskonvensjonen).</a></li>
+<li class="lvl4"><a href="#kapittel-iv-srlig-om-saker-som-ikke-omfattes-av-overfringskonvensjonen-eller-gyldighetskonvensjonen">Kapittel IV. Særlig om saker som ikke omfattes av overføringskonvensjonen eller gyldighetskonvensjonen</a></li>
+<li class="lvl4"><a href="#kapittel-v-fellesregler-for-behandling-av-saker-etter-kapittel-ii-iii-og-iv">Kapittel V. Fellesregler for behandling av saker etter kapittel II, III og IV</a></li>
+<li class="lvl3"><a href="#del-b">Del B</a></li>
+<li class="lvl5"><a href="#art-1-definisjoner">Art 1. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-2-alminnelige-prinsipper">Art 2. Alminnelige prinsipper</a></li>
+<li class="lvl5"><a href="#art-3-vilkar-for-overfring">Art 3. Vilkår for overføring</a></li>
+<li class="lvl5"><a href="#art-4-opplysningsplikt">Art 4. Opplysningsplikt</a></li>
+<li class="lvl5"><a href="#art-5-anmodninger-og-svar">Art 5. Anmodninger og svar</a></li>
+<li class="lvl5"><a href="#art-6-ledsagende-dokumenter">Art 6. Ledsagende dokumenter</a></li>
+<li class="lvl5"><a href="#art-7-samtykke-og-dets-bekreftelse">Art 7. Samtykke og dets bekreftelse</a></li>
+<li class="lvl5"><a href="#art-8-virkningen-av-overfring-for-domslandet">Art 8. Virkningen av overføring for domslandet</a></li>
+<li class="lvl5"><a href="#art-9-virkningen-av-overfring-for-fullbyrdingslandet">Art 9. Virkningen av overføring for fullbyrdingslandet</a></li>
+<li class="lvl5"><a href="#art-10-fortsatt-fullbyrding">Art 10. Fortsatt fullbyrding</a></li>
+<li class="lvl5"><a href="#art-11-omgjring-av-den-strafferettslige-reaksjonen">Art 11. Omgjøring av den strafferettslige reaksjonen</a></li>
+<li class="lvl5"><a href="#art-12-benadning-amnesti-ombytting">Art 12. Benådning, amnesti, ombytting</a></li>
+<li class="lvl5"><a href="#art-13-gjenopptakelse">Art 13. Gjenopptakelse</a></li>
+<li class="lvl5"><a href="#art-14-opphr-av-fullbyrdingen">Art 14. Opphør av fullbyrdingen</a></li>
+<li class="lvl5"><a href="#art-15-opplysninger-om-fullbyrding">Art 15. Opplysninger om fullbyrding</a></li>
+<li class="lvl5"><a href="#art-16-transitt">Art 16. Transitt</a></li>
+<li class="lvl5"><a href="#art-17-sprak-og-kostnader">Art 17. Språk og kostnader</a></li>
+<li class="lvl5"><a href="#art-18-undertegning-og-ikrafttreden">Art 18. Undertegning og ikrafttreden</a></li>
+<li class="lvl5"><a href="#art-19-tiltredelse-av-ikke-medlemsstater">Art 19. Tiltredelse av ikke-medlemsstater</a></li>
+<li class="lvl5"><a href="#art-20-territorielt-virkeomrade">Art 20. Territorielt virkeområde</a></li>
+<li class="lvl5"><a href="#art-21-virkeomrade-i-tid">Art 21. Virkeområde i tid</a></li>
+<li class="lvl5"><a href="#art-22-forholdet-til-andre-konvensjoner-og-avtaler">Art 22. Forholdet til andre konvensjoner og avtaler</a></li>
+<li class="lvl5"><a href="#art-23-minnelig-ordning">Art 23. Minnelig ordning</a></li>
+<li class="lvl5"><a href="#art-24-oppsigelse">Art 24. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-25-meddelelser">Art 25. Meddelelser</a></li>
+<li class="lvl3"><a href="#tilleggsprotokoll">Tilleggsprotokoll</a></li>
+<li class="lvl5"><a href="#art-1-alminnelige-bestemmelser">Art 1. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-2-personer-som-har-flyktet-fra-domsstaten">Art 2. Personer som har flyktet fra domsstaten</a></li>
+<li class="lvl5"><a href="#art-3-domfelte-som-er-gjenstand-for-utvisningsvedtak">Art 3. Domfelte som er gjenstand for utvisningsvedtak</a></li>
+<li class="lvl3"><a href="#del-c">Del C.</a></li>
+<li class="lvl4"><a href="#del-i-definisjoner">Del I. Definisjoner.</a></li>
+<li class="lvl4"><a href="#del-ii-fullbyrding-av-europeiske-straffedommer1">Del II. Fullbyrding av europeiske straffedommer.1</a></li>
+<li class="lvl5"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-anmodninger-om-fullbyrding">Avsnitt 2. Anmodninger om fullbyrding.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-uteblivelsesdommer-og-ordonnances-penales">Avsnitt 3. Uteblivelsesdommer og «ordonnances pénales».</a></li>
+<li class="lvl5"><a href="#avsnitt-4-midlertidige-forfyninger">Avsnitt 4. Midlertidige forføyninger.</a></li>
+<li class="lvl5"><a href="#avsnitt-5-fullbyrding-av-sanksjoner">Avsnitt 5. Fullbyrding av sanksjoner.</a></li>
+<li class="lvl4"><a href="#del-iii-europeiske-straffedommers-internasjonale-rettsvirkninger">Del III. Europeiske straffedommers internasjonale rettsvirkninger.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-ne-bis-in-idem">Avsnitt 1. Ne bis in idem.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-muligheten-for-a-ta-tidligere-straffedommer-i-betraktning">Avsnitt 2. Muligheten for å ta tidligere straffedommer i betraktning.</a></li>
+<li class="lvl4"><a href="#del-iv-avsluttende-bestemmelser">Del IV. Avsluttende bestemmelser.</a></li>
+<li class="lvl2"><a href="#ii-endringer-i-andre-lover">II. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#iii-stortingets-samtykke-i-ratifikasjon">III. Stortingets samtykke i ratifikasjon</a></li>
+<li class="lvl2"><a href="#iv">IV.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2016-12-16-98.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1991-07-20-67.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om overføring av domfelte</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1991-07-20-67.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1991-07-20-67 <code>lov/1991-07-20-67</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om overføring av domfelte – domfovfl</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Internasjonal rett &raquo; Konvensjoner. Overenskomster\nSivil- og straffeprosess &raquo; Straffeprosess/straffeprosessloven &raquo; Utlevering\nSivil- og straffeprosess &raquo; Straffegjennomføring</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.1993</td></tr>
+<tr><th>Sist endret</th><td>LOV-2016-12-16-98 <code>lov/2016-12-16-98</code> fra 01.01.2017</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1991-07-20-67" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-lov-om-overfring-av-domfelte">I. Lov om overføring av domfelte</a></li>
+<li class="lvl3"><a href="#del-a">Del A.</a></li>
+<li class="lvl4"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser.</a></li>
+<li class="lvl4"><a href="#kapittel-ii-srlig-om-saker-etter-den-europeiske-konvensjonen-21-mars-1983-om-overfring-av-domfelte-overfringskonvensjonen">Kapittel II. Særlig om saker etter den europeiske konvensjonen 21. mars 1983 om overføring av domfelte (overføringskonvensjonen).</a></li>
+<li class="lvl4"><a href="#kapittel-iii-srlig-om-saker-etter-den-europeiske-konvensjonen-28-mai-1970-om-internasjonal-gyldighet-av-straffedommer-gyldighetskonvensjonen">Kapittel III. Særlig om saker etter den europeiske konvensjonen 28. mai 1970 om internasjonal gyldighet av straffedommer (gyldighetskonvensjonen).</a></li>
+<li class="lvl4"><a href="#kapittel-iv-srlig-om-saker-som-ikke-omfattes-av-overfringskonvensjonen-eller-gyldighetskonvensjonen">Kapittel IV. Særlig om saker som ikke omfattes av overføringskonvensjonen eller gyldighetskonvensjonen</a></li>
+<li class="lvl4"><a href="#kapittel-v-fellesregler-for-behandling-av-saker-etter-kapittel-ii-iii-og-iv">Kapittel V. Fellesregler for behandling av saker etter kapittel II, III og IV</a></li>
+<li class="lvl3"><a href="#del-b">Del B</a></li>
+<li class="lvl5"><a href="#art-1-definisjoner">Art 1. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-2-alminnelige-prinsipper">Art 2. Alminnelige prinsipper</a></li>
+<li class="lvl5"><a href="#art-3-vilkar-for-overfring">Art 3. Vilkår for overføring</a></li>
+<li class="lvl5"><a href="#art-4-opplysningsplikt">Art 4. Opplysningsplikt</a></li>
+<li class="lvl5"><a href="#art-5-anmodninger-og-svar">Art 5. Anmodninger og svar</a></li>
+<li class="lvl5"><a href="#art-6-ledsagende-dokumenter">Art 6. Ledsagende dokumenter</a></li>
+<li class="lvl5"><a href="#art-7-samtykke-og-dets-bekreftelse">Art 7. Samtykke og dets bekreftelse</a></li>
+<li class="lvl5"><a href="#art-8-virkningen-av-overfring-for-domslandet">Art 8. Virkningen av overføring for domslandet</a></li>
+<li class="lvl5"><a href="#art-9-virkningen-av-overfring-for-fullbyrdingslandet">Art 9. Virkningen av overføring for fullbyrdingslandet</a></li>
+<li class="lvl5"><a href="#art-10-fortsatt-fullbyrding">Art 10. Fortsatt fullbyrding</a></li>
+<li class="lvl5"><a href="#art-11-omgjring-av-den-strafferettslige-reaksjonen">Art 11. Omgjøring av den strafferettslige reaksjonen</a></li>
+<li class="lvl5"><a href="#art-12-benadning-amnesti-ombytting">Art 12. Benådning, amnesti, ombytting</a></li>
+<li class="lvl5"><a href="#art-13-gjenopptakelse">Art 13. Gjenopptakelse</a></li>
+<li class="lvl5"><a href="#art-14-opphr-av-fullbyrdingen">Art 14. Opphør av fullbyrdingen</a></li>
+<li class="lvl5"><a href="#art-15-opplysninger-om-fullbyrding">Art 15. Opplysninger om fullbyrding</a></li>
+<li class="lvl5"><a href="#art-16-transitt">Art 16. Transitt</a></li>
+<li class="lvl5"><a href="#art-17-sprak-og-kostnader">Art 17. Språk og kostnader</a></li>
+<li class="lvl5"><a href="#art-18-undertegning-og-ikrafttreden">Art 18. Undertegning og ikrafttreden</a></li>
+<li class="lvl5"><a href="#art-19-tiltredelse-av-ikke-medlemsstater">Art 19. Tiltredelse av ikke-medlemsstater</a></li>
+<li class="lvl5"><a href="#art-20-territorielt-virkeomrade">Art 20. Territorielt virkeområde</a></li>
+<li class="lvl5"><a href="#art-21-virkeomrade-i-tid">Art 21. Virkeområde i tid</a></li>
+<li class="lvl5"><a href="#art-22-forholdet-til-andre-konvensjoner-og-avtaler">Art 22. Forholdet til andre konvensjoner og avtaler</a></li>
+<li class="lvl5"><a href="#art-23-minnelig-ordning">Art 23. Minnelig ordning</a></li>
+<li class="lvl5"><a href="#art-24-oppsigelse">Art 24. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-25-meddelelser">Art 25. Meddelelser</a></li>
+<li class="lvl3"><a href="#tilleggsprotokoll">Tilleggsprotokoll</a></li>
+<li class="lvl5"><a href="#art-1-alminnelige-bestemmelser">Art 1. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-2-personer-som-har-flyktet-fra-domsstaten">Art 2. Personer som har flyktet fra domsstaten</a></li>
+<li class="lvl5"><a href="#art-3-domfelte-som-er-gjenstand-for-utvisningsvedtak">Art 3. Domfelte som er gjenstand for utvisningsvedtak</a></li>
+<li class="lvl3"><a href="#del-c">Del C.</a></li>
+<li class="lvl4"><a href="#del-i-definisjoner">Del I. Definisjoner.</a></li>
+<li class="lvl4"><a href="#del-ii-fullbyrding-av-europeiske-straffedommer1">Del II. Fullbyrding av europeiske straffedommer.1</a></li>
+<li class="lvl5"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-anmodninger-om-fullbyrding">Avsnitt 2. Anmodninger om fullbyrding.</a></li>
+<li class="lvl5"><a href="#avsnitt-3-uteblivelsesdommer-og-ordonnances-penales">Avsnitt 3. Uteblivelsesdommer og «ordonnances pénales».</a></li>
+<li class="lvl5"><a href="#avsnitt-4-midlertidige-forfyninger">Avsnitt 4. Midlertidige forføyninger.</a></li>
+<li class="lvl5"><a href="#avsnitt-5-fullbyrding-av-sanksjoner">Avsnitt 5. Fullbyrding av sanksjoner.</a></li>
+<li class="lvl4"><a href="#del-iii-europeiske-straffedommers-internasjonale-rettsvirkninger">Del III. Europeiske straffedommers internasjonale rettsvirkninger.</a></li>
+<li class="lvl5"><a href="#avsnitt-1-ne-bis-in-idem">Avsnitt 1. Ne bis in idem.</a></li>
+<li class="lvl5"><a href="#avsnitt-2-muligheten-for-a-ta-tidligere-straffedommer-i-betraktning">Avsnitt 2. Muligheten for å ta tidligere straffedommer i betraktning.</a></li>
+<li class="lvl4"><a href="#del-iv-avsluttende-bestemmelser">Del IV. Avsluttende bestemmelser.</a></li>
+<li class="lvl2"><a href="#ii-endringer-i-andre-lover">II. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#iii-stortingets-samtykke-i-ratifikasjon">III. Stortingets samtykke i ratifikasjon</a></li>
+<li class="lvl2"><a href="#iv">IV.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1991-07-20-67.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1991-07-20-67.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1991-07-20-67.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1991-07-20-67.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1991-07-20-67.html">Observerte kildeutgaver</a> · <a href="../historie/overføring-av-domfelte.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1991-07-20-67.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1991-07-20-67.html">Observerte kildeutgaver</a> · <a href="../historie/overføring-av-domfelte.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1991-07-20-67.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-overfring-av-domfelte">Lov om overføring av domfelte</h1>
 <h2 id="i-lov-om-overfring-av-domfelte">I. Lov om overføring av domfelte</h2>
 <h3 id="del-a">Del A.</h3>
 <h4 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser.</h4>
@@ -84,11 +233,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Etter reglene i denne loven kan norske avgjørelser om strafferettslige reaksjoner fullbyrdes i utlandet og utenlandske avgjørelser om strafferettslige reaksjoner fullbyrdes i Norge. Loven gjelder ikke for avgjørelser som omfattes av lov 15. november 1963 om fullbyrding av nordiske dommer på straff m.v.</p>
 <h6 id="2">§ 2</h6>
 <p>Kongen kan fastsette nærmere regler om gjennomføring av loven.</p>
-<p><em>Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</em></p>
+<p class="note">Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</p>
 <h4 id="kapittel-ii-srlig-om-saker-etter-den-europeiske-konvensjonen-21-mars-1983-om-overfring-av-domfelte-overfringskonvensjonen">Kapittel II. Særlig om saker etter den europeiske konvensjonen 21. mars 1983 om overføring av domfelte (overføringskonvensjonen).</h4>
 <h6 id="3">§ 3</h6>
 <p>Avgjørelser om strafferettslige reaksjoner som omfattes av overføringskonvensjonen, jf. del B i loven, kan fullbyrdes etter konvensjonens regler. Hvis den annen stat er tilsluttet konvensjonens tilleggsprotokoll av 18. desember 1997, kan fullbyrding skje i samsvar med overføringskonvensjonen slik den suppleres av reglene i tilleggsprotokollen. En anmodning fra en annen stat om overføring av en domfelt til eller fra Norge avgjøres av departementet. Departementet skal umiddelbart opplyse den anmodende staten om utfallet av anmodningen. En norsk anmodning til en annen stat om overføring av en domfelt til eller fra Norge fremmes av departementet.</p>
-<p><em>Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</em></p>
+<p class="note">Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</p>
 <h6 id="4">§ 4</h6>
 <p>Med norsk borger i overføringskonvensjonens forstand menes en person som har norsk statsborgerskap, eller som har bosted i Norge, eller som på annen måte har slik tilknytning til landet at overføring er naturlig.</p>
 <h6 id="5">§ 5</h6>
@@ -96,10 +245,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. etter reglene om fortsatt fullbyrding i overføringskonvensjonen art. 10, jf. § 6 i loven, eller
 b. etter reglene om omgjøring av straffen i overføringskonvensjonen art. 11, jf. § 7 i loven.</p>
 <p>Fullbyrding i Norge av en utenlandsk straffereaksjon mot en utilregnelig person kan bare skje etter dom på overføring til tvungent psykisk helsevern etter <a href="lov-2005-05-20-28.html">straffeloven</a> § 62 eller til tvungen omsorg etter straffeloven § 63 .</p>
-<p><em>Endret ved lover 17 jan 1997 nr. 11 (ikr. 1 jan 2002 iflg. lov 15 juni 2001 nr. 64 ) som endret ved lov 15 juni 2001 nr. 64 , 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lover 17 jan 1997 nr. 11 (ikr. 1 jan 2002 iflg. lov 15 juni 2001 nr. 64 ) som endret ved lov 15 juni 2001 nr. 64 , 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h6 id="6">§ 6</h6>
 <p>Når departementet bestemmer at det skal skje fortsatt fullbyrding, anmodes kriminalomsorgen om å iverksette fullbyrding av resten av frihetsstraffen. Dersom frihetsstraffen etter sin art strider mot norsk lov, eller dersom straffen for forbrytelsen overstiger strafferammen for samme forhold etter norsk lov, anmodes påtalemyndigheten i stedet om å bringe saken inn for retten, som ved dom skal fastsette en ny straff for forholdet. Straffen skal såvidt mulig svare til straffen fastsatt i domslandet, men må etter sin art være forenlig med norsk rett. Den må ikke overskride norske strafferammer for tilsvarende forhold og ikke skjerpe den domfeltes strafferettslige stilling.</p>
-<p><em>Endret ved lov 16 des 2016 nr. 98 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1604 ).</em></p>
+<p class="note">Endret ved lov 16 des 2016 nr. 98 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1604 ).</p>
 <h6 id="7">§ 7</h6>
 <p>Når departementet bestemmer at den strafferettslige reaksjonen skal omgjøres, anmodes påtalemyndigheten om å bringe saken inn for retten. Retten skal ved dom omgjøre den utenlandske straffen til den frihetsstraff som følger av norsk rett for tilsvarende forhold. Retten skal ved straffutmålingen</p>
 <p>a. være bundet av den beskrivelsen av faktum som uttrykkelig eller underforstått er lagt til grunn i den utenlandske dommen,
@@ -108,13 +257,13 @@ c. fullt ut trekke fra den tiden den domfelte har vært berøvet friheten, og
 d. ikke skjerpe den domfeltes strafferettslige stilling. Domstolen skal herunder ikke være bundet av den minstestraffen som er fastsatt i norsk rett for det forholdet saken gjelder.</p>
 <h6 id="7-a">§ 7 a</h6>
 <p>Ved anmodning fra fullbyrdingsstaten etter tilleggsprotokollen artikkel 3 fjerde ledd bokstav a eller tilsvarende bestemmelser i andre internasjonale avtaler gjelder prosedyrene for vurdering av utlevering eller overlevering tilsvarende.</p>
-<p><em>Tilføyd ved lov 24 juni 2011 nr. 34 , endret ved lov 16 des 2016 nr. 98 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1604 ).</em></p>
+<p class="note">Tilføyd ved lov 24 juni 2011 nr. 34 , endret ved lov 16 des 2016 nr. 98 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1604 ).</p>
 <h6 id="8">§ 8</h6>
 <p>Bestemmelsene om fullbyrding av strafferettslige reaksjoner i overføringskonvensjonen får anvendelse også på avgjørelser truffet før konvensjonen trådte i kraft mellom Norge og vedkommende land.</p>
 <h4 id="kapittel-iii-srlig-om-saker-etter-den-europeiske-konvensjonen-28-mai-1970-om-internasjonal-gyldighet-av-straffedommer-gyldighetskonvensjonen">Kapittel III. Særlig om saker etter den europeiske konvensjonen 28. mai 1970 om internasjonal gyldighet av straffedommer (gyldighetskonvensjonen).</h4>
 <h6 id="9">§ 9</h6>
 <p>Avgjørelser om strafferettslige reaksjoner som omfattes av gyldighetskonvensjonen, jf. del C i loven, kan fullbyrdes etter konvensjonens regler. Avgjørelse om fullbyrding skal skje eller ikke, treffes ved dom. Avgjørelse etter gyldighetskonvensjonen art. 39 nr. 2 første punktum treffes ved kjennelse, som kan ankes etter reglene om anke over dommer.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h6 id="10">§ 10</h6>
 <p>Forelegg kan utferdiges i alle tilfelle hvor den utenlandske dommen eller liknende går ut på bot eller inndragning.</p>
 <h6 id="11">§ 11</h6>
@@ -125,29 +274,29 @@ d. ikke skjerpe den domfeltes strafferettslige stilling. Domstolen skal herunder
 <p>Rettskraftige avgjørelser om strafferettslige reaksjoner som skal kunne fullbyrdes i en annen stat i medhold av en annen avtale enn overføringskonvensjonen eller gyldighetskonvensjonen, kan fullbyrdes i henhold til bestemmelsene i avtalen.</p>
 <p>Hvis ikke avtalen bestemmer noe annet, kan fortsatt fullbyrding skje uten at det fastsettes ny dom selv om straffen overskrider norske strafferammer for tilsvarende forhold. I slike tilfeller kreves likevel samtykke fra domfelte.</p>
 <p>For fullbyrding i Norge gjelder loven kapittel II eller III tilsvarende så langt de er forenlige med avtalens bestemmelser. Fullbyrding av frihetsstraff skjer i samsvar med reglene gitt i eller i medhold av <a href="lov-2001-05-18-21.html">straffegjennomføringsloven</a>.</p>
-<p><em>Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lover 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ), 24 juni 2011 nr. 34 .</em></p>
+<p class="note">Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lover 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ), 24 juni 2011 nr. 34 .</p>
 <h6 id="13">§ 13</h6>
 <p>Hvis det foreligger særlige grunner, kan Kongen bestemme at en strafferettslig reaksjon som innebærer frihetsberøvelse pålagt ved en rettskraftig avgjørelse i en annen stat, kan fullbyrdes her i riket selv om det ikke følger av avtale som nevnt i §§ 3 , 9 eller 12 .</p>
 <p>På samme vilkår kan Kongen bestemme at strafferettslig reaksjon som innebærer frihetsberøvelse idømt av en norsk domstol, kan fullbyrdes i en annen stat.</p>
 <p>Bestemmelsene i § 12 annet og tredje ledd gjelder tilsvarende.</p>
-<p><em>Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lov 28 feb 2014 nr. 3 .</em></p>
+<p class="note">Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lov 28 feb 2014 nr. 3 .</p>
 <h4 id="kapittel-v-fellesregler-for-behandling-av-saker-etter-kapittel-ii-iii-og-iv">Kapittel V. Fellesregler for behandling av saker etter kapittel II, III og IV</h4>
 <p>Overskriften endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001, endret kapittelnummer fra IV).</p>
 <h6 id="14">§ 14</h6>
 <p>Saker som skal avgjøres av en norsk domstol, behandles etter straffeprosesslovens regler med de unntakene som følger av loven og de konvensjonene den gjennomfører.</p>
-<p><em>Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 12.</em></p>
+<p class="note">Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 12.</p>
 <h6 id="15">§ 15</h6>
 <p>Sakene skal i første instans alltid behandles for tingrett, og uten at tiltalebeslutning utferdiges. Meddommere tilkalles bare dersom den siktede begjærer det. Bestemmelsene i første ledd gjelder likevel ikke saker som omfattes av gyldighetskonvensjonen art. 25 nr. 1 eller 26 nr. 1. Domsslutningen skal gå ut på at den utenlandske dommen eller liknende fullbyrdes ved at den siktede dømmes til en nærmere angitt straff, i samsvar med denne loven og vedkommende norske straffebud (som rammer forholdet eller ville ha rammet det om det hadde funnet sted i Norge).</p>
-<p><em>Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 13.</em></p>
+<p class="note">Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 13.</p>
 <h6 id="16">§ 16</h6>
 <p>Offentlig forsvarer oppnevnes i alle saker hvor det ikke har vært utferdiget forelegg etter § 10 . Har forelegg vært utferdiget, gjelder straffeprosesslovens regler om oppnevning av forsvarer.</p>
-<p><em>Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 14.</em></p>
+<p class="note">Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 14.</p>
 <h6 id="17">§ 17</h6>
 <p>Gjelder saken fullbyrding av en utenlandsk avgjørelse på frihetsstraff eller annen strafferettslig følge av frihetsberøvende karakter, kan varetektsfengsling foretas i medhold av overføringskonvensjonen art. 11 nr. 2 og art. 16 nr. 5, tilleggsprotokollen til overføringskonvensjonen art. 2 nr. 2, gyldighetskonvensjonen art. 13 og art. 32 eller avtale som nevnt i § 12 og for øvrig i medhold av straffeprosesslovens bestemmelser. <a href="lov-1981-05-22-25.html">Straffeprosessloven</a> §§ 181 og 184 jf. § 188 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 15.</em></p>
+<p class="note">Endret ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 15.</p>
 <h6 id="18">§ 18</h6>
 <p>Sakskostnader i forbindelse med avgjørelser i tingretten etter denne loven kan ikke idømmes med mindre det er foretatt en fullstendig prøving av saken.</p>
-<p><em>Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 16.</em></p>
+<p class="note">Endret ved lover 14 des 2001 nr. 98 (ikr. 1 jan 2002 iflg. res. 14 des 2001 nr. 1416 ), 7 juli 2000 nr. 69 (ikr. 1 jan 2001), tidligere § 16.</p>
 <h3 id="del-b">Del B</h3>
 <p>I den europeiske konvensjonen 21. mars 1983 om overføring av domfelte lyder følgende bestemmelser slik i norsk oversettelse:</p>
 <h5 id="art-1-definisjoner">Art 1. Definisjoner</h5>
@@ -439,7 +588,7 @@ d. enhver annen handling, erklæring, meddelelse eller kommunikasjon som gjelder
 <p>Konvensjonens bestemmelser skal gjelde i den utstrekning de er forenlige med bestemmelsene i denne protokoll.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</em></p>
+<p class="note">Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).</p>
 <h5 id="art-2-personer-som-har-flyktet-fra-domsstaten">Art 2. Personer som har flyktet fra domsstaten</h5>
 <ol>
 <li>
@@ -452,8 +601,8 @@ d. enhver annen handling, erklæring, meddelelse eller kommunikasjon som gjelder
 <p>Fullbyrdingen av den strafferettslige reaksjon skal kunne overføres uten den domfeltes samtykke.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).
-1 Jf. art. 1, c. 2 Jf. art. 1, d.</em></p>
+<p class="note">Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001).
+1 Jf. art. 1, c. 2 Jf. art. 1, d.</p>
 <h5 id="art-3-domfelte-som-er-gjenstand-for-utvisningsvedtak">Art 3. Domfelte som er gjenstand for utvisningsvedtak</h5>
 <ol>
 <li>
@@ -481,8 +630,8 @@ b. når den domfelte, etter å ha hatt anledning til å forlate fullbyrdingsstat
 <p>Enhver konvensjonspart kan ved en erklæring rettet til Europarådets generalsekretær si fra om at den ikke vil overta fullbyrding av strafferettslige reaksjoner under de omstendigheter som er beskrevet i denne artikkel.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lov 24 juni 2011 nr. 34 .
-1 Jf. art. 1, c. 2 Jf. art. 1, d.</em></p>
+<p class="note">Tilføyd ved lov 7 juli 2000 nr. 69 (ikr. 1 jan 2001), endret ved lov 24 juni 2011 nr. 34 .
+1 Jf. art. 1, c. 2 Jf. art. 1, d.</p>
 <h3 id="del-c">Del C.</h3>
 <p>I den europiske konvensjonen 28. mai 1970 om internasjonal gyldighet av straffedommer lyder følgende bestemmelser slik:</p>
 <h4 id="del-i-definisjoner">Del I. Definisjoner.</h4>
@@ -1057,6 +1206,8 @@ k. enhver underretning mottatt etter artikkel 66 samt datoen oppsigelsen trer i 
 <h2 id="iv">IV.</h2>
 <p>Loven trer i kraft fra den tiden 1 Kongen bestemmer.</p>
 <p>1 Fra 1 apr 1993 iflg. res. 12 feb 1993 nr. 101 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

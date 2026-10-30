@@ -19,74 +19,299 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-12-01-1333.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om plantehelse" href="../feeds/forskrift-2000-12-01-1333.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om plantehelse</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2000-12-01-1333</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2001-01-01, 2001-07-01, 2002-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-10-1032</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2000-12-01-1333" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-formal-virkeomrade-og-definisjoner">I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#ii-bestemmelser-om-tiltak-mot-planteskadegjrere">II. Bestemmelser om tiltak mot planteskadegjørere</a></li>
+<li class="lvl4"><a href="#4-planteskadegjrere-som-er-forbudt-a-spre">§ 4. Planteskadegjørere som er forbudt å spre</a></li>
+<li class="lvl4"><a href="#5-srskilte-krav-for-a-hindre-spredning-av-planteskadegjrere">§ 5. Særskilte krav for å hindre spredning av planteskadegjørere</a></li>
+<li class="lvl4"><a href="#6-fastsetting-av-tiltak">§ 6. Fastsetting av tiltak</a></li>
+<li class="lvl2"><a href="#iii-bestemmelser-om-registrering-og-internkontroll">III. Bestemmelser om registrering og internkontroll</a></li>
+<li class="lvl4"><a href="#7-registrering-av-virksomheter">§ 7. Registrering av virksomheter</a></li>
+<li class="lvl4"><a href="#8-opphevet">§ 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-internkontroll">§ 9. Internkontroll</a></li>
+<li class="lvl2"><a href="#iv-spesielle-bestemmelser-om-produksjon-og-omsetning-av-planter-og-formeringsmateriale">IV. Spesielle bestemmelser om produksjon og omsetning av planter og formeringsmateriale</a></li>
+<li class="lvl4"><a href="#10-krav-til-kvalitet">§ 10. Krav til kvalitet</a></li>
+<li class="lvl4"><a href="#11-krav-til-identitet-og-renhet">§ 11. Krav til identitet og renhet</a></li>
+<li class="lvl4"><a href="#12-sertifisert-produksjon">§ 12. Sertifisert produksjon</a></li>
+<li class="lvl4"><a href="#13-distribusjon-og-transport">§ 13. Distribusjon og transport</a></li>
+<li class="lvl4"><a href="#14-krav-til-merking-og-dokumentasjon">§ 14. Krav til merking og dokumentasjon</a></li>
+<li class="lvl4"><a href="#15-mistanke-om-mangler">§ 15. Mistanke om mangler</a></li>
+<li class="lvl2"><a href="#v-spesielle-bestemmelser-ved-import">V. Spesielle bestemmelser ved import</a></li>
+<li class="lvl4"><a href="#16-importforbud">§ 16. Importforbud</a></li>
+<li class="lvl4"><a href="#17-vilkar-for-import">§ 17. Vilkår for import</a></li>
+<li class="lvl4"><a href="#18-emballasje">§ 18. Emballasje</a></li>
+<li class="lvl4"><a href="#19-sertifikatpliktige-sendinger">§ 19. Sertifikatpliktige sendinger</a></li>
+<li class="lvl4"><a href="#20-krav-til-sunnhetssertifikat-og-reeksportsertifikat">§ 20. Krav til sunnhetssertifikat og reeksportsertifikat</a></li>
+<li class="lvl4"><a href="#21-opphevet">§ 21. (Opphevet)</a></li>
+<li class="lvl4"><a href="#22-transitt">§ 22. Transitt</a></li>
+<li class="lvl4"><a href="#23-melding-om-import">§ 23. Melding om import</a></li>
+<li class="lvl4"><a href="#23a-innholdet-i-importmeldinger">§ 23a. Innholdet i importmeldinger</a></li>
+<li class="lvl4"><a href="#23b-mottakskontroll-av-importsendinger">§ 23b. Mottakskontroll av importsendinger</a></li>
+<li class="lvl4"><a href="#23c-deling-av-importsendinger-fr-mottakskontrollen">§ 23c. Deling av importsendinger før mottakskontrollen</a></li>
+<li class="lvl4"><a href="#23d-melding-om-mottakskontrollen-av-importsendinger">§ 23d. Melding om mottakskontrollen av importsendinger</a></li>
+<li class="lvl4"><a href="#23e-vilkar-for-omsetning-eller-bruk-av-importerte-varer">§ 23e. Vilkår for omsetning eller bruk av importerte varer</a></li>
+<li class="lvl4"><a href="#24-importrens-fremstillingsplikt-ved-tilsyn-med-import">§ 24. Importørens fremstillingsplikt ved tilsyn med import</a></li>
+<li class="lvl4"><a href="#25-dokumentasjon-av-import">§ 25. Dokumentasjon av import</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vi-spesielle-bestemmelser-ved-eksport">VI. Spesielle bestemmelser ved eksport</a></li>
+<li class="lvl4"><a href="#27-melding-om-eksport">§ 27. Melding om eksport</a></li>
+<li class="lvl4"><a href="#28-utstedelse-av-sunnhetssertifikat-og-reeksportsertifikat">§ 28. Utstedelse av sunnhetssertifikat og reeksportsertifikat</a></li>
+<li class="lvl4"><a href="#28a-merking-av-treemballasje-og-trevirke">§ 28a. Merking av treemballasje og trevirke</a></li>
+<li class="lvl4"><a href="#28b-godkjenning-av-virksomheter-som-varmebehandler-treemballasje-eller-trevirke">§ 28b. Godkjenning av virksomheter som varmebehandler treemballasje eller trevirke</a></li>
+<li class="lvl4"><a href="#28c-godkjenning-av-virksomheter-som-produserer-treemballasje-eller-leverer-trevirke">§ 28c. Godkjenning av virksomheter som produserer treemballasje eller leverer trevirke</a></li>
+<li class="lvl4"><a href="#28d-krav-til-godkjenningssknad">§ 28d. Krav til godkjenningssøknad</a></li>
+<li class="lvl4"><a href="#29-vekstkontroll">§ 29. Vekstkontroll</a></li>
+<li class="lvl2"><a href="#vii-gebyrer-mv">VII. Gebyrer mv.</a></li>
+<li class="lvl4"><a href="#30-opphevet">§ 30. (Opphevet)</a></li>
+<li class="lvl4"><a href="#31-opphevet">§ 31. (Opphevet)</a></li>
+<li class="lvl4"><a href="#32-opphevet">§ 32. (Opphevet)</a></li>
+<li class="lvl4"><a href="#33-opphevet">§ 33. (Opphevet)</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-opphevet">§ 35. (Opphevet)</a></li>
+<li class="lvl2"><a href="#viii-andre-fellesbestemmelser">VIII. Andre fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#36-tilsyn-og-adgang-til-a-fre-kontroll">§ 36. Tilsyn og adgang til å føre kontroll</a></li>
+<li class="lvl4"><a href="#37-opphevet">§ 37. (Opphevet)</a></li>
+<li class="lvl4"><a href="#38-meldeplikt">§ 38. Meldeplikt</a></li>
+<li class="lvl4"><a href="#39-opplysningsplikt">§ 39. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#40-andre-planteskadegjrere">§ 40. Andre planteskadegjørere</a></li>
+<li class="lvl4"><a href="#41-dispensasjon">§ 41. Dispensasjon</a></li>
+<li class="lvl2"><a href="#ix-straff">IX. Straff</a></li>
+<li class="lvl4"><a href="#42-opphevet">§ 42. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43-opphevet">§ 43. (Opphevet)</a></li>
+<li class="lvl4"><a href="#44-opphevet">§ 44. (Opphevet)</a></li>
+<li class="lvl4"><a href="#45-straff">§ 45. Straff</a></li>
+<li class="lvl2"><a href="#x-avsluttende-bestemmelser">X. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#46-ikrafttredelse">§ 46. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#47-overgangsordninger">§ 47. Overgangsordninger</a></li>
+<li class="lvl2"><a href="#vedlegg-1-planteskadegjrere-som-det-er-forbudt-a-introdusere-og-spre-i-norge">Vedlegg 1. Planteskadegjørere som det er forbudt å introdusere og spre i Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-2-planteskadegjrere-som-det-er-forbudt-a-introdusere-og-spre-i-norge-dersom-de-forekommer-pa-visse-planter-og-andre-smittebrende-emner">Vedlegg 2. Planteskadegjørere som det er forbudt å introdusere og spre i Norge dersom de forekommer på visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-3-planter-og-andre-smittebrende-emner-som-det-er-forbudt-a-importere-dersom-de-har-sin-opprinnelse-i-nevnte-omrader">Vedlegg 3. Planter og andre smittebærende emner som det er forbudt å importere dersom de har sin opprinnelse i nevnte områder</a></li>
+<li class="lvl2"><a href="#vedlegg-4a-srskilte-krav-til-import-av-visse-planter-og-andre-smittebrende-emner">Vedlegg 4A. Særskilte krav til import av visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-4b-srskilte-krav-til-innenlands-produksjon-og-omsetning-av-visse-planter-og-andre-smittebrende-emner">Vedlegg 4B. Særskilte krav til innenlands produksjon og omsetning av visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-5a-planter-og-andre-smittebrende-emner-som-ved-import-skal-vre-fulgt-av-sunnhetssertifikat">Vedlegg 5A. Planter og andre smittebærende emner som ved import skal være fulgt av sunnhetssertifikat</a></li>
+<li class="lvl2"><a href="#vedlegg-5b-modell-for-sunnhetssertifikat-i-henhold-til-den-internasjonale-plantevernkonvensjonen-ippc">Vedlegg 5B. Modell for sunnhetssertifikat i henhold til den internasjonale plantevernkonvensjonen, IPPC</a></li>
+<li class="lvl2"><a href="#vedlegg-5c-modell-for-sunnhetssertifikat-for-reeksport-i-henhold-til-den-internasjonale-plantevernkonvensjonen-ippc">Vedlegg 5C. Modell for sunnhetssertifikat for reeksport i henhold til den internasjonale plantevernkonvensjonen, IPPC</a></li>
+<li class="lvl2"><a href="#vedlegg-6-planteskadegjrere-som-det-i-avgrensede-omrader-kan-fastsettes-bestemmelser-om-bekjemping-av">Vedlegg 6. Planteskadegjørere som det i avgrensede områder kan fastsettes bestemmelser om bekjemping av</a></li>
+<li class="lvl2"><a href="#vedlegg-7-planter-og-formeringsmateriale-som-er-forbudt-a-plante-og-omsette-til-videre-dyrking">Vedlegg 7. Planter og formeringsmateriale som er forbudt å plante og omsette til videre dyrking</a></li>
+<li class="lvl2"><a href="#vedlegg-8-krav-til-merking-og-dokumentasjon">Vedlegg 8. Krav til merking og dokumentasjon</a></li>
+<li class="lvl3"><a href="#i-planter-og-formeringsmateriale-til-videre-ervervsmessig-dyrking">I. Planter og formeringsmateriale til videre ervervsmessig dyrking</a></li>
+<li class="lvl3"><a href="#ii-planteskoleplanter-unntatt-planter-og-formeringsmateriale-til-videre-ervervsmessig-dyrking">II. Planteskoleplanter unntatt planter og formeringsmateriale til videre ervervsmessig dyrking</a></li>
+<li class="lvl3"><a href="#iii-andre-planter-til-videre-dyrking-enn-de-som-er-angitt-i-i-og-ii">III. Andre planter til videre dyrking enn de som er angitt i I og II</a></li>
+<li class="lvl2"><a href="#vedlegg-9-planter-og-plantedeler-som-i-henhold-til-19-er-unntatt-fra-krav-om-sunnhetssertifikat">Vedlegg 9. Planter og plantedeler som i henhold til § 19 er unntatt fra krav om sunnhetssertifikat</a></li>
+<li class="lvl2"><a href="#vedlegg-10-opphevet">Vedlegg 10. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vedlegg-10a-merke-som-kan-anvendes-pa-trevirke-og-treemballasje-som-er-varmebehandlet-jf-28a-frste-ledd">Vedlegg 10A. Merke som kan anvendes på trevirke og treemballasje som er varmebehandlet jf. § 28a første ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-10b-merke-kan-anvendes-pa-treemballasje-produsert-av-tre-som-er-behandlet-med-metylbromid-jf-28a-andre-ledd">Vedlegg 10B. Merke kan anvendes på treemballasje produsert av tre som er behandlet med metylbromid, jf.§ 28a andre ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-11a-mattilsynets-kd-5630-merke">Vedlegg 11A. Mattilsynets KD 56/30-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-11b-det-svenske-kd-5630-merke">Vedlegg 11B. Det svenske KD 56/30-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-12-den-internasjonale-standarden-for-plantesanitre-tiltak-nr-15-ispm-15-regulering-av-treemballasje-i-internasjonal-handel-vedlegg-i-og-ii">Vedlegg 12. Den internasjonale standarden for plantesanitære tiltak nr. 15 (ISPM 15) Regulering av treemballasje i internasjonal handel, vedlegg I og II</a></li>
+<li class="lvl3"><a href="#ispm-15-annex-1approved-treatments-associated-with-wood-packaging-material">ISPM 15. Annex 1Approved treatments associated with wood packaging material</a></li>
+<li class="lvl3"><a href="#ispm-15-annex-2the-mark-and-its-application">ISPM 15. Annex 2The mark and its application</a></li>
+<li class="lvl2"><a href="#vedlegg-13-definisjoner">Vedlegg 13. Definisjoner</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-10-1032.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-01-1333.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om planter og tiltak mot planteskadegjørere</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-12-01-1333.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2000-12-01-1333 <code>forskrift/2000-12-01-1333</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om plantehelse</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2001, 01.07.2001, 01.01.2002</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-10-1032 <code>forskrift/2025-06-10-1032</code> fra 01.10.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2000-12-01-1333" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-formal-virkeomrade-og-definisjoner">I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#ii-bestemmelser-om-tiltak-mot-planteskadegjrere">II. Bestemmelser om tiltak mot planteskadegjørere</a></li>
+<li class="lvl4"><a href="#4-planteskadegjrere-som-er-forbudt-a-spre">§ 4. Planteskadegjørere som er forbudt å spre</a></li>
+<li class="lvl4"><a href="#5-srskilte-krav-for-a-hindre-spredning-av-planteskadegjrere">§ 5. Særskilte krav for å hindre spredning av planteskadegjørere</a></li>
+<li class="lvl4"><a href="#6-fastsetting-av-tiltak">§ 6. Fastsetting av tiltak</a></li>
+<li class="lvl2"><a href="#iii-bestemmelser-om-registrering-og-internkontroll">III. Bestemmelser om registrering og internkontroll</a></li>
+<li class="lvl4"><a href="#7-registrering-av-virksomheter">§ 7. Registrering av virksomheter</a></li>
+<li class="lvl4"><a href="#8-opphevet">§ 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-internkontroll">§ 9. Internkontroll</a></li>
+<li class="lvl2"><a href="#iv-spesielle-bestemmelser-om-produksjon-og-omsetning-av-planter-og-formeringsmateriale">IV. Spesielle bestemmelser om produksjon og omsetning av planter og formeringsmateriale</a></li>
+<li class="lvl4"><a href="#10-krav-til-kvalitet">§ 10. Krav til kvalitet</a></li>
+<li class="lvl4"><a href="#11-krav-til-identitet-og-renhet">§ 11. Krav til identitet og renhet</a></li>
+<li class="lvl4"><a href="#12-sertifisert-produksjon">§ 12. Sertifisert produksjon</a></li>
+<li class="lvl4"><a href="#13-distribusjon-og-transport">§ 13. Distribusjon og transport</a></li>
+<li class="lvl4"><a href="#14-krav-til-merking-og-dokumentasjon">§ 14. Krav til merking og dokumentasjon</a></li>
+<li class="lvl4"><a href="#15-mistanke-om-mangler">§ 15. Mistanke om mangler</a></li>
+<li class="lvl2"><a href="#v-spesielle-bestemmelser-ved-import">V. Spesielle bestemmelser ved import</a></li>
+<li class="lvl4"><a href="#16-importforbud">§ 16. Importforbud</a></li>
+<li class="lvl4"><a href="#17-vilkar-for-import">§ 17. Vilkår for import</a></li>
+<li class="lvl4"><a href="#18-emballasje">§ 18. Emballasje</a></li>
+<li class="lvl4"><a href="#19-sertifikatpliktige-sendinger">§ 19. Sertifikatpliktige sendinger</a></li>
+<li class="lvl4"><a href="#20-krav-til-sunnhetssertifikat-og-reeksportsertifikat">§ 20. Krav til sunnhetssertifikat og reeksportsertifikat</a></li>
+<li class="lvl4"><a href="#21-opphevet">§ 21. (Opphevet)</a></li>
+<li class="lvl4"><a href="#22-transitt">§ 22. Transitt</a></li>
+<li class="lvl4"><a href="#23-melding-om-import">§ 23. Melding om import</a></li>
+<li class="lvl4"><a href="#23a-innholdet-i-importmeldinger">§ 23a. Innholdet i importmeldinger</a></li>
+<li class="lvl4"><a href="#23b-mottakskontroll-av-importsendinger">§ 23b. Mottakskontroll av importsendinger</a></li>
+<li class="lvl4"><a href="#23c-deling-av-importsendinger-fr-mottakskontrollen">§ 23c. Deling av importsendinger før mottakskontrollen</a></li>
+<li class="lvl4"><a href="#23d-melding-om-mottakskontrollen-av-importsendinger">§ 23d. Melding om mottakskontrollen av importsendinger</a></li>
+<li class="lvl4"><a href="#23e-vilkar-for-omsetning-eller-bruk-av-importerte-varer">§ 23e. Vilkår for omsetning eller bruk av importerte varer</a></li>
+<li class="lvl4"><a href="#24-importrens-fremstillingsplikt-ved-tilsyn-med-import">§ 24. Importørens fremstillingsplikt ved tilsyn med import</a></li>
+<li class="lvl4"><a href="#25-dokumentasjon-av-import">§ 25. Dokumentasjon av import</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vi-spesielle-bestemmelser-ved-eksport">VI. Spesielle bestemmelser ved eksport</a></li>
+<li class="lvl4"><a href="#27-melding-om-eksport">§ 27. Melding om eksport</a></li>
+<li class="lvl4"><a href="#28-utstedelse-av-sunnhetssertifikat-og-reeksportsertifikat">§ 28. Utstedelse av sunnhetssertifikat og reeksportsertifikat</a></li>
+<li class="lvl4"><a href="#28a-merking-av-treemballasje-og-trevirke">§ 28a. Merking av treemballasje og trevirke</a></li>
+<li class="lvl4"><a href="#28b-godkjenning-av-virksomheter-som-varmebehandler-treemballasje-eller-trevirke">§ 28b. Godkjenning av virksomheter som varmebehandler treemballasje eller trevirke</a></li>
+<li class="lvl4"><a href="#28c-godkjenning-av-virksomheter-som-produserer-treemballasje-eller-leverer-trevirke">§ 28c. Godkjenning av virksomheter som produserer treemballasje eller leverer trevirke</a></li>
+<li class="lvl4"><a href="#28d-krav-til-godkjenningssknad">§ 28d. Krav til godkjenningssøknad</a></li>
+<li class="lvl4"><a href="#29-vekstkontroll">§ 29. Vekstkontroll</a></li>
+<li class="lvl2"><a href="#vii-gebyrer-mv">VII. Gebyrer mv.</a></li>
+<li class="lvl4"><a href="#30-opphevet">§ 30. (Opphevet)</a></li>
+<li class="lvl4"><a href="#31-opphevet">§ 31. (Opphevet)</a></li>
+<li class="lvl4"><a href="#32-opphevet">§ 32. (Opphevet)</a></li>
+<li class="lvl4"><a href="#33-opphevet">§ 33. (Opphevet)</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-opphevet">§ 35. (Opphevet)</a></li>
+<li class="lvl2"><a href="#viii-andre-fellesbestemmelser">VIII. Andre fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#36-tilsyn-og-adgang-til-a-fre-kontroll">§ 36. Tilsyn og adgang til å føre kontroll</a></li>
+<li class="lvl4"><a href="#37-opphevet">§ 37. (Opphevet)</a></li>
+<li class="lvl4"><a href="#38-meldeplikt">§ 38. Meldeplikt</a></li>
+<li class="lvl4"><a href="#39-opplysningsplikt">§ 39. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#40-andre-planteskadegjrere">§ 40. Andre planteskadegjørere</a></li>
+<li class="lvl4"><a href="#41-dispensasjon">§ 41. Dispensasjon</a></li>
+<li class="lvl2"><a href="#ix-straff">IX. Straff</a></li>
+<li class="lvl4"><a href="#42-opphevet">§ 42. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43-opphevet">§ 43. (Opphevet)</a></li>
+<li class="lvl4"><a href="#44-opphevet">§ 44. (Opphevet)</a></li>
+<li class="lvl4"><a href="#45-straff">§ 45. Straff</a></li>
+<li class="lvl2"><a href="#x-avsluttende-bestemmelser">X. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#46-ikrafttredelse">§ 46. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#47-overgangsordninger">§ 47. Overgangsordninger</a></li>
+<li class="lvl2"><a href="#vedlegg-1-planteskadegjrere-som-det-er-forbudt-a-introdusere-og-spre-i-norge">Vedlegg 1. Planteskadegjørere som det er forbudt å introdusere og spre i Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-2-planteskadegjrere-som-det-er-forbudt-a-introdusere-og-spre-i-norge-dersom-de-forekommer-pa-visse-planter-og-andre-smittebrende-emner">Vedlegg 2. Planteskadegjørere som det er forbudt å introdusere og spre i Norge dersom de forekommer på visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-3-planter-og-andre-smittebrende-emner-som-det-er-forbudt-a-importere-dersom-de-har-sin-opprinnelse-i-nevnte-omrader">Vedlegg 3. Planter og andre smittebærende emner som det er forbudt å importere dersom de har sin opprinnelse i nevnte områder</a></li>
+<li class="lvl2"><a href="#vedlegg-4a-srskilte-krav-til-import-av-visse-planter-og-andre-smittebrende-emner">Vedlegg 4A. Særskilte krav til import av visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-4b-srskilte-krav-til-innenlands-produksjon-og-omsetning-av-visse-planter-og-andre-smittebrende-emner">Vedlegg 4B. Særskilte krav til innenlands produksjon og omsetning av visse planter og andre smittebærende emner</a></li>
+<li class="lvl2"><a href="#vedlegg-5a-planter-og-andre-smittebrende-emner-som-ved-import-skal-vre-fulgt-av-sunnhetssertifikat">Vedlegg 5A. Planter og andre smittebærende emner som ved import skal være fulgt av sunnhetssertifikat</a></li>
+<li class="lvl2"><a href="#vedlegg-5b-modell-for-sunnhetssertifikat-i-henhold-til-den-internasjonale-plantevernkonvensjonen-ippc">Vedlegg 5B. Modell for sunnhetssertifikat i henhold til den internasjonale plantevernkonvensjonen, IPPC</a></li>
+<li class="lvl2"><a href="#vedlegg-5c-modell-for-sunnhetssertifikat-for-reeksport-i-henhold-til-den-internasjonale-plantevernkonvensjonen-ippc">Vedlegg 5C. Modell for sunnhetssertifikat for reeksport i henhold til den internasjonale plantevernkonvensjonen, IPPC</a></li>
+<li class="lvl2"><a href="#vedlegg-6-planteskadegjrere-som-det-i-avgrensede-omrader-kan-fastsettes-bestemmelser-om-bekjemping-av">Vedlegg 6. Planteskadegjørere som det i avgrensede områder kan fastsettes bestemmelser om bekjemping av</a></li>
+<li class="lvl2"><a href="#vedlegg-7-planter-og-formeringsmateriale-som-er-forbudt-a-plante-og-omsette-til-videre-dyrking">Vedlegg 7. Planter og formeringsmateriale som er forbudt å plante og omsette til videre dyrking</a></li>
+<li class="lvl2"><a href="#vedlegg-8-krav-til-merking-og-dokumentasjon">Vedlegg 8. Krav til merking og dokumentasjon</a></li>
+<li class="lvl3"><a href="#i-planter-og-formeringsmateriale-til-videre-ervervsmessig-dyrking">I. Planter og formeringsmateriale til videre ervervsmessig dyrking</a></li>
+<li class="lvl3"><a href="#ii-planteskoleplanter-unntatt-planter-og-formeringsmateriale-til-videre-ervervsmessig-dyrking">II. Planteskoleplanter unntatt planter og formeringsmateriale til videre ervervsmessig dyrking</a></li>
+<li class="lvl3"><a href="#iii-andre-planter-til-videre-dyrking-enn-de-som-er-angitt-i-i-og-ii">III. Andre planter til videre dyrking enn de som er angitt i I og II</a></li>
+<li class="lvl2"><a href="#vedlegg-9-planter-og-plantedeler-som-i-henhold-til-19-er-unntatt-fra-krav-om-sunnhetssertifikat">Vedlegg 9. Planter og plantedeler som i henhold til § 19 er unntatt fra krav om sunnhetssertifikat</a></li>
+<li class="lvl2"><a href="#vedlegg-10-opphevet">Vedlegg 10. (Opphevet)</a></li>
+<li class="lvl2"><a href="#vedlegg-10a-merke-som-kan-anvendes-pa-trevirke-og-treemballasje-som-er-varmebehandlet-jf-28a-frste-ledd">Vedlegg 10A. Merke som kan anvendes på trevirke og treemballasje som er varmebehandlet jf. § 28a første ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-10b-merke-kan-anvendes-pa-treemballasje-produsert-av-tre-som-er-behandlet-med-metylbromid-jf-28a-andre-ledd">Vedlegg 10B. Merke kan anvendes på treemballasje produsert av tre som er behandlet med metylbromid, jf.§ 28a andre ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-11a-mattilsynets-kd-5630-merke">Vedlegg 11A. Mattilsynets KD 56/30-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-11b-det-svenske-kd-5630-merke">Vedlegg 11B. Det svenske KD 56/30-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-12-den-internasjonale-standarden-for-plantesanitre-tiltak-nr-15-ispm-15-regulering-av-treemballasje-i-internasjonal-handel-vedlegg-i-og-ii">Vedlegg 12. Den internasjonale standarden for plantesanitære tiltak nr. 15 (ISPM 15) Regulering av treemballasje i internasjonal handel, vedlegg I og II</a></li>
+<li class="lvl3"><a href="#ispm-15-annex-1approved-treatments-associated-with-wood-packaging-material">ISPM 15. Annex 1Approved treatments associated with wood packaging material</a></li>
+<li class="lvl3"><a href="#ispm-15-annex-2the-mark-and-its-application">ISPM 15. Annex 2The mark and its application</a></li>
+<li class="lvl2"><a href="#vedlegg-13-definisjoner">Vedlegg 13. Definisjoner</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-01-1333.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-12-01-1333.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-12-01-1333.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2000-12-01-1333.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2000-12-01-1333.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-12-01-1333.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2000-12-01-1333.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2000-12-01-1333.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-12-01-1333.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-planter-og-tiltak-mot-planteskadegjrere">Forskrift om planter og tiltak mot planteskadegjørere</h1>
 <h2 id="i-formal-virkeomrade-og-definisjoner">I. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å hindre introduksjon og spredning av planteskadegjørere, bekjempe eller utrydde eventuelle utbrudd i Norge og sikre produksjon og omsetning av planter og formeringsmateriale med best mulig helse og tilfredsstillende kvalitet.</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften fastsetter krav og gir bestemmelser om tilsyn vedrørende plantehelse for planter og andre smittebærende emner.</p>
 <p>Videre fastsetter forskriften krav og gir bestemmelser om tilsyn vedrørende kvalitet og merking av planter og formeringsmateriale. For frø, settepoteter og skogplanter gjelder forskrift om såvarer, forskrift om settepoteter og forskrift om skogfrø og skogplanter. Disse varegruppene, samt planter og formeringsmateriale som dyrkes adskilt med henblikk på eksport, er unntatt fra bestemmelsene i §§ 10 – 14 i denne forskriften.</p>
-<p><em>Endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>Sentrale ord og uttrykk brukt i forskriften er definert i vedlegg 13.</p>
-<p><em>Endret ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</p>
 <h2 id="ii-bestemmelser-om-tiltak-mot-planteskadegjrere">II. Bestemmelser om tiltak mot planteskadegjørere</h2>
 <h4 id="4-planteskadegjrere-som-er-forbudt-a-spre">§ 4. Planteskadegjørere som er forbudt å spre</h4>
 <p>Det er forbudt:</p>
@@ -95,7 +320,7 @@ b. å spre planteskadegjørere nevnt i vedlegg 2 dersom de forekommer på plante
 <h4 id="5-srskilte-krav-for-a-hindre-spredning-av-planteskadegjrere">§ 5. Særskilte krav for å hindre spredning av planteskadegjørere</h4>
 <p>Virksomheter som produserer planter og andre smittebærende emner nevnt i vedlegg 4B, kan bare omsette det som er produsert dersom virksomheten kan dokumentere at kravene i vedlegget er oppfylt. Dokumentasjonen skal oppbevares i minst 3 år etter omsetning.</p>
 <p>Det er forbudt å plante eller omsette planter nevnt i vedlegg 7.</p>
-<p><em>Endret ved forskrift 15 des 2015 nr. 1847 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 15 des 2015 nr. 1847 (i kraft 1 mars 2016).</p>
 <h4 id="6-fastsetting-av-tiltak">§ 6. Fastsetting av tiltak</h4>
 <p>Mattilsynet kan når det foreligger risiko for spredning av planteskadegjørere nevnt i vedleggene 1, 2 og 6, fastsette tiltak for å utrydde, hindre smittespredning eller begrense utbredelsen av planteskadegjørerne. Med dette formål kan Mattilsynet bl.a.:</p>
 <p>a. forby eller sette vilkår for avhending av planter og plantemateriale
@@ -106,7 +331,7 @@ e. forby maskinsamarbeid
 f. forby såing eller planting av visse planteslag
 g. gi påbud om vekstskifte
 h. fastsette sikkerhetssoner og iverksette ovennevnte tiltak innenfor disse.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h2 id="iii-bestemmelser-om-registrering-og-internkontroll">III. Bestemmelser om registrering og internkontroll</h2>
 <p>Overskriften endret ved forskrifter 6 juli 2007 nr. 951 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="7-registrering-av-virksomheter">§ 7. Registrering av virksomheter</h4>
@@ -126,9 +351,9 @@ c. angivelse av virksomhetens aktiviteter og omfang
 d. dato for oppstart av virksomheten.</p>
 <p>Dersom en virksomhet har flere underenheter med eget organisasjonsnummer i Enhetsregisteret, skal hver underenhet registreres. Mattilsynet kan kreve at registrerte opplysninger dokumenteres. Endringer i registrerte opplysninger, herunder opplysninger om opphør av virksomheten, skal registreres senest fire uker etter at endringene har funnet sted.</p>
 <p>Paragrafen her gjelder bare virksomheter som er registreringspliktige etter merverdiavgiftsloven.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 6 juli 2007 nr. 951 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 6 juli 2007 nr. 951 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="8-opphevet">§ 8. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 6 juli 2007 nr. 951 .</em></p>
+<p class="note">Opphevet ved forskrift 6 juli 2007 nr. 951 .</p>
 <h4 id="9-internkontroll">§ 9. Internkontroll</h4>
 <p>Virksomheter som er underlagt registreringsplikt etter § 7 eller krav om godkjenning etter § 28a femte ledd plikter å innføre og utøve internkontroll. Den ansvarlige for virksomheten skal sørge for at plikten til internkontroll overholdes. Internkontroll innebærer at virksomheten skal:</p>
 <p>a. ha oversikt over organisering og ansvarsforhold
@@ -139,7 +364,7 @@ e. foreta systematisk gjennomgang av internkontrollen for å sikre at den funger
 <p>Ovennevnte punkter skal dokumenteres skriftlig i den form og det omfang som er nødvendig på bakgrunn av virksomhetens art, aktiviteter, risikoforhold og størrelse. Dokumentasjonen skal være tilgjengelig for Mattilsynet.</p>
 <p>For å sikre at bestemmelsene i gjeldende regelverk overholdes, kan Mattilsynet gi pålegg om iverksetting av tiltak og stille krav om ytterligere dokumentasjon dersom en virksomhets internkontroll er utilstrekkelig.</p>
 <p>Mattilsynet kan gi nærmere bestemmelser om innholdet i internkontrollen.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 7 feb 2013 nr. 176 (i kraft 1 juli 2013), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 7 feb 2013 nr. 176 (i kraft 1 juli 2013), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h2 id="iv-spesielle-bestemmelser-om-produksjon-og-omsetning-av-planter-og-formeringsmateriale">IV. Spesielle bestemmelser om produksjon og omsetning av planter og formeringsmateriale</h2>
 <h4 id="10-krav-til-kvalitet">§ 10. Krav til kvalitet</h4>
 <p>Planter og formeringsmateriale skal ved omsetning</p>
@@ -163,7 +388,7 @@ b. Eliteplanter – dersom de er produsert, enten direkte fra kjerneplanter elle
 c. Sertifiserte planter – dersom de er produsert fra kjerneplanter eller eliteplanter.</p>
 <p>Planter og formeringsmateriale som er produsert i en virksomhet som driver produksjon av flere klasser, skal normalt kun sertifiseres i den laveste klassen. Planter og formeringsmateriale produsert i andre land, kan sertifiseres i ovennevnte klasser dersom produksjonsopplegget i det aktuelle land kan likestilles med produksjonsopplegget i Norge.</p>
 <p>Eliteplanter skal leveres i ny emballasje. Under distribusjon og transport skal materiale av kjerneplanter, eliteplanter og sertifiserte planter holdes atskilt fra annet plantemateriale.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 6 juli 2007 nr. 951 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 6 juli 2007 nr. 951 .</p>
 <h4 id="13-distribusjon-og-transport">§ 13. Distribusjon og transport</h4>
 <p>Planter og formeringsmateriale til videre ervervsmessig dyrking skal leveres i ny eller rengjort emballasje. Distribusjon og transport av slikt materiale må foregå på en slik måte at smitte av planteskadegjørere forhindres.</p>
 <h4 id="14-krav-til-merking-og-dokumentasjon">§ 14. Krav til merking og dokumentasjon</h4>
@@ -180,23 +405,23 @@ b. planter og andre smittebærende emner nevnt i vedlegg 2, dersom de er angrepe
 c. planter og andre smittebærende emner nevnt i vedlegg 3, dersom de har opprinnelse i områder som er nevnt i vedlegget.</p>
 <p>Import av genmodifiserte planter og plantedeler er kun tillatt dersom de er godkjent i Norge etter Genteknologiloven.</p>
 <p>Det er forbudt å flytte bier midlertidig til Norge uten tillatelse fra Mattilsynet.</p>
-<p><em>Endret ved forskrifter 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="17-vilkar-for-import">§ 17. Vilkår for import</h4>
 <p>Planter og andre smittebærende emner nevnt i vedlegg 4A kan bare importeres dersom de oppfyller kravene i vedlegget. I tillegg skal sendinger med planter og formeringsmateriale være praktisk talt fri for andre planteskadegjørere.</p>
 <p>Det er forbudt å nytte planter og plantedeler til planting når det ved importen er oppgitt at plantematerialet skal nyttes til annet formål.</p>
 <p>Ved import av brukte maskiner og redskaper som skal benyttes i jord-, skog- eller hagebruk, og brukt tomemballasje som skal benyttes til planter og plantedeler, skal det foreligge attestasjon om at disse er rengjort og eventuelt desinfisert, og er fri for jord, planterester og smitte av planteskadegjørere. Slik attestasjon skal være utstedt av eksportlandets planteinspeksjonstjeneste eller annen offentlig landbruksmyndighet.</p>
-<p><em>Endret ved forskrifter 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="18-emballasje">§ 18. Emballasje</h4>
 <p>Det er forbudt å bruke gras, høy og halm som emballasje ved import av planter og plantedeler.</p>
 <p>Brukt emballasje som kan medføre fare for smitte av planteskadegjørere, skal være grundig rengjort og eventuelt desinfisert.</p>
 <p>Treemballasje er omfattet av særskilte krav til import av visse planter og andre smittebærende emner jf. § 17 og vedlegg 4A.</p>
-<p><em>Endret ved forskrifter 21 mai 2008 nr. 477 (i kraft 1 jan 2009), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 21 mai 2008 nr. 477 (i kraft 1 jan 2009), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="19-sertifikatpliktige-sendinger">§ 19. Sertifikatpliktige sendinger</h4>
 <p>Sendinger som inneholder planter og andre smittebærende emner nevnt i vedlegg 5A, skal ved import være fulgt av et sunnhetssertifikat i original eller et reeksportsertifikat i original.</p>
 <p>Det gjelder unntak fra sertifikatplikten etter første ledd for planter og plantedeler som importeres av privatpersoner i privat og ikke-kommersielt øyemed i følgende tilfeller:</p>
 <p>a. ved import av inntil 50 porsjonspakninger av hagebruksfrø samt små mengder planter og plantedeler angitt i vedlegg 9 når de medbringes av reisende som håndbagasje eller importeres som flyttelass
 b. ved import av inntil 50 porsjonspakninger av hagebruksfrø i forsendelser.</p>
-<p><em>Endret ved forskrifter 30 jan 2006 nr. 99 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 30 jan 2006 nr. 99 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="20-krav-til-sunnhetssertifikat-og-reeksportsertifikat">§ 20. Krav til sunnhetssertifikat og reeksportsertifikat</h4>
 <p>Sertifikatet skal være utstedt av eksportlandets offisielle planteinspeksjonstjeneste som på grunnlag av egnede offisielle undersøkelser har konstatert at de varene som omfattes av sertifikatet, er fri for planteskadegjørere i henhold til vedlegg 1 og 2, tilfredsstiller de krav som fremgår av vedlegg 4A og er i samsvar med andre importkrav etter forskriften her. Sertifikatet skal være utstedt tidligst 14 dager før avsendelse.</p>
 <p>Sertifikatet skal være i samsvar med modellene angitt i vedlegg 5B eller vedlegg 5C. Det skal være utarbeidet og utfylt på norsk, svensk, dansk eller engelsk og skal være fullstendig utfylt med maskinskrift eller blokkbokstaver. Rettelser må ikke forekomme med mindre det klart fremgår at disse er foretatt av vedkommende lands planteinspeksjonstjeneste. Plantenes vitenskapelige navn, sendingens innhold og kvantum skal spesifiseres i sertifikatet eller i en vedheftet, bekreftet fortegnelse.</p>
@@ -205,18 +430,18 @@ b. ved import av inntil 50 porsjonspakninger av hagebruksfrø i forsendelser.</p
 b. et reeksportsertifikat dersom avsenderlandet ikke er sendingens opprinnelsesland. Reeksportsertifikatet skal være fulgt av sunnhetssertifikatet fra opprinnelseslandet i original eller bekreftet kopi, samt eventuelle tidligere reeksportsertifikater.</p>
 <p>For sendinger der kravene i vedlegg 4A kan oppfylles andre steder enn i opprinnelseslandet eller for sendinger som ikke omfattes av vedlegg 4A, kan sunnhetssertifikatet utstedes i avsenderlandet. Opprinnelseslandet skal i slike tilfeller framgå av sunnhetssertifikatet.</p>
 <p>For sendinger omfattet av vedlegg 4A, der det i vedlegget er oppført alternative krav i punkter som er relevante for sendingen, skal det i sunnhetssertifikatet angis hvilket alternativ som er oppfylt.</p>
-<p><em>Endret ved forskrifter 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="21-opphevet">§ 21. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="22-transitt">§ 22. Transitt</h4>
 <p>Transitt av sertifikatpliktige sendinger gjennom Norge skal foregå i plomberte jernbanevogner, plomberte TIR-godkjente kjøretøyer eller plomberte containere. Dersom plombering ikke er mulig, kan transitten bare skje når Mattilsynet har gitt tillatelse til det. Sendinger i transitt tillates ikke lagret på tollager eller frisone.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="23-melding-om-import">§ 23. Melding om import</h4>
 <p>Importøren skal på forhånd melde fra til Mattilsynet om import av visse sertifikatpliktige planter og andre smittebærende emner. Meldeplikten gjelder varene angitt i § 19 jf. vedlegg 5A nr. 1, 2, 3.1, 3.2, 4.3, 4.4, 7, 8, 9 og 10 og i forskrift om tiltak mot Phytophthora ramorum § 4 . Meldingen skal gis til Mattilsynet på mottaksstedet. Mottaksstedet er der sendingen eller den delsendingen som mottas først, mottakskontrolleres.</p>
 <p>Meldingen om import skal være kommet frem til Mattilsynet før varene passerer grensen.</p>
 <p>Dersom varer til flere importører er fulgt av ett sertifikat, skal importørene utpeke en representant som melder hele sendingen.</p>
 <p>Mattilsynet må ha fått melding etter andre ledd før meldepliktige varer kan tollbehandles.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 10 juni 2025 nr. 1032 (i kraft 1 okt 2025).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 10 juni 2025 nr. 1032 (i kraft 1 okt 2025).</p>
 <h4 id="23a-innholdet-i-importmeldinger">§ 23a. Innholdet i importmeldinger</h4>
 <p>Meldingen om en sertifikatpliktig importsending skal gis på den måten Mattilsynet bestemmer, og skal minst inneholde disse opplysningene:</p>
 <p>a. importørens eller importørenes navn og adresse og organisasjons- eller fødselsnummer
@@ -228,60 +453,60 @@ f. sendingens opprinnelsesland
 g. oversikt over innholdet i sendingen
 h. nummeret på sertifikatet som følger sendingen
 i. informasjon om hvem av importørene som skal oppbevare sertifikatet i original når varer til flere importører er fulgt av ett sertifikat.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="23b-mottakskontroll-av-importsendinger">§ 23b. Mottakskontroll av importsendinger</h4>
 <p>Importøren skal sørge for mottakskontroll av sertifikatpliktige planter og andre smittebærende emner. Importøren kan kontrollere varene selv eller avtale at en virksomhet som er registrert, jf. § 7 , skal gjøre det. I mottakskontrollen skal det kontrolleres at</p>
 <p>a. varene er fulgt av et sertifikat som er i samsvar med kravene i § 19 og § 20 og i forskrift om tiltak mot Phytophthora ramorum § 2 til § 4
 b. sendingens eller delsendingens innhold samsvarer med det som er angitt i sertifikatet
 c. varene kan regnes som frie for planteskadegjørere som nevnt i § 4 og er i samsvar med de øvrige importbestemmelsene gitt i eller i medhold av forskriften.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="23c-deling-av-importsendinger-fr-mottakskontrollen">§ 23c. Deling av importsendinger før mottakskontrollen</h4>
 <p>En importsending, som utgjøres av de varene som er fulgt av ett sertifikat, kan ikke deles før mottakskontrollen med unntak av i disse tilfellene:</p>
 <p>a. når varer til flere importører er fulgt av ett sertifikat, slik at de varene hver enkelt importør eier, utgjør en delsending.
 b. når mottakskontrollen utføres av flere ulike enheter i importørens virksomhet eller i en virksomhet i et konsern importøren inngår i, slik at de varene som kontrolleres av den enkelte enheten, utgjør en delsending. Med enhet menes underenhet med eget organisasjonsnummer i Enhetsregisteret.</p>
 <p>Når en sending er delt opp i flere delsendinger, skal hver enkelt importør sørge for mottakskontroll av sine varer. Importøren av den delsendingen som mottas først skal sørge for at det gjøres kontroll i samsvar med § 23b første ledd bokstav a og b på grunnlag av sertifikatet i original. Importørene av de øvrige delsendingene skal sørge for slik kontroll på grunnlag av hver sin kopi av sertifikatet.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="23d-melding-om-mottakskontrollen-av-importsendinger">§ 23d. Melding om mottakskontrollen av importsendinger</h4>
 <p>Importøren skal melde fra til Mattilsynet om mottakskontrollen av importsendinger som inneholder varer omfattet av § 19 jf. vedlegg 5A nr. 1, 2, 3.1, 3.2, 4.3, 4.4, 7, 8 og 10 eller av forskrift om tiltak mot Phytophthora ramorum § 4 , uavhengig av hvilket resultat kontrollen gir. Når en sending er delt opp i delsendinger, skal importøren av den delsendingen som mottas først, melde fra om mottakskontrollen uavhengig av resultatet. Dersom mottakskontrollen av en av de øvrige delsendingene avdekker at sendingen ikke er i samsvar med forskriften, skal importøren melde fra. En slik melding skal gis også når Mattilsynet har frigitt den første delsendingen.</p>
 <p>Ved import av sendinger som bare inneholder andre sertifikatpliktige varer enn dem som er nevnt i første ledd, skal importøren av sendingen eller delsendingen melde fra til Mattilsynet dersom mottakskontrollen avdekker at sendingen ikke er i samsvar med forskriften.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016), endret ved forskrifter 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016), endret ved forskrifter 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="23e-vilkar-for-omsetning-eller-bruk-av-importerte-varer">§ 23e. Vilkår for omsetning eller bruk av importerte varer</h4>
 <p>En sending eller delsending som inneholder sertifikatpliktige varer skal oppbevares samlet og på forsvarlig måte sett opp mot risikoen for spredning av planteskadegjørere. Varene kan ikke omsettes eller brukes før disse kravene er oppfylt:</p>
 <p>a. For oppdelte sendinger som inneholder varer omfattet av § 19 jf. vedlegg 5A nr. 1, 2, 3.1, 3.2, 4.3, 4.4, 7, 8 og 10 eller av forskrift om tiltak mot Phytophthora ramorum § 4 , må Mattilsynet ha frigitt den første delsendingen og mottakskontrollen av den enkelte delsendingen må ikke ha avdekket mangler.
 b. For sendinger eller delsendinger som bare inneholder andre sertifikatpliktige varer enn dem som er nevnt i bokstav a, må mottakskontrollen ikke ha avdekket mangler.
 c. I andre tilfeller enn dem som er nevnt i bokstav a og b, må sendingen eller delsendingen være frigitt av Mattilsynet.</p>
-<p><em>Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016), endret ved forskrifter 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016), endret ved forskrifter 9 nov 2017 nr. 1777 (i kraft 1 feb 2018), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="24-importrens-fremstillingsplikt-ved-tilsyn-med-import">§ 24. Importørens fremstillingsplikt ved tilsyn med import</h4>
 <p>Importøren skal fremstille varene på det stedet der Mattilsynet bestemmer at tilsynet skal gjennomføres.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="25-dokumentasjon-av-import">§ 25. Dokumentasjon av import</h4>
 <p>Importører av sertifikatpliktige planter og andre smittebærende emner skal oppbevare alle sunnhetssertifikater og reeksportsertifikater i minst tre år. Det første året skal sertifikatene oppbevares i originalformat, deretter er det tilstrekkelig at de lagres digitalt.</p>
 <p>Når varer til flere importører er fulgt av ett sertifikat, skal sertifikatet i original oppbevares av representanten for importørene utpekt etter § 23 . Når en slik sending er delt opp i delsendinger før mottakskontrollen, skal sertifikatet i original oppbevares av importøren av den delsendingen som mottas først. Bestemmelsen i første ledd andre punktum gjelder tilsvarende. De øvrige importørene skal oppbevare hver sin kopi av sertifikatet i minst tre år, enten i form av papirkopi eller i digitalt format.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="26-opphevet">§ 26. (Opphevet)</h4>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 , opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 , opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h2 id="vi-spesielle-bestemmelser-ved-eksport">VI. Spesielle bestemmelser ved eksport</h2>
 <p>Overskriften endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="27-melding-om-eksport">§ 27. Melding om eksport</h4>
 <p>De som ønsker å eksportere sendinger som krever utstedelse av sunnhetssertifikat eller reeksportsertifikat, skal gi skriftlig melding om dette til Mattilsynet. Meldingen skal gis på den måten Mattilsynet bestemmer, og skal være kommet inn senest 3 virkedager før sendingen skal kontrolleres.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016), 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="28-utstedelse-av-sunnhetssertifikat-og-reeksportsertifikat">§ 28. Utstedelse av sunnhetssertifikat og reeksportsertifikat</h4>
 <p>Mattilsynet utsteder sunnhetssertifikater eller reeksportsertifikater for sendinger til land som stiller krav om at sendingene skal være fulgt av slike sertifikater. Utstedelse av sertifikat forutsetter at Mattilsynet på grunnlag av kontroller og undersøkelser har funnet at sendingen tilfredsstiller mottakerlandets plantehelsemessige krav, og at plantematerialets generelle sunnhetstilstand er god. Videre er det en forutsetning at emballasjen og de benyttede transportmidler tilfredsstiller mottakerlandets importbestemmelser.</p>
 <p>Mattilsynet kan kreve at eksportør eller vedkommendes representant bringer sendinger til og fra det sted som Mattilsynet finner hensiktsmessig for å kunne foreta nødvendig kontroll. Eksportøren eller vedkommendes representant skal videre sørge for nødvendig arbeidshjelp under kontrollen.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="28a-merking-av-treemballasje-og-trevirke">§ 28a. Merking av treemballasje og trevirke</h4>
 <p>ISPM 15-merket angitt i vedlegg 10A kan brukes til merking av trevirke eller treemballasje som er avbarket og varmebehandlet slik at en temperatur på minst 56 grader celsius er nådd gjennom hele trevirket i minst 30 minutter. Med treemballasje menes i kapitlet her treemballasje i henhold til ISPM 15 jf. vedlegg 13.</p>
 <p>ISPM 15-merket angitt i vedlegg 10B kan brukes på treemballasje produsert av avbarket trevirke som er behandlet i et annet land med metylbromid i samsvar med kravene i vedlegg 12.</p>
 <p>Mattilsynets KD 56/30-merke angitt i vedlegg 11A kan brukes på trevirke som er varmebehandlet jf. første ledd og som i tillegg er ovnstørket slik at trevirket har en gjennomsnittsfuktighet på maksimalt 20 prosent.</p>
 <p>Ved utbytting av deler av emballasjeenheten, skal de nye delene merkes med ISPM 15-merket. Ved utbytting av mer enn en tredjedel av emballasjeenheten, skal hele enheten behandles på nytt og nytt ISPM 15-merke skal påføres. En emballasjeenhet kan ikke være påført ISPM 15-merker fra flere enn to virksomheter.</p>
 <p>Merkingen skal være tydelig og i andre farger enn rødt eller oransje. Treemballasje skal merkes på to motsatte sider med permanente merker og støttemateriale skal merkes separat. Annet trevirke skal merkes på omslag, pakkelapp eller etikett. Mattilsynets KD 56/30-merke kan alternativt settes direkte på trevirket. Merkene kan brukes av virksomheter som er godkjent av Mattilsynet etter § 28b eller § 28c .</p>
-<p><em>Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</p>
 <h4 id="28b-godkjenning-av-virksomheter-som-varmebehandler-treemballasje-eller-trevirke">§ 28b. Godkjenning av virksomheter som varmebehandler treemballasje eller trevirke</h4>
 <p>Godkjenning for bruk av ISPM 15-merket eller Mattilsynets KD 56/30-merke kan gis til virksomheter som har varmeanlegg som gjør det mulig å tilfredsstille kravene etter § 28a første eller tredje ledd.</p>
 <p>Hver enhet eller underenhet med eget organisasjonsnummer i Enhetsregisteret skal godkjennes.</p>
 <p>Ombygginger av varmehus eller andre vesentlige endringer av varmeanleggene skal meldes til Mattilsynet.</p>
 <p>Vedtaket om godkjenning kan trekkes tilbake ved vesentlige brudd på vilkårene etter paragrafen her eller andre regler etter forskriften.</p>
-<p><em>Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013), endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013), endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="28c-godkjenning-av-virksomheter-som-produserer-treemballasje-eller-leverer-trevirke">§ 28c. Godkjenning av virksomheter som produserer treemballasje eller leverer trevirke</h4>
 <p>Godkjenning for bruk av ISPM 15-merket kan gis til virksomheter som produserer eller reparerer treemballasje eller som leverer trevirke til slike virksomheter.</p>
 <p>Trevirke som brukes ved aktiviteter nevnt i første ledd skal være</p>
@@ -290,27 +515,27 @@ b. fulgt av et sunnhetssertifikat som bekrefter at trevirket er behandlet i trå
 c. merket med det svenske KD 56/30-merket angitt i vedlegg 11B.</p>
 <p>Hver enhet eller underenhet med eget organisasjonsnummer i Enhetsregisteret skal godkjennes.</p>
 <p>Vedtaket om godkjenning kan trekkes tilbake ved vesentlige brudd på vilkårene etter paragrafen her eller andre regler etter forskriften.</p>
-<p><em>Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013), endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013), endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="28d-krav-til-godkjenningssknad">§ 28d. Krav til godkjenningssøknad</h4>
 <p>Søknad om godkjenning skal leveres til Mattilsynet på fastsatt skjema.</p>
-<p><em>Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</p>
 <h4 id="29-vekstkontroll">§ 29. Vekstkontroll</h4>
 <p>Vekstkontroll eller annen undersøkelse av dyrkingsfeltene skal være foretatt hvis importlandet stiller krav om det. Eksportøren plikter å sørge for at slik kontroll eller undersøkelser blir foretatt. Anmodning om vekstkontroll må gis så tidlig at tilfredsstillende kontroll kan gjennomføres. Eksportøren skal legge forholdene til rette slik at kontrollen kan skje så grundig og raskt som mulig, herunder sørge for nødvendig arbeidshjelp. Er forholdene slik at tilfredsstillende kontroll ikke kan foretas eller at gitte opplysninger er mangelfulle eller feilaktige, kan anmodning om kontroll avvises.</p>
-<p><em>Endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h2 id="vii-gebyrer-mv">VII. Gebyrer mv.</h2>
 <p>Overskriften endret ved forskrift 22 des 2004 nr. 1761 (i kraft 1 jan 2005).</p>
 <h4 id="30-opphevet">§ 30. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159</p>
 <h4 id="31-opphevet">§ 31. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</em></p>
+<p class="note">Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</p>
 <h4 id="32-opphevet">§ 32. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</em></p>
+<p class="note">Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</p>
 <h4 id="33-opphevet">§ 33. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="34-opphevet">§ 34. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="35-opphevet">§ 35. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</em></p>
+<p class="note">Opphevet ved forskrift 19 des 2011 nr. 1409 (i kraft 1 jan 2012).</p>
 <h2 id="viii-andre-fellesbestemmelser">VIII. Andre fellesbestemmelser</h2>
 <h4 id="36-tilsyn-og-adgang-til-a-fre-kontroll">§ 36. Tilsyn og adgang til å føre kontroll</h4>
 <p>Mattilsynet fører tilsyn og fatter vedtak for å gjennomføre bestemmelsene gitt i og i medhold av denne forskriften.</p>
@@ -325,33 +550,33 @@ g. føre tilsyn med at bestemmelsene for eksport overholdes.</p>
 <p>Mattilsynet har adgang til å innhente opplysninger om virksomheter som omfattes av forskriften, hvis slike opplysninger er nødvendig for å føre en effektivt kontroll.</p>
 <p>Mattilsynet gis fullmakt til å autorisere andre institusjoner eller personer til å utføre oppgaver som er hjemlet i denne forskriften.</p>
 <p>Kommunal landbruksforvaltning (kommunene) skal på anmodning bistå Mattilsynet med kontroll i henhold til annet ledd a og b.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 159 , 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="37-opphevet">§ 37. (Opphevet)</h4>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 , opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 , opphevet ved forskrift 20 jan 2016 nr. 73 (i kraft 1 mars 2016).</p>
 <h4 id="38-meldeplikt">§ 38. Meldeplikt</h4>
 <p>Eier eller bruker av fast eiendom, som har kjennskap til eller mistanke om at det på eiendommen finnes planteskadegjørere nevnt i vedlegg 1 eller 2, har plikt til straks å melde fra om dette til Mattilsynet.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="39-opplysningsplikt">§ 39. Opplysningsplikt</h4>
 <p>Den som eier eller overdrar fast eiendom, plikter ved salg, forpaktning eller bortleie å gjøre den annen part kjent med eventuelle restriksjoner som med hjemmel i denne forskriften er lagt på eiendommen. Slike opplysninger skal gis før avtale inngås.</p>
-<p><em>Endret ved forskrift 7 april 2022 nr. 588 (i kraft 20 april 2022).</em></p>
+<p class="note">Endret ved forskrift 7 april 2022 nr. 588 (i kraft 20 april 2022).</p>
 <h4 id="40-andre-planteskadegjrere">§ 40. Andre planteskadegjørere</h4>
 <p>Dersom Mattilsynet anser at det foreligger særlig høy plantehelserisiko, kan Mattilsynet fastsette midlertidige tiltak for å hindre introduksjon, utrydde eller hindre smittespredning av andre alvorlige planteskadegjørere enn de som er nevnt i vedleggene 1, 2 og 6.</p>
 <p>§ 6 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="41-dispensasjon">§ 41. Dispensasjon</h4>
 <p>Mattilsynet kan i særlige tilfelle dispensere fra bestemmelsene i denne forskriften forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser herunder EØS-avtalen.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h2 id="ix-straff">IX. Straff</h2>
 <p>Overskriften endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="42-opphevet">§ 42. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="43-opphevet">§ 43. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="44-opphevet">§ 44. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Opphevet ved forskrift 9 jan 2004 nr. 159 .</p>
 <h4 id="45-straff">§ 45. Straff</h4>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller vedtak gitt i medhold av den, er straffbar i henhold til matloven § 28 .</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 159 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 159 .</p>
 <h2 id="x-avsluttende-bestemmelser">X. Avsluttende bestemmelser</h2>
 <h4 id="46-ikrafttredelse">§ 46. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. januar 2001 med mindre annet følger av § 47 .</p>
@@ -371,7 +596,7 @@ g. alle utfyllende forskrifter og utfyllende bestemmelser fastsatt med hjemmel i
 <p>a. virksomheter som selv mottar trevirke merket eller fulgt av et sunnhetssertifikat i samsvar med kravene i § 28c annet ledd og leverer dette trevirket videre uten egen merking dersom trevirket er fulgt av annen dokumentasjon på at det er produsert i samsvar med kravene i § 28a eller
 b. Virksomheter som er godkjent for varmebehandling av trevirke jf. tredje ledd.</p>
 <p>Frem til 1. januar 2014 kan behandlingskodene HT DB eller HT KD DB brukes i stedet for koden angitt i vedlegg 10A, koden MB DB kan brukes i stedet for koden angitt i vedlegg 10B og virksomhetsnumre som består av bokstavene SLT og ni sifre kan brukes i stedet for virksomhetsnummer angitt i vedlegg 10A eller vedlegg 10B.</p>
-<p><em>Endret ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 7 feb 2013 nr. 176 (i kraft 1 juli 2013).</p>
 <h2 id="vedlegg-1-planteskadegjrere-som-det-er-forbudt-a-introdusere-og-spre-i-norge">Vedlegg 1. Planteskadegjørere som det er forbudt å introdusere og spre i Norge</h2>
 <p>Nr. Navn Synonym Norsk navn Insekter, midder, nematoder 1 Acleris gloverana (Walsingham) 2 Acleris variana (Fernald) 2.1. Agrilus anxius (Gory) Amerikansk bjørkepraktbille 2.2. Agrilus planipennis (Fairmaire) Asiatisk askepraktbille 3 Amauromyza maculosa (Malloch) 3.1 Anoplophora chinensis (Forster) 3.2 Anoplophora glabripennis (Motschulsky) 4 Bemisia tabaci (Gennadius) (ikke-europeiske populasjoner) Bomullsmellus 5 Blitopertha orientalis (Waterhouse) Anomala orientalis (Waterhouse) 6 Cacoecimorpha pronubana Hübner Nellikvikler 7 Conotrachelus nenuphar (Herbst) Amerikansk fruktsnutebille 8 Epichoristodes acerbella Walker Afrikansk nellikvikler 9 Globodera pallida (Stone) Behrens Hvit potetcystenematode 10 Globodera rostochiensis (Wollenweber) Behrens Gul potetcystenematode 11 Helicoverpa armigera (Hübner) Heliothis armigera Hübner 12 Leptinotarsa decemlineata Say Koloradobille 13 Liriomyza huidobrensis (Blanchard) 14 Liriomyza sativae Blanchard 15 Liriomyza trifolii (Burgess) 16 Monochamus spp (ikke-europeiske arter) 17 Meloidogyne chitwoodii Golden et.al. 18 Meloidogyne fallax Karssen 19 Nacobbus aberrans (Thorne) Thorne &amp; Allen Falsk rotgallnematode 20 Opogona sacchari (Bojer) Bananmøll 21 Popillia japonica Newman Japanbille 22 Premnotrypes spp. (ikke-europeiske arter) 23 Spodoptera littoralis (Boisduval) Egyptisk bomullsfly 24 Spodoptera litura (Fabricius) Bomullsfly 25 Tephritidae – ikke-europeiske arter som for eksempel: a) Rhagoletis cingulata (Loew) b) Rhagoletis fausta (Osten-Sacken) c) Rhagoletis indifferens Curran d) Rhagoletis mendax Curran e) Rhagoletis pomonella (Walsh) e) Epleflue 26 Thrips palmi Karny Palmetrips 27 Xiphinema americanum Cobb sensu lato (ikke-europeiske populasjoner) 28 Xiphinema californicum Lamberti &amp; Bleve-Zacheo Flatorm 1 Arthurdendyus triangulatus Artioposthia triangulata (Dendy) New zealandsk flatorm Sopper 1 Botryosphaeria laricina (K. Sawada) Y. Zhong Guignardia laricina (Saw.) Yamamoto &amp; Ito 2 Ceratocystis fagacearum (Bretz) Hunt Eikevisning 3 Chrysomyxa arctostaphyli Dietel 4 Cronartium spp. (ikke-europeiske arter) 5 Endocronartium spp. (ikke-europeiske arter) 6 Gymnosporangium spp. (ikke-europeiske arter) 7 Melampsora farlowii ( J.C. Arthur) J.J. Davis Hemlokkrust 8 Melampsora medusae Thümen Poppelrust 9 Monilinia fructicola (Winter) Honey 10 Mycosphaerella laricis-leptolepidis K. Ito, K. Sato &amp; M. Ota 11 Mycosphaerella populorum G. E. Thompson Poppelkreft 12 Ophiostoma wageneri (Goheen &amp; Cobb) Harrington Ceratocystis wagenerei Goheen &amp; Cobb 13 Phellinus weirii (Murrill) R.L. Gilbertson Inonotus weirii (Murrill) Kotlaba &amp; Pouzar 14 Phoma andina Turkensteen Phomabladvisning 15 Phyllosticta solitaria Ellis &amp; Everhart Bladflekksyke 16 – – – 17 Septoria lycopersici Spegazzini var. malagutii Ciccarone &amp; Boerema Bladflekksyke 18 Synchytrium endobioticum (Schilbersky) Percival Potetkreft 19 Thecaphora solani (Thirumulachar &amp; O'Brien) Mordue Angiosorus solani Thirumulachar &amp; O'Brien Potetsot 20 Tilletia indica Mitra Bakterier 1 Candidatus phytoplasma mali Apple proliferation phytoplasma Heksekost 2 Clavibacter michiganensis subsp. sepedonicus (Spieckermann &amp; Kotthoff) Davis et al. Corynebacterium sepedonicum Lys potetringråte 3 Elm phloem necrosis phytoplasma Elm phloem necrosis mycoplasm Silvevnekrose 4 Peach X-disease phytoplasma Peach X-disease mycoplasm 5 Candidatus phytoplasma pyri Pear decline phytoplasma 6 Ralstonia solanacearum (Smith) Yabuuchi et al. Pseudomonas solanacearum (Smith) Smith Mørk ringråte 7 Strawberry witches' broom phytoplasma Strawberry witches' broom mycoplasm Virus 1 Blueberry leaf mottle nepovirus 2 Ikke-europeiske virus og viruslignende organismer på Fragaria L., Malus Mill., Prunus L., Pyrus L., Ribes L., Rubus L., som for eksempel: a) Cherry rasp leaf 'nepovirus' a) Raspeblad b) Peach mosaic virus (amerikansk) c) Plum American line pattern ilavirus c) Amerikansk plomme båndmosaikk d) Raspberry leaf curl luteovirus e) Strawberry latent C 'rhabdovirus' f) Strawberry veinbanding caulimovirus f) Jordbærnervebåndvirus 3 Impatiens necrotic spot tospovirus Impatiens- nekroseflekkvirus 4 Potato spindle tuber viroid 5 Potetvirus som ikke er kjent i Europa, som for eksempel: a) Potato Andean latent tymovirus b) Potato Andean mottle comovirus c) Arracacha B nepovirus , oca stamme d) Potato black ringspot nepovirus e) Potato T trichovirus f) ikke-europeiske isolat av potetvirus A; M; S; V; X og Y (inkludert Yo, Yn, Yc) og Potato leaf roll potylerovirus 6 Tobacco ringspot nepovirus Tobakkringflekkvirus 7 Tomato ringspot nepovirus Tomatringflekkvirus 8 Tomato spotted wilt tospovirus Tomatbronsetoppvirus</p>
 <p>Endret ved forskrifter 31 mai 2013 nr. 576 , 9 sep 2015 nr. 1122 (i kraft 1 nov 2015), 9 nov 2017 nr. 1777 (i kraft 1 feb 2018).</p>
@@ -499,6 +724,8 @@ b. Virksomheter som er godkjent for varmebehandling av trevirke jf. tredje ledd.
 <h2 id="vedlegg-13-definisjoner">Vedlegg 13. Definisjoner</h2>
 <p>I denne forskrift menes med: Europeiske land: Land tilhørende det geografiske Europa, inkludert Spitsbergen, Jan Mayen, Kanariøyene, Madeira, Azorene, Kypros, Malta, Russland vest for 60 grader øst, men ikke Tyrkia, Aserbajdsjan, Kazakstan og Georgia. Frø: Frø i botanisk forstand, unntatt frø som ikke er beregnet for såing. Omsetning: Besittelse med sikte på salg, utbud for salg, distribusjon, samt selve salget og enhver annen form for overdragelse med eller uten vederlag. Opprinnelsesland: Det land hvor plantene eller plantedelene er dyrket. Planter og formeringsmateriale: a) Levende planter og levende plantedeler som er og skal forbli plantet eller skal omplantes. b) Levende planter og levende plantedeler som ennå ikke er plantet, men som skal plantes, inkludert bl.a. frø, podekvister, okulasjonsmateriale, vevskulturer, løk og knoller. Planter og plantedeler: Planter og formeringsmateriale, samt andre levende plantedeler. Levende plantedeler inkluderer bl.a.: – frukt, i botanisk forstand (ikke dypfryst) – grønnsaker (ikke dypfryst) – rot- og stengelknoller, løk og jordstengler – avskårne blomster – greiner med bladverk – felte trær med bladverk Planter og andre smittebærende emner: Planter og plantedeler, samt bl.a. tre, korn, sopp, dyrkingsmedia og andre gjenstander som kan føre med seg smitte av planteskadegjørere. Planteskoleplanter: a) Treaktige prydplanter for dyrking på friland. b) Flerårige urteaktige prydplanter for dyrking på friland (unntatt blomsterløk og knollvekster i hviletilstand). c) Planter til frukt- og bærproduksjon. Planting: Enhver anbringelse av planter for å sikre deres framtidige vekst og reproduksjon. Planteskadegjører: Organisme (inkluderer bl.a. planter, bakterier, sopper og nærstående organismer, nematoder, insekter, midd og andre dyr) eller virus, viroid og annen patogen agens, som kan forårsake skade på planter og plantedeler eller deres vekstvilkår. Produksjonssted Enhver lokalitet eller samling av jordarealer som drives som én produksjons- eller bruksenhet. Et produksjonssted kan omfatte flere underenheter som av plantehelsemessige grunner drives adskilt. spp.: Species, arter. Tre: Om annet ikke er spesielt angitt: a) Tre med eller uten bark som helt eller delvis har beholdt den opprinnelige, runde overflate og treavfall, flis, spon mv. som er laget av slikt tre. b) Tre benyttet som underlag, mellomlegg, paller eller emballasje, hvis dette anses for å kunne føre med seg eller spre planteskadegjørere. Treemballasje i henhold til ISPM 15: Treemballasje som brukes ved transport av varer, herunder: – pakkasser, – sprinkelkasser, – tomler og lignende emballasje, – lastepaller, – kassepaller og lignende lasteanordninger, – pallekarmer, samt tre, inkludert tre som ikke har bevart sin naturlige runde overflate, som anvendes til å kile fast eller understøtte annen last. Følgende omfattes ikke: – Tre og treemballasje som utelukkende består av ubearbeidet tre av tykkelse på maksimalt 6 mm. – Tre og treemballasje som utelukkende består av bearbeidet tre som er framstilt ved hjelp av lim, varme eller trykk, eller en kombinasjon av dette.</p>
 <p>Endret ved forskrifter 9 jan 2004 nr. 159 , 21 mai 2008 nr. 477 (i kraft 1 jan 2009), 10 jan 2012 nr. 62 (i kraft 1 feb 2012), 7 feb 2013 nr. 176 (i kraft 1 juli 2013, tidligere vedlegg 10).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,70 +19,247 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2006-06-30-50.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i SCE-loven" href="../feeds/lov-2006-06-30-50.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>SCE-loven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2006-06-30-50</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett &raquo; Selskapsrett\nSelskaper, fond og foreninger &raquo; Samvirkeforetak</dd>
-<dt>Ikrafttredelse</dt><dd>2006-08-18</dd>
-<dt>Sist endret</dt><dd>lov/2022-12-20-122</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2006-06-30-50" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-sce-forordningen">§ 1. SCE-forordningen</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</a></li>
+<li class="lvl3"><a href="#3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</a></li>
+<li class="lvl3"><a href="#4-foretak-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-samvirkeforetak">§ 4. Foretak utenfor EØS som kan delta i stiftelsen av et europeisk samvirkeforetak</a></li>
+<li class="lvl3"><a href="#5-stiftelse-ved-fusjon">§ 5. Stiftelse ved fusjon</a></li>
+<li class="lvl3"><a href="#6-stiftelse-ved-omdanning">§ 6. Stiftelse ved omdanning</a></li>
+<li class="lvl3"><a href="#7-flytting-av-et-europeisk-samvirkeforetak">§ 7. Flytting av et europeisk samvirkeforetak</a></li>
+<li class="lvl3"><a href="#8-organiseringen-av-et-europeisk-samvirkeforetak-etter-to-nivasystemet">§ 8. Organiseringen av et europeisk samvirkeforetak etter to-nivåsystemet</a></li>
+<li class="lvl3"><a href="#9-organiseringen-av-et-europeisk-samvirkeforetak-etter-ett-nivasystemet">§ 9. Organiseringen av et europeisk samvirkeforetak etter ett-nivåsystemet</a></li>
+<li class="lvl3"><a href="#10-representasjonsrett-mm">§ 10. Representasjonsrett m.m.</a></li>
+<li class="lvl3"><a href="#11-innkalling-til-generalforsamling">§ 11. Innkalling til generalforsamling</a></li>
+<li class="lvl3"><a href="#11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</a></li>
+<li class="lvl3"><a href="#12-tvungen-avvikling">§ 12. Tvungen avvikling</a></li>
+<li class="lvl3"><a href="#13-ikraftsetting">§ 13. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#14-endringer-i-andre-lover">§ 14. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#es-avtalen-vedlegg-xxii-nr-10-c-radsforordning-ef-nr-14352003-av-22-juli-2003-om-vedtektene-for-europeiske-samvirkeforetak-sce-foretak">EØS-avtalen vedlegg XXII nr. 10 c (Rådsforordning (EF) nr. 1435/2003 av 22. juli 2003 om vedtektene for europeiske samvirkeforetak (SCE-foretak)).</a></li>
+<li class="lvl3"><a href="#kapittel-i-alminnelige-bestemmelser">Kapittel I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1-sce-foretakets-form">Art 1. SCE-foretakets form</a></li>
+<li class="lvl5"><a href="#art-2-stiftelse">Art 2. Stiftelse</a></li>
+<li class="lvl5"><a href="#art-3-minstekapital">Art 3. Minstekapital</a></li>
+<li class="lvl5"><a href="#art-4-sce-foretakets-kapital">Art 4. SCE-foretakets kapital</a></li>
+<li class="lvl5"><a href="#art-5-vedtekter">Art 5. Vedtekter</a></li>
+<li class="lvl5"><a href="#art-6-forretningskontor">Art 6. Forretningskontor</a></li>
+<li class="lvl5"><a href="#art-7-flytting-av-forretningskontor">Art 7. Flytting av forretningskontor</a></li>
+<li class="lvl5"><a href="#art-8-lovgivning-som-skal-anvendes">Art 8. Lovgivning som skal anvendes</a></li>
+<li class="lvl5"><a href="#art-9-prinsippet-om-likebehandling">Art 9. Prinsippet om likebehandling</a></li>
+<li class="lvl5"><a href="#art-10-opplysninger-som-skal-angis-i-dokumentene">Art 10. Opplysninger som skal angis i dokumentene</a></li>
+<li class="lvl5"><a href="#art-11-registrerings-og-opplysningsplikt">Art 11. Registrerings- og opplysningsplikt</a></li>
+<li class="lvl5"><a href="#art-12-offentliggjring-av-dokumenter-i-medlemsstatene-es-statene">Art 12. Offentliggjøring av dokumenter i medlemsstatene [EØS-statene]</a></li>
+<li class="lvl5"><a href="#art-13-offentliggjring-i-den-europeiske-unions-tidende">Art 13. Offentliggjøring i Den europeiske unions tidende</a></li>
+<li class="lvl5"><a href="#art-14-erverv-av-medlemskap">Art 14. Erverv av medlemskap</a></li>
+<li class="lvl5"><a href="#art-15-opphr-av-medlemskap">Art 15. Opphør av medlemskap</a></li>
+<li class="lvl5"><a href="#art-16-medlemmenes-konomiske-rettigheter-ved-avgang-eller-utelukkelse">Art 16. Medlemmenes økonomiske rettigheter ved avgang eller utelukkelse</a></li>
+<li class="lvl3"><a href="#kapittel-ii-stiftelse">Kapittel II. Stiftelse</a></li>
+<li class="lvl4"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#avsnitt-2-stiftelse-ved-fusjon">Avsnitt 2. Stiftelse ved fusjon</a></li>
+<li class="lvl4"><a href="#avsnitt-3-omdanning-av-et-eksisterende-samvirke-til-et-sce-foretak">Avsnitt 3. Omdanning av et eksisterende samvirke til et SCE-foretak</a></li>
+<li class="lvl3"><a href="#kapittel-iii-sce-foretakets-struktur">Kapittel III. SCE-Foretakets struktur</a></li>
+<li class="lvl5"><a href="#art-36-organenes-struktur">Art 36. Organenes struktur</a></li>
+<li class="lvl4"><a href="#avsnitt-1-tonivasystem">Avsnitt 1. Tonivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-2-ettnivasystem">Avsnitt 2. Ettnivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-3-felles-regler-for-ettniva-og-tonivasystemet">Avsnitt 3. Felles regler for ettnivå- og tonivåsystemet</a></li>
+<li class="lvl4"><a href="#avsnitt-4-generalforsamling">Avsnitt 4. Generalforsamling</a></li>
+<li class="lvl3"><a href="#kapittel-iv-utstedelse-av-verdipapirer-som-det-er-knyttet-srlige-fordeler-til">Kapittel IV. Utstedelse av verdipapirer som det er knyttet særlige fordeler til</a></li>
+<li class="lvl5"><a href="#art-64-andre-verdipapirer-enn-andeler-og-obligasjoner-som-gir-srlige-fordeler">Art 64. Andre verdipapirer enn andeler og obligasjoner som gir særlige fordeler</a></li>
+<li class="lvl3"><a href="#kapittel-v-fordeling-av-overskudd">Kapittel V. Fordeling av overskudd</a></li>
+<li class="lvl5"><a href="#art-65-reservefond">Art 65. Reservefond</a></li>
+<li class="lvl5"><a href="#art-66-utbytte">Art 66. Utbytte</a></li>
+<li class="lvl5"><a href="#art-67-fordeling-av-tilgjengelig-overskudd">Art 67. Fordeling av tilgjengelig overskudd</a></li>
+<li class="lvl3"><a href="#kapittel-vi-arsregnskap-og-konsolidert-regnskap">Kapittel VI. Årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-68-utarbeiding-av-arsregnskap-og-konsolidert-regnskap">Art 68. Utarbeiding av årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-69-regnskap-for-sce-foretak-som-driver-kreditt-eller-finansvirksomhet">Art 69. Regnskap for SCE-foretak som driver kreditt- eller finansvirksomhet</a></li>
+<li class="lvl5"><a href="#art-70-revisjon">Art 70. Revisjon</a></li>
+<li class="lvl5"><a href="#art-71-revisjonssystem">Art 71. Revisjonssystem</a></li>
+<li class="lvl3"><a href="#kapittel-vii-opplsning-avvikling-insolvens-og-betalingsstans">Kapittel VII. Oppløsning, avvikling, insolvens og betalingsstans</a></li>
+<li class="lvl5"><a href="#art-72-opplsning-insolvens-og-lignende-behandling">Art 72. Oppløsning, insolvens og lignende behandling</a></li>
+<li class="lvl5"><a href="#art-73-opplsning-palagt-av-domstol-eller-annen-vedkommende-myndighet-i-medlemsstaten-es-staten-der-sce-foretaket-har-sitt-forretningskontor">Art 73. Oppløsning pålagt av domstol eller annen vedkommende myndighet i medlemsstaten [EØS-staten] der SCE-foretaket har sitt forretningskontor</a></li>
+<li class="lvl5"><a href="#art-74-offentliggjring-av-avvikling">Art 74. Offentliggjøring av avvikling</a></li>
+<li class="lvl5"><a href="#art-75-fordeling-av-aktiva">Art 75. Fordeling av aktiva</a></li>
+<li class="lvl5"><a href="#art-76-omdanning-til-samvirke">Art 76. Omdanning til samvirke</a></li>
+<li class="lvl3"><a href="#kapittel-viii-tilleggsbestemmelser-og-overgangsbestemmelser">Kapittel VIII. Tilleggsbestemmelser og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-77-den-konomiske-og-monetre-union">Art 77. Den økonomiske og monetære union</a></li>
+<li class="lvl3"><a href="#kapittel-ix-sluttbestemmelser">Kapittel IX. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-78-nasjonale-gjennomfringsbestemmelser">Art 78. Nasjonale gjennomføringsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-79-revisjon-av-forordningen">Art 79. Revisjon av forordningen</a></li>
+<li class="lvl5"><a href="#art-80-ikrafttredelse">Art 80. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2022-12-20-122.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2006-06-30-50.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om europeiske samvirkeforetak (SCE-loven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2006-06-30-50.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2006-06-30-50 <code>lov/2006-06-30-50</code></td></tr>
+<tr><th>Korttittel</th><td>SCE-loven</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett &raquo; Selskapsrett\nSelskaper, fond og foreninger &raquo; Samvirkeforetak</td></tr>
+<tr><th>Ikrafttredelse</th><td>18.08.2006</td></tr>
+<tr><th>Sist endret</th><td>LOV-2022-12-20-122 <code>lov/2022-12-20-122</code> fra 20.12.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2006-06-30-50" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-sce-forordningen">§ 1. SCE-forordningen</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</a></li>
+<li class="lvl3"><a href="#3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</a></li>
+<li class="lvl3"><a href="#4-foretak-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-samvirkeforetak">§ 4. Foretak utenfor EØS som kan delta i stiftelsen av et europeisk samvirkeforetak</a></li>
+<li class="lvl3"><a href="#5-stiftelse-ved-fusjon">§ 5. Stiftelse ved fusjon</a></li>
+<li class="lvl3"><a href="#6-stiftelse-ved-omdanning">§ 6. Stiftelse ved omdanning</a></li>
+<li class="lvl3"><a href="#7-flytting-av-et-europeisk-samvirkeforetak">§ 7. Flytting av et europeisk samvirkeforetak</a></li>
+<li class="lvl3"><a href="#8-organiseringen-av-et-europeisk-samvirkeforetak-etter-to-nivasystemet">§ 8. Organiseringen av et europeisk samvirkeforetak etter to-nivåsystemet</a></li>
+<li class="lvl3"><a href="#9-organiseringen-av-et-europeisk-samvirkeforetak-etter-ett-nivasystemet">§ 9. Organiseringen av et europeisk samvirkeforetak etter ett-nivåsystemet</a></li>
+<li class="lvl3"><a href="#10-representasjonsrett-mm">§ 10. Representasjonsrett m.m.</a></li>
+<li class="lvl3"><a href="#11-innkalling-til-generalforsamling">§ 11. Innkalling til generalforsamling</a></li>
+<li class="lvl3"><a href="#11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</a></li>
+<li class="lvl3"><a href="#12-tvungen-avvikling">§ 12. Tvungen avvikling</a></li>
+<li class="lvl3"><a href="#13-ikraftsetting">§ 13. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#14-endringer-i-andre-lover">§ 14. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#es-avtalen-vedlegg-xxii-nr-10-c-radsforordning-ef-nr-14352003-av-22-juli-2003-om-vedtektene-for-europeiske-samvirkeforetak-sce-foretak">EØS-avtalen vedlegg XXII nr. 10 c (Rådsforordning (EF) nr. 1435/2003 av 22. juli 2003 om vedtektene for europeiske samvirkeforetak (SCE-foretak)).</a></li>
+<li class="lvl3"><a href="#kapittel-i-alminnelige-bestemmelser">Kapittel I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1-sce-foretakets-form">Art 1. SCE-foretakets form</a></li>
+<li class="lvl5"><a href="#art-2-stiftelse">Art 2. Stiftelse</a></li>
+<li class="lvl5"><a href="#art-3-minstekapital">Art 3. Minstekapital</a></li>
+<li class="lvl5"><a href="#art-4-sce-foretakets-kapital">Art 4. SCE-foretakets kapital</a></li>
+<li class="lvl5"><a href="#art-5-vedtekter">Art 5. Vedtekter</a></li>
+<li class="lvl5"><a href="#art-6-forretningskontor">Art 6. Forretningskontor</a></li>
+<li class="lvl5"><a href="#art-7-flytting-av-forretningskontor">Art 7. Flytting av forretningskontor</a></li>
+<li class="lvl5"><a href="#art-8-lovgivning-som-skal-anvendes">Art 8. Lovgivning som skal anvendes</a></li>
+<li class="lvl5"><a href="#art-9-prinsippet-om-likebehandling">Art 9. Prinsippet om likebehandling</a></li>
+<li class="lvl5"><a href="#art-10-opplysninger-som-skal-angis-i-dokumentene">Art 10. Opplysninger som skal angis i dokumentene</a></li>
+<li class="lvl5"><a href="#art-11-registrerings-og-opplysningsplikt">Art 11. Registrerings- og opplysningsplikt</a></li>
+<li class="lvl5"><a href="#art-12-offentliggjring-av-dokumenter-i-medlemsstatene-es-statene">Art 12. Offentliggjøring av dokumenter i medlemsstatene [EØS-statene]</a></li>
+<li class="lvl5"><a href="#art-13-offentliggjring-i-den-europeiske-unions-tidende">Art 13. Offentliggjøring i Den europeiske unions tidende</a></li>
+<li class="lvl5"><a href="#art-14-erverv-av-medlemskap">Art 14. Erverv av medlemskap</a></li>
+<li class="lvl5"><a href="#art-15-opphr-av-medlemskap">Art 15. Opphør av medlemskap</a></li>
+<li class="lvl5"><a href="#art-16-medlemmenes-konomiske-rettigheter-ved-avgang-eller-utelukkelse">Art 16. Medlemmenes økonomiske rettigheter ved avgang eller utelukkelse</a></li>
+<li class="lvl3"><a href="#kapittel-ii-stiftelse">Kapittel II. Stiftelse</a></li>
+<li class="lvl4"><a href="#avsnitt-1-alminnelige-bestemmelser">Avsnitt 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#avsnitt-2-stiftelse-ved-fusjon">Avsnitt 2. Stiftelse ved fusjon</a></li>
+<li class="lvl4"><a href="#avsnitt-3-omdanning-av-et-eksisterende-samvirke-til-et-sce-foretak">Avsnitt 3. Omdanning av et eksisterende samvirke til et SCE-foretak</a></li>
+<li class="lvl3"><a href="#kapittel-iii-sce-foretakets-struktur">Kapittel III. SCE-Foretakets struktur</a></li>
+<li class="lvl5"><a href="#art-36-organenes-struktur">Art 36. Organenes struktur</a></li>
+<li class="lvl4"><a href="#avsnitt-1-tonivasystem">Avsnitt 1. Tonivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-2-ettnivasystem">Avsnitt 2. Ettnivåsystem</a></li>
+<li class="lvl4"><a href="#avsnitt-3-felles-regler-for-ettniva-og-tonivasystemet">Avsnitt 3. Felles regler for ettnivå- og tonivåsystemet</a></li>
+<li class="lvl4"><a href="#avsnitt-4-generalforsamling">Avsnitt 4. Generalforsamling</a></li>
+<li class="lvl3"><a href="#kapittel-iv-utstedelse-av-verdipapirer-som-det-er-knyttet-srlige-fordeler-til">Kapittel IV. Utstedelse av verdipapirer som det er knyttet særlige fordeler til</a></li>
+<li class="lvl5"><a href="#art-64-andre-verdipapirer-enn-andeler-og-obligasjoner-som-gir-srlige-fordeler">Art 64. Andre verdipapirer enn andeler og obligasjoner som gir særlige fordeler</a></li>
+<li class="lvl3"><a href="#kapittel-v-fordeling-av-overskudd">Kapittel V. Fordeling av overskudd</a></li>
+<li class="lvl5"><a href="#art-65-reservefond">Art 65. Reservefond</a></li>
+<li class="lvl5"><a href="#art-66-utbytte">Art 66. Utbytte</a></li>
+<li class="lvl5"><a href="#art-67-fordeling-av-tilgjengelig-overskudd">Art 67. Fordeling av tilgjengelig overskudd</a></li>
+<li class="lvl3"><a href="#kapittel-vi-arsregnskap-og-konsolidert-regnskap">Kapittel VI. Årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-68-utarbeiding-av-arsregnskap-og-konsolidert-regnskap">Art 68. Utarbeiding av årsregnskap og konsolidert regnskap</a></li>
+<li class="lvl5"><a href="#art-69-regnskap-for-sce-foretak-som-driver-kreditt-eller-finansvirksomhet">Art 69. Regnskap for SCE-foretak som driver kreditt- eller finansvirksomhet</a></li>
+<li class="lvl5"><a href="#art-70-revisjon">Art 70. Revisjon</a></li>
+<li class="lvl5"><a href="#art-71-revisjonssystem">Art 71. Revisjonssystem</a></li>
+<li class="lvl3"><a href="#kapittel-vii-opplsning-avvikling-insolvens-og-betalingsstans">Kapittel VII. Oppløsning, avvikling, insolvens og betalingsstans</a></li>
+<li class="lvl5"><a href="#art-72-opplsning-insolvens-og-lignende-behandling">Art 72. Oppløsning, insolvens og lignende behandling</a></li>
+<li class="lvl5"><a href="#art-73-opplsning-palagt-av-domstol-eller-annen-vedkommende-myndighet-i-medlemsstaten-es-staten-der-sce-foretaket-har-sitt-forretningskontor">Art 73. Oppløsning pålagt av domstol eller annen vedkommende myndighet i medlemsstaten [EØS-staten] der SCE-foretaket har sitt forretningskontor</a></li>
+<li class="lvl5"><a href="#art-74-offentliggjring-av-avvikling">Art 74. Offentliggjøring av avvikling</a></li>
+<li class="lvl5"><a href="#art-75-fordeling-av-aktiva">Art 75. Fordeling av aktiva</a></li>
+<li class="lvl5"><a href="#art-76-omdanning-til-samvirke">Art 76. Omdanning til samvirke</a></li>
+<li class="lvl3"><a href="#kapittel-viii-tilleggsbestemmelser-og-overgangsbestemmelser">Kapittel VIII. Tilleggsbestemmelser og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-77-den-konomiske-og-monetre-union">Art 77. Den økonomiske og monetære union</a></li>
+<li class="lvl3"><a href="#kapittel-ix-sluttbestemmelser">Kapittel IX. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-78-nasjonale-gjennomfringsbestemmelser">Art 78. Nasjonale gjennomføringsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-79-revisjon-av-forordningen">Art 79. Revisjon av forordningen</a></li>
+<li class="lvl5"><a href="#art-80-ikrafttredelse">Art 80. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2006-06-30-50.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2006-06-30-50.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2006-06-30-50.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2006-06-30-50.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2006-06-30-50.html">Observerte kildeutgaver</a> · <a href="../historie/sce-loven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/011dc1833d83a8386cca5e1edc8ff5fba32674cd/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2006-06-30-50.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2006-06-30-50.html">Observerte kildeutgaver</a> · <a href="../historie/sce-loven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2006/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2006-06-30-50.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-europeiske-samvirkeforetak-sce-loven">Lov om europeiske samvirkeforetak (SCE-loven)</h1>
 <h3 id="1-sce-forordningen">§ 1. SCE-forordningen</h3>
 <p>EØS-avtalens vedlegg XXII nr. 10c (rådsforordning (EF) nr. 1435/2003 av 22. juli 2003 om vedtektene for europeiske samvirkeforetak (SCE-foretak)) (SCE-forordningen) gjelder som lov med den tilpasning som følger av vedlegg XXII protokoll 1 til avtalen og avtalen for øvrig.</p>
 <h3 id="2-forholdet-til-annen-norsk-lovgivning">§ 2. Forholdet til annen norsk lovgivning</h3>
 <p>For et europeisk samvirkeforetak med forretningskontor i Norge gjelder regler gitt i eller i medhold av lov som gjelder for samvirkeforetak generelt, eller som gjelder for den virksomheten foretaket driver, tilsvarende så langt de passer, og såfremt ikke noe annet følger av SCE-forordningen, vedtekter gitt i medhold av SCE-forordningen eller loven her. Et krav i lovgivningen om organisering som samvirkeforetak er ikke til hinder for organisering som europeisk samvirkeforetak.</p>
 <p>Ved tvil om forholdet mellom SCE-forordningen, loven her og annen lovgivning kan Kongen gi forskrift som avklarer dette. Kongen kan i tillegg gi forskrift om nødvendige tilpasninger for europeiske samvirkeforetak til regler som nevnt i første ledd første punktum.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 122 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 122 .</p>
 <h3 id="3-arbeidstakernes-innflytelse">§ 3. Arbeidstakernes innflytelse</h3>
 <p>Kongen gir i forskrift nærmere regler om arbeidstakernes innflytelse i et europeisk samvirkeforetak, jf. SCE-forordningen artikkel 1 nr. 6, herunder om avgjørelse av tvister. Reglene i forskriften gjelder i stedet for tilsvarende regler i annen lovgivning om arbeidstakernes rett til representasjon i styrende organer.</p>
 <h3 id="4-foretak-utenfor-es-som-kan-delta-i-stiftelsen-av-et-europeisk-samvirkeforetak">§ 4. Foretak utenfor EØS som kan delta i stiftelsen av et europeisk samvirkeforetak</h3>
@@ -92,12 +269,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. <a href="lov-2003-06-06-38.html">bustadbyggjelagslova</a> kapittel 9 ,
 b. <a href="lov-2003-06-06-39.html">burettslagslova</a> §§ 10-1 til 10-5 .</p>
 <p>Foretaksregisteret er kompetent myndighet til å utstede attesten som nevnt i SCE-forordningen artikkel 29 nr. 2, og til å kontrollere lovligheten av fusjonen etter SCE-forordningen artikkel 30.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</p>
 <h3 id="6-stiftelse-ved-omdanning">§ 6. Stiftelse ved omdanning</h3>
 <p>Ved offentliggjøring av omdanningsplanen etter SCE-forordningen artikkel 35 nr. 4 gjelder reglene i samvirkeloven § 151 1 tilsvarende så langt de passer.</p>
 <p>Bekreftelse som nevnt i SCE-forordningen artikkel 35 nr. 5 skal gis av en statsautorisert eller registrert revisor.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).
-1 Inkurie: Skal vel fremdeles være asal. § 13-13 .</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).
+1 Inkurie: Skal vel fremdeles være asal. § 13-13 .</p>
 <h3 id="7-flytting-av-et-europeisk-samvirkeforetak">§ 7. Flytting av et europeisk samvirkeforetak</h3>
 <p>Når flytting er besluttet etter SCE-forordningen artikkel 7, skal et europeisk samvirkeforetak ved sitt foretaksnavn på brev, kunngjøringer og andre dokumenter tilføye ordene «under flytting».</p>
 <p>Ved flytting av et europeisk samvirkeforetak gjelder reglene i samvirkeloven §§ 113 til 116 om gjennomføring av fusjon tilsvarende så langt de passer. Ved flytting av et europeisk samvirkeforetak som driver virksomhet som omfattes av de lover som er nevnt i bokstav a og b, skal i stedet følgende regler om gjennomføring av fusjon gjelde så langt de passer:</p>
@@ -105,18 +282,18 @@ b. <a href="lov-2003-06-06-39.html">burettslagslova</a> §§ 10-1 til 10-5 .</p>
 b. burettslagslova §§ 10-3 til 10-5 .</p>
 <p>Kongen kan nedlegge forbud mot at et europeisk samvirkeforetak flytter dersom det strider mot offentlige interesser, jf. SCE-forordningen artikkel 7 nr. 14.</p>
 <p>Foretaksregisteret er kompetent myndighet til å utstede attesten som nevnt i SCE-forordningen artikkel 7 nr. 8.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</p>
 <h3 id="8-organiseringen-av-et-europeisk-samvirkeforetak-etter-to-nivasystemet">§ 8. Organiseringen av et europeisk samvirkeforetak etter to-nivåsystemet</h3>
 <p>For et europeisk samvirkeforetak som er organisert etter to-nivåsystemet etter SE-forordningen artikkel 37 til 41, gjelder reglene i samvirkeloven kapittel 6 og andre regler i samvirkeloven om foretakets ledelse så langt de passer, og såfremt noe annet ikke følger av SCE-forordningen. For ledelsesorganet gjelder samvirkelovens regler om styret tilsvarende så langt de passer, og for kontrollorganet gjelder samvirkelovens regler om kontrollkomiteen tilsvarende så langt de passer. Foretaket skal ha en daglig leder med mindre vedtektene bestemmer noe annet. For den daglige lederen gjelder samvirkelovens regler om daglig leder tilsvarende så langt de passer.</p>
 <p>Ledelsesorganet skal ha minst tre medlemmer.</p>
 <p>Det kan fastsettes i vedtektene at medlemmer av ledelsesorganet skal oppnevnes og avsettes av generalforsamlingen, jf. SCE-forordningen artikkel 37 nr. 2 annet ledd.</p>
 <p>Et medlem av kontrollorganet som ivaretar vervet til et medlem av ledelsesorganet etter SCE-forordningen artikkel 37 nr. 3, kan gjøre dette for en tidsperiode som ikke må være lengre enn to måneder.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</p>
 <h3 id="9-organiseringen-av-et-europeisk-samvirkeforetak-etter-ett-nivasystemet">§ 9. Organiseringen av et europeisk samvirkeforetak etter ett-nivåsystemet</h3>
 <p>For et europeisk samvirkeforetak som er organisert etter ett-nivåsystemet etter SE-forordningen artikkel 42 til 44, gjelder reglene i samvirkeloven kapittel 6 og andre regler i samvirkeloven om foretakets ledelse så langt de passer, og såfremt noe annet ikke følger av SCE-forordningen. For administrasjonsorganet gjelder samvirkelovens regler om styret tilsvarende så langt de passer.</p>
 <p>Foretaket skal ha en daglig leder med mindre vedtektene bestemmer noe annet. For den daglige lederen gjelder samvirkelovens regler om daglig leder tilsvarende så langt de passer.</p>
 <p>Administrasjonsorganet skal ha minst tre medlemmer.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</p>
 <h3 id="10-representasjonsrett-mm">§ 10. Representasjonsrett m.m.</h3>
 <p>Et europeisk samvirkeforetak kan fastsette i vedtektene hvem som kan representere foretaket utad etter de regler som følger av SCE-forordningen artikkel 47 nr. 4.</p>
 <p>SCE-foretaket er ikke bundet i tilfeller som nevnt i SCE-forordningen artikkel 47 nr. 2 annet ledd.</p>
@@ -124,13 +301,13 @@ b. burettslagslova §§ 10-3 til 10-5 .</p>
 <p>Tingretten er kompetent myndighet til å innkalle generalforsamlingen etter SCE-forordningen artikkel 54 nr. 2.</p>
 <h3 id="11a-forskrift-om-gjennomfring-av-es-forpliktelser-om-saksbehandling">§ 11a. Forskrift om gjennomføring av EØS-forpliktelser om saksbehandling</h3>
 <p>Departementet kan gi forskrift for å gjennomføre forpliktelser som følger av EØS-avtalen om saksbehandling i foretaksorganer i europeiske samvirkeforetak. Forskriftene kan gjøre unntak fra SCE-forordningen.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 122 .</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 122 .</p>
 <h3 id="12-tvungen-avvikling">§ 12. Tvungen avvikling</h3>
 <p>Foretaksregisteret kan kreve at et europeisk samvirkeforetak avvikles i samsvar med SCE-forordningen artikkel 73 nr. 1.</p>
 <p>Ved tvungen avvikling av et SCE-foretak etter SCE-forordningen artikkel 73 gjelder bestemmelsene i samvirkeloven §§ 141 til 144 tilsvarende så langt de passer.</p>
 <p>Et kjæremål over en kjennelse om oppløsning når et europeisk samvirkeforetak ikke lenger oppfyller kravene i SCE-forordningen artikkel 6, har oppsettende virkning.</p>
 <p>Foretaksregisteret skal foreta slike underretninger som er nevnt i SCE-forordningen artikkel 73 nr. 5.</p>
-<p><em>Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</em></p>
+<p class="note">Endret ved lov 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ).</p>
 <h3 id="13-ikraftsetting">§ 13. Ikraftsetting</h3>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer.</p>
 <p><em>1 Fra 18 aug 2006 iflg. res. 30 juni 2006 nr. 778 .</em></p>
@@ -1199,6 +1376,8 @@ d. om det bør tillates særlig klageadgang ved bedrageri eller feil ved registr
 <p>Denne forordning er bindende i alle deler og kommer direkte til anvendelse i alle medlemsstater [EØS-medlemsstater].</p>
 <p>Utferdiget i Brussel, 22. juli 2003.</p>
 <p><em>1 Jf. EØS-avtalen art. 7 bokstav a: Dette gjelder ikke for EFTA-statene.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

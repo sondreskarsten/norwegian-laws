@@ -19,64 +19,261 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-07-1389.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Norsk pasientregisterforskriften, NPR" href="../feeds/forskrift-2007-12-07-1389.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Norsk pasientregisterforskriften, NPR</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-12-07-1389</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-04-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-19-1242</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-07-1389" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1 – Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-norsk-pasientregister">§ 1-1. Etablering av Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#1-2-norsk-pasientregisters-formal">§ 1-2. Norsk pasientregisters formål</a></li>
+<li class="lvl4"><a href="#1-3-forbud-mot-bruk">§ 1-3. Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#1-4-dataansvarlig-og-databehandler">§ 1-4. Dataansvarlig og databehandler</a></li>
+<li class="lvl4"><a href="#1-5-norsk-pasientregisters-innhold">§ 1-5. Norsk pasientregisters innhold</a></li>
+<li class="lvl4"><a href="#1-5a-avidentifiserte-opplysninger">§ 1-5a. (Avidentifiserte opplysninger)</a></li>
+<li class="lvl4"><a href="#1-6-opplysninger-i-norsk-pasientregister">§ 1-6. Opplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-om-ulykker-og-skader">§ 1-7. Opplysninger om ulykker og skader</a></li>
+<li class="lvl4"><a href="#1-8-koding-og-klassifisering-av-opplysningene-i-norsk-pasientregister-krav-til-dokumentasjon">§ 1-8. Koding og klassifisering av opplysningene i Norsk pasientregister, krav til dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-norsk-pasientregister-kvalitetskontroll-mv">Kapittel 2 – Melding av helseopplysninger til Norsk pasientregister, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-plikt-til-innsending-av-opplysninger-og-forhold-til-taushetsplikt">§ 2-1. Plikt til innsending av opplysninger og forhold til taushetsplikt</a></li>
+<li class="lvl4"><a href="#2-2-rutiner-for-innsending-mv">§ 2-2. Rutiner for innsending mv.</a></li>
+<li class="lvl4"><a href="#2-3-avsenders-plikter-til-kvalitetskontroll">§ 2-3. Avsenders plikter til kvalitetskontroll</a></li>
+<li class="lvl4"><a href="#2-4-mottakers-ansvar-for-kvalitetskontroll">§ 2-4. Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-norsk-pasientregister">Kapittel 3 – Behandling av helseopplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-tilrettelegging-og-tilgjengeliggjring-av-opplysninger-for-aktivitetsbaserte-finansieringsordninger-og-kommunal-medfinansiering-av-spesialisthelsetjenesten">§ 3-2. Tilrettelegging og tilgjengeliggjøring av opplysninger for aktivitetsbaserte finansieringsordninger og kommunal medfinansiering av spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#3-3-tilgjengeliggjring-av-opplysninger-til-hjerte-og-karregisteret">§ 3-3. Tilgjengeliggjøring av opplysninger til Hjerte- og karregisteret</a></li>
+<li class="lvl4"><a href="#3-4-tilgjengeliggjring-av-opplysninger-til-den-nasjonale-kjernejournalen">§ 3-4. Tilgjengeliggjøring av opplysninger til den nasjonale kjernejournalen</a></li>
+<li class="lvl4"><a href="#3-5-behandling-av-opplysninger-i-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">§ 3-5. Behandling av opplysninger i Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre</a></li>
+<li class="lvl4"><a href="#3-6-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-6. Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-taushetsplikt-informasjonssikkerhet-internkontroll-tilsyn">Kapittel 4 – Taushetsplikt, informasjonssikkerhet, internkontroll, tilsyn</a></li>
+<li class="lvl4"><a href="#4-1-taushetsplikt">§ 4-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#4-2-informasjonssikkerhet">§ 4-2. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#4-3-kryptering-og-tilgang-til-norsk-pasientregister">§ 4-3. Kryptering og tilgang til Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#4-4-plikt-til-internkontroll">§ 4-4. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#4-5-internkontrollens-innhold">§ 4-5. Internkontrollens innhold</a></li>
+<li class="lvl4"><a href="#4-6-forsterket-tilsyn-med-norsk-pasientregister">§ 4-6. Forsterket tilsyn med Norsk pasientregister</a></li>
+<li class="lvl2"><a href="#kapittel-5-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 5 – Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#5-1-den-registrertes-rett-til-informasjon-og-innsyn">§ 5-1. Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. Frist for å svare på henvendelser om innsyn</a></li>
+<li class="lvl2"><a href="#kapittel-6-bevaring-av-helseopplysninger-i-norsk-pasientregister">Kapittel 6 – Bevaring av helseopplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#6-1-bevaring-av-helseopplysninger">§ 6-1. Bevaring av helseopplysninger</a></li>
+<li class="lvl4"><a href="#6-2-bevaring-og-bruk-av-opplysninger-underlagt-tidligere-konsesjoner">§ 6-2. Bevaring og bruk av opplysninger underlagt tidligere konsesjoner</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#7-1-overgangsbestemmelse">§ 7-1. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#7-2-overtredelsesgebyr-straff-og-erstatning">§ 7-2. Overtredelsesgebyr, straff og erstatning</a></li>
+<li class="lvl4"><a href="#7-3-ikraftsetting">§ 7-3. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#7-4-endringer-i-andre-forskrifter">§ 7-4. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-kapitler-og-paragrafer-i-forskriften">Merknader til de enkelte kapitler og paragrafer i forskriften</a></li>
+<li class="lvl3"><a href="#til-1-1-etablering-av-norsk-pasientregister">Til § 1-1 Etablering av Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-1-2-norsk-pasientregisters-formal">Til § 1-2 Norsk pasientregisters formål</a></li>
+<li class="lvl3"><a href="#til-1-3-forbud-mot-bruk">Til § 1-3 Forbud mot bruk</a></li>
+<li class="lvl3"><a href="#til-1-4-databehandlingsansvarlig-og-databehandler">Til § 1-4 Databehandlingsansvarlig og databehandler</a></li>
+<li class="lvl3"><a href="#til-1-5-norsk-pasientregisters-innhold">Til § 1-5 Norsk pasientregisters innhold</a></li>
+<li class="lvl3"><a href="#til-1-6-opplysninger-i-norsk-pasientregister">Til § 1-6 Opplysninger i Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-1-7-opplysninger-om-ulykker-og-skader">Til § 1-7 Opplysninger om ulykker og skader</a></li>
+<li class="lvl3"><a href="#til-1-8-koding-og-klassifisering-av-opplysningene-i-norsk-pasientregister-krav-til-dokumentasjon">Til § 1-8 Koding og klassifisering av opplysningene i Norsk pasientregister, krav til dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-2-1-plikt-til-innsending-av-opplysninger-og-forhold-til-taushetsplikt">Til § 2-1 Plikt til innsending av opplysninger og forhold til taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-2-2-rutiner-for-innsending-mv">Til § 2-2 Rutiner for innsending mv.</a></li>
+<li class="lvl3"><a href="#til-2-3-avsenders-plikter-til-kvalitetskontroll">Til § 2-3 Avsenders plikter til kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-2-4-mottakers-ansvar-for-kvalitetskontroll">Til § 2-4 Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-3-1-statistikk-fra-norsk-pasientregister">Til § 3-1 Statistikk fra Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-3-2-tilrettelegging-av-avidentifiserte-opplysninger-i-norsk-pasientregister-og-sammenstilling-med-andre-registre">Til § 3-2 Tilrettelegging av avidentifiserte opplysninger i Norsk pasientregister og sammenstilling med andre registre</a></li>
+<li class="lvl3"><a href="#til-3-3-tilrettelegging-og-utlevering-av-opplysninger-for-aktivitetsbaserte-finansieringsordninger">Til § 3-3 Tilrettelegging og utlevering av opplysninger for aktivitetsbaserte finansieringsordninger</a></li>
+<li class="lvl3"><a href="#til-3-4-utlevering-av-avidentifiserte-opplysninger">Til § 3-4 Utlevering av avidentifiserte opplysninger</a></li>
+<li class="lvl3"><a href="#til-3-5-utlevering-av-statistiskeanonyme-opplysninger">Til § 3-5 Utlevering av statistiske/anonyme opplysninger</a></li>
+<li class="lvl3"><a href="#til-3-6-utlevering-og-annen-behandling-av-opplysninger-i-norsk-pasientregister">Til § 3-6 Utlevering og annen behandling av opplysninger i Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-3-7-behandling-av-opplysninger-fra-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">Til § 3-7 Behandling av opplysninger fra Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre</a></li>
+<li class="lvl3"><a href="#til-3-8-frister-for-utlevering">Til § 3-8 Frister for utlevering</a></li>
+<li class="lvl3"><a href="#til-3-9-kostnader">Til § 3-9 Kostnader</a></li>
+<li class="lvl3"><a href="#til-3-10-oversikt-over-utleveringer">Til § 3-10 Oversikt over utleveringer</a></li>
+<li class="lvl3"><a href="#til-3-11-informasjonsstrategi-rettet-mot-brukergrupper">Til § 3-11 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl3"><a href="#til-4-1-taushetsplikt">Til § 4-1 Taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-4-2-informasjonssikkerhet">Til § 4-2 Informasjonssikkerhet</a></li>
+<li class="lvl3"><a href="#til-4-3-kryptering-og-tilgang-til-norsk-pasientregister">Til § 4-3 Kryptering og tilgang til Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-4-4-plikt-til-internkontroll">Til § 4-4 Plikt til internkontroll</a></li>
+<li class="lvl3"><a href="#til-4-5-internkontrollens-innhold">Til § 4-5 Internkontrollens innhold</a></li>
+<li class="lvl3"><a href="#til-4-6-forsterket-tilsyn-med-norsk-pasientregister">Til § 4-6 Forsterket tilsyn med Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-5-1-den-registrertes-rett-til-informasjon-og-innsyn">Til § 5-1 Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl3"><a href="#til-6-1-bevaring-av-helseopplysninger">Til § 6-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-6-2-bruk-av-opplysninger-underlagt-tidligere-konsesjoner">Til § 6-2 Bruk av opplysninger underlagt tidligere konsesjoner</a></li>
+<li class="lvl3"><a href="#til-7-1-overgangsbestemmelse">Til § 7-1 overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#til-7-2-palegg-tvangsmulkt-og-straff">Til § 7-2 Pålegg, tvangsmulkt og straff</a></li>
+<li class="lvl3"><a href="#til-7-3-ikraftsetting">Til § 7-3 Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-19-1242.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-07-1389.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om innsamling og behandling av helseopplysninger i Norsk pasientregister (Norsk pasientregisterforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-07-1389.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-12-07-1389 <code>forskrift/2007-12-07-1389</code></td></tr>
+<tr><th>Korttittel</th><td>Norsk pasientregisterforskriften, NPR</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.04.2009</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-19-1242 <code>forskrift/2026-06-19-1242</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-07-1389" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1 – Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-norsk-pasientregister">§ 1-1. Etablering av Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#1-2-norsk-pasientregisters-formal">§ 1-2. Norsk pasientregisters formål</a></li>
+<li class="lvl4"><a href="#1-3-forbud-mot-bruk">§ 1-3. Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#1-4-dataansvarlig-og-databehandler">§ 1-4. Dataansvarlig og databehandler</a></li>
+<li class="lvl4"><a href="#1-5-norsk-pasientregisters-innhold">§ 1-5. Norsk pasientregisters innhold</a></li>
+<li class="lvl4"><a href="#1-5a-avidentifiserte-opplysninger">§ 1-5a. (Avidentifiserte opplysninger)</a></li>
+<li class="lvl4"><a href="#1-6-opplysninger-i-norsk-pasientregister">§ 1-6. Opplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-om-ulykker-og-skader">§ 1-7. Opplysninger om ulykker og skader</a></li>
+<li class="lvl4"><a href="#1-8-koding-og-klassifisering-av-opplysningene-i-norsk-pasientregister-krav-til-dokumentasjon">§ 1-8. Koding og klassifisering av opplysningene i Norsk pasientregister, krav til dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-norsk-pasientregister-kvalitetskontroll-mv">Kapittel 2 – Melding av helseopplysninger til Norsk pasientregister, kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#2-1-plikt-til-innsending-av-opplysninger-og-forhold-til-taushetsplikt">§ 2-1. Plikt til innsending av opplysninger og forhold til taushetsplikt</a></li>
+<li class="lvl4"><a href="#2-2-rutiner-for-innsending-mv">§ 2-2. Rutiner for innsending mv.</a></li>
+<li class="lvl4"><a href="#2-3-avsenders-plikter-til-kvalitetskontroll">§ 2-3. Avsenders plikter til kvalitetskontroll</a></li>
+<li class="lvl4"><a href="#2-4-mottakers-ansvar-for-kvalitetskontroll">§ 2-4. Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-norsk-pasientregister">Kapittel 3 – Behandling av helseopplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-tilrettelegging-og-tilgjengeliggjring-av-opplysninger-for-aktivitetsbaserte-finansieringsordninger-og-kommunal-medfinansiering-av-spesialisthelsetjenesten">§ 3-2. Tilrettelegging og tilgjengeliggjøring av opplysninger for aktivitetsbaserte finansieringsordninger og kommunal medfinansiering av spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#3-3-tilgjengeliggjring-av-opplysninger-til-hjerte-og-karregisteret">§ 3-3. Tilgjengeliggjøring av opplysninger til Hjerte- og karregisteret</a></li>
+<li class="lvl4"><a href="#3-4-tilgjengeliggjring-av-opplysninger-til-den-nasjonale-kjernejournalen">§ 3-4. Tilgjengeliggjøring av opplysninger til den nasjonale kjernejournalen</a></li>
+<li class="lvl4"><a href="#3-5-behandling-av-opplysninger-i-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">§ 3-5. Behandling av opplysninger i Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre</a></li>
+<li class="lvl4"><a href="#3-6-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-6. Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-taushetsplikt-informasjonssikkerhet-internkontroll-tilsyn">Kapittel 4 – Taushetsplikt, informasjonssikkerhet, internkontroll, tilsyn</a></li>
+<li class="lvl4"><a href="#4-1-taushetsplikt">§ 4-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#4-2-informasjonssikkerhet">§ 4-2. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#4-3-kryptering-og-tilgang-til-norsk-pasientregister">§ 4-3. Kryptering og tilgang til Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#4-4-plikt-til-internkontroll">§ 4-4. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#4-5-internkontrollens-innhold">§ 4-5. Internkontrollens innhold</a></li>
+<li class="lvl4"><a href="#4-6-forsterket-tilsyn-med-norsk-pasientregister">§ 4-6. Forsterket tilsyn med Norsk pasientregister</a></li>
+<li class="lvl2"><a href="#kapittel-5-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 5 – Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#5-1-den-registrertes-rett-til-informasjon-og-innsyn">§ 5-1. Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. Frist for å svare på henvendelser om innsyn</a></li>
+<li class="lvl2"><a href="#kapittel-6-bevaring-av-helseopplysninger-i-norsk-pasientregister">Kapittel 6 – Bevaring av helseopplysninger i Norsk pasientregister</a></li>
+<li class="lvl4"><a href="#6-1-bevaring-av-helseopplysninger">§ 6-1. Bevaring av helseopplysninger</a></li>
+<li class="lvl4"><a href="#6-2-bevaring-og-bruk-av-opplysninger-underlagt-tidligere-konsesjoner">§ 6-2. Bevaring og bruk av opplysninger underlagt tidligere konsesjoner</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#7-1-overgangsbestemmelse">§ 7-1. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#7-2-overtredelsesgebyr-straff-og-erstatning">§ 7-2. Overtredelsesgebyr, straff og erstatning</a></li>
+<li class="lvl4"><a href="#7-3-ikraftsetting">§ 7-3. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#7-4-endringer-i-andre-forskrifter">§ 7-4. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-kapitler-og-paragrafer-i-forskriften">Merknader til de enkelte kapitler og paragrafer i forskriften</a></li>
+<li class="lvl3"><a href="#til-1-1-etablering-av-norsk-pasientregister">Til § 1-1 Etablering av Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-1-2-norsk-pasientregisters-formal">Til § 1-2 Norsk pasientregisters formål</a></li>
+<li class="lvl3"><a href="#til-1-3-forbud-mot-bruk">Til § 1-3 Forbud mot bruk</a></li>
+<li class="lvl3"><a href="#til-1-4-databehandlingsansvarlig-og-databehandler">Til § 1-4 Databehandlingsansvarlig og databehandler</a></li>
+<li class="lvl3"><a href="#til-1-5-norsk-pasientregisters-innhold">Til § 1-5 Norsk pasientregisters innhold</a></li>
+<li class="lvl3"><a href="#til-1-6-opplysninger-i-norsk-pasientregister">Til § 1-6 Opplysninger i Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-1-7-opplysninger-om-ulykker-og-skader">Til § 1-7 Opplysninger om ulykker og skader</a></li>
+<li class="lvl3"><a href="#til-1-8-koding-og-klassifisering-av-opplysningene-i-norsk-pasientregister-krav-til-dokumentasjon">Til § 1-8 Koding og klassifisering av opplysningene i Norsk pasientregister, krav til dokumentasjon</a></li>
+<li class="lvl3"><a href="#til-2-1-plikt-til-innsending-av-opplysninger-og-forhold-til-taushetsplikt">Til § 2-1 Plikt til innsending av opplysninger og forhold til taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-2-2-rutiner-for-innsending-mv">Til § 2-2 Rutiner for innsending mv.</a></li>
+<li class="lvl3"><a href="#til-2-3-avsenders-plikter-til-kvalitetskontroll">Til § 2-3 Avsenders plikter til kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-2-4-mottakers-ansvar-for-kvalitetskontroll">Til § 2-4 Mottakers ansvar for kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-3-1-statistikk-fra-norsk-pasientregister">Til § 3-1 Statistikk fra Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-3-2-tilrettelegging-av-avidentifiserte-opplysninger-i-norsk-pasientregister-og-sammenstilling-med-andre-registre">Til § 3-2 Tilrettelegging av avidentifiserte opplysninger i Norsk pasientregister og sammenstilling med andre registre</a></li>
+<li class="lvl3"><a href="#til-3-3-tilrettelegging-og-utlevering-av-opplysninger-for-aktivitetsbaserte-finansieringsordninger">Til § 3-3 Tilrettelegging og utlevering av opplysninger for aktivitetsbaserte finansieringsordninger</a></li>
+<li class="lvl3"><a href="#til-3-4-utlevering-av-avidentifiserte-opplysninger">Til § 3-4 Utlevering av avidentifiserte opplysninger</a></li>
+<li class="lvl3"><a href="#til-3-5-utlevering-av-statistiskeanonyme-opplysninger">Til § 3-5 Utlevering av statistiske/anonyme opplysninger</a></li>
+<li class="lvl3"><a href="#til-3-6-utlevering-og-annen-behandling-av-opplysninger-i-norsk-pasientregister">Til § 3-6 Utlevering og annen behandling av opplysninger i Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-3-7-behandling-av-opplysninger-fra-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">Til § 3-7 Behandling av opplysninger fra Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre</a></li>
+<li class="lvl3"><a href="#til-3-8-frister-for-utlevering">Til § 3-8 Frister for utlevering</a></li>
+<li class="lvl3"><a href="#til-3-9-kostnader">Til § 3-9 Kostnader</a></li>
+<li class="lvl3"><a href="#til-3-10-oversikt-over-utleveringer">Til § 3-10 Oversikt over utleveringer</a></li>
+<li class="lvl3"><a href="#til-3-11-informasjonsstrategi-rettet-mot-brukergrupper">Til § 3-11 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl3"><a href="#til-4-1-taushetsplikt">Til § 4-1 Taushetsplikt</a></li>
+<li class="lvl3"><a href="#til-4-2-informasjonssikkerhet">Til § 4-2 Informasjonssikkerhet</a></li>
+<li class="lvl3"><a href="#til-4-3-kryptering-og-tilgang-til-norsk-pasientregister">Til § 4-3 Kryptering og tilgang til Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-4-4-plikt-til-internkontroll">Til § 4-4 Plikt til internkontroll</a></li>
+<li class="lvl3"><a href="#til-4-5-internkontrollens-innhold">Til § 4-5 Internkontrollens innhold</a></li>
+<li class="lvl3"><a href="#til-4-6-forsterket-tilsyn-med-norsk-pasientregister">Til § 4-6 Forsterket tilsyn med Norsk pasientregister</a></li>
+<li class="lvl3"><a href="#til-5-1-den-registrertes-rett-til-informasjon-og-innsyn">Til § 5-1 Den registrertes rett til informasjon og innsyn</a></li>
+<li class="lvl3"><a href="#til-6-1-bevaring-av-helseopplysninger">Til § 6-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-6-2-bruk-av-opplysninger-underlagt-tidligere-konsesjoner">Til § 6-2 Bruk av opplysninger underlagt tidligere konsesjoner</a></li>
+<li class="lvl3"><a href="#til-7-1-overgangsbestemmelse">Til § 7-1 overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#til-7-2-palegg-tvangsmulkt-og-straff">Til § 7-2 Pålegg, tvangsmulkt og straff</a></li>
+<li class="lvl3"><a href="#til-7-3-ikraftsetting">Til § 7-3 Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-07-1389.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-07-1389.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-07-1389.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-12-07-1389.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-12-07-1389.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-07-1389.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-12-07-1389.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-12-07-1389.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-07-1389.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-innsamling-og-behandling-av-helseopplysninger-i-norsk-pasientregister-norsk-pasientregisterforskriften">Forskrift om innsamling og behandling av helseopplysninger i Norsk pasientregister (Norsk pasientregisterforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1 – Generelle bestemmelser</h2>
 <h4 id="1-1-etablering-av-norsk-pasientregister">§ 1-1. Etablering av Norsk pasientregister</h4>
 <p>Denne forskriften etablerer Norsk pasientregister. Forskriften gir regler om innsamling og behandling av helseopplysninger i registeret.</p>
@@ -86,24 +283,24 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. bidra til medisinsk og helsefaglig forskning, herunder forskning som kan gi viten om helsetjenester, behandlingseffekter, diagnoser, og sykdommers årsaker, utbredelse og forløp og forebyggende tiltak,
 b. danne grunnlag for etablering og kvalitetssikring av sykdoms- og kvalitetsregistre og videreformidling av kontaktopplysninger til den nasjonale kjernejournalen.
 c. bidra til kunnskap som grunnlag for forebygging av ulykker og skader.</p>
-<p><em>Endret ved forskrifter 16 des 2011 nr. 1257 (i kraft 1 jan 2012), 31 mai 2013 nr. 563 , 30 okt 2015 nr. 1237 (i kraft 1 nov 2015).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2011 nr. 1257 (i kraft 1 jan 2012), 31 mai 2013 nr. 563 , 30 okt 2015 nr. 1237 (i kraft 1 nov 2015).</p>
 <h4 id="1-3-forbud-mot-bruk">§ 1-3. Forbud mot bruk <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysningene i Norsk pasientregister kan ikke anvendes til formål som er uforenlig med formål som nevnt i § 1-2 .</p>
 <p>Opplysninger skal ikke brukes som grunnlag for enkeltvedtak eller andre individuelle beslutninger eller tiltak rettet mot de registrerte.</p>
-<p><em>Endret ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrift 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="1-4-dataansvarlig-og-databehandler">§ 1-4. Dataansvarlig og databehandler <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet er dataansvarlig for innsamling og behandling av helseopplysninger i Norsk pasientregister.</p>
 <p>Behandling av helseopplysninger skal skje i en avgrenset organisatorisk enhet i Folkehelseinstituttet. Denne enheten skal blant annet sørge for drift og kvalitetssikring av registeret, tilrettelegging og tilgjengeliggjøring av data og statistikk.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="1-5-norsk-pasientregisters-innhold">§ 1-5. Norsk pasientregisters innhold <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Norsk pasientregister kan inneholde helseopplysninger om alle som får helsehjelp i form av spesialisthelsetjeneste. Helsehjelp omfatter den som diagnostiseres, utredes, behandles mv., jf. pasient- og brukerrettighetsloven § 1-3 bokstav d.</p>
 <p>Registeret kan i forbindelse med registrering av skader og ulykker inneholde opplysninger fra akuttmottak ved sykehus, legevakter knyttet til sykehus og enkelte kommunale legevakter.</p>
 <p>Norsk pasientregister kan inneholde opplysninger om pasienter som mottar behandling i Norge, eller i utlandet etter henvisning fra spesialisthelsetjenesten i Norge.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 30 okt 2015 nr. 1237 (i kraft 1 nov 2015), 6 sep 2024 nr. 2090 (i kraft 1 jan 2025, endring endret ved forskrift 6 nov 2024 nr. 2743 ).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 30 okt 2015 nr. 1237 (i kraft 1 nov 2015), 6 sep 2024 nr. 2090 (i kraft 1 jan 2025, endring endret ved forskrift 6 nov 2024 nr. 2743 ).</p>
 <h4 id="1-5a-avidentifiserte-opplysninger">§ 1-5a. (Avidentifiserte opplysninger)</h4>
 <p>Med avidentifiserte opplysninger forstås i denne forskriften helseopplysninger der navn, fødselsnummer og andre personentydige kjennetegn er fjernet, slik at opplysningene ikke lenger kan knyttes til en enkeltperson, og hvor identitet bare kan tilbakeføres ved sammenstilling med de samme opplysninger som tidligere ble fjernet.</p>
-<p><em>Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
-<h4 id="1-6-opplysninger-i-norsk-pasientregister">§ 1-6. Opplysninger i Norsk pasientregister</h4>
+<p class="note">Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
+<h4 id="1-6-opplysninger-i-norsk-pasientregister">§ 1-6. Opplysninger i Norsk pasientregister <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når det er relevant og nødvendig for å fremme registerets hovedformål skal følgende opplysninger om personer nevnt i § 1-5 registreres i Norsk pasientregister uten samtykke fra den opplysningen gjelder:</p>
 <p><em>personopplysninger: fødselsnummer eller annet entydig identifikasjonsnummer bosted.
 administrative opplysninger: om henvisning om behandlende institusjon om konsultasjon og/eller innleggelse om pasientrettigheter om dødstidspunkt samtykkeadministrative opplysninger for sykdoms- og kvalitetsregistre.
@@ -118,7 +315,7 @@ c. skadested, skadetidspunkt
 d. arbeidsgivers bransje.</p>
 <h4 id="1-8-koding-og-klassifisering-av-opplysningene-i-norsk-pasientregister-krav-til-dokumentasjon">§ 1-8. Koding og klassifisering av opplysningene i Norsk pasientregister, krav til dokumentasjon</h4>
 <p>Folkehelseinsituttet skal kunne dokumentere hvilke klassifikasjoner og kodeverk som er benyttet ved enhver registrering i registeret.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-2-melding-av-helseopplysninger-til-norsk-pasientregister-kvalitetskontroll-mv">Kapittel 2 – Melding av helseopplysninger til Norsk pasientregister, kvalitetskontroll mv.</h2>
 <h4 id="2-1-plikt-til-innsending-av-opplysninger-og-forhold-til-taushetsplikt">§ 2-1. Plikt til innsending av opplysninger og forhold til taushetsplikt</h4>
 <p>Helsepersonell registrerer opplysninger som nevnt i § 1-6 og § 1-7 , jf. forskrift om pasientjournal. Helseforetak, offentlige og private helseinstitusjoner, eller annen virksomhet som nevnt i § 1-5 , skal sørge for å melde inn opplysninger etter § 1-6 og § 1-7 til Norsk pasientregister. Virksomheten skal sørge for at det finnes rutiner som sikrer dette.</p>
@@ -127,47 +324,47 @@ d. arbeidsgivers bransje.</p>
 <h4 id="2-2-rutiner-for-innsending-mv">§ 2-2. Rutiner for innsending mv.</h4>
 <p>Innsending av opplysninger skal følge de rutiner og tidsfrister som til enhver tid er fastsatt av Folkehelseinsituttet.</p>
 <p>Folkehelseinsituttet kan gi pålegg om bruk av bestemte klassifikasjonssystemer og kodeverk ved registrering av opplysningene, og om bruk av standardiserte meldingsformater ved forsendelsen av opplysningene.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="2-3-avsenders-plikter-til-kvalitetskontroll">§ 2-3. Avsenders plikter til kvalitetskontroll</h4>
 <p>Avsender skal kontrollere at data som rapporteres er komplette og kvalitetssikret i henhold til gjeldende krav til rapportering.</p>
 <h4 id="2-4-mottakers-ansvar-for-kvalitetskontroll">§ 2-4. Mottakers ansvar for kvalitetskontroll <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinsituttet skal sørge for at helseopplysninger som innsamles og behandles i Norsk pasientregister, er korrekte, relevante og nødvendige for de formål de innsamles for, jf. § 1-2 .</p>
 <p>Norsk pasientregister kan sammenlikne innsendte opplysninger med avsenders dokumentasjon. Slik kvalitetskontroll skal skje hos avsender og det skal kun gis innsyn i opplysninger som er relevante og nødvendige for et konkret angitt formål.</p>
 <p>Dersom innsendingen er mangelfull, skal avsenderen av opplysningene varsles, jf. helseregisterloven § 13 andre ledd andre punktum. Ved fortsatt mangelfull innsending kan statsforvalteren varsles.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 16 des 2011 nr. 1396 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 mars 2016 nr. 268 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 19 nov 2021 nr. 3235 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-3-behandling-av-helseopplysninger-i-norsk-pasientregister">Kapittel 3 – Behandling av helseopplysninger i Norsk pasientregister</h2>
 <h4 id="3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helseopplysninger i Norsk pasientregister skal behandles i samsvar med personvernforordningen , personopplysningsloven og de alminnelige vilkårene i helseregisterloven § 6 og reglene om taushetsplikt i helseregisterloven § 17 , jf. helsepersonelloven §§ 21 flg.</p>
 <p>Ved tilgjengeliggjøring og sammenstilling av opplysninger i registeret gjelder i tillegg helseregisterloven § 19 til § 19h .</p>
-<p><em>Endret ved forskrifter 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="3-2-tilrettelegging-og-tilgjengeliggjring-av-opplysninger-for-aktivitetsbaserte-finansieringsordninger-og-kommunal-medfinansiering-av-spesialisthelsetjenesten">§ 3-2. Tilrettelegging og tilgjengeliggjøring av opplysninger for aktivitetsbaserte finansieringsordninger og kommunal medfinansiering av spesialisthelsetjenesten <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysninger nødvendige for drift og utvikling av etablerte finansieringsordninger innen spesialisthelsetjenesten skal legges til rette av Norsk pasientregister og utleveres eller på annen måte tilgjengeliggjøres for Helsedirektoratet, herunder også HELFO, for gjennomføring av drift og utvikling. Det skal ikke tilgjengeliggjøres opplysninger med direkte personidentifiserbare kjennetegn.</p>
 <p>Opplysningene som mottas til formål som følger av første ledd skal slettes så snart oppgavene er utført og kan ikke oppbevares lenger enn inntil 5 år etter avsluttet driftsår.</p>
 <p>Opplysninger som skal benyttes til utredninger av vesentlige endringer eller utvidelser av ordningene som er nevnt i første ledd skal bare utleveres i henhold til § 3-1 i denne forskriften.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 16 des 2011 nr. 1257 (i kraft 1 jan 2012), 30 okt 2015 nr. 1237 (i kraft 1 nov 2015), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-3), 6 mai 2022 nr. 806 .</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 16 des 2011 nr. 1257 (i kraft 1 jan 2012), 30 okt 2015 nr. 1237 (i kraft 1 nov 2015), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-3), 6 mai 2022 nr. 806 .</p>
 <h4 id="3-3-tilgjengeliggjring-av-opplysninger-til-hjerte-og-karregisteret">§ 3-3. Tilgjengeliggjøring av opplysninger til Hjerte- og karregisteret <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Norsk pasientregister kan utlevere eller på annen måte tilgjengeliggjøre opplysninger som beskrevet i forskrift om nasjonalt register over hjerte- og karlidelser § 1-4 til Hjerte- og karregisteret.</p>
-<p><em>Tilføyd ved forskrift 16 des 2011 nr. 1250 (i kraft 1 jan 2012), endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6a).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2011 nr. 1250 (i kraft 1 jan 2012), endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6a).</p>
 <h4 id="3-4-tilgjengeliggjring-av-opplysninger-til-den-nasjonale-kjernejournalen">§ 3-4. Tilgjengeliggjøring av opplysninger til den nasjonale kjernejournalen <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Norsk pasientregister kan utlevere eller på annen måte tilgjengeliggjøre personidentifiserbare opplysninger til den nasjonale kjernejournalen, jf. forskrift 31. mai 2013 nr. 563 om nasjonal kjernejournal § 4 nr. 6 bokstav a.</p>
-<p><em>Tilføyd ved forskrift 31 mai 2013 nr. 563 , endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6b).</em></p>
-<h4 id="3-5-behandling-av-opplysninger-i-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">§ 3-5. Behandling av opplysninger i Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre</h4>
+<p class="note">Tilføyd ved forskrift 31 mai 2013 nr. 563 , endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-6b).</p>
+<h4 id="3-5-behandling-av-opplysninger-i-norsk-pasientregister-knyttet-til-sykdoms-og-kvalitetsregistre">§ 3-5. Behandling av opplysninger i Norsk pasientregister knyttet til sykdoms- og kvalitetsregistre <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Norsk pasientregister kan tilrettelegge, utlevere eller på annen måte tilgjengeliggjøre relevante og nødvendige opplysninger til sykdoms- og kvalitetsregistre for etablering og kvalitetskontroll. Sykdoms- og kvalitetsregistre skal ha selvstendig hjemmel for å behandle, herunder sammenstille, opplysninger fra Norsk pasientregister.</p>
 <p>Sammenstilling med sykdoms- og kvalitetsregistre skal ikke føre til at Norsk pasientregister får flere opplysninger enn det som følger av § 1-6 og § 1-7 .</p>
 <p>Eventuell kontakt med pasienter ved etablering av sykdoms- eller kvalitetsregistre skal ikke gjøres av Norsk pasientregister. Slik eventuell førstegangskontakt skal gjøres av behandlende institusjon. Dersom et sykdoms- eller kvalitetsregister eller annen institusjon skal kunne ta førstegangskontakt, kreves det dispensasjon fra taushetsplikten jf. helsepersonelloven § 29e .</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-7), 19 juni 2026 nr. 1242 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-7), 19 juni 2026 nr. 1242 (i kraft 1 juli 2026).</p>
 <h4 id="3-6-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-6. Informasjonsstrategi rettet mot brukergrupper <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å fremme bruken av data fra Norsk pasientregister og for å bygge opp informasjon og kunnskap, jf. forskriften § 1-2 , skalFolkehelseinsituttet ha en aktiv informasjonsstrategi og -plan rettet mot så vel helseforvaltningen, helsetjenesten og øvrig forvaltning, som mot forskere innen medisinsk forskning, helsetjenesteforskning og samfunnsforskning.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-11), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-11), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-4-taushetsplikt-informasjonssikkerhet-internkontroll-tilsyn">Kapittel 4 – Taushetsplikt, informasjonssikkerhet, internkontroll, tilsyn</h2>
 <h4 id="4-1-taushetsplikt">§ 4-1. Taushetsplikt</h4>
 <p>Enhver som behandler helseopplysninger etter denne forskriften, har taushetsplikt etter helseregisterloven § 17 .</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-2-informasjonssikkerhet">§ 4-2. Informasjonssikkerhet</h4>
 <p>Folkehelseinsituttet og Norsk pasientregister skal gjennomføre tekniske og organisatoriske tiltak for å oppnå et sikkerhetsnivå som er egnet med hensyn til risikoen, jf. personvernforordningen artikkel 32 og helseregisterloven § 21 .</p>
 <p>Sikkerhetstiltakene skal omfatte tiltak som ikke kan påvirkes eller omgås av ansatte hos Norsk pasientregister, og ikke være begrenset til handlinger den enkelte forutsettes å utføre. Det skal også etableres systemer for logging av elektroniske spor ved tilgjengeliggjøringer av opplysninger i registeret.</p>
 <p>Der behandling av helseopplysningene skjer ved hjelp av elektroniske hjelpemidler, skal direkte personidentifiserbare kjennetegn lagres kryptert.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="4-3-kryptering-og-tilgang-til-norsk-pasientregister">§ 4-3. Kryptering og tilgang til Norsk pasientregister</h4>
 <p>Direkte personidentifiserbare kjennetegn (fødselsnummer) i Norsk pasientregister skal lagres kryptert.</p>
 <p>Bare ansatte i den avgrensede organisatoriske enheten, Norsk pasientregister, jf. § 1-4 andre ledd, og den som arbeider under Norsk pasientregisters instruksjonsmyndighet, kan gis tilgang til opplysninger i Norsk pasientregister. Tilgang kan bare gis i den grad dette er nødvendig for vedkommendes arbeid.</p>
@@ -175,7 +372,7 @@ d. arbeidsgivers bransje.</p>
 <h4 id="4-4-plikt-til-internkontroll">§ 4-4. Plikt til internkontroll</h4>
 <p>Folkehelseinsituttet skal etablere internkontroll i samsvar med personvernforordningen artikkel 24, jf. helseregisterloven § 21 . Tiltakene skal sikre og påvise at behandlingen av opplysningene utføres i samsvar med personvernforordningen, personopplysningsloven og helseregisterloven.</p>
 <p>Norsk pasientregister skal behandle opplysninger i samsvar med rutiner Folkehelseinsituttet har oppstilt.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="4-5-internkontrollens-innhold">§ 4-5. Internkontrollens innhold <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Internkontroll innebærer at Folkehelseinsituttet skal ha kunnskap om gjeldende regler om behandling av helseopplysninger, tilstrekkelig og oppdatert dokumentasjon for gjennomføring av rutiner, samt ha denne dokumentasjonen tilgjengelig for dem den måtte angå. Internkontrollen skal blant annet inneholde:</p>
 <p>a. oversikt over hvordan virksomheten er organisert,
@@ -192,37 +389,37 @@ g. rutiner for hvordan virksomheten systematisk og regelmessig gjennomgår sin i
 h. rutiner for hvordan virksomheten sikrer seg at alle aktuelle og kun gjeldende rutiner blir benyttet, og
 i. rutiner for hvordan virksomheten sikrer at de ansatte har tilstrekkelig kompetanse til å overholde forskriftens krav.</p>
 <p>Skriftlig dokumentasjon skal minst omfatte dokumentasjon av rutiner som nevnt i første ledd bokstav a til i. Tilsynsmyndighetene kan gi pålegg om skriftlig dokumentasjon ut over dette dersom det anses påkrevd.</p>
-<p><em>Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2009 nr. 868 (i kraft 1 juli 2009), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 , 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="4-6-forsterket-tilsyn-med-norsk-pasientregister">§ 4-6. Forsterket tilsyn med Norsk pasientregister</h4>
 <p>Datatilsynet fører tilsyn med Norsk pasientregister, jf. helseregisterloven § 26 og personopplysningsloven § 20 . Norsk pasientregister skal årlig gi Datatilsynet rapport om virksomheten.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-5-den-registrertes-rett-til-informasjon-og-innsyn">Kapittel 5 – Den registrertes rett til informasjon og innsyn</h2>
 <h4 id="5-1-den-registrertes-rett-til-informasjon-og-innsyn">§ 5-1. Den registrertes rett til informasjon og innsyn <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registrerte har rett til informasjon om Norsk pasientregister og innsyn i behandling av helseopplysninger om seg selv i samsvar med personvernforordningen artikkel 13 til 15, jf. helseregisterloven § 24 . Registrerte har rett til innsyn i utleveringer som gis i personidentifiserbar form. Er den registrerte mindreårig, gjelder pasient- og brukerrettighetsloven § 3-4 tilsvarende.</p>
 <p>Innsyn i helseopplysninger om en selv skal fortrinnsvis gis gjennom den registrertes sist behandlende lege og helseinstitusjon. Informasjonen skal gis i en forståelig form.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="5-2-frist-for-a-svare-pa-henvendelser-om-innsyn">§ 5-2. Frist for å svare på henvendelser om innsyn</h4>
 <p>Begjæringer om innsyn etter § 5-1 skal besvares uten ugrunnet opphold og senest én måned etter henvendelsen kom inn, jf. personvernforordningen artikkel 12 nr. 3.</p>
 <p>Dersom særlige forhold gjør det umulig å svare på henvendelsen innen én måned, kan gjennomføringen utsettes med ytterligere to måneder. Den dataansvarlige skal i så fall gi et foreløpig svar med opplysninger om grunnen til forsinkelsen og sannsynlig tidspunkt for når svar kan gis.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-6-bevaring-av-helseopplysninger-i-norsk-pasientregister">Kapittel 6 – Bevaring av helseopplysninger i Norsk pasientregister</h2>
 <h4 id="6-1-bevaring-av-helseopplysninger">§ 6-1. Bevaring av helseopplysninger</h4>
 <p>Opplysninger i Norsk pasientregister skal oppbevares i ubegrenset tid, med mindre annet følger av denne forskriften eller helseregisterloven § 25 .</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="6-2-bevaring-og-bruk-av-opplysninger-underlagt-tidligere-konsesjoner">§ 6-2. Bevaring og bruk av opplysninger underlagt tidligere konsesjoner</h4>
 <p>Avidentifiserte opplysninger samlet inn fra perioden 1997 kan bevares i ubegrenset tid, med mindre annet følger av denne forskriften eller helseregisterloven § 25 .</p>
 <p>De avidentifiserte opplysningene kan brukes i tråd med registerets daværende konsesjon og formål.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7 – Avsluttende bestemmelser</h2>
 <h4 id="7-1-overgangsbestemmelse">§ 7-1. Overgangsbestemmelse</h4>
 <p>Det er kun pasienter som behandles etter ikrafttredelse av lov 16. februar 2007 nr. 7 om etablering av Norsk pasientregister som er lovbestemt register som skal registreres i det personidentifiserbare Norsk pasientregister. For pasienter som behandles etter lovens ikrafttredelse, men som ble henvist til spesialisthelsetjenesten før lovendringen trådte i kraft, vil henvisningsdata registreres i det personidentifiserbare Norsk pasientregister.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="7-2-overtredelsesgebyr-straff-og-erstatning">§ 7-2. Overtredelsesgebyr, straff og erstatning</h4>
 <p>Datatilsynet kan ved brudd på forskriften ilegge overtredelsesgebyr etter personvernforordningen artikkel 83 og personopplysningsloven § 26 og § 27 , jf. helseregisterloven § 29 .</p>
 <p>Den som forsettlig eller grovt uaktsomt overtrer bestemmelser fastsatt i denne forskriften § 4-1 straffes med bøter eller fengsel inntil ett år eller begge deler.</p>
 <p>Den dataansvarlige og databehandleren skal erstatte skade som er oppstått som følge av at helseopplysninger er behandlet i strid med personvernforordningen, helseregisterloven og denne forskriften, jf. helseregisterloven § 31 .</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
-<h4 id="7-3-ikraftsetting">§ 7-3. Ikraftsetting</h4>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
+<h4 id="7-3-ikraftsetting">§ 7-3. Ikraftsetting <a class="para-history" href="../historikk/forskrift-2007-12-07-1389/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften trer i kraft fra den tid departementet bestemmer. 1</p>
 <p><em>1 I kraft 15 april 2009, jf. vedtak 14 april 2009 nr. 408 .</em></p>
 <h4 id="7-4-endringer-i-andre-forskrifter">§ 7-4. Endringer i andre forskrifter</h4>
@@ -413,6 +610,8 @@ i. rutiner for hvordan virksomheten sikrer at de ansatte har tilstrekkelig kompe
 <h3 id="til-7-3-ikraftsetting">Til § 7-3 Ikraftsetting</h3>
 <p>Bestemmelsen fastslår at denne forskriften trer i kraft den tid departementet bestemmer.</p>
 <p>Merknadene endret ved forskrifter 16 des 2011 nr. 1250 (i kraft 1 jan 2012), 17 jan 2013 nr. 61 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

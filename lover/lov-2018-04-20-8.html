@@ -19,82 +19,207 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2018-04-20-8.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Grenseloven" href="../feeds/lov-2018-04-20-8.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Grenseloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2018-04-20-8</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Forvaltnings- og kommunalrett &raquo; Politi\nStats-, statsforfatnings- og statsborgerrett &raquo; Grenser\nTransport og kommunikasjoner &raquo; Havner\nUtlendingsrett</dd>
-<dt>Ikrafttredelse</dt><dd>2022-05-01, 2025-10-12</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-46</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2018-04-20-8" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-lovens-saklige-virkeomrade-og-forholdet-til-andre-regler">§ 2. Lovens saklige virkeområde og forholdet til andre regler</a></li>
+<li class="lvl4"><a href="#3-lovens-stedlige-virkeomrade">§ 3. Lovens stedlige virkeområde</a></li>
+<li class="lvl4"><a href="#4-politiets-ansvar-og-samarbeid-med-andre-myndigheter">§ 4. Politiets ansvar og samarbeid med andre myndigheter</a></li>
+<li class="lvl4"><a href="#5-ansvar-for-srlige-tilsynsfunksjoner">§ 5. Ansvar for særlige tilsynsfunksjoner</a></li>
+<li class="lvl4"><a href="#6-forsvarets-myndighetsutvelse-og-bistand-til-politiets-grensekontroll">§ 6. Forsvarets myndighetsutøvelse og bistand til politiets grensekontroll</a></li>
+<li class="lvl4"><a href="#7-tolletatens-bistand-til-politiets-inn-og-utreisekontroll">§ 7. Tolletatens bistand til politiets inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#8-gjennomfring-av-eu-rettsakter-og-bistand-fra-europeiske-grensekontrollteam">§ 8. Gjennomføring av EU-rettsakter og bistand fra europeiske grensekontrollteam</a></li>
+<li class="lvl2"><a href="#kapittel-2-riksgrensen-og-grensenre-omrader">Kapittel 2. Riksgrensen og grensenære områder</a></li>
+<li class="lvl4"><a href="#9-rydding-og-radighet-i-grensegaten">§ 9. Rydding og rådighet i grensegaten</a></li>
+<li class="lvl4"><a href="#10-radighetsbegrensninger-i-grensenre-omrader">§ 10. Rådighetsbegrensninger i grensenære områder</a></li>
+<li class="lvl4"><a href="#11-adferdsregler">§ 11. Adferdsregler</a></li>
+<li class="lvl4"><a href="#12-ekstraordinre-adgangsbegrensninger">§ 12. Ekstraordinære adgangsbegrensninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-grensepassering-og-inn-og-utreisekontroll">Kapittel 3. Grensepassering og inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#13-passering-av-ytre-schengen-grense">§ 13. Passering av ytre Schengen-grense</a></li>
+<li class="lvl4"><a href="#14-passering-av-indre-schengen-grense">§ 14. Passering av indre Schengen-grense</a></li>
+<li class="lvl4"><a href="#15-gjennomfring-av-inn-og-utreisekontroll">§ 15. Gjennomføring av inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#16-forhandsmelding-om-reisende-og-mannskap">§ 16. Forhåndsmelding om reisende og mannskap</a></li>
+<li class="lvl4"><a href="#16-a-forhandsmelding-om-passasjerer-pnr-opplysninger">§ 16 a. Forhåndsmelding om passasjerer (PNR-opplysninger)</a></li>
+<li class="lvl4"><a href="#17-kontroll-av-sjfolk-som-fratrer-stilling-pa-farty-mv">§ 17. Kontroll av sjøfolk som fratrer stilling på fartøy mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-grenseovervaking">Kapittel 4. Grenseovervåking</a></li>
+<li class="lvl4"><a href="#18-definisjon">§ 18. Definisjon</a></li>
+<li class="lvl4"><a href="#19-overvaking-av-ytre-schengen-grense">§ 19. Overvåking av ytre Schengen-grense</a></li>
+<li class="lvl4"><a href="#20-overvaking-av-indre-schengen-grense">§ 20. Overvåking av indre Schengen-grense</a></li>
+<li class="lvl4"><a href="#21-kontroll-av-personer-ved-grenseovervaking">§ 21. Kontroll av personer ved grenseovervåking</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-personopplysninger-og-taushetsplikt">Kapittel 5. Behandling av personopplysninger og taushetsplikt</a></li>
+<li class="lvl4"><a href="#22-behandling-av-opplysninger-til-gjennomfring-av-grensekontroll">§ 22. Behandling av opplysninger til gjennomføring av grensekontroll</a></li>
+<li class="lvl4"><a href="#22-a-testing-og-utvikling">§ 22 a. Testing og utvikling</a></li>
+<li class="lvl4"><a href="#23-overvakingsmetoder-og-bruk-av-teknisk-overvakingsutstyr">§ 23. Overvåkingsmetoder og bruk av teknisk overvåkingsutstyr</a></li>
+<li class="lvl4"><a href="#24-taushetsplikt">§ 24. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-5a-screening">Kapittel 5A. Screening</a></li>
+<li class="lvl4"><a href="#24-a-behandling-av-personopplysninger-for-gjennomfring-av-screening">§ 24 a. Behandling av personopplysninger for gjennomføring av screening</a></li>
+<li class="lvl4"><a href="#24-b-utlendingens-plikt-til-a-vre-tilgjengelig">§ 24 b. Utlendingens plikt til å være tilgjengelig</a></li>
+<li class="lvl4"><a href="#24-c-utlendingens-opplysningsplikt-bruk-av-tvang">§ 24 c. Utlendingens opplysningsplikt. Bruk av tvang</a></li>
+<li class="lvl2"><a href="#kapittel-6-forskrifter-straff-og-ikrafttredelse-mv">Kapittel 6. Forskrifter, straff og ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#25-forskrifter">§ 25. Forskrifter</a></li>
+<li class="lvl4"><a href="#26-straff">§ 26. Straff</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse">§ 27. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#28-oppheving-av-og-endringer-i-andre-lover">§ 28. Oppheving av og endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-46.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-04-20-8.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om grensetilsyn og grensekontroll av personer (grenseloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-04-20-8.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2018-04-20-8 <code>lov/2018-04-20-8</code></td></tr>
+<tr><th>Korttittel</th><td>Grenseloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Forvaltnings- og kommunalrett &raquo; Politi\nStats-, statsforfatnings- og statsborgerrett &raquo; Grenser\nTransport og kommunikasjoner &raquo; Havner\nUtlendingsrett</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.05.2022, 12.10.2025</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-46 <code>lov/2026-06-19-46</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2018-04-20-8" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-lovens-saklige-virkeomrade-og-forholdet-til-andre-regler">§ 2. Lovens saklige virkeområde og forholdet til andre regler</a></li>
+<li class="lvl4"><a href="#3-lovens-stedlige-virkeomrade">§ 3. Lovens stedlige virkeområde</a></li>
+<li class="lvl4"><a href="#4-politiets-ansvar-og-samarbeid-med-andre-myndigheter">§ 4. Politiets ansvar og samarbeid med andre myndigheter</a></li>
+<li class="lvl4"><a href="#5-ansvar-for-srlige-tilsynsfunksjoner">§ 5. Ansvar for særlige tilsynsfunksjoner</a></li>
+<li class="lvl4"><a href="#6-forsvarets-myndighetsutvelse-og-bistand-til-politiets-grensekontroll">§ 6. Forsvarets myndighetsutøvelse og bistand til politiets grensekontroll</a></li>
+<li class="lvl4"><a href="#7-tolletatens-bistand-til-politiets-inn-og-utreisekontroll">§ 7. Tolletatens bistand til politiets inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#8-gjennomfring-av-eu-rettsakter-og-bistand-fra-europeiske-grensekontrollteam">§ 8. Gjennomføring av EU-rettsakter og bistand fra europeiske grensekontrollteam</a></li>
+<li class="lvl2"><a href="#kapittel-2-riksgrensen-og-grensenre-omrader">Kapittel 2. Riksgrensen og grensenære områder</a></li>
+<li class="lvl4"><a href="#9-rydding-og-radighet-i-grensegaten">§ 9. Rydding og rådighet i grensegaten</a></li>
+<li class="lvl4"><a href="#10-radighetsbegrensninger-i-grensenre-omrader">§ 10. Rådighetsbegrensninger i grensenære områder</a></li>
+<li class="lvl4"><a href="#11-adferdsregler">§ 11. Adferdsregler</a></li>
+<li class="lvl4"><a href="#12-ekstraordinre-adgangsbegrensninger">§ 12. Ekstraordinære adgangsbegrensninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-grensepassering-og-inn-og-utreisekontroll">Kapittel 3. Grensepassering og inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#13-passering-av-ytre-schengen-grense">§ 13. Passering av ytre Schengen-grense</a></li>
+<li class="lvl4"><a href="#14-passering-av-indre-schengen-grense">§ 14. Passering av indre Schengen-grense</a></li>
+<li class="lvl4"><a href="#15-gjennomfring-av-inn-og-utreisekontroll">§ 15. Gjennomføring av inn- og utreisekontroll</a></li>
+<li class="lvl4"><a href="#16-forhandsmelding-om-reisende-og-mannskap">§ 16. Forhåndsmelding om reisende og mannskap</a></li>
+<li class="lvl4"><a href="#16-a-forhandsmelding-om-passasjerer-pnr-opplysninger">§ 16 a. Forhåndsmelding om passasjerer (PNR-opplysninger)</a></li>
+<li class="lvl4"><a href="#17-kontroll-av-sjfolk-som-fratrer-stilling-pa-farty-mv">§ 17. Kontroll av sjøfolk som fratrer stilling på fartøy mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-grenseovervaking">Kapittel 4. Grenseovervåking</a></li>
+<li class="lvl4"><a href="#18-definisjon">§ 18. Definisjon</a></li>
+<li class="lvl4"><a href="#19-overvaking-av-ytre-schengen-grense">§ 19. Overvåking av ytre Schengen-grense</a></li>
+<li class="lvl4"><a href="#20-overvaking-av-indre-schengen-grense">§ 20. Overvåking av indre Schengen-grense</a></li>
+<li class="lvl4"><a href="#21-kontroll-av-personer-ved-grenseovervaking">§ 21. Kontroll av personer ved grenseovervåking</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-personopplysninger-og-taushetsplikt">Kapittel 5. Behandling av personopplysninger og taushetsplikt</a></li>
+<li class="lvl4"><a href="#22-behandling-av-opplysninger-til-gjennomfring-av-grensekontroll">§ 22. Behandling av opplysninger til gjennomføring av grensekontroll</a></li>
+<li class="lvl4"><a href="#22-a-testing-og-utvikling">§ 22 a. Testing og utvikling</a></li>
+<li class="lvl4"><a href="#23-overvakingsmetoder-og-bruk-av-teknisk-overvakingsutstyr">§ 23. Overvåkingsmetoder og bruk av teknisk overvåkingsutstyr</a></li>
+<li class="lvl4"><a href="#24-taushetsplikt">§ 24. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-5a-screening">Kapittel 5A. Screening</a></li>
+<li class="lvl4"><a href="#24-a-behandling-av-personopplysninger-for-gjennomfring-av-screening">§ 24 a. Behandling av personopplysninger for gjennomføring av screening</a></li>
+<li class="lvl4"><a href="#24-b-utlendingens-plikt-til-a-vre-tilgjengelig">§ 24 b. Utlendingens plikt til å være tilgjengelig</a></li>
+<li class="lvl4"><a href="#24-c-utlendingens-opplysningsplikt-bruk-av-tvang">§ 24 c. Utlendingens opplysningsplikt. Bruk av tvang</a></li>
+<li class="lvl2"><a href="#kapittel-6-forskrifter-straff-og-ikrafttredelse-mv">Kapittel 6. Forskrifter, straff og ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#25-forskrifter">§ 25. Forskrifter</a></li>
+<li class="lvl4"><a href="#26-straff">§ 26. Straff</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse">§ 27. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#28-oppheving-av-og-endringer-i-andre-lover">§ 28. Oppheving av og endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-04-20-8.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-04-20-8.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-04-20-8.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2018-04-20-8.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2018-04-20-8.html">Observerte kildeutgaver</a> · <a href="../historie/grenseloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2018-04-20-8.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2018-04-20-8.html">Observerte kildeutgaver</a> · <a href="../historie/grenseloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2018-04-20-8.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-grensetilsyn-og-grensekontroll-av-personer-grenseloven">Lov om grensetilsyn og grensekontroll av personer (grenseloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Loven skal sikre at grensetilsyn og grensekontroll av personer utføres i samsvar med nasjonale behov og internasjonale forpliktelser, herunder tydeliggjøre ansvar og styring og fremme samarbeid mellom berørte myndigheter. Loven skal også legge til rette for lovlig bevegelse over grensene og bidra til å bekjempe grensekryssende kriminalitet, ulovlig innvandring og trusler mot folkehelsen.</p>
-<p><em>Endret ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Endret ved lov 29 april 2022 nr. 26 .</p>
 <h4 id="2-lovens-saklige-virkeomrade-og-forholdet-til-andre-regler">§ 2. Lovens saklige virkeområde og forholdet til andre regler</h4>
 <p>Loven gir regler om rettslige og fysiske forhold i tilknytning til riksgrensen og om grensepassering og grensekontroll av personer. Loven gir også regler om gjennomføring av screening etter forordning (EU) 2024/1356 . Regler om utlendingers adgang til riket og deres opphold her følger av <a href="lov-2008-05-15-35.html">utlendingsloven</a> .</p>
 <p>Loven gjelder med de begrensninger som er anerkjent i folkeretten eller følger av overenskomst med annen stat.</p>
 <p>Loven gjelder ikke militære oppgaver, herunder for å hevde suverenitet og suverene rettigheter, kontroll av vareførselen etter tolloven , eller annen kontrollvirksomhet på eller ved grensen etter annen lov.</p>
-<p><em>Endret ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Endret ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h4 id="3-lovens-stedlige-virkeomrade">§ 3. Lovens stedlige virkeområde</h4>
 <p>Loven gjelder i riket, på og ved innretninger og anlegg som nyttes på eller er tilknyttet norsk kontinentalsokkel, og i tilstøtende sone, jf. lov 27. juni 2003 nr. 57 om Norges territorialfarvann og tilstøtende sone § 4 .</p>
 <p>Loven gjelder på annen stats jurisdiksjonsområde når det følger av avtale med staten, og på områder hvor ingen stat har suverenitet når det følger av folkeretten.</p>
-<p><em>Endret ved lov 20 des 2023 nr. 110 (i kraft 24 mai 2024 iflg. res. 24 mai 2024 nr. 811 ).</em></p>
+<p class="note">Endret ved lov 20 des 2023 nr. 110 (i kraft 24 mai 2024 iflg. res. 24 mai 2024 nr. 811 ).</p>
 <h4 id="4-politiets-ansvar-og-samarbeid-med-andre-myndigheter">§ 4. Politiets ansvar og samarbeid med andre myndigheter</h4>
 <p>Politiet har ansvar for utøvelsen av grenseovervåking og inn- og utreisekontroll av personer etter loven. Myndighetsutøvelse på vegne av politiet og bistand til politiets grensekontroll etter §§ 6 og 7 utføres under politiets ansvar og ledelse.</p>
 <p>Politiet skal samarbeide med andre myndigheter som er tillagt oppgaver som berører politiets oppgaver etter loven.</p>
 <p>Politiet er screeningmyndighet etter forordning (EU) 2024/1356 . Departementet kan gi forskrift om at også andre myndigheter skal utøve myndighet etter forordningen.</p>
-<p><em>Endret ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Endret ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h4 id="5-ansvar-for-srlige-tilsynsfunksjoner">§ 5. Ansvar for særlige tilsynsfunksjoner</h4>
 <p>Kongen oppnevner myndighet med ansvar for å ivareta særlige forpliktelser og tilsynsfunksjoner i tilknytning til riksgrensen, og fastsetter instruks for myndighetens virksomhet.</p>
 <h4 id="6-forsvarets-myndighetsutvelse-og-bistand-til-politiets-grensekontroll">§ 6. Forsvarets myndighetsutøvelse og bistand til politiets grensekontroll</h4>
@@ -132,7 +257,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Forordning (EU) 2024/1356 om innføring av screening av tredjelandsborgere ved de ytre grensene (screeningforordningen).</li>
 </ol>
 <p>Europeiske grensekontrollteam kan etter anmodning bistå politiet med gjennomføring av grensekontroll. Politiloven § 20 a annet og tredje ledd får tilsvarende anvendelse for utenlandske tjenestemenn som deltar under utførelsen av slike bistandsoppgaver.</p>
-<p><em>Endret ved lover 29 april 2022 nr. 26 , 21 juni 2024 nr. 47 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1876 , endring endret ved lov 20 juni 2025 nr. 85 ), 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Endret ved lover 29 april 2022 nr. 26 , 21 juni 2024 nr. 47 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1876 , endring endret ved lov 20 juni 2025 nr. 85 ), 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h2 id="kapittel-2-riksgrensen-og-grensenre-omrader">Kapittel 2. Riksgrensen og grensenære områder</h2>
 <h4 id="9-rydding-og-radighet-i-grensegaten">§ 9. Rydding og rådighet i grensegaten</h4>
 <p>Langs riksgrensen løper en grensegate med bredde som avtalt med nabostat. Det er forbudt for grunneier og andre å utøve rådighet i grensegaten med mindre det er gitt samtykke etter annet ledd.</p>
@@ -159,7 +284,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ytre Schengen-grense skal passeres over grenseovergangssted fastsatt av departementet eller den departementet gir fullmakt, og innenfor fastsatte åpningstider.</p>
 <p>Ved passering av grensen plikter enhver straks å fremstille seg for inn- og utreisekontroll.</p>
 <p>Kongen gir forskrift om grensepassering og om unntak fra kravene i første og annet ledd.</p>
-<p><em>Endret ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Endret ved lov 29 april 2022 nr. 26 .</p>
 <h4 id="14-passering-av-indre-schengen-grense">§ 14. Passering av indre Schengen-grense</h4>
 <p>Indre Schengen-grense kan passeres hvor som helst med mindre grensekontroll er midlertidig gjeninnført, jf. annet og tredje ledd.</p>
 <p>Departementet kan beslutte å gjeninnføre grensekontroll midlertidig på hele eller deler av indre Schengen-grense dersom det foreligger en alvorlig trussel mot offentlig orden eller indre sikkerhet.</p>
@@ -176,10 +301,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ved inn- og utreisekontroll skal det påses at enhver har pass eller annet legitimasjonsdokument som er godkjent som reisedokument etter utlendingsloven , at visumpliktige har gyldig visum, og at det ikke er grunnlag for bortvisning etter utlendingsloven §§ 17 eller 121 .</p>
 <p>Ved inn- og utreisekontroll kan det også foretas andre former for identitetskontroll, herunder iriskontroll, kontroll av fingeravtrykk og ansiktsgjenkjenning.</p>
 <p>Politiet kan visitere person og undersøke transportmidler for å fremskaffe pass eller annet legitimasjonsdokument dersom det ikke fremvises, eller det er grunn til mistanke om at den oppgitte identiteten er falsk eller at personen skjuler andres legitimasjonsdokumenter. Transportmidler kan også undersøkes for å fastslå om det finnes personer der som forsøker å unndra seg inn- og utreisekontroll.</p>
-<p><em>Endret ved lover 29 april 2022 nr. 26 , 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</em></p>
+<p class="note">Endret ved lover 29 april 2022 nr. 26 , 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</p>
 <h4 id="16-forhandsmelding-om-reisende-og-mannskap">§ 16. Forhåndsmelding om reisende og mannskap</h4>
 <p>Transportør av luftfartøy som kommer fra eller går til utlandet, og fører av sjøfartøy på vei til eller fra indre farvann eller norsk havn, skal, med mindre annet er bestemt, oversende opplysninger om reisende og mannskap til politiet, og melde planlagt tid og sted for ankomst eller anløp og avreise.</p>
-<p><em>Endret ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Endret ved lov 29 april 2022 nr. 26 .</p>
 <h4 id="16-a-forhandsmelding-om-passasjerer-pnr-opplysninger">§ 16 a. Forhåndsmelding om passasjerer (PNR-opplysninger)</h4>
 <p>For det formål å bekjempe terrorisme og annen alvorlig kriminalitet plikter luftfartsselskaper ved flyvning til eller fra utlandet å overføre opplysninger om passasjerene (PNR-opplysninger) til PNR-enheten. Opplysningene skal overføres i samme omfang som de er innsamlet i selskapenes ordinære forretningsdrift.</p>
 <p>Dersom flyturen deles med ett eller flere luftfartsselskaper, skal selskapet som utfører flyvningen overføre PNR-opplysningene over samtlige passasjerer.</p>
@@ -192,17 +317,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Når det unntaksvis er nødvendig med tilgang til PNR-opplysninger for å avverge en konkret og reell trussel i forbindelse med terrorhandlinger eller alvorlig kriminalitet, skal luftfartsselskapene etter anmodning fra PNR-enheten overføre PNR-opplysninger til andre tidspunkter enn de som er nevnt i tredje ledd nr. 1 og 2.</p>
 <p>Luftfartsselskapene skal overføre PNR-opplysningene i elektronisk form til PNR-enheten.</p>
 <p>Kongen gir forskrift om behandling av PNR-opplysninger, og kan gi forskrift om overføringen av slike opplysninger til andre tidspunkter enn de som er nevnt i tredje ledd.</p>
-<p><em>Tilføyd ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Tilføyd ved lov 29 april 2022 nr. 26 .</p>
 <h4 id="17-kontroll-av-sjfolk-som-fratrer-stilling-pa-farty-mv">§ 17. Kontroll av sjøfolk som fratrer stilling på fartøy mv.</h4>
 <p>En utlending som fratrer sin stilling om bord på et sjøfartøy, kan ikke forlate fartøyet før innreisekontrollen skal gjennomføres. Det samme gjelder en utlending som er blindpassasjer om bord i et sjøfartøy. Politiet bestemmer hvor og når innreisekontrollen skal finne sted.</p>
-<p><em>Endret ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Endret ved lov 29 april 2022 nr. 26 .</p>
 <h2 id="kapittel-4-grenseovervaking">Kapittel 4. Grenseovervåking</h2>
 <h4 id="18-definisjon">§ 18. Definisjon</h4>
 <p>Med grenseovervåking forstås overvåking av grenseovergangssteder og grensene på strekningene mellom grenseovergangssteder for å forhindre at personer omgår inn- og utreisekontrollen, for å avdekke uautoriserte grensepasseringer, bidra til skjerpet situasjonsbevissthet, bekjempe grensekryssende kriminalitet og iverksette tiltak mot personer som har passert grensen ulovlig.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</p>
 <h4 id="19-overvaking-av-ytre-schengen-grense">§ 19. Overvåking av ytre Schengen-grense</h4>
 <p>Politiet kan overvåke ytre Schengen-grense med nærliggende områder, territorialfarvannet og tilstøtende sone samt ferdselen til og fra de overvåkede områdene.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ).</p>
 <h4 id="20-overvaking-av-indre-schengen-grense">§ 20. Overvåking av indre Schengen-grense</h4>
 <p>Indre Schengen-grense kan bare overvåkes sporadisk eller når grensekontroll er midlertidig gjeninnført etter § 14 .</p>
 <h4 id="21-kontroll-av-personer-ved-grenseovervaking">§ 21. Kontroll av personer ved grenseovervåking</h4>
@@ -214,13 +339,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Politiet kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av grensekontroll etter loven.</p>
 <p>Politiet kan behandle opplysninger om reisende i et register som grunnlag for gjennomføring av inn- og utreisekontroll. Registeret kan kobles til andre registre med opplysninger som er nødvendige for gjennomføring av inn- og utreisekontroll.</p>
 <p>Biometriske opplysninger (ansiktsbilde og fingeravtrykk) kan innhentes elektronisk av alle som passerer grensekontroll eller annet kontrollsted for kontroll av reisedokumenter. Opplysningene skal tilintetgjøres så snart som mulig etter at identiteten er verifisert mot gyldig reisedokument, eller når identiteten er fastslått på annen måte, med unntak av tilfeller som nevnt i § 22 a annet ledd .</p>
-<p><em>Endret ved lover 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ), 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ), 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</p>
 <h4 id="22-a-testing-og-utvikling">§ 22 a. Testing og utvikling</h4>
 <p>Opplysninger som behandles i medhold av § 22 første og annet ledd , kan behandles for å utvikle og teste informasjonssystemer til bruk for grensekontrollformål dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysningene skal ikke brukes til testing og utvikling lenger enn nødvendig.</p>
 <p>Politiet kan også lagre ansiktsbilder og fingeravtrykk innhentet i medhold av § 22 tredje ledd i inntil seks måneder dersom det er nødvendig for å teste og utvikle informasjonssystemer til bruk for grensekontrollformål, dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger. Opplysninger som lagres etter dette leddet, kan bare behandles til dette formålet.</p>
 <p>Opplysninger som behandles etter annet ledd i bestemmelsen her, skal holdes atskilt. Tilgang skal bare gis til personer som er særskilt bemyndiget. Bemyndigelse gis av den behandlingsansvarlige.</p>
 <p>Ansiktsbilder og fingeravtrykk skal slettes i form av tilintetgjøring, jf. <a href="lov-2025-06-20-96.html">arkivlova</a> § 13 annet ledd .</p>
-<p><em>Tilføyd ved lov 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</p>
 <h4 id="23-overvakingsmetoder-og-bruk-av-teknisk-overvakingsutstyr">§ 23. Overvåkingsmetoder og bruk av teknisk overvåkingsutstyr</h4>
 <p>Grenseovervåking kan skje fra faste og mobile enheter og ved bruk av kamera og andre tekniske, herunder elektroniske, hjelpemidler.</p>
 <p>Det skal settes opp synlig varsel om grenseovervåking langs landegrensen og ved grenseovergangssteder der teknisk overvåkingsutstyr kan bli brukt periodisk eller permanent.</p>
@@ -232,17 +357,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="24-a-behandling-av-personopplysninger-for-gjennomfring-av-screening">§ 24 a. Behandling av personopplysninger for gjennomføring av screening</h4>
 <p>Screeningmyndigheten kan behandle personopplysninger, herunder særlige kategorier av personopplysninger, som er nødvendige for gjennomføring av oppgaver etter forordning (EU) 2024/1356 , jf. § 8 første ledd nr. 6 .</p>
 <p>Screeningmyndigheten skal uten hinder av taushetsplikt utlevere til utlendingsmyndighetene opplysninger som er nødvendige for utførelsen av deres oppgaver.</p>
-<p><em>Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h4 id="24-b-utlendingens-plikt-til-a-vre-tilgjengelig">§ 24 b. Utlendingens plikt til å være tilgjengelig</h4>
 <p>Utlendinger som gjennomgår screening etter forordning (EU) 2024/1356 , jf. § 8 første ledd nr. 6 , skal være tilgjengelige for screeningmyndigheten på det stedet screeningmyndigheten gir anvisning på, frem til screeningen er avsluttet.</p>
-<p><em>Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h4 id="24-c-utlendingens-opplysningsplikt-bruk-av-tvang">§ 24 c. Utlendingens opplysningsplikt. Bruk av tvang</h4>
 <p>Utlendinger som gjennomgår screening, plikter å oppgi personopplysninger, herunder avgi biometriske opplysninger, i henhold til forordning (EU) 2024/1356 artikkel 9 nr. 2, jf. § 8 første ledd nr. 6 . Biometriske opplysninger som allerede er innhentet etter utlendingsloven § 100 , kan gjenbrukes for gjennomføring av screening.</p>
 <p>Politimesteren eller den politimesteren gir fullmakt, kan beslutte at biometriske opplysninger skal innhentes med tvang. Den politimesteren gir fullmakt, må være jurist.</p>
 <p>Tvang kan bare brukes når det er nødvendig og forholdsmessig.</p>
 <p>Forvaltningslovens regler om enkeltvedtak gjelder ikke for beslutninger om bruk av tvang etter bestemmelsen her.</p>
 <p>Utlendingen kan kreve spørsmålet om rettmessigheten av tvangsinngrepet brakt inn for retten. Screeningmyndigheten sørger for at utlendingen blir gjort kjent med denne retten. Ved slik domstolsbehandling gjelder bestemmelsene i <a href="lov-1981-05-22-25.html">straffeprosessloven</a> kapittel 26 tilsvarende så langt de passer.</p>
-<p><em>Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</em></p>
+<p class="note">Tilføyd ved lov 12 juni 2026 nr. 31 (i kraft 12 juni 2026 kl. 15.00 iflg. res. 12 juni 2026 nr. 1058 ).</p>
 <h2 id="kapittel-6-forskrifter-straff-og-ikrafttredelse-mv">Kapittel 6. Forskrifter, straff og ikrafttredelse mv.</h2>
 <h4 id="25-forskrifter">§ 25. Forskrifter</h4>
 <p>Kongen kan gi forskrift om gjennomføring av loven, blant annet om</p>
@@ -262,10 +387,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>gjennomføringen av forordning (EU) 2019/817 artikkel 20 og forordning (EU) 2019/818 artikkel 20,</li>
 <li>gjennomføring av endringer i vedlegg III, IV, VIII og XI til forordning (EU) 2016/399 (grenseforordningen) med senere endringer vedtatt av Europakommisjonen i medhold av grenseforordningen artikkel 36, jf. § 8 første ledd nr. 1 .</li>
 </ol>
-<p><em>Endret ved lover 29 april 2022 nr. 26 , 21 juni 2024 nr. 47 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1876 , endring endret ved lov 20 juni 2025 nr. 85 ), 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ), 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</em></p>
+<p class="note">Endret ved lover 29 april 2022 nr. 26 , 21 juni 2024 nr. 47 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1876 , endring endret ved lov 20 juni 2025 nr. 85 ), 20 juni 2025 nr. 85 (i kraft 12 okt 2025 iflg. res. 19 sep 2025 nr. 1877 ), 19 juni 2026 nr. 46 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1283 ).</p>
 <h4 id="26-straff">§ 26. Straff</h4>
 <p>Med bot eller fengsel inntil seks måneder eller begge deler straffes den som forsettlig eller uaktsomt overtrer bestemmelser, påbud, forbud eller vilkår gitt i eller i medhold av § 9 første ledd annet punktum, § 10 annet ledd annet punktum, § § 11 , 12 eller 13 , § 14 tredje ledd, § 16 , § 16 a , § 17 eller § 25 nr. 1, 2, 7 eller 8. Forsøk straffes på samme måte.</p>
-<p><em>Endret ved lov 29 april 2022 nr. 26 .</em></p>
+<p class="note">Endret ved lov 29 april 2022 nr. 26 .</p>
 <h4 id="27-ikrafttredelse">§ 27. Ikrafttredelse</h4>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer. Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.</p>
 <p><em>1 Fra 1. mai 2022 med unntak av § 8 første ledd nr. 2 iflg. res. 29 april 2022 nr. 638 . Fra 12. oktober 2025 for § 8 første ledd nr. 2 iflg. res. 19 sep 2025 nr. 1875 .</em></p>
@@ -277,6 +402,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 3. I lov 19. juni 1997 nr. 82 om pass oppheves § 6 a .
 4. I lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her gjøres følgende endringer: – – –
 Endret ved lover 21 juni 2019 nr. 70 (i kraft 1 jan 2022 iflg. res. 21 juni 2019 nr. 872 ), 29 april 2022 nr. 26 .</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

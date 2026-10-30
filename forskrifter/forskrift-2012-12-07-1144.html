@@ -19,64 +19,191 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-12-07-1144.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Ervervstillatelsesforskriften" href="../feeds/forskrift-2012-12-07-1144.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Ervervstillatelsesforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-12-07-1144</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-22-2835</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-12-07-1144" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-definisjon-av-ervervsmessig-fiske-og-fangst">Kapittel I. Definisjon av ervervsmessig fiske og fangst</a></li>
+<li class="lvl4"><a href="#1-definisjon-av-ervervsmessig-fiske-og-fangst-i-deltakerlovens-forstand">§ 1. Definisjon av ervervsmessig fiske og fangst i deltakerlovens forstand</a></li>
+<li class="lvl2"><a href="#kapittel-ii-vilkar-for-tildeling-og-tilbakekall-av-ervervstillatelse">Kapittel II. Vilkår for tildeling og tilbakekall av ervervstillatelse</a></li>
+<li class="lvl4"><a href="#2-unntak-fra-kravet-om-fartyeiers-tidligere-aktivitet-i-fiske">§ 2. Unntak fra kravet om fartøyeiers tidligere aktivitet i fiske</a></li>
+<li class="lvl4"><a href="#2a-avslagsgrunner-etterdeltakerloven-7frste-ledd-bokstav-a">§ 2a. Avslagsgrunner etterdeltakerloven § 7første ledd bokstav a</a></li>
+<li class="lvl4"><a href="#3-krav-til-farty">§ 3. Krav til fartøy</a></li>
+<li class="lvl4"><a href="#4-tilbakekall-ved-manglende-fiskeriaktivitet-med-fartyet">§ 4. Tilbakekall ved manglende fiskeriaktivitet med fartøyet</a></li>
+<li class="lvl2"><a href="#kapittel-iia-meldeplikt-ved-eierendringer-i-fiskefarty">Kapittel IIa. Meldeplikt ved eierendringer i fiskefartøy</a></li>
+<li class="lvl4"><a href="#4a-innledende-bestemmelse">§ 4a. Innledende bestemmelse</a></li>
+<li class="lvl4"><a href="#4b-overdragelser-hvor-det-er-tilstrekkelig-med-en-meldeplikt">§ 4b. Overdragelser hvor det er tilstrekkelig med en meldeplikt</a></li>
+<li class="lvl4"><a href="#4c-krav-til-meldingen-og-ansvar-for-innmelding">§ 4c. Krav til meldingen og ansvar for innmelding</a></li>
+<li class="lvl4"><a href="#4d-gjennomfring-av-meldepliktig-eierendring">§ 4d. Gjennomføring av meldepliktig eierendring</a></li>
+<li class="lvl2"><a href="#kapittel-iii-behandling-av-fisketillatelser-ved-konkurs-tvangssalg-mv">Kapittel III. Behandling av fisketillatelser ved konkurs, tvangssalg mv.</a></li>
+<li class="lvl4"><a href="#5-utskiftning-salg-for-fortsatt-drift-og-splitting">§ 5. Utskiftning, salg for fortsatt drift og splitting</a></li>
+<li class="lvl4"><a href="#6-behandling-av-fisketillatelsene-ved-realisering-av-panterett-i-fiskefartyet">§ 6. Behandling av fisketillatelsene ved realisering av panterett i fiskefartøyet</a></li>
+<li class="lvl4"><a href="#7-behandling-av-fisketillatelsene-ved-apning-av-konkurs">§ 7. Behandling av fisketillatelsene ved åpning av konkurs</a></li>
+<li class="lvl4"><a href="#8-salg-av-farty-ved-tvangssalg-og-konkurs">§ 8. Salg av fartøy ved tvangssalg og konkurs</a></li>
+<li class="lvl2"><a href="#kapittel-iv-sknad-om-ervervstillatelse-mv-og-saksbehandlingsgebyr">Kapittel IV. Søknad om ervervstillatelse mv. og saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#9-sknad-om-ervervstillatelse-mv">§ 9. Søknad om ervervstillatelse mv.</a></li>
+<li class="lvl4"><a href="#10-saksbehandlingsgebyr">§ 10. Saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#11-gebyrsatsene">§ 11. Gebyrsatsene</a></li>
+<li class="lvl2"><a href="#kapittel-v-register-over-merkepliktige-norske-fiskefarty-merkeregister">Kapittel V. Register over merkepliktige norske fiskefartøy (merkeregister)</a></li>
+<li class="lvl4"><a href="#12-registrering">§ 12. Registrering</a></li>
+<li class="lvl4"><a href="#13-registerets-innhold">§ 13. Registerets innhold</a></li>
+<li class="lvl4"><a href="#14-fartyeiers-ansvar-og-plikter">§ 14. Fartøyeiers ansvar og plikter</a></li>
+<li class="lvl4"><a href="#15-innmelding-og-registrering">§ 15. Innmelding og registrering</a></li>
+<li class="lvl4"><a href="#16-bekreftelse-pa-tildelt-fiskerimerke-og-innfring-i-merkeregisteret">§ 16. Bekreftelse på tildelt fiskerimerke og innføring i merkeregisteret</a></li>
+<li class="lvl4"><a href="#17-kontroll">§ 17. Kontroll</a></li>
+<li class="lvl4"><a href="#18-gebyr-ved-innmelding-i-merkeregisteret">§ 18. Gebyr ved innmelding i merkeregisteret</a></li>
+<li class="lvl4"><a href="#19-arlig-avgift-for-a-sta-i-merkeregisteret">§ 19. Årlig avgift for å stå i merkeregisteret</a></li>
+<li class="lvl4"><a href="#20-betaling-av-arlig-avgift">§ 20. Betaling av årlig avgift</a></li>
+<li class="lvl4"><a href="#21-opphevet">§ 21. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-vi-merking-av-farty-som-er-tildelt-fiskerimerke">Kapittel VI. Merking av fartøy som er tildelt fiskerimerke</a></li>
+<li class="lvl4"><a href="#22-fiskerimerke">§ 22. Fiskerimerke</a></li>
+<li class="lvl4"><a href="#23-plassering-strrelse-og-farge-pa-fiskerimerket">§ 23. Plassering, størrelse og farge på fiskerimerket</a></li>
+<li class="lvl4"><a href="#24-fiskerimerke-ved-salg-av-farty-endring-av-kommunegrenser-mv">§ 24. Fiskerimerke ved salg av fartøy, endring av kommunegrenser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#25-overtredelsesgebyr">§ 25. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#26-vedtaksmyndighet">§ 26. Vedtaksmyndighet</a></li>
+<li class="lvl4"><a href="#27-bemyndigelse">§ 27. Bemyndigelse</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-22-2835.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-07-1144.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om ervervstillatelse, registrering og merking av fiskefartøy mv. (ervervstillatelsesforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-12-07-1144.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-12-07-1144 <code>forskrift/2012-12-07-1144</code></td></tr>
+<tr><th>Korttittel</th><td>Ervervstillatelsesforskriften</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-22-2835 <code>forskrift/2025-12-22-2835</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-12-07-1144" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-definisjon-av-ervervsmessig-fiske-og-fangst">Kapittel I. Definisjon av ervervsmessig fiske og fangst</a></li>
+<li class="lvl4"><a href="#1-definisjon-av-ervervsmessig-fiske-og-fangst-i-deltakerlovens-forstand">§ 1. Definisjon av ervervsmessig fiske og fangst i deltakerlovens forstand</a></li>
+<li class="lvl2"><a href="#kapittel-ii-vilkar-for-tildeling-og-tilbakekall-av-ervervstillatelse">Kapittel II. Vilkår for tildeling og tilbakekall av ervervstillatelse</a></li>
+<li class="lvl4"><a href="#2-unntak-fra-kravet-om-fartyeiers-tidligere-aktivitet-i-fiske">§ 2. Unntak fra kravet om fartøyeiers tidligere aktivitet i fiske</a></li>
+<li class="lvl4"><a href="#2a-avslagsgrunner-etterdeltakerloven-7frste-ledd-bokstav-a">§ 2a. Avslagsgrunner etterdeltakerloven § 7første ledd bokstav a</a></li>
+<li class="lvl4"><a href="#3-krav-til-farty">§ 3. Krav til fartøy</a></li>
+<li class="lvl4"><a href="#4-tilbakekall-ved-manglende-fiskeriaktivitet-med-fartyet">§ 4. Tilbakekall ved manglende fiskeriaktivitet med fartøyet</a></li>
+<li class="lvl2"><a href="#kapittel-iia-meldeplikt-ved-eierendringer-i-fiskefarty">Kapittel IIa. Meldeplikt ved eierendringer i fiskefartøy</a></li>
+<li class="lvl4"><a href="#4a-innledende-bestemmelse">§ 4a. Innledende bestemmelse</a></li>
+<li class="lvl4"><a href="#4b-overdragelser-hvor-det-er-tilstrekkelig-med-en-meldeplikt">§ 4b. Overdragelser hvor det er tilstrekkelig med en meldeplikt</a></li>
+<li class="lvl4"><a href="#4c-krav-til-meldingen-og-ansvar-for-innmelding">§ 4c. Krav til meldingen og ansvar for innmelding</a></li>
+<li class="lvl4"><a href="#4d-gjennomfring-av-meldepliktig-eierendring">§ 4d. Gjennomføring av meldepliktig eierendring</a></li>
+<li class="lvl2"><a href="#kapittel-iii-behandling-av-fisketillatelser-ved-konkurs-tvangssalg-mv">Kapittel III. Behandling av fisketillatelser ved konkurs, tvangssalg mv.</a></li>
+<li class="lvl4"><a href="#5-utskiftning-salg-for-fortsatt-drift-og-splitting">§ 5. Utskiftning, salg for fortsatt drift og splitting</a></li>
+<li class="lvl4"><a href="#6-behandling-av-fisketillatelsene-ved-realisering-av-panterett-i-fiskefartyet">§ 6. Behandling av fisketillatelsene ved realisering av panterett i fiskefartøyet</a></li>
+<li class="lvl4"><a href="#7-behandling-av-fisketillatelsene-ved-apning-av-konkurs">§ 7. Behandling av fisketillatelsene ved åpning av konkurs</a></li>
+<li class="lvl4"><a href="#8-salg-av-farty-ved-tvangssalg-og-konkurs">§ 8. Salg av fartøy ved tvangssalg og konkurs</a></li>
+<li class="lvl2"><a href="#kapittel-iv-sknad-om-ervervstillatelse-mv-og-saksbehandlingsgebyr">Kapittel IV. Søknad om ervervstillatelse mv. og saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#9-sknad-om-ervervstillatelse-mv">§ 9. Søknad om ervervstillatelse mv.</a></li>
+<li class="lvl4"><a href="#10-saksbehandlingsgebyr">§ 10. Saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#11-gebyrsatsene">§ 11. Gebyrsatsene</a></li>
+<li class="lvl2"><a href="#kapittel-v-register-over-merkepliktige-norske-fiskefarty-merkeregister">Kapittel V. Register over merkepliktige norske fiskefartøy (merkeregister)</a></li>
+<li class="lvl4"><a href="#12-registrering">§ 12. Registrering</a></li>
+<li class="lvl4"><a href="#13-registerets-innhold">§ 13. Registerets innhold</a></li>
+<li class="lvl4"><a href="#14-fartyeiers-ansvar-og-plikter">§ 14. Fartøyeiers ansvar og plikter</a></li>
+<li class="lvl4"><a href="#15-innmelding-og-registrering">§ 15. Innmelding og registrering</a></li>
+<li class="lvl4"><a href="#16-bekreftelse-pa-tildelt-fiskerimerke-og-innfring-i-merkeregisteret">§ 16. Bekreftelse på tildelt fiskerimerke og innføring i merkeregisteret</a></li>
+<li class="lvl4"><a href="#17-kontroll">§ 17. Kontroll</a></li>
+<li class="lvl4"><a href="#18-gebyr-ved-innmelding-i-merkeregisteret">§ 18. Gebyr ved innmelding i merkeregisteret</a></li>
+<li class="lvl4"><a href="#19-arlig-avgift-for-a-sta-i-merkeregisteret">§ 19. Årlig avgift for å stå i merkeregisteret</a></li>
+<li class="lvl4"><a href="#20-betaling-av-arlig-avgift">§ 20. Betaling av årlig avgift</a></li>
+<li class="lvl4"><a href="#21-opphevet">§ 21. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-vi-merking-av-farty-som-er-tildelt-fiskerimerke">Kapittel VI. Merking av fartøy som er tildelt fiskerimerke</a></li>
+<li class="lvl4"><a href="#22-fiskerimerke">§ 22. Fiskerimerke</a></li>
+<li class="lvl4"><a href="#23-plassering-strrelse-og-farge-pa-fiskerimerket">§ 23. Plassering, størrelse og farge på fiskerimerket</a></li>
+<li class="lvl4"><a href="#24-fiskerimerke-ved-salg-av-farty-endring-av-kommunegrenser-mv">§ 24. Fiskerimerke ved salg av fartøy, endring av kommunegrenser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#25-overtredelsesgebyr">§ 25. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#26-vedtaksmyndighet">§ 26. Vedtaksmyndighet</a></li>
+<li class="lvl4"><a href="#27-bemyndigelse">§ 27. Bemyndigelse</a></li>
+<li class="lvl4"><a href="#28-ikrafttredelse">§ 28. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-07-1144.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-12-07-1144.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-07-1144.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-12-07-1144.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-12-07-1144.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-12-07-1144.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-12-07-1144.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-12-07-1144.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-12-07-1144.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-ervervstillatelse-registrering-og-merking-av-fiskefarty-mv-ervervstillatelsesforskriften">Forskrift om ervervstillatelse, registrering og merking av fiskefartøy mv. (ervervstillatelsesforskriften)</h1>
 <h2 id="kapittel-i-definisjon-av-ervervsmessig-fiske-og-fangst">Kapittel I. Definisjon av ervervsmessig fiske og fangst</h2>
 <h4 id="1-definisjon-av-ervervsmessig-fiske-og-fangst-i-deltakerlovens-forstand">§ 1. Definisjon av ervervsmessig fiske og fangst i deltakerlovens forstand</h4>
 <p>Det foreligger ervervsmessig fiske og fangst i deltakerlovens forstand dersom en person eller et foretak fisker og omsetter fangst for mer enn kr 50 000 i løpet av et kalenderår, jf. deltakerloven § 3 tredje ledd. Det foreligger også ervervsmessig fiske og fangst dersom det omsettes for mer enn kr 50 000 av fangst tatt med ett og samme fartøy i løpet av et kalenderår, selv om verken enkeltpersoner eller enkeltforetaker med eierinteresser i fartøyet omsetter for mer enn kr 50 000.</p>
@@ -89,21 +216,21 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Uten hinder av første ledd kan det tildeles ervervstillatelse for fartøy under 19,81 meter største lengde som skal drive reketråling nord for 62 grader nord. Det er en forutsetning at fartøyet er utrustet for og egnet til å drive reketråling.</p>
 <p>Uten hinder av første ledd kan det tildeles ervervstillatelse begrenset til fangst av kongekrabbe og taskekrabbe utenfor områder hvor fangst av kongekrabbe til enhver tid måtte være regulert med kvoter, minstemålsbestemmelser, innsatsbegrensninger eller liknende.</p>
 <p>Søknad om ervervstillatelse kan avlås for fartøy som utelukkende skal basere seg på fiske i farvann utenfor norsk fiskerijurisdiksjon dersom fartøyet ikke er tildelt eller tildeles tillatelse etter forskrift 2. mars 2007 nr. 232 om konsesjonsordning for fiske utenfor norsk fiskerijurisdiksjon.</p>
-<p><em>Tilføyd ved forskrift 4 juni 2015 nr. 589 , endret ved forskrifter 17 nov 2015 nr. 1328 , 22 mars 2019 nr. 276 .</em></p>
+<p class="note">Tilføyd ved forskrift 4 juni 2015 nr. 589 , endret ved forskrifter 17 nov 2015 nr. 1328 , 22 mars 2019 nr. 276 .</p>
 <h4 id="3-krav-til-farty">§ 3. Krav til fartøy</h4>
 <p>Søknad om ervervstillatelse skal avslås i medhold av deltakerloven § 8 dersom det ikke legges fram gyldig fartssertifikat for fiske- og fangstfartøy, oppdatert fartøyinstruks, godkjennelsesdokument, byggebekreftelse eller annen dokumentasjon som kreves for vedkommende fiske- og fangstfartøy i eller i medhold av lov 16. februar 2007 nr. 9 om skipssikkerhet (skipssikkerhetsloven). Dette gjelder likevel ikke dersom fartøyet er under 8 meter største lengde, bygget før 1. juli 2014, og står eller har stått i merkeregisteret. For fartøy mellom 8 og 10,67 meter største lengde bygget før 1970, og som har frist for førstegangskontroll 1. januar 2021, gjelder kravet i første punktum fra og med 1. januar 2021, jf. forskrift 22. november 2013 nr. 1404 om fiske- og fangstfartøy under 15 meter største lengde § 105 første ledd bokstav f.</p>
 <p>Uten hinder av første ledd kan det gis ervervstillatelse for nybygg, fartøy som er under ombygging og fartøy som er meldt opp til førstegangskontroll på vilkår av at fartøyene ikke kan føres inn i registeret over merkepliktige norske fiskefartøy (merkeregisteret) før nødvendig dokumentasjon som nevnt i første ledd er lagt fram.</p>
 <p>Søknad om eierendring, jf. deltakerloven § 9 , og søknad om endring av driftsgrunnlag skal avslås dersom kravene til dokumentasjon i første ledd ikke er oppfylt.</p>
-<p><em>Endret ved forskrifter 24 mai 2013 nr. 531 , 27 nov 2014 nr. 1476 , 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 24 mai 2013 nr. 531 , 27 nov 2014 nr. 1476 , 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</p>
 <h4 id="4-tilbakekall-ved-manglende-fiskeriaktivitet-med-fartyet">§ 4. Tilbakekall ved manglende fiskeriaktivitet med fartøyet</h4>
 <p>Ervervstillatelse kan tilbakekalles i medhold av deltakerloven § 11 annet ledd bokstav a dersom fartøyet ikke har vært benyttet i ervervsmessig fiske og fangst i løpet av inneværende år og de to foregående årene.</p>
-<p><em>Endret ved forskrift 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-iia-meldeplikt-ved-eierendringer-i-fiskefarty">Kapittel IIa. Meldeplikt ved eierendringer i fiskefartøy</h2>
 <p>Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014).</p>
 <h4 id="4a-innledende-bestemmelse">§ 4a. Innledende bestemmelse</h4>
 <p>Ved overdragelse av aksje eller part i selskap eller sammenslutning som eier merkeregistrert fartøy, kreves søknad om forhåndsgodkjenning, jf. deltakerloven § 9 første ledd.</p>
 <p>Ved mindre overdragelser gjelder likevel en meldeplikt etter dette kapittel, jf. deltakerloven § 9 annet ledd.</p>
-<p><em>Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014).</p>
 <h4 id="4b-overdragelser-hvor-det-er-tilstrekkelig-med-en-meldeplikt">§ 4b. Overdragelser hvor det er tilstrekkelig med en meldeplikt</h4>
 <p>For at overdragelse av aksje eller part i selskap eller sammenslutning som eier merkeregistrert fartøy skal være underlagt meldeplikt, må følgende vilkår være oppfylt</p>
 <p>a. Overdragelsen reduserer ikke den totale eierandelen til de aktive fiskerne til 50 pst. eller mindre
@@ -113,7 +240,7 @@ d. Overdragelsen medfører ikke overtredelse av reglene om landsdelsbinding i de
 e. Det må ikke være gitt unntak fra aktivitetskravet i medhold av deltakerloven § 6 tredje ledd første punktum
 f. Fartøyet oppfyller kravet i § 3 første ledd.</p>
 <p>Fiskeridirektoratet kan bestemme at eierendring som er underlagt meldeplikt etter denne paragraf likevel skal underlegges søknadsplikt, jf. § 4a og deltakerloven § 9 første ledd. Fiskeridirektoratet skal gi fartøyeier beskjed om dette innen 10 virkedager etter at direktoratet har mottatt melding fra fartøyeier.</p>
-<p><em>Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrifter 4 juni 2015 nr. 589 , 17 juni 2016 nr. 711 , 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrifter 4 juni 2015 nr. 589 , 17 juni 2016 nr. 711 , 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</p>
 <h4 id="4c-krav-til-meldingen-og-ansvar-for-innmelding">§ 4c. Krav til meldingen og ansvar for innmelding</h4>
 <p>Melding om eierendring skal fremmes på fastsatt skjema og sendes til Fiskeridirektoratet.</p>
 <p>Melding fremmes av selskapet eller sammenslutningen som eier fiskefartøyet eller fullmektig på deres vegne. Dersom endringen skjer i bakenforliggende selskap eller sammenslutning som er medeier i flere selskap eller sammenslutninger som eier fiskefartøy, kan melding fremmes av det bakenforliggende selskap eller sammenslutning. Både det selskap det skjer eierendring i og det selskap som direkte eier fartøyet er ansvarlig for at det sendes inn melding etter dette kapittel.</p>
@@ -124,16 +251,16 @@ c. Aksjeeierbøker/deltakerliste og oversikt over planlagte endringer i disse. A
 d. Aksjonæravtaler eller andre underliggende avtaler og oversikt over planlagte endringer i disse
 e. Selskapsavtale/vedtekter og oversikt over planlagte endringer i disse
 f. Styresammensetning og oversikt over planlagte endringer i styresammensetningen.</p>
-<p><em>Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrifter 4 juni 2015 nr. 589 , 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrifter 4 juni 2015 nr. 589 , 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</p>
 <h4 id="4d-gjennomfring-av-meldepliktig-eierendring">§ 4d. Gjennomføring av meldepliktig eierendring</h4>
 <p>Overdragelse som er underlagt meldeplikt etter § 4b kan ikke gjennomføres før det har gått 10 virkedager etter at Fiskeridirektoratet har mottatt melding etter § 4c . Dersom Fiskeridirektoratet bestemmer at overdragelsen skal underlegges søknadsplikt etter § 4b siste ledd, kan overdragelsen bare gjennomføres dersom eventuell søknad blir innvilget.</p>
 <p>Den som har levert melding etter § 4c annet ledd skal sende melding til Fiskeridirektoratet om dato for eierendring etter at eierendringen er gjennomført. Det skal samtidig gis oppdaterte opplysninger som nevnt i § 4c tredje ledd. Dersom Fiskeridirektoratet ikke mottar melding om gjennomføringsdato innen seks måneder fra mottatt melding etter § 4c , må det sendes ny melding etter § 4c før eierendringen kan gjennomføres.</p>
 <p>Det fartøyeiende selskap er ansvarlig for at eierendringen ikke medfører brudd på fiskeriregelverket, selv om Fiskeridirektoratet ikke griper inn innen fristen på 10 dager.</p>
-<p><em>Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrift 4 juni 2015 nr. 589 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 aug 2013 nr. 1033 (i kraft 1 jan 2014), endret ved forskrift 4 juni 2015 nr. 589 .</p>
 <h2 id="kapittel-iii-behandling-av-fisketillatelser-ved-konkurs-tvangssalg-mv">Kapittel III. Behandling av fisketillatelser ved konkurs, tvangssalg mv.</h2>
 <h4 id="5-utskiftning-salg-for-fortsatt-drift-og-splitting">§ 5. Utskiftning, salg for fortsatt drift og splitting</h4>
 <p>En søknad om utskifting eller salg for fortsatt drift av et fiskefartøy skal avslås dersom søknaden blir behandlet etter at en begjæring om tvangsdekning i fartøyet er forkynt for saksøkte i henhold til lov 26. juni 1992 nr. 86 om tvangsfullbyrdelse og midlertidig sikring (tvangsfullbyrdelsesloven) § 11-7 første ledd. Tilsvarende gjelder ved søknad om tildeling av fisketillatelse til erstatning for fisketillatelse som oppgis fra et annet fartøy dersom søknaden behandles etter at en begjæring om tvangsdekning i fartøyet som oppgir fisketillatelsen er forkynt for saksøkte i henhold til tvangsfullbyrdelsesloven § 11-7 første ledd. Det samme gjelder når det er avsagt kjennelse om åpning av konkurs hos fartøyeier, eller kjennelse om midlertidig forføyning med forbud mot utskiftning eller salg av fartøyet for fortsatt drift.</p>
-<p><em>Endret ved forskrift 24 juni 2015 nr. 765 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrift 24 juni 2015 nr. 765 (i kraft 1 juli 2015).</p>
 <h4 id="6-behandling-av-fisketillatelsene-ved-realisering-av-panterett-i-fiskefartyet">§ 6. Behandling av fisketillatelsene ved realisering av panterett i fiskefartøyet</h4>
 <p>Dersom panthaver overtar det pantsatte fartøyet for å oppnå dekning utenfor tvangsfullbyrdelse, skal panthaver straks sende melding til Fiskeridirektoratet om at han ønsker å opprettholde driften av fartøyet. Etter at Fiskeridirektoratet har mottatt slik melding gis panthaver midlertidig ervervstillatelse og konsesjon eller deltakeradgang i inntil tre måneder.</p>
 <p>De midlertidige tillatelsene kan fornyes med inntil en måned av gangen, dersom dette er nødvendig på bakgrunn av situasjonen i markedet, næringen eller andre særlige grunner.</p>
@@ -145,7 +272,7 @@ f. Styresammensetning og oversikt over planlagte endringer i styresammensetninge
 <h4 id="8-salg-av-farty-ved-tvangssalg-og-konkurs">§ 8. Salg av fartøy ved tvangssalg og konkurs</h4>
 <p>Ved salg av fartøyet i forbindelse med konkurs eller tvangssalg, forhåndsbehandler Fiskeridirektoratet aktuelle kjøperes søknader om fisketillatelser og kan på bakgrunn av dette gi forhåndstilsagn om tildeling.</p>
 <p>Hvis et fiskefartøy blir solgt på auksjon eller ved medhjelpersalg må ikke bud stadfestes før det foreligger forhåndstilsagn om tildeling av fisketillatelser fra fiskerimyndighetene. Banker eller andre kredittinstitusjoner med panterett i fartøyet kan likevel få stadfestet sitt bud uten slikt forhåndstilsagn for å redde sine fordringer. Reglene i § 6 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</em></p>
+<p class="note">Endret ved forskrift 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</p>
 <h2 id="kapittel-iv-sknad-om-ervervstillatelse-mv-og-saksbehandlingsgebyr">Kapittel IV. Søknad om ervervstillatelse mv. og saksbehandlingsgebyr</h2>
 <h4 id="9-sknad-om-ervervstillatelse-mv">§ 9. Søknad om ervervstillatelse mv.</h4>
 <p>Søknad om ervervstillatelse, spesiell tillatelse og årlig deltakeradgang samt søknader om spesielle kvoteordninger skal fremmes på fastsatt skjema og sendes Fiskeridirektoratet.</p>
@@ -158,7 +285,7 @@ e. dokumentasjon på at saksbehandlingsgebyr er betalt, jf. § 10 og § 11 ,
 f. dersom søknaden innebærer en reduksjon av fartøyets driftsgrunnlag skal det vedlegges bekreftelse fra eventuell panthaver om at denne er kjent med søknaden.</p>
 <p>Dersom det ikke vedlegges dokumentasjon som nevnt i annet ledd bokstav f), skal fiskerimyndighetene varsle panthaver og stille behandlingen av søknaden i bero i inntil fire uker. Det samme gjelder dersom det fremgår av bekreftelsen at panthaver har innsigelser mot slik søknad.</p>
 <p>Fiskeridirektoratet kan stille krav om andre opplysninger, herunder dokumentasjon om fartøyet.</p>
-<p><em>Endret ved forskrift 18 des 2012 nr. 1292 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrift 18 des 2012 nr. 1292 (i kraft 1 jan 2013).</p>
 <h4 id="10-saksbehandlingsgebyr">§ 10. Saksbehandlingsgebyr</h4>
 <p>For behandling av søknader som nevnt i § 9 samt for behandling av søknad om leiefartøy skal det betales gebyr til statskassen.</p>
 <p>Gebyret skal være innbetalt til Fiskeridirektoratet før søknaden tas under behandling. Dokumentasjon på at gebyret er betalt skal vedlegges søknaden.</p>
@@ -173,7 +300,7 @@ f. dersom søknaden innebærer en reduksjon av fartøyets driftsgrunnlag skal de
 <p>For søknad om tildeling av spesiell tillatelse samt søknad om årlig deltakeradgang betales kr 5 500 i gebyr. Søknad som fremmes om første gangs tildeling av årlig deltakeradgang etter etablering av en ny slik ordning skal det ikke betales saksbehandlingsgebyr for.</p>
 <p>For søknad om spesielle kvoteordninger for kystfiskeflåten og havfiskeflåten i medhold av havressursloven § 14 betales kr 5 500 i gebyr pr. mottakende fartøy.</p>
 <p>For søknad om tillatelse til å benytte leiefartøy betales kr 5 500 i gebyr.</p>
-<p><em>Endret ved forskrifter 13 april 2018 nr. 563 , 27 nov 2020 nr. 2483 , 22 des 2020 nr. 3151 (i kraft 1 jan 2021), 20 mars 2023 nr. 356 , 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 13 april 2018 nr. 563 , 27 nov 2020 nr. 2483 , 22 des 2020 nr. 3151 (i kraft 1 jan 2021), 20 mars 2023 nr. 356 , 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-v-register-over-merkepliktige-norske-fiskefarty-merkeregister">Kapittel V. Register over merkepliktige norske fiskefartøy (merkeregister)</h2>
 <h4 id="12-registrering">§ 12. Registrering</h4>
 <p>Fartøy som det er gitt ervervstillatelse for og som skal nyttes til ervervsmessig fiske og fangst skal føres inn i registeret over norske fiskefartøy (merkeregisteret) når vilkårene for dette foreligger. Registeret skal være elektronisk og føres av Fiskeridirektoratet.</p>
@@ -195,32 +322,32 @@ f. dersom søknaden innebærer en reduksjon av fartøyets driftsgrunnlag skal de
 <p>Registreringsplikten omfatter også fartøyets hjelpefartøy.</p>
 <p>Fiskeridirektoratet tildeler fartøyet et merke som består av distriktsmerke og et løpenummer. Distriktsmerkene skal bestå av bokstaver som betegner fylke og kommune.</p>
 <p>Hjelpefartøy tildeles samme fiskerimerke som hovedfartøyet, med tillegg av et tall som angir rekkefølgen av fartøyets hjelpefartøy.</p>
-<p><em>Endret ved forskrift 27 nov 2018 nr. 1761 .</em></p>
+<p class="note">Endret ved forskrift 27 nov 2018 nr. 1761 .</p>
 <h4 id="16-bekreftelse-pa-tildelt-fiskerimerke-og-innfring-i-merkeregisteret">§ 16. Bekreftelse på tildelt fiskerimerke og innføring i merkeregisteret</h4>
 <p>Ved innmelding av et fartøy i registeret utsteder Fiskeridirektoratet en bekreftelse på tildelt fiskerimerke for det aktuelle fartøyet.</p>
 <p>Når fartøyet er ført inn i merkeregisteret sender Fiskeridirektoratet en bekreftelse til fartøyets eier om at fartøyet er ført inn i merkeregisteret og hvilke opplysninger som er registrert. Kopi av denne bekreftelsen skal oppbevares om bord i fartøyet.</p>
 <h4 id="17-kontroll">§ 17. Kontroll</h4>
 <p>Fiskeridirektoratet kan kontrollere at de opplysningene som er gitt til Fiskeridirektoratet til enhver tid er korrekte. Ved kontroll kan Fiskeridirektoratet benytte seg av opplysninger i andre offentlige registre eller opplysninger gitt til andre offentlige etater. Fiskeridirektoratet kan også til enhver tid be om å få forelagt og få bekreftet opplysninger. Fiskeridirektoratet kan også foreta fysisk kontroll av fartøy og fysisk kontroll om bord i fartøy som står i merkeregisteret eller søkes innført der.</p>
 <p>Denne bestemmelsen innskrenker ikke Fiskeridirektoratets adgang til kontroll etter havressursloven kapittel 7 .</p>
-<p><em>Endret ved forskrift 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 3 des 2019 nr. 1619 (i kraft 1 jan 2020).</p>
 <h4 id="18-gebyr-ved-innmelding-i-merkeregisteret">§ 18. Gebyr ved innmelding i merkeregisteret</h4>
 <p>Ved innmelding av fartøy i registeret skal det betales et registreringsgebyr til statskassen.</p>
 <p>Registreringsgebyr betales til Fiskeridirektoratet etter at innmelding i registeret er foretatt. Statens Innkrevingssentral vil stå for innkreving av gebyr.</p>
 <p>Registreringsgebyr skal ikke betales ved tildeling av nytt fiskerimerke i forbindelse med flytting eller ved endring av kommunegrenser.</p>
 <p>For fartøy under 15 meter største lengde er gebyret kr 925, for fartøy f.o.m. 15 meter største lengde til 28 meter største lengde er gebyret kr 3 675, og fartøy f.o.m. 28 meter største lengde er gebyret kr 5 500.</p>
-<p><em>Endret ved forskrifter 20 mars 2023 nr. 356 , 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 20 mars 2023 nr. 356 , 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</p>
 <h4 id="19-arlig-avgift-for-a-sta-i-merkeregisteret">§ 19. Årlig avgift for å stå i merkeregisteret</h4>
 <p>Det betales en årlig avgift til statskassen så lenge fartøyet står i merkeregisteret.</p>
 <p>Den som står registrert som fartøyets eier i merkeregisteret per 1. januar det enkelte år er ansvarlig for betaling av den årlige avgiften.</p>
 <p>Den årlige avgiften er kr 550 for fartøy under 15 meter største lengde, kr 1 100 for fartøy f.o.m. 15 meter til 28 meter, og kr 1 550 for fartøy f.o.m. 28 meter.</p>
-<p><em>Endret ved forskrifter 17 des 2012 nr. 1278 (i kraft 1 jan 2013), 8 des 2021 nr. 3420 (i kraft 1 jan 2022), 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 17 des 2012 nr. 1278 (i kraft 1 jan 2013), 8 des 2021 nr. 3420 (i kraft 1 jan 2022), 20 des 2023 nr. 2279 (i kraft 1 jan 2024), 22 des 2025 nr. 2835 (i kraft 1 jan 2026).</p>
 <h4 id="20-betaling-av-arlig-avgift">§ 20. Betaling av årlig avgift</h4>
 <p>Årlig avgift for det enkelte fartøy må være innbetalt innen 15. mars hvert år, og gjelder for det angjeldende år.</p>
 <p>Krav om betaling av årlig avgift sendes til eiere av fartøy som står i merkeregisteret per 1. januar det enkelte år.</p>
 <p>Den årlige avgiften er tvangsgrunnlag for utlegg hos enhver som i henhold til bestemmelsene i denne forskrift er ansvarlig for betaling av slik avgift.</p>
-<p><em>Endret ved forskrifter 17 des 2012 nr. 1278 (i kraft 1 jan 2013), 8 des 2021 nr. 3420 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 17 des 2012 nr. 1278 (i kraft 1 jan 2013), 8 des 2021 nr. 3420 (i kraft 1 jan 2022).</p>
 <h4 id="21-opphevet">§ 21. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 8 des 2021 nr. 3420 (i kraft 1 jan 2022).</em></p>
+<p class="note">Opphevet ved forskrift 8 des 2021 nr. 3420 (i kraft 1 jan 2022).</p>
 <h2 id="kapittel-vi-merking-av-farty-som-er-tildelt-fiskerimerke">Kapittel VI. Merking av fartøy som er tildelt fiskerimerke</h2>
 <h4 id="22-fiskerimerke">§ 22. Fiskerimerke</h4>
 <p>Fiskerimerket består av bokstaver som betegner fylke, et løpenummer samt bokstaver som betegner kommune. Fylkes- og kommunebokstavene for de enkelte merkedistrikt fastsettes av Fiskeridirektoratet.</p>
@@ -229,7 +356,7 @@ f. dersom søknaden innebærer en reduksjon av fartøyets driftsgrunnlag skal de
 <p>Merkeregistrerte fartøy må ikke føre navn, bokstaver eller tall som strider mot denne forskrift eller annen gjeldende lovgivning.</p>
 <p>Eier av fartøy som slettes fra registeret må samtidig med at fartøyet slettes fjerne fiskerimerket på fartøyet. Likeledes skal fiskerimerket fjernes fra fartøyets tilhørende hjelpefartøy og redskap. Fartøy som ikke er registrert i registeret kan ikke ha fiskerimerke på fartøyet.</p>
 <p>Fartøyets eier plikter å sørge for at fiskerimerket er korrekt malt på fartøyet og har ansvar for at det til enhver tid holdes ved like i klar og tydelig stand. Fartøyets eier plikter likeledes å påse at fiskerimerket fjernes fra fartøyet når fartøyet slettes fra merkeregisteret.</p>
-<p><em>Endret ved forskrifter 4 juni 2015 nr. 589 , 22 nov 2017 nr. 1814 .</em></p>
+<p class="note">Endret ved forskrifter 4 juni 2015 nr. 589 , 22 nov 2017 nr. 1814 .</p>
 <h4 id="23-plassering-strrelse-og-farge-pa-fiskerimerket">§ 23. Plassering, størrelse og farge på fiskerimerket</h4>
 <p>Merket skal settes så høyt oppe som mulig på begge sider av skroget i nærheten av forstavnen, med unntak av det foreskrevne tilleggstallet for hjelpefartøy som settes på begge sider av skroget i nærheten av akterstavnen.</p>
 <p>Alle merker skal males klart og tydelig med hvit maling på svart bunn eller svart maling på hvit bunn.</p>
@@ -257,7 +384,7 @@ d. Tykkelsen av bokstaver og tall (fargebredden) skal være 2,5 cm.
 e. Avstanden mellom bokstaver innbyrdes og mellom tall innbyrdes skal være det dobbelte (5 cm) av bokstavenes tykkelse (fargebredde).
 f. Mellom bokstaver og tall skal anbringes en firkant som skilletegn. Denne firkant skal ha samme høyde og bredde som bokstavtykkelsen (2,5 cm), og avstanden til firkanten fra det foregående og etterfølgende siffer skal være det dobbelte (5 cm) av bokstavtykkelsen.</p>
 <p>Tilleggstallets størrelse for hjelpefartøy skal være av klasse 2.</p>
-<p><em>Endret ved forskrift 4 juni 2015 nr. 589 .</em></p>
+<p class="note">Endret ved forskrift 4 juni 2015 nr. 589 .</p>
 <h4 id="24-fiskerimerke-ved-salg-av-farty-endring-av-kommunegrenser-mv">§ 24. Fiskerimerke ved salg av fartøy, endring av kommunegrenser mv.</h4>
 <p>Føres fartøyet ved flytting, salg eller annen overdragelse til nytt merkedistrikt, skal melding om dette straks sendes til Fiskeridirektoratet på fastsatt skjema.</p>
 <p>Skifter fartøyet eier innen samme merkedistrikt eller fartøyets eier flytter innen samme merkedistrikt, beholder fartøyet sitt distriktsmerke, med mindre annet blir bestemt av Fiskeridirektoratet.</p>
@@ -267,13 +394,13 @@ f. Mellom bokstaver og tall skal anbringes en firkant som skilletegn. Denne firk
 <h2 id="kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</h2>
 <h4 id="25-overtredelsesgebyr">§ 25. Overtredelsesgebyr</h4>
 <p>Foretak og den som forsettlig eller uaktsomt overtrer bestemmelser i eller i medhold av forskriften, kan ilegges overtredelsesgebyr i henhold til deltakerloven § 28 og forskrift 20. desember 2011 nr. 1437 om bruk av tvangsmulkt og overtredelsesgebyr ved brudd på havressurslova og deltakerloven.</p>
-<p><em>Tilføyd ved forskrift 1 sep 2017 nr. 1329 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 sep 2017 nr. 1329 .</p>
 <h4 id="26-vedtaksmyndighet">§ 26. Vedtaksmyndighet</h4>
 <p>Fiskeridirektoratet har myndighet til å fatte vedtak etter denne forskriften. Fiskeridirektoratets klagesaksenhet er klageinstans. Dette er ikke til hinder for at departementet likevel er klageinstans for vedtak nevnt i kapitlene II og III dersom det gjelder en tillatelsesgruppe der departementet er klageinstans etter forskrift 13. oktober 2006 nr. 1157 om spesielle tillatelser til å drive enkelte former for fiske og fangst (konsesjonsforskriften) eller etter forskrift 2. mars 2007 nr. 232 om konsesjonsordning for fiske utenfor norsk fiskerijurisdiksjon .</p>
-<p><em>Endret ved forskrifter 1 sep 2017 nr. 1329 (tidligere § 25), 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</em></p>
+<p class="note">Endret ved forskrifter 1 sep 2017 nr. 1329 (tidligere § 25), 31 okt 2022 nr. 1889 (i kraft 1 nov 2022).</p>
 <h4 id="27-bemyndigelse">§ 27. Bemyndigelse</h4>
 <p>Departementet kan endre denne forskriften. Fiskeridirektoratet kan fastsette instruks for føring av merkeregisteret.</p>
-<p><em>Endret ved forskrifter 7 jan 2013 nr. 13 , 1 sep 2017 nr. 1329 (tidligere § 26).</em></p>
+<p class="note">Endret ved forskrifter 7 jan 2013 nr. 13 , 1 sep 2017 nr. 1329 (tidligere § 26).</p>
 <h4 id="28-ikrafttredelse">§ 28. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft 1. januar 2013.</p>
 <p>Fra samme tid oppheves:</p>
@@ -287,7 +414,9 @@ f. Mellom bokstaver og tall skal anbringes en firkant som skilletegn. Denne firk
 <li>Forskrift 28. september 2007 nr. 1091 om behandling av fisketillatelser ved konkurs, tvangssalg mv.</li>
 </ol>
 <p>Fra samme tid gjøres det med hjemmel i lov 24. juni 1994 nr. 39 om sjøfarten (sjøloven) § 7, § 11 – § 16 og § 38 følgende endringer i forskrift 30. juli 1992 nr. 593 om registrering av skip i norsk ordinært skipsregister (NOR): ---</p>
-<p><em>Endret ved forskrift 1 sep 2017 nr. 1329 (tidligere § 27).</em></p>
+<p class="note">Endret ved forskrift 1 sep 2017 nr. 1329 (tidligere § 27).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

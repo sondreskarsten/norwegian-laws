@@ -19,71 +19,192 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-04-01-273.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om arbeidernes innflytelse i SE" href="../feeds/forskrift-2005-04-01-273.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Forskrift om arbeidernes innflytelse i SE</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-04-01-273</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-04-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2017-08-24-1282</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-04-01-273" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-lovvalg">§ 2. Virkeområde og lovvalg</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-forhandlingsfremgangsmate">Kapittel II. Forhandlingsfremgangsmåte</a></li>
+<li class="lvl4"><a href="#4-opprettelse-av-det-srlige-forhandlingsutvalg">§ 4. Opprettelse av det særlige forhandlingsutvalg</a></li>
+<li class="lvl4"><a href="#5-fordeling-av-setene-i-norge">§ 5. Fordeling av setene i Norge</a></li>
+<li class="lvl4"><a href="#6-valg-av-medlemmer-til-det-srlige-forhandlingsutvalg-i-norge">§ 6. Valg av medlemmer til det særlige forhandlingsutvalg i Norge</a></li>
+<li class="lvl4"><a href="#7-det-srlige-forhandlingsutvalgets-oppgaver">§ 7. Det særlige forhandlingsutvalgets oppgaver</a></li>
+<li class="lvl4"><a href="#8-avtalens-innhold">§ 8. Avtalens innhold</a></li>
+<li class="lvl4"><a href="#9-forhandlingenes-varighet">§ 9. Forhandlingenes varighet</a></li>
+<li class="lvl4"><a href="#10-standardbestemmelsenes-anvendelse">§ 10. Standardbestemmelsenes anvendelse</a></li>
+<li class="lvl2"><a href="#kapittel-iii-forskjellige-bestemmelser">Kapittel III. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#11-taushetsplikt">§ 11. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#12-rett-til-a-holde-tilbake-fortrolig-informasjon">§ 12. Rett til å holde tilbake fortrolig informasjon</a></li>
+<li class="lvl4"><a href="#13-misbruk-av-reglene-om-europeiske-selskaper">§ 13. Misbruk av reglene om europeiske selskaper</a></li>
+<li class="lvl4"><a href="#14-tvistelsning">§ 14. Tvisteløsning</a></li>
+<li class="lvl4"><a href="#15-saksbehandlingsregler">§ 15. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#16-forholdet-til-andre-bestemmelser">§ 16. Forholdet til andre bestemmelser</a></li>
+<li class="lvl4"><a href="#17-ikrafttredelse">§ 17. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-standardbestemmelser">Vedlegg I – Standardbestemmelser</a></li>
+<li class="lvl3"><a href="#generelle-bestemmelser">Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-sammensetningen-av-arbeidstakernes-representasjonsorgan">1 Sammensetningen av arbeidstakernes representasjonsorgan</a></li>
+<li class="lvl3"><a href="#standardbestemmelser-for-informasjon-og-drfting">Standardbestemmelser for informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#2-regulering-av-representasjonsorganets-kompetanse-og-myndighet">2 Regulering av representasjonsorganets kompetanse og myndighet</a></li>
+<li class="lvl4"><a href="#3-rett-til-informasjon-og-drfting">3 Rett til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#4-informasjon-til-representasjonsorganet">4 Informasjon til representasjonsorganet</a></li>
+<li class="lvl4"><a href="#5-mtenes-innhold">5 Møtenes innhold</a></li>
+<li class="lvl4"><a href="#6-rett-til-informasjon-ved-srlige-omstendigheter">6 Rett til informasjon ved særlige omstendigheter</a></li>
+<li class="lvl4"><a href="#7-informasjon-til-de-arbeidstakernes-representanter">7 Informasjon til de arbeidstakernes representanter</a></li>
+<li class="lvl4"><a href="#8-rett-til-sakkyndig-bistand">8 Rett til sakkyndig bistand</a></li>
+<li class="lvl4"><a href="#9-rett-til-permisjon">9 Rett til permisjon</a></li>
+<li class="lvl4"><a href="#10-dekning-av-utgifter">10 Dekning av utgifter</a></li>
+<li class="lvl3"><a href="#standardbestemmelser-for-representasjon">Standardbestemmelser for representasjon</a></li>
+<li class="lvl4"><a href="#11-viderefring-av-representasjon-ved-omdanning">11 Videreføring av representasjon ved omdanning</a></li>
+<li class="lvl4"><a href="#12-rett-til-representasjon-ved-andre-stiftelsesmater-enn-omdanning">12 Rett til representasjon ved andre stiftelsesmåter enn omdanning</a></li>
+<li class="lvl4"><a href="#13-fordeling-av-plasser-til-administrasjons-eller-kontrollorganet">13 Fordeling av plasser til administrasjons- eller kontrollorganet</a></li>
+<li class="lvl4"><a href="#14-arbeidstaker-representantenes-status-i-administrasjons-eller-kontrollorganet">14 Arbeidstaker representantenes status i administrasjons- eller kontrollorganet</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2017-08-24-1282.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-04-01-273.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om arbeidstakernes rett til innflytelse i europeiske selskaper</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-04-01-273.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-04-01-273 <code>forskrift/2005-04-01-273</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om arbeidernes innflytelse i SE</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2017-08-24-1282 <code>forskrift/2017-08-24-1282</code> fra 01.01.2018</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-04-01-273" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-lovvalg">§ 2. Virkeområde og lovvalg</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-forhandlingsfremgangsmate">Kapittel II. Forhandlingsfremgangsmåte</a></li>
+<li class="lvl4"><a href="#4-opprettelse-av-det-srlige-forhandlingsutvalg">§ 4. Opprettelse av det særlige forhandlingsutvalg</a></li>
+<li class="lvl4"><a href="#5-fordeling-av-setene-i-norge">§ 5. Fordeling av setene i Norge</a></li>
+<li class="lvl4"><a href="#6-valg-av-medlemmer-til-det-srlige-forhandlingsutvalg-i-norge">§ 6. Valg av medlemmer til det særlige forhandlingsutvalg i Norge</a></li>
+<li class="lvl4"><a href="#7-det-srlige-forhandlingsutvalgets-oppgaver">§ 7. Det særlige forhandlingsutvalgets oppgaver</a></li>
+<li class="lvl4"><a href="#8-avtalens-innhold">§ 8. Avtalens innhold</a></li>
+<li class="lvl4"><a href="#9-forhandlingenes-varighet">§ 9. Forhandlingenes varighet</a></li>
+<li class="lvl4"><a href="#10-standardbestemmelsenes-anvendelse">§ 10. Standardbestemmelsenes anvendelse</a></li>
+<li class="lvl2"><a href="#kapittel-iii-forskjellige-bestemmelser">Kapittel III. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#11-taushetsplikt">§ 11. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#12-rett-til-a-holde-tilbake-fortrolig-informasjon">§ 12. Rett til å holde tilbake fortrolig informasjon</a></li>
+<li class="lvl4"><a href="#13-misbruk-av-reglene-om-europeiske-selskaper">§ 13. Misbruk av reglene om europeiske selskaper</a></li>
+<li class="lvl4"><a href="#14-tvistelsning">§ 14. Tvisteløsning</a></li>
+<li class="lvl4"><a href="#15-saksbehandlingsregler">§ 15. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#16-forholdet-til-andre-bestemmelser">§ 16. Forholdet til andre bestemmelser</a></li>
+<li class="lvl4"><a href="#17-ikrafttredelse">§ 17. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-standardbestemmelser">Vedlegg I – Standardbestemmelser</a></li>
+<li class="lvl3"><a href="#generelle-bestemmelser">Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-sammensetningen-av-arbeidstakernes-representasjonsorgan">1 Sammensetningen av arbeidstakernes representasjonsorgan</a></li>
+<li class="lvl3"><a href="#standardbestemmelser-for-informasjon-og-drfting">Standardbestemmelser for informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#2-regulering-av-representasjonsorganets-kompetanse-og-myndighet">2 Regulering av representasjonsorganets kompetanse og myndighet</a></li>
+<li class="lvl4"><a href="#3-rett-til-informasjon-og-drfting">3 Rett til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#4-informasjon-til-representasjonsorganet">4 Informasjon til representasjonsorganet</a></li>
+<li class="lvl4"><a href="#5-mtenes-innhold">5 Møtenes innhold</a></li>
+<li class="lvl4"><a href="#6-rett-til-informasjon-ved-srlige-omstendigheter">6 Rett til informasjon ved særlige omstendigheter</a></li>
+<li class="lvl4"><a href="#7-informasjon-til-de-arbeidstakernes-representanter">7 Informasjon til de arbeidstakernes representanter</a></li>
+<li class="lvl4"><a href="#8-rett-til-sakkyndig-bistand">8 Rett til sakkyndig bistand</a></li>
+<li class="lvl4"><a href="#9-rett-til-permisjon">9 Rett til permisjon</a></li>
+<li class="lvl4"><a href="#10-dekning-av-utgifter">10 Dekning av utgifter</a></li>
+<li class="lvl3"><a href="#standardbestemmelser-for-representasjon">Standardbestemmelser for representasjon</a></li>
+<li class="lvl4"><a href="#11-viderefring-av-representasjon-ved-omdanning">11 Videreføring av representasjon ved omdanning</a></li>
+<li class="lvl4"><a href="#12-rett-til-representasjon-ved-andre-stiftelsesmater-enn-omdanning">12 Rett til representasjon ved andre stiftelsesmåter enn omdanning</a></li>
+<li class="lvl4"><a href="#13-fordeling-av-plasser-til-administrasjons-eller-kontrollorganet">13 Fordeling av plasser til administrasjons- eller kontrollorganet</a></li>
+<li class="lvl4"><a href="#14-arbeidstaker-representantenes-status-i-administrasjons-eller-kontrollorganet">14 Arbeidstaker representantenes status i administrasjons- eller kontrollorganet</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-04-01-273.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-04-01-273.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-04-01-273.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-04-01-273.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-04-01-273.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-04-01-273.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-04-01-273.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-04-01-273.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-04-01-273.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-arbeidstakernes-rett-til-innflytelse-i-europeiske-selskaper">Forskrift om arbeidstakernes rett til innflytelse i europeiske selskaper</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Denne forskriften er gitt for å sikre arbeidstakernes rett til informasjon, drøfting og representasjon i europeiske selskaper (Societas Europaea), heretter kalt SE-selskap, jf. lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001 ) (SE-loven).</p>
 <h4 id="2-virkeomrade-og-lovvalg">§ 2. Virkeområde og lovvalg</h4>
 <p>(1) Denne forskriften gjelder for SE-selskaper med forretningskontor i Norge. Forskriften gjelder også ved stiftelse av SE-selskaper som skal ha forretningskontor i Norge.</p>
 <p>(2) Bestemmelsene i § 1 til § 6 og § 10 kommer til anvendelse for deltagende selskaper, datterselskaper og filialer i Norge som deltar i stiftelsen av SE-selskaper uavhengig av hvor selskapet skal ha forretningskontor.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. SE-selskap; et selskap stiftet i henhold til lov 1. april 2005 nr. 14 om europeiske selskaper ved gjennomføring av EØS-avtalen vedlegg XXII nr. 10a (rådsforordning (EF) nr. 2157/2001 ) (SE-loven) som implementerer forordning (EF) nr. 2157/2001 av 8. oktober 2001 om statuttene for det europeiske selskap.
@@ -97,7 +218,7 @@ h. representasjon; den innflytelse det organet som representerer arbeidstakerne 
   - å benytte retten til å velge eller utpeke noen av medlemmene i selskapets kontroll- eller administrasjonsorgan
   eller
   - å benytte retten til å anbefale og/eller gå imot utpekingen av noen eller alle medlemmene i selskapets kontroll- eller administrasjonsorgan.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h2 id="kapittel-ii-forhandlingsfremgangsmate">Kapittel II. Forhandlingsfremgangsmåte</h2>
 <h4 id="4-opprettelse-av-det-srlige-forhandlingsutvalg">§ 4. Opprettelse av det særlige forhandlingsutvalg</h4>
 <p>(1) Når ledelsesorganene i de deltakende selskapene utarbeider en plan for etablering av et SE-selskap, skal de så snart som mulig etter offentliggjøringen av fusjonsplanen, planen for stiftelse av et holdingselskap eller etter å ha vedtatt en plan for stiftelse av et datterselskap eller omdanning til et SE-selskap, treffe nødvendige tiltak for å innlede forhandlinger med representantene for selskapenes arbeidstakere om ordninger for arbeidstakernes innflytelse i SE-selskapet. Det skal gis informasjon til arbeidstakerne om navnene på og antallet arbeidstakere i de deltakende selskapene, berørte datterselskaper og filialer.</p>
@@ -105,7 +226,7 @@ h. representasjon; den innflytelse det organet som representerer arbeidstakerne 
 <p>(3) Når SE-selskapet stiftes gjennom fusjon skal det velges eller utpekes ekstra medlemmer fra hver stat i den utstrekning det er nødvendig for å sikre at det særlige forhandlingsutvalget omfatter minst ett medlem fra hvert deltakende selskap som er registrert og har arbeidstakere i vedkommende EU/EØS-stat og som vil opphøre å eksistere som eget rettssubjekt etter at SE-selskapet er registrert.</p>
 <p>(4) Tredje ledd gjelder likevel ikke dersom antallet slike ekstra medlemmer overstiger 20 prosent av antallet medlemmer valgt eller utpekt i henhold til annet ledd eller dersom de berørte de arbeidstakerne allerede er representert etter bestemmelsen i annet ledd. Dersom antall selskaper som vil opphøre og eksistere ved fusjonen er større enn det antall ekstra plasser som finnes i henhold til første punktum, skal disse ekstra plassene tildeles selskaper i forskjellige EU/EØS-stater i fallende rekkefølge etter antall arbeidstakere ansatt i selskapene.</p>
 <p>(5) Dersom antallet arbeidstakere i de deltagende selskaper, berørte datterselskaper eller filialer endrer seg etter at det særlige forhandlingsutvalget er opprettet, skal fordelingen av setene i henhold til annet, tredje og fjerde ledd gjøres på nytt dersom endringene er så vesentlige at de ville medført en annen sammensetning av det særlige forhandlingsutvalget.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="5-fordeling-av-setene-i-norge">§ 5. Fordeling av setene i Norge</h4>
 <p>(1) Setene i det særlige forhandlingsutvalget som tildeles arbeidstakerne i Norge i henhold til § 4 annet ledd, tildeles arbeidstakerne i de deltagende selskaper i Norge i fallende rekkefølge regnet etter antallet arbeidstakere i det enkelte selskap. Dersom det er flere plasser til fordeling enn det er deltagende selskaper, fordeles disse på berørte datterselskaper og filialer i fallende rekkefølge regnet etter antallet arbeidstakere i den enkelte enhet. Øvrige plasser fordeles på de deltagende selskaper, berørte datterselskaper og filialer i fallende rekkefølge regnet etter antallet arbeidstakere.</p>
 <p>(2) Dersom SE-selskapet stiftes ved fusjon og det skal tildeles plasser til selskaper i Norge som opphører å eksistere ved fusjonen, fordeles plassene på arbeidstakerne i disse selskapene i fallende rekkefølge regnet etter antallet arbeidstakere i det enkelte selskap. Dette gjelder ikke dersom det deltagende selskapet blir tildelt en plass i det særlige forhandlingsutvalget i medhold av første ledd, jf. § 4 fjerde ledd.</p>
@@ -113,12 +234,12 @@ h. representasjon; den innflytelse det organet som representerer arbeidstakerne 
 <p>(4) Dersom en enhet som har en eller flere representanter i det særlige forhandlingsutvalget ikke lenger skal være representert i det særlige forhandlingsutvalget og dette ikke medfører endring i sammensetningen av det særlige forhandlingsutvalget etter § 4 femte ledd, jf. § 5 tredje ledd, tildeles den ledige plassen til den enhet som står nærmest i tråd med regelen i § 5 første ledd. Dersom arbeidstakerne i denne enheten er tildelt en plass på grunnlag av regelen i § 5 annet ledd, går plassen likevel videre til neste enhet i tråd med bestemmelsen i § 5 annet ledd. Dersom det ikke finnes slik enhet skal ingen enheter ha denne plassen.</p>
 <p>(5) Dersom det tilkommer nye deltagende selskaper etter at det særlige forhandlingsutvalget er opprettet, og dette ikke medfører endringer i fordelingen av seter i det særlige forhandlingsutvalget i henhold til § 4 femte ledd, skal slike selskaper ha en representant i det særlige forhandlingsutvalget. Fordelingen etter § 5 tredje ledd gjelder tilsvarende.</p>
 <p>(6) Representanter som velges med hjemmel i § 4 annet ledd, jf. § 5 første ledd representerer arbeidstakerne i enheten og i tillegg en andel av arbeidstakerne i de enheter som ikke har valgt egne representanter. Dersom det er valgt flere representanter etter § 4 annet ledd, fordeles arbeidstakerne som ikke har egne representanter likt på representantene. Representanter valgt med hjemmel i § 4 tredje ledd, jf. § 5 annet ledd representerer kun arbeidstakerne i dette selskapet.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="6-valg-av-medlemmer-til-det-srlige-forhandlingsutvalg-i-norge">§ 6. Valg av medlemmer til det særlige forhandlingsutvalg i Norge</h4>
 <p>(1) Dersom det finnes lokale fagforeninger som alene eller til sammen representerer minst to tredeler av arbeidstakerne i den enhet som er tildelt representant i henhold til § 5 første eller annet ledd, utpeker de lokale fagforeningene representanten blant arbeidstakerne i enheten. Dersom det ikke oppnås enighet om hvem som skal utpekes, gjennomføres valg av og blant arbeidstakerne i henhold til annet ledd.</p>
 <p>(2) Dersom det i enhetene som er tildelt representanter ikke finnes fagforeninger som alene eller til sammen omfatter to tredeler av arbeidstakerne eller fagforeningene ikke blir enige, gjennomføres valg av og blant arbeidstakerne i Norge direkte. For dette valget gjelder forskrift 18. desember 1998 nr. 1205 om ansattes rett til representasjon i aksjeselskapers og allmennaksjeselskapers styre og bedriftsforsamling m.v. (representasjonsforskriften) tilsvarende så langt det passer og ikke strider mot bestemmelsen her. Representasjonsforskriften § 12 fjortende ledd gjelder ikke. Valgstyret kan sette kortere frister for gjennomføringen av valget enn det som fremgår av representasjonsforskriften § 12 .</p>
 <p>(3) Valget kan gjennomføres elektronisk dersom valgstyret bestemmer det og samtlige arbeidstakere har tilgang til datamaskin og valget ellers gjennomføres i tråd med representasjonsforskriftens regler.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="7-det-srlige-forhandlingsutvalgets-oppgaver">§ 7. Det særlige forhandlingsutvalgets oppgaver</h4>
 <p>(1) Det særlige forhandlingsutvalget og de deltakende selskapene skal i avtale bestemme ordninger for arbeidstakernes rett til informasjon, drøfting og representasjon i SE-selskapet. For dette formål skal de deltakende selskapene underrette det særlige forhandlingsutvalget om planen og den konkrete prosessen med å etablere SE-selskapet, inntil dette er registrert.</p>
 <p>(2) Det særlige forhandlingsutvalget skal med mindre annet er særskilt bestemt treffe beslutning med alminnelig flertall av sine medlemmer, forutsatt at slikt flertall også representerer et flertall av arbeidstakerne.</p>
@@ -131,7 +252,7 @@ h. representasjon; den innflytelse det organet som representerer arbeidstakerne 
 <p>(9) I tilfelle av et SE-selskap som er etablert ved omdanning, kommer syvende og åttende ledd ikke til anvendelse dersom arbeidstakerne i selskapet som skal omdannes har rett til representasjon.</p>
 <p>(10) Det særlige forhandlingsutvalget skal sammenkalles på nytt etter skriftlig anmodning fra minst 10 prosent av arbeidstakerne i SE-selskapet, dets datterselskap og filialer, eller deres representanter, tidligst to år etter beslutning som nevnt i åttende ledd, jf. syvende ledd, med mindre partene er enige om at forhandlingene skal innledes tidligere. Standardbestemmelsene i vedlegg I kommer ikke til anvendelse dersom det særlige forhandlingsutvalget beslutter å gjeninnlede forhandlinger med selskapet og disse forhandlingene ikke fører til enighet om en avtale som nevnt i § 8 .</p>
 <p>(11) De deltagende selskapene skal dekke utgiftene forbundet med det særlige forhandlingsutvalgets oppgaver, herunder utgiftene til en sakkyndig. Dekning av sakkyndige utover dette kan avtales mellom de deltagende selskapene og det særlige forhandlingsutvalget.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="8-avtalens-innhold">§ 8. Avtalens innhold</h4>
 <p>(1) Avtalen mellom de deltakende selskapene og det særlige forhandlingsutvalget om arbeidstakernes innflytelse skal være skriftlig og bør minst fastsette:</p>
 <p>a. avtalens virkeområde,
@@ -155,7 +276,7 @@ b. det ikke er inngått noen avtale innen fristen fastsatt i § 9 og hvert delta
 b. i tilfelle av et SE-selskap etablert ved fusjon; dersom en eller flere former for representasjon gjaldt i ett eller flere av de deltakende selskapene før registrering av SE-selskapet og omfattet minst 25 prosent av det samlede antall arbeidstakere i alle deltakende selskaper. Det samme gjelder dersom en eller flere former for representasjon gjaldt i ett eller flere av de deltakende selskapene før registrering av SE-selskapet og omfattet mindre enn 25 prosent av det samlede antall arbeidstakere i alle deltakende selskaper dersom det særlige forhandlingsutvalget bestemmer det,
 c. i tilfelle av et SE-selskap etablert ved dannelse av et holdingselskap eller stiftelse av et datterselskap; dersom en eller flere former for representasjon gjaldt i ett eller flere av de deltakende selskapene før registrering av SE-selskapet og omfattet minst 50 prosent av det samlede antall arbeidstakere i alle deltakende selskaper. Det samme gjelder dersom en eller flere former for representasjon gjaldt i ett eller flere av de deltakende selskapene før registrering av SE-selskapet og omfattet mindre enn 50 prosent av det samlede antall arbeidstakere i alle deltakende selskaper dersom det særlige forhandlingsutvalget bestemmer det.</p>
 <p>(3) Dersom det fantes mer enn en form for representasjon i de forskjellige deltakende selskapene, skal det særlige forhandlingsutvalget beslutte hvilken av disse formene som må etableres i SE-selskapet. Dersom SE-selskapet skal registreres i Norge og det særlige forhandlingsutvalget ikke har besluttet hvilken form for representasjon som skal etableres i SE-selskapet, beslutter de deltagende selskapene hvilken form for representasjon som skal innføres i SE-selskapet. Det særlige forhandlingsutvalget skal underrette de deltakende selskapene om alle beslutninger det treffer i henhold til denne paragrafen.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h2 id="kapittel-iii-forskjellige-bestemmelser">Kapittel III. Forskjellige bestemmelser</h2>
 <h4 id="11-taushetsplikt">§ 11. Taushetsplikt</h4>
 <p>(1) Dersom SE-selskapets behov for fortrolighet gjør det nødvendig at informasjon ikke gis videre, kan SE-selskapet eller et deltakende selskap i særskilte tilfeller pålegge arbeidstakernes representanter og eventuelle sakkyndige taushetsplikt.</p>
@@ -166,7 +287,7 @@ c. i tilfelle av et SE-selskap etablert ved dannelse av et holdingselskap eller 
 <p>(1) Dersom det innen ett år etter registreringen av SE-selskapet inntrer vesentlige endringer i selskapet, dets datterselskaper eller filialer og disse endringene ville ha gitt arbeidstakerne større innflytelse enn gjeldende innflytelsesordninger dersom de hadde vært foretatt før registreringen, skal reglene om SE-selskap anses misbrukt med mindre selskapet sannsynliggjør at endringene hadde andre årsaker.</p>
 <p>(2) Dersom reglene om SE-selskap misbrukes for å frata arbeidstakerene innflytelse, kan nye forhandlinger kreves. Forhandlinger kan kreves av representasjonsorganet eller av representanter for flertallet av arbeidstakerne i SE-selskapets nye forretningssteder eller datterselskap.</p>
 <p>(3) Bestemmelsene i § 4 til § 10 gjelder tilsvarende så langt de passer.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="14-tvistelsning">§ 14. Tvisteløsning</h4>
 <p>(1) Tvisteløsningsnemnd etter arbeidsmiljøloven, jf. arbeidsmiljøloven § 17-2 , kan avgjøre:</p>
 <p>a. tvister som knytter seg til opprettelsen av det særlige forhandlingsutvalget etter § 4 , § 5 og § 6 . For valg av arbeidstakernes representanter i det særlige forhandlingsutvalget fra Norge, gjelder representasjonsforskriften tilsvarende, jf. § 6 andre ledd,
@@ -175,13 +296,13 @@ c. tvister som knytter seg til om vilkårene for anvendelse av standardbestemmel
 e. beslutning om taushetsplikt eller tilbakehold av informasjon, jf. § 11 og § 12 ,
 f. tvister vedrørende fordelingen av plasser samt valg eller utpeking av de arbeidstakernes representanter til administrasjons- eller kontrollorganet etter standardbestemmelsene i vedlegg I nr. 13.</p>
 <p>(2) Tvister om beslutninger som nevnt i første ledd bokstav e kan ikke bringes inn for tvisteløsningsnemnda etter at opplysningene beslutningen gjelder er blitt offentlig kjent.</p>
-<p><em>Endret ved forskrifter 27 feb 2007 nr. 230 , 24 aug 2017 nr. 1282 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrifter 27 feb 2007 nr. 230 , 24 aug 2017 nr. 1282 (i kraft 1 jan 2018).</p>
 <h4 id="15-saksbehandlingsregler">§ 15. Saksbehandlingsregler</h4>
 <p>For saksbehandlingen i tvisteløsningsnemnda gjelder forskrift 16. desember 2005 nr. 1569 om tvisteløsningsnemnd etter arbeidsmiljøloven så langt den passer. Det særlige forhandlingsutvalget, representasjonsorganet eller tilsvarende organer, SE-selskaper, deltakende selskaper, berørte datterselskaper, filialer, lokale fagforeninger og en femtedel av arbeidstakerne kan bringe tvister inn for tvisteløsningsnemnda.</p>
-<p><em>Endret ved forskrift 24 aug 2017 nr. 1282 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 24 aug 2017 nr. 1282 (i kraft 1 jan 2018).</p>
 <h4 id="16-forholdet-til-andre-bestemmelser">§ 16. Forholdet til andre bestemmelser</h4>
 <p>Lov 23. august 1996 nr. 63 om allmenngjøring av bestemmelser i tariffavtale om europeiske samarbeidsutvalg m.v. og forskrift 28. juli 2000 nr. 797 om europeiske samarbeidsutvalg mv. gjelder ikke for SE-selskaper med mindre det særlige forhandlingsutvalget i henhold til § 7 syvende og åttende ledd har besluttet ikke å innlede forhandlinger eller å avslutte forhandlinger om ordninger for innflytelse i selskapet.</p>
-<p><em>Endret ved forskrift 27 feb 2007 nr. 230 .</em></p>
+<p class="note">Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="17-ikrafttredelse">§ 17. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. april 2005.</p>
 <h2 id="vedlegg-i-standardbestemmelser">Vedlegg I – Standardbestemmelser</h2>
@@ -229,6 +350,8 @@ f. tvister vedrørende fordelingen av plasser samt valg eller utpeking av de arb
 <p>Endret ved forskrift 27 feb 2007 nr. 230 .</p>
 <h4 id="14-arbeidstaker-representantenes-status-i-administrasjons-eller-kontrollorganet">14 Arbeidstaker representantenes status i administrasjons- eller kontrollorganet</h4>
 <p>Hvert medlem av administrasjons- eller kontrollorganet i SE-selskapet som er valgt, utpekt eller anbefalt av representasjonsorganet eller av arbeidstakerne, skal være fullverdig medlem med samme rettigheter og forpliktelser som medlemmene som representerer aksjeeierne. Dette gjelder også i forhold til stemmerett.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

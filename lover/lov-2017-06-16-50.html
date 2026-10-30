@@ -19,64 +19,171 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-06-16-50.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Diskrimineringsombudsloven – diskrol" href="../feeds/lov-2017-06-16-50.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &rsaquo;
 <span>Diskrimineringsombudsloven – diskrol</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-06-16-50</code></dd>
-<dt>Departement</dt><dd>Kultur- og likestillingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett &raquo; Likestilling og diskriminering\nFamilie-, person- og barnerett &raquo; Personrett. Personvern\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nMenneskerettigheter\nSivil- og straffeprosess &raquo; Sivilprosess/tvisteloven</dd>
-<dt>Ikrafttredelse</dt><dd>2018-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-04-25-12</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-50" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1 Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-forholdet-til-forvaltningsloven">§ 2. Forholdet til forvaltningsloven</a></li>
+<li class="lvl4"><a href="#2a-avgjrelsesformer">§ 2a. Avgjørelsesformer</a></li>
+<li class="lvl4"><a href="#3-opplysningsplikt">§ 3. Opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-likestillings-og-diskrimineringsombudet">Kapittel 2 Likestillings- og diskrimineringsombudet</a></li>
+<li class="lvl4"><a href="#4-ombudets-organisering">§ 4. Ombudets organisering</a></li>
+<li class="lvl4"><a href="#5-ombudets-oppgaver">§ 5. Ombudets oppgaver</a></li>
+<li class="lvl2"><a href="#kapittel-3-diskrimineringsnemnda">Kapittel 3 Diskrimineringsnemnda</a></li>
+<li class="lvl4"><a href="#6-nemndas-organisering">§ 6. Nemndas organisering</a></li>
+<li class="lvl4"><a href="#7-nemndas-ansvarsomrade">§ 7. Nemndas ansvarsområde</a></li>
+<li class="lvl4"><a href="#8-nemndas-behandling-av-saken">§ 8. Nemndas behandling av saken</a></li>
+<li class="lvl4"><a href="#9-skriftlig-og-muntlig-saksbehandling">§ 9. Skriftlig og muntlig saksbehandling</a></li>
+<li class="lvl4"><a href="#10-avvisning-og-henleggelse">§ 10. Avvisning og henleggelse</a></li>
+<li class="lvl4"><a href="#11-vedtaksmyndighet-palegg-om-stansing-retting-mv">§ 11. Vedtaksmyndighet. Pålegg om stansing, retting mv.</a></li>
+<li class="lvl4"><a href="#12-oppreisning-og-erstatning">§ 12. Oppreisning og erstatning</a></li>
+<li class="lvl4"><a href="#13-tvangsmulkt">§ 13. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-nemndas-myndighet-overfor-andre-forvaltningsorganer">§ 14. Nemndas myndighet overfor andre forvaltningsorganer</a></li>
+<li class="lvl4"><a href="#15-nemndas-forhold-til-arbeidsretten">§ 15. Nemndas forhold til Arbeidsretten</a></li>
+<li class="lvl4"><a href="#16-domstolsbehandling">§ 16. Domstolsbehandling</a></li>
+<li class="lvl4"><a href="#17-forholdet-til-de-alminnelige-domstoler">§ 17. Forholdet til de alminnelige domstoler</a></li>
+<li class="lvl4"><a href="#18-straff-for-overtredelse-av-palegg-og-brudd-pa-opplysningsplikten">§ 18. Straff for overtredelse av pålegg og brudd på opplysningsplikten</a></li>
+<li class="lvl4"><a href="#19-dom-for-tiltak">§ 19. Dom for tiltak</a></li>
+<li class="lvl4"><a href="#20-gjenapning">§ 20. Gjenåpning</a></li>
+<li class="lvl4"><a href="#21-retting-og-tilleggsavgjrelse">§ 21. Retting og tilleggsavgjørelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-forskrift">Kapittel 4 Forskrift</a></li>
+<li class="lvl4"><a href="#22-myndighet-til-a-gi-forskrift">§ 22. Myndighet til å gi forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikrafttredelse-og-overgangsregler">Kapittel 5 Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsregler">§ 24. Overgangsregler</a></li>
+<li class="lvl4"><a href="#25-endringer-i-annen-lovgivning">§ 25. Endringer i annen lovgivning</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-04-25-12.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-50.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om Likestillings- og diskrimineringsombudet og Diskrimineringsnemnda (diskrimineringsombudsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-50.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-06-16-50 <code>lov/2017-06-16-50</code></td></tr>
+<tr><th>Korttittel</th><td>Diskrimineringsombudsloven – diskrol</td></tr>
+<tr><th>Departement</th><td>Kultur- og likestillingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett &raquo; Likestilling og diskriminering\nFamilie-, person- og barnerett &raquo; Personrett. Personvern\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nMenneskerettigheter\nSivil- og straffeprosess &raquo; Sivilprosess/tvisteloven</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2018</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-04-25-12 <code>lov/2025-04-25-12</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-50" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1 Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-forholdet-til-forvaltningsloven">§ 2. Forholdet til forvaltningsloven</a></li>
+<li class="lvl4"><a href="#2a-avgjrelsesformer">§ 2a. Avgjørelsesformer</a></li>
+<li class="lvl4"><a href="#3-opplysningsplikt">§ 3. Opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-likestillings-og-diskrimineringsombudet">Kapittel 2 Likestillings- og diskrimineringsombudet</a></li>
+<li class="lvl4"><a href="#4-ombudets-organisering">§ 4. Ombudets organisering</a></li>
+<li class="lvl4"><a href="#5-ombudets-oppgaver">§ 5. Ombudets oppgaver</a></li>
+<li class="lvl2"><a href="#kapittel-3-diskrimineringsnemnda">Kapittel 3 Diskrimineringsnemnda</a></li>
+<li class="lvl4"><a href="#6-nemndas-organisering">§ 6. Nemndas organisering</a></li>
+<li class="lvl4"><a href="#7-nemndas-ansvarsomrade">§ 7. Nemndas ansvarsområde</a></li>
+<li class="lvl4"><a href="#8-nemndas-behandling-av-saken">§ 8. Nemndas behandling av saken</a></li>
+<li class="lvl4"><a href="#9-skriftlig-og-muntlig-saksbehandling">§ 9. Skriftlig og muntlig saksbehandling</a></li>
+<li class="lvl4"><a href="#10-avvisning-og-henleggelse">§ 10. Avvisning og henleggelse</a></li>
+<li class="lvl4"><a href="#11-vedtaksmyndighet-palegg-om-stansing-retting-mv">§ 11. Vedtaksmyndighet. Pålegg om stansing, retting mv.</a></li>
+<li class="lvl4"><a href="#12-oppreisning-og-erstatning">§ 12. Oppreisning og erstatning</a></li>
+<li class="lvl4"><a href="#13-tvangsmulkt">§ 13. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-nemndas-myndighet-overfor-andre-forvaltningsorganer">§ 14. Nemndas myndighet overfor andre forvaltningsorganer</a></li>
+<li class="lvl4"><a href="#15-nemndas-forhold-til-arbeidsretten">§ 15. Nemndas forhold til Arbeidsretten</a></li>
+<li class="lvl4"><a href="#16-domstolsbehandling">§ 16. Domstolsbehandling</a></li>
+<li class="lvl4"><a href="#17-forholdet-til-de-alminnelige-domstoler">§ 17. Forholdet til de alminnelige domstoler</a></li>
+<li class="lvl4"><a href="#18-straff-for-overtredelse-av-palegg-og-brudd-pa-opplysningsplikten">§ 18. Straff for overtredelse av pålegg og brudd på opplysningsplikten</a></li>
+<li class="lvl4"><a href="#19-dom-for-tiltak">§ 19. Dom for tiltak</a></li>
+<li class="lvl4"><a href="#20-gjenapning">§ 20. Gjenåpning</a></li>
+<li class="lvl4"><a href="#21-retting-og-tilleggsavgjrelse">§ 21. Retting og tilleggsavgjørelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-forskrift">Kapittel 4 Forskrift</a></li>
+<li class="lvl4"><a href="#22-myndighet-til-a-gi-forskrift">§ 22. Myndighet til å gi forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikrafttredelse-og-overgangsregler">Kapittel 5 Ikrafttredelse og overgangsregler</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsregler">§ 24. Overgangsregler</a></li>
+<li class="lvl4"><a href="#25-endringer-i-annen-lovgivning">§ 25. Endringer i annen lovgivning</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-50.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-50.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-50.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-06-16-50.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-06-16-50.html">Observerte kildeutgaver</a> · <a href="../historie/diskrimineringsombudsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-06-16-50.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-06-16-50.html">Observerte kildeutgaver</a> · <a href="../historie/diskrimineringsombudsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-06-16-50.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-likestillings-og-diskrimineringsombudet-og-diskrimineringsnemnda-diskrimineringsombudsloven">Lov om Likestillings- og diskrimineringsombudet og Diskrimineringsnemnda (diskrimineringsombudsloven)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1 Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Loven gir regler om organiseringen av og virksomheten til Likestillings- og diskrimineringsombudet (ombudet) og Diskrimineringsnemnda (nemnda).</p>
@@ -91,12 +198,12 @@ g. <a href="lov-2013-06-21-102.html">skipsarbeidsloven</a> kapittel 10 , med unn
 <p>Ombudets virksomhet omfatter også rapporteringen om arbeidet med likestilling og ikke-diskriminering etter <a href="lov-1998-07-17-56.html">regnskapsloven</a> § 3-3 c . 1</p>
 <p>Nemndas virksomhet omfatter også saker om gjengjeldelse etter arbeidsmiljøloven § 2 A-4 og oppreisning og erstatning etter § 2 A-5 , med unntak av saker om oppsigelse eller avskjed.</p>
 <p>Nemndas håndheving, jf. § 7 , omfatter ikke virksomheten til Stortinget, Riksrevisjonen, Sivilombudet og andre organer for Stortinget. Den omfatter heller ikke virksomheten til domstolene, Domstoladministrasjonen, Innstillingsrådet for dommere og Tilsynsutvalget for dommere.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 , se endringsloven for overgangsregel), 20 des 2022 nr. 115 , 16 juni 2023 nr. 64 (i kraft 1 jan 2024 iflg. res. 1 sep 2023 nr. 1379 ).
-1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 , se endringsloven for overgangsregel), 20 des 2022 nr. 115 , 16 juni 2023 nr. 64 (i kraft 1 jan 2024 iflg. res. 1 sep 2023 nr. 1379 ).
+1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</p>
 <h4 id="2-forholdet-til-forvaltningsloven">§ 2. Forholdet til <a href="lov-2025-06-20-81.html">forvaltningsloven</a></h4>
 <p>Dersom ikke annet er bestemt, gjelder forvaltningsloven for ombudets og nemndas virksomhet. Forvaltningsloven §§ 35 og 51 femte ledd gjelder ikke. Dersom nemndas vedtak er kjent ugyldig ved dom, gjelder likevel forvaltningsloven § 35 første ledd bokstav c.</p>
 <p>Nemndas avgjørelser kan ikke påklages, med unntak av beslutninger om ileggelse av tvangsmulkt, jf. § 13 annet ledd annet punktum.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="2a-avgjrelsesformer">§ 2a. Avgjørelsesformer</h4>
 <p>Nemnda kan fatte følgende vedtak:</p>
 <p>a. Vedtak om brudd på bestemmelser nevnt i § 1 annet og fjerde ledd, jf. § 11
@@ -113,12 +220,12 @@ b. Beslutning om ileggelse av tvangsmulkt, jf. § 13</p>
 <p>a. Uttalelse om at forholdet som er påklaget ikke utgjør brudd på bestemmelser nevnt i § 1 annet og fjerde ledd, jf. § 11
 b. Uttalelse om at andre forvaltningsorganers vedtak innebærer brudd på bestemmelser nevnt i § 1 annet og fjerde ledd, jf. § 14
 c. Uttalelse om hvorvidt en tariffavtale eller en bestemmelse i tariffavtale som er brakt inn for nemnda, er i strid med bestemmelsene nevnt i § 1 annet og fjerde ledd, jf. § 15 .</p>
-<p><em>Tilføyd ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Tilføyd ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="3-opplysningsplikt">§ 3. Opplysningsplikt</h4>
 <p>Offentlige myndigheter plikter uten hinder av taushetsplikt å gi ombudet og nemnda de opplysningene som er nødvendige for gjennomføringen av bestemmelsene nevnt i § 1 annet og fjerde ledd, jf. § 5 tredje ledd. Slike opplysninger kan også kreves av andre som har vitneplikt etter <a href="lov-2005-06-17-90.html">tvisteloven</a> . Tvisteloven § 24-8 tredje ledd 1 gjelder tilsvarende. Avgjørelse som nevnt i tvisteloven § 22-6 første ledd annet punktum, § 22-7 , § 22-8 annet ledd, § 22-9 annet til fjerde ledd, § 22-10 annet punktum og § 22-11 annet ledd, treffes av tingretten.</p>
 <p>Ombudet og nemnda kan kreve bevisopptak ved domstolene, jf. <a href="lov-1915-08-13-5.html">domstolloven</a> § 43 annet ledd.</p>
-<p><em>Endret ved lover 19 des 2017 nr. 114 (ikr. 1 jan 2018 iflg. res. 19 des 2017 nr. 2155 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).
-1 Inkurie: Skal være tvisteloven § 24-8 fjerde ledd .</em></p>
+<p class="note">Endret ved lover 19 des 2017 nr. 114 (ikr. 1 jan 2018 iflg. res. 19 des 2017 nr. 2155 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).
+1 Inkurie: Skal være tvisteloven § 24-8 fjerde ledd .</p>
 <h2 id="kapittel-2-likestillings-og-diskrimineringsombudet">Kapittel 2 Likestillings- og diskrimineringsombudet</h2>
 <h4 id="4-ombudets-organisering">§ 4. Ombudets organisering</h4>
 <p>Likestillings- og diskrimineringsombudet utnevnes på åremål av Kongen i statsråd for en periode på seks år uten adgang til gjenoppnevning.</p>
@@ -131,8 +238,8 @@ c. Uttalelse om hvorvidt en tariffavtale eller en bestemmelse i tariffavtale som
 b. De forente nasjoners internasjonale konvensjon 21. desember 1965 om avskaffelse av alle former for rasediskriminering
 c. De forente nasjoners internasjonale konvensjon 13. desember 2006 om rettighetene til mennesker med nedsatt funksjonsevne</p>
 <p>Ombudet skal følge opp aktivitets- og redegjørelsesplikten etter likestillings- og diskrimineringsloven §§ 24 , 25 , 26 og 26 a , samt rapporteringsplikten om likestilling og ikke-diskriminering etter regnskapsloven § 3-3 c . 1 Ombudets oppfølging kan blant annet innebære at ombudet og arbeidsgiver utarbeider en felles tilnærming til hvordan aktivitetsplikten følges opp i virksomheten. Ombudet kan videre gjennomgå likestillingsredegjørelsene, analysere funnene og komme med et forslag til forbedringstiltak og styrket innsats på likestillingsarbeidet i virksomheten. Ombudet kan også gjennomføre oppfølgingsbesøk i virksomhetene.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).
-1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).
+1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</p>
 <h2 id="kapittel-3-diskrimineringsnemnda">Kapittel 3 Diskrimineringsnemnda</h2>
 <h4 id="6-nemndas-organisering">§ 6. Nemndas organisering</h4>
 <p>Nemnda er et uavhengig forvaltningsorgan administrativt underordnet Kongen og departementet. Kongen eller departementet kan ikke instruere nemnda om nemndas faglige virksomhet.</p>
@@ -141,7 +248,7 @@ c. De forente nasjoners internasjonale konvensjon 13. desember 2006 om rettighet
 <p>Medlemmer og varamedlemmer oppnevnes av Kongen for fire år, med mulighet for én gangs gjenoppnevning. Ved første gangs oppnevning oppnevnes halvparten av medlemmene og varamedlemmene for to år.</p>
 <p>Ansatte i ombudet og departementet kan ikke oppnevnes som medlemmer i nemnda.</p>
 <p>Sakene i nemnda forberedes av et sekretariat. Sekretariatets leder ansettes av departementet.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="7-nemndas-ansvarsomrade">§ 7. Nemndas ansvarsområde</h4>
 <p>Nemnda skal håndheve bestemmelsene nevnt i § 1 annet og fjerde ledd, med unntak av følgende bestemmelser i likestillings- og diskrimineringsloven :</p>
 <p>a. § 24 om offentlige myndigheters aktivitets- og redegjørelsesplikt
@@ -152,13 +259,13 @@ e. § 28 om kjønnsbalanse i offentlige utvalg mv.
 f. § 32 annet ledd om behandling av lønnsopplysninger
 g. § 39 om straff for grov overtredelse av diskrimineringsforbudet som er begått av flere i fellesskap.</p>
 <p>Diskrimineringsnemnda skal ikke håndheve likestillings- og diskrimineringslovens forbud mot diskriminering, trakassering og seksuell trakassering i familieliv og andre rent personlige forhold.</p>
-<p><em>Endret ved lover 19 des 2017 nr. 114 (ikr. 1 jan 2018 iflg. res. 19 des 2017 nr. 2155 ), 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ), 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</em></p>
+<p class="note">Endret ved lover 19 des 2017 nr. 114 (ikr. 1 jan 2018 iflg. res. 19 des 2017 nr. 2155 ), 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ), 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</p>
 <h4 id="8-nemndas-behandling-av-saken">§ 8. Nemndas behandling av saken</h4>
 <p>Nemnda behandler de sakene som bringes inn for den. En part, ombudet eller andre med rettslig klageinteresse kan bringe en sak inn for nemnda.</p>
 <p>Nemnda skal ikke representere parten utad.</p>
 <h4 id="9-skriftlig-og-muntlig-saksbehandling">§ 9. Skriftlig og muntlig saksbehandling</h4>
 <p>Saksbehandlingen i nemnda er skriftlig. Nemnda skal vurdere om det av hensyn til sakens opplysning likevel bør gjennomføres muntlige forhandlinger. Avgjørelse om muntlige forhandlinger kan treffes av nemndleder. I saker om seksuell trakassering, og i saker hvor det er fremmet krav om oppreisning, har partene rett til muntlige forhandlinger.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="10-avvisning-og-henleggelse">§ 10. Avvisning og henleggelse</h4>
 <p>Nemnda skal avvise en sak:</p>
 <p>a. som er avgjort av en domstol eller brakt inn for en domstol til avgjørelse
@@ -168,46 +275,46 @@ d. dersom fornærmede i saken er anmeldt for uriktig forklaring.</p>
 <p>Nemnda kan avvise en sak hvis saksforholdet ligger mer enn tre år tilbake i tid.</p>
 <p>Nemnda kan henlegge en sak dersom forholdet er av bagatellmessig art, forholdet det er klaget over åpenbart ikke er i strid med de bestemmelser som er nevnt i § 1 annet og fjerde ledd, eller saken etter bevisets stilling ikke lar seg opplyse tilstrekkelig. Beslutning om henleggelse skal grunngis.</p>
 <p>Vedtak og beslutning etter første, annet og tredje ledd kan fattes av nemndleder.</p>
-<p><em>Endret ved lover 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 21 mai 2021 nr. 42 (ikr. 1 jan 2022 iflg. res. 21 mai 2021 nr. 1619 ), 16 juni 2023 nr. 64 (i kraft 1 jan 2024 iflg. res. 1 sep 2023 nr. 1379 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ), 21 mai 2021 nr. 42 (ikr. 1 jan 2022 iflg. res. 21 mai 2021 nr. 1619 ), 16 juni 2023 nr. 64 (i kraft 1 jan 2024 iflg. res. 1 sep 2023 nr. 1379 ).</p>
 <h4 id="11-vedtaksmyndighet-palegg-om-stansing-retting-mv">§ 11. Vedtaksmyndighet. Pålegg om stansing, retting mv.</h4>
 <p>Nemnda kan treffe vedtak dersom det foreligger et brudd på bestemmelser nevnt i § 1 annet og fjerde ledd, med mindre annet er bestemt. Dersom nemnda kommer til at det ikke foreligger brudd på bestemmelsene i § 1 annet og fjerde ledd, skal den avgi en uttalelse om det.</p>
 <p>Nemnda kan med unntak av i saker som nevnt i § 1 fjerde ledd og med de unntak som følger av §§ 14 og 15 , pålegge stansing, retting og andre tiltak som er nødvendige for å sikre at diskriminering, trakassering, instruks eller gjengjeldelse opphører, og for å hindre gjentakelse. Nemnda kan sette en frist for oppfyllelse av pålegget.</p>
 <p>I saker der det antas å medføre ulempe eller skadevirkning å avvente nemndas behandling av saken, kan nemndleder treffe vedtak etter annet ledd.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 22 juni 2022 nr. 83 (i kraft 22 juni 2022 iflg. res. 22 juni 2022 nr. 1141 ).</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 22 juni 2022 nr. 83 (i kraft 22 juni 2022 iflg. res. 22 juni 2022 nr. 1141 ).</p>
 <h4 id="12-oppreisning-og-erstatning">§ 12. Oppreisning og erstatning</h4>
 <p>Nemnda kan treffe vedtak om oppreisning i arbeidsforhold og ved arbeidsgivers valg og behandling av selvstendig næringsdrivende og innleide arbeidstakere, jf. likestillings- og diskrimineringsloven § 38 annet ledd første punktum, arbeidsmiljøloven §§ 2 A-5 og 13-9 og skipsarbeidsloven § 10-9 .</p>
 <p>Nemnda kan enstemmig treffe vedtak om erstatning ved brudd på bestemmelsene nevnt i § 1 annet og fjerde ledd, dersom innklagede ikke gjør gjeldende annet enn manglende betalingsevne eller andre åpenbart uholdbare innsigelser.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="13-tvangsmulkt">§ 13. Tvangsmulkt</h4>
 <p>Nemnda kan treffe vedtak om tvangsmulkt for å sikre gjennomføring av pålegg etter § 11 dersom fristen for å etterkomme pålegget oversittes. I saker der det antas å medføre ulempe eller skadevirkning å avvente nemndas behandling av saken, kan nemndleder treffe vedtak etter første punktum. Tvangsmulkt fastsettes som engangstvangsmulkt eller løpende dagmulkt. Tvangsmulkten begynner å løpe dersom frist for å etterkomme pålegget oversittes, og den skal løpe fram til pålegget er oppfylt.</p>
 <p>Beslutning om ileggelse av tvangsmulkt kan treffes av nemndleder. En part kan begjære at en beslutning om ileggelse av tvangsmulkt skal prøves på ny. Forvaltningsloven §§ 28 - 36 gjelder tilsvarende.</p>
 <p>Tvangsmulkten tilfaller staten, og den kreves inn av Innkrevingsmyndigheten.</p>
 <p>Departementet kan i forskrift gi regler om tvangsmulktens størrelse, varighet og andre bestemmelser om fastsettelse og gjennomføring.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="14-nemndas-myndighet-overfor-andre-forvaltningsorganer">§ 14. Nemndas myndighet overfor andre forvaltningsorganer</h4>
 <p>Nemnda kan ikke treffe vedtak om at andre forvaltningsorganers vedtak innebærer brudd på bestemmelser nevnt i § 1 annet eller fjerde ledd. Dette gjelder likevel ikke enkeltvedtak truffet av forvaltningsorganer i deres utøvelse av arbeidsgiverfunksjoner. Nemnda kan ikke i noe tilfelle treffe vedtak rettet mot Kongen eller departementene.</p>
 <p>I tilfeller som nevnt i første ledd skal nemnda gi en uttalelse om hvorvidt det forholdet som er brakt inn for nemnda, innebærer brudd på bestemmelsene nevnt i § 1 annet og fjerde ledd. Dette gjelder likevel ikke saker om utnevning av dommere i statsråd.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="15-nemndas-forhold-til-arbeidsretten">§ 15. Nemndas forhold til Arbeidsretten</h4>
 <p>Reiser en sak for nemnda indirekte spørsmål om en tariffavtales eksistens, gyldighet eller forståelse, kan hver av partene i tariffavtalen få dette spørsmålet avgjort av Arbeidsretten.</p>
 <p>Nemnda kan gi en uttalelse om hvorvidt en tariffavtale eller bestemmelse i tariffavtale som er brakt inn for nemnda, er i strid med bestemmelsene nevnt i § 1 annet og fjerde ledd. Partene i tariffavtalen kan i slike tilfeller bringe spørsmålet om avtalens forhold til en bestemmelse nevnt i § 1 annet eller fjerde ledd inn for Arbeidsretten.</p>
 <p>Sak for nemnda som bringes inn for Arbeidsretten etter første ledd eller annet ledd annet punktum, stilles i bero til spørsmålet er ferdig behandlet av Arbeidsretten.</p>
 <p>Nemnda kan ikke treffe avgjørelser som hører under Arbeidsretten etter lov 27. januar 2012 nr. 9 om arbeidstvister og lov 18. juli 1958 nr. 2 om offentlige tjenestetvister.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="16-domstolsbehandling">§ 16. Domstolsbehandling</h4>
 <p>Vedtak og beslutninger om ileggelse av tvangsmulkt kan bringes inn for domstolene til full prøving av saken. Søksmål om overprøving av et vedtak eller en beslutning om ileggelse av tvangsmulkt må reises innen tre måneder fra det tidspunktet partene ble underrettet om vedtaket eller beslutningen om tvangsmulkt. Reises ikke søksmål innen fristen, har vedtaket eller beslutningen virkning som rettskraftig dom og kan fullbyrdes etter reglene som gjelder dommer. Nemnda eller nemndleder kan gi oppfriskning for oversittelse av fristen i annet punktum etter reglene i tvisteloven §§ 16-12 – 16-14 . Vedtaket om oppfriskning kan bringes inn for tingretten.</p>
 <p>Søksmål om gyldigheten av nemndas vedtak og beslutninger rettes mot staten ved nemnda og anlegges for Oslo tingrett jf. tvisteloven § 4-4 (4) første punktum. Det samme gjelder lovligheten av forhold knyttet til ileggelse av tvangsmulkt etter § 13 .</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="17-forholdet-til-de-alminnelige-domstoler">§ 17. Forholdet til de alminnelige domstoler</h4>
 <p>Så lenge en sak er til behandling i nemnda, kan ikke sakens parter bringe den inn for tingretten. Saken regnes for å være under behandling fra nemnda mottok klagen.</p>
 <p>Er søksmål reist ved tingretten og en part ønsker saken avgjort av nemnda, kan retten stanse den videre behandlingen etter begjæring av parten. Tvisteloven § 16-15 , § 16-18 tredje og fjerde ledd og § 16-19 gjelder tilsvarende. Ved rettens avgjørelse av om saken skal stanses, skal det legges vekt på om det er rimelig å stanse saken i påvente av nemndas avgjørelse når hensyn tas til tidsbruken og kostnadene som vil påløpe for partene ved stansing. Saken bringes i gang igjen i tingretten etter begjæring fra en av partene, men tidligst etter at avgjørelsen er fattet, og senest innen én måned etter at avgjørelsen er meddelt partene.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="18-straff-for-overtredelse-av-palegg-og-brudd-pa-opplysningsplikten">§ 18. Straff for overtredelse av pålegg og brudd på opplysningsplikten</h4>
 <p>Den som forsettlig eller uaktsomt unnlater å etterkomme pålegg etter § 11 eller å oppfylle opplysningsplikten etter § 3 , straffes med bøter.</p>
 <p>Overtredelse foretatt av en person i underordnet stilling straffes ikke hvis overtredelsen vesentlig skyldes underordningsforholdet.</p>
 <h4 id="19-dom-for-tiltak">§ 19. Dom for tiltak</h4>
 <p>Påtalemyndigheten kan i forbindelse med straffesaken kreve dom for tiltak for å sikre at den lovstridige handlingen, unnlatelsen eller gjengjeldelsen opphører, og for å hindre at den gjentas.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 122 (i kraft 1 juli 2022 iflg. res. 8 april 2022 nr. 570 ).</p>
 <h4 id="20-gjenapning">§ 20. Gjenåpning</h4>
 <p>Nemndas rettskraftige vedtak og beslutninger kan gjenåpnes etter begjæring fra en part. Saken kan gjenåpnes dersom</p>
 <p>a. det foreligger brudd på habilitetskrav i forvaltningsloven § 6
@@ -220,13 +327,13 @@ c. dersom det er rimelig sannsynlighetsovervekt for at en ny behandling av saken
 <p>Vedtak om gjenåpning treffes av nemndleder.</p>
 <p>Avslag på begjæring om gjenåpning kan bringes inn for tingretten. For øvrig gjelder tvisteloven §§ 31-6 til 31-9 så langt de passer.</p>
 <p>Dersom nemnda treffer vedtak om gjenåpning, har parten krav på å få dekket sakskostnader etter reglene i forvaltningsloven § 36 første ledd. Forvaltningsloven § 36 annet ledd gjelder ikke.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h4 id="21-retting-og-tilleggsavgjrelse">§ 21. Retting og tilleggsavgjørelse</h4>
 <p>Nemnda kan rette avgjørelser som på grunn av skrive- eller regnefeil, misforståelse, forglemmelse eller lignende klar feil har fått en utforming som ikke stemte med nemndas mening.</p>
 <p>Er det ikke truffet avgjørelse om noe som skulle vært avgjort, kan tilleggsavgjørelse avsies dersom begjæring om det fremmes innen fristen for å bringe saken inn for tingretten, jf. § 16 første ledd.</p>
 <p>Nemndleder kan treffe vedtak etter første og annet ledd.</p>
 <p>For øvrig gjelder tvisteloven §§ 19-8 og 19-9 tilsvarende.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 93 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 1973 ).</p>
 <h2 id="kapittel-4-forskrift">Kapittel 4 Forskrift</h2>
 <h4 id="22-myndighet-til-a-gi-forskrift">§ 22. Myndighet til å gi forskrift</h4>
 <p>Departementet kan gi forskrifter om ombudets og nemndas organisering, oppgaver og saksbehandling.</p>
@@ -239,6 +346,8 @@ c. dersom det er rimelig sannsynlighetsovervekt for at en ny behandling av saken
 <p>Saker som nevnt i første ledd skal behandles etter reglene i loven her. Det kan bare treffes vedtak som nevnt i §§ 11 , 12 og 13 i den utstrekning det også var adgang til det før ikrafttredelsen av loven her.</p>
 <h4 id="25-endringer-i-annen-lovgivning">§ 25. Endringer i annen lovgivning</h4>
 <p>Fra det tidspunktet loven trer i kraft, skal lov 18. mai 1979 nr. 18 om foreldelse av fordringer § 16 nr. 2 ny bokstav c lyde: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

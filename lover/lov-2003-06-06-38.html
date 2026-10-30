@@ -19,64 +19,449 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2003-06-06-38.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Bustadbyggjelagslova – bbl" href="../feeds/lov-2003-06-06-38.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Bustadbyggjelagslova – bbl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2003-06-06-38</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Anskaffelser, avtaler, bygg og entrepriser &raquo; Boligoppføring\nFast eiendoms rettsforhold &raquo; Borettslag. Boligbyggelag\nSelskaper, fond og foreninger &raquo; Samvirkeforetak</dd>
-<dt>Ikrafttredelse</dt><dd>2005-08-15, 2004-01-01, 2004-03-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-21-42</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2003-06-06-38" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innleiande-fresegner">Kapittel 1. Innleiande føresegner</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-2-ansvarsavgrensing">§ 1-2. Ansvarsavgrensing</a></li>
+<li class="lvl4"><a href="#1-3-tilknytte-lag">§ 1-3. Tilknytte lag</a></li>
+<li class="lvl4"><a href="#1-4-forbod-mot-diskriminering">§ 1-4. Forbod mot diskriminering</a></li>
+<li class="lvl4"><a href="#1-5-meldingar-mv">§ 1-5. Meldingar mv.</a></li>
+<li class="lvl4"><a href="#1-6-utarbeiding-og-oppbevaring-av-dokumentasjon">§ 1-6. Utarbeiding og oppbevaring av dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-stifting-av-bustadbyggjelag">Kapittel 2. Stifting av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#2-1-stiftingsdokument">§ 2-1. Stiftingsdokument</a></li>
+<li class="lvl4"><a href="#2-2-minstekrav-til-vedtektene">§ 2-2. Minstekrav til vedtektene</a></li>
+<li class="lvl4"><a href="#2-3-minstekrav-til-stiftingsdokumentet-elles">§ 2-3. Minstekrav til stiftingsdokumentet elles</a></li>
+<li class="lvl4"><a href="#2-4-fresegner-om-srskilde-rettar">§ 2-4. Føresegner om særskilde rettar</a></li>
+<li class="lvl4"><a href="#2-5-opningsbalanse">§ 2-5. Opningsbalanse</a></li>
+<li class="lvl4"><a href="#2-6-stifting-av-laget">§ 2-6. Stifting av laget</a></li>
+<li class="lvl4"><a href="#2-7-betaling-av-andelane">§ 2-7. Betaling av andelane</a></li>
+<li class="lvl4"><a href="#2-8-melding-av-laget-til-fretaksregisteret">§ 2-8. Melding av laget til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#2-9-kravet-pa-innskot">§ 2-9. Kravet på innskot</a></li>
+<li class="lvl2"><a href="#kapittel-3-kapitalen-i-laget">Kapittel 3. Kapitalen i laget</a></li>
+<li class="lvl4"><a href="#3-1-minstekapital">§ 3-1. Minstekapital</a></li>
+<li class="lvl4"><a href="#3-2-arspengar">§ 3-2. Årspengar</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-forsvarleg-eigenkapital">§ 3-3. Krav til forsvarleg eigenkapital</a></li>
+<li class="lvl4"><a href="#3-4-handleplikt-ved-tap-av-eigenkapital">§ 3-4. Handleplikt ved tap av eigenkapital</a></li>
+<li class="lvl4"><a href="#3-5-utdeling-mm">§ 3-5. Utdeling m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-andelseigarane">Kapittel 4. Andelseigarane</a></li>
+<li class="lvl3"><a href="#i-andelseigarane">I Andelseigarane</a></li>
+<li class="lvl5"><a href="#4-1-andelseigarane">§ 4-1. Andelseigarane</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-andelseigarbok">§ 4-2. Krav til andelseigarbok</a></li>
+<li class="lvl5"><a href="#4-3-melding-om-innfring-i-andelseigarboka">§ 4-3. Melding om innføring i andelseigarboka</a></li>
+<li class="lvl3"><a href="#ii-eigarskifte-og-vilkar-for-eigarskifte">II Eigarskifte og vilkår for eigarskifte</a></li>
+<li class="lvl5"><a href="#4-4-eigarskifte">§ 4-4. Eigarskifte</a></li>
+<li class="lvl5"><a href="#4-5-utmelding-og-utestenging">§ 4-5. Utmelding og utestenging</a></li>
+<li class="lvl5"><a href="#4-6-samarbeidsutval">§ 4-6. Samarbeidsutval</a></li>
+<li class="lvl2"><a href="#kapittel-5-generalforsamlinga">Kapittel 5. Generalforsamlinga</a></li>
+<li class="lvl3"><a href="#i-allmenne-reglar">I Allmenne reglar</a></li>
+<li class="lvl5"><a href="#5-1-mynde">§ 5-1. Mynde</a></li>
+<li class="lvl5"><a href="#5-2-mterett-fullmektig">§ 5-2. Møterett. Fullmektig</a></li>
+<li class="lvl5"><a href="#5-3-delegerte">§ 5-3. Delegerte</a></li>
+<li class="lvl5"><a href="#5-4-rysterett-habilitet">§ 5-4. Røysterett. Habilitet</a></li>
+<li class="lvl5"><a href="#5-5-mterett-og-mteplikt-for-leiinga">§ 5-5. Møterett og møteplikt for leiinga</a></li>
+<li class="lvl3"><a href="#ii-mte-i-generalforsamlinga">II Møte i generalforsamlinga</a></li>
+<li class="lvl5"><a href="#5-6-ordinr-generalforsamling">§ 5-6. Ordinær generalforsamling</a></li>
+<li class="lvl5"><a href="#5-7-ekstraordinr-generalforsamling">§ 5-7. Ekstraordinær generalforsamling</a></li>
+<li class="lvl3"><a href="#iii-innkalling-til-generalforsamlinga">III Innkalling til generalforsamlinga</a></li>
+<li class="lvl5"><a href="#5-8-kven-som-skal-kalle-inn">§ 5-8. Kven som skal kalle inn</a></li>
+<li class="lvl5"><a href="#5-9-kvar-generalforsamlinga-skal-haldast">§ 5-9. Kvar generalforsamlinga skal haldast</a></li>
+<li class="lvl5"><a href="#5-10-krav-til-innkallinga">§ 5-10. Krav til innkallinga</a></li>
+<li class="lvl5"><a href="#5-11-rett-til-a-fa-saker-opp-pa-generalforsamlinga">§ 5-11. Rett til å få saker opp på generalforsamlinga</a></li>
+<li class="lvl3"><a href="#iv-mtereglar">IV Møtereglar</a></li>
+<li class="lvl5"><a href="#5-12-opning-av-mtet-mteleiar">§ 5-12. Opning av møtet. Møteleiar</a></li>
+<li class="lvl5"><a href="#5-13-liste-over-andelseigarar-eller-delegerte-pa-mtet">§ 5-13. Liste over andelseigarar eller delegerte på møtet</a></li>
+<li class="lvl5"><a href="#5-14-saker-utanom-saklista">§ 5-14. Saker utanom saklista</a></li>
+<li class="lvl5"><a href="#5-15-opplysningsplikt-for-leiinga">§ 5-15. Opplysningsplikt for leiinga</a></li>
+<li class="lvl5"><a href="#5-16-valkomite">§ 5-16. Valkomité</a></li>
+<li class="lvl5"><a href="#5-17-protokoll">§ 5-17. Protokoll</a></li>
+<li class="lvl3"><a href="#v-fleirtalskrav-oa">V Fleirtalskrav o.a.</a></li>
+<li class="lvl5"><a href="#5-18-vanleg-fleirtalskrav">§ 5-18. Vanleg fleirtalskrav</a></li>
+<li class="lvl5"><a href="#5-19-vedtektsendring">§ 5-19. Vedtektsendring</a></li>
+<li class="lvl5"><a href="#5-20-misbruk-av-mynde">§ 5-20. Misbruk av mynde</a></li>
+<li class="lvl3"><a href="#vi-sksmal-om-ugyldige-vedtak">VI Søksmål om ugyldige vedtak</a></li>
+<li class="lvl5"><a href="#5-21-kven-som-kan-reise-sksmal-om-ugyldige-vedtak">§ 5-21. Kven som kan reise søksmål om ugyldige vedtak</a></li>
+<li class="lvl5"><a href="#5-22-frist-for-a-reise-sksmal">§ 5-22. Frist for å reise søksmål</a></li>
+<li class="lvl5"><a href="#5-23-dom-om-ugyldig-vedtak">§ 5-23. Dom om ugyldig vedtak</a></li>
+<li class="lvl3"><a href="#vii-gransking">VII Gransking</a></li>
+<li class="lvl5"><a href="#5-24-framlegg-om-gransking">§ 5-24. Framlegg om gransking</a></li>
+<li class="lvl5"><a href="#5-25-avgjerd-i-tingretten">§ 5-25. Avgjerd i tingretten</a></li>
+<li class="lvl5"><a href="#5-26-granskingsrapporten">§ 5-26. Granskingsrapporten</a></li>
+<li class="lvl3"><a href="#viii-representantskap">VIII Representantskap</a></li>
+<li class="lvl5"><a href="#5-27-representantskap">§ 5-27. Representantskap</a></li>
+<li class="lvl2"><a href="#kapittel-6-leiinga-av-laget">Kapittel 6. Leiinga av laget</a></li>
+<li class="lvl3"><a href="#i-krav-om-styre-og-dagleg-leiar-val-av-styre-tenestetid-oa">I Krav om styre og dagleg leiar. Val av styre, tenestetid o.a.</a></li>
+<li class="lvl5"><a href="#6-1-styret">§ 6-1. Styret</a></li>
+<li class="lvl5"><a href="#6-2-dagleg-leiar">§ 6-2. Dagleg leiar</a></li>
+<li class="lvl5"><a href="#6-3-val-av-styremedlemmer">§ 6-3. Val av styremedlemmer</a></li>
+<li class="lvl5"><a href="#6-4-rett-for-tilsette-til-a-velje-styremedlemmer">§ 6-4. Rett for tilsette til å velje styremedlemmer</a></li>
+<li class="lvl5"><a href="#6-4-a-krav-til-kjnnssamansetjing-i-styret">§ 6-4 a. Krav til kjønnssamansetjing i styret</a></li>
+<li class="lvl5"><a href="#6-4-b-krav-til-kjnnssamansetjing-for-styremedlemmer-valde-av-og-blant-dei-tilsette">§ 6-4 b. Krav til kjønnssamansetjing for styremedlemmer valde av og blant dei tilsette</a></li>
+<li class="lvl5"><a href="#6-5-tenestetid-for-styremedlemmene">§ 6-5. Tenestetid for styremedlemmene</a></li>
+<li class="lvl5"><a href="#6-6-avgang-og-avsetjing-fr-tenestetida-er-slutt">§ 6-6. Avgang og avsetjing før tenestetida er slutt</a></li>
+<li class="lvl5"><a href="#6-7-suppleringsval">§ 6-7. Suppleringsval</a></li>
+<li class="lvl5"><a href="#6-8-varemedlemmer-og-observatrar">§ 6-8. Varemedlemmer og observatørar</a></li>
+<li class="lvl5"><a href="#6-9-godtgjersle">§ 6-9. Godtgjersle</a></li>
+<li class="lvl3"><a href="#ii-oppgaver-for-leiinga-saksbehandling-oa">II Oppgåver for leiinga. Saksbehandling o.a.</a></li>
+<li class="lvl5"><a href="#6-10-forvaltninga-av-laget">§ 6-10. Forvaltninga av laget</a></li>
+<li class="lvl5"><a href="#6-11-tilsynsansvar-for-styret">§ 6-11. Tilsynsansvar for styret</a></li>
+<li class="lvl5"><a href="#6-12-dagleg-leiing">§ 6-12. Dagleg leiing</a></li>
+<li class="lvl5"><a href="#6-13-plikter-for-dagleg-leiar-overfor-styret">§ 6-13. Plikter for dagleg leiar overfor styret</a></li>
+<li class="lvl5"><a href="#6-14-tilhvet-til-dotterselskap">§ 6-14. Tilhøvet til dotterselskap</a></li>
+<li class="lvl5"><a href="#6-15-godtgjersle-fra-andre-enn-laget">§ 6-15. Godtgjersle frå andre enn laget</a></li>
+<li class="lvl5"><a href="#6-16-kravsmal-om-gjeldsforhandling-eller-konkurs">§ 6-16. Kravsmål om gjeldsforhandling eller konkurs</a></li>
+<li class="lvl5"><a href="#6-17-saksbehandlinga-i-styret">§ 6-17. Saksbehandlinga i styret</a></li>
+<li class="lvl5"><a href="#6-18-krav-om-styrebehandling-oa">§ 6-18. Krav om styrebehandling o.a.</a></li>
+<li class="lvl5"><a href="#6-19-frebuinga-av-saker-og-varsling">§ 6-19. Førebuinga av saker og varsling</a></li>
+<li class="lvl5"><a href="#6-20-styreinstruks">§ 6-20. Styreinstruks</a></li>
+<li class="lvl5"><a href="#6-21-nar-kan-styret-gjere-vedtak">§ 6-21. Når kan styret gjere vedtak</a></li>
+<li class="lvl5"><a href="#6-22-vanleg-fleirtalskrav">§ 6-22. Vanleg fleirtalskrav</a></li>
+<li class="lvl5"><a href="#6-23-fleirtalskrav-ved-val-og-tilsetjingar">§ 6-23. Fleirtalskrav ved val og tilsetjingar</a></li>
+<li class="lvl5"><a href="#6-24-inhabilitet">§ 6-24. Inhabilitet</a></li>
+<li class="lvl5"><a href="#6-25-misbruk-av-posisjon-i-selskapet-oa">§ 6-25. Misbruk av posisjon i selskapet o.a.</a></li>
+<li class="lvl5"><a href="#6-26-styreprotokoll">§ 6-26. Styreprotokoll</a></li>
+<li class="lvl3"><a href="#iii-tilhvet-utetter">III Tilhøvet utetter</a></li>
+<li class="lvl5"><a href="#6-27-representasjon">§ 6-27. Representasjon</a></li>
+<li class="lvl5"><a href="#6-28-fullmakt-til-a-teikne-lagets-fretaksnamn">§ 6-28. Fullmakt til å teikne lagets føretaksnamn</a></li>
+<li class="lvl5"><a href="#6-29-representasjon-ved-dagleg-leiar">§ 6-29. Representasjon ved dagleg leiar</a></li>
+<li class="lvl5"><a href="#6-30-overskriding-av-mynde">§ 6-30. Overskriding av mynde</a></li>
+<li class="lvl5"><a href="#6-31-manglar-ved-val-av-styremedlem-eller-tilsetjing-av-dagleg-leiar">§ 6-31. Manglar ved val av styremedlem eller tilsetjing av dagleg leiar</a></li>
+<li class="lvl2"><a href="#kapittel-7-verksemda-i-laget">Kapittel 7. Verksemda i laget</a></li>
+<li class="lvl4"><a href="#7-1-skaffe-andelseigarane-bustader">§ 7-1. Skaffe andelseigarane bustader</a></li>
+<li class="lvl4"><a href="#7-2-bustadforvaltning">§ 7-2. Bustadforvaltning</a></li>
+<li class="lvl4"><a href="#7-3-dotterselskap-oa">§ 7-3. Dotterselskap o.a.</a></li>
+<li class="lvl4"><a href="#7-4-anna-verksemd">§ 7-4. Anna verksemd</a></li>
+<li class="lvl2"><a href="#kapittel-8-revisjon">Kapittel 8. Revisjon</a></li>
+<li class="lvl4"><a href="#8-1-revisor">§ 8-1. Revisor</a></li>
+<li class="lvl4"><a href="#8-2-val-av-revisor">§ 8-2. Val av revisor</a></li>
+<li class="lvl4"><a href="#8-3-bortfall-av-oppdraget">§ 8-3. Bortfall av oppdraget</a></li>
+<li class="lvl4"><a href="#8-4-nyval-av-revisor">§ 8-4. Nyval av revisor</a></li>
+<li class="lvl4"><a href="#8-5-revisjonsmelding">§ 8-5. Revisjonsmelding</a></li>
+<li class="lvl4"><a href="#8-6-revisor-er-med-i-generalforsamlinga">§ 8-6. Revisor er med i generalforsamlinga</a></li>
+<li class="lvl4"><a href="#8-7-berekraftsrapportering">§ 8-7. Berekraftsrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-samanslaing-av-bustadbyggjelag">Kapittel 9. Samanslåing av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#9-1-samanslaing-av-bustadbyggjelag">§ 9-1. Samanslåing av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#9-2-godkjenning-av-planen-om-samanslaing">§ 9-2. Godkjenning av planen om samanslåing</a></li>
+<li class="lvl4"><a href="#9-3-andelar-i-det-overtakande-laget">§ 9-3. Andelar i det overtakande laget</a></li>
+<li class="lvl4"><a href="#9-4-innhaldet-i-planen-for-samanslainga">§ 9-4. Innhaldet i planen for samanslåinga</a></li>
+<li class="lvl4"><a href="#9-5-vedlegg-til-planen">§ 9-5. Vedlegg til planen</a></li>
+<li class="lvl4"><a href="#9-6-rapport-om-samanslainga">§ 9-6. Rapport om samanslåinga</a></li>
+<li class="lvl4"><a href="#9-7-melding-til-andelseigarane">§ 9-7. Melding til andelseigarane</a></li>
+<li class="lvl4"><a href="#9-8-melding-av-vedtak-om-samanslaing-til-fretaksregisteret">§ 9-8. Melding av vedtak om samanslåing til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#9-9-kreditorvarsel">§ 9-9. Kreditorvarsel</a></li>
+<li class="lvl4"><a href="#9-10-motsegn-fra-kreditor">§ 9-10. Motsegn frå kreditor</a></li>
+<li class="lvl4"><a href="#9-11-gjennomfring-av-samanslainga">§ 9-11. Gjennomføring av samanslåinga</a></li>
+<li class="lvl4"><a href="#9-12-forvaltninga-av-det-overdragande-laget">§ 9-12. Forvaltninga av det overdragande laget</a></li>
+<li class="lvl4"><a href="#9-13-ugyldig-samanslaing">§ 9-13. Ugyldig samanslåing</a></li>
+<li class="lvl4"><a href="#9-14-fusjon-mellom-bustadbyggjelag-og-heileigd-dotterselskap">§ 9-14. Fusjon mellom bustadbyggjelag og heileigd dotterselskap</a></li>
+<li class="lvl2"><a href="#kapittel-10-opplysing-og-avvikling">Kapittel 10. Oppløysing og avvikling</a></li>
+<li class="lvl4"><a href="#10-1-vedtak-om-opplysing">§ 10-1. Vedtak om oppløysing</a></li>
+<li class="lvl4"><a href="#10-2-avviklingsstyre-og-andre-organ-i-laget">§ 10-2. Avviklingsstyre og andre organ i laget</a></li>
+<li class="lvl4"><a href="#10-3-melding-til-fretaksregisteret">§ 10-3. Melding til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#10-4-kreditorvarsel">§ 10-4. Kreditorvarsel</a></li>
+<li class="lvl4"><a href="#10-5-stillinga-for-laget-under-avviklinga">§ 10-5. Stillinga for laget under avviklinga</a></li>
+<li class="lvl4"><a href="#10-6-avviklingsbalanse-oa">§ 10-6. Avviklingsbalanse o.a.</a></li>
+<li class="lvl4"><a href="#10-7-dekning-av-skyldnadene">§ 10-7. Dekning av skyldnadene</a></li>
+<li class="lvl4"><a href="#10-8-omgjering-av-eignedelar-til-pengar">§ 10-8. Omgjering av eignedelar til pengar</a></li>
+<li class="lvl4"><a href="#10-9-utdeling-av-overskot">§ 10-9. Utdeling av overskot</a></li>
+<li class="lvl4"><a href="#10-10-endeleg-opplysing">§ 10-10. Endeleg oppløysing</a></li>
+<li class="lvl4"><a href="#10-11-etterutlodding">§ 10-11. Etterutlodding</a></li>
+<li class="lvl4"><a href="#10-12-omgjering-av-vedtak-om-opplysing">§ 10-12. Omgjering av vedtak om oppløysing</a></li>
+<li class="lvl4"><a href="#10-13-tingretten-overtek-ansvaret-for-avviklinga">§ 10-13. Tingretten overtek ansvaret for avviklinga</a></li>
+<li class="lvl4"><a href="#10-14-opplysing-etter-orskurd-fra-tingretten">§ 10-14. Oppløysing etter orskurd frå tingretten</a></li>
+<li class="lvl4"><a href="#10-15-behandling-av-saker-om-opplysing-etter-10-14">§ 10-15. Behandling av saker om oppløysing etter§ 10-14</a></li>
+<li class="lvl4"><a href="#10-16-orskurden-fra-tingretten">§ 10-16. Orskurden frå tingretten</a></li>
+<li class="lvl4"><a href="#10-17-avvikling-av-laget">§ 10-17. Avvikling av laget</a></li>
+<li class="lvl2"><a href="#kapittel-11-skadebot-oa">Kapittel 11. Skadebot o.a.</a></li>
+<li class="lvl4"><a href="#11-1-skadebotansvar">§ 11-1. Skadebotansvar</a></li>
+<li class="lvl4"><a href="#11-2-lemping">§ 11-2. Lemping</a></li>
+<li class="lvl4"><a href="#11-3-vedtak-om-a-fremje-krav">§ 11-3. Vedtak om å fremje krav</a></li>
+<li class="lvl4"><a href="#11-4-krav-pa-vegner-av-laget">§ 11-4. Krav på vegner av laget</a></li>
+<li class="lvl4"><a href="#11-5-ansvarsfritak">§ 11-5. Ansvarsfritak</a></li>
+<li class="lvl4"><a href="#11-6-konkurrerande-krav">§ 11-6. Konkurrerande krav</a></li>
+<li class="lvl4"><a href="#11-7-andre-krav-pa-vegner-av-laget">§ 11-7. Andre krav på vegner av laget</a></li>
+<li class="lvl2"><a href="#kapittel-12-ymse-fresegner">Kapittel 12. Ymse føresegner</a></li>
+<li class="lvl4"><a href="#12-1-teieplikt">§ 12-1. Teieplikt</a></li>
+<li class="lvl4"><a href="#12-2-saksbehandlinga-i-tingretten-oa">§ 12-2. Saksbehandlinga i tingretten o.a.</a></li>
+<li class="lvl4"><a href="#12-3-fristrekning">§ 12-3. Fristrekning</a></li>
+<li class="lvl4"><a href="#12-4-rettssak-mellom-laget-og-styret">§ 12-4. Rettssak mellom laget og styret</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikraftsetjing-overgangsreglar">Kapittel 13. Ikraftsetjing. Overgangsreglar</a></li>
+<li class="lvl3"><a href="#i-ikraftsetjing">I Ikraftsetjing</a></li>
+<li class="lvl5"><a href="#13-1-ikraftsetjing">§ 13-1. Ikraftsetjing</a></li>
+<li class="lvl3"><a href="#ii-overgangsreglar">II Overgangsreglar</a></li>
+<li class="lvl5"><a href="#13-2-overgangsreglar">§ 13-2. Overgangsreglar</a></li>
+<li class="lvl3"><a href="#iii-oppheva">III (Oppheva)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-21-42.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-06-06-38.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om bustadbyggjelag (bustadbyggjelagslova)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2003-06-06-38.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2003-06-06-38 <code>lov/2003-06-06-38</code></td></tr>
+<tr><th>Korttittel</th><td>Bustadbyggjelagslova – bbl</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Anskaffelser, avtaler, bygg og entrepriser &raquo; Boligoppføring\nFast eiendoms rettsforhold &raquo; Borettslag. Boligbyggelag\nSelskaper, fond og foreninger &raquo; Samvirkeforetak</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.08.2005, 01.01.2004, 01.03.2004</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-21-42 <code>lov/2024-06-21-42</code> fra 01.11.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2003-06-06-38" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innleiande-fresegner">Kapittel 1. Innleiande føresegner</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-2-ansvarsavgrensing">§ 1-2. Ansvarsavgrensing</a></li>
+<li class="lvl4"><a href="#1-3-tilknytte-lag">§ 1-3. Tilknytte lag</a></li>
+<li class="lvl4"><a href="#1-4-forbod-mot-diskriminering">§ 1-4. Forbod mot diskriminering</a></li>
+<li class="lvl4"><a href="#1-5-meldingar-mv">§ 1-5. Meldingar mv.</a></li>
+<li class="lvl4"><a href="#1-6-utarbeiding-og-oppbevaring-av-dokumentasjon">§ 1-6. Utarbeiding og oppbevaring av dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-stifting-av-bustadbyggjelag">Kapittel 2. Stifting av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#2-1-stiftingsdokument">§ 2-1. Stiftingsdokument</a></li>
+<li class="lvl4"><a href="#2-2-minstekrav-til-vedtektene">§ 2-2. Minstekrav til vedtektene</a></li>
+<li class="lvl4"><a href="#2-3-minstekrav-til-stiftingsdokumentet-elles">§ 2-3. Minstekrav til stiftingsdokumentet elles</a></li>
+<li class="lvl4"><a href="#2-4-fresegner-om-srskilde-rettar">§ 2-4. Føresegner om særskilde rettar</a></li>
+<li class="lvl4"><a href="#2-5-opningsbalanse">§ 2-5. Opningsbalanse</a></li>
+<li class="lvl4"><a href="#2-6-stifting-av-laget">§ 2-6. Stifting av laget</a></li>
+<li class="lvl4"><a href="#2-7-betaling-av-andelane">§ 2-7. Betaling av andelane</a></li>
+<li class="lvl4"><a href="#2-8-melding-av-laget-til-fretaksregisteret">§ 2-8. Melding av laget til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#2-9-kravet-pa-innskot">§ 2-9. Kravet på innskot</a></li>
+<li class="lvl2"><a href="#kapittel-3-kapitalen-i-laget">Kapittel 3. Kapitalen i laget</a></li>
+<li class="lvl4"><a href="#3-1-minstekapital">§ 3-1. Minstekapital</a></li>
+<li class="lvl4"><a href="#3-2-arspengar">§ 3-2. Årspengar</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-forsvarleg-eigenkapital">§ 3-3. Krav til forsvarleg eigenkapital</a></li>
+<li class="lvl4"><a href="#3-4-handleplikt-ved-tap-av-eigenkapital">§ 3-4. Handleplikt ved tap av eigenkapital</a></li>
+<li class="lvl4"><a href="#3-5-utdeling-mm">§ 3-5. Utdeling m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-andelseigarane">Kapittel 4. Andelseigarane</a></li>
+<li class="lvl3"><a href="#i-andelseigarane">I Andelseigarane</a></li>
+<li class="lvl5"><a href="#4-1-andelseigarane">§ 4-1. Andelseigarane</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-andelseigarbok">§ 4-2. Krav til andelseigarbok</a></li>
+<li class="lvl5"><a href="#4-3-melding-om-innfring-i-andelseigarboka">§ 4-3. Melding om innføring i andelseigarboka</a></li>
+<li class="lvl3"><a href="#ii-eigarskifte-og-vilkar-for-eigarskifte">II Eigarskifte og vilkår for eigarskifte</a></li>
+<li class="lvl5"><a href="#4-4-eigarskifte">§ 4-4. Eigarskifte</a></li>
+<li class="lvl5"><a href="#4-5-utmelding-og-utestenging">§ 4-5. Utmelding og utestenging</a></li>
+<li class="lvl5"><a href="#4-6-samarbeidsutval">§ 4-6. Samarbeidsutval</a></li>
+<li class="lvl2"><a href="#kapittel-5-generalforsamlinga">Kapittel 5. Generalforsamlinga</a></li>
+<li class="lvl3"><a href="#i-allmenne-reglar">I Allmenne reglar</a></li>
+<li class="lvl5"><a href="#5-1-mynde">§ 5-1. Mynde</a></li>
+<li class="lvl5"><a href="#5-2-mterett-fullmektig">§ 5-2. Møterett. Fullmektig</a></li>
+<li class="lvl5"><a href="#5-3-delegerte">§ 5-3. Delegerte</a></li>
+<li class="lvl5"><a href="#5-4-rysterett-habilitet">§ 5-4. Røysterett. Habilitet</a></li>
+<li class="lvl5"><a href="#5-5-mterett-og-mteplikt-for-leiinga">§ 5-5. Møterett og møteplikt for leiinga</a></li>
+<li class="lvl3"><a href="#ii-mte-i-generalforsamlinga">II Møte i generalforsamlinga</a></li>
+<li class="lvl5"><a href="#5-6-ordinr-generalforsamling">§ 5-6. Ordinær generalforsamling</a></li>
+<li class="lvl5"><a href="#5-7-ekstraordinr-generalforsamling">§ 5-7. Ekstraordinær generalforsamling</a></li>
+<li class="lvl3"><a href="#iii-innkalling-til-generalforsamlinga">III Innkalling til generalforsamlinga</a></li>
+<li class="lvl5"><a href="#5-8-kven-som-skal-kalle-inn">§ 5-8. Kven som skal kalle inn</a></li>
+<li class="lvl5"><a href="#5-9-kvar-generalforsamlinga-skal-haldast">§ 5-9. Kvar generalforsamlinga skal haldast</a></li>
+<li class="lvl5"><a href="#5-10-krav-til-innkallinga">§ 5-10. Krav til innkallinga</a></li>
+<li class="lvl5"><a href="#5-11-rett-til-a-fa-saker-opp-pa-generalforsamlinga">§ 5-11. Rett til å få saker opp på generalforsamlinga</a></li>
+<li class="lvl3"><a href="#iv-mtereglar">IV Møtereglar</a></li>
+<li class="lvl5"><a href="#5-12-opning-av-mtet-mteleiar">§ 5-12. Opning av møtet. Møteleiar</a></li>
+<li class="lvl5"><a href="#5-13-liste-over-andelseigarar-eller-delegerte-pa-mtet">§ 5-13. Liste over andelseigarar eller delegerte på møtet</a></li>
+<li class="lvl5"><a href="#5-14-saker-utanom-saklista">§ 5-14. Saker utanom saklista</a></li>
+<li class="lvl5"><a href="#5-15-opplysningsplikt-for-leiinga">§ 5-15. Opplysningsplikt for leiinga</a></li>
+<li class="lvl5"><a href="#5-16-valkomite">§ 5-16. Valkomité</a></li>
+<li class="lvl5"><a href="#5-17-protokoll">§ 5-17. Protokoll</a></li>
+<li class="lvl3"><a href="#v-fleirtalskrav-oa">V Fleirtalskrav o.a.</a></li>
+<li class="lvl5"><a href="#5-18-vanleg-fleirtalskrav">§ 5-18. Vanleg fleirtalskrav</a></li>
+<li class="lvl5"><a href="#5-19-vedtektsendring">§ 5-19. Vedtektsendring</a></li>
+<li class="lvl5"><a href="#5-20-misbruk-av-mynde">§ 5-20. Misbruk av mynde</a></li>
+<li class="lvl3"><a href="#vi-sksmal-om-ugyldige-vedtak">VI Søksmål om ugyldige vedtak</a></li>
+<li class="lvl5"><a href="#5-21-kven-som-kan-reise-sksmal-om-ugyldige-vedtak">§ 5-21. Kven som kan reise søksmål om ugyldige vedtak</a></li>
+<li class="lvl5"><a href="#5-22-frist-for-a-reise-sksmal">§ 5-22. Frist for å reise søksmål</a></li>
+<li class="lvl5"><a href="#5-23-dom-om-ugyldig-vedtak">§ 5-23. Dom om ugyldig vedtak</a></li>
+<li class="lvl3"><a href="#vii-gransking">VII Gransking</a></li>
+<li class="lvl5"><a href="#5-24-framlegg-om-gransking">§ 5-24. Framlegg om gransking</a></li>
+<li class="lvl5"><a href="#5-25-avgjerd-i-tingretten">§ 5-25. Avgjerd i tingretten</a></li>
+<li class="lvl5"><a href="#5-26-granskingsrapporten">§ 5-26. Granskingsrapporten</a></li>
+<li class="lvl3"><a href="#viii-representantskap">VIII Representantskap</a></li>
+<li class="lvl5"><a href="#5-27-representantskap">§ 5-27. Representantskap</a></li>
+<li class="lvl2"><a href="#kapittel-6-leiinga-av-laget">Kapittel 6. Leiinga av laget</a></li>
+<li class="lvl3"><a href="#i-krav-om-styre-og-dagleg-leiar-val-av-styre-tenestetid-oa">I Krav om styre og dagleg leiar. Val av styre, tenestetid o.a.</a></li>
+<li class="lvl5"><a href="#6-1-styret">§ 6-1. Styret</a></li>
+<li class="lvl5"><a href="#6-2-dagleg-leiar">§ 6-2. Dagleg leiar</a></li>
+<li class="lvl5"><a href="#6-3-val-av-styremedlemmer">§ 6-3. Val av styremedlemmer</a></li>
+<li class="lvl5"><a href="#6-4-rett-for-tilsette-til-a-velje-styremedlemmer">§ 6-4. Rett for tilsette til å velje styremedlemmer</a></li>
+<li class="lvl5"><a href="#6-4-a-krav-til-kjnnssamansetjing-i-styret">§ 6-4 a. Krav til kjønnssamansetjing i styret</a></li>
+<li class="lvl5"><a href="#6-4-b-krav-til-kjnnssamansetjing-for-styremedlemmer-valde-av-og-blant-dei-tilsette">§ 6-4 b. Krav til kjønnssamansetjing for styremedlemmer valde av og blant dei tilsette</a></li>
+<li class="lvl5"><a href="#6-5-tenestetid-for-styremedlemmene">§ 6-5. Tenestetid for styremedlemmene</a></li>
+<li class="lvl5"><a href="#6-6-avgang-og-avsetjing-fr-tenestetida-er-slutt">§ 6-6. Avgang og avsetjing før tenestetida er slutt</a></li>
+<li class="lvl5"><a href="#6-7-suppleringsval">§ 6-7. Suppleringsval</a></li>
+<li class="lvl5"><a href="#6-8-varemedlemmer-og-observatrar">§ 6-8. Varemedlemmer og observatørar</a></li>
+<li class="lvl5"><a href="#6-9-godtgjersle">§ 6-9. Godtgjersle</a></li>
+<li class="lvl3"><a href="#ii-oppgaver-for-leiinga-saksbehandling-oa">II Oppgåver for leiinga. Saksbehandling o.a.</a></li>
+<li class="lvl5"><a href="#6-10-forvaltninga-av-laget">§ 6-10. Forvaltninga av laget</a></li>
+<li class="lvl5"><a href="#6-11-tilsynsansvar-for-styret">§ 6-11. Tilsynsansvar for styret</a></li>
+<li class="lvl5"><a href="#6-12-dagleg-leiing">§ 6-12. Dagleg leiing</a></li>
+<li class="lvl5"><a href="#6-13-plikter-for-dagleg-leiar-overfor-styret">§ 6-13. Plikter for dagleg leiar overfor styret</a></li>
+<li class="lvl5"><a href="#6-14-tilhvet-til-dotterselskap">§ 6-14. Tilhøvet til dotterselskap</a></li>
+<li class="lvl5"><a href="#6-15-godtgjersle-fra-andre-enn-laget">§ 6-15. Godtgjersle frå andre enn laget</a></li>
+<li class="lvl5"><a href="#6-16-kravsmal-om-gjeldsforhandling-eller-konkurs">§ 6-16. Kravsmål om gjeldsforhandling eller konkurs</a></li>
+<li class="lvl5"><a href="#6-17-saksbehandlinga-i-styret">§ 6-17. Saksbehandlinga i styret</a></li>
+<li class="lvl5"><a href="#6-18-krav-om-styrebehandling-oa">§ 6-18. Krav om styrebehandling o.a.</a></li>
+<li class="lvl5"><a href="#6-19-frebuinga-av-saker-og-varsling">§ 6-19. Førebuinga av saker og varsling</a></li>
+<li class="lvl5"><a href="#6-20-styreinstruks">§ 6-20. Styreinstruks</a></li>
+<li class="lvl5"><a href="#6-21-nar-kan-styret-gjere-vedtak">§ 6-21. Når kan styret gjere vedtak</a></li>
+<li class="lvl5"><a href="#6-22-vanleg-fleirtalskrav">§ 6-22. Vanleg fleirtalskrav</a></li>
+<li class="lvl5"><a href="#6-23-fleirtalskrav-ved-val-og-tilsetjingar">§ 6-23. Fleirtalskrav ved val og tilsetjingar</a></li>
+<li class="lvl5"><a href="#6-24-inhabilitet">§ 6-24. Inhabilitet</a></li>
+<li class="lvl5"><a href="#6-25-misbruk-av-posisjon-i-selskapet-oa">§ 6-25. Misbruk av posisjon i selskapet o.a.</a></li>
+<li class="lvl5"><a href="#6-26-styreprotokoll">§ 6-26. Styreprotokoll</a></li>
+<li class="lvl3"><a href="#iii-tilhvet-utetter">III Tilhøvet utetter</a></li>
+<li class="lvl5"><a href="#6-27-representasjon">§ 6-27. Representasjon</a></li>
+<li class="lvl5"><a href="#6-28-fullmakt-til-a-teikne-lagets-fretaksnamn">§ 6-28. Fullmakt til å teikne lagets føretaksnamn</a></li>
+<li class="lvl5"><a href="#6-29-representasjon-ved-dagleg-leiar">§ 6-29. Representasjon ved dagleg leiar</a></li>
+<li class="lvl5"><a href="#6-30-overskriding-av-mynde">§ 6-30. Overskriding av mynde</a></li>
+<li class="lvl5"><a href="#6-31-manglar-ved-val-av-styremedlem-eller-tilsetjing-av-dagleg-leiar">§ 6-31. Manglar ved val av styremedlem eller tilsetjing av dagleg leiar</a></li>
+<li class="lvl2"><a href="#kapittel-7-verksemda-i-laget">Kapittel 7. Verksemda i laget</a></li>
+<li class="lvl4"><a href="#7-1-skaffe-andelseigarane-bustader">§ 7-1. Skaffe andelseigarane bustader</a></li>
+<li class="lvl4"><a href="#7-2-bustadforvaltning">§ 7-2. Bustadforvaltning</a></li>
+<li class="lvl4"><a href="#7-3-dotterselskap-oa">§ 7-3. Dotterselskap o.a.</a></li>
+<li class="lvl4"><a href="#7-4-anna-verksemd">§ 7-4. Anna verksemd</a></li>
+<li class="lvl2"><a href="#kapittel-8-revisjon">Kapittel 8. Revisjon</a></li>
+<li class="lvl4"><a href="#8-1-revisor">§ 8-1. Revisor</a></li>
+<li class="lvl4"><a href="#8-2-val-av-revisor">§ 8-2. Val av revisor</a></li>
+<li class="lvl4"><a href="#8-3-bortfall-av-oppdraget">§ 8-3. Bortfall av oppdraget</a></li>
+<li class="lvl4"><a href="#8-4-nyval-av-revisor">§ 8-4. Nyval av revisor</a></li>
+<li class="lvl4"><a href="#8-5-revisjonsmelding">§ 8-5. Revisjonsmelding</a></li>
+<li class="lvl4"><a href="#8-6-revisor-er-med-i-generalforsamlinga">§ 8-6. Revisor er med i generalforsamlinga</a></li>
+<li class="lvl4"><a href="#8-7-berekraftsrapportering">§ 8-7. Berekraftsrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-samanslaing-av-bustadbyggjelag">Kapittel 9. Samanslåing av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#9-1-samanslaing-av-bustadbyggjelag">§ 9-1. Samanslåing av bustadbyggjelag</a></li>
+<li class="lvl4"><a href="#9-2-godkjenning-av-planen-om-samanslaing">§ 9-2. Godkjenning av planen om samanslåing</a></li>
+<li class="lvl4"><a href="#9-3-andelar-i-det-overtakande-laget">§ 9-3. Andelar i det overtakande laget</a></li>
+<li class="lvl4"><a href="#9-4-innhaldet-i-planen-for-samanslainga">§ 9-4. Innhaldet i planen for samanslåinga</a></li>
+<li class="lvl4"><a href="#9-5-vedlegg-til-planen">§ 9-5. Vedlegg til planen</a></li>
+<li class="lvl4"><a href="#9-6-rapport-om-samanslainga">§ 9-6. Rapport om samanslåinga</a></li>
+<li class="lvl4"><a href="#9-7-melding-til-andelseigarane">§ 9-7. Melding til andelseigarane</a></li>
+<li class="lvl4"><a href="#9-8-melding-av-vedtak-om-samanslaing-til-fretaksregisteret">§ 9-8. Melding av vedtak om samanslåing til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#9-9-kreditorvarsel">§ 9-9. Kreditorvarsel</a></li>
+<li class="lvl4"><a href="#9-10-motsegn-fra-kreditor">§ 9-10. Motsegn frå kreditor</a></li>
+<li class="lvl4"><a href="#9-11-gjennomfring-av-samanslainga">§ 9-11. Gjennomføring av samanslåinga</a></li>
+<li class="lvl4"><a href="#9-12-forvaltninga-av-det-overdragande-laget">§ 9-12. Forvaltninga av det overdragande laget</a></li>
+<li class="lvl4"><a href="#9-13-ugyldig-samanslaing">§ 9-13. Ugyldig samanslåing</a></li>
+<li class="lvl4"><a href="#9-14-fusjon-mellom-bustadbyggjelag-og-heileigd-dotterselskap">§ 9-14. Fusjon mellom bustadbyggjelag og heileigd dotterselskap</a></li>
+<li class="lvl2"><a href="#kapittel-10-opplysing-og-avvikling">Kapittel 10. Oppløysing og avvikling</a></li>
+<li class="lvl4"><a href="#10-1-vedtak-om-opplysing">§ 10-1. Vedtak om oppløysing</a></li>
+<li class="lvl4"><a href="#10-2-avviklingsstyre-og-andre-organ-i-laget">§ 10-2. Avviklingsstyre og andre organ i laget</a></li>
+<li class="lvl4"><a href="#10-3-melding-til-fretaksregisteret">§ 10-3. Melding til Føretaksregisteret</a></li>
+<li class="lvl4"><a href="#10-4-kreditorvarsel">§ 10-4. Kreditorvarsel</a></li>
+<li class="lvl4"><a href="#10-5-stillinga-for-laget-under-avviklinga">§ 10-5. Stillinga for laget under avviklinga</a></li>
+<li class="lvl4"><a href="#10-6-avviklingsbalanse-oa">§ 10-6. Avviklingsbalanse o.a.</a></li>
+<li class="lvl4"><a href="#10-7-dekning-av-skyldnadene">§ 10-7. Dekning av skyldnadene</a></li>
+<li class="lvl4"><a href="#10-8-omgjering-av-eignedelar-til-pengar">§ 10-8. Omgjering av eignedelar til pengar</a></li>
+<li class="lvl4"><a href="#10-9-utdeling-av-overskot">§ 10-9. Utdeling av overskot</a></li>
+<li class="lvl4"><a href="#10-10-endeleg-opplysing">§ 10-10. Endeleg oppløysing</a></li>
+<li class="lvl4"><a href="#10-11-etterutlodding">§ 10-11. Etterutlodding</a></li>
+<li class="lvl4"><a href="#10-12-omgjering-av-vedtak-om-opplysing">§ 10-12. Omgjering av vedtak om oppløysing</a></li>
+<li class="lvl4"><a href="#10-13-tingretten-overtek-ansvaret-for-avviklinga">§ 10-13. Tingretten overtek ansvaret for avviklinga</a></li>
+<li class="lvl4"><a href="#10-14-opplysing-etter-orskurd-fra-tingretten">§ 10-14. Oppløysing etter orskurd frå tingretten</a></li>
+<li class="lvl4"><a href="#10-15-behandling-av-saker-om-opplysing-etter-10-14">§ 10-15. Behandling av saker om oppløysing etter§ 10-14</a></li>
+<li class="lvl4"><a href="#10-16-orskurden-fra-tingretten">§ 10-16. Orskurden frå tingretten</a></li>
+<li class="lvl4"><a href="#10-17-avvikling-av-laget">§ 10-17. Avvikling av laget</a></li>
+<li class="lvl2"><a href="#kapittel-11-skadebot-oa">Kapittel 11. Skadebot o.a.</a></li>
+<li class="lvl4"><a href="#11-1-skadebotansvar">§ 11-1. Skadebotansvar</a></li>
+<li class="lvl4"><a href="#11-2-lemping">§ 11-2. Lemping</a></li>
+<li class="lvl4"><a href="#11-3-vedtak-om-a-fremje-krav">§ 11-3. Vedtak om å fremje krav</a></li>
+<li class="lvl4"><a href="#11-4-krav-pa-vegner-av-laget">§ 11-4. Krav på vegner av laget</a></li>
+<li class="lvl4"><a href="#11-5-ansvarsfritak">§ 11-5. Ansvarsfritak</a></li>
+<li class="lvl4"><a href="#11-6-konkurrerande-krav">§ 11-6. Konkurrerande krav</a></li>
+<li class="lvl4"><a href="#11-7-andre-krav-pa-vegner-av-laget">§ 11-7. Andre krav på vegner av laget</a></li>
+<li class="lvl2"><a href="#kapittel-12-ymse-fresegner">Kapittel 12. Ymse føresegner</a></li>
+<li class="lvl4"><a href="#12-1-teieplikt">§ 12-1. Teieplikt</a></li>
+<li class="lvl4"><a href="#12-2-saksbehandlinga-i-tingretten-oa">§ 12-2. Saksbehandlinga i tingretten o.a.</a></li>
+<li class="lvl4"><a href="#12-3-fristrekning">§ 12-3. Fristrekning</a></li>
+<li class="lvl4"><a href="#12-4-rettssak-mellom-laget-og-styret">§ 12-4. Rettssak mellom laget og styret</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikraftsetjing-overgangsreglar">Kapittel 13. Ikraftsetjing. Overgangsreglar</a></li>
+<li class="lvl3"><a href="#i-ikraftsetjing">I Ikraftsetjing</a></li>
+<li class="lvl5"><a href="#13-1-ikraftsetjing">§ 13-1. Ikraftsetjing</a></li>
+<li class="lvl3"><a href="#ii-overgangsreglar">II Overgangsreglar</a></li>
+<li class="lvl5"><a href="#13-2-overgangsreglar">§ 13-2. Overgangsreglar</a></li>
+<li class="lvl3"><a href="#iii-oppheva">III (Oppheva)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-06-06-38.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2003-06-06-38.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-06-06-38.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2003-06-06-38.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2003-06-06-38.html">Observerte kildeutgaver</a> · <a href="../historie/bustadbyggjelagslova.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/dc44fe73c3a3c860c95e99dcab8d363704d2d7c0/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2003</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/a38654ef2cac6c5bfe8ecd7c09522022d7cad361/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2003-06-06-38.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2003-06-06-38.html">Observerte kildeutgaver</a> · <a href="../historie/bustadbyggjelagslova.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2003/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2003</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2007/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2003-06-06-38.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-bustadbyggjelag-bustadbyggjelagslova">Lov om bustadbyggjelag (bustadbyggjelagslova)</h1>
 <h2 id="kapittel-1-innleiande-fresegner">Kapittel 1. Innleiande føresegner</h2>
 <h4 id="1-1-verkeomrade">§ 1-1. Verkeområde</h4>
 <p>(1) Lova gjeld for bustadbyggjelag. Med bustadbyggjelag er meint eit samvirkeføretak som har til hovudføremål å skaffe bustader til andelseigarane gjennom burettslag eller på anna vis og å forvalte bustader for andelseigarane.</p>
@@ -488,7 +873,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(1) I føretak som har plikt til å utarbeide berekraftsrapportering etter regnskapsloven § 2-3 , skal revisor attestere berekraftsrapporteringa. Generalforsamlinga kan i staden velje ein annan revisor til å attestere berekraftsrapporteringa eller ein uavhengig tilbydar av attestasjonstenester dersom det er høve til dette etter revisorloven § 1-3 . Generalforsamlinga skal godkjenne godtgjersla.</p>
 <p>(2) Den som attesterer berekraftsrapporteringa, skal for kvart rekneskapsår gi ei attestasjonsmelding om berekraftsrapportering etter revisorloven § 9-7 a til generalforsamlinga. Meldinga skal vere styret i hende seinast to veker før den ordinære generalforsamlinga.</p>
 <p>(3) §§ 8-3 , 8-4 og 8-6 gjeld tilsvarande for den som er vald til å attestere berekraftsrapporteringa etter første ledd.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-9-samanslaing-av-bustadbyggjelag">Kapittel 9. Samanslåing av bustadbyggjelag</h2>
 <h4 id="9-1-samanslaing-av-bustadbyggjelag">§ 9-1. Samanslåing av bustadbyggjelag</h4>
 <p>(1) Eit bustadbyggjelag kan overdra eignedelar og skyldnader under eitt til eit anna bustadbyggjelag mot at andelseigarane blir andelseigarar i det overtakande laget.</p>
@@ -672,6 +1057,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(7) Vedtekter og avtalar som er i strid med lova her, fell bort seinast eitt år etter at lova blei sett i kraft.</p>
 <h3 id="iii-oppheva">III (Oppheva)</h3>
 <p>Oppheva med lov 4 des 2020 nr. 137 (ikr. 1 jan 2021 iflg. res. 4 des 2020 nr. 2591 ).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

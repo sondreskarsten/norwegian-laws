@@ -19,71 +19,238 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-06-17-85.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Finnmarksloven" href="../feeds/lov-2005-06-17-85.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Finnmarksloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2005-06-17-85</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Jakt og innlandsfiske\nLandbruk, jakt og skogbruk &raquo; Reindrift\nMiljøvern, natur og friluftsliv &raquo; Naturmangfold/naturfredning\nMiljøvern, natur og friluftsliv &raquo; Vannressurser\nSamerett &raquo; Finnmark</dd>
-<dt>Ikrafttredelse</dt><dd>2005-11-25, 2006-07-01, 2008-03-14</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-102</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-85" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-forholdet-til-folkeretten">§ 3. Forholdet til folkeretten</a></li>
+<li class="lvl4"><a href="#4-sametingets-retningslinjer-for-endret-bruk-av-utmark">§ 4. Sametingets retningslinjer for endret bruk av utmark</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-bestaende-rettigheter">§ 5. Forholdet til bestående rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-2-finnmarkseiendommen">Kapittel 2. Finnmarkseiendommen</a></li>
+<li class="lvl4"><a href="#6-finnmarkseiendommens-rettsstilling">§ 6. Finnmarkseiendommens rettsstilling</a></li>
+<li class="lvl4"><a href="#7-finnmarkseiendommens-styre">§ 7. Finnmarkseiendommens styre</a></li>
+<li class="lvl4"><a href="#8-nrmere-om-forholdsvalg">§ 8. Nærmere om forholdsvalg</a></li>
+<li class="lvl4"><a href="#9-styrets-oppgaver-og-saksbehandling">§ 9. Styrets oppgaver og saksbehandling</a></li>
+<li class="lvl4"><a href="#10-saker-om-endret-bruk-av-utmark-og-avhendelse-av-fast-eiendom-mm">§ 10. Saker om endret bruk av utmark og avhendelse av fast eiendom m.m.</a></li>
+<li class="lvl4"><a href="#11-saker-som-angar-de-ansattes-arbeidssituasjon-og-rettsstilling">§ 11. Saker som angår de ansattes arbeidssituasjon og rettsstilling</a></li>
+<li class="lvl4"><a href="#12-representasjon">§ 12. Representasjon</a></li>
+<li class="lvl4"><a href="#13-regnskap-revisjon-og-registrering">§ 13. Regnskap, revisjon og registrering</a></li>
+<li class="lvl4"><a href="#14-pantsettelse-og-gjeldsforflgning">§ 14. Pantsettelse og gjeldsforfølgning</a></li>
+<li class="lvl4"><a href="#15-utdeling-av-overskudd">§ 15. Utdeling av overskudd</a></li>
+<li class="lvl4"><a href="#16-kontrollkomiteen">§ 16. Kontrollkomiteen</a></li>
+<li class="lvl4"><a href="#17-straff-og-erstatningsansvar-for-styremedlemmer-mfl">§ 17. Straff- og erstatningsansvar for styremedlemmer m.fl.</a></li>
+<li class="lvl4"><a href="#18-forholdet-til-forvaltningsloven-og-offentlighetsloven">§ 18. Forholdet til forvaltningsloven og offentlighetsloven</a></li>
+<li class="lvl4"><a href="#19-nasjonalparker-pa-finnmarkseiendommens-grunn">§ 19. Nasjonalparker på Finnmarkseiendommens grunn</a></li>
+<li class="lvl4"><a href="#20-forholdet-til-fremtidig-lovgivning">§ 20. Forholdet til fremtidig lovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-3-fornybare-ressurser-pa-finnmarkseiendommens-grunn">Kapittel 3. Fornybare ressurser på Finnmarkseiendommens grunn</a></li>
+<li class="lvl4"><a href="#21-hovedprinsipper-for-forvaltningen">§ 21. Hovedprinsipper for forvaltningen</a></li>
+<li class="lvl4"><a href="#22-rettigheter-for-personer-bosatt-i-kommunen">§ 22. Rettigheter for personer bosatt i kommunen</a></li>
+<li class="lvl4"><a href="#23-rettigheter-for-personer-bosatt-i-finnmark">§ 23. Rettigheter for personer bosatt i Finnmark</a></li>
+<li class="lvl4"><a href="#24-srskilt-rett-til-lokal-utnyttelse">§ 24. Særskilt rett til lokal utnyttelse</a></li>
+<li class="lvl4"><a href="#25-adgang-for-andre">§ 25. Adgang for andre</a></li>
+<li class="lvl4"><a href="#26-lokal-forvaltning-av-jakt-og-fiske">§ 26. Lokal forvaltning av jakt og fiske</a></li>
+<li class="lvl4"><a href="#27-nrmere-vilkar-for-utnyttelse-av-fornybare-ressurser-og-innskrenkninger-i-utnyttelsen">§ 27. Nærmere vilkår for utnyttelse av fornybare ressurser og innskrenkninger i utnyttelsen</a></li>
+<li class="lvl2"><a href="#kapittel-4-tana-og-neiden">Kapittel 4. Tana og Neiden</a></li>
+<li class="lvl4"><a href="#28-fisket-i-neidenvassdraget">§ 28. Fisket i Neidenvassdraget</a></li>
+<li class="lvl4"><a href="#28-a-fisket-i-tanavassdraget">§ 28 a. Fisket i Tanavassdraget</a></li>
+<li class="lvl2"><a href="#kapittel-5-kartlegging-og-anerkjennelse-av-eksisterende-rettigheter">Kapittel 5. Kartlegging og anerkjennelse av eksisterende rettigheter</a></li>
+<li class="lvl3"><a href="#i-finnmarkskommisjonen">I Finnmarkskommisjonen</a></li>
+<li class="lvl5"><a href="#29-finnmarkskommisjonen">§ 29. Finnmarkskommisjonen</a></li>
+<li class="lvl5"><a href="#30-avgrensning-av-utredningsfelt-mm">§ 30. Avgrensning av utredningsfelt m.m.</a></li>
+<li class="lvl5"><a href="#31-varsling-av-mulige-rettighetshavere">§ 31. Varsling av mulige rettighetshavere</a></li>
+<li class="lvl5"><a href="#32-ansvaret-for-sakens-opplysning">§ 32. Ansvaret for sakens opplysning</a></li>
+<li class="lvl5"><a href="#33-finnmarkskommisjonens-rapport">§ 33. Finnmarkskommisjonens rapport</a></li>
+<li class="lvl5"><a href="#34-behandlingen-i-finnmarkseiendommen">§ 34. Behandlingen i Finnmarkseiendommen</a></li>
+<li class="lvl5"><a href="#35-forhandlinger">§ 35. Forhandlinger</a></li>
+<li class="lvl3"><a href="#ii-utmarksdomstolen-for-finnmark">II Utmarksdomstolen for Finnmark</a></li>
+<li class="lvl5"><a href="#36-utmarksdomstolen-for-finnmark">§ 36. Utmarksdomstolen for Finnmark</a></li>
+<li class="lvl5"><a href="#37-forfall">§ 37. Forfall</a></li>
+<li class="lvl5"><a href="#38-stevning">§ 38. Stevning</a></li>
+<li class="lvl5"><a href="#39-avvisning">§ 39. Avvisning</a></li>
+<li class="lvl5"><a href="#40-forening-av-saker-oppdeling-mm">§ 40. Forening av saker, oppdeling m.m.</a></li>
+<li class="lvl5"><a href="#41-ansvaret-for-sakens-opplysning-mm">§ 41. Ansvaret for sakens opplysning m.m.</a></li>
+<li class="lvl5"><a href="#42-anke">§ 42. Anke</a></li>
+<li class="lvl5"><a href="#43-utgiftene-ved-saken">§ 43. Utgiftene ved saken</a></li>
+<li class="lvl3"><a href="#iii-fellesregler">III Fellesregler</a></li>
+<li class="lvl5"><a href="#44-samisk-sprak">§ 44. Samisk språk</a></li>
+<li class="lvl5"><a href="#45-grensemerking-mm-og-tinglysing">§ 45. Grensemerking m.m. og tinglysing</a></li>
+<li class="lvl5"><a href="#46-forholdet-til-annen-lovgivning">§ 46. Forholdet til annen lovgivning</a></li>
+<li class="lvl5"><a href="#47-fullmakt-til-a-gi-nrmere-regler">§ 47. Fullmakt til å gi nærmere regler</a></li>
+<li class="lvl2"><a href="#kapittel-6-sluttbestemmelser">Kapittel 6. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#48-ikrafttredelse">§ 48. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#49-overgangsregler">§ 49. Overgangsregler</a></li>
+<li class="lvl4"><a href="#50-endringer-i-annen-lovgivning">§ 50. Endringer i annen lovgivning</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-102.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-85.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om rettsforhold og forvaltning av grunn og naturressurser i Finnmark (Finnmarksloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-85.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2005-06-17-85 <code>lov/2005-06-17-85</code></td></tr>
+<tr><th>Korttittel</th><td>Finnmarksloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Jakt og innlandsfiske\nLandbruk, jakt og skogbruk &raquo; Reindrift\nMiljøvern, natur og friluftsliv &raquo; Naturmangfold/naturfredning\nMiljøvern, natur og friluftsliv &raquo; Vannressurser\nSamerett &raquo; Finnmark</td></tr>
+<tr><th>Ikrafttredelse</th><td>25.11.2005, 01.07.2006, 14.03.2008</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-102 <code>lov/2025-06-20-102</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2005-06-17-85" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-forholdet-til-folkeretten">§ 3. Forholdet til folkeretten</a></li>
+<li class="lvl4"><a href="#4-sametingets-retningslinjer-for-endret-bruk-av-utmark">§ 4. Sametingets retningslinjer for endret bruk av utmark</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-bestaende-rettigheter">§ 5. Forholdet til bestående rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-2-finnmarkseiendommen">Kapittel 2. Finnmarkseiendommen</a></li>
+<li class="lvl4"><a href="#6-finnmarkseiendommens-rettsstilling">§ 6. Finnmarkseiendommens rettsstilling</a></li>
+<li class="lvl4"><a href="#7-finnmarkseiendommens-styre">§ 7. Finnmarkseiendommens styre</a></li>
+<li class="lvl4"><a href="#8-nrmere-om-forholdsvalg">§ 8. Nærmere om forholdsvalg</a></li>
+<li class="lvl4"><a href="#9-styrets-oppgaver-og-saksbehandling">§ 9. Styrets oppgaver og saksbehandling</a></li>
+<li class="lvl4"><a href="#10-saker-om-endret-bruk-av-utmark-og-avhendelse-av-fast-eiendom-mm">§ 10. Saker om endret bruk av utmark og avhendelse av fast eiendom m.m.</a></li>
+<li class="lvl4"><a href="#11-saker-som-angar-de-ansattes-arbeidssituasjon-og-rettsstilling">§ 11. Saker som angår de ansattes arbeidssituasjon og rettsstilling</a></li>
+<li class="lvl4"><a href="#12-representasjon">§ 12. Representasjon</a></li>
+<li class="lvl4"><a href="#13-regnskap-revisjon-og-registrering">§ 13. Regnskap, revisjon og registrering</a></li>
+<li class="lvl4"><a href="#14-pantsettelse-og-gjeldsforflgning">§ 14. Pantsettelse og gjeldsforfølgning</a></li>
+<li class="lvl4"><a href="#15-utdeling-av-overskudd">§ 15. Utdeling av overskudd</a></li>
+<li class="lvl4"><a href="#16-kontrollkomiteen">§ 16. Kontrollkomiteen</a></li>
+<li class="lvl4"><a href="#17-straff-og-erstatningsansvar-for-styremedlemmer-mfl">§ 17. Straff- og erstatningsansvar for styremedlemmer m.fl.</a></li>
+<li class="lvl4"><a href="#18-forholdet-til-forvaltningsloven-og-offentlighetsloven">§ 18. Forholdet til forvaltningsloven og offentlighetsloven</a></li>
+<li class="lvl4"><a href="#19-nasjonalparker-pa-finnmarkseiendommens-grunn">§ 19. Nasjonalparker på Finnmarkseiendommens grunn</a></li>
+<li class="lvl4"><a href="#20-forholdet-til-fremtidig-lovgivning">§ 20. Forholdet til fremtidig lovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-3-fornybare-ressurser-pa-finnmarkseiendommens-grunn">Kapittel 3. Fornybare ressurser på Finnmarkseiendommens grunn</a></li>
+<li class="lvl4"><a href="#21-hovedprinsipper-for-forvaltningen">§ 21. Hovedprinsipper for forvaltningen</a></li>
+<li class="lvl4"><a href="#22-rettigheter-for-personer-bosatt-i-kommunen">§ 22. Rettigheter for personer bosatt i kommunen</a></li>
+<li class="lvl4"><a href="#23-rettigheter-for-personer-bosatt-i-finnmark">§ 23. Rettigheter for personer bosatt i Finnmark</a></li>
+<li class="lvl4"><a href="#24-srskilt-rett-til-lokal-utnyttelse">§ 24. Særskilt rett til lokal utnyttelse</a></li>
+<li class="lvl4"><a href="#25-adgang-for-andre">§ 25. Adgang for andre</a></li>
+<li class="lvl4"><a href="#26-lokal-forvaltning-av-jakt-og-fiske">§ 26. Lokal forvaltning av jakt og fiske</a></li>
+<li class="lvl4"><a href="#27-nrmere-vilkar-for-utnyttelse-av-fornybare-ressurser-og-innskrenkninger-i-utnyttelsen">§ 27. Nærmere vilkår for utnyttelse av fornybare ressurser og innskrenkninger i utnyttelsen</a></li>
+<li class="lvl2"><a href="#kapittel-4-tana-og-neiden">Kapittel 4. Tana og Neiden</a></li>
+<li class="lvl4"><a href="#28-fisket-i-neidenvassdraget">§ 28. Fisket i Neidenvassdraget</a></li>
+<li class="lvl4"><a href="#28-a-fisket-i-tanavassdraget">§ 28 a. Fisket i Tanavassdraget</a></li>
+<li class="lvl2"><a href="#kapittel-5-kartlegging-og-anerkjennelse-av-eksisterende-rettigheter">Kapittel 5. Kartlegging og anerkjennelse av eksisterende rettigheter</a></li>
+<li class="lvl3"><a href="#i-finnmarkskommisjonen">I Finnmarkskommisjonen</a></li>
+<li class="lvl5"><a href="#29-finnmarkskommisjonen">§ 29. Finnmarkskommisjonen</a></li>
+<li class="lvl5"><a href="#30-avgrensning-av-utredningsfelt-mm">§ 30. Avgrensning av utredningsfelt m.m.</a></li>
+<li class="lvl5"><a href="#31-varsling-av-mulige-rettighetshavere">§ 31. Varsling av mulige rettighetshavere</a></li>
+<li class="lvl5"><a href="#32-ansvaret-for-sakens-opplysning">§ 32. Ansvaret for sakens opplysning</a></li>
+<li class="lvl5"><a href="#33-finnmarkskommisjonens-rapport">§ 33. Finnmarkskommisjonens rapport</a></li>
+<li class="lvl5"><a href="#34-behandlingen-i-finnmarkseiendommen">§ 34. Behandlingen i Finnmarkseiendommen</a></li>
+<li class="lvl5"><a href="#35-forhandlinger">§ 35. Forhandlinger</a></li>
+<li class="lvl3"><a href="#ii-utmarksdomstolen-for-finnmark">II Utmarksdomstolen for Finnmark</a></li>
+<li class="lvl5"><a href="#36-utmarksdomstolen-for-finnmark">§ 36. Utmarksdomstolen for Finnmark</a></li>
+<li class="lvl5"><a href="#37-forfall">§ 37. Forfall</a></li>
+<li class="lvl5"><a href="#38-stevning">§ 38. Stevning</a></li>
+<li class="lvl5"><a href="#39-avvisning">§ 39. Avvisning</a></li>
+<li class="lvl5"><a href="#40-forening-av-saker-oppdeling-mm">§ 40. Forening av saker, oppdeling m.m.</a></li>
+<li class="lvl5"><a href="#41-ansvaret-for-sakens-opplysning-mm">§ 41. Ansvaret for sakens opplysning m.m.</a></li>
+<li class="lvl5"><a href="#42-anke">§ 42. Anke</a></li>
+<li class="lvl5"><a href="#43-utgiftene-ved-saken">§ 43. Utgiftene ved saken</a></li>
+<li class="lvl3"><a href="#iii-fellesregler">III Fellesregler</a></li>
+<li class="lvl5"><a href="#44-samisk-sprak">§ 44. Samisk språk</a></li>
+<li class="lvl5"><a href="#45-grensemerking-mm-og-tinglysing">§ 45. Grensemerking m.m. og tinglysing</a></li>
+<li class="lvl5"><a href="#46-forholdet-til-annen-lovgivning">§ 46. Forholdet til annen lovgivning</a></li>
+<li class="lvl5"><a href="#47-fullmakt-til-a-gi-nrmere-regler">§ 47. Fullmakt til å gi nærmere regler</a></li>
+<li class="lvl2"><a href="#kapittel-6-sluttbestemmelser">Kapittel 6. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#48-ikrafttredelse">§ 48. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#49-overgangsregler">§ 49. Overgangsregler</a></li>
+<li class="lvl4"><a href="#50-endringer-i-annen-lovgivning">§ 50. Endringer i annen lovgivning</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-85.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-17-85.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-17-85.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2005-06-17-85.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2005-06-17-85.html">Observerte kildeutgaver</a> · <a href="../historie/finnmarksloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3374530ced584b9c5a5073143e3458049ae6a93d/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2005-06-17-85.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2005-06-17-85.html">Observerte kildeutgaver</a> · <a href="../historie/finnmarksloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2008/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2005-06-17-85.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-rettsforhold-og-forvaltning-av-grunn-og-naturressurser-i-finnmark-finnmarksloven">Lov om rettsforhold og forvaltning av grunn og naturressurser i Finnmark (Finnmarksloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Lovens formål er å legge til rette for at grunn og naturressurser i Finnmark forvaltes på en balansert og økologisk bærekraftig måte til beste for innbyggerne i Finnmark og særlig som grunnlag for samisk kultur, reindrift, utmarksbruk, næringsutøvelse og samfunnsliv.</p>
-<p><em>Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Loven gjelder for fast eiendom og vassdrag med naturressurser i Finnmark. Med Finnmark menes det området som utgjorde Finnmark fylke 1. juli 2006. I strandlinjen gjelder loven så langt ut i sjøen som den private eiendomsretten strekker seg.</p>
-<p><em>Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h4 id="3-forholdet-til-folkeretten">§ 3. Forholdet til folkeretten</h4>
 <p>Loven gjelder med de begrensninger som følger av ILO-konvensjon nr. 169 om urfolk og stammefolk i selvstendige stater. Loven skal anvendes i samsvar med folkerettens regler om urfolk og minoriteter og bestemmelser i overenskomster med fremmede stater om fisket i grensevassdragene.</p>
 <h4 id="4-sametingets-retningslinjer-for-endret-bruk-av-utmark">§ 4. Sametingets retningslinjer for endret bruk av utmark</h4>
@@ -103,12 +270,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Styremedlemmer og varamedlemmer kan avsettes av det organ som har oppnevnt vedkommende. Organet skal i så fall på nytt velge medlemmer og varamedlemmer samlet.</p>
 <p>Styremedlemmer og varamedlemmer har rett til å tre tilbake før tjenestetiden er ute dersom særlig grunn foreligger. Styret og det organ som har oppnevnt vedkommende, skal gis rimelig forhåndsvarsel. Fjerde ledd annet punktum gjelder tilsvarende.</p>
 <p>Styret velger selv en leder og en nestleder blant medlemmene. Dersom ingen oppnår flertall, fastsetter fylkestinget i oddetallsår og Sametinget i partallsår hvem av de seks medlemmene som skal være leder og nestleder.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h4 id="8-nrmere-om-forholdsvalg">§ 8. Nærmere om forholdsvalg</h4>
 <p>Valget av styremedlemmer og varamedlemmer holdes som forholdsvalg som nevnt i <a href="lov-2018-06-22-83.html">kommuneloven</a> §§ 7-5 og 7-6 dersom minst ett medlem av organet krever det.</p>
 <p>Dersom det ved forholdsvalg er nødvendig for å oppfylle kravet om at det blant medlemmene og varamedlemmene skal være både kvinner og menn, skal kandidater fra det underrepresenterte kjønn rykke opp på den listen som har fått færrest stemmer av de listene som skal representeres. Ved stemmelikhet avgjøres det ved loddtrekning på hvilken liste opprykk skal skje.</p>
 <p>Dersom det ved forholdsvalg i Sametinget er nødvendig for å oppfylle kravet om at et av styremedlemmene og vedkommendes varamedlem skal være representanter for reindriften, skal representanter for reindriften rykke opp på den listen som har fått færrest stemmer av de listene som skal representeres og som har slike kandidater. Dersom det ikke finnes noen slik liste, tilfaller den siste styreplassen representantene for reindriften på den listen som har fått flest stemmer av de listene som har slike kandidater. Ved stemmelikhet avgjøres det ved loddtrekning hvilken liste som skal anses for å ha fått flest eller færrest stemmer.</p>
-<p><em>Endret ved lov 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ).</em></p>
+<p class="note">Endret ved lov 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ).</p>
 <h4 id="9-styrets-oppgaver-og-saksbehandling">§ 9. Styrets oppgaver og saksbehandling</h4>
 <p>Forvaltningen av Finnmarkseiendommen hører under styret. Styret skal sørge for forsvarlig organisering av virksomheten. Styret skal i nødvendig utstrekning fastsette planer, budsjett, retningslinjer og instrukser for virksomheten. Styret iverksetter de undersøkelser som det finner nødvendig for å kunne utføre sine oppgaver. Styret skal iverksette slike undersøkelser dersom et styremedlem krever det.</p>
 <p>Styrelederen skal sørge for at aktuelle saker blir behandlet i styret og at det blir innkalt til styremøter på hensiktsmessig måte og med rimelig frist. Et styremedlem kan kreve at styret behandler bestemte saker.</p>
@@ -123,7 +290,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Annet og tredje ledd gjelder tilsvarende for bemyndigelse av ansatte og andre til å treffe beslutning om endret bruk av utmark.</p>
 <p>Første til fjerde ledd gjelder tilsvarende for saker om avhendelse og bortleie av utmark eller rettigheter i utmark. Bestemmelsene i paragrafen her gjelder ikke for saker etter kapittel 3 .</p>
 <p>Vedtak om avhendelse av fast eiendom som er truffet med tilslutning fra mindre enn fire styremedlemmer, må godkjennes av Sametinget og fylkestinget. Første punktum gjelder ikke for avhendelse av eiendommer som er fradelt ved offentlig delingsforretning og som er utlagt til bebyggelse og anlegg i planer etter <a href="lov-2008-06-27-71.html">plan- og bygningsloven</a>, eller fradelte tomter som er bebygd.</p>
-<p><em>Endret ved lover 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h4 id="11-saker-som-angar-de-ansattes-arbeidssituasjon-og-rettsstilling">§ 11. Saker som angår de ansattes arbeidssituasjon og rettsstilling</h4>
 <p>Av og blant de ansatte i Finnmarkseiendommen velges en representant som møter i Finnmarkseiendommens styre ved behandling av saker som angår de ansattes arbeidssituasjon eller rettsstilling. Representanten for de ansatte har tale- og forslagsrett, men ikke stemmerett.</p>
 <p>Representanten for de ansatte har ikke rett til å delta i behandlingen av saker som gjelder arbeidsgivers forberedelse til forhandlinger med arbeidstakere, arbeidskonflikter, rettstvister med arbeidstakerorganisasjoner eller oppsigelse av tariffavtaler.</p>
@@ -135,14 +302,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Finnmarkseiendommen skal føre regnskap i samsvar med reglene i <a href="lov-1998-07-17-56.html">regnskapsloven</a>.</p>
 <p>Regnskapet skal revideres av registrert eller statsautorisert revisor. Revisor skal for hvert regnskapsår avgi revisjonsberetning til styret i Finnmarkseiendommen.</p>
 <p>Finnmarkseiendommen skal registreres i foretaksregisteret.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 29 (ikr. 1 juli 2014 iflg. vedtak 26 juni 2014 nr. 866 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 29 (ikr. 1 juli 2014 iflg. vedtak 26 juni 2014 nr. 866 ).</p>
 <h4 id="14-pantsettelse-og-gjeldsforflgning">§ 14. Pantsettelse og gjeldsforfølgning</h4>
 <p>Fast eiendom som Finnmarkseiendommen eier og begrensede rettigheter som Finnmarkseiendommen har i fast eiendom som andre eier, kan ikke stilles som sikkerhet for gjeld eller andre forpliktelser og kan ikke være gjenstand for kreditorbeslag. Dette gjelder likevel ikke eiendommer og begrensede rettigheter i eiendommer som er fradelt ved offentlig delingsforretning og som er utlagt til bebyggelse og anlegg i planer etter plan- og bygningsloven, eller fradelte tomter som er bebygd.</p>
 <p>Det kan ikke åpnes konkurs eller gjeldsforhandling hos Finnmarkseiendommen.</p>
-<p><em>Endret ved lov 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 27 juni 2008 nr. 71 (ikr. 1 juli 2009 iflg. res. 12 juni 2009 nr. 638 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="15-utdeling-av-overskudd">§ 15. Utdeling av overskudd</h4>
 <p>Dersom Finnmarkseiendommen i bankinnskudd, kontanter og lignende har aktiva som fratrukket eventuell gjeld overstiger det som trengs av reserver for å sikre driften, kan styret beslutte at overskuddet helt eller delvis skal utbetales til Finnmark fylkeskommune, Sametinget eller allmennyttige formål som kommer Finnmarks innbyggere til gode.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h4 id="16-kontrollkomiteen">§ 16. Kontrollkomiteen</h4>
 <p>Tilsyn med styrets virksomhet føres av en kontrollkomité med tre medlemmer. Finnmark fylkesting, Sametinget og Kongen oppnevner et medlem hver med personlig varamedlem. Som medlem og varamedlem skal hvert organ oppnevne en mann og en kvinne. Medlemmet og varamedlemmet oppnevnt av staten skal oppfylle de krav som <a href="lov-1915-08-13-5.html">domstolloven</a> stiller til høyesterettsdommere. Medlemmene og varamedlemmene oppnevnes for inntil fire år av gangen. Ingen kan være medlem i mer enn ti år i sammenheng. Medlemmet oppnevnt av staten er leder for komiteen.</p>
 <p>Kontrollkomiteen skal:</p>
@@ -156,25 +323,25 @@ f. godkjenne utdeling av overskudd.</p>
 <p>Kontrollkomiteen skal ha tilgang til all tilgjengelig informasjon hos Finnmarkseiendommen som den trenger for å utføre sine oppgaver etter paragrafen her.</p>
 <p>Kontrollkomiteen avgir årlig en rapport til Finnmark fylkesting, Sametinget og departementet. I rapporten skal kontrollkomiteen redegjøre for sin kontrollvirksomhet, gi en vurdering av styrets årsberetning og de forhold som er omhandlet der, samt gi en vurdering av hvordan loven her virker og om det er ønskelig med endringer i den.</p>
 <p>Kontrollkomiteens utgifter dekkes av Finnmarkseiendommen. Godtgjørelse til medlemmene og varamedlemmene dekkes av det organ som har oppnevnt vedkommende.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h4 id="17-straff-og-erstatningsansvar-for-styremedlemmer-mfl">§ 17. Straff- og erstatningsansvar for styremedlemmer m.fl.</h4>
 <p>Medlem av styret, firmategner, revisor, ledende ansatt som er tildelt myndighet til å treffe beslutninger på vegne av Finnmarkseiendommen innenfor avgrensede saksområder, eller medlem av kontrollkomiteen som viser grov uforstand i utførelsen av sine oppgaver for Finnmarkseiendommen, straffes med bøter eller under skjerpende omstendigheter med fengsel i inntil ett år. Medvirkning straffes ikke.</p>
 <p>Medlem av styret som forsettlig eller uaktsomt har påført Finnmarkseiendommen tap under utførelsen av vervet, plikter å erstatte tapet. Kontrollkomiteen avgjør om erstatningskrav skal fremmes.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="18-forholdet-til-forvaltningsloven-og-offentlighetsloven">§ 18. Forholdet til <a href="lov-2025-06-20-81.html">forvaltningsloven</a> og offentlighetsloven</h4>
 <p>For Finnmarkseiendommen gjelder forvaltningsloven kapittel II om ugildhet, § 11 om veiledningsplikt, § 11 a om saksbehandlingstid og foreløpig svar og §§ 13 til 13 f om taushetsplikt tilsvarende. Finnmarkseiendommen skal gi rettighetshaverne i et område forhåndsvarsel og adgang til å uttale seg etter reglene i forvaltningsloven § 16 før Finnmarkseiendommen treffer vedtak som kan ha rettslige eller faktiske konsekvenser for dem.</p>
 <p>Finnmarkseiendommens saksdokumenter er offentlige etter reglene i <a href="lov-2006-05-19-16.html">offentleglova</a>. Ved avslag på krav om innsyn kan spørsmålet om det er adgang til å unnta dokument fra offentlighet, påklages til statsforvalteren.</p>
-<p><em>Endret ved lover 19 mai 2006 nr. 16 (ikr. 1 jan 2009 iflg. res. 17 okt 2008 nr. 1118 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 19 mai 2006 nr. 16 (ikr. 1 jan 2009 iflg. res. 17 okt 2008 nr. 1118 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h4 id="19-nasjonalparker-pa-finnmarkseiendommens-grunn">§ 19. Nasjonalparker på Finnmarkseiendommens grunn</h4>
 <p>Grunn som Finnmarkseiendommen eier, kan legges ut som nasjonalpark etter reglene i <a href="lov-2009-06-19-100.html">naturmangfoldloven</a> kapittel V . Ved utformingen av bruksregler skal det legges vekt på at tradisjonell bruk kan videreføres. Finnmarkseiendommen og bruksrettshavere som berøres, kan kreve erstatning for økonomisk tap etter reglene i naturmangfoldloven § 50 .</p>
-<p><em>Endret ved lov 28 mars 2014 nr. 9 (ikr. 1 juni 2014 iflg. res. 28 mars 2014 nr. 371 ).</em></p>
+<p class="note">Endret ved lov 28 mars 2014 nr. 9 (ikr. 1 juni 2014 iflg. res. 28 mars 2014 nr. 371 ).</p>
 <h4 id="20-forholdet-til-fremtidig-lovgivning">§ 20. Forholdet til fremtidig lovgivning</h4>
 <p>Finnmarkseiendommen har ikke vern mot at dens rettsstilling eller rettigheter endres, innskrenkes eller oppheves ved lov.</p>
 <h2 id="kapittel-3-fornybare-ressurser-pa-finnmarkseiendommens-grunn">Kapittel 3. Fornybare ressurser på Finnmarkseiendommens grunn</h2>
 <h4 id="21-hovedprinsipper-for-forvaltningen">§ 21. Hovedprinsipper for forvaltningen</h4>
 <p>Finnmarkseiendommen skal forvalte de fornybare ressursene på sin grunn i samsvar med lovens formål og innenfor de rammer som følger av <a href="lov-2025-06-20-102.html">viltressursloven</a> , <a href="lov-1992-05-15-47.html">lakse- og innlandsfiskloven</a> og annen lovgivning. Naturens mangfold og produktivitet skal bevares.</p>
 <p>Reglene i kapittelet her gjelder ikke i den utstrekning annet følger av særlige rettsforhold.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</p>
 <h4 id="22-rettigheter-for-personer-bosatt-i-kommunen">§ 22. Rettigheter for personer bosatt i kommunen</h4>
 <p>I samsvar med reglene i kapittelet her og innenfor de rammer som følger av annen lovgivning, har de som er bosatt i en kommune i Finnmark, på Finnmarkseiendommens grunn i kommunen rett til:</p>
 <p>a. fiske etter innlandsfisk med garn,
@@ -184,7 +351,7 @@ d. hogst av lauvskog til brensel for husbehov,
 e. stikking av torv til brensel og annet husbehov og
 f. uttak av lauvskog til bruk som gjerdestolper og hesjestaur i reindrifts- og jordbruksnæring.</p>
 <p>Reindriftsutøvere har samme rett som personer bosatt i kommunen i den tiden reindrift foregår der.</p>
-<p><em>Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h4 id="23-rettigheter-for-personer-bosatt-i-finnmark">§ 23. Rettigheter for personer bosatt i Finnmark</h4>
 <p>I samsvar med reglene i kapittelet her og innenfor de rammer som følger av annen lovgivning, har de som er bosatt i Finnmark, på Finnmarkseiendommens grunn rett til:</p>
 <p>a. jakt på storvilt,
@@ -193,7 +360,7 @@ c. fiske i vassdrag med stang og håndsnøre,
 d. plukking av multer og
 e. uttak av trevirke til husflid.</p>
 <p>Til jordbrukseiendom ligger rett til beite for så stor buskap som kan vinterføs på eiendommen.</p>
-<p><em>Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h4 id="24-srskilt-rett-til-lokal-utnyttelse">§ 24. Særskilt rett til lokal utnyttelse</h4>
 <p>Enkeltpersoner eller grupper av personer som har tilknytning til en bygd og har sitt livsgrunnlag helt eller delvis knyttet til utnyttelsen av fornybare ressurser i nærheten av bygda, kan av kommunen for inntil 10 år om gangen bli tildelt særskilt rett til å utnytte fornybare ressurser som nevnt i §§ 22 og 23 på nærmere angitte områder i kommunen. Ved fastsettelsen av området og de nærmere vilkår skal det tas utgangspunkt i den bruk folk med tilknytning til bygda tradisjonelt har gjort av området. Området skal fortrinnsvis utgjøre et sammenhengende område i nærheten av bygda.</p>
 <p>Finnmarkseiendommen kan gi generelle bestemmelser om kommunenes behandling og vurdering av saker etter paragrafen her. Finnmarkseiendommen er klageorgan for vedtak truffet av kommunen. For kommunens og Finnmarkseiendommens saksbehandling gjelder forvaltningsloven.</p>
@@ -201,7 +368,7 @@ e. uttak av trevirke til husflid.</p>
 <h4 id="25-adgang-for-andre">§ 25. Adgang for andre</h4>
 <p>I samsvar med reglene i kapittelet her og innenfor de rammer som følger av annen lovgivning, har enhver på Finnmarkseiendommens grunn adgang til jakt og fangst av småvilt og fiske i vassdrag med stang og håndsnøre samt plukking av multer til egen husholdning.</p>
 <p>Finnmarkseiendommen kan gi andre enn dem som er bosatt i kommunen eller i Finnmark, ytterligere adgang til å utnytte fornybare ressurser som nevnt i §§ 22 og 23 .</p>
-<p><em>Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h4 id="26-lokal-forvaltning-av-jakt-og-fiske">§ 26. Lokal forvaltning av jakt og fiske</h4>
 <p>Finnmarkseiendommen kan for inntil 10 år om gangen tildele lokale organisasjoner og sammenslutninger som har som formål å fremme allment jakt, fangst og fiske, særskilt rett til å forvalte utøvelsen av jakt, fangst og fiske på nærmere angitte områder av Finnmarkseiendommens grunn.</p>
 <h4 id="27-nrmere-vilkar-for-utnyttelse-av-fornybare-ressurser-og-innskrenkninger-i-utnyttelsen">§ 27. Nærmere vilkår for utnyttelse av fornybare ressurser og innskrenkninger i utnyttelsen</h4>
@@ -217,16 +384,16 @@ e. uttak av trevirke til husflid.</p>
 <p>I Neidenvassdraget har lokalbefolkningen særskilte rettigheter til fiske på grunnlag av alders tids bruk og lokal sedvane.</p>
 <p>Kongen kan ved forskrift gi nærmere regler om forvaltningen og utøvelsen av fisket. Forskriften skal legge til rette for en lokal, rettighetsbasert forvaltning av fiskeressursene i samsvar med overenskomster med Finland om fisket i Neidenvassdraget.</p>
 <p>Utarbeidelsen av forskrifter og forhandlinger med Finland om fisket i Neidenvassdraget skal skje i samråd med Sametinget, berørte kommuner og de som har særskilte rettigheter til fisket i vassdraget.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 51 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 802 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 51 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 802 ).</p>
 <h4 id="28-a-fisket-i-tanavassdraget">§ 28 a. Fisket i Tanavassdraget</h4>
 <p>For fiskerettigheter i Tanavassdraget gjelder <a href="lov-2014-06-20-51.html">Tanaloven</a>.</p>
-<p><em>Tilføyd ved lov 20 juni 2014 nr. 51 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 802 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2014 nr. 51 (ikr. 1 juli 2014 iflg. res. 20 juni 2014 nr. 802 ).</p>
 <h2 id="kapittel-5-kartlegging-og-anerkjennelse-av-eksisterende-rettigheter">Kapittel 5. Kartlegging og anerkjennelse av eksisterende rettigheter</h2>
 <h3 id="i-finnmarkskommisjonen">I Finnmarkskommisjonen</h3>
 <h5 id="29-finnmarkskommisjonen">§ 29. Finnmarkskommisjonen</h5>
 <p>Det opprettes en kommisjon (Finnmarkskommisjonen) som på grunnlag av gjeldende nasjonal rett skal utrede bruks- og eierrettigheter til den grunnen som Finnmarkseiendommen overtar etter § 49 . Kommisjonen skal også utrede krav om kollektive eller individuelle rettigheter til fiskeplasser i sjø- og fjordområder i Finnmark dersom noen med rettslig interesse i en avklaring krever det.</p>
 <p>Kongen oppnevner Finnmarkskommisjonens medlemmer. Finnmarkskommisjonen skal bestå av en leder og fire andre medlemmer. Lederen skal oppfylle de kravene som domstolloven stiller til høyesterettsdommere. To av de øvrige medlemmene skal oppfylle de kravene som stilles til tingrettsdommere. Minst to medlemmer skal være bosatt i eller på annen måte ha sterk tilknytning til Finnmark.</p>
-<p><em>Endret ved lover 21 sep 2012 nr. 66 (ikr. 1 jan 2013 iflg. res. 21 sep 2012 nr. 913 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</em></p>
+<p class="note">Endret ved lover 21 sep 2012 nr. 66 (ikr. 1 jan 2013 iflg. res. 21 sep 2012 nr. 913 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ).</p>
 <h5 id="30-avgrensning-av-utredningsfelt-mm">§ 30. Avgrensning av utredningsfelt m.m.</h5>
 <p>Finnmarkskommisjonen fastsetter felt for utredningsarbeidet og bestemmer rekkefølgen i behandlingen. Ved avgjørelsen skal det bl.a. legges vekt på hensynet til en naturlig og hensiktsmessig avgrensning av feltet når det gjelder utstrekning og rettslig og historisk sammenheng samt på behovet for avklaring av rettsforholdene.</p>
 <p>Finnmarkskommisjonen kan innskrenke eller utvide et felt etter at utredningen er satt i gang dersom det er nødvendig for å skape en naturlig og hensiktsmessig avgrensning.</p>
@@ -234,7 +401,7 @@ e. uttak av trevirke til husflid.</p>
 <h5 id="31-varsling-av-mulige-rettighetshavere">§ 31. Varsling av mulige rettighetshavere</h5>
 <p>Utredningsarbeidet for et felt skal kunngjøres med oppfordring til mulige rettighetshavere om å melde seg. Kunngjøringen foretas i Norsk lysingsblad, i en avis som er alminnelig lest på stedet og lokalt på annen hensiktsmessig måte.</p>
 <p>Reindriftsorganisasjoner og andre representanter for brukerinteresser i det aktuelle feltet samt Sametinget, Finnmark fylkesting, Finnmarkseiendommen og berørte kommuner varsles særskilt.</p>
-<p><em>Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</em></p>
+<p class="note">Endret ved lover 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ).</p>
 <h5 id="32-ansvaret-for-sakens-opplysning">§ 32. Ansvaret for sakens opplysning</h5>
 <p>Finnmarkskommisjonen har selv ansvaret for at saken blir tilstrekkelig opplyst. Kommisjonen kan på den måten som den finner hensiktsmessig, innhente forklaringer, dokumenter og annet materiale samt foreta undersøkelser og utredninger m.m. om faktiske og rettslige forhold som kan være av betydning for kommisjonens konklusjoner.</p>
 <p>Partene har rett til å gjøre rede for de faktiske forholdene og føre bevis som er av betydning for kommisjonens konklusjoner. Partene kan begjære iverksatt tiltak etter første ledd. Finnmarkskommisjonen kan avslå begjæringen dersom den finnes ugrunnet, eller det vil medføre uforholdsmessige forsinkelser eller kostnader å etterkomme den.</p>
@@ -266,11 +433,11 @@ b. en angivelse av de kravene som parten reiser, og omstendighetene de støttes 
 c. den påstanden parten nedlegger
 d. den motparten kravet rettes mot</p>
 <p>Selv om fristen etter første ledd har løpt ut, skal utmarksdomstolen likevel behandle saker som kommer inn før alle saker fra samme felt er avsluttet, dersom den finner at saken egner seg for slik behandling og den kan behandles uten vesentlig forsinkelse for domstolens saksavvikling. Avgjørelser etter leddet her kan ikke angripes.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h5 id="39-avvisning">§ 39. Avvisning</h5>
 <p>Saker som finnes ikke å egne seg for behandling i utmarksdomstolen, kan domstolen ved kjennelse avvise helt eller for en del. Ved avgjørelsen skal det bl.a. tas hensyn til kravets art og hvilket grunnlag det bygger på.</p>
 <p>Før en sak avvises, skal saksøkeren gis anledning til å uttale seg. Saken kan avvises uten at partene innkalles til rettsmøte. Avvisning etter paragrafen her kan ikke angripes.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h5 id="40-forening-av-saker-oppdeling-mm">§ 40. Forening av saker, oppdeling m.m.</h5>
 <p>Utmarksdomstolen kan:</p>
 <p>a. forene flere saker til felles behandling og i tilfelle felles avgjørelse
@@ -279,14 +446,14 @@ c. bestemme rekkefølgen i behandlingen av de saker som er brakt inn</p>
 <p>Ved avgjørelser etter første ledd skal det bl.a. legges vekt på hensynet til en naturlig og hensiktsmessig avgrensning av tvisteområdene når det gjelder utstrekning, rettslig og historisk sammenheng samt på behovet for avklaring av rettsforholdene.</p>
 <p>Før avgjørelser etter første ledd treffes skal partene gis anledning til å uttale seg, med mindre dette finnes unødvendig eller ville medføre uforholdsmessig forsinkelse eller omkostning.</p>
 <p>Beslutninger etter paragrafen her kan ikke angripes.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h5 id="41-ansvaret-for-sakens-opplysning-mm">§ 41. Ansvaret for sakens opplysning m.m.</h5>
 <p>Det påhviler partene å gjøre rede for de faktiske forholdene og bevisene som er av betydning for avgjørelsen. Utmarksdomstolen skal av eget tiltak innhente Finnmarkskommisjonens rapport og ta utgangspunkt i denne i sin behandling av saken. Partene kan i tillegg legge frem som bevis dokumenter som er kommet inn til, lagt frem for eller utferdiget av Finnmarkskommisjonen.</p>
 <p>Utmarksdomstolen kan ikke ta imot vitneforklaring fra Finnmarkskommisjonens medlemmer eller fra personer som har utført arbeid for kommisjonen i forbindelse med saken.</p>
 <p>Rettsmøter til avhør av parter og vitner utenfor hovedforhandling kan holdes av to av utmarksdomstolens medlemmer, hvorav minst den ene må ha de kvalifikasjonene som kreves for høyesterettsdommere. Utmarksdomstolen kan begjære at vedkommende tingrett foretar avhør.</p>
 <h5 id="42-anke">§ 42. Anke</h5>
 <p>Utmarksdomstolens avgjørelser kan påankes til Høyesterett når anke ikke er avskåret etter loven her.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h5 id="43-utgiftene-ved-saken">§ 43. Utgiftene ved saken</h5>
 <p>Staten dekker utgiftene til utmarksdomstolens egen virksomhet.</p>
 <p>Staten dekker partenes nødvendige kostnader i saken i tilfeller der Finnmarkseiendommen har motsatt seg en konklusjon fra Finnmarkskommisjonen om at en privat part har rettigheter til grunnen, og den private part reiser sak mot Finnmarkseiendommen. For øvrig dekker staten den private parts nødvendige kostnader dersom Finnmarkseiendommen reiser sak, og Finnmarkseiendommens nødvendige kostnader dersom den private part reiser sak.</p>
@@ -295,18 +462,18 @@ c. bestemme rekkefølgen i behandlingen av de saker som er brakt inn</p>
 <p>Ved avgjørelsen av spørsmålet om utgiftene har vært nødvendige, skal utmarksdomstolen bl.a. ha for øyet at parter med likeartede interesser som ikke står i strid, bør nytte samme juridiske og tekniske bistand. Domstolen skal så tidlig som mulig av eget tiltak ta opp spørsmålet der det er aktuelt.</p>
 <p>Når særlige grunner tilsier det, kan utmarksdomstolen pålegge en part helt eller delvis selv å bære sine kostnader med saken. En part kan også bli pålagt å erstatte motpartens sakskostnader så langt disse er pådradd ved partens forsømmelser eller rettsstridig atferd. Tilsvarende gjelder når en part har trukket saken i langdrag eller gjort den utilbørlig vidløftig.</p>
 <p>For behandlingen av saker for utmarksdomstolen betales det ikke gebyr. For anke over utmarksdomstolens avgjørelser gjelder lov 17. desember 1982 nr. 86 om rettsgebyr § 8 .</p>
-<p><em>Endret ved lover 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 16 des 2016 nr. 93 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1609 og får bare anvendelse på søksmål som reises etter 8 des 2015, for så vidt gjelder utgifter pådratt etter lovens ikrafttredelse).</em></p>
+<p class="note">Endret ved lover 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 16 des 2016 nr. 93 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1609 og får bare anvendelse på søksmål som reises etter 8 des 2015, for så vidt gjelder utgifter pådratt etter lovens ikrafttredelse).</p>
 <h3 id="iii-fellesregler">III Fellesregler</h3>
 <h5 id="44-samisk-sprak">§ 44. Samisk språk</h5>
 <p>Om bruk av samisk språk gjelder <a href="lov-1987-06-12-56.html">sameloven</a> kapittel 3 . Sameloven § 3-4 første ledd gjelder også for Finnmarkskommisjonen.</p>
 <h5 id="45-grensemerking-mm-og-tinglysing">§ 45. Grensemerking m.m. og tinglysing</h5>
 <p>Rettskraftige dommer fra utmarksdomstolen samt erklæringer og avtaler som er avgitt eller inngått i samsvar med Finnmarkskommisjonens konklusjoner, kan bringes inn for jordskifteretten som gjennomfører grensemerking i terrenget, koordinatfesting og kartlegging av grensene i samsvar med dommen, erklæringen eller avtalen. Saksbehandlingsreglene i <a href="lov-2013-06-21-100.html">jordskiftelova</a> gjelder så langt de passer. Jordskifteretten settes uten jordskiftemeddommere. Det skal ikke betales gebyr etter jordskiftelova §§ 7-2 til 7-4. Partene skal heller ikke betale for kostnadene ved grensemerking, koordinatfesting og kartlegging av grensene. For tinglysing gjelder jordskiftelova § 6-31 .</p>
 <p>For rettigheter som er fastlått i en rettskraftig dom fra utmarksdomstolen eller i en erklæring eller avtale i samsvar med Finnmarkskommisjonens konklusjoner, er offentligrettslige begrensninger i adgangen til å stifte eller overdra slike rettigheter ikke til hinder for at rettigheten tinglyses. Det betales ikke gebyr eller dokumentavgift ved tinglysingen.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="46-forholdet-til-annen-lovgivning">§ 46. Forholdet til annen lovgivning</h5>
 <p>Domstolloven kapittel 6 om ugildhet og offentleglova gjelder så langt de passer for Finnmarkskommisjonens virksomhet. Ved avslag på krav om innsyn kan spørsmålet om det er adgang til å unnta dokument fra offentlighet, påklages til statsforvalteren. Forvaltningsloven gjelder ikke for Finnmarkskommisjonens virksomhet.</p>
 <p>Domstolloven og <a href="lov-2005-06-17-90.html">tvisteloven</a> gjelder så langt de passer for utmarksdomstolens virksomhet, dersom ikke annet er bestemt i loven her. <a href="lov-2022-05-12-28.html">Advokatloven</a> § 27 andre ledd gjelder ikke for advokater som konstitueres som medlemmer av Utmarksdomstolen.</p>
-<p><em>Endret ved lover 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 19 mai 2006 nr. 16 (ikr. 1 jan 2009 iflg. res. 17 okt 2008 nr. 1118 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ),</em></p>
+<p class="note">Endret ved lover 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 , 19 mai 2006 nr. 16 (ikr. 1 jan 2009 iflg. res. 17 okt 2008 nr. 1118 ), 20 des 2019 nr. 108 (ikr. 1 jan 2020 iflg. res. 20 des 2019 nr. 1927 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 9 juni 2023 nr. 27 (i kraft 1 jan 2024 iflg. res. 9 juni 2023 nr. 806 ), 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ),</p>
 <h5 id="47-fullmakt-til-a-gi-nrmere-regler">§ 47. Fullmakt til å gi nærmere regler</h5>
 <p>Kongen kan gi nærmere regler om Finnmarkskommisjonen og utmarksdomstolen for Finnmark, herunder om organisering og økonomiske forhold mv.</p>
 <h2 id="kapittel-6-sluttbestemmelser">Kapittel 6. Sluttbestemmelser</h2>
@@ -327,6 +494,8 @@ c. bestemme rekkefølgen i behandlingen av de saker som er brakt inn</p>
 <h2 id="vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</h2>
 <p>Se her for å lese loven på samisk: pdf-lenke .</p>
 <p>Oversettelsen er à jour per 1. januar 2025 ifølge Kommunal- og distriktsdepartementet. Dette er en uoffisiell oversettelse av den norske versjonen av loven. Hvis det er forskjeller mellom samisk og norsk versjon, så gjelder den norske versjonen slik den er kunngjort i Norsk Lovtidend.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

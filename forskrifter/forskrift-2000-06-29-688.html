@@ -19,78 +19,167 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2000-06-29-688.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om vektårsavgift" href="../feeds/forskrift-2000-06-29-688.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forskrift om vektårsavgift</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2000-06-29-688</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skatte- og avgiftsrett &raquo; Særavgifter &raquo; Bilavgifter</dd>
-<dt>Ikrafttredelse</dt><dd>2000-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-12-16-2274</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2000-06-29-688" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledende-bestemmelser">I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade-omfang">§ 1. Virkeområde – omfang</a></li>
+<li class="lvl4"><a href="#2-fakturering-av-avgift">§ 2. Fakturering av avgift</a></li>
+<li class="lvl2"><a href="#ii-vektgradert-arsavgift">II. Vektgradert årsavgift</a></li>
+<li class="lvl4"><a href="#3-grunnlag-for-avgiftsberegningen">§ 3. Grunnlag for avgiftsberegningen</a></li>
+<li class="lvl4"><a href="#4-nedregistrering">§ 4. Nedregistrering</a></li>
+<li class="lvl4"><a href="#5-endring-av-avgiftsgrunnlag">§ 5. Endring av avgiftsgrunnlag</a></li>
+<li class="lvl4"><a href="#6-tilleggsberegning-ved-overtredelse-av-registreringsplikt">§ 6. Tilleggsberegning ved overtredelse av registreringsplikt</a></li>
+<li class="lvl4"><a href="#7-korttidsbruk-av-tilhenger">§ 7. Korttidsbruk av tilhenger</a></li>
+<li class="lvl2"><a href="#iii-miljdifferensiert-arsavgift-for-dieseldrevne-kjrety">III. Miljødifferensiert årsavgift for dieseldrevne kjøretøy</a></li>
+<li class="lvl4"><a href="#8-grunnlag-for-avgiftsberegningen">§ 8. Grunnlag for avgiftsberegningen</a></li>
+<li class="lvl4"><a href="#9-nedsettelse-av-avgasskravniva">§ 9. Nedsettelse av avgasskravnivå</a></li>
+<li class="lvl2"><a href="#iv-avsluttende-bestemmelser">IV. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-reservebusser">§ 10. Reservebusser</a></li>
+<li class="lvl4"><a href="#11-avgiftsrefusjon">§ 11. Avgiftsrefusjon</a></li>
+<li class="lvl4"><a href="#12-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 12. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</a></li>
+<li class="lvl4"><a href="#13-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 13. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</a></li>
+<li class="lvl4"><a href="#14-ansvar-for-avgiften-ved-overdragelse-av-kjrety">§ 14. Ansvar for avgiften ved overdragelse av kjøretøy</a></li>
+<li class="lvl4"><a href="#15-opphevet">§ 15. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-opphevet">§ 16. (Opphevet)</a></li>
+<li class="lvl4"><a href="#17-utfyllende-bestemmelser">§ 17. Utfyllende bestemmelser</a></li>
+<li class="lvl4"><a href="#18-ikrafttreden-og-overgangsbestemmelser">§ 18. Ikrafttreden og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-12-16-2274.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-06-29-688.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om vektårsavgift</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-06-29-688.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2000-06-29-688 <code>forskrift/2000-06-29-688</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om vektårsavgift</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skatte- og avgiftsrett &raquo; Særavgifter &raquo; Bilavgifter</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2000</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-12-16-2274 <code>forskrift/2022-12-16-2274</code> fra 01.01.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2000-06-29-688" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i-innledende-bestemmelser">I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade-omfang">§ 1. Virkeområde – omfang</a></li>
+<li class="lvl4"><a href="#2-fakturering-av-avgift">§ 2. Fakturering av avgift</a></li>
+<li class="lvl2"><a href="#ii-vektgradert-arsavgift">II. Vektgradert årsavgift</a></li>
+<li class="lvl4"><a href="#3-grunnlag-for-avgiftsberegningen">§ 3. Grunnlag for avgiftsberegningen</a></li>
+<li class="lvl4"><a href="#4-nedregistrering">§ 4. Nedregistrering</a></li>
+<li class="lvl4"><a href="#5-endring-av-avgiftsgrunnlag">§ 5. Endring av avgiftsgrunnlag</a></li>
+<li class="lvl4"><a href="#6-tilleggsberegning-ved-overtredelse-av-registreringsplikt">§ 6. Tilleggsberegning ved overtredelse av registreringsplikt</a></li>
+<li class="lvl4"><a href="#7-korttidsbruk-av-tilhenger">§ 7. Korttidsbruk av tilhenger</a></li>
+<li class="lvl2"><a href="#iii-miljdifferensiert-arsavgift-for-dieseldrevne-kjrety">III. Miljødifferensiert årsavgift for dieseldrevne kjøretøy</a></li>
+<li class="lvl4"><a href="#8-grunnlag-for-avgiftsberegningen">§ 8. Grunnlag for avgiftsberegningen</a></li>
+<li class="lvl4"><a href="#9-nedsettelse-av-avgasskravniva">§ 9. Nedsettelse av avgasskravnivå</a></li>
+<li class="lvl2"><a href="#iv-avsluttende-bestemmelser">IV. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-reservebusser">§ 10. Reservebusser</a></li>
+<li class="lvl4"><a href="#11-avgiftsrefusjon">§ 11. Avgiftsrefusjon</a></li>
+<li class="lvl4"><a href="#12-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 12. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</a></li>
+<li class="lvl4"><a href="#13-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 13. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</a></li>
+<li class="lvl4"><a href="#14-ansvar-for-avgiften-ved-overdragelse-av-kjrety">§ 14. Ansvar for avgiften ved overdragelse av kjøretøy</a></li>
+<li class="lvl4"><a href="#15-opphevet">§ 15. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-opphevet">§ 16. (Opphevet)</a></li>
+<li class="lvl4"><a href="#17-utfyllende-bestemmelser">§ 17. Utfyllende bestemmelser</a></li>
+<li class="lvl4"><a href="#18-ikrafttreden-og-overgangsbestemmelser">§ 18. Ikrafttreden og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-06-29-688.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2000-06-29-688.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2000-06-29-688.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2000-06-29-688.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2000-06-29-688.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-06-29-688.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2000-06-29-688.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2000-06-29-688.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2000-06-29-688.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-vektarsavgift">Forskrift om vektårsavgift</h1>
 <h2 id="i-innledende-bestemmelser">I. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade-omfang">§ 1. Virkeområde – omfang</h4>
 <p>Denne forskrift fastsetter bestemmelser om beregning og utskriving av avgift for kjøretøy som er avgiftspliktig i henhold til Stortingets vedtak om vektårsavgift, og om kontroll av avgiftspliktige kjøretøy.</p>
-<p><em>Endret ved forskrift 12 des 2003 nr. 1534 (i kraft 1 jan 2004).</em></p>
+<p class="note">Endret ved forskrift 12 des 2003 nr. 1534 (i kraft 1 jan 2004).</p>
 <h4 id="2-fakturering-av-avgift">§ 2. Fakturering av avgift</h4>
 <p>Skattekontoret beregner og skriver ut avgiften i to terminer pr. år for avgiftspliktige kjøretøy som pr. 1. januar og 1. juli står registrert i Statens vegvesens motorvognregister. Faktura sendes registrert eier på papir, eller elektronisk dersom eier har tilrettelagt for dette innen henholdsvis 30. desember og 30. juni.</p>
 <p>For kjøretøy som ikke står registrert i motorvognregisteret pr. 1. januar og 1. juli, men kommer til registrering, oppstår avgiftsplikten ved registreringen. Når skattekontoret mottar melding om slik registrering skal skattekontoret beregne og skrive ut avgiften og faktura sendes registrert eier. Det skal i slike tilfeller skrives ut en forholdsmessig avgift beregnet pr. påbegynt måned og måneder fram til terminens avslutning.</p>
-<p><em>Endret ved forskrifter 13 feb 2001 nr. 131 (i kraft 1 mars 2001), 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 som endret ved forskrift 17 des 2015 nr. 1707 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2001 nr. 131 (i kraft 1 mars 2001), 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 som endret ved forskrift 17 des 2015 nr. 1707 (i kraft 1 jan 2016).</p>
 <h2 id="ii-vektgradert-arsavgift">II. Vektgradert årsavgift</h2>
 <h4 id="3-grunnlag-for-avgiftsberegningen">§ 3. Grunnlag for avgiftsberegningen</h4>
 <p>For motorkjøretøyer og kombinasjoner av kjøretøy (vogntog) skal det betales vektgradert årsavgift på bakgrunn av kjøretøyets akselantall, fjæringssystem og registrerte tillatte totalvekt etter de satser som fremgår av Stortingets vedtak om vektårsavgift.</p>
 <p>Fjæringssystemer som imøtekommer krav fastsatt i Rdir. 1996/53/EF Bilag II anses som likestilt med luftfjæring etter Stortingets avgiftsvedtak.</p>
 <p>For motorkjøretøy som skal trekke forskjellige tilhengere skal satsen for den kombinasjon av kjøretøy som gir høyest avgift benyttes, likevel minst satsen for samme motorkjøretøy uten at det benyttes som kombinasjon av kjøretøy.</p>
-<p><em>Endret ved forskrift 18 juni 2001 nr. 697 (i kraft 1 juli 2001).</em></p>
+<p class="note">Endret ved forskrift 18 juni 2001 nr. 697 (i kraft 1 juli 2001).</p>
 <h4 id="4-nedregistrering">§ 4. Nedregistrering</h4>
 <p>Adgangen til avgiftsmessig nedregistrering opphører fra 1. januar 2020. For kjøretøy med redusert avgiftsgrunnlag kan vekten etter søknad til skattekontoret settes opp til kjøretøyets tillatte totalvekt.</p>
 <p>Dersom kjøretøy registrert med redusert avgiftsgrunnlag brukes med aktuell totalvekt som overskrider det reduserte avgiftsgrunnlaget med 10 pst. eller mer, bortfaller adgangen til redusert avgiftsgrunnlag. Avgiftsgrunnlaget settes da opp til kjøretøyets tillatte totalvekt.</p>
@@ -104,15 +193,15 @@ Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 14 april 2004 
 <p>Et kjøretøy kan endre avgiftsgruppe til en høyere avgiftsgruppe i løpet av terminen. I slike tilfeller skal tilleggsavgiften beregnes som for nyregistrerte kjøretøy. Skattekontoret foretar beregning og utskriving av avgiften. Faktura sendes registrert eier.</p>
 <p>Dersom et kjøretøy i løpet av terminen endrer avgiftsgruppe til en lavere vektårsavgiftsgruppe, får dette ingen avgiftsmessig betydning før avgiftsutskrivingen for påfølgende termin. Ved en slik endring må melding gis Statens vegvesen i løpet av de siste 20 dagene før ny termin.</p>
 <p>Ved endring av avgiftsgruppe, skal nytt vognkort utstedes.</p>
-<p><em>Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 14 april 2004 nr. 619 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016), 16 des 2022 nr. 2274 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 14 april 2004 nr. 619 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016), 16 des 2022 nr. 2274 (i kraft 1 jan 2023).</p>
 <h4 id="6-tilleggsberegning-ved-overtredelse-av-registreringsplikt">§ 6. Tilleggsberegning ved overtredelse av registreringsplikt</h4>
 <p>Dersom kjøretøy urettmessig trekker tilhenger som medfører at kombinasjonen kommer i en avgiftskode med høyere avgift, skal det betales tilleggsavgift. Tillegget skal utgjøre differansen i avgift mellom den kombinasjonen som er registrert og den kombinasjonen som urettmessig er benyttet. Avgift beregnes i slike tilfeller for hele terminens lengde.</p>
 <p>Skattekontoret foretar beregning og utskriving av avgiften.</p>
-<p><em>Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 14 april 2004 nr. 619 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 14 april 2004 nr. 619 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</p>
 <h4 id="7-korttidsbruk-av-tilhenger">§ 7. Korttidsbruk av tilhenger</h4>
 <p>For kjøretøy som for en kortere periode skal trekke tilhenger, eller trekke tilhenger som medfører at kjøretøykombinasjonen kommer inn under en avgiftskode med høyere avgift enn det kombinasjonen er registrert for, kan skattekontoret gi tillatelse til slik kjøring uten at kjøretøykombinasjonen registreres med egen avgiftskode.</p>
 <p>Det skal i slike tilfeller svares en døgnavgift tilsvarende 2 % av full vektårsavgift for den aktuelle kjøretøykombinasjon, likevel ikke mindre enn kr 35. Avgiften skal beregnes pr. påbegynt døgn tillatelsen gjelder for. Avgiftsbeløp avrundes nedover til nærmeste hele krone.</p>
-<p><em>Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</p>
 <h2 id="iii-miljdifferensiert-arsavgift-for-dieseldrevne-kjrety">III. Miljødifferensiert årsavgift for dieseldrevne kjøretøy</h2>
 <h4 id="8-grunnlag-for-avgiftsberegningen">§ 8. Grunnlag for avgiftsberegningen</h4>
 <p>For avgiftspliktige dieseldrevne motorkjøretøyer skal det, i tillegg til vektgradert årsavgift etter kapittel II , beregnes avgift på bakgrunn av hvilket avgasskravnivå kjøretøyet oppfyller.</p>
@@ -125,36 +214,38 @@ e. kjøretøy registrert etter 1. oktober 2006 – tilfredsstiller EURO IV
 f. kjøretøy registrert etter 1. oktober 2009 – tilfredsstiller EURO V
 g. kjøretøy registrert etter 1. januar 2014 – tilfredsstiller EURO VI.</p>
 <p>For kjøretøy som ikke er førstegangsregistrert i Norge anses registreringsdatoen å være tidspunktet for første gangs registrering i utlandet.</p>
-<p><em>Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 10 des 2012 nr. 1198 (i kraft 1 jan 2013).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 10 des 2012 nr. 1198 (i kraft 1 jan 2013).</p>
 <h4 id="9-nedsettelse-av-avgasskravniva">§ 9. Nedsettelse av avgasskravnivå</h4>
 <p>Dersom det på betryggende måte kan dokumenteres at et kjøretøy oppfyller et strengere avgasskravnivå enn det datoen for registrering tilsier, kan Statens vegvesen etter søknad fastsette et lavere avgasskravnivå.</p>
-<p><em>Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 16 des 2022 nr. 2274 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 16 des 2022 nr. 2274 (i kraft 1 jan 2023).</p>
 <h2 id="iv-avsluttende-bestemmelser">IV. Avsluttende bestemmelser</h2>
 <h4 id="10-reservebusser">§ 10. Reservebusser</h4>
 <p>Skattekontoret kan gi fritak for ordinær vektårsavgift for reservebusser. Med reservebuss menes buss som ikke er i daglig bruk, men som benyttes ved særlige anledninger. Fritak gis for det enkelte kjøretøy. For kjøretøy som innvilges fritak skal det i stedet beregnes døgnavgift på to prosent av full vektårsavgift.</p>
 <p>Kjøretøyet må være registrert på innehaver av løyve etter § 4 eller § 6 i lov 21. juni 2002 nr. 45 om yrkestransport med motorvogn eller fartøy eller være utleiet på kontrakt med varighet på ett år eller mer mellom innehaver av slikt løyve og selskap i samme konsern. Fritaket gjelder også motorvogn som utfører rutetransport basert på kontrakt med varighet på ett år eller mer inngått med myndighet eller selskap som innehar slikt ruteløyve.</p>
-<p><em>Tilføyd ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005), endret ved forskrifter 16 des 2004 nr. 1706 (i kraft 1 jan 2005), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 (i kraft 1 jan 2016), 10 mai 2017 nr. 590 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005), endret ved forskrifter 16 des 2004 nr. 1706 (i kraft 1 jan 2005), 21 des 2007 nr. 1775 (i kraft 1 jan 2008), 15 des 2015 nr. 1639 (i kraft 1 jan 2016), 10 mai 2017 nr. 590 .</p>
 <h4 id="11-avgiftsrefusjon">§ 11. Avgiftsrefusjon</h4>
 <p>For kjøretøy som blir avregistrert og som står avregistrert ut terminen, kan betalt avgift for avregistreringsperioden refunderes etter søknad til skattekontoret.</p>
 <p>Avregistreringsperioden regnes i slike tilfeller i hele måneder fratrukket avregistreringsmåned fram til terminens avslutning.</p>
-<p><em>Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 10), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2003 nr. 1534 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 10), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</p>
 <h4 id="12-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 12. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</h4>
 <h4 id="13-opphevet-1-jan-2008-jfforskrift-21-des-2007-nr-1775">§ 13. (Opphevet 1 jan 2008, jf.forskrift 21 des 2007 nr. 1775.)</h4>
 <h4 id="14-ansvar-for-avgiften-ved-overdragelse-av-kjrety">§ 14. Ansvar for avgiften ved overdragelse av kjøretøy</h4>
 <p>Kjøretøy tillates ikke omregistrert før all skyldig avgift er betalt.</p>
-<p><em>Endret ved forskrifter 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 13), 21 des 2007 nr. 1775 (i kraft 1 jan 2008).</em></p>
+<p class="note">Endret ved forskrifter 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 13), 21 des 2007 nr. 1775 (i kraft 1 jan 2008).</p>
 <h4 id="15-opphevet">§ 15. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 14), 2 feb 2009 nr. 104 , 8 mars 2013 nr. 259 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016), opphevet ved forskrift 9 des 2016 nr. 1535 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 25 nov 2003 nr. 1394 (i kraft 1 jan 2004), 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 14), 2 feb 2009 nr. 104 , 8 mars 2013 nr. 259 , 15 des 2015 nr. 1639 (i kraft 1 jan 2016), opphevet ved forskrift 9 des 2016 nr. 1535 (i kraft 1 jan 2017).</p>
 <h4 id="16-opphevet">§ 16. (Opphevet)</h4>
-<p><em>Endret ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 15), opphevet ved forskrift 9 des 2016 nr. 1535 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 15), opphevet ved forskrift 9 des 2016 nr. 1535 (i kraft 1 jan 2017).</p>
 <h4 id="17-utfyllende-bestemmelser">§ 17. Utfyllende bestemmelser</h4>
 <p>Spørsmål om avgiftspliktens omfang forelegges Skattedirektoratet.</p>
 <p>Direktoratet kan gi forskrifter om presisering, utfylling og gjennomføring av denne forskrift, herunder beregning, tilbakebetaling og kontroll mv.</p>
-<p><em>Endret ved forskrifter 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 16), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 16), 15 des 2015 nr. 1639 (i kraft 1 jan 2016).</p>
 <h4 id="18-ikrafttreden-og-overgangsbestemmelser">§ 18. Ikrafttreden og overgangsbestemmelser</h4>
 <p>Forskriften gjelder fra 1. juli 2000.</p>
 <p>Fra samme tidspunkt oppheves forskrift 23. august 1993 nr. 823 om vektårsavgift.</p>
-<p><em>Endret ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 17).</em></p>
+<p class="note">Endret ved forskrift 10 des 2004 nr. 1601 (i kraft 1 jan 2005, tidligere § 17).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

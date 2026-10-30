@@ -19,64 +19,349 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-11-09-1088.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om kulturhistoriske eiendommer" href="../feeds/forskrift-2011-11-09-1088.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Forskrift om kulturhistoriske eiendommer</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2011-11-09-1088</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-11-09</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-10-23-2079</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2011-11-09-1088" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formalet-med-fredning">§ 1-1. Formålet med fredning</a></li>
+<li class="lvl4"><a href="#1-2-omfang">§ 1-2. Omfang</a></li>
+<li class="lvl4"><a href="#1-3-fredningsbestemmelser">§ 1-3. Fredningsbestemmelser</a></li>
+<li class="lvl4"><a href="#1-4-dispensasjon">§ 1-4. Dispensasjon</a></li>
+<li class="lvl4"><a href="#1-5-forvaltningsplan">§ 1-5. Forvaltningsplan</a></li>
+<li class="lvl4"><a href="#1-6-avhending">§ 1-6. Avhending</a></li>
+<li class="lvl4"><a href="#1-7-myndighet">§ 1-7. Myndighet</a></li>
+<li class="lvl4"><a href="#1-8-brudd-pa-bestemmelsene">§ 1-8. Brudd på bestemmelsene</a></li>
+<li class="lvl2"><a href="#kapittel-2-fredete-eiendommer-i-helse-og-omsorgsdepartementets-landsverneplan">Kapittel 2. Fredete eiendommer i Helse- og omsorgsdepartementets landsverneplan</a></li>
+<li class="lvl4"><a href="#2-1-omfang-og-vedlegg">§ 2-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#2-2-tiltak-i-fredet-utomhusomrade">§ 2-2. Tiltak i fredet utomhusområde</a></li>
+<li class="lvl4"><a href="#2-3-frist-for-forvaltningsplan">§ 2-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-3-fredning-av-nasjonalgalleriet-med-forhage">Kapittel 3. Fredning av Nasjonalgalleriet med forhage</a></li>
+<li class="lvl4"><a href="#3-1-omfang">§ 3-1. Omfang</a></li>
+<li class="lvl4"><a href="#3-2-formalet-med-fredningen">§ 3-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#3-3-srbestemmelser">§ 3-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-4-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-egne-eiendommer">Kapittel 4. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for egne eiendommer</a></li>
+<li class="lvl4"><a href="#4-1-omfang-og-vedlegg">§ 4-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#4-2-frist-for-forvaltningsplan">§ 4-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-5-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-bioforsk">Kapittel 5. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for Bioforsk</a></li>
+<li class="lvl4"><a href="#5-1-omfang-og-vedlegg">§ 5-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-forvaltningsplan">§ 5-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-6-fredete-eiendommer-i-entra-eiendoms-landsverneplan">Kapittel 6. Fredete eiendommer i Entra Eiendoms landsverneplan</a></li>
+<li class="lvl4"><a href="#6-1-omfang-og-vedlegg">§ 6-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#6-2-frist-for-forvaltningsplan">§ 6-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#6-3-tiltak-pa-fredet-bygning">§ 6-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-7-fredete-eiendommer-i-barne-likestillings-og-inkluderingsdepartementets-landsverneplan">Kapittel 7. Fredete eiendommer i Barne-, likestillings- og inkluderingsdepartementets landsverneplan</a></li>
+<li class="lvl4"><a href="#7-1-omfang-og-vedlegg">§ 7-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#7-2-frist-for-forvaltningsplaner">§ 7-2. Frist for forvaltningsplaner</a></li>
+<li class="lvl2"><a href="#kapittel-8-fredning-av-scenebygg-for-den-norske-opera-og-ballett-med-uteomrade">Kapittel 8. Fredning av scenebygg for Den Norske Opera og Ballett med uteområde</a></li>
+<li class="lvl4"><a href="#8-1-omfang">§ 8-1. Omfang</a></li>
+<li class="lvl4"><a href="#8-2-formalet-med-fredningen">§ 8-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#8-3-srbestemmelse">§ 8-3. Særbestemmelse</a></li>
+<li class="lvl4"><a href="#8-4-frist-for-forvaltningsplan">§ 8-4. Frist for forvaltningsplan</a></li>
+<li class="lvl3"><a href="#vedlegg-8">Vedlegg 8</a></li>
+<li class="lvl2"><a href="#kapittel-9-fredete-eiendommer-i-landsverneplan-for-kunnskapsdepartementet">Kapittel 9. Fredete eiendommer i landsverneplan for Kunnskapsdepartementet</a></li>
+<li class="lvl4"><a href="#9-1-omfang-og-vedlegg">§ 9-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#9-2-frist-for-forvaltningsplan">§ 9-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#9-3-tiltak-pa-fredet-bygning">§ 9-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-10-fredete-eiendommer-i-justissektorens-landsverneplan">Kapittel 10. Fredete eiendommer i justissektorens landsverneplan</a></li>
+<li class="lvl4"><a href="#10-1-omfang-og-vedlegg">§ 10-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#10-2-frist-for-forvaltningsplan">§ 10-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-11-fredning-av-eidsvollsbygningen-med-to-sidebygninger-og-hageanlegg">Kapittel 11. Fredning av Eidsvollsbygningen med to sidebygninger og hageanlegg</a></li>
+<li class="lvl4"><a href="#11-1-omfang">§ 11-1. Omfang</a></li>
+<li class="lvl4"><a href="#11-2-formalet-med-fredningen">§ 11-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#11-3-srbestemmelser">§ 11-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-12-fredete-eiendommer-i-landsverneplan-for-toll-og-avgiftsetaten">Kapittel 12. Fredete eiendommer i landsverneplan for Toll- og avgiftsetaten</a></li>
+<li class="lvl4"><a href="#12-1-omfang-og-vedlegg">§ 12-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#12-2-frist-for-forvaltningsplan">§ 12-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-13-fredning-av-historisk-museum-frederiks-gate-2-oslo">Kapittel 13. Fredning av Historisk museum, Frederiks gate 2, Oslo</a></li>
+<li class="lvl4"><a href="#13-1-omfang-og-vedlegg">§ 13-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#13-2-frist-for-forvaltningsplan">§ 13-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-14-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet">Kapittel 14. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet</a></li>
+<li class="lvl4"><a href="#14-1-omfang-og-vedlegg">§ 14-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#14-2-frist-for-forvaltningsplan">§ 14-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-15-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet-eiendommene-pa-rros">Kapittel 15. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet – eiendommene på Røros</a></li>
+<li class="lvl4"><a href="#15-1-omfang-og-vedlegg">§ 15-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#15-2-frist-for-forvaltningsplan">§ 15-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-16-baroniet-rosendal">Kapittel 16. Baroniet Rosendal</a></li>
+<li class="lvl4"><a href="#16-1-omfang-og-vedlegg">§ 16-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#16-2-frist-for-forvaltningsplan">§ 16-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#16-3-tiltak-pa-fredet-bygning">§ 16-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-17-fredning-av-norges-banks-tidligere-avdelingskontor-i-stavanger-domkirkeplassen-3-stavanger">Kapittel 17. Fredning av Norges Banks tidligere avdelingskontor i Stavanger, Domkirkeplassen 3, Stavanger</a></li>
+<li class="lvl4"><a href="#17-1-omfang-og-vedlegg">§ 17-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-18-norges-banks-tidligere-avdelingskontorer">Kapittel 18 – Norges Banks tidligere avdelingskontorer</a></li>
+<li class="lvl4"><a href="#18-1-omfang-og-vedlegg">§ 18-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-19-fredning-av-samtidskunstmuseet-bankplassen-4-oslo">Kapittel 19. Fredning av Samtidskunstmuseet, Bankplassen 4, Oslo</a></li>
+<li class="lvl4"><a href="#19-1-omfang-og-vedlegg">§ 19-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#19-2-frist-for-forvaltningsplan">§ 19-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-20-fredete-eiendommer-i-kystverkets-landsverneplan-for-maritim-infrastruktur">Kapittel 20. Fredete eiendommer i Kystverkets Landsverneplan for maritim infrastruktur</a></li>
+<li class="lvl4"><a href="#20-1-omfang-og-vedlegg">§ 20-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#20-2-frist-for-forvaltningsplan">§ 20-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-21-fredning-av-tidligere-rikstrygdeverket-drammensveien-60-og-observatorie-terrasse-17-oslo">Kapittel 21. Fredning av tidligere Rikstrygdeverket, Drammensveien 60 og Observatorie terrasse 17, Oslo</a></li>
+<li class="lvl4"><a href="#21-1-omfang-og-vedlegg">§ 21-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-22-fredete-eiendommer-i-landsverneplan-for-statskog">Kapittel 22. Fredete eiendommer i landsverneplan for Statskog</a></li>
+<li class="lvl4"><a href="#22-1-omfang-og-vedlegg">§ 22-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#22-2-frist-for-forvaltningsplan">§ 22-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-23-fredete-eiendommer-i-landsverneplan-for-kulturdepartementet">Kapittel 23. Fredete eiendommer i landsverneplan for Kulturdepartementet</a></li>
+<li class="lvl4"><a href="#23-1-omfang-og-vedlegg">§ 23-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#23-2-tiltak-i-fredet-bygning">§ 23-2. Tiltak i fredet bygning</a></li>
+<li class="lvl4"><a href="#23-3-frist-for-forvaltningsplan">§ 23-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-24-fredete-eiendommer-i-landsverneplan-for-statsbygg">Kapittel 24. Fredete eiendommer i landsverneplan for Statsbygg</a></li>
+<li class="lvl4"><a href="#24-1-omfang-og-vedlegg">§ 24-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#24-2-frist-for-forvaltningsplan">§ 24-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-25-trandumskogen-tanksskytebanen-og-seremoniplassen">Kapittel 25. Trandumskogen, tanksskytebanen og seremoniplassen</a></li>
+<li class="lvl4"><a href="#25-1-omfang-og-vedlegg">§ 25-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#25-2-frist-for-forvaltnings-og-skjtselplan">§ 25-2. Frist for forvaltnings- og skjøtselplan</a></li>
+<li class="lvl2"><a href="#kapittel-26-fredning-av-eiendommer-i-landsverneplan-for-statskraft">Kapittel 26. Fredning av eiendommer i Landsverneplan for Statskraft</a></li>
+<li class="lvl4"><a href="#26-1-omfang-og-vedlegg">§ 26-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#26-2-frist-for-forvaltningsplan">§ 26-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-27-fredning-av-master-i-glomfjord-kraftledning-fykanhaugvik">Kapittel 27. Fredning av Master i Glomfjord, kraftledning Fykan–Haugvik</a></li>
+<li class="lvl4"><a href="#27-1-omfang-og-vedlegg">§ 27-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#27-2-srskilte-tiltak">§ 27-2. Særskilte tiltak</a></li>
+<li class="lvl4"><a href="#27-3-frist-for-forvaltningsplan">§ 27-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-28-fredete-eiendommer-i-landsverneplan-for-statens-kartverk">Kapittel 28. Fredete eiendommer i landsverneplan for Statens kartverk</a></li>
+<li class="lvl4"><a href="#28-1-omfang-og-vedlegg">§ 28-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#28-2-frist-for-forvaltningsplan">§ 28-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-29-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-veganlegg">Kapittel 29. Fredete eiendommer i landsverneplan for Statens vegvesen – veganlegg</a></li>
+<li class="lvl4"><a href="#29-1-omfang-og-vedlegg">§ 29-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#29-2-frist-for-forvaltningsplan">§ 29-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#29-3-tiltak-pa-fredet-veg">§ 29-3. Tiltak på fredet veg</a></li>
+<li class="lvl2"><a href="#kapittel-30-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-bruer">Kapittel 30. Fredete eiendommer i landsverneplan for Statens vegvesen – bruer</a></li>
+<li class="lvl4"><a href="#30-1-omfang-og-vedlegg">§ 30-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#30-2-frist-for-forvaltningsplan">§ 30-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#30-3-tiltak-pa-fredet-bru">§ 30-3. Tiltak på fredet bru</a></li>
+<li class="lvl2"><a href="#kapittel-31-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-byggverk">Kapittel 31. Fredete eiendommer i landsverneplan for Statens vegvesen – byggverk</a></li>
+<li class="lvl4"><a href="#31-1-omfang-og-vedlegg">§ 31-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#31-2-frist-for-forvaltningsplan">§ 31-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-32-victoria-terrasse-oslo">Kapittel 32. Victoria terrasse, Oslo</a></li>
+<li class="lvl4"><a href="#32-1-omfang-og-vedlegg">§ 32-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#32-2-frist-for-forvaltningsplan">§ 32-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#32-3-srbestemmelser">§ 32-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-33-sinsenveien-76-oslo">Kapittel 33. Sinsenveien 76, Oslo</a></li>
+<li class="lvl4"><a href="#33-1-omfang-og-vedlegg">§ 33-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#33-2-frist-for-forvaltningsplan">§ 33-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#33-3-tiltak-pa-bygninger">§ 33-3. Tiltak på bygninger</a></li>
+<li class="lvl4"><a href="#33-4-tiltak-i-utomhusanlegg">§ 33-4. Tiltak i utomhusanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-x-ikraftsetting">Kapittel X. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#x-1-ikraftsetting">§ x-1. Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-10-23-2079.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-11-09-1088.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fredning av statens kulturhistoriske eiendommer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-11-09-1088.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2011-11-09-1088 <code>forskrift/2011-11-09-1088</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om kulturhistoriske eiendommer</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>09.11.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-10-23-2079 <code>forskrift/2025-10-23-2079</code> fra 23.10.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2011-11-09-1088" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formalet-med-fredning">§ 1-1. Formålet med fredning</a></li>
+<li class="lvl4"><a href="#1-2-omfang">§ 1-2. Omfang</a></li>
+<li class="lvl4"><a href="#1-3-fredningsbestemmelser">§ 1-3. Fredningsbestemmelser</a></li>
+<li class="lvl4"><a href="#1-4-dispensasjon">§ 1-4. Dispensasjon</a></li>
+<li class="lvl4"><a href="#1-5-forvaltningsplan">§ 1-5. Forvaltningsplan</a></li>
+<li class="lvl4"><a href="#1-6-avhending">§ 1-6. Avhending</a></li>
+<li class="lvl4"><a href="#1-7-myndighet">§ 1-7. Myndighet</a></li>
+<li class="lvl4"><a href="#1-8-brudd-pa-bestemmelsene">§ 1-8. Brudd på bestemmelsene</a></li>
+<li class="lvl2"><a href="#kapittel-2-fredete-eiendommer-i-helse-og-omsorgsdepartementets-landsverneplan">Kapittel 2. Fredete eiendommer i Helse- og omsorgsdepartementets landsverneplan</a></li>
+<li class="lvl4"><a href="#2-1-omfang-og-vedlegg">§ 2-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#2-2-tiltak-i-fredet-utomhusomrade">§ 2-2. Tiltak i fredet utomhusområde</a></li>
+<li class="lvl4"><a href="#2-3-frist-for-forvaltningsplan">§ 2-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-3-fredning-av-nasjonalgalleriet-med-forhage">Kapittel 3. Fredning av Nasjonalgalleriet med forhage</a></li>
+<li class="lvl4"><a href="#3-1-omfang">§ 3-1. Omfang</a></li>
+<li class="lvl4"><a href="#3-2-formalet-med-fredningen">§ 3-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#3-3-srbestemmelser">§ 3-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-4-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-egne-eiendommer">Kapittel 4. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for egne eiendommer</a></li>
+<li class="lvl4"><a href="#4-1-omfang-og-vedlegg">§ 4-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#4-2-frist-for-forvaltningsplan">§ 4-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-5-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-bioforsk">Kapittel 5. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for Bioforsk</a></li>
+<li class="lvl4"><a href="#5-1-omfang-og-vedlegg">§ 5-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#5-2-frist-for-forvaltningsplan">§ 5-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-6-fredete-eiendommer-i-entra-eiendoms-landsverneplan">Kapittel 6. Fredete eiendommer i Entra Eiendoms landsverneplan</a></li>
+<li class="lvl4"><a href="#6-1-omfang-og-vedlegg">§ 6-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#6-2-frist-for-forvaltningsplan">§ 6-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#6-3-tiltak-pa-fredet-bygning">§ 6-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-7-fredete-eiendommer-i-barne-likestillings-og-inkluderingsdepartementets-landsverneplan">Kapittel 7. Fredete eiendommer i Barne-, likestillings- og inkluderingsdepartementets landsverneplan</a></li>
+<li class="lvl4"><a href="#7-1-omfang-og-vedlegg">§ 7-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#7-2-frist-for-forvaltningsplaner">§ 7-2. Frist for forvaltningsplaner</a></li>
+<li class="lvl2"><a href="#kapittel-8-fredning-av-scenebygg-for-den-norske-opera-og-ballett-med-uteomrade">Kapittel 8. Fredning av scenebygg for Den Norske Opera og Ballett med uteområde</a></li>
+<li class="lvl4"><a href="#8-1-omfang">§ 8-1. Omfang</a></li>
+<li class="lvl4"><a href="#8-2-formalet-med-fredningen">§ 8-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#8-3-srbestemmelse">§ 8-3. Særbestemmelse</a></li>
+<li class="lvl4"><a href="#8-4-frist-for-forvaltningsplan">§ 8-4. Frist for forvaltningsplan</a></li>
+<li class="lvl3"><a href="#vedlegg-8">Vedlegg 8</a></li>
+<li class="lvl2"><a href="#kapittel-9-fredete-eiendommer-i-landsverneplan-for-kunnskapsdepartementet">Kapittel 9. Fredete eiendommer i landsverneplan for Kunnskapsdepartementet</a></li>
+<li class="lvl4"><a href="#9-1-omfang-og-vedlegg">§ 9-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#9-2-frist-for-forvaltningsplan">§ 9-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#9-3-tiltak-pa-fredet-bygning">§ 9-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-10-fredete-eiendommer-i-justissektorens-landsverneplan">Kapittel 10. Fredete eiendommer i justissektorens landsverneplan</a></li>
+<li class="lvl4"><a href="#10-1-omfang-og-vedlegg">§ 10-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#10-2-frist-for-forvaltningsplan">§ 10-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-11-fredning-av-eidsvollsbygningen-med-to-sidebygninger-og-hageanlegg">Kapittel 11. Fredning av Eidsvollsbygningen med to sidebygninger og hageanlegg</a></li>
+<li class="lvl4"><a href="#11-1-omfang">§ 11-1. Omfang</a></li>
+<li class="lvl4"><a href="#11-2-formalet-med-fredningen">§ 11-2. Formålet med fredningen</a></li>
+<li class="lvl4"><a href="#11-3-srbestemmelser">§ 11-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-12-fredete-eiendommer-i-landsverneplan-for-toll-og-avgiftsetaten">Kapittel 12. Fredete eiendommer i landsverneplan for Toll- og avgiftsetaten</a></li>
+<li class="lvl4"><a href="#12-1-omfang-og-vedlegg">§ 12-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#12-2-frist-for-forvaltningsplan">§ 12-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-13-fredning-av-historisk-museum-frederiks-gate-2-oslo">Kapittel 13. Fredning av Historisk museum, Frederiks gate 2, Oslo</a></li>
+<li class="lvl4"><a href="#13-1-omfang-og-vedlegg">§ 13-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#13-2-frist-for-forvaltningsplan">§ 13-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-14-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet">Kapittel 14. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet</a></li>
+<li class="lvl4"><a href="#14-1-omfang-og-vedlegg">§ 14-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#14-2-frist-for-forvaltningsplan">§ 14-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-15-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet-eiendommene-pa-rros">Kapittel 15. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet – eiendommene på Røros</a></li>
+<li class="lvl4"><a href="#15-1-omfang-og-vedlegg">§ 15-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#15-2-frist-for-forvaltningsplan">§ 15-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-16-baroniet-rosendal">Kapittel 16. Baroniet Rosendal</a></li>
+<li class="lvl4"><a href="#16-1-omfang-og-vedlegg">§ 16-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#16-2-frist-for-forvaltningsplan">§ 16-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#16-3-tiltak-pa-fredet-bygning">§ 16-3. Tiltak på fredet bygning</a></li>
+<li class="lvl2"><a href="#kapittel-17-fredning-av-norges-banks-tidligere-avdelingskontor-i-stavanger-domkirkeplassen-3-stavanger">Kapittel 17. Fredning av Norges Banks tidligere avdelingskontor i Stavanger, Domkirkeplassen 3, Stavanger</a></li>
+<li class="lvl4"><a href="#17-1-omfang-og-vedlegg">§ 17-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-18-norges-banks-tidligere-avdelingskontorer">Kapittel 18 – Norges Banks tidligere avdelingskontorer</a></li>
+<li class="lvl4"><a href="#18-1-omfang-og-vedlegg">§ 18-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-19-fredning-av-samtidskunstmuseet-bankplassen-4-oslo">Kapittel 19. Fredning av Samtidskunstmuseet, Bankplassen 4, Oslo</a></li>
+<li class="lvl4"><a href="#19-1-omfang-og-vedlegg">§ 19-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#19-2-frist-for-forvaltningsplan">§ 19-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-20-fredete-eiendommer-i-kystverkets-landsverneplan-for-maritim-infrastruktur">Kapittel 20. Fredete eiendommer i Kystverkets Landsverneplan for maritim infrastruktur</a></li>
+<li class="lvl4"><a href="#20-1-omfang-og-vedlegg">§ 20-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#20-2-frist-for-forvaltningsplan">§ 20-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-21-fredning-av-tidligere-rikstrygdeverket-drammensveien-60-og-observatorie-terrasse-17-oslo">Kapittel 21. Fredning av tidligere Rikstrygdeverket, Drammensveien 60 og Observatorie terrasse 17, Oslo</a></li>
+<li class="lvl4"><a href="#21-1-omfang-og-vedlegg">§ 21-1. Omfang og vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-22-fredete-eiendommer-i-landsverneplan-for-statskog">Kapittel 22. Fredete eiendommer i landsverneplan for Statskog</a></li>
+<li class="lvl4"><a href="#22-1-omfang-og-vedlegg">§ 22-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#22-2-frist-for-forvaltningsplan">§ 22-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-23-fredete-eiendommer-i-landsverneplan-for-kulturdepartementet">Kapittel 23. Fredete eiendommer i landsverneplan for Kulturdepartementet</a></li>
+<li class="lvl4"><a href="#23-1-omfang-og-vedlegg">§ 23-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#23-2-tiltak-i-fredet-bygning">§ 23-2. Tiltak i fredet bygning</a></li>
+<li class="lvl4"><a href="#23-3-frist-for-forvaltningsplan">§ 23-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-24-fredete-eiendommer-i-landsverneplan-for-statsbygg">Kapittel 24. Fredete eiendommer i landsverneplan for Statsbygg</a></li>
+<li class="lvl4"><a href="#24-1-omfang-og-vedlegg">§ 24-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#24-2-frist-for-forvaltningsplan">§ 24-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-25-trandumskogen-tanksskytebanen-og-seremoniplassen">Kapittel 25. Trandumskogen, tanksskytebanen og seremoniplassen</a></li>
+<li class="lvl4"><a href="#25-1-omfang-og-vedlegg">§ 25-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#25-2-frist-for-forvaltnings-og-skjtselplan">§ 25-2. Frist for forvaltnings- og skjøtselplan</a></li>
+<li class="lvl2"><a href="#kapittel-26-fredning-av-eiendommer-i-landsverneplan-for-statskraft">Kapittel 26. Fredning av eiendommer i Landsverneplan for Statskraft</a></li>
+<li class="lvl4"><a href="#26-1-omfang-og-vedlegg">§ 26-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#26-2-frist-for-forvaltningsplan">§ 26-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-27-fredning-av-master-i-glomfjord-kraftledning-fykanhaugvik">Kapittel 27. Fredning av Master i Glomfjord, kraftledning Fykan–Haugvik</a></li>
+<li class="lvl4"><a href="#27-1-omfang-og-vedlegg">§ 27-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#27-2-srskilte-tiltak">§ 27-2. Særskilte tiltak</a></li>
+<li class="lvl4"><a href="#27-3-frist-for-forvaltningsplan">§ 27-3. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-28-fredete-eiendommer-i-landsverneplan-for-statens-kartverk">Kapittel 28. Fredete eiendommer i landsverneplan for Statens kartverk</a></li>
+<li class="lvl4"><a href="#28-1-omfang-og-vedlegg">§ 28-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#28-2-frist-for-forvaltningsplan">§ 28-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-29-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-veganlegg">Kapittel 29. Fredete eiendommer i landsverneplan for Statens vegvesen – veganlegg</a></li>
+<li class="lvl4"><a href="#29-1-omfang-og-vedlegg">§ 29-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#29-2-frist-for-forvaltningsplan">§ 29-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#29-3-tiltak-pa-fredet-veg">§ 29-3. Tiltak på fredet veg</a></li>
+<li class="lvl2"><a href="#kapittel-30-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-bruer">Kapittel 30. Fredete eiendommer i landsverneplan for Statens vegvesen – bruer</a></li>
+<li class="lvl4"><a href="#30-1-omfang-og-vedlegg">§ 30-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#30-2-frist-for-forvaltningsplan">§ 30-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#30-3-tiltak-pa-fredet-bru">§ 30-3. Tiltak på fredet bru</a></li>
+<li class="lvl2"><a href="#kapittel-31-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-byggverk">Kapittel 31. Fredete eiendommer i landsverneplan for Statens vegvesen – byggverk</a></li>
+<li class="lvl4"><a href="#31-1-omfang-og-vedlegg">§ 31-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#31-2-frist-for-forvaltningsplan">§ 31-2. Frist for forvaltningsplan</a></li>
+<li class="lvl2"><a href="#kapittel-32-victoria-terrasse-oslo">Kapittel 32. Victoria terrasse, Oslo</a></li>
+<li class="lvl4"><a href="#32-1-omfang-og-vedlegg">§ 32-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#32-2-frist-for-forvaltningsplan">§ 32-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#32-3-srbestemmelser">§ 32-3. Særbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-33-sinsenveien-76-oslo">Kapittel 33. Sinsenveien 76, Oslo</a></li>
+<li class="lvl4"><a href="#33-1-omfang-og-vedlegg">§ 33-1. Omfang og vedlegg</a></li>
+<li class="lvl4"><a href="#33-2-frist-for-forvaltningsplan">§ 33-2. Frist for forvaltningsplan</a></li>
+<li class="lvl4"><a href="#33-3-tiltak-pa-bygninger">§ 33-3. Tiltak på bygninger</a></li>
+<li class="lvl4"><a href="#33-4-tiltak-i-utomhusanlegg">§ 33-4. Tiltak i utomhusanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-x-ikraftsetting">Kapittel X. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#x-1-ikraftsetting">§ x-1. Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-11-09-1088.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-11-09-1088.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-11-09-1088.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2011-11-09-1088.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2011-11-09-1088.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-11-09-1088.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2011-11-09-1088.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2011-11-09-1088.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-11-09-1088.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fredning-av-statens-kulturhistoriske-eiendommer">Forskrift om fredning av statens kulturhistoriske eiendommer</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-formalet-med-fredning">§ 1-1. Formålet med fredning</h4>
 <p>Fredning etter forskriften har som formål å sikre og bevare et representativt utvalg kulturminner i form av byggverk og anlegg knyttet til statens virksomhet. Fredningen skal bidra til å</p>
@@ -116,7 +401,7 @@ e. andre tiltak som skal beskytte kulturminnet.</p>
 <p>Eier er ansvarlig for at Riksantikvaren i god tid før overdragelsen underrettes om denne.</p>
 <h4 id="1-7-myndighet">§ 1-7. Myndighet <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forvaltningsmyndigheten etter denne forskriften, med unntak av bygninger og anlegg som er oppført på Riksantikvarens liste, er regional kulturminnemyndighet. For listeførte bygninger og anlegg er forvaltningsmyndigheten lagt til Riksantikvaren.</p>
-<p><em>Endret ved forskrift 29 april 2020 nr. 892</em></p>
+<p class="note">Endret ved forskrift 29 april 2020 nr. 892</p>
 <h4 id="1-8-brudd-pa-bestemmelsene">§ 1-8. Brudd på bestemmelsene</h4>
 <p>Overtredelse av § 1-3 for fredete byggverk og anlegg etter kapittel 2 flg. straffes etter kulturminneloven § 27 .</p>
 <p>For nærmere informasjon om de fredete byggverkene og anleggene vises det til landsverneplanene og vedtaksbrevet av 9. november 2011 som er tilgjengelig på Riksantikvarens hjemmeside: http://www.riksantikvaren.no. Landsverneplanene er ikke en del av forskriften.</p>
@@ -124,70 +409,70 @@ e. andre tiltak som skal beskytte kulturminnet.</p>
 <p>Tilføyd ved forskrift 16 feb 2012 nr. 153 .</p>
 <h4 id="2-1-omfang-og-vedlegg">§ 2-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Halden sykehus gnr./bnr. 66/811 Halden kommune Vedlegg 1 Kolstad gnr./bnr. 2057/4 Sarpsborg kommune Vedlegg 2 SSE Nevroklinikken Sandvika gnr./bnr. 5/1 Bærum kommune Vedlegg 3 Bjerketun gnr./bnr. 59/10 Bærum kommune Vedlegg 4 Bærum sykehus gnr./bnr. 84/241 Bærum kommune Vedlegg 5 Dikemark sykehus gnr./bnr. 89/1 Asker kommune Vedlegg 6 Nedre Vardåsen gnr./bnr. 89/1 Asker kommune Vedlegg 7 Diakonhjemmet avd. Vindern psykiatriske klinikk gnr./bnr. 42/130 Oslo kommune Vedlegg 8 Ullvin, Sognsveien 9A gnr./bnr. 47/342 Oslo kommune Vedlegg 9 Hausmannsgate 11 gnr./bnr. 208/934 Oslo kommune Vedlegg 10 Aker sykehus gnr./bnr. 85/265, 85/280, 85/281, 85/282 Oslo kommune Vedlegg 11 Gaustad sykehus gnr./bnr. 42/175, 42/176, 42/179, 42/181, 42/185, 42/188, 42/189, 42/190 Oslo kommune Vedlegg 12 SSBU Statens senter for barne- og ungdomspsykiatri gnr./bnr. 42/132 Oslo kommune Vedlegg 13 Josefinesgate 30 gnr./bnr. 214/176 Oslo kommune Vedlegg 14 Geitmyrsveien 67 gnr./bnr. 220/44 Oslo kommune Vedlegg 15 Ullevål sykehus gnr./bnr. 47/330, 47/349, 47/350, 47/351, 47/352, 47/354, 47/355 Oslo kommune Vedlegg 16 Folkehelseinstituttet, Oslo gnr./bnr. 220/49 Oslo kommune Vedlegg 17 Fysikalsk medisin og rehabilitering Ottestad gnr./bnr. 6/3 Stange kommune Vedlegg 18 Elverum – Heimen gnr./bnr. 30/102 Elverum kommune Vedlegg 19 Habiliteringsavdelingen, Valbrottveien gnr./bnr. 116/637 Drammen kommune Vedlegg 20 Hovedkompleks somatikk – Drammen gnr./bnr. 114/1500 Drammen kommune Vedlegg 21 Kongsberg sykehus gnr./bnr. 8443/8 Kongsberg kommune Vedlegg 22 SiV – Sykehuset i Vestfold – Tønsberg gnr./bnr. 1009/202 Tønsberg kommune Vedlegg 23 SiV – Sykehuset i Vestfold – Kysthospitalet i Stavern gnr./bnr. 4040/5 Larvik kommune Vedlegg 24 Faret gnr./bnr. 217/31, 217/73, 218/1 Skien kommune Vedlegg 25 SSHF – Sørlandet sykehus avd. Arendal (SSA) gnr./bnr. 503/8, 503/10, 503/66, 503/84, 503/110, 503/209, 503/210, 503/222, 503/237 Arendal kommune Vedlegg 26 SSHF – Sørlandet sykehus avd. Kristiansand (SSK) gnr./bnr. 150/1768 Kristiansand kommune Vedlegg 27 Haukeland universitetssjukehus gnr./bnr. 162/913 Bergen kommune Vedlegg 28 Stord sjukehus gnr./bnr. 27/86, 27/506, 27/526, 27/586, 27/588 Stord kommune Vedlegg 29 Valen sjukehus gnr./bnr. 185/182, 185/185 Kvinnherad kommune Vedlegg 30 Jonatunet gnr./bnr. 31/13 Ullensvang kommune Vedlegg 31 Askviknes Voksenpsykiatrisk Senter gnr./bnr. 24/6 Bjørnafjorden kommune Vedlegg 32 Kysthospitalet i Hagevik (KiH) gnr./bnr. 33/138 Bjørnafjorden kommune Vedlegg 33 Psykiatrisk klinikk avd. Tronvik gnr./bnr. 48/23 Høyanger kommune Vedlegg 34 Førde sentralsjukehus (FSS) gnr./bnr. 43/85 Sunnfjord kommune Vedlegg 35 St. Olavs Hospital gnr./bnr. 404/333 Trondheim kommune Vedlegg 36 St. Olavs Hospital psykisk helsevern avd. Brøset gnr./bnr. 51/3, 51/7 Trondheim kommune Vedlegg 37 St. Olavs Hospital psykisk helsevern avd. Østmarka gnr./bnr. 413/122, 413/124 Trondheim kommune Vedlegg 38 Nordlandssykehuset Rønvik gnr./bnr. 38/659, 38/697, 38/286, 38/287 Bodø kommune Vedlegg 39 Helgelandssykehuset Sandnessjøen gnr./bnr. 37/1072 Alstahaug kommune Vedlegg 40 Universitetssykehuset Nord-Norge Åsgård gnr./bnr. 118/1561 Tromsø kommune Vedlegg 41 Helse Finnmark Kirkenes gnr./bnr. 27/9, gnr./bnr./fnr. 27/9/16 Sør-Varanger kommune Vedlegg 42</p>
-<p><em>Tilføyd ved forskrift 16 feb 2012 nr. 153 , endret ved forskrifter 15 feb 2013 nr. 210 , 3 mars 2017 nr. 295 , 18 feb 2020 nr. 847 , 8 mars 2022 nr. 341 , 20 sep 2022 nr. 1601 , 1 mars 2023 nr. 284 , 1 sep 2023 nr. 2526 .</em></p>
+<p class="note">Tilføyd ved forskrift 16 feb 2012 nr. 153 , endret ved forskrifter 15 feb 2013 nr. 210 , 3 mars 2017 nr. 295 , 18 feb 2020 nr. 847 , 8 mars 2022 nr. 341 , 20 sep 2022 nr. 1601 , 1 mars 2023 nr. 284 , 1 sep 2023 nr. 2526 .</p>
 <h4 id="2-2-tiltak-i-fredet-utomhusomrade">§ 2-2. Tiltak i fredet utomhusområde</h4>
 <p>For følgende eiendommer kan det tillates oppført mindre frittliggende bygninger innenfor fredet utomhusområde:</p>
 <p>a. Dikemark sykehus, gnr./bnr. 89/1, Asker kommune
 b. SSBU Statens senter for barne- og ungdomspsykiatri, gnr./bnr. 42/132, Oslo kommune.</p>
 <p>Ny bebyggelse skal tilpasses i utforming og volum til eksisterende bebyggelse på eiendommen. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten jf § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 16 feb 2012 nr. 153 .</em></p>
+<p class="note">Tilføyd ved forskrift 16 feb 2012 nr. 153 .</p>
 <h4 id="2-3-frist-for-forvaltningsplan">§ 2-3. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2013.</p>
-<p><em>Tilføyd ved forskrift 16 feb 2012 nr. 153 .</em></p>
+<p class="note">Tilføyd ved forskrift 16 feb 2012 nr. 153 .</p>
 <h2 id="kapittel-3-fredning-av-nasjonalgalleriet-med-forhage">Kapittel 3. Fredning av Nasjonalgalleriet med forhage</h2>
 <p>Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</p>
 <h4 id="3-1-omfang">§ 3-1. Omfang</h4>
 <p>Fredningen omfatter følgende eiendom: Nasjonalgalleriet med forhage mot Universitetsgaten, Universitetsgaten 13, gnr. 209, bnr. 394, Oslo kommune.</p>
 <p>Fredningen omfatter bygningens eksteriør og interiør. Fredet interiør omfatter innvendig hovedstruktur (rominndeling) og eldre arkitektoniske detaljer (dører, vinduer, listverk, overflater, dekor etc.). Underetasjens interiør er ikke omfattet av fredningen. Representative rom har særskilte bestemmelser, jf. § 3-3 pkt. 2 og plantegninger med merking.   Fredningsomfang, interiør, 1. etasje; Hele etasjen fredet. Rom uten gråtone (representative rom) har særlige bestemmelser, jf. § 3-3 pkt. 2.  Fredningsomfang, interiør, 2. etasje; Hele etasjen fredet, rom uten gråtone (representative rom) har særlige bestemmelser, jf. § 3-3 pkt 2. Fredningsomfang, interiør, 3. etasje; Hele etasjen fredet.</p>
-<p><em>Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</p>
 <h4 id="3-2-formalet-med-fredningen">§ 3-2. Formålet med fredningen</h4>
 <p>Formålet med å bevare Nasjonalgalleriet er både kulturhistorisk og arkitekturhistorisk begrunnet. Fredningen skal sikre et sentralt verk av to av våre fremste arkitekter fra andre del av 1800-tallet, Heinrich Ernst Schirmer (1814–1887) og Adolf Schirmer (1850–1930). Syd- og nordfløyen ble oppført senere med Ingvar Hjorth (1862–1927) som arkitekt, men etter forelegg av Adolf Schirmer. Bygningen er også et sentralt verk innen nyrenessansen i Norge, samt et sentralt norsk museum knyttet til forskning og formidling av billedkunst. Nasjonalgalleriet må også ses som ledd i utviklingen og konsolideringen av nasjonalstaten. Nasjonalgalleriets midtre del ble bygget i 1880–81, sydfløyen ble ferdigstilt i 1907 og nordfløyen stod ferdig i 1924.</p>
 <p>Fredningen av bygningens eksteriør skal sikre bygningens opprinnelige arkitektur. Både hovedstrukturen i det arkitektoniske uttrykket og detaljering som fasadeløsning, eldre dører og vinduer, materialbruk, overflater og dekor skal opprettholdes.</p>
 <p>Formålet med fredningen av bygningens interiør er å bevare rominndeling, bygningsdeler og overflater i de deler av interiøret som er opprinnelig fra byggeåret eller ombygget på en helhetlig måte som tjener den opprinnelige arkitekturen.</p>
 <p>Formålet med å frede forhagen er å sikre denne som en integrert del av et helhetlig anlegg, planlagt i sammenheng.</p>
-<p><em>Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</p>
 <h4 id="3-3-srbestemmelser">§ 3-3. Særbestemmelser</h4>
 <p>For Nasjonalgalleriet med forhage gjelder følgende særbestemmelser:</p>
 <ul>
 <li>Romstruktur i utstillingsrommene kan endres ved tilføyelser og endringer i overflate. Disse rommene er farget grå i plantegningene. Det vises her til formålet for fredningen.</li>
 <li>Tekniske oppgraderinger kan gjennomføres etter dispensasjon fra kulturminnemyndigheten jf. § 1-7 .</li>
 </ul>
-<p><em>Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2012 nr. 1453 .</p>
 <h2 id="kapittel-4-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-egne-eiendommer">Kapittel 4. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for egne eiendommer</h2>
 <p>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h4 id="4-1-omfang-og-vedlegg">§ 4-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Sikkilsdalen Hesteavlsseter gnr./bnr. 216/2 Nord-Fron kommune Vedlegg 1 Staur Gård gnr./bnr. 75/1 Stange kommune Vedlegg 2 Veterinærinstituttet gnr./bnr. 220/87 Oslo kommune Vedlegg 3</p>
-<p><em>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h4 id="4-2-frist-for-forvaltningsplan">§ 4-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2013.</p>
-<p><em>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h2 id="kapittel-5-fredete-eiendommer-i-landbruks-og-matdepartementets-landsverneplan-for-bioforsk">Kapittel 5. Fredete eiendommer i Landbruks- og matdepartementets landsverneplan for Bioforsk</h2>
 <p>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h4 id="5-1-omfang-og-vedlegg">§ 5-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Bioforsk Øst, Løken gnr./bnr. 34/1, 53/1 Øystre Slidre kommune Vedlegg 1 Bioforsk Nord, Tjøtta gnr./bnr. 84/1 Alstahaug kommune Vedlegg 2 Bioforsk Jord og Miljø, Svanhovd gnr./bnr. 20/71, 19/1 Sør-Varanger kommune Vedlegg 3</p>
-<p><em>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h4 id="5-2-frist-for-forvaltningsplan">§ 5-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2014.</p>
-<p><em>Tilføyd ved forskrift 15 feb 2013 nr. 210 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 feb 2013 nr. 210 .</p>
 <h2 id="kapittel-6-fredete-eiendommer-i-entra-eiendoms-landsverneplan">Kapittel 6. Fredete eiendommer i Entra Eiendoms landsverneplan</h2>
 <p>Tilføyd ved forskrift 25 juni 2013 nr. 764 .</p>
 <h4 id="6-1-omfang-og-vedlegg">§ 6-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Jeløgata 2 gnr./bnr. 2/1250 Moss kommune Vedlegg 1 Tollbodbrygga 2 gnr./bnr. 300/1290 Fredrikstad kommune Vedlegg 2 Kjørbo gård gnr./bnr. 52/80, 152, 153, 157, 158 Bærum kommune Vedlegg 3 Cort Adelers gate 30 gnr./bnr. 209/21 Oslo kommune Vedlegg 4 Henrik Ibsens gate 110 gnr./bnr. 211/47 Oslo kommune Vedlegg 5 Kristian Augusts gate 21 gnr./bnr. 209/164 Oslo kommune Vedlegg 6 Schweigaards gate 15 gnr./bnr. 234/20 Oslo kommune Vedlegg 7 Tollbugata 1 A gnr./bnr. 207/242 Oslo kommune Vedlegg 8 Wergelandsveien 29 gnr./bnr. 209/428 Oslo kommune Vedlegg 9 Hans Kiærs gate 1 B–C gnr./bnr. 111/247 Drammen kommune Vedlegg 10 Storgata 19 A gnr./bnr. 3020/1985 Larvik kommune Vedlegg 11 Storgata 162 gnr./bnr. 200/2563 Porsgrunn kommune Vedlegg 12 Langbrygga 1 gnr./bnr. 300/2526 Skien kommune Vedlegg 13 Gamle Kragerøvei 9 gnr./bnr. 32/267 Kragerø kommune Vedlegg 14 Vestre Strandgate 21 gnr./bnr. 150/1484, 1486 Kristiansand kommune Vedlegg 15 Skansegaten 2 gnr./bnr. 55/1215 Stavanger kommune Vedlegg 16 Kalfarveien 31 gnr./bnr. 166/1121 Bergen kommune Vedlegg 17 Strømgaten 1 gnr./bnr. 166/950 Bergen kommune Vedlegg 18 Tollbodallmenningen 2 A gnr./bnr. 165/454 Bergen kommune Vedlegg 19 Brattørkaia 13 B gnr./bnr. 439/18 Trondheim kommune Vedlegg 20 Erling Skakkes gate 60/Kongens gate 85 gnr./bnr. 403/227, 289 Trondheim kommune Vedlegg 21</p>
-<p><em>Tilføyd ved forskrift 25 juni 2013 nr. 764 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 juni 2013 nr. 764 .</p>
 <h4 id="6-2-frist-for-forvaltningsplan">§ 6-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen 1. juli 2015.</p>
-<p><em>Tilføyd ved forskrift 25 juni 2013 nr. 764 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 juni 2013 nr. 764 .</p>
 <h4 id="6-3-tiltak-pa-fredet-bygning">§ 6-3. Tiltak på fredet bygning</h4>
 <p>For Kristian Augusts gate 21, gnr./bnr. 209/164, Oslo kommune, kan det tillates sammenkobling med en eventuell ny bygning på den fredete bygningens fasade mot nordøst (mot bakgård).</p>
-<p><em>Tilføyd ved forskrift 25 juni 2013 nr. 764 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 juni 2013 nr. 764 .</p>
 <h2 id="kapittel-7-fredete-eiendommer-i-barne-likestillings-og-inkluderingsdepartementets-landsverneplan">Kapittel 7. Fredete eiendommer i Barne-, likestillings- og inkluderingsdepartementets landsverneplan</h2>
 <p>Tilføyd ved forskrift 19 juni 2013 nr. 1008 .</p>
 <h4 id="7-1-omfang-og-vedlegg">§ 7-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Vien-senteret gnr./bnr. 4/4 Hamar kommune Vedlegg 1 Iras hus gnr./bnr. 58/45 Tønsberg kommune Vedlegg 2 Munk &amp; Klem gnr./bnr. 223/338 Skien kommune Vedlegg 3 Eikhaugen/Nyli gnr./bnr. 507/2303 Arendal kommune Vedlegg 4 Villa Rød gnr./bnr. 56/1558 Stavanger kommune Vedlegg 5 Bergen barn- og foreldresenter avd. Bønes gnr./bnr. 20/823 Bergen kommune Vedlegg 6 Helgeland ungdomssenter gnr./bnr. 8/124 Alstahaug kommune Vedlegg 7 Røvika ungdomssenter Gnr./bnr. 44/8 Fauske kommune Vedlegg 8</p>
-<p><em>Tilføyd ved forskrift 19 juni 2013 nr. 1008 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2013 nr. 1008 .</p>
 <h4 id="7-2-frist-for-forvaltningsplaner">§ 7-2. Frist for forvaltningsplaner</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2016.</p>
-<p><em>Tilføyd ved forskrift 19 juni 2013 nr. 1008 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2013 nr. 1008 .</p>
 <h2 id="kapittel-8-fredning-av-scenebygg-for-den-norske-opera-og-ballett-med-uteomrade">Kapittel 8. Fredning av scenebygg for Den Norske Opera og Ballett med uteområde</h2>
 <p>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
 <h4 id="8-1-omfang">§ 8-1. Omfang</h4>
@@ -218,17 +503,17 @@ b. 3. balkong hovedscene.</p>
 <p>Fredningen av interiøret omfatter også lysekrone og lydhimling i hovedscenens sal samt hovedkonstruksjon og fargesetting i loft over.</p>
 <p>Fredningen av uteareal omfatter plassrom, del av gangbro, del av kanal og del av kanalfront med brygge inkludert materialbruk, overflatebehandling og detaljering som del av det helhetlig utformete anlegget. Øvrig areal innenfor tomtegrensen i nord, øst og sør inngår i fredningen.</p>
 <p>Fredningen omfatter ikke lysgården og lysgårdens fasader i operabyggets østre del.</p>
-<p><em>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
 <h4 id="8-2-formalet-med-fredningen">§ 8-2. Formålet med fredningen</h4>
 <p>Fredningen skal ivareta bygningens arkitektoniske utforming og kulturhistoriske verdi som monumentalt formet offentlig kulturbygg fra første del av 21. århundre. Formålet er å sikre det helhetlige anleggets arkitektur med materialbruk og detaljer, og hindre svekkelse av det arkitektoniske uttrykket i eksteriør og fredete deler av interiøret. Den visuelle og funksjonelle sammenheng mellom operaanlegget som helhet og de enkelte elementene i anlegget skal opprettholdes. Fredningen av uteareal skal ivareta plassrom, gangbro, kanalfront og brygge som del av det helhetlige anlegget. Fredning av øvrig areal innenfor tomtegrense skal ivareta opplevelse og virkning av arkitekturen.</p>
 <p>Fredningen skal ikke være til hinder for driften som scenebygg for ballett og opera.</p>
-<p><em>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
 <h4 id="8-3-srbestemmelse">§ 8-3. Særbestemmelse</h4>
 <p>Tekniske oppgraderinger kan gjennomføres etter dispensasjon fra kulturminnemyndigheten.</p>
-<p><em>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
 <h4 id="8-4-frist-for-forvaltningsplan">§ 8-4. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanen skal være utarbeidet innen 31. desember 2013.</p>
-<p><em>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
 <h3 id="vedlegg-8">Vedlegg 8</h3>
 <p>For å lese vedlegg 8 se her: (pdf)</p>
 <p>Tilføyd ved forskrift 15 nov 2012 nr. 1071 .</p>
@@ -236,217 +521,217 @@ b. 3. balkong hovedscene.</p>
 <p>Kapitlet tilføyd ved forskrift 18 juni 2014 nr. 771 .</p>
 <h4 id="9-1-omfang-og-vedlegg">§ 9-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Høgskolen i Finnmark, Alta gnr./bnr. 28/5 Alta kommune Vedlegg 1 Høgskolen i Harstad gnr./bnr. 61/338 Harstad kommune Vedlegg 2 Høgskolen i Nord-Trøndelag, Røstad gnr./bnr. 274/1 Levanger kommune Vedlegg 3 Høgskolen i Sør-Trøndelag, Bispegata gnr./bnr. 403/54 Trondheim kommune Vedlegg 4 Høgskolen Stord/Haugesund, Rommetveit gnr./bnr. 21/1 Stord kommune Vedlegg 5 Høgskolen i Hedmark, Elverum–Lærer gnr./bnr. 28/95 Elverum kommune Vedlegg 6 Høgskolen i Hedmark, Elverum–Sykepleier gnr./bnr. 30/984 Elverum kommune Vedlegg 7 NMBU, Norges veterinærhøgskole gnr./bnr. 220/87, 55/22 og 220/87 Oslo kommune Vedlegg 8 Norges idrettshøgskole gnr./bnr. 51/14 Oslo kommune Vedlegg 9 Nordlysobservatoriet gnr./bnr. 118/49 Tromsø kommune Vedlegg 10 Tromsø Museum gnr./bnr. 119/1-1 Tromsø kommune Vedlegg 11 NTNU, Kalvskinnet gnr./bnr. 403/43, 44 og 403/134, 238, 248 Trondheim kommune Vedlegg 12 NTNU, Gløshaugen gnr./bnr. 62/400, 405/177 Trondheim kommune Vedlegg 13 UiB, Allégaten 70 gnr./bnr. 164/732 Bergen kommune Vedlegg 14 UiB, Samfunnsvitenskapelig Fakultet gnr./bnr. 164/1148, 1150, 1152, 621 Bergen kommune Vedlegg 15 UiB, De kulturhistoriske samlinger gnr./bnr. 164/465 Bergen kommune Vedlegg 16 UiB, Adm. avd. Langesgate 1–3 gnr./bnr. 164/523, 521 Bergen kommune Vedlegg 17 UiB, Universitetsadm. Muséplass 1 m.fl. gnr./bnr. 164/517, 1153 Bergen kommune Vedlegg 18 UiB, Muséplass 3, De naturhistoriske samlinger gnr./bnr. 164/519 Bergen kommune Vedlegg 19 UiB, Fastings Minde gnr./bnr. 164/364 Bergen kommune Vedlegg 20 UiB, Parkveien gnr./bnr. 164/533 Bergen kommune Vedlegg 21 UiB, Sydneshaugkvartalet gnr./bnr. 164/495, 498, 500, 493, 492, 496, 513, 514, 578, 576 Bergen kommune Vedlegg 22 UiB, Villaveien gnr./bnr. 164/471 Bergen kommune Vedlegg 23 UiB, Tingvika gnr./bnr. 108/26-30 Ullensvang herad Vedlegg 24 UiB, Realfagbygget gnr./bnr. 164/715, 548, 549, 682, 713, 721, 725, 726 Bergen kommune Vedlegg 25 UiB, Universitetsbiblioteket gnr./bnr. 164/364 Bergen kommune Vedlegg 26 UiB, Psykologibygget, Bjørn Christiansens hus gnr./bnr. 164/1145 Bergen kommune Vedlegg 27 UiB, Sydneshaugen skole gnr./bnr. 164/510 Bergen kommune Vedlegg 28 Andre Bygg UiO gnr./bnr. 86/897 Frogn kommune Vedlegg 29 UiO, Blindern gnr./bnr. 38/4, 46/109, 46/102, 44/85, 44/3, 44/254, 38/287, 38/289 Oslo kommune Vedlegg 30 UiO, Sentrum gnr./bnr. 209/44, 211/196 Oslo kommune Vedlegg 31 UiO, Tøyen gnr./bnr. 229/110, 165, 166 og 999/261 Oslo kommune Vedlegg 32 NMBU gnr./bnr. 42/1 Ås kommune Vedlegg 33 Sem Øvre gnr./bnr. 20/2 Asker kommune Vedlegg 34 Nedre Gausen, Holmestrand gnr./bnr. 129/91 Holmestrand kommune Vedlegg 35 Skådalen Kompetansesenter gnr./bnr. 35/60 Oslo kommune Vedlegg 36 Bredtvetveien 4-6-8-10, Oslo gnr./bnr. 91/141 Oslo kommune Vedlegg 37 Langnesveien 3b, Tromsø gnr./bnr. 119/410 Tromsø kommune Vedlegg 38 Dømmesmoen gnr./bnr. 9/1 Grimstad kommune Vedlegg 39 St. Olavsgt. 32 gnr./bnr. 209/268 Oslo kommune Vedlegg 40</p>
-<p><em>Endret ved forskrift 29 jan 2019 nr. 315 .</em></p>
+<p class="note">Endret ved forskrift 29 jan 2019 nr. 315 .</p>
 <h4 id="9-2-frist-for-forvaltningsplan">§ 9-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2017.</p>
-<p><em>Tilføyd ved forskrift 18 juni 2014 nr. 771 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 juni 2014 nr. 771 .</p>
 <h4 id="9-3-tiltak-pa-fredet-bygning">§ 9-3. Tiltak på fredet bygning</h4>
 <p>På følgende bygning kan det tillates eksteriørmessige og volummessige endringer, for eksempel tilbaketrukne etasjer: a) Universitetet i Oslo – Blindern – BL03 Frederikke, gnr./bnr. 44/85, Oslo kommune. Tiltak som reduserer omfanget av utomhusfredningen av Frederikkeplassen tillates ikke. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
 <p>På følgende bygninger kan det tillates eksteriørmessige endringer: Sem Øvre a) Driftsbygning/Låve, b) Korntørke, c) Redskapshus og d) Sauefjøs, gnr./bnr. 20/2 – Asker kommune. Endringene kan tillates utført på fasadene som vender mot Semsvannet og eksempelvis være åpning/endring av fasade. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 18 juni 2014 nr. 771 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 juni 2014 nr. 771 .</p>
 <h2 id="kapittel-10-fredete-eiendommer-i-justissektorens-landsverneplan">Kapittel 10. Fredete eiendommer i justissektorens landsverneplan</h2>
 <p>Tilføyd ved forskrift 18 nov 2014 nr. 1448 .</p>
 <h4 id="10-1-omfang-og-vedlegg">§ 10-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Ila fengsel, forvarings- og sikringsanstalt gnr./bnr. 28/2 Bærum kommune Vedlegg 1 Bredtveit fengsel, forvarings- og sikringsanstalt gnr./bnr. 91/1 Oslo kommune Vedlegg 2 Grefsenkollen alarmplass gnr./bnr. 75/1 Oslo kommune Vedlegg 3 Høyesteretts hus, Oslo gnr./bnr. 208/266 Oslo kommune Vedlegg 4 Oslo fengsel gnr./bnr. 230/2, 230/100 og 230/104 Oslo kommune Vedlegg 5 Politihøgskolen, Oslo gnr./bnr. 38/8 Oslo kommune Vedlegg 6 Rytterkorpsets bygninger gnr./bnr. 207/161 og 207/447 Oslo kommune Vedlegg 7 Bastøy fengsel gnr./bnr. 16/1 Horten kommune Vedlegg 8 Sem fengsel gnr./bnr. 51/1/8 og 9522/1 Tønsberg kommune Vedlegg 9 Søndre Vestfold fengsel, Berg avdeling gnr./bnr. 56/1 Tønsberg kommune Vedlegg 10 Søndre Vestfold fengsel, Larvik avdeling gnr./bnr. 3020/771 Larvik kommune Vedlegg 11 Magasin Skien gnr./bnr. 300/2027 Skien kommune Vedlegg 12 Bergen tinghus gnr./bnr. 165/173 Bergen kommune Vedlegg 13 Hordaland sivilforsvarsleir Espeland gnr./bnr. 290/159 og 290/1–6, 8–9, 41 Bergen kommune Vedlegg 14 Ravneberget kommandoplass, utkikkskiosk gnr./bnr. 161/49 Bergen kommune Vedlegg 15 Hardanger tingrett, Sjogarden gnr./bnr. 73/14 Ullensvang herad Vedlegg 16 Vik fengsel gnr./bnr. 2/3 Vik kommune Vedlegg 17 Møre og Romsdal sivilforsvarsleir, Isfjorden gnr./bnr. 53/26-28 Rauma kommune Vedlegg 18 Kriminalasylet i Trondheim gnr./bnr. 403/231 Trondheim kommune Vedlegg 19 Trondheim fengsel, Kongens gate avdeling gnr./bnr. 403/231 og 403/289 Trondheim kommune Vedlegg 20 Trondheim fengsel, Leira avdeling gnr./bnr. 92/16 Trondheim kommune Vedlegg 21 Utkikkskiosk Kuhaugen gnr./bnr. 411/2 Trondheim kommune Vedlegg 22 Sama Harstad kommandoplass gnr./bnr. 62/6, 62/301, 62/310, 62/317, 62/391, 61/54, 61/57, 61/58 og 61/466 Harstad kommune Vedlegg 23 Sommervann/Geassejávri gnr./bnr. 16/1/5 Tana kommune Vedlegg 24 Nyrud politistasjon gnr./bnr. 15/3 Sør-Varanger kommune Vedlegg 25</p>
-<p><em>Tilføyd ved forskrift 18 nov 2014 nr. 1448 , endret ved forskrift 29 sep 2021 nr. 4064 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 nov 2014 nr. 1448 , endret ved forskrift 29 sep 2021 nr. 4064 .</p>
 <h4 id="10-2-frist-for-forvaltningsplan">§ 10-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2015.</p>
-<p><em>Tilføyd ved forskrift 18 nov 2014 nr. 1448 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 nov 2014 nr. 1448 .</p>
 <h2 id="kapittel-11-fredning-av-eidsvollsbygningen-med-to-sidebygninger-og-hageanlegg">Kapittel 11. Fredning av Eidsvollsbygningen med to sidebygninger og hageanlegg</h2>
 <p>Kapitlet tilføyd ved forskrift 1 sep 2014 nr. 1120 .</p>
 <h4 id="11-1-omfang">§ 11-1. Omfang</h4>
 <p>Fredningen omfatter følgende eiendom:</p>
 <p>Eidsvollsbygningen med to sidebygninger, og hage (anlegg) på gnr. 97, bnr. 4, Eidsvoll kommune.</p>
 <p>Fredningen omfatter bygningenes eksteriører og interiører. Fredete interiører i alle tre bygninger omfatter innvendig hovedstruktur (rominndeling) og eldre arkitektoniske detaljer (dører, vinduer, listverk, overflater, dekor etc.). I fredningen inngår også alle tilbakeførte/kopierte arkitektoniske detaljer som dører, vinduer, listverk, overflater, dekor etc.</p>
-<p><em>Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</p>
 <h4 id="11-2-formalet-med-fredningen">§ 11-2. Formålet med fredningen</h4>
 <p>Formålet med å bevare Eidsvollsbygningen med to sidebygninger og hageanlegg på gnr./bnr. 97/4, er både kulturhistorisk og arkitekturhistorisk begrunnet. Fredningen skal sikre et sentralt arkitektonisk verk og sted, knyttet til konstitusjonen av Norge som nasjon med egen grunnlov. Formålet med fredningen er videre å opprettholde den museale bruk av bygninger og anlegg i statlig eie som nasjonalt minnesmerke.</p>
 <p>Fredningen av bygningenes eksteriører skal sikre bygningens opprinnelige arkitektur. Både hovedstrukturen i det arkitektoniske uttrykket og detaljering som fasadeløsning, eldre dører og vinduer, materialbruk, overflater og dekor skal opprettholdes.</p>
 <p>Formålet med fredningen av hovedbygningens og sidebygningenes interiører er å bevare rominndeling, bygningsdeler og overflater i de deler av interiøret som er opprinnelig fra byggeåret eller ombygget på en helhetlig måte som tjener den opprinnelige arkitekturen.</p>
 <p>Formålet med fredningen av hageanlegget på gnr./bnr. 97/4 er å sikre den opprinnelige arrondering rundt bygningene på den del som er i statlig eie.</p>
-<p><em>Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</p>
 <h4 id="11-3-srbestemmelser">§ 11-3. Særbestemmelser</h4>
 <p>For Eidsvollsbygningen gjelder følgende særbestemmelser:</p>
 <ul>
 <li>Tekniske oppgraderinger kan gjennomføres etter dispensasjon fra kulturminnemyndigheten jf. § 1-7 .</li>
 <li>Ved ytterligere tilbakeføring av hageanleggets opprinnelige karakter, kan vognskjul, oppført i siste halvdel av 1900-tallet, rives etter dispensasjon fra kulturminnemyndigheten.</li>
 </ul>
-<p><em>Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 sep 2014 nr. 1120 .</p>
 <h2 id="kapittel-12-fredete-eiendommer-i-landsverneplan-for-toll-og-avgiftsetaten">Kapittel 12. Fredete eiendommer i landsverneplan for Toll- og avgiftsetaten</h2>
 <p>Kapitlet tilføyd ved forskrift 15 sep 2014 nr. 1174 .</p>
 <h4 id="12-1-omfang-og-vedlegg">§ 12-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-12-1.html" title="Endringshistorikk for § 12-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Gravningsund tidligere tollstasjon gnr./bnr. 29/14, 30/27 Hvaler kommune Vedlegg 1 Herføl tidligere tollstasjon gnr./bnr. 30/24 Hvaler kommune Vedlegg 2 Otteid tidligere tollstasjon gnr./bnr. 128/9 Marker kommune Vedlegg 3 Larkollen tidligere tollstasjon gnr./bnr. 34/405 Moss kommune Vedlegg 4 Årøysund tidligere tollstasjon gnr./bnr. 42/5, 12, 42/85 Færder kommune Vedlegg 5 Sandøsund tidligere tollstasjon gnr./bnr. 31/3, 31/133 Færder kommune Vedlegg 6 Borøy tidligere tollstasjon gnr./bnr. 76/104 Tvedestrand kommune Vedlegg 7 Hesnes tidligere tollstasjon gnr./bnr. 33/15 Grimstad kommune Vedlegg 8 Brekkestø tidligere tollstasjon gnr./bnr. 6/25, 6/26 Lillesand kommune Vedlegg 9 Møvik tidligere tollstasjon gnr./bnr. 7/585 Kristiansand kommune Vedlegg 10 Ny-Hellesund tidligere tollstasjon gnr./bnr. 21/55 Kristiansand kommune Vedlegg 11 Vauldalen tidligere tollstasjon gnr./bnr. 95/2 Røros kommune Vedlegg 12</p>
-<p><em>Tilføyd ved forskrift 15 sep 2014 nr. 1174 , endret ved forskrift 18 feb 2020 nr. 847 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 sep 2014 nr. 1174 , endret ved forskrift 18 feb 2020 nr. 847 .</p>
 <h4 id="12-2-frist-for-forvaltningsplan">§ 12-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2015.</p>
-<p><em>Tilføyd ved forskrift 15 sep 2014 nr. 1174 .
-1 Jf. § 1-6 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 sep 2014 nr. 1174 .
+1 Jf. § 1-6 .</p>
 <h2 id="kapittel-13-fredning-av-historisk-museum-frederiks-gate-2-oslo">Kapittel 13. Fredning av Historisk museum, Frederiks gate 2, Oslo</h2>
 <p>Kapitlet tilføyd ved forskrift 26 nov 2014 nr. 1461 .</p>
 <h4 id="13-1-omfang-og-vedlegg">§ 13-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Historisk museum, Frederiks gate 2, Oslo gnr./bnr. 209/43 Oslo kommune Vedlegg 1</p>
-<p><em>Tilføyd ved forskrift 26 nov 2014 nr. 1461 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 nov 2014 nr. 1461 .</p>
 <h4 id="13-2-frist-for-forvaltningsplan">§ 13-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanen skal være utarbeidet innen utgangen av juni 2016.</p>
-<p><em>Tilføyd ved forskrift 26 nov 2014 nr. 1461 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 nov 2014 nr. 1461 .</p>
 <h2 id="kapittel-14-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet">Kapittel 14. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet</h2>
 <p>Kapitlet tilføyd ved forskrift 14 aug 2015 nr. 961 .</p>
 <h4 id="14-1-omfang-og-vedlegg">§ 14-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-14-1.html" title="Endringshistorikk for § 14-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Auglend-Vandringshavn, Eigersund gnr./bnr. 11/3 Eigersund kommune Vedlegg 1 Høgevarden, Skjernøy, Mandal gnr./bnr. 23/27 Lindesnes kommune Vedlegg 2 Kjeholmen, Fitjar gnr./bnr. 15/1,3 Fitjar kommune Vedlegg 3 Kongsvold fjellstue, Oppdal gnr./bnr. 62/1 Oppdal kommune Vedlegg 4 Penne, Farsund gnr./bnr. 44/16 Farsund kommune Vedlegg 5 Portør, Kragerø gnr./bnr. 7/29 Kragerø kommune Vedlegg 6 Sildevika, Porsgrunn gnr./bnr. 27/12 Porsgrunn kommune Vedlegg 7 Sognli Forsøksgård, Orkdal gnr./bnr. 248/1, 266/7 Orkdal kommune Vedlegg 8 Sotåsen, Randesund, Kristiansand gnr./bnr. 80/7 Kristiansand kommune Vedlegg 9 Stangnes, Kragerø gnr./bnr. 6/23 Kragerø kommune Vedlegg 10 Vernebygget, Hamar gnr./bnr. 1/870 Hamar kommune Vedlegg 11 Vingen LVO, Vakthytte, Bremanger gnr./bnr. 78/3 Bremanger kommune Vedlegg 12 Årosveten, Søgne gnr./bnr. 20/13 Kristiansand kommune Vedlegg 13</p>
-<p><em>Tilføyd ved forskrift 14 aug 2015 nr. 961 , endret ved forskrift 18 feb 2020 nr. 847 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 aug 2015 nr. 961 , endret ved forskrift 18 feb 2020 nr. 847 .</p>
 <h4 id="14-2-frist-for-forvaltningsplan">§ 14-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2018.</p>
-<p><em>Tilføyd ved forskrift 14 aug 2015 nr. 961 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 aug 2015 nr. 961 .</p>
 <h2 id="kapittel-15-fredete-eiendommer-i-landsverneplan-for-klima-og-miljdepartementet-eiendommene-pa-rros">Kapittel 15. Fredete eiendommer i landsverneplan for Klima- og miljødepartementet – eiendommene på Røros</h2>
 <p>Kapitlet tilføyd ved forskrift 14 aug 2015 nr. 962 .</p>
 <h4 id="15-1-omfang-og-vedlegg">§ 15-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Krutthuset, Røros gnr./bnr. 135/115 Røros kommune Vedlegg 1 Malmplassen, Røros gnr./bnr. 135/115, 137/1, 136/ 1, 136/51, 136/71 Røros kommune Vedlegg 2 Nedre Storwartz, Røros gnr./bnr. 141/6 Røros kommune Vedlegg 3 Olavsgruva, Røros gnr./bnr. 141/6, 141/7 Røros kommune Vedlegg 4 Øvre Storwartz, Røros gnr./bnr. 141/6, 141/7 Røros kommune Vedlegg 5</p>
-<p><em>Tilføyd ved forskrift 14 aug 2015 nr. 962 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 aug 2015 nr. 962 .</p>
 <h4 id="15-2-frist-for-forvaltningsplan">§ 15-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2018.</p>
-<p><em>Tilføyd ved forskrift 14 aug 2015 nr. 962 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 aug 2015 nr. 962 .</p>
 <h2 id="kapittel-16-baroniet-rosendal">Kapittel 16. Baroniet Rosendal</h2>
 <p>Kapitlet tilføyd ved forskrift 20 nov 2015 nr. 1333 .</p>
 <h4 id="16-1-omfang-og-vedlegg">§ 16-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Baroniet Rosendal gnr./bnr. 85/43, 87/1, 87/4, 87/5, 87/59, 87/60, 88/1. Kvinnherad kommune Vedlegg 1</p>
-<p><em>Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</p>
 <h4 id="16-2-frist-for-forvaltningsplan">§ 16-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2017.</p>
-<p><em>Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</p>
 <h4 id="16-3-tiltak-pa-fredet-bygning">§ 16-3. Tiltak på fredet bygning</h4>
 <p>På Avlsgård, driftsbygningens østre fløy – Baroniet Rosendal, gnr. 88, bnr. 1 kan det tillates eksteriørmessige endringer. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 nov 2015 nr. 1333 .</p>
 <h2 id="kapittel-17-fredning-av-norges-banks-tidligere-avdelingskontor-i-stavanger-domkirkeplassen-3-stavanger">Kapittel 17. Fredning av Norges Banks tidligere avdelingskontor i Stavanger, Domkirkeplassen 3, Stavanger</h2>
 <p>Tilføyd ved forskrift 10 feb 2016 nr. 133 .</p>
 <h4 id="17-1-omfang-og-vedlegg">§ 17-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Norges Banks tidligere avdelingskontor i Stavanger gnr./bnr. 55/191, 194 og 1814 Stavanger kommune Vedlegg 1</p>
-<p><em>Tilføyd ved forskrift 10 feb 2016 nr. 133 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 feb 2016 nr. 133 .</p>
 <h2 id="kapittel-18-norges-banks-tidligere-avdelingskontorer">Kapittel 18 – Norges Banks tidligere avdelingskontorer</h2>
 <p>Tilføyd ved forskrift 19 juni 2016 nr. 787 .</p>
 <h4 id="18-1-omfang-og-vedlegg">§ 18-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Norges Banks tidligere avdelingskontor i Vardø, Brodtkorpsg. 1 gnr./bnr. 20/197. Vardø kommune Vedlegg 18.1 Norges Banks tidligere avdelingskontor i Tromsø, Bankgata 9/11 gnr./bnr. 200/96 Tromsø kommune Vedlegg 18.2 Norges Banks tidligere avdelingskontor i Lillehammer, Stortorget 1 gnr./bnr. 200/135 Lillehammer kommune Vedlegg 18.3 Norges Banks tidligere avdelingskontor i Kristiansand, Dronningens gate 30 gnr./bnr. 150/42 Kristiansand kommune Vedlegg 18.4</p>
-<p><em>Tilføyd ved forskrift 19 juni 2016 nr. 787 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2016 nr. 787 .</p>
 <h2 id="kapittel-19-fredning-av-samtidskunstmuseet-bankplassen-4-oslo">Kapittel 19. Fredning av Samtidskunstmuseet, Bankplassen 4, Oslo</h2>
 <p>Tilføyd ved forskrift 19 juni 2016 nr. 788 .</p>
 <h4 id="19-1-omfang-og-vedlegg">§ 19-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Samtidskunstmuseet, Bankplassen 4, Oslo gnr./bnr. 209/43 Oslo kommune Vedlegg 19.1</p>
-<p><em>Tilføyd ved forskrift 19 juni 2016 nr. 788 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2016 nr. 788 .</p>
 <h4 id="19-2-frist-for-forvaltningsplan">§ 19-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanen skal være utarbeidet innen medio 2017.</p>
-<p><em>Tilføyd ved forskrift 19 juni 2016 nr. 788 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 juni 2016 nr. 788 .</p>
 <h2 id="kapittel-20-fredete-eiendommer-i-kystverkets-landsverneplan-for-maritim-infrastruktur">Kapittel 20. Fredete eiendommer i Kystverkets Landsverneplan for maritim infrastruktur</h2>
 <p>Tilføyd ved forskrift 8 aug 2016 nr. 958 .</p>
 <h4 id="20-1-omfang-og-vedlegg">§ 20-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-20-1.html" title="Endringshistorikk for § 20-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Brattestø fiskerihavn gnr./bnr. 38/1, 19, 130 Hvaler kommune Vedlegg 1 Gitmertangen lykter gnr./bnr. 224/2, 167 Arendal kommune Vedlegg 2 Heia varde koordinater Hvaler kommune Vedlegg 3 Hekkingen varde gnr./bnr. 109/1 Senja kommune Vedlegg 4 Helgelandsflesa koordinater Sømna kommune Vedlegg 5 Hesnes båke koordinater Grimstad kommune Vedlegg 6 Husholmen fyrlykt koordinater Vågan kommune Vedlegg 7 Kjøttvikvarden gnr./bnr. 3/1 Hammerfest kommune Vedlegg 8 Laagebarden varde koordinater Stad kommune Vedlegg 9 Mærdø fyrlykt gnr./bnr. 209/25 Arendal kommune Vedlegg 10 Merdø loshytte gnr./bnr. 209/86 Arendal kommune Vedlegg 11 Nesland stø gnr./bnr. 41/7, 19 Flakstad kommune Vedlegg 12 Nordøyan fiskerihavn gnr./bnr. 55/6 Nærøysund kommune Vedlegg 13 Papperhavn fyrlykt gnr./bnr. 48/135 Hvaler kommune Vedlegg 14 Ryvingen varde gnr./bnr. 23/1, 3–6, 9–10, 35, 25 Lindesnes kommune Vedlegg 15 Sandøy båke gnr./bnr. 78/151 Tvedestrand kommune Vedlegg 16 Silda fiskerihavn gnr./bnr. 96/2, 3, 51 Kinn kommune Vedlegg 17 Skjærvær fiskerihavn gnr./bnr. 32/1, 2 Vega kommune Vedlegg 18 Turøyvarden gnr./bnr. 60/9 Øygarden kommune Vedlegg 19 Tønsberg Tønne gnr./bnr. 101/84 Sandefjord kommune Vedlegg 20 Vardø bymoloer gnr./bnr. 19/353, 486, gnr./bnr. 20/109, 127 Vardø kommune Vedlegg 21</p>
-<p><em>Tilføyd ved forskrift 8 aug 2016 nr. 958 , endret ved forskrift 18 feb 2020 nr. 847 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 aug 2016 nr. 958 , endret ved forskrift 18 feb 2020 nr. 847 .</p>
 <h4 id="20-2-frist-for-forvaltningsplan">§ 20-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2019.</p>
-<p><em>Tilføyd ved forskrift 8 aug 2016 nr. 958 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 aug 2016 nr. 958 .</p>
 <h2 id="kapittel-21-fredning-av-tidligere-rikstrygdeverket-drammensveien-60-og-observatorie-terrasse-17-oslo">Kapittel 21. Fredning av tidligere Rikstrygdeverket, Drammensveien 60 og Observatorie terrasse 17, Oslo</h2>
 <p>Tilføyd ved forskrift 13 mars 2017 nr. 323 .</p>
 <h4 id="21-1-omfang-og-vedlegg">§ 21-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Tidligere Rikstrygdeverket, Drammensveien 60 og Observatorie terrasse 17, Oslo gnr./bnr. 211/73, 211/248, 999/873 Oslo kommune Vedlegg 1</p>
-<p><em>Tilføyd ved forskrift 13 mars 2017 nr. 323 .</em></p>
+<p class="note">Tilføyd ved forskrift 13 mars 2017 nr. 323 .</p>
 <h2 id="kapittel-22-fredete-eiendommer-i-landsverneplan-for-statskog">Kapittel 22. Fredete eiendommer i landsverneplan for Statskog</h2>
 <p>Tilføyd ved forskrift 24 okt 2017 nr. 1655 .</p>
 <h4 id="22-1-omfang-og-vedlegg">§ 22-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Abborhøgda, Kongsvinger gnr./bnr. 71/1 Kongsvinger kommune Vedlegg 1 Nordre Varaldskogen, Kongsvinger gnr./bnr. 71/77 Kongsvinger kommune Vedlegg 2 Bekken brakkeleir, Rendalen gnr./bnr. 80/1 Rendalen kommune Vedlegg 3 Ljørbu ved Galtstrømmen, Engerdal gnr./bnr. 165/1 Engerdal kommune Vedlegg 4 Trollhaug, Ringebu gnr./bnr. 196/1-129 Ringebu kommune Vedlegg 5 Sigurdshellerhyttene, Sirdal gnr./bnr. 1/10 Sirdal kommune Vedlegg 6 Fautbua, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 7 Kløfthåbua, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 8 Langtjønnbua, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 9 Litjrennbua, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 10 Lortholbua, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 11 Fløterbu ved Rismosjøen, Røros gnr./bnr. 56/1 Røros kommune Vedlegg 12 Fløterbu ved Roasten, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 13 Furubakken, Røros gnr./bnr. 132/307 Røros kommune Vedlegg 14 Stormoen, Midtre Gauldal gnr./bnr. 405/1 Midtre Gauldal kommune Vedlegg 15 Granneset, Rana gnr./bnr. 78/2 Rana kommune Vedlegg 16 Steinbu Krukki, Rana gnr./bnr. 147/17 Rana kommune Vedlegg 17 Storjord, Saltdal gnr./bnr. 71/1 Saltdal kommune Vedlegg 18 Storjord løe, Saltdal gnr./bnr. 73/1 Saltdal kommune Vedlegg 19 Fossbua, Målselv gnr./bnr. 95/1 Målselv kommune Vedlegg 20</p>
-<p><em>Tilføyd ved forskrift 24 okt 2017 nr. 1655 .</em></p>
+<p class="note">Tilføyd ved forskrift 24 okt 2017 nr. 1655 .</p>
 <h4 id="22-2-frist-for-forvaltningsplan">§ 22-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2019.</p>
-<p><em>Tilføyd ved forskrift 24 okt 2017 nr. 1655 .</em></p>
+<p class="note">Tilføyd ved forskrift 24 okt 2017 nr. 1655 .</p>
 <h2 id="kapittel-23-fredete-eiendommer-i-landsverneplan-for-kulturdepartementet">Kapittel 23. Fredete eiendommer i landsverneplan for Kulturdepartementet</h2>
 <p>Tilføyd ved forskrift 25 mai 2018 nr. 758 .</p>
 <h4 id="23-1-omfang-og-vedlegg">§ 23-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-23-1.html" title="Endringshistorikk for § 23-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Uranienborg, Roald Amundsens hjem gnr./bnr. 35/62 Nordre Follo kommune Vedlegg 1 Bankplassen 3, Oslo gnr./bnr. 207/27 Oslo kommune Vedlegg 2 NRK Marienlyst gnr./bnr. 46/107 Oslo kommune Vedlegg 3 Granittsøyler med statuer ved Nationaltheatret gnr./bnr. 209/354 Oslo kommune Vedlegg 4 Wergelandsveien 4, Grotten gnr./bnr. 209/417 Oslo kommune Vedlegg 5 Bjørgan prestegård gnr./bnr. 169/3, 169/1 Tynset kommune Vedlegg 6 Publikumsbygget ved Bjerkebæk, Sigrid Undsets hjem gnr./bnr. 50/49 Lillehammer kommune Vedlegg 7 Aulestad, Bjørnstjerne Bjørnsons eiendom gnr./bnr./fnr. 140/9, 140/9/1 Gausdal kommune Vedlegg 8 Statsarkivet i Bergen gnr./bnr. 163/229 Bergen kommune Vedlegg 9 Erkebispegården i Trondheim gnr./bnr. 400/5, 403/74, 400/213 Trondheim kommune Vedlegg 10 Pyramiden og parken ved Austråttborgen gnr./bnr. 82/51 Ørland kommune Vedlegg 11 Nordnorsk Kunstmuseum, Tromsø gnr./bnr. 200/1240 Tromsø kommune Vedlegg 12 NRK Sápmi, Karasjok gnr./bnr. 9/121, 9/134, 9/319 Kárášjoga gielda – Karasjok kommune Vedlegg 13</p>
-<p><em>Tilføyd ved forskrift 25 mai 2018 nr. 758 , endret ved forskrift 18 feb 2020 nr. 847 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 mai 2018 nr. 758 , endret ved forskrift 18 feb 2020 nr. 847 .</p>
 <h4 id="23-2-tiltak-i-fredet-bygning">§ 23-2. Tiltak i fredet bygning</h4>
 <p><em>NRK Marienlyst, 46/107, Oslo. Det kan gis tillatelse til at det fredete studio 24 i E-fløyen kan demonteres og remonteres et annet sted i Kringkastingshuset. Tiltaket skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 . Publikumsbygget ved Bjerkebæk, 50/49, Lillehammer. Det kan tillates endringer i eksteriør og interiør, samt volummessige endringer, i den fredete bygningen. Tiltaket skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .
 Tilføyd ved forskrift 25 mai 2018 nr. 758 .</em></p>
 <h4 id="23-3-frist-for-forvaltningsplan">§ 23-3. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2018.</p>
-<p><em>Tilføyd ved forskrift 25 mai 2018 nr. 758 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 mai 2018 nr. 758 .</p>
 <h2 id="kapittel-24-fredete-eiendommer-i-landsverneplan-for-statsbygg">Kapittel 24. Fredete eiendommer i landsverneplan for Statsbygg</h2>
 <p>Tilføyd ved forskrift 21 sep 2018 nr. 1401 .</p>
 <h4 id="24-1-omfang-og-vedlegg">§ 24-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-24-1.html" title="Endringshistorikk for § 24-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Pollmak Tollstasjon, Tana gnr./bnr. 40/4 Tana kommune Vedlegg 1 Flødevigen, Arendal gnr./bnr. 305/173 Arendal kommune Vedlegg 2 Munkholmen, Trondheim gnr./bnr. 440/1 Trondheim kommune Vedlegg 3 Det gml. sykehusomr. Kongensg. 93, Trondheim gnr./bnr. 403/230 Trondheim kommune Vedlegg 4 Frogner Hovedgård, Skien gnr./bnr. 62/469 Skien kommune Vedlegg 5 Blaker Skanse, Sørum gnr./bnr. 118/3 Sørum kommune Vedlegg 6</p>
-<p><em>Tilføyd ved forskrift 21 sep 2018 nr. 1401 , endret ved forskrift 18 feb 2020 nr. 847 .</em></p>
+<p class="note">Tilføyd ved forskrift 21 sep 2018 nr. 1401 , endret ved forskrift 18 feb 2020 nr. 847 .</p>
 <h4 id="24-2-frist-for-forvaltningsplan">§ 24-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2019.</p>
-<p><em>Tilføyd ved forskrift 21 sep 2018 nr. 1401 .</em></p>
+<p class="note">Tilføyd ved forskrift 21 sep 2018 nr. 1401 .</p>
 <h2 id="kapittel-25-trandumskogen-tanksskytebanen-og-seremoniplassen">Kapittel 25. Trandumskogen, tanksskytebanen og seremoniplassen</h2>
 <p>Tilføyd ved forskrift 8 mai 2020 nr. 965 .</p>
 <h4 id="25-1-omfang-og-vedlegg">§ 25-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Trandumskogen, tanksskytebane og seremoniplassen, Ullensaker gnr./bnr.190/1 Ullensaker kommune Vedlegg 1</p>
-<p><em>Tilføyd ved forskrift 8 mai 2020 nr. 965 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 mai 2020 nr. 965 .</p>
 <h4 id="25-2-frist-for-forvaltnings-og-skjtselplan">§ 25-2. Frist for forvaltnings- og skjøtselplan</h4>
 <p>Forvaltningsplan og skjøtselplan skal være utarbeidet innen utgangen av 2022.</p>
-<p><em>Tilføyd ved forskrift 8 mai 2020 nr. 965 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 mai 2020 nr. 965 .</p>
 <h2 id="kapittel-26-fredning-av-eiendommer-i-landsverneplan-for-statskraft">Kapittel 26. Fredning av eiendommer i Landsverneplan for Statskraft</h2>
 <p>Tilføyd ved forskrift 31 aug 2020 nr. 1699 .</p>
 <h4 id="26-1-omfang-og-vedlegg">§ 26-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Hakavik kraftverk gnr./bnr. 115/31, 115/1, 115/2, 115/3 Øvre Eiker kommune Vedlegg 26.1 Tokke Kraftverk gnr./bnr. 22/93 Tokke kommune Vedlegg 26.2 Sauda III kraftverk gnr./bnr. 46/249 Sauda kommune Vedlegg 26.3 Aura kraftverk gnr./bnr. 53/59, 54/5 Sunndal kommune Vedlegg 26.4 Nedre Røssåga kraftverk gnr./bnr. 108/14 Hemnes kommune Vedlegg 26.5 Glomfjord kraftverk gnr./bnr. 45/1, 45/2 Meløy kommune Vedlegg 26.6</p>
-<p><em>Tilføyd ved forskrift 31 aug 2020 nr. 1699 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2020 nr. 1699 .</p>
 <h4 id="26-2-frist-for-forvaltningsplan">§ 26-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av 2021.</p>
-<p><em>Tilføyd ved forskrift 31 aug 2020 nr. 1699 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2020 nr. 1699 .</p>
 <h2 id="kapittel-27-fredning-av-master-i-glomfjord-kraftledning-fykanhaugvik">Kapittel 27. Fredning av Master i Glomfjord, kraftledning Fykan–Haugvik</h2>
 <p>Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</p>
 <h4 id="27-1-omfang-og-vedlegg">§ 27-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Master med linjetrase gnr./bnr. 45/4 Meløy kommune Vedlegg 27.1</p>
-<p><em>Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</p>
 <h4 id="27-2-srskilte-tiltak">§ 27-2. Særskilte tiltak</h4>
 <p>Det tillates gjennomføring av nødvendige sikringstiltak som inngjerding eller montering av stag eller andre avstivningstiltak så lenge det ikke er i strid med fredningens formål. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</p>
 <h4 id="27-3-frist-for-forvaltningsplan">§ 27-3. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplan for mastene og tilhørende område skal være utarbeidet innen utgangen av 2021.</p>
-<p><em>Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</em></p>
+<p class="note">Tilføyd ved forskrift 31 aug 2020 nr. 1700 .</p>
 <h2 id="kapittel-28-fredete-eiendommer-i-landsverneplan-for-statens-kartverk">Kapittel 28. Fredete eiendommer i landsverneplan for Statens kartverk</h2>
 <p>Tilføyd ved forskrift 10 nov 2022 nr. 1957 .</p>
 <h4 id="28-1-omfang-og-vedlegg">§ 28-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Vadsø basis Koordinater gnr./bnr. 8/1 Vadsø kommune Vedlegg 28.1 Seilandstuva varde Koordinater gnr./bnr. 9/1 Hammerfest kommune Vedlegg 28.2 Tromsdalstinden varde Koordinater gnr./bnr. 16/3, 28/3 Tromsø kommune Vedlegg 28.3 Store Blåmannen varde Koordinater gnr./bnr. 0/0 Tromsø kommune Vedlegg 28.4 Blåtinden varde Koordinater gnr./bnr. 0/0 Balsfjord kommune Vedlegg 28.5 Matmora varde Koordinater gnr./bnr. 0/0 Vågan kommune Vedlegg 28.6 Lofotodden varde Koordinater gnr./bnr. 0/0 Moskenes kommune Vedlegg 28.7 Kråktindan varde Koordinater gnr./bnr. 1/2, 0/0 Steigen kommune Vedlegg 28.8 Majaklumpen varde Koordinater gnr./bnr. 62/1 Grane kommune Vedlegg 28.9 Rinnleiret basis Koordinater gnr./bnr.17/3, 253/5 Verdal kommune (basis N) Levanger kommune (basis S) Vedlegg 28.10 Fonnfjellet varde Koordinater gnr./bnr. 49/1 Meråker kommune Vedlegg 28.11 Hestgrovheia varde Koordinater gnr./bnr. 97/2, 0/0 Orkland kommune Vedlegg 28.12 Sissihøa varde Koordinater gnr./bnr. 356/1 Oppdal kommune Vedlegg 28.13 Blåhøa varde Koordinater gnr./bnr. 356/1 Oppdal kommune Vedlegg 28.14 Melen varde Koordinater gnr./bnr. 121/29, 13-21, 25, 34, 79/1, 0/0 Hustadvika kommune Vedlegg 28.15 Auskjeret varde Koordinater gnr./bnr. 0/0 Sykkylven kommune Vedlegg 28.16 Elgspiggen varde Koordinater gnr./bnr. 77/29, 10000/1 Tolga kommune Vedlegg 28.17 Rondslottet varde Koordinater gnr./bnr. 229/1 Folldal kommune Vedlegg 28.18 Sølen varde Koordinater gnr./bnr. 0/0 Rendalen kommune Vedlegg 28.19 Kvien varde Koordinater gnr./bnr. 194/1, 197/1 Ringebu kommune Vedlegg 28.20 Prestkampen varde Koordinater gnr./bnr. 240/1 Gausdal kommune Vedlegg 28.21 Tisleia basis Koordinater gnr./bnr. 9002/2 Nord-Aurdal kommune Vedlegg 28.22 Store Dyrhaugstind varde Koordinater gnr./bnr. 215/1 Luster kommune Vedlegg 28.23 Alden varde Koordinater gnr./bnr. 59/1 Askvoll kommune Vedlegg 28.24 Radøy basis Koordinater gnr./bnr. 93/4, 99/6 Alver kommune Vedlegg 28.25 Hårteigen varde Koordinater gnr./bnr. 155/1 Ullensvang kommune Vedlegg 28.26 Melderskin varde Koordinater gnr./bnr. 0/0 Kvinnherad kommune Vedlegg 28.27 Snønuten varde Koordinater gnr./bnr. 55/1, 187/1 Suldal kommune Vedlegg 28.28 Synesvarden varde Koordinater gnr./bnr. 51/4 Time kommune Vedlegg 28.29 Grubba varde Koordinater gnr./bnr. 3/5, 3/6, 3/11 Sirdal kommune Vedlegg 28.30 Rustfjell varde Koordinater gnr./bnr. 4/3, 9/2, 0/0 Bygland kommune Vedlegg 28.31 Tregde, Normal Null av 1954 Koordinater gnr./bnr. 32/3 Lindesnes kommune Vedlegg 28.32 Bossnuten varde Koordinater gnr./bnr. 157/1, 157/4 Vinje kommune Vedlegg 28.33 Nystølvarden varde Koordinater gnr./bnr. 4/136 Gol kommune Vedlegg 28.34 Ustetind varde Koordinater gnr./bnr. 69/2 Hol kommune Vedlegg 28.35 Ekeberg basis Koordinater gnr./bnr. 183/247, 151/5 Oslo kommune Vedlegg 28.36 Meridianmerket på Lindøya Koordinater gnr./bnr. 205/1 Oslo kommune Vedlegg 28.37</p>
-<p><em>Tilføyd ved forskrift 10 nov 2022 nr. 1957 , endret ved forskrift 2 des 2022 nr. 2072 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 nov 2022 nr. 1957 , endret ved forskrift 2 des 2022 nr. 2072 .</p>
 <h4 id="28-2-frist-for-forvaltningsplan">§ 28-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2026.</p>
-<p><em>Tilføyd ved 10 nov 2022 nr. 1957 .</em></p>
+<p class="note">Tilføyd ved 10 nov 2022 nr. 1957 .</p>
 <h2 id="kapittel-29-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-veganlegg">Kapittel 29. Fredete eiendommer i landsverneplan for Statens vegvesen – veganlegg</h2>
 <p>Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</p>
 <h4 id="29-1-omfang-og-vedlegg">§ 29-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Jordanfoss trallebane Koordinater Sør-Varanger kommune Vedlegg 29.1 Finnkongkeila fiskeværsveg Koordinater Gamvik kommune Vedlegg 29.2 Riksveg 50 – Børselvfjellet Koordinater Lebesby og Porsanger – Porsánjgu – Porsanki kommuner Vedlegg 29.3 Børselvfjellet høyfjellsveg Koordinater Lebesby kommune Vedlegg 29.4 Bæskades varderekke Koordinater Alta og Kautokeino – Guovdageaidnu kommune Vedlegg 29.5 Bæskadesvegen Koordinater Alta og Kautokeino – Guovdageaidnu kommune Vedlegg 29.6 Kobbevåg gamle veg Koordinater Hasvik kommune Vedlegg 29.7 Kobbevåg – Hasvågveien Koordinater Hasvik kommune Vedlegg 29.8 Gammelvegen – Øksfjord Koordinater Loppa og Alta kommuner Vedlegg 29.9 Efjord Koordinater Narvik kommune Vedlegg 29.10 Sulitjelmavegen Koordinater Fauske – Fuossko kommune Vedlegg 29.11 Junkerdalsura mellomriksveg Koordinater Saltdal kommune Vedlegg 29.12 Riksveg 50 – Saltfjellet Koordinater Saltdal og Rana kommuner Vedlegg 29.13 Straumholvegen Koordinater Osen kommune Vedlegg 29.14 Karl Johans veg Koordinater Verdal kommune Vedlegg 29.15 Atlanterhavsvegen Koordinater Hustadvika og Averøy kommuner Vedlegg 29.16 Gamle hovedveg Skiri Koordinater Rauma kommune Vedlegg 29.17 Romsdalsvegen Marstein–Skiri Koordinater Rauma kommune Vedlegg 29.18 Geirangervegen Koordinater Stranda kommune Vedlegg 29.19 Gamle Strynefjellsveg Koordinater Stryn og Skjåk kommuner Vedlegg 29.20 Nye Strynefjellsveg Koordinater Stryn og Skjåk kommuner Vedlegg 29.21 Trondhjemske Postvei – Gulen Koordinater Gulen kommune Vedlegg 29.22 Bergenske eldste Hovedveg – 1840-tallet Koordinater Lærdal kommune Vedlegg 29.23 Bergenske Hovedveg – 1870-tallet Koordinater Lærdal kommune Vedlegg 29.24 Bergenske kongeveg Koordinater Lærdal kommune Vedlegg 29.25 Lærdal omkjøringsveg Koordinater Lærdal kommune Vedlegg 29.26 Stalheimskleiva Koordinater Voss kommune Vedlegg 29.27 Tokagjelet hovedveg Koordinater Kvam kommune Vedlegg 29.28 Måbødalen hovedveg Koordinater Eidfjord kommune Vedlegg 29.29 Gamle Haukeliveg – Austmannalia Koordinater Ullensvang kommune Vedlegg 29.30 Gamle Haukeliveg Koordinater Ullensvang kommune Vedlegg 29.31 Bratlandsdalen hovedveg Koordinater Suldal kommune Vedlegg 29.32 Vestlandske hovedveg – Tronåsen Koordinater Flekkefjord og Lund kommuner Vedlegg 29.33 Vestlandske hovedveg – Lavoll–Flikkeid Koordinater Flekkefjord kommune Vedlegg 29.34 Sørlandske hovedveg – Fosselandsheia Koordinater Kvinesdal og Flekkefjord kommuner Vedlegg 29.35 Setesdalske postveg – Fånefjell Koordinater Bygland kommune Vedlegg 29.36 Gamle Setesdalsveg – Fånefjell Koordinater Bygland kommune Vedlegg 29.37 Fånefjelltunnelen Koordinater Bygland kommune Vedlegg 29.38 Setesdalsvegen – Langevatn Koordinater Vennesla kommune Vedlegg 29.39 Simonstad kompensasjonsveg Koordinater Åmli kommune Vedlegg 29.40 Paradisbakkene Koordinater Lier kommune Vedlegg 29.41 E18 Lier Koordinater Lier kommune Vedlegg 29.42 Korketrekkeren Åmot Koordinater Modum kommune Vedlegg 29.43 Veien gang- og sykkelveg Koordinater Ringerike kommune Vedlegg 29.44 E6 Hølen Koordinater Vestby kommune Vedlegg 29.45 Berbyvegen Koordinater Halden kommune Vedlegg 29.46 St. Halvardsgate/Strømsveien Koordinater Oslo kommune Vedlegg 29.47 Mesnadalsarmen Koordinater Lillehammer kommune Vedlegg 29.48</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</p>
 <h4 id="29-2-frist-for-forvaltningsplan">§ 29-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2027.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</p>
 <h4 id="29-3-tiltak-pa-fredet-veg">§ 29-3. Tiltak på fredet veg</h4>
 <p>På Romsdalsvegen Marstein–Skiri tillates det oppgradering av veien i gjeldende trase. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1970 .</p>
 <h2 id="kapittel-30-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-bruer">Kapittel 30. Fredete eiendommer i landsverneplan for Statens vegvesen – bruer</h2>
 <p>Tilføyd ved forskrift 17 nov 2022 nr. 1976 .</p>
-<h4 id="30-1-omfang-og-vedlegg">§ 30-1. Omfang og vedlegg</h4>
+<h4 id="30-1-omfang-og-vedlegg">§ 30-1. Omfang og vedlegg <a class="para-history" href="../historikk/forskrift-2011-11-09-1088/para-30-1.html" title="Endringshistorikk for § 30-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fredningen omfatter følgende eiendommer: Strømmen bru Koordinater Båtsfjord kommune Vedlegg 30.1 Kalvebakken hvelvbru Koordinater Tromsø kommune Vedlegg 30.2 Kalvebakken bjelkebru Koordinater Tromsø kommune Vedlegg 30.3 Kalvebakken bru Koordinater Tromsø kommune Vedlegg 30.4 Tromsøbrua Koordinater Tromsø kommune Vedlegg 30.5 Saltstraumbrua Koordinater Bodø kommune Vedlegg 30.6 Djevledalsbekken bru Koordinater Saltdal kommune Vedlegg 30.7 Kollstraumen bru og tunnel Koordinater Bindal kommune Vedlegg 30.8 Leir bru Koordinater Grong kommune Vedlegg 30.9 Namsbrua Koordinater Namsos – Nåavmesjenjaelmie kommune Vedlegg 30.10 Straumbrua Koordinater Inderøy kommune Vedlegg 30.11 Skarnsundbrua Koordinater Inderøy kommune Vedlegg 30.12 Elgeseter bru Koordinater Trondheim – Tråante kommune Vedlegg 30.13 Bergsøysundbrua Koordinater Gjemnes og Tingvoll kommuner Vedlegg 30.14 Salhus ferjekai Koordinater Bergen kommune Vedlegg 30.15 Grjotland bru Koordinater Voss kommune Vedlegg 30.16 Trolljuv bru og tunneler Koordinater Etne kommune Vedlegg 30.17 Strømsund bru Koordinater Karmøy kommune Vedlegg 30.18 Terland Klopp Koordinater Eigersund kommune Vedlegg 30.19 Gamle Bjelland bru Koordinater Lindesnes kommune Vedlegg 30.20 Bjelland bru Koordinater Lindesnes kommune Vedlegg 30.21 Kjevik bru Koordinater Kristiansand kommune Vedlegg 30.22 Østerhus bru Koordinater Åseral kommune Vedlegg 30.23 Storstraumen gamle bruer Koordinater Bygland kommune Vedlegg 30.24 Storstraumen nye bruer Koordinater Bygland kommune Vedlegg 30.25 Fosstveit bru Koordinater Tvedestrand kommune Vedlegg 30.26 Brevik bru Koordinater Bamble og Porsgrunn kommuner Vedlegg 30.27 Grenlandsbrua Koordinater Bamble og Porsgrunn kommuner Vedlegg 30.28 Bommestad bru Koordinater Larvik kommune Vedlegg 30.29 Tønsberg kanalbru Koordinater Tønsberg kommune Vedlegg 30.30 Gulsvik gamle bru Koordinater Flå kommune Vedlegg 30.31 Løka gamle bru Koordinater Kongsberg kommune Vedlegg 30.32 Fredrikstad bru Koordinater Fredrikstad kommune Vedlegg 30.33 Langset bru Koordinater Eidsvoll kommune Vedlegg 30.34 Minnesund bru Koordinater Eidsvoll kommune Vedlegg 30.35 Sagkrakken gangbru Koordinater Oslo kommune Vedlegg 30.36 Fiskevollbukta gang- og sykkelbru Koordinater Oslo kommune Vedlegg 30.37</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1976 , endret ved forskrift 10 nov 2023 nr. 2028 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1976 , endret ved forskrift 10 nov 2023 nr. 2028 .</p>
 <h4 id="30-2-frist-for-forvaltningsplan">§ 30-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2027.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1976 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1976 .</p>
 <h4 id="30-3-tiltak-pa-fredet-bru">§ 30-3. Tiltak på fredet bru</h4>
 <p>På Fredrikstad bru tillates det å henge på gang- og sykkelbane. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-7 .</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1976 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1976 .</p>
 <h2 id="kapittel-31-fredete-eiendommer-i-landsverneplan-for-statens-vegvesen-byggverk">Kapittel 31. Fredete eiendommer i landsverneplan for Statens vegvesen – byggverk</h2>
 <p>Tilføyd ved forskrift 17 nov 2022 nr. 1977 .</p>
 <h4 id="31-1-omfang-og-vedlegg">§ 31-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendommer: Langvasseid tjenestebolig gnr./bnr. 22/54 Sør-Varanger kommune Vedlegg 31.1 Vegsletta verksted gnr./bnr. 8/332 Vadsø kommune Vedlegg 31.2 Talvik vegstasjon gnr./bnr. 12/78 Alta kommune Vedlegg 31.3 Hatteng tjenestebolig gnr./bnr. 52/42 Storfjord – Omasvuotna – Omasvuono kommune Vedlegg 31.4 Sørelva oppsynsmannskapsbrakke gnr./bnr. 76/5 Saltdal kommune Vedlegg 31.5 Grønnbakken smie gnr./bnr. 62/2 Oppdal kommune Vedlegg 31.6 Blåfjellbrakka gnr./bnr. 119/14 Stranda kommune Vedlegg 31.7 Skodje vegstasjon gnr./bnr. 515/1 Ålesund kommune Vedlegg 31.8 Dyrskar anleggsbrakke gnr./bnr. 01/10 Ullensvang kommune Vedlegg 31.9 Nupshadlane tjenestebolig gnr./bnr. 01/10 Ullensvang kommune Vedlegg 31.10 Haukeli brøytestasjon gnr./bnr. 99/244 Vinje kommune Vedlegg 31.11 Naglestad brøytestasjon gnr./bnr. 8/14 Hægebostad kommune Vedlegg 31.12 Kullerødlia oppmøtestasjon gnr./bnr. 635/1 Sandefjord kommune Vedlegg 31.13 Solum kontrollstasjon gnr./bnr. 4076/14 Larvik kommune Vedlegg 31.14 Ørje vegstasjon gnr./bnr. 91/64 Marker kommune Vedlegg 31.15 Veggli vegstasjon gnr./bnr. 11/12 Rollag kommune Vedlegg 31.16 Fokstugu veggarasje gnr./bnr. 2/1/6 Dovre kommune Vedlegg 31.17 Tynset vegstasjon gnr./bnr. 75/197 Tynset kommune Vedlegg 31.18 Skougsand strøsandsilo gnr./bnr. 435/17 Ringsaker kommune Vedlegg 31.19</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1977 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1977 .</p>
 <h4 id="31-2-frist-for-forvaltningsplan">§ 31-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplanene skal være utarbeidet innen utgangen av år 2027.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2022 nr. 1977 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2022 nr. 1977 .</p>
 <h2 id="kapittel-32-victoria-terrasse-oslo">Kapittel 32. Victoria terrasse, Oslo</h2>
 <p>Tilføyd ved forskrift 21 mars 2025 nr. 499 .</p>
 <h4 id="32-1-omfang-og-vedlegg">§ 32-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Victoria terrasse gnr./bnr. 209/367, 402, 404, 407 Oslo kommune Vedlegg 32.1</p>
-<p><em>Tilføyd ved forskrift 21 mars 2025 nr. 499 .</em></p>
+<p class="note">Tilføyd ved forskrift 21 mars 2025 nr. 499 .</p>
 <h4 id="32-2-frist-for-forvaltningsplan">§ 32-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplan skal være utarbeidet før avhending.</p>
-<p><em>Tilføyd ved forskrift 21 mars 2025 nr. 499 .</em></p>
+<p class="note">Tilføyd ved forskrift 21 mars 2025 nr. 499 .</p>
 <h4 id="32-3-srbestemmelser">§ 32-3. Særbestemmelser</h4>
 <p><em>Fredningen er ikke til hinder for at rotunden i bakgården av nord-kvartalet rives. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-4 . Fredningen er ikke til hinder for at det kan oppføres nye bygg i bakgårdene i Midtkvartalet og Nordkvartalet. Nye bygg kan ikke være høyere enn eksisterende gesimshøyde, slik at de ikke blir synlige sett utenfra. Tiltak skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-4 .
 Tilføyd ved forskrift 21 mars 2025 nr. 499 .</em></p>
@@ -454,10 +739,10 @@ Tilføyd ved forskrift 21 mars 2025 nr. 499 .</em></p>
 <p>Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</p>
 <h4 id="33-1-omfang-og-vedlegg">§ 33-1. Omfang og vedlegg</h4>
 <p>Fredningen omfatter følgende eiendom: Sinsenveien 76 gnr./bnr. 85/263 Oslo kommune Vedlegg 33.1</p>
-<p><em>Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</p>
 <h4 id="33-2-frist-for-forvaltningsplan">§ 33-2. Frist for forvaltningsplan</h4>
 <p>Forvaltningsplan skal være utarbeidet innen ett år etter mottatt brukstillatelse.</p>
-<p><em>Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</p>
 <h4 id="33-3-tiltak-pa-bygninger">§ 33-3. Tiltak på bygninger</h4>
 <p>Fredningen er ikke til hinder for:</p>
 <p>a. følgende tiltak i henhold til Statlig reguleringsplan for Aker sykehus i Oslo kommune, arealplan-ID: NO-201704677:
@@ -468,7 +753,7 @@ b. etablering av følgende nye innganger, forutsatt at de er antikvarisk tilpass
   • akuttinngang ved nordøstre hjørne av blokk 3 østfløy,
   • rømningsdør i første vindu vest for det store glasspartiet på blokk 1 hovedfløyens nordre fasade.</p>
 <p>Tiltakene skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-4 .</p>
-<p><em>Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</p>
 <h4 id="33-4-tiltak-i-utomhusanlegg">§ 33-4. Tiltak i utomhusanlegg</h4>
 <p>Ny beplantning og vegetasjon skal være tilpasset anleggets historiske egenart. I det fredete utomhusanlegget er det ikke tillatt å oppføre byggverk, som drivhus etc.</p>
 <p>Fredningen er likevel ikke til hinder for:</p>
@@ -478,10 +763,12 @@ c. nødvendige terrenginngrep for overvannshåndtering og universell utforming
 d. opparbeiding av et mindre amfi med trapp sørvest på eiendommen
 e. skjæring i terreng og etablering av ny mur med nødvendige sikringstiltak langs ny kjørevei mot sør, jf. Statlig reguleringsplan for Aker sykehus i Oslo kommune, arealplan-ID: NO-201704677.</p>
 <p>Tiltakene skal på forhånd godkjennes av forvaltningsmyndigheten, jf. § 1-4 .</p>
-<p><em>Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 okt 2025 nr. 2079 .</p>
 <h2 id="kapittel-x-ikraftsetting">Kapittel X. Ikraftsetting</h2>
 <h4 id="x-1-ikraftsetting">§ x-1. Ikraftsetting</h4>
 <p>Forskriften trer i kraft straks.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

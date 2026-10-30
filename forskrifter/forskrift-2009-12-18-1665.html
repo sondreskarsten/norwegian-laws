@@ -19,73 +19,180 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-18-1665.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Energimerkeforskriften for bygninger" href="../feeds/forskrift-2009-12-18-1665.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Energimerkeforskriften for bygninger</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-12-18-1665</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-04-02-591</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1665" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-myndighet">§ 2. Virkeområde og myndighet</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-energimerking-av-boliger-og-bygninger">Kapittel II. Energimerking av boliger og bygninger</a></li>
+<li class="lvl4"><a href="#4-plikt-til-a-ha-energiattest">§ 4. Plikt til å ha energiattest</a></li>
+<li class="lvl4"><a href="#5-energiattest-ved-salg-av-boliger-eller-bygninger">§ 5. Energiattest ved salg av boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#6-energiattest-ved-utleie-av-boliger-eller-bygninger">§ 6. Energiattest ved utleie av boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#7-energiattest-ved-ferdigstillelse-av-nye-boliger-eller-bygninger">§ 7. Energiattest ved ferdigstillelse av nye boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#8-energiattest-for-offentlige-bygninger-over-250-m2">§ 8. Energiattest for offentlige bygninger over 250 m2</a></li>
+<li class="lvl4"><a href="#8a-synlig-sammendrag-av-energiattesten">§ 8a. Synlig sammendrag av energiattesten</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-plikten-til-a-ha-energiattest">§ 9. Unntak fra plikten til å ha energiattest</a></li>
+<li class="lvl4"><a href="#10-utstedelse-og-utforming-av-energiattesten">§ 10. Utstedelse og utforming av energiattesten</a></li>
+<li class="lvl4"><a href="#10a-metode-for-beregning-av-energikarakteren">§ 10a. Metode for beregning av energikarakteren</a></li>
+<li class="lvl4"><a href="#10b-energikarakterskalaen">§ 10b. Energikarakterskalaen</a></li>
+<li class="lvl4"><a href="#11-innholdet-i-energiattest">§ 11. Innholdet i energiattest</a></li>
+<li class="lvl4"><a href="#12-registrering-for-energiattest">§ 12. Registrering for energiattest</a></li>
+<li class="lvl2"><a href="#kapittel-iii-energivurdering-av-varme-og-klimaanlegg">Kapittel III. Energivurdering av varme- og klimaanlegg</a></li>
+<li class="lvl4"><a href="#13-plikt-til-a-gjennomfre-energivurdering-av-varme-og-klimaanlegg">§ 13. Plikt til å gjennomføre energivurdering av varme- og klimaanlegg</a></li>
+<li class="lvl4"><a href="#14-utarbeidelse-av-rapport-fra-energivurdering">§ 14. Utarbeidelse av rapport fra energivurdering</a></li>
+<li class="lvl4"><a href="#15-krav-til-gjennomfring-av-energivurdering">§ 15. Krav til gjennomføring av energivurdering</a></li>
+<li class="lvl4"><a href="#16-registrering-av-energivurdering">§ 16. Registrering av energivurdering</a></li>
+<li class="lvl2"><a href="#kapittel-iv-kompetansekrav">Kapittel IV. Kompetansekrav</a></li>
+<li class="lvl4"><a href="#17-kompetansekrav-til-a-utfre-energimerking">§ 17. Kompetansekrav til å utføre energimerking</a></li>
+<li class="lvl4"><a href="#18-kompetansekrav-til-a-utfre-energivurdering">§ 18. Kompetansekrav til å utføre energivurdering</a></li>
+<li class="lvl2"><a href="#kapittel-v-diverse-bestemmelser">Kapittel V: Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#19-energimerkedatabasen">§ 19. Energimerkedatabasen</a></li>
+<li class="lvl4"><a href="#20-tilsyn-og-kontroll">§ 20. Tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#21-palegg-og-vrige-vedtak">§ 21. Pålegg og øvrige vedtak</a></li>
+<li class="lvl4"><a href="#22-overtredelsesgebyr">§ 22. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse-og-overgangsbestemmelser">§ 23. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-04-02-591.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1665.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om energimerking av bygninger og energivurdering av varme- og klimaanlegg (energimerkeforskriften for bygninger)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1665.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-12-18-1665 <code>forskrift/2009-12-18-1665</code></td></tr>
+<tr><th>Korttittel</th><td>Energimerkeforskriften for bygninger</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-04-02-591 <code>forskrift/2025-04-02-591</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1665" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade-og-myndighet">§ 2. Virkeområde og myndighet</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-energimerking-av-boliger-og-bygninger">Kapittel II. Energimerking av boliger og bygninger</a></li>
+<li class="lvl4"><a href="#4-plikt-til-a-ha-energiattest">§ 4. Plikt til å ha energiattest</a></li>
+<li class="lvl4"><a href="#5-energiattest-ved-salg-av-boliger-eller-bygninger">§ 5. Energiattest ved salg av boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#6-energiattest-ved-utleie-av-boliger-eller-bygninger">§ 6. Energiattest ved utleie av boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#7-energiattest-ved-ferdigstillelse-av-nye-boliger-eller-bygninger">§ 7. Energiattest ved ferdigstillelse av nye boliger eller bygninger</a></li>
+<li class="lvl4"><a href="#8-energiattest-for-offentlige-bygninger-over-250-m2">§ 8. Energiattest for offentlige bygninger over 250 m2</a></li>
+<li class="lvl4"><a href="#8a-synlig-sammendrag-av-energiattesten">§ 8a. Synlig sammendrag av energiattesten</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-plikten-til-a-ha-energiattest">§ 9. Unntak fra plikten til å ha energiattest</a></li>
+<li class="lvl4"><a href="#10-utstedelse-og-utforming-av-energiattesten">§ 10. Utstedelse og utforming av energiattesten</a></li>
+<li class="lvl4"><a href="#10a-metode-for-beregning-av-energikarakteren">§ 10a. Metode for beregning av energikarakteren</a></li>
+<li class="lvl4"><a href="#10b-energikarakterskalaen">§ 10b. Energikarakterskalaen</a></li>
+<li class="lvl4"><a href="#11-innholdet-i-energiattest">§ 11. Innholdet i energiattest</a></li>
+<li class="lvl4"><a href="#12-registrering-for-energiattest">§ 12. Registrering for energiattest</a></li>
+<li class="lvl2"><a href="#kapittel-iii-energivurdering-av-varme-og-klimaanlegg">Kapittel III. Energivurdering av varme- og klimaanlegg</a></li>
+<li class="lvl4"><a href="#13-plikt-til-a-gjennomfre-energivurdering-av-varme-og-klimaanlegg">§ 13. Plikt til å gjennomføre energivurdering av varme- og klimaanlegg</a></li>
+<li class="lvl4"><a href="#14-utarbeidelse-av-rapport-fra-energivurdering">§ 14. Utarbeidelse av rapport fra energivurdering</a></li>
+<li class="lvl4"><a href="#15-krav-til-gjennomfring-av-energivurdering">§ 15. Krav til gjennomføring av energivurdering</a></li>
+<li class="lvl4"><a href="#16-registrering-av-energivurdering">§ 16. Registrering av energivurdering</a></li>
+<li class="lvl2"><a href="#kapittel-iv-kompetansekrav">Kapittel IV. Kompetansekrav</a></li>
+<li class="lvl4"><a href="#17-kompetansekrav-til-a-utfre-energimerking">§ 17. Kompetansekrav til å utføre energimerking</a></li>
+<li class="lvl4"><a href="#18-kompetansekrav-til-a-utfre-energivurdering">§ 18. Kompetansekrav til å utføre energivurdering</a></li>
+<li class="lvl2"><a href="#kapittel-v-diverse-bestemmelser">Kapittel V: Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#19-energimerkedatabasen">§ 19. Energimerkedatabasen</a></li>
+<li class="lvl4"><a href="#20-tilsyn-og-kontroll">§ 20. Tilsyn og kontroll</a></li>
+<li class="lvl4"><a href="#21-palegg-og-vrige-vedtak">§ 21. Pålegg og øvrige vedtak</a></li>
+<li class="lvl4"><a href="#22-overtredelsesgebyr">§ 22. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse-og-overgangsbestemmelser">§ 23. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1665.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1665.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1665.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-12-18-1665.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-12-18-1665.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-12-18-1665.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-12-18-1665.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-12-18-1665.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-12-18-1665.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-energimerking-av-bygninger-og-energivurdering-av-varme-og-klimaanlegg-energimerkeforskriften-for-bygninger">Forskrift om energimerking av bygninger og energivurdering av varme- og klimaanlegg (energimerkeforskriften for bygninger)</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften skal bidra til å sikre informasjon om boliger, bygningers og tekniske anleggs energitilstand og mulighetene for forbedring gjennom konkrete energitiltak.</p>
-<p><em>Endret ved forskrifter 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="2-virkeomrade-og-myndighet">§ 2. Virkeområde og myndighet</h4>
 <p>Forskriften regulerer energimerking av boliger og bygninger og energivurdering av varme- og klimaanlegg i boliger og bygninger, hvis ikke annet er fastsatt.</p>
 <p>Enova SF forvalter energimerkesystemet innenfor rammene av forskriftens bestemmelser. Norges vassdrags- og energidirektorat (NVE) er tilsynsmyndighet.</p>
 <p>Denne forskriften kan ikke fravikes ved avtale.</p>
-<p><em>Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. bygning: en konstruksjon med tak, vegger og tekniske installasjoner som er varig forbundet med grunnen, der det brukes energi for å påvirke inneklimaet. Som bygning regnes også del av slik konstruksjon som er utformet eller endret for separat bruk. Som bygning regnes også brakker og andre midlertidige bygninger når disse planlegges benyttet i mer enn to år,
@@ -105,40 +212,40 @@ i. energiattest: en attest som består av et energimerke, en tiltaksliste for mu
 j. energimerke: en visuell fremstilling av en bygnings energitilstand, som viser energikarakteren på en energikarakterskala fra A til G,
 k. energimerkesystem: system for energimerking av bygninger og energivurdering av varme- og klimaanlegg. Systemet utformes, driftes og utvikles av Enova SF,
 l. bygning som ofte besøkes av allmennheten: en bygning som omfattes av følgende bygningskategorier etter norsk standard for beregning av bygningers energiytelse: barnehager, kontorbygning, skolebygning, universitet/høyskole, sykehus, sykehjem, hotellbygning, idrettsbygning, forretningsbygning og kulturbygning. Bygning som ikke er åpen for besøk fra privatpersoner, er unntatt.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h2 id="kapittel-ii-energimerking-av-boliger-og-bygninger">Kapittel II. Energimerking av boliger og bygninger</h2>
 <h4 id="4-plikt-til-a-ha-energiattest">§ 4. Plikt til å ha energiattest</h4>
 <p>Eier skal sørge for at bolig eller bygning har energiattest i tilfeller som nevnt i § 5 til § 9 . Plikten er vedvarende og gjelder selv om forrige eier ikke har etterkommet kravene.</p>
 <p>Energiattesten er gyldig i inntil 10 år fra dato for utstedelse, eller til det er gjennomført vesentlige bygningsendringer eller endringer i de tekniske systemer som påvirker energimerket eller til ny energiattest er utstedt.</p>
 <p>Eier av bolig i bygning med flere boenheter kan oppfylle plikten etter § 5 og § 6 med energiattest for bygningen som helhet, forutsatt at denne er utarbeidet av en virksomhet som oppfyller kompetansekravene.</p>
 <p>Bygninger som er sammensatt av deler som tilhører ulike bygningskategorier, skal ha en energiattest for hver enkelt del.</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="5-energiattest-ved-salg-av-boliger-eller-bygninger">§ 5. Energiattest ved salg av boliger eller bygninger</h4>
 <p>Eier skal legge frem energiattest for kjøper, før avtale om salg av boligen eller bygningen blir inngått.</p>
 <p>For boliger og bygninger som ikke er ferdigstilt kan eier, i stedet for å legge frem en energiattest, garantere for energikarakter før avtale om salg av boligen eller bygningen blir inngått. Endelig energiattest skal i så fall legges frem før ferdigstillelse, jf. § 7 .</p>
 <p>Dersom eier ikke har lagt frem energiattest før avtale om salg er inngått, kan kjøper få laget en energiattest for selgers regning, innen ett år etter at avtale om salg er inngått.</p>
 <p>Dersom salg av bolig eller bygning markedsføres, skal energiattesten være en del av denne markedsføringen. Energimerket eller en forenklet gjengivelse av energimerket skal vises i annonser og lignende.</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="6-energiattest-ved-utleie-av-boliger-eller-bygninger">§ 6. Energiattest ved utleie av boliger eller bygninger</h4>
 <p>Eier skal legge frem energiattest for leietaker, før avtale om utleie av bolig eller bygning blir inngått.</p>
 <p>For boliger og bygninger som ikke er ferdigstilt kan eier, i stedet for å legge frem en energiattest, garantere for energikarakter før avtale om utleie av boligen eller bygningen blir inngått. Endelig energiattest skal i så fall legges frem før ferdigstillelse, jf. § 7 .</p>
 <p>Dersom utleie av boligen eller bygningen markedsføres, skal energiattesten være en del av denne markedsføringen. Energimerket eller en forenklet gjengivelse av energimerket skal vises i annonser og lignende.</p>
 <p>Dersom en bygning utelukkende består av utleieboliger, kan plikten i første og andre ledd oppfylles ved å legge frem energiattest for en representativ bolig i bygningen.</p>
 <p>Bestemmelsen gjelder ikke for utleie av bolig og fritidsbolig som blir benyttet mindre enn fire måneder i året.</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="7-energiattest-ved-ferdigstillelse-av-nye-boliger-eller-bygninger">§ 7. Energiattest ved ferdigstillelse av nye boliger eller bygninger</h4>
 <p>Eier skal ha energiattest for nyoppført bolig eller bygning, før ferdigstillelse, jf. forskrift 26. mars 2010 nr. 488 om byggesak (byggesaksforskriften).</p>
 <p>Likestilt med nyoppført bolig eller bygning er hovedombygging av eksisterende bolig eller bygning, jf. plan- og bygningsloven 27. juni 2008 nr. 71 .</p>
 <p>Det er byggherren som plikter å innhente energiattest før ferdigstillelse. Dersom det ikke foreligger energiattest for nyoppført bolig eller bygning kan senere eier få innhentet en energiattest for selgers regning, innen ett år etter ferdigstillelse.</p>
-<p><em>Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="8-energiattest-for-offentlige-bygninger-over-250-m2">§ 8. Energiattest for offentlige bygninger over 250 m2</h4>
 <p>Eier av bygning skal innhente energiattest, dersom mer enn 250 m 2 av bygningens oppvarmede bruksareal brukes av offentlige myndigheter, og bygningen ofte besøkes av allmennheten.</p>
 <p>Eier av bygning skal innhente energiattest, dersom mer enn 250 m 2 av bygningens oppvarmede bruksareal brukes av departementer, direktorater og statlige tilsynsorgan.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="8a-synlig-sammendrag-av-energiattesten">§ 8a. Synlig sammendrag av energiattesten</h4>
 <p>Eier av bygning med energiattest i henhold til § 5 til § 7 , skal plassere et sammendrag av energiattesten synlig for brukerne av bygningen dersom bygningen har et samlet oppvarmet bruksareal over 500 m 2 og ofte besøkes av allmennheten. Sammendraget skal inneholde energimerket og referanseverdier som gjør det mulig for eier eller leier å sammenligne eller vurdere bygningens energitilstand.</p>
 <p>Eier av bygning som nevnt i § 8 skal plassere et sammendrag av energiattesten synlig for brukerne av bygningen.</p>
-<p><em>Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="9-unntak-fra-plikten-til-a-ha-energiattest">§ 9. Unntak fra plikten til å ha energiattest</h4>
 <p>Følgende boliger og bygninger er unntatt fra plikten til å ha energiattest:</p>
 <p>a. frittstående bygninger med mindre enn 50 m 2 bruksareal,
@@ -149,12 +256,12 @@ e. driftsbygninger i landbruket med lavt energibehov til oppvarming og drift av 
 f. industrianlegg og verksteder med lavt energibehov til oppvarming og drift av bygningens tekniske anlegg,
 g. bolig eller bygning som etter avtale selges for nedrivning.</p>
 <p>Dersom over halvparten av det samlede areal i en bolig eller bygning brukes til formål som nevnt i denne paragrafen, er boligen eller bygningen som helhet unntatt fra plikten i denne forskriften.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012).</p>
 <h4 id="10-utstedelse-og-utforming-av-energiattesten">§ 10. Utstedelse og utforming av energiattesten</h4>
 <p>Energiattesten utstedes av Enova SF gjennom energimerkesystemet. Andre beregningssystemer kan benyttes til registrering av informasjon og beregning, dersom disse kan beregne energitilstanden i samsvar med NS 3031:2025. Beregningssystemet må kunne overføre data til energimerkesystemet og være validert slik NS 3031:2025 krever.</p>
 <p>Ved bruk av eksterne systemer skal eier kunne legge frem dokumentasjon av grunnlaget for beregningen på forespørsel fra NVE eller i forbindelse med markedsføring.</p>
 <p>Energiattestens utseende bestemmes av Enova SF, innenfor rammene av denne forskrift.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 2 april 2025 nr. 591 (i kraft 1 jan 2026), 2 april 2025 nr. 591 (i kraft 1 jan 2026 iflg. vedtak 8 des 2025 nr. 2462 ).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 2 april 2025 nr. 591 (i kraft 1 jan 2026), 2 april 2025 nr. 591 (i kraft 1 jan 2026 iflg. vedtak 8 des 2025 nr. 2462 ).</p>
 <h4 id="10a-metode-for-beregning-av-energikarakteren">§ 10a. Metode for beregning av energikarakteren</h4>
 <p>Energikarakteren skal beregnes etter NS 3031:2025, med de presiseringer og unntak som følger av denne forskrift.</p>
 <p>For boliger kan det gjøres en forenklet beregning etter kriterier som Enova SF bestemmer.</p>
@@ -169,11 +276,11 @@ f. Eksportert energi: 0.</p>
 <p>Et oppvarmingssystem anses å være innenfor bygningens systemgrense dersom anlegget forsyner inntil fem bygninger, eller varmen leveres innenfor samme virksomhet uten eksternt salg.</p>
 <p>Installert vedovn skal anses å bidra med 10 prosent av behovet for romoppvarming. Vektingsfaktor på 0,45 kan bare anvendes dersom vedovnen er lukket og har et vektet gjennomsnittlig partikkelutslipp pr. kg forbrent ved som ikke overstiger 5 g for ovner med katalysator og 10 g for ovner med annen teknologi. Ellers anvendes vektingsfaktor 1.</p>
 <p>Energikarakteren skal beregnes etter standard referanseklima med utgangspunkt i klimadata fra Oslo-området.</p>
-<p><em>Tilføyd ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026), endret ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026 iflg. vedtak 8 des 2025 nr. 2462 ).</em></p>
+<p class="note">Tilføyd ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026), endret ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026 iflg. vedtak 8 des 2025 nr. 2462 ).</p>
 <h4 id="10b-energikarakterskalaen">§ 10b. Energikarakterskalaen</h4>
 <p>Enova SF bestemmer energikarakterskalaen basert på vektet levert energi per m 2 oppvarmet bruksareal, innenfor rammene av denne forskrift.</p>
 <p>Den nedre grensen for energikarakter A skal tilsvare energikravene i TEK17 fratrukket 15 prosent. Bygg som innfrir energikravene i TEK17 skal tilsvare energikarakter B. Den øvre grensen for energikarakter G skal settes slik at byggene som anslås å være de 15 prosent minst energieffektive i hver bygningskategori får energikarakter G. Energikarakterene mellom C og G skal fordeles slik at det blir lik innbyrdes avstand mellom karakterene.</p>
-<p><em>Tilføyd ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="11-innholdet-i-energiattest">§ 11. Innholdet i energiattest</h4>
 <p>Energiattest skal inneholde:</p>
 <p>a. Et energimerke som skal gjengi resultatet av beregningen etter § 10a . Energimerket gir en indikasjon på om boligen eller bygningen har et høyt eller lavt energibehov sammenlignet med andre boliger og bygninger innen samme bygningskategori med samme oppvarmingsløsning. Beste karakter kan ikke gis uten at det er gjennomført tetthetskontroll.
@@ -182,12 +289,12 @@ c. Dokumentasjon av de mest sentrale faktiske opplysninger utregningen bygger p�
 d. For yrkesbygning som er i drift, skal målt energibruk for de tre siste år oppgis.
 e. Et sammendrag som er egnet for oppslag og som minst inneholder energimerket og referanseverdier som gjør det mulig for eier eller leier å sammenligne eller vurdere bygningens energitilstand.</p>
 <p>Energiattest skal ikke inneholde navn eller personnummer.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024), 2 april 2025 nr. 591 (i kraft 1 jan 2026).</p>
 <h4 id="12-registrering-for-energiattest">§ 12. Registrering for energiattest</h4>
 <p>Eier av bolig eller bygning plikter å sørge for at nødvendig og korrekt informasjon blir registrert i energimerkesystemet slik at energiattest kan utstedes.</p>
 <p>Registreringen gjøres av eieren selv eller den eieren gir fullmakt.</p>
 <p>For yrkesbygg, offentlige bygninger og nye bygninger som omfattes av § 5 til § 8 gjelder kompetansekravene som stilles i § 17 for gjennomføring av registreringen.</p>
-<p><em>Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h2 id="kapittel-iii-energivurdering-av-varme-og-klimaanlegg">Kapittel III. Energivurdering av varme- og klimaanlegg</h2>
 <p>Kapitteloverskrift endret ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="13-plikt-til-a-gjennomfre-energivurdering-av-varme-og-klimaanlegg">§ 13. Plikt til å gjennomføre energivurdering av varme- og klimaanlegg</h4>
@@ -200,7 +307,7 @@ b. klimaanlegg med samlet installert effekt høyere enn 12 kW eller klimaanlegge
 <p>Eier av klimaanlegg skal, så langt det lar seg gjøre uten urimelige kostnader, ha installert energimåler på anlegget der mobilt måleutstyr ikke er tilstrekkelig for å måle medgått energi. Både nødvendig energi til å drive anlegget samt produsert varmeenergi eventuelt kjølenergi i anlegget skal måles. Eier av nye anlegg skal ha installert energimåler på anlegget for å måle medgått energi, eller utstyr for å kunne bestemme årsvirkningsgraden indirekte.</p>
 <p>Eier oppfyller plikten til energivurdering hvis virksomheten har gyldig sertifisering i et energiledelsessystem eller miljøledelsessystem og dette systemet omfatter en vurdering av anleggets energieffektivitet og dimensjonering.</p>
 <p>Unntaket i § 9 første ledd bokstav f gjelder tilsvarende etter denne bestemmelsen.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="14-utarbeidelse-av-rapport-fra-energivurdering">§ 14. Utarbeidelse av rapport fra energivurdering</h4>
 <p>Det skal utarbeides en rapport etter energivurderingen av varme- og klimaanlegg. Eieren plikter på forespørsel fra NVE og interesserte kjøpere eller leietakere å vise frem rapporten, eventuelt dokumentasjon fra energi- eller miljøledelsessystem. Rapporten fra energivurderingen skal minimum ha følgende innhold:</p>
 <p>a. bygningsidentifikasjon, herunder navn på eier
@@ -210,22 +317,22 @@ d. dokumentasjon av registrerte data
 e. tiltaksliste med anbefalinger om forbedringer av bygningens energitilstand og dimensjonering i forhold til behov
 f. underskrift og opplysninger om den som er ansvarlig for vurderingen
 g. generell informasjon om energivurderingsrapporten.</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="15-krav-til-gjennomfring-av-energivurdering">§ 15. Krav til gjennomføring av energivurdering</h4>
 <p>Energivurdering etter § 13 skal gjennomføres ved en fysisk befaring av anlegget og gjennomgang av foreliggende dokumentasjon. Så langt det er mulig skal energivurderingen benytte målte verdier.</p>
 <p>Energivurderingen må skje av en uavhengig virksomhet som tilfredsstiller de kompetansekrav som stilles i § 18 .</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="16-registrering-av-energivurdering">§ 16. Registrering av energivurdering</h4>
 <p>Rapporten fra energivurderingen skal registreres i energimerkesystemet.</p>
 <p>Registreringen må gjennomføres av en uavhengig virksomhet som tilfredsstiller de kompetansekrav som stilles i § 18 .</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 17).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 17).</p>
 <h2 id="kapittel-iv-kompetansekrav">Kapittel IV. Kompetansekrav</h2>
 <p>Kapitteloverskrift endret ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="17-kompetansekrav-til-a-utfre-energimerking">§ 17. Kompetansekrav til å utføre energimerking</h4>
 <p>For virksomheter som utfører energimerking av yrkesbygg eller bygning med flere boenheter, jf. § 5 til § 9 , kreves det at virksomheten innehar ingeniørkompetanse på bachelornivå med hovedvekt på bygningsteknikk- og energifag og minimum to års praksis fra energiberegninger for bygninger med tekniske anlegg. Virksomheten må benytte personell med nødvendige og relevante kvalifikasjoner til å utføre energimerkingen.</p>
 <p>For energimerking av nye bygninger, jf. § 5 til § 7 , kreves det opplæring og praksis som tilsvarer de til enhver tid gjeldende krav for ansvarlig prosjekterende innen relevant tiltaksklasse, jf. plan- og bygningsloven . Kompetansekravene er oppfylt dersom virksomheten som er ansvarlig for merkingen har personell med den nødvendige kompetansen, og denne benyttes for energimerkingen.</p>
 <p>Eier har ansvar for at kompetansekravene er oppfylt, og skal kunne fremskaffe dokumentasjon på dette på forespørsel fra NVE, kjøper eller leietaker.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 18).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 18).</p>
 <h4 id="18-kompetansekrav-til-a-utfre-energivurdering">§ 18. Kompetansekrav til å utføre energivurdering</h4>
 <p>For energivurdering av varme- og klimaanlegg kreves det følgende kompetanse:</p>
 <p>a. for varmeanlegg med samlet installert effekt høyere enn 20 kW: minst to års yrkeserfaring fra installasjon, ettersyn og/eller drift av slike varmeanlegg,
@@ -234,7 +341,7 @@ c. for varmeanlegg når dimensjonering skal vurderes: minimum to års godkjent f
 d. for klimaanlegg: minimum to års godkjent fagskoleutdanning i relevant fagretning. I tillegg kreves det to års yrkeserfaring fra energiberegning i bygninger.</p>
 <p>Kompetansekravene er oppfylt dersom virksomheten som er ansvarlig for vurderingen har personell med nødvendige kompetansen, og denne benyttes for vurderingene.</p>
 <p>Eier har ansvar for at kompetansekravene er oppfylt, og skal kunne fremskaffe dokumentasjon på dette på forespørsel fra NVE, kjøper eller leietaker.</p>
-<p><em>Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 19).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2011 nr. 1240 (i kraft 1 jan 2012), 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 19).</p>
 <h2 id="kapittel-v-diverse-bestemmelser">Kapittel V: Diverse bestemmelser</h2>
 <p>Kapitteloverskrift tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="19-energimerkedatabasen">§ 19. Energimerkedatabasen</h4>
@@ -244,21 +351,23 @@ d. for klimaanlegg: minimum to års godkjent fagskoleutdanning i relevant fagret
 <p>Data fra databasen skal være tilgjengelig for forskning og statistiske formål, uten at fødselsnummer eller, organisasjonsnummer eller enkeltbygninger kan identifiseres.</p>
 <p>Enova SF skal kunne gjøre energiattester, energivurderinger og utvalgte data lagret i databasen tilgjengelig for markedet. Den som innhenter energiattest for bolig skal kunne reservere seg mot at Enova SF gjør energiattesten, eller informasjon fra energiattesten, tilgjengelig.</p>
 <p>Norges vassdrags- og energidirektorat skal ha tilgang til alle data lagret i databasen.</p>
-<p><em>Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 20).</em></p>
+<p class="note">Endret ved forskrifter 27 juni 2016 nr. 823 (i kraft 1 juli 2016), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 20).</p>
 <h4 id="20-tilsyn-og-kontroll">§ 20. Tilsyn og kontroll</h4>
 <p>Norges vassdrags- og energidirektorat fører tilsyn med at bestemmelsene gitt i denne forskriften blir overholdt.</p>
 <p>Enhver som omfattes av denne forskriften skal medvirke til gjennomføring av tilsyn etter første ledd. Dette omfatter blant annet å fremskaffe opplysninger og dokumentasjon som er nødvendig for å gjennomføre tilsyn.</p>
-<p><em>Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="21-palegg-og-vrige-vedtak">§ 21. Pålegg og øvrige vedtak</h4>
 <p>Norges vassdrags- og energidirektorat kan gi de pålegg og treffe de øvrige vedtak som er nødvendige for gjennomføring av forskriften og vedtak fastsatt med hjemmel i forskriften.</p>
-<p><em>Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 28 feb 2024 nr. 356 (i kraft 1 mars 2024).</p>
 <h4 id="22-overtredelsesgebyr">§ 22. Overtredelsesgebyr</h4>
 <p>Ved overtredelse av bestemmelsene i § 4 til § 8 og § 12 til § 17 kan NVE ilegge overtredelsesgebyr i medhold av energiloven § 10-7 .</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 21).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 21).</p>
 <h4 id="23-ikrafttredelse-og-overgangsbestemmelser">§ 23. Ikrafttredelse og overgangsbestemmelser</h4>
 <p>Forskriften trer i kraft 1. januar 2010.</p>
 <p>For eier av boliger og bygninger gjelder pliktene etter § 5 til § 7 fra 1. juli 2010.</p>
-<p><em>Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 22).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2010 nr. 1034 (i kraft 1 juli 2010), 28 feb 2024 nr. 356 (i kraft 1 mars 2024, tidligere § 22).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

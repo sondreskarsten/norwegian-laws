@@ -19,64 +19,179 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-07-15-980.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om rapportering, registrering og merking" href="../feeds/forskrift-2014-07-15-980.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Forskrift om rapportering, registrering og merking</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-07-15-980</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-09-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-23-1255</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-07-15-980" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-forskriftens-virkeomrade-og-definisjoner">Kapittel I. Forskriftens virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-luftfartshinder">§ 2. Luftfartshinder</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-rapportering-og-registrering-av-luftfartshinder">Kapittel II – Rapportering og registrering av luftfartshinder</a></li>
+<li class="lvl4"><a href="#4-rapporteringsplikt">§ 4. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#5-krav-til-rapporteringsnyaktighet">§ 5. Krav til rapporteringsnøyaktighet</a></li>
+<li class="lvl4"><a href="#6-nasjonalt-register-over-luftfartshindre">§ 6. Nasjonalt register over luftfartshindre</a></li>
+<li class="lvl2"><a href="#kapittel-iii-merking-av-luftfartshinder">Kapittel III – Merking av luftfartshinder</a></li>
+<li class="lvl4"><a href="#7-merkeplikt">§ 7. Merkeplikt</a></li>
+<li class="lvl4"><a href="#7a-system-for-behovsstyrt-tenning-av-hinderlys">§ 7a. System for behovsstyrt tenning av hinderlys</a></li>
+<li class="lvl4"><a href="#8-opphevet">§ 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-merking-av-luftspenn">§ 9. Merking av luftspenn</a></li>
+<li class="lvl4"><a href="#10-opphevet">§ 10. (Opphevet)</a></li>
+<li class="lvl4"><a href="#11-merking-av-broer">§ 11. Merking av broer</a></li>
+<li class="lvl4"><a href="#12-merking-av-stag-kabler-forankringsanordninger-mv">§ 12. Merking av stag, kabler, forankringsanordninger mv.</a></li>
+<li class="lvl4"><a href="#13-merking-av-forankrede-ballonger-draker-og-ubemannede-luftfarty">§ 13. Merking av forankrede ballonger, draker og ubemannede luftfartøy</a></li>
+<li class="lvl4"><a href="#14-markrer-mv">§ 14. Markører mv.</a></li>
+<li class="lvl4"><a href="#15-krav-til-fargemerking">§ 15. Krav til fargemerking</a></li>
+<li class="lvl4"><a href="#16-krav-til-hinderlys-og-lystype">§ 16. Krav til hinderlys og lystype</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-kontroll-og-vedlikehold-av-hindermerking">§ 18. Kontroll og vedlikehold av hindermerking</a></li>
+<li class="lvl4"><a href="#19-saksbehandling-ved-sknad-om-annen-merking-av-luftfartshinder">§ 19. Saksbehandling ved søknad om annen merking av luftfartshinder</a></li>
+<li class="lvl4"><a href="#20-krav-til-dokumentasjon-ved-sknad-om-annen-merking-av-luftfartshinder">§ 20. Krav til dokumentasjon ved søknad om annen merking av luftfartshinder</a></li>
+<li class="lvl2"><a href="#kapittel-iv-fellesbestemmelser">Kapittel IV – Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#21-dispensasjon">§ 21. Dispensasjon</a></li>
+<li class="lvl4"><a href="#22-overtredelsesgebyr">§ 22. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsbestemmelser">§ 24. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-1-fargekoder-luftfartshinder">Vedlegg 1. Fargekoder luftfartshinder</a></li>
+<li class="lvl2"><a href="#vedlegg-2-hinderlys-luftfartshinder">Vedlegg 2. Hinderlys luftfartshinder</a></li>
+<li class="lvl2"><a href="#vedlegg-3-merking-av-kryssende-luftspenn">Vedlegg 3. Merking av kryssende luftspenn</a></li>
+<li class="lvl2"><a href="#vedlegg-4-merking-av-kraner">Vedlegg 4. Merking av kraner</a></li>
+<li class="lvl2"><a href="#vedlegg-5-merking-med-hinderlys">Vedlegg 5. Merking med hinderlys</a></li>
+<li class="lvl2"><a href="#vedlegg-6-merking-med-farger">Vedlegg 6. Merking med farger</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-23-1255.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-15-980.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om rapportering, registrering og merking av luftfartshinder</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-07-15-980.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-07-15-980 <code>forskrift/2014-07-15-980</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.09.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-23-1255 <code>forskrift/2026-06-23-1255</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-07-15-980" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-forskriftens-virkeomrade-og-definisjoner">Kapittel I. Forskriftens virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-luftfartshinder">§ 2. Luftfartshinder</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-rapportering-og-registrering-av-luftfartshinder">Kapittel II – Rapportering og registrering av luftfartshinder</a></li>
+<li class="lvl4"><a href="#4-rapporteringsplikt">§ 4. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#5-krav-til-rapporteringsnyaktighet">§ 5. Krav til rapporteringsnøyaktighet</a></li>
+<li class="lvl4"><a href="#6-nasjonalt-register-over-luftfartshindre">§ 6. Nasjonalt register over luftfartshindre</a></li>
+<li class="lvl2"><a href="#kapittel-iii-merking-av-luftfartshinder">Kapittel III – Merking av luftfartshinder</a></li>
+<li class="lvl4"><a href="#7-merkeplikt">§ 7. Merkeplikt</a></li>
+<li class="lvl4"><a href="#7a-system-for-behovsstyrt-tenning-av-hinderlys">§ 7a. System for behovsstyrt tenning av hinderlys</a></li>
+<li class="lvl4"><a href="#8-opphevet">§ 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-merking-av-luftspenn">§ 9. Merking av luftspenn</a></li>
+<li class="lvl4"><a href="#10-opphevet">§ 10. (Opphevet)</a></li>
+<li class="lvl4"><a href="#11-merking-av-broer">§ 11. Merking av broer</a></li>
+<li class="lvl4"><a href="#12-merking-av-stag-kabler-forankringsanordninger-mv">§ 12. Merking av stag, kabler, forankringsanordninger mv.</a></li>
+<li class="lvl4"><a href="#13-merking-av-forankrede-ballonger-draker-og-ubemannede-luftfarty">§ 13. Merking av forankrede ballonger, draker og ubemannede luftfartøy</a></li>
+<li class="lvl4"><a href="#14-markrer-mv">§ 14. Markører mv.</a></li>
+<li class="lvl4"><a href="#15-krav-til-fargemerking">§ 15. Krav til fargemerking</a></li>
+<li class="lvl4"><a href="#16-krav-til-hinderlys-og-lystype">§ 16. Krav til hinderlys og lystype</a></li>
+<li class="lvl4"><a href="#17-opphevet">§ 17. (Opphevet)</a></li>
+<li class="lvl4"><a href="#18-kontroll-og-vedlikehold-av-hindermerking">§ 18. Kontroll og vedlikehold av hindermerking</a></li>
+<li class="lvl4"><a href="#19-saksbehandling-ved-sknad-om-annen-merking-av-luftfartshinder">§ 19. Saksbehandling ved søknad om annen merking av luftfartshinder</a></li>
+<li class="lvl4"><a href="#20-krav-til-dokumentasjon-ved-sknad-om-annen-merking-av-luftfartshinder">§ 20. Krav til dokumentasjon ved søknad om annen merking av luftfartshinder</a></li>
+<li class="lvl2"><a href="#kapittel-iv-fellesbestemmelser">Kapittel IV – Fellesbestemmelser</a></li>
+<li class="lvl4"><a href="#21-dispensasjon">§ 21. Dispensasjon</a></li>
+<li class="lvl4"><a href="#22-overtredelsesgebyr">§ 22. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsbestemmelser">§ 24. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-1-fargekoder-luftfartshinder">Vedlegg 1. Fargekoder luftfartshinder</a></li>
+<li class="lvl2"><a href="#vedlegg-2-hinderlys-luftfartshinder">Vedlegg 2. Hinderlys luftfartshinder</a></li>
+<li class="lvl2"><a href="#vedlegg-3-merking-av-kryssende-luftspenn">Vedlegg 3. Merking av kryssende luftspenn</a></li>
+<li class="lvl2"><a href="#vedlegg-4-merking-av-kraner">Vedlegg 4. Merking av kraner</a></li>
+<li class="lvl2"><a href="#vedlegg-5-merking-med-hinderlys">Vedlegg 5. Merking med hinderlys</a></li>
+<li class="lvl2"><a href="#vedlegg-6-merking-med-farger">Vedlegg 6. Merking med farger</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-15-980.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-07-15-980.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-07-15-980.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-07-15-980.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-07-15-980.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-07-15-980.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-07-15-980.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-07-15-980.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-07-15-980.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-rapportering-registrering-og-merking-av-luftfartshinder">Forskrift om rapportering, registrering og merking av luftfartshinder</h1>
 <h2 id="kapittel-i-forskriftens-virkeomrade-og-definisjoner">Kapittel I. Forskriftens virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften fastsetter minimumskrav til rapportering og merking av luftfartshinder for å redusere faren for luftfartshendelser og -ulykker for ethvert luftfartøy samt mennesker og gods om bord.</p>
@@ -96,7 +211,7 @@ d. forskrift 29. april 2005 nr. 418 om utforming av store helikopterplasser (BSL
 e. forskrift 16. april 2004 nr. 629 om utforming av små helikopterplasser (BSL E 3-6),
 f. forskrift 25. august 2015 nr. 1000 sertifisering av flyplasser mv. eller
 g. forskrift 14. mai 2019 nr. 604 om luftfart med helikopter – bruk av offshore helikopterdekk.</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskrift menes med:</p>
 <p>a. bymessige og tettbygde strøk : Et sammenhengende bebygd område der husene ligger tettere enn 50 meter, med unntak for åpne områder med areal større enn 4000 kvadratmeter og bredde over 50 meter.
@@ -116,16 +231,16 @@ n. varsel : Fellesbetegnelse på innretning, system eller annet som er egnet til
 o. vindkraftverk: Samling av fem eller flere vindturbiner som står så tett, og med en slik formasjon, at det kan være tilstrekkelig å merke et utvalg av vindturbinene som inngår i vindkraftverket.
 p. vindturbin : Konstruksjon som med tårn, nacelle og rotorblader produserer vindenergi.
 q. NIR: Near Infrared. Lys med en bølgelengde mellom 760 og 2500 nanometer (nm).</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-ii-rapportering-og-registrering-av-luftfartshinder">Kapittel II – Rapportering og registrering av luftfartshinder</h2>
 <h4 id="4-rapporteringsplikt">§ 4. Rapporteringsplikt</h4>
 <p>(1) Eier av luftfartshinder har ansvar for at de opplysninger om luftfartshinderet som er innrapportert til NRL er korrekte. Hindereier skal senest 30 kalenderdager før etablering, endring, flytting eller fjerning av et luftfartshinder, innrapportere opplysninger om luftfartshinderet til Statens kartverk. Rapportering skal skje i den form og med den fremgangsmåte som Statens kartverk anviser. Ved rapportering skal det inngå opplysninger om eierskap og luftfartshinderets egenskaper, i tillegg til opplysninger om luftfartshinderets posisjon og høyde som angitt i § 5 . Opplysninger om endringer i juridisk eierskap skal innrapporteres fortløpende av den som er eier av luftfartshinderet, før endringen skjer.</p>
 <p>(2) Midlertidige luftfartshindre med en høyde under 60 meter er ikke rapporteringspliktige.</p>
 <p>(3) Under forflytning er innretninger i petroleumsindustrien ikke rapporteringspliktige.</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</p>
 <h4 id="5-krav-til-rapporteringsnyaktighet">§ 5. Krav til rapporteringsnøyaktighet</h4>
 <p>(1) Luftfartshinder skal innrapporteres med en absolutt nøyaktighet bedre enn 5 meter i horisontalplanet og vertikalplanet. Hinderets høyde over terreng eller vann skal innrapporteres med en nøyaktighet bedre enn 1 meter. For luftspenn skal høyde over terreng eller vann måles eller beregnes med en nøyaktighet bedre enn 2 meter, jf. § 9 sjette ledd. For rapporteringspliktige luftfartshinder med en høyde inntil 15 meter er det ikke krav om å oppgi høydeinformasjon ved innrapporteringen.</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</p>
 <h4 id="6-nasjonalt-register-over-luftfartshindre">§ 6. Nasjonalt register over luftfartshindre</h4>
 <p>(1) Statens kartverk fører Nasjonalt register over luftfartshindre. Mottatt rapport om luftfartshinder skal uten ugrunnet opphold innføres i NRL. Statens kartverk skal sende kvittering som bekrefter mottak av rapport.</p>
 <p>(2) Når Statens kartverk mottar rapport om luftfartshinder med høyde på 40 meter eller mer, skal kopi av rapporten og kart som viser luftfartshinderets plassering sendes til Luftfartstilsynet som foretar en vurdering av eventuell merkeplikt, jf. § 7 .</p>
@@ -167,9 +282,9 @@ h. ha økonomisk evne til å oppfylle kravene i bestemmelsen.
 i. dersom ett eller flere av kravene i § 7a ikke er oppfylte, ikke bruke systemet for behovsstyrte lys, og hinderlysene skal slås umiddelbart på.</p>
 <p>(5) Endringer i system for behovsstyrt tenning av hinderlys som påvirker ytelseskravene i § 7a (3) bokstav a til h krever ny godkjenning. Luftfartstilsynet skal informeres umiddelbart om endringer i organisasjons- og ansvarsforhold, kontrakter og alle andre forhold som kan ha betydning for godkjenningen.</p>
 <p>(6) Hvis innehaver av godkjenningen ikke oppfyller alle kravene i § 7a, kan Luftfartstilsynet begrense eller trekke tilbake godkjenningen.</p>
-<p><em>Tilføyd ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), endret ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), endret ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="8-opphevet">§ 8. (Opphevet)</h4>
-<p><em>Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="9-merking-av-luftspenn">§ 9. Merking av luftspenn</h4>
 <p>(1) Merkepliktige luftspenn med høyde inntil 150 meter skal merkes med markører på luftspennet samt farge på endemastene.</p>
 <p>(2) Merkepliktige luftspenn med høyde på 150 meter eller mer skal merkes med markører på luftspennet, samt med farge og lys på endemastene. Endemastene til luftspenn med høyde på 150 meter eller mer skal merkes med mellomintensitets hinderlys type B.</p>
@@ -178,9 +293,9 @@ i. dersom ett eller flere av kravene i § 7a ikke er oppfylte, ikke bruke system
 <p>(5) For luftspenn med to eller flere endemaster skal de ytterste endemastene merkes, men likevel slik at det ikke er mer enn 90 meter mellom hver merkede endemast.</p>
 <p>(6) For luftspenn som skal være strømførende skal høyden måles eller beregnes når luftspennet ikke er strømførende. Dersom nederste punkt er saltvann benyttes middelvannstand som utgangspunkt for målingen eller beregningen. Dersom luftspennet krysser regulert vann skal laveste tillatte reguleringsvannstand benyttes som utgangspunkt for målingen eller beregningen.</p>
 <p>(7) Luftspenn underlagt krav til linjebefaring etter forskrift 20. desember 2005 nr. 1626 om elektriske forsyningsanlegg, kapittel 6 . Høyspenningsluftlinjer, som skal befares med bemannet eller ubemannet luftfartøy og som krysser under overliggende luftspenn, skal merkes. Merkingen skal utføres på de tre siste stolper, master eller fagverkskonstruksjoner tilhørende underliggende luftspenn, før kryssende overliggende luftspenn. Merking skal utføres med skilt, maling eller annet materiale med reflekterende overflate. Merkingen skal være godt synlig for luftfartøy ved linjebefaring for å varsle at man ved flyging langs luftspennet nærmer seg kryssende overliggende luftspenn. Merking skal gjøres på hver side av det kryssende overliggende luftspennet, og i samsvar med vedlegg 3. Kravet til merking gjelder også når selve kryssingen under overliggende luftspenn er utført som jordkabel.</p>
-<p><em>Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="10-opphevet">§ 10. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="11-merking-av-broer">§ 11. Merking av broer</h4>
 <p>Brotårn skal merkes som punktobjekt. Brobanen skal merkes med hinderlys dersom den har en høyde på 60 meter eller mer over vannet og ikke har veibelysning. Stag og kabler skal merkes som angitt i § 12 .</p>
 <h4 id="12-merking-av-stag-kabler-forankringsanordninger-mv">§ 12. Merking av stag, kabler, forankringsanordninger mv.</h4>
@@ -192,11 +307,11 @@ i. dersom ett eller flere av kravene i § 7a ikke er oppfylte, ikke bruke system
 <p>a. Luftfartshinder med høyde fra 60 til og med 100 meter: Linen og luftfartshinderet skal ha fargemerking samt være merket med lavintensitetslys i toppen.
 b. Luftfartshinder med høyde fra 100 meter til og med 150 meter: Linen og luftfartshinderet skal ha fargemerking samt være merket med mellomintensitetslys i toppen.
 c. Luftfartshinder med høyde over 150 meter: Linen og luftfartshinderet skal ha fargemerking samt være merket med høyintensitetslys i toppen.</p>
-<p><em>Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</p>
 <h4 id="14-markrer-mv">§ 14. Markører mv.</h4>
 <p>(1) Markører skal i dagslys være synlige på minst 1500 meters avstand fra alle aktuelle innflygingsvinkler. Markører skal ha en diameter på minst 0,8 meter. Avstanden mellom markører skal ikke overstige 90 meter målt langs kabelen. Markører med minste diameter 0,6 meter kan benyttes dersom avstanden mellom markørene ikke overstiger 70 meter. Markører skal ha reflekterende farger som angitt i § 15 .</p>
 <p>(2) Markører på luftspenn kan fordeles på flere parallelle faser av luftspennet, men slik at maksimumsavstanden, jf. første ledd, ikke overskrides. Markører kan også festes ved siden av eller over luftspenn.</p>
-<p><em>Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024).</p>
 <h4 id="15-krav-til-fargemerking">§ 15. Krav til fargemerking</h4>
 <p>(1) Fargemerking skal i dagslys være synlig på minst 1500 meters avstand fra alle aktuelle innflygingsvinkler. Fargemerking kan utføres med maling, plastfolie, plater eller annet hensiktsmessig materiale. All fargemerking skal ha reflekterende egenskaper og ha tilstrekkelig kontrast mot fargen på luftfartshinderet.</p>
 <p>(2) Vindturbiner skal ha lys farge, for eksempel grå, gråhvit eller andre nyanser av hvit. Snøhvit farge skal ikke benyttes. Fargekravet gjelder ikke den nederste tredjedel av tårnet.</p>
@@ -210,7 +325,7 @@ e. 10 meter, når hinderet er over 200 meter.</p>
 <p>(5) Fagverkkonstruksjoner skal ha fargefelt på hele ytterflaten av rammebenene og traversene. I fagverkskonstruksjoner skal samtlige konstruksjonsdeler ha samme farge i samme horisontale fargefelt.</p>
 <p>(6) Vegetasjon rundt fargemerket luftfartshinder skal fjernes eller ryddes slik at merkingen er godt synlig fra alle aktuelle innflygingsretninger.</p>
 <p>(7) Fargekoder for merking av luftfartshinder etter bestemmelsen fremgår av vedlegg 1.</p>
-<p><em>Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="16-krav-til-hinderlys-og-lystype">§ 16. Krav til hinderlys og lystype</h4>
 <p>(1) Hinderlys skal være lavintensitets-, mellomintensitets- eller høyintensitetslys. Hinderlys skal plasseres slik at de er synlige fra alle aktuelle innflygingsvinkler.</p>
 <p>(2) Hinderlys skal plasseres på toppen av luftfartshinderet, slik at lyset viser hinderets høyeste punkt, ikke medregnet lynavleder eller fleksibel antenne med høyde inntil 5 meter. Hinderlys på mast til luftspenn kan likevel plasseres inntil 10 meter vertikalt og 10 meter horisontalt fra toppunktet, men likevel slik at det er synlig fra alle aktuelle innflygingsvinkler. Hinderlys på skorstein som kan medføre korrosjon eller belegg på armaturglassene, kan plasseres inntil 3 meter under toppen.</p>
@@ -248,9 +363,9 @@ c. tennes senest når luftfartøyet har en avstand på 1500 meter fra hinderet.<
 <p>(9) For hinder som skal merkes med mellomintensitets hinderlys type B og C kan lysintensiteten dempes under gode siktforhold. Ved sikt bedre enn 5 km horisontalt kan lysintensiteten senkes til 600 candela. Ved sikt bedre enn 10 km horisontalt kan lysintensiteten senkes til 200 candela.</p>
 <p>(10) Hinderlys som benytter Light Emitting Diodes (LED) skal utstråle lys med en bølgelengde som gjør hinderlysene synlige for piloter som benytter Night Vision Imaging System (NVIS). Luftfartshinder som skal merkes med LED-lys skal ha kontinuerlig NIR belysning på mellomliggende nivå, og skal være synlig med NVIS.</p>
 <p>(11) Hinderlys skal være operative minimum 95 % av tiden, regnet som et gjennomsnitt på årsbasis.</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="17-opphevet">§ 17. (Opphevet)</h4>
-<p><em>Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 19 des 2023 nr. 2158 (i kraft 1 jan 2024), opphevet ved forskrift 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="18-kontroll-og-vedlikehold-av-hindermerking">§ 18. Kontroll og vedlikehold av hindermerking</h4>
 <p>(1) Hindermerking skal kontrolleres rutinemessig. Det skal utarbeides rutiner og planer for kontroll og vedlikehold av hindermerkingen. Rutiner og vedlikeholdsplaner skal forelegges Luftfartstilsynet på forlangende.</p>
 <p>(2) Hindermerking skal vedlikeholdes slik at merkingen til enhver tid oppfyller bestemmelsene i denne forskrift.</p>
@@ -267,7 +382,7 @@ d. når feilen som var skyld i meldingen er utbedret.</p>
 <p>(5) Videre skal det sendes melding til utpekt yter av luftfartsinformasjonstjenester for kunngjøring av NOTAM ved</p>
 <p>a. planlagt utkobling av hinderlys,
 b. vedlikeholdsarbeid, bygging, ombygging og strekking av rapporteringspliktige luftspenn dersom rapporteringsplikten i § 4 (1) ikke kan overholdes.</p>
-<p><em>Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="19-saksbehandling-ved-sknad-om-annen-merking-av-luftfartshinder">§ 19. Saksbehandling ved søknad om annen merking av luftfartshinder</h4>
 <p>(1) Annen merking i medhold av § 7 fjerde ledd kan godkjennes av Luftfartstilsynet etter søknad fra hindereier.</p>
 <p>(2) Det er den samlede konkrete merking av et luftfartshinder som kan godkjennes av Luftfartstilsynet, enten hele merkingen utføres som annen merking eller om det kun er elementer av den forskriftsbestemte merkingen som erstattes av annen merking. Det kan verken generelt eller konkret gis godkjenning for enkeltkomponenter eller elementer av en hindermerking.</p>
@@ -291,7 +406,7 @@ d. i medhold av vedtak gjort med hjemmel i § 21 eller § 7 tredje eller fjerde 
 e. til å merke luftfartshinder i medhold av § 9 (7),
 f. til å merke luftfartshinder i medhold av § 15 og § 16 .</p>
 <p>(2) Overtredelsesgebyr etter luftfartsloven § 13a-5 nr. 6 kan også pålegges den som ikke overholder tidsfrister for rapportering og merking av luftfartshinder i medhold av § 24 .</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <h4 id="23-ikrafttredelse">§ 23. Ikrafttredelse</h4>
 <p>(1) Forskriften trer i kraft 1. september 2014.</p>
 <p>(2) Fra samme tidspunkt oppheves forskrift 3. desember 2002 nr. 1384 om merking av luftfartshinder (BSL E 2-2) og forskrift 14. april 2003 nr. 514 om rapportering og registrering av luftfartshindre (BSL E 2-1).</p>
@@ -308,7 +423,7 @@ f. til å merke luftfartshinder i medhold av § 15 og § 16 .</p>
 <p>(10) Luftspenn omfattet av forskriftens § 9 (7) skal merkes innen 31. desember 2025.</p>
 <p>(11) Eier av luftfartshinder omfattet av forskriftens § 15 (3) plikter å utføre merking av luftfartshinderet innen 31. desember 2030.</p>
 <p>(12) Luftfartshinder omfattet av forskriftens § 16 (3) og § 16 (4) skal merkes med hinderlys på mellomliggende nivå innen 31. desember 2030.</p>
-<p><em>Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026), 23 juni 2026 nr. 1255 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2020 nr. 2068 (i kraft 1 jan 2023, endringen endret ved forskrift 8 april 2022 nr. 573 ), 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026), 23 juni 2026 nr. 1255 (i kraft 1 juli 2026).</p>
 <h2 id="vedlegg-1-fargekoder-luftfartshinder">Vedlegg 1. Fargekoder luftfartshinder</h2>
 <p>Endret ved forskrifter 19 des 2023 nr. 2158 (i kraft 1 jan 2024), 10 des 2025 nr. 2504 (i kraft 1 jan 2026).</p>
 <p>Preaksepterte fargekoder for fargemerking (RAL) og reflekterende fargemerking ( Reflecting Sheeting ) av luftfartshinder RAL-kode Betegnelse Type luftfartshinder RAL 1016 Sulfur yellow Alle typer hinder RAL 2010 Signal orange Alle typer hinder RAL 3001 Signal red Alle typer hinder RAL 3020 Traffic red Alle typer hinder RAL 3024 Luminous red Alle typer hinder RAL 7035 Light grey Vindturbiner RAL 7038 Agate grey Vindturbiner RAL 9003 Signal white Alle typer hinder unntatt vindturbiner RAL 9010 Pure white Alle typer unntatt vindturbiner RAL 9016 Traffic white Alle typer unntatt vindturbiner Reflecting Sheeting Diamond Grade 4090 * (Signal white) Alle typer hinder unntatt vindturbiner Reflecting Sheeting Diamond Grade 4092 * (Signal red) Alle typer hinder Reflecting Sheeting Fluorscent Yellow Green 4083 * Alle typer hinder Reflecting Sheeting Fluorscent Orange 4084 * Alle typer hinder Reflecting Sheeting Diamond Grade Fluorescent Yellow 4081 * Alle typer hinder</p>
@@ -377,6 +492,8 @@ f. til å merke luftfartshinder i medhold av § 15 og § 16 .</p>
 <p>Illustrasjon av hvite magebelter på rødt punktobjekt, og at nederste tredjedel av en vindturbin er hvit.</p>
 <p>Figur 3.</p>
 <p>Illustrasjon av vindturbin der nederste tredjedel av tårnet har annen farge.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,69 +19,190 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-06-19-718.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om eksport av forsvarsmateriell mv." href="../feeds/forskrift-2013-06-19-718.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-utenriksdepartementet.html">Utenriksdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-utenriksdepartementet.html">Utenriksdepartementet</a> &rsaquo;
 <span>Forskrift om eksport av forsvarsmateriell mv.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-06-19-718</code></dd>
-<dt>Departement</dt><dd>Utenriksdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-06-19</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-07-13-1553</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-06-19-718" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-innledende-bestemmelser">Kap. 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-forskriften-omfatter">§ 1. Hva forskriften omfatter</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kap-2-lisens">Kap. 2. Lisens</a></li>
+<li class="lvl4"><a href="#3-lisensplikt">§ 3. Lisensplikt</a></li>
+<li class="lvl4"><a href="#4-lisensplikt-etter-varelister">§ 4. Lisensplikt etter varelister</a></li>
+<li class="lvl4"><a href="#5-lisensplikt-for-tjenester">§ 5. Lisensplikt for tjenester</a></li>
+<li class="lvl4"><a href="#6-lisensplikt-for-handel-og-formidling">§ 6. Lisensplikt for handel og formidling</a></li>
+<li class="lvl4"><a href="#7-lisensplikt-for-vrige-varer-teknologi-og-tjenester">§ 7. Lisensplikt for øvrige varer, teknologi og tjenester</a></li>
+<li class="lvl4"><a href="#8-unntak-fra-lisensplikt">§ 8. Unntak fra lisensplikt</a></li>
+<li class="lvl2"><a href="#kap-3-eksport-av-forsvarsrelaterte-varer-til-mottakere-i-es">Kap 3. Eksport av forsvarsrelaterte varer til mottakere i EØS</a></li>
+<li class="lvl4"><a href="#9-overfringslisens">§ 9. Overføringslisens</a></li>
+<li class="lvl4"><a href="#10-generell-overfringslisens">§ 10. Generell overføringslisens</a></li>
+<li class="lvl4"><a href="#11-global-overfringslisens">§ 11. Global overføringslisens</a></li>
+<li class="lvl4"><a href="#12-individuell-overfringslisens">§ 12. Individuell overføringslisens</a></li>
+<li class="lvl2"><a href="#kap-4-sertifisering-av-norske-foretak-som-mottakere-i-es">Kap. 4. Sertifisering av norske foretak som mottakere i EØS</a></li>
+<li class="lvl4"><a href="#13-sertifisering-av-foretak-i-norge">§ 13. Sertifisering av foretak i Norge</a></li>
+<li class="lvl4"><a href="#14-utstedelse-av-sertifikat">§ 14. Utstedelse av sertifikat</a></li>
+<li class="lvl4"><a href="#15-kontroll-med-sertifiserte-foretak">§ 15. Kontroll med sertifiserte foretak</a></li>
+<li class="lvl2"><a href="#kap-5-registrering-rapportering-og-oppflgning">Kap 5. Registrering, rapportering og oppfølgning</a></li>
+<li class="lvl4"><a href="#16-registrering">§ 16. Registrering</a></li>
+<li class="lvl4"><a href="#17-rapportering">§ 17. Rapportering</a></li>
+<li class="lvl4"><a href="#18-arkivering">§ 18. Arkivering</a></li>
+<li class="lvl4"><a href="#19-informasjon-om-vilkar">§ 19. Informasjon om vilkår</a></li>
+<li class="lvl4"><a href="#20-oppflging-av-eksport">§ 20. Oppfølging av eksport</a></li>
+<li class="lvl4"><a href="#21-kontroll-ved-eksport">§ 21. Kontroll ved eksport</a></li>
+<li class="lvl2"><a href="#kap-6-generelle-bestemmelser">Kap 6. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#22-lisenssknad">§ 22. Lisenssøknad</a></li>
+<li class="lvl4"><a href="#23-vilkar-for-innvilgelse-av-lisens">§ 23. Vilkår for innvilgelse av lisens</a></li>
+<li class="lvl4"><a href="#24-sluttbrukererklring">§ 24. Sluttbrukererklæring</a></li>
+<li class="lvl4"><a href="#25-tilbakekalling-av-lisens">§ 25. Tilbakekalling av lisens</a></li>
+<li class="lvl4"><a href="#26-endring-forlengelse-og-overdragelse-av-lisens">§ 26. Endring, forlengelse og overdragelse av lisens</a></li>
+<li class="lvl4"><a href="#27-retur-av-lisens">§ 27. Retur av lisens</a></li>
+<li class="lvl2"><a href="#kap-7-sluttbestemmelser">Kap 7. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#28-ikrafttreden">§ 28. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#vedlegg-iliste-i-forsvarsrelaterte-varer-2026">Vedlegg IListe I – forsvarsrelaterte varer (2026)</a></li>
+<li class="lvl2"><a href="#vedlegg-iiliste-ii-nasjonal-liste-over-flerbruksvarer-2025">Vedlegg IIListe II – nasjonal liste over flerbruksvarer (2025)</a></li>
+<li class="lvl2"><a href="#vedlegg-iiiliste-iii-nasjonal-liste-2025">Vedlegg IIIListe III – nasjonal liste (2025)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-07-13-1553.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-19-718.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om eksport av forsvarsmateriell, flerbruksvarer, teknologi og tjenester</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-06-19-718.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-06-19-718 <code>forskrift/2013-06-19-718</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om eksport av forsvarsmateriell mv.</td></tr>
+<tr><th>Departement</th><td>Utenriksdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>19.06.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-07-13-1553 <code>forskrift/2026-07-13-1553</code> fra 13.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-06-19-718" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-innledende-bestemmelser">Kap. 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-hva-forskriften-omfatter">§ 1. Hva forskriften omfatter</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kap-2-lisens">Kap. 2. Lisens</a></li>
+<li class="lvl4"><a href="#3-lisensplikt">§ 3. Lisensplikt</a></li>
+<li class="lvl4"><a href="#4-lisensplikt-etter-varelister">§ 4. Lisensplikt etter varelister</a></li>
+<li class="lvl4"><a href="#5-lisensplikt-for-tjenester">§ 5. Lisensplikt for tjenester</a></li>
+<li class="lvl4"><a href="#6-lisensplikt-for-handel-og-formidling">§ 6. Lisensplikt for handel og formidling</a></li>
+<li class="lvl4"><a href="#7-lisensplikt-for-vrige-varer-teknologi-og-tjenester">§ 7. Lisensplikt for øvrige varer, teknologi og tjenester</a></li>
+<li class="lvl4"><a href="#8-unntak-fra-lisensplikt">§ 8. Unntak fra lisensplikt</a></li>
+<li class="lvl2"><a href="#kap-3-eksport-av-forsvarsrelaterte-varer-til-mottakere-i-es">Kap 3. Eksport av forsvarsrelaterte varer til mottakere i EØS</a></li>
+<li class="lvl4"><a href="#9-overfringslisens">§ 9. Overføringslisens</a></li>
+<li class="lvl4"><a href="#10-generell-overfringslisens">§ 10. Generell overføringslisens</a></li>
+<li class="lvl4"><a href="#11-global-overfringslisens">§ 11. Global overføringslisens</a></li>
+<li class="lvl4"><a href="#12-individuell-overfringslisens">§ 12. Individuell overføringslisens</a></li>
+<li class="lvl2"><a href="#kap-4-sertifisering-av-norske-foretak-som-mottakere-i-es">Kap. 4. Sertifisering av norske foretak som mottakere i EØS</a></li>
+<li class="lvl4"><a href="#13-sertifisering-av-foretak-i-norge">§ 13. Sertifisering av foretak i Norge</a></li>
+<li class="lvl4"><a href="#14-utstedelse-av-sertifikat">§ 14. Utstedelse av sertifikat</a></li>
+<li class="lvl4"><a href="#15-kontroll-med-sertifiserte-foretak">§ 15. Kontroll med sertifiserte foretak</a></li>
+<li class="lvl2"><a href="#kap-5-registrering-rapportering-og-oppflgning">Kap 5. Registrering, rapportering og oppfølgning</a></li>
+<li class="lvl4"><a href="#16-registrering">§ 16. Registrering</a></li>
+<li class="lvl4"><a href="#17-rapportering">§ 17. Rapportering</a></li>
+<li class="lvl4"><a href="#18-arkivering">§ 18. Arkivering</a></li>
+<li class="lvl4"><a href="#19-informasjon-om-vilkar">§ 19. Informasjon om vilkår</a></li>
+<li class="lvl4"><a href="#20-oppflging-av-eksport">§ 20. Oppfølging av eksport</a></li>
+<li class="lvl4"><a href="#21-kontroll-ved-eksport">§ 21. Kontroll ved eksport</a></li>
+<li class="lvl2"><a href="#kap-6-generelle-bestemmelser">Kap 6. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#22-lisenssknad">§ 22. Lisenssøknad</a></li>
+<li class="lvl4"><a href="#23-vilkar-for-innvilgelse-av-lisens">§ 23. Vilkår for innvilgelse av lisens</a></li>
+<li class="lvl4"><a href="#24-sluttbrukererklring">§ 24. Sluttbrukererklæring</a></li>
+<li class="lvl4"><a href="#25-tilbakekalling-av-lisens">§ 25. Tilbakekalling av lisens</a></li>
+<li class="lvl4"><a href="#26-endring-forlengelse-og-overdragelse-av-lisens">§ 26. Endring, forlengelse og overdragelse av lisens</a></li>
+<li class="lvl4"><a href="#27-retur-av-lisens">§ 27. Retur av lisens</a></li>
+<li class="lvl2"><a href="#kap-7-sluttbestemmelser">Kap 7. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#28-ikrafttreden">§ 28. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#vedlegg-iliste-i-forsvarsrelaterte-varer-2026">Vedlegg IListe I – forsvarsrelaterte varer (2026)</a></li>
+<li class="lvl2"><a href="#vedlegg-iiliste-ii-nasjonal-liste-over-flerbruksvarer-2025">Vedlegg IIListe II – nasjonal liste over flerbruksvarer (2025)</a></li>
+<li class="lvl2"><a href="#vedlegg-iiiliste-iii-nasjonal-liste-2025">Vedlegg IIIListe III – nasjonal liste (2025)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-19-718.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-06-19-718.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-06-19-718.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-06-19-718.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-06-19-718.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-06-19-718.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-06-19-718.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-06-19-718.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-06-19-718.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-eksport-av-forsvarsmateriell-flerbruksvarer-teknologi-og-tjenester">Forskrift om eksport av forsvarsmateriell, flerbruksvarer, teknologi og tjenester</h1>
 <h2 id="kap-1-innledende-bestemmelser">Kap. 1. Innledende bestemmelser</h2>
 <h4 id="1-hva-forskriften-omfatter">§ 1. Hva forskriften omfatter</h4>
 <p>Forskriften gjelder eksport av nærmere angitte varer, teknologi, samt visse tjenester.</p>
 <p>Særlige bestemmelser gjelder for eksport av angitte ytelser fra en leverandør i en EØS-stat til en mottaker i en annen EØS-stat når det uttrykkelig fremgår av denne forskrift.</p>
-<p><em>Endret ved forskrift 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrift 29 aug 2025 nr. 1757 .</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>(1) Med forsvarsrelaterte varer menes de produkter som til enhver tid er oppført på liste I som utgjør vedlegg I til denne forskrift.</p>
 <p>(2) Med flerbruksvarer menes de produkter som til enhver tid er oppført i vedlegg II og III til denne forskrift.</p>
@@ -93,27 +214,27 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(8) Med overføringslisens menes tillatelse fra nasjonale myndigheter i en EØS-stat, som gir leverandøren rett til å overføre forsvarsrelaterte varer til en mottaker i annen EØS-stat.</p>
 <p>(9) Med transitt menes transport av varer gjennom Norge uten omlasting, når avsender og mottaker befinner seg utenfor Norge.</p>
 <p>(10) Med teknologi som oppført i vedlegg I , II og III til denne forskrift menes spesifikk informasjon nødvendig for utvikling, produksjon eller bruk av varer. Slik informasjon vil være tekniske data eller teknisk bistand. I § 7 omfatter teknologi i tillegg enhver annen teknisk data og teknisk bistand.</p>
-<p><em>Endret ved forskrifter 6 mai 2021 nr. 1501 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 20 aug 2025 nr. 1674 .</em></p>
+<p class="note">Endret ved forskrifter 6 mai 2021 nr. 1501 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 20 aug 2025 nr. 1674 .</p>
 <h2 id="kap-2-lisens">Kap. 2. Lisens</h2>
 <h4 id="3-lisensplikt">§ 3. Lisensplikt</h4>
 <p>Eksport av nærmere angitte varer, teknologi, samt visse tjenester krever lisens fra Direktoratet for eksportkontroll og sanksjoner om ikke annet følger av denne forskrift. Direktoratet for eksportkontroll og sanksjoner avgjør i tvilstilfeller om en ytelse er lisenspliktig eller ikke. Lisensplikten gjelder også ved eksport av varer fra tollager.</p>
-<p><em>Endret ved forskrifter 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrifter 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</p>
 <h4 id="4-lisensplikt-etter-varelister">§ 4. Lisensplikt etter varelister</h4>
 <p>Eksport av varer og teknologi som oppført i vedlegg I , II eller III til denne forskrift, krever lisens fra Direktoratet for eksportkontroll og sanksjoner. Lisensplikten knyttet til vedlegg I gjelder også for materiell som har vært særlig konstruert eller modifisert for militært formål, uavhengig av nåværende tilstand.</p>
-<p><em>Endret ved forskrifter 9 sep 2014 nr. 1163 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrifter 9 sep 2014 nr. 1163 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</p>
 <h4 id="5-lisensplikt-for-tjenester">§ 5. Lisensplikt for tjenester</h4>
 <p>Tjenester knyttet til varer og teknologi oppført i vedlegg I , II , eller III til denne forskrift samt tjenester for øvrig som direkte kan tjene til å utvikle et lands militære evne, som ytes i utlandet eller her i landet for bruk i utlandet, krever lisens fra Direktoratet for eksportkontroll og sanksjoner.</p>
-<p><em>Endret ved forskrifter 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrifter 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</p>
 <h4 id="6-lisensplikt-for-handel-og-formidling">§ 6. Lisensplikt for handel og formidling</h4>
 <p>Handel, formidling eller annen bistand ved salg av varer og teknologi som omfattes av vedlegg I fra et fremmed land til et annet, krever lisens fra Direktoratet for eksportkontroll og sanksjoner. Tilsvarende gjelder ved formidling av varer oppført i vedlegg II og III samt tilhørende teknologi og tjenesteytelse der det er kjent eller grunn til å forstå at varen, teknologien eller tjenesten er eller kan være ment, helt eller delvis, for bruk i forbindelse med utvikling, produksjon, håndtering, drift, vedlikehold, lagring, deteksjon, identifikasjon eller spredning av kjemiske, biologiske eller kjernefysiske våpen eller andre kjernefysiske sprenglegemer, og i forbindelse med utvikling, produksjon, vedlikehold eller lagring av missiler som kan levere slike våpen.</p>
-<p><em>Endret ved forskrifter 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="7-lisensplikt-for-vrige-varer-teknologi-og-tjenester">§ 7. Lisensplikt for øvrige varer, teknologi og tjenester</h4>
 <p>I tillegg til vedlegg til denne forskrift er eksport av følgende varer, teknologi og tjenester lisenspliktige:</p>
 <p>a. enhver vare, teknologi og tjenesteytelse der eksportøren er kjent med eller har grunn til å forstå at varen, teknologien eller tjenesten er eller kan være ment, helt eller delvis, for bruk i forbindelse med utvikling, produksjon, håndtering, drift, vedlikehold, lagring, deteksjon, identifikasjon eller spredning av kjemiske, biologiske eller kjernefysiske våpen eller andre kjernefysiske sprengelementer. Tilsvarende regler gjelder for eksport av enhver vare, teknologi eller tjeneste som kan benyttes til utvikling, produksjon, vedlikehold eller lagring av missiler som kan levere slike våpen,
 b. enhver vare, teknologi eller tjeneste til militær bruk til områder som er underlagt våpenembargo vedtatt av FNs sikkerhetsråd med hjemmel i FN-paktens kapittel VII eller andre tiltaksregimer Norge har sluttet seg til,
 c. enhver vare, teknologi og tjeneste til militær bruk til områder hvor det er krig, krig truer eller til land hvor det er borgerkrig.
 d. enhver vare, teknologi og tjeneste som direkte kan tjene til å utvikle en stats militære evne på en måte som ikke er forenlig med vesentlige norske sikkerhets- og forsvarsinteresser.</p>
-<p><em>Endret ved forskrift 2 okt 2024 nr. 2386 (i kraft 1 nov 2024).</em></p>
+<p class="note">Endret ved forskrift 2 okt 2024 nr. 2386 (i kraft 1 nov 2024).</p>
 <h4 id="8-unntak-fra-lisensplikt">§ 8. Unntak fra lisensplikt</h4>
 <p>Lisensplikten i § 3 , jf. § 4 – § 7 , gjelder ikke for:</p>
 <p>a. varer oppført på vedlegg II og III i utenlandsk eie og som returneres til utlandet etter å ha vært midlertidig innført til Norge i forbindelse med utstilling og demonstrasjon, eller som returneres til utlandet etter å ha vært midlertidig innført til Svalbard eller Jan Mayen i forbindelse med sivil forskningsaktivitet,
@@ -130,11 +251,11 @@ k. det minimum av informasjon som er nødvendig for å søke om patent.</p>
 <p>Lisensplikten i §§ 4 til 6 gjelder ikke for</p>
 <p>a. Grunnforskning.
 b. Universiteter, høyskoler, helseforetak, offentlige forskningsinstitutter og forskningsinstitutter som mottar statlig grunnbevilgning ved eksport av teknologi oppført på vedlegg II og III som ytes her i landet til statsborgere av EØS- eller NATO-land.</p>
-<p><em>Endret ved forskrifter 30 juni 2014 nr. 898 , 11 mai 2020 nr. 994 , 6 mai 2021 nr. 1501 , 27 aug 2021 nr. 2674 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 20 aug 2025 nr. 1674 , 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2014 nr. 898 , 11 mai 2020 nr. 994 , 6 mai 2021 nr. 1501 , 27 aug 2021 nr. 2674 , 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 20 aug 2025 nr. 1674 , 29 aug 2025 nr. 1757 .</p>
 <h2 id="kap-3-eksport-av-forsvarsrelaterte-varer-til-mottakere-i-es">Kap 3. Eksport av forsvarsrelaterte varer til mottakere i EØS</h2>
 <h4 id="9-overfringslisens">§ 9. Overføringslisens</h4>
 <p>Overføring av forsvarsrelaterte varer til mottakere i EØS kan kun skje på grunnlag av en generell overføringslisens, en global overføringslisens eller en individuell overføringslisens utferdiget av Direktoratet for eksportkontroll og sanksjoner. Reglene om overføringslisenser gjelder kun forsvarsrelaterte varer oppført på liste I som utgjør vedlegg til denne forskrift.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="10-generell-overfringslisens">§ 10. Generell overføringslisens</h4>
 <p>Generelle overføringslisenser for forsvarsrelaterte varer kunngjøres av Direktoratet for eksportkontroll og sanksjoner. Lisensene kan benyttes av leverandører i Norge etter forutgående registrering hos Direktoratet for eksportkontroll og sanksjoner. Generelle overføringslisenser gjelder bestemte varekategorier, til en kategori eller kategorier av mottakere i EØS og det kan settes særlige vilkår for lisensene.</p>
 <p>Generelle overføringslisenser kan benyttes dersom:</p>
@@ -143,10 +264,10 @@ b. mottakeren er et foretak som er sertifisert i samsvar med § 13 eller,
 c. overføringen gjøres med sikte på demonstrasjon, evaluering eller utstilling eller,
 d. overføringen gjøres med sikte på vedlikehold eller reparasjon, dersom mottakeren er den opprinnelige leverandøren av de forsvarsrelaterte varene.</p>
 <p>Slike lisenser kan for tilfellene c) og d) også benyttes ved retur fra Norge av forsvarsrelaterte varer mottatt ved tilsvarende lisens fra en annen EØS-stat.</p>
-<p><em>Endret ved forskrifter 30 juni 2014 nr. 898 , 11 mai 2020 nr. 994 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2014 nr. 898 , 11 mai 2020 nr. 994 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="11-global-overfringslisens">§ 11. Global overføringslisens</h4>
 <p>Ved overføring av forsvarsrelaterte varer som ikke omfattes av en generell overføringslisens, kan Direktoratet for eksportkontroll og sanksjoner, etter skriftlig søknad fra leverandør i Norge, utferdige en global overføringslisens. Lisensene gis for en periode på tre år med mulighet for forlengelse. Globale overføringslisenser gjelder bestemte forsvarsrelaterte varer eller kategorier av varer til mottakere eller kategori av mottakere i en eller flere EØS-stater. Det kan settes særlige vilkår for lisensene.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="12-individuell-overfringslisens">§ 12. Individuell overføringslisens</h4>
 <p>Ved overføring av forsvarsrelaterte varer som ikke omfattes av en generell overføringslisens og en global overføringslisens ikke kan innvilges, kan Direktoratet for eksportkontroll og sanksjoner, etter skriftlig søknad fra leverandør i Norge, utferdige en individuell overføringslisens. Lisensen gjelder en spesifisert mengde forsvarsrelaterte varer til en mottaker i en EØS-stat i en eller flere sendinger.</p>
 <p>En individuell overføringslisens skal benyttes dersom:</p>
@@ -154,7 +275,7 @@ d. overføringen gjøres med sikte på vedlikehold eller reparasjon, dersom mott
 b. det er nødvendig for å beskytte Norges grunnleggende sikkerhetsinteresser, eller av hensyn til den offentlige orden,
 c. det er nødvendig for å overholde Norges internasjonale forpliktelser, eller
 d. det er tungtveiende grunner til å tro at leverandøren ikke vil være i stand til å oppfylle vilkårene for å få en global overføringslisens.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h2 id="kap-4-sertifisering-av-norske-foretak-som-mottakere-i-es">Kap. 4. Sertifisering av norske foretak som mottakere i EØS</h2>
 <h4 id="13-sertifisering-av-foretak-i-norge">§ 13. Sertifisering av foretak i Norge</h4>
 <p>Direktoratet for eksportkontroll og sanksjoner kan, etter skriftlig søknad, sertifisere foretak etablert i Norge for mottak av forsvarsrelaterte varer under generelle overføringslisenser kunngjort av andre EØS-stater.</p>
@@ -165,15 +286,15 @@ c. særskilt utpeking av en overordnet leder som skal være personlig ansvarlig 
 d. en skriftlig erklæring fra foretaket, undertegnet av den overordnede lederen nevnt i bokstav c), om at foretaket vil iverksette alle nødvendige tiltak for å overholde og håndheve alle særlige vilkår knyttet til sluttbruk og eksport av hver bestanddel eller hver vare det har mottatt,
 e. en skriftlig erklæring fra foretaket, undertegnet av den overordnede lederen nevnt i bokstav c), om at det med behørig aktsomhet, som svar på anmodninger og forespørsler fra Direktoratet for eksportkontroll og sanksjoner, vil fremskaffe detaljerte opplysninger om sluttbrukere eller sluttbruk av alle eksporterte varer som er overført eller mottatt i henhold til en overføringslisens fra en annen EØS-stat,
 f. en beskrivelse, kontrasignert av den overordnede lederen nevnt i bokstav c., av det interne programmet for sikring av samsvar med kravene eller av foretakets ledelsessystem for overføring eller eksport. I den nevnte beskrivelsen skal det gis nærmere opplysninger om de organisasjonsmessige, menneskelige og tekniske ressursene ledelsen rår over i forbindelse med overføringer og eksport, ansvarskjeden i foretaket, internkontrollrutiner, holdningsskapende tiltak og opplæring av personalet, fysiske og tekniske sikkerhetsordninger, journalføring og sporbarhet av overføringer og eksport.</p>
-<p><em>Endret ved forskrifter 30 juni 2014 nr. 898 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 30 juni 2014 nr. 898 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="14-utstedelse-av-sertifikat">§ 14. Utstedelse av sertifikat</h4>
 <p>Direktoratet for eksportkontroll og sanksjoner utsteder et sertifikat til godkjente mottakende foretak i Norge. Sertifikatet skal inneholde informasjon om utstedende myndighet, foretakets navn og adresse, gyldighetstid samt en erklæring om at foretaket oppfyller kravene til sertifisering. Sertifikatet kan også inneholde vilkår knyttet til innhenting av informasjon som er nødvendig for kontroll av om kriteriene i § 13 , 2. ledd er oppfylt samt suspensjon eller tilbakekalling av sertifikatet.</p>
 <p>Sertifikatets gyldighetstid fastsettes av Direktoratet for eksportkontroll og sanksjoner, men kan ikke overstige fem år.</p>
 <p>Sertifiserte foretak i Norge vil bli meldt inn til EUs sentrale register og som publiseres på EU-kommisjonens hjemmeside.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="15-kontroll-med-sertifiserte-foretak">§ 15. Kontroll med sertifiserte foretak</h4>
 <p>Direktoratet for eksportkontroll og sanksjoner vil minst hvert tredje år kontrollere at mottakende foretak oppfyller kravene for sertifisering, jf. § 13 , 2. ledd, samt eventuelle vilkår fastsatt i sertifikatet, jf. § 14 . Dersom det sertifiserte foretaket ikke lenger oppfyller kravene vil Direktoratet for eksportkontroll og sanksjoner pålegge foretaket å iverksette tiltak for å sikre oppfyllelse av samtlige krav og vilkår. Direktoratet for eksportkontroll og sanksjoner kan også suspendere eller tilbakekalle sertifiseringen.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h2 id="kap-5-registrering-rapportering-og-oppflgning">Kap 5. Registrering, rapportering og oppfølgning</h2>
 <h4 id="16-registrering">§ 16. Registrering</h4>
 <p>Leverandøren skal føre et detaljert og fullstendig register over eksport av forsvarsrelaterte varer oppført på liste I som utgjør vedlegg til denne forskrift. Registeret skal inneholde dokumenter med følgende opplysninger:</p>
@@ -186,10 +307,10 @@ f. dokumentasjon på at opplysninger vedrørende eksportbegrensninger er oversen
 g. tolldeklarasjon med ekspedisjons- og løpenummer.</p>
 <h4 id="17-rapportering">§ 17. Rapportering</h4>
 <p>Leverandøren skal rapportere til Direktoratet for eksportkontroll og sanksjoner kvartalsvis, på fastsatt skjema, om all eksport og overføring av forsvarsrelaterte varer oppført på liste I.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="18-arkivering">§ 18. Arkivering</h4>
 <p>Leverandøren skal oppbevare registre og lisenser i minst ti år fra utløpet av det kalenderåret eksporten fant sted. Direktoratet for eksportkontroll og sanksjoner kan pålegge leverandøren å fremvise denne dokumentasjonen for kontroll.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="19-informasjon-om-vilkar">§ 19. Informasjon om vilkår</h4>
 <p>Leverandøren skal informere mottakerne om vilkår for lisensen, herunder begrensninger i forbindelse med sluttbruk eller re-eksport.</p>
 <h4 id="20-oppflging-av-eksport">§ 20. Oppfølging av eksport</h4>
@@ -201,21 +322,21 @@ g. tolldeklarasjon med ekspedisjons- og løpenummer.</p>
 <p>Lisenssøknad skal fremmes skriftlig og på fastsatt skjema undertegnet av den som har fullmakt til å handle på leverandørens vegne. For overføringslisenser gjelder også særskilte regler i kap. 3 .</p>
 <p>Leverandøren skal legge frem alle opplysninger og dokumentasjon som Direktoratet for eksportkontroll og sanksjoner finner nødvendig for behandling av søknaden.</p>
 <p>At bindende avtaler er inngått eller at betaling er mottatt vil ikke kunne legges til grunn for innvilgelse av tillatelse til utførsel. Ved avtaler om eksport av lisenspliktige varer og teknologi bør det alltid tas forbehold om at søknad om lisens innvilges.</p>
-<p><em>Endret ved forskrifter 6 juni 2017 nr. 740 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</em></p>
+<p class="note">Endret ved forskrifter 6 juni 2017 nr. 740 , 22 nov 2024 nr. 2872 (i kraft 1 jan 2025), 29 aug 2025 nr. 1757 .</p>
 <h4 id="23-vilkar-for-innvilgelse-av-lisens">§ 23. Vilkår for innvilgelse av lisens</h4>
 <p>Direktoratet for eksportkontroll og sanksjoner kan sette vilkår i tråd med formålet til lov 18. desember 1987 nr. 93 for innvilgelse av lisens i medhold av denne forskrift.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="24-sluttbrukererklring">§ 24. Sluttbrukererklæring</h4>
 <p>Direktoratet for eksportkontroll og sanksjoner kan kreve at leverandøren fremlegger en sluttbrukererklæring.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="25-tilbakekalling-av-lisens">§ 25. Tilbakekalling av lisens</h4>
 <p>Lisens gitt i medhold av denne forskrift kan tilbakekalles, suspenderes eller begrenses dersom leverandøren misbruker lisensen eller misligholder vilkårene i denne. Det samme gjelder dersom leverandøren handler i strid med bestemmelser gitt i denne forskrift. Lisens kan også tilbakekalles, suspenderes eller begrenses dersom det fremkommer nye opplysninger eller de politiske eller faktiske forhold i mottakerstaten eller området endres, og dette vesentlig endrer grunnlaget for lisensen. For øvrig gjelder de alminnelige regler om omgjøring av enkeltvedtak.</p>
 <h4 id="26-endring-forlengelse-og-overdragelse-av-lisens">§ 26. Endring, forlengelse og overdragelse av lisens</h4>
 <p>Leverandøren må søke Direktoratet for eksportkontroll og sanksjoner om endring eller forlengelse av innvilgede lisenser samt for å overdra slike til andre.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h4 id="27-retur-av-lisens">§ 27. Retur av lisens</h4>
 <p>Lisenser som ikke er benyttet eller ikke kan benyttes som forutsatt, returneres til Direktoratet for eksportkontroll og sanksjoner med en redegjørelse for årsaken. Det samme gjelder om en innvilget lisens har gått tapt.</p>
-<p><em>Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 nov 2024 nr. 2872 (i kraft 1 jan 2025).</p>
 <h2 id="kap-7-sluttbestemmelser">Kap 7. Sluttbestemmelser</h2>
 <h4 id="28-ikrafttreden">§ 28. Ikrafttreden</h4>
 <p>Forskriften trer i kraft straks. Fra samme tidspunkt oppheves forskrift 10. januar 1989 nr. 51 til gjennomføring av utførselsreguleringen for strategiske varer, tjenester og teknologi.</p>
@@ -228,6 +349,8 @@ g. tolldeklarasjon med ekspedisjons- og løpenummer.</p>
 <h2 id="vedlegg-iiiliste-iii-nasjonal-liste-2025">Vedlegg IIIListe III – nasjonal liste (2025)</h2>
 <p>For å lese vedlegg III se her: pdf-fil .</p>
 <p>Tilføyd ved forskrift 2 okt 2024 nr. 2386 (i kraft 1 nov 2024), endret ved forskrifter 4 nov 2024 nr. 2898 , 8 jan 2026 nr. 36 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

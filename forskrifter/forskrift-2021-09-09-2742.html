@@ -19,64 +19,255 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-09-09-2742.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Samtrafikkforskriften" href="../feeds/forskrift-2021-09-09-2742.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Samtrafikkforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2021-09-09-2742</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-16-1063</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2021-09-09-2742" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-myndighet">§ 1-3. Myndighet</a></li>
+<li class="lvl4"><a href="#1-4-overordnede-definisjoner">§ 1-4. Overordnede definisjoner</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner-knyttet-til-roller">§ 1-5. Definisjoner knyttet til roller</a></li>
+<li class="lvl4"><a href="#1-6-definisjoner-knyttet-til-tillatelser">§ 1-6. Definisjoner knyttet til tillatelser</a></li>
+<li class="lvl4"><a href="#1-7-grunnleggende-krav">§ 1-7. Grunnleggende krav</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tekniske-spesifikasjoner-for-samtrafikkevne-tsi">Kapittel II. Tekniske spesifikasjoner for samtrafikkevne (TSI)</a></li>
+<li class="lvl4"><a href="#2-1-innhold-i-tsi-ene">§ 2-1. Innhold i TSI-ene</a></li>
+<li class="lvl4"><a href="#2-2-hvem-som-kan-melde-fra-om-mangler-i-tsi-er">§ 2-2. Hvem som kan melde fra om mangler i TSI-er</a></li>
+<li class="lvl4"><a href="#2-3-unntak-fra-anvendelse-av-tsi-er-vilkar-for-unntak">§ 2-3. Unntak fra anvendelse av TSI-er – vilkår for unntak</a></li>
+<li class="lvl4"><a href="#2-4-unntak-fra-anvendelse-av-tsi-er-involvering-av-esa-og-kommisjonen">§ 2-4. Unntak fra anvendelse av TSI-er – involvering av ESA og Kommisjonen</a></li>
+<li class="lvl4"><a href="#2-5-unntak-fra-anvendelse-av-tsi-er-kommisjonens-og-esas-behandling-av-sknader">§ 2-5. Unntak fra anvendelse av TSI-er – Kommisjonens og ESAs behandling av søknader</a></li>
+<li class="lvl2"><a href="#kapittel-iii-samtrafikkomponenter">Kapittel III. Samtrafikkomponenter</a></li>
+<li class="lvl4"><a href="#3-1-vilkar-for-a-bringe-samtrafikkomponenter-i-omsetning">§ 3-1. Vilkår for å bringe samtrafikkomponenter i omsetning</a></li>
+<li class="lvl4"><a href="#3-2-nar-en-samtrafikkomponent-tilfredsstiller-de-grunnleggende-kravene">§ 3-2. Når en samtrafikkomponent tilfredsstiller de grunnleggende kravene</a></li>
+<li class="lvl4"><a href="#3-3-fremgangsmaten-for-utstedelse-av-ef-samsvarserklringer-eller-ef-erklringer-om-bruksegnethet">§ 3-3. Fremgangsmåten for utstedelse av EF-samsvarserklæringer eller EF-erklæringer om bruksegnethet</a></li>
+<li class="lvl4"><a href="#3-4-samtrafikkomponenter-som-ikke-oppfyller-grunnleggende-krav">§ 3-4. Samtrafikkomponenter som ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl2"><a href="#kapittel-iv-delsystemer">Kapittel IV. Delsystemer</a></li>
+<li class="lvl4"><a href="#4-1-fritt-varebytte-for-delsystemer">§ 4-1. Fritt varebytte for delsystemer</a></li>
+<li class="lvl4"><a href="#4-2-samsvar-med-tsi-er-og-nasjonale-regler">§ 4-2. Samsvar med TSI-er og nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-3-melding-til-esa-og-byraet-om-gjeldende-nasjonale-regler">§ 4-3. Melding til ESA og Byrået om gjeldende nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-4-fastsettelse-av-nye-nasjonale-regler">§ 4-4. Fastsettelse av nye nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-5-manglende-melding-vedrrende-nasjonale-regler">§ 4-5. Manglende melding vedrørende nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-6-fremgangsmaten-for-utstedelse-av-en-ef-verifiseringserklring">§ 4-6. Fremgangsmåten for utstedelse av en EF-verifiseringserklæring</a></li>
+<li class="lvl4"><a href="#4-7-nar-et-delsystem-ikke-oppfyller-grunnleggende-krav">§ 4-7. Når et delsystem ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#4-8-nar-samtrafikkomponenter-og-delsystemer-skal-antas-a-oppfylle-de-grunnleggende-kravene">§ 4-8. Når samtrafikkomponenter og delsystemer skal antas å oppfylle de grunnleggende kravene</a></li>
+<li class="lvl2"><a href="#kapittel-v-omsetning-og-ibruktaking-av-faste-anlegg">Kapittel V. Omsetning og ibruktaking av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-1-vilkar-for-bruk-av-faste-anlegg">§ 5-1. Vilkår for bruk av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-2-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-2. Tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-3-melding-til-statens-jernbanetilsyn-om-fornyelse-eller-oppgradering-av-faste-anlegg">§ 5-3. Melding til Statens jernbanetilsyn om fornyelse eller oppgradering av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-4-saksbehandling-av-melding">§ 5-4. Saksbehandling av melding</a></li>
+<li class="lvl4"><a href="#5-5-sknad-om-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-5. Søknad om tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-6-saksbehandling-av-sknad-om-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-6. Saksbehandling av søknad om tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-7-sknad-til-byraet-i-forbindelse-med-harmonisert-gjennomfring-av-ertms-i-unionen">§ 5-7. Søknad til Byrået i forbindelse med harmonisert gjennomføring av ERTMS i Unionen</a></li>
+<li class="lvl4"><a href="#5-8-byraets-saksbehandling-av-sknader-om-gjennomfring-av-ertms">§ 5-8. Byråets saksbehandling av søknader om gjennomføring av ERTMS</a></li>
+<li class="lvl2"><a href="#kapittel-vi-omsetning-og-ibruktaking-av-mobile-delsystemer">Kapittel VI. Omsetning og ibruktaking av mobile delsystemer</a></li>
+<li class="lvl4"><a href="#6-1-omsetning-av-mobile-delsystemer">§ 6-1. Omsetning av mobile delsystemer</a></li>
+<li class="lvl4"><a href="#6-2-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-2. Tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-3-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-3. Søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-4-prving-for-a-verifisere-kjrety">§ 6-4. Prøving for å verifisere kjøretøy</a></li>
+<li class="lvl4"><a href="#6-5-byraets-saksbehandling-av-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-5. Byråets saksbehandling av søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-6-statens-jernbanetilsyns-saksbehandling-av-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-6. Statens jernbanetilsyns saksbehandling av søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-7-saksbehandlingsregler-ved-uenighet-mellom-byraet-og-statens-jernbanetilsyn">§ 6-7. Saksbehandlingsregler ved uenighet mellom Byrået og Statens jernbanetilsyn</a></li>
+<li class="lvl4"><a href="#6-8-innholdet-i-tillatelsen-til-a-bringe-kjrety-i-omsetning">§ 6-8. Innholdet i tillatelsen til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-9-avslag-pa-sknad-om-tillatelse">§ 6-9. Avslag på søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#6-10-fornyelse-og-oppgradering-av-kjrety">§ 6-10. Fornyelse og oppgradering av kjøretøy</a></li>
+<li class="lvl4"><a href="#6-11-utvidelse-av-bruksomradet-til-et-kjrety-som-har-fatt-tillatelse">§ 6-11. Utvidelse av bruksområdet til et kjøretøy som har fått tillatelse</a></li>
+<li class="lvl4"><a href="#6-12-registrering-i-kjretyregister">§ 6-12. Registrering i kjøretøyregister</a></li>
+<li class="lvl4"><a href="#6-13-kontroll-fr-kjretyet-tas-i-bruk">§ 6-13. Kontroll før kjøretøyet tas i bruk</a></li>
+<li class="lvl4"><a href="#6-14-typetillatelse-for-kjrety">§ 6-14. Typetillatelse for kjøretøy</a></li>
+<li class="lvl4"><a href="#6-15-tillatelse-til-kjretyer-som-er-i-samsvar-med-en-tillatt-kjretytype">§ 6-15. Tillatelse til kjøretøyer som er i samsvar med en tillatt kjøretøytype</a></li>
+<li class="lvl4"><a href="#6-16-typesamsvarserklring">§ 6-16. Typesamsvarserklæring</a></li>
+<li class="lvl4"><a href="#6-17-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-17. Når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#6-18-sikkerhetstiltak-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-18. Sikkerhetstiltak når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#6-19-fremgangsmate-ved-overprving-av-vedtak-om-tilbakekalling-av-eller-endring-tillatelsen">§ 6-19. Fremgangsmåte ved overprøving av vedtak om tilbakekalling av eller endring tillatelsen</a></li>
+<li class="lvl4"><a href="#6-20-informasjon-om-og-offentliggjring-av-tilbakekalling-av-eller-endring-i-tillatelsen">§ 6-20. Informasjon om og offentliggjøring av tilbakekalling av eller endring i tillatelsen</a></li>
+<li class="lvl4"><a href="#6-21-konsekvenser-av-tilbakekalt-tillatelse">§ 6-21. Konsekvenser av tilbakekalt tillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-vii-registre">Kapittel VII. Registre</a></li>
+<li class="lvl4"><a href="#7-1-nummereringssystem-for-kjrety">§ 7-1. Nummereringssystem for kjøretøy</a></li>
+<li class="lvl4"><a href="#7-2-kjretyregistre">§ 7-2. Kjøretøyregistre</a></li>
+<li class="lvl4"><a href="#7-3-det-europeiske-registeret-over-godkjente-kjretytyper">§ 7-3. Det europeiske registeret over godkjente kjøretøytyper</a></li>
+<li class="lvl4"><a href="#7-4-infrastrukturregister">§ 7-4. Infrastrukturregister</a></li>
+<li class="lvl2"><a href="#kapittel-viii-overgangsbestemmelser-og-sluttbestemmelser">Kapittel VIII. Overgangsbestemmelser og sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-generelle-saksbehandlingsregler">§ 8-1. Generelle saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#8-2-overgangsordning-for-bruk-av-kjrety">§ 8-2. Overgangsordning for bruk av kjøretøy</a></li>
+<li class="lvl4"><a href="#8-3-andre-overgangsbestemmelser">§ 8-3. Andre overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse">§ 8-4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-elementer-i-jernbanesystemet">Vedlegg I. Elementer i jernbanesystemet</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-delsystemer">Vedlegg II. Delsystemer</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-grunnleggende-krav">Vedlegg III. Grunnleggende krav</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-framgangsmate-for-ef-verifisering-av-delsystemer">Vedlegg IV. Framgangsmåte for EF-verifisering av delsystemer</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-16-1063.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-09-09-2742.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om samtrafikkevnen i jernbanesystemet (samtrafikkforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-09-09-2742.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2021-09-09-2742 <code>forskrift/2021-09-09-2742</code></td></tr>
+<tr><th>Korttittel</th><td>Samtrafikkforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-16-1063 <code>forskrift/2025-06-16-1063</code> fra 01.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2021-09-09-2742" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-myndighet">§ 1-3. Myndighet</a></li>
+<li class="lvl4"><a href="#1-4-overordnede-definisjoner">§ 1-4. Overordnede definisjoner</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner-knyttet-til-roller">§ 1-5. Definisjoner knyttet til roller</a></li>
+<li class="lvl4"><a href="#1-6-definisjoner-knyttet-til-tillatelser">§ 1-6. Definisjoner knyttet til tillatelser</a></li>
+<li class="lvl4"><a href="#1-7-grunnleggende-krav">§ 1-7. Grunnleggende krav</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tekniske-spesifikasjoner-for-samtrafikkevne-tsi">Kapittel II. Tekniske spesifikasjoner for samtrafikkevne (TSI)</a></li>
+<li class="lvl4"><a href="#2-1-innhold-i-tsi-ene">§ 2-1. Innhold i TSI-ene</a></li>
+<li class="lvl4"><a href="#2-2-hvem-som-kan-melde-fra-om-mangler-i-tsi-er">§ 2-2. Hvem som kan melde fra om mangler i TSI-er</a></li>
+<li class="lvl4"><a href="#2-3-unntak-fra-anvendelse-av-tsi-er-vilkar-for-unntak">§ 2-3. Unntak fra anvendelse av TSI-er – vilkår for unntak</a></li>
+<li class="lvl4"><a href="#2-4-unntak-fra-anvendelse-av-tsi-er-involvering-av-esa-og-kommisjonen">§ 2-4. Unntak fra anvendelse av TSI-er – involvering av ESA og Kommisjonen</a></li>
+<li class="lvl4"><a href="#2-5-unntak-fra-anvendelse-av-tsi-er-kommisjonens-og-esas-behandling-av-sknader">§ 2-5. Unntak fra anvendelse av TSI-er – Kommisjonens og ESAs behandling av søknader</a></li>
+<li class="lvl2"><a href="#kapittel-iii-samtrafikkomponenter">Kapittel III. Samtrafikkomponenter</a></li>
+<li class="lvl4"><a href="#3-1-vilkar-for-a-bringe-samtrafikkomponenter-i-omsetning">§ 3-1. Vilkår for å bringe samtrafikkomponenter i omsetning</a></li>
+<li class="lvl4"><a href="#3-2-nar-en-samtrafikkomponent-tilfredsstiller-de-grunnleggende-kravene">§ 3-2. Når en samtrafikkomponent tilfredsstiller de grunnleggende kravene</a></li>
+<li class="lvl4"><a href="#3-3-fremgangsmaten-for-utstedelse-av-ef-samsvarserklringer-eller-ef-erklringer-om-bruksegnethet">§ 3-3. Fremgangsmåten for utstedelse av EF-samsvarserklæringer eller EF-erklæringer om bruksegnethet</a></li>
+<li class="lvl4"><a href="#3-4-samtrafikkomponenter-som-ikke-oppfyller-grunnleggende-krav">§ 3-4. Samtrafikkomponenter som ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl2"><a href="#kapittel-iv-delsystemer">Kapittel IV. Delsystemer</a></li>
+<li class="lvl4"><a href="#4-1-fritt-varebytte-for-delsystemer">§ 4-1. Fritt varebytte for delsystemer</a></li>
+<li class="lvl4"><a href="#4-2-samsvar-med-tsi-er-og-nasjonale-regler">§ 4-2. Samsvar med TSI-er og nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-3-melding-til-esa-og-byraet-om-gjeldende-nasjonale-regler">§ 4-3. Melding til ESA og Byrået om gjeldende nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-4-fastsettelse-av-nye-nasjonale-regler">§ 4-4. Fastsettelse av nye nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-5-manglende-melding-vedrrende-nasjonale-regler">§ 4-5. Manglende melding vedrørende nasjonale regler</a></li>
+<li class="lvl4"><a href="#4-6-fremgangsmaten-for-utstedelse-av-en-ef-verifiseringserklring">§ 4-6. Fremgangsmåten for utstedelse av en EF-verifiseringserklæring</a></li>
+<li class="lvl4"><a href="#4-7-nar-et-delsystem-ikke-oppfyller-grunnleggende-krav">§ 4-7. Når et delsystem ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#4-8-nar-samtrafikkomponenter-og-delsystemer-skal-antas-a-oppfylle-de-grunnleggende-kravene">§ 4-8. Når samtrafikkomponenter og delsystemer skal antas å oppfylle de grunnleggende kravene</a></li>
+<li class="lvl2"><a href="#kapittel-v-omsetning-og-ibruktaking-av-faste-anlegg">Kapittel V. Omsetning og ibruktaking av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-1-vilkar-for-bruk-av-faste-anlegg">§ 5-1. Vilkår for bruk av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-2-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-2. Tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-3-melding-til-statens-jernbanetilsyn-om-fornyelse-eller-oppgradering-av-faste-anlegg">§ 5-3. Melding til Statens jernbanetilsyn om fornyelse eller oppgradering av faste anlegg</a></li>
+<li class="lvl4"><a href="#5-4-saksbehandling-av-melding">§ 5-4. Saksbehandling av melding</a></li>
+<li class="lvl4"><a href="#5-5-sknad-om-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-5. Søknad om tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-6-saksbehandling-av-sknad-om-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-6. Saksbehandling av søknad om tillatelse til å ta i bruk faste anlegg</a></li>
+<li class="lvl4"><a href="#5-7-sknad-til-byraet-i-forbindelse-med-harmonisert-gjennomfring-av-ertms-i-unionen">§ 5-7. Søknad til Byrået i forbindelse med harmonisert gjennomføring av ERTMS i Unionen</a></li>
+<li class="lvl4"><a href="#5-8-byraets-saksbehandling-av-sknader-om-gjennomfring-av-ertms">§ 5-8. Byråets saksbehandling av søknader om gjennomføring av ERTMS</a></li>
+<li class="lvl2"><a href="#kapittel-vi-omsetning-og-ibruktaking-av-mobile-delsystemer">Kapittel VI. Omsetning og ibruktaking av mobile delsystemer</a></li>
+<li class="lvl4"><a href="#6-1-omsetning-av-mobile-delsystemer">§ 6-1. Omsetning av mobile delsystemer</a></li>
+<li class="lvl4"><a href="#6-2-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-2. Tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-3-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-3. Søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-4-prving-for-a-verifisere-kjrety">§ 6-4. Prøving for å verifisere kjøretøy</a></li>
+<li class="lvl4"><a href="#6-5-byraets-saksbehandling-av-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-5. Byråets saksbehandling av søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-6-statens-jernbanetilsyns-saksbehandling-av-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-6. Statens jernbanetilsyns saksbehandling av søknad om tillatelse til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-7-saksbehandlingsregler-ved-uenighet-mellom-byraet-og-statens-jernbanetilsyn">§ 6-7. Saksbehandlingsregler ved uenighet mellom Byrået og Statens jernbanetilsyn</a></li>
+<li class="lvl4"><a href="#6-8-innholdet-i-tillatelsen-til-a-bringe-kjrety-i-omsetning">§ 6-8. Innholdet i tillatelsen til å bringe kjøretøy i omsetning</a></li>
+<li class="lvl4"><a href="#6-9-avslag-pa-sknad-om-tillatelse">§ 6-9. Avslag på søknad om tillatelse</a></li>
+<li class="lvl4"><a href="#6-10-fornyelse-og-oppgradering-av-kjrety">§ 6-10. Fornyelse og oppgradering av kjøretøy</a></li>
+<li class="lvl4"><a href="#6-11-utvidelse-av-bruksomradet-til-et-kjrety-som-har-fatt-tillatelse">§ 6-11. Utvidelse av bruksområdet til et kjøretøy som har fått tillatelse</a></li>
+<li class="lvl4"><a href="#6-12-registrering-i-kjretyregister">§ 6-12. Registrering i kjøretøyregister</a></li>
+<li class="lvl4"><a href="#6-13-kontroll-fr-kjretyet-tas-i-bruk">§ 6-13. Kontroll før kjøretøyet tas i bruk</a></li>
+<li class="lvl4"><a href="#6-14-typetillatelse-for-kjrety">§ 6-14. Typetillatelse for kjøretøy</a></li>
+<li class="lvl4"><a href="#6-15-tillatelse-til-kjretyer-som-er-i-samsvar-med-en-tillatt-kjretytype">§ 6-15. Tillatelse til kjøretøyer som er i samsvar med en tillatt kjøretøytype</a></li>
+<li class="lvl4"><a href="#6-16-typesamsvarserklring">§ 6-16. Typesamsvarserklæring</a></li>
+<li class="lvl4"><a href="#6-17-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-17. Når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#6-18-sikkerhetstiltak-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-18. Sikkerhetstiltak når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav</a></li>
+<li class="lvl4"><a href="#6-19-fremgangsmate-ved-overprving-av-vedtak-om-tilbakekalling-av-eller-endring-tillatelsen">§ 6-19. Fremgangsmåte ved overprøving av vedtak om tilbakekalling av eller endring tillatelsen</a></li>
+<li class="lvl4"><a href="#6-20-informasjon-om-og-offentliggjring-av-tilbakekalling-av-eller-endring-i-tillatelsen">§ 6-20. Informasjon om og offentliggjøring av tilbakekalling av eller endring i tillatelsen</a></li>
+<li class="lvl4"><a href="#6-21-konsekvenser-av-tilbakekalt-tillatelse">§ 6-21. Konsekvenser av tilbakekalt tillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-vii-registre">Kapittel VII. Registre</a></li>
+<li class="lvl4"><a href="#7-1-nummereringssystem-for-kjrety">§ 7-1. Nummereringssystem for kjøretøy</a></li>
+<li class="lvl4"><a href="#7-2-kjretyregistre">§ 7-2. Kjøretøyregistre</a></li>
+<li class="lvl4"><a href="#7-3-det-europeiske-registeret-over-godkjente-kjretytyper">§ 7-3. Det europeiske registeret over godkjente kjøretøytyper</a></li>
+<li class="lvl4"><a href="#7-4-infrastrukturregister">§ 7-4. Infrastrukturregister</a></li>
+<li class="lvl2"><a href="#kapittel-viii-overgangsbestemmelser-og-sluttbestemmelser">Kapittel VIII. Overgangsbestemmelser og sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-generelle-saksbehandlingsregler">§ 8-1. Generelle saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#8-2-overgangsordning-for-bruk-av-kjrety">§ 8-2. Overgangsordning for bruk av kjøretøy</a></li>
+<li class="lvl4"><a href="#8-3-andre-overgangsbestemmelser">§ 8-3. Andre overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse">§ 8-4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-elementer-i-jernbanesystemet">Vedlegg I. Elementer i jernbanesystemet</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-delsystemer">Vedlegg II. Delsystemer</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-grunnleggende-krav">Vedlegg III. Grunnleggende krav</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-framgangsmate-for-ef-verifisering-av-delsystemer">Vedlegg IV. Framgangsmåte for EF-verifisering av delsystemer</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-09-09-2742.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-09-09-2742.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-09-09-2742.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2021-09-09-2742.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2021-09-09-2742.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-09-09-2742.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2021-09-09-2742.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2021-09-09-2742.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-09-09-2742.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-samtrafikkevnen-i-jernbanesystemet-samtrafikkforskriften">Forskrift om samtrafikkevnen i jernbanesystemet (samtrafikkforskriften)</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriften fastsetter de vilkårene som skal oppfylles for å oppnå samtrafikkevne på jernbanenettet på en måte som er forenlig med sikkerhetsforskriften . Hensikten er å definere et optimalt nivå for teknisk harmonisering, og gjøre det mulig å forenkle, forbedre og utvikle internasjonal jernbanetransport i EØS og med tredjestater. Forskriften skal bidra til å gjennomføre Det felles europeiske jernbaneområdet og gradvis gjennomføre det indre marked på jernbanen.</p>
@@ -89,7 +280,7 @@ c. privateid jernbaneinfrastruktur, inkludert sidespor, som brukes av eieren ell
 d. infrastruktur og kjøretøy som er avsatt for strengt lokal, historisk eller turistmessig bruk
 e. lettbaneinfrastruktur som av og til brukes av jernbanekjøretøy under særlige vilkår på lettbanesystemet, utelukkende dersom det er nødvendig av hensyn til å oppnå forbindelse for disse kjøretøyene, og
 f. kjøretøy som hovedsakelig brukes på lettbaneinfrastruktur, men som er utstyrt med noen jernbanekomponenter som er nødvendige for å gjøre det mulig med en overgang på et avgrenset og begrenset avsnitt av jernbaneinfrastrukturen, utelukkende av hensyn til å oppnå forbindelse.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="1-3-myndighet">§ 1-3. Myndighet</h4>
 <p>Statens jernbanetilsyn er nasjonal sikkerhetsmyndighet i medhold av denne forskriften.</p>
 <h4 id="1-4-overordnede-definisjoner">§ 1-4. Overordnede definisjoner <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -111,7 +302,7 @@ n. jernbanevirksomhet: fellesbetegnelse for jernbaneforetak og infrastrukturforv
 o. one-stop shop: informasjons- og kommunikasjonssystem blant annet for behandling av søknader om sikkerhetssertifikat og tillatelse til å ta i bruk kjøretøy, jf. artikkel 12 i ERA-forordningen,
 p. ERA-forordningen: Forordning (EU) 2016/796 .
 q. lettbanekjøretøy: et sporbundet kjøretøy i byer- eller forstadsområder med kollisjonssikkerhet CIII eller C-IV (i samsvar med EN 15227:2011) og en maksimal styrke av kjøretøyets konstruksjon på 800 kN (lengdetrykkraft i koblingsområdet), herunder tunnelbaner, sporvogner, forstadsbaner og lignende. Lettbanekjøretøy kan kjøre i egen trasé eller på spor i blandet trafikk og utveksler normalt ikke kjøretøy med langdistanse passasjer- eller godstogtrafikk.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="1-5-definisjoner-knyttet-til-roller">§ 1-5. Definisjoner knyttet til roller <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I denne forskriften menes med</p>
 <p>a. oppdragsgiver: et offentlig eller privat foretak som bestiller prosjektering, bygging, fornyelse eller oppgradering av et delsystem,
@@ -125,7 +316,7 @@ h. samsvarsvurderingsorgan: et organ som er meldt eller utpekt til å være ansv
 i. funksjonshemmet person og bevegelseshemmet person: enhver person som har en permanent eller midlertidig fysisk, mental, intellektuell eller sensorisk funksjonshemming, som i samhandling med forskjellige barrierer kan være til hinder for at vedkommende fullt ut og effektivt kan benytte transportmidler på like vilkår som andre passasjerer, eller en person hvis bevegelighet ved bruk av transportmidler er nedsatt på grunn av alder,
 j. infrastrukturforvalter: ethvert organ eller foretak som er ansvarlig for å opprette, forvalte og vedlikeholde jernbaneinfrastruktur, inkludert trafikkstyring og styring, kontroll og signal. Infrastrukturforvalters oppgaver på et nett eller en del av et nett kan tildeles forskjellige organer eller foretak,
 k. jernbaneforetak: ethvert offentlig eller privat foretak som har som virksomhet å yte tjenester for transport av gods og/eller passasjerer med jernbane, der foretaket forplikter seg til å sørge for trekkraften, herunder foretak som bare sørger for trekkraften.</p>
-<p><em>Endret ved forskrift 6 juni 2023 nr. 795 .</em></p>
+<p class="note">Endret ved forskrift 6 juni 2023 nr. 795 .</p>
 <h4 id="1-6-definisjoner-knyttet-til-tillatelser">§ 1-6. Definisjoner knyttet til tillatelser</h4>
 <p>I denne forskriften menes med</p>
 <p>a. oppgradering: ethvert større endringsarbeid på et delsystem eller en del av et delsystem som medfører en endring i den tekniske dokumentasjonen som følger EF-verifiseringserklæringen, dersom slik dokumentasjon finnes, og som forbedrer delsystemets generelle yteevne,
@@ -148,7 +339,7 @@ k. samsvarsvurdering: en prosess for å fastslå om nærmere angitte krav til et
 <p>Faste delsystemer skal være i samsvar med TSI-ene og gjeldende nasjonale regler på det tidspunktet søknaden om tillatelse til å ta i bruk ble sendt. Kjøretøy skal være i samsvar med TSI-ene og gjeldende nasjonale regler på det tidspunktet søknaden om tillatelse til å bringe et kjøretøy i omsetning ble sendt. Faste delsystemer og kjøretøy skal til enhver tid være i samsvar med og overholde TSI-ene som de oppfylte på søknadstidspunktet så lenge de er i bruk.</p>
 <h4 id="2-2-hvem-som-kan-melde-fra-om-mangler-i-tsi-er">§ 2-2. Hvem som kan melde fra om mangler i TSI-er <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ethvert medlem av det nettverket av representative organer som nevnt i forordning (EU) 2016/796 artikkel 38 nr. 4 kan gjøre Kommisjonen oppmerksom på mulige mangler i TSI-er.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="2-3-unntak-fra-anvendelse-av-tsi-er-vilkar-for-unntak">§ 2-3. Unntak fra anvendelse av TSI-er – vilkår for unntak <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan gjøres unntak fra anvendelse av en eller flere TSI-er eller deler av disse i følgende tilfeller:</p>
 <p>a. for langt fremskredne prosjekter eller prosjekter som er underlagt en kontrakt som er i ferd med å bli gjennomført på datoen for ikrafttredelse for den eller de aktuelle TSI-ene. Dette gjelder prosjekter som omfatter et nytt delsystem eller en del av det, for fornyelse eller oppgradering av et eksisterende delsystem eller del av det, eller for et hvilket som helst av elementene nevnt i § 1-2 første ledd ,
@@ -156,7 +347,7 @@ b. når det etter en ulykke eller naturkatastrofe er behov for en rask utbedring
 c. når et eksisterende delsystem eller en del av det fornyes, utvides eller oppgraderes, og anvendelsen av de aktuelle TSI-ene kan skade prosjektets økonomiske levedyktighet eller forenlighet med jernbanesystemet. Dette gjelder for eksempel lasteprofil, sporvidde, avstand mellom sporene eller elektrisk spenning,
 d. for kjøretøy i trafikk fra eller til tredjestater, der sporvidden skiller seg fra sporvidden på hovedjernbanenettet i EØS,
 e. for et prosjekt som gjelder et nytt delsystem, fornyelse eller oppgradering av et eksisterende delsystem, dersom jernbanenett er atskilt eller isolert fra øvrige jernbanenett i EØS av hav eller av andre særlige geografiske forhold.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="2-4-unntak-fra-anvendelse-av-tsi-er-involvering-av-esa-og-kommisjonen">§ 2-4. Unntak fra anvendelse av TSI-er – involvering av ESA og Kommisjonen <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Statens jernbanetilsyn skal innen ett år etter at hver TSI er trådt i kraft, sende ESA en liste over pågående prosjekter som anses som langt framskredne etter § 2-3 bokstav a .</p>
 <p>I tilfellene som er nevnt i § 2-3 første ledd bokstav a og b skal Statens jernbanetilsyn informere ESA om at en eller flere TSI-er eller deler av dem ikke vil bli anvendt.</p>
@@ -165,12 +356,12 @@ e. for et prosjekt som gjelder et nytt delsystem, fornyelse eller oppgradering a
 <p>a. Byrået dersom søknaden om tillatelse til å bringe et kjøretøy i omsetning gjelder et kjøretøy med bruksområde i flere EØS-stater, eller
 b. Byrået eller, dersom søkeren ønsker det, til Statens jernbanetilsyn, dersom søknaden om tillatelse til å bringe et kjøretøy i omsetning gjelder et kjøretøy som har bruksområde utelukkende i Norge.</p>
 <p>Anmodninger etter fjerde ledd skal være begrunnet og angi de alternative bestemmelsene som skal gjelde i stedet for TSI-ene. I tilfeller der en anmodning som nevnt i fjerde ledd er rettet til Byrået, innhenter Byrået en uttalelse fra Statens jernbanetilsyn og sender sin endelige uttalelse til Kommisjonen. I tilfeller der anmodningen er rettet til Statens jernbanetilsyn, sender Statens jernbanetilsyn en anmodning til ESA.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="2-5-unntak-fra-anvendelse-av-tsi-er-kommisjonens-og-esas-behandling-av-sknader">§ 2-5. Unntak fra anvendelse av TSI-er – Kommisjonens og ESAs behandling av søknader <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kommisjonen eller ESA skal treffe sin beslutning innen fire måneder etter at anmodningen med fullstendig dokumentasjon er fremlagt. Dersom det ikke treffes noen slik beslutning, skal anmodningen anses for å være godtatt.</p>
 <p>I påvente av ESAs beslutning, kan Statens jernbanetilsyn umiddelbart anvende de alternative bestemmelsene nevnt i § 2-4 tredje og femte ledd .</p>
 <p>Saker etter § 2-3 bokstav c og d avgjøres av Kommisjonen ved gjennomføringsrettsakter.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h2 id="kapittel-iii-samtrafikkomponenter">Kapittel III. Samtrafikkomponenter</h2>
 <h4 id="3-1-vilkar-for-a-bringe-samtrafikkomponenter-i-omsetning">§ 3-1. Vilkår for å bringe samtrafikkomponenter i omsetning</h4>
 <p>Statens jernbanetilsyn skal treffe alle nødvendige tiltak for å sikre at samtrafikkomponentene</p>
@@ -190,7 +381,7 @@ b. at samtrafikkomponenten har bruksegnethet sett i forhold til det jernbanesyst
 <p>Dersom verken produsenten eller dennes representant har utarbeidet EF-erklæringene i samsvar med første og tredje ledd, skal den som bringer samtrafikkomponentene i omsetning, gjøre det. Den som setter sammen samtrafikkomponenter eller deler av samtrafikkomponenter av ulik opprinnelse, eller som til eget bruk produserer samtrafikkomponenter, må utarbeide EF-erklæringene i samsvar med første og tredje ledd.</p>
 <p>Dersom Statens jernbanetilsyn fastslår at en EF-erklæring ikke er utarbeidet riktig, skal Statens jernbanetilsyn sikre at samtrafikkomponenten ikke bringes i omsetning. Statens jernbanetilsyn skal i slike tilfeller gi produsenten eller dennes representant pålegg om å bringe samtrafikkomponenten i samsvar med vilkårene fastsatt av vedkommende EØS-stat.</p>
 <p>Det er det meldte organet som søknaden er sendt til, som skal foreta samsvarsvurderingen eller vurderingen av bruksegnethet for en samtrafikkomponent.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="3-4-samtrafikkomponenter-som-ikke-oppfyller-grunnleggende-krav">§ 3-4. Samtrafikkomponenter som ikke oppfyller grunnleggende krav <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom det blir fastslått at en samtrafikkomponent som er brakt i omsetning, sannsynligvis ikke vil oppfylle de grunnleggende kravene, skal Statens jernbanetilsyn begrense anvendelsesområdet, forby bruk, trekke tilbake fra markedet eller tilbakekalle samtrafikkomponenten. Statens jernbanetilsyn skal umiddelbart underrette ESA, Byrået og de andre EØS-statene om de tiltakene som er truffet, og grunngi sin beslutning, særlig dersom det manglende samsvaret skyldes</p>
 <p>a. at de grunnleggende kravene ikke er oppfylt
@@ -201,7 +392,7 @@ c. at de europeiske spesifikasjonene er utilstrekkelige.</p>
 b. dersom den relevante spesifikasjonen er en harmonisert standard, begrense eller trekke tilbake denne standarden i samsvar med forskrift om gjennomføring av forordning (EU) nr. 1025/2012 om europeisk standardisering, vedlegget artikkel 11,
 c. gå gjennom TSI-en i samsvar med direktiv (EU) 2016/797 artikkel 6.</p>
 <p>Dersom en samtrafikkomponent som det foreligger EF-samsvarserklæring for, ikke oppfyller de grunnleggende kravene, skal Statens jernbanetilsyn gjennomføre nødvendige tiltak overfor den enheten som har utarbeidet erklæringen, og underrette ESA og de øvrige EØS-statene om dette.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h2 id="kapittel-iv-delsystemer">Kapittel IV. Delsystemer</h2>
 <h4 id="4-1-fritt-varebytte-for-delsystemer">§ 4-1. Fritt varebytte for delsystemer</h4>
 <p>Statens jernbanetilsyn kan ikke forby, begrense eller hindre bygging, ibruktaking eller drift av strukturelle delsystemer som inngår i jernbanesystemet, dersom de grunnleggende kravene er oppfylt. Statens jernbanetilsyn skal ikke kreve kontroller som allerede er utført</p>
@@ -230,7 +421,7 @@ c. nasjonale regler blir overflødige etter at den aktuelle TSI-en er offentligg
 <p>Nasjonale regler, inkludert de som omfatter grensesnittene mellom kjøretøy og jernbanenett, skal være lett tilgjengelige og formulert på en måte som alle berørte parter kan forstå. Statens jernbanetilsyn kan bli bedt om å gi ytterligere opplysninger om de nasjonale reglene.</p>
 <p>Statens jernbanetilsyn kan beslutte å ikke oversende nasjonale regler av streng lokal art. I slike tilfeller skal Statens jernbanetilsyn henvise til de aktuelle forskriftene og til restriksjonene i infrastrukturregisteret (RINF).</p>
 <p>Nasjonale regler som er meldt i samsvar med denne bestemmelsen, er ikke underlagt høring etter EØS-høringsloven .</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="4-4-fastsettelse-av-nye-nasjonale-regler">§ 4-4. Fastsettelse av nye nasjonale regler <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan bare fastsettes nye nasjonale regler i disse tilfellene:</p>
 <p>a. dersom en TSI ikke fullt ut regulerer alle grunnleggende krav, eller
@@ -238,7 +429,7 @@ b. som et forebyggende hastetiltak, særlig etter en ulykke.</p>
 <p>Statens jernbanetilsyn skal sende et begrunnet utkast til nye nasjonale regler til ESA og Byrået for vurdering før den foreslåtte regelen er forventet å tre i kraft. Utkastet til Byrået skal sendes på den måten som er angitt i forordning (EU) 2016/796 artikkel 27. Byrået skal gjennomføre undersøkelsen innen fristene og etter fremgangsmåten angitt i forordning (EU) 2016/796 artikkel 25 og 26.</p>
 <p>Statens jernbanetilsyn skal sende melding om nye nasjonale regler til ESA og Byrået når de blir vedtatt. Meldingen om nye vedtatte nasjonale regler skal sendes på den måten som er angitt i forordning (EU) 2016/796 artikkel 27.</p>
 <p>Statens jernbanetilsyn kan vedta og anvende en ny nasjonal regel umiddelbart dersom det er å anse som et forebyggende hastetiltak. Denne regelen skal meldes i samsvar med § 4-3 og være underlagt Byråets vurdering i samsvar med forordning (EU) 2016/796 artikkel 26 nr. 1, 2 og 5.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="4-5-manglende-melding-vedrrende-nasjonale-regler">§ 4-5. Manglende melding vedrørende nasjonale regler</h4>
 <p>Endringer i nasjonale regler eller nye nasjonale regler som ikke er meldt i samsvar med § 4-3 og § 4-4 , kan ikke gjøres gjeldende.</p>
 <h4 id="4-6-fremgangsmaten-for-utstedelse-av-en-ef-verifiseringserklring">§ 4-6. Fremgangsmåten for utstedelse av en EF-verifiseringserklæring <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -249,14 +440,14 @@ b. oppfyller kravene i det relevante regelverket og eventuelle nasjonale regler.
 <p>Søkeren skal samle inn den tekniske dokumentasjonen som skal vedlegges EF-verifiseringserklæringen. Den tekniske dokumentasjonen skal inneholde alle nødvendige dokumenter om delsystemet egenskaper og eventuelt all dokumentasjon som bekrefter samtrafikkomponentenes samsvar. Den skal i tillegg inneholde alle relevante opplysninger om bruksvilkår og -begrensninger, ettersyn, løpende eller periodisk tilsyn, justering og vedlikehold.</p>
 <p>Når et delsystem skal fornyes eller oppgraderes og dette fører til at den tekniske dokumentasjonen endres og påvirker gyldigheten til verifiseringen, skal søkeren vurdere behovet for å utstede en ny EF-verifiseringserklæring.</p>
 <p>Det meldte organet kan utstede attester for mellomliggende verifisering for å dekke visse trinn i verifiseringen eller visse deler av et delsystem. Dersom de relevante TSI-ene tillater det, kan det meldte organet utstede verifiseringssertifikater for ett eller flere delsystemer eller visse deler av disse delsystemene.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="4-7-nar-et-delsystem-ikke-oppfyller-grunnleggende-krav">§ 4-7. Når et delsystem ikke oppfyller grunnleggende krav <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom Statens jernbanetilsyn har vurdert at et strukturelt delsystem omfattet av EF-verifiseringserklæringen fulgt av den tekniske dokumentasjonen ikke fullt ut er i samsvar med denne forskriften og særlig ikke oppfyller de grunnleggende kravene, kan Statens jernbanetilsyn anmode om at det blir foretatt ytterligere kontroller.</p>
 <p>Statens jernbanetilsyn skal umiddelbart informere ESA om alle ytterligere kontroller Statens jernbanetilsyn har bedt om, og gi en begrunnelse for dette. ESA rådspør partene.</p>
 <p>Statens jernbanetilsyn skal til ESA oppgi om det manglende samsvaret skyldes</p>
 <p>a. at de grunnleggende kravene ikke er oppfylt, eller at en TSI ikke er overholdt. ESA eller Kommisjonen, avhengig av hvor den som har utarbeidet EF-verifiseringserklæringen er etablert, informerer i slike tilfeller umiddelbart den aktuelle EØS-staten og ber denne treffe nødvendige tiltak, eller
 b. at en TSI er utilstrekkelig, og i slike tilfeller gjelder fremgangsmåten for endring av TSI-en som nevnt i § 2-5 .</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="4-8-nar-samtrafikkomponenter-og-delsystemer-skal-antas-a-oppfylle-de-grunnleggende-kravene">§ 4-8. Når samtrafikkomponenter og delsystemer skal antas å oppfylle de grunnleggende kravene</h4>
 <p>Samtrafikkomponenter og delsystemer som er i samsvar med harmoniserte standarder eller deler av slike, som er offentliggjort i Den europeiske unions tidende, skal antas å oppfylle de grunnleggende kravene.</p>
 <h2 id="kapittel-v-omsetning-og-ibruktaking-av-faste-anlegg">Kapittel V. Omsetning og ibruktaking av faste anlegg</h2>
@@ -281,13 +472,13 @@ d. om det er gjort endringer i parameterverdiene som ligger til grunn for den ti
 b. dokumentasjon av delsystemenes tekniske forenlighet med det systemet de integreres i, fastslått på grunnlag av de relevante TSI-ene, nasjonale regler, jf. jernbaneinfrastrukturforskriften og registre,
 c. dokumentasjon av sikker integrering av delsystemer, fastslått på grunnlag av TSI-ene, nasjonale regler og de felles sikkerhetsmetodene (CSM) definert i direktiv (EU) 2016/798 artikkel 6.</p>
 <p>For delsystemet «Styring, kontroll og signal langs sporet» som omfatter ETCS- og GSM-R-utstyr, skal søkeren i tillegg legge ved Byråets godkjenning, jf. § 5-7 . Hvis det etter godkjenning gjøres endringer i utkastet til anbudsgrunnlagene eller beskrivelsen av de planlagte tekniske løsningene, skal søkeren vedlegge dokumentasjon på resultatet av samordningsprosessen, jf. § 5-7 femte ledd.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="5-6-saksbehandling-av-sknad-om-tillatelse-til-a-ta-i-bruk-faste-anlegg">§ 5-6. Saksbehandling av søknad om tillatelse til å ta i bruk faste anlegg <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-5-6.html" title="Endringshistorikk for § 5-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Statens jernbanetilsyn skal innen en måned etter at en søknad om tillatelse til å ta i bruk et fast anlegg er mottatt, bekrefte at dokumentasjonen er fullstendig eller be om relevante utfyllende opplysninger. Søkeren skal få en rimelig frist for å ettersende dokumentasjon.</p>
 <p>For søknader som gjelder tillatelse til å ta i bruk ERTMS skal Statens jernbanetilsyn verifisere at dokumentasjonen samsvarer med Byråets godkjenning av prosjektet, jf. § 5-8 andre ledd .</p>
 <p>Statens jernbanetilsyn skal avgjøre saken innen fristen som følger av forvaltningsloven § 11a , men ikke senere enn fire måneder etter å ha mottatt alle relevante opplysninger.</p>
 <p>Et avslag skal være begrunnet. Søkeren kan innen en måned etter vedtaket om avslag er mottatt, klage på avslaget til Statens jernbanetilsyn etter forvaltningslovens regler.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="5-7-sknad-til-byraet-i-forbindelse-med-harmonisert-gjennomfring-av-ertms-i-unionen">§ 5-7. Søknad til Byrået i forbindelse med harmonisert gjennomføring av ERTMS i Unionen <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-5-7.html" title="Endringshistorikk for § 5-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å sikre harmonisert gjennomføring av ERTMS og samtrafikkevne i EØS, skal Byrået, før anbudsinnbydelsen for ERTMS-utstyr langs sporet blir sendt ut, kontrollere at de planlagte tekniske løsningene fullt ut er i samsvar med de relevante TSI-ene.</p>
 <p>Søkeren skal sende Byrået søknad om godkjenning av prosjektet. Søknader som gjelder enkeltstående ERTMS-prosjekter eller en kombinasjon av prosjekter, en jernbanelinje, en gruppe av jernbanelinjer eller et jernbanenett, skal vedlegges følgende dokumentasjon:</p>
@@ -298,13 +489,13 @@ d. alle andre relevante dokumenter, for eksempel uttalelser fra Statens jernbane
 <p>Søknaden skal sendes gjennom one-stop shop (OSS).</p>
 <p>Statens jernbanetilsyn kan avgi en uttalelse til søknaden om godkjenning enten til søkeren før søknaden innleveres eller til Byrået etter at søknaden er innlevert.</p>
 <p>Dersom det skjer en endring i utkastet til anbudsgrunnlag eller i beskrivelsen av de planlagte tekniske løsningene etter den positive beslutningen, skal søkeren uten unødig opphold informere Byrået og Statens jernbanetilsyn gjennom OSS. I så fall får saksbehandlingsreglene i forordning (EU) 2016/796 artikkel 30 nr. 2 anvendelse.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="5-8-byraets-saksbehandling-av-sknader-om-gjennomfring-av-ertms">§ 5-8. Byråets saksbehandling av søknader om gjennomføring av ERTMS <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-5-8.html" title="Endringshistorikk for § 5-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Byrået bekrefter om dokumentasjonen er fullstendig eller ber om utfyllende opplysninger innen en måned etter å ha mottatt søknaden. Søkeren skal få en rimelig frist for å ettersende dokumentasjon.</p>
 <p>Byrået godkjenner prosjektet eller informerer søkeren om mulige mangler ved prosjektets utforming innen en forhåndsfastsatt frist, og senest innen to måneder etter å ha mottatt alle relevante opplysninger. Byrået skal gi sin uttalelse på bakgrunn av søkerens dokumentasjon og eventuelle uttalelser fra Statens jernbanetilsyn.</p>
 <p>Dersom søkeren er enig i manglene som Byrået har funnet, skal søkeren rette prosjektets utforming og sende inn ny søknad om godkjenning til Byrået. Dersom søkeren ikke er enig, gjelder framgangsmåten i fjerde ledd tilsvarende. Ved unntak i forbindelse med langt fremskredent prosjekt, skal søkeren ikke be om ny vurdering.</p>
 <p>Et avslag skal være begrunnet. Søkeren kan innen en måned etter beslutningen er mottatt, be om at Byrået gjennomgår beslutningen på nytt. Byrået bekrefter eller omgjør sin beslutning innen to måneder fra anmodningen ble mottatt. Dersom Byrået bekrefter sin beslutning, kan søkeren sende klage til klageinstansen opprettet i samsvar med artikkel 55 i forordning (EU) 2016/796 .</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h2 id="kapittel-vi-omsetning-og-ibruktaking-av-mobile-delsystemer">Kapittel VI. Omsetning og ibruktaking av mobile delsystemer</h2>
 <h4 id="6-1-omsetning-av-mobile-delsystemer">§ 6-1. Omsetning av mobile delsystemer</h4>
 <p>Søkeren kan bare bringe mobile delsystemer i omsetning dersom de er prosjektert, bygd og anlagt på en slik måte at de oppfyller de relevante grunnleggende kravene.</p>
@@ -320,7 +511,7 @@ c. dokumentasjon på at alle kjøretøyets delsystemer er tekniske forenlige og 
 d. dokumentasjon på sikker integrering av delsystemene i kjøretøyet, nevnt i bokstav c), fastslått på grunnlag av de relevante TSI-ene og eventuelt nasjonale regler, og CSM for risikovurdering,
 e. dokumentasjon på at teknisk forenlighet mellom kjøretøyet og jernbanenettet er kontrollert mot kravene i relevante TSI-er, eventuelt nasjonale regler, infrastrukturregistre og CSM for risikovurdering,
 f. dokumentasjon på at sikker integrering mellom kjøretøy og jernbanenettet er kontrollert i samsvar med CSM for risikovurdering.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-4-prving-for-a-verifisere-kjrety">§ 6-4. Prøving for å verifisere kjøretøy</h4>
 <p>Når det er nødvendig med prøving for å verifisere et kjøretøys tekniske forenlighet på jernbanenettet, kan Statens jernbanetilsyn gi en tidsbegrenset tillatelse til det. Infrastrukturforvalteren skal i samråd med søkeren gjøre sitt ytterste for at prøvingen kan finne sted innen tre måneder etter at søknad om tillatelse til å bringe kjøretøyet i omsetning er mottatt. Statens jernbanetilsyn skal eventuelt treffe tiltak for å sikre at slik prøving finner sted.</p>
 <h4 id="6-5-byraets-saksbehandling-av-sknad-om-tillatelse-til-a-bringe-kjrety-i-omsetning">§ 6-5. Byråets saksbehandling av søknad om tillatelse til å bringe kjøretøy i omsetning</h4>
@@ -345,7 +536,7 @@ c. etter samråd med vedkommende nasjonale sikkerhetsmyndigheter. Slikt samråd 
 <p>Dersom klageinstansen er enig med Byrået, treffer Byrået en beslutning umiddelbart.</p>
 <p>Dersom klageinstansen er enig i Statens jernbanetilsyns negative vurdering, gir Byrået en tillatelse for et bruksområde som utelukker de delene av jernbanenettet som fikk en negativ vurdering.</p>
 <p>Dersom Byrået er uenig i en positiv vurdering som er foretatt av Statens jernbanetilsyn i samsvar med § 6-5 første ledd bokstav b, underretter Byrået Statens jernbanetilsyn og begrunner hvorfor det er uenig. Byrået og Statens jernbanetilsyn skal samarbeide med sikte på å oppnå enighet. Dersom det er nødvendig, kan Byrået og Statens jernbanetilsyn involvere søkeren. Dersom man ikke har kommet til enighet innen én måned etter at Byrået har informert Statens jernbanetilsyn om at det er uenig, skal Byrået treffe sin endelige beslutning.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-8-innholdet-i-tillatelsen-til-a-bringe-kjrety-i-omsetning">§ 6-8. Innholdet i tillatelsen til å bringe kjøretøy i omsetning</h4>
 <p>Tillatelsene til å bringe kjøretøy i omsetning skal inneholde</p>
 <p>a. bruksområde(r),
@@ -387,35 +578,35 @@ c. at kjøretøyet inngår riktig i sammensetningen av toget, idet det tas hensy
 <p>Typesamsvarserklæringen skal fastsettes i samsvar med:</p>
 <p>a. fremgangsmåtene for verifisering i de relevante TSI-ene, eller
 b. fremgangsmåtene for samsvarsvurdering som definert i modul B + D, B + F og H1 i europaparlaments- og rådsbeslutning nr. 768/2008/EF i de tilfellene der TSI-ene ikke gjelder.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-17-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-17. Når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-6-17.html" title="Endringshistorikk for § 6-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom et jernbaneforetak fastslår at et kjøretøy det bruker, ikke oppfyller et av de grunnleggende kravene, skal foretaket gjennomføre korrigerende tiltak for å bringe kjøretøyet i samsvar. Foretaket kan informere Byrået og Statens jernbanetilsyn om tiltakene. Dersom jernbaneforetaket har dokumentasjon på at de grunnleggende kravene ikke var oppfylt allerede da tillatelsen til å bringe kjøretøyet i omsetning ble gitt, skal det informere Byrået og Statens jernbanetilsyn om dette.</p>
 <p>Dersom Statens jernbanetilsyn blir oppmerksom på at et kjøretøy eller en kjøretøytype ikke oppfyller et av de gjeldende grunnleggende kravene, skal Statens jernbanetilsyn informere de aktuelle jernbaneforetakene om dette. Statens jernbanetilsyn skal pålegge jernbaneforetaket å gjennomføre korrigerende tiltak for å bringe kjøretøyet eller kjøretøytypen i samsvar. Statens jernbanetilsyn skal informere Byrået og andre berørte nasjonale sikkerhetsmyndigheter.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-18-sikkerhetstiltak-nar-et-kjrety-eller-en-kjretytype-ikke-oppfyller-grunnleggende-krav">§ 6-18. Sikkerhetstiltak når et kjøretøy eller en kjøretøytype ikke oppfyller grunnleggende krav <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-6-18.html" title="Endringshistorikk for § 6-18" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom de korrigerende tiltakene ikke sikrer at de grunnleggende kravene blir oppfylt, og dette medfører alvorlig sikkerhetsrisiko, kan Statens jernbanetilsyn fatte vedtak om midlertidige sikkerhetstiltak.</p>
 <p>Statens jernbanetilsyn og Byrået kan samtidig midlertidig tilbakekalle typetillatelsen for et kjøretøy. Vedtak om midlertidig tilbakekall av typetillatelse for kjøretøy kan prøves rettslig. Der Byrået har truffet vedtaket kan det også oversendes til voldgift hos klageinstansen utpekt etter forordning (EU) 2016/796 artikkel 55.</p>
 <p>Dersom det er gitt en tillatelse eller typetillatelse for en kjøretøytype som på tillatelsestidspunktet ikke oppfylte grunnleggende krav, kan Statens jernbanetilsyn og Byrået kalle tilbake eller endre tillatelsen etter en vurdering av effekten av de sikkerhetstiltak som er iverksatt.</p>
 <p>Dersom kjøretøyet på tillatelsestidspunktet ikke oppfylte grunnleggende krav knyttet til en del av kjøretøyets bruksområde, skal tillatelsen kalles tilbake eller endres slik at de relevante delene av bruksområdet utelukkes.</p>
 <p>Byrået eller Statens jernbanetilsyn skal informere innehaveren av tillatelsen eller typetillatelsen for kjøretøyet, og begrunne vedtaket.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-19-fremgangsmate-ved-overprving-av-vedtak-om-tilbakekalling-av-eller-endring-tillatelsen">§ 6-19. Fremgangsmåte ved overprøving av vedtak om tilbakekalling av eller endring tillatelsen <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-6-19.html" title="Endringshistorikk for § 6-19" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Innehaveren av tillatelsen kan, innen en måned etter å ha mottatt vedtaket om endring eller tilbakekall av tillatelsen etter § 6-18 tredje ledd , be Byrået eller Statens jernbanetilsyn om å gjennomgå beslutningen på nytt. I så fall skal vedtaket midlertidig oppheves. Byrået eller Statens jernbanetilsyn skal bekrefte eller omgjøre sitt vedtak innen en måned fra de ble bedt om å gå igjennom vedtaket.</p>
 <p>Ved uenighet mellom Byrået og Statens jernbanetilsyn om behovet for å begrense eller tilbakekalle tillatelsen, skal voldgiftsordningen etter forordning (EU) 2016/796 artikkel 55 følges, jf. § 6-7 . Dersom resultatet av denne ordningen er at kjøretøytillatelsen verken begrenses eller tilbakekalles, skal de midlertidige sikkerhetstiltakene oppheves.</p>
 <p>Dersom Byråets vedtak blir bekreftet, kan innehaveren av kjøretøytillatelsen sende en klage til klageinstansen utpekt etter forordning (EU) 2016/796 artikkel 55 innen to måneder etter å ha blitt informert eller på annen måte gjort kjent med vedtaket. Dersom Statens jernbanetilsyns vedtak blir bekreftet, kan innehaveren av kjøretøytillatelsen sende en klage i samsvar med forvaltningslovens regler innen to måneder etter å ha fått vite om vedtaket.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="6-20-informasjon-om-og-offentliggjring-av-tilbakekalling-av-eller-endring-i-tillatelsen">§ 6-20. Informasjon om og offentliggjøring av tilbakekalling av eller endring i tillatelsen</h4>
 <p>Dersom Byrået tilbakekaller eller endrer en tillatelse til å bringe i omsetning det har gitt, skal det straks informere innehaveren av tillatelsen og begrunne sin beslutning. Dersom Statens jernbanetilsyn tilbakekaller en tillatelse til å bringe i omsetning det har gitt, skal det straks informere Byrået om dette og begrunne sin beslutning. Byrået skal deretter informere andre relevante nasjonale sikkerhetsmyndigheter.</p>
 <p>Byråets eller Statens jernbanetilsyns vedtak om å tilbakekalle tillatelsen skal fremgå av det relevante kjøretøyregisteret. Vedtak om tilbakekalling av en tillatelse for en kjøretøytype skal fremgå av det europeiske registeret over godkjente kjøretøytyper.</p>
 <p>Byrået og Statens jernbanetilsyn skal informere jernbaneforetak som bruker kjøretøy av samme type som kjøretøyet eller typen som er tilbakekalt, om vedtaket det har truffet. Jernbaneforetaket skal umiddelbart kontrollere om det samme problemet med manglende samsvar gjelder for deres kjøretøy.</p>
 <h4 id="6-21-konsekvenser-av-tilbakekalt-tillatelse">§ 6-21. Konsekvenser av tilbakekalt tillatelse <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-6-21.html" title="Endringshistorikk for § 6-21" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom tillatelsen til å bringe et kjøretøy i omsetning tilbakekalles, skal kjøretøyet ikke lenger brukes. Kjøretøyet skal heller ikke gis utvidet bruksområde. Når typetillatelsen for et kjøretøy tilbakekalles, skal kjøretøyer av denne typen ikke bringes i omsetning. Dersom kjøretøyet allerede er brakt i omsetning, skal det trekkes tilbake.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h2 id="kapittel-vii-registre">Kapittel VII. Registre</h2>
 <h4 id="7-1-nummereringssystem-for-kjrety">§ 7-1. Nummereringssystem for kjøretøy <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Alle kjøretøy skal være merket med EVN-nummer. Statens jernbanetilsyn eller den Statens jernbanetilsyn utpeker, skal gi et kjøretøy et europeisk kjøretøynummer (EVN) når det registreres i kjøretøyregisteret.</p>
 <p>Et kjøretøy skal tildeles et EVN-nummer bare en gang, med mindre annet er angitt i lov eller forskrift, i samsvar med den relevante TSI-en.</p>
-<p><em>Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
 <h4 id="7-2-kjretyregistre">§ 7-2. Kjøretøyregistre</h4>
 <p>Fram til det europeiske kjøretøyregisteret er i drift, skal Statens jernbanetilsyn eller den Statens jernbanetilsyn utpeker, føre et nasjonalt kjøretøyregister. Registeret skal</p>
 <p>a. overholde de felles spesifikasjonene nevnt i annet ledd bokstavene a–f,
@@ -462,7 +653,7 @@ c. data for tillatelsene knyttet til bruksområdet for en kjøretøytype, inklud
 <p>Vedlegg VII til direktiv 2008/57/EF gjelder fram til datoen da den tilsvarende gjennomføringsrettsakten nevnt i artikkel 14 nr. 10 i direktiv (EU) 2016/797 begynner å gjelde.</p>
 <p>Fram til 16. juni 2031 skal opsjoner som inngår i kontrakter som ble undertegnet før 15. juni 2016, ikke være omfattet av forhåndsgodkjenning fra Byrået nevnt i artikkel 19 i direktiv (EU) 2016/797 , selv om de utøves etter 16. juni 2019.</p>
 <p>Før nasjonale sikkerhetsmyndigheter gir tillatelse til ibruktaking av ERTMS-utstyr montert langs sporet som ikke var omfattet av forhåndsgodkjenning fra Byrået, skal de samarbeide med Byrået for å sikre at de tekniske løsningene har fullstendig samtrafikkevne.</p>
-<h4 id="8-4-ikrafttredelse">§ 8-4. Ikrafttredelse</h4>
+<h4 id="8-4-ikrafttredelse">§ 8-4. Ikrafttredelse <a class="para-history" href="../historikk/forskrift-2021-09-09-2742/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften trer i kraft samtidig som at beslutningen i EØS-komiteen som tar direktiv (EU) 2016/797 av 11. mai 2016 inn i EØS-avtalen trer i kraft. 1</p>
 <p><em>1 Fra 1 juni 2022 jf. meddelelse 6 mai 2022 nr. 795 .</em></p>
 <h2 id="vedlegg-i-elementer-i-jernbanesystemet">Vedlegg I. Elementer i jernbanesystemet</h2>
@@ -579,6 +770,8 @@ c. data for tillatelsene knyttet til bruksområdet for en kjøretøytype, inklud
 <li>Verifisering av deler av delsystemer i samsvar med § 4-6 femte ledd annet punktum Dersom et verifiseringssertifikat skal utstedes for visse deler av et delsystem, skal bestemmelsene i dette vedlegget få tilsvarende anvendelse for disse delene.</li>
 </ol>
 <p>Endret ved forskrifter 6 juni 2023 nr. 795 , 16 juni 2025 nr. 1063 (i kraft 1 juli 2025).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

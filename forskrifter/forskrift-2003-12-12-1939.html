@@ -19,64 +19,543 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-12-12-1939.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Bestemmelser om økonomistyring i staten" href="../feeds/forskrift-2003-12-12-1939.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Bestemmelser om økonomistyring i staten</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2003-12-12-1939</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2004-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-05-3008</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2003-12-12-1939" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#forord">Forord</a></li>
+<li class="lvl2"><a href="#1-departementets-styring-av-virksomheter">1 Departementets styring av virksomheter</a></li>
+<li class="lvl3"><a href="#11-innledning">1.1 Innledning</a></li>
+<li class="lvl3"><a href="#12-virksomhetsbegrepet-i-staten">1.2 Virksomhetsbegrepet i staten</a></li>
+<li class="lvl3"><a href="#13-myndighet-og-ansvar">1.3 Myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#14-generelt-om-styringsdialogen">1.4 Generelt om styringsdialogen</a></li>
+<li class="lvl3"><a href="#15-tildelingsbrevet">1.5 Tildelingsbrevet</a></li>
+<li class="lvl3"><a href="#16-oppflging-av-virksomheten">1.6 Oppfølging av virksomheten</a></li>
+<li class="lvl4"><a href="#161-rapportering">1.6.1 Rapportering</a></li>
+<li class="lvl4"><a href="#162-departementets-overordnede-kontroll">1.6.2 Departementets overordnede kontroll</a></li>
+<li class="lvl4"><a href="#163-evalueringer">1.6.3 Evalueringer</a></li>
+<li class="lvl2"><a href="#2-virksomhetens-interne-styring">2 Virksomhetens interne styring</a></li>
+<li class="lvl3"><a href="#21-innledning">2.1 Innledning</a></li>
+<li class="lvl3"><a href="#22-myndighet-og-ansvar">2.2 Myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#23-styringsprosessen">2.3 Styringsprosessen</a></li>
+<li class="lvl4"><a href="#231-planlegging">2.3.1 Planlegging</a></li>
+<li class="lvl4"><a href="#232-gjennomfring-og-oppflging">2.3.2 Gjennomføring og oppfølging</a></li>
+<li class="lvl4"><a href="#233-rapportering">2.3.3 Rapportering</a></li>
+<li class="lvl3"><a href="#24-internkontroll">2.4 Internkontroll</a></li>
+<li class="lvl3"><a href="#25-kontroll-av-utgifts-og-inntektstransaksjoner">2.5 Kontroll av utgifts- og inntektstransaksjoner</a></li>
+<li class="lvl4"><a href="#251-generelt-om-transaksjonskontroller">2.5.1 Generelt om transaksjonskontroller</a></li>
+<li class="lvl4"><a href="#252-transaksjonskontroll-av-utgifter">2.5.2 Transaksjonskontroll av utgifter</a></li>
+<li class="lvl5"><a href="#2521-budsjettdisponeringsmyndighet">2.5.2.1 Budsjettdisponeringsmyndighet</a></li>
+<li class="lvl5"><a href="#2522-attestasjon">2.5.2.2 Attestasjon</a></li>
+<li class="lvl5"><a href="#2523-kontroll-ved-bokfring">2.5.2.3 Kontroll ved bokføring</a></li>
+<li class="lvl4"><a href="#253-transaksjonskontroll-av-inntekter">2.5.3 Transaksjonskontroll av inntekter</a></li>
+<li class="lvl4"><a href="#254-aggregerte-kontroller">2.5.4 Aggregerte kontroller</a></li>
+<li class="lvl4"><a href="#255-etterkontroll">2.5.5 Etterkontroll</a></li>
+<li class="lvl3"><a href="#26-organisering-av-konomioppgaver">2.6 Organisering av økonomioppgaver</a></li>
+<li class="lvl3"><a href="#27-evalueringer">2.7 Evalueringer</a></li>
+<li class="lvl2"><a href="#3-felles-standarder-og-systemer-for-budsjettering-regnskapsfring-og-betalingsformidling">3 Felles standarder og systemer for budsjettering, regnskapsføring og betalingsformidling</a></li>
+<li class="lvl3"><a href="#31-innledning">3.1 Innledning</a></li>
+<li class="lvl3"><a href="#32-statsbudsjettet-og-virksomhetens-gjennomfring-av-vedtatt-budsjett">3.2 Statsbudsjettet og virksomhetens gjennomføring av vedtatt budsjett</a></li>
+<li class="lvl4"><a href="#321-felles-system-for-utarbeidelse-av-forslag-til-statsbudsjett">3.2.1 Felles system for utarbeidelse av forslag til statsbudsjett</a></li>
+<li class="lvl4"><a href="#322-virksomhetens-gjennomfring-av-vedtatt-budsjett">3.2.2 Virksomhetens gjennomføring av vedtatt budsjett</a></li>
+<li class="lvl3"><a href="#33-statsregnskapet-og-virksomhetsregnskapet">3.3 Statsregnskapet og virksomhetsregnskapet</a></li>
+<li class="lvl4"><a href="#331-felles-system-for-utarbeidelse-av-statsregnskapet">3.3.1 Felles system for utarbeidelse av statsregnskapet</a></li>
+<li class="lvl4"><a href="#332-virksomhetens-plikt-til-a-fre-regnskap">3.3.2 Virksomhetens plikt til å føre regnskap</a></li>
+<li class="lvl4"><a href="#333-virksomhetens-kontoplan">3.3.3 Virksomhetens kontoplan</a></li>
+<li class="lvl3"><a href="#34-virksomhetens-arsregnskap">3.4 Virksomhetens årsregnskap</a></li>
+<li class="lvl4"><a href="#341-generelt-om-arsregnskap">3.4.1 Generelt om årsregnskap</a></li>
+<li class="lvl4"><a href="#342-grunnleggende-prinsipper-for-arsregnskap">3.4.2 Grunnleggende prinsipper for årsregnskap</a></li>
+<li class="lvl4"><a href="#343-arsregnskapets-innhold-og-oppstilling">3.4.3 Årsregnskapets innhold og oppstilling</a></li>
+<li class="lvl5"><a href="#3431-ledelseskommentarene">3.4.3.1 Ledelseskommentarene</a></li>
+<li class="lvl5"><a href="#3432-oppstilling-av-bevilgningsrapporteringen">3.4.3.2 Oppstilling av bevilgningsrapporteringen</a></li>
+<li class="lvl5"><a href="#3433-oppstilling-av-artskontorapporteringen">3.4.3.3 Oppstilling av artskontorapporteringen</a></li>
+<li class="lvl5"><a href="#3434-oppstilling-av-virksomhetsregnskapet">3.4.3.4 Oppstilling av virksomhetsregnskapet</a></li>
+<li class="lvl4"><a href="#344-spesielle-tilpasninger-for-forvaltningsorganer-med-srskilte-fullmakter">3.4.4 Spesielle tilpasninger for forvaltningsorganer med særskilte fullmakter</a></li>
+<li class="lvl4"><a href="#345-spesielle-tilpasninger-for-forvaltningsbedrifter">3.4.5 Spesielle tilpasninger for forvaltningsbedrifter</a></li>
+<li class="lvl4"><a href="#346-spesielle-tilpasninger-for-statlige-fond">3.4.6 Spesielle tilpasninger for statlige fond</a></li>
+<li class="lvl3"><a href="#35-rapportering-til-statsregnskapet">3.5 Rapportering til statsregnskapet</a></li>
+<li class="lvl4"><a href="#351-generelt-om-rapporteringen-til-statsregnskapet">3.5.1 Generelt om rapporteringen til statsregnskapet</a></li>
+<li class="lvl4"><a href="#352-bevilgningsregnskapet">3.5.2 Bevilgningsregnskapet</a></li>
+<li class="lvl4"><a href="#353-kapitalregnskapet">3.5.3 Kapitalregnskapet</a></li>
+<li class="lvl4"><a href="#354-spesielle-rapporteringskrav-for-forvaltningsorganer-med-srskilte-fullmakter">3.5.4 Spesielle rapporteringskrav for forvaltningsorganer med særskilte fullmakter</a></li>
+<li class="lvl4"><a href="#355-spesielle-rapporteringskrav-for-forvaltningsbedrifter">3.5.5 Spesielle rapporteringskrav for forvaltningsbedrifter</a></li>
+<li class="lvl4"><a href="#356-spesielle-rapporteringskrav-for-statlige-fond">3.5.6 Spesielle rapporteringskrav for statlige fond</a></li>
+<li class="lvl3"><a href="#36-forvaltning-av-finansielle-eiendeler-og-midler">3.6 Forvaltning av finansielle eiendeler og midler</a></li>
+<li class="lvl4"><a href="#361-forvaltning-av-finansielle-eiendeler">3.6.1 Forvaltning av finansielle eiendeler</a></li>
+<li class="lvl4"><a href="#362-forvaltning-av-midler-for-private-og-internasjonale-organisasjoner">3.6.2 Forvaltning av midler for private og internasjonale organisasjoner</a></li>
+<li class="lvl4"><a href="#363-forvaltning-av-midler-for-virksomheter-med-koordinatorfunksjon">3.6.3 Forvaltning av midler for virksomheter med koordinatorfunksjon</a></li>
+<li class="lvl4"><a href="#364-forvaltning-av-statlige-fond">3.6.4 Forvaltning av statlige fond</a></li>
+<li class="lvl4"><a href="#365-forvaltning-av-ikke-statlige-midler-og-ikke-statlige-fond">3.6.5 Forvaltning av ikke-statlige midler og ikke-statlige fond</a></li>
+<li class="lvl3"><a href="#37-betalingsformidling">3.7 Betalingsformidling</a></li>
+<li class="lvl4"><a href="#371-statens-konsernkontoordning">3.7.1 Statens konsernkontoordning</a></li>
+<li class="lvl4"><a href="#372-innbetalinger">3.7.2 Innbetalinger</a></li>
+<li class="lvl5"><a href="#3721-overfring-til-virksomhetens-arbeidskonto">3.7.2.1 Overføring til virksomhetens arbeidskonto</a></li>
+<li class="lvl5"><a href="#3722-betaling-ved-virksomhetens-kontorsted">3.7.2.2 Betaling ved virksomhetens kontorsted</a></li>
+<li class="lvl4"><a href="#373-utbetalinger">3.7.3 Utbetalinger</a></li>
+<li class="lvl5"><a href="#3731-elektronisk-overfring">3.7.3.1 Elektronisk overføring</a></li>
+<li class="lvl5"><a href="#3732-produksjon-og-overfring-av-betalingsoppdrag">3.7.3.2 Produksjon og overføring av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#3733-autorisasjon-av-betalingsoppdrag">3.7.3.3 Autorisasjon av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#3734-avregningsretur">3.7.3.4 Avregningsretur</a></li>
+<li class="lvl5"><a href="#3735-bruk-av-handkasse-betalingskort-og-sjekk">3.7.3.5 Bruk av håndkasse, betalingskort og sjekk</a></li>
+<li class="lvl4"><a href="#374-kontoutskrift">3.7.4 Kontoutskrift</a></li>
+<li class="lvl2"><a href="#4-felles-standarder-for-bokfring-og-konomisystem">4 Felles standarder for bokføring og økonomisystem</a></li>
+<li class="lvl3"><a href="#41-innledning">4.1 Innledning</a></li>
+<li class="lvl3"><a href="#42-grunnleggende-forutsetninger-for-bokfring">4.2 Grunnleggende forutsetninger for bokføring</a></li>
+<li class="lvl3"><a href="#43-funksjonalitet-i-konomisystemet">4.3 Funksjonalitet i økonomisystemet</a></li>
+<li class="lvl4"><a href="#431-generelt">4.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#432-funksjonalitet-for-bokfring-og-registrering">4.3.2 Funksjonalitet for bokføring og registrering</a></li>
+<li class="lvl4"><a href="#433-betalingsformidling">4.3.3 Betalingsformidling</a></li>
+<li class="lvl4"><a href="#434-rapporteringsfunksjonalitet">4.3.4 Rapporteringsfunksjonalitet</a></li>
+<li class="lvl4"><a href="#435-dokumentasjon-av-konomisystemet">4.3.5 Dokumentasjon av økonomisystemet</a></li>
+<li class="lvl4"><a href="#436-sikkerhet-i-konomisystemet">4.3.6 Sikkerhet i økonomisystemet</a></li>
+<li class="lvl3"><a href="#44-bokfring-spesifikasjon-dokumentasjon-og-oppbevaring">4.4 Bokføring, spesifikasjon, dokumentasjon og oppbevaring</a></li>
+<li class="lvl4"><a href="#441-generelt">4.4.1 Generelt</a></li>
+<li class="lvl4"><a href="#442-bokfring-registrering-og-ajourhold">4.4.2 Bokføring, registrering og ajourhold</a></li>
+<li class="lvl4"><a href="#443-spesifikasjoner-av-pliktig-regnskapsrapportering">4.4.3 Spesifikasjoner av pliktig regnskapsrapportering</a></li>
+<li class="lvl4"><a href="#444-sporbarhet">4.4.4 Sporbarhet</a></li>
+<li class="lvl4"><a href="#445-dokumentasjon-av-bokfrte-opplysninger">4.4.5 Dokumentasjon av bokførte opplysninger</a></li>
+<li class="lvl4"><a href="#446-dokumentasjon-av-balansen-avstemminger">4.4.6 Dokumentasjon av balansen (avstemminger)</a></li>
+<li class="lvl4"><a href="#447-retting-av-bokfrte-opplysninger-og-andre-registrerte-opplysninger">4.4.7 Retting av bokførte opplysninger og andre registrerte opplysninger</a></li>
+<li class="lvl4"><a href="#448-krav-til-sprak">4.4.8 Krav til språk</a></li>
+<li class="lvl4"><a href="#449-oppbevaring-og-elektronisk-tilgjengelighet">4.4.9 Oppbevaring og elektronisk tilgjengelighet</a></li>
+<li class="lvl5"><a href="#4491-generelt-om-oppbevaring-av-regnskapsmateriale">4.4.9.1 Generelt om oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl5"><a href="#4492-elektronisk-tilgjengelighet">4.4.9.2 Elektronisk tilgjengelighet</a></li>
+<li class="lvl5"><a href="#4493-sikkerhetskopi">4.4.9.3 Sikkerhetskopi</a></li>
+<li class="lvl5"><a href="#4494-lukking-av-regnskapsperioder">4.4.9.4 Lukking av regnskapsperioder</a></li>
+<li class="lvl5"><a href="#4495-andre-bestemmelser-om-oppbevaring">4.4.9.5 Andre bestemmelser om oppbevaring</a></li>
+<li class="lvl4"><a href="#4410-krav-til-oppbevaringstid">4.4.10 Krav til oppbevaringstid</a></li>
+<li class="lvl5"><a href="#44101-regnskapsmateriale-som-skal-overleveres-riksarkivet-eller-statsarkivet">4.4.10.1 Regnskapsmateriale som skal overleveres Riksarkivet eller statsarkivet</a></li>
+<li class="lvl5"><a href="#44102-regnskapsmateriale-som-skal-oppbevares-i-10-ar">4.4.10.2 Regnskapsmateriale som skal oppbevares i 10 år</a></li>
+<li class="lvl5"><a href="#44103-regnskapsmateriale-som-skal-oppbevares-i-3-ar-og-6-maneder">4.4.10.3 Regnskapsmateriale som skal oppbevares i 3 år og 6 måneder</a></li>
+<li class="lvl5"><a href="#44104-vrig-dokumentasjon-og-regnskapsmateriale">4.4.10.4 Øvrig dokumentasjon og regnskapsmateriale</a></li>
+<li class="lvl2"><a href="#5-rutiner-for-behandling-av-lnn-anskaffelser-og-inntekter">5 Rutiner for behandling av lønn, anskaffelser og inntekter</a></li>
+<li class="lvl3"><a href="#51-innledning">5.1 Innledning</a></li>
+<li class="lvl3"><a href="#52-lnn-og-lnnsopplysningspliktige-ytelser">5.2 Lønn og lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl4"><a href="#521-generelt">5.2.1 Generelt</a></li>
+<li class="lvl4"><a href="#522-transaksjonskontroll">5.2.2 Transaksjonskontroll</a></li>
+<li class="lvl4"><a href="#523-budsjettdisponering">5.2.3 Budsjettdisponering</a></li>
+<li class="lvl5"><a href="#5231-ansettelse-lnnsfastsettelse-og-lnnsendring">5.2.3.1 Ansettelse, lønnsfastsettelse og lønnsendring</a></li>
+<li class="lvl5"><a href="#5232-lnnsopplysningspliktige-ytelser">5.2.3.2 Lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl4"><a href="#524-behandling-av-lnn-og-andre-lnnsopplysningspliktige-ytelser">5.2.4 Behandling av lønn og andre lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl5"><a href="#5241-registrering">5.2.4.1 Registrering</a></li>
+<li class="lvl5"><a href="#5242-beregning-kontroll-og-attestasjon">5.2.4.2 Beregning, kontroll og attestasjon</a></li>
+<li class="lvl5"><a href="#5243-bokfring-og-utbetaling">5.2.4.3 Bokføring og utbetaling</a></li>
+<li class="lvl5"><a href="#5244-rapportering">5.2.4.4 Rapportering</a></li>
+<li class="lvl5"><a href="#5245-avstemming">5.2.4.5 Avstemming</a></li>
+<li class="lvl3"><a href="#53-anskaffelser">5.3 Anskaffelser</a></li>
+<li class="lvl4"><a href="#531-generelt">5.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#532-annet-regel-og-avtaleverk-pa-omradet">5.3.2 Annet regel- og avtaleverk på området</a></li>
+<li class="lvl4"><a href="#533-budsjettdisponering-og-bestilling">5.3.3 Budsjettdisponering og bestilling</a></li>
+<li class="lvl4"><a href="#534-varemottak">5.3.4 Varemottak</a></li>
+<li class="lvl4"><a href="#535-fakturabehandling">5.3.5 Fakturabehandling</a></li>
+<li class="lvl5"><a href="#5351-fakturamottak">5.3.5.1 Fakturamottak</a></li>
+<li class="lvl5"><a href="#5352-attestasjon">5.3.5.2 Attestasjon</a></li>
+<li class="lvl4"><a href="#536-bokfring-og-utbetaling">5.3.6 Bokføring og utbetaling</a></li>
+<li class="lvl4"><a href="#537-registrering-av-eiendeler">5.3.7 Registrering av eiendeler</a></li>
+<li class="lvl4"><a href="#538-store-anskaffelser">5.3.8 Store anskaffelser</a></li>
+<li class="lvl3"><a href="#54-inntekter">5.4 Inntekter</a></li>
+<li class="lvl4"><a href="#541-generelt">5.4.1 Generelt</a></li>
+<li class="lvl4"><a href="#542-behandling-av-krav-der-betaling-skal-skje-i-etterhand">5.4.2 Behandling av krav der betaling skal skje i etterhånd</a></li>
+<li class="lvl5"><a href="#5421-fastsettelse-av-krav">5.4.2.1 Fastsettelse av krav</a></li>
+<li class="lvl5"><a href="#5422-utstedelse-av-faktura">5.4.2.2 Utstedelse av faktura</a></li>
+<li class="lvl5"><a href="#5423-bokfring-av-krav">5.4.2.3 Bokføring av krav</a></li>
+<li class="lvl5"><a href="#5424-innbetaling">5.4.2.4 Innbetaling</a></li>
+<li class="lvl5"><a href="#5425-oppflging-av-krav-som-ikke-betales-som-forutsatt">5.4.2.5 Oppfølging av krav som ikke betales som forutsatt</a></li>
+<li class="lvl4"><a href="#543-stille-innkrevingen-i-bero">5.4.3 Stille innkrevingen i bero</a></li>
+<li class="lvl4"><a href="#544-ettergivelse-av-krav">5.4.4 Ettergivelse av krav</a></li>
+<li class="lvl4"><a href="#545-regnskapsmessig-behandling-av-opphrte-krav">5.4.5 Regnskapsmessig behandling av opphørte krav</a></li>
+<li class="lvl4"><a href="#546-kontantsalg-og-kontante-innbetalinger-av-krav">5.4.6 Kontantsalg og kontante innbetalinger av krav</a></li>
+<li class="lvl4"><a href="#547-erverv-forvaltning-og-oppbevaring-av-verdipapirer">5.4.7 Erverv, forvaltning og oppbevaring av verdipapirer</a></li>
+<li class="lvl4"><a href="#548-mottak-av-verdipost">5.4.8 Mottak av verdipost</a></li>
+<li class="lvl2"><a href="#6-utforming-og-forvaltning-av-tilskuddsordninger">6 Utforming og forvaltning av tilskuddsordninger</a></li>
+<li class="lvl3"><a href="#61-innledning">6.1 Innledning</a></li>
+<li class="lvl3"><a href="#62-utforming-av-en-tilskuddsordning">6.2 Utforming av en tilskuddsordning</a></li>
+<li class="lvl4"><a href="#621-hovedelementene-i-en-tilskuddsordning">6.2.1 Hovedelementene i en tilskuddsordning</a></li>
+<li class="lvl4"><a href="#622-presentasjon-for-stortinget">6.2.2 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#623-fastsettelse-av-tilskuddsregelverk">6.2.3 Fastsettelse av tilskuddsregelverk</a></li>
+<li class="lvl4"><a href="#624-etablering-av-en-forvaltningsorganisasjon">6.2.4 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl5"><a href="#6241-tilskuddsforvaltere-innenfor-statsforvaltningen">6.2.4.1 Tilskuddsforvaltere innenfor statsforvaltningen</a></li>
+<li class="lvl5"><a href="#6242-kommunale-og-fylkeskommunale-tilskuddsforvaltere">6.2.4.2 Kommunale og fylkeskommunale tilskuddsforvaltere</a></li>
+<li class="lvl5"><a href="#6243-tilskuddsforvaltere-eid-av-staten">6.2.4.3 Tilskuddsforvaltere eid av staten</a></li>
+<li class="lvl5"><a href="#6244-tilskudd-forvaltet-av-stiftelser-private-mv">6.2.4.4 Tilskudd forvaltet av stiftelser, private mv.</a></li>
+<li class="lvl3"><a href="#63-tilskuddsforvaltning">6.3 Tilskuddsforvaltning</a></li>
+<li class="lvl4"><a href="#631-utlysning">6.3.1 Utlysning</a></li>
+<li class="lvl4"><a href="#632-behandling-av-sknader-om-tilskudd">6.3.2 Behandling av søknader om tilskudd</a></li>
+<li class="lvl4"><a href="#633-tilskuddsbrev">6.3.3 Tilskuddsbrev</a></li>
+<li class="lvl4"><a href="#634-registrering-av-vedtak-om-tilskudd">6.3.4 Registrering av vedtak om tilskudd</a></li>
+<li class="lvl4"><a href="#635-utbetaling-og-eventuell-tilbakebetaling">6.3.5 Utbetaling og eventuell tilbakebetaling</a></li>
+<li class="lvl4"><a href="#636-informasjon-om-maloppnaelse">6.3.6 Informasjon om måloppnåelse</a></li>
+<li class="lvl4"><a href="#637-rapportering-til-departementet">6.3.7 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#638-oppflging-og-kontroll">6.3.8 Oppfølging og kontroll</a></li>
+<li class="lvl5"><a href="#6381-internkontroll-hos-tilskuddsforvalteren">6.3.8.1 Internkontroll hos tilskuddsforvalteren</a></li>
+<li class="lvl5"><a href="#6382-kontroll-av-informasjon-fra-skere-og-mottakere-av-tilskudd">6.3.8.2 Kontroll av informasjon fra søkere og mottakere av tilskudd</a></li>
+<li class="lvl3"><a href="#64-unntak-fra-bestemmelsene-i-punkt-62-og-63">6.4 Unntak fra bestemmelsene i punkt 6.2 og 6.3</a></li>
+<li class="lvl4"><a href="#641-tilskudd-til-kommuner-og-fylkeskommuner">6.4.1 Tilskudd til kommuner og fylkeskommuner</a></li>
+<li class="lvl4"><a href="#642-andre-unntak">6.4.2 Andre unntak</a></li>
+<li class="lvl3"><a href="#65-evaluering-av-tilskuddsordninger">6.5 Evaluering av tilskuddsordninger</a></li>
+<li class="lvl2"><a href="#7-utforming-og-forvaltning-av-stnadsordninger-til-privatpersoner">7 Utforming og forvaltning av stønadsordninger til privatpersoner</a></li>
+<li class="lvl3"><a href="#71-innledning">7.1 Innledning</a></li>
+<li class="lvl3"><a href="#72-utforming-av-en-stnadsordning">7.2 Utforming av en stønadsordning</a></li>
+<li class="lvl4"><a href="#721-hovedelementene-i-en-stnadsordning">7.2.1 Hovedelementene i en stønadsordning</a></li>
+<li class="lvl4"><a href="#722-presentasjon-for-stortinget">7.2.2 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#723-stnadsregelverk">7.2.3 Stønadsregelverk</a></li>
+<li class="lvl4"><a href="#724-etablering-av-en-forvaltningsorganisasjon">7.2.4 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl5"><a href="#7241-stnadsforvaltere-innenfor-statsforvaltningen">7.2.4.1 Stønadsforvaltere innenfor statsforvaltningen</a></li>
+<li class="lvl5"><a href="#7242-kommunale-og-fylkeskommunale-stnadsforvaltere">7.2.4.2 Kommunale og fylkeskommunale stønadsforvaltere</a></li>
+<li class="lvl5"><a href="#7243-stnadsforvaltere-eid-av-staten">7.2.4.3 Stønadsforvaltere eid av staten</a></li>
+<li class="lvl5"><a href="#7244-stnader-forvaltet-av-stiftelser-private-mv">7.2.4.4 Stønader forvaltet av stiftelser, private mv.</a></li>
+<li class="lvl3"><a href="#73-stnadsforvaltning">7.3 Stønadsforvaltning</a></li>
+<li class="lvl4"><a href="#731-utlysning">7.3.1 Utlysning</a></li>
+<li class="lvl4"><a href="#732-behandling-av-sknader-om-stnad">7.3.2 Behandling av søknader om stønad</a></li>
+<li class="lvl4"><a href="#733-stnadsbrev">7.3.3 Stønadsbrev</a></li>
+<li class="lvl4"><a href="#734-registrering-av-vedtak-om-stnad">7.3.4 Registrering av vedtak om stønad</a></li>
+<li class="lvl4"><a href="#735-utbetaling">7.3.5 Utbetaling</a></li>
+<li class="lvl4"><a href="#736-eventuell-innberetningsplikt">7.3.6 Eventuell innberetningsplikt</a></li>
+<li class="lvl4"><a href="#737-rapportering-fra-mottakeren">7.3.7 Rapportering fra mottakeren</a></li>
+<li class="lvl4"><a href="#738-rapportering-til-departementet">7.3.8 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#739-oppflging-og-kontroll">7.3.9 Oppfølging og kontroll</a></li>
+<li class="lvl5"><a href="#7391-internkontroll-hos-stnadsforvalteren">7.3.9.1 Internkontroll hos stønadsforvalteren</a></li>
+<li class="lvl5"><a href="#7392-kontroll-av-grunnlaget-for-stnad-som-utbetales-uten-sknad">7.3.9.2 Kontroll av grunnlaget for stønad som utbetales uten søknad</a></li>
+<li class="lvl5"><a href="#7393-kontroll-av-dokumentasjon-fra-stnadsmottakere">7.3.9.3 Kontroll av dokumentasjon fra stønadsmottakere</a></li>
+<li class="lvl3"><a href="#74-evaluering-av-stnadsordninger">7.4 Evaluering av stønadsordninger</a></li>
+<li class="lvl2"><a href="#8-forvaltning-av-garantiordninger">8 Forvaltning av garantiordninger</a></li>
+<li class="lvl3"><a href="#81-innledning">8.1 Innledning</a></li>
+<li class="lvl3"><a href="#82-utarbeidelse-av-en-garantiordning">8.2 Utarbeidelse av en garantiordning</a></li>
+<li class="lvl4"><a href="#821-utforming-av-en-garantiordning-og-presentasjon-for-stortinget">8.2.1 Utforming av en garantiordning og presentasjon for Stortinget</a></li>
+<li class="lvl5"><a href="#8211-hovedelementer">8.2.1.1 Hovedelementer</a></li>
+<li class="lvl5"><a href="#8212-regelverk">8.2.1.2 Regelverk</a></li>
+<li class="lvl5"><a href="#8213-presentasjon-for-stortinget">8.2.1.3 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#822-hovedvilkar-for-statsgaranti">8.2.2 Hovedvilkår for statsgaranti</a></li>
+<li class="lvl4"><a href="#823-eventuelt-unntak-fra-normalvilkaret-om-selvfinansiering">8.2.3 Eventuelt unntak fra normalvilkåret om selvfinansiering</a></li>
+<li class="lvl4"><a href="#824-fastsetting-av-spesifiserte-standardvilkar">8.2.4 Fastsetting av spesifiserte standardvilkår</a></li>
+<li class="lvl4"><a href="#825-etablering-av-en-forvaltningsorganisasjon">8.2.5 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl3"><a href="#83-forvaltning-av-garantiordninger">8.3 Forvaltning av garantiordninger</a></li>
+<li class="lvl4"><a href="#831-generelt">8.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#832-kunngjring-og-sknadsbehandling">8.3.2 Kunngjøring og søknadsbehandling</a></li>
+<li class="lvl4"><a href="#833-garantierklringinngaelse-av-avtale">8.3.3 Garantierklæring/inngåelse av avtale</a></li>
+<li class="lvl4"><a href="#834-registrering-av-tilsagngarantiansvar">8.3.4 Registrering av tilsagn/garantiansvar</a></li>
+<li class="lvl4"><a href="#835-rapportering-fra-avtalepartene">8.3.5 Rapportering fra avtalepartene</a></li>
+<li class="lvl4"><a href="#836-rapportering-til-departementet">8.3.6 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#837-internkontroll-hos-garantiforvalter">8.3.7 Internkontroll hos garantiforvalter</a></li>
+<li class="lvl3"><a href="#84-innfrielse-av-garanti-regress">8.4 Innfrielse av garanti, regress</a></li>
+<li class="lvl3"><a href="#85-evaluering-av-garantiordninger">8.5 Evaluering av garantiordninger</a></li>
+<li class="lvl2"><a href="#9-ikrafttredelse">9 Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-05-3008.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-12-12-1939.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Bestemmelser om økonomistyring i staten</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-12-12-1939.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2003-12-12-1939 <code>forskrift/2003-12-12-1939</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2004</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-05-3008 <code>forskrift/2025-12-05-3008</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2003-12-12-1939" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#forord">Forord</a></li>
+<li class="lvl2"><a href="#1-departementets-styring-av-virksomheter">1 Departementets styring av virksomheter</a></li>
+<li class="lvl3"><a href="#11-innledning">1.1 Innledning</a></li>
+<li class="lvl3"><a href="#12-virksomhetsbegrepet-i-staten">1.2 Virksomhetsbegrepet i staten</a></li>
+<li class="lvl3"><a href="#13-myndighet-og-ansvar">1.3 Myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#14-generelt-om-styringsdialogen">1.4 Generelt om styringsdialogen</a></li>
+<li class="lvl3"><a href="#15-tildelingsbrevet">1.5 Tildelingsbrevet</a></li>
+<li class="lvl3"><a href="#16-oppflging-av-virksomheten">1.6 Oppfølging av virksomheten</a></li>
+<li class="lvl4"><a href="#161-rapportering">1.6.1 Rapportering</a></li>
+<li class="lvl4"><a href="#162-departementets-overordnede-kontroll">1.6.2 Departementets overordnede kontroll</a></li>
+<li class="lvl4"><a href="#163-evalueringer">1.6.3 Evalueringer</a></li>
+<li class="lvl2"><a href="#2-virksomhetens-interne-styring">2 Virksomhetens interne styring</a></li>
+<li class="lvl3"><a href="#21-innledning">2.1 Innledning</a></li>
+<li class="lvl3"><a href="#22-myndighet-og-ansvar">2.2 Myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#23-styringsprosessen">2.3 Styringsprosessen</a></li>
+<li class="lvl4"><a href="#231-planlegging">2.3.1 Planlegging</a></li>
+<li class="lvl4"><a href="#232-gjennomfring-og-oppflging">2.3.2 Gjennomføring og oppfølging</a></li>
+<li class="lvl4"><a href="#233-rapportering">2.3.3 Rapportering</a></li>
+<li class="lvl3"><a href="#24-internkontroll">2.4 Internkontroll</a></li>
+<li class="lvl3"><a href="#25-kontroll-av-utgifts-og-inntektstransaksjoner">2.5 Kontroll av utgifts- og inntektstransaksjoner</a></li>
+<li class="lvl4"><a href="#251-generelt-om-transaksjonskontroller">2.5.1 Generelt om transaksjonskontroller</a></li>
+<li class="lvl4"><a href="#252-transaksjonskontroll-av-utgifter">2.5.2 Transaksjonskontroll av utgifter</a></li>
+<li class="lvl5"><a href="#2521-budsjettdisponeringsmyndighet">2.5.2.1 Budsjettdisponeringsmyndighet</a></li>
+<li class="lvl5"><a href="#2522-attestasjon">2.5.2.2 Attestasjon</a></li>
+<li class="lvl5"><a href="#2523-kontroll-ved-bokfring">2.5.2.3 Kontroll ved bokføring</a></li>
+<li class="lvl4"><a href="#253-transaksjonskontroll-av-inntekter">2.5.3 Transaksjonskontroll av inntekter</a></li>
+<li class="lvl4"><a href="#254-aggregerte-kontroller">2.5.4 Aggregerte kontroller</a></li>
+<li class="lvl4"><a href="#255-etterkontroll">2.5.5 Etterkontroll</a></li>
+<li class="lvl3"><a href="#26-organisering-av-konomioppgaver">2.6 Organisering av økonomioppgaver</a></li>
+<li class="lvl3"><a href="#27-evalueringer">2.7 Evalueringer</a></li>
+<li class="lvl2"><a href="#3-felles-standarder-og-systemer-for-budsjettering-regnskapsfring-og-betalingsformidling">3 Felles standarder og systemer for budsjettering, regnskapsføring og betalingsformidling</a></li>
+<li class="lvl3"><a href="#31-innledning">3.1 Innledning</a></li>
+<li class="lvl3"><a href="#32-statsbudsjettet-og-virksomhetens-gjennomfring-av-vedtatt-budsjett">3.2 Statsbudsjettet og virksomhetens gjennomføring av vedtatt budsjett</a></li>
+<li class="lvl4"><a href="#321-felles-system-for-utarbeidelse-av-forslag-til-statsbudsjett">3.2.1 Felles system for utarbeidelse av forslag til statsbudsjett</a></li>
+<li class="lvl4"><a href="#322-virksomhetens-gjennomfring-av-vedtatt-budsjett">3.2.2 Virksomhetens gjennomføring av vedtatt budsjett</a></li>
+<li class="lvl3"><a href="#33-statsregnskapet-og-virksomhetsregnskapet">3.3 Statsregnskapet og virksomhetsregnskapet</a></li>
+<li class="lvl4"><a href="#331-felles-system-for-utarbeidelse-av-statsregnskapet">3.3.1 Felles system for utarbeidelse av statsregnskapet</a></li>
+<li class="lvl4"><a href="#332-virksomhetens-plikt-til-a-fre-regnskap">3.3.2 Virksomhetens plikt til å føre regnskap</a></li>
+<li class="lvl4"><a href="#333-virksomhetens-kontoplan">3.3.3 Virksomhetens kontoplan</a></li>
+<li class="lvl3"><a href="#34-virksomhetens-arsregnskap">3.4 Virksomhetens årsregnskap</a></li>
+<li class="lvl4"><a href="#341-generelt-om-arsregnskap">3.4.1 Generelt om årsregnskap</a></li>
+<li class="lvl4"><a href="#342-grunnleggende-prinsipper-for-arsregnskap">3.4.2 Grunnleggende prinsipper for årsregnskap</a></li>
+<li class="lvl4"><a href="#343-arsregnskapets-innhold-og-oppstilling">3.4.3 Årsregnskapets innhold og oppstilling</a></li>
+<li class="lvl5"><a href="#3431-ledelseskommentarene">3.4.3.1 Ledelseskommentarene</a></li>
+<li class="lvl5"><a href="#3432-oppstilling-av-bevilgningsrapporteringen">3.4.3.2 Oppstilling av bevilgningsrapporteringen</a></li>
+<li class="lvl5"><a href="#3433-oppstilling-av-artskontorapporteringen">3.4.3.3 Oppstilling av artskontorapporteringen</a></li>
+<li class="lvl5"><a href="#3434-oppstilling-av-virksomhetsregnskapet">3.4.3.4 Oppstilling av virksomhetsregnskapet</a></li>
+<li class="lvl4"><a href="#344-spesielle-tilpasninger-for-forvaltningsorganer-med-srskilte-fullmakter">3.4.4 Spesielle tilpasninger for forvaltningsorganer med særskilte fullmakter</a></li>
+<li class="lvl4"><a href="#345-spesielle-tilpasninger-for-forvaltningsbedrifter">3.4.5 Spesielle tilpasninger for forvaltningsbedrifter</a></li>
+<li class="lvl4"><a href="#346-spesielle-tilpasninger-for-statlige-fond">3.4.6 Spesielle tilpasninger for statlige fond</a></li>
+<li class="lvl3"><a href="#35-rapportering-til-statsregnskapet">3.5 Rapportering til statsregnskapet</a></li>
+<li class="lvl4"><a href="#351-generelt-om-rapporteringen-til-statsregnskapet">3.5.1 Generelt om rapporteringen til statsregnskapet</a></li>
+<li class="lvl4"><a href="#352-bevilgningsregnskapet">3.5.2 Bevilgningsregnskapet</a></li>
+<li class="lvl4"><a href="#353-kapitalregnskapet">3.5.3 Kapitalregnskapet</a></li>
+<li class="lvl4"><a href="#354-spesielle-rapporteringskrav-for-forvaltningsorganer-med-srskilte-fullmakter">3.5.4 Spesielle rapporteringskrav for forvaltningsorganer med særskilte fullmakter</a></li>
+<li class="lvl4"><a href="#355-spesielle-rapporteringskrav-for-forvaltningsbedrifter">3.5.5 Spesielle rapporteringskrav for forvaltningsbedrifter</a></li>
+<li class="lvl4"><a href="#356-spesielle-rapporteringskrav-for-statlige-fond">3.5.6 Spesielle rapporteringskrav for statlige fond</a></li>
+<li class="lvl3"><a href="#36-forvaltning-av-finansielle-eiendeler-og-midler">3.6 Forvaltning av finansielle eiendeler og midler</a></li>
+<li class="lvl4"><a href="#361-forvaltning-av-finansielle-eiendeler">3.6.1 Forvaltning av finansielle eiendeler</a></li>
+<li class="lvl4"><a href="#362-forvaltning-av-midler-for-private-og-internasjonale-organisasjoner">3.6.2 Forvaltning av midler for private og internasjonale organisasjoner</a></li>
+<li class="lvl4"><a href="#363-forvaltning-av-midler-for-virksomheter-med-koordinatorfunksjon">3.6.3 Forvaltning av midler for virksomheter med koordinatorfunksjon</a></li>
+<li class="lvl4"><a href="#364-forvaltning-av-statlige-fond">3.6.4 Forvaltning av statlige fond</a></li>
+<li class="lvl4"><a href="#365-forvaltning-av-ikke-statlige-midler-og-ikke-statlige-fond">3.6.5 Forvaltning av ikke-statlige midler og ikke-statlige fond</a></li>
+<li class="lvl3"><a href="#37-betalingsformidling">3.7 Betalingsformidling</a></li>
+<li class="lvl4"><a href="#371-statens-konsernkontoordning">3.7.1 Statens konsernkontoordning</a></li>
+<li class="lvl4"><a href="#372-innbetalinger">3.7.2 Innbetalinger</a></li>
+<li class="lvl5"><a href="#3721-overfring-til-virksomhetens-arbeidskonto">3.7.2.1 Overføring til virksomhetens arbeidskonto</a></li>
+<li class="lvl5"><a href="#3722-betaling-ved-virksomhetens-kontorsted">3.7.2.2 Betaling ved virksomhetens kontorsted</a></li>
+<li class="lvl4"><a href="#373-utbetalinger">3.7.3 Utbetalinger</a></li>
+<li class="lvl5"><a href="#3731-elektronisk-overfring">3.7.3.1 Elektronisk overføring</a></li>
+<li class="lvl5"><a href="#3732-produksjon-og-overfring-av-betalingsoppdrag">3.7.3.2 Produksjon og overføring av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#3733-autorisasjon-av-betalingsoppdrag">3.7.3.3 Autorisasjon av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#3734-avregningsretur">3.7.3.4 Avregningsretur</a></li>
+<li class="lvl5"><a href="#3735-bruk-av-handkasse-betalingskort-og-sjekk">3.7.3.5 Bruk av håndkasse, betalingskort og sjekk</a></li>
+<li class="lvl4"><a href="#374-kontoutskrift">3.7.4 Kontoutskrift</a></li>
+<li class="lvl2"><a href="#4-felles-standarder-for-bokfring-og-konomisystem">4 Felles standarder for bokføring og økonomisystem</a></li>
+<li class="lvl3"><a href="#41-innledning">4.1 Innledning</a></li>
+<li class="lvl3"><a href="#42-grunnleggende-forutsetninger-for-bokfring">4.2 Grunnleggende forutsetninger for bokføring</a></li>
+<li class="lvl3"><a href="#43-funksjonalitet-i-konomisystemet">4.3 Funksjonalitet i økonomisystemet</a></li>
+<li class="lvl4"><a href="#431-generelt">4.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#432-funksjonalitet-for-bokfring-og-registrering">4.3.2 Funksjonalitet for bokføring og registrering</a></li>
+<li class="lvl4"><a href="#433-betalingsformidling">4.3.3 Betalingsformidling</a></li>
+<li class="lvl4"><a href="#434-rapporteringsfunksjonalitet">4.3.4 Rapporteringsfunksjonalitet</a></li>
+<li class="lvl4"><a href="#435-dokumentasjon-av-konomisystemet">4.3.5 Dokumentasjon av økonomisystemet</a></li>
+<li class="lvl4"><a href="#436-sikkerhet-i-konomisystemet">4.3.6 Sikkerhet i økonomisystemet</a></li>
+<li class="lvl3"><a href="#44-bokfring-spesifikasjon-dokumentasjon-og-oppbevaring">4.4 Bokføring, spesifikasjon, dokumentasjon og oppbevaring</a></li>
+<li class="lvl4"><a href="#441-generelt">4.4.1 Generelt</a></li>
+<li class="lvl4"><a href="#442-bokfring-registrering-og-ajourhold">4.4.2 Bokføring, registrering og ajourhold</a></li>
+<li class="lvl4"><a href="#443-spesifikasjoner-av-pliktig-regnskapsrapportering">4.4.3 Spesifikasjoner av pliktig regnskapsrapportering</a></li>
+<li class="lvl4"><a href="#444-sporbarhet">4.4.4 Sporbarhet</a></li>
+<li class="lvl4"><a href="#445-dokumentasjon-av-bokfrte-opplysninger">4.4.5 Dokumentasjon av bokførte opplysninger</a></li>
+<li class="lvl4"><a href="#446-dokumentasjon-av-balansen-avstemminger">4.4.6 Dokumentasjon av balansen (avstemminger)</a></li>
+<li class="lvl4"><a href="#447-retting-av-bokfrte-opplysninger-og-andre-registrerte-opplysninger">4.4.7 Retting av bokførte opplysninger og andre registrerte opplysninger</a></li>
+<li class="lvl4"><a href="#448-krav-til-sprak">4.4.8 Krav til språk</a></li>
+<li class="lvl4"><a href="#449-oppbevaring-og-elektronisk-tilgjengelighet">4.4.9 Oppbevaring og elektronisk tilgjengelighet</a></li>
+<li class="lvl5"><a href="#4491-generelt-om-oppbevaring-av-regnskapsmateriale">4.4.9.1 Generelt om oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl5"><a href="#4492-elektronisk-tilgjengelighet">4.4.9.2 Elektronisk tilgjengelighet</a></li>
+<li class="lvl5"><a href="#4493-sikkerhetskopi">4.4.9.3 Sikkerhetskopi</a></li>
+<li class="lvl5"><a href="#4494-lukking-av-regnskapsperioder">4.4.9.4 Lukking av regnskapsperioder</a></li>
+<li class="lvl5"><a href="#4495-andre-bestemmelser-om-oppbevaring">4.4.9.5 Andre bestemmelser om oppbevaring</a></li>
+<li class="lvl4"><a href="#4410-krav-til-oppbevaringstid">4.4.10 Krav til oppbevaringstid</a></li>
+<li class="lvl5"><a href="#44101-regnskapsmateriale-som-skal-overleveres-riksarkivet-eller-statsarkivet">4.4.10.1 Regnskapsmateriale som skal overleveres Riksarkivet eller statsarkivet</a></li>
+<li class="lvl5"><a href="#44102-regnskapsmateriale-som-skal-oppbevares-i-10-ar">4.4.10.2 Regnskapsmateriale som skal oppbevares i 10 år</a></li>
+<li class="lvl5"><a href="#44103-regnskapsmateriale-som-skal-oppbevares-i-3-ar-og-6-maneder">4.4.10.3 Regnskapsmateriale som skal oppbevares i 3 år og 6 måneder</a></li>
+<li class="lvl5"><a href="#44104-vrig-dokumentasjon-og-regnskapsmateriale">4.4.10.4 Øvrig dokumentasjon og regnskapsmateriale</a></li>
+<li class="lvl2"><a href="#5-rutiner-for-behandling-av-lnn-anskaffelser-og-inntekter">5 Rutiner for behandling av lønn, anskaffelser og inntekter</a></li>
+<li class="lvl3"><a href="#51-innledning">5.1 Innledning</a></li>
+<li class="lvl3"><a href="#52-lnn-og-lnnsopplysningspliktige-ytelser">5.2 Lønn og lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl4"><a href="#521-generelt">5.2.1 Generelt</a></li>
+<li class="lvl4"><a href="#522-transaksjonskontroll">5.2.2 Transaksjonskontroll</a></li>
+<li class="lvl4"><a href="#523-budsjettdisponering">5.2.3 Budsjettdisponering</a></li>
+<li class="lvl5"><a href="#5231-ansettelse-lnnsfastsettelse-og-lnnsendring">5.2.3.1 Ansettelse, lønnsfastsettelse og lønnsendring</a></li>
+<li class="lvl5"><a href="#5232-lnnsopplysningspliktige-ytelser">5.2.3.2 Lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl4"><a href="#524-behandling-av-lnn-og-andre-lnnsopplysningspliktige-ytelser">5.2.4 Behandling av lønn og andre lønnsopplysningspliktige ytelser</a></li>
+<li class="lvl5"><a href="#5241-registrering">5.2.4.1 Registrering</a></li>
+<li class="lvl5"><a href="#5242-beregning-kontroll-og-attestasjon">5.2.4.2 Beregning, kontroll og attestasjon</a></li>
+<li class="lvl5"><a href="#5243-bokfring-og-utbetaling">5.2.4.3 Bokføring og utbetaling</a></li>
+<li class="lvl5"><a href="#5244-rapportering">5.2.4.4 Rapportering</a></li>
+<li class="lvl5"><a href="#5245-avstemming">5.2.4.5 Avstemming</a></li>
+<li class="lvl3"><a href="#53-anskaffelser">5.3 Anskaffelser</a></li>
+<li class="lvl4"><a href="#531-generelt">5.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#532-annet-regel-og-avtaleverk-pa-omradet">5.3.2 Annet regel- og avtaleverk på området</a></li>
+<li class="lvl4"><a href="#533-budsjettdisponering-og-bestilling">5.3.3 Budsjettdisponering og bestilling</a></li>
+<li class="lvl4"><a href="#534-varemottak">5.3.4 Varemottak</a></li>
+<li class="lvl4"><a href="#535-fakturabehandling">5.3.5 Fakturabehandling</a></li>
+<li class="lvl5"><a href="#5351-fakturamottak">5.3.5.1 Fakturamottak</a></li>
+<li class="lvl5"><a href="#5352-attestasjon">5.3.5.2 Attestasjon</a></li>
+<li class="lvl4"><a href="#536-bokfring-og-utbetaling">5.3.6 Bokføring og utbetaling</a></li>
+<li class="lvl4"><a href="#537-registrering-av-eiendeler">5.3.7 Registrering av eiendeler</a></li>
+<li class="lvl4"><a href="#538-store-anskaffelser">5.3.8 Store anskaffelser</a></li>
+<li class="lvl3"><a href="#54-inntekter">5.4 Inntekter</a></li>
+<li class="lvl4"><a href="#541-generelt">5.4.1 Generelt</a></li>
+<li class="lvl4"><a href="#542-behandling-av-krav-der-betaling-skal-skje-i-etterhand">5.4.2 Behandling av krav der betaling skal skje i etterhånd</a></li>
+<li class="lvl5"><a href="#5421-fastsettelse-av-krav">5.4.2.1 Fastsettelse av krav</a></li>
+<li class="lvl5"><a href="#5422-utstedelse-av-faktura">5.4.2.2 Utstedelse av faktura</a></li>
+<li class="lvl5"><a href="#5423-bokfring-av-krav">5.4.2.3 Bokføring av krav</a></li>
+<li class="lvl5"><a href="#5424-innbetaling">5.4.2.4 Innbetaling</a></li>
+<li class="lvl5"><a href="#5425-oppflging-av-krav-som-ikke-betales-som-forutsatt">5.4.2.5 Oppfølging av krav som ikke betales som forutsatt</a></li>
+<li class="lvl4"><a href="#543-stille-innkrevingen-i-bero">5.4.3 Stille innkrevingen i bero</a></li>
+<li class="lvl4"><a href="#544-ettergivelse-av-krav">5.4.4 Ettergivelse av krav</a></li>
+<li class="lvl4"><a href="#545-regnskapsmessig-behandling-av-opphrte-krav">5.4.5 Regnskapsmessig behandling av opphørte krav</a></li>
+<li class="lvl4"><a href="#546-kontantsalg-og-kontante-innbetalinger-av-krav">5.4.6 Kontantsalg og kontante innbetalinger av krav</a></li>
+<li class="lvl4"><a href="#547-erverv-forvaltning-og-oppbevaring-av-verdipapirer">5.4.7 Erverv, forvaltning og oppbevaring av verdipapirer</a></li>
+<li class="lvl4"><a href="#548-mottak-av-verdipost">5.4.8 Mottak av verdipost</a></li>
+<li class="lvl2"><a href="#6-utforming-og-forvaltning-av-tilskuddsordninger">6 Utforming og forvaltning av tilskuddsordninger</a></li>
+<li class="lvl3"><a href="#61-innledning">6.1 Innledning</a></li>
+<li class="lvl3"><a href="#62-utforming-av-en-tilskuddsordning">6.2 Utforming av en tilskuddsordning</a></li>
+<li class="lvl4"><a href="#621-hovedelementene-i-en-tilskuddsordning">6.2.1 Hovedelementene i en tilskuddsordning</a></li>
+<li class="lvl4"><a href="#622-presentasjon-for-stortinget">6.2.2 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#623-fastsettelse-av-tilskuddsregelverk">6.2.3 Fastsettelse av tilskuddsregelverk</a></li>
+<li class="lvl4"><a href="#624-etablering-av-en-forvaltningsorganisasjon">6.2.4 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl5"><a href="#6241-tilskuddsforvaltere-innenfor-statsforvaltningen">6.2.4.1 Tilskuddsforvaltere innenfor statsforvaltningen</a></li>
+<li class="lvl5"><a href="#6242-kommunale-og-fylkeskommunale-tilskuddsforvaltere">6.2.4.2 Kommunale og fylkeskommunale tilskuddsforvaltere</a></li>
+<li class="lvl5"><a href="#6243-tilskuddsforvaltere-eid-av-staten">6.2.4.3 Tilskuddsforvaltere eid av staten</a></li>
+<li class="lvl5"><a href="#6244-tilskudd-forvaltet-av-stiftelser-private-mv">6.2.4.4 Tilskudd forvaltet av stiftelser, private mv.</a></li>
+<li class="lvl3"><a href="#63-tilskuddsforvaltning">6.3 Tilskuddsforvaltning</a></li>
+<li class="lvl4"><a href="#631-utlysning">6.3.1 Utlysning</a></li>
+<li class="lvl4"><a href="#632-behandling-av-sknader-om-tilskudd">6.3.2 Behandling av søknader om tilskudd</a></li>
+<li class="lvl4"><a href="#633-tilskuddsbrev">6.3.3 Tilskuddsbrev</a></li>
+<li class="lvl4"><a href="#634-registrering-av-vedtak-om-tilskudd">6.3.4 Registrering av vedtak om tilskudd</a></li>
+<li class="lvl4"><a href="#635-utbetaling-og-eventuell-tilbakebetaling">6.3.5 Utbetaling og eventuell tilbakebetaling</a></li>
+<li class="lvl4"><a href="#636-informasjon-om-maloppnaelse">6.3.6 Informasjon om måloppnåelse</a></li>
+<li class="lvl4"><a href="#637-rapportering-til-departementet">6.3.7 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#638-oppflging-og-kontroll">6.3.8 Oppfølging og kontroll</a></li>
+<li class="lvl5"><a href="#6381-internkontroll-hos-tilskuddsforvalteren">6.3.8.1 Internkontroll hos tilskuddsforvalteren</a></li>
+<li class="lvl5"><a href="#6382-kontroll-av-informasjon-fra-skere-og-mottakere-av-tilskudd">6.3.8.2 Kontroll av informasjon fra søkere og mottakere av tilskudd</a></li>
+<li class="lvl3"><a href="#64-unntak-fra-bestemmelsene-i-punkt-62-og-63">6.4 Unntak fra bestemmelsene i punkt 6.2 og 6.3</a></li>
+<li class="lvl4"><a href="#641-tilskudd-til-kommuner-og-fylkeskommuner">6.4.1 Tilskudd til kommuner og fylkeskommuner</a></li>
+<li class="lvl4"><a href="#642-andre-unntak">6.4.2 Andre unntak</a></li>
+<li class="lvl3"><a href="#65-evaluering-av-tilskuddsordninger">6.5 Evaluering av tilskuddsordninger</a></li>
+<li class="lvl2"><a href="#7-utforming-og-forvaltning-av-stnadsordninger-til-privatpersoner">7 Utforming og forvaltning av stønadsordninger til privatpersoner</a></li>
+<li class="lvl3"><a href="#71-innledning">7.1 Innledning</a></li>
+<li class="lvl3"><a href="#72-utforming-av-en-stnadsordning">7.2 Utforming av en stønadsordning</a></li>
+<li class="lvl4"><a href="#721-hovedelementene-i-en-stnadsordning">7.2.1 Hovedelementene i en stønadsordning</a></li>
+<li class="lvl4"><a href="#722-presentasjon-for-stortinget">7.2.2 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#723-stnadsregelverk">7.2.3 Stønadsregelverk</a></li>
+<li class="lvl4"><a href="#724-etablering-av-en-forvaltningsorganisasjon">7.2.4 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl5"><a href="#7241-stnadsforvaltere-innenfor-statsforvaltningen">7.2.4.1 Stønadsforvaltere innenfor statsforvaltningen</a></li>
+<li class="lvl5"><a href="#7242-kommunale-og-fylkeskommunale-stnadsforvaltere">7.2.4.2 Kommunale og fylkeskommunale stønadsforvaltere</a></li>
+<li class="lvl5"><a href="#7243-stnadsforvaltere-eid-av-staten">7.2.4.3 Stønadsforvaltere eid av staten</a></li>
+<li class="lvl5"><a href="#7244-stnader-forvaltet-av-stiftelser-private-mv">7.2.4.4 Stønader forvaltet av stiftelser, private mv.</a></li>
+<li class="lvl3"><a href="#73-stnadsforvaltning">7.3 Stønadsforvaltning</a></li>
+<li class="lvl4"><a href="#731-utlysning">7.3.1 Utlysning</a></li>
+<li class="lvl4"><a href="#732-behandling-av-sknader-om-stnad">7.3.2 Behandling av søknader om stønad</a></li>
+<li class="lvl4"><a href="#733-stnadsbrev">7.3.3 Stønadsbrev</a></li>
+<li class="lvl4"><a href="#734-registrering-av-vedtak-om-stnad">7.3.4 Registrering av vedtak om stønad</a></li>
+<li class="lvl4"><a href="#735-utbetaling">7.3.5 Utbetaling</a></li>
+<li class="lvl4"><a href="#736-eventuell-innberetningsplikt">7.3.6 Eventuell innberetningsplikt</a></li>
+<li class="lvl4"><a href="#737-rapportering-fra-mottakeren">7.3.7 Rapportering fra mottakeren</a></li>
+<li class="lvl4"><a href="#738-rapportering-til-departementet">7.3.8 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#739-oppflging-og-kontroll">7.3.9 Oppfølging og kontroll</a></li>
+<li class="lvl5"><a href="#7391-internkontroll-hos-stnadsforvalteren">7.3.9.1 Internkontroll hos stønadsforvalteren</a></li>
+<li class="lvl5"><a href="#7392-kontroll-av-grunnlaget-for-stnad-som-utbetales-uten-sknad">7.3.9.2 Kontroll av grunnlaget for stønad som utbetales uten søknad</a></li>
+<li class="lvl5"><a href="#7393-kontroll-av-dokumentasjon-fra-stnadsmottakere">7.3.9.3 Kontroll av dokumentasjon fra stønadsmottakere</a></li>
+<li class="lvl3"><a href="#74-evaluering-av-stnadsordninger">7.4 Evaluering av stønadsordninger</a></li>
+<li class="lvl2"><a href="#8-forvaltning-av-garantiordninger">8 Forvaltning av garantiordninger</a></li>
+<li class="lvl3"><a href="#81-innledning">8.1 Innledning</a></li>
+<li class="lvl3"><a href="#82-utarbeidelse-av-en-garantiordning">8.2 Utarbeidelse av en garantiordning</a></li>
+<li class="lvl4"><a href="#821-utforming-av-en-garantiordning-og-presentasjon-for-stortinget">8.2.1 Utforming av en garantiordning og presentasjon for Stortinget</a></li>
+<li class="lvl5"><a href="#8211-hovedelementer">8.2.1.1 Hovedelementer</a></li>
+<li class="lvl5"><a href="#8212-regelverk">8.2.1.2 Regelverk</a></li>
+<li class="lvl5"><a href="#8213-presentasjon-for-stortinget">8.2.1.3 Presentasjon for Stortinget</a></li>
+<li class="lvl4"><a href="#822-hovedvilkar-for-statsgaranti">8.2.2 Hovedvilkår for statsgaranti</a></li>
+<li class="lvl4"><a href="#823-eventuelt-unntak-fra-normalvilkaret-om-selvfinansiering">8.2.3 Eventuelt unntak fra normalvilkåret om selvfinansiering</a></li>
+<li class="lvl4"><a href="#824-fastsetting-av-spesifiserte-standardvilkar">8.2.4 Fastsetting av spesifiserte standardvilkår</a></li>
+<li class="lvl4"><a href="#825-etablering-av-en-forvaltningsorganisasjon">8.2.5 Etablering av en forvaltningsorganisasjon</a></li>
+<li class="lvl3"><a href="#83-forvaltning-av-garantiordninger">8.3 Forvaltning av garantiordninger</a></li>
+<li class="lvl4"><a href="#831-generelt">8.3.1 Generelt</a></li>
+<li class="lvl4"><a href="#832-kunngjring-og-sknadsbehandling">8.3.2 Kunngjøring og søknadsbehandling</a></li>
+<li class="lvl4"><a href="#833-garantierklringinngaelse-av-avtale">8.3.3 Garantierklæring/inngåelse av avtale</a></li>
+<li class="lvl4"><a href="#834-registrering-av-tilsagngarantiansvar">8.3.4 Registrering av tilsagn/garantiansvar</a></li>
+<li class="lvl4"><a href="#835-rapportering-fra-avtalepartene">8.3.5 Rapportering fra avtalepartene</a></li>
+<li class="lvl4"><a href="#836-rapportering-til-departementet">8.3.6 Rapportering til departementet</a></li>
+<li class="lvl4"><a href="#837-internkontroll-hos-garantiforvalter">8.3.7 Internkontroll hos garantiforvalter</a></li>
+<li class="lvl3"><a href="#84-innfrielse-av-garanti-regress">8.4 Innfrielse av garanti, regress</a></li>
+<li class="lvl3"><a href="#85-evaluering-av-garantiordninger">8.5 Evaluering av garantiordninger</a></li>
+<li class="lvl2"><a href="#9-ikrafttredelse">9 Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-12-12-1939.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-12-12-1939.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-12-12-1939.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2003-12-12-1939.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2003-12-12-1939.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-2003-12-12-1939.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2003-12-12-1939.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-12-12-1939.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="bestemmelser-om-konomistyring-i-staten">Bestemmelser om økonomistyring i staten</h1>
 <h2 id="forord">Forord</h2>
 <p>Reglement for økonomistyring i staten ble fastsatt ved Kronprinsregentens resolusjon 12. desember 2003 nr. 1938 . Finansdepartementet fastsatte samme dag Bestemmelser om økonomistyring i staten, for gjennomføring av dette reglementet (med hjemmel i reglementets § 3). Regelverket utgis her samlet i ett hefte, med felles innholdsfortegnelse og stikkordregister.</p>
 <p>Reglement for økonomistyring i staten («reglementet») og Bestemmelser om økonomistyring i staten («bestemmelsene») trer i kraft 1. januar 2004, med en generell overgangsordning på 1 år for å få på plass instrukser i henhold til reglementets § 3, 2. og 3. ledd.</p>
@@ -803,6 +1282,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h2 id="9-ikrafttredelse">9 Ikrafttredelse</h2>
 <p>Bestemmelsene trer i kraft 1. januar 2004.</p>
 <p>Samtidig oppheves Funksjonelle krav til økonomiforvaltningen i staten, fastsatt av Finansdepartementet 24. oktober 1996.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

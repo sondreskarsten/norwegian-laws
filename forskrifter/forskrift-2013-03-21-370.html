@@ -19,91 +19,370 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-03-21-370.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Vinforskriften" href="../feeds/forskrift-2013-03-21-370.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Vinforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-03-21-370</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-04-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-05-13-835</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-03-21-370" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-gjennomfring-av-forordningeu-nr-13082013mv">§ 2. Gjennomføring av forordning(EU) nr. 1308/2013mv.</a></li>
+<li class="lvl3"><a href="#2a-forordninger-som-beskytter-nye-eller-endrer-produktspesifikasjonene-for-allerede-beskyttede-geografiske-betegnelser-eller-opprinnelsesbetegnelser-pa-vin">§ 2a. Forordninger som beskytter nye eller endrer produktspesifikasjonene for allerede beskyttede geografiske betegnelser eller opprinnelsesbetegnelser på vin</a></li>
+<li class="lvl3"><a href="#3-gjennomfring-av-forordning-eu-2018273-og-forordning-eu-2018274">§ 3. Gjennomføring av forordning (EU) 2018/273 og forordning (EU) 2018/274</a></li>
+<li class="lvl3"><a href="#4-gjennomfring-av-forordning-eu-2019934-og-forordning-eu-2019935">§ 4. Gjennomføring av forordning (EU) 2019/934 og forordning (EU) 2019/935</a></li>
+<li class="lvl3"><a href="#5-gjennomfring-av-forordning-eu-201933-og-forordning-eu-201934">§ 5. Gjennomføring av forordning (EU) 2019/33 og forordning (EU) 2019/34</a></li>
+<li class="lvl3"><a href="#6-gjennomfring-av-forordningeu-nr-10222010-forordningeu-nr-12712014-forordningeu-20162147og-forordningeu-20172281">§ 6. Gjennomføring av forordning(EU) nr. 1022/2010, forordning(EU) nr. 1271/2014, forordning(EU) 2016/2147og forordning(EU) 2017/2281</a></li>
+<li class="lvl3"><a href="#7-tilsyn-og-vedtak">§ 7. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#8-straff">§ 8. Straff</a></li>
+<li class="lvl3"><a href="#9-dispensasjon">§ 9. Dispensasjon</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-nr-13082013">Konsolidert forordning (EU) nr. 1308/2013</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningeu-nr-13082013av-17-desember-2013om-opprettelse-av-en-felles-markedsordning-for-landbruksvarer-og-om-oppheving-av-radsforordningef-nr-92272-efnr-23479-efnr-10372001og-efnr-12342007">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EU) nr. 1308/2013av 17. desember 2013om opprettelse av en felles markedsordning for landbruksvarer og om oppheving av rådsforordning(EØF) nr. 922/72, (EØF)nr. 234/79, (EF)nr. 1037/2001og (EF)nr. 1234/2007</a></li>
+<li class="lvl5"><a href="#vedlegg-iliste-over-produkter-nevnt-i-artikkel-1-nr-2">VEDLEGG ILISTE OVER PRODUKTER NEVNT I ARTIKKEL 1 NR. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-ii">VEDLEGG II</a></li>
+<li class="lvl5"><a href="#vedlegg-viidefinisjoner-betegnelser-og-varebetegnelsr-nevnt-i-artikkel-78">VEDLEGG VIIDEFINISJONER, BETEGNELSER OG VAREBETEGNELSR NEVNT I ARTIKKEL 78</a></li>
+<li class="lvl5"><a href="#vedlegg-viiinologiske-framstillingsmater-nevnt-i-artikkel-80">VEDLEGG VIIIØNOLOGISKE FRAMSTILLINGSMÅTER NEVNT I ARTIKKEL 80</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1722013">Forordning (EU) nr. 172/2013</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-nr-1722013av-26-februar-2013om-fjerning-av-visse-eksisterende-vinbetegnelser-fra-registeret-omhandlet-i-radsforordningef-nr-12342007">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) nr. 172/2013av 26. februar 2013om fjerning av visse eksisterende vinbetegnelser fra registeret omhandlet i rådsforordning(EF) nr. 1234/2007</a></li>
+<li class="lvl5"><a href="#vedleggvinbetegnelser-omhandlet-i-artikkel-1">VEDLEGGVinbetegnelser omhandlet i artikkel 1</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-4362009">Konsolidert forordning (EF) nr. 436/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-4362009av-26-mai-2009om-fastsettelse-av-nrmere-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-vingardsregisteret-obligatoriske-oppgaver-og-innsamling-av-opplysninger-til-overvaking-av-vinmarkedet-flgedokumenter-ved-forsendelser-av-vinprodukter-og-om-registre-som-skal-fres-i-vinsektoren">KOMMISJONSFORORDNING(EF) nr. 436/2009av 26. mai 2009om fastsettelse av nærmere regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til vingårdsregisteret, obligatoriske oppgaver og innsamling av opplysninger til overvåking av vinmarkedet, følgedokumenter ved forsendelser av vinprodukter og om registre som skal føres i vinsektoren</a></li>
+<li class="lvl5"><a href="#avdeling-iiiflgedokumenter-ved-forsendelser-av-vinprodukter-og-registre-som-skal-fres-i-vinsektoren">Avdeling IIIFølgedokumenter ved forsendelser av vinprodukter og registre som skal føres i vinsektoren</a></li>
+<li class="lvl5"><a href="#vedlegg-vim1instrukser-for-utarbeiding-av-flgedokumenter-m1">Vedlegg VI►M1Instrukser for utarbeiding av følgedokumenter ◄M1</a></li>
+<li class="lvl5"><a href="#m1vedlegg-vii-opphevet-m1">►M1Vedlegg VII (opphevet) ◄M1</a></li>
+<li class="lvl5"><a href="#m1vedlegg-viiisrlig-stempel-som-nevnt-i-artikkel-26-nr-1-bokstav-c-ii">►M1Vedlegg VIIISærlig stempel som nevnt i artikkel 26 nr. 1 bokstav c) ii)</a></li>
+<li class="lvl5"><a href="#m1vedlegg-ixa">►M1Vedlegg IXa</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-6062009">Konsolidert forordning (EF) nr. 606/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-6062009av-10-juli-2009om-fastsettelse-av-nrmere-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-kategoriene-av-vinprodukter-nologiske-framstillingsmater-og-gjeldende-restriksjoner">KOMMISJONSFORORDNING(EF) nr. 606/2009av 10. juli 2009om fastsettelse av nærmere regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til kategoriene av vinprodukter, ønologiske framstillingsmåter og gjeldende restriksjoner</a></li>
+<li class="lvl5"><a href="#vedlegg-i-atillatte-nologiske-framstillings-og-behandlingsmater">Vedlegg I ATillatte ønologiske framstillings- og behandlingsmåter</a></li>
+<li class="lvl5"><a href="#vedlegg-i-bgrenseverdier-for-svoveldioksidinnhold-i-vin">Vedlegg I BGrenseverdier for svoveldioksidinnhold i vin</a></li>
+<li class="lvl5"><a href="#vedlegg-i-cgrenseverdier-for-innhold-av-flyktig-syre-i-vin">Vedlegg I CGrenseverdier for innhold av flyktig syre i vin</a></li>
+<li class="lvl5"><a href="#vedlegg-i-dgrenseverdier-og-vilkar-for-stning-av-vin">Vedlegg I DGrenseverdier og vilkår for søtning av vin</a></li>
+<li class="lvl5"><a href="#vedlegg-iitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-musserende-viner-musserende-kvalitetsviner-og-musserende-kvalitetsviner-av-aromatisk-type">Vedlegg IITillatte ønologiske framstillingsmåter og restriksjoner som gjelder for musserende viner, musserende kvalitetsviner og musserende kvalitetsviner av aromatisk type</a></li>
+<li class="lvl5"><a href="#vedlegg-iiitillatte-nologiske-framgangsmater-og-restriksjoner-som-gjelder-for-sterkviner-og-sterkviner-med-beskyttet-opprinnelsesbetegnelse-eller-beskyttet-geografisk-betegnelse">Vedlegg IIITillatte ønologiske framgangsmåter og restriksjoner som gjelder for sterkviner og sterkviner med beskyttet opprinnelsesbetegnelse eller beskyttet geografisk betegnelse</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsrskilte-fellesskapsanalysemetoder">Vedlegg IVSærskilte fellesskapsanalysemetoder</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellen-nevnt-i-artikkel-16-annet-ledd">Vedlegg VSammenligningstabellen nevnt i artikkel 16 annet ledd</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-6072009">Konsolidert forordning (EF) nr. 607/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-6072009av-14-juli-2009om-fastsettelse-av-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-beskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser-tradisjonelle-betegnelser-merking-og-presentasjon-av-visse-vinprodukter">KOMMISJONSFORORDNING(EF) nr. 607/2009av 14. juli 2009om fastsettelse av regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til beskyttede opprinnelsesbetegnelser og beskyttede geografiske betegnelser, tradisjonelle betegnelser, merking og presentasjon av visse vinprodukter</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser">Kapittel IIBeskyttede opprinnelsesbetegnelser og beskyttede geografiske betegnelser</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser">Kapittel IIITradisjonelle betegnelser</a></li>
+<li class="lvl5"><a href="#kapittel-ivmerking-og-presentasjon">Kapittel IVMerking og presentasjon</a></li>
+<li class="lvl5"><a href="#kapittel-valminnelige-bestemmelser-overgangs-og-sluttbestemmelser">Kapittel VAlminnelige bestemmelser, overgangs- og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#m4vedlegg-x">►M4VEDLEGG X</a></li>
+<li class="lvl5"><a href="#m5vedlegg-xauttrykk-omhandlet-i-artikkel-56-nr-3-bokstav-b">►M5Vedlegg XaUttrykk omhandlet i artikkel 56 nr. 3 bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiibetegnelser-som-viser-til-en-enhet">Vedlegg XIIIBetegnelser som viser til en enhet</a></li>
+<li class="lvl5"><a href="#vedlegg-xivangivelse-av-sukkerinnholdet">Vedlegg XIVAngivelse av sukkerinnholdet</a></li>
+<li class="lvl5"><a href="#vedlegg-xvliste-over-druesorter-og-deres-synonymer-som-kan-forekomme-ved-merking-av-vin">Vedlegg XVListe over druesorter og deres synonymer som kan forekomme ved merking av vin</a></li>
+<li class="lvl5"><a href="#vedlegg-xviangivelser-som-er-tillatt-ved-merking-av-vin-i-henhold-til-artikkel-66-nr-2">Vedlegg XVIAngivelser som er tillatt ved merking av vin i henhold til artikkel 66 nr. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiforbehold-med-hensyn-til-visse-flasketyper">Vedlegg XVIIForbehold med hensyn til visse flasketyper</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiitilgang-til-de-metodene-og-elektroniske-skjemaene-som-er-nevnt-i-artikkel-70a-nr-1-bokstav-b">Vedlegg XVIIITilgang til de metodene og elektroniske skjemaene som er nevnt i artikkel 70a nr. 1 bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-xixpraktiske-regler-for-oversending-og-utlevering-av-opplysninger-i-henhold-til-artikkel-70a-nr-2">Vedlegg XIXPraktiske regler for oversending og utlevering av opplysninger i henhold til artikkel 70a nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-10222010">Forordning (EU) nr. 1022/2010</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-10222010av-12-november-2010om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2010-i-visse-vindyrkingssoner">KOMMISJONSFORORDNING(EU) nr. 1022/2010av 12. november 2010om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2010 i visse vindyrkingssoner</a></li>
+<li class="lvl5"><a href="#vedlegggeografiske-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen">VedleggGeografiske områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-12712014">Forordning (EU) nr. 1271/2014</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-nr-12712014av-28-november-2014om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2014-av-visse-vindruesorter-i-visse-vindyrkingsomrader-eller-deler-av-slike-omrader">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) nr. 1271/2014av 28. november 2014om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2014 av visse vindruesorter i visse vindyrkingsområder eller deler av slike områder</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-20162147">Forordning (EU) 2016/2147</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20162147av-7-desember-2016om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2016-i-visse-vindyrkingsomrader-i-tyskland-og-i-alle-vindyrkingsomrader-i-ungarn">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2016/2147av 7. desember 2016om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2016 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Ungarn</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen_1">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-20172281">Forordning (EU) 2017/2281</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20172281av-11-desember-2017om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2017-i-visse-vindyrkingsomrader-i-tyskland-og-i-alle-vindyrkingsomrader-i-danmark-nederland-og-sverige">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2017/2281av 11. desember 2017om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2017 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Danmark, Nederland og Sverige</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen_2">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2018273">Konsolidert forordning (EU) 2018/273</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2018273av-11-desember-2017om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-tillatelsesordningen-for-planting-av-vinstokker-vingardsregisteret-flgedokumenter-og-sertifisering-inngangs-og-utgangsregisteret-obligatoriske-opplysninger-meldinger-og-offentliggjring-av-meldt-informasjon-utfylling-av-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-relevante-kontroller-og-sanksjoner-endring-av-kommisjonsforordningef-nr-5552008ef-nr-6062009ogef-nr-6072009og-oppheving-av-kommisjonsforordningef-nr-4362009og-delegert-kommisjonsforordningeu-2015560">DELEGERT KOMMISJONSFORORDNING (EU) 2018/273av 11. desember 2017om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til tillatelsesordningen for planting av vinstokker, vingårdsregisteret, følgedokumenter og sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger, meldinger og offentliggjøring av meldt informasjon, utfylling av europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til relevante kontroller og sanksjoner, endring av kommisjonsforordning(EF) nr. 555/2008,(EF) nr. 606/2009og(EF) nr. 607/2009og oppheving av kommisjonsforordning(EF) nr. 436/2009og delegert kommisjonsforordning(EU) 2015/560</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_1">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivflgedokumenter-og-regler-for-import-av-vinprodukter">KAPITTEL IVFØLGEDOKUMENTER OG REGLER FOR IMPORT AV VINPRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-ixendringer-opphevinger-overgangsbestemmelser-og-sluttbestemmelser">KAPITTEL IXENDRINGER, OPPHEVINGER, OVERGANGSBESTEMMELSER OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-vflgedokumenter">VEDLEGG VFØLGEDOKUMENTER</a></li>
+<li class="lvl5"><a href="#vedlegg-visertifikat-for-vinproduktenes-opprinnelse-eller-herkomst-egenskaper-argang-vindruesorter-produktene-er-framstilt-av-og-bob-eller-bgb-for-vin-i-unionen">VEDLEGG VISERTIFIKAT FOR VINPRODUKTENES OPPRINNELSE ELLER HERKOMST, EGENSKAPER, ÅRGANG, VINDRUESORT(ER) PRODUKTENE ER FRAMSTILT AV, OG BOB ELLER BGB FOR VIN I UNIONEN</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2018274">Konsolidert forordning (EU) 2018/274</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2018274av-11-desember-2017om-fastsettelse-av-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-tillatelsesordningen-for-planting-av-vinstokker-sertifisering-inngangs-og-utgangsregisteret-obligatoriske-opplysninger-og-meldinger-og-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-relevante-kontroller-og-om-oppheving-av-kommisjonens-gjennomfringsforordningeu-2015561">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2018/274av 11. desember 2017om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til tillatelsesordningen for planting av vinstokker, sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger og meldinger og europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til relevante kontroller, og om oppheving av Kommisjonens gjennomføringsforordning(EU) 2015/561</a></li>
+<li class="lvl5"><a href="#kapittel-iiisertifisering-av-vinprodukter">KAPITTEL IIISERTIFISERING AV VINPRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-viimeldinger">KAPITTEL VIIMELDINGER</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-201933-om-beskyttelse-av-betegnelser-og-merking-mv-av-vin">Konsolidert forordning (EU) 2019/33 om beskyttelse av betegnelser og merking mv. av vin</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-201933av-17-oktober-2018om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-sknader-om-beskyttelse-av-opprinnelsesbetegnelser-geografiske-betegnelser-og-tradisjonelle-betegnelser-i-vinsektoren-innsigelsesprosedyren-bruksbegrensninger-endringer-av-produktspesifikasjoner-annullering-av-beskyttelse-samt-merking-og-presentasjon">DELEGERT KOMMISJONSFORORDNING (EU) 2019/33av 17. oktober 2018om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, bruksbegrensninger, endringer av produktspesifikasjoner, annullering av beskyttelse samt merking og presentasjon</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_2">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser_1">KAPITTEL IIBESKYTTEDE OPPRINNELSESBETEGNELSER OG BESKYTTEDE GEOGRAFISKE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser_1">KAPITTEL IIITRADISJONELLE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivmerking-og-presentasjon_1">KAPITTEL IVMERKING OG PRESENTASJON</a></li>
+<li class="lvl5"><a href="#kapittel-valminnelige-bestemmelser-overgangs-og-sluttbestemmelser_1">KAPITTEL VALMINNELIGE BESTEMMELSER, OVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-iiuttrykk-nevnt-i-artikkel-46-nr-3-andre-ledd-bokstav-b">VEDLEGG IIUttrykk nevnt i artikkel 46 nr. 3 andre ledd bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-iii">VEDLEGG III</a></li>
+<li class="lvl5"><a href="#vedlegg-ivliste-over-vindruesorter-og-deres-synonymer-som-kan-forekomme-ved-merking-av-vin15">VEDLEGG IVLISTE OVER VINDRUESORTER OG DERES SYNONYMER SOM KAN FOREKOMME VED MERKING AV VIN15</a></li>
+<li class="lvl5"><a href="#vedlegg-vangivelser-som-er-tillatt-ved-merking-av-vin-i-samsvar-med-artikkel-53-nr-2">VEDLEGG VAngivelser som er tillatt ved merking av vin i samsvar med artikkel 53 nr. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-viuttrykk-nevnt-i-artikkel-54-nr-1">VEDLEGG VIUttrykk nevnt i artikkel 54 nr. 1</a></li>
+<li class="lvl5"><a href="#vedlegg-viibegrensninger-i-bruken-av-visse-flasketyper-som-nevnt-i-artikkel-56">VEDLEGG VIIBegrensninger i bruken av visse flasketyper som nevnt i artikkel 56</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-201934-om-blant-annet-beskyttelse-av-geografiske-vinbetegnelser-mv-kontroll-og-informasjonsutveksling">Konsolidert forordning (EU) 2019/34 om blant annet beskyttelse av geografiske vinbetegnelser mv., kontroll og informasjonsutveksling</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-201934av-17-oktober-2018om-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-sknader-om-beskyttelse-av-opprinnelsesbetegnelser-geografiske-betegnelser-og-tradisjonelle-betegnelser-i-vinsektoren-innsigelsesprosedyren-endringer-av-produktspesifikasjoner-registeret-over-beskyttede-betegnelser-annullering-av-beskyttelse-og-bruk-av-symboler-og-av-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-en-passende-kontrollordning">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2019/34av 17. oktober 2018om regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, endringer av produktspesifikasjoner, registeret over beskyttede betegnelser, annullering av beskyttelse og bruk av symboler, og av europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til en passende kontrollordning</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_3">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser_2">KAPITTEL IIBESKYTTEDE OPPRINNELSESBETEGNELSER OG BESKYTTEDE GEOGRAFISKE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser_2">KAPITTEL IIITRADISJONELLE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivkommunikasjon-offentliggjring-og-sluttbestemmelser">KAPITTEL IVKOMMUNIKASJON, OFFENTLIGGJØRING OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-ienhetsdokument">VEDLEGG IENHETSDOKUMENT</a></li>
+<li class="lvl5"><a href="#vedlegg-iibegrunnet-innsigelse">VEDLEGG IIBEGRUNNET INNSIGELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiunderretning-om-avslutning-av-samrad-som-ledd-i-innsigelsesprosedyren">VEDLEGG IIIUNDERRETNING OM AVSLUTNING AV SAMRÅD SOM LEDD I INNSIGELSESPROSEDYREN</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsknad-om-en-unionsendring-av-produktspesifikasjonen">VEDLEGG IVSØKNAD OM EN UNIONSENDRING AV PRODUKTSPESIFIKASJONEN</a></li>
+<li class="lvl5"><a href="#vedlegg-vunderretning-om-godkjenning-av-en-standardendring">VEDLEGG VUNDERRETNING OM GODKJENNING AV EN STANDARDENDRING</a></li>
+<li class="lvl5"><a href="#vedlegg-viunderretning-om-godkjenning-av-en-midlertidig-endring">VEDLEGG VIUNDERRETNING OM GODKJENNING AV EN MIDLERTIDIG ENDRING</a></li>
+<li class="lvl5"><a href="#vedlegg-viianmodning-om-annullering">VEDLEGG VIIANMODNING OM ANNULLERING</a></li>
+<li class="lvl5"><a href="#vedlegg-viiisknad-om-beskyttelse-av-en-tradisjonell-betegnelse">VEDLEGG VIIISØKNAD OM BESKYTTELSE AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-ixinnsigelse-mot-en-sknad-om-beskyttelse-av-en-tradisjonell-betegnelse">VEDLEGG IXINNSIGELSE MOT EN SØKNAD OM BESKYTTELSE AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xanmodning-om-endring-av-en-tradisjonell-betegnelse">VEDLEGG XANMODNING OM ENDRING AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xianmodning-om-annullering-av-en-tradisjonell-betegnelse">VEDLEGG XIANMODNING OM ANNULLERING AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xii">VEDLEGG XII</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2019934">Konsolidert forordning (EU) 2019/934</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2019934av-12-mars-2019om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-vindyrkingsomrader-der-alkoholstyrken-kan-kes-tillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-produksjon-og-konservering-av-vinprodukter-minsteinnholdet-av-alkohol-for-biprodukter-og-bortskaffing-av-disse-samt-offentliggjring-av-oiv-dokumenter">DELEGERT KOMMISJONSFORORDNING (EU) 2019/934av 12. mars 2019om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til vindyrkingsområder der alkoholstyrken kan økes, tillatte ønologiske framstillingsmåter og restriksjoner som gjelder for produksjon og konservering av vinprodukter, minsteinnholdet av alkohol for biprodukter og bortskaffing av disse samt offentliggjøring av OIV-dokumenter</a></li>
+<li class="lvl5"><a href="#vedlegg-i_1">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-iitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-musserende-viner-musserende-kvalitetsviner-og-musserende-kvalitetsviner-av-aromatisk-type_1">VEDLEGG IITILLATTE ØNOLOGISKE FRAMSTILLINGSMÅTER OG RESTRIKSJONER SOM GJELDER FOR MUSSERENDE VINER, MUSSERENDE KVALITETSVINER OG MUSSERENDE KVALITETSVINER AV AROMATISK TYPE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-sterkviner-og-sterkviner-med-beskyttet-opprinnelsesbetegnelse-eller-beskyttet-geografisk-betegnelse">VEDLEGG IIITILLATTE ØNOLOGISKE FRAMSTILLINGSMÅTER OG RESTRIKSJONER SOM GJELDER FOR STERKVINER OG STERKVINER MED BESKYTTET OPPRINNELSESBETEGNELSE ELLER BESKYTTET GEOGRAFISK BETEGNELSE</a></li>
+<li class="lvl3"><a href="#forordning-eu-2019935">Forordning (EU) 2019/935</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2019935av-16-april-2019om-fastsettelse-av-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-analysemetoder-for-a-bestemme-vinprodukters-fysiske-kjemiske-og-organoleptiske-egenskaper-og-meldinger-om-medlemsstatenes-beslutninger-med-hensyn-til-kning-av-naturlig-alkoholstyrke">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2019/935av 16. april 2019om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til analysemetoder for å bestemme vinprodukters fysiske, kjemiske og organoleptiske egenskaper og meldinger om medlemsstatenes beslutninger med hensyn til økning av naturlig alkoholstyrke</a></li>
+<li class="lvl5"><a href="#vedleggsrskilte-eu-analysemetoder">VEDLEGGSÆRSKILTE EU-ANALYSEMETODER</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-05-13-835.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-03-21-370.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om vin (vinforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-03-21-370.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-03-21-370 <code>forskrift/2013-03-21-370</code></td></tr>
+<tr><th>Korttittel</th><td>Vinforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.04.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-05-13-835 <code>forskrift/2025-05-13-835</code> fra 13.05.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-03-21-370" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-gjennomfring-av-forordningeu-nr-13082013mv">§ 2. Gjennomføring av forordning(EU) nr. 1308/2013mv.</a></li>
+<li class="lvl3"><a href="#2a-forordninger-som-beskytter-nye-eller-endrer-produktspesifikasjonene-for-allerede-beskyttede-geografiske-betegnelser-eller-opprinnelsesbetegnelser-pa-vin">§ 2a. Forordninger som beskytter nye eller endrer produktspesifikasjonene for allerede beskyttede geografiske betegnelser eller opprinnelsesbetegnelser på vin</a></li>
+<li class="lvl3"><a href="#3-gjennomfring-av-forordning-eu-2018273-og-forordning-eu-2018274">§ 3. Gjennomføring av forordning (EU) 2018/273 og forordning (EU) 2018/274</a></li>
+<li class="lvl3"><a href="#4-gjennomfring-av-forordning-eu-2019934-og-forordning-eu-2019935">§ 4. Gjennomføring av forordning (EU) 2019/934 og forordning (EU) 2019/935</a></li>
+<li class="lvl3"><a href="#5-gjennomfring-av-forordning-eu-201933-og-forordning-eu-201934">§ 5. Gjennomføring av forordning (EU) 2019/33 og forordning (EU) 2019/34</a></li>
+<li class="lvl3"><a href="#6-gjennomfring-av-forordningeu-nr-10222010-forordningeu-nr-12712014-forordningeu-20162147og-forordningeu-20172281">§ 6. Gjennomføring av forordning(EU) nr. 1022/2010, forordning(EU) nr. 1271/2014, forordning(EU) 2016/2147og forordning(EU) 2017/2281</a></li>
+<li class="lvl3"><a href="#7-tilsyn-og-vedtak">§ 7. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#8-straff">§ 8. Straff</a></li>
+<li class="lvl3"><a href="#9-dispensasjon">§ 9. Dispensasjon</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-nr-13082013">Konsolidert forordning (EU) nr. 1308/2013</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningeu-nr-13082013av-17-desember-2013om-opprettelse-av-en-felles-markedsordning-for-landbruksvarer-og-om-oppheving-av-radsforordningef-nr-92272-efnr-23479-efnr-10372001og-efnr-12342007">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EU) nr. 1308/2013av 17. desember 2013om opprettelse av en felles markedsordning for landbruksvarer og om oppheving av rådsforordning(EØF) nr. 922/72, (EØF)nr. 234/79, (EF)nr. 1037/2001og (EF)nr. 1234/2007</a></li>
+<li class="lvl5"><a href="#vedlegg-iliste-over-produkter-nevnt-i-artikkel-1-nr-2">VEDLEGG ILISTE OVER PRODUKTER NEVNT I ARTIKKEL 1 NR. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-ii">VEDLEGG II</a></li>
+<li class="lvl5"><a href="#vedlegg-viidefinisjoner-betegnelser-og-varebetegnelsr-nevnt-i-artikkel-78">VEDLEGG VIIDEFINISJONER, BETEGNELSER OG VAREBETEGNELSR NEVNT I ARTIKKEL 78</a></li>
+<li class="lvl5"><a href="#vedlegg-viiinologiske-framstillingsmater-nevnt-i-artikkel-80">VEDLEGG VIIIØNOLOGISKE FRAMSTILLINGSMÅTER NEVNT I ARTIKKEL 80</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1722013">Forordning (EU) nr. 172/2013</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-nr-1722013av-26-februar-2013om-fjerning-av-visse-eksisterende-vinbetegnelser-fra-registeret-omhandlet-i-radsforordningef-nr-12342007">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) nr. 172/2013av 26. februar 2013om fjerning av visse eksisterende vinbetegnelser fra registeret omhandlet i rådsforordning(EF) nr. 1234/2007</a></li>
+<li class="lvl5"><a href="#vedleggvinbetegnelser-omhandlet-i-artikkel-1">VEDLEGGVinbetegnelser omhandlet i artikkel 1</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-4362009">Konsolidert forordning (EF) nr. 436/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-4362009av-26-mai-2009om-fastsettelse-av-nrmere-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-vingardsregisteret-obligatoriske-oppgaver-og-innsamling-av-opplysninger-til-overvaking-av-vinmarkedet-flgedokumenter-ved-forsendelser-av-vinprodukter-og-om-registre-som-skal-fres-i-vinsektoren">KOMMISJONSFORORDNING(EF) nr. 436/2009av 26. mai 2009om fastsettelse av nærmere regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til vingårdsregisteret, obligatoriske oppgaver og innsamling av opplysninger til overvåking av vinmarkedet, følgedokumenter ved forsendelser av vinprodukter og om registre som skal føres i vinsektoren</a></li>
+<li class="lvl5"><a href="#avdeling-iiiflgedokumenter-ved-forsendelser-av-vinprodukter-og-registre-som-skal-fres-i-vinsektoren">Avdeling IIIFølgedokumenter ved forsendelser av vinprodukter og registre som skal føres i vinsektoren</a></li>
+<li class="lvl5"><a href="#vedlegg-vim1instrukser-for-utarbeiding-av-flgedokumenter-m1">Vedlegg VI►M1Instrukser for utarbeiding av følgedokumenter ◄M1</a></li>
+<li class="lvl5"><a href="#m1vedlegg-vii-opphevet-m1">►M1Vedlegg VII (opphevet) ◄M1</a></li>
+<li class="lvl5"><a href="#m1vedlegg-viiisrlig-stempel-som-nevnt-i-artikkel-26-nr-1-bokstav-c-ii">►M1Vedlegg VIIISærlig stempel som nevnt i artikkel 26 nr. 1 bokstav c) ii)</a></li>
+<li class="lvl5"><a href="#m1vedlegg-ixa">►M1Vedlegg IXa</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-6062009">Konsolidert forordning (EF) nr. 606/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-6062009av-10-juli-2009om-fastsettelse-av-nrmere-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-kategoriene-av-vinprodukter-nologiske-framstillingsmater-og-gjeldende-restriksjoner">KOMMISJONSFORORDNING(EF) nr. 606/2009av 10. juli 2009om fastsettelse av nærmere regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til kategoriene av vinprodukter, ønologiske framstillingsmåter og gjeldende restriksjoner</a></li>
+<li class="lvl5"><a href="#vedlegg-i-atillatte-nologiske-framstillings-og-behandlingsmater">Vedlegg I ATillatte ønologiske framstillings- og behandlingsmåter</a></li>
+<li class="lvl5"><a href="#vedlegg-i-bgrenseverdier-for-svoveldioksidinnhold-i-vin">Vedlegg I BGrenseverdier for svoveldioksidinnhold i vin</a></li>
+<li class="lvl5"><a href="#vedlegg-i-cgrenseverdier-for-innhold-av-flyktig-syre-i-vin">Vedlegg I CGrenseverdier for innhold av flyktig syre i vin</a></li>
+<li class="lvl5"><a href="#vedlegg-i-dgrenseverdier-og-vilkar-for-stning-av-vin">Vedlegg I DGrenseverdier og vilkår for søtning av vin</a></li>
+<li class="lvl5"><a href="#vedlegg-iitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-musserende-viner-musserende-kvalitetsviner-og-musserende-kvalitetsviner-av-aromatisk-type">Vedlegg IITillatte ønologiske framstillingsmåter og restriksjoner som gjelder for musserende viner, musserende kvalitetsviner og musserende kvalitetsviner av aromatisk type</a></li>
+<li class="lvl5"><a href="#vedlegg-iiitillatte-nologiske-framgangsmater-og-restriksjoner-som-gjelder-for-sterkviner-og-sterkviner-med-beskyttet-opprinnelsesbetegnelse-eller-beskyttet-geografisk-betegnelse">Vedlegg IIITillatte ønologiske framgangsmåter og restriksjoner som gjelder for sterkviner og sterkviner med beskyttet opprinnelsesbetegnelse eller beskyttet geografisk betegnelse</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsrskilte-fellesskapsanalysemetoder">Vedlegg IVSærskilte fellesskapsanalysemetoder</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellen-nevnt-i-artikkel-16-annet-ledd">Vedlegg VSammenligningstabellen nevnt i artikkel 16 annet ledd</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-6072009">Konsolidert forordning (EF) nr. 607/2009</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-6072009av-14-juli-2009om-fastsettelse-av-regler-for-gjennomfring-av-radsforordningef-nr-4792008med-hensyn-til-beskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser-tradisjonelle-betegnelser-merking-og-presentasjon-av-visse-vinprodukter">KOMMISJONSFORORDNING(EF) nr. 607/2009av 14. juli 2009om fastsettelse av regler for gjennomføring av rådsforordning(EF) nr. 479/2008med hensyn til beskyttede opprinnelsesbetegnelser og beskyttede geografiske betegnelser, tradisjonelle betegnelser, merking og presentasjon av visse vinprodukter</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser">Kapittel IIBeskyttede opprinnelsesbetegnelser og beskyttede geografiske betegnelser</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser">Kapittel IIITradisjonelle betegnelser</a></li>
+<li class="lvl5"><a href="#kapittel-ivmerking-og-presentasjon">Kapittel IVMerking og presentasjon</a></li>
+<li class="lvl5"><a href="#kapittel-valminnelige-bestemmelser-overgangs-og-sluttbestemmelser">Kapittel VAlminnelige bestemmelser, overgangs- og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#m4vedlegg-x">►M4VEDLEGG X</a></li>
+<li class="lvl5"><a href="#m5vedlegg-xauttrykk-omhandlet-i-artikkel-56-nr-3-bokstav-b">►M5Vedlegg XaUttrykk omhandlet i artikkel 56 nr. 3 bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiibetegnelser-som-viser-til-en-enhet">Vedlegg XIIIBetegnelser som viser til en enhet</a></li>
+<li class="lvl5"><a href="#vedlegg-xivangivelse-av-sukkerinnholdet">Vedlegg XIVAngivelse av sukkerinnholdet</a></li>
+<li class="lvl5"><a href="#vedlegg-xvliste-over-druesorter-og-deres-synonymer-som-kan-forekomme-ved-merking-av-vin">Vedlegg XVListe over druesorter og deres synonymer som kan forekomme ved merking av vin</a></li>
+<li class="lvl5"><a href="#vedlegg-xviangivelser-som-er-tillatt-ved-merking-av-vin-i-henhold-til-artikkel-66-nr-2">Vedlegg XVIAngivelser som er tillatt ved merking av vin i henhold til artikkel 66 nr. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiforbehold-med-hensyn-til-visse-flasketyper">Vedlegg XVIIForbehold med hensyn til visse flasketyper</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiitilgang-til-de-metodene-og-elektroniske-skjemaene-som-er-nevnt-i-artikkel-70a-nr-1-bokstav-b">Vedlegg XVIIITilgang til de metodene og elektroniske skjemaene som er nevnt i artikkel 70a nr. 1 bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-xixpraktiske-regler-for-oversending-og-utlevering-av-opplysninger-i-henhold-til-artikkel-70a-nr-2">Vedlegg XIXPraktiske regler for oversending og utlevering av opplysninger i henhold til artikkel 70a nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-10222010">Forordning (EU) nr. 1022/2010</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-10222010av-12-november-2010om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2010-i-visse-vindyrkingssoner">KOMMISJONSFORORDNING(EU) nr. 1022/2010av 12. november 2010om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2010 i visse vindyrkingssoner</a></li>
+<li class="lvl5"><a href="#vedlegggeografiske-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen">VedleggGeografiske områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-12712014">Forordning (EU) nr. 1271/2014</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-nr-12712014av-28-november-2014om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2014-av-visse-vindruesorter-i-visse-vindyrkingsomrader-eller-deler-av-slike-omrader">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) nr. 1271/2014av 28. november 2014om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2014 av visse vindruesorter i visse vindyrkingsområder eller deler av slike områder</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-20162147">Forordning (EU) 2016/2147</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20162147av-7-desember-2016om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2016-i-visse-vindyrkingsomrader-i-tyskland-og-i-alle-vindyrkingsomrader-i-ungarn">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2016/2147av 7. desember 2016om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2016 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Ungarn</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen_1">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#forordning-eu-20172281">Forordning (EU) 2017/2281</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20172281av-11-desember-2017om-tillatelse-til-a-heve-anrikingsgrensene-for-vin-som-framstilles-av-druer-som-er-hstet-i-2017-i-visse-vindyrkingsomrader-i-tyskland-og-i-alle-vindyrkingsomrader-i-danmark-nederland-og-sverige">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2017/2281av 11. desember 2017om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2017 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Danmark, Nederland og Sverige</a></li>
+<li class="lvl5"><a href="#vedleggvindruesorter-og-vindyrkingsomrader-eller-deler-av-slike-omrader-der-det-i-henhold-til-artikkel-1-er-tillatt-a-heve-anrikingsgrensen_2">VEDLEGGVindruesorter og vindyrkingsområder eller deler av slike områder der det i henhold til artikkel 1 er tillatt å heve anrikingsgrensen</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2018273">Konsolidert forordning (EU) 2018/273</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2018273av-11-desember-2017om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-tillatelsesordningen-for-planting-av-vinstokker-vingardsregisteret-flgedokumenter-og-sertifisering-inngangs-og-utgangsregisteret-obligatoriske-opplysninger-meldinger-og-offentliggjring-av-meldt-informasjon-utfylling-av-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-relevante-kontroller-og-sanksjoner-endring-av-kommisjonsforordningef-nr-5552008ef-nr-6062009ogef-nr-6072009og-oppheving-av-kommisjonsforordningef-nr-4362009og-delegert-kommisjonsforordningeu-2015560">DELEGERT KOMMISJONSFORORDNING (EU) 2018/273av 11. desember 2017om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til tillatelsesordningen for planting av vinstokker, vingårdsregisteret, følgedokumenter og sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger, meldinger og offentliggjøring av meldt informasjon, utfylling av europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til relevante kontroller og sanksjoner, endring av kommisjonsforordning(EF) nr. 555/2008,(EF) nr. 606/2009og(EF) nr. 607/2009og oppheving av kommisjonsforordning(EF) nr. 436/2009og delegert kommisjonsforordning(EU) 2015/560</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_1">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivflgedokumenter-og-regler-for-import-av-vinprodukter">KAPITTEL IVFØLGEDOKUMENTER OG REGLER FOR IMPORT AV VINPRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-ixendringer-opphevinger-overgangsbestemmelser-og-sluttbestemmelser">KAPITTEL IXENDRINGER, OPPHEVINGER, OVERGANGSBESTEMMELSER OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-vflgedokumenter">VEDLEGG VFØLGEDOKUMENTER</a></li>
+<li class="lvl5"><a href="#vedlegg-visertifikat-for-vinproduktenes-opprinnelse-eller-herkomst-egenskaper-argang-vindruesorter-produktene-er-framstilt-av-og-bob-eller-bgb-for-vin-i-unionen">VEDLEGG VISERTIFIKAT FOR VINPRODUKTENES OPPRINNELSE ELLER HERKOMST, EGENSKAPER, ÅRGANG, VINDRUESORT(ER) PRODUKTENE ER FRAMSTILT AV, OG BOB ELLER BGB FOR VIN I UNIONEN</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2018274">Konsolidert forordning (EU) 2018/274</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2018274av-11-desember-2017om-fastsettelse-av-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-tillatelsesordningen-for-planting-av-vinstokker-sertifisering-inngangs-og-utgangsregisteret-obligatoriske-opplysninger-og-meldinger-og-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-relevante-kontroller-og-om-oppheving-av-kommisjonens-gjennomfringsforordningeu-2015561">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2018/274av 11. desember 2017om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til tillatelsesordningen for planting av vinstokker, sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger og meldinger og europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til relevante kontroller, og om oppheving av Kommisjonens gjennomføringsforordning(EU) 2015/561</a></li>
+<li class="lvl5"><a href="#kapittel-iiisertifisering-av-vinprodukter">KAPITTEL IIISERTIFISERING AV VINPRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-viimeldinger">KAPITTEL VIIMELDINGER</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-201933-om-beskyttelse-av-betegnelser-og-merking-mv-av-vin">Konsolidert forordning (EU) 2019/33 om beskyttelse av betegnelser og merking mv. av vin</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-201933av-17-oktober-2018om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-sknader-om-beskyttelse-av-opprinnelsesbetegnelser-geografiske-betegnelser-og-tradisjonelle-betegnelser-i-vinsektoren-innsigelsesprosedyren-bruksbegrensninger-endringer-av-produktspesifikasjoner-annullering-av-beskyttelse-samt-merking-og-presentasjon">DELEGERT KOMMISJONSFORORDNING (EU) 2019/33av 17. oktober 2018om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, bruksbegrensninger, endringer av produktspesifikasjoner, annullering av beskyttelse samt merking og presentasjon</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_2">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser_1">KAPITTEL IIBESKYTTEDE OPPRINNELSESBETEGNELSER OG BESKYTTEDE GEOGRAFISKE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser_1">KAPITTEL IIITRADISJONELLE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivmerking-og-presentasjon_1">KAPITTEL IVMERKING OG PRESENTASJON</a></li>
+<li class="lvl5"><a href="#kapittel-valminnelige-bestemmelser-overgangs-og-sluttbestemmelser_1">KAPITTEL VALMINNELIGE BESTEMMELSER, OVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-iiuttrykk-nevnt-i-artikkel-46-nr-3-andre-ledd-bokstav-b">VEDLEGG IIUttrykk nevnt i artikkel 46 nr. 3 andre ledd bokstav b)</a></li>
+<li class="lvl5"><a href="#vedlegg-iii">VEDLEGG III</a></li>
+<li class="lvl5"><a href="#vedlegg-ivliste-over-vindruesorter-og-deres-synonymer-som-kan-forekomme-ved-merking-av-vin15">VEDLEGG IVLISTE OVER VINDRUESORTER OG DERES SYNONYMER SOM KAN FOREKOMME VED MERKING AV VIN15</a></li>
+<li class="lvl5"><a href="#vedlegg-vangivelser-som-er-tillatt-ved-merking-av-vin-i-samsvar-med-artikkel-53-nr-2">VEDLEGG VAngivelser som er tillatt ved merking av vin i samsvar med artikkel 53 nr. 2</a></li>
+<li class="lvl5"><a href="#vedlegg-viuttrykk-nevnt-i-artikkel-54-nr-1">VEDLEGG VIUttrykk nevnt i artikkel 54 nr. 1</a></li>
+<li class="lvl5"><a href="#vedlegg-viibegrensninger-i-bruken-av-visse-flasketyper-som-nevnt-i-artikkel-56">VEDLEGG VIIBegrensninger i bruken av visse flasketyper som nevnt i artikkel 56</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-201934-om-blant-annet-beskyttelse-av-geografiske-vinbetegnelser-mv-kontroll-og-informasjonsutveksling">Konsolidert forordning (EU) 2019/34 om blant annet beskyttelse av geografiske vinbetegnelser mv., kontroll og informasjonsutveksling</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-201934av-17-oktober-2018om-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-sknader-om-beskyttelse-av-opprinnelsesbetegnelser-geografiske-betegnelser-og-tradisjonelle-betegnelser-i-vinsektoren-innsigelsesprosedyren-endringer-av-produktspesifikasjoner-registeret-over-beskyttede-betegnelser-annullering-av-beskyttelse-og-bruk-av-symboler-og-av-europaparlaments-og-radsforordningeu-nr-13062013med-hensyn-til-en-passende-kontrollordning">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2019/34av 17. oktober 2018om regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, endringer av produktspesifikasjoner, registeret over beskyttede betegnelser, annullering av beskyttelse og bruk av symboler, og av europaparlaments- og rådsforordning(EU) nr. 1306/2013med hensyn til en passende kontrollordning</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser_3">KAPITTEL IINNLEDENDE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iibeskyttede-opprinnelsesbetegnelser-og-beskyttede-geografiske-betegnelser_2">KAPITTEL IIBESKYTTEDE OPPRINNELSESBETEGNELSER OG BESKYTTEDE GEOGRAFISKE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iiitradisjonelle-betegnelser_2">KAPITTEL IIITRADISJONELLE BETEGNELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ivkommunikasjon-offentliggjring-og-sluttbestemmelser">KAPITTEL IVKOMMUNIKASJON, OFFENTLIGGJØRING OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-ienhetsdokument">VEDLEGG IENHETSDOKUMENT</a></li>
+<li class="lvl5"><a href="#vedlegg-iibegrunnet-innsigelse">VEDLEGG IIBEGRUNNET INNSIGELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiunderretning-om-avslutning-av-samrad-som-ledd-i-innsigelsesprosedyren">VEDLEGG IIIUNDERRETNING OM AVSLUTNING AV SAMRÅD SOM LEDD I INNSIGELSESPROSEDYREN</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsknad-om-en-unionsendring-av-produktspesifikasjonen">VEDLEGG IVSØKNAD OM EN UNIONSENDRING AV PRODUKTSPESIFIKASJONEN</a></li>
+<li class="lvl5"><a href="#vedlegg-vunderretning-om-godkjenning-av-en-standardendring">VEDLEGG VUNDERRETNING OM GODKJENNING AV EN STANDARDENDRING</a></li>
+<li class="lvl5"><a href="#vedlegg-viunderretning-om-godkjenning-av-en-midlertidig-endring">VEDLEGG VIUNDERRETNING OM GODKJENNING AV EN MIDLERTIDIG ENDRING</a></li>
+<li class="lvl5"><a href="#vedlegg-viianmodning-om-annullering">VEDLEGG VIIANMODNING OM ANNULLERING</a></li>
+<li class="lvl5"><a href="#vedlegg-viiisknad-om-beskyttelse-av-en-tradisjonell-betegnelse">VEDLEGG VIIISØKNAD OM BESKYTTELSE AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-ixinnsigelse-mot-en-sknad-om-beskyttelse-av-en-tradisjonell-betegnelse">VEDLEGG IXINNSIGELSE MOT EN SØKNAD OM BESKYTTELSE AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xanmodning-om-endring-av-en-tradisjonell-betegnelse">VEDLEGG XANMODNING OM ENDRING AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xianmodning-om-annullering-av-en-tradisjonell-betegnelse">VEDLEGG XIANMODNING OM ANNULLERING AV EN TRADISJONELL BETEGNELSE</a></li>
+<li class="lvl5"><a href="#vedlegg-xii">VEDLEGG XII</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2019934">Konsolidert forordning (EU) 2019/934</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2019934av-12-mars-2019om-utfylling-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-vindyrkingsomrader-der-alkoholstyrken-kan-kes-tillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-produksjon-og-konservering-av-vinprodukter-minsteinnholdet-av-alkohol-for-biprodukter-og-bortskaffing-av-disse-samt-offentliggjring-av-oiv-dokumenter">DELEGERT KOMMISJONSFORORDNING (EU) 2019/934av 12. mars 2019om utfylling av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til vindyrkingsområder der alkoholstyrken kan økes, tillatte ønologiske framstillingsmåter og restriksjoner som gjelder for produksjon og konservering av vinprodukter, minsteinnholdet av alkohol for biprodukter og bortskaffing av disse samt offentliggjøring av OIV-dokumenter</a></li>
+<li class="lvl5"><a href="#vedlegg-i_1">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-iitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-musserende-viner-musserende-kvalitetsviner-og-musserende-kvalitetsviner-av-aromatisk-type_1">VEDLEGG IITILLATTE ØNOLOGISKE FRAMSTILLINGSMÅTER OG RESTRIKSJONER SOM GJELDER FOR MUSSERENDE VINER, MUSSERENDE KVALITETSVINER OG MUSSERENDE KVALITETSVINER AV AROMATISK TYPE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiitillatte-nologiske-framstillingsmater-og-restriksjoner-som-gjelder-for-sterkviner-og-sterkviner-med-beskyttet-opprinnelsesbetegnelse-eller-beskyttet-geografisk-betegnelse">VEDLEGG IIITILLATTE ØNOLOGISKE FRAMSTILLINGSMÅTER OG RESTRIKSJONER SOM GJELDER FOR STERKVINER OG STERKVINER MED BESKYTTET OPPRINNELSESBETEGNELSE ELLER BESKYTTET GEOGRAFISK BETEGNELSE</a></li>
+<li class="lvl3"><a href="#forordning-eu-2019935">Forordning (EU) 2019/935</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2019935av-16-april-2019om-fastsettelse-av-regler-for-anvendelse-av-europaparlaments-og-radsforordningeu-nr-13082013med-hensyn-til-analysemetoder-for-a-bestemme-vinprodukters-fysiske-kjemiske-og-organoleptiske-egenskaper-og-meldinger-om-medlemsstatenes-beslutninger-med-hensyn-til-kning-av-naturlig-alkoholstyrke">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2019/935av 16. april 2019om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning(EU) nr. 1308/2013med hensyn til analysemetoder for å bestemme vinprodukters fysiske, kjemiske og organoleptiske egenskaper og meldinger om medlemsstatenes beslutninger med hensyn til økning av naturlig alkoholstyrke</a></li>
+<li class="lvl5"><a href="#vedleggsrskilte-eu-analysemetoder">VEDLEGGSÆRSKILTE EU-ANALYSEMETODER</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-03-21-370.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-03-21-370.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-03-21-370.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-03-21-370.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-03-21-370.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-03-21-370.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-03-21-370.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-03-21-370.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-03-21-370.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-vin-vinforskriften">Forskrift om vin (vinforskriften)</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Denne forskriften gjelder omsetning innen EØS av vin med opprinnelse i EØS, jf. protokoll 47 til EØS-avtalen. Vin med opprinnelse i tredjeland er ikke omfattet av forskriften, jf. protokoll 47 til EØS-avtalen.</p>
 <h3 id="2-gjennomfring-av-forordningeu-nr-13082013mv">§ 2. Gjennomføring av forordning(EU) nr. 1308/2013mv.</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8 (forordning (EU) nr. 1308/2013 som endret ved forordning (EU) 2017/2393 ) om opprettelse av en felles markedsordning for landbruksvarer og om oppheving av rådsforordning (EØF) nr. 922/72 , (EØF) nr. 234/79 , (EF) nr. 1037/2001 og (EF) nr. 1234/2007 gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 13 (forordning (EU) nr. 172/2013 ) om fjerning av visse eksisterende beskyttede vinbetegnelser fra registeret som er omtalt i forordning (EF) nr. 1234/2007 gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 14 juni 2013 nr. 649 (i kraft 15 juni 2013), 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 19 feb 2016 nr. 190 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</em></p>
+<p class="note">Endret ved forskrifter 14 juni 2013 nr. 649 (i kraft 15 juni 2013), 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 19 feb 2016 nr. 190 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</p>
 <h3 id="2a-forordninger-som-beskytter-nye-eller-endrer-produktspesifikasjonene-for-allerede-beskyttede-geografiske-betegnelser-eller-opprinnelsesbetegnelser-pa-vin">§ 2a. Forordninger som beskytter nye eller endrer produktspesifikasjonene for allerede beskyttede geografiske betegnelser eller opprinnelsesbetegnelser på vin</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8g (forordning (EU) 2020/1062 ), nr. 8h (forordning (EU) 2020/1063 ), nr. 8i (forordning (EU) 2020/1064 ), nr. 8j (forordning (EU) 2020/1120 ), nr. 8k (forordning (EU) 2020/1679 ), nr. 8l (forordning (EU) 2020/1680 ), nr. 8m (forordning (EU) 2020/1751 ), nr. 8n (forordning (EU) 2021/152 ), nr. 8o (forordning (EU) 2021/1263 ), nr. 8p (forordning (EU) 2021/1914 ), nr. 8q (forordning (EU) 2021/1915 ), nr. 8r (forordning (EU) 2022/2484 ), nr. 8s (forordning (EU) 2022/2485 ), nr. 8t (forordning (EU) 2022/317 ), nr. 8u (forordning (EU) 2022/2484 ), nr. 8v (forordning (EU) 2022/317 ), nr. 8w (forordning (EU) 2023/1327 ), nr. 8x (forordning (EU) 2023/1418 ), nr. 8y (forordning (EU) 2023/2137 ), nr. 8z (forordning (EU) 2023/2140 ), nr. 8za (forordning (EU) 2023/2148 ), nr. 8zb (forordning (EU) 2023/2164 ), nr. 8zc (forordning (EU) 2023/2173 ), nr. 8zd (forordning (EU) 2023/2182 ), nr. 8ze (forordning (EU) 2023/889 ), nr. 8zf (forordning (EU) 2023/2824 ), nr. 8zg (forordning (EU) 2023/2178 ), nr. 8zh (forordning (EU) 2024/219 ), nr. 8zi (forordning (EU) 2024/625 ), nr. 8zj (forordning (EU) 2024/698 , nr. 8zk (forordning (EU) 2024/1216 ), nr. 8zl (forordning (EU) 2024/1228 ), nr. 8zm (forordning (EU) 2024/905 ), nr. 8zn (forordning (EU) 2024/1875 ) og nr. 8zo (forordning (EU) 2024/2742 ) om beskyttelse av geografiske betegnelser eller opprinnelsesbetegnelser på vin eller endring i produktspesifikasjoner for slike, gjelder som forskrift med de tilpasninger som følger av vedlegg II, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 23 sep 2022 nr. 1917 (i kraft 26 sep 2022), endret ved forskrifter 3 mai 2023 nr. 661 , 26 juni 2023 nr. 1126 , 12 des 2023 nr. 2040 , 19 mars 2024 nr. 545 , 30 april 2024 nr. 715 , 26 sep 2024 nr. 2304 , 27 sep 2024 nr. 2407 , 28 okt 2024 nr. 2573 , 10 feb 2025 nr. 317 , 13 mai 2025 nr. 835 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 sep 2022 nr. 1917 (i kraft 26 sep 2022), endret ved forskrifter 3 mai 2023 nr. 661 , 26 juni 2023 nr. 1126 , 12 des 2023 nr. 2040 , 19 mars 2024 nr. 545 , 30 april 2024 nr. 715 , 26 sep 2024 nr. 2304 , 27 sep 2024 nr. 2407 , 28 okt 2024 nr. 2573 , 10 feb 2025 nr. 317 , 13 mai 2025 nr. 835 .</p>
 <h3 id="3-gjennomfring-av-forordning-eu-2018273-og-forordning-eu-2018274">§ 3. Gjennomføring av forordning (EU) 2018/273 og forordning (EU) 2018/274</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8a (forordning (EU) 2018/273 ) om utfylling av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til tillatelsesordningen for planting av vinstokker, vingårdsregisteret, følgedokumenter og sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger, meldinger og offentliggjøring av meldt informasjon, utfylling av europaparlaments- og rådsforordning (EU) nr. 1306/2013 med hensyn til relevante kontroller og sanksjoner, endring av kommisjonsforordning (EF) nr. 555/2008 , (EF) nr. 606/2009 og (EF) nr. 607/2009 og oppheving av kommisjonsforordning (EF) nr. 436/2009 og delegert kommisjonsforordning (EU) 2015/560 gjelder som forskrift med de tilpasninger som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalens protokoll 47 tillegg 1 nr. 8b (forordning (EU) 2018/274 ) om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til tillatelsesordningen for planting av vinstokker, sertifisering, inngangs- og utgangsregisteret, obligatoriske opplysninger og meldinger og europaparlaments- og rådsforordning (EU) nr. 1306/2013 med hensyn til relevante kontroller, og om oppheving av Kommisjonens gjennomføringsforordning (EU) 2015/561 gjelder som forskrift med de tilpasninger som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 20 mai 2014 nr. 662 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</em></p>
+<p class="note">Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 20 mai 2014 nr. 662 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</p>
 <h3 id="4-gjennomfring-av-forordning-eu-2019934-og-forordning-eu-2019935">§ 4. Gjennomføring av forordning (EU) 2019/934 og forordning (EU) 2019/935</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8 e (forordning (EU) 2019/934 som endret ved forordning (EU) 2020/565 og forordning (EU) 2022/68 ) om utfylling av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til vindyrkingsområder der alkoholstyrken kan økes, tillatte ønologiske framstillingsmåter og restriksjoner som gjelder for produksjon og konservering av vinprodukter, minsteinnholdet av alkohol for biprodukter og bortskaffing av disse samt offentliggjøring av OIV-dokumenter gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8f (forordning (EU) 2019/935 ) om fastsettelse av regler for anvendelse av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til analysemetoder for å bestemme vinprodukters fysiske, kjemiske og organoleptiske egenskaper og meldinger om medlemsstatenes beslutninger med hensyn til økning av naturlig alkoholstyrke gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig</p>
-<p><em>Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 20 mai 2014 nr. 662 , 3 mars 2015 nr. 178 , 31 mars 2016 nr. 345 , 13 des 2016 nr. 1576 , 12 feb 2018 nr. 192 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022), 3 mai 2023 nr. 661 .</em></p>
+<p class="note">Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 20 mai 2014 nr. 662 , 3 mars 2015 nr. 178 , 31 mars 2016 nr. 345 , 13 des 2016 nr. 1576 , 12 feb 2018 nr. 192 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022), 3 mai 2023 nr. 661 .</p>
 <h3 id="5-gjennomfring-av-forordning-eu-201933-og-forordning-eu-201934">§ 5. Gjennomføring av forordning (EU) 2019/33 og forordning (EU) 2019/34</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8c (forordning (EU) 2019/33 som endret ved forordning (EU) 2021/1375 ) om utfylling av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, bruksbegrensninger, endringer av produktspesifikasjoner, annullering av beskyttelse samt merking og presentasjon som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 8d (forordning (EU) 2019/34 ) om regler for anvendelse av europaparlaments- og rådsforordning (EU) nr. 1308/2013 med hensyn til søknader om beskyttelse av opprinnelsesbetegnelser, geografiske betegnelser og tradisjonelle betegnelser i vinsektoren, innsigelsesprosedyren, endringer av produktspesifikasjoner, registeret over beskyttede betegnelser, annullering av beskyttelse og bruk av symboler, og av europaparlaments- og rådsforordning (EU) nr. 1306/2013 med hensyn til en passende kontrollordning gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 17 sep 2014 nr. 1294 , 5 mai 2015 nr. 460 , 20 des 2017 nr. 2296 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</em></p>
+<p class="note">Endret ved forskrifter 8 nov 2013 nr. 1304 (i kraft 9 nov 2013), 17 sep 2014 nr. 1294 , 5 mai 2015 nr. 460 , 20 des 2017 nr. 2296 , 23 sep 2022 nr. 1917 (i kraft 26 sep 2022).</p>
 <h3 id="6-gjennomfring-av-forordningeu-nr-10222010-forordningeu-nr-12712014-forordningeu-20162147og-forordningeu-20172281">§ 6. Gjennomføring av forordning(EU) nr. 1022/2010, forordning(EU) nr. 1271/2014, forordning(EU) 2016/2147og forordning(EU) 2017/2281</h3>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 12 (forordning (EU) nr. 1022/2010 ) om tillatelse til en økning i grensene for beriking av vin produsert av druer høstet i 2010 i visse vindyrkingssoner gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 14 (forordning (EU) nr. 1271/2014 ) om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2014 av visse vindruesorter i visse vindyrkingsområder eller deler av slike områder gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 15 (forordning (EU) 2016/2147 ) om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2016 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Ungarn gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen protokoll 47 tillegg 1 nr. 16 (forordning (EU) 2017/2281 ) om tillatelse til å heve anrikingsgrensene for vin som framstilles av druer som er høstet i 2017 i visse vindyrkingsområder i Tyskland og i alle vindyrkingsområder i Danmark, Nederland og Sverige gjelder som forskrift med de tilpasningene som følger av protokoll 47, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 31 mars 2016 nr. 345 , 24 mai 2017 nr. 641 , 1 juni 2018 nr. 803 .</em></p>
+<p class="note">Endret ved forskrifter 31 mars 2016 nr. 345 , 24 mai 2017 nr. 641 , 1 juni 2018 nr. 803 .</p>
 <h3 id="7-tilsyn-og-vedtak">§ 7. Tilsyn og vedtak</h3>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige enkeltvedtak, jf. matloven § 23 , for å oppnå etterlevelse av bestemmelser gitt i eller i medhold av denne forskriften. Mattilsynet kan også fatte enkeltvedtak i henhold til matloven § 24 til § 26 .</p>
 <h3 id="8-straff">§ 8. Straff</h3>
@@ -4803,6 +5082,8 @@ e. 10,0 % for sone C III.</p>
 <li>Framgangsmåte To liter vin helles over i destillasjonskolben. Deretter tilsettes noen få milliliter etanol (nr. 2.1) i de to oppsamlingsrørene, slik at de porøse delene av gassdispersjonsrøret er fullstendig nedsenket. De to rørene avkjøles utenfra med fryseblandingen. Kolben kobles til oppsamlingsrørene, og en nitrogenstrøm på 3 l per time ledes gjennom apparatet. Varm opp vinen til 80 °C med varmekappen, destiller og samle opp 45 til 50 ml av destillatet. Stabiliser kromatografen. Følgende forhold anbefales: Injektortemperatur: 200 °C. Kolonnetemperatur: 130 °C. Strømningshastighet for bæregass (helium): 20 ml per minutt. Med mikroinjeksjonssprøyten tilsettes et volum av standardløsningen som er tilstrekkelig til at toppen som skapes av allylisotiocyanat, lett kan identifiseres på gasskromatogrammet. På samme måte innsprøytes en delmengde av destillatet i kromatografen. Kontroller at det er samsvar mellom retensjonstiden for allylisotiocyanatet og den framkomne toppen. Under ovennevnte forhold vil ikke forbindelser som normalt er til stede i vinen, forårsake forstyrrende topper på kromatogrammet for standardløsningen.</li>
 </ol>
 <p>Apparat til destillasjon i gjennomstrømmende nitrogen</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

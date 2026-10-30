@@ -19,68 +19,237 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-06-12-637.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Utrykningsforskriften" href="../feeds/forskrift-2009-06-12-637.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Utrykningsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-06-12-637</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-17-2682</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-12-637" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1a-definisjoner">§ 1a. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-krav-om-utrykningskompetanse-og-gyldig-bevis">§ 2. Krav om utrykningskompetanse og gyldig bevis</a></li>
+<li class="lvl4"><a href="#3-unntak-fra-krav-om-kompetansebevis">§ 3. Unntak fra krav om kompetansebevis</a></li>
+<li class="lvl4"><a href="#4-srregler-for-forsvaret-og-sivilforsvaret">§ 4. Særregler for Forsvaret og Sivilforsvaret</a></li>
+<li class="lvl4"><a href="#5-srregler-for-politihgskolen">§ 5. Særregler for Politihøgskolen</a></li>
+<li class="lvl2"><a href="#kapittel-2-kompetansebeviset">Kapittel 2. Kompetansebeviset</a></li>
+<li class="lvl4"><a href="#6-vilkar-for-erverv-og-utstedelse-av-kompetansebevis">§ 6. Vilkår for erverv og utstedelse av kompetansebevis</a></li>
+<li class="lvl4"><a href="#7-utstedelse-og-gyldighet">§ 7. Utstedelse og gyldighet</a></li>
+<li class="lvl4"><a href="#8-vilkar-for-fornyelse-av-kompetansebevis">§ 8. Vilkår for fornyelse av kompetansebevis</a></li>
+<li class="lvl2"><a href="#kapittel-3-kursarrangr">Kapittel 3. Kursarrangør</a></li>
+<li class="lvl4"><a href="#9-godkjenning-av-kursarrangr">§ 9. Godkjenning av kursarrangør</a></li>
+<li class="lvl4"><a href="#9a-godkjenningsgebyr-for-kursarrangr">§ 9a. Godkjenningsgebyr for kursarrangør</a></li>
+<li class="lvl4"><a href="#10-administrative-krav-til-kursarrangr">§ 10. Administrative krav til kursarrangør</a></li>
+<li class="lvl4"><a href="#11-faglige-og-pedagogiske-krav-til-kursarrangr">§ 11. Faglige og pedagogiske krav til kursarrangør</a></li>
+<li class="lvl4"><a href="#12-elevfortegnelse">§ 12. Elevfortegnelse</a></li>
+<li class="lvl4"><a href="#13-opplringskort">§ 13. Opplæringskort</a></li>
+<li class="lvl2"><a href="#kapittel-4-undervisningspersonell">Kapittel 4. Undervisningspersonell</a></li>
+<li class="lvl4"><a href="#14-godkjenning-av-utrykningsinstruktrer">§ 14. Godkjenning av utrykningsinstruktører</a></li>
+<li class="lvl4"><a href="#14a-godkjenningsgebyr-for-utrykningsinstruktr">§ 14a. Godkjenningsgebyr for utrykningsinstruktør</a></li>
+<li class="lvl4"><a href="#15-godkjenning-av-undervisningsansvarlig">§ 15. Godkjenning av undervisningsansvarlig</a></li>
+<li class="lvl4"><a href="#15a-godkjenningsgebyr-for-undervisningsansvarlig">§ 15a. Godkjenningsgebyr for undervisningsansvarlig</a></li>
+<li class="lvl4"><a href="#16-undervisningsansvarligs-plikter">§ 16. Undervisningsansvarligs plikter</a></li>
+<li class="lvl4"><a href="#17-undervisningspersonell-fra-politihgskolen">§ 17. Undervisningspersonell fra Politihøgskolen</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilsyn-og-reaksjonsmidler">Kapittel 5. Tilsyn og reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#18-kontroll-og-tilsyn-med-kursarrangr">§ 18. Kontroll og tilsyn med kursarrangør</a></li>
+<li class="lvl4"><a href="#19-reaksjonsmidler-overfor-kursarrangr">§ 19. Reaksjonsmidler overfor kursarrangør</a></li>
+<li class="lvl4"><a href="#20-reaksjonsmidler-overfor-undervisningspersonell">§ 20. Reaksjonsmidler overfor undervisningspersonell</a></li>
+<li class="lvl2"><a href="#kapittel-6-opplringen">Kapittel 6. Opplæringen</a></li>
+<li class="lvl4"><a href="#21-obligatorisk-opplring">§ 21. Obligatorisk opplæring</a></li>
+<li class="lvl4"><a href="#22-freransvaret">§ 22. Føreransvaret</a></li>
+<li class="lvl4"><a href="#23-plikt-til-a-avbryte-opplringen">§ 23. Plikt til å avbryte opplæringen</a></li>
+<li class="lvl4"><a href="#24-hovedmal-for-opplringen">§ 24. Hovedmål for opplæringen</a></li>
+<li class="lvl4"><a href="#25-mal-og-timeantall-for-trinn-1">§ 25. Mål og timeantall for trinn 1</a></li>
+<li class="lvl4"><a href="#26-mal-og-timeantall-for-trinn-2">§ 26. Mål og timeantall for trinn 2</a></li>
+<li class="lvl4"><a href="#27-mal-og-timeantall-for-trinn-3">§ 27. Mål og timeantall for trinn 3</a></li>
+<li class="lvl4"><a href="#28-mal-og-timeantall-for-trinn-4">§ 28. Mål og timeantall for trinn 4</a></li>
+<li class="lvl2"><a href="#kapittel-7-utrykningsprven">Kapittel 7. Utrykningsprøven</a></li>
+<li class="lvl4"><a href="#29-alminnelige-bestemmelser">§ 29. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#30-teoretisk-prve">§ 30. Teoretisk prøve</a></li>
+<li class="lvl4"><a href="#31-praktisk-prve">§ 31. Praktisk prøve</a></li>
+<li class="lvl4"><a href="#32-avbrudd-av-praktisk-prve">§ 32. Avbrudd av praktisk prøve</a></li>
+<li class="lvl4"><a href="#33-resultat-av-prven">§ 33. Resultat av prøven</a></li>
+<li class="lvl4"><a href="#33a-karantene-for-fusk-eller-forsk-pa-fusk-ved-utrykningsprven">§ 33a. Karantene for fusk eller forsøk på fusk ved utrykningsprøven</a></li>
+<li class="lvl2"><a href="#kapittel-8-kjrety-til-opplring-og-prve">Kapittel 8. Kjøretøy til opplæring og prøve</a></li>
+<li class="lvl4"><a href="#34-kjrety-til-opplring">§ 34. Kjøretøy til opplæring</a></li>
+<li class="lvl4"><a href="#35-kjrety-til-praktisk-prve">§ 35. Kjøretøy til praktisk prøve</a></li>
+<li class="lvl2"><a href="#kapittel-9-vedlikehold-av-utrykningskompetanse">Kapittel 9. Vedlikehold av utrykningskompetanse</a></li>
+<li class="lvl4"><a href="#36-faglig-vedlikehold-og-oppdatering">§ 36. Faglig vedlikehold og oppdatering</a></li>
+<li class="lvl4"><a href="#37-vedlikeholdstrening">§ 37. Vedlikeholdstrening</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-flytting-av-kurs">§ 38. Flytting av kurs</a></li>
+<li class="lvl4"><a href="#39-godkjenning-av-yrkeskvalifikasjoner-fra-annen-es-stat">§ 39. Godkjenning av yrkeskvalifikasjoner fra annen EØS-stat</a></li>
+<li class="lvl4"><a href="#40-gebyr">§ 40. Gebyr</a></li>
+<li class="lvl4"><a href="#40a-opphevet">§ 40a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41-unntak">§ 41. Unntak</a></li>
+<li class="lvl4"><a href="#42-saksbehandling">§ 42. Saksbehandling</a></li>
+<li class="lvl4"><a href="#43-overgangsregler">§ 43. Overgangsregler</a></li>
+<li class="lvl4"><a href="#44-frister-for-oppfyllelse-av-nye-krav">§ 44. Frister for oppfyllelse av nye krav</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#46-opphevelse">§ 46. Opphevelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-17-2682.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-12-637.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til opplæring, prøve og kompetanse for utrykningskjøring (utrykningsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-12-637.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-06-12-637 <code>forskrift/2009-06-12-637</code></td></tr>
+<tr><th>Korttittel</th><td>Utrykningsforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2009</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-17-2682 <code>forskrift/2025-12-17-2682</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-12-637" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1a-definisjoner">§ 1a. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-krav-om-utrykningskompetanse-og-gyldig-bevis">§ 2. Krav om utrykningskompetanse og gyldig bevis</a></li>
+<li class="lvl4"><a href="#3-unntak-fra-krav-om-kompetansebevis">§ 3. Unntak fra krav om kompetansebevis</a></li>
+<li class="lvl4"><a href="#4-srregler-for-forsvaret-og-sivilforsvaret">§ 4. Særregler for Forsvaret og Sivilforsvaret</a></li>
+<li class="lvl4"><a href="#5-srregler-for-politihgskolen">§ 5. Særregler for Politihøgskolen</a></li>
+<li class="lvl2"><a href="#kapittel-2-kompetansebeviset">Kapittel 2. Kompetansebeviset</a></li>
+<li class="lvl4"><a href="#6-vilkar-for-erverv-og-utstedelse-av-kompetansebevis">§ 6. Vilkår for erverv og utstedelse av kompetansebevis</a></li>
+<li class="lvl4"><a href="#7-utstedelse-og-gyldighet">§ 7. Utstedelse og gyldighet</a></li>
+<li class="lvl4"><a href="#8-vilkar-for-fornyelse-av-kompetansebevis">§ 8. Vilkår for fornyelse av kompetansebevis</a></li>
+<li class="lvl2"><a href="#kapittel-3-kursarrangr">Kapittel 3. Kursarrangør</a></li>
+<li class="lvl4"><a href="#9-godkjenning-av-kursarrangr">§ 9. Godkjenning av kursarrangør</a></li>
+<li class="lvl4"><a href="#9a-godkjenningsgebyr-for-kursarrangr">§ 9a. Godkjenningsgebyr for kursarrangør</a></li>
+<li class="lvl4"><a href="#10-administrative-krav-til-kursarrangr">§ 10. Administrative krav til kursarrangør</a></li>
+<li class="lvl4"><a href="#11-faglige-og-pedagogiske-krav-til-kursarrangr">§ 11. Faglige og pedagogiske krav til kursarrangør</a></li>
+<li class="lvl4"><a href="#12-elevfortegnelse">§ 12. Elevfortegnelse</a></li>
+<li class="lvl4"><a href="#13-opplringskort">§ 13. Opplæringskort</a></li>
+<li class="lvl2"><a href="#kapittel-4-undervisningspersonell">Kapittel 4. Undervisningspersonell</a></li>
+<li class="lvl4"><a href="#14-godkjenning-av-utrykningsinstruktrer">§ 14. Godkjenning av utrykningsinstruktører</a></li>
+<li class="lvl4"><a href="#14a-godkjenningsgebyr-for-utrykningsinstruktr">§ 14a. Godkjenningsgebyr for utrykningsinstruktør</a></li>
+<li class="lvl4"><a href="#15-godkjenning-av-undervisningsansvarlig">§ 15. Godkjenning av undervisningsansvarlig</a></li>
+<li class="lvl4"><a href="#15a-godkjenningsgebyr-for-undervisningsansvarlig">§ 15a. Godkjenningsgebyr for undervisningsansvarlig</a></li>
+<li class="lvl4"><a href="#16-undervisningsansvarligs-plikter">§ 16. Undervisningsansvarligs plikter</a></li>
+<li class="lvl4"><a href="#17-undervisningspersonell-fra-politihgskolen">§ 17. Undervisningspersonell fra Politihøgskolen</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilsyn-og-reaksjonsmidler">Kapittel 5. Tilsyn og reaksjonsmidler</a></li>
+<li class="lvl4"><a href="#18-kontroll-og-tilsyn-med-kursarrangr">§ 18. Kontroll og tilsyn med kursarrangør</a></li>
+<li class="lvl4"><a href="#19-reaksjonsmidler-overfor-kursarrangr">§ 19. Reaksjonsmidler overfor kursarrangør</a></li>
+<li class="lvl4"><a href="#20-reaksjonsmidler-overfor-undervisningspersonell">§ 20. Reaksjonsmidler overfor undervisningspersonell</a></li>
+<li class="lvl2"><a href="#kapittel-6-opplringen">Kapittel 6. Opplæringen</a></li>
+<li class="lvl4"><a href="#21-obligatorisk-opplring">§ 21. Obligatorisk opplæring</a></li>
+<li class="lvl4"><a href="#22-freransvaret">§ 22. Føreransvaret</a></li>
+<li class="lvl4"><a href="#23-plikt-til-a-avbryte-opplringen">§ 23. Plikt til å avbryte opplæringen</a></li>
+<li class="lvl4"><a href="#24-hovedmal-for-opplringen">§ 24. Hovedmål for opplæringen</a></li>
+<li class="lvl4"><a href="#25-mal-og-timeantall-for-trinn-1">§ 25. Mål og timeantall for trinn 1</a></li>
+<li class="lvl4"><a href="#26-mal-og-timeantall-for-trinn-2">§ 26. Mål og timeantall for trinn 2</a></li>
+<li class="lvl4"><a href="#27-mal-og-timeantall-for-trinn-3">§ 27. Mål og timeantall for trinn 3</a></li>
+<li class="lvl4"><a href="#28-mal-og-timeantall-for-trinn-4">§ 28. Mål og timeantall for trinn 4</a></li>
+<li class="lvl2"><a href="#kapittel-7-utrykningsprven">Kapittel 7. Utrykningsprøven</a></li>
+<li class="lvl4"><a href="#29-alminnelige-bestemmelser">§ 29. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#30-teoretisk-prve">§ 30. Teoretisk prøve</a></li>
+<li class="lvl4"><a href="#31-praktisk-prve">§ 31. Praktisk prøve</a></li>
+<li class="lvl4"><a href="#32-avbrudd-av-praktisk-prve">§ 32. Avbrudd av praktisk prøve</a></li>
+<li class="lvl4"><a href="#33-resultat-av-prven">§ 33. Resultat av prøven</a></li>
+<li class="lvl4"><a href="#33a-karantene-for-fusk-eller-forsk-pa-fusk-ved-utrykningsprven">§ 33a. Karantene for fusk eller forsøk på fusk ved utrykningsprøven</a></li>
+<li class="lvl2"><a href="#kapittel-8-kjrety-til-opplring-og-prve">Kapittel 8. Kjøretøy til opplæring og prøve</a></li>
+<li class="lvl4"><a href="#34-kjrety-til-opplring">§ 34. Kjøretøy til opplæring</a></li>
+<li class="lvl4"><a href="#35-kjrety-til-praktisk-prve">§ 35. Kjøretøy til praktisk prøve</a></li>
+<li class="lvl2"><a href="#kapittel-9-vedlikehold-av-utrykningskompetanse">Kapittel 9. Vedlikehold av utrykningskompetanse</a></li>
+<li class="lvl4"><a href="#36-faglig-vedlikehold-og-oppdatering">§ 36. Faglig vedlikehold og oppdatering</a></li>
+<li class="lvl4"><a href="#37-vedlikeholdstrening">§ 37. Vedlikeholdstrening</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-flytting-av-kurs">§ 38. Flytting av kurs</a></li>
+<li class="lvl4"><a href="#39-godkjenning-av-yrkeskvalifikasjoner-fra-annen-es-stat">§ 39. Godkjenning av yrkeskvalifikasjoner fra annen EØS-stat</a></li>
+<li class="lvl4"><a href="#40-gebyr">§ 40. Gebyr</a></li>
+<li class="lvl4"><a href="#40a-opphevet">§ 40a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41-unntak">§ 41. Unntak</a></li>
+<li class="lvl4"><a href="#42-saksbehandling">§ 42. Saksbehandling</a></li>
+<li class="lvl4"><a href="#43-overgangsregler">§ 43. Overgangsregler</a></li>
+<li class="lvl4"><a href="#44-frister-for-oppfyllelse-av-nye-krav">§ 44. Frister for oppfyllelse av nye krav</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#46-opphevelse">§ 46. Opphevelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-12-637.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-12-637.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-12-637.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-06-12-637.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-06-12-637.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-12-637.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-06-12-637.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-06-12-637.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-12-637.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-opplring-prve-og-kompetanse-for-utrykningskjring-utrykningsforskriften">Forskrift om krav til opplæring, prøve og kompetanse for utrykningskjøring (utrykningsforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder krav til fører av utrykningskjøretøy under utrykning, opplæring og prøve. Den regulerer også krav til kompetansebevis for utrykningskompetanse og vedlikehold av denne.</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="1a-definisjoner">§ 1a. Definisjoner</h4>
 <p>I denne forskriften forstås med:</p>
 <p>a. Kompetansebevis: bevis for å ha gjennomgått utrykningsopplæring og bestått utrykningsprøve for å kunne kjøre utrykning.
@@ -90,7 +259,7 @@ d. Undervisningstime: undervisningsperiode på 45 minutter.
 e. Undervisningsplan: plan som viser hvordan kursarrangør oppfyller forskriftens krav med de ressurser den har til rådighet. Planen skal også gi opplysninger om hvordan kursarrangør gjør bruk av undervisningspersonell, kjøretøy, undervisningsmateriell, arbeidsmåter og øvingsområder for å nå målene i læreplanen.
 f. Undervisningspersonell: godkjente utrykningsinstruktører og godkjent undervisningsansvarlig.
 g. Undervisningsansvarlig: godkjent person med faglig, administrativt og pedagogisk ansvar hos en kursarrangør.</p>
-<p><em>Tilføyd ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="2-krav-om-utrykningskompetanse-og-gyldig-bevis">§ 2. Krav om utrykningskompetanse og gyldig bevis</h4>
 <p>Den som skal kjøre utrykning må inneha utrykningskompetanse, gyldig kompetansebevis og gyldig førerkort for det aktuelle kjøretøyet. Statens vegvesen utsteder nasjonalt kompetansebevis som kode 160 i førerkortet.</p>
 <h4 id="3-unntak-fra-krav-om-kompetansebevis">§ 3. Unntak fra krav om kompetansebevis</h4>
@@ -102,7 +271,7 @@ g. Undervisningsansvarlig: godkjent person med faglig, administrativt og pedagog
 <h4 id="5-srregler-for-politihgskolen">§ 5. Særregler for Politihøgskolen</h4>
 <p>For de forhold som fremgår av § 9 , § 10 første ledd bokstav b og c, § 14 til § 16 samt kapittel 5 har Politihøgskolen ansvaret for at reglene oppfylles.</p>
 <p>For de forhold som fremgår av kapittel 7 følger Politihøgskolen egne bestemmelser, med unntak av § 29 første ledd første punktum, § 31 tredje ledd og § 32 .</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h2 id="kapittel-2-kompetansebeviset">Kapittel 2. Kompetansebeviset</h2>
 <h4 id="6-vilkar-for-erverv-og-utstedelse-av-kompetansebevis">§ 6. Vilkår for erverv og utstedelse av kompetansebevis</h4>
 <p>Den som skal erverve kompetansebevis for utrykningskjøring må før opplæringen starter</p>
@@ -114,20 +283,20 @@ d. dokumentere arbeidsforhold eller frivillig arbeid som betinger utrykningskjø
 <p>a. ha gjennomført all obligatorisk opplæring for utrykningssjåfører
 b. ha bestått teoretisk og praktisk utrykningsprøve etter reglene i § 30 og § 31
 c. ikke ha fylt 65 år ved første gangs utstedelse.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 mars 2017 nr. 288 .</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 mars 2017 nr. 288 .</p>
 <h4 id="7-utstedelse-og-gyldighet">§ 7. Utstedelse og gyldighet</h4>
 <p>Kompetansebeviset utstedes med en gyldighet på fem år. Har innehaveren fylt 65 år fornyes beviset med legeattest for ett år om gangen, med maksimal gyldighetstid frem til fylte 70 år.</p>
 <p>Politiet kan utstede eget kompetansebevis for sine tjenestepersoner.</p>
 <p>Ansatte i politiet kan ved fremvisning av gyldig kompetansebevis utstedt av politiet få utstedt kompetansebevis som kode 160 i førerkortet.</p>
 <p>Personer med utenlandsk førerkort kan få utstedt kompetansebevis i form av bekreftelse fra Statens vegvesen, jf. § 39 .</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="8-vilkar-for-fornyelse-av-kompetansebevis">§ 8. Vilkår for fornyelse av kompetansebevis</h4>
 <p>Den som skal fornye kompetansebevis må</p>
 <p>a. ikke ha fylt 70 år
 b. dokumentere med helseattest for førerett at helsekrav for førerett i førerkortgruppe 3, med de tilleggskrav som følger av forskrift 19. januar 2004 nr. 298 om førerkort m.m. vedlegg 1, er oppfylt, jf. § 6 første ledd bokstav a.
 c. dokumentere arbeidsforhold eller frivillig arbeid som innebærer utrykningskjøring. Dokumentasjonen skal ikke være eldre enn 6 måneder.</p>
 <p>Utgått bevis kan fornyes etter første ledd innen ett år etter utløp. Fornyelse senere enn ett år etter utløp kan foretas etter bestått praktisk prøve. Ved fornyelse senere enn 3 år etter utløp må vedkommende gjennomgå minst 4 timer opplæring med utgangspunkt i målene for opplæringens trinn 3 slik disse framgår av § 27 andre ledd bokstav f, g og h, hvorav den første timen brukes til å kartlegge ferdighetsnivå og behov for repetisjon, samt opplæring i trinn 4 før praktisk prøve avlegges.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 mars 2017 nr. 288 .</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 mars 2017 nr. 288 .</p>
 <h2 id="kapittel-3-kursarrangr">Kapittel 3. Kursarrangør</h2>
 <h4 id="9-godkjenning-av-kursarrangr">§ 9. Godkjenning av kursarrangør</h4>
 <p>Offentlig etat, privat foretak eller organisasjon som har utrykningstjeneste som en naturlig og vesentlig del av sin virksomhet kan være kursarrangør.</p>
@@ -139,12 +308,12 @@ c. informasjon om organisasjonsnummer, kontoradresse, postadresse, telefonnummer
 <p>Godkjenningen kan begrenses til å gjelde et angitt geografisk område.</p>
 <p>Godkjenningen registreres i Statens vegvesen sitt elektroniske register.</p>
 <p>Ved søknad om fornyelse må oppdatert undervisningsplan vedlegges.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="9a-godkjenningsgebyr-for-kursarrangr">§ 9a. Godkjenningsgebyr for kursarrangør</h4>
 <p>For førstegangsbehandling av søknad om godkjenning som kursarrangør, skal det betales et gebyr.</p>
 <p>For fornyelse av godkjenningen, skal det betales et gebyr.</p>
 <p>Gebyrsatsene fremgår av forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 11 .</p>
-<p><em>Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</p>
 <h4 id="10-administrative-krav-til-kursarrangr">§ 10. Administrative krav til kursarrangør</h4>
 <p>Kursarrangør skal</p>
 <p>a. disponere godkjent utrykningskjøretøy, velegnet undervisningslokale og ha tilgjengelige områder som er nødvendig for å gjennomføre undervisningen
@@ -153,7 +322,7 @@ c. innen 14 dager melde fra skriftlig om endringer i undervisningspersonell, kj�
 d. melde fra til Statens vegvesen og berørte politidistrikt innen åtte uker før oppstart av opplæring. Meldingen skal inneholde informasjon om sted, dato og varighet for opplæringen, samt hvilke kjøretøy som skal benyttes. Endringer skal meldes senest 14 dager før oppstart.</p>
 <p>Opplæringskort for elever som har avsluttet opplæringen, elevfortegnelse og undervisningsplan skal oppbevares på kursarrangørens kontoradresse. Dokumentene skal oppbevares i minst fem år etter at opplæringen er avsluttet. Det samme gjelder etter at opplæringsvirksomheten er avviklet eller godkjenning som kursarrangør er utløpt eller tilbakekalt.</p>
 <p>Kursarrangør har ansvar for å kontrollere og oppbevare dokumentasjon som følger av § 6 første ledd. Dokumentasjon som ikke er unntatt fra offentligheten skal arkiveres sammen med elevfortegnelsen.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="11-faglige-og-pedagogiske-krav-til-kursarrangr">§ 11. Faglige og pedagogiske krav til kursarrangør</h4>
 <p>Kursarrangør skal</p>
 <p>a. drive opplæring i samsvar med godkjenningen og gjeldende regelverk
@@ -167,13 +336,13 @@ e. kun benytte undervisningspersonell som tilfredsstiller kravene etter forskrif
 <p>Fortegnelsen skal ajourføres umiddelbart etter at eleven har sluttet.</p>
 <p>Manuell føring av elevfortegnelse skal gjøres innbundet eller heftet i bok med forhåndsnummererte sider.</p>
 <p>Dersom elevfortegnelsen er ført elektronisk skal det tas sikkerhetskopi hver måned som dateres og undertegnes av undervisningsansvarlig.</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="13-opplringskort">§ 13. Opplæringskort</h4>
 <p>Kursarrangør skal utstede opplæringskort for hver elev. Opplæringskortet skal påføres navn på kursarrangør og utrykningsinstruktør samt elevens navn, adresse og fødselsdato.</p>
 <p>Utrykningsinstruktøren skal etter hver undervisningsdag attestere på opplæringskortet for de deler av undervisningen som er gjennomført, med påføring av dato, antall elever og varighet i henhold til rubrikker i fastsatt modell for opplæringskort.</p>
 <p>Opplæringskortet skal medbringes under opplæringen. Opplæringskortet skal vises frem når personell fra Statens vegvesen ber om det.</p>
 <p>Statens vegvesen kan fastsette modeller for opplæringskort.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 des 2022 nr. 2227 .</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 7 des 2022 nr. 2227 .</p>
 <h2 id="kapittel-4-undervisningspersonell">Kapittel 4. Undervisningspersonell</h2>
 <h4 id="14-godkjenning-av-utrykningsinstruktrer">§ 14. Godkjenning av utrykningsinstruktører</h4>
 <p>Utrykningsinstruktører godkjennes av Statens vegvesen. Søknaden skal inneholde dokumentasjon på at søker innehar</p>
@@ -183,11 +352,11 @@ c. tre års erfaring i heltidsstilling som innebærer utrykningskjøring
 d. utdanning i trafikkpedagogikk på høyskolenivå. Utdanningen må være på minst 15 studiepoeng.</p>
 <p>Kravet om tre års erfaring i utrykningskjøring kan for godkjente trafikklærere reduseres ved gjennomføring av tilleggsutdanning på høgskolenivå som omfatter utrykningskjøring. Utdanningen må være på minst 15 studiepoeng og være forhåndsgodkjent av Statens vegvesen.</p>
 <p>Godkjent undervisningspersonell kan pålegges å gjennomgå tilleggsopplæring fastsatt av Statens vegvesen.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</p>
 <h4 id="14a-godkjenningsgebyr-for-utrykningsinstruktr">§ 14a. Godkjenningsgebyr for utrykningsinstruktør</h4>
 <p>For behandling av søknad om godkjenning som utrykningsinstruktør, skal det betales et gebyr.</p>
 <p>Gebyrsatsene fremgår av forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 11 .</p>
-<p><em>Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</p>
 <h4 id="15-godkjenning-av-undervisningsansvarlig">§ 15. Godkjenning av undervisningsansvarlig</h4>
 <p>Undervisningsansvarlig godkjennes av Statens vegvesen.</p>
 <p>Søknaden skal inneholde dokumentasjon på at søkeren</p>
@@ -195,11 +364,11 @@ d. utdanning i trafikkpedagogikk på høyskolenivå. Utdanningen må være på m
 b. har undervist i alle obligatoriske deler av læreplanen
 c. har undervist ved minst fem obligatoriske kurs for fører av utrykningskjøretøy.</p>
 <p>En person kan kun være undervisningsansvarlig for en kursarrangør.</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="15a-godkjenningsgebyr-for-undervisningsansvarlig">§ 15a. Godkjenningsgebyr for undervisningsansvarlig</h4>
 <p>For behandling av søknad om godkjenning som undervisningsansvarlig, skal det betales et gebyr.</p>
 <p>Gebyrsatsene fremgår av forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 11 .</p>
-<p><em>Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 nov 2022 nr. 2045 , endret ved forskrift 10 okt 2023 nr. 1651 .</p>
 <h4 id="16-undervisningsansvarligs-plikter">§ 16. Undervisningsansvarligs plikter</h4>
 <p>Den undervisningsansvarlige har ansvar for at utrykningskursene gjennomføres i samsvar med gjeldende regelverk og plikter blant annet å</p>
 <p>a. sørge for utarbeidelse, gjennomføring og vedlikehold av undervisningsopplegget
@@ -209,16 +378,16 @@ d. delta i teoretisk og praktisk opplæring
 e. være kursarrangørs kontaktperson mot Statens vegvesen
 f. melde til Statens vegvesen sitt elektroniske register opplysninger om obligatorisk opplæring eleven har gjennomført innen 14 dager etter fullført opplæring og senest en dag før praktisk prøve
 g. utarbeide årlig plan for evaluering, veiledning og kontroll, samt dokumentere gjennomført veiledning.</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="17-undervisningspersonell-fra-politihgskolen">§ 17. Undervisningspersonell fra Politihøgskolen</h4>
 <p>Undervisningspersonell fra Politihøgskolen som skal drive opplæring utenfor Politihøgskolen må godkjennes av Statens vegvesen etter reglene i § 14 og § 15 .</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-5-tilsyn-og-reaksjonsmidler">Kapittel 5. Tilsyn og reaksjonsmidler</h2>
 <h4 id="18-kontroll-og-tilsyn-med-kursarrangr">§ 18. Kontroll og tilsyn med kursarrangør</h4>
 <p>Statens vegvesen fører tilsyn med kursarrangører for å kontrollere at disse opptrer i samsvar med forskriften, herunder vilkår stilt med hjemmel i forskriften.</p>
 <p>Representant fra Statens vegvesen kan når som helst overvære undervisningen. Statens vegvesen kan treffe vedtak om å avbryte eller om å underkjenne opplæringen dersom den er i strid med forskriften.</p>
 <p>Kursarrangør, undervisningsansvarlig, utrykningsinstruktører og andre tilsatte plikter å gi de opplysninger og utlevere de dokumenter om virksomheten som tilsynsmyndigheten krever. Er opplysningene lagret elektronisk kan Statens vegvesen kreve datert utskrift undertegnet av undervisningsansvarlig.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="19-reaksjonsmidler-overfor-kursarrangr">§ 19. Reaksjonsmidler overfor kursarrangør</h4>
 <p>Statens vegvesen kan gi pålegg som er nødvendig for å sikre at virksomheten er i samsvar med denne forskrift, herunder også gi pålegg om stansing av virksomheten til avvik er rettet eller til vedtak om tilbakekalling er avgjort.</p>
 <p>Dersom retting eller stansing ikke er foretatt innen en gitt frist, kan Statens vegvesen fastsette en tvangsmulkt. Tvangsmulkten kan fastsettes som et engangsbeløp eller som en mulkt som løper fra det tidspunkt en gitt frist for retting er overskredet og til retting er foretatt. Statens vegvesen kan gi nærmere retningslinjer for ileggelse av tvangsmulkt. Endelig vedtak om betaling av tvangsmulkt er tvangsgrunnlag for utlegg, jf. tvangsfullbyrdelsesloven § 7-2 . Tvangsmulkten kreves inn av Innkrevingsmyndigheten og tilfaller staten.</p>
@@ -230,7 +399,7 @@ b. på tross av skriftlig pålegg eller advarsel bryter bestemmelser i forskrift
 c. hindrer eller unndrar seg tilsyn, eller ikke gir opplysninger om opplæringen eller driften som Statens vegvesen ber om.</p>
 <p>Første gang godkjenningen tilbakekalles, skal tilbakekallingen normalt gjelde for tre til seks måneder. Andre gang godkjenningen tilbakekalles skal tilbakekallingen normalt gjelde fra seks til tolv måneder. Tredje gang godkjenningen tilbakekalles, skal den normalt gjelde for minst tolv måneder. I særlige tilfeller kan godkjenningen tilbakekalles for alltid.</p>
 <p>Statens vegvesen kan fastsette tidsfrist for avvikling av en kursarrangør som ikke har undervisningsansvarlig, og kan sette forbud mot at kursarrangøren tar inn nye elever.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 29 nov 2022 nr. 2045 , 17 des 2025 nr. 2682 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 29 nov 2022 nr. 2045 , 17 des 2025 nr. 2682 (i kraft 1 jan 2026).</p>
 <h4 id="20-reaksjonsmidler-overfor-undervisningspersonell">§ 20. Reaksjonsmidler overfor undervisningspersonell</h4>
 <p>Statens vegvesen kan gi undervisningspersonell pålegg når forskriftens krav ikke er oppfylt.</p>
 <p>Statens vegvesen kan gi advarsel for mindre vesentlige brudd på bestemmelser i denne forskriften.</p>
@@ -242,7 +411,7 @@ c. hindrer eller unndrar seg tilsyn, eller ikke gir opplysninger om opplæringen
 <p>Første gang godkjenningen tilbakekalles, skal tilbakekallingen normalt gjelde for tre til seks måneder. Andre gang godkjenningen tilbakekalles skal tilbakekallingen normalt gjelde fra seks til tolv måneder. Tredje gang godkjenningen tilbakekalles, skal den normalt gjelde for minst tolv måneder. I særlige tilfeller kan godkjenningen tilbakekalles for alltid.</p>
 <p>Dersom godkjenningen som utrykningsinstruktør er tilbakekalt etter denne forskrift kan vedkommende heller ikke undervise ved teoriopplæring.</p>
 <p>Dersom godkjenningen tilbakekalles, skal Statens vegvesen registrere tilbakekallingen i IMI (Internal Market Information System) innen tre dager, jf. yrkeskvalifikasjonsloven § 20 . Det samme gjelder når det foreligger en rettskraftig dom knyttet til falsk dokumentasjon, jf. yrkeskvalifikasjonsloven § 20 . Dersom vedtaket eller dom opphører, skal varslingen i IMI slettes i løpet av tre dager, jf. forskrift om godkjenning av yrkeskvalifikasjoner § 7-1 .</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 29 nov 2022 nr. 2045 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 29 nov 2022 nr. 2045 .</p>
 <h2 id="kapittel-6-opplringen">Kapittel 6. Opplæringen</h2>
 <h4 id="21-obligatorisk-opplring">§ 21. Obligatorisk opplæring</h4>
 <p>Obligatorisk opplæring omfatter teoretisk og praktisk undervisning i samsvar med § 24 til § 28 . Eleven må ha deltatt i det minimum antall timer som er beskrevet for å få den obligatoriske opplæringen godkjent. En undervisningstime varer i 45 minutter.</p>
@@ -250,12 +419,12 @@ c. hindrer eller unndrar seg tilsyn, eller ikke gir opplysninger om opplæringen
 <p>Undervisningen skal legges til rette slik at elevene kan nå de målene som er fastsatt.</p>
 <h4 id="22-freransvaret">§ 22. Føreransvaret</h4>
 <p>Under opplæring til erverv av kompetansebevis som betinger utrykningskjøring anses instruktøren, eller person som er under instruktøropplæring, som fører av motorvognen. Bestemmelsene i eller i medhold av vegtrafikkloven kapittel II og § 21 , § 22 og § 22a , gjelder likevel også for eleven så langt de passer.</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="23-plikt-til-a-avbryte-opplringen">§ 23. Plikt til å avbryte opplæringen</h4>
 <p>Dersom en elev ikke har tilstrekkelige kompetanse til å gjennomføre opplæringen i trinn 3 og 4 på en meningsfylt måte, plikter utrykningsinstruktør å avbryte opplæringen i det aktuelle trinnet.</p>
 <p>Dersom eleven ikke aksepterer at opplæringen avbrytes fremlegges saken for Statens vegvesen som kan fatte vedtak. Statens vegvesens vedtak kan påklages til Vegdirektoratet.</p>
 <p>Ved avbrutt opplæring skal kursarrangør informere eleven om disse rutinene.</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="24-hovedmal-for-opplringen">§ 24. Hovedmål for opplæringen</h4>
 <p>Etter endt opplæring skal eleven ha den kompetanse som er nødvendig for å kjøre utrykning forsvarlig og for å kunne ivareta de oppgaver som er utrykningsførerens ansvar.</p>
 <p>Eleven skal ha de kunnskaper og ferdigheter, den selvinnsikt og risikoforståelse, som er nødvendig for å kjøre utrykning på en måte som</p>
@@ -311,14 +480,14 @@ d. dele opplevelser og egne refleksjoner etter endt oppdrag og oppsummere hele o
 <p>Utrykningsprøven består av en teoretisk og en praktisk prøve. Statens vegvesen kan fastsette retningslinjer for innhold og vurdering av utrykningsprøven. Den teoretiske prøven skal avlegges før den praktiske prøven.</p>
 <p>Time for teoretisk og praktisk prøve bestilles hos Statens vegvesen.</p>
 <p>Dersom kandidaten blir tatt for juks eller forsøk på juks ved prøven, vurderes prøven til ikke bestått.</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2227 . Endres ved forskrift 16 sep 2026 nr. 1831 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2227 . Endres ved forskrift 16 sep 2026 nr. 1831 (i kraft 1 jan 2027).</p>
 <h4 id="30-teoretisk-prve">§ 30. Teoretisk prøve</h4>
 <p>Den teoretiske prøven kan avlegges når trinn tre i opplæringen er gjennomført og meldt inn. Prøven er skriftlig og må gjennomføres på norsk. Dersom 85 prosent av oppgavene er riktig besvart skal prøven vurderes som bestått. Statens vegvesen fastsetter de steder hvor teoriprøven kan gjennomføres. Statens vegvesen utarbeider teoretiske prøver.</p>
 <p>Hvis kandidaten har lese- og skrivevansker eller tilsvarende, kan Statens vegvesen etter dokumentert søknad gi tillatelse til tilrettelagt prøve.</p>
 <p>Kandidaten kan bare bruke hjelpemidler godkjent av Statens vegvesen.</p>
 <p>Ved ikke bestått teoretisk prøve kan ny prøve ikke avlegges før det har gått to uker.</p>
 <p>Bestått teoretisk prøve er gyldig i tre år.</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2227 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2227 .</p>
 <h4 id="31-praktisk-prve">§ 31. Praktisk prøve</h4>
 <p>Praktisk prøve kan avlegges når all obligatorisk opplæring er gjennomført og innmeldt til Statens vegvesen sitt elektroniske register og teoretisk prøve er avlagt. Til den praktiske prøven skal det settes av 65 minutter. Prøven avlegges for en sensor oppnevnt av Statens vegvesen.</p>
 <p>I enkelte tilfeller kan det være tilsynspersonell eller mer enn en sensor til stede i kjøretøyet under prøven. Hvis kandidaten ønsker det, og forholdene ellers ligger til rette for det, kan undervisningspersonell fra kursarrangør være med i kjøretøyet under prøven.</p>
@@ -327,7 +496,7 @@ d. dele opplevelser og egne refleksjoner etter endt oppdrag og oppsummere hele o
 <p>Ved ikke bestått praktisk prøve kan ny prøve ikke avlegges før det har gått fire uker.</p>
 <p>Bestått praktisk prøve er gyldig i tre år. Praktisk prøve avlagt og bestått før bestått teoretisk prøve er gyldig i tre måneder.</p>
 <p>Ved gjennomføring av praktisk prøve anses kandidaten som fører av motorvognen.</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="32-avbrudd-av-praktisk-prve">§ 32. Avbrudd av praktisk prøve</h4>
 <p>Prøven kan avbrytes og vurderes til ikke bestått hvis det oppstår en situasjon hvor sensor eller andre trafikanter må gripe inn for å unngå fare, skade eller vesentlig ulempe, og kandidaten selv skulle ha avverget situasjonen.</p>
 <p>Inntrer driftsstopp, illebefinnende eller andre forhold som gjør det vanskelig å gjennomføre prøven, kan prøven avbrytes og vurderingen utstå til ny prøve kan gjennomføres.</p>
@@ -339,7 +508,7 @@ d. dele opplevelser og egne refleksjoner etter endt oppdrag og oppsummere hele o
 <p>Opptreden og handlinger i strid med Statens vegvesens regelverk og retningslinjer for teoretisk og praktisk førerprøve er fusk. Som fusk regnes blant annet å benytte eller ha med ulovlige hjelpemidler under teoriprøve, for eksempel notater, mobiltelefon, kamera eller annet kommunikasjonsutstyr samt samarbeid med andre. Som fusk av alvorlig karakter regnes blant annet fusk med organisert preg, bruk av elektroniske hjelpemidler og at prøven avlegges av en annen enn kandidaten.</p>
 <p>Ved mistanke om fusk eller forsøk på fusk, ilegges midlertidig karantene til saken er ferdig behandlet.</p>
 <p>Kandidaten kan gjennomføre opplæring i utrykningskjøring i karantenetiden.</p>
-<p><em>Tilføyd ved forskrift 19 des 2019 nr. 2001 (i kraft 1 jan 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2019 nr. 2001 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-8-kjrety-til-opplring-og-prve">Kapittel 8. Kjøretøy til opplæring og prøve</h2>
 <h4 id="34-kjrety-til-opplring">§ 34. Kjøretøy til opplæring</h4>
 <p>Kjøretøy til bruk i opplæring til erverv av kompetansebevis skal være godkjent utrykningskjøretøy etter forskrift 18. januar 2002 nr. 55 om godkjenning og registrering av utrykningskjøretøy.</p>
@@ -347,7 +516,7 @@ d. dele opplevelser og egne refleksjoner etter endt oppdrag og oppsummere hele o
 <p>Statens vegvesen godkjenner kjøretøy som skal brukes til opplæring etter denne forskrift. Godkjenning som lærevogn skal anmerkes i vognkortet.</p>
 <p>Kjøretøy benyttet til opplæring som ikke medfører utrykningskjøring eller til demonstrasjon der godkjent utrykningsinstruktør selv kjører, er fritatt fra krav om dobbel betjeningsinnretning for brems, og trenger ikke godkjenning som lærevogn fra Statens vegvesen.</p>
 <p>Under opplæring på vei som er åpen for alminnelig ferdsel skal kjøretøyet bak være tydelig merket «OPPLÆRING» eller «UNDERVISNING».</p>
-<p><em>Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 17 sep 2014 nr. 1201 .</em></p>
+<p class="note">Endret ved forskrifter 10 april 2013 nr. 364 (i kraft 1 juli 2013), 17 sep 2014 nr. 1201 .</p>
 <h4 id="35-kjrety-til-praktisk-prve">§ 35. Kjøretøy til praktisk prøve</h4>
 <p>Kjøretøy til praktisk prøve skal være godkjent lærevogn, jf. § 34 .</p>
 <h2 id="kapittel-9-vedlikehold-av-utrykningskompetanse">Kapittel 9. Vedlikehold av utrykningskompetanse</h2>
@@ -365,36 +534,38 @@ e. treningen må loggføres og loggen oppbevares i minst 6 måneder. Loggen skal
 <h2 id="kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</h2>
 <h4 id="38-flytting-av-kurs">§ 38. Flytting av kurs</h4>
 <p>Av hensyn til belastningen i et område kan Statens vegvesen eller politiet innen seks uker før kursstart kreve at kurset flyttes til et annet tidspunkt eller et annet sted.</p>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="39-godkjenning-av-yrkeskvalifikasjoner-fra-annen-es-stat">§ 39. Godkjenning av yrkeskvalifikasjoner fra annen EØS-stat</h4>
 <p>Statens vegvesen kan godkjenne fører av utrykningskjøretøy, utrykningsinstruktør og undervisningsansvarlig på bakgrunn av yrkeskvalifikasjoner ervervet i annen EØS-stat eller Sveits, jf. yrkeskvalifikasjonsloven og forskrift 22. desember 2017 nr. 2384 om godkjenning av yrkeskvalifikasjoner.</p>
-<p><em>Endret ved forskrifter 6 aug 2012 nr. 796 (i kraft 1 sep 2012), 10 april 2013 nr. 364 (i kraft 1 juli 2013), 10 okt 2018 nr. 1568 (i kraft 15 okt 2018), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 6 aug 2012 nr. 796 (i kraft 1 sep 2012), 10 april 2013 nr. 364 (i kraft 1 juli 2013), 10 okt 2018 nr. 1568 (i kraft 15 okt 2018), 19 des 2019 nr. 2054 (i kraft 1 jan 2020).</p>
 <h4 id="40-gebyr">§ 40. Gebyr</h4>
 <p>For hver prøve og utstedelse av kompetansebevis hos Statens vegvesen betales gebyr etter satsene i forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 2 . Person som unnlater å møte til avtalt prøve må betale gebyr med mindre prøven ble avbestilt senest to virkedager før avtalt prøvetidspunkt. Gebyr må være betalt før nytt prøvetidspunkt kan bestilles.</p>
 <p>Selv om fristen for avbestilling er utløpt kan gebyr for unnlatt oppmøte frafalles dersom det fremlegges legeattest eller annen dokumentasjon som gjør det rimelig å frafalle kravet.</p>
-<p><em>Endret ved forskrift 10 okt 2023 nr. 1651 .</em></p>
+<p class="note">Endret ved forskrift 10 okt 2023 nr. 1651 .</p>
 <h4 id="40a-opphevet">§ 40a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 29 nov 2022 nr. 2045 , opphevet ved forskrift 10 okt 2023 nr. 1651 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 nov 2022 nr. 2045 , opphevet ved forskrift 10 okt 2023 nr. 1651 .</p>
 <h4 id="41-unntak">§ 41. Unntak</h4>
 <p>Statens vegvesen kan, ved enkeltvedtak, gjøre unntak fra bestemmelsene i denne forskriften når det foreligger særlig tungtveiende grunner.</p>
 <p>Statens vegvesen kan gjøre unntak fra § 8 første ledd bokstav c og § 11 første ledd bokstav e.</p>
-<p><em>Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</em></p>
+<p class="note">Endret ved forskrifter 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</p>
 <h4 id="42-saksbehandling">§ 42. Saksbehandling</h4>
 <p>For vedtak som fattes med hjemmel i denne forskrift, gjelder lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven).</p>
 <p>Bestemmelsene i forskrift 19. januar 2004 nr. 298 om førerkort m.m. § 14-1 om klage og samme forskrift vedlegg 1 § 7 og § 8 om utfyllende bestemmelser skal anvendes i saker om medisinske krav etter denne forskrift.</p>
 <p>Det er adgang til å klage på utrykningsprøven, med unntak for det som gjelder sensors skjønnsmessige vurdering av den praktisk prøven, jf. forskrift 15. desember 2006 nr. 1456 til forvaltningsloven § 32 .</p>
 <p>For søknad om godkjenning som kursarrangør etter § 9 skal saksbehandlingsfrist som nevnt i tjenesteloven § 11 første ledd første punktum, være en måned. Saksbehandlingsfristen løper fra det tidspunkt Statens vegvesen har mottatt all nødvendig dokumentasjon.</p>
 <p>Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke for godkjenning av kursarrangør etter § 9 .</p>
-<p><em>Endret ved forskrifter 15 des 2009 nr. 1541 (i kraft 1 jan 2010), 7 mars 2017 nr. 288 , 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</em></p>
+<p class="note">Endret ved forskrifter 15 des 2009 nr. 1541 (i kraft 1 jan 2010), 7 mars 2017 nr. 288 , 19 des 2019 nr. 2054 (i kraft 1 jan 2020), 7 des 2022 nr. 2227 .</p>
 <h4 id="43-overgangsregler">§ 43. Overgangsregler</h4>
 <p>Eksisterende godkjenninger av kursarrangører og undervisningspersonell vil fortsatt være gjeldende. Allerede godkjente kursarrangører må fornye godkjenningen, jf. § 9 , innen 1. juli 2014.</p>
 <h4 id="44-frister-for-oppfyllelse-av-nye-krav">§ 44. Frister for oppfyllelse av nye krav</h4>
 <p>Kravene i § 34 andre ledd må være oppfylt innen 1. juli 2014.</p>
-<p><em>Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 10 april 2013 nr. 364 (i kraft 1 juli 2013).</p>
 <h4 id="45-ikrafttredelse">§ 45. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft 1. juli 2009.</p>
 <h4 id="46-opphevelse">§ 46. Opphevelse</h4>
 <p>Forskrift 9. oktober 2001 nr. 1152 om opplæring og kompetansebevis for fører av utrykningskjøretøy oppheves ved denne forskrifts ikrafttredelse.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

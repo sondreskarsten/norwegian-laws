@@ -19,76 +19,249 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-06-05-645.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om graden ph.d. ved MF" href="../feeds/forskrift-2012-06-05-645.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om graden ph.d. ved MF</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-06-05-645</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2012-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2018-08-30-1670</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-06-05-645" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-innledende-bestemmelser">Del I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-omfang-innhold-og-malsetting-for-phd-utdanningen">§ 2. Omfang, innhold og målsetting for ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#3-ansvaret-for-phd-utdanningen">§ 3. Ansvaret for ph.d-utdanningen</a></li>
+<li class="lvl4"><a href="#4-kvalitetssikring">§ 4. Kvalitetssikring</a></li>
+<li class="lvl2"><a href="#del-ii-opptak">Del II. Opptak</a></li>
+<li class="lvl4"><a href="#5-opptak">§ 5. Opptak</a></li>
+<li class="lvl4"><a href="#5-1-vilkar-for-opptak">§ 5-1. Vilkår for opptak</a></li>
+<li class="lvl4"><a href="#5-2-infrastruktur">§ 5-2. Infrastruktur</a></li>
+<li class="lvl4"><a href="#5-3-opptaksvedtak">§ 5-3. Opptaksvedtak</a></li>
+<li class="lvl4"><a href="#5-4-avtaleperiode">§ 5-4. Avtaleperiode</a></li>
+<li class="lvl4"><a href="#5-5-avslutning-fr-avtalt-tid">§ 5-5. Avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#6-phd-avtalen">§ 6. Ph.d.-avtalen</a></li>
+<li class="lvl2"><a href="#del-iii-gjennomfring">Del III. Gjennomføring</a></li>
+<li class="lvl4"><a href="#7-veiledning">§ 7. Veiledning</a></li>
+<li class="lvl4"><a href="#7-1-oppnevning-av-veiledere">§ 7-1. Oppnevning av veiledere</a></li>
+<li class="lvl4"><a href="#7-2-veiledningens-innhold">§ 7-2. Veiledningens innhold</a></li>
+<li class="lvl4"><a href="#8-opplringsdel">§ 8. Opplæringsdel</a></li>
+<li class="lvl4"><a href="#8-1-formal-innhold-og-omfang">§ 8-1. Formål, innhold og omfang</a></li>
+<li class="lvl4"><a href="#8-2-kandidatens-rettigheter-ved-permisjon">§ 8-2. Kandidatens rettigheter ved permisjon</a></li>
+<li class="lvl4"><a href="#9-rapportering-og-midtveisevaluering">§ 9. Rapportering og midtveisevaluering</a></li>
+<li class="lvl4"><a href="#9-1-rapportering">§ 9-1. Rapportering</a></li>
+<li class="lvl4"><a href="#9-2-midtveisevaluering">§ 9-2. Midtveisevaluering</a></li>
+<li class="lvl4"><a href="#10-phd-avhandlingen">§ 10. Ph.d.-avhandlingen</a></li>
+<li class="lvl4"><a href="#10-1-krav-til-avhandlingen">§ 10-1. Krav til avhandlingen</a></li>
+<li class="lvl4"><a href="#10-2-arbeider-som-ikke-godtas">§ 10-2. Arbeider som ikke godtas</a></li>
+<li class="lvl4"><a href="#11-meldeplikt-om-arbeidsresultater-som-har-potensial-for-nringsmessig-utnyttelse">§ 11. Meldeplikt om arbeidsresultater som har potensial for næringsmessig utnyttelse</a></li>
+<li class="lvl2"><a href="#del-ivfullfring">Del IV.Fullføring</a></li>
+<li class="lvl4"><a href="#12-bedmmelse">§ 12. Bedømmelse</a></li>
+<li class="lvl4"><a href="#12-1-grunnlag-for-bedmmelse">§ 12-1. Grunnlag for bedømmelse</a></li>
+<li class="lvl4"><a href="#12-2-tidsbruk-fra-innlevering-til-disputas">§ 12-2. Tidsbruk fra innlevering til disputas</a></li>
+<li class="lvl4"><a href="#13-innlevering">§ 13. Innlevering</a></li>
+<li class="lvl4"><a href="#13-1-innlevering-av-avhandlingen">§ 13-1. Innlevering av avhandlingen</a></li>
+<li class="lvl4"><a href="#13-2-behandling-av-sknaden">§ 13-2. Behandling av søknaden</a></li>
+<li class="lvl4"><a href="#14-oppnevning-av-bedmmelseskomite">§ 14. Oppnevning av bedømmelseskomité</a></li>
+<li class="lvl4"><a href="#15-bedmmelseskomiteens-arbeid">§ 15. Bedømmelseskomiteens arbeid</a></li>
+<li class="lvl4"><a href="#15-1-innhenting-av-supplerende-opplysninger">§ 15-1. Innhenting av supplerende opplysninger</a></li>
+<li class="lvl4"><a href="#15-2-omarbeiding-av-innlevert-avhandling">§ 15-2. Omarbeiding av innlevert avhandling</a></li>
+<li class="lvl4"><a href="#15-3-bedmmelseskomiteens-innstilling">§ 15-3. Bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#15-4-retting-av-formelle-feil-i-avhandlingen">§ 15-4. Retting av formelle feil i avhandlingen</a></li>
+<li class="lvl4"><a href="#16-behandling-av-bedmmelseskomiteens-innstilling">§ 16. Behandling av bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#17-ny-innlevering">§ 17. Ny innlevering</a></li>
+<li class="lvl4"><a href="#18-offentliggjring-av-avhandlingen">§ 18. Offentliggjøring av avhandlingen</a></li>
+<li class="lvl4"><a href="#18-1-krav-til-den-trykte-avhandlingen">§ 18-1. Krav til den trykte avhandlingen</a></li>
+<li class="lvl4"><a href="#18-2-offentliggjring">§ 18-2. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#19-doktorgradsprve">§ 19. Doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#19-1-prveforelesning">§ 19-1. Prøveforelesning</a></li>
+<li class="lvl4"><a href="#19-2-offentlig-forsvar-av-avhandlingen-disputas">§ 19-2. Offentlig forsvar av avhandlingen (disputas)</a></li>
+<li class="lvl4"><a href="#20-godkjenning-av-doktorgradsprve">§ 20. Godkjenning av doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#21-kreering-og-vitnemal">§ 21. Kreering og vitnemål</a></li>
+<li class="lvl4"><a href="#22-vedlegg-til-vitnemal-diploma-supplement">§ 22. Vedlegg til vitnemål (Diploma Supplement)</a></li>
+<li class="lvl2"><a href="#del-v-klage-ikrafttredelse-og-overgangsbestemmelser">Del V. Klage, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#23-klage">§ 23. Klage</a></li>
+<li class="lvl4"><a href="#23-1-klage-over-avslag-pa-sknad-om-opptak-vedtak-om-opphr-av-studierett-klage-over-avslag-pa-sknad-om-godkjenning-av-elementer-i-opplringsdelen">§ 23-1. Klage over avslag på søknad om opptak, vedtak om opphør av studierett, klage over avslag på søknad om godkjenning av elementer i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#23-2-klage-over-eksamen-i-opplringsdelen">§ 23-2. Klage over eksamen i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#23-3-klage-over-avslag-pa-sknad-om-bedmmelse-ikke-godkjent-avhandling-prveforelesning-eller-forsvar">§ 23-3. Klage over avslag på søknad om bedømmelse, ikke godkjent avhandling, prøveforelesning eller forsvar</a></li>
+<li class="lvl4"><a href="#24-fellesgrader-og-cotutelle-avtaler">§ 24. Fellesgrader og cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-1-fellesgrader-og-cotutelle-avtaler">§ 24-1. Fellesgrader og cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-2-fellesgrader">§ 24-2. Fellesgrader</a></li>
+<li class="lvl4"><a href="#24-3-cotutelle-avtaler">§ 24-3. Cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-4-krav-ved-fellesgrader-og-cotutelle">§ 24-4. Krav ved fellesgrader og cotutelle</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse-og-overgangsbestemmelser">§ 25. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#25-1-ikrafttredelse">§ 25-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-2-overgangsbestemmelser">§ 25-2. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2018-08-30-1670.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-05-645.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift for graden philosophiae doctor (ph.d.) ved MF vitenskapelig høyskole</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-06-05-645.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-06-05-645 <code>forskrift/2012-06-05-645</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om graden ph.d. ved MF</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2012</td></tr>
+<tr><th>Sist endret</th><td>FOR-2018-08-30-1670 <code>forskrift/2018-08-30-1670</code> fra 30.08.2018</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-06-05-645" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-innledende-bestemmelser">Del I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-omfang-innhold-og-malsetting-for-phd-utdanningen">§ 2. Omfang, innhold og målsetting for ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#3-ansvaret-for-phd-utdanningen">§ 3. Ansvaret for ph.d-utdanningen</a></li>
+<li class="lvl4"><a href="#4-kvalitetssikring">§ 4. Kvalitetssikring</a></li>
+<li class="lvl2"><a href="#del-ii-opptak">Del II. Opptak</a></li>
+<li class="lvl4"><a href="#5-opptak">§ 5. Opptak</a></li>
+<li class="lvl4"><a href="#5-1-vilkar-for-opptak">§ 5-1. Vilkår for opptak</a></li>
+<li class="lvl4"><a href="#5-2-infrastruktur">§ 5-2. Infrastruktur</a></li>
+<li class="lvl4"><a href="#5-3-opptaksvedtak">§ 5-3. Opptaksvedtak</a></li>
+<li class="lvl4"><a href="#5-4-avtaleperiode">§ 5-4. Avtaleperiode</a></li>
+<li class="lvl4"><a href="#5-5-avslutning-fr-avtalt-tid">§ 5-5. Avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#6-phd-avtalen">§ 6. Ph.d.-avtalen</a></li>
+<li class="lvl2"><a href="#del-iii-gjennomfring">Del III. Gjennomføring</a></li>
+<li class="lvl4"><a href="#7-veiledning">§ 7. Veiledning</a></li>
+<li class="lvl4"><a href="#7-1-oppnevning-av-veiledere">§ 7-1. Oppnevning av veiledere</a></li>
+<li class="lvl4"><a href="#7-2-veiledningens-innhold">§ 7-2. Veiledningens innhold</a></li>
+<li class="lvl4"><a href="#8-opplringsdel">§ 8. Opplæringsdel</a></li>
+<li class="lvl4"><a href="#8-1-formal-innhold-og-omfang">§ 8-1. Formål, innhold og omfang</a></li>
+<li class="lvl4"><a href="#8-2-kandidatens-rettigheter-ved-permisjon">§ 8-2. Kandidatens rettigheter ved permisjon</a></li>
+<li class="lvl4"><a href="#9-rapportering-og-midtveisevaluering">§ 9. Rapportering og midtveisevaluering</a></li>
+<li class="lvl4"><a href="#9-1-rapportering">§ 9-1. Rapportering</a></li>
+<li class="lvl4"><a href="#9-2-midtveisevaluering">§ 9-2. Midtveisevaluering</a></li>
+<li class="lvl4"><a href="#10-phd-avhandlingen">§ 10. Ph.d.-avhandlingen</a></li>
+<li class="lvl4"><a href="#10-1-krav-til-avhandlingen">§ 10-1. Krav til avhandlingen</a></li>
+<li class="lvl4"><a href="#10-2-arbeider-som-ikke-godtas">§ 10-2. Arbeider som ikke godtas</a></li>
+<li class="lvl4"><a href="#11-meldeplikt-om-arbeidsresultater-som-har-potensial-for-nringsmessig-utnyttelse">§ 11. Meldeplikt om arbeidsresultater som har potensial for næringsmessig utnyttelse</a></li>
+<li class="lvl2"><a href="#del-ivfullfring">Del IV.Fullføring</a></li>
+<li class="lvl4"><a href="#12-bedmmelse">§ 12. Bedømmelse</a></li>
+<li class="lvl4"><a href="#12-1-grunnlag-for-bedmmelse">§ 12-1. Grunnlag for bedømmelse</a></li>
+<li class="lvl4"><a href="#12-2-tidsbruk-fra-innlevering-til-disputas">§ 12-2. Tidsbruk fra innlevering til disputas</a></li>
+<li class="lvl4"><a href="#13-innlevering">§ 13. Innlevering</a></li>
+<li class="lvl4"><a href="#13-1-innlevering-av-avhandlingen">§ 13-1. Innlevering av avhandlingen</a></li>
+<li class="lvl4"><a href="#13-2-behandling-av-sknaden">§ 13-2. Behandling av søknaden</a></li>
+<li class="lvl4"><a href="#14-oppnevning-av-bedmmelseskomite">§ 14. Oppnevning av bedømmelseskomité</a></li>
+<li class="lvl4"><a href="#15-bedmmelseskomiteens-arbeid">§ 15. Bedømmelseskomiteens arbeid</a></li>
+<li class="lvl4"><a href="#15-1-innhenting-av-supplerende-opplysninger">§ 15-1. Innhenting av supplerende opplysninger</a></li>
+<li class="lvl4"><a href="#15-2-omarbeiding-av-innlevert-avhandling">§ 15-2. Omarbeiding av innlevert avhandling</a></li>
+<li class="lvl4"><a href="#15-3-bedmmelseskomiteens-innstilling">§ 15-3. Bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#15-4-retting-av-formelle-feil-i-avhandlingen">§ 15-4. Retting av formelle feil i avhandlingen</a></li>
+<li class="lvl4"><a href="#16-behandling-av-bedmmelseskomiteens-innstilling">§ 16. Behandling av bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#17-ny-innlevering">§ 17. Ny innlevering</a></li>
+<li class="lvl4"><a href="#18-offentliggjring-av-avhandlingen">§ 18. Offentliggjøring av avhandlingen</a></li>
+<li class="lvl4"><a href="#18-1-krav-til-den-trykte-avhandlingen">§ 18-1. Krav til den trykte avhandlingen</a></li>
+<li class="lvl4"><a href="#18-2-offentliggjring">§ 18-2. Offentliggjøring</a></li>
+<li class="lvl4"><a href="#19-doktorgradsprve">§ 19. Doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#19-1-prveforelesning">§ 19-1. Prøveforelesning</a></li>
+<li class="lvl4"><a href="#19-2-offentlig-forsvar-av-avhandlingen-disputas">§ 19-2. Offentlig forsvar av avhandlingen (disputas)</a></li>
+<li class="lvl4"><a href="#20-godkjenning-av-doktorgradsprve">§ 20. Godkjenning av doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#21-kreering-og-vitnemal">§ 21. Kreering og vitnemål</a></li>
+<li class="lvl4"><a href="#22-vedlegg-til-vitnemal-diploma-supplement">§ 22. Vedlegg til vitnemål (Diploma Supplement)</a></li>
+<li class="lvl2"><a href="#del-v-klage-ikrafttredelse-og-overgangsbestemmelser">Del V. Klage, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#23-klage">§ 23. Klage</a></li>
+<li class="lvl4"><a href="#23-1-klage-over-avslag-pa-sknad-om-opptak-vedtak-om-opphr-av-studierett-klage-over-avslag-pa-sknad-om-godkjenning-av-elementer-i-opplringsdelen">§ 23-1. Klage over avslag på søknad om opptak, vedtak om opphør av studierett, klage over avslag på søknad om godkjenning av elementer i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#23-2-klage-over-eksamen-i-opplringsdelen">§ 23-2. Klage over eksamen i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#23-3-klage-over-avslag-pa-sknad-om-bedmmelse-ikke-godkjent-avhandling-prveforelesning-eller-forsvar">§ 23-3. Klage over avslag på søknad om bedømmelse, ikke godkjent avhandling, prøveforelesning eller forsvar</a></li>
+<li class="lvl4"><a href="#24-fellesgrader-og-cotutelle-avtaler">§ 24. Fellesgrader og cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-1-fellesgrader-og-cotutelle-avtaler">§ 24-1. Fellesgrader og cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-2-fellesgrader">§ 24-2. Fellesgrader</a></li>
+<li class="lvl4"><a href="#24-3-cotutelle-avtaler">§ 24-3. Cotutelle-avtaler</a></li>
+<li class="lvl4"><a href="#24-4-krav-ved-fellesgrader-og-cotutelle">§ 24-4. Krav ved fellesgrader og cotutelle</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse-og-overgangsbestemmelser">§ 25. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#25-1-ikrafttredelse">§ 25-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-2-overgangsbestemmelser">§ 25-2. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-05-645.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-06-05-645.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-05-645.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-06-05-645.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-06-05-645.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-06-05-645.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-06-05-645.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-06-05-645.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-06-05-645.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-for-graden-philosophiae-doctor-phd-ved-mf-vitenskapelig-hyskole">Forskrift for graden philosophiae doctor (ph.d.) ved MF vitenskapelig høyskole</h1>
 <h2 id="del-i-innledende-bestemmelser">Del I. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder doktorgradsutdanning som fører frem til graden philosophiae doctor (ph.d.) ved MF vitenskapelig høyskole. Forskriften gir regler om opptak til, gjennomføring og fullføring av ph.d.-utdanningen, herunder fellesgrader og cotutelle. For allmenne definisjoner, se forskrift 2. november 2005 nr. 1367 om opptak, studier og eksamen ved MF vitenskapelig høyskole § 3 og § 19 – § 21.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="2-omfang-innhold-og-malsetting-for-phd-utdanningen">§ 2. Omfang, innhold og målsetting for ph.d.-utdanningen</h4>
 <p>Ph.d.-utdanningen skal kvalifisere for forskningsvirksomhet av internasjonal standard og for annet arbeid i samfunnet hvor det stilles store krav til vitenskapelig innsikt og analytisk tenkning, i samsvar med god vitenskapelig skikk og forskningsetiske standarder.</p>
 <p>Ph.d.-utdanningen er normert til tre (3) års fulltidsstudier og inkluderer en opplæringsdel av minimum 30 studiepoengs omfang.</p>
 <p>Ph.d.-utdanningens viktigste komponent er et selvstendig forskningsarbeid eller kombinert forsknings- og utviklingsarbeid som gjennomføres under aktiv veiledning.</p>
-<p><em>Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</em></p>
+<p class="note">Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</p>
 <h4 id="3-ansvaret-for-phd-utdanningen">§ 3. Ansvaret for ph.d-utdanningen</h4>
 <p>Styret ved MF vitenskapelig høyskole har det overordnede ansvaret for ph.d.-utdanningen.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="4-kvalitetssikring">§ 4. Kvalitetssikring</h4>
 <p>Ph.d.-utdanningen omfattes av institusjonens kvalitetssystem.</p>
 <h2 id="del-ii-opptak">Del II. Opptak</h2>
@@ -142,7 +315,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>Opptak til MF vitenskapelig høyskoles ph.d.-utdanning formaliseres ved at skriftlig avtale underskrives av ph.d.-kandidat, veileder(e) og institusjonen. Avtalen regulerer partenes rettigheter og plikter i opptaksperioden og skal sikre at kandidaten deltar regelmessig i et aktivt forskermiljø og legge til rette for at ph.d.-utdanningen skal kunne gjennomføres til avtalt tid. Institusjonen fastsetter avtaleskjema.</p>
 <p>For ph.d.-kandidater med finansiering fra, tilsetting hos eller andre bidrag fra en ekstern part, skal det, i tråd med fastsatte retningslinjer, inngås egen avtale mellom kandidaten, institusjonen og den eksterne part.</p>
 <p>I tilfeller hvor ph.d.-kandidaten skal ha tilknytning til utenlandske institusjoner, må institusjonens retningslinjer for slikt samarbeid følges, og egne avtaler inngås på fastsatte skjema. Avtalen skal normalt foreligge sammen med opptaksavtalen.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h2 id="del-iii-gjennomfring">Del III. Gjennomføring</h2>
 <h4 id="7-veiledning">§ 7. Veiledning</h4>
 <p>Arbeidet med doktoravhandlingen skal foregå under individuell veiledning. Veileder har ansvar for å følge opp kandidatens faglige utvikling. Institusjonen og veilederne skal sammen sikre at ph.d.-kandidaten deltar i et aktivt forskningsmiljø.</p>
@@ -159,7 +332,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>Veilederne plikter å holde seg orientert om fremdriften i kandidatens arbeid og vurdere den i forhold til prosjektbeskrivelsens fremdriftsplan, jf. § 5-1.</p>
 <p>Veilederne plikter å følge opp faglige forhold som kan medføre forsinket gjennomføring av forskerutdanningen, slik at denne kan fullføres innenfor normert tid.</p>
 <p>Veilederne skal gi råd om formulering og avgrensning av tema og problemstillinger, drøfte og vurdere hypoteser og metoder, drøfte resultater og tolkningen av disse, drøfte opplegg og gjennomføring av fremstillingen, herunder disposisjon, språklig form, dokumentasjon mv., og gi hjelp til orientering i faglitteratur og datagrunnlag i forhold til bibliotek, arkiv, etc. Videre bør veilederne gi kandidaten veiledning i forskningsetiske spørsmål knyttet til avhandlingen.</p>
-<p><em>Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</p>
 <h4 id="8-opplringsdel">§ 8. Opplæringsdel</h4>
 <h4 id="8-1-formal-innhold-og-omfang">§ 8-1. Formål, innhold og omfang <a class="para-history" href="../historikk/forskrift-2012-06-05-645/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ph.d.-utdanningen skal være lagt opp slik at den skal kunne fullføres innenfor normert tidsramme.</p>
@@ -170,7 +343,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>MF vitenskapelig høyskole kan godkjenne at kurs og andre faglige aktiviteter gjennomført utenfor MF vitenskapelig høyskole inngår i opplæringsdelen, jf. universitets- og høyskoleloven § 3-5 (1).</p>
 <h4 id="8-2-kandidatens-rettigheter-ved-permisjon">§ 8-2. Kandidatens rettigheter ved permisjon</h4>
 <p>Ph.d.-kandidater som har foreldrepermisjon fra ph.d.-utdanningen, kan likevel følge undervisning og avlegge eksamener i emner og kurs som skal inngå som en del av kandidatens opplæringsdel under permisjonstiden, i samsvar med folketrygdloven § 14-10 fjerde ledd og NAVs rundskriv til bestemmelsen.</p>
-<p><em>Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</p>
 <h4 id="9-rapportering-og-midtveisevaluering">§ 9. Rapportering og midtveisevaluering</h4>
 <h4 id="9-1-rapportering">§ 9-1. Rapportering</h4>
 <p>I opptaksperioden skal ph.d.-kandidaten og oppnevnte veiledere årlig og på fastsatt skjema levere separate skriftlige rapporter om fremdriften i forskerutdanningen. Rapportene skal sendes til og godkjennes av institusjonen.</p>
@@ -180,7 +353,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>En midtveisevaluering av doktorgradsarbeidet bør normalt finne sted i tredje eller fjerde semester. Kandidaten skal presentere sitt arbeid og bli evaluert av en gruppe på minst to personer som er oppnevnt av institusjonen. Evalueringsgruppen skal ta stilling til doktorgradsarbeidets faglige status og fremdrift, og skal gi tilbakemelding til både kandidaten, veilederen og institusjonen.</p>
 <p>Dersom evalueringsgruppen rapporterer om vesentlige svakheter ved forskningsarbeidet, skal det iverksettes tiltak for å korrigere situasjonen.</p>
 <p>For kandidater som er tatt opp på ph.d.-program ved institusjonen før denne bestemmelsens ikrafttredelse, er midtveisevalueringen frivillig.</p>
-<p><em>Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</em></p>
+<p class="note">Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</p>
 <h4 id="10-phd-avhandlingen">§ 10. Ph.d.-avhandlingen</h4>
 <h4 id="10-1-krav-til-avhandlingen">§ 10-1. Krav til avhandlingen <a class="para-history" href="../historikk/forskrift-2012-06-05-645/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Avhandlingen skal være et selvstendig, vitenskapelig forskningsarbeid eller forsknings- og utviklingsarbeid som oppfyller internasjonale standarder med hensyn til etiske krav, faglig nivå og metode innen fagområdet.</p>
@@ -194,13 +367,13 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>Arbeider eller deler av et arbeid som har vært godtatt som grunnlag for tidligere avlagte eksamener eller grader, kan ikke antas til bedømmelse. Data, analyser eller metoder fra tidligere grader kan likevel benyttes som grunnlag for arbeid med ph.d.-prosjektet.</p>
 <p>Ved bruk av publiserte arbeider kan disse ikke godtas som del av avhandlingen hvis de ved opptakstidspunkt er eldre enn fem (5) år fra publiseringsdato. Rektor kan dispensere fra dette kravet dersom helt ekstraordinære forhold tilsier det.</p>
 <p>Avhandlingen kan ikke innleveres for bedømmelse ved flere institusjoner samtidig, jf. § 13-1.</p>
-<p><em>Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</em></p>
+<p class="note">Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</p>
 <h4 id="11-meldeplikt-om-arbeidsresultater-som-har-potensial-for-nringsmessig-utnyttelse">§ 11. Meldeplikt om arbeidsresultater som har potensial for næringsmessig utnyttelse</h4>
 <p>Regulering av rettigheter mellom samarbeidende institusjoner må reguleres i avtale.</p>
 <p>Det til enhver tid gjeldende regelverk ved MF vitenskapelig høyskole skal danne utgangspunkt for hvilken meldeplikt ph.d.-kandidater med tilsetting ved institusjonen har for arbeidsresultater med næringsmessig potensial som gjøres i arbeidsforholdet, jf. arbeidstakeroppfinnelsesloven, åndsverkloven og kretsmønsterloven, samt for andre arbeidsresultater som omfattes av institusjonens rettighetspolitikk. I forbindelse med inngåelse av ansettelsesavtale skal det inngås en egen avtale mellom MF vitenskapelig høyskole og arbeidstaker om overtakelse av rettigheter til arbeidsresultater, som gir nærmere regulering av arbeidstakers og arbeidsgivers plikter i tilknytning til utnyttelsen, inntektsfordeling, mv.</p>
 <p>For ph.d.-kandidater med ekstern arbeidsgiver skal tilsvarende meldeplikt nedfelles i avtale mellom MF vitenskapelig høyskole, ph.d.-kandidaten og den eksterne arbeidsgiver.</p>
 <p>For ph.d.-kandidater uten arbeidsgiver skal tilsvarende meldeplikt nedfelles i opptaksavtalen mellom MF vitenskapelig høyskole og ph.d.-kandidaten.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h2 id="del-ivfullfring">Del IV.Fullføring</h2>
 <h4 id="12-bedmmelse">§ 12. Bedømmelse</h4>
 <h4 id="12-1-grunnlag-for-bedmmelse">§ 12-1. Grunnlag for bedømmelse</h4>
@@ -229,7 +402,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>Avhandlingen skal være offentlig tilgjengelig senest to uker før disputas, jf. § 18-1.</p>
 <h4 id="13-2-behandling-av-sknaden">§ 13-2. Behandling av søknaden</h4>
 <p>Rektor avgjør søknad om å få avhandlingen bedømt. Søknad som ikke fyller kravene i § 13-1, skal avvises.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="14-oppnevning-av-bedmmelseskomite">§ 14. Oppnevning av bedømmelseskomité</h4>
 <p>Rektor godkjenner søknad om å få avhandlingen bedømt og oppnevner deretter en sakkyndig komité på minst tre medlemmer som skal bedømme avhandlingen og disputasen. Habilitetsreglene i forvaltningsloven § 6 gjelder for komiteens medlemmer.</p>
 <p>Komiteens sammensetning bør normalt være klarlagt ved innleveringstidspunkt.</p>
@@ -246,7 +419,7 @@ Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
 <p>Oppnevnte veiledere og andre som har bidratt til avhandlingen, kan ikke være medlem av bedømmelseskomiteen eller administrere den.</p>
 <p>Rektor kan, når det er påkrevd, oppnevne et settemedlem til bedømmelseskomiteen.</p>
 <p>Kandidaten skal underrettes om forslaget til sammensetning av komité og har anledning til å innlevere skriftlige merknader, senest innen én uke etter at forslaget til sammensetning er gjort kjent for kandidaten.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="15-bedmmelseskomiteens-arbeid">§ 15. Bedømmelseskomiteens arbeid</h4>
 <h4 id="15-1-innhenting-av-supplerende-opplysninger">§ 15-1. Innhenting av supplerende opplysninger</h4>
 <p>Bedømmelseskomiteen kan kreve fremlagt ph.d.-kandidatens grunnlagsmateriale og utfyllende eller oppklarende tilleggsinformasjon.</p>
@@ -276,7 +449,7 @@ Delt innstilling</em></p>
 <p>En ph.d.-avhandling som ikke er funnet verdig til forsvar, kan bedømmes i omarbeidet utgave først seks (6) måneder etter at institusjonen har fattet sitt vedtak. Ny bedømmelse kan bare finne sted én gang.</p>
 <p>Ph.d.-kandidaten skal ved ny innlevering opplyse om at arbeidet tidligere har vært bedømt og ikke blitt funnet verdig til å forsvares.</p>
 <p>Dersom ny innlevering skjer ved annen institusjon, skal det foretas nytt opptak ved denne, jf. § 5 .</p>
-<p><em>Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</em></p>
+<p class="note">Endret ved forskrift 3 juni 2014 nr. 804 (i kraft 1 aug 2014).</p>
 <h4 id="18-offentliggjring-av-avhandlingen">§ 18. Offentliggjøring av avhandlingen</h4>
 <h4 id="18-1-krav-til-den-trykte-avhandlingen">§ 18-1. Krav til den trykte avhandlingen</h4>
 <p>Når avhandlingen er funnet verdig til å forsvares, skal ph.d.-kandidaten levere avhandlingen til MF vitenskapelig høyskole i godkjent format og i henhold til institusjonens bestemmelser, jf. § 13-1.</p>
@@ -285,7 +458,7 @@ Delt innstilling</em></p>
 <p>Avhandlingen skal være offentlig tilgjengelig senest to (2) uker før dato for offentlig forsvar. Avhandlingen gjøres tilgjengelig i den form den ble innlevert til bedømmelse, eventuelt etter omarbeiding på grunnlag av komiteens foreløpige kommentarer, jf. § 15-2.</p>
 <p>Det kan ikke legges restriksjoner på offentliggjøring av en doktorgradsavhandling med unntak av en på forhånd avtalt utsettelse av datoen for offentliggjøring. Slik utsettelse kan finne sted for at institusjonen og eventuelt ekstern part som helt eller delvis har finansiert ph.d.-utdanningen, skal kunne ta stilling til eventuell patentering. Ekstern part kan ikke stille krav om at hele eller deler av ph.d.-avhandlingen ikke skal kunne offentliggjøres, jf. § 5-3.</p>
 <p>Ved publisering av ph.d.-avhandlingen skal ph.d.-kandidater ansatt ved MF vitenskapelig høyskole følge hovedregelen for adressering og oppgi MF vitenskapelig høyskole som adresse. Eksternt ansatte ph.d.-kandidater skal oppgi MF vitenskapelig høyskole samt hovedarbeidsgivers adresse på publikasjoner. Dette gjelder også arbeider som helt eller hovedsakelig er utført under ph.d-utdanningen, men som publiseres senere.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="19-doktorgradsprve">§ 19. Doktorgradsprøve</h4>
 <h4 id="19-1-prveforelesning">§ 19-1. Prøveforelesning</h4>
 <p>Etter at avhandlingen er innlevert til bedømmelse, jf. § 15 , skal ph.d.-kandidaten prøveforelese. Prøveforelesningen er en selvstendig del av doktorgradsprøven og skal være over oppgitt emne. Hensikten er å prøve kandidatens evne til å tilegne seg kunnskaper utover avhandlingens tema og evnen til å formidle disse i en forelesningssituasjon.</p>
@@ -303,7 +476,7 @@ Delt innstilling</em></p>
 <p>Første ordinære opponent innleder opposisjonen. Institusjonen kan eventuelt fastsette en annen oppgavefordeling mellom doktoranden og førsteopponenten. Etter at første opponent har avsluttet sin opposisjon, gis de øvrige tilstedeværende anledning til å kommentere ex auditorio. Andre ordinære opponent avslutter opposisjonen. Disputasleder avslutter disputasen.</p>
 <p>Bedømmelseskomitéen avgir innstilling til institusjonen der den gjør rede for hvordan den har vurdert forsvaret av avhandlingen. Innstillingen skal konkludere med om disputasen er godkjent eller ikke godkjent. Innstillingen skal begrunnes dersom disputasen anbefales ikke godkjent.</p>
 <p>Disputas og prøveforelesning skal være godkjent før diplom kan tildeles.</p>
-<p><em>Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</p>
 <h4 id="20-godkjenning-av-doktorgradsprve">§ 20. Godkjenning av doktorgradsprøve</h4>
 <p>Rektor fatter vedtak om godkjenning av doktorgradsprøven på grunnlag av bedømmelseskomiteens innstilling.</p>
 <p>Dersom prøveforelesningen ikke godkjennes, må det avholdes ny prøveforelesning. Ny prøveforelesning må holdes over nytt emne og ikke senere enn seks (6) måneder etter første forsøk. Ny prøveforelesning kan bare holdes én gang. Forelesningen bedømmes så vidt mulig av den samme komité som den opprinnelige, dersom ikke institusjonen har bestemt noe annet.</p>
@@ -311,10 +484,10 @@ Delt innstilling</em></p>
 <h4 id="21-kreering-og-vitnemal">§ 21. Kreering og vitnemål</h4>
 <p>På grunnlag av innberetning om at opplæringsdelen, avhandlingen og doktorgradsprøven er godkjent, kreerer rektor kandidaten til philosophiae doctor.</p>
 <p>Vitnemål utstedes av MF vitenskapelig høyskole. I vitnemålet skal det gis opplysninger om den faglige opplæringen kandidaten har deltatt i. Rektor fastsetter hvilke ytterligere opplysninger som skal inngå i vitnemålet.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="22-vedlegg-til-vitnemal-diploma-supplement">§ 22. Vedlegg til vitnemål (Diploma Supplement)</h4>
 <p>MF vitenskapelig høyskole skal utstede vedlegg til doktorgradsdiplomet i standardisert format.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h2 id="del-v-klage-ikrafttredelse-og-overgangsbestemmelser">Del V. Klage, ikrafttredelse og overgangsbestemmelser</h2>
 <h4 id="23-klage">§ 23. Klage</h4>
 <h4 id="23-1-klage-over-avslag-pa-sknad-om-opptak-vedtak-om-opphr-av-studierett-klage-over-avslag-pa-sknad-om-godkjenning-av-elementer-i-opplringsdelen">§ 23-1. Klage over avslag på søknad om opptak, vedtak om opphør av studierett, klage over avslag på søknad om godkjenning av elementer i opplæringsdelen</h4>
@@ -325,7 +498,7 @@ Delt innstilling</em></p>
 <h4 id="23-3-klage-over-avslag-pa-sknad-om-bedmmelse-ikke-godkjent-avhandling-prveforelesning-eller-forsvar">§ 23-3. Klage over avslag på søknad om bedømmelse, ikke godkjent avhandling, prøveforelesning eller forsvar</h4>
 <p>Avslag på søknad om å få avhandlingen bedømt og vedtak om ikke godkjent avhandling, prøveforelesning eller forsvar kan påklages etter reglene i forvaltningsloven § 28 ff. Grunngitt klage sendes til MF vitenskapelig høyskole. Institusjonen kan oppheve eller endre vedtaket hvis den finner klagen begrunnet. Hvis institusjonen ikke tar klagen til følge, sendes klagen til institusjonens klagenemnd til avgjørelse. Klagenemnden kan prøve alle sider ved det påklagede vedtak.</p>
 <p>Dersom institusjonen eller klagenemnden finner grunn til det, kan det oppnevnes enkeltpersoner eller et utvalg til å foreta en vurdering av den foretatte bedømmelsen og de kriteriene denne bygger på, eller til å foreta en ny eller supplerende sakkyndig vurdering.</p>
-<p><em>Endret ved forskrift 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrift 30 aug 2018 nr. 1670 .</p>
 <h4 id="24-fellesgrader-og-cotutelle-avtaler">§ 24. Fellesgrader og cotutelle-avtaler</h4>
 <h4 id="24-1-fellesgrader-og-cotutelle-avtaler">§ 24-1. Fellesgrader og cotutelle-avtaler</h4>
 <p>Institusjonen kan inngå samarbeid med en eller flere norske eller utenlandske institusjoner om samarbeid i form av fellesgrader eller cotutelle-avtaler.</p>
@@ -345,7 +518,9 @@ Delt innstilling</em></p>
 <p>Rektor ved MF vitenskapelig høyskole kan fastsette utfyllende bestemmelser til denne forskrift.</p>
 <h4 id="25-2-overgangsbestemmelser">§ 25-2. Overgangsbestemmelser <a class="para-history" href="../historikk/forskrift-2012-06-05-645/para-25-2.html" title="Endringshistorikk for § 25-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som når denne forskriften trer i kraft, har opptak på ph.d.-program etter forskrift 5. juni 2005 nr. 1339, beholder de rettigheter som står i denne dersom dette er til gunst for vedkommende.</p>
-<p><em>Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</em></p>
+<p class="note">Endret ved forskrifter 3 juni 2014 nr. 804 (i kraft 1 aug 2014), 30 aug 2018 nr. 1670 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

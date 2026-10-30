@@ -19,101 +19,392 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2002-02-22-183.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om straffegjennomføring" href="../feeds/forskrift-2002-02-22-183.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om straffegjennomføring</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2002-02-22-183</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2002-03-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-24-1325</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2002-02-22-183" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forskriftens-anvendelsesomrade-og-generelle-prinsipper-for-straffegjennomfring">Kapittel 1. Forskriftens anvendelsesområde og generelle prinsipper for straffegjennomføring</a></li>
+<li class="lvl4"><a href="#1-1-forskriftens-anvendelsesomrade">§ 1-1. Forskriftens anvendelsesområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-barns-rettigheter-som-parrende-til-innsatte-og-domfelte">§ 1-3. Barns rettigheter som pårørende til innsatte og domfelte</a></li>
+<li class="lvl4"><a href="#1-4-aktivitetsplikt">§ 1-4. Aktivitetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-administrative-bestemmelser">Kapittel 2. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#2-1-delegering-av-avgjrelsesmyndighet">§ 2-1. Delegering av avgjørelsesmyndighet</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-tilsatte-i-fengsler">§ 2-2. Krav til tilsatte i fengsler</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-3-fengselsstraff-og-strafferettslige-srreaksjoner">Kapittel 3. Fengselsstraff og strafferettslige særreaksjoner</a></li>
+<li class="lvl4"><a href="#3-1-utsettelse-av-gjennomfring-av-straff">§ 3-1. Utsettelse av gjennomføring av straff</a></li>
+<li class="lvl4"><a href="#3-1a-ungdomsenheter-fengsler-og-friomsorgskontor-som-mottar-barn">§ 3-1a. Ungdomsenheter, fengsler og friomsorgskontor som mottar barn</a></li>
+<li class="lvl4"><a href="#3-1b-kriminalomsorgens-ansvar-overfor-barn-verge">§ 3-1b. Kriminalomsorgens ansvar overfor barn. Verge</a></li>
+<li class="lvl4"><a href="#3-2-straffetidens-lengde">§ 3-2. Straffetidens lengde</a></li>
+<li class="lvl4"><a href="#3-3-endringer-i-beregnet-straffetid">§ 3-3. Endringer i beregnet straffetid</a></li>
+<li class="lvl4"><a href="#3-4-innsettelse-i-fengsel">§ 3-4. Innsettelse i fengsel</a></li>
+<li class="lvl4"><a href="#3-5-gjennomfring-av-straff-i-institusjon">§ 3-5. Gjennomføring av straff i institusjon</a></li>
+<li class="lvl4"><a href="#3-6-gjennomfring-av-straff-i-sykehus">§ 3-6. Gjennomføring av straff i sykehus</a></li>
+<li class="lvl4"><a href="#3-7-overfring-mellom-gjennomfringsformer">§ 3-7. Overføring mellom gjennomføringsformer</a></li>
+<li class="lvl4"><a href="#3-8-gjennomfring-av-straff-utenfor-fengsel-oppmteplikt">§ 3-8. Gjennomføring av straff utenfor fengsel. Oppmøteplikt</a></li>
+<li class="lvl4"><a href="#3-9-kontroll-med-fellesskapet">§ 3-9. Kontroll med fellesskapet</a></li>
+<li class="lvl4"><a href="#3-10-bevegelsesfrihet">§ 3-10. Bevegelsesfrihet</a></li>
+<li class="lvl4"><a href="#3-11-orden-og-disiplin-tvangsmidler">§ 3-11. Orden og disiplin. Tvangsmidler</a></li>
+<li class="lvl4"><a href="#3-12-aktivitetstilbud-forhold-til-aktivitetsplikten-endring-av-innhold">§ 3-12. Aktivitetstilbud: forhold til aktivitetsplikten. Endring av innhold</a></li>
+<li class="lvl4"><a href="#3-13-dagpenger">§ 3-13. Dagpenger</a></li>
+<li class="lvl4"><a href="#3-14-frigang">§ 3-14. Frigang</a></li>
+<li class="lvl4"><a href="#3-15-arbeidsavtale-ved-frigang-arbeidslnn">§ 3-15. Arbeidsavtale ved frigang. Arbeidslønn</a></li>
+<li class="lvl4"><a href="#3-16-helseunderskelse-og-behandling-av-innsatte">§ 3-16. Helseundersøkelse og behandling av innsatte</a></li>
+<li class="lvl4"><a href="#3-17-bistand-fra-tilsatte-ved-bruk-av-legemidler">§ 3-17. Bistand fra tilsatte ved bruk av legemidler</a></li>
+<li class="lvl4"><a href="#3-18-reportasje-og-intervju">§ 3-18. Reportasje og intervju</a></li>
+<li class="lvl4"><a href="#3-19-private-eiendeler-bruk-av-private-midler">§ 3-19. Private eiendeler. Bruk av private midler</a></li>
+<li class="lvl4"><a href="#3-20-datautstyr-og-lignende">§ 3-20. Datautstyr og lignende</a></li>
+<li class="lvl4"><a href="#3-21-rusmidler">§ 3-21. Rusmidler</a></li>
+<li class="lvl4"><a href="#3-22-klr-sengety-toalettartikler-med-mer">§ 3-22. Klær, sengetøy, toalettartikler, med mer</a></li>
+<li class="lvl4"><a href="#3-23-kosthold-innkjp">§ 3-23. Kosthold. Innkjøp</a></li>
+<li class="lvl4"><a href="#3-24-underskelse-av-personer-og-gjenstander">§ 3-24. Undersøkelse av personer og gjenstander</a></li>
+<li class="lvl4"><a href="#3-25-underskelse-av-innsatte-rom-og-eiendeler">§ 3-25. Undersøkelse av innsatte, rom og eiendeler</a></li>
+<li class="lvl4"><a href="#3-26-underskelser-for-a-avdekke-bruk-av-rusmidler-med-videre">§ 3-26. Undersøkelser for å avdekke bruk av rusmidler, med videre</a></li>
+<li class="lvl4"><a href="#3-27-elektronisk-postsending">§ 3-27. Elektronisk postsending</a></li>
+<li class="lvl4"><a href="#3-28-besk">§ 3-28. Besøk</a></li>
+<li class="lvl4"><a href="#3-28a-besk-til-barn-kostnadsdekning">§ 3-28a. Besøk til barn. Kostnadsdekning</a></li>
+<li class="lvl4"><a href="#3-29-telefonsamtaler">§ 3-29. Telefonsamtaler</a></li>
+<li class="lvl4"><a href="#3-30-permisjon-permisjonstid-utgifter-ved-permisjon-permisjon-til-utlandet">§ 3-30. Permisjon. Permisjonstid. Utgifter ved permisjon. Permisjon til utlandet</a></li>
+<li class="lvl4"><a href="#3-31-unntak-fra-de-alminnelige-vilkar-for-permisjon">§ 3-31. Unntak fra de alminnelige vilkår for permisjon</a></li>
+<li class="lvl4"><a href="#3-32-fremstilling">§ 3-32. Fremstilling</a></li>
+<li class="lvl4"><a href="#3-33-straffavbrudd">§ 3-33. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#3-34-vilkar-ved-permisjon-og-straffavbrudd-brudd-pa-vilkar">§ 3-34. Vilkår ved permisjon og straffavbrudd. Brudd på vilkår</a></li>
+<li class="lvl4"><a href="#3-35-utelukkelse-fra-fellesskapet-som-forebyggende-tiltak">§ 3-35. Utelukkelse fra fellesskapet som forebyggende tiltak</a></li>
+<li class="lvl4"><a href="#3-36-umiddelbar-utelukkelse-som-flge-av-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner">§ 3-36. Umiddelbar utelukkelse som følge av brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner</a></li>
+<li class="lvl4"><a href="#3-37-reaksjon-pa-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner-tap-av-dagpenger-og-tap-av-begunstigelse">§ 3-37. Reaksjon på brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner. Tap av dagpenger og tap av begunstigelse</a></li>
+<li class="lvl4"><a href="#3-38-reaksjon-pa-brudd-uttalelsesrett-forsk-gjentagelse">§ 3-38. Reaksjon på brudd. Uttalelsesrett. Forsøk. Gjentagelse</a></li>
+<li class="lvl4"><a href="#3-39-reaksjon-pa-brudd-betinget-reaksjon-iverksettelse-oppsettende-virkning">§ 3-39. Reaksjon på brudd. Betinget reaksjon. Iverksettelse. Oppsettende virkning</a></li>
+<li class="lvl4"><a href="#3-40-dekning-av-reiseutgifter-ved-lslatelse-fra-fengselsstraff">§ 3-40. Dekning av reiseutgifter ved løslatelse fra fengselsstraff</a></li>
+<li class="lvl4"><a href="#3-41-lslatelse-fra-fengselsstraff-nar-vedtak-skal-foreligge">§ 3-41. Løslatelse fra fengselsstraff. Når vedtak skal foreligge</a></li>
+<li class="lvl4"><a href="#3-42-mteplikt-i-prvetiden">§ 3-42. Møteplikt i prøvetiden</a></li>
+<li class="lvl4"><a href="#3-43-forlengelse-av-perioden-med-mteplikt-opphr">§ 3-43. Forlengelse av perioden med møteplikt. Opphør</a></li>
+<li class="lvl4"><a href="#3-44-kontroll-av-prvelslatte">§ 3-44. Kontroll av prøveløslatte</a></li>
+<li class="lvl4"><a href="#3-45-brudd-pa-prvelslatelsesvilkar-i-perioden-med-mteplikt-for-kriminalomsorgen">§ 3-45. Brudd på prøveløslatelsesvilkår i perioden med møteplikt for kriminalomsorgen</a></li>
+<li class="lvl2"><a href="#kapittel-4-varetekt-og-andre-reaksjoner-nar-det-er-srskilt-bestemt-i-lov">Kapittel 4. Varetekt og andre reaksjoner når det er særskilt bestemt i lov</a></li>
+<li class="lvl4"><a href="#4-1-plassering-av-varetektsinnsatte-og-personer-som-politiet-har-pagrepet-overfring">§ 4-1. Plassering av varetektsinnsatte og personer som politiet har pågrepet. Overføring</a></li>
+<li class="lvl4"><a href="#4-1a-varetektsinnsatte-under-18-ar-informasjon">§ 4-1a. Varetektsinnsatte under 18 år. Informasjon</a></li>
+<li class="lvl4"><a href="#4-2-fellesskap">§ 4-2. Fellesskap</a></li>
+<li class="lvl4"><a href="#4-3-arbeid-opplring-program-og-andre-tiltak">§ 4-3. Arbeid, opplæring, program og andre tiltak</a></li>
+<li class="lvl4"><a href="#4-4-overgang-fra-varetektsfengsling-til-straffegjennomfring-lslatelse">§ 4-4. Overgang fra varetektsfengsling til straffegjennomføring. Løslatelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-samfunnsstraff">Kapittel 5. Samfunnsstraff</a></li>
+<li class="lvl4"><a href="#5-1-utsettelse-av-gjennomfring-av-samfunnsstraff-beregning-av-straffetid">§ 5-1. Utsettelse av gjennomføring av samfunnsstraff. Beregning av straffetid</a></li>
+<li class="lvl4"><a href="#5-2-innholdet-i-samfunnsstraffen">§ 5-2. Innholdet i samfunnsstraffen</a></li>
+<li class="lvl4"><a href="#5-3-straffavbrudd">§ 5-3. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#5-4-reaksjon-pa-brudd">§ 5-4. Reaksjon på brudd</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-regler-om-innsettelse-og-opphold-i-avdelinger-med-srlig-hyt-sikkerhetsniva">Kapittel 6. Særlige regler om innsettelse og opphold i avdelinger med særlig høyt sikkerhetsnivå</a></li>
+<li class="lvl4"><a href="#6-1-avgjrelsesmyndighet-og-varighet">§ 6-1. Avgjørelsesmyndighet og varighet</a></li>
+<li class="lvl4"><a href="#6-2-vilkar-for-innsettelse-i-avdeling-med-srlig-hyt-sikkerhetsniva">§ 6-2. Vilkår for innsettelse i avdeling med særlig høyt sikkerhetsnivå</a></li>
+<li class="lvl4"><a href="#6-3-fellesskap-med-andre-innsatte">§ 6-3. Fellesskap med andre innsatte</a></li>
+<li class="lvl4"><a href="#6-4-arbeid-opplring-program-eller-andre-tiltak">§ 6-4. Arbeid, opplæring, program eller andre tiltak</a></li>
+<li class="lvl4"><a href="#6-5-religion-og-livssyn">§ 6-5. Religion og livssyn</a></li>
+<li class="lvl4"><a href="#6-6-reportasje-og-intervju">§ 6-6. Reportasje og intervju</a></li>
+<li class="lvl4"><a href="#6-7-helsetjeneste">§ 6-7. Helsetjeneste</a></li>
+<li class="lvl4"><a href="#6-8-underskelse-av-innsatte-rom-og-eiendeler">§ 6-8. Undersøkelse av innsatte, rom og eiendeler</a></li>
+<li class="lvl4"><a href="#6-9-underskelse-av-andre-personer-og-gjenstander">§ 6-9. Undersøkelse av andre personer og gjenstander</a></li>
+<li class="lvl4"><a href="#6-10-besk">§ 6-10. Besøk</a></li>
+<li class="lvl4"><a href="#6-11-postsendinger">§ 6-11. Postsendinger</a></li>
+<li class="lvl4"><a href="#6-12-telefonsamtaler">§ 6-12. Telefonsamtaler</a></li>
+<li class="lvl4"><a href="#6-13-fremstillinger">§ 6-13. Fremstillinger</a></li>
+<li class="lvl4"><a href="#6-14-avvik-eller-lettelser-i-kontrolltiltakene">§ 6-14. Avvik eller lettelser i kontrolltiltakene</a></li>
+<li class="lvl2"><a href="#kapittel-7-straffegjennomfring-med-elektronisk-kontroll">Kapittel 7. Straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-1-formal">§ 7-1. Formål</a></li>
+<li class="lvl4"><a href="#7-2-hvem-som-kan-innvilges-straffegjennomfring-med-elektronisk-kontroll">§ 7-2. Hvem som kan innvilges straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-3-betingelser-for-straffegjennomfring-med-elektronisk-kontroll">§ 7-3. Betingelser for straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-4-krav-til-domfelte-under-straffegjennomfringen">§ 7-4. Krav til domfelte under straffegjennomføringen</a></li>
+<li class="lvl4"><a href="#7-5-kontroll-av-vilkar">§ 7-5. Kontroll av vilkår</a></li>
+<li class="lvl4"><a href="#7-6-permisjon">§ 7-6. Permisjon</a></li>
+<li class="lvl4"><a href="#7-7-reaksjon-pa-brudd-pa-krav-og-vilkar">§ 7-7. Reaksjon på brudd på krav og vilkår</a></li>
+<li class="lvl4"><a href="#7-8-saksbehandlingen">§ 7-8. Saksbehandlingen</a></li>
+<li class="lvl4"><a href="#7-9-informasjon-til-barn">§ 7-9. Informasjon til barn</a></li>
+<li class="lvl2"><a href="#kapittel-7a-gjennomfring-av-oppholds-og-kontaktrestriksjoner-med-elektronisk-kontroll-etterstraffeloven-52c-fjerdeogfemte-ledd">Kapittel 7A. Gjennomføring av oppholds- og kontaktrestriksjoner med elektronisk kontroll etterstraffeloven § 52c fjerdeogfemte ledd</a></li>
+<li class="lvl4"><a href="#7a-1-kriminalomsorgens-ansvar">§ 7A-1. Kriminalomsorgens ansvar</a></li>
+<li class="lvl4"><a href="#7a-2-ungdommens-medvirkningsplikt">§ 7A-2. Ungdommens medvirkningsplikt</a></li>
+<li class="lvl4"><a href="#7a-3-kontroll">§ 7A-3. Kontroll</a></li>
+<li class="lvl4"><a href="#7a-4-meldeplikt-ved-brudd-pa-vilkar">§ 7A-4. Meldeplikt ved brudd på vilkår</a></li>
+<li class="lvl4"><a href="#7a-5-behandling-av-personopplysninger">§ 7A-5. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-7b-gjennomfring-av-varetekt-med-elektronisk-kontroll">Kapittel 7B. Gjennomføring av varetekt med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7b-1-kriminalomsorgens-ansvar">§ 7B-1. Kriminalomsorgens ansvar</a></li>
+<li class="lvl4"><a href="#7b-2-kriminalomsorgens-underskelse-av-egnethet">§ 7B-2. Kriminalomsorgens undersøkelse av egnethet</a></li>
+<li class="lvl4"><a href="#7b-3-informasjon-og-samtykke">§ 7B-3. Informasjon og samtykke</a></li>
+<li class="lvl4"><a href="#7b-4-informasjon-til-patalemyndigheten-etter-underskelse">§ 7B-4. Informasjon til påtalemyndigheten etter undersøkelse</a></li>
+<li class="lvl4"><a href="#7b-5-krav-til-siktede">§ 7B-5. Krav til siktede</a></li>
+<li class="lvl4"><a href="#7b-6-kontroll-med-overholdelse-av-vilkarene-for-oppholdspabudet">§ 7B-6. Kontroll med overholdelse av vilkårene for oppholdspåbudet</a></li>
+<li class="lvl4"><a href="#7b-7-fremstillinger">§ 7B-7. Fremstillinger</a></li>
+<li class="lvl4"><a href="#7b-8-meldeplikt-ved-brudd-pa-vilkar-mv">§ 7B-8. Meldeplikt ved brudd på vilkår mv.</a></li>
+<li class="lvl4"><a href="#7b-9-behandling-av-personopplysninger">§ 7B-9. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-8-btetjeneste">Kapittel 8. Bøtetjeneste</a></li>
+<li class="lvl4"><a href="#8-1-malgruppe-for-btetjenesten">§ 8-1. Målgruppe for bøtetjenesten</a></li>
+<li class="lvl4"><a href="#8-2-kartleggingssamtale-og-gjennomfringsplan">§ 8-2. Kartleggingssamtale og gjennomføringsplan</a></li>
+<li class="lvl4"><a href="#8-3-informasjonsutveksling-mellom-kriminalomsorgen-og-innkrevingsmyndigheten">§ 8-3. Informasjonsutveksling mellom kriminalomsorgen og Innkrevingsmyndigheten</a></li>
+<li class="lvl4"><a href="#8-4-innholdet-i-btetjenesten">§ 8-4. Innholdet i bøtetjenesten</a></li>
+<li class="lvl4"><a href="#8-5-oppstartsamtale">§ 8-5. Oppstartsamtale</a></li>
+<li class="lvl4"><a href="#8-6-botlagte-som-er-ilagt-flere-straffereaksjoner">§ 8-6. Botlagte som er ilagt flere straffereaksjoner</a></li>
+<li class="lvl4"><a href="#8-7-straffavbrudd">§ 8-7. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#8-8-brudd-pa-vilkar-og-forutsetninger">§ 8-8. Brudd på vilkår og forutsetninger</a></li>
+<li class="lvl4"><a href="#8-9-avslutning-av-btetjenesten">§ 8-9. Avslutning av bøtetjenesten</a></li>
+<li class="lvl2"><a href="#kapittel-9-diverse-bestemmelser">Kapittel 9. Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-endring-av-forskriften-og-utfyllende-retningslinjer">§ 9-1. Endring av forskriften og utfyllende retningslinjer</a></li>
+<li class="lvl4"><a href="#9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-24-1325.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2002-02-22-183.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om straffegjennomføring</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2002-02-22-183.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2002-02-22-183 <code>forskrift/2002-02-22-183</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2002</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-24-1325 <code>forskrift/2026-06-24-1325</code> fra 24.06.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2002-02-22-183" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forskriftens-anvendelsesomrade-og-generelle-prinsipper-for-straffegjennomfring">Kapittel 1. Forskriftens anvendelsesområde og generelle prinsipper for straffegjennomføring</a></li>
+<li class="lvl4"><a href="#1-1-forskriftens-anvendelsesomrade">§ 1-1. Forskriftens anvendelsesområde</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-barns-rettigheter-som-parrende-til-innsatte-og-domfelte">§ 1-3. Barns rettigheter som pårørende til innsatte og domfelte</a></li>
+<li class="lvl4"><a href="#1-4-aktivitetsplikt">§ 1-4. Aktivitetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-administrative-bestemmelser">Kapittel 2. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#2-1-delegering-av-avgjrelsesmyndighet">§ 2-1. Delegering av avgjørelsesmyndighet</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-tilsatte-i-fengsler">§ 2-2. Krav til tilsatte i fengsler</a></li>
+<li class="lvl4"><a href="#2-3-opphevet">§ 2-3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-3-fengselsstraff-og-strafferettslige-srreaksjoner">Kapittel 3. Fengselsstraff og strafferettslige særreaksjoner</a></li>
+<li class="lvl4"><a href="#3-1-utsettelse-av-gjennomfring-av-straff">§ 3-1. Utsettelse av gjennomføring av straff</a></li>
+<li class="lvl4"><a href="#3-1a-ungdomsenheter-fengsler-og-friomsorgskontor-som-mottar-barn">§ 3-1a. Ungdomsenheter, fengsler og friomsorgskontor som mottar barn</a></li>
+<li class="lvl4"><a href="#3-1b-kriminalomsorgens-ansvar-overfor-barn-verge">§ 3-1b. Kriminalomsorgens ansvar overfor barn. Verge</a></li>
+<li class="lvl4"><a href="#3-2-straffetidens-lengde">§ 3-2. Straffetidens lengde</a></li>
+<li class="lvl4"><a href="#3-3-endringer-i-beregnet-straffetid">§ 3-3. Endringer i beregnet straffetid</a></li>
+<li class="lvl4"><a href="#3-4-innsettelse-i-fengsel">§ 3-4. Innsettelse i fengsel</a></li>
+<li class="lvl4"><a href="#3-5-gjennomfring-av-straff-i-institusjon">§ 3-5. Gjennomføring av straff i institusjon</a></li>
+<li class="lvl4"><a href="#3-6-gjennomfring-av-straff-i-sykehus">§ 3-6. Gjennomføring av straff i sykehus</a></li>
+<li class="lvl4"><a href="#3-7-overfring-mellom-gjennomfringsformer">§ 3-7. Overføring mellom gjennomføringsformer</a></li>
+<li class="lvl4"><a href="#3-8-gjennomfring-av-straff-utenfor-fengsel-oppmteplikt">§ 3-8. Gjennomføring av straff utenfor fengsel. Oppmøteplikt</a></li>
+<li class="lvl4"><a href="#3-9-kontroll-med-fellesskapet">§ 3-9. Kontroll med fellesskapet</a></li>
+<li class="lvl4"><a href="#3-10-bevegelsesfrihet">§ 3-10. Bevegelsesfrihet</a></li>
+<li class="lvl4"><a href="#3-11-orden-og-disiplin-tvangsmidler">§ 3-11. Orden og disiplin. Tvangsmidler</a></li>
+<li class="lvl4"><a href="#3-12-aktivitetstilbud-forhold-til-aktivitetsplikten-endring-av-innhold">§ 3-12. Aktivitetstilbud: forhold til aktivitetsplikten. Endring av innhold</a></li>
+<li class="lvl4"><a href="#3-13-dagpenger">§ 3-13. Dagpenger</a></li>
+<li class="lvl4"><a href="#3-14-frigang">§ 3-14. Frigang</a></li>
+<li class="lvl4"><a href="#3-15-arbeidsavtale-ved-frigang-arbeidslnn">§ 3-15. Arbeidsavtale ved frigang. Arbeidslønn</a></li>
+<li class="lvl4"><a href="#3-16-helseunderskelse-og-behandling-av-innsatte">§ 3-16. Helseundersøkelse og behandling av innsatte</a></li>
+<li class="lvl4"><a href="#3-17-bistand-fra-tilsatte-ved-bruk-av-legemidler">§ 3-17. Bistand fra tilsatte ved bruk av legemidler</a></li>
+<li class="lvl4"><a href="#3-18-reportasje-og-intervju">§ 3-18. Reportasje og intervju</a></li>
+<li class="lvl4"><a href="#3-19-private-eiendeler-bruk-av-private-midler">§ 3-19. Private eiendeler. Bruk av private midler</a></li>
+<li class="lvl4"><a href="#3-20-datautstyr-og-lignende">§ 3-20. Datautstyr og lignende</a></li>
+<li class="lvl4"><a href="#3-21-rusmidler">§ 3-21. Rusmidler</a></li>
+<li class="lvl4"><a href="#3-22-klr-sengety-toalettartikler-med-mer">§ 3-22. Klær, sengetøy, toalettartikler, med mer</a></li>
+<li class="lvl4"><a href="#3-23-kosthold-innkjp">§ 3-23. Kosthold. Innkjøp</a></li>
+<li class="lvl4"><a href="#3-24-underskelse-av-personer-og-gjenstander">§ 3-24. Undersøkelse av personer og gjenstander</a></li>
+<li class="lvl4"><a href="#3-25-underskelse-av-innsatte-rom-og-eiendeler">§ 3-25. Undersøkelse av innsatte, rom og eiendeler</a></li>
+<li class="lvl4"><a href="#3-26-underskelser-for-a-avdekke-bruk-av-rusmidler-med-videre">§ 3-26. Undersøkelser for å avdekke bruk av rusmidler, med videre</a></li>
+<li class="lvl4"><a href="#3-27-elektronisk-postsending">§ 3-27. Elektronisk postsending</a></li>
+<li class="lvl4"><a href="#3-28-besk">§ 3-28. Besøk</a></li>
+<li class="lvl4"><a href="#3-28a-besk-til-barn-kostnadsdekning">§ 3-28a. Besøk til barn. Kostnadsdekning</a></li>
+<li class="lvl4"><a href="#3-29-telefonsamtaler">§ 3-29. Telefonsamtaler</a></li>
+<li class="lvl4"><a href="#3-30-permisjon-permisjonstid-utgifter-ved-permisjon-permisjon-til-utlandet">§ 3-30. Permisjon. Permisjonstid. Utgifter ved permisjon. Permisjon til utlandet</a></li>
+<li class="lvl4"><a href="#3-31-unntak-fra-de-alminnelige-vilkar-for-permisjon">§ 3-31. Unntak fra de alminnelige vilkår for permisjon</a></li>
+<li class="lvl4"><a href="#3-32-fremstilling">§ 3-32. Fremstilling</a></li>
+<li class="lvl4"><a href="#3-33-straffavbrudd">§ 3-33. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#3-34-vilkar-ved-permisjon-og-straffavbrudd-brudd-pa-vilkar">§ 3-34. Vilkår ved permisjon og straffavbrudd. Brudd på vilkår</a></li>
+<li class="lvl4"><a href="#3-35-utelukkelse-fra-fellesskapet-som-forebyggende-tiltak">§ 3-35. Utelukkelse fra fellesskapet som forebyggende tiltak</a></li>
+<li class="lvl4"><a href="#3-36-umiddelbar-utelukkelse-som-flge-av-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner">§ 3-36. Umiddelbar utelukkelse som følge av brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner</a></li>
+<li class="lvl4"><a href="#3-37-reaksjon-pa-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner-tap-av-dagpenger-og-tap-av-begunstigelse">§ 3-37. Reaksjon på brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner. Tap av dagpenger og tap av begunstigelse</a></li>
+<li class="lvl4"><a href="#3-38-reaksjon-pa-brudd-uttalelsesrett-forsk-gjentagelse">§ 3-38. Reaksjon på brudd. Uttalelsesrett. Forsøk. Gjentagelse</a></li>
+<li class="lvl4"><a href="#3-39-reaksjon-pa-brudd-betinget-reaksjon-iverksettelse-oppsettende-virkning">§ 3-39. Reaksjon på brudd. Betinget reaksjon. Iverksettelse. Oppsettende virkning</a></li>
+<li class="lvl4"><a href="#3-40-dekning-av-reiseutgifter-ved-lslatelse-fra-fengselsstraff">§ 3-40. Dekning av reiseutgifter ved løslatelse fra fengselsstraff</a></li>
+<li class="lvl4"><a href="#3-41-lslatelse-fra-fengselsstraff-nar-vedtak-skal-foreligge">§ 3-41. Løslatelse fra fengselsstraff. Når vedtak skal foreligge</a></li>
+<li class="lvl4"><a href="#3-42-mteplikt-i-prvetiden">§ 3-42. Møteplikt i prøvetiden</a></li>
+<li class="lvl4"><a href="#3-43-forlengelse-av-perioden-med-mteplikt-opphr">§ 3-43. Forlengelse av perioden med møteplikt. Opphør</a></li>
+<li class="lvl4"><a href="#3-44-kontroll-av-prvelslatte">§ 3-44. Kontroll av prøveløslatte</a></li>
+<li class="lvl4"><a href="#3-45-brudd-pa-prvelslatelsesvilkar-i-perioden-med-mteplikt-for-kriminalomsorgen">§ 3-45. Brudd på prøveløslatelsesvilkår i perioden med møteplikt for kriminalomsorgen</a></li>
+<li class="lvl2"><a href="#kapittel-4-varetekt-og-andre-reaksjoner-nar-det-er-srskilt-bestemt-i-lov">Kapittel 4. Varetekt og andre reaksjoner når det er særskilt bestemt i lov</a></li>
+<li class="lvl4"><a href="#4-1-plassering-av-varetektsinnsatte-og-personer-som-politiet-har-pagrepet-overfring">§ 4-1. Plassering av varetektsinnsatte og personer som politiet har pågrepet. Overføring</a></li>
+<li class="lvl4"><a href="#4-1a-varetektsinnsatte-under-18-ar-informasjon">§ 4-1a. Varetektsinnsatte under 18 år. Informasjon</a></li>
+<li class="lvl4"><a href="#4-2-fellesskap">§ 4-2. Fellesskap</a></li>
+<li class="lvl4"><a href="#4-3-arbeid-opplring-program-og-andre-tiltak">§ 4-3. Arbeid, opplæring, program og andre tiltak</a></li>
+<li class="lvl4"><a href="#4-4-overgang-fra-varetektsfengsling-til-straffegjennomfring-lslatelse">§ 4-4. Overgang fra varetektsfengsling til straffegjennomføring. Løslatelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-samfunnsstraff">Kapittel 5. Samfunnsstraff</a></li>
+<li class="lvl4"><a href="#5-1-utsettelse-av-gjennomfring-av-samfunnsstraff-beregning-av-straffetid">§ 5-1. Utsettelse av gjennomføring av samfunnsstraff. Beregning av straffetid</a></li>
+<li class="lvl4"><a href="#5-2-innholdet-i-samfunnsstraffen">§ 5-2. Innholdet i samfunnsstraffen</a></li>
+<li class="lvl4"><a href="#5-3-straffavbrudd">§ 5-3. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#5-4-reaksjon-pa-brudd">§ 5-4. Reaksjon på brudd</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-regler-om-innsettelse-og-opphold-i-avdelinger-med-srlig-hyt-sikkerhetsniva">Kapittel 6. Særlige regler om innsettelse og opphold i avdelinger med særlig høyt sikkerhetsnivå</a></li>
+<li class="lvl4"><a href="#6-1-avgjrelsesmyndighet-og-varighet">§ 6-1. Avgjørelsesmyndighet og varighet</a></li>
+<li class="lvl4"><a href="#6-2-vilkar-for-innsettelse-i-avdeling-med-srlig-hyt-sikkerhetsniva">§ 6-2. Vilkår for innsettelse i avdeling med særlig høyt sikkerhetsnivå</a></li>
+<li class="lvl4"><a href="#6-3-fellesskap-med-andre-innsatte">§ 6-3. Fellesskap med andre innsatte</a></li>
+<li class="lvl4"><a href="#6-4-arbeid-opplring-program-eller-andre-tiltak">§ 6-4. Arbeid, opplæring, program eller andre tiltak</a></li>
+<li class="lvl4"><a href="#6-5-religion-og-livssyn">§ 6-5. Religion og livssyn</a></li>
+<li class="lvl4"><a href="#6-6-reportasje-og-intervju">§ 6-6. Reportasje og intervju</a></li>
+<li class="lvl4"><a href="#6-7-helsetjeneste">§ 6-7. Helsetjeneste</a></li>
+<li class="lvl4"><a href="#6-8-underskelse-av-innsatte-rom-og-eiendeler">§ 6-8. Undersøkelse av innsatte, rom og eiendeler</a></li>
+<li class="lvl4"><a href="#6-9-underskelse-av-andre-personer-og-gjenstander">§ 6-9. Undersøkelse av andre personer og gjenstander</a></li>
+<li class="lvl4"><a href="#6-10-besk">§ 6-10. Besøk</a></li>
+<li class="lvl4"><a href="#6-11-postsendinger">§ 6-11. Postsendinger</a></li>
+<li class="lvl4"><a href="#6-12-telefonsamtaler">§ 6-12. Telefonsamtaler</a></li>
+<li class="lvl4"><a href="#6-13-fremstillinger">§ 6-13. Fremstillinger</a></li>
+<li class="lvl4"><a href="#6-14-avvik-eller-lettelser-i-kontrolltiltakene">§ 6-14. Avvik eller lettelser i kontrolltiltakene</a></li>
+<li class="lvl2"><a href="#kapittel-7-straffegjennomfring-med-elektronisk-kontroll">Kapittel 7. Straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-1-formal">§ 7-1. Formål</a></li>
+<li class="lvl4"><a href="#7-2-hvem-som-kan-innvilges-straffegjennomfring-med-elektronisk-kontroll">§ 7-2. Hvem som kan innvilges straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-3-betingelser-for-straffegjennomfring-med-elektronisk-kontroll">§ 7-3. Betingelser for straffegjennomføring med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7-4-krav-til-domfelte-under-straffegjennomfringen">§ 7-4. Krav til domfelte under straffegjennomføringen</a></li>
+<li class="lvl4"><a href="#7-5-kontroll-av-vilkar">§ 7-5. Kontroll av vilkår</a></li>
+<li class="lvl4"><a href="#7-6-permisjon">§ 7-6. Permisjon</a></li>
+<li class="lvl4"><a href="#7-7-reaksjon-pa-brudd-pa-krav-og-vilkar">§ 7-7. Reaksjon på brudd på krav og vilkår</a></li>
+<li class="lvl4"><a href="#7-8-saksbehandlingen">§ 7-8. Saksbehandlingen</a></li>
+<li class="lvl4"><a href="#7-9-informasjon-til-barn">§ 7-9. Informasjon til barn</a></li>
+<li class="lvl2"><a href="#kapittel-7a-gjennomfring-av-oppholds-og-kontaktrestriksjoner-med-elektronisk-kontroll-etterstraffeloven-52c-fjerdeogfemte-ledd">Kapittel 7A. Gjennomføring av oppholds- og kontaktrestriksjoner med elektronisk kontroll etterstraffeloven § 52c fjerdeogfemte ledd</a></li>
+<li class="lvl4"><a href="#7a-1-kriminalomsorgens-ansvar">§ 7A-1. Kriminalomsorgens ansvar</a></li>
+<li class="lvl4"><a href="#7a-2-ungdommens-medvirkningsplikt">§ 7A-2. Ungdommens medvirkningsplikt</a></li>
+<li class="lvl4"><a href="#7a-3-kontroll">§ 7A-3. Kontroll</a></li>
+<li class="lvl4"><a href="#7a-4-meldeplikt-ved-brudd-pa-vilkar">§ 7A-4. Meldeplikt ved brudd på vilkår</a></li>
+<li class="lvl4"><a href="#7a-5-behandling-av-personopplysninger">§ 7A-5. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-7b-gjennomfring-av-varetekt-med-elektronisk-kontroll">Kapittel 7B. Gjennomføring av varetekt med elektronisk kontroll</a></li>
+<li class="lvl4"><a href="#7b-1-kriminalomsorgens-ansvar">§ 7B-1. Kriminalomsorgens ansvar</a></li>
+<li class="lvl4"><a href="#7b-2-kriminalomsorgens-underskelse-av-egnethet">§ 7B-2. Kriminalomsorgens undersøkelse av egnethet</a></li>
+<li class="lvl4"><a href="#7b-3-informasjon-og-samtykke">§ 7B-3. Informasjon og samtykke</a></li>
+<li class="lvl4"><a href="#7b-4-informasjon-til-patalemyndigheten-etter-underskelse">§ 7B-4. Informasjon til påtalemyndigheten etter undersøkelse</a></li>
+<li class="lvl4"><a href="#7b-5-krav-til-siktede">§ 7B-5. Krav til siktede</a></li>
+<li class="lvl4"><a href="#7b-6-kontroll-med-overholdelse-av-vilkarene-for-oppholdspabudet">§ 7B-6. Kontroll med overholdelse av vilkårene for oppholdspåbudet</a></li>
+<li class="lvl4"><a href="#7b-7-fremstillinger">§ 7B-7. Fremstillinger</a></li>
+<li class="lvl4"><a href="#7b-8-meldeplikt-ved-brudd-pa-vilkar-mv">§ 7B-8. Meldeplikt ved brudd på vilkår mv.</a></li>
+<li class="lvl4"><a href="#7b-9-behandling-av-personopplysninger">§ 7B-9. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-8-btetjeneste">Kapittel 8. Bøtetjeneste</a></li>
+<li class="lvl4"><a href="#8-1-malgruppe-for-btetjenesten">§ 8-1. Målgruppe for bøtetjenesten</a></li>
+<li class="lvl4"><a href="#8-2-kartleggingssamtale-og-gjennomfringsplan">§ 8-2. Kartleggingssamtale og gjennomføringsplan</a></li>
+<li class="lvl4"><a href="#8-3-informasjonsutveksling-mellom-kriminalomsorgen-og-innkrevingsmyndigheten">§ 8-3. Informasjonsutveksling mellom kriminalomsorgen og Innkrevingsmyndigheten</a></li>
+<li class="lvl4"><a href="#8-4-innholdet-i-btetjenesten">§ 8-4. Innholdet i bøtetjenesten</a></li>
+<li class="lvl4"><a href="#8-5-oppstartsamtale">§ 8-5. Oppstartsamtale</a></li>
+<li class="lvl4"><a href="#8-6-botlagte-som-er-ilagt-flere-straffereaksjoner">§ 8-6. Botlagte som er ilagt flere straffereaksjoner</a></li>
+<li class="lvl4"><a href="#8-7-straffavbrudd">§ 8-7. Straffavbrudd</a></li>
+<li class="lvl4"><a href="#8-8-brudd-pa-vilkar-og-forutsetninger">§ 8-8. Brudd på vilkår og forutsetninger</a></li>
+<li class="lvl4"><a href="#8-9-avslutning-av-btetjenesten">§ 8-9. Avslutning av bøtetjenesten</a></li>
+<li class="lvl2"><a href="#kapittel-9-diverse-bestemmelser">Kapittel 9. Diverse bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-endring-av-forskriften-og-utfyllende-retningslinjer">§ 9-1. Endring av forskriften og utfyllende retningslinjer</a></li>
+<li class="lvl4"><a href="#9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2002-02-22-183.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2002-02-22-183.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2002-02-22-183.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2002-02-22-183.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2002-02-22-183.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2002-02-22-183.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2002-02-22-183.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2002-02-22-183.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2002-02-22-183.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-straffegjennomfring">Forskrift om straffegjennomføring</h1>
 <h2 id="kapittel-1-forskriftens-anvendelsesomrade-og-generelle-prinsipper-for-straffegjennomfring">Kapittel 1. Forskriftens anvendelsesområde og generelle prinsipper for straffegjennomføring</h2>
 <h4 id="1-1-forskriftens-anvendelsesomrade">§ 1-1. Forskriftens anvendelsesområde <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder for fengselsstraff, varetekt, personer som politiet har pågrepet og samfunnsstraff. For strafferettslige særreaksjoner gjelder forskriften så langt den passer med forskrift om gjennomføring av forvaring. For overgangsboliger gjelder forskriften med utfyllende retningslinjer gitt av Kriminalomsorgsdirektoratet. For oppholds- og kontaktrestriksjoner med elektronisk kontroll ilagt etter straffeloven § 52c fjerde og femte ledd gjelder forskriften kapittel 7A.</p>
-<p><em>Endret ved forskrifter 2 juli 2007 nr. 878 , 26 juni 2014 nr. 878 , 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Endret ved forskrifter 2 juli 2007 nr. 878 , 26 juni 2014 nr. 878 , 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="1-2-formal">§ 1-2. Formål</h4>
 <p>Så langt det er forenlig med hensynet til samfunnets sikkerhet og den alminnelige rettsoppfatning, skal forholdene legges til rette for at den straffedømte gis mulighet til å endre livsførsel og hindre tilbakefall.</p>
 <p>Varetektsinnsatte og andre som ikke kan delta i fellesskap skal prioriteres med hensyn til aktiviteter og samvær med tilsatte med sikte på å redusere skadevirkningene av isolasjon.</p>
 <h4 id="1-3-barns-rettigheter-som-parrende-til-innsatte-og-domfelte">§ 1-3. Barns rettigheter som pårørende til innsatte og domfelte <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kriminalomsorgen skal ha funksjonen barneansvarlig ved alle enheter. De barneansvarlige skal koordinere kriminalomsorgens arbeid overfor barn under 18 år som pårørende, og sikre barneperspektivet.</p>
 <p>Kriminalomsorgen skal legge vekt på hensynet til barnets beste. Barns rett til samvær og kontakt med sine foreldre skal særlig vektlegges. Barn har rett til å uttale seg i saker som angår dem.</p>
-<p><em>Endret ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Endret ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="1-4-aktivitetsplikt">§ 1-4. Aktivitetsplikt <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Aktivitetsplikten gjelder for domfelte som gjennomfører straff eller strafferettslig særreaksjon. Varetektsinnsatte og personer som politiet har pågrepet har ikke aktivitetsplikt, men skal gis tilbud om aktiviteter så langt det passer med varetektskjennelsen og påtalemyndighetens bestemmelser. Aktivitetene skal søkes lagt til rette etter den innsattes forutsetninger.</p>
-<p><em>Endret ved forskrift 2 juli 2007 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 2 juli 2007 nr. 878 .</p>
 <h2 id="kapittel-2-administrative-bestemmelser">Kapittel 2. Administrative bestemmelser</h2>
 <h4 id="2-1-delegering-av-avgjrelsesmyndighet">§ 2-1. Delegering av avgjørelsesmyndighet <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det delegeres myndighet til lokalt nivå til å avslå søknader etter straffegjennomføringsloven § 12 til § 16 a, § 20 , § 33 , § 35 og § 42 for domfelte som er dømt til fengselsstraff i mer enn ti år eller som er dømt til sikring eller forvaring.</p>
 <p>Det delegeres myndighet til lokalt nivå til å innvilge søknad om permisjon fra domfelte som er dømt til fengselsstraff i mer enn ti år når regionalt nivå eller Kriminalomsorgsdirektoratet tidligere har innvilget ordinær permisjon og den har vært gjennomført uten svikt.</p>
 <p>Det delegeres myndighet til lokalt nivå til å innvilge søknader etter straffegjennomføringsloven § 12 , § 13 , § 20 , § 33 og § 35 fra domfelte som er dømt til fengselsstraff i mer enn ti år, men som ikke er idømt sikring eller forvaring og som etter beslutning av regionalt nivå eller Kriminalomsorgsdirektoratet er overført til fengsel med lavere sikkerhetsnivå.</p>
-<p><em>Endret ved forskrifter 26 juni 2014 nr. 878 , 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2014 nr. 878 , 24 juli 2020 nr. 1591 .</p>
 <h4 id="2-2-krav-til-tilsatte-i-fengsler">§ 2-2. Krav til tilsatte i fengsler <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å bli fast tilsatt som fengselsbetjent kreves det at den tilsatte har gjennomgått og bestått en nærmere fastsatt fengselsbetjentutdanning.</p>
-<p><em>Endret ved forskrifter 23 juni 2011 nr. 853 , 26 juni 2014 nr. 878 , 24 juni 2026 nr. 1325 .</em></p>
+<p class="note">Endret ved forskrifter 23 juni 2011 nr. 853 , 26 juni 2014 nr. 878 , 24 juni 2026 nr. 1325 .</p>
 <h4 id="2-3-opphevet">§ 2-3. (Opphevet) <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 2 juli 2007 nr. 878 , opphevet ved forskrift 9 des 2024 nr. 3005 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 2 juli 2007 nr. 878 , opphevet ved forskrift 9 des 2024 nr. 3005 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-3-fengselsstraff-og-strafferettslige-srreaksjoner">Kapittel 3. Fengselsstraff og strafferettslige særreaksjoner</h2>
 <h4 id="3-1-utsettelse-av-gjennomfring-av-straff">§ 3-1. Utsettelse av gjennomføring av straff <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Domfelte som fyller vilkårene for utsettelse av gjennomføring av straff etter straffeprosessloven § 459 , jf. forskrift om innkalling og utsettelse ved fullbyrding av straff § 6 , § 7 og § 8 , skal ikke mottas til straffegjennomføring.</p>
-<p><em>Endret ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Endret ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-1a-ungdomsenheter-fengsler-og-friomsorgskontor-som-mottar-barn">§ 3-1a. Ungdomsenheter, fengsler og friomsorgskontor som mottar barn <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-1a.html" title="Endringshistorikk for § 3-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ungdomsenhetene skal ha en tverrfaglig basisbemanning, med om lag halvparten fengselsbetjenter og halvparten tilsatte med miljøterapeutisk, barnefaglig eller annen relevant sosialfaglig bakgrunn.</p>
 <p>Fengsler og friomsorgskontor som mottar barn i varetekt eller til straffegjennomføring, skal tilrettelegge forholdene slik at barnets behov og rettigheter blir ivaretatt. Hvis det foreligger en personundersøkelse, skal denne tillegges vekt i vurderingen av barnets behov. Det tverretatlige teamet ved en ungdomsenhet skal kontaktes for å bistå med tilretteleggingen.</p>
-<p><em>Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-1b-kriminalomsorgens-ansvar-overfor-barn-verge">§ 3-1b. Kriminalomsorgens ansvar overfor barn. Verge <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-1b.html" title="Endringshistorikk for § 3-1b" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Alle handlinger og avgjørelser som berører barn, skal ta hensyn til barnets beste. Barnet skal kunne gi uttrykk for egne synspunkter, enten direkte eller gjennom representant. Det skal fremgå i enkeltvedtak som gjelder barn at hensynet til barnets beste har vært et grunnleggende hensyn og hvilken vekt hensynet til barnets beste er tillagt.</p>
 <p>Når barn varetektsfengsles eller skal gjennomføre straff, skal det registreres hvem som er verge for vedkommende, jf. vergemålsloven § 16 , § 25 , § 27 , og utlendingsloven kapittel 11 A . Vergen skal informeres om alle handlinger og avgjørelser som er av betydning for den mindreårige.</p>
-<p><em>Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-2-straffetidens-lengde">§ 3-2. Straffetidens lengde</h4>
 <p>I forbindelse med at straffegjennomføring påbegynnes skal det foretas beregning av tidspunkt for endt straffetid, eventuelt også av dato for forventet prøveløslatelse. Domfelte skal samtidig informeres om at prøveløslatelse kan nektes dersom prøveløslatelse anses utilrådelig. Skal domfelte gjennomføre flere straffer, legges den samlede straffetid til grunn for beregningen og straffene gjennomføres i sammenheng.</p>
 <p>Det skal gjøres fradrag for eventuell utholdt varetektsfengsling i henhold til straffeloven § 60 og straffeprosessloven § 460 . Fradrag gjøres også for transporttid.</p>
@@ -130,7 +421,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Domfelte skal ved innsettelsen gjøres kjent med adgangen til å søke om overføring til straffegjennomføring i hjemlandet etter den europeiske konvensjonen av 21. mars 1983 nr. 1 om overføring av domfelte, jf. lov om overføring av domfelte av 20. juli 1991 nr. 67 , eller adgangen til overføring til et av de nordiske land i medhold av lov om fullbyrding av nordiske dommer på straff m.v. av 15. november 1963.</p>
 <p>Barn som skal innsettes i fengsel, enten i varetekt eller til straffegjennomføring, skal innsettes i ungdomsenhet, med mindre barnets behov blir bedre ivaretatt i en annen fengselsavdeling og slik plassering er til barnets beste. Dersom det vurderes innsettelse i annen fengselsavdeling, skal det innhentes en uttalelse fra det tverretatlige teamet ved en ungdomsenhet.</p>
 <p>Ved ekstraordinære omstendigheter, der innsettelse i ungdomsenhet ikke er mulig, kan barnet unntaksvis innsettes i annen fengselsavdeling. Kriminalomsorgen skal i slike tilfeller så snart som mulig innrette fengselsavdelingen i tråd med barnets behov og rettigheter.</p>
-<p><em>Endret ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Endret ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-5-gjennomfring-av-straff-i-institusjon">§ 3-5. Gjennomføring av straff i institusjon</h4>
 <p>Gjennomføring av straff skal som hovedregel være påbegynt i fengsel før overføring til straffegjennomføring i institusjon finner sted. Domfelte kan unntaksvis gis adgang til å gjennomføre hele straffen i institusjon dersom særlige og tungtveiende grunner tilsier det.</p>
 <p>Opphold i institusjon skal normalt ikke strekke seg utover 12 måneder. Innvilgelse av søknad om dispensasjon fra denne regelen kan gis av nærmeste overordnede nivå dersom særlige og tungtveiende grunner tilsier det.</p>
@@ -141,7 +432,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Bygnings- og bemanningsmessige forhold eller plassmangel kan unntaksvis begrunne overføring til et mer restriktivt fengsel enn det som sikkerhetsmessige hensyn tilsier.</p>
 <h4 id="3-8-gjennomfring-av-straff-utenfor-fengsel-oppmteplikt">§ 3-8. Gjennomføring av straff utenfor fengsel. Oppmøteplikt <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I tillegg til grunnvilkårene i straffegjennomføringsloven § 16 annet ledd og eventuelle vilkår etter straffegjennomføringsloven § 16 tredje ledd, skal domfelte pålegges å møte for kriminalomsorgen eller annen offentlig myndighet, person eller organisasjon som kriminalomsorgen anviser minimum én gang per uke.</p>
-<p><em>Endret ved forskrifter 29 juli 2008 nr. 863 (i kraft 1 aug 2008), 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Endret ved forskrifter 29 juli 2008 nr. 863 (i kraft 1 aug 2008), 24 juli 2020 nr. 1591 .</p>
 <h4 id="3-9-kontroll-med-fellesskapet">§ 3-9. Kontroll med fellesskapet</h4>
 <p>Fellesskapet i fengsel med høyt sikkerhetsnivå skal være under stadig tilsyn og kontroll.</p>
 <p>I fengsel med lavere sikkerhetsnivå og overgangsbolig bestemmes tilsynet ut fra de forhold som foreligger, herunder bygnings- og bemanningsmessige forhold og sammensetningen av innsatte.</p>
@@ -152,7 +443,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Lokalt nivå kan gi utfyllende bestemmelser om ro, orden og disiplin i fengselet. De innsatte skal rette seg etter gjeldende bestemmelser og etterkomme pålegg og avgjørelser gitt av tilsatte i kriminalomsorgen.</p>
 <p>Overfor innsatte som ikke retter seg etter bestemmelser om ro, orden og disiplin, kan tilsatte bruke fysisk makt når dette er nødvendig og forsvarlig og mindre inngripende tiltak forgjeves har vært forsøkt eller vil fremstå som utilstrekkelig.</p>
 <p>Når det gjelder bruk av tvangsmidler og vilkårene for bruk av slike midler, vises det til straffegjennomføringsloven § 38 . Tvangsmidler skal være godkjent av Kriminalomsorgsdirektoratet før de tas i bruk.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-12-aktivitetstilbud-forhold-til-aktivitetsplikten-endring-av-innhold">§ 3-12. Aktivitetstilbud: forhold til aktivitetsplikten. Endring av innhold</h4>
 <p>Arbeid, opplæring, program eller andre tiltak er likestilt og fyller kravene til aktivitetsplikten. Det kan ikke pålegges den innsatte å delta i opplæring, programmer og andre tiltak som behandling og lignende mot vedkommendes vilje. Arbeid kan pålegges dersom innsatte ikke ønsker å delta i slike tiltak.</p>
 <p>Innholdet i aktiviteten kan endres når det fremstår som nødvendig av hensyn til en sikkerhetsmessig forsvarlig gjennomføring av straffen eller hvis bemanningsmessige forhold tilsier det. Innholdet kan til enhver tid endres i samarbeid med den innsatte.</p>
@@ -166,7 +457,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>På bevegelige helligdager som faller på normale virkedager skal alle innsatte som ikke deltar i ordinært arbeid eller som nekter å delta i den aktiviteten de er satt til, godtgjøres etter satsen for stønadspenger. Tilsvarende gjelder ved fritak fra aktivitetsplikten på særskilte og klart dokumenterte helligdager der dette på forhånd er avklart med lokalt nivå.</p>
 <p>Domfelte som gjennomfører straff i institusjon eller sykehus etter straffegjennomføringsloven § 12 og § 13 skal i alminnelighet tilstås dagpenger etter sats for stønadspenger. Det er en forutsetning for utbetalingen at den domfelte ikke mottar dagpenger eller lignende godtgjøring fra den institusjonen som vedkommende er overført til. Dersom den domfelte er trygdet bortfaller dagpengene ved overføring etter straffegjennomføringsloven § 12 og § 13 , jf. folketrygdloven § 3-27 og § 3-28 .</p>
 <p>Domfelte som gjennomfører straff utenfor fengsel etter straffegjennomføringsloven § 16 og § 16a skal ikke tilstås dagpenger.</p>
-<p><em>Endret ved forskrifter 26 juni 2014 nr. 878 , 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2014 nr. 878 , 24 juli 2020 nr. 1591 .</p>
 <h4 id="3-14-frigang">§ 3-14. Frigang</h4>
 <p>Frigang kan først påbegynnes etter en sammenhengende frihetsberøvelse på minst 4 måneder. Domfelte må i tillegg ha gjennomført minst 1/3 av straffetiden.</p>
 <p>Frigang skal som hovedregel ikke tilstås for et lengre tidsrom enn 1 år. Frigang til undervisning kan likevel tilstås i inntil 2 år dersom undervisningen er ledd i en samlet utdanningsplan.</p>
@@ -242,7 +533,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Kriminalomsorgen dekker kostnader for reise innad i Norge og overnatting i tre dager minst én gang i måneden for inntil fire personer fra barnets nære familie. Kostnader for reise og overnatting skal avtales på forhånd med kriminalomsorgen og gjennomføres på den rimeligste eller mest hensiktsmessige måten.</p>
 <p>Foreldre, søsken, besteforeldre og fosterforeldre anses som nær familie etter tredje ledd.</p>
 <p>Etter en konkret vurdering kan også andre familiemedlemmer eller personer som barnet har særlig tilknytning til omfattes av regelen i tredje ledd.</p>
-<p><em>Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-29-telefonsamtaler">§ 3-29. Telefonsamtaler <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-29.html" title="Endringshistorikk for § 3-29" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Innsatte kan selv velge hvilke personer vedkommende ønsker å telefonere med, og fengselet kan ikke begrense personkretsen med unntak av adgangen til å nekte innsatte å telefonere.</p>
 <p>Innsatte i fengsel og overgangsbolig skal minst gis adgang til å føre én eller flere telefonsamtaler av til sammen 30 minutters varighet pr. uke, dersom kapasitetsmessige forhold ikke er til hinder for det. Kriminalomsorgsdirektoratet har fullmakt til å fastsette den konkrete ringetiden utover minimumstiden angitt i første punktum.</p>
@@ -250,7 +541,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Barn skal ut fra sitt behov ha adgang til å telefonere. De har rett til minst tre telefonsamtaler i uken av 20 minutters varighet per telefonsamtale. Kapasitetsmessige hensyn kan bare i ekstraordinære tilfeller begrunne at det ikke gis rett til å telefonere mer enn tre ganger i uken. Kriminalomsorgsdirektoratet har fullmakt til å fastsette den konkrete ringetiden utover minimumstiden angitt i annet punktum.</p>
 <p>Utgifter som påløper ved telefonsamtaler skal den innsatte som hovedregel dekke selv av de dagpenger fengselet utbetaler. Nødvendige samtaler med offentlig oppnevnt forsvarer, vedkommende innsattes diplomatiske eller konsulære representant eller innsattes pårørende, kan dekkes av egne midler. I tilfelle hvor innsatte ikke har private midler skal fengselet dekke slike nødvendige utgifter. Fengselet skal på rimeligste måte dekke utgifter til varetektsinnsattes nødvendige samtaler med sin forsvarer. Det kan pålegges å ringe til fast installert telefon.</p>
 <p>Kostnadene ved telefonsystemets kontrolltiltak skal ikke belastes den innsatte. Kriminalomsorgsdirektoratet har fullmakt til å foreta den konkrete prisfastsettingen.</p>
-<p><em>Endret ved forskrifter 30 okt 2015 nr. 1235 , 7 okt 2024 nr. 2423 .</em></p>
+<p class="note">Endret ved forskrifter 30 okt 2015 nr. 1235 , 7 okt 2024 nr. 2423 .</p>
 <h4 id="3-30-permisjon-permisjonstid-utgifter-ved-permisjon-permisjon-til-utlandet">§ 3-30. Permisjon. Permisjonstid. Utgifter ved permisjon. Permisjon til utlandet <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-30.html" title="Endringshistorikk for § 3-30" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Permisjon kan innvilges i form av ordinær permisjon, velferdspermisjon og korttidspermisjon av noen timers varighet.</p>
 <p>Domfelte kan i tillegg til korttidspermisjon innvilges et ordinært samlet permisjonsfravær i året (permisjonskvote) på inntil 18 døgn, med tillegg av nødvendig reisetid. Etter nærmere retningslinjer fra Kriminalomsorgsdirektoratet kan domfelte i særlige tilfeller innvilges en årlig permisjonskvote på inntil 30 døgn. Permisjonskvoten løper fra første ordinære permisjon gjennomføres. I overgangsbolig gjelder egne bestemmelser om permisjonskvote.</p>
@@ -258,7 +549,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Permisjon til utlandet skal som hovedregel ikke innvilges.</p>
 <p>Ordinær permisjon og korttidspermisjon kan gjennomføres etter en sammenhengende frihetsberøvelse frem til permisjonstidspunktet på minst 4 måneder. Domfelte må i tillegg ha utholdt minst 1/3 av straffetiden. Domfelte med lengre straffetid enn fengsel i 12 år kan innvilges ordinær permisjon etter 4 års sammenhengende straffegjennomføring (permisjonstid).</p>
 <p>Velferdspermisjon kan innvilges på et hvert tidspunkt under straffegjennomføringen før permisjonstid er oppnådd.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-31-unntak-fra-de-alminnelige-vilkar-for-permisjon">§ 3-31. Unntak fra de alminnelige vilkår for permisjon</h4>
 <p>Dersom det foreligger særlige og tungtveiende grunner, kan domfelte unntaksvis innvilges permisjonstid på et tidligere tidspunkt enn etter bestemmelsene i § 3-30 (fremskutt permisjonstid). Dersom det foreligger særlige og tungtveiende grunner kan domfelte unntaksvis innvilges flere døgns permisjon pr. år enn det som følger av § 3-30 (utvidet permisjonskvote).</p>
 <h4 id="3-32-fremstilling">§ 3-32. Fremstilling</h4>
@@ -275,7 +566,7 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Skadelige følger av utelukkelse fra fellesskapet skal så vidt mulig forebygges eller bøtes på.</p>
 <p>Kriminalomsorgen skal sørge for at barn som utelukkes fra fellesskapet etter straffegjennomføringsloven § 37 , får utvidet adgang til lufting, samvær med tilsatte, utvidet adgang til besøk fra venner og familie, utvidet adgang til fysisk aktivitet og andre tiltak som kan forebygge skadevirkninger av å bli utelukket fra fellesskapet.</p>
 <p>Kriminalomsorgen skal i vurderingen av om barn skal utelukkes fra fellesskapet, vurdere hensynet til barnets beste. Det skal innhentes en uttalelse fra det tverretatlige teamet ved en ungdomsenhet, med mindre det av tidsmessige årsaker ikke er mulig.</p>
-<p><em>Endret ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Endret ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="3-36-umiddelbar-utelukkelse-som-flge-av-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner">§ 3-36. Umiddelbar utelukkelse som følge av brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner</h4>
 <p>Utelukkelse etter straffegjennomføringsloven § 39 kommer til fradrag i en eventuell etterfølgende reaksjon etter straffegjennomføringsloven § 40 annet ledd bokstav c – e.</p>
 <h4 id="3-37-reaksjon-pa-brudd-ved-gjennomfring-av-fengselsstraff-og-strafferettslige-srreaksjoner-tap-av-dagpenger-og-tap-av-begunstigelse">§ 3-37. Reaksjon på brudd ved gjennomføring av fengselsstraff og strafferettslige særreaksjoner. Tap av dagpenger og tap av begunstigelse</h4>
@@ -303,14 +594,14 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 <p>Løslatelse på prøve kan bare finne sted dersom det etter en konkret vurdering anses tilrådelig.</p>
 <p>Dersom domfelte nektes løslatelse på prøve, skal løslatelsesspørsmålet vurderes fortløpende, og senest innen 3 måneder etter at løslatelsen i medhold av straffegjennomføringsloven § 42 første ledd ellers kunne ha funnet sted. For domfelte som er dømt til fengselsstraff fra 5 til 12 år, skal vurderingen skje senest innen 6 måneder, og for domfelte som er dømt til fengselsstraff i mer enn 12 år, skal vurderingen skje senest innen ett år.</p>
 <p>Dersom det etter ovennevnte frister fortsatt er grunnlag for å nekte domfelte løslatelse på prøve, skal spørsmålet vurderes fortløpende, senest innen henholdsvis nye 3 eller 6 måneder eller ett år fra forrige vedtak, jf. annet ledd.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-42-mteplikt-i-prvetiden">§ 3-42. Møteplikt i prøvetiden <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-42.html" title="Endringshistorikk for § 3-42" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Leder av fengsel skal i samarbeid med friomsorgskontoret fastsette dato for første oppmøte og oppmøtehyppighet før tidspunktet for løslatelse. Perioden med møteplikt løper fra tidspunktet for første møte ved friomsorgskontoret. Domfelte skal møte presis.</p>
 <p>Lengden på perioden med møteplikt skal normalt være 3 måneder. Ved lengre dommer der det fremstår som nødvendig for å motvirke ny kriminalitet, kan perioden med møteplikt fastsettes for inntil 1 år. Lengden på perioden med møteplikt kan settes for en lengre periode enn 1 år dersom hensynet til en sikkerhetsmessig forsvarlig gjennomføring av prøveløslatelsen gjør det særlig påkrevet. Ved kortere dommer kan perioden med møteplikt fastsettes for en kortere periode, men ikke under 1 måned. I tillegg til en egen saksbehandler ved friomsorgskontoret, kan det benyttes annen kontaktperson oppnevnt av friomsorgskontoret.</p>
 <p>Det skal utarbeides en gjennomføringsplan mellom friomsorgskontoret og domfelte om det nærmere innholdet i perioden med møteplikt. Planen kan endres dersom det er nødvendig på grunn av nye opplysninger eller endret livssituasjon.</p>
 <p>Domfelte skal på forhånd få adgang til å uttale seg om perioden med møteplikt for kriminalomsorgen og om eventuelle øvrige vilkår.</p>
 <p>Domfelte skal selv dekke reiseutgifter i forbindelse med oppmøteplikten. Kriminalomsorgen skal dekke utgiftene dersom domfelte ikke selv har midler.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-43-forlengelse-av-perioden-med-mteplikt-opphr">§ 3-43. Forlengelse av perioden med møteplikt. Opphør <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-43.html" title="Endringshistorikk for § 3-43" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Perioden med møteplikt kan forlenges med inntil 3 måneder. Regionalt nivå kan fastsette ytterligere forlengelse, men ikke utover 1 år. I tilfeller der hensynet til en sikkerhetsmessig forsvarlig gjennomføring av prøveløslatelsen gjør det særlig påkrevet, kan regionalt nivå likevel forlenge perioden med møteplikt utover 1 år. Perioden kan ikke forlenges ut over prøvetidens utløp.</p>
 <p>Møtepliktsperioden opphører når</p>
@@ -318,24 +609,24 @@ c. straffegjennomføringen avbrytes ved at domfelte overføres til varetektsfeng
 b. friomsorgskontoret bestemmer det
 c. det avsies dom eller kjennelse som følge av brudd på prøveløslatelsesvilkår, og den nye dommen utelukker møteplikt
 d. oppdraget overføres til annet land.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-44-kontroll-av-prvelslatte">§ 3-44. Kontroll av prøveløslatte <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-44.html" title="Endringshistorikk for § 3-44" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Friomsorgskontoret skal påse at fastsatte vilkår overholdes og kan pålegge domfelte å gi opplysninger som kan sikre denne kontroll.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="3-45-brudd-pa-prvelslatelsesvilkar-i-perioden-med-mteplikt-for-kriminalomsorgen">§ 3-45. Brudd på prøveløslatelsesvilkår i perioden med møteplikt for kriminalomsorgen <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-3-45.html" title="Endringshistorikk for § 3-45" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Hvis domfelte nekter å avgi prøve for å avdekke bruk av ulovlige berusende eller bedøvende midler, skal dette regnes som brudd. Friomsorgskontoret har adgang til å gi en muntlig advarsel hvis den domfeltes brudd ikke er alvorlig, eller det foreligger særlig formildende omstendigheter.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h2 id="kapittel-4-varetekt-og-andre-reaksjoner-nar-det-er-srskilt-bestemt-i-lov">Kapittel 4. Varetekt og andre reaksjoner når det er særskilt bestemt i lov</h2>
 <h4 id="4-1-plassering-av-varetektsinnsatte-og-personer-som-politiet-har-pagrepet-overfring">§ 4-1. Plassering av varetektsinnsatte og personer som politiet har pågrepet. Overføring <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kriminalomsorgen skal stille fengselsplass til disposisjon for varetektsinnsatte og personer som politiet har pågrepet innen to døgn etter pågripelsen, med mindre dette av praktiske grunner ikke er mulig. Kriminalomsorgen og politiet plikter sammen å sørge for at slik overføring fra politiarrest til fengsel finner sted.</p>
 <p>I særlige unntakstilfelle kan varetektsinnsatte og personer som politiet har pågrepet, overføres fra fengsel til politiarrest i forbindelse med fengslingsmøte eller hovedforhandling i straffesaken. Dette gjelder bare dersom det ikke er mulig å finne ledig fengselsplass i nærheten av domstolen og avstanden mellom fengselet og domstolen er så lang at det er praktisk umulig å fremstille den pågrepede eller varetektsinnsatte hver dag. Slikt opphold skal være av meget kort varighet og det skal fortløpende arbeides for å skaffe egnet rom i fengsel i nærheten av rettslokalene.</p>
 <p>Varetektsinnsatte og personer som politiet har pågrepet kan overføres til et annet fengsel etter anmodning fra politi- eller påtalemyndighet dersom det anses påkrevd av etterforskningsmessige hensyn.</p>
 <p>Før varetektsinnsatte og personer som politiet har pågrepet, overføres til annet fengsel, skal det konfereres med vedkommende politi- eller påtalemyndighet.</p>
-<p><em>Endret ved forskrifter 2 juli 2007 nr. 878 , 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrifter 2 juli 2007 nr. 878 , 26 juni 2014 nr. 878 .</p>
 <h4 id="4-1a-varetektsinnsatte-under-18-ar-informasjon">§ 4-1a. Varetektsinnsatte under 18 år. Informasjon <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-4-1a.html" title="Endringshistorikk for § 4-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Varetektsfengsles barn skal kriminalomsorgen straks gi barnet informasjon om fengselet, hva varetektsoppholdet innebærer og bistå barnet med å komme i kontakt med pårørende, advokat, politi eller andre personer av betydning for varetektsoppholdet.</p>
 <p>Informasjonen skal være tilpasset barnets individuelle forutsetninger, som alder, kultur- og språkforståelse, modenhet og erfaring. Informasjonen skal gis på en hensynsfull måte. Tilsatte skal så langt som mulig sikre seg at barnet har forstått innholdet og betydningen av opplysningene. Tolk skal benyttes ved behov.</p>
-<p><em>Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Tilføyd ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="4-2-fellesskap">§ 4-2. Fellesskap</h4>
 <p>Innsatte som av retten ennå ikke er besluttet fengslet, skal bare ha adgang til samkvem med andre innsatte dersom påtalemyndigheten forhåndssamtykker.</p>
 <h4 id="4-3-arbeid-opplring-program-og-andre-tiltak">§ 4-3. Arbeid, opplæring, program og andre tiltak</h4>
@@ -344,7 +635,7 @@ d. oppdraget overføres til annet land.</p>
 <p>Varetektsinnsatte skal overføres fra varetektsfengsling til straffegjennomføring eller forvaring når vedkommende myndighet med hjemmel i rettskraftig dom eller beslutning om foregrepet tvangskraft har gitt ordre om det.</p>
 <p>Varetektsinnsatte og personer som politiet har pågrepet skal løslates uten opphold når retten eller påtalemyndigheten har gitt ordre om det.</p>
 <p>Får varetektsinnsatte dom på ubetinget fengselsstraff som anses utholdt til endt tid ved varetektsfengsling, skal han løslates straks. Har varetektsinnsatte ved varetektsoppholdet utholdt så stor del av den idømte fengselsstraff at han fyller vilkårene for prøveløslatelse etter straffegjennomføringsloven § 42 , kan han løslates på prøve etter disse reglene.</p>
-<p><em>Endret ved forskrift 2 juli 2007 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 2 juli 2007 nr. 878 .</p>
 <h2 id="kapittel-5-samfunnsstraff">Kapittel 5. Samfunnsstraff</h2>
 <h4 id="5-1-utsettelse-av-gjennomfring-av-samfunnsstraff-beregning-av-straffetid">§ 5-1. Utsettelse av gjennomføring av samfunnsstraff. Beregning av straffetid</h4>
 <p>Forskriften § 3-1 gjelder så langt den passer.</p>
@@ -355,16 +646,16 @@ d. oppdraget overføres til annet land.</p>
 <p>Utgangspunktet er at programdeltakelse er frivillig, men informasjon om program i forbindelse med kartlegging av det nærmere innholdet i samfunnsstraffen kan pålegges.</p>
 <p>Timer brukt til kartleggingssamtale er en del av samfunnsstraffen og skal komme til fradrag i antallet timer.</p>
 <p>Domfelte skal selv dekke reiseutgiftene i forbindelse med gjennomføringen av samfunnsstraffen. Friomsorgskontoret skal dekke utgiftene dersom domfelte ikke selv har midler.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h4 id="5-3-straffavbrudd">§ 5-3. Straffavbrudd <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Avbrudd etter straffegjennomføringsloven § 57 gis i en bestemt periode av inntil 4 uker og kan senere forlenges én gang med inntil 4 uker. Spørsmålet om ytterligere forlengelse skal forelegges overordnet nivå for avgjørelse. I særlige unntakstilfeller kan regionalt nivå innvilge avbrudd for en ubestemt periode. Avbruddets totale lengde skal stå i rimelig forhold til dommens lengde og begrunnelsen for avbruddet.</p>
 <p>Avbrudd etter straffegjennomføringsloven § 58 tredje ledd og § 59 annet ledd gis for en ubestemt periode.</p>
-<p><em>Endret ved forskrift 30 okt 2015 nr. 1235 .</em></p>
+<p class="note">Endret ved forskrift 30 okt 2015 nr. 1235 .</p>
 <h4 id="5-4-reaksjon-pa-brudd">§ 5-4. Reaksjon på brudd <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-5-4.html" title="Endringshistorikk for § 5-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Hvis domfelte nekter å avgi prøve for å avdekke bruk av ulovlige berusende eller bedøvende midler, skal dette regnes som brudd.</p>
 <p>Manglende fremmøte til informasjons- og kartleggingssamtale eller til avtalt program, regnes som brudd.</p>
 <p>Friomsorgskontoret har adgang til å gi en muntlig advarsel hvis den domfeltes brudd ikke er alvorlig.</p>
-<p><em>Endret ved forskrift 26 juni 2014 nr. 878 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2014 nr. 878 .</p>
 <h2 id="kapittel-6-srlige-regler-om-innsettelse-og-opphold-i-avdelinger-med-srlig-hyt-sikkerhetsniva">Kapittel 6. Særlige regler om innsettelse og opphold i avdelinger med særlig høyt sikkerhetsnivå</h2>
 <h4 id="6-1-avgjrelsesmyndighet-og-varighet">§ 6-1. Avgjørelsesmyndighet og varighet</h4>
 <p>Regionalt nivå avgjør om vilkårene for opphold i avdeling med særlig høyt sikkerhetsnivå er oppfylt og treffer vedtak om innsettelse, fortsatt opphold, eventuell overføring til annen avdeling med særlig høyt sikkerhetsnivå samt overføring til fengsel eller avdeling med høyt sikkerhetsnivå.</p>
@@ -417,25 +708,25 @@ d. oppdraget overføres til annet land.</p>
 <p>Kapittel 7 tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), overskrift endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-1-formal">§ 7-1. Formål <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Straffegjennomføring med elektronisk kontroll etter straffegjennomføringsloven § 16 a er en straffegjennomføringsform utenfor fengsel, som har til hensikt å fremme domfeltes mulighet til å kunne ivareta sine sosiale og økonomiske forpliktelser under straffegjennomføringen, å bidra til en hensiktsmessig progresjon og å redusere faren for ny kriminalitet.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-2-hvem-som-kan-innvilges-straffegjennomfring-med-elektronisk-kontroll">§ 7-2. Hvem som kan innvilges straffegjennomføring med elektronisk kontroll <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Domfelte som ikke har påbegynt straffegjennomføring av ubetinget fengselsstraff på inntil seks måneder og som oppfyller vilkårene for elektronisk kontroll, kan innvilges helgjennomføring av straffen på denne måten for å unngå eventuelle negative konsekvenser av et fengselsopphold.</p>
 <p>Domfelte som har påbegynt straffegjennomføring og som oppfyller vilkårene for elektronisk kontroll, kan overføres til delgjennomføring på denne måten inntil seks måneder av den resterende tiden frem til forventet løslatelse, som et ledd i en hensiktsmessig progresjon. En slik overføring kan ikke foretas før en tredel av den ubetingede straffen er gjennomført, med mindre domfelte er under 18 år eller er varig soningsudyktig. Med soningsudyktig menes domfelte eller innsatte som ikke er i stand til å gjennomføre straff i fengsel i etter straffegjennomføringsloven § 10 første ledd bokstav a til c eller institusjon i etter straffegjennomføringsloven § 12 av helsemessige årsaker.</p>
 <p>Taler formålet med straffen eller sikkerhetsmessige grunner mot det, det er grunn til å anta at domfelte vil unndra seg gjennomføringen eller det ellers anses utilrådelig, skal domfelte ikke innvilges straffegjennomføring med elektronisk kontroll.</p>
 <p>Domfelte som er dømt for seksuallovbrudd etter straffeloven kapittel 26 eller voldslovbrudd etter straffeloven § 274 , § 275 , § 277 , § 279 , § 281 til § 286 eller § 288 skal ikke innvilges straffegjennomføring med elektronisk kontroll. Domfelte som er dømt for voldslovbrudd etter straffeloven § 271 til § 273 , § 278 , § 280 eller § 287 , eller som har fått straffen fastsatt etter straffeloven § 276 annet ledd, kan innvilges straffegjennomføring med elektronisk kontroll, med mindre forholdet er begått mot barn eller en person som vedkommende bodde eller fortsatt bor sammen med, eller domfelte er domfelt for lignende forhold tidligere. Første og annet punktum gjelder ikke domfelte som er under 18 år eller varig soningsudyktig.</p>
 <p>Domfelte som er siktet for nye straffbare forhold eller besluttet endelig utvist fra landet, skal ikke innvilges straffegjennomføring med elektronisk kontroll med mindre det foreligger særlige grunner.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-3-betingelser-for-straffegjennomfring-med-elektronisk-kontroll">§ 7-3. Betingelser for straffegjennomføring med elektronisk kontroll <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Domfelte som skal gjennomføre straffen med elektronisk kontroll skal ha tilgang til egnet bolig med innlagt elektrisitet og mulighet for egnet telefonforbindelse. Domfelte skal godta å motta besøk av kriminalomsorgen eller andre som kriminalomsorgen bemyndiger.</p>
 <p>Alle som er over 18 år og bor sammen med domfelte, skal ha samtykket til at domfelte innvilges straffegjennomføring med elektronisk kontroll.</p>
 <p>Domfelte skal godta de krav og vilkår som kriminalomsorgen fastsetter for straffegjennomføringen.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-4-krav-til-domfelte-under-straffegjennomfringen">§ 7-4. Krav til domfelte under straffegjennomføringen <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-7-4.html" title="Endringshistorikk for § 7-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Domfelte skal følge den gjennomføringsplanen som er utarbeidet av kriminalomsorgen.</p>
 <p>Domfelte skal være sysselsatt i Norge under straffegjennomføringen. Sysselsettingen skal kunne kontrolleres på en tilfredsstillende måte. Kravet til sysselsetting kan fravikes helt eller delvis dersom det er umulig å aktivisere domfelte, eller aktiviseringen må begrenses på grunn av domfeltes helsetilstand, soningsudyktighet eller funksjonshemming.</p>
 <p>Domfelte skal møte for kriminalomsorgen eller annen offentlig myndighet, person eller organisasjon som kriminalomsorgen fastsetter, minimum én gang per uke. Kriminalomsorgen kan i gjennomføringsplanen fastsette flere møter, dersom dette vil fremme formål for straffegjennomføring med elektronisk kontroll etter § 7-1 .</p>
 <p>Domfelte skal være rusfri under hele straffegjennomføringen. Kontroll for å avdekke bruk av rusmidler kan gjennomføres etter straffegjennomføringsloven § 29 jf. forskriften § 3-26 og straffegjennomføringsloven § 16 jf. § 56 .</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrifter 19 feb 2010 nr. 192 (i kraft 1 mars 2010), 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-5-kontroll-av-vilkar">§ 7-5. Kontroll av vilkår</h4>
 <p>Kriminalomsorgen skal kontrollere at de fastsatte vilkårene overholdes og at gjennomføringsplanen følges.</p>
 <p>Kriminalomsorgen kan foreta uanmeldte kontrollbesøk i hjemmet og på sysselsettingsplassen for å kontrollere at vilkårene for straffegjennomføring med elektronisk kontroll overholdes.</p>
@@ -450,30 +741,30 @@ d. biometri, herunder fingeravtrykk og ansiktsgjenkjenning.</p>
 <p>For å kontrollere om domfelte bruker alkohol, kan fjernalkoholtest foretas på ethvert tidspunkt under straffegjennomføringen med elektronisk kontroll, jf. § 7-4 fjerde ledd.</p>
 <p>Før teknologien tas i bruk, skal kriminalomsorgen informere domfelte om hvilken digitale teknologi som vil bli brukt i den domfeltes tilfelle, hvilke personopplysninger som vil bli behandlet som følge av bruken, og hvilke konsekvenser brudd som avdekkes kan medføre.</p>
 <p>Kontrollen skal tilpasses risikoen den enkelte domfelte vil utgjøre, og ikke være strengere eller mer omfattende enn det som er nødvendig for å ivareta formålet. Kontrolltiltakene skal vurderes fortløpende, og eventuelt justeres.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 (i kraft 1 sep 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 (i kraft 1 sep 2020).</p>
 <h4 id="7-6-permisjon">§ 7-6. Permisjon</h4>
 <p>Domfelte skal oppholde seg i hjemmet under hele straffegjennomføringen, men kan bevege seg ut når formålet er sysselsetting eller oppmøte for kriminalomsorgen eller annen offentlig myndighet, person eller organisasjon som kriminalomsorgen anviser.</p>
 <p>Dersom sikkerhetsmessige grunner ikke taler mot det, kan kriminalomsorgen gi domfelte permisjon for kortere tid når det anses formålstjenlig. Domfelte som overføres til delgjennomføring med elektronisk kontroll, kan etter en individuell vurdering innvilges en permisjonskvote etter forskriften § 3-30 annet ledd.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-7-reaksjon-pa-brudd-pa-krav-og-vilkar">§ 7-7. Reaksjon på brudd på krav og vilkår</h4>
 <p>Brytes kravene og vilkårene som kriminalomsorgen har satt for straffegjennomføringen, kan kriminalomsorgen beslutte at domfelte skal overføres til fengsel eller gi skriftlig irettesettelse etter straffegjennomføringsloven § 14 syvende ledd og § 40 tredje ledd.</p>
 <p>I valg av reaksjon skal det legges vekt på hvor alvorlig bruddet er og omstendighetene rundt bruddet.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-8-saksbehandlingen">§ 7-8. Saksbehandlingen</h4>
 <p>Kriminalomsorgen skal informere domfelte om muligheten for å søke om straffegjennomføring med elektronisk kontroll. Domfelte som ikke har påbegynt straffegjennomføring, skal sende en søknad innen tre uker etter å ha mottatt informasjonsskriv fra kriminalomsorgen.</p>
 <p>Gjelder saken delgjennomføring, skal kriminalomsorgen legge til rette for at domfelte kan søke om straffegjennomføring med elektronisk kontroll i god tid, slik at gjennomføringen kan iverksettes så nær opp til seks måneder før forventet løslatelse som mulig.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h4 id="7-9-informasjon-til-barn">§ 7-9. Informasjon til barn</h4>
 <p>Kriminalomsorgen skal gi barn som berøres av en beslutning om straffegjennomføring med elektronisk kontroll informasjon om straffegjennomføringen, og mulighet til å uttale seg før beslutningen tas. Barnelova § 31 gjelder tilsvarende.</p>
-<p><em>Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juli 2008 nr. 863 (i kraft 1 aug 2008), endret ved forskrift 24 juli 2020 nr. 1591 .</p>
 <h2 id="kapittel-7a-gjennomfring-av-oppholds-og-kontaktrestriksjoner-med-elektronisk-kontroll-etterstraffeloven-52c-fjerdeogfemte-ledd">Kapittel 7A. Gjennomføring av oppholds- og kontaktrestriksjoner med elektronisk kontroll etterstraffeloven § 52c fjerdeogfemte ledd</h2>
 <p>Kapittel 7A tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="7a-1-kriminalomsorgens-ansvar">§ 7A-1. Kriminalomsorgens ansvar</h4>
 <p>Dersom konfliktrådet ber om det, undersøker kriminalomsorgen om det er tekniske eller praktiske hinder for oppholds- og kontaktrestriksjoner med elektronisk kontroll etter straffeloven § 52c fjerde og femte ledd . Kriminalomsorgen gjennomfører og kontrollerer vilkårene som er fastsatt av retten etter straffeloven § 52c fjerde og femte ledd .</p>
-<p><em>Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="7a-2-ungdommens-medvirkningsplikt">§ 7A-2. Ungdommens medvirkningsplikt</h4>
 <p>Ungdommen plikter å yte den bistand, og å følge de instruksjoner, som gis av kriminalomsorgen, og som er nødvendig for å gjennomføre kontroll etter § 7A-3 . Ungdommen må blant annet vedlikeholde kontrollutstyret, herunder sørge for at enheten er ladet og har dekning. I tillegg må ungdommen være tilgjengelig for kriminalomsorgen på telefon. Brudd på medvirkningsplikten behandles etter § 7A-4 .</p>
-<p><em>Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="7a-3-kontroll">§ 7A-3. Kontroll</h4>
 <p>Kriminalomsorgen skal kontrollere at de domstolfastsatte vilkårene for oppholds- og kontaktrestriksjoner overholdes. Kontrollen skal tilpasses den enkelte ungdommen, og ikke være strengere eller mer omfattende enn det som er nødvendig for å ivareta formålet med kontrollen. Kontrollen skal skje på en måte som ivaretar hensynet til barnets beste.</p>
 <p>Ved oppholdspåbud skal ungdommen underlegges kontroll med teknologi som viser at ungdommen oppholder seg på et på forhånd bestemt sted (områdelokalisering). Dersom slik kontroll ikke er tilstrekkelig for å kontrollere at de domstolfastsatte vilkårene overholdes, kan kriminalomsorgen beslutte bruk av sporing som aktiveres når ungdommen bryter vilkår fastsatt av retten (situasjonsbestemt sporing). Ved oppholds- eller kontaktforbud skal ungdommen underlegges situasjonsbestemt sporing. Dersom en ungdom er underlagt situasjonsbestemt sporing og alarmen utløses, skal kontinuerlig sporing av ungdommens geografiske posisjon (aktiv sporing) aktiveres.</p>
@@ -481,106 +772,106 @@ d. biometri, herunder fingeravtrykk og ansiktsgjenkjenning.</p>
 <p>Dersom kontroll etter andre og tredje ledd ikke er tilstrekkelig for å kontrollere at de domstolfastsatte vilkårene overholdes, kan kriminalomsorgen i tillegg beslutte bruk av kontroll av biometri, herunder fingeravtrykk og ansiktsgjenkjenning, for å verifisere ungdommens identitet når formålet ikke kan oppnås på en mindre inngripende måte.</p>
 <p>Kriminalomsorgen skal informere ungdommen om hva slags teknologi som tas i bruk og hvilke personopplysninger som vil bli behandlet som følge av bruken. Slik informasjon skal, om mulig, gis før teknologien tas i bruk. Kriminalomsorgen kan overlate til konfliktrådet å gi slik informasjon.</p>
 <p>Handlinger som ellers ville utløst alarmen, herunder opphold innenfor en forbudssone eller utenfor en påbudssone, kan skje etter tillatelse fra konfliktrådet. I akutte tilfeller, der man ikke kan avvente en beslutning fra konfliktrådet, kan kriminalomsorgen tillate slik handling dersom vektige grunner tilsier det. Tillatelsen skal gis for et bestemt formål og et avgrenset tidsrom. Kriminalomsorgen må informere konfliktrådet om hvilke tillatelser som er gitt.</p>
-<p><em>Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="7a-4-meldeplikt-ved-brudd-pa-vilkar">§ 7A-4. Meldeplikt ved brudd på vilkår</h4>
 <p>Dersom ungdommen bryter vilkårene retten har satt, eller plikten til medvirkning etter § 7A-2 , skal kriminalomsorgen uten ugrunnet opphold melde dette til konfliktrådet. Kriminalomsorgen skal dele de opplysningene som er nødvendige for konfliktrådets behandling av bruddsaken.</p>
-<p><em>Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h4 id="7a-5-behandling-av-personopplysninger">§ 7A-5. Behandling av personopplysninger</h4>
 <p>Kriminalomsorgen kan behandle opplysninger som er innhentet i tråd med § 7A-3 . Opplysningene kan kun behandles av den som har tjenstlig behov for det.</p>
 <p>Personopplysninger registrert etter første ledd, herunder eventuell overskuddsinformasjon, skal slettes så snart som mulig og senest ett år etter at kontrollen er avsluttet, med mindre de skal arkiveres etter arkivlova .</p>
 <p>For øvrig gjelder forskrift om personopplysninger i kriminalomsorgen så langt det passer.</p>
-<p><em>Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 juni 2024 nr. 1364 (i kraft 1 sep 2024).</p>
 <h2 id="kapittel-7b-gjennomfring-av-varetekt-med-elektronisk-kontroll">Kapittel 7B. Gjennomføring av varetekt med elektronisk kontroll</h2>
 <p>Kapittel tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-1-kriminalomsorgens-ansvar">§ 7B-1. Kriminalomsorgens ansvar</h4>
 <p>Dersom påtalemyndigheten ber om det, skal kriminalomsorgen undersøke om varetekt med elektronisk kontroll etter straffeprosessloven § 184b er en egnet gjennomføringsform. Kriminalomsorgen gjennomfører varetektsformen og kontrollerer at siktede overholder vilkårene for gjennomføringen.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-2-kriminalomsorgens-underskelse-av-egnethet">§ 7B-2. Kriminalomsorgens undersøkelse av egnethet</h4>
 <p>Kriminalomsorgen undersøker om siktede er egnet for gjennomføring av varetekt som oppholdspåbud med elektronisk kontroll, om siktede har egnet oppholdssted og om forholdene for øvrig ligger til rette for slik gjennomføring. Undersøkelsene skal foretas så snart som mulig etter at påtalemyndigheten har bedt om slik undersøkelse.</p>
 <p>Omfanget av undersøkelsene tilpasses den tiden kriminalomsorgen har til rådighet, samt eventuelle sikkerhetsmessige forhold eller andre særlige forhold hos siktede.</p>
 <p>Straffegjennomføringsloven § 7a første ledd og annet ledd bokstav b om kriminalomsorgens rett til å innhente opplysninger fra ansatte i barnevernet og sosialtjenesten gjelder tilsvarende ved kriminalomsorgens undersøkelse etter denne bestemmelsen.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-3-informasjon-og-samtykke">§ 7B-3. Informasjon og samtykke</h4>
 <p>Dersom påtalemyndigheten ber om det, skal kriminalomsorgen informere siktede og siktedes husstandsmedlemmer om hva det vil innebære for dem at siktede gjennomfører varetekt som oppholdspåbud med elektronisk kontroll, og innhente samtykke etter straffeprosessloven § 184b annet ledd . § 7-9 gis tilsvarende anvendelse.</p>
 <p>Siktede skal informeres om konsekvensene av brudd på vilkårene for gjennomføringen. Siktede og siktedes husstandsmedlemmer skal samtykke til at kriminalomsorgen, eller andre som kriminalomsorgen bemyndiger, kan foreta varslede og uanmeldte kontrollbesøk i varetektsperioden. Siktede skal også samtykke til at kriminalomsorgen kan pålegge siktede å avgi rusprøve, jf. § 7B-5 annet ledd.</p>
 <p>Informasjon til siktedes husstandsmedlemmer gis, og samtykke innhentes, uten siktede til stede.</p>
 <p>Dersom siktede eller noen av siktedes husstandsmedlemmer er mindreårige, gjelder reglene i første til tredje ledd tilsvarende for den mindreåriges verger.</p>
 <p>Samtykke etter straffeprosessloven § 184b annet ledd skal være skriftlig. Samtykket kan når som helst trekkes tilbake.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-4-informasjon-til-patalemyndigheten-etter-underskelse">§ 7B-4. Informasjon til påtalemyndigheten etter undersøkelse</h4>
 <p>Uten hinder av taushetsplikten skal kriminalomsorgen, uten ugrunnet opphold, orientere påtalemyndigheten om resultatet av de foretatte undersøkelsene etter § 7B-2 og innhentede samtykker etter § 7B-3. Orienteringen skal være skriftlig.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-5-krav-til-siktede">§ 7B-5. Krav til siktede</h4>
 <p>Siktede plikter å yte den bistand og å følge de instruksjoner som gis av påtalemyndigheten eller kriminalomsorgen, og som er nødvendig for å gjennomføre kontroll etter § 7B-6. Siktede må blant annet vedlikeholde kontrollutstyret, herunder sørge for at enheten er ladet og har dekning. I tillegg må siktede være tilgjengelig for kriminalomsorgen på telefon. Brudd på medvirkningsplikten behandles etter § 7B-8.</p>
 <p>Siktede skal være rusfri i hele varetektsperioden. Kontroll for å avdekke bruk av rusmidler kan gjennomføres etter straffegjennomføringsloven § 29 første ledd , jf. § 52 .</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-6-kontroll-med-overholdelse-av-vilkarene-for-oppholdspabudet">§ 7B-6. Kontroll med overholdelse av vilkårene for oppholdspåbudet</h4>
 <p>Kriminalomsorgen skal kontrollere at de fastsatte vilkårene for oppholdspåbudet overholdes. Kontrollen skal tilpasses risikoen den enkelte siktede vil utgjøre, og ikke være strengere eller mer omfattende enn det som er nødvendig for å ivareta formålet med kontrollen.</p>
 <p>Den siktede skal kontrolleres med teknologi som viser at siktede oppholder seg på et på forhånd bestemt sted (områdelokalisering). Dersom alarmen utløses eller kriminalomsorgen ikke oppnår kontakt med siktede, skal kontinuerlig sporing av siktedes geografiske posisjon (aktiv sporing) aktiveres umiddelbart. Aktiv sporing skal også benyttes dersom siktede skal bevege seg utenfor det på forhånd bestemte stedet.</p>
 <p>Kriminalomsorgen kan foreta varslede og uanmeldte kontrollbesøk der siktede skal oppholde seg. Dersom det anses hensiktsmessig, kan kontrollbesøk gjennomføres ved videosamtale, med eller uten posisjonering.</p>
 <p>For å kontrollere at vilkårene for oppholdspåbudet overholdes, kan kriminalomsorgen, når det anses nødvendig, i tillegg beslutte bruk av biometri, herunder fingeravtrykk og ansiktsgjenkjenning, for å verifisere siktedes identitet når formålet ikke kan oppnås på en mindre inngripende måte.</p>
 <p>Før kontroll ved bruk av teknologi tas i bruk, skal kriminalomsorgen informere siktede om at slik teknologi tas i bruk og hvilke personopplysninger som vil bli behandlet som følge av bruken. Ved umiddelbar aktivering av aktiv sporing etter annet ledd annet punktum, gis slik informasjon så snart som mulig etter at slik kontroll er igangsatt.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-7-fremstillinger">§ 7B-7. Fremstillinger</h4>
 <p>Fremstillinger kan gjennomføres i følge med politiet eller den som politiet bemyndiger.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-8-meldeplikt-ved-brudd-pa-vilkar-mv">§ 7B-8. Meldeplikt ved brudd på vilkår mv.</h4>
 <p>Dersom siktede bryter vilkårene for gjennomføringen, skal kriminalomsorgens straks melde dette til påtalemyndigheten. Det samme gjelder dersom kriminalomsorgen mottar informasjon om at et avgitt samtykke er trukket, at siktede begår nye straffbare forhold eller dersom kriminalomsorgen blir kjent med andre omstendigheter som tilsier at oppholdspåbud med elektronisk kontroll ikke lenger anses egnet.</p>
 <p>Som vilkårsbrudd etter første ledd første punktum regnes også brudd på rusforbudet og siktedes medvirkningsplikt etter § 7B-5.</p>
 <p>Kriminalomsorgen kan dele de opplysningene som er nødvendige for påtalemyndighetens behandling av bruddsaken.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h4 id="7b-9-behandling-av-personopplysninger">§ 7B-9. Behandling av personopplysninger</h4>
 <p>Kriminalomsorgen kan behandle personopplysninger som er innhentet i tråd med bestemmelsene i dette kapittelet. Opplysningene kan kun behandles av den som har tjenstlig behov for det.</p>
 <p>Personopplysninger registrert etter første ledd, herunder eventuell overskuddsinformasjon, skal slettes så snart som mulig og senest ett år etter at kontrollen er avsluttet, med mindre de skal arkiveres etter arkivlova .</p>
 <p>For øvrig gjelder forskrift om behandling av personopplysninger i kriminalomsorgen så langt det passer.</p>
-<p><em>Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2025 nr. 925 (i kraft 15 aug 2025).</p>
 <h2 id="kapittel-8-btetjeneste">Kapittel 8. Bøtetjeneste</h2>
 <p>Kapittel 8 tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-1-malgruppe-for-btetjenesten">§ 8-1. Målgruppe for bøtetjenesten <a class="para-history" href="../historikk/forskrift-2002-02-22-183/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Etter søknad fra botlagte kan kriminalomsorgen beslutte at subsidiær fengselsstraff fastsatt i dom, forelegg eller forenklet forelegg, skal gjennomføres ved bøtetjeneste. Gjennomføring ved bøtetjeneste forutsetter at den botlagte har bosted og opphold i Norge i gjennomføringstiden.</p>
 <p>I tilfeller der bøtetjeneste kan være aktuelt, skal kriminalomsorgen informere botlagte om muligheten for å søke om bøtetjeneste som et alternativ til gjennomføring av den subsidiære fengselsstraffen. Også den som har påbegynt gjennomføring av subsidiær fengselsstraff, kan søke om bøtetjeneste.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-2-kartleggingssamtale-og-gjennomfringsplan">§ 8-2. Kartleggingssamtale og gjennomføringsplan</h4>
 <p>Etter mottatt søknad fra botlagte om bøtetjeneste, gjennomføres en eller flere kartleggingssamtaler, hvor vedkommendes evne til å gjennomføre bøtetjeneste og øvrige forutsetninger for bøtetjeneste vurderes.</p>
 <p>Ved innvilgelse av søknaden skal kriminalomsorgen, i samarbeid med den botlagte, utarbeide en gjennomføringsplan. I gjennomføringsplanen beskrives innholdet i bøtetjenesten og øvrige rammer for gjennomføringen. Kriminalomsorgen fastsetter et timetall for bøtetjenesten, og en maksimal gjennomføringstid, før bøtetjenesten iverksettes. Timetallet skal tilsvare 2 timer bøtetjeneste for hver dag av den subsidiære fengselsstraffen. Tid brukt til kartleggingssamtale og oppstartsamtale skal ikke inngå i antall timer bøtetjeneste.</p>
 <p>Dersom botlagte har betalt en del av boten, skal kriminalomsorgen gjøre et forholdsmessig fradrag i antall dager subsidiær fengselsstraff for gjennomføring ved bøtetjeneste. Del av en dag skal regnes som en hel dag ved omregning til antall timer bøtetjeneste. Ved fastsettelse av timetall skal kriminalomsorgen gjøre fradrag for subsidiær fengselsstraff botlagte allerede har gjennomført.</p>
 <p>I gjennomføringstiden inngår ikke den tid domfelte har vært innvilget avbrudd i medhold av straffegjennomføringsloven § 57 . For øvrig gjelder forskriften § 3-3 første ledd bokstav c og annet ledd så langt det passer.</p>
 <p>Blir boten helt eller delvis betalt etter at bøtetjeneste er iverksatt, skal kriminalomsorgen gjøre et forholdsmessig fradrag i antall dager subsidiær fengselsstraff som skal gjennomføres ved bøtetjeneste. Del av en dag regnes som en hel dag ved omregning til antall timer bøtetjeneste.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-3-informasjonsutveksling-mellom-kriminalomsorgen-og-innkrevingsmyndigheten">§ 8-3. Informasjonsutveksling mellom kriminalomsorgen og Innkrevingsmyndigheten</h4>
 <p>Ved behov, og innenfor reglene om taushetsplikt, skal kriminalomsorgen og Innkrevingsmyndigheten utveksle informasjon i forbindelse med gjennomføring av subsidiær fengselsstraff ved bøtetjeneste.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018), endret ved forskrift 14 des 2025 nr. 2558 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018), endret ved forskrift 14 des 2025 nr. 2558 (i kraft 1 jan 2026).</p>
 <h4 id="8-4-innholdet-i-btetjenesten">§ 8-4. Innholdet i bøtetjenesten</h4>
 <p>Bøtetjeneste skal normalt bestå i å utføre samfunnsnyttig tjeneste. Eksterne oppdragsgivere kan bidra i den praktiske gjennomføringen av bøtetjenesten.</p>
 <p>Dersom helsemessige forhold eller andre omstendigheter gjør samfunnsnyttig tjeneste særlig byrdefullt for botlagte, kan bøtetjenesten unntaksvis bestå av program eller andre tiltak som er egnet til å motvirke kriminalitet.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-5-oppstartsamtale">§ 8-5. Oppstartsamtale</h4>
 <p>Bøtetjenesten iverksettes ved at det gjennomføres en oppstartsamtale mellom kriminalomsorgen og botlagte. Gjennomføringstiden løper fra tidspunktet da oppstartsamtalen er gjennomført. Oppstartsamtalen kan finne sted før løslatelse fra fengsel.</p>
 <p>Forskriften § 3-1 om utsettelse av gjennomføring av straff gjelder så langt den passer.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-6-botlagte-som-er-ilagt-flere-straffereaksjoner">§ 8-6. Botlagte som er ilagt flere straffereaksjoner</h4>
 <p>Dersom botlagte skal gjennomføre subsidiær straff etter flere bøter, gjennomføres den subsidiære straffen etter disse i prioritert rekkefølge, etter dato for vedtakelse eller idømmelse av boten.</p>
 <p>Bøtetjeneste kan gjennomføres samtidig med møteplikt ved prøveløslatelse, program mot ruspåvirket kjøring og narkotikaprogram med domstolskontroll, forutsatt at formålene med straffegjennomføringsformene ivaretas fullt ut og det totale antallet gjennomførte timer bøtetjeneste og oppmøter for kriminalomsorgen ikke reduseres. Bøtetjeneste kan også gjennomføres ved prøvetid etter prøveløslatelse og ved prøvetid etter betinget dom.</p>
 <p>Bøtetjeneste kan ikke gjennomføres samtidig med ubetinget fengselsstraff eller samfunnsstraff.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-7-straffavbrudd">§ 8-7. Straffavbrudd</h4>
 <p>Forskriften § 5-3 første ledd om straffavbrudd gjelder tilsvarende for bøtetjeneste.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-8-brudd-pa-vilkar-og-forutsetninger">§ 8-8. Brudd på vilkår og forutsetninger</h4>
 <p>Kriminalomsorgen skal kontrollere at vilkår og forutsetninger for bøtetjenesten overholdes. Ved brudd på vilkår og forutsetninger for bøtetjenesten kan kriminalomsorgen ilegge botlagte en muntlig advarsel.</p>
 <p>Ved gjentatte eller alvorlige brudd på vilkår eller forutsetninger for bøtetjenesten kan kriminalomsorgen ilegge botlagte skriftlig irettesettelse eller beslutte overføring til fengsel etter straffegjennomføringsloven § 14 syvende ledd.</p>
 <p>Hvilken reaksjon som skal benyttes, skal bero på en individuell vurdering der bruddets alvorlighetsgrad og omstendighetene for øvrig tas i betraktning.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h4 id="8-9-avslutning-av-btetjenesten">§ 8-9. Avslutning av bøtetjenesten</h4>
 <p>Bøtetjenesten avsluttes når det totale antallet timer bøtetjeneste er gjennomført, uavhengig av om gjennomføringstiden er benyttet fullt ut. Bøtetjenesten avsluttes også dersom botlagte trekker tilbake samtykket, eller botlagte er besluttet overført til fengsel etter brudd på vilkår og forutsetninger for bøtetjenesten eller på bakgrunn av ny kriminalitet.</p>
 <p>Bøtetjenesten avsluttes dersom boten betales. Dersom deler av boten betales, regnes del av en dag som en hel dag, slik at bøtetjenesten avsluttes når resterende beløp tilsvarer mindre enn én dag subsidiær fengselsstraff.</p>
-<p><em>Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 8 feb 2018 nr. 812 (i kraft 7 juni 2018).</p>
 <h2 id="kapittel-9-diverse-bestemmelser">Kapittel 9. Diverse bestemmelser</h2>
 <p>Endret ved forskrifter 29 juli 2008 nr. 863 (i kraft 1 aug 2008, tidligere kapittel 7), 8 feb 2018 nr. 812 (i kraft 7 juni 2018, tidligere kapittel 8).</p>
 <h4 id="9-1-endring-av-forskriften-og-utfyllende-retningslinjer">§ 9-1. Endring av forskriften og utfyllende retningslinjer</h4>
 <p>Kongens myndighet til å gi nærmere regler etter straffegjennomføringsloven § 5 , fjerde ledd er delegert til Justisdepartementet ved Kronprinsreg.res. 22. februar 2002 nr. 182.</p>
 <p>Kriminalomsorgsdirektoratet gir nærmere retningslinjer til straffegjennomføringsloven og denne forskrift.</p>
-<p><em>Endret ved forskrifter 2 juli 2007 nr. 878 , 29 juli 2008 nr. 863 (i kraft 1 aug 2008, tidligere § 7-1), 26 juni 2014 nr. 878 , 8 feb 2018 nr. 812 (i kraft 7 juni 2018, tidligere § 8-1).</em></p>
+<p class="note">Endret ved forskrifter 2 juli 2007 nr. 878 , 29 juli 2008 nr. 863 (i kraft 1 aug 2008, tidligere § 7-1), 26 juni 2014 nr. 878 , 8 feb 2018 nr. 812 (i kraft 7 juni 2018, tidligere § 8-1).</p>
 <h4 id="9-2-ikrafttredelse">§ 9-2. Ikrafttredelse</h4>
 <p>Forskriften gjelder fra 1. mars 2002. Fra samme tidspunkt oppheves:</p>
 <ul>
@@ -589,7 +880,9 @@ d. biometri, herunder fingeravtrykk og ansiktsgjenkjenning.</p>
 <li>forskrifter av 30. november 1984 nr. 3637 for det direkte tilsyn med innsatte og</li>
 <li>forskrift av 22. april 1960 nr. 6 om tvangsmidler og våpen i fengselsvesenets anstalter.</li>
 </ul>
-<p><em>Endret ved forskrifter 2 juli 2007 nr. 878 , 29 juli 2008 nr. 863 (i kraft 1 aug 2008, tidligere § 7-2), 8 feb 2018 nr. 812 (i kraft 7 juni 2018, tidligere § 8-2).</em></p>
+<p class="note">Endret ved forskrifter 2 juli 2007 nr. 878 , 29 juli 2008 nr. 863 (i kraft 1 aug 2008, tidligere § 7-2), 8 feb 2018 nr. 812 (i kraft 7 juni 2018, tidligere § 8-2).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

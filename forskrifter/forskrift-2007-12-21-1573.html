@@ -19,84 +19,195 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-21-1573.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i IHR-forskriften" href="../feeds/forskrift-2007-12-21-1573.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>IHR-forskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-12-21-1573</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2008-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2019-10-18-1383</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-21-1573" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-nasjonalt-kontaktpunkt-for-ihr-og-ewrs">§ 3. Nasjonalt kontaktpunkt for IHR og EWRS</a></li>
+<li class="lvl2"><a href="#kapittel-2-varsling-og-oppflging">Kapittel 2. Varsling og oppfølging</a></li>
+<li class="lvl4"><a href="#4-varslingsplikt-for-helsepersonell-og-andre-myndigheter">§ 4. Varslingsplikt for helsepersonell og andre myndigheter</a></li>
+<li class="lvl4"><a href="#5-varslingsplikt-for-frer-av-skip-luftfarty-og-andre-transportmidler">§ 5. Varslingsplikt for fører av skip, luftfartøy og andre transportmidler</a></li>
+<li class="lvl4"><a href="#6-varslets-innhold">§ 6. Varslets innhold</a></li>
+<li class="lvl4"><a href="#7-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 7. Varsel til Verdens helseorganisasjon og Kommisjonen</a></li>
+<li class="lvl4"><a href="#8-oppflging-av-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 8. Oppfølging av varsel til Verdens helseorganisasjon og Kommisjonen</a></li>
+<li class="lvl4"><a href="#9-henvendelse-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-norge">§ 9. Henvendelse fra Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i Norge</a></li>
+<li class="lvl4"><a href="#10-varsel-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-alvorlig-hendelse-i-utlandet">§ 10. Varsel fra Verdens helseorganisasjon og Kommisjonen om en alvorlig hendelse i utlandet</a></li>
+<li class="lvl4"><a href="#11-underretning-til-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-utlandet">§ 11. Underretning til Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i utlandet</a></li>
+<li class="lvl4"><a href="#12-behandling-av-personopplysninger">§ 12. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-midlertidige-tiltak-for-a-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 3. Midlertidige tiltak for å begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</a></li>
+<li class="lvl4"><a href="#13-anbefalinger-fra-verdens-helseorganisasjon-om-midlertidige-tiltak">§ 13. Anbefalinger fra Verdens helseorganisasjon om midlertidige tiltak</a></li>
+<li class="lvl4"><a href="#13a-kommunens-virkemidler">§ 13a. Kommunens virkemidler</a></li>
+<li class="lvl4"><a href="#14-tiltak-overfor-personer">§ 14. Tiltak overfor personer</a></li>
+<li class="lvl4"><a href="#15-tiltak-overfor-bagasje-last-containere-transportmidler-postpakker-humant-biologisk-materiale-og-varer">§ 15. Tiltak overfor bagasje, last, containere, transportmidler, postpakker, humant biologisk materiale og varer</a></li>
+<li class="lvl4"><a href="#16-unntak-for-transportmidler-og-varer-i-transitt">§ 16. Unntak for transportmidler og varer i transitt</a></li>
+<li class="lvl4"><a href="#17-skip-luftfarty-og-andre-transportmidler-pa-innreisesteder">§ 17. Skip, luftfartøy og andre transportmidler på innreisesteder</a></li>
+<li class="lvl2"><a href="#kapittel-4-staende-tiltak-for-a-forebygge-og-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 4. Stående tiltak for å forebygge og begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</a></li>
+<li class="lvl4"><a href="#18-anbefalinger-fra-verdens-helseorganisasjon-om-staende-tiltak">§ 18. Anbefalinger fra Verdens helseorganisasjon om stående tiltak</a></li>
+<li class="lvl4"><a href="#19-utpekte-havner-lufthavner-og-grensepasseringssteder">§ 19. Utpekte havner, lufthavner og grensepasseringssteder</a></li>
+<li class="lvl4"><a href="#20-helseerklringer">§ 20. Helseerklæringer</a></li>
+<li class="lvl4"><a href="#21-hygienesertifikater-for-skip">§ 21. Hygienesertifikater for skip</a></li>
+<li class="lvl4"><a href="#22-gebyrer-og-dekning-av-utgifter">§ 22. Gebyrer og dekning av utgifter</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23-dispensasjon">§ 23. Dispensasjon</a></li>
+<li class="lvl4"><a href="#24-straff">§ 24. Straff</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse">§ 25. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#26-opphevelse-av-og-endringer-i-andre-forskrifter">§ 26. Opphevelse av og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#merknader-til-forskrift-om-varsling-av-og-tiltak-ved-alvorlige-hendelser-av-betydning-for-internasjonal-folkehelse-ihr-forskriften">Merknader til forskrift om varsling av og tiltak ved alvorlige hendelser av betydning for internasjonal folkehelse (IHR-forskriften)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2019-10-18-1383.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1573.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om varsling av og tiltak ved alvorlige hendelser av betydning for internasjonal folkehelse mv. (IHR-forskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-21-1573.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-12-21-1573 <code>forskrift/2007-12-21-1573</code></td></tr>
+<tr><th>Korttittel</th><td>IHR-forskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2008</td></tr>
+<tr><th>Sist endret</th><td>FOR-2019-10-18-1383 <code>forskrift/2019-10-18-1383</code> fra 18.10.2019</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-21-1573" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-nasjonalt-kontaktpunkt-for-ihr-og-ewrs">§ 3. Nasjonalt kontaktpunkt for IHR og EWRS</a></li>
+<li class="lvl2"><a href="#kapittel-2-varsling-og-oppflging">Kapittel 2. Varsling og oppfølging</a></li>
+<li class="lvl4"><a href="#4-varslingsplikt-for-helsepersonell-og-andre-myndigheter">§ 4. Varslingsplikt for helsepersonell og andre myndigheter</a></li>
+<li class="lvl4"><a href="#5-varslingsplikt-for-frer-av-skip-luftfarty-og-andre-transportmidler">§ 5. Varslingsplikt for fører av skip, luftfartøy og andre transportmidler</a></li>
+<li class="lvl4"><a href="#6-varslets-innhold">§ 6. Varslets innhold</a></li>
+<li class="lvl4"><a href="#7-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 7. Varsel til Verdens helseorganisasjon og Kommisjonen</a></li>
+<li class="lvl4"><a href="#8-oppflging-av-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 8. Oppfølging av varsel til Verdens helseorganisasjon og Kommisjonen</a></li>
+<li class="lvl4"><a href="#9-henvendelse-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-norge">§ 9. Henvendelse fra Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i Norge</a></li>
+<li class="lvl4"><a href="#10-varsel-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-alvorlig-hendelse-i-utlandet">§ 10. Varsel fra Verdens helseorganisasjon og Kommisjonen om en alvorlig hendelse i utlandet</a></li>
+<li class="lvl4"><a href="#11-underretning-til-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-utlandet">§ 11. Underretning til Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i utlandet</a></li>
+<li class="lvl4"><a href="#12-behandling-av-personopplysninger">§ 12. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-midlertidige-tiltak-for-a-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 3. Midlertidige tiltak for å begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</a></li>
+<li class="lvl4"><a href="#13-anbefalinger-fra-verdens-helseorganisasjon-om-midlertidige-tiltak">§ 13. Anbefalinger fra Verdens helseorganisasjon om midlertidige tiltak</a></li>
+<li class="lvl4"><a href="#13a-kommunens-virkemidler">§ 13a. Kommunens virkemidler</a></li>
+<li class="lvl4"><a href="#14-tiltak-overfor-personer">§ 14. Tiltak overfor personer</a></li>
+<li class="lvl4"><a href="#15-tiltak-overfor-bagasje-last-containere-transportmidler-postpakker-humant-biologisk-materiale-og-varer">§ 15. Tiltak overfor bagasje, last, containere, transportmidler, postpakker, humant biologisk materiale og varer</a></li>
+<li class="lvl4"><a href="#16-unntak-for-transportmidler-og-varer-i-transitt">§ 16. Unntak for transportmidler og varer i transitt</a></li>
+<li class="lvl4"><a href="#17-skip-luftfarty-og-andre-transportmidler-pa-innreisesteder">§ 17. Skip, luftfartøy og andre transportmidler på innreisesteder</a></li>
+<li class="lvl2"><a href="#kapittel-4-staende-tiltak-for-a-forebygge-og-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 4. Stående tiltak for å forebygge og begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</a></li>
+<li class="lvl4"><a href="#18-anbefalinger-fra-verdens-helseorganisasjon-om-staende-tiltak">§ 18. Anbefalinger fra Verdens helseorganisasjon om stående tiltak</a></li>
+<li class="lvl4"><a href="#19-utpekte-havner-lufthavner-og-grensepasseringssteder">§ 19. Utpekte havner, lufthavner og grensepasseringssteder</a></li>
+<li class="lvl4"><a href="#20-helseerklringer">§ 20. Helseerklæringer</a></li>
+<li class="lvl4"><a href="#21-hygienesertifikater-for-skip">§ 21. Hygienesertifikater for skip</a></li>
+<li class="lvl4"><a href="#22-gebyrer-og-dekning-av-utgifter">§ 22. Gebyrer og dekning av utgifter</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23-dispensasjon">§ 23. Dispensasjon</a></li>
+<li class="lvl4"><a href="#24-straff">§ 24. Straff</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse">§ 25. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#26-opphevelse-av-og-endringer-i-andre-forskrifter">§ 26. Opphevelse av og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#merknader-til-forskrift-om-varsling-av-og-tiltak-ved-alvorlige-hendelser-av-betydning-for-internasjonal-folkehelse-ihr-forskriften">Merknader til forskrift om varsling av og tiltak ved alvorlige hendelser av betydning for internasjonal folkehelse (IHR-forskriften)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1573.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-21-1573.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-21-1573.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-12-21-1573.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-12-21-1573.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-21-1573.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-12-21-1573.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-12-21-1573.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-21-1573.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-varsling-av-og-tiltak-ved-alvorlige-hendelser-av-betydning-for-internasjonal-folkehelse-mv-ihr-forskriften">Forskrift om varsling av og tiltak ved alvorlige hendelser av betydning for internasjonal folkehelse mv. (IHR-forskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften har til formål å forebygge og motvirke alvorlige hendelser av betydning for internasjonal folkehelse, og sikre en internasjonalt koordinert oppfølging. Dette skal gjøres på måter som unngår unødvendig forstyrrelse av internasjonal trafikk og handel.</p>
-<p><em>Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften gjelder for Norge og norsk del av kontinentalsokkelen, med de begrensninger som følger av folkeretten eller internasjonale avtaler.</p>
 <p>Forskriften gjelder oppdagelse, vurdering og varsling av alvorlige hendelser som kan ha betydning for internasjonal folkehelse, og nødvendige tiltak rettet mot personer i Norge eller som befinner seg på innreise til eller utreise fra Norge. Tilsvarende gjelder for bagasje, last, containere, transportmidler, humant biologisk materiale, postsendinger og varer, herunder dyr og planter.</p>
 <p>Med en alvorlig hendelse av betydning for internasjonal folkehelse menes i forskriften her en folkehelserisiko eller helsetrussel som kan spres over landegrensene, og som kan kreve en internasjonalt koordinert bekjemping. Hendelsen kan være av fysisk, biologisk, kjemisk eller ukjent opprinnelse.</p>
-<p><em>Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="3-nasjonalt-kontaktpunkt-for-ihr-og-ewrs">§ 3. Nasjonalt kontaktpunkt for IHR og EWRS</h4>
 <p>Folkehelseinstituttet er nasjonalt kontaktpunkt for Internasjonalt helsereglement (IHR) og Kommisjonens varslingssystem (EWRS), og skal til enhver tid være tilgjengelig for kommunikasjon med Verdens helseorganisasjons IHR-kontaktpunkter, Kommisjonen og relevante myndigheter i Norge.</p>
 <p>Folkehelseinstituttet skal også være ansvarlig for å videreformidle informasjon fra Verdens helseorganisasjon og Kommisjonen til relevante myndigheter i Norge.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-2-varsling-og-oppflging">Kapittel 2. Varsling og oppfølging</h2>
 <h4 id="4-varslingsplikt-for-helsepersonell-og-andre-myndigheter">§ 4. Varslingsplikt for helsepersonell og andre myndigheter</h4>
 <p>Lege, sykepleier, jordmor, helsesykepleier eller tannlege som mistenker eller påviser et tilfelle av sykdom eller skade som kan ha betydning for internasjonal folkehelse og som ikke allerede er varslet etter varslingsbestemmelsene i MSIS-forskriften 20. juni 2003 nr. 740 kapittel 3 og forskrift 25. april 2003 nr. 486 om miljørettet helsevern § 6 , skal uten hinder av lovbestemt taushetsplikt umiddelbart varsle kommunelegen.</p>
 <p>Ansatte ved politiet, tollvesenet, havner, flyplasser, Mattilsynet, Forsvaret, Kystvakten, Kystverket, Fiskeridirektoratet og Sjøfartsdirektoratet som innen sitt ansvarsområde blir kjent med informasjon som kan gi mistanke om en alvorlig hendelse som utgjør eller kan utgjøre en folkehelserisiko gjennom spredning av sykdom over landegrensene, og som kan kreve en internasjonalt koordinert bekjemping, skal uten hinder av lovbestemt taushetsplikt umiddelbart varsle kommunelegen.</p>
 <p>Dersom det ikke er mulig å få varslet kommunelegen, skal Folkehelseinstituttet varsles direkte. Kommunelegen skal varsle Folkehelseinstituttet.</p>
 <p>Direktoratet for strålevern og atomsikkerhet skal varsle Folkehelseinstituttet om hendelser som kan ha betydning for internasjonal folkehelse.</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 15 sep 2017 nr. 1396 , 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 8 mars 2019 nr. 205 , 18 okt 2019 nr. 1383 .</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 15 sep 2017 nr. 1396 , 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 8 mars 2019 nr. 205 , 18 okt 2019 nr. 1383 .</p>
 <h4 id="5-varslingsplikt-for-frer-av-skip-luftfarty-og-andre-transportmidler">§ 5. Varslingsplikt for fører av skip, luftfartøy og andre transportmidler</h4>
 <p>Fører av skip eller luftfartøy skal snarest mulig og senest ved ankomst til første ankomstpunkt i Norge varsle om helsetilstanden om bord, dersom ett av følgende vilkår er oppfylt:</p>
 <p>a. føreren har grunn til å anta at det finnes smittestoffer eller annet agens om bord, som kan utgjøre en alvorlig hendelse av betydning for internasjonal folkehelse,
@@ -104,46 +215,46 @@ b. fartøyet kommer fra en havn eller lufthavn i et område som er erklært ramm
 c. det finnes en person om bord som har oppholdt seg i et område som er erklært rammet av en smittsom sykdom eller annen alvorlig hendelse som kan ha betydning for internasjonal folkehelse på et slikt tidspunkt at inkubasjonstiden ikke er over ved fartøyets ankomst til Norge.</p>
 <p>Varsel etter første ledd skal gis kontrollsentralen, tollvesenet eller Kystverket, som deretter varsler kommunelegen eller Folkehelseinstituttet, jf. § 4 .</p>
 <p>Andre transportører skal i tilfeller som nevnt i første ledd, avgi varsel til politi, som deretter varsler kommunelegen eller Folkehelseinstituttet, jf. § 4 .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</p>
 <h4 id="6-varslets-innhold">§ 6. Varslets innhold</h4>
 <p>Varsel etter § 4 og § 5 skal inneholde opplysninger som er relevante og nødvendige for at Folkehelseinstituttet skal kunne vurdere om hendelsen utløser varsel til Verdens helseorganisasjon og Kommisjonen i medhold av § 7 .</p>
 <p>Folkehelseinstituttet kan innhente relevant og nødvendig tilleggsinformasjon.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="7-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 7. Varsel til Verdens helseorganisasjon og Kommisjonen</h4>
 <p>Folkehelseinstituttet skal vurdere hendelser som oppstår på norsk territorium innen 48 timer etter at instituttet er blitt kjent med hendelsen gjennom mottak av varsel eller på annen måte.</p>
 <p>Folkehelseinstituttet skal så raskt som mulig og senest innen 24 timer etter vurderingen etter første ledd varsle Verdens helseorganisasjon og Kommisjonen om alle hendelser på norsk territorium som kan utgjøre en alvorlig hendelse av betydning for internasjonal folkehelse, samt om ethvert tiltak som iverksettes som en respons på disse hendelsene.</p>
 <p>Folkehelseinstituttet skal sammen med varslet gi opplysninger om mulig årsak eller smittekilde til Verdens helseorganisasjon og Kommisjonen. Er hendelsen eller sykdommen oppdaget blant personer eller gods som befinner seg i et transportmiddel som kommer fra utlandet, skal det gis detaljerte opplysninger om transportmiddelet og dets reiserute, samt hvilke strakstiltak som er blitt iverksatt.</p>
 <p>Folkehelseinstituttet skal informere departementet, Helsedirektoratet og andre relevante myndigheter om varslingen.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="8-oppflging-av-varsel-til-verdens-helseorganisasjon-og-kommisjonen">§ 8. Oppfølging av varsel til Verdens helseorganisasjon og Kommisjonen</h4>
 <p>Etter at varsel til Verdens helseorganisasjon eller Kommisjonen i medhold av § 7 er avgitt, skal Folkehelseinstituttet fortsette å oversende til Verdens helseorganisasjon og Kommisjonen tilgjengelig informasjon om den varslede hendelsen.</p>
 <p>Informasjonen skal om mulig inneholde kasusdefinisjoner, laboratorieresultater, risikokilde og -type, antall tilfeller og dødsfall og forhold som er relevante for den varslede hendelsen. Det skal informeres om hvilke tiltak som er iverksatt og hvilken støtte som trengs for å følge opp den varslede hendelsen.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="9-henvendelse-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-norge">§ 9. Henvendelse fra Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i Norge</h4>
 <p>Dersom Verdens helseorganisasjon eller Kommisjonen henvender seg til Folkehelseinstituttet med mistanke om en alvorlig hendelse av betydning for internasjonal folkehelse i Norge basert på andre kilder enn varsel etter § 8 , skal Folkehelseinstituttet innen 24 timer bekrefte at henvendelsen er mottatt og oversende tilgjengelig informasjon om hendelsen samt annen relevant informasjon.</p>
 <p>Folkehelseinstituttet skal informere departementet, Helsedirektoratet og andre relevante myndigheter om kommunikasjonen med Verdens helseorganisasjon.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="10-varsel-fra-verdens-helseorganisasjon-og-kommisjonen-om-en-alvorlig-hendelse-i-utlandet">§ 10. Varsel fra Verdens helseorganisasjon og Kommisjonen om en alvorlig hendelse i utlandet</h4>
 <p>Dersom Folkehelseinstituttet får varsel fra Verdens helseorganisasjon eller via Kommisjonens varslingssystem om en alvorlig hendelse av betydning for internasjonal folkehelse som har oppstått i utlandet og som kan berøre Norge, skal instituttet umiddelbart informere departementet, Helsedirektoratet og andre relevante myndigheter om dette.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="11-underretning-til-verdens-helseorganisasjon-og-kommisjonen-om-en-mulig-alvorlig-hendelse-i-utlandet">§ 11. Underretning til Verdens helseorganisasjon og Kommisjonen om en mulig alvorlig hendelse i utlandet</h4>
 <p>Dersom Folkehelseinstituttet mottar dokumentasjon om en mulig alvorlig hendelse i utlandet som kan ha betydning for internasjonal folkehelse, i form av sykdom hos tilreisende, vektorer som bærer smitte eller varer som er infisert eller kontaminert, skal Verdens helseorganisasjon og Kommisjonen varsles innen 24 timer.</p>
 <p>Folkehelseinstituttet skal informere departementet, Helsedirektoratet og andre relevante myndigheter om kommunikasjonen med Verdens helseorganisasjon og Kommisjonen.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="12-behandling-av-personopplysninger">§ 12. Behandling av personopplysninger</h4>
 <p>Ved varsel etter kapittelet her skal helseopplysninger og andre personopplysninger ikke inneholde direkte personidentifiserende kjennetegn, med mindre det er nødvendig for å motvirke en alvorlig hendelse som kan ha betydning for internasjonal folkehelse.</p>
 <p>Dersom det er nødvendig for å motvirke en alvorlig hendelse som kan ha betydning for internasjonal folkehelse, kan det utleveres helseopplysninger og andre personopplysninger til Verdens helseorganisasjon, Kommisjonen og andre land.</p>
 <p>Opplysninger som Folkehelseinstituttet mottar fra Verdens helseorganisasjon, Kommisjonen, andre land eller personell som ikke har varslingsplikt etter MSIS-forskriften kapittel 3 , skal behandles på samme måte som varsler i henhold til MSIS-forskriften kapittel 3 .</p>
-<p><em>Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 23 mai 2014 nr. 667 som endret ved forskrift 27 mai 2014 nr. 676 (i kraft 1 juli 2014), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-3-midlertidige-tiltak-for-a-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 3. Midlertidige tiltak for å begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</h2>
 <h4 id="13-anbefalinger-fra-verdens-helseorganisasjon-om-midlertidige-tiltak">§ 13. Anbefalinger fra Verdens helseorganisasjon om midlertidige tiltak</h4>
 <p>Folkehelseinstituttet skal videreformidle informasjon om anbefalinger fra Verdens helseorganisasjon om midlertidige tiltak til departementet, Helsedirektoratet og andre relevante myndigheter.</p>
 <p>Helsedirektoratet skal informere berørte kommuner og fylkeskommuner om anbefalinger fra Verdens helseorganisasjon og kan gi nærmere retningslinjer om gjennomføring av tiltak i medhold av relevant regelverk.</p>
 <p>Kommunene og fylkeskommunene skal i henhold til gjeldende varslings- og rapporteringsrutiner informere Helsedirektoratet om de tiltak som iverksettes.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="13a-kommunens-virkemidler">§ 13a. Kommunens virkemidler</h4>
 <p>Kommunen kan følge opp anbefaling fra Verdens helseorganisasjon gjennom pålegg etter folkehelseloven kapittel 3 med forskrifter.</p>
-<p><em>Tilføyd ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="14-tiltak-overfor-personer">§ 14. Tiltak overfor personer</h4>
 <p>Helsedirektoratet kan, i tillegg til tiltak etter smittevernloven kapittel 3 , 4 og 5, bestemme at følgende tiltak, i den utstrekning de er nødvendige, skal iverksettes overfor personer ved innreise til eller utreise fra Norge for å motvirke at smittsomme sykdommer eller annet agens som kan ha betydning for internasjonal folkehelse føres inn i landet eller spres til andre land, jf. smittevernloven § 4-3 og folkehelseloven § 29 fjerde ledd, jf. første ledd:</p>
 <p>a. plikt til å opplyse om reisehistorikk i berørte områder, samt planlagt reiserute eller oppholdssted,
@@ -154,7 +265,7 @@ e. nekte mistenkt smittede personer innreise, dersom ingen andre tiltak anses ti
 f. nekte ikke-smittede personer innreise til berørte områder, dersom ingen andre tiltak anses tilstrekkelige.</p>
 <p>Undersøkelser etter første ledd bokstav c) eller d) kan iverksettes etter vilkårene i smittevernloven § 3-1 . Undersøkelsene kan omfatte bildeundersøkelse, tuberkulinprøving, blodprøvetaking eller andre tilsvarende undersøkelser som kan gjøres uten fare.</p>
 <p>Helsedirektoratet kan pålegge andre myndigheter å bistå med gjennomføringen av tiltakene i første ledd, jf. smittevernloven § 4-10 .</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</p>
 <h4 id="15-tiltak-overfor-bagasje-last-containere-transportmidler-postpakker-humant-biologisk-materiale-og-varer">§ 15. Tiltak overfor bagasje, last, containere, transportmidler, postpakker, humant biologisk materiale og varer</h4>
 <p>Helsedirektoratet kan, i tillegg til tiltak etter smittevernloven kapittel 4 , bestemme at følgende tiltak, i den utstrekning de er nødvendige, skal iverksettes overfor bagasje, last, containere, transportmidler, postpakker, humant biologisk materiale og varer for å motvirke at smittsomme sykdommer eller annet agens som kan ha betydning for internasjonal folkehelse føres inn i landet eller spres til andre land, jf. smittevernloven § 4-3 og folkehelseloven § 29 fjerde ledd, jf. første ledd:</p>
 <p>a. gjennomgang av godsmanifest og rute,
@@ -166,7 +277,7 @@ f. isolasjon eller karantene,
 g. beslag og destruksjon av mistenkt infisert bagasje, last, containere, transportmidler, postpakker eller varer, dersom ingen annen tilgjengelig behandling anses tilstrekkelig,
 h. nekte inn- eller utførsel, samt innreise eller avreise for transportmidler.</p>
 <p>Helsedirektoratet kan pålegge andre myndigheter å bistå med gjennomføringen av tiltakene i første ledd, jf. smittevernloven § 4-10 .</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 .</p>
 <h4 id="16-unntak-for-transportmidler-og-varer-i-transitt">§ 16. Unntak for transportmidler og varer i transitt</h4>
 <p>Med mindre det foreligger begrunnet mistanke om eller kliniske tegn, symptomer eller annen dokumentasjon på smittekilder om bord, kan tiltak etter § 14 ikke iverksettes overfor:</p>
 <p>a. skip i transitt som passerer gjennom en sjøkanal eller vannvei i Norge, og som ikke kommer fra et område som er rammet av en alvorlig hendelse av betydning for internasjonal folkehelse,
@@ -179,16 +290,16 @@ e. varer i transitt som ikke blir omlastet, unntatt levende dyr.</p>
 <p>Skip og luftfartøy kan ikke av folkehelsehensyn nektes å anløpe eller ankomme en havn eller lufthavn, ta om bord eller sette av, losse eller laste last eller forråd. Ethvert transportmiddel skal tillates å ta om bord drivstoff, vann, mat og forsyninger. Pålegg eller tillatelser etter dette leddet kan gjøres betinget av inspeksjon og gjennomføring av helsetiltak for å motvirke spredning av smitte eller annet agens.</p>
 <p>Dersom det ikke er mulig å få iverksatt tilfredsstillende kontrolltiltak overfor et infisert transportmiddel, eller det iverksatte tiltaket ikke er vellykket, kan transportmidlet likevel få tillatelse til å reise videre under forutsetning av at ansvarlig myndighet underretter myndighetene på neste kjente innreisested om forholdene.</p>
 <p>Dersom det anses påkrevd, kan transportmidlet henvises videre til nærmeste utpekte havn, lufthavn eller grensepasseringssted, jf. § 19 .</p>
-<p><em>Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-4-staende-tiltak-for-a-forebygge-og-begrense-skadevirkningene-av-en-alvorlig-hendelse-av-betydning-for-internasjonal-folkehelse">Kapittel 4. Stående tiltak for å forebygge og begrense skadevirkningene av en alvorlig hendelse av betydning for internasjonal folkehelse</h2>
 <h4 id="18-anbefalinger-fra-verdens-helseorganisasjon-om-staende-tiltak">§ 18. Anbefalinger fra Verdens helseorganisasjon om stående tiltak</h4>
 <p>Folkehelseinstituttet skal videreformidle informasjon om anbefalinger fra Verdens helseorganisasjon om stående tiltak til departementet, Helsedirektoratet, Direktoratet for strålevern og atomsikkerhet og andre relevante myndigheter.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 15 sep 2017 nr. 1396 , 20 des 2018 nr. 2067 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 15 sep 2017 nr. 1396 , 20 des 2018 nr. 2067 (i kraft 1 jan 2019).</p>
 <h4 id="19-utpekte-havner-lufthavner-og-grensepasseringssteder">§ 19. Utpekte havner, lufthavner og grensepasseringssteder</h4>
 <p>Helsedirektoratet utpeker hvilke havner, lufthavner og grensepasseringssteder som skal ivareta særskilte oppgaver, slik at de kan håndtere en alvorlig hendelse som kan ha betydning for internasjonal folkehelse.</p>
 <p>Kommunen skal sørge for at utpekte havner, lufthavner og grensepasseringssteder har tilgang til de lokaler og det personale og utstyr som er nødvendig for kontroll av passasjerer, bagasje, last, containere, transportmidler, humant biologisk materiale, postsendinger og varer, herunder dyr og planter, for å beskytte mot en alvorlig hendelse som kan ha betydning for internasjonal folkehelse.</p>
 <p>Helsedirektoratet kan gi retningslinjer om forhold nevnt i annet ledd.</p>
-<p><em>Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 jan 2013 nr. 61 , 16 des 2016 nr. 1603 (i kraft 1 jan 2017).</p>
 <h4 id="20-helseerklringer">§ 20. Helseerklæringer</h4>
 <p>Fører av skip eller luftfartøy skal utfylle og avgi henholdsvis «Erklæring om helseforholdene om bord på skip» eller «Helsedelen av Luftfartøysdeklarasjonen». Erklæringen skal avgis til tjenestemann ved tollvesenet eller kommunelegen ved ankomst til landet.</p>
 <p>Tolltjenestemannen underretter kommunelegen umiddelbart, dersom det fremkommer opplysninger i helseerklæringen som gir grunn til nærmere undersøkelser.</p>
@@ -197,7 +308,7 @@ e. varer i transitt som ikke blir omlastet, unntatt levende dyr.</p>
 <p>Foreligger det i tilfeller som nevnt i første ledd, ikke sertifikat for hygienekontroll eller dispensasjon, eller sertifikatet er ugyldig, skal kommunelegen omgående varsles om dette av dem som utfører kontrollen med sertifikatene. Etter foretatt inspeksjon om bord på skipet kan kommunelegen beslutte at hygienekontroll skal finne sted og utstede sertifikat om foretatt kontroll eller om dispensasjon.</p>
 <p>Er kommunen ikke godkjent for oppgaven, skal skip henvises til nærmeste godkjente havn for befaring og utstedelse av sertifikat.</p>
 <p>Helsedirektoratet godkjenner hvilke kommuner som kan utføre hygienekontroll på skip og utstede sertifikater for foretatt kontroll eller dispensasjon. Sertifikatene er gyldige i seks måneder, men kan forlenges med én måned.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h4 id="22-gebyrer-og-dekning-av-utgifter">§ 22. Gebyrer og dekning av utgifter</h4>
 <p>Eier eller driftsansvarlig for skip, luftfartøy og annet transportmiddel som kommer til Norge, skal betale for det arbeidet som utføres i forbindelse med inspeksjon, desinfeksjon, insektsutrydding, rotteutrydding eller annen sanering etter pålegg gitt i medhold av § 14 . Betalingen skal ikke være høyere enn hva de aktuelle ytelser har kostet. Tilsvarende gjelder ved tiltak overfor bagasje, last, containere, postpakker, humant biologisk materiale og varer, jf. § 15 .</p>
 <p>Helsedirektoratet fastsetter nærmere gebyrsatser for undersøkelse og kontroll som foretas i forbindelse med utstedelse av «Sertifikat for hygienekontroll på skip» eller «Sertifikat for dispensasjon fra hygienekontroll på skip». Det kan kreves betaling for inspektørenes reise til og fra skipet. Det kan ikke kreves betaling for utstedelse av ovennevnte sertifikater.</p>
@@ -208,7 +319,7 @@ c. vaksinasjon eller annen profylaktisk behandling ved ankomst til Norge,
 d. påkrevd isolasjon av eller karantene for reisende,
 e. ethvert sertifikat utstedt til den reisende, og
 f. ethvert helsetiltak iverksatt overfor bagasje som den reisende bringer med seg.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h2 id="kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</h2>
 <h4 id="23-dispensasjon">§ 23. Dispensasjon</h4>
 <p>Departementet kan i særlige tilfeller gi dispensasjon fra bestemmelser gitt i eller i medhold av forskriften her. Det kan settes vilkår for en eventuell dispensasjon.</p>
@@ -371,6 +482,8 @@ f. ethvert helsetiltak iverksatt overfor bagasje som den reisende bringer med se
 <p>Det kan oppstå tilfeller hvor det bør gjøres unntak fra forskriftens bestemmelser av hensyn til andre viktige, samfunnsmessige forhold eller på grunn av sterke individuelle, menneskelige hensyn. Dette må vurderes konkret i det enkelte tilfelle.</p>
 <p>Merknader endret uten kunngjøring i Norsk Lovtidend 1 nov 2012, endret ved forskrift 17 jan 2013 nr. 61 , endret uten kunngjøring 16 mai 2013, endret ved forskrifter 16 des 2016 nr. 1603 (i kraft 1 jan 2017), 21 april 2017 nr. 482 , 15 sep 2017 nr. 1396 .</p>
 <p>1 Navnet «Statens strålevern» ble endret til «Direktoratet for strålevern og atomsikkerhet» i forskriftens tekst ved forskrift 20 des 2018 nr. 2067 (i kraft 1 jan 2019), Lovdatas anmerkning.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

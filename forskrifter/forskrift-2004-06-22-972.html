@@ -19,64 +19,191 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-06-22-972.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Sikkerhetsforskriften (skip mv)" href="../feeds/forskrift-2004-06-22-972.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Sikkerhetsforskriften (skip mv)</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2004-06-22-972</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2004-07-01, 2005-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-03-27-459</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2004-06-22-972" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1: Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-2-internasjonale-bestemmelser">Kapittel 2: Internasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-internasjonal-konvensjon">§ 5. Forholdet til internasjonal konvensjon</a></li>
+<li class="lvl4"><a href="#6-forholdet-til-eu-regelverk">§ 6. Forholdet til EU-regelverk</a></li>
+<li class="lvl4"><a href="#6a-rapportering-til-regionale-sikkerhetssentre-i-hyrisikoomrader-for-piratangrep">§ 6a. Rapportering til regionale sikkerhetssentre i høyrisikoområder for piratangrep</a></li>
+<li class="lvl2"><a href="#kapittel-3-sikkerhet-og-terrorberedskapstiltak">Kapittel 3: Sikkerhet og terrorberedskapstiltak</a></li>
+<li class="lvl4"><a href="#7-terroralarmsystem-ship-security-alert-system">§ 7. Terroralarmsystem (Ship security alert system)</a></li>
+<li class="lvl4"><a href="#8-sarbarhetsvurdering-ssa">§ 8. Sårbarhetsvurdering (SSA)</a></li>
+<li class="lvl4"><a href="#9-sikkerhets-og-terrorberedskapsplan-ssp">§ 9. Sikkerhets- og terrorberedskapsplan (SSP)</a></li>
+<li class="lvl4"><a href="#10-verifikasjon-og-sertifisering">§ 10. Verifikasjon og sertifisering</a></li>
+<li class="lvl4"><a href="#11-midlertidig-sertifisering">§ 11. Midlertidig sertifisering</a></li>
+<li class="lvl4"><a href="#12-dokumentasjon">§ 12. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#13-dokument-over-fartyshistorikk-csr">§ 13. Dokument over fartøyshistorikk (CSR)</a></li>
+<li class="lvl4"><a href="#14-sikkerhets-og-terrorberedskapsoffiserer-cso-og-sso">§ 14. Sikkerhets- og terrorberedskapsoffiserer (CSO og SSO)</a></li>
+<li class="lvl4"><a href="#15-beredskapsniva">§ 15. Beredskapsnivå</a></li>
+<li class="lvl4"><a href="#16-sikkerhetsdeklarasjon-dos">§ 16. Sikkerhetsdeklarasjon (DoS)</a></li>
+<li class="lvl2"><a href="#kapittel-4-bruk-av-maktmidler-og-rapportering">Kapittel 4: Bruk av maktmidler og rapportering</a></li>
+<li class="lvl4"><a href="#17-bruk-av-maktmidler">§ 17. Bruk av maktmidler</a></li>
+<li class="lvl4"><a href="#18-rapportering">§ 18. Rapportering</a></li>
+<li class="lvl4"><a href="#19-forholdet-til-offentleglova">§ 19. Forholdet til offentleglova</a></li>
+<li class="lvl2"><a href="#kapittel-5-bruk-og-oppbevaring-av-skytevapen-bevpnede-vakter-mv">Kapittel 5: Bruk og oppbevaring av skytevåpen, bevæpnede vakter m.v.</a></li>
+<li class="lvl4"><a href="#20-bruk-av-bevpnede-vakter-og-dokumentasjonsplikt">§ 20. Bruk av bevæpnede vakter og dokumentasjonsplikt</a></li>
+<li class="lvl4"><a href="#21-rederiets-varslingsplikt-overfor-forsikringsgiverne">§ 21. Rederiets varslingsplikt overfor forsikringsgiverne</a></li>
+<li class="lvl4"><a href="#22-prosedyrer-for-bruk-av-bevpnede-vakter">§ 22. Prosedyrer for bruk av bevæpnede vakter</a></li>
+<li class="lvl4"><a href="#23-oppbevaring-av-skytevapen">§ 23. Oppbevaring av skytevåpen</a></li>
+<li class="lvl4"><a href="#24-bruk-av-skytevapen">§ 24. Bruk av skytevåpen</a></li>
+<li class="lvl2"><a href="#kapittel-6-sikring-av-rutegaende-passasjerskip-i-innenriksfart-som-tilbyr-overnatting">Kapittel 6: Sikring av rutegående passasjerskip i innenriksfart som tilbyr overnatting</a></li>
+<li class="lvl4"><a href="#25-sikringsvurdering">§ 25. Sikringsvurdering</a></li>
+<li class="lvl4"><a href="#26-gjennomskning-av-skipet">§ 26. Gjennomsøkning av skipet</a></li>
+<li class="lvl4"><a href="#27-adgangs-og-stikkprvekontroll">§ 27. Adgangs- og stikkprøvekontroll</a></li>
+<li class="lvl4"><a href="#28-informasjon-om-tilsyn-med-bagasje">§ 28. Informasjon om tilsyn med bagasje</a></li>
+<li class="lvl4"><a href="#29-sikring-av-autorisert-adgang">§ 29. Sikring av autorisert adgang</a></li>
+<li class="lvl4"><a href="#30-beredskapsplan">§ 30. Beredskapsplan</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7: Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse">§ 31. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-03-27-459.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-22-972.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om sikkerhet, pirat- og terrorberedskapstiltak og bruk av maktmidler om bord på skip og flyttbare boreinnretninger (sikkerhetsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-06-22-972.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2004-06-22-972 <code>forskrift/2004-06-22-972</code></td></tr>
+<tr><th>Korttittel</th><td>Sikkerhetsforskriften (skip mv)</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2004, 01.07.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-03-27-459 <code>forskrift/2023-03-27-459</code> fra 27.03.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2004-06-22-972" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1: Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-plikter">§ 3. Plikter</a></li>
+<li class="lvl4"><a href="#4-fravik">§ 4. Fravik</a></li>
+<li class="lvl2"><a href="#kapittel-2-internasjonale-bestemmelser">Kapittel 2: Internasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-internasjonal-konvensjon">§ 5. Forholdet til internasjonal konvensjon</a></li>
+<li class="lvl4"><a href="#6-forholdet-til-eu-regelverk">§ 6. Forholdet til EU-regelverk</a></li>
+<li class="lvl4"><a href="#6a-rapportering-til-regionale-sikkerhetssentre-i-hyrisikoomrader-for-piratangrep">§ 6a. Rapportering til regionale sikkerhetssentre i høyrisikoområder for piratangrep</a></li>
+<li class="lvl2"><a href="#kapittel-3-sikkerhet-og-terrorberedskapstiltak">Kapittel 3: Sikkerhet og terrorberedskapstiltak</a></li>
+<li class="lvl4"><a href="#7-terroralarmsystem-ship-security-alert-system">§ 7. Terroralarmsystem (Ship security alert system)</a></li>
+<li class="lvl4"><a href="#8-sarbarhetsvurdering-ssa">§ 8. Sårbarhetsvurdering (SSA)</a></li>
+<li class="lvl4"><a href="#9-sikkerhets-og-terrorberedskapsplan-ssp">§ 9. Sikkerhets- og terrorberedskapsplan (SSP)</a></li>
+<li class="lvl4"><a href="#10-verifikasjon-og-sertifisering">§ 10. Verifikasjon og sertifisering</a></li>
+<li class="lvl4"><a href="#11-midlertidig-sertifisering">§ 11. Midlertidig sertifisering</a></li>
+<li class="lvl4"><a href="#12-dokumentasjon">§ 12. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#13-dokument-over-fartyshistorikk-csr">§ 13. Dokument over fartøyshistorikk (CSR)</a></li>
+<li class="lvl4"><a href="#14-sikkerhets-og-terrorberedskapsoffiserer-cso-og-sso">§ 14. Sikkerhets- og terrorberedskapsoffiserer (CSO og SSO)</a></li>
+<li class="lvl4"><a href="#15-beredskapsniva">§ 15. Beredskapsnivå</a></li>
+<li class="lvl4"><a href="#16-sikkerhetsdeklarasjon-dos">§ 16. Sikkerhetsdeklarasjon (DoS)</a></li>
+<li class="lvl2"><a href="#kapittel-4-bruk-av-maktmidler-og-rapportering">Kapittel 4: Bruk av maktmidler og rapportering</a></li>
+<li class="lvl4"><a href="#17-bruk-av-maktmidler">§ 17. Bruk av maktmidler</a></li>
+<li class="lvl4"><a href="#18-rapportering">§ 18. Rapportering</a></li>
+<li class="lvl4"><a href="#19-forholdet-til-offentleglova">§ 19. Forholdet til offentleglova</a></li>
+<li class="lvl2"><a href="#kapittel-5-bruk-og-oppbevaring-av-skytevapen-bevpnede-vakter-mv">Kapittel 5: Bruk og oppbevaring av skytevåpen, bevæpnede vakter m.v.</a></li>
+<li class="lvl4"><a href="#20-bruk-av-bevpnede-vakter-og-dokumentasjonsplikt">§ 20. Bruk av bevæpnede vakter og dokumentasjonsplikt</a></li>
+<li class="lvl4"><a href="#21-rederiets-varslingsplikt-overfor-forsikringsgiverne">§ 21. Rederiets varslingsplikt overfor forsikringsgiverne</a></li>
+<li class="lvl4"><a href="#22-prosedyrer-for-bruk-av-bevpnede-vakter">§ 22. Prosedyrer for bruk av bevæpnede vakter</a></li>
+<li class="lvl4"><a href="#23-oppbevaring-av-skytevapen">§ 23. Oppbevaring av skytevåpen</a></li>
+<li class="lvl4"><a href="#24-bruk-av-skytevapen">§ 24. Bruk av skytevåpen</a></li>
+<li class="lvl2"><a href="#kapittel-6-sikring-av-rutegaende-passasjerskip-i-innenriksfart-som-tilbyr-overnatting">Kapittel 6: Sikring av rutegående passasjerskip i innenriksfart som tilbyr overnatting</a></li>
+<li class="lvl4"><a href="#25-sikringsvurdering">§ 25. Sikringsvurdering</a></li>
+<li class="lvl4"><a href="#26-gjennomskning-av-skipet">§ 26. Gjennomsøkning av skipet</a></li>
+<li class="lvl4"><a href="#27-adgangs-og-stikkprvekontroll">§ 27. Adgangs- og stikkprøvekontroll</a></li>
+<li class="lvl4"><a href="#28-informasjon-om-tilsyn-med-bagasje">§ 28. Informasjon om tilsyn med bagasje</a></li>
+<li class="lvl4"><a href="#29-sikring-av-autorisert-adgang">§ 29. Sikring av autorisert adgang</a></li>
+<li class="lvl4"><a href="#30-beredskapsplan">§ 30. Beredskapsplan</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7: Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse">§ 31. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-22-972.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-06-22-972.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-22-972.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2004-06-22-972.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2004-06-22-972.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-06-22-972.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2004-06-22-972.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2004-06-22-972.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-06-22-972.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-sikkerhet-pirat-og-terrorberedskapstiltak-og-bruk-av-maktmidler-om-bord-pa-skip-og-flyttbare-boreinnretninger-sikkerhetsforskriften">Forskrift om sikkerhet, pirat- og terrorberedskapstiltak og bruk av maktmidler om bord på skip og flyttbare boreinnretninger (sikkerhetsforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1: Generelle bestemmelser</h2>
 <p>Overskrift tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
@@ -86,7 +213,7 @@ b. lasteskip, herunder hurtiggående lasteskip, med bruttotonnasje på 500 og de
 c. flyttbare boreinnretninger. Flyttbare boreinnretninger omfattes likevel ikke av kravene i denne forskrift når de er på lokasjon eller hvis de ikke forflytter seg utenfor norske jurisdiksjonsområder</p>
 <p>(2) Forskriften gjelder ikke fartøy som benyttes til ikke-kommersielle formål, med unntak av kravene i § 13 .</p>
 <p>(3) § 18 til § 24 gjelder for seiling i, til eller fra et område med beredskapsnivå 2 eller 3, likevel bare seiling sør for 46 grader nordlig bredde.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 1 juli 2011 nr. 731 , 27 april 2012 nr. 371 (i kraft 1 mai 2012), 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 1 juli 2011 nr. 731 , 27 april 2012 nr. 371 (i kraft 1 mai 2012), 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskrift betyr:</p>
 <p>a. Beredskapsnivå 1: Det nivået hvor et minimum av relevante sikkerhets- og terrorberedskapstiltak skal opprettholdes til enhver tid.
@@ -115,10 +242,10 @@ w. SOLAS: Den internasjonale konvensjon av 1974 om sikkerhet for menneskeliv til
 x. SOLAS kap. XI-2: SOLAS-konvensjonens særlige tiltak til fremme av sikkerhet og terrorberedskap, med senere endringer.
 y. Sårbarhetsvurdering (Ship security assessment, SSA): Vurdering med hensyn til sårbarhet for terroranslag mot fartøy.
 z. Terroralarmsystem (Ship security alert system, SSAS): System som igangsetter og sender varsel til kompetent myndighet, når alarmen aktiveres.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="3-plikter">§ 3. Plikter</h4>
 <p>Rederiet, skipsføreren og andre som har sitt arbeid om bord skal utføre sine plikter i henhold til skipssikkerhetsloven og med de utfyllende bestemmelser som følger av forskriften her.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="4-fravik">§ 4. Fravik</h4>
 <p>(1) I enkelttilfeller kan Sjøfartsdirektoratet etter skriftlig søknad fravike forskriftens krav. Spesielle grunner må gjøre fraviket nødvendig og fraviket må være sikkerhetsmessig forsvarlig. Fravik må ikke være i strid med internasjonal overenskomst Norge har sluttet seg til.</p>
 <p>(2) Sjøfartsdirektoratet kan tillate fartøy eller grupper av fartøy å implementere andre sikkerhetstiltak ekvivalente til de tiltak som er beskrevet i SOLAS kap. XI-2 eller ISPS-koden, forutsatt at slike ekvivalente sikkerhetstiltak er minst like effektive som de beskrevet i SOLAS kap. XI-2 eller ISPS-koden.</p>
@@ -129,18 +256,18 @@ z. Terroralarmsystem (Ship security alert system, SSAS): System som igangsetter 
 <h4 id="6-forholdet-til-eu-regelverk">§ 6. Forholdet til EU-regelverk</h4>
 <p>EØS-avtalen vedlegg XIII nr. 56bb (Europaparlamentets- og rådsforordning (EF) nr. 725/2004 av 31. mars 2004 om styrket sikring av skip og havneanlegg), gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til avtalen og avtalen for øvrig. Det vises til vedlegg 1 i forskriften. Ved eventuell konflikt mellom øvrige bestemmelser i forskriften og ovennevnte forordning, har sistnevnte forrang.</p>
 <p>EØS-avtalen vedlegg XIII nr. 56r (forordning (EF) nr. 324/2008 av 9. april 2008 om fastleggelse av reviderte prosedyrer for Kommisjonens inspeksjoner innenfor maritim sikring som endret ved gjennomføringsforordning (EU) 2016/462 ) gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til avtalen og avtalen for øvrig. Det vises til vedlegg 2 i forskriften. Ved eventuell konflikt mellom øvrige bestemmelser i forskriften og ovennevnte forordning, har sistnevnte forrang.</p>
-<p><em>Tilføyd ved forskrift 4 feb 2005 nr. 119 , endret ved forskrifter 2 april 2007 nr. 392 , 16 jan 2009 nr. 41 , 17 feb 2017 nr. 209 .</em></p>
+<p class="note">Tilføyd ved forskrift 4 feb 2005 nr. 119 , endret ved forskrifter 2 april 2007 nr. 392 , 16 jan 2009 nr. 41 , 17 feb 2017 nr. 209 .</p>
 <h4 id="6a-rapportering-til-regionale-sikkerhetssentre-i-hyrisikoomrader-for-piratangrep">§ 6a. Rapportering til regionale sikkerhetssentre i høyrisikoområder for piratangrep</h4>
 <p>Skip som skal foreta operasjoner eller gå i transitt i et område som er definert som høyrisikoområdet for piratangrep i «Best management practices to deter piracy off the Coast of Somalia and in the Arabian Sea Area», skal følge anbefalingene i «Best management practices to deter piracy off the Coast of Somalia and in the Arabian Sea Area» som gjelder registrering hos MSCHOA og rapportering til UKMTO og andre kontaktpunkter før innreise i området og underveis.</p>
-<p><em>Tilføyd ved forskrift 8 juni 2011 nr. 580 .</em></p>
+<p class="note">Tilføyd ved forskrift 8 juni 2011 nr. 580 .</p>
 <h2 id="kapittel-3-sikkerhet-og-terrorberedskapstiltak">Kapittel 3: Sikkerhet og terrorberedskapstiltak</h2>
 <p>Overskrift tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="7-terroralarmsystem-ship-security-alert-system">§ 7. Terroralarmsystem (Ship security alert system)</h4>
 <p>(1) Fartøy som omfattes av denne forskrift skal ha et terroralarmsystem om bord i henhold til bestemmelsene i SOLAS kap. XI-2, regel 6. 1</p>
 <p>(2) Dersom Hovedredningssentralen mottar alarm fra et norsk fartøy, skal fartøyets rederi snarest mulig bli varslet om dette. Hvert rederi skal ha etablert prosedyrer for å kunne få avklart om det dreier seg om tilsiktet utsendelse av terroralarm eller ikke, og hvis mulig fremskaffe opplysninger om situasjonen om bord. Eventuell kontakt med fartøyet skal skje på en slik måte at ingen uvedkommende vil kunne forstå at det er mottatt terroralarm fra fartøyet.</p>
 <p>(3) Når rederiet blir varslet om at det er mottatt terroralarm fra et fartøy, skal rederiet omgående iverksette ovennevnte prosedyre. Rederiet skal melde tilbake til Hovedredningssentralen så snart omstendighetene rundt utsendelsen av terroralarm er avklart.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).
-1 Jf. Resolusjon MSC.147(77) – adopted 29.05.2003; og MSC/Circ.1072.</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).
+1 Jf. Resolusjon MSC.147(77) – adopted 29.05.2003; og MSC/Circ.1072.</p>
 <h4 id="8-sarbarhetsvurdering-ssa">§ 8. Sårbarhetsvurdering (SSA)</h4>
 <p>(1) Det skal utarbeides en sårbarhetsvurdering som beskrevet i ISPS-kodens del A, seksjon 8.</p>
 <p>(2) Sårbarhetsvurderingen skal danne grunnlag for å utarbeide og oppdatere sikkerhets- og terrorberedskapsplanen.</p>
@@ -157,7 +284,7 @@ c. overfører eller mottar last eller personer til eller fra faste plattformer, 
 <p>(6) De deler av planen som relaterer seg til ISPS – kodens del A, seksjon 9.4 underpunkt .2, .4, .5, .7, .15, .17 og .18 kan ikke forevises annet lands myndighet uten Sjøfartsdirektoratets godkjennelse.</p>
 <p>(7) Rederiet skal periodisk gjennomgå sikkerhets- og terrorberedskapsplanen (SSP).</p>
 <p>(8) Rederiet skal utarbeide prosedyrer for gjennomføring av intern revisjon for sikkerhets- og terrorberedskapstiltak.</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="10-verifikasjon-og-sertifisering">§ 10. Verifikasjon og sertifisering</h4>
 <p>(1) Når det er verifisert at fartøyet oppfyller kravene i denne forskrift og i den godkjente sikkerhets- og terrorberedskapsplan (SSP), utsteder Sjøfartsdirektoratet eller anerkjent klasseinstitusjon (RSO) internasjonalt sikkerhets- og terrorberedskapssertifikat (ISSC).</p>
 <p>(2) Internasjonalt sikkerhets- og terrorberedskapssertifikatet (ISSC) er gyldig i 5 år, forutsatt at det blir foretatt minst en mellomliggende verifikasjon. Slik mellomliggende verifikasjon skal foretas i perioden mellom sertifikatets andre og tredje årsdato som definert i SOLAS kap. I, regel 2, bokstav n. Den mellomliggende verifikasjonen skal inkludere inspeksjon av fartøyets system for sikkerhet og terrorberedskap, herunder tilhørende utstyr, for å påse at dette fungerer tilfredsstillende.</p>
@@ -174,12 +301,12 @@ c. overfører eller mottar last eller personer til eller fra faste plattformer, 
 <p>(1) Ethvert rederi skal utpeke en sikkerhets- og terrorberedskapsoffiser (CSO) som er pålagt de oppgaver som ISPS-kodens del A, seksjon 11 krever som et minimum.</p>
 <p>(2) Ethvert fartøy skal ha en sikkerhets- og terrorberedskapsoffiser (SSO) om bord som har særlig ansvar for sikkerheten og terrorberedskapen. Ansvaret omfatter som et minimum de oppgaver som beskrives i ISPS-kodens del A, seksjon 12.</p>
 <p>(3) Opplæring av fartøyets og rederiets sikkerhets- og terrorberedskapsoffiserer skal være i henhold til kravene gitt i ISPS-kodens del A, seksjon 13 og hensyn tatt til del B, seksjon 13, samt IMOs modellkurs for disse. Det må kunne dokumenteres at personen har gjennomført opplæring, med relevante henvisninger til ISPS-koden og IMOs modellkurs. Dokumentasjon for opplæring som fartøyets sikkerhets- og terrorberedskapsoffiser (SSO) skal oppbevares om bord. Fra 1. juli 2013 skal fartøyets sikkerhets- og terrorberedskapsoffiser ha ferdighetssertifikat for sikringsoffiser etter forskrift 22. desember 2011 nr. 1523 om kvalifikasjoner og sertifikater for sjøfolk.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 2 jan 2012 nr. 40 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007), 2 jan 2012 nr. 40 .</p>
 <h4 id="15-beredskapsniva">§ 15. Beredskapsnivå</h4>
 <p>(1) Fartøy skal minst operere i henhold til det beredskapsnivå som fastsettes av norske myndigheter, med mindre høyere beredskapsnivå kreves av havnestater i henhold til SOLAS kap. XI-2, regel 4.3.</p>
 <p>(2) Fartøy skal uten forsinkelser respondere på melding om endring til høyere beredskapsnivå.</p>
 <p>(3) Når norske myndigheter beslutter å iverksette beredskapsnivå 2 eller 3 for visse eller alle norske fartøy, skal dette skje ved at fartøyenes rederier informeres av norske myndigheter. Rederiene skal omgående informere alle berørte fartøy om at beredskapsnivå 2 eller 3 er fastsatt, og fartøyet skal omgående sende en kvittering til rederiet hvor det bekreftes at melding om endret beredskapsnivå er mottatt om bord. Dersom slik kvittering ikke er mottatt innen 12 timer etter utsendelse av informasjon til rederiet, skal rederiet varsle Hovedredningssentralen om dette</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h4 id="16-sikkerhetsdeklarasjon-dos">§ 16. Sikkerhetsdeklarasjon (DoS)</h4>
 <p>(1) Skipsføreren eller sikkerhets- og beredskapsoffiseren (SSO) skal anmode relevant havnemyndighet, ved havnens sikkerhets- og terrorberedskapssjef (PFSO) eller annen autorisert person, om at sikkerhetsdeklarasjon blir fylt ut når:</p>
 <p>a. Fartøyet opererer på et høyere beredskapsnivå enn det nivå som havnen, eller et annet fartøy det samhandler med, opererer på;
@@ -187,21 +314,21 @@ b. det har vært en relevant trussel eller en hendelse som har angått sikkerhet
 c. fartøyet er ved en havneterminal som ikke har utarbeidet og implementert godkjent sikkerhets- og terrorberedskapsplan.</p>
 <p>(2) Skipsføreren eller fartøyets sikkerhets- og terrorberedskapsoffiser (SSO) skal dessuten anmode om at sikkerhetsdeklarasjon blir fylt ut når fartøyet foretar aktiviteter med et skip, faste plattformer, flytende plattformer eller flyttbare innretninger som ikke har ISSC-sertifikat.</p>
 <p>(3) Sikkerhetsdeklarasjoner skal minimum oppbevares om bord for en tidsperiode som spesifisert i § 12 .</p>
-<p><em>Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2007 nr. 1006 (i kraft 1 juli 2007).</p>
 <h2 id="kapittel-4-bruk-av-maktmidler-og-rapportering">Kapittel 4: Bruk av maktmidler og rapportering</h2>
 <p>Kapitlet tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="17-bruk-av-maktmidler">§ 17. Bruk av maktmidler</h4>
 <p>(1) Når det er nødvendig for å hindre eller beskytte mot terrorhandlinger og piratvirksomhet, kan skipsføreren beslutte å ta i bruk maktmidler innenfor folkerettens grenser. Enhver som befinner seg om bord plikter å yte hjelp og respektere de tiltak som treffes.</p>
 <p>(2) Maktmidler kan bare anvendes mot en trussel som er direkte, umiddelbar, betydelig og på annen måte uungåelig. Bruk av maktmidler skal så langt som mulig unngås, og der dette er nødvendig skal det stå i rimelig forhold til trusselens omfang og forholdene for øvrig.</p>
 <p>(3) Urettmessig bruk av maktmidler kan medføre straffeansvar etter lov 20. mai 2005 nr. 28 om straff (straffeloven).</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 , endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 , endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h4 id="18-rapportering">§ 18. Rapportering</h4>
 <p>(1) Dersom skipet har vært utsatt for et angrep og det fra skipets side har vært tatt i bruk maktmidler, skal hendelsen rapporteres til Sjøfartsdirektoratet innen 72 timer. Rapporten skal beskrive hendelsen, angi involverte personer og bruken av maktmidler, herunder skytevåpen. Dersom forholdene tillater det bør situasjonen så langt dette er mulig dokumenteres gjennom lyd- og bildeopptak.</p>
 <p>(2) Dersom det er grunn til å tro at bruk av maktmidler har medført personskade eller død skal det rapporteres om dette umiddelbart til Kripos.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="19-forholdet-til-offentleglova">§ 19. Forholdet til offentleglova</h4>
 <p>(1) Informasjon som sendes til Sjøfartsdirektoratet eller Kripos etter § 18 , § 20 annet ledd eller § 23 annet ledd vil kunne være omfattet av unntaket fra offentlighet etter offentleglova § 24 tredje ledd.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h2 id="kapittel-5-bruk-og-oppbevaring-av-skytevapen-bevpnede-vakter-mv">Kapittel 5: Bruk og oppbevaring av skytevåpen, bevæpnede vakter m.v.</h2>
 <p>Kapitlet tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="20-bruk-av-bevpnede-vakter-og-dokumentasjonsplikt">§ 20. Bruk av bevæpnede vakter og dokumentasjonsplikt</h4>
@@ -216,26 +343,26 @@ b. En vurdering av vaktselskapets og vaktenes egnethet, herunder vaktselskapets 
 <p>Dokumentasjonen skal også oppbevares om bord.</p>
 <p>(3) Ved utvelgelse og bruk av vaktselskaper skal rederiet ta hensyn til retningslinjer utarbeidet av FNs sjøfartsorganisasjon IMO.</p>
 <p>(4) Dersom Sjøfartsdirektoratet får kunnskap om at et navngitt vaktselskap ikke kan anses som egnet til å benyttes på norskregistrerte skip, kan Sjøfartsdirektoratet treffe vedtak om at rederier ikke kan benytte dette selskapet.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="21-rederiets-varslingsplikt-overfor-forsikringsgiverne">§ 21. Rederiets varslingsplikt overfor forsikringsgiverne</h4>
 <p>Før væpnede vakter benyttes, skal rederiet i rimelig tid varsle forsikringsgiver som dekker ansvar, tap, omkostninger eller utgifter som følge av piratvirksomhet, og gi slike opplysninger som den enkelte forsikringsgiver behøver for å avklare forholdet til forsikringen.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="22-prosedyrer-for-bruk-av-bevpnede-vakter">§ 22. Prosedyrer for bruk av bevæpnede vakter</h4>
 <p>(1) Rederiet skal etablere prosedyrer for bruk av bevæpnede vakter, samt bruk og oppbevaring av skytevåpen som tar hensyn til krav fastsatt i forskriften her. Prosedyrene skal gjøres kjent for skipsføreren, mannskapet og vakter som følger med skipet.</p>
 <p>(2) Det skal fremgå av prosedyrene at vakter om bord står under skipsførerens kommando.</p>
 <p>(3) Videre skal det fremgå av prosedyrene at vakter som tas om bord blir gjort kjent med skipet og forhold om bord som har betydning for deres oppdrag.</p>
 <p>(4) Prosedyrene er ikke gjenstand for verifisering og godkjenning etter forskriftens § 10 og § 11 .</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h4 id="23-oppbevaring-av-skytevapen">§ 23. Oppbevaring av skytevåpen</h4>
 <p>(1) Skytevåpen skal oppbevares på en forsvarlig måte i henhold til forskrift 7. mai 2021 nr. 1452 om våpen, skytevåpen, våpendelar og ammunisjon (våpenforskrifta) .</p>
 <p>(2) Rederiet eller skipsføreren skal sørge for å føre en fortegnelse over skytevåpen og ammunisjon som tas på og av skipet og rapportere dette til Sjøfartsdirektoratet umiddelbart. Det skal redegjøres for eventuelle avvik.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 , endret ved forskrift 27 mars 2023 nr. 459 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 , endret ved forskrift 27 mars 2023 nr. 459 .</p>
 <h4 id="24-bruk-av-skytevapen">§ 24. Bruk av skytevåpen</h4>
 <p>(1) Bevæpning og iverksetting av prosedyre for bruk av skytevåpen skal godkjennes av skipsføreren i hvert enkelt tilfelle. Den enkelte er alltid ansvarlig for at bruk av skytevåpen utøves i henhold til § 17 og § 22 .</p>
 <p>(2) Før skytevåpen tas i bruk skal det tas hensyn til de farer eller skader dette kan utsette de ombordværende for.</p>
 <p>(3) Så fremt omstendighetene tillater det skal angriperen(e) varsles gjennom lys- og lydsignaler og avfyring av varselskudd.</p>
 <p>(4) Avfyring av rettet skudd med hensikt å uskadeliggjøre noen må bare skje som siste utvei og etter at andre lempeligere midler forgjeves har vært forsøkt, eller i situasjoner hvor alternative midler åpenbart ikke vil føre frem.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2011 nr. 731 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2011 nr. 731 .</p>
 <h2 id="kapittel-6-sikring-av-rutegaende-passasjerskip-i-innenriksfart-som-tilbyr-overnatting">Kapittel 6: Sikring av rutegående passasjerskip i innenriksfart som tilbyr overnatting</h2>
 <p>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="25-sikringsvurdering">§ 25. Sikringsvurdering</h4>
@@ -243,30 +370,30 @@ b. En vurdering av vaktselskapets og vaktenes egnethet, herunder vaktselskapets 
 <p>(2) Sikringsvurderingen skal gjennomgås og oppdateres minst hvert femte år. Sikringsvurderingen skal danne grunnlag for tiltak og prosedyrer som iverksettes for sikring av skipet.</p>
 <p>(3) Når grunnlaget for sikringsvurderingen endres, skal rederiet utarbeide ny sikringsvurdering.</p>
 <p>(4) Sikringsvurderingen skal sendes til Sjøfartsdirektoratet.</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="26-gjennomskning-av-skipet">§ 26. Gjennomsøkning av skipet</h4>
 <p>(1) Rutegående passasjerskip som tilbyr overnatting skal gjennomsøkes for gjenstander som kan utgjøre en fare for sikkerheten om bord. Områdene som skal gjennomsøkes og metode og frekvens for søkene bestemmes på grunnlag av sikringsvurderingen som er nevnt i § 25 .</p>
 <p>(2) Rederiet skal sørge for at det finnes prosedyre og nødvendig opplæring av mannskapet for håndtering og isolering av gjenstander som er beskrevet i første ledd.</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="27-adgangs-og-stikkprvekontroll">§ 27. Adgangs- og stikkprøvekontroll</h4>
 <p>(1) Rederiet skal sørge for at alle som går om bord har legitim adgang til skipet.</p>
 <p>(2) Det skal gjennomføres stikkprøvekontroll av bagasje, kjøretøy og last. Omfanget av stikkprøvekontrollen bestemmes på grunnlag av sikringsvurderingen etter § 25 .</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="28-informasjon-om-tilsyn-med-bagasje">§ 28. Informasjon om tilsyn med bagasje</h4>
 <p>Passasjerene skal på hensiktsmessig måte informeres om at all bagasje som ikke er plassert i lugaren må oppbevares under tilsyn. Slik informasjon skal gis over skipets høyttaleranlegg eller video og ved annet informasjonsmateriell om bord.</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="29-sikring-av-autorisert-adgang">§ 29. Sikring av autorisert adgang</h4>
 <p>Skipet skal ha en prosedyre for å sikre at uvedkommende ikke får adgang til områder på skipet som er forbeholdt mannskapet.</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h4 id="30-beredskapsplan">§ 30. Beredskapsplan</h4>
 <p>Skipet skal ha en hensiktsmessig beredskapsplan for håndtering av sikkerhetstrusler som er identifisert i sikringsvurderingen.</p>
-<p><em>Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7: Avsluttende bestemmelser</h2>
 <p>Overskriften tilføyd ved forskrift 1 juli 2011 nr. 731 , endret ved forskrift 7 juli 2016 nr. 907 (i kraft 1 jan 2017, tidligere kapittel 6).</p>
 <h4 id="31-ikrafttredelse">§ 31. Ikrafttredelse</h4>
 <p>(1) Denne forskrift trer i kraft 1. juli 2004.</p>
 <p>(2) For passasjerskip i klasse A, trer forskriften i kraft 1. juli 2005.</p>
-<p><em>Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 18), 1 juli 2011 nr. 731 (tidligere § 17), 7 juli 2016 nr. 907 (i kraft 1 jan 2017, tidligere § 25).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2007 nr. 1006 (i kraft 1 juli 2007, tidligere § 18), 1 juli 2011 nr. 731 (tidligere § 17), 7 juli 2016 nr. 907 (i kraft 1 jan 2017, tidligere § 25).</p>
 <h2 id="vedlegg-1">Vedlegg 1</h2>
 <p>Se her for å lese forordning (EF) nr. 725/2004 : 1 (pdf)</p>
 <p>Tilføyd ved forskrift 4 feb 2005 nr. 119 .</p>
@@ -274,6 +401,8 @@ b. En vurdering av vaktselskapets og vaktenes egnethet, herunder vaktselskapets 
 <h2 id="vedlegg-2">Vedlegg 2</h2>
 <p>Vedlegg 2 til forskriften kan fås ved henvendelse til Sjøfartsdirektoratet.</p>
 <p>Tilføyd ved forskrift 2 april 2007 nr. 392 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

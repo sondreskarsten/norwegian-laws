@@ -19,64 +19,171 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-05-29-545.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om erstatning etter offentlige pålegg" href="../feeds/forskrift-2016-05-29-545.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om erstatning etter offentlige pålegg</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-05-29-545</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-06-03</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-09-26-1643</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-05-29-545" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#generelle-bestemmelser">Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-generelle-vilkar">§ 3. Generelle vilkår</a></li>
+<li class="lvl4"><a href="#4-fradrag-i-erstatningen-minsteutbetaling-og-egenandel">§ 4. Fradrag i erstatningen, minsteutbetaling og egenandel</a></li>
+<li class="lvl2"><a href="#erstatning-etter-matloven-22">Erstatning etter matloven § 22</a></li>
+<li class="lvl4"><a href="#5-erstatning-etter-offentlige-palegg">§ 5. Erstatning etter offentlige pålegg</a></li>
+<li class="lvl4"><a href="#6-utmaling-av-erstatning">§ 6. Utmåling av erstatning</a></li>
+<li class="lvl2"><a href="#erstatning-etter-matloven-31">Erstatning etter matloven § 31</a></li>
+<li class="lvl4"><a href="#7-erstatning-etter-frivillig-nedslakting-av-smafebesetninger">§ 7. Erstatning etter frivillig nedslakting av småfebesetninger</a></li>
+<li class="lvl4"><a href="#8-erstatning-for-tap-i-en-palagt-oppholdsperiode">§ 8. Erstatning for tap i en pålagt oppholdsperiode</a></li>
+<li class="lvl4"><a href="#9-erstatning-ved-flytterestriksjoner-pa-bier">§ 9. Erstatning ved flytterestriksjoner på bier</a></li>
+<li class="lvl4"><a href="#10-erstatning-for-nedforingskostnader-mv-som-flge-av-radioaktivitet">§ 10. Erstatning for nedfôringskostnader mv. som følge av radioaktivitet</a></li>
+<li class="lvl2"><a href="#sknad-og-saksbehandling">Søknad og saksbehandling</a></li>
+<li class="lvl4"><a href="#11-sknad">§ 11. Søknad</a></li>
+<li class="lvl4"><a href="#12-vedtak-klage-og-dispensasjon">§ 12. Vedtak, klage og dispensasjon</a></li>
+<li class="lvl2"><a href="#opplysningsplikt-kontroll-og-avkorting">Opplysningsplikt, kontroll og avkorting</a></li>
+<li class="lvl4"><a href="#13-opplysningsplikt-og-kontroll">§ 13. Opplysningsplikt og kontroll</a></li>
+<li class="lvl4"><a href="#14-avkortning-tilbakebetaling-og-motregning">§ 14. Avkortning, tilbakebetaling og motregning</a></li>
+<li class="lvl2"><a href="#standardiserte-satser">Standardiserte satser</a></li>
+<li class="lvl4"><a href="#15-definisjoner">§ 15. Definisjoner</a></li>
+<li class="lvl4"><a href="#16-fraktkostnader">§ 16. Fraktkostnader</a></li>
+<li class="lvl4"><a href="#17-standardsatser-for-smafe">§ 17. Standardsatser for småfe</a></li>
+<li class="lvl4"><a href="#18-standardsatser-for-fjrfe">§ 18. Standardsatser for fjørfe</a></li>
+<li class="lvl4"><a href="#19-standardsatser-for-storfe">§ 19. Standardsatser for storfe</a></li>
+<li class="lvl4"><a href="#20-standardsatser-for-gris">§ 20. Standardsatser for gris</a></li>
+<li class="lvl4"><a href="#21-standardsatser-for-nedforing-pa-grunn-av-radioaktivitet">§ 21. Standardsatser for nedfôring på grunn av radioaktivitet</a></li>
+<li class="lvl4"><a href="#22-tapt-arbeidsfortjeneste-ved-maling-av-dyr">§ 22. Tapt arbeidsfortjeneste ved måling av dyr</a></li>
+<li class="lvl2"><a href="#ikrafttredelse-overgangsbestemmelser">Ikrafttredelse, overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsbestemmelse">§ 24. Overgangsbestemmelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-09-26-1643.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-05-29-545.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om erstatning etter offentlige pålegg i plante- og husdyrproduksjon</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-05-29-545.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-05-29-545 <code>forskrift/2016-05-29-545</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om erstatning etter offentlige pålegg</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>03.06.2016</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-09-26-1643 <code>forskrift/2022-09-26-1643</code> fra 26.09.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-05-29-545" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#generelle-bestemmelser">Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-generelle-vilkar">§ 3. Generelle vilkår</a></li>
+<li class="lvl4"><a href="#4-fradrag-i-erstatningen-minsteutbetaling-og-egenandel">§ 4. Fradrag i erstatningen, minsteutbetaling og egenandel</a></li>
+<li class="lvl2"><a href="#erstatning-etter-matloven-22">Erstatning etter matloven § 22</a></li>
+<li class="lvl4"><a href="#5-erstatning-etter-offentlige-palegg">§ 5. Erstatning etter offentlige pålegg</a></li>
+<li class="lvl4"><a href="#6-utmaling-av-erstatning">§ 6. Utmåling av erstatning</a></li>
+<li class="lvl2"><a href="#erstatning-etter-matloven-31">Erstatning etter matloven § 31</a></li>
+<li class="lvl4"><a href="#7-erstatning-etter-frivillig-nedslakting-av-smafebesetninger">§ 7. Erstatning etter frivillig nedslakting av småfebesetninger</a></li>
+<li class="lvl4"><a href="#8-erstatning-for-tap-i-en-palagt-oppholdsperiode">§ 8. Erstatning for tap i en pålagt oppholdsperiode</a></li>
+<li class="lvl4"><a href="#9-erstatning-ved-flytterestriksjoner-pa-bier">§ 9. Erstatning ved flytterestriksjoner på bier</a></li>
+<li class="lvl4"><a href="#10-erstatning-for-nedforingskostnader-mv-som-flge-av-radioaktivitet">§ 10. Erstatning for nedfôringskostnader mv. som følge av radioaktivitet</a></li>
+<li class="lvl2"><a href="#sknad-og-saksbehandling">Søknad og saksbehandling</a></li>
+<li class="lvl4"><a href="#11-sknad">§ 11. Søknad</a></li>
+<li class="lvl4"><a href="#12-vedtak-klage-og-dispensasjon">§ 12. Vedtak, klage og dispensasjon</a></li>
+<li class="lvl2"><a href="#opplysningsplikt-kontroll-og-avkorting">Opplysningsplikt, kontroll og avkorting</a></li>
+<li class="lvl4"><a href="#13-opplysningsplikt-og-kontroll">§ 13. Opplysningsplikt og kontroll</a></li>
+<li class="lvl4"><a href="#14-avkortning-tilbakebetaling-og-motregning">§ 14. Avkortning, tilbakebetaling og motregning</a></li>
+<li class="lvl2"><a href="#standardiserte-satser">Standardiserte satser</a></li>
+<li class="lvl4"><a href="#15-definisjoner">§ 15. Definisjoner</a></li>
+<li class="lvl4"><a href="#16-fraktkostnader">§ 16. Fraktkostnader</a></li>
+<li class="lvl4"><a href="#17-standardsatser-for-smafe">§ 17. Standardsatser for småfe</a></li>
+<li class="lvl4"><a href="#18-standardsatser-for-fjrfe">§ 18. Standardsatser for fjørfe</a></li>
+<li class="lvl4"><a href="#19-standardsatser-for-storfe">§ 19. Standardsatser for storfe</a></li>
+<li class="lvl4"><a href="#20-standardsatser-for-gris">§ 20. Standardsatser for gris</a></li>
+<li class="lvl4"><a href="#21-standardsatser-for-nedforing-pa-grunn-av-radioaktivitet">§ 21. Standardsatser for nedfôring på grunn av radioaktivitet</a></li>
+<li class="lvl4"><a href="#22-tapt-arbeidsfortjeneste-ved-maling-av-dyr">§ 22. Tapt arbeidsfortjeneste ved måling av dyr</a></li>
+<li class="lvl2"><a href="#ikrafttredelse-overgangsbestemmelser">Ikrafttredelse, overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#23-ikrafttredelse">§ 23. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#24-overgangsbestemmelse">§ 24. Overgangsbestemmelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-05-29-545.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-05-29-545.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-05-29-545.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-05-29-545.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-05-29-545.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-05-29-545.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-05-29-545.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-05-29-545.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-05-29-545.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-erstatning-etter-offentlige-palegg-i-plante-og-husdyrproduksjon">Forskrift om erstatning etter offentlige pålegg i plante- og husdyrproduksjon</h1>
 <h2 id="generelle-bestemmelser">Generelle bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å gi økonomisk erstatning for å redusere belastningen ved ulike bekjempelsestiltak mot planteskadegjørere, dyresykdommer og smittestoffer.</p>
@@ -104,7 +211,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Hus, husinnredning, fôr, gjødsel, redskaper, maskiner, annet materiell og inventar som er pålagt destruert erstattes med verdien på påleggstidspunktet. Det skal gjøres fradrag for slit, elde og standardheving.</p>
 <p>Eget arbeid erstattes etter l.tr. 48 i statens regulativ.</p>
 <p>Nødvendige utgifter til gjennomføring av pålagte tiltak dekkes etter dokumentasjon.</p>
-<p><em>Endret ved forskrift 26 sep 2022 nr. 1643 .</em></p>
+<p class="note">Endret ved forskrift 26 sep 2022 nr. 1643 .</p>
 <h2 id="erstatning-etter-matloven-31">Erstatning etter matloven § 31</h2>
 <h4 id="7-erstatning-etter-frivillig-nedslakting-av-smafebesetninger">§ 7. Erstatning etter frivillig nedslakting av småfebesetninger</h4>
 <p>Virksomhet som får vedtak om restriksjoner mot sending av småfebesetning på fellesbeite på grunn av skrapesyke eller CAE/mædi-/visnaviruset, har rett til erstatning dersom det velger å slakte ned hele besetningen innen 6 måneder etter at slike restriksjoner er vedtatt. Det er et vilkår for rett til erstatning etter denne paragrafen at saneringstiltak fastsatt av Mattilsynet er gjennomført.</p>
@@ -131,17 +238,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>spesifisert dokumentasjon over tap og utgifter ved gjennomføringen.</li>
 </ul>
 <p>Søknadsfristen er 6 måneder etter at pålagte tiltak er gjennomført og godkjent av Mattilsynet. Det kan fattes vedtak om delutbetaling etter dokumenterte utgifter eller tap.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h4 id="12-vedtak-klage-og-dispensasjon">§ 12. Vedtak, klage og dispensasjon</h4>
 <p>Statsforvalteren fatter vedtak om erstatning etter denne forskriften.</p>
 <p>Vedtak fattet av statsforvalteren kan påklages til Landbruksdirektoratet etter bestemmelsene i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) kap. IV . Vedtak fattet av Landbruksdirektoratet kan påklages til Landbruks- og matdepartementet.</p>
 <p>Landbruksdirektoratet kan i særlige tilfeller dispensere fra § 11 andre ledd.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h2 id="opplysningsplikt-kontroll-og-avkorting">Opplysningsplikt, kontroll og avkorting</h2>
 <h4 id="13-opplysningsplikt-og-kontroll">§ 13. Opplysningsplikt og kontroll</h4>
 <p>Statsforvalteren og Landbruksdirektoratet kan kreve de opplysninger og den dokumentasjon, herunder regnskapsmateriale, forretningspapirer og lignende dokumenter, som er nødvendig for å behandle søknader, utøve kontroll og forvalte ordningene på en tilfredsstillende måte.</p>
 <p>Kommunen, statsforvalteren og Landbruksdirektoratet fører kontroll med at utbetalinger etter forskriften er riktige og at forskriftens bestemmelser blir overholdt, og kan herunder foreta stedlig kontroll hos den som søker erstatning. Virksomheten plikter å yte bistand ved slik kontroll.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3044 (i kraft 1 jan 2021).</p>
 <h4 id="14-avkortning-tilbakebetaling-og-motregning">§ 14. Avkortning, tilbakebetaling og motregning</h4>
 <p>Oppfyller den erstatningsberettigede ikke vilkårene som forutsatt ved innvilgning av erstatningen, herunder plikten til å gjennomføre offentlig pålegg, eller dersom den erstatningsberettigede uaktsomt eller forsettlig har gitt feil opplysninger i søknaden som har eller ville dannet grunnlag for urettmessig erstatningsutbetaling, kan erstatningen avkortes og utbetalt erstatning kreves tilbakebetalt.</p>
 <p>Kravet kan motregnes i andre offentlige tilskudd og erstatninger mottakeren får i sin landbruksvirksomhet.</p>
@@ -167,7 +274,7 @@ Endret ved forskrift 26 sep 2022 nr. 1643 .</em></p>
 <p>For spesialproduksjon av slaktekyllinger er standardsatsen 6,35 kroner ved innsett. Standardsatsen øker lineært til 31,73 kroner fram til dag 37. Etter dag 37 fastsettes standardsatsen lik den forventede slakteverdien.</p>
 <p>For kalkun er standardsatsen 31 kroner ved innsett. Satsen øker lineært til 150 kroner fram til slakteferdig alder ved 12 uker.</p>
 <p>For industrikalkun er standardsatsen 31 kroner ved innsett. Satsen øker lineært til 346 kroner fram til slakteferdig alder ved 4 måneder.</p>
-<p><em>Endret ved forskrift 26 sep 2022 nr. 1643 .</em></p>
+<p class="note">Endret ved forskrift 26 sep 2022 nr. 1643 .</p>
 <h4 id="19-standardsatser-for-storfe">§ 19. Standardsatser for storfe</h4>
 <p>Etter de første 30 dager etter siste bedekning eller inseminasjon gis det et drektighetstillegg på 520 kroner per påbegynt måned i inntil 8 måneder. Standardsatser for kjøttfe, lett rase er: Sone for distriktstilskudd 1 2 3 4 5 Okser under 3 md. 5 600 5 800 6 000 6 200 6 200 Okser 3–6 m. 11 300 11 800 12 100 12 500 12 500 Okser 6–9 md. 16 600 17 500 17 900 18 500 18 600 Okser 9–12 md. 20 800 21 900 22 500 23 300 23 400 Okser 12–15 md. 22 300 23 600 24 300 25 300 25 500 Okser 15–18 md. 22 900 24 400 25 200 26 300 26 500 Okser 18–21 md. 24 200 25 900 26 800 27 900 28 100 Okser 21–24 md. 25 700 27 500 28 500 29 800 30 000 Voksne okser 26 800 28 900 30 100 31 600 31 900 Kviger under 3 md. 3 400 3 600 3 700 3 900 3 900 Kviger 3–6 md. 8 000 8 500 8 800 9 200 9 200 Kviger 6–9 md. 12 700 13 500 13 900 14 400 14 500 Kviger 9–12 md. 17 800 18 700 19 200 19 900 20 000 Kviger 12–15 md. 22 200 23 200 23 800 24 600 24 700 Kviger 15–18 md. 27 400 28 600 29 300 30 100 30 300 Kviger 18–21 md. 29 400 30 700 31 400 32 400 32 500 Kviger 21–24 md. 30 200 31 700 32 500 33 500 33 700 Voksne kyr 31 300 33 000 33 900 35 100 35 300</p>
 <p>Etter de første 30 dager etter siste bedekning eller inseminasjon gis det et drektighetstillegg på 660 kroner per påbegynte måned i inntil 8 måneder. Standardsatser for kjøttfe, tung rase er: Sone for distriktstilskudd 1 2 3 4 5 Okser under 3 md. 7 800 8 200 8 300 8 600 8 600 Okser 3–6 md. 14 000 14 600 15 000 15 400 15 500 Okser 6–9 md. 20 500 21 500 22 000 22 800 22 900 Okser 9–12 md. 24 700 26 100 26 900 27 900 28 100 Okser 12–15 md. 24 700 26 400 27 300 28 500 28 700 Okser 15–18 md. 26 500 28 300 29 400 30 700 30 900 Okser 18–21 md. 29 000 31 100 32 200 33 700 33 900 Okser 21–24 md. 31 400 33 600 34 800 36 500 36 700 Voksne okser 36 600 39 200 40 500 42 300 42 600 Kviger under 3 md. 5 500 5 700 5 900 6 100 6 100 Kviger 3–6 md. 11 800 12 300 12 600 13 100 13 100 Kviger 6–9 md. 16 600 17 400 17 900 18 500 18 600 Kviger 9–12 md. 23 700 24 800 25 400 26 300 26 400 Kviger 12–15 md. 28 700 30 000 30 700 31 700 31 800 Kviger 15–18 md. 31 600 33 000 33 800 34 800 35 000 Kviger 18–21 md. 34 400 36 000 36 900 38 000 38 200 Kviger 21–24 md. 39 800 41 500 42 400 43 700 43 900 Voksne kyr 41 400 43 300 44 300 45 700 45 900</p>
@@ -193,7 +300,9 @@ Endret ved forskrift 26 sep 2022 nr. 1643 .</em></p>
 <p>Denne forskrift trer i kraft 3. juni 2016. Fra samme tid oppheves forskrift 21. juli 2004 nr. 1131 om erstatning etter offentlige pålegg og restriksjoner i plante- og husdyrproduksjon.</p>
 <h4 id="24-overgangsbestemmelse">§ 24. Overgangsbestemmelse</h4>
 <p>Denne forskrift kommer til anvendelse på vedtak om pålegg gitt 3. juni 2016 eller senere. Standardsatsene i § 18 kommer til anvendelse på vedtak om pålegg gitt 13. november 2021 eller senere.</p>
-<p><em>Endret ved forskrift 26 sep 2022 nr. 1643 .</em></p>
+<p class="note">Endret ved forskrift 26 sep 2022 nr. 1643 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,157 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-02-12-130.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lokale opptak til UiO" href="../feeds/forskrift-2014-02-12-130.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om lokale opptak til UiO</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-02-12-130</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-02-12</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-07-07-2209</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-02-12-130" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-krav-til-generell-studiekompetanse">§ 2. Krav til generell studiekompetanse</a></li>
+<li class="lvl3"><a href="#3-sprakkrav">§ 3. Språkkrav</a></li>
+<li class="lvl3"><a href="#4-krav-til-grunnutdanning-for-opptak-til-1-12-2-arig-masterprogram">§ 4. Krav til grunnutdanning for opptak til 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#4-1-krav-til-grunnutdanning-for-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 4-1. Krav til grunnutdanning for opptak til 1 ½-2 årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#4-2-krav-til-grunnutdanning-for-opptak-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 4-2. Krav til grunnutdanning for opptak til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#5-beregning-av-karaktergjennomsnitt-for-1-12-2-arig-masterprogram">§ 5. Beregning av karaktergjennomsnitt for 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#6-rangering-av-skere-til-1-12-2-arig-masterprogram">§ 6. Rangering av søkere til 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#6-1-rangering-av-skere-ved-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 6-1. Rangering av søkere ved opptak til 1 ½-2-årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#6-2-rangering-av-skere-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 6-2. Rangering av søkere til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#7-betinget-opptak">§ 7. Betinget opptak</a></li>
+<li class="lvl3"><a href="#8-praktisk-pedagogisk-utdanning">§ 8. Praktisk pedagogisk utdanning</a></li>
+<li class="lvl3"><a href="#8-1-opphevet">§ 8-1. Opphevet</a></li>
+<li class="lvl3"><a href="#8-2-opphevet">§ 8-2. Opphevet</a></li>
+<li class="lvl3"><a href="#9-innpassingsopptak">§ 9. Innpassingsopptak</a></li>
+<li class="lvl3"><a href="#10-videreutdanning">§ 10. Videreutdanning</a></li>
+<li class="lvl3"><a href="#11-rangering-pa-grunnlag-av-spesiell-vurdering">§ 11. Rangering på grunnlag av spesiell vurdering</a></li>
+<li class="lvl3"><a href="#12-opptaksramme">§ 12. Opptaksramme</a></li>
+<li class="lvl3"><a href="#13-sknadsfrister">§ 13. Søknadsfrister</a></li>
+<li class="lvl3"><a href="#14-sknadsbehandling-og-dokumentasjon">§ 14. Søknadsbehandling og dokumentasjon</a></li>
+<li class="lvl3"><a href="#15-opptakskomite">§ 15. Opptakskomité</a></li>
+<li class="lvl3"><a href="#16-overgangsordninger-for-112-2-arig-masterprogram">§ 16. Overgangsordninger for 1½-2 årig masterprogram</a></li>
+<li class="lvl3"><a href="#17-prveordning">§ 17. Prøveordning</a></li>
+<li class="lvl3"><a href="#18-forskjellige-bestemmelser">§ 18. Forskjellige bestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-07-07-2209.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-12-130.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om lokale opptak til Universitetet i Oslo</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-02-12-130.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-02-12-130 <code>forskrift/2014-02-12-130</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om lokale opptak til UiO</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>12.02.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-07-07-2209 <code>forskrift/2025-07-07-2209</code> fra 07.07.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-02-12-130" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-krav-til-generell-studiekompetanse">§ 2. Krav til generell studiekompetanse</a></li>
+<li class="lvl3"><a href="#3-sprakkrav">§ 3. Språkkrav</a></li>
+<li class="lvl3"><a href="#4-krav-til-grunnutdanning-for-opptak-til-1-12-2-arig-masterprogram">§ 4. Krav til grunnutdanning for opptak til 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#4-1-krav-til-grunnutdanning-for-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 4-1. Krav til grunnutdanning for opptak til 1 ½-2 årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#4-2-krav-til-grunnutdanning-for-opptak-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 4-2. Krav til grunnutdanning for opptak til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#5-beregning-av-karaktergjennomsnitt-for-1-12-2-arig-masterprogram">§ 5. Beregning av karaktergjennomsnitt for 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#6-rangering-av-skere-til-1-12-2-arig-masterprogram">§ 6. Rangering av søkere til 1 ½-2-årig masterprogram</a></li>
+<li class="lvl3"><a href="#6-1-rangering-av-skere-ved-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 6-1. Rangering av søkere ved opptak til 1 ½-2-årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#6-2-rangering-av-skere-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 6-2. Rangering av søkere til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</a></li>
+<li class="lvl3"><a href="#7-betinget-opptak">§ 7. Betinget opptak</a></li>
+<li class="lvl3"><a href="#8-praktisk-pedagogisk-utdanning">§ 8. Praktisk pedagogisk utdanning</a></li>
+<li class="lvl3"><a href="#8-1-opphevet">§ 8-1. Opphevet</a></li>
+<li class="lvl3"><a href="#8-2-opphevet">§ 8-2. Opphevet</a></li>
+<li class="lvl3"><a href="#9-innpassingsopptak">§ 9. Innpassingsopptak</a></li>
+<li class="lvl3"><a href="#10-videreutdanning">§ 10. Videreutdanning</a></li>
+<li class="lvl3"><a href="#11-rangering-pa-grunnlag-av-spesiell-vurdering">§ 11. Rangering på grunnlag av spesiell vurdering</a></li>
+<li class="lvl3"><a href="#12-opptaksramme">§ 12. Opptaksramme</a></li>
+<li class="lvl3"><a href="#13-sknadsfrister">§ 13. Søknadsfrister</a></li>
+<li class="lvl3"><a href="#14-sknadsbehandling-og-dokumentasjon">§ 14. Søknadsbehandling og dokumentasjon</a></li>
+<li class="lvl3"><a href="#15-opptakskomite">§ 15. Opptakskomité</a></li>
+<li class="lvl3"><a href="#16-overgangsordninger-for-112-2-arig-masterprogram">§ 16. Overgangsordninger for 1½-2 årig masterprogram</a></li>
+<li class="lvl3"><a href="#17-prveordning">§ 17. Prøveordning</a></li>
+<li class="lvl3"><a href="#18-forskjellige-bestemmelser">§ 18. Forskjellige bestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-12-130.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-02-12-130.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-02-12-130.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-02-12-130.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-02-12-130.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-02-12-130.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-02-12-130.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-02-12-130.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-02-12-130.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-lokale-opptak-til-universitetet-i-oslo">Forskrift om lokale opptak til Universitetet i Oslo</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Forskriften gjelder for:</p>
 <p>a. Opptak til 1 ½-2-årige masterprogram etter § 3, § 5 og § 7 i forskrift om krav til mastergrad.
@@ -93,20 +186,20 @@ b. Engelsk språktest fra testtilbydere som Universitetet i Oslo godkjenner.
 c. Annen godkjent dokumentasjon etter individuell vurdering.</p>
 <p>(2) Søkere til tospråklige program eller studieretninger kan behandles enten etter reglene som gjelder for norskspråklige program eller etter reglene som gjelder for engelskspråklige program.</p>
 <p>(3) For opptak til masterprogrammet European Languages er det eget språkkrav som skal fremgå av programbeskrivelsen.</p>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 11 sep 2020 nr. 1761 (med virkning fra opptak til studieåret 2021/2022), 3 okt 2023 nr. 1607 , 7 juli 2025 nr. 1503 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 11 sep 2020 nr. 1761 (med virkning fra opptak til studieåret 2021/2022), 3 okt 2023 nr. 1607 , 7 juli 2025 nr. 1503 .</p>
 <h3 id="4-krav-til-grunnutdanning-for-opptak-til-1-12-2-arig-masterprogram">§ 4. Krav til grunnutdanning for opptak til 1 ½-2-årig masterprogram</h3>
 <h3 id="4-1-krav-til-grunnutdanning-for-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 4-1. Krav til grunnutdanning for opptak til 1 ½-2 årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</h3>
 <p>(1) For opptak til 1 ½–2-årige masterprogram kreves det en fullført norsk bachelorgrad eller tilsvarende fullført utdanningsløp.</p>
 <p>(2) Grunnutdanningen skal dekke krav til faglig fordypning på minimum 80 studiepoeng. Krav til den faglige fordypningens innhold og omfang skal fremgå av programbeskrivelsen. Vektet karaktergjennomsnitt i den faglige fordypningen skal være minst C (norsk karakterskala) eller tilsvarende, jf. § 5 . Se også § 16 om overgangsordninger.</p>
 <p>(3) I spesielle tilfeller kan annen dokumentert kompetanse godkjennes som helt eller delvis likeverdig med kravene i første og andre ledd, forutsatt at søkeren har de nødvendige faglige forutsetninger for å gjennomføre studiet.</p>
 <p>(4) For opptak til masterprogrammet i arkeologi og konservering, studieretningene gjenstandskonservering og malerikonservering, kreves det legeattest som viser normalt fargesyn, bedømt etter «Ishihara test for colour blindness».</p>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 25 feb 2019 nr. 148 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 25 feb 2019 nr. 148 .</p>
 <h3 id="4-2-krav-til-grunnutdanning-for-opptak-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 4-2. Krav til grunnutdanning for opptak til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</h3>
 <p>(1) For opptak til erfaringsbaserte masterprogram kreves det en fullført norsk bachelorgrad eller tilsvarende fullført utdanningsløp.</p>
 <p>(2) Krav til en eventuell faglig fordypning og karaktergjennomsnitt i den faglige fordypningen skal fremgå av programbeskrivelsen.</p>
 <p>(3) Videre kreves det i tillegg minst to års relevant yrkespraksis på heltid. Krav til yrkespraksisens innhold og omfang skal fremgå av programbeskrivelsen.</p>
 <p>(4) I spesielle tilfeller kan annen dokumentert kompetanse godkjennes som helt eller delvis likeverdig med kravene i første og andre ledd, forutsatt at søkeren har de nødvendige faglige forutsetninger for å gjennomføre studiet.</p>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 25 feb 2019 nr. 148 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 25 feb 2019 nr. 148 .</p>
 <h3 id="5-beregning-av-karaktergjennomsnitt-for-1-12-2-arig-masterprogram">§ 5. Beregning av karaktergjennomsnitt for 1 ½-2-årig masterprogram</h3>
 <p>(1) Karakterene i alle emnene som dekker krav til faglig fordypning skal ordinært benyttes som grunnlag for beregning av karaktergjennomsnitt.</p>
 <p>(2) Dersom kravet til faglig fordypning i omfang er større enn 80 studiepoeng, kan det fastsettes i programbeskrivelsen at et utvalg av emnene, men ikke mindre enn 80 studiepoeng, kan benyttes som grunnlag for beregningen.</p>
@@ -117,7 +210,7 @@ c. Annen godkjent dokumentasjon etter individuell vurdering.</p>
 <p>(7) For emner med norske bokstavkarakterer skal følgende tallverdier benyttes: karakter A = tallverdi 5, B = 4, C = 3, D = 2, E = 1. Resultatene vektes etter emnenes omfang i studiepoeng. Se også § 16 om overgangsordninger.</p>
 <p>(8) For beregning av kvalifisertstatus skal avrunding skje til nærmeste hele tall etter ordinære avrundingsregler.</p>
 <p>(9) For beregning av rangeringspoengsum skal avrunding skje til to desimaler etter ordinære avrundingsregler.</p>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 16 okt 2014 nr. 1355 , 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 29 mars 2016 nr. 355 , 25 feb 2019 nr. 148 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 16 okt 2014 nr. 1355 , 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 29 mars 2016 nr. 355 , 25 feb 2019 nr. 148 .</p>
 <h3 id="6-rangering-av-skere-til-1-12-2-arig-masterprogram">§ 6. Rangering av søkere til 1 ½-2-årig masterprogram</h3>
 <h3 id="6-1-rangering-av-skere-ved-opptak-til-1-12-2-arige-masterprogram-etter-3-og-7-i-forskrift-om-krav-til-mastergrad">§ 6-1. Rangering av søkere ved opptak til 1 ½-2-årige masterprogram etter § 3 og § 7 i forskrift om krav til mastergrad</h3>
 <p>(1) Dersom det er flere kvalifiserte søkere enn antall plasser, skal søkerne rangeres. Kvalifiserte søkere rangeres etter et vektet karaktergjennomsnitt for emnene som inngår i beregningsgrunnlaget. Dersom søkere har flere beregningsgrunnlag, skal poengberegningen som gir høyest rangering benyttes. Søkere med høy poengsum rangeres foran søkere med lav poengsum, jf. § 5 .</p>
@@ -126,21 +219,21 @@ c. Annen godkjent dokumentasjon etter individuell vurdering.</p>
 <p>(4) Ved poenglikhet skal det først vurderes om det er mulig å ta opp alle med lik poengsum. Deretter rangeres søkerne etter ett av følgende kriterier:</p>
 <p>a. Loddtrekning
 b. Underrepresentert kjønn.</p>
-<p><em>Endret ved forskrift 25 feb 2019 nr. 148 .</em></p>
+<p class="note">Endret ved forskrift 25 feb 2019 nr. 148 .</p>
 <h3 id="6-2-rangering-av-skere-til-erfaringsbaserte-masterprogram-etter-5-i-forskrift-om-krav-til-mastergrad">§ 6-2. Rangering av søkere til erfaringsbaserte masterprogram etter § 5 i forskrift om krav til mastergrad</h3>
 <p>Rangeringsgrunnlag, rangeringsmetode og eventuell bruk av individuell vurdering for erfaringsbaserte masterprogram skal fremgå av programbeskrivelsen.</p>
 <h3 id="7-betinget-opptak">§ 7. Betinget opptak</h3>
 <p>(1) Dersom det er færre kvalifiserte søkere enn studieplasser til et masterprogram, kan det gis betinget opptak til søkere som mangler inntil 20 studiepoeng.</p>
 <p>(2) Ved betinget opptak settes manglende eksamener til laveste bestått-karakter (E) ved beregning av karaktergjennomsnitt og ved rangering. jf. § 4-1 og § 6-1 .</p>
 <p>(3) Ved betinget opptak skal manglende eksamener avlegges og bestås senest innen 1 år. Hvis kravet ikke oppfylles, mister studenten studieplassen.</p>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 4 juli 2023 nr. 1249 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 4 juli 2023 nr. 1249 .</p>
 <h3 id="8-praktisk-pedagogisk-utdanning">§ 8. Praktisk pedagogisk utdanning</h3>
 <p>Opptakskrav til praktisk-pedagogisk utdanning ved Universitetet i Oslo skal være i tråd med kravene i forskrift 21. desember 2015 nr. 1771 om rammeplan for praktisk-pedagogisk utdanning . Fakultetet selv fastsetter rangeringsgrunnlag og rangeringsmetode i programbeskrivelsen.</p>
-<p><em>Endret ved forskrift 7 juli 2025 nr. 1503 .</em></p>
+<p class="note">Endret ved forskrift 7 juli 2025 nr. 1503 .</p>
 <h3 id="8-1-opphevet">§ 8-1. Opphevet</h3>
-<p><em>Endret ved forskrift 25 feb 2019 nr. 148 , opphevet ved forskrift 7 juli 2025 nr. 2209 .</em></p>
+<p class="note">Endret ved forskrift 25 feb 2019 nr. 148 , opphevet ved forskrift 7 juli 2025 nr. 2209 .</p>
 <h3 id="8-2-opphevet">§ 8-2. Opphevet</h3>
-<p><em>Endret ved forskrifter 21 mars 2014 nr. 343 , 24 april 2014 nr. 614 , 25 feb 2019 nr. 148 , opphevet ved forskrift 7 juli 2025 nr. 2209 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2014 nr. 343 , 24 april 2014 nr. 614 , 25 feb 2019 nr. 148 , opphevet ved forskrift 7 juli 2025 nr. 2209 .</p>
 <h3 id="9-innpassingsopptak">§ 9. Innpassingsopptak</h3>
 <p>(1) Fakultetet kan bruke innpassingsopptak i følgende tilfeller:</p>
 <p>a. Høyere trinn i fem- og seksårige studieprogram.
@@ -156,15 +249,15 @@ b. Høyere trinn i grunnutdanninger som ikke fyller rammen på opptakstidspunkte
 <p>(3) For å bli rangert på grunnlag av spesiell vurdering må opptakskravene være oppfylt.</p>
 <p>(4) Forhold som nevnt over gir ikke i seg selv rett til studieplass. For å få tilbud om opptak kreves det likeverdige ferdigheter og kunnskaper med søkere som får tilbud om opptak etter ordinær vurdering.</p>
 <p>(5) Søkere som ikke får tilbud om opptak etter disse reglene, skal rangeres etter reglene for ordinær vurdering.</p>
-<p><em>Endret ved forskrift 25 feb 2019 nr. 148 .</em></p>
+<p class="note">Endret ved forskrift 25 feb 2019 nr. 148 .</p>
 <h3 id="12-opptaksramme">§ 12. Opptaksramme</h3>
 <p>(1) Universitetsstyret fastsetter årlig en opptaksramme for hvert studieprogram.</p>
 <p>(2) For masterprogram som retter seg mot internasjonale søkere fra land utenfor EU/EØS/Sveits, skal det fastsettes hvor mange betalingspliktige søkere som kan tas opp i tillegg til opptaksrammen, jf. uh-loven av 8. mars 2024 § 2-6 om egenbetaling for statsborgere fra land utenfor EØS og Sveits. For å få tilbud må disse søkerne ha et tilsvarende eller høyere nivå enn den siste søkeren som kom inn på det aktuelle masterprogrammet året før.</p>
-<p><em>Endret ved forskrifter 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 4 juli 2023 nr. 1249 , 18 juni 2024 nr. 1517 (i kraft 1 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 4 juli 2023 nr. 1249 , 18 juni 2024 nr. 1517 (i kraft 1 aug 2024).</p>
 <h3 id="13-sknadsfrister">§ 13. Søknadsfrister</h3>
 <p>(1) Fakultetet fastsetter i programbeskrivelsen om det skal være opptak en eller to ganger i året til det enkelte studieprogram.</p>
 <p>(2) 1 ½–2-årige masterprogram: 15. april / 15. oktober er ordinær frist for søknad om opptak til studier med oppstart i hhv. høst- og vårsemesteret. 1. mars er frist for visse søkergrupper og studier som trenger tidlig opptak. For søkere fra land utenfor EU/EØS/Sveits er 1. desember ordinær frist for søknad om opptak til studier med oppstart i høstsemesteret.</p>
-<p><em>Endret ved forskrifter 16 okt 2014 nr. 1355 , 4 juli 2023 nr. 1249 , 7 juli 2025 nr. 1503 .</em></p>
+<p class="note">Endret ved forskrifter 16 okt 2014 nr. 1355 , 4 juli 2023 nr. 1249 , 7 juli 2025 nr. 1503 .</p>
 <h3 id="14-sknadsbehandling-og-dokumentasjon">§ 14. Søknadsbehandling og dokumentasjon</h3>
 <p>(1) All utdanning, praksis og andre forhold som skal gi grunnlag for opptak må være dokumentert ved søknadsfristens utløp. Søkere som avslutter utdanning som gir grunnlag for opptak etter søknadsfristens utløp, må sende inn foreløpig dokumentasjon innen søknadsfristen. Søkerne skal på fastsatt måte og innen fastsatt frist sende inn endelig dokumentasjon.</p>
 <p>(2) Søkere som ikke kan forevise originaldokumentasjon ved forespørsel, vil få avslag på søknad om opptak.</p>
@@ -172,29 +265,31 @@ b. Høyere trinn i grunnutdanninger som ikke fyller rammen på opptakstidspunkte
 <p>(4) Det kan gis tidlig svar på søknad om opptak til masterprogram etter nærmere fastsatte regler.</p>
 <p>(5) Søkere kan i det samme opptaket kun få ett tilbud om studieplass på masterprogram ved Universitetet i Oslo.</p>
 <p>(6) Internasjonale søkere fra utenfor EU/EØS/Sveits som ikke har dokumentert nødvendig finansiering for opphold i Norge innen gitt frist, vil ikke bli vurdert for opptak til 1 ½–2-årige masterprogram.</p>
-<p><em>Endret ved forskrifter 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 25 feb 2019 nr. 148 , 4 juli 2023 nr. 1249 .</em></p>
+<p class="note">Endret ved forskrifter 7 juni 2015 nr. 1044 (med virkning for opptak til studieåret 2016–2017), 25 feb 2019 nr. 148 , 4 juli 2023 nr. 1249 .</p>
 <h3 id="15-opptakskomite">§ 15. Opptakskomité</h3>
 <p>(1) Fakultetet oppnevner en eller flere opptakskomitéer med ansvar for opptakene ved fakultetet. Opptakskomitéene behandler etter behov søknader som krever individuell skjønnsmessig vurdering, både ved kvalifisering og/eller rangering.</p>
 <p>(2) Hver komité skal ha minst tre medlemmer, hvorav ordinært minst én student. Komitéen er vedtaksfør hvis minst to medlemmer er til stede.</p>
-<p><em>Endret ved forskrift 21 mars 2014 nr. 343 .</em></p>
+<p class="note">Endret ved forskrift 21 mars 2014 nr. 343 .</p>
 <h3 id="16-overgangsordninger-for-112-2-arig-masterprogram">§ 16. Overgangsordninger for 1½-2 årig masterprogram</h3>
 <p>(1) For søkere med tallkarakterer er kravet til vektet karaktergjennomsnitt i den faglige fordypningen 2,7 (norsk karakterskala).</p>
 <p>(2) For søkere med både bokstav- og tallkarakterer må vektet karaktergjennomsnitt for bokstavkarakterer og tallkarakterer beregnes hver for seg. Dersom ikke begge karaktersnittene hver for seg oppfyller krav til C eller 2,7, må det foretas en individuell skjønnsmessig vurdering av om kravet er oppfylt.</p>
 <p>(3) For utdanning avlagt ved Universitetet i Oslo, kan det benyttes fastsatte standardiserte snittkalkulatorer for beregning av rangeringspoeng for søkere med tallkarakterer.</p>
 <p>(4) For rangering av søkere med en blanding av bokstav- og tallkarakterer eller søkere med tallkarakterer fra andre institusjoner enn Universitetet i Oslo, må det foretas en individuell skjønnsmessig vurdering.</p>
-<p><em>Endret ved forskrift 21 mars 2014 nr. 343 .</em></p>
+<p class="note">Endret ved forskrift 21 mars 2014 nr. 343 .</p>
 <h3 id="17-prveordning">§ 17. Prøveordning</h3>
 <p>(1) Som en prøveordning vil det for opptak til masterprogrammet i Economics, for søkere med utenlandsk utdanning utenfor Norden, være ett av følgende krav:</p>
 <p>a. GRE Revised General Test (GRE) med minst 152 poeng på Quantitative Reasoning section.
 b. Graduate Management Admission Test (GMAT) med minst 600 poeng.</p>
 <p>(2) Prøveordningen trer i kraft fra opptak til studieåret 2017–18.</p>
-<p><em>Tilføyd ved forskrift 28 juni 2016 nr. 985 , endret ved forskrift 4 juli 2023 nr. 1249 .</em></p>
+<p class="note">Tilføyd ved forskrift 28 juni 2016 nr. 985 , endret ved forskrift 4 juli 2023 nr. 1249 .</p>
 <h3 id="18-forskjellige-bestemmelser">§ 18. Forskjellige bestemmelser</h3>
 <p>(1) Universitetsdirektøren kan i nærmere regler til forskriften fastsette egne administrative bestemmelser om søknadsbehandling og rangering.</p>
 <p>(2) Vesentlige endringer i opptakskravene for et studieprogram skal være klart for søkerne minst ett år før de trer i kraft.</p>
 <p>(3) Rektor kan etter en nærmere vurdering fravike bestemmelsene i denne forskriften ved inngåelse av samarbeidsavtale om felles- eller dobbelgrad.</p>
 <p>(4) Forskriften trer i kraft umiddelbart og skal brukes fra og med opptaket til studier med oppstart høsten 2014. Samtidig oppheves forskrift 17. mars 2009 nr. 388 om opptak til 1–2-årige masterprogrammer ved Universitetet i Oslo.</p>
-<p><em>Endret ved forskrift 28 juni 2016 nr. 985 (tidligere § 17).</em></p>
+<p class="note">Endret ved forskrift 28 juni 2016 nr. 985 (tidligere § 17).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

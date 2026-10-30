@@ -19,72 +19,145 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-06-01-580.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i UB-forskriften" href="../feeds/forskrift-2007-06-01-580.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>UB-forskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-06-01-580</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2007-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-12-15-2262</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-06-01-580" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-generelle-vilkar-for-nedsettelse-av-tollavgiftssatser">§ 3. Generelle vilkår for nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#4-vilkar-for-nedsettelse-av-tollavgiftssatser-ved-bearbeiding-av-kjtt-kjttvarer-og-meierivarer">§ 4. Vilkår for nedsettelse av tollavgiftssatser ved bearbeiding av kjøtt, kjøttvarer og meierivarer</a></li>
+<li class="lvl3"><a href="#5-sknad-om-nedsettelse-av-tollavgiftssatser">§ 5. Søknad om nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#6-fastsettelse-av-nedsatt-tollavgiftssatser-for-industrielt-bearbeidede-jordbruksvarer">§ 6. Fastsettelse av nedsatt tollavgiftssatser for industrielt bearbeidede jordbruksvarer</a></li>
+<li class="lvl3"><a href="#7-fastsettelse-av-nedsatt-tollavgiftssats-for-andre-landbruksvarer">§ 7. Fastsettelse av nedsatt tollavgiftssats for andre landbruksvarer</a></li>
+<li class="lvl3"><a href="#8-tillatelse-til-nedsettelse-av-tollavgiftssatser">§ 8. Tillatelse til nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#9-srlig-adgang-til-a-avsla-sknad">§ 9. Særlig adgang til å avslå søknad</a></li>
+<li class="lvl3"><a href="#10-opplysningsplikt">§ 10. Opplysningsplikt</a></li>
+<li class="lvl3"><a href="#11-kontroll">§ 11. Kontroll</a></li>
+<li class="lvl3"><a href="#12-tilbaketrekking-av-tillatelse-mv">§ 12. Tilbaketrekking av tillatelse mv.</a></li>
+<li class="lvl3"><a href="#13-dispensasjon">§ 13. Dispensasjon</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelses-og-overgangsbestemmelser">§ 14. Ikrafttredelses- og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-12-15-2262.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-06-01-580.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om nedsettelse av tollavgiftssatser for landbruksvarer som gjeninnføres etter bearbeiding i utlandet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-06-01-580.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-06-01-580 <code>forskrift/2007-06-01-580</code></td></tr>
+<tr><th>Korttittel</th><td>UB-forskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2007</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-12-15-2262 <code>forskrift/2022-12-15-2262</code> fra 01.01.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-06-01-580" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-generelle-vilkar-for-nedsettelse-av-tollavgiftssatser">§ 3. Generelle vilkår for nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#4-vilkar-for-nedsettelse-av-tollavgiftssatser-ved-bearbeiding-av-kjtt-kjttvarer-og-meierivarer">§ 4. Vilkår for nedsettelse av tollavgiftssatser ved bearbeiding av kjøtt, kjøttvarer og meierivarer</a></li>
+<li class="lvl3"><a href="#5-sknad-om-nedsettelse-av-tollavgiftssatser">§ 5. Søknad om nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#6-fastsettelse-av-nedsatt-tollavgiftssatser-for-industrielt-bearbeidede-jordbruksvarer">§ 6. Fastsettelse av nedsatt tollavgiftssatser for industrielt bearbeidede jordbruksvarer</a></li>
+<li class="lvl3"><a href="#7-fastsettelse-av-nedsatt-tollavgiftssats-for-andre-landbruksvarer">§ 7. Fastsettelse av nedsatt tollavgiftssats for andre landbruksvarer</a></li>
+<li class="lvl3"><a href="#8-tillatelse-til-nedsettelse-av-tollavgiftssatser">§ 8. Tillatelse til nedsettelse av tollavgiftssatser</a></li>
+<li class="lvl3"><a href="#9-srlig-adgang-til-a-avsla-sknad">§ 9. Særlig adgang til å avslå søknad</a></li>
+<li class="lvl3"><a href="#10-opplysningsplikt">§ 10. Opplysningsplikt</a></li>
+<li class="lvl3"><a href="#11-kontroll">§ 11. Kontroll</a></li>
+<li class="lvl3"><a href="#12-tilbaketrekking-av-tillatelse-mv">§ 12. Tilbaketrekking av tillatelse mv.</a></li>
+<li class="lvl3"><a href="#13-dispensasjon">§ 13. Dispensasjon</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelses-og-overgangsbestemmelser">§ 14. Ikrafttredelses- og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-06-01-580.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-06-01-580.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-06-01-580.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-06-01-580.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-06-01-580.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-06-01-580.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-06-01-580.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-06-01-580.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-06-01-580.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-nedsettelse-av-tollavgiftssatser-for-landbruksvarer-som-gjeninnfres-etter-bearbeiding-i-utlandet">Forskrift om nedsettelse av tollavgiftssatser for landbruksvarer som gjeninnføres etter bearbeiding i utlandet</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med nedsettelse av tollavgiftssatser etter denne forskriften er å legge til rette for at virksomheter kan gjennomføre produksjonstilpasninger gjennom utenlands bearbeiding av landbruksvarer, samtidig som det tas tilbørlig hensyn til muligheter for avtak og foredling av landbruksvarer i Norge.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="2-virkeomrade">§ 2. Virkeområde</h3>
 <p>Denne forskriften kommer til anvendelse ved fastsettelse av tollavgiftssats for landbruksvarer som gjeninnføres til Norge etter bearbeiding i utlandet. Med landbruksvarer menes varer som hører under tolltariffens kapittel 2–24, posisjon 35.01, 35.02, 35.05, samt varenummer 01.06.1910, 38.23.1110, 38.23.1210, 38.23.1310, 38.23.1910 og 38.23.7010.</p>
 <p>Forskriften kommer ikke til anvendelse for varer som i tolltariffen har tollavgiftssats som er fastsatt til null.</p>
 <p>Forskriften kommer ikke til anvendelse for varer som er innvilget tillatelse til nedsatt tollavgift eller nedsatt tollavgiftssats innenfor fastsatt tollkvote etter gjeldende forskrift 22. desember 2005 nr. 1723 om administrative nedsettelser av tollavgiftssatser for landbruksvarer § 18b t.o.m. § 18d .</p>
-<p><em>Endret ved forskrifter 1 juli 2011 nr. 753 , 22 aug 2011 nr. 860 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 1 juli 2011 nr. 753 , 22 aug 2011 nr. 860 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="3-generelle-vilkar-for-nedsettelse-av-tollavgiftssatser">§ 3. Generelle vilkår for nedsettelse av tollavgiftssatser</h3>
 <p>Nedsettelse av tollavgiftssatser gis på de vilkår som følger av denne forskriften.</p>
 <p>Nedsettelse av tollavgiftssatser skal ikke gis dersom det ved utførselen er eller vil bli tilbakebetalt tollavgift for den utførte varen, med mindre refusjonsbeløpet innbetales til tollmyndighetene eller krav om refusjon frafalles.</p>
@@ -94,50 +167,52 @@ b. innførsel finner sted innen ett år etter utførselen,
 c. de utførte varene inngår i den innførte varen, og
 d. den innførte varen inneholder mer enn en ubetydelig andel utførte landbruksvarer.</p>
 <p>Tollmyndighetene påser at vilkårene i annet ledd og tredje ledd bokstav a–c er oppfylt.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="4-vilkar-for-nedsettelse-av-tollavgiftssatser-ved-bearbeiding-av-kjtt-kjttvarer-og-meierivarer">§ 4. Vilkår for nedsettelse av tollavgiftssatser ved bearbeiding av kjøtt, kjøttvarer og meierivarer</h3>
 <p>Med mindre annet følger av fjerde ledd, er nedsettelse av tollavgiftssatser ved utenlands bearbeiding av kjøtt, kjøttvarer og meierivarer betinget av at virksomheten har fått tildelt kvoteandel ved auksjon.</p>
 <p>Kvotene for innførsel fordeles ved auksjon, og beregnes ved å multiplisere følgende årlige kvoter med antall år i en kvoteperiode: Varegruppe Klassifisering i tolltariffen Årlig kvote Kjøtt Kapittel 2 1080 tonn Meierivarer Kapittel 4 (unntatt varenummer 04.03.1020, 04.03.1030, 04.03.1091, 04.03.9001, 04.03.9002, posisjon 04.07 til 04.10) 3120 tonn Kjøttvarer Posisjon 16.01 og 16.02 5520 tonn Reinsdyrkjøtt Varenummer 02.08.9010, 02.08.9021 og ex.02.08.9029 (spiselig slakteavfall) 200 tonn Kvoteperioden fastsettes av Landbruksdirektoratet for inntil 3 år.</p>
 <p>Hver enkelt budgiver kan maksimalt få tildelt 75 % av en kvote ved første gangs auksjon. Dersom hele eller deler av en kvote ikke fordeles ved denne auksjonen, kan Landbruksdirektoratet fordele restkvantum ved å avholde tilleggsauksjon. Ved gjennomføring av auksjonene, gjelder bestemmelsene i forskrift om fordeling av tollkvoter for landbruksvarer (tollkvoteforskriften), så langt disse passer.</p>
 <p>Dersom kvoten for en varegruppe er fordelt i samsvar med reglene i tredje ledd, kan Landbruksdirektoratet innvilge nedsettelse av tollavgiftssatser til virksomheter som godtgjør et behov for å foreta prøveproduksjon utenlands av en vare innenfor denne gruppen med henblikk på senere varig produksjon av den samme varen i Norge.</p>
 <p>Nedsettelse av tollavgiftssatser innenfor kvoten for reinsdyrkjøtt er betinget av at levende reinsdyr (varenummer 01.06.1910 i tolltariffen) utføres ved en grensestasjon mellom Norge og Finland.</p>
-<p><em>Endret ved forskrifter 10 okt 2008 nr. 1132 , 22 aug 2011 nr. 860 , 11 okt 2013 nr. 1234 , 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 10 okt 2008 nr. 1132 , 22 aug 2011 nr. 860 , 11 okt 2013 nr. 1234 , 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="5-sknad-om-nedsettelse-av-tollavgiftssatser">§ 5. Søknad om nedsettelse av tollavgiftssatser</h3>
 <p>Søknad om nedsettelse av tollavgiftssatser sendes til Landbruksdirektoratet.</p>
 <p>Landbruksdirektoratet kan fastsette krav til søknadens form og innhold.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="6-fastsettelse-av-nedsatt-tollavgiftssatser-for-industrielt-bearbeidede-jordbruksvarer">§ 6. Fastsettelse av nedsatt tollavgiftssatser for industrielt bearbeidede jordbruksvarer</h3>
 <p>Ved innførsel av industrielt bearbeidede jordbruksvarer som omfattes av gjeldende forskrift om fastsettelse av nedsatte tollavgiftssatser ved import av industrielt bearbeidede jordbruksvarer (RÅK-forskriften), beregnes det ikke tollavgift for andelen varer som utføres.</p>
 <p>For andel varer som er tilført utenlands, fastsettes tollavgiftssatsen i samsvar med gjeldende RÅK-forskrift.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="7-fastsettelse-av-nedsatt-tollavgiftssats-for-andre-landbruksvarer">§ 7. Fastsettelse av nedsatt tollavgiftssats for andre landbruksvarer</h3>
 <p>Ved innførsel av andre landbruksvarer enn de som er omfattet av § 6 , beregnes det ikke tollavgift for andelen varer som utføres.</p>
 <p>For andel varer som er tilført utenlands, fastsettes tollavgiftssatsen i samsvar med tolltariffen, med mindre varen kan gis nedsatt tollavgiftsats etter bestemmelsene om individuell nedsettelse av tollavgiftssatser i gjeldende forskrift om administrative nedsettelser av tollavgiftssatser for landbruksvarer. For varer som har ulik tollavgiftssats i tolltariffen i ulike deler av året, skal den høyeste tollavgiftssatsen benyttes.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="8-tillatelse-til-nedsettelse-av-tollavgiftssatser">§ 8. Tillatelse til nedsettelse av tollavgiftssatser</h3>
 <p>Nedsettelse av tollavgiftssatser etter denne forskriften kan gis av Landbruksdirektoratet i form av tillatelse til nedsatt tollavgiftsats med inntil ett års gyldighet. Til virksomheter som har fått tildelt kvoteandel ved auksjon etter § 4 , utstedes likevel importtillatelse for tollkvote med gyldighet innenfor kvoteperioden.</p>
 <p>Tillatelse til nedsatt tollavgiftssats etter første ledd må foreligge før utførsel finner sted. Dersom varen som gjeninnføres avviker fra denne tillatelsen, fastsettes tollavgiftssatsen på nytt ut fra det tidspunkt som følger av tollavgiftsloven § 2-2 første ledd første punktum. For andelen norske varer som gjeninnføres kan det ikke gis fritak fra tollavgift i større utstrekning enn for det kvantum som er registrert utført. For andelen vare tilført utenlands fastsettes tollavgiftssatsen i medhold av § 6 og § 7.</p>
 <p>Importtillatelse for tollkvote og tillatelse til nedsatt tollavgiftssats for prøveproduksjon etter § 4 skal angi mengde som tillates innført.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="9-srlig-adgang-til-a-avsla-sknad">§ 9. Særlig adgang til å avslå søknad</h3>
 <p>Landbruksdirektoratet kan avslå søknad om nedsettelse av tollavgiftssats i tilfeller der produksjonstilpasninger gjennom utenlands bearbeiding av landbruksvarer gir vesentlige økonomiske skadevirkninger for norsk landbruk og næringsmiddelindustri.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="10-opplysningsplikt">§ 10. Opplysningsplikt</h3>
 <p>Virksomheter som søker om, eller har fått innvilget tillatelse til nedsatt tollavgiftssats etter denne forskriften, plikter å oppgi alle opplysninger som Landbruksdirektoratet krever. Videre plikter virksomhetene straks å informere om endringer i tidligere gitte opplysninger dersom de kan være av betydning for fastsettelsen av tollavgiftssatsen.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="11-kontroll">§ 11. Kontroll</h3>
 <p>Landbruksdirektoratet fører kontroll med at bestemmelsene i denne forskriften blir overholdt. Myndighetene kan foreta stedlig kontroll av dokumenter, herunder regnskapsmateriale, forretningspapirer og lignende dokumenter, samt be om vareprøver. Virksomheten plikter å yte bistand ved slik kontroll.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="12-tilbaketrekking-av-tillatelse-mv">§ 12. Tilbaketrekking av tillatelse mv.</h3>
 <p>Ved brudd på denne forskriften eller vilkår satt i medhold av denne forskriften, kan Landbruksdirektoratet trekke tilbake tillatelse til nedsatt tollavgiftssats eller importtillatelse innenfor tollkvote, og nekte innrømmelse av ny tillatelse i inntil ett år.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2262 (i kraft 1 jan 2023).</p>
 <h3 id="13-dispensasjon">§ 13. Dispensasjon</h3>
 <p>Landbruksdirektoratet kan i særlige tilfeller dispensere fra forskriftens bestemmelser.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="14-ikrafttredelses-og-overgangsbestemmelser">§ 14. Ikrafttredelses- og overgangsbestemmelser</h3>
 <p>Forskriften trer i kraft 1. juli 2007. Fra samme tid oppheves forskrift 20. juni 2005 nr. 663 om tollnedsettelser for landbruksvarer som gjeninnføres etter bearbeiding i utlandet.</p>
 <p>Kvoter for varegrupper nevnt i § 4 fordeles første gang ved auksjon i september 2007. For varer som omfattes av bestemmelsen, kan Landbruksdirektoratet gi tillatelse til nedsatt toll i samsvar med § 7 , men med begrenset gyldighet frem til 31. desember 2007.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

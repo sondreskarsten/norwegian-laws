@@ -19,64 +19,249 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-11-07-1929.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Laksetildelingsforskriften" href="../feeds/forskrift-2022-11-07-1929.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Laksetildelingsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-11-07-1929</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-11-07</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-01-14-58</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-11-07-1929" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-saklig-og-stedlig-virkeomrade">§ 1-2. Saklig og stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-legaldefinisjoner">§ 1-3. Legaldefinisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-generelle-bestemmelser-om-akvakulturtillatelser">Kapittel 2. Generelle bestemmelser om akvakulturtillatelser</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-akvakulturtillatelse">§ 2-1. Krav om akvakulturtillatelse</a></li>
+<li class="lvl4"><a href="#2-2-rensefisk">§ 2-2. Rensefisk</a></li>
+<li class="lvl2"><a href="#kapittel-3-akvakulturtillatelser-for-matfisk-i-sj">Kapittel 3. Akvakulturtillatelser for matfisk i sjø</a></li>
+<li class="lvl4"><a href="#3-1-sknadsbehandling">§ 3-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#3-2-tildeling-og-fordeling-av-tillatelser">§ 3-2. Tildeling og fordeling av tillatelser</a></li>
+<li class="lvl4"><a href="#3-3-tillatt-biomasse-per-akvakulturtillatelse-for-matfisk-pa-lokaliteter-i-sj">§ 3-3. Tillatt biomasse per akvakulturtillatelse for matfisk på lokaliteter i sjø</a></li>
+<li class="lvl4"><a href="#3-4-vederlag">§ 3-4. Vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-4-akvakulturtillatelser-for-matfisk-pa-lokaliteter-til-havs">Kapittel 4. Akvakulturtillatelser for matfisk på lokaliteter til havs</a></li>
+<li class="lvl4"><a href="#4-1-tildeling-av-tillatelser-til-havs">§ 4-1. Tildeling av tillatelser til havs</a></li>
+<li class="lvl4"><a href="#4-2-etablering-av-omrader">§ 4-2. Etablering av områder</a></li>
+<li class="lvl4"><a href="#4-3-offentlig-overordnet-konsekvensutredning-av-havomrader">§ 4-3. Offentlig overordnet konsekvensutredning av havområder</a></li>
+<li class="lvl4"><a href="#4-4-inndeling-av-utlysningsomrader">§ 4-4. Inndeling av utlysningsområder</a></li>
+<li class="lvl4"><a href="#4-5-utlysning-og-kompetansekrav-for-deltakelse-i-konkurranse-om-omradetilsagn">§ 4-5. Utlysning og kompetansekrav for deltakelse i konkurranse om områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-6-konkurranse-for-tildeling-av-omradetilsagn">§ 4-6. Konkurranse for tildeling av områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-7-tildeling-av-omradetilsagn">§ 4-7. Tildeling av områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-8-krav-om-omradeplan">§ 4-8. Krav om områdeplan</a></li>
+<li class="lvl4"><a href="#4-9-prosjektspesifikk-konsekvensutredning">§ 4-9. Prosjektspesifikk konsekvensutredning</a></li>
+<li class="lvl4"><a href="#4-10-sknad-om-tillatelse-til-produksjon-pa-lokalitet">§ 4-10. Søknad om tillatelse til produksjon på lokalitet</a></li>
+<li class="lvl4"><a href="#4-11-tildeling-av-tillatelse-til-produksjon-pa-lokalitet">§ 4-11. Tildeling av tillatelse til produksjon på lokalitet</a></li>
+<li class="lvl4"><a href="#4-12-tillatelsens-innhold">§ 4-12. Tillatelsens innhold</a></li>
+<li class="lvl4"><a href="#4-13-innehavers-radighet-over-tillatelsen-og-anlegget-tillatelsen-er-knyttet-til">§ 4-13. Innehavers rådighet over tillatelsen og anlegget tillatelsen er knyttet til</a></li>
+<li class="lvl4"><a href="#4-14-endring-av-akvakulturanlegg">§ 4-14. Endring av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#4-15-tidsbegrensning">§ 4-15. Tidsbegrensning</a></li>
+<li class="lvl4"><a href="#4-16-vederlag-for-tildeling-av-tillatelse">§ 4-16. Vederlag for tildeling av tillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-akvakulturtillatelser-for-matfisk-i-ferskvann">Kapittel 5. Akvakulturtillatelser for matfisk i ferskvann</a></li>
+<li class="lvl4"><a href="#5-1-sknadsbehandling">§ 5-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#5-2-tildeling-og-fordeling-av-tillatelser">§ 5-2. Tildeling og fordeling av tillatelser</a></li>
+<li class="lvl4"><a href="#5-3-tillatt-biomasse-per-akvakulturtillatelse">§ 5-3. Tillatt biomasse per akvakulturtillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-akvakulturtillatelser-til-srlige-formal-i-sj-og-ferskvann">Kapittel 6. Akvakulturtillatelser til særlige formål i sjø og ferskvann</a></li>
+<li class="lvl4"><a href="#6-1-srlige-formal">§ 6-1. Særlige formål</a></li>
+<li class="lvl4"><a href="#6-2-midlertidig-stopp-i-muligheten-til-a-ske-om-tillatelse-til-visningsformal-og-fiskepark">§ 6-2. Midlertidig stopp i muligheten til å søke om tillatelse til visningsformål og fiskepark</a></li>
+<li class="lvl4"><a href="#6-3-sknadsbehandling">§ 6-3. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#6-4-generelle-vilkar-for-tildeling-og-fornyelse">§ 6-4. Generelle vilkår for tildeling og fornyelse</a></li>
+<li class="lvl4"><a href="#6-5-srskilte-tildelingsvilkar-for-tillatelse-til-forskning">§ 6-5. Særskilte tildelingsvilkår for tillatelse til forskning</a></li>
+<li class="lvl4"><a href="#6-6-srskilte-tildelingsvilkar-for-tillatelse-til-utvikling">§ 6-6. Særskilte tildelingsvilkår for tillatelse til utvikling</a></li>
+<li class="lvl4"><a href="#6-7-konvertering-av-utviklingstillatelse">§ 6-7. Konvertering av utviklingstillatelse</a></li>
+<li class="lvl4"><a href="#6-8-srskilte-tildelingsvilkar-for-tillatelse-til-fiskepark">§ 6-8. Særskilte tildelingsvilkår for tillatelse til fiskepark</a></li>
+<li class="lvl4"><a href="#6-9-srskilte-tildelingsvilkar-for-tillatelse-til-slaktemerd">§ 6-9. Særskilte tildelingsvilkår for tillatelse til slaktemerd</a></li>
+<li class="lvl4"><a href="#6-10-srskilte-tildelingsvilkar-for-tillatelse-til-undervisning">§ 6-10. Særskilte tildelingsvilkår for tillatelse til undervisning</a></li>
+<li class="lvl4"><a href="#6-11-srskilte-tildelingsvilkar-for-tillatelse-til-visning">§ 6-11. Særskilte tildelingsvilkår for tillatelse til visning</a></li>
+<li class="lvl4"><a href="#6-12-srskilte-tildelingsvilkar-for-tillatelse-til-akvakultur-av-stamfisk">§ 6-12. Særskilte tildelingsvilkår for tillatelse til akvakultur av stamfisk</a></li>
+<li class="lvl4"><a href="#6-13-faglige-rad-ved-behandling-av-sknad-om-tillatelse-til-srlige-formal">§ 6-13. Faglige råd ved behandling av søknad om tillatelse til særlige formål</a></li>
+<li class="lvl4"><a href="#6-14-maksimal-tillatt-biomasse-per-tillatelse-til-srlige-formal">§ 6-14. Maksimal tillatt biomasse per tillatelse til særlige formål</a></li>
+<li class="lvl4"><a href="#6-15-sksmalsfrist">§ 6-15. Søksmålsfrist</a></li>
+<li class="lvl2"><a href="#kapittel-7-akvakulturtillatelser-pa-land">Kapittel 7. Akvakulturtillatelser på land</a></li>
+<li class="lvl4"><a href="#7-1-sknadsbehandling">§ 7-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#7-2-tildeling-av-akvakulturtillatelse-pa-land">§ 7-2. Tildeling av akvakulturtillatelse på land</a></li>
+<li class="lvl4"><a href="#7-3-opphevet">§ 7-3. Opphevet</a></li>
+<li class="lvl2"><a href="#kapittel-8-generelle-regler-om-klarering-av-lokalitet-for-akvakultur">Kapittel 8. Generelle regler om klarering av lokalitet for akvakultur</a></li>
+<li class="lvl4"><a href="#8-1-krav-om-klarering-av-lokalitet-for-akvakultur">§ 8-1. Krav om klarering av lokalitet for akvakultur</a></li>
+<li class="lvl4"><a href="#8-2-sknadsbehandling">§ 8-2. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#8-3-generelle-vilkar-for-klarering-av-lokalitet">§ 8-3. Generelle vilkår for klarering av lokalitet</a></li>
+<li class="lvl4"><a href="#8-4-srlige-krav-til-lokalitet-for-settefisk">§ 8-4. Særlige krav til lokalitet for settefisk</a></li>
+<li class="lvl4"><a href="#8-5-forbud-mot-overfring-av-tillatelser-fra-land-til-sj">§ 8-5. Forbud mot overføring av tillatelser fra land til sjø</a></li>
+<li class="lvl4"><a href="#8-6-srlige-krav-til-lokalitet-for-stamfisk">§ 8-6. Særlige krav til lokalitet for stamfisk</a></li>
+<li class="lvl4"><a href="#8-7-krav-til-tilknytning-til-produksjonsomrade">§ 8-7. Krav til tilknytning til produksjonsområde</a></li>
+<li class="lvl4"><a href="#8-8-antall-tillatte-lokaliteter-per-akvakulturtillatelse">§ 8-8. Antall tillatte lokaliteter per akvakulturtillatelse</a></li>
+<li class="lvl4"><a href="#8-9-minstekrav-til-sknad-om-klarering-av-lokalitet-i-sj">§ 8-9. Minstekrav til søknad om klarering av lokalitet i sjø</a></li>
+<li class="lvl4"><a href="#8-9a-minstekrav-til-sknad-for-lokaliteter-pa-land-og-i-ferskvann">§ 8-9a. Minstekrav til søknad for lokaliteter på land og i ferskvann</a></li>
+<li class="lvl4"><a href="#8-10-melding-ved-lokalisering-av-flere-tillatelser-pa-samme-lokalitet">§ 8-10. Melding ved lokalisering av flere tillatelser på samme lokalitet</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-tilbaketrekking-av-akvakulturtillatelse-tilsagn-om-produksjon-pa-selskapsniva-eller-lokalitet-ved-passivitet">§ 9-1. Tilbaketrekking av akvakulturtillatelse, tilsagn om produksjon på selskapsnivå eller lokalitet ved passivitet</a></li>
+<li class="lvl4"><a href="#9-2-gebyr">§ 9-2. Gebyr</a></li>
+<li class="lvl4"><a href="#9-3-straff-og-administrative-sanksjoner">§ 9-3. Straff og administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#9-4-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 9-4. Ikrafttredelse og opphevelse av andre forskrifter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-01-14-58.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-11-07-1929.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tillatelse til akvakultur for laks, ørret og regnbueørret (laksetildelingsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-11-07-1929.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-11-07-1929 <code>forskrift/2022-11-07-1929</code></td></tr>
+<tr><th>Korttittel</th><td>Laksetildelingsforskriften</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>07.11.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-01-14-58 <code>forskrift/2026-01-14-58</code> fra 14.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-11-07-1929" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-saklig-og-stedlig-virkeomrade">§ 1-2. Saklig og stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-legaldefinisjoner">§ 1-3. Legaldefinisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-generelle-bestemmelser-om-akvakulturtillatelser">Kapittel 2. Generelle bestemmelser om akvakulturtillatelser</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-akvakulturtillatelse">§ 2-1. Krav om akvakulturtillatelse</a></li>
+<li class="lvl4"><a href="#2-2-rensefisk">§ 2-2. Rensefisk</a></li>
+<li class="lvl2"><a href="#kapittel-3-akvakulturtillatelser-for-matfisk-i-sj">Kapittel 3. Akvakulturtillatelser for matfisk i sjø</a></li>
+<li class="lvl4"><a href="#3-1-sknadsbehandling">§ 3-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#3-2-tildeling-og-fordeling-av-tillatelser">§ 3-2. Tildeling og fordeling av tillatelser</a></li>
+<li class="lvl4"><a href="#3-3-tillatt-biomasse-per-akvakulturtillatelse-for-matfisk-pa-lokaliteter-i-sj">§ 3-3. Tillatt biomasse per akvakulturtillatelse for matfisk på lokaliteter i sjø</a></li>
+<li class="lvl4"><a href="#3-4-vederlag">§ 3-4. Vederlag</a></li>
+<li class="lvl2"><a href="#kapittel-4-akvakulturtillatelser-for-matfisk-pa-lokaliteter-til-havs">Kapittel 4. Akvakulturtillatelser for matfisk på lokaliteter til havs</a></li>
+<li class="lvl4"><a href="#4-1-tildeling-av-tillatelser-til-havs">§ 4-1. Tildeling av tillatelser til havs</a></li>
+<li class="lvl4"><a href="#4-2-etablering-av-omrader">§ 4-2. Etablering av områder</a></li>
+<li class="lvl4"><a href="#4-3-offentlig-overordnet-konsekvensutredning-av-havomrader">§ 4-3. Offentlig overordnet konsekvensutredning av havområder</a></li>
+<li class="lvl4"><a href="#4-4-inndeling-av-utlysningsomrader">§ 4-4. Inndeling av utlysningsområder</a></li>
+<li class="lvl4"><a href="#4-5-utlysning-og-kompetansekrav-for-deltakelse-i-konkurranse-om-omradetilsagn">§ 4-5. Utlysning og kompetansekrav for deltakelse i konkurranse om områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-6-konkurranse-for-tildeling-av-omradetilsagn">§ 4-6. Konkurranse for tildeling av områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-7-tildeling-av-omradetilsagn">§ 4-7. Tildeling av områdetilsagn</a></li>
+<li class="lvl4"><a href="#4-8-krav-om-omradeplan">§ 4-8. Krav om områdeplan</a></li>
+<li class="lvl4"><a href="#4-9-prosjektspesifikk-konsekvensutredning">§ 4-9. Prosjektspesifikk konsekvensutredning</a></li>
+<li class="lvl4"><a href="#4-10-sknad-om-tillatelse-til-produksjon-pa-lokalitet">§ 4-10. Søknad om tillatelse til produksjon på lokalitet</a></li>
+<li class="lvl4"><a href="#4-11-tildeling-av-tillatelse-til-produksjon-pa-lokalitet">§ 4-11. Tildeling av tillatelse til produksjon på lokalitet</a></li>
+<li class="lvl4"><a href="#4-12-tillatelsens-innhold">§ 4-12. Tillatelsens innhold</a></li>
+<li class="lvl4"><a href="#4-13-innehavers-radighet-over-tillatelsen-og-anlegget-tillatelsen-er-knyttet-til">§ 4-13. Innehavers rådighet over tillatelsen og anlegget tillatelsen er knyttet til</a></li>
+<li class="lvl4"><a href="#4-14-endring-av-akvakulturanlegg">§ 4-14. Endring av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#4-15-tidsbegrensning">§ 4-15. Tidsbegrensning</a></li>
+<li class="lvl4"><a href="#4-16-vederlag-for-tildeling-av-tillatelse">§ 4-16. Vederlag for tildeling av tillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-akvakulturtillatelser-for-matfisk-i-ferskvann">Kapittel 5. Akvakulturtillatelser for matfisk i ferskvann</a></li>
+<li class="lvl4"><a href="#5-1-sknadsbehandling">§ 5-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#5-2-tildeling-og-fordeling-av-tillatelser">§ 5-2. Tildeling og fordeling av tillatelser</a></li>
+<li class="lvl4"><a href="#5-3-tillatt-biomasse-per-akvakulturtillatelse">§ 5-3. Tillatt biomasse per akvakulturtillatelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-akvakulturtillatelser-til-srlige-formal-i-sj-og-ferskvann">Kapittel 6. Akvakulturtillatelser til særlige formål i sjø og ferskvann</a></li>
+<li class="lvl4"><a href="#6-1-srlige-formal">§ 6-1. Særlige formål</a></li>
+<li class="lvl4"><a href="#6-2-midlertidig-stopp-i-muligheten-til-a-ske-om-tillatelse-til-visningsformal-og-fiskepark">§ 6-2. Midlertidig stopp i muligheten til å søke om tillatelse til visningsformål og fiskepark</a></li>
+<li class="lvl4"><a href="#6-3-sknadsbehandling">§ 6-3. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#6-4-generelle-vilkar-for-tildeling-og-fornyelse">§ 6-4. Generelle vilkår for tildeling og fornyelse</a></li>
+<li class="lvl4"><a href="#6-5-srskilte-tildelingsvilkar-for-tillatelse-til-forskning">§ 6-5. Særskilte tildelingsvilkår for tillatelse til forskning</a></li>
+<li class="lvl4"><a href="#6-6-srskilte-tildelingsvilkar-for-tillatelse-til-utvikling">§ 6-6. Særskilte tildelingsvilkår for tillatelse til utvikling</a></li>
+<li class="lvl4"><a href="#6-7-konvertering-av-utviklingstillatelse">§ 6-7. Konvertering av utviklingstillatelse</a></li>
+<li class="lvl4"><a href="#6-8-srskilte-tildelingsvilkar-for-tillatelse-til-fiskepark">§ 6-8. Særskilte tildelingsvilkår for tillatelse til fiskepark</a></li>
+<li class="lvl4"><a href="#6-9-srskilte-tildelingsvilkar-for-tillatelse-til-slaktemerd">§ 6-9. Særskilte tildelingsvilkår for tillatelse til slaktemerd</a></li>
+<li class="lvl4"><a href="#6-10-srskilte-tildelingsvilkar-for-tillatelse-til-undervisning">§ 6-10. Særskilte tildelingsvilkår for tillatelse til undervisning</a></li>
+<li class="lvl4"><a href="#6-11-srskilte-tildelingsvilkar-for-tillatelse-til-visning">§ 6-11. Særskilte tildelingsvilkår for tillatelse til visning</a></li>
+<li class="lvl4"><a href="#6-12-srskilte-tildelingsvilkar-for-tillatelse-til-akvakultur-av-stamfisk">§ 6-12. Særskilte tildelingsvilkår for tillatelse til akvakultur av stamfisk</a></li>
+<li class="lvl4"><a href="#6-13-faglige-rad-ved-behandling-av-sknad-om-tillatelse-til-srlige-formal">§ 6-13. Faglige råd ved behandling av søknad om tillatelse til særlige formål</a></li>
+<li class="lvl4"><a href="#6-14-maksimal-tillatt-biomasse-per-tillatelse-til-srlige-formal">§ 6-14. Maksimal tillatt biomasse per tillatelse til særlige formål</a></li>
+<li class="lvl4"><a href="#6-15-sksmalsfrist">§ 6-15. Søksmålsfrist</a></li>
+<li class="lvl2"><a href="#kapittel-7-akvakulturtillatelser-pa-land">Kapittel 7. Akvakulturtillatelser på land</a></li>
+<li class="lvl4"><a href="#7-1-sknadsbehandling">§ 7-1. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#7-2-tildeling-av-akvakulturtillatelse-pa-land">§ 7-2. Tildeling av akvakulturtillatelse på land</a></li>
+<li class="lvl4"><a href="#7-3-opphevet">§ 7-3. Opphevet</a></li>
+<li class="lvl2"><a href="#kapittel-8-generelle-regler-om-klarering-av-lokalitet-for-akvakultur">Kapittel 8. Generelle regler om klarering av lokalitet for akvakultur</a></li>
+<li class="lvl4"><a href="#8-1-krav-om-klarering-av-lokalitet-for-akvakultur">§ 8-1. Krav om klarering av lokalitet for akvakultur</a></li>
+<li class="lvl4"><a href="#8-2-sknadsbehandling">§ 8-2. Søknadsbehandling</a></li>
+<li class="lvl4"><a href="#8-3-generelle-vilkar-for-klarering-av-lokalitet">§ 8-3. Generelle vilkår for klarering av lokalitet</a></li>
+<li class="lvl4"><a href="#8-4-srlige-krav-til-lokalitet-for-settefisk">§ 8-4. Særlige krav til lokalitet for settefisk</a></li>
+<li class="lvl4"><a href="#8-5-forbud-mot-overfring-av-tillatelser-fra-land-til-sj">§ 8-5. Forbud mot overføring av tillatelser fra land til sjø</a></li>
+<li class="lvl4"><a href="#8-6-srlige-krav-til-lokalitet-for-stamfisk">§ 8-6. Særlige krav til lokalitet for stamfisk</a></li>
+<li class="lvl4"><a href="#8-7-krav-til-tilknytning-til-produksjonsomrade">§ 8-7. Krav til tilknytning til produksjonsområde</a></li>
+<li class="lvl4"><a href="#8-8-antall-tillatte-lokaliteter-per-akvakulturtillatelse">§ 8-8. Antall tillatte lokaliteter per akvakulturtillatelse</a></li>
+<li class="lvl4"><a href="#8-9-minstekrav-til-sknad-om-klarering-av-lokalitet-i-sj">§ 8-9. Minstekrav til søknad om klarering av lokalitet i sjø</a></li>
+<li class="lvl4"><a href="#8-9a-minstekrav-til-sknad-for-lokaliteter-pa-land-og-i-ferskvann">§ 8-9a. Minstekrav til søknad for lokaliteter på land og i ferskvann</a></li>
+<li class="lvl4"><a href="#8-10-melding-ved-lokalisering-av-flere-tillatelser-pa-samme-lokalitet">§ 8-10. Melding ved lokalisering av flere tillatelser på samme lokalitet</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-tilbaketrekking-av-akvakulturtillatelse-tilsagn-om-produksjon-pa-selskapsniva-eller-lokalitet-ved-passivitet">§ 9-1. Tilbaketrekking av akvakulturtillatelse, tilsagn om produksjon på selskapsnivå eller lokalitet ved passivitet</a></li>
+<li class="lvl4"><a href="#9-2-gebyr">§ 9-2. Gebyr</a></li>
+<li class="lvl4"><a href="#9-3-straff-og-administrative-sanksjoner">§ 9-3. Straff og administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#9-4-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 9-4. Ikrafttredelse og opphevelse av andre forskrifter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-11-07-1929.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-11-07-1929.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-11-07-1929.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-11-07-1929.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-11-07-1929.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-11-07-1929.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-11-07-1929.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-11-07-1929.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-11-07-1929.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tillatelse-til-akvakultur-for-laks-rret-og-regnbuerret-laksetildelingsforskriften">Forskrift om tillatelse til akvakultur for laks, ørret og regnbueørret (laksetildelingsforskriften)</h1>
 <h2 id="kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriften skal bidra til at akvakultur av laks, ørret og regnbueørret blir lønnsomt og konkurransekraftig innenfor rammene av en bærekraftig utvikling, og bidra til verdiskaping langs kysten.</p>
@@ -100,7 +285,7 @@ l. Utlysningsområder: geografisk avgrensede områder som åpnes for konkurranse
 m. Områdetilsagn: vedtak om rett og plikt til å utarbeide områdeplan for et utlysningsområde.
 n. Områdeplan: plan for etablering, utbygging, drift og avvikling av havbruk til havs innenfor areal tildelt ved områdetilsagn, inkludert en konsekvensutredningsdel.
 o. Prosjektspesifikk konsekvensutredning: konsekvensutredning av etablering, utbygging, drift og avvikling i utlysningsområdet, inkludert de aktuelle lokalitetene til havs.</p>
-<p><em>Endret ved forskrifter 2 feb 2024 nr. 163 , 7 feb 2024 nr. 226 , 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrifter 2 feb 2024 nr. 163 , 7 feb 2024 nr. 226 , 14 jan 2026 nr. 58 .</p>
 <h2 id="kapittel-2-generelle-bestemmelser-om-akvakulturtillatelser">Kapittel 2. Generelle bestemmelser om akvakulturtillatelser</h2>
 <h4 id="2-1-krav-om-akvakulturtillatelse">§ 2-1. Krav om akvakulturtillatelse</h4>
 <p>Ingen kan drive akvakultur uten å være innehaver av akvakulturtillatelse som er registrert i akvakulturregisteret.</p>
@@ -117,25 +302,25 @@ o. Prosjektspesifikk konsekvensutredning: konsekvensutredning av etablering, utb
 <p>Rett til drift inntrer først når akvakulturtillatelse er utstedt etter at minst én lokalitet er klarert og tillatelsen er registrert i akvakulturregisteret.</p>
 <h4 id="3-3-tillatt-biomasse-per-akvakulturtillatelse-for-matfisk-pa-lokaliteter-i-sj">§ 3-3. Tillatt biomasse per akvakulturtillatelse for matfisk på lokaliteter i sjø <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Akvakulturtillatelse for matfisk i sjø skal avgrenses kapasitetsmessig i maksimalt tillatt biomasse som kan stå i sjøen i medhold av tillatelsen, jf. forskrift 17. juni 2008 nr. 822 om drift av akvakulturanlegg (akvakulturdriftsforskriften) § 47 . Første punktum gjør ikke inngrep i reglene for biomassefleksibilitet etter akvakulturdriftsforskriften § 47 til § 49 .</p>
-<p><em>Endret ved forskrift 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Endret ved forskrift 2 feb 2024 nr. 163 .</p>
 <h4 id="3-4-vederlag">§ 3-4. Vederlag <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Vederlag for tillatelse fastsettes i forskrift for den enkelte runde for tildeling eller vekst.</p>
 <p>Vederlaget skal betales innen nærmere fastsatt frist. Tilsagn om tillatelse på selskapsnivå bortfaller dersom vederlaget ikke er betalt innen fristen.</p>
 <p>Dersom tilsagn om tillatelse på selskapsnivå oppheves i forbindelse med klage eller etter forvaltningens eget tiltak, refunderes søkers vederlag. Vederlaget refunderes ikke ved eventuell senere inndragning på grunn av forhold som nevnt i lov 17. juni 2005 nr. 79 om akvakultur (akvakulturloven) § 9 . Det samme gjelder andre forhold som gjør at tillatelsen taper sin verdi.</p>
-<p><em>Endret ved forskrift 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Endret ved forskrift 2 feb 2024 nr. 163 .</p>
 <h2 id="kapittel-4-akvakulturtillatelser-for-matfisk-pa-lokaliteter-til-havs">Kapittel 4. Akvakulturtillatelser for matfisk på lokaliteter til havs</h2>
 <h4 id="4-1-tildeling-av-tillatelser-til-havs">§ 4-1. Tildeling av tillatelser til havs <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet vedtar når akvakulturtillatelser for matfisk i områder til havs skal tildeles innenfor områder bestemt av Kongen i statsråd.</p>
 <p>Departementet kan fastsette nærmere betingelser og vilkår for tildeling av tillatelser i eller i medhold av forskrift.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-2-etablering-av-omrader">§ 4-2. Etablering av områder <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kongen i statsråd vedtar hvilke områder som kan konsekvensutredes etter § 4-3 for etablering av havbruk til havs.</p>
 <p>Når offentlig overordnet konsekvensutredning av et havområde som nevnt i første ledd er gjennomført etter § 4-3 avgjør Kongen i statsråd om, og i tilfelle hvilke deler av, området som kan utlyses etter § 4-5 .</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-3-offentlig-overordnet-konsekvensutredning-av-havomrader">§ 4-3. Offentlig overordnet konsekvensutredning av havområder <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Før det kan besluttes at et område kan lyses ut etter § 4-2 annet ledd , skal det gjennomføres en offentlig overordnet konsekvensutredning av området. Departementet er ansvarlig for utarbeidelse av program for konsekvensutredningen og at vurderingen gjennomføres i henhold til programmet.</p>
 <p>Programmet skal være gjenstand for offentlig høring før det endelig fastsettes av departementet.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-4-inndeling-av-utlysningsomrader">§ 4-4. Inndeling av utlysningsområder</h4>
 <p>Et område som det er besluttet at skal utlyses etter § 4-2 annet ledd, kan deles inn i flere utlysningsområder av departementet.</p>
 <h4 id="4-5-utlysning-og-kompetansekrav-for-deltakelse-i-konkurranse-om-omradetilsagn">§ 4-5. Utlysning og kompetansekrav for deltakelse i konkurranse om områdetilsagn <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -151,15 +336,15 @@ o. Prosjektspesifikk konsekvensutredning: konsekvensutredning av etablering, utb
 <li>erfaring med prosjektstyring fra større prosjekter som petroleum, havenergi, eksponert havbruk eller tilsvarende.</li>
 </ul>
 <p>Aktøren må legge en realistisk plan for hvilken kompetanse som er nødvendig i de ulike fasene av prosjektet.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-6-konkurranse-for-tildeling-av-omradetilsagn">§ 4-6. Konkurranse for tildeling av områdetilsagn <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Reglene for konkurranse om tildeling av områdetilsagn fastsettes i en egen områdetildelingsforskrift. Deltakelse i konkurransen forutsetter at aktøren oppfyller kravene i § 4-5 .</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-7-tildeling-av-omradetilsagn">§ 4-7. Tildeling av områdetilsagn <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan gi områdetilsagn med rett og plikt til å utarbeide en helhetlig plan for utvikling av havbruk til havs (områdeplan). Det kan kun gis ett områdetilsagn per utlysningsområde.</p>
 <p>Områdetilsagn gir ikke rett til å etablere virksomhet i utlysningsområdet.</p>
 <p>Områdetilsagnet kan ikke overdras og bortfaller når det ikke er sendt søknad om tildeling og klarering etter § 4-10 innen to år. Departementet kan forlenge fristen med ett år av gangen etter søknad.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-8-krav-om-omradeplan">§ 4-8. Krav om områdeplan <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-8.html" title="Endringshistorikk for § 4-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Innehaver av et områdetilsagn etter § 4-7 skal utarbeide en plan for etablering, utbygging, drift og avvikling av havbruk til havs i området. Formålet med planen skal være størst mulig samfunnsmessig verdiskaping innenfor bærekraftige rammer.</p>
 <p>En prosjektspesifikk konsekvensutredning av hele det tildelte området skal ligge til grunn for utarbeidelse av områdeplanen, i tråd med § 4-9 i denne forskriften.</p>
@@ -167,20 +352,20 @@ o. Prosjektspesifikk konsekvensutredning: konsekvensutredning av etablering, utb
 <p>Søknad om godkjenning av områdeplan sendes til Fiskeridirektoratet. Fiskeridirektoratet skal sende søknad om godkjenning av områdeplan med prosjektspesifikk konsekvensutredning på høring til sektormyndighetene som fatter vedtak i saker om havbruk til havs, andre berørte myndigheter, parter og interesseorganisasjoner og legge dokumentene ut til offentlig ettersyn på internett. Det skal fastsettes en rimelig frist for innspill som ikke kan være kortere enn 6 uker.</p>
 <p>Sektormyndighetene som fatter vedtak i saker om havbruk til havs skal vurdere planen og sende en innstilling til Fiskeridirektoratet. Fiskeridirektoratet skal utarbeide en egen innstilling, der det redegjøres for hvordan høringsinnspillene er ivaretatt og oversender denne, sammen med sektormyndighetenes innstillinger, samlet til departementet. Nærings- og fiskeridepartementet vedtar om, og på hvilke vilkår, planen kan godkjennes. Dersom departementets vedtak om godkjenning av områdeplan ikke følger sektormyndighetenes innstillinger, skal dette begrunnes i vedtaket.</p>
 <p>Søknad om tildeling av produksjonskapasitet og klarering av lokalitet i det tildelte området etter §§ 4-10 og 4-11 i denne forskriften skal være i tråd med godkjent områdeplan. Søknader om klarering av lokaliteter skal legges inn som milepæler i planen.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-9-prosjektspesifikk-konsekvensutredning">§ 4-9. Prosjektspesifikk konsekvensutredning <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Innehaver av områdetilsagn skal utarbeide en prosjektspesifikk konsekvensutredning, i tråd med kravene i forskrift om konsekvensutredninger . Den prosjektspesifikke konsekvensutredningen skal dekke hele utlysningsområdet, og skal oppfylle kravene til utredning som er nødvendig for godkjenning av områdeplan etter § 4-8 , og tildeling av tillatelse til produksjon på lokalitet etter § 4-11 , inkludert for tillatelsene nevnt i § 4-11 nr. 5 .</p>
 <p>Innehaver av områdetilsagn skal sende forslag til program for prosjektspesifikk konsekvensutredning til Fiskeridirektoratet.</p>
 <p>Fiskeridirektoratet sender forslaget på høring til berørte myndigheter og interesseorganisasjoner. Det skal fastsettes en rimelig frist for innspill som ikke kan være kortere enn 6 uker. Fiskeridirektoratet skal oppsummere innspillene og skriver en innstilling til departementet. Innstillingen skal inneholde en redegjørelse for hvordan innspillene er vurdert og ivaretatt. Alle innspill skal legges ved innstillingen.</p>
 <p>Departementet fastsetter program for prosjektspesifikk konsekvensutredning.</p>
 <p>Prosjektspesifikk konsekvensutredning gjennomføres etter forskrift om konsekvensutredninger , i tråd med fastsatt program og for tiltakshavers regning.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-10-sknad-om-tillatelse-til-produksjon-pa-lokalitet">§ 4-10. Søknad om tillatelse til produksjon på lokalitet <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-10.html" title="Endringshistorikk for § 4-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når områdeplanen er godkjent, kan innehaver av områdeplanen søke om tillatelse til produksjon på bestemt lokalitet i samsvar med den godkjente områdeplanen.</p>
 <p>Søknaden sendes til Fiskeridirektoratet som koordinerende myndighet.</p>
 <p>Fiskeridirektoratet sender søknaden med områdeplanen og konsekvensutredning på høring til berørte myndigheter og interesseorganisasjoner, og gjør dokumentene tilgjengelig for offentlig ettersyn på internett. Det skal fastsettes en rimelig frist for høringsinnspill, som ikke kan være kortere enn 6 uker fra søknaden er offentliggjort.</p>
 <p>Søknaden skal behandles av de relevante sektormyndighetene. Endelig vedtak fattes av Fiskeridirektoratet dersom de nødvendige sektorvedtakene foreligger.</p>
-<p><em>Endret ved forskrifter 2 feb 2024 nr. 163 , 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrifter 2 feb 2024 nr. 163 , 14 jan 2026 nr. 58 .</p>
 <h4 id="4-11-tildeling-av-tillatelse-til-produksjon-pa-lokalitet">§ 4-11. Tildeling av tillatelse til produksjon på lokalitet <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-11.html" title="Endringshistorikk for § 4-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fiskeridirektoratet kan gi tillatelse til akvakultur av matfisk til havs på en bestemt lokalitet.</p>
 <p>Tillatelse kan kun gis dersom</p>
@@ -196,18 +381,18 @@ o. Prosjektspesifikk konsekvensutredning: konsekvensutredning av etablering, utb
   d. Lov 19. juni 2009 nr. 97 om dyrevelferd .</li>
 </ol>
 <p>Det kan kun tildeles én tillatelse per lokalitet.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 .</p>
 <h4 id="4-12-tillatelsens-innhold">§ 4-12. Tillatelsens innhold <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-12.html" title="Endringshistorikk for § 4-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tillatelsen skal avgrenses i maksimalt tillatt biomasse.</p>
 <p>Tillatelsen skal knyttes til én bestemt lokalitet og ett bestemt akvakulturanlegg.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-13).</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-13).</p>
 <h4 id="4-13-innehavers-radighet-over-tillatelsen-og-anlegget-tillatelsen-er-knyttet-til">§ 4-13. Innehavers rådighet over tillatelsen og anlegget tillatelsen er knyttet til</h4>
 <p>En akvakulturtillatelse for matfisk på en lokalitet til havs kan bare benyttes på lokaliteten og anlegget som den er knyttet til etter § 4-11 , jf. § 4-13 .</p>
 <p>Overdragelse av tillatelsen må godkjennes av departementet. Det samme gjelder annen direkte eller indirekte interesseoverføring eller deltakelse i tillatelsen, herunder overdragelse av aksjeposter og andre eierandeler, som kan gi bestemmende innflytelse over innehaveren av tillatelsen. Overdragelse som nevnt i første og andre punktum skal godkjennes så langt departementet har rimelig grunn til å tro at virksomheten i medhold av tillatelsen fortsatt kan drives etter de til enhver tid gjeldende vesentligste vilkår og forutsetninger som ligger til grunn for tillatelsen.</p>
 <p>Fiskeridirektoratet kan etter søknad gi tillatelse til flytting av produksjonskapasitet fra akvakulturtillatelser som reguleres av produksjonsområdeforskriften til akvakulturtillatelser for matfisk til havs. For hvert tonn tillatt produksjonskapasitet som flyttes fra produksjonsområdetillatelse, utvides den aktuelle havtillatelsen med to tonn. Utvidelse av havtillatelsen forutsetter at § 4-11 er oppfylt, med unntak av første ledd nr. 1 om forhåndstilsagn.</p>
 <p>Kapasiteten kan ikke flyttes tilbake til produksjonsområdene.</p>
 <p>Akvakulturtillatelser for matfisk på lokaliteter til havs kan ikke inngå i felles biomassetak, samlokalisering eller samdrift med andre akvakulturtillatelser.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-14).</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-14).</p>
 <h4 id="4-14-endring-av-akvakulturanlegg">§ 4-14. Endring av akvakulturanlegg</h4>
 <p>Endringer på akvakulturanlegget skal meldes til Fiskeridirektoratet.</p>
 <p>Ved større endringer på akvakulturanlegget, kan Fiskeridirektoratet kreve søknad om ny akvakulturtillatelse for matfisk a på lokaliteter til havs. I vurderingen av om endringene er søknadspliktig etter første punktum, skal det bl.a. legges vekt på om endringen kan ha slike virkninger for miljø, dyrevelferd og HMS, at vesentlige forutsetninger som ligger til grunn for tildelingsvedtaket etter § 4-11 , er endret. Det skal særlig legges vekt på i hvilken utstrekning virkninger som nevnt i annet punktum er vurdert i den prosjektspesifikke konsekvensvurderingen etter § 4-9 . Utskifting av hele anlegg med nytt regnes alltid som større endring etter første punktum.</p>
@@ -219,14 +404,14 @@ c. når tillatelsens tidsavgrensning er utløpt etter § 4-17 første punktum.</
 <p>a. bestemmelsene i § 4-7 til § 4-11 er oppfylt, med unntak av § 4-11 første ledd nr. 1 om forhåndstilsagn
 b. bestemmelser i eller i medhold av akvakulturloven § 9 som gjelder for akvakultur av matfisk til havs ikke tilsier at søknaden skal eller bør få et annet utfall, og
 c. Fiskeridirektoratet ikke ellers finner at anleggsendringen gjør det nødvendig å endre innholdet.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-15).</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-15).</p>
 <h4 id="4-15-tidsbegrensning">§ 4-15. Tidsbegrensning</h4>
 <p>Akvakulturtillatelser for matfisk på lokaliteter til havs gis for inntil 25 år fra tidspunktet for tildelingsvedtaket etter § 4-11 . Fiskeridirektoratet kan gi ny tillatelse på samme lokalitet eller ny lokalitet innenfor et område hvor søker innehar godkjent områdeplan.</p>
 <p>Overdragelse av tillatelse etter § 4-13 andre ledd medfører ikke endring av tidsbegrensningen.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-16).</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-16).</p>
 <h4 id="4-16-vederlag-for-tildeling-av-tillatelse">§ 4-16. Vederlag for tildeling av tillatelse <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-4-16.html" title="Endringshistorikk for § 4-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan kreves vederlag til statskassen for nye tillatelse, fornyelse av tillatelse eller økning i produksjonskapasiteten på eksisterende akvakulturtillatelser for matfisk på lokaliteter til havs. Vederlaget fastsettes i den enkelte tildelingsforskrift.</p>
-<p><em>Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-17).</em></p>
+<p class="note">Endret ved forskrift 14 jan 2026 nr. 58 (tidligere § 4-17).</p>
 <h2 id="kapittel-5-akvakulturtillatelser-for-matfisk-i-ferskvann">Kapittel 5. Akvakulturtillatelser for matfisk i ferskvann</h2>
 <h4 id="5-1-sknadsbehandling">§ 5-1. Søknadsbehandling</h4>
 <p>Søknad om akvakulturtillatelse for matfisk i ferskvann sendes og behandles som nevnt i § 3-1 .</p>
@@ -270,7 +455,7 @@ c. Fiskeridirektoratet ikke ellers finner at anleggsendringen gjør det nødvend
 <p>Fiskeridirektoratet kan etter søknad gi tillatelse til at en utviklingstillatelse kan konverteres til en ordinær tillatelse til akvakultur av matfisk i sjø. Søknaden kan kun innvilges dersom målkriteriene som er fastsatt for prosjektet er oppfylt. Søknad om konvertering må være Fiskeridirektoratet i hende senest 6 måneder før utviklingstillatelsen går ut. Fiskeridirektoratet kan gi oppreisning for fristoverskridelse.</p>
 <p>Ved tildeling av ordinær tillatelse til akvakultur av matfisk i sjø, skal det betales vederlag til statskassen på kroner 10 millioner. Vederlaget skal justeres i tråd med konsumprisindeksen fra 19. november 2015 og frem til konverteringstidspunktet. Betaling må skje innen 90 dager (inkludert helligdager) etter endelig forvaltningsvedtak om tilsagn om kommersiell tillatelse. Dersom vederlaget ikke betales innen fristen, faller tilsagnet bort. Fiskeridirektoratet kan i særlige tilfeller gi oppreisning for fristoverskridelse.</p>
 <p>Den ordinære tillatelsen til akvakultur av matfisk i sjø kan ikke tas i bruk før vederlaget er betalt.</p>
-<p><em>Endret ved forskrift 9 april 2025 nr. 634 .</em></p>
+<p class="note">Endret ved forskrift 9 april 2025 nr. 634 .</p>
 <h4 id="6-8-srskilte-tildelingsvilkar-for-tillatelse-til-fiskepark">§ 6-8. Særskilte tildelingsvilkår for tillatelse til fiskepark</h4>
 <p>Det stilles krav om at akvakulturvirksomheten skal tilrettelegges for publikum.</p>
 <h4 id="6-9-srskilte-tildelingsvilkar-for-tillatelse-til-slaktemerd">§ 6-9. Særskilte tildelingsvilkår for tillatelse til slaktemerd</h4>
@@ -312,14 +497,14 @@ b. enten til
   2. akvakultur av matfisk, eller
   3. akvakultur av stamfisk.</p>
 <p>Tillatelsen avgrenses i maksimalt tillatt biomasse på samme måte som etter § 3-3 . Ved utvidelse av tillatelsens biomasseavgrensning, må innehaver søke om ny lokalitetsklarering etter kapittel 8 .</p>
-<p><em>Endret ved forskrift 27 juni 2025 nr. 1358 .</em></p>
+<p class="note">Endret ved forskrift 27 juni 2025 nr. 1358 .</p>
 <h4 id="7-3-opphevet">§ 7-3. Opphevet <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 19 des 2022 nr. 2332 , endret ved forskrift 25 mai 2023 nr. 745 (i kraft 26 mai 2023), opphevet ved forskrift 27 juni 2025 nr. 1358 .</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2022 nr. 2332 , endret ved forskrift 25 mai 2023 nr. 745 (i kraft 26 mai 2023), opphevet ved forskrift 27 juni 2025 nr. 1358 .</p>
 <h2 id="kapittel-8-generelle-regler-om-klarering-av-lokalitet-for-akvakultur">Kapittel 8. Generelle regler om klarering av lokalitet for akvakultur</h2>
 <h4 id="8-1-krav-om-klarering-av-lokalitet-for-akvakultur">§ 8-1. Krav om klarering av lokalitet for akvakultur <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En lokalitet kan ikke benyttes til akvakultur uten klarering av den. Lokalitetsklarering skal knyttes til en eller flere bestemte tillatelser eller tilsagn om tillatelse.</p>
 <p>Utvidelse av produksjonskapasitet på lokaliteten eller endring av areal krever nytt vedtak om klarering.</p>
-<p><em>Endret ved forskrift 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Endret ved forskrift 2 feb 2024 nr. 163 .</p>
 <h4 id="8-2-sknadsbehandling">§ 8-2. Søknadsbehandling</h4>
 <p>Søknad om klarering av lokalitet sendes og behandles som nevnt i § 3-1 . Etter fylkeskommunen har sendt søknad om klarering av lokalitet til den kommunen det søkes om lokalisering i, skal søker etter anvisning fra kommunen sørge for at søknaden gjøres offentlig, og at dette kunngjøres i Norsk Lysingsblad og i to aviser som er vanlig lest på stedet.</p>
 <h4 id="8-3-generelle-vilkar-for-klarering-av-lokalitet">§ 8-3. Generelle vilkår for klarering av lokalitet</h4>
@@ -378,11 +563,11 @@ c. alle originaldata.</p>
 <p>Tidligere utført forundersøkelse eller miljøovervåking kan danne tilstrekkelig kunnskapsgrunnlag ved søknad om klarering av lokalitet.</p>
 <p>Dersom forundersøkelsen ikke inneholder tilstrekkelige opplysninger kan fylkeskommunen, etter samråd med statsforvalteren og Fiskeridirektoratet, kreve ytterligere opplysninger eller undersøkelser.</p>
 <p>Etter samtykke fra statsforvalteren og Fiskeridirektoratet kan fylkeskommunen i særlige tilfeller dispensere fra kravene i denne bestemmelsen.</p>
-<p><em>Endret ved forskrift 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Endret ved forskrift 2 feb 2024 nr. 163 .</p>
 <h4 id="8-9a-minstekrav-til-sknad-for-lokaliteter-pa-land-og-i-ferskvann">§ 8-9a. Minstekrav til søknad for lokaliteter på land og i ferskvann <a class="para-history" href="../historikk/forskrift-2022-11-07-1929/para-8-9a.html" title="Endringshistorikk for § 8-9a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søknad om klarering av lokalitet skal inneholde opplysninger om strømmålinger på lokaliteten.</p>
 <p>Fylkeskommunen kan, i samråd med statsforvalteren, stille krav om at søknad om klarering av lokalitet i ferskvann skal inneholde miljøundersøkelser.</p>
-<p><em>Tilføyd ved forskrift 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Tilføyd ved forskrift 2 feb 2024 nr. 163 .</p>
 <h4 id="8-10-melding-ved-lokalisering-av-flere-tillatelser-pa-samme-lokalitet">§ 8-10. Melding ved lokalisering av flere tillatelser på samme lokalitet</h4>
 <p>Ved lokalisering av flere tillatelser til akvakultur av matfisk som innehas av samme person og som ikke innebærer utvidelse av klarert biomasse på lokaliteten og lokalitetsstørrelse, skal det sendes melding til fylkeskommunen. Søknad om endring av driftsplan skal etter akvakulturdriftsforskriften § 40 skal sendes til Fiskeridirektoratet sammen med kopi av meldingen. Det er ikke tillatt å sette ut fisk på lokaliteten knyttet til den nye tillatelsen før innehaver av tillatelsen har mottatt endret tillatelse i tråd med meldingen og godkjenning av driftsplan.</p>
 <p>Første ledd gjelder også for ulike innehavere av tillatelser innen samme konsern. Innehaverne må legge fram dokumentasjon på at de inngår i samme konsern på meldingstidspunktet. Både innehavere som allerede har tillatelser tilknyttet den aktuelle lokalitet og nye innehavere må underskrive meldingen.</p>
@@ -395,7 +580,7 @@ c. alle originaldata.</p>
 <p>Fylkeskommunen kan alltid trekke tilbake lokalitetsklaring etter samtykke fra innehaveren.</p>
 <p>Tilsagn om tillatelse til produksjon på selskapsnivå kan trekkes tilbake dersom innehaveren ikke har sendt inn søknad eller melding etter kapittel 8 om klarering av lokalitet for akvakultur innen seks måneder fra tilsagnsvedtaket.</p>
 <p>Overføring av akvakulturtillatelse, tilsagn om tillatelse eller klarering av lokalitet til ny innehaver etter akvakulturloven § 19 , medfører ikke fristavbrudd etter denne paragrafen.</p>
-<p><em>Endret ved forskrifter 6 mars 2023 nr. 367 , 2 feb 2024 nr. 163 .</em></p>
+<p class="note">Endret ved forskrifter 6 mars 2023 nr. 367 , 2 feb 2024 nr. 163 .</p>
 <h4 id="9-2-gebyr">§ 9-2. Gebyr</h4>
 <p>For behandling av søknader etter denne forskriften skal det betales gebyr så langt det følger av forskrift 21. desember 2001 nr. 1597 om gebyr og avgift i forbindelse med akvakultur .</p>
 <h4 id="9-3-straff-og-administrative-sanksjoner">§ 9-3. Straff og administrative sanksjoner</h4>
@@ -403,6 +588,8 @@ c. alle originaldata.</p>
 <h4 id="9-4-ikrafttredelse-og-opphevelse-av-andre-forskrifter">§ 9-4. Ikrafttredelse og opphevelse av andre forskrifter</h4>
 <p>Denne forskrift trer i kraft 7. november 2022.</p>
 <p>Fra samme tid oppheves forskrift 22. desember 2004 nr. 1798 om tillatelse til akvakultur for laks, ørret og regnbueørret (laksetildelingsforskriften) .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

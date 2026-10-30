@@ -19,64 +19,181 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-12-05-1602.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om uføretrygd fra folketrygden" href="../feeds/forskrift-2014-12-05-1602.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Forskrift om uføretrygd fra folketrygden</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-12-05-1602</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-26-1383</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-05-1602" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-inntekt-fr-og-etter-ufrhet">Kapittel 2. Inntekt før og etter uførhet</a></li>
+<li class="lvl4"><a href="#2-1-fastsetting-av-inntekt-fr-ufrhet">§ 2-1. Fastsetting av inntekt før uførhet</a></li>
+<li class="lvl4"><a href="#2-2-fastsetting-av-inntekt-etter-ufrhet">§ 2-2. Fastsetting av inntekt etter uførhet</a></li>
+<li class="lvl4"><a href="#2-3-endring-av-inntekt-fr-og-etter-ufrhet">§ 2-3. Endring av inntekt før og etter uførhet</a></li>
+<li class="lvl2"><a href="#kapittel-3-reduksjon-av-ufretrygd-pa-grunn-av-inntekt">Kapittel 3. Reduksjon av uføretrygd på grunn av inntekt</a></li>
+<li class="lvl4"><a href="#3-1-fribelp-for-personer-som-mottar-ufretrygd-i-varig-tilrettelagt-arbeid-vta">§ 3-1. Fribeløp for personer som mottar uføretrygd i varig tilrettelagt arbeid (VTA)</a></li>
+<li class="lvl4"><a href="#3-2-pensjonsgivende-inntekt-som-ikke-skal-fre-til-reduksjon-av-ufretrygd">§ 3-2. Pensjonsgivende inntekt som ikke skal føre til reduksjon av uføretrygd</a></li>
+<li class="lvl4"><a href="#3-3-tidspunkt-for-nar-ufretrygd-barnetillegg-og-gjenlevendetillegg-skal-reduseres-pa-grunn-av-inntekten-og-fordeling-av-reduksjon-gjennom-kalenderaret">§ 3-3. Tidspunkt for når uføretrygd, barnetillegg og gjenlevendetillegg skal reduseres på grunn av inntekten og fordeling av reduksjon gjennom kalenderåret</a></li>
+<li class="lvl4"><a href="#3-4-hvilende-rett-til-ufretrygd-nar-pensjonsgivende-inntekt-utgjr-mer-enn-80-prosent-av-inntekt-fr-ufrhet">§ 3-4. Hvilende rett til uføretrygd når pensjonsgivende inntekt utgjør mer enn 80 prosent av inntekt før uførhet</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-ny-ventetid-for-kt-fribelp">§ 3-5. Unntak fra ny ventetid for økt fribeløp</a></li>
+<li class="lvl4"><a href="#3-6-begrensning-av-fribelpet">§ 3-6. Begrensning av fribeløpet</a></li>
+<li class="lvl4"><a href="#3-7-beregning-av-fribelpet-for-et-kalenderar">§ 3-7. Beregning av fribeløpet for et kalenderår</a></li>
+<li class="lvl2"><a href="#kapittel-4-etteroppgjr">Kapittel 4. Etteroppgjør</a></li>
+<li class="lvl4"><a href="#4-1-etteroppgjr">§ 4-1. Etteroppgjør</a></li>
+<li class="lvl4"><a href="#4-2-gjennomfring-av-tilbakekreving-i-etteroppgjret">§ 4-2. Gjennomføring av tilbakekreving i etteroppgjøret</a></li>
+<li class="lvl2"><a href="#kapittel-5-barnetillegg">Kapittel 5. Barnetillegg</a></li>
+<li class="lvl4"><a href="#5-1-inntektsgrunnlaget">§ 5-1. Inntektsgrunnlaget</a></li>
+<li class="lvl4"><a href="#5-2-type-barnetillegg">§ 5-2. Type barnetillegg</a></li>
+<li class="lvl4"><a href="#5-3-barnetillegg-nar-et-barn-blir-forsrget-av-flere-som-mottar-ufretrygd">§ 5-3. Barnetillegg når et barn blir forsørget av flere som mottar uføretrygd</a></li>
+<li class="lvl2"><a href="#kapittel-6-beregning-av-ufretrygd-ved-yrkesskade">Kapittel 6. Beregning av uføretrygd ved yrkesskade</a></li>
+<li class="lvl4"><a href="#6-1-ufretrygd-som-delvis-skyldes-yrkesskade">§ 6-1. Uføretrygd som delvis skyldes yrkesskade</a></li>
+<li class="lvl4"><a href="#6-2-ytterligere-nedsatt-inntektsevne">§ 6-2. Ytterligere nedsatt inntektsevne</a></li>
+<li class="lvl4"><a href="#6-3-grunnlaget-for-beregning-av-ufretrygd-for-ar-da-en-person-har-mottatt-ufretrygd-som-helt-eller-delvis-skyldes-yrkesskade">§ 6-3. Grunnlaget for beregning av uføretrygd for år da en person har mottatt uføretrygd som helt eller delvis skyldes yrkesskade</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlige-bestemmelser-for-personer-som-har-fatt-ufrepensjon-omregnet-til-ufretrygd">Kapittel 7. Særlige bestemmelser for personer som har fått uførepensjon omregnet til uføretrygd</a></li>
+<li class="lvl4"><a href="#7-1-omfang">§ 7-1. Omfang</a></li>
+<li class="lvl4"><a href="#7-2-opphevet">§ 7-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-3-ytterligere-reduksjon-av-personens-inntektsevne">§ 7-3. Ytterligere reduksjon av personens inntektsevne</a></li>
+<li class="lvl4"><a href="#7-4-grunnlaget-for-beregning-av-ufretrygd-for-ar-da-en-person-har-mottatt-ufrepensjon">§ 7-4. Grunnlaget for beregning av uføretrygd for år da en person har mottatt uførepensjon</a></li>
+<li class="lvl4"><a href="#7-5-beregning-av-ufretrygd-ved-endringer-i-medlemskap-jffolketrygdloven-12-3">§ 7-5. Beregning av uføretrygd ved endringer i medlemskap, jf.folketrygdloven § 12-3</a></li>
+<li class="lvl4"><a href="#7-6-srlig-om-beregning-av-ufretrygd-til-unge-ufre-ved-endringer-i-medlemskap-jffolketrygdloven-12-3">§ 7-6. Særlig om beregning av uføretrygd til unge uføre ved endringer i medlemskap, jf.folketrygdloven § 12-3</a></li>
+<li class="lvl2"><a href="#kapittel-8-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">Kapittel 8. Pensjonspoeng og pensjonsopptjening for inntektsåret 2014</a></li>
+<li class="lvl4"><a href="#8-1-fastsetting-av-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">§ 8-1. Fastsetting av pensjonspoeng og pensjonsopptjening for inntektsåret 2014</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-26-1383.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1602.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om uføretrygd fra folketrygden</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-05-1602.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-12-05-1602 <code>forskrift/2014-12-05-1602</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-26-1383 <code>forskrift/2026-06-26-1383</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-05-1602" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-inntekt-fr-og-etter-ufrhet">Kapittel 2. Inntekt før og etter uførhet</a></li>
+<li class="lvl4"><a href="#2-1-fastsetting-av-inntekt-fr-ufrhet">§ 2-1. Fastsetting av inntekt før uførhet</a></li>
+<li class="lvl4"><a href="#2-2-fastsetting-av-inntekt-etter-ufrhet">§ 2-2. Fastsetting av inntekt etter uførhet</a></li>
+<li class="lvl4"><a href="#2-3-endring-av-inntekt-fr-og-etter-ufrhet">§ 2-3. Endring av inntekt før og etter uførhet</a></li>
+<li class="lvl2"><a href="#kapittel-3-reduksjon-av-ufretrygd-pa-grunn-av-inntekt">Kapittel 3. Reduksjon av uføretrygd på grunn av inntekt</a></li>
+<li class="lvl4"><a href="#3-1-fribelp-for-personer-som-mottar-ufretrygd-i-varig-tilrettelagt-arbeid-vta">§ 3-1. Fribeløp for personer som mottar uføretrygd i varig tilrettelagt arbeid (VTA)</a></li>
+<li class="lvl4"><a href="#3-2-pensjonsgivende-inntekt-som-ikke-skal-fre-til-reduksjon-av-ufretrygd">§ 3-2. Pensjonsgivende inntekt som ikke skal føre til reduksjon av uføretrygd</a></li>
+<li class="lvl4"><a href="#3-3-tidspunkt-for-nar-ufretrygd-barnetillegg-og-gjenlevendetillegg-skal-reduseres-pa-grunn-av-inntekten-og-fordeling-av-reduksjon-gjennom-kalenderaret">§ 3-3. Tidspunkt for når uføretrygd, barnetillegg og gjenlevendetillegg skal reduseres på grunn av inntekten og fordeling av reduksjon gjennom kalenderåret</a></li>
+<li class="lvl4"><a href="#3-4-hvilende-rett-til-ufretrygd-nar-pensjonsgivende-inntekt-utgjr-mer-enn-80-prosent-av-inntekt-fr-ufrhet">§ 3-4. Hvilende rett til uføretrygd når pensjonsgivende inntekt utgjør mer enn 80 prosent av inntekt før uførhet</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-ny-ventetid-for-kt-fribelp">§ 3-5. Unntak fra ny ventetid for økt fribeløp</a></li>
+<li class="lvl4"><a href="#3-6-begrensning-av-fribelpet">§ 3-6. Begrensning av fribeløpet</a></li>
+<li class="lvl4"><a href="#3-7-beregning-av-fribelpet-for-et-kalenderar">§ 3-7. Beregning av fribeløpet for et kalenderår</a></li>
+<li class="lvl2"><a href="#kapittel-4-etteroppgjr">Kapittel 4. Etteroppgjør</a></li>
+<li class="lvl4"><a href="#4-1-etteroppgjr">§ 4-1. Etteroppgjør</a></li>
+<li class="lvl4"><a href="#4-2-gjennomfring-av-tilbakekreving-i-etteroppgjret">§ 4-2. Gjennomføring av tilbakekreving i etteroppgjøret</a></li>
+<li class="lvl2"><a href="#kapittel-5-barnetillegg">Kapittel 5. Barnetillegg</a></li>
+<li class="lvl4"><a href="#5-1-inntektsgrunnlaget">§ 5-1. Inntektsgrunnlaget</a></li>
+<li class="lvl4"><a href="#5-2-type-barnetillegg">§ 5-2. Type barnetillegg</a></li>
+<li class="lvl4"><a href="#5-3-barnetillegg-nar-et-barn-blir-forsrget-av-flere-som-mottar-ufretrygd">§ 5-3. Barnetillegg når et barn blir forsørget av flere som mottar uføretrygd</a></li>
+<li class="lvl2"><a href="#kapittel-6-beregning-av-ufretrygd-ved-yrkesskade">Kapittel 6. Beregning av uføretrygd ved yrkesskade</a></li>
+<li class="lvl4"><a href="#6-1-ufretrygd-som-delvis-skyldes-yrkesskade">§ 6-1. Uføretrygd som delvis skyldes yrkesskade</a></li>
+<li class="lvl4"><a href="#6-2-ytterligere-nedsatt-inntektsevne">§ 6-2. Ytterligere nedsatt inntektsevne</a></li>
+<li class="lvl4"><a href="#6-3-grunnlaget-for-beregning-av-ufretrygd-for-ar-da-en-person-har-mottatt-ufretrygd-som-helt-eller-delvis-skyldes-yrkesskade">§ 6-3. Grunnlaget for beregning av uføretrygd for år da en person har mottatt uføretrygd som helt eller delvis skyldes yrkesskade</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlige-bestemmelser-for-personer-som-har-fatt-ufrepensjon-omregnet-til-ufretrygd">Kapittel 7. Særlige bestemmelser for personer som har fått uførepensjon omregnet til uføretrygd</a></li>
+<li class="lvl4"><a href="#7-1-omfang">§ 7-1. Omfang</a></li>
+<li class="lvl4"><a href="#7-2-opphevet">§ 7-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-3-ytterligere-reduksjon-av-personens-inntektsevne">§ 7-3. Ytterligere reduksjon av personens inntektsevne</a></li>
+<li class="lvl4"><a href="#7-4-grunnlaget-for-beregning-av-ufretrygd-for-ar-da-en-person-har-mottatt-ufrepensjon">§ 7-4. Grunnlaget for beregning av uføretrygd for år da en person har mottatt uførepensjon</a></li>
+<li class="lvl4"><a href="#7-5-beregning-av-ufretrygd-ved-endringer-i-medlemskap-jffolketrygdloven-12-3">§ 7-5. Beregning av uføretrygd ved endringer i medlemskap, jf.folketrygdloven § 12-3</a></li>
+<li class="lvl4"><a href="#7-6-srlig-om-beregning-av-ufretrygd-til-unge-ufre-ved-endringer-i-medlemskap-jffolketrygdloven-12-3">§ 7-6. Særlig om beregning av uføretrygd til unge uføre ved endringer i medlemskap, jf.folketrygdloven § 12-3</a></li>
+<li class="lvl2"><a href="#kapittel-8-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">Kapittel 8. Pensjonspoeng og pensjonsopptjening for inntektsåret 2014</a></li>
+<li class="lvl4"><a href="#8-1-fastsetting-av-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">§ 8-1. Fastsetting av pensjonspoeng og pensjonsopptjening for inntektsåret 2014</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1602.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-05-1602.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-05-1602.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-12-05-1602.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-12-05-1602.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-12-05-1602.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-12-05-1602.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-12-05-1602.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-12-05-1602.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-ufretrygd-fra-folketrygden">Forskrift om uføretrygd fra folketrygden</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Denne forskriften inneholder bestemmelser til utfylling av kapittel 12 Uføretrygd i lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven).</p>
@@ -94,13 +211,13 @@ b. Erstatning for inntektstap ved erstatningsoppgjør som er pensjonsgivende inn
 b. Inntekt, herunder feriepenger, som stammer fra helt avsluttet arbeid eller virksomhet (etterslepsinntekt). Det er et vilkår at inntekten er et engangsoppgjør.
 c. Etterbetalinger av trygdeytelser.</p>
 <p>Personen må selv opplyse om og dokumentere slike inntekter.</p>
-<p><em>Endret ved forskrifter 25 april 2024 nr. 687 (med virkning fra 1 jan 2024), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024).</em></p>
+<p class="note">Endret ved forskrifter 25 april 2024 nr. 687 (med virkning fra 1 jan 2024), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024).</p>
 <h4 id="2-3-endring-av-inntekt-fr-og-etter-ufrhet">§ 2-3. Endring av inntekt før og etter uførhet</h4>
 <p>Arbeidstaker med gradert uføretrygd kan få fastsatt ny inntekt før og etter uførhet. Endringen av inntekt før og etter uførhet forutsetter at arbeidstakeren har hatt en inntektsøkning som er høyere enn reguleringen av grunnbeløpet uten at stillingsandelen er økt. Personen må selv be om å få endret inntekt før og etter uførhet og dokumentere inntektsøkningen.</p>
 <h2 id="kapittel-3-reduksjon-av-ufretrygd-pa-grunn-av-inntekt">Kapittel 3. Reduksjon av uføretrygd på grunn av inntekt</h2>
 <h4 id="3-1-fribelp-for-personer-som-mottar-ufretrygd-i-varig-tilrettelagt-arbeid-vta">§ 3-1. Fribeløp for personer som mottar uføretrygd i varig tilrettelagt arbeid (VTA) <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For personer som mottar uføretrygd i varig tilrettelagt arbeid (VTA) utgjør fribeløpet, jf. folketrygdloven § 12-14 første ledd , 100 prosent av grunnbeløpet per kalenderår så lenge personen deltar i tiltaket.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="3-2-pensjonsgivende-inntekt-som-ikke-skal-fre-til-reduksjon-av-ufretrygd">§ 3-2. Pensjonsgivende inntekt som ikke skal føre til reduksjon av uføretrygd <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Følgende pensjonsgivende inntekter skal ikke føre til reduksjon av uføretrygden:</p>
 <p>a. Erstatning for inntektstap ved erstatningsoppgjør som er pensjonsgivende inntekt etter skadeserstatningsloven § 3-1 , yrkesskadeforsikringsloven § 13 eller pasientskadeloven § 4 første ledd .
@@ -108,30 +225,30 @@ b. Inntekt, herunder feriepenger, som stammer fra helt avsluttet arbeid eller vi
 c. Etterbetalinger av trygdeytelser.</p>
 <p>For en uføretrygdet som har rett til barnetillegg, skal den samme inntekten heller ikke føre til reduksjon av barnetillegget. Det samme gjelder også for inntekt etter første ledd bokstav a som den andre forelderen mottar hvis vedkommende mottar uføretrygd eller alderspensjon.</p>
 <p>Personen må selv opplyse om og dokumentere slike inntekter.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 19 des 2022 nr. 2340 (i kraft 1 jan 2023), 25 april 2024 nr. 687 (med virkning fra 1 jan 2024), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 19 des 2022 nr. 2340 (i kraft 1 jan 2023), 25 april 2024 nr. 687 (med virkning fra 1 jan 2024), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024).</p>
 <h4 id="3-3-tidspunkt-for-nar-ufretrygd-barnetillegg-og-gjenlevendetillegg-skal-reduseres-pa-grunn-av-inntekten-og-fordeling-av-reduksjon-gjennom-kalenderaret">§ 3-3. Tidspunkt for når uføretrygd, barnetillegg og gjenlevendetillegg skal reduseres på grunn av inntekten og fordeling av reduksjon gjennom kalenderåret <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er inntekt for hele kalenderåret som legges til grunn ved reduksjon i uføretrygd og barnetillegg. En uføretrygdet som informerer Arbeids- og velferdsetaten om forventet inntekt for kalenderåret før året starter, får en jevn reduksjon i uføretrygden hele kalenderåret. Dersom den uføretrygdede informerer Arbeids- og velferdsetaten om en inntektsendring i løpet av kalenderåret, skal reduksjonen fordeles på gjenværende del av året. Endringer i uføretrygden foretas fra måneden etter at den uføretrygdede gir slik informasjon.</p>
 <p>Når Arbeids- og velferdsetaten mottar opplysninger fra A-ordningen om at den uføretrygdede har tjent over bunnfradraget eller forventet inntekt, kan uføretrygden reduseres. Endringen foretas fra måneden etter at Arbeids- og velferdsetaten mottar opplysninger om slike overskridelser fra A-ordningen.</p>
 <p>Bestemmelsene i første og andre ledd gjelder tilsvarende for fastsettelse av tidspunkt og fordeling av reduksjon på barnetillegget. Ved barnetillegg til felles barn gjelder første punktum likt for begge foreldre.</p>
 <p>Reduksjon av uføretrygd og gjenlevendetillegg baserer seg på pensjonsgivende inntekt som framgår av folketrygdloven § 3-15 , jf. folketrygdloven § 12-14 . Behovsprøving av barnetillegg baserer seg på inntekt som framgår av folketrygdloven § 12-16 .</p>
 <p>I inngangsår eller opphørsår for uføretrygd skal det tas utgangspunkt i perioden for rett til uføretrygd og inntekten i samme periode. Dersom perioden for barnetillegg avviker fra perioden for uføretrygd, skal det for barnetillegget tas utgangspunkt i en forholdsmessig andel av inntekten i perioden for uføretrygd.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="3-4-hvilende-rett-til-ufretrygd-nar-pensjonsgivende-inntekt-utgjr-mer-enn-80-prosent-av-inntekt-fr-ufrhet">§ 3-4. Hvilende rett til uføretrygd når pensjonsgivende inntekt utgjør mer enn 80 prosent av inntekt før uførhet <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det utbetales ikke uføretrygd når pensjonsgivende inntekt utgjør mer enn 80 prosent av inntekt før uførhet, jf. folketrygdloven § 12-14 tredje ledd og § 12-9 første og andre ledd.</p>
 <p>En periode med hvilende rett etter folketrygdloven § 12-10 tredje ledd fastsettes når etteroppgjøret foretas, og skal gjelde for hele kalenderåret etteroppgjøret foretas for dersom vedkommende ikke har hatt rett til utbetaling av uføretrygd i noen av månedene. Personen anses for å ha meldt ifra om arbeidsinntekten når Arbeids- og velferdsetaten mottar opplysninger knyttet til skattefastsettingen fra skatteetaten til bruk i etteroppgjøret.</p>
 <p>En person som i løpet av en periode på fem år ikke har hatt utbetaling av uføretrygd, skal kontaktes av Arbeids- og velferdsetaten med spørsmål om vedkommende ønsker å søke om retten til opprinnelig uføregrad i ytterligere fem år. Dette gjøres i forbindelse med etteroppgjøret for det fjerde hele kalenderåret på rad hvor personen ikke har hatt utbetaling av uføretrygd. Personens ønske skal uten videre legges til grunn. Det kan ses bort fra at svar ikke er gitt, dersom det foreligger gode grunner som kan forklare dette.</p>
 <p>Tellingen av antall år med hvilende rett skal stanses når den uføretrygdede har inntekt som innebærer at utbetalt uføretrygd ikke faller bort for alle kalendermåneder i et år. Ny periode med hvilende rett, det vil si nye fem + fem år, starter ikke opp igjen før etteroppgjøret viser at personen ikke hadde rett til utbetaling av uføretrygd for hele det foregående kalenderåret.</p>
-<p><em>Endret ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="3-5-unntak-fra-ny-ventetid-for-kt-fribelp">§ 3-5. Unntak fra ny ventetid for økt fribeløp <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom uføregraden til en person som mottar uføretrygd øker uten at restinntektsevnen til personen er vurdert på nytt, skal ikke økningen ha betydning for fastsettelsen av fribeløpet etter folketrygdloven § 12-14 første ledd .</p>
-<p><em>Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="3-6-begrensning-av-fribelpet">§ 3-6. Begrensning av fribeløpet <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fribeløpet til en person som mottar uføretrygd er 40 prosent av grunnbeløpet eller 100 prosent av grunnbeløpet, se folketrygdloven § 12-14 første ledd . Fribeløpet for et kalenderår kan likevel maksimalt utgjøre differansen mellom 80 prosent av inntekt før uførhet og 100 prosent av inntekt etter uførhet.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="3-7-beregning-av-fribelpet-for-et-kalenderar">§ 3-7. Beregning av fribeløpet for et kalenderår <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom fribeløpet til en person som mottar uføretrygd har endret seg i løpet av et kalenderår, utgjør fribeløpet for kalenderåret summen av fribeløpene for hver av årets kalendermåneder.</p>
 <p>Fribeløpet for en kalendermåned er en tolvtedel av fribeløpet som gjaldt den aktuelle måneden uttrykt som en andel av grunnbeløpet som gjaldt den aktuelle måneden.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h2 id="kapittel-4-etteroppgjr">Kapittel 4. Etteroppgjør</h2>
 <h4 id="4-1-etteroppgjr">§ 4-1. Etteroppgjør <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom den uføretrygdede har fått utbetalt for lite eller for mye etter folketrygdloven kapittel 12 eller forskrift om omregning av uførepensjon til uføretrygd § 7, skal Innkrevingsmyndigheten foreta etteroppgjør, jf. folketrygdloven § 12-14 fjerde ledd andre punktum. Etteroppgjøret foretas uten hensyn til hva som er årsaken til at den uføretrygdede har fått utbetalt for lite eller for mye.</p>
@@ -143,23 +260,23 @@ c. Etterbetalinger av trygdeytelser.</p>
 <p>Etteroppgjør skal unnlates hvis for lite utbetalt er mindre enn 25 prosent av rettsgebyret, jf. lov 17. desember 1982 nr. 86 om rettsgebyr. Etteroppgjøret skal også unnlates hvis for mye utbetalt er mindre enn ett rettsgebyr.</p>
 <p>Den uføretrygdede skal få melding om resultatet av etteroppgjøret og få en frist til å gi uttalelse. Melding om vedtak om etteroppgjør kan unnlates når vedkommende ikke melder fra om endrede forhold eller ikke har andre innsigelser til varselet om etteroppgjøret.</p>
 <p>Etteroppgjør utsettes ikke som følge av klage over ligningen. Hvis etteroppgjøret innbefatter barnetillegg for felles barn, gjelder første punktum likt for begge foreldre.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 13 mars 2018 nr. 339 (i kraft 1 april 2018), 19 des 2022 nr. 2340 (i kraft 1 jan 2023), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024), 15 des 2025 nr. 2561 (i kraft 1 jan 2026), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 13 mars 2018 nr. 339 (i kraft 1 april 2018), 19 des 2022 nr. 2340 (i kraft 1 jan 2023), 23 des 2024 nr. 3474 (i kraft straks med virkning for inntektsåret 2024), 15 des 2025 nr. 2561 (i kraft 1 jan 2026), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="4-2-gjennomfring-av-tilbakekreving-i-etteroppgjret">§ 4-2. Gjennomføring av tilbakekreving i etteroppgjøret <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For mye utbetalt ytelse etter § 4-1 første ledd kan avregnes i (framtidig) uføretrygd, etterlattepensjon og overgangsstønad etter folketrygdloven kapitlene 15 og 17A , omstillingsstønad etter folketrygdloven kapittel 17 , barnetillegg som kan reduseres etter folketrygdloven § 12-16 , alderspensjon etter kapitlene 19 og 20 , AFP i offentlig sektor, krigspensjon og pensjon etter yrkesskadetrygdloven . Det kan foretas avregning også etter overgang fra en av disse ytelsene til en annen.</p>
 <p>Avregning etter første ledd gjøres etter trekk til forskuddsskatt og før eventuelle utleggstrekk og med opptil 10 prosent av samlet månedlig ytelse. Ved uføretrygd og gjenlevendetillegg skal det avregnede beløpet beregnes før inntektsreduksjon etter folketrygdloven § 12-14 . Den uføretrygdede har rett til å betale tilbake for mye utbetalt i sin helhet eller med høyere sats enn det som er fastsatt etter første og annet punktum.</p>
 <p>Dersom det ikke er en ytelse som nevnt i første ledd å avregne i, kan for mye utbetalt ytelse etter § 4-1 første ledd inndrives av Innkrevingsmyndigheten etter reglene i innkrevingsloven .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 13 mars 2018 nr. 339 (i kraft 1 april 2018), 21 juni 2023 nr. 1008 (i kraft 1 jan 2024), 15 des 2025 nr. 2561 (i kraft 1 jan 2026), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016), 13 mars 2018 nr. 339 (i kraft 1 april 2018), 21 juni 2023 nr. 1008 (i kraft 1 jan 2024), 15 des 2025 nr. 2561 (i kraft 1 jan 2026), 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h2 id="kapittel-5-barnetillegg">Kapittel 5. Barnetillegg</h2>
 <h4 id="5-1-inntektsgrunnlaget">§ 5-1. Inntektsgrunnlaget</h4>
 <p>Med inntekt i kapittel 5 menes inntekt som definert i folketrygdloven § 12-16 andre og tredje ledd.</p>
 <h4 id="5-2-type-barnetillegg">§ 5-2. Type barnetillegg <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En uføretrygdet mottar ett barnetillegg dersom vedkommende har rett til barnetillegg for enten felles- eller særkullsbarn. Dersom den uføretrygdede har rett til barnetillegg for både felles- og særkullsbarn, er det to barnetillegg.</p>
 <p>Med fellesbarn menes et barn som bor sammen med begge sine foreldre. Med særkullsbarn menes et barn som bor sammen med én av sine foreldre.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1739 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1739 (i kraft 1 jan 2016).</p>
 <h4 id="5-3-barnetillegg-nar-et-barn-blir-forsrget-av-flere-som-mottar-ufretrygd">§ 5-3. Barnetillegg når et barn blir forsørget av flere som mottar uføretrygd <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når et barn blir forsørget av flere som mottar uføretrygd, ytes tillegget til den som har rett til høyest tillegg. Ved innvilgelse gis barnetillegget til den med høyest barnetillegg etter inntektsprøving.</p>
 <p>Barnetillegget kan i stedet gis til den andre forsørgeren etter søknad og samtykke fra begge forsørgere. Det kan søkes om ny overføring når det har gått ett år siden overføringen. Tilsvarende gjelder for senere overføringer av barnetillegg mellom forsørgerne. Hvis retten til hovedytelsen faller bort for den som har mottatt barnetillegget, gis tillegget i stedet til den andre forsørgeren.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016, tidligere § 5-4), 14 nov 2024 nr. 2781 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1739 (i kraft 1 jan 2016, tidligere § 5-4), 14 nov 2024 nr. 2781 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-6-beregning-av-ufretrygd-ved-yrkesskade">Kapittel 6. Beregning av uføretrygd ved yrkesskade</h2>
 <h4 id="6-1-ufretrygd-som-delvis-skyldes-yrkesskade">§ 6-1. Uføretrygd som delvis skyldes yrkesskade</h4>
 <p>Når en person har rett til uføretrygd og uførheten bare delvis skyldes en yrkesskade, skal den delen som skyldes yrkesskade og den delen som skyldes andre forhold, beregnes hver for seg, herunder retten til minste årlig ytelse etter folketrygdloven § 12-13 . Samlet ytelse skal svare til summen av delytelsene.</p>
@@ -180,7 +297,7 @@ c. Antatt årlig arbeidsinntekt fastsatt etter folketrygdloven § 12-17 , juster
 <h4 id="7-1-omfang">§ 7-1. Omfang</h4>
 <p>Kapittel 7 gjelder ved særlig bestemmelser for uføretrygd til personer som har fått uførepensjon omregnet til uføretrygd etter forskrift 3. juli 2014 nr. 947 om omregning av uførepensjon til uføretrygd og der det senere skjer endringer som har betydning for beregning av uføretrygden.</p>
 <h4 id="7-2-opphevet">§ 7-2. (Opphevet) <a class="para-history" href="../historikk/forskrift-2014-12-05-1602/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</em></p>
+<p class="note">Opphevet ved forskrift 26 juni 2026 nr. 1383 (i kraft 1 juli 2026 med virkning fra 1 jan 2026).</p>
 <h4 id="7-3-ytterligere-reduksjon-av-personens-inntektsevne">§ 7-3. Ytterligere reduksjon av personens inntektsevne</h4>
 <p>Ved ytterligere reduksjon av inntektsevnen, se folketrygdloven § 12-10 fjerde ledd, skal Arbeids- og velferdsetaten ved vurderingen av om det er en fordel for mottakeren å få fastsatt et nytt uføretidspunkt, sammenligne:</p>
 <p>a. uføretrygd basert på grunnlaget for beregning av uføretrygd fastsatt etter forskrift om overgangsregler ved innføring av uføretrygd oppjustert til ny uføregrad og
@@ -204,13 +321,15 @@ b. en inntekt som svarer til den pensjonsgivende inntekten som etter folketrygdl
 <p>Uføretrygd fastsatt på grunnlag av en omregnet uførepensjon med antatte framtidige pensjonspoeng for unge uføre beholdes bare så lenge vedkommende er medlem i folketrygden. Dersom medlemskapet opphører, skal uføretrygden fastsettes etter folketrygdloven § 12-3 . Til den som ikke er medlem og som har mindre enn 20 års botid, ytes det uføretrygd på grunnlag av beregningsgrunnlaget fastsatt etter forskrift 3. juli 2014 nr. 947 om omregning av uførepensjon til uføretrygd, men slik at år før uføretidspunktet da vedkommende ikke har hatt pensjonsgivende inntekt over grunnbeløpet, ikke regnes som trygdetid ved beregningen av ytelsen.</p>
 <p>Dersom vedkommende på omregningstidspunktet ikke var medlem av trygden, skal vedkommende fra det tidspunktet han eller hun blir medlem av trygden få fastsatt en uføretrygd som tilsvarer den uføretrygden vedkommende ville ha fått etter forskrift 3. juli 2014 nr. 947 om omregning av uførepensjon til uføretrygd dersom han eller hun på omregningstidspunktet hadde vært medlem av trygden.</p>
 <p>Trygdetiden som ble fastsatt da vedkommende fikk tilstått uførepensjon legges til grunn.</p>
-<p><em>Endret ved forskrift 26 mai 2016 nr. 528 (i kraft 1 jan 2015).</em></p>
+<p class="note">Endret ved forskrift 26 mai 2016 nr. 528 (i kraft 1 jan 2015).</p>
 <h2 id="kapittel-8-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">Kapittel 8. Pensjonspoeng og pensjonsopptjening for inntektsåret 2014</h2>
 <h4 id="8-1-fastsetting-av-pensjonspoeng-og-pensjonsopptjening-for-inntektsaret-2014">§ 8-1. Fastsetting av pensjonspoeng og pensjonsopptjening for inntektsåret 2014</h4>
 <p>Det fastsettes pensjonspoeng og pensjonsopptjening for inntektsåret 2014 etter bestemmelsene i folketrygdloven kapittel 3 og folketrygdloven § 20-4 og § 20-7a slik de lød før lov 16. desember 2011 nr. 59 om endringer i folketrygdloven trådte i kraft.</p>
 <h2 id="kapittel-9-ikrafttredelse">Kapittel 9. Ikrafttredelse</h2>
 <h4 id="9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</h4>
 <p>Forskriften her trer i kraft fra 1. januar 2015. Fra samme tidspunkt oppheves forskrift 25. mars 1997 nr. 266 om fastsetting og endring av uføregrad i forhold til pensjonsgivende inntekt og forskrift 30. april 1997 nr. 392 om friinntekt og inntektsgrenser for uførepensjonister.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,203 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2009-06-19-97.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Dyrevelferdsloven" href="../feeds/lov-2009-06-19-97.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Dyrevelferdsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2009-06-19-97</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær\nLandbruk, jakt og skogbruk &raquo; Landbruk. Dyrehold\nFiskeri- og fangstrett og havbruk &raquo; Akvakultur. Havbruk</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-03-13-9</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2009-06-19-97" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-generelt-om-behandling-av-dyr">§ 3. Generelt om behandling av dyr</a></li>
+<li class="lvl4"><a href="#4-hjelpeplikt">§ 4. Hjelpeplikt</a></li>
+<li class="lvl4"><a href="#5-varsling">§ 5. Varsling</a></li>
+<li class="lvl4"><a href="#6-kompetanse-og-ansvar">§ 6. Kompetanse og ansvar</a></li>
+<li class="lvl4"><a href="#7-krav-om-registrering-eller-tillatelse">§ 7. Krav om registrering eller tillatelse</a></li>
+<li class="lvl4"><a href="#8-driftsformer-metoder-utstyr-og-tekniske-lsninger">§ 8. Driftsformer, metoder, utstyr og tekniske løsninger</a></li>
+<li class="lvl4"><a href="#9-medisinsk-og-kirurgisk-behandling">§ 9. Medisinsk og kirurgisk behandling</a></li>
+<li class="lvl4"><a href="#10-merking-av-dyr">§ 10. Merking av dyr</a></li>
+<li class="lvl4"><a href="#11-transport">§ 11. Transport</a></li>
+<li class="lvl4"><a href="#12-avliving">§ 12. Avliving</a></li>
+<li class="lvl4"><a href="#13-forsk-undervisning-og-medisinsk-virksomhet">§ 13. Forsøk, undervisning og medisinsk virksomhet</a></li>
+<li class="lvl4"><a href="#14-srskilte-forbud">§ 14. Særskilte forbud</a></li>
+<li class="lvl4"><a href="#14-a-fremstilling-og-fremvisning-mm-av-seksuelle-overgrep-mot-dyr">§ 14 a. Fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr</a></li>
+<li class="lvl4"><a href="#15-bygninger-gjerder-og-andre-mindre-innretninger">§ 15. Bygninger, gjerder og andre mindre innretninger</a></li>
+<li class="lvl4"><a href="#16-sporbarhet-merking-av-produkter-fra-dyr">§ 16. Sporbarhet. Merking av produkter fra dyr</a></li>
+<li class="lvl4"><a href="#17-omsetning-mv-av-produkter-fra-dyr">§ 17. Omsetning mv. av produkter fra dyr</a></li>
+<li class="lvl4"><a href="#18-adgang-til-sted-og-plikt-til-a-yte-bistand">§ 18. Adgang til sted og plikt til å yte bistand</a></li>
+<li class="lvl4"><a href="#19-opplysningsplikt-dokumentasjon-og-kontrolltiltak">§ 19. Opplysningsplikt, dokumentasjon og kontrolltiltak</a></li>
+<li class="lvl4"><a href="#20-jakt-fangst-og-fiske">§ 20. Jakt, fangst og fiske</a></li>
+<li class="lvl4"><a href="#21-innfanging-og-handtering-av-viltlevende-dyr">§ 21. Innfanging og håndtering av viltlevende dyr</a></li>
+<li class="lvl2"><a href="#kapittel-ii-srlige-bestemmelser-om-dyrehold">Kapittel II. Særlige bestemmelser om dyrehold</a></li>
+<li class="lvl4"><a href="#22-generelle-vilkar-for-hold-av-dyr">§ 22. Generelle vilkår for hold av dyr</a></li>
+<li class="lvl4"><a href="#23-dyrs-levemilj">§ 23. Dyrs levemiljø</a></li>
+<li class="lvl4"><a href="#24-tilsyn-og-stell">§ 24. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#25-avl">§ 25. Avl</a></li>
+<li class="lvl4"><a href="#26-trening-fremvisning-underholdning-og-konkurranser">§ 26. Trening, fremvisning, underholdning og konkurranser</a></li>
+<li class="lvl4"><a href="#27-omsetning-av-dyr-ivaretakelse-av-andres-dyr-mv">§ 27. Omsetning av dyr, ivaretakelse av andres dyr mv.</a></li>
+<li class="lvl4"><a href="#28-utsetting-av-dyr-i-naturen">§ 28. Utsetting av dyr i naturen</a></li>
+<li class="lvl2"><a href="#kapittel-iii-administrative-bestemmelser-og-sanksjoner">Kapittel III. Administrative bestemmelser og sanksjoner</a></li>
+<li class="lvl4"><a href="#29-avgift-og-gebyr">§ 29. Avgift og gebyr</a></li>
+<li class="lvl4"><a href="#30-tilsyn-og-vedtak">§ 30. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#30a-forholdet-til-tjenesteloven">§ 30a. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#31-kompensasjon">§ 31. Kompensasjon</a></li>
+<li class="lvl4"><a href="#32-gjennomfring-av-palegg-midlertidig-forvaring-av-dyr-mv">§ 32. Gjennomføring av pålegg, midlertidig forvaring av dyr mv.</a></li>
+<li class="lvl4"><a href="#33-forbud-mot-aktiviteter-omfattet-av-loven">§ 33. Forbud mot aktiviteter omfattet av loven</a></li>
+<li class="lvl4"><a href="#34-overtredelsesgebyr">§ 34. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#35-tvangsmulkt">§ 35. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#36-etablering-av-dataregistre">§ 36. Etablering av dataregistre</a></li>
+<li class="lvl4"><a href="#36-a-behandling-av-personopplysninger">§ 36 a. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-iv-avsluttende-bestemmelser">Kapittel IV. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-gjennomfring-og-utfylling">§ 38. Gjennomføring og utfylling</a></li>
+<li class="lvl4"><a href="#39-endringer-i-andre-lover">§ 39. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#40-ikrafttredelse-og-overgangsbestemmelser">§ 40. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-03-13-9.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-06-19-97.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om dyrevelferd</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2009-06-19-97.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2009-06-19-97 <code>lov/2009-06-19-97</code></td></tr>
+<tr><th>Korttittel</th><td>Dyrevelferdsloven</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær\nLandbruk, jakt og skogbruk &raquo; Landbruk. Dyrehold\nFiskeri- og fangstrett og havbruk &raquo; Akvakultur. Havbruk</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-03-13-9 <code>lov/2026-03-13-9</code> fra 01.05.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2009-06-19-97" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-generelt-om-behandling-av-dyr">§ 3. Generelt om behandling av dyr</a></li>
+<li class="lvl4"><a href="#4-hjelpeplikt">§ 4. Hjelpeplikt</a></li>
+<li class="lvl4"><a href="#5-varsling">§ 5. Varsling</a></li>
+<li class="lvl4"><a href="#6-kompetanse-og-ansvar">§ 6. Kompetanse og ansvar</a></li>
+<li class="lvl4"><a href="#7-krav-om-registrering-eller-tillatelse">§ 7. Krav om registrering eller tillatelse</a></li>
+<li class="lvl4"><a href="#8-driftsformer-metoder-utstyr-og-tekniske-lsninger">§ 8. Driftsformer, metoder, utstyr og tekniske løsninger</a></li>
+<li class="lvl4"><a href="#9-medisinsk-og-kirurgisk-behandling">§ 9. Medisinsk og kirurgisk behandling</a></li>
+<li class="lvl4"><a href="#10-merking-av-dyr">§ 10. Merking av dyr</a></li>
+<li class="lvl4"><a href="#11-transport">§ 11. Transport</a></li>
+<li class="lvl4"><a href="#12-avliving">§ 12. Avliving</a></li>
+<li class="lvl4"><a href="#13-forsk-undervisning-og-medisinsk-virksomhet">§ 13. Forsøk, undervisning og medisinsk virksomhet</a></li>
+<li class="lvl4"><a href="#14-srskilte-forbud">§ 14. Særskilte forbud</a></li>
+<li class="lvl4"><a href="#14-a-fremstilling-og-fremvisning-mm-av-seksuelle-overgrep-mot-dyr">§ 14 a. Fremstilling og fremvisning m.m. av seksuelle overgrep mot dyr</a></li>
+<li class="lvl4"><a href="#15-bygninger-gjerder-og-andre-mindre-innretninger">§ 15. Bygninger, gjerder og andre mindre innretninger</a></li>
+<li class="lvl4"><a href="#16-sporbarhet-merking-av-produkter-fra-dyr">§ 16. Sporbarhet. Merking av produkter fra dyr</a></li>
+<li class="lvl4"><a href="#17-omsetning-mv-av-produkter-fra-dyr">§ 17. Omsetning mv. av produkter fra dyr</a></li>
+<li class="lvl4"><a href="#18-adgang-til-sted-og-plikt-til-a-yte-bistand">§ 18. Adgang til sted og plikt til å yte bistand</a></li>
+<li class="lvl4"><a href="#19-opplysningsplikt-dokumentasjon-og-kontrolltiltak">§ 19. Opplysningsplikt, dokumentasjon og kontrolltiltak</a></li>
+<li class="lvl4"><a href="#20-jakt-fangst-og-fiske">§ 20. Jakt, fangst og fiske</a></li>
+<li class="lvl4"><a href="#21-innfanging-og-handtering-av-viltlevende-dyr">§ 21. Innfanging og håndtering av viltlevende dyr</a></li>
+<li class="lvl2"><a href="#kapittel-ii-srlige-bestemmelser-om-dyrehold">Kapittel II. Særlige bestemmelser om dyrehold</a></li>
+<li class="lvl4"><a href="#22-generelle-vilkar-for-hold-av-dyr">§ 22. Generelle vilkår for hold av dyr</a></li>
+<li class="lvl4"><a href="#23-dyrs-levemilj">§ 23. Dyrs levemiljø</a></li>
+<li class="lvl4"><a href="#24-tilsyn-og-stell">§ 24. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#25-avl">§ 25. Avl</a></li>
+<li class="lvl4"><a href="#26-trening-fremvisning-underholdning-og-konkurranser">§ 26. Trening, fremvisning, underholdning og konkurranser</a></li>
+<li class="lvl4"><a href="#27-omsetning-av-dyr-ivaretakelse-av-andres-dyr-mv">§ 27. Omsetning av dyr, ivaretakelse av andres dyr mv.</a></li>
+<li class="lvl4"><a href="#28-utsetting-av-dyr-i-naturen">§ 28. Utsetting av dyr i naturen</a></li>
+<li class="lvl2"><a href="#kapittel-iii-administrative-bestemmelser-og-sanksjoner">Kapittel III. Administrative bestemmelser og sanksjoner</a></li>
+<li class="lvl4"><a href="#29-avgift-og-gebyr">§ 29. Avgift og gebyr</a></li>
+<li class="lvl4"><a href="#30-tilsyn-og-vedtak">§ 30. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#30a-forholdet-til-tjenesteloven">§ 30a. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#31-kompensasjon">§ 31. Kompensasjon</a></li>
+<li class="lvl4"><a href="#32-gjennomfring-av-palegg-midlertidig-forvaring-av-dyr-mv">§ 32. Gjennomføring av pålegg, midlertidig forvaring av dyr mv.</a></li>
+<li class="lvl4"><a href="#33-forbud-mot-aktiviteter-omfattet-av-loven">§ 33. Forbud mot aktiviteter omfattet av loven</a></li>
+<li class="lvl4"><a href="#34-overtredelsesgebyr">§ 34. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#35-tvangsmulkt">§ 35. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#36-etablering-av-dataregistre">§ 36. Etablering av dataregistre</a></li>
+<li class="lvl4"><a href="#36-a-behandling-av-personopplysninger">§ 36 a. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-iv-avsluttende-bestemmelser">Kapittel IV. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-gjennomfring-og-utfylling">§ 38. Gjennomføring og utfylling</a></li>
+<li class="lvl4"><a href="#39-endringer-i-andre-lover">§ 39. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#40-ikrafttredelse-og-overgangsbestemmelser">§ 40. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-06-19-97.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2009-06-19-97.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2009-06-19-97.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2009-06-19-97.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2009-06-19-97.html">Observerte kildeutgaver</a> · <a href="../historie/dyrevelferdsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2009-06-19-97.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2009-06-19-97.html">Observerte kildeutgaver</a> · <a href="../historie/dyrevelferdsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2009-06-19-97.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-dyrevelferd">Lov om dyrevelferd</h1>
 <h2 id="kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med loven er å fremme god dyrevelferd og respekt for dyr.</p>
@@ -142,7 +281,7 @@ b. tilby, overlate til en annen, gjøre tilgjengelig eller på annen måte søke
 c. anskaffe, innføre eller besitte slike fremstillinger som nevnt i bokstav a, eller skaffe seg tilgang til slikt materiale, eller
 d. overvære en fremvisning av seksuell omgang med dyr eller seksuelle handlinger med dyr.</p>
 <p>Bestemmelsen rammer ikke fremvisninger eller fremstillinger som må anses forsvarlige ut fra et kunstnerisk, vitenskapelig, informativt eller lignende formål.</p>
-<p><em>Tilføyd ved lov 13 mars 2026 nr. 9 (i kraft 1 mai 2026 iflg. res. 27 mars 2026 nr. 682 ).</em></p>
+<p class="note">Tilføyd ved lov 13 mars 2026 nr. 9 (i kraft 1 mai 2026 iflg. res. 27 mars 2026 nr. 682 ).</p>
 <h4 id="15-bygninger-gjerder-og-andre-mindre-innretninger">§ 15. Bygninger, gjerder og andre mindre innretninger</h4>
 <p>Bygninger, gjerder og andre mindre innretninger skal utføres eller oppføres og holdes ved like slik at dyr ikke utsettes for fare for unødige påkjenninger og belastninger. Det skal ikke brukes piggtråd i gjerde for å regulere dyrs ferdsel.</p>
 <p>Den som er ansvarlig for bygningen, gjerdet og innretningen, skal føre nødvendig tilsyn med disse og gjennomføre nødvendige tiltak for å kunne oppdage, forebygge og avhjelpe fare for unødige påkjenninger og belastninger.</p>
@@ -187,7 +326,7 @@ b. reduserer dyrs mulighet til å utøve naturlig atferd, eller
 c. vekker allmenne etiske reaksjoner.</p>
 <p>Dyr med arveanlegg som nevnt i andre ledd, skal ikke brukes i videre avl.</p>
 <p>Kongen kan gi forskrift om avl i samsvar med prinsippene i denne paragrafen, også om avlsvirksomhet i avlsorganisasjoner og raseklubber.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</p>
 <h4 id="26-trening-fremvisning-underholdning-og-konkurranser">§ 26. Trening, fremvisning, underholdning og konkurranser</h4>
 <p>Den som trener dyr og den som bruker dyr til fremvisning, underholdning og konkurranser samt arrangør for slike aktiviteter, skal påse at dyr:</p>
 <p>a. er i stand til å gjennomføre aktiviteten uten å bli utmattet eller skadet,
@@ -219,7 +358,7 @@ d. ikke trenes til eller brukes i kamper mot andre dyr eller mot mennesker.</p>
 <p>Kongen kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven, herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse.</p>
 <p>Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.</p>
 <p>Saksbehandlingsreglene kan fravike reglene i denne loven og <a href="lov-2025-06-20-81.html">forvaltningsloven</a>.</p>
-<p><em>Tilføyd ved lov 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</p>
 <h4 id="31-kompensasjon">§ 31. Kompensasjon</h4>
 <p>Ved inngripende vedtak om beiterestriksjoner grunnet rovvilt etter § 30 , har dyreeier rett til økonomisk kompensasjon. Kongen kan gi nærmere forskrifter om rett til, vilkår for og utmåling av slik kompensasjon.</p>
 <h4 id="32-gjennomfring-av-palegg-midlertidig-forvaring-av-dyr-mv">§ 32. Gjennomføring av pålegg, midlertidig forvaring av dyr mv.</h4>
@@ -229,7 +368,7 @@ d. ikke trenes til eller brukes i kamper mot andre dyr eller mot mennesker.</p>
 <p>Tilsynsmyndigheten kan vedta at dyreholder eller andre ansvarlige skal dekke kostnadene for tiltak etter første og andre ledd og vedtak om avliving etter tredje ledd. Skyldige beløp er tvangsgrunnlag for utlegg. Dersom dyret blir solgt, skal salgssummen utbetales til eieren med fradrag for kostnadene til forvaring av dyret og gjennomføring av salget.</p>
 <p>Politiet skal hjelpe til med gjennomføring av tilsyn og vedtak når tilsynsmyndigheten ber om det.</p>
 <p>Kongen kan gi nærmere forskrifter om gjennomføring av pålegg og midlertidig forvaring av dyr.</p>
-<p><em>Endret ved lover 10 apr 2018 nr. 4 (ikr. 1 mai 2018 iflg. res. 10 apr 2018 nr. 551 , se lovens II for overgangsregler), 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</em></p>
+<p class="note">Endret ved lover 10 apr 2018 nr. 4 (ikr. 1 mai 2018 iflg. res. 10 apr 2018 nr. 551 , se lovens II for overgangsregler), 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</p>
 <h4 id="33-forbud-mot-aktiviteter-omfattet-av-loven">§ 33. Forbud mot aktiviteter omfattet av loven</h4>
 <p>Den som unnlater å etterkomme vesentlige pålegg eller grovt eller gjentatte ganger overtrer bestemmelser gitt i eller i medhold av denne loven, kan av Mattilsynet ilegges nødvendige forbud mot aktiviteter omfattet av denne loven. Forbudet kan gjelde alle eller noen arter, en eller flere aktiviteter, for en viss periode eller inntil videre.</p>
 <p>Domstolen kan i forbindelse med straffesak fastsette forbud som nevnt i første ledd.</p>
@@ -246,16 +385,16 @@ d. ikke trenes til eller brukes i kamper mot andre dyr eller mot mennesker.</p>
 <h4 id="36-etablering-av-dataregistre">§ 36. Etablering av dataregistre</h4>
 <p>Tilsynsmyndigheten kan opprette nye eller knytte seg til eksisterende dataregistre når det er nødvendig av hensyn til lovens formål, eller når det er nødvendig for å oppfylle internasjonale avtaler som Norge har inngått.</p>
 <p>Kongen kan gi forskrifter om plikt til å avgi opplysninger til slike registre.</p>
-<p><em>Endret ved lover 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2018 nr. 38 (ikr. 20 juli 2018 iflg. meddelelse 17 juli 2018 nr. 1195), 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</p>
 <h4 id="36-a-behandling-av-personopplysninger">§ 36 a. Behandling av personopplysninger</h4>
 <p>Tilsynsmyndigheten kan behandle personopplysninger, også personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , når dette er nødvendig for å utøve myndighet eller utføre andre oppgaver etter loven her.</p>
 <p>Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.</p>
-<p><em>Tilføyd ved lov 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</em></p>
+<p class="note">Tilføyd ved lov 18 juni 2021 nr. 134 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2011 ).</p>
 <h4 id="37-straff">§ 37. Straff</h4>
 <p>Forsettlig eller grovt uaktsom overtredelse av bestemmelser gitt i eller i medhold av denne loven eller vedtak gitt i medhold av loven, straffes med bøter eller fengsel inntil 1 år eller begge deler, såfremt forholdet ikke rammes av strengere straffebestemmelse.</p>
 <p>Grov overtredelse straffes med fengsel inntil 3 år. Ved vurdering av om overtredelsen er grov, skal det særlig legges vekt på overtredelsens omfang og virkninger, og graden av utvist skyld.</p>
 <p>Bestemmelsene i første og annet ledd gjelder ikke for overtredelse av §§ 4 , 5 og 6 .</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h2 id="kapittel-iv-avsluttende-bestemmelser">Kapittel IV. Avsluttende bestemmelser</h2>
 <h4 id="38-gjennomfring-og-utfylling">§ 38. Gjennomføring og utfylling</h4>
 <p>Kongen kan fastsette de forskrifter som er nødvendige for å oppfylle Norges forpliktelser som følge av EØS-avtalen, herunder at slike forskrifter i tilfelle motstrid skal gå foran denne loven.</p>
@@ -265,6 +404,8 @@ d. ikke trenes til eller brukes i kamper mot andre dyr eller mot mennesker.</p>
 <p>Denne loven trer i kraft fra den tid Kongen bestemmer. 1 Fra samme tidspunkt oppheves lov 20. desember 1974 nr. 73 om dyrevern samt lov 19. april 2002 nr. 11 om endringer i lov 20. desember 1974 nr. 73 om dyrevern.</p>
 <p>Forskrifter eller enkeltvedtak gitt i eller i medhold av lov 20. desember 1974 nr. 73 om dyrevern gjelder fortsatt inntil de blir opphevet.</p>
 <p><em>1 Fra 1 jan 2010 iflg. res. 19 juni 2009 nr. 703 .</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,189 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-02-18-160.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om velferd for småfe" href="../feeds/forskrift-2005-02-18-160.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om velferd for småfe</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-02-18-160</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-03-01, 2007-01-01, 2008-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2013-01-21-62</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-02-18-160" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelle-bestemmelser">Kapittel II. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#4-generelle-krav">§ 4. Generelle krav</a></li>
+<li class="lvl4"><a href="#5-kompetanse">§ 5. Kompetanse</a></li>
+<li class="lvl4"><a href="#6-tamhet-flokktilhrighet-mm">§ 6. Tamhet, flokktilhørighet m.m.</a></li>
+<li class="lvl4"><a href="#7-avl">§ 7. Avl</a></li>
+<li class="lvl4"><a href="#8-handtering-og-utstyr">§ 8. Håndtering og utstyr</a></li>
+<li class="lvl4"><a href="#9-fjerning-av-kroppsdeler-og-medisinsk-behandling">§ 9. Fjerning av kroppsdeler og medisinsk behandling</a></li>
+<li class="lvl2"><a href="#kapittel-iii-oppstalling-enkle-dyrerom-og-utedrift">Kapittel III. Oppstalling, enkle dyrerom og utedrift</a></li>
+<li class="lvl4"><a href="#10-dyrerom-mm">§ 10. Dyrerom m.m.</a></li>
+<li class="lvl4"><a href="#11-oppstalling">§ 11. Oppstalling</a></li>
+<li class="lvl4"><a href="#12-melding-om-dyrehold-og-bygninger-til-oppstalling">§ 12. Melding om dyrehold og bygninger til oppstalling</a></li>
+<li class="lvl4"><a href="#13-tekniske-innretninger">§ 13. Tekniske innretninger</a></li>
+<li class="lvl4"><a href="#14-inneklima">§ 14. Inneklima</a></li>
+<li class="lvl4"><a href="#15-lys-og-sty">§ 15. Lys og støy</a></li>
+<li class="lvl4"><a href="#16-brannsikring">§ 16. Brannsikring</a></li>
+<li class="lvl4"><a href="#17-driftsformer-med-enkle-dyrerom-og-utegang">§ 17. Driftsformer med enkle dyrerom og utegang</a></li>
+<li class="lvl4"><a href="#18-unntak-fra-kravet-om-tjenlig-oppholdsrom-utedrift">§ 18. Unntak fra kravet om tjenlig oppholdsrom – utedrift</a></li>
+<li class="lvl2"><a href="#kapittel-iv-tilsyn-og-stell">Kapittel IV. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#19-tilsyn-og-stell">§ 19. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#20-for-og-vann">§ 20. Fôr og vann</a></li>
+<li class="lvl4"><a href="#21-sykdom-og-skade">§ 21. Sykdom og skade</a></li>
+<li class="lvl4"><a href="#22-journal">§ 22. Journal</a></li>
+<li class="lvl4"><a href="#23-opphevet-1-feb-2013-vedforskrift-21-jan-2013-nr-62">§ 23. (Opphevet 1 feb 2013 vedforskrift 21 jan 2013 nr. 62.)</a></li>
+<li class="lvl2"><a href="#kapittel-v-beitebruk">Kapittel V. Beitebruk</a></li>
+<li class="lvl4"><a href="#24-mosjon-uteomradet-og-klima">§ 24. Mosjon, uteområdet og klima</a></li>
+<li class="lvl4"><a href="#25-slipp-og-hold-av-smafe-pa-utmarksbeite">§ 25. Slipp og hold av småfe på utmarksbeite</a></li>
+<li class="lvl4"><a href="#26-forebyggende-tiltak">§ 26. Forebyggende tiltak</a></li>
+<li class="lvl4"><a href="#27-hjemsanking-om-hsten">§ 27. Hjemsanking om høsten</a></li>
+<li class="lvl2"><a href="#kapittel-vi-administrative-bestemmelser">Kapittel VI. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#28-tilsyn-og-vedtak">§ 28. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#29-opphevet-vedforskrift-6-aug-2010-nr-1147">§ 29. (Opphevet vedforskrift 6 aug 2010 nr. 1147.)</a></li>
+<li class="lvl4"><a href="#30-dispensasjon">§ 30. Dispensasjon</a></li>
+<li class="lvl4"><a href="#31-straff">§ 31. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-vii-ikrafttredelse-og-overgangsbestemmelser">Kapittel VII. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#32-ikrafttredelse">§ 32. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#33-overgangsbestemmelser">§ 33. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2013-01-21-62.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-02-18-160.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om velferd for småfe</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-02-18-160.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-02-18-160 <code>forskrift/2005-02-18-160</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om velferd for småfe</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2005, 01.01.2007, 01.01.2008</td></tr>
+<tr><th>Sist endret</th><td>FOR-2013-01-21-62 <code>forskrift/2013-01-21-62</code> fra 01.02.2013</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-02-18-160" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelle-bestemmelser">Kapittel II. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#4-generelle-krav">§ 4. Generelle krav</a></li>
+<li class="lvl4"><a href="#5-kompetanse">§ 5. Kompetanse</a></li>
+<li class="lvl4"><a href="#6-tamhet-flokktilhrighet-mm">§ 6. Tamhet, flokktilhørighet m.m.</a></li>
+<li class="lvl4"><a href="#7-avl">§ 7. Avl</a></li>
+<li class="lvl4"><a href="#8-handtering-og-utstyr">§ 8. Håndtering og utstyr</a></li>
+<li class="lvl4"><a href="#9-fjerning-av-kroppsdeler-og-medisinsk-behandling">§ 9. Fjerning av kroppsdeler og medisinsk behandling</a></li>
+<li class="lvl2"><a href="#kapittel-iii-oppstalling-enkle-dyrerom-og-utedrift">Kapittel III. Oppstalling, enkle dyrerom og utedrift</a></li>
+<li class="lvl4"><a href="#10-dyrerom-mm">§ 10. Dyrerom m.m.</a></li>
+<li class="lvl4"><a href="#11-oppstalling">§ 11. Oppstalling</a></li>
+<li class="lvl4"><a href="#12-melding-om-dyrehold-og-bygninger-til-oppstalling">§ 12. Melding om dyrehold og bygninger til oppstalling</a></li>
+<li class="lvl4"><a href="#13-tekniske-innretninger">§ 13. Tekniske innretninger</a></li>
+<li class="lvl4"><a href="#14-inneklima">§ 14. Inneklima</a></li>
+<li class="lvl4"><a href="#15-lys-og-sty">§ 15. Lys og støy</a></li>
+<li class="lvl4"><a href="#16-brannsikring">§ 16. Brannsikring</a></li>
+<li class="lvl4"><a href="#17-driftsformer-med-enkle-dyrerom-og-utegang">§ 17. Driftsformer med enkle dyrerom og utegang</a></li>
+<li class="lvl4"><a href="#18-unntak-fra-kravet-om-tjenlig-oppholdsrom-utedrift">§ 18. Unntak fra kravet om tjenlig oppholdsrom – utedrift</a></li>
+<li class="lvl2"><a href="#kapittel-iv-tilsyn-og-stell">Kapittel IV. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#19-tilsyn-og-stell">§ 19. Tilsyn og stell</a></li>
+<li class="lvl4"><a href="#20-for-og-vann">§ 20. Fôr og vann</a></li>
+<li class="lvl4"><a href="#21-sykdom-og-skade">§ 21. Sykdom og skade</a></li>
+<li class="lvl4"><a href="#22-journal">§ 22. Journal</a></li>
+<li class="lvl4"><a href="#23-opphevet-1-feb-2013-vedforskrift-21-jan-2013-nr-62">§ 23. (Opphevet 1 feb 2013 vedforskrift 21 jan 2013 nr. 62.)</a></li>
+<li class="lvl2"><a href="#kapittel-v-beitebruk">Kapittel V. Beitebruk</a></li>
+<li class="lvl4"><a href="#24-mosjon-uteomradet-og-klima">§ 24. Mosjon, uteområdet og klima</a></li>
+<li class="lvl4"><a href="#25-slipp-og-hold-av-smafe-pa-utmarksbeite">§ 25. Slipp og hold av småfe på utmarksbeite</a></li>
+<li class="lvl4"><a href="#26-forebyggende-tiltak">§ 26. Forebyggende tiltak</a></li>
+<li class="lvl4"><a href="#27-hjemsanking-om-hsten">§ 27. Hjemsanking om høsten</a></li>
+<li class="lvl2"><a href="#kapittel-vi-administrative-bestemmelser">Kapittel VI. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#28-tilsyn-og-vedtak">§ 28. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#29-opphevet-vedforskrift-6-aug-2010-nr-1147">§ 29. (Opphevet vedforskrift 6 aug 2010 nr. 1147.)</a></li>
+<li class="lvl4"><a href="#30-dispensasjon">§ 30. Dispensasjon</a></li>
+<li class="lvl4"><a href="#31-straff">§ 31. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-vii-ikrafttredelse-og-overgangsbestemmelser">Kapittel VII. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#32-ikrafttredelse">§ 32. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#33-overgangsbestemmelser">§ 33. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-02-18-160.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-02-18-160.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-02-18-160.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-02-18-160.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-02-18-160.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-02-18-160.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-02-18-160.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-02-18-160.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-02-18-160.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-velferd-for-smafe">Forskrift om velferd for småfe</h1>
 <h2 id="kapittel-i-formal-virkeomrade-og-definisjoner">Kapittel I. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å legge forholdene til rette for god helse og trivsel hos sau og geit, og sikre at det tas hensyn til dyrenes naturlige behov.</p>
@@ -89,7 +214,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Småfe skal behandles forsvarlig og omsorgsfullt, og det skal tas hensyn til dyrenes mentale og fysiologiske behov. Småfe skal beskyttes mot fare for unødig lidelse.</p>
 <h4 id="5-kompetanse">§ 5. Kompetanse</h4>
 <p>Dyreeier og annen med ansvar for småfe skal ha nødvendig kunnskap om driftsformen, om dyrenes mentale og fysiologiske behov, samt kunnskap om bestemmelsene i denne forskriften. Den som har ansvaret for dyreholdet skal sikre tilstrekkelig faglig kompetent personell til enhver tid.</p>
-<p><em>Endret ved forskrift 21 des 2009 nr. 1733 (i kraft 1 jan 2010).</em></p>
+<p class="note">Endret ved forskrift 21 des 2009 nr. 1733 (i kraft 1 jan 2010).</p>
 <h4 id="6-tamhet-flokktilhrighet-mm">§ 6. Tamhet, flokktilhørighet m.m.</h4>
 <p>Dyrene skal være tamme nok til å kunne stelles, fanges og håndteres på forsvarlig måte avhengig av driftsformen.</p>
 <p>Småfe skal holdes løs i grupper/flokk, med mindre enkeltdyr må holdes atskilt ut fra hensynet til avl, forebygging av sykdom og/eller dyrevelferd.</p>
@@ -124,7 +249,7 @@ e. det er innlagt vann.</p>
 <p>Syke dyr og dyr som trenger ekstra tilsyn skal kunne skilles ut i særskilte garder/binger.</p>
 <h4 id="12-melding-om-dyrehold-og-bygninger-til-oppstalling">§ 12. Melding om dyrehold og bygninger til oppstalling</h4>
 <p>Enhver som vil holde dyr, skal på forhånd melde fra om dette til Mattilsynet. Melding skal gis på den måten Mattilsynet bestemmer og inneholde nødvendige opplysninger om dyreholdet, herunder dyreholderens navn, foretaks- eller fødselsnummer, dyreholderen og dyreholdets adresse, informasjon om bygninger til oppstalling av dyrene, produksjonsform og kapasitet, samt opplysninger om dyreholders kompetanse, jf. § 5 . Endringer i disse opplysningene, herunder oppføring av nye bygninger, vesentlige endringer av eksisterende bygninger og opphør av dyreholdet, skal meldes til Mattilsynet.</p>
-<p><em>Endret ved forskrift 14 nov 2007 nr. 1269 .</em></p>
+<p class="note">Endret ved forskrift 14 nov 2007 nr. 1269 .</p>
 <h4 id="13-tekniske-innretninger">§ 13. Tekniske innretninger</h4>
 <p>Tekniske innretninger som har betydning for dyrenes velferd, skal være egnet ut fra dyrevelferd, holdes rene og vedlikeholdes, samt kontrolleres jevnlig. Ved feil skal dyrenes velferd og hygieniske forhold ivaretas ved alternative løsninger inntil utbedring er foretatt.</p>
 <p>Nye innretninger og utstyr til småfe skal være utprøvd og dokumentert egnet i forhold til dyrenes velferd før de tas i bruk.</p>
@@ -144,7 +269,7 @@ e. det er innlagt vann.</p>
 <p>Egnet brannvarslingsanlegg skal være installert i bygningen senest 1. januar 2007 for geit og senest 1. september 2007 for sau. Dette gjelder ikke småfehold med færre enn 30 vinterfôrede dyr eller når brannalarm er åpenbart unødvendig.</p>
 <p>Det skal være brannslanger eller et tilstrekkelig antall håndslukkeapparater i alle bygninger med småfe. Disse skal kontrolleres regelmessig. Kravet til brannslukkingsutstyr gjelder ikke når det er åpenbart unødvendig.</p>
 <p>Dyrene skal lett kunne slippes ut i tilfelle brann eller andre nødssituasjoner. Plassering og utforming av ganger, dører mv. skal muliggjøre en rask evakuering av dyrene. Det skal i nybygg som er tatt i bruk etter 1. mars 2005, være minst to utganger fra hvert dyrerom.</p>
-<p><em>Endret ved forskrifter 21 des 2006 nr. 1598 , 14 nov 2007 nr. 1269 .</em></p>
+<p class="note">Endret ved forskrifter 21 des 2006 nr. 1598 , 14 nov 2007 nr. 1269 .</p>
 <h4 id="17-driftsformer-med-enkle-dyrerom-og-utegang">§ 17. Driftsformer med enkle dyrerom og utegang</h4>
 <p>Ved driftsformer med dyrerom og utegang der fôrings og/eller aktivitetsområde er ute, skal bestemmelsene i denne forskriften, unntatt § 10 bokstav e, være oppfylt.</p>
 <p>Dyrene skal ha tilgang på liggeunderlag med tilfredstillende varmetekniske egenskaper der alle dyrene kan ligge samtidig. Det er ikke tillatt med metall eller betong som liggeareal.</p>
@@ -203,7 +328,7 @@ e. avkom som blir morløse, tas hjem dersom morløsheten medfører økt fare for
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelser i denne forskriften og sette vilkår for dispensasjonen. Dispensasjoner kan trekkes tilbake ved brudd på dyrevernbestemmelser eller manglende etterlevelse av vilkår.</p>
 <h4 id="31-straff">§ 31. Straff</h4>
 <p>Overtredelse av bestemmelser gitt i denne forskriften eller enkeltvedtak gitt i medhold av forskriften, er straffbart i henhold til dyrevelferdsloven § 37 og matloven § 28 .</p>
-<p><em>Endret ved forskrift 6 aug 2010 nr. 1147 .</em></p>
+<p class="note">Endret ved forskrift 6 aug 2010 nr. 1147 .</p>
 <h2 id="kapittel-vii-ikrafttredelse-og-overgangsbestemmelser">Kapittel VII. Ikrafttredelse og overgangsbestemmelser</h2>
 <h4 id="32-ikrafttredelse">§ 32. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft 1. mars 2005.</p>
@@ -211,7 +336,9 @@ e. avkom som blir morløse, tas hjem dersom morløsheten medfører økt fare for
 <p>For eksisterende drift ved ikrafttredelse av denne forskriften, trer følgende bestemmelser i kraft:</p>
 <p>a. § 11 andre ledd andre pkt. om tett liggeunderlag for lam og kje trer i kraft fra 1. januar 2007.
 b. § 14 fjerde ledd om alarm trer i kraft 1. januar 2008.</p>
-<p><em>Endret ved forskrift 21 des 2009 nr. 1733 (i kraft 1 jan 2010).</em></p>
+<p class="note">Endret ved forskrift 21 des 2009 nr. 1733 (i kraft 1 jan 2010).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

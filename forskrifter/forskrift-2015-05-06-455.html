@@ -19,71 +19,262 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-05-06-455.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om plantevernmidler" href="../feeds/forskrift-2015-05-06-455.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om plantevernmidler</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-05-06-455</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-28-1928</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-05-06-455" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-gjennomfring-av-forordninger">Kapittel II. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#3-forordning-ef-nr-11072009">§ 3. Forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#4-forordning-eu-nr-5402011-om-liste-over-aktive-stoffer">§ 4. Forordning (EU) nr. 540/2011 om liste over aktive stoffer</a></li>
+<li class="lvl4"><a href="#5-forordninger-om-avslag-pa-godkjenning-av-aktive-stoffer-som-ikke-flger-av-4">§ 5. Forordninger om avslag på godkjenning av aktive stoffer som ikke følger av § 4</a></li>
+<li class="lvl4"><a href="#6-andre-forordninger-om-gjennomfring-av-forordning-ef-nr-11072009">§ 6. Andre forordninger om gjennomføring av forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#7-oppgavefordeling-mellom-medlemsland">§ 7. Oppgavefordeling mellom medlemsland</a></li>
+<li class="lvl2"><a href="#kapittel-iii-autorisasjonsbevis">Kapittel III. Autorisasjonsbevis</a></li>
+<li class="lvl4"><a href="#8-krav-om-autorisasjonsbevis-for-plantevernmidler">§ 8. Krav om autorisasjonsbevis for plantevernmidler</a></li>
+<li class="lvl4"><a href="#8a-gnagermidler">§ 8a. Gnagermidler</a></li>
+<li class="lvl4"><a href="#8b-gassingsprodukter-med-hy-fareklassifisering">§ 8b. Gassingsprodukter med høy fareklassifisering</a></li>
+<li class="lvl4"><a href="#8c-kompetansebevis-for-bekjempelse-av-rotrate-i-skogbruk">§ 8c. Kompetansebevis for bekjempelse av rotråte i skogbruk</a></li>
+<li class="lvl4"><a href="#9-myndigheten-som-utsteder-og-inndrar-autorisasjonsbevis-for-plantevernmidler-mv">§ 9. Myndigheten som utsteder og inndrar autorisasjonsbevis for plantevernmidler mv.</a></li>
+<li class="lvl2"><a href="#kapittel-iv-krav-til-distributrer-importrer-og-produsenter">Kapittel IV. Krav til distributører, importører og produsenter</a></li>
+<li class="lvl4"><a href="#10-registrering-av-forhandlere-importrer-og-produsenter">§ 10. Registrering av forhandlere, importører og produsenter</a></li>
+<li class="lvl4"><a href="#11-informasjonsplikt-og-kontroll-ved-salg">§ 11. Informasjonsplikt og kontroll ved salg</a></li>
+<li class="lvl4"><a href="#12-krav-om-internkontroll">§ 12. Krav om internkontroll</a></li>
+<li class="lvl4"><a href="#13-krav-ved-retur-til-importr">§ 13. Krav ved retur til importør</a></li>
+<li class="lvl4"><a href="#14-krav-om-rapportering">§ 14. Krav om rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-v-funksjonstest-av-spredeutstyr">Kapittel V. Funksjonstest av spredeutstyr</a></li>
+<li class="lvl4"><a href="#15-krav-til-funksjonstest-og-registreringsmerke">§ 15. Krav til funksjonstest og registreringsmerke</a></li>
+<li class="lvl4"><a href="#16-krav-til-tidsintervall-og-registreringsmerke">§ 16. Krav til tidsintervall og registreringsmerke</a></li>
+<li class="lvl2"><a href="#kapittel-vi-srlige-krav-ved-spredning-fra-luftfarty">Kapittel VI. Særlige krav ved spredning fra luftfartøy</a></li>
+<li class="lvl4"><a href="#17-spredning-av-plantevernmidler-fra-luftfarty">§ 17. Spredning av plantevernmidler fra luftfartøy</a></li>
+<li class="lvl4"><a href="#18-sknad-om-tillatelse-til-spredning-av-plantevernmidler-fra-luftfarty">§ 18. Søknad om tillatelse til spredning av plantevernmidler fra luftfartøy</a></li>
+<li class="lvl2"><a href="#kapittel-vii-generelle-krav-ved-spredning">Kapittel VII. Generelle krav ved spredning</a></li>
+<li class="lvl4"><a href="#19-bruk-av-plantevernmidler">§ 19. Bruk av plantevernmidler</a></li>
+<li class="lvl4"><a href="#20-plikt-til-a-redusere-risikoen-for-vannforurensning">§ 20. Plikt til å redusere risikoen for vannforurensning</a></li>
+<li class="lvl4"><a href="#21-forbud-mot-spredning-av-plantevernmidler-pa-arealer-som-er-apne-for-allmenn-ferdsel">§ 21. Forbud mot spredning av plantevernmidler på arealer som er åpne for allmenn ferdsel</a></li>
+<li class="lvl4"><a href="#22-spredning-av-plantevernmidler-pa-utmark">§ 22. Spredning av plantevernmidler på utmark</a></li>
+<li class="lvl4"><a href="#23-kunngjring-og-merking-ved-spredning-av-plantevernmidler">§ 23. Kunngjøring og merking ved spredning av plantevernmidler</a></li>
+<li class="lvl2"><a href="#kapittel-viii-oppbevaring-og-rester-av-plantevernmidler">Kapittel VIII. Oppbevaring og rester av plantevernmidler</a></li>
+<li class="lvl4"><a href="#24-oppbevaring-av-plantevernmidler">§ 24. Oppbevaring av plantevernmidler</a></li>
+<li class="lvl4"><a href="#25-behandling-og-levering-av-rester-emballasje-og-ubrukte-plantevernmidler">§ 25. Behandling og levering av rester, emballasje og ubrukte plantevernmidler</a></li>
+<li class="lvl2"><a href="#kapittel-ix-integrert-plantevern">Kapittel IX. Integrert plantevern</a></li>
+<li class="lvl4"><a href="#26-integrert-plantevern">§ 26. Integrert plantevern</a></li>
+<li class="lvl2"><a href="#kapittel-x-organismer-til-biologisk-bekjempelse-av-planteskadegjrere">Kapittel X. Organismer til biologisk bekjempelse av planteskadegjørere</a></li>
+<li class="lvl4"><a href="#27-organismer-til-biologisk-bekjempelse-av-planteskadegjrere">§ 27. Organismer til biologisk bekjempelse av planteskadegjørere</a></li>
+<li class="lvl2"><a href="#kapittel-xi-avsluttende-bestemmelser">Kapittel XI. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#28-miljavgift">§ 28. Miljøavgift</a></li>
+<li class="lvl4"><a href="#28a-risikoindikatorer">§ 28a. Risikoindikatorer</a></li>
+<li class="lvl4"><a href="#29-tilsyn-og-vedtak">§ 29. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#30-straff">§ 30. Straff</a></li>
+<li class="lvl4"><a href="#31-dispensasjon">§ 31. Dispensasjon</a></li>
+<li class="lvl4"><a href="#32-overgangsbestemmelse">§ 32. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#33-ikrafttredelse">§ 33. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1krav-til-spredeutstyr-for-plantevernmidler-jf-15">Vedlegg 1Krav til spredeutstyr for plantevernmidler, jf. § 15</a></li>
+<li class="lvl3"><a href="#vedlegg-2generelle-prinsipper-for-integrert-plantevern-jf-26">Vedlegg 2Generelle prinsipper for integrert plantevern, jf. § 26</a></li>
+<li class="lvl3"><a href="#vedlegg-3emner-i-opplringen-som-nevnt-i-9-tredje-ledd">Vedlegg 3Emner i opplæringen som nevnt i§ 9 tredje ledd</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-11072009">Konsolidert forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-11072009av-21-oktober-2009om-omsetning-av-plantevernmidler-og-om-oppheving-av-radsdirektiv79117efog91414ef">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 1107/2009av 21. oktober 2009om omsetning av plantevernmidler og om oppheving av rådsdirektiv79/117/EØFog91/414/EØF</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">Kapittel IAlminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#kapitteliiaktive-stoffer-beskyttende-midler-synergister-og-formuleringsstoffer">KapittelIIAktive stoffer, beskyttende midler, synergister og formuleringsstoffer</a></li>
+<li class="lvl5"><a href="#kapitteliiiplantevernmidler">KapittelIIIPlantevernmidler</a></li>
+<li class="lvl5"><a href="#kapittelivhjelpestoffer">KapittelIVHjelpestoffer</a></li>
+<li class="lvl5"><a href="#kapittel-vvern-av-opplysninger-og-felles-bruk-av-opplysninger">Kapittel VVern av opplysninger og felles bruk av opplysninger</a></li>
+<li class="lvl5"><a href="#kapittel-vioffentlig-tilgang-til-opplysninger">Kapittel VIOffentlig tilgang til opplysninger</a></li>
+<li class="lvl5"><a href="#kapittelviiemballering-merking-og-reklame-for-plantevernmidler-og-hjelpestoffer">KapittelVIIEmballering, merking og reklame for plantevernmidler og hjelpestoffer</a></li>
+<li class="lvl5"><a href="#kapittelviiikontroller">KapittelVIIIKontroller</a></li>
+<li class="lvl5"><a href="#kapittelixndssituasjoner">KapittelIXNødssituasjoner</a></li>
+<li class="lvl5"><a href="#kapittel-xadministrative-og-finansielle-bestemmelser">Kapittel XAdministrative og finansielle bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittelxiovergangs-og-sluttbestemmelser">KapittelXIOvergangs- og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg-ifastsettelse-av-soner-for-godkjenning-av-plantevernmidler-som-nevnt-i-artikkel-3-nr-17">Vedlegg IFastsettelse av soner for godkjenning av plantevernmidler som nevnt i artikkel 3 nr. 17</a></li>
+<li class="lvl5"><a href="#vedlegg-iiframgangsmate-og-kriterier-for-godkjenning-av-aktive-stoffer-beskyttende-midler-og-synergister-i-samsvar-medkapittel-ii">Vedlegg IIFramgangsmåte og kriterier for godkjenning av aktive stoffer, beskyttende midler og synergister i samsvar medkapittel II</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiliste-over-formuleringsstoffer-som-ikke-er-godkjent-for-bruk-i-plantevernmidler-som-nevnt-i-artikkel-27">Vedlegg IIIListe over formuleringsstoffer som ikke er godkjent for bruk i plantevernmidler som nevnt i artikkel 27</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsammenlignende-vurdering-i-henhold-til-artikkel-50">Vedlegg IVSammenlignende vurdering i henhold til artikkel 50</a></li>
+<li class="lvl5"><a href="#vedlegg-vopphevede-direktiver-med-endringer-som-nevnt-i-artikkel-83">Vedlegg VOpphevede direktiver med endringer som nevnt i artikkel 83</a></li>
+<li class="lvl2"><a href="#forordninger-i-pdf">Forordninger i pdf</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5402011-ikke-konsolidert">Forordning (EU) nr. 540/2011 (ikke konsolidert)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-28-1928.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-06-455.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om plantevernmidler</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-05-06-455.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-05-06-455 <code>forskrift/2015-05-06-455</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om plantevernmidler</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-28-1928 <code>forskrift/2026-09-28-1928</code> fra 28.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-05-06-455" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-gjennomfring-av-forordninger">Kapittel II. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#3-forordning-ef-nr-11072009">§ 3. Forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#4-forordning-eu-nr-5402011-om-liste-over-aktive-stoffer">§ 4. Forordning (EU) nr. 540/2011 om liste over aktive stoffer</a></li>
+<li class="lvl4"><a href="#5-forordninger-om-avslag-pa-godkjenning-av-aktive-stoffer-som-ikke-flger-av-4">§ 5. Forordninger om avslag på godkjenning av aktive stoffer som ikke følger av § 4</a></li>
+<li class="lvl4"><a href="#6-andre-forordninger-om-gjennomfring-av-forordning-ef-nr-11072009">§ 6. Andre forordninger om gjennomføring av forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#7-oppgavefordeling-mellom-medlemsland">§ 7. Oppgavefordeling mellom medlemsland</a></li>
+<li class="lvl2"><a href="#kapittel-iii-autorisasjonsbevis">Kapittel III. Autorisasjonsbevis</a></li>
+<li class="lvl4"><a href="#8-krav-om-autorisasjonsbevis-for-plantevernmidler">§ 8. Krav om autorisasjonsbevis for plantevernmidler</a></li>
+<li class="lvl4"><a href="#8a-gnagermidler">§ 8a. Gnagermidler</a></li>
+<li class="lvl4"><a href="#8b-gassingsprodukter-med-hy-fareklassifisering">§ 8b. Gassingsprodukter med høy fareklassifisering</a></li>
+<li class="lvl4"><a href="#8c-kompetansebevis-for-bekjempelse-av-rotrate-i-skogbruk">§ 8c. Kompetansebevis for bekjempelse av rotråte i skogbruk</a></li>
+<li class="lvl4"><a href="#9-myndigheten-som-utsteder-og-inndrar-autorisasjonsbevis-for-plantevernmidler-mv">§ 9. Myndigheten som utsteder og inndrar autorisasjonsbevis for plantevernmidler mv.</a></li>
+<li class="lvl2"><a href="#kapittel-iv-krav-til-distributrer-importrer-og-produsenter">Kapittel IV. Krav til distributører, importører og produsenter</a></li>
+<li class="lvl4"><a href="#10-registrering-av-forhandlere-importrer-og-produsenter">§ 10. Registrering av forhandlere, importører og produsenter</a></li>
+<li class="lvl4"><a href="#11-informasjonsplikt-og-kontroll-ved-salg">§ 11. Informasjonsplikt og kontroll ved salg</a></li>
+<li class="lvl4"><a href="#12-krav-om-internkontroll">§ 12. Krav om internkontroll</a></li>
+<li class="lvl4"><a href="#13-krav-ved-retur-til-importr">§ 13. Krav ved retur til importør</a></li>
+<li class="lvl4"><a href="#14-krav-om-rapportering">§ 14. Krav om rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-v-funksjonstest-av-spredeutstyr">Kapittel V. Funksjonstest av spredeutstyr</a></li>
+<li class="lvl4"><a href="#15-krav-til-funksjonstest-og-registreringsmerke">§ 15. Krav til funksjonstest og registreringsmerke</a></li>
+<li class="lvl4"><a href="#16-krav-til-tidsintervall-og-registreringsmerke">§ 16. Krav til tidsintervall og registreringsmerke</a></li>
+<li class="lvl2"><a href="#kapittel-vi-srlige-krav-ved-spredning-fra-luftfarty">Kapittel VI. Særlige krav ved spredning fra luftfartøy</a></li>
+<li class="lvl4"><a href="#17-spredning-av-plantevernmidler-fra-luftfarty">§ 17. Spredning av plantevernmidler fra luftfartøy</a></li>
+<li class="lvl4"><a href="#18-sknad-om-tillatelse-til-spredning-av-plantevernmidler-fra-luftfarty">§ 18. Søknad om tillatelse til spredning av plantevernmidler fra luftfartøy</a></li>
+<li class="lvl2"><a href="#kapittel-vii-generelle-krav-ved-spredning">Kapittel VII. Generelle krav ved spredning</a></li>
+<li class="lvl4"><a href="#19-bruk-av-plantevernmidler">§ 19. Bruk av plantevernmidler</a></li>
+<li class="lvl4"><a href="#20-plikt-til-a-redusere-risikoen-for-vannforurensning">§ 20. Plikt til å redusere risikoen for vannforurensning</a></li>
+<li class="lvl4"><a href="#21-forbud-mot-spredning-av-plantevernmidler-pa-arealer-som-er-apne-for-allmenn-ferdsel">§ 21. Forbud mot spredning av plantevernmidler på arealer som er åpne for allmenn ferdsel</a></li>
+<li class="lvl4"><a href="#22-spredning-av-plantevernmidler-pa-utmark">§ 22. Spredning av plantevernmidler på utmark</a></li>
+<li class="lvl4"><a href="#23-kunngjring-og-merking-ved-spredning-av-plantevernmidler">§ 23. Kunngjøring og merking ved spredning av plantevernmidler</a></li>
+<li class="lvl2"><a href="#kapittel-viii-oppbevaring-og-rester-av-plantevernmidler">Kapittel VIII. Oppbevaring og rester av plantevernmidler</a></li>
+<li class="lvl4"><a href="#24-oppbevaring-av-plantevernmidler">§ 24. Oppbevaring av plantevernmidler</a></li>
+<li class="lvl4"><a href="#25-behandling-og-levering-av-rester-emballasje-og-ubrukte-plantevernmidler">§ 25. Behandling og levering av rester, emballasje og ubrukte plantevernmidler</a></li>
+<li class="lvl2"><a href="#kapittel-ix-integrert-plantevern">Kapittel IX. Integrert plantevern</a></li>
+<li class="lvl4"><a href="#26-integrert-plantevern">§ 26. Integrert plantevern</a></li>
+<li class="lvl2"><a href="#kapittel-x-organismer-til-biologisk-bekjempelse-av-planteskadegjrere">Kapittel X. Organismer til biologisk bekjempelse av planteskadegjørere</a></li>
+<li class="lvl4"><a href="#27-organismer-til-biologisk-bekjempelse-av-planteskadegjrere">§ 27. Organismer til biologisk bekjempelse av planteskadegjørere</a></li>
+<li class="lvl2"><a href="#kapittel-xi-avsluttende-bestemmelser">Kapittel XI. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#28-miljavgift">§ 28. Miljøavgift</a></li>
+<li class="lvl4"><a href="#28a-risikoindikatorer">§ 28a. Risikoindikatorer</a></li>
+<li class="lvl4"><a href="#29-tilsyn-og-vedtak">§ 29. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#30-straff">§ 30. Straff</a></li>
+<li class="lvl4"><a href="#31-dispensasjon">§ 31. Dispensasjon</a></li>
+<li class="lvl4"><a href="#32-overgangsbestemmelse">§ 32. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#33-ikrafttredelse">§ 33. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1krav-til-spredeutstyr-for-plantevernmidler-jf-15">Vedlegg 1Krav til spredeutstyr for plantevernmidler, jf. § 15</a></li>
+<li class="lvl3"><a href="#vedlegg-2generelle-prinsipper-for-integrert-plantevern-jf-26">Vedlegg 2Generelle prinsipper for integrert plantevern, jf. § 26</a></li>
+<li class="lvl3"><a href="#vedlegg-3emner-i-opplringen-som-nevnt-i-9-tredje-ledd">Vedlegg 3Emner i opplæringen som nevnt i§ 9 tredje ledd</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-ef-nr-11072009">Konsolidert forordning (EF) nr. 1107/2009</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-11072009av-21-oktober-2009om-omsetning-av-plantevernmidler-og-om-oppheving-av-radsdirektiv79117efog91414ef">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 1107/2009av 21. oktober 2009om omsetning av plantevernmidler og om oppheving av rådsdirektiv79/117/EØFog91/414/EØF</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">Kapittel IAlminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#kapitteliiaktive-stoffer-beskyttende-midler-synergister-og-formuleringsstoffer">KapittelIIAktive stoffer, beskyttende midler, synergister og formuleringsstoffer</a></li>
+<li class="lvl5"><a href="#kapitteliiiplantevernmidler">KapittelIIIPlantevernmidler</a></li>
+<li class="lvl5"><a href="#kapittelivhjelpestoffer">KapittelIVHjelpestoffer</a></li>
+<li class="lvl5"><a href="#kapittel-vvern-av-opplysninger-og-felles-bruk-av-opplysninger">Kapittel VVern av opplysninger og felles bruk av opplysninger</a></li>
+<li class="lvl5"><a href="#kapittel-vioffentlig-tilgang-til-opplysninger">Kapittel VIOffentlig tilgang til opplysninger</a></li>
+<li class="lvl5"><a href="#kapittelviiemballering-merking-og-reklame-for-plantevernmidler-og-hjelpestoffer">KapittelVIIEmballering, merking og reklame for plantevernmidler og hjelpestoffer</a></li>
+<li class="lvl5"><a href="#kapittelviiikontroller">KapittelVIIIKontroller</a></li>
+<li class="lvl5"><a href="#kapittelixndssituasjoner">KapittelIXNødssituasjoner</a></li>
+<li class="lvl5"><a href="#kapittel-xadministrative-og-finansielle-bestemmelser">Kapittel XAdministrative og finansielle bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittelxiovergangs-og-sluttbestemmelser">KapittelXIOvergangs- og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg-ifastsettelse-av-soner-for-godkjenning-av-plantevernmidler-som-nevnt-i-artikkel-3-nr-17">Vedlegg IFastsettelse av soner for godkjenning av plantevernmidler som nevnt i artikkel 3 nr. 17</a></li>
+<li class="lvl5"><a href="#vedlegg-iiframgangsmate-og-kriterier-for-godkjenning-av-aktive-stoffer-beskyttende-midler-og-synergister-i-samsvar-medkapittel-ii">Vedlegg IIFramgangsmåte og kriterier for godkjenning av aktive stoffer, beskyttende midler og synergister i samsvar medkapittel II</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiliste-over-formuleringsstoffer-som-ikke-er-godkjent-for-bruk-i-plantevernmidler-som-nevnt-i-artikkel-27">Vedlegg IIIListe over formuleringsstoffer som ikke er godkjent for bruk i plantevernmidler som nevnt i artikkel 27</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsammenlignende-vurdering-i-henhold-til-artikkel-50">Vedlegg IVSammenlignende vurdering i henhold til artikkel 50</a></li>
+<li class="lvl5"><a href="#vedlegg-vopphevede-direktiver-med-endringer-som-nevnt-i-artikkel-83">Vedlegg VOpphevede direktiver med endringer som nevnt i artikkel 83</a></li>
+<li class="lvl2"><a href="#forordninger-i-pdf">Forordninger i pdf</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5402011-ikke-konsolidert">Forordning (EU) nr. 540/2011 (ikke konsolidert)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-06-455.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-05-06-455.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-06-455.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-05-06-455.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-05-06-455.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-05-06-455.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-05-06-455.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-05-06-455.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-05-06-455.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-plantevernmidler">Forskrift om plantevernmidler</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder krav til godkjenning, omsetning og bruk av plantevernmidler, aktive stoffer inkludert mikroorganismer og andre innholdsstoffer i plantevernmidler. Benevnelsen plantevernmidler i forskriftens kapittel III til kapittel VIII omfatter likevel alle disse tre kategoriene der dette er relevant.</p>
 <p>For organismer til biologisk bekjempelse av planteskadegjørere som definert i § 27 første ledd gjelder bare § 10 , § 12 , § 14 , § 25 og § 27 til § 33 .</p>
 <p>Forskriftens kapittel III om autorisasjonsbevis gjelder både plantevernmidler og enkelte gnagermidler godkjent etter forskrift 18. april 2017 nr. 480 om biocider.</p>
 <p>Ved konflikt mellom forordningens bestemmelser og denne bestemmelse, går alltid forordningens bestemmelser foran.</p>
-<p><em>Endret ved forskrift 17 sep 2018 nr. 1501 (i kraft 15 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 17 sep 2018 nr. 1501 (i kraft 15 okt 2018).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I forskriften menes med</p>
 <p>a. yrkespreparater: preparater som er beregnet for yrkesbrukere, og som det kreves autorisasjonsbevis for å kjøpe og bruke
@@ -98,7 +289,7 @@ i. drikkevannsbasseng: et basseng for oppbevaring av drikkevann etter at råvann
 j. overflatevann: kystvann, brakkvann og ferskvann, unntatt grunnvann, jf. forskrift 15. desember 2006 nr. 1446 om rammer for vannforvaltningen
 k. vannforekomster: en avgrenset og betydelig mengde av overflatevann, som for eksempel innsjø, magasin, elv, bekk, kanal, fjord eller kyststrekning, eller deler av disse, eller en avgrenset mengde grunnvann innenfor en eller flere akviferer, jf. forskrift 15. desember 2006 nr. 1446 om rammer for vannforvaltningen
 l. integrert plantevern: overveielse og bruk av alle tilgjengelige teknikker og metoder som lar seg forene for å forhindre skadegjørere fra å utvikle seg, og som holder bruken av plantevernmidler og andre former for inngrep på et økonomisk og økologisk forsvarlig nivå, samtidig som risikoen for menneskers helse og for miljøet reduseres eller minimaliseres.</p>
-<p><em>Endret ved forskrift 11 jan 2026 nr. 30 .</em></p>
+<p class="note">Endret ved forskrift 11 jan 2026 nr. 30 .</p>
 <h2 id="kapittel-ii-gjennomfring-av-forordninger">Kapittel II. Gjennomføring av forordninger</h2>
 <h4 id="3-forordning-ef-nr-11072009">§ 3. Forordning (EF) nr. 1107/2009</h4>
 <p>Forordning (EF) nr. 1107/2009 om markedsføring av plantevernmidler og om opphevelse av Rådsdirektiv 79/117/EØF og 91/414/EØF , som inntatt i EØS-avtalens vedlegg II kapittel XV nr. 13, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II kapittel XV , protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av</p>
@@ -113,13 +304,13 @@ l. integrert plantevern: overveielse og bruk av alle tilgjengelige teknikker og 
 <li>forordning (EU) 2022/1438</li>
 <li>forordning (EU) 2026/1120 .</li>
 </ul>
-<p><em>Endret ved forskrifter 30 okt 2017 nr. 1685 , 24 sep 2018 nr. 1461 , 6 mars 2020 nr. 707 (i kraft 7 april 2020), 15 des 2021 nr. 3652 , 12 mai 2022 nr. 960 (i kraft 1 juni 2022), 2 mai 2023 nr. 646 , 6 mars 2024 nr. 539 (i kraft 3 april 2024), 28 sep 2026 nr. 1928 .</em></p>
+<p class="note">Endret ved forskrifter 30 okt 2017 nr. 1685 , 24 sep 2018 nr. 1461 , 6 mars 2020 nr. 707 (i kraft 7 april 2020), 15 des 2021 nr. 3652 , 12 mai 2022 nr. 960 (i kraft 1 juni 2022), 2 mai 2023 nr. 646 , 6 mars 2024 nr. 539 (i kraft 3 april 2024), 28 sep 2026 nr. 1928 .</p>
 <h4 id="4-forordning-eu-nr-5402011-om-liste-over-aktive-stoffer">§ 4. Forordning (EU) nr. 540/2011 om liste over aktive stoffer</h4>
 <p>EØS-avtalens vedlegg II kapittel XV nr. 13a (forordning (EU) nr. 540/2011 som endret ved forordning (EU) nr. 541/2011 , forordning (EU) nr. 542/2011 , forordning (EU) nr. 702/2011 , forordning (EU) nr. 703/2011 , forordning (EU) nr. 704/2011 , forordning (EU) nr. 705/2011 , forordning (EU) nr. 706/2011 , forordning (EU) nr. 736/2011 , forordning (EU) nr. 740/2011 , forordning (EU) nr. 786/2011 , forordning (EU) nr. 787/2011 , forordning (EU) nr. 788/2011 , forordning (EU) nr. 797/2011 , forordning (EU) nr. 798/2011 , forordning (EU) nr. 800/2011 , forordning (EU) nr. 806/2011 , forordning (EU) nr. 807/2011 , forordning (EU) nr. 810/2011 , forordning (EU) nr. 820/2011 , forordning (EU) nr. 974/2011 , forordning (EU) nr. 993/2011 , forordning (EU) nr. 1022/2011 , forordning (EU) nr. 1100/2011 , forordning (EU) nr. 1134/2011 , forordning (EU) nr. 1143/2011 , forordning (EU) nr. 87/2012 , forordning (EU) nr. 127/2012 , forordning (EU) nr. 287/2012 , forordning (EU) nr. 359/2012 , forordning (EU) nr. 369/2012 , forordning (EU) nr. 571/2012 , forordning (EU) nr. 582/2012 , forordning (EU) nr. 589/2012 , forordning (EU) nr. 595/2012 , forordning (EU) nr. 597/2012 , forordning (EU) nr. 608/2012 , forordning (EU) nr. 637/2012 , forordning (EU) nr. 735/2012 , forordning (EU) nr. 746/2012 , forordning (EU) nr. 1037/2012 , forordning (EU) nr. 1043/2012 , forordning (EU) nr. 1197/2012 , forordning (EU) nr. 1237/2012 , forordning (EU) nr. 1238/2012 , forordning (EU) nr. 17/2013 , forordning (EU) nr. 22/2013 , forordning (EU) nr. 175/2013 , forordning (EU) nr. 187/2013 , forordning (EU) nr. 188/2013 , forordning (EU) nr. 190/2013 , forordning (EU) nr. 200/2013 , forordning (EU) nr. 201/2013 , forordning (EU) nr. 350/2013 , forordning (EU) nr. 355/2013 , forordning (EU) nr. 356/2013 , forordning (EU) nr. 365/2013 , forordning (EU) nr. 366/2013 , forordning (EU) nr. 367/2013 , forordning (EU) nr. 368/2013 , forordning (EU) nr. 369/2013 , forordning (EU) nr. 373/2013 , forordning (EU) nr. 375/2013 , forordning (EU) nr. 378/2013 , forordning (EU) nr. 485/2013 , forordning (EU) nr. 532/2013 , forordning (EU) nr. 533/2013 , forordning (EU) nr. 546/2013 , forordning (EU) nr. 568/2013 , forordning (EU) nr. 570/2013 , forordning (EU) nr. 762/2013 , forordning (EU) nr. 767/2013 , forordning (EU) nr. 781/2013 , forordning (EU) nr. 790/2013 , forordning (EU) nr. 798/2013 , forordning (EU) nr. 802/2013 , forordning (EU) nr. 826/2013 , forordning (EU) nr. 827/2013 , forordning (EU) nr. 828/2013 , forordning (EU) nr. 829/2013 , forordning (EU) nr. 832/2013 , forordning (EU) nr. 833/2013 , forordning (EU) nr. 1031/2013 , forordning (EU) nr. 1089/2013 , forordning (EU) nr. 1124/2013 , forordning (EU) nr. 1136/2013 , forordning (EU) nr. 1150/2013 , forordning (EU) nr. 1165/2013 , forordning (EU) nr. 1166/2013 , forordning (EU) nr. 1175/2013 , forordning (EU) nr. 1176/2013 , forordning (EU) nr. 1177/2013 , forordning (EU) nr. 1178/2013 , forordning (EU) nr. 1187/2013 , forordning (EU) nr. 1192/2013 , forordning (EU) nr. 1195/2013 , forordning (EU) nr. 1199/2013 , forordning (EU) nr. 85/2014 , forordning (EU) nr. 140/2014 , forordning (EU) nr. 141/2014 , forordning (EU) nr. 143/2014 , forordning (EU) nr. 144/2014 , forordning (EU) nr. 145/2014 , forordning (EU) nr. 149/2014 , forordning (EU) nr. 151/2014 , forordning (EU) nr. 154/2014 , forordning (EU) nr. 187/2014 , forordning (EU) nr. 192/2014 , forordning (EU) nr. 193/2014 , forordning (EU) nr. 462/2014 , forordning (EU) nr. 485/2014 , forordning (EU) nr. 486/2014 , forordning (EU) nr. 487/2014 , forordning (EU) nr. 496/2014 , forordning (EU) nr. 504/2014 , forordning (EU) nr. 563/2014 , forordning (EU) nr. 571/2014 , forordning (EU) nr. 629/2014 , forordning (EU) nr. 632/2014 , forordning (EU) nr. 678/2014 , forordning (EU) nr. 878/2014 , forordning (EU) nr. 880/2014 , forordning (EU) nr. 890/2014 , forordning (EU) nr. 891/2014 , forordning (EU) nr. 916/2014 , forordning (EU) nr. 917/2014 , forordning (EU) nr. 918/2014 , forordning (EU) nr. 921/2014 , forordning (EU) nr. 922/2014 , forordning (EU) nr. 1316/2014 , forordning (EU) nr. 1330/2014 , forordning (EU) nr. 1334/2014 , forordning (EU) 2015/51 , forordning (EU) 2015/58 , forordning (EU) 2015/232 , forordning (EU) 2015/306 , forordning (EU) 2015/307 , forordning (EU) 2015/308 , forordning (EU) 2015/404 , forordning (EU) 2015/415 , forordning (EU) 2015/418 , forordning (EU) 2015/543 , forordning (EU) 2015/553 , forordning (EU) 2015/762 , forordning (EU) 2015/1106 , forordning (EU) 2015/1107 , forordning (EU) 2015/1108 , forordning (EU) 2015/1115 , forordning (EU) 2015/1116 , forordning (EU) 2015/1154 , forordning (EU) 2015/1165 , forordning (EU) 2015/1166 , forordning (EU) 2015/1176 , forordning (EU) 2015/1192 , forordning (EU) 2015/1201 , forordning (EU) 2015/1295 , forordning (EU) 2015/1392 , forordning (EU) 2015/1396 , forordning (EU) 2015/1397 , forordning (EU) 2015/1885 , forordning (EU) 2015/2033 , forordning (EU) 2015/2047 , forordning (EU) 2015/2069 , forordning (EU) 2015/2084 , forordning (EU) 2015/2085 , forordning (EU) 2015/2105 , forordning (EU) 2015/2198 , forordning (EU) 2015/2233 , forordning (EU) 2016/139 , forordning (EU) 2016/146 , forordning (EU) 2016/147 , forordning (EU) 2016/177 , forordning (EU) 2016/182 , forordning (EU) 2016/370 , forordning (EU) 2016/389 , forordning (EU) 2016/548 , forordning (EU) 2016/549 , forordning (EU) 2016/560 , forordning (EU) 2016/636 , forordning (EU) 2016/638 , forordning (EU) 2016/864 , forordning (EU) 2016/871 , forordning (EU) 2016/872 , forordning (EU) 2016/950 , forordning (EU) 2016/951 , forordning (EU) 2016/952 , forordning (EU) 2016/1056 , forordning (EU) 2016/1313 , forordning (EU) 2016/1414 , forordning (EU) 2016/1423 , forordning (EU) 2016/1424 , forordning (EU) 2016/1425 , forordning (EU) 2016/1426 , forordning (EU) 2016/1429 , forordning (EU) 2016/1978 , forordning (EU) 2016/2016 , forordning (EU) 2016/2035 , forordning (EU) 2017/157 , forordning (EU) 2017/195 , forordning (EU) 2017/239 , forordning (EU) 2017/244 , forordning (EU) 2017/407 , forordning (EU) 2017/270 , forordning (EU) 2017/358 , forordning (EU) 2017/359 , forordning (EU) 2017/360 , forordning (EU) 2017/375 , forordning (EU) 2017/406 , forordning (EU) 2017/408 , forordning (EU) 2017/409 , forordning (EU) 2017/419 , forordning (EU) 2017/428 , forordning (EU) 2017/438 , forordning (EU) 2017/555 , forordning (EU) 2017/725 , forordning (EU) 2017/753 , forordning (EU) 2017/755 , forordning (EU) 2017/781 , forordning (EU) 2017/805 , forordning (EU) 2017/806 , forordning (EU) 2017/831 , forordning (EU) 2017/841 , forordning (EU) 2017/842 , forordning (EU) 2017/843 , forordning (EU) 2017/855 , forordning (EU) 2017/856 , forordning (EU) 2017/1113 , forordning (EU) 2017/1114 , forordning (EU) 2017/1115 , forordning (EU) 2017/1125 , forordning (EU) 2017/1186 , forordning (EU) 2017/1455 , forordning (EU) 2017/1491 , forordning (EU) 2017/1496 , forordning (EU) 2017/1506 , forordning (EU) 2017/1511 , forordning (EU) 2017/1527 , forordning (EU) 2017/1529 , forordning (EU) 2017/1530 , forordning (EU) 2017/1531 , forordning (EU) 2017/2066 , forordning (EU) 2017/2069 , forordning (EU) 2017/2090 , forordning (EU) 2017/2091 , forordning (EU) 2017/2324 , forordning (EU) 2018/84 , forordning (EU) 2018/112 , forordning (EU) 2018/113 , forordning (EU) 2018/184 , forordning (EU) 2018/185 , forordning (EU) 2018/291 , forordning (EU) 2018/309 , forordning (EU) 2018/524 , forordning (EU) 2018/660 , forordning (EU) 2018/670 , forordning (EU) 2018/679 , forordning (EU) 2018/690 , forordning (EU) 2018/691 , forordning (EU) 2018/692 , forordning (EU) 2018/710 , forordning (EU) 2018/755 , forordning (EU) 2018/783 , forordning (EU) 2018/785 , forordning (EU) 2018/1060 , forordning (EU) 2018/917 , forordning (EU) 2018/1019 , forordning (EU) 2018/1043 , forordning (EU) 2018/1061 , forordning (EU) 2018/1075 , forordning (EU) 2018/1260 , forordning (EU) 2018/1278 , forordning (EU) 2018/784 , forordning (EU) 2018/1262 , forordning (EU) 2018/1264 , forordning (EU) 2018/1265 , forordning (EU) 2018/1266 , forordning (EU) 2018/1295 , forordning (EU) 2018/1495 , forordning (EU) 2018/1500 , forordning (EU) 2018/1501 , forordning (EU) 2018/1532 , forordning (EU) 2018/1796 , forordning (EU) 2018/1913 , forordning (EU) 2018/1914 , forordning (EU) 2018/1915 , forordning (EU) 2018/1916 , forordning (EU) 2018/1917 , forordning (EU) 2018/1865 , forordning (EU) 2018/1981 , forordning (EU) 2019/139 , forordning (EU) 2019/147 , forordning (EU) 2019/148 , forordning (EU) 2019/149 , forordning (EU) 2019/150 , forordning (EU) 2019/151 , forordning (EU) 2019/158 , forordning (EU) 2019/168 , forordning (EU) 2019/291 , forordning (EU) 2019/324 , forordning (EU) 2019/337 , forordning (EU) 2019/344 , forordning (EU) 2019/481 , forordning (EU) 2019/677 , forordning (EU) 2019/706 , forordning (EU) 2019/707 , forordning (EU) 2019/717 , forordning (EU) 2019/676 , forordning (EU) 2019/716 , forordning (EU) 2019/989 , forordning (EU) 2019/1085 , forordning (EU) 2019/1090 , forordning (EU) 2019/1100 , forordning (EU) 2019/1101 , forordning (EU) 2019/1137 , forordning (EU) 2019/1138 , forordning (EU) 2019/1589 , forordning (EU) 2019/1605 , forordning (EU) 2019/1606 , forordning (EU) 2019/1690 , forordning (EU) 2019/2094 , forordning (EU) 2020/23 , forordning (EU) 2019/1675 , forordning (EU) 2020/17 , forordning (EU) 2020/18 , forordning (EU) 2020/421 , forordning (EU) 2020/616 , forordning (EU) 2020/617 , forordning (EU) 2020/642 , forordning (EU) 2020/646 , forordning (EU) 2020/653 , forordning (EU) 2020/869 , forordning (EU) 2020/892 , forordning (EU) 2020/968 , forordning (EU) 2020/1003 , forordning (EU) 2020/1004 , forordning (EU) 2020/1018 , forordning (EU) 2020/1160 , forordning (EU) 2020/1246 , forordning (EU) 2020/1263 , forordning (EU) 2020/1276 , forordning (EU) 2020/1280 , forordning (EU) 2020/1293 , forordning (EU) 2020/1498 , forordning (EU) 2020/1511 , forordning (EU) 2020/1643 , forordning (EU) 2020/2007 ,forordning (EU) 2020/2087 , forordning (EU) 2020/2101 , forordning (EU) 2020/2104 , forordning (EU) 2020/2105 , forordning (EU) 2021/52 , forordning (EU) 2021/81 , forordning (EU) 2021/129 , forordning (EU) 2021/134 , forordning (EU) 2021/413 , forordning (EU) 2021/427 , forordning (EU) 2021/459 , forordning (EU) 2021/566 , forordning (EU) 2021/567 , forordning (EU) 2021/574 , forordning (EU) 2021/556 , forordning (EU) 2021/726 , forordning (EU) 2021/745 , forordning (EU) 2021/795 , forordning (EU) 2021/824 , forordning (EU) 2021/843 , forordning (EU) 2021/853 , forordning (EU) 2021/917 , forordning (EU) 2021/1191 , forordning (EU) 2021/1379 , forordning (EU) 2021/1446 , forordning (EU) 2021/1448 , forordning (EU) 2021/1449 , forordning (EU) 2021/1450 , forordning (EU) 2021/1452 , forordning (EU) 2021/1455 , forordning (EU) 2021/2049 , forordning (EU) 2021/2068 , forordning (EU) 2021/2081 , forordning (EU) 2022/4 , forordning (EU) 2022/19 , forordning (EU) 2022/43 , forordning (EU) 2022/94 , forordning (EU) 2022/159 , forordning (EU) 2022/378 , forordning (EU) 2022/383 , forordning (EU) 2022/437 , forordning (EU) 2022/456 , forordning (EU) 2022/489 , forordning (EU) 2022/496 , forordning (EU) 2022/501 , forordning (EU) 2022/686 , forordning (EU) 2022/698 , forordning (EU) 2022/708 , forordning (EU) 2022/782 , forordning (EU) 2022/800 , forordning (EU) 2022/801 , forordning (EU) 2022/808 , forordning (EU) 2022/814 , forordning (EU) 2022/1251 , forordning (EU) 2022/1468 , forordning (EU) 2022/1474 , forordning (EU) 2022/1480 , forordning (EU) 2022/2305 , forordning (EU) 2022/2314 , forordning (EU) 2022/2315 , forordning (EU) 2022/2364 , forordning (EU) 2023/114 , forordning (EU) 2023/115 , forordning (EU) 2023/116 , forordning (EU) 2023/149 , forordning (EU) 2023/199 , forordning (EU) 2023/216 , forordning (EU) 2023/223 , forordning (EU) 2023/689 , forordning (EU) 2023/918 , forordning (EU) 2023/515 , forordning (EU) 2023/932 , forordning (EU) 2023/939 , forordning (EU) 2023/962 , forordning (EU) 2023/998 , forordning (EU) 2023/999 , forordning (EU) 2023/1000 , forordning (EU) 2023/1001 , forordning (EU) 2023/1002 , forordning (EU) 2023/1003 , forordning (EU) 2023/1004 , forordning (EU) 2023/1005 , forordning (EU) 2023/1021 , forordning (EU) 2023/1436 forordning (EU) 2023/1446 , forordning (EU) 2023/1447 , forordning (EU) 2023/1488 , forordning (EU) 2023/741 , forordning (EU) 2023/1755 , forordning (EU) 2023/1756 , forordning (EU) 2023/1757 , forordning (EU) 2023/2455 , forordning (EU) 2023/2456 , forordning (EU) 2023/2513 , forordning (EU) 2023/2589 , forordning (EU) 2023/2591 , forordning (EU) 2023/2592 , forordning (EU) 2023/2657 , forordning (EU) 2023/2660 , forordning (EU) 2024/20 , forordning (EU) 2024/324 , forordning (EU) 2024/821 , forordning (EU) 2024/835 , forordning (EU) 2024/836 , forordning (EU) 2024/839 , forordning (EU) 2024/1206 , forordning (EU) 2024/1207 , forordning (EU) 2024/1217 , forordning (EU) 2024/1280 , forordning (EU) 2024/1696 , forordning (EU) 2024/1718 , forordning (EU) 2024/1749 , forordning (EU) 2024/1768 , forordning (EU) 2024/1892 , forordning (EU) 2024/2186 , forordning (EU) 2024/2198 , forordning (EU) 2024/2221 , forordning (EU) 2024/2390 , forordning (EU) 2024/2777 , forordning (EU) 2024/2781 , forordning (EU) 2024/2806 , forordning (EU) 2024/2848 , forordning (EU) 2024/2878 , forordning (EU) 2025/96 , forordning (EU) 2025/99 , forordning (EU) 2025/102 , forordning (EU) 2025/103 , forordning (EU) 2025/106 , forordning (EU) 2025/109 , forordning (EU) 2025/119 , forordning (EU) 2025/150 , forordning (EU) 2025/787 , forordning (EU) 2025/881 , forordning (EU) 2025/833 , forordning (EU) 2025/845 , forordning (EU) 2025/910 , forordning (EU) 2025/1092 , forordning (EU) 2025/1152 , forordning (EU) 2025/1177 , forordning (EU) 2025/1489 , forordning (EU)2025/1879 , forordning (EU) 2025/2027 , forordning (EU) 2025/2068 , forordning (EU) 2025/2272 , forordning (EU) 2025/2313 , forordning (EU) 2026/312 , forordning (EU) 2026/321 , forordning (EU) 2026/351 , forordning (EU) 2026/355 , forordning (EU) 2026/372 , forordning (EU) 2026/747 , forordning (EU) 2026/870 , forordning (EU) 2026/1154 , forordning (EU) 2026/1353 og forordning (EU) 2026/1421 ) om gjennomføring av forordning (EF) nr. 1107/2009 vedrørende liste over godkjente aktive stoffer gjelder som forskrift med de tilpasninger som følger av vedlegg II kapittel XV , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 3 juli 2015 nr. 877 , 23 juli 2015 nr. 915 , 4 nov 2015 nr. 1280 , 14 des 2015 nr. 1632 , 13 april 2016 nr. 371 , 2 mai 2016 nr. 459 , 12 juli 2016 nr. 927 , 29 sep 2016 nr. 1162 , 6 des 2016 nr. 1452 , 14 feb 2017 nr. 184 , 20 mars 2017 nr. 350 , 10 juli 2017 nr. 1172 , 25 sep 2017 nr. 1493 , 30 okt 2017 nr. 1685 , 18 des 2017 nr. 2231 , 12 feb 2018 nr. 193 , 26 mars 2018 nr. 522 , 30 april 2018 nr. 666 , 1 juni 2018 nr. 801 , 6 aug 2018 nr. 1221 , 24 sep 2018 nr. 1461 , 11 feb 2019 nr. 79 , 12 feb 2019 nr. 84 , 1 april 2019 nr. 428 , 9 mai 2019 nr. 590 , 14 juni 2019 nr. 746 , 30 sep 2019 nr. 1285 , 16 des 2019 nr. 1804 , 23 mars 2020 nr. 421 , 15 juni 2020 nr. 1199 , 28 sep 2020 nr. 1916 , 8 feb 2021 nr. 349 , 26 april 2021 nr. 1294 , 12 juli 2021 nr. 2411 , 27 sep 2021 nr. 2869 , 1 nov 2021 nr. 3119 , 15 des 2021 nr. 3652 , 22 mars 2022 nr. 444 , 2 mai 2022 nr. 751 , 12 des 2022 nr. 2159 , 6 feb 2023 nr. 155 , 2 mai 2023 nr. 646 , 14 juni 2023 nr. 859 , 25 sep 2023 nr. 1498 , 30 okt 2023 nr. 1725 , 11 des 2023 nr. 1994 , 5 feb 2024 nr. 173 , 18 mars 2024 nr. 461 , 13 juni 2024 nr. 976 , 8 juli 2024 nr. 1621 , 24 sep 2024 nr. 2236 , 9 des 2024 nr. 2997 , 19 des 2024 nr. 3385 , 10 feb 2025 nr. 168 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 22 sep 2025 nr. 1900 , 9 des 2025 nr. 2463 , 30 des 2025 nr. 2922 , 23 mars 2026 nr. 453 , 4 mai 2026 nr. 716 , 8 juni 2026 nr. 1022 , 13 aug 2026 nr. 1635 , 28 sep 2026 nr. 1928 .</em></p>
+<p class="note">Endret ved forskrifter 3 juli 2015 nr. 877 , 23 juli 2015 nr. 915 , 4 nov 2015 nr. 1280 , 14 des 2015 nr. 1632 , 13 april 2016 nr. 371 , 2 mai 2016 nr. 459 , 12 juli 2016 nr. 927 , 29 sep 2016 nr. 1162 , 6 des 2016 nr. 1452 , 14 feb 2017 nr. 184 , 20 mars 2017 nr. 350 , 10 juli 2017 nr. 1172 , 25 sep 2017 nr. 1493 , 30 okt 2017 nr. 1685 , 18 des 2017 nr. 2231 , 12 feb 2018 nr. 193 , 26 mars 2018 nr. 522 , 30 april 2018 nr. 666 , 1 juni 2018 nr. 801 , 6 aug 2018 nr. 1221 , 24 sep 2018 nr. 1461 , 11 feb 2019 nr. 79 , 12 feb 2019 nr. 84 , 1 april 2019 nr. 428 , 9 mai 2019 nr. 590 , 14 juni 2019 nr. 746 , 30 sep 2019 nr. 1285 , 16 des 2019 nr. 1804 , 23 mars 2020 nr. 421 , 15 juni 2020 nr. 1199 , 28 sep 2020 nr. 1916 , 8 feb 2021 nr. 349 , 26 april 2021 nr. 1294 , 12 juli 2021 nr. 2411 , 27 sep 2021 nr. 2869 , 1 nov 2021 nr. 3119 , 15 des 2021 nr. 3652 , 22 mars 2022 nr. 444 , 2 mai 2022 nr. 751 , 12 des 2022 nr. 2159 , 6 feb 2023 nr. 155 , 2 mai 2023 nr. 646 , 14 juni 2023 nr. 859 , 25 sep 2023 nr. 1498 , 30 okt 2023 nr. 1725 , 11 des 2023 nr. 1994 , 5 feb 2024 nr. 173 , 18 mars 2024 nr. 461 , 13 juni 2024 nr. 976 , 8 juli 2024 nr. 1621 , 24 sep 2024 nr. 2236 , 9 des 2024 nr. 2997 , 19 des 2024 nr. 3385 , 10 feb 2025 nr. 168 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 22 sep 2025 nr. 1900 , 9 des 2025 nr. 2463 , 30 des 2025 nr. 2922 , 23 mars 2026 nr. 453 , 4 mai 2026 nr. 716 , 8 juni 2026 nr. 1022 , 13 aug 2026 nr. 1635 , 28 sep 2026 nr. 1928 .</p>
 <h4 id="5-forordninger-om-avslag-pa-godkjenning-av-aktive-stoffer-som-ikke-flger-av-4">§ 5. Forordninger om avslag på godkjenning av aktive stoffer som ikke følger av § 4</h4>
 <p>EØS-avtalen vedlegg II kapittel XV (forordning (EU) nr. 942/2011 , forordning (EU) nr. 943/2011 , forordning (EU) nr. 1045/2011 , forordning (EU) nr. 1078/2011 , forordning (EU) nr. 1127/2011 , forordning (EU) nr. 1372/2011 , forordning (EU) nr. 1381/2011 , forordning (EU) nr. 578/2012 , forordning (EU) nr. 108/2014 , forordning (EU) nr. 116/2014 , forordning (EU) 2015/707 , forordning (EU) 2015/1191 , forordning (EU) 2015/2046 , forordning (EU) 2015/2082 , forordning (EU) 2015/2083 , forordning (EU) 2016/138 , forordning (EU) 2016/1826 , forordning (EU) 2017/240 , forordning (EU) 2017/241 , forordning (EU) 2017/357 , forordning (EU) 2017/377 , forordning (EU) 2017/840 , forordning (EU) 2017/1526 , forordning (EU) 2017/2057 , forordning (EU) 2017/2067 , forordning (EU) 2017/2068 , forordning (EU) 2018/296 , forordning (EU) 2018/1294 , forordning (EU) 2019/148 , forordning (EU) 2020/29 , forordning (EU) 2020/640 , forordning (EU) 2020/643 , forordning (EU) 2020/1281 , forordning (EU) 2021/79 , forordning (EU) 2021/80 , forordning (EU) 2021/464 , forordning (EU) 2021/809 , forordning (EU) 2021/1451 , forordning (EU) 2022/740 , forordning (EU) 2022/751 , forordning (EU) 2022/1443 , forordning (EU) 2022/1444 , forordning (EU) 2023/200 , forordning (EU) 2024/425 , forordning (EU) 2024/2197 , forordning (EU) 2024/2766 og forordning (EU) 2026/1209 ) om gjennomføring av forordning (EF) nr. 1107/2009 vedrørende avslag på godkjenning av aktive stoffer gjelder som forskrift med de tilpasninger som følger av vedlegg II kapittel XV , protokoll 1 til avtalen og avtalen for øvrig</p>
-<p><em>Endret ved forskrifter 4 nov 2015 nr. 1280 , 13 april 2016 nr. 371 , 12 juli 2016 nr. 927 , 10 juli 2017 nr. 1172 , 25 sep 2017 nr. 1493 , 26 mars 2018 nr. 522 , 30 april 2018 nr. 666 , 24 sep 2018 nr. 1461 , 9 mai 2019 nr. 590 , 30 sep 2019 nr. 1285 , 15 juni 2020 nr. 1199 , 8 feb 2021 nr. 349 , 26 april 2021 nr. 1294 , 27 sep 2021 nr. 2869 , 15 des 2021 nr. 3652 , 2 mai 2022 nr. 751 , 6 feb 2023 nr. 155 , 30 okt 2023 nr. 1725 , 8 juli 2024 nr. 1621 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 28 sep 2026 nr. 1928 .</em></p>
+<p class="note">Endret ved forskrifter 4 nov 2015 nr. 1280 , 13 april 2016 nr. 371 , 12 juli 2016 nr. 927 , 10 juli 2017 nr. 1172 , 25 sep 2017 nr. 1493 , 26 mars 2018 nr. 522 , 30 april 2018 nr. 666 , 24 sep 2018 nr. 1461 , 9 mai 2019 nr. 590 , 30 sep 2019 nr. 1285 , 15 juni 2020 nr. 1199 , 8 feb 2021 nr. 349 , 26 april 2021 nr. 1294 , 27 sep 2021 nr. 2869 , 15 des 2021 nr. 3652 , 2 mai 2022 nr. 751 , 6 feb 2023 nr. 155 , 30 okt 2023 nr. 1725 , 8 juli 2024 nr. 1621 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 28 sep 2026 nr. 1928 .</p>
 <h4 id="6-andre-forordninger-om-gjennomfring-av-forordning-ef-nr-11072009">§ 6. Andre forordninger om gjennomføring av forordning (EF) nr. 1107/2009</h4>
 <p>EØS-avtalens vedlegg II kapittel XV med følgende forordninger gjelder som forskrift med de tilpasninger som følger av vedlegg II kapittel XV, protokoll 1 til avtalen og avtalen for øvrig:</p>
 <p>a. (forordning (EU) nr. 283/2013 , som endret ved forordning (EU) nr. 1136/2014 og forordning 2022/1439 ) om gjennomføring av forordning (EF) nr. 1107/2009 ) vedrørende datakrav ved godkjenning av aktive stoffer,
@@ -132,10 +323,10 @@ g. (forordning (EU) 2015/408 , som endret ved forordning (EU) 2017/2065 , forord
 h. (forordning (EU) 2021/428 ) om bestemmelser om dataformat ved innsending av søknad om godkjenning av aktive stoffer,
 i. (forordning (EU) 2024/1487 , som endret ved forordning (EU) 2025/2274 ) om fastsettelse av datakrav for godkjenning av beskyttende midler og synergister og om fastsettelse av et arbeidsprogram for gradvis revurdering av beskyttende midler og synergister på markedet,
 j. (forordning (EU) 2023/574 ) om fastsettelse av detaljerte regler for identifisering av formuleringsstoffer som ikke er tillatt brukt i plantevernmidler.</p>
-<p><em>Endret ved forskrifter 3 juli 2015 nr. 877 , 28 sep 2015 nr. 1130 , 4 nov 2015 nr. 1280 , 12 juli 2016 nr. 927 , 24 sep 2018 nr. 1461 , 9 mai 2019 nr. 590 , 28 sep 2020 nr. 1916 , 8 feb 2021 nr. 349 , 22 mars 2022 nr. 444 , 4 juli 2022 nr. 1302 , 12 des 2022 nr. 2159 , 6 feb 2023 nr. 155 , 2 mai 2023 nr. 646 , 19 des 2024 nr. 3385 , 10 feb 2025 nr. 168 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 22 sep 2025 nr. 1900 , 9 des 2025 nr. 2463 , 30 des 2025 nr. 2922 , 10 juli 2026 nr. 1549 (i kraft 13 juli 2026).</em></p>
+<p class="note">Endret ved forskrifter 3 juli 2015 nr. 877 , 28 sep 2015 nr. 1130 , 4 nov 2015 nr. 1280 , 12 juli 2016 nr. 927 , 24 sep 2018 nr. 1461 , 9 mai 2019 nr. 590 , 28 sep 2020 nr. 1916 , 8 feb 2021 nr. 349 , 22 mars 2022 nr. 444 , 4 juli 2022 nr. 1302 , 12 des 2022 nr. 2159 , 6 feb 2023 nr. 155 , 2 mai 2023 nr. 646 , 19 des 2024 nr. 3385 , 10 feb 2025 nr. 168 , 17 mars 2025 nr. 462 , 9 mai 2025 nr. 773 , 22 sep 2025 nr. 1900 , 9 des 2025 nr. 2463 , 30 des 2025 nr. 2922 , 10 juli 2026 nr. 1549 (i kraft 13 juli 2026).</p>
 <h4 id="7-oppgavefordeling-mellom-medlemsland">§ 7. Oppgavefordeling mellom medlemsland</h4>
 <p>EØS-avtalens vedlegg II kapittel XV (forordning (EU) nr. 686/2012 sist endret ved forordning (EU) 2026/398 ) om utpeking av medlemsstater som i forbindelse med framgangsmåten for fornyelse skal vurdere aktive stoffer med godkjenninger, gjelder som forskrift med de tilpasninger som følger av vedlegg II kapittel XV , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 3 juli 2015 nr. 877 , 12 juli 2016 nr. 927 , 10 juli 2017 nr. 1172 , 6 aug 2018 nr. 1221 , 30 sep 2019 nr. 1285 , 16 des 2019 nr. 1804 , 22 mars 2021 nr. 827 , 5 feb 2024 nr. 173 , 18 mars 2024 nr. 461 , 19 des 2024 nr. 3385 , 8 juni 2026 nr. 1022 .</em></p>
+<p class="note">Endret ved forskrifter 3 juli 2015 nr. 877 , 12 juli 2016 nr. 927 , 10 juli 2017 nr. 1172 , 6 aug 2018 nr. 1221 , 30 sep 2019 nr. 1285 , 16 des 2019 nr. 1804 , 22 mars 2021 nr. 827 , 5 feb 2024 nr. 173 , 18 mars 2024 nr. 461 , 19 des 2024 nr. 3385 , 8 juni 2026 nr. 1022 .</p>
 <h2 id="kapittel-iii-autorisasjonsbevis">Kapittel III. Autorisasjonsbevis</h2>
 <h4 id="8-krav-om-autorisasjonsbevis-for-plantevernmidler">§ 8. Krav om autorisasjonsbevis for plantevernmidler</h4>
 <p>Det kreves norsk autorisasjonsbevis for plantevernmidler for å kunne kjøpe og bruke yrkespreparater og for å gi yrkesmessig veiledning om kjemisk plantevern. Plantevernmidler som er gassingsprodukter med høy fareklassifisering reguleres i § 8b . Biologiske preparater til bekjempelse av rotråte i skogbruk reguleres i § 8c .</p>
@@ -146,17 +337,17 @@ c. har gjennomført teoretisk del av norsk autorisasjonskurs for plantevernmidle
 d. har gjennomført praktisk del av autorisasjonskurs for plantevernmidler i løpet av de siste ti år før utstedelse, eller har gyldig autorisasjonsbevis for plantevernmidler utstedt i løpet av de siste ti år i annet EØS-land.</p>
 <p>Autorisasjonsbeviset gis med gyldighet i inntil ti år fra tidspunktet for bestått autorisasjonskurs og kan fornyes.</p>
 <p>Fornyelse av autorisasjonsbevis krever ny gjennomføring av teoretisk del av norsk autorisasjonskurs for plantevernmidler med bestått eksamen og det må dokumenteres et fortsatt yrkesmessig behov for autorisasjon.</p>
-<p><em>Endret ved forskrifter 17 sep 2018 nr. 1501 (i kraft 15 okt 2018), 3 juli 2024 nr. 1552 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 17 sep 2018 nr. 1501 (i kraft 15 okt 2018), 3 juli 2024 nr. 1552 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h4 id="8a-gnagermidler">§ 8a. Gnagermidler</h4>
 <p>Norsk autorisasjonsbevis for plantevernmidler med tilleggsbevis for gnagermidler gir rett til å kjøpe og bruke gnagermidler som er godkjent i produkttype 14 etter forskrift 18. april 2017 nr. 480 om biocider, men bare til bruk i og rundt bygninger på landbrukseiendom som innehaver av autorisasjonsbeviset eier eller leier, og bare dersom slik bruk er angitt på etiketten. For slik bruk gjelder forskrift 21. desember 2000 nr. 1406 om skadedyrbekjempelse.</p>
 <p>Tilleggsbevis for gnagermidler gis etter gjennomført kurs i gnagerbekjempelse med bestått eksamen. Beviset er gyldig i ti år, og fornyelse krever ny gjennomføring av kurset.</p>
-<p><em>Tilføyd ved forskrift 17 sep 2018 nr. 1501 (i kraft 15 okt 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 17 sep 2018 nr. 1501 (i kraft 15 okt 2018).</p>
 <h4 id="8b-gassingsprodukter-med-hy-fareklassifisering">§ 8b. Gassingsprodukter med høy fareklassifisering</h4>
 <p>Med gassingsprodukter med høy fareklassifisering menes i denne forskriften gassingsprodukter som er godkjent som plantevernmidler, og som er merket med piktogrammet akutt giftighet (dødninghode), og merket med faresetningene «Dødelig ved innånding» eller «Giftig ved innånding», eller som er merket med piktogrammet for kronisk helsefare og er merket med setningen «Forårsaker organskader» eller «Kan forårsake organskader».</p>
 <p>Det kreves gyldig godkjenning som skadedyrbekjemper med tilleggskurs som gassingsleder etter forskrift om skadedyrbekjempelse , i tillegg til gjennomført teoretisk del av autorisasjonskurs for plantevernmidler med bestått eksamen, jf. § 8 andre ledd bokstav c, for å få innvilget autorisasjon for å kjøpe og bruke gassingsprodukter med høy fareklassifisering til innendørs bruk.</p>
 <p>Det kreves gyldig godkjenning som skadedyrbekjemper med tilleggskurs om bekjempelse av vånd etter forskrift om skadedyrbekjempelse , i tillegg til gjennomført teoretisk del av autorisasjonskurs for plantevernmidler med bestått eksamen, jf. § 8 andre ledd bokstav c, for å få innvilget autorisasjon for å kjøpe og bruke gassingsprodukter med høy fareklassifisering til utendørs bruk.</p>
 <p>Autorisasjon for gassingsprodukter med høy fareklassifisering kan gis etter søknad vedlagt nødvendig dokumentasjon. Autorisasjonen er gyldig i samme periode som godkjenningen etter forskrift om skadedyrbekjempelse .</p>
-<p><em>Tilføyd ved forskrift 3 juli 2024 nr. 1552 .</em></p>
+<p class="note">Tilføyd ved forskrift 3 juli 2024 nr. 1552 .</p>
 <h4 id="8c-kompetansebevis-for-bekjempelse-av-rotrate-i-skogbruk">§ 8c. Kompetansebevis for bekjempelse av rotråte i skogbruk</h4>
 <p>Det kreves kompetansebevis for bekjempelse av rotråte i skogbruk etter denne paragrafen, eller autorisasjonsbevis for plantevernmidler etter § 8 , for å kjøpe og bruke biologiske preparater til bekjempelse av rotråte i skogbruk.</p>
 <p>For å ha rett til kompetansebevis for rotråtebekjempelse kreves det at personen</p>
@@ -165,21 +356,21 @@ b. kan dokumentere et yrkesmessig behov for kompetansebevis, og
 c. har gjennomført kurs i bekjempelse av rotråte i skogbruk.</p>
 <p>Kompetansebeviset gis med gyldighet i inntil ti år fra tidspunktet for gjennomført kurs i bekjempelse av rotråte i skogbruk, og kan fornyes.</p>
 <p>Fornyelse av kompetansebevis krever ny gjennomføring av kurs i bekjempelse av rotråte i skogbruk, og det må dokumenteres et fortsatt yrkesmessig behov for kompetansebevis.</p>
-<p><em>Tilføyd ved forskrift 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h4 id="9-myndigheten-som-utsteder-og-inndrar-autorisasjonsbevis-for-plantevernmidler-mv">§ 9. Myndigheten som utsteder og inndrar autorisasjonsbevis for plantevernmidler mv.</h4>
 <p>Mattilsynet fatter enkeltvedtak om autorisasjonsbevis for plantevernmidler etter § 8 , tilleggsbevis for gnagermidler etter § 8a , autorisasjon for gassingsprodukter etter § 8b og kompetansebevis for bekjempelse av rotråte i skogbruk etter § 8c i denne forskriften.</p>
 <p>Mattilsynet kan delegere myndighet til å holde eksamen og utstede autorisasjonsbevis for plantevernmidler, herunder å sørge for at det arrangeres autorisasjonskurs, til kommunen og statsforvalteren. Tilsvarende gjelder tilleggsbevis for gnagermidler.</p>
 <p>Mattilsynet kan delegere myndighet til å holde kurs og utstede kompetansebevis for bekjempelse av rotråte i skogbruk til andre offentlige eller private rettssubjekter. Kurset skal oppfylle de relevante kravene som følger av vedlegg 3 til denne forskriften og gi spesiell kompetanse om rotråtebekjempelse. Kursholdere skal ha relevant kompetanse på universitets- eller høyskolenivå, eller relevant kompetanse som er opparbeidet gjennom yrkespraksis.</p>
 <p>Mattilsynet hovedkontoret er klageinstans for vedtak om autorisasjon etter §§ 8 til 8c .</p>
 <p>Mattilsynet kan fatte vedtak om inndragelse av autorisasjon som er gitt etter §§ 8 til 8c .</p>
-<p><em>Endret ved forskrifter 17 sep 2018 nr. 1501 (i kraft 15 okt 2018), 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 3 juli 2024 nr. 1552 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 17 sep 2018 nr. 1501 (i kraft 15 okt 2018), 21 des 2020 nr. 3044 (i kraft 1 jan 2021), 3 juli 2024 nr. 1552 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h2 id="kapittel-iv-krav-til-distributrer-importrer-og-produsenter">Kapittel IV. Krav til distributører, importører og produsenter</h2>
 <h4 id="10-registrering-av-forhandlere-importrer-og-produsenter">§ 10. Registrering av forhandlere, importører og produsenter</h4>
 <p>Alle forhandlere, importører og produsenter av plantevernmidler, med unntak av forhandlere som bare omsetter bruksferdige hobbypreparater, skal registreres hos Mattilsynet før de omsetter, importerer eller produserer plantevernmidler. Registreringen skal skje på den måten Mattilsynet bestemmer.</p>
 <p>Ved registrering skal det for hvert utsalgssted utpekes en ansvarshavende for den delen av virksomheten som gjelder plantevernmidler. Vedkommende skal inneha autorisasjon etter § 8 . Vedkommende kan ikke være ansvarshavende for plantevernmidler på flere utsalgssteder samtidig.</p>
 <p>Endring av registrerte opplysninger skal meldes inn snarest og senest tre uker etter at endringen har funnet sted.</p>
 <p>Produsenter av plantevernmidler skal registrere hvert enkelt preparat som produseres.</p>
-<p><em>Endret ved forskrift 7 april 2017 nr. 472 .</em></p>
+<p class="note">Endret ved forskrift 7 april 2017 nr. 472 .</p>
 <h4 id="11-informasjonsplikt-og-kontroll-ved-salg">§ 11. Informasjonsplikt og kontroll ved salg</h4>
 <p>Distributører skal ved salg av plantevernmidler ha tilgjengelig minst én person som innehar autorisasjonsbevis i samsvar med bestemmelsene i § 8 . I salgslokaler skal en slik person være til stede så lenge yrkespreparater er tilgjengelige for salg. Kravet gjelder likevel ikke distributører som bare omsetter bruksferdige hobbypreparater.</p>
 <p>Distributører skal ved salg av plantevernmidler kunne bistå kundene med generell rådgivning om bruk, håndtering, oppbevaring, eksponering, helse- og miljørisiko og avfallshåndtering. Ved salg av yrkespreparater og konsentrerte hobbypreparater skal distributører kunne relatere opplysningene til det aktuelle produktet.</p>
@@ -187,7 +378,7 @@ c. har gjennomført kurs i bekjempelse av rotråte i skogbruk.</p>
 <p>Importører, produsenter og grossister har plikt til å sørge for at plantevernmidler, med unntak av bruksferdige hobbypreparater, bare selges til registrerte forhandlere. Videre skal de sikre at all omsetning av gassingsprodukter med høy fareklassifisering er sporbar og at informasjonen oppbevares i minst 3 år.</p>
 <p>Forhandlere har plikt til å sørge for at yrkespreparater bare selges til personer som innehar gyldig autorisasjonsbevis. Biologiske preparater til bekjempelse av rotråte i skogbruk kan likevel selges til personer som har kompetansebevis etter § 8c .</p>
 <p>Forhandlere har plikt til å sørge for at gassingsprodukter med høy fareklassifisering bare selges til personer med autorisasjon for gassingsprodukter. Forhandlere plikter også å oppbevare informasjon om hvem slike gassingsprodukter er solgt til i minst 3 år.</p>
-<p><em>Endret ved forskrifter 7 april 2017 nr. 472 , 22 mai 2018 nr. 746 , 3 juli 2024 nr. 1552 , 11 jan 2026 nr. 30 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 7 april 2017 nr. 472 , 22 mai 2018 nr. 746 , 3 juli 2024 nr. 1552 , 11 jan 2026 nr. 30 , 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h4 id="12-krav-om-internkontroll">§ 12. Krav om internkontroll</h4>
 <p>Alle forhandlere, importører og produsenter av plantevernmidler, med unntak av forhandlere som bare omsetter bruksferdige hobbypreparater, skal innføre og utøve internkontroll.</p>
 <p>Internkontrollen skal dokumenteres skriftlig, og dokumentasjonen skal være tilgjengelig for Mattilsynet.</p>
@@ -196,7 +387,7 @@ c. har gjennomført kurs i bekjempelse av rotråte i skogbruk.</p>
 b. kartlegge risiko for overtredelse av regelverket ut fra virksomhetens aktiviteter, og iverksette tiltak for å redusere risikoen,
 c. ha rutiner for å avdekke, rette opp og hindre gjentakelser av overtredelser, og
 d. foreta systematisk gjennomgang av internkontrollen for å sikre at den fungerer som forutsatt.</p>
-<p><em>Endret ved forskrift 7 april 2017 nr. 472 .</em></p>
+<p class="note">Endret ved forskrift 7 april 2017 nr. 472 .</p>
 <h4 id="13-krav-ved-retur-til-importr">§ 13. Krav ved retur til importør</h4>
 <p>Når godkjenningsperioden for et plantevernmiddel er utløpt, har importører plikt til å ta plantevernmiddel i uåpnet emballasje i retur fra forhandler eller grossist. Forhandler og grossist dekker kostnadene ved returen.</p>
 <p>Når godkjenningen for et preparat tilbakekalles av Mattilsynet med øyeblikkelig virkning, skal uåpnet emballasje returneres til importøren. Returkostnadene dekkes av importøren.</p>
@@ -209,7 +400,7 @@ d. foreta systematisk gjennomgang av internkontrollen for å sikre at den funger
 <p>Funksjonstest av spredeutstyr som er i yrkesmessig bruk, skal utføres av personell autorisert av Mattilsynet eller tilsvarende myndigheter i annet EØS-land i henhold til tidsintervall fastsatt i § 16 .</p>
 <p>Eier eller bruker av spredeutstyr som fremstilles for funksjonstest er ansvarlig for at spredeutstyret er grundig rengjort og grovtestet, og skal selv være tilstede under funksjonstesten.</p>
 <p>Mattilsynet kan gi nærmere bestemmelser om den praktiske gjennomføringen av funksjonstesten.</p>
-<p><em>Endret ved forskrift 7 april 2017 nr. 472 .</em></p>
+<p class="note">Endret ved forskrift 7 april 2017 nr. 472 .</p>
 <h4 id="16-krav-til-tidsintervall-og-registreringsmerke">§ 16. Krav til tidsintervall og registreringsmerke</h4>
 <p>Følgende frister og tidsintervaller gjelder for funksjonstest av spredeutstyr:</p>
 <p>a. Åkersprøyte, tåkesprøyte, jordbærbommer og spredeutstyr med total bomlengde på over tre meter, skal funksjonstestes minst hvert tredje år.
@@ -218,7 +409,7 @@ c. Spredeutstyr montert på luftfartøy eller tog skal funksjonstestes hvert år
 d. Spredeutstyr som ikke er omtalt i bokstav a, b og c skal funksjonstestes før 1. januar 2021, deretter minst hvert femte år.</p>
 <p>Ryggbåret og håndholdt spredeutstyr er unntatt krav til vanlig funksjonstest, men skal egentestes.</p>
 <p>Spredeutstyr med krav til funksjonstest skal ha påsatt gyldig registreringsmerke, dette gjelder også fabrikknytt utstyr.</p>
-<p><em>Endret ved forskrifter 7 april 2017 nr. 472 . 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 7 april 2017 nr. 472 . 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h2 id="kapittel-vi-srlige-krav-ved-spredning-fra-luftfarty">Kapittel VI. Særlige krav ved spredning fra luftfartøy</h2>
 <h4 id="17-spredning-av-plantevernmidler-fra-luftfarty">§ 17. Spredning av plantevernmidler fra luftfartøy</h4>
 <p>Spredning av plantevernmidler fra helikopter kan bare gjennomføres etter særskilt tillatelse.</p>
@@ -240,7 +431,7 @@ e. helikopteret er utstyrt med beste tilgjengelige teknologi for å redusere avd
 <p>Spredning av plantevernmidler skal ikke skje til ulempe for naboeiendommer.</p>
 <p>Spredning av plantevernmidler i kantsoner i og rundt innmark og på åkerholmer er forbudt. Forbudet omfatter ikke direkte stubbebehandling. For annen spredning enn direkte stubbebehandling kan det gis tillatelse dersom det er et ledd i skjøtselen av kulturlandskapet. Mattilsynet kan delegere myndighet til å fatte vedtak om slik tillatelse til kommunen.</p>
 <p>Plantevernmidler som er beregnet for yrkesmessig bruk skal ikke brukes i hobbyhager, på stueplanter o.l.</p>
-<p><em>Endret ved forskrift 7 april 2017 nr. 472 .</em></p>
+<p class="note">Endret ved forskrift 7 april 2017 nr. 472 .</p>
 <h4 id="20-plikt-til-a-redusere-risikoen-for-vannforurensning">§ 20. Plikt til å redusere risikoen for vannforurensning</h4>
 <p>Det er forbudt å spre plantevernmidler fra bakken nærmere enn tre meter fra overflatevann dersom ikke annet er angitt på plantevernmidlets etikett. Minsteavstand til drikkevannsbasseng er 50 meter. Ved spredning av plantevernmidler fra luftfartøy skal overflatevann ikke oversprøytes direkte.</p>
 <p>Det er forbudt å bruke spredeutstyrets pumpe til å fylle vann direkte fra vassdrag.</p>
@@ -269,7 +460,7 @@ b. de som har spesielle interesser i eller inntil sprøytefeltet, slik som birø
 c. ved spredning av plantevernmidler langs offentlig vei skal sprøytekjøretøyet merkes med «Sprøytearbeid pågår», og
 d. ved spredning av plantevernmidler på landbruksareal inkludert veksthus, skal arbeidstakere som bruker eller har tilgang til sprøytet areal informeres om håndteringsfrist (den tid det er påkrevd med bruk av verneutstyr for å gå inn på behandlet areal eller håndtere behandlede planter/plantedeler). For øvrig gjelder reglene i forskrift 6. desember 2011 nr. 1356 om utforming og innretning av arbeidsplasser og arbeidslokaler (arbeidsplassforskriften) kapittel 5 om skilting og merking.</p>
 <p>Den som utfører spredning av gassingsprodukter med høy fareklassifisering, skal tre uker før bruk sende melding til Mattilsynet med en vurdering av alle forhold som kan ha innvirkning på helse, hygiene eller sikkerhet ved bekjempelsen, og senest tre uker etter bruk sende kopi av relevante journaler til Mattilsynet.</p>
-<p><em>Endret ved forskrift 3 juli 2024 nr. 1552 .</em></p>
+<p class="note">Endret ved forskrift 3 juli 2024 nr. 1552 .</p>
 <h2 id="kapittel-viii-oppbevaring-og-rester-av-plantevernmidler">Kapittel VIII. Oppbevaring og rester av plantevernmidler</h2>
 <h4 id="24-oppbevaring-av-plantevernmidler">§ 24. Oppbevaring av plantevernmidler</h4>
 <p>All oppbevaring av yrkespreparater skal skje på følgende måte</p>
@@ -282,7 +473,7 @@ e. det må ikke plasseres varer av noen art under skap hvor plantevernmidler opp
 <p>a. hobbypreparater skal oppbevares i henhold til preparatets merking og adskilt fra kosmetikk, legemidler, fôr, nærings- og nytelsesmidler, og
 b. åpnet pakning skal oppbevares i lukket og tett beholder.</p>
 <p>For konsentrerte hobbypreparater gjelder i tillegg at de skal oppbevares i avlåst skap eller rom.</p>
-<p><em>Endret ved forskrift 7 april 2017 nr. 472 .</em></p>
+<p class="note">Endret ved forskrift 7 april 2017 nr. 472 .</p>
 <h4 id="25-behandling-og-levering-av-rester-emballasje-og-ubrukte-plantevernmidler">§ 25. Behandling og levering av rester, emballasje og ubrukte plantevernmidler</h4>
 <p>Plantevernmidler som ikke skal benyttes og tomemballasje som ikke er rengjort, skal leveres til godkjent mottak for farlig avfall. Dersom bruksgodkjenning for et yrkespreparat er opphørt, kan det fortsatt omsettes i seks måneder, dersom ikke kortere frist fremgår av avviklingsvedtaket. Tilsvarende kan preparatet brukes og lagres i inntil atten måneder fra opphørsdato.</p>
 <p>Emballasje som er rengjort i tråd med rettledningen på etiketten, kan leveres som vanlig avfall.</p>
@@ -308,7 +499,7 @@ g. preparatets emballasje og etikett tilfredsstiller retningslinjer fastsatt av 
 <p>Mattilsynet kan stille krav om at preparatet utprøves under norske forhold.</p>
 <p>Søknad om godkjenning sendes Mattilsynet. Søknaden skal inneholde tilstrekkelig dokumentasjon til at Mattilsynet kan vurdere om kravene i annet ledd er oppfylt.</p>
 <p>Godkjenning gis for et tidsrom på inntil femten år. Godkjenningen kan endres eller trekkes tilbake dersom noen av kravene i tredje ledd ikke lenger er oppfylt, eller vilkårene som blir satt for godkjenningen ikke overholdes, eller på anmodning fra innehaveren av godkjenningen.</p>
-<p><em>Endret ved forskrifter 7 april 2017 nr. 472 , 22 mai 2018 nr. 746 .</em></p>
+<p class="note">Endret ved forskrifter 7 april 2017 nr. 472 , 22 mai 2018 nr. 746 .</p>
 <h2 id="kapittel-xi-avsluttende-bestemmelser">Kapittel XI. Avsluttende bestemmelser</h2>
 <h4 id="28-miljavgift">§ 28. Miljøavgift</h4>
 <p>Produsenter og importører av plantevernmidler skal betale miljøavgift for plantevernmidler. Plikt til å betale avgift gjelder ikke for organismer etter § 27 .</p>
@@ -322,13 +513,13 @@ d. avgiftsklasse 4, preparater med middels helserisiko og høy miljørisiko, ell
 e. avgiftsklasse 5; preparater med høy helse- og miljørisiko; faktor 9
 f. avgiftsklasse 6, hobbypreparater som er konsentrerte; faktor 50
 g. avgiftsklasse 7, hobbypreparater som foreligger i bruksferdig stand; faktor 150.</p>
-<p><em>Endret ved forskrifter 23 okt 2017 nr. 1653 . 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 okt 2017 nr. 1653 . 9 sep 2026 nr. 1779 (i kraft 14 sep 2026).</p>
 <h4 id="28a-risikoindikatorer">§ 28a. Risikoindikatorer</h4>
 <p>Mattilsynet skal hvert år beregne følgende risikoindikatorer:</p>
 <p>a. Nasjonal miljørisikoindikator basert på antatt bruk, antatt miljøeksponering og stoffenes miljøegenskaper.
 b. Nasjonal helserisikoindikator basert på omsatt mengde av preparat, antatt brukereksponering og preparatets helseegenskaper.
 c. Harmoniserte risikoindikatorer etter beskrivelsen i vedlegg IV til direktiv 2009/128/EF , som endret ved direktiv (EU) 2019/782 .</p>
-<p><em>Tilføyd ved forskrift 25 okt 2022 nr. 1801 .</em></p>
+<p class="note">Tilføyd ved forskrift 25 okt 2022 nr. 1801 .</p>
 <h4 id="29-tilsyn-og-vedtak">§ 29. Tilsyn og vedtak</h4>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige enkeltvedtak, jf. matloven § 23 , for å oppnå etterlevelse av bestemmelser gitt i eller i medhold av denne forskriften. Mattilsynet kan også fatte enkeltvedtak i henhold til matloven § 24 til § 26 .</p>
 <h4 id="30-straff">§ 30. Straff</h4>
@@ -1829,6 +2020,8 @@ e. en forordning som inneholder kravene til merking av plantevernmidler som nevn
 <p>Nedenfor gjengis til informasjon norsk uoffisiell oversettelse av forordning med bestemmelser om dataformat ved innsending av søknad om godkjenning av aktive stoffer: Forordning (EU) 2021/428 pdf-fil</p>
 <p>Nedenfor gjengis til informasjon norsk uoffisiell oversettelse av forordning om fastsettelse av datakrav for godkjenning av beskyttende midler og synergister og om fastsettelse av et arbeidsprogram for gradvis revurdering av beskyttende midler og synergister på markedet: Forordning (EU) 2024/1487 pdf-fil Forordning (EU) 2025/2274 pdf-fil</p>
 <p>Nedenfor gjengis til informasjon norsk uoffisiell oversettelse av forordning om fastsettelse av detaljerte regler for identifisering av formuleringsstoffer som ikke er tillatt brukt i plantevernmidler: Forordning (EU) 2023/574 pdf-fil</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

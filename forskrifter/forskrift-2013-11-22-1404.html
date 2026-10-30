@@ -19,68 +19,433 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-11-22-1404.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om fiskefartøy under 15 m" href="../feeds/forskrift-2013-11-22-1404.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om fiskefartøy under 15 m</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-11-22-1404</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-26-1372</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#1-generelle-bestemmelser">1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#2-konstruksjon">2. Konstruksjon</a></li>
+<li class="lvl4"><a href="#3-kapittelets-anvendelsesomrade">§ 3. Kapittelets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#4-byggekrav">§ 4. Byggekrav</a></li>
+<li class="lvl4"><a href="#5-krav-til-lasterom-for-fring-av-fisk-i-vann-og-i-bulk">§ 5. Krav til lasterom for føring av fisk i vann og i bulk</a></li>
+<li class="lvl4"><a href="#5a-tral-snurpe-kraftblokk-og-snurrevadarrangement">§ 5a. Trål-, snurpe-, kraftblokk- og snurrevadarrangement</a></li>
+<li class="lvl4"><a href="#6-skansekledninger-rekkverk-og-beskyttelsesanordninger">§ 6. Skansekledninger, rekkverk og beskyttelsesanordninger</a></li>
+<li class="lvl2"><a href="#3-brann-maskineri-og-elektro">3. Brann, maskineri og elektro</a></li>
+<li class="lvl4"><a href="#7-kapittelets-anvendelsesomrade">§ 7. Kapittelets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#8-brannsikring">§ 8. Brannsikring</a></li>
+<li class="lvl4"><a href="#9-oljefyrt-ovn">§ 9. Oljefyrt ovn</a></li>
+<li class="lvl4"><a href="#10-installasjon-mv-av-oljefyrt-ovn">§ 10. Installasjon mv. av oljefyrt ovn</a></li>
+<li class="lvl4"><a href="#11-isolasjon-av-ildsteder-mv">§ 11. Isolasjon av ildsteder mv.</a></li>
+<li class="lvl4"><a href="#12-rykopptak-og-eksosrr">§ 12. Røykopptak og eksosrør</a></li>
+<li class="lvl4"><a href="#13-isolering-med-ubrennbart-materiale">§ 13. Isolering med ubrennbart materiale</a></li>
+<li class="lvl4"><a href="#14-isolasjon-av-maskinrom-pa-trefarty">§ 14. Isolasjon av maskinrom på trefartøy</a></li>
+<li class="lvl4"><a href="#15-brannslokningsanlegg-i-maskinrom">§ 15. Brannslokningsanlegg i maskinrom</a></li>
+<li class="lvl4"><a href="#16-brannoppdagelses-og-alarmanlegg">§ 16. Brannoppdagelses- og alarmanlegg</a></li>
+<li class="lvl4"><a href="#17-brannslokningsapparater">§ 17. Brannslokningsapparater</a></li>
+<li class="lvl4"><a href="#18-ventilasjonssystemer">§ 18. Ventilasjonssystemer</a></li>
+<li class="lvl4"><a href="#19-materialer-mm">§ 19. Materialer m.m.</a></li>
+<li class="lvl4"><a href="#20-oppbevaring-av-brennolje-og-andre-brennbare-vsker">§ 20. Oppbevaring av brennolje og andre brennbare væsker</a></li>
+<li class="lvl4"><a href="#21-materialer-i-rrledninger-mv">§ 21. Materialer i rørledninger mv.</a></li>
+<li class="lvl4"><a href="#22-maskineri-og-rrsystemer">§ 22. Maskineri og rørsystemer</a></li>
+<li class="lvl4"><a href="#23-elektriske-anlegg">§ 23. Elektriske anlegg</a></li>
+<li class="lvl4"><a href="#24-ndkraftkilde-og-ndlys-mv">§ 24. Nødkraftkilde og nødlys, mv.</a></li>
+<li class="lvl4"><a href="#25-likeverdige-lsninger">§ 25. Likeverdige løsninger</a></li>
+<li class="lvl2"><a href="#4-stabilitet-og-fribord">4. Stabilitet og fribord</a></li>
+<li class="lvl4"><a href="#26-stabilitetsberegninger">§ 26. Stabilitetsberegninger</a></li>
+<li class="lvl4"><a href="#27-stabilitetsdokumentasjon-og-krengeprve">§ 27. Stabilitetsdokumentasjon og krengeprøve</a></li>
+<li class="lvl4"><a href="#28-stabilitet-for-lukkede-fartyer">§ 28. Stabilitet for lukkede fartøyer</a></li>
+<li class="lvl4"><a href="#29-stabilitetskriterier">§ 29. Stabilitetskriterier</a></li>
+<li class="lvl4"><a href="#30-baughyde">§ 30. Baughøyde</a></li>
+<li class="lvl4"><a href="#31-stabilitet-og-fribord-for-apne-farty">§ 31. Stabilitet og fribord for åpne fartøy</a></li>
+<li class="lvl4"><a href="#32-vann-pa-dekk-og-i-apne-rom">§ 32. Vann på dekk og i åpne rom</a></li>
+<li class="lvl4"><a href="#33-overisingstillegg">§ 33. Overisingstillegg</a></li>
+<li class="lvl4"><a href="#34-stabilitetsopplysninger">§ 34. Stabilitetsopplysninger</a></li>
+<li class="lvl4"><a href="#35-fribord-pa-lukket-farty">§ 35. Fribord på lukket fartøy</a></li>
+<li class="lvl2"><a href="#5-redningsredskaper-og-arrangementer">5. Redningsredskaper- og arrangementer</a></li>
+<li class="lvl4"><a href="#36-redningsvester">§ 36. Redningsvester</a></li>
+<li class="lvl4"><a href="#37-redningsdrakter">§ 37. Redningsdrakter</a></li>
+<li class="lvl4"><a href="#38-redningsflate">§ 38. Redningsflåte</a></li>
+<li class="lvl4"><a href="#39-plassering-av-redningsmidler">§ 39. Plassering av redningsmidler</a></li>
+<li class="lvl4"><a href="#40-utstyr-for-alarmering">§ 40. Utstyr for alarmering</a></li>
+<li class="lvl4"><a href="#41-bording-av-redningsmidler">§ 41. Bording av redningsmidler</a></li>
+<li class="lvl4"><a href="#42-forholdsregler-for-a-holde-redningsmidler-og-annet-redningsutstyr-klart-til-bruk">§ 42. Forholdsregler for å holde redningsmidler og annet redningsutstyr klart til bruk</a></li>
+<li class="lvl4"><a href="#43-livbyer">§ 43. Livbøyer</a></li>
+<li class="lvl4"><a href="#44-ndsignalutstyr-og-pyroteknisk-utstyr">§ 44. Nødsignalutstyr og pyroteknisk utstyr</a></li>
+<li class="lvl4"><a href="#45-alarmanlegg-alarminstruks-og-velser">§ 45. Alarmanlegg, alarminstruks og øvelser</a></li>
+<li class="lvl4"><a href="#46">§ 46</a></li>
+<li class="lvl2"><a href="#6-sikkerhetstiltak">6. Sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#47-fartsomradebegrensninger">§ 47. Fartsområdebegrensninger</a></li>
+<li class="lvl4"><a href="#48-faste-og-flyttbare-atkomstmidler-om-bord">§ 48. Faste og flyttbare atkomstmidler om bord</a></li>
+<li class="lvl4"><a href="#49-atkomstmiddel-for-sikker-iland-og-ombordstigning">§ 49. Atkomstmiddel for sikker iland- og ombordstigning</a></li>
+<li class="lvl4"><a href="#50-lukningsmidler-luker-og-drer">§ 50. Lukningsmidler – luker og dører</a></li>
+<li class="lvl4"><a href="#51-luker-til-overbygget-arbeidsdekk-og-produksjonsdekk">§ 51. Luker til overbygget arbeidsdekk og produksjonsdekk</a></li>
+<li class="lvl4"><a href="#52-drenering-av-overbygget-arbeidsdekk">§ 52. Drenering av overbygget arbeidsdekk</a></li>
+<li class="lvl4"><a href="#53-fring-av-dekkslast">§ 53. Føring av dekkslast</a></li>
+<li class="lvl4"><a href="#54-nedlasting-drenering-av-apent-dekk">§ 54. Nedlasting, drenering av åpent dekk</a></li>
+<li class="lvl4"><a href="#55-kontroll-av-gassfare-mv">§ 55. Kontroll av gassfare mv.</a></li>
+<li class="lvl4"><a href="#56-merking-av-tanker-rom-mm-og-fareplan">§ 56. Merking av tanker, rom m.m. og fareplan</a></li>
+<li class="lvl4"><a href="#57-skilt-og-oppslag">§ 57. Skilt og oppslag</a></li>
+<li class="lvl4"><a href="#58-oppbevaring-av-brennstoff">§ 58. Oppbevaring av brennstoff</a></li>
+<li class="lvl4"><a href="#59-varselskilt-ved-radarantenne">§ 59. Varselskilt ved radarantenne</a></li>
+<li class="lvl4"><a href="#60-radarreflektor">§ 60. Radarreflektor</a></li>
+<li class="lvl4"><a href="#61-refleksmiddel">§ 61. Refleksmiddel</a></li>
+<li class="lvl4"><a href="#62-sklisikring-av-dekk">§ 62. Sklisikring av dekk</a></li>
+<li class="lvl4"><a href="#63-leidere">§ 63. Leidere</a></li>
+<li class="lvl2"><a href="#7-radio">7. Radio</a></li>
+<li class="lvl4"><a href="#64-virkeomrade">§ 64. Virkeområde</a></li>
+<li class="lvl4"><a href="#65-dokumentasjon-som-skal-finnes-om-bord">§ 65. Dokumentasjon som skal finnes om bord</a></li>
+<li class="lvl4"><a href="#66-sikkerhetssertifikat-for-radio">§ 66. Sikkerhetssertifikat for radio</a></li>
+<li class="lvl4"><a href="#67-krav-til-godkjenning">§ 67. Krav til godkjenning</a></li>
+<li class="lvl4"><a href="#68-funksjons-og-utstyrskrav">§ 68. Funksjons- og utstyrskrav</a></li>
+<li class="lvl4"><a href="#69-installasjon-og-plassering-av-utstyr">§ 69. Installasjon og plassering av utstyr</a></li>
+<li class="lvl4"><a href="#70-elektriske-kraftkilder">§ 70. Elektriske kraftkilder</a></li>
+<li class="lvl4"><a href="#71-radiovakt">§ 71. Radiovakt</a></li>
+<li class="lvl4"><a href="#72-vedlikehold">§ 72. Vedlikehold</a></li>
+<li class="lvl4"><a href="#73-radioopptegnelser">§ 73. Radioopptegnelser</a></li>
+<li class="lvl4"><a href="#74-posisjonsoppdatering">§ 74. Posisjonsoppdatering</a></li>
+<li class="lvl2"><a href="#8-navigasjonsutrustning-og-styrehusarrangement">8. Navigasjonsutrustning og styrehusarrangement</a></li>
+<li class="lvl4"><a href="#75-kompass">§ 75. Kompass</a></li>
+<li class="lvl4"><a href="#76-selvstyreranlegg-og-styrehjelp">§ 76. Selvstyreranlegg og styrehjelp</a></li>
+<li class="lvl4"><a href="#77-brovaktalarm">§ 77. Brovaktalarm</a></li>
+<li class="lvl4"><a href="#78-fart-og-distansemaler">§ 78. Fart- og distansemåler</a></li>
+<li class="lvl4"><a href="#79-radaranlegg">§ 79. Radaranlegg</a></li>
+<li class="lvl4"><a href="#80-elektronisk-utstyr-for-posisjonsbestemmelse">§ 80. Elektronisk utstyr for posisjonsbestemmelse</a></li>
+<li class="lvl4"><a href="#81-utstyr-for-a-male-dybde">§ 81. Utstyr for å måle dybde</a></li>
+<li class="lvl4"><a href="#82-styreanordninger-mv">§ 82. Styreanordninger mv.</a></li>
+<li class="lvl4"><a href="#83-skipsur">§ 83. Skipsur</a></li>
+<li class="lvl4"><a href="#84-kikkert-og-termometer">§ 84. Kikkert og termometer</a></li>
+<li class="lvl4"><a href="#85-kart-og-nautiske-publikasjoner">§ 85. Kart og nautiske publikasjoner</a></li>
+<li class="lvl4"><a href="#86-lanterner">§ 86. Lanterner</a></li>
+<li class="lvl4"><a href="#87-signaleringsutstyr">§ 87. Signaleringsutstyr</a></li>
+<li class="lvl4"><a href="#88-lydsignalapparater">§ 88. Lydsignalapparater</a></li>
+<li class="lvl4"><a href="#89-lyskaster">§ 89. Lyskaster</a></li>
+<li class="lvl4"><a href="#90-bruksanvisninger-reservedeler-mv">§ 90. Bruksanvisninger, reservedeler mv.</a></li>
+<li class="lvl4"><a href="#91-styrehusarrangement-sikt-fra-styrehus-mv">§ 91. Styrehusarrangement, sikt fra styrehus mv.</a></li>
+<li class="lvl2"><a href="#9-kontroll-og-dokumentasjon">9. Kontroll og dokumentasjon</a></li>
+<li class="lvl4"><a href="#92-fartyinstruks">§ 92. Fartøyinstruks</a></li>
+<li class="lvl4"><a href="#93-samordning-av-kontroll">§ 93. Samordning av kontroll</a></li>
+<li class="lvl4"><a href="#94-kontroll-av-farty-under-8-meter">§ 94. Kontroll av fartøy under 8 meter</a></li>
+<li class="lvl4"><a href="#95-kontroll-av-farty-med-strste-lengde-8-til-9-meter">§ 95. Kontroll av fartøy med største lengde 8 til 9 meter</a></li>
+<li class="lvl4"><a href="#96-kontroll-av-farty-med-strste-lengde-9-til-1067-meter">§ 96. Kontroll av fartøy med største lengde 9 til 10,67 meter</a></li>
+<li class="lvl4"><a href="#97-kontroll-av-farty-med-strste-lengde-1067-til-15-meter">§ 97. Kontroll av fartøy med største lengde 10,67 til 15 meter</a></li>
+<li class="lvl4"><a href="#98-innrapportering-av-kontroll-ved-godkjent-foretak-og-reders-egenkontroll">§ 98. Innrapportering av kontroll ved godkjent foretak og reders egenkontroll</a></li>
+<li class="lvl4"><a href="#99-annen-kontroll-av-farty-ved-skade-ombygging-fartstillatelse-mm">§ 99. Annen kontroll av fartøy ved skade, ombygging, fartstillatelse m.m.</a></li>
+<li class="lvl4"><a href="#99a-kontroll-av-lfteutstyr">§ 99a. Kontroll av løfteutstyr</a></li>
+<li class="lvl4"><a href="#100-kontroll-av-det-elektriske-anlegget-ved-akseptert-elektroforetak">§ 100. Kontroll av det elektriske anlegget ved akseptert elektroforetak</a></li>
+<li class="lvl4"><a href="#101-dokumentasjon-ved-nybygg-og-ombygging">§ 101. Dokumentasjon ved nybygg og ombygging</a></li>
+<li class="lvl4"><a href="#102-dokumentasjon-om-bord-pa-fartyet">§ 102. Dokumentasjon om bord på fartøyet</a></li>
+<li class="lvl2"><a href="#10-avsluttende-bestemmelser">10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#103-dispensasjon-og-likeverdige-lsninger">§ 103. Dispensasjon og likeverdige løsninger</a></li>
+<li class="lvl4"><a href="#104-ikrafttredelse">§ 104. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#105-overgangsregler">§ 105. Overgangsregler</a></li>
+<li class="lvl2"><a href="#vedlegg-1-oversikt-kontroll-av-fiskefarty-under-15-meter-strste-lengde">Vedlegg 1. Oversikt – kontroll av fiskefartøy under 15 meter største lengde</a></li>
+<li class="lvl2"><a href="#vedlegg-2-liste-over-dokumentasjon-som-skal-oppbevares-om-bord-pa-fartyet">Vedlegg 2. Liste over dokumentasjon som skal oppbevares om bord på fartøyet</a></li>
+<li class="lvl2"><a href="#vedlegg-3-brannisolasjon">Vedlegg 3. Brannisolasjon</a></li>
+<li class="lvl2"><a href="#vedlegg-4-retningslinjer-om-typegodkjennelse-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-pa-fiskefarty">Vedlegg 4. Retningslinjer om typegodkjennelse av fast installerte brannoppdagelses- og brannalarmanlegg på fiskefartøy</a></li>
+<li class="lvl3"><a href="#del-i-bestemmelser-om-typegodkjennelse-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-pa-fiskefarty">Del I. Bestemmelser om typegodkjennelse av fast installerte brannoppdagelses- og brannalarmanlegg på fiskefartøy</a></li>
+<li class="lvl4"><a href="#bilag-1-til-del-i-fremgangsmate-for-godkjennelse-av-sentralutstyr">Bilag 1 til Del I. Fremgangsmåte for godkjennelse av sentralutstyr</a></li>
+<li class="lvl4"><a href="#bilag-2-til-del-i-fremgangsmate-for-godkjennelse-av-detektorer">Bilag 2 til Del I. Fremgangsmåte for godkjennelse av detektorer</a></li>
+<li class="lvl3"><a href="#del-ii-retningslinjer-om-installasjon-og-godkjennelse-av-installasjon-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-og-rkvarslingsanlegg-pa-fiskefarty">Del II. Retningslinjer om installasjon og godkjennelse av installasjon av fast installerte brannoppdagelses- og brannalarmanlegg og røkvarslingsanlegg på fiskefartøy</a></li>
+<li class="lvl4"><a href="#bilag-1-til-del-ii-rettledning-for-valg-og-plassering-av-detektorer-i-maskinrom">Bilag 1 til Del II. Rettledning for valg og plassering av detektorer i maskinrom</a></li>
+<li class="lvl4"><a href="#bilag-2-til-del-ii-retningslinjer-for-godkjennelse-av-installert-branndeteksjons-og-varslingsutstyr">Bilag 2 til Del II. Retningslinjer for godkjennelse av installert branndeteksjons- og varslingsutstyr.</a></li>
+<li class="lvl2"><a href="#vedlegg-5-prosedyrer-for-utfrelse-av-krengeprver-og-deplasementsmalinger-for-norske-skip">Vedlegg 5. Prosedyrer for utførelse av krengeprøver og deplasementsmålinger for norske skip</a></li>
+<li class="lvl3"><a href="#bestemmelse-av-lettskipsvekt-og-tyngdepunkt">Bestemmelse av lettskipsvekt og -tyngdepunkt</a></li>
+<li class="lvl4"><a href="#1-innledning">1. Innledning</a></li>
+<li class="lvl4"><a href="#2-definisjoner_1">2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-ansvarsfordeling">3. Ansvarsfordeling</a></li>
+<li class="lvl4"><a href="#4-forberedelser-til-deplasementsmalinger">4. Forberedelser til deplasementsmålinger</a></li>
+<li class="lvl5"><a href="#41-begjring-om-besiktelse">4.1 Begjæring om besiktelse</a></li>
+<li class="lvl5"><a href="#42-skipets-tilstand">4.2 Skipets tilstand</a></li>
+<li class="lvl5"><a href="#43-tanker">4.3 Tanker</a></li>
+<li class="lvl5"><a href="#44-dypgangsmalinger">4.4 Dypgangsmålinger</a></li>
+<li class="lvl5"><a href="#45-tilleggsbestemmelser-for-krengeprver">4.5 Tilleggsbestemmelser for krengeprøver</a></li>
+<li class="lvl5"><a href="#46-ndvendig-underlagsmateriale">4.6 Nødvendig underlagsmateriale</a></li>
+<li class="lvl4"><a href="#5-gjennomfring-av-krengeprven">5. Gjennomføring av krengeprøven</a></li>
+<li class="lvl5"><a href="#51-krav-til-utfrelse">5.1 Krav til utførelse</a></li>
+<li class="lvl5"><a href="#52-tolking-av-plottete-avlesninger">5.2 Tolking av plottete avlesninger</a></li>
+<li class="lvl5"><a href="#53-spesielle-hensyn-ved-bruk-av-u-rr">5.3 Spesielle hensyn ved bruk av U-rør</a></li>
+<li class="lvl2"><a href="#vedlegg-6-rapport-om-krengeprve-og-beregning-av-lettskipsdata">Vedlegg 6. Rapport om krengeprøve og beregning av lettskipsdata</a></li>
+<li class="lvl3"><a href="#1-generelle-opplysninger">1. Generelle opplysninger</a></li>
+<li class="lvl3"><a href="#2-fartyets-hoveddimensjoner">2. Fartøyets hoveddimensjoner</a></li>
+<li class="lvl3"><a href="#3-andre-opplysninger">3. Andre opplysninger</a></li>
+<li class="lvl3"><a href="#4-dypgangsavlesninger">4. Dypgangsavlesninger</a></li>
+<li class="lvl3"><a href="#5-hydrostatiske-data-for-krengeprvetilstanden">5. Hydrostatiske data for krengeprøvetilstanden</a></li>
+<li class="lvl3"><a href="#6-oversikt-over-krengevektene">6. Oversikt over krengevektene</a></li>
+<li class="lvl3"><a href="#7-pendler">7. Pendler</a></li>
+<li class="lvl3"><a href="#8-tanker-til-fradrag">8. Tanker til fradrag</a></li>
+<li class="lvl3"><a href="#9-rekkeflgen-av-flyttingen-av-vektene">9. Rekkefølgen av flyttingen av vektene</a></li>
+<li class="lvl3"><a href="#10-generelle-krav-til-utfrelse">10. Generelle krav til utførelse</a></li>
+<li class="lvl3"><a href="#11-malt-metasenterhyde-for-skip-som-krenget">11. Målt metasenterhøyde for skip som krenget</a></li>
+<li class="lvl3"><a href="#12-resultater-fra-krengeprven">12. Resultater fra krengeprøven</a></li>
+<li class="lvl3"><a href="#13-beregning-av-lett-skip">13. Beregning av lett skip</a></li>
+<li class="lvl3"><a href="#14-spesielle-vekter-som-er-regnet-med-i-lett-skip">14. Spesielle vekter som er regnet med i lett skip</a></li>
+<li class="lvl2"><a href="#vedlegg-7-funksjonskrav-for-brovaktalarm">Vedlegg 7. Funksjonskrav for brovaktalarm</a></li>
+<li class="lvl2"><a href="#vedlegg-8-vann-pa-dekk">Vedlegg 8. Vann på dekk</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-26-1372.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-22-1404.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fiskefartøy med største lengde under 15 meter</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-11-22-1404.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-11-22-1404 <code>forskrift/2013-11-22-1404</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om fiskefartøy under 15 m</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-26-1372 <code>forskrift/2025-06-26-1372</code> fra 26.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-11-22-1404" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#1-generelle-bestemmelser">1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#2-konstruksjon">2. Konstruksjon</a></li>
+<li class="lvl4"><a href="#3-kapittelets-anvendelsesomrade">§ 3. Kapittelets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#4-byggekrav">§ 4. Byggekrav</a></li>
+<li class="lvl4"><a href="#5-krav-til-lasterom-for-fring-av-fisk-i-vann-og-i-bulk">§ 5. Krav til lasterom for føring av fisk i vann og i bulk</a></li>
+<li class="lvl4"><a href="#5a-tral-snurpe-kraftblokk-og-snurrevadarrangement">§ 5a. Trål-, snurpe-, kraftblokk- og snurrevadarrangement</a></li>
+<li class="lvl4"><a href="#6-skansekledninger-rekkverk-og-beskyttelsesanordninger">§ 6. Skansekledninger, rekkverk og beskyttelsesanordninger</a></li>
+<li class="lvl2"><a href="#3-brann-maskineri-og-elektro">3. Brann, maskineri og elektro</a></li>
+<li class="lvl4"><a href="#7-kapittelets-anvendelsesomrade">§ 7. Kapittelets anvendelsesområde</a></li>
+<li class="lvl4"><a href="#8-brannsikring">§ 8. Brannsikring</a></li>
+<li class="lvl4"><a href="#9-oljefyrt-ovn">§ 9. Oljefyrt ovn</a></li>
+<li class="lvl4"><a href="#10-installasjon-mv-av-oljefyrt-ovn">§ 10. Installasjon mv. av oljefyrt ovn</a></li>
+<li class="lvl4"><a href="#11-isolasjon-av-ildsteder-mv">§ 11. Isolasjon av ildsteder mv.</a></li>
+<li class="lvl4"><a href="#12-rykopptak-og-eksosrr">§ 12. Røykopptak og eksosrør</a></li>
+<li class="lvl4"><a href="#13-isolering-med-ubrennbart-materiale">§ 13. Isolering med ubrennbart materiale</a></li>
+<li class="lvl4"><a href="#14-isolasjon-av-maskinrom-pa-trefarty">§ 14. Isolasjon av maskinrom på trefartøy</a></li>
+<li class="lvl4"><a href="#15-brannslokningsanlegg-i-maskinrom">§ 15. Brannslokningsanlegg i maskinrom</a></li>
+<li class="lvl4"><a href="#16-brannoppdagelses-og-alarmanlegg">§ 16. Brannoppdagelses- og alarmanlegg</a></li>
+<li class="lvl4"><a href="#17-brannslokningsapparater">§ 17. Brannslokningsapparater</a></li>
+<li class="lvl4"><a href="#18-ventilasjonssystemer">§ 18. Ventilasjonssystemer</a></li>
+<li class="lvl4"><a href="#19-materialer-mm">§ 19. Materialer m.m.</a></li>
+<li class="lvl4"><a href="#20-oppbevaring-av-brennolje-og-andre-brennbare-vsker">§ 20. Oppbevaring av brennolje og andre brennbare væsker</a></li>
+<li class="lvl4"><a href="#21-materialer-i-rrledninger-mv">§ 21. Materialer i rørledninger mv.</a></li>
+<li class="lvl4"><a href="#22-maskineri-og-rrsystemer">§ 22. Maskineri og rørsystemer</a></li>
+<li class="lvl4"><a href="#23-elektriske-anlegg">§ 23. Elektriske anlegg</a></li>
+<li class="lvl4"><a href="#24-ndkraftkilde-og-ndlys-mv">§ 24. Nødkraftkilde og nødlys, mv.</a></li>
+<li class="lvl4"><a href="#25-likeverdige-lsninger">§ 25. Likeverdige løsninger</a></li>
+<li class="lvl2"><a href="#4-stabilitet-og-fribord">4. Stabilitet og fribord</a></li>
+<li class="lvl4"><a href="#26-stabilitetsberegninger">§ 26. Stabilitetsberegninger</a></li>
+<li class="lvl4"><a href="#27-stabilitetsdokumentasjon-og-krengeprve">§ 27. Stabilitetsdokumentasjon og krengeprøve</a></li>
+<li class="lvl4"><a href="#28-stabilitet-for-lukkede-fartyer">§ 28. Stabilitet for lukkede fartøyer</a></li>
+<li class="lvl4"><a href="#29-stabilitetskriterier">§ 29. Stabilitetskriterier</a></li>
+<li class="lvl4"><a href="#30-baughyde">§ 30. Baughøyde</a></li>
+<li class="lvl4"><a href="#31-stabilitet-og-fribord-for-apne-farty">§ 31. Stabilitet og fribord for åpne fartøy</a></li>
+<li class="lvl4"><a href="#32-vann-pa-dekk-og-i-apne-rom">§ 32. Vann på dekk og i åpne rom</a></li>
+<li class="lvl4"><a href="#33-overisingstillegg">§ 33. Overisingstillegg</a></li>
+<li class="lvl4"><a href="#34-stabilitetsopplysninger">§ 34. Stabilitetsopplysninger</a></li>
+<li class="lvl4"><a href="#35-fribord-pa-lukket-farty">§ 35. Fribord på lukket fartøy</a></li>
+<li class="lvl2"><a href="#5-redningsredskaper-og-arrangementer">5. Redningsredskaper- og arrangementer</a></li>
+<li class="lvl4"><a href="#36-redningsvester">§ 36. Redningsvester</a></li>
+<li class="lvl4"><a href="#37-redningsdrakter">§ 37. Redningsdrakter</a></li>
+<li class="lvl4"><a href="#38-redningsflate">§ 38. Redningsflåte</a></li>
+<li class="lvl4"><a href="#39-plassering-av-redningsmidler">§ 39. Plassering av redningsmidler</a></li>
+<li class="lvl4"><a href="#40-utstyr-for-alarmering">§ 40. Utstyr for alarmering</a></li>
+<li class="lvl4"><a href="#41-bording-av-redningsmidler">§ 41. Bording av redningsmidler</a></li>
+<li class="lvl4"><a href="#42-forholdsregler-for-a-holde-redningsmidler-og-annet-redningsutstyr-klart-til-bruk">§ 42. Forholdsregler for å holde redningsmidler og annet redningsutstyr klart til bruk</a></li>
+<li class="lvl4"><a href="#43-livbyer">§ 43. Livbøyer</a></li>
+<li class="lvl4"><a href="#44-ndsignalutstyr-og-pyroteknisk-utstyr">§ 44. Nødsignalutstyr og pyroteknisk utstyr</a></li>
+<li class="lvl4"><a href="#45-alarmanlegg-alarminstruks-og-velser">§ 45. Alarmanlegg, alarminstruks og øvelser</a></li>
+<li class="lvl4"><a href="#46">§ 46</a></li>
+<li class="lvl2"><a href="#6-sikkerhetstiltak">6. Sikkerhetstiltak</a></li>
+<li class="lvl4"><a href="#47-fartsomradebegrensninger">§ 47. Fartsområdebegrensninger</a></li>
+<li class="lvl4"><a href="#48-faste-og-flyttbare-atkomstmidler-om-bord">§ 48. Faste og flyttbare atkomstmidler om bord</a></li>
+<li class="lvl4"><a href="#49-atkomstmiddel-for-sikker-iland-og-ombordstigning">§ 49. Atkomstmiddel for sikker iland- og ombordstigning</a></li>
+<li class="lvl4"><a href="#50-lukningsmidler-luker-og-drer">§ 50. Lukningsmidler – luker og dører</a></li>
+<li class="lvl4"><a href="#51-luker-til-overbygget-arbeidsdekk-og-produksjonsdekk">§ 51. Luker til overbygget arbeidsdekk og produksjonsdekk</a></li>
+<li class="lvl4"><a href="#52-drenering-av-overbygget-arbeidsdekk">§ 52. Drenering av overbygget arbeidsdekk</a></li>
+<li class="lvl4"><a href="#53-fring-av-dekkslast">§ 53. Føring av dekkslast</a></li>
+<li class="lvl4"><a href="#54-nedlasting-drenering-av-apent-dekk">§ 54. Nedlasting, drenering av åpent dekk</a></li>
+<li class="lvl4"><a href="#55-kontroll-av-gassfare-mv">§ 55. Kontroll av gassfare mv.</a></li>
+<li class="lvl4"><a href="#56-merking-av-tanker-rom-mm-og-fareplan">§ 56. Merking av tanker, rom m.m. og fareplan</a></li>
+<li class="lvl4"><a href="#57-skilt-og-oppslag">§ 57. Skilt og oppslag</a></li>
+<li class="lvl4"><a href="#58-oppbevaring-av-brennstoff">§ 58. Oppbevaring av brennstoff</a></li>
+<li class="lvl4"><a href="#59-varselskilt-ved-radarantenne">§ 59. Varselskilt ved radarantenne</a></li>
+<li class="lvl4"><a href="#60-radarreflektor">§ 60. Radarreflektor</a></li>
+<li class="lvl4"><a href="#61-refleksmiddel">§ 61. Refleksmiddel</a></li>
+<li class="lvl4"><a href="#62-sklisikring-av-dekk">§ 62. Sklisikring av dekk</a></li>
+<li class="lvl4"><a href="#63-leidere">§ 63. Leidere</a></li>
+<li class="lvl2"><a href="#7-radio">7. Radio</a></li>
+<li class="lvl4"><a href="#64-virkeomrade">§ 64. Virkeområde</a></li>
+<li class="lvl4"><a href="#65-dokumentasjon-som-skal-finnes-om-bord">§ 65. Dokumentasjon som skal finnes om bord</a></li>
+<li class="lvl4"><a href="#66-sikkerhetssertifikat-for-radio">§ 66. Sikkerhetssertifikat for radio</a></li>
+<li class="lvl4"><a href="#67-krav-til-godkjenning">§ 67. Krav til godkjenning</a></li>
+<li class="lvl4"><a href="#68-funksjons-og-utstyrskrav">§ 68. Funksjons- og utstyrskrav</a></li>
+<li class="lvl4"><a href="#69-installasjon-og-plassering-av-utstyr">§ 69. Installasjon og plassering av utstyr</a></li>
+<li class="lvl4"><a href="#70-elektriske-kraftkilder">§ 70. Elektriske kraftkilder</a></li>
+<li class="lvl4"><a href="#71-radiovakt">§ 71. Radiovakt</a></li>
+<li class="lvl4"><a href="#72-vedlikehold">§ 72. Vedlikehold</a></li>
+<li class="lvl4"><a href="#73-radioopptegnelser">§ 73. Radioopptegnelser</a></li>
+<li class="lvl4"><a href="#74-posisjonsoppdatering">§ 74. Posisjonsoppdatering</a></li>
+<li class="lvl2"><a href="#8-navigasjonsutrustning-og-styrehusarrangement">8. Navigasjonsutrustning og styrehusarrangement</a></li>
+<li class="lvl4"><a href="#75-kompass">§ 75. Kompass</a></li>
+<li class="lvl4"><a href="#76-selvstyreranlegg-og-styrehjelp">§ 76. Selvstyreranlegg og styrehjelp</a></li>
+<li class="lvl4"><a href="#77-brovaktalarm">§ 77. Brovaktalarm</a></li>
+<li class="lvl4"><a href="#78-fart-og-distansemaler">§ 78. Fart- og distansemåler</a></li>
+<li class="lvl4"><a href="#79-radaranlegg">§ 79. Radaranlegg</a></li>
+<li class="lvl4"><a href="#80-elektronisk-utstyr-for-posisjonsbestemmelse">§ 80. Elektronisk utstyr for posisjonsbestemmelse</a></li>
+<li class="lvl4"><a href="#81-utstyr-for-a-male-dybde">§ 81. Utstyr for å måle dybde</a></li>
+<li class="lvl4"><a href="#82-styreanordninger-mv">§ 82. Styreanordninger mv.</a></li>
+<li class="lvl4"><a href="#83-skipsur">§ 83. Skipsur</a></li>
+<li class="lvl4"><a href="#84-kikkert-og-termometer">§ 84. Kikkert og termometer</a></li>
+<li class="lvl4"><a href="#85-kart-og-nautiske-publikasjoner">§ 85. Kart og nautiske publikasjoner</a></li>
+<li class="lvl4"><a href="#86-lanterner">§ 86. Lanterner</a></li>
+<li class="lvl4"><a href="#87-signaleringsutstyr">§ 87. Signaleringsutstyr</a></li>
+<li class="lvl4"><a href="#88-lydsignalapparater">§ 88. Lydsignalapparater</a></li>
+<li class="lvl4"><a href="#89-lyskaster">§ 89. Lyskaster</a></li>
+<li class="lvl4"><a href="#90-bruksanvisninger-reservedeler-mv">§ 90. Bruksanvisninger, reservedeler mv.</a></li>
+<li class="lvl4"><a href="#91-styrehusarrangement-sikt-fra-styrehus-mv">§ 91. Styrehusarrangement, sikt fra styrehus mv.</a></li>
+<li class="lvl2"><a href="#9-kontroll-og-dokumentasjon">9. Kontroll og dokumentasjon</a></li>
+<li class="lvl4"><a href="#92-fartyinstruks">§ 92. Fartøyinstruks</a></li>
+<li class="lvl4"><a href="#93-samordning-av-kontroll">§ 93. Samordning av kontroll</a></li>
+<li class="lvl4"><a href="#94-kontroll-av-farty-under-8-meter">§ 94. Kontroll av fartøy under 8 meter</a></li>
+<li class="lvl4"><a href="#95-kontroll-av-farty-med-strste-lengde-8-til-9-meter">§ 95. Kontroll av fartøy med største lengde 8 til 9 meter</a></li>
+<li class="lvl4"><a href="#96-kontroll-av-farty-med-strste-lengde-9-til-1067-meter">§ 96. Kontroll av fartøy med største lengde 9 til 10,67 meter</a></li>
+<li class="lvl4"><a href="#97-kontroll-av-farty-med-strste-lengde-1067-til-15-meter">§ 97. Kontroll av fartøy med største lengde 10,67 til 15 meter</a></li>
+<li class="lvl4"><a href="#98-innrapportering-av-kontroll-ved-godkjent-foretak-og-reders-egenkontroll">§ 98. Innrapportering av kontroll ved godkjent foretak og reders egenkontroll</a></li>
+<li class="lvl4"><a href="#99-annen-kontroll-av-farty-ved-skade-ombygging-fartstillatelse-mm">§ 99. Annen kontroll av fartøy ved skade, ombygging, fartstillatelse m.m.</a></li>
+<li class="lvl4"><a href="#99a-kontroll-av-lfteutstyr">§ 99a. Kontroll av løfteutstyr</a></li>
+<li class="lvl4"><a href="#100-kontroll-av-det-elektriske-anlegget-ved-akseptert-elektroforetak">§ 100. Kontroll av det elektriske anlegget ved akseptert elektroforetak</a></li>
+<li class="lvl4"><a href="#101-dokumentasjon-ved-nybygg-og-ombygging">§ 101. Dokumentasjon ved nybygg og ombygging</a></li>
+<li class="lvl4"><a href="#102-dokumentasjon-om-bord-pa-fartyet">§ 102. Dokumentasjon om bord på fartøyet</a></li>
+<li class="lvl2"><a href="#10-avsluttende-bestemmelser">10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#103-dispensasjon-og-likeverdige-lsninger">§ 103. Dispensasjon og likeverdige løsninger</a></li>
+<li class="lvl4"><a href="#104-ikrafttredelse">§ 104. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#105-overgangsregler">§ 105. Overgangsregler</a></li>
+<li class="lvl2"><a href="#vedlegg-1-oversikt-kontroll-av-fiskefarty-under-15-meter-strste-lengde">Vedlegg 1. Oversikt – kontroll av fiskefartøy under 15 meter største lengde</a></li>
+<li class="lvl2"><a href="#vedlegg-2-liste-over-dokumentasjon-som-skal-oppbevares-om-bord-pa-fartyet">Vedlegg 2. Liste over dokumentasjon som skal oppbevares om bord på fartøyet</a></li>
+<li class="lvl2"><a href="#vedlegg-3-brannisolasjon">Vedlegg 3. Brannisolasjon</a></li>
+<li class="lvl2"><a href="#vedlegg-4-retningslinjer-om-typegodkjennelse-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-pa-fiskefarty">Vedlegg 4. Retningslinjer om typegodkjennelse av fast installerte brannoppdagelses- og brannalarmanlegg på fiskefartøy</a></li>
+<li class="lvl3"><a href="#del-i-bestemmelser-om-typegodkjennelse-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-pa-fiskefarty">Del I. Bestemmelser om typegodkjennelse av fast installerte brannoppdagelses- og brannalarmanlegg på fiskefartøy</a></li>
+<li class="lvl4"><a href="#bilag-1-til-del-i-fremgangsmate-for-godkjennelse-av-sentralutstyr">Bilag 1 til Del I. Fremgangsmåte for godkjennelse av sentralutstyr</a></li>
+<li class="lvl4"><a href="#bilag-2-til-del-i-fremgangsmate-for-godkjennelse-av-detektorer">Bilag 2 til Del I. Fremgangsmåte for godkjennelse av detektorer</a></li>
+<li class="lvl3"><a href="#del-ii-retningslinjer-om-installasjon-og-godkjennelse-av-installasjon-av-fast-installerte-brannoppdagelses-og-brannalarmanlegg-og-rkvarslingsanlegg-pa-fiskefarty">Del II. Retningslinjer om installasjon og godkjennelse av installasjon av fast installerte brannoppdagelses- og brannalarmanlegg og røkvarslingsanlegg på fiskefartøy</a></li>
+<li class="lvl4"><a href="#bilag-1-til-del-ii-rettledning-for-valg-og-plassering-av-detektorer-i-maskinrom">Bilag 1 til Del II. Rettledning for valg og plassering av detektorer i maskinrom</a></li>
+<li class="lvl4"><a href="#bilag-2-til-del-ii-retningslinjer-for-godkjennelse-av-installert-branndeteksjons-og-varslingsutstyr">Bilag 2 til Del II. Retningslinjer for godkjennelse av installert branndeteksjons- og varslingsutstyr.</a></li>
+<li class="lvl2"><a href="#vedlegg-5-prosedyrer-for-utfrelse-av-krengeprver-og-deplasementsmalinger-for-norske-skip">Vedlegg 5. Prosedyrer for utførelse av krengeprøver og deplasementsmålinger for norske skip</a></li>
+<li class="lvl3"><a href="#bestemmelse-av-lettskipsvekt-og-tyngdepunkt">Bestemmelse av lettskipsvekt og -tyngdepunkt</a></li>
+<li class="lvl4"><a href="#1-innledning">1. Innledning</a></li>
+<li class="lvl4"><a href="#2-definisjoner_1">2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-ansvarsfordeling">3. Ansvarsfordeling</a></li>
+<li class="lvl4"><a href="#4-forberedelser-til-deplasementsmalinger">4. Forberedelser til deplasementsmålinger</a></li>
+<li class="lvl5"><a href="#41-begjring-om-besiktelse">4.1 Begjæring om besiktelse</a></li>
+<li class="lvl5"><a href="#42-skipets-tilstand">4.2 Skipets tilstand</a></li>
+<li class="lvl5"><a href="#43-tanker">4.3 Tanker</a></li>
+<li class="lvl5"><a href="#44-dypgangsmalinger">4.4 Dypgangsmålinger</a></li>
+<li class="lvl5"><a href="#45-tilleggsbestemmelser-for-krengeprver">4.5 Tilleggsbestemmelser for krengeprøver</a></li>
+<li class="lvl5"><a href="#46-ndvendig-underlagsmateriale">4.6 Nødvendig underlagsmateriale</a></li>
+<li class="lvl4"><a href="#5-gjennomfring-av-krengeprven">5. Gjennomføring av krengeprøven</a></li>
+<li class="lvl5"><a href="#51-krav-til-utfrelse">5.1 Krav til utførelse</a></li>
+<li class="lvl5"><a href="#52-tolking-av-plottete-avlesninger">5.2 Tolking av plottete avlesninger</a></li>
+<li class="lvl5"><a href="#53-spesielle-hensyn-ved-bruk-av-u-rr">5.3 Spesielle hensyn ved bruk av U-rør</a></li>
+<li class="lvl2"><a href="#vedlegg-6-rapport-om-krengeprve-og-beregning-av-lettskipsdata">Vedlegg 6. Rapport om krengeprøve og beregning av lettskipsdata</a></li>
+<li class="lvl3"><a href="#1-generelle-opplysninger">1. Generelle opplysninger</a></li>
+<li class="lvl3"><a href="#2-fartyets-hoveddimensjoner">2. Fartøyets hoveddimensjoner</a></li>
+<li class="lvl3"><a href="#3-andre-opplysninger">3. Andre opplysninger</a></li>
+<li class="lvl3"><a href="#4-dypgangsavlesninger">4. Dypgangsavlesninger</a></li>
+<li class="lvl3"><a href="#5-hydrostatiske-data-for-krengeprvetilstanden">5. Hydrostatiske data for krengeprøvetilstanden</a></li>
+<li class="lvl3"><a href="#6-oversikt-over-krengevektene">6. Oversikt over krengevektene</a></li>
+<li class="lvl3"><a href="#7-pendler">7. Pendler</a></li>
+<li class="lvl3"><a href="#8-tanker-til-fradrag">8. Tanker til fradrag</a></li>
+<li class="lvl3"><a href="#9-rekkeflgen-av-flyttingen-av-vektene">9. Rekkefølgen av flyttingen av vektene</a></li>
+<li class="lvl3"><a href="#10-generelle-krav-til-utfrelse">10. Generelle krav til utførelse</a></li>
+<li class="lvl3"><a href="#11-malt-metasenterhyde-for-skip-som-krenget">11. Målt metasenterhøyde for skip som krenget</a></li>
+<li class="lvl3"><a href="#12-resultater-fra-krengeprven">12. Resultater fra krengeprøven</a></li>
+<li class="lvl3"><a href="#13-beregning-av-lett-skip">13. Beregning av lett skip</a></li>
+<li class="lvl3"><a href="#14-spesielle-vekter-som-er-regnet-med-i-lett-skip">14. Spesielle vekter som er regnet med i lett skip</a></li>
+<li class="lvl2"><a href="#vedlegg-7-funksjonskrav-for-brovaktalarm">Vedlegg 7. Funksjonskrav for brovaktalarm</a></li>
+<li class="lvl2"><a href="#vedlegg-8-vann-pa-dekk">Vedlegg 8. Vann på dekk</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-22-1404.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-11-22-1404.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-22-1404.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-11-22-1404.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-11-22-1404.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-11-22-1404.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-11-22-1404.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-11-22-1404.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-11-22-1404.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fiskefarty-med-strste-lengde-under-15-meter">Forskrift om fiskefartøy med største lengde under 15 meter</h1>
 <h2 id="1-generelle-bestemmelser">1. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Denne forskriften gjelder norske fiskefartøy med største lengde under 15 meter.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne forskrift betyr:</p>
 <p>a. «akseptert elektroforetak»: elektroforetak som er akseptert av Direktoratet for samfunnssikkerhet og beredskap til å utføre kontroll av elektriske anlegg om bord i fiskefartøy
@@ -96,13 +461,13 @@ i. «løfteutstyr»:
   - løfteredskap inkludert laste- og losseredskap
   - løftekomponenter
   brukt sammen eller enkeltvis.</p>
-<p><em>Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h2 id="2-konstruksjon">2. Konstruksjon</h2>
 <h4 id="3-kapittelets-anvendelsesomrade">§ 3. Kapittelets anvendelsesområde</h4>
 <p>(1) Dette kapittelet gjelder for fartøy med største lengde 6 til 15 meter, bygget etter 1. januar 1992.</p>
 <p>(2) Fartøy bygget før 1. januar 1992 skal følge de krav til fartøyer som gjaldt på den tid fartøyet ble bygget. Disse bestemmelser behøver likevel ikke håndheves strengere enn det som følger av denne forskrift så fremt sikkerhetsmessige normer blir ivaretatt.</p>
 <p>(3) Når et fartøy forandres eller ombygges i vesentlig omfang, skal fartøyet oppfylle kravene til nytt fartøy.</p>
-<p><em>Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</em></p>
+<p class="note">Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</p>
 <h4 id="4-byggekrav">§ 4. Byggekrav</h4>
 <p>(1) Fartøy skal være konstruert, dimensjonert og utrustet i henhold til Nordisk Båt Standard (1990) dersom ikke annet fremgår av de enkelte bestemmelsene. Alternativt kan et samlet anerkjent regelverk eller en annen standard benyttes når sikkerhetsstandarden er likeverdig med Nordisk Båt Standard (1990) eller bedre. Sjøfartsdirektoratet kan i tvilstilfeller avgjøre om regelverket er likeverdig med Nordisk Båt Standard (1990).</p>
 <p>(2) Det er ikke tillatt å kombinere forskjellige typer byggematerialer i utvendig skrog under lastet vannlinje.</p>
@@ -116,7 +481,7 @@ c. Løfteutstyret skal være dimensjonert på grunnlag av løfteutstyrets maksim
 d. Ståltau, kroker, sjakler, blokker, svivler, ringer osv. skal dimensjoneres med en sikkerhetsfaktor mot brudd på 5.
 e. Tau skal ha en sikkerhetsfaktor mot brudd på 7.
 f. Tau kan brukes som mantel/heisetau når dette er spesifisert av kranprodusenten. Tau skal være egnet til formålet og følge leverandørens retningslinjer for bruk og kassering.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="5-krav-til-lasterom-for-fring-av-fisk-i-vann-og-i-bulk">§ 5. Krav til lasterom for føring av fisk i vann og i bulk</h4>
 <p>(1) Lasterom på eksisterende fartøy, bygget etter 1. januar 1992, skal være dimensjonert etter bestemmelser som gjaldt på byggetidspunktet.</p>
 <p>(2) Lasterom på nytt fartøy, som skal benyttes for føring av fisk i bulk (fisk uten innblanding av is og vann), skal arrangeres og dimensjoneres i samsvar med regler fra anerkjent klasseinstitusjon.</p>
@@ -126,7 +491,7 @@ f. Tau kan brukes som mantel/heisetau når dette er spesifisert av kranprodusent
 <p>(2) Fra 1. januar 2023 skal godkjent foretak kontrollere at blokker, sjakler og annet løst utstyr er dimensjonert i samsvar med forskrift om laste- og losseinnretninger på skip . Kravet gjelder i forbindelse med førstegangskontroll av fartøy og deretter hvert 5. år for fiskefartøy med største lengde 9 meter eller mer.</p>
 <p>(3) På arrangement installert etter 1. januar 2023 skal trålvinsjer være anordnet slik at ønsket trekkraft kan justeres, og trålvaier skal slakke ut dersom den innstilte trekkraften overskrides. Trålvaier skal ikke kunne låses under tråling.</p>
 <p>(4) På arrangement installert etter 1. januar 2023 skal hydraulisk manøvrerbart opphengningsarrangement for kraftblokk være slik anordnet at svikt i oljetilførsel, slangebrudd e.l. ikke forårsaker at arrangementet faller ned på en ukontrollert måte.</p>
-<p><em>Tilføyd ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="6-skansekledninger-rekkverk-og-beskyttelsesanordninger">§ 6. Skansekledninger, rekkverk og beskyttelsesanordninger</h4>
 <p>Fartøy med største lengde 6 til 15 meter bygget etter 1. juli 2014 skal ha skansekledninger eller rekkverk med minimum en meter høyde plassert på alle utsatte deler av arbeidsdekk og på overbygninger som har funksjon som arbeidsplattform. Høyden kan reduseres til minimum 600 millimeter dersom den er til hinder for utøvelse av fisket og det anses som absolutt nødvendig.</p>
 <h2 id="3-brann-maskineri-og-elektro">3. Brann, maskineri og elektro</h2>
@@ -134,7 +499,7 @@ f. Tau kan brukes som mantel/heisetau når dette er spesifisert av kranprodusent
 <p>(1) Dette kapittelet gjelder for fartøy bygget etter 2. januar 1988.</p>
 <p>(2) Fartøy som er bygget før 2. januar 1988 skal være bygget og utrustet etter reglene som gjaldt da fartøyet ble bygget, med mindre annet fremgår av de enkelte bestemmelsene i dette kapittelet.</p>
 <p>(3) Når et fartøy forandres eller ombygges i vesentlig omfang, skal fartøyet oppfylle kravene til nytt fartøy.</p>
-<p><em>Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</em></p>
+<p class="note">Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</p>
 <h4 id="8-brannsikring">§ 8. Brannsikring</h4>
 <p>(1) Fartøy bygget etter 1. januar 1992 skal brannsikres konstruksjonsmessig i henhold til kapittel Y14 i Nordisk Båt Standard (1990), med mindre annet fremgår av de enkelte bestemmelsene i dette kapittelet.</p>
 <p>(2) Fartøy som er bygget før 1. januar 1992 skal brannsikres konstruksjonsmessig etter reglene som gjaldt da fartøyet ble bygget.</p>
@@ -179,7 +544,7 @@ b. flammen slukker.</p>
 <p>(2) Casing av tre, bjelker og underside av dekk og skott i for- og akterkant skal isoleres med ubrennbart materiale i maskinrom uten garnering.</p>
 <p>(3) Treverk skal isoleres med ubrennbart materiale ned til underkant av dørk i maskinrom med garnering. Dersom den øvrige isolasjon slutter tett inntil og rundt brenselsoljetanken kan isolasjonen bak tanken sløyfes.</p>
 <p>(4) Brennbart materiale som utsettes for varme fra eksosmanifolder, eksosrør etc., i fartøy hvor motoren ikke er i et eget rom, skal isoleres med ubrennbart materiale. Brukes det motorkassedeksel, skal denne isoleres innvendig og beslås med galvanisert stål- eller aluminiumsplate.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="15-brannslokningsanlegg-i-maskinrom">§ 15. Brannslokningsanlegg i maskinrom</h4>
 <p>(1) Nye og eksisterende fartøy med innenbords motor skal ha fastmontert brannslokningsanlegg i maskinrom.</p>
 <p>(2) For fartøy med største lengde mellom 10,67 og 15 meter gjelder følgende:</p>
@@ -196,17 +561,17 @@ c. Systemet utgjør ingen fare for personlig sikkerhet.
 d. Systemet dekker området som skal beskyttes (volum av maskinrom).</p>
 <p>(5) Brannslokningsanlegg etter tredje ledd skal installeres, brukes og vedlikeholdes etter leverandørens retningslinjer.</p>
 <p>(6) Fartøy bygget mellom 1. januar 1992 og 1. januar 2022 kan, som alternativ til kravet i tredje ledd, jf. fjerde ledd, være utstyrt med brannslokningsanlegg i samsvar med retningslinjer fastsatt i kapittel Y14 i Nordisk Båt Standard (1990).</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="16-brannoppdagelses-og-alarmanlegg">§ 16. Brannoppdagelses- og alarmanlegg</h4>
 <p>(1) Fartøy mellom største lengde 10,67 og 15 meter, uavhengig av byggeår, skal ha brannoppdagelsesanlegg og brannalarmanlegg for maskinrom og røykvarslingsanlegg for lugarene i samsvar med vedlegg 5.</p>
 <p>(2) Fartøy med største lengde under 10,67 meter skal, uavhengig av byggeår, være utstyrt med minst én røyk- og varmedetektor i maskinrom, minst én røykdetektor i oppholdsrom og minst én røykdetektor i styrehus. Fartøy bygget etter 1. januar 2022 skal ha typegodkjente detektorer.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="17-brannslokningsapparater">§ 17. Brannslokningsapparater</h4>
 <p>(1) Alle fartøy skal, uavhengig av byggeår, ha minst to typegodkjente brannslokningsapparat på minst 6 kg. Minst ett brannslokningsapparat skal plasseres på egnet sted utenfor maskinrommet, og minst ett brannslokningsapparat skal plasseres i innredningen. For fartøy uten styrehus eller innredning er det tilstrekkelig med ett brannslokningsapparat.</p>
 <p>(2) Brannslukningsapparater med slokningsmiddel under trykk skal ikke plasseres i lugarer. Brannslukningsapparater som kan bli utsatt for frost, skal være frostsikre.</p>
 <p>(3) Det skal være minst en reserveladning til hvert apparat. Apparatenes antall skal økes med 50prosent om det er av en type som ikke kan lades opp ombord.</p>
 <p>(4) Brannslokningsapparater skal årlig kontrolleres i henhold til NS3910. Datoen for kontrollen skal påføres apparatet.</p>
-<p><em>Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="18-ventilasjonssystemer">§ 18. Ventilasjonssystemer</h4>
 <p>Fartøyets maskinrom skal ha minst to ventilatorer som kan stenges fra dekk. Lugarer skal ha minst to ventilatorer med diameter på minst 8 cm.</p>
 <h4 id="19-materialer-mm">§ 19. Materialer m.m.</h4>
@@ -267,13 +632,13 @@ c. forskrift nevnt i første til tredje ledd.</p>
 b. eller ved senere vesentlig ombygging, eller
 c. nyere forskrift.</p>
 <p>(6) Eksisterende fartøy med største lengde 6 til 15 meter, som gjennomgår endringer som påvirker oppdriftsgivende volumer eller innebærer at nedlastingen økes skal oppfylle stabilitetskravene for nye fartøy.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="27-stabilitetsdokumentasjon-og-krengeprve">§ 27. Stabilitetsdokumentasjon og krengeprøve</h4>
 <p>(1) Skroggeometri, hydrostatikk, krysskurver og dokumentasjonsunderlag skal utføres ved hjelp av programvare som er oppført på Sjøfartsdirektoratets liste over aksepterte stabilitetsberegningsprogram. Lastetilstander, hydrostatikk og formstabilitet skal beregnes med fri trim.</p>
 <p>(2) Etter at fartøyet er ferdig bygget og utrustet skal det gjennomføres en krengeprøve etter prosedyre i vedlegg 6 og 7. Faktisk deplasement og tyngdepunktets beliggenhet skal fastslås for lettskipstilstanden.</p>
 <p>(3) Dersom det foretas endringer på fartøy med største lengde 8 til 15 meter som påvirker fartøyets stabilitet, skal reviderte stabilitetsberegninger, ev. basert på lettskipsdata fra ny krengeprøve, utarbeides og legges fram for godkjent foretak for kontroll.</p>
 <p>(4) Stabilitet og lettskipsdata for fartøy med største lengde 8 meter eller mer skal være kontrollert av godkjent foretak og funnet å tilfredsstille kravene i dette kapittelet.</p>
-<p><em>Endret ved forskrifter 6 des 2021 nr. 3415 (i kraft 1 jan 2022), 27 mars 2023 nr. 459 .</em></p>
+<p class="note">Endret ved forskrifter 6 des 2021 nr. 3415 (i kraft 1 jan 2022), 27 mars 2023 nr. 459 .</p>
 <h4 id="28-stabilitet-for-lukkede-fartyer">§ 28. Stabilitet for lukkede fartøyer</h4>
 <p>(1) Fartøy skal være konstruert og bygget slik at kravene i dette kapittel vil bli oppfylt under de driftsforhold nevnt i andre til sjette ledd.</p>
 <p>(2) For lukkede fartøy, jf. Nordisk Båt Standard (1990) Y2, skal det utarbeides GZ-kurver (kurver som viser den rettende arm) korrigert for trim og for fri overflatevirkning i brennolje-, ferskvannstanker og eventuelle andre tanker med lastetilstander som tilsvarer</p>
@@ -302,7 +667,7 @@ d. initialmetasenterhøyden (GM) skal ikke være mindre enn 350 millimeter,
 e. for fartøy som opererer i fartsområde kystfiske eller større fartsområde, skal den rettende armen (GZ) for krengevinkler fra 40 til 65 grader ikke noe sted være mindre enn 100 millimeter, og positiv opp til 80 grader, når det ses bort fra fylling gjennom luker, dører, lenseventiler eller lignende som må stå åpne under drift, men som raskt kan lukkes værtett.</p>
 <p>(2) Som alternativ til stabilitetskriteriene i første ledd kan Nordisk Båt Standard (1990) kapittel Y3 og Y30 legges til grunn. For fartøy som opererer i fartsområde fjordfiske behøver ikke NBS kap. Y30 pkt. 3.2 oppfylles.</p>
 <p>(3) Fartøyets metasenterhøyde (GM) i lett tilstand skal være positiv uavhengig av valg av stabilitetskriterier.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="30-baughyde">§ 30. Baughøyde</h4>
 <p>Fartøy bygget etter 1. januar 1992 skal ha en baughøyde på minst 43 x Loa + 310 [millimeter] målt vertikalt ved forstevnen fra lastet vannlinje til utsatt dekk. Alternativt kan baughøydekrav i Nordisk Båt Standard (1990) legges til grunn. Hvor baughøyden oppnås ved at det er anbrakt overbygning skal denne være lukket og strekke seg fra forstevnen til et punkt minst 0,10 · LOA aktenfor forreste del av skroget. Krav til baughøyde skal være tilfredsstilt for 0-trim og for lastekondisjoner med forlig trim.</p>
 <h4 id="31-stabilitet-og-fribord-for-apne-farty">§ 31. Stabilitet og fribord for åpne fartøy</h4>
@@ -320,7 +685,7 @@ b. 7,5 kilogram per kvadratmeter projisert sideareal på hver side av fartøyet 
 c. projisert sideareal for brutte flater av reling, rundholter (unntatt master), rigger på fartøy uten seil og projisert sideareal for andre små gjenstander skal beregnes ved å øke samlet projisert areal for kontinuerlige overflater med 5 prosent og dette arealets statiske moment med 10 prosent.</p>
 <p>(2) For fartøy som ikke har overisingsberegninger, er fartsområdet begrenset til Kystfiske i perioden fra 1. november til og med 30. april.</p>
 <p>(3) Fartøy beregnet for drift i områder hvor det erfaringsmessig forekommer ising skal være utstyrt med hensiktsmessige midler til å fjerne is.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="34-stabilitetsopplysninger">§ 34. Stabilitetsopplysninger</h4>
 <p>(1) På fartøy som har stabilitetsberegninger, skal skipsføreren ha tilgang til alle stabilitetsopplysninger.</p>
 <p>(2) En stabilitetsplakat skal slås opp i fartøy med styrehus. Plakaten skal minst inneholde opplysninger om</p>
@@ -328,14 +693,14 @@ c. projisert sideareal for brutte flater av reling, rundholter (unntatt master),
 b. vekt og plassering av fiskeredskap
 c. andre begrensninger som følger av vannballast eller rulledempningstank.</p>
 <p>(3) Stabilitetsopplysningene for fartøy med krav om fartøyinstruks skal kontrolleres av godkjent foretak.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="35-fribord-pa-lukket-farty">§ 35. Fribord på lukket fartøy</h4>
 <p>(1) Fribord målt fra dekkets overflate i borde midtskips skal korrespondere med det største dypgående som stabilitetsberegningene er godkjent for, og skal ikke være mindre enn null.</p>
 <p>(2) For fartøy bygget etter 1. januar 1992 skal fribord være i henhold til Nordisk Båt Standard (1990) Y3.</p>
 <p>(3) Fribordet midtskips skal angis i fartøyinstruksen.</p>
 <p>(4) Nedlastingsmerker skal være påført på begge sider av fartøyet i henhold til Nordisk Båt Standard (1990) Y2.</p>
 <p>(5) For fartøy med overbygning over hele fartøyets bredde kan minimum fribord i henhold til Nordisk Båt Standard (1990) Y3 bli målt fra laveste del av utsatt dekk utenfor lukket overbygning. Fribord til overkant av nedlastingsmerke midtskips, jf. Nordisk Båt Standard (1990) Y2, kan bli korrigert i henhold til dette, selv om eventuelt dekk inne i en slik lukket overbygning ligger nærmere lastet vannlinje enn 200 millimeter. Målinger av fribord til lastet vannlinje skal ta hensyn til beregnet trim i henhold til Nordisk Båt Standard (1990).</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h2 id="5-redningsredskaper-og-arrangementer">5. Redningsredskaper- og arrangementer</h2>
 <h4 id="36-redningsvester">§ 36. Redningsvester</h4>
 <p>(1) Fartøy skal ha en typegodkjent redningsvest for hver person om bord.</p>
@@ -362,7 +727,7 @@ b. 1. juli 2016 for fartøy som skal operere i fartsområde Fjordfiske.</p>
 <p>(5) Redningsflåter skal være klar til bruk og plassert slik at de kan flyte opp, blåse seg opp og komme fri av fartøyet i tilfelle det skulle synke. Dersom det benyttes surringer, skal disse ha hydrostatisk utløsning. Utstyr for hydrostatisk utløsning av flåter med kapasitet for seks personer eller mer skal være typegodkjent.</p>
 <p>(6) Plakater eller oppslag med opplysninger om plassering, behandling og bruk av flåtene skal slås opp om bord.</p>
 <p>(7) Hjelpefartøy trenger ikke å ha redningsflåte dersom mannskapet kun er om bord i hjelpefartøyet under fiskeriaktivitet og for øvrig befinner seg på hovedfartøyet.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="39-plassering-av-redningsmidler">§ 39. Plassering av redningsmidler</h4>
 <p>(1) Redningsmidlene skal så vidt mulig være likt fordelt på begge sider av fartøyet og plassert slik at det er tilstrekkelig plass for klargjøring, betjening og ombordstigning.</p>
 <p>(2) Redningsmidlene skal plasseres slik at de ikke stikker utenfor fartøyets sider, i forsvarlig avstand fra vannlinjen og propeller og så vidt mulig kunne sjøsettes ved rett skuteside.</p>
@@ -380,7 +745,7 @@ b. 1. juli 2016 for fartøy som skal operere i fartsområde Fjordfiske.</p>
 b. plasseres lett synlig og tilgjengelig, slik at de kan frigjøres enkelt og hurtig.</p>
 <p>(3) Fartøy med største lengde under 10,67 meter skal ha minst én livbøye med flytende redningsline på minst 30 meter.</p>
 <p>(4) Fartøy med største lengde 10,67 inntil 15 meter skal ha minst to livbøyer. Det skal være én livbøye med flytende redningsline på minst 30 meter på hver side av fartøyet.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="44-ndsignalutstyr-og-pyroteknisk-utstyr">§ 44. Nødsignalutstyr og pyroteknisk utstyr</h4>
 <p>(1) Fartøy skal være utstyrt med midler til å sende ut tydelige nødsignaler om dagen og om natten. Fartøy skal minst ha to stk. røyksignaler. I tillegg skal de i fartsområde</p>
 <p>a. Fjordfiske ha tre fallskjermlys og tre røde håndbluss,
@@ -407,7 +772,7 @@ d. angivelse av stedfortreder for nøkkelpersoner som kan ha blitt tjenesteudykt
 <p>(2) Dekket fartøy med største lengde 6 til 8 meter kan ikke benyttes i større fartsområde enn Bankfiske I.</p>
 <p>(3) Dekket fartøy med største lengde 8 til 10,67 meter kan ikke bli sertifisert for større fartsområde enn Bankfiske I. I perioden 1. mai til 31. oktober kan fartøy med største lengde 8 til 10,67 meter bli sertifisert for Bankfiske II, begrenset til 100 nautiske mil fra grunnlinjen.</p>
 <p>(4) Dekket fartøy med største lengde 10,67 til 15 meter kan ikke benyttes i større fartsområde enn Bankfiske II.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 som endret ved forskrift 29 des 2021 nr. 3914 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 som endret ved forskrift 29 des 2021 nr. 3914 (i kraft 1 jan 2022).</p>
 <h4 id="48-faste-og-flyttbare-atkomstmidler-om-bord">§ 48. Faste og flyttbare atkomstmidler om bord</h4>
 <p>(1) Faste og flyttbare atkomstmidler skal være forsvarlig vedlikeholdt.</p>
 <p>(2) Der det er fare for at noen kan falle over bord eller ned i rom, tanker og lignende, skal det bli satt opp holdetau, håndrekker eller avsperringer.</p>
@@ -454,7 +819,7 @@ d. angivelse av stedfortreder for nøkkelpersoner som kan ha blitt tjenesteudykt
 <p>I arbeidsområder og vanlige ferdselsveier om bord, herunder trapper, skal underlaget gi godt fotfeste og om nødvendig være utstyrt med ekstra sklisikring.</p>
 <h4 id="63-leidere">§ 63. Leidere</h4>
 <p>På fartøyets aktre del skal det være montert fast leider med håndrekker. Leiderens nederste trinn skal nå minst 300 millimeter under vannlinjen.</p>
-<p><em>Endret ved forskrift 27 mars 2023 nr. 459 .</em></p>
+<p class="note">Endret ved forskrift 27 mars 2023 nr. 459 .</p>
 <h2 id="7-radio">7. Radio</h2>
 <h4 id="64-virkeomrade">§ 64. Virkeområde</h4>
 <p>Dette kapittelet gjelder for dekkede fartøy og åpne båter med styrehus.</p>
@@ -466,17 +831,17 @@ d. angivelse av stedfortreder for nøkkelpersoner som kan ha blitt tjenesteudykt
 <p>a. 60 måneder for fartsområde Bankfiske I eller mindre,
 b. 30 måneder for fartsområde Bankfiske II.</p>
 <p>(3) Sikkerhetssertifikat for radiotelefon på fiskefartøy utstedes av et godkjent radioinspeksjonsforetak, på bakgrunn av en besiktelse. Slik besiktelse kan skje inntil to måneder før gyldighetstiden for eksisterende sikkerhetssertifikat utløper, uten at dato for neste besiktelse blir endret.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="67-krav-til-godkjenning">§ 67. Krav til godkjenning</h4>
 <p>(1) Utstyr som kreves i dette kapittelet, skal være CE-merket og i henhold til forskrift 15. april 2016 nr. 377 om EØS-krav til radioutstyr eller oppfylle forskrift 30. august 2016 nr. 1042 om skipsutstyr .</p>
 <p>(2) Utstyr som er installert før 1. januar 2014, kan fritas fra krav til typegodkjenning under forutsetning av at det er likeverdig med utstyr som oppfyller ytelseskravene samt oppfyller de krav som ble stilt til utstyret da det ble installert.</p>
 <p>(3) Radioutstyr som ikke er påkrevd etter denne forskrift, men som frivillig blir installert om bord, skal enten tilfredsstille kravene i denne paragraf, eller kravene i direktiv 2004/71/EF .</p>
-<p><em>Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="68-funksjons-og-utstyrskrav">§ 68. Funksjons- og utstyrskrav</h4>
 <p>(1) Fartøy skal kunne sende nødalarm ved hjelp av minst to atskilte og uavhengige radiosystemer (primær og sekundær alarmeringskilde). Duplisert radioutstyr, manuell satellitt EPIRB og fri-flyt satellitt EPIRB, kan benyttes som sekundær alarmeringskilde. Fri-flyt satellitt EPIRB og manuell satellitt EPIRB skal være utstyrt med en innebygd posisjonsangivelse.</p>
 <p>(2) For fartøy med Fartøyinstruks for fartsområde Fjordfiske gjelder ikke kravet om sekundær alarmeringskilde.</p>
 <p>(3) Fartøy skal være utstyrt med radioinstallasjoner som nevnt i tabell nedenfor. Radiodekningsområder → A1 A2 Noter Fartsområder → Radioutstyr og radioredningsmidler ↓ Fjordfiske Kystfiske Større enn Kystfiske VHF radioinstallasjon som minst kan sende og motta DSC på kanal 70 og telefoni på kanal 6, 13 og 16. Vaktmottakeren kan være en separat enhet. X X X X 1 Radartransponder (radar-SART), eller AIS-transponder (AIS-SART) – X X X 6 NAVTEX mottaker 518/490 kHz X X X X 4 Fri-flyt satellitt EPIRB (satellitt nødpeilesender ) som skal være plassert slik at den med størst grad av sannsynlighet vil flyte opp til overflaten og sende nødalarm, dersom fartøyet skulle synke. – X X X 2, 5 MF-DSC som minst kan sende og motta DSC på 2187,5 kHz, og telefoni på 2182 kHz. Vaktmottakeren kan være en separat enhet. – – – X 1 To-veis VHF radiotelefonapparater (håndholdt VHF) – X X X 3 Noter: Note 1 Underveis skal alt utstyret være slått på og fartøy skal holde lyttevakt på VHF-kanal 16. Note 2 Senest hvert femte år skal fri-flyt satellitt nødpeilesender (satellitt EPIRB) vedlikeholdes av et godkjent landbasert foretak. Note 3 På fartøy i fartsområde Bankfiske 1 og Bankfiske 2 som har mer enn en (1) redningsfarkost, skal antall håndholdte VHF-er være minst 2. Note 4 NAVTEX-mottaker kreves ikke i radiodekningsområdet A1 dersom fartøyet på annen måte kan ivareta samme sikkerhetsfunksjon ved å innhente relevante vær- og navigasjonsvarsler gjennom VHF kystradio, offentlig elektronisk system eller annen offentlig kringkasting. Note 5 Fri-flyt satellitt EPIRB tillates erstattet med manuell satellitt EPIRB på fartøy som har en oppdrift som gjør at det ikke synker dypt nok til at fri-flyt nødpeilesender kan løse seg ut, eller på fartøy som har en slik overbygning at det kan medføre fare for vedkommende som skal hente fri-flyt satellitt EPIRB for manuell å aktivere og medbringe den til en redningsfarkost. Manuell satellitt EPIRB skal plasseres lett tilgjengelig, slik at den lett kan bli aktivert og tatt med i en redningsfarkost. Note 6 1. Fartøy som opererer i eller har fartøyinstruks for fartsområde for Kystfiske eller Bankfiske I, skal være utstyrt med én transponder. 2. Fartøy som opererer i eller har fartøyinstruks for Bankfiske II, skal være utstyrt med to transpondere.</p>
-<p><em>Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022), 27 mars 2023 nr. 459 .</em></p>
+<p class="note">Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022), 27 mars 2023 nr. 459 .</p>
 <h4 id="69-installasjon-og-plassering-av-utstyr">§ 69. Installasjon og plassering av utstyr</h4>
 <p>(1) Radioinstallasjoner skal installeres slik at de er lett tilgjengelig for tilsyn og vedlikehold og slik at de ikke utsettes for skadelige påvirkninger fra fuktighet, ekstreme temperaturer eller andre miljøforhold.</p>
 <p>(2) Radioinstallasjoner skal installeres slik at de ikke blir påvirket av mekaniske, elektriske eller elektromagnetiske forstyrrelser og slik at de heller ikke selv forårsaker slike forstyrrelser.</p>
@@ -509,7 +874,7 @@ d. vedlikeholdes i overensstemmelse med produsentens instruksjoner.</p>
 <p>a. VHF-kanal 16 og VHF/DSC-kanal 70,
 b. MF/DSC-frekvensen 2187,5 kHz.</p>
 <p>(2) Alle fartøy som ikke er trygt fortøyd i havn, skal holde radiovakt for mottak av maritim sikkerhetsinformasjon (MSI), ved hjelp av NAVTEX-mottaker eller andre metoder som ivaretar samme sikkerhetsfunksjon ved å innhente relevante vær- og navigasjonsvarsler gjennom VHF kystradio, offentlig elektronisk system eller annen offentlig kringkasting.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="72-vedlikehold">§ 72. Vedlikehold</h4>
 <p>(1) Radioutstyr for radiodekningsområde A1 og A2 skal vedlikeholdes for til enhver tid å kunne sende nødalarm og utføre oppfølgende nødkommunikasjon.</p>
 <p>(2) Fri-flyt satellitt EPIRB, som nevnt i § 69 femte og sjette ledd, skal minst hvert femte år bli kontrollert av et landbasert foretak.</p>
@@ -529,13 +894,13 @@ e. daglig/månedlig funksjonstest av radiostasjonen, utført av ansvarlig radioo
 <p>(3) Magnetkompass skal bli korrigert for å fastslå deviasjonen når det er foretatt ombygginger eller forandringer som har innvirkning på de magnetiske forhold på kompassplassen. Deviasjonstabell skal være tilgjengelig til enhver tid.</p>
 <p>(4) Kompasset skal ha lysarrangement med innebygget dimmer som kan bli regulert fra hovedstyreplassen.</p>
 <p>(5) Dersom flere kompass blir benyttet i samme kompassanlegg, må ingen av disse ha større forskjell i magnetisk moment enn 15 prosent av det kompasset som har størst moment.</p>
-<p><em>Endret ved forskrift 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2025 nr. 1372 .</p>
 <h4 id="76-selvstyreranlegg-og-styrehjelp">§ 76. Selvstyreranlegg og styrehjelp</h4>
 <p>(1) For fartøy med største lengde 10,67 til 15 meter, bygget etter 1. juli 1997, skal selvstyreranlegg være i henhold til anerkjente standarder.</p>
 <p>(2) Fartøy som har styrehjelp eller selvstyreanlegg skal ha indikator for rorets vinkel som kan avleses fra styreplass(ene).</p>
 <p>(3) Dersom det er montert flere kursjusterings- og styreanordninger, skal det være mulig å sikre disse mot utilsiktet bruk.</p>
 <p>(4) Selvstyreanlegg skal kunne kobles inn og ut fra rorgjengerens plass.</p>
-<p><em>Endret ved forskrift 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2025 nr. 1372 .</p>
 <h4 id="77-brovaktalarm">§ 77. Brovaktalarm</h4>
 <p>(1) Fartøy med største lengde 10,67 til 15 meter som er utstyrt med selvstyreranlegg/styrehjelp skal være utstyrt med en brovaktalarm dersom det har fartøysinstruks for større fartsområde enn fjordfiske.</p>
 <p>(2) Brovaktalarmen skal enten være permanent aktivert, eller aktivert når fartøyets selvstyreanlegg er i bruk, eller innrettet slik at den senest blir aktivert når fartøyet kommer opp i marsjfart. Brovaktalarmen skal utløse et akustisk signal med tidsintervall som ikke overstiger fem minutter dersom ikke ansvarshavende for brovaktholdet kvitterer for sin tilstedeværelse i styrehuset. Det skal være mulig å stille inn kortere tidsintervall enn 5 minutt.</p>
@@ -578,7 +943,7 @@ d. ha radarantenne plassert slik at den ikke reduserer effekten på det øvrige 
 <p>(2) Fløyten skal til enhver tid være klar til bruk og kunne betjenes fra navigatørens og ev. rorgjengerens vanlige plass(er).</p>
 <p>(3) Fløyten skal være slik plassert at lydstyrken på rorgjengerens, utkikkens og navigatørens plass ikke overstiger 100 dB (A).</p>
 <p>(4) Fartøy med påbudte lydsignalapparater som er avhengig av fartøyets hovedkraftkilde må ha en ekstra anordning for å kunne gi de påbudte lydsignaler.</p>
-<p><em>Endret ved forskrift 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2025 nr. 1372 .</p>
 <h4 id="89-lyskaster">§ 89. Lyskaster</h4>
 <p>Fartøy med største lengde 12 til 15 meter, bygget etter 1. juli 1997, som skal operere i fartsområde større enn fjordfiske skal ha</p>
 <p>a. lyskaster og signallampe,
@@ -622,7 +987,7 @@ c. Dersom instrumenter skal plasseres under styrehustaket, skal takhøyden være
 b. Navigasjonshjelpemidler skal plasseres på en hensiktsmessig måte, også med tanke på inspeksjon og vedlikehold.
 c. Nyinstallerte navigasjonshjelpemidler skal være funksjonsprøvd under påsyn av en representant for produsenten før fartøyet settes i drift.
 d. Navigasjonshjelpemidler skal etterses, vedlikeholdes og om nødvendig kalibreres eller korrigeres i henhold til produsentens anbefalinger.</p>
-<p><em>Endret ved forskrift 26 juni 2025 nr. 1372 .</em></p>
+<p class="note">Endret ved forskrift 26 juni 2025 nr. 1372 .</p>
 <h2 id="9-kontroll-og-dokumentasjon">9. Kontroll og dokumentasjon</h2>
 <h4 id="92-fartyinstruks">§ 92. Fartøyinstruks</h4>
 <p>Fartøy med største lengde 8 til 15 meter skal ha én gyldig fartøyinstruks som angir fartøydata og lovbestemte begrensninger for bruk av fartøyet, herunder opplysninger om fartøyets lengde, bredde og dypgående, maksimalt fartsområde og operasjonelle begrensninger.</p>
@@ -636,7 +1001,7 @@ d. Navigasjonshjelpemidler skal etterses, vedlikeholdes og om nødvendig kalibre
 b. gjennom fullstendig kontroll ved akseptert elektroforetak. Kravet om fullstendig kontroll ved akseptert elektroforetak gjelder ikke for eksisterende fartøy i som har gyldig installasjonsbevis for det elektriske anlegget på tidspunkt for fremstilling for førstegangs kontroll ved godkjent foretak.
 c. kontrolleres hver 30. måned av reder (reders egenkontroll). Egenkontrollen kan finne sted inntil seks måneder før eller etter denne dato, uten at dato for neste egenkontroll blir endret. Er egenkontrollen ikke gjennomført innen de nevnte frister blir fartøyinstruksen ugyldig.
 d. ha kopi av skjema for utført egenkontroll og utført fullstendig kontroll om bord.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="96-kontroll-av-farty-med-strste-lengde-9-til-1067-meter">§ 96. Kontroll av fartøy med største lengde 9 til 10,67 meter</h4>
 <p>Alle fartøy med største lengde 9 til 10,67 meter skal</p>
 <p>a. gjennom en fullstendig kontroll ved godkjent foretak dersom fartøyet ikke har vært fremstilt for fullstendig eller periodisk kontroll ved godkjent foretak i løpet av de siste 5 år.
@@ -646,7 +1011,7 @@ d. innenfor en periode på 30 måneder etter siste fullstendige eller periodiske
 e. gjennom fullstendig kontroll ved akseptert elektroforetak. Kravet om fullstendig kontroll ved akseptert elektroforetak gjelder ikke for eksisterende fartøy som har gyldig installasjonsbevis for det elektriske anlegget på tidspunkt for fremstilling for førstegangs kontroll ved godkjent foretak.
 f. bli fremstilt for periodisk kontroll ved akseptert elektroforetak innenfor en periode på 5 år fra dato for siste fullstendig kontroll, eller dato for siste periodisk kontroll ved akseptert elektroforetak. Kontrollen kan finne sted inntil seks måneder før inneværende periode utløper uten at dato for neste kontroll blir endret.
 g. oppbevare gyldig fartøyinstruks og kontrollskjema om bord.</p>
-<p><em>Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="97-kontroll-av-farty-med-strste-lengde-1067-til-15-meter">§ 97. Kontroll av fartøy med største lengde 10,67 til 15 meter</h4>
 <p>Alle fartøy med største lengde 10,67 til 15 meter skal</p>
 <p>a. gjennom en fullstendig kontroll ved godkjent foretak dersom fartøyet ikke har vært fremstilt for fullstendig eller periodisk kontroll i løpet av de siste 30 månedene.
@@ -655,24 +1020,24 @@ c. ha gjennomført forberedende egenkontroll i forbindelse med fullstendig eller
 d. ha gjennomført en fullstendig kontroll ved akseptert elektroforetak dersom fartøyet ikke har vært fremstilt for fullstendig eller periodisk kontroll i løpet av de siste 5 år.
 e. bli fremstilt for periodisk kontroll ved akseptert elektroforetak innenfor en periode på 5 år fra dato for siste fullstendig kontroll, eller dato for siste periodisk kontroll ved akseptert elektroforetak. Kontrollen kan finne sted inntil seks måneder før inneværende periode utløper uten at dato for neste kontroll blir endret.
 f. oppbevare gyldig fartøyinstruks og kontrollskjema om bord.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="98-innrapportering-av-kontroll-ved-godkjent-foretak-og-reders-egenkontroll">§ 98. Innrapportering av kontroll ved godkjent foretak og reders egenkontroll</h4>
 <p>(1) Fullstendig kontroll ved godkjent foretak av fartøy som er nybygg, innkjøpt fra utlandet eller gjenstand for konvertering skal innrapporteres av godkjent foretak i henhold til skjema som er fastsatt av Sjøfartsdirektoratet. Dette skjema kan lastes ned på www.sdir.no.</p>
 <p>(2) Fullstendig og periodisk forenklet kontroll ved godkjent foretak av seilende fartøy og mellomliggende egenkontroll foretatt av reder skal innrapporteres av godkjent foretak i henhold til skjema som er fastsatt av Sjøfartsdirektoratet. Dette skjema kan lastes ned på www.sdir.no . Før fullstendig eller periodisk forenklet kontroll som nevnt i § 95 første ledd bokstav a), § 96 første ledd bokstav a) og b), eller § 97 første ledd bokstav a) og b), skal reder eller fører av fartøyet ha levert utfylt skjema for egenkontroll for fullstendig eller periodisk forenklet kontroll til det godkjente foretaket i henhold til skjema som er fastsatt av Sjøfartsdirektoratet. Dette skjema kan lastes ned på www.sdir.no .</p>
 <p>(3) Egenkontroll av fartøy med største lengde 8 til 9 meter reder skal innrapporteres direkte til Sjøfartsdirektoratet i henhold til skjema som er fastsatt av Sjøfartsdirektoratet. Dette skjema kan lastes ned på www.sdir.no .</p>
 <p>(4) Mellomliggende egenkontroll av fartøy med største lengde 9 til 10,67 meter skal innrapporteres direkte til Sjøfartsdirektoratet i henhold til skjema som er fastsatt av Sjøfartsdirektoratet. Dette skjema kan lastes ned på www.sdir.no .</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="99-annen-kontroll-av-farty-ved-skade-ombygging-fartstillatelse-mm">§ 99. Annen kontroll av fartøy ved skade, ombygging, fartstillatelse m.m.</h4>
 <p>(1) Alle fartøy med største lengde 8 til 15 meter som skades, har gjennomgått reparasjoner, ombygges eller forandres skal fremstilles for kontroll ved godkjent foretak. Kontrollen skal omfatte de skadede og reparerte delene, det som er ombygd eller endret, samt andre deler av fartøyet som blir berørt av endringene som gjøres, med mindre det er nødvendig å kontrollere også andre deler for sikre at kravene til fartøyet er oppfylt.</p>
 <p>(2) Godkjent foretak kan etter skriftlig søknad utstede fartstillatelse for én enkelt reise i en periode på inntil syv dager når følgende krav er oppfylt:</p>
 <p>a. Det er nødvendig i forbindelse med kontroll, reparasjon eller ombygging av fartøyet.
 b. Det er sikkerhetsmessig forsvarlig, eventuelt med kompenserende tiltak som vil opprettholde et akseptabelt sikkerhetsnivå.</p>
 <p>(3) Fartstillatelse skal utstedes på skjema som kan lastes ned på www.sdir.no .</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="99a-kontroll-av-lfteutstyr">§ 99a. Kontroll av løfteutstyr</h4>
 <p>(1) På fartøy med største lengde 9 meter eller mer skal løfteutstyr med løftekapasitet til og med 500 kg og til og med 2 tonn meter godkjennes av godkjent foretak i samsvar med kravene i denne forskriften i forbindelse med førstegangskontroll og periodiske kontroller. Dette kravet gjelder også fartøy med største lengde 8 inntil 9 meter som skal sertifiseres første gang som fiskefartøy etter 1. januar 2023. Alternativt kan godkjenning av kran gjennomføres av sakkyndig person i samsvar med forskrift 17. januar 1978 nr. 4 om laste- og losseinnretninger på skip .</p>
 <p>(2) Det skal gjennomføres et årlig ettersyn av løfteutstyret. Det årlige ettersynet skal omfatte funksjonstest og visuell kontroll for å avdekke strekk, slitasje, tæring, brudd og sprekkdannelser mv. Det årlige ettersynet kan gjennomføres av verksted, godkjent foretak eller annen virksomhet, eller av person med kompetanse til å utføre dette.</p>
-<p><em>Tilføyd ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="100-kontroll-av-det-elektriske-anlegget-ved-akseptert-elektroforetak">§ 100. Kontroll av det elektriske anlegget ved akseptert elektroforetak</h4>
 <p>(1) All kontroll ved akseptert elektroforetak blir utført slik det fremgår av kontrollskjema fastsatt av Direktoratet for samfunnssikkerhet og beredskap. For klassede fartøy kan kontrollen av det elektriske anlegget utføres av anerkjente klasseinstitusjoner.</p>
 <p>(2) Plikt til annen kontroll ved akseptert elektroforetak for å sikre at fartøyets tilstand fortsatt er i samsvar med de til enhver tid gjeldende forskrifter gjelder når</p>
@@ -681,7 +1046,7 @@ b. det elektriske anlegget har vært utsatt for skade eller har gjennomgått rep
 <p>(3) Kontroll som nevnt i annet ledd skal omfatte de deler som har vært skadet eller gjennomgått reparasjoner, forandringer eller ombygginger. Kontrollen skal også omfatte andre deler dersom dette er nødvendig for å sikre at fartøyets tilstand fortsatt er i samsvar med de til enhver tid gjeldende forskrifter.</p>
 <h4 id="101-dokumentasjon-ved-nybygg-og-ombygging">§ 101. Dokumentasjon ved nybygg og ombygging</h4>
 <p>Ved bygging eller ombygging av fartøy med største lengde 8 til 15 meter skal tegninger og annen dokumentasjon kontrolleres av godkjent foretak.</p>
-<p><em>Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h4 id="102-dokumentasjon-om-bord-pa-fartyet">§ 102. Dokumentasjon om bord på fartøyet</h4>
 <p>(1) Dokumentasjon som etter denne forskriften kreves oppbevart om bord skal og kunne fremlegges ved senere inspeksjoner/tilsyn.</p>
 <p>(2) Foruten dokumentasjon som er nevnt i den enkelte bestemmelse skal følgende oppbevares om bord:</p>
@@ -696,7 +1061,7 @@ e. for eksisterende fartøy over 8 meter bygget etter 1. juli 2014 skal det oppb
 <p>(6) Brev vedrørende kontroll av stabilitetsberegninger, stabilitetsplakat og øvrig stabilitetsdokumentasjon skal oppbevares om bord i fartøyet.</p>
 <p>(7) Samsvarserklæring fra produsent av redningsflåte skal oppbevares om bord.</p>
 <p>(8) Dokumentasjon for trykkprøving/tetthetsprøving av redningsdrakt skal oppbevares om bord.</p>
-<p><em>Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 26 okt 2020 nr. 2142 , 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 4 mai 2015 nr. 445 (i kraft 6 mai 2015), 26 okt 2020 nr. 2142 , 6 des 2021 nr. 3415 (i kraft 1 jan 2022).</p>
 <h2 id="10-avsluttende-bestemmelser">10. Avsluttende bestemmelser</h2>
 <h4 id="103-dispensasjon-og-likeverdige-lsninger">§ 103. Dispensasjon og likeverdige løsninger</h4>
 <p>(1) Sjøfartsdirektoratet kan unnta et skip fra ett eller flere av kravene i forskriften dersom rederiet søker skriftlig om unntak og et av følgende krav er oppfylt</p>
@@ -734,7 +1099,7 @@ b. 10 år etter utstedelse av fartøysinstruks for fartøy med største lengde 8
 c. 1. januar 2025 for fartøy med største lengde 10,67 til 15 meter.</p>
 <p>(7) Krav om EPIRP i § 68 gjelder likevel fra 1. juli 2014. EPIRB uten innebygd posisjonsangivelse, som er anskaffet før dato 1. juli 2014 kan benyttes frem til den 1. juli 2018.</p>
 <p>(8) For fartøy som ikke har vært registrert i registeret over norske fiskefartøy (merkeregisteret) tidligere, kommer kravene i kapittel 9 om kontroll ved godkjent foretak, samt kravene til stabilitetsdokumentasjon, til anvendelse fra det tidspunktet fartøyet tas i bruk, uavhengig av bestemmelsen i første til fjerde ledd.</p>
-<p><em>Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</em></p>
+<p class="note">Endret ved forskrift 4 mai 2015 nr. 445 (i kraft 6 mai 2015).</p>
 <h2 id="vedlegg-1-oversikt-kontroll-av-fiskefarty-under-15-meter-strste-lengde">Vedlegg 1. Oversikt – kontroll av fiskefartøy under 15 meter største lengde</h2>
 <p>Fartøy- gruppe Kontroll Kontroll Kontroll Kontroll Kontroll &lt;8 meter Ikke gjenstand for kontroll ved Godkjent kontrollforetak eller akseptert elektroforetak 8–9 meter Førstegangs kontroll ved Godkjent kontrollforetak. Deretter kun krav om egenkontroller dersom fartøy ikke endres/bygges om. Reders egenkontroll skal utføres ved hver 30 md. etter dato for utstedt fartøyinstruks +/– 6 md.) Skjema for egenkontroll skal oppbevares om bord (skal ikke sendes inn til Godkjent foretak eller Sjøfartsdirektoratet) Fullstendig kontroll ved akseptert elektroforetak (deretter ingen periodisk forenklet kontroll ved akseptert elektroforetak) 9–10,67 meter Fullstendig kontroll ved godkjent foretak dersom fartøyet ikke har vært fremstilt for fullstendig eller periodisk forenklet kontroll ved godkjent foretak i løpet av de siste 5 år Mellomliggende periodisk egenkontroll av reder (reders egenkontroll). Kontrollen utføres ved 30 md. etter dato for utstedt fartøyinstruks +/– 6 md. Periodisk forenklet kontroll ved godkjent foretak innenfor en periode på 5 år. (med forutgående forberedende egenkontroll) Kontrollen utføres ved 30 md. etter dato for utstedt fartøyinstruks – 6 md. fullstendig kontroll ved akseptert elektroforetak periodisk forenklet kontroll ved akseptert elektroforetak 10,67–15 meter Fullstendig kontroll ved godkjent foretak dersom fartøyet ikke har vært fremstilt for fullstendig eller periodisk forenklet kontroll i løpet av de siste 30 månedene Periodisk forenklet kontroll ved godkjent foretak (med forutgående forberedende egenkontroll). Kontrollen utføres ved 30 md. etter dato for utstedt fartøyinstruks – 6 md. fullstendig forenklet kontroll ved akseptert elektroforetak periodisk forenklet kontroll ved akseptert elektroforetak</p>
 <h2 id="vedlegg-2-liste-over-dokumentasjon-som-skal-oppbevares-om-bord-pa-fartyet">Vedlegg 2. Liste over dokumentasjon som skal oppbevares om bord på fartøyet</h2>
@@ -1111,6 +1476,8 @@ c. 1. januar 2025 for fartøy med største lengde 10,67 til 15 meter.</p>
 <ol>
 <li>Andre metoder for beregning av virkningen av vann på dekk kan benyttes.</li>
 </ol>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

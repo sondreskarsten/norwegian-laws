@@ -19,64 +19,193 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-04-18-480.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Biocidforskriften" href="../feeds/forskrift-2017-04-18-480.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Biocidforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-04-18-480</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementetKlima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-04-18</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-10-09-2041</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-04-18-480" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-gjennomfring-av-es-rettsakter">Kapittel 1. Gjennomføring av EØS-rettsakter</a></li>
+<li class="lvl4"><a href="#1-1-biocidforordningen">§ 1-1. Biocidforordningen</a></li>
+<li class="lvl4"><a href="#1-2-rettsakter-om-at-aktive-stoffer-godkjennes-eller-ikke-godkjennes">§ 1-2. Rettsakter om at aktive stoffer godkjennes eller ikke godkjennes</a></li>
+<li class="lvl4"><a href="#1-3-forordning-om-biocidprogrammet">§ 1-3. Forordning om biocidprogrammet</a></li>
+<li class="lvl4"><a href="#1-4-beslutninger-om-utsatt-frist">§ 1-4. Beslutninger om utsatt frist</a></li>
+<li class="lvl4"><a href="#1-5-forordning-om-prosedyre-for-endring-av-vedlegg-i-til-biocidforordningen">§ 1-5. Forordning om prosedyre for endring av vedlegg I til biocidforordningen</a></li>
+<li class="lvl4"><a href="#1-6-forordning-om-endringer-av-godkjenninger">§ 1-6. Forordning om endringer av godkjenninger</a></li>
+<li class="lvl4"><a href="#1-7-forordning-om-fornyelse-av-godkjenninger">§ 1-7. Forordning om fornyelse av godkjenninger</a></li>
+<li class="lvl4"><a href="#1-8-forordning-om-samme-produkt">§ 1-8. Forordning om samme produkt</a></li>
+<li class="lvl4"><a href="#1-9-rettsakter-om-tolkning-av-definisjoner">§ 1-9. Rettsakter om tolkning av definisjoner</a></li>
+<li class="lvl4"><a href="#1-10-beslutninger-om-uenigheter-ved-gjensidige-godkjenninger">§ 1-10. Beslutninger om uenigheter ved gjensidige godkjenninger</a></li>
+<li class="lvl4"><a href="#1-11-forordning-om-vitenskapelige-kriterier-til-identifisering-av-hormonforstyrrende-stoffer">§ 1-11. Forordning om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer</a></li>
+<li class="lvl4"><a href="#1-12-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">§ 1-12. Beslutninger om sammenlignende vurdering av biocidprodukter</a></li>
+<li class="lvl4"><a href="#1-13-forordning-om-gebyrer-og-avgifter-som-skal-betales-til-echa">§ 1-13. Forordning om gebyrer og avgifter som skal betales til ECHA</a></li>
+<li class="lvl2"><a href="#kapittel-2-nasjonale-krav">Kapittel 2. Nasjonale krav</a></li>
+<li class="lvl4"><a href="#2-1-emballering-merking-og-bruksanvisning">§ 2-1. Emballering, merking og bruksanvisning</a></li>
+<li class="lvl4"><a href="#2-2-registrering-i-produktregisteret">§ 2-2. Registrering i produktregisteret</a></li>
+<li class="lvl4"><a href="#2-3-nasjonale-gebyrer">§ 2-3. Nasjonale gebyrer</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#3-1-ansvarlig-myndighet">§ 3-1. Ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#3-2-tilsyn-mm">§ 3-2. Tilsyn m.m.</a></li>
+<li class="lvl4"><a href="#3-3-ikrafttredelse-og-opphevelse-av-forskrifter">§ 3-3. Ikrafttredelse og opphevelse av forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-gebyrer-for-biocider-og-biocidprodukter">Vedlegg 1. Gebyrer for biocider og biocidprodukter</a></li>
+<li class="lvl3"><a href="#a-gebyrer-for-sknadsvurdering">A. Gebyrer for søknadsvurdering*</a></li>
+<li class="lvl3"><a href="#b-arsgebyr">B. Årsgebyr</a></li>
+<li class="lvl2"><a href="#vedlegg-2-aktive-stoffer-som-er-godkjent-for-bruk-i-angitte-produkttyper">Vedlegg 2. Aktive stoffer som er godkjent for bruk i angitt(e) produkttype(r)</a></li>
+<li class="lvl2"><a href="#vedlegg-3-aktive-stoffer-som-ikke-er-godkjent-for-bruk-i-angitte-produkttyper">Vedlegg 3. Aktive stoffer som ikke er godkjent for bruk i angitt(e) produkttype(r)</a></li>
+<li class="lvl2"><a href="#rettsakter">Rettsakter</a></li>
+<li class="lvl3"><a href="#konsolidert-versjon-av-biocidforordningen-pa-engelsk">Konsolidert versjon av biocidforordningen på engelsk</a></li>
+<li class="lvl3"><a href="#konsolidert-versjon-av-forordning-om-biocidprogrammet">Konsolidert versjon av forordning om biocidprogrammet</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-biocidforordningen">Norske oversettelser av biocidforordningen</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-forordninger-om-biocidprogrammet">Norske oversettelser av forordninger om biocidprogrammet</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-beslutninger-om-utsatt-frist">Norske oversettelser av beslutninger om utsatt frist</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-framgangsmate-for-endring-av-vedlegg-i-til-biocidforordningen">Norsk oversettelse av forordning om framgangsmåte for endring av vedlegg I til biocidforordningen</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-endringer-av-biocidprodukter-som-er-godkjent-i-henhold-til-biocidforordningen">Norsk oversettelse av forordning om endringer av biocidprodukter som er godkjent i henhold til biocidforordningen</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-rettsakter-om-fornyelse-av-godkjenninger">Norske oversettelser av rettsakter om fornyelse av godkjenninger</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-forordninger-om-samme-produkt">Norske oversettelser av forordninger om samme produkt</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-rettsakter-om-tolkning-av-definisjoner">Norske oversettelser av rettsakter om tolkning av definisjoner</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-beslutninger-om-uenigheter-ved-gjensidige-godkjenninger">Norske oversettelser av beslutninger om uenigheter ved gjensidige godkjenninger</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-gebyrer-og-avgifter-til-det-europeiske-kjemikaliebyraet">Norsk oversettelse av forordning om gebyrer og avgifter til Det europeiske kjemikaliebyrået</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-vitenskapelige-kriterier-til-identifisering-av-hormonforstyrrende-stoffer">Norsk oversettelse av forordning om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">Norsk oversettelse av beslutninger om sammenlignende vurdering av biocidprodukter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-10-09-2041.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-04-18-480.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om biocider (Biocidforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-04-18-480.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-04-18-480 <code>forskrift/2017-04-18-480</code></td></tr>
+<tr><th>Korttittel</th><td>Biocidforskriften</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementetKlima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>18.04.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-10-09-2041 <code>forskrift/2026-10-09-2041</code> fra 09.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-04-18-480" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-gjennomfring-av-es-rettsakter">Kapittel 1. Gjennomføring av EØS-rettsakter</a></li>
+<li class="lvl4"><a href="#1-1-biocidforordningen">§ 1-1. Biocidforordningen</a></li>
+<li class="lvl4"><a href="#1-2-rettsakter-om-at-aktive-stoffer-godkjennes-eller-ikke-godkjennes">§ 1-2. Rettsakter om at aktive stoffer godkjennes eller ikke godkjennes</a></li>
+<li class="lvl4"><a href="#1-3-forordning-om-biocidprogrammet">§ 1-3. Forordning om biocidprogrammet</a></li>
+<li class="lvl4"><a href="#1-4-beslutninger-om-utsatt-frist">§ 1-4. Beslutninger om utsatt frist</a></li>
+<li class="lvl4"><a href="#1-5-forordning-om-prosedyre-for-endring-av-vedlegg-i-til-biocidforordningen">§ 1-5. Forordning om prosedyre for endring av vedlegg I til biocidforordningen</a></li>
+<li class="lvl4"><a href="#1-6-forordning-om-endringer-av-godkjenninger">§ 1-6. Forordning om endringer av godkjenninger</a></li>
+<li class="lvl4"><a href="#1-7-forordning-om-fornyelse-av-godkjenninger">§ 1-7. Forordning om fornyelse av godkjenninger</a></li>
+<li class="lvl4"><a href="#1-8-forordning-om-samme-produkt">§ 1-8. Forordning om samme produkt</a></li>
+<li class="lvl4"><a href="#1-9-rettsakter-om-tolkning-av-definisjoner">§ 1-9. Rettsakter om tolkning av definisjoner</a></li>
+<li class="lvl4"><a href="#1-10-beslutninger-om-uenigheter-ved-gjensidige-godkjenninger">§ 1-10. Beslutninger om uenigheter ved gjensidige godkjenninger</a></li>
+<li class="lvl4"><a href="#1-11-forordning-om-vitenskapelige-kriterier-til-identifisering-av-hormonforstyrrende-stoffer">§ 1-11. Forordning om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer</a></li>
+<li class="lvl4"><a href="#1-12-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">§ 1-12. Beslutninger om sammenlignende vurdering av biocidprodukter</a></li>
+<li class="lvl4"><a href="#1-13-forordning-om-gebyrer-og-avgifter-som-skal-betales-til-echa">§ 1-13. Forordning om gebyrer og avgifter som skal betales til ECHA</a></li>
+<li class="lvl2"><a href="#kapittel-2-nasjonale-krav">Kapittel 2. Nasjonale krav</a></li>
+<li class="lvl4"><a href="#2-1-emballering-merking-og-bruksanvisning">§ 2-1. Emballering, merking og bruksanvisning</a></li>
+<li class="lvl4"><a href="#2-2-registrering-i-produktregisteret">§ 2-2. Registrering i produktregisteret</a></li>
+<li class="lvl4"><a href="#2-3-nasjonale-gebyrer">§ 2-3. Nasjonale gebyrer</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#3-1-ansvarlig-myndighet">§ 3-1. Ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#3-2-tilsyn-mm">§ 3-2. Tilsyn m.m.</a></li>
+<li class="lvl4"><a href="#3-3-ikrafttredelse-og-opphevelse-av-forskrifter">§ 3-3. Ikrafttredelse og opphevelse av forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-gebyrer-for-biocider-og-biocidprodukter">Vedlegg 1. Gebyrer for biocider og biocidprodukter</a></li>
+<li class="lvl3"><a href="#a-gebyrer-for-sknadsvurdering">A. Gebyrer for søknadsvurdering*</a></li>
+<li class="lvl3"><a href="#b-arsgebyr">B. Årsgebyr</a></li>
+<li class="lvl2"><a href="#vedlegg-2-aktive-stoffer-som-er-godkjent-for-bruk-i-angitte-produkttyper">Vedlegg 2. Aktive stoffer som er godkjent for bruk i angitt(e) produkttype(r)</a></li>
+<li class="lvl2"><a href="#vedlegg-3-aktive-stoffer-som-ikke-er-godkjent-for-bruk-i-angitte-produkttyper">Vedlegg 3. Aktive stoffer som ikke er godkjent for bruk i angitt(e) produkttype(r)</a></li>
+<li class="lvl2"><a href="#rettsakter">Rettsakter</a></li>
+<li class="lvl3"><a href="#konsolidert-versjon-av-biocidforordningen-pa-engelsk">Konsolidert versjon av biocidforordningen på engelsk</a></li>
+<li class="lvl3"><a href="#konsolidert-versjon-av-forordning-om-biocidprogrammet">Konsolidert versjon av forordning om biocidprogrammet</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-biocidforordningen">Norske oversettelser av biocidforordningen</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-forordninger-om-biocidprogrammet">Norske oversettelser av forordninger om biocidprogrammet</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-beslutninger-om-utsatt-frist">Norske oversettelser av beslutninger om utsatt frist</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-framgangsmate-for-endring-av-vedlegg-i-til-biocidforordningen">Norsk oversettelse av forordning om framgangsmåte for endring av vedlegg I til biocidforordningen</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-endringer-av-biocidprodukter-som-er-godkjent-i-henhold-til-biocidforordningen">Norsk oversettelse av forordning om endringer av biocidprodukter som er godkjent i henhold til biocidforordningen</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-rettsakter-om-fornyelse-av-godkjenninger">Norske oversettelser av rettsakter om fornyelse av godkjenninger</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-forordninger-om-samme-produkt">Norske oversettelser av forordninger om samme produkt</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-rettsakter-om-tolkning-av-definisjoner">Norske oversettelser av rettsakter om tolkning av definisjoner</a></li>
+<li class="lvl3"><a href="#norske-oversettelser-av-beslutninger-om-uenigheter-ved-gjensidige-godkjenninger">Norske oversettelser av beslutninger om uenigheter ved gjensidige godkjenninger</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-gebyrer-og-avgifter-til-det-europeiske-kjemikaliebyraet">Norsk oversettelse av forordning om gebyrer og avgifter til Det europeiske kjemikaliebyrået</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-forordning-om-vitenskapelige-kriterier-til-identifisering-av-hormonforstyrrende-stoffer">Norsk oversettelse av forordning om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer</a></li>
+<li class="lvl3"><a href="#norsk-oversettelse-av-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">Norsk oversettelse av beslutninger om sammenlignende vurdering av biocidprodukter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-04-18-480.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-04-18-480.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-04-18-480.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-04-18-480.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-04-18-480.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-04-18-480.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-04-18-480.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-04-18-480.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-04-18-480.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-biocider-biocidforskriften">Forskrift om biocider (Biocidforskriften)</h1>
 <h2 id="kapittel-1-gjennomfring-av-es-rettsakter">Kapittel 1. Gjennomføring av EØS-rettsakter</h2>
 <h4 id="1-1-biocidforordningen">§ 1-1. Biocidforordningen <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 528/2012 om tilgjengeliggjøring på markedet og bruk av biocidprodukter (biocidforordningen), som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12n, gjelder som forskrift, med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig. Forordningen gjelder med endringene som følger av</p>
@@ -97,10 +226,10 @@ n. forordning (EU) 2021/525
 o. forordning (EU) 2024/1290
 p. forordning (EU) 2024/1398
 q. forordning (EU) 2026/1165</p>
-<p><em>Endret ved forskrifter 7 feb 2020 nr. 120 , 9 juli 2021 nr. 2409 , 29 okt 2021 nr. 3146 , 29 april 2022 nr. 811 , 23 sep 2024 nr. 2372 , 13 juni 2025 nr. 1255 , 9 okt 2026 nr. 2041 .</em></p>
+<p class="note">Endret ved forskrifter 7 feb 2020 nr. 120 , 9 juli 2021 nr. 2409 , 29 okt 2021 nr. 3146 , 29 april 2022 nr. 811 , 23 sep 2024 nr. 2372 , 13 juni 2025 nr. 1255 , 9 okt 2026 nr. 2041 .</p>
 <h4 id="1-2-rettsakter-om-at-aktive-stoffer-godkjennes-eller-ikke-godkjennes">§ 1-2. Rettsakter om at aktive stoffer godkjennes eller ikke godkjennes <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Rettsaktene om å godkjenne eller ikke godkjenne aktive stoffer, som inntatt i EØS-avtalen vedlegg II kapittel XV , og som er listet opp i vedlegg 2 og 3 i denne forskriften, gjelder som forskrift. Rettsaktene gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-3-forordning-om-biocidprogrammet">§ 1-3. Forordning om biocidprogrammet <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 1062/2014 om arbeidsprogrammet for systematisk undersøkelse av alle eksisterende aktive stoffer i biocidprodukter, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12nza, gjelder som forskrift, med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Forordningen gjelder med endringene som følger av</p>
@@ -108,7 +237,7 @@ q. forordning (EU) 2026/1165</p>
 b. forordning (EU) 2019/157
 c. forordning (EU) 2019/227
 d. forordning (EU) 2022/825</p>
-<p><em>Endret ved forskrifter 29 sep 2017 nr. 1574 , 8 mai 2019 nr. 589 (i kraft 1 juni 2019), 14 juni 2019 nr. 948 , 9 des 2022 nr. 2228 , 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrifter 29 sep 2017 nr. 1574 , 8 mai 2019 nr. 589 (i kraft 1 juni 2019), 14 juni 2019 nr. 948 , 9 des 2022 nr. 2228 , 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-4-beslutninger-om-utsatt-frist">§ 1-4. Beslutninger om utsatt frist <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Følgende beslutninger inntatt i EØS-avtalen vedlegg II kapittel XV gjelder som forskrift:</p>
 <p>a. beslutning 2014/397/EU om forlengelse av godkjenning av difetialon og difenakum til bruk i biocidprodukter i produkttype 14, jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnb
@@ -217,19 +346,19 @@ cy. beslutning (EU) 2026/1111 om utsettelse av utløpsdatoen for godkjenningen a
 cz. beslutning (EU) 2026/1128 om utsettelse av utløpsdatoen for godkjenningen av borsyre til bruk i biocidprodukter i produkttype 8, jf. EØS-avtalen vedlegg II kapittel XV nr. 12zzzzzzzzzzzzzq
 da. beslutning (EU) 2026/1129 om utsettelse av utløpsdatoen for godkjenningen av IPBC til bruk i biocidprodukter i produkttype 8, jf. EØS-avtalen vedlegg II kapittel XV nr. 12zzzzzzzzzzzzzr</p>
 <p>Beslutningene gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 23 mars 2018 nr. 506 , 8 feb 2019 nr. 90 , 27 sep 2019 nr. 1327 , 30 april 2020 nr. 939 , 23 okt 2020 nr. 2228 , 5 feb 2021 nr. 478 , 29 okt 2021 nr. 3146 , 10 des 2021 nr. 3650 , 18 mars 2022 nr. 425 , 29 april 2022 nr. 811 , 28 april 2023 nr. 650 , 5 juli 2023 nr. 1251 , 22 sep 2023 nr. 1485 , 27 okt 2023 nr. 1775 , 8 des 2023 nr. 1990 , 2 feb 2024 nr. 206 , 15 mars 2024 nr. 495 , 26 april 2024 nr. 719 , 23 sep 2024 nr. 2372 , 7 feb 2025 nr. 281 , 14 mars 2025 nr. 627 , 13 juni 2025 nr. 1255 , 5 des 2025 nr. 2963 , 6 feb 2026 nr. 226 , 20 mars 2026 nr. 595 , 26 juni 2026 nr. 1448 , 16 juli 2026 nr. 1575 , 9 okt 2026 nr. 2041 .</em></p>
+<p class="note">Endret ved forskrifter 23 mars 2018 nr. 506 , 8 feb 2019 nr. 90 , 27 sep 2019 nr. 1327 , 30 april 2020 nr. 939 , 23 okt 2020 nr. 2228 , 5 feb 2021 nr. 478 , 29 okt 2021 nr. 3146 , 10 des 2021 nr. 3650 , 18 mars 2022 nr. 425 , 29 april 2022 nr. 811 , 28 april 2023 nr. 650 , 5 juli 2023 nr. 1251 , 22 sep 2023 nr. 1485 , 27 okt 2023 nr. 1775 , 8 des 2023 nr. 1990 , 2 feb 2024 nr. 206 , 15 mars 2024 nr. 495 , 26 april 2024 nr. 719 , 23 sep 2024 nr. 2372 , 7 feb 2025 nr. 281 , 14 mars 2025 nr. 627 , 13 juni 2025 nr. 1255 , 5 des 2025 nr. 2963 , 6 feb 2026 nr. 226 , 20 mars 2026 nr. 595 , 26 juni 2026 nr. 1448 , 16 juli 2026 nr. 1575 , 9 okt 2026 nr. 2041 .</p>
 <h4 id="1-5-forordning-om-prosedyre-for-endring-av-vedlegg-i-til-biocidforordningen">§ 1-5. Forordning om prosedyre for endring av vedlegg I til biocidforordningen <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 88/2014 om fastsettelse av en prosedyre for endring av vedlegg I til biocidforordningen som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12nm, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-6-forordning-om-endringer-av-godkjenninger">§ 1-6. Forordning om endringer av godkjenninger <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 354/2013 om endringer av biocidprodukter som er godkjent i henhold til biocidforordningen, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12nk, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-7-forordning-om-fornyelse-av-godkjenninger">§ 1-7. Forordning om fornyelse av godkjenninger <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 492/2014 om utfylling av reglene om fornyelse av godkjenning av biocidprodukter som er omfattet av gjensidig anerkjennelse, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12nna, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 21 des 2017 nr. 2363 , 23 sep 2024 nr. 2372 , 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrifter 21 des 2017 nr. 2363 , 23 sep 2024 nr. 2372 , 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-8-forordning-om-samme-produkt">§ 1-8. Forordning om samme produkt <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-8.html" title="Endringshistorikk for § 1-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) nr. 414/2013 om spesifisering av prosedyre for godkjenning av samme biocidprodukt, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12zzp, gjelder som forskrift. Forordningen gjelder med endringene som følger av forordning (EU) 2016/1802 , og med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-9-rettsakter-om-tolkning-av-definisjoner">§ 1-9. Rettsakter om tolkning av definisjoner <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-9.html" title="Endringshistorikk for § 1-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Følgende beslutninger inntatt i EØS-avtalen vedlegg II kapittel XV gjelder som forskrift:</p>
 <p>a. beslutning (EU) 2015/646 om bakteriekulturer som har til formål å redusere fast organisk materiale og som bringes i omsetning med dette formål i medhold av artikkel 3(3) i forordning (EU) nr. 528/2012 , jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnd
@@ -244,7 +373,7 @@ i. beslutning (EU) 2022/146 om et produkt som inneholder alkyl(C12-16) dimetylbe
 j. beslutning (EU) 2022/1497 om et produkt som inneholder ekspellerpresset oleoresin av Capsicum er et biocidprodukt i henhold til artikkel 3(3) i forordning (EU) nr. 528/2012 , jf. EØS-avtalen vedlegg II kapittel XV nr. 12zzzzzzzzm
 k. beslutning (EU) 2016/678 om et produkt bestående av tørkede lavendelblomster i pose som markedsføres til bekjempelse av møll i medhold av artikkel 3(3) i forordning (EU) nr. 528/2012 , jf. EØS-avtalen vedlegg II kapittel XV nr. 19</p>
 <p>Beslutningene gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 23 mars 2018 nr. 506 , 8 feb 2019 nr. 90 , 10 juni 2022 nr. 1052 , 28 april 2023 nr. 650 , 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Endret ved forskrifter 23 mars 2018 nr. 506 , 8 feb 2019 nr. 90 , 10 juni 2022 nr. 1052 , 28 april 2023 nr. 650 , 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-10-beslutninger-om-uenigheter-ved-gjensidige-godkjenninger">§ 1-10. Beslutninger om uenigheter ved gjensidige godkjenninger <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-10.html" title="Endringshistorikk for § 1-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Følgende beslutninger inntatt i EØS-avtalen vedlegg II kapittel XV gjelder som forskrift:</p>
 <p>a. beslutning 2014/402/EU om begrensning av godkjenninger av biocidprodukter som inneholder IPBC, meldt av Tyskland i samsvar med direktiv 98/8/EF , jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnc
@@ -284,38 +413,38 @@ ah. beslutning (EU) 2025/2280 om de uløste innvendingene med hensyn til vilkår
 ai. beslutning (EU) 2025/2297 om de uløste innvendingene med hensyn til vilkårene for godkjenning av biocidproduktet Saltidin 20 % Outdoor i samsvar med forordning (EU) nr. 528/2012 , jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnnh
 aj. beslutning (EU) 2025/2309 om de uløste innvendingene med hensyn til vilkårene for godkjenning av biocidproduktet ERO MP i samsvar med forordning (EU) nr. 528/2012 , jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnni</p>
 <p>Beslutningene gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 8 feb 2019 nr. 90 , 29 mars 2019 nr. 438 , 27 sep 2019 nr. 1327 , 13 des 2019 nr. 2133 , 29 april 2022 nr. 811 , 10 juni 2022 nr. 1052 , 28 okt 2022 nr. 1911 , 9 des 2022 nr. 2228 , 3 feb 2023 nr. 177 , 28 april 2023 nr. 650 , 27 okt 2023 nr. 1775 , 15 mars 2024 nr. 495 , 26 april 2024 nr. 719 , 23 sep 2024 nr. 2372 , 7 feb 2025 nr. 281 , 13 juni 2025 nr. 1255 , 20 mars 2026 nr. 595 .</em></p>
+<p class="note">Endret ved forskrifter 8 feb 2019 nr. 90 , 29 mars 2019 nr. 438 , 27 sep 2019 nr. 1327 , 13 des 2019 nr. 2133 , 29 april 2022 nr. 811 , 10 juni 2022 nr. 1052 , 28 okt 2022 nr. 1911 , 9 des 2022 nr. 2228 , 3 feb 2023 nr. 177 , 28 april 2023 nr. 650 , 27 okt 2023 nr. 1775 , 15 mars 2024 nr. 495 , 26 april 2024 nr. 719 , 23 sep 2024 nr. 2372 , 7 feb 2025 nr. 281 , 13 juni 2025 nr. 1255 , 20 mars 2026 nr. 595 .</p>
 <h4 id="1-11-forordning-om-vitenskapelige-kriterier-til-identifisering-av-hormonforstyrrende-stoffer">§ 1-11. Forordning om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-11.html" title="Endringshistorikk for § 1-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) 2017/2100 om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 26, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Tilføyd ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-12-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">§ 1-12. Beslutninger om sammenlignende vurdering av biocidprodukter <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-12.html" title="Endringshistorikk for § 1-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Følgende beslutninger inntatt i EØS-avtalen vedlegg II kapittel XV gjelder som forskrift:</p>
 <p>a. beslutning (EU) 2017/1532 om spørsmål knyttet til sammenlignende vurdering av antikoagulerende muse- og rottemidler, jf. EØS-avtalen vedlegg II kapittel XV nr. 20
 b. beslutning (EU) 2024/816 om spørsmål knyttet til den andre sammenlignende vurderingen av antikoagulerende muse- og rottemidler, jf. EØS-avtalen vedlegg II kapittel XV nr. 12nnna</p>
 <p>Beslutningene gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 13 juni 2025 nr. 1255 .</em></p>
+<p class="note">Tilføyd ved forskrift 13 juni 2025 nr. 1255 .</p>
 <h4 id="1-13-forordning-om-gebyrer-og-avgifter-som-skal-betales-til-echa">§ 1-13. Forordning om gebyrer og avgifter som skal betales til ECHA <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-1-13.html" title="Endringshistorikk for § 1-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning EU) nr. 564/2013 om gebyrer og avgifter til det europeiske kjemikalibyrået, som inntatt i EØS-avtalen vedlegg II kapittel XV nr. 12nl, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av forordning (EU) 2025/1490 .</p>
-<p><em>Endret ved forskrifter 13 juni 2025 nr. 1255 (tidligere § 1-11), 5 des 2025 nr. 2963 .</em></p>
+<p class="note">Endret ved forskrifter 13 juni 2025 nr. 1255 (tidligere § 1-11), 5 des 2025 nr. 2963 .</p>
 <h2 id="kapittel-2-nasjonale-krav">Kapittel 2. Nasjonale krav</h2>
 <h4 id="2-1-emballering-merking-og-bruksanvisning">§ 2-1. Emballering, merking og bruksanvisning</h4>
 <p>Biocidprodukter skal være merket på norsk. Informasjon om bruksområde og beskrivelse av tiltenkt bruk skal også være på norsk.</p>
 <p>Biocidprodukter som kan forveksles med mat, drikke eller fôr skal emballeres slik at forvekslingsfare unngås.</p>
 <p>Etiketten for et biocidprodukt må ikke være misvisende, og det skal aldri benyttes «lavrisikoprodukt», «giftfritt», «uskadelig», «naturlig», «miljøvennlig» eller liknende uttrykk på etiketten.</p>
-<h4 id="2-2-registrering-i-produktregisteret">§ 2-2. Registrering i produktregisteret</h4>
+<h4 id="2-2-registrering-i-produktregisteret">§ 2-2. Registrering i produktregisteret <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Alle tillatte biocidprodukter som inneholder aktive stoffer, jf. forordning (EU) nr. 528/2012 artikkel 3 bokstav c, skal meldes til produktregisteret ved innførsel, omsetning eller bruk på det norske markedet. Meldeplikten gjelder også produkter som ikke er deklarasjonspliktige i henhold til forskrift 19. mai 2015 nr. 541 om deklarering av kjemikalier til produktregisteret (deklareringsforskriften). Meldingen skal sendes gjennom Miljødirektoratets løsning for elektronisk deklarering, Kjemikaliedeklarering til produktregisteret.</p>
 <p>Meldingen skal alltid opplyse om produktnavn, angi produkttype og de aktive stoffene i produktet og oppgi produktansvarlig. Ved senere endringer i disse opplysningene eller dersom produktet trekkes fra markedet skal Miljødirektoratet gis særskilt melding. Kravene i paragrafen her gjelder i tillegg til kravene til melding i forskrift 19. mai 2015 nr. 541 om deklarering av kjemikalier til produktregisteret (deklareringsforskriften).</p>
-<p><em>Endret ved forskrift 27 aug 2018 nr. 1274 (i kraft 1 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 27 aug 2018 nr. 1274 (i kraft 1 okt 2018).</p>
 <h4 id="2-3-nasjonale-gebyrer">§ 2-3. Nasjonale gebyrer <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som søker godkjenning av et aktivt stoff, eller godkjenning eller registrering av et biocidprodukt, skal betale et gebyr som dekker kostnadene for behandlingen av søknaden. Innehaver av en slik godkjenning eller registrering skal i tillegg betale et årsgebyr som skal dekke kostnadene ved gjennomføring av tilsyn og kontroll med at forskriften her eller vedtak gjort i medhold av forskriften blir overholdt.</p>
 <p>Gebyrsatsene samt nærmere regler om gebyrer er fastsatt i vedlegg 1. Miljødirektoratet kan endre gebyrsatsene i samsvar med endringene i kostnadene nevnt i første ledd.</p>
 <p>Miljødirektoratet kan årlig endre gebyrsatsene i vedlegg 1 i samsvar med endring i konsumprisindeksen beregnet for perioden 1. oktober til 30. september. Endringen trer i kraft den påfølgende 1. januar.</p>
 <p>Når særlige grunner foreligger, kan Miljødirektoratet gjøre unntak fra reglene om gebyrer, herunder gebyrsatsene.</p>
-<p><em>Endret ved forskrift 22 april 2024 nr. 652 .</em></p>
+<p class="note">Endret ved forskrift 22 april 2024 nr. 652 .</p>
 <h2 id="kapittel-3-avsluttende-bestemmelser">Kapittel 3. Avsluttende bestemmelser</h2>
 <h4 id="3-1-ansvarlig-myndighet">§ 3-1. Ansvarlig myndighet <a class="para-history" href="../historikk/forskrift-2017-04-18-480/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet er ansvarlig myndighet etter rettsakter nevnt i denne forskriften og fatter vedtak etter biocidforordningen, herunder godkjenninger eller avslag som svarer til Kommisjonens vedtak etter artikkel 44(5) og vedtak som svarer til Kommisjonens vedtak om å endre eller tilbakekalle disse godkjenningene etter artikkel 48, 49 og 50.</p>
-<p><em>Endret ved forskrift 4 jan 2018 nr. 15 .</em></p>
+<p class="note">Endret ved forskrift 4 jan 2018 nr. 15 .</p>
 <h4 id="3-2-tilsyn-mm">§ 3-2. Tilsyn m.m.</h4>
 <p>Miljødirektoratet og Arbeidstilsynet eller den Klima- og miljødepartementet eller Arbeids- og sosialdepartementet bemyndiger, fører tilsyn med at denne forskriften overholdes innenfor sine respektive myndighetsområder.</p>
 <h4 id="3-3-ikrafttredelse-og-opphevelse-av-forskrifter">§ 3-3. Ikrafttredelse og opphevelse av forskrifter</h4>
@@ -379,6 +508,8 @@ b. beslutning (EU) 2024/816 om spørsmål knyttet til den andre sammenlignende v
 <p>Her gjengis til informasjon Utenriksdepartementets oversettelse av forordning (EU) 2017/2100 om vitenskapelige kriterier til identifisering av hormonforstyrrende stoffer.</p>
 <h3 id="norsk-oversettelse-av-beslutninger-om-sammenlignende-vurdering-av-biocidprodukter">Norsk oversettelse av beslutninger om sammenlignende vurdering av biocidprodukter</h3>
 <p>Nedenfor gjengis til informasjon Utenriksdepartementets oversettelse av følgende rettsakter om sammenlignende vurdering av biocidprodukter: beslutning (EU) 2017/1532 om spørsmål om den sammenlignende vurderingen av antikoagulerende muse- og rottemidler i samsvar med artikkel 23(5) i forordning (EU) nr. 528/2012 beslutning (EU) 2024/816 om spørsmål om den andre sammenlignende vurderingen av antikoagulerende muse- og rottemidler i samsvar med artikkel 23(5) i forordning (EU) nr. 528/2012</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

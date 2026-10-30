@@ -19,64 +19,127 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2001-12-14-95.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om pensjonsrettigheter innen EØS" href="../feeds/lov-2001-12-14-95.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Lov om pensjonsrettigheter innen EØS</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2001-12-14-95</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>EU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nPensjons- og trygderett</dd>
-<dt>Ikrafttredelse</dt><dd>2002-03-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-21-41</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2001-12-14-95" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl3"><a href="#2-lovens-virkeomrade">§ 2. Lovens virkeområde</a></li>
+<li class="lvl3"><a href="#3-rett-til-grenseoverskridende-utbetalinger">§ 3. Rett til grenseoverskridende utbetalinger</a></li>
+<li class="lvl3"><a href="#4-rett-til-medlemskap-i-pensjonsordning-ved-midlertidig-utestasjonering-i-annen-es-stat">§ 4. Rett til medlemskap i pensjonsordning ved midlertidig utestasjonering i annen EØS-stat</a></li>
+<li class="lvl3"><a href="#5-likebehandling-vedrrende-vern-av-opptjente-pensjonsrettigheter">§ 5. Likebehandling vedrørende vern av opptjente pensjonsrettigheter</a></li>
+<li class="lvl3"><a href="#6-informasjon-til-medlemmer-av-supplerende-pensjonsordninger">§ 6. Informasjon til medlemmer av supplerende pensjonsordninger</a></li>
+<li class="lvl3"><a href="#7-palegg-fra-finanstilsynet">§ 7. Pålegg fra Finanstilsynet</a></li>
+<li class="lvl3"><a href="#8-forskrifter">§ 8. Forskrifter</a></li>
+<li class="lvl3"><a href="#9-ikrafttredelse-overgangsbestemmelser">§ 9. Ikrafttredelse. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-21-41.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-12-14-95.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om beskyttelse av supplerende pensjonsrettigheter for arbeidstakere og selvstendig næringsdrivende som flytter innenfor EØS-området</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-12-14-95.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2001-12-14-95 <code>lov/2001-12-14-95</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om pensjonsrettigheter innen EØS</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>EU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nPensjons- og trygderett</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2002</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-21-41 <code>lov/2024-06-21-41</code> fra 01.04.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2001-12-14-95" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl3"><a href="#2-lovens-virkeomrade">§ 2. Lovens virkeområde</a></li>
+<li class="lvl3"><a href="#3-rett-til-grenseoverskridende-utbetalinger">§ 3. Rett til grenseoverskridende utbetalinger</a></li>
+<li class="lvl3"><a href="#4-rett-til-medlemskap-i-pensjonsordning-ved-midlertidig-utestasjonering-i-annen-es-stat">§ 4. Rett til medlemskap i pensjonsordning ved midlertidig utestasjonering i annen EØS-stat</a></li>
+<li class="lvl3"><a href="#5-likebehandling-vedrrende-vern-av-opptjente-pensjonsrettigheter">§ 5. Likebehandling vedrørende vern av opptjente pensjonsrettigheter</a></li>
+<li class="lvl3"><a href="#6-informasjon-til-medlemmer-av-supplerende-pensjonsordninger">§ 6. Informasjon til medlemmer av supplerende pensjonsordninger</a></li>
+<li class="lvl3"><a href="#7-palegg-fra-finanstilsynet">§ 7. Pålegg fra Finanstilsynet</a></li>
+<li class="lvl3"><a href="#8-forskrifter">§ 8. Forskrifter</a></li>
+<li class="lvl3"><a href="#9-ikrafttredelse-overgangsbestemmelser">§ 9. Ikrafttredelse. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-12-14-95.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-12-14-95.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-12-14-95.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2001-12-14-95.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2001-12-14-95.html">Observerte kildeutgaver</a> · <a href="../historie/pensjonsrettigheter-innen-eøs.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2001-12-14-95.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2001-12-14-95.html">Observerte kildeutgaver</a> · <a href="../historie/pensjonsrettigheter-innen-eøs.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2001-12-14-95.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-beskyttelse-av-supplerende-pensjonsrettigheter-for-arbeidstakere-og-selvstendig-nringsdrivende-som-flytter-innenfor-es-omradet">Lov om beskyttelse av supplerende pensjonsrettigheter for arbeidstakere og selvstendig næringsdrivende som flytter innenfor EØS-området</h1>
 <h3 id="1-lovens-formal">§ 1. Lovens formål</h3>
 <p>Denne loven har som formål å ivareta rettighetene i supplerende pensjonsordninger for arbeidstakere og selvstendig næringsdrivende som flytter innenfor EØS-området. Tilsvarende gjelder for rettigheter som ektefelle, registrert partner, samboer og barn har i en supplerende pensjonsordning.</p>
 <h3 id="2-lovens-virkeomrade">§ 2. Lovens virkeområde</h3>
@@ -90,14 +153,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>avtaler om pensjonsordning for selvstendig næringsdrivende,</li>
 <li>sykehjelps- og pensjonsordningen for leger.</li>
 </ol>
-<p><em>Endret ved lover 14 mars 2008 nr. 6 (ikr. 14 mars 2008 iflg. res. 14 mars 2008 nr. 250 ), 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ), 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lover 14 mars 2008 nr. 6 (ikr. 14 mars 2008 iflg. res. 14 mars 2008 nr. 250 ), 22 juni 2018 nr. 83 (ikr. 1 nov 2019 iflg. res. 25 juni 2019 nr. 879 ), 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h3 id="3-rett-til-grenseoverskridende-utbetalinger">§ 3. Rett til grenseoverskridende utbetalinger</h3>
 <p>En person med rett til opptjent pensjon fra en supplerende pensjonsordning som flytter til en annen stat innen EØS, skal ha rett til å få sin pensjon med fradrag av eventuelle transaksjonskostnader utbetalt i den stat vedkommende bor. Det samme gjelder overfor ektefelle, registrert partner, samboer eller barn med rettigheter i pensjonsordningene.</p>
 <h3 id="4-rett-til-medlemskap-i-pensjonsordning-ved-midlertidig-utestasjonering-i-annen-es-stat">§ 4. Rett til medlemskap i pensjonsordning ved midlertidig utestasjonering i annen EØS-stat</h3>
 <p>En person som arbeider i en annen EØS-stat og som omfattes av en supplerende pensjonsordning i Norge, skal fortsatt ha rett til å være medlem med fulle rettigheter i pensjonsordningen dersom vedkommende er omfattet av norsk trygdelovgivning etter EØS-avtalens vedlegg VI nr. 1 (forordning (EF) nr. 883/2004 avdeling II).</p>
 <p>En person hjemmehørende i annen EØS-stat som arbeider i Norge og som er omfattet av en supplerende pensjonsordning i sitt hjemland, skal ikke ha plikt til å betale bidrag til pensjonsordning som nevnt i § 2 her i riket dersom vedkommende ikke er omfattet av norsk trygdelovgivning etter EØS-avtalens vedlegg VI nr. 1 (forordning (EØF) nr. 1408/71 avdeling II). 1 Arbeidsgiver skal heller ikke ha plikt til å betale bidrag til pensjonsordning i Norge for arbeidstaker i tilfeller som nevnt.</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).
-1 Inkurie: Forordning (EØF) 1408/71 er nå erstattet av forordning (EF) 883/2004 .</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).
+1 Inkurie: Forordning (EØF) 1408/71 er nå erstattet av forordning (EF) 883/2004 .</p>
 <h3 id="5-likebehandling-vedrrende-vern-av-opptjente-pensjonsrettigheter">§ 5. Likebehandling vedrørende vern av opptjente pensjonsrettigheter</h3>
 <p>Supplerende pensjonsordninger skal være basert på avtaler som sikrer opptjente pensjonsrettigheter for personer som fratrer pensjonsordningen, uavhengig av om arbeidstaker som fratrer forblir i Norge eller flytter til en annen stat innen EØS. Det samme gjelder overfor ektefelle, registrert partner, samboer eller barn med rettigheter i pensjonsordningene.</p>
 <h3 id="6-informasjon-til-medlemmer-av-supplerende-pensjonsordninger">§ 6. Informasjon til medlemmer av supplerende pensjonsordninger</h3>
@@ -112,14 +175,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h3 id="7-palegg-fra-finanstilsynet">§ 7. Pålegg fra Finanstilsynet</h3>
 <p>Finanstilsynet kan gi en supplerende pensjonsordning pålegg om retting dersom pensjonsordningen ikke har overholdt sine plikter gitt i eller i medhold av denne loven. Finanstilsynet kan også kreve at ordningen etablerer rutiner slik at informasjonsplikten etter § 6 oppfylles innen en nærmere fastsatt frist.</p>
 <p><a href="lov-2024-06-21-41.html">Finanstilsynsloven</a> § 4-3 om ileggelse av tvangsmulkt dersom Finanstilsynets pålegg ikke blir etterkommet, gjelder tilsvarende.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h3 id="8-forskrifter">§ 8. Forskrifter</h3>
 <p>Kongen kan fastsette nærmere regler til utfylling og gjennomføring av bestemmelsene i loven her.</p>
 <p>Departementet kan i forskrift gi nærmere regler om tilbakebetaling av pensjonsinnskudd.</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h3 id="9-ikrafttredelse-overgangsbestemmelser">§ 9. Ikrafttredelse. Overgangsbestemmelser</h3>
 <p>Loven trer i kraft fra den tid Kongen fastsetter. 1 Kongen kan gi overgangsbestemmelser.</p>
 <p><em>1 Fra 1 mars 2002 iflg. vedtak 19 des 2001 nr. 1466 .</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

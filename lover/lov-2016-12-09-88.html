@@ -19,64 +19,223 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2016-12-09-88.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Folkeregisterloven" href="../feeds/lov-2016-12-09-88.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Folkeregisterloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2016-12-09-88</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Personrett. Personvern\nForvaltnings- og kommunalrett &raquo; Statistikk. Registrering\nIKT- og medierett &raquo; Personopplysninger</dd>
-<dt>Ikrafttredelse</dt><dd>2017-10-01, 2020-10-05</dd>
-<dt>Sist endret</dt><dd>lov/2025-04-25-12</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2016-12-09-88" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-folkeregisteret">§ 1-1. Folkeregisteret</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-folkeregistermyndighet">§ 1-3. Folkeregistermyndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-registreringspliktige-personer-identifikasjonsnummer">Kapittel 2 Registreringspliktige personer, identifikasjonsnummer</a></li>
+<li class="lvl4"><a href="#2-1-hvem-som-skal-registreres">§ 2-1. Hvem som skal registreres</a></li>
+<li class="lvl4"><a href="#2-2-identifikasjonsnummer">§ 2-2. Identifikasjonsnummer</a></li>
+<li class="lvl2"><a href="#kapittel-3-hvilke-opplysninger-som-registreres">Kapittel 3 Hvilke opplysninger som registreres</a></li>
+<li class="lvl4"><a href="#3-1-hvilke-opplysninger-som-kan-registreres">§ 3-1. Hvilke opplysninger som kan registreres</a></li>
+<li class="lvl4"><a href="#3-2-grunnlaget-for-registrert-identitet">§ 3-2. Grunnlaget for registrert identitet</a></li>
+<li class="lvl4"><a href="#3-3-registrering-av-fdselsdato">§ 3-3. Registrering av fødselsdato</a></li>
+<li class="lvl2"><a href="#kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4 Hvem som skal regnes for å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-1-hovedregel-om-a-vre-bosatt-i-norge">§ 4-1. Hovedregel om å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-2-innflytting">§ 4-2. Innflytting</a></li>
+<li class="lvl4"><a href="#4-3-utflytting">§ 4-3. Utflytting</a></li>
+<li class="lvl4"><a href="#4-4-forskrift">§ 4-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-5-bosted">Kapittel 5 Bosted</a></li>
+<li class="lvl4"><a href="#5-1-hovedregel-om-bosted">§ 5-1. Hovedregel om bosted</a></li>
+<li class="lvl4"><a href="#5-2-ektefeller-og-barn">§ 5-2. Ektefeller og barn</a></li>
+<li class="lvl4"><a href="#5-3-pendlere">§ 5-3. Pendlere</a></li>
+<li class="lvl4"><a href="#5-4-medlemmer-av-stortinget-og-regjeringen-mv">§ 5-4. Medlemmer av Stortinget og regjeringen mv.</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6 Den enkeltes meldeplikt til Folkeregisteret</a></li>
+<li class="lvl4"><a href="#6-1-flyttemelding">§ 6-1. Flyttemelding</a></li>
+<li class="lvl4"><a href="#6-2-melding-om-innflytting">§ 6-2. Melding om innflytting</a></li>
+<li class="lvl4"><a href="#6-3-melding-om-utflytting">§ 6-3. Melding om utflytting</a></li>
+<li class="lvl4"><a href="#6-4-melding-om-fdsel-og-navn">§ 6-4. Melding om fødsel og navn</a></li>
+<li class="lvl4"><a href="#6-5-forskrift">§ 6-5. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7 Meldeplikt for offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#7-1-offentlige-myndigheters-og-virksomheters-meldeplikt">§ 7-1. Offentlige myndigheters og virksomheters meldeplikt</a></li>
+<li class="lvl2"><a href="#kapittel-8-registrering-av-opplysninger">Kapittel 8 Registrering av opplysninger</a></li>
+<li class="lvl4"><a href="#8-1-innfring-i-folkeregisteret">§ 8-1. Innføring i Folkeregisteret</a></li>
+<li class="lvl4"><a href="#8-2-meldinger-fra-offentlige-myndigheter-og-virksomheter">§ 8-2. Meldinger fra offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#8-3-dna-testing">§ 8-3. DNA-testing</a></li>
+<li class="lvl4"><a href="#8-4-forskrift">§ 8-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-9-saksbehandlingsregler">Kapittel 9 Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#9-1-taushetsplikt">§ 9-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-2-retting-av-feil-i-registeret">§ 9-2. Retting av feil i registeret</a></li>
+<li class="lvl4"><a href="#9-3-endring-etter-beslutning-om-fingerte-personopplysninger">§ 9-3. Endring etter beslutning om fingerte personopplysninger</a></li>
+<li class="lvl4"><a href="#9-4-sammenstilling-profilering-og-automatiserte-avgjrelser">§ 9-4. Sammenstilling, profilering og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#9-5-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 9-5. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl2"><a href="#kapittel-10-utlevering-av-opplysninger-fra-registeret">Kapittel 10 Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#10-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-utlevering-av-taushetsbelagte-opplysninger">§ 10-2. Utlevering av taushetsbelagte opplysninger</a></li>
+<li class="lvl4"><a href="#10-3-utlevering-av-opplysninger-til-forskning">§ 10-3. Utlevering av opplysninger til forskning</a></li>
+<li class="lvl4"><a href="#10-4-graderte-opplysninger">§ 10-4. Graderte opplysninger</a></li>
+<li class="lvl4"><a href="#10-5-varsling-til-brukere-av-registeret">§ 10-5. Varsling til brukere av registeret</a></li>
+<li class="lvl4"><a href="#10-6-bekreftet-registerutskrift">§ 10-6. Bekreftet registerutskrift</a></li>
+<li class="lvl4"><a href="#10-7-attester">§ 10-7. Attester</a></li>
+<li class="lvl2"><a href="#kapittel-11-kontroll-av-opplysninger">Kapittel 11 Kontroll av opplysninger</a></li>
+<li class="lvl4"><a href="#11-1-opplysningsplikt-om-egne-forhold">§ 11-1. Opplysningsplikt om egne forhold</a></li>
+<li class="lvl4"><a href="#11-2-kontroll-av-bostedsadresse">§ 11-2. Kontroll av bostedsadresse</a></li>
+<li class="lvl2"><a href="#kapittel-12-sanksjoner">Kapittel 12 Sanksjoner</a></li>
+<li class="lvl4"><a href="#12-1-overtredelsesgebyr">§ 12-1. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-2-tap-av-rett-til-a-fa-utlevert-opplysninger">§ 12-2. Tap av rett til å få utlevert opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 13 Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse-overgangsbestemmelser">§ 13-1. Ikrafttredelse. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-04-25-12.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-12-09-88.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om folkeregistrering (folkeregisterloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-12-09-88.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2016-12-09-88 <code>lov/2016-12-09-88</code></td></tr>
+<tr><th>Korttittel</th><td>Folkeregisterloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Personrett. Personvern\nForvaltnings- og kommunalrett &raquo; Statistikk. Registrering\nIKT- og medierett &raquo; Personopplysninger</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.10.2017, 05.10.2020</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-04-25-12 <code>lov/2025-04-25-12</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2016-12-09-88" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-folkeregisteret">§ 1-1. Folkeregisteret</a></li>
+<li class="lvl4"><a href="#1-2-formal">§ 1-2. Formål</a></li>
+<li class="lvl4"><a href="#1-3-folkeregistermyndighet">§ 1-3. Folkeregistermyndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-registreringspliktige-personer-identifikasjonsnummer">Kapittel 2 Registreringspliktige personer, identifikasjonsnummer</a></li>
+<li class="lvl4"><a href="#2-1-hvem-som-skal-registreres">§ 2-1. Hvem som skal registreres</a></li>
+<li class="lvl4"><a href="#2-2-identifikasjonsnummer">§ 2-2. Identifikasjonsnummer</a></li>
+<li class="lvl2"><a href="#kapittel-3-hvilke-opplysninger-som-registreres">Kapittel 3 Hvilke opplysninger som registreres</a></li>
+<li class="lvl4"><a href="#3-1-hvilke-opplysninger-som-kan-registreres">§ 3-1. Hvilke opplysninger som kan registreres</a></li>
+<li class="lvl4"><a href="#3-2-grunnlaget-for-registrert-identitet">§ 3-2. Grunnlaget for registrert identitet</a></li>
+<li class="lvl4"><a href="#3-3-registrering-av-fdselsdato">§ 3-3. Registrering av fødselsdato</a></li>
+<li class="lvl2"><a href="#kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4 Hvem som skal regnes for å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-1-hovedregel-om-a-vre-bosatt-i-norge">§ 4-1. Hovedregel om å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-2-innflytting">§ 4-2. Innflytting</a></li>
+<li class="lvl4"><a href="#4-3-utflytting">§ 4-3. Utflytting</a></li>
+<li class="lvl4"><a href="#4-4-forskrift">§ 4-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-5-bosted">Kapittel 5 Bosted</a></li>
+<li class="lvl4"><a href="#5-1-hovedregel-om-bosted">§ 5-1. Hovedregel om bosted</a></li>
+<li class="lvl4"><a href="#5-2-ektefeller-og-barn">§ 5-2. Ektefeller og barn</a></li>
+<li class="lvl4"><a href="#5-3-pendlere">§ 5-3. Pendlere</a></li>
+<li class="lvl4"><a href="#5-4-medlemmer-av-stortinget-og-regjeringen-mv">§ 5-4. Medlemmer av Stortinget og regjeringen mv.</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6 Den enkeltes meldeplikt til Folkeregisteret</a></li>
+<li class="lvl4"><a href="#6-1-flyttemelding">§ 6-1. Flyttemelding</a></li>
+<li class="lvl4"><a href="#6-2-melding-om-innflytting">§ 6-2. Melding om innflytting</a></li>
+<li class="lvl4"><a href="#6-3-melding-om-utflytting">§ 6-3. Melding om utflytting</a></li>
+<li class="lvl4"><a href="#6-4-melding-om-fdsel-og-navn">§ 6-4. Melding om fødsel og navn</a></li>
+<li class="lvl4"><a href="#6-5-forskrift">§ 6-5. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7 Meldeplikt for offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#7-1-offentlige-myndigheters-og-virksomheters-meldeplikt">§ 7-1. Offentlige myndigheters og virksomheters meldeplikt</a></li>
+<li class="lvl2"><a href="#kapittel-8-registrering-av-opplysninger">Kapittel 8 Registrering av opplysninger</a></li>
+<li class="lvl4"><a href="#8-1-innfring-i-folkeregisteret">§ 8-1. Innføring i Folkeregisteret</a></li>
+<li class="lvl4"><a href="#8-2-meldinger-fra-offentlige-myndigheter-og-virksomheter">§ 8-2. Meldinger fra offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#8-3-dna-testing">§ 8-3. DNA-testing</a></li>
+<li class="lvl4"><a href="#8-4-forskrift">§ 8-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-9-saksbehandlingsregler">Kapittel 9 Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#9-1-taushetsplikt">§ 9-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-2-retting-av-feil-i-registeret">§ 9-2. Retting av feil i registeret</a></li>
+<li class="lvl4"><a href="#9-3-endring-etter-beslutning-om-fingerte-personopplysninger">§ 9-3. Endring etter beslutning om fingerte personopplysninger</a></li>
+<li class="lvl4"><a href="#9-4-sammenstilling-profilering-og-automatiserte-avgjrelser">§ 9-4. Sammenstilling, profilering og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#9-5-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 9-5. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl2"><a href="#kapittel-10-utlevering-av-opplysninger-fra-registeret">Kapittel 10 Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#10-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-utlevering-av-taushetsbelagte-opplysninger">§ 10-2. Utlevering av taushetsbelagte opplysninger</a></li>
+<li class="lvl4"><a href="#10-3-utlevering-av-opplysninger-til-forskning">§ 10-3. Utlevering av opplysninger til forskning</a></li>
+<li class="lvl4"><a href="#10-4-graderte-opplysninger">§ 10-4. Graderte opplysninger</a></li>
+<li class="lvl4"><a href="#10-5-varsling-til-brukere-av-registeret">§ 10-5. Varsling til brukere av registeret</a></li>
+<li class="lvl4"><a href="#10-6-bekreftet-registerutskrift">§ 10-6. Bekreftet registerutskrift</a></li>
+<li class="lvl4"><a href="#10-7-attester">§ 10-7. Attester</a></li>
+<li class="lvl2"><a href="#kapittel-11-kontroll-av-opplysninger">Kapittel 11 Kontroll av opplysninger</a></li>
+<li class="lvl4"><a href="#11-1-opplysningsplikt-om-egne-forhold">§ 11-1. Opplysningsplikt om egne forhold</a></li>
+<li class="lvl4"><a href="#11-2-kontroll-av-bostedsadresse">§ 11-2. Kontroll av bostedsadresse</a></li>
+<li class="lvl2"><a href="#kapittel-12-sanksjoner">Kapittel 12 Sanksjoner</a></li>
+<li class="lvl4"><a href="#12-1-overtredelsesgebyr">§ 12-1. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-2-tap-av-rett-til-a-fa-utlevert-opplysninger">§ 12-2. Tap av rett til å få utlevert opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 13 Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse-overgangsbestemmelser">§ 13-1. Ikrafttredelse. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-12-09-88.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-12-09-88.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-12-09-88.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2016-12-09-88.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2016-12-09-88.html">Observerte kildeutgaver</a> · <a href="../historie/folkeregisterloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2016-12-09-88.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2016-12-09-88.html">Observerte kildeutgaver</a> · <a href="../historie/folkeregisterloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2016-12-09-88.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-folkeregistrering-folkeregisterloven">Lov om folkeregistrering (folkeregisterloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-1-folkeregisteret">§ 1-1. Folkeregisteret</h4>
 <p>Det skal være et sentralt personregister for Norge, kalt Folkeregisteret.</p>
@@ -84,7 +243,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Lovens formål er å legge til rette for sikker, korrekt og effektiv registrering av grunnleggende personopplysninger om den enkelte, herunder hvilke personer som er bosatt i Norge. Loven skal sikre at registreringspliktige personer tildeles et unikt identifikasjonsnummer. Loven skal bidra til at opplysningene i Folkeregisteret skal kunne brukes til myndighetsoppgaver og offentlig forvaltning, forskning, statistikk og til å ivareta grunnleggende samfunnsbehov.</p>
 <h4 id="1-3-folkeregistermyndighet">§ 1-3. Folkeregistermyndighet <a class="para-history" href="../historikk/lov-2016-12-09-88/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skattekontoret er registermyndighet i første instans. Skattedirektoratet er sentral registermyndighet og behandlingsansvarlig for registeret.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 51 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 51 .</p>
 <h2 id="kapittel-2-registreringspliktige-personer-identifikasjonsnummer">Kapittel 2 Registreringspliktige personer, identifikasjonsnummer</h2>
 <h4 id="2-1-hvem-som-skal-registreres">§ 2-1. Hvem som skal registreres</h4>
 <p>I Folkeregisteret registreres alle personer som:</p>
@@ -97,7 +256,7 @@ c. har fått tildelt fødselsnummer eller d-nummer.</p>
 <p>Fødselsnummeret skal endres når fødselsdato eller kjønn endres, eller dersom det er besluttet i medhold av reglene i <a href="lov-1995-08-04-53.html">politiloven</a> . Fødselsnummer kan ellers endres når adopsjonsmyndigheten har bedt om nytt fødselsnummer der det er innvilget adopsjon av spedbarn etter <a href="lov-2017-06-16-48.html">adopsjonsloven</a> § 14 .</p>
 <p>Det kan registreres fødselsnummer til bruk ved etablering av dekkidentitet til politiet eller forsvarspersonell, når det er besluttet av kompetent politi- eller forsvarsmyndighet.</p>
 <p>Departementet kan gi forskrift om oppbygging av individ- og kontrollsiffer, hvem som kan tildeles d-nummer og krav til dokumentasjon og saksbehandling.</p>
-<p><em>Endret ved lover 22 juni 2018 nr. 72 , 20 des 2024 nr. 90 .</em></p>
+<p class="note">Endret ved lover 22 juni 2018 nr. 72 , 20 des 2024 nr. 90 .</p>
 <h2 id="kapittel-3-hvilke-opplysninger-som-registreres">Kapittel 3 Hvilke opplysninger som registreres</h2>
 <h4 id="3-1-hvilke-opplysninger-som-kan-registreres">§ 3-1. Hvilke opplysninger som kan registreres</h4>
 <p>Til hvert enkelt fødselsnummer eller d-nummer kan følgende opplysninger registreres:</p>
@@ -134,12 +293,12 @@ x. dødsdato</p>
 <p>For personer som fødes i Norge, registreres fødselsdato på grunnlag av fødselsmeldingen gitt i medhold av <a href="lov-2025-06-20-40.html">barnelova</a> § 1 .</p>
 <p>For personer som flytter til Norge og ikke tidligere har vært registrert i Folkeregisteret, registreres fødselsdatoen på grunnlag av vedkommendes pass eller tilsvarende legitimasjonsdokument. For personer som trenger oppholdstillatelse, registreres fødselsdato på grunnlag av det som er registrert hos eller i vedtak av utlendingsmyndighetene. Dette gjelder ikke hvis antall tilgjengelige individsiffer for den aktuelle fødselsdato er svært lavt.</p>
 <p>Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 76 . Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 76 . Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4 Hvem som skal regnes for å være bosatt i Norge</h2>
 <h4 id="4-1-hovedregel-om-a-vre-bosatt-i-norge">§ 4-1. Hovedregel om å være bosatt i Norge <a class="para-history" href="../historikk/lov-2016-12-09-88/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En person som oppholder seg lovlig i en norsk kommune i minst seks måneder, registreres som bosatt i Norge, med mindre annet følger av bestemmelsene i eller i medhold av dette kapittel.</p>
 <p>Departementet kan gi forskrift om at personer som oppholder seg lovlig i en norsk kommune på grunnlag av unntak fra kravet om oppholdstillatelse fastsatt i medhold av <a href="lov-2008-05-15-35.html">utlendingsloven</a> § 5 tredje ledd, ikke skal regnes som bosatt i Norge.</p>
-<p><em>Endret ved lov 20 des 2024 nr. 94 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved lov 20 des 2024 nr. 94 (i kraft 1 jan 2025).</p>
 <h4 id="4-2-innflytting">§ 4-2. Innflytting</h4>
 <p>En person som flytter til en norsk kommune, registreres som bosatt når han eller hun har lovlig opphold i norsk kommune og har til hensikt å bli her i minst seks måneder. Opphold av minst seks måneders varighet regnes som bosetting, selv om oppholdet er midlertidig.</p>
 <p>En person som tar opphold i en norsk kommune på grunn av inntektsgivende aktivitet, og som dokumenterer pendling fra bolig i et annet land innenfor EØS, kan unntas registrering som bosatt i Norge. Ved avgjørelsen av om en person fyller vilkårene for pendling, gjelder bestemmelsene for pendlere tilsvarende.</p>
@@ -174,7 +333,7 @@ e. ikke har annet enn sporadiske opphold i en norsk kommune i løpet av året.</
 <p>Ved flytting til annen bolig som også oppfyller avstandskravet, kan personen med husstand registreres der på samme vilkår. Personer nevnt i første ledd som i løpet av funksjonsperioden etablerer seg i en slik bolig som oppfyller avstandskravet, kan på nærmere vilkår registreres bosatt der.</p>
 <p>Opphold i statsministerboligen endrer ikke registrert bosted så lenge statsministeren disponerer en egen privat bolig gjennom et reelt eie- eller leieforhold. Ektefelle og barn i statsministerens husstand anses bosatt samme sted, med mindre de har særlig svak tilknytning til den private boligen.</p>
 <p>Departementet kan gi forskrift om kravene til å disponere bolig, herunder besøkshyppighet, kravene til fullverdig bolig og vilkårene for adgangen etter tredje ledd andre punktum til å etablere bosted under funksjonsperioden.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 56 (i kraft 1 okt 2025).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 56 (i kraft 1 okt 2025).</p>
 <h2 id="kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6 Den enkeltes meldeplikt til Folkeregisteret</h2>
 <h4 id="6-1-flyttemelding">§ 6-1. Flyttemelding</h4>
 <p>Den som endrer bosted innen en norsk kommune eller mellom norske kommuner, skal innen åtte dager etter flyttingen melde dette til skattekontoret.</p>
@@ -186,7 +345,7 @@ e. ikke har annet enn sporadiske opphold i en norsk kommune i løpet av året.</
 <h4 id="6-4-melding-om-fdsel-og-navn">§ 6-4. Melding om fødsel og navn <a class="para-history" href="../historikk/lov-2016-12-09-88/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fødsel som har skjedd uten at en lege eller jordmor er til stede, skal meldes til skattekontoret av moren selv, jf. barnelova § 1 .</p>
 <p>Valg av navn til den nyfødte skal meldes til skattekontoret av den eller de som har foreldreansvar for barnet, jf. <a href="lov-2002-06-07-19.html">navneloven</a> § 12 .</p>
-<p><em>Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="6-5-forskrift">§ 6-5. Forskrift</h4>
 <p>Departementet kan gi forskrift om registrering av flyttedato, krav til flyttemelding og fastsette unntak fra meldeplikten for utlending som ved innreisen også har meldeplikt til annen offentlig myndighet.</p>
 <h2 id="kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7 Meldeplikt for offentlige myndigheter og virksomheter</h2>
@@ -209,7 +368,7 @@ e. ikke har annet enn sporadiske opphold i en norsk kommune i løpet av året.</
 <p>Enhver som behandler personopplysninger etter denne lov, plikter å bevare taushet om det han eller hun får kjennskap til i sitt arbeid.</p>
 <p>Taushetsplikten omfatter ikke opplysninger om en persons fulle navn, fødselsdato, kjønn, fødsels- og d-nummer, grunnlaget for registrert identitet etter § 3-2 , adresse, kontaktopplysninger for dødsbo, fødested, statsborgerskap, sivilstand, vergemål, stadfestet fremtidsfullmakt og dødsdato, med mindre slike opplysninger røper et klientforhold eller andre forhold som gjør at opplysningene må anses personlige. Det samme gjelder historiske opplysninger om navn og adresse.</p>
 <p>Departementet kan i forskrift fastsette unntak fra taushetsplikten for opplysninger om registreringsstatus, jf. § 3-1 første ledd bokstav w. Departementet kan i forskrift også gi regler om hvilke nærmere opplysninger om vergemål og stadfestet fremtidsfullmakt som skal omfattes av taushetsplikt.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 110 , 31 mars 2023 nr. 5 (i kraft 1 april 2023 iflg. res. 31 mars 2023 nr. 445 ).</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 110 , 31 mars 2023 nr. 5 (i kraft 1 april 2023 iflg. res. 31 mars 2023 nr. 445 ).</p>
 <h4 id="9-2-retting-av-feil-i-registeret">§ 9-2. Retting av feil i registeret</h4>
 <p>Registermyndigheten skal rette registreringer når det foreligger en åpenbar registreringsfeil, eller når registreringsgrunnlaget er feil.</p>
 <p>Registrerte opplysninger skal rettes når det foreligger dokumentasjon som gir sannsynlighetsovervekt for at de nye opplysningene er korrekte. Eventuell retting av en opplysning som er meldt inn fra offentlig myndighet eller virksomhet, forelegges denne dersom rettingen har betydning for vedkommende myndighet eller virksomhet.</p>
@@ -217,19 +376,19 @@ e. ikke har annet enn sporadiske opphold i en norsk kommune i løpet av året.</
 <p>Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf, og herunder gi særskilte regler om endring av registrert fødselsdato.</p>
 <h4 id="9-3-endring-etter-beslutning-om-fingerte-personopplysninger">§ 9-3. Endring etter beslutning om fingerte personopplysninger <a class="para-history" href="../historikk/lov-2016-12-09-88/para-9-3.html" title="Endringshistorikk for § 9-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når det er gitt tillatelse etter politiloven til bruk av fingerte personopplysninger, skal registermyndigheten registrere de aktuelle opplysningene i samsvar med avgjørelsen.</p>
-<p><em>Endret ved lov 20 des 2024 nr. 90 .</em></p>
+<p class="note">Endret ved lov 20 des 2024 nr. 90 .</p>
 <h4 id="9-4-sammenstilling-profilering-og-automatiserte-avgjrelser">§ 9-4. Sammenstilling, profilering og automatiserte avgjørelser <a class="para-history" href="../historikk/lov-2016-12-09-88/para-9-4.html" title="Endringshistorikk for § 9-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Folkeregistermyndigheten kan sammenstille innhentede personopplysninger når det er nødvendig for deres arbeid, herunder til ID-forvaltning, kontroll-, veilednings-, analyse- og statistikkformål. Folkeregistermyndigheten kan benytte innhentede personopplysninger til profilering til samme formål, når profileringen er nødvendig for å målrette tiltak som fremmer etterlevelse av loven. Graden av personidentifikasjon skal ikke være større enn det som er nødvendig for formålet.</p>
 <p>(2) Folkeregistermyndighetene kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.</p>
 <p>(3) Folkeregistermyndigheten kan benytte særlige kategorier av personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , ved sammenstilling, profilering og automatiserte avgjørelser.</p>
 <p>(4) Departementet kan gi forskrift om sammenstilling, profilering og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles og hvem det kan behandles personopplysninger om.</p>
-<p><em>Tilføyd ved lov 22 des 2021 nr. 159 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3803 ).</em></p>
+<p class="note">Tilføyd ved lov 22 des 2021 nr. 159 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3803 ).</p>
 <h4 id="9-5-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 9-5. Bruk av personopplysninger ved utvikling og testing av IT-systemer</h4>
 <p>Folkeregistermyndigheten kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.</p>
 <p>Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 111 (ikr. 1 juli 2019), endret ved lov 22 des 2021 nr. 159 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3803 , tidligere § 9-4).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 111 (ikr. 1 juli 2019), endret ved lov 22 des 2021 nr. 159 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3803 , tidligere § 9-4).</p>
 <h2 id="kapittel-10-utlevering-av-opplysninger-fra-registeret">Kapittel 10 Utlevering av opplysninger fra registeret</h2>
-<h4 id="10-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt</h4>
+<h4 id="10-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt <a class="para-history" href="../historikk/lov-2016-12-09-88/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Offentlige myndigheter og virksomheter, private virksomheter som utfører lovpålagte oppgaver eller oppgaver på vegne av det offentlige, og finansforetak, kan få utlevert ikke-taushetsbelagte opplysninger fra Folkeregisteret. Opplysningene kan gjøres elektronisk tilgjengelig gjennom lister basert på fødselsnummer og d-nummer.</p>
 <p>Andre private virksomheter og aktører kan få utlevert ikke-taushetsbelagte opplysninger om navngitte identifiserbare personer. Opplysning om fødselsnummer og d-nummer utleveres kun dersom det angis et begrunnet behov. Opplysninger for oppdatering av eksisterende registre kan likevel gjøres elektronisk tilgjengelig gjennom lister basert på fødsels-nummer og d-nummer.</p>
 <p>Den enkelte registrerte person skal ha tilgang til opplysninger om søk foretatt på egen person. Dette gjelder ikke for søk foretatt av pressen, ved utlevering av opplysninger gjennom lister som nevnt i første og annet ledd, og ved annen form for utlevering av opplysninger til oppdatering av eksisterende registre.</p>
@@ -247,7 +406,7 @@ e. ikke har annet enn sporadiske opphold i en norsk kommune i løpet av året.</
 <p>Gradering av opplysninger i barnevernsaker besluttes av barnevernstjenesten. I andre saker treffes beslutning om gradering av politiet. Endring i beslutning om gradering skal registreres etter melding fra barnevernstjenesten eller politiet.</p>
 <p>Opplysning som er gradert strengt fortrolig, kan bare utleveres etter søknad som avgjøres av politiet eller barnevernstjenesten.</p>
 <p>Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ).</p>
 <h4 id="10-5-varsling-til-brukere-av-registeret">§ 10-5. Varsling til brukere av registeret</h4>
 <p>Registermyndigheten kan uten hinder av taushetsplikt gi opplysninger til andre offentlige myndigheter og virksomheter og til finansforetak når de kan ha bruk for opplysningene i sin virksomhet. Herunder kan registermyndigheten varsle andre offentlige myndigheter og virksomheter samt finansforetak når den har mistanke om at registrerte personopplysninger knytter seg til en falsk eller fiktiv identitet.</p>
 <p>Departementet kan gi forskrift til utfylling og gjennomføring av denne paragraf.</p>
@@ -285,7 +444,7 @@ c. den som bryter vilkår for utlevering av opplysninger etter kapittel 10 .</p>
 <p>Endelig vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg.</p>
 <p>Overtredelsesgebyret tilfaller statskassen.</p>
 <p>Departementet kan gi forskrift om saksbehandlingen og utmålingen av overtredelsesgebyret.</p>
-<p><em>Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="12-2-tap-av-rett-til-a-fa-utlevert-opplysninger">§ 12-2. Tap av rett til å få utlevert opplysninger</h4>
 <p>Registermyndigheten kan ved grove eller gjentatte brudd på vilkår for utlevering av opplysninger etter kapittel 10 treffe vedtak om tap av rett til å få utlevert opplysninger fra Folkeregisteret. Vedtaket skal gjelde for en bestemt tidsperiode som ikke overstiger to år.</p>
 <p>Departementet kan gi forskrift om saksbehandlingen og utmålingen av perioden for tap av rett til å få utlevert opplysninger.</p>
@@ -297,6 +456,8 @@ c. den som bryter vilkår for utlevering av opplysninger etter kapittel 10 .</p>
 <p><em>1 Fra 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 , med unntak av § 10-1 tredje ledd (ikr. fra den tid Kongen bestemmer). § 10-1 tredje ledd trer i kraft 5 okt 2020 iflg. res. 5 okt 2020 nr. 1960 .</em></p>
 <h4 id="13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</h4>
 <p>Fra den tiden loven trer i kraft, gjøres følgende endringer i andre lover:– – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

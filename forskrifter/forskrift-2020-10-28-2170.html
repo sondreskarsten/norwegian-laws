@@ -19,64 +19,173 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-10-28-2170.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Verkstedforskriften" href="../feeds/forskrift-2020-10-28-2170.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Verkstedforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-10-28-2170</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-11-01, 2023-04-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-05-13-856</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-10-28-2170" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-godkjenning-av-arbeid-pa-kjrety">Kapittel 2 – Godkjenning av arbeid på kjøretøy</a></li>
+<li class="lvl4"><a href="#3-godkjenningspliktig-arbeid">§ 3. Godkjenningspliktig arbeid</a></li>
+<li class="lvl4"><a href="#4-kategorier-av-kjretyverksteder">§ 4. Kategorier av kjøretøyverksteder</a></li>
+<li class="lvl4"><a href="#5-srlig-arbeidstillatelse">§ 5. Særlig arbeidstillatelse</a></li>
+<li class="lvl4"><a href="#6-unntak-fra-krav-til-godkjenning">§ 6. Unntak fra krav til godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-godkjenning">Kapittel 3 – Vilkår for godkjenning</a></li>
+<li class="lvl4"><a href="#7-krav-til-lokaler-og-teknisk-utstyr-for-kjretyverksted">§ 7. Krav til lokaler og teknisk utstyr for kjøretøyverksted</a></li>
+<li class="lvl4"><a href="#7a-mobile-verkstedtjenester">§ 7a. Mobile verkstedtjenester</a></li>
+<li class="lvl4"><a href="#8-regelverk-mm">§ 8. Regelverk m.m.</a></li>
+<li class="lvl4"><a href="#9-teknisk-leder-og-stedfortreder">§ 9. Teknisk leder og stedfortreder</a></li>
+<li class="lvl4"><a href="#10-krav-til-teknisk-leder">§ 10. Krav til teknisk leder</a></li>
+<li class="lvl4"><a href="#11-krav-til-personale">§ 11. Krav til personale</a></li>
+<li class="lvl4"><a href="#12-gebyr">§ 12. Gebyr</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon-pa-godkjenning">§ 13. Dokumentasjon på godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-4-kjretyverkstedets-plikter">Kapittel 4 – Kjøretøyverkstedets plikter</a></li>
+<li class="lvl4"><a href="#14-plikter-for-virksomheter-godkjent-etter-denne-forskriften">§ 14. Plikter for virksomheter godkjent etter denne forskriften</a></li>
+<li class="lvl4"><a href="#14a-krav-til-reparasjon-av-omfattende-skader">§ 14a. Krav til reparasjon av omfattende skader</a></li>
+<li class="lvl4"><a href="#15-plikt-til-a-opprette-kvalitetsstyringssystem">§ 15. Plikt til å opprette kvalitetsstyringssystem</a></li>
+<li class="lvl4"><a href="#16-utforming-og-innhold-av-kvalitetsstyringssystemet">§ 16. Utforming og innhold av kvalitetsstyringssystemet</a></li>
+<li class="lvl4"><a href="#17-dokumentasjon">§ 17. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilsyn-og-reaksjoner">Kapittel 5 – Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#18-tilsyn">§ 18. Tilsyn</a></li>
+<li class="lvl4"><a href="#19-reaksjoner">§ 19. Reaksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#20-administrative-bestemmelser">§ 20. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#21-saksbehandlingsregler">§ 21. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#22-unntak">§ 22. Unntak</a></li>
+<li class="lvl4"><a href="#23-overgangsordninger">§ 23. Overgangsordninger</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse">§ 24. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-05-13-856.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-28-2170.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om arbeid på kjøretøy (verkstedforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-10-28-2170.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-10-28-2170 <code>forskrift/2020-10-28-2170</code></td></tr>
+<tr><th>Korttittel</th><td>Verkstedforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.11.2020, 01.04.2023</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-05-13-856 <code>forskrift/2026-05-13-856</code> fra 08.06.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-10-28-2170" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-godkjenning-av-arbeid-pa-kjrety">Kapittel 2 – Godkjenning av arbeid på kjøretøy</a></li>
+<li class="lvl4"><a href="#3-godkjenningspliktig-arbeid">§ 3. Godkjenningspliktig arbeid</a></li>
+<li class="lvl4"><a href="#4-kategorier-av-kjretyverksteder">§ 4. Kategorier av kjøretøyverksteder</a></li>
+<li class="lvl4"><a href="#5-srlig-arbeidstillatelse">§ 5. Særlig arbeidstillatelse</a></li>
+<li class="lvl4"><a href="#6-unntak-fra-krav-til-godkjenning">§ 6. Unntak fra krav til godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-godkjenning">Kapittel 3 – Vilkår for godkjenning</a></li>
+<li class="lvl4"><a href="#7-krav-til-lokaler-og-teknisk-utstyr-for-kjretyverksted">§ 7. Krav til lokaler og teknisk utstyr for kjøretøyverksted</a></li>
+<li class="lvl4"><a href="#7a-mobile-verkstedtjenester">§ 7a. Mobile verkstedtjenester</a></li>
+<li class="lvl4"><a href="#8-regelverk-mm">§ 8. Regelverk m.m.</a></li>
+<li class="lvl4"><a href="#9-teknisk-leder-og-stedfortreder">§ 9. Teknisk leder og stedfortreder</a></li>
+<li class="lvl4"><a href="#10-krav-til-teknisk-leder">§ 10. Krav til teknisk leder</a></li>
+<li class="lvl4"><a href="#11-krav-til-personale">§ 11. Krav til personale</a></li>
+<li class="lvl4"><a href="#12-gebyr">§ 12. Gebyr</a></li>
+<li class="lvl4"><a href="#13-dokumentasjon-pa-godkjenning">§ 13. Dokumentasjon på godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-4-kjretyverkstedets-plikter">Kapittel 4 – Kjøretøyverkstedets plikter</a></li>
+<li class="lvl4"><a href="#14-plikter-for-virksomheter-godkjent-etter-denne-forskriften">§ 14. Plikter for virksomheter godkjent etter denne forskriften</a></li>
+<li class="lvl4"><a href="#14a-krav-til-reparasjon-av-omfattende-skader">§ 14a. Krav til reparasjon av omfattende skader</a></li>
+<li class="lvl4"><a href="#15-plikt-til-a-opprette-kvalitetsstyringssystem">§ 15. Plikt til å opprette kvalitetsstyringssystem</a></li>
+<li class="lvl4"><a href="#16-utforming-og-innhold-av-kvalitetsstyringssystemet">§ 16. Utforming og innhold av kvalitetsstyringssystemet</a></li>
+<li class="lvl4"><a href="#17-dokumentasjon">§ 17. Dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-tilsyn-og-reaksjoner">Kapittel 5 – Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#18-tilsyn">§ 18. Tilsyn</a></li>
+<li class="lvl4"><a href="#19-reaksjoner">§ 19. Reaksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#20-administrative-bestemmelser">§ 20. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#21-saksbehandlingsregler">§ 21. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#22-unntak">§ 22. Unntak</a></li>
+<li class="lvl4"><a href="#23-overgangsordninger">§ 23. Overgangsordninger</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse">§ 24. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-28-2170.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-10-28-2170.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-28-2170.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-10-28-2170.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-10-28-2170.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-10-28-2170.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-10-28-2170.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-10-28-2170.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-10-28-2170.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-arbeid-pa-kjrety-verkstedforskriften">Forskrift om arbeid på kjøretøy (verkstedforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å sikre at arbeid på kjøretøy utføres slik at hensynet til trafikksikkerhet, driftssikkerhet og miljø ivaretas i tilstrekkelig grad. Den skal også bidra til like konkurransevilkår og til å hindre kjøretøykriminalitet.</p>
@@ -117,7 +226,7 @@ f. arbeid på mykkarosseri (sandwichkonstruksjon) på campingbiler og campingvog
 <p>Minst én faglig ansvarlig med kompetanse som nevnt i tredje ledd skal være til stede når det foregår arbeid i virksomheten.</p>
 <p>Statens vegvesen kan i retningslinjer til forskriften fastsette nærmere krav til egnet sted, nødvendige tillatelser, kompetanse, verktøy og utstyr, herunder krav til vedlikehold og kalibrering. Det kan også gjennom retningslinjer til forskriften gis krav til organisering, innhold og omfang av spesiell opplæring i regi av fabrikant/importør, leverandør eller kursarrangør.</p>
 <p>Statens vegvesen registrerer opplysninger, herunder personopplysninger i sitt elektroniske register i forbindelse med søknader, godkjenninger, tilsyn og reaksjoner.</p>
-<p><em>Endret ved forskrifter 24 nov 2020 nr. 2448 , 6 okt 2023 nr. 1581 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 24 nov 2020 nr. 2448 , 6 okt 2023 nr. 1581 (i kraft 1 jan 2024).</p>
 <h4 id="6-unntak-fra-krav-til-godkjenning">§ 6. Unntak fra krav til godkjenning</h4>
 <p>Følgende arbeid er unntatt fra krav til godkjenning:</p>
 <p>a. reparasjons- og vedlikeholdsarbeid som utføres som ledd i videregående fagopplæring.
@@ -151,7 +260,7 @@ g. Traktorverksted skal ha egnet løfteutstyr.</p>
 <p>Teknisk leder skal være heltidsbeskjeftiget og delta aktivt i arbeidet med å veilede personalet og påse at arbeidet utføres i samsvar med krav fastsatt i lov og forskrift. Teknisk leder er ansvarlig for at reparasjonsvirksomheten drives i samsvar med denne forskriften, skal samordne reparasjonsvirksomheten og er verkstedets kontaktperson overfor Statens vegvesen.</p>
 <p>I teknisk leders fravær påhviler dennes plikter og ansvar stedfortreder. Stedfortreder må ha godkjenning som teknisk leder, jf. § 10 .</p>
 <p>Statens vegvesen registrerer opplysninger, herunder personopplysninger, om tekniske ledere og stedfortredere i sitt elektroniske register i forbindelse med søknader, godkjenninger, tilsyn og reaksjoner.</p>
-<p><em>Endret ved forskrift 24 nov 2020 nr. 2448 .</em></p>
+<p class="note">Endret ved forskrift 24 nov 2020 nr. 2448 .</p>
 <h4 id="10-krav-til-teknisk-leder">§ 10. Krav til teknisk leder</h4>
 <p>Teknisk leder ved godkjent verksted skal være godkjent av Statens vegvesen, jf. § 9 . For å få godkjenning som teknisk leder må vedkommende ha:</p>
 <p>a. fagbrev tilpasset den kjøretøykategorien vedkommende skal godkjennes for.
@@ -177,17 +286,17 @@ i. Traktorverksted: Fagbrev som «landbruksmaskinmekaniker», «anleggsmaskinmek
 <p>For førstegangsbehandling av søknad som teknisk leder eller stedfortreder og ved utvidelse av godkjenningen skal det betales et gebyr.</p>
 <p>Ved samtidig godkjenning som kontrollorgan, jf. forskrift 13. mai 2009 nr. 591 om periodisk kontroll av kjøretøy , og verksted etter denne forskrift, betales ett gebyr. Det samme gjelder ved samtidig godkjenning av teknisk leder eller stedfortreder for kontrollorgan og verksted.</p>
 <p>Gebyrsatsene fremgår av forskrift om gebyr på tjenester utført av Statens vegvesen på trafikant- og kjøretøyområdet kapittel 14 .</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3074 (i kraft 1 jan 2021), 14 des 2021 nr. 3540 (i kraft 1 jan 2022), 20 des 2022 nr. 2402 (i kraft 1 jan 2023), 10 okt 2023 nr. 1655 .</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3074 (i kraft 1 jan 2021), 14 des 2021 nr. 3540 (i kraft 1 jan 2022), 20 des 2022 nr. 2402 (i kraft 1 jan 2023), 10 okt 2023 nr. 1655 .</p>
 <h4 id="13-dokumentasjon-pa-godkjenning">§ 13. Dokumentasjon på godkjenning</h4>
 <p>Virksomhet og teknisk leder som oppfyller vilkårene i denne forskriften har krav på å få et godkjenningsbevis. Godkjenningsbeviset for verkstedet skal være plassert synlig og tilgjengelig for kunder.</p>
 <p>Ved avvikling av virksomhet mister virksomheten retten til å benytte godkjenningsskilt og godkjenningsbevis med Statens vegvesens etatslogo.</p>
 <p>Statens vegvesen registrerer og offentliggjør opplysninger om godkjente virksomheter i sitt elektroniske register.</p>
-<p><em>Endret ved forskrift 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</em></p>
+<p class="note">Endret ved forskrift 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</p>
 <h2 id="kapittel-4-kjretyverkstedets-plikter">Kapittel 4 – Kjøretøyverkstedets plikter</h2>
 <h4 id="14-plikter-for-virksomheter-godkjent-etter-denne-forskriften">§ 14. Plikter for virksomheter godkjent etter denne forskriften</h4>
 <p>Ved endringer av forhold som kan ha betydning for godkjenningen, herunder opphør, flytting, endring av organisasjonsnummer, bytte av teknisk leder, stedfortreder, faglig ansvarlig eller utstyr, skal det straks gis skriftlig melding til Statens vegvesen.</p>
 <p>Når arbeid på kjøretøy vil medføre at det innpregede understellsnummeret blir skadet eller fjernet, kan verkstedet søke Statens vegvesen om å fravike kravet om forhåndskontroll av kjøretøyet før reparasjonen blir satt i gang. Det samme gjelder dersom det viser seg at understellsnummer allerede er skadet eller fjernet før reparasjon av kjøretøyet blir påbegynt ved kjøretøyverkstedet.</p>
-<p><em>Endret ved forskrifter 13 juni 2023 nr. 844 , 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</em></p>
+<p class="note">Endret ved forskrifter 13 juni 2023 nr. 844 , 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</p>
 <h4 id="14a-krav-til-reparasjon-av-omfattende-skader">§ 14a. Krav til reparasjon av omfattende skader</h4>
 <p>Når kjøretøy blir reparert etter omfattende skade i forbindelse med kollisjon, utforkjøring eller lignende, jf. bestemmelser i bilforskriften , motorsykkelforskriften , traktorforskriften og kjøretøyforskriften , skal det dokumenteres at reparasjonen er utført i henhold til kjøretøyprodusentens anvisninger der disse foreligger, og etter faglig anerkjente reparasjonsmetoder før kjøretøyet tas i bruk.</p>
 <p>Dokumentasjonen skal som minimum inneholde:</p>
@@ -199,13 +308,13 @@ e. Reparasjonsanvisning som er brukt for reparasjonen.</p>
 <p>Statens vegvesen kan i retningslinjer til forskriften fastsette nærmere krav til dokumentasjonen.</p>
 <p>For reparasjoner av omfattende skader utført før 1. april 2023 skal dokumentasjon oppbevares av virksomheten i minst 5 år etter reparasjonen og gjøres tilgjengelig for Statens vegvesen ved tilsyn.</p>
 <p>Reparasjoner av omfattende skader utført fra og med 1. april 2023 skal dokumenteres og rapporteres i Statens vegvesens elektroniske register før kjøretøyet tas i bruk.</p>
-<p><em>Tilføyd ved forskrift 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</p>
 <h4 id="15-plikt-til-a-opprette-kvalitetsstyringssystem">§ 15. Plikt til å opprette kvalitetsstyringssystem</h4>
 <p>Den som er gitt godkjenning som kjøretøyverksted skal etablere og ajourholde et kvalitetsstyringssystem for verkstedets aktiviteter knyttet til godkjenningspliktige arbeid slik dette er definert i denne forskrift og nærmere avgrenses i Statens vegvesens vedtak om godkjenning. Systemet skal utarbeides og ajourholdes i samarbeid med teknisk leder og personale.</p>
 <p>Formålet med kvalitetsstyringssystemet er å sikre riktig kvalitet på arbeidet, at godkjenningspliktig arbeid oppfyller kravene i denne forskrift og gjennom kontinuerlig forbedring bidrar til riktig reparasjonskvalitet.</p>
 <p>Kvalitetsstyringssystemet skal inneholde nødvendige beskrivelser, prosedyrebeskrivelser og krav til registreringer for å sikre formålet. Med prosedyrebeskrivelse menes et dokument som angir fremgangsmåten for å utføre en aktivitet eller arbeidsprosess. Med registreringer menes et dokument som beviser oppnådd resultat eller gjennomførte aktiviteter.</p>
 <p>Teknisk leder plikter å føre tilsyn med at arbeidet organiseres og gjennomføres slik dette er fastsatt i kvalitetssystemet.</p>
-<p><em>Endret ved forskrift 24 nov 2020 nr. 2448 .</em></p>
+<p class="note">Endret ved forskrift 24 nov 2020 nr. 2448 .</p>
 <h4 id="16-utforming-og-innhold-av-kvalitetsstyringssystemet">§ 16. Utforming og innhold av kvalitetsstyringssystemet</h4>
 <p>Kvalitetsstyringssystemet skal minimum inneholde følgende:</p>
 <p>a. Beskrivelse av hvordan det godkjenningspliktige arbeidet er organisert; hvilke roller som inngår, hvilke oppgaver (arbeidsinstruks) som er knyttet til de ulike rollene og hvem som til enhver tid innehar de ulike rollene.
@@ -224,7 +333,7 @@ f. Prosedyrebeskrivelse for og registreringer av avvikshåndtering.</p>
 <p>a. lokaler, utstyr, kompetanse, registering og rapportering og kvalitetsstyring.
 b. at reparasjonene mv. er utført slik dette følger av bestemmelser i eller forskrifter gitt med hjemmel i vegtrafikkloven og etter faglig anerkjente reparasjonsmetoder.</p>
 <p>Statens vegvesen kan som en del av tilsynet utføre stikkprøvekontroll på arbeidet. Dersom det er nødvendig for å utføre tilsynsoppgavene kan Statens vegvesen også innkalle kjøretøy til stikkprøvekontroll.</p>
-<p><em>Endret ved forskrift 24 nov 2020 nr. 2448 .</em></p>
+<p class="note">Endret ved forskrift 24 nov 2020 nr. 2448 .</p>
 <h4 id="19-reaksjoner">§ 19. Reaksjoner</h4>
 <p>Som ledd i tilsynet kan Statens vegvesen gi virksomheter og personer som driver godkjenningspliktig arbeid på kjøretøy pålegg som er nødvendig for å sikre at reparasjonsvirksomheten er i samsvar med denne forskrift, herunder også gi pålegg om stansing av reparasjonsvirksomheten til avvik er rettet eller til vedtak om tilbakekalling er avgjort.</p>
 <p>Dersom retting eller stansing ikke er foretatt innen en gitt frist, kan Statens vegvesen fastsette en tvangsmulkt. Tvangsmulkten kan fastsettes som et engangsbeløp eller som en mulkt som løper fra det tidspunkt en gitt frist for retting er overskredet og til retting er foretatt. Endelig vedtak om betaling av tvangsmulkt er tvangsgrunnlag for utlegg, jf. tvangsfullbyrdelsesloven § 7-2 . Tvangsmulkten kreves inn av Innkrevingsmyndigheten og tilfaller staten.</p>
@@ -238,7 +347,7 @@ e. at virksomheten eller teknisk leder unndrar seg tilsyn.</p>
 <p>I vurderingen av om en godkjenning skal tilbakekalles skal det tas hensyn til i hvilken grad virksomhetens administrative ledelse eller teknisk leder kan bebreides for overtredelsene nevnt i fjerde ledd.</p>
 <p>Første gangs tilbakekalling av godkjenningen skal normalt gjelde fra 1 til 6 måneder, annen gangs tilbakekalling fra 6 til 12 måneder og tredje gangs tilbakekalling for minst 12 måneder. I særlige tilfeller kan godkjenningen tilbakekalles for alltid.</p>
 <p>Ved tilbakekall av en godkjenning mister virksomheten retten til å benytte godkjenningsskilt og godkjenningsbevis med Statens vegvesens etatslogo.</p>
-<p><em>Endret ved forskrifter 24 nov 2020 nr. 2448 , 17 des 2025 nr. 2717 (i kraft 1 jan 2026), 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</em></p>
+<p class="note">Endret ved forskrifter 24 nov 2020 nr. 2448 , 17 des 2025 nr. 2717 (i kraft 1 jan 2026), 13 mai 2026 nr. 856 (i kraft 8 juni 2026).</p>
 <h2 id="kapittel-6-avsluttende-bestemmelser">Kapittel 6 – Avsluttende bestemmelser</h2>
 <h4 id="20-administrative-bestemmelser">§ 20. Administrative bestemmelser</h4>
 <p>Statens vegvesen fører eget elektronisk register over godkjente kjøretøyverksteder.</p>
@@ -246,17 +355,19 @@ e. at virksomheten eller teknisk leder unndrar seg tilsyn.</p>
 <h4 id="21-saksbehandlingsregler">§ 21. Saksbehandlingsregler</h4>
 <p>For søknad om godkjenning av kjøretøyverksted etter § 4 og søknad om særlig arbeidstillatelse etter § 5 , skal saksbehandlingsfrist som nevnt i tjenesteloven § 11 første ledd første punktum, være en måned. Saksbehandlingsfristen løper fra det tidspunktet Statens vegvesen har mottatt all nødvendig dokumentasjon.</p>
 <p>Tjenesteloven § 11 annet ledd om at tillatelse anses gitt når saksbehandlingsfristen er utløpt, gjelder ikke for godkjenning av kjøretøyverksted etter § 4 eller særlig arbeidstillatelse etter § 5 .</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2191 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2191 .</p>
 <h4 id="22-unntak">§ 22. Unntak</h4>
 <p>Statens vegvesen kan, ved enkeltvedtak, gjøre unntak fra bestemmelsene i denne forskriften når det foreligger særlig tungtveiende grunner.</p>
-<p><em>Endret ved forskrift 7 des 2022 nr. 2191 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2022 nr. 2191 .</p>
 <h4 id="23-overgangsordninger">§ 23. Overgangsordninger</h4>
 <p>Virksomheter som innen 1. januar 2025 søker om særlig arbeidstillatelse etter § 5 andre ledd bokstav f, anses å oppfylle kravet om relevant praksis dersom den faglige ansvarlige kan dokumentere langvarig, relevant praksis selv om den er opparbeidet i virksomhet uten godkjenning fra Statens vegvesen. Med langvarig praksis forstås minst fire års dokumentert praksis.</p>
 <p>Virksomheter som benytter seg av overgangsordningen skal betale gebyr som fastsatt i § 12 .</p>
-<p><em>Endret ved forskrift 6 okt 2023 nr. 1581 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 6 okt 2023 nr. 1581 (i kraft 1 jan 2024).</p>
 <h4 id="24-ikrafttredelse">§ 24. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. november 2020. Samtidig oppheves forskrift 13. mai 2009 nr. 589 om kjøretøyverksteder .</p>
-<p><em>Endret ved forskrifter 30 jan 2023 nr. 123 (i kraft 1 april 2023), 13 juni 2023 nr. 844 .</em></p>
+<p class="note">Endret ved forskrifter 30 jan 2023 nr. 123 (i kraft 1 april 2023), 13 juni 2023 nr. 844 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

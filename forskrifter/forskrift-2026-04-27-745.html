@@ -19,64 +19,225 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2026-04-27-745.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om gebyr til Mattilsynet</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2026-04-27-745</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementetLandbruks- og matdepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2026-05-15</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2026-04-27-745" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-plikt-til-a-gi-opplysninger">§ 1-3. Plikt til å gi opplysninger</a></li>
+<li class="lvl4"><a href="#1-4-innhenting-av-opplysninger-fra-offentlige-myndigheter">§ 1-4. Innhenting av opplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#1-5-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 1-5. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl2"><a href="#kapittel-ii-gebyr-for-srskilte-ytelser">Kapittel II. Gebyr for særskilte ytelser</a></li>
+<li class="lvl4"><a href="#2-1-definisjon">§ 2-1. Definisjon</a></li>
+<li class="lvl4"><a href="#2-2-gebyr-for-srskilte-ytelser">§ 2-2. Gebyr for særskilte ytelser</a></li>
+<li class="lvl4"><a href="#2-3-gebyr-til-dekning-av-utgifter-til-eksterne-vurderinger-rapporter-og-analyser-mv">§ 2-3. Gebyr til dekning av utgifter til eksterne vurderinger, rapporter og analyser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-iii-gebyr-for-tilsyn-og-kontroll-med-kologisk-produksjon">Kapittel III. Gebyr for tilsyn og kontroll med økologisk produksjon</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-betale-gebyr-for-kologiske-virksomheter">§ 3-1. Plikt til å betale gebyr for økologiske virksomheter</a></li>
+<li class="lvl4"><a href="#3-2-gebyr-for-virksomheter-som-driver-med-kologisk-akvakulturproduksjon">§ 3-2. Gebyr for virksomheter som driver med økologisk akvakulturproduksjon</a></li>
+<li class="lvl4"><a href="#3-3-gebyr-for-virksomheter-som-driver-med-primrproduksjon-av-kologiske-landbruksprodukter">§ 3-3. Gebyr for virksomheter som driver med primærproduksjon av økologiske landbruksprodukter</a></li>
+<li class="lvl4"><a href="#3-4-gebyr-for-virksomheter-som-driver-kologisk-med-annet-enn-primrproduksjon">§ 3-4. Gebyr for virksomheter som driver økologisk med annet enn primærproduksjon</a></li>
+<li class="lvl4"><a href="#3-5-halvt-gebyr-og-tilleggsgebyr">§ 3-5. Halvt gebyr og tilleggsgebyr</a></li>
+<li class="lvl4"><a href="#3-6-fastsettelse-av-gebyr">§ 3-6. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-iv-gebyr-for-kjttkontroll">Kapittel IV. Gebyr for kjøttkontroll</a></li>
+<li class="lvl4"><a href="#4-1-gebyr-for-kjttkontroll-ved-slakteri-med-kontinuerlig-post-mortem-kontroll">§ 4-1. Gebyr for kjøttkontroll ved slakteri med kontinuerlig post mortem kontroll</a></li>
+<li class="lvl4"><a href="#4-2-gebyr-for-kjttkontroll-ved-slakteri-med-utsatt-post-mortem-kontroll">§ 4-2. Gebyr for kjøttkontroll ved slakteri med utsatt post mortem kontroll</a></li>
+<li class="lvl4"><a href="#4-3-gebyr-for-kontroll-av-kjtt-fra-viltlevende-vilt">§ 4-3. Gebyr for kontroll av kjøtt fra viltlevende vilt</a></li>
+<li class="lvl4"><a href="#4-4-gebyr-for-kontroll-av-oppdrettsvilt-som-er-avlivet-pa-oppdrettsstedet">§ 4-4. Gebyr for kontroll av oppdrettsvilt som er avlivet på oppdrettsstedet</a></li>
+<li class="lvl4"><a href="#4-5-arlig-slakteplan-for-slakteri">§ 4-5. Årlig slakteplan for slakteri</a></li>
+<li class="lvl4"><a href="#4-6-annen-melding-om-behov-for-kjttkontroll">§ 4-6. Annen melding om behov for kjøttkontroll</a></li>
+<li class="lvl4"><a href="#4-7-fastsettelse-av-gebyr">§ 4-7. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-v-gebyr-for-grensekontroll">Kapittel V. Gebyr for grensekontroll</a></li>
+<li class="lvl4"><a href="#5-1-plikt-til-a-betale-gebyr-for-grensekontroll">§ 5-1. Plikt til å betale gebyr for grensekontroll</a></li>
+<li class="lvl4"><a href="#5-2-gebyr-for-grensekontroll-av-animalske-nringsmidler-og-produkter">§ 5-2. Gebyr for grensekontroll av animalske næringsmidler og produkter</a></li>
+<li class="lvl4"><a href="#5-3-gebyr-for-grensekontroll-av-levende-dyr">§ 5-3. Gebyr for grensekontroll av levende dyr</a></li>
+<li class="lvl4"><a href="#5-4-gebyr-for-kontroll-av-ikke-animalske-nringsmidler-og-forvarer">§ 5-4. Gebyr for kontroll av ikke-animalske næringsmidler og fôrvarer</a></li>
+<li class="lvl4"><a href="#5-5-gebyr-for-grensekontroll-ved-transitt-omlasting-og-gjeninnfrsel">§ 5-5. Gebyr for grensekontroll ved transitt, omlasting og gjeninnførsel</a></li>
+<li class="lvl4"><a href="#5-6-overtidsgebyr">§ 5-6. Overtidsgebyr</a></li>
+<li class="lvl4"><a href="#5-7-ventegebyr">§ 5-7. Ventegebyr</a></li>
+<li class="lvl4"><a href="#5-8-fastsettelse-av-gebyr">§ 5-8. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-vi-gebyr-for-tilsyn-og-kontroll-med-fiskehelse-og-fiskevelferd-i-akvakulturanlegg">Kapittel VI. Gebyr for tilsyn og kontroll med fiskehelse og fiskevelferd i akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-1-gebyr-for-tilsyn-og-kontroll-med-fiskehelse-og-fiskevelferd-i-akvakulturanlegg">§ 6-1. Gebyr for tilsyn og kontroll med fiskehelse og fiskevelferd i akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-2-plikt-til-a-betale-gebyr">§ 6-2. Plikt til å betale gebyr</a></li>
+<li class="lvl4"><a href="#6-3-gebyr-for-inspeksjon-av-akvakulturanlegg">§ 6-3. Gebyr for inspeksjon av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-4-gebyr-for-revisjon-av-akvakulturanlegg">§ 6-4. Gebyr for revisjon av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-5-gebyr-for-dokumentkontroll">§ 6-5. Gebyr for dokumentkontroll</a></li>
+<li class="lvl4"><a href="#6-6-gebyr-for-saksbehandling-av-driftsplaner">§ 6-6. Gebyr for saksbehandling av driftsplaner</a></li>
+<li class="lvl4"><a href="#6-7-gebyr-for-saksbehandling-av-dispensasjonssknader">§ 6-7. Gebyr for saksbehandling av dispensasjonssøknader</a></li>
+<li class="lvl2"><a href="#kapittel-vii-gebyr-for-oppflgende-kontroll">Kapittel VII. Gebyr for oppfølgende kontroll</a></li>
+<li class="lvl4"><a href="#7-1-gebyr-for-oppflgende-kontroll">§ 7-1. Gebyr for oppfølgende kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-viii-administrative-bestemmelser">Kapittel VIII. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-innbetaling-av-gebyr">§ 8-1. Innbetaling av gebyr</a></li>
+<li class="lvl4"><a href="#8-2-klage">§ 8-2. Klage</a></li>
+<li class="lvl4"><a href="#8-3-dispensasjon">§ 8-3. Dispensasjon</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse">§ 8-4. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-5-endringer-i-andre-forskrifter">§ 8-5. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl3"><a href="#del-a">Del A</a></li>
+<li class="lvl3"><a href="#del-b">Del B</a></li>
+<li class="lvl3"><a href="#del-c">Del C</a></li>
+<li class="lvl3"><a href="#del-d">Del D</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl3"><a href="#del-a-aktive-stoffer-beskyttende-midler-og-synergister">Del A: Aktive stoffer, beskyttende midler og synergister</a></li>
+<li class="lvl3"><a href="#del-b-preparater">Del B: Preparater</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2026-04-27-745.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om gebyr til Mattilsynet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2026-04-27-745.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2026-04-27-745 <code>forskrift/2026-04-27-745</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementetLandbruks- og matdepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.05.2026</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2026-04-27-745" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-plikt-til-a-gi-opplysninger">§ 1-3. Plikt til å gi opplysninger</a></li>
+<li class="lvl4"><a href="#1-4-innhenting-av-opplysninger-fra-offentlige-myndigheter">§ 1-4. Innhenting av opplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#1-5-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 1-5. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl2"><a href="#kapittel-ii-gebyr-for-srskilte-ytelser">Kapittel II. Gebyr for særskilte ytelser</a></li>
+<li class="lvl4"><a href="#2-1-definisjon">§ 2-1. Definisjon</a></li>
+<li class="lvl4"><a href="#2-2-gebyr-for-srskilte-ytelser">§ 2-2. Gebyr for særskilte ytelser</a></li>
+<li class="lvl4"><a href="#2-3-gebyr-til-dekning-av-utgifter-til-eksterne-vurderinger-rapporter-og-analyser-mv">§ 2-3. Gebyr til dekning av utgifter til eksterne vurderinger, rapporter og analyser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-iii-gebyr-for-tilsyn-og-kontroll-med-kologisk-produksjon">Kapittel III. Gebyr for tilsyn og kontroll med økologisk produksjon</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-betale-gebyr-for-kologiske-virksomheter">§ 3-1. Plikt til å betale gebyr for økologiske virksomheter</a></li>
+<li class="lvl4"><a href="#3-2-gebyr-for-virksomheter-som-driver-med-kologisk-akvakulturproduksjon">§ 3-2. Gebyr for virksomheter som driver med økologisk akvakulturproduksjon</a></li>
+<li class="lvl4"><a href="#3-3-gebyr-for-virksomheter-som-driver-med-primrproduksjon-av-kologiske-landbruksprodukter">§ 3-3. Gebyr for virksomheter som driver med primærproduksjon av økologiske landbruksprodukter</a></li>
+<li class="lvl4"><a href="#3-4-gebyr-for-virksomheter-som-driver-kologisk-med-annet-enn-primrproduksjon">§ 3-4. Gebyr for virksomheter som driver økologisk med annet enn primærproduksjon</a></li>
+<li class="lvl4"><a href="#3-5-halvt-gebyr-og-tilleggsgebyr">§ 3-5. Halvt gebyr og tilleggsgebyr</a></li>
+<li class="lvl4"><a href="#3-6-fastsettelse-av-gebyr">§ 3-6. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-iv-gebyr-for-kjttkontroll">Kapittel IV. Gebyr for kjøttkontroll</a></li>
+<li class="lvl4"><a href="#4-1-gebyr-for-kjttkontroll-ved-slakteri-med-kontinuerlig-post-mortem-kontroll">§ 4-1. Gebyr for kjøttkontroll ved slakteri med kontinuerlig post mortem kontroll</a></li>
+<li class="lvl4"><a href="#4-2-gebyr-for-kjttkontroll-ved-slakteri-med-utsatt-post-mortem-kontroll">§ 4-2. Gebyr for kjøttkontroll ved slakteri med utsatt post mortem kontroll</a></li>
+<li class="lvl4"><a href="#4-3-gebyr-for-kontroll-av-kjtt-fra-viltlevende-vilt">§ 4-3. Gebyr for kontroll av kjøtt fra viltlevende vilt</a></li>
+<li class="lvl4"><a href="#4-4-gebyr-for-kontroll-av-oppdrettsvilt-som-er-avlivet-pa-oppdrettsstedet">§ 4-4. Gebyr for kontroll av oppdrettsvilt som er avlivet på oppdrettsstedet</a></li>
+<li class="lvl4"><a href="#4-5-arlig-slakteplan-for-slakteri">§ 4-5. Årlig slakteplan for slakteri</a></li>
+<li class="lvl4"><a href="#4-6-annen-melding-om-behov-for-kjttkontroll">§ 4-6. Annen melding om behov for kjøttkontroll</a></li>
+<li class="lvl4"><a href="#4-7-fastsettelse-av-gebyr">§ 4-7. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-v-gebyr-for-grensekontroll">Kapittel V. Gebyr for grensekontroll</a></li>
+<li class="lvl4"><a href="#5-1-plikt-til-a-betale-gebyr-for-grensekontroll">§ 5-1. Plikt til å betale gebyr for grensekontroll</a></li>
+<li class="lvl4"><a href="#5-2-gebyr-for-grensekontroll-av-animalske-nringsmidler-og-produkter">§ 5-2. Gebyr for grensekontroll av animalske næringsmidler og produkter</a></li>
+<li class="lvl4"><a href="#5-3-gebyr-for-grensekontroll-av-levende-dyr">§ 5-3. Gebyr for grensekontroll av levende dyr</a></li>
+<li class="lvl4"><a href="#5-4-gebyr-for-kontroll-av-ikke-animalske-nringsmidler-og-forvarer">§ 5-4. Gebyr for kontroll av ikke-animalske næringsmidler og fôrvarer</a></li>
+<li class="lvl4"><a href="#5-5-gebyr-for-grensekontroll-ved-transitt-omlasting-og-gjeninnfrsel">§ 5-5. Gebyr for grensekontroll ved transitt, omlasting og gjeninnførsel</a></li>
+<li class="lvl4"><a href="#5-6-overtidsgebyr">§ 5-6. Overtidsgebyr</a></li>
+<li class="lvl4"><a href="#5-7-ventegebyr">§ 5-7. Ventegebyr</a></li>
+<li class="lvl4"><a href="#5-8-fastsettelse-av-gebyr">§ 5-8. Fastsettelse av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-vi-gebyr-for-tilsyn-og-kontroll-med-fiskehelse-og-fiskevelferd-i-akvakulturanlegg">Kapittel VI. Gebyr for tilsyn og kontroll med fiskehelse og fiskevelferd i akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-1-gebyr-for-tilsyn-og-kontroll-med-fiskehelse-og-fiskevelferd-i-akvakulturanlegg">§ 6-1. Gebyr for tilsyn og kontroll med fiskehelse og fiskevelferd i akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-2-plikt-til-a-betale-gebyr">§ 6-2. Plikt til å betale gebyr</a></li>
+<li class="lvl4"><a href="#6-3-gebyr-for-inspeksjon-av-akvakulturanlegg">§ 6-3. Gebyr for inspeksjon av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-4-gebyr-for-revisjon-av-akvakulturanlegg">§ 6-4. Gebyr for revisjon av akvakulturanlegg</a></li>
+<li class="lvl4"><a href="#6-5-gebyr-for-dokumentkontroll">§ 6-5. Gebyr for dokumentkontroll</a></li>
+<li class="lvl4"><a href="#6-6-gebyr-for-saksbehandling-av-driftsplaner">§ 6-6. Gebyr for saksbehandling av driftsplaner</a></li>
+<li class="lvl4"><a href="#6-7-gebyr-for-saksbehandling-av-dispensasjonssknader">§ 6-7. Gebyr for saksbehandling av dispensasjonssøknader</a></li>
+<li class="lvl2"><a href="#kapittel-vii-gebyr-for-oppflgende-kontroll">Kapittel VII. Gebyr for oppfølgende kontroll</a></li>
+<li class="lvl4"><a href="#7-1-gebyr-for-oppflgende-kontroll">§ 7-1. Gebyr for oppfølgende kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-viii-administrative-bestemmelser">Kapittel VIII. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-innbetaling-av-gebyr">§ 8-1. Innbetaling av gebyr</a></li>
+<li class="lvl4"><a href="#8-2-klage">§ 8-2. Klage</a></li>
+<li class="lvl4"><a href="#8-3-dispensasjon">§ 8-3. Dispensasjon</a></li>
+<li class="lvl4"><a href="#8-4-ikrafttredelse">§ 8-4. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-5-endringer-i-andre-forskrifter">§ 8-5. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl3"><a href="#del-a">Del A</a></li>
+<li class="lvl3"><a href="#del-b">Del B</a></li>
+<li class="lvl3"><a href="#del-c">Del C</a></li>
+<li class="lvl3"><a href="#del-d">Del D</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl3"><a href="#del-a-aktive-stoffer-beskyttende-midler-og-synergister">Del A: Aktive stoffer, beskyttende midler og synergister</a></li>
+<li class="lvl3"><a href="#del-b-preparater">Del B: Preparater</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2026-04-27-745.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2026-04-27-745.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2026-04-27-745.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2026-04-27-745.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2026-04-27-745.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-gebyr-til-mattilsynet">Forskrift om gebyr til Mattilsynet</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Denne forskriften fastsetter gebyr til staten. Gebyrene skal dekke utgifter Mattilsynet har i forbindelse med tilsyn, kontroll og særskilte ytelser.</p>
@@ -279,6 +440,8 @@ b. kr 1 388 dersom oppfølgende kontroll er gjennomført på annen måte</p>
 <p>Tjeneste Beskrivelse Gebyr Godkjenning av aktivt stoff, beskyttende middel eller synergist Søknad er sendt inn av flere søkere som samarbeider om nødvendig dokumentasjon 8 625 400 Søknad er sendt inn av én søker 5 750 270 Søknad om endring i godkjenning 255 570 Medrapportør aktivt stoff, beskyttende middel eller synergist (Maksimale satser, må avregnes ift. arbeidsfordeling mellom rapportør og medrapportør) Søknad er sendt inn av flere søkere som samarbeider om nødvendig dokumentasjon 4 312 695 Søknad er sendt inn av én søker 2 875 135 Medrapportering som påbegynnes etter at rapporterende lands vurdering er oversendt EFSA 4 422 245</p>
 <h3 id="del-b-preparater">Del B: Preparater</h3>
 <p>Tjeneste Beskrivelse Gebyr Redusert gebyr § 2-2 bokstav a. b. Godkjenning av preparater (Førstegangs­vurderinger og revurderinger) Norge er saksbehandlende land i sonen 498 345 Tillegg for flere aktive stoffer 63 895 Tillegg for ekvivalensbedømming 15 335 Tillegg for preparat som inneholder GM-mikroorganismer 76 675 Norge er berørt land i sonen – saken behandles av annet land (Nasjonal godkjenning) 230 005 Tillegg for preparat som inneholder GM-mikroorganismer 76 675 Norge er saksbehandlende land for preparat som vurderes for hele EØS-området (preparater for bruk i veksthus, beisemiddel m.m.) 562 250 Tillegg for flere aktive stoffer 63 895 Tillegg for ekvivalensbedømming 15 335 Norge er saksbehandlende land for lavrisikopreparat 74 110 Tillegg for flere aktive stoffer 63 895 Tillegg for ekvivalensbedømming 15 335 Nasjonal godkjenning av hjelpestoff (adjuvant) 74 110 Nasjonal godkjenning av lavrisikopreparat (Norge er berørt land) 10 855 Norge er saksbehandlende land når dyrkingsareal er under 30 000 dekar i sonen 74 110 Nasjonal godkjenning når dyrkingsareal er under 30 000 dekar i sonen (Norge er berørt land) 10 855 Gjensidig godkjenning – preparatet er godkjent i samme sone og aktivt stoff er tidligere godkjent i Norge 230 005 46 000 10 215 Gjensidig godkjenning – preparatet er godkjent i annen sone og aktivt stoff er tidligere godkjent i Norge 255 570 51 115 10 215 Gjensidig godkjenning – preparatet er kun vurdert etter direktiv 91/414/EØF og aktivt stoff er tidligere godkjent i Norge 255 570 51 115 10 215 Gjensidig godkjenning – tilleggsgebyr når aktivt stoff ikke tidligere er godkjent i Norge 63 895 Gjensidig godkjenning – lavrisikopreparat 10 855 Gjensidig godkjenning – preparat til små arealer (mindre enn 10 000 dekar dyrkingsareal i Norge) 10 855 Endring av preparatgodkjenning Norge er saksbehandlende land – endringen dekkes ikke av tidligere risikovurdering 217 230 43 445 10 215 Nasjonal godkjenning (Norge er berørt land i sonen – endringen gjøres etter saksbehandlende lands konklusjon) – endringen dekkes ikke av tidligere risikovurdering 140 565 28 115 10 215 Endringen dekkes av tidligere risikovurdering og medfører merarbeid for Norge 115 005 23 000 10 215 Endringer for lavrisikopreparat som medfører merarbeid for Norge 10 855 Endringer for preparat til dyrkingsareal under 30 000 dekar i sonen som medfører merarbeid for Norge 10 855 Endring av tilvirkningsprosess eller plass o.l. (ekvivalensbedømming) som medfører merarbeid for Norge. 25 560 Endring av preparatsammensetning som medfører merarbeid for Norge 25 560 Andre endringer av administrativ art (f.eks. produktnavn) som medfører merarbeid for Norge 10 215 Dispensasjoner Nødssituasjon som gjelder plantehelse 2 550 Forskning og utvikling 2 550 Godkjenning av parallellhandel Preparatet er godkjent i et annet land i EØS-området og er identisk med et som alt er på markedet i Norge 25 560 Utvidet preparatgodkjenning Utvidelse av allerede godkjent preparat til bruk på vekst som dyrkes på lite areal eller til bruk ved et eksepsjonelt behov i vekst som dyrkes i større omfang. 10 855 Endring av pågående søknad Tillegg for endring av en pågående søknad, når endringen krever ny vurdering av de ensartede prinsippene (f.eks. bruksutvidelse, endret dose eller påføringsmetode). 63 895 Godkjenning av makroorganisme Nasjonal godkjenning etter nasjonale regler 7 100</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

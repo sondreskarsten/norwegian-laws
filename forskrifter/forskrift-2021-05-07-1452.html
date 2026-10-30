@@ -19,64 +19,449 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-05-07-1452.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Våpenforskrifta" href="../feeds/forskrift-2021-05-07-1452.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Våpenforskrifta</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2021-05-07-1452</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-07-02-1501</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2021-05-07-1452" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-definisjonar-sakleg-og-stadleg-verkeomrade">Kapittel 1. Definisjonar, sakleg og stadleg verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-definisjonar">§ 1-1. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-2-klassifisering-av-skytevapen">§ 1-2. Klassifisering av skytevåpen</a></li>
+<li class="lvl4"><a href="#1-3-skytevapen-sine-funksjoneringsmatar">§ 1-3. Skytevåpen sine funksjoneringsmåtar</a></li>
+<li class="lvl4"><a href="#1-4-maling-av-skytevapenet-sin-totallengde-og-pipelengde">§ 1-4. Måling av skytevåpenet sin totallengde og pipelengde</a></li>
+<li class="lvl4"><a href="#1-5-skytevapen-vapendelar-og-ammunisjon-som-er-unnateke-fra-vapenlova-sitt-verkeomrade">§ 1-5. Skytevåpen, våpendelar og ammunisjon som er unnateke frå våpenlova sitt verkeområde</a></li>
+<li class="lvl4"><a href="#1-6-tilhvet-til-brann-og-eksplosjonsvernlova">§ 1-6. Tilhøvet til brann- og eksplosjonsvernlova</a></li>
+<li class="lvl4"><a href="#1-7-vapenlova-sitt-verkeomrade-ovanfor-offentlege-etatar">§ 1-7. Våpenlova sitt verkeområde ovanfor offentlege etatar</a></li>
+<li class="lvl4"><a href="#1-8-vapenlova-sitt-verkeomrade-pa-svalbard">§ 1-8. Våpenlova sitt verkeområde på Svalbard</a></li>
+<li class="lvl2"><a href="#kapittel-2-lyve-og-meldeplikt-for-skytevapen-vapendelar-og-ammunisjon">Kapittel 2. Løyve- og meldeplikt for skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-lyve">§ 2-1. Krav om løyve</a></li>
+<li class="lvl4"><a href="#2-2-lyvepliktige-endringar-i-skytevapen">§ 2-2. Løyvepliktige endringar i skytevåpen</a></li>
+<li class="lvl4"><a href="#2-3-skytevapen-som-er-fritekne-fra-lyveplikt">§ 2-3. Skytevåpen som er fritekne frå løyveplikt</a></li>
+<li class="lvl4"><a href="#2-4-vapendelar-som-er-underlagt-lyve-eller-meldeplikt">§ 2-4. Våpendelar som er underlagt løyve- eller meldeplikt</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-lyve-for-erverv-av-vapenmagasin-med-stor-patronkapasitet">§ 2-5. Krav til løyve for erverv av våpenmagasin med stor patronkapasitet</a></li>
+<li class="lvl4"><a href="#2-6-ammunisjon-som-er-friteke-fra-lyveplikt">§ 2-6. Ammunisjon som er friteke frå løyveplikt</a></li>
+<li class="lvl4"><a href="#2-7-lengda-pa-eit-ervervslyve">§ 2-7. Lengda på eit ervervsløyve</a></li>
+<li class="lvl4"><a href="#2-8-registreringsplikt-for-skytevapen-og-vapendelar">§ 2-8. Registreringsplikt for skytevåpen og våpendelar</a></li>
+<li class="lvl2"><a href="#kapittel-3-vapentypar-vapendelar-og-ammunisjon-det-ikkje-kan-gjevast-lyve-for">Kapittel 3. Våpentypar, våpendelar og ammunisjon det ikkje kan gjevast løyve for</a></li>
+<li class="lvl4"><a href="#3-1-felles-fresegner-for-alle-vapentypar">§ 3-1. Felles føresegner for alle våpentypar</a></li>
+<li class="lvl4"><a href="#3-2-rifler">§ 3-2. Rifler</a></li>
+<li class="lvl4"><a href="#3-3-hagle-eller-kombinasjonsvapen">§ 3-3. Hagle- eller kombinasjonsvåpen</a></li>
+<li class="lvl4"><a href="#3-4-halvautomatiske-pistolar">§ 3-4. Halvautomatiske pistolar</a></li>
+<li class="lvl4"><a href="#3-5-vapendelar-og-ammunisjon">§ 3-5. Våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#3-6-ikkje-tillatne-gjenstandar-som-ikkje-reknast-som-skytevapen">§ 3-6. Ikkje tillatne gjenstandar som ikkje reknast som skytevåpen</a></li>
+<li class="lvl2"><a href="#kapittel-4-erverv-av-skytevapen-vapendelar-og-ammunisjon-til-jakt-sportsskyting-og-samling">Kapittel 4. Erverv av skytevåpen, våpendelar og ammunisjon til jakt, sportsskyting og samling</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-og-vapendelar-til-jakt">Erverv av skytevåpen og våpendelar til jakt</a></li>
+<li class="lvl5"><a href="#4-1-halvautomatiske-rifler-til-jakt">§ 4-1. Halvautomatiske rifler til jakt</a></li>
+<li class="lvl5"><a href="#4-2-erverv-av-meir-enn-atte-skytevapen-til-jaktbruk">§ 4-2. Erverv av meir enn åtte skytevåpen til jaktbruk</a></li>
+<li class="lvl5"><a href="#4-3-unnatak-fra-kravet-om-innfring-i-jegerregisteret">§ 4-3. Unnatak frå kravet om innføring i Jegerregisteret</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-og-vapendelar-til-sportsskyting">Erverv av skytevåpen og våpendelar til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-4-rifler-til-sportsskyting-og-vapenmagasin-med-stor-patronkapasitet">§ 4-4. Rifler til sportsskyting og våpenmagasin med stor patronkapasitet</a></li>
+<li class="lvl5"><a href="#4-5-rifler-med-enkeltskot-eller-manuell-omlading-haglevapen-pistolar-og-revolverar-til-sportsskyting">§ 4-5. Rifler med enkeltskot eller manuell omlading, haglevåpen, pistolar og revolverar til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-6-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-pistolar-eller-revolver-til-sportsskyting">§ 4-6. Krav til medlemskap, aktivitet og opplæring for erverv av pistolar eller revolver til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-7-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-rifle-eller-haglevapen-til-sportsskyting">§ 4-7. Krav til medlemskap, aktivitet og opplæring for erverv av rifle eller haglevåpen til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-8-kor-mange-skytevapen-som-kan-ervervast-til-sportsskyting">§ 4-8. Kor mange skytevåpen som kan ervervast til sportsskyting</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-vapendelar-og-ammunisjon-til-samling">Erverv av skytevåpen, våpendelar og ammunisjon til samling</a></li>
+<li class="lvl5"><a href="#4-9-krav-til-samlaromrade">§ 4-9. Krav til samlarområde</a></li>
+<li class="lvl5"><a href="#4-10-krav-til-vapendugleik-for-godkjenning-som-vapensamlar">§ 4-10. Krav til våpendugleik for godkjenning som våpensamlar</a></li>
+<li class="lvl5"><a href="#4-11-talet-pa-lyvepliktige-skytevapen-og-vapendelar-som-kan-ervervast-til-samling">§ 4-11. Talet på løyvepliktige skytevåpen og våpendelar som kan ervervast til samling</a></li>
+<li class="lvl5"><a href="#4-12-srreglar-for-einskilde-vapentypar">§ 4-12. Særreglar for einskilde våpentypar</a></li>
+<li class="lvl5"><a href="#4-13-test-og-demonstrasjonsskyting-med-samlarvapen">§ 4-13. Test og demonstrasjonsskyting med samlarvåpen</a></li>
+<li class="lvl5"><a href="#4-14-ammunisjonssamling">§ 4-14. Ammunisjonssamling</a></li>
+<li class="lvl2"><a href="#kapittel-5-andre-ervervsgrunnlag">Kapittel 5. Andre ervervsgrunnlag</a></li>
+<li class="lvl4"><a href="#5-1-erverv-og-innehav-av-skytevapen-og-vapendelar-som-skal-brukast-av-andre">§ 5-1. Erverv og innehav av skytevåpen og våpendelar som skal brukast av andre</a></li>
+<li class="lvl4"><a href="#5-2-erverv-og-innehav-av-skytevapen-vapendelar-og-ammunisjon-for-godkjente-skyttarforeiningar">§ 5-2. Erverv og innehav av skytevåpen, våpendelar og ammunisjon for godkjente skyttarforeiningar</a></li>
+<li class="lvl4"><a href="#5-3-erverv-og-innehav-av-skytevapen-for-avliving-og-immobilisering-av-dyr">§ 5-3. Erverv og innehav av skytevåpen for avliving og immobilisering av dyr</a></li>
+<li class="lvl4"><a href="#5-4-erverv-og-innehav-av-skytevapen-pa-grunnlag-av-arv-eller-minneverde">§ 5-4. Erverv og innehav av skytevåpen på grunnlag av arv eller minneverde</a></li>
+<li class="lvl4"><a href="#5-5-erverv-av-replika-luft-og-fjrvapen">§ 5-5. Erverv av replika-, luft- og fjørvåpen</a></li>
+<li class="lvl4"><a href="#5-6-erverv-til-museumsfremal">§ 5-6. Erverv til museumsføremål</a></li>
+<li class="lvl4"><a href="#5-7-erverv-og-innehav-av-skytevapen-til-vern-mot-atak-fra-isbjrn">§ 5-7. Erverv og innehav av skytevåpen til vern mot åtak frå isbjørn</a></li>
+<li class="lvl4"><a href="#5-8-erverv-til-vern-mot-atak">§ 5-8. Erverv til vern mot åtak</a></li>
+<li class="lvl4"><a href="#5-9-erverv-og-innehav-til-skytevapen-til-nringsdrivande-for-testing-og-utvikling-av-ammunisjon">§ 5-9. Erverv og innehav til skytevåpen til næringsdrivande for testing og utvikling av ammunisjon</a></li>
+<li class="lvl4"><a href="#5-10-erverv-av-vapen-som-ikkje-reknast-som-skytevapen">§ 5-10. Erverv av våpen som ikkje reknast som skytevåpen</a></li>
+<li class="lvl4"><a href="#5-11-erverv-av-skytevapen-og-vapendelar-for-tilsette-i-politiet-og-forsvaret">§ 5-11. Erverv av skytevåpen og våpendelar for tilsette i politiet og Forsvaret</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppbevaring-transport-og-sending-av-skytevapen-vapendelar-og-ammunisjon">Kapittel 6. Oppbevaring, transport og sending av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#6-1-krav-til-tryggleik-for-privatpersonar-som-oppbevarer-skytevapen">§ 6-1. Krav til tryggleik for privatpersonar som oppbevarer skytevåpen</a></li>
+<li class="lvl4"><a href="#6-2-oppbevaring-pa-annan-bustad-med-vidare">§ 6-2. Oppbevaring på annan bustad med vidare</a></li>
+<li class="lvl4"><a href="#6-3-krav-til-tryggleik-for-oppbevaring-av-ammunisjon-hos-privatpersonar">§ 6-3. Krav til tryggleik for oppbevaring av ammunisjon hos privatpersonar</a></li>
+<li class="lvl4"><a href="#6-4-krav-til-tryggleik-for-oppbevaring-av-skytevapen-vapendelar-eller-ammunisjon-hos-juridiske-personar">§ 6-4. Krav til tryggleik for oppbevaring av skytevåpen, våpendelar eller ammunisjon hos juridiske personar</a></li>
+<li class="lvl4"><a href="#6-5-krav-til-tryggleik-for-oppbevaring-av-skytevapen-vapendelar-og-ammunisjon-hos-nringsdrivande-med-lyve-etter-vapenlova-23">§ 6-5. Krav til tryggleik for oppbevaring av skytevåpen, våpendelar og ammunisjon hos næringsdrivande med løyve etter våpenlova § 23</a></li>
+<li class="lvl4"><a href="#6-6-krav-til-oppbevaring-av-skytevapen-og-ammunisjon-som-ikkje-er-lyvepliktige">§ 6-6. Krav til oppbevaring av skytevåpen og ammunisjon som ikkje er løyvepliktige</a></li>
+<li class="lvl4"><a href="#6-7-krav-til-transport-og-sending-av-skytevapen-og-ammunisjon">§ 6-7. Krav til transport og sending av skytevåpen og ammunisjon</a></li>
+<li class="lvl4"><a href="#6-8-krav-til-mellombels-oppbevaring-av-skytevapen-og-ammunisjon">§ 6-8. Krav til mellombels oppbevaring av skytevåpen og ammunisjon</a></li>
+<li class="lvl3"><a href="#utlan-og-overlating-av-skytevapen-vapendelar-og-ammunisjon">Utlån og overlating av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl5"><a href="#6-9-krav-til-utferding-av-frasegn-ved-utlan-av-skytevapen-og-vapendelar">§ 6-9. Krav til utferding av fråsegn ved utlån av skytevåpen og våpendelar</a></li>
+<li class="lvl5"><a href="#6-10-krav-til-utferding-av-lister-over-lan-for-juridiske-personar">§ 6-10. Krav til utferding av lister over lån for juridiske personar</a></li>
+<li class="lvl5"><a href="#6-11-utlan-av-skytevapen-til-vern-mot-isbjrnatak">§ 6-11. Utlån av skytevåpen til vern mot isbjørnåtak</a></li>
+<li class="lvl2"><a href="#kapittel-7-krav-til-alder-og-personlege-eigenskapar-for-a-kunne-erverve-og-ha-skytevapen-vapendelar-og-ammunisjon">Kapittel 7. Krav til alder og personlege eigenskapar for å kunne erverve og ha skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#7-1-vilkar-for-fritak-fra-alderskravet-pa-18-ar-for-erverv-og-innehav-av-haglevapen-kombinasjonsvapen-og-rifler">§ 7-1. Vilkår for fritak frå alderskravet på 18 år for erverv og innehav av haglevåpen, kombinasjonsvåpen og rifler</a></li>
+<li class="lvl4"><a href="#7-2-vilkar-for-fritak-fra-alderskravet-pa-21-ar-for-erverv-og-innehav-av-pistol-eller-revolver">§ 7-2. Vilkår for fritak frå alderskravet på 21 år for erverv og innehav av pistol eller revolver.</a></li>
+<li class="lvl4"><a href="#7-3-aldersgrense-for-erverv-og-innehav-av-nrare-bestemte-vapen-som-ikkje-reknast-som-skytevapen">§ 7-3. Aldersgrense for erverv og innehav av nærare bestemte våpen som ikkje reknast som skytevåpen</a></li>
+<li class="lvl3"><a href="#krav-til-personlege-eigenskapar">Krav til personlege eigenskapar</a></li>
+<li class="lvl5"><a href="#7-4-reglar-om-krav-til-vandel-for-fysiske-personar">§ 7-4. Reglar om krav til vandel for fysiske personar</a></li>
+<li class="lvl5"><a href="#7-5-reglar-om-krav-til-vandel-for-juridiske-personar">§ 7-5. Reglar om krav til vandel for juridiske personar</a></li>
+<li class="lvl5"><a href="#7-6-utfyllande-fresegner-for-skikkavurderinga">§ 7-6. Utfyllande føresegner for skikkavurderinga</a></li>
+<li class="lvl5"><a href="#7-7-krav-til-butid">§ 7-7. Krav til butid</a></li>
+<li class="lvl2"><a href="#kapittel-8-godkjenning-av-skytebaner-godkjenning-av-vapenorganisasjonar-og-teknisk-program">Kapittel 8. Godkjenning av skytebaner, godkjenning av våpenorganisasjonar og teknisk program</a></li>
+<li class="lvl3"><a href="#godkjenning-av-skytebaner">Godkjenning av skytebaner</a></li>
+<li class="lvl5"><a href="#8-1-definisjon-av-skytebane">§ 8-1. Definisjon av skytebane</a></li>
+<li class="lvl5"><a href="#8-2-tekniske-krav-til-skytebane-og-kontroll">§ 8-2. Tekniske krav til skytebane og kontroll</a></li>
+<li class="lvl5"><a href="#8-3-krav-til-godkjenning-av-skytebane-mm">§ 8-3. Krav til godkjenning av skytebane m.m.</a></li>
+<li class="lvl5"><a href="#8-4-krav-til-eigar-av-skytebaner">§ 8-4. Krav til eigar av skytebaner</a></li>
+<li class="lvl5"><a href="#8-5-reglar-om-fritak-mm">§ 8-5. Reglar om fritak m.m.</a></li>
+<li class="lvl3"><a href="#godkjenning-av-skyttar-og-vapensamlarorganisasjonar-og-teknisk-skyteprogram">Godkjenning av skyttar- og våpensamlarorganisasjonar og teknisk skyteprogram</a></li>
+<li class="lvl5"><a href="#8-6-utfyllande-reglar-for-godkjenning-av-skyttarorganisasjon">§ 8-6. Utfyllande reglar for godkjenning av skyttarorganisasjon</a></li>
+<li class="lvl5"><a href="#8-7-godkjenning-av-skyteprogram-for-godkjente-skyttarorganisasjonar">§ 8-7. Godkjenning av skyteprogram for godkjente skyttarorganisasjonar</a></li>
+<li class="lvl5"><a href="#8-8-utfyllande-reglar-for-godkjenning-av-vapensamlarorganisasjonar">§ 8-8. Utfyllande reglar for godkjenning av våpensamlarorganisasjonar</a></li>
+<li class="lvl2"><a href="#kapittel-9-nringsverksemd-og-merking">Kapittel 9. Næringsverksemd og merking</a></li>
+<li class="lvl3"><a href="#handel">Handel</a></li>
+<li class="lvl5"><a href="#9-1-krav-til-lyve-for-a-drive-handel-mekling-eller-utleige-av-skytevapen-med-vidare">§ 9-1. Krav til løyve for å drive handel, mekling eller utleige av skytevåpen med vidare</a></li>
+<li class="lvl5"><a href="#9-2-krav-til-meldeplikt-for-skytevapen-med-vidare-som-ikkje-er-lyvepliktige">§ 9-2. Krav til meldeplikt for skytevåpen med vidare som ikkje er løyvepliktige</a></li>
+<li class="lvl5"><a href="#9-3-vilkar-for-lyve-til-a-drive-handel-mekling-eller-utleige-av-skytevapen-med-vidare">§ 9-3. Vilkår for løyve til å drive handel, mekling eller utleige av skytevåpen med vidare</a></li>
+<li class="lvl5"><a href="#9-4-sknad-om-og-utferding-av-lyve">§ 9-4. Søknad om og utferding av løyve</a></li>
+<li class="lvl3"><a href="#lyvehavar-sine-plikter">Løyvehavar sine plikter</a></li>
+<li class="lvl5"><a href="#9-5-utlevering-fra-lyvehavar">§ 9-5. Utlevering frå løyvehavar</a></li>
+<li class="lvl5"><a href="#9-6-krav-til-dokumentasjon-for-omsetnad-med-skytevapen-eller-vapendelar">§ 9-6. Krav til dokumentasjon for omsetnad med skytevåpen eller våpendelar</a></li>
+<li class="lvl5"><a href="#9-7-krav-til-dokumentasjon-for-omsetnad-med-vapenmagasin">§ 9-7. Krav til dokumentasjon for omsetnad med våpenmagasin</a></li>
+<li class="lvl5"><a href="#9-8-krav-til-dokumentasjon-for-omsetnad-med-ammunisjon">§ 9-8. Krav til dokumentasjon for omsetnad med ammunisjon</a></li>
+<li class="lvl5"><a href="#9-9-mellombels-oppbevaring-av-skytevapen-og-vapendelar">§ 9-9. Mellombels oppbevaring av skytevåpen og våpendelar</a></li>
+<li class="lvl3"><a href="#tilverking-reparasjon-og-deaktivering-av-skytevapen-og-vapendelar">Tilverking, reparasjon og deaktivering av skytevåpen og våpendelar</a></li>
+<li class="lvl5"><a href="#9-10-krav-til-lyve-for-a-drive-reparasjon-ombygging-eller-tilverking-av-skytevapen-eller-vapendelar">§ 9-10. Krav til løyve for å drive reparasjon, ombygging eller tilverking av skytevåpen eller våpendelar</a></li>
+<li class="lvl5"><a href="#9-11-krav-til-lyve-for-a-drive-tilverking-av-ammunisjon">§ 9-11. Krav til løyve for å drive tilverking av ammunisjon</a></li>
+<li class="lvl5"><a href="#9-12-vilkar-for-lyve">§ 9-12. Vilkår for løyve</a></li>
+<li class="lvl5"><a href="#9-13-sknad-om-og-utferding-av-lyve">§ 9-13. Søknad om og utferding av løyve</a></li>
+<li class="lvl5"><a href="#9-14-krav-ved-utlevering-og-til-dokumentasjon">§ 9-14. Krav ved utlevering og til dokumentasjon</a></li>
+<li class="lvl5"><a href="#9-15-mellombels-oppbevaring-av-skytevapen-og-vapendelar">§ 9-15. Mellombels oppbevaring av skytevåpen og våpendelar</a></li>
+<li class="lvl3"><a href="#merking">Merking</a></li>
+<li class="lvl5"><a href="#9-16-krav-til-merking-av-skytevapen-vapendelar-og-ammunisjon">§ 9-16. Krav til merking av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">Kapittel 10. Inn- og utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-1-kva-skytevapen-som-omfattast-av-kravet-til-lyve-for-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-1. Kva skytevåpen som omfattast av kravet til løyve for inn- og utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-2-sknad-om-og-utferding-av-lyve-for-innfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-2. Søknad om og utferding av løyve for innførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-3-lyve-for-ervervsmessig-innfrsel">§ 10-3. Løyve for ervervsmessig innførsel</a></li>
+<li class="lvl4"><a href="#10-4-tolletaten-sin-handsamling">§ 10-4. Tolletaten sin handsamling</a></li>
+<li class="lvl4"><a href="#10-5-attlagde-gjenstandar">§ 10-5. Attlagde gjenstandar</a></li>
+<li class="lvl4"><a href="#10-6-krav-til-rapportering">§ 10-6. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#ikkje-ervervsmessig-innfrsel">Ikkje-ervervsmessig innførsel</a></li>
+<li class="lvl5"><a href="#10-7-lyve-for-ikkje-ervervsmessig-innfrsel">§ 10-7. Løyve for ikkje-ervervsmessig innførsel</a></li>
+<li class="lvl5"><a href="#10-8-tolletaten-sin-handsaming">§ 10-8. Tolletaten sin handsaming</a></li>
+<li class="lvl5"><a href="#10-9-krav-til-rapportering">§ 10-9. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#utfrsel">Utførsel</a></li>
+<li class="lvl5"><a href="#10-10-lyve-til-utfrsel-for-privatpersonar">§ 10-10. Løyve til utførsel for privatpersonar</a></li>
+<li class="lvl5"><a href="#10-11-lyve-til-utfrsel-for-nringsdrivande">§ 10-11. Løyve til utførsel for næringsdrivande</a></li>
+<li class="lvl5"><a href="#10-12-tolletaten-sin-handsaming">§ 10-12. Tolletaten sin handsaming</a></li>
+<li class="lvl5"><a href="#10-13-krav-til-rapportering">§ 10-13. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#mellombels-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon-utferding-av-europeisk-vapenpass">Mellombels inn- og utførsel av skytevåpen, våpendelar og ammunisjon, utferding av europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-14-mellombels-innfrsel-utan-europeisk-vapenpass">§ 10-14. Mellombels innførsel utan europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-15-mellombels-innfrsel-med-europeisk-vapenpass">§ 10-15. Mellombels innførsel med europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-16-mellombels-innfrsel-av-skytevapen-vapendelar-og-ammunisjon-i-samband-med-tryggingsoppdrag">§ 10-16. Mellombels innførsel av skytevåpen, våpendelar og ammunisjon i samband med tryggingsoppdrag</a></li>
+<li class="lvl5"><a href="#10-17-mellombels-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-17. Mellombels utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl5"><a href="#10-18-mellombels-utfrsel-av-skytevapen-vapendelar-og-ammunisjon-i-samband-med-fangstekspedisjon">§ 10-18. Mellombels utførsel av skytevåpen, våpendelar og ammunisjon i samband med fangstekspedisjon</a></li>
+<li class="lvl2"><a href="#kapittel-11-forvalting-kontroll-og-tilbakekall-av-vapenlyve">Kapittel 11. Forvalting, kontroll og tilbakekall av våpenløyve</a></li>
+<li class="lvl3"><a href="#forvalting">Forvalting</a></li>
+<li class="lvl5"><a href="#11-1-utferding-av-vapenkort">§ 11-1. Utferding av våpenkort</a></li>
+<li class="lvl5"><a href="#11-2-melding-om-tap-av-vapenkort-og-dokumentasjon-pa-lovleg-deaktivering">§ 11-2. Melding om tap av våpenkort og dokumentasjon på lovleg deaktivering</a></li>
+<li class="lvl3"><a href="#kontroll-av-lyve-med-vidare">Kontroll av løyve med vidare</a></li>
+<li class="lvl5"><a href="#11-3-kontroll-med-vapenlyve-for-sportsskyttarar-med-srskilt-lyve">§ 11-3. Kontroll med våpenløyve for sportsskyttarar med særskilt løyve</a></li>
+<li class="lvl5"><a href="#11-4-kontroll-med-vapensamlarar">§ 11-4. Kontroll med våpensamlarar</a></li>
+<li class="lvl5"><a href="#11-5-kontroll-av-nringsverksemd-med-skytevapen-vapendelar-eller-ammunisjon">§ 11-5. Kontroll av næringsverksemd med skytevåpen, våpendelar eller ammunisjon</a></li>
+<li class="lvl5"><a href="#11-6-kontroll-med-oppbevaring-i-privat-bustad">§ 11-6. Kontroll med oppbevaring i privat bustad</a></li>
+<li class="lvl5"><a href="#11-7-kontroll-med-vapenansvarleg">§ 11-7. Kontroll med våpenansvarleg</a></li>
+<li class="lvl5"><a href="#11-8-kontroll-med-vapenlyve-for-tilsette-i-politiet-eller-forsvaret">§ 11-8. Kontroll med våpenløyve for tilsette i politiet eller Forsvaret</a></li>
+<li class="lvl3"><a href="#tilbakekall-av-lyve-innlevering-av-vapenkort-og-klage">Tilbakekall av løyve, innlevering av våpenkort og klage</a></li>
+<li class="lvl5"><a href="#11-9-frist-ved-mellombels-innlevering">§ 11-9. Frist ved mellombels innlevering</a></li>
+<li class="lvl5"><a href="#11-10-tilbakekall-av-lyve-for-sportsskyttarar-med-srskilt-lyve">§ 11-10. Tilbakekall av løyve for sportsskyttarar med særskilt løyve</a></li>
+<li class="lvl5"><a href="#11-11-tilbakekall-av-lyve-til-a-drive-handelsverksemd-med-liten-omsetnad">§ 11-11. Tilbakekall av løyve til å drive handelsverksemd med liten omsetnad</a></li>
+<li class="lvl5"><a href="#11-12-innlevering-av-vapenkort">§ 11-12. Innlevering av våpenkort</a></li>
+<li class="lvl5"><a href="#11-13-sakshandsaming-og-klage-over-politiet-sitt-vedtak">§ 11-13. Sakshandsaming og klage over politiet sitt vedtak</a></li>
+<li class="lvl3"><a href="#europeisk-vapenpass">Europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#11-14-utferding-av-europeisk-vapenpass-med-vidare">§ 11-14. Utferding av europeisk våpenpass med vidare</a></li>
+<li class="lvl3"><a href="#unnatak-fra-teieplikta">Unnatak frå teieplikta</a></li>
+<li class="lvl5"><a href="#11-15-systematisk-elektronisk-utveksling-av-opplysingar-om-avslag-pa-sknad-om-lyve-og-tilbakekall-av-lyve">§ 11-15. Systematisk elektronisk utveksling av opplysingar om avslag på søknad om løyve og tilbakekall av løyve</a></li>
+<li class="lvl2"><a href="#kapittel-12-deaktivering-og-gebyr">Kapittel 12. Deaktivering og gebyr</a></li>
+<li class="lvl3"><a href="#deaktivering">Deaktivering</a></li>
+<li class="lvl5"><a href="#12-1-deaktivering-av-skytevapen">§ 12-1. Deaktivering av skytevåpen</a></li>
+<li class="lvl3"><a href="#gebyr">Gebyr</a></li>
+<li class="lvl5"><a href="#12-2-gebyr-for-sknad-om-lyve-eller-godkjenningar">§ 12-2. Gebyr for søknad om løyve eller godkjenningar</a></li>
+<li class="lvl5"><a href="#12-3-frafall-av-gebyr">§ 12-3. Fråfall av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-13-det-sentrale-vapenregisteret">Kapittel 13. Det sentrale våpenregisteret</a></li>
+<li class="lvl4"><a href="#13-1-handsamingsansvar">§ 13-1. Handsamingsansvar</a></li>
+<li class="lvl4"><a href="#13-2-opplysningar-som-kan-registrerast">§ 13-2. Opplysningar som kan registrerast</a></li>
+<li class="lvl4"><a href="#13-3-tilgang-atgang-til-direkte-sk">§ 13-3. Tilgang (åtgang til direkte søk)</a></li>
+<li class="lvl4"><a href="#13-4-utlevering">§ 13-4. Utlevering</a></li>
+<li class="lvl4"><a href="#13-5-innsyn-retting-og-avgrensing">§ 13-5. Innsyn, retting og avgrensing</a></li>
+<li class="lvl4"><a href="#13-6-sletting">§ 13-6. Sletting</a></li>
+<li class="lvl4"><a href="#13-7-sakshandsaminga-ved-krav-om-innsyn-retting-avgrensing-og-sletting">§ 13-7. Sakshandsaminga ved krav om innsyn, retting, avgrensing og sletting</a></li>
+<li class="lvl4"><a href="#13-8-internkontroll-og-informasjonstryggleik">§ 13-8. Internkontroll og informasjonstryggleik</a></li>
+<li class="lvl2"><a href="#kapittel-14-overgangsreglar-og-ikraftsetjing">Kapittel 14. overgangsreglar og ikraftsetjing</a></li>
+<li class="lvl4"><a href="#14-1-overgangsreglar">§ 14-1. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#14-2-ikraftsetjing">§ 14-2. Ikraftsetjing</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-07-02-1501.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-07-1452.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om våpen, skytevåpen, våpendelar og ammunisjon (våpenforskrifta)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-05-07-1452.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2021-05-07-1452 <code>forskrift/2021-05-07-1452</code></td></tr>
+<tr><th>Korttittel</th><td>Våpenforskrifta</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-07-02-1501 <code>forskrift/2026-07-02-1501</code> fra 02.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2021-05-07-1452" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-definisjonar-sakleg-og-stadleg-verkeomrade">Kapittel 1. Definisjonar, sakleg og stadleg verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-definisjonar">§ 1-1. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-2-klassifisering-av-skytevapen">§ 1-2. Klassifisering av skytevåpen</a></li>
+<li class="lvl4"><a href="#1-3-skytevapen-sine-funksjoneringsmatar">§ 1-3. Skytevåpen sine funksjoneringsmåtar</a></li>
+<li class="lvl4"><a href="#1-4-maling-av-skytevapenet-sin-totallengde-og-pipelengde">§ 1-4. Måling av skytevåpenet sin totallengde og pipelengde</a></li>
+<li class="lvl4"><a href="#1-5-skytevapen-vapendelar-og-ammunisjon-som-er-unnateke-fra-vapenlova-sitt-verkeomrade">§ 1-5. Skytevåpen, våpendelar og ammunisjon som er unnateke frå våpenlova sitt verkeområde</a></li>
+<li class="lvl4"><a href="#1-6-tilhvet-til-brann-og-eksplosjonsvernlova">§ 1-6. Tilhøvet til brann- og eksplosjonsvernlova</a></li>
+<li class="lvl4"><a href="#1-7-vapenlova-sitt-verkeomrade-ovanfor-offentlege-etatar">§ 1-7. Våpenlova sitt verkeområde ovanfor offentlege etatar</a></li>
+<li class="lvl4"><a href="#1-8-vapenlova-sitt-verkeomrade-pa-svalbard">§ 1-8. Våpenlova sitt verkeområde på Svalbard</a></li>
+<li class="lvl2"><a href="#kapittel-2-lyve-og-meldeplikt-for-skytevapen-vapendelar-og-ammunisjon">Kapittel 2. Løyve- og meldeplikt for skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#2-1-krav-om-lyve">§ 2-1. Krav om løyve</a></li>
+<li class="lvl4"><a href="#2-2-lyvepliktige-endringar-i-skytevapen">§ 2-2. Løyvepliktige endringar i skytevåpen</a></li>
+<li class="lvl4"><a href="#2-3-skytevapen-som-er-fritekne-fra-lyveplikt">§ 2-3. Skytevåpen som er fritekne frå løyveplikt</a></li>
+<li class="lvl4"><a href="#2-4-vapendelar-som-er-underlagt-lyve-eller-meldeplikt">§ 2-4. Våpendelar som er underlagt løyve- eller meldeplikt</a></li>
+<li class="lvl4"><a href="#2-5-krav-til-lyve-for-erverv-av-vapenmagasin-med-stor-patronkapasitet">§ 2-5. Krav til løyve for erverv av våpenmagasin med stor patronkapasitet</a></li>
+<li class="lvl4"><a href="#2-6-ammunisjon-som-er-friteke-fra-lyveplikt">§ 2-6. Ammunisjon som er friteke frå løyveplikt</a></li>
+<li class="lvl4"><a href="#2-7-lengda-pa-eit-ervervslyve">§ 2-7. Lengda på eit ervervsløyve</a></li>
+<li class="lvl4"><a href="#2-8-registreringsplikt-for-skytevapen-og-vapendelar">§ 2-8. Registreringsplikt for skytevåpen og våpendelar</a></li>
+<li class="lvl2"><a href="#kapittel-3-vapentypar-vapendelar-og-ammunisjon-det-ikkje-kan-gjevast-lyve-for">Kapittel 3. Våpentypar, våpendelar og ammunisjon det ikkje kan gjevast løyve for</a></li>
+<li class="lvl4"><a href="#3-1-felles-fresegner-for-alle-vapentypar">§ 3-1. Felles føresegner for alle våpentypar</a></li>
+<li class="lvl4"><a href="#3-2-rifler">§ 3-2. Rifler</a></li>
+<li class="lvl4"><a href="#3-3-hagle-eller-kombinasjonsvapen">§ 3-3. Hagle- eller kombinasjonsvåpen</a></li>
+<li class="lvl4"><a href="#3-4-halvautomatiske-pistolar">§ 3-4. Halvautomatiske pistolar</a></li>
+<li class="lvl4"><a href="#3-5-vapendelar-og-ammunisjon">§ 3-5. Våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#3-6-ikkje-tillatne-gjenstandar-som-ikkje-reknast-som-skytevapen">§ 3-6. Ikkje tillatne gjenstandar som ikkje reknast som skytevåpen</a></li>
+<li class="lvl2"><a href="#kapittel-4-erverv-av-skytevapen-vapendelar-og-ammunisjon-til-jakt-sportsskyting-og-samling">Kapittel 4. Erverv av skytevåpen, våpendelar og ammunisjon til jakt, sportsskyting og samling</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-og-vapendelar-til-jakt">Erverv av skytevåpen og våpendelar til jakt</a></li>
+<li class="lvl5"><a href="#4-1-halvautomatiske-rifler-til-jakt">§ 4-1. Halvautomatiske rifler til jakt</a></li>
+<li class="lvl5"><a href="#4-2-erverv-av-meir-enn-atte-skytevapen-til-jaktbruk">§ 4-2. Erverv av meir enn åtte skytevåpen til jaktbruk</a></li>
+<li class="lvl5"><a href="#4-3-unnatak-fra-kravet-om-innfring-i-jegerregisteret">§ 4-3. Unnatak frå kravet om innføring i Jegerregisteret</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-og-vapendelar-til-sportsskyting">Erverv av skytevåpen og våpendelar til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-4-rifler-til-sportsskyting-og-vapenmagasin-med-stor-patronkapasitet">§ 4-4. Rifler til sportsskyting og våpenmagasin med stor patronkapasitet</a></li>
+<li class="lvl5"><a href="#4-5-rifler-med-enkeltskot-eller-manuell-omlading-haglevapen-pistolar-og-revolverar-til-sportsskyting">§ 4-5. Rifler med enkeltskot eller manuell omlading, haglevåpen, pistolar og revolverar til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-6-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-pistolar-eller-revolver-til-sportsskyting">§ 4-6. Krav til medlemskap, aktivitet og opplæring for erverv av pistolar eller revolver til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-7-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-rifle-eller-haglevapen-til-sportsskyting">§ 4-7. Krav til medlemskap, aktivitet og opplæring for erverv av rifle eller haglevåpen til sportsskyting</a></li>
+<li class="lvl5"><a href="#4-8-kor-mange-skytevapen-som-kan-ervervast-til-sportsskyting">§ 4-8. Kor mange skytevåpen som kan ervervast til sportsskyting</a></li>
+<li class="lvl3"><a href="#erverv-av-skytevapen-vapendelar-og-ammunisjon-til-samling">Erverv av skytevåpen, våpendelar og ammunisjon til samling</a></li>
+<li class="lvl5"><a href="#4-9-krav-til-samlaromrade">§ 4-9. Krav til samlarområde</a></li>
+<li class="lvl5"><a href="#4-10-krav-til-vapendugleik-for-godkjenning-som-vapensamlar">§ 4-10. Krav til våpendugleik for godkjenning som våpensamlar</a></li>
+<li class="lvl5"><a href="#4-11-talet-pa-lyvepliktige-skytevapen-og-vapendelar-som-kan-ervervast-til-samling">§ 4-11. Talet på løyvepliktige skytevåpen og våpendelar som kan ervervast til samling</a></li>
+<li class="lvl5"><a href="#4-12-srreglar-for-einskilde-vapentypar">§ 4-12. Særreglar for einskilde våpentypar</a></li>
+<li class="lvl5"><a href="#4-13-test-og-demonstrasjonsskyting-med-samlarvapen">§ 4-13. Test og demonstrasjonsskyting med samlarvåpen</a></li>
+<li class="lvl5"><a href="#4-14-ammunisjonssamling">§ 4-14. Ammunisjonssamling</a></li>
+<li class="lvl2"><a href="#kapittel-5-andre-ervervsgrunnlag">Kapittel 5. Andre ervervsgrunnlag</a></li>
+<li class="lvl4"><a href="#5-1-erverv-og-innehav-av-skytevapen-og-vapendelar-som-skal-brukast-av-andre">§ 5-1. Erverv og innehav av skytevåpen og våpendelar som skal brukast av andre</a></li>
+<li class="lvl4"><a href="#5-2-erverv-og-innehav-av-skytevapen-vapendelar-og-ammunisjon-for-godkjente-skyttarforeiningar">§ 5-2. Erverv og innehav av skytevåpen, våpendelar og ammunisjon for godkjente skyttarforeiningar</a></li>
+<li class="lvl4"><a href="#5-3-erverv-og-innehav-av-skytevapen-for-avliving-og-immobilisering-av-dyr">§ 5-3. Erverv og innehav av skytevåpen for avliving og immobilisering av dyr</a></li>
+<li class="lvl4"><a href="#5-4-erverv-og-innehav-av-skytevapen-pa-grunnlag-av-arv-eller-minneverde">§ 5-4. Erverv og innehav av skytevåpen på grunnlag av arv eller minneverde</a></li>
+<li class="lvl4"><a href="#5-5-erverv-av-replika-luft-og-fjrvapen">§ 5-5. Erverv av replika-, luft- og fjørvåpen</a></li>
+<li class="lvl4"><a href="#5-6-erverv-til-museumsfremal">§ 5-6. Erverv til museumsføremål</a></li>
+<li class="lvl4"><a href="#5-7-erverv-og-innehav-av-skytevapen-til-vern-mot-atak-fra-isbjrn">§ 5-7. Erverv og innehav av skytevåpen til vern mot åtak frå isbjørn</a></li>
+<li class="lvl4"><a href="#5-8-erverv-til-vern-mot-atak">§ 5-8. Erverv til vern mot åtak</a></li>
+<li class="lvl4"><a href="#5-9-erverv-og-innehav-til-skytevapen-til-nringsdrivande-for-testing-og-utvikling-av-ammunisjon">§ 5-9. Erverv og innehav til skytevåpen til næringsdrivande for testing og utvikling av ammunisjon</a></li>
+<li class="lvl4"><a href="#5-10-erverv-av-vapen-som-ikkje-reknast-som-skytevapen">§ 5-10. Erverv av våpen som ikkje reknast som skytevåpen</a></li>
+<li class="lvl4"><a href="#5-11-erverv-av-skytevapen-og-vapendelar-for-tilsette-i-politiet-og-forsvaret">§ 5-11. Erverv av skytevåpen og våpendelar for tilsette i politiet og Forsvaret</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppbevaring-transport-og-sending-av-skytevapen-vapendelar-og-ammunisjon">Kapittel 6. Oppbevaring, transport og sending av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#6-1-krav-til-tryggleik-for-privatpersonar-som-oppbevarer-skytevapen">§ 6-1. Krav til tryggleik for privatpersonar som oppbevarer skytevåpen</a></li>
+<li class="lvl4"><a href="#6-2-oppbevaring-pa-annan-bustad-med-vidare">§ 6-2. Oppbevaring på annan bustad med vidare</a></li>
+<li class="lvl4"><a href="#6-3-krav-til-tryggleik-for-oppbevaring-av-ammunisjon-hos-privatpersonar">§ 6-3. Krav til tryggleik for oppbevaring av ammunisjon hos privatpersonar</a></li>
+<li class="lvl4"><a href="#6-4-krav-til-tryggleik-for-oppbevaring-av-skytevapen-vapendelar-eller-ammunisjon-hos-juridiske-personar">§ 6-4. Krav til tryggleik for oppbevaring av skytevåpen, våpendelar eller ammunisjon hos juridiske personar</a></li>
+<li class="lvl4"><a href="#6-5-krav-til-tryggleik-for-oppbevaring-av-skytevapen-vapendelar-og-ammunisjon-hos-nringsdrivande-med-lyve-etter-vapenlova-23">§ 6-5. Krav til tryggleik for oppbevaring av skytevåpen, våpendelar og ammunisjon hos næringsdrivande med løyve etter våpenlova § 23</a></li>
+<li class="lvl4"><a href="#6-6-krav-til-oppbevaring-av-skytevapen-og-ammunisjon-som-ikkje-er-lyvepliktige">§ 6-6. Krav til oppbevaring av skytevåpen og ammunisjon som ikkje er løyvepliktige</a></li>
+<li class="lvl4"><a href="#6-7-krav-til-transport-og-sending-av-skytevapen-og-ammunisjon">§ 6-7. Krav til transport og sending av skytevåpen og ammunisjon</a></li>
+<li class="lvl4"><a href="#6-8-krav-til-mellombels-oppbevaring-av-skytevapen-og-ammunisjon">§ 6-8. Krav til mellombels oppbevaring av skytevåpen og ammunisjon</a></li>
+<li class="lvl3"><a href="#utlan-og-overlating-av-skytevapen-vapendelar-og-ammunisjon">Utlån og overlating av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl5"><a href="#6-9-krav-til-utferding-av-frasegn-ved-utlan-av-skytevapen-og-vapendelar">§ 6-9. Krav til utferding av fråsegn ved utlån av skytevåpen og våpendelar</a></li>
+<li class="lvl5"><a href="#6-10-krav-til-utferding-av-lister-over-lan-for-juridiske-personar">§ 6-10. Krav til utferding av lister over lån for juridiske personar</a></li>
+<li class="lvl5"><a href="#6-11-utlan-av-skytevapen-til-vern-mot-isbjrnatak">§ 6-11. Utlån av skytevåpen til vern mot isbjørnåtak</a></li>
+<li class="lvl2"><a href="#kapittel-7-krav-til-alder-og-personlege-eigenskapar-for-a-kunne-erverve-og-ha-skytevapen-vapendelar-og-ammunisjon">Kapittel 7. Krav til alder og personlege eigenskapar for å kunne erverve og ha skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#7-1-vilkar-for-fritak-fra-alderskravet-pa-18-ar-for-erverv-og-innehav-av-haglevapen-kombinasjonsvapen-og-rifler">§ 7-1. Vilkår for fritak frå alderskravet på 18 år for erverv og innehav av haglevåpen, kombinasjonsvåpen og rifler</a></li>
+<li class="lvl4"><a href="#7-2-vilkar-for-fritak-fra-alderskravet-pa-21-ar-for-erverv-og-innehav-av-pistol-eller-revolver">§ 7-2. Vilkår for fritak frå alderskravet på 21 år for erverv og innehav av pistol eller revolver.</a></li>
+<li class="lvl4"><a href="#7-3-aldersgrense-for-erverv-og-innehav-av-nrare-bestemte-vapen-som-ikkje-reknast-som-skytevapen">§ 7-3. Aldersgrense for erverv og innehav av nærare bestemte våpen som ikkje reknast som skytevåpen</a></li>
+<li class="lvl3"><a href="#krav-til-personlege-eigenskapar">Krav til personlege eigenskapar</a></li>
+<li class="lvl5"><a href="#7-4-reglar-om-krav-til-vandel-for-fysiske-personar">§ 7-4. Reglar om krav til vandel for fysiske personar</a></li>
+<li class="lvl5"><a href="#7-5-reglar-om-krav-til-vandel-for-juridiske-personar">§ 7-5. Reglar om krav til vandel for juridiske personar</a></li>
+<li class="lvl5"><a href="#7-6-utfyllande-fresegner-for-skikkavurderinga">§ 7-6. Utfyllande føresegner for skikkavurderinga</a></li>
+<li class="lvl5"><a href="#7-7-krav-til-butid">§ 7-7. Krav til butid</a></li>
+<li class="lvl2"><a href="#kapittel-8-godkjenning-av-skytebaner-godkjenning-av-vapenorganisasjonar-og-teknisk-program">Kapittel 8. Godkjenning av skytebaner, godkjenning av våpenorganisasjonar og teknisk program</a></li>
+<li class="lvl3"><a href="#godkjenning-av-skytebaner">Godkjenning av skytebaner</a></li>
+<li class="lvl5"><a href="#8-1-definisjon-av-skytebane">§ 8-1. Definisjon av skytebane</a></li>
+<li class="lvl5"><a href="#8-2-tekniske-krav-til-skytebane-og-kontroll">§ 8-2. Tekniske krav til skytebane og kontroll</a></li>
+<li class="lvl5"><a href="#8-3-krav-til-godkjenning-av-skytebane-mm">§ 8-3. Krav til godkjenning av skytebane m.m.</a></li>
+<li class="lvl5"><a href="#8-4-krav-til-eigar-av-skytebaner">§ 8-4. Krav til eigar av skytebaner</a></li>
+<li class="lvl5"><a href="#8-5-reglar-om-fritak-mm">§ 8-5. Reglar om fritak m.m.</a></li>
+<li class="lvl3"><a href="#godkjenning-av-skyttar-og-vapensamlarorganisasjonar-og-teknisk-skyteprogram">Godkjenning av skyttar- og våpensamlarorganisasjonar og teknisk skyteprogram</a></li>
+<li class="lvl5"><a href="#8-6-utfyllande-reglar-for-godkjenning-av-skyttarorganisasjon">§ 8-6. Utfyllande reglar for godkjenning av skyttarorganisasjon</a></li>
+<li class="lvl5"><a href="#8-7-godkjenning-av-skyteprogram-for-godkjente-skyttarorganisasjonar">§ 8-7. Godkjenning av skyteprogram for godkjente skyttarorganisasjonar</a></li>
+<li class="lvl5"><a href="#8-8-utfyllande-reglar-for-godkjenning-av-vapensamlarorganisasjonar">§ 8-8. Utfyllande reglar for godkjenning av våpensamlarorganisasjonar</a></li>
+<li class="lvl2"><a href="#kapittel-9-nringsverksemd-og-merking">Kapittel 9. Næringsverksemd og merking</a></li>
+<li class="lvl3"><a href="#handel">Handel</a></li>
+<li class="lvl5"><a href="#9-1-krav-til-lyve-for-a-drive-handel-mekling-eller-utleige-av-skytevapen-med-vidare">§ 9-1. Krav til løyve for å drive handel, mekling eller utleige av skytevåpen med vidare</a></li>
+<li class="lvl5"><a href="#9-2-krav-til-meldeplikt-for-skytevapen-med-vidare-som-ikkje-er-lyvepliktige">§ 9-2. Krav til meldeplikt for skytevåpen med vidare som ikkje er løyvepliktige</a></li>
+<li class="lvl5"><a href="#9-3-vilkar-for-lyve-til-a-drive-handel-mekling-eller-utleige-av-skytevapen-med-vidare">§ 9-3. Vilkår for løyve til å drive handel, mekling eller utleige av skytevåpen med vidare</a></li>
+<li class="lvl5"><a href="#9-4-sknad-om-og-utferding-av-lyve">§ 9-4. Søknad om og utferding av løyve</a></li>
+<li class="lvl3"><a href="#lyvehavar-sine-plikter">Løyvehavar sine plikter</a></li>
+<li class="lvl5"><a href="#9-5-utlevering-fra-lyvehavar">§ 9-5. Utlevering frå løyvehavar</a></li>
+<li class="lvl5"><a href="#9-6-krav-til-dokumentasjon-for-omsetnad-med-skytevapen-eller-vapendelar">§ 9-6. Krav til dokumentasjon for omsetnad med skytevåpen eller våpendelar</a></li>
+<li class="lvl5"><a href="#9-7-krav-til-dokumentasjon-for-omsetnad-med-vapenmagasin">§ 9-7. Krav til dokumentasjon for omsetnad med våpenmagasin</a></li>
+<li class="lvl5"><a href="#9-8-krav-til-dokumentasjon-for-omsetnad-med-ammunisjon">§ 9-8. Krav til dokumentasjon for omsetnad med ammunisjon</a></li>
+<li class="lvl5"><a href="#9-9-mellombels-oppbevaring-av-skytevapen-og-vapendelar">§ 9-9. Mellombels oppbevaring av skytevåpen og våpendelar</a></li>
+<li class="lvl3"><a href="#tilverking-reparasjon-og-deaktivering-av-skytevapen-og-vapendelar">Tilverking, reparasjon og deaktivering av skytevåpen og våpendelar</a></li>
+<li class="lvl5"><a href="#9-10-krav-til-lyve-for-a-drive-reparasjon-ombygging-eller-tilverking-av-skytevapen-eller-vapendelar">§ 9-10. Krav til løyve for å drive reparasjon, ombygging eller tilverking av skytevåpen eller våpendelar</a></li>
+<li class="lvl5"><a href="#9-11-krav-til-lyve-for-a-drive-tilverking-av-ammunisjon">§ 9-11. Krav til løyve for å drive tilverking av ammunisjon</a></li>
+<li class="lvl5"><a href="#9-12-vilkar-for-lyve">§ 9-12. Vilkår for løyve</a></li>
+<li class="lvl5"><a href="#9-13-sknad-om-og-utferding-av-lyve">§ 9-13. Søknad om og utferding av løyve</a></li>
+<li class="lvl5"><a href="#9-14-krav-ved-utlevering-og-til-dokumentasjon">§ 9-14. Krav ved utlevering og til dokumentasjon</a></li>
+<li class="lvl5"><a href="#9-15-mellombels-oppbevaring-av-skytevapen-og-vapendelar">§ 9-15. Mellombels oppbevaring av skytevåpen og våpendelar</a></li>
+<li class="lvl3"><a href="#merking">Merking</a></li>
+<li class="lvl5"><a href="#9-16-krav-til-merking-av-skytevapen-vapendelar-og-ammunisjon">§ 9-16. Krav til merking av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">Kapittel 10. Inn- og utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-1-kva-skytevapen-som-omfattast-av-kravet-til-lyve-for-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-1. Kva skytevåpen som omfattast av kravet til løyve for inn- og utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-2-sknad-om-og-utferding-av-lyve-for-innfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-2. Søknad om og utferding av løyve for innførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl4"><a href="#10-3-lyve-for-ervervsmessig-innfrsel">§ 10-3. Løyve for ervervsmessig innførsel</a></li>
+<li class="lvl4"><a href="#10-4-tolletaten-sin-handsamling">§ 10-4. Tolletaten sin handsamling</a></li>
+<li class="lvl4"><a href="#10-5-attlagde-gjenstandar">§ 10-5. Attlagde gjenstandar</a></li>
+<li class="lvl4"><a href="#10-6-krav-til-rapportering">§ 10-6. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#ikkje-ervervsmessig-innfrsel">Ikkje-ervervsmessig innførsel</a></li>
+<li class="lvl5"><a href="#10-7-lyve-for-ikkje-ervervsmessig-innfrsel">§ 10-7. Løyve for ikkje-ervervsmessig innførsel</a></li>
+<li class="lvl5"><a href="#10-8-tolletaten-sin-handsaming">§ 10-8. Tolletaten sin handsaming</a></li>
+<li class="lvl5"><a href="#10-9-krav-til-rapportering">§ 10-9. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#utfrsel">Utførsel</a></li>
+<li class="lvl5"><a href="#10-10-lyve-til-utfrsel-for-privatpersonar">§ 10-10. Løyve til utførsel for privatpersonar</a></li>
+<li class="lvl5"><a href="#10-11-lyve-til-utfrsel-for-nringsdrivande">§ 10-11. Løyve til utførsel for næringsdrivande</a></li>
+<li class="lvl5"><a href="#10-12-tolletaten-sin-handsaming">§ 10-12. Tolletaten sin handsaming</a></li>
+<li class="lvl5"><a href="#10-13-krav-til-rapportering">§ 10-13. Krav til rapportering</a></li>
+<li class="lvl3"><a href="#mellombels-inn-og-utfrsel-av-skytevapen-vapendelar-og-ammunisjon-utferding-av-europeisk-vapenpass">Mellombels inn- og utførsel av skytevåpen, våpendelar og ammunisjon, utferding av europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-14-mellombels-innfrsel-utan-europeisk-vapenpass">§ 10-14. Mellombels innførsel utan europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-15-mellombels-innfrsel-med-europeisk-vapenpass">§ 10-15. Mellombels innførsel med europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#10-16-mellombels-innfrsel-av-skytevapen-vapendelar-og-ammunisjon-i-samband-med-tryggingsoppdrag">§ 10-16. Mellombels innførsel av skytevåpen, våpendelar og ammunisjon i samband med tryggingsoppdrag</a></li>
+<li class="lvl5"><a href="#10-17-mellombels-utfrsel-av-skytevapen-vapendelar-og-ammunisjon">§ 10-17. Mellombels utførsel av skytevåpen, våpendelar og ammunisjon</a></li>
+<li class="lvl5"><a href="#10-18-mellombels-utfrsel-av-skytevapen-vapendelar-og-ammunisjon-i-samband-med-fangstekspedisjon">§ 10-18. Mellombels utførsel av skytevåpen, våpendelar og ammunisjon i samband med fangstekspedisjon</a></li>
+<li class="lvl2"><a href="#kapittel-11-forvalting-kontroll-og-tilbakekall-av-vapenlyve">Kapittel 11. Forvalting, kontroll og tilbakekall av våpenløyve</a></li>
+<li class="lvl3"><a href="#forvalting">Forvalting</a></li>
+<li class="lvl5"><a href="#11-1-utferding-av-vapenkort">§ 11-1. Utferding av våpenkort</a></li>
+<li class="lvl5"><a href="#11-2-melding-om-tap-av-vapenkort-og-dokumentasjon-pa-lovleg-deaktivering">§ 11-2. Melding om tap av våpenkort og dokumentasjon på lovleg deaktivering</a></li>
+<li class="lvl3"><a href="#kontroll-av-lyve-med-vidare">Kontroll av løyve med vidare</a></li>
+<li class="lvl5"><a href="#11-3-kontroll-med-vapenlyve-for-sportsskyttarar-med-srskilt-lyve">§ 11-3. Kontroll med våpenløyve for sportsskyttarar med særskilt løyve</a></li>
+<li class="lvl5"><a href="#11-4-kontroll-med-vapensamlarar">§ 11-4. Kontroll med våpensamlarar</a></li>
+<li class="lvl5"><a href="#11-5-kontroll-av-nringsverksemd-med-skytevapen-vapendelar-eller-ammunisjon">§ 11-5. Kontroll av næringsverksemd med skytevåpen, våpendelar eller ammunisjon</a></li>
+<li class="lvl5"><a href="#11-6-kontroll-med-oppbevaring-i-privat-bustad">§ 11-6. Kontroll med oppbevaring i privat bustad</a></li>
+<li class="lvl5"><a href="#11-7-kontroll-med-vapenansvarleg">§ 11-7. Kontroll med våpenansvarleg</a></li>
+<li class="lvl5"><a href="#11-8-kontroll-med-vapenlyve-for-tilsette-i-politiet-eller-forsvaret">§ 11-8. Kontroll med våpenløyve for tilsette i politiet eller Forsvaret</a></li>
+<li class="lvl3"><a href="#tilbakekall-av-lyve-innlevering-av-vapenkort-og-klage">Tilbakekall av løyve, innlevering av våpenkort og klage</a></li>
+<li class="lvl5"><a href="#11-9-frist-ved-mellombels-innlevering">§ 11-9. Frist ved mellombels innlevering</a></li>
+<li class="lvl5"><a href="#11-10-tilbakekall-av-lyve-for-sportsskyttarar-med-srskilt-lyve">§ 11-10. Tilbakekall av løyve for sportsskyttarar med særskilt løyve</a></li>
+<li class="lvl5"><a href="#11-11-tilbakekall-av-lyve-til-a-drive-handelsverksemd-med-liten-omsetnad">§ 11-11. Tilbakekall av løyve til å drive handelsverksemd med liten omsetnad</a></li>
+<li class="lvl5"><a href="#11-12-innlevering-av-vapenkort">§ 11-12. Innlevering av våpenkort</a></li>
+<li class="lvl5"><a href="#11-13-sakshandsaming-og-klage-over-politiet-sitt-vedtak">§ 11-13. Sakshandsaming og klage over politiet sitt vedtak</a></li>
+<li class="lvl3"><a href="#europeisk-vapenpass">Europeisk våpenpass</a></li>
+<li class="lvl5"><a href="#11-14-utferding-av-europeisk-vapenpass-med-vidare">§ 11-14. Utferding av europeisk våpenpass med vidare</a></li>
+<li class="lvl3"><a href="#unnatak-fra-teieplikta">Unnatak frå teieplikta</a></li>
+<li class="lvl5"><a href="#11-15-systematisk-elektronisk-utveksling-av-opplysingar-om-avslag-pa-sknad-om-lyve-og-tilbakekall-av-lyve">§ 11-15. Systematisk elektronisk utveksling av opplysingar om avslag på søknad om løyve og tilbakekall av løyve</a></li>
+<li class="lvl2"><a href="#kapittel-12-deaktivering-og-gebyr">Kapittel 12. Deaktivering og gebyr</a></li>
+<li class="lvl3"><a href="#deaktivering">Deaktivering</a></li>
+<li class="lvl5"><a href="#12-1-deaktivering-av-skytevapen">§ 12-1. Deaktivering av skytevåpen</a></li>
+<li class="lvl3"><a href="#gebyr">Gebyr</a></li>
+<li class="lvl5"><a href="#12-2-gebyr-for-sknad-om-lyve-eller-godkjenningar">§ 12-2. Gebyr for søknad om løyve eller godkjenningar</a></li>
+<li class="lvl5"><a href="#12-3-frafall-av-gebyr">§ 12-3. Fråfall av gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-13-det-sentrale-vapenregisteret">Kapittel 13. Det sentrale våpenregisteret</a></li>
+<li class="lvl4"><a href="#13-1-handsamingsansvar">§ 13-1. Handsamingsansvar</a></li>
+<li class="lvl4"><a href="#13-2-opplysningar-som-kan-registrerast">§ 13-2. Opplysningar som kan registrerast</a></li>
+<li class="lvl4"><a href="#13-3-tilgang-atgang-til-direkte-sk">§ 13-3. Tilgang (åtgang til direkte søk)</a></li>
+<li class="lvl4"><a href="#13-4-utlevering">§ 13-4. Utlevering</a></li>
+<li class="lvl4"><a href="#13-5-innsyn-retting-og-avgrensing">§ 13-5. Innsyn, retting og avgrensing</a></li>
+<li class="lvl4"><a href="#13-6-sletting">§ 13-6. Sletting</a></li>
+<li class="lvl4"><a href="#13-7-sakshandsaminga-ved-krav-om-innsyn-retting-avgrensing-og-sletting">§ 13-7. Sakshandsaminga ved krav om innsyn, retting, avgrensing og sletting</a></li>
+<li class="lvl4"><a href="#13-8-internkontroll-og-informasjonstryggleik">§ 13-8. Internkontroll og informasjonstryggleik</a></li>
+<li class="lvl2"><a href="#kapittel-14-overgangsreglar-og-ikraftsetjing">Kapittel 14. overgangsreglar og ikraftsetjing</a></li>
+<li class="lvl4"><a href="#14-1-overgangsreglar">§ 14-1. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#14-2-ikraftsetjing">§ 14-2. Ikraftsetjing</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-07-1452.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-05-07-1452.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-05-07-1452.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2021-05-07-1452.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2021-05-07-1452.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-05-07-1452.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2021-05-07-1452.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2021-05-07-1452.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-05-07-1452.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-vapen-skytevapen-vapendelar-og-ammunisjon-vapenforskrifta">Forskrift om våpen, skytevåpen, våpendelar og ammunisjon (våpenforskrifta)</h1>
 <h2 id="kapittel-1-definisjonar-sakleg-og-stadleg-verkeomrade">Kapittel 1. Definisjonar, sakleg og stadleg verkeområde</h2>
 <h4 id="1-1-definisjonar">§ 1-1. Definisjonar</h4>
 <p>I denne forskrifta vert følgjande omgrep nytta slik:</p>
@@ -140,7 +525,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="1-7-vapenlova-sitt-verkeomrade-ovanfor-offentlege-etatar">§ 1-7. Våpenlova sitt verkeområde ovanfor offentlege etatar <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Våpenlova gjeld for offentlege etatar, med mindre noko anna er fastsett i våpenlova eller i denne forskrifta.</p>
 <p>Lova gjeld ikkje for våpen, skytevåpen, våpendelar eller ammunisjon som er bestemte for eller som vert bruka av Forsvarshistorisk museum.</p>
-<p><em>Endra ved forskrift 13 des 2024 nr. 3126 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endra ved forskrift 13 des 2024 nr. 3126 (i kraft 1 jan 2025).</p>
 <h4 id="1-8-vapenlova-sitt-verkeomrade-pa-svalbard">§ 1-8. Våpenlova sitt verkeområde på Svalbard</h4>
 <p>Våpenlova og denne forskrifta gjeld for Svalbard, Jan Mayen og dei norske bilanda, med dei særskilte føresegner som følgjer av § 5-7 , § 6-7 , § 6-8 , § 10-1 og § 11-12 i denne forskrifta. Føresegnene om butid etter § 7-7 gjeld ikkje for utlendingar som bur fast på Svalbard, og som søker om våpenløyve etter § 5-7 eller § 6-11 .</p>
 <h2 id="kapittel-2-lyve-og-meldeplikt-for-skytevapen-vapendelar-og-ammunisjon">Kapittel 2. Løyve- og meldeplikt for skytevåpen, våpendelar og ammunisjon</h2>
@@ -194,7 +579,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-5-krav-til-lyve-for-erverv-av-vapenmagasin-med-stor-patronkapasitet">§ 2-5. Krav til løyve for erverv av våpenmagasin med stor patronkapasitet <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som vil erverve eller ha lause våpenmagasin til løyvepliktige skytevåpen med større patronkapasitet enn fem for haglevåpen, 10 for rifler eller 20 for pistolar, må ha løyve etter § 4-4 andre , tredje og fjerde ledd , § 4-12 andre ledd , § 5-6 , § 5-8 eller § 5-9 i denne forskrifta eller våpenlova § 10 .</p>
 <p>Kravet til løyve etter første ledd gjeld ikkje for personar som driv næringsverksemd etter våpenlova § 23 .</p>
-<p><em>Endra ved forskrifter 27 mai 2026 nr. 911 , 2 juli 2026 nr. 1501 .</em></p>
+<p class="note">Endra ved forskrifter 27 mai 2026 nr. 911 , 2 juli 2026 nr. 1501 .</p>
 <h4 id="2-6-ammunisjon-som-er-friteke-fra-lyveplikt">§ 2-6. Ammunisjon som er friteke frå løyveplikt</h4>
 <p>Det krevst ikkje løyve for å erverve og ha ammunisjon som berre kan brukast i skytevåpen som er fritekne frå løyveplikt etter § 2-3 , med dei avgrensingar som følgjer av andre ledd. Det krevst heller ikkje løyve for å erverve og ha komprimert luft eller andre gassar til luftvåpen.</p>
 <p>Den som vil erverve eller ha krut eller tennmiddel til skytevåpen som er fritekne frå løyveplikt må ha løyve frå politiet. Politiet kan berre gje løyve til erverv av krut eller tennmiddel til personar som har gjennomført tryggingsopplæring hos skyttarorganisasjon med godkjent skyttarprogram for skytevåpen som ammunisjonen kan brukast i.</p>
@@ -289,7 +674,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>har i minst eitt år vore medlem i skyttarorganisasjon som har eit godkjent skyteprogram for våpenmagasin med større patronkapasiteten enn 20, og</li>
 <li>det siste året har gjennomført 10 av skyttarorganisasjonen sine organiserte treningar eller konkurransar.</li>
 </ol>
-<p><em>Endra ved forskrift 27 mai 2026 nr. 911 .</em></p>
+<p class="note">Endra ved forskrift 27 mai 2026 nr. 911 .</p>
 <h5 id="4-5-rifler-med-enkeltskot-eller-manuell-omlading-haglevapen-pistolar-og-revolverar-til-sportsskyting">§ 4-5. Rifler med enkeltskot eller manuell omlading, haglevåpen, pistolar og revolverar til sportsskyting</h5>
 <p>Politiet kan gje løyve til erverv og innehav av rifler med manuell eller enkeltskot omlading, haglevåpen, pistolar og revolverar, med dei avgrensingar som følgjer av § 3-1 til § 3-4 .</p>
 <h5 id="4-6-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-pistolar-eller-revolver-til-sportsskyting">§ 4-6. Krav til medlemskap, aktivitet og opplæring for erverv av pistolar eller revolver til sportsskyting <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
@@ -299,7 +684,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>i minst seks månader har vore medlem i skyttarorganisasjon som har godkjent skyteprogram for den omsøkte våpentypen, og</li>
 <li>siste seks månader har gjennomført 10 av skyttarorganisasjonen sine organiserte treningar eller konkurransar.</li>
 </ol>
-<p><em>Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025).</em></p>
+<p class="note">Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025).</p>
 <h5 id="4-7-krav-til-medlemskap-aktivitet-og-opplring-for-erverv-av-rifle-eller-haglevapen-til-sportsskyting">§ 4-7. Krav til medlemskap, aktivitet og opplæring for erverv av rifle eller haglevåpen til sportsskyting <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Politiet kan gje løyve til erverv og innehav av haglevåpen, halvautomatiske rifler som er godkjent til jakt etter § 4-1 , samt rifler med enkeltskot eller manuell omlading til sportsskyting, til personar som:</p>
 <ol>
@@ -307,7 +692,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>er medlem i skyttarorganisasjon som har godkjent skyttarprogram for den omsøkte våpentypen, og</li>
 <li>har gjennomført minst seks organiserte treningar eller konkurransar arrangert av skyttarorganisasjonen.</li>
 </ol>
-<p><em>Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025).</em></p>
+<p class="note">Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025).</p>
 <h5 id="4-8-kor-mange-skytevapen-som-kan-ervervast-til-sportsskyting">§ 4-8. Kor mange skytevåpen som kan ervervast til sportsskyting</h5>
 <p>Politiet kan gje løyve til erverv og innehav av eitt komplett skytevåpen, samt våpendelar til desse skytevåpena, for kvart godkjent skyteprogram.</p>
 <p>Politiet kan likevel gje løyve til erverv og innehav av inntil to komplette skytevåpen til eit godkjent skyteprogram (reservevåpen) til personar som det siste året:</p>
@@ -341,7 +726,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>For at politiet skal kunne gje løyve etter første ledd for rifle, kombinasjonsvåpen eller haglevåpen må den som skal bruke skytevåpenet og våpendelen vere under 16 år, og oppfylle krava for erverv av skytevåpenet til sportsskyting etter § 4-7 , eller vere registrert i Jegerregisteret og oppfylle krava for opplæringsjakt i viltlovgjevinga.</p>
 <p>For at politiet skal kunne kan gje løyve etter første ledd for pistol eller revolver må den som skal bruke skytevåpenet og våpendelen vere mellom 12 og 21 år, og oppfylle krava for erverv av skytevåpenet til sportsskyting etter § 4-6 . Om den som skal bruke skytevåpenet er under 18 år, kan politiet berre gje løyve til erverv av pistol eller revolver i kaliber.22 Long Rifle.</p>
 <p>Politiet kan gje løyve etter første ledd for inntil to år av gangen. Ved søknad om å forlenge løyvet skal søkar dokumentere at vilkåra for løyvet framleis er oppfylte.</p>
-<p><em>Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025, se endringa for overgangsreglar).</em></p>
+<p class="note">Endra ved forskrift 18 mars 2025 nr. 469 (i kraft 1 mai 2025, se endringa for overgangsreglar).</p>
 <h4 id="5-2-erverv-og-innehav-av-skytevapen-vapendelar-og-ammunisjon-for-godkjente-skyttarforeiningar">§ 5-2. Erverv og innehav av skytevåpen, våpendelar og ammunisjon for godkjente skyttarforeiningar</h4>
 <p>Politiet kan gje skyttarforeiningar løyve til å erverve og ha skytevåpen og våpendelar som er godkjent til bruk i skyttarorganisasjonen som foreininga er tilslutta. Eit løyve etter første punktum kan gjevast for eit tal komplette skytevåpen, samt våpendelar til desse skytevåpena, som dekker behovet for opplæring og andre skyteaktivitetar.</p>
 <p>Politiet kan også gje skyttarforeiningar løyve til å erverve og ha eit tal skytevåpen, samt våpendelar til desse skytevåpena, til utlån for sine medlemer, som står i rimeleg høve til talet betalande medlemer og aktivitet.</p>
@@ -351,7 +736,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Politiet kan gje løyve etter første ledd til ei komplett rifle, eitt kombinasjonsvåpen eller eitt haglevåpen som er tillatne til jakt etter våpenlova § 11 andre ledd og kapittel 3 i denne forskrifta, samt våpendelar til dette skytevåpenet. Politiet kan berre gje løyve etter første ledd til personar som kan dokumentere å ha tilstrekkeleg våpendugleik, som til dømes gjennomført førstegongsteneste eller aktivitet i godkjent skyttarorganisasjon. Gjeld søknaden ein juridisk person, må organisasjonen dokumentere at dei våpenansvarlege etter våpenlova § 17 har våpendugleik som nemnt i andre punktum.</p>
 <p>Politiet kan gje løyve til oppsynet som nemnd i naturoppsynsloven § 1 for avliving og immobilisering av vilt. Politiet kan gje løyve til våpentypar og våpendelar og det talet på våpen og våpendelar som er naudsynt for at oppsynet skal kunne utføre oppgåver pålagt i eller i medhald av lov. Andre ledd andre og tredje punktum gjeld tilsvarande.</p>
 <p>Politiet kan gje løyve etter våpenlova § 18 andre ledd til tilsette i oppsynet som nemnd i tredje ledd. Andre ledd andre punktum gjeld tilsvarande.</p>
-<p><em>Endra ved forskrift 19 juli 2024 nr. 1799 (i kraft 1 aug 2024).</em></p>
+<p class="note">Endra ved forskrift 19 juli 2024 nr. 1799 (i kraft 1 aug 2024).</p>
 <h4 id="5-4-erverv-og-innehav-av-skytevapen-pa-grunnlag-av-arv-eller-minneverde">§ 5-4. Erverv og innehav av skytevåpen på grunnlag av arv eller minneverde</h4>
 <p>Politiet kan gje personar løyve til å erverve og ha skytevåpen og våpendelar som minne etter arvelatar i rett opp- eller nedstigande linje. Politiet kan berre gje løyve til personar som kan dokumentere å ha tilstrekkeleg våpendugleik, som til dømes gjennomført førstegongsteneste eller aktivitet i godkjent skyttarorganisasjon.</p>
 <p>Politiet kan gje løyve etter første ledd for inntil tre komplette rifler eller haglevåpen, samt våpendelar til desse skytevåpena, som er tillatne til jakt etter våpenlova § 11 andre ledd og kapittel 3 i denne forskrifta. Politiet kan gje personar som har våpenløyve for pistol eller revolver løyve for inntil tre pistolar eller revolverar, samt våpendelar til desse skytevåpena.</p>
@@ -369,7 +754,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Politiet kan gje løyve etter første ledd for rifler og haglevåpen som er tillatne til jakt etter våpenlova § 11 andre ledd og kapittel 3 i denne forskrifta. Politiet kan likevel berre gje løyve til erverv av rifler som brukar ammunisjon med prosjektildiameter 7,82 millimeter eller større. Prosjektilet som brukast skal minst vege 10 gram og må gje ein anslagsenergi på minst 2200 Joule på 100 meter avstand. Politiet kan også gje løyve til erverv av revolver som brukar ammunisjon med prosjektildiameter 10,9 millimeter eller større, med kulevekt på minst 14,9 gram, til personar som kan dokumentere eit grunna behov for skytevåpen som er enklare å bere med seg enn haglevåpen eller rifle.</p>
 <p>Eit løyve etter første og andre ledd kan berre gjevast til personar som kan dokumentere å ha tilstrekkeleg våpendugleik med det aktuelle skytevåpenet, som til dømes gjennomført førstegongsteneste eller aktivitet i godkjent skyttarorganisasjon.</p>
 <p>Sysselmeisteren på Svalbard kan gje nærare retningsliner om erverv og innehav av skytevåpen til vern mot isbjørnåtak.</p>
-<p><em>Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</p>
 <h4 id="5-8-erverv-til-vern-mot-atak">§ 5-8. Erverv til vern mot åtak</h4>
 <p>Politiet kan gje reiarar løyve til å mellombels ha skytevåpen, våpendelar og ammunisjon på vegne av eit innleigd vaktselskap for å verne norskregistrerte ISPS-skip mot terrorhandlingar og piratverksemd, som nemnt i skipssikkerhetsloven kapittel 6 . Politiet kan ikkje gje løyve etter første punktum for vaktselskap som er forbodne etter forskrift 22. juni 2004 nr. 972 om sikkerhet, pirat- og terrorberedskapstiltak og bruk av maktmidler om bord på skip og flyttbare boreinnretninger (sikkerhetsforskriften) § 20 fjerde ledd.</p>
 <p>Politiet kan berre gje løyve etter første ledd for segling i, til eller frå eit område med beredskapsnivå 2, eller 3, jf. sikkerhetsforskriften § 2 og § 15 , og som seglar sør for 46 grader nordleg breidde.</p>
@@ -441,11 +826,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Ved sending av løyvepliktige skytevåpen skal skytevåpenet tryggast slik at det ikkje kan brukast. Skytevåpenet kan enten tryggast med kammerlås eller liknande innretning, eller ved å sende ein vital våpendel i eiga sending. Ammunisjon skal ikkje pakkast saman med eit komplett skytevåpen.</p>
 <p>Den som skal sende eller transportere ammunisjon må i tillegg til krava som er fastsett i andre og tredje ledd også oppfylle krava til transport eller sending av eksplosivar etter brann- og eksplosjonsvernlova .</p>
 <p>Føresegnene i første og andre ledd gjeld ikkje for Svalbard. Sysselmeisteren på Svalbard kan gje nærare retningsliner om transport av skytevåpen, våpendelar og ammunisjon på Svalbard.</p>
-<p><em>Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</p>
 <h4 id="6-8-krav-til-mellombels-oppbevaring-av-skytevapen-og-ammunisjon">§ 6-8. Krav til mellombels oppbevaring av skytevåpen og ammunisjon <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-6-8.html" title="Endringshistorikk for § 6-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved mellombels oppbevaring etter våpenlova § 20 , skal løyvepliktige skytevåpen og ammunisjon vere under forsvarleg tilsyn. Løyvepliktige skytevåpen og ammunisjon kan likevel forlatast utan forsvarleg tilsyn når gjenstandane er skjult eller dekkja til og oppbevarast i eit låst husvære eller i ein låst motorvogn.</p>
 <p>Denne føresegna gjeld ikkje for Svalbard. Sysselmeisteren på Svalbard kan gje nærare retningsliner om mellombels oppbevaring av skytevåpen, våpendelar og ammunisjon på Svalbard.</p>
-<p><em>Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</p>
 <h3 id="utlan-og-overlating-av-skytevapen-vapendelar-og-ammunisjon">Utlån og overlating av skytevåpen, våpendelar og ammunisjon</h3>
 <h5 id="6-9-krav-til-utferding-av-frasegn-ved-utlan-av-skytevapen-og-vapendelar">§ 6-9. Krav til utferding av fråsegn ved utlån av skytevåpen og våpendelar <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-6-9.html" title="Endringshistorikk for § 6-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Den som lånar ut løyvepliktige skytevåpen eller våpendelar til andre, skal gje mottakar ein skriftleg fråsegn om utlånet med følgjande innhald:</p>
@@ -458,7 +843,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Fråsegna om utlån saman med løyvet til å ha den aktuelle våpentypen gjeld som våpenkort.</p>
 <p>Krava til fråsegn etter våpenlova § 18 gjeld ikkje for utlevering av skytevåpen eller våpendelar til godkjent tilverkar, børsemakar eller våpenhandlar i samband med reparasjon, ombygging eller kommisjonssal, samt ved kortvarig overlating av skytevåpen eller våpendelar under forsvarleg tilsyn.</p>
-<p><em>Endra ved forskrift 9 feb 2024 nr. 275 (i kraft 1 mars 2024).</em></p>
+<p class="note">Endra ved forskrift 9 feb 2024 nr. 275 (i kraft 1 mars 2024).</p>
 <h5 id="6-10-krav-til-utferding-av-lister-over-lan-for-juridiske-personar">§ 6-10. Krav til utferding av lister over lån for juridiske personar</h5>
 <p>Bedrifter, godkjente skyttarorganisasjonar eller andre juridiske personar som låner ut løyvepliktige skytevåpen eller våpendelar til medlemer eller tilsette i organisasjonen skal føre ei liste over utlån med følgjande innhald:</p>
 <ol>
@@ -476,7 +861,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Første ledd gjelder ikkje for kortvarig utlån av skytevåpen eller våpendelar under forsvarleg tilsyn.</p>
 <h5 id="6-11-utlan-av-skytevapen-til-vern-mot-isbjrnatak">§ 6-11. Utlån av skytevåpen til vern mot isbjørnåtak <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-6-11.html" title="Endringshistorikk for § 6-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Sysselmeisteren på Svalbard kan gje nærare retningsliner om utlån av skytevåpen til vern mot isbjørnåtak.</p>
-<p><em>Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-7-krav-til-alder-og-personlege-eigenskapar-for-a-kunne-erverve-og-ha-skytevapen-vapendelar-og-ammunisjon">Kapittel 7. Krav til alder og personlege eigenskapar for å kunne erverve og ha skytevåpen, våpendelar og ammunisjon</h2>
 <h4 id="7-1-vilkar-for-fritak-fra-alderskravet-pa-18-ar-for-erverv-og-innehav-av-haglevapen-kombinasjonsvapen-og-rifler">§ 7-1. Vilkår for fritak frå alderskravet på 18 år for erverv og innehav av haglevåpen, kombinasjonsvåpen og rifler</h4>
 <p>Politiet kan gje mindreårige over 16 år fritak frå alderskravet for anna erverv enn kjøp og for innehav av haglevåpen, kombinasjonsvåpen eller rifler, samt våpendelar til desse skytevåpena. Politiet kan gje fritak etter første punktum til jaktbruk, sportsskyting eller minneverde etter kapittel 4 og 5 . Eit fritak til sportsskyting føreset at den mindreårige i minst seks månader har vore aktiv medlem i godkjent skyttarorganisasjon. Mindreårige under 18 år kan ikkje gjevast løyve til å kjøpe skytevåpen.</p>
@@ -516,7 +901,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>For tredjelandsborgarar som ikkje har fått opphaldsløyve før innreise til Noreg, skal butida reknast frå den datoen søknaden om opphaldsløyve vert registrert hos utlendingsmynda. For EØS-borgar, og tredjelandsborgar som har fått opphaldsløyve før innreise til Noreg, vert butida rekna frå det tidspunktet som følgjer av politiregisterforskrifta § 28-4 .</p>
 <p>Det kan i einskildtilfelle gjerast unnatak frå kravet til butid etter første ledd for utlendingar som politiet etter ei konkret vurdering meiner kan levere tilfredsstillande dokumentasjon for at vandelskravet etter § 7-4 og § 7-5 er oppfylt.</p>
-<p><em>Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2021 nr. 2250 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-8-godkjenning-av-skytebaner-godkjenning-av-vapenorganisasjonar-og-teknisk-program">Kapittel 8. Godkjenning av skytebaner, godkjenning av våpenorganisasjonar og teknisk program</h2>
 <h3 id="godkjenning-av-skytebaner">Godkjenning av skytebaner</h3>
 <h5 id="8-1-definisjon-av-skytebane">§ 8-1. Definisjon av skytebane</h5>
@@ -551,7 +936,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h5 id="8-7-godkjenning-av-skyteprogram-for-godkjente-skyttarorganisasjonar">§ 8-7. Godkjenning av skyteprogram for godkjente skyttarorganisasjonar <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-8-7.html" title="Endringshistorikk for § 8-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Skyteprogram eller endringar i gjeldande skyteprogram for skyttarorganisasjonar skal vere godkjent av politiet. Ein godkjenning skal omfatte aktuelle våpentypar, medrekna utforming, tillaten magasinkapasitet, kaliber og andre tekniske krav til dei våpentypar som skal brukast i skyteprogrammet.</p>
 <p>Politiet kan godkjenne skyteprogram for halvautomatiske rifler som er godkjent til jakt etter § 4-1 , samt for andre våpentypar med dei avgrensingar som følgjer av kapittel 3 i denne forskrifta og våpenlova § 5 . Politiet kan berre godkjenne skyteprogram som inneber bruk av våpenmagasin som krev særskilt løyve etter § 2-5 dersom programmet forvaltast av ein internasjonal skyttarorganisasjon.</p>
-<p><em>Endra ved forskrift 27 mai 2026 nr. 911 .</em></p>
+<p class="note">Endra ved forskrift 27 mai 2026 nr. 911 .</p>
 <h5 id="8-8-utfyllande-reglar-for-godkjenning-av-vapensamlarorganisasjonar">§ 8-8. Utfyllande reglar for godkjenning av våpensamlarorganisasjonar</h5>
 <p>Politiet kan godkjenne våpensamlarorganisasjonar som oppfyller vilkåra etter våpenlova § 28 andre ledd og som har:</p>
 <ol>
@@ -801,7 +1186,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h5 id="11-15-systematisk-elektronisk-utveksling-av-opplysingar-om-avslag-pa-sknad-om-lyve-og-tilbakekall-av-lyve">§ 11-15. Systematisk elektronisk utveksling av opplysingar om avslag på søknad om løyve og tilbakekall av løyve <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-11-15.html" title="Endringshistorikk for § 11-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Delegert kommisjonsforordning (EU) 2021/1423 om systematisk elektronisk utveksling av opplysingar om avslag på søknad om erverv eller innehav av enkelte typar skytevåpen gjeld som forskrift.</p>
 <p>Teieplikta etter forvaltningsloven § 13 er ikkje til hinder for utlevering av opplysingar i samsvar med forordninga. Det skal utleverast opplysingar om avslag på søknad om erverv eller innehav av enkelte typar skytevåpen og om tilbakekall av løyve til enkelte typar skytevåpen, når avgjerda er grunna i at vilkåra i våpenlova § 16 ikkje er oppfylte.</p>
-<p><em>Tilføyd ved forskrift 9 feb 2024 nr. 275 (i kraft 1 mars 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 9 feb 2024 nr. 275 (i kraft 1 mars 2024).</p>
 <h2 id="kapittel-12-deaktivering-og-gebyr">Kapittel 12. Deaktivering og gebyr</h2>
 <h3 id="deaktivering">Deaktivering</h3>
 <h5 id="12-1-deaktivering-av-skytevapen">§ 12-1. Deaktivering av skytevåpen</h5>
@@ -830,7 +1215,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>6 556 kroner for godkjenning av sivil skytebane, og</li>
 <li>375 kroner for søknad om og forlenging av Europeisk våpenpass.</li>
 </ol>
-<p><em>Endra ved forskrift 24 okt 2025 nr. 2081 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endra ved forskrift 24 okt 2025 nr. 2081 (i kraft 1 jan 2026).</p>
 <h5 id="12-3-frafall-av-gebyr">§ 12-3. Fråfall av gebyr <a class="para-history" href="../historikk/forskrift-2021-05-07-1452/para-12-3.html" title="Endringshistorikk for § 12-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Det krevjast ikkje gebyr for søknad om følgjande løyver:</p>
 <ol>
@@ -840,7 +1225,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>ervervsmessig innførsel av delar eller komponentar som skal foredlast eller omarbeidast i Noreg før sal til forhandlar eller forbrukar, og</li>
 <li>ved forlenging av løyve til ikkje-ervervsmessig inn- eller utførsel etter § 10-7 og § 10-11 .</li>
 </ol>
-<p><em>Endra ved forskrift 24 okt 2025 nr. 2081 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endra ved forskrift 24 okt 2025 nr. 2081 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-13-det-sentrale-vapenregisteret">Kapittel 13. Det sentrale våpenregisteret</h2>
 <h4 id="13-1-handsamingsansvar">§ 13-1. Handsamingsansvar</h4>
 <p>Politidirektoratet er handsamingsansvarleg for våpenregisteret.</p>
@@ -882,6 +1267,8 @@ Endra ved forskrifter 8 sep 2021 nr. 2720 , 29 april 2026 nr. 684 .</em></p>
 <p>Forskrift 1. juli 1988 nr. 548 om anlegg av, kontroll med og godkjenning av sivile skytebaner .</p>
 <p>Forskrift 25. januar 1963 nr. 2 om ikrafttreden av og delegasjon etter lov om skytevåpen og ammunisjon .</p>
 <p>Forskrift 15. juni 2017 nr. 844 om sivil håndtering av eksplosjonsfarlige stoffer (eksplosivforskriften) § 75 , § 76 og § 101 andre ledd.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

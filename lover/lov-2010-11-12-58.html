@@ -19,64 +19,607 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2010-11-12-58.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om internasjonal sikkerhet i mobilt løsøre" href="../feeds/lov-2010-11-12-58.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Lov om internasjonal sikkerhet i mobilt løsøre</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2010-11-12-58</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Internasjonal rett &raquo; Konvensjoner. Overenskomster</dd>
-<dt>Ikrafttredelse</dt><dd>2011-04-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2010-11-12-58" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#convention-on-international-interests-in-mobile-equipment">Convention on International interests in mobile equipment</a></li>
+<li class="lvl3"><a href="#chapter-i-sphere-of-application-and-general-provisions">Chapter I. Sphere of application and general provisions</a></li>
+<li class="lvl5"><a href="#art-1-definitions">Art 1. Definitions</a></li>
+<li class="lvl5"><a href="#art-2-the-international-interest">Art 2. The international interest</a></li>
+<li class="lvl5"><a href="#art-3-sphere-of-application">Art 3. Sphere of application</a></li>
+<li class="lvl5"><a href="#art-4-where-debtor-is-situated">Art 4. Where debtor is situated</a></li>
+<li class="lvl5"><a href="#art-5-interpretation-and-applicable-law">Art 5. Interpretation and applicable law</a></li>
+<li class="lvl5"><a href="#art-6-relationship-between-the-convention-and-the-protocol">Art 6. Relationship between the Convention and the Protocol</a></li>
+<li class="lvl3"><a href="#chapter-ii-constitution-of-an-international-interest">Chapter II. Constitution of an international interest</a></li>
+<li class="lvl5"><a href="#art-7-formal-requirements">Art 7. Formal requirements</a></li>
+<li class="lvl3"><a href="#chapter-iii-default-remedies">Chapter III. Default remedies</a></li>
+<li class="lvl5"><a href="#art-8-remedies-of-charge">Art 8. Remedies of charge</a></li>
+<li class="lvl5"><a href="#art-9-vesting-of-object-in-satisfaction-redemption">Art 9. Vesting of object in satisfaction; redemption</a></li>
+<li class="lvl5"><a href="#art-10-remedies-of-conditional-seller-or-lessor">Art 10. Remedies of conditional seller or lessor</a></li>
+<li class="lvl5"><a href="#art-11-meaning-of-default">Art 11. Meaning of default</a></li>
+<li class="lvl5"><a href="#art-12-additional-remedies">Art 12. Additional remedies</a></li>
+<li class="lvl5"><a href="#art-13-relief-pending-final-determination">Art 13. Relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-14-procedural-requirements">Art 14. Procedural requirements</a></li>
+<li class="lvl5"><a href="#art-15-derogation">Art 15. Derogation</a></li>
+<li class="lvl3"><a href="#chapter-iv-the-international-registration-system">Chapter IV. The international registration system</a></li>
+<li class="lvl5"><a href="#art-16-the-international-registry">Art 16. The International Registry</a></li>
+<li class="lvl5"><a href="#art-17-the-supervisory-authority-and-the-registrar">Art 17. The Supervisory Authority and the Registrar</a></li>
+<li class="lvl3"><a href="#chapter-v-other-matters-relating-to-registration">Chapter V. Other matters relating to registration</a></li>
+<li class="lvl5"><a href="#art-18-registration-requirements">Art 18. Registration requirements</a></li>
+<li class="lvl5"><a href="#art-19-validity-and-time-of-registration">Art 19. Validity and time of registration</a></li>
+<li class="lvl5"><a href="#art-20-consent-to-registration">Art 20. Consent to registration</a></li>
+<li class="lvl5"><a href="#art-21-duration-of-registration">Art 21. Duration of registration</a></li>
+<li class="lvl5"><a href="#art-22-searches">Art 22. Searches</a></li>
+<li class="lvl5"><a href="#art-23-list-of-declarations-and-declared-non-consensual-rights-or-interests">Art 23. List of declarations and declared non-consensual rights or interests</a></li>
+<li class="lvl5"><a href="#art-24-evidentiary-value-of-certificates">Art 24. Evidentiary value of certificates</a></li>
+<li class="lvl5"><a href="#art-25-discharge-of-registration">Art 25. Discharge of registration</a></li>
+<li class="lvl5"><a href="#art-26-access-to-the-international-registration-facilities">Art 26. Access to the international registration facilities</a></li>
+<li class="lvl3"><a href="#chapter-vi-privileges-and-immunities-of-the-supervisory-authority-and-the-registrar">Chapter VI. Privileges and immunities of the Supervisory Authority and the Registrar</a></li>
+<li class="lvl5"><a href="#art-27-legal-personality-immunity">Art 27. Legal personality; immunity</a></li>
+<li class="lvl3"><a href="#chapter-vii-liability-of-the-registrar">Chapter VII. Liability of the Registrar</a></li>
+<li class="lvl5"><a href="#art-28-liability-and-financial-assurances">Art 28. Liability and financial assurances</a></li>
+<li class="lvl3"><a href="#chapter-viii-effects-of-an-international-interest-as-against-third-parties">Chapter VIII. Effects of an international interest as against third parties</a></li>
+<li class="lvl5"><a href="#art-29-priority-of-competing-interests">Art 29. Priority of competing interests</a></li>
+<li class="lvl5"><a href="#art-30-effects-of-insolvency">Art 30. Effects of insolvency</a></li>
+<li class="lvl3"><a href="#chapter-ix-assignments-of-associated-rights-and-international-interests-rights-of-subrogation">Chapter IX. Assignments of associated rights and international interests; rights of subrogation</a></li>
+<li class="lvl5"><a href="#art-31-effects-of-assignment">Art 31. Effects of assignment</a></li>
+<li class="lvl5"><a href="#art-32-formal-requirements-of-assignment">Art 32. Formal requirements of assignment</a></li>
+<li class="lvl5"><a href="#art-33-debtors-duty-to-assignee">Art 33. Debtor's duty to assignee</a></li>
+<li class="lvl5"><a href="#art-34-default-remedies-in-respect-of-assignment-by-way-of-security">Art 34. Default remedies in respect of assignment by way of security</a></li>
+<li class="lvl5"><a href="#art-35-priority-of-competing-assignments">Art 35. Priority of competing assignments</a></li>
+<li class="lvl5"><a href="#art-36-assignees-priority-with-respect-to-associated-rights">Art 36. Assignee's priority with respect to associated rights</a></li>
+<li class="lvl5"><a href="#art-37-effects-of-assignors-insolvency">Art 37. Effects of assignor's insolvency</a></li>
+<li class="lvl5"><a href="#art-38-subrogation">Art 38. Subrogation</a></li>
+<li class="lvl3"><a href="#chapter-x-rights-or-interests-subject-to-declarations-by-contracting-states">Chapter X. Rights or interests subject to declarations by Contracting States</a></li>
+<li class="lvl5"><a href="#art-39-rights-having-priority-without-registration">Art 39. Rights having priority without registration</a></li>
+<li class="lvl5"><a href="#art-40-registrable-non-consensual-rights-or-interests">Art 40. Registrable non-consensual rights or interests</a></li>
+<li class="lvl3"><a href="#chapter-xi-application-of-the-convention-to-sales">Chapter XI. Application of the Convention to sales</a></li>
+<li class="lvl5"><a href="#art-41-sale-and-prospective-sale">Art 41. Sale and prospective sale</a></li>
+<li class="lvl3"><a href="#chapter-xii-jurisdiction">Chapter XII. Jurisdiction</a></li>
+<li class="lvl5"><a href="#art-42-choice-of-forum">Art 42. Choice of forum</a></li>
+<li class="lvl5"><a href="#art-43-jurisdiction-under-article-13">Art 43. Jurisdiction under Article 13</a></li>
+<li class="lvl5"><a href="#art-44-jurisdiction-to-make-orders-against-the-registrar">Art 44. Jurisdiction to make orders against the Registrar</a></li>
+<li class="lvl5"><a href="#art-45-jurisdiction-in-respect-of-insolvency-proceedings">Art 45. Jurisdiction in respect of insolvency proceedings</a></li>
+<li class="lvl3"><a href="#chapter-xiii-relationship-with-other-conventions">Chapter XIII. Relationship with other Conventions</a></li>
+<li class="lvl5"><a href="#art-45-bis-relationship-with-the-united-nations-convention-on-the-assignment-of-receivables-in-international-trade">Art 45 bis. Relationship with the United Nations Convention on the Assignment of Receivables in International Trade</a></li>
+<li class="lvl5"><a href="#art-46-relationship-with-the-unidroit-convention-on-international-financial-leasing">Art 46. Relationship with the UNIDROIT Convention on International Financial Leasing</a></li>
+<li class="lvl3"><a href="#chapter-xiv-final-provisions">Chapter XIV. Final provisions</a></li>
+<li class="lvl5"><a href="#art-47-signature-ratification-acceptance-approval-or-accession">Art 47. Signature, ratification, acceptance, approval or accession</a></li>
+<li class="lvl5"><a href="#art-48-regional-economic-integration-organisations">Art 48. Regional Economic Integration Organisations</a></li>
+<li class="lvl5"><a href="#art-49-entry-into-force">Art 49. Entry into force</a></li>
+<li class="lvl5"><a href="#art-50-internal-transactions">Art 50. Internal transactions</a></li>
+<li class="lvl5"><a href="#art-51-future-protocols">Art 51. Future Protocols</a></li>
+<li class="lvl5"><a href="#art-52-territorial-units">Art 52. Territorial units</a></li>
+<li class="lvl5"><a href="#art-53-determination-of-courts">Art 53. Determination of courts</a></li>
+<li class="lvl5"><a href="#art-54-declarations-regarding-remedies">Art 54. Declarations regarding remedies</a></li>
+<li class="lvl5"><a href="#art-55-declarations-regarding-relief-pending-final-determination">Art 55. Declarations regarding relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-56-reservations-and-declarations">Art 56. Reservations and declarations</a></li>
+<li class="lvl5"><a href="#art-57-subsequent-declarations">Art 57. Subsequent declarations</a></li>
+<li class="lvl5"><a href="#art-58-withdrawal-of-declarations">Art 58. Withdrawal of declarations</a></li>
+<li class="lvl5"><a href="#art-59-denunciations">Art 59. Denunciations</a></li>
+<li class="lvl5"><a href="#art-60-transitional-provisions">Art 60. Transitional provisions</a></li>
+<li class="lvl5"><a href="#art-61-review-conferences-amendments-and-related-matters">Art 61. Review Conferences, amendments and related matters</a></li>
+<li class="lvl5"><a href="#art-62-depositary-and-its-functions">Art 62. Depositary and its functions</a></li>
+<li class="lvl2"><a href="#konvensjon-om-internasjonale-sikkerhetsretter-i-mobilt-lsre">Konvensjon om internasjonale sikkerhetsretter i mobilt løsøre</a></li>
+<li class="lvl3"><a href="#kapittel-i-virkeomrade-og-alminnelige-bestemmelser">Kapittel I. Virkeområde og alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1-definisjoner">Art 1. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-2-internasjonal-sikkerhetsrett">Art 2. Internasjonal sikkerhetsrett</a></li>
+<li class="lvl5"><a href="#art-3-virkeomrade">Art 3. Virkeområde</a></li>
+<li class="lvl5"><a href="#art-4-debitors-beliggenhet-eller-oppholdssted">Art 4. Debitors beliggenhet eller oppholdssted</a></li>
+<li class="lvl5"><a href="#art-5-fortolkning-og-gjeldende-lovgivning">Art 5. Fortolkning og gjeldende lovgivning</a></li>
+<li class="lvl5"><a href="#art-6-forholdet-mellom-konvensjonen-og-protokollen">Art 6. Forholdet mellom konvensjonen og protokollen</a></li>
+<li class="lvl3"><a href="#kapittel-ii-stiftelse-av-en-internasjonal-sikkerhetsrett">Kapittel II. Stiftelse av en internasjonal sikkerhetsrett</a></li>
+<li class="lvl5"><a href="#art-7-formelle-krav">Art 7. Formelle krav</a></li>
+<li class="lvl3"><a href="#kapittel-iii-misligholdsbefyelser">Kapittel III. Misligholdsbeføyelser</a></li>
+<li class="lvl5"><a href="#art-8-tiltak-som-kan-treffes-av-kravshaver">Art 8. Tiltak som kan treffes av kravshaver</a></li>
+<li class="lvl5"><a href="#art-9-overfring-av-eiendomsrett-som-kompensasjon-frigjring">Art 9. Overføring av eiendomsrett som kompensasjon, frigjøring</a></li>
+<li class="lvl5"><a href="#art-10-tiltak-som-kan-treffes-av-selger-med-forbehold-eller-av-utleier">Art 10. Tiltak som kan treffes av selger med forbehold eller av utleier</a></li>
+<li class="lvl5"><a href="#art-11-begrepet-mislighold">Art 11. Begrepet mislighold</a></li>
+<li class="lvl5"><a href="#art-12-ytterligere-tiltak">Art 12. Ytterligere tiltak</a></li>
+<li class="lvl5"><a href="#art-13-rettsmidler-i-pavente-av-endelig-avgjrelse">Art 13. Rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-14-krav-til-prosess">Art 14. Krav til prosess</a></li>
+<li class="lvl5"><a href="#art-15-fravikelse">Art 15. Fravikelse</a></li>
+<li class="lvl3"><a href="#kapittel-iv-den-internasjonale-registreringsordningen">Kapittel IV. Den internasjonale registreringsordningen</a></li>
+<li class="lvl5"><a href="#art-16-det-internasjonale-registeret">Art 16. Det internasjonale registeret</a></li>
+<li class="lvl5"><a href="#art-17-tilsynsmyndigheten-og-registreringsmyndigheten">Art 17. Tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl3"><a href="#kapittel-v-andre-forhold-i-forbindelse-med-registrering">Kapittel V. Andre forhold i forbindelse med registrering</a></li>
+<li class="lvl5"><a href="#art-18-vilkar-for-registrering">Art 18. Vilkår for registrering</a></li>
+<li class="lvl5"><a href="#art-19-gyldighet-og-registreringstidspunkt">Art 19. Gyldighet og registreringstidspunkt</a></li>
+<li class="lvl5"><a href="#art-20-samtykke-til-registrering">Art 20. Samtykke til registrering</a></li>
+<li class="lvl5"><a href="#art-21-registreringens-gyldighet">Art 21. Registreringens gyldighet</a></li>
+<li class="lvl5"><a href="#art-22-sk">Art 22. Søk</a></li>
+<li class="lvl5"><a href="#art-23-liste-over-erklringer-og-ikke-avtalemessige-rettigheter-eller-sikkerhetsretter">Art 23. Liste over erklæringer og ikke-avtalemessige rettigheter eller sikkerhetsretter</a></li>
+<li class="lvl5"><a href="#art-24-attestens-bevisverdi">Art 24. Attestens bevisverdi</a></li>
+<li class="lvl5"><a href="#art-25-sletting-av-registrering">Art 25. Sletting av registrering</a></li>
+<li class="lvl5"><a href="#art-26-tilgang-til-den-internasjonale-registreringstjenesten">Art 26. Tilgang til den internasjonale registreringstjenesten</a></li>
+<li class="lvl3"><a href="#kapittel-vi-privilegier-og-immunitet-for-tilsynsmyndigheten-og-registreringsmyndigheten">Kapittel VI. Privilegier og immunitet for tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-27-status-som-juridisk-person-immunitet">Art 27. Status som juridisk person, immunitet</a></li>
+<li class="lvl3"><a href="#kapittel-vii-registreringsmyndighetens-ansvar">Kapittel VII. Registreringsmyndighetens ansvar</a></li>
+<li class="lvl5"><a href="#art-28-ansvar-og-konomiske-forsikringer">Art 28. Ansvar og økonomiske forsikringer</a></li>
+<li class="lvl3"><a href="#kapittel-viii-en-internasjonal-sikkerhetsretts-rettsvirkninger-overfor-tredjepersoner">Kapittel VIII. En internasjonal sikkerhetsretts rettsvirkninger overfor tredjepersoner</a></li>
+<li class="lvl5"><a href="#art-29-prioritet-for-konkurrerende-sikkerhetsretter">Art 29. Prioritet for konkurrerende sikkerhetsretter</a></li>
+<li class="lvl5"><a href="#art-30-rettsvirkninger-ved-insolvens">Art 30. Rettsvirkninger ved insolvens</a></li>
+<li class="lvl3"><a href="#kapittel-ix-overdragelse-av-tilhrende-rettigheter-og-internasjonale-sikkerhetsretter-subrogasjonsrettigheter">Kapittel IX. Overdragelse av tilhørende rettigheter og internasjonale sikkerhetsretter, subrogasjonsrettigheter</a></li>
+<li class="lvl5"><a href="#art-31-rettsvirkninger-ved-overdragelse">Art 31. Rettsvirkninger ved overdragelse</a></li>
+<li class="lvl5"><a href="#art-32-formelle-krav-til-overdragelse">Art 32. Formelle krav til overdragelse</a></li>
+<li class="lvl5"><a href="#art-33-debitors-forpliktelser-overfor-mottaker">Art 33. Debitors forpliktelser overfor mottaker</a></li>
+<li class="lvl5"><a href="#art-34-misligholdsbefyelser-i-forbindelse-med-overdragelse-som-sikkerhet">Art 34. Misligholdsbeføyelser i forbindelse med overdragelse som sikkerhet</a></li>
+<li class="lvl5"><a href="#art-35-prioritet-for-konkurrerende-overdragelser">Art 35. Prioritet for konkurrerende overdragelser</a></li>
+<li class="lvl5"><a href="#art-36-mottakers-prioritet-med-hensyn-til-tilhrende-rettigheter">Art 36. Mottakers prioritet med hensyn til tilhørende rettigheter</a></li>
+<li class="lvl5"><a href="#art-37-rettsvirkninger-av-overdragers-insolvens">Art 37. Rettsvirkninger av overdragers insolvens</a></li>
+<li class="lvl5"><a href="#art-38-subrogasjon">Art 38. Subrogasjon</a></li>
+<li class="lvl3"><a href="#kapittel-x-rettigheter-eller-sikkerhetsretter-omhandlet-i-erklringer-fra-konvensjonsstatene">Kapittel X. Rettigheter eller sikkerhetsretter omhandlet i erklæringer fra konvensjonsstatene</a></li>
+<li class="lvl5"><a href="#art-39-rettigheter-som-har-prioritet-uten-registrering">Art 39. Rettigheter som har prioritet uten registrering</a></li>
+<li class="lvl5"><a href="#art-40-registrerbare-ikke-avtalemessige-rettigheter-eller-sikkerhetsretter">Art 40. Registrerbare ikke-avtalemessige rettigheter eller sikkerhetsretter</a></li>
+<li class="lvl3"><a href="#kapittel-xi-konvensjonens-anvendelse-pa-salg">Kapittel XI. Konvensjonens anvendelse på salg</a></li>
+<li class="lvl5"><a href="#art-41-salg-og-framtidig-salg">Art 41. Salg og framtidig salg</a></li>
+<li class="lvl3"><a href="#kapittel-xii-kompetanse">Kapittel XII. Kompetanse</a></li>
+<li class="lvl5"><a href="#art-42-valg-av-verneting">Art 42. Valg av verneting</a></li>
+<li class="lvl5"><a href="#art-43-kompetanse-i-samsvar-med-artikkel-13">Art 43. Kompetanse i samsvar med artikkel 13</a></li>
+<li class="lvl5"><a href="#art-44-kompetanse-til-a-treffe-beslutning-om-tiltak-overfor-registreringsmyndigheten">Art 44. Kompetanse til å treffe beslutning om tiltak overfor registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-45-kompetanse-i-forbindelse-med-insolvensbehandling">Art 45. Kompetanse i forbindelse med insolvensbehandling</a></li>
+<li class="lvl3"><a href="#kapittel-xiii-forholdet-til-andre-konvensjoner">Kapittel XIII. Forholdet til andre konvensjoner</a></li>
+<li class="lvl5"><a href="#art-45-a-forholdet-til-de-forente-nasjoners-konvensjon-om-overdragelse-av-fordringer-i-internasjonal-handel">Art 45 a. Forholdet til De forente nasjoners konvensjon om overdragelse av fordringer i internasjonal handel</a></li>
+<li class="lvl5"><a href="#art-46-forholdet-til-unidroit-konvensjonen-om-internasjonal-finansiell-leie">Art 46. Forholdet til UNIDROIT-konvensjonen om internasjonal finansiell leie</a></li>
+<li class="lvl3"><a href="#kapittel-xiv-sluttbestemmelser">Kapittel XIV. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-47-undertegning-ratifikasjon-godtakelse-godkjenning-eller-tiltredelse">Art 47. Undertegning, ratifikasjon, godtakelse, godkjenning eller tiltredelse</a></li>
+<li class="lvl5"><a href="#art-48-regionale-organisasjoner-for-konomisk-integrasjon">Art 48. Regionale organisasjoner for økonomisk integrasjon</a></li>
+<li class="lvl5"><a href="#art-49-ikrafttredelse">Art 49. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-50-interne-transaksjoner">Art 50. Interne transaksjoner</a></li>
+<li class="lvl5"><a href="#art-51-framtidige-protokoller">Art 51. Framtidige protokoller</a></li>
+<li class="lvl5"><a href="#art-52-territoriale-enheter">Art 52. Territoriale enheter</a></li>
+<li class="lvl5"><a href="#art-53-utpeking-av-domstoler">Art 53. Utpeking av domstoler</a></li>
+<li class="lvl5"><a href="#art-54-erklringer-om-tiltak">Art 54. Erklæringer om tiltak</a></li>
+<li class="lvl5"><a href="#art-55-erklringer-om-rettsmidler-i-pavente-av-endelig-avgjrelse">Art 55. Erklæringer om rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-56-forbehold-og-erklringer">Art 56. Forbehold og erklæringer</a></li>
+<li class="lvl5"><a href="#art-57-senere-erklringer">Art 57. Senere erklæringer</a></li>
+<li class="lvl5"><a href="#art-58-tilbaketrekning-av-erklringer">Art 58. Tilbaketrekning av erklæringer</a></li>
+<li class="lvl5"><a href="#art-59-oppsigelse">Art 59. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-60-overgangsbestemmelser">Art 60. Overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-61-tilsynskonferanser-endringer-og-andre-relaterte-sprsmal">Art 61. Tilsynskonferanser, endringer og andre relaterte spørsmål</a></li>
+<li class="lvl5"><a href="#art-62-depositaren-og-dens-oppgaver">Art 62. Depositaren og dens oppgaver</a></li>
+<li class="lvl2"><a href="#protocol-to-the-convention-on-international-interests-in-mobile-equipment-on-matters-specific-to-aircraft-equipment">Protocol to the Convention on International interests in Mobile Equipment on matters specific to aircraft equipment</a></li>
+<li class="lvl3"><a href="#chapter-i-sphere-of-application-and-general-provisions_1">Chapter I. Sphere of application and general provisions</a></li>
+<li class="lvl5"><a href="#art-i-defined-terms">Art I. Defined terms</a></li>
+<li class="lvl5"><a href="#art-ii-application-of-convention-as-regards-aircraft-objects">Art II. Application of Convention as regards aircraft objects</a></li>
+<li class="lvl5"><a href="#art-iii-application-of-convention-to-sales">Art III. Application of Convention to sales</a></li>
+<li class="lvl5"><a href="#art-iv-sphere-of-application">Art IV. Sphere of application</a></li>
+<li class="lvl5"><a href="#art-v-formalities-effects-and-registration-of-contracts-of-sale">Art V. Formalities, effects and registration of contracts of sale</a></li>
+<li class="lvl5"><a href="#art-vi-representative-capacities">Art VI. Representative capacities</a></li>
+<li class="lvl5"><a href="#art-vii-description-of-aircraft-objects">Art VII. Description of aircraft objects</a></li>
+<li class="lvl5"><a href="#art-viii-choice-of-law">Art VIII. Choice of law</a></li>
+<li class="lvl3"><a href="#chapter-ii-default-remedies-priorities-and-assignments">Chapter II. Default remedies, priorities and assignments</a></li>
+<li class="lvl5"><a href="#art-ix-modification-of-default-remedies-provisions">Art IX. Modification of default remedies provisions</a></li>
+<li class="lvl5"><a href="#art-x-modification-of-provisions-regarding-relief-pending-final-determination">Art X. Modification of provisions regarding relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-xi-remedies-on-insolvency">Art XI. Remedies on insolvency</a></li>
+<li class="lvl5"><a href="#art-xii-insolvency-assistance">Art XII. Insolvency assistance</a></li>
+<li class="lvl5"><a href="#art-xiii-de-registration-and-export-request-authorization">Art XIII. De-registration and export request authorization</a></li>
+<li class="lvl5"><a href="#art-xiv-modification-of-priority-provisions">Art XIV. Modification of priority provisions</a></li>
+<li class="lvl5"><a href="#art-xv-modification-of-assignment-provisions">Art XV. Modification of assignment provisions</a></li>
+<li class="lvl5"><a href="#art-xvi-debtor-provisions">Art XVI. Debtor provisions</a></li>
+<li class="lvl3"><a href="#chapter-iii-registry-provisions-relating-to-international-interests-in-aircraft-objects">Chapter III. Registry provisions relating to international interests in aircraft objects</a></li>
+<li class="lvl5"><a href="#art-xvii-the-supervisory-authority-and-the-registrar">Art XVII. The Supervisory Authority and the Registrar</a></li>
+<li class="lvl5"><a href="#art-xviii-first-regulations">Art XVIII. First regulations</a></li>
+<li class="lvl5"><a href="#art-xix-designated-entry-points">Art XIX. Designated entry points</a></li>
+<li class="lvl5"><a href="#art-xx-additional-modifications-to-registry-provisions">Art XX. Additional modifications to Registry provisions</a></li>
+<li class="lvl3"><a href="#chapter-iv-jurisdiction">Chapter IV. Jurisdiction</a></li>
+<li class="lvl5"><a href="#art-xxi-modification-of-jurisdiction-provisions">Art XXI. Modification of jurisdiction provisions</a></li>
+<li class="lvl5"><a href="#art-xxii-waivers-of-sovereign-immunity">Art XXII. Waivers of sovereign immunity</a></li>
+<li class="lvl3"><a href="#chapter-v-relationship-with-other-conventions">Chapter V. Relationship with other conventions</a></li>
+<li class="lvl5"><a href="#art-xxiii-relationship-with-the-convention-on-the-international-recognition-of-rights-in-aircraft">Art XXIII. Relationship with the Convention on the International Recognition of Rights in Aircraft</a></li>
+<li class="lvl5"><a href="#art-xxiv-relationship-with-the-convention-for-the-unification-of-certain-rules-relating-to-the-precautionary-attachment-of-aircraft">Art XXIV. Relationship with the Convention for the Unification of Certain Rules Relating to the Precautionary Attachment of Aircraft</a></li>
+<li class="lvl5"><a href="#art-xxv-relationship-with-the-unidroit-convention-on-international-financial-leasing">Art XXV. Relationship with the UNIDROIT Convention on International Financial Leasing</a></li>
+<li class="lvl3"><a href="#chapter-vi-final-provisions">Chapter VI. Final provisions</a></li>
+<li class="lvl5"><a href="#art-xxvi-signature-ratification-acceptance-approval-or-accession">Art XXVI. Signature, ratification, acceptance, approval or accession</a></li>
+<li class="lvl5"><a href="#art-xxvii-regional-economic-integration-organisations">Art XXVII. Regional Economic Integration Organisations</a></li>
+<li class="lvl5"><a href="#art-xxviii-entry-into-force">Art XXVIII. Entry into force</a></li>
+<li class="lvl5"><a href="#art-xxix-territorial-units">Art XXIX. Territorial units</a></li>
+<li class="lvl5"><a href="#art-xxx-declarations-relating-to-certain-provisions">Art XXX. Declarations relating to certain provisions</a></li>
+<li class="lvl5"><a href="#art-xxxi-declarations-under-the-convention">Art XXXI. Declarations under the Convention</a></li>
+<li class="lvl5"><a href="#art-xxxii-reservations-and-declarations">Art XXXII. Reservations and declarations</a></li>
+<li class="lvl5"><a href="#art-xxxiii-subsequent-declarations">Art XXXIII. Subsequent declarations</a></li>
+<li class="lvl5"><a href="#art-xxxiv-withdrawal-of-declarations">Art XXXIV. Withdrawal of declarations</a></li>
+<li class="lvl5"><a href="#art-xxxv-denunciations">Art XXXV. Denunciations</a></li>
+<li class="lvl5"><a href="#art-xxxvi-review-conferences-amendments-and-related-matters">Art XXXVI. Review Conferences, amendments and related matters</a></li>
+<li class="lvl5"><a href="#art-xxxvii-depositary-and-its-functions">Art XXXVII. Depositary and its functions</a></li>
+<li class="lvl3"><a href="#annex-2-form-of-irrevocable-de-registration-and-export-request-authorisation">Annex 2. Form of irrevocable de-registration and export request authorisation</a></li>
+<li class="lvl2"><a href="#protokoll-til-konvensjonen-om-internasjonale-sikkerhetsretter-i-mobilt-lsre-om-srlige-forhold-for-luftfartyslsre">Protokoll til konvensjonen om internasjonale sikkerhetsretter i mobilt løsøre, om særlige forhold for luftfartøysløsøre</a></li>
+<li class="lvl3"><a href="#kapittel-i-virkeomrade-og-alminnelige-bestemmelser_1">Kapittel I. Virkeområde og alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-i-definisjoner">Art I. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-ii-konvensjonens-anvendelse-pa-luftfartysgjenstander">Art II. Konvensjonens anvendelse på luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-iii-konvensjonens-anvendelse-pa-salg">Art III. Konvensjonens anvendelse på salg</a></li>
+<li class="lvl5"><a href="#art-iv-virkeomrade">Art IV. Virkeområde</a></li>
+<li class="lvl5"><a href="#art-v-formelle-krav-til-salgsavtaler-registrering-av-salgsavtaler-og-salgsavtalers-rettsvirkninger">Art V. Formelle krav til salgsavtaler, registrering av salgsavtaler og salgsavtalers rettsvirkninger</a></li>
+<li class="lvl5"><a href="#art-vi-representanters-fullmakter">Art VI. Representanters fullmakter</a></li>
+<li class="lvl5"><a href="#art-vii-beskrivelse-av-luftfartysgjenstander">Art VII. Beskrivelse av luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-viii-lovvalg">Art VIII. Lovvalg</a></li>
+<li class="lvl3"><a href="#kapittel-ii-misligholdsbefyelser-prioriteter-og-overdragelser">Kapittel II. Misligholdsbeføyelser, prioriteter og overdragelser</a></li>
+<li class="lvl5"><a href="#art-ix-endring-av-bestemmelsene-om-misligholdsbefyelser">Art IX. Endring av bestemmelsene om misligholdsbeføyelser</a></li>
+<li class="lvl5"><a href="#art-x-endring-av-bestemmelsene-om-rettsmidler-i-pavente-av-endelig-avgjrelse">Art X. Endring av bestemmelsene om rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-xi-tiltak-ved-insolvens">Art XI. Tiltak ved insolvens</a></li>
+<li class="lvl5"><a href="#art-xii-bistand-ved-insolvens">Art XII. Bistand ved insolvens</a></li>
+<li class="lvl5"><a href="#art-xiii-fullmakt-til-a-anmode-om-avregistrering-og-eksporttillatelse">Art XIII. Fullmakt til å anmode om avregistrering og eksporttillatelse</a></li>
+<li class="lvl5"><a href="#art-xiv-endring-av-bestemmelsene-om-prioritet">Art XIV. Endring av bestemmelsene om prioritet</a></li>
+<li class="lvl5"><a href="#art-xv-endring-av-bestemmelsene-om-overdragelse">Art XV. Endring av bestemmelsene om overdragelse</a></li>
+<li class="lvl5"><a href="#art-xvi-bestemmelser-om-debitor">Art XVI. Bestemmelser om debitor</a></li>
+<li class="lvl3"><a href="#kapittel-iii-bestemmelser-om-registreringsordningen-for-internasjonale-sikkerhetsretter-i-luftfartysgjenstander">Kapittel III. Bestemmelser om registreringsordningen for internasjonale sikkerhetsretter i luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-xvii-tilsynsmyndigheten-og-registreringsmyndigheten">Art XVII. Tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-xviii-det-frste-reglementet">Art XVIII. Det første reglementet</a></li>
+<li class="lvl5"><a href="#art-xix-utpekte-kontaktorganer">Art XIX. Utpekte kontaktorganer</a></li>
+<li class="lvl5"><a href="#art-xx-ytterligere-endringer-av-bestemmelsene-om-registeret">Art XX. Ytterligere endringer av bestemmelsene om registeret</a></li>
+<li class="lvl3"><a href="#kapittel-iv-kompetanse">Kapittel IV. Kompetanse</a></li>
+<li class="lvl5"><a href="#art-xxi-endring-av-bestemmelsene-om-kompetanse">Art XXI. Endring av bestemmelsene om kompetanse</a></li>
+<li class="lvl5"><a href="#art-xxii-avkall-pa-suveren-immunitet">Art XXII. Avkall på suveren immunitet</a></li>
+<li class="lvl3"><a href="#kapittel-v-forholdet-til-andre-konvensjoner">Kapittel V. Forholdet til andre konvensjoner</a></li>
+<li class="lvl5"><a href="#art-xxiii-forholdet-til-overenskomst-om-internasjonal-anerkjennelse-av-rettigheter-i-luftfartyer">Art XXIII. Forholdet til Overenskomst om internasjonal anerkjennelse av rettigheter i luftfartøyer</a></li>
+<li class="lvl5"><a href="#art-xxiv-forholdet-til-overenskomst-om-innfring-av-visse-ensartede-regler-om-arrest-i-luftfartyer">Art XXIV. Forholdet til Overenskomst om innføring av visse ensartede regler om arrest i luftfartøyer</a></li>
+<li class="lvl5"><a href="#art-xxv-forholdet-til-unidroit-konvensjonen-om-internasjonal-finansiell-leie">Art XXV. Forholdet til UNIDROIT-konvensjonen om internasjonal finansiell leie</a></li>
+<li class="lvl3"><a href="#kapittel-vi-sluttbestemmelser">Kapittel VI. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-xxvi-undertegning-ratifikasjon-godtakelse-godkjenning-eller-tiltredelse">Art XXVI. Undertegning, ratifikasjon, godtakelse, godkjenning eller tiltredelse</a></li>
+<li class="lvl5"><a href="#art-xxvii-regionale-organisasjoner-for-konomisk-integrasjon">Art XXVII. Regionale organisasjoner for økonomisk integrasjon</a></li>
+<li class="lvl5"><a href="#art-xxviii-ikrafttredelse">Art XXVIII. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-xxix-territoriale-enheter">Art XXIX. Territoriale enheter</a></li>
+<li class="lvl5"><a href="#art-xxx-erklringer-om-visse-bestemmelser">Art XXX. Erklæringer om visse bestemmelser</a></li>
+<li class="lvl5"><a href="#art-xxxi-erklringer-i-henhold-til-konvensjonen">Art XXXI. Erklæringer i henhold til konvensjonen</a></li>
+<li class="lvl5"><a href="#art-xxxii-forbehold-og-erklringer">Art XXXII. Forbehold og erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxiii-senere-erklringer">Art XXXIII. Senere erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxiv-tilbaketrekning-av-erklringer">Art XXXIV. Tilbaketrekning av erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxv-oppsigelse">Art XXXV. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-xxxvi-tilsynskonferanser-endringer-og-andre-relaterte-sprsmal">Art XXXVI. Tilsynskonferanser, endringer og andre relaterte spørsmål</a></li>
+<li class="lvl5"><a href="#art-xxxvii-depositaren-og-dens-oppgaver">Art XXXVII. Depositaren og dens oppgaver</a></li>
+<li class="lvl3"><a href="#vedlegg-skjema-for-ugjenkallelig-fullmakt-til-a-anmode-om-avregistrering-og-tillatelse-til-eksport">Vedlegg. Skjema for ugjenkallelig fullmakt til å anmode om avregistrering og tillatelse til eksport</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-11-12-58.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om internasjonale sikkerhetsretter i mobilt løsøre</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-11-12-58.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2010-11-12-58 <code>lov/2010-11-12-58</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om internasjonal sikkerhet i mobilt løsøre</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Internasjonal rett &raquo; Konvensjoner. Overenskomster</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.2011</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2010-11-12-58" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#convention-on-international-interests-in-mobile-equipment">Convention on International interests in mobile equipment</a></li>
+<li class="lvl3"><a href="#chapter-i-sphere-of-application-and-general-provisions">Chapter I. Sphere of application and general provisions</a></li>
+<li class="lvl5"><a href="#art-1-definitions">Art 1. Definitions</a></li>
+<li class="lvl5"><a href="#art-2-the-international-interest">Art 2. The international interest</a></li>
+<li class="lvl5"><a href="#art-3-sphere-of-application">Art 3. Sphere of application</a></li>
+<li class="lvl5"><a href="#art-4-where-debtor-is-situated">Art 4. Where debtor is situated</a></li>
+<li class="lvl5"><a href="#art-5-interpretation-and-applicable-law">Art 5. Interpretation and applicable law</a></li>
+<li class="lvl5"><a href="#art-6-relationship-between-the-convention-and-the-protocol">Art 6. Relationship between the Convention and the Protocol</a></li>
+<li class="lvl3"><a href="#chapter-ii-constitution-of-an-international-interest">Chapter II. Constitution of an international interest</a></li>
+<li class="lvl5"><a href="#art-7-formal-requirements">Art 7. Formal requirements</a></li>
+<li class="lvl3"><a href="#chapter-iii-default-remedies">Chapter III. Default remedies</a></li>
+<li class="lvl5"><a href="#art-8-remedies-of-charge">Art 8. Remedies of charge</a></li>
+<li class="lvl5"><a href="#art-9-vesting-of-object-in-satisfaction-redemption">Art 9. Vesting of object in satisfaction; redemption</a></li>
+<li class="lvl5"><a href="#art-10-remedies-of-conditional-seller-or-lessor">Art 10. Remedies of conditional seller or lessor</a></li>
+<li class="lvl5"><a href="#art-11-meaning-of-default">Art 11. Meaning of default</a></li>
+<li class="lvl5"><a href="#art-12-additional-remedies">Art 12. Additional remedies</a></li>
+<li class="lvl5"><a href="#art-13-relief-pending-final-determination">Art 13. Relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-14-procedural-requirements">Art 14. Procedural requirements</a></li>
+<li class="lvl5"><a href="#art-15-derogation">Art 15. Derogation</a></li>
+<li class="lvl3"><a href="#chapter-iv-the-international-registration-system">Chapter IV. The international registration system</a></li>
+<li class="lvl5"><a href="#art-16-the-international-registry">Art 16. The International Registry</a></li>
+<li class="lvl5"><a href="#art-17-the-supervisory-authority-and-the-registrar">Art 17. The Supervisory Authority and the Registrar</a></li>
+<li class="lvl3"><a href="#chapter-v-other-matters-relating-to-registration">Chapter V. Other matters relating to registration</a></li>
+<li class="lvl5"><a href="#art-18-registration-requirements">Art 18. Registration requirements</a></li>
+<li class="lvl5"><a href="#art-19-validity-and-time-of-registration">Art 19. Validity and time of registration</a></li>
+<li class="lvl5"><a href="#art-20-consent-to-registration">Art 20. Consent to registration</a></li>
+<li class="lvl5"><a href="#art-21-duration-of-registration">Art 21. Duration of registration</a></li>
+<li class="lvl5"><a href="#art-22-searches">Art 22. Searches</a></li>
+<li class="lvl5"><a href="#art-23-list-of-declarations-and-declared-non-consensual-rights-or-interests">Art 23. List of declarations and declared non-consensual rights or interests</a></li>
+<li class="lvl5"><a href="#art-24-evidentiary-value-of-certificates">Art 24. Evidentiary value of certificates</a></li>
+<li class="lvl5"><a href="#art-25-discharge-of-registration">Art 25. Discharge of registration</a></li>
+<li class="lvl5"><a href="#art-26-access-to-the-international-registration-facilities">Art 26. Access to the international registration facilities</a></li>
+<li class="lvl3"><a href="#chapter-vi-privileges-and-immunities-of-the-supervisory-authority-and-the-registrar">Chapter VI. Privileges and immunities of the Supervisory Authority and the Registrar</a></li>
+<li class="lvl5"><a href="#art-27-legal-personality-immunity">Art 27. Legal personality; immunity</a></li>
+<li class="lvl3"><a href="#chapter-vii-liability-of-the-registrar">Chapter VII. Liability of the Registrar</a></li>
+<li class="lvl5"><a href="#art-28-liability-and-financial-assurances">Art 28. Liability and financial assurances</a></li>
+<li class="lvl3"><a href="#chapter-viii-effects-of-an-international-interest-as-against-third-parties">Chapter VIII. Effects of an international interest as against third parties</a></li>
+<li class="lvl5"><a href="#art-29-priority-of-competing-interests">Art 29. Priority of competing interests</a></li>
+<li class="lvl5"><a href="#art-30-effects-of-insolvency">Art 30. Effects of insolvency</a></li>
+<li class="lvl3"><a href="#chapter-ix-assignments-of-associated-rights-and-international-interests-rights-of-subrogation">Chapter IX. Assignments of associated rights and international interests; rights of subrogation</a></li>
+<li class="lvl5"><a href="#art-31-effects-of-assignment">Art 31. Effects of assignment</a></li>
+<li class="lvl5"><a href="#art-32-formal-requirements-of-assignment">Art 32. Formal requirements of assignment</a></li>
+<li class="lvl5"><a href="#art-33-debtors-duty-to-assignee">Art 33. Debtor's duty to assignee</a></li>
+<li class="lvl5"><a href="#art-34-default-remedies-in-respect-of-assignment-by-way-of-security">Art 34. Default remedies in respect of assignment by way of security</a></li>
+<li class="lvl5"><a href="#art-35-priority-of-competing-assignments">Art 35. Priority of competing assignments</a></li>
+<li class="lvl5"><a href="#art-36-assignees-priority-with-respect-to-associated-rights">Art 36. Assignee's priority with respect to associated rights</a></li>
+<li class="lvl5"><a href="#art-37-effects-of-assignors-insolvency">Art 37. Effects of assignor's insolvency</a></li>
+<li class="lvl5"><a href="#art-38-subrogation">Art 38. Subrogation</a></li>
+<li class="lvl3"><a href="#chapter-x-rights-or-interests-subject-to-declarations-by-contracting-states">Chapter X. Rights or interests subject to declarations by Contracting States</a></li>
+<li class="lvl5"><a href="#art-39-rights-having-priority-without-registration">Art 39. Rights having priority without registration</a></li>
+<li class="lvl5"><a href="#art-40-registrable-non-consensual-rights-or-interests">Art 40. Registrable non-consensual rights or interests</a></li>
+<li class="lvl3"><a href="#chapter-xi-application-of-the-convention-to-sales">Chapter XI. Application of the Convention to sales</a></li>
+<li class="lvl5"><a href="#art-41-sale-and-prospective-sale">Art 41. Sale and prospective sale</a></li>
+<li class="lvl3"><a href="#chapter-xii-jurisdiction">Chapter XII. Jurisdiction</a></li>
+<li class="lvl5"><a href="#art-42-choice-of-forum">Art 42. Choice of forum</a></li>
+<li class="lvl5"><a href="#art-43-jurisdiction-under-article-13">Art 43. Jurisdiction under Article 13</a></li>
+<li class="lvl5"><a href="#art-44-jurisdiction-to-make-orders-against-the-registrar">Art 44. Jurisdiction to make orders against the Registrar</a></li>
+<li class="lvl5"><a href="#art-45-jurisdiction-in-respect-of-insolvency-proceedings">Art 45. Jurisdiction in respect of insolvency proceedings</a></li>
+<li class="lvl3"><a href="#chapter-xiii-relationship-with-other-conventions">Chapter XIII. Relationship with other Conventions</a></li>
+<li class="lvl5"><a href="#art-45-bis-relationship-with-the-united-nations-convention-on-the-assignment-of-receivables-in-international-trade">Art 45 bis. Relationship with the United Nations Convention on the Assignment of Receivables in International Trade</a></li>
+<li class="lvl5"><a href="#art-46-relationship-with-the-unidroit-convention-on-international-financial-leasing">Art 46. Relationship with the UNIDROIT Convention on International Financial Leasing</a></li>
+<li class="lvl3"><a href="#chapter-xiv-final-provisions">Chapter XIV. Final provisions</a></li>
+<li class="lvl5"><a href="#art-47-signature-ratification-acceptance-approval-or-accession">Art 47. Signature, ratification, acceptance, approval or accession</a></li>
+<li class="lvl5"><a href="#art-48-regional-economic-integration-organisations">Art 48. Regional Economic Integration Organisations</a></li>
+<li class="lvl5"><a href="#art-49-entry-into-force">Art 49. Entry into force</a></li>
+<li class="lvl5"><a href="#art-50-internal-transactions">Art 50. Internal transactions</a></li>
+<li class="lvl5"><a href="#art-51-future-protocols">Art 51. Future Protocols</a></li>
+<li class="lvl5"><a href="#art-52-territorial-units">Art 52. Territorial units</a></li>
+<li class="lvl5"><a href="#art-53-determination-of-courts">Art 53. Determination of courts</a></li>
+<li class="lvl5"><a href="#art-54-declarations-regarding-remedies">Art 54. Declarations regarding remedies</a></li>
+<li class="lvl5"><a href="#art-55-declarations-regarding-relief-pending-final-determination">Art 55. Declarations regarding relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-56-reservations-and-declarations">Art 56. Reservations and declarations</a></li>
+<li class="lvl5"><a href="#art-57-subsequent-declarations">Art 57. Subsequent declarations</a></li>
+<li class="lvl5"><a href="#art-58-withdrawal-of-declarations">Art 58. Withdrawal of declarations</a></li>
+<li class="lvl5"><a href="#art-59-denunciations">Art 59. Denunciations</a></li>
+<li class="lvl5"><a href="#art-60-transitional-provisions">Art 60. Transitional provisions</a></li>
+<li class="lvl5"><a href="#art-61-review-conferences-amendments-and-related-matters">Art 61. Review Conferences, amendments and related matters</a></li>
+<li class="lvl5"><a href="#art-62-depositary-and-its-functions">Art 62. Depositary and its functions</a></li>
+<li class="lvl2"><a href="#konvensjon-om-internasjonale-sikkerhetsretter-i-mobilt-lsre">Konvensjon om internasjonale sikkerhetsretter i mobilt løsøre</a></li>
+<li class="lvl3"><a href="#kapittel-i-virkeomrade-og-alminnelige-bestemmelser">Kapittel I. Virkeområde og alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-1-definisjoner">Art 1. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-2-internasjonal-sikkerhetsrett">Art 2. Internasjonal sikkerhetsrett</a></li>
+<li class="lvl5"><a href="#art-3-virkeomrade">Art 3. Virkeområde</a></li>
+<li class="lvl5"><a href="#art-4-debitors-beliggenhet-eller-oppholdssted">Art 4. Debitors beliggenhet eller oppholdssted</a></li>
+<li class="lvl5"><a href="#art-5-fortolkning-og-gjeldende-lovgivning">Art 5. Fortolkning og gjeldende lovgivning</a></li>
+<li class="lvl5"><a href="#art-6-forholdet-mellom-konvensjonen-og-protokollen">Art 6. Forholdet mellom konvensjonen og protokollen</a></li>
+<li class="lvl3"><a href="#kapittel-ii-stiftelse-av-en-internasjonal-sikkerhetsrett">Kapittel II. Stiftelse av en internasjonal sikkerhetsrett</a></li>
+<li class="lvl5"><a href="#art-7-formelle-krav">Art 7. Formelle krav</a></li>
+<li class="lvl3"><a href="#kapittel-iii-misligholdsbefyelser">Kapittel III. Misligholdsbeføyelser</a></li>
+<li class="lvl5"><a href="#art-8-tiltak-som-kan-treffes-av-kravshaver">Art 8. Tiltak som kan treffes av kravshaver</a></li>
+<li class="lvl5"><a href="#art-9-overfring-av-eiendomsrett-som-kompensasjon-frigjring">Art 9. Overføring av eiendomsrett som kompensasjon, frigjøring</a></li>
+<li class="lvl5"><a href="#art-10-tiltak-som-kan-treffes-av-selger-med-forbehold-eller-av-utleier">Art 10. Tiltak som kan treffes av selger med forbehold eller av utleier</a></li>
+<li class="lvl5"><a href="#art-11-begrepet-mislighold">Art 11. Begrepet mislighold</a></li>
+<li class="lvl5"><a href="#art-12-ytterligere-tiltak">Art 12. Ytterligere tiltak</a></li>
+<li class="lvl5"><a href="#art-13-rettsmidler-i-pavente-av-endelig-avgjrelse">Art 13. Rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-14-krav-til-prosess">Art 14. Krav til prosess</a></li>
+<li class="lvl5"><a href="#art-15-fravikelse">Art 15. Fravikelse</a></li>
+<li class="lvl3"><a href="#kapittel-iv-den-internasjonale-registreringsordningen">Kapittel IV. Den internasjonale registreringsordningen</a></li>
+<li class="lvl5"><a href="#art-16-det-internasjonale-registeret">Art 16. Det internasjonale registeret</a></li>
+<li class="lvl5"><a href="#art-17-tilsynsmyndigheten-og-registreringsmyndigheten">Art 17. Tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl3"><a href="#kapittel-v-andre-forhold-i-forbindelse-med-registrering">Kapittel V. Andre forhold i forbindelse med registrering</a></li>
+<li class="lvl5"><a href="#art-18-vilkar-for-registrering">Art 18. Vilkår for registrering</a></li>
+<li class="lvl5"><a href="#art-19-gyldighet-og-registreringstidspunkt">Art 19. Gyldighet og registreringstidspunkt</a></li>
+<li class="lvl5"><a href="#art-20-samtykke-til-registrering">Art 20. Samtykke til registrering</a></li>
+<li class="lvl5"><a href="#art-21-registreringens-gyldighet">Art 21. Registreringens gyldighet</a></li>
+<li class="lvl5"><a href="#art-22-sk">Art 22. Søk</a></li>
+<li class="lvl5"><a href="#art-23-liste-over-erklringer-og-ikke-avtalemessige-rettigheter-eller-sikkerhetsretter">Art 23. Liste over erklæringer og ikke-avtalemessige rettigheter eller sikkerhetsretter</a></li>
+<li class="lvl5"><a href="#art-24-attestens-bevisverdi">Art 24. Attestens bevisverdi</a></li>
+<li class="lvl5"><a href="#art-25-sletting-av-registrering">Art 25. Sletting av registrering</a></li>
+<li class="lvl5"><a href="#art-26-tilgang-til-den-internasjonale-registreringstjenesten">Art 26. Tilgang til den internasjonale registreringstjenesten</a></li>
+<li class="lvl3"><a href="#kapittel-vi-privilegier-og-immunitet-for-tilsynsmyndigheten-og-registreringsmyndigheten">Kapittel VI. Privilegier og immunitet for tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-27-status-som-juridisk-person-immunitet">Art 27. Status som juridisk person, immunitet</a></li>
+<li class="lvl3"><a href="#kapittel-vii-registreringsmyndighetens-ansvar">Kapittel VII. Registreringsmyndighetens ansvar</a></li>
+<li class="lvl5"><a href="#art-28-ansvar-og-konomiske-forsikringer">Art 28. Ansvar og økonomiske forsikringer</a></li>
+<li class="lvl3"><a href="#kapittel-viii-en-internasjonal-sikkerhetsretts-rettsvirkninger-overfor-tredjepersoner">Kapittel VIII. En internasjonal sikkerhetsretts rettsvirkninger overfor tredjepersoner</a></li>
+<li class="lvl5"><a href="#art-29-prioritet-for-konkurrerende-sikkerhetsretter">Art 29. Prioritet for konkurrerende sikkerhetsretter</a></li>
+<li class="lvl5"><a href="#art-30-rettsvirkninger-ved-insolvens">Art 30. Rettsvirkninger ved insolvens</a></li>
+<li class="lvl3"><a href="#kapittel-ix-overdragelse-av-tilhrende-rettigheter-og-internasjonale-sikkerhetsretter-subrogasjonsrettigheter">Kapittel IX. Overdragelse av tilhørende rettigheter og internasjonale sikkerhetsretter, subrogasjonsrettigheter</a></li>
+<li class="lvl5"><a href="#art-31-rettsvirkninger-ved-overdragelse">Art 31. Rettsvirkninger ved overdragelse</a></li>
+<li class="lvl5"><a href="#art-32-formelle-krav-til-overdragelse">Art 32. Formelle krav til overdragelse</a></li>
+<li class="lvl5"><a href="#art-33-debitors-forpliktelser-overfor-mottaker">Art 33. Debitors forpliktelser overfor mottaker</a></li>
+<li class="lvl5"><a href="#art-34-misligholdsbefyelser-i-forbindelse-med-overdragelse-som-sikkerhet">Art 34. Misligholdsbeføyelser i forbindelse med overdragelse som sikkerhet</a></li>
+<li class="lvl5"><a href="#art-35-prioritet-for-konkurrerende-overdragelser">Art 35. Prioritet for konkurrerende overdragelser</a></li>
+<li class="lvl5"><a href="#art-36-mottakers-prioritet-med-hensyn-til-tilhrende-rettigheter">Art 36. Mottakers prioritet med hensyn til tilhørende rettigheter</a></li>
+<li class="lvl5"><a href="#art-37-rettsvirkninger-av-overdragers-insolvens">Art 37. Rettsvirkninger av overdragers insolvens</a></li>
+<li class="lvl5"><a href="#art-38-subrogasjon">Art 38. Subrogasjon</a></li>
+<li class="lvl3"><a href="#kapittel-x-rettigheter-eller-sikkerhetsretter-omhandlet-i-erklringer-fra-konvensjonsstatene">Kapittel X. Rettigheter eller sikkerhetsretter omhandlet i erklæringer fra konvensjonsstatene</a></li>
+<li class="lvl5"><a href="#art-39-rettigheter-som-har-prioritet-uten-registrering">Art 39. Rettigheter som har prioritet uten registrering</a></li>
+<li class="lvl5"><a href="#art-40-registrerbare-ikke-avtalemessige-rettigheter-eller-sikkerhetsretter">Art 40. Registrerbare ikke-avtalemessige rettigheter eller sikkerhetsretter</a></li>
+<li class="lvl3"><a href="#kapittel-xi-konvensjonens-anvendelse-pa-salg">Kapittel XI. Konvensjonens anvendelse på salg</a></li>
+<li class="lvl5"><a href="#art-41-salg-og-framtidig-salg">Art 41. Salg og framtidig salg</a></li>
+<li class="lvl3"><a href="#kapittel-xii-kompetanse">Kapittel XII. Kompetanse</a></li>
+<li class="lvl5"><a href="#art-42-valg-av-verneting">Art 42. Valg av verneting</a></li>
+<li class="lvl5"><a href="#art-43-kompetanse-i-samsvar-med-artikkel-13">Art 43. Kompetanse i samsvar med artikkel 13</a></li>
+<li class="lvl5"><a href="#art-44-kompetanse-til-a-treffe-beslutning-om-tiltak-overfor-registreringsmyndigheten">Art 44. Kompetanse til å treffe beslutning om tiltak overfor registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-45-kompetanse-i-forbindelse-med-insolvensbehandling">Art 45. Kompetanse i forbindelse med insolvensbehandling</a></li>
+<li class="lvl3"><a href="#kapittel-xiii-forholdet-til-andre-konvensjoner">Kapittel XIII. Forholdet til andre konvensjoner</a></li>
+<li class="lvl5"><a href="#art-45-a-forholdet-til-de-forente-nasjoners-konvensjon-om-overdragelse-av-fordringer-i-internasjonal-handel">Art 45 a. Forholdet til De forente nasjoners konvensjon om overdragelse av fordringer i internasjonal handel</a></li>
+<li class="lvl5"><a href="#art-46-forholdet-til-unidroit-konvensjonen-om-internasjonal-finansiell-leie">Art 46. Forholdet til UNIDROIT-konvensjonen om internasjonal finansiell leie</a></li>
+<li class="lvl3"><a href="#kapittel-xiv-sluttbestemmelser">Kapittel XIV. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-47-undertegning-ratifikasjon-godtakelse-godkjenning-eller-tiltredelse">Art 47. Undertegning, ratifikasjon, godtakelse, godkjenning eller tiltredelse</a></li>
+<li class="lvl5"><a href="#art-48-regionale-organisasjoner-for-konomisk-integrasjon">Art 48. Regionale organisasjoner for økonomisk integrasjon</a></li>
+<li class="lvl5"><a href="#art-49-ikrafttredelse">Art 49. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-50-interne-transaksjoner">Art 50. Interne transaksjoner</a></li>
+<li class="lvl5"><a href="#art-51-framtidige-protokoller">Art 51. Framtidige protokoller</a></li>
+<li class="lvl5"><a href="#art-52-territoriale-enheter">Art 52. Territoriale enheter</a></li>
+<li class="lvl5"><a href="#art-53-utpeking-av-domstoler">Art 53. Utpeking av domstoler</a></li>
+<li class="lvl5"><a href="#art-54-erklringer-om-tiltak">Art 54. Erklæringer om tiltak</a></li>
+<li class="lvl5"><a href="#art-55-erklringer-om-rettsmidler-i-pavente-av-endelig-avgjrelse">Art 55. Erklæringer om rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-56-forbehold-og-erklringer">Art 56. Forbehold og erklæringer</a></li>
+<li class="lvl5"><a href="#art-57-senere-erklringer">Art 57. Senere erklæringer</a></li>
+<li class="lvl5"><a href="#art-58-tilbaketrekning-av-erklringer">Art 58. Tilbaketrekning av erklæringer</a></li>
+<li class="lvl5"><a href="#art-59-oppsigelse">Art 59. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-60-overgangsbestemmelser">Art 60. Overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#art-61-tilsynskonferanser-endringer-og-andre-relaterte-sprsmal">Art 61. Tilsynskonferanser, endringer og andre relaterte spørsmål</a></li>
+<li class="lvl5"><a href="#art-62-depositaren-og-dens-oppgaver">Art 62. Depositaren og dens oppgaver</a></li>
+<li class="lvl2"><a href="#protocol-to-the-convention-on-international-interests-in-mobile-equipment-on-matters-specific-to-aircraft-equipment">Protocol to the Convention on International interests in Mobile Equipment on matters specific to aircraft equipment</a></li>
+<li class="lvl3"><a href="#chapter-i-sphere-of-application-and-general-provisions_1">Chapter I. Sphere of application and general provisions</a></li>
+<li class="lvl5"><a href="#art-i-defined-terms">Art I. Defined terms</a></li>
+<li class="lvl5"><a href="#art-ii-application-of-convention-as-regards-aircraft-objects">Art II. Application of Convention as regards aircraft objects</a></li>
+<li class="lvl5"><a href="#art-iii-application-of-convention-to-sales">Art III. Application of Convention to sales</a></li>
+<li class="lvl5"><a href="#art-iv-sphere-of-application">Art IV. Sphere of application</a></li>
+<li class="lvl5"><a href="#art-v-formalities-effects-and-registration-of-contracts-of-sale">Art V. Formalities, effects and registration of contracts of sale</a></li>
+<li class="lvl5"><a href="#art-vi-representative-capacities">Art VI. Representative capacities</a></li>
+<li class="lvl5"><a href="#art-vii-description-of-aircraft-objects">Art VII. Description of aircraft objects</a></li>
+<li class="lvl5"><a href="#art-viii-choice-of-law">Art VIII. Choice of law</a></li>
+<li class="lvl3"><a href="#chapter-ii-default-remedies-priorities-and-assignments">Chapter II. Default remedies, priorities and assignments</a></li>
+<li class="lvl5"><a href="#art-ix-modification-of-default-remedies-provisions">Art IX. Modification of default remedies provisions</a></li>
+<li class="lvl5"><a href="#art-x-modification-of-provisions-regarding-relief-pending-final-determination">Art X. Modification of provisions regarding relief pending final determination</a></li>
+<li class="lvl5"><a href="#art-xi-remedies-on-insolvency">Art XI. Remedies on insolvency</a></li>
+<li class="lvl5"><a href="#art-xii-insolvency-assistance">Art XII. Insolvency assistance</a></li>
+<li class="lvl5"><a href="#art-xiii-de-registration-and-export-request-authorization">Art XIII. De-registration and export request authorization</a></li>
+<li class="lvl5"><a href="#art-xiv-modification-of-priority-provisions">Art XIV. Modification of priority provisions</a></li>
+<li class="lvl5"><a href="#art-xv-modification-of-assignment-provisions">Art XV. Modification of assignment provisions</a></li>
+<li class="lvl5"><a href="#art-xvi-debtor-provisions">Art XVI. Debtor provisions</a></li>
+<li class="lvl3"><a href="#chapter-iii-registry-provisions-relating-to-international-interests-in-aircraft-objects">Chapter III. Registry provisions relating to international interests in aircraft objects</a></li>
+<li class="lvl5"><a href="#art-xvii-the-supervisory-authority-and-the-registrar">Art XVII. The Supervisory Authority and the Registrar</a></li>
+<li class="lvl5"><a href="#art-xviii-first-regulations">Art XVIII. First regulations</a></li>
+<li class="lvl5"><a href="#art-xix-designated-entry-points">Art XIX. Designated entry points</a></li>
+<li class="lvl5"><a href="#art-xx-additional-modifications-to-registry-provisions">Art XX. Additional modifications to Registry provisions</a></li>
+<li class="lvl3"><a href="#chapter-iv-jurisdiction">Chapter IV. Jurisdiction</a></li>
+<li class="lvl5"><a href="#art-xxi-modification-of-jurisdiction-provisions">Art XXI. Modification of jurisdiction provisions</a></li>
+<li class="lvl5"><a href="#art-xxii-waivers-of-sovereign-immunity">Art XXII. Waivers of sovereign immunity</a></li>
+<li class="lvl3"><a href="#chapter-v-relationship-with-other-conventions">Chapter V. Relationship with other conventions</a></li>
+<li class="lvl5"><a href="#art-xxiii-relationship-with-the-convention-on-the-international-recognition-of-rights-in-aircraft">Art XXIII. Relationship with the Convention on the International Recognition of Rights in Aircraft</a></li>
+<li class="lvl5"><a href="#art-xxiv-relationship-with-the-convention-for-the-unification-of-certain-rules-relating-to-the-precautionary-attachment-of-aircraft">Art XXIV. Relationship with the Convention for the Unification of Certain Rules Relating to the Precautionary Attachment of Aircraft</a></li>
+<li class="lvl5"><a href="#art-xxv-relationship-with-the-unidroit-convention-on-international-financial-leasing">Art XXV. Relationship with the UNIDROIT Convention on International Financial Leasing</a></li>
+<li class="lvl3"><a href="#chapter-vi-final-provisions">Chapter VI. Final provisions</a></li>
+<li class="lvl5"><a href="#art-xxvi-signature-ratification-acceptance-approval-or-accession">Art XXVI. Signature, ratification, acceptance, approval or accession</a></li>
+<li class="lvl5"><a href="#art-xxvii-regional-economic-integration-organisations">Art XXVII. Regional Economic Integration Organisations</a></li>
+<li class="lvl5"><a href="#art-xxviii-entry-into-force">Art XXVIII. Entry into force</a></li>
+<li class="lvl5"><a href="#art-xxix-territorial-units">Art XXIX. Territorial units</a></li>
+<li class="lvl5"><a href="#art-xxx-declarations-relating-to-certain-provisions">Art XXX. Declarations relating to certain provisions</a></li>
+<li class="lvl5"><a href="#art-xxxi-declarations-under-the-convention">Art XXXI. Declarations under the Convention</a></li>
+<li class="lvl5"><a href="#art-xxxii-reservations-and-declarations">Art XXXII. Reservations and declarations</a></li>
+<li class="lvl5"><a href="#art-xxxiii-subsequent-declarations">Art XXXIII. Subsequent declarations</a></li>
+<li class="lvl5"><a href="#art-xxxiv-withdrawal-of-declarations">Art XXXIV. Withdrawal of declarations</a></li>
+<li class="lvl5"><a href="#art-xxxv-denunciations">Art XXXV. Denunciations</a></li>
+<li class="lvl5"><a href="#art-xxxvi-review-conferences-amendments-and-related-matters">Art XXXVI. Review Conferences, amendments and related matters</a></li>
+<li class="lvl5"><a href="#art-xxxvii-depositary-and-its-functions">Art XXXVII. Depositary and its functions</a></li>
+<li class="lvl3"><a href="#annex-2-form-of-irrevocable-de-registration-and-export-request-authorisation">Annex 2. Form of irrevocable de-registration and export request authorisation</a></li>
+<li class="lvl2"><a href="#protokoll-til-konvensjonen-om-internasjonale-sikkerhetsretter-i-mobilt-lsre-om-srlige-forhold-for-luftfartyslsre">Protokoll til konvensjonen om internasjonale sikkerhetsretter i mobilt løsøre, om særlige forhold for luftfartøysløsøre</a></li>
+<li class="lvl3"><a href="#kapittel-i-virkeomrade-og-alminnelige-bestemmelser_1">Kapittel I. Virkeområde og alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#art-i-definisjoner">Art I. Definisjoner</a></li>
+<li class="lvl5"><a href="#art-ii-konvensjonens-anvendelse-pa-luftfartysgjenstander">Art II. Konvensjonens anvendelse på luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-iii-konvensjonens-anvendelse-pa-salg">Art III. Konvensjonens anvendelse på salg</a></li>
+<li class="lvl5"><a href="#art-iv-virkeomrade">Art IV. Virkeområde</a></li>
+<li class="lvl5"><a href="#art-v-formelle-krav-til-salgsavtaler-registrering-av-salgsavtaler-og-salgsavtalers-rettsvirkninger">Art V. Formelle krav til salgsavtaler, registrering av salgsavtaler og salgsavtalers rettsvirkninger</a></li>
+<li class="lvl5"><a href="#art-vi-representanters-fullmakter">Art VI. Representanters fullmakter</a></li>
+<li class="lvl5"><a href="#art-vii-beskrivelse-av-luftfartysgjenstander">Art VII. Beskrivelse av luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-viii-lovvalg">Art VIII. Lovvalg</a></li>
+<li class="lvl3"><a href="#kapittel-ii-misligholdsbefyelser-prioriteter-og-overdragelser">Kapittel II. Misligholdsbeføyelser, prioriteter og overdragelser</a></li>
+<li class="lvl5"><a href="#art-ix-endring-av-bestemmelsene-om-misligholdsbefyelser">Art IX. Endring av bestemmelsene om misligholdsbeføyelser</a></li>
+<li class="lvl5"><a href="#art-x-endring-av-bestemmelsene-om-rettsmidler-i-pavente-av-endelig-avgjrelse">Art X. Endring av bestemmelsene om rettsmidler i påvente av endelig avgjørelse</a></li>
+<li class="lvl5"><a href="#art-xi-tiltak-ved-insolvens">Art XI. Tiltak ved insolvens</a></li>
+<li class="lvl5"><a href="#art-xii-bistand-ved-insolvens">Art XII. Bistand ved insolvens</a></li>
+<li class="lvl5"><a href="#art-xiii-fullmakt-til-a-anmode-om-avregistrering-og-eksporttillatelse">Art XIII. Fullmakt til å anmode om avregistrering og eksporttillatelse</a></li>
+<li class="lvl5"><a href="#art-xiv-endring-av-bestemmelsene-om-prioritet">Art XIV. Endring av bestemmelsene om prioritet</a></li>
+<li class="lvl5"><a href="#art-xv-endring-av-bestemmelsene-om-overdragelse">Art XV. Endring av bestemmelsene om overdragelse</a></li>
+<li class="lvl5"><a href="#art-xvi-bestemmelser-om-debitor">Art XVI. Bestemmelser om debitor</a></li>
+<li class="lvl3"><a href="#kapittel-iii-bestemmelser-om-registreringsordningen-for-internasjonale-sikkerhetsretter-i-luftfartysgjenstander">Kapittel III. Bestemmelser om registreringsordningen for internasjonale sikkerhetsretter i luftfartøysgjenstander</a></li>
+<li class="lvl5"><a href="#art-xvii-tilsynsmyndigheten-og-registreringsmyndigheten">Art XVII. Tilsynsmyndigheten og registreringsmyndigheten</a></li>
+<li class="lvl5"><a href="#art-xviii-det-frste-reglementet">Art XVIII. Det første reglementet</a></li>
+<li class="lvl5"><a href="#art-xix-utpekte-kontaktorganer">Art XIX. Utpekte kontaktorganer</a></li>
+<li class="lvl5"><a href="#art-xx-ytterligere-endringer-av-bestemmelsene-om-registeret">Art XX. Ytterligere endringer av bestemmelsene om registeret</a></li>
+<li class="lvl3"><a href="#kapittel-iv-kompetanse">Kapittel IV. Kompetanse</a></li>
+<li class="lvl5"><a href="#art-xxi-endring-av-bestemmelsene-om-kompetanse">Art XXI. Endring av bestemmelsene om kompetanse</a></li>
+<li class="lvl5"><a href="#art-xxii-avkall-pa-suveren-immunitet">Art XXII. Avkall på suveren immunitet</a></li>
+<li class="lvl3"><a href="#kapittel-v-forholdet-til-andre-konvensjoner">Kapittel V. Forholdet til andre konvensjoner</a></li>
+<li class="lvl5"><a href="#art-xxiii-forholdet-til-overenskomst-om-internasjonal-anerkjennelse-av-rettigheter-i-luftfartyer">Art XXIII. Forholdet til Overenskomst om internasjonal anerkjennelse av rettigheter i luftfartøyer</a></li>
+<li class="lvl5"><a href="#art-xxiv-forholdet-til-overenskomst-om-innfring-av-visse-ensartede-regler-om-arrest-i-luftfartyer">Art XXIV. Forholdet til Overenskomst om innføring av visse ensartede regler om arrest i luftfartøyer</a></li>
+<li class="lvl5"><a href="#art-xxv-forholdet-til-unidroit-konvensjonen-om-internasjonal-finansiell-leie">Art XXV. Forholdet til UNIDROIT-konvensjonen om internasjonal finansiell leie</a></li>
+<li class="lvl3"><a href="#kapittel-vi-sluttbestemmelser">Kapittel VI. Sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#art-xxvi-undertegning-ratifikasjon-godtakelse-godkjenning-eller-tiltredelse">Art XXVI. Undertegning, ratifikasjon, godtakelse, godkjenning eller tiltredelse</a></li>
+<li class="lvl5"><a href="#art-xxvii-regionale-organisasjoner-for-konomisk-integrasjon">Art XXVII. Regionale organisasjoner for økonomisk integrasjon</a></li>
+<li class="lvl5"><a href="#art-xxviii-ikrafttredelse">Art XXVIII. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#art-xxix-territoriale-enheter">Art XXIX. Territoriale enheter</a></li>
+<li class="lvl5"><a href="#art-xxx-erklringer-om-visse-bestemmelser">Art XXX. Erklæringer om visse bestemmelser</a></li>
+<li class="lvl5"><a href="#art-xxxi-erklringer-i-henhold-til-konvensjonen">Art XXXI. Erklæringer i henhold til konvensjonen</a></li>
+<li class="lvl5"><a href="#art-xxxii-forbehold-og-erklringer">Art XXXII. Forbehold og erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxiii-senere-erklringer">Art XXXIII. Senere erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxiv-tilbaketrekning-av-erklringer">Art XXXIV. Tilbaketrekning av erklæringer</a></li>
+<li class="lvl5"><a href="#art-xxxv-oppsigelse">Art XXXV. Oppsigelse</a></li>
+<li class="lvl5"><a href="#art-xxxvi-tilsynskonferanser-endringer-og-andre-relaterte-sprsmal">Art XXXVI. Tilsynskonferanser, endringer og andre relaterte spørsmål</a></li>
+<li class="lvl5"><a href="#art-xxxvii-depositaren-og-dens-oppgaver">Art XXXVII. Depositaren og dens oppgaver</a></li>
+<li class="lvl3"><a href="#vedlegg-skjema-for-ugjenkallelig-fullmakt-til-a-anmode-om-avregistrering-og-tillatelse-til-eksport">Vedlegg. Skjema for ugjenkallelig fullmakt til å anmode om avregistrering og tillatelse til eksport</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-11-12-58.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2010-11-12-58.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2010-11-12-58.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2010-11-12-58.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2010-11-12-58.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2010-11-12-58.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2010-11-12-58.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2010-11-12-58.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-internasjonale-sikkerhetsretter-i-mobilt-lsre">Lov om internasjonale sikkerhetsretter i mobilt løsøre</h1>
 <h3 id="1">§ 1</h3>
 <p>Cape Town-konvensjonen 16. november 2001 om internasjonale sikkerhetsretter i mobilt løsøre og protokoll 16. november 2001 til konvensjonen om særlige forhold for luftfartøysløsøre gjelder som lov.</p>
 <h3 id="2">§ 2</h3>
@@ -730,6 +1273,8 @@ Alternativ B Når det oppstår en insolvenssituasjon, skal insolvensbestyreren e
 <p>[dato] av: [navn og tittel]</p>
 <p>[Merknader]</p>
 <p>1 Velg det som svarer til det nasjonale registreringskriteriet.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,70 +19,179 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-03-05-481.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om særreaksjonen forvaring" href="../feeds/forskrift-2004-03-05-481.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om særreaksjonen forvaring</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2004-03-05-481</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2004-03-05</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-05-24-823</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2004-03-05-481" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-formal">§ 2. Formål</a></li>
+<li class="lvl4"><a href="#3-forvaringens-innhold">§ 3. Forvaringens innhold</a></li>
+<li class="lvl4"><a href="#4-beslutningsmyndighet">§ 4. Beslutningsmyndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-tidsrammen-for-forvaring-innsettelse">Kapittel 2. Tidsrammen for forvaring. Innsettelse</a></li>
+<li class="lvl4"><a href="#5-beregning-av-tidsrammen-for-forvaring">§ 5. Beregning av tidsrammen for forvaring</a></li>
+<li class="lvl4"><a href="#6-innsettelse">§ 6. Innsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-3-overfring-til-annet-fengsel-eller-institusjon">Kapittel 3. Overføring til annet fengsel eller institusjon</a></li>
+<li class="lvl4"><a href="#7-overfring-til-annet-fengsel">§ 7. Overføring til annet fengsel</a></li>
+<li class="lvl4"><a href="#8-overfring-til-annet-fengsel-i-strid-med-domfeltes-eget-nske">§ 8. Overføring til annet fengsel i strid med domfeltes eget ønske</a></li>
+<li class="lvl4"><a href="#9-overfring-til-mindre-restriktive-gjennomfringsformer">§ 9. Overføring til mindre restriktive gjennomføringsformer</a></li>
+<li class="lvl4"><a href="#10-gjennomfring-av-forvaring-i-institusjon">§ 10. Gjennomføring av forvaring i institusjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-gjennomfring-av-forvaring-i-fengsel">Kapittel 4. Gjennomføring av forvaring i fengsel</a></li>
+<li class="lvl4"><a href="#11-permisjon-avbrudd">§ 11. Permisjon. Avbrudd</a></li>
+<li class="lvl4"><a href="#12-frigang">§ 12. Frigang</a></li>
+<li class="lvl4"><a href="#13-utelukkelse-fra-fellesskapet-som-forebyggende-tiltak">§ 13. Utelukkelse fra fellesskapet som forebyggende tiltak</a></li>
+<li class="lvl2"><a href="#kapittel-5-prvelslatelse-fra-forvaring">Kapittel 5. Prøveløslatelse fra forvaring</a></li>
+<li class="lvl4"><a href="#14-forberedelse-til-prvelslatelse">§ 14. Forberedelse til prøveløslatelse</a></li>
+<li class="lvl4"><a href="#15-prvelslatelse-av-kriminalomsorgen">§ 15. Prøveløslatelse av kriminalomsorgen</a></li>
+<li class="lvl4"><a href="#16-prvelslatelse-etter-rettens-avgjrelse">§ 16. Prøveløslatelse etter rettens avgjørelse</a></li>
+<li class="lvl4"><a href="#17-oppflgning-av-kriminalomsorgen">§ 17. Oppfølgning av kriminalomsorgen</a></li>
+<li class="lvl4"><a href="#18-endring-av-vilkar-for-prvelslatelse">§ 18. Endring av vilkår for prøveløslatelse</a></li>
+<li class="lvl4"><a href="#19-brudd-pa-vilkar">§ 19. Brudd på vilkår</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlig-om-prvelslatelse-til-institusjon-etterstraffeloven-45-frste-ledd-bokstav-c">Kapittel 6. Særlig om prøveløslatelse til institusjon etterstraffeloven § 45 første ledd bokstav c</a></li>
+<li class="lvl4"><a href="#20-avtaleinngaelse">§ 20. Avtaleinngåelse</a></li>
+<li class="lvl4"><a href="#21-samtykke-oppsigelse-opphr">§ 21. Samtykke – oppsigelse – opphør</a></li>
+<li class="lvl4"><a href="#22-endringer-eller-opphevelse-av-vilkar-om-opphold-i-institusjon">§ 22. Endringer eller opphevelse av vilkår om opphold i institusjon</a></li>
+<li class="lvl4"><a href="#23-gjeninnsettelse-i-fengsel-nar-de-srlige-grunner-for-prvelslatelse-i-institusjon-eller-kommunal-boenhet-ikke-lenger-er-til-stede">§ 23. Gjeninnsettelse i fengsel når de særlige grunner for prøveløslatelse i institusjon eller kommunal boenhet ikke lenger er til stede</a></li>
+<li class="lvl4"><a href="#24-utgiftsdekning">§ 24. Utgiftsdekning</a></li>
+<li class="lvl2"><a href="#kapittel-7-ikrafttredelse">Kapittel 7. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse">§ 25. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-05-24-823.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-03-05-481.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om gjennomføring av særreaksjonen forvaring.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-03-05-481.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2004-03-05-481 <code>forskrift/2004-03-05-481</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om særreaksjonen forvaring</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>05.03.2004</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-05-24-823 <code>forskrift/2024-05-24-823</code> fra 01.09.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2004-03-05-481" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-formal">§ 2. Formål</a></li>
+<li class="lvl4"><a href="#3-forvaringens-innhold">§ 3. Forvaringens innhold</a></li>
+<li class="lvl4"><a href="#4-beslutningsmyndighet">§ 4. Beslutningsmyndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-tidsrammen-for-forvaring-innsettelse">Kapittel 2. Tidsrammen for forvaring. Innsettelse</a></li>
+<li class="lvl4"><a href="#5-beregning-av-tidsrammen-for-forvaring">§ 5. Beregning av tidsrammen for forvaring</a></li>
+<li class="lvl4"><a href="#6-innsettelse">§ 6. Innsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-3-overfring-til-annet-fengsel-eller-institusjon">Kapittel 3. Overføring til annet fengsel eller institusjon</a></li>
+<li class="lvl4"><a href="#7-overfring-til-annet-fengsel">§ 7. Overføring til annet fengsel</a></li>
+<li class="lvl4"><a href="#8-overfring-til-annet-fengsel-i-strid-med-domfeltes-eget-nske">§ 8. Overføring til annet fengsel i strid med domfeltes eget ønske</a></li>
+<li class="lvl4"><a href="#9-overfring-til-mindre-restriktive-gjennomfringsformer">§ 9. Overføring til mindre restriktive gjennomføringsformer</a></li>
+<li class="lvl4"><a href="#10-gjennomfring-av-forvaring-i-institusjon">§ 10. Gjennomføring av forvaring i institusjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-gjennomfring-av-forvaring-i-fengsel">Kapittel 4. Gjennomføring av forvaring i fengsel</a></li>
+<li class="lvl4"><a href="#11-permisjon-avbrudd">§ 11. Permisjon. Avbrudd</a></li>
+<li class="lvl4"><a href="#12-frigang">§ 12. Frigang</a></li>
+<li class="lvl4"><a href="#13-utelukkelse-fra-fellesskapet-som-forebyggende-tiltak">§ 13. Utelukkelse fra fellesskapet som forebyggende tiltak</a></li>
+<li class="lvl2"><a href="#kapittel-5-prvelslatelse-fra-forvaring">Kapittel 5. Prøveløslatelse fra forvaring</a></li>
+<li class="lvl4"><a href="#14-forberedelse-til-prvelslatelse">§ 14. Forberedelse til prøveløslatelse</a></li>
+<li class="lvl4"><a href="#15-prvelslatelse-av-kriminalomsorgen">§ 15. Prøveløslatelse av kriminalomsorgen</a></li>
+<li class="lvl4"><a href="#16-prvelslatelse-etter-rettens-avgjrelse">§ 16. Prøveløslatelse etter rettens avgjørelse</a></li>
+<li class="lvl4"><a href="#17-oppflgning-av-kriminalomsorgen">§ 17. Oppfølgning av kriminalomsorgen</a></li>
+<li class="lvl4"><a href="#18-endring-av-vilkar-for-prvelslatelse">§ 18. Endring av vilkår for prøveløslatelse</a></li>
+<li class="lvl4"><a href="#19-brudd-pa-vilkar">§ 19. Brudd på vilkår</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlig-om-prvelslatelse-til-institusjon-etterstraffeloven-45-frste-ledd-bokstav-c">Kapittel 6. Særlig om prøveløslatelse til institusjon etterstraffeloven § 45 første ledd bokstav c</a></li>
+<li class="lvl4"><a href="#20-avtaleinngaelse">§ 20. Avtaleinngåelse</a></li>
+<li class="lvl4"><a href="#21-samtykke-oppsigelse-opphr">§ 21. Samtykke – oppsigelse – opphør</a></li>
+<li class="lvl4"><a href="#22-endringer-eller-opphevelse-av-vilkar-om-opphold-i-institusjon">§ 22. Endringer eller opphevelse av vilkår om opphold i institusjon</a></li>
+<li class="lvl4"><a href="#23-gjeninnsettelse-i-fengsel-nar-de-srlige-grunner-for-prvelslatelse-i-institusjon-eller-kommunal-boenhet-ikke-lenger-er-til-stede">§ 23. Gjeninnsettelse i fengsel når de særlige grunner for prøveløslatelse i institusjon eller kommunal boenhet ikke lenger er til stede</a></li>
+<li class="lvl4"><a href="#24-utgiftsdekning">§ 24. Utgiftsdekning</a></li>
+<li class="lvl2"><a href="#kapittel-7-ikrafttredelse">Kapittel 7. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-ikrafttredelse">§ 25. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-03-05-481.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-03-05-481.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-03-05-481.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2004-03-05-481.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2004-03-05-481.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-03-05-481.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2004-03-05-481.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2004-03-05-481.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-03-05-481.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-gjennomfring-av-srreaksjonen-forvaring">Forskrift om gjennomføring av særreaksjonen forvaring.</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder gjennomføringen av forvaring idømt i medhold av straffeloven § 40 .</p>
 <p>Forskriften gjelder også personer som er overført fra tvungent psykisk helsevern til fengsel etter psykisk helsevernloven § 5-6 , med mindre annet følger av lov eller av forskriften her.</p>
 <p>Lov om gjennomføring av straff og forskrift til lov om straffegjennomføring kommer til anvendelse i den utstrekning annet ikke følger av straffeloven eller denne forskrift, jf. straffegjennomføringsloven § 1 og forskriften til straffegjennomføringsloven § 1-1.</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="2-formal">§ 2. Formål</h4>
 <p>Gjennomføring av forvaring skal ivareta samfunnets behov for sikkerhet mot ny alvorlig kriminalitet fra den forvaringsdømtes side. Innenfor sikkerhetsmessig forsvarlige rammer skal den forvaringsdømte gis mulighet for å endre sin adferd og tilpasse seg et liv i frihet.</p>
 <h4 id="3-forvaringens-innhold">§ 3. Forvaringens innhold</h4>
@@ -100,7 +209,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Det skal gjøres fradrag for utholdt varetekt i henhold til straffeloven § 83 og straffeprosessloven § 460 . Fradrag gjøres også for transporttid. Fradrag for utholdt varetekt beregnes med utgangspunkt i tidsrammen for forvaringen og i eventuell fastsatt minstetid.</p>
 <p>Domfelte skal gjøres kjent med at prøveløslatelse tidligst kan finne sted når eventuell fastsatt minstetid er utholdt og at begjæring om slik løslatelse ellers ikke kan fremsettes før ett år etter at forvaringsdommen eller dom som nekter prøveløslatelse er endelig, jf. straffeloven § 44 fjerde ledd .</p>
 <p>Den forvaringsdømte skal orienteres om bestemmelsene om adgangen til forlengelse av tidsrammen for forvaring, jf. straffeloven § 43 første ledd .</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="6-innsettelse">§ 6. Innsettelse</h4>
 <p>Gjennomføring av forvaring skal påbegynnes i avdeling som er tilrettelagt for domfelte med særlige behov, jf. straffegjennomføringsloven § 11 , 3. ledd og § 10 , 2. ledd. Senest når dom på forvaring er rettskraftig, skal domfelte søkes overført til slik avdeling. Vedkommende skal som hovedregel ikke plasseres sammen med domfelte som ikke er idømt forvaring.</p>
 <p>Dersom det er nødvendig av hensyn til sikkerheten og vilkårene for øvrig foreligger kan den forvaringsdømte settes inn i avdeling med særlig høyt sikkerhetsnivå, jf. straffegjennomføringsloven § 11 , 2. ledd og § 10 , 2. ledd.</p>
@@ -156,13 +265,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Regionalt nivå fastsetter samtidig prøvetidens lengde, jf. straffeloven § 44 første ledd og vilkårene for prøveløslatelsen, jf. § 45 andre ledd .</p>
 <p>Det skal settes som vilkår for prøveløslatelsen at domfelte følges opp av friomsorgen.</p>
 <p>Når det anses påkrevet kan forlengelse av prøvetiden besluttes av tingretten etter straffeloven § 45 femte ledd , jf. § 39 første ledd .</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="16-prvelslatelse-etter-rettens-avgjrelse">§ 16. Prøveløslatelse etter rettens avgjørelse</h4>
 <p>Når påtalemyndigheten ikke finner å kunne samtykke i at domfelte prøveløslates eller kriminalomsorgen, til tross for påtalemyndighetens samtykke, ikke anser løslatelse som sikkerhetsmessig forsvarlig, fremmer påtalemyndigheten saken for tingretten som avgjør den ved dom, jf. straffeloven § 44 andre ledd første punktum .</p>
 <p>Det samme gjelder dersom det anses nødvendig å fastsette andre eller mer omfattende vilkår for prøveløslatelse enn det som kan fastsettes av kriminalomsorgen etter straffeloven § 45 andre ledd .</p>
 <p>Retten kan sette vilkår etter straffeloven § 45 første ledd .</p>
 <p>Regionalt nivå bestemmer innholdet i det enkelte vilkår innenfor de rammer retten har fastsatt i dommen. Settes det som vilkår at den prøveløslatte skal overholde bestemmelser om oppholdssted, arbeid, utdanning eller behandling fastsetter regionalt nivå det nærmere innhold i bestemmelsene.</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="17-oppflgning-av-kriminalomsorgen">§ 17. Oppfølgning av kriminalomsorgen</h4>
 <p>Har retten eller kriminalomsorgen satt som vilkår for prøveløslatelse at domfelte skal følges opp av kriminalomsorgen, bestemmer friomsorgen innholdet i oppfølgningen og iverksetter tiltak som anses nødvendig for en hensiktsmessig og sikkerhetsmessig forsvarlig gjennomføring av prøveløslatelsen.</p>
 <p>Den prøveløslatte kan i prøvetiden pålegges å møte til fastsatt tid og sted for å gjennomføre samtaler med friomsorgen. Den prøveløslatte skal ved fremmøte være upåvirket av berusende eller bedøvende midler.</p>
@@ -175,7 +284,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="18-endring-av-vilkar-for-prvelslatelse">§ 18. Endring av vilkår for prøveløslatelse</h4>
 <p>Vilkår fastsatt av retten eller kriminalomsorgen kan endres eller oppheves etter straffeloven § 45 femte ledd , jf. § 39 første ledd . Tilsvarende kan nye vilkår fastsettes.</p>
 <p>Det nærmere innholdet i det enkelte vilkåret kan endres av regionalt nivå når hensynet til sikkerheten eller den prøveløslattes behov tilsier det.</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="19-brudd-pa-vilkar">§ 19. Brudd på vilkår</h4>
 <p>Den prøveløslatte skal overholde vilkår fastsatt av retten eller kriminalomsorgen.</p>
 <p>Brudd på vilkår skal straks meddeles påtalemyndigheten. Det anses som brudd dersom den prøveløslatte unndrar seg oppfølgning fra kriminalomsorgen, herunder nekter å underkaste seg kontrolltiltak med sikte på å avdekke bruk av ulovlige rusmidler.</p>
@@ -201,20 +310,22 @@ g. utgiftsdekning.</p>
 <p>Regionalt nivå treffer vedtak om gjeninnsettelse i fengsel dersom kommunens samtykke til prøveløslatelse i institusjon eller kommunal boenhet trekkes tilbake.</p>
 <p>Vedtaket kan ikke påklages.</p>
 <p>Ny prøveløslatelse kan begjæres av kriminalomsorgen eller den forvaringsdømte selv innen utløpet av ettårsfristen i straffeloven § 44 fjerde ledd .</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="22-endringer-eller-opphevelse-av-vilkar-om-opphold-i-institusjon">§ 22. Endringer eller opphevelse av vilkår om opphold i institusjon</h4>
 <p>Den prøveløslatte kan begjære at vilkår om opphold i institusjon eller kommunal boenhet endres eller oppheves av tingretten etter straffeloven § 45 sjette ledd . Begjæringen kan tidligst fremsettes ett år etter at dom om prøveløslatelse eller tingrettens siste kjennelse var rettskraftig.</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="23-gjeninnsettelse-i-fengsel-nar-de-srlige-grunner-for-prvelslatelse-i-institusjon-eller-kommunal-boenhet-ikke-lenger-er-til-stede">§ 23. Gjeninnsettelse i fengsel når de særlige grunner for prøveløslatelse i institusjon eller kommunal boenhet ikke lenger er til stede</h4>
 <p>Dersom de særlige grunnene for vilkåret om prøveløslatelse i institusjon eller kommunal boenhet ikke lenger anses å være til stede, kan regionalt nivå, vedkommende kommune eller institusjon, eller den prøveløslatte selv kreve at påtalemyndigheten vurderer om det bør reises sak om gjeninnsettelse i fengsel, jf. straffeloven § 46 første ledd bokstav c . Dersom begjæringen ikke tas til følge, kan ny begjæring på samme grunnlag ikke fremsettes før seks måneder etter at forrige vedtak var endelig.</p>
 <p>Dersom den prøveløslatte begjærer gjeninnsettelse i fengsel kan slik gjeninnsettelse besluttes uten domstolsbehandling dersom påtalemyndigheten samtykker og regionalt nivå er enig i dette. Ny prøveløslatelse kan i så fall begjæres uavhengig av fristen i straffeloven § 44 fjerde ledd .</p>
-<p><em>Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</em></p>
+<p class="note">Endret ved forskrift 24 mai 2024 nr. 823 (i kraft 1 sep 2024 iflg. vedtak 27 juni 2024 nr. 1365 ).</p>
 <h4 id="24-utgiftsdekning">§ 24. Utgiftsdekning</h4>
 <p>Staten v/Justisdepartementet skal etter nærmere regler dekke kommunens utgifter i forbindelse med gjennomføring av prøveløslatelse i institusjon eller kommunal boenhet.</p>
 <p>Dersom avtalen opphører og dette medfører at kommunen eller institusjonen må si opp ansatte, skal utgifter til lønn i oppsigelsestiden dekkes av Justisdepartementet. Dette gjelder likevel ikke dersom oppsigelsen av avtalen skyldes forhold hos kommunen eller institusjonen.</p>
 <h2 id="kapittel-7-ikrafttredelse">Kapittel 7. Ikrafttredelse</h2>
 <h4 id="25-ikrafttredelse">§ 25. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft straks.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

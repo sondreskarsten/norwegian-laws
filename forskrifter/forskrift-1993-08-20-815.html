@@ -19,64 +19,249 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1993-08-20-815.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om brannvern på Svalbard" href="../feeds/forskrift-1993-08-20-815.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om brannvern på Svalbard</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1993-08-20-815</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1994-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-12-03-3395</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1993-08-20-815" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål.</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde.</a></li>
+<li class="lvl4"><a href="#1-3-pliktsubjekt">§ 1-3. Pliktsubjekt.</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner.</a></li>
+<li class="lvl4"><a href="#1-5-fravik">§ 1-5. Fravik.</a></li>
+<li class="lvl4"><a href="#1-6-klage">§ 1-6. Klage.</a></li>
+<li class="lvl4"><a href="#1-7-straffeansvar">§ 1-7. Straffeansvar.</a></li>
+<li class="lvl4"><a href="#1-8-tvangsmulkt">§ 1-8. Tvangsmulkt.</a></li>
+<li class="lvl4"><a href="#1-9-ikrafttredelseovergangsbestemmelser">§ 1-9. Ikrafttredelse/overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#1-10-oppheving-avendring-i-andre-forskrifter-mv">§ 1-10. Oppheving av/endring i andre forskrifter m.v.</a></li>
+<li class="lvl2"><a href="#kap-2-brannvernmyndigheter-og-oppgaver">Kap. 2. Brannvernmyndigheter og oppgaver.</a></li>
+<li class="lvl4"><a href="#2-1-sentral-myndighet">§ 2-1. Sentral myndighet.</a></li>
+<li class="lvl4"><a href="#2-2-sysselmesteren">§ 2-2. Sysselmesteren.</a></li>
+<li class="lvl4"><a href="#2-3-lokal-brannsjef">§ 2-3. Lokal brannsjef.</a></li>
+<li class="lvl4"><a href="#2-4-brannordning">§ 2-4. Brannordning.</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. Virksomhetens plikter.</a></li>
+<li class="lvl4"><a href="#2-6-brannvernets-oppgaver">§ 2-6. Brannvernets oppgaver.</a></li>
+<li class="lvl2"><a href="#kap-3-allmennhetens-plikter-i-brannvernsammenheng">Kap. 3. Allmennhetens plikter i brannvernsammenheng.</a></li>
+<li class="lvl4"><a href="#3-1-alminnelig-aktsomhet-mm">§ 3-1. Alminnelig aktsomhet m.m.</a></li>
+<li class="lvl4"><a href="#3-2-oppbevaring-av-giftige-og-etsende-varer-komprimerte-gasser-mv">§ 3-2. Oppbevaring av giftige og etsende varer, komprimerte gasser m.v.</a></li>
+<li class="lvl4"><a href="#3-3-fyrverkerisaker-mv">§ 3-3. Fyrverkerisaker m.v.</a></li>
+<li class="lvl4"><a href="#3-4-sveising-skjring-og-lodding-mv">§ 3-4. Sveising, skjæring og lodding m.v.</a></li>
+<li class="lvl4"><a href="#3-5-andre-forebyggende-plikter">§ 3-5. Andre forebyggende plikter.</a></li>
+<li class="lvl4"><a href="#3-6-varslingsplikt">§ 3-6. Varslingsplikt.</a></li>
+<li class="lvl4"><a href="#3-7-bistandsplikt">§ 3-7. Bistandsplikt.</a></li>
+<li class="lvl4"><a href="#3-8-plikter-etter-brann">§ 3-8. Plikter etter brann.</a></li>
+<li class="lvl4"><a href="#3-9-inngrep-i-privates-rettigheter">§ 3-9. Inngrep i privates rettigheter.</a></li>
+<li class="lvl4"><a href="#3-10-avsperring-pa-brannstedet">§ 3-10. Avsperring på brannstedet.</a></li>
+<li class="lvl2"><a href="#kap-4-brannforebyggende-tiltak-i-bygninger-mv">Kap. 4. Brannforebyggende tiltak i bygninger m.v.</a></li>
+<li class="lvl3"><a href="#del-a-generelle-krav">Del A. Generelle krav.</a></li>
+<li class="lvl5"><a href="#4-1-krav-til-eier-og-bruker-av-bygning-om-brannforebyggende-tiltak">§ 4-1. Krav til eier og bruker av bygning om brannforebyggende tiltak.</a></li>
+<li class="lvl5"><a href="#4-2-utstyr-mv">§ 4-2. Utstyr m.v.</a></li>
+<li class="lvl5"><a href="#4-3-ettersyn-og-vedlikehold-av-installasjoner-utstyr-mv">§ 4-3. Ettersyn og vedlikehold av installasjoner, utstyr m.v.</a></li>
+<li class="lvl5"><a href="#4-4-ryk-og-branncellebegrensende-bygningsdel-brannvegg-og-branndekke">§ 4-4. Røyk- og branncellebegrensende bygningsdel, brannvegg og branndekke.</a></li>
+<li class="lvl5"><a href="#4-5-piper-ildsteder-fyringsanlegg-og-feiing">§ 4-5. Piper, ildsteder, fyringsanlegg og feiing.</a></li>
+<li class="lvl5"><a href="#4-6-elektriske-anlegg">§ 4-6. Elektriske anlegg.</a></li>
+<li class="lvl5"><a href="#4-7-rykvarsler-i-boliger">§ 4-7. Røykvarsler i boliger.</a></li>
+<li class="lvl5"><a href="#4-8-slokkingsutstyr-i-boliger">§ 4-8. Slokkingsutstyr i boliger.</a></li>
+<li class="lvl3"><a href="#del-b-organisering-og-drift-i-srskilte-brannobjekter">Del B. Organisering og drift i særskilte brannobjekter.</a></li>
+<li class="lvl5"><a href="#4-9-dokumentasjon-av-sikkerhet">§ 4-9. Dokumentasjon av sikkerhet.</a></li>
+<li class="lvl5"><a href="#4-10-ansvarlig-leder">§ 4-10. Ansvarlig leder.</a></li>
+<li class="lvl5"><a href="#4-11-unormal-eller-sterkt-varierende-risiko">§ 4-11. Unormal eller sterkt varierende risiko.</a></li>
+<li class="lvl5"><a href="#4-12-brannvelser">§ 4-12. Brannøvelser.</a></li>
+<li class="lvl5"><a href="#4-13-instrukser-og-planer-mv">§ 4-13. Instrukser og planer m.v.</a></li>
+<li class="lvl5"><a href="#4-14-vakt">§ 4-14. Vakt.</a></li>
+<li class="lvl3"><a href="#del-c-spesielle-tekniske-krav-til-srskilte-brannobjekter">Del C. Spesielle tekniske krav til særskilte brannobjekter</a></li>
+<li class="lvl5"><a href="#4-15-rmningsveier">§ 4-15. Rømningsveier.</a></li>
+<li class="lvl5"><a href="#4-16-brannalarmanlegg">§ 4-16. Brannalarmanlegg.</a></li>
+<li class="lvl5"><a href="#4-17-manuelt-slokkingsutstyr">§ 4-17. Manuelt slokkingsutstyr.</a></li>
+<li class="lvl5"><a href="#4-18-stasjonre-slokkingsanlegg">§ 4-18. Stasjonære slokkingsanlegg.</a></li>
+<li class="lvl5"><a href="#4-19-slokkevann">§ 4-19. Slokkevann.</a></li>
+<li class="lvl2"><a href="#kap-5-brannsyn-og-palegg">Kap. 5. Brannsyn og pålegg.</a></li>
+<li class="lvl4"><a href="#5-1-fortegnelse-over-srskilte-brannobjekter">§ 5-1. Fortegnelse over særskilte brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-2-brannsyn-i-srskilte-brannobjekter">§ 5-2. Brannsyn i særskilte brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-3-brannsyn-i-andre-brannobjekter">§ 5-3. Brannsyn i andre brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-4-gjennomfring-av-brannsyn">§ 5-4. Gjennomføring av brannsyn.</a></li>
+<li class="lvl4"><a href="#5-5-umiddelbar-bruksnektelse">§ 5-5. Umiddelbar bruksnektelse.</a></li>
+<li class="lvl4"><a href="#5-6-palegg-av-sysselmesteren-om-retting-av-feil-og-mangler">§ 5-6. Pålegg av Sysselmesteren om retting av feil og mangler.</a></li>
+<li class="lvl4"><a href="#5-7-palegg-av-direktoratet-for-samfunnssikkerhet-og-beredskap-om-brannsikringstiltak">§ 5-7. Pålegg av Direktoratet for samfunnssikkerhet og beredskap om brannsikringstiltak.</a></li>
+<li class="lvl4"><a href="#5-8-sikringstiltak-ved-arrangementer-ol">§ 5-8. Sikringstiltak ved arrangementer o.l.</a></li>
+<li class="lvl4"><a href="#5-9-saksbehandling-ved-palegg">§ 5-9. Saksbehandling ved pålegg.</a></li>
+<li class="lvl4"><a href="#5-10-etterkontroll-av-palegg">§ 5-10. Etterkontroll av pålegg.</a></li>
+<li class="lvl4"><a href="#5-11-atkomst-for-brannvernet">§ 5-11. Atkomst for brannvernet.</a></li>
+<li class="lvl2"><a href="#kap-6-brannvernets-strrelse-utstyr-mv">Kap. 6. Brannvernets størrelse, utstyr m.v.</a></li>
+<li class="lvl4"><a href="#6-1-dimensjonering-materiell-mv">§ 6-1. Dimensjonering, materiell m.v.</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjonskrav">§ 6-2. Kvalifikasjonskrav.</a></li>
+<li class="lvl4"><a href="#6-3-brannvarsling">§ 6-3. Brannvarsling.</a></li>
+<li class="lvl4"><a href="#6-4-alarmering-av-brannvernets-personell">§ 6-4. Alarmering av brannvernets personell.</a></li>
+<li class="lvl4"><a href="#6-5-vannforsyning-kart">§ 6-5. Vannforsyning, kart.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-12-03-3395.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1993-08-20-815.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om brannvern på Svalbard.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1993-08-20-815.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1993-08-20-815 <code>forskrift/1993-08-20-815</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om brannvern på Svalbard</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1994</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-12-03-3395 <code>forskrift/2021-12-03-3395</code> fra 03.12.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1993-08-20-815" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål.</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde.</a></li>
+<li class="lvl4"><a href="#1-3-pliktsubjekt">§ 1-3. Pliktsubjekt.</a></li>
+<li class="lvl4"><a href="#1-4-definisjoner">§ 1-4. Definisjoner.</a></li>
+<li class="lvl4"><a href="#1-5-fravik">§ 1-5. Fravik.</a></li>
+<li class="lvl4"><a href="#1-6-klage">§ 1-6. Klage.</a></li>
+<li class="lvl4"><a href="#1-7-straffeansvar">§ 1-7. Straffeansvar.</a></li>
+<li class="lvl4"><a href="#1-8-tvangsmulkt">§ 1-8. Tvangsmulkt.</a></li>
+<li class="lvl4"><a href="#1-9-ikrafttredelseovergangsbestemmelser">§ 1-9. Ikrafttredelse/overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#1-10-oppheving-avendring-i-andre-forskrifter-mv">§ 1-10. Oppheving av/endring i andre forskrifter m.v.</a></li>
+<li class="lvl2"><a href="#kap-2-brannvernmyndigheter-og-oppgaver">Kap. 2. Brannvernmyndigheter og oppgaver.</a></li>
+<li class="lvl4"><a href="#2-1-sentral-myndighet">§ 2-1. Sentral myndighet.</a></li>
+<li class="lvl4"><a href="#2-2-sysselmesteren">§ 2-2. Sysselmesteren.</a></li>
+<li class="lvl4"><a href="#2-3-lokal-brannsjef">§ 2-3. Lokal brannsjef.</a></li>
+<li class="lvl4"><a href="#2-4-brannordning">§ 2-4. Brannordning.</a></li>
+<li class="lvl4"><a href="#2-5-virksomhetens-plikter">§ 2-5. Virksomhetens plikter.</a></li>
+<li class="lvl4"><a href="#2-6-brannvernets-oppgaver">§ 2-6. Brannvernets oppgaver.</a></li>
+<li class="lvl2"><a href="#kap-3-allmennhetens-plikter-i-brannvernsammenheng">Kap. 3. Allmennhetens plikter i brannvernsammenheng.</a></li>
+<li class="lvl4"><a href="#3-1-alminnelig-aktsomhet-mm">§ 3-1. Alminnelig aktsomhet m.m.</a></li>
+<li class="lvl4"><a href="#3-2-oppbevaring-av-giftige-og-etsende-varer-komprimerte-gasser-mv">§ 3-2. Oppbevaring av giftige og etsende varer, komprimerte gasser m.v.</a></li>
+<li class="lvl4"><a href="#3-3-fyrverkerisaker-mv">§ 3-3. Fyrverkerisaker m.v.</a></li>
+<li class="lvl4"><a href="#3-4-sveising-skjring-og-lodding-mv">§ 3-4. Sveising, skjæring og lodding m.v.</a></li>
+<li class="lvl4"><a href="#3-5-andre-forebyggende-plikter">§ 3-5. Andre forebyggende plikter.</a></li>
+<li class="lvl4"><a href="#3-6-varslingsplikt">§ 3-6. Varslingsplikt.</a></li>
+<li class="lvl4"><a href="#3-7-bistandsplikt">§ 3-7. Bistandsplikt.</a></li>
+<li class="lvl4"><a href="#3-8-plikter-etter-brann">§ 3-8. Plikter etter brann.</a></li>
+<li class="lvl4"><a href="#3-9-inngrep-i-privates-rettigheter">§ 3-9. Inngrep i privates rettigheter.</a></li>
+<li class="lvl4"><a href="#3-10-avsperring-pa-brannstedet">§ 3-10. Avsperring på brannstedet.</a></li>
+<li class="lvl2"><a href="#kap-4-brannforebyggende-tiltak-i-bygninger-mv">Kap. 4. Brannforebyggende tiltak i bygninger m.v.</a></li>
+<li class="lvl3"><a href="#del-a-generelle-krav">Del A. Generelle krav.</a></li>
+<li class="lvl5"><a href="#4-1-krav-til-eier-og-bruker-av-bygning-om-brannforebyggende-tiltak">§ 4-1. Krav til eier og bruker av bygning om brannforebyggende tiltak.</a></li>
+<li class="lvl5"><a href="#4-2-utstyr-mv">§ 4-2. Utstyr m.v.</a></li>
+<li class="lvl5"><a href="#4-3-ettersyn-og-vedlikehold-av-installasjoner-utstyr-mv">§ 4-3. Ettersyn og vedlikehold av installasjoner, utstyr m.v.</a></li>
+<li class="lvl5"><a href="#4-4-ryk-og-branncellebegrensende-bygningsdel-brannvegg-og-branndekke">§ 4-4. Røyk- og branncellebegrensende bygningsdel, brannvegg og branndekke.</a></li>
+<li class="lvl5"><a href="#4-5-piper-ildsteder-fyringsanlegg-og-feiing">§ 4-5. Piper, ildsteder, fyringsanlegg og feiing.</a></li>
+<li class="lvl5"><a href="#4-6-elektriske-anlegg">§ 4-6. Elektriske anlegg.</a></li>
+<li class="lvl5"><a href="#4-7-rykvarsler-i-boliger">§ 4-7. Røykvarsler i boliger.</a></li>
+<li class="lvl5"><a href="#4-8-slokkingsutstyr-i-boliger">§ 4-8. Slokkingsutstyr i boliger.</a></li>
+<li class="lvl3"><a href="#del-b-organisering-og-drift-i-srskilte-brannobjekter">Del B. Organisering og drift i særskilte brannobjekter.</a></li>
+<li class="lvl5"><a href="#4-9-dokumentasjon-av-sikkerhet">§ 4-9. Dokumentasjon av sikkerhet.</a></li>
+<li class="lvl5"><a href="#4-10-ansvarlig-leder">§ 4-10. Ansvarlig leder.</a></li>
+<li class="lvl5"><a href="#4-11-unormal-eller-sterkt-varierende-risiko">§ 4-11. Unormal eller sterkt varierende risiko.</a></li>
+<li class="lvl5"><a href="#4-12-brannvelser">§ 4-12. Brannøvelser.</a></li>
+<li class="lvl5"><a href="#4-13-instrukser-og-planer-mv">§ 4-13. Instrukser og planer m.v.</a></li>
+<li class="lvl5"><a href="#4-14-vakt">§ 4-14. Vakt.</a></li>
+<li class="lvl3"><a href="#del-c-spesielle-tekniske-krav-til-srskilte-brannobjekter">Del C. Spesielle tekniske krav til særskilte brannobjekter</a></li>
+<li class="lvl5"><a href="#4-15-rmningsveier">§ 4-15. Rømningsveier.</a></li>
+<li class="lvl5"><a href="#4-16-brannalarmanlegg">§ 4-16. Brannalarmanlegg.</a></li>
+<li class="lvl5"><a href="#4-17-manuelt-slokkingsutstyr">§ 4-17. Manuelt slokkingsutstyr.</a></li>
+<li class="lvl5"><a href="#4-18-stasjonre-slokkingsanlegg">§ 4-18. Stasjonære slokkingsanlegg.</a></li>
+<li class="lvl5"><a href="#4-19-slokkevann">§ 4-19. Slokkevann.</a></li>
+<li class="lvl2"><a href="#kap-5-brannsyn-og-palegg">Kap. 5. Brannsyn og pålegg.</a></li>
+<li class="lvl4"><a href="#5-1-fortegnelse-over-srskilte-brannobjekter">§ 5-1. Fortegnelse over særskilte brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-2-brannsyn-i-srskilte-brannobjekter">§ 5-2. Brannsyn i særskilte brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-3-brannsyn-i-andre-brannobjekter">§ 5-3. Brannsyn i andre brannobjekter.</a></li>
+<li class="lvl4"><a href="#5-4-gjennomfring-av-brannsyn">§ 5-4. Gjennomføring av brannsyn.</a></li>
+<li class="lvl4"><a href="#5-5-umiddelbar-bruksnektelse">§ 5-5. Umiddelbar bruksnektelse.</a></li>
+<li class="lvl4"><a href="#5-6-palegg-av-sysselmesteren-om-retting-av-feil-og-mangler">§ 5-6. Pålegg av Sysselmesteren om retting av feil og mangler.</a></li>
+<li class="lvl4"><a href="#5-7-palegg-av-direktoratet-for-samfunnssikkerhet-og-beredskap-om-brannsikringstiltak">§ 5-7. Pålegg av Direktoratet for samfunnssikkerhet og beredskap om brannsikringstiltak.</a></li>
+<li class="lvl4"><a href="#5-8-sikringstiltak-ved-arrangementer-ol">§ 5-8. Sikringstiltak ved arrangementer o.l.</a></li>
+<li class="lvl4"><a href="#5-9-saksbehandling-ved-palegg">§ 5-9. Saksbehandling ved pålegg.</a></li>
+<li class="lvl4"><a href="#5-10-etterkontroll-av-palegg">§ 5-10. Etterkontroll av pålegg.</a></li>
+<li class="lvl4"><a href="#5-11-atkomst-for-brannvernet">§ 5-11. Atkomst for brannvernet.</a></li>
+<li class="lvl2"><a href="#kap-6-brannvernets-strrelse-utstyr-mv">Kap. 6. Brannvernets størrelse, utstyr m.v.</a></li>
+<li class="lvl4"><a href="#6-1-dimensjonering-materiell-mv">§ 6-1. Dimensjonering, materiell m.v.</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjonskrav">§ 6-2. Kvalifikasjonskrav.</a></li>
+<li class="lvl4"><a href="#6-3-brannvarsling">§ 6-3. Brannvarsling.</a></li>
+<li class="lvl4"><a href="#6-4-alarmering-av-brannvernets-personell">§ 6-4. Alarmering av brannvernets personell.</a></li>
+<li class="lvl4"><a href="#6-5-vannforsyning-kart">§ 6-5. Vannforsyning, kart.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1993-08-20-815.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1993-08-20-815.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1993-08-20-815.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1993-08-20-815.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1993-08-20-815.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1993-08-20-815.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1993-08-20-815.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1993-08-20-815.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1993-08-20-815.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-brannvern-pa-svalbard">Forskrift om brannvern på Svalbard.</h1>
 <h2 id="kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser.</h2>
 <h4 id="1-1-formal">§ 1-1. Formål.</h4>
 <p>Forskriften har til formål å sikre mennesker, dyr og materielle verdier mot brann, samt begrense skadene ved brann og andre akutte ulykker.</p>
@@ -84,7 +269,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Forskriften omfatter de områder som dekkes av lov av 17. juli 1925 nr. 11 om Svalbard § 1 .</p>
 <h4 id="1-3-pliktsubjekt">§ 1-3. Pliktsubjekt. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften stiller krav til allmennheten og til eier og bruker av bygninger, anlegg, områder mv., samt til Sysselmesteren, representativt folkevalgt organ og virksomheter som har ansvar for brannvernet.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 3 des 2021 nr. 3395 .</p>
 <h4 id="1-4-definisjoner">§ 1-4. Definisjoner.</h4>
 <p><em>Brannobjekt: Enhver bygning, anlegg, lager, område m.v., hvor brann kan oppstå og true liv, helse, miljø, eiendom eller produksjon.
 Særskilt brannobjekt: De bygninger, anlegg m.v. som faller innenfor forskriftens § 5-1 .
@@ -96,23 +281,23 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <h4 id="1-5-fravik">§ 1-5. Fravik. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan fravike denne forskrift dersom spesielle grunner gjør det nødvendig eller rimelig.</p>
 <p>For fangsthytter kan Sysselmesteren fravike forskriften.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="1-6-klage">§ 1-6. Klage. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Klageinstans for vedtak etter forskriften er:</p>
 <ol>
 <li>Direktoratet for samfunnssikkerhet og beredskap når avgjørelsen er truffet av Sysselmesteren eller representativt folkevalgt organ.</li>
 <li>Justis- og politidepartementet når avgjørelsen er truffet av Direktoratet for samfunnssikkerhet og beredskap.</li>
 </ol>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="1-7-straffeansvar">§ 1-7. Straffeansvar.</h4>
 <p>Overtredelse av disse forskrifter straffes etter lov 17. juli 1925 nr. 11 om Svalbard § 4 annet ledd.</p>
 <h4 id="1-8-tvangsmulkt">§ 1-8. Tvangsmulkt. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-1-8.html" title="Endringshistorikk for § 1-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan ilegge tvangsmulkt dersom fristen for å utføre pålegg ikke overholdes. Tvangsmulkten fastsettes samtidig med pålegget eller i forbindelse med fastsetting av ny frist for utførelse av pålegget. Tvangsmulktens størrelse fastsettes under hensyn til hvor viktig det er at pålegg blir gjennomført og hvilke kostnader det antas å medføre.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 .</p>
 <h4 id="1-9-ikrafttredelseovergangsbestemmelser">§ 1-9. Ikrafttredelse/overgangsbestemmelser. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-1-9.html" title="Endringshistorikk for § 1-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Denne forskrift trer i kraft den 1. januar 1994.</p>
 <p>Kravene i § 4-9 , § 4-16 , § 4-18 , § 4-19 må være gjennomført senest 1. januar 1996. Dette er ikke til hinder for at Direktoratet for samfunnssikkerhet og beredskap i det enkelte tilfelle også kan gi pålegg om raskere gjennomføring, når dette anses påkrevd.</p>
-<p><em>Endret ved forskrift 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrift 20 feb 2004 nr. 583 .</p>
 <h4 id="1-10-oppheving-avendring-i-andre-forskrifter-mv">§ 1-10. Oppheving av/endring i andre forskrifter m.v.</h4>
 <p>Når forskriften trer i kraft, oppheves:</p>
 <ul>
@@ -126,7 +311,7 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan gi nærmere bestemmelser om brannvarslingsinnretningene og kontrollen av disse, om alarmeringsordningen, samt om krav til materiell og utstyr for brannvernet.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan fastsette instrukser for Sysselmesteren vedrørende gjøremål i eller i medhold av forskriften.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan delegere sine gjøremål til Sysselmesteren.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="2-2-sysselmesteren">§ 2-2. Sysselmesteren. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Sysselmesteren skal:</p>
 <ol>
@@ -135,15 +320,15 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <li>Utføre de gjøremål som er pålagt stillingen etter instruks gitt av Direktoratet for samfunnssikkerhet og beredskap, jfr. § 2-1 .</li>
 </ol>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan delegere Sysselmesterens kompetanse etter denne forskrift til representativt folkevalgt organ.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 , 3 des 2021 nr. 3395 .</p>
 <h4 id="2-3-lokal-brannsjef">§ 2-3. Lokal brannsjef.</h4>
 <p>De bosetninger som Direktoratet for samfunnssikkerhet og beredskap bestemmer, skal ha en lokal brannsjef som leder brannvernet. Brannsjefen tilsettes av den virksomhet som har ansvar for brannvernet i bosetningen. Brannsjefen skal ha de nødvendige kvalifikasjoner for stillingen, jfr. § 6-2 .</p>
-<p><em>Endret ved forskrift 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrift 20 feb 2004 nr. 583 .</p>
 <h4 id="2-4-brannordning">§ 2-4. Brannordning.</h4>
 <p>I de bosetninger som Direktoratet for samfunnssikkerhet og beredskap bestemmer, skal det utarbeides en brannordning.</p>
 <p>Brannordningen skal sikre at brannvernet er organisert, bemannet og utstyrt på en slik måte at de oppgaver som følger av forskriften og utfyllende bestemmelser til enhver tid kan gjennomføres på en tilfredsstillende måte. Den skal inneholde all nødvendig dokumentasjon. Brannordningen skal sendes Sysselmesteren. Sysselmesteren forelegger den for Direktoratet for samfunnssikkerhet og beredskap som kan gi pålegg om nødvendige endringer.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap peker ut den virksomhet som skal ha ansvaret for brannvernet i bosetningen.</p>
-<p><em>Endret ved forskrifter 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="2-5-virksomhetens-plikter">§ 2-5. Virksomhetens plikter.</h4>
 <p>Virksomheten skal:</p>
 <ol>
@@ -154,7 +339,7 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <li>Hvert år utarbeide en plan over aktuelle brannverntiltak, herunder gjennomføring av brannsynet det kommende år. Denne planen forelegges Sysselmesteren før årets begynnelse.</li>
 </ol>
 <p>Forøvrig plikter virksomheten å oversende til Sysselmesteren den dokumentasjon som Sysselmesteren krever.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="2-6-brannvernets-oppgaver">§ 2-6. Brannvernets oppgaver.</h4>
 <p>Brannvernet skal:</p>
 <ol>
@@ -220,7 +405,7 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <li>Oversikt over kontroll og vedlikehold av tekniske anlegg som har betydning for brannsikkerheten.</li>
 </ol>
 <p>Sysselmesteren kan i enkelttilfelle kreve ytterligere dokumentasjon.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h5 id="4-10-ansvarlig-leder">§ 4-10. Ansvarlig leder.</h5>
 <p>For ethvert særskilt brannobjekt skal det være en ansvarlig leder for brannsikkerhetsarbeidet utpekt av eier/bruker. Den ansvarlige leder skal ha tilstrekkelig kunnskap om:</p>
 <ol>
@@ -251,11 +436,11 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <p>I tillegg skal det for særskilte brannobjekter av type a, jfr. § 5-1 utarbeides rednings- og beredskapsplaner. For andre bygninger kan Sysselmesteren kreve dette.</p>
 <p>På alle gjesterom i overnattingssteder skal det være oppslag som angir rømningsveier og forholdsregler ved brann.</p>
 <p>Alle ordensregler, instrukser og planer skal vedlikeholdes og revideres.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h5 id="4-14-vakt">§ 4-14. Vakt.</h5>
 <p>På overnattingssteder og sykehus skal det være vaktordning. I slik bygning med mer enn 50 sengeplasser skal fast nattevakt inngå i vaktordningen.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan tillate at vaktordning erstattes av annen form for overvåkning som kan anses likeverdig.</p>
-<p><em>Endret ved forskrift 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrift 20 feb 2004 nr. 583 .</p>
 <h3 id="del-c-spesielle-tekniske-krav-til-srskilte-brannobjekter">Del C. Spesielle tekniske krav til særskilte brannobjekter</h3>
 <h5 id="4-15-rmningsveier">§ 4-15. Rømningsveier.</h5>
 <p><em>Generelle krav til rømningsveier. Rømningsveiene skal til enhver tid dekke behovet for forsvarlig rømning. Atkomst til rømningsvei skal kunne skje uten hindringer. Heis og rulletrapp regnes ikke som rømningsvei. Fra enhver branncelle for varig opphold skal det være minst to rømningsveier. For små brannceller med direkte utgang til det fri, er det tilstrekkelig med én rømningsvei. Vindu kan i enkelte tilfelle aksepteres som rømningsvei. I bygninger med flere etasjer skal rømningsveiene ha kapasitet for samtidig rømning fra to etasjer. Fra brannceller som omfatter flere etasjer skal hver etasje ha direkte utgang til minst en rømningsvei. Fri bredde i rømningsvei skal være minst 80 cm og ikke mindre enn 0,7 cm pr. person. Krav til dører i rømningsveier. Dør til og i rømningsvei skal slå ut i rømningsretningen eller ha utførelse som gir likeverdig funksjon under rømning. Krav om slagretning gjelder ikke dør til rømningsvei fra branncelle for et lite antall personer. Dør i rømningsvei skal normalt kunne åpnes fra innsiden uten bruk av nøkkel e.l. Dør i rømningsvei fra lokale med mer enn 150 personer skal kunne åpnes fra innsiden med et enkelt håndgrep uten bruk av nøkkel e.l. Dør i rømningsvei fra lukket anstalt o.l. skal normalt åpnes av betjeningen etter rutiner som skal være utarbeidet og øvet på forhånd. Merking av rømningsveier. Rømningsvei skal være tilstrekkelig merket og opplyst. Merkingen skal ha en slik utforming og størrelse at den umiddelbart forstås, og skal plasseres slik at den er lett synlig overalt i det lokalet som skal rømmes og på ethvert sted i rømningsveien. Det skal være markeringslys ved dører, samt ledelys eller tilsvarende innretninger i følgende bygninger: Overnattingssteder og sykehus. Salgslokaler og forsamlingslokaler med bruttoareal større enn 300 m 2 . I enkelttilfelle kan det allikevel stilles strengere krav, jfr. § 5-7 .</em></p>
@@ -268,7 +453,7 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 </ol>
 <p>Kravet gjelder også alle rømningsveier, selv om lokalene bare omfatter deler av bygningen.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan i enkelttilfelle kreve at brannalarmanlegg knyttes til en alarmsentral.</p>
-<p><em>Endret ved forskrift 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrift 20 feb 2004 nr. 583 .</p>
 <h5 id="4-17-manuelt-slokkingsutstyr">§ 4-17. Manuelt slokkingsutstyr.</h5>
 <p>Det skal utplasseres hensiktsmessig og tilstrekkelig manuelt slokkingsutstyr som skal kunne benyttes i alle rom.</p>
 <h5 id="4-18-stasjonre-slokkingsanlegg">§ 4-18. Stasjonære slokkingsanlegg.</h5>
@@ -285,13 +470,13 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <h2 id="kap-5-brannsyn-og-palegg">Kap. 5. Brannsyn og pålegg.</h2>
 <h4 id="5-1-fortegnelse-over-srskilte-brannobjekter">§ 5-1. Fortegnelse over særskilte brannobjekter.</h4>
 <p>Sysselmesteren skal påse at det føres fortegnelse over alle særskilte brannobjekter, fordelt på følgende typer: - type a: Bygninger til opphold for et større antall mennesker og hvor brann kan medføre mer enn alminnelig fare for tap av menneskeliv. - type b: Bygninger, anlegg, opplag o.l som ved sin beskaffenhet eller den virksomhet som foregår i dem, antas å medføre særlig brannfare eller fare for stor brann, eller hvor brann kan medføre store konsekvenser. - type c: Større industrielle bedrifter. - type d: Bygninger som har kulturhistorisk eller lignende samfunnsmessig verdi. - type e: Områder som er særskilt anlagt til bruk for et større antall mennesker og hvor brann lett kan få store konsekvenser, herunder campingplasser, lystbåthavner, idrettsanlegg, plasser for møtevirksomhet o.l.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-2-brannsyn-i-srskilte-brannobjekter">§ 5-2. Brannsyn i særskilte brannobjekter.</h4>
 <p>Den virksomhet som har ansvar for brannvernet er ansvarlig for at kvalifisert personell utfører brannsyn av bygninger og områder for å påse at disse er sikret mot brann etter gjeldende bestemmelser. Den som utfører brannsyn skal føre tilsyn med forhold som har betydning for brannsikkerheten, og for redning og slokking ved brann.</p>
 <p>Brannsyn skal gjennomføres med minst følgende hyppighet, jfr. § 5-1 : - type a, e: 1 gang hvert år. - type b, c: 1 gang hvert år, dog slik at annet hvert år kan dette erstattes av eiers egen kontroll, etter hans eget kontrollsystem. - type d: 1 gang hvert fjerde år.</p>
 <h4 id="5-3-brannsyn-i-andre-brannobjekter">§ 5-3. Brannsyn i andre brannobjekter.</h4>
 <p>Sysselmesteren kan bestemme at det skal utføres brannsyn i andre bygninger og områder m.v. enn de som er nevnt i § 5-1 .</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-4-gjennomfring-av-brannsyn">§ 5-4. Gjennomføring av brannsyn.</h4>
 <p>Brannsyn skal som hovedregel meldes på forhånd. Uanmeldt inspeksjon kan likevel finne sted ved behov.</p>
 <p>Den som utfører brannsyn skal vise legitimasjon.</p>
@@ -301,30 +486,30 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <p>Den som utfører brannsyn skal foreta en fullstendig og avveiet vurdering av alle forhold som kan påvirke sannsynligheten for at brann bryter ut og konsekvensene av dette. Spesielt skal brannsynet legge vekt på å påse at de forhold som nevnes i denne forskrifts §§ 4-2 til 4-6 , samt §§ 4-9 til 4-19 er tilfredsstillende. Behovet for ytterligere sikringstiltak vurderes.</p>
 <p>Den som utfører brannsyn skal gjøre den ansvarlige leder oppmerksom på de feil og mangler som finnes, og gi råd og veiledning om hvordan de kan utbedres.</p>
 <p>Finner den som utfører brannsyn forhold som står i strid med annen lovgivning om forebyggelse av brann, skal forholdet rapporteres til vedkommende myndighet.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-5-umiddelbar-bruksnektelse">§ 5-5. Umiddelbar bruksnektelse.</h4>
 <p>Dersom det ved brannsyn eller på annen måte avdekkes uakseptabel personrisiko eller overhengende fare for brann, kan Sysselmesteren nekte videre bruk/drift med øyeblikkelig virkning. Eier/bruker skal underrettes.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-6-palegg-av-sysselmesteren-om-retting-av-feil-og-mangler">§ 5-6. Pålegg av Sysselmesteren om retting av feil og mangler.</h4>
 <p>Dersom det ikke innen den frist som er angitt i § 5-4 er gitt tilfredsstillende tilbakemelding om retting av feil og mangler som påpekt i brannsynsrapporten, skal Sysselmesteren utferdige pålegg om slik retting.</p>
 <p>Ved behov for ytterligere sikringstiltak skal Sysselmesteren legge saken fram for direktoratet.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-7-palegg-av-direktoratet-for-samfunnssikkerhet-og-beredskap-om-brannsikringstiltak">§ 5-7. Pålegg av Direktoratet for samfunnssikkerhet og beredskap om brannsikringstiltak.</h4>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan for enhver bygning, grupper av bygninger, områder m.v i det enkelte tilfelle fastsette sikringstiltak som finnes påkrevd til vern mot brann, herunder for å heve sikkerheten opp mot det nivå som moderne byggeskikk krever.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan gi pålegg om utførelse av slike tiltak innen en fastsatt frist.</p>
-<p><em>Endret ved forskrift 20 feb 2004 nr. 583 .</em></p>
+<p class="note">Endret ved forskrift 20 feb 2004 nr. 583 .</p>
 <h4 id="5-8-sikringstiltak-ved-arrangementer-ol">§ 5-8. Sikringstiltak ved arrangementer o.l.</h4>
 <p>Forestillinger, utstillinger, større møter og andre tilstelninger i forsamlingslokaler, telt o.l skal eier eller bestyrer av vedkommende lokale i god tid melde til lokal brannsjef. Lokal brannsjef kan kreve de opplysninger som trengs for å kunne vurdere brannfaren og fastsette hvilke brannsikringstiltak som skal gjennomføres, herunder fastsette det maksimale antall personer som kan oppholde seg i lokalet. I vurderingen skal det legges vekt på rømningsmuligheter, vakthold, slokkingsutstyr og andre forhold av forebyggende og slokkemessig betydning.</p>
 <p>Sysselmesteren kan frita for meldeplikten når det gjelder permanente forsamlingslokaler som er i stadig bruk.</p>
-<p><em>Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrift 3 des 2021 nr. 3395 .</p>
 <h4 id="5-9-saksbehandling-ved-palegg">§ 5-9. Saksbehandling ved pålegg. <a class="para-history" href="../historikk/forskrift-1993-08-20-815/para-5-9.html" title="Endringshistorikk for § 5-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Pålegg gitt av Sysselmesteren eller av Direktoratet for samfunnssikkerhet og beredskap skal gis skriftlig og med frist for utførelse. Pålegget skal overleveres eller sendes eier eller bruker, jf. § 4-1 .</p>
 <p>Sammen med pålegget skal det opplyses om klagerett, fremgangsmåte ved klage, og frist for klage. Inntil feil og mangler er rettet, kan Sysselmesteren kreve andre tiltak iverksatt for å holde risikoen på et akseptabelt nivå.</p>
-<p><em>Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 14 des 2001 nr. 1390 (i kraft 1 jan 2002), 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="5-10-etterkontroll-av-palegg">§ 5-10. Etterkontroll av pålegg.</h4>
 <p>Når den frist som er satt i pålegget er utløpt, skal Sysselmesteren forvisse seg om at gjennomføring er skjedd. Er pålegg ikke gjennomført kan fristen forlenges én gang dersom dette finnes rimelig.</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan vedta å forby bruk av brannobjekt, eller del av slikt, som pålegget var rettet mot. Direktoratet kan også tillate fortsatt bruk i en begrenset periode under spesifiserte og skjerpede brannverntiltak.</p>
-<p><em>Endret ved forskrifter 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</em></p>
+<p class="note">Endret ved forskrifter 20 feb 2004 nr. 583 , 3 des 2021 nr. 3395 .</p>
 <h4 id="5-11-atkomst-for-brannvernet">§ 5-11. Atkomst for brannvernet.</h4>
 <p>Virksomhet med ansvar for brannvernet skal påse at dette så langt som mulig har atkomst til bygninger, samt oppstillingsmulighet m.v. for sitt materiell ved brann.</p>
 <h2 id="kap-6-brannvernets-strrelse-utstyr-mv">Kap. 6. Brannvernets størrelse, utstyr m.v.</h2>
@@ -343,6 +528,8 @@ Endret ved forskrift 3 des 2021 nr. 3395 .</em></p>
 <p>Slokkevann skal fortrinnsvis skaffes fra vannverk med slik kapasitet og slikt trykk at det til enhver tid kan uttas det nødvendige antall slokkingsstråler. Det skal være nødvendige antall uttak for slokkevann som hydranter, brannventiler i kum o.l. Uttakene skal plasseres og merkes på hensiktsmessig måte og skal til enhver tid holdes tilgjengelig og kontrolleres jevnlig.</p>
 <p>I områder som reguleres til virksomhet hvor sprinkling er aktuelt, skal det sørges for at det er tilstrekkelig vannforsyning til å dekke behovet.</p>
 <p>Virksomhet med ansvar for brannvernet skal sørge for at det utarbeides og holdes ajour kart over forekomster av slokkevann.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

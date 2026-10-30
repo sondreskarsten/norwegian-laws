@@ -19,64 +19,121 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-03-08-346.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om beskyttelse av Prosciutto di San Dani</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-03-08-346</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-03-08</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-03-08-346" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-beskyttet-produktbetegnelse">§ 1. Beskyttet produktbetegnelse</a></li>
+<li class="lvl3"><a href="#2-rettmessig-bruker">§ 2. Rettmessig bruker</a></li>
+<li class="lvl3"><a href="#3-vilkar-for-bruk-av-produktbetegnelsen">§ 3. Vilkår for bruk av produktbetegnelsen</a></li>
+<li class="lvl3"><a href="#4-ikrafttredelse">§ 4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#nrmere-forklaring-av-innholdet-og-reguleringsteknikken-i-produktforskriften">Nærmere forklaring av innholdet og reguleringsteknikken i produktforskriften</a></li>
+<li class="lvl3"><a href="#single-documentcouncil-regulation-ec-no-5102006on-the-protection-of-geographical-indications-and-designations-of-origin-for-agricultural-products-and-foodstuffsprosciutto-di-san-danieleec-no-it-pdo-0117-01149-1982013pgi-pdo-x">SINGLE DOCUMENTCOUNCIL REGULATION (EC) No 510/2006on the protection of geographical indications and designations of origin for agricultural products and foodstuffs'PROSCIUTTO DI SAN DANIELE'EC No: IT-PDO-0117-01149 – 19.8.2013PGI ( ) PDO ( X )</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-03-08-346.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om beskyttelse av Prosciutto di San Daniele som opprinnelsesbetegnelse</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-03-08-346.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-03-08-346 <code>forskrift/2022-03-08-346</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>08.03.2022</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-03-08-346" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-beskyttet-produktbetegnelse">§ 1. Beskyttet produktbetegnelse</a></li>
+<li class="lvl3"><a href="#2-rettmessig-bruker">§ 2. Rettmessig bruker</a></li>
+<li class="lvl3"><a href="#3-vilkar-for-bruk-av-produktbetegnelsen">§ 3. Vilkår for bruk av produktbetegnelsen</a></li>
+<li class="lvl3"><a href="#4-ikrafttredelse">§ 4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#nrmere-forklaring-av-innholdet-og-reguleringsteknikken-i-produktforskriften">Nærmere forklaring av innholdet og reguleringsteknikken i produktforskriften</a></li>
+<li class="lvl3"><a href="#single-documentcouncil-regulation-ec-no-5102006on-the-protection-of-geographical-indications-and-designations-of-origin-for-agricultural-products-and-foodstuffsprosciutto-di-san-danieleec-no-it-pdo-0117-01149-1982013pgi-pdo-x">SINGLE DOCUMENTCOUNCIL REGULATION (EC) No 510/2006on the protection of geographical indications and designations of origin for agricultural products and foodstuffs'PROSCIUTTO DI SAN DANIELE'EC No: IT-PDO-0117-01149 – 19.8.2013PGI ( ) PDO ( X )</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-03-08-346.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-03-08-346.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-03-08-346.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2022-03-08-346.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2022-03-08-346.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-beskyttelse-av-prosciutto-di-san-daniele-som-opprinnelsesbetegnelse">Forskrift om beskyttelse av Prosciutto di San Daniele som opprinnelsesbetegnelse</h1>
 <h3 id="1-beskyttet-produktbetegnelse">§ 1. Beskyttet produktbetegnelse</h3>
 <p>Prosciutto di San Daniele.</p>
 <h3 id="2-rettmessig-bruker">§ 2. Rettmessig bruker</h3>
@@ -122,6 +179,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>5.1. Specificity of the geographical area The area of production of 'Prosciutto di San Daniele' is geographically located in the municipality of San Daniele del Friuli in central Friuli, along the river Tagliamento, beyond which rise the first foothills of the Carnic Alps. The soil of the area is of morainic origin and typically contains a high proportion of fine gravel. It is highly hygroscopic and, as a result, ensures permanent drainage of moisture. In addition to this draining effect of the soil, warm winds rising from the Adriatic Sea gradually cool down as they move along the course of the river Tagliamento and meet head-on with colder winds descending from the Alps in a straight flow through the Canale del Ferro del Tarvisano upstream from the Tagliamento. This creates a permanent microclimate that continuously produces gentle air circulation in the area, which, combined with the well-drained soil, ensures a low-humidity environment that is ideally suited to the maturing of ham. Because of this microclimate, it was no coincidence that, over time, the production of 'Prosciutto di San Daniele' came to be exclusively centred on the municipality after which the ham was named, while the processing of legs historically sourced from typical pig farming areas developed into a specialist skill. One of the key operations carried out by the specialist workers is the trimming of the legs. This procedure consists in removing the excess fat and muscle from the fresh leg, which gives it a specific form so that it can be pressed into the characteristic guitar shape. In addition, the pressing of the legs after trimming and salting promotes the osmotic process, which optimises the maturation of the meat.</p>
 <p>5.2. Specificity of the product A typical feature of 'Prosciutto di San Daniele' is the foot, i.e. the distal part of the leg, which, in contrast to most hams on the market, is not removed. The foot is left on the leg throughout the production process, which makes whole pieces of 'Prosciutto di San Daniele' immediately recognisable to consumers. In addition, the characteristic guitar shape, delicate flavour and fragrant aroma of 'Prosciutto di San Daniele' stem from the specific way in which it is prepared, namely the trimming and pressing of the legs, the addition of no other ingredients but sea salt at the start of the production process, and the long maturing time of the meat.</p>
 <p>5.3. Causal link between the geographical area and the quality or characteristics of the product (for PDO) or a specific quality, the reputation or other characteristic of the product (for PGI) 'Prosciutto di San Daniele' comes from the geographical area of San Daniele del Friuli and essentially owes its qualities to the geographical area of production and its environmental and human characteristics. The particular microclimate caused by the characteristics of the terrain and the soil in the geographical area of production create conditions of generally low humidity and air circulation which are ideal for maturing hams and essential to the taste and aroma of 'Prosciutto di San Daniele'. Of key importance is the experience of the maturers who use maturing rooms with many windows in which they arrange the hams transversely to the incoming air flow to enable the 'Prosciutto di San Daniele' to mature slowly and develop its characteristic aroma. Reference to publication of the specification (Article 5(7) of Regulation (EC) No 510/2006) The text of the product specification is available on the following web site: http://www.politicheagricole.it/flex/cm/pages/ServeBLOB.php/L/IT/IDPagina/3339 or alternatively: by going directly to the home page of the Ministry of Agricultural, Food and Forestry Policy ( www.politicheagricole.it ) and clicking on 'Qualità e sicurezza' (at the top right of the screen), and then on 'Disciplinari di Produzione prodotti DOP, IGP e STG'.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

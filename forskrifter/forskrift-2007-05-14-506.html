@@ -19,64 +19,383 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-05-14-506.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lokalstyrevalg i Longyearbyen" href="../feeds/forskrift-2007-05-14-506.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om lokalstyrevalg i Longyearbyen</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-05-14-506</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2007-05-14</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-10-19-1765</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-05-14-506" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade-valgstyre">Kapittel 1. Formål og virkeområde. Valgstyre</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-valgstyre">§ 1-3. Valgstyre</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-manntall">Kapittel 2. Stemmerett og manntall</a></li>
+<li class="lvl4"><a href="#2-1-stemmerett">§ 2-1. Stemmerett</a></li>
+<li class="lvl4"><a href="#2-2-manntallet-utsendelse-av-valgkort">§ 2-2. Manntallet. Utsendelse av valgkort</a></li>
+<li class="lvl4"><a href="#2-3-befolkningsregistermyndighetens-ansvar">§ 2-3. Befolkningsregistermyndighetens ansvar</a></li>
+<li class="lvl4"><a href="#2-4-utlegging-av-manntallet-til-offentlig-ettersyn">§ 2-4. Utlegging av manntallet til offentlig ettersyn</a></li>
+<li class="lvl4"><a href="#2-5-krav-om-retting-oppdatering">§ 2-5. Krav om retting. Oppdatering</a></li>
+<li class="lvl4"><a href="#2-6-underretning-om-endringer-i-manntallet">§ 2-6. Underretning om endringer i manntallet</a></li>
+<li class="lvl4"><a href="#2-7-utfyllende-bestemmelser">§ 2-7. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-plikt-til-a-ta-imot-valg">Kapittel 3. Valgbarhet. Plikt til å ta imot valg</a></li>
+<li class="lvl4"><a href="#3-1-valgbarhet">§ 3-1. Valgbarhet</a></li>
+<li class="lvl4"><a href="#3-2-rett-til-a-kreve-fritak">§ 3-2. Rett til å kreve fritak</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-til-og-behandling-av-listeforslag">Kapittel 4. Krav til og behandling av listeforslag</a></li>
+<li class="lvl4"><a href="#4-1-krav-til-listeforslaget">§ 4-1. Krav til listeforslaget</a></li>
+<li class="lvl4"><a href="#4-2-antall-kandidatnavn-pa-listeforslaget">§ 4-2. Antall kandidatnavn på listeforslaget</a></li>
+<li class="lvl4"><a href="#4-3-antall-underskrifter-pa-listeforslaget">§ 4-3. Antall underskrifter på listeforslaget</a></li>
+<li class="lvl4"><a href="#4-4-vedlegg-til-listeforslaget">§ 4-4. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#4-5-tilbakekalling-av-listeforslaget">§ 4-5. Tilbakekalling av listeforslaget</a></li>
+<li class="lvl4"><a href="#4-6-valgstyrets-behandling-av-listeforslagene">§ 4-6. Valgstyrets behandling av listeforslagene</a></li>
+<li class="lvl4"><a href="#4-7-offentliggjring-av-godkjente-valglister">§ 4-7. Offentliggjøring av godkjente valglister</a></li>
+<li class="lvl4"><a href="#4-8-klage">§ 4-8. Klage</a></li>
+<li class="lvl4"><a href="#4-9-utfyllende-bestemmelser">§ 4-9. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-5-stemmesedler-velgernes-adgang-til-a-endre-pa-stemmesedler">Kapittel 5. Stemmesedler. Velgernes adgang til å endre på stemmesedler</a></li>
+<li class="lvl4"><a href="#5-1-trykking-av-stemmesedler">§ 5-1. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#5-2-endringer-pa-stemmeseddelen">§ 5-2. Endringer på stemmeseddelen</a></li>
+<li class="lvl4"><a href="#5-3-utfyllende-bestemmelser">§ 5-3. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-6-forhandsstemmegivningen">Kapittel 6. Forhåndsstemmegivningen</a></li>
+<li class="lvl4"><a href="#6-1-perioden-for-forhandsstemmegivningen-krav-til-antall-stemmemottakere">§ 6-1. Perioden for forhåndsstemmegivningen. Krav til antall stemmemottakere</a></li>
+<li class="lvl4"><a href="#6-2-hvem-kan-motta-forhandsstemmer">§ 6-2. Hvem kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#6-3-pa-hvilke-steder-kan-det-mottas-forhandsstemmer">§ 6-3. På hvilke steder kan det mottas forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#6-4-fremgangsmaten-ved-stemmegivningen">§ 6-4. Fremgangsmåten ved stemmegivningen</a></li>
+<li class="lvl4"><a href="#6-5-valgagitasjon-mm">§ 6-5. Valgagitasjon m.m.</a></li>
+<li class="lvl4"><a href="#6-6-utfyllende-bestemmelser">§ 6-6. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-7-tidspunktet-for-valget-stemmegivningen-pa-valgtinget">Kapittel 7. Tidspunktet for valget. Stemmegivningen på valgtinget</a></li>
+<li class="lvl4"><a href="#7-1-tidspunktet-for-valget">§ 7-1. Tidspunktet for valget</a></li>
+<li class="lvl4"><a href="#7-2-tid-og-sted-for-stemmegivningen-organisering">§ 7-2. Tid og sted for stemmegivningen. Organisering</a></li>
+<li class="lvl4"><a href="#7-3-ordensregler">§ 7-3. Ordensregler</a></li>
+<li class="lvl4"><a href="#7-4-stemmegivning-i-valglokalet">§ 7-4. Stemmegivning i valglokalet</a></li>
+<li class="lvl4"><a href="#7-4a-elektronisk-avkryssing-i-manntallet-pa-valgdagen">§ 7-4a. Elektronisk avkryssing i manntallet på valgdagen</a></li>
+<li class="lvl4"><a href="#7-5-stemmegivning-utenfor-valglokalet">§ 7-5. Stemmegivning utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#7-6-avslutning-av-stemmegivningen">§ 7-6. Avslutning av stemmegivningen</a></li>
+<li class="lvl4"><a href="#7-7-oppbevaring-og-transport-av-valgmateriell">§ 7-7. Oppbevaring og transport av valgmateriell</a></li>
+<li class="lvl4"><a href="#7-8-offentliggjring-av-valgresultater-og-prognoser">§ 7-8. Offentliggjøring av valgresultater og prognoser</a></li>
+<li class="lvl4"><a href="#7-9-utfyllende-bestemmelser">§ 7-9. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-8-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 8. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</a></li>
+<li class="lvl4"><a href="#8-1-valgstyrets-godkjenning-av-forhandsstemmegivning-avgitt-i-stemmeseddelkonvolutt">§ 8-1. Valgstyrets godkjenning av forhåndsstemmegivning avgitt i stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#8-1a-stemmemottakers-godkjenning-av-forhandsstemmegivning-som-legges-i-urne">§ 8-1a. Stemmemottakers godkjenning av forhåndsstemmegivning som legges i urne</a></li>
+<li class="lvl4"><a href="#8-2-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 8-2. Godkjenning av stemmegivning avgitt på valgtinget</a></li>
+<li class="lvl4"><a href="#8-3-godkjenning-av-stemmesedler">§ 8-3. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#8-4-prinsipper-for-opptelling-av-stemmesedler">§ 8-4. Prinsipper for opptelling av stemmesedler</a></li>
+<li class="lvl4"><a href="#8-5-forelpig-opptelling">§ 8-5. Foreløpig opptelling</a></li>
+<li class="lvl4"><a href="#8-6-endelig-opptelling-registrering-av-rettinger-pa-stemmesedlene">§ 8-6. Endelig opptelling. Registrering av rettinger på stemmesedlene</a></li>
+<li class="lvl4"><a href="#8-7-protokollering-av-valg">§ 8-7. Protokollering av valg</a></li>
+<li class="lvl4"><a href="#8-8-utfyllende-bestemmelser">§ 8-8. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-9-mandatfordelingen-og-kandidatkaringen">Kapittel 9. Mandatfordelingen og kandidatkåringen</a></li>
+<li class="lvl4"><a href="#9-1-mandatfordeling-og-kandidatkaring">§ 9-1. Mandatfordeling og kandidatkåring</a></li>
+<li class="lvl4"><a href="#9-2-underretning-til-de-valgte-representantene">§ 9-2. Underretning til de valgte representantene</a></li>
+<li class="lvl2"><a href="#kapittel-10-flertallsvalg">Kapittel 10. Flertallsvalg</a></li>
+<li class="lvl4"><a href="#10-1-flertallsvalg">§ 10-1. Flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-11-prving-av-valgets-gyldighet-klage">Kapittel 11. Prøving av valgets gyldighet. Klage</a></li>
+<li class="lvl4"><a href="#11-1-klage">§ 11-1. Klage</a></li>
+<li class="lvl4"><a href="#11-2-kontroll-av-valget-ugyldig-valg-omvalg">§ 11-2. Kontroll av valget. Ugyldig valg – omvalg</a></li>
+<li class="lvl4"><a href="#11-3-gjennomfring-av-omvalg">§ 11-3. Gjennomføring av omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-12-nytt-valgoppgjr-i-perioden-suppleringsvalg">Kapittel 12. Nytt valgoppgjør i perioden. Suppleringsvalg</a></li>
+<li class="lvl4"><a href="#12-1-nytt-valgoppgjr-og-suppleringsvalg">§ 12-1. Nytt valgoppgjør og suppleringsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-forskjellige-bestemmelser">Kapittel 13. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-forsk">§ 13-1. Forsøk</a></li>
+<li class="lvl4"><a href="#13-2-oppbevaring-avhending-og-tilintetgjring-av-valgmateriell">§ 13-2. Oppbevaring, avhending og tilintetgjøring av valgmateriell</a></li>
+<li class="lvl4"><a href="#13-3-tilgang-til-manntallet-og-det-vrige-materiellet-offentlighet">§ 13-3. Tilgang til manntallet og det øvrige materiellet – offentlighet</a></li>
+<li class="lvl4"><a href="#13-4-taushetsplikt">§ 13-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#13-5-beregning-av-frister-oversittelse">§ 13-5. Beregning av frister. Oversittelse</a></li>
+<li class="lvl4"><a href="#13-6-opplysningsplikt">§ 13-6. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#13-7-oppgaver-til-valgstatistikk">§ 13-7. Oppgaver til valgstatistikk</a></li>
+<li class="lvl4"><a href="#13-8-valgobservasjon">§ 13-8. Valgobservasjon</a></li>
+<li class="lvl2"><a href="#kapittel-14-ikrafttredelse-oppheving-av-tidligere-forskrift">Kapittel 14. Ikrafttredelse. Oppheving av tidligere forskrift</a></li>
+<li class="lvl4"><a href="#14-1-ikrafttredelse-oppheving-av-tidligere-forskrift">§ 14-1. Ikrafttredelse. Oppheving av tidligere forskrift</a></li>
+<li class="lvl2"><a href="#merknader-til-forskrift-om-lokalstyrevalg-i-longyearbyen">Merknader til forskrift om lokalstyrevalg i Longyearbyen</a></li>
+<li class="lvl3"><a href="#til-1-1">Til § 1-1</a></li>
+<li class="lvl3"><a href="#til-1-2">Til § 1-2</a></li>
+<li class="lvl3"><a href="#til-1-3">Til 1-3</a></li>
+<li class="lvl3"><a href="#til-2-1">Til § 2-1</a></li>
+<li class="lvl3"><a href="#til-2-2">Til § 2-2</a></li>
+<li class="lvl3"><a href="#til-2-3">Til § 2-3</a></li>
+<li class="lvl3"><a href="#til-2-4">Til § 2-4</a></li>
+<li class="lvl3"><a href="#til-2-5">Til § 2-5</a></li>
+<li class="lvl3"><a href="#til-2-6">Til § 2-6</a></li>
+<li class="lvl3"><a href="#til-2-7">Til § 2-7</a></li>
+<li class="lvl3"><a href="#til-3-1">Til § 3-1</a></li>
+<li class="lvl3"><a href="#til-3-2">Til § 3-2</a></li>
+<li class="lvl3"><a href="#til-4-1">Til § 4-1</a></li>
+<li class="lvl3"><a href="#til-4-2">Til § 4-2</a></li>
+<li class="lvl3"><a href="#til-4-3">Til § 4-3</a></li>
+<li class="lvl3"><a href="#til-4-4">Til § 4-4</a></li>
+<li class="lvl3"><a href="#til-4-5">Til § 4-5</a></li>
+<li class="lvl3"><a href="#til-4-6">Til § 4-6</a></li>
+<li class="lvl3"><a href="#til-4-7">Til § 4-7</a></li>
+<li class="lvl3"><a href="#til-4-8">Til § 4-8</a></li>
+<li class="lvl3"><a href="#til-4-9">Til § 4-9</a></li>
+<li class="lvl3"><a href="#til-5-1">Til § 5-1</a></li>
+<li class="lvl3"><a href="#til-5-2">Til § 5-2</a></li>
+<li class="lvl3"><a href="#til-5-3">Til § 5-3</a></li>
+<li class="lvl3"><a href="#til-6-1">Til § 6-1</a></li>
+<li class="lvl3"><a href="#til-6-2">Til § 6-2</a></li>
+<li class="lvl3"><a href="#til-6-3">Til § 6-3</a></li>
+<li class="lvl3"><a href="#til-6-4">Til § 6-4</a></li>
+<li class="lvl3"><a href="#til-6-5">Til § 6-5</a></li>
+<li class="lvl3"><a href="#til-6-6">Til § 6-6</a></li>
+<li class="lvl3"><a href="#til-7-1">Til § 7-1</a></li>
+<li class="lvl3"><a href="#til-7-2">Til § 7-2</a></li>
+<li class="lvl3"><a href="#til-7-3">Til § 7-3</a></li>
+<li class="lvl3"><a href="#til-7-4">Til § 7-4</a></li>
+<li class="lvl3"><a href="#til-7-5">Til § 7-5</a></li>
+<li class="lvl3"><a href="#til-7-6">Til § 7-6</a></li>
+<li class="lvl3"><a href="#til-7-7">Til § 7-7</a></li>
+<li class="lvl3"><a href="#til-7-9">Til § 7-9</a></li>
+<li class="lvl3"><a href="#til-kapittel-8">Til kapittel 8</a></li>
+<li class="lvl3"><a href="#til-kapittel-9">Til kapittel 9</a></li>
+<li class="lvl3"><a href="#til-kapittel-10">Til kapittel 10</a></li>
+<li class="lvl3"><a href="#til-kapittel-11">Til kapittel 11</a></li>
+<li class="lvl3"><a href="#til-kapittel-12">Til kapittel 12</a></li>
+<li class="lvl3"><a href="#til-kapittel-13">Til kapittel 13</a></li>
+<li class="lvl3"><a href="#til-kapittel-14">Til kapittel 14</a></li>
+<li class="lvl3"><a href="#merknader-til-endringer-innfrt-ved-forskrift-6-juli-2011-nr-744">Merknader til endringer innført ved forskrift 6. juli 2011 nr. 744:</a></li>
+<li class="lvl4"><a href="#til-2-3_1">Til § 2-3:</a></li>
+<li class="lvl4"><a href="#til-3-2-frste-ledd">Til § 3-2 første ledd:</a></li>
+<li class="lvl4"><a href="#til-6-2-andre-ledd">Til § 6-2 andre ledd:</a></li>
+<li class="lvl4"><a href="#til-6-2-tredje-ledd-andre-punktum">Til § 6-2 tredje ledd andre punktum:</a></li>
+<li class="lvl4"><a href="#til-6-4-femte-ledd">Til § 6-4 femte ledd:</a></li>
+<li class="lvl4"><a href="#til-7-1_1">Til § 7-1:</a></li>
+<li class="lvl4"><a href="#til-7-2_1">Til § 7-2:</a></li>
+<li class="lvl4"><a href="#til-7-8">Til § 7-8</a></li>
+<li class="lvl4"><a href="#til-8-1">Til § 8-1:</a></li>
+<li class="lvl4"><a href="#til-13-5">Til § 13-5:</a></li>
+<li class="lvl4"><a href="#til-13-8">Til § 13-8:</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-10-19-1765.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-05-14-506.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om lokalstyrevalg i Longyearbyen</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-05-14-506.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-05-14-506 <code>forskrift/2007-05-14-506</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>14.05.2007</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-10-19-1765 <code>forskrift/2022-10-19-1765</code> fra 19.10.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-05-14-506" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade-valgstyre">Kapittel 1. Formål og virkeområde. Valgstyre</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-valgstyre">§ 1-3. Valgstyre</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-manntall">Kapittel 2. Stemmerett og manntall</a></li>
+<li class="lvl4"><a href="#2-1-stemmerett">§ 2-1. Stemmerett</a></li>
+<li class="lvl4"><a href="#2-2-manntallet-utsendelse-av-valgkort">§ 2-2. Manntallet. Utsendelse av valgkort</a></li>
+<li class="lvl4"><a href="#2-3-befolkningsregistermyndighetens-ansvar">§ 2-3. Befolkningsregistermyndighetens ansvar</a></li>
+<li class="lvl4"><a href="#2-4-utlegging-av-manntallet-til-offentlig-ettersyn">§ 2-4. Utlegging av manntallet til offentlig ettersyn</a></li>
+<li class="lvl4"><a href="#2-5-krav-om-retting-oppdatering">§ 2-5. Krav om retting. Oppdatering</a></li>
+<li class="lvl4"><a href="#2-6-underretning-om-endringer-i-manntallet">§ 2-6. Underretning om endringer i manntallet</a></li>
+<li class="lvl4"><a href="#2-7-utfyllende-bestemmelser">§ 2-7. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-plikt-til-a-ta-imot-valg">Kapittel 3. Valgbarhet. Plikt til å ta imot valg</a></li>
+<li class="lvl4"><a href="#3-1-valgbarhet">§ 3-1. Valgbarhet</a></li>
+<li class="lvl4"><a href="#3-2-rett-til-a-kreve-fritak">§ 3-2. Rett til å kreve fritak</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-til-og-behandling-av-listeforslag">Kapittel 4. Krav til og behandling av listeforslag</a></li>
+<li class="lvl4"><a href="#4-1-krav-til-listeforslaget">§ 4-1. Krav til listeforslaget</a></li>
+<li class="lvl4"><a href="#4-2-antall-kandidatnavn-pa-listeforslaget">§ 4-2. Antall kandidatnavn på listeforslaget</a></li>
+<li class="lvl4"><a href="#4-3-antall-underskrifter-pa-listeforslaget">§ 4-3. Antall underskrifter på listeforslaget</a></li>
+<li class="lvl4"><a href="#4-4-vedlegg-til-listeforslaget">§ 4-4. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#4-5-tilbakekalling-av-listeforslaget">§ 4-5. Tilbakekalling av listeforslaget</a></li>
+<li class="lvl4"><a href="#4-6-valgstyrets-behandling-av-listeforslagene">§ 4-6. Valgstyrets behandling av listeforslagene</a></li>
+<li class="lvl4"><a href="#4-7-offentliggjring-av-godkjente-valglister">§ 4-7. Offentliggjøring av godkjente valglister</a></li>
+<li class="lvl4"><a href="#4-8-klage">§ 4-8. Klage</a></li>
+<li class="lvl4"><a href="#4-9-utfyllende-bestemmelser">§ 4-9. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-5-stemmesedler-velgernes-adgang-til-a-endre-pa-stemmesedler">Kapittel 5. Stemmesedler. Velgernes adgang til å endre på stemmesedler</a></li>
+<li class="lvl4"><a href="#5-1-trykking-av-stemmesedler">§ 5-1. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#5-2-endringer-pa-stemmeseddelen">§ 5-2. Endringer på stemmeseddelen</a></li>
+<li class="lvl4"><a href="#5-3-utfyllende-bestemmelser">§ 5-3. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-6-forhandsstemmegivningen">Kapittel 6. Forhåndsstemmegivningen</a></li>
+<li class="lvl4"><a href="#6-1-perioden-for-forhandsstemmegivningen-krav-til-antall-stemmemottakere">§ 6-1. Perioden for forhåndsstemmegivningen. Krav til antall stemmemottakere</a></li>
+<li class="lvl4"><a href="#6-2-hvem-kan-motta-forhandsstemmer">§ 6-2. Hvem kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#6-3-pa-hvilke-steder-kan-det-mottas-forhandsstemmer">§ 6-3. På hvilke steder kan det mottas forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#6-4-fremgangsmaten-ved-stemmegivningen">§ 6-4. Fremgangsmåten ved stemmegivningen</a></li>
+<li class="lvl4"><a href="#6-5-valgagitasjon-mm">§ 6-5. Valgagitasjon m.m.</a></li>
+<li class="lvl4"><a href="#6-6-utfyllende-bestemmelser">§ 6-6. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-7-tidspunktet-for-valget-stemmegivningen-pa-valgtinget">Kapittel 7. Tidspunktet for valget. Stemmegivningen på valgtinget</a></li>
+<li class="lvl4"><a href="#7-1-tidspunktet-for-valget">§ 7-1. Tidspunktet for valget</a></li>
+<li class="lvl4"><a href="#7-2-tid-og-sted-for-stemmegivningen-organisering">§ 7-2. Tid og sted for stemmegivningen. Organisering</a></li>
+<li class="lvl4"><a href="#7-3-ordensregler">§ 7-3. Ordensregler</a></li>
+<li class="lvl4"><a href="#7-4-stemmegivning-i-valglokalet">§ 7-4. Stemmegivning i valglokalet</a></li>
+<li class="lvl4"><a href="#7-4a-elektronisk-avkryssing-i-manntallet-pa-valgdagen">§ 7-4a. Elektronisk avkryssing i manntallet på valgdagen</a></li>
+<li class="lvl4"><a href="#7-5-stemmegivning-utenfor-valglokalet">§ 7-5. Stemmegivning utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#7-6-avslutning-av-stemmegivningen">§ 7-6. Avslutning av stemmegivningen</a></li>
+<li class="lvl4"><a href="#7-7-oppbevaring-og-transport-av-valgmateriell">§ 7-7. Oppbevaring og transport av valgmateriell</a></li>
+<li class="lvl4"><a href="#7-8-offentliggjring-av-valgresultater-og-prognoser">§ 7-8. Offentliggjøring av valgresultater og prognoser</a></li>
+<li class="lvl4"><a href="#7-9-utfyllende-bestemmelser">§ 7-9. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-8-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 8. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</a></li>
+<li class="lvl4"><a href="#8-1-valgstyrets-godkjenning-av-forhandsstemmegivning-avgitt-i-stemmeseddelkonvolutt">§ 8-1. Valgstyrets godkjenning av forhåndsstemmegivning avgitt i stemmeseddelkonvolutt</a></li>
+<li class="lvl4"><a href="#8-1a-stemmemottakers-godkjenning-av-forhandsstemmegivning-som-legges-i-urne">§ 8-1a. Stemmemottakers godkjenning av forhåndsstemmegivning som legges i urne</a></li>
+<li class="lvl4"><a href="#8-2-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 8-2. Godkjenning av stemmegivning avgitt på valgtinget</a></li>
+<li class="lvl4"><a href="#8-3-godkjenning-av-stemmesedler">§ 8-3. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#8-4-prinsipper-for-opptelling-av-stemmesedler">§ 8-4. Prinsipper for opptelling av stemmesedler</a></li>
+<li class="lvl4"><a href="#8-5-forelpig-opptelling">§ 8-5. Foreløpig opptelling</a></li>
+<li class="lvl4"><a href="#8-6-endelig-opptelling-registrering-av-rettinger-pa-stemmesedlene">§ 8-6. Endelig opptelling. Registrering av rettinger på stemmesedlene</a></li>
+<li class="lvl4"><a href="#8-7-protokollering-av-valg">§ 8-7. Protokollering av valg</a></li>
+<li class="lvl4"><a href="#8-8-utfyllende-bestemmelser">§ 8-8. Utfyllende bestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-9-mandatfordelingen-og-kandidatkaringen">Kapittel 9. Mandatfordelingen og kandidatkåringen</a></li>
+<li class="lvl4"><a href="#9-1-mandatfordeling-og-kandidatkaring">§ 9-1. Mandatfordeling og kandidatkåring</a></li>
+<li class="lvl4"><a href="#9-2-underretning-til-de-valgte-representantene">§ 9-2. Underretning til de valgte representantene</a></li>
+<li class="lvl2"><a href="#kapittel-10-flertallsvalg">Kapittel 10. Flertallsvalg</a></li>
+<li class="lvl4"><a href="#10-1-flertallsvalg">§ 10-1. Flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-11-prving-av-valgets-gyldighet-klage">Kapittel 11. Prøving av valgets gyldighet. Klage</a></li>
+<li class="lvl4"><a href="#11-1-klage">§ 11-1. Klage</a></li>
+<li class="lvl4"><a href="#11-2-kontroll-av-valget-ugyldig-valg-omvalg">§ 11-2. Kontroll av valget. Ugyldig valg – omvalg</a></li>
+<li class="lvl4"><a href="#11-3-gjennomfring-av-omvalg">§ 11-3. Gjennomføring av omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-12-nytt-valgoppgjr-i-perioden-suppleringsvalg">Kapittel 12. Nytt valgoppgjør i perioden. Suppleringsvalg</a></li>
+<li class="lvl4"><a href="#12-1-nytt-valgoppgjr-og-suppleringsvalg">§ 12-1. Nytt valgoppgjør og suppleringsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-forskjellige-bestemmelser">Kapittel 13. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-forsk">§ 13-1. Forsøk</a></li>
+<li class="lvl4"><a href="#13-2-oppbevaring-avhending-og-tilintetgjring-av-valgmateriell">§ 13-2. Oppbevaring, avhending og tilintetgjøring av valgmateriell</a></li>
+<li class="lvl4"><a href="#13-3-tilgang-til-manntallet-og-det-vrige-materiellet-offentlighet">§ 13-3. Tilgang til manntallet og det øvrige materiellet – offentlighet</a></li>
+<li class="lvl4"><a href="#13-4-taushetsplikt">§ 13-4. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#13-5-beregning-av-frister-oversittelse">§ 13-5. Beregning av frister. Oversittelse</a></li>
+<li class="lvl4"><a href="#13-6-opplysningsplikt">§ 13-6. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#13-7-oppgaver-til-valgstatistikk">§ 13-7. Oppgaver til valgstatistikk</a></li>
+<li class="lvl4"><a href="#13-8-valgobservasjon">§ 13-8. Valgobservasjon</a></li>
+<li class="lvl2"><a href="#kapittel-14-ikrafttredelse-oppheving-av-tidligere-forskrift">Kapittel 14. Ikrafttredelse. Oppheving av tidligere forskrift</a></li>
+<li class="lvl4"><a href="#14-1-ikrafttredelse-oppheving-av-tidligere-forskrift">§ 14-1. Ikrafttredelse. Oppheving av tidligere forskrift</a></li>
+<li class="lvl2"><a href="#merknader-til-forskrift-om-lokalstyrevalg-i-longyearbyen">Merknader til forskrift om lokalstyrevalg i Longyearbyen</a></li>
+<li class="lvl3"><a href="#til-1-1">Til § 1-1</a></li>
+<li class="lvl3"><a href="#til-1-2">Til § 1-2</a></li>
+<li class="lvl3"><a href="#til-1-3">Til 1-3</a></li>
+<li class="lvl3"><a href="#til-2-1">Til § 2-1</a></li>
+<li class="lvl3"><a href="#til-2-2">Til § 2-2</a></li>
+<li class="lvl3"><a href="#til-2-3">Til § 2-3</a></li>
+<li class="lvl3"><a href="#til-2-4">Til § 2-4</a></li>
+<li class="lvl3"><a href="#til-2-5">Til § 2-5</a></li>
+<li class="lvl3"><a href="#til-2-6">Til § 2-6</a></li>
+<li class="lvl3"><a href="#til-2-7">Til § 2-7</a></li>
+<li class="lvl3"><a href="#til-3-1">Til § 3-1</a></li>
+<li class="lvl3"><a href="#til-3-2">Til § 3-2</a></li>
+<li class="lvl3"><a href="#til-4-1">Til § 4-1</a></li>
+<li class="lvl3"><a href="#til-4-2">Til § 4-2</a></li>
+<li class="lvl3"><a href="#til-4-3">Til § 4-3</a></li>
+<li class="lvl3"><a href="#til-4-4">Til § 4-4</a></li>
+<li class="lvl3"><a href="#til-4-5">Til § 4-5</a></li>
+<li class="lvl3"><a href="#til-4-6">Til § 4-6</a></li>
+<li class="lvl3"><a href="#til-4-7">Til § 4-7</a></li>
+<li class="lvl3"><a href="#til-4-8">Til § 4-8</a></li>
+<li class="lvl3"><a href="#til-4-9">Til § 4-9</a></li>
+<li class="lvl3"><a href="#til-5-1">Til § 5-1</a></li>
+<li class="lvl3"><a href="#til-5-2">Til § 5-2</a></li>
+<li class="lvl3"><a href="#til-5-3">Til § 5-3</a></li>
+<li class="lvl3"><a href="#til-6-1">Til § 6-1</a></li>
+<li class="lvl3"><a href="#til-6-2">Til § 6-2</a></li>
+<li class="lvl3"><a href="#til-6-3">Til § 6-3</a></li>
+<li class="lvl3"><a href="#til-6-4">Til § 6-4</a></li>
+<li class="lvl3"><a href="#til-6-5">Til § 6-5</a></li>
+<li class="lvl3"><a href="#til-6-6">Til § 6-6</a></li>
+<li class="lvl3"><a href="#til-7-1">Til § 7-1</a></li>
+<li class="lvl3"><a href="#til-7-2">Til § 7-2</a></li>
+<li class="lvl3"><a href="#til-7-3">Til § 7-3</a></li>
+<li class="lvl3"><a href="#til-7-4">Til § 7-4</a></li>
+<li class="lvl3"><a href="#til-7-5">Til § 7-5</a></li>
+<li class="lvl3"><a href="#til-7-6">Til § 7-6</a></li>
+<li class="lvl3"><a href="#til-7-7">Til § 7-7</a></li>
+<li class="lvl3"><a href="#til-7-9">Til § 7-9</a></li>
+<li class="lvl3"><a href="#til-kapittel-8">Til kapittel 8</a></li>
+<li class="lvl3"><a href="#til-kapittel-9">Til kapittel 9</a></li>
+<li class="lvl3"><a href="#til-kapittel-10">Til kapittel 10</a></li>
+<li class="lvl3"><a href="#til-kapittel-11">Til kapittel 11</a></li>
+<li class="lvl3"><a href="#til-kapittel-12">Til kapittel 12</a></li>
+<li class="lvl3"><a href="#til-kapittel-13">Til kapittel 13</a></li>
+<li class="lvl3"><a href="#til-kapittel-14">Til kapittel 14</a></li>
+<li class="lvl3"><a href="#merknader-til-endringer-innfrt-ved-forskrift-6-juli-2011-nr-744">Merknader til endringer innført ved forskrift 6. juli 2011 nr. 744:</a></li>
+<li class="lvl4"><a href="#til-2-3_1">Til § 2-3:</a></li>
+<li class="lvl4"><a href="#til-3-2-frste-ledd">Til § 3-2 første ledd:</a></li>
+<li class="lvl4"><a href="#til-6-2-andre-ledd">Til § 6-2 andre ledd:</a></li>
+<li class="lvl4"><a href="#til-6-2-tredje-ledd-andre-punktum">Til § 6-2 tredje ledd andre punktum:</a></li>
+<li class="lvl4"><a href="#til-6-4-femte-ledd">Til § 6-4 femte ledd:</a></li>
+<li class="lvl4"><a href="#til-7-1_1">Til § 7-1:</a></li>
+<li class="lvl4"><a href="#til-7-2_1">Til § 7-2:</a></li>
+<li class="lvl4"><a href="#til-7-8">Til § 7-8</a></li>
+<li class="lvl4"><a href="#til-8-1">Til § 8-1:</a></li>
+<li class="lvl4"><a href="#til-13-5">Til § 13-5:</a></li>
+<li class="lvl4"><a href="#til-13-8">Til § 13-8:</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-05-14-506.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-05-14-506.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-05-14-506.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-05-14-506.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-05-14-506.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-05-14-506.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-05-14-506.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-05-14-506.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-05-14-506.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-lokalstyrevalg-i-longyearbyen">Forskrift om lokalstyrevalg i Longyearbyen</h1>
 <h2 id="kapittel-1-formal-og-virkeomrade-valgstyre">Kapittel 1. Formål og virkeområde. Valgstyre</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Formålet med forskriften er å legge forholdene til rette slik at innbyggerne i Longyearbyen ved frie, direkte og hemmelige valg skal kunne velge sine representanter til Longyearbyen lokalstyre.</p>
@@ -84,7 +403,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Denne forskriften gjelder ved valg av representanter til Longyearbyen lokalstyre.</p>
 <h4 id="1-3-valgstyre">§ 1-3. Valgstyre <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Valget ledes av et valgstyre som velges av lokalstyret selv i dets konstituerende møte, jf. Svalbardloven § 36a andre ledd.</p>
-<p><em>Endret ved forskrift 19 okt 2022 nr. 1765 .</em></p>
+<p class="note">Endret ved forskrift 19 okt 2022 nr. 1765 .</p>
 <h2 id="kapittel-2-stemmerett-og-manntall">Kapittel 2. Stemmerett og manntall</h2>
 <p>Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="2-1-stemmerett">§ 2-1. Stemmerett <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -94,28 +413,28 @@ b. ikke har mistet stemmeretten etter Grunnloven § 53 og
 c. senest fire uker før valgdagen er innført i befolkningsregisteret for Svalbard som bosatt i Longyearbyen.</p>
 <p>(2) Personer som ikke er norske statsborgere, men som for øvrig fyller vilkårene i første ledd, har stemmerett dersom de har vært folkeregistrert bosatt i en norsk kommune de tre siste årene før de ble innført i befolkningsregisteret for Svalbard som bosatt i Longyearbyen.</p>
 <p>(3) For å utøve stemmeretten må velgeren være innført i manntallet på valgdagen.</p>
-<p><em>Endret ved forskrifter 28 april 2015 nr. 421 , 17 juni 2022 nr. 1086 (i kraft 21 juli 2022).</em></p>
+<p class="note">Endret ved forskrifter 28 april 2015 nr. 421 , 17 juni 2022 nr. 1086 (i kraft 21 juli 2022).</p>
 <h4 id="2-2-manntallet-utsendelse-av-valgkort">§ 2-2. Manntallet. Utsendelse av valgkort <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Valgstyret er ansvarlig for at det blir utarbeidet manntall.</p>
 <p>(2) Valgstyret skal sørge for at det blir sendt ut valgkort til alle stemmeberettigede som er innført i manntallet.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="2-3-befolkningsregistermyndighetens-ansvar">§ 2-3. Befolkningsregistermyndighetens ansvar <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Befolkningsregistermyndigheten plikter selv av eget tiltak, uten hinder av lovbestemt taushetsplikt, på hensiktsmessig måte å stille til disposisjon for valgstyret</p>
 <p>a. et foreløpig manntall basert på stemmerettsvilkårene per 1. mars i valgåret, til bruk for forberedelser av valg, og
 b. opplysninger om hvem som skal innføres i manntallet senest fire uker før valgdagen.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), 28 april 2015 nr. 421 , 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), 28 april 2015 nr. 421 , 5 des 2018 nr. 1809 .</p>
 <h4 id="2-4-utlegging-av-manntallet-til-offentlig-ettersyn">§ 2-4. Utlegging av manntallet til offentlig ettersyn <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Valgstyret skal legge manntallet ut til offentlig ettersyn så snart det lar seg gjøre. Manntallet skal ligge ute til og med valgdagen.</p>
 <p>(2) Valgstyret kunngjør tid og sted for utleggingen og opplyser også om adgangen til og fremgangsmåten for å kreve feil rettet.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="2-5-krav-om-retting-oppdatering">§ 2-5. Krav om retting. Oppdatering <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som mener at vedkommende selv eller noen annen uriktig er blitt innført eller utelatt fra manntallet, kan kreve at feilen rettes opp.</p>
 <p>(2) Kravet skal være skriftlig og begrunnet og sendes valgstyret.</p>
 <p>(3) Valgstyret kan oppdatere manntallet så lenge det er praktisk mulig.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="2-6-underretning-om-endringer-i-manntallet">§ 2-6. Underretning om endringer i manntallet <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Valgstyret skal snarest sende melding til den som berøres av oppdateringer i manntallet som er foretatt på grunnlag av søknad om innføring, krav om retting eller at valgstyret er blitt oppmerksom på feil.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="2-7-utfyllende-bestemmelser">§ 2-7. Utfyllende bestemmelser</h4>
 <p>Bestemmelsene i forskrift om valg til Stortinget, fylkesting og kommunestyrer gjelder så langt de passer.</p>
 <h2 id="kapittel-3-valgbarhet-plikt-til-a-ta-imot-valg">Kapittel 3. Valgbarhet. Plikt til å ta imot valg</h2>
@@ -129,12 +448,12 @@ d. sekretær for lokalstyret,
 e. ansvarlig for regnskapsfunksjonen i Longyearbyen lokalstyre,
 f. revisor for Longyearbyen lokalstyre.</p>
 <p>(3) Om en person skal utelukkes fra valg avhenger av om vedkommende innehar stillingen når lokalstyret trer i funksjon.</p>
-<p><em>Endret ved forskrift 23 juni 2021 nr. 2222 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 23 juni 2021 nr. 2222 (i kraft 1 juli 2021).</p>
 <h4 id="3-2-rett-til-a-kreve-fritak">§ 3-2. Rett til å kreve fritak <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Rett til å kreve seg fritatt fra valg til lokalstyret har den som avgir skriftlig erklæring om at vedkommende ikke ønsker å stille til valg på den aktuelle valglisten.</p>
 <p>(2) Erklæring som nevnt i nr. 1 må settes frem innen den frist valgstyret setter, ellers tapes retten til å strykes fra listeforslaget.</p>
 <p>(3) Den som unnlater å kreve seg fritatt fra å stå på liste, kan ikke nekte å motta valg.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), 5 des 2018 nr. 1809 .</p>
 <h2 id="kapittel-4-krav-til-og-behandling-av-listeforslag">Kapittel 4. Krav til og behandling av listeforslag</h2>
 <h4 id="4-1-krav-til-listeforslaget">§ 4-1. Krav til listeforslaget <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Fristen for innlevering av listeforslag er kl. 12 den 15. mai i valgåret.</p>
@@ -145,7 +464,7 @@ c. Listeforslaget må være underskrevet av et visst antall personer, jf. § 4-3
 d. Det må inneholde navn på en tillitsvalgt og en vararepresentant blant dem som har skrevet under på listeforslaget. Disse skal ha myndighet til å forhandle med valgstyret om endringer på listeforslaget. Det bør også angis navn på et visst antall personer blant dem som har underskrevet på listeforslaget, som skal fungere som tillitsutvalg med myndighet til å trekke listeforslaget tilbake.</p>
 <p>(3) Listeforslaget må ha vedlegg som nevnt i § 4-4 .</p>
 <p>(4) Listeforslaget skal ikke inneholde annen type informasjon til velgerne enn det som fremgår av denne paragrafen.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="4-2-antall-kandidatnavn-pa-listeforslaget">§ 4-2. Antall kandidatnavn på listeforslaget</h4>
 <p>(1) Listeforslaget skal være utfylt i rekkefølge med minimum sju kandidater. Forslaget kan maksimalt inneholde et antall kandidatnavn som tilsvarer det antall representanter som skal velges, med et tillegg av inntil seks andre navn.</p>
 <p>(2) Inntil fire av de øverste kandidatene kan gis et stemmetillegg. Kandidatene får i så fall et tillegg i sitt personlige stemmetall som tilsvarer 25 prosent av det antall stemmesedler som kommer listen til del ved valget. Disse kandidatnavnene skal stå først på listeforslaget og med uthevet skrift.</p>
@@ -160,14 +479,14 @@ c. Dersom en kandidat ikke er innført i befolkningsregisteret som bosatt i Long
 d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges ved en erklæring fra kandidaten om at vedkommende vil ha fratrådt stillingen når lokalstyret trer i funksjon.</p>
 <h4 id="4-5-tilbakekalling-av-listeforslaget">§ 4-5. Tilbakekalling av listeforslaget <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Innlevert listeforslag kan kalles tilbake av tillitsutvalget. Erklæring om tilbakekalling må være innlevert senest kl. 12 den 1. juni i valgåret.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="4-6-valgstyrets-behandling-av-listeforslagene">§ 4-6. Valgstyrets behandling av listeforslagene <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Listeforslagene skal legges ut til ettersyn etter hvert som de kommer inn.</p>
 <p>(2) Valgstyret avgjør innen 15. juni i valgåret om forslag til valglister og tilbakekallinger av listeforslag kan godkjennes.</p>
 <p>(3) Dersom et listeforslag ved innleveringen ikke oppfyller forskriftens krav, skal valgstyret gjennom forhandlinger med listeforslagets tillitsvalgte forsøke å bringe forslaget i samsvar med forskriften. Det samme gjelder erklæring om tilbakekalling av listeforslag.</p>
 <p>(4) Dersom det er uklart hvem som har rett til å representere et registrert politisk parti på lokalt nivå og dermed rett til å stille liste for dette partiet, skal valgstyret innhente og legge til grunn uttalelse fra partiets utøvende organ.</p>
 <p>(5) Valgstyret skal underrette samtlige kandidater på listeforslagene om at de er satt opp på listeforslag og opplyse om adgangen til å søke om fritak. En underskriver eller en kandidat som står på flere listeforslag, skal gis pålegg om å melde fra innen en bestemt frist hvilket forslag vedkommende vil stå på. Ellers settes vedkommende opp på det listeforslaget som ble innlevert først</p>
-<p><em>Endret ved forskrift 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrift 5 des 2018 nr. 1809 .</p>
 <h4 id="4-7-offentliggjring-av-godkjente-valglister">§ 4-7. Offentliggjøring av godkjente valglister</h4>
 <p>Når listeforslagene er godkjent, skal valgstyret legge de offisielle valglistene ut til gjennomsyn. Valgstyret kunngjør overskriftene på de godkjente valglistene og opplyser om hvor de er lagt ut.</p>
 <h4 id="4-8-klage">§ 4-8. Klage</h4>
@@ -188,17 +507,17 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges 
 <p>(1) Velgere som ønsker det, kan avgi forhåndsstemme på Svalbard fra og med tre uker før valgdagen.</p>
 <p>(2) Forhåndsstemmegivningen må ikke foregå senere enn siste fredag før valgdagen.</p>
 <p>(3) Ved forhåndsstemmegivningen skal det være minst to stemmemottakere til stede ved mottak av forhåndsstemmer.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="6-2-hvem-kan-motta-forhandsstemmer">§ 6-2. Hvem kan motta forhåndsstemmer <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forhåndsstemmer mottas av stemmemottakere oppnevnt av valgstyret.</p>
 <p>(2) Kandidat som er oppført på valgliste ved lokalstyrevalget, kan ikke oppnevnes til stemmemottaker.</p>
 <p>(3) Dersom en velger ikke oppholder seg på Svalbard på valgdagen eller i løpet av forhåndsstemmeperioden og dermed ikke har mulighet til å oppsøke en stemmemottaker, kan vedkommende avgi stemme ved brevpost uten at en stemmemottaker er til stede ved stemmegivningen. Velgeren er selv ansvarlig for å avgi stemmen på et tidspunkt som gjør at den kommer inn til valgstyret innen kl. 17 dagen etter valgdagen.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 6 juli 2011 og 1 jan 2012), 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 6 juli 2011 og 1 jan 2012), 5 des 2018 nr. 1809 .</p>
 <h4 id="6-3-pa-hvilke-steder-kan-det-mottas-forhandsstemmer">§ 6-3. På hvilke steder kan det mottas forhåndsstemmer <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-6-3.html" title="Endringshistorikk for § 6-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Stemmegivningen skal foregå i egnet og tilgjengelig lokale. Velgerne skal kunne ta seg inn i valglokalene uten hjelp. Andre lokaler skal ikke benyttes med mindre særlige grunner foreligger.</p>
 <p>(2) Valgstyret beslutter hvor det skal mottas forhåndsstemmer.</p>
 <p>(3) Velgere som på grunn av sykdom eller uførhet ikke kan avgi stemme etter annet ledd, kan etter søknad til valgstyret avgi forhåndsstemme der de oppholder seg. Valgstyret fastsetter selv fristen for når søknaden må være kommet inn. Fristen må fastsettes til et tidspunkt innenfor perioden mellom tirsdag og fredag siste uke før valget. Søknadsfristen skal kunngjøres.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="6-4-fremgangsmaten-ved-stemmegivningen">§ 6-4. Fremgangsmåten ved stemmegivningen <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Velger skal i enerom og usett brette sammen stemmeseddelen slik at det ikke er synlig hvilken valgliste velgeren stemmer på.</p>
 <p>(2) Velger legger selv stemmeseddelen i en urne, etter at den er stemplet. Stemmemottaker setter kryss i manntallet ved velgerens navn.</p>
@@ -208,7 +527,7 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges 
 <p>(6) Stempel som brukes ved forhåndsstemmegivningen skal skille seg fra stempel som brukes på valgtinget.</p>
 <p>(7) Velger som har behov for det, kan selv be stemmemottaker om å få hjelp ved stemmegivningen. Velger med alvorlig psykisk eller fysisk funksjonshemning, kan selv peke ut en ekstra hjelper blant de personer som er til stede i valglokalet. Stemmemottaker skal gjøre hjelperen oppmerksom på at vedkommende har taushetsplikt etter § 13-4 (2).</p>
 <p>(8) Valgurner som brukes ved forhåndsstemmegivningen skal være forseglet.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 .</p>
 <h4 id="6-5-valgagitasjon-mm">§ 6-5. Valgagitasjon m.m.</h4>
 <p>(1) Valgagitasjon er ikke tillatt i det rommet der forhåndsstemmegivningen foregår.</p>
 <p>(2) Uvedkommende må ikke få kunnskap om forbruket av de forskjellige valglistenes stemmesedler.</p>
@@ -218,13 +537,13 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges 
 <h4 id="7-1-tidspunktet-for-valget">§ 7-1. Tidspunktet for valget <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Valg av representanter til lokalstyret finner sted på en mandag i oktober måned hvert fjerde år. Valget holdes samme år som det er valg til fylkesting og kommunestyrer på fastlandet. Valgstyret fastsetter dato for valget.</p>
 <p>(2) Lokalstyret kan selv vedta at det skal holdes valg også søndagen før den fastsatte valgdagen.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), forskrift 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 1 jan 2012), forskrift 5 des 2018 nr. 1809 .</p>
 <h4 id="7-2-tid-og-sted-for-stemmegivningen-organisering">§ 7-2. Tid og sted for stemmegivningen. Organisering <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Valg til lokalstyret gjennomføres i én stemmekrets.</p>
 <p>(2) Valgstyret bestemmer hvor stemmegivningen skal foregå og fastsetter tiden for stemmegivningen. Stemmegivningen skal foregå i egnet og tilgjengelig lokale. Velgerne skal kunne ta seg inn i valglokalene uten hjelp. Andre lokaler skal ikke benyttes med mindre særlige grunner foreligger. Lokalstyret kan selv, med tilslutning fra minst 1/3 av medlemmene, vedta å holde valglokalet åpent lenger enn det valgstyret har vedtatt. Slikt vedtak må treffes senest samtidig med budsjettet for det året valget skal holdes. Stemmegivningen mandag må ikke foregå senere enn kl. 21.</p>
 <p>(3) Valgstyret kunngjør tid og sted for stemmegivningen.</p>
 <p>(4) Kandidat som er oppført på valgliste ved lokalstyrevalget, kan ikke oppnevnes til stemmemottaker eller valgfunksjonær i valglokalet.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 6 juli 2011 og 1 jan 2012), 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 (i kraft 6 juli 2011 og 1 jan 2012), 28 april 2015 nr. 421 .</p>
 <h4 id="7-3-ordensregler">§ 7-3. Ordensregler</h4>
 <p>(1) I valglokalet og i de rom som velgeren må passere for å komme frem til valglokalet, er det ikke tillatt å drive valgagitasjon eller å utføre handlinger som kan forstyrre eller hindre en normal gjennomføring av valghandlingen. Det er ikke tillatt for uvedkommende å føre kontroll med hvem som møter frem og avgir stemme, eller å foreta velgerundersøkelser eller liknende utspørring av velgerne.</p>
 <p>(2) Uvedkommende må ikke få kunnskap om forbruket av de forskjellige valglistenes stemmesedler.</p>
@@ -236,12 +555,12 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges 
 <p>(4) Velgeren skal i enerom og usett brette sammen stemmeseddelen slik at det ikke er synlig hvilken valgliste velgeren stemmer på. Velgeren leverer stemmeseddelen til stemmestyret, som stempler den med et offisielt stempel. Velgeren legger selv stemmeseddelen ned i en urne.</p>
 <p>(5) Velger som har behov for det, kan selv be stemmestyret om å få nødvendig hjelp ved stemmegivningen. Velger med alvorlig psykisk eller fysisk funksjonshemning kan selv peke ut en ekstra hjelper blant de personer som er til stede i valglokalet. Stemmestyret skal gjøre hjelperen oppmerksom på at vedkommende har taushetsplikt.</p>
 <p>(6) Valgurner som brukes ved stemmegivningen på valgdagen skal være forseglet.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 .</p>
 <h4 id="7-4a-elektronisk-avkryssing-i-manntallet-pa-valgdagen">§ 7-4a. Elektronisk avkryssing i manntallet på valgdagen</h4>
 <p>(1) Longyearbyen lokalstyre kan selv vedta å ta i bruk en ordning med elektronisk avkryssing i manntallet.</p>
 <p>(2) Dersom det er tatt i bruk elektronisk avkryssing etter første ledd, skal stemmestyret krysse av i det elektroniske manntallet for velgere som er manntallsført i Longyearbyen.</p>
 <p>(3) Ved strømbrudd eller kommunikasjonsbrudd med manntallet når elektronisk avkryssing er tatt i bruk, skal senere avgitte stemmesedler ikke legges i urnen. Slike stemmesedler skal behandles som beredskapsstemmer. Etter at stemmeseddelen er stemplet, skal velgeren selv legge den i en stemmeseddelkonvolutt og lime konvolutten igjen. Stemmemottakeren skal legge stemmeseddelkonvolutten i en beredskapskonvolutt sammen med valgkortet. Ved todagersvalg skal eventuelle beredskapsstemmer mottatt på søndag behandles og krysses av i det elektroniske manntallet før valglokalene åpner på mandag.</p>
-<p><em>Tilføyd ved forskrift 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 des 2018 nr. 1809 .</p>
 <h4 id="7-5-stemmegivning-utenfor-valglokalet">§ 7-5. Stemmegivning utenfor valglokalet</h4>
 <p>Er velgeren ikke i stand til å bevege seg inn i valglokalet, kan vedkommende avgi stemme til to stemmemottakere umiddelbart utenfor valglokalet.</p>
 <h4 id="7-6-avslutning-av-stemmegivningen">§ 7-6. Avslutning av stemmegivningen</h4>
@@ -250,7 +569,7 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det legges 
 <p>Alt valgmateriell skal oppbevares og transporteres på betryggende måte.</p>
 <h4 id="7-8-offentliggjring-av-valgresultater-og-prognoser">§ 7-8. Offentliggjøring av valgresultater og prognoser <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-7-8.html" title="Endringshistorikk for § 7-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Valgresultater og prognoser som er laget på grunnlag av undersøkelser foretatt den dag eller de dager valget foregår, kan ikke offentliggjøres før tidligst kl. 21 på valgdagen mandag.</p>
-<p><em>Endret ved forskrift 6 juli 2011 nr. 744 .</em></p>
+<p class="note">Endret ved forskrift 6 juli 2011 nr. 744 .</p>
 <h4 id="7-9-utfyllende-bestemmelser">§ 7-9. Utfyllende bestemmelser</h4>
 <p>Bestemmelsene i forskrift om valg til Stortinget, fylkesting og kommunestyrer gjelder så langt de passer.</p>
 <h2 id="kapittel-8-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 8. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</h2>
@@ -265,21 +584,21 @@ f. velgeren ikke har avgitt godkjent stemmegivning og
 g. stemmegivningen er kommet inn til valgstyret innen kl. 17 dagen etter valgdagen.</p>
 <p>(2) Velgerens stemmegivning er godkjent når vedkommende er krysset av i listen over stemmeberettigede.</p>
 <p>(3) Forhåndsstemmegivningene skal godkjennes før valgdagen i den utstrekning det er mulig.</p>
-<p><em>Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 , 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2011 nr. 744 , 28 april 2015 nr. 421 , 5 des 2018 nr. 1809 .</p>
 <h4 id="8-1a-stemmemottakers-godkjenning-av-forhandsstemmegivning-som-legges-i-urne">§ 8-1a. Stemmemottakers godkjenning av forhåndsstemmegivning som legges i urne <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-8-1a.html" title="Endringshistorikk for § 8-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En stemmegivning avgitt på forhånd i henhold til § 6-4 annet ledd skal godkjennes dersom</p>
 <p>a. velgeren er innført i manntallet,
 b. velgeren har fått anledning til å avgi stemme, og
 c. velgeren ikke allerede har avgitt godkjent stemmegivning.</p>
 <p>(2) Velgerens stemmegivning er godkjent når vedkommende er krysset av i manntallet.</p>
-<p><em>Tilføyd ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Tilføyd ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="8-2-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 8-2. Godkjenning av stemmegivning avgitt på valgtinget <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En stemmegivning avgitt på valgtinget skal godkjennes dersom</p>
 <p>a. velgeren er innført i manntallet,
 b. velgeren har fått anledning til å avgi stemme, og
 c. velgeren ikke allerede har avgitt godkjent stemmegivning.</p>
 <p>(2) Velgerens stemmegivning er godkjent når vedkommende er krysset av i manntallet.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="8-3-godkjenning-av-stemmesedler">§ 8-3. Godkjenning av stemmesedler <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En stemmeseddel skal godkjennes dersom</p>
 <p>a. den har offentlig stempel,
@@ -287,7 +606,7 @@ b. det fremgår hvilket parti eller gruppe velgeren har stemt på, og
 c. partiet eller gruppen stiller liste ved valget.</p>
 <p>(2) En avgitt stemmeseddel anses å være enslydende med den offisielle valglisten.</p>
 <p>(3) Dersom velgeren har benyttet en trykt stemmeseddel som ikke er enslydende med den offisielle valglisten, skal det ses bort fra eventuelle endringer foretatt av velgeren.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="8-4-prinsipper-for-opptelling-av-stemmesedler">§ 8-4. Prinsipper for opptelling av stemmesedler</h4>
 <p>(1) Valgstyret er ansvarlig for opptelling av stemmesedler. Opptellingen foretas av de personer og på den måten valgstyret har bestemt.</p>
 <p>(2) Stemmesedler avgitt på forhånd og stemmesedler avgitt på valgtinget skal telles hver for seg.</p>
@@ -305,7 +624,7 @@ c. partiet eller gruppen stiller liste ved valget.</p>
 <p>(1) Stemmestyret skal føre protokoll i forbindelse med gjennomføringen av valgtinget.</p>
 <p>(2) Valgstyret skal føre protokoll i forbindelse med forberedelser og gjennomføring av valg.</p>
 <p>(3) Til protokollføringen benyttes samme formular som fastsatt for kommunene, jf. bestemmelser i forskrift om valg til Stortinget, fylkesting og kommunestyrer.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="8-8-utfyllende-bestemmelser">§ 8-8. Utfyllende bestemmelser</h4>
 <p>Bestemmelsene i forskrift om valg til Stortinget, fylkesting og kommunestyret gjelder så langt de passer.</p>
 <h2 id="kapittel-9-mandatfordelingen-og-kandidatkaringen">Kapittel 9. Mandatfordelingen og kandidatkåringen</h2>
@@ -317,7 +636,7 @@ c. partiet eller gruppen stiller liste ved valget.</p>
 <p>(5) Dersom en valgliste får flere mandater enn det er valgbare kandidater på listen, fordeles det overskytende antall mandater mellom de øvrige listene i henhold til regelen i første ledd.</p>
 <h4 id="9-2-underretning-til-de-valgte-representantene">§ 9-2. Underretning til de valgte representantene <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Valgstyret skal underrette de valgte representantene og vararepresentantene om valget.</p>
-<p><em>Endret ved forskrift 5 des 2018 nr. 1809 .</em></p>
+<p class="note">Endret ved forskrift 5 des 2018 nr. 1809 .</p>
 <h2 id="kapittel-10-flertallsvalg">Kapittel 10. Flertallsvalg</h2>
 <h4 id="10-1-flertallsvalg">§ 10-1. Flertallsvalg</h4>
 <p>Lokalstyrevalget holdes som flertallsvalg dersom det ikke foreligger mer enn ett godkjent listeforslag. Bestemmelsene i valgloven kapittel 12 gjelder tilsvarende.</p>
@@ -327,7 +646,7 @@ c. partiet eller gruppen stiller liste ved valget.</p>
 <p>(2) Klage må fremmes innen sju dager etter valgdagen. Klage over valgoppgjøret må fremmes innen sju dager etter at valgoppgjøret er godkjent.</p>
 <p>(3) Klagen skal være skriftlig og skal fremsettes for valgstyret.</p>
 <p>(4) Departementet er klageinstans. Departementet skal kjenne valget ugyldig dersom det er begått feil som antas å ha hatt innflytelse på fordelingen av mandatene mellom listene og som det ikke er mulig å rette. Departementets vedtak i klagesaker etter denne paragraf er endelige og kan ikke bringes inn for domstolene.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="11-2-kontroll-av-valget-ugyldig-valg-omvalg">§ 11-2. Kontroll av valget. Ugyldig valg – omvalg</h4>
 <p>(1) Det nyvalgte lokalstyret treffer vedtak om valget er gyldig.</p>
 <p>(2) Lokalstyret skal kjenne valget ugyldig hvis det er begått feil som antas å ha hatt innflytelse på fordelingen av mandatene mellom listene og som det ikke er mulig å rette.</p>
@@ -336,7 +655,7 @@ c. partiet eller gruppen stiller liste ved valget.</p>
 <h4 id="11-3-gjennomfring-av-omvalg">§ 11-3. Gjennomføring av omvalg <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-11-3.html" title="Endringshistorikk for § 11-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Ved omvalg, benyttes manntallet fra det opprinnelige valget. Listen skal oppdateres og feil rettes.</p>
 <p>(2) Dersom det er nødvendig av hensyn til en hensiktsmessig gjennomføring av omvalget, kan departementet gjøre unntak fra bestemmelser i denne forskriften.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h2 id="kapittel-12-nytt-valgoppgjr-i-perioden-suppleringsvalg">Kapittel 12. Nytt valgoppgjør i perioden. Suppleringsvalg</h2>
 <h4 id="12-1-nytt-valgoppgjr-og-suppleringsvalg">§ 12-1. Nytt valgoppgjør og suppleringsvalg</h4>
 <p>(1) Lederen i lokalstyret skal sørge for at valgstyret foretar nytt valgoppgjør dersom en representantplass blir stående ubesatt.</p>
@@ -357,7 +676,7 @@ b. forsøk med direkte valg av andre folkevalgte organer enn dem denne forskrift
 <p>a. til offentlig ansatte når det er nødvendig av hensyn til tjenesten, eller
 b. til forskere i vitenskapelig øyemed når det foreligger samtykke fra befolkningsregistermyndigheten.</p>
 <p>(2) Tilgang til det øvrige valgmateriellet kan bare gis til forskere i vitenskapelig øyemed og etter samtykke fra vedkommende myndighet.</p>
-<p><em>Endret ved forskrift 28 april 2015 nr. 421 .</em></p>
+<p class="note">Endret ved forskrift 28 april 2015 nr. 421 .</p>
 <h4 id="13-4-taushetsplikt">§ 13-4. Taushetsplikt</h4>
 <p>(1) Forvaltningslovens bestemmelser om taushetsplikt gjelder tilsvarende ved valg.</p>
 <p>(2) En person som assisterer en velger ved stemmegivningen og får kjennskap til hvordan vedkommende har stemt, har taushetsplikt om dette.</p>
@@ -366,7 +685,7 @@ b. til forskere i vitenskapelig øyemed når det foreligger samtykke fra befolkn
 <p>(2) Hvis en dato for avslutningen av en frist faller på en lørdag eller en helligdag, løper fristen ut den nærmest påfølgende hverdag.</p>
 <p>(3) Bestemmelsene i første og annet ledd gjelder tilsvarende i de tilfeller hvor en dato som er det tidligste eller seneste tidspunktet for noen handling etter denne forskrift, faller på en lørdag eller en helligdag.</p>
 <p>(4) Melding, erklæring eller klage som gis etter utløpet av frist etter denne lov, kan bare tas til behandling hvis fristoversittingen skyldes forhold den som plikter å overholde fristen, ikke hadde herredømmer over og heller ikke kunne forutse.</p>
-<p><em>Endret ved forskrift 6 juli 2011 nr. 744 .</em></p>
+<p class="note">Endret ved forskrift 6 juli 2011 nr. 744 .</p>
 <h4 id="13-6-opplysningsplikt">§ 13-6. Opplysningsplikt</h4>
 <p>Alle offentlig ansatte plikter så langt det er mulig å gi valgmyndighetene de opplysninger de måtte kreve til bruk ved forberedelse og gjennomføring av valg.</p>
 <h4 id="13-7-oppgaver-til-valgstatistikk">§ 13-7. Oppgaver til valgstatistikk</h4>
@@ -374,7 +693,7 @@ b. til forskere i vitenskapelig øyemed når det foreligger samtykke fra befolkn
 <h4 id="13-8-valgobservasjon">§ 13-8. Valgobservasjon <a class="para-history" href="../historikk/forskrift-2007-05-14-506/para-13-8.html" title="Endringshistorikk for § 13-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Departementet kan akkreditere nasjonale og internasjonale valgobservatører fra institusjoner eller organisasjoner til å observere gjennomføringen av valg til lokalstyret.</p>
 <p>(2) Longyearbyen lokalstyre har plikt til å ta i mot akkrediterte valgobservatører og tilrettelegge for valgobservasjon.</p>
-<p><em>Tilføyd ved forskrift 6 juli 2011 nr. 744 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 juli 2011 nr. 744 .</p>
 <h2 id="kapittel-14-ikrafttredelse-oppheving-av-tidligere-forskrift">Kapittel 14. Ikrafttredelse. Oppheving av tidligere forskrift</h2>
 <h4 id="14-1-ikrafttredelse-oppheving-av-tidligere-forskrift">§ 14-1. Ikrafttredelse. Oppheving av tidligere forskrift</h4>
 <p>Forskriften trer i kraft straks. Samtidig oppheves forskrift 14. desember 2001 nr. 1393 om lokalstyrevalg i Longyearbyen med hjemmel i lov 17. juli 1925 nr. 11 om Svalbard § 34 fjerde ledd.</p>
@@ -494,6 +813,8 @@ b. til forskere i vitenskapelig øyemed når det foreligger samtykke fra befolkn
 <h4 id="til-13-8">Til § 13-8:</h4>
 <p>Forslaget er en oppfølging av valgloven § 15-10 . Forarbeidene til bestemmelsen, som er Ot.prp.nr.32 (2008–2009) viser til at Norge er forpliktet til å legge til rette for valgobservatører, gjennom vårt medlemskap i internasjonale organisasjoner som OSSE og Europarådet. Det er naturlig at dette også skal gjelde ved valg til Longyearbyen lokalstyre. Departementet som akkrediterer vil her være Justisdepartementet. I den praktiske gjennomføringen vil det være naturlig å anvende Kommunaldepartementets retningslinjer for dette. Trer i kraft straks.</p>
 <p>Merknadene endret ved forskrift 6 juli 2011 nr. 744 (i kraft 6 juli 2011 og 1 jan 2012).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

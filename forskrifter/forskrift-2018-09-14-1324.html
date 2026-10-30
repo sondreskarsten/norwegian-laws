@@ -19,64 +19,197 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-09-14-1324.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Hvitvaskingsforskriften" href="../feeds/forskrift-2018-09-14-1324.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Hvitvaskingsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2018-09-14-1324</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2018-10-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-01-29-110</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2018-09-14-1324" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-agenter-for-utenlandske-betalingsforetak">§ 1-2. Agenter for utenlandske betalingsforetak</a></li>
+<li class="lvl4"><a href="#1-3-opphevet">§ 1-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-4-unntak-fra-hvitvaskingsloven-for-srskilte-tilbydere-av-spilltjenester">§ 1-4. Unntak fra hvitvaskingsloven for særskilte tilbydere av spilltjenester</a></li>
+<li class="lvl2"><a href="#kapittel-2-belpsgrense-for-kontantvederlag">Kapittel 2. Beløpsgrense for kontantvederlag</a></li>
+<li class="lvl2"><a href="#kapittel-3-risikobasert-tilnrming-og-rutiner">Kapittel 3. Risikobasert tilnærming og rutiner</a></li>
+<li class="lvl2"><a href="#kapittel-4-kundetiltak-og-lpende-oppflging">Kapittel 4. Kundetiltak og løpende oppfølging</a></li>
+<li class="lvl4"><a href="#4-1-etablering-av-kundeforhold">§ 4-1. Etablering av kundeforhold</a></li>
+<li class="lvl4"><a href="#4-1a-plikt-til-a-gjennomfre-kundetiltak-nar-det-ikke-er-etablert-kundeforhold">§ 4-1a. Plikt til å gjennomføre kundetiltak når det ikke er etablert kundeforhold</a></li>
+<li class="lvl4"><a href="#4-2-unntak-fra-kundetiltak">§ 4-2. Unntak fra kundetiltak</a></li>
+<li class="lvl4"><a href="#4-2a-unntak-fra-visse-kundetiltak-ved-produkter-knyttet-til-offentlige-ytelser">§ 4-2a. Unntak fra visse kundetiltak ved produkter knyttet til offentlige ytelser</a></li>
+<li class="lvl4"><a href="#4-3-gyldig-legitimasjon-for-fysiske-personer">§ 4-3. Gyldig legitimasjon for fysiske personer</a></li>
+<li class="lvl4"><a href="#4-4-kundetiltak-for-kunder-som-ikke-er-fysiske-personer-som-enna-ikke-er-registrert-i-offentlig-register-etterflgende-innhenting-av-utskrift-eller-firmaattest">§ 4-4. Kundetiltak for kunder som ikke er fysiske personer, som ennå ikke er registrert i offentlig register. Etterfølgende innhenting av utskrift eller firmaattest</a></li>
+<li class="lvl4"><a href="#4-4a-forsikringsavtaler-omfattet-av-hvitvaskingsloven-15">§ 4-4a. Forsikringsavtaler omfattet av hvitvaskingsloven § 15</a></li>
+<li class="lvl4"><a href="#4-5-utkontraktering-til-rapporteringspliktiges-distribusjonsapparat-og-leveringspliktige-tilbydere-av-posttjenester">§ 4-5. Utkontraktering til rapporteringspliktiges distribusjonsapparat og leveringspliktige tilbydere av posttjenester</a></li>
+<li class="lvl4"><a href="#4-6-lav-risiko-for-hvitvasking-og-terrorfinansiering-forenklede-kundetiltak">§ 4-6. Lav risiko for hvitvasking og terrorfinansiering – forenklede kundetiltak</a></li>
+<li class="lvl4"><a href="#4-7-forenklede-kundetiltak-overfor-disponenter-og-personer-som-kan-handle-pa-vegne-av-kunden">§ 4-7. Forenklede kundetiltak overfor disponenter og personer som kan handle på vegne av kunden</a></li>
+<li class="lvl4"><a href="#4-8-kundetiltak-for-kontoer-som-mottar-midler-fra-flere-personer-klientkontoer">§ 4-8. Kundetiltak for kontoer som mottar midler fra flere personer (klientkontoer)</a></li>
+<li class="lvl4"><a href="#4-9-hy-risiko-for-hvitvasking-og-terrorfinansiering-forsterkede-kundetiltak">§ 4-9. Høy risiko for hvitvasking og terrorfinansiering – forsterkede kundetiltak</a></li>
+<li class="lvl4"><a href="#4-10-srlige-tiltak-overfor-hyrisikoland">§ 4-10. Særlige tiltak overfor høyrisikoland</a></li>
+<li class="lvl4"><a href="#4-11-innhenting-av-opplysninger-om-midlenes-opprinnelse">§ 4-11. Innhenting av opplysninger om midlenes opprinnelse</a></li>
+<li class="lvl4"><a href="#4-12-bruk-av-tredjepart-for-tilbydere-av-spilltjenester">§ 4-12. Bruk av tredjepart for tilbydere av spilltjenester</a></li>
+<li class="lvl4"><a href="#4-13-delvis-avvikling-og-sperring-avvikling-av-grunnleggende-tjenester">§ 4-13. Delvis avvikling og sperring. Avvikling av grunnleggende tjenester.</a></li>
+<li class="lvl4"><a href="#4-14-tilbakefring-av-kundemidler-ved-avvikling-av-kundeforholdet">§ 4-14. Tilbakeføring av kundemidler ved avvikling av kundeforholdet</a></li>
+<li class="lvl2"><a href="#kapittel-5-nrmere-underskelser-rapportering">Kapittel 5. Nærmere undersøkelser. Rapportering</a></li>
+<li class="lvl4"><a href="#5-1-oversendelse-av-opplysninger-til-kokrim">§ 5-1. Oversendelse av opplysninger til Økokrim</a></li>
+<li class="lvl4"><a href="#5-2-unntak-fra-avslringsforbudet-utveksling-av-opplysninger-om-felles-kunde-i-en-transaksjon-hvor-de-aktuelle-rapporteringspliktige-er-involvert">§ 5-2. Unntak fra avsløringsforbudet – utveksling av opplysninger om felles kunde i en transaksjon hvor de aktuelle rapporteringspliktige er involvert</a></li>
+<li class="lvl2"><a href="#kapittel-6-behandling-av-personopplysninger-og-andre-opplysninger">Kapittel 6. Behandling av personopplysninger og andre opplysninger</a></li>
+<li class="lvl4"><a href="#6-1-behandling-av-srlige-kategorier-personopplysninger-og-opplysninger-om-straffedommer-og-lovovertredelser">§ 6-1. Behandling av særlige kategorier personopplysninger og opplysninger om straffedommer og lovovertredelser</a></li>
+<li class="lvl4"><a href="#6-2-registrering-og-lagring-av-opplysninger-og-dokumenter">§ 6-2. Registrering og lagring av opplysninger og dokumenter</a></li>
+<li class="lvl4"><a href="#6-3-lagring-av-opplysninger-og-dokumenter-for-advokater-mv">§ 6-3. Lagring av opplysninger og dokumenter for advokater mv.</a></li>
+<li class="lvl4"><a href="#6-4-beregning-av-maksimal-lagringstid">§ 6-4. Beregning av maksimal lagringstid</a></li>
+<li class="lvl4"><a href="#6-5-utveksling-av-opplysninger-i-konsern">§ 6-5. Utveksling av opplysninger i konsern</a></li>
+<li class="lvl2"><a href="#kapittel-7-vrige-plikter">Kapittel 7. Øvrige plikter</a></li>
+<li class="lvl4"><a href="#7-1-inkorporasjon-av-kommisjonsforordningeu-2019758minstekrav-og-ytterligere-tiltak-kreditt-og-finansinstitusjoner-skal-gjennomfre-for-a-begrense-risikoen-for-hvitvasking-og-terrorfinansiering-i-visse-tredjeland">§ 7-1. Inkorporasjon av kommisjonsforordning(EU) 2019/758(minstekrav og ytterligere tiltak kreditt- og finansinstitusjoner skal gjennomføre for å begrense risikoen for hvitvasking og terrorfinansiering i visse tredjeland)</a></li>
+<li class="lvl4"><a href="#7-2-inkorporasjon-av-kommisjonsforordningeu-20181108kriterier-for-utpeking-av-sentrale-kontaktpunkter-for-e-pengeutstedere-og-betalingstjenesteytere-og-regler-for-deres-funksjoner">§ 7-2. Inkorporasjon av kommisjonsforordning(EU) 2018/1108(kriterier for utpeking av sentrale kontaktpunkter for e-pengeutstedere og betalingstjenesteytere og regler for deres funksjoner)</a></li>
+<li class="lvl4"><a href="#7-3-minimumskrav-til-elektronisk-overvakingssystem">§ 7-3. Minimumskrav til elektronisk overvåkingssystem</a></li>
+<li class="lvl2"><a href="#kapittel-8-autorisasjon-for-tilbydere-av-virksomhetstjenester">Kapittel 8. Autorisasjon for tilbydere av virksomhetstjenester</a></li>
+<li class="lvl2"><a href="#kapittel-9-tilsyn-forvaltningstiltak-sanksjoner">Kapittel 9. Tilsyn. Forvaltningstiltak. Sanksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-1-opphevet">§ 10-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#10-2-overgangsregler">§ 10-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#10-3-ikrafttredelse">§ 10-3. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-01-29-110.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-09-14-1324.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-09-14-1324.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2018-09-14-1324 <code>forskrift/2018-09-14-1324</code></td></tr>
+<tr><th>Korttittel</th><td>Hvitvaskingsforskriften</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.10.2018</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-01-29-110 <code>forskrift/2026-01-29-110</code> fra 06.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2018-09-14-1324" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-agenter-for-utenlandske-betalingsforetak">§ 1-2. Agenter for utenlandske betalingsforetak</a></li>
+<li class="lvl4"><a href="#1-3-opphevet">§ 1-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-4-unntak-fra-hvitvaskingsloven-for-srskilte-tilbydere-av-spilltjenester">§ 1-4. Unntak fra hvitvaskingsloven for særskilte tilbydere av spilltjenester</a></li>
+<li class="lvl2"><a href="#kapittel-2-belpsgrense-for-kontantvederlag">Kapittel 2. Beløpsgrense for kontantvederlag</a></li>
+<li class="lvl2"><a href="#kapittel-3-risikobasert-tilnrming-og-rutiner">Kapittel 3. Risikobasert tilnærming og rutiner</a></li>
+<li class="lvl2"><a href="#kapittel-4-kundetiltak-og-lpende-oppflging">Kapittel 4. Kundetiltak og løpende oppfølging</a></li>
+<li class="lvl4"><a href="#4-1-etablering-av-kundeforhold">§ 4-1. Etablering av kundeforhold</a></li>
+<li class="lvl4"><a href="#4-1a-plikt-til-a-gjennomfre-kundetiltak-nar-det-ikke-er-etablert-kundeforhold">§ 4-1a. Plikt til å gjennomføre kundetiltak når det ikke er etablert kundeforhold</a></li>
+<li class="lvl4"><a href="#4-2-unntak-fra-kundetiltak">§ 4-2. Unntak fra kundetiltak</a></li>
+<li class="lvl4"><a href="#4-2a-unntak-fra-visse-kundetiltak-ved-produkter-knyttet-til-offentlige-ytelser">§ 4-2a. Unntak fra visse kundetiltak ved produkter knyttet til offentlige ytelser</a></li>
+<li class="lvl4"><a href="#4-3-gyldig-legitimasjon-for-fysiske-personer">§ 4-3. Gyldig legitimasjon for fysiske personer</a></li>
+<li class="lvl4"><a href="#4-4-kundetiltak-for-kunder-som-ikke-er-fysiske-personer-som-enna-ikke-er-registrert-i-offentlig-register-etterflgende-innhenting-av-utskrift-eller-firmaattest">§ 4-4. Kundetiltak for kunder som ikke er fysiske personer, som ennå ikke er registrert i offentlig register. Etterfølgende innhenting av utskrift eller firmaattest</a></li>
+<li class="lvl4"><a href="#4-4a-forsikringsavtaler-omfattet-av-hvitvaskingsloven-15">§ 4-4a. Forsikringsavtaler omfattet av hvitvaskingsloven § 15</a></li>
+<li class="lvl4"><a href="#4-5-utkontraktering-til-rapporteringspliktiges-distribusjonsapparat-og-leveringspliktige-tilbydere-av-posttjenester">§ 4-5. Utkontraktering til rapporteringspliktiges distribusjonsapparat og leveringspliktige tilbydere av posttjenester</a></li>
+<li class="lvl4"><a href="#4-6-lav-risiko-for-hvitvasking-og-terrorfinansiering-forenklede-kundetiltak">§ 4-6. Lav risiko for hvitvasking og terrorfinansiering – forenklede kundetiltak</a></li>
+<li class="lvl4"><a href="#4-7-forenklede-kundetiltak-overfor-disponenter-og-personer-som-kan-handle-pa-vegne-av-kunden">§ 4-7. Forenklede kundetiltak overfor disponenter og personer som kan handle på vegne av kunden</a></li>
+<li class="lvl4"><a href="#4-8-kundetiltak-for-kontoer-som-mottar-midler-fra-flere-personer-klientkontoer">§ 4-8. Kundetiltak for kontoer som mottar midler fra flere personer (klientkontoer)</a></li>
+<li class="lvl4"><a href="#4-9-hy-risiko-for-hvitvasking-og-terrorfinansiering-forsterkede-kundetiltak">§ 4-9. Høy risiko for hvitvasking og terrorfinansiering – forsterkede kundetiltak</a></li>
+<li class="lvl4"><a href="#4-10-srlige-tiltak-overfor-hyrisikoland">§ 4-10. Særlige tiltak overfor høyrisikoland</a></li>
+<li class="lvl4"><a href="#4-11-innhenting-av-opplysninger-om-midlenes-opprinnelse">§ 4-11. Innhenting av opplysninger om midlenes opprinnelse</a></li>
+<li class="lvl4"><a href="#4-12-bruk-av-tredjepart-for-tilbydere-av-spilltjenester">§ 4-12. Bruk av tredjepart for tilbydere av spilltjenester</a></li>
+<li class="lvl4"><a href="#4-13-delvis-avvikling-og-sperring-avvikling-av-grunnleggende-tjenester">§ 4-13. Delvis avvikling og sperring. Avvikling av grunnleggende tjenester.</a></li>
+<li class="lvl4"><a href="#4-14-tilbakefring-av-kundemidler-ved-avvikling-av-kundeforholdet">§ 4-14. Tilbakeføring av kundemidler ved avvikling av kundeforholdet</a></li>
+<li class="lvl2"><a href="#kapittel-5-nrmere-underskelser-rapportering">Kapittel 5. Nærmere undersøkelser. Rapportering</a></li>
+<li class="lvl4"><a href="#5-1-oversendelse-av-opplysninger-til-kokrim">§ 5-1. Oversendelse av opplysninger til Økokrim</a></li>
+<li class="lvl4"><a href="#5-2-unntak-fra-avslringsforbudet-utveksling-av-opplysninger-om-felles-kunde-i-en-transaksjon-hvor-de-aktuelle-rapporteringspliktige-er-involvert">§ 5-2. Unntak fra avsløringsforbudet – utveksling av opplysninger om felles kunde i en transaksjon hvor de aktuelle rapporteringspliktige er involvert</a></li>
+<li class="lvl2"><a href="#kapittel-6-behandling-av-personopplysninger-og-andre-opplysninger">Kapittel 6. Behandling av personopplysninger og andre opplysninger</a></li>
+<li class="lvl4"><a href="#6-1-behandling-av-srlige-kategorier-personopplysninger-og-opplysninger-om-straffedommer-og-lovovertredelser">§ 6-1. Behandling av særlige kategorier personopplysninger og opplysninger om straffedommer og lovovertredelser</a></li>
+<li class="lvl4"><a href="#6-2-registrering-og-lagring-av-opplysninger-og-dokumenter">§ 6-2. Registrering og lagring av opplysninger og dokumenter</a></li>
+<li class="lvl4"><a href="#6-3-lagring-av-opplysninger-og-dokumenter-for-advokater-mv">§ 6-3. Lagring av opplysninger og dokumenter for advokater mv.</a></li>
+<li class="lvl4"><a href="#6-4-beregning-av-maksimal-lagringstid">§ 6-4. Beregning av maksimal lagringstid</a></li>
+<li class="lvl4"><a href="#6-5-utveksling-av-opplysninger-i-konsern">§ 6-5. Utveksling av opplysninger i konsern</a></li>
+<li class="lvl2"><a href="#kapittel-7-vrige-plikter">Kapittel 7. Øvrige plikter</a></li>
+<li class="lvl4"><a href="#7-1-inkorporasjon-av-kommisjonsforordningeu-2019758minstekrav-og-ytterligere-tiltak-kreditt-og-finansinstitusjoner-skal-gjennomfre-for-a-begrense-risikoen-for-hvitvasking-og-terrorfinansiering-i-visse-tredjeland">§ 7-1. Inkorporasjon av kommisjonsforordning(EU) 2019/758(minstekrav og ytterligere tiltak kreditt- og finansinstitusjoner skal gjennomføre for å begrense risikoen for hvitvasking og terrorfinansiering i visse tredjeland)</a></li>
+<li class="lvl4"><a href="#7-2-inkorporasjon-av-kommisjonsforordningeu-20181108kriterier-for-utpeking-av-sentrale-kontaktpunkter-for-e-pengeutstedere-og-betalingstjenesteytere-og-regler-for-deres-funksjoner">§ 7-2. Inkorporasjon av kommisjonsforordning(EU) 2018/1108(kriterier for utpeking av sentrale kontaktpunkter for e-pengeutstedere og betalingstjenesteytere og regler for deres funksjoner)</a></li>
+<li class="lvl4"><a href="#7-3-minimumskrav-til-elektronisk-overvakingssystem">§ 7-3. Minimumskrav til elektronisk overvåkingssystem</a></li>
+<li class="lvl2"><a href="#kapittel-8-autorisasjon-for-tilbydere-av-virksomhetstjenester">Kapittel 8. Autorisasjon for tilbydere av virksomhetstjenester</a></li>
+<li class="lvl2"><a href="#kapittel-9-tilsyn-forvaltningstiltak-sanksjoner">Kapittel 9. Tilsyn. Forvaltningstiltak. Sanksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-1-opphevet">§ 10-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#10-2-overgangsregler">§ 10-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#10-3-ikrafttredelse">§ 10-3. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-09-14-1324.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-09-14-1324.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-09-14-1324.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2018-09-14-1324.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2018-09-14-1324.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-09-14-1324.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2018-09-14-1324.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2018-09-14-1324.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-09-14-1324.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tiltak-mot-hvitvasking-og-terrorfinansiering-hvitvaskingsforskriften">Forskrift om tiltak mot hvitvasking og terrorfinansiering (hvitvaskingsforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Forskriften gjelder for rapporteringspliktige etter hvitvaskingsloven.</p>
@@ -85,7 +218,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) Finanstilsynet fører tilsyn med agenter for utenlandske betalingsforetaks overholdelse av bestemmelsene i første ledd.</p>
 <p>(3) Finanstilsynet kan ved alvorlige overtredelser gi pålegg mv. etter hvitvaskingsloven § 47 . Finanstilsynet kan i slike tilfeller også pålegge agentene midlertidig stans av virksomhet i Norge.</p>
 <h4 id="1-3-opphevet">§ 1-3. (Opphevet) <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 11 okt 2019 nr. 1360 , 16 okt 2019 nr. 1372 , 31 mai 2021 nr. 1715 , 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), opphevet ved forskrift 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrifter 11 okt 2019 nr. 1360 , 16 okt 2019 nr. 1372 , 31 mai 2021 nr. 1715 , 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), opphevet ved forskrift 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</p>
 <h4 id="1-4-unntak-fra-hvitvaskingsloven-for-srskilte-tilbydere-av-spilltjenester">§ 1-4. Unntak fra hvitvaskingsloven for særskilte tilbydere av spilltjenester <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Hvitvaskingsloven gjelder ikke for følgende spilltjenester:</p>
 <p>a. pengespill med tillatelse etter pengespillforskriften § 43
@@ -93,7 +226,7 @@ b. bingo med tillatelse etter pengespillforskriften § 59 , der organisasjonen t
 c. bingo i lokalradiostasjon eller lokalfjernsynsstasjon med tillatelse etter pengespillforskriften § 72 .</p>
 <p>(2) Hvitvaskingsloven kommer likevel til anvendelse for tilfeller regulert i første ledd bokstav b der flere organisasjoner sammen gis tillatelse til databingo, jf. pengespillforskriften § 59 .</p>
 <p>(3) Lotteritilsynet kan etter søknad gi unntak fra hvitvaskingsloven for pengespill med tillatelse etter pengespillforskriften § 54 i de tilfeller lotteriene utgjør en beviselig lav risiko for hvitvasking og terrorfinansiering. Søknad kan inngis i forbindelse med Lotteritilsynets utlysning av tilgjengelige tillatelser etter bestemmelsen nevnt i punktumet foran. En klage på avslag på søknad om unntak etter første punktum behandles av Finansdepartementet, uavhengig av bestemmelsen i pengespillforskriften § 55 .</p>
-<p><em>Tilføyd ved forskrift 22 nov 2019 nr. 1550 , endret ved forskrifter 15 nov 2022 nr. 1960 (i kraft 1 jan 2023), 21 aug 2024 nr. 1993 .</em></p>
+<p class="note">Tilføyd ved forskrift 22 nov 2019 nr. 1550 , endret ved forskrifter 15 nov 2022 nr. 1960 (i kraft 1 jan 2023), 21 aug 2024 nr. 1993 .</p>
 <h2 id="kapittel-2-belpsgrense-for-kontantvederlag">Kapittel 2. Beløpsgrense for kontantvederlag</h2>
 <h2 id="kapittel-3-risikobasert-tilnrming-og-rutiner">Kapittel 3. Risikobasert tilnærming og rutiner</h2>
 <h2 id="kapittel-4-kundetiltak-og-lpende-oppflging">Kapittel 4. Kundetiltak og løpende oppfølging</h2>
@@ -102,12 +235,12 @@ c. bingo i lokalradiostasjon eller lokalfjernsynsstasjon med tillatelse etter pe
 <p>(2) Statsautoriserte og registrerte revisorer anses for å ha etablert et kundeforhold når de har påtatt seg et oppdrag, herunder rådgivning og andre tjenester, eller sendt revisorerklæring til Foretaksregisteret, jf. foretaksregisterloven § 4-4 .</p>
 <p>(3) Statsautoriserte regnskapsførere anses for å ha etablert et kundeforhold når de har inngått skriftlig oppdragsavtale med oppdragsgiver eller oppdrag som forutsetter skriftlig avtale, jf. regnskapsførerloven § 5-2 .</p>
 <p>(4) Advokater og andre som ervervsmessig eller stadig yter selvstendig rettshjelp anses for å ha etablert et kundeforhold når de har påtatt seg et oppdrag som nevnt i hvitvaskingsloven § 4 annet ledd bokstav c. Advokater og andre som ervervsmessig eller stadig yter selvstendig rettshjelp anses i alle tilfeller for å ha påtatt seg et oppdrag som nevnt i første punktum når oppdragsbekreftelse er sendt klienten.</p>
-<p><em>Endret ved forskrifter 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), 16 des 2022 nr. 2270 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), 16 des 2022 nr. 2270 (i kraft 1 jan 2023).</p>
 <h4 id="4-1a-plikt-til-a-gjennomfre-kundetiltak-nar-det-ikke-er-etablert-kundeforhold">§ 4-1a. Plikt til å gjennomføre kundetiltak når det ikke er etablert kundeforhold <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-1a.html" title="Endringshistorikk for § 4-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Pengeoverføringer omfattet av hvitvaskingsloven § 10 første ledd bokstav b nr. 2 er</p>
 <p>a. betalingstjenester i finansavtaleloven § 1-5 første ledd ,
 b. transaksjoner i kryptoeiendeler når verdien tilsvarer 8 000 kroner eller mer.</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), endret ved forskrifter 21 aug 2024 nr. 1993 , 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), endret ved forskrifter 21 aug 2024 nr. 1993 , 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</p>
 <h4 id="4-2-unntak-fra-kundetiltak">§ 4-2. Unntak fra kundetiltak <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Plikten til å foreta kundetiltak etter hvitvaskingsloven § 10 første ledd bokstav a og b gjelder ikke ved</p>
 <p>a. tegning av skadeforsikringspoliser, herunder reiseforsikringspoliser, og kredittforsikringspoliser,
@@ -118,15 +251,15 @@ b. utstedelse av elektroniske penger, forutsatt at det er foretatt en risikovurd
   4. betalingsinstrumentet ikke kan finansieres med anonyme elektroniske penger, og
   5. utstederen utfører tilstrekkelig overvåking av transaksjoner og forretningsforbindelser til å kunne avdekke usedvanlige og mistenkelige transaksjoner.</p>
 <p>(2) Unntak fra krav til kundetiltak som nevnt i første ledd bokstav b gjelder ikke ved innløsning eller uttak av kontanter eller foretatt et kontantuttak på beløp høyere enn 50 euro, eller det er foretatt én betalingstransaksjon på mer enn EUR 50 over internett eller gjennom medium som kan brukes for fjernkommunikasjon.</p>
-<p><em>Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h4 id="4-2a-unntak-fra-visse-kundetiltak-ved-produkter-knyttet-til-offentlige-ytelser">§ 4-2a. Unntak fra visse kundetiltak ved produkter knyttet til offentlige ytelser <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-2a.html" title="Endringshistorikk for § 4-2a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Plikten til å bekrefte disponenters identitet ved gyldig legitimasjon etter hvitvaskingsloven § 13 første ledd jf. § 12 første ledd gjelder ikke når:</p>
 <p>a. Kunden er offentlig myndighet eller andre som på oppdrag og på vegne av offentlig myndighet utbetaler ytelser fra det offentlige,
 b. produktet som disponeres er sperret for andre innbetalinger enn overføring av ytelser fra det offentlige, og kun kan anvendes for betalinger, pengeoverføring og uttak i Norge, og
 c. offentlig myndighet har gjennomført tiltak for å bekrefte disponentens identitet og at disponenten ikke har egen bankkonto eller mulighet til å skaffe seg bankkonto.</p>
 <p>(2) Der vilkårene etter første ledd er oppfylt, gjelder heller ikke plikten etter hvitvaskingsloven § 13 fjerde ledd til å avgjøre om disponenten er politisk eksponert person eller nært familiemedlem eller kjent medarbeider til en politisk eksponert person.</p>
-<p><em>Tilføyd ved forskrift 9 nov 2021 nr. 3160 , endret ved forskrift 15 mai 2024 nr. 775 .</em></p>
-<h4 id="4-3-gyldig-legitimasjon-for-fysiske-personer">§ 4-3. Gyldig legitimasjon for fysiske personer</h4>
+<p class="note">Tilføyd ved forskrift 9 nov 2021 nr. 3160 , endret ved forskrift 15 mai 2024 nr. 775 .</p>
+<h4 id="4-3-gyldig-legitimasjon-for-fysiske-personer">§ 4-3. Gyldig legitimasjon for fysiske personer <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Gyldig legitimasjon for fysiske personer ved personlig fremmøte er original av dokumenter som</p>
 <p>a. er utstedt av offentlig myndighet eller av annet organ som har betryggende kontrollrutiner for dokumentutstedelse, og dokumentene har et tilfredsstillende sikkerhetsnivå,
 b. inneholder fullt navn, navnetrekk, fotografi, og
@@ -134,13 +267,13 @@ c. fødselsnummer eller D-nummer.</p>
 <p>(2) For person som ikke har norsk fødselsnummer eller D-nummer, skal legitimasjonsdokument, i tillegg til kravene som følger av første ledd, inneholde fødselsdato, fødested, kjønn og statsborgerskap.</p>
 <p>(3) Krav om navnetrekk gjelder ikke for pass.</p>
 <p>(4) Elektronisk signatur er gyldig legitimasjon for fysisk person når identiteten ikke skal bekreftes ved personlig fremmøte. Elektronisk signatur må tilfredsstille kravene til eID-ordning i forskrift 21. november 2019 nr. 1578 om selvdeklarasjon av ordninger for elektronisk identifikasjon § 3 og være oppført på publisert liste i henhold til § 13 første ledd i nevnte forskrift.</p>
-<p><em>Endret ved forskrift 16 okt 2020 nr. 2061 .</em></p>
+<p class="note">Endret ved forskrift 16 okt 2020 nr. 2061 .</p>
 <h4 id="4-4-kundetiltak-for-kunder-som-ikke-er-fysiske-personer-som-enna-ikke-er-registrert-i-offentlig-register-etterflgende-innhenting-av-utskrift-eller-firmaattest">§ 4-4. Kundetiltak for kunder som ikke er fysiske personer, som ennå ikke er registrert i offentlig register. Etterfølgende innhenting av utskrift eller firmaattest</h4>
 <p>(1) For kunder som ikke er fysiske personer, som ennå ikke er registrert i et norsk offentlig register, skal rapporteringspliktige innhente dokumentasjon for at personen eksisterer og skriftlig erklæring fra fysisk person som representerer kunden om at innhentede opplysninger om den juridiske personen er riktige.</p>
 <p>(2) Ved bekreftelse av opplysninger som beskrevet i hvitvaskingsloven § 13 annet ledd første punktum for juridisk person underlagt frist for registrering i offentlig register, skal rapporteringspliktig innhente utskrift eller firmaattest fra offentlig register innen fire uker etter registrering eller utløpet av fristen for registrering.</p>
 <h4 id="4-4a-forsikringsavtaler-omfattet-av-hvitvaskingsloven-15">§ 4-4a. Forsikringsavtaler omfattet av hvitvaskingsloven § 15 <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-4a.html" title="Endringshistorikk for § 4-4a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kravene til kundetiltak etter hvitvaskingsloven § 15 første og annet ledd gjelder også for medlemmer i kollektive livsforsikringer med frivillig innmelding, jf. forsikringsavtaleloven § 19-2 , og panthavere i livsforsikring, jf. forsikringsavtaleloven § 15-8 .</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h4 id="4-5-utkontraktering-til-rapporteringspliktiges-distribusjonsapparat-og-leveringspliktige-tilbydere-av-posttjenester">§ 4-5. Utkontraktering til rapporteringspliktiges distribusjonsapparat og leveringspliktige tilbydere av posttjenester</h4>
 <p>Oppdragstakere som utfører tjenester på vegne av eller for rapporteringspliktig når disse inngår som ledd i den rapporteringspliktiges distribusjonsapparat, anses å være del av rapporteringspliktige etter hvitvaskingsloven § 23 . Det samme gjelder leveringspliktige tilbydere av posttjenester. Utkontrakteringen etter første og annet punktum er begrenset til å gjelde identitetsbekreftelse så lenge oppdragstaker ikke selv er rapporteringspliktig. For øvrig gjelder kravene i hvitvaskingsloven § 23 for utkontrakteringen.</p>
 <h4 id="4-6-lav-risiko-for-hvitvasking-og-terrorfinansiering-forenklede-kundetiltak">§ 4-6. Lav risiko for hvitvasking og terrorfinansiering – forenklede kundetiltak</h4>
@@ -187,7 +320,7 @@ c. Geografiske risikomomenter:
   2. land som er identifisert som land med betydelig omfang av korrupsjon og annen kriminalitet,
   3. land som er underlagt sanksjoner, embargo eller lignende tiltak av FN eller EU, og
   4. land som finansierer eller støtter terrorvirksomhet eller der kjente terrororganisasjonen opererer i landet.</p>
-<h4 id="4-10-srlige-tiltak-overfor-hyrisikoland">§ 4-10. Særlige tiltak overfor høyrisikoland</h4>
+<h4 id="4-10-srlige-tiltak-overfor-hyrisikoland">§ 4-10. Særlige tiltak overfor høyrisikoland <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-10.html" title="Endringshistorikk for § 4-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) EØS-avtalen vedlegg IX nr. 23bb (delegert kommisjonsforordning (EU) 2016/1675 om høyrisikoland med strategiske mangler, som endret av delegert kommisjonsforordning (EU) 2018/105 , delegert kommisjonsforordning (EU) 2018/212 , delegert kommisjonsforordning (EU) 2018/1467 , delegert kommisjonsforordning (EU) 2020/855 , delegert kommisjonsforordning (EU) 2021/37 , delegert kommisjonsforordning (EU) 2022/229 , delegert kommisjonsforordning (EU) 2023/410 , delegert kommisjonsforordning (EU) 2023/1219 , delegert kommisjonsforordning (EU) 2023/2070 , delegert kommisjonsforordning (EU) 2024/163 , delegert kommisjonsforordning (EU) 2025/1184 , delegert kommisjonsforordning (EU) 2025/1393 , delegert kommisjonsforordning (EU) 2026/46 og delegert kommisjonsforordning (EU) 2026/83 ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) Departementet kan ved enkeltvedtak gjøre forpliktelsene etter første ledd gjeldende for andre land.</p>
 <p>(3) Med hensyn til kundeforhold og transaksjoner som involverer stater omfattet av første og andre ledd, skal det minimum gjennomføres følgende forsterkede kundetiltak:</p>
@@ -206,21 +339,21 @@ c. ileggelse av utvidede krav til eksternrevisjon for filial eller datterforetak
 d. ileggelse av utvidede krav til eksternrevisjon overfor konsern som har filialer eller datterforetak i høyrisikoland,
 e. pålegg om at rapporteringspliktige skal gjøre endringer i eller avvikle korrespondentrelasjoner i høyrisikoland.</p>
 <p>(5) Dersom tredjepart som nevnt i hvitvaskingsloven § 22 er etablert i stat nevnt i første ledd, kan ikke rapporteringspliktig legge til grunn kundetiltak utført av tredjeparten.</p>
-<p><em>Endret ved forskrifter 24 sep 2019 nr. 1192 , 16 juli 2020 nr. 1565 , 19 mars 2021 nr. 800 , 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), 18 mars 2022 nr. 408 (i kraft 19 mars 2022), 5 juli 2022 nr. 1306 (i kraft 1 okt 2022), 22 mars 2023 nr. 382 , 14 juli 2023 nr. 1273 (i kraft 16 juli 2023), 16 okt 2023 nr. 1633 , 5 feb 2024 nr. 174 (i kraft 7 feb 2024), 27 aug 2025 nr. 1718 , 29 jan 2026 nr. 110 (i kraft 6 feb 2026).</em></p>
+<p class="note">Endret ved forskrifter 24 sep 2019 nr. 1192 , 16 juli 2020 nr. 1565 , 19 mars 2021 nr. 800 , 31 mai 2021 nr. 1715 (i kraft 1 juli 2021), 18 mars 2022 nr. 408 (i kraft 19 mars 2022), 5 juli 2022 nr. 1306 (i kraft 1 okt 2022), 22 mars 2023 nr. 382 , 14 juli 2023 nr. 1273 (i kraft 16 juli 2023), 16 okt 2023 nr. 1633 , 5 feb 2024 nr. 174 (i kraft 7 feb 2024), 27 aug 2025 nr. 1718 , 29 jan 2026 nr. 110 (i kraft 6 feb 2026).</p>
 <h4 id="4-11-innhenting-av-opplysninger-om-midlenes-opprinnelse">§ 4-11. Innhenting av opplysninger om midlenes opprinnelse</h4>
 <p>Rapporteringspliktige kan innhente opplysninger om midlenes opprinnelse ved gjennomføring av kundetiltak, løpende oppfølging og nærmere undersøkelser, jf. hvitvaskingsloven § 9 .</p>
 <h4 id="4-12-bruk-av-tredjepart-for-tilbydere-av-spilltjenester">§ 4-12. Bruk av tredjepart for tilbydere av spilltjenester <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-12.html" title="Endringshistorikk for § 4-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tilbydere som har enerett etter pengespilloven § 10 kan legge hverandres kundetiltak til grunn. Tilbydere av spilltjenester med tillatelse etter pengespilloven § 18 eller § 20 kan legge til grunn kundetiltak utført av tilbydere som har enerett etter pengespilloven § 10 .</p>
 <p>(2) Hvis en tilbyder som har enerett etter pengespilloven § 10 tilbyr spill med felles premiepott med utenlandske tilbydere av spilltjenester, kan enerettstilbyderen unnlate å gjennomføre kundetiltak overfor personer som har inngått et kundeforhold eller gjennomført en transaksjon med den utenlandske tilbyderen som oppfyller reglene for tiltak mot hvitvasking og terrorfinansiering i hjemstaten.</p>
-<p><em>Endret ved forskrift 15 nov 2022 nr. 1960 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 nov 2022 nr. 1960 (i kraft 1 jan 2023).</p>
 <h4 id="4-13-delvis-avvikling-og-sperring-avvikling-av-grunnleggende-tjenester">§ 4-13. Delvis avvikling og sperring. Avvikling av grunnleggende tjenester. <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-13.html" title="Endringshistorikk for § 4-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Rapporteringspliktige kan gjennomføre en delvis avvikling av kundeforholdet, ved å begrense eller sperre konkrete produkter og tjenester relatert til de kundetiltak som ikke lar seg gjennomføre. Når kundemidler sperres, anses ikke kundeforholdet å være avsluttet og plikten til å gjennomføre løpende oppfølging etter hvitvaskingsloven § 24 gjelder.</p>
 <p>(2) Avvikling av grunnleggende tjenester for å ivareta finansiell inkludering skal vurderes særskilt. Vurderingen skal dokumenteres og lagres i henhold til hvitvaskingsloven § 30 .</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h4 id="4-14-tilbakefring-av-kundemidler-ved-avvikling-av-kundeforholdet">§ 4-14. Tilbakeføring av kundemidler ved avvikling av kundeforholdet <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-4-14.html" title="Endringshistorikk for § 4-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Ved avvikling av kundeforhold skal kundemidler som hovedregel tilbakeføres til kunden, i samsvar med alminnelige avtalerettslige regler.</p>
 <p>(2) Der kundeforholdet er besluttet avviklet etter hvitvaskingsloven § 24 , kan rapporteringspliktige midlertidig sperre kundemidler frem til kunden gir tilstrekkelig informasjon til å utføre kundetiltak eller anvisning på hvordan kundemidlene skal tilbakeføres. Dersom kundens anvisninger om utbetaling av tilgodehavende ved kundeavvikling klart utgjør en hvitvaskings- eller terrorfinansieringshandling, kan den rapporteringspliktige midlertidig unnlate å gjennomføre utbetalingen frem til kunden anviser en utbetalingsform som ikke strider mot første punktum. § 4-13 første ledd annet punktum gjelder tilsvarende.</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-5-nrmere-underskelser-rapportering">Kapittel 5. Nærmere undersøkelser. Rapportering</h2>
 <h4 id="5-1-oversendelse-av-opplysninger-til-kokrim">§ 5-1. Oversendelse av opplysninger til Økokrim</h4>
 <p>(1) Ansvarlig for oversendelse av opplysninger til Økokrim som nevnt i hvitvaskingsloven § 26 , er den personen som er utpekt som ansvarlig etter hvitvaskingsloven § 8 femte ledd.</p>
@@ -234,12 +367,12 @@ d. Forsikringsforetak og foretak som driver forsikringsformidling som ikke er gj
 e. Låneformidlingsforetak.
 f. Statsautoriserte og registrerte revisorer og regnskapsførere, godkjente revisjonsselskaper og revisorer som er ansvarlig for revisjon av regnskap for kommune, fylkeskommune eller kommunalt eller fylkeskommunalt foretak.
 g. Advokater og rettshjelpere som nevnt i hvitvaskingsloven § 4 annet ledd bokstav c.</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-6-behandling-av-personopplysninger-og-andre-opplysninger">Kapittel 6. Behandling av personopplysninger og andre opplysninger</h2>
 <h4 id="6-1-behandling-av-srlige-kategorier-personopplysninger-og-opplysninger-om-straffedommer-og-lovovertredelser">§ 6-1. Behandling av særlige kategorier personopplysninger og opplysninger om straffedommer og lovovertredelser</h4>
 <p>(1) Rapporteringspliktige kan behandle personopplysninger omfattet av personvernforordningen artikkel 9 og 10 når det er nødvendig for å gjennomføre forpliktelsene i hvitvaskingsloven med forskrift.</p>
 <p>(2) Rapporteringspliktige må ha rutiner for behandling av personopplysninger nevnt i første ledd.</p>
-<p><em>Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h4 id="6-2-registrering-og-lagring-av-opplysninger-og-dokumenter">§ 6-2. Registrering og lagring av opplysninger og dokumenter</h4>
 <p>(1) Kopier av fremlagte legitimasjonsdokumenter som nevnt i hvitvaskingsforskriften § 4-3 og hvitvaskingsloven § 13 annet ledd skal påføres «rett kopi bekreftes» med signaturen til den personen som har foretatt bekreftelsen samt dato for bekreftelsen. I stedet for signatur og påføring som nevnt i første punktum, kan det på annen måte sikres tilsvarende notoritet om bekreftelsen, herunder hvem som har foretatt bekreftelsen og når bekreftelsen ble gjort.</p>
 <p>(2) Dokumenter og opplysninger skal oppbevares på et medium som opprettholder lesekvaliteten i hele oppbevaringsperioden.</p>
@@ -251,7 +384,7 @@ g. Advokater og rettshjelpere som nevnt i hvitvaskingsloven § 4 annet ledd boks
 <p>(2) Lagringstiden etter hvitvaskingsloven § 30 første ledd er 10 år når kundeforholdet ved avslutning var underlagt forsterkede kundetiltak eller transaksjonen ble underlagt forsterkede kundetiltak.</p>
 <p>(3) Fem år etter et kundeforholds opphør kan rapporteringspliktige vurdere om opplysninger etter første ledd likevel skal slettes, dersom særlige grunner tilsier at kunden likevel ikke utgjorde en høy risiko for hvitvasking og terrorfinansiering.</p>
 <p>(4) Vurderingen etter tredje ledd må dokumenteres og lagres i ytterligere fem år.</p>
-<p><em>Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h4 id="6-5-utveksling-av-opplysninger-i-konsern">§ 6-5. Utveksling av opplysninger i konsern</h4>
 <p>(1) Informasjon kan uten hinder av taushetsplikt deles mellom konsernselskaper nevnt i hvitvaskingsloven § 31 første ledd, som ledd i tiltak mot hvitvasking og terrorfinansiering når informasjonen gjelder:</p>
 <p>a. felles kunde, eller
@@ -263,7 +396,7 @@ b. kunder som har særlig tilknytning til hverandre, for eksempel tilknytninger 
 <h2 id="kapittel-7-vrige-plikter">Kapittel 7. Øvrige plikter</h2>
 <h4 id="7-1-inkorporasjon-av-kommisjonsforordningeu-2019758minstekrav-og-ytterligere-tiltak-kreditt-og-finansinstitusjoner-skal-gjennomfre-for-a-begrense-risikoen-for-hvitvasking-og-terrorfinansiering-i-visse-tredjeland">§ 7-1. Inkorporasjon av kommisjonsforordning(EU) 2019/758(minstekrav og ytterligere tiltak kreditt- og finansinstitusjoner skal gjennomføre for å begrense risikoen for hvitvasking og terrorfinansiering i visse tredjeland) <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalen vedlegg IX nr. 23bd forordning (EU) 2019/758 (om utfylling av europaparlaments- og rådsdirektiv (EU) 2015/849 med hensyn til tekniske reguleringsstandarder for de tiltakene som kredittinstitusjoner og finansinstitusjoner som et minstekrav skal iverksette, samt typen ytterligere tiltak som de skal treffe, for å redusere risikoen for hvitvasking av penger og finansiering av terrorisme i visse tredjestater) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 23 sep 2020 nr. 1808 (i kraft 26 sep 2020).</em></p>
+<p class="note">Endret ved forskrift 23 sep 2020 nr. 1808 (i kraft 26 sep 2020).</p>
 <h4 id="7-2-inkorporasjon-av-kommisjonsforordningeu-20181108kriterier-for-utpeking-av-sentrale-kontaktpunkter-for-e-pengeutstedere-og-betalingstjenesteytere-og-regler-for-deres-funksjoner">§ 7-2. Inkorporasjon av kommisjonsforordning(EU) 2018/1108(kriterier for utpeking av sentrale kontaktpunkter for e-pengeutstedere og betalingstjenesteytere og regler for deres funksjoner) <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) EØS-avtalen vedlegg IX nr. 23bc forordning (EU) 2018/1108 (om utfylling av europaparlaments- og rådsdirektiv (EU) 2015/849 med tekniske reguleringsstandarder for kriteriene for utpeking av sentrale kontaktpunkter for e-pengeutstedere og betalingstjenesteytere og med regler for deres funksjoner) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) Til utfylling av første ledd gjelder følgende:</p>
@@ -273,25 +406,27 @@ c. Det sentrale kontaktpunktet skal, i tillegg til oppgavene angitt i første le
 d. Det sentrale kontaktpunktet skal være lokalisert i Norge og ha gode kunnskaper om norsk språk og hvitvaskingsregelverk.</p>
 <p>(3) Finanstilsynet kan pålegge midlertidig stans av virksomhet i Norge inntil sentralt kontaktpunkt er utpekt.</p>
 <p>(4) Finanstilsynet kan ved kontaktpunktets overtredelse av pliktene i annet ledd bokstav c gi kontaktpunktet pålegg om retting og tvangsmulkt etter hvitvaskingsloven § 47 .</p>
-<p><em>Endret ved forskrift 23 sep 2020 nr. 1808 (i kraft 26 sep 2020).</em></p>
+<p class="note">Endret ved forskrift 23 sep 2020 nr. 1808 (i kraft 26 sep 2020).</p>
 <h4 id="7-3-minimumskrav-til-elektronisk-overvakingssystem">§ 7-3. Minimumskrav til elektronisk overvåkingssystem</h4>
 <p>(1) Den elektroniske overvåkingen skal omfatte alle systemer for transaksjoner til eller fra rapporteringspliktiges kunder.</p>
 <p>(2) Reglene i det elektroniske overvåkingssystemet skal være egnet til å avdekke forhold som kan indikere at midler har tilknytning til hvitvasking- og terrorfinansiering, som identifisert i den rapporteringspliktiges risikovurdering, jf. hvitvaskingsloven § 7 .</p>
 <p>(3) Det må gjennomføres elektronisk overvåking for å identifisere transaksjoner tilknyttet personer som er underlagt internasjonale sanksjoner og restriktive tiltak som er gjennomført i norsk rett. Kundemassen må kontrolleres mot nevnte sanksjoner og tiltak</p>
 <p>a. når kundeforhold opprettes eller transaksjon gjennomføres etter hvitvaskingsloven § 10 , og
 b. når det gjøres endring i oversikten over listeførte personer.</p>
-<p><em>Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 31 mai 2021 nr. 1715 (i kraft 1 juli 2021).</p>
 <h2 id="kapittel-8-autorisasjon-for-tilbydere-av-virksomhetstjenester">Kapittel 8. Autorisasjon for tilbydere av virksomhetstjenester</h2>
 <h2 id="kapittel-9-tilsyn-forvaltningstiltak-sanksjoner">Kapittel 9. Tilsyn. Forvaltningstiltak. Sanksjoner</h2>
 <h2 id="kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</h2>
 <h4 id="10-1-opphevet">§ 10-1. (Opphevet) <a class="para-history" href="../historikk/forskrift-2018-09-14-1324/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 9 aug 2019 nr. 1052 , opphevet ved forskrift 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 9 aug 2019 nr. 1052 , opphevet ved forskrift 28 mai 2025 nr. 904 (i kraft 1 juli 2025).</p>
 <h4 id="10-2-overgangsregler">§ 10-2. Overgangsregler</h4>
 <p>(1) Betalingsforetak som omfattes av plikten til å utpeke nasjonalt kontaktpunkt, skal gi Finanstilsynet melding om nasjonal kontaktperson innen tre måneder etter ikrafttredelsen av denne forskriften.</p>
 <p>(2) Tilbydere av vekslings- og oppbevaringstjenester som nevnt i § 1-3 første ledd, skal registreres hos Finanstilsynet i samsvar med § 1-3 fjerde ledd innen tre måneder etter ikrafttredelsen av denne forskriften.</p>
 <h4 id="10-3-ikrafttredelse">§ 10-3. Ikrafttredelse</h4>
 <p>(1) Forskriften trer i kraft 15. oktober 2018.</p>
 <p>(2) Fra den tid forskriften trer i kraft, oppheves forskrift 13. mars 2009 nr. 302 om tiltak mot hvitvasking og terrorfinansiering mv. og forskrift 13. mars 2009 nr. 303 om kontrollutvalget for tiltak mot hvitvasking.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

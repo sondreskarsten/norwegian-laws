@@ -19,64 +19,313 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-07-14-1201.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Folkeregisterforskriften" href="../feeds/forskrift-2017-07-14-1201.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Folkeregisterforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-07-14-1201</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-10-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-17-2639</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-07-14-1201" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-1-virkeomrade">§ 1-1-1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-registreringspliktige-personer-identifikasjonsnummer">Kapittel 2. Registreringspliktige personer, identifikasjonsnummer</a></li>
+<li class="lvl4"><a href="#2-2-1-fdselsnummer">§ 2-2-1. Fødselsnummer</a></li>
+<li class="lvl4"><a href="#2-2-2-d-nummer">§ 2-2-2. D-nummer</a></li>
+<li class="lvl4"><a href="#2-2-3-hvem-som-kan-tildeles-d-nummer">§ 2-2-3. Hvem som kan tildeles d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-4-rekvirering-av-d-nummer">§ 2-2-4. Rekvirering av d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-5-tildeling-av-d-nummer">§ 2-2-5. Tildeling av d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-6-avvisning-av-rekvisisjon-om-d-nummer">§ 2-2-6. Avvisning av rekvisisjon om d-nummer</a></li>
+<li class="lvl2"><a href="#kapittel-3-hvilke-opplysninger-som-registreres">Kapittel 3. Hvilke opplysninger som registreres</a></li>
+<li class="lvl4"><a href="#3-1-1-registrering-av-underkategorier-og-tilleggsopplysninger">§ 3-1-1. Registrering av underkategorier og tilleggsopplysninger</a></li>
+<li class="lvl4"><a href="#3-1-2-tidligere-frte-registre">§ 3-1-2. Tidligere førte registre</a></li>
+<li class="lvl4"><a href="#3-2-1-grunnlaget-for-registrert-identitet">§ 3-2-1. Grunnlaget for registrert identitet</a></li>
+<li class="lvl4"><a href="#3-3-1-avvikende-informasjon-om-fdselsdato-i-identifikasjonsnummeret">§ 3-3-1. Avvikende informasjon om fødselsdato i identifikasjonsnummeret</a></li>
+<li class="lvl4"><a href="#3-3-2-registrering-av-fdselsdato">§ 3-3-2. Registrering av fødselsdato</a></li>
+<li class="lvl2"><a href="#kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4. Hvem som skal regnes for å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-4-1-personer-med-oppholdstillatelse">§ 4-4-1. Personer med oppholdstillatelse</a></li>
+<li class="lvl4"><a href="#4-4-2-sjfolk">§ 4-4-2. Sjøfolk</a></li>
+<li class="lvl4"><a href="#4-4-3-personer-pa-svalbard-jan-mayen-og-kontinentalsokkelen">§ 4-4-3. Personer på Svalbard, Jan Mayen og kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#4-4-4-norske-diplomater">§ 4-4-4. Norske diplomater</a></li>
+<li class="lvl4"><a href="#4-4-5-norske-militre">§ 4-4-5. Norske militære</a></li>
+<li class="lvl4"><a href="#4-4-6-utenlandske-diplomater">§ 4-4-6. Utenlandske diplomater</a></li>
+<li class="lvl4"><a href="#4-4-7-utenlandsk-nato-personell">§ 4-4-7. Utenlandsk NATO-personell</a></li>
+<li class="lvl4"><a href="#4-4-8-studenter">§ 4-4-8. Studenter</a></li>
+<li class="lvl4"><a href="#4-4-9-fengsel-mv">§ 4-4-9. Fengsel mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-bosted">Kapittel 5. Bosted</a></li>
+<li class="lvl4"><a href="#5-1-1-bosted-og-midlertidige-opphold">§ 5-1-1. Bosted og midlertidige opphold</a></li>
+<li class="lvl4"><a href="#5-1-2-bater-og-mobile-hjem">§ 5-1-2. Båter og mobile hjem</a></li>
+<li class="lvl4"><a href="#5-1-3-sjfolk-med-flere">§ 5-1-3. Sjøfolk med flere</a></li>
+<li class="lvl4"><a href="#5-1-4-studenter">§ 5-1-4. Studenter</a></li>
+<li class="lvl4"><a href="#5-1-5-vernepliktige">§ 5-1-5. Vernepliktige</a></li>
+<li class="lvl4"><a href="#5-1-6-fengsel">§ 5-1-6. Fengsel</a></li>
+<li class="lvl4"><a href="#5-1-7-institusjon">§ 5-1-7. Institusjon</a></li>
+<li class="lvl4"><a href="#5-1-8-svalbard-jan-mayen-og-kontinentalsokkelen">§ 5-1-8. Svalbard, Jan Mayen og kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#5-1-9-diplomater-med-flere">§ 5-1-9. Diplomater med flere</a></li>
+<li class="lvl4"><a href="#5-1-10-militre">§ 5-1-10. Militære</a></li>
+<li class="lvl4"><a href="#5-1-11-srlige-bostedstilfeller">§ 5-1-11. Særlige bostedstilfeller</a></li>
+<li class="lvl4"><a href="#5-2-1-ektefeller-og-barn">§ 5-2-1. Ektefeller og barn</a></li>
+<li class="lvl4"><a href="#5-3-1-pendlere">§ 5-3-1. Pendlere</a></li>
+<li class="lvl4"><a href="#5-3-2-familiependlere">§ 5-3-2. Familiependlere</a></li>
+<li class="lvl4"><a href="#5-3-3-enslige-pendlere">§ 5-3-3. Enslige pendlere</a></li>
+<li class="lvl4"><a href="#5-3-4-selvstendig-og-uselvstendig-bolig">§ 5-3-4. Selvstendig og uselvstendig bolig</a></li>
+<li class="lvl4"><a href="#5-3-5-krav-til-pendling-beskshyppighet">§ 5-3-5. Krav til pendling (besøkshyppighet)</a></li>
+<li class="lvl4"><a href="#5-4-1-medlemmer-av-stortinget-og-regjeringen-mv">§ 5-4-1. Medlemmer av Stortinget og regjeringen mv.</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6. Den enkeltes meldeplikt til Folkeregisteret</a></li>
+<li class="lvl4"><a href="#6-5-1-krav-til-flyttemelding">§ 6-5-1. Krav til flyttemelding</a></li>
+<li class="lvl4"><a href="#6-5-2-flytte-og-registreringsdato">§ 6-5-2. Flytte- og registreringsdato</a></li>
+<li class="lvl4"><a href="#6-5-3-manglende-melding-om-flytting">§ 6-5-3. Manglende melding om flytting</a></li>
+<li class="lvl4"><a href="#6-5-4-unntak-fra-meldeplikt-til-skattekontoret-ved-innflytting">§ 6-5-4. Unntak fra meldeplikt til skattekontoret ved innflytting</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7. Meldeplikt for offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#7-1-1-meldeplikt-for-faktiske-og-rettslige-forhold-som-finner-sted-i-norge">§ 7-1-1. Meldeplikt for faktiske og rettslige forhold som finner sted i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-8-registrering-av-opplysninger">Kapittel 8. Registrering av opplysninger</a></li>
+<li class="lvl4"><a href="#8-4-1-dna-testing-av-barn-fdt-i-norge">§ 8-4-1. DNA-testing av barn født i Norge</a></li>
+<li class="lvl4"><a href="#8-4-2-gruppering-av-stater-for-registrering-av-faktiske-og-rettslige-forhold-som-har-funnet-sted-i-utlandet">§ 8-4-2. Gruppering av stater for registrering av faktiske og rettslige forhold som har funnet sted i utlandet</a></li>
+<li class="lvl3"><a href="#a-registrering-av-barn-og-foreldreskap-til-barn-som-er-fdt-utenfor-norge">A. Registrering av barn og foreldreskap til barn som er født utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-3-nar-fdsel-har-skjedd-i-en-gruppe-1-stat">§ 8-4-3. Når fødsel har skjedd i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-4-nar-fdsel-har-funnet-sted-i-en-gruppe-2-stat">§ 8-4-4. Når fødsel har funnet sted i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-5-fdsel-i-en-gruppe-2-stat-og-faren-er-gift-med-barnets-mor">§ 8-4-5. Fødsel i en gruppe 2-stat og faren er gift med barnets mor</a></li>
+<li class="lvl5"><a href="#8-4-6-fdsel-i-en-gruppe-2-stat-og-faren-er-ikke-gift-med-barnets-mor-som-er-ugift">§ 8-4-6. Fødsel i en gruppe 2-stat og faren er ikke gift med barnets mor som er ugift</a></li>
+<li class="lvl5"><a href="#8-4-7-fdsel-i-en-gruppe-2-stat-og-barnets-mor-er-gift-med-en-annen-enn-faren">§ 8-4-7. Fødsel i en gruppe 2-stat og barnets mor er gift med en annen enn faren</a></li>
+<li class="lvl5"><a href="#8-4-8-nar-fdsel-har-funnet-sted-i-en-gruppe-3-stat">§ 8-4-8. Når fødsel har funnet sted i en gruppe 3-stat</a></li>
+<li class="lvl5"><a href="#8-4-9-nar-fdsel-har-funnet-sted-i-en-gruppe-4-stat">§ 8-4-9. Når fødsel har funnet sted i en gruppe 4-stat</a></li>
+<li class="lvl3"><a href="#b-registrering-av-vigsel-inngatt-etter-utenlandsk-rett">B. Registrering av vigsel inngått etter utenlandsk rett</a></li>
+<li class="lvl5"><a href="#8-4-10-vigsel-gjennomfrt-i-en-gruppe-1-stat">§ 8-4-10. Vigsel gjennomført i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-11-vigsel-gjennomfrt-i-en-gruppe-2-stat">§ 8-4-11. Vigsel gjennomført i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-12-vigsel-gjennomfrt-i-en-gruppe-3-og-4-stat">§ 8-4-12. Vigsel gjennomført i en gruppe 3- og 4-stat</a></li>
+<li class="lvl3"><a href="#c-registrering-av-separasjonskilsmisse-oppnadd-utenfor-norge">C. Registrering av separasjon/skilsmisse oppnådd utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-13-separasjonskilsmisse-oppnadd-i-en-gruppe-1-stat">§ 8-4-13. Separasjon/skilsmisse oppnådd i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-14-separasjonskilsmisse-oppnadd-i-en-gruppe-2-stat">§ 8-4-14. Separasjon/skilsmisse oppnådd i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-15-separasjonskilsmisse-oppnadd-i-en-gruppe-3-og-4-stat">§ 8-4-15. Separasjon/skilsmisse oppnådd i en gruppe 3- og 4-stat</a></li>
+<li class="lvl3"><a href="#d-registrering-av-ddsfall-som-har-skjedd-utenfor-norge">D. Registrering av dødsfall som har skjedd utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-16-norske-statsborgere">§ 8-4-16. Norske statsborgere</a></li>
+<li class="lvl5"><a href="#8-4-17-utenlandske-statsborgere-avgatt-ved-dden-i-en-gruppe-2-stat">§ 8-4-17. Utenlandske statsborgere avgått ved døden i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-18-utenlandske-statsborgere-avgatt-ved-dden-i-en-gruppe-1-3-eller-4-stat">§ 8-4-18. Utenlandske statsborgere avgått ved døden i en gruppe 1-, 3- eller 4-stat</a></li>
+<li class="lvl3"><a href="#e-oversettelse-legalisering-og-dispensasjon">E. Oversettelse, legalisering og dispensasjon</a></li>
+<li class="lvl5"><a href="#8-4-19-oversettelse">§ 8-4-19. Oversettelse</a></li>
+<li class="lvl5"><a href="#8-4-20-apostillelegalisering">§ 8-4-20. Apostille/legalisering</a></li>
+<li class="lvl5"><a href="#8-4-21-dispensasjon">§ 8-4-21. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-saksbehandlingsregler">Kapittel 9. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#9-1-1-unntak-fra-taushetsplikt">§ 9-1-1. Unntak fra taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-1-2-taushetsbelagte-vergemalsopplysninger">§ 9-1-2. Taushetsbelagte vergemålsopplysninger</a></li>
+<li class="lvl4"><a href="#9-2-1-endring-av-identitetsopplysninger">§ 9-2-1. Endring av identitetsopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-10-utlevering-av-opplysninger-fra-registeret">Kapittel 10. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#10-1-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-1-utlevering-av-taushetsbelagte-opplysninger">§ 10-2-1. Utlevering av taushetsbelagte opplysninger</a></li>
+<li class="lvl4"><a href="#10-7-1-krav-om-og-utlevering-av-attester">§ 10-7-1. Krav om og utlevering av attester</a></li>
+<li class="lvl4"><a href="#10-7-2-generelt-om-hva-attester-skal-inneholde-mv">§ 10-7-2. Generelt om hva attester skal inneholde mv.</a></li>
+<li class="lvl4"><a href="#10-7-3-srskilt-om-bostedsattest">§ 10-7-3. Særskilt om bostedsattest</a></li>
+<li class="lvl4"><a href="#10-7-4-srskilt-om-fdselsattest">§ 10-7-4. Særskilt om fødselsattest</a></li>
+<li class="lvl2"><a href="#kapittel-11-kontroll-av-opplysninger">Kapittel 11. Kontroll av opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-12-sanksjoner">Kapittel 12. Sanksjoner</a></li>
+<li class="lvl3"><a href="#a-overtredelsesgebyr">A. Overtredelsesgebyr</a></li>
+<li class="lvl5"><a href="#12-1-1-klageadgang">§ 12-1-1. Klageadgang</a></li>
+<li class="lvl5"><a href="#12-1-2-utmaling-av-overtredelsesgebyret">§ 12-1-2. Utmåling av overtredelsesgebyret</a></li>
+<li class="lvl5"><a href="#12-1-3-foreldelsesfrist">§ 12-1-3. Foreldelsesfrist</a></li>
+<li class="lvl5"><a href="#12-1-4-betalingsfrist-for-et-ilagt-gebyr">§ 12-1-4. Betalingsfrist for et ilagt gebyr</a></li>
+<li class="lvl3"><a href="#b-tap-av-rett-til-a-fa-utlevert-opplysninger">B. Tap av rett til å få utlevert opplysninger</a></li>
+<li class="lvl5"><a href="#12-2-1-klageadgang">§ 12-2-1. Klageadgang</a></li>
+<li class="lvl5"><a href="#12-2-2-utmaling-av-periode-for-tap-av-rett-til-a-motta-folkeregisteropplysninger">§ 12-2-2. Utmåling av periode for tap av rett til å motta folkeregisteropplysninger</a></li>
+<li class="lvl5"><a href="#12-2-3-foreldelsesfrist">§ 12-2-3. Foreldelsesfrist</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-mv">Kapittel 13. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#13-1-1-ikrafttredelse">§ 13-1-1. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-17-2639.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-07-14-1201.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til folkeregisterloven (folkeregisterforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-07-14-1201.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-07-14-1201 <code>forskrift/2017-07-14-1201</code></td></tr>
+<tr><th>Korttittel</th><td>Folkeregisterforskriften</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.10.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-17-2639 <code>forskrift/2025-12-17-2639</code> fra 17.12.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-07-14-1201" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-1-virkeomrade">§ 1-1-1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-registreringspliktige-personer-identifikasjonsnummer">Kapittel 2. Registreringspliktige personer, identifikasjonsnummer</a></li>
+<li class="lvl4"><a href="#2-2-1-fdselsnummer">§ 2-2-1. Fødselsnummer</a></li>
+<li class="lvl4"><a href="#2-2-2-d-nummer">§ 2-2-2. D-nummer</a></li>
+<li class="lvl4"><a href="#2-2-3-hvem-som-kan-tildeles-d-nummer">§ 2-2-3. Hvem som kan tildeles d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-4-rekvirering-av-d-nummer">§ 2-2-4. Rekvirering av d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-5-tildeling-av-d-nummer">§ 2-2-5. Tildeling av d-nummer</a></li>
+<li class="lvl4"><a href="#2-2-6-avvisning-av-rekvisisjon-om-d-nummer">§ 2-2-6. Avvisning av rekvisisjon om d-nummer</a></li>
+<li class="lvl2"><a href="#kapittel-3-hvilke-opplysninger-som-registreres">Kapittel 3. Hvilke opplysninger som registreres</a></li>
+<li class="lvl4"><a href="#3-1-1-registrering-av-underkategorier-og-tilleggsopplysninger">§ 3-1-1. Registrering av underkategorier og tilleggsopplysninger</a></li>
+<li class="lvl4"><a href="#3-1-2-tidligere-frte-registre">§ 3-1-2. Tidligere førte registre</a></li>
+<li class="lvl4"><a href="#3-2-1-grunnlaget-for-registrert-identitet">§ 3-2-1. Grunnlaget for registrert identitet</a></li>
+<li class="lvl4"><a href="#3-3-1-avvikende-informasjon-om-fdselsdato-i-identifikasjonsnummeret">§ 3-3-1. Avvikende informasjon om fødselsdato i identifikasjonsnummeret</a></li>
+<li class="lvl4"><a href="#3-3-2-registrering-av-fdselsdato">§ 3-3-2. Registrering av fødselsdato</a></li>
+<li class="lvl2"><a href="#kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4. Hvem som skal regnes for å være bosatt i Norge</a></li>
+<li class="lvl4"><a href="#4-4-1-personer-med-oppholdstillatelse">§ 4-4-1. Personer med oppholdstillatelse</a></li>
+<li class="lvl4"><a href="#4-4-2-sjfolk">§ 4-4-2. Sjøfolk</a></li>
+<li class="lvl4"><a href="#4-4-3-personer-pa-svalbard-jan-mayen-og-kontinentalsokkelen">§ 4-4-3. Personer på Svalbard, Jan Mayen og kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#4-4-4-norske-diplomater">§ 4-4-4. Norske diplomater</a></li>
+<li class="lvl4"><a href="#4-4-5-norske-militre">§ 4-4-5. Norske militære</a></li>
+<li class="lvl4"><a href="#4-4-6-utenlandske-diplomater">§ 4-4-6. Utenlandske diplomater</a></li>
+<li class="lvl4"><a href="#4-4-7-utenlandsk-nato-personell">§ 4-4-7. Utenlandsk NATO-personell</a></li>
+<li class="lvl4"><a href="#4-4-8-studenter">§ 4-4-8. Studenter</a></li>
+<li class="lvl4"><a href="#4-4-9-fengsel-mv">§ 4-4-9. Fengsel mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-bosted">Kapittel 5. Bosted</a></li>
+<li class="lvl4"><a href="#5-1-1-bosted-og-midlertidige-opphold">§ 5-1-1. Bosted og midlertidige opphold</a></li>
+<li class="lvl4"><a href="#5-1-2-bater-og-mobile-hjem">§ 5-1-2. Båter og mobile hjem</a></li>
+<li class="lvl4"><a href="#5-1-3-sjfolk-med-flere">§ 5-1-3. Sjøfolk med flere</a></li>
+<li class="lvl4"><a href="#5-1-4-studenter">§ 5-1-4. Studenter</a></li>
+<li class="lvl4"><a href="#5-1-5-vernepliktige">§ 5-1-5. Vernepliktige</a></li>
+<li class="lvl4"><a href="#5-1-6-fengsel">§ 5-1-6. Fengsel</a></li>
+<li class="lvl4"><a href="#5-1-7-institusjon">§ 5-1-7. Institusjon</a></li>
+<li class="lvl4"><a href="#5-1-8-svalbard-jan-mayen-og-kontinentalsokkelen">§ 5-1-8. Svalbard, Jan Mayen og kontinentalsokkelen</a></li>
+<li class="lvl4"><a href="#5-1-9-diplomater-med-flere">§ 5-1-9. Diplomater med flere</a></li>
+<li class="lvl4"><a href="#5-1-10-militre">§ 5-1-10. Militære</a></li>
+<li class="lvl4"><a href="#5-1-11-srlige-bostedstilfeller">§ 5-1-11. Særlige bostedstilfeller</a></li>
+<li class="lvl4"><a href="#5-2-1-ektefeller-og-barn">§ 5-2-1. Ektefeller og barn</a></li>
+<li class="lvl4"><a href="#5-3-1-pendlere">§ 5-3-1. Pendlere</a></li>
+<li class="lvl4"><a href="#5-3-2-familiependlere">§ 5-3-2. Familiependlere</a></li>
+<li class="lvl4"><a href="#5-3-3-enslige-pendlere">§ 5-3-3. Enslige pendlere</a></li>
+<li class="lvl4"><a href="#5-3-4-selvstendig-og-uselvstendig-bolig">§ 5-3-4. Selvstendig og uselvstendig bolig</a></li>
+<li class="lvl4"><a href="#5-3-5-krav-til-pendling-beskshyppighet">§ 5-3-5. Krav til pendling (besøkshyppighet)</a></li>
+<li class="lvl4"><a href="#5-4-1-medlemmer-av-stortinget-og-regjeringen-mv">§ 5-4-1. Medlemmer av Stortinget og regjeringen mv.</a></li>
+<li class="lvl2"><a href="#kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6. Den enkeltes meldeplikt til Folkeregisteret</a></li>
+<li class="lvl4"><a href="#6-5-1-krav-til-flyttemelding">§ 6-5-1. Krav til flyttemelding</a></li>
+<li class="lvl4"><a href="#6-5-2-flytte-og-registreringsdato">§ 6-5-2. Flytte- og registreringsdato</a></li>
+<li class="lvl4"><a href="#6-5-3-manglende-melding-om-flytting">§ 6-5-3. Manglende melding om flytting</a></li>
+<li class="lvl4"><a href="#6-5-4-unntak-fra-meldeplikt-til-skattekontoret-ved-innflytting">§ 6-5-4. Unntak fra meldeplikt til skattekontoret ved innflytting</a></li>
+<li class="lvl2"><a href="#kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7. Meldeplikt for offentlige myndigheter og virksomheter</a></li>
+<li class="lvl4"><a href="#7-1-1-meldeplikt-for-faktiske-og-rettslige-forhold-som-finner-sted-i-norge">§ 7-1-1. Meldeplikt for faktiske og rettslige forhold som finner sted i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-8-registrering-av-opplysninger">Kapittel 8. Registrering av opplysninger</a></li>
+<li class="lvl4"><a href="#8-4-1-dna-testing-av-barn-fdt-i-norge">§ 8-4-1. DNA-testing av barn født i Norge</a></li>
+<li class="lvl4"><a href="#8-4-2-gruppering-av-stater-for-registrering-av-faktiske-og-rettslige-forhold-som-har-funnet-sted-i-utlandet">§ 8-4-2. Gruppering av stater for registrering av faktiske og rettslige forhold som har funnet sted i utlandet</a></li>
+<li class="lvl3"><a href="#a-registrering-av-barn-og-foreldreskap-til-barn-som-er-fdt-utenfor-norge">A. Registrering av barn og foreldreskap til barn som er født utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-3-nar-fdsel-har-skjedd-i-en-gruppe-1-stat">§ 8-4-3. Når fødsel har skjedd i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-4-nar-fdsel-har-funnet-sted-i-en-gruppe-2-stat">§ 8-4-4. Når fødsel har funnet sted i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-5-fdsel-i-en-gruppe-2-stat-og-faren-er-gift-med-barnets-mor">§ 8-4-5. Fødsel i en gruppe 2-stat og faren er gift med barnets mor</a></li>
+<li class="lvl5"><a href="#8-4-6-fdsel-i-en-gruppe-2-stat-og-faren-er-ikke-gift-med-barnets-mor-som-er-ugift">§ 8-4-6. Fødsel i en gruppe 2-stat og faren er ikke gift med barnets mor som er ugift</a></li>
+<li class="lvl5"><a href="#8-4-7-fdsel-i-en-gruppe-2-stat-og-barnets-mor-er-gift-med-en-annen-enn-faren">§ 8-4-7. Fødsel i en gruppe 2-stat og barnets mor er gift med en annen enn faren</a></li>
+<li class="lvl5"><a href="#8-4-8-nar-fdsel-har-funnet-sted-i-en-gruppe-3-stat">§ 8-4-8. Når fødsel har funnet sted i en gruppe 3-stat</a></li>
+<li class="lvl5"><a href="#8-4-9-nar-fdsel-har-funnet-sted-i-en-gruppe-4-stat">§ 8-4-9. Når fødsel har funnet sted i en gruppe 4-stat</a></li>
+<li class="lvl3"><a href="#b-registrering-av-vigsel-inngatt-etter-utenlandsk-rett">B. Registrering av vigsel inngått etter utenlandsk rett</a></li>
+<li class="lvl5"><a href="#8-4-10-vigsel-gjennomfrt-i-en-gruppe-1-stat">§ 8-4-10. Vigsel gjennomført i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-11-vigsel-gjennomfrt-i-en-gruppe-2-stat">§ 8-4-11. Vigsel gjennomført i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-12-vigsel-gjennomfrt-i-en-gruppe-3-og-4-stat">§ 8-4-12. Vigsel gjennomført i en gruppe 3- og 4-stat</a></li>
+<li class="lvl3"><a href="#c-registrering-av-separasjonskilsmisse-oppnadd-utenfor-norge">C. Registrering av separasjon/skilsmisse oppnådd utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-13-separasjonskilsmisse-oppnadd-i-en-gruppe-1-stat">§ 8-4-13. Separasjon/skilsmisse oppnådd i en gruppe 1-stat</a></li>
+<li class="lvl5"><a href="#8-4-14-separasjonskilsmisse-oppnadd-i-en-gruppe-2-stat">§ 8-4-14. Separasjon/skilsmisse oppnådd i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-15-separasjonskilsmisse-oppnadd-i-en-gruppe-3-og-4-stat">§ 8-4-15. Separasjon/skilsmisse oppnådd i en gruppe 3- og 4-stat</a></li>
+<li class="lvl3"><a href="#d-registrering-av-ddsfall-som-har-skjedd-utenfor-norge">D. Registrering av dødsfall som har skjedd utenfor Norge</a></li>
+<li class="lvl5"><a href="#8-4-16-norske-statsborgere">§ 8-4-16. Norske statsborgere</a></li>
+<li class="lvl5"><a href="#8-4-17-utenlandske-statsborgere-avgatt-ved-dden-i-en-gruppe-2-stat">§ 8-4-17. Utenlandske statsborgere avgått ved døden i en gruppe 2-stat</a></li>
+<li class="lvl5"><a href="#8-4-18-utenlandske-statsborgere-avgatt-ved-dden-i-en-gruppe-1-3-eller-4-stat">§ 8-4-18. Utenlandske statsborgere avgått ved døden i en gruppe 1-, 3- eller 4-stat</a></li>
+<li class="lvl3"><a href="#e-oversettelse-legalisering-og-dispensasjon">E. Oversettelse, legalisering og dispensasjon</a></li>
+<li class="lvl5"><a href="#8-4-19-oversettelse">§ 8-4-19. Oversettelse</a></li>
+<li class="lvl5"><a href="#8-4-20-apostillelegalisering">§ 8-4-20. Apostille/legalisering</a></li>
+<li class="lvl5"><a href="#8-4-21-dispensasjon">§ 8-4-21. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-saksbehandlingsregler">Kapittel 9. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#9-1-1-unntak-fra-taushetsplikt">§ 9-1-1. Unntak fra taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-1-2-taushetsbelagte-vergemalsopplysninger">§ 9-1-2. Taushetsbelagte vergemålsopplysninger</a></li>
+<li class="lvl4"><a href="#9-2-1-endring-av-identitetsopplysninger">§ 9-2-1. Endring av identitetsopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-10-utlevering-av-opplysninger-fra-registeret">Kapittel 10. Utlevering av opplysninger fra registeret</a></li>
+<li class="lvl4"><a href="#10-1-1-utlevering-av-opplysninger-som-ikke-er-underlagt-taushetsplikt">§ 10-1-1. Utlevering av opplysninger som ikke er underlagt taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-1-utlevering-av-taushetsbelagte-opplysninger">§ 10-2-1. Utlevering av taushetsbelagte opplysninger</a></li>
+<li class="lvl4"><a href="#10-7-1-krav-om-og-utlevering-av-attester">§ 10-7-1. Krav om og utlevering av attester</a></li>
+<li class="lvl4"><a href="#10-7-2-generelt-om-hva-attester-skal-inneholde-mv">§ 10-7-2. Generelt om hva attester skal inneholde mv.</a></li>
+<li class="lvl4"><a href="#10-7-3-srskilt-om-bostedsattest">§ 10-7-3. Særskilt om bostedsattest</a></li>
+<li class="lvl4"><a href="#10-7-4-srskilt-om-fdselsattest">§ 10-7-4. Særskilt om fødselsattest</a></li>
+<li class="lvl2"><a href="#kapittel-11-kontroll-av-opplysninger">Kapittel 11. Kontroll av opplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-12-sanksjoner">Kapittel 12. Sanksjoner</a></li>
+<li class="lvl3"><a href="#a-overtredelsesgebyr">A. Overtredelsesgebyr</a></li>
+<li class="lvl5"><a href="#12-1-1-klageadgang">§ 12-1-1. Klageadgang</a></li>
+<li class="lvl5"><a href="#12-1-2-utmaling-av-overtredelsesgebyret">§ 12-1-2. Utmåling av overtredelsesgebyret</a></li>
+<li class="lvl5"><a href="#12-1-3-foreldelsesfrist">§ 12-1-3. Foreldelsesfrist</a></li>
+<li class="lvl5"><a href="#12-1-4-betalingsfrist-for-et-ilagt-gebyr">§ 12-1-4. Betalingsfrist for et ilagt gebyr</a></li>
+<li class="lvl3"><a href="#b-tap-av-rett-til-a-fa-utlevert-opplysninger">B. Tap av rett til å få utlevert opplysninger</a></li>
+<li class="lvl5"><a href="#12-2-1-klageadgang">§ 12-2-1. Klageadgang</a></li>
+<li class="lvl5"><a href="#12-2-2-utmaling-av-periode-for-tap-av-rett-til-a-motta-folkeregisteropplysninger">§ 12-2-2. Utmåling av periode for tap av rett til å motta folkeregisteropplysninger</a></li>
+<li class="lvl5"><a href="#12-2-3-foreldelsesfrist">§ 12-2-3. Foreldelsesfrist</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-mv">Kapittel 13. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#13-1-1-ikrafttredelse">§ 13-1-1. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-07-14-1201.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-07-14-1201.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-07-14-1201.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-07-14-1201.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-07-14-1201.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-07-14-1201.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-07-14-1201.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-07-14-1201.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-07-14-1201.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-folkeregisterloven-folkeregisterforskriften">Forskrift til folkeregisterloven (folkeregisterforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-1-virkeomrade">§ 1-1-1. Virkeområde</h4>
 <p>Forskriften inneholder bestemmelser til utfylling og gjennomføring av folkeregisterloven.</p>
@@ -92,7 +341,7 @@ d. serien 999–500 anvendes i synkende rekkefølge for personer født 2000–20
 <p>Ved tildeling av d-nummer anvendes individsiffer fra hele nummerserien 000–999.</p>
 <p>Kvinner skal ha like tall og menn ulike tall som siste individsiffer.</p>
 <p>D-nummeret inaktiveres fem år etter tildeling.</p>
-<p><em>Endret ved forskrift 1 feb 2024 nr. 161 .</em></p>
+<p class="note">Endret ved forskrift 1 feb 2024 nr. 161 .</p>
 <h4 id="2-2-3-hvem-som-kan-tildeles-d-nummer">§ 2-2-3. Hvem som kan tildeles d-nummer</h4>
 <p>D-nummer kan tildeles fysisk person som ikke fyller vilkåret for å få tildelt fødselsnummer, og som er:</p>
 <p>a. skatte- eller avgiftspliktig til Norge, herunder til Svalbard,
@@ -202,7 +451,7 @@ w. Registreringsstatus:
   - Inaktiv (for d-nummer)
   - Ikke bosatt</p>
 <p>Personnavn som er for langt til bruk ved maskinelle utskrifter, kan forkortes av registermyndigheten.</p>
-<p><em>Endret ved forskrifter 30 april 2018 nr. 647 , 18 des 2017 nr. 2233 som endret ved forskrift 18 okt 2019 nr. 1379 (i kraft 21 okt 2019), 11 april 2023 nr. 491 .</em></p>
+<p class="note">Endret ved forskrifter 30 april 2018 nr. 647 , 18 des 2017 nr. 2233 som endret ved forskrift 18 okt 2019 nr. 1379 (i kraft 21 okt 2019), 11 april 2023 nr. 491 .</p>
 <h4 id="3-1-2-tidligere-frte-registre">§ 3-1-2. Tidligere førte registre</h4>
 <p>For de personer det i henhold til § 4 – § 6 i tidligere forskrift 26. november 1979 nr. 9 om føringen og ordningen av folkeregistrene ble opprettet manuelt førte kort for, skal opplysningene som ble registrert i henhold til dagjeldende regler, være ordnet i:</p>
 <p>a. hovedregister over alle personer som fortsatt er bosatt i kommunen, fødselsregisterførte og dødfødte,
@@ -212,12 +461,12 @@ c. navneregister over personer som har vært registrert bosatt eller er blitt f�
 <p>Dersom personens identitet er kontrollert ved personlig fremmøte for Skatteetaten eller utlendingsmyndighetene med fremvisning av pass eller tilsvarende, registreres identiteten som «kontrollert». Dersom vilkårene for å registrere en persons identitet som «kontrollert» ikke er oppfylt, registreres identiteten som «ikke-kontrollert».</p>
 <p>Dersom person som har fylt 12 år har fått utstedt ordinært pass etter passloven eller ID-kort etter ID-kortloven , registreres identiteten som «unik».</p>
 <p>Til registreringsgrunnlagene kan det registreres tilleggsopplysninger om datoer.</p>
-<p><em>Endret ved forskrift 17 des 2025 nr. 2639 .</em></p>
+<p class="note">Endret ved forskrift 17 des 2025 nr. 2639 .</p>
 <h4 id="3-3-1-avvikende-informasjon-om-fdselsdato-i-identifikasjonsnummeret">§ 3-3-1. Avvikende informasjon om fødselsdato i identifikasjonsnummeret</h4>
 <p>Hvis antall tilgjengelige individsiffer er svært lavt, settes fødselsdag og -måned til den registreringsdag og -måned d-nummer eller fødselsnummer blir tildelt i Folkeregisteret.</p>
 <h4 id="3-3-2-registrering-av-fdselsdato">§ 3-3-2. Registrering av fødselsdato</h4>
 <p>For personer som omfattes av direktiv 2004/38/EF om EØS-borgere og deres familiemedlemmers rett til å bevege og oppholde seg fritt på medlemsstatenes område, kan fødselsdato registreres på grunnlag av det som er registrert i utlendingsmyndighetenes datasystem. Dersom det ikke er samsvar mellom fødselsdato i pass eller tilsvarende legitimasjonsdokument og registrert fødselsdato i utlendingsmyndighetenes datasystem, skal det avklares med utlendingsmyndighetene hvilken fødselsdato som skal registreres.</p>
-<p><em>Tilføyd ved forskrift 22 nov 2022 nr. 2003 .</em></p>
+<p class="note">Tilføyd ved forskrift 22 nov 2022 nr. 2003 .</p>
 <h2 id="kapittel-4-hvem-som-skal-regnes-for-a-vre-bosatt-i-norge">Kapittel 4. Hvem som skal regnes for å være bosatt i Norge</h2>
 <h4 id="4-4-1-personer-med-oppholdstillatelse">§ 4-4-1. Personer med oppholdstillatelse</h4>
 <p>Personer som har oppholdstillatelse i medhold av utlendingsloven § 57 og § 74 og utlendingsforskriften § 6-5 regnes ikke som bosatt i Norge.</p>
@@ -238,7 +487,7 @@ c. navneregister over personer som har vært registrert bosatt eller er blitt f�
 <p>Det samme gjelder utenlandske private tjenere som kommer fra utlandet for å tiltre tjenesteforhold hos personer nevnt i første ledd.</p>
 <h4 id="4-4-7-utenlandsk-nato-personell">§ 4-4-7. Utenlandsk NATO-personell</h4>
 <p>Utenlandsk personell tilknyttet NATO og slike personers utenlandske husstandsmedlemmer, som omfattes av Overenskomst 1. november 2004 nr. 41 mellom Danmark, Finland, Island, Norge og Sverige om folkeregistrering , regnes ikke som bosatt i Norge.</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3409 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3409 (i kraft 1 jan 2025).</p>
 <h4 id="4-4-8-studenter">§ 4-4-8. Studenter</h4>
 <p>Personer som studerer i utlandet skal, med mindre de anses utflyttet, anses bosatt samme sted som før utdanningen ble påbegynt. Dette gjelder bare dersom de senest i forbindelse med sak om endret bostedsregistrering etter folkeregisterloven § 4-3 tredje ledd, dokumenterer studiesituasjonen og at de fortsatt har tilknytning til det tidligere bosted i Norge.</p>
 <h4 id="4-4-9-fengsel-mv">§ 4-4-9. Fengsel mv.</h4>
@@ -293,7 +542,7 @@ e. registreres i en bolig som erstatter tidligere bosted, så fremt disse bolige
 <p>Felles hjem regnes som oppløst når den ene har flyttet ut og besøk i det tidligere felles hjem normalt ikke forekommer oftere enn hver tredje måned.</p>
 <p>Felles hjem med barn kan kreves oppløst av den som flytter ut når vedkommende tar den overveiende døgnhvile i løpet av enhver tolvmånedersperiode i annen bolig enn det tidligere felles hjem. Dersom det i tillegg foreligger felles hjem med ektefelle, anses også dette oppløst.</p>
 <p>Registermyndigheten kan dispensere fra bestemmelsene i første og annet ledd når en person er innvalgt til kommunestyre eller fylkesting og familien flytter til annen kommune eller annet fylke.</p>
-<p><em>Endret ved forskrift 12 okt 2023 nr. 1610 .</em></p>
+<p class="note">Endret ved forskrift 12 okt 2023 nr. 1610 .</p>
 <h4 id="5-3-1-pendlere">§ 5-3-1. Pendlere</h4>
 <p>Bestemmelsene i § 5-3-2 til § 5-3-5 kommer til anvendelse på pendlere. Med pendler menes person som av hensyn til inntektsgivende aktivitet må ta døgnhvilen utenfor hjemmet.</p>
 <h4 id="5-3-2-familiependlere">§ 5-3-2. Familiependlere</h4>
@@ -340,7 +589,7 @@ d. pendleren har tilgang til alle ukens dager.</p>
 <li>etablering av bosted mot slutten av funksjonsperioden med sikte på fremtidig arbeid.</li>
 </ul>
 <p>Med hjemdistrikt forstås fylke og nærliggende områder.</p>
-<p><em>Tilføyd ved forskrift 26 sep 2025 nr. 1934 (i kraft 1 okt 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 26 sep 2025 nr. 1934 (i kraft 1 okt 2025).</p>
 <h2 id="kapittel-6-den-enkeltes-meldeplikt-til-folkeregisteret">Kapittel 6. Den enkeltes meldeplikt til Folkeregisteret</h2>
 <h4 id="6-5-1-krav-til-flyttemelding">§ 6-5-1. Krav til flyttemelding</h4>
 <p>Melding om flytting skal gis på særskilt skjema fastsatt av Skattedirektoratet. Også melding avgitt på annen måte kan godtas dersom den inneholder de nødvendige opplysninger.</p>
@@ -357,7 +606,7 @@ d. pendleren har tilgang til alle ukens dager.</p>
 <h4 id="6-5-4-unntak-fra-meldeplikt-til-skattekontoret-ved-innflytting">§ 6-5-4. Unntak fra meldeplikt til skattekontoret ved innflytting</h4>
 <p>En utenlandsk statsborger som ved innreisen til Norge har registreringsplikt eller meldeplikt til utlendingsmyndighetene, er unntatt fra meldeplikten som følger av folkeregisterloven § 6-2 . Unntaket gjelder i de tilfeller utlendingsmyndighetene har kontrollert og fastsatt vedkommendes identitet og oversender de opplysninger registermyndigheten har fastsatt.</p>
 <p>Person som omfattes av direktiv 2004/38/EF om EØS-borgere og deres familiemedlemmers rett til å bevege og oppholde seg fritt på medlemsstatenes område og som flytter til Norge for å bosette seg i norsk kommune, skal innen tre måneder og åtte dager etter ankomsten personlig melde dette på skattekontoret og vise frem pass eller tilsvarende legitimasjon.</p>
-<p><em>Endret ved forskrift 21 des 2021 nr. 3749 .</em></p>
+<p class="note">Endret ved forskrift 21 des 2021 nr. 3749 .</p>
 <h2 id="kapittel-7-meldeplikt-for-offentlige-myndigheter-og-virksomheter">Kapittel 7. Meldeplikt for offentlige myndigheter og virksomheter</h2>
 <h4 id="7-1-1-meldeplikt-for-faktiske-og-rettslige-forhold-som-finner-sted-i-norge">§ 7-1-1. Meldeplikt for faktiske og rettslige forhold som finner sted i Norge</h4>
 <p>Når ikke annet følger av lov, har offentlige myndigheter og virksomheter plikt til å gi følgende meldinger som grunnlag for registrering:</p>
@@ -375,7 +624,7 @@ j. Politiet skal sende melding om status unik etter folkeregisterforskriften § 
 <p>Tingretten/Oslo byfogdembete skal når skifteattest utstedes, uten hinder av lovbestemt taushetsplikt gi opplysninger om attestmottaker.</p>
 <p>Politiet/påtalemyndigheten skal melde falske identiteter etter de retningslinjer Riksadvokaten har gitt for slik rapportering.</p>
 <p>Meldinger fra offentlige myndigheter og virksomheter skal sendes i henhold til de krav Skattedirektoratet fastsetter.</p>
-<p><em>Endret ved forskrifter 19 mai 2021 nr. 1551 (i kraft 1 juni 2021), 11 april 2023 nr. 491 , 17 des 2025 nr. 2639 .</em></p>
+<p class="note">Endret ved forskrifter 19 mai 2021 nr. 1551 (i kraft 1 juni 2021), 11 april 2023 nr. 491 , 17 des 2025 nr. 2639 .</p>
 <h2 id="kapittel-8-registrering-av-opplysninger">Kapittel 8. Registrering av opplysninger</h2>
 <h4 id="8-4-1-dna-testing-av-barn-fdt-i-norge">§ 8-4-1. DNA-testing av barn født i Norge</h4>
 <p>Når barn er født uten at lege/jordmor er til stede og registermyndigheten har kommet til at fremlagte opplysninger ikke gir grunnlag for med rimelig sikkerhet å fastslå familierelasjon, kan mor og barn DNA-testes.</p>
@@ -430,7 +679,7 @@ b. Når far er bosatt utenfor Norge, fastsettes farskapet etter lovgivningen i f
 <h5 id="8-4-12-vigsel-gjennomfrt-i-en-gruppe-3-og-4-stat">§ 8-4-12. Vigsel gjennomført i en gruppe 3- og 4-stat</h5>
 <p>For registrering av vigsel som er gjennomført i stat som nevnt i § 8-4-2 tredje og fjerde ledd kreves at attestene må være i original og påført Apostille eller være legalisert av utstederlandets utenriksdepartement, jf. § 8-4-20 . Attester verifisert av norsk utenriksstasjon godtas også. Vigsel kan også registreres dersom utlendingsmyndighetene har innvilget oppholdstillatelse på grunnlag av den oppgitte familierelasjon.</p>
 <p>Kravet til påføring av apostille gjelder ikke for attester utstedt på grunnlag av vigsler foretatt av diplomatiske og konsulære tjenestemenn ved utenlandske ambassader akkreditert til Norge.</p>
-<p><em>Endret ved forskrift 1 feb 2022 nr. 154 .</em></p>
+<p class="note">Endret ved forskrift 1 feb 2022 nr. 154 .</p>
 <h3 id="c-registrering-av-separasjonskilsmisse-oppnadd-utenfor-norge">C. Registrering av separasjon/skilsmisse oppnådd utenfor Norge</h3>
 <h5 id="8-4-13-separasjonskilsmisse-oppnadd-i-en-gruppe-1-stat">§ 8-4-13. Separasjon/skilsmisse oppnådd i en gruppe 1-stat</h5>
 <p>Avgjørelse om separasjon/skilsmisse oppnådd i stat som nevnt i § 8-4-2 første ledd godtas i Norge i henhold til den nordiske familierettskonvensjon av 6. februar 1931.</p>
@@ -467,7 +716,7 @@ b. Når far er bosatt utenfor Norge, fastsettes farskapet etter lovgivningen i f
 <p>Opplysninger om registreringsstatusene bosatt, utflyttet, død, opphørt og inaktiv, jf. § 3-1-1 første ledd litra w er unntatt fra taushetsplikten i folkeregisterloven § 9-1 .</p>
 <h4 id="9-1-2-taushetsbelagte-vergemalsopplysninger">§ 9-1-2. Taushetsbelagte vergemålsopplysninger</h4>
 <p>Opplysninger om rammene for oppdraget er underlagt taushetsplikt.</p>
-<p><em>Tilføyd ved forskrift 11 april 2023 nr. 491 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 april 2023 nr. 491 .</p>
 <h4 id="9-2-1-endring-av-identitetsopplysninger">§ 9-2-1. Endring av identitetsopplysninger</h4>
 <p>Opplysninger om fødselsdato, fødested og statsborgerskap for personer som er innvilget oppholdstillatelse i Norge kan kun endres etter melding fra utlendingsmyndighetene. Dette gjelder ikke endring av fødselsdato og fødested for personer som er født i en norsk kommune.</p>
 <p>For personer som utlendingsmyndighetene rekvirerer d-nummer til kan opplysninger om navn, fødselsdato, fødested og statsborgerskap kun endres etter melding fra utlendingsmyndighetene.</p>
@@ -502,7 +751,7 @@ b. fødselsdatoen kan i særlige tilfeller endres når det foreligger dokumentas
 <p>a. I de tilfeller navnet er endret, skal det gis opplysning om endringen har skjedd ved bevilling/melding, når bevillingen/meldingen er gitt og av hvilken myndighet. Foreldrene skal føres opp med det navn de hadde på fødselstidspunktet til den person attesten gjelder.
 b. Dersom Folkeregisteret ikke har opplysning om et eller flere av foreldrenes navn, skal det stå «ikke meldt» i de felt på attesten dette gjelder.</p>
 <p>Attesten skal underskrives av den som registermyndigheten har gitt fullmakt.</p>
-<p><em>Endret ved forskrift 19 mai 2021 nr. 1551 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrift 19 mai 2021 nr. 1551 (i kraft 1 juni 2021).</p>
 <h2 id="kapittel-11-kontroll-av-opplysninger">Kapittel 11. Kontroll av opplysninger</h2>
 <p>Skattedirektoratet har ikke hjemmel i folkeregisterloven kapittel 11 til å fastsette forskrift.</p>
 <h2 id="kapittel-12-sanksjoner">Kapittel 12. Sanksjoner</h2>
@@ -540,6 +789,8 @@ d. om overtredelsen er gjort i vinnings hensikt.</p>
 <h2 id="kapittel-13-ikrafttredelse-mv">Kapittel 13. Ikrafttredelse mv.</h2>
 <h4 id="13-1-1-ikrafttredelse">§ 13-1-1. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft fra 1. oktober 2017. Fra samme tid oppheves forskrift 9. november 2007 nr. 1268 om folkeregistrering og forskrift 25. oktober 1982 nr. 1524 om melding av fødsler, erkjennelse av farskap og melding om valg av navn.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

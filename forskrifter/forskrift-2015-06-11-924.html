@@ -19,64 +19,221 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-06-11-924.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om graden ph.d. ved BI" href="../feeds/forskrift-2015-06-11-924.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om graden ph.d. ved BI</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-06-11-924</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-11-396</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-06-11-924" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-malsetting-omfang-og-innhold-for-phd-utdanningen">§ 1-2. Målsetting, omfang og innhold for ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#1-3-ansvaret-for-phd-utdanningen">§ 1-3. Ansvaret for ph.d-utdanningen</a></li>
+<li class="lvl4"><a href="#1-4-kvalitetssikring">§ 1-4. Kvalitetssikring</a></li>
+<li class="lvl2"><a href="#kapittel-2-opptak-og-phd-avtale">Kapittel 2. Opptak og ph.d.-avtale</a></li>
+<li class="lvl4"><a href="#2-1-vilkar-for-opptak">§ 2-1. Vilkår for opptak</a></li>
+<li class="lvl4"><a href="#2-2-infrastruktur">§ 2-2. Infrastruktur</a></li>
+<li class="lvl4"><a href="#2-3-opptaksvedtak">§ 2-3. Opptaksvedtak</a></li>
+<li class="lvl4"><a href="#2-4-avtaleperiode">§ 2-4. Avtaleperiode</a></li>
+<li class="lvl4"><a href="#2-5-frivillig-avslutning-fr-avtalt-tid">§ 2-5. Frivillig avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-6-tvungen-avslutning-fr-avtalt-tid">§ 2-6. Tvungen avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-7-tvungen-avslutning-ved-forsinkelse-eller-manglende-fremdrift-fr-avtalt-tid">§ 2-7. Tvungen avslutning ved forsinkelse eller manglende fremdrift før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-8-tvungen-avslutning-ved-fusk-pa-eksamen-eller-prver-underveis-i-phd-utdanningen">§ 2-8. Tvungen avslutning ved fusk på eksamen eller prøver underveis i ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#2-9-tvungen-avslutning-ved-uredelighet">§ 2-9. Tvungen avslutning ved uredelighet</a></li>
+<li class="lvl4"><a href="#2-10-oppsigelse-og-avskjed">§ 2-10. Oppsigelse og avskjed</a></li>
+<li class="lvl4"><a href="#2-11-phd-avtalen">§ 2-11. Ph.d.-avtalen</a></li>
+<li class="lvl4"><a href="#2-12-progresjonskrav">§ 2-12. Progresjonskrav</a></li>
+<li class="lvl4"><a href="#2-13-oppflging-tiltak-og-mislighold-av-phd-avtalen-og-progresjonskravene">§ 2-13. Oppfølging, tiltak og mislighold av ph.d.-avtalen og progresjonskravene</a></li>
+<li class="lvl2"><a href="#kapittel-3-gjennomfring">Kapittel 3. Gjennomføring</a></li>
+<li class="lvl4"><a href="#3-1-veiledning">§ 3-1. Veiledning</a></li>
+<li class="lvl4"><a href="#3-2-oppnevning-av-veiledere">§ 3-2. Oppnevning av veiledere</a></li>
+<li class="lvl4"><a href="#3-3-veiledningens-innhold">§ 3-3. Veiledningens innhold</a></li>
+<li class="lvl4"><a href="#3-4-formal-innhold-og-omfang-for-opplringsdelen">§ 3-4. Formål, innhold og omfang for opplæringsdelen</a></li>
+<li class="lvl4"><a href="#3-5-kandidatens-rettigheter-ved-permisjon">§ 3-5. Kandidatens rettigheter ved permisjon</a></li>
+<li class="lvl4"><a href="#3-6-rapportering">§ 3-6. Rapportering</a></li>
+<li class="lvl4"><a href="#3-7-midtveisevaluering-predoktoralt-forsvar">§ 3-7. Midtveisevaluering (predoktoralt forsvar)</a></li>
+<li class="lvl4"><a href="#3-8-krav-til-phd-avhandlingen">§ 3-8. Krav til ph.d.-avhandlingen</a></li>
+<li class="lvl4"><a href="#3-9-arbeider-som-ikke-godtas">§ 3-9. Arbeider som ikke godtas</a></li>
+<li class="lvl4"><a href="#3-10-meldeplikt-om-arbeidsresultater-som-har-potensial-for-nringsmessig-utnyttelse">§ 3-10. Meldeplikt om arbeidsresultater som har potensial for næringsmessig utnyttelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-bedmmelse-av-avhandlingen-mv">Kapittel 4. Bedømmelse av avhandlingen mv.</a></li>
+<li class="lvl4"><a href="#4-1-grunnlag-for-bedmmelse">§ 4-1. Grunnlag for bedømmelse</a></li>
+<li class="lvl4"><a href="#4-2-tidsbruk-fra-innlevering-til-disputas">§ 4-2. Tidsbruk fra innlevering til disputas</a></li>
+<li class="lvl4"><a href="#4-3-innlevering-av-avhandlingen">§ 4-3. Innlevering av avhandlingen</a></li>
+<li class="lvl4"><a href="#4-4-behandling-av-sknaden">§ 4-4. Behandling av søknaden</a></li>
+<li class="lvl4"><a href="#4-5-oppnevning-av-bedmmelseskomite">§ 4-5. Oppnevning av bedømmelseskomité</a></li>
+<li class="lvl4"><a href="#4-6-innhenting-av-supplerende-opplysninger">§ 4-6. Innhenting av supplerende opplysninger</a></li>
+<li class="lvl4"><a href="#4-7-omarbeiding-av-innlevert-avhandling">§ 4-7. Omarbeiding av innlevert avhandling</a></li>
+<li class="lvl4"><a href="#4-8-bedmmelseskomiteens-innstilling">§ 4-8. Bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#4-9-retting-av-formelle-feil-i-avhandlingen">§ 4-9. Retting av formelle feil i avhandlingen</a></li>
+<li class="lvl4"><a href="#4-10-enstemmig-innstilling">§ 4-10. Enstemmig innstilling</a></li>
+<li class="lvl4"><a href="#4-11-delt-innstilling">§ 4-11. Delt innstilling</a></li>
+<li class="lvl4"><a href="#4-12-ny-innlevering">§ 4-12. Ny innlevering</a></li>
+<li class="lvl4"><a href="#4-13-krav-til-den-trykte-avhandlingen">§ 4-13. Krav til den trykte avhandlingen</a></li>
+<li class="lvl4"><a href="#4-14-offentliggjring">§ 4-14. Offentliggjøring</a></li>
+<li class="lvl2"><a href="#kapittel-5-doktorgradsprve">Kapittel 5. Doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#5-1-prveforelesning">§ 5-1. Prøveforelesning</a></li>
+<li class="lvl4"><a href="#5-2-offentlig-forsvar-av-avhandlingen-disputas">§ 5-2. Offentlig forsvar av avhandlingen (disputas)</a></li>
+<li class="lvl4"><a href="#5-3-godkjenning-av-doktorgradsprve">§ 5-3. Godkjenning av doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#5-4-kreering-og-vitnemal">§ 5-4. Kreering og vitnemål</a></li>
+<li class="lvl4"><a href="#5-5-vedlegg-til-vitnemal-diploma-supplement">§ 5-5. Vedlegg til vitnemål (Diploma Supplement)</a></li>
+<li class="lvl2"><a href="#kapittel-6-klage-ikrafttredelse-og-overgangsbestemmelser">Kapittel 6. Klage, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-klage-over-avslag-pa-sknad-om-opptak-vedtak-om-opphr-av-studierett-klage-over-avslag-pa-sknad-om-godkjenning-av-elementer-i-opplringsdelen">§ 6-1. Klage over avslag på søknad om opptak, vedtak om opphør av studierett, klage over avslag på søknad om godkjenning av elementer i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#6-2-klage-over-eksamen-i-opplringsdelen">§ 6-2. Klage over eksamen i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#6-3-klage-over-avslag-pa-sknad-om-bedmmelse-ikke-godkjent-avhandling-prveforelesning-eller-forsvar">§ 6-3. Klage over avslag på søknad om bedømmelse, ikke godkjent avhandling, prøveforelesning eller forsvar</a></li>
+<li class="lvl4"><a href="#6-4-ikrafttredelse">§ 6-4. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-11-396.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-06-11-924.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om graden philosophiae doctor (ph.d.) ved Handelshøyskolen BI</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-06-11-924.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-06-11-924 <code>forskrift/2015-06-11-924</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om graden ph.d. ved BI</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-11-396 <code>forskrift/2026-03-11-396</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-06-11-924" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-malsetting-omfang-og-innhold-for-phd-utdanningen">§ 1-2. Målsetting, omfang og innhold for ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#1-3-ansvaret-for-phd-utdanningen">§ 1-3. Ansvaret for ph.d-utdanningen</a></li>
+<li class="lvl4"><a href="#1-4-kvalitetssikring">§ 1-4. Kvalitetssikring</a></li>
+<li class="lvl2"><a href="#kapittel-2-opptak-og-phd-avtale">Kapittel 2. Opptak og ph.d.-avtale</a></li>
+<li class="lvl4"><a href="#2-1-vilkar-for-opptak">§ 2-1. Vilkår for opptak</a></li>
+<li class="lvl4"><a href="#2-2-infrastruktur">§ 2-2. Infrastruktur</a></li>
+<li class="lvl4"><a href="#2-3-opptaksvedtak">§ 2-3. Opptaksvedtak</a></li>
+<li class="lvl4"><a href="#2-4-avtaleperiode">§ 2-4. Avtaleperiode</a></li>
+<li class="lvl4"><a href="#2-5-frivillig-avslutning-fr-avtalt-tid">§ 2-5. Frivillig avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-6-tvungen-avslutning-fr-avtalt-tid">§ 2-6. Tvungen avslutning før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-7-tvungen-avslutning-ved-forsinkelse-eller-manglende-fremdrift-fr-avtalt-tid">§ 2-7. Tvungen avslutning ved forsinkelse eller manglende fremdrift før avtalt tid</a></li>
+<li class="lvl4"><a href="#2-8-tvungen-avslutning-ved-fusk-pa-eksamen-eller-prver-underveis-i-phd-utdanningen">§ 2-8. Tvungen avslutning ved fusk på eksamen eller prøver underveis i ph.d.-utdanningen</a></li>
+<li class="lvl4"><a href="#2-9-tvungen-avslutning-ved-uredelighet">§ 2-9. Tvungen avslutning ved uredelighet</a></li>
+<li class="lvl4"><a href="#2-10-oppsigelse-og-avskjed">§ 2-10. Oppsigelse og avskjed</a></li>
+<li class="lvl4"><a href="#2-11-phd-avtalen">§ 2-11. Ph.d.-avtalen</a></li>
+<li class="lvl4"><a href="#2-12-progresjonskrav">§ 2-12. Progresjonskrav</a></li>
+<li class="lvl4"><a href="#2-13-oppflging-tiltak-og-mislighold-av-phd-avtalen-og-progresjonskravene">§ 2-13. Oppfølging, tiltak og mislighold av ph.d.-avtalen og progresjonskravene</a></li>
+<li class="lvl2"><a href="#kapittel-3-gjennomfring">Kapittel 3. Gjennomføring</a></li>
+<li class="lvl4"><a href="#3-1-veiledning">§ 3-1. Veiledning</a></li>
+<li class="lvl4"><a href="#3-2-oppnevning-av-veiledere">§ 3-2. Oppnevning av veiledere</a></li>
+<li class="lvl4"><a href="#3-3-veiledningens-innhold">§ 3-3. Veiledningens innhold</a></li>
+<li class="lvl4"><a href="#3-4-formal-innhold-og-omfang-for-opplringsdelen">§ 3-4. Formål, innhold og omfang for opplæringsdelen</a></li>
+<li class="lvl4"><a href="#3-5-kandidatens-rettigheter-ved-permisjon">§ 3-5. Kandidatens rettigheter ved permisjon</a></li>
+<li class="lvl4"><a href="#3-6-rapportering">§ 3-6. Rapportering</a></li>
+<li class="lvl4"><a href="#3-7-midtveisevaluering-predoktoralt-forsvar">§ 3-7. Midtveisevaluering (predoktoralt forsvar)</a></li>
+<li class="lvl4"><a href="#3-8-krav-til-phd-avhandlingen">§ 3-8. Krav til ph.d.-avhandlingen</a></li>
+<li class="lvl4"><a href="#3-9-arbeider-som-ikke-godtas">§ 3-9. Arbeider som ikke godtas</a></li>
+<li class="lvl4"><a href="#3-10-meldeplikt-om-arbeidsresultater-som-har-potensial-for-nringsmessig-utnyttelse">§ 3-10. Meldeplikt om arbeidsresultater som har potensial for næringsmessig utnyttelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-bedmmelse-av-avhandlingen-mv">Kapittel 4. Bedømmelse av avhandlingen mv.</a></li>
+<li class="lvl4"><a href="#4-1-grunnlag-for-bedmmelse">§ 4-1. Grunnlag for bedømmelse</a></li>
+<li class="lvl4"><a href="#4-2-tidsbruk-fra-innlevering-til-disputas">§ 4-2. Tidsbruk fra innlevering til disputas</a></li>
+<li class="lvl4"><a href="#4-3-innlevering-av-avhandlingen">§ 4-3. Innlevering av avhandlingen</a></li>
+<li class="lvl4"><a href="#4-4-behandling-av-sknaden">§ 4-4. Behandling av søknaden</a></li>
+<li class="lvl4"><a href="#4-5-oppnevning-av-bedmmelseskomite">§ 4-5. Oppnevning av bedømmelseskomité</a></li>
+<li class="lvl4"><a href="#4-6-innhenting-av-supplerende-opplysninger">§ 4-6. Innhenting av supplerende opplysninger</a></li>
+<li class="lvl4"><a href="#4-7-omarbeiding-av-innlevert-avhandling">§ 4-7. Omarbeiding av innlevert avhandling</a></li>
+<li class="lvl4"><a href="#4-8-bedmmelseskomiteens-innstilling">§ 4-8. Bedømmelseskomiteens innstilling</a></li>
+<li class="lvl4"><a href="#4-9-retting-av-formelle-feil-i-avhandlingen">§ 4-9. Retting av formelle feil i avhandlingen</a></li>
+<li class="lvl4"><a href="#4-10-enstemmig-innstilling">§ 4-10. Enstemmig innstilling</a></li>
+<li class="lvl4"><a href="#4-11-delt-innstilling">§ 4-11. Delt innstilling</a></li>
+<li class="lvl4"><a href="#4-12-ny-innlevering">§ 4-12. Ny innlevering</a></li>
+<li class="lvl4"><a href="#4-13-krav-til-den-trykte-avhandlingen">§ 4-13. Krav til den trykte avhandlingen</a></li>
+<li class="lvl4"><a href="#4-14-offentliggjring">§ 4-14. Offentliggjøring</a></li>
+<li class="lvl2"><a href="#kapittel-5-doktorgradsprve">Kapittel 5. Doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#5-1-prveforelesning">§ 5-1. Prøveforelesning</a></li>
+<li class="lvl4"><a href="#5-2-offentlig-forsvar-av-avhandlingen-disputas">§ 5-2. Offentlig forsvar av avhandlingen (disputas)</a></li>
+<li class="lvl4"><a href="#5-3-godkjenning-av-doktorgradsprve">§ 5-3. Godkjenning av doktorgradsprøve</a></li>
+<li class="lvl4"><a href="#5-4-kreering-og-vitnemal">§ 5-4. Kreering og vitnemål</a></li>
+<li class="lvl4"><a href="#5-5-vedlegg-til-vitnemal-diploma-supplement">§ 5-5. Vedlegg til vitnemål (Diploma Supplement)</a></li>
+<li class="lvl2"><a href="#kapittel-6-klage-ikrafttredelse-og-overgangsbestemmelser">Kapittel 6. Klage, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-klage-over-avslag-pa-sknad-om-opptak-vedtak-om-opphr-av-studierett-klage-over-avslag-pa-sknad-om-godkjenning-av-elementer-i-opplringsdelen">§ 6-1. Klage over avslag på søknad om opptak, vedtak om opphør av studierett, klage over avslag på søknad om godkjenning av elementer i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#6-2-klage-over-eksamen-i-opplringsdelen">§ 6-2. Klage over eksamen i opplæringsdelen</a></li>
+<li class="lvl4"><a href="#6-3-klage-over-avslag-pa-sknad-om-bedmmelse-ikke-godkjent-avhandling-prveforelesning-eller-forsvar">§ 6-3. Klage over avslag på søknad om bedømmelse, ikke godkjent avhandling, prøveforelesning eller forsvar</a></li>
+<li class="lvl4"><a href="#6-4-ikrafttredelse">§ 6-4. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-06-11-924.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-06-11-924.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-06-11-924.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-06-11-924.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-06-11-924.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-06-11-924.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-06-11-924.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-06-11-924.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-06-11-924.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-graden-philosophiae-doctor-phd-ved-handelshyskolen-bi">Forskrift om graden philosophiae doctor (ph.d.) ved Handelshøyskolen BI</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Forskriften gjelder for doktorgradsutdanningen som fører frem til graden philosophiae doctor (ph.d.) ved Handelshøyskolen BI. Forskriften gir regler om opptak, gjennomføring og avslutning av ph.d.-utdanningen ved Handelshøyskolen BI.</p>
@@ -92,7 +249,7 @@ b. Godkjent gjennomføring av kursdelen
 c. Godkjent predoktoralt forsvar
 d. Godkjent prøveforelesning over oppgitt emne
 e. Godkjent offentlig forsvar av avhandlingen (disputas).</p>
-<p><em>Endret ved forskrift 11 mars 2026 nr. 396 (i kraft 1 aug 2026).</em></p>
+<p class="note">Endret ved forskrift 11 mars 2026 nr. 396 (i kraft 1 aug 2026).</p>
 <h4 id="1-3-ansvaret-for-phd-utdanningen">§ 1-3. Ansvaret for ph.d-utdanningen</h4>
 <p>Handelshøyskolen BIs styre har det overordnede ansvaret for ph.d.-utdanningen. Kollegiet har ansvaret for ph.d.-utdanningen som helhet. Kollegiet vedtar strukturen i studiet.</p>
 <p>Etter delegert myndighet har Dean ansvar for å koordinere og godkjenne undervisning og veiledning. Se forøvrig rollebeskrivelse og ansvarsområder for Dean.</p>
@@ -158,7 +315,7 @@ b. Vesentlig forsinkelse som skyldes forhold kandidaten selv rår over.
 c. Gjentatte eller vesentlige brudd på kandidatens plikter etter avtalen, som informasjons-, oppfølgings- eller rapporteringsplikt. jf. § 3-6 og § 3-7 .
 d. Forsinkelse i fremdriften av forskningsprosjektet som er av en slik art at det skaper begrunnet tvil om kandidaten vil kunne fullføre prosjektet innenfor avtalt tid.</p>
 <p>Vedtak etter paragrafen her fattes av Dean. Klager behandles av klagenemnda ved Handelshøyskolen BI.</p>
-<p><em>Endret ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022).</p>
 <h4 id="2-8-tvungen-avslutning-ved-fusk-pa-eksamen-eller-prver-underveis-i-phd-utdanningen">§ 2-8. Tvungen avslutning ved fusk på eksamen eller prøver underveis i ph.d.-utdanningen</h4>
 <p>Ved fusk på eksamener eller prøver underveis i ph.d.-utdanningen, kan Handelshøyskolen BI vedta annullering, jf. universitets- og høyskoleloven § 4-7 . Dersom forholdet eller forholdene er så alvorlig at det er å anse som uredelighet, jf. samme lov § 4-13 (1), jf. forskningsetikkloven § 5 , andre ledd, kan institusjonen vedta tvungen avslutning, jf. § 2-9 nedenfor.</p>
 <p>Vedtak etter paragrafen her fattes av klagenemnda ved Handelshøyskolen BI. Klager behandles av Felles klagenemnd for studentsaker, jf. universitets- og høyskoleloven § 5-1 og forskrift i medhold av denne.</p>
@@ -174,11 +331,11 @@ d. Forsinkelse i fremdriften av forskningsprosjektet som er av en slik art at de
 <p>I tilfeller hvor ph.d.-kandidaten skal ha tilknytning til utenlandske institusjoner, må Handelshøyskolen BIs retningslinjer for slikt samarbeid følges, og egne avtaler inngås på fastsatte skjema. Avtalen skal normalt foreligge sammen med opptaksavtalen.</p>
 <h4 id="2-12-progresjonskrav">§ 2-12. Progresjonskrav <a class="para-history" href="../historikk/forskrift-2015-06-11-924/para-2-12.html" title="Endringshistorikk for § 2-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dean fastsetter progresjonskrav med milepæler. Progresjonskravene er en spesifisering av utdanningsplanen, jf. forskrift om opptak, studier og eksamen ved Handelshøyskolen BI § 3-4 . Kravene kan ha mindre variasjoner mellom spesialiseringene, men skal normalt omfatte krav til fullføring av kursdelen og innlevering av skriftlig arbeid, eventuelt i tillegg til ytterlige progresjonskrav.</p>
-<p><em>Tilføyd ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022).</p>
 <h4 id="2-13-oppflging-tiltak-og-mislighold-av-phd-avtalen-og-progresjonskravene">§ 2-13. Oppfølging, tiltak og mislighold av ph.d.-avtalen og progresjonskravene <a class="para-history" href="../historikk/forskrift-2015-06-11-924/para-2-13.html" title="Endringshistorikk for § 2-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Instituttet er ansvarlig for å kontrollere at progresjonskravene med milepælene blir innfridd. Dersom progresjonskravene ikke innfris, skal instituttet forelegge saken for Dean. Instituttet iverksetter tiltak i samråd med Dean for å korrigere situasjonen ved manglende progresjon og faglig nivå i opplæringsdelen eller forskningsarbeidet.</p>
 <p>Vesentlig mislighold av ph.d.-avtalen og progresjonskravene kan medføre tvungen avslutning av ph.d.-utdanningen før avtaleperiodens utløp, jf. § 2-6 og § 2-7 .</p>
-<p><em>Tilføyd ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022), endret ved forskrift 7 juni 2022 nr. 1566 (i kraft 13 sep 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 7 juni 2022 nr. 1217 (i kraft 10 aug 2022), endret ved forskrift 7 juni 2022 nr. 1566 (i kraft 13 sep 2022).</p>
 <h2 id="kapittel-3-gjennomfring">Kapittel 3. Gjennomføring</h2>
 <h4 id="3-1-veiledning">§ 3-1. Veiledning</h4>
 <p>Arbeidet med doktoravhandlingen skal foregå under individuell veiledning. Handelshøyskolen BI og veilederne skal sammen sikre at ph.d.-kandidaten deltar i et aktivt forskningsmiljø.</p>
@@ -332,6 +489,8 @@ e. Flertallet i bedømmelseskomiteen er eksterne medlemmer.</p>
 <h4 id="6-4-ikrafttredelse">§ 6-4. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft 1. august 2015. Fra samme tidspunkt oppheves Handelshøyskolen BIs doktorgradsreglement. 1</p>
 <p><em>1 Ikke kunngjort i Norsk Lovtidend.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

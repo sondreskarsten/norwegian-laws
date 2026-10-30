@@ -19,64 +19,297 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1992-06-19-59.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Bygdeallmenningsloven – bgdalml" href="../feeds/lov-1992-06-19-59.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Bygdeallmenningsloven – bgdalml</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1992-06-19-59</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Skogbruk</dd>
-<dt>Ikrafttredelse</dt><dd>1993-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-102</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1992-06-19-59" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#1-1-bygdeallmenning">§ 1-1. (bygdeallmenning)</a></li>
+<li class="lvl4"><a href="#1-2-salg-og-bortfeste">§ 1-2. (salg og bortfeste)</a></li>
+<li class="lvl4"><a href="#1-3-pantsettelse">§ 1-3. (pantsettelse)</a></li>
+<li class="lvl4"><a href="#1-4-jordskifte">§ 1-4. (jordskifte)</a></li>
+<li class="lvl4"><a href="#1-5-sammenslaing">§ 1-5. (sammenslåing)</a></li>
+<li class="lvl4"><a href="#1-6-ervervet-eiendom">§ 1-6. (ervervet eiendom)</a></li>
+<li class="lvl4"><a href="#1-7-forkynnelser-mv-i-allmenningssaker">§ 1-7. (forkynnelser m.v. i allmenningssaker)</a></li>
+<li class="lvl4"><a href="#1-8-forliksklage-og-stevning-anvendelse-av-rettsmidler">§ 1-8. (forliksklage og stevning, anvendelse av rettsmidler)</a></li>
+<li class="lvl2"><a href="#kapittel-2-bruksrett-i-bygdeallmenning">Kapittel 2. Bruksrett i bygdeallmenning.</a></li>
+<li class="lvl4"><a href="#2-1-vilkar-for-bruksrett">§ 2-1. (vilkår for bruksrett)</a></li>
+<li class="lvl4"><a href="#2-2-bruksrettens-innhold">§ 2-2. (bruksrettens innhold)</a></li>
+<li class="lvl4"><a href="#2-3-salg-fraskrivelse-avlsning">§ 2-3. (salg, fraskrivelse, avløsning)</a></li>
+<li class="lvl4"><a href="#2-4-forpaktning">§ 2-4. (forpaktning)</a></li>
+<li class="lvl4"><a href="#2-5-bruksrettsregister-eierskifte-mv">§ 2-5. (bruksrettsregister, eierskifte m.v.)</a></li>
+<li class="lvl4"><a href="#2-6-bortfall-av-bruksrett">§ 2-6. (bortfall av bruksrett)</a></li>
+<li class="lvl4"><a href="#2-7-betaling-for-ytelser">§ 2-7. (betaling for ytelser)</a></li>
+<li class="lvl4"><a href="#2-8-begrensninger-i-utvelsen-av-bruksrettene">§ 2-8. (begrensninger i utøvelsen av bruksrettene)</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltning-og-administrasjon">Kapittel 3. Forvaltning og administrasjon.</a></li>
+<li class="lvl4"><a href="#3-1-allmenningsstyret">§ 3-1. (allmenningsstyret)</a></li>
+<li class="lvl4"><a href="#3-2-allmenningsstyrets-oppgaver-og-myndighet">§ 3-2. (allmenningsstyrets oppgaver og myndighet)</a></li>
+<li class="lvl4"><a href="#3-3-fullmakt">§ 3-3. (fullmakt)</a></li>
+<li class="lvl4"><a href="#3-4-fellesstyre">§ 3-4. (fellesstyre)</a></li>
+<li class="lvl4"><a href="#3-5-allmenningsbestyrer">§ 3-5. (allmenningsbestyrer)</a></li>
+<li class="lvl4"><a href="#3-6-skogbruksplan">§ 3-6. (skogbruksplan)</a></li>
+<li class="lvl4"><a href="#3-7-bruksregler">§ 3-7. (bruksregler)</a></li>
+<li class="lvl4"><a href="#3-8-utarbeidelse-og-godkjennelse-av-bruksregler">§ 3-8. (utarbeidelse og godkjennelse av bruksregler)</a></li>
+<li class="lvl4"><a href="#3-9-kunngjring-ikrafttredelse-og-endring-av-bruksregler">§ 3-9. (kunngjøring, ikrafttredelse og endring av bruksregler)</a></li>
+<li class="lvl4"><a href="#3-10-allmenningskasse-regnskap">§ 3-10. (allmenningskasse, regnskap)</a></li>
+<li class="lvl4"><a href="#3-11-revisjon">§ 3-11. (revisjon)</a></li>
+<li class="lvl4"><a href="#3-12-disponering-av-overskudd">§ 3-12. (disponering av overskudd)</a></li>
+<li class="lvl4"><a href="#3-13-arsmte">§ 3-13. (årsmøte)</a></li>
+<li class="lvl4"><a href="#3-14-arsmtets-saker-og-myndighet">§ 3-14. (årsmøtets saker og myndighet)</a></li>
+<li class="lvl4"><a href="#3-15-revisjonsutvalg">§ 3-15. (revisjonsutvalg)</a></li>
+<li class="lvl2"><a href="#kapittel-4-valg-av-allmenningsstyre">Kapittel 4. Valg av allmenningsstyre.</a></li>
+<li class="lvl4"><a href="#4-1-alminnelige-regler-om-stemmerett">§ 4-1. (alminnelige regler om stemmerett)</a></li>
+<li class="lvl4"><a href="#4-2-stemmerettens-innhold-stemmegivning-og-fullmakt-til-a-avgi-stemme">§ 4-2. (stemmerettens innhold, stemmegivning og fullmakt til å avgi stemme)</a></li>
+<li class="lvl4"><a href="#4-3-valgbarhet">§ 4-3. (valgbarhet)</a></li>
+<li class="lvl4"><a href="#4-4-bortfall-av-valgbarhet-i-valgperioden-innkalling-av-varamedlem">§ 4-4. (bortfall av valgbarhet i valgperioden, innkalling av varamedlem)</a></li>
+<li class="lvl4"><a href="#4-5-tidspunkt-for-valget-antall-som-skal-velges-funksjonstid">§ 4-5. (tidspunkt for valget, antall som skal velges, funksjonstid)</a></li>
+<li class="lvl4"><a href="#4-6-plikt-til-a-motta-valg-fritak">§ 4-6. (plikt til å motta valg, fritak)</a></li>
+<li class="lvl4"><a href="#4-7-valgkomite-forslag-pa-styremedlemmer-og-varamedlemmer-motforslag">§ 4-7. (valgkomité, forslag på styremedlemmer og varamedlemmer, motforslag)</a></li>
+<li class="lvl4"><a href="#4-8-manntall">§ 4-8. (manntall)</a></li>
+<li class="lvl4"><a href="#4-9-klage-over-manntallet">§ 4-9. (klage over manntallet)</a></li>
+<li class="lvl4"><a href="#4-10-gjennomfring-av-valget">§ 4-10. (gjennomføring av valget)</a></li>
+<li class="lvl4"><a href="#4-11-protokollfring">§ 4-11. (protokollføring)</a></li>
+<li class="lvl4"><a href="#4-12-omkostningene-ved-valget">§ 4-12. (omkostningene ved valget)</a></li>
+<li class="lvl2"><a href="#kapittel-5-virkesrett">Kapittel 5. Virkesrett.</a></li>
+<li class="lvl4"><a href="#5-1-virkesrett">§ 5-1. (virkesrett)</a></li>
+<li class="lvl4"><a href="#5-2-tildeling-og-utvisning-ved-enkeltpersondrift">§ 5-2. (tildeling og utvisning ved enkeltpersondrift)</a></li>
+<li class="lvl4"><a href="#5-3-avgifter">§ 5-3. (avgifter)</a></li>
+<li class="lvl4"><a href="#5-4-andre-driftsformer">§ 5-4. (andre driftsformer)</a></li>
+<li class="lvl4"><a href="#5-5-tilskudd-ved-bruk-av-trebesparende-materialer">§ 5-5. (tilskudd ved bruk av trebesparende materialer)</a></li>
+<li class="lvl4"><a href="#5-6-bruk-og-behandling-av-mottatt-virke-anvendelse-av-ytelser-fra-allmenningen">§ 5-6. (bruk og behandling av mottatt virke, anvendelse av ytelser fra allmenningen)</a></li>
+<li class="lvl4"><a href="#5-7-omgjring-av-tildeling-tilbakelevering-erstatning">§ 5-7. (omgjøring av tildeling, tilbakelevering, erstatning)</a></li>
+<li class="lvl4"><a href="#5-8-gjenoppfring-og-utbedring-av-bygninger-etter-brann-eller-annen-skade-forholdet-til-forsikring">§ 5-8. (gjenoppføring og utbedring av bygninger etter brann eller annen skade – forholdet til forsikring)</a></li>
+<li class="lvl4"><a href="#5-9-bygninger-som-ikke-tjener-noe-aktuelt-jordbruksmessig-behov">§ 5-9. (bygninger som ikke tjener noe aktuelt jordbruksmessig behov)</a></li>
+<li class="lvl4"><a href="#5-10-fderadsbygninger">§ 5-10. (føderådsbygninger)</a></li>
+<li class="lvl4"><a href="#5-11-driftsbygninger-for-utvidet-produksjon">§ 5-11. (driftsbygninger for utvidet produksjon)</a></li>
+<li class="lvl2"><a href="#kapittel-6-beite-seter-og-dyrkingsjord">Kapittel 6. Beite, seter og dyrkingsjord.</a></li>
+<li class="lvl4"><a href="#6-1-beiterett">§ 6-1. (beiterett)</a></li>
+<li class="lvl4"><a href="#6-2-disponering-av-ledig-beite">§ 6-2. (disponering av ledig beite)</a></li>
+<li class="lvl4"><a href="#6-3-beiteordning">§ 6-3. (beiteordning)</a></li>
+<li class="lvl4"><a href="#6-4-seter">§ 6-4. (seter)</a></li>
+<li class="lvl4"><a href="#6-5-srbestemmelser-om-fellesseter">§ 6-5. (særbestemmelser om fellesseter)</a></li>
+<li class="lvl4"><a href="#6-6-bortfall-av-utvist-rett">§ 6-6. (bortfall av utvist rett)</a></li>
+<li class="lvl4"><a href="#6-7-bortfall-av-opptatt-seter">§ 6-7. (bortfall av opptatt seter)</a></li>
+<li class="lvl4"><a href="#6-8-rett-til-seterhus-etter-bortfall-av-opptatt-seter">§ 6-8. (rett til seterhus etter bortfall av opptatt seter)</a></li>
+<li class="lvl4"><a href="#6-9-overfring-av-rett-til-seter">§ 6-9. (overføring av rett til seter)</a></li>
+<li class="lvl4"><a href="#6-10-dyrkingsjord-og-kulturbeite">§ 6-10. (dyrkingsjord og kulturbeite)</a></li>
+<li class="lvl4"><a href="#6-11-skjnn">§ 6-11. (skjønn)</a></li>
+<li class="lvl2"><a href="#kapittel-7-jakt-og-fangst">Kapittel 7. Jakt og fangst.</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-jakt-og-fangst">§ 7-1. (rett til jakt og fangst)</a></li>
+<li class="lvl4"><a href="#7-2-utvidet-adgang-til-jakt-og-fangst">§ 7-2. (utvidet adgang til jakt og fangst)</a></li>
+<li class="lvl4"><a href="#7-3-opphevet">§ 7-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-4-driftsavtale">§ 7-4. (driftsavtale)</a></li>
+<li class="lvl4"><a href="#7-5-bortleie">§ 7-5. (bortleie)</a></li>
+<li class="lvl4"><a href="#7-6-nrmere-regler-om-forvaltning-mv">§ 7-6. (nærmere regler om forvaltning m.v.)</a></li>
+<li class="lvl4"><a href="#7-7-jaktkort">§ 7-7. (jaktkort)</a></li>
+<li class="lvl2"><a href="#kapittel-8-fiske">Kapittel 8. Fiske.</a></li>
+<li class="lvl4"><a href="#8-1-fiskerett">§ 8-1. (fiskerett)</a></li>
+<li class="lvl4"><a href="#8-2-hva-fiskeretten-omfatter">§ 8-2. (hva fiskeretten omfatter)</a></li>
+<li class="lvl4"><a href="#8-3-utvidet-adgang-til-fiske">§ 8-3. (utvidet adgang til fiske)</a></li>
+<li class="lvl4"><a href="#8-4-felles-fiskeomrade">§ 8-4. (felles fiskeområde)</a></li>
+<li class="lvl4"><a href="#8-5-driftsavtale">§ 8-5. (driftsavtale)</a></li>
+<li class="lvl4"><a href="#8-6-bortleie">§ 8-6. (bortleie)</a></li>
+<li class="lvl4"><a href="#8-7-nrmere-regler-om-forvaltning-mv">§ 8-7. (nærmere regler om forvaltning m.v.)</a></li>
+<li class="lvl4"><a href="#8-8-fiskekort">§ 8-8. (fiskekort)</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser.</a></li>
+<li class="lvl4"><a href="#9-1-forskrifter">§ 9-1. (forskrifter)</a></li>
+<li class="lvl4"><a href="#9-2-departementets-godkjennelsesmyndighet-og-avgjrelser">§ 9-2. (departementets godkjennelsesmyndighet og avgjørelser)</a></li>
+<li class="lvl4"><a href="#9-3-straff-og-patale">§ 9-3. (straff og påtale)</a></li>
+<li class="lvl4"><a href="#9-4-ikrafttredelse">§ 9-4. (ikrafttredelse)</a></li>
+<li class="lvl4"><a href="#9-5-overgangsregler">§ 9-5. (overgangsregler)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-102.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-06-19-59.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om bygdeallmenninger</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1992-06-19-59.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1992-06-19-59 <code>lov/1992-06-19-59</code></td></tr>
+<tr><th>Korttittel</th><td>Bygdeallmenningsloven – bgdalml</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Skogbruk</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1993</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-102 <code>lov/2025-06-20-102</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1992-06-19-59" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser.</a></li>
+<li class="lvl4"><a href="#1-1-bygdeallmenning">§ 1-1. (bygdeallmenning)</a></li>
+<li class="lvl4"><a href="#1-2-salg-og-bortfeste">§ 1-2. (salg og bortfeste)</a></li>
+<li class="lvl4"><a href="#1-3-pantsettelse">§ 1-3. (pantsettelse)</a></li>
+<li class="lvl4"><a href="#1-4-jordskifte">§ 1-4. (jordskifte)</a></li>
+<li class="lvl4"><a href="#1-5-sammenslaing">§ 1-5. (sammenslåing)</a></li>
+<li class="lvl4"><a href="#1-6-ervervet-eiendom">§ 1-6. (ervervet eiendom)</a></li>
+<li class="lvl4"><a href="#1-7-forkynnelser-mv-i-allmenningssaker">§ 1-7. (forkynnelser m.v. i allmenningssaker)</a></li>
+<li class="lvl4"><a href="#1-8-forliksklage-og-stevning-anvendelse-av-rettsmidler">§ 1-8. (forliksklage og stevning, anvendelse av rettsmidler)</a></li>
+<li class="lvl2"><a href="#kapittel-2-bruksrett-i-bygdeallmenning">Kapittel 2. Bruksrett i bygdeallmenning.</a></li>
+<li class="lvl4"><a href="#2-1-vilkar-for-bruksrett">§ 2-1. (vilkår for bruksrett)</a></li>
+<li class="lvl4"><a href="#2-2-bruksrettens-innhold">§ 2-2. (bruksrettens innhold)</a></li>
+<li class="lvl4"><a href="#2-3-salg-fraskrivelse-avlsning">§ 2-3. (salg, fraskrivelse, avløsning)</a></li>
+<li class="lvl4"><a href="#2-4-forpaktning">§ 2-4. (forpaktning)</a></li>
+<li class="lvl4"><a href="#2-5-bruksrettsregister-eierskifte-mv">§ 2-5. (bruksrettsregister, eierskifte m.v.)</a></li>
+<li class="lvl4"><a href="#2-6-bortfall-av-bruksrett">§ 2-6. (bortfall av bruksrett)</a></li>
+<li class="lvl4"><a href="#2-7-betaling-for-ytelser">§ 2-7. (betaling for ytelser)</a></li>
+<li class="lvl4"><a href="#2-8-begrensninger-i-utvelsen-av-bruksrettene">§ 2-8. (begrensninger i utøvelsen av bruksrettene)</a></li>
+<li class="lvl2"><a href="#kapittel-3-forvaltning-og-administrasjon">Kapittel 3. Forvaltning og administrasjon.</a></li>
+<li class="lvl4"><a href="#3-1-allmenningsstyret">§ 3-1. (allmenningsstyret)</a></li>
+<li class="lvl4"><a href="#3-2-allmenningsstyrets-oppgaver-og-myndighet">§ 3-2. (allmenningsstyrets oppgaver og myndighet)</a></li>
+<li class="lvl4"><a href="#3-3-fullmakt">§ 3-3. (fullmakt)</a></li>
+<li class="lvl4"><a href="#3-4-fellesstyre">§ 3-4. (fellesstyre)</a></li>
+<li class="lvl4"><a href="#3-5-allmenningsbestyrer">§ 3-5. (allmenningsbestyrer)</a></li>
+<li class="lvl4"><a href="#3-6-skogbruksplan">§ 3-6. (skogbruksplan)</a></li>
+<li class="lvl4"><a href="#3-7-bruksregler">§ 3-7. (bruksregler)</a></li>
+<li class="lvl4"><a href="#3-8-utarbeidelse-og-godkjennelse-av-bruksregler">§ 3-8. (utarbeidelse og godkjennelse av bruksregler)</a></li>
+<li class="lvl4"><a href="#3-9-kunngjring-ikrafttredelse-og-endring-av-bruksregler">§ 3-9. (kunngjøring, ikrafttredelse og endring av bruksregler)</a></li>
+<li class="lvl4"><a href="#3-10-allmenningskasse-regnskap">§ 3-10. (allmenningskasse, regnskap)</a></li>
+<li class="lvl4"><a href="#3-11-revisjon">§ 3-11. (revisjon)</a></li>
+<li class="lvl4"><a href="#3-12-disponering-av-overskudd">§ 3-12. (disponering av overskudd)</a></li>
+<li class="lvl4"><a href="#3-13-arsmte">§ 3-13. (årsmøte)</a></li>
+<li class="lvl4"><a href="#3-14-arsmtets-saker-og-myndighet">§ 3-14. (årsmøtets saker og myndighet)</a></li>
+<li class="lvl4"><a href="#3-15-revisjonsutvalg">§ 3-15. (revisjonsutvalg)</a></li>
+<li class="lvl2"><a href="#kapittel-4-valg-av-allmenningsstyre">Kapittel 4. Valg av allmenningsstyre.</a></li>
+<li class="lvl4"><a href="#4-1-alminnelige-regler-om-stemmerett">§ 4-1. (alminnelige regler om stemmerett)</a></li>
+<li class="lvl4"><a href="#4-2-stemmerettens-innhold-stemmegivning-og-fullmakt-til-a-avgi-stemme">§ 4-2. (stemmerettens innhold, stemmegivning og fullmakt til å avgi stemme)</a></li>
+<li class="lvl4"><a href="#4-3-valgbarhet">§ 4-3. (valgbarhet)</a></li>
+<li class="lvl4"><a href="#4-4-bortfall-av-valgbarhet-i-valgperioden-innkalling-av-varamedlem">§ 4-4. (bortfall av valgbarhet i valgperioden, innkalling av varamedlem)</a></li>
+<li class="lvl4"><a href="#4-5-tidspunkt-for-valget-antall-som-skal-velges-funksjonstid">§ 4-5. (tidspunkt for valget, antall som skal velges, funksjonstid)</a></li>
+<li class="lvl4"><a href="#4-6-plikt-til-a-motta-valg-fritak">§ 4-6. (plikt til å motta valg, fritak)</a></li>
+<li class="lvl4"><a href="#4-7-valgkomite-forslag-pa-styremedlemmer-og-varamedlemmer-motforslag">§ 4-7. (valgkomité, forslag på styremedlemmer og varamedlemmer, motforslag)</a></li>
+<li class="lvl4"><a href="#4-8-manntall">§ 4-8. (manntall)</a></li>
+<li class="lvl4"><a href="#4-9-klage-over-manntallet">§ 4-9. (klage over manntallet)</a></li>
+<li class="lvl4"><a href="#4-10-gjennomfring-av-valget">§ 4-10. (gjennomføring av valget)</a></li>
+<li class="lvl4"><a href="#4-11-protokollfring">§ 4-11. (protokollføring)</a></li>
+<li class="lvl4"><a href="#4-12-omkostningene-ved-valget">§ 4-12. (omkostningene ved valget)</a></li>
+<li class="lvl2"><a href="#kapittel-5-virkesrett">Kapittel 5. Virkesrett.</a></li>
+<li class="lvl4"><a href="#5-1-virkesrett">§ 5-1. (virkesrett)</a></li>
+<li class="lvl4"><a href="#5-2-tildeling-og-utvisning-ved-enkeltpersondrift">§ 5-2. (tildeling og utvisning ved enkeltpersondrift)</a></li>
+<li class="lvl4"><a href="#5-3-avgifter">§ 5-3. (avgifter)</a></li>
+<li class="lvl4"><a href="#5-4-andre-driftsformer">§ 5-4. (andre driftsformer)</a></li>
+<li class="lvl4"><a href="#5-5-tilskudd-ved-bruk-av-trebesparende-materialer">§ 5-5. (tilskudd ved bruk av trebesparende materialer)</a></li>
+<li class="lvl4"><a href="#5-6-bruk-og-behandling-av-mottatt-virke-anvendelse-av-ytelser-fra-allmenningen">§ 5-6. (bruk og behandling av mottatt virke, anvendelse av ytelser fra allmenningen)</a></li>
+<li class="lvl4"><a href="#5-7-omgjring-av-tildeling-tilbakelevering-erstatning">§ 5-7. (omgjøring av tildeling, tilbakelevering, erstatning)</a></li>
+<li class="lvl4"><a href="#5-8-gjenoppfring-og-utbedring-av-bygninger-etter-brann-eller-annen-skade-forholdet-til-forsikring">§ 5-8. (gjenoppføring og utbedring av bygninger etter brann eller annen skade – forholdet til forsikring)</a></li>
+<li class="lvl4"><a href="#5-9-bygninger-som-ikke-tjener-noe-aktuelt-jordbruksmessig-behov">§ 5-9. (bygninger som ikke tjener noe aktuelt jordbruksmessig behov)</a></li>
+<li class="lvl4"><a href="#5-10-fderadsbygninger">§ 5-10. (føderådsbygninger)</a></li>
+<li class="lvl4"><a href="#5-11-driftsbygninger-for-utvidet-produksjon">§ 5-11. (driftsbygninger for utvidet produksjon)</a></li>
+<li class="lvl2"><a href="#kapittel-6-beite-seter-og-dyrkingsjord">Kapittel 6. Beite, seter og dyrkingsjord.</a></li>
+<li class="lvl4"><a href="#6-1-beiterett">§ 6-1. (beiterett)</a></li>
+<li class="lvl4"><a href="#6-2-disponering-av-ledig-beite">§ 6-2. (disponering av ledig beite)</a></li>
+<li class="lvl4"><a href="#6-3-beiteordning">§ 6-3. (beiteordning)</a></li>
+<li class="lvl4"><a href="#6-4-seter">§ 6-4. (seter)</a></li>
+<li class="lvl4"><a href="#6-5-srbestemmelser-om-fellesseter">§ 6-5. (særbestemmelser om fellesseter)</a></li>
+<li class="lvl4"><a href="#6-6-bortfall-av-utvist-rett">§ 6-6. (bortfall av utvist rett)</a></li>
+<li class="lvl4"><a href="#6-7-bortfall-av-opptatt-seter">§ 6-7. (bortfall av opptatt seter)</a></li>
+<li class="lvl4"><a href="#6-8-rett-til-seterhus-etter-bortfall-av-opptatt-seter">§ 6-8. (rett til seterhus etter bortfall av opptatt seter)</a></li>
+<li class="lvl4"><a href="#6-9-overfring-av-rett-til-seter">§ 6-9. (overføring av rett til seter)</a></li>
+<li class="lvl4"><a href="#6-10-dyrkingsjord-og-kulturbeite">§ 6-10. (dyrkingsjord og kulturbeite)</a></li>
+<li class="lvl4"><a href="#6-11-skjnn">§ 6-11. (skjønn)</a></li>
+<li class="lvl2"><a href="#kapittel-7-jakt-og-fangst">Kapittel 7. Jakt og fangst.</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-jakt-og-fangst">§ 7-1. (rett til jakt og fangst)</a></li>
+<li class="lvl4"><a href="#7-2-utvidet-adgang-til-jakt-og-fangst">§ 7-2. (utvidet adgang til jakt og fangst)</a></li>
+<li class="lvl4"><a href="#7-3-opphevet">§ 7-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#7-4-driftsavtale">§ 7-4. (driftsavtale)</a></li>
+<li class="lvl4"><a href="#7-5-bortleie">§ 7-5. (bortleie)</a></li>
+<li class="lvl4"><a href="#7-6-nrmere-regler-om-forvaltning-mv">§ 7-6. (nærmere regler om forvaltning m.v.)</a></li>
+<li class="lvl4"><a href="#7-7-jaktkort">§ 7-7. (jaktkort)</a></li>
+<li class="lvl2"><a href="#kapittel-8-fiske">Kapittel 8. Fiske.</a></li>
+<li class="lvl4"><a href="#8-1-fiskerett">§ 8-1. (fiskerett)</a></li>
+<li class="lvl4"><a href="#8-2-hva-fiskeretten-omfatter">§ 8-2. (hva fiskeretten omfatter)</a></li>
+<li class="lvl4"><a href="#8-3-utvidet-adgang-til-fiske">§ 8-3. (utvidet adgang til fiske)</a></li>
+<li class="lvl4"><a href="#8-4-felles-fiskeomrade">§ 8-4. (felles fiskeområde)</a></li>
+<li class="lvl4"><a href="#8-5-driftsavtale">§ 8-5. (driftsavtale)</a></li>
+<li class="lvl4"><a href="#8-6-bortleie">§ 8-6. (bortleie)</a></li>
+<li class="lvl4"><a href="#8-7-nrmere-regler-om-forvaltning-mv">§ 8-7. (nærmere regler om forvaltning m.v.)</a></li>
+<li class="lvl4"><a href="#8-8-fiskekort">§ 8-8. (fiskekort)</a></li>
+<li class="lvl2"><a href="#kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser.</a></li>
+<li class="lvl4"><a href="#9-1-forskrifter">§ 9-1. (forskrifter)</a></li>
+<li class="lvl4"><a href="#9-2-departementets-godkjennelsesmyndighet-og-avgjrelser">§ 9-2. (departementets godkjennelsesmyndighet og avgjørelser)</a></li>
+<li class="lvl4"><a href="#9-3-straff-og-patale">§ 9-3. (straff og påtale)</a></li>
+<li class="lvl4"><a href="#9-4-ikrafttredelse">§ 9-4. (ikrafttredelse)</a></li>
+<li class="lvl4"><a href="#9-5-overgangsregler">§ 9-5. (overgangsregler)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-06-19-59.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1992-06-19-59.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1992-06-19-59.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1992-06-19-59.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1992-06-19-59.html">Observerte kildeutgaver</a> · <a href="../historie/bygdeallmenningsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1992-06-19-59.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1992-06-19-59.html">Observerte kildeutgaver</a> · <a href="../historie/bygdeallmenningsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1992-06-19-59.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-bygdeallmenninger">Lov om bygdeallmenninger</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser.</h2>
 <h4 id="1-1-bygdeallmenning">§ 1-1. (bygdeallmenning)</h4>
 <p>Bygdeallmenning er allmenning hvor eiendomsretten tilligger minst halvparten av de jordbrukseiendommer som fra gammel tid har bruksrett i allmenningen.</p>
@@ -89,7 +322,7 @@ b. Formål som står i forbindelse med driften av allmenningen eller med virksom
 c. Fremme av allmennyttige tiltak innen det bygdelag allmenningen tilligger.
 d. Tomter for oppføring av boliger og fritidshus. Som hovedregel kan slike tomter bare festes bort, og bare i særlige tilfelle selges.</p>
 <p>Når det er truffet vedtak om ekspropriasjon av grunn fra en bygdeallmenning, kan salg foretas uavhengig av begrensningene i annet ledd, for så vidt avståelsen ikke i vesentlig grad medfører innskrenkninger i bruksrettene, eller det gis samtykke fra eierne av de eiendommer hvis tilliggende bruksrett vesentlig innskrenkes.</p>
-<p><em>Endret ved lover 12 mai 1995 nr. 23 (ikr. 1 juli 1995 – endret annet ledd – skal være annet ledd a), 5 jan 1996 nr. 2 (ikr. 3 mars 1996).</em></p>
+<p class="note">Endret ved lover 12 mai 1995 nr. 23 (ikr. 1 juli 1995 – endret annet ledd – skal være annet ledd a), 5 jan 1996 nr. 2 (ikr. 3 mars 1996).</p>
 <h4 id="1-3-pantsettelse">§ 1-3. (pantsettelse)</h4>
 <p>Bygdeallmenningsgrunn kan ikke pantsettes.</p>
 <p>Sagbruk og andre faste anlegg som en bygdeallmenning eier eller er medeier i, kan likevel pantsettes. Ved pantsettelsen kan det medtas en passende tomt.</p>
@@ -98,24 +331,24 @@ d. Tomter for oppføring av boliger og fritidshus. Som hovedregel kan slike tomt
 <p>Jordskifteretten kan ordne beiteforhold i bygdeallmenning dersom styret for allmenningen først har gjennomført beiteordning der, og innehaver av beiteretten har krevet sak inn for jordskifteretten innen seks måneder.</p>
 <p>Jordskifteretten kan fastsette grenser mellom statsallmenning og bygdeallmenning, mellom bygdeallmenninger og mellom bygdeallmenning og annen tilstøtende eiendom. Jordskiftelova § 4-2 gjelder tilsvarende for fastsetting av grensene.</p>
 <p>For øvrig får jordskiftelovas bestemmelser ikke anvendelse på bygdeallmenninger.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ).</p>
 <h4 id="1-5-sammenslaing">§ 1-5. (sammenslåing)</h4>
 <p>Eierne av jordbrukseiendommer med tilliggende bruksrett kan ved avstemning beslutte å slå flere bygdeallmenninger sammen. For sammenslåing kreves to tredjedels flertall av de avgitte stemmer i hver av de allmenningene det gjelder. Bestemmelsene i §§ 4-1 og 4-2 gjelder tilsvarende.</p>
 <p>Før avstemningen må det foreligge en avtale mellom allmenningene om de viktigste spørsmål i forbindelse med sammenslåingen, og et av departementet godkjent utkast til bruksregler for den sammenslåtte allmenningen. Avtalen og utkastet til bruksregler må være gjort kjent for de bruksberettigede senest fire uker før avstemningen holdes.</p>
 <h4 id="1-6-ervervet-eiendom">§ 1-6. (ervervet eiendom)</h4>
 <p>Ervervet eiendom kan innlemmes i bygdeallmenning ved å la tinglyse en erklæring undertegnet av allmenningsstyret om at eiendommen for fremtiden skal være undergitt de bestemmelser som gjelder for bygdeallmenninger.</p>
 <p>Ervervet eiendom som ikke innlemmes i allmenningen forvaltes etter samme regler som denne, men anses for øvrig ikke som allmenningsgrunn. Med hensyn til skogbruksstyresmakt og skogfond gjelder for slike eiendommer samme regler som for allmenningen.</p>
-<p><em>Endret ved lov 27 mai 2005 nr. 31 (ikr. 1 jan 2006 iflg. res. 27 mai 2005 nr. 487 ).</em></p>
+<p class="note">Endret ved lov 27 mai 2005 nr. 31 (ikr. 1 jan 2006 iflg. res. 27 mai 2005 nr. 487 ).</p>
 <h4 id="1-7-forkynnelser-mv-i-allmenningssaker">§ 1-7. (forkynnelser m.v. i allmenningssaker) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forkynnelser for et større eller et ubestemt antall bruksberettigede i en bygdeallmenning kan foretas ved kunngjøring i Norsk Lysingsblad, uten at de enkelte bruksberettigede navngis. I tillegg skal kunngjøring foretas lokalt på hensiktsmessig måte med henvisning til fullstendig kunngjøring i Norsk Lysingsblad.</p>
 <p>Det må uttrykkelig angis at kunngjøringen trer istedenfor ordinær forkynnelse, og at forkynnelse ikke blir foretatt på annen måte. Medfører forkynnelsen at en frist begynner å løpe, skal også tidspunktet for fristens utløp angis. Fristen regnes fra dato for første kunngjøring i Norsk Lysingsblad, med tillegg av syv dager.</p>
 <p>Bestemmelsene i denne paragraf gjelder tilsvarende for varsel om bevisopptak etter <a href="lov-2005-06-17-90.html">tvisteloven</a> § 27-3 annet ledd første punktum og for øvrig for andre underretninger til parter i forbindelse med rettergang.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h4 id="1-8-forliksklage-og-stevning-anvendelse-av-rettsmidler">§ 1-8. (forliksklage og stevning, anvendelse av rettsmidler) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-1-8.html" title="Endringshistorikk for § 1-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når et større eller et ubestemt antall bruksberettigede i en bygdeallmenning skal innklages for forliksrådet eller stevnes for retten, kan forliksklagen eller stevningen lyde på de bruksberettigede i allmenningen uten angivelse av navn.</p>
 <p>Ved forkynnelse av forliksklagen eller stevningen gjelder § 1-7 tilsvarende. Fristen for tilsvar til stevning skal i dette tilfelle ikke settes kortere enn fire uker fra kunngjøringen, medregnet tillegget på syv dager i § 1-7 annet ledd.</p>
 <p>Ved anvendelse av rettsmidler (anke, oppfriskning, gjenåpning) mot bruksberettigede som nevnt i første ledd gjelder bestemmelsene i denne paragraf tilsvarende, slik at de ordinære rettsmiddelfrister alltid forlenges med syv dager, jfr. § 1-7 annet ledd.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h2 id="kapittel-2-bruksrett-i-bygdeallmenning">Kapittel 2. Bruksrett i bygdeallmenning.</h2>
 <h4 id="2-1-vilkar-for-bruksrett">§ 2-1. (vilkår for bruksrett)</h4>
 <p>Bruksrett i bygdeallmenning ligger til jordbrukseiendommer innen det bygdelag som fra gammel tid har utøvd bruksrett i allmenningen.</p>
@@ -128,12 +361,12 @@ d. Tomter for oppføring av boliger og fritidshus. Som hovedregel kan slike tomt
 <h4 id="2-4-forpaktning">§ 2-4. (forpaktning) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved forpaktning av eiendom med tilliggende bruksrett, skal det fremgå av en forpaktningsavtale om forpakteren helt eller delvis skal utøve bruksrett i allmenningen. Bruksretten kan ikke utøves av forpakteren hvis ikke forpaktningsavtalen har minst to års varighet.</p>
 <p>Leieforhold som ikke er forpaktning etter lov av 25. juni 1965 nr. 1 om forpakting, gir ikke leietakeren noen bruksrett i allmenningen.</p>
-<p><em>Endret ved lov 21 des 2001 nr. 117 (ikr. 1 jan 2002 iflg. res. 21 des 2001 nr. 1475 ).</em></p>
+<p class="note">Endret ved lov 21 des 2001 nr. 117 (ikr. 1 jan 2002 iflg. res. 21 des 2001 nr. 1475 ).</p>
 <h4 id="2-5-bruksrettsregister-eierskifte-mv">§ 2-5. (bruksrettsregister, eierskifte m.v.) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det skal for hver bygdeallmenning føres et register over eiendommer med tilliggende bruksrett. Registeret skal inneholde opplysninger om dyrket areal, om foretatte tildelinger av ytelser fra allmenningen og hvem som til enhver tid utøver bruksretten.</p>
 <p>Bruksrettsregisteret er grunnlaget for manntallet ved valg av allmenningsstyre, jfr. kapittel 4 .</p>
 <p>Ved eierskifte og ved andre begivenheter som medfører endringer med hensyn til utøvelse av bruksretten eller stemmerett ved allmenningsstyrevalg (forpaktning, fraflytting, avvikling eller gjenopptagelse av jordbruksdrift, inngåelse eller oppløsning av ekteskap, dødsfall m.v.), skal det gis underretning til allmenningsstyret.</p>
-<p><em>Endret ved lov 21 des 2001 nr. 117 (ikr. 1 jan 2002 iflg. res. 21 des 2001 nr. 1475 ).</em></p>
+<p class="note">Endret ved lov 21 des 2001 nr. 117 (ikr. 1 jan 2002 iflg. res. 21 des 2001 nr. 1475 ).</p>
 <h4 id="2-6-bortfall-av-bruksrett">§ 2-6. (bortfall av bruksrett)</h4>
 <p>Bruksretten faller bort:</p>
 <ol>
@@ -208,13 +441,13 @@ n. Andre forhold som det anses hensiktsmessig å regulere ved bestemmelser i all
 <h4 id="3-10-allmenningskasse-regnskap">§ 3-10. (allmenningskasse, regnskap)</h4>
 <p>For hver bygdeallmenning skal det være en allmenningskasse.</p>
 <p>Allmenningsstyret skal føre regnskap over allmenningens økonomiske virksomhet. For allmenninger som driver næringsvirksomhet gjelder <a href="lov-1998-07-17-56.html">regnskapsloven</a> . For andre allmenninger fastsetter departementet hvilke regler som skal gjelde for regnskapsførselen. For alle bygdeallmenningene skal det i noter til årsregnskapet gis opplysninger om avsatte midler til skoginvesteringer, med angivelse av hva som er brukt og hva midlene er brukt til.</p>
-<p><em>Endret ved lov 17 juli 1998 nr. 56 (ikr. 1 jan 1999).</em></p>
+<p class="note">Endret ved lov 17 juli 1998 nr. 56 (ikr. 1 jan 1999).</p>
 <h4 id="3-11-revisjon">§ 3-11. (revisjon)</h4>
 <p>Årsmøtet velger revisor, som skal være registrert eller statsautorisert i henhold til reglene i <a href="lov-2020-11-20-128.html">revisorloven</a> .</p>
 <p>I tillegg til revisor som nevnt i første ledd kan årsmøtet velge en revisor blant de eiendomsberettigede og bruksberettigede. Denne skal være skogbrukskyndig.</p>
 <p>Revisorene som velges må ikke stå i noe avhengighetsforhold til allmenningsstyret eller noen av dets medlemmer.</p>
 <p>Departementet kan etter forslag fra årsmøtet godkjenne andre revisjonsordninger.</p>
-<p><em>Endret ved lov 15 jan 1999 nr. 2 (ikr. 1 aug 1999 iflg. vedtak 25 juni 1999 nr. 711 ).</em></p>
+<p class="note">Endret ved lov 15 jan 1999 nr. 2 (ikr. 1 aug 1999 iflg. vedtak 25 juni 1999 nr. 711 ).</p>
 <h4 id="3-12-disponering-av-overskudd">§ 3-12. (disponering av overskudd)</h4>
 <p>Allmenningskassens overskudd skal benyttes til beste for allmenningen og de eiendomsberettigede og bruksberettigede, etter allmenningsstyrets nærmere bestemmelse og etter følgende retningslinjer:</p>
 <p>a. Det avsettes først tilstrekkelig med midler til sikring og forbedring av allmenningen, med sikte på en best mulig utnyttelse av produksjonsmulighetene og dekning av de eiendomsberettigedes og bruksberettigedes fremtidige behov – herunder ved innkjøp av eiendom hvor dette kan være aktuelt.
@@ -260,7 +493,7 @@ g. Det kan med departementets samtykke foretas utdeling av kontantutbytte.</p>
 <p>Stemmegivningen kan bare skje skriftlig på stemmesedler som utleveres under årsmøtet. Stemmegivning ved fullmakt kan bare skje i de tilfelle som er nevnt i første ledd nr. 2 og 3.</p>
 <p>For person som er mindreårig eller fratatt rettslig handleevne, utøves stemmeretten av vergen.</p>
 <p>Ingen kan avgi mer enn to stemmer. I tilfelle hvor både vergen og person som nevnt i tredje ledd har stemmerett, kan likevel vergen stemme både for seg selv og personen han eller hun er verge for.</p>
-<p><em>Endret ved lover 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ), 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 .</em></p>
+<p class="note">Endret ved lover 29 juni 2007 nr. 81 (ikr. 1 jan 2008 iflg. res. 23 nov 2007 nr. 1287 ), 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 .</p>
 <h4 id="4-3-valgbarhet">§ 4-3. (valgbarhet)</h4>
 <p>Valgbare som medlemmer og varamedlemmer av allmenningsstyret er myndige personer som har stemmerett etter §§ 4-1 og 4-2 , eller som er sameiere i eiendom med tilliggende full bruksrett i allmenningen, med følgende begrensninger:</p>
 <ol>
@@ -303,11 +536,11 @@ g. Det kan med departementets samtykke foretas utdeling av kontantutbytte.</p>
 <h4 id="5-2-tildeling-og-utvisning-ved-enkeltpersondrift">§ 5-2. (tildeling og utvisning ved enkeltpersondrift)</h4>
 <p>Når de bruksberettigede selv er berettiget til å drive ut virke i allmenningen (enkeltpersondrift), kan avvirkning bare foretas etter tildeling fra allmenningsstyret og utvisning av allmenningsbestyreren.</p>
 <p>Virkningen av en gitt utvisning faller bort ett år etter at den ble gjort kjent for den bruksberettigede, hvis ikke tidsfristen på grunn av driftsforholdene eller av andre særlige grunner blir forlenget til to år. Etter utløpet av fristen kan det utviste virket ikke felles uten at ny utvisning er gitt. Felt virke som befinner seg i allmenningen eller på opplagsplass som disponeres av allmenningen, og som den bruksberettigede ikke har fjernet innen en gitt frist, kan allmenningsstyret forføye over. Den bruksberettigede kan ikke som følge av slik forføyning kreve betaling for hogst og fremdrift, og heller ikke refusjon av betalte avgifter, jfr. § 5-3 .</p>
-<p><em>Endret ved lov 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ).</em></p>
+<p class="note">Endret ved lov 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ).</p>
 <h4 id="5-3-avgifter">§ 5-3. (avgifter)</h4>
 <p>Når virkesrett utøves ved utvisning etter § 5-2 , kan de bruksberettigede pålegges å betale avgift i forhold til tildelt kvantum. Avgiften skal dekke skogfond etter <a href="lov-2005-05-27-31.html">skogbrukslova</a> kapittel 4 , samt allmenningsstyrets utgifter i forbindelse med utvisningen og til nødvendig skogkultur for så vidt det ikke dekkes av skogfondmidler og offentlige tilskudd.</p>
 <p>I den utstrekning det ikke på annen måte kan skaffes midler til nødvendige investeringer, kan de bruksberettigede som får utvist virke, også pålegges å betale en tilleggsavgift til slike investeringer i forhold til tildelt kvantum.</p>
-<p><em>Endret ved lov 27 mai 2005 nr. 31 (ikr. 1 jan 2006 iflg. res. 27 mai 2005 nr. 487 ).</em></p>
+<p class="note">Endret ved lov 27 mai 2005 nr. 31 (ikr. 1 jan 2006 iflg. res. 27 mai 2005 nr. 487 ).</p>
 <h4 id="5-4-andre-driftsformer">§ 5-4. (andre driftsformer)</h4>
 <p>Allmenningsstyret kan beslutte at virkesrett i bygdeallmenning skal utøves på annen måte enn etter § 5-2 . Før allmenningsstyret treffer beslutning om dette, må de bruksberettigede ved avstemning ha sluttet seg til ordningen med to tredjedels flertall av de avgitte stemmer. Det kan således bestemmes at virket skal drives ut og eventuelt foredles for allmenningens regning (fellesdrift), mot at de bruksberettigede gis adgang til å kjøpe det virket de tilkommer med et prisavslag som tilsvarer rotverdien (virkesrabatt).</p>
 <p>Etter avstemning som nevnt i første ledd, kan allmenningsstyret også treffe beslutning om andre driftsformer når det påses at de bruksberettigede gis adgang til kjøp av virke på vilkår som nevnt.</p>
@@ -328,7 +561,7 @@ g. Det kan med departementets samtykke foretas utdeling av kontantutbytte.</p>
 <h4 id="5-8-gjenoppfring-og-utbedring-av-bygninger-etter-brann-eller-annen-skade-forholdet-til-forsikring">§ 5-8. (gjenoppføring og utbedring av bygninger etter brann eller annen skade – forholdet til forsikring) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-5-8.html" title="Endringshistorikk for § 5-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det gis ikke utvisning, virkesrabatt eller tilskudd til bruk av trebesparende materialer ved gjenoppføring eller utbedring av skadde bygninger som har vært fullverdiforsikret. For bygninger som har vært forsikret etter en lavere verdi, gjelder det samme for den del av gjenoppføringen eller utbedringen som dekkes av forsikringssummen.</p>
 <p>I bruksregler etter § 3-7 kan det bestemmes at virkesretten ved gjenoppføring og utbedring skal være videre enn nevnt i første ledd, men også at bestemmelsene i første ledd skal gjelde i den utstrekning bygningene kunne ha vært forsikret.</p>
-<p><em>Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</em></p>
+<p class="note">Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</p>
 <h4 id="5-9-bygninger-som-ikke-tjener-noe-aktuelt-jordbruksmessig-behov">§ 5-9. (bygninger som ikke tjener noe aktuelt jordbruksmessig behov)</h4>
 <p>For nedlagte seterhus og andre bygninger som ikke lenger tjener noe aktuelt jordbruksmessig behov, kan virkesretten ikke nyttes.</p>
 <p>Allmenningsstyret kan likevel samtykke i at virkesrett utøves til vedlikehold når vernehensyn, mulighetene for at bygningene senere vil kunne tjene et aktuelt jordbruksmessig behov eller andre særlige hensyn tilsier det. Det er et vilkår for slikt samtykke at vedkommende eiendom oppfyller vilkårene for bruksrett etter § 2-1 .</p>
@@ -346,7 +579,7 @@ g. Det kan med departementets samtykke foretas utdeling av kontantutbytte.</p>
 <h4 id="6-3-beiteordning">§ 6-3. (beiteordning)</h4>
 <p>Nærmere regler om ordning av beitebruken fastsettes i bruksreglene for den enkelte allmenning, jfr. § 3-7 . Reglene kan blant annet gå ut på inndeling av beitet i felt, fastsettelse av beitetider, begrensninger i antall beitedyr av forskjellig slag innen de enkelte beitefelt og organisert tilsyn og sanking.</p>
 <p>Beiteordning som er fastsatt av jordskifteretten etter § 1-4 annet ledd, skal allmenningsstyret besørge inntatt i bruksreglene for allmenningen. Slik godkjennelse fra departementet som nevnt i § 3-8 første ledd første punktum er i dette tilfellet ikke nødvendig.</p>
-<p><em>Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2013 nr. 100 (ikr. 1 jan 2016 iflg. res. 21 juni 2013 nr. 736 ).</p>
 <h4 id="6-4-seter">§ 6-4. (seter)</h4>
 <p>Eiendom med tilliggende bruksrett i bygdeallmenning, jfr. § 2-1 , har rett til å få utvist seter i allmenningen – enten alene eller sammen med andre (fellesseter) – når det godtgjøres at seter er nødvendig for driften av eiendommen.</p>
 <p>Utvisning etter første ledd foretas av allmenningsstyret. Det er et vilkår at utvisning kan skje uten vesentlig skade for skogen eller for de øvrige bruksberettigede, og at utvisning heller ikke vil være til hinder for en hensiktsmessig inndeling og utnyttelse av beitet.</p>
@@ -366,7 +599,7 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <p>Utvidelse av bebyggelsen, salg og bortleie kan bare finne sted med samtykke fra allmenningsstyret. Ved salg av seterhus til fritidsformål gjelder første ledd siste punktum tilsvarende.</p>
 <p>De nærmere vilkår i festekontrakten avtales mellom eieren og allmenningsstyret. Det kan gis nærmere bestemmelser i bruksreglene for den enkelte allmenning, jfr. § 3-7 , om innholdet i slike avtaler, og om hvordan det skal forholdes med bygninger m.v. når rett er falt bort etter § 6-6 og § 6-7 bokstav c.</p>
 <p>Hvis eieren ikke benytter sin rett etter denne paragraf eller det ikke oppnås enighet om festekontrakt, får bestemmelsene i lov 20. desember 1996 nr. 106 om tomtefeste kapittel VII om avvikling av festeforhold tilsvarende anvendelse.</p>
-<p><em>Endret ved lov 20 des 1996 nr. 106 (ikr. 1 jan 2002 iflg. res. 8 juni 2001 nr. 571 ).</em></p>
+<p class="note">Endret ved lov 20 des 1996 nr. 106 (ikr. 1 jan 2002 iflg. res. 8 juni 2001 nr. 571 ).</p>
 <h4 id="6-9-overfring-av-rett-til-seter">§ 6-9. (overføring av rett til seter)</h4>
 <p>I forbindelse med salg av seterhus m.v. til eier av annen eiendom med tilliggende bruksrett, kan allmenningsstyret overføre retten til seteren til denne eiendommen når betingelsene etter § 6-4 første ledd foreligger.</p>
 <p>Bestemmelsene i første ledd gjelder også rett som er falt bort etter § 6-6 og § 6-7 , hvis ikke annet er bestemt i bruksregler for den enkelte allmenning, jfr. § 3-7 . Ved bortfall etter § 6-6 kan allmenningsstyret gi eieren av bygninger m.v. pålegg om å overføre disse i forbindelse med overføring av retten til en annen eiendom.</p>
@@ -375,16 +608,16 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <p>Vilkårene for utvisning etter denne paragraf fastsettes ved avtale. Med allmenningsstyrets godkjennelse kan rettighetene overføres til andre bruksberettigede.</p>
 <h4 id="6-11-skjnn">§ 6-11. (skjønn)</h4>
 <p>Når allmenningsstyret har gitt samtykke etter § 6-1 annet ledd, tillatelse etter § 6-2 , eller foretatt utvisning etter § 6-4 annet ledd eller § 6-10 første ledd, eller festet bort setergrunn etter § 6-8 første ledd annet punktum, og noen bruksberettiget mener vilkårene ikke foreligger, kan vedkommende kreve dette spørsmålet avgjort ved skjønn.</p>
-<p><em>Endret ved lov 11 mai 2017 nr. 26 (ikr. 1 jan 2018 iflg. res. 11 mai 2017 nr. 563 ).</em></p>
+<p class="note">Endret ved lov 11 mai 2017 nr. 26 (ikr. 1 jan 2018 iflg. res. 11 mai 2017 nr. 563 ).</p>
 <h2 id="kapittel-7-jakt-og-fangst">Kapittel 7. Jakt og fangst.</h2>
 <h4 id="7-1-rett-til-jakt-og-fangst">§ 7-1. (rett til jakt og fangst)</h4>
 <p>Rett til jakt og fangst av annet vilt enn hjortevilt og bever i bygdeallmenning har den som utøver bruksrett i allmenningen for eiendom med tilliggende bruksrett, jfr. § 2-1 , samt ektefelle, barn og eventuelle andre familiemedlemmer som bor sammen med og har felles husholdning med denne.</p>
 <p>Rett som nevnt i første ledd, har også føderådsfolk som bor på eiendommen, samt andre personer som bor på eiendommen og er fast knyttet til driften.</p>
 <h4 id="7-2-utvidet-adgang-til-jakt-og-fangst">§ 7-2. (utvidet adgang til jakt og fangst)</h4>
 <p>Allmenningsstyret avgjør om andre personer enn de i § 7-1 nevnte skal gis adgang til slik jakt og fangst som der nevnt, i hvilken utstrekning og på hvilke vilkår. Er det fastsatt bestemmelser om dette i bruksregler for den enkelte allmenning, jfr. §§ 3-7 og 7-6 , er allmenningsstyret bundet av disse. Før avgjørelse treffes skal det innhentes uttalelse fra kommunen.</p>
-<p><em>Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</em></p>
+<p class="note">Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</p>
 <h4 id="7-3-opphevet">§ 7-3. (Opphevet) <a class="para-history" href="../historikk/lov-1992-06-19-59/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved lov 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</em></p>
+<p class="note">Opphevet ved lov 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</p>
 <h4 id="7-4-driftsavtale">§ 7-4. (driftsavtale)</h4>
 <p>Allmenningsstyret kan inngå avtale om at administrasjonen av jakt i bygdeallmenning skal utøves av en organisasjon som har fremme av jakt og viltpleie som formål.</p>
 <p>Avtale som nevnt i denne paragraf kan inngås for inntil fem år om gangen.</p>
@@ -393,7 +626,7 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <p>Bruksberettiget som protesterer mot bortleie kan ikke utelukkes fra slik rett til jakt og fangst som omhandlet i § 7-1 . Utøvelsen av jakt og fangst etter § 7-1 kan ved avtale som nevnt i første ledd likevel begrenses til nærmere angitte områder i allmenningen eller til en del av jakttiden.</p>
 <p>Under ellers like vilkår skal organisasjon som har fremme av jakt og viltpleie som formål ha fortrinnsrett til leie etter denne paragraf.</p>
 <p>Før avtale etter denne paragraf inngås, skal et utkast ha vært forelagt kommunen til uttalelse.</p>
-<p><em>Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</em></p>
+<p class="note">Endret ved lov 24 mai 2019 nr. 18 (ikr. 1 juli 2019 iflg. res. 24 mai 2019 nr. 673 ).</p>
 <h4 id="7-6-nrmere-regler-om-forvaltning-mv">§ 7-6. (nærmere regler om forvaltning m.v.)</h4>
 <p>Nærmere regler om forvaltningen av jakt og fangst i bygdeallmenning – herunder hvordan det skal forholdes med jakt på hjortevilt og bever – fastsettes i bruksregler for den enkelte allmenning, jfr. § 3-7 . I reglene kan det fastsettes begrensninger i antall jegere, i antall vilt av ulike slag som tillates felt eller fanget, og begrensninger i tid, område og måten for utøvelse av jakt og fangst.</p>
 <p>Utkast til slike regler skal, før det legges ut til gjennomsyn for de bruksberettigede etter § 3-8 , ha vært forelagt viltnemnda 1 til uttalelse.</p>
@@ -413,7 +646,7 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <p>Er det åpnet adgang til å fiske med andre redskaper enn krok, jfr. § 8-2 annet ledd, kan allmenningsstyret bestemme at adgang etter denne paragraf også skal omfatte fiske med slike redskaper.</p>
 <h4 id="8-4-felles-fiskeomrade">§ 8-4. (felles fiskeområde)</h4>
 <p>Når det anses formålstjenlig for utnyttelsen av fisket i allmenningen kan allmenningsstyret bestemme at bygdeallmenning eller del av bygdeallmenning skal inngå i et større fiskeområde med felles kortsalg og felles oppsynsordning. Før avgjørelse treffes skal saken forelegges kommunen til uttalelse.</p>
-<p><em>Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</p>
 <h4 id="8-5-driftsavtale">§ 8-5. (driftsavtale)</h4>
 <p>Allmenningsstyret kan inngå avtale om at administrasjonen av fiske i bygdeallmenning skal utøves av en organisasjon som har fremme av fiske som formål.</p>
 <p>Avtale som nevnt i denne paragraf kan inngås for inntil fem år om gangen.</p>
@@ -422,11 +655,11 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <p>Bruksberettiget som protesterer mot bortleie kan ikke utelukkes fra adgang til å fiske med krok i allmenningen. Utøvelsen av fiske kan ved avtale som nevnt i første ledd likevel begrenses til nærmere angitte vassdrag eller deler av vassdrag i allmenningen.</p>
 <p>Under ellers like vilkår skal organisasjon med fremme av fiske som formål ha fortrinnsrett til leie etter denne paragraf.</p>
 <p>Før avtale etter denne paragraf inngås, skal et utkast ha vært forelagt kommunen til uttalelse.</p>
-<p><em>Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</p>
 <h4 id="8-7-nrmere-regler-om-forvaltning-mv">§ 8-7. (nærmere regler om forvaltning m.v.)</h4>
 <p>Nærmere regler om forvaltningen av fiske i bygdeallmenning fastsettes i bruksregler for den enkelte allmenning, jfr. § 3-7 . I reglene kan det fastsettes begrensninger med hensyn til tiden, området eller måten for utøvelsen av fiske – eventuelt gis retningslinjer for allmenningsstyrets regulering av utøvelsen.</p>
 <p>Utkast til slike regler skal, før det legges ut til gjennomsyn for de bruksberettigede etter § 3-8 , ha vært forelagt kommunen til uttalelse. Det samme gjelder begrensninger i utøvelsen av fiske som allmenningsstyret beslutter å gjennomføre.</p>
-<p><em>Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2003 nr. 45 (ikr. 1 juli 2003 iflg. res. 20 juni 2003 nr. 712 ).</p>
 <h4 id="8-8-fiskekort">§ 8-8. (fiskekort)</h4>
 <p>Enhver som vil utøve fiske i bygdeallmenning skal løse fiskekort. Vederlaget for fiskekort fastsettes av allmenningsstyret og tilfaller allmenningskassen, hvis ikke annet følger av ordning etter §§ 8-4 , 8-5 og 8-6 . Vederlaget kan settes forskjellig for dem som har fiskerett etter § 8-1 og for andre. Det kan også settes forskjellig vederlag for krokfiske og fiske med andre redskaper, og for fiske i lakseførende og ikke lakseførende vassdrag.</p>
 <h2 id="kapittel-9-avsluttende-bestemmelser">Kapittel 9. Avsluttende bestemmelser.</h2>
@@ -437,13 +670,15 @@ c. Når bruksretten for den eiendom seterretten tilligger faller bort etter § 2
 <h4 id="9-3-straff-og-patale">§ 9-3. (straff og påtale)</h4>
 <p>Overtredelse av bestemmelsene i denne lov, av bruksregler godkjent av departementet, eller av påbud eller forbud gitt av departementet eller av allmenningsstyret med hjemmel i denne lov, straffes med bøter. Medvirkning straffes ikke.</p>
 <p>Både departementet og allmenningsstyret er påtaleberettiget.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="9-4-ikrafttredelse">§ 9-4. (ikrafttredelse)</h4>
 <p>Loven trer i kraft fra den tid Kongen bestemmer. 1</p>
 <p><em>1 Fra 1 jan 1993 iflg. res. 13 nov 1992 nr. 795 .</em></p>
 <h4 id="9-5-overgangsregler">§ 9-5. (overgangsregler)</h4>
 <p>Eldre bruksregler blir fortsatt gjeldende inntil nye bruksregler er kunngjort og trådt i kraft overensstemmende med § 3-9 første ledd. Innen fem år etter lovens ikrafttredelse skal det enkelte allmenningsstyre ha utarbeidet et utkast til nye bruksregler for allmenningen.</p>
 <p>Departementet kan for øvrig fastsette nærmere overgangsbestemmelser i forbindelse med lovens ikrafttredelse.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

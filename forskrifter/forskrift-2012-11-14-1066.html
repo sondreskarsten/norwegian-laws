@@ -19,70 +19,199 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-11-14-1066.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Prisopplysningsforskriften" href="../feeds/forskrift-2012-11-14-1066.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &rsaquo;
 <span>Prisopplysningsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-11-14-1066</code></dd>
-<dt>Departement</dt><dd>Barne- og familiedepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-11-05-2212</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-11-14-1066" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-formalsbestemmelse">§ 2. Formålsbestemmelse</a></li>
+<li class="lvl4"><a href="#3-merverdiavgift-mv">§ 3. Merverdiavgift mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2-prisopplysning-for-varer">Kapittel 2. Prisopplysning for varer</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-krav-til-prisopplysning">§ 5. Krav til prisopplysning</a></li>
+<li class="lvl4"><a href="#6-beregning-av-enhetspris-per-kilo-og-liter">§ 6. Beregning av enhetspris per kilo og liter</a></li>
+<li class="lvl4"><a href="#7-srskilt-maleenhet-for-beregning-av-enhetspris">§ 7. Særskilt måleenhet for beregning av enhetspris</a></li>
+<li class="lvl4"><a href="#8-tvil-om-en-vares-enhetspris">§ 8. Tvil om en vares enhetspris</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-krav-om-enhetspris">§ 9. Unntak fra krav om enhetspris</a></li>
+<li class="lvl4"><a href="#9a-prisnedsettelse">§ 9a. Prisnedsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-3-prisopplysning-for-tjenester">Kapittel 3. Prisopplysning for tjenester</a></li>
+<li class="lvl4"><a href="#10-opplysningspliktens-innhold">§ 10. Opplysningspliktens innhold</a></li>
+<li class="lvl4"><a href="#11-prisliste-og-prisoppslag">§ 11. Prisliste og prisoppslag</a></li>
+<li class="lvl4"><a href="#12-pristilbud">§ 12. Pristilbud</a></li>
+<li class="lvl4"><a href="#13-spesifisert-regning">§ 13. Spesifisert regning</a></li>
+<li class="lvl4"><a href="#14-prisopplysninger-til-nettbaserte-prisportaler">§ 14. Prisopplysninger til nettbaserte prisportaler</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-prisopplysning-for-gravferdstjenester">Kapittel 4. Særlig om prisopplysning for gravferdstjenester</a></li>
+<li class="lvl4"><a href="#15-prisopplysninger-for-gravferdstjenester">§ 15. Prisopplysninger for gravferdstjenester</a></li>
+<li class="lvl4"><a href="#16-prisoversikt-for-gravferd">§ 16. Prisoversikt for gravferd</a></li>
+<li class="lvl4"><a href="#17-pristilbud">§ 17. Pristilbud</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlig-om-prisopplysning-for-tannhelsetjenester">Kapittel 5. Særlig om prisopplysning for tannhelsetjenester</a></li>
+<li class="lvl4"><a href="#18-pristilbud-for-tannhelsetjenester">§ 18. Pristilbud for tannhelsetjenester</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlig-om-prisopplysning-for-transport-og-salg-av-elektrisk-kraft">Kapittel 6. Særlig om prisopplysning for transport og salg av elektrisk kraft</a></li>
+<li class="lvl4"><a href="#19-definisjoner">§ 19. Definisjoner</a></li>
+<li class="lvl4"><a href="#20-opplysninger-ved-oppfordring-til-kjp-av-kraftavtaler">§ 20. Opplysninger ved oppfordring til kjøp av kraftavtaler</a></li>
+<li class="lvl4"><a href="#21-prislister">§ 21. Prislister</a></li>
+<li class="lvl4"><a href="#22-varsling-av-endringer-i-eller-opphr-av-kraftavtalen">§ 22. Varsling av endringer i eller opphør av kraftavtalen</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlig-om-prisopplysning-for-serveringssteder">Kapittel 7. Særlig om prisopplysning for serveringssteder</a></li>
+<li class="lvl4"><a href="#23-definisjon">§ 23. Definisjon</a></li>
+<li class="lvl4"><a href="#24-prisoppslag">§ 24. Prisoppslag</a></li>
+<li class="lvl4"><a href="#25-drikkevarer">§ 25. Drikkevarer</a></li>
+<li class="lvl2"><a href="#kapittel-7a-dagligvareportalen">Kapittel 7A. Dagligvareportalen</a></li>
+<li class="lvl4"><a href="#25a-opphevet">§ 25a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25b-opphevet">§ 25b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25c-opphevet">§ 25c. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-7b-srlig-om-prisopplysninger-for-drosjetjenester">Kapittel 7B. Særlig om prisopplysninger for drosjetjenester</a></li>
+<li class="lvl4"><a href="#25d-pristilbud-for-drosjetjenester">§ 25d. Pristilbud for drosjetjenester</a></li>
+<li class="lvl4"><a href="#25e-spesifisert-kvittering-for-en-drosjetjeneste">§ 25e. Spesifisert kvittering for en drosjetjeneste</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-11-05-2212.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-11-14-1066.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om prisopplysninger mv. for varer og tjenester</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-11-14-1066.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-11-14-1066 <code>forskrift/2012-11-14-1066</code></td></tr>
+<tr><th>Korttittel</th><td>Prisopplysningsforskriften</td></tr>
+<tr><th>Departement</th><td>Barne- og familiedepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-11-05-2212 <code>forskrift/2025-11-05-2212</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-11-14-1066" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-formalsbestemmelse">§ 2. Formålsbestemmelse</a></li>
+<li class="lvl4"><a href="#3-merverdiavgift-mv">§ 3. Merverdiavgift mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2-prisopplysning-for-varer">Kapittel 2. Prisopplysning for varer</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl4"><a href="#5-krav-til-prisopplysning">§ 5. Krav til prisopplysning</a></li>
+<li class="lvl4"><a href="#6-beregning-av-enhetspris-per-kilo-og-liter">§ 6. Beregning av enhetspris per kilo og liter</a></li>
+<li class="lvl4"><a href="#7-srskilt-maleenhet-for-beregning-av-enhetspris">§ 7. Særskilt måleenhet for beregning av enhetspris</a></li>
+<li class="lvl4"><a href="#8-tvil-om-en-vares-enhetspris">§ 8. Tvil om en vares enhetspris</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-krav-om-enhetspris">§ 9. Unntak fra krav om enhetspris</a></li>
+<li class="lvl4"><a href="#9a-prisnedsettelse">§ 9a. Prisnedsettelse</a></li>
+<li class="lvl2"><a href="#kapittel-3-prisopplysning-for-tjenester">Kapittel 3. Prisopplysning for tjenester</a></li>
+<li class="lvl4"><a href="#10-opplysningspliktens-innhold">§ 10. Opplysningspliktens innhold</a></li>
+<li class="lvl4"><a href="#11-prisliste-og-prisoppslag">§ 11. Prisliste og prisoppslag</a></li>
+<li class="lvl4"><a href="#12-pristilbud">§ 12. Pristilbud</a></li>
+<li class="lvl4"><a href="#13-spesifisert-regning">§ 13. Spesifisert regning</a></li>
+<li class="lvl4"><a href="#14-prisopplysninger-til-nettbaserte-prisportaler">§ 14. Prisopplysninger til nettbaserte prisportaler</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-prisopplysning-for-gravferdstjenester">Kapittel 4. Særlig om prisopplysning for gravferdstjenester</a></li>
+<li class="lvl4"><a href="#15-prisopplysninger-for-gravferdstjenester">§ 15. Prisopplysninger for gravferdstjenester</a></li>
+<li class="lvl4"><a href="#16-prisoversikt-for-gravferd">§ 16. Prisoversikt for gravferd</a></li>
+<li class="lvl4"><a href="#17-pristilbud">§ 17. Pristilbud</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlig-om-prisopplysning-for-tannhelsetjenester">Kapittel 5. Særlig om prisopplysning for tannhelsetjenester</a></li>
+<li class="lvl4"><a href="#18-pristilbud-for-tannhelsetjenester">§ 18. Pristilbud for tannhelsetjenester</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlig-om-prisopplysning-for-transport-og-salg-av-elektrisk-kraft">Kapittel 6. Særlig om prisopplysning for transport og salg av elektrisk kraft</a></li>
+<li class="lvl4"><a href="#19-definisjoner">§ 19. Definisjoner</a></li>
+<li class="lvl4"><a href="#20-opplysninger-ved-oppfordring-til-kjp-av-kraftavtaler">§ 20. Opplysninger ved oppfordring til kjøp av kraftavtaler</a></li>
+<li class="lvl4"><a href="#21-prislister">§ 21. Prislister</a></li>
+<li class="lvl4"><a href="#22-varsling-av-endringer-i-eller-opphr-av-kraftavtalen">§ 22. Varsling av endringer i eller opphør av kraftavtalen</a></li>
+<li class="lvl2"><a href="#kapittel-7-srlig-om-prisopplysning-for-serveringssteder">Kapittel 7. Særlig om prisopplysning for serveringssteder</a></li>
+<li class="lvl4"><a href="#23-definisjon">§ 23. Definisjon</a></li>
+<li class="lvl4"><a href="#24-prisoppslag">§ 24. Prisoppslag</a></li>
+<li class="lvl4"><a href="#25-drikkevarer">§ 25. Drikkevarer</a></li>
+<li class="lvl2"><a href="#kapittel-7a-dagligvareportalen">Kapittel 7A. Dagligvareportalen</a></li>
+<li class="lvl4"><a href="#25a-opphevet">§ 25a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25b-opphevet">§ 25b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#25c-opphevet">§ 25c. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-7b-srlig-om-prisopplysninger-for-drosjetjenester">Kapittel 7B. Særlig om prisopplysninger for drosjetjenester</a></li>
+<li class="lvl4"><a href="#25d-pristilbud-for-drosjetjenester">§ 25d. Pristilbud for drosjetjenester</a></li>
+<li class="lvl4"><a href="#25e-spesifisert-kvittering-for-en-drosjetjeneste">§ 25e. Spesifisert kvittering for en drosjetjeneste</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#26-ikrafttredelse">§ 26. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-11-14-1066.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-11-14-1066.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-11-14-1066.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-11-14-1066.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-11-14-1066.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-11-14-1066.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-11-14-1066.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-11-14-1066.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-11-14-1066.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-prisopplysninger-mv-for-varer-og-tjenester">Forskrift om prisopplysninger mv. for varer og tjenester</h1>
 <h2 id="kapittel-1-innledning">Kapittel 1. Innledning</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder næringsdrivende som er etablert i Norge og selger varer og tjenester til forbruker.</p>
 <p>Kapittel 2 gjelder ikke ved auksjonssalg.</p>
 <p>§ 11 første ledd annet punktum gjelder for all prisopplysning for en tjeneste. Kapittel 3 for øvrig gjelder ikke der det i lov eller forskrift er fastsatt regler om prisopplysning for en tjeneste. Lov 29. juni 2007 nr. 73 om eiendomsmegling og lov 19. juni 2009 nr. 103 om tjenestevirksomhet anses ikke å ha regler om prisopplysning for en tjeneste og forskriften gjelder. Lov 18. desember 2020 nr. 146 om finansavtaler anses å ha regler om prisopplysning for en tjeneste og forskriften gjelder ikke. § 14 gjelder likevel for banktjenester. Lov 25. november 2011 nr. 44 om verdipapirfond anses å ha bestemmelser om prisopplysning for en tjeneste og forskriften gjelder ikke. § 14 gjelder likevel for verdipapirfondstjenester. Lov 21. desember 2005 nr. 124 om obligatorisk tjenestepensjon har bestemmelser om pristariffer og forskriften gjelder ikke. § 14 gjelder likevel for tjenester knyttet til pensjonsprodukter.</p>
-<p><em>Endret ved forskrift 5 nov 2025 nr. 2212 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 5 nov 2025 nr. 2212 (i kraft 1 jan 2026).</p>
 <h4 id="2-formalsbestemmelse">§ 2. Formålsbestemmelse</h4>
 <p>Formålet med forskriften er å fremme god prisinformasjon for å bedre konkurransen mellom næringsdrivende og gjøre det enklere for forbrukeren å sammenligne priser.</p>
 <h4 id="3-merverdiavgift-mv">§ 3. Merverdiavgift mv.</h4>
@@ -101,7 +230,7 @@ f. hovedvare : vare uten lake, saus eller lignende, og som er ferdig til bruk ut
 <p>Opplyses det i skriftlig markedsføring om en vares salgspris, skal også enhetsprisen fremgå.</p>
 <p>Er salgsprisen identisk med enhetsprisen, er det ikke nødvendig å oppgi enhetsprisen. Selges varer i løs vekt, er det tilstrekkelig å oppgi enhetsprisen.</p>
 <p>Kravet til prisopplysning gjelder ikke for tobakksvarer.</p>
-<p><em>Endret ved forskrifter 2 juni 2017 nr. 688 (i kraft 1 juli 2017), 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 2 juni 2017 nr. 688 (i kraft 1 juli 2017), 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</p>
 <h4 id="6-beregning-av-enhetspris-per-kilo-og-liter">§ 6. Beregning av enhetspris per kilo og liter</h4>
 <p>Enhetspris per kilo og liter beregnes slik</p>
 <p>a. for produkter som består utelukkende av en hovedvare: salgsprisen divideres med nettomengden av varen
@@ -111,14 +240,14 @@ c. for næringsmidler som krever tilsetning av vann, krydder eller annen vare me
 <p>a. vekt eller volum ikke avviker mer enn 5 % fra standard mengde eller
 b. vekt eller volum ligger innenfor de toleransegrenser som er fastsatt i forskrift 21. desember 2007 nr. 1730 om krav til nettoinnhold med videre i ferdigpakninger.</p>
 <p>Andre ledd bokstav a gjelder ikke ferdigpakninger.</p>
-<p><em>Endret ved forskrift 18 mars 2019 nr. 253 .</em></p>
+<p class="note">Endret ved forskrift 18 mars 2019 nr. 253 .</p>
 <h4 id="7-srskilt-maleenhet-for-beregning-av-enhetspris">§ 7. Særskilt måleenhet for beregning av enhetspris</h4>
 <p>Enhetsprisen skal oppgis per stykk ved salg av servietter, kaffefilter, stearinlys, bleier, bind, tamponger og plast- og bæreposer.</p>
 <p>Enhetsprisen skal oppgis per 100 meter ved salg på rull av tørkepapir, toalettpapir, matpapir, bakepapir, aluminiumsfolie, plastfolie, innpakningspapir og limbånd eller tape.</p>
 <p>Enhetsprisen skal oppgis per standard vask eller behandling ved salg av følgende varer med anbefalt dosering: rengjøringsmidler til husholdningsbruk, bløtleggingsmidler og tøymyknere.</p>
 <h4 id="8-tvil-om-en-vares-enhetspris">§ 8. Tvil om en vares enhetspris</h4>
 <p>Ved tvil avgjør Forbrukertilsynet hvilken måleenhet som skal danne grunnlag for beregningen av en vares enhetspris.</p>
-<p><em>Endret ved forskrift 6 des 2017 nr. 1937 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 6 des 2017 nr. 1937 (i kraft 1 jan 2018).</p>
 <h4 id="9-unntak-fra-krav-om-enhetspris">§ 9. Unntak fra krav om enhetspris</h4>
 <p>Følgende næringsmidler er unntatt fra plikten til å oppgi enhetsprisen:</p>
 <p>a. pakninger med nettomengde under 50 gram eller 50 milliliter
@@ -140,7 +269,7 @@ d. legemidler.</p>
 <p>Der prisen på varer markedsføres som nedsatt, skal den næringsdrivende gi informasjon om varens førpris.</p>
 <p>Førprisen er den laveste prisen som den næringsdrivende har anvendt i minimum 30 dager før markedsføringen startet. Med laveste pris menes prisen som har blitt anvendt for varen overfor allmennheten, eller andre større grupper av forbrukere som tilhører ulike lojalitetsprogrammer eller kundeklubber. Der prisnedsettelsen øker gradvis, er førprisen den laveste prisen før første prisnedsettelse.</p>
 <p>For varer som kan forringes eller foreldes raskt er førprisen den laveste prisen som den næringsdrivende har anvendt umiddelbart før markedsføringen startet.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2023 nr. 979 (i kraft 1 okt 2023), endret ved forskrift 16 okt 2024 nr. 2491 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2023 nr. 979 (i kraft 1 okt 2023), endret ved forskrift 16 okt 2024 nr. 2491 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-3-prisopplysning-for-tjenester">Kapittel 3. Prisopplysning for tjenester</h2>
 <h4 id="10-opplysningspliktens-innhold">§ 10. Opplysningspliktens innhold</h4>
 <p>Den næringsdrivende skal opplyse om de fullstendige prisene på de tjenestene som tilbys.</p>
@@ -166,7 +295,7 @@ b. for banktjenester registreres prisopplysninger i Finansportalen
 c. for tjenester knyttet til verdipapirfond registreres prisopplysninger i Finansportalen
 d. for tjenester knyttet til pensjonsprodukter registreres prisopplysninger i Finansportalen. Med pensjonsprodukt menes produkt som kommer til utbetaling ved oppnåelse av fastsatt alder.</p>
 <p>Næringsdrivende har plikt til å registrere prisopplysninger på den måte som fastsettes av prisportalen.</p>
-<p><em>Endret ved forskrift 5 nov 2025 nr. 2212 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 5 nov 2025 nr. 2212 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-4-srlig-om-prisopplysning-for-gravferdstjenester">Kapittel 4. Særlig om prisopplysning for gravferdstjenester</h2>
 <h4 id="15-prisopplysninger-for-gravferdstjenester">§ 15. Prisopplysninger for gravferdstjenester</h4>
 <p>Et gravferdsbyrå skal ha skriftlige prisopplysninger til utdeling. Prisopplysningene skal tilbys en forbruker uoppfordret ved første gangs henvendelse eller konsultasjon.</p>
@@ -213,7 +342,7 @@ d. honorarer og gebyrer med
 <p>I dette kapitlet menes med</p>
 <p>a. spotpris: prisen i dagen-før-markedet på elektrisk kraft per kWh i det aktuelle prisområdet
 b. tilleggstjenester: valgfrie tjenester eller produkter som formidles eller tilbys av kraftleverandøren, og som faktureres i tillegg til de obligatoriske priselementene som kraftleverandøren har satt for levering av elektrisk kraft under den aktuelle avtalen.</p>
-<p><em>Endret ved forskrift 23 sep 2022 nr. 1694 (i kraft 1 nov 2022).</em></p>
+<p class="note">Endret ved forskrift 23 sep 2022 nr. 1694 (i kraft 1 nov 2022).</p>
 <h4 id="20-opplysninger-ved-oppfordring-til-kjp-av-kraftavtaler">§ 20. Opplysninger ved oppfordring til kjøp av kraftavtaler</h4>
 <p>Ved kommersiell kommunikasjon som utgjør en oppfordring til kjøp etter markedsføringsloven § 8 tredje og fjerde ledd , regnes følgende opplysninger som vesentlige:</p>
 <p>a. om avtaletypen er spotpris, fastpris, standard variabel eller annen. Dersom avtalen ikke følger spotpris time for time, skal det opplyses om dette
@@ -224,19 +353,19 @@ e. perioden det må forskuddsbetales for, dersom avtalen krever forskuddsbetalin
 f. eventuelle vilkår for å kvalifisere for avtalen
 g. at eventuelle tilleggstjenester som tilbys ikke er obligatoriske
 h. at avtalen kan sammenlignes med andre avtaler på Forbrukerrådets strømprisportal. Ved oppfordring til kjøp fremsatt digitalt, skal hyperlenke til Forbrukerrådets strømprisportal inntas.</p>
-<p><em>Endret ved forskrifter 23 sep 2022 nr. 1694 (i kraft 1 nov 2022), 21 juni 2024 nr. 1165 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 sep 2022 nr. 1694 (i kraft 1 nov 2022), 21 juni 2024 nr. 1165 (i kraft 1 juli 2024).</p>
 <h4 id="21-prislister">§ 21. Prislister</h4>
 <p>Kraftleverandøren skal ha oppdatert prisliste lett tilgjengelig på det stedet eller i de kanaler der forbrukeren kan inngå kraftavtaler. Har kraftleverandøren hjemmeside, skal oppdatert prisliste også fremgå der. Opplysningene i prislisten skal presenteres på en klar og tydelig måte.</p>
 <p>Prislisten skal inneholde en samlet oversikt over priser og vilkår for alle kraftleverandørens ulike kraftavtaler, herunder kraftavtaler som ikke lenger tilbys, men som kraftleverandøren har aktive kundeforhold på.</p>
 <p>Prislisten skal for hver enkelt kraftavtale per prisområde angi navnet på kraftavtalen, avtaletypen, pris og lenke til avtalevilkår. Dersom kraftleverandøren opererer med ulike priselementer på de samme kraftavtalene, skal det opplyses om laveste og høyeste pris i form av et prisintervall fra–til. Prislisten skal inneholde informasjon om at forbrukeren kan sammenligne kraftavtaler på Forbrukerrådets strømprisportal.</p>
-<p><em>Endret ved forskrift 23 sep 2022 nr. 1694 (i kraft 1 nov 2022).</em></p>
+<p class="note">Endret ved forskrift 23 sep 2022 nr. 1694 (i kraft 1 nov 2022).</p>
 <h4 id="22-varsling-av-endringer-i-eller-opphr-av-kraftavtalen">§ 22. Varsling av endringer i eller opphør av kraftavtalen</h4>
 <p>Kraftleverandøren skal varsle forbruker om alle endringer i eller opphør av kraftavtalen, herunder endringer i prisen som er avtalt ved inngåelsen av kraftavtalen. Unntak gjelder for endringer i spotprisen.</p>
 <p>I varselet til forbruker skal det informeres om årsaken til endringen eller opphøret, og at forbrukeren har rett til å si opp kraftavtalen kostnadsfritt, jf. energiloven § 4A-4 annet ledd . Varselet skal utformes på en slik måte at innholdet og endringen er klart og tydelig for forbrukeren. I varselet skal pris og vilkår før og etter endringen synliggjøres.</p>
 <p>Varselet skal gis separat og må ikke sammenblandes med annen informasjon fra kraftleverandør.</p>
 <p>Varselet skal gis til forbruker i form av SMS og e-post. I de tilfeller der forbrukeren ikke har samtykket til digital kommunikasjonsform, skal varselet gis i brev.</p>
 <p>Varselet skal gis på et passende tidspunkt, og senest 30 dager før endringen eller opphøret skal tre i kraft.</p>
-<p><em>Endret ved forskrifter 23 sep 2022 nr. 1694 (i kraft 1 nov 2022), 21 juni 2024 nr. 1165 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 23 sep 2022 nr. 1694 (i kraft 1 nov 2022), 21 juni 2024 nr. 1165 (i kraft 1 juli 2024).</p>
 <h2 id="kapittel-7-srlig-om-prisopplysning-for-serveringssteder">Kapittel 7. Særlig om prisopplysning for serveringssteder</h2>
 <h4 id="23-definisjon">§ 23. Definisjon</h4>
 <p>Med et serveringssted menes restaurant, kafé, pub og annet sted som serverer mat eller drikke i næringsvirksomhet.</p>
@@ -249,20 +378,20 @@ h. at avtalen kan sammenlignes med andre avtaler på Forbrukerrådets strømpris
 <h2 id="kapittel-7a-dagligvareportalen">Kapittel 7A. Dagligvareportalen</h2>
 <p>Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</p>
 <h4 id="25a-opphevet">§ 25a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</p>
 <h4 id="25b-opphevet">§ 25b. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</p>
 <h4 id="25c-opphevet">§ 25c. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juni 2017 nr. 688 (i kraft 1 juli 2017), opphevet ved forskrift 12 des 2018 nr. 2156 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-7b-srlig-om-prisopplysninger-for-drosjetjenester">Kapittel 7B. Særlig om prisopplysninger for drosjetjenester</h2>
 <p>Tilføyd ved forskrift 20 juni 2018 nr. 934 (i kraft 1 juli 2018).</p>
 <h4 id="25d-pristilbud-for-drosjetjenester">§ 25d. Pristilbud for drosjetjenester</h4>
 <p>Dersom forbrukeren oppgir et tilstrekkelig avgrenset bestemmelsessted for en ønsket drosjetjeneste, skal tilbyderen uoppfordret gi forbrukeren et pristilbud før de inngår en avtale om transport. Pristilbudet skal angi totalprisen for drosjetjenesten.</p>
 <p>Tilbyderen skal opplyse forbrukeren om at forbrukeren skal betale den laveste totalprisen av pristilbudet, en fastpris som eventuelt tilbys på strekningen og parallelltaksten med eventuelle tillegg, jf. forskrift 30. september 2010 nr. 1307 om takstberegning og maksimalpriser for løyvepliktig drosjetransport med motorvogn § 3 andre ledd, jf. § 2 andre punktum.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2018 nr. 934 (i kraft 1 juli 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2018 nr. 934 (i kraft 1 juli 2018).</p>
 <h4 id="25e-spesifisert-kvittering-for-en-drosjetjeneste">§ 25e. Spesifisert kvittering for en drosjetjeneste</h4>
 <p>Tilbyderen skal gi forbrukeren en spesifisert kvittering når drosjetjenesten er utført. Kvitteringen skal inneholde pristilbudet etter § 25d og utfyllende opplysninger om hvordan parallelltaksten er beregnet, det vil si oppgi de aktuelle takstelementene og tilleggene etter forskrift 30. september 2010 nr. 1307 om takstberegning og maskimalpriser for løyvepliktig drosjetransport med motorvogn.</p>
-<p><em>Tilføyd ved forskrift 20 juni 2018 nr. 934 (i kraft 1 juli 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2018 nr. 934 (i kraft 1 juli 2018).</p>
 <h2 id="kapittel-8-avsluttende-bestemmelser">Kapittel 8. Avsluttende bestemmelser</h2>
 <h4 id="26-ikrafttredelse">§ 26. Ikrafttredelse</h4>
 <p>Forskriften gjelder fra 1. januar 2013. Fra samme tid oppheves</p>
@@ -274,6 +403,8 @@ h. at avtalen kan sammenlignes med andre avtaler på Forbrukerrådets strømpris
 <li>forskrift 12. desember 1997 nr. 1393 om prisopplysning for gravferdstjenester</li>
 <li>forskrift 6. desember 1999 nr. 1256 om prisopplysning for varer.</li>
 </ul>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

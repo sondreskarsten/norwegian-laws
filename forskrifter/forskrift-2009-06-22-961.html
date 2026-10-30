@@ -19,64 +19,159 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-06-22-961.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om beskyttelse av laksebestander" href="../feeds/forskrift-2009-06-22-961.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om beskyttelse av laksebestander</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-06-22-961</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2009-08-01, 2010-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-14-2087</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-22-961" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-srskilte-krav-til-etablering-og-drift-innenfor-nasjonale-laksefjorder-og-nasjonale-laksevassdrag">Kapittel 2. Særskilte krav til etablering og drift innenfor nasjonale laksefjorder og nasjonale laksevassdrag.</a></li>
+<li class="lvl4"><a href="#3-etablering-og-flytting-av-akvakulturanlegg-mm">§ 3. Etablering og flytting av akvakulturanlegg m.m.</a></li>
+<li class="lvl4"><a href="#4-etablering-og-flytting-av-slakterier-og-tilvirkningsanlegg-mm">§ 4. Etablering og flytting av slakterier og tilvirkningsanlegg m.m.</a></li>
+<li class="lvl4"><a href="#5-nasjonale-laksefjorder-flytteplikt-fra-srskilte-omrader-mm">§ 5. Nasjonale laksefjorder – flytteplikt fra særskilte områder m.m.</a></li>
+<li class="lvl4"><a href="#6-nasjonale-laksevassdrag-avstandskrav-og-flytteplikt">§ 6. Nasjonale laksevassdrag – avstandskrav og flytteplikt</a></li>
+<li class="lvl4"><a href="#7-notvaskerier">§ 7. Notvaskerier</a></li>
+<li class="lvl4"><a href="#8-avlp">§ 8. Avløp</a></li>
+<li class="lvl4"><a href="#9-klekkerier-og-settefisk-av-anadrome-arter-samt-kultiveringsfisk">§ 9. Klekkerier og settefisk av anadrome arter, samt kultiveringsfisk</a></li>
+<li class="lvl4"><a href="#10-forbud-mot-flytting-av-fisk">§ 10. Forbud mot flytting av fisk</a></li>
+<li class="lvl4"><a href="#11-transport-av-fisk-til-slakteri">§ 11. Transport av fisk til slakteri</a></li>
+<li class="lvl4"><a href="#12-slaktemerder">§ 12. Slaktemerder</a></li>
+<li class="lvl4"><a href="#13-kontroll-av-nter">§ 13. Kontroll av nøter</a></li>
+<li class="lvl4"><a href="#14-utvidet-sykdomskontroll">§ 14. Utvidet sykdomskontroll</a></li>
+<li class="lvl4"><a href="#15-srskilte-tiltak-mot-lakselus">§ 15. Særskilte tiltak mot lakselus</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3. Avsluttende bestemmelser.</a></li>
+<li class="lvl4"><a href="#16-sknadsbehandling-tilsyn-og-vedtak">§ 16. Søknadsbehandling, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#17-dispensasjon">§ 17. Dispensasjon</a></li>
+<li class="lvl4"><a href="#18-palegg-og-tvangsmulkt-mv">§ 18. Pålegg og tvangsmulkt mv.</a></li>
+<li class="lvl4"><a href="#19-straff">§ 19. Straff</a></li>
+<li class="lvl4"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-nasjonale-laksefjorder">Vedlegg 1. Nasjonale laksefjorder</a></li>
+<li class="lvl2"><a href="#vedlegg-2-nasjonale-laksevassdrag">Vedlegg 2. Nasjonale laksevassdrag</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-14-2087.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-22-961.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om særskilte krav til akvakulturrelatert virksomhet i eller ved nasjonale laksevassdrag og nasjonale laksefjorder</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-22-961.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-06-22-961 <code>forskrift/2009-06-22-961</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om beskyttelse av laksebestander</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2009, 01.08.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-14-2087 <code>forskrift/2023-12-14-2087</code> fra 14.12.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-22-961" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-srskilte-krav-til-etablering-og-drift-innenfor-nasjonale-laksefjorder-og-nasjonale-laksevassdrag">Kapittel 2. Særskilte krav til etablering og drift innenfor nasjonale laksefjorder og nasjonale laksevassdrag.</a></li>
+<li class="lvl4"><a href="#3-etablering-og-flytting-av-akvakulturanlegg-mm">§ 3. Etablering og flytting av akvakulturanlegg m.m.</a></li>
+<li class="lvl4"><a href="#4-etablering-og-flytting-av-slakterier-og-tilvirkningsanlegg-mm">§ 4. Etablering og flytting av slakterier og tilvirkningsanlegg m.m.</a></li>
+<li class="lvl4"><a href="#5-nasjonale-laksefjorder-flytteplikt-fra-srskilte-omrader-mm">§ 5. Nasjonale laksefjorder – flytteplikt fra særskilte områder m.m.</a></li>
+<li class="lvl4"><a href="#6-nasjonale-laksevassdrag-avstandskrav-og-flytteplikt">§ 6. Nasjonale laksevassdrag – avstandskrav og flytteplikt</a></li>
+<li class="lvl4"><a href="#7-notvaskerier">§ 7. Notvaskerier</a></li>
+<li class="lvl4"><a href="#8-avlp">§ 8. Avløp</a></li>
+<li class="lvl4"><a href="#9-klekkerier-og-settefisk-av-anadrome-arter-samt-kultiveringsfisk">§ 9. Klekkerier og settefisk av anadrome arter, samt kultiveringsfisk</a></li>
+<li class="lvl4"><a href="#10-forbud-mot-flytting-av-fisk">§ 10. Forbud mot flytting av fisk</a></li>
+<li class="lvl4"><a href="#11-transport-av-fisk-til-slakteri">§ 11. Transport av fisk til slakteri</a></li>
+<li class="lvl4"><a href="#12-slaktemerder">§ 12. Slaktemerder</a></li>
+<li class="lvl4"><a href="#13-kontroll-av-nter">§ 13. Kontroll av nøter</a></li>
+<li class="lvl4"><a href="#14-utvidet-sykdomskontroll">§ 14. Utvidet sykdomskontroll</a></li>
+<li class="lvl4"><a href="#15-srskilte-tiltak-mot-lakselus">§ 15. Særskilte tiltak mot lakselus</a></li>
+<li class="lvl2"><a href="#kapittel-3-avsluttende-bestemmelser">Kapittel 3. Avsluttende bestemmelser.</a></li>
+<li class="lvl4"><a href="#16-sknadsbehandling-tilsyn-og-vedtak">§ 16. Søknadsbehandling, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#17-dispensasjon">§ 17. Dispensasjon</a></li>
+<li class="lvl4"><a href="#18-palegg-og-tvangsmulkt-mv">§ 18. Pålegg og tvangsmulkt mv.</a></li>
+<li class="lvl4"><a href="#19-straff">§ 19. Straff</a></li>
+<li class="lvl4"><a href="#20-ikrafttredelse">§ 20. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-nasjonale-laksefjorder">Vedlegg 1. Nasjonale laksefjorder</a></li>
+<li class="lvl2"><a href="#vedlegg-2-nasjonale-laksevassdrag">Vedlegg 2. Nasjonale laksevassdrag</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-22-961.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-22-961.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-22-961.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-06-22-961.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-06-22-961.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-22-961.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-06-22-961.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-06-22-961.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-22-961.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-srskilte-krav-til-akvakulturrelatert-virksomhet-i-eller-ved-nasjonale-laksevassdrag-og-nasjonale-laksefjorder">Forskrift om særskilte krav til akvakulturrelatert virksomhet i eller ved nasjonale laksevassdrag og nasjonale laksefjorder</h1>
 <h2 id="kapittel-1-formal-og-virkeomrade">Kapittel 1. Formål og virkeområde</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften skal bidra til at et utvalg av de viktigste laksebestandene gis en særlig beskyttelse ved å stille særskilte krav til akvakulturrelatert virksomhet i eller ved nasjonale laksevassdrag og nasjonale laksefjorder.</p>
@@ -84,7 +179,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Forskriften gjelder innenfor nasjonale laksefjorder og laksevassdrag beskrevet i vedlegg 1 og 2, og i områdene inntil 5 km utenfor nasjonale laksevassdrag som ikke er tilknyttet nasjonale laksefjorder.</p>
 <p>Forskriften retter seg mot enhver som har eller skal ha tillatelse etter lov 17. juni 2005 nr. 79 om akvakultur § 4 , eller godkjenning etter forskrift 17. juni 2008 nr. 823 om etablering og utvidelse av akvakulturanlegg, zoobutikker m.m. § 5 eller dyrehelseforskriften 6. april 2022 nr. 631 og akvabiosikkerhetsforskriften 5. april 2022 nr. 624 .</p>
 <p>Forskriften retter seg også mot enhver som har eller skal ha godkjenning etter forskrift 30. oktober 2006 nr. 1250 om slakterier og tilvirkingsanlegg for akvakulturdyr § 4 , samt ansvarlig for drift av notvaskerier.</p>
-<p><em>Endret ved forskrift 14 des 2023 nr. 2087 .</em></p>
+<p class="note">Endret ved forskrift 14 des 2023 nr. 2087 .</p>
 <h2 id="kapittel-2-srskilte-krav-til-etablering-og-drift-innenfor-nasjonale-laksefjorder-og-nasjonale-laksevassdrag">Kapittel 2. Særskilte krav til etablering og drift innenfor nasjonale laksefjorder og nasjonale laksevassdrag.</h2>
 <h4 id="3-etablering-og-flytting-av-akvakulturanlegg-mm">§ 3. Etablering og flytting av akvakulturanlegg m.m.</h4>
 <p>Det er ikke tillatt å etablerere nye akvakulturanlegg for:</p>
@@ -121,12 +216,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Plan for flytting skal være fremlagt for Fiskeridirektoratet innen 1. august 2010.</p>
 <p>Det er ikke tillatt å etablere tilleggslokaliteter for anadrom fisk i nasjonale laksefjorder som nevnes i første ledd.</p>
 <p>Første ledd gjelder ikke eksisterende forsøks-, forsknings- og undervisningsanlegg, eller kultiveringsanlegg eller genbank for vill anadrom laksefisk.</p>
-<p><em>Endret ved forskrift 28 feb 2023 nr. 270 .</em></p>
+<p class="note">Endret ved forskrift 28 feb 2023 nr. 270 .</p>
 <h4 id="6-nasjonale-laksevassdrag-avstandskrav-og-flytteplikt">§ 6. Nasjonale laksevassdrag – avstandskrav og flytteplikt</h4>
 <p>Akvakulturanlegg med produksjon av anadrom og marin fisk i sjø, samt nye slakterier og tilvirkningsanlegg for marin fisk, skal lokaliseres minst 5 km fra nasjonalt laksevassdrag. Tilsvarende gjelder anlegg med settefisk av marine arter i sjø og landbaserte akvakulturanlegg for ål.</p>
 <p>Akvakulturanlegg som nevnt i første ledd, som er nærmere enn 5 km fra nasjonalt vassdrag, skal flyttes innen 1. august 2011. Plan for dette skal fremlegges Fiskeridirektoratet innen 1. august 2010.</p>
 <p>Første ledd gjelder ikke kultiveringsanlegg eller genbank for vill anadrom laksefisk.</p>
-<p><em>Endret ved forskrift 28 feb 2023 nr. 270 .</em></p>
+<p class="note">Endret ved forskrift 28 feb 2023 nr. 270 .</p>
 <h4 id="7-notvaskerier">§ 7. Notvaskerier</h4>
 <p>Brukte oppdrettsnøter fra akvakulturanlegg skal transporteres i tett beholder, og avrenningsvann fra noten skal samles opp på notvaskeriet og behandles. Nøter fra akvakulturanlegg fra nasjonale laksefjorder skal holdes atskilt fra nøter med opprinnelse fra akvakulturanlegg utenfor sonen.</p>
 <p>Nøter må være merket med navn på opprinnelseslokalitet og lokalitetsnummer.</p>
@@ -152,7 +247,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Det er forbudt å ta inn levende fisk fra akvakulturanlegg utenfor nasjonale laksefjorder eller nasjonale laksevassdrag, som er underlagt restriksjoner som følge av mistanke om eller påvisning av listeført sykdom, til slakterier innenfor nasjonale laksefjorder og nasjonale vassdrag.</p>
 <h4 id="12-slaktemerder">§ 12. Slaktemerder</h4>
 <p>Det er ikke tillatt med etablering av nye eller utvidelse av slaktemerder ved eksisterende slakterier innenfor en nasjonal laksefjord eller nasjonalt laksevassdrag.</p>
-<p><em>Endret ved forskrift 24 aug 2022 nr. 1487 .</em></p>
+<p class="note">Endret ved forskrift 24 aug 2022 nr. 1487 .</p>
 <h4 id="13-kontroll-av-nter">§ 13. Kontroll av nøter</h4>
 <p>Nøter som skal brukes i akvakulturanlegg skal kontrolleres før de tas i bruk, og regelmessig under driften.</p>
 <p>Dersom maskebrudd påvises under drift skal dette utbedres snarest. Dersom maskebruddene er så små at fisken likevel ikke kan rømme, skal maskebruddene utbedres innen 30 dager.</p>
@@ -175,13 +270,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Fiskeridirektoratet og fylkeskommunen fatter vedtak for å gjennomføre bestemmelsene gitt i forskriftens § 3 , § 5 , § 6 , § 10 , § 12 og § 13 .</p>
 <p>Fiskeridirektoratet fører tilsyn med bestemmelser gitt i forskriftens § 3 , § 5 , § 6 , § 10 , § 12 og § 13 .</p>
 <p>Mattilsynet fører tilsyn og fatter vedtak for å gjennomføre bestemmelsene gitt i denne forskriftens § 4 , § 6 , § 7 , § 8 , § 9 , § 10 , § 11 , § 12 , § 14 og § 15 .</p>
-<p><em>Endret ved forskrift 18 des 2009 nr. 1708 (i kraft 1 jan 2010).</em></p>
+<p class="note">Endret ved forskrift 18 des 2009 nr. 1708 (i kraft 1 jan 2010).</p>
 <h4 id="17-dispensasjon">§ 17. Dispensasjon</h4>
 <p>Fiskeridirektoratet og fylkeskommunen kan i særlige tilfeller dispensere fra bestemmelsene nevnt i § 16 første ledd, med unntak av § 3 første ledd, § 5 og § 6 .</p>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene nevnt i § 16 annet ledd, med unntak av § 4 første ledd og § 6 .</p>
 <p>Departementet er klageinstans i saker om dispensasjon fra forbud mot flytting av etablert virksomhet etter § 3 tredje ledd og § 4 annet ledd.</p>
 <p>Det er en forutsetning for dispensasjon etter denne bestemmelse at tiltak som tillates skal medføre redusert risiko for vill laks og at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen.</p>
-<p><em>Endret ved forskrift 18 des 2009 nr. 1708 (i kraft 1 jan 2010).</em></p>
+<p class="note">Endret ved forskrift 18 des 2009 nr. 1708 (i kraft 1 jan 2010).</p>
 <h4 id="18-palegg-og-tvangsmulkt-mv">§ 18. Pålegg og tvangsmulkt mv.</h4>
 <p>Det organ som er gitt myndighet etter § 16 kan fatte vedtak for å gjennomføre bestemmelsene gitt i eller i medhold av denne forskriften.</p>
 <p>Det kan fattes vedtak etter:</p>
@@ -199,6 +294,8 @@ c. forskrift 29. mars 2007 nr. 361 om reaksjoner ved overtredelse av akvakulturl
 <p>Endret ved forskrift 11 aug 2009 nr. 1073 .</p>
 <h2 id="vedlegg-2-nasjonale-laksevassdrag">Vedlegg 2. Nasjonale laksevassdrag</h2>
 <p>Enningsdalselva Østfold Numedalslågen Vestfold Mandalselva Vest-Agder Bjerkreimselva Rogaland Suldalslågen Rogaland Ogna Rogaland Håelva Rogaland Figgjo Rogaland Etneelva Hordaland Vosso Hordaland Nærøydalselva Sogn og Fjordane Lærdalselva Sogn og Fjordane Nausta Sogn og Fjordane Vikja Sogn og Fjordane Flåmselva Sogn og Fjordane Årøyelva Sogn og Fjordane Oldenelva Sogn og Fjordane Stryneelva Sogn og Fjordane Gaula Sogn og Fjordane Eidselva Sogn og Fjordane Rauma Møre og Romsdal Ørstaelva Møre og Romsdal Driva Møre og Romsdal Surna Møre og Romsdal Stordalselva-Norddalselva Sør-Trøndelag Gaula Sør-Trøndelag Orkla Sør-Trøndelag Nidelva Sør-Trøndelag Stjørdalselva Nord-Trøndelag Figga Nord-Trøndelag Steinkjervassdraget Nord-Trøndelag Årgårdsvassdraget Nord-Trøndelag Verdalselva Nord-Trøndelag Namsen Nord-Trøndelag Roksdalsvassdraget Nordland Vefsna Nordland Ranaelva Nordland Beiarelva Nordland Reisaelva Troms Målselva Troms Kvænangselva Troms Altaelva Finnmark Repparfjordelva Finnmark Stabburselva Finnmark Lakselva Finnmark Børselva Finnmark Langfjordvassdraget Finnmark Tana Finnmark Komagelva Finnmark Vestre Jakobselv Finnmark Neidenelva Finnmark Kongsfjordelva Finnmark</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

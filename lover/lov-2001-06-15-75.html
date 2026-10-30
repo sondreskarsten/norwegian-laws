@@ -19,79 +19,222 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2001-06-15-75.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Dyrehelsepersonelloven" href="../feeds/lov-2001-06-15-75.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Dyrehelsepersonelloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2001-06-15-75</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>Helse- og omsorgsrett &raquo; Helsepersonell\nLandbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær</dd>
-<dt>Ikrafttredelse</dt><dd>2002-01-01, 2005-08-15</dd>
-<dt>Sist endret</dt><dd>lov/2015-06-19-65</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2001-06-15-75" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-definisjoner-og-virkeomrade">Kapittel 1. Formål, definisjoner og virkeområde</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-lovens-virkeomrade">§ 3. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#3-a-kommunens-ansvar">§ 3 a. Kommunens ansvar</a></li>
+<li class="lvl2"><a href="#kapittel-2-autorisasjon-lisens-og-andre-godkjenninger">Kapittel 2. Autorisasjon, lisens og andre godkjenninger</a></li>
+<li class="lvl4"><a href="#4-autorisasjon">§ 4. Autorisasjon</a></li>
+<li class="lvl4"><a href="#5-lisens">§ 5. Lisens</a></li>
+<li class="lvl4"><a href="#6-internasjonale-avtaler">§ 6. Internasjonale avtaler</a></li>
+<li class="lvl4"><a href="#7-grensepraksis">§ 7. Grensepraksis</a></li>
+<li class="lvl4"><a href="#8-godkjenning-av-spesialister">§ 8. Godkjenning av spesialister</a></li>
+<li class="lvl4"><a href="#9-myndighet-til-a-gi-autorisasjon-lisens-og-andre-godkjenninger">§ 9. Myndighet til å gi autorisasjon, lisens og andre godkjenninger</a></li>
+<li class="lvl4"><a href="#9a-forholdet-til-tjenesteloven">§ 9a. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#10-avslag-pa-sknad-om-autorisasjon-lisens-eller-andre-godkjenninger">§ 10. Avslag på søknad om autorisasjon, lisens eller andre godkjenninger</a></li>
+<li class="lvl4"><a href="#11-aldersgrense-og-fraskrivelse-av-autorisasjon-lisens-og-spesialistgodkjenning">§ 11. Aldersgrense og fraskrivelse av autorisasjon, lisens og spesialistgodkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-dyrehelsepersonells-plikter-og-rettigheter">Kapittel 3. Dyrehelsepersonells plikter og rettigheter</a></li>
+<li class="lvl4"><a href="#12-dyrehelsepersonells-plikter">§ 12. Dyrehelsepersonells plikter</a></li>
+<li class="lvl4"><a href="#13-utvelse-av-virksomhet-mm">§ 13. Utøvelse av virksomhet m.m.</a></li>
+<li class="lvl4"><a href="#14-ndhjelp">§ 14. Nødhjelp</a></li>
+<li class="lvl4"><a href="#15-bruk-av-medhjelper">§ 15. Bruk av medhjelper</a></li>
+<li class="lvl4"><a href="#16-bruk-av-beskyttet-tittel">§ 16. Bruk av beskyttet tittel</a></li>
+<li class="lvl4"><a href="#17-rekvirering-av-legemidler-til-dyr">§ 17. Rekvirering av legemidler til dyr</a></li>
+<li class="lvl4"><a href="#18-om-medisinsk-behandling-av-dyr-og-bruk-av-bestemte-metoder-mm">§ 18. Om medisinsk behandling av dyr og bruk av bestemte metoder m.m.</a></li>
+<li class="lvl4"><a href="#19-tillatelse-til-eller-forbud-mot-bruk-av-bestemte-metoder-etc">§ 19. Tillatelse til eller forbud mot bruk av bestemte metoder etc.</a></li>
+<li class="lvl4"><a href="#20-hovedregel-om-taushetsplikt">§ 20. Hovedregel om taushetsplikt</a></li>
+<li class="lvl4"><a href="#21-begrensninger-i-taushetsplikten">§ 21. Begrensninger i taushetsplikten</a></li>
+<li class="lvl4"><a href="#22-opplysninger-til-dyreeier">§ 22. Opplysninger til dyreeier</a></li>
+<li class="lvl4"><a href="#23-forsvarlig-virksomhet">§ 23. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#24-om-ordnede-opptegnelser-meldinger-rapporter-og-innsyn-i-journal">§ 24. Om ordnede opptegnelser, meldinger, rapporter og innsyn i journal</a></li>
+<li class="lvl4"><a href="#25-sikkerhetsstillelse">§ 25. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl4"><a href="#27-beordring-i-krisesituasjoner">§ 27. Beordring i krisesituasjoner</a></li>
+<li class="lvl4"><a href="#28-utstedelse-av-faglige-attester-og-erklringer">§ 28. Utstedelse av faglige attester og erklæringer</a></li>
+<li class="lvl4"><a href="#29-bortfall-av-rett-til-a-utve-virksomhet-der-dyrehelsepersonell-opptrer-som-apoteker-eller-apotekbestyrer">§ 29. Bortfall av rett til å utøve virksomhet der dyrehelsepersonell opptrer som apoteker eller apotekbestyrer</a></li>
+<li class="lvl2"><a href="#kapittel-4-det-veterinrmedisinske-rettsrad">Kapittel 4. Det veterinærmedisinske rettsråd</a></li>
+<li class="lvl4"><a href="#30-radets-oppnevning-og-sammensetning">§ 30. Rådets oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#31-radets-oppgaver">§ 31. Rådets oppgaver</a></li>
+<li class="lvl4"><a href="#32-radets-innsynsrett-i-journaler-mv">§ 32. Rådets innsynsrett i journaler m.v.</a></li>
+<li class="lvl4"><a href="#33-godtgjrelse">§ 33. Godtgjørelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-straff-og-andre-sanksjoner">Kapittel 5. Straff og andre sanksjoner</a></li>
+<li class="lvl4"><a href="#34-advarsel">§ 34. Advarsel</a></li>
+<li class="lvl4"><a href="#35-tilbakekall-og-suspensjon-av-autorisasjon-lisens-eller-andre-godkjenninger">§ 35. Tilbakekall og suspensjon av autorisasjon, lisens eller andre godkjenninger</a></li>
+<li class="lvl4"><a href="#36-tap-av-rekvireringsrett">§ 36. Tap av rekvireringsrett</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl4"><a href="#37-a-avgift-og-gebyr">§ 37 a. Avgift og gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-ikrafttreden">§ 38. Ikrafttreden</a></li>
+<li class="lvl4"><a href="#39-overgangsordninger">§ 39. Overgangsordninger</a></li>
+<li class="lvl4"><a href="#40-endringer-i-andre-lover">§ 40. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2015-06-19-65.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-75.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om veterinærer og annet dyrehelsepersonell [dyrehelsepersonelloven]</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-06-15-75.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2001-06-15-75 <code>lov/2001-06-15-75</code></td></tr>
+<tr><th>Korttittel</th><td>Dyrehelsepersonelloven</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Helse- og omsorgsrett &raquo; Helsepersonell\nLandbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2002, 15.08.2005</td></tr>
+<tr><th>Sist endret</th><td>LOV-2015-06-19-65 <code>lov/2015-06-19-65</code> fra 01.10.2015</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2001-06-15-75" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-definisjoner-og-virkeomrade">Kapittel 1. Formål, definisjoner og virkeområde</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-lovens-virkeomrade">§ 3. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#3-a-kommunens-ansvar">§ 3 a. Kommunens ansvar</a></li>
+<li class="lvl2"><a href="#kapittel-2-autorisasjon-lisens-og-andre-godkjenninger">Kapittel 2. Autorisasjon, lisens og andre godkjenninger</a></li>
+<li class="lvl4"><a href="#4-autorisasjon">§ 4. Autorisasjon</a></li>
+<li class="lvl4"><a href="#5-lisens">§ 5. Lisens</a></li>
+<li class="lvl4"><a href="#6-internasjonale-avtaler">§ 6. Internasjonale avtaler</a></li>
+<li class="lvl4"><a href="#7-grensepraksis">§ 7. Grensepraksis</a></li>
+<li class="lvl4"><a href="#8-godkjenning-av-spesialister">§ 8. Godkjenning av spesialister</a></li>
+<li class="lvl4"><a href="#9-myndighet-til-a-gi-autorisasjon-lisens-og-andre-godkjenninger">§ 9. Myndighet til å gi autorisasjon, lisens og andre godkjenninger</a></li>
+<li class="lvl4"><a href="#9a-forholdet-til-tjenesteloven">§ 9a. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#10-avslag-pa-sknad-om-autorisasjon-lisens-eller-andre-godkjenninger">§ 10. Avslag på søknad om autorisasjon, lisens eller andre godkjenninger</a></li>
+<li class="lvl4"><a href="#11-aldersgrense-og-fraskrivelse-av-autorisasjon-lisens-og-spesialistgodkjenning">§ 11. Aldersgrense og fraskrivelse av autorisasjon, lisens og spesialistgodkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-3-dyrehelsepersonells-plikter-og-rettigheter">Kapittel 3. Dyrehelsepersonells plikter og rettigheter</a></li>
+<li class="lvl4"><a href="#12-dyrehelsepersonells-plikter">§ 12. Dyrehelsepersonells plikter</a></li>
+<li class="lvl4"><a href="#13-utvelse-av-virksomhet-mm">§ 13. Utøvelse av virksomhet m.m.</a></li>
+<li class="lvl4"><a href="#14-ndhjelp">§ 14. Nødhjelp</a></li>
+<li class="lvl4"><a href="#15-bruk-av-medhjelper">§ 15. Bruk av medhjelper</a></li>
+<li class="lvl4"><a href="#16-bruk-av-beskyttet-tittel">§ 16. Bruk av beskyttet tittel</a></li>
+<li class="lvl4"><a href="#17-rekvirering-av-legemidler-til-dyr">§ 17. Rekvirering av legemidler til dyr</a></li>
+<li class="lvl4"><a href="#18-om-medisinsk-behandling-av-dyr-og-bruk-av-bestemte-metoder-mm">§ 18. Om medisinsk behandling av dyr og bruk av bestemte metoder m.m.</a></li>
+<li class="lvl4"><a href="#19-tillatelse-til-eller-forbud-mot-bruk-av-bestemte-metoder-etc">§ 19. Tillatelse til eller forbud mot bruk av bestemte metoder etc.</a></li>
+<li class="lvl4"><a href="#20-hovedregel-om-taushetsplikt">§ 20. Hovedregel om taushetsplikt</a></li>
+<li class="lvl4"><a href="#21-begrensninger-i-taushetsplikten">§ 21. Begrensninger i taushetsplikten</a></li>
+<li class="lvl4"><a href="#22-opplysninger-til-dyreeier">§ 22. Opplysninger til dyreeier</a></li>
+<li class="lvl4"><a href="#23-forsvarlig-virksomhet">§ 23. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#24-om-ordnede-opptegnelser-meldinger-rapporter-og-innsyn-i-journal">§ 24. Om ordnede opptegnelser, meldinger, rapporter og innsyn i journal</a></li>
+<li class="lvl4"><a href="#25-sikkerhetsstillelse">§ 25. Sikkerhetsstillelse</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl4"><a href="#27-beordring-i-krisesituasjoner">§ 27. Beordring i krisesituasjoner</a></li>
+<li class="lvl4"><a href="#28-utstedelse-av-faglige-attester-og-erklringer">§ 28. Utstedelse av faglige attester og erklæringer</a></li>
+<li class="lvl4"><a href="#29-bortfall-av-rett-til-a-utve-virksomhet-der-dyrehelsepersonell-opptrer-som-apoteker-eller-apotekbestyrer">§ 29. Bortfall av rett til å utøve virksomhet der dyrehelsepersonell opptrer som apoteker eller apotekbestyrer</a></li>
+<li class="lvl2"><a href="#kapittel-4-det-veterinrmedisinske-rettsrad">Kapittel 4. Det veterinærmedisinske rettsråd</a></li>
+<li class="lvl4"><a href="#30-radets-oppnevning-og-sammensetning">§ 30. Rådets oppnevning og sammensetning</a></li>
+<li class="lvl4"><a href="#31-radets-oppgaver">§ 31. Rådets oppgaver</a></li>
+<li class="lvl4"><a href="#32-radets-innsynsrett-i-journaler-mv">§ 32. Rådets innsynsrett i journaler m.v.</a></li>
+<li class="lvl4"><a href="#33-godtgjrelse">§ 33. Godtgjørelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-straff-og-andre-sanksjoner">Kapittel 5. Straff og andre sanksjoner</a></li>
+<li class="lvl4"><a href="#34-advarsel">§ 34. Advarsel</a></li>
+<li class="lvl4"><a href="#35-tilbakekall-og-suspensjon-av-autorisasjon-lisens-eller-andre-godkjenninger">§ 35. Tilbakekall og suspensjon av autorisasjon, lisens eller andre godkjenninger</a></li>
+<li class="lvl4"><a href="#36-tap-av-rekvireringsrett">§ 36. Tap av rekvireringsrett</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl4"><a href="#37-a-avgift-og-gebyr">§ 37 a. Avgift og gebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#38-ikrafttreden">§ 38. Ikrafttreden</a></li>
+<li class="lvl4"><a href="#39-overgangsordninger">§ 39. Overgangsordninger</a></li>
+<li class="lvl4"><a href="#40-endringer-i-andre-lover">§ 40. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-75.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-06-15-75.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-75.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2001-06-15-75.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2001-06-15-75.html">Observerte kildeutgaver</a> · <a href="../historie/dyrehelsepersonelloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2001-06-15-75.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2001-06-15-75.html">Observerte kildeutgaver</a> · <a href="../historie/dyrehelsepersonelloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2001-06-15-75.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-veterinrer-og-annet-dyrehelsepersonell-dyrehelsepersonelloven">Lov om veterinærer og annet dyrehelsepersonell [dyrehelsepersonelloven]</h1>
 <h2 id="kapittel-1-formal-definisjoner-og-virkeomrade">Kapittel 1. Formål, definisjoner og virkeområde</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Lovens formål er å bidra til at dyrehelsepersonell utøver forsvarlig virksomhet og dermed bidrar til god dyrehelse, forsvarlig dyrevern, trygg mat og ivaretakelse av miljøhensyn.</p>
-<p><em>Endret ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</em></p>
+<p class="note">Endret ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>Med dyrehelsepersonell forstås i denne loven personer som har autorisasjon eller lisens etter §§ 4 og 5 og personer som har rett til å arbeide midlertidig som dyrehelsepersonell uten norsk autorisasjon.</p>
 <p>Med akvatiske dyr forstås i denne loven vannlevende dyr, herunder sjøpattedyr, samt kjønnsprodukter, hvile- og forplantningsstadier av vannlevende dyr.</p>
-<p><em>Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</em></p>
+<p class="note">Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</p>
 <h4 id="3-lovens-virkeomrade">§ 3. Lovens virkeområde</h4>
 <p>Loven gjelder for dyrehelsepersonell i riket.</p>
 <p>Kongen kan gi forskrifter om lovens anvendelse på Svalbard og Jan Mayen, og kan fastsette særlige regler under hensyn til de stedlige forhold.</p>
 <h4 id="3-a-kommunens-ansvar">§ 3 a. Kommunens ansvar</h4>
 <p>Kommunene skal sørge for tilfredsstillende tilgang på tjenester fra dyrehelsepersonell.</p>
 <p>Kommunene har ansvar for å organisere en klinisk veterinærvakt utenom ordinær arbeidstid.</p>
-<p><em>Tilføyd ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</em></p>
+<p class="note">Tilføyd ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</p>
 <h2 id="kapittel-2-autorisasjon-lisens-og-andre-godkjenninger">Kapittel 2. Autorisasjon, lisens og andre godkjenninger</h2>
 <h4 id="4-autorisasjon">§ 4. Autorisasjon</h4>
 <p>Rett til autorisasjon som veterinær (dyrlege) og fiskehelsebiolog har den som dokumenterer relevant eksamen ved norsk universitet eller vitenskapelig høgskole.</p>
@@ -107,8 +250,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Departementet gir nærmere forskrifter om betingelsene for å få lisens og de vilkårene som kan knyttes til den.</p>
 <h4 id="6-internasjonale-avtaler">§ 6. Internasjonale avtaler</h4>
 <p>Autorisasjon, lisens og andre godkjenninger kan gis etter gjensidig avtale med fremmed stat. 1 Departementet kan ved forskrift gi nærmere regler om autorisasjon, lisens og godkjenninger av dyrehelsepersonell på grunnlag av utenlandske yrkeskvalifikasjoner samt kontroll, plikter og rettigheter for slikt dyrehelsepersonell.</p>
-<p><em>Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).
-1 Jf. EØS-avtalen vedlegg VII nr. 1 (direktiv 2005/36/EF ).</em></p>
+<p class="note">Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).
+1 Jf. EØS-avtalen vedlegg VII nr. 1 (direktiv 2005/36/EF ).</p>
 <h4 id="7-grensepraksis">§ 7. Grensepraksis</h4>
 <p>Autoriserte veterinærer som driver praksis i Sverige og Finland i veterinærdistrikter som grenser til Norge, kan i særlige tilfeller yte veterinære tjenester i tilgrensende norsk veterinærdistrikt uten autorisasjon eller lisens fra departementet.</p>
 <h4 id="8-godkjenning-av-spesialister">§ 8. Godkjenning av spesialister</h4>
@@ -119,7 +262,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Kongen kan gi forskrift om saksbehandlingsregler til utfylling av reglene i tjenesteloven , herunder om saksbehandlingsfrist og rettsvirkninger av fristoverskridelse.</p>
 <p>Unntak fra tjenesteloven § 11 annet ledd kan bare gjøres når det er begrunnet ut fra tvingende allmenne hensyn, herunder hensynet til privatpersoners beskyttelsesverdige interesser.</p>
 <p>Saksbehandlingsreglene kan fravike reglene i denne loven og <a href="lov-2025-06-20-81.html">forvaltningsloven</a> .</p>
-<p><em>Tilføyd ved lov 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 2009 nr. 103 (ikr. 28 des 2009 iflg. res. 19 juni 2009 nr. 672 ).</p>
 <h4 id="10-avslag-pa-sknad-om-autorisasjon-lisens-eller-andre-godkjenninger">§ 10. Avslag på søknad om autorisasjon, lisens eller andre godkjenninger</h4>
 <p>Dersom det foreligger forhold som gir grunnlag for tilbakekall etter § 35 , kan departementet eller den departementet bemyndiger avslå søknad om autorisasjon, lisens eller spesialistgodkjenning.</p>
 <h4 id="11-aldersgrense-og-fraskrivelse-av-autorisasjon-lisens-og-spesialistgodkjenning">§ 11. Aldersgrense og fraskrivelse av autorisasjon, lisens og spesialistgodkjenning</h4>
@@ -137,13 +280,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dyrehelsepersonell kan utøve slik virksomhet som utdanningen kvalifiserer til innen de rammene denne og andre relevante lover setter.</p>
 <p>Dyrehelsepersonell har plikt til å utøve sin virksomhet på en faglig forsvarlig måte.</p>
 <p>Departementet kan i medhold av § 5 knytte vilkår til lisens og herunder bestemme at innehaver skal være underlagt tilsyn av annet dyrehelsepersonell.</p>
-<p><em>Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</em></p>
+<p class="note">Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</p>
 <h4 id="14-ndhjelp">§ 14. Nødhjelp</h4>
 <p>Dyrehelsepersonell plikter snarest mulig etter anmodning å yte den hjelp vedkommende evner – personlig eller ved stedfortreder – når det etter tilgjengelige opplysninger må antas at øyeblikkelig hjelp er påtrengende nødvendig. Plikten faller bort ved gyldig forfall eller ved at hjelp i tide blir ytt av annet dyrehelsepersonell.</p>
 <p>For den hjelp dyrehelsepersonell har ytt etter foregående ledd, kan hun eller han kreve en passende godtgjørelse fra staten dersom hun eller han ikke etter krav får betaling av rekvirenten eller den som har betalingsplikten. Dersom rekvirenten eller dyrehelsepersonellet selv har hjelpeplikt etter <a href="lov-2009-06-19-97.html">dyrevelferdsloven</a> 1 § 4 og dyret er viltlevende eller ikke har en kjent eier eller innehaver, kan dyrehelsepersonell kreve en passende godtgjørelse fra staten for nødvendig hjelp.</p>
 <p>Departementet kan gi forskrifter om når øyeblikkelig hjelp er påtrengende nødvendig, hva som er nødvendig hjelp, passende godtgjørelse og om andre vilkår for godtgjørelse etter denne bestemmelsen.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 97 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 703 ).
-1 Inkurie: Loven har ikke offisiell korttittel.</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 97 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 703 ).
+1 Inkurie: Loven har ikke offisiell korttittel.</p>
 <h4 id="15-bruk-av-medhjelper">§ 15. Bruk av medhjelper</h4>
 <p>Dyrehelsepersonell kan i sin virksomhet la seg bistå av annet personell forutsatt at det gis tilstrekkelig instruksjon og føres tilsyn. Den som overlater utførelse av oppgaver til andre, skal påse at vedkommende har de kvalifikasjonene som kreves for forsvarlig utførelse av oppgavene.</p>
 <p>Departementet kan gi nærmere forskrifter om dyrehelsepersonells bruk av medhjelper.</p>
@@ -151,7 +294,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bare den som har autorisasjon, lisens eller spesialistgodkjenning i medhold av denne loven, har rett til å benytte slik tittel som er fastsatt for vedkommende gruppe av dyrehelsepersonell. Unntak gjøres for veterinærer som har rett til å arbeide midlertidig som dyrehelsepersonell uten norsk autorisasjon.</p>
 <p>Dyrehelsepersonell som ikke er veterinærer, men som har rett til å arbeide midlertidig som dyrehelsepersonell uten norsk autorisasjon, skal benytte sine utenlandske titler.</p>
 <p>Andre må ikke benytte titler eller annonsere virksomhet på en slik måte at det gir eller er egnet til å gi inntrykk av at vedkommende har en bestemt autorisasjon, lisens eller spesialistgodkjenning.</p>
-<p><em>Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</em></p>
+<p class="note">Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</p>
 <h4 id="17-rekvirering-av-legemidler-til-dyr">§ 17. Rekvirering av legemidler til dyr</h4>
 <p>Bare veterinærer kan rekvirere reseptpliktige legemidler til dyr.</p>
 <p>Uten hinder av første ledd kan fiskehelsebiologer rekvirere reseptpliktige legemidler til akvatiske dyr, unntatt sjøpattedyr.</p>
@@ -175,7 +318,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="19-tillatelse-til-eller-forbud-mot-bruk-av-bestemte-metoder-etc">§ 19. Tillatelse til eller forbud mot bruk av bestemte metoder etc.</h4>
 <p>Departementet kan ved forskrift fastsette at nærmere bestemte hjelpemidler og undersøkelses- og behandlingsmetoder bare kan nyttes av dyrehelsepersonell.</p>
 <p>Departementet kan ved forskrift fastsette at spesielle hjelpemidler og undersøkelses- og behandlingsmetoder bare kan nyttes av dyrehelsepersonell etter særskilt tillatelse fra departementet. Departementet kan forby bruk av bestemte undersøkelses- og behandlingsmetoder.</p>
-<p><em>Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</em></p>
+<p class="note">Endret ved lov 19 des 2008 nr. 120 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1483 ).</p>
 <h4 id="20-hovedregel-om-taushetsplikt">§ 20. Hovedregel om taushetsplikt</h4>
 <p>Dyrehelsepersonell og deres medhjelpere skal hindre at andre får adgang eller kjennskap til opplysninger som han eller hun har fått i sin virksomhet om</p>
 <ol>
@@ -217,7 +360,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dyrehelsepersonell som vil utøve privat virksomhet, skal stille sikkerhet for det ansvar de kan pådra seg i sin virksomhet. Forsikringen skal også omfatte skade voldt av eventuelle arbeidstakere.</p>
 <p>Departementet kan gi nærmere forskrifter om hvor stor sikkerhet som bør kreves.</p>
 <h4 id="26-opphevet">§ 26. (Opphevet)</h4>
-<p><em>Opphevet ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</em></p>
+<p class="note">Opphevet ved lov 21 des 2007 nr. 132 (ikr. 1 jan 2008).</p>
 <h4 id="27-beordring-i-krisesituasjoner">§ 27. Beordring i krisesituasjoner</h4>
 <p>I alvorlige krisesituasjoner kan departementet, eller den departementet bemyndiger, pålegge praktiserende dyrehelsepersonell plikt til å utføre offentlige tjenester etter avtalt godtgjørelse. Beordringen skal være for så kort tid som mulig. Plikten faller bort ved gyldig forfall.</p>
 <h4 id="28-utstedelse-av-faglige-attester-og-erklringer">§ 28. Utstedelse av faglige attester og erklæringer</h4>
@@ -234,7 +377,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Rådet skal stå til disposisjon for retten, påtalemyndigheten, offentlige forsvarere og oppnevnte sakkyndige i veterinærmedisinske spørsmål og dyrevern i forbindelse med sivile saker og straffesaker.</p>
 <p>Rådet kan avgi uttalelser og foreta undersøkelser for forsikringsselskaper og andre i saker om forsikring av dyr, dyrehelsepersonells ansvar, handelstvister og andre saker av veterinærmedisinsk eller dyrevernmessig art.</p>
 <p>Departementet kan fastsette nærmere bestemmelser om arbeidsform og ytterligere arbeidsoppgaver.</p>
-<p><em>Endret ved lover 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ), 19 juni 2009 nr. 97 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 703 ).</em></p>
+<p class="note">Endret ved lover 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ), 19 juni 2009 nr. 97 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 703 ).</p>
 <h4 id="32-radets-innsynsrett-i-journaler-mv">§ 32. Rådets innsynsrett i journaler m.v.</h4>
 <p>Dyrehelsepersonells journal med vedlegg og øvrige dokumenter om saker som behandles av Det veterinærmedisinske rettsråd, skal på forespørsel forelegges rådet.</p>
 <h4 id="33-godtgjrelse">§ 33. Godtgjørelse</h4>
@@ -242,7 +385,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h2 id="kapittel-5-straff-og-andre-sanksjoner">Kapittel 5. Straff og andre sanksjoner</h2>
 <h4 id="34-advarsel">§ 34. Advarsel</h4>
 <p>Departementet eller den departementet bemyndiger kan gi advarsel til dyrehelsepersonell som forsettlig eller uaktsomt overtrer plikter etter denne loven eller bestemmelser gitt i medhold av den, hvis pliktbruddet er egnet til å medføre fare for sikkerheten i dyrehelsetjenesten eller til å påføre dyreeier store belastninger og dyr unødig lidelse. Tilsvarende gjelder hvis dyrehelsepersonell har utvist atferd som er egnet til å svekke tilliten til deres yrkesgruppe. Advarsel er enkeltvedtak etter forvaltningsloven .</p>
-<p><em>Endret ved lov 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ).</em></p>
+<p class="note">Endret ved lov 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ).</p>
 <h4 id="35-tilbakekall-og-suspensjon-av-autorisasjon-lisens-eller-andre-godkjenninger">§ 35. Tilbakekall og suspensjon av autorisasjon, lisens eller andre godkjenninger</h4>
 <p>Autorisasjon, lisens eller spesialistgodkjenning gitt i medhold av denne loven, kan av departementet kalles tilbake dersom innehaver er uskikket til å utøve sitt yrke på grunn av alvorlig sinnslidelse, psykisk eller fysisk svekkelse, langt fravær fra yrket, misbruk av alkohol, bruk av narkotika eller midler med lignende virkning, grov mangel på faglig innsikt, uforsvarlig virksomhet eller ved grove pliktbrudd etter denne loven, eller forskrift gitt i medhold av den. I forbindelse med vurderingen, kan departementet pålegge vedkommende å la seg undersøke av relevant fagpersonell.</p>
 <p>Autorisasjon, lisens eller spesialistgodkjenning kan også kalles tilbake dersom innehaveren tross advarsel unnlater å innrette seg etter lov- eller forskriftsbestemte krav.</p>
@@ -256,7 +399,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>En veterinær kan selv gi bindende avkall på retten til å rekvirere enkelte legemidler for en bestemt tid eller for alltid.</p>
 <h4 id="37-straff">§ 37. Straff</h4>
 <p>Den som forsettlig eller uaktsomt overtrer denne loven eller bestemmelser gitt i medhold av den, straffes med bøter eller fengsel i inntil 3 måneder. Når det gjelder overtredelse av § 18 eller bestemmelser gitt i medhold av § 18 , kan straffen under særdeles skjerpende omstendigheter forhøyes til inntil 6 måneders fengsel.</p>
-<p><em>Endret ved lover 4 juli 2003 nr. 78 , 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lover 4 juli 2003 nr. 78 , 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="37-a-avgift-og-gebyr">§ 37 a. Avgift og gebyr</h4>
 <p>Kongen kan i forskrifter pålegge enhver omfattet av denne loven å betale gebyr for å dekke kostnader ved tilsyn, kontroll og særskilte ytelser, som utferdigelse av attester og godkjenninger mv., etter loven her.</p>
 <p>Kongen kan i forskrifter pålegge virksomheter omfattet av lov om matproduksjon og mattrygghet mv. (<a href="lov-2003-12-19-124.html">matloven</a>) å betale en avgift på næringsmidler som skal dekke kostnader ved tilsyn og kontroll etter loven her i den utstrekning aktivitetene retter seg mot dyr som brukes til produksjon av næringsmidler, såfremt kostnadene ikke dekkes ved gebyr i medhold av første ledd.</p>
@@ -264,7 +407,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Kongen kan gi nærmere bestemmelse om avgiftenes og gebyrenes beregning, oppkreving og innbetaling.</p>
 <p>Ved forsinket betaling av avgifter og gebyrer, skal det betales rente i samsvar med lov 17. desember 1976 nr. 100 om renter ved forsinket betaling.</p>
 <p>Avgifter og gebyrer er tvangsgrunnlag for utlegg.</p>
-<p><em>Tilføyd ved lov 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2003 nr. 129 (ikr. 1 jan 2004 iflg. res. 19 des 2003 nr. 1792 ).</p>
 <h2 id="kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</h2>
 <h4 id="38-ikrafttreden">§ 38. Ikrafttreden</h4>
 <p>Denne loven trer i kraft fra den tid Kongen bestemmer. 1 Samtidig oppheves lov 10. desember 1948 nr. 3 om veterinærer m.v.</p>
@@ -276,6 +419,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Departementet kan fastsette forskrifter med overgangsbestemmelser.</p>
 <h4 id="40-endringer-i-andre-lover">§ 40. Endringer i andre lover</h4>
 <p>I lov 20. desember 1974 nr. 73 om dyrevern gjøres følgende endringer: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

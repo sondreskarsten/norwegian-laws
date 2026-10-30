@@ -19,64 +19,267 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2002-06-21-34.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forbrukerkjøpsloven – fkjl" href="../feeds/lov-2002-06-21-34.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forbrukerkjøpsloven – fkjl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2002-06-21-34</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Forbruker-, kjøps- og konkurranserett &raquo; Forbrukerkjøp\nNæringsrett &raquo; Handel og tjenester</dd>
-<dt>Ikrafttredelse</dt><dd>2002-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-14-32</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2002-06-21-34" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-alminnelig-virkeomrade">§ 1. Alminnelig virkeområde</a></li>
+<li class="lvl4"><a href="#2-lovens-anvendelse-i-noen-srlige-forhold">§ 2. Lovens anvendelse i noen særlige forhold</a></li>
+<li class="lvl4"><a href="#3-ufravikelighet-lovvalg">§ 3. Ufravikelighet. Lovvalg</a></li>
+<li class="lvl4"><a href="#4-risikoen-for-sending-av-meldinger">§ 4. Risikoen for sending av meldinger</a></li>
+<li class="lvl2"><a href="#kapittel-2-leveringen-mv">Kapittel 2. Leveringen mv.</a></li>
+<li class="lvl4"><a href="#5-leveringsstedet">§ 5. Leveringsstedet</a></li>
+<li class="lvl4"><a href="#6-leveringstiden">§ 6. Leveringstiden</a></li>
+<li class="lvl4"><a href="#7-leveringen">§ 7. Leveringen</a></li>
+<li class="lvl4"><a href="#8-tilleggsplikter-ved-sendekjp">§ 8. Tilleggsplikter ved sendekjøp</a></li>
+<li class="lvl4"><a href="#9-selgerens-tilbakeholdsrett">§ 9. Selgerens tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#10-ansvar-for-kostnader">§ 10. Ansvar for kostnader</a></li>
+<li class="lvl4"><a href="#11-avkastning-av-tingen">§ 11. Avkastning av tingen</a></li>
+<li class="lvl4"><a href="#12-aksjer-rentebrende-fordringer">§ 12. Aksjer. Rentebærende fordringer</a></li>
+<li class="lvl2"><a href="#kapittel-3-risikoen-for-tingen">Kapittel 3. Risikoen for tingen</a></li>
+<li class="lvl4"><a href="#13-hva-risikoen-innebrer">§ 13. Hva risikoen innebærer</a></li>
+<li class="lvl4"><a href="#14-risikoens-overgang">§ 14. Risikoens overgang</a></li>
+<li class="lvl2"><a href="#kapittel-4-tingens-egenskaper-mangler-mv">Kapittel 4. Tingens egenskaper, mangler mv.</a></li>
+<li class="lvl4"><a href="#15-tingens-egenskaper">§ 15. Tingens egenskaper</a></li>
+<li class="lvl4"><a href="#16-mangel">§ 16. Mangel</a></li>
+<li class="lvl4"><a href="#17-mangel-som-skyldes-uriktig-installering">§ 17. Mangel som skyldes uriktig installering</a></li>
+<li class="lvl4"><a href="#18-tidspunktet-for-mangelsbedmmelsen-bevisbyrde">§ 18. Tidspunktet for mangelsbedømmelsen. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#18-a-garantier">§ 18 a. Garantier</a></li>
+<li class="lvl2"><a href="#kapittel-5-forsinkelse-forbrukerens-krav-som-flge-av-forsinket-levering">Kapittel 5. Forsinkelse. Forbrukerens krav som følge av forsinket levering</a></li>
+<li class="lvl4"><a href="#19-forbrukerens-krav-ved-forsinkelse">§ 19. Forbrukerens krav ved forsinkelse</a></li>
+<li class="lvl4"><a href="#20-tilbakeholdsrett">§ 20. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#21-rett-til-oppfyllelse">§ 21. Rett til oppfyllelse</a></li>
+<li class="lvl4"><a href="#22-foresprsel">§ 22. Forespørsel</a></li>
+<li class="lvl4"><a href="#23-heving">§ 23. Heving</a></li>
+<li class="lvl4"><a href="#24-erstatning">§ 24. Erstatning</a></li>
+<li class="lvl4"><a href="#25-opplysningsplikt-om-hindring">§ 25. Opplysningsplikt om hindring</a></li>
+<li class="lvl2"><a href="#kapittel-6-forbrukerens-krav-som-flge-av-mangler-ved-salgsgjenstanden">Kapittel 6. Forbrukerens krav som følge av mangler ved salgsgjenstanden</a></li>
+<li class="lvl4"><a href="#26-forbrukerens-krav-ved-mangler">§ 26. Forbrukerens krav ved mangler</a></li>
+<li class="lvl4"><a href="#27-reklamasjon">§ 27. Reklamasjon</a></li>
+<li class="lvl4"><a href="#28-tilbakeholdsrett">§ 28. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#29-retting-og-omlevering-avhjelp">§ 29. Retting og omlevering (avhjelp)</a></li>
+<li class="lvl4"><a href="#30-gjennomfring-av-avhjelp">§ 30. Gjennomføring av avhjelp</a></li>
+<li class="lvl4"><a href="#31-prisavslag">§ 31. Prisavslag</a></li>
+<li class="lvl4"><a href="#32-heving">§ 32. Heving</a></li>
+<li class="lvl4"><a href="#33-erstatning">§ 33. Erstatning</a></li>
+<li class="lvl4"><a href="#34-produktskader">§ 34. Produktskader</a></li>
+<li class="lvl4"><a href="#35-krav-mot-tidligere-salgsledd-mv">§ 35. Krav mot tidligere salgsledd mv.</a></li>
+<li class="lvl4"><a href="#36-ansvar-for-opplysninger-etter-16annet-ledd">§ 36. Ansvar for opplysninger etter§ 16annet ledd</a></li>
+<li class="lvl2"><a href="#kapittel-7-forbrukerens-plikter">Kapittel 7. Forbrukerens plikter</a></li>
+<li class="lvl4"><a href="#37-kjpesummens-strrelse">§ 37. Kjøpesummens størrelse</a></li>
+<li class="lvl4"><a href="#38-tidspunktet-for-betaling-tilbakeholdsrett">§ 38. Tidspunktet for betaling. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#39-sted-for-betaling">§ 39. Sted for betaling</a></li>
+<li class="lvl4"><a href="#40-forbrukerens-medvirkning-ved-oppfyllelse-av-kjpet">§ 40. Forbrukerens medvirkning ved oppfyllelse av kjøpet</a></li>
+<li class="lvl2"><a href="#kapittel-8-avbestilling-og-retur">Kapittel 8. Avbestilling og retur</a></li>
+<li class="lvl4"><a href="#41-avbestilling-fr-levering">§ 41. Avbestilling før levering</a></li>
+<li class="lvl4"><a href="#42-retur-etter-levering">§ 42. Retur etter levering</a></li>
+<li class="lvl2"><a href="#kapittel-9-selgerens-krav-ved-kontraktsbrudd-fra-forbrukerens-side">Kapittel 9. Selgerens krav ved kontraktsbrudd fra forbrukerens side</a></li>
+<li class="lvl4"><a href="#43-selgerens-krav">§ 43. Selgerens krav</a></li>
+<li class="lvl4"><a href="#44-rett-til-a-kreve-oppfyllelse">§ 44. Rett til å kreve oppfyllelse</a></li>
+<li class="lvl4"><a href="#45-heving">§ 45. Heving</a></li>
+<li class="lvl4"><a href="#46-erstatning-rente">§ 46. Erstatning. Rente</a></li>
+<li class="lvl4"><a href="#47-opplysningsplikt-om-hindring">§ 47. Opplysningsplikt om hindring</a></li>
+<li class="lvl4"><a href="#48-spesifikasjon">§ 48. Spesifikasjon</a></li>
+<li class="lvl4"><a href="#48-a-stenging-pa-grunn-av-forbrukerens-kontraktsbrudd-ved-avtaler-om-overfring-av-elektrisk-energi">§ 48 a. Stenging på grunn av forbrukerens kontraktsbrudd ved avtaler om overføring av elektrisk energi</a></li>
+<li class="lvl2"><a href="#kapittel-10-fellesregler-om-heving-og-omlevering">Kapittel 10. Fellesregler om heving og omlevering</a></li>
+<li class="lvl4"><a href="#49-virkninger-av-heving">§ 49. Virkninger av heving</a></li>
+<li class="lvl4"><a href="#50-avkastning-og-rente-ved-tilbakefring">§ 50. Avkastning og rente ved tilbakeføring</a></li>
+<li class="lvl4"><a href="#51-tingens-tilstand-ved-heving-og-omlevering">§ 51. Tingens tilstand ved heving og omlevering</a></li>
+<li class="lvl2"><a href="#kapittel-11-fellesregler-om-erstatning">Kapittel 11. Fellesregler om erstatning</a></li>
+<li class="lvl4"><a href="#52-erstatningens-omfang">§ 52. Erstatningens omfang</a></li>
+<li class="lvl4"><a href="#53-beregning-av-prisforskjell-ved-heving">§ 53. Beregning av prisforskjell ved heving</a></li>
+<li class="lvl4"><a href="#54-plikt-til-a-begrense-tapet-lemping-av-ansvaret">§ 54. Plikt til å begrense tapet. Lemping av ansvaret</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskjellige-bestemmelser">Kapittel 12. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#55-forventet-kontraktsbrudd">§ 55. Forventet kontraktsbrudd</a></li>
+<li class="lvl4"><a href="#56-insolvensbehandling">§ 56. Insolvensbehandling</a></li>
+<li class="lvl4"><a href="#57-kontraktsbrudd-ved-del-av-tingen">§ 57. Kontraktsbrudd ved del av tingen</a></li>
+<li class="lvl4"><a href="#58-opphevet">§ 58. (Opphevet)</a></li>
+<li class="lvl4"><a href="#59-selgerens-hevingsrett-nar-det-skal-leveres-etter-hvert">§ 59. Selgerens hevingsrett når det skal leveres etter hvert</a></li>
+<li class="lvl4"><a href="#60-omsorg-for-tingen">§ 60. Omsorg for tingen</a></li>
+<li class="lvl4"><a href="#61-srlig-forbrukerbegrep-i-visse-internasjonale-kjp">§ 61. Særlig forbrukerbegrep i visse internasjonale kjøp</a></li>
+<li class="lvl4"><a href="#61-a-tilsyn">§ 61 a. Tilsyn</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 13. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#62-ikrafttredelse">§ 62. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#63-endringer-i-andre-lover">§ 63. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-14-32.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-21-34.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om forbrukerkjøp (forbrukerkjøpsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2002-06-21-34.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2002-06-21-34 <code>lov/2002-06-21-34</code></td></tr>
+<tr><th>Korttittel</th><td>Forbrukerkjøpsloven – fkjl</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Forbruker-, kjøps- og konkurranserett &raquo; Forbrukerkjøp\nNæringsrett &raquo; Handel og tjenester</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2002</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-14-32 <code>lov/2024-06-14-32</code> fra 01.07.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2002-06-21-34" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-alminnelig-virkeomrade">§ 1. Alminnelig virkeområde</a></li>
+<li class="lvl4"><a href="#2-lovens-anvendelse-i-noen-srlige-forhold">§ 2. Lovens anvendelse i noen særlige forhold</a></li>
+<li class="lvl4"><a href="#3-ufravikelighet-lovvalg">§ 3. Ufravikelighet. Lovvalg</a></li>
+<li class="lvl4"><a href="#4-risikoen-for-sending-av-meldinger">§ 4. Risikoen for sending av meldinger</a></li>
+<li class="lvl2"><a href="#kapittel-2-leveringen-mv">Kapittel 2. Leveringen mv.</a></li>
+<li class="lvl4"><a href="#5-leveringsstedet">§ 5. Leveringsstedet</a></li>
+<li class="lvl4"><a href="#6-leveringstiden">§ 6. Leveringstiden</a></li>
+<li class="lvl4"><a href="#7-leveringen">§ 7. Leveringen</a></li>
+<li class="lvl4"><a href="#8-tilleggsplikter-ved-sendekjp">§ 8. Tilleggsplikter ved sendekjøp</a></li>
+<li class="lvl4"><a href="#9-selgerens-tilbakeholdsrett">§ 9. Selgerens tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#10-ansvar-for-kostnader">§ 10. Ansvar for kostnader</a></li>
+<li class="lvl4"><a href="#11-avkastning-av-tingen">§ 11. Avkastning av tingen</a></li>
+<li class="lvl4"><a href="#12-aksjer-rentebrende-fordringer">§ 12. Aksjer. Rentebærende fordringer</a></li>
+<li class="lvl2"><a href="#kapittel-3-risikoen-for-tingen">Kapittel 3. Risikoen for tingen</a></li>
+<li class="lvl4"><a href="#13-hva-risikoen-innebrer">§ 13. Hva risikoen innebærer</a></li>
+<li class="lvl4"><a href="#14-risikoens-overgang">§ 14. Risikoens overgang</a></li>
+<li class="lvl2"><a href="#kapittel-4-tingens-egenskaper-mangler-mv">Kapittel 4. Tingens egenskaper, mangler mv.</a></li>
+<li class="lvl4"><a href="#15-tingens-egenskaper">§ 15. Tingens egenskaper</a></li>
+<li class="lvl4"><a href="#16-mangel">§ 16. Mangel</a></li>
+<li class="lvl4"><a href="#17-mangel-som-skyldes-uriktig-installering">§ 17. Mangel som skyldes uriktig installering</a></li>
+<li class="lvl4"><a href="#18-tidspunktet-for-mangelsbedmmelsen-bevisbyrde">§ 18. Tidspunktet for mangelsbedømmelsen. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#18-a-garantier">§ 18 a. Garantier</a></li>
+<li class="lvl2"><a href="#kapittel-5-forsinkelse-forbrukerens-krav-som-flge-av-forsinket-levering">Kapittel 5. Forsinkelse. Forbrukerens krav som følge av forsinket levering</a></li>
+<li class="lvl4"><a href="#19-forbrukerens-krav-ved-forsinkelse">§ 19. Forbrukerens krav ved forsinkelse</a></li>
+<li class="lvl4"><a href="#20-tilbakeholdsrett">§ 20. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#21-rett-til-oppfyllelse">§ 21. Rett til oppfyllelse</a></li>
+<li class="lvl4"><a href="#22-foresprsel">§ 22. Forespørsel</a></li>
+<li class="lvl4"><a href="#23-heving">§ 23. Heving</a></li>
+<li class="lvl4"><a href="#24-erstatning">§ 24. Erstatning</a></li>
+<li class="lvl4"><a href="#25-opplysningsplikt-om-hindring">§ 25. Opplysningsplikt om hindring</a></li>
+<li class="lvl2"><a href="#kapittel-6-forbrukerens-krav-som-flge-av-mangler-ved-salgsgjenstanden">Kapittel 6. Forbrukerens krav som følge av mangler ved salgsgjenstanden</a></li>
+<li class="lvl4"><a href="#26-forbrukerens-krav-ved-mangler">§ 26. Forbrukerens krav ved mangler</a></li>
+<li class="lvl4"><a href="#27-reklamasjon">§ 27. Reklamasjon</a></li>
+<li class="lvl4"><a href="#28-tilbakeholdsrett">§ 28. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#29-retting-og-omlevering-avhjelp">§ 29. Retting og omlevering (avhjelp)</a></li>
+<li class="lvl4"><a href="#30-gjennomfring-av-avhjelp">§ 30. Gjennomføring av avhjelp</a></li>
+<li class="lvl4"><a href="#31-prisavslag">§ 31. Prisavslag</a></li>
+<li class="lvl4"><a href="#32-heving">§ 32. Heving</a></li>
+<li class="lvl4"><a href="#33-erstatning">§ 33. Erstatning</a></li>
+<li class="lvl4"><a href="#34-produktskader">§ 34. Produktskader</a></li>
+<li class="lvl4"><a href="#35-krav-mot-tidligere-salgsledd-mv">§ 35. Krav mot tidligere salgsledd mv.</a></li>
+<li class="lvl4"><a href="#36-ansvar-for-opplysninger-etter-16annet-ledd">§ 36. Ansvar for opplysninger etter§ 16annet ledd</a></li>
+<li class="lvl2"><a href="#kapittel-7-forbrukerens-plikter">Kapittel 7. Forbrukerens plikter</a></li>
+<li class="lvl4"><a href="#37-kjpesummens-strrelse">§ 37. Kjøpesummens størrelse</a></li>
+<li class="lvl4"><a href="#38-tidspunktet-for-betaling-tilbakeholdsrett">§ 38. Tidspunktet for betaling. Tilbakeholdsrett</a></li>
+<li class="lvl4"><a href="#39-sted-for-betaling">§ 39. Sted for betaling</a></li>
+<li class="lvl4"><a href="#40-forbrukerens-medvirkning-ved-oppfyllelse-av-kjpet">§ 40. Forbrukerens medvirkning ved oppfyllelse av kjøpet</a></li>
+<li class="lvl2"><a href="#kapittel-8-avbestilling-og-retur">Kapittel 8. Avbestilling og retur</a></li>
+<li class="lvl4"><a href="#41-avbestilling-fr-levering">§ 41. Avbestilling før levering</a></li>
+<li class="lvl4"><a href="#42-retur-etter-levering">§ 42. Retur etter levering</a></li>
+<li class="lvl2"><a href="#kapittel-9-selgerens-krav-ved-kontraktsbrudd-fra-forbrukerens-side">Kapittel 9. Selgerens krav ved kontraktsbrudd fra forbrukerens side</a></li>
+<li class="lvl4"><a href="#43-selgerens-krav">§ 43. Selgerens krav</a></li>
+<li class="lvl4"><a href="#44-rett-til-a-kreve-oppfyllelse">§ 44. Rett til å kreve oppfyllelse</a></li>
+<li class="lvl4"><a href="#45-heving">§ 45. Heving</a></li>
+<li class="lvl4"><a href="#46-erstatning-rente">§ 46. Erstatning. Rente</a></li>
+<li class="lvl4"><a href="#47-opplysningsplikt-om-hindring">§ 47. Opplysningsplikt om hindring</a></li>
+<li class="lvl4"><a href="#48-spesifikasjon">§ 48. Spesifikasjon</a></li>
+<li class="lvl4"><a href="#48-a-stenging-pa-grunn-av-forbrukerens-kontraktsbrudd-ved-avtaler-om-overfring-av-elektrisk-energi">§ 48 a. Stenging på grunn av forbrukerens kontraktsbrudd ved avtaler om overføring av elektrisk energi</a></li>
+<li class="lvl2"><a href="#kapittel-10-fellesregler-om-heving-og-omlevering">Kapittel 10. Fellesregler om heving og omlevering</a></li>
+<li class="lvl4"><a href="#49-virkninger-av-heving">§ 49. Virkninger av heving</a></li>
+<li class="lvl4"><a href="#50-avkastning-og-rente-ved-tilbakefring">§ 50. Avkastning og rente ved tilbakeføring</a></li>
+<li class="lvl4"><a href="#51-tingens-tilstand-ved-heving-og-omlevering">§ 51. Tingens tilstand ved heving og omlevering</a></li>
+<li class="lvl2"><a href="#kapittel-11-fellesregler-om-erstatning">Kapittel 11. Fellesregler om erstatning</a></li>
+<li class="lvl4"><a href="#52-erstatningens-omfang">§ 52. Erstatningens omfang</a></li>
+<li class="lvl4"><a href="#53-beregning-av-prisforskjell-ved-heving">§ 53. Beregning av prisforskjell ved heving</a></li>
+<li class="lvl4"><a href="#54-plikt-til-a-begrense-tapet-lemping-av-ansvaret">§ 54. Plikt til å begrense tapet. Lemping av ansvaret</a></li>
+<li class="lvl2"><a href="#kapittel-12-forskjellige-bestemmelser">Kapittel 12. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#55-forventet-kontraktsbrudd">§ 55. Forventet kontraktsbrudd</a></li>
+<li class="lvl4"><a href="#56-insolvensbehandling">§ 56. Insolvensbehandling</a></li>
+<li class="lvl4"><a href="#57-kontraktsbrudd-ved-del-av-tingen">§ 57. Kontraktsbrudd ved del av tingen</a></li>
+<li class="lvl4"><a href="#58-opphevet">§ 58. (Opphevet)</a></li>
+<li class="lvl4"><a href="#59-selgerens-hevingsrett-nar-det-skal-leveres-etter-hvert">§ 59. Selgerens hevingsrett når det skal leveres etter hvert</a></li>
+<li class="lvl4"><a href="#60-omsorg-for-tingen">§ 60. Omsorg for tingen</a></li>
+<li class="lvl4"><a href="#61-srlig-forbrukerbegrep-i-visse-internasjonale-kjp">§ 61. Særlig forbrukerbegrep i visse internasjonale kjøp</a></li>
+<li class="lvl4"><a href="#61-a-tilsyn">§ 61 a. Tilsyn</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 13. Ikrafttredelse og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#62-ikrafttredelse">§ 62. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#63-endringer-i-andre-lover">§ 63. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-21-34.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2002-06-21-34.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2002-06-21-34.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2002-06-21-34.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2002-06-21-34.html">Observerte kildeutgaver</a> · <a href="../historie/forbrukerkjøpsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/46b02a1967fa3cf728590262511c89c938f0ff7d/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2002</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/011dc1833d83a8386cca5e1edc8ff5fba32674cd/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2002-06-21-34.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2002-06-21-34.html">Observerte kildeutgaver</a> · <a href="../historie/forbrukerkjøpsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2002/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2002</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2006/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2006</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2002-06-21-34.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-forbrukerkjp-forbrukerkjpsloven">Lov om forbrukerkjøp (forbrukerkjøpsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-alminnelig-virkeomrade">§ 1. Alminnelig virkeområde</h4>
 <p>Loven gjelder forbrukerkjøp, hvis ikke noe annet er fastsatt i lov.</p>
@@ -99,11 +302,11 @@ d. avtale som pålegger den part som skal levere tingen, også å utføre et arb
 e. avtale om levering av digitale ytelser som ikke er omfattet av første ledd bokstav e
 f. kjøp av fysiske medier som etter avtalen utelukkende brukes som bærere av digitalt innhold. §§ 6 , 7 og 23 gjelder likevel for levering og forbrukerens krav ved forsinket levering av slike fysiske medier.</p>
 <p>Med digitale ytelser menes ytelser som nevnt i <a href="lov-2022-06-17-56.html">digitalytelsesloven</a> § 1 annet ledd.</p>
-<p><em>Endret ved lover 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lover 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="3-ufravikelighet-lovvalg">§ 3. Ufravikelighet. Lovvalg</h4>
 <p>Loven kan ikke fravikes ved avtale til skade for en forbruker. Første punktum har ikke betydning for gyldigheten av avtaler som inngås etter at forbrukeren har gitt melding om et kontraktsbrudd.</p>
 <p>Det kan ikke avtales at rettsreglene i en stat utenfor EØS skal anvendes på en kjøpsavtale som har nær tilknytning til EØS-statenes territorium, dersom forbrukeren ved dette får en dårligere beskyttelse enn etter loven her.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="4-risikoen-for-sending-av-meldinger">§ 4. Risikoen for sending av meldinger</h4>
 <p>Dersom en part gir melding i samsvar med loven og sender den på en måte som er forsvarlig etter forholdene, og ikke annet fremgår, kan avsenderen gjøre gjeldende at meldingen er gitt i tide, selv om det oppstår forsinkelse eller feil under fremsendingen eller meldingen ikke når frem til den andre parten.</p>
 <h2 id="kapittel-2-leveringen-mv">Kapittel 2. Leveringen mv.</h2>
@@ -115,10 +318,10 @@ f. kjøp av fysiske medier som etter avtalen utelukkende brukes som bærere av d
 <p>Tingen skal leveres uten unødig opphold og senest innen 30 dager etter kjøpet, hvis ikke noe annet er avtalt.</p>
 <p>Er det avtalt et tidsrom for levering, har selgeren rett til å velge tidspunktet om forholdene ikke viser at valget er forbrukerens.</p>
 <p>Har selgeren ved hentekjøp rett til å velge tidspunktet for levering, skal han eller hun i tide gi forbrukeren melding om når tingen kan hentes.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</p>
 <h4 id="7-leveringen">§ 7. Leveringen</h4>
 <p>Levering skjer når tingen overtas av forbrukeren. For ting som i samsvar med § 2 første ledd bokstav e skal leveres sammen med en digital ytelse, kreves det i tillegg at den digitale ytelsen er gjort tilgjengelig for forbrukeren. For ting som etter avtalen skal installeres av eller på vegne av selgeren, kreves det i tillegg at tingen er installert.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="8-tilleggsplikter-ved-sendekjp">§ 8. Tilleggsplikter ved sendekjøp</h4>
 <p>Skal selgeren sørge for at tingen blir sendt, plikter han eller hun å inngå de avtaler som trengs for å få tingen transportert til bestemmelsesstedet på egnet måte og på vanlige vilkår for slik transport.</p>
 <p>Skal ikke selgeren tegne transportforsikring for tingen, må han eller hun når forbrukeren ber om det, gi de opplysninger som forbrukeren trenger for å kunne tegne forsikring.</p>
@@ -145,7 +348,7 @@ f. kjøp av fysiske medier som etter avtalen utelukkende brukes som bærere av d
 <p>Risikoen går ikke over på forbrukeren før det ved merking, transportdokument eller på annen måte er gjort klart at tingen er tiltenkt forbrukeren.</p>
 <p>Ved sendekjøp går risikoen over på forbrukeren når forbrukeren, eller en tredjeperson forbrukeren har pekt ut som ikke er fraktføreren, fysisk har fått varene i sin besittelse. Risikoen går likevel over på forbrukeren når varene overlates til fraktføreren, dersom det er forbrukeren som har gitt fraktføreren transportoppdraget, og det ikke var selgeren som tilbød dette transportalternativet. Annet punktum berører ikke forbrukerens rettigheter overfor fraktføreren.</p>
 <p>Er en ting kjøpt og levert på prøve eller for øvrig med rett til tilbakelevering, har forbrukeren risikoen for tingen inntil den igjen er overtatt av selgeren. Dette gjelder likevel ikke når forbrukeren har rett til å levere tingen tilbake etter <a href="lov-2014-06-20-27.html">angrerettloven</a> eller tilsvarende angrefrist etter avtale om forbrukerkjøp.</p>
-<p><em>Endret ved lover 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h2 id="kapittel-4-tingens-egenskaper-mangler-mv">Kapittel 4. Tingens egenskaper, mangler mv.</h2>
 <h4 id="15-tingens-egenskaper">§ 15. Tingens egenskaper</h4>
 <p>Tingen skal være i samsvar med de krav til art, mengde, kvalitet, funksjonalitet og andre egenskaper som følger av avtalen. Tingen skal leveres med innpakning og alt tilbehør som følger av avtalen. Det samme gjelder veiledning, herunder veiledning om installasjon, og eventuelle oppdateringer. Tingen skal passe til særlige formål som forbrukeren senest på tidspunktet for avtaleinngåelsen har gjort selgeren kjent med, dersom selgeren har akseptert dette.</p>
@@ -158,7 +361,7 @@ d. leveres med relevant tilbehør, slik som innpakning, installasjonsveiledning,
 e. være i samsvar med offentligrettslige krav som stilles i lovgivningen eller offentlig vedtak i medhold av lov på den tid kjøpet inngås, hvis ikke forbrukeren har til hensikt å anvende tingen på en slik måte at kravet er uten betydning.</p>
 <p>For ting som i samsvar med § 2 første ledd bokstav e skal leveres sammen med en digital ytelse, skal selgeren sikre at forbrukeren får informasjon om og får levert oppdateringer, herunder sikkerhetsoppdateringer, som er nødvendige for at tingen fortsetter å være i samsvar med lovens krav. Gjelder avtalen en enkelt levering av en digital ytelse, gjelder selgerens plikter etter første punktum i den tidsperioden som forbrukeren med rimelighet kan forvente ut fra typen og formålet med tingen og den digitale ytelsen og under hensyn til avtalens omstendigheter og art. Gjelder avtalen en løpende levering av den digitale ytelsen, gjelder selgerens plikter etter første punktum så lenge den digitale ytelsen skal leveres, men likevel i minst to år etter leveringen av tingen.</p>
 <p>Selgeren er ikke ansvarlig for mangler som utelukkende skyldes at forbrukeren innen rimelig tid unnlater å installere oppdateringer som nevnt i fjerde ledd. Dette gjelder likevel bare dersom selgeren har informert forbrukeren om at oppdateringen var tilgjengelig og om følgene av at denne ikke installeres, og den manglende installeringen ikke skyldes feil i installasjonsveiledningen som er levert til forbrukeren.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="16-mangel">§ 16. Mangel</h4>
 <p>Tingen har en mangel dersom</p>
 <p>a. den ikke er i samsvar med ett eller flere av kravene i § 15 , med mindre det er avtalt unntak fra kravene i samsvar med § 15 annet ledd
@@ -167,23 +370,23 @@ c. den ikke svarer til opplysninger som selgeren i sin markedsføring eller elle
 d. bruken av tingen hindres eller begrenses som følge av krenkelse av en tredjepersons rett i tingen, for eksempel eiendomsrett, panterett eller immaterialrett, om ikke annet er avtalt.</p>
 <p>Første ledd bokstav c gjelder tilsvarende for opplysninger noen annen enn selgeren har gitt på tingens innpakning, i annonse eller annen markedsføring på vegne av selgeren eller tidligere salgsledd. Dette gjelder likevel ikke hvis selgeren viser at han eller hun verken kjente til eller med rimelighet kunne ha kjent til opplysningene.</p>
 <p>Forbrukeren kan ikke gjøre gjeldende som en mangel noe som har sin årsak i materialer som er levert av forbrukeren. Dette gjelder likevel ikke dersom selgeren på grunn av materialenes uegnethet burde ha frarådet bruken av dem.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="17-mangel-som-skyldes-uriktig-installering">§ 17. Mangel som skyldes uriktig installering</h4>
 <p>Feil ved tingen som skyldes uriktig installering, anses som en mangel dersom</p>
 <p>a. installering er del av kjøpsavtalen og ble utført av selgeren eller under selgerens ansvar, eller
 b. installeringen var ment å utføres av forbrukeren og ble utført av ham eller henne, og den uriktige installeringen skyldes mangler i installasjonsveiledningen som ble levert av selgeren. For ting som i samsvar med § 2 første ledd bokstav e skal leveres sammen med en digital ytelse, gjelder dette også der installasjonsveiledningen ble levert av tilbyderen av den digitale ytelsen.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="18-tidspunktet-for-mangelsbedmmelsen-bevisbyrde">§ 18. Tidspunktet for mangelsbedømmelsen. Bevisbyrde</h4>
 <p>Ved bedømmelsen av om tingen har en mangel, skal tidspunktet for leveringen av tingen legges til grunn, selv om mangelen først viser seg senere. For digitale ytelser som skal leveres løpende over en periode, jf. § 2 første ledd bokstav e, skal bedømmelsen skje ut fra tidspunktet eller perioden ytelsene ble eller skulle blitt levert. Det samme gjelder oppdateringer etter § 15 fjerde ledd.</p>
 <p>Hvis ikke noe annet bevises, skal en mangel som viser seg innen to år etter leveringen av tingen, formodes å ha eksistert ved leveringen. Gjelder avtalen digitale ytelser som skal leveres løpende, formodes selgeren, med mindre annet bevises, å være ansvarlig for mangler som oppstår eller viser seg innenfor perioden de digitale ytelsene skal leveres, men likevel i minst to år fra leveringen av ytelsene startet. Første og annet punktum gjelder likevel ikke dersom formodningen er uforenlig med varens eller mangelens art.</p>
 <p>Selgeren svarer også for en mangel som oppstår senere, dersom den skyldes kontraktsbrudd fra hans eller hennes side.</p>
-<p><em>Endret ved lover 15 juni 2007 nr. 36 (ikr. 1 jan 2008 iflg. res. 15 juni 2007 nr. 630 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2007 nr. 36 (ikr. 1 jan 2008 iflg. res. 15 juni 2007 nr. 630 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="18-a-garantier">§ 18 a. Garantier</h4>
 <p>Selgeren kan påta seg å svare for feil ved tingen som ikke er en mangel etter reglene i loven, og kan da fastsette hvilke krav forbrukeren kan gjøre gjeldende som følge av feilen. Selgeren kan også påta seg å svare i større utstrekning for en mangel enn etter reglene i loven.</p>
 <p>Har selgeren ved en garanti som nevnt i første ledd første punktum forpliktet seg til innenfor et visst tidsrom å svare helt eller delvis for tingens anvendelighet eller andre egenskaper uten å angi på en tydelig måte hvilke feil ved tingen selgeren svarer for og hvilke krav forbrukeren kan gjøre gjeldende som følge av feilen, foreligger det en mangel dersom tingen ikke svarer til selgerens forpliktelse. Dette gjelder likevel ikke hvis selgeren sannsynliggjør at feilen skyldes en ulykkeshendelse, feil håndtering av tingen eller annet forhold på forbrukerens side.</p>
 <p>Har andre enn selgeren gitt en garanti som nevnt i annet ledd, og den fremstår for forbrukeren som om den er gitt av selgeren, foreligger en mangel etter reglene i annet ledd. Dette gjelder likevel ikke dersom selgeren før kjøpet meddeler forbrukeren at han eller hun ikke er bundet av en garanti gitt av andre.</p>
 <p>En garanti er rettslig bindende for garantigiveren på de vilkår som er fastsatt i garantierklæringen og i tilknyttet reklame, og den begrenser ikke forbrukerens rettigheter etter loven her, jf. § 3 første ledd. Dersom vilkårene i garantierklæringen er mindre fordelaktige for forbrukeren enn vilkårene som fremgår av tilknyttet reklame, er garantien bindende på de vilkårene som fremgår av den tilknyttede reklamen. Dette gjelder likevel ikke dersom den tilknyttede reklamen før inngåelsen av avtalen er blitt rettet på samme eller tilsvarende måte som den ble fremsatt.</p>
-<p><em>Tilføyd ved lov 15 juni 2007 nr. 36 (ikr. 1 jan 2008 iflg. res. 15 juni 2007 nr. 630 ), endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Tilføyd ved lov 15 juni 2007 nr. 36 (ikr. 1 jan 2008 iflg. res. 15 juni 2007 nr. 630 ), endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h2 id="kapittel-5-forsinkelse-forbrukerens-krav-som-flge-av-forsinket-levering">Kapittel 5. Forsinkelse. Forbrukerens krav som følge av forsinket levering</h2>
 <h4 id="19-forbrukerens-krav-ved-forsinkelse">§ 19. Forbrukerens krav ved forsinkelse</h4>
 <p>Dersom tingen ikke blir levert eller blir levert for sent og dette ikke skyldes forbrukeren eller forhold på forbrukerens side (forsinkelse), kan forbrukeren</p>
@@ -193,7 +396,7 @@ c. kreve heving etter § 23
 d. kreve erstatning etter § 24 .</p>
 <p>Forbrukerens rett til erstatning faller ikke bort ved at han eller hun gjør gjeldende andre krav, eller ved at disse ikke kan gjøres gjeldende.</p>
 <p>Dersom selgeren ikke i tide oppfyller sine plikter ellers etter kjøpet, gjelder bestemmelsene om forsinkelse tilsvarende så langt de passer. Forbrukeren kan likevel heve avtalen ved forsinkelse av slike plikter først når forsinkelsen er vesentlig. Partene kan avtale en annen løsning.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="20-tilbakeholdsrett">§ 20. Tilbakeholdsrett</h4>
 <p>Forbrukeren kan holde tilbake betalingen for å dekke krav som følge av selgerens forsinkelse, men ikke åpenbart mer enn det som vil gi betryggende sikkerhet for kravet.</p>
 <h4 id="21-rett-til-oppfyllelse">§ 21. Rett til oppfyllelse</h4>
@@ -206,7 +409,7 @@ d. kreve erstatning etter § 24 .</p>
 <p>Har selgeren ikke levert tingen i tide i samsvar med § 6 , skal forbrukeren oppfordre selgeren til å levere innen en rimelig tilleggsfrist for oppfyllelse. Dersom selgeren ikke leverer innen denne tilleggsfristen, kan forbrukeren heve avtalen.</p>
 <p>Første ledd gjelder ikke hvis selgeren har nektet å levere varene, hvis levering innen avtalt tid er avgjørende for inngåelsen av avtalen, eller hvis forbrukeren før inngåelsen av avtalen har underrettet selgeren om at levering innen eller på et bestemt tidspunkt er avgjørende. Har selgeren i slike tilfeller ikke levert i tide i samsvar med § 6 , kan forbrukeren umiddelbart heve avtalen.</p>
 <p>Er tingen levert, må kravet om heving gjøres gjeldende innen rimelig tid etter at forbrukeren fikk vite om leveringen.</p>
-<p><em>Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2014 nr. 27 (ikr. 20 juni 2014 iflg. res. 20 juni 2014 nr. 776 ).</p>
 <h4 id="24-erstatning">§ 24. Erstatning</h4>
 <p>Forbrukeren kan kreve erstatning for tap han eller hun lider som følge av forsinkelse fra selgerens side.</p>
 <p>Dette gjelder likevel ikke så langt selgeren godtgjør at forsinkelsen skyldes hindring utenfor hans eller hennes kontroll, som selgeren ikke med rimelighet kunne ventes å ha tatt i betraktning på avtaletiden eller å unngå eller overvinne følgene av.</p>
@@ -225,39 +428,39 @@ d. kreve heving etter § 32
 e. kreve erstatning etter § 33 .</p>
 <p>Forbrukerens rett til erstatning faller ikke bort ved at han eller hun gjør gjeldende andre krav, eller ved at disse ikke kan gjøres gjeldende.</p>
 <p>For andre feil ved selgerens oppfyllelse gjelder bestemmelsene om mangler så langt de passer. Partene kan avtale en annen løsning.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="27-reklamasjon">§ 27. Reklamasjon</h4>
 <p>Dersom det foreligger en mangel ved tingen, må forbrukeren innen rimelig tid etter at han eller hun oppdaget eller burde ha oppdaget den, gi selgeren melding om at han eller hun vil påberope seg mangelen (reklamasjon). Denne fristen for å reklamere kan aldri være kortere enn to måneder fra det tidspunkt da forbrukeren oppdaget mangelen.</p>
 <p>Reklamasjon må senest skje to år etter at tingen ble levert. Dersom tingen eller deler av den ved vanlig bruk er ment å vare vesentlig lenger, er fristen for å reklamere fem år. For oppdateringer og digitale ytelser som etter avtalen skal leveres løpende over en lengre periode, er fristen for å reklamere likevel like lang som denne perioden. Fristene etter første til tredje punktum gjelder ikke der selgeren ved garanti eller annen avtale har påtatt seg ansvar for mangler i lengre tid, eller der det foreligger en mangel etter § 16 første ledd bokstav d.</p>
 <p>Reklamasjon kan i stedet fremsettes overfor den som etter avtale med selgeren har påtatt seg å avhjelpe mangler.</p>
 <p>Hvis forbrukeren ikke reklamerer i tide, tapes retten til å gjøre mangelen gjeldende. Dette gjelder ikke dersom selgeren har opptrådt grovt uaktsomt eller for øvrig i strid med redelighet og god tro. Retten til å gjøre mangelen gjeldende kan også tapes etter foreldelseslovens regler om foreldelse.</p>
-<p><em>Endret ved lover 15 juni 2007 nr. 36 , 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2007 nr. 36 , 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="28-tilbakeholdsrett">§ 28. Tilbakeholdsrett</h4>
 <p>Forbrukeren kan holde tilbake betalingen for å dekke krav som følge av mangelen, men ikke åpenbart mer enn det som vil gi betryggende sikkerhet for kravet.</p>
 <h4 id="29-retting-og-omlevering-avhjelp">§ 29. Retting og omlevering (avhjelp)</h4>
 <p>Forbrukeren kan velge mellom å kreve at selgeren sørger for retting av mangelen eller leverer tilsvarende ting (omlevering). Dette gjelder ikke hvis den valgte beføyelsen er umulig å gjennomføre eller vil påføre selgeren uforholdsmessig store kostnader. Ved avgjørelsen av om kostnadene er uforholdsmessige, skal det blant annet legges vekt på verdien av en mangelfri ting, mangelens betydning og om den andre beføyelsen kan gjennomføres uten vesentlig ulempe for forbrukeren.</p>
 <p>Hvis både retting og omlevering er umulig å gjennomføre eller vil påføre selgeren uforholdsmessig store kostnader, kan selgeren avvise å avhjelpe mangelen. Ved avgjørelsen av om kostnadene er uforholdsmessige, skal det blant annet legges vekt på verdien av en mangelfri ting og mangelens betydning.</p>
 <p>Selv om forbrukeren verken krever retting eller omlevering etter loven, kan selgeren tilby retting eller omlevering. Dersom selgeren sørger for slik retting eller omlevering i samsvar med loven, kan forbrukeren ikke kreve prisavslag eller heving. Forbrukeren kan likevel umiddelbart kreve prisavslag eller heving hvis mangelen etter sin art er så alvorlig at det ikke er rimelig å forvente at forbrukeren skal godta et tilbud om avhjelp.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="30-gjennomfring-av-avhjelp">§ 30. Gjennomføring av avhjelp</h4>
 <p>Avhjelp skal skje uten kostnad, uten vesentlig ulempe for forbrukeren og innen rimelig tid etter at forbrukeren har reklamert over mangelen. Ved avgjørelsen av om avhjelpen er i samsvar med første punktum, skal det blant annet legges vekt på om selgeren for egen regning stiller en erstatningsgjenstand til rådighet for forbrukeren forutsatt at dette fremstår som rimelig ut fra forbrukerens behov.</p>
 <p>Forbrukeren skal ved avhjelp stille tingen til rådighet for selgeren. Ved omlevering skal selgeren for egen regning ta den omleverte tingen tilbake. Frem til omlevering skjer, kan forbrukeren holde tilbake det som er mottatt.</p>
 <p>Dersom det er nødvendig for avhjelp, skal selgeren demontere den mangelfulle tingen og installere en rettet eller omlevert ting. Dette gjelder likevel bare dersom tingen er installert i samsvar med sin art og sitt formål før mangelen ble synlig.</p>
 <p>Viser det seg en mangel etter retting eller omlevering, kan forbrukeren avvise ytterligere avhjelp, med mindre det er rimelig at selgeren får et nytt forsøk.</p>
 <p>Dersom det ikke foreligger en mangel, kan selgeren bare kreve betaling for undersøkelser som har vært nødvendige for å avgjøre om det foreligger en mangel, og betaling for reparasjon av tingen, dersom selgeren har gjort forbrukeren uttrykkelig oppmerksom på at han eller hun selv må dekke slike kostnader.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="31-prisavslag">§ 31. Prisavslag</h4>
 <p>Dersom mangelen ikke rettes eller tingen omleveres i samsvar med §§ 29 til 30 , eller det er klart at dette ikke vil skje, kan forbrukeren kreve et prisavslag slik at forholdet mellom nedsatt og avtalt pris svarer til forholdet mellom tingens verdi i mangelfull og kontraktsmessig stand på leveringstiden.</p>
 <p>Forbrukeren kan ikke kreve prisavslag ved salg av brukte ting på auksjon hvor han eller hun har anledning til å være til stede.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="32-heving">§ 32. Heving</h4>
 <p>I stedet for prisavslag etter § 31 kan forbrukeren heve avtalen, med mindre selgeren beviser at mangelen er uvesentlig.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="33-erstatning">§ 33. Erstatning</h4>
 <p>Forbrukeren kan kreve erstatning for tap han eller hun lider som følge av at tingen har en mangel.</p>
 <p>Gjelder det avtale med nettselskap om overføring av elektrisk energi (jf. § 2 første ledd bokstav d), kan forbrukeren kreve erstatning for tap som følge av mangelen. Dette gjelder likevel ikke så langt nettselskapet godtgjør at mangelen skyldes hindring som nevnt i § 24 annet ledd. Reglene ellers i § 24 gjelder tilsvarende.</p>
 <p>Erstatning etter første ledd utmåles etter reglene i kapittel 11 , men dersom særlige grunner taler for det, kan erstatningen i stedet fastsettes ut fra mangelens betydning for forbrukeren.</p>
-<p><em>Endret ved lover 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lover 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="34-produktskader">§ 34. Produktskader</h4>
 <p>Selgerens erstatningsansvar for tap som følge av en mangel omfatter, foruten skade på salgstingen selv, også skade på gjenstander som salgstingen brukes til fremstilling av, eller som har nær og direkte sammenheng med salgstingens forutsatte bruk.</p>
 <p>For andre produktskader enn dem som er nevnt i første ledd, kan forbrukeren kreve erstatning med mindre selgeren godtgjør at tapet ikke skyldes feil eller forsømmelse på selgerens side.</p>
@@ -336,25 +539,25 @@ d. at forbrukeren kan ta kontakt med sosialtjenesten i den kommunen forbrukeren 
 <p>Dersom sosialtjenesten innen fristen i annet ledd annet punktum bokstav a har meddelt skriftlig at den tar på seg ansvaret for å oppfylle forbrukerens forpliktelse, kan stenging ikke skje.</p>
 <p>Nettselskapet kan kreve at forbrukeren dekker nødvendige kostnader i forbindelse med en stenging og eventuell gjenåpning av forbrukerens anlegg. Nødvendige kostnader knyttet til utarbeiding og sending av varsel etter annet ledd kan kreves dekket selv om stenging ikke finner sted. Nettselskapet kan ikke kreve å få dekket sine kostnader etter første og annet punktum dersom det har opptrådt i strid med bestemmelsene i første til tredje ledd.</p>
 <p>Bestemmelsene i § 45 om heving ved kontraktsbrudd fra forbrukerens side gjelder ikke. Bestemmelsen i § 55 om forventet kontraktsbrudd gjelder ikke ved forventet kontraktsbrudd fra forbrukerens side.</p>
-<p><em>Tilføyd ved lov 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), endret ved lov 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</em></p>
+<p class="note">Tilføyd ved lov 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), endret ved lov 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</p>
 <h2 id="kapittel-10-fellesregler-om-heving-og-omlevering">Kapittel 10. Fellesregler om heving og omlevering</h2>
 <h4 id="49-virkninger-av-heving">§ 49. Virkninger av heving</h4>
 <p>Når kjøpet heves, faller partenes plikt til å oppfylle kjøpet bort.</p>
 <p>Er kjøpet helt eller delvis oppfylt fra noen av sidene, kan det mottatte kreves tilbakeført. En part kan likevel holde tilbake det som er mottatt, inntil den andre parten gir tilbake det han eller hun har fått. Tilsvarende gjelder når parten har krav på erstatning eller rente, og betryggende sikkerhet ikke blir stilt.</p>
 <p>Forbrukeren skal sørge for at tingen leveres til selgeren. Er det forbrukeren som hever kjøpet, bæres kostnader ved tilbakeleveringen av selgeren. Selgeren skal tilbakebetale kjøpesummen når tingen mottas eller forbrukeren har dokumentert at den er sendt.</p>
 <p>Hevingen har ingen betydning for avtalevilkår om forretningshemmeligheter, om løsning av tvister eller om partenes rettigheter og plikter som følge av hevingen.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="50-avkastning-og-rente-ved-tilbakefring">§ 50. Avkastning og rente ved tilbakeføring</h4>
 <p>Heves kjøpet, skal forbrukeren godskrive selgeren avkastning som han eller hun har hatt av tingen, og gi rimelig vederlag for vesentlig nytte han eller hun ellers har hatt av den.</p>
 <p>Dersom selgeren skal betale kjøpesummen tilbake, plikter selgeren å betale renter etter lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m . fra den dag forbrukeren reklamerte på mangelen. Dersom forbrukeren avkreves vederlag for nytten av gjenstanden etter første ledd, plikter selgeren likevel å betale slik rente fra den dag selgeren mottok betalingen.</p>
 <p>Ved forsinkelse skal selgeren betale renter fra den dagen betalingen ble mottatt.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="51-tingens-tilstand-ved-heving-og-omlevering">§ 51. Tingens tilstand ved heving og omlevering</h4>
 <p>Hvis forbrukeren ved heving eller omlevering ikke kan levere tilbake tingen i vesentlig samme stand og mengde som han eller hun mottok den, skal forbrukeren erstatte verdien eller den verdireduksjonen tingen har hatt. Dette gjelder likevel ikke dersom</p>
 <p>a. årsaken til at det er umulig å tilbakelevere tingen i vesentlig samme stand og mengde, er tingens egen beskaffenhet eller annet forhold som ikke beror på forbrukeren
 b. tingen er helt eller delvis gått til grunne eller forringet som følge av en handling som trengs for å undersøke om tingen har en mangel, eller
 c. tingen helt eller delvis er forbrukt eller forandret av forbrukeren under forutsatt bruk før hevingen eller omleveringen.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h2 id="kapittel-11-fellesregler-om-erstatning">Kapittel 11. Fellesregler om erstatning</h2>
 <h4 id="52-erstatningens-omfang">§ 52. Erstatningens omfang</h4>
 <p>Erstatning for kontraktsbrudd fra den ene parts side skal svare til det økonomiske tapet, herunder utlegg, prisforskjell og tapt fortjeneste, som den annen part er påført ved kontraktsbruddet. Dette gjelder likevel bare tap som en med rimelighet kunne ha forutsett som en mulig følge av kontraktsbruddet.</p>
@@ -376,9 +579,9 @@ b. tap i forbrukerens næringsvirksomhet.</p>
 <h4 id="57-kontraktsbrudd-ved-del-av-tingen">§ 57. Kontraktsbrudd ved del av tingen</h4>
 <p>Omfatter selgerens kontraktsbrudd bare en del av det solgte, gjelder reglene om mangler og forsinkelse i kapittel 5 og 6 for denne delen. Må selgeren etter forholdene antas å ha avsluttet sin levering enda ikke alt er levert, gjelder reglene om mangler.</p>
 <p>Hever forbrukeren for en del av det solgte, kan forbrukeren også heve for andre deler som han eller hun ikke med rimelighet kan forventes å beholde.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="58-opphevet">§ 58. (Opphevet)</h4>
-<p><em>Opphevet ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</em></p>
+<p class="note">Opphevet ved lov 16 juni 2023 nr. 60 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 909 ).</p>
 <h4 id="59-selgerens-hevingsrett-nar-det-skal-leveres-etter-hvert">§ 59. Selgerens hevingsrett når det skal leveres etter hvert</h4>
 <p>Skal selgeren levere etter hvert og forbrukeren betale eller medvirke i tilsvarende poster, og det er kontraktsbrudd fra forbrukerens side ved en enkelt levering, kan selgeren heve for denne leveringen etter reglene i § 45 .</p>
 <p>Gir kontraktsbruddet selgeren god grunn til å regne med at det vil inntre kontraktsbrudd som vil gi hevingsrett ved senere leveringer, kan han eller hun på dette grunnlaget heve for slike leveringer dersom det skjer innen rimelig tid.</p>
@@ -392,13 +595,15 @@ b. tap i forbrukerens næringsvirksomhet.</p>
 <p>Forbrukertilsynet og Markedsrådet skal ut fra hensyn til forbrukerne føre tilsyn med at bestemmelsene gitt i § 6 første ledd , § 14 fjerde ledd , § 18 a og § 23 følges av en næringsdrivende. Tilsyn utføres i samsvar med reglene i <a href="lov-2009-01-09-2.html">markedsføringsloven</a> §§ 32 til 41 , § 42 første ledd annet punktum og §§ 43 til 43 c .</p>
 <p>Ved forsettlig eller uaktsom overtredelse av regler nevnt i første ledd første punktum, som anses som vesentlig eller har skjedd gjentatte ganger, kan den ansvarlige ilegges et overtredelsesgebyr.</p>
 <p>Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), opphevet ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 14 juni 2024 nr. 32 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 956 ).</em></p>
+<p class="note">Tilføyd ved lov 30 juni 2006 nr. 46 (ikr. 1 jan 2007 iflg. res. 30 juni 2006 nr. 873 ), opphevet ved lov 17 juni 2016 nr. 29 (ikr. 1 juli 2016 iflg. res. 17 juni 2016 nr. 703 ), tilføyd ved lov 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 14 juni 2024 nr. 32 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 956 ).</p>
 <h2 id="kapittel-13-ikrafttredelse-og-endringer-i-andre-lover">Kapittel 13. Ikrafttredelse og endringer i andre lover</h2>
 <h4 id="62-ikrafttredelse">§ 62. Ikrafttredelse</h4>
 <p>Loven gjelder fra 1. juli 2002.</p>
 <p>Loven gjelder bare for avtaler som sluttes etter at den er trådt i kraft.</p>
 <h4 id="63-endringer-i-andre-lover">§ 63. Endringer i andre lover</h4>
 <p>Fra den tid loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

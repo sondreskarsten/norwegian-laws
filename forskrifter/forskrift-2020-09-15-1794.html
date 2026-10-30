@@ -19,64 +19,175 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-09-15-1794.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om opptak til UiT" href="../feeds/forskrift-2020-09-15-1794.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om opptak til UiT</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-09-15-1794</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-02-552</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-09-15-1794" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</a></li>
+<li class="lvl3"><a href="#2-sprakkrav-til-norskspraklige-program">§ 2. Språkkrav til norskspråklige program</a></li>
+<li class="lvl3"><a href="#3-sprakkrav-til-engelskspraklige-program">§ 3. Språkkrav til engelskspråklige program</a></li>
+<li class="lvl3"><a href="#4-sknadsfrister-etter-forskriften">§ 4. Søknadsfrister etter forskriften</a></li>
+<li class="lvl3"><a href="#5-dispensasjon-fra-sknadsfrister">§ 5. Dispensasjon fra søknadsfrister</a></li>
+<li class="lvl3"><a href="#6-dokumentasjon-som-danner-grunnlag-for-a-fa-opptak">§ 6. Dokumentasjon som danner grunnlag for å få opptak</a></li>
+<li class="lvl3"><a href="#7-reservert-studieplass">§ 7. Reservert studieplass</a></li>
+<li class="lvl3"><a href="#8-tidlig-opptak">§ 8. Tidlig opptak</a></li>
+<li class="lvl3"><a href="#9-kvoter">§ 9. Kvoter</a></li>
+<li class="lvl3"><a href="#10-supplering-til-hyere-arskull">§ 10. Supplering til høyere årskull</a></li>
+<li class="lvl3"><a href="#11-opptak-pa-grunnlag-av-realkompetanse-til-grunnutdanninger">§ 11. Opptak på grunnlag av realkompetanse til grunnutdanninger</a></li>
+<li class="lvl3"><a href="#12-opptakskrav-til-mastergradsprogram">§ 12. Opptakskrav til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#13-opptakskrav-til-erfaringsbaserte-mastergradsprogram">§ 13. Opptakskrav til erfaringsbaserte mastergradsprogram</a></li>
+<li class="lvl3"><a href="#14-opptak-pa-visse-vilkar-til-mastergradsprogram-uten-venteliste">§ 14. Opptak på visse vilkår til mastergradsprogram uten venteliste</a></li>
+<li class="lvl3"><a href="#15-rangering-av-skere-til-mastergradsprogram">§ 15. Rangering av søkere til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#16-beregning-av-karaktergjennomsnitt-for-a-fa-opptak-til-mastergradsprogram">§ 16. Beregning av karaktergjennomsnitt for å få opptak til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#17-opptak-til-enkeltemner">§ 17. Opptak til enkeltemner</a></li>
+<li class="lvl3"><a href="#18-opptak-til-etter-og-videreutdanningsemner">§ 18. Opptak til etter- og videreutdanningsemner</a></li>
+<li class="lvl3"><a href="#19-rangering-av-skere-til-etter-og-videreutdanningsemner">§ 19. Rangering av søkere til etter- og videreutdanningsemner</a></li>
+<li class="lvl3"><a href="#20-opptak-til-forkurs-for-ingenir-og-sivilingenirutdanning">§ 20. Opptak til forkurs for ingeniør- og sivilingeniørutdanning</a></li>
+<li class="lvl3"><a href="#21-rangering-av-skere-til-forkurs-for-ingenir-og-sivilingenirutdanning">§ 21. Rangering av søkere til forkurs for ingeniør- og sivilingeniørutdanning</a></li>
+<li class="lvl3"><a href="#22-opptak-til-realfagskurs">§ 22. Opptak til realfagskurs</a></li>
+<li class="lvl3"><a href="#23-rangering-av-skere-til-realfagskurs">§ 23. Rangering av søkere til realfagskurs</a></li>
+<li class="lvl3"><a href="#24-opptak-til-y-vei">§ 24. Opptak til Y-vei</a></li>
+<li class="lvl3"><a href="#25-rangering-av-skere-til-ingenirstudier-via-y-veiordningen">§ 25. Rangering av søkere til ingeniørstudier via Y-veiordningen</a></li>
+<li class="lvl3"><a href="#26-opptak-pa-visse-vilkar-til-y-vei">§ 26. Opptak på visse vilkår til Y-vei</a></li>
+<li class="lvl3"><a href="#27-opptak-til-arsstudiet-norwegian-language-and-society-for-foreign-students">§ 27. Opptak til årsstudiet Norwegian Language and Society for Foreign Students</a></li>
+<li class="lvl3"><a href="#28-opptak-til-samiske-finske-eller-kvenske-nybegynneremner-etter-forskrift-om-opptak-til-hgre-utdanning-3-5">§ 28. Opptak til samiske, finske eller kvenske nybegynneremner etter forskrift om opptak til høgre utdanning § 3-5</a></li>
+<li class="lvl3"><a href="#29-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 29. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</a></li>
+<li class="lvl3"><a href="#30-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 30. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</a></li>
+<li class="lvl3"><a href="#31-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 31. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</a></li>
+<li class="lvl3"><a href="#32-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 32. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</a></li>
+<li class="lvl3"><a href="#33-ikraftsetting">§ 33. Ikraftsetting</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-02-552.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-09-15-1794.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om opptak til Universitetet i Tromsø – Norges arktiske universitet</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-09-15-1794.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-09-15-1794 <code>forskrift/2020-09-15-1794</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om opptak til UiT</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-02-552 <code>forskrift/2026-03-02-552</code> fra 02.03.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-09-15-1794" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</a></li>
+<li class="lvl3"><a href="#2-sprakkrav-til-norskspraklige-program">§ 2. Språkkrav til norskspråklige program</a></li>
+<li class="lvl3"><a href="#3-sprakkrav-til-engelskspraklige-program">§ 3. Språkkrav til engelskspråklige program</a></li>
+<li class="lvl3"><a href="#4-sknadsfrister-etter-forskriften">§ 4. Søknadsfrister etter forskriften</a></li>
+<li class="lvl3"><a href="#5-dispensasjon-fra-sknadsfrister">§ 5. Dispensasjon fra søknadsfrister</a></li>
+<li class="lvl3"><a href="#6-dokumentasjon-som-danner-grunnlag-for-a-fa-opptak">§ 6. Dokumentasjon som danner grunnlag for å få opptak</a></li>
+<li class="lvl3"><a href="#7-reservert-studieplass">§ 7. Reservert studieplass</a></li>
+<li class="lvl3"><a href="#8-tidlig-opptak">§ 8. Tidlig opptak</a></li>
+<li class="lvl3"><a href="#9-kvoter">§ 9. Kvoter</a></li>
+<li class="lvl3"><a href="#10-supplering-til-hyere-arskull">§ 10. Supplering til høyere årskull</a></li>
+<li class="lvl3"><a href="#11-opptak-pa-grunnlag-av-realkompetanse-til-grunnutdanninger">§ 11. Opptak på grunnlag av realkompetanse til grunnutdanninger</a></li>
+<li class="lvl3"><a href="#12-opptakskrav-til-mastergradsprogram">§ 12. Opptakskrav til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#13-opptakskrav-til-erfaringsbaserte-mastergradsprogram">§ 13. Opptakskrav til erfaringsbaserte mastergradsprogram</a></li>
+<li class="lvl3"><a href="#14-opptak-pa-visse-vilkar-til-mastergradsprogram-uten-venteliste">§ 14. Opptak på visse vilkår til mastergradsprogram uten venteliste</a></li>
+<li class="lvl3"><a href="#15-rangering-av-skere-til-mastergradsprogram">§ 15. Rangering av søkere til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#16-beregning-av-karaktergjennomsnitt-for-a-fa-opptak-til-mastergradsprogram">§ 16. Beregning av karaktergjennomsnitt for å få opptak til mastergradsprogram</a></li>
+<li class="lvl3"><a href="#17-opptak-til-enkeltemner">§ 17. Opptak til enkeltemner</a></li>
+<li class="lvl3"><a href="#18-opptak-til-etter-og-videreutdanningsemner">§ 18. Opptak til etter- og videreutdanningsemner</a></li>
+<li class="lvl3"><a href="#19-rangering-av-skere-til-etter-og-videreutdanningsemner">§ 19. Rangering av søkere til etter- og videreutdanningsemner</a></li>
+<li class="lvl3"><a href="#20-opptak-til-forkurs-for-ingenir-og-sivilingenirutdanning">§ 20. Opptak til forkurs for ingeniør- og sivilingeniørutdanning</a></li>
+<li class="lvl3"><a href="#21-rangering-av-skere-til-forkurs-for-ingenir-og-sivilingenirutdanning">§ 21. Rangering av søkere til forkurs for ingeniør- og sivilingeniørutdanning</a></li>
+<li class="lvl3"><a href="#22-opptak-til-realfagskurs">§ 22. Opptak til realfagskurs</a></li>
+<li class="lvl3"><a href="#23-rangering-av-skere-til-realfagskurs">§ 23. Rangering av søkere til realfagskurs</a></li>
+<li class="lvl3"><a href="#24-opptak-til-y-vei">§ 24. Opptak til Y-vei</a></li>
+<li class="lvl3"><a href="#25-rangering-av-skere-til-ingenirstudier-via-y-veiordningen">§ 25. Rangering av søkere til ingeniørstudier via Y-veiordningen</a></li>
+<li class="lvl3"><a href="#26-opptak-pa-visse-vilkar-til-y-vei">§ 26. Opptak på visse vilkår til Y-vei</a></li>
+<li class="lvl3"><a href="#27-opptak-til-arsstudiet-norwegian-language-and-society-for-foreign-students">§ 27. Opptak til årsstudiet Norwegian Language and Society for Foreign Students</a></li>
+<li class="lvl3"><a href="#28-opptak-til-samiske-finske-eller-kvenske-nybegynneremner-etter-forskrift-om-opptak-til-hgre-utdanning-3-5">§ 28. Opptak til samiske, finske eller kvenske nybegynneremner etter forskrift om opptak til høgre utdanning § 3-5</a></li>
+<li class="lvl3"><a href="#29-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 29. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</a></li>
+<li class="lvl3"><a href="#30-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 30. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</a></li>
+<li class="lvl3"><a href="#31-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 31. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</a></li>
+<li class="lvl3"><a href="#32-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 32. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</a></li>
+<li class="lvl3"><a href="#33-ikraftsetting">§ 33. Ikraftsetting</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-09-15-1794.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-09-15-1794.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-09-15-1794.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-09-15-1794.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-09-15-1794.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-09-15-1794.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-09-15-1794.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-09-15-1794.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-09-15-1794.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-opptak-til-universitetet-i-troms-norges-arktiske-universitet">Forskrift om opptak til Universitetet i Tromsø – Norges arktiske universitet</h1>
 <h3 id="1-forskriftens-virkeomrade">§ 1. Forskriftens virkeområde</h3>
 <p>(1) Forskriften gjelder for opptak til mastergradsprogram,</p>
 <p>a. praktisk-pedagogisk utdanning,
@@ -86,16 +197,16 @@ d. etter- og videreutdanning,
 e. enkeltemner og
 f. grunnutdanninger dersom søkeren vil ha opptak på grunnlag av realkompetanse, Y-vei eller tresemesterordningen.</p>
 <p>(2) Universitetet kan i avtale eller ved vedtak fastsette egne regelverk for opptak til fellesgrader.</p>
-<p><em>Endret ved forskrifter 11 feb 2025 nr. 220 , 2 mars 2026 nr. 552 .</em></p>
+<p class="note">Endret ved forskrifter 11 feb 2025 nr. 220 , 2 mars 2026 nr. 552 .</p>
 <h3 id="2-sprakkrav-til-norskspraklige-program">§ 2. Språkkrav til norskspråklige program</h3>
 <p>(1) For å få opptak til et norskspråklige studieprogram, må søkere med utdanning fra land utenfor Norden oppfylle kravet til norsk som er angitt i forskrift om opptak til høgare utdanning § 2-2 .</p>
 <p>(2) For å få opptak til et norskspråklig studieprogram, må søkere med utenlandsk utdanning oppfylle kravet til engelsk i GSU-listen, jf. forskrift om opptak til høgare utdanning § 2-2 åttende ledd</p>
-<p><em>Endret ved forskrifter 20 jan 2022 nr. 116 , 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2022 nr. 116 , 11 feb 2025 nr. 220 .</p>
 <h3 id="3-sprakkrav-til-engelskspraklige-program">§ 3. Språkkrav til engelskspråklige program</h3>
 <p>(1) For å få opptak til engelskspråklige bachelorgradsprogram og årsstudier, må søkere med utenlandsk utdanning oppfylle kravet til engelsk i GSU-listen, jf. forskrift om opptak til høgare utdanning § 2-2 åttende ledd .</p>
 <p>(2) For å få opptak til engelskspråklige mastergradsprogram, må søkeren ha engelskkunnskaper på høyere nivå.</p>
 <p>(3) Annen dokumentasjon av at engelskkravet er oppfylt, kan godkjennes etter individuell vurdering.</p>
-<p><em>Endret ved forskrifter 20 jan 2022 nr. 116 , 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Endret ved forskrifter 20 jan 2022 nr. 116 , 11 feb 2025 nr. 220 .</p>
 <h3 id="4-sknadsfrister-etter-forskriften">§ 4. Søknadsfrister etter forskriften</h3>
 <p>(1) Universitetet fastsetter fristene for å søke om opptak etter forskriften.</p>
 <p>(2) Dersom det er få kvalifiserte søkere ved søknadsfristens utløp, kan universitetet utlyse studieprogrammet på nytt med ny søknadsfrist. Hvis universitetet gjennomfører ny utlysning skal alle kvalifiserte søkere som søkte innen den ordinære søknadsfristen, tilbys studieplass.</p>
@@ -112,18 +223,18 @@ b. at søkeren vil fullføre en grad ved UiT dersom søkeren får opptak og best
 <p>(2) Søkere som fullfører kvalifiserende utdanning vårsemesteret, kan levere dokumentasjonen for opptaket senere enn søknadsfristen. Dokumentasjonen må likevel leveres før 1. juli.</p>
 <p>(3) Dersom det foreligger saklig grunn, kan universitetet avtale med søkeren at dokumentasjon som ikke kan framskaffes ved søknadsfristens utløp ettersendes.</p>
 <p>(4) For å få opptak må søkere som har statsborgerskap fra en stat utenfor EU/EØS eller Sveits ved søknadsfristens utløp, dokumentere at de har tilstrekkelig økonomi for opphold i Norge etter utlendingsloven § 58 . Dokumentasjonen må være et finansieringsbevis eller lignende.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 .</p>
 <h3 id="7-reservert-studieplass">§ 7. Reservert studieplass</h3>
 <p>(1) Søkere som har fått og akseptert tilbud om opptak til et studieprogram, kan søke om å reservere studieplassen i inntil ett eller to år eller til neste ordinære opptak.</p>
 <p>(2) Søknadsfristen er tre uker etter mottatt tilbud om studieplass.</p>
 <p>(3) Det innvilges ikke reservert studieplass til søkere med statsborgerskap utenfor EU/EØS eller Sveits.</p>
-<p><em>Endret ved forskrift 10 mars 2023 nr. 488 .</em></p>
+<p class="note">Endret ved forskrift 10 mars 2023 nr. 488 .</p>
 <h3 id="8-tidlig-opptak">§ 8. Tidlig opptak</h3>
 <p>Ved studieprogrammer der det er åpnet for det, kan det gis tidlig opptak til kvalifiserte søkere som har en poengsum høyere enn en anslått poenggrense.</p>
 <h3 id="9-kvoter">§ 9. Kvoter</h3>
 <p>(1) Reglene etter universitets- og høyskoleloven § 8-3 andre ledd om at universitetsstyrets selv har rett til å adgangsregulere et studium gjelder tilsvarende.</p>
 <p>(2) Universitetet fastsetter kvoter og kriterier for kvoteordningene.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 .</p>
 <h3 id="10-supplering-til-hyere-arskull">§ 10. Supplering til høyere årskull</h3>
 <p>Universitetet kan lyse ut ledige studieplasser på et høyere årskull. Universitetet fastsetter regler for opptak og rangering.</p>
 <h3 id="11-opptak-pa-grunnlag-av-realkompetanse-til-grunnutdanninger">§ 11. Opptak på grunnlag av realkompetanse til grunnutdanninger</h3>
@@ -131,7 +242,7 @@ b. at søkeren vil fullføre en grad ved UiT dersom søkeren får opptak og best
 <p>(2) For å få opptak må søkeren i utgangspunktet ha minst fem års relevant yrkespraksis, omregnet til heltid.</p>
 <p>(3) For å få opptak må søkeren dokumentere kompetanse i norsk og engelsk tilsvarende første året fra videregående skole.</p>
 <p>(4) Særlige krav til faglig innhold kan være fastsatt i studieprogrammets studieplan.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 .</p>
 <h3 id="12-opptakskrav-til-mastergradsprogram">§ 12. Opptakskrav til mastergradsprogram</h3>
 <p>(1) For å få opptak til et mastergradsprogram må søkeren ha en bachelorgrad eller en tilsvarende utdanning. Bachelorgraden eller den tilsvarende utdanningen må enten inneholde</p>
 <p>a. en faglig fordypning på minst 80 studiepoeng i mastergradsprogrammets fagområde eller
@@ -150,7 +261,7 @@ b. en integrert, yrkesrettet utdanning på minst 120 studiepoeng i mastergradspr
 b. mangler inntil ett emne eller inntil 10 studiepoeng for å ha fullført en bachelorgrad.</p>
 <p>(2) For et mastergradsprogram uten venteliste i teknologi kan det gis opptak til søkere som mangler et tilleggskrav i matematikk og/eller fysikk på inntil 10 studiepoeng.</p>
 <p>(3) Opptak på visse vilkår forutsetter at søkeren avlegger og består de manglende eksamenene ved første mulige anledning og senest innen 1 år. Resultatet av de manglende eksamenene kan ikke være dårligere enn at studenten oppfyller et eventuelt krav om gjennomsnittskarakter. Dersom kravet ikke oppfylles, mister studenten studieplassen ervervet gjennom opptak på visse vilkår.</p>
-<p><em>Endret ved forskrifter 10 des 2020 nr. 2942 (i kraft 1 jan 2021), 20 jan 2022 nr. 116 .</em></p>
+<p class="note">Endret ved forskrifter 10 des 2020 nr. 2942 (i kraft 1 jan 2021), 20 jan 2022 nr. 116 .</p>
 <h3 id="15-rangering-av-skere-til-mastergradsprogram">§ 15. Rangering av søkere til mastergradsprogram</h3>
 <p>Kvalifiserte søkere rangeres etter et vektet karaktergjennomsnitt. Dersom søkeren har flere rangeringsgrunnlag, skal poengberegningen som gir høyest rangering benyttes.</p>
 <h3 id="16-beregning-av-karaktergjennomsnitt-for-a-fa-opptak-til-mastergradsprogram">§ 16. Beregning av karaktergjennomsnitt for å få opptak til mastergradsprogram</h3>
@@ -175,29 +286,29 @@ c. Realkompetanse. For å få godkjent realkompetanse til fullt forkurs må søk
   - Søkere må dokumentere minst 5 års fulltids arbeidspraksis og/eller utdanning på nivå over grunnskole.
   Søkere fra land utenfor Norden må i tillegg normalt dokumentere kunnskaper i norsk og engelsk tilsvarende kravene for generell studiekompetanse, jf. nasjonal forskrift om opptak til høgare utdanning § 2-2 , eller
 d. Generell studiekompetanse.</p>
-<p><em>Endret ved forskrift 20 jan 2022 nr. 116 .</em></p>
+<p class="note">Endret ved forskrift 20 jan 2022 nr. 116 .</p>
 <h3 id="21-rangering-av-skere-til-forkurs-for-ingenir-og-sivilingenirutdanning">§ 21. Rangering av søkere til forkurs for ingeniør- og sivilingeniørutdanning</h3>
 <p>(1) Søkere som er kvalifisert til opptak til forkurs for ingeniør- og sivilingeniørutdanning etter § 20 bokstav a er likestilt uansett hvordan det er oppnådd og lengden på opplæringen i skolen.</p>
 <p>(2) Søkere som er kvalifisert til opptak til forkurs for ingeniør- og sivilingeniørutdanning etter § 20 bokstav b, rangeres etter oppnådde karakterpoeng. Karakterpoeng består av gjennomsnittet av karakterene i fag på høyeste nivå, multiplisert med 10. Søkere som har utdanning der karakterskalaen ikke er identisk med norsk videregående skole, rangeres ved en skjønnsmessig vurdering.</p>
 <p>(3) Søkere som er kvalifisert til opptak til forkurs for ingeniør- og sivilingeniørutdanning etter § 20 bokstav c, rangeres etter skjønnsmessig, individuell vurdering.</p>
 <p>(4) Søkere som er kvalifisert til opptak til forkurs for ingeniør- og sivilingeniørutdanning etter § 20 bokstav d, rangeres etter oppnådde karakterpoeng. Søkere som har utdanning der karakterskalaen ikke er identisk med norsk videregående skole, rangeres ved en skjønnsmessig vurdering.</p>
-<p><em>Endret ved forskrift 20 jan 2022 nr. 116 .</em></p>
+<p class="note">Endret ved forskrift 20 jan 2022 nr. 116 .</p>
 <h3 id="22-opptak-til-realfagskurs">§ 22. Opptak til realfagskurs</h3>
 <p>For å få opptak til realfagskurs må søkeren ha generell studiekompetanse.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2025 nr. 220 .</p>
 <h3 id="23-rangering-av-skere-til-realfagskurs">§ 23. Rangering av søkere til realfagskurs</h3>
 <p>Kvalifiserte søkere til realfagskurs rangeres etter oppnådde karakterpoeng. Søkere som har utdanning der karakterskalaen ikke er identisk med norsk videregående skole, rangeres ved en skjønnsmessig vurdering.</p>
-<p><em>Tilføyd ved forskrift 11 feb 2025 nr. 220 .</em></p>
+<p class="note">Tilføyd ved forskrift 11 feb 2025 nr. 220 .</p>
 <h3 id="24-opptak-til-y-vei">§ 24. Opptak til Y-vei</h3>
 <p>For å få opptak til studieprogrammer innen ingeniørfag via Y-veiordningen må søkeren ha</p>
 <p>a. fagbrev innenfor et relevant fagområde og
 b. 12 måneder med relevant praksis eller læretid i bedrift.</p>
-<p><em>Endret ved forskrifter 16 des 2020 nr. 3323 , 10 des 2020 nr. 2942 (i kraft 1 jan 2021), 11 feb 2025 nr. 220 (tidligere § 22).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2020 nr. 3323 , 10 des 2020 nr. 2942 (i kraft 1 jan 2021), 11 feb 2025 nr. 220 (tidligere § 22).</p>
 <h3 id="25-rangering-av-skere-til-ingenirstudier-via-y-veiordningen">§ 25. Rangering av søkere til ingeniørstudier via Y-veiordningen</h3>
 <p>Kvalifiserte søkere til ingeniørstudier via Y-veiordningen rangeres først etter karakterpoeng fra Vg1 og Vg2. Videre gis det følgende tilleggspoeng:</p>
 <p>a. 3 tilleggspoeng for «bestått meget godt» på fag- eller svenneprøve.
 b. 2 tilleggspoeng for kvinnelige søkere.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 23).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 23).</p>
 <h3 id="26-opptak-pa-visse-vilkar-til-y-vei">§ 26. Opptak på visse vilkår til Y-vei</h3>
 <p>(1) Det kan gis opptak på visse vilkår til åpne ingeniørstudier via Y-veiordningen til søkere som</p>
 <p>a. venter på vitnemål/utskrift/bekreftelse på bestått fag-/svenneprøve,
@@ -208,17 +319,17 @@ c. ennå ikke har fullført lærlingetiden til tross for avlagt fag-/svenneprøv
 b. bekreftelse på oppmelding til fagprøven med angitt dato fra opplæringskontor eller
 c. lærlingekontrakt som viser lærlinge-perioden.</p>
 <p>(3) Studenter som har fått opptak på visse vilkår og som ikke oppfyller betingelsene for opptak innen fastsatt frist, mister studieretten.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 24).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 24).</p>
 <h3 id="27-opptak-til-arsstudiet-norwegian-language-and-society-for-foreign-students">§ 27. Opptak til årsstudiet Norwegian Language and Society for Foreign Students</h3>
 <p>For å få opptak til årsstudiet «Norwegian Language and Society for Foreign students» må søkeren ikke oppfylle kravet til norskkunnskaper i generell studiekompetanse, så fremt de er kvalifisert til studiegradsprogrammer til ingeniørfag.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 25).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 25).</p>
 <h3 id="28-opptak-til-samiske-finske-eller-kvenske-nybegynneremner-etter-forskrift-om-opptak-til-hgre-utdanning-3-5">§ 28. Opptak til samiske, finske eller kvenske nybegynneremner etter forskrift om opptak til høgre utdanning § 3-5</h3>
 <p>Reglene om unntak fra kravet om generell studiekompetanse for å få opptak til samiske, finske eller kvenske nybegynneremner etter forskrift om opptak til høgre utdanning § 3-5 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 26).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 26).</p>
 <h3 id="29-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 29. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</h3>
 <p>(1) Reglene om opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6 gjelder så langt det passer.</p>
 <p>(2) For å få opptak til praktisk-pedagogisk utdanning ved UiT må søkeren ha minst 60 studiepoeng i en av de fagdidaktiske studieretningene som tilbys av UiT.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 27).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 27).</p>
 <h3 id="30-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-6">§ 30. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6</h3>
 <p>(1) Søkerne som er kvalifisert til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU § 6 rangeres etter følgende kriterier i prioritert rekkefølge:</p>
 <p>a. Søkere med dokumentert tilsetting på vilkår i henhold til bestemmelser om dette i opplæringsloven § 17-3 .
@@ -226,20 +337,22 @@ b. Søkere med dokumentasjon på tilsettingsforhold i undervisningsstilling i sk
 c. Etter hvor mange undervisningsfag søkeren har.
 d. Etter hvor mange måneder søkeren har med fagpraksis etter endt fagutdanning.</p>
 <p>(2) Kvalifiserte søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU om bachelorgrad i utøvende eller skapende kunstfag, rangeres ved loddtrekning.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 28).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 28).</p>
 <h3 id="31-opptak-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 31. Opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</h3>
 <p>Reglene om opptak til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 29).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 29).</p>
 <h3 id="32-rangering-av-skere-til-praktisk-pedagogisk-utdanning-etter-forskrift-om-rammeplan-for-ppu-for-yrkesfag-5">§ 32. Rangering av søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5</h3>
 <p>Kvalifiserte søkere til praktisk-pedagogisk utdanning etter forskrift om rammeplan for PPU for yrkesfag § 5 rangeres etter følgende kriterier i prioritert rekkefølge:</p>
 <p>a. Søkere med dokumentert tilsetting på vilkår i henhold til bestemmelser om dette i opplæringsloven § 10-6a .
 b. Søkere med dokumentasjon på tilsettingsforhold i undervisningsstilling i skolen innenfor de tre siste årene. Søkerne rangeres etter antall måneder relevant undervisningspraksis etter endt fagutdanning.
 c. Øvrige kvalifiserte søkere rangeres ved loddtrekning.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 30).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 30).</p>
 <h3 id="33-ikraftsetting">§ 33. Ikraftsetting</h3>
 <p>(1) Forskriften trer i kraft fra 1. januar 2021.</p>
 <p>(2) Fra den tid forskriften trer i kraft, oppheves forskrift 12. desember 2008 nr. 1569 om opptak til studier ved Universitetet i Tromsø – Norges arktiske universitet.</p>
-<p><em>Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 31).</em></p>
+<p class="note">Endret ved forskrift 11 feb 2025 nr. 220 (tidligere § 31).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

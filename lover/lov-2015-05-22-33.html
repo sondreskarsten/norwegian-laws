@@ -19,75 +19,148 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2015-05-22-33.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i NIM-loven" href="../feeds/lov-2015-05-22-33.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>NIM-loven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2015-05-22-33</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Internasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Internasjonale organisasjoner\nInternasjonal rett &raquo; Konvensjoner. Overenskomster</dd>
-<dt>Ikrafttredelse</dt><dd>2015-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-02-13-5</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2015-05-22-33" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal-og-virkeomrade">§ 1. Formål og virkeområde</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-stortinget">§ 2. Forholdet til Stortinget</a></li>
+<li class="lvl3"><a href="#3-institusjonens-oppgaver">§ 3. Institusjonens oppgaver</a></li>
+<li class="lvl3"><a href="#4-institusjonens-ledelse">§ 4. Institusjonens ledelse</a></li>
+<li class="lvl3"><a href="#5-styrets-sammensetning-og-oppnevning">§ 5. Styrets sammensetning og oppnevning</a></li>
+<li class="lvl3"><a href="#6-styrets-oppgaver">§ 6. Styrets oppgaver</a></li>
+<li class="lvl3"><a href="#7-direktren">§ 7. Direktøren</a></li>
+<li class="lvl3"><a href="#8-personalet">§ 8. Personalet</a></li>
+<li class="lvl3"><a href="#9-radgivende-utvalg">§ 9. Rådgivende utvalg</a></li>
+<li class="lvl3"><a href="#10-offentlige-myndigheters-bistand-til-institusjonen">§ 10. Offentlige myndigheters bistand til institusjonen</a></li>
+<li class="lvl3"><a href="#11-dokumentoffentlighet">§ 11. Dokumentoffentlighet</a></li>
+<li class="lvl3"><a href="#12-taushetsplikt">§ 12. Taushetsplikt</a></li>
+<li class="lvl3"><a href="#13-behandling-av-personopplysninger">§ 13. Behandling av personopplysninger</a></li>
+<li class="lvl3"><a href="#14-sikkerhetslovens-anvendelse">§ 14. Sikkerhetslovens anvendelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-02-13-5.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-05-22-33.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om Norges institusjon for menneskerettigheter (NIM-loven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-05-22-33.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2015-05-22-33 <code>lov/2015-05-22-33</code></td></tr>
+<tr><th>Korttittel</th><td>NIM-loven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Internasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Internasjonale organisasjoner\nInternasjonal rett &raquo; Konvensjoner. Overenskomster</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2015</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-02-13-5 <code>lov/2026-02-13-5</code> fra 13.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2015-05-22-33" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal-og-virkeomrade">§ 1. Formål og virkeområde</a></li>
+<li class="lvl3"><a href="#2-forholdet-til-stortinget">§ 2. Forholdet til Stortinget</a></li>
+<li class="lvl3"><a href="#3-institusjonens-oppgaver">§ 3. Institusjonens oppgaver</a></li>
+<li class="lvl3"><a href="#4-institusjonens-ledelse">§ 4. Institusjonens ledelse</a></li>
+<li class="lvl3"><a href="#5-styrets-sammensetning-og-oppnevning">§ 5. Styrets sammensetning og oppnevning</a></li>
+<li class="lvl3"><a href="#6-styrets-oppgaver">§ 6. Styrets oppgaver</a></li>
+<li class="lvl3"><a href="#7-direktren">§ 7. Direktøren</a></li>
+<li class="lvl3"><a href="#8-personalet">§ 8. Personalet</a></li>
+<li class="lvl3"><a href="#9-radgivende-utvalg">§ 9. Rådgivende utvalg</a></li>
+<li class="lvl3"><a href="#10-offentlige-myndigheters-bistand-til-institusjonen">§ 10. Offentlige myndigheters bistand til institusjonen</a></li>
+<li class="lvl3"><a href="#11-dokumentoffentlighet">§ 11. Dokumentoffentlighet</a></li>
+<li class="lvl3"><a href="#12-taushetsplikt">§ 12. Taushetsplikt</a></li>
+<li class="lvl3"><a href="#13-behandling-av-personopplysninger">§ 13. Behandling av personopplysninger</a></li>
+<li class="lvl3"><a href="#14-sikkerhetslovens-anvendelse">§ 14. Sikkerhetslovens anvendelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-05-22-33.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2015-05-22-33.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2015-05-22-33.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2015-05-22-33.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2015-05-22-33.html">Observerte kildeutgaver</a> · <a href="../historie/nim-loven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2015-05-22-33.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2015-05-22-33.html">Observerte kildeutgaver</a> · <a href="../historie/nim-loven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2015-05-22-33.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-norges-institusjon-for-menneskerettigheter-nim-loven">Lov om Norges institusjon for menneskerettigheter (NIM-loven)</h1>
 <h3 id="1-formal-og-virkeomrade">§ 1. Formål og virkeområde</h3>
 <p>Formålet med loven er å etablere en nasjonal institusjon for menneskerettigheter, Norges institusjon for menneskerettigheter (NIM) .</p>
 <p>Norges institusjon for menneskerettigheter har som hovedoppgave å fremme og beskytte menneskerettighetene i tråd med Grunnloven , <a href="lov-1999-05-21-30.html">menneskerettsloven</a> og den øvrige lovgivning, internasjonale traktater og folkeretten for øvrig.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="2-forholdet-til-stortinget">§ 2. Forholdet til Stortinget</h3>
 <p>Norges institusjon for menneskerettigheter utfører sine oppgaver selvstendig og uavhengig, og bestemmer selv hvordan arbeidet skal innrettes og organiseres.</p>
 <p>Institusjonen skal årlig avgi en melding til Stortinget om institusjonens virksomhet og utviklingen av menneskerettighetssituasjonen i Norge. Slike meldinger skal gis innen 1. april hvert år og omfatte institusjonens virksomhet i perioden 1. januar til 31. desember det foregående året.</p>
 <p>Institusjonen kan, dersom den avdekker forhold av en slik karakter at Stortinget bør varsles, gi særskilte meldinger til Stortinget.</p>
 <p>Institusjonens meldinger skal være offentlige.</p>
 <p>Stortinget kan gi utfyllende bestemmelser om institusjonens virksomhet.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="3-institusjonens-oppgaver">§ 3. Institusjonens oppgaver</h3>
 <p>Norges institusjon for menneskerettigheter skal bidra til å styrke gjennomføringen av menneskerettighetene i samsvar med Paris-prinsippene om nasjonale institusjoners status, særlig ved å:</p>
 <p>a. overvåke og rapportere om menneskerettighetenes stilling i Norge, herunder legge frem anbefalinger for å sikre at Norges menneskerettslige forpliktelser oppfylles,
@@ -98,28 +171,28 @@ e. legge til rette for samarbeid med relevante offentlige organer og andre aktø
 f. delta i internasjonalt samarbeid for å fremme og beskytte menneskerettighetene.</p>
 <p>Institusjonen er overvåkingsorgan etter Europarådets konvensjon om forebygging og bekjempelse av vold mot kvinner og vold i nære relasjoner artikkel 10 og Europarådets konvensjon om tiltak mot menneskehandel artikkel 29 nr. 4.</p>
 <p>Institusjonen skal ikke prøve enkeltsaker om krenkelse av menneskerettigheter.</p>
-<p><em>Endret ved lover 20 des 2022 nr. 117 (i kraft 1 jan 2023), 13 feb 2026 nr. 5 .</em></p>
+<p class="note">Endret ved lover 20 des 2022 nr. 117 (i kraft 1 jan 2023), 13 feb 2026 nr. 5 .</p>
 <h3 id="4-institusjonens-ledelse">§ 4. Institusjonens ledelse</h3>
 <p>Norges institusjon for menneskerettigheter ledes av et styre og en direktør.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="5-styrets-sammensetning-og-oppnevning">§ 5. Styrets sammensetning og oppnevning</h3>
 <p>Norges institusjon for menneskerettigheters styre skal bestå av fem medlemmer.</p>
 <p>Styremedlemmene skal representere ulike fagfelt, herunder juridisk kompetanse om menneskerettigheter, og styret skal ha kompetanse om virksomhetsstyring. Ett av medlemmene skal ha særskilt kjennskap til samiske spørsmål. I styret skal hvert kjønn være representert med minst to medlemmer.</p>
 <p>Stortinget velger styret, herunder leder og nestleder, etter innstilling fra Stortingets presidentskap. Det skal aktivt informeres om adgangen til å fremme forslag til kandidater til styret, for å sikre en åpen og konsultativ prosess.</p>
 <p>Styremedlemmene velges for en periode på fire år. Medlemmene kan gjenvelges, men ingen kan sitte i styret i mer enn to perioder. Det bør unngås at flere enn tre medlemmer skiftes ut samtidig.</p>
 <p>Stortingets presidentskap fastsetter godtgjørelse til styrets medlemmer.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="6-styrets-oppgaver">§ 6. Styrets oppgaver</h3>
 <p>Styret har det overordnete ansvaret for institusjonens faglige virksomhet, økonomi og drift. Styret skal vedta en overordnet strategi for virksomheten, godkjenne institusjonens virksomhetsplan, legge frem årlig melding til Stortinget, avgi årsregnskap og fremme forslag til budsjett for Stortingets presidentskap. Styret fastsetter eget økonomireglement basert på statens økonomireglement.</p>
 <p>Styret er beslutningsdyktig når minst tre medlemmer er til stede.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="7-direktren">§ 7. Direktøren</h3>
 <p>Norges institusjon for menneskerettigheters daglige virksomhet ledes av en direktør.</p>
 <p>Direktøren ansettes for en periode på seks år av institusjonens styre etter ekstern kunngjøring. Etter ny kunngjøring kan vedkommende ansettes for ytterligere en periode på seks år. Styret fastsetter direktørens lønn, pensjon og øvrige arbeidsvilkår etter de avtaler og bestemmelser som gjelder for arbeidstakere i statlig stilling.</p>
 <p>Direktøren skal tilfredsstille høye krav til faglige kvalifikasjoner og personlig egnethet, herunder inneha juridisk kompetanse eller annen kompetanse om menneskerettigheter, og bør ha erfaring fra menneskerettighetsarbeid.</p>
 <p>Styret kan bare si opp direktøren som følge av at denne har gjort seg skyldig i grovt pliktbrudd eller annet vesentlig mislighold av arbeidsavtalen som ikke er forenlig med den tillit stillingen som direktør for institusjonen krever. Statsansattelovens saksbehandlingsregler gjelder, så langt de passer.</p>
 <p>Direktøren har ansvaret for den daglige administrative, personalmessige og faglige ledelse av institusjonen og for institusjonens interne organisering innenfor de rammer som styret fastsetter. Direktøren er sekretær for styret, forbereder og gir sin anbefaling i saker som legges frem for styret, og er ansvarlig for å iverksette styrevedtak. Direktøren deltar i styremøtene, men har ikke stemmerett.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023, se endringsloven del II for overgangsregel).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023, se endringsloven del II for overgangsregel).</p>
 <h3 id="8-personalet">§ 8. Personalet</h3>
 <p>Direktøren har det daglige arbeidsgiveransvaret for personalet ved institusjonen. Personalet ansettes av styret etter innstilling fra direktøren. <a href="lov-2017-06-16-67.html">Statsansatteloven</a> §§ 4 til 7 om utlysning, innstilling og ansettelse gjelder. Tvister om fortrinnsrett etter statsansatteloven § 13 avgjøres av styret.</p>
 <p>Nærmere regler om fremgangsmåten ved ansettelse og adgang til delegering av styrets myndighet fastsettes av styret i et personalreglement. Stortingets presidentskap kan revidere personalreglementet.</p>
@@ -127,33 +200,35 @@ f. delta i internasjonalt samarbeid for å fremme og beskytte menneskerettighete
 <p>For ansatte i institusjonen fastsetter direktøren lønn, pensjon og arbeidsvilkår etter de avtaler og bestemmelser som gjelder for arbeidstakere i statlig stilling.</p>
 <p><a href="lov-2025-06-20-81.html">Forvaltningsloven</a> gjelder i saker om ordensstraff, oppsigelse, suspensjon eller avskjed. Klageorganet er Stortingets presidentskap.</p>
 <p>Lov 18. juli 1958 nr. 2 om offentlige tjenestetvister gjelder for ansatte i institusjonen.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="9-radgivende-utvalg">§ 9. Rådgivende utvalg</h3>
 <p>Styret oppnevner et rådgivende utvalg tilknyttet institusjonen bestående av minst 10 og høyst 15 medlemmer. Direktøren skal fremsette forslag til medlemmer.</p>
 <p>Det rådgivende utvalget skal bidra med informasjon, råd og innspill til arbeidet som nasjonal institusjon.</p>
 <p>Det rådgivende utvalget skal bestå av medlemmer fra frivillige organisasjoner, det akademiske miljø eller andre særlig kvalifiserte profesjonsgrupper, Sivilombudet, Barneombudet, Likestillings- og diskrimineringsombudet og andre særlig berørte offentlige institusjoner. Minst ett medlem skal ha særskilt kjennskap til samiske spørsmål.</p>
 <p>Direktøren kaller inn og leder møtene i det rådgivende utvalget.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="10-offentlige-myndigheters-bistand-til-institusjonen">§ 10. Offentlige myndigheters bistand til institusjonen</h3>
 <p>Offentlige myndigheter og andre som utfører oppgaver på vegne av det offentlige, skal yte den bistand som er nødvendig for at Norges institusjon for menneskerettigheter kan utføre sine oppgaver etter denne lov.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="11-dokumentoffentlighet">§ 11. Dokumentoffentlighet</h3>
 <p>Alle kan hos institusjonen kreve innsyn i institusjonens saksdokumenter, journaler og lignende registre. Bestemmelsene i <a href="lov-2006-05-19-16.html">offentleglova</a> med tilhørende forskrifter gjelder tilsvarende så langt de passer. Dokumenter som utveksles mellom Stortinget og institusjonen, og som gjelder institusjonens budsjett og interne administrasjon, kan unntas fra offentlighet.</p>
 <p><a href="lov-2025-06-20-96.html">Arkivlova</a> kapittel 1 og 2 , med unntak av § 4 andre og tredje ledd , gjelder for institusjonens virksomhet. Tilhørende forskrifter gjelder så langt de passer.</p>
 <p>Direktøren, eller den direktøren bemyndiger, avgjør om et dokument helt eller delvis skal unntas fra offentlighet. Slike avgjørelser kan påklages til styret.</p>
-<p><em>Endret ved lover 20 des 2022 nr. 117 (i kraft 1 jan 2023, tidligere § 12), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ).</em></p>
+<p class="note">Endret ved lover 20 des 2022 nr. 117 (i kraft 1 jan 2023, tidligere § 12), 20 juni 2025 nr. 96 (i kraft 1 jan 2026 iflg. res. 12 des 2025 nr. 2510 ).</p>
 <h3 id="12-taushetsplikt">§ 12. Taushetsplikt</h3>
 <p>Enhver som utfører tjeneste eller arbeid for institusjonen, plikter å unngå at andre får adgang eller kjennskap til det han eller hun i forbindelse med tjenesten eller arbeidet får vite om forhold av personlig karakter. Taushetsplikten gjelder også opplysninger om drifts- og forretningshemmeligheter og informasjon som er gradert i henhold til <a href="lov-2018-06-01-24.html">sikkerhetsloven</a> eller beskyttelsesinstruksen .</p>
 <p>Taushetsplikten gjelder også etter at vedkommende har avsluttet tjenesten eller arbeidet. Han eller hun kan heller ikke utnytte opplysninger som nevnt i første ledd i egen virksomhet eller i tjeneste eller arbeid for andre.</p>
 <p>For øvrig gjelder bestemmelsene i forvaltningsloven §§ 13 a til 13 g så langt de passer.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ), 20 des 2022 nr. 117 (i kraft 1 jan 2023, tidligere § 13).</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 127 (ikr. 1 juli 2021 iflg. res. 18 juni 2021 nr. 2026 ), 20 des 2022 nr. 117 (i kraft 1 jan 2023, tidligere § 13).</p>
 <h3 id="13-behandling-av-personopplysninger">§ 13. Behandling av personopplysninger</h3>
 <p>Norges institusjon for menneskerettigheter kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , når dette er nødvendig for å utføre oppgaver etter loven her.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023).</p>
 <h3 id="14-sikkerhetslovens-anvendelse">§ 14. Sikkerhetslovens anvendelse</h3>
 <p>For institusjonens styre og personale gjelder bestemmelsene om behandling av sikkerhetsgradert informasjon og personellsikkerhet i sikkerhetsloven med forskrifter samt beskyttelsesinstruksen . Stortingets administrasjon er klareringsmyndighet. Stortingets presidentskap er klagemyndighet for avgjørelser truffet av Stortingets administrasjon.</p>
 <p>Hvis institusjonen er i tvil om graderingen av en opplysning i en melding, eller mener at av- eller nedgradering bør skje, forelegger institusjonen spørsmålet for den offentlige myndighet som har utstedt informasjonen. Avgjørelsen fra vedkommende myndighet er bindende for institusjonen.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023, ved tilføyelse av ny § 14 ble det ikke angitt omparagrafering av tidligere § 14 (Ikrafttredelse), som dermed utgår, tidligere § 14 lød: «Loven trer i kraft 1. juli 2015.»).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 117 (i kraft 1 jan 2023, ved tilføyelse av ny § 14 ble det ikke angitt omparagrafering av tidligere § 14 (Ikrafttredelse), som dermed utgår, tidligere § 14 lød: «Loven trer i kraft 1. juli 2015.»).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

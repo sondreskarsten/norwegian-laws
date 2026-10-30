@@ -19,67 +19,136 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-11-04-1286.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Tiltakspengeforskriften" href="../feeds/forskrift-2013-11-04-1286.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Tiltakspengeforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-11-04-1286</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-17-2713</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-11-04-1286" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-hvem-som-kan-fa-tiltakspenger">§ 2. Hvem som kan få tiltakspenger</a></li>
+<li class="lvl3"><a href="#3-tiltakspenger-og-barnetillegg">§ 3. Tiltakspenger og barnetillegg</a></li>
+<li class="lvl3"><a href="#4-opphevet">§ 4. (Opphevet)</a></li>
+<li class="lvl3"><a href="#5-meldeplikt">§ 5. Meldeplikt</a></li>
+<li class="lvl3"><a href="#6-stnadsdager">§ 6. Stønadsdager</a></li>
+<li class="lvl3"><a href="#7-forholdet-til-andre-ytelser">§ 7. Forholdet til andre ytelser</a></li>
+<li class="lvl3"><a href="#8-forholdet-til-lnn">§ 8. Forholdet til lønn</a></li>
+<li class="lvl3"><a href="#9-opphold-i-institusjon-fengsel-mv">§ 9. Opphold i institusjon, fengsel mv.</a></li>
+<li class="lvl3"><a href="#10-reduksjon-av-ytelse-pa-grunn-av-fravr">§ 10. Reduksjon av ytelse på grunn av fravær</a></li>
+<li class="lvl3"><a href="#11-utbetaling-frist-for-framsetting-av-krav-og-rett-til-etterbetaling">§ 11. Utbetaling, frist for framsetting av krav og rett til etterbetaling</a></li>
+<li class="lvl3"><a href="#12-ikrafttredelse-mv">§ 12. Ikrafttredelse mv.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-17-2713.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-04-1286.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tiltakspenger mv. (tiltakspengeforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-11-04-1286.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-11-04-1286 <code>forskrift/2013-11-04-1286</code></td></tr>
+<tr><th>Korttittel</th><td>Tiltakspengeforskriften</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-17-2713 <code>forskrift/2025-12-17-2713</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-11-04-1286" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-hvem-som-kan-fa-tiltakspenger">§ 2. Hvem som kan få tiltakspenger</a></li>
+<li class="lvl3"><a href="#3-tiltakspenger-og-barnetillegg">§ 3. Tiltakspenger og barnetillegg</a></li>
+<li class="lvl3"><a href="#4-opphevet">§ 4. (Opphevet)</a></li>
+<li class="lvl3"><a href="#5-meldeplikt">§ 5. Meldeplikt</a></li>
+<li class="lvl3"><a href="#6-stnadsdager">§ 6. Stønadsdager</a></li>
+<li class="lvl3"><a href="#7-forholdet-til-andre-ytelser">§ 7. Forholdet til andre ytelser</a></li>
+<li class="lvl3"><a href="#8-forholdet-til-lnn">§ 8. Forholdet til lønn</a></li>
+<li class="lvl3"><a href="#9-opphold-i-institusjon-fengsel-mv">§ 9. Opphold i institusjon, fengsel mv.</a></li>
+<li class="lvl3"><a href="#10-reduksjon-av-ytelse-pa-grunn-av-fravr">§ 10. Reduksjon av ytelse på grunn av fravær</a></li>
+<li class="lvl3"><a href="#11-utbetaling-frist-for-framsetting-av-krav-og-rett-til-etterbetaling">§ 11. Utbetaling, frist for framsetting av krav og rett til etterbetaling</a></li>
+<li class="lvl3"><a href="#12-ikrafttredelse-mv">§ 12. Ikrafttredelse mv.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-04-1286.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-11-04-1286.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-11-04-1286.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-11-04-1286.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-11-04-1286.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-11-04-1286.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-11-04-1286.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-11-04-1286.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-11-04-1286.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tiltakspenger-mv-tiltakspengeforskriften">Forskrift om tiltakspenger mv. (tiltakspengeforskriften)</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med tiltakspenger er å oppfordre til å delta på, og å sikre inntekt for deltakere i arbeidsmarkedstiltak.</p>
-<p><em>Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</p>
 <h3 id="2-hvem-som-kan-fa-tiltakspenger">§ 2. Hvem som kan få tiltakspenger</h3>
 <p>Deltakere på følgende arbeidsmarkedstiltak har krav på tiltakspenger:</p>
 <p>a. avklaring, jf. forskrift 11. desember 2015 nr. 1598 om arbeidsmarkedstiltak (tiltaksforskriften) kapittel 2 ,
@@ -91,45 +160,47 @@ f. arbeidsforberedende trening, jf. tiltaksforskriften kapittel 13 ,
 g. arbeid med støtte, jf. forskrift om oppfølgingstiltak i Arbeids- og velferdsetatens egenregi kapittel 2 , og
 h. individuell jobbstøtte, jf. forskrift om oppfølgingstiltak i Arbeids- og velferdsetatens egenregi kapittel 3 .</p>
 <p>Det kan også gis tiltakspenger til deltakere fra Norge på arbeidsmarkedstiltak som arrangeres utenfor Norge, når tiltaket er tildelt av Arbeids- og velferdsetaten.</p>
-<p><em>Endret ved forskrifter 17 okt 2014 nr. 1314 (i kraft 1 jan 2015, se endringsforskriften for overgangsregler), 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 21 des 2015 nr. 1829 (i kraft 1 jan 2016), 13 juni 2016 nr. 654 (i kraft 1 okt 2016), 20 des 2016 nr. 1780 (i kraft 1 jan 2017, se endringsforskriften for overgangsregler), 20 juni 2023 nr. 1005 , 2 juli 2023 nr. 1203 (med virkning fra 20 juni 2023).</em></p>
+<p class="note">Endret ved forskrifter 17 okt 2014 nr. 1314 (i kraft 1 jan 2015, se endringsforskriften for overgangsregler), 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 21 des 2015 nr. 1829 (i kraft 1 jan 2016), 13 juni 2016 nr. 654 (i kraft 1 okt 2016), 20 des 2016 nr. 1780 (i kraft 1 jan 2017, se endringsforskriften for overgangsregler), 20 juni 2023 nr. 1005 , 2 juli 2023 nr. 1203 (med virkning fra 20 juni 2023).</p>
 <h3 id="3-tiltakspenger-og-barnetillegg">§ 3. Tiltakspenger og barnetillegg</h3>
 <p>Tiltakspenger kan gis til tiltaksdeltakere som har fylt 18 år. Tiltakspengene utgjør 312 kroner per dag. Det gis et barnetillegg på 56 kroner per dag for hvert barn under 16 år som tiltaksdeltakeren forsørger.</p>
 <p>Det er et vilkår for rett til barnetillegg at barnet er bosatt og oppholder seg i Norge, herunder Svalbard. Det gis likevel barnetillegg under utenlandsopphold hvis oppholdet eller oppholdene til sammen ikke varer mer enn 90 dager i løpet av en tolvmånedersperiode.</p>
-<p><em>Endret ved forskrifter 21 des 2015 nr. 1829 (i kraft 1 jan 2016), 4 juni 2020 nr. 1154 (i kraft 1 juli 2020), 22 des 2021 nr. 3844 (i kraft 1 jan 2022, se endringsforskriften for overgangsregler), 24 jan 2023 nr. 88 (med virkning fra og med 1 jan 2023), 19 des 2023 nr. 2204 (i kraft 1 jan 2024), 8 jan 2024 nr. 49 (i kraft 1 jan 2024), 18 des 2024 nr. 3267 (i kraft 1 jan 2025), 17 des 2025 nr. 2713 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2015 nr. 1829 (i kraft 1 jan 2016), 4 juni 2020 nr. 1154 (i kraft 1 juli 2020), 22 des 2021 nr. 3844 (i kraft 1 jan 2022, se endringsforskriften for overgangsregler), 24 jan 2023 nr. 88 (med virkning fra og med 1 jan 2023), 19 des 2023 nr. 2204 (i kraft 1 jan 2024), 8 jan 2024 nr. 49 (i kraft 1 jan 2024), 18 des 2024 nr. 3267 (i kraft 1 jan 2025), 17 des 2025 nr. 2713 (i kraft 1 jan 2026).</p>
 <h3 id="4-opphevet">§ 4. (Opphevet)</h3>
-<p><em>Opphevet ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</em></p>
+<p class="note">Opphevet ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</p>
 <h3 id="5-meldeplikt">§ 5. Meldeplikt</h3>
 <p>Enhver som mottar tiltakspenger, må som hovedregel melde seg til Arbeids- og velferdsetaten hver fjortende dag (meldeperioden). Melding skal gis ved bruk av meldekort eller på annen måte som Arbeids- og velferdsetaten bestemmer. Meldeplikten omfatter opplysninger som har betydning for retten til ytelse.</p>
 <p>Dersom det vil være unødig tyngende for tiltaksdeltakeren å overholde meldeplikten, kan Arbeids- og velferdsetaten helt eller delvis frita vedkommende fra meldeplikten og i så fall bestemme hvordan opplysninger som nevnt i første ledd skal gis.</p>
 <p>Dersom tiltaksdeltakeren uten rimelig grunn unnlater å melde seg på fastsatt dag, faller retten til ytelse bort fra og med den dagen vedkommende skulle ha meldt seg og inntil han eller hun melder seg på nytt. Tiltaksdeltakere som kan dokumentere at de har hatt rimelig grunn til å unnlate å melde seg, skal få ytelsen etterbetalt.</p>
-<p><em>Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</p>
 <h3 id="6-stnadsdager">§ 6. Stønadsdager</h3>
 <p>Tiltakspenger gis for alle dager som tiltaksdeltakeren faktisk deltar på tiltak (tiltaksdager).</p>
 <p>Ytelsen kan også utbetales på offentlige fridager og i jule- og påskeferie når disse faller på en dag som normalt ville ha vært en tiltaksdag.</p>
 <p>Dersom et opplæringstiltak varer i mer enn ett skoleår og deltakeren av helsemessige årsaker ikke kan ta arbeid eller ikke har krav på feriepenger, kan det gis tiltakspenger i sommerferien. Det kan også gis tiltakspenger dersom en tiltaksdeltaker får opphold i et arbeidsmarkedstiltak som følge av fellesferie hos tiltaksarrangøren.</p>
-<p><em>Endret ved forskrifter 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 27 mars 2020 nr. 496 (med virkning fra og med 20 mars 2020), 30 okt 2020 nr. 2215 (i kraft 1 nov 2020), 30 okt 2020 nr. 2223 (i kraft 1 nov 2020), 30 okt 2020 nr. 2223 (i kraft 1 april 2021), 16 mars 2021 nr. 741 (i kraft 1 april 2021), 16 mars 2021 nr. 741 (i kraft 1 juli 2021), 17 des 2021 nr. 3722 , 17 des 2021 nr. 3722 (i kraft 1 mars 2022), 10 mai 2022 nr. 830 .</em></p>
+<p class="note">Endret ved forskrifter 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 27 mars 2020 nr. 496 (med virkning fra og med 20 mars 2020), 30 okt 2020 nr. 2215 (i kraft 1 nov 2020), 30 okt 2020 nr. 2223 (i kraft 1 nov 2020), 30 okt 2020 nr. 2223 (i kraft 1 april 2021), 16 mars 2021 nr. 741 (i kraft 1 april 2021), 16 mars 2021 nr. 741 (i kraft 1 juli 2021), 17 des 2021 nr. 3722 , 17 des 2021 nr. 3722 (i kraft 1 mars 2022), 10 mai 2022 nr. 830 .</p>
 <h3 id="7-forholdet-til-andre-ytelser">§ 7. Forholdet til andre ytelser</h3>
 <p>Det gis ikke tiltakspenger for samme periode som tiltaksdeltakeren har rett til andre ytelser til livsopphold. En tiltaksdeltaker som har barnepensjon etter folketrygdloven kapittel 18 kan likevel få tiltakspenger. En tiltaksdeltaker som har forlenget ventetid eller tidsbegrenset bortfall av dagpenger etter folketrygdloven § 4-10 eller § 4-20 , anses å ha rett på dagpenger etter første punktum.</p>
 <p>En tiltaksdeltaker som mottar barnetrygd, jf. barnetrygdloven , eller kontantstøtte etter kontantstøtteloven, kan få barnetillegg jf. § 3 andre ledd.</p>
 <p>Den som deltar i et tiltak som nevnt i § 2 som er en del av et kvalifiseringsprogram, jf. lov 18. desember 2009 nr. 131 om sosiale tjenester i arbeids- og velferdsforvaltningen § 29 eller et introduksjonsprogram, jf. lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid kapittel 4 , har ikke krav på tiltakspenger.</p>
-<p><em>Endret ved forskrifter 20 nov 2013 nr. 1332 (i kraft 1 jan 2014), 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 20 des 2016 nr. 1780 (i kraft 1 jan 2017), 13 des 2019 nr. 1766 (i kraft 1 jan 2020, se endringsforskriften for overgangsregler), 5 nov 2023 nr. 1799 .</em></p>
+<p class="note">Endret ved forskrifter 20 nov 2013 nr. 1332 (i kraft 1 jan 2014), 2 juli 2015 nr. 876 (i kraft 1 jan 2016), 20 des 2016 nr. 1780 (i kraft 1 jan 2017), 13 des 2019 nr. 1766 (i kraft 1 jan 2020, se endringsforskriften for overgangsregler), 5 nov 2023 nr. 1799 .</p>
 <h3 id="8-forholdet-til-lnn">§ 8. Forholdet til lønn</h3>
 <p>Tiltaksdeltakere som mottar lønn fra tiltaksarrangør, har ikke krav på tiltakspenger for tiden de mottar lønn. Lønn fra arbeid utenom tiltaksdeltakelsen fører ikke til reduksjon av tiltakspengene.</p>
 <h3 id="9-opphold-i-institusjon-fengsel-mv">§ 9. Opphold i institusjon, fengsel mv.</h3>
 <p>Tiltaksdeltakere som har opphold i institusjon, fengsel mv. med fri kost og losji under gjennomføringen av tiltaket, kan ikke samtidig motta tiltakspenger. Dette gjelder ikke tiltaksdeltakere med opphold i barnevernsinstitusjoner.</p>
-<p><em>Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</p>
 <h3 id="10-reduksjon-av-ytelse-pa-grunn-av-fravr">§ 10. Reduksjon av ytelse på grunn av fravær</h3>
 <p>Fravær fra arbeidsmarkedstiltaket fører til reduksjon av tiltakspengene. Ytelsen faller bort for alle dager med fravær.</p>
 <p>Dokumenterer tiltaksdeltakeren at fraværet skyldes at han eller hun var syk, gis det tiltakspenger med full sats de tre første sykedagene og med 75 prosent av satsen resten av arbeidsgiverperioden. Tilsvarende som ved egen sykdom, gis det tiltakspenger dersom det dokumenteres at fraværet skyldes at deltakerens barn eller barnepasseren til deltakerens barn var syk.</p>
 <p>Dokumenterer tiltaksdeltakeren at fraværet skyldes et jobbintervju, en avtalt time i det offentlige hjelpeapparatet eller sterke velferdsgrunner, reduseres ikke ytelsen.</p>
-<p><em>Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 2 juli 2015 nr. 876 (i kraft 1 jan 2016).</p>
 <h3 id="11-utbetaling-frist-for-framsetting-av-krav-og-rett-til-etterbetaling">§ 11. Utbetaling, frist for framsetting av krav og rett til etterbetaling</h3>
 <p>Tiltakspenger og barnetillegg gis for opptil tre måneder før den måneden da kravet om ytelsen ble satt fram, dersom vilkårene var oppfylt i denne perioden.</p>
 <p>Anvisning og utbetaling skjer etterskuddsvis hver fjortende dag.</p>
-<p><em>Endret ved forskrift 5 nov 2023 nr. 1799 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2023 nr. 1799 .</p>
 <h3 id="12-ikrafttredelse-mv">§ 12. Ikrafttredelse mv.</h3>
 <p>Forskriften trer i kraft 1. januar 2014.</p>
 <p>Fra samme tidspunkt oppheves forskrift 20. desember 2001 nr. 1544 om arbeidsmarkedstiltak.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

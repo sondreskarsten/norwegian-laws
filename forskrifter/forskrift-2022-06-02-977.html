@@ -19,64 +19,299 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-02-977.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om rekvirering og utlevering av legemidl" href="../feeds/forskrift-2022-06-02-977.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Forskrift om rekvirering og utlevering av legemidl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-06-02-977</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-09-16, 2023-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-02-11-183</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-02-977" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kap-2-grunnkrav-til-rekvirering-mottak-ekspedisjon-og-utlevering">Kap. 2. Grunnkrav til rekvirering, mottak, ekspedisjon og utlevering</a></li>
+<li class="lvl4"><a href="#2-1-forsvarlighetskrav">§ 2-1. Forsvarlighetskrav</a></li>
+<li class="lvl4"><a href="#2-2-ekspedisjonsrett">§ 2-2. Ekspedisjonsrett</a></li>
+<li class="lvl4"><a href="#2-3-apotekvalg">§ 2-3. Apotekvalg</a></li>
+<li class="lvl2"><a href="#kap-3-leges-og-tannleges-rekvireringsrett-og-krav-til-rekvirering">Kap. 3. Leges og tannleges rekvireringsrett og krav til rekvirering</a></li>
+<li class="lvl4"><a href="#3-1-lege-og-tannleges-rett-til-rekvirering">§ 3-1. Lege og tannleges rett til rekvirering</a></li>
+<li class="lvl4"><a href="#3-2-leger-srregler">§ 3-2. Leger, særregler</a></li>
+<li class="lvl4"><a href="#3-3-tannleger-srregler">§ 3-3. Tannleger, særregler</a></li>
+<li class="lvl4"><a href="#3-4-srlige-tilfeller">§ 3-4. Særlige tilfeller</a></li>
+<li class="lvl2"><a href="#kapitel-4-krav-til-resept-og-rekvisisjon">Kapitel 4. Krav til resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-tydelighet-datering-og-signering">§ 4-1. Krav om tydelighet, datering og signering</a></li>
+<li class="lvl4"><a href="#4-2-skriftlig-rekvirering-av-legemidler-til-mennesker">§ 4-2. Skriftlig rekvirering av legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#4-3-muntlig-rekvirering">§ 4-3. Muntlig rekvirering</a></li>
+<li class="lvl4"><a href="#4-4-resepters-og-rekvisisjoners-gyldighetstid">§ 4-4. Resepters og rekvisisjoners gyldighetstid</a></li>
+<li class="lvl2"><a href="#kap-5-krav-til-innhold-i-resepter-og-rekvisisjoner">Kap. 5. Krav til innhold i resepter og rekvisisjoner</a></li>
+<li class="lvl4"><a href="#5-1-grunnkrav">§ 5-1. Grunnkrav</a></li>
+<li class="lvl4"><a href="#5-2-opplysninger-om-rekvirent-pa-resept">§ 5-2. Opplysninger om rekvirent på resept</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-om-virksomhet-pa-resept-pa-legemidler-til-mennesker">§ 5-3. Opplysninger om virksomhet på resept på legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-4-opplysninger-om-pasient-pa-resept-pa-legemidler-til-mennesker">§ 5-4. Opplysninger om pasient på resept på legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-5-opplysninger-om-legemiddel-og-dets-bruk-pa-resept">§ 5-5. Opplysninger om legemiddel og dets bruk på resept</a></li>
+<li class="lvl4"><a href="#5-6-krav-om-reiterasjon-pa-resept">§ 5-6. Krav om reiterasjon på resept</a></li>
+<li class="lvl4"><a href="#5-7-opplysninger-om-rekvirent-virksomhet-og-legemiddel-pa-rekvisisjon-av-legemidler-til-mennesker">§ 5-7. Opplysninger om rekvirent, virksomhet og legemiddel på rekvisisjon av legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-8-srregler-for-resept-for-legemidler-i-reseptgruppe-a-og-b">§ 5-8. Særregler for resept for legemidler i reseptgruppe A og B</a></li>
+<li class="lvl4"><a href="#5-9-es-resepter-for-legemidler-til-mennesker">§ 5-9. EØS-resepter for legemidler til mennesker</a></li>
+<li class="lvl2"><a href="#kap-6-veterinrers-og-fiskehelsebiologers-rekvireringsrett-rekvirering-og-resepters-innhold">Kap. 6. Veterinærers og fiskehelsebiologers rekvireringsrett, rekvirering og resepters innhold</a></li>
+<li class="lvl4"><a href="#6-1-veterinrers-rett-til-rekvirering">§ 6-1. Veterinærers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#6-2-fiskehelsebiologers-rett-til-rekvirering">§ 6-2. Fiskehelsebiologers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#6-3-resept-og-rekvisisjon-av-veterinre-legemidler">§ 6-3. Resept og rekvisisjon av veterinære legemidler</a></li>
+<li class="lvl4"><a href="#6-4-opplysninger-pa-resept-pa-legemidler-til-dyr">§ 6-4. Opplysninger på resept på legemidler til dyr</a></li>
+<li class="lvl4"><a href="#6-5-resept-pa-legemiddel-i-reseptgruppe-a-og-b-til-veterinr-bruk">§ 6-5. Resept på legemiddel i reseptgruppe A og B til veterinær bruk</a></li>
+<li class="lvl4"><a href="#6-6-opplysninger-om-startfrist">§ 6-6. Opplysninger om startfrist</a></li>
+<li class="lvl4"><a href="#6-7-opplysninger-pa-rekvisisjon-for-legemidler-til-veterinr-bruk">§ 6-7. Opplysninger på rekvisisjon for legemidler til veterinær bruk</a></li>
+<li class="lvl4"><a href="#6-8-es-resept-for-legemidler-til-dyr">§ 6-8. EØS-resept for legemidler til dyr</a></li>
+<li class="lvl2"><a href="#kap-7-rekvirering-til-srlige-formal">Kap. 7. Rekvirering til særlige formål</a></li>
+<li class="lvl4"><a href="#7-1-helsesykepleiere-og-jordmdres-rett-til-rekvirering">§ 7-1. Helsesykepleiere og jordmødres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-1a-sykepleieres-rett-til-rekvirering">§ 7-1a. Sykepleieres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-2-farmasyters-rett-til-rekvirering">§ 7-2. Farmasøyters rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-3-tannpleiers-rett-til-rekvirering">§ 7-3. Tannpleiers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-4-optikeres-rett-til-rekvirering">§ 7-4. Optikeres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-5-rekvirering-til-lokalt-legemiddellager">§ 7-5. Rekvirering til lokalt legemiddellager</a></li>
+<li class="lvl4"><a href="#7-6-skipsfrers-mv-rett-til-rekvirering">§ 7-6. Skipsførers m.v rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-7-fartysjef-og-flygesjef-i-flyselskap-rett-til-rekvirering">§ 7-7. Fartøysjef og flygesjef i flyselskap rett til rekvirering</a></li>
+<li class="lvl2"><a href="#kap-8-mottak-av-resept-og-rekvisisjon">Kap. 8. Mottak av resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#8-1-mottak-av-muntlig-resept-og-rekvisisjon">§ 8-1. Mottak av muntlig resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#8-2-kontroll-av-rekvirentens-identitet">§ 8-2. Kontroll av rekvirentens identitet</a></li>
+<li class="lvl4"><a href="#8-3-kontroll-av-resepten-og-rekvisisjonen">§ 8-3. Kontroll av resepten og rekvisisjonen</a></li>
+<li class="lvl4"><a href="#8-4-kontroll-av-reseptens-ekthet">§ 8-4. Kontroll av reseptens ekthet</a></li>
+<li class="lvl2"><a href="#kap-9-ekspedisjon-av-legemidler-etter-resept-og-rekvisisjon">Kap. 9. Ekspedisjon av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#9-1-farmasytkontroll">§ 9-1. Farmasøytkontroll</a></li>
+<li class="lvl4"><a href="#9-2-opplysninger-som-skal-pafres-papirresept">§ 9-2. Opplysninger som skal påføres papirresept</a></li>
+<li class="lvl4"><a href="#9-3-opplysninger-som-skal-pafres-rekvisisjon-mv">§ 9-3. Opplysninger som skal påføres rekvisisjon mv.</a></li>
+<li class="lvl4"><a href="#9-4-ndekspedisjon">§ 9-4. Nødekspedisjon</a></li>
+<li class="lvl4"><a href="#9-5-ekspedisjon-av-es-resepter">§ 9-5. Ekspedisjon av EØS-resepter</a></li>
+<li class="lvl2"><a href="#kap-10-utlevering-av-legemidler-etter-resept-og-rekvisisjon">Kap. 10. Utlevering av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#10-1-krav-om-resept-eller-rekvisisjon">§ 10-1. Krav om resept eller rekvisisjon</a></li>
+<li class="lvl4"><a href="#10-2-informasjon-om-legemidlet">§ 10-2. Informasjon om legemidlet</a></li>
+<li class="lvl4"><a href="#10-3-aktsomhetskrav-ved-legemidler-som-kan-misbrukes">§ 10-3. Aktsomhetskrav ved legemidler som kan misbrukes</a></li>
+<li class="lvl4"><a href="#10-4-legemidler-med-srlige-krav-til-utlevering-ogeller-rekvirering">§ 10-4. Legemidler med særlige krav til utlevering og/eller rekvirering</a></li>
+<li class="lvl4"><a href="#10-5-hjelpemidler">§ 10-5. Hjelpemidler</a></li>
+<li class="lvl4"><a href="#10-6-premiks-til-medisinfor">§ 10-6. Premiks til medisinfôr</a></li>
+<li class="lvl4"><a href="#10-7-byttbare-legemidler">§ 10-7. Byttbare legemidler</a></li>
+<li class="lvl2"><a href="#kap-11-utlevering-av-resepter-oppbevaring-og-dokumentasjon">Kap. 11. Utlevering av resepter, oppbevaring og dokumentasjon</a></li>
+<li class="lvl4"><a href="#11-1-utlevering-av-papirresepter">§ 11-1. Utlevering av papirresepter</a></li>
+<li class="lvl4"><a href="#11-2-oppbevaring-av-papirresepter-og-rekvisisjoner">§ 11-2. Oppbevaring av papirresepter og -rekvisisjoner</a></li>
+<li class="lvl4"><a href="#11-3-oppbevaring-av-muntlige-og-elektroniske-resepter-og-rekvisisjoner">§ 11-3. Oppbevaring av muntlige og elektroniske resepter og rekvisisjoner</a></li>
+<li class="lvl4"><a href="#11-4-opplysninger-om-ekspedisjon-og-utlevering">§ 11-4. Opplysninger om ekspedisjon og utlevering</a></li>
+<li class="lvl4"><a href="#11-5-fremleggelse-av-oppbevarte-resepter-mv">§ 11-5. Fremleggelse av oppbevarte resepter mv.</a></li>
+<li class="lvl2"><a href="#kap-12-utlevering-av-legemidler-uten-resept">Kap. 12. Utlevering av legemidler uten resept</a></li>
+<li class="lvl4"><a href="#12-1-utlevering-av-reseptfrie-legemidler">§ 12-1. Utlevering av reseptfrie legemidler</a></li>
+<li class="lvl4"><a href="#12-2-informasjon-om-legemidlet">§ 12-2. Informasjon om legemidlet</a></li>
+<li class="lvl4"><a href="#12-3-prisinformasjon">§ 12-3. Prisinformasjon</a></li>
+<li class="lvl4"><a href="#12-4-utlevering-av-legemidler-med-risikominimeringstiltak">§ 12-4. Utlevering av legemidler med risikominimeringstiltak</a></li>
+<li class="lvl2"><a href="#kap-13-utlevering-av-legemidler-med-sikkerhetsanordninger">Kap. 13. Utlevering av legemidler med sikkerhetsanordninger</a></li>
+<li class="lvl4"><a href="#13-1-utlevering-av-legemidler-med-sikkerhetsanordninger">§ 13-1. Utlevering av legemidler med sikkerhetsanordninger</a></li>
+<li class="lvl2"><a href="#kap-14-forsendelse-av-legemidler">Kap. 14. Forsendelse av legemidler</a></li>
+<li class="lvl4"><a href="#14-1-aktsomhetskrav-ved-forsendelse">§ 14-1. Aktsomhetskrav ved forsendelse</a></li>
+<li class="lvl4"><a href="#14-2-legemidler-som-krever-spesielle-oppbevaringsbetingelser">§ 14-2. Legemidler som krever spesielle oppbevaringsbetingelser</a></li>
+<li class="lvl4"><a href="#14-3-utlevering-av-legemidler">§ 14-3. Utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kap-15-merking-ved-utlevering-av-legemidler">Kap. 15. Merking ved utlevering av legemidler</a></li>
+<li class="lvl4"><a href="#15-1-alminnelig-regel">§ 15-1. Alminnelig regel</a></li>
+<li class="lvl4"><a href="#15-2-legemidler-utlevert-etter-resept">§ 15-2. Legemidler utlevert etter resept</a></li>
+<li class="lvl4"><a href="#15-3-legemidler-utlevert-etter-rekvisisjon">§ 15-3. Legemidler utlevert etter rekvisisjon</a></li>
+<li class="lvl4"><a href="#15-4-apotekframstilte-legemidler">§ 15-4. Apotekframstilte legemidler</a></li>
+<li class="lvl4"><a href="#15-5-legemidler-som-ikke-utleveres-i-original-emballasje-anbrudd-og-delutlevering">§ 15-5. Legemidler som ikke utleveres i original emballasje (anbrudd og delutlevering)</a></li>
+<li class="lvl4"><a href="#15-6-legemidler-som-pakkes-i-multidose">§ 15-6. Legemidler som pakkes i multidose</a></li>
+<li class="lvl4"><a href="#15-7-legemidler-som-ompakkes-til-endose">§ 15-7. Legemidler som ompakkes til endose</a></li>
+<li class="lvl4"><a href="#15-8-tilleggsmerking-om-bruk">§ 15-8. Tilleggsmerking om bruk</a></li>
+<li class="lvl4"><a href="#15-9-tilleggsmerking-av-advarsler">§ 15-9. Tilleggsmerking av advarsler</a></li>
+<li class="lvl4"><a href="#15-10-legemidler-uten-markedsfringstillatelse-godkjenningsfritak">§ 15-10. Legemidler uten markedsføringstillatelse (godkjenningsfritak)</a></li>
+<li class="lvl2"><a href="#kap-16-ikrafttredelse-og-endringer-i-andre-forskrifter">Kap. 16. Ikrafttredelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i-byttelisten">Vedlegg I Byttelisten</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-02-11-183.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-02-977.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om rekvirering og utlevering av legemidler m.m.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-02-977.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-06-02-977 <code>forskrift/2022-06-02-977</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>16.09.2022, 01.07.2023</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-02-11-183 <code>forskrift/2026-02-11-183</code> fra 11.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-02-977" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kap-2-grunnkrav-til-rekvirering-mottak-ekspedisjon-og-utlevering">Kap. 2. Grunnkrav til rekvirering, mottak, ekspedisjon og utlevering</a></li>
+<li class="lvl4"><a href="#2-1-forsvarlighetskrav">§ 2-1. Forsvarlighetskrav</a></li>
+<li class="lvl4"><a href="#2-2-ekspedisjonsrett">§ 2-2. Ekspedisjonsrett</a></li>
+<li class="lvl4"><a href="#2-3-apotekvalg">§ 2-3. Apotekvalg</a></li>
+<li class="lvl2"><a href="#kap-3-leges-og-tannleges-rekvireringsrett-og-krav-til-rekvirering">Kap. 3. Leges og tannleges rekvireringsrett og krav til rekvirering</a></li>
+<li class="lvl4"><a href="#3-1-lege-og-tannleges-rett-til-rekvirering">§ 3-1. Lege og tannleges rett til rekvirering</a></li>
+<li class="lvl4"><a href="#3-2-leger-srregler">§ 3-2. Leger, særregler</a></li>
+<li class="lvl4"><a href="#3-3-tannleger-srregler">§ 3-3. Tannleger, særregler</a></li>
+<li class="lvl4"><a href="#3-4-srlige-tilfeller">§ 3-4. Særlige tilfeller</a></li>
+<li class="lvl2"><a href="#kapitel-4-krav-til-resept-og-rekvisisjon">Kapitel 4. Krav til resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-tydelighet-datering-og-signering">§ 4-1. Krav om tydelighet, datering og signering</a></li>
+<li class="lvl4"><a href="#4-2-skriftlig-rekvirering-av-legemidler-til-mennesker">§ 4-2. Skriftlig rekvirering av legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#4-3-muntlig-rekvirering">§ 4-3. Muntlig rekvirering</a></li>
+<li class="lvl4"><a href="#4-4-resepters-og-rekvisisjoners-gyldighetstid">§ 4-4. Resepters og rekvisisjoners gyldighetstid</a></li>
+<li class="lvl2"><a href="#kap-5-krav-til-innhold-i-resepter-og-rekvisisjoner">Kap. 5. Krav til innhold i resepter og rekvisisjoner</a></li>
+<li class="lvl4"><a href="#5-1-grunnkrav">§ 5-1. Grunnkrav</a></li>
+<li class="lvl4"><a href="#5-2-opplysninger-om-rekvirent-pa-resept">§ 5-2. Opplysninger om rekvirent på resept</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-om-virksomhet-pa-resept-pa-legemidler-til-mennesker">§ 5-3. Opplysninger om virksomhet på resept på legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-4-opplysninger-om-pasient-pa-resept-pa-legemidler-til-mennesker">§ 5-4. Opplysninger om pasient på resept på legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-5-opplysninger-om-legemiddel-og-dets-bruk-pa-resept">§ 5-5. Opplysninger om legemiddel og dets bruk på resept</a></li>
+<li class="lvl4"><a href="#5-6-krav-om-reiterasjon-pa-resept">§ 5-6. Krav om reiterasjon på resept</a></li>
+<li class="lvl4"><a href="#5-7-opplysninger-om-rekvirent-virksomhet-og-legemiddel-pa-rekvisisjon-av-legemidler-til-mennesker">§ 5-7. Opplysninger om rekvirent, virksomhet og legemiddel på rekvisisjon av legemidler til mennesker</a></li>
+<li class="lvl4"><a href="#5-8-srregler-for-resept-for-legemidler-i-reseptgruppe-a-og-b">§ 5-8. Særregler for resept for legemidler i reseptgruppe A og B</a></li>
+<li class="lvl4"><a href="#5-9-es-resepter-for-legemidler-til-mennesker">§ 5-9. EØS-resepter for legemidler til mennesker</a></li>
+<li class="lvl2"><a href="#kap-6-veterinrers-og-fiskehelsebiologers-rekvireringsrett-rekvirering-og-resepters-innhold">Kap. 6. Veterinærers og fiskehelsebiologers rekvireringsrett, rekvirering og resepters innhold</a></li>
+<li class="lvl4"><a href="#6-1-veterinrers-rett-til-rekvirering">§ 6-1. Veterinærers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#6-2-fiskehelsebiologers-rett-til-rekvirering">§ 6-2. Fiskehelsebiologers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#6-3-resept-og-rekvisisjon-av-veterinre-legemidler">§ 6-3. Resept og rekvisisjon av veterinære legemidler</a></li>
+<li class="lvl4"><a href="#6-4-opplysninger-pa-resept-pa-legemidler-til-dyr">§ 6-4. Opplysninger på resept på legemidler til dyr</a></li>
+<li class="lvl4"><a href="#6-5-resept-pa-legemiddel-i-reseptgruppe-a-og-b-til-veterinr-bruk">§ 6-5. Resept på legemiddel i reseptgruppe A og B til veterinær bruk</a></li>
+<li class="lvl4"><a href="#6-6-opplysninger-om-startfrist">§ 6-6. Opplysninger om startfrist</a></li>
+<li class="lvl4"><a href="#6-7-opplysninger-pa-rekvisisjon-for-legemidler-til-veterinr-bruk">§ 6-7. Opplysninger på rekvisisjon for legemidler til veterinær bruk</a></li>
+<li class="lvl4"><a href="#6-8-es-resept-for-legemidler-til-dyr">§ 6-8. EØS-resept for legemidler til dyr</a></li>
+<li class="lvl2"><a href="#kap-7-rekvirering-til-srlige-formal">Kap. 7. Rekvirering til særlige formål</a></li>
+<li class="lvl4"><a href="#7-1-helsesykepleiere-og-jordmdres-rett-til-rekvirering">§ 7-1. Helsesykepleiere og jordmødres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-1a-sykepleieres-rett-til-rekvirering">§ 7-1a. Sykepleieres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-2-farmasyters-rett-til-rekvirering">§ 7-2. Farmasøyters rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-3-tannpleiers-rett-til-rekvirering">§ 7-3. Tannpleiers rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-4-optikeres-rett-til-rekvirering">§ 7-4. Optikeres rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-5-rekvirering-til-lokalt-legemiddellager">§ 7-5. Rekvirering til lokalt legemiddellager</a></li>
+<li class="lvl4"><a href="#7-6-skipsfrers-mv-rett-til-rekvirering">§ 7-6. Skipsførers m.v rett til rekvirering</a></li>
+<li class="lvl4"><a href="#7-7-fartysjef-og-flygesjef-i-flyselskap-rett-til-rekvirering">§ 7-7. Fartøysjef og flygesjef i flyselskap rett til rekvirering</a></li>
+<li class="lvl2"><a href="#kap-8-mottak-av-resept-og-rekvisisjon">Kap. 8. Mottak av resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#8-1-mottak-av-muntlig-resept-og-rekvisisjon">§ 8-1. Mottak av muntlig resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#8-2-kontroll-av-rekvirentens-identitet">§ 8-2. Kontroll av rekvirentens identitet</a></li>
+<li class="lvl4"><a href="#8-3-kontroll-av-resepten-og-rekvisisjonen">§ 8-3. Kontroll av resepten og rekvisisjonen</a></li>
+<li class="lvl4"><a href="#8-4-kontroll-av-reseptens-ekthet">§ 8-4. Kontroll av reseptens ekthet</a></li>
+<li class="lvl2"><a href="#kap-9-ekspedisjon-av-legemidler-etter-resept-og-rekvisisjon">Kap. 9. Ekspedisjon av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#9-1-farmasytkontroll">§ 9-1. Farmasøytkontroll</a></li>
+<li class="lvl4"><a href="#9-2-opplysninger-som-skal-pafres-papirresept">§ 9-2. Opplysninger som skal påføres papirresept</a></li>
+<li class="lvl4"><a href="#9-3-opplysninger-som-skal-pafres-rekvisisjon-mv">§ 9-3. Opplysninger som skal påføres rekvisisjon mv.</a></li>
+<li class="lvl4"><a href="#9-4-ndekspedisjon">§ 9-4. Nødekspedisjon</a></li>
+<li class="lvl4"><a href="#9-5-ekspedisjon-av-es-resepter">§ 9-5. Ekspedisjon av EØS-resepter</a></li>
+<li class="lvl2"><a href="#kap-10-utlevering-av-legemidler-etter-resept-og-rekvisisjon">Kap. 10. Utlevering av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#10-1-krav-om-resept-eller-rekvisisjon">§ 10-1. Krav om resept eller rekvisisjon</a></li>
+<li class="lvl4"><a href="#10-2-informasjon-om-legemidlet">§ 10-2. Informasjon om legemidlet</a></li>
+<li class="lvl4"><a href="#10-3-aktsomhetskrav-ved-legemidler-som-kan-misbrukes">§ 10-3. Aktsomhetskrav ved legemidler som kan misbrukes</a></li>
+<li class="lvl4"><a href="#10-4-legemidler-med-srlige-krav-til-utlevering-ogeller-rekvirering">§ 10-4. Legemidler med særlige krav til utlevering og/eller rekvirering</a></li>
+<li class="lvl4"><a href="#10-5-hjelpemidler">§ 10-5. Hjelpemidler</a></li>
+<li class="lvl4"><a href="#10-6-premiks-til-medisinfor">§ 10-6. Premiks til medisinfôr</a></li>
+<li class="lvl4"><a href="#10-7-byttbare-legemidler">§ 10-7. Byttbare legemidler</a></li>
+<li class="lvl2"><a href="#kap-11-utlevering-av-resepter-oppbevaring-og-dokumentasjon">Kap. 11. Utlevering av resepter, oppbevaring og dokumentasjon</a></li>
+<li class="lvl4"><a href="#11-1-utlevering-av-papirresepter">§ 11-1. Utlevering av papirresepter</a></li>
+<li class="lvl4"><a href="#11-2-oppbevaring-av-papirresepter-og-rekvisisjoner">§ 11-2. Oppbevaring av papirresepter og -rekvisisjoner</a></li>
+<li class="lvl4"><a href="#11-3-oppbevaring-av-muntlige-og-elektroniske-resepter-og-rekvisisjoner">§ 11-3. Oppbevaring av muntlige og elektroniske resepter og rekvisisjoner</a></li>
+<li class="lvl4"><a href="#11-4-opplysninger-om-ekspedisjon-og-utlevering">§ 11-4. Opplysninger om ekspedisjon og utlevering</a></li>
+<li class="lvl4"><a href="#11-5-fremleggelse-av-oppbevarte-resepter-mv">§ 11-5. Fremleggelse av oppbevarte resepter mv.</a></li>
+<li class="lvl2"><a href="#kap-12-utlevering-av-legemidler-uten-resept">Kap. 12. Utlevering av legemidler uten resept</a></li>
+<li class="lvl4"><a href="#12-1-utlevering-av-reseptfrie-legemidler">§ 12-1. Utlevering av reseptfrie legemidler</a></li>
+<li class="lvl4"><a href="#12-2-informasjon-om-legemidlet">§ 12-2. Informasjon om legemidlet</a></li>
+<li class="lvl4"><a href="#12-3-prisinformasjon">§ 12-3. Prisinformasjon</a></li>
+<li class="lvl4"><a href="#12-4-utlevering-av-legemidler-med-risikominimeringstiltak">§ 12-4. Utlevering av legemidler med risikominimeringstiltak</a></li>
+<li class="lvl2"><a href="#kap-13-utlevering-av-legemidler-med-sikkerhetsanordninger">Kap. 13. Utlevering av legemidler med sikkerhetsanordninger</a></li>
+<li class="lvl4"><a href="#13-1-utlevering-av-legemidler-med-sikkerhetsanordninger">§ 13-1. Utlevering av legemidler med sikkerhetsanordninger</a></li>
+<li class="lvl2"><a href="#kap-14-forsendelse-av-legemidler">Kap. 14. Forsendelse av legemidler</a></li>
+<li class="lvl4"><a href="#14-1-aktsomhetskrav-ved-forsendelse">§ 14-1. Aktsomhetskrav ved forsendelse</a></li>
+<li class="lvl4"><a href="#14-2-legemidler-som-krever-spesielle-oppbevaringsbetingelser">§ 14-2. Legemidler som krever spesielle oppbevaringsbetingelser</a></li>
+<li class="lvl4"><a href="#14-3-utlevering-av-legemidler">§ 14-3. Utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kap-15-merking-ved-utlevering-av-legemidler">Kap. 15. Merking ved utlevering av legemidler</a></li>
+<li class="lvl4"><a href="#15-1-alminnelig-regel">§ 15-1. Alminnelig regel</a></li>
+<li class="lvl4"><a href="#15-2-legemidler-utlevert-etter-resept">§ 15-2. Legemidler utlevert etter resept</a></li>
+<li class="lvl4"><a href="#15-3-legemidler-utlevert-etter-rekvisisjon">§ 15-3. Legemidler utlevert etter rekvisisjon</a></li>
+<li class="lvl4"><a href="#15-4-apotekframstilte-legemidler">§ 15-4. Apotekframstilte legemidler</a></li>
+<li class="lvl4"><a href="#15-5-legemidler-som-ikke-utleveres-i-original-emballasje-anbrudd-og-delutlevering">§ 15-5. Legemidler som ikke utleveres i original emballasje (anbrudd og delutlevering)</a></li>
+<li class="lvl4"><a href="#15-6-legemidler-som-pakkes-i-multidose">§ 15-6. Legemidler som pakkes i multidose</a></li>
+<li class="lvl4"><a href="#15-7-legemidler-som-ompakkes-til-endose">§ 15-7. Legemidler som ompakkes til endose</a></li>
+<li class="lvl4"><a href="#15-8-tilleggsmerking-om-bruk">§ 15-8. Tilleggsmerking om bruk</a></li>
+<li class="lvl4"><a href="#15-9-tilleggsmerking-av-advarsler">§ 15-9. Tilleggsmerking av advarsler</a></li>
+<li class="lvl4"><a href="#15-10-legemidler-uten-markedsfringstillatelse-godkjenningsfritak">§ 15-10. Legemidler uten markedsføringstillatelse (godkjenningsfritak)</a></li>
+<li class="lvl2"><a href="#kap-16-ikrafttredelse-og-endringer-i-andre-forskrifter">Kap. 16. Ikrafttredelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-i-byttelisten">Vedlegg I Byttelisten</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-02-977.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-02-977.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-02-977.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-06-02-977.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-06-02-977.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-02-977.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-06-02-977.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-06-02-977.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-02-977.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-rekvirering-og-utlevering-av-legemidler-mm">Forskrift om rekvirering og utlevering av legemidler m.m.</h1>
 <h2 id="kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriftens formål er å sikre forsvarlig rekvirering, mottak av resept og rekvisisjon, ekspedering og utlevering av legemidler m.m. fra apotek.</p>
@@ -138,7 +373,7 @@ c. Søknad fra tannleger om utvidet rett til rekvirering utover § 3-1 annet led
 </ol>
 <p>Rekvisisjoner skal rekvireres skriftlig via elektroniske løsninger der det er mulig.</p>
 <p>Resept er gyldig for ekspedisjon av den mengden som er angitt på resepten.</p>
-<p><em>Endret ved forskrift 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</p>
 <h4 id="4-3-muntlig-rekvirering">§ 4-3. Muntlig rekvirering</h4>
 <p>Hvis det ikke er praktisk mulig å rekvirere skriftlig, kan resept og rekvisisjon fremsettes muntlig av rekvirenten personlig. Dette kan skje ved personlig fremmøte eller per telefon.</p>
 <p>Resept som fremsettes muntlig kan utleveres kun én gang.</p>
@@ -147,7 +382,7 @@ c. Søknad fra tannleger om utvidet rett til rekvirering utover § 3-1 annet led
 <p>Resepter på hormonelle antikonseptiva til mennesker har en gyldighetstid på tre år fra utstedelsesdato.</p>
 <p>Resepter på antimikrobielle legemidler til dyr har en gyldighetstid som fremgår av forordning (EU) 2019/6 artikkel 105 nr. 10, legemiddelloven § 2b .</p>
 <p>Resepter på antibiotika til mennesker har en gyldighetstid på ti dager, bortsett fra resepter som dekkes etter blåreseptforskriften , eller forskrift om helseforetaksfinansierte reseptlegemidler til bruk utenfor sykehus . Gyldighetstiden kan utvides når det foreligger særlige grunner.</p>
-<p><em>Endret ved forskrift 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrift 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</p>
 <h2 id="kap-5-krav-til-innhold-i-resepter-og-rekvisisjoner">Kap. 5. Krav til innhold i resepter og rekvisisjoner</h2>
 <h4 id="5-1-grunnkrav">§ 5-1. Grunnkrav</h4>
 <p>Resepter og rekvisisjoner skal inneholde alle nødvendige opplysninger for å sikre forsvarlig ekspedisjon og riktig bruk av legemidlene.</p>
@@ -200,7 +435,7 @@ c. Ved rekvirering av legemidler til mennesker på annen måte enn via Reseptfor
 d. Elektronisk kommunikasjon av resepten kan bare skje via Reseptformidleren. Elektronisk kommunikasjon av resepter på legemiddel i reseptgruppe A og B til inneliggende pasienter i spesialisthelsetjenesten og i virksomheter i kommunene kan skje via annet rekvireringssystem enn Reseptformidleren.
 e. Resept på legemiddel i reseptgruppe B til behandling av kroniske tilstander hos dyr kan reitereres maksimalt 3 ganger.
 f. Resept på legemiddel i reseptgruppe A til behandling av dyr kan ikke reitereres.</p>
-<p><em>Endret ved forskrifter 20 mai 2025 nr. 831 (i kraft 1 juli 2025), 11 feb 2026 nr. 183 . Endres ved forskrift 11 feb 2026 nr. 183 (i kraft 1 juli 2028).</em></p>
+<p class="note">Endret ved forskrifter 20 mai 2025 nr. 831 (i kraft 1 juli 2025), 11 feb 2026 nr. 183 . Endres ved forskrift 11 feb 2026 nr. 183 (i kraft 1 juli 2028).</p>
 <h4 id="5-9-es-resepter-for-legemidler-til-mennesker">§ 5-9. EØS-resepter for legemidler til mennesker</h4>
 <p>Når en pasient opplyser at resepten planlegges benyttet for utlevering av et legemiddel til mennesker i et annet land i EØS, plikter norsk rekvirent å påse at resepten oppfyller følgende krav:</p>
 <p>a. Identifisering av pasienten med fullt fornavn, etternavn og fødselsdato.
@@ -216,7 +451,7 @@ g. Legemiddelform, mengde, legemidlets styrke og dosering.</p>
 <p>Veterinærstudenter som har tillatelse til å utføre assistenttjeneste hos praktiserende veterinær, kan rekvirere legemidler i den utstrekning det er nødvendig for utøvelse av tjenesten. Studenters rett til å rekvirere omfatter ikke legemidler i reseptgruppe A.</p>
 <p>Veterinær kan bare rekvirere legemidler som bruksferdig preparat, jf. § 3-1 fjerde ledd.</p>
 <p>I særlige tilfeller kan Direktoratet for medisinske produkter etter søknad i det enkelte tilfelle gi rett til rekvirering av virkestoff (rensubstans).</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="6-2-fiskehelsebiologers-rett-til-rekvirering">§ 6-2. Fiskehelsebiologers rett til rekvirering</h4>
 <p>Fiskehelsebiologer med norsk autorisasjon eller lisens har, med de begrensninger som er gitt, rett til å rekvirere legemidler til veterinær bruk.</p>
 <p>For fiskehelsebiologers rett til rekvirering gjelder blant annet følgende begrensninger:</p>
@@ -224,7 +459,7 @@ g. Legemiddelform, mengde, legemidlets styrke og dosering.</p>
 b. Legemidler skal rekvireres som bruksferdig preparat, jf. § 3-1 fjerde ledd.
 c. Fiskehelsebiologer kan ikke rekvirere legemidler i reseptgruppe A og B.</p>
 <p>I særlige tilfeller kan Direktoratet for medisinske produkter etter søknad i det enkelte tilfelle gi rett til rekvirering av virkestoff (rensubstans).</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="6-3-resept-og-rekvisisjon-av-veterinre-legemidler">§ 6-3. Resept og rekvisisjon av veterinære legemidler</h4>
 <p>Resept og rekvisisjon skal fremsettes skriftlig, med mindre vilkårene er oppfylt for muntlig rekvirering. Bestemmelsene i § 4-1 krav om tydelighet, datering og signering, § 4-3 om muntlig rekvirering og § 4-4 om gyldighetstid gjelder tilsvarende.</p>
 <p>Krav om skriftlighet er ikke til hinder for elektronisk kommunikasjon av resept og rekvisisjon, dersom det benyttes en betryggende metode som autentiserer avsender og sikrer resepten eller rekvisisjonens innhold. Departementet kan stille særskilte krav til elektronisk kommunikasjon ved rekvirering av legemidler til veterinær bruk.</p>
@@ -260,16 +495,16 @@ d. Håndskrevet signatur.</p>
 <p>Det kreves at helsesykepleiere og jordmødre har gjennomført relevant utdanning i temaene vaksinasjon, samliv, seksualitet og prevensjon, og at den enkelte har id-nummer som helsesykepleier eller jordmor i det offentlige Helsepersonellregisteret.</p>
 <p>Resept som fremsettes skriftlig kan reitereres.</p>
 <p>Bestemmelsene i § 4-1 krav om tydelighet, datering og signering, § 4-2 og § 4-3 om skriftlig og muntlig rekvirering, § 4-4 om gyldighetstid, § 5-1 til § 5-7 om innhold og utfylling av resept og rekvisisjon, samt § 5-9 om EØS-resepter gjelder for helsesykepleieres og jordmødres rekvirering.</p>
-<p><em>Endret ved forskrift 26 april 2024 nr. 685 (i kraft 2 mai 2024).</em></p>
+<p class="note">Endret ved forskrift 26 april 2024 nr. 685 (i kraft 2 mai 2024).</p>
 <h4 id="7-1a-sykepleieres-rett-til-rekvirering">§ 7-1a. Sykepleieres rett til rekvirering <a class="para-history" href="../historikk/forskrift-2022-06-02-977/para-7-1a.html" title="Endringshistorikk for § 7-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Sykepleiere kan rekvirere vaksiner i henhold til vaksinasjonsprogram mot covid-19 og influensavaksinasjonsprogrammet, jf. forskrift om nasjonalt vaksinasjonsprogram og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp . Rekvireringsretten omfatter også legemidler som er nødvendig for administrering av vaksinen.</p>
-<p><em>Endret ved forskrift 31 aug 2022 nr. 1521 , opphevet ved forskrift 2 juni 2022 nr. 977 (i kraft 1 juli 2023, jf. denne forskrifts kapittel 16), tilføyd ved forskrift 29 juni 2023 nr. 1170 (i kraft 1 juli 2023), opphevet ved forskrift 29 juni 2023 nr. 1170 (i kraft 1 juli 2024), tilføyd ved forskrift 22 mai 2024 nr. 791 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrift 31 aug 2022 nr. 1521 , opphevet ved forskrift 2 juni 2022 nr. 977 (i kraft 1 juli 2023, jf. denne forskrifts kapittel 16), tilføyd ved forskrift 29 juni 2023 nr. 1170 (i kraft 1 juli 2023), opphevet ved forskrift 29 juni 2023 nr. 1170 (i kraft 1 juli 2024), tilføyd ved forskrift 22 mai 2024 nr. 791 (i kraft 1 juli 2024).</p>
 <h4 id="7-2-farmasyters-rett-til-rekvirering">§ 7-2. Farmasøyters rett til rekvirering <a class="para-history" href="../historikk/forskrift-2022-06-02-977/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Provisorfarmasøyter og reseptarfarmasøyter i apotek kan rekvirere bestemte vaksiner mot sesonginfluensa som skal administreres i apoteket. Rekvireringsretten omfatter også legemidler som er nødvendig for administrering av vaksinen. Farmasøyter som eier apotek har ikke rekvireringsrett. Helsedirektoratet kan gi nærmere retningslinjer for hvilke legemidler som kan rekvireres etter dette ledd.</p>
 <p>Provisorfarmasøyter og reseptarfarmasøyter ansatt i kommunal virksomhet, i helseforetak og i private ideelle sykehus med driftsavtale med et regionalt helseforetak kan rekvirere vaksiner i henhold til vaksinasjonsprogram mot covid-19, jf. forskrift om nasjonalt vaksinasjonsprogram og forskrift om legemiddelhåndtering for virksomheter og helsepersonell som yter helsehjelp . Rekvireringsretten omfatter også legemidler som er nødvendig for administrering av vaksinen.</p>
 <p>Provisorfarmasøyter og reseptarfarmasøyter i apotek kan rekvirere vaksiner mot covid-19 i henhold til vaksinasjonsprogram mot covid-19, jf. forskrift om nasjonalt vaksinasjonsprogram , for administrering i apoteket. Rekvireringsretten omfatter også legemidler som er nødvendig for administrering av vaksinen. Farmasøyter som eier apotek, har ikke slik rekvireringsrett.</p>
 <p>Bestemmelsene i § 4-1 krav om tydelighet, datering og signering, § 4-2 første ledd om skriftlig rekvirering, § 4-4 første ledd om gyldighetstid § 5-1 grunnkrav og § 5-7 om innhold og utfylling rekvisisjon gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 31 aug 2022 nr. 1521 , 2 juni 2022 nr. 977 (i kraft 1 juli 2023, jf. denne forskrifts kapittel 16), 29 juni 2023 nr. 1170 (i kraft 1 juli 2023), 29 juni 2023 nr. 1170 (i kraft 1 juli 2024, se kap 16), 22 mai 2024 nr. 791 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 31 aug 2022 nr. 1521 , 2 juni 2022 nr. 977 (i kraft 1 juli 2023, jf. denne forskrifts kapittel 16), 29 juni 2023 nr. 1170 (i kraft 1 juli 2023), 29 juni 2023 nr. 1170 (i kraft 1 juli 2024, se kap 16), 22 mai 2024 nr. 791 (i kraft 1 juli 2024).</p>
 <h4 id="7-3-tannpleiers-rett-til-rekvirering">§ 7-3. Tannpleiers rett til rekvirering</h4>
 <p>Tannpleier med norsk autorisasjon eller lisens har rett til å rekvirere følgende legemidler i den grad det er nødvendig for utøvelse av tannpleiervirksomheten:</p>
 <p>a. Midler mot karies, innen ATC A01AA
@@ -283,7 +518,7 @@ b. Adrenalinoppløsning i autoinjektor til bruk mot anafylaktisk sjokk.</p>
 <h4 id="7-4-optikeres-rett-til-rekvirering">§ 7-4. Optikeres rett til rekvirering <a class="para-history" href="../historikk/forskrift-2022-06-02-977/para-7-4.html" title="Endringshistorikk for § 7-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Optikere med autorisasjon eller lisens, som har gjennomført relevant utdanning og kan dokumentere opplæring i bruk av diagnostiske legemidler, kan til bruk i praksis rekvirere okulære legemidler til diagnostisk bruk på personer over fem år, samt lokalbedøvende legemidler og adrenalin. Helsedirektoratet fastsetter hvilke legemidler som omfattes av denne bestemmelsen.</p>
 <p>Bestemmelsene i § 4-1 krav om tydelighet, datering og signering, § 4-2 første ledd og § 4-3 om skriftlig og muntlig rekvirering, § 4-4 første ledd om gyldighetstid, § 5-1 grunnkrav og § 5-7 om opplysninger om rekvirent, virksomhet og legemiddel på rekvisisjon gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2023 nr. 2281 (i kraft 1 jan 2024), 20 mai 2025 nr. 831 (i kraft 1 juli 2025).</p>
 <h4 id="7-5-rekvirering-til-lokalt-legemiddellager">§ 7-5. Rekvirering til lokalt legemiddellager</h4>
 <p>Virksomhetsleder eller den han bemyndiger kan rekvirere legemidler til lokalt legemiddellager i samsvar med liste godkjent av lege jf. forskrift om legemiddelhåndtering § 3 bokstav b og § 10.</p>
 <p>Bestemmelsene i § 4-1 krav om tydelighet, datering og signering, § 4-2 første ledd og § 4-3 om skriftlig og muntlig rekvirering, § 4-4 første ledd om gyldighetstid, § 5-1 grunnkrav og § 5-7 om opplysninger om rekvirent, virksomhet og legemiddel på rekvisisjon gjelder tilsvarende.</p>
@@ -309,7 +544,7 @@ b. Adrenalinoppløsning i autoinjektor til bruk mot anafylaktisk sjokk.</p>
 <p>Apotekets farmasøytiske personale skal godkjenne resept og rekvisisjon for ekspedisjon, foreta en faglig vurdering av rekvireringen og godkjenne apotekets dokumentasjon for ekspedisjonen. Ved reseptekspedisjon skal personalet vurdere særskilt veiledningsbehov og sørge for at dette blir gitt. Farmasøytkontrollen omfatter også kontroll av klargjort legemiddel med mindre hensynet til sikker ekspedisjon kan dokumenteres ivaretatt på annen måte. Farmasøytkontroll av rekvisisjoner kan ivaretas av validerte elektroniske systemer dersom det anses forsvarlig. Slik vurdering må dokumenteres.</p>
 <p>Apotekets farmasøytiske personale skal skaffe de opplysninger som er nødvendige for å sikre sikker ekspedering og korrekt bruk av legemidlet.</p>
 <p>Direktoratet for medisinske produkter kan gi nærmere retningslinjer vedrørende farmasøytkontrollen.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="9-2-opplysninger-som-skal-pafres-papirresept">§ 9-2. Opplysninger som skal påføres papirresept</h4>
 <p>Ved hver ekspedisjon av legemiddel skal resepten påføres varenummer og antall av den enkelte vare som er utlevert og eventuell egenandel. Apotekets stempel (identifikasjon) skal påføres resepten.</p>
 <h4 id="9-3-opplysninger-som-skal-pafres-rekvisisjon-mv">§ 9-3. Opplysninger som skal påføres rekvisisjon mv.</h4>
@@ -345,11 +580,11 @@ b. Adrenalinoppløsning i autoinjektor til bruk mot anafylaktisk sjokk.</p>
 <h4 id="10-6-premiks-til-medisinfor">§ 10-6. Premiks til medisinfôr</h4>
 <p>Premiks til medisinfôr skal bare utleveres til produsent som er godkjent for tilvirkning av medisinfôr av nasjonal kompetent myndighet.</p>
 <p>I særlige tilfeller kan Direktoratet for medisinske produkter etter grunngitt søknad fra veterinær eller fiskehelsebiolog gi tillatelse til å utlevere premiks til medisinfôr til dyreeier.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="10-7-byttbare-legemidler">§ 10-7. Byttbare legemidler</h4>
 <p>Som byttbare legemidler regnes de legemidler som er oppført på oppført på Direktoratet for medisinske produkters oversikt over byttbare legemidler (Byttelisten).</p>
 <p>Byttelisten er en del av disse forskrifter og fastsettes av Direktoratet for medisinske produkter.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kap-11-utlevering-av-resepter-oppbevaring-og-dokumentasjon">Kap. 11. Utlevering av resepter, oppbevaring og dokumentasjon</h2>
 <h4 id="11-1-utlevering-av-papirresepter">§ 11-1. Utlevering av papirresepter</h4>
 <p>Resepten skal utleveres samtidig som legemidlet utleveres til mottakeren, med mindre noe annet går fram av dette kapittel. Kan resepten ikke utleveres, bør pasient eller dyreeier gjøres oppmerksom på det.</p>
@@ -358,7 +593,7 @@ b. Adrenalinoppløsning i autoinjektor til bruk mot anafylaktisk sjokk.</p>
 <p>Gjenpart av resept og rekvisisjon på legemidler til mennesker uten markedsføringstillatelse i Norge, jf. legemiddelforskriften § 2-5 , skal oppbevares i ett år etter siste utlevering.</p>
 <p>Gjenpart av resept og rekvisisjon på legemidler til dyr uten markedsføringstillatelse i Norge, jf. forskrift om legemidler til dyr kapittel 4 skal oppbevares i fem år etter siste utlevering.</p>
 <p>Rekvisisjoner skal oppbevares i ett år etter siste utlevering.</p>
-<p><em>Endret ved forskrift 2 feb 2026 nr. 121 .</em></p>
+<p class="note">Endret ved forskrift 2 feb 2026 nr. 121 .</p>
 <h4 id="11-3-oppbevaring-av-muntlige-og-elektroniske-resepter-og-rekvisisjoner">§ 11-3. Oppbevaring av muntlige og elektroniske resepter og rekvisisjoner</h4>
 <p>Apotekets dokumentasjon for mottak av muntlige rekvireringer skal oppbevares i ett år. For legemidler til dyr gjelder forordning (EU) 2019/6 artikkel 103 nr. 3 og nr. 5, jf. legemiddelloven § 2b .</p>
 <p>Muntlige nedtegnede resepter og rekvisisjoner, og elektronisk overførte resepter og rekvisisjoner kan ikke utleveres.</p>
@@ -381,7 +616,7 @@ j. Dato for utlevering etter resept.</p>
 <p>For legemidler til dyr gjelder forordning (EU) 2019/6 artikkel 103 nr. 3 og nr. 5, jf. legemiddelloven § 2b .</p>
 <h4 id="11-5-fremleggelse-av-oppbevarte-resepter-mv">§ 11-5. Fremleggelse av oppbevarte resepter mv.</h4>
 <p>På forespørsel skal apoteket sende resepter og/eller reseptopplysninger til Direktoratet for medisinske produkter, Statens helsetilsyn/Statsforvalteren eller Mattilsynet.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h2 id="kap-12-utlevering-av-legemidler-uten-resept">Kap. 12. Utlevering av legemidler uten resept</h2>
 <h4 id="12-1-utlevering-av-reseptfrie-legemidler">§ 12-1. Utlevering av reseptfrie legemidler</h4>
 <p>Reseptfrie legemidler kan utleveres uten resept. Det samme gjelder reseptpliktige legemidler som i begrenset mengde er unntatt reseptplikt.</p>
@@ -475,7 +710,7 @@ d. Brannfarlige, eksplosive eller etsende legemidler skal merkes med dette.
 e. Cytostatika skal merkes «Cytostatikum».</p>
 <p>Perorale legemidler med etanolinnhold over 10 vektprosent og andre legemidler etter Direktoratet for medisinske produkters bestemmelse skal merkes med varseltrekant. Varseltrekantens utforming fastsettes av Direktoratet for medisinske produkter. Dersom rekvirent angir på resepten at et legemiddel kan nedsette evnen til å føre motorkjøretøy eller utføre risikofylt arbeid, skal legemidlet merkes med varseltrekant.</p>
 <p>Legemidler som utleveres uten resept, skal merkes med særlige advarsler om helsefare ved stort eller langvarig bruk.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h4 id="15-10-legemidler-uten-markedsfringstillatelse-godkjenningsfritak">§ 15-10. Legemidler uten markedsføringstillatelse (godkjenningsfritak)</h4>
 <p>Legemidler uten markedsføringstillatelse som utleveres etter søknad om unntak fra krav om markedsføringstillatelse jf. forskrift om legemidler § 2-5 og forskrift om legemidler til dyr kapittel 4, skal være merket med følgende tekst: «Preparat på godkjenningsfritak. Dette preparat er ikke alminnelig tilgjengelig i Norge. (Skaffes etter spesiell søknad.)»</p>
 <h2 id="kap-16-ikrafttredelse-og-endringer-i-andre-forskrifter">Kap. 16. Ikrafttredelse og endringer i andre forskrifter</h2>
@@ -487,6 +722,8 @@ e. Cytostatika skal merkes «Cytostatikum».</p>
 <h2 id="vedlegg-i-byttelisten">Vedlegg I Byttelisten</h2>
 <p>Vedlegg I, byttelisten, gjengis ikke her, men en oppdatert liste finnes på Direktoratet for medisinske produkters hjemmeside https://www.legemiddelverket.no .</p>
 <p>Vedlegget endret navn ved forskrift 28 juni 2007 nr. 815 . Vedlegget ble flyttet fra forskrift 27 april 1998 nr. 455 ved denne forskriftens ikrafttredelse 16 sep 2022, endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024). Byttelisten oppdateres månedlig. Endringene blir ikke kunngjort i Norsk Lovtidend.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

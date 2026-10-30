@@ -19,64 +19,271 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-08-25-999.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Solvens II-forskriften" href="../feeds/forskrift-2015-08-25-999.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Solvens II-forskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-08-25-999</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-16-1095</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-08-25-999" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forsikringstekniske-avsetninger">Kapittel 1. Forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#1-prinsipper-for-beregning-av-forsikringstekniske-avsetninger">§ 1. Prinsipper for beregning av forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#2-unntak-fra-separat-verdivurdering-av-forsikringsforpliktelser">§ 2. Unntak fra separat verdivurdering av forsikringsforpliktelser</a></li>
+<li class="lvl4"><a href="#3-rentekurve">§ 3. Rentekurve</a></li>
+<li class="lvl4"><a href="#4-sammenligning-med-foretakets-erfaringer">§ 4. Sammenligning med foretakets erfaringer</a></li>
+<li class="lvl2"><a href="#kapittel-2-ansvarlig-kapital">Kapittel 2. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#5-deltakerinteresser-i-andre-finansforetak-mv">§ 5. Deltakerinteresser i andre finansforetak mv.</a></li>
+<li class="lvl4"><a href="#6-inndeling-av-foretakets-ansvarlige-kapital">§ 6. Inndeling av foretakets ansvarlige kapital</a></li>
+<li class="lvl2"><a href="#kapittel-3-solvenskapitalkrav">Kapittel 3. Solvenskapitalkrav</a></li>
+<li class="lvl4"><a href="#7-beregningshyppighet">§ 7. Beregningshyppighet</a></li>
+<li class="lvl4"><a href="#8-standardmetode-for-beregning-av-solvenskapitalkravet">§ 8. Standardmetode for beregning av solvenskapitalkravet</a></li>
+<li class="lvl4"><a href="#9-forenklede-beregninger-av-solvenskapitalkravet-etter-standardmetoden">§ 9. Forenklede beregninger av solvenskapitalkravet etter standardmetoden</a></li>
+<li class="lvl4"><a href="#10-interne-modeller-for-beregning-av-solvenskapitalkravet">§ 10. Interne modeller for beregning av solvenskapitalkravet</a></li>
+<li class="lvl4"><a href="#11-tilleggskrav-for-bruk-av-en-partiell-intern-modell">§ 11. Tilleggskrav for bruk av en partiell intern modell</a></li>
+<li class="lvl4"><a href="#12-styrets-ansvar">§ 12. Styrets ansvar</a></li>
+<li class="lvl4"><a href="#13-endringer-i-en-intern-modell">§ 13. Endringer i en intern modell</a></li>
+<li class="lvl4"><a href="#14-manglende-oppfyllelse-av-krav-til-en-intern-modell">§ 14. Manglende oppfyllelse av krav til en intern modell</a></li>
+<li class="lvl4"><a href="#15-bruk-av-en-intern-modell-anvendelseskrav">§ 15. Bruk av en intern modell (anvendelseskrav)</a></li>
+<li class="lvl4"><a href="#16-utformingen-av-en-intern-modell">§ 16. Utformingen av en intern modell</a></li>
+<li class="lvl4"><a href="#17-kalibrering-av-en-intern-modell">§ 17. Kalibrering av en intern modell</a></li>
+<li class="lvl4"><a href="#18-resultatanalyse-ved-bruk-av-en-intern-modell">§ 18. Resultatanalyse ved bruk av en intern modell</a></li>
+<li class="lvl4"><a href="#19-etterprving-validering-av-en-intern-modell">§ 19. Etterprøving (validering) av en intern modell</a></li>
+<li class="lvl4"><a href="#20-dokumentasjon-av-en-intern-modell">§ 20. Dokumentasjon av en intern modell</a></li>
+<li class="lvl2"><a href="#kapittel-4-minstekapitalkrav">Kapittel 4. Minstekapitalkrav</a></li>
+<li class="lvl4"><a href="#21-beregning-av-minstekapitalkravet">§ 21. Beregning av minstekapitalkravet</a></li>
+<li class="lvl4"><a href="#22-beregning-av-minstekapitalkrav-for-livsforsikringsforetak-som-tilbyr-skadeforsikring">§ 22. Beregning av minstekapitalkrav for livsforsikringsforetak som tilbyr skadeforsikring</a></li>
+<li class="lvl4"><a href="#22a-minstekrav-til-startkapital-og-minstekapitalkrav">§ 22a. Minstekrav til startkapital og minstekapitalkrav</a></li>
+<li class="lvl2"><a href="#kapittel-5-kapitalforvaltning">Kapittel 5. Kapitalforvaltning</a></li>
+<li class="lvl4"><a href="#23-derivater">§ 23. Derivater</a></li>
+<li class="lvl2"><a href="#kapittel-6-systemet-for-risikostyring-og-internkontroll">Kapittel 6. Systemet for risikostyring og internkontroll</a></li>
+<li class="lvl4"><a href="#24-systemet-for-risikostyring">§ 24. Systemet for risikostyring</a></li>
+<li class="lvl4"><a href="#25-risikostyring-ved-bruk-av-justeringer-i-rentekurven">§ 25. Risikostyring ved bruk av justeringer i rentekurven</a></li>
+<li class="lvl4"><a href="#26-egenvurdering-av-risiko-og-solvens">§ 26. Egenvurdering av risiko og solvens</a></li>
+<li class="lvl4"><a href="#27-risikostyringsfunksjonen">§ 27. Risikostyringsfunksjonen</a></li>
+<li class="lvl4"><a href="#28-aktuarfunksjonen">§ 28. Aktuarfunksjonen</a></li>
+<li class="lvl4"><a href="#29-melding-om-brudd-pa-kravene-til-egnethet">§ 29. Melding om brudd på kravene til egnethet</a></li>
+<li class="lvl2"><a href="#kapittel-7-kapitalkravstillegg">Kapittel 7. Kapitalkravstillegg</a></li>
+<li class="lvl4"><a href="#30-kapitalkravstillegg">§ 30. Kapitalkravstillegg</a></li>
+<li class="lvl2"><a href="#kapittel-8-forsikringsforetak-med-svekket-finansiell-stilling">Kapittel 8. Forsikringsforetak med svekket finansiell stilling</a></li>
+<li class="lvl4"><a href="#31-plan-ved-manglende-oppfyllelse-av-kapitalkravene">§ 31. Plan ved manglende oppfyllelse av kapitalkravene</a></li>
+<li class="lvl4"><a href="#32-dispensasjon-fra-solvenskapitalkravet">§ 32. Dispensasjon fra solvenskapitalkravet</a></li>
+<li class="lvl2"><a href="#kapittel-9-informasjon-til-markedet">Kapittel 9. Informasjon til markedet</a></li>
+<li class="lvl4"><a href="#33-forsikringsforetakets-arlige-rapport-om-solvens-og-finansiell-stilling-systemer-og-rutiner-for-offentliggjring-mv">§ 33. Forsikringsforetakets årlige rapport om solvens og finansiell stilling, systemer og rutiner for offentliggjøring mv.</a></li>
+<li class="lvl4"><a href="#34-unntak-fra-kravet-til-offentliggjring-av-informasjon">§ 34. Unntak fra kravet til offentliggjøring av informasjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-rapportering-til-finanstilsynet">Kapittel 10. Rapportering til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#35-systemer-og-rutiner-for-rapportering-til-finanstilsynet">§ 35. Systemer og rutiner for rapportering til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#36-begrensninger-i-rapporteringsfrekvens">§ 36. Begrensninger i rapporteringsfrekvens</a></li>
+<li class="lvl4"><a href="#37-unntak-fra-rapporteringskrav">§ 37. Unntak fra rapporteringskrav</a></li>
+<li class="lvl2"><a href="#kapittel-11-forsikringsgrupper">Kapittel 11. Forsikringsgrupper</a></li>
+<li class="lvl4"><a href="#38-virkeomrade">§ 38. Virkeområde</a></li>
+<li class="lvl4"><a href="#39-unntak-fra-virkeomradet">§ 39. Unntak fra virkeområdet</a></li>
+<li class="lvl4"><a href="#40-tilsyn-med-undergruppe">§ 40. Tilsyn med undergruppe</a></li>
+<li class="lvl4"><a href="#41-gruppesolvens">§ 41. Gruppesolvens</a></li>
+<li class="lvl4"><a href="#42-konsolideringsregler-mv">§ 42. Konsolideringsregler mv.</a></li>
+<li class="lvl4"><a href="#43-eliminering-av-intern-finansiering-av-ansvarlig-kapital">§ 43. Eliminering av intern finansiering av ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#44-overfrbarhet-av-ansvarlig-kapital">§ 44. Overførbarhet av ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#45-bruk-av-beregningsmetoder">§ 45. Bruk av beregningsmetoder</a></li>
+<li class="lvl4"><a href="#46-metode-for-beregning-av-gruppesolvens">§ 46. Metode for beregning av gruppesolvens</a></li>
+<li class="lvl4"><a href="#47-kapitalkravstillegg-pa-gruppeniva">§ 47. Kapitalkravstillegg på gruppenivå</a></li>
+<li class="lvl4"><a href="#48-tilsyn-med-grupper-som-har-sentralisert-risikostyring">§ 48. Tilsyn med grupper som har sentralisert risikostyring</a></li>
+<li class="lvl4"><a href="#49-rapportering-om-risikokonsentrasjon-og-transaksjoner-innenfor-en-gruppe">§ 49. Rapportering om risikokonsentrasjon og transaksjoner innenfor en gruppe</a></li>
+<li class="lvl4"><a href="#50-risikostyring-og-internkontroll-pa-gruppeniva">§ 50. Risikostyring og internkontroll på gruppenivå</a></li>
+<li class="lvl4"><a href="#51-rapportering-til-markedet">§ 51. Rapportering til markedet</a></li>
+<li class="lvl4"><a href="#52-offentliggjring-av-gruppestruktur">§ 52. Offentliggjøring av gruppestruktur</a></li>
+<li class="lvl2"><a href="#kapittel-12-gjennomfring-av-forordninger">Kapittel 12. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#53-gjennomfring-av-forordningeu-201535om-utfylling-av-solvens-ii-direktivet">§ 53. Gjennomføring av forordning(EU) 2015/35om utfylling av Solvens II-direktivet</a></li>
+<li class="lvl4"><a href="#53a-gjennomfring-av-beslutninger-om-ekvivalens">§ 53a. Gjennomføring av beslutninger om ekvivalens</a></li>
+<li class="lvl4"><a href="#53b-gjennomfring-av-forordninger-om-tekniske-opplysninger-til-bruk-ved-beregning-av-forsikringstekniske-avsetninger-og-basiskapital">§ 53b. Gjennomføring av forordninger om tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital</a></li>
+<li class="lvl4"><a href="#53c-gjennomfring-av-andre-forordninger">§ 53c. Gjennomføring av andre forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttreden-overgangsbestemmelser-mv">Kapittel 13. Ikrafttreden, overgangsbestemmelser mv.</a></li>
+<li class="lvl4"><a href="#54-ikrafttreden">§ 54. Ikrafttreden</a></li>
+<li class="lvl4"><a href="#55-unntak-for-forsikringsforetak-under-avvikling">§ 55. Unntak for forsikringsforetak under avvikling</a></li>
+<li class="lvl4"><a href="#56-forsikringstekniske-avsetninger">§ 56. Forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#57-ansvarlig-kapital">§ 57. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#58-solvenskapitalkravet-etter-standardmetoden">§ 58. Solvenskapitalkravet etter standardmetoden</a></li>
+<li class="lvl4"><a href="#59-investeringer-i-verdipapiriserte-lan">§ 59. Investeringer i verdipapiriserte lån</a></li>
+<li class="lvl4"><a href="#60-forsikringsforetak-med-svekket-finansiell-stilling">§ 60. Forsikringsforetak med svekket finansiell stilling</a></li>
+<li class="lvl4"><a href="#61-rapporteringsfrister">§ 61. Rapporteringsfrister</a></li>
+<li class="lvl4"><a href="#62-anvendelse-av-overgangsbestemmelsene-pa-gruppeniva">§ 62. Anvendelse av overgangsbestemmelsene på gruppenivå</a></li>
+<li class="lvl4"><a href="#63-oppheving-av-forskrifter">§ 63. Oppheving av forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-standardmetoden-for-beregning-av-solvenskapitalkravet-scr">Vedlegg 1 Standardmetoden for beregning av solvenskapitalkravet (SCR)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-16-1095.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-08-25-999.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til finansforetaksloven om gjennomføring av Solvens II-direktivet (Solvens II-forskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-08-25-999.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-08-25-999 <code>forskrift/2015-08-25-999</code></td></tr>
+<tr><th>Korttittel</th><td>Solvens II-forskriften</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2016</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-16-1095 <code>forskrift/2026-06-16-1095</code> fra 16.06.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-08-25-999" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forsikringstekniske-avsetninger">Kapittel 1. Forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#1-prinsipper-for-beregning-av-forsikringstekniske-avsetninger">§ 1. Prinsipper for beregning av forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#2-unntak-fra-separat-verdivurdering-av-forsikringsforpliktelser">§ 2. Unntak fra separat verdivurdering av forsikringsforpliktelser</a></li>
+<li class="lvl4"><a href="#3-rentekurve">§ 3. Rentekurve</a></li>
+<li class="lvl4"><a href="#4-sammenligning-med-foretakets-erfaringer">§ 4. Sammenligning med foretakets erfaringer</a></li>
+<li class="lvl2"><a href="#kapittel-2-ansvarlig-kapital">Kapittel 2. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#5-deltakerinteresser-i-andre-finansforetak-mv">§ 5. Deltakerinteresser i andre finansforetak mv.</a></li>
+<li class="lvl4"><a href="#6-inndeling-av-foretakets-ansvarlige-kapital">§ 6. Inndeling av foretakets ansvarlige kapital</a></li>
+<li class="lvl2"><a href="#kapittel-3-solvenskapitalkrav">Kapittel 3. Solvenskapitalkrav</a></li>
+<li class="lvl4"><a href="#7-beregningshyppighet">§ 7. Beregningshyppighet</a></li>
+<li class="lvl4"><a href="#8-standardmetode-for-beregning-av-solvenskapitalkravet">§ 8. Standardmetode for beregning av solvenskapitalkravet</a></li>
+<li class="lvl4"><a href="#9-forenklede-beregninger-av-solvenskapitalkravet-etter-standardmetoden">§ 9. Forenklede beregninger av solvenskapitalkravet etter standardmetoden</a></li>
+<li class="lvl4"><a href="#10-interne-modeller-for-beregning-av-solvenskapitalkravet">§ 10. Interne modeller for beregning av solvenskapitalkravet</a></li>
+<li class="lvl4"><a href="#11-tilleggskrav-for-bruk-av-en-partiell-intern-modell">§ 11. Tilleggskrav for bruk av en partiell intern modell</a></li>
+<li class="lvl4"><a href="#12-styrets-ansvar">§ 12. Styrets ansvar</a></li>
+<li class="lvl4"><a href="#13-endringer-i-en-intern-modell">§ 13. Endringer i en intern modell</a></li>
+<li class="lvl4"><a href="#14-manglende-oppfyllelse-av-krav-til-en-intern-modell">§ 14. Manglende oppfyllelse av krav til en intern modell</a></li>
+<li class="lvl4"><a href="#15-bruk-av-en-intern-modell-anvendelseskrav">§ 15. Bruk av en intern modell (anvendelseskrav)</a></li>
+<li class="lvl4"><a href="#16-utformingen-av-en-intern-modell">§ 16. Utformingen av en intern modell</a></li>
+<li class="lvl4"><a href="#17-kalibrering-av-en-intern-modell">§ 17. Kalibrering av en intern modell</a></li>
+<li class="lvl4"><a href="#18-resultatanalyse-ved-bruk-av-en-intern-modell">§ 18. Resultatanalyse ved bruk av en intern modell</a></li>
+<li class="lvl4"><a href="#19-etterprving-validering-av-en-intern-modell">§ 19. Etterprøving (validering) av en intern modell</a></li>
+<li class="lvl4"><a href="#20-dokumentasjon-av-en-intern-modell">§ 20. Dokumentasjon av en intern modell</a></li>
+<li class="lvl2"><a href="#kapittel-4-minstekapitalkrav">Kapittel 4. Minstekapitalkrav</a></li>
+<li class="lvl4"><a href="#21-beregning-av-minstekapitalkravet">§ 21. Beregning av minstekapitalkravet</a></li>
+<li class="lvl4"><a href="#22-beregning-av-minstekapitalkrav-for-livsforsikringsforetak-som-tilbyr-skadeforsikring">§ 22. Beregning av minstekapitalkrav for livsforsikringsforetak som tilbyr skadeforsikring</a></li>
+<li class="lvl4"><a href="#22a-minstekrav-til-startkapital-og-minstekapitalkrav">§ 22a. Minstekrav til startkapital og minstekapitalkrav</a></li>
+<li class="lvl2"><a href="#kapittel-5-kapitalforvaltning">Kapittel 5. Kapitalforvaltning</a></li>
+<li class="lvl4"><a href="#23-derivater">§ 23. Derivater</a></li>
+<li class="lvl2"><a href="#kapittel-6-systemet-for-risikostyring-og-internkontroll">Kapittel 6. Systemet for risikostyring og internkontroll</a></li>
+<li class="lvl4"><a href="#24-systemet-for-risikostyring">§ 24. Systemet for risikostyring</a></li>
+<li class="lvl4"><a href="#25-risikostyring-ved-bruk-av-justeringer-i-rentekurven">§ 25. Risikostyring ved bruk av justeringer i rentekurven</a></li>
+<li class="lvl4"><a href="#26-egenvurdering-av-risiko-og-solvens">§ 26. Egenvurdering av risiko og solvens</a></li>
+<li class="lvl4"><a href="#27-risikostyringsfunksjonen">§ 27. Risikostyringsfunksjonen</a></li>
+<li class="lvl4"><a href="#28-aktuarfunksjonen">§ 28. Aktuarfunksjonen</a></li>
+<li class="lvl4"><a href="#29-melding-om-brudd-pa-kravene-til-egnethet">§ 29. Melding om brudd på kravene til egnethet</a></li>
+<li class="lvl2"><a href="#kapittel-7-kapitalkravstillegg">Kapittel 7. Kapitalkravstillegg</a></li>
+<li class="lvl4"><a href="#30-kapitalkravstillegg">§ 30. Kapitalkravstillegg</a></li>
+<li class="lvl2"><a href="#kapittel-8-forsikringsforetak-med-svekket-finansiell-stilling">Kapittel 8. Forsikringsforetak med svekket finansiell stilling</a></li>
+<li class="lvl4"><a href="#31-plan-ved-manglende-oppfyllelse-av-kapitalkravene">§ 31. Plan ved manglende oppfyllelse av kapitalkravene</a></li>
+<li class="lvl4"><a href="#32-dispensasjon-fra-solvenskapitalkravet">§ 32. Dispensasjon fra solvenskapitalkravet</a></li>
+<li class="lvl2"><a href="#kapittel-9-informasjon-til-markedet">Kapittel 9. Informasjon til markedet</a></li>
+<li class="lvl4"><a href="#33-forsikringsforetakets-arlige-rapport-om-solvens-og-finansiell-stilling-systemer-og-rutiner-for-offentliggjring-mv">§ 33. Forsikringsforetakets årlige rapport om solvens og finansiell stilling, systemer og rutiner for offentliggjøring mv.</a></li>
+<li class="lvl4"><a href="#34-unntak-fra-kravet-til-offentliggjring-av-informasjon">§ 34. Unntak fra kravet til offentliggjøring av informasjon</a></li>
+<li class="lvl2"><a href="#kapittel-10-rapportering-til-finanstilsynet">Kapittel 10. Rapportering til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#35-systemer-og-rutiner-for-rapportering-til-finanstilsynet">§ 35. Systemer og rutiner for rapportering til Finanstilsynet</a></li>
+<li class="lvl4"><a href="#36-begrensninger-i-rapporteringsfrekvens">§ 36. Begrensninger i rapporteringsfrekvens</a></li>
+<li class="lvl4"><a href="#37-unntak-fra-rapporteringskrav">§ 37. Unntak fra rapporteringskrav</a></li>
+<li class="lvl2"><a href="#kapittel-11-forsikringsgrupper">Kapittel 11. Forsikringsgrupper</a></li>
+<li class="lvl4"><a href="#38-virkeomrade">§ 38. Virkeområde</a></li>
+<li class="lvl4"><a href="#39-unntak-fra-virkeomradet">§ 39. Unntak fra virkeområdet</a></li>
+<li class="lvl4"><a href="#40-tilsyn-med-undergruppe">§ 40. Tilsyn med undergruppe</a></li>
+<li class="lvl4"><a href="#41-gruppesolvens">§ 41. Gruppesolvens</a></li>
+<li class="lvl4"><a href="#42-konsolideringsregler-mv">§ 42. Konsolideringsregler mv.</a></li>
+<li class="lvl4"><a href="#43-eliminering-av-intern-finansiering-av-ansvarlig-kapital">§ 43. Eliminering av intern finansiering av ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#44-overfrbarhet-av-ansvarlig-kapital">§ 44. Overførbarhet av ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#45-bruk-av-beregningsmetoder">§ 45. Bruk av beregningsmetoder</a></li>
+<li class="lvl4"><a href="#46-metode-for-beregning-av-gruppesolvens">§ 46. Metode for beregning av gruppesolvens</a></li>
+<li class="lvl4"><a href="#47-kapitalkravstillegg-pa-gruppeniva">§ 47. Kapitalkravstillegg på gruppenivå</a></li>
+<li class="lvl4"><a href="#48-tilsyn-med-grupper-som-har-sentralisert-risikostyring">§ 48. Tilsyn med grupper som har sentralisert risikostyring</a></li>
+<li class="lvl4"><a href="#49-rapportering-om-risikokonsentrasjon-og-transaksjoner-innenfor-en-gruppe">§ 49. Rapportering om risikokonsentrasjon og transaksjoner innenfor en gruppe</a></li>
+<li class="lvl4"><a href="#50-risikostyring-og-internkontroll-pa-gruppeniva">§ 50. Risikostyring og internkontroll på gruppenivå</a></li>
+<li class="lvl4"><a href="#51-rapportering-til-markedet">§ 51. Rapportering til markedet</a></li>
+<li class="lvl4"><a href="#52-offentliggjring-av-gruppestruktur">§ 52. Offentliggjøring av gruppestruktur</a></li>
+<li class="lvl2"><a href="#kapittel-12-gjennomfring-av-forordninger">Kapittel 12. Gjennomføring av forordninger</a></li>
+<li class="lvl4"><a href="#53-gjennomfring-av-forordningeu-201535om-utfylling-av-solvens-ii-direktivet">§ 53. Gjennomføring av forordning(EU) 2015/35om utfylling av Solvens II-direktivet</a></li>
+<li class="lvl4"><a href="#53a-gjennomfring-av-beslutninger-om-ekvivalens">§ 53a. Gjennomføring av beslutninger om ekvivalens</a></li>
+<li class="lvl4"><a href="#53b-gjennomfring-av-forordninger-om-tekniske-opplysninger-til-bruk-ved-beregning-av-forsikringstekniske-avsetninger-og-basiskapital">§ 53b. Gjennomføring av forordninger om tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital</a></li>
+<li class="lvl4"><a href="#53c-gjennomfring-av-andre-forordninger">§ 53c. Gjennomføring av andre forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttreden-overgangsbestemmelser-mv">Kapittel 13. Ikrafttreden, overgangsbestemmelser mv.</a></li>
+<li class="lvl4"><a href="#54-ikrafttreden">§ 54. Ikrafttreden</a></li>
+<li class="lvl4"><a href="#55-unntak-for-forsikringsforetak-under-avvikling">§ 55. Unntak for forsikringsforetak under avvikling</a></li>
+<li class="lvl4"><a href="#56-forsikringstekniske-avsetninger">§ 56. Forsikringstekniske avsetninger</a></li>
+<li class="lvl4"><a href="#57-ansvarlig-kapital">§ 57. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#58-solvenskapitalkravet-etter-standardmetoden">§ 58. Solvenskapitalkravet etter standardmetoden</a></li>
+<li class="lvl4"><a href="#59-investeringer-i-verdipapiriserte-lan">§ 59. Investeringer i verdipapiriserte lån</a></li>
+<li class="lvl4"><a href="#60-forsikringsforetak-med-svekket-finansiell-stilling">§ 60. Forsikringsforetak med svekket finansiell stilling</a></li>
+<li class="lvl4"><a href="#61-rapporteringsfrister">§ 61. Rapporteringsfrister</a></li>
+<li class="lvl4"><a href="#62-anvendelse-av-overgangsbestemmelsene-pa-gruppeniva">§ 62. Anvendelse av overgangsbestemmelsene på gruppenivå</a></li>
+<li class="lvl4"><a href="#63-oppheving-av-forskrifter">§ 63. Oppheving av forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-standardmetoden-for-beregning-av-solvenskapitalkravet-scr">Vedlegg 1 Standardmetoden for beregning av solvenskapitalkravet (SCR)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-08-25-999.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-08-25-999.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-08-25-999.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-08-25-999.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-08-25-999.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-08-25-999.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-08-25-999.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-08-25-999.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-08-25-999.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-finansforetaksloven-om-gjennomfring-av-solvens-ii-direktivet-solvens-ii-forskriften">Forskrift til finansforetaksloven om gjennomføring av Solvens II-direktivet (Solvens II-forskriften)</h1>
 <h2 id="kapittel-1-forsikringstekniske-avsetninger">Kapittel 1. Forsikringstekniske avsetninger</h2>
 <h4 id="1-prinsipper-for-beregning-av-forsikringstekniske-avsetninger">§ 1. Prinsipper for beregning av forsikringstekniske avsetninger</h4>
 <p>(1) Beregningen av avsetninger for forsikringsforpliktelser skal utføres ved bruk av relevante og hensiktsmessige forsikringstekniske og statistiske metoder og skal være basert på pålitelige opplysninger og realistiske forutsetninger. Data som benyttes i beregningen skal være fullstendige, nøyaktige og hensiktsmessige.</p>
@@ -171,7 +378,7 @@ g. Modellen kan bare ta hensyn til handlingsregler fastsatt av foretakets ledels
 <p>a. for livsforsikringsforetak 4 millioner euro
 b. for andre forsikringsforetak 2,7 millioner euro, men 4 millioner euro hvis foretaket har overtatt ansvarsforsikringer knyttet til motorvogn, luftfartøy eller skip eller andre ansvarsforsikringer, eller kreditt- eller garantiforsikringer
 c. for gjenforsikringsforetak 3,9 millioner euro, men 1,3 millioner euro for gjenforsikringsforetak som etter sine vedtekter bare kan overta gjenforsikringer for en bestemt krets av forsikringstakere.</p>
-<p><em>Tilføyd ved forskrift 17 okt 2022 nr. 1752 (i kraft 19 okt 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 17 okt 2022 nr. 1752 (i kraft 19 okt 2022).</p>
 <h2 id="kapittel-5-kapitalforvaltning">Kapittel 5. Kapitalforvaltning</h2>
 <h4 id="23-derivater">§ 23. Derivater</h4>
 <p>(1) Derivater kan kun anvendes for å redusere risikoen i forsikringsforetakets eiendeler eller for å effektivisere forvaltningen av disse.</p>
@@ -279,7 +486,7 @@ b. summen av kredittinstitusjonsvirksomheten og verdipapirforetaksvirksomheten</
 <p>a. foretaket har forretningskontor i en tredjestat der det foreligger rettslige hindringer for overføring av nødvendige opplysninger,
 b. foretaket har ubetydelig interesse med hensyn til formålene med gruppetilsynet, eller
 c. innlemmingen av foretaket ville være uhensiktsmessig eller villedende med hensyn til formålene for gruppetilsyn.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1763 (i kraft 31 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1763 (i kraft 31 jan 2016).</p>
 <h4 id="40-tilsyn-med-undergruppe">§ 40. Tilsyn med undergruppe</h4>
 <p>(1) Finanstilsynet kan beslutte at bestemmelsene om</p>
 <p>a. gruppesolvens,
@@ -345,7 +552,7 @@ j. delegert kommisjonsforordning (EU) 2021/1256 , og
 k. delegert kommisjonsforordning (EU) 2018/1221</p>
 <p>gjelder som forskrift med de tilpasninger som følger av vedlegg IX , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) I beregningen av tap ved mislighold (LGD) for pantelån i henhold til delegert kommisjonsforordning (EU) 2015/35 artikkel 192 nr. 4, skal LGD ikke settes lavere enn 30 prosent av verdien av lånet.</p>
-<p><em>Endret ved forskrifter 29 okt 2018 nr. 1628 som endret ved 6 des 2018 nr. 1816 (i kraft 6 des 2018), 28 juni 2019 nr. 942 (i kraft 1 aug 2019), 5 des 2019 nr. 1644 (i kraft 31 des 2019), 20 mai 2020 nr. 1031 (i kraft 30 juni 2020), 18 des 2020 nr. 2967 , 25 mars 2021 nr. 1018 , 29 juni 2021 nr. 2286 , 3 feb 2023 nr. 140 , 1 juli 2025 nr. 1381 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 29 okt 2018 nr. 1628 som endret ved 6 des 2018 nr. 1816 (i kraft 6 des 2018), 28 juni 2019 nr. 942 (i kraft 1 aug 2019), 5 des 2019 nr. 1644 (i kraft 31 des 2019), 20 mai 2020 nr. 1031 (i kraft 30 juni 2020), 18 des 2020 nr. 2967 , 25 mars 2021 nr. 1018 , 29 juni 2021 nr. 2286 , 3 feb 2023 nr. 140 , 1 juli 2025 nr. 1381 (i kraft 1 aug 2025).</p>
 <h4 id="53a-gjennomfring-av-beslutninger-om-ekvivalens">§ 53a. Gjennomføring av beslutninger om ekvivalens</h4>
 <p>(1) EØS-avtalen vedlegg IX nr. 1aa (delegert kommisjonsbeslutning (EU) 2015/1602 om likeverdighet for den solvens- og tilsynsordningen for forsikrings- og gjenforsikringsforetak som gjelder i Sveits, på grunnlag av artikkel 172 nr. 2, artikkel 227 nr. 4 og artikkel 260 nr. 3 i europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) EØS-avtalen vedlegg IX nr. 1ab (delegert kommisjonsbeslutning (EU) 2015/2290 om midlertidig likeverdighet for de solvensordningene som gjelder i Australia, på Bermuda, i Brasil, Canada, Mexico og De forente stater, og som får anvendelse på forsikrings- og gjenforsikringsforetak med hovedkontor i disse landene), som endret ved delegert kommisjonsbeslutning (EU) 2016/309 , gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
@@ -353,7 +560,7 @@ k. delegert kommisjonsforordning (EU) 2018/1221</p>
 <p>(4) EØS-avtalen vedlegg IX nr. 1ad (delegert kommisjonsbeslutning (EU) 2016/310 om likeverdighet mellom den solvensordningen for forsikrings- og gjenforsikringsforetak som gjelder i Japan, og ordningen fastsatt i europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(5) EØS-avtalen vedlegg IX nr. 1ae (delegert kommisjonsbeslutning (EU) 2024/1763 om forlengelse av bestemmelsen om at den solvensordningen som gjelder i De forente stater for foretak som har sitt hovedkontor i det tredjelandet, er midlertidig ekvivalent med den ordningen som er fastsatt i avdeling I kapittel VI i europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(6) EØS-avtalen vedlegg IX nr. 1af (delegert kommisjonsbeslutning (EU) 2025/2654 om forlengelse av bestemmelsen om at solvensordningene som gjelder i Brasil, Japan og Mexico for foretak som har sitt hovedkontor i disse tredjelandene, er midlertidig ekvivalent med den ordningen som er fastsatt i avdeling I kapittel VI i europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 29 okt 2018 nr. 1628 (i kraft 6 des 2018, endringen endret ved forskrift 6 des 2018 nr. 1816 ), endret ved forskrifter 30 juni 2025 nr. 1374 , 16 juni 2026 nr. 1095 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 okt 2018 nr. 1628 (i kraft 6 des 2018, endringen endret ved forskrift 6 des 2018 nr. 1816 ), endret ved forskrifter 30 juni 2025 nr. 1374 , 16 juni 2026 nr. 1095 .</p>
 <h4 id="53b-gjennomfring-av-forordninger-om-tekniske-opplysninger-til-bruk-ved-beregning-av-forsikringstekniske-avsetninger-og-basiskapital">§ 53b. Gjennomføring av forordninger om tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital</h4>
 <p>(1) EØS-avtalen vedlegg IX nr. 1s (Kommisjonens gjennomføringsforordning (EU) 2016/165 om fastsettelse av tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital for rapportering med referansedatoer fra 1. januar til 30. mars 2016 i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) EØS-avtalen vedlegg IX nr. 1t (Kommisjonens gjennomføringsforordning (EU) 2016/869 om fastsettelse av tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital for rapportering med referansedatoer fra 31. mars til 29. juni 2016 i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
@@ -396,7 +603,7 @@ k. delegert kommisjonsforordning (EU) 2018/1221</p>
 <p>(39) EØS-avtalen vedlegg IX nr. 1zzi (Kommisjonens gjennomføringsforordning (EU) 2025/1794 om fastsettelse av tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital for rapportering med referansedatoer fra 30. juni 2025 til 29. september 2025 i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(40) EØS-avtalen vedlegg IX nr. 1zzj (Kommisjonens gjennomføringsforordning (EU) 2025/2312 om fastsettelse av tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital for rapportering med referansedatoer fra 30. september 2025 til 30. desember 2025 i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(41) EØS-avtalen vedlegg IX nr. 1zzk (Kommisjonens gjennomføringsforordning (EU) 2026/349 om fastsettelse av tekniske opplysninger til bruk ved beregning av forsikringstekniske avsetninger og basiskapital for rapportering med referansedatoer fra 31. desember 2025 til 30. mars 2026 i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 29 okt 2018 nr. 1628 (gjelder femte og sjette ledd), endret ved forskrifter 29 okt 2018 nr. 1628 (i kraft 6 des 2018, endringen endret ved forskrift 6 des 2018 nr. 1816 ), 6 des 2018 nr. 1816 , 12 feb 2019 nr. 96 , 21 mai 2019 nr. 644 , 6 aug 2019 nr. 1046 , 28 okt 2019 nr. 1436 , 5 mars 2020 nr. 235 , 6 juli 2020 nr. 1518 , 18 des 2020 nr. 2967 , 25 mars 2021 nr. 1018 , 29 juni 2021 nr. 2286 , 21 des 2021 nr. 3822 , 23 aug 2022 nr. 1472 , 3 feb 2023 nr. 140 , 10 okt 2023 nr. 1597 , 16 nov 2023 nr. 1849 , 19 april 2024 nr. 651 , 30 okt 2024 nr. 2591 , 6 nov 2024 nr. 2664 , 10 jan 2025 nr. 21 , 30 juni 2025 nr. 1374 , 12 nov 2025 nr. 2262 , 16 juni 2026 nr. 1095 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 okt 2018 nr. 1628 (gjelder femte og sjette ledd), endret ved forskrifter 29 okt 2018 nr. 1628 (i kraft 6 des 2018, endringen endret ved forskrift 6 des 2018 nr. 1816 ), 6 des 2018 nr. 1816 , 12 feb 2019 nr. 96 , 21 mai 2019 nr. 644 , 6 aug 2019 nr. 1046 , 28 okt 2019 nr. 1436 , 5 mars 2020 nr. 235 , 6 juli 2020 nr. 1518 , 18 des 2020 nr. 2967 , 25 mars 2021 nr. 1018 , 29 juni 2021 nr. 2286 , 21 des 2021 nr. 3822 , 23 aug 2022 nr. 1472 , 3 feb 2023 nr. 140 , 10 okt 2023 nr. 1597 , 16 nov 2023 nr. 1849 , 19 april 2024 nr. 651 , 30 okt 2024 nr. 2591 , 6 nov 2024 nr. 2664 , 10 jan 2025 nr. 21 , 30 juni 2025 nr. 1374 , 12 nov 2025 nr. 2262 , 16 juni 2026 nr. 1095 .</p>
 <h4 id="53c-gjennomfring-av-andre-forordninger">§ 53c. Gjennomføring av andre forordninger</h4>
 <p>(1) EØS-avtalen vedlegg IX nr. 1c (Kommisjonens gjennomføringsforordning (EU) 2015/460 om fastsettelse av tekniske gjennomføringsstandarder for framgangsmåten for godkjenning av en intern modell i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) EØS-avtalen vedlegg IX nr. 1d (Kommisjonens gjennomføringsforordning (EU) 2015/461 om fastsettelse av tekniske gjennomføringsstandarder for prosessen for å komme fram til en felles beslutning om søknaden om å benytte en gruppeintern modell i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
@@ -416,7 +623,7 @@ k. delegert kommisjonsforordning (EU) 2018/1221</p>
 <p>(16) EØS-avtalen vedlegg IX nr. 1r (Kommisjonens gjennomføringsforordning (EU) 2023/895 om fastsettelse av tekniske gjennomføringsstandarder for anvendelsen av europaparlaments- og rådsdirektiv 2009/138/EF med hensyn til framgangsmåtene for, formatene på og malene for forsikrings- og gjenforsikringsforetakenes offentliggjøring av rapporten om deres solvens og finansielle stilling, og om oppheving av gjennomføringsforordning (EU) 2015/2452 ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(17) EØS-avtalen vedlegg IX nr. 1v (Kommisjonens gjennomføringsforordning (EU) 2016/1630 om fastsettelse av tekniske gjennomføringsstandarder for framgangsmåtene for anvendelse av overgangstiltaket for undermodulen for aksjerisiko i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ) gjelder som forskrift med de tilpasninger som følger av vedlegg IX, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(18) EØS-avtalen vedlegg IX nr. 1w (Kommisjonens gjennomføringsforordning (EU) 2016/1800 om fastsettelse av tekniske gjennomføringsstandarder for plasseringen av eksterne kredittvurderingsinstitusjoners kredittvurderinger på en objektiv skala for risikoklasser i samsvar med europaparlaments- og rådsdirektiv 2009/138/EF ), som endret ved Kommisjonens gjennomføringsforordninger (EU) 2018/633 , (EU) 2020/744 , (EU) 2021/2006 og (EU) 2024/1820 , gjelder som forskrift med de tilpasninger som følger av vedlegg IX , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 29 okt 2018 nr. 1628 som endret ved forskrift 6 des 2018 nr. 1816 (i kraft 6 des 2018), endret ved forskrifter 28 juni 2019 nr. 942 (i kraft 1 aug 2019), 20 sep 2019 nr. 1142 , 6 juli 2020 nr. 1518 , 25 mars 2021 nr. 1018 , 9 aug 2022 nr. 1414 , 16 nov 2023 nr. 1849 , 10 jan 2025 nr. 21 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 okt 2018 nr. 1628 som endret ved forskrift 6 des 2018 nr. 1816 (i kraft 6 des 2018), endret ved forskrifter 28 juni 2019 nr. 942 (i kraft 1 aug 2019), 20 sep 2019 nr. 1142 , 6 juli 2020 nr. 1518 , 25 mars 2021 nr. 1018 , 9 aug 2022 nr. 1414 , 16 nov 2023 nr. 1849 , 10 jan 2025 nr. 21 .</p>
 <h2 id="kapittel-13-ikrafttreden-overgangsbestemmelser-mv">Kapittel 13. Ikrafttreden, overgangsbestemmelser mv.</h2>
 <h4 id="54-ikrafttreden">§ 54. Ikrafttreden</h4>
 <p>(1) Forskriften trer i kraft 1. januar 2016.</p>
@@ -443,7 +650,7 @@ b. summen av premiereserve, bufferfond, premiefond, innskuddsfond og pensjoniste
 <p>(6) Differansen i første ledd skal beregnes på nytt ved utgangen av hvert år. Finanstilsynet kan etter søknad eller ved pålegg fastsette hyppigere beregning.</p>
 <p>(7) Hvis forsikringsforetaket ikke oppfyller solvenskapitalkravet uten bruk av overgangsbestemmelsen, skal det umiddelbart informere Finanstilsynet om dette og oversende en plan over tiltak for å sikre at solvenskapitalkravet oppfylles innen 1. januar 2032. Foretaket skal årlig oversende en rapport til Finanstilsynet med beskrivelse av gjennomførte tiltak og fremdrift med hensyn til å oppfylle solvenskapitalkravet innen 1. januar 2032.</p>
 <p>(8) Finanstilsynet skal trekke tilbake tillatelsen til å benytte overgangsbestemmelsen hvis den fremlagte rapporten viser at det er urealistisk at foretaket vil oppfylle solvenskapitalkravet ved utgangen av overgangsperioden.</p>
-<p><em>Endret ved forskrifter 22 des 2021 nr. 3894 (i kraft 1 jan 2022), 20 des 2023 nr. 2228 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 22 des 2021 nr. 3894 (i kraft 1 jan 2022), 20 des 2023 nr. 2228 (i kraft 1 jan 2024).</p>
 <h4 id="57-ansvarlig-kapital">§ 57. Ansvarlig kapital</h4>
 <p>(1) Ansvarlige lån uten fastsatt løpetid skal inngå i kapitalgruppe 1 frem til og med 31. desember 2025, hvis de er godkjent som tilleggskapital til dekning av inntil 50 prosent av det laveste av solvensmarginkravet og solvensmarginkapitalen ved utgangen av 2015.</p>
 <p>(2) Ansvarlige lån med fastsatt løpetid skal inngå i kapitalgruppe 2 frem til og med 31. desember 2025, hvis de er godkjent som tilleggskapital til dekning av inntil 25 prosent av det laveste av solvensmarginkravet og solvensmarginkapitalen ved utgangen av 2015.</p>
@@ -491,6 +698,8 @@ f. Forskrift 17. desember 2007 nr. 1456 om skadeforsikringsselskapers kapitalfor
 <p>Videre er Korr i,j = korrelasjonen mellom risikomodul i og risikomodul j, SCR MR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for markedsrisiko, SCR KR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for motpartsrisiko (kredittrisiko), SCR LR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for livsforsikringsrisiko, SCR HR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for helseforsikringsrisiko, SCR SR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for skadeforsikringsrisiko</p>
 <p>og SCR IR = bidraget til basiskravet til solvenskapital (BSCR) fra risikomodulen for immaterielle eiendeler.</p>
 <p>Korrelasjonen mellom risikomodul i og risikomodul j er gitt ved cellen i rad i og kolonne j i følgende korrelasjonsmatrise:</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

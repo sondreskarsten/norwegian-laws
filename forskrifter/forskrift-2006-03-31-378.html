@@ -19,64 +19,171 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-03-31-378.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Jernbaneundersøkelsesforskriften" href="../feeds/forskrift-2006-03-31-378.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Jernbaneundersøkelsesforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2006-03-31-378</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2006-04-30</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-09-03-2675</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2006-03-31-378" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-myndighetene">§ 2. Myndighetene</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-begrepet-jernbaneulykke-og-alvorlig-jernbanehendelse">§ 4. Begrepet jernbaneulykke og alvorlig jernbanehendelse</a></li>
+<li class="lvl4"><a href="#5-underskelsesmyndighetens-oppgave-og-formal">§ 5. Undersøkelsesmyndighetens oppgave og formål</a></li>
+<li class="lvl4"><a href="#6-underskelsesplikt-og-underskelsens-omfang">§ 6. Undersøkelsesplikt og undersøkelsens omfang</a></li>
+<li class="lvl2"><a href="#kapittel-ii-varsling-og-igangsetting-av-underskelse-av-jernbaneulykker-og-alvorlige-jernbanehendelser">Kapittel II. Varsling og igangsetting av undersøkelse av jernbaneulykker og alvorlige jernbanehendelser</a></li>
+<li class="lvl4"><a href="#7-varsling-av-jernbaneulykke-og-alvorlig-jernbanehendelse-til-underskelsesmyndigheten">§ 7. Varsling av jernbaneulykke og alvorlig jernbanehendelse til undersøkelsesmyndigheten</a></li>
+<li class="lvl4"><a href="#8-igangsetting-av-underskelser">§ 8. Igangsetting av undersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-iii-underretning-og-varsel-til-parter-og-myndigheter-mv">Kapittel III. Underretning og varsel til parter og myndigheter mv.</a></li>
+<li class="lvl4"><a href="#9-rettigheter-for-dem-saken-angar">§ 9. Rettigheter for dem saken angår</a></li>
+<li class="lvl4"><a href="#10-varsling-til-tilsynsmyndigheten">§ 10. Varsling til tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#11-underretning-til-byraet">§ 11. (Underretning til byrået)</a></li>
+<li class="lvl2"><a href="#kapittel-iv-rapporter">Kapittel IV. Rapporter</a></li>
+<li class="lvl4"><a href="#12-underskelsesrapport">§ 12. Undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#13-sikkerhetstilradinger">§ 13. Sikkerhetstilrådinger</a></li>
+<li class="lvl4"><a href="#14-behandling-av-utkast-til-underskelsesrapport-som-er-unntatt-fra-offentlighet">§ 14. Behandling av utkast til undersøkelsesrapport som er unntatt fra offentlighet</a></li>
+<li class="lvl4"><a href="#15-offentliggjring-av-rapport">§ 15. Offentliggjøring av rapport</a></li>
+<li class="lvl4"><a href="#16-oppflging-av-rapporter-og-sikkerhetstilradinger">§ 16. Oppfølging av rapporter og sikkerhetstilrådinger</a></li>
+<li class="lvl4"><a href="#17-arlige-rapporter">§ 17. Årlige rapporter</a></li>
+<li class="lvl4"><a href="#18-oversendelse-av-rapporter-til-byraet">§ 18. Oversendelse av rapporter til byrået</a></li>
+<li class="lvl2"><a href="#kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#19-gjennomfring-av-underskelser-i-es-omradet-bistand-mv">§ 19. Gjennomføring av undersøkelser i EØS-området – bistand mv.</a></li>
+<li class="lvl4"><a href="#20-bruk-av-eksperter-og-annen-fagkunnskap">§ 20. Bruk av eksperter og annen fagkunnskap</a></li>
+<li class="lvl4"><a href="#21-utveksling-av-fagkunnskap-mv">§ 21. Utveksling av fagkunnskap mv.</a></li>
+<li class="lvl4"><a href="#22-saksbehandlingsregler">§ 22. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-vi-avsluttende-bestemmelser">Kapittel VI. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23-andre-oppgaver">§ 23. Andre oppgaver</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse-mv">§ 24. Ikrafttredelse mv.</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1. (Opphevet)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-09-03-2675.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-03-31-378.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om offentlige undersøkelser av jernbaneulykker og alvorlige jernbanehendelser m.m. (jernbaneundersøkelsesforskriften).</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-03-31-378.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2006-03-31-378 <code>forskrift/2006-03-31-378</code></td></tr>
+<tr><th>Korttittel</th><td>Jernbaneundersøkelsesforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>30.04.2006</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-09-03-2675 <code>forskrift/2021-09-03-2675</code> fra 01.06.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2006-03-31-378" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-myndighetene">§ 2. Myndighetene</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-begrepet-jernbaneulykke-og-alvorlig-jernbanehendelse">§ 4. Begrepet jernbaneulykke og alvorlig jernbanehendelse</a></li>
+<li class="lvl4"><a href="#5-underskelsesmyndighetens-oppgave-og-formal">§ 5. Undersøkelsesmyndighetens oppgave og formål</a></li>
+<li class="lvl4"><a href="#6-underskelsesplikt-og-underskelsens-omfang">§ 6. Undersøkelsesplikt og undersøkelsens omfang</a></li>
+<li class="lvl2"><a href="#kapittel-ii-varsling-og-igangsetting-av-underskelse-av-jernbaneulykker-og-alvorlige-jernbanehendelser">Kapittel II. Varsling og igangsetting av undersøkelse av jernbaneulykker og alvorlige jernbanehendelser</a></li>
+<li class="lvl4"><a href="#7-varsling-av-jernbaneulykke-og-alvorlig-jernbanehendelse-til-underskelsesmyndigheten">§ 7. Varsling av jernbaneulykke og alvorlig jernbanehendelse til undersøkelsesmyndigheten</a></li>
+<li class="lvl4"><a href="#8-igangsetting-av-underskelser">§ 8. Igangsetting av undersøkelser</a></li>
+<li class="lvl2"><a href="#kapittel-iii-underretning-og-varsel-til-parter-og-myndigheter-mv">Kapittel III. Underretning og varsel til parter og myndigheter mv.</a></li>
+<li class="lvl4"><a href="#9-rettigheter-for-dem-saken-angar">§ 9. Rettigheter for dem saken angår</a></li>
+<li class="lvl4"><a href="#10-varsling-til-tilsynsmyndigheten">§ 10. Varsling til tilsynsmyndigheten</a></li>
+<li class="lvl4"><a href="#11-underretning-til-byraet">§ 11. (Underretning til byrået)</a></li>
+<li class="lvl2"><a href="#kapittel-iv-rapporter">Kapittel IV. Rapporter</a></li>
+<li class="lvl4"><a href="#12-underskelsesrapport">§ 12. Undersøkelsesrapport</a></li>
+<li class="lvl4"><a href="#13-sikkerhetstilradinger">§ 13. Sikkerhetstilrådinger</a></li>
+<li class="lvl4"><a href="#14-behandling-av-utkast-til-underskelsesrapport-som-er-unntatt-fra-offentlighet">§ 14. Behandling av utkast til undersøkelsesrapport som er unntatt fra offentlighet</a></li>
+<li class="lvl4"><a href="#15-offentliggjring-av-rapport">§ 15. Offentliggjøring av rapport</a></li>
+<li class="lvl4"><a href="#16-oppflging-av-rapporter-og-sikkerhetstilradinger">§ 16. Oppfølging av rapporter og sikkerhetstilrådinger</a></li>
+<li class="lvl4"><a href="#17-arlige-rapporter">§ 17. Årlige rapporter</a></li>
+<li class="lvl4"><a href="#18-oversendelse-av-rapporter-til-byraet">§ 18. Oversendelse av rapporter til byrået</a></li>
+<li class="lvl2"><a href="#kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#19-gjennomfring-av-underskelser-i-es-omradet-bistand-mv">§ 19. Gjennomføring av undersøkelser i EØS-området – bistand mv.</a></li>
+<li class="lvl4"><a href="#20-bruk-av-eksperter-og-annen-fagkunnskap">§ 20. Bruk av eksperter og annen fagkunnskap</a></li>
+<li class="lvl4"><a href="#21-utveksling-av-fagkunnskap-mv">§ 21. Utveksling av fagkunnskap mv.</a></li>
+<li class="lvl4"><a href="#22-saksbehandlingsregler">§ 22. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-vi-avsluttende-bestemmelser">Kapittel VI. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23-andre-oppgaver">§ 23. Andre oppgaver</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse-mv">§ 24. Ikrafttredelse mv.</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1. (Opphevet)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-03-31-378.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-03-31-378.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-03-31-378.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2006-03-31-378.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2006-03-31-378.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-03-31-378.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2006-03-31-378.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2006-03-31-378.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-03-31-378.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-offentlige-underskelser-av-jernbaneulykker-og-alvorlige-jernbanehendelser-mm-jernbaneunderskelsesforskriften">Forskrift om offentlige undersøkelser av jernbaneulykker og alvorlige jernbanehendelser m.m. (jernbaneundersøkelsesforskriften).</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder jernbaneulykker og alvorlige jernbanehendelser med jernbane som omfattes av jernbaneloven.</p>
@@ -86,13 +193,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. Statens havarikommisjon er undersøkelsesmyndighet.
 b. Statens jernbanetilsyn er tilsynsmyndigheten.
 c. Samferdselsdepartementet er departementet.</p>
-<p><em>Endret ved forskrift 26 feb 2020 nr. 188 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrift 26 feb 2020 nr. 188 (i kraft 1 juli 2020).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskriften menes med:</p>
 <p>a. Undersøkelse: Framgangsmåte etter en jernbaneulykke eller alvorlig jernbanehendelse med henblikk på å forebygge slike ulykker eller hendelser, og som omfatter innsamling og analyse av opplysninger, utarbeidelse av konklusjoner, herunder bestemmelse av årsaker, samt formulering av eventuelle sikkerhetstilrådinger.
 b. Årsaker: Handlinger, unnlatelser, hendelser eller omstendigheter, eller en kombinasjon av disse, som fører til jernbaneulykken eller jernbanehendelsen.
 c. Byrået: Den europeiske unions jernbanebyrå.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="4-begrepet-jernbaneulykke-og-alvorlig-jernbanehendelse">§ 4. Begrepet jernbaneulykke og alvorlig jernbanehendelse</h4>
 <p>I begrepet jernbaneulykke etter jernbaneundersøkelsesloven § 5 inngår definisjonene i direktiv 2004/49/EF artikkel 3 bokstavene k og l.</p>
 <p>I begrepet alvorlig jernbanehendelse etter jernbaneundersøkelsesloven § 5 inngår også tekniske feil i de strukturelle delsystemene eller i samtrafikkomponenter i de transeuropeiske jernbanesystemene for høyhastighetstog og konvensjonelle tog.</p>
@@ -118,35 +225,35 @@ d. anmodninger fra infrastrukturforvaltninger, jernbaneforetak, øvrige jernbane
 <p>Undersøkelsesmyndigheten varsler tilsynsmyndigheten når den igangsetter undersøkelse av jernbaneulykker eller alvorlige jernbanehendelser.</p>
 <h4 id="11-underretning-til-byraet">§ 11. (Underretning til byrået)</h4>
 <p>Innen en uke etter at det er truffet beslutning om å innlede en undersøkelse, skal undersøkelsesmyndigheten underrette byrået om dette. Underretningen skal angi dag, tidspunkt og sted for jernbaneulykken eller jernbanehendelsen samt dens art og konsekvenser med hensyn til drepte, skadede og materielle skader.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h2 id="kapittel-iv-rapporter">Kapittel IV. Rapporter</h2>
 <h4 id="12-underskelsesrapport">§ 12. Undersøkelsesrapport</h4>
 <p>Når undersøkelsesmyndigheten har undersøkt en jernbaneulykke eller alvorlig jernbanehendelse, skal den utarbeide en rapport som redegjør for hendelsesforløpet og inneholder undersøkelsesmyndighetens uttalelse om årsaksforholdene. Rapporten skal opplyse om formålet med undersøkelsen, jf. § 5 , og inneholde så langt det er formålstjenelig sikkerhetstilrådinger i henhold til jernbaneundersøkelsesloven § 19 første ledd.</p>
 <p>Rapporten skal ha en hensiktsmessig form i forhold til jernbaneulykken eller jernbanehendelsens art og alvorlighetsgrad, og for betydningen av resultatene av undersøkelsen. Forordning (EU) 2020/572 av 24. april 2020 om rapporteringsstrukturen som skal følges for undersøkelsesrapporter om jernbaneulykker og -hendelser gjelder som forskrift med de tilpasninger som fremgår av EØS-avtalen vedlegg XIII , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Rapporten skal ikke inneholde referanser til enkeltpersoners navn eller adresse.</p>
 <p>Byrået og berørte nevnt i jernbaneundersøkelsesloven § 16 skal gis anledning til å fremlegge relevant teknisk informasjon med sikte på å forbedre kvaliteten på undersøkelsesrapporten.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="13-sikkerhetstilradinger">§ 13. Sikkerhetstilrådinger</h4>
 <p>En sikkerhetstilrådning utarbeidet av undersøkelsesmyndigheten skal ikke i noe tilfelle utgjøre en formodning om skyld eller ansvar for en jernbaneulykke eller alvorlig jernbanehendelse.</p>
 <p>Sikkerhetstilrådinger skal rettes til tilsynsmyndigheten og, dersom det er nødvendig på grunn av tilrådingens art, til byrået, til andre organer eller myndigheter i Norge eller til andre EØS-stater.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="14-behandling-av-utkast-til-underskelsesrapport-som-er-unntatt-fra-offentlighet">§ 14. Behandling av utkast til undersøkelsesrapport som er unntatt fra offentlighet</h4>
 <p>Før undersøkelsesmyndigheten sluttbehandler rapporten, skal et utkast til rapport forelegges for de berørte nevnt i jernbaneundersøkelsesloven § 16 første ledd med en rimelig frist til å gi uttalelse, med mindre særlige forhold tilsier at dette ikke gjøres. Videre skal tilsynsmyndigheten forelegges utkastet til rapport, med rimelig frist til å uttale seg. Retten etter første punktum gjelder bare de delene av utkastet til rapport som vedkommende på grunn av sin tilknytning til saken eller undersøkelsen har særlige forutsetninger for å uttale seg om.</p>
 <p>Undersøkelsesmyndighetens utkast til rapport er ikke offentlig, jf. jernbaneundersøkelsesloven § 21 .</p>
 <h4 id="15-offentliggjring-av-rapport">§ 15. Offentliggjøring av rapport</h4>
 <p>Undersøkelsesmyndigheten skal offentliggjøre den endelige rapporten så raskt som mulig og vanligvis ikke senere enn 12 måneder etter at jernbaneulykken eller den alvorlige jernbanehendelsen fant sted. Rapporten, med eventuelle sikkerhetstilrådinger, skal oversendes berørte parter, herunder berørte parter og organer i andre EØS-stater.</p>
 <p>Dersom rapporten ikke er ferdig innen 12 måneder, skal undersøkelsesmyndigheten som minimum på hver årsdag for ulykken avgi en foreløpig rapport som angir utviklingen av undersøkelsen og de sikkerhetsspørsmål som er aktuelle i forbindelse med saken. Undersøkelsesmyndigheten avgjør selv i hvilken form den ønsker å avgi en slik foreløpig rapport, og hvordan den skal publiseres.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="16-oppflging-av-rapporter-og-sikkerhetstilradinger">§ 16. Oppfølging av rapporter og sikkerhetstilrådinger</h4>
 <p>Undersøkelsesmyndigheten sender rapportene til departementet, som treffer de nødvendige tiltak for å sikre at det tas behørig hensyn til sikkerhetstilrådingene.</p>
 <p>Tilsynsmyndigheten skal vurdere rapportene med tanke på å identifisere og iverksette tiltak som kan bedre jernbanesikkerheten. Tilsynsmyndigheten kan gi pålegg om oppfølging av sikkerhetstilrådingene til den som driver jernbanevirksomhet etter jernbaneloven.</p>
 <p>Byrået, tilsynsmyndigheten og andre myndigheter eller organer eller eventuelt andre EØS-stater som sikkerhetstilrådingene er rettet til, skal minst to ganger i året gi tilbakemelding til undersøkelsesmyndigheten om vedtatte og planlagte tiltak som følge av tilrådingene. Departementet kan gi tilsynsmyndigheten i oppgave å koordinere slike tilbakemeldinger. Tilbakemeldingene sendes via departementet som sender disse til undersøkelsesmyndigheten.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="17-arlige-rapporter">§ 17. Årlige rapporter</h4>
 <p>Undersøkelsesmyndighetene skal hvert år innen 30. september offentliggjøre en rapport som redegjør for de undersøkelser som er gjennomført året før, inkludert sikkerhetstilrådinger og tiltak som er truffet i samsvar med tidligere sikkerhetstilrådinger.</p>
 <h4 id="18-oversendelse-av-rapporter-til-byraet">§ 18. Oversendelse av rapporter til byrået</h4>
 <p>Undersøkelsesmyndigheten skal sende byrået en kopi av den endelige rapporten nevnt i § 15 og av den årlige rapporten nevnt i § 17 .</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h2 id="kapittel-v-administrative-bestemmelser">Kapittel V. Administrative bestemmelser</h2>
 <h4 id="19-gjennomfring-av-underskelser-i-es-omradet-bistand-mv">§ 19. Gjennomføring av undersøkelser i EØS-området – bistand mv.</h4>
 <p>Dersom det ikke er mulig å fastslå hvilken EØS-stat en jernbaneulykke eller en alvorlig jernbanehendelse er oppstått i, eller dersom den inntraff på eller nær grensen mellom Norge og Sverige, avgjør de aktuelle undersøkelsesmyndigheter sammen hvem av dem som skal gjennomføre undersøkelsen, eller de kan beslutte å gjennomføre den i fellesskap. I det første tilfellet skal den andre undersøkelsesmyndigheten få mulighet til å delta i undersøkelsen og få tilgang til alle resultatene av denne.</p>
@@ -154,11 +261,11 @@ d. anmodninger fra infrastrukturforvaltninger, jernbaneforetak, øvrige jernbane
 <p>Undersøkelsesorganer fra inviterte EØS-stater skal gis slik myndighet som er nødvendig for at de skal kunne bistå en annen EØS-stats undersøkelsesorgan ved innsamlingen av bevis til når de blir bedt om det, samt gis tilgang til de opplysningene og bevisene som er nødvendig for at de kan delta effektivt i undersøkelsen, med behørig respekt for den nasjonale lovgivningen som vedrører rettergangen.</p>
 <p>Undersøkelsesmyndigheten kan gjennomføre undersøkelser i samarbeid med tilsvarende myndigheter i andre EØS-stater, også i andre tilfeller enn de som er nevnt i første og annet ledd.</p>
 <p>Når undersøkelsesmyndigheten er ansvarlig for undersøkelsen, skal den sørge for at de nødvendige midler stilles til rådighet, herunder den driftsmessige og tekniske sakkunnskap som er nødvendig for gjennomføringen av undersøkelsen.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="20-bruk-av-eksperter-og-annen-fagkunnskap">§ 20. Bruk av eksperter og annen fagkunnskap</h4>
 <p>Undersøkelsesmyndigheten kan i forbindelse med undersøkelser anmode om opplysninger og bistand fra andre offentlige myndigheter, samt benytte nødvendig sakkyndig bistand i forbindelse med utredningen av den enkelte sak.</p>
 <p>Undersøkelsesmyndigheten kan også anmode undersøkelsesmyndigheter fra andre EØS-stater eller byrået om bistand med fagkunnskap eller med gjennomføringen av tekniske undersøkelser, analyser og vurderinger.</p>
-<p><em>Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</em></p>
+<p class="note">Endret ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 ).</p>
 <h4 id="21-utveksling-av-fagkunnskap-mv">§ 21. Utveksling av fagkunnskap mv.</h4>
 <p>Undersøkelsesmyndigheten skal aktivt utveksle synspunkter og erfaringer med tilsvarende undersøkelsesmyndigheter i andre EØS-stater med henblikk på å utarbeide felles undersøkelsesmetoder og felles prinsipper for oppfølging av sikkerhetstilrådinger og med henblikk på å tilpasse seg den tekniske og vitenskapelige utviklingen.</p>
 <h4 id="22-saksbehandlingsregler">§ 22. Saksbehandlingsregler</h4>
@@ -171,6 +278,8 @@ d. anmodninger fra infrastrukturforvaltninger, jernbaneforetak, øvrige jernbane
 <h2 id="vedlegg-1-opphevet">Vedlegg 1. (Opphevet)</h2>
 <p>Opphevet ved forskrift 3 sep 2021 nr. 2675 (i kraft 1 juni 2022, jf. meddelelse 5 mai 2022 nr. 766 , se endringsforskriften for overgangsregel).</p>
 <p>Oppsummering Oppsummeringen skal inneholde en kort beskrivelse av ulykken eller hendelsen, tid og sted og konsekvensene av denne. Det skal opplyses om direkte årsaker og om medvirkende faktorer og underliggende årsaker som er fastslått gjennom undersøkelsen. Hovedtilrådingene skal gjentas, og det skal opplyses om hvem disse er rettet til. Direkte fakta om ulykken eller hendelsen Ulykken eller hendelsen: dato, nøyaktig tid og sted for ulykken eller hendelsen, beskrivelse av omstendighetene og ulykkesstedet, herunder arbeidet til redningstjenester og beredskapstjenester, beslutningen om å innlede en undersøkelse, sammensetning av undersøkelsesgruppen og gjennomføring av undersøkelsen. Bakgrunnen for ulykken eller hendelsen: involvert personale og involverte entreprenører samt andre parter og vitner, togene og deres sammensetning, herunder registreringsnummer på deler av rullende materiell som er involvert, beskrivelse av infrastrukturen og systemet for signalgiving – sportyper, sporskiftere, tilkoplere, signaler, driftssikring, kommunikasjonsmidler, arbeider utført på eller i nærheten av ulykkesstedet, den utløsende faktor for jernbaneberedskapsplanen og planens hendelsesforløp, den utløsende faktor for de offentlige redningstjenesters, politiets og helsevesenets beredskapsplaner og planenes hendelsesforløp. Drepte, skadede og materielle skader: passasjerer og tredjemenn, personale, herunder entreprenører, cargo, reisegods og annen eiendom, rullende materiell, infrastruktur og miljøet. Eksterne omstendigheter: værforhold og geografiske opplysninger. Referater fra undersøkelser og avhør Oppsummering av vitneutsagn (med beskyttelse av personenes identitet): jernbanepersonale, herunder entreprenører, andre vitner. Sikkerhetsstyringssystemet: rammeorganisasjonen og hvordan ordre gis og utføres, krav til personalet og hvordan oppfyllelsen av disse sikres, rutiner for internkontroll og internrevisjon og resultatene av disse, grensesnitt mellom forskjellige aktører i infrastrukturen. Regler og forskrifter: gjeldende regler og forskrifter i EØS og på nasjonalt plan, andre regler, f.eks. driftsregler, lokale instrukser, personalkrav, vedlikeholdskrav og gjeldende standarder. Virkemåten til rullende materiell og tekniske anlegg: systemet for signalgiving og styring, herunder registreringer fra ferdskrivere, infrastruktur, kommunikasjonsutstyr, rullende materiell, herunder registreringer fra ferdskrivere. Dokumentasjon for driftssystemet: tiltak truffet av personalet med hensyn til trafikkstyring og signalgiving, utveksling av talemeldinger i forbindelse med ulykken eller hendelsen, herunder dokumentasjon fra opptak, tiltak truffet for å beskytte og verne ulykkesstedet. Grensesnittet mellom menneske, maskin og organisasjon: faktisk arbeidstid hos involvert personale, medisinske og personlige forhold av betydning for ulykken eller hendelsen, herunder fysisk eller psykisk stress, utformingen av utstyr av betydning for grensesnittet mellom menneske og maskin. Tidligere ulykker og hendelser av tilsvarende art. Analyser og konklusjoner Avsluttende redegjørelse for hendelsesforløpet: utarbeidelse av konklusjoner om ulykken eller hendelsen på grunnlag av de fakta som er fastslått i punkt 3. Drøftelse: analyse av de fakta som er fastslått i punkt 3, med henblikk på å trekke konklusjoner om årsakene til ulykken eller hendelsen og redningstjenestens innsats. Konklusjoner: direkte og umiddelbare årsaker til ulykken eller hendelsen, herunder medvirkende faktorer som har sammenheng med tiltak truffet av involverte personer eller tilstanden til rullende materiell eller tekniske anlegg, underliggende årsaker som har sammenheng med kvalifikasjoner, framgangsmåter og vedlikehold, grunnleggende årsaker som har sammenheng med vilkår i rammeregler og gjennomføringen av sikkerhetsstyringssystemet. Tilleggsmerknader: feil og mangler som er avdekket under undersøkelsen, men som ikke har relevans for konklusjonene eller årsakene. Tiltak som er truffet: oppsummering av tiltak som allerede er truffet eller vedtatt som følge av ulykken eller hendelsen. Tilrådinger</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

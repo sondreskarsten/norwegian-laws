@@ -19,64 +19,273 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2019-03-22-7.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Havbunnsmineralloven" href="../feeds/lov-2019-03-22-7.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Havbunnsmineralloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2019-03-22-7</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>Næringsrett &raquo; Bergverk. Mineraler. Muting\nSelskaper, fond og foreninger &raquo; Selskaper. Statsforetak</dd>
-<dt>Ikrafttredelse</dt><dd>2019-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-109</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2019-03-22-7" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-saklige-virkeomrade">§ 1-2. Lovens saklige virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-lovens-geografiske-virkeomrade">§ 1-3. Lovens geografiske virkeområde</a></li>
+<li class="lvl4"><a href="#1-4-retten-til-mineralforekomster-og-ressursforvaltning">§ 1-4. Retten til mineralforekomster og ressursforvaltning</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner">§ 1-5. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-6-krav-om-tillatelse">§ 1-6. Krav om tillatelse</a></li>
+<li class="lvl4"><a href="#1-7-krav-til-forsvarlig-mineralvirksomhet">§ 1-7. Krav til forsvarlig mineralvirksomhet</a></li>
+<li class="lvl4"><a href="#1-8-flyttbare-innretninger-under-fremmed-flagg">§ 1-8. Flyttbare innretninger under fremmed flagg</a></li>
+<li class="lvl2"><a href="#kapittel-2-apning-av-omrader-for-underskelse-og-utvinning">Kapittel 2. Åpning av områder for undersøkelse og utvinning</a></li>
+<li class="lvl4"><a href="#2-1-apning-av-omrader-for-mineralvirksomhet">§ 2-1. Åpning av områder for mineralvirksomhet</a></li>
+<li class="lvl4"><a href="#2-2-konsekvensutredning-fr-apning">§ 2-2. Konsekvensutredning før åpning</a></li>
+<li class="lvl4"><a href="#2-3-mineralvirksomhet-i-apnede-omrader">§ 2-3. Mineralvirksomhet i åpnede områder</a></li>
+<li class="lvl2"><a href="#kapittel-3-underskelsestillatelse">Kapittel 3. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-1-sknad-om-og-tildeling-av-underskelsestillatelse">§ 3-1. Søknad om og tildeling av undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-2-underskelsestillatelse-gir-ikke-enerett-eller-fortrinnsrett">§ 3-2. Undersøkelsestillatelse gir ikke enerett eller fortrinnsrett</a></li>
+<li class="lvl4"><a href="#3-3-melding-i-forbindelse-med-underskelser-mv">§ 3-3. Melding i forbindelse med undersøkelser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-utvinningstillatelser-mv">Kapittel 4. Utvinningstillatelser mv.</a></li>
+<li class="lvl4"><a href="#4-1-utlysing-og-tildeling">§ 4-1. Utlysing og tildeling</a></li>
+<li class="lvl4"><a href="#4-2-sknad-om-tildeling-av-utvinningstillatelse">§ 4-2. Søknad om tildeling av utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#4-3-arbeidsforpliktelse-og-arbeidsprogram">§ 4-3. Arbeidsforpliktelse og arbeidsprogram</a></li>
+<li class="lvl4"><a href="#4-4-plan-for-utvinning-av-mineralforekomster">§ 4-4. Plan for utvinning av mineralforekomster</a></li>
+<li class="lvl4"><a href="#4-5-utvinningstillatelsens-varighet">§ 4-5. Utvinningstillatelsens varighet</a></li>
+<li class="lvl4"><a href="#4-6-tilbakelevering-av-omrader">§ 4-6. Tilbakelevering av områder</a></li>
+<li class="lvl4"><a href="#4-7-srskilt-tillatelse-til-anlegg-av-og-drift-av-innretninger">§ 4-7. Særskilt tillatelse til anlegg av og drift av innretninger</a></li>
+<li class="lvl4"><a href="#4-8-rett-for-andre-til-a-plassere-innretninger-mv">§ 4-8. Rett for andre til å plassere innretninger mv.</a></li>
+<li class="lvl4"><a href="#4-9-andre-naturforekomster-enn-mineraler-mv">§ 4-9. Andre naturforekomster enn mineraler mv.</a></li>
+<li class="lvl4"><a href="#4-10-eiendomsrett-til-utvunnede-mineraler">§ 4-10. Eiendomsrett til utvunnede mineraler</a></li>
+<li class="lvl4"><a href="#4-11-forsvarlig-utvinning">§ 4-11. Forsvarlig utvinning</a></li>
+<li class="lvl4"><a href="#4-12-samordnet-virksomhet-og-andres-bruk-av-innretninger">§ 4-12. Samordnet virksomhet og andres bruk av innretninger</a></li>
+<li class="lvl4"><a href="#4-13-utvinningstillatelse-med-flere-rettighetshavere">§ 4-13. Utvinningstillatelse med flere rettighetshavere</a></li>
+<li class="lvl4"><a href="#4-14-overdragelse-av-tillatelse-mv">§ 4-14. Overdragelse av tillatelse mv.</a></li>
+<li class="lvl4"><a href="#4-15-avgift-til-den-internasjonale-havbunnsmyndigheten">§ 4-15. Avgift til Den internasjonale havbunnsmyndigheten</a></li>
+<li class="lvl4"><a href="#4-16-ilandfring-av-mineraler">§ 4-16. Ilandføring av mineraler</a></li>
+<li class="lvl2"><a href="#kapittel-5-avslutning-av-virksomhet-mv">Kapittel 5. Avslutning av virksomhet mv.</a></li>
+<li class="lvl4"><a href="#5-1-oppryddingsplikt">§ 5-1. Oppryddingsplikt</a></li>
+<li class="lvl4"><a href="#5-2-avslutningsplan">§ 5-2. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#5-3-vedtak-om-disponering">§ 5-3. Vedtak om disponering</a></li>
+<li class="lvl4"><a href="#5-4-ansvar">§ 5-4. Ansvar</a></li>
+<li class="lvl4"><a href="#5-5-heftelser">§ 5-5. Heftelser</a></li>
+<li class="lvl4"><a href="#5-6-statlig-overtakelse">§ 5-6. Statlig overtakelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-srskilte-krav-til-sikkerhet">Kapittel 6. Særskilte krav til sikkerhet</a></li>
+<li class="lvl4"><a href="#6-1-sikkerhet">§ 6-1. Sikkerhet</a></li>
+<li class="lvl4"><a href="#6-2-beredskap">§ 6-2. Beredskap</a></li>
+<li class="lvl4"><a href="#6-3-sikkerhetssoner-mv">§ 6-3. Sikkerhetssoner mv.</a></li>
+<li class="lvl4"><a href="#6-4-stansing">§ 6-4. Stansing</a></li>
+<li class="lvl4"><a href="#6-5-kvalifikasjoner">§ 6-5. Kvalifikasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-7-registrering-og-pantsettelse">Kapittel 7. Registrering og pantsettelse</a></li>
+<li class="lvl4"><a href="#7-1-registrering-av-tillatelser">§ 7-1. Registrering av tillatelser</a></li>
+<li class="lvl4"><a href="#7-2-pantsettelse-av-tillatelser">§ 7-2. Pantsettelse av tillatelser</a></li>
+<li class="lvl4"><a href="#7-3-panterettens-omfang-mv">§ 7-3. Panterettens omfang mv.</a></li>
+<li class="lvl4"><a href="#7-4-panthaverens-rett-mv">§ 7-4. Panthaverens rett mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 8. Særlige regler om erstatning til norske fiskere</a></li>
+<li class="lvl4"><a href="#8-1-saklig-virkeomrade-og-definisjoner">§ 8-1. Saklig virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#8-2-beslagleggelse">§ 8-2. Beslagleggelse</a></li>
+<li class="lvl4"><a href="#8-3-ansvar-for-forurensning-og-avfall">§ 8-3. Ansvar for forurensning og avfall</a></li>
+<li class="lvl4"><a href="#8-4-solidaransvar">§ 8-4. Solidaransvar</a></li>
+<li class="lvl4"><a href="#8-5-innretning-mv-som-volder-skade">§ 8-5. Innretning mv. som volder skade</a></li>
+<li class="lvl4"><a href="#8-6-nemnd-mv">§ 8-6. Nemnd mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-alminnelige-bestemmelser">Kapittel 9. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-tilsynsmyndighet">§ 9-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#9-2-forsikringsplikt-sikkerhetsstillelse-mv">§ 9-2. Forsikringsplikt, sikkerhetsstillelse mv.</a></li>
+<li class="lvl4"><a href="#9-3-plikt-til-a-etterleve-loven-og-pase-at-bestemmelser-blir-overholdt">§ 9-3. Plikt til å etterleve loven og påse at bestemmelser blir overholdt</a></li>
+<li class="lvl4"><a href="#9-4-ansvar-for-forpliktelser">§ 9-4. Ansvar for forpliktelser</a></li>
+<li class="lvl4"><a href="#9-5-ansvar-for-skadeforvoldelse">§ 9-5. Ansvar for skadeforvoldelse</a></li>
+<li class="lvl4"><a href="#9-6-tvangsmulkt">§ 9-6. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#9-7-overtredelsesgebyr">§ 9-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#9-8-midlertidig-stans-av-virksomhet">§ 9-8. Midlertidig stans av virksomhet</a></li>
+<li class="lvl4"><a href="#9-9-endring-og-tilbakekall-av-tillatelse-mv">§ 9-9. Endring og tilbakekall av tillatelse mv.</a></li>
+<li class="lvl4"><a href="#9-10-flgene-av-tilbakekall-oppgivelse-av-rettigheter-eller-bortfall-av-andre-grunner">§ 9-10. Følgene av tilbakekall, oppgivelse av rettigheter eller bortfall av andre grunner</a></li>
+<li class="lvl4"><a href="#9-11-rapporteringskrav-og-datainnsamling-mv">§ 9-11. Rapporteringskrav og datainnsamling mv.</a></li>
+<li class="lvl4"><a href="#9-12-taushetsplikt">§ 9-12. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-13-partsinnsyn-mv">§ 9-13. Partsinnsyn mv.</a></li>
+<li class="lvl4"><a href="#9-14-straffebestemmelser">§ 9-14. Straffebestemmelser</a></li>
+<li class="lvl4"><a href="#9-15-opplysninger-om-betalinger">§ 9-15. Opplysninger om betalinger</a></li>
+<li class="lvl4"><a href="#9-16-lnnsvilkar-pa-skip">§ 9-16. Lønnsvilkår på skip</a></li>
+<li class="lvl2"><a href="#kapittel-10-srlige-regler-for-forekomster-av-skjellsand-sand-og-grus-i-kystnre-omrader">Kapittel 10. Særlige regler for forekomster av skjellsand, sand og grus i kystnære områder</a></li>
+<li class="lvl4"><a href="#10-1-tilpasninger-for-kystnre-forekomster">§ 10-1. Tilpasninger for kystnære forekomster</a></li>
+<li class="lvl4"><a href="#10-2-fylkeskommunenes-kompetanse">§ 10-2. Fylkeskommunenes kompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelse-og-endring-av-andre-lover">Kapittel 11. Ikrafttredelse og endring av andre lover</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse-mv">§ 11-1. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#11-2-endringer-i-andre-lover">§ 11-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-109.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-22-7.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om mineralvirksomhet på kontinentalsokkelen (havbunnsmineralloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-03-22-7.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2019-03-22-7 <code>lov/2019-03-22-7</code></td></tr>
+<tr><th>Korttittel</th><td>Havbunnsmineralloven</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Næringsrett &raquo; Bergverk. Mineraler. Muting\nSelskaper, fond og foreninger &raquo; Selskaper. Statsforetak</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2019</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-109 <code>lov/2025-06-20-109</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2019-03-22-7" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-saklige-virkeomrade">§ 1-2. Lovens saklige virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-lovens-geografiske-virkeomrade">§ 1-3. Lovens geografiske virkeområde</a></li>
+<li class="lvl4"><a href="#1-4-retten-til-mineralforekomster-og-ressursforvaltning">§ 1-4. Retten til mineralforekomster og ressursforvaltning</a></li>
+<li class="lvl4"><a href="#1-5-definisjoner">§ 1-5. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-6-krav-om-tillatelse">§ 1-6. Krav om tillatelse</a></li>
+<li class="lvl4"><a href="#1-7-krav-til-forsvarlig-mineralvirksomhet">§ 1-7. Krav til forsvarlig mineralvirksomhet</a></li>
+<li class="lvl4"><a href="#1-8-flyttbare-innretninger-under-fremmed-flagg">§ 1-8. Flyttbare innretninger under fremmed flagg</a></li>
+<li class="lvl2"><a href="#kapittel-2-apning-av-omrader-for-underskelse-og-utvinning">Kapittel 2. Åpning av områder for undersøkelse og utvinning</a></li>
+<li class="lvl4"><a href="#2-1-apning-av-omrader-for-mineralvirksomhet">§ 2-1. Åpning av områder for mineralvirksomhet</a></li>
+<li class="lvl4"><a href="#2-2-konsekvensutredning-fr-apning">§ 2-2. Konsekvensutredning før åpning</a></li>
+<li class="lvl4"><a href="#2-3-mineralvirksomhet-i-apnede-omrader">§ 2-3. Mineralvirksomhet i åpnede områder</a></li>
+<li class="lvl2"><a href="#kapittel-3-underskelsestillatelse">Kapittel 3. Undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-1-sknad-om-og-tildeling-av-underskelsestillatelse">§ 3-1. Søknad om og tildeling av undersøkelsestillatelse</a></li>
+<li class="lvl4"><a href="#3-2-underskelsestillatelse-gir-ikke-enerett-eller-fortrinnsrett">§ 3-2. Undersøkelsestillatelse gir ikke enerett eller fortrinnsrett</a></li>
+<li class="lvl4"><a href="#3-3-melding-i-forbindelse-med-underskelser-mv">§ 3-3. Melding i forbindelse med undersøkelser mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-utvinningstillatelser-mv">Kapittel 4. Utvinningstillatelser mv.</a></li>
+<li class="lvl4"><a href="#4-1-utlysing-og-tildeling">§ 4-1. Utlysing og tildeling</a></li>
+<li class="lvl4"><a href="#4-2-sknad-om-tildeling-av-utvinningstillatelse">§ 4-2. Søknad om tildeling av utvinningstillatelse</a></li>
+<li class="lvl4"><a href="#4-3-arbeidsforpliktelse-og-arbeidsprogram">§ 4-3. Arbeidsforpliktelse og arbeidsprogram</a></li>
+<li class="lvl4"><a href="#4-4-plan-for-utvinning-av-mineralforekomster">§ 4-4. Plan for utvinning av mineralforekomster</a></li>
+<li class="lvl4"><a href="#4-5-utvinningstillatelsens-varighet">§ 4-5. Utvinningstillatelsens varighet</a></li>
+<li class="lvl4"><a href="#4-6-tilbakelevering-av-omrader">§ 4-6. Tilbakelevering av områder</a></li>
+<li class="lvl4"><a href="#4-7-srskilt-tillatelse-til-anlegg-av-og-drift-av-innretninger">§ 4-7. Særskilt tillatelse til anlegg av og drift av innretninger</a></li>
+<li class="lvl4"><a href="#4-8-rett-for-andre-til-a-plassere-innretninger-mv">§ 4-8. Rett for andre til å plassere innretninger mv.</a></li>
+<li class="lvl4"><a href="#4-9-andre-naturforekomster-enn-mineraler-mv">§ 4-9. Andre naturforekomster enn mineraler mv.</a></li>
+<li class="lvl4"><a href="#4-10-eiendomsrett-til-utvunnede-mineraler">§ 4-10. Eiendomsrett til utvunnede mineraler</a></li>
+<li class="lvl4"><a href="#4-11-forsvarlig-utvinning">§ 4-11. Forsvarlig utvinning</a></li>
+<li class="lvl4"><a href="#4-12-samordnet-virksomhet-og-andres-bruk-av-innretninger">§ 4-12. Samordnet virksomhet og andres bruk av innretninger</a></li>
+<li class="lvl4"><a href="#4-13-utvinningstillatelse-med-flere-rettighetshavere">§ 4-13. Utvinningstillatelse med flere rettighetshavere</a></li>
+<li class="lvl4"><a href="#4-14-overdragelse-av-tillatelse-mv">§ 4-14. Overdragelse av tillatelse mv.</a></li>
+<li class="lvl4"><a href="#4-15-avgift-til-den-internasjonale-havbunnsmyndigheten">§ 4-15. Avgift til Den internasjonale havbunnsmyndigheten</a></li>
+<li class="lvl4"><a href="#4-16-ilandfring-av-mineraler">§ 4-16. Ilandføring av mineraler</a></li>
+<li class="lvl2"><a href="#kapittel-5-avslutning-av-virksomhet-mv">Kapittel 5. Avslutning av virksomhet mv.</a></li>
+<li class="lvl4"><a href="#5-1-oppryddingsplikt">§ 5-1. Oppryddingsplikt</a></li>
+<li class="lvl4"><a href="#5-2-avslutningsplan">§ 5-2. Avslutningsplan</a></li>
+<li class="lvl4"><a href="#5-3-vedtak-om-disponering">§ 5-3. Vedtak om disponering</a></li>
+<li class="lvl4"><a href="#5-4-ansvar">§ 5-4. Ansvar</a></li>
+<li class="lvl4"><a href="#5-5-heftelser">§ 5-5. Heftelser</a></li>
+<li class="lvl4"><a href="#5-6-statlig-overtakelse">§ 5-6. Statlig overtakelse</a></li>
+<li class="lvl2"><a href="#kapittel-6-srskilte-krav-til-sikkerhet">Kapittel 6. Særskilte krav til sikkerhet</a></li>
+<li class="lvl4"><a href="#6-1-sikkerhet">§ 6-1. Sikkerhet</a></li>
+<li class="lvl4"><a href="#6-2-beredskap">§ 6-2. Beredskap</a></li>
+<li class="lvl4"><a href="#6-3-sikkerhetssoner-mv">§ 6-3. Sikkerhetssoner mv.</a></li>
+<li class="lvl4"><a href="#6-4-stansing">§ 6-4. Stansing</a></li>
+<li class="lvl4"><a href="#6-5-kvalifikasjoner">§ 6-5. Kvalifikasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-7-registrering-og-pantsettelse">Kapittel 7. Registrering og pantsettelse</a></li>
+<li class="lvl4"><a href="#7-1-registrering-av-tillatelser">§ 7-1. Registrering av tillatelser</a></li>
+<li class="lvl4"><a href="#7-2-pantsettelse-av-tillatelser">§ 7-2. Pantsettelse av tillatelser</a></li>
+<li class="lvl4"><a href="#7-3-panterettens-omfang-mv">§ 7-3. Panterettens omfang mv.</a></li>
+<li class="lvl4"><a href="#7-4-panthaverens-rett-mv">§ 7-4. Panthaverens rett mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 8. Særlige regler om erstatning til norske fiskere</a></li>
+<li class="lvl4"><a href="#8-1-saklig-virkeomrade-og-definisjoner">§ 8-1. Saklig virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#8-2-beslagleggelse">§ 8-2. Beslagleggelse</a></li>
+<li class="lvl4"><a href="#8-3-ansvar-for-forurensning-og-avfall">§ 8-3. Ansvar for forurensning og avfall</a></li>
+<li class="lvl4"><a href="#8-4-solidaransvar">§ 8-4. Solidaransvar</a></li>
+<li class="lvl4"><a href="#8-5-innretning-mv-som-volder-skade">§ 8-5. Innretning mv. som volder skade</a></li>
+<li class="lvl4"><a href="#8-6-nemnd-mv">§ 8-6. Nemnd mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-alminnelige-bestemmelser">Kapittel 9. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-tilsynsmyndighet">§ 9-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#9-2-forsikringsplikt-sikkerhetsstillelse-mv">§ 9-2. Forsikringsplikt, sikkerhetsstillelse mv.</a></li>
+<li class="lvl4"><a href="#9-3-plikt-til-a-etterleve-loven-og-pase-at-bestemmelser-blir-overholdt">§ 9-3. Plikt til å etterleve loven og påse at bestemmelser blir overholdt</a></li>
+<li class="lvl4"><a href="#9-4-ansvar-for-forpliktelser">§ 9-4. Ansvar for forpliktelser</a></li>
+<li class="lvl4"><a href="#9-5-ansvar-for-skadeforvoldelse">§ 9-5. Ansvar for skadeforvoldelse</a></li>
+<li class="lvl4"><a href="#9-6-tvangsmulkt">§ 9-6. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#9-7-overtredelsesgebyr">§ 9-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#9-8-midlertidig-stans-av-virksomhet">§ 9-8. Midlertidig stans av virksomhet</a></li>
+<li class="lvl4"><a href="#9-9-endring-og-tilbakekall-av-tillatelse-mv">§ 9-9. Endring og tilbakekall av tillatelse mv.</a></li>
+<li class="lvl4"><a href="#9-10-flgene-av-tilbakekall-oppgivelse-av-rettigheter-eller-bortfall-av-andre-grunner">§ 9-10. Følgene av tilbakekall, oppgivelse av rettigheter eller bortfall av andre grunner</a></li>
+<li class="lvl4"><a href="#9-11-rapporteringskrav-og-datainnsamling-mv">§ 9-11. Rapporteringskrav og datainnsamling mv.</a></li>
+<li class="lvl4"><a href="#9-12-taushetsplikt">§ 9-12. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#9-13-partsinnsyn-mv">§ 9-13. Partsinnsyn mv.</a></li>
+<li class="lvl4"><a href="#9-14-straffebestemmelser">§ 9-14. Straffebestemmelser</a></li>
+<li class="lvl4"><a href="#9-15-opplysninger-om-betalinger">§ 9-15. Opplysninger om betalinger</a></li>
+<li class="lvl4"><a href="#9-16-lnnsvilkar-pa-skip">§ 9-16. Lønnsvilkår på skip</a></li>
+<li class="lvl2"><a href="#kapittel-10-srlige-regler-for-forekomster-av-skjellsand-sand-og-grus-i-kystnre-omrader">Kapittel 10. Særlige regler for forekomster av skjellsand, sand og grus i kystnære områder</a></li>
+<li class="lvl4"><a href="#10-1-tilpasninger-for-kystnre-forekomster">§ 10-1. Tilpasninger for kystnære forekomster</a></li>
+<li class="lvl4"><a href="#10-2-fylkeskommunenes-kompetanse">§ 10-2. Fylkeskommunenes kompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelse-og-endring-av-andre-lover">Kapittel 11. Ikrafttredelse og endring av andre lover</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse-mv">§ 11-1. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#11-2-endringer-i-andre-lover">§ 11-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-22-7.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2019-03-22-7.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2019-03-22-7.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2019-03-22-7.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2019-03-22-7.html">Observerte kildeutgaver</a> · <a href="../historie/havbunnsmineralloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2019-03-22-7.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2019-03-22-7.html">Observerte kildeutgaver</a> · <a href="../historie/havbunnsmineralloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2019-03-22-7.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-mineralvirksomhet-pa-kontinentalsokkelen-havbunnsmineralloven">Lov om mineralvirksomhet på kontinentalsokkelen (havbunnsmineralloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-lovens-formal">§ 1-1. Lovens formål</h4>
 <p>Denne loven skal legge til rette for undersøkelse og utvinning av mineralforekomster på kontinentalsokkelen i samsvar med samfunnsmessige målsettinger, slik at hensynet til verdiskaping, miljø, sikkerhet ved virksomheten, øvrig næringsvirksomhet og andre interesser blir ivaretatt.</p>
@@ -92,7 +301,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Loven gjelder ikke for virksomhet knyttet til mineralforekomster på norsk kontinentalsokkel utenfor Dronning Maud Land og Peter I Øy eller mineralvirksomhet i havområder utenfor norsk jurisdiksjon, som det internasjonale havbunnsområdet.</p>
 <p>Kongen kan gi forskrift om eller fastsette i enkeltvedtak at loven også skal gjelde for videre bearbeiding av mineraler fra en utvunnet undersjøisk mineralforekomst som foregår på norsk landterritorium eller sjøgrunn underlagt privat eiendomsrett, når slik bearbeiding er nødvendig for eller utgjør en integrert del av utvinningen.</p>
 <p>Kongen kan gi forskrift om lovens geografiske virkeområde.</p>
-<p><em>Endret ved lov 18 juni 2021 nr. 89 (ikr. 18 juni 2021 iflg. res. 18 juni 2021 nr. 2009 ).</em></p>
+<p class="note">Endret ved lov 18 juni 2021 nr. 89 (ikr. 18 juni 2021 iflg. res. 18 juni 2021 nr. 2009 ).</p>
 <h4 id="1-4-retten-til-mineralforekomster-og-ressursforvaltning">§ 1-4. Retten til mineralforekomster og ressursforvaltning</h4>
 <p>Den norske stat har eiendomsrett til mineralforekomster på kontinentalsokkelen og eksklusiv rett til ressursforvaltning.</p>
 <p>Ressursforvaltningen forestås av Kongen i samsvar med bestemmelsene i denne loven.</p>
@@ -155,7 +364,7 @@ c. hvilket fartøy som skal benyttes
 d. i hvilken form resultatene fra undersøkelsen vil foreligge.</p>
 <p>Departementet kan gi forskrift om innsending av melding i forbindelse med undersøkelser, blant annet om unntak fra fristen i første ledd.</p>
 <p>Departementet kan gi forskrift om at fartøy som driver undersøkelser etter mineraler, skal ha om bord og bruke utstyr som overvåker og rapporterer aktiviteten til fartøyet, som for eksempel satellittsporingsutstyr og ferdskriver.</p>
-<p><em>Endret ved lov 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ).</em></p>
+<p class="note">Endret ved lov 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ).</p>
 <h2 id="kapittel-4-utvinningstillatelser-mv">Kapittel 4. Utvinningstillatelser mv.</h2>
 <h4 id="4-1-utlysing-og-tildeling">§ 4-1. Utlysing og tildeling</h4>
 <p>Kongen kan på nærmere bestemte vilkår tildele utvinningstillatelser. En utvinningstillatelse gir rettighetshaveren enerett til undersøkelser etter og utvinning av alle mineralforekomster i området som er omfattet av tillatelsen.</p>
@@ -296,7 +505,7 @@ c. aktivitet i medhold av havenergilova .</p>
 <h4 id="7-4-panthaverens-rett-mv">§ 7-4. Panthaverens rett mv.</h4>
 <p>Departementet skal gi en panthaver et skriftlig varsel om tilbakekall eller oppgivelse av en tillatelse eller av en andel i denne, med meddelelse om at panteretten bortfaller dersom det ikke begjæres tvangssalg uten unødig opphold. Er tvangssalg begjært i rett tid, kan det ikke meddeles en ny tillatelse i strid med panthaverens rett.</p>
 <p>En panterett som nevnt i første ledd kan ikke overdras eller pantsettes uten departementets samtykke. Den kan heller ikke uten et slikt samtykke være gjenstand for utlegg, arrest eller gjeldsforhandling eller inngå i panthaverens konkursbo.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-8-srlige-regler-om-erstatning-til-norske-fiskere">Kapittel 8. Særlige regler om erstatning til norske fiskere</h2>
 <h4 id="8-1-saklig-virkeomrade-og-definisjoner">§ 8-1. Saklig virkeområde og definisjoner</h4>
 <p>Dette kapittelet gjelder erstatning for økonomisk tap som en mineralvirksomhet påfører norske fiskere som følge av at virksomheten legger beslag på fiskefelt, eller medfører forurensning og avfall, eller ved at en innretning eller tiltak i forbindelse med plassering av en innretning volder skade.</p>
@@ -360,7 +569,7 @@ e. den sikkerheten som rettighetshaveren plikter å stille etter § 9-2 er vesen
 <p>En endring eller et tilbakekall av en tillatelse etter første ledd kan gjøres tidsbegrenset. Tidsbegrensede endringer eller tilbakekall kan gjøres betinget av at bestemte forhold utbedres eller endres.</p>
 <p>Ved avgjørelser etter paragrafen her skal det tas hensyn til det økonomiske tapet og de ulempene som det må påregnes at en endring eller et tilbakekall vil påføre innehaveren av tillatelsen, og de fordelene og ulempene som endringen eller tilbakekallet for øvrig vil medføre.</p>
 <p>Departementet kan gi forskrift om endringer og tilbakekall av tillatelser.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="9-10-flgene-av-tilbakekall-oppgivelse-av-rettigheter-eller-bortfall-av-andre-grunner">§ 9-10. Følgene av tilbakekall, oppgivelse av rettigheter eller bortfall av andre grunner</h4>
 <p>Et tilbakekall av en tillatelse, oppgivelse av rettigheter eller bortfall av rettigheter av andre grunner fritar ikke for de økonomiske forpliktelsene som følger av denne loven, forskrifter gitt i medhold av loven eller enkeltvedtak med særskilte vilkår fastsatt i medhold av loven. Hvis en arbeidsforpliktelse eller en annen forpliktelse ikke er oppfylt, kan departementet kreve innbetalt helt eller delvis det beløpet som oppfyllelse av forpliktelsen ville ha kostet. Beløpet fastsettes med bindende virkning av departementet.</p>
 <p>Blir en tillatelse som er knyttet til en etablert innretning trukket tilbake, skal det fastsettes en frist for å sørge for at innretningen blir overtatt av noen som lovlig kan drive virksomheten.</p>
@@ -378,7 +587,7 @@ d. opplysninger om videresalg av mineraler og salgsverdien.</p>
 <p>Departementet kan gi forskrift eller treffe enkeltvedtak om at enhver som utfører tjeneste eller arbeid for et forvaltningsorgan, plikter å hindre at andre får adgang til eller kjennskap til det han i forbindelse med tjenesten eller arbeidet får vite om geologiske forhold i materiale eller i opplysninger som nevnt i § 9-11 andre og tredje ledd, og fastsette varigheten av en slik taushetsplikt.</p>
 <p>Departementet kan gi forskrift eller treffe enkeltvedtak om at opplysninger av enhver art som meddeles myndighetene i forbindelse med en søknad om utvinningstillatelse skal være underlagt taushetsplikt og varigheten av slik taushetsplikt.</p>
 <p>Forskrifter eller enkeltvedtak som blir gitt i medhold av denne paragrafen, skal ikke være til hinder for at departementet gir generelle uttalelser om virksomheten og mulighetene for å finne mineralforekomster, eller til bruk for utarbeidelse av oversiktskart eller for statistiske formål. Slike forskrifter eller enkeltvedtak skal heller ikke hindre utveksling av informasjon som forutsatt i <a href="lov-2025-06-20-105.html">enhetsregisterloven</a> og lov 6. juni 1997 nr. 35 om Oppgaveregisteret eller en annen lovpålagt utveksling av informasjon med offentlige organer.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</p>
 <h4 id="9-13-partsinnsyn-mv">§ 9-13. Partsinnsyn mv.</h4>
 <p>Reglene i forvaltningsloven § 18 første ledd om en parts rett til å gjøre seg kjent med sakens dokumenter gjelder ikke i saker som gjelder søknader om utvinningstillatelse etter denne loven.</p>
 <h4 id="9-14-straffebestemmelser">§ 9-14. Straffebestemmelser</h4>
@@ -387,7 +596,7 @@ d. opplysninger om videresalg av mineraler og salgsverdien.</p>
 <p>Departementet kan gi forskrift om at rettighetshavere og forvaltningsorganer skal gi opplysninger om betalinger til eller fra staten i tilknytning til mineralvirksomheten. Forvaltningsorganer kan pålegges å gi slike opplysninger uten hinder av taushetsplikt. Opplysningene kan offentliggjøres både av avgiveren og mottakeren av opplysningene.</p>
 <h4 id="9-16-lnnsvilkar-pa-skip">§ 9-16. Lønnsvilkår på skip <a class="para-history" href="../historikk/lov-2019-03-22-7/para-9-16.html" title="Endringshistorikk for § 9-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Rettighetshaveren skal sørge for at ansatte på skip som leverer tjenester til mineralvirksomhet, ikke har dårligere lønnsvilkår enn det som følger av gjeldende landsomfattende tariffavtaler. Kongen kan gi forskrift om hvordan rettighetshaverens forpliktelser kan oppfylles.</p>
-<p><em>Tilføyd ved lov 20 juni 2025 nr. 109 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2025 nr. 109 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-10-srlige-regler-for-forekomster-av-skjellsand-sand-og-grus-i-kystnre-omrader">Kapittel 10. Særlige regler for forekomster av skjellsand, sand og grus i kystnære områder</h2>
 <h4 id="10-1-tilpasninger-for-kystnre-forekomster">§ 10-1. Tilpasninger for kystnære forekomster</h4>
 <p>Kongen kan gi forskrift om i hvilken grad lovens bestemmelser skal gjelde for undersøkelse og utvinning av forekomster av skjellsand, sand og grus i området fra marbakken og ut til én nautisk mil fra grunnlinjene. Dette kan også omfatte unntak fra loven.</p>
@@ -401,6 +610,8 @@ d. opplysninger om videresalg av mineraler og salgsverdien.</p>
 <h4 id="11-2-endringer-i-andre-lover">§ 11-2. Endringer i andre lover</h4>
 <p>Fra den tid loven trer i kraft, gjøres følgende endringer i andre lover:</p>
 <p><em>– – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

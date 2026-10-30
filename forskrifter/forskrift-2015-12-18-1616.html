@@ -19,64 +19,161 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-12-18-1616.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Kassasystemforskrifta" href="../feeds/forskrift-2015-12-18-1616.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Kassasystemforskrifta</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-12-18-1616</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-02-03-129</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-12-18-1616" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkefeltet-til-forskrifta-definisjonar">Kapittel 1. Virkefeltet til forskrifta. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-1-virkefelt">§ 1-1. Virkefelt</a></li>
+<li class="lvl4"><a href="#1-2-definisjonar">§ 1-2. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-3-tilpassing-av-kassasystem">§ 1-3. Tilpassing av kassasystem</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-kassasystem-og-systemskildring">Kapittel 2. Krav til kassasystem og systemskildring</a></li>
+<li class="lvl4"><a href="#2-1-systemskildring">§ 2-1. Systemskildring</a></li>
+<li class="lvl4"><a href="#2-2-kassaskuff">§ 2-2. Kassaskuff</a></li>
+<li class="lvl4"><a href="#2-3-skrivar-mv">§ 2-3. Skrivar mv.</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-sprak">§ 2-4. Krav til språk</a></li>
+<li class="lvl4"><a href="#2-5-funksjonar-som-eit-kassasystem-skal-ha">§ 2-5. Funksjonar som eit kassasystem skal ha</a></li>
+<li class="lvl4"><a href="#2-6-funksjonar-som-eit-kassasystem-ikkje-skal-ha">§ 2-6. Funksjonar som eit kassasystem ikkje skal ha</a></li>
+<li class="lvl4"><a href="#2-7-elektronisk-journal">§ 2-7. Elektronisk journal</a></li>
+<li class="lvl4"><a href="#2-8-rapportar-og-kvitteringar">§ 2-8. Rapportar og kvitteringar</a></li>
+<li class="lvl4"><a href="#2-8-1-x-rapport-z-rapport-salskvittering-mv">§ 2-8-1. X-rapport, Z-rapport, salskvittering mv.</a></li>
+<li class="lvl4"><a href="#2-8-2-x-rapport">§ 2-8-2. X-rapport</a></li>
+<li class="lvl4"><a href="#2-8-3-z-rapport">§ 2-8-3. Z-rapport</a></li>
+<li class="lvl4"><a href="#2-8-4-salskvittering">§ 2-8-4. Salskvittering</a></li>
+<li class="lvl4"><a href="#2-8-5-returkvittering">§ 2-8-5. Returkvittering</a></li>
+<li class="lvl4"><a href="#2-8-6-kopikvittering-steb-kvittering-forelpig-kvittering-og-treningskvittering">§ 2-8-6. Kopikvittering, STEB-kvittering, foreløpig kvittering og treningskvittering</a></li>
+<li class="lvl4"><a href="#2-8-7-utleveringskvittering">§ 2-8-7. Utleveringskvittering</a></li>
+<li class="lvl4"><a href="#2-8-8-kvittering-fra-betalingsterminal">§ 2-8-8. Kvittering frå betalingsterminal</a></li>
+<li class="lvl2"><a href="#kapittel-3-produktfrasegn-og-utbetring-av-manglar-mv">Kapittel 3. Produktfråsegn og utbetring av manglar mv .</a></li>
+<li class="lvl4"><a href="#3-1-produktfrasegn">§ 3-1. Produktfråsegn</a></li>
+<li class="lvl4"><a href="#3-2-tilbaketrekkjing-av-kassasystemet-fra-marknaden-mv">§ 3-2. Tilbaketrekkjing av kassasystemet frå marknaden mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-iverksetjing">Kapittel 4. Iverksetjing</a></li>
+<li class="lvl4"><a href="#4-1-iverksetjing">§ 4-1. Iverksetjing</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-02-03-129.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-12-18-1616.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til kassasystem (kassasystemforskrifta)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-12-18-1616.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-12-18-1616 <code>forskrift/2015-12-18-1616</code></td></tr>
+<tr><th>Korttittel</th><td>Kassasystemforskrifta</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-02-03-129 <code>forskrift/2026-02-03-129</code> fra 03.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-12-18-1616" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkefeltet-til-forskrifta-definisjonar">Kapittel 1. Virkefeltet til forskrifta. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-1-virkefelt">§ 1-1. Virkefelt</a></li>
+<li class="lvl4"><a href="#1-2-definisjonar">§ 1-2. Definisjonar</a></li>
+<li class="lvl4"><a href="#1-3-tilpassing-av-kassasystem">§ 1-3. Tilpassing av kassasystem</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-kassasystem-og-systemskildring">Kapittel 2. Krav til kassasystem og systemskildring</a></li>
+<li class="lvl4"><a href="#2-1-systemskildring">§ 2-1. Systemskildring</a></li>
+<li class="lvl4"><a href="#2-2-kassaskuff">§ 2-2. Kassaskuff</a></li>
+<li class="lvl4"><a href="#2-3-skrivar-mv">§ 2-3. Skrivar mv.</a></li>
+<li class="lvl4"><a href="#2-4-krav-til-sprak">§ 2-4. Krav til språk</a></li>
+<li class="lvl4"><a href="#2-5-funksjonar-som-eit-kassasystem-skal-ha">§ 2-5. Funksjonar som eit kassasystem skal ha</a></li>
+<li class="lvl4"><a href="#2-6-funksjonar-som-eit-kassasystem-ikkje-skal-ha">§ 2-6. Funksjonar som eit kassasystem ikkje skal ha</a></li>
+<li class="lvl4"><a href="#2-7-elektronisk-journal">§ 2-7. Elektronisk journal</a></li>
+<li class="lvl4"><a href="#2-8-rapportar-og-kvitteringar">§ 2-8. Rapportar og kvitteringar</a></li>
+<li class="lvl4"><a href="#2-8-1-x-rapport-z-rapport-salskvittering-mv">§ 2-8-1. X-rapport, Z-rapport, salskvittering mv.</a></li>
+<li class="lvl4"><a href="#2-8-2-x-rapport">§ 2-8-2. X-rapport</a></li>
+<li class="lvl4"><a href="#2-8-3-z-rapport">§ 2-8-3. Z-rapport</a></li>
+<li class="lvl4"><a href="#2-8-4-salskvittering">§ 2-8-4. Salskvittering</a></li>
+<li class="lvl4"><a href="#2-8-5-returkvittering">§ 2-8-5. Returkvittering</a></li>
+<li class="lvl4"><a href="#2-8-6-kopikvittering-steb-kvittering-forelpig-kvittering-og-treningskvittering">§ 2-8-6. Kopikvittering, STEB-kvittering, foreløpig kvittering og treningskvittering</a></li>
+<li class="lvl4"><a href="#2-8-7-utleveringskvittering">§ 2-8-7. Utleveringskvittering</a></li>
+<li class="lvl4"><a href="#2-8-8-kvittering-fra-betalingsterminal">§ 2-8-8. Kvittering frå betalingsterminal</a></li>
+<li class="lvl2"><a href="#kapittel-3-produktfrasegn-og-utbetring-av-manglar-mv">Kapittel 3. Produktfråsegn og utbetring av manglar mv .</a></li>
+<li class="lvl4"><a href="#3-1-produktfrasegn">§ 3-1. Produktfråsegn</a></li>
+<li class="lvl4"><a href="#3-2-tilbaketrekkjing-av-kassasystemet-fra-marknaden-mv">§ 3-2. Tilbaketrekkjing av kassasystemet frå marknaden mv.</a></li>
+<li class="lvl2"><a href="#kapittel-4-iverksetjing">Kapittel 4. Iverksetjing</a></li>
+<li class="lvl4"><a href="#4-1-iverksetjing">§ 4-1. Iverksetjing</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-12-18-1616.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-12-18-1616.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-12-18-1616.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-12-18-1616.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-12-18-1616.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-12-18-1616.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-12-18-1616.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-12-18-1616.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-12-18-1616.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-kassasystem-kassasystemforskrifta">Forskrift om krav til kassasystem (kassasystemforskrifta)</h1>
 <h2 id="kapittel-1-virkefeltet-til-forskrifta-definisjonar">Kapittel 1. Virkefeltet til forskrifta. Definisjonar</h2>
 <h4 id="1-1-virkefelt">§ 1-1. Virkefelt</h4>
 <p>Forskrifta utfyller og gjennomfører føresegnene i kassasystemlova.</p>
@@ -101,7 +198,7 @@ p. grand total sal: akkumulert kontantsal, utan frådrag av grand total retur,
 q. grand total netto: grand total sal redusert for grand total retur,
 r. STEB-kvittering : kopikvittering som skal leggjast i forsegla pose (Security Tamper Evident Bag) ved kjøp av taxfree-varer i lufthavner,
 s. Integrert betalingsløysing: løysing kor informasjon om salet, beløp mv. sendast frå kassasystemet til betalingsløysinga, betalinga blir registrert automatisk i kassasystemet og betalingsmiddelet er anna enn setlar og myntar.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 21 sep 2018 nr. 1349 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 21 sep 2018 nr. 1349 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</p>
 <h4 id="1-3-tilpassing-av-kassasystem">§ 1-3. Tilpassing av kassasystem</h4>
 <p>Med tilpassing av kassasystem, jf. kassasystemlova § 2 bokstav e) meinast tilpassingar som påverkar kassasystemet sine funksjonar eller oppbygging.</p>
 <h2 id="kapittel-2-krav-til-kassasystem-og-systemskildring">Kapittel 2. Krav til kassasystem og systemskildring</h2>
@@ -110,11 +207,11 @@ s. Integrert betalingsløysing: løysing kor informasjon om salet, beløp mv. se
 <p>(2) Dersom eit kassasystem vert endra ved at det blir tilført nye funksjonar eller det blir gjort endringar som påverkar oppbygginga av systemet, skal det enten utarbeidast eit tillegg til systemskildringa over dei endringane som er gjort eller ei heilt ny systemskildring. Dokumentasjonen skal følgje med kassasystemet.</p>
 <h4 id="2-2-kassaskuff">§ 2-2. Kassaskuff <a class="para-history" href="../historikk/forskrift-2015-12-18-1616/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kassasystemet skal ha integrert kassaskuff på kvart kassapunkt. Dette gjeld likevel ikkje dersom kassasystemet har funksjonar for å registrere kontantsal mv. på den enkelte operatør og utskrift av salskvittering ikkje blir beordra frå faste kassapunkt. Kravet gjeld heller ikkje ved kassapunkt kor det ikkje er mogeleg å betale med setlar og myntar.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 .</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 .</p>
 <h4 id="2-3-skrivar-mv">§ 2-3. Skrivar mv. <a class="para-history" href="../historikk/forskrift-2015-12-18-1616/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Kassasystemet skal ved det enkelte kassapunkt vere utstyrt med ein skrivar. Skrivaren skal kunne produsere dokumentasjon som nemnt i § 1-2 bokstavane d til i, l til n og r.</p>
 <p>(2) Kassasystemet skal for det enkelte kassapunkt vere utstyrt med ein eksportfunksjon, slik at det er mogeleg å overføre opplysningane i elektronisk journal til eksternt lagringsmedium.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 .</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 .</p>
 <h4 id="2-4-krav-til-sprak">§ 2-4. Krav til språk</h4>
 <p>Systemskildring, programvare, servicemanual, programmeringsverktøy og programmeringsmanual skal vere på norsk, svensk, dansk eller engelsk. Det same gjeld tekst på kvitteringar, X-rapport og Z-rapport samt registrering av kontinuerleg bruk.</p>
 <h4 id="2-5-funksjonar-som-eit-kassasystem-skal-ha">§ 2-5. Funksjonar som eit kassasystem skal ha</h4>
@@ -132,7 +229,7 @@ s. Integrert betalingsløysing: løysing kor informasjon om salet, beløp mv. se
 <p>(6) Det skal ikkje vere mogeleg å foreta registreringar i kassasystemet dersom lagringsminnet er fullt.</p>
 <p>(7) Det skal ikkje vere mogeleg å merke særskilte varer eller tenester i kassasystemet slik at dei ikkje blir tekne med på X- og Z-rapport.</p>
 <p>(8) Eit kassasystem som blir kopla saman med ei ikkje-automatisk vekt, skal ikkje kunne påverke vekta sine måletekniske eigenskapar, jf. forskrift 21. desember 2007 nr. 1735 om krav til ikke-automatiske vekter.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 21 sep 2018 nr. 1349 .</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 21 sep 2018 nr. 1349 .</p>
 <h4 id="2-7-elektronisk-journal">§ 2-7. Elektronisk journal <a class="para-history" href="../historikk/forskrift-2015-12-18-1616/para-2-7.html" title="Endringshistorikk for § 2-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) All kontinuerleg bruk skal lagrast fortløpande i elektronisk journal. Dette omfattar også opplysningar på kvitteringar som nemnt i § 1-2 bokstavane d til h. Elektronisk journal skal vere sikra mot endring og sletting. Elektronisk journal kan overførast til eit anna elektronisk medium i eit filformat som ikkje enkelt lar seg redigere. Slik overføring skal ikkje kunne gjerast før kassasystemet har produsert ein Z-rapport. Systemet skal kunne produsere ei fil direkte frå elektronisk journal eller anna elektronisk medium i ei standardisert form fastsett av Skattedirektoratet.</p>
 <p>(2) Tidspunkta for opning av integrert kassaskuff skal gå fram av elektronisk journal.</p>
@@ -140,11 +237,11 @@ s. Integrert betalingsløysing: løysing kor informasjon om salet, beløp mv. se
 <p>(4) Dersom kassasystemet har funksjonar for å undersøke pris, skal slike prisundersøkingar registrerast i elektronisk journal.</p>
 <p>(5) Dersom kassasystemet har funksjonar for identifikasjon av den enkelte operatør ved bruk av kort eller liknande, skal elektronisk journal innehalde opplysningar om vedkomande sitt namn eller tilsettnummer i samband med salstransaksjonane og andre registreringar.</p>
 <p>(6) All kontinuerleg bruk må kunne identifiserast og skiljast ut med eit startpunkt.</p>
-<p><em>Endra ved forskrift 6 juli 2016 nr. 901 .</em></p>
+<p class="note">Endra ved forskrift 6 juli 2016 nr. 901 .</p>
 <h4 id="2-8-rapportar-og-kvitteringar">§ 2-8. Rapportar og kvitteringar <a class="para-history" href="../historikk/forskrift-2015-12-18-1616/para-2-8.html" title="Endringshistorikk for § 2-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <h4 id="2-8-1-x-rapport-z-rapport-salskvittering-mv">§ 2-8-1. X-rapport, Z-rapport, salskvittering mv.</h4>
 <p>Kassasystemet skal for kvart kassapunkt kunne produsere X-rapportar, Z-rapportar, salskvitteringar og returkvitteringar. Dersom kassasystemet har funksjonar for å registrere kredittsal som blir fakturert på eit seinare tidspunkt, skal også utleveringskvittering kunne produserast.</p>
-<p><em>Endra ved forskrift 6 juli 2016 nr. 901 .</em></p>
+<p class="note">Endra ved forskrift 6 juli 2016 nr. 901 .</p>
 <h4 id="2-8-2-x-rapport">§ 2-8-2. X-rapport</h4>
 <p>Ein X-rapport skal minst innehalde desse opplysningane:</p>
 <p>a. påskrift om at rapporten er ein X-rapport,
@@ -174,36 +271,38 @@ x. grand total sal,
 y. grand total retur,
 z. grand total netto.</p>
 <p>Dersom det vert skrive ut kvitteringar for kredittsal frå kassapunktet, skal talet på kredittsal og beløp spesifiserast. Det same gjeld innbetalingar og returkvitteringar som gjeld kredittsal. Også talet på andre inn- og utbetalingar som blir registrert på kassapunktet, skal spesifiserast på type og beløp.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</p>
 <h4 id="2-8-3-z-rapport">§ 2-8-3. Z-rapport</h4>
 <p>(1) Ein Z-rapport skal minst innehalde opplysningar som nemnt i § 2-8-2 , med unntak av opplysninga i første ledd bokstav a. I tillegg skal Z-rapporten vere fortløpande nummerert og innehalde ei påskrift om at rapporten er ein Z-rapport. Z-rapporten kan ikkje innehalde registreringar som er omfatta av ein tidlegare Z-rapport.</p>
 <p>(2) Det skal ikkje vere mogeleg å utarbeide ein Z-rapport utan at alle sal er avslutta. Ein Z-rapport kan ikkje ha same nummer som ein tidlegare Z-rapport.</p>
-<p><em>Endra ved forskrift 6 juli 2016 nr. 901 .</em></p>
+<p class="note">Endra ved forskrift 6 juli 2016 nr. 901 .</p>
 <h4 id="2-8-4-salskvittering">§ 2-8-4. Salskvittering</h4>
 <p>Ei salskvittering skal minst innehalde opplysningar som nemnt i forskrift 1. desember 2004 nr. 1558 om bokføring § 5-3-12 samt opplysningar om type betalingsmiddel og ID-nummeret til kassapunktet. Ordet «Salskvittering» skal visast øvst på kvitteringa. Dersom salskvitteringa er framstilt i elektronisk form skal orda «Elektronisk salskvittering» visast. Dersom betalingsløysinga er integrert med kassasystemet, skal salskvitteringa også innehalde transaksjons-ID.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 21 sep 2018 nr. 1349 , 12 feb 2019 nr. 85 .</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 21 sep 2018 nr. 1349 , 12 feb 2019 nr. 85 .</p>
 <h4 id="2-8-5-returkvittering">§ 2-8-5. Returkvittering</h4>
 <p>Ordet «Returkvittering» skal gå fram øvst på kvitteringa. I tillegg gjeld føresegnene i § 2-8-4 tilsvarande for returkvittering.</p>
 <h4 id="2-8-6-kopikvittering-steb-kvittering-forelpig-kvittering-og-treningskvittering">§ 2-8-6. Kopikvittering, STEB-kvittering, foreløpig kvittering og treningskvittering</h4>
 <p>Dersom kassasystemet har funksjonar til å skrive ut kopikvittering, STEB-kvittering, foreløpig kvittering eller treningskvittering skal desse vere tydeleg merka respektive «KOPI», «STEB-kvittering», «Foreløpig kvittering – IKKJE KVITTERING FOR KJØP» og «Treningskvittering – IKKJE KVITTERING FOR KJØP». Fonten på den markerte teksten skal vere minst 50 % større enn den teksten som angir beløp. Treningskvitteringar skal daterast og nummererast fortløpande i eigen nummerserie.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</p>
 <h4 id="2-8-7-utleveringskvittering">§ 2-8-7. Utleveringskvittering</h4>
 <p>Dersom kassasystemet blir nytta til å registrere kredittsal som blir fakturert på eit seinare tidspunkt, skal det skrivast ut ei kvittering som viser kva slags varer og tenester som er levert. Kvitteringa skal tydeleg merkast «Utleveringskvittering – IKKJE KVITTERING FOR KJØP». Fonten på den markerte teksten skal vere minst 50 % større enn den teksten som angir beløp. Utleveringskvitteringar skal daterast og nummererast fortløpande i eigen nummerserie.</p>
-<p><em>Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrifter 6 juli 2016 nr. 901 , 4 juli 2018 nr. 1128 (i kraft 1 jan 2019).</p>
 <h4 id="2-8-8-kvittering-fra-betalingsterminal">§ 2-8-8. Kvittering frå betalingsterminal</h4>
 <p>Kvittering frå betalingsterminal som ikkje er integrert med kassasystemet skal tydeleg merkast «IKKJE KVITTERING FOR KJØP». Fonten på den markerte teksten skal vere minst 50 % større enn den teksten som angir beløp.</p>
-<p><em>Endra ved forskrift 6 juli 2016 nr. 901 .</em></p>
+<p class="note">Endra ved forskrift 6 juli 2016 nr. 901 .</p>
 <h2 id="kapittel-3-produktfrasegn-og-utbetring-av-manglar-mv">Kapittel 3. Produktfråsegn og utbetring av manglar mv .</h2>
 <h4 id="3-1-produktfrasegn">§ 3-1. Produktfråsegn <a class="para-history" href="../historikk/forskrift-2015-12-18-1616/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Produktfråsegn som nemnt i kassasystemlova § 5 skal leverast elektronisk.</p>
 <p>(2) Det skal ikkje leverast meir enn ei produktfråsegn for same versjon av kassasystemet. Dersom ein utanlandsk produsent ikkje sjølv leverer produktfråsegn, skal alle importørar av kassasystemet levere kvar si produktfråsegn med unik versjonsidentifikasjon.</p>
-<p><em>Endra ved forskrifter 4 juli 2018 nr. 1128 , 3 feb 2026 nr. 129 .</em></p>
+<p class="note">Endra ved forskrifter 4 juli 2018 nr. 1128 , 3 feb 2026 nr. 129 .</p>
 <h4 id="3-2-tilbaketrekkjing-av-kassasystemet-fra-marknaden-mv">§ 3-2. Tilbaketrekkjing av kassasystemet frå marknaden mv.</h4>
 <p>(1) Dersom leverandøren trekkjer kassasystemet frå marknaden eller skattekontoret gjev leverandøren pålegg om å trekkje kassasystemet frå marknaden, jf. kassasystemlova § 6 , må leverandøren utan ugrunna opphald melde frå om det til sine kundar.</p>
 <p>(2) Eit pålegg frå skattekontoret om å utbetre manglar eller trekkje kassasystemet frå marknaden, jf. kassasystemlova § 6 andre ledd, skal innehalde ein frist for å gjennomføre pålegget.</p>
 <h2 id="kapittel-4-iverksetjing">Kapittel 4. Iverksetjing</h2>
 <h4 id="4-1-iverksetjing">§ 4-1. Iverksetjing</h4>
 <p>Forskrifta tek til å gjelde 1. januar 2017.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

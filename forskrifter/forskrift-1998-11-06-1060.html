@@ -19,64 +19,367 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1998-11-06-1060.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om elektriske lavspenningsanlegg - FEL" href="../feeds/forskrift-1998-11-06-1060.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om elektriske lavspenningsanlegg - FEL</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1998-11-06-1060</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1999-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2005-06-30-744</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1998-11-06-1060" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#forord">Forord</a></li>
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-tvangsmidler">§ 4. Tvangsmidler</a></li>
+<li class="lvl4"><a href="#5-straffebestemmelse">§ 5. Straffebestemmelse</a></li>
+<li class="lvl4"><a href="#6-ikrafttredelse-opphevelse-av-andre-forskrifter-overgangsbestemmelser">§ 6. Ikrafttredelse. Opphevelse av andre forskrifter. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-ii-administrative-bestemmelser">Kapittel II. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#7-tilsyn">§ 7. Tilsyn</a></li>
+<li class="lvl4"><a href="#8-klageadgang">§ 8. Klageadgang</a></li>
+<li class="lvl4"><a href="#9-ansvar-hvem-forskriften-retter-seg-mot">§ 9. Ansvar – Hvem forskriften retter seg mot</a></li>
+<li class="lvl4"><a href="#10-oppfyllelse-av-sikkerhetskrav">§ 10. Oppfyllelse av sikkerhetskrav</a></li>
+<li class="lvl4"><a href="#11-dispensasjon">§ 11. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-iii-dokumentasjon-informasjon-og-melding">Kapittel III. Dokumentasjon, informasjon og melding</a></li>
+<li class="lvl4"><a href="#12-kontroll-erklring-om-samsvar-dokumentasjon">§ 12. Kontroll. Erklæring om samsvar. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#13-oppbevaring-av-dokumentasjon">§ 13. Oppbevaring av dokumentasjon</a></li>
+<li class="lvl4"><a href="#14-melding">§ 14. Melding</a></li>
+<li class="lvl4"><a href="#15-melding-av-ulykkeruhell">§ 15. Melding av ulykker/uhell</a></li>
+<li class="lvl2"><a href="#kapittel-iv-planlegging-og-utfrelse">Kapittel IV. Planlegging og utførelse</a></li>
+<li class="lvl4"><a href="#16-planlegging-og-vurdering-av-risiko">§ 16. Planlegging og vurdering av risiko</a></li>
+<li class="lvl4"><a href="#17-tilgjengelighet-for-vedlikehold">§ 17. Tilgjengelighet for vedlikehold</a></li>
+<li class="lvl4"><a href="#18-fordelingssystem">§ 18. Fordelingssystem</a></li>
+<li class="lvl4"><a href="#19-jordingsanlegg">§ 19. Jordingsanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-v-sikkerhetskrav">Kapittel V. Sikkerhetskrav</a></li>
+<li class="lvl3"><a href="#vern-og-andre-beskyttelsestiltak">Vern og andre beskyttelsestiltak</a></li>
+<li class="lvl5"><a href="#20-beskyttelse-mot-elektriske-stt-ved-normal-bruk">§ 20. Beskyttelse mot elektriske støt ved normal bruk</a></li>
+<li class="lvl5"><a href="#21-beskyttelse-mot-elektrisk-stt-ved-feil">§ 21. Beskyttelse mot elektrisk støt ved feil</a></li>
+<li class="lvl5"><a href="#22-beskyttelse-mot-skadelige-termiske-virkninger">§ 22. Beskyttelse mot skadelige termiske virkninger</a></li>
+<li class="lvl5"><a href="#23-beskyttelse-mot-overstrm">§ 23. Beskyttelse mot overstrøm</a></li>
+<li class="lvl5"><a href="#24-beskyttelse-mot-feilstrmmer">§ 24. Beskyttelse mot feilstrømmer</a></li>
+<li class="lvl5"><a href="#25-beskyttelse-mot-overspenning">§ 25. Beskyttelse mot overspenning</a></li>
+<li class="lvl5"><a href="#26-beskyttelse-mot-underspenning">§ 26. Beskyttelse mot underspenning</a></li>
+<li class="lvl5"><a href="#27-beskyttelse-mot-spenningsfall-i-forbrukerens-anlegg">§ 27. Beskyttelse mot spenningsfall i forbrukerens anlegg</a></li>
+<li class="lvl5"><a href="#28-beskyttelse-mot-ytre-pavirkninger">§ 28. Beskyttelse mot ytre påvirkninger</a></li>
+<li class="lvl5"><a href="#29-ndutkobling">§ 29. Nødutkobling</a></li>
+<li class="lvl5"><a href="#30-utstyr-for-frakobling">§ 30. Utstyr for frakobling</a></li>
+<li class="lvl3"><a href="#avbrudd">Avbrudd</a></li>
+<li class="lvl5"><a href="#31-avbrudd-i-strmtilfrsel">§ 31. Avbrudd i strømtilførsel</a></li>
+<li class="lvl3"><a href="#merking">Merking</a></li>
+<li class="lvl5"><a href="#32-merking-av-kabler-vern-og-annet-materiell">§ 32. Merking av kabler, vern og annet materiell</a></li>
+<li class="lvl3"><a href="#elektromagnetiske-og-andre-elektriske-pavirkninger-av-omgivelsene">Elektromagnetiske og andre elektriske påvirkninger av omgivelsene</a></li>
+<li class="lvl5"><a href="#33-elektriske-og-elektromagnetiske-forstyrrelser">§ 33. Elektriske og elektromagnetiske forstyrrelser</a></li>
+<li class="lvl5"><a href="#34-beskyttelse-mot-innbyrdes-skadelige-pavirkninger-mellom-elektriske-og-ikke-elektriske-anlegg-anleggsdeler">§ 34. Beskyttelse mot innbyrdes skadelige påvirkninger mellom elektriske og ikke-elektriske anlegg (anleggsdeler)</a></li>
+<li class="lvl3"><a href="#bevaring-av-bygningsmessige-egenskaper">Bevaring av bygningsmessige egenskaper</a></li>
+<li class="lvl5"><a href="#35-bygningskonstruksjonens-mekaniske-og-brannsikkerhetsmessige-egenskaper">§ 35. Bygningskonstruksjonens mekaniske og brannsikkerhetsmessige egenskaper</a></li>
+<li class="lvl3"><a href="#elektrisk-utstyr-tilkoplet-lavspenningsanlegg">Elektrisk utstyr tilkoplet lavspenningsanlegg</a></li>
+<li class="lvl5"><a href="#36-anlegg-og-tilkobling">§ 36. Anlegg og tilkobling</a></li>
+<li class="lvl5"><a href="#37-egenskaper">§ 37. Egenskaper</a></li>
+<li class="lvl5"><a href="#38-tilkobling-med-bevegelige-ledninger">§ 38. Tilkobling med bevegelige ledninger</a></li>
+<li class="lvl2"><a href="#vedlegg-i-nasjonale-tilpasninger">Vedlegg I. Nasjonale tilpasninger</a></li>
+<li class="lvl3"><a href="#1-elektriske-lavspenningsinstallasjoner">1. Elektriske lavspenningsinstallasjoner</a></li>
+<li class="lvl4"><a href="#tillatte-spenningssystemer">Tillatte spenningssystemer</a></li>
+<li class="lvl4"><a href="#belastning-av-pvc-isolert-kabel">Belastning av PVC-isolert kabel</a></li>
+<li class="lvl4"><a href="#it-system-bruk-av-n-leder">IT-system, bruk av N-leder</a></li>
+<li class="lvl4"><a href="#tt-system-bruk-av-vern">TT-system, bruk av vern</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-tilfrsel">Nødstrømforsyning, tilførsel</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-sikkerhetstiltak-mot-elektrisk-stt">Nødstrømforsyning, sikkerhetstiltak mot elektrisk støt</a></li>
+<li class="lvl4"><a href="#ledningsanlegg-i-rmningsveier">Ledningsanlegg i rømningsveier</a></li>
+<li class="lvl4"><a href="#jording-av-rrsystemer">Jording av rørsystemer</a></li>
+<li class="lvl4"><a href="#frakobling">Frakobling</a></li>
+<li class="lvl4"><a href="#elektriske-varmeanlegg-med-tvungen-luftsirkulasjon">Elektriske varmeanlegg med tvungen luftsirkulasjon</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-overstrmsvern">Tilgjengelighet til overstrømsvern</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-tavler-stativer-og-fordelingsskap">Tilgjengelighet til tavler, stativer og fordelingsskap</a></li>
+<li class="lvl4"><a href="#merking-av-pe-og-n-ledere">Merking av PE- og N-ledere</a></li>
+<li class="lvl4"><a href="#merking-av-betjeningsanordninger-for-kobling-i-ndstilfelle-inklusive-ndstopp">Merking av betjeningsanordninger for kobling i nødstilfelle (inklusive nødstopp)</a></li>
+<li class="lvl4"><a href="#jordledere-forlagt-i-jord">Jordledere forlagt i jord</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-strmtilfrsel-og-fordelingssystem">Medisinske områder – Strømtilførsel og fordelingssystem</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-ved-hjelp-av-automatisk-utkobling-av-strmforsyningen-i-tn-system">Medisinske områder – Beskyttelse ved hjelp av automatisk utkobling av strømforsyningen i TN-system</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-mot-elektrostatiske-utladninger">Medisinske områder – Beskyttelse mot elektrostatiske utladninger</a></li>
+<li class="lvl3"><a href="#2-elektriske-installasjoner-i-eksplosjonsfarlige-omrader-unntatt-gruver">2. Elektriske installasjoner i eksplosjonsfarlige områder (unntatt gruver)</a></li>
+<li class="lvl4"><a href="#bruk-av-rranlegg">Bruk av røranlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl2"><a href="#veiledning-til-forskrift-om-elektriske-lavspenningsanlegg">Veiledning til forskrift om elektriske lavspenningsanlegg.</a></li>
+<li class="lvl3"><a href="#forord_1">Forord</a></li>
+<li class="lvl4"><a href="#veiledning-til-1">Veiledning til § 1</a></li>
+<li class="lvl4"><a href="#veiledning-til-2">Veiledning til § 2</a></li>
+<li class="lvl4"><a href="#veiledning-til-6">Veiledning til § 6</a></li>
+<li class="lvl4"><a href="#veiledning-til-7">Veiledning til § 7</a></li>
+<li class="lvl4"><a href="#veiledning-til-8">Veiledning til § 8</a></li>
+<li class="lvl4"><a href="#veiledning-til-9">Veiledning til § 9</a></li>
+<li class="lvl4"><a href="#veiledning-til-10">Veiledning til § 10</a></li>
+<li class="lvl4"><a href="#veiledning-til-11">Veiledning til § 11</a></li>
+<li class="lvl4"><a href="#veiledning-til-12">Veiledning til § 12</a></li>
+<li class="lvl4"><a href="#veiledning-til-13">Veiledning til § 13</a></li>
+<li class="lvl4"><a href="#veiledning-til-14">Veiledning til § 14</a></li>
+<li class="lvl4"><a href="#veiledning-til-15">Veiledning til § 15</a></li>
+<li class="lvl4"><a href="#veiledning-til-16">Veiledning til § 16</a></li>
+<li class="lvl4"><a href="#veiledning-til-17">Veiledning til § 17</a></li>
+<li class="lvl4"><a href="#veiledning-til-18">Veiledning til § 18</a></li>
+<li class="lvl4"><a href="#veiledning-til-20">Veiledning til § 20</a></li>
+<li class="lvl4"><a href="#veiledning-til-21">Veiledning til § 21</a></li>
+<li class="lvl4"><a href="#veiledning-til-22">Veiledning til § 22</a></li>
+<li class="lvl4"><a href="#veiledning-til-23">Veiledning til § 23</a></li>
+<li class="lvl4"><a href="#veiledning-til-25">Veiledning til § 25</a></li>
+<li class="lvl4"><a href="#veiledning-til-26">Veiledning til § 26</a></li>
+<li class="lvl4"><a href="#veiledning-til-27">Veiledning til § 27</a></li>
+<li class="lvl4"><a href="#veiledning-til-31">Veiledning til § 31</a></li>
+<li class="lvl4"><a href="#veiledning-til-32">Veiledning til § 32</a></li>
+<li class="lvl4"><a href="#veiledning-til-33">Veiledning til § 33</a></li>
+<li class="lvl4"><a href="#veiledning-til-34">Veiledning til § 34</a></li>
+<li class="lvl4"><a href="#veiledning-til-35">Veiledning til § 35</a></li>
+<li class="lvl4"><a href="#veiledning-til-36">Veiledning til § 36</a></li>
+<li class="lvl4"><a href="#veiledning-til-38">Veiledning til § 38</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I.</a></li>
+<li class="lvl3"><a href="#nasjonale-tilpasninger">Nasjonale tilpasninger</a></li>
+<li class="lvl4"><a href="#tillatte-spenningssystemer_1">Tillatte spenningssystemer</a></li>
+<li class="lvl4"><a href="#belastning-av-pvc-isolert-kabel_1">Belastning av PVC-isolert kabel</a></li>
+<li class="lvl4"><a href="#it-system-bruk-av-n-leder_1">IT-system, bruk av N-leder</a></li>
+<li class="lvl4"><a href="#tt-system-bruk-av-vern_1">TT-system, bruk av vern</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-tilfrsel_1">Nødstrømforsyning, tilførsel</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-sikkerhetstiltak-mot-elektrisk-stt_1">Nødstrømforsyning, sikkerhetstiltak mot elektrisk støt</a></li>
+<li class="lvl4"><a href="#ledningsanlegg-i-rmningsveier_1">Ledningsanlegg i rømningsveier</a></li>
+<li class="lvl4"><a href="#jording-av-rrsystemer_1">Jording av rørsystemer</a></li>
+<li class="lvl4"><a href="#frakobling_1">Frakobling</a></li>
+<li class="lvl4"><a href="#elektriske-varmeanlegg-med-tvungen-luftsirkulasjon_1">Elektriske varmeanlegg med tvungen luftsirkulasjon</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-overstrmsvern_1">Tilgjengelighet til overstrømsvern</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-tavler-stativer-og-fordelingsskap_1">Tilgjengelighet til tavler, stativer og fordelingsskap</a></li>
+<li class="lvl4"><a href="#merking-av-pe-og-n-ledere_1">Merking av PE- og N-ledere</a></li>
+<li class="lvl4"><a href="#merking-av-betjeningsanordninger-for-kobling-i-ndstilfelle-inklusive-ndstopp_1">Merking av betjeningsanordninger for kobling i nødstilfelle (inklusive nødstopp)</a></li>
+<li class="lvl4"><a href="#jordledere-forlagt-i-jord_1">Jordledere forlagt i jord</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-strmtilfrsel-og-fordelingssystem_1">Medisinske områder – Strømtilførsel og fordelingssystem</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-ved-hjelp-av-automatisk-utkobling-av-strmforsyningen-i-tn-system_1">Medisinske områder – Beskyttelse ved hjelp av automatisk utkobling av strømforsyningen i TN-system</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-mot-elektrostatiske-utladninger_1">Medisinske områder – Beskyttelse mot elektrostatiske utladninger</a></li>
+<li class="lvl3"><a href="#nek-en-60079-14-elektriske-installasjoner-i-eksplosjonsfarlige-omrader-unntatt-gruver">NEK EN 60079-14 Elektriske installasjoner i eksplosjonsfarlige områder (unntatt gruver)</a></li>
+<li class="lvl4"><a href="#bruk-av-rranlegg_1">Bruk av røranlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii_1">Vedlegg II.</a></li>
+<li class="lvl3"><a href="#erklring-om-at-utfrelse-er-i-samsvar-med-forskrift-om-elektriske-lavspenningsanlegg-se-12">Erklæring om at utførelse er i samsvar med forskrift om elektriske lavspenningsanlegg (se § 12)</a></li>
+<li class="lvl4"><a href="#erklring-om-at-prosjektering-er-i-samsvar-med-forskrift-om-elektriske-lavspenningsanlegg-se-12">Erklæring om at prosjektering er i samsvar med forskrift om elektriske lavspenningsanlegg (se § 12)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2005-06-30-744.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1998-11-06-1060.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om elektriske lavspenningsanlegg</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1998-11-06-1060.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1998-11-06-1060 <code>forskrift/1998-11-06-1060</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om elektriske lavspenningsanlegg - FEL</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1999</td></tr>
+<tr><th>Sist endret</th><td>FOR-2005-06-30-744 <code>forskrift/2005-06-30-744</code> fra 30.06.2005</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1998-11-06-1060" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#forord">Forord</a></li>
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-tvangsmidler">§ 4. Tvangsmidler</a></li>
+<li class="lvl4"><a href="#5-straffebestemmelse">§ 5. Straffebestemmelse</a></li>
+<li class="lvl4"><a href="#6-ikrafttredelse-opphevelse-av-andre-forskrifter-overgangsbestemmelser">§ 6. Ikrafttredelse. Opphevelse av andre forskrifter. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-ii-administrative-bestemmelser">Kapittel II. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#7-tilsyn">§ 7. Tilsyn</a></li>
+<li class="lvl4"><a href="#8-klageadgang">§ 8. Klageadgang</a></li>
+<li class="lvl4"><a href="#9-ansvar-hvem-forskriften-retter-seg-mot">§ 9. Ansvar – Hvem forskriften retter seg mot</a></li>
+<li class="lvl4"><a href="#10-oppfyllelse-av-sikkerhetskrav">§ 10. Oppfyllelse av sikkerhetskrav</a></li>
+<li class="lvl4"><a href="#11-dispensasjon">§ 11. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-iii-dokumentasjon-informasjon-og-melding">Kapittel III. Dokumentasjon, informasjon og melding</a></li>
+<li class="lvl4"><a href="#12-kontroll-erklring-om-samsvar-dokumentasjon">§ 12. Kontroll. Erklæring om samsvar. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#13-oppbevaring-av-dokumentasjon">§ 13. Oppbevaring av dokumentasjon</a></li>
+<li class="lvl4"><a href="#14-melding">§ 14. Melding</a></li>
+<li class="lvl4"><a href="#15-melding-av-ulykkeruhell">§ 15. Melding av ulykker/uhell</a></li>
+<li class="lvl2"><a href="#kapittel-iv-planlegging-og-utfrelse">Kapittel IV. Planlegging og utførelse</a></li>
+<li class="lvl4"><a href="#16-planlegging-og-vurdering-av-risiko">§ 16. Planlegging og vurdering av risiko</a></li>
+<li class="lvl4"><a href="#17-tilgjengelighet-for-vedlikehold">§ 17. Tilgjengelighet for vedlikehold</a></li>
+<li class="lvl4"><a href="#18-fordelingssystem">§ 18. Fordelingssystem</a></li>
+<li class="lvl4"><a href="#19-jordingsanlegg">§ 19. Jordingsanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-v-sikkerhetskrav">Kapittel V. Sikkerhetskrav</a></li>
+<li class="lvl3"><a href="#vern-og-andre-beskyttelsestiltak">Vern og andre beskyttelsestiltak</a></li>
+<li class="lvl5"><a href="#20-beskyttelse-mot-elektriske-stt-ved-normal-bruk">§ 20. Beskyttelse mot elektriske støt ved normal bruk</a></li>
+<li class="lvl5"><a href="#21-beskyttelse-mot-elektrisk-stt-ved-feil">§ 21. Beskyttelse mot elektrisk støt ved feil</a></li>
+<li class="lvl5"><a href="#22-beskyttelse-mot-skadelige-termiske-virkninger">§ 22. Beskyttelse mot skadelige termiske virkninger</a></li>
+<li class="lvl5"><a href="#23-beskyttelse-mot-overstrm">§ 23. Beskyttelse mot overstrøm</a></li>
+<li class="lvl5"><a href="#24-beskyttelse-mot-feilstrmmer">§ 24. Beskyttelse mot feilstrømmer</a></li>
+<li class="lvl5"><a href="#25-beskyttelse-mot-overspenning">§ 25. Beskyttelse mot overspenning</a></li>
+<li class="lvl5"><a href="#26-beskyttelse-mot-underspenning">§ 26. Beskyttelse mot underspenning</a></li>
+<li class="lvl5"><a href="#27-beskyttelse-mot-spenningsfall-i-forbrukerens-anlegg">§ 27. Beskyttelse mot spenningsfall i forbrukerens anlegg</a></li>
+<li class="lvl5"><a href="#28-beskyttelse-mot-ytre-pavirkninger">§ 28. Beskyttelse mot ytre påvirkninger</a></li>
+<li class="lvl5"><a href="#29-ndutkobling">§ 29. Nødutkobling</a></li>
+<li class="lvl5"><a href="#30-utstyr-for-frakobling">§ 30. Utstyr for frakobling</a></li>
+<li class="lvl3"><a href="#avbrudd">Avbrudd</a></li>
+<li class="lvl5"><a href="#31-avbrudd-i-strmtilfrsel">§ 31. Avbrudd i strømtilførsel</a></li>
+<li class="lvl3"><a href="#merking">Merking</a></li>
+<li class="lvl5"><a href="#32-merking-av-kabler-vern-og-annet-materiell">§ 32. Merking av kabler, vern og annet materiell</a></li>
+<li class="lvl3"><a href="#elektromagnetiske-og-andre-elektriske-pavirkninger-av-omgivelsene">Elektromagnetiske og andre elektriske påvirkninger av omgivelsene</a></li>
+<li class="lvl5"><a href="#33-elektriske-og-elektromagnetiske-forstyrrelser">§ 33. Elektriske og elektromagnetiske forstyrrelser</a></li>
+<li class="lvl5"><a href="#34-beskyttelse-mot-innbyrdes-skadelige-pavirkninger-mellom-elektriske-og-ikke-elektriske-anlegg-anleggsdeler">§ 34. Beskyttelse mot innbyrdes skadelige påvirkninger mellom elektriske og ikke-elektriske anlegg (anleggsdeler)</a></li>
+<li class="lvl3"><a href="#bevaring-av-bygningsmessige-egenskaper">Bevaring av bygningsmessige egenskaper</a></li>
+<li class="lvl5"><a href="#35-bygningskonstruksjonens-mekaniske-og-brannsikkerhetsmessige-egenskaper">§ 35. Bygningskonstruksjonens mekaniske og brannsikkerhetsmessige egenskaper</a></li>
+<li class="lvl3"><a href="#elektrisk-utstyr-tilkoplet-lavspenningsanlegg">Elektrisk utstyr tilkoplet lavspenningsanlegg</a></li>
+<li class="lvl5"><a href="#36-anlegg-og-tilkobling">§ 36. Anlegg og tilkobling</a></li>
+<li class="lvl5"><a href="#37-egenskaper">§ 37. Egenskaper</a></li>
+<li class="lvl5"><a href="#38-tilkobling-med-bevegelige-ledninger">§ 38. Tilkobling med bevegelige ledninger</a></li>
+<li class="lvl2"><a href="#vedlegg-i-nasjonale-tilpasninger">Vedlegg I. Nasjonale tilpasninger</a></li>
+<li class="lvl3"><a href="#1-elektriske-lavspenningsinstallasjoner">1. Elektriske lavspenningsinstallasjoner</a></li>
+<li class="lvl4"><a href="#tillatte-spenningssystemer">Tillatte spenningssystemer</a></li>
+<li class="lvl4"><a href="#belastning-av-pvc-isolert-kabel">Belastning av PVC-isolert kabel</a></li>
+<li class="lvl4"><a href="#it-system-bruk-av-n-leder">IT-system, bruk av N-leder</a></li>
+<li class="lvl4"><a href="#tt-system-bruk-av-vern">TT-system, bruk av vern</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-tilfrsel">Nødstrømforsyning, tilførsel</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-sikkerhetstiltak-mot-elektrisk-stt">Nødstrømforsyning, sikkerhetstiltak mot elektrisk støt</a></li>
+<li class="lvl4"><a href="#ledningsanlegg-i-rmningsveier">Ledningsanlegg i rømningsveier</a></li>
+<li class="lvl4"><a href="#jording-av-rrsystemer">Jording av rørsystemer</a></li>
+<li class="lvl4"><a href="#frakobling">Frakobling</a></li>
+<li class="lvl4"><a href="#elektriske-varmeanlegg-med-tvungen-luftsirkulasjon">Elektriske varmeanlegg med tvungen luftsirkulasjon</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-overstrmsvern">Tilgjengelighet til overstrømsvern</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-tavler-stativer-og-fordelingsskap">Tilgjengelighet til tavler, stativer og fordelingsskap</a></li>
+<li class="lvl4"><a href="#merking-av-pe-og-n-ledere">Merking av PE- og N-ledere</a></li>
+<li class="lvl4"><a href="#merking-av-betjeningsanordninger-for-kobling-i-ndstilfelle-inklusive-ndstopp">Merking av betjeningsanordninger for kobling i nødstilfelle (inklusive nødstopp)</a></li>
+<li class="lvl4"><a href="#jordledere-forlagt-i-jord">Jordledere forlagt i jord</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-strmtilfrsel-og-fordelingssystem">Medisinske områder – Strømtilførsel og fordelingssystem</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-ved-hjelp-av-automatisk-utkobling-av-strmforsyningen-i-tn-system">Medisinske områder – Beskyttelse ved hjelp av automatisk utkobling av strømforsyningen i TN-system</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-mot-elektrostatiske-utladninger">Medisinske områder – Beskyttelse mot elektrostatiske utladninger</a></li>
+<li class="lvl3"><a href="#2-elektriske-installasjoner-i-eksplosjonsfarlige-omrader-unntatt-gruver">2. Elektriske installasjoner i eksplosjonsfarlige områder (unntatt gruver)</a></li>
+<li class="lvl4"><a href="#bruk-av-rranlegg">Bruk av røranlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii">Vedlegg II</a></li>
+<li class="lvl2"><a href="#veiledning-til-forskrift-om-elektriske-lavspenningsanlegg">Veiledning til forskrift om elektriske lavspenningsanlegg.</a></li>
+<li class="lvl3"><a href="#forord_1">Forord</a></li>
+<li class="lvl4"><a href="#veiledning-til-1">Veiledning til § 1</a></li>
+<li class="lvl4"><a href="#veiledning-til-2">Veiledning til § 2</a></li>
+<li class="lvl4"><a href="#veiledning-til-6">Veiledning til § 6</a></li>
+<li class="lvl4"><a href="#veiledning-til-7">Veiledning til § 7</a></li>
+<li class="lvl4"><a href="#veiledning-til-8">Veiledning til § 8</a></li>
+<li class="lvl4"><a href="#veiledning-til-9">Veiledning til § 9</a></li>
+<li class="lvl4"><a href="#veiledning-til-10">Veiledning til § 10</a></li>
+<li class="lvl4"><a href="#veiledning-til-11">Veiledning til § 11</a></li>
+<li class="lvl4"><a href="#veiledning-til-12">Veiledning til § 12</a></li>
+<li class="lvl4"><a href="#veiledning-til-13">Veiledning til § 13</a></li>
+<li class="lvl4"><a href="#veiledning-til-14">Veiledning til § 14</a></li>
+<li class="lvl4"><a href="#veiledning-til-15">Veiledning til § 15</a></li>
+<li class="lvl4"><a href="#veiledning-til-16">Veiledning til § 16</a></li>
+<li class="lvl4"><a href="#veiledning-til-17">Veiledning til § 17</a></li>
+<li class="lvl4"><a href="#veiledning-til-18">Veiledning til § 18</a></li>
+<li class="lvl4"><a href="#veiledning-til-20">Veiledning til § 20</a></li>
+<li class="lvl4"><a href="#veiledning-til-21">Veiledning til § 21</a></li>
+<li class="lvl4"><a href="#veiledning-til-22">Veiledning til § 22</a></li>
+<li class="lvl4"><a href="#veiledning-til-23">Veiledning til § 23</a></li>
+<li class="lvl4"><a href="#veiledning-til-25">Veiledning til § 25</a></li>
+<li class="lvl4"><a href="#veiledning-til-26">Veiledning til § 26</a></li>
+<li class="lvl4"><a href="#veiledning-til-27">Veiledning til § 27</a></li>
+<li class="lvl4"><a href="#veiledning-til-31">Veiledning til § 31</a></li>
+<li class="lvl4"><a href="#veiledning-til-32">Veiledning til § 32</a></li>
+<li class="lvl4"><a href="#veiledning-til-33">Veiledning til § 33</a></li>
+<li class="lvl4"><a href="#veiledning-til-34">Veiledning til § 34</a></li>
+<li class="lvl4"><a href="#veiledning-til-35">Veiledning til § 35</a></li>
+<li class="lvl4"><a href="#veiledning-til-36">Veiledning til § 36</a></li>
+<li class="lvl4"><a href="#veiledning-til-38">Veiledning til § 38</a></li>
+<li class="lvl2"><a href="#vedlegg-i">Vedlegg I.</a></li>
+<li class="lvl3"><a href="#nasjonale-tilpasninger">Nasjonale tilpasninger</a></li>
+<li class="lvl4"><a href="#tillatte-spenningssystemer_1">Tillatte spenningssystemer</a></li>
+<li class="lvl4"><a href="#belastning-av-pvc-isolert-kabel_1">Belastning av PVC-isolert kabel</a></li>
+<li class="lvl4"><a href="#it-system-bruk-av-n-leder_1">IT-system, bruk av N-leder</a></li>
+<li class="lvl4"><a href="#tt-system-bruk-av-vern_1">TT-system, bruk av vern</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-tilfrsel_1">Nødstrømforsyning, tilførsel</a></li>
+<li class="lvl4"><a href="#ndstrmforsyning-sikkerhetstiltak-mot-elektrisk-stt_1">Nødstrømforsyning, sikkerhetstiltak mot elektrisk støt</a></li>
+<li class="lvl4"><a href="#ledningsanlegg-i-rmningsveier_1">Ledningsanlegg i rømningsveier</a></li>
+<li class="lvl4"><a href="#jording-av-rrsystemer_1">Jording av rørsystemer</a></li>
+<li class="lvl4"><a href="#frakobling_1">Frakobling</a></li>
+<li class="lvl4"><a href="#elektriske-varmeanlegg-med-tvungen-luftsirkulasjon_1">Elektriske varmeanlegg med tvungen luftsirkulasjon</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-overstrmsvern_1">Tilgjengelighet til overstrømsvern</a></li>
+<li class="lvl4"><a href="#tilgjengelighet-til-tavler-stativer-og-fordelingsskap_1">Tilgjengelighet til tavler, stativer og fordelingsskap</a></li>
+<li class="lvl4"><a href="#merking-av-pe-og-n-ledere_1">Merking av PE- og N-ledere</a></li>
+<li class="lvl4"><a href="#merking-av-betjeningsanordninger-for-kobling-i-ndstilfelle-inklusive-ndstopp_1">Merking av betjeningsanordninger for kobling i nødstilfelle (inklusive nødstopp)</a></li>
+<li class="lvl4"><a href="#jordledere-forlagt-i-jord_1">Jordledere forlagt i jord</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-strmtilfrsel-og-fordelingssystem_1">Medisinske områder – Strømtilførsel og fordelingssystem</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-ved-hjelp-av-automatisk-utkobling-av-strmforsyningen-i-tn-system_1">Medisinske områder – Beskyttelse ved hjelp av automatisk utkobling av strømforsyningen i TN-system</a></li>
+<li class="lvl4"><a href="#medisinske-omrader-beskyttelse-mot-elektrostatiske-utladninger_1">Medisinske områder – Beskyttelse mot elektrostatiske utladninger</a></li>
+<li class="lvl3"><a href="#nek-en-60079-14-elektriske-installasjoner-i-eksplosjonsfarlige-omrader-unntatt-gruver">NEK EN 60079-14 Elektriske installasjoner i eksplosjonsfarlige områder (unntatt gruver)</a></li>
+<li class="lvl4"><a href="#bruk-av-rranlegg_1">Bruk av røranlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii_1">Vedlegg II.</a></li>
+<li class="lvl3"><a href="#erklring-om-at-utfrelse-er-i-samsvar-med-forskrift-om-elektriske-lavspenningsanlegg-se-12">Erklæring om at utførelse er i samsvar med forskrift om elektriske lavspenningsanlegg (se § 12)</a></li>
+<li class="lvl4"><a href="#erklring-om-at-prosjektering-er-i-samsvar-med-forskrift-om-elektriske-lavspenningsanlegg-se-12">Erklæring om at prosjektering er i samsvar med forskrift om elektriske lavspenningsanlegg (se § 12)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1998-11-06-1060.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1998-11-06-1060.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1998-11-06-1060.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1998-11-06-1060.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1998-11-06-1060.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1998-11-06-1060.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1998-11-06-1060.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1998-11-06-1060.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1998-11-06-1060.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-elektriske-lavspenningsanlegg">Forskrift om elektriske lavspenningsanlegg</h1>
 <h2 id="forord">Forord</h2>
 <p>Forskriften er fastsatt i medhold av lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg. Formålet med forskriften er å oppnå forsvarlig sikkerhet ved prosjektering, utførelse, endringer og vedlikehold av elektriske lavspenningsanlegg og ved bruk av utstyr tilkoplet slike anlegg.</p>
 <p>Forskriften erstatter forskrifter for elektriske bygningsinstallasjoner m.v. (feb) av 20. desember 1989 nr. 1430 og trer i kraft fra 1. januar 1999.</p>
@@ -125,22 +428,22 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>for øvrig er i slik stand at den etter sentral tilsynsmyndighets mening frembyr fare for menneskeliv, husdyr eller for skade på eiendom,</li>
 </ul>
 <p>kan sentral tilsynsmyndighet iverksette slike tiltak som nevnt i lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr § 6 og § 7 .</p>
-<p><em>Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h4 id="5-straffebestemmelse">§ 5. Straffebestemmelse</h4>
 <p>Overtredelse av forskriften eller vedtak fattet i medhold av denne straffes i henhold til lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr § 14 .</p>
 <h4 id="6-ikrafttredelse-opphevelse-av-andre-forskrifter-overgangsbestemmelser">§ 6. Ikrafttredelse. Opphevelse av andre forskrifter. Overgangsbestemmelser</h4>
 <p>Denne forskrift trer i kraft 1. januar 1999.</p>
 <p>Fra samme dato oppheves forskrift av 20. desember 1989 nr. 1430 for elektriske bygningsinstallasjoner m.m., unntatt bestemmelsene i § 810.</p>
 <p>Lavspenningsanlegg kan likevel prosjekteres etter de tekniske bestemmelsene i forskrift for elektriske bygningsinstallasjoner m.m. fram til 1. juli 1999.</p>
-<p><em>Endret ved forskrift 12 nov 1999 nr. 1155 .</em></p>
+<p class="note">Endret ved forskrift 12 nov 1999 nr. 1155 .</p>
 <h2 id="kapittel-ii-administrative-bestemmelser">Kapittel II. Administrative bestemmelser</h2>
 <h4 id="7-tilsyn">§ 7. Tilsyn</h4>
 <p>Sentral tilsynsmyndighet eller den sentral tilsynsmyndighet bemyndiger, fører tilsyn med etterlevelsen av denne forskrift.</p>
-<p><em>Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h4 id="8-klageadgang">§ 8. Klageadgang</h4>
 <p>Sentral tilsynsmyndighet er klageinstans for vedtak fattet av organ underlagt sentral tilsynsmyndighet.</p>
 <p>Departementet er klageinstans for vedtak fattet av sentral tilsynsmyndighet.</p>
-<p><em>Endret ved forskrifter 1 feb 2002 nr. 127 , 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 1 feb 2002 nr. 127 , 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h4 id="9-ansvar-hvem-forskriften-retter-seg-mot">§ 9. Ansvar – Hvem forskriften retter seg mot</h4>
 <p>Eier og bruker av anlegg som omfattes av denne forskrift skal sørge for at det blir foretatt nødvendig ettersyn og vedlikehold slik at anlegg til enhver tid tilfredsstiller sikkerhetskravene i kapittel V. Ved bruk og tilkobling av elektrisk utstyr til anlegg skal det vises aktsomhet slik at det ikke oppstår fare for liv eller eiendom.</p>
 <p>Enhver som prosjekterer, utfører, endrer eller foretar vedlikehold av anlegg, er ansvarlig for at arbeidet som foretas er i samsvar med forskriftens krav.</p>
@@ -151,7 +454,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Kombinasjoner av deler av normer skal unngås med mindre det kan dokumenteres at det oppnås et tilsvarende sikkerhetsnivå.</p>
 <h4 id="11-dispensasjon">§ 11. Dispensasjon</h4>
 <p>Sentral tilsynsmyndighet kan gi skriftlig dispensasjon fra denne forskriften dersom særlige forhold tilsier det.</p>
-<p><em>Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h2 id="kapittel-iii-dokumentasjon-informasjon-og-melding">Kapittel III. Dokumentasjon, informasjon og melding</h2>
 <h4 id="12-kontroll-erklring-om-samsvar-dokumentasjon">§ 12. Kontroll. Erklæring om samsvar. Dokumentasjon</h4>
 <p>Før nytt anlegg tas i bruk og etter hver endring skal den som er ansvarlig for utførelsen eller endringen av anlegget sørge for at det er kontrollert og prøvet for å sikre at det tilfredsstiller forskriftens krav.</p>
@@ -179,10 +482,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Anlegg i campingvogner, campingbiler o.l.</li>
 <li>Strømaggregater med ytelser høyst 10 kVA.</li>
 </ul>
-<p><em>Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h4 id="15-melding-av-ulykkeruhell">§ 15. Melding av ulykker/uhell</h4>
 <p>Personskader eller skader på anlegg eller eiendom som er forårsaket av elektrisitet, skal i hvert enkelt tilfelle meldes snarest mulig til sentral tilsynsmyndighet.</p>
-<p><em>Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</em></p>
+<p class="note">Endret ved forskrifter 10 juli 2002 nr. 810 , 6 nov 2003 nr. 1316 .</p>
 <h2 id="kapittel-iv-planlegging-og-utfrelse">Kapittel IV. Planlegging og utførelse</h2>
 <h4 id="16-planlegging-og-vurdering-av-risiko">§ 16. Planlegging og vurdering av risiko</h4>
 <p>Elektriske anlegg skal planlegges og utføres slik at mennesker, husdyr og eiendom er beskyttet mot fare og skader ved normal bruk og slik at anlegget blir egnet til den forutsatte bruk.</p>
@@ -572,6 +875,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Sted/dato Underskrift/Firmastempel</p>
 <p>Undertegnedes navn (blokkbokstaver): Stilling:</p>
 <hr />
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,161 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-02-14-199.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Narkotikaforskriften" href="../feeds/forskrift-2013-02-14-199.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Narkotikaforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-02-14-199</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-02-14</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-08-26-1682</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-02-14-199" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-narkotikalisten">§ 4. Narkotikalisten</a></li>
+<li class="lvl3"><a href="#5-forbudt-narkotika-srlige-kontrolltiltak">§ 5. Forbudt narkotika, særlige kontrolltiltak</a></li>
+<li class="lvl3"><a href="#6-industriell-bruk">§ 6. Industriell bruk</a></li>
+<li class="lvl3"><a href="#7-tilvirkning">§ 7. Tilvirkning</a></li>
+<li class="lvl3"><a href="#8-transport-lagring-og-handtering">§ 8. Transport, lagring og håndtering</a></li>
+<li class="lvl3"><a href="#9-innfrsel-og-utfrsel">§ 9. Innførsel og utførsel</a></li>
+<li class="lvl3"><a href="#10-unntak-fra-krav-om-inn-og-utfrselssertifikat">§ 10. Unntak fra krav om inn- og utførselssertifikat</a></li>
+<li class="lvl3"><a href="#11-transitt">§ 11. Transitt</a></li>
+<li class="lvl3"><a href="#12-virksomhetens-kontroll-med-lager-og-varebevegelser">§ 12. Virksomhetens kontroll med lager og varebevegelser</a></li>
+<li class="lvl3"><a href="#13-kvartalsvis-regnskapsplikt">§ 13. Kvartalsvis regnskapsplikt</a></li>
+<li class="lvl3"><a href="#14-arlig-regnskapsplikt">§ 14. Årlig regnskapsplikt</a></li>
+<li class="lvl3"><a href="#15-srskilt-rapporteringsplikt-for-tap-og-svinn">§ 15. Særskilt rapporteringsplikt for tap og svinn</a></li>
+<li class="lvl3"><a href="#16-tilsyn">§ 16. Tilsyn</a></li>
+<li class="lvl3"><a href="#17-tilbakekall-av-tillatelse">§ 17. Tilbakekall av tillatelse</a></li>
+<li class="lvl3"><a href="#18-gebyr">§ 18. Gebyr</a></li>
+<li class="lvl3"><a href="#18a-overtredelsesgebyr">§ 18a. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#19-medbringing-av-legemidler-med-innhold-av-narkotika-til-eget-personlig-medisinsk-bruk-for-reisende">§ 19. Medbringing av legemidler med innhold av narkotika til eget personlig, medisinsk bruk for reisende</a></li>
+<li class="lvl3"><a href="#20-legemidler-til-frstehjelpsformal">§ 20. Legemidler til førstehjelpsformål</a></li>
+<li class="lvl3"><a href="#21-ikrafttredelse">§ 21. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#22-endringer-i-andre-forskrifter">§ 22. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#narkotikalisten">Narkotikalisten</a></li>
+<li class="lvl3"><a href="#kjemiske-betegnelser">Kjemiske betegnelser</a></li>
+<li class="lvl3"><a href="#flgende-grupper-av-stoffer-regnes-ogsa-som-narkotika">Følgende grupper av stoffer regnes også som narkotika</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-08-26-1682.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-02-14-199.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om narkotika (narkotikaforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-02-14-199.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-02-14-199 <code>forskrift/2013-02-14-199</code></td></tr>
+<tr><th>Korttittel</th><td>Narkotikaforskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>14.02.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-08-26-1682 <code>forskrift/2026-08-26-1682</code> fra 01.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-02-14-199" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-narkotikalisten">§ 4. Narkotikalisten</a></li>
+<li class="lvl3"><a href="#5-forbudt-narkotika-srlige-kontrolltiltak">§ 5. Forbudt narkotika, særlige kontrolltiltak</a></li>
+<li class="lvl3"><a href="#6-industriell-bruk">§ 6. Industriell bruk</a></li>
+<li class="lvl3"><a href="#7-tilvirkning">§ 7. Tilvirkning</a></li>
+<li class="lvl3"><a href="#8-transport-lagring-og-handtering">§ 8. Transport, lagring og håndtering</a></li>
+<li class="lvl3"><a href="#9-innfrsel-og-utfrsel">§ 9. Innførsel og utførsel</a></li>
+<li class="lvl3"><a href="#10-unntak-fra-krav-om-inn-og-utfrselssertifikat">§ 10. Unntak fra krav om inn- og utførselssertifikat</a></li>
+<li class="lvl3"><a href="#11-transitt">§ 11. Transitt</a></li>
+<li class="lvl3"><a href="#12-virksomhetens-kontroll-med-lager-og-varebevegelser">§ 12. Virksomhetens kontroll med lager og varebevegelser</a></li>
+<li class="lvl3"><a href="#13-kvartalsvis-regnskapsplikt">§ 13. Kvartalsvis regnskapsplikt</a></li>
+<li class="lvl3"><a href="#14-arlig-regnskapsplikt">§ 14. Årlig regnskapsplikt</a></li>
+<li class="lvl3"><a href="#15-srskilt-rapporteringsplikt-for-tap-og-svinn">§ 15. Særskilt rapporteringsplikt for tap og svinn</a></li>
+<li class="lvl3"><a href="#16-tilsyn">§ 16. Tilsyn</a></li>
+<li class="lvl3"><a href="#17-tilbakekall-av-tillatelse">§ 17. Tilbakekall av tillatelse</a></li>
+<li class="lvl3"><a href="#18-gebyr">§ 18. Gebyr</a></li>
+<li class="lvl3"><a href="#18a-overtredelsesgebyr">§ 18a. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#19-medbringing-av-legemidler-med-innhold-av-narkotika-til-eget-personlig-medisinsk-bruk-for-reisende">§ 19. Medbringing av legemidler med innhold av narkotika til eget personlig, medisinsk bruk for reisende</a></li>
+<li class="lvl3"><a href="#20-legemidler-til-frstehjelpsformal">§ 20. Legemidler til førstehjelpsformål</a></li>
+<li class="lvl3"><a href="#21-ikrafttredelse">§ 21. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#22-endringer-i-andre-forskrifter">§ 22. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#narkotikalisten">Narkotikalisten</a></li>
+<li class="lvl3"><a href="#kjemiske-betegnelser">Kjemiske betegnelser</a></li>
+<li class="lvl3"><a href="#flgende-grupper-av-stoffer-regnes-ogsa-som-narkotika">Følgende grupper av stoffer regnes også som narkotika</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-02-14-199.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-02-14-199.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-02-14-199.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-02-14-199.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-02-14-199.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-02-14-199.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2013-02-14-199.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-02-14-199.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2013-02-14-199.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-narkotika-narkotikaforskriften">Forskrift om narkotika (narkotikaforskriften)</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med forskriften er å</p>
 <p>a. fastsette hva som er narkotika
@@ -86,7 +183,7 @@ c. sikre tilgang til nødvendige legemidler til medisinsk og vitenskapelig bruk.
 <p>Denne forskrift gjelder for tilvirkning, omsetning (salg, kjøp, annen overdragelse og mellommannsvirksomhet), innførsel, utførsel, gjennomførsel (transitt), utlevering, forsendelse, oppbevaring, besittelse og bruk av narkotika.</p>
 <p>Skip, luftfartøy eller annet transportmiddel i internasjonal trafikk som fører begrensede mengder narkotika mv. beregnet til førstehjelpsformål, eller til bruk i nødstilfelle under reise, er unntatt bestemmelsene i denne forskrift. Ambulanser (herunder ambulansehelikopter og ambulansefly) og andre utrykningskjøretøyer som er utstyrt med narkotiske legemidler for behandlingsformål og som krysser den norske grensen i forbindelse med utrykning, er unntatt fra kravene om tillatelse og sertifikat i forskriften § 9 .</p>
 <p>Lov 4. desember 1992 nr. 132 om legemidler m.v., og forskrifter gitt med hjemmel i denne, gjelder for narkotika.</p>
-<p><em>Endret ved forskrift 29 aug 2025 nr. 1758 .</em></p>
+<p class="note">Endret ved forskrift 29 aug 2025 nr. 1758 .</p>
 <h3 id="3-definisjoner">§ 3. Definisjoner</h3>
 <p>Som narkotika regnes</p>
 <p>a. stoffer, grupper av stoffer, droger, planter og sopper som er oppført i narkotikalisten, jf. § 4
@@ -102,14 +199,14 @@ c. blandinger (flytende, i fast form eller i gassfase) med innhold som nevnt i b
 <p>Departementet kan i forskrift eller ved enkeltvedtak gjøre unntak fra første ledd dersom det foreligger medisinske eller vitenskapelige behov.</p>
 <p>Gis unntak i henhold til annet ledd, kommer likevel forskriften § 9 til anvendelse.</p>
 <p>Denne bestemmelsen gjelder ikke for medbringing av legemidler med innhold av narkotika til eget personlig, medisinsk bruk for reisende jf. forskriften § 19 .</p>
-<p><em>Endret ved forskrift 28 sep 2015 nr. 1154 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 28 sep 2015 nr. 1154 (i kraft 1 jan 2016).</p>
 <h3 id="6-industriell-bruk">§ 6. Industriell bruk</h3>
 <p>Gammabutyrolakton og 1,4-butandiol kan tillates brukt industrielt dersom</p>
 <p>a. det endelige framstilte produkt ikke har, eller antas å ikke ha, psykoaktiv effekt og
 b. råvaren ikke kan, eller antas å ikke kunne, gjenvinnes fra det endelige produkt.</p>
 <p>Industriell bruk av gammabutyrolakton og 1,4-butandiol forutsetter tillatelse fra departementet.</p>
 <p>Alle bestemmelser i denne forskriften gjelder ved industriell bruk av gammabutyrolakton og 1,4-butandiol.</p>
-<p><em>Endret ved forskrift 9 april 2024 nr. 585 .</em></p>
+<p class="note">Endret ved forskrift 9 april 2024 nr. 585 .</p>
 <h3 id="7-tilvirkning">§ 7. Tilvirkning</h3>
 <p>Tilvirkning av narkotika krever tillatelse i henhold til lov 4. desember 1992 nr. 132 om legemidler m.v. § 23 første ledd. Dyrking av planter og sopper til framstilling av narkotika regnes som tilvirkning av narkotika.</p>
 <h3 id="8-transport-lagring-og-handtering">§ 8. Transport, lagring og håndtering</h3>
@@ -135,7 +232,7 @@ d. art og mengde narkotika.</p>
 <p>(9) Ved utførsel skal utførselssertifikatet vedlegges sendingen.</p>
 <p>(10) Den som innfører eller utfører narkotika skal sørge for at sendingen ikke blir liggende på tollager lenger enn nødvendig.</p>
 <p>(11) Den som innfører eller utfører narkotika skal påføre grensepasseringsdato og mengde narkotika som er innført eller utført på gjenpart av sertifikatet. Direktoratet for medisinske produkter kan kreve framlagt kopi av tolldeklarasjon og faktura for sendingen.</p>
-<p><em>Endret ved forskrifter 28 sep 2015 nr. 1154 (i kraft 1 jan 2016), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 28 sep 2015 nr. 1154 (i kraft 1 jan 2016), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="10-unntak-fra-krav-om-inn-og-utfrselssertifikat">§ 10. Unntak fra krav om inn- og utførselssertifikat</h3>
 <p>Narkotika som inngår i følgende blandinger er unntatt fra kravet om sertifikat:</p>
 <p>a. Blandinger med innhold av
@@ -167,7 +264,7 @@ h. Blandinger med innhold av
   - 10 % opium i pulver
   - 10 % ipecacuanhaerot, i pulver blandet med
   - 80 % hjelpestoffer.</p>
-<p><em>Endret ved forskrift 9 april 2024 nr. 585 .</em></p>
+<p class="note">Endret ved forskrift 9 april 2024 nr. 585 .</p>
 <h3 id="11-transitt">§ 11. Transitt</h3>
 <p>Ved transitt av narkotika som det kreves innførsels- eller utførselssertifikat for, skal gjenpart av utførselssertifikat, eller tilsvarende tillatelse fra vedkommende land, kunne framlegges. Departementet kan i særlige tilfeller hvor sertifikat eller tilsvarende tillatelse ikke følger sendingen likevel tillate transitt.</p>
 <p>Narkotika under transitt kan ikke omadresseres eller omdirigeres, og arten narkotika eller pakningen ikke forandres, uten særskilt tillatelse fra kompetent myndighet i avsender- og mottakerlandet.</p>
@@ -204,22 +301,22 @@ b. mengde brukt til tilvirkning.</p>
 <p>Ved tilvirkning av blandinger oppført i denne forskrift § 10 , skal regnskapet også opplyse om mengde stoff brukt i tilvirkningen.</p>
 <p>Frist for innlevering av årsregnskap er siste virkedag i februar påfølgende år. Regnskapet skal undertegnes av den i virksomheten som er gitt fullmakt til dette.</p>
 <p>Regnskap, med bilag, skal oppbevares i virksomheten i minst 10 år.</p>
-<p><em>Endret ved forskrift 21 nov 2021 nr. 3239 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 21 nov 2021 nr. 3239 (i kraft 1 jan 2022).</p>
 <h3 id="15-srskilt-rapporteringsplikt-for-tap-og-svinn">§ 15. Særskilt rapporteringsplikt for tap og svinn</h3>
 <p>Ved betydelig tap og svinn av narkotika, som tyveri, brannskade, vannskade eller brekkasje, skal virksomheten umiddelbart rapportere om dette til Direktoratet for medisinske produkter. I tillegg rapporteres etter forskriften § 14 annet ledd bokstav f) og g).</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="16-tilsyn">§ 16. Tilsyn</h3>
 <p>Direktoratet for medisinske produkter fører, med hjemmel i lov 4. desember 1992 nr. 132 om legemidler m.v. § 28, tilsyn med at bestemmelsene i forskriften overholdes.</p>
-<p><em>Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="17-tilbakekall-av-tillatelse">§ 17. Tilbakekall av tillatelse</h3>
 <p>Departementet kan tilbakekalle hele, eller deler av, tilvirker-, import- eller grossisttillatelsen dersom bestemmelser i denne forskrift ikke overholdes. Tilbakekall av tillatelse kan være midlertidig eller endelig. Departementet kan fastsette i vedtaket hva som skal gjøres med eventuelle lager av råvarer, halvfabrikata og preparater.</p>
 <h3 id="18-gebyr">§ 18. Gebyr</h3>
 <p>Direktoratet for medisinske produkter kan kreve gebyr på kr 1 300,– pr. sertifikat, for behandling av søknad om særskilt tillatelse (sertifikat) til innførsel og utførsel av narkotika.</p>
 <p>Direktoratet for medisinske produkter kan, når særlige grunner foreligger, sette ned eller frafalle krav om gebyr.</p>
-<p><em>Endret ved forskrifter 18 jan 2021 nr. 115 (i kraft 1 jan 2022), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 18 jan 2021 nr. 115 (i kraft 1 jan 2022), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="18a-overtredelsesgebyr">§ 18a. Overtredelsesgebyr</h3>
 <p>Direktoratet for medisinske produkter kan ved overtredelse av plikt til å levere regnskap etter § 13 og § 14 ilegge det ansvarlige foretaket overtredelsesgebyr. For utmålingen av overtredelsesgebyr gjelder legemiddelforskriften § 15-12 .</p>
-<p><em>Tilføyd ved forskrift 4 april 2022 nr. 524 , edret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 4 april 2022 nr. 524 , edret ved forskrift 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="19-medbringing-av-legemidler-med-innhold-av-narkotika-til-eget-personlig-medisinsk-bruk-for-reisende">§ 19. Medbringing av legemidler med innhold av narkotika til eget personlig, medisinsk bruk for reisende</h3>
 <p>Legemidler med innhold av narkotika kan, til eget personlig, medisinsk bruk, medbringes ved inn- eller utreise når</p>
 <p>a. legemidlene er rekvirert av lege eller tannlege
@@ -232,11 +329,11 @@ c. mengden medbrakt legemiddel ikke overstiger mengdebegrensningen som fremkomme
 <p>Ved utreise fra Norge til land utenfor Schengen-området, kan reisende medbringe legemidler med innhold av narkotika for mer enn én måneds forbruk dersom den reisende kan dokumentere, ved legeerklæring fra lege i Norge, sitt personlige medisinske behov for legemidlene.</p>
 <p>Ved reiser innen Schengen-området kan reisende bosatt i Schengen-området framlegge original Schengen-attest i stedet for dokumentasjon nevnt i første ledd. Attesten skal være utstedt av kompetent myndighet i landet den reisende er bosatt. For bosatte i Norge utstedes attesten av apotek.</p>
 <p>Tollmyndighetene kan kreve at den reisende legger fram dokumentasjon etter denne bestemmelsen. Dokumentasjonen må fremlegges på innreisetidspunktet.</p>
-<p><em>Endret ved forskrifter 28 sep 2015 nr. 1154 (i kraft 1 jan 2016), 18 jan 2021 nr. 115 (i kraft 1 juni 2021), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 28 sep 2015 nr. 1154 (i kraft 1 jan 2016), 18 jan 2021 nr. 115 (i kraft 1 juni 2021), 21 des 2023 nr. 2281 (i kraft 1 jan 2024).</p>
 <h3 id="20-legemidler-til-frstehjelpsformal">§ 20. Legemidler til førstehjelpsformål</h3>
 <p>Ved behov for legemidler til førstehjelpsformål kan Direktoratet for medisinske produkter gi tillatelse til å ta med eller sende legemidler med innhold av narkotika, uavhengig av kravene i forskriften § 9 . Ved behov for å motta legemidler med innhold av narkotika til førstehjelpsformål i en nasjonal krisesituasjon, kan Direktoratet for medisinske produkter gi tillatelse til import uavhengig av kravene om tillatelse og sertifikat i forskriften § 9 .</p>
 <p>Ved utenlandske militæravdelingers behov for å medbringe legemidler med innhold av narkotika til førstehjelpsformål i forbindelse med øvelse i Norge, kan Direktoratet for medisinske produkter gi tillatelse uavhengig av kravene i forskriften § 9 .</p>
-<p><em>Endret ved forskrift 29 aug 2025 nr. 1758 .</em></p>
+<p class="note">Endret ved forskrift 29 aug 2025 nr. 1758 .</p>
 <h3 id="21-ikrafttredelse">§ 21. Ikrafttredelse</h3>
 <p>Forskriften trer i kraft straks.</p>
 <p>Fra samme tid oppheves forskrift 30. juni 1978 nr. 8 om narkotika m.v. (Narkotikalisten).</p>
@@ -325,6 +422,8 @@ c. mengden medbrakt legemiddel ikke overstiger mengdebegrensningen som fremkomme
 </ol>
 <p>Enhver kjemisk forbindelse som er avledet av benzimidazol ved en eller flere av følgende endringer: Substitusjon på det alifatiske nitrogenatomet med enten H eller alkyl (R1) eller alkyl (R2). Nitrogenatomet kan også være inkludert i en syklisk struktur. Substitusjon på alfa-karbonet i benzylgruppen med enten H, alkyl eller karboksamid (R3). Substitusjon i 4-posisjon i benzylringen med enten H, alkoksy, hydroksy, halogen, alkyl, alkylthio eller acetoksy (R4). Substitusjon i benzimidazolringen med enten H, nitro, amino eller alkyl (R5).</p>
 <p>R 1 = H, alkyl. R 2 = alkyl. R 1 R 2 N kan også stå for en nitrogenheterosykel. R 3 = H, alkyl, karboksamid. R 4 = H, alkoksy, hydroksy, halogen, alkyl, alkylthio, acetoksy. R 5 = H, nitro, amino, alkyl.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,175 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-11-24-1458.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om havnestatskontroll" href="../feeds/forskrift-2014-11-24-1458.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om havnestatskontroll</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-11-24-1458</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2014-11-24</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-24-1309</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-11-24-1458" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-felles-og-innledende-bestemmelser">Kapittel 1. Felles og innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-konvensjonskrav">§ 2. Konvensjonskrav</a></li>
+<li class="lvl4"><a href="#3-passasjerskip-i-innenriksfart-i-norge">§ 3. Passasjerskip i innenriksfart i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-2-havnestatskontroll">Kapittel 2. Havnestatskontroll</a></li>
+<li class="lvl4"><a href="#4-gjennomfring-av-havnestatskontroll">§ 4. Gjennomføring av havnestatskontroll</a></li>
+<li class="lvl4"><a href="#4a-kontroll-av-utenlandske-fiskefarty">§ 4a. Kontroll av utenlandske fiskefartøy</a></li>
+<li class="lvl2"><a href="#kapittel-3-rederiet-og-skipsfrers-plikter">Kapittel 3. Rederiet og skipsførers plikter</a></li>
+<li class="lvl4"><a href="#5-plikt-til-a-melde-fra-om-skipets-planlagte-ankomst">§ 5. Plikt til å melde fra om skipets planlagte ankomst</a></li>
+<li class="lvl4"><a href="#6-melding-om-faktisk-ankomst-og-avgangstid">§ 6. Melding om faktisk ankomst- og avgangstid</a></li>
+<li class="lvl4"><a href="#7-plikt-til-a-sette-av-tid-til-utvidet-kontroll">§ 7. Plikt til å sette av tid til utvidet kontroll</a></li>
+<li class="lvl4"><a href="#8-plikt-til-a-sette-i-gang-tiltak">§ 8. Plikt til å sette i gang tiltak</a></li>
+<li class="lvl4"><a href="#9-utgifter-i-forbindelse-med-opphevelse-av-forvaltningstiltak">§ 9. Utgifter i forbindelse med opphevelse av forvaltningstiltak</a></li>
+<li class="lvl2"><a href="#kapittel-4-forvaltningstiltak">Kapittel 4. Forvaltningstiltak</a></li>
+<li class="lvl4"><a href="#10-tilbakeholdelse-og-stansing-av-operasjoner">§ 10. Tilbakeholdelse og stansing av operasjoner</a></li>
+<li class="lvl4"><a href="#11-anlpsforbud">§ 11. Anløpsforbud</a></li>
+<li class="lvl4"><a href="#12-anlpsforbudets-ikrafttredelse">§ 12. Anløpsforbudets ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-virkning-av-tilbakeholdelse-av-skip-med-tidligere-anlpsforbud">§ 13. Virkning av tilbakeholdelse av skip med tidligere anløpsforbud</a></li>
+<li class="lvl4"><a href="#14-permanent-anlpsforbud">§ 14. Permanent anløpsforbud</a></li>
+<li class="lvl4"><a href="#15-nektelse-av-adgang-til-havn-ved-brudd-pa-vilkar">§ 15. Nektelse av adgang til havn ved brudd på vilkår</a></li>
+<li class="lvl2"><a href="#kapittel-5-opphevelse-av-tilbakehold-stansing-av-operasjoner-og-anlpsforbud">Kapittel 5. Opphevelse av tilbakehold, stansing av operasjoner og anløpsforbud</a></li>
+<li class="lvl4"><a href="#16-opphevelse-av-tilbakehold-og-stansing-av-operasjoner">§ 16. Opphevelse av tilbakehold og stansing av operasjoner</a></li>
+<li class="lvl4"><a href="#17-opphevelse-av-frste-anlpsforbud">§ 17. Opphevelse av første anløpsforbud</a></li>
+<li class="lvl4"><a href="#18-opphevelse-av-andre-anlpsforbud">§ 18. Opphevelse av andre anløpsforbud</a></li>
+<li class="lvl4"><a href="#19-opphevelse-av-tredje-anlpsforbud">§ 19. Opphevelse av tredje anløpsforbud</a></li>
+<li class="lvl4"><a href="#20-opphevelse-av-nektelse-av-adgang-til-havn-i-medhold-av-15">§ 20. Opphevelse av nektelse av adgang til havn i medhold av§ 15</a></li>
+<li class="lvl2"><a href="#kapittel-6-bekymringsmeldinger-tips-og-rett-til-a-klage">Kapittel 6. Bekymringsmeldinger, tips og rett til å klage</a></li>
+<li class="lvl4"><a href="#21-adgang-til-a-paklage-vedtak">§ 21. Adgang til å påklage vedtak</a></li>
+<li class="lvl4"><a href="#22-bekymringsmeldinger">§ 22. Bekymringsmeldinger</a></li>
+<li class="lvl4"><a href="#23-adgang-til-a-klage-pa-brudd-pa-mlc">§ 23. Adgang til å klage på brudd på MLC</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse">§ 24. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-opphevelse-av-og-endring-av-andre-forskrifter">§ 25. Opphevelse av og endring av andre forskrifter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-24-1309.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-11-24-1458.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om havnestatskontroll</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-11-24-1458.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-11-24-1458 <code>forskrift/2014-11-24-1458</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>24.11.2014</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-24-1309 <code>forskrift/2025-06-24-1309</code> fra 01.08.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-11-24-1458" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-felles-og-innledende-bestemmelser">Kapittel 1. Felles og innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-konvensjonskrav">§ 2. Konvensjonskrav</a></li>
+<li class="lvl4"><a href="#3-passasjerskip-i-innenriksfart-i-norge">§ 3. Passasjerskip i innenriksfart i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-2-havnestatskontroll">Kapittel 2. Havnestatskontroll</a></li>
+<li class="lvl4"><a href="#4-gjennomfring-av-havnestatskontroll">§ 4. Gjennomføring av havnestatskontroll</a></li>
+<li class="lvl4"><a href="#4a-kontroll-av-utenlandske-fiskefarty">§ 4a. Kontroll av utenlandske fiskefartøy</a></li>
+<li class="lvl2"><a href="#kapittel-3-rederiet-og-skipsfrers-plikter">Kapittel 3. Rederiet og skipsførers plikter</a></li>
+<li class="lvl4"><a href="#5-plikt-til-a-melde-fra-om-skipets-planlagte-ankomst">§ 5. Plikt til å melde fra om skipets planlagte ankomst</a></li>
+<li class="lvl4"><a href="#6-melding-om-faktisk-ankomst-og-avgangstid">§ 6. Melding om faktisk ankomst- og avgangstid</a></li>
+<li class="lvl4"><a href="#7-plikt-til-a-sette-av-tid-til-utvidet-kontroll">§ 7. Plikt til å sette av tid til utvidet kontroll</a></li>
+<li class="lvl4"><a href="#8-plikt-til-a-sette-i-gang-tiltak">§ 8. Plikt til å sette i gang tiltak</a></li>
+<li class="lvl4"><a href="#9-utgifter-i-forbindelse-med-opphevelse-av-forvaltningstiltak">§ 9. Utgifter i forbindelse med opphevelse av forvaltningstiltak</a></li>
+<li class="lvl2"><a href="#kapittel-4-forvaltningstiltak">Kapittel 4. Forvaltningstiltak</a></li>
+<li class="lvl4"><a href="#10-tilbakeholdelse-og-stansing-av-operasjoner">§ 10. Tilbakeholdelse og stansing av operasjoner</a></li>
+<li class="lvl4"><a href="#11-anlpsforbud">§ 11. Anløpsforbud</a></li>
+<li class="lvl4"><a href="#12-anlpsforbudets-ikrafttredelse">§ 12. Anløpsforbudets ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-virkning-av-tilbakeholdelse-av-skip-med-tidligere-anlpsforbud">§ 13. Virkning av tilbakeholdelse av skip med tidligere anløpsforbud</a></li>
+<li class="lvl4"><a href="#14-permanent-anlpsforbud">§ 14. Permanent anløpsforbud</a></li>
+<li class="lvl4"><a href="#15-nektelse-av-adgang-til-havn-ved-brudd-pa-vilkar">§ 15. Nektelse av adgang til havn ved brudd på vilkår</a></li>
+<li class="lvl2"><a href="#kapittel-5-opphevelse-av-tilbakehold-stansing-av-operasjoner-og-anlpsforbud">Kapittel 5. Opphevelse av tilbakehold, stansing av operasjoner og anløpsforbud</a></li>
+<li class="lvl4"><a href="#16-opphevelse-av-tilbakehold-og-stansing-av-operasjoner">§ 16. Opphevelse av tilbakehold og stansing av operasjoner</a></li>
+<li class="lvl4"><a href="#17-opphevelse-av-frste-anlpsforbud">§ 17. Opphevelse av første anløpsforbud</a></li>
+<li class="lvl4"><a href="#18-opphevelse-av-andre-anlpsforbud">§ 18. Opphevelse av andre anløpsforbud</a></li>
+<li class="lvl4"><a href="#19-opphevelse-av-tredje-anlpsforbud">§ 19. Opphevelse av tredje anløpsforbud</a></li>
+<li class="lvl4"><a href="#20-opphevelse-av-nektelse-av-adgang-til-havn-i-medhold-av-15">§ 20. Opphevelse av nektelse av adgang til havn i medhold av§ 15</a></li>
+<li class="lvl2"><a href="#kapittel-6-bekymringsmeldinger-tips-og-rett-til-a-klage">Kapittel 6. Bekymringsmeldinger, tips og rett til å klage</a></li>
+<li class="lvl4"><a href="#21-adgang-til-a-paklage-vedtak">§ 21. Adgang til å påklage vedtak</a></li>
+<li class="lvl4"><a href="#22-bekymringsmeldinger">§ 22. Bekymringsmeldinger</a></li>
+<li class="lvl4"><a href="#23-adgang-til-a-klage-pa-brudd-pa-mlc">§ 23. Adgang til å klage på brudd på MLC</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#24-ikrafttredelse">§ 24. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#25-opphevelse-av-og-endring-av-andre-forskrifter">§ 25. Opphevelse av og endring av andre forskrifter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-11-24-1458.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-11-24-1458.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-11-24-1458.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-11-24-1458.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-11-24-1458.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-11-24-1458.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-11-24-1458.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-11-24-1458.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-11-24-1458.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-havnestatskontroll">Forskrift om havnestatskontroll</h1>
 <h2 id="kapittel-1-felles-og-innledende-bestemmelser">Kapittel 1. Felles og innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Forskriften gjelder for følgende utenlandske skip i næringsvirksomhet:</p>
@@ -85,7 +196,7 @@ b. passasjerskip
 c. flyttbare innretninger.</p>
 <p>For utenlandske fiskefartøy gjelder forskriften § 4a .</p>
 <p>Forskriften gjelder ikke for primitivt bygde treskip.</p>
-<p><em>Endret ved forskrift 1 juni 2017 nr. 692 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 1 juni 2017 nr. 692 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="2-konvensjonskrav">§ 2. Konvensjonskrav</h4>
 <p>Følgende konvensjoner med senere tilføyelser og endringer gjelder som forskrifter for skip som oppholder seg i norske farvann i den grad og så langt konvensjonen gjelder for skip som omfattes av forskriften her:</p>
 <p>a. Den internasjonale konvensjon om sikkerhet for menneskeliv til sjøs, 1974 ( SOLAS 74)
@@ -100,13 +211,13 @@ i. Den internasjonale konvensjon 2001 om erstatningsansvar for bunkersoljesølsk
 j. Den internasjonale konvensjon om sjøfolks arbeids- og levevilkår (Maritime Labour Convention – MLC)
 k. Den internasjonale konvensjon om kontroll og behandling av ballastvann og sedimenter fra skip, 2004
 l. Den internasjonale Hongkong-konvensjonen om sikker og miljømessig forsvarlig gjenvinning av skip, 2009.</p>
-<p><em>Endret ved forskrifter 8 sep 2017 nr. 1369 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 jan 2022 nr. 118 , 24 juni 2025 nr. 1338 (i kraft 26 juni 2025).</em></p>
+<p class="note">Endret ved forskrifter 8 sep 2017 nr. 1369 , 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 jan 2022 nr. 118 , 24 juni 2025 nr. 1338 (i kraft 26 juni 2025).</p>
 <h4 id="3-passasjerskip-i-innenriksfart-i-norge">§ 3. Passasjerskip i innenriksfart i Norge</h4>
 <p>Direktiv 2009/45/EF som endret ved direktiv 2010/36/EU , direktiv (EU) 2017/2108 , forordning (EU) 2020/411 og forordning (EU) 2022/1180 , gjelder med de presiseringer, unntak og tillegg som er fastsatt i norske forskrifter for</p>
 <p>a. passasjerskip i havområde A, B, C eller D i norske farvann med lengde (L) 24 meter eller mer
 b. hurtiggående passasjerfartøy med lengde (L) 24 meter eller mer.</p>
 <p>Passasjerskip, herunder hurtiggående passasjerfartøy, som ikke er omfattet av reglene i første ledd, skal ha dokumentasjon fra flaggstaten som viser at skipet holder samme sikkerhetsnivå som norske passasjerskip i tilsvarende fartsområde.</p>
-<p><em>Endret ved forskrifter 31 juli 2019 nr. 1036 (i kraft 1 jan 2020), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 31 juli 2019 nr. 1036 (i kraft 1 jan 2020), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-2-havnestatskontroll">Kapittel 2. Havnestatskontroll</h2>
 <h4 id="4-gjennomfring-av-havnestatskontroll">§ 4. Gjennomføring av havnestatskontroll</h4>
 <p>Havnestatskontroll gjennomføres etter direktiv 2009/16/EF som endret ved direktiv 2013/38/EU , forordning (EU) nr. 1257/2013 , forordning (EU) 2015/757 og direktiv (EU) 2017/2110 .</p>
@@ -115,10 +226,10 @@ b. hurtiggående passasjerfartøy med lengde (L) 24 meter eller mer.</p>
 b. EØS-avtalen vedlegg XIII nr. 56bd (forordning (EU) nr. 801/2010 ) om gjennomføring av artikkel 10.3 i Europaparlamentets og rådets direktiv 2009/16/EC for så vidt angår flaggstatskriteriene.
 c. EØS-avtalen vedlegg XIII nr. 56be (forordning (EU) nr. 802/2010 som endret ved forordning (EU) nr. 1205/2012 ) om gjennomføring av artikkel 10.3 og 27 i Europaparlamentets og rådets direktiv 2009/16/EF for så vidt angår rederiets prestasjoner.</p>
 <p>Forordningene gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til EØS- avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 1 juni 2017 nr. 692 , 6 des 2018 nr. 2299 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 1 juni 2017 nr. 692 , 6 des 2018 nr. 2299 , 15 sep 2021 nr. 3116 (i kraft 19 sep 2021), 24 juni 2025 nr. 1309 (i kraft 1 aug 2025).</p>
 <h4 id="4a-kontroll-av-utenlandske-fiskefarty">§ 4a. Kontroll av utenlandske fiskefartøy</h4>
 <p>Utenlandske fiskefartøy med største lengde 24 meter eller mer som anløper norsk havn, lander fangst i norsk havn, eller som fisker, fanger eller foredler levende ressurser i norsk territorialfarvann, kan kontrolleres i henhold til EØS-avtalen vedlegg XIII nr. 56g (direktiv 97/70/EF som endret ved direktiv 1999/19/EF , direktiv 2002/35/EF og direktiv 2002/84/EF ) om etablering av en harmonisert sikkerhetsordning for fiskefartøyer med en lengde på 24 meter og over.</p>
-<p><em>Tilføyd ved forskrift 1 juni 2017 nr. 692 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juni 2017 nr. 692 .</p>
 <h2 id="kapittel-3-rederiet-og-skipsfrers-plikter">Kapittel 3. Rederiet og skipsførers plikter</h2>
 <h4 id="5-plikt-til-a-melde-fra-om-skipets-planlagte-ankomst">§ 5. Plikt til å melde fra om skipets planlagte ankomst</h4>
 <p>Når et skip kan bli gjenstand for eller skal gjennomgå en utvidet kontroll plikter rederiet eller skipsfører å melde inn skipets planlagte ankomst til en norsk havn eller ankerplass i SafeSeaNet Norway senest tre døgn før forventet ankomst.</p>
@@ -137,13 +248,13 @@ h. dato for siste utvidede inspeksjon i Paris MOU- og EØS-området.</p>
 b. laste- og ballasttankenes tilstand: fullastede, tomme eller inerte
 c. lastemengde og type.</p>
 <p>Rederiet eller skipsfører skal så raskt som mulig underrette norske myndigheter i SafeSeaNet Norway ved endringer i den innmeldte seilingsplanen.</p>
-<p><em>Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="6-melding-om-faktisk-ankomst-og-avgangstid">§ 6. Melding om faktisk ankomst- og avgangstid</h4>
 <p>Rederiet eller skipsfører plikter senest innen 1 time etter ankomst å melde fra om skipets faktiske ankomsttidspunkt i SafeSeaNet Norway. Som ankomsttidspunkt regnes tidspunktet når fartøyet er fortøyd eller anker lagt ut.</p>
 <p>Rederiet eller skipsfører plikter senest innen 1 time etter at skipet har forlatt havn eller ankerplass å melde fra om skipets faktiske avgangstidspunkt i SafeSeaNet Norway.</p>
 <h4 id="7-plikt-til-a-sette-av-tid-til-utvidet-kontroll">§ 7. Plikt til å sette av tid til utvidet kontroll</h4>
 <p>Når et fartøy kan eller skal gjennomgå utvidet kontroll, plikter rederiet eller skipsføreren å sette av tilstrekkelig tid til at kontrollen kan gjennomføres. Med mindre sikkerheten krever at skipet foretar sikringstiltak i løpet av gjennomføringen av den utvidede kontrollen, skal rederiet sørge for at skipet blir liggende i havnen til kontrollen er gjennomført.</p>
-<p><em>Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h4 id="8-plikt-til-a-sette-i-gang-tiltak">§ 8. Plikt til å sette i gang tiltak</h4>
 <p>Når en inspeksjon er blitt utsatt etter § 4 jf. direktiv 2009/16/EF artikkel 19 nr. 5, skal rederiet eller skipsfører sørge for at nødvendige tiltak for å sikre at skipet oppfyller de relevante kravene i konvensjonene blir iverksatt.</p>
 <h4 id="9-utgifter-i-forbindelse-med-opphevelse-av-forvaltningstiltak">§ 9. Utgifter i forbindelse med opphevelse av forvaltningstiltak</h4>
@@ -151,7 +262,7 @@ c. lastemengde og type.</p>
 <p>a. en tilbakeholdelse
 b. et anløpsforbud.</p>
 <p>Rederiet skal dekke alle utgifter ved tilbakeholdelse i havnen.</p>
-<p><em>Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h2 id="kapittel-4-forvaltningstiltak">Kapittel 4. Forvaltningstiltak</h2>
 <h4 id="10-tilbakeholdelse-og-stansing-av-operasjoner">§ 10. Tilbakeholdelse og stansing av operasjoner</h4>
 <p>Skip som</p>
@@ -160,12 +271,12 @@ b. ikke oppfyller krav om å ha ferdsskriver
 c. har arbeids- og levevilkår som utgjør en åpenbar fare for arbeidstakernes sikkerhet og helse, eller
 d. har alvorlige og gjentatte brudd på MLC, herunder arbeidstakers rettigheter,</p>
 <p>vil bli tilbakeholdt eller få stanset operasjonen hvor mangelen ble påvist.</p>
-<p><em>Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="11-anlpsforbud">§ 11. Anløpsforbud</h4>
 <p>Skip nektes anløp til norske havner og ankerplasser hvis de seiler under flagget til en stat som står på</p>
 <p>a. Paris MOU sin svarteliste, og har vært tilbakeholdt eller fått utstedt forbud mot drift etter direktiv 1999/35/EF mer enn to ganger i løpet av de 36 foregående månedene i en havn eller på en ankerplass i en stat som har undertegnet Paris MOU, eller
 b. Paris MOU sin gråliste, og har vært tilbakeholdt eller fått utstedt forbud mot drift etter direktiv 1999/35/EF mer enn to ganger i løpet av de 24 foregående månedene i en havn eller på en ankerplass i en stat som har undertegnet Paris MOU.</p>
-<p><em>Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="12-anlpsforbudets-ikrafttredelse">§ 12. Anløpsforbudets ikrafttredelse</h4>
 <p>Rederiet plikter å sørge for at skip som får utstedt anløpsforbud retter manglene som er funnet under havnestatskontrollen før skipet forlater havn eller ankerplass.</p>
 <p>Anløpsforbudet trer i kraft når skipet har forlatt havn eller ankerplass hvor anløpsforbudet ble utstedt.</p>
@@ -180,7 +291,7 @@ b. Paris MOU sin gråliste, og har vært tilbakeholdt eller fått utstedt forbud
 <p>Skip som er tilbakeholdt og har fått tillatelse til å gå til reparasjonsverksted, nektes adgang til norske havner og ankerplasser når skipet</p>
 <p>a. forlater havn eller ankerplass uten at fastsatte vilkår for tillatelsen er oppfylt, eller
 b. ikke går direkte til angitt reparasjonsverksted.</p>
-<p><em>Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h2 id="kapittel-5-opphevelse-av-tilbakehold-stansing-av-operasjoner-og-anlpsforbud">Kapittel 5. Opphevelse av tilbakehold, stansing av operasjoner og anløpsforbud</h2>
 <h4 id="16-opphevelse-av-tilbakehold-og-stansing-av-operasjoner">§ 16. Opphevelse av tilbakehold og stansing av operasjoner</h4>
 <p>Tilbakeholdelsen eller stansingen av en operasjon vil ikke bli opphevet før Sjøfartsdirektoratet fastslår at skipet kan seile eller gjenoppta operasjon uten</p>
@@ -191,7 +302,7 @@ c. at det foreligger en urimelig trussel for skade på miljøet.</p>
 <p>Tilbakeholdelsen eller stansingen av en operasjon som skyldes brudd på MLC vil ikke bli opphevet før</p>
 <p>a. feil eller mangler er utbedret, eller
 b. Sjøfartsdirektoratet har godkjent skipets handlingsplan for korrigering av mangler og feil, og det er godtgjort at planen vil bli gjennomført snarest mulig.</p>
-<p><em>Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="17-opphevelse-av-frste-anlpsforbud">§ 17. Opphevelse av første anløpsforbud</h4>
 <p>Første anløpsforbud oppheves tidligst 3 måneder etter anløpsforbudet ble vedtatt.</p>
 <p>For å få opphevet anløpsforbudet må tidsfristen som er fastsatt for tidligste opphevelse være utløpt og rederiet må</p>
@@ -201,17 +312,17 @@ c. legge ved dokumentasjon fra skipets eventuelle klassifikasjonsselskap som bek
 d. dokumentere at det er gjennomført ny utvidet kontroll i en norsk havn, eller i en havn som Sjøfartsdirektoratet har godkjent, som bekrefter at skipet fullt ut oppfyller gjeldende konvensjonskrav
 e. ha foretatt full innbetaling, eller gitt tilstrekkelig garanti for refusjon, av utgiftene som den utvidede kontrollen medfører.</p>
 <p>Ved gjennomføring av ny kontroll i Norge skal rederiet, dennes representant i Norge eller skipsføreren begjære ny kontroll senest 14 dager før kontrollen ønskes gjennomført. Skipet skal ikke laste eller losse i havnen før kontrollen er utført og anløpsforbudet er opphevet.</p>
-<p><em>Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrift 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="18-opphevelse-av-andre-anlpsforbud">§ 18. Opphevelse av andre anløpsforbud</h4>
 <p>Når skipet er ilagt anløpsforbud for annen gang, er fristen for tidligste opphevelse tolv måneder regnet fra tidspunktet da vedtaket om andre anløpsforbud ble truffet. Anløpsforbudet kan ikke oppheves før vilkårene i § 17 andre og tredje ledd er oppfylt.</p>
-<p><em>Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 20 des 2017 nr. 2379 (i kraft 1 jan 2018).</p>
 <h4 id="19-opphevelse-av-tredje-anlpsforbud">§ 19. Opphevelse av tredje anløpsforbud</h4>
 <p>Når skipet er ilagt anløpsforbud for tredje gang, er fristen for tidligste opphevelse tjuefire måneder regnet fra tidspunktet da vedtaket om tredje anløpsforbud ble truffet. Anløpsforbudet kan ikke oppheves før rederiet har dokumentere at</p>
 <p>a. vilkårene i § 17 andre og tredje ledd er oppfylt
 b. skipet seiler under et flagg som på grunn av sin tilbakeholdelsesprosent verken står på Paris MOUs svarteliste eller gråliste
 c. skipets lovfestede sertifikat og eventuelt klassesertifikat er utstedt av en organisasjon eller organisasjoner som er anerkjent i samsvar med europaparlaments- og rådsforordning (EF) nr. 391/2009 av 23. april 2009 om felles regler og standarder for organisasjoner som skal inspisere og besikte skip
 d. skipet administreres av et rederi som har et høyt prestasjonsnivå i samsvar med bilag I, del I.1 til direktiv 2009/16/EF .</p>
-<p><em>Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</em></p>
+<p class="note">Endret ved forskrifter 20 des 2017 nr. 2379 (i kraft 1 jan 2018), 15 sep 2021 nr. 3116 (i kraft 19 sep 2021).</p>
 <h4 id="20-opphevelse-av-nektelse-av-adgang-til-havn-i-medhold-av-15">§ 20. Opphevelse av nektelse av adgang til havn i medhold av§ 15</h4>
 <p>Nektelse av adgang til havn ilagt i medhold av § 15 , oppheves når rederiet har forelagt dokumentasjon på at skipet fullt ut oppfyller alle gjeldende konvensjonskrav.</p>
 <h2 id="kapittel-6-bekymringsmeldinger-tips-og-rett-til-a-klage">Kapittel 6. Bekymringsmeldinger, tips og rett til å klage</h2>
@@ -227,6 +338,8 @@ d. skipet administreres av et rederi som har et høyt prestasjonsnivå i samsvar
 <p>Forskriften trer i kraft straks.</p>
 <h4 id="25-opphevelse-av-og-endring-av-andre-forskrifter">§ 25. Opphevelse av og endring av andre forskrifter</h4>
 <p>Forskrift 30. desember 2010 nr. 1849 om kontroll med fremmede skip og flyttbare innretninger i norsk havn mv. oppheves med virkning fra 24. november 2014.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,177 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-07-972.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om kapasitetsjusteringer for tillatelser" href="../feeds/forskrift-2022-06-07-972.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om kapasitetsjusteringer for tillatelser</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-06-07-972</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-06-07</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-10-06-1721</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-07-972" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl4"><a href="#3-produksjonsomrader-og-justering-av-tillatelseskapasitet">§ 3. Produksjonsområder og justering av tillatelseskapasitet</a></li>
+<li class="lvl2"><a href="#kapittel-2-utnyttelse-av-tillatelser-justering-av-kapasitet-og-registrering">Kapittel 2: Utnyttelse av tillatelser, justering av kapasitet og registrering</a></li>
+<li class="lvl4"><a href="#4-utnyttelse-og-justering-av-utnyttelse-av-tillatelseskapasitet">§ 4. Utnyttelse og justering av utnyttelse av tillatelseskapasitet</a></li>
+<li class="lvl4"><a href="#5-virkningstidspunkt-for-justering-av-kapasitet">§ 5. Virkningstidspunkt for justering av kapasitet</a></li>
+<li class="lvl4"><a href="#6-registrering-av-tillatelseskapasitet">§ 6. Registrering av tillatelseskapasitet</a></li>
+<li class="lvl2"><a href="#kapittel-3-tilbud-om-kt-tillatelseskapasitet-pa-eksisterende-tillatelser">Kapittel 3. Tilbud om økt tillatelseskapasitet på eksisterende tillatelser</a></li>
+<li class="lvl4"><a href="#7-virkeomrade">§ 7. Virkeområde</a></li>
+<li class="lvl4"><a href="#8-kunngjring-av-tilbud">§ 8. Kunngjøring av tilbud</a></li>
+<li class="lvl4"><a href="#9-kt-tillatelseskapasitet-pa-eksisterende-tillatelser">§ 9. Økt tillatelseskapasitet på eksisterende tillatelser</a></li>
+<li class="lvl4"><a href="#10-vederlag">§ 10. Vederlag</a></li>
+<li class="lvl4"><a href="#11-krav-til-sending-og-sknad">§ 11. Krav til sending og søknad</a></li>
+<li class="lvl4"><a href="#12-vedtak">§ 12. Vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilbud-om-kapasitetskning-uavhengig-av-miljstatus-i-produksjonsomrader-og-fastsettelse-av-tillatelseskapasitet-som-unntas-fra-nedjustering-i-rde-produksjonsomrader">Kapittel 4. Tilbud om kapasitetsøkning uavhengig av miljøstatus i produksjonsområder og fastsettelse av tillatelseskapasitet som unntas fra nedjustering i røde produksjonsområder</a></li>
+<li class="lvl4"><a href="#13-virkeomrade">§ 13. Virkeområde</a></li>
+<li class="lvl4"><a href="#14-kunngjring-av-tilbud">§ 14. Kunngjøring av tilbud</a></li>
+<li class="lvl4"><a href="#15-tilbud-om-kt-tillatelseskapasitet-uavhengig-av-miljstatus-i-produksjonsomradet">§ 15. Tilbud om økt tillatelseskapasitet uavhengig av miljøstatus i produksjonsområdet</a></li>
+<li class="lvl4"><a href="#16-krav-til-sending-og-sknad">§ 16. Krav til sending og søknad</a></li>
+<li class="lvl4"><a href="#17-saksbehandlingsgebyr">§ 17. Saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#18-innledende-saksbehandling-av-sknader">§ 18. Innledende saksbehandling av søknader</a></li>
+<li class="lvl4"><a href="#19-behandling-av-sknader">§ 19. Behandling av søknader</a></li>
+<li class="lvl4"><a href="#20-tilbud-om-kapasitetskning">§ 20. Tilbud om kapasitetsøkning</a></li>
+<li class="lvl4"><a href="#21-aksept-av-tilbud">§ 21. Aksept av tilbud</a></li>
+<li class="lvl4"><a href="#22-srskilt-om-klage-pa-tilbud">§ 22. Særskilt om klage på tilbud</a></li>
+<li class="lvl4"><a href="#23-beregning-av-tillatelseskapasitet-som-unntas-fra-nedjustering">§ 23. Beregning av tillatelseskapasitet som unntas fra nedjustering</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23a-frasigelse-av-kapasitetskning">§ 23a. Frasigelse av kapasitetsøkning</a></li>
+<li class="lvl4"><a href="#23b-ny-fastsettelse-av-vederlag-for-kapasitetskning-uavhengig-av-miljstatus-i-produksjonsomrader">§ 23b. Ny fastsettelse av vederlag for kapasitetsøkning uavhengig av miljøstatus i produksjonsområder</a></li>
+<li class="lvl4"><a href="#24-vilkar">§ 24. Vilkår</a></li>
+<li class="lvl4"><a href="#25-klage">§ 25. Klage</a></li>
+<li class="lvl4"><a href="#26-vilkar-for-a-reise-sak-for-domstolene-og-sksmalsfrist">§ 26. Vilkår for å reise sak for domstolene og søksmålsfrist</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse">§ 27. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-10-06-1721.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-07-972.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om kapasitetsjusteringer for tillatelser til akvakultur med matfisk i sjø av laks, ørret og regnbueørret i 2022</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-07-972.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-06-07-972 <code>forskrift/2022-06-07-972</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>07.06.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-10-06-1721 <code>forskrift/2022-10-06-1721</code> fra 06.10.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-07-972" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl4"><a href="#3-produksjonsomrader-og-justering-av-tillatelseskapasitet">§ 3. Produksjonsområder og justering av tillatelseskapasitet</a></li>
+<li class="lvl2"><a href="#kapittel-2-utnyttelse-av-tillatelser-justering-av-kapasitet-og-registrering">Kapittel 2: Utnyttelse av tillatelser, justering av kapasitet og registrering</a></li>
+<li class="lvl4"><a href="#4-utnyttelse-og-justering-av-utnyttelse-av-tillatelseskapasitet">§ 4. Utnyttelse og justering av utnyttelse av tillatelseskapasitet</a></li>
+<li class="lvl4"><a href="#5-virkningstidspunkt-for-justering-av-kapasitet">§ 5. Virkningstidspunkt for justering av kapasitet</a></li>
+<li class="lvl4"><a href="#6-registrering-av-tillatelseskapasitet">§ 6. Registrering av tillatelseskapasitet</a></li>
+<li class="lvl2"><a href="#kapittel-3-tilbud-om-kt-tillatelseskapasitet-pa-eksisterende-tillatelser">Kapittel 3. Tilbud om økt tillatelseskapasitet på eksisterende tillatelser</a></li>
+<li class="lvl4"><a href="#7-virkeomrade">§ 7. Virkeområde</a></li>
+<li class="lvl4"><a href="#8-kunngjring-av-tilbud">§ 8. Kunngjøring av tilbud</a></li>
+<li class="lvl4"><a href="#9-kt-tillatelseskapasitet-pa-eksisterende-tillatelser">§ 9. Økt tillatelseskapasitet på eksisterende tillatelser</a></li>
+<li class="lvl4"><a href="#10-vederlag">§ 10. Vederlag</a></li>
+<li class="lvl4"><a href="#11-krav-til-sending-og-sknad">§ 11. Krav til sending og søknad</a></li>
+<li class="lvl4"><a href="#12-vedtak">§ 12. Vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-4-tilbud-om-kapasitetskning-uavhengig-av-miljstatus-i-produksjonsomrader-og-fastsettelse-av-tillatelseskapasitet-som-unntas-fra-nedjustering-i-rde-produksjonsomrader">Kapittel 4. Tilbud om kapasitetsøkning uavhengig av miljøstatus i produksjonsområder og fastsettelse av tillatelseskapasitet som unntas fra nedjustering i røde produksjonsområder</a></li>
+<li class="lvl4"><a href="#13-virkeomrade">§ 13. Virkeområde</a></li>
+<li class="lvl4"><a href="#14-kunngjring-av-tilbud">§ 14. Kunngjøring av tilbud</a></li>
+<li class="lvl4"><a href="#15-tilbud-om-kt-tillatelseskapasitet-uavhengig-av-miljstatus-i-produksjonsomradet">§ 15. Tilbud om økt tillatelseskapasitet uavhengig av miljøstatus i produksjonsområdet</a></li>
+<li class="lvl4"><a href="#16-krav-til-sending-og-sknad">§ 16. Krav til sending og søknad</a></li>
+<li class="lvl4"><a href="#17-saksbehandlingsgebyr">§ 17. Saksbehandlingsgebyr</a></li>
+<li class="lvl4"><a href="#18-innledende-saksbehandling-av-sknader">§ 18. Innledende saksbehandling av søknader</a></li>
+<li class="lvl4"><a href="#19-behandling-av-sknader">§ 19. Behandling av søknader</a></li>
+<li class="lvl4"><a href="#20-tilbud-om-kapasitetskning">§ 20. Tilbud om kapasitetsøkning</a></li>
+<li class="lvl4"><a href="#21-aksept-av-tilbud">§ 21. Aksept av tilbud</a></li>
+<li class="lvl4"><a href="#22-srskilt-om-klage-pa-tilbud">§ 22. Særskilt om klage på tilbud</a></li>
+<li class="lvl4"><a href="#23-beregning-av-tillatelseskapasitet-som-unntas-fra-nedjustering">§ 23. Beregning av tillatelseskapasitet som unntas fra nedjustering</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#23a-frasigelse-av-kapasitetskning">§ 23a. Frasigelse av kapasitetsøkning</a></li>
+<li class="lvl4"><a href="#23b-ny-fastsettelse-av-vederlag-for-kapasitetskning-uavhengig-av-miljstatus-i-produksjonsomrader">§ 23b. Ny fastsettelse av vederlag for kapasitetsøkning uavhengig av miljøstatus i produksjonsområder</a></li>
+<li class="lvl4"><a href="#24-vilkar">§ 24. Vilkår</a></li>
+<li class="lvl4"><a href="#25-klage">§ 25. Klage</a></li>
+<li class="lvl4"><a href="#26-vilkar-for-a-reise-sak-for-domstolene-og-sksmalsfrist">§ 26. Vilkår for å reise sak for domstolene og søksmålsfrist</a></li>
+<li class="lvl4"><a href="#27-ikrafttredelse">§ 27. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-07-972.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-07-972.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-07-972.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-06-07-972.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-06-07-972.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-07-972.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-06-07-972.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-06-07-972.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-07-972.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-kapasitetsjusteringer-for-tillatelser-til-akvakultur-med-matfisk-i-sj-av-laks-rret-og-regnbuerret-i-2022">Forskrift om kapasitetsjusteringer for tillatelser til akvakultur med matfisk i sjø av laks, ørret og regnbueørret i 2022</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften skal fremme akvakulturnæringens lønnsomhet og konkurransekraft innenfor rammene av en miljømessig bærekraftig utvikling og bidra til verdiskaping på kysten.</p>
@@ -162,7 +275,7 @@ f. kvittering for innbetalt saksbehandlingsgebyr (gjelder ikke for søknad etter
 <p>Søknaden kan inneholde dokumentasjon på innehaverens MTB-utnyttelse innenfor dokumentasjonsperioden og innenfor produksjonsområdet som den aktuelle lokaliteten er hjemmehørende. Ved mangelfull eller manglende dokumentasjon på MTB-utnyttelse, kommer § 20 tredje ledd til anvendelse, jf. produksjonsområdeforskriften § 12 tredje ledd nr. 5.</p>
 <p>For lokaliteter i produksjonsområde 1 og 2 skal skjemaet sendes til Rogaland fylkeskommune, for produksjonsområde 3 og 4 skal det sendes Vestland fylkeskommune, for produksjonsområde 5 sendes det til Møre og Romsdal fylkeskommune, for produksjonsområdene 6 og 7 skal det sendes til Trøndelag fylkeskommune, for produksjonsområdene 8 og 9 skal det sendes til Nordland fylkeskommune, for produksjonsområdene 10, 11, 12 og 13 skal det sendes til Troms og Finnmark fylkeskommune.</p>
 <p>Dersom søknaden gjelder kapasitetsøkning, er det fylkeskommunen nevnt i femte ledd som skal utstede nytt tillatelsesdokument og føre endringene inn i akvakulturregisteret, dersom forutsetningene for dette ellers er tilstede.</p>
-<p><em>Endret ved forskrift forskrift 16 juni 2022 nr. 1058 .</em></p>
+<p class="note">Endret ved forskrift forskrift 16 juni 2022 nr. 1058 .</p>
 <h4 id="17-saksbehandlingsgebyr">§ 17. Saksbehandlingsgebyr</h4>
 <p>For behandling av søknad etter dette kapitlet skal det betales et saksbehandlingsgebyr på kroner 24 000. Det betales gebyr for hver lokalitet som skal vurderes.</p>
 <p>Første ledd gjelder ikke for søknader etter § 15 første ledd bokstav a.</p>
@@ -240,7 +353,7 @@ f. kvittering for innbetalt saksbehandlingsgebyr (gjelder ikke for søknad etter
 <li>refundere innbetalt vederlag for kapasitetsøkningen. Det tilståes ikke renter.</li>
 </ol>
 <p>Med mindre noe annet er særskilt bestemt i vedtaket, skal tilbaketrekking av tildelt tillatelseskapasitet etter denne bestemmelsen gjelde fra 25. oktober. Melding om frasigelse av kapasitetsøkning er bindende for innehaver av tillatelsen når Fiskeridirektoratet har mottatt signert, fysisk melding om frasigelse av kapasitetsøkning.</p>
-<p><em>Tilføyd ved forskrift 28 sep 2022 nr. 1671 .</em></p>
+<p class="note">Tilføyd ved forskrift 28 sep 2022 nr. 1671 .</p>
 <h4 id="23b-ny-fastsettelse-av-vederlag-for-kapasitetskning-uavhengig-av-miljstatus-i-produksjonsomrader">§ 23b. Ny fastsettelse av vederlag for kapasitetsøkning uavhengig av miljøstatus i produksjonsområder</h4>
 <p>Vederlag for tildelt økt tillatelseskapasitet uavhengig av miljøstatus i produksjonsområder etter reglene i kapittel 4 i denne forskrift fastsettes endelig etter at produksjonskapasitet til akvakultur med matfisk i sjø av laks, ørret og regnbueørret er tildelt gjennom auksjon.</p>
 <p>Vederlaget fastsettes, uten hensyn til § 10 , til det største av følgende alternativer:</p>
@@ -250,7 +363,7 @@ b. den laveste oppnådde klokkeprisen i auksjonen som klarerer et produksjonsomr
 <p>Eventuelt mellomlegg mellom allerede innbetalt vederlag og nytt fastsatt vederlag vil bli refundert og innehaver behøver ikke å foreta seg noe.</p>
 <p>Reglene i § 23a gjelder tilsvarende, med unntak av fristen for melding om frasigelse av kapasitetsøkning. For både fysisk og digital melding om frasigelse av tillatelseskapasitet uavhengig av miljøstatus i produksjonsområder er fristen 17. oktober kl. 15.00.</p>
 <p>Innehaver som har sendt inn melding om frasigelse etter reglene i § 23a kan, uten hensyn til § 23a siste ledd siste punktum, trekke meldingen ved å sende ny elektronisk melding til Fiskeridirektoratets postmottak med henvisning til referansenummer 20/7903 innen 10. oktober 2022 kl. 08.00.</p>
-<p><em>Tilføyd ved forskrift 6 okt 2022 nr. 1721 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 okt 2022 nr. 1721 .</p>
 <h4 id="24-vilkar">§ 24. Vilkår</h4>
 <p>Fylkeskommunen kan ikke sette særskilte vilkår for tildeling av økt kapasitet utover de som måtte fremgå av denne forskriften.</p>
 <p>Fylkeskommunene kan ikke sette særskilte vilkår i vedtak om fastsettelse av tillatelseskapasitet som skal unntas fra nedjustering utover de som måtte fremgå av denne forskriften.</p>
@@ -261,6 +374,8 @@ b. den laveste oppnådde klokkeprisen i auksjonen som klarerer et produksjonsomr
 <p>Mulig søksmål om forvaltningsvedtak etter denne forskriften er gyldig eller krav om erstatning som følge av vedtaket, skal tas ut innen seks måneder fra det tidspunkt da melding om endelig vedtak kom frem til vedkommende part. Det kan gis oppfriskning for oversittelse av fristen etter reglene i tvisteloven § 16-12 til § 16-14 .</p>
 <h4 id="27-ikrafttredelse">§ 27. Ikrafttredelse</h4>
 <p>Denne forskriften trer i kraft straks.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

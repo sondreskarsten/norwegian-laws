@@ -19,64 +19,155 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2020-06-23-99.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om tilskudd ved avbrutt permittering" href="../feeds/lov-2020-06-23-99.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Lov om tilskudd ved avbrutt permittering</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2020-06-23-99</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nSkatte- og avgiftsrett &raquo; Inntekts- og formueskatt &raquo; Skattesubjektene og skattepliktens omfang\nSkatte- og avgiftsrett &raquo; Skatteforvaltning\nHMS og beredskaps- og sikkerhetsrett &raquo; Beredskap</dd>
-<dt>Ikrafttredelse</dt><dd>2020-06-23</dd>
-<dt>Sist endret</dt><dd>lov/2025-04-25-12</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2020-06-23-99" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade-i-tid">§ 2. Virkeområde i tid</a></li>
+<li class="lvl3"><a href="#3-arbeidsgivere-som-kan-ske-om-tilskudd">§ 3. Arbeidsgivere som kan søke om tilskudd</a></li>
+<li class="lvl3"><a href="#4-svalbard">§ 4. Svalbard</a></li>
+<li class="lvl3"><a href="#5-vilkar-for-tilskudd">§ 5. Vilkår for tilskudd</a></li>
+<li class="lvl3"><a href="#6-beregning-av-tilskudd-for-2020">§ 6. Beregning av tilskudd for 2020</a></li>
+<li class="lvl3"><a href="#6a-beregning-av-tilskudd-for-2021">§ 6A. Beregning av tilskudd for 2021</a></li>
+<li class="lvl3"><a href="#7-generelle-forvaltningsregler">§ 7. Generelle forvaltningsregler</a></li>
+<li class="lvl3"><a href="#8-tilskuddsmyndighet-og-klageinstans">§ 8. Tilskuddsmyndighet og klageinstans</a></li>
+<li class="lvl3"><a href="#9-innhenting-av-opplysninger">§ 9. Innhenting av opplysninger</a></li>
+<li class="lvl3"><a href="#10-offentliggjring-av-opplysninger">§ 10. Offentliggjøring av opplysninger</a></li>
+<li class="lvl3"><a href="#11-sknad-om-tilskudd">§ 11. Søknad om tilskudd</a></li>
+<li class="lvl3"><a href="#12-opplysningsplikt-for-skeren">§ 12. Opplysningsplikt for søkeren</a></li>
+<li class="lvl3"><a href="#13-vedtak-om-tilskudd">§ 13. Vedtak om tilskudd</a></li>
+<li class="lvl3"><a href="#14-administrative-sanksjoner">§ 14. Administrative sanksjoner</a></li>
+<li class="lvl3"><a href="#15-straff">§ 15. Straff</a></li>
+<li class="lvl3"><a href="#16-kravsmyndighet-mv">§ 16. Kravsmyndighet mv.</a></li>
+<li class="lvl3"><a href="#17-forfall-for-utbetaling-av-tilskudd">§ 17. Forfall for utbetaling av tilskudd</a></li>
+<li class="lvl3"><a href="#18-tilbakebetaling-av-uriktig-utbetalt-tilskudd">§ 18. Tilbakebetaling av uriktig utbetalt tilskudd</a></li>
+<li class="lvl3"><a href="#19-forfall-for-krav-om-tilbakebetaling-og-administrativ-sanksjon">§ 19. Forfall for krav om tilbakebetaling og administrativ sanksjon</a></li>
+<li class="lvl3"><a href="#20-forsinkelsesrenter-ved-for-sen-betaling">§ 20. Forsinkelsesrenter ved for sen betaling</a></li>
+<li class="lvl3"><a href="#21-rentegodtgjrelse-ved-forsinket-utbetaling-av-tilskudd">§ 21. Rentegodtgjørelse ved forsinket utbetaling av tilskudd</a></li>
+<li class="lvl3"><a href="#22-lovens-ikrafttredelse-overgangsbestemmelser">§ 22. Lovens ikrafttredelse, overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-04-25-12.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-23-99.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om tilskudd ved avbrutt permittering (økonomiske tiltak i møte med virusutbruddet)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-06-23-99.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2020-06-23-99 <code>lov/2020-06-23-99</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om tilskudd ved avbrutt permittering</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nSkatte- og avgiftsrett &raquo; Inntekts- og formueskatt &raquo; Skattesubjektene og skattepliktens omfang\nSkatte- og avgiftsrett &raquo; Skatteforvaltning\nHMS og beredskaps- og sikkerhetsrett &raquo; Beredskap</td></tr>
+<tr><th>Ikrafttredelse</th><td>23.06.2020</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-04-25-12 <code>lov/2025-04-25-12</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2020-06-23-99" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade-i-tid">§ 2. Virkeområde i tid</a></li>
+<li class="lvl3"><a href="#3-arbeidsgivere-som-kan-ske-om-tilskudd">§ 3. Arbeidsgivere som kan søke om tilskudd</a></li>
+<li class="lvl3"><a href="#4-svalbard">§ 4. Svalbard</a></li>
+<li class="lvl3"><a href="#5-vilkar-for-tilskudd">§ 5. Vilkår for tilskudd</a></li>
+<li class="lvl3"><a href="#6-beregning-av-tilskudd-for-2020">§ 6. Beregning av tilskudd for 2020</a></li>
+<li class="lvl3"><a href="#6a-beregning-av-tilskudd-for-2021">§ 6A. Beregning av tilskudd for 2021</a></li>
+<li class="lvl3"><a href="#7-generelle-forvaltningsregler">§ 7. Generelle forvaltningsregler</a></li>
+<li class="lvl3"><a href="#8-tilskuddsmyndighet-og-klageinstans">§ 8. Tilskuddsmyndighet og klageinstans</a></li>
+<li class="lvl3"><a href="#9-innhenting-av-opplysninger">§ 9. Innhenting av opplysninger</a></li>
+<li class="lvl3"><a href="#10-offentliggjring-av-opplysninger">§ 10. Offentliggjøring av opplysninger</a></li>
+<li class="lvl3"><a href="#11-sknad-om-tilskudd">§ 11. Søknad om tilskudd</a></li>
+<li class="lvl3"><a href="#12-opplysningsplikt-for-skeren">§ 12. Opplysningsplikt for søkeren</a></li>
+<li class="lvl3"><a href="#13-vedtak-om-tilskudd">§ 13. Vedtak om tilskudd</a></li>
+<li class="lvl3"><a href="#14-administrative-sanksjoner">§ 14. Administrative sanksjoner</a></li>
+<li class="lvl3"><a href="#15-straff">§ 15. Straff</a></li>
+<li class="lvl3"><a href="#16-kravsmyndighet-mv">§ 16. Kravsmyndighet mv.</a></li>
+<li class="lvl3"><a href="#17-forfall-for-utbetaling-av-tilskudd">§ 17. Forfall for utbetaling av tilskudd</a></li>
+<li class="lvl3"><a href="#18-tilbakebetaling-av-uriktig-utbetalt-tilskudd">§ 18. Tilbakebetaling av uriktig utbetalt tilskudd</a></li>
+<li class="lvl3"><a href="#19-forfall-for-krav-om-tilbakebetaling-og-administrativ-sanksjon">§ 19. Forfall for krav om tilbakebetaling og administrativ sanksjon</a></li>
+<li class="lvl3"><a href="#20-forsinkelsesrenter-ved-for-sen-betaling">§ 20. Forsinkelsesrenter ved for sen betaling</a></li>
+<li class="lvl3"><a href="#21-rentegodtgjrelse-ved-forsinket-utbetaling-av-tilskudd">§ 21. Rentegodtgjørelse ved forsinket utbetaling av tilskudd</a></li>
+<li class="lvl3"><a href="#22-lovens-ikrafttredelse-overgangsbestemmelser">§ 22. Lovens ikrafttredelse, overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-23-99.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-06-23-99.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-06-23-99.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2020-06-23-99.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2020-06-23-99.html">Observerte kildeutgaver</a> · <a href="../historie/tilskudd-ved-avbrutt-permittering.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2020-06-23-99.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2020-06-23-99.html">Observerte kildeutgaver</a> · <a href="../historie/tilskudd-ved-avbrutt-permittering.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2020-06-23-99.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-tilskudd-ved-avbrutt-permittering-konomiske-tiltak-i-mte-med-virusutbruddet">Lov om tilskudd ved avbrutt permittering (økonomiske tiltak i møte med virusutbruddet)</h1>
 <h3 id="1-lovens-formal">§ 1. Lovens formål</h3>
 <p>Formålet med loven er å etablere en midlertidig ordning for tilskudd til arbeidsgivere som tar egne permitterte tilbake i arbeid.</p>
 <h3 id="2-virkeomrade-i-tid">§ 2. Virkeområde i tid</h3>
@@ -85,7 +176,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>a. juli og august, eller en av disse månedene, eller
 b. oktober, november og desember, eller en av disse månedene.</p>
 <p>(3) For 2021 kan arbeidsgivere søke om tilskudd for den enkelte ansatte for perioden 15. mars til 31. august.</p>
-<p><em>Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 , 18 juni 2021 nr. 111 .</em></p>
+<p class="note">Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 , 18 juni 2021 nr. 111 .</p>
 <h3 id="3-arbeidsgivere-som-kan-ske-om-tilskudd">§ 3. Arbeidsgivere som kan søke om tilskudd</h3>
 <p>Tilskuddsordningen gjelder for følgende arbeidsgivere:</p>
 <p>a. Enkeltpersonforetak og selskap
@@ -103,7 +194,7 @@ c. enkeltpersonforetak og selskap ha hatt et omsetningsfall på mer enn 10 prose
 <p>(5) Søkeren må utøve lovlig aktivitet.</p>
 <p>(6) Søkeren må ikke være under konkursbehandling.</p>
 <p>(7) Departementet kan gi forskrift til utfylling av denne paragrafen og fastsette nærmere vilkår for tilskudd. Departementet kan herunder gi regler som begrenser arbeidsgivers adgang til å gjennomføre nye permitteringer, oppsigelser eller arbeidstidsreduksjoner i perioden 28. mai til 1. januar 2021 og 5. mars til 31. august 2021.</p>
-<p><em>Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 , 18 juni 2021 nr. 111 .</em></p>
+<p class="note">Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 , 18 juni 2021 nr. 111 .</p>
 <h3 id="6-beregning-av-tilskudd-for-2020">§ 6. Beregning av tilskudd for 2020</h3>
 <p>(1) Enkeltpersonforetak og selskap som har hatt et omsetningsfall på minst 30 prosent, gis tilskudd med 15 000 kroner per måned per fulltidsansatt som tas tilbake fra permittering.</p>
 <p>(2) For enkeltpersonforetak og selskap som har hatt et omsetningsfall på mindre enn 30 prosent, beregnes tilskudd per måned per fulltidsansatt til 75 000 kroner multiplisert med prosentvis omsetningsfall fratrukket 10 prosentenheter.</p>
@@ -113,7 +204,7 @@ c. enkeltpersonforetak og selskap ha hatt et omsetningsfall på mer enn 10 prose
 <p>a. 28. mai 2020 for tilskudd for juli og august eller en av disse månedene
 b. 31. august 2020 for tilskudd for oktober, november og desember eller en av disse månedene.</p>
 <p>(6) For lærlinger beregnes tilskudd etter første til femte ledd, men begrenset oppad til 10 000 kroner.</p>
-<p><em>Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 .</em></p>
+<p class="note">Endret ved lover 23 okt 2020 nr. 117 , 26 mars 2021 nr. 13 .</p>
 <h3 id="6a-beregning-av-tilskudd-for-2021">§ 6A. Beregning av tilskudd for 2021</h3>
 <p>(1) Enkeltpersonforetak og selskap som har hatt et omsetningsfall på minst 70 prosent, gis tilskudd med 25 000 kroner per måned per fulltidsansatt som tas tilbake fra permittering.</p>
 <p>(2) For enkeltpersonforetak og selskap med omsetningsfall på mindre enn 70 prosent, avkortes tilskuddet på 25 000 kroner per måned per fulltidsansatt som tas tilbake fra permittering. Tilskuddet avkortes lineært ned til 10 000 kroner for omsetningsfall på 15 prosent.</p>
@@ -125,7 +216,7 @@ b. reduksjon i permitteringsgrad
 c. hvor stor andel av perioden 15. mars til 31. august 2021 den ansatte har vært i arbeid, begrenset oppad til 108 dager.</p>
 <p>(6) For lærlinger beregnes tilskudd etter første til femte ledd, men begrenset oppad til 15 000 kroner.</p>
 <p>(7) Departementet kan gi forskrift til utfylling av §§ 6 og 6A , herunder om beregning av omsetning og omsetningsfall. Departementet kan fastsette øvre grenser for tilskudd for deler av eller hele perioden tilskuddsordningen gjelder, for det enkelte foretak og samlet for konsern. Departementet kan også gi nærmere regler om avkortning av støtten ved deltidsansettelse, reduksjon av arbeidstiden, ferieavvikling, permittering og oppsigelse, samt gi regler om avkortning av støtten ved uforholdsmessig lav utbetaling til ansatte.</p>
-<p><em>Tilføyd ved lov 26 mars 2021 nr. 13 , endret ved lov 18 juni 2021 nr. 111 .</em></p>
+<p class="note">Tilføyd ved lov 26 mars 2021 nr. 13 , endret ved lov 18 juni 2021 nr. 111 .</p>
 <h3 id="7-generelle-forvaltningsregler">§ 7. Generelle forvaltningsregler</h3>
 <p>(1) Med de særreglene som er gitt i §§ 8 til 18 , gjelder <a href="lov-2016-05-27-14.html">skatteforvaltningsloven</a> så langt den passer for behandling av saker etter denne loven. <a href="lov-2025-06-20-81.html">Forvaltningsloven</a> gjelder ikke for behandling av saker etter denne loven, med unntak av forvaltningsloven kapittel VII om forskrifter.</p>
 <p>(2) Departementet kan gi forskrift om forvaltningsregler som skal gjelde for behandling av saker etter denne loven, herunder utfylle og fravike reglene i skatteforvaltningsloven.</p>
@@ -157,7 +248,7 @@ c. hvor stor andel av perioden 15. mars til 31. august 2021 den ansatte har vær
 <h3 id="16-kravsmyndighet-mv">§ 16. Kravsmyndighet mv.</h3>
 <p>(1) Krav på tilbakebetaling av uriktig utbetalt tilskudd og administrative sanksjoner betales til og innkreves av Innkrevingsmyndigheten.</p>
 <p>(2) Departementet kan i forskrift utfylle og fravike regler om betaling av tilskudd etter denne loven, herunder om krav på tilbakebetaling og innkreving av utbetalt tilskudd og administrative sanksjoner og om renter. Departementet kan også gi forskrift om hvem som er kravsmyndighet.</p>
-<p><em>Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h3 id="17-forfall-for-utbetaling-av-tilskudd">§ 17. Forfall for utbetaling av tilskudd</h3>
 <p>Utbetaling av tilskudd skal skje snarest og senest tre uker etter at det er fattet vedtak om utbetaling av tilskudd.</p>
 <h3 id="18-tilbakebetaling-av-uriktig-utbetalt-tilskudd">§ 18. Tilbakebetaling av uriktig utbetalt tilskudd</h3>
@@ -173,6 +264,8 @@ c. hvor stor andel av perioden 15. mars til 31. august 2021 den ansatte har vær
 <h3 id="22-lovens-ikrafttredelse-overgangsbestemmelser">§ 22. Lovens ikrafttredelse, overgangsbestemmelser</h3>
 <p>(1) Loven trer i kraft straks.</p>
 <p>(2) Departementet kan gi forskrift om overgangsbestemmelser.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,279 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1962-03-23-2.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-utenriksdepartementet.html">Utenriksdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-utenriksdepartementet.html">Utenriksdepartementet</a> &rsaquo;
 <span>Helsingforsavtalen</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1962-03-23-2</code></dd>
-<dt>Departement</dt><dd>Utenriksdepartementet</dd>
-<dt>Rettsområde</dt><dd>Internasjonal rett &raquo; Konvensjoner. Overenskomster</dd>
-<dt>Ikrafttredelse</dt><dd>1962-07-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1962-03-23-2" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#preambel">Preambel</a></li>
+<li class="lvl2"><a href="#innledende-bestemmelse">Innledende bestemmelse</a></li>
+<li class="lvl4"><a href="#art-1">Art 1</a></li>
+<li class="lvl2"><a href="#rettslig-samarbeid">Rettslig samarbeid</a></li>
+<li class="lvl4"><a href="#art-2">Art 2</a></li>
+<li class="lvl4"><a href="#art-3">Art 3</a></li>
+<li class="lvl4"><a href="#art-4">Art 4</a></li>
+<li class="lvl4"><a href="#art-5">Art 5</a></li>
+<li class="lvl4"><a href="#art-6">Art 6</a></li>
+<li class="lvl4"><a href="#art-7">Art 7</a></li>
+<li class="lvl2"><a href="#kulturelt-samarbeid">Kulturelt samarbeid</a></li>
+<li class="lvl4"><a href="#art-8">Art 8</a></li>
+<li class="lvl4"><a href="#art-9">Art 9</a></li>
+<li class="lvl4"><a href="#art-10">Art 10</a></li>
+<li class="lvl4"><a href="#art-11">Art 11</a></li>
+<li class="lvl4"><a href="#art-12">Art 12</a></li>
+<li class="lvl4"><a href="#art-13">Art 13</a></li>
+<li class="lvl2"><a href="#sosialt-samarbeid">Sosialt samarbeid</a></li>
+<li class="lvl4"><a href="#art-14">Art 14</a></li>
+<li class="lvl4"><a href="#art-15">Art 15</a></li>
+<li class="lvl4"><a href="#art-16">Art 16</a></li>
+<li class="lvl4"><a href="#art-17">Art 17</a></li>
+<li class="lvl2"><a href="#konomisk-samarbeid">Økonomisk samarbeid</a></li>
+<li class="lvl4"><a href="#art-18">Art 18</a></li>
+<li class="lvl4"><a href="#art-19">Art 19</a></li>
+<li class="lvl4"><a href="#art-20">Art 20</a></li>
+<li class="lvl4"><a href="#art-21">Art 21</a></li>
+<li class="lvl4"><a href="#art-22">Art 22</a></li>
+<li class="lvl4"><a href="#art-23">Art 23</a></li>
+<li class="lvl4"><a href="#art-24">Art 24</a></li>
+<li class="lvl4"><a href="#art-25">Art 25</a></li>
+<li class="lvl2"><a href="#samarbeid-pa-samferdselens-omrade">Samarbeid på samferdselens område</a></li>
+<li class="lvl4"><a href="#art-26">Art 26</a></li>
+<li class="lvl4"><a href="#art-27">Art 27</a></li>
+<li class="lvl4"><a href="#art-28">Art 28</a></li>
+<li class="lvl4"><a href="#art-29">Art 29</a></li>
+<li class="lvl2"><a href="#samarbeid-pa-miljvernomradet">Samarbeid på miljøvernområdet</a></li>
+<li class="lvl4"><a href="#art-30">Art 30</a></li>
+<li class="lvl4"><a href="#art-31">Art 31</a></li>
+<li class="lvl4"><a href="#art-32">Art 32</a></li>
+<li class="lvl2"><a href="#annet-samarbeid">Annet samarbeid</a></li>
+<li class="lvl4"><a href="#art-33">Art 33</a></li>
+<li class="lvl4"><a href="#art-34">Art 34</a></li>
+<li class="lvl4"><a href="#art-35">Art 35</a></li>
+<li class="lvl4"><a href="#art-36">Art 36</a></li>
+<li class="lvl4"><a href="#art-37">Art 37</a></li>
+<li class="lvl2"><a href="#srlige-avtaler">Særlige avtaler</a></li>
+<li class="lvl4"><a href="#art-38">Art 38</a></li>
+<li class="lvl2"><a href="#formene-for-nordisk-samarbeid">Formene for nordisk samarbeid</a></li>
+<li class="lvl4"><a href="#art-39">Art 39</a></li>
+<li class="lvl4"><a href="#art-40">Art 40</a></li>
+<li class="lvl4"><a href="#art-41">Art 41</a></li>
+<li class="lvl4"><a href="#art-42">Art 42</a></li>
+<li class="lvl4"><a href="#art-43">Art 43</a></li>
+<li class="lvl2"><a href="#nordisk-rad">Nordisk Råd</a></li>
+<li class="lvl4"><a href="#art-44">Art 44</a></li>
+<li class="lvl4"><a href="#art-45">Art 45</a></li>
+<li class="lvl4"><a href="#art-46">Art 46</a></li>
+<li class="lvl4"><a href="#art-47">Art 47</a></li>
+<li class="lvl4"><a href="#art-48">Art 48</a></li>
+<li class="lvl4"><a href="#art-49">Art 49</a></li>
+<li class="lvl4"><a href="#art-50">Art 50</a></li>
+<li class="lvl4"><a href="#art-51">Art 51</a></li>
+<li class="lvl4"><a href="#art-52">Art 52</a></li>
+<li class="lvl4"><a href="#art-53">Art 53</a></li>
+<li class="lvl4"><a href="#art-54">Art 54</a></li>
+<li class="lvl4"><a href="#art-55">Art 55</a></li>
+<li class="lvl4"><a href="#art-56">Art 56</a></li>
+<li class="lvl4"><a href="#art-57">Art 57</a></li>
+<li class="lvl4"><a href="#art-58">Art 58</a></li>
+<li class="lvl4"><a href="#art-59">Art 59</a></li>
+<li class="lvl2"><a href="#nordisk-ministerrad">Nordisk ministerråd</a></li>
+<li class="lvl4"><a href="#art-60">Art 60</a></li>
+<li class="lvl4"><a href="#art-61">Art 61</a></li>
+<li class="lvl4"><a href="#art-62">Art 62</a></li>
+<li class="lvl4"><a href="#art-63">Art 63</a></li>
+<li class="lvl4"><a href="#art-64">Art 64</a></li>
+<li class="lvl4"><a href="#art-65">Art 65</a></li>
+<li class="lvl4"><a href="#art-66">Art 66</a></li>
+<li class="lvl4"><a href="#art-67">Art 67</a></li>
+<li class="lvl2"><a href="#endring-av-avtalen">Endring av avtalen</a></li>
+<li class="lvl4"><a href="#art-68">Art 68</a></li>
+<li class="lvl2"><a href="#sluttbestemmelser">Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#art-69">Art 69</a></li>
+<li class="lvl4"><a href="#art-70">Art 70</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1962-03-23-2.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Samarbeidsavtale mellom Norge, Danmark, Finland, Island og Sverige [Helsingforsavtalen]</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1962-03-23-2.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1962-03-23-2 <code>lov/1962-03-23-2</code></td></tr>
+<tr><th>Korttittel</th><td>Helsingforsavtalen</td></tr>
+<tr><th>Departement</th><td>Utenriksdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Internasjonal rett &raquo; Konvensjoner. Overenskomster</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.1962</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1962-03-23-2" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#preambel">Preambel</a></li>
+<li class="lvl2"><a href="#innledende-bestemmelse">Innledende bestemmelse</a></li>
+<li class="lvl4"><a href="#art-1">Art 1</a></li>
+<li class="lvl2"><a href="#rettslig-samarbeid">Rettslig samarbeid</a></li>
+<li class="lvl4"><a href="#art-2">Art 2</a></li>
+<li class="lvl4"><a href="#art-3">Art 3</a></li>
+<li class="lvl4"><a href="#art-4">Art 4</a></li>
+<li class="lvl4"><a href="#art-5">Art 5</a></li>
+<li class="lvl4"><a href="#art-6">Art 6</a></li>
+<li class="lvl4"><a href="#art-7">Art 7</a></li>
+<li class="lvl2"><a href="#kulturelt-samarbeid">Kulturelt samarbeid</a></li>
+<li class="lvl4"><a href="#art-8">Art 8</a></li>
+<li class="lvl4"><a href="#art-9">Art 9</a></li>
+<li class="lvl4"><a href="#art-10">Art 10</a></li>
+<li class="lvl4"><a href="#art-11">Art 11</a></li>
+<li class="lvl4"><a href="#art-12">Art 12</a></li>
+<li class="lvl4"><a href="#art-13">Art 13</a></li>
+<li class="lvl2"><a href="#sosialt-samarbeid">Sosialt samarbeid</a></li>
+<li class="lvl4"><a href="#art-14">Art 14</a></li>
+<li class="lvl4"><a href="#art-15">Art 15</a></li>
+<li class="lvl4"><a href="#art-16">Art 16</a></li>
+<li class="lvl4"><a href="#art-17">Art 17</a></li>
+<li class="lvl2"><a href="#konomisk-samarbeid">Økonomisk samarbeid</a></li>
+<li class="lvl4"><a href="#art-18">Art 18</a></li>
+<li class="lvl4"><a href="#art-19">Art 19</a></li>
+<li class="lvl4"><a href="#art-20">Art 20</a></li>
+<li class="lvl4"><a href="#art-21">Art 21</a></li>
+<li class="lvl4"><a href="#art-22">Art 22</a></li>
+<li class="lvl4"><a href="#art-23">Art 23</a></li>
+<li class="lvl4"><a href="#art-24">Art 24</a></li>
+<li class="lvl4"><a href="#art-25">Art 25</a></li>
+<li class="lvl2"><a href="#samarbeid-pa-samferdselens-omrade">Samarbeid på samferdselens område</a></li>
+<li class="lvl4"><a href="#art-26">Art 26</a></li>
+<li class="lvl4"><a href="#art-27">Art 27</a></li>
+<li class="lvl4"><a href="#art-28">Art 28</a></li>
+<li class="lvl4"><a href="#art-29">Art 29</a></li>
+<li class="lvl2"><a href="#samarbeid-pa-miljvernomradet">Samarbeid på miljøvernområdet</a></li>
+<li class="lvl4"><a href="#art-30">Art 30</a></li>
+<li class="lvl4"><a href="#art-31">Art 31</a></li>
+<li class="lvl4"><a href="#art-32">Art 32</a></li>
+<li class="lvl2"><a href="#annet-samarbeid">Annet samarbeid</a></li>
+<li class="lvl4"><a href="#art-33">Art 33</a></li>
+<li class="lvl4"><a href="#art-34">Art 34</a></li>
+<li class="lvl4"><a href="#art-35">Art 35</a></li>
+<li class="lvl4"><a href="#art-36">Art 36</a></li>
+<li class="lvl4"><a href="#art-37">Art 37</a></li>
+<li class="lvl2"><a href="#srlige-avtaler">Særlige avtaler</a></li>
+<li class="lvl4"><a href="#art-38">Art 38</a></li>
+<li class="lvl2"><a href="#formene-for-nordisk-samarbeid">Formene for nordisk samarbeid</a></li>
+<li class="lvl4"><a href="#art-39">Art 39</a></li>
+<li class="lvl4"><a href="#art-40">Art 40</a></li>
+<li class="lvl4"><a href="#art-41">Art 41</a></li>
+<li class="lvl4"><a href="#art-42">Art 42</a></li>
+<li class="lvl4"><a href="#art-43">Art 43</a></li>
+<li class="lvl2"><a href="#nordisk-rad">Nordisk Råd</a></li>
+<li class="lvl4"><a href="#art-44">Art 44</a></li>
+<li class="lvl4"><a href="#art-45">Art 45</a></li>
+<li class="lvl4"><a href="#art-46">Art 46</a></li>
+<li class="lvl4"><a href="#art-47">Art 47</a></li>
+<li class="lvl4"><a href="#art-48">Art 48</a></li>
+<li class="lvl4"><a href="#art-49">Art 49</a></li>
+<li class="lvl4"><a href="#art-50">Art 50</a></li>
+<li class="lvl4"><a href="#art-51">Art 51</a></li>
+<li class="lvl4"><a href="#art-52">Art 52</a></li>
+<li class="lvl4"><a href="#art-53">Art 53</a></li>
+<li class="lvl4"><a href="#art-54">Art 54</a></li>
+<li class="lvl4"><a href="#art-55">Art 55</a></li>
+<li class="lvl4"><a href="#art-56">Art 56</a></li>
+<li class="lvl4"><a href="#art-57">Art 57</a></li>
+<li class="lvl4"><a href="#art-58">Art 58</a></li>
+<li class="lvl4"><a href="#art-59">Art 59</a></li>
+<li class="lvl2"><a href="#nordisk-ministerrad">Nordisk ministerråd</a></li>
+<li class="lvl4"><a href="#art-60">Art 60</a></li>
+<li class="lvl4"><a href="#art-61">Art 61</a></li>
+<li class="lvl4"><a href="#art-62">Art 62</a></li>
+<li class="lvl4"><a href="#art-63">Art 63</a></li>
+<li class="lvl4"><a href="#art-64">Art 64</a></li>
+<li class="lvl4"><a href="#art-65">Art 65</a></li>
+<li class="lvl4"><a href="#art-66">Art 66</a></li>
+<li class="lvl4"><a href="#art-67">Art 67</a></li>
+<li class="lvl2"><a href="#endring-av-avtalen">Endring av avtalen</a></li>
+<li class="lvl4"><a href="#art-68">Art 68</a></li>
+<li class="lvl2"><a href="#sluttbestemmelser">Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#art-69">Art 69</a></li>
+<li class="lvl4"><a href="#art-70">Art 70</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1962-03-23-2.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1962-03-23-2.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1962-03-23-2.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/lov-1962-03-23-2.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/lov-1962-03-23-2.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1962-03-23-2.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="samarbeidsavtale-mellom-norge-danmark-finland-island-og-sverige-helsingforsavtalen">Samarbeidsavtale mellom Norge, Danmark, Finland, Island og Sverige [Helsingforsavtalen]</h1>
 <h2 id="preambel">Preambel</h2>
 <p>Danmarks, Finlands, Islands, Norges og Sveriges regjeringer:</p>
 <p>som ønsker å fremme ytterligere det nære fellesskap som råder mellom de nordiske folk med hensyn til kultur og når det gjelder retts- og samfunnsoppfatning, og ytterligere utvikle samarbeidet mellom de nordiske land;</p>
@@ -88,13 +303,13 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="art-1">Art 1</h4>
 <p>Avtalepartene skal søke å bevare og ytterligere utvikle samarbeidet mellom landene på det rettslige, kulturelle, sosiale og økonomiske område, og når det gjelder samferdsel og miljøvern.</p>
 <p>Avtalepartene bør rådføre seg med hverandre i spørsmål av felles interesse som behandles i europeiske og andre internasjonale organisasjoner og konferanser.</p>
-<p><em>Endret ved avtaler 11 mars 1974 nr. 1 (ikr. 1 juli 1974), 18 mars 1993 nr. 1 (ikr. 7 nov 1993).</em></p>
+<p class="note">Endret ved avtaler 11 mars 1974 nr. 1 (ikr. 1 juli 1974), 18 mars 1993 nr. 1 (ikr. 7 nov 1993).</p>
 <h2 id="rettslig-samarbeid">Rettslig samarbeid</h2>
 <h4 id="art-2">Art 2</h4>
 <p>Ved utformingen av lover og andre rettsregler i de nordiske land skal statsborgere i de øvrige nordiske land behandles likt med landets egne statsborgere. Dette gjelder innenfor samarbeidsoverenskomstens virkeområde. 1</p>
 <p>Det kan likevel gjøres unntak fra første avsnitt dersom krav til statsborgerskap er grunnlovsfestet, nødvendig på grunn av andre internasjonale forpliktelser eller det ellers av særlige grunner anses som nødvendig.</p>
-<p><em>Endret ved avtale 29 sept 1995 nr. 1 (ikr. 2 jan 1996).
-1 Jf. EØS-avtalen art. 4 .</em></p>
+<p class="note">Endret ved avtale 29 sept 1995 nr. 1 (ikr. 2 jan 1996).
+1 Jf. EØS-avtalen art. 4 .</p>
 <h4 id="art-3">Art 3</h4>
 <p>Avtalepartene skal søke å lette adgangen for statsborger i et nordisk land til å oppnå statsborgerskap i et annet nordisk land.</p>
 <h4 id="art-4">Art 4</h4>
@@ -109,7 +324,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h2 id="kulturelt-samarbeid">Kulturelt samarbeid</h2>
 <h4 id="art-8">Art 8</h4>
 <p>Undervisning og utdannelse i skolene i de nordiske land skal i passende omfang omfatte undervisning om språk, kultur og alminnelige samfunnsforhold i de øvrige nordiske land, herunder Færøyene, Grønland og Åland.</p>
-<p><em>Endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 juni 1984).</em></p>
+<p class="note">Endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 juni 1984).</p>
 <h4 id="art-9">Art 9</h4>
 <p>Hver avtalepart bør opprettholde og utvide mulighetene for studerende hjemmehørende i et annet nordisk land til å studere og avlegge eksamen ved dens læresteder. I størst mulig utstrekning bør deleksamen avlagt i et annet nordisk land kunne anerkjennes og medregnes ved slutteksamen i et annet nordisk land.</p>
 <p>Økonomisk støtte fra hjemlandet bør kunne ytes uten hensyn til i hvilket land studiene finner sted.</p>
@@ -163,17 +378,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h4 id="art-30">Art 30</h4>
 <p>Avtalepartene skal i sin nasjonale lovgivning og ved anvendelsen av denne i størst mulig utstrekning likestille de øvrige avtalepartenes miljøverninteresser med sitt eget lands.</p>
-<p><em>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</em></p>
+<p class="note">Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h4 id="art-31">Art 31</h4>
 <p>Avtalepartene skal søke å harmonisere sine miljøvernregler i den hensikt å oppnå den størst mulige overensstemmelse når det gjelder normer og retningslinjer for utslipp av forurensninger, anvendelse av miljøgifter og andre forstyrrelser av miljøet.</p>
-<p><em>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</em></p>
+<p class="note">Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h4 id="art-32">Art 32</h4>
 <p>Avtalepartene skal tilstrebe samordning når det gjelder å reservere naturvern- og friluftsområder samt når det gjelder fredning og andre forholdsregler for vern av planter og dyr.</p>
-<p><em>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</em></p>
+<p class="note">Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h2 id="annet-samarbeid">Annet samarbeid</h2>
 <h4 id="art-33">Art 33</h4>
 <p>Avtalepartenes deltakelse i europeisk og annet internasjonalt samarbeid gir gode muligheter for samarbeid til fordel for nordiske statsborgere og foretak. Regjeringene har i denne sammenheng et spesielt ansvar for å ivareta felles interesser og synspunkter.</p>
-<p><em>Endret ved avtale 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 30.</em></p>
+<p class="note">Endret ved avtale 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 30.</p>
 <h4 id="art-34">Art 34</h4>
 <p>Tjenestemann som tilhører en avtaleparts utenrikstjeneste og tjenestegjør utenfor de nordiske land, skal i den utstrekning det er forenlig med hans tjenesteplikter og ikke møter hindringer fra det lands side hvor han tjenestegjør, også bistå statsborgere fra et annet nordisk land når dette ikke har noen representasjon på vedkommende sted.</p>
 <p><em>Tidligere art 31.</em></p>
@@ -190,14 +405,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h4 id="art-38">Art 38</h4>
 <p>Nærmere regler om samarbeidet innenfor de her angitte områder skal kunne fastsettes i særlige avtaler.</p>
-<p><em>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</em></p>
+<p class="note">Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h2 id="formene-for-nordisk-samarbeid">Formene for nordisk samarbeid</h2>
 <h4 id="art-39">Art 39</h4>
 <p>For å gjennomføre og videreutvikle det nordiske samarbeid etter denne og andre avtaler bør de nordiske land stadig samrå seg med hverandre, og treffe de samordningstiltak som det er behov for.</p>
-<p><em>Endret ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 35.</em></p>
+<p class="note">Endret ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 35.</p>
 <h4 id="art-40">Art 40</h4>
 <p>Samarbeidet finner sted i Nordisk Råd, i Nordisk Ministerråd, i statsministrenes, utenriksministrenes og i andre ministres møter, i særlige samarbeidsorganer og mellom landenes fagmyndigheter.</p>
-<p><em>Endret ved avtaler 13 feb 1971 nr. 1 (ikr. 1 juli 1971), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 36.</em></p>
+<p class="note">Endret ved avtaler 13 feb 1971 nr. 1 (ikr. 1 juli 1971), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 36.</p>
 <h4 id="art-41">Art 41</h4>
 <p>En bestemmelse som er et resultat av samarbeid mellom to eller flere avtaleparter må ikke endres av en part med mindre de øvrige parter underrettes om det. Underretning er ikke nødvendig i tilfelle hvor det haster og når det gjelder bestemmelser av mindre betydning.</p>
 <p><em>Tidligere art 37.</em></p>
@@ -206,119 +421,119 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p><em>Tidligere art 38.</em></p>
 <h4 id="art-43">Art 43</h4>
 <p>I det nordiske samarbeidet bør det foreligge den størst mulige offentlighet.</p>
-<p><em>Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</em></p>
+<p class="note">Tilføyd ved avtale 11 mars 1974 nr. 1 (ikr. 5 sept 1975).</p>
 <h2 id="nordisk-rad">Nordisk Råd</h2>
 <p>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971).</p>
 <h4 id="art-44">Art 44</h4>
 <p>I Nordisk Råd samarbeider de nordiske lands samt Færøyenes, Grønlands og Ålands folkevalgte forsamlinger, landenes regjeringer samt Færøyenes og Grønlands landsstyrer og Ålands landskapsstyrelse. Rådet kan ta initiativ og gi råd i spørsmål som angår samarbeid mellom alle eller noen av disse land og Færøyene, Grønland og Åland, og har for øvrig de oppgaver som fremgår av denne og andre avtaler.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 jan 1984). Tidligere artikkel 39.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 jan 1984). Tidligere artikkel 39.</p>
 <h4 id="art-45">Art 45</h4>
 <p>Rådet kan vedta rekommandasjoner og rette andre henvendelser eller avgi uttalelser til en eller flere av de nordiske lands regjeringer eller til ministerrådet.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere artikkel 40.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere artikkel 40.</p>
 <h4 id="art-46">Art 46</h4>
 <p>Rådet bør, ut over hva som særlig er avtalt, gis anledning til å uttale seg om nordiske samarbeidsspørsmål av større betydning når dette ikke er umulig på grunn av tidsnød.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere artikkel 41.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere artikkel 41.</p>
 <h4 id="art-47">Art 47</h4>
 <p>Rådet består av 87 valgte medlemmer, regjeringsrepresentanter og representanter for Færøyenes og Grønlands landsstyrer og Ålands landskapsstyrelse.</p>
 <p>Av medlemmene velger Danmarks folketing 16, Finlands riksdag 18, Islands allting 7 og Norges storting og Sveriges riksdag hver 20 samt Færøyenes lagting, Grønlands landsting og Ålands lagting hver 2. Videre velger hver forsamling et tilsvarende antall suppleanter.</p>
 <p>Valg av medlemmer og suppleanter foretas årlig og gjelder for tiden inntil neste valg. Ved valgene skal forskjellige politiske meningsretninger gis representasjon i Rådet.</p>
 <p>Bare medlemmer av den forsamling som har foretatt valget, kan være valgt medlem eller suppleant i Rådet.</p>
 <p>Regjeringene, landsstyrene og landskapsstyrelsen utpeker blant sine medlemmer det antall representanter som de ønsker.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere artikkel 42.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere artikkel 42.</p>
 <h4 id="art-48">Art 48</h4>
 <p>Danmarks rikes delegasjon består av de medlemmer som er valgt av folketinget og de representanter som er utpekt av regjeringen samt av Færøyenes og Grønlands delegasjoner som nevnt i annet avsnitt. Finlands delegasjon består av medlemmer som er valgt av riksdagen og de representanter som er utpekt av regjeringen samt av Ålands delegasjon nevnt i annet avsnitt. Delegasjonen for hvert av de øvrige land består av de medlemmer som er valgt av den folkevalgte forsamling og de representanter som er utpekt av regjeringen.</p>
 <p>Færøyenes delegasjon består av de medlemmer som er valgt av lagtinget og de representanter som er utpekt av landsstyret. Grønlands delegasjon består av de medlemmer som er valgt av landstinget og de representanter som er utpekt av landsstyret. Ålands delegasjon består av de medlemmer som er valgt av lagtinget og de representanter som er utpekt av landskapsstyrelsen.</p>
 <p>Med «delegasjon» forstås i artikkel 58, annet avsnitt, landets delegasjon.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere artikkel 43.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere artikkel 43.</p>
 <h4 id="art-49">Art 49</h4>
 <p>Regjeringenes samt landsstyrenes og landskapsstyrelsens representanter har ikke stemmerett i Rådet.</p>
 <p>I spørsmål som angår anvendelsen av avtaler mellom enkelte land, har bare medlemmer fra disse land stemmerett.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 jan 1984). Tidligere art 44.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (ikr. 28 jan 1984). Tidligere art 44.</p>
 <h4 id="art-50">Art 50</h4>
 <p>Rådets organer er plenarforsamlingen, presidiet og utvalgene.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 45.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 45.</p>
 <h4 id="art-51">Art 51</h4>
 <p>Plenarforsamlingen består av alle medlemmer i Rådet.</p>
 <p>Plenarforsamlingen avholder ordinær sesjon minst en gang i året. Ekstraordinær sesjon eller temasesjon holdes når presidiet beslutter det, eller når minst to regjeringer eller minst femogtyve valgte medlemmer henstiller om det.</p>
 <p>Rådets forføyninger utøves av plenarforsamlingen, hvis ikke noe annet er særlig foreskrevet.</p>
 <p>Plenarforsamlingens forhandlinger er offentlige, med mindre plenarforsamlingen bestemmer noe annet.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 46.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 46.</p>
 <h4 id="art-52">Art 52</h4>
 <p>Plenarforsamlingen utpeker, for et kalenderår, ved årlig ordinær sesjon et presidium bestående av en president og det antall andre medlemmer som angis i forretningsorden for Nordisk Råd.</p>
 <p>Ulike politiske meningsretninger skal være representert i presidiet. Hvert land skal være representert i presidiet.</p>
 <p>Medlemmer av presidiet skal være valgte medlemmer av Rådet.</p>
 <p>Presidiet ivaretar Rådets løpende forretninger og opptrer for øvrig på Rådets vegne i den utstrekning som fremgår av denne overenskomst og Rådets forretningsorden.</p>
 <p>Presidentskapet i Rådet roterer mellom de nordiske land på den måte som fremgår av forretningsorden for Nordisk Råd.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 47.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 47.</p>
 <h4 id="art-53">Art 53</h4>
 <p>Plenarforsamlingen bestemmer utvalgenes antall og forretningsområde. Utvalgenes oppgave er å forberede behandling av sakene i Rådet.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 48.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 48.</p>
 <h4 id="art-54">Art 54</h4>
 <p>Rådet bistås i sin virksomhet av et presidiesekretariat.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 49.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 49.</p>
 <h4 id="art-55">Art 55</h4>
 <p>Regjeringene, Færøyenes landsstyre, Grønlands landsstyre, Ålands landskapsstyrelse, Ministerrådet, Rådets presidium og utvalg samt medlemmene har rett til å fremsette forslag for Rådet.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 50.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 21 aug 1991 nr. 1 (ikr. 29 jan 1992), 29 sept 1995 nr. 1 (ikr. 2 jan 1996). Tidligere art 50.</p>
 <h4 id="art-56">Art 56</h4>
 <p>Rekommandasjoner vedtas av plenarforsamlingen på grunnlag av at det er fremsatt forslag om det.</p>
 <p>Presidiet kan foreta annen fremstilling på grunnlag av at det er fremsatt forslag om det.</p>
 <p>Uttalelser avgis av plenarforsamlingen. Når presidiet foretar en henvendelse (fremstilling), avgis uttalelsen av presidiet.</p>
 <p>Presidiet skal anmelde til plenarforsamlingen de beslutninger som er truffet i henhold til andre eller tredje avsnitt.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 51.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 51.</p>
 <h4 id="art-57">Art 57</h4>
 <p>Et valgt medlem kan stille spørsmål til en regjering eller til Ministerrådet i anledning av en beretning eller meddelelse som er avgitt til Rådet, eller for øvrig om emner som angår det nordiske samarbeidet.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 52.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 52.</p>
 <h4 id="art-58">Art 58</h4>
 <p>Hver delegasjon svarer for utgiftene til sin deltagelse i Rådet.</p>
 <p>Presidiet beslutter for hvert budsjettår hvorledes fellesutgiftene skal fordeles mellom delegasjonene.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (avtale 28 jan 1984), 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 53.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (avtale 28 jan 1984), 21 aug 1991 nr. 1 (ikr. 29 jan 1992). Tidligere art 53.</p>
 <h4 id="art-59">Art 59</h4>
 <p>Plenarforsamlingen fastsetter Rådets arbeidsordning. Beslutning om vedtagelse av arbeidsordningen eller om endringer i denne krever to tredjedels flertall blant rådets valgte medlemmer.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 54.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 54.</p>
 <h2 id="nordisk-ministerrad">Nordisk ministerråd</h2>
 <p>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971).</p>
 <h4 id="art-60">Art 60</h4>
 <p>I Nordisk ministerråd samarbeider de nordiske lands regjeringer.</p>
 <p>Færøyenes og Grønlands landsstyrer samt Ålands landskapsstyrelse deltar i Ministerrådets arbeid.</p>
 <p>Ministerrådet treffer beslutninger i den utstrekning som angis i denne og andre avtaler mellom de nordiske land. Også i andre samarbeidsspørsmål forestår ministerrådet samarbeidet mellom de nordiske lands regjeringer og mellom regjeringene og Nordisk Råd.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (avtale 28 jan 1984). Tidligere art 55.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtale 15 juni 1983 nr. 1 (avtale 28 jan 1984). Tidligere art 55.</p>
 <h4 id="art-61">Art 61</h4>
 <p>Medlemmer av regjering, landsstyre eller landskapsstyrelsen kan i unntakstilfelle være representert på møter av befullmektiget, dog må minst tre av landene være representert av regjeringsmedlemmer.</p>
 <p>Statsministrene har ansvaret for den overordnede samordning av nordiske samarbeidsspørsmål. De bistås av et utpekt regjeringsmedlem i hvert land (samarbeidsminister) og en statssekretær eller embetsmann (medlem av den nordiske samarbeidskomiteen).</p>
 <p>Formannskapet roterer mellom de nordiske lands regjeringer i henhold til en nærmere avtale. Formannskapet har ansvaret for å samordne det nordiske regjeringssamarbeidet og for å ta de nødvendige initiativ. Formannskapet leder arbeidet i Ministerrådet, i andre ministermøter og ved regjeringenes rådslagninger om europeiske og andre internasjonale spørsmål på alle nivåer.</p>
 <p>Ministerrådet bistås i sin virksomhet av embetsmannskomiteer og av Ministerrådets sekretariat.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 11 mars 1974 nr. 1 (ikr. 5 sept 1975), 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 56.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 11 mars 1974 nr. 1 (ikr. 5 sept 1975), 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art 56.</p>
 <h4 id="art-62">Art 62</h4>
 <p>Ministerrådet er beslutningsdyktig når alle landene er representert i ministerrådet. I spørsmål som utelukkende angår visse land, behøver dog bare disse land å være representert.</p>
 <p>Hvert land har én stemme i ministerrådet.</p>
 <p>Ministerrådets beslutninger skal være enstemmige. I prosedyrespørsmål treffes beslutning dog med enkelt flertall av dem som avgir stemme, og ved stemmelikhet gjør formannens stemme utslaget.</p>
 <p>Stemmeunnlatelse er ikke til hinder for at beslutning fattes.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 57.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 57.</p>
 <h4 id="art-63">Art 63</h4>
 <p>Ministerrådets beslutninger er bindende for de enkelte land. Beslutning vedrørende spørsmål som etter et av landenes forfatning krever godkjennelse av den folkevalgte forsamling, er dog ikke bindende for dette land før den folkevalgte forsamling har godkjent beslutningen. Hvis slik godkjennelse kreves, skal Ministerrådet underrettes om dette før Ministerrådet treffer beslutningen. Før den folkevalgte forsamlings godkjennelse foreligger, er heller ikke noe annet land bundet av beslutningen.</p>
 <p>Beslutning truffet i overensstemmelse med denne overenskomst er bindende for Færøyene, Grønland og Åland i den utstrekning de slutter seg til beslutningen i samsvar med selvstyreordningene.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art. 58.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 15 juni 1983 nr. 1 (ikr. 28 jan 1984), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art. 58.</p>
 <h4 id="art-64">Art 64</h4>
 <p>Ministerrådet skal årlig fremlegge for Nordisk Råd en beretning vedrørende det nordiske samarbeidet og en redegjørelse for planene for det fortsatte samarbeidet.</p>
 <p>Formannskapslandets statsminister redegjør for Nordisk Råd om hovedtrekkene i samarbeidet og om regjeringenes samarbeide når det gjelder europeiske og andre internasjonale spørsmål.</p>
 <p>Nordisk ministerråd skal fremlegge sitt forslag til budsjett for Nordisk Råd til uttalelse.</p>
 <p>Nordisk Råd kan foreslå endrede prioriteringer innenfor den finansielle ramme som Ministerrådet har angitt.</p>
 <p>Medmindre det kan anføres vesentlige grunner, skal Ministerrådet følge Rådets anbefalinger når det gjelder budsjettdisposisjoner innenfor den angitte finansielle rammen.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art. 59.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971), endret ved avtaler 6 mai 1985 nr. 1 (ikr. 12 feb 1986), 18 mars 1993 nr. 1 (ikr. 7 nov 1993). Tidligere art. 59.</p>
 <h4 id="art-65">Art 65</h4>
 <p>Ministerrådet skal før hver ordinære sesjon av Nordisk Råds plenarforsamling gi rådet melding om de tiltak som er truffet i anledning av rådets rekommandasjoner og andre henvendelser. Hvis rekommandasjon eller annen henvendelse er rettet til en eller flere regjeringer, kan slik melding i stedet gis av den eller de regjeringer som rekommandasjonen eller henvendelsen er rettet til.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 60.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 60.</p>
 <h4 id="art-66">Art 66</h4>
 <p>Ministerrådet fastsetter sin arbeidsordning.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 61.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 61.</p>
 <h4 id="art-67">Art 67</h4>
 <p>Samråd mellom de nordiske lands regjeringer kan, foruten i ministerrådet, finne sted ved nordiske ministermøter.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 62.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 62.</p>
 <h2 id="endring-av-avtalen">Endring av avtalen</h2>
 <p>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971).</p>
 <h4 id="art-68">Art 68</h4>
 <p>Innen de kontraherende parter enes om endring i denne avtale, skal Nordisk Råd gis anledning til å uttale seg.</p>
-<p><em>Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 63.</em></p>
+<p class="note">Tilføyd ved avtale 13 feb 1971 nr. 1 (ikr. 1 juli 1971). Tidligere art 63.</p>
 <h2 id="sluttbestemmelser">Sluttbestemmelser</h2>
 <h4 id="art-69">Art 69</h4>
 <p>Denne avtale skal ratifiseres, og ratifikasjonsdokumentene skal snarest mulig deponeres i det finske utenriksministerium. Avtalen trer i kraft 1 første dag i den måned som begynner nærmest etter den dag da samtlige parters ratifikasjonsdokumenter er deponert.</p>
@@ -329,6 +544,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Overenskomsten skal deponeres i det finske utenriksministerium, og bekreftede avskrifter skal av det finske utenriksministerium tilstilles hver enkelt avtalepart.</p>
 <p><em>Tidligere art 40.
 1 Til bekreftelse av dette har undertegnede befullmektigede representanter undertegnet denne avtale. Utferdiget i Helsingfors i ett eksemplar på dansk, finsk, islandsk, norsk og svensk, som alle har lik gyldighet, den tjuetredje mars nittenhundre og sekstito.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

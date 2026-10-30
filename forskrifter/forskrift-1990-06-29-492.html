@@ -19,74 +19,133 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1990-06-29-492.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om forelegg i vegtrafikksaker" href="../feeds/forskrift-1990-06-29-492.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Forskrift om forelegg i vegtrafikksaker</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1990-06-29-492</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1990-09-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-02-06-147</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1990-06-29-492" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-trafikklovbrudd-som-kan-btelegges-ved-forenklet-forelegg">§ 1. Trafikklovbrudd som kan bøtelegges ved forenklet forelegg</a></li>
+<li class="lvl3"><a href="#2-fellesbot">§ 2. Fellesbot</a></li>
+<li class="lvl3"><a href="#3-subsidir-fengselsstraff">§ 3. Subsidiær fengselsstraff</a></li>
+<li class="lvl3"><a href="#4-unntak">§ 4. Unntak.</a></li>
+<li class="lvl3"><a href="#5-formkrav">§ 5. Formkrav.</a></li>
+<li class="lvl3"><a href="#6-frer-av-sporvogn">§ 6. Fører av sporvogn.</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse-mv">§ 7. Ikrafttredelse m.v.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-02-06-147.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-29-492.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om forenklet forelegg i vegtrafikksaker</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1990-06-29-492.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1990-06-29-492 <code>forskrift/1990-06-29-492</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om forelegg i vegtrafikksaker</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.09.1990</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-02-06-147 <code>forskrift/2026-02-06-147</code> fra 15.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1990-06-29-492" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-trafikklovbrudd-som-kan-btelegges-ved-forenklet-forelegg">§ 1. Trafikklovbrudd som kan bøtelegges ved forenklet forelegg</a></li>
+<li class="lvl3"><a href="#2-fellesbot">§ 2. Fellesbot</a></li>
+<li class="lvl3"><a href="#3-subsidir-fengselsstraff">§ 3. Subsidiær fengselsstraff</a></li>
+<li class="lvl3"><a href="#4-unntak">§ 4. Unntak.</a></li>
+<li class="lvl3"><a href="#5-formkrav">§ 5. Formkrav.</a></li>
+<li class="lvl3"><a href="#6-frer-av-sporvogn">§ 6. Fører av sporvogn.</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse-mv">§ 7. Ikrafttredelse m.v.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-29-492.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1990-06-29-492.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-29-492.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1990-06-29-492.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1990-06-29-492.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1990-06-29-492.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1990-06-29-492.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1990-06-29-492.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1990-06-29-492.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-forenklet-forelegg-i-vegtrafikksaker">Forskrift om forenklet forelegg i vegtrafikksaker</h1>
 <h3 id="1-trafikklovbrudd-som-kan-btelegges-ved-forenklet-forelegg">§ 1. Trafikklovbrudd som kan bøtelegges ved forenklet forelegg</h3>
 <p><em>Overtredelse av vegtrafikkloven § 5 , jf. trafikkskilt 362 og 366 og/eller fartsgrense etter vegtrafikkloven § 6 , samt overtredelse av forskrift om forbud mot bruk av beltemotorsykkel (snøscooter) på offentlig veg eller overtredelse av § 4 i forskrift om kjøring med motorvogn i terrenget og på veg ikke åpen for alminnelig ferdsel når fartsgrense på stedet er 60 km/t eller lavere, og fartsoverskridelsen er til og med 5 km/t kr 1 250,– til og med 10 km/t kr 3 350,– til og med 15 km/t kr 5 950,– til og med 20 km/t kr 8 650,– til og med 25 km/t kr 13 450,– når fartsgrense på stedet er 70 km/t eller høyere, og fartsoverskridelsen er til og med 5 km/t kr 1 250,– til og med 10 km/t kr 3 350,– til og med 15 km/t kr 5 350,– til og med 20 km/t kr 7 450,– til og med 25 km/t kr 10 100,– til og med 30 km/t kr 13 450,– til og med 35 km/t kr 16 050,– når fartsgrense på motorveg er 90 km/t eller høyere, og fartsoverskridelsen er 36 km/t til og med 40 km/t kr 16 700,– kjøring med motorvogn unntatt liten elektrisk motorvogn i strid med trafikklyssignal med fast eller blinkende lys med rød farge, unntatt lys med rød farge på tolyssignal brukt ved bomstasjon, kai eller annet område, skiltforskriften § 23 og § 24 , med for kort avstand til forankjørende, jf. trafikkreglene § 5 nr. 3 kr 10 750,– kjøring med motorvogn, unntatt liten elektrisk motorvogn, i strid med trafikkskiltene 302 Innkjøring forbudt, 306.0, 306.1 og 306.3-5 Trafikkforbud, 330 Svingforbud, 332 Vendingsforbud, 402 Påbudt kjøreretning, 404 Påbudt kjørefelt, 406 Påbudt rundkjøring, 506 Tungtrafikkfelt, 508 Kollektivfelt, trafikkreglene § 5 , 509 Sambruksfelt, trafikkreglene § 5 , 526 Envegskjøring, 548 Gågate kr 8 650,– kjøring med motorvogn unntatt liten elektrisk motorvogn i sperreområde, begrenset av heltrukken gul linje eller parallelle gule sperrelinjer, skiltforskriften § 22 trafikkskilt 1014 og § 21 nr. 4 , på fortau, sykkelfelt (skilt 521), gangveg (skilt 518), sykkelveg (skilt 520) og gang- og sykkelveg (skilt 522), trafikkreglene § 4 , i strid med bestemmelsene om feltvalg ved svinging, trafikkreglene § 6 , på eller over gul eller hvit sperrelinje og/eller i sperreområde begrenset av heltrukken hvit linje, skiltforskriften § 22 og § 21 nr. 4 kr 6 550,– trafikkreglene § 12 , ulovlig forbikjøring med motorvogn unntatt liten elektrisk motorvogn til høyre, like foran eller i vegkryss, eller hvor sikten er hindret ved bakketopp, kurve eller på annen måte, foran gangfelt, ved ikke å ha forvisset seg om at den forankjørende ikke har gitt tegn om forbikjøring, eller ingen bakenforliggende har begynt å kjøre forbi ham, i strid med trafikkskiltene 334 Forbikjøringsforbud, 335 Forbikjøringsforbud for lastebil kr 10 750,– fører av motorvogn, unntatt liten elektrisk motorvogn, som ikke har overholdt vikeplikt i henhold til trafikkskilt 202 Vikeplikt og 204 Stopp, overfor trafikk fra høyre, trafikkreglene § 7 , overfor gående i gangfelt, trafikkreglene § 9 , ved utkjøring fra parkeringsplass, holdeplass, torg, eiendom, bensinstasjon, gågate, gatetun eller lignede område, trafikkreglene § 7 , overfor gående eller syklende der det skal kjøres inn ved svinging, trafikkreglene § 7 , i henhold til § 3 i forskrift om forbud mot bruk av beltemotorsykkel (snøscooter) på offentlig veg eller § 3 i forskrift om kjøring med motorvogn i terrenget og på veg ikke åpen for alminnelig ferdsel kr 10 750,– kjøring med motorvogn unntatt liten elektrisk motorvogn uten å gi påbudt tegn, trafikkreglene § 14 og § 7 i forskrift om kjøring med motorvogn i terrenget og på veg ikke åpen for alminnelig ferdsel , uten å ha påbudt lys tent, trafikkreglene § 15 og § 6 i forskrift om kjøring med motorvogn i terrenget og på veg ikke åpen for alminnelig ferdsel , med lys som blir brukt på feilaktig måte, trafikkreglene § 15 og § 6 i forskrift om kjøring med motorvogn i terrenget og på veg ikke åpen for alminnelig ferdsel , uten å ha tilstrekkelig utsyn, forskrift om bruk av kjøretøy § 1-3 , der det er feil ved nærlys, fjernlys eller kjørelys, vegtrafikkloven § 23 , kr 4 100,– kjøring med motorsykkel (herunder moped) hvor det er foretatt endring som øker den maksimale hastighet eller ytelse som motorsykkelen er registrert for, vegtrafikkloven § 23 jf. § 13 kr 8 650,– vegtrafikkloven § 23 , kjøring med kjøretøy under 3, 5 tonn tillatt totalvekt der parkeringsbrems ikke virker kr 4 100,– 3,5 tonn eller mer tillatt totalvekt der parkeringsbrems ikke virker kr 8 300,– trafikkreglene § 4 , kjøring med motorvogn, unntatt liten elektrisk motorvogn, eller vogntog som ikke lovlig kan kjøre minst 40 km/t eller med moped på motorveg eller motortrafikkveg kr 2 600,– kjøring med sykkel eller liten elektrisk motorvogn uten å ha foreskrevne lykter montert eller tent, trafikkreglene § 15 , forskrift om krav til sykkel § 5 og forskrift om krav til liten elektrisk motorvogn § 7 i strid med trafikklyssignal med fast eller blinkende lys med rød farge, skiltforskriften § 24 , i strid med skilt 302 Innkjøring forbudt, 306.0 Forbudt for alle kjøretøy, 306.6 Forbudt for syklende og fører av liten elektrisk motorvogn 306.8 Forbudt for gående, syklende og fører av liten elektrisk motorvogn 306.10 Forbudt for liten elektrisk motorvogn, 380 Sone med bruksforbud for liten elektrisk motorvogn på motorveg og motortrafikkveg, trafikkreglene § 4 kr 1 950,– overtredelse av bestemmelser gitt med hjemmel i vegtrafikkloven § 23b kr 10 750,– unnlatt sikring av passasjerer under 15 år, jf. vegtrafikkloven § 23a , jf. forskrift 21. september 1979 nr. 7 om bruk av personlig verneutstyr under kjøring med motorvogn kr 3 600,–
 Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 6 mars 1998 nr. 182 (i kraft 1 mai 1998), 26 nov 1999 nr. 1187 (i kraft 1 jan 2000), 17 des 1999 nr 1355 (i kraft 15 mars 2000), 14 des 2001 nr. 1414 (i kraft 1 juli 2002), 6 des 2002 nr. 1360 (i kraft 1 jan 2003), 5 des 2003 nr. 1427 (i kraft 1 jan 2004), 7 jan 2005 nr. 3 (i kraft 1 feb 2005), 22 april 2005 nr. 348 (i kraft 7 okt 2005 og 1 juni 2006 iflg forskrift 7 okt 2005 nr. 1221 ), 4 mai 2007 nr. 479 , 11 juni 2010 nr. 801 (i kraft 1 juli 2010), 20 mai 2011 nr. 509 (i kraft 1 juli 2011), 13 juni 2014 nr. 727 (i kraft 1 juli 2014), 25 sep 2015 nr. 1082 (i kraft 1 okt 2015), 9 des 2016 nr. 1479 som endret ved forskrift 16 des 2016 nr. 1611 (i kraft 1 jan 2017), 13 jan 2017 nr. 22 , 10 nov 2017 nr. 1759 (i kraft 1 jan 2018), 10 april 2018 nr. 549 , 23 nov 2018 nr. 1752 , 11 des 2020 nr. 2700 (i kraft 1 jan 2021), 7 mai 2021 nr. 1414 (i kraft 18 mai 2021), 23 juni 2021 nr. 2067 (i kraft 1 juli 2021), 26 mars 2021 nr. 964 (i kraft 1 sep 2021), 18 feb 2022 nr. 267 (i kraft 1 mars 2022), 10 juni 2022 nr. 996 (i kraft 15 juni 2022), 27 jan 2023 nr. 99 (i kraft 1 feb 2023), 10 mars 2023 nr. 313 , 26 jan 2024 nr. 119 (i kraft 1 feb 2024), 7 mars 2025 nr. 380 (i kraft 15 mars 2025), 6 feb 2026 nr. 147 (i kraft 15 feb 2026).</em></p>
 <h3 id="2-fellesbot">§ 2. Fellesbot</h3>
 <p>Foreligger det flere overtredelser som alle kan avgjøres ved forenklet forelegg, kan disse avgjøres ved en fellesbot. Den høyeste enkeltboten gis fullt ut, og summen av de øvrige bøtene reduseres med 50 %. Forenklet forelegg skal likevel ikke i noe tilfelle utferdiges når fellesboten etter disse bestemmelser vil overstige kr 29 100,–.</p>
 <p>Når flere bestemmelser regulerer samme forhold, benyttes forenklet forelegg kun for overtredelse av den bestemmelse som leder til den høyeste enkeltboten.</p>
-<p><em>Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 26 nov 1999 nr. 1187 (i kraft 1 jan 2000), 6 des 2002 nr. 1360 (i kraft 1 jan 2003), 5 des 2003 nr. 1427 (i kraft 1 jan 2004), 7 jan 2005 nr. 3 (i kraft 1 feb 2005), 11 juni 2010 nr. 801 (i kraft 1 juli 2010), 9 des 2016 nr. 1479 (i kraft 1 jan 2017), 10 nov 2017 nr. 1759 (i kraft 1 jan 2018), 11 des 2020 nr. 2700 (i kraft 1 jan 2021), 18 feb 2022 nr. 267 (i kraft 1 mars 2022), 27 jan 2023 nr. 99 (i kraft 1 feb 2023), 26 jan 2024 nr. 119 (i kraft 1 feb 2024), 7 mars 2025 nr. 380 (i kraft 15 mars 2025), 6 feb 2026 nr. 147 (i kraft 15 feb 2026).</em></p>
+<p class="note">Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 26 nov 1999 nr. 1187 (i kraft 1 jan 2000), 6 des 2002 nr. 1360 (i kraft 1 jan 2003), 5 des 2003 nr. 1427 (i kraft 1 jan 2004), 7 jan 2005 nr. 3 (i kraft 1 feb 2005), 11 juni 2010 nr. 801 (i kraft 1 juli 2010), 9 des 2016 nr. 1479 (i kraft 1 jan 2017), 10 nov 2017 nr. 1759 (i kraft 1 jan 2018), 11 des 2020 nr. 2700 (i kraft 1 jan 2021), 18 feb 2022 nr. 267 (i kraft 1 mars 2022), 27 jan 2023 nr. 99 (i kraft 1 feb 2023), 26 jan 2024 nr. 119 (i kraft 1 feb 2024), 7 mars 2025 nr. 380 (i kraft 15 mars 2025), 6 feb 2026 nr. 147 (i kraft 15 feb 2026).</p>
 <h3 id="3-subsidir-fengselsstraff">§ 3. Subsidiær fengselsstraff</h3>
 <p>Den subsidiære fengselsstraffen settes til en dags fengsel tilsvarende hver hele 1000 kroner, likevel slik at den subsidiære fengselsstraffen ikke kan settes høyere enn 15 dager.</p>
-<p><em>Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 26 nov 1999 nr. 1187 (i kraft 1 jan 2000), 6 des 2002 nr. 1360 (i kraft 1 jan 2003), 5 des 2003 nr. 1427 (i kraft 1 jan 2004), 7 jan 2005 nr. 3 (i kraft 1 feb 2005), 11 juni 2010 nr. 801 (i kraft 1 juli 2010), 9 des 2016 nr. 1479 (i kraft 1 jan 2017), 10 nov 2017 nr. 1759 (i kraft 1 jan 2018), 27 jan 2023 nr. 99 (i kraft 1 feb 2023).</em></p>
+<p class="note">Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 26 nov 1999 nr. 1187 (i kraft 1 jan 2000), 6 des 2002 nr. 1360 (i kraft 1 jan 2003), 5 des 2003 nr. 1427 (i kraft 1 jan 2004), 7 jan 2005 nr. 3 (i kraft 1 feb 2005), 11 juni 2010 nr. 801 (i kraft 1 juli 2010), 9 des 2016 nr. 1479 (i kraft 1 jan 2017), 10 nov 2017 nr. 1759 (i kraft 1 jan 2018), 27 jan 2023 nr. 99 (i kraft 1 feb 2023).</p>
 <h3 id="4-unntak">§ 4. Unntak.</h3>
 <p>Forenklet forelegg kan ikke utferdiges dersom,</p>
 <ol>
@@ -95,14 +154,16 @@ Endret ved forskrifter 5 sep 1997 nr. 962 (i kraft 1 nov 1997), 6 mars 1998 nr. 
 <li>overtredelsen framtrer som særlig graverende eller har fremkalt betydelig trafikkfare eller at forholdet av andre grunner vil føre til betydelig høyere straff ved vanlig straffeprosessuell forfølgning.</li>
 <li>overtredelsen gir grunnlag for den prikkbelastning som resulterer i tap av føreretten, jf. forskrift av 19. september 2003 nr. 1164 om prikkbelastning § 4 .</li>
 </ol>
-<p><em>Endret ved forskrift 5 des 2003 nr. 1427 (i kraft 1 jan 2004).</em></p>
+<p class="note">Endret ved forskrift 5 des 2003 nr. 1427 (i kraft 1 jan 2004).</p>
 <h3 id="5-formkrav">§ 5. Formkrav.</h3>
 <p>Forenklet forelegg utferdiges på nærmere fastsatt skjema og undertegnes av politimann. Siktedes vedtagelse skjer ved hans underskrift. Er siktede under 18 år, må også eneverges eller begge vergers vedtakelse innhentes.</p>
-<p><em>Endret ved forskrift 7 des 2018 nr. 1820 .</em></p>
+<p class="note">Endret ved forskrift 7 des 2018 nr. 1820 .</p>
 <h3 id="6-frer-av-sporvogn">§ 6. Fører av sporvogn.</h3>
 <p>Forskriftene § 1 nr. 1, 2 og 7 b-c samt trafikkskiltene 202 Vikeplikt (§ 1 nr. 6) og 204 Stopp (§ 1 nr. 6) gjelder også for trafikk med sporvogn, og forenklet forelegg kan ilegges fører av sporvogn etter §§ 2 – 5.</p>
 <h3 id="7-ikrafttredelse-mv">§ 7. Ikrafttredelse m.v.</h3>
 <p>Denne forskriften trer i kraft 1. september 1990. Fra samme tidspunkt oppheves forskrift om forenklet forelegg fastsatt ved kgl.res. 29. august 1986 nr. 1731 med senere endringer.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

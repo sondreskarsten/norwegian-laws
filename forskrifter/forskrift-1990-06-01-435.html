@@ -19,73 +19,146 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1990-06-01-435.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om beregning av ansvarlig kapital" href="../feeds/forskrift-1990-06-01-435.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forskrift om beregning av ansvarlig kapital</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1990-06-01-435</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1991-03-31</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-20-2228</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1990-06-01-435" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl2"><a href="#del-a">Del A</a></li>
+<li class="lvl4"><a href="#2-ansvarlig-kapital">§ 2. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#3-egenkapital-ren-kjernekapital">§ 3. Egenkapital (ren kjernekapital)</a></li>
+<li class="lvl4"><a href="#3a-annen-godkjent-kjernekapital-hybridkapital-herunder-fondsobligasjonskapital">§ 3a. Annen godkjent kjernekapital (hybridkapital, herunder fondsobligasjonskapital)</a></li>
+<li class="lvl4"><a href="#4-tilleggskapital">§ 4. Tilleggskapital</a></li>
+<li class="lvl4"><a href="#5-opphevet-1-jan-2007-vedforskrift-14-des-2006-nr-1507">§ 5. (Opphevet 1 jan 2007 vedforskrift 14 des 2006 nr. 1507.)</a></li>
+<li class="lvl4"><a href="#6-opphevet-vedforskrift-23-des-1992-nr-1202">§ 6. (Opphevet vedforskrift 23 des 1992 nr. 1202.)</a></li>
+<li class="lvl4"><a href="#7-fradragsposter">§ 7. Fradragsposter</a></li>
+<li class="lvl4"><a href="#8-tillegg">§ 8. Tillegg</a></li>
+<li class="lvl4"><a href="#9-begrensninger">§ 9. Begrensninger</a></li>
+<li class="lvl4"><a href="#11-overgangsbestemmelser">§ 11. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#del-b">Del B</a></li>
+<li class="lvl4"><a href="#22-ikrafttreden">§ 22. Ikrafttreden</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-20-2228.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-01-435.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om beregning av ansvarlig kapital for banker, kredittforetak, finansieringsforetak, pensjonsforetak, oppgjørssentraler og verdipapirforetak</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1990-06-01-435.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1990-06-01-435 <code>forskrift/1990-06-01-435</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om beregning av ansvarlig kapital</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>31.03.1991</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-20-2228 <code>forskrift/2023-12-20-2228</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1990-06-01-435" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl2"><a href="#del-a">Del A</a></li>
+<li class="lvl4"><a href="#2-ansvarlig-kapital">§ 2. Ansvarlig kapital</a></li>
+<li class="lvl4"><a href="#3-egenkapital-ren-kjernekapital">§ 3. Egenkapital (ren kjernekapital)</a></li>
+<li class="lvl4"><a href="#3a-annen-godkjent-kjernekapital-hybridkapital-herunder-fondsobligasjonskapital">§ 3a. Annen godkjent kjernekapital (hybridkapital, herunder fondsobligasjonskapital)</a></li>
+<li class="lvl4"><a href="#4-tilleggskapital">§ 4. Tilleggskapital</a></li>
+<li class="lvl4"><a href="#5-opphevet-1-jan-2007-vedforskrift-14-des-2006-nr-1507">§ 5. (Opphevet 1 jan 2007 vedforskrift 14 des 2006 nr. 1507.)</a></li>
+<li class="lvl4"><a href="#6-opphevet-vedforskrift-23-des-1992-nr-1202">§ 6. (Opphevet vedforskrift 23 des 1992 nr. 1202.)</a></li>
+<li class="lvl4"><a href="#7-fradragsposter">§ 7. Fradragsposter</a></li>
+<li class="lvl4"><a href="#8-tillegg">§ 8. Tillegg</a></li>
+<li class="lvl4"><a href="#9-begrensninger">§ 9. Begrensninger</a></li>
+<li class="lvl4"><a href="#11-overgangsbestemmelser">§ 11. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#del-b">Del B</a></li>
+<li class="lvl4"><a href="#22-ikrafttreden">§ 22. Ikrafttreden</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-01-435.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1990-06-01-435.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1990-06-01-435.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1990-06-01-435.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1990-06-01-435.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1990-06-01-435.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1990-06-01-435.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1990-06-01-435.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1990-06-01-435.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-beregning-av-ansvarlig-kapital-for-banker-kredittforetak-finansieringsforetak-pensjonsforetak-oppgjrssentraler-og-verdipapirforetak">Forskrift om beregning av ansvarlig kapital for banker, kredittforetak, finansieringsforetak, pensjonsforetak, oppgjørssentraler og verdipapirforetak</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Del A i denne forskrift gjelder for forvaltningsselskaper for verdipapirfond og forvaltere av alternative investeringsfond som ikke har tillatelse til å drive aktiv forvaltning, oppgjørssentraler og pensjonsforetak, og angir hvordan den ansvarlige kapital i disse foretakene defineres og beregnes i samsvar med de lovmessige minstekrav og krav om forsvarlig kapitaldekning.</p>
 <p>Del B i denne forskrift gjelder for banker, kredittforetak, finansieringsforetak, holdingforetak i finanskonsern som ikke er forsikringskonsern, verdipapirforetak og forvaltningsselskaper for verdipapirfond og forvaltere av alternative investeringsfond som har tillatelse til å drive aktiv forvaltning, og angir hvordan den ansvarlige kapital i disse foretakene defineres og beregnes i samsvar med de lovmessige minstekrav og krav om forsvarlig kapitaldekning.</p>
-<p><em>Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 7 nov 1997 nr. 1153 (i kraft 1 des 1997), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 7 nov 1997 nr. 1153 (i kraft 1 des 1997), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</p>
 <h2 id="del-a">Del A</h2>
 <p>Tilføyd ved forskrift 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</p>
 <h4 id="2-ansvarlig-kapital">§ 2. Ansvarlig kapital</h4>
 <p>Den ansvarlige kapitalen består av kjernekapital (§ 3) og tilleggskapital (§ 4). Kjernekapitalen består av egenkapital (ren kjernekapital) og annen godkjent kjernekapital. Ved beregningen gjelder fradrag, tillegg og begrensninger i henhold til § 7 til § 9 .</p>
-<p><em>Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</em></p>
+<p class="note">Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</p>
 <h4 id="3-egenkapital-ren-kjernekapital">§ 3. Egenkapital (ren kjernekapital)</h4>
 <p>Ren kjernekapital kan bestå av følgende poster:</p>
 <ol>
@@ -100,7 +173,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Andel av bufferfond i pensjonskasser tilsvarende det beløp som kunne vært inntektsført i henhold til forsikringsvirksomhetsloven § 3-19 tredje ledd dersom det hadde vært et årsregnskap.</li>
 </ol>
 <p>Finansdepartementet kan i særlige tilfelle og for en tidsbegrenset periode samtykke i at annen kapital kan likestilles med egenkapital.</p>
-<p><em>Endret ved forskrifter 28 nov 1996 nr. 1132 , 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 14 mai 2001 nr. 501 (fom kvartalsregnskap som avlegges for 1. kvartal 2001), 28 sep 2001 nr. 1113 , 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 4 april 2008 nr. 339 , 18 des 2009 nr. 1726 (i kraft 21 des 2009), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 24 jan 2011 nr. 69 , 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017), 20 des 2023 nr. 2228 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 1996 nr. 1132 , 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 14 mai 2001 nr. 501 (fom kvartalsregnskap som avlegges for 1. kvartal 2001), 28 sep 2001 nr. 1113 , 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 4 april 2008 nr. 339 , 18 des 2009 nr. 1726 (i kraft 21 des 2009), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 24 jan 2011 nr. 69 , 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017), 20 des 2023 nr. 2228 (i kraft 1 jan 2024).</p>
 <h4 id="3a-annen-godkjent-kjernekapital-hybridkapital-herunder-fondsobligasjonskapital">§ 3a. Annen godkjent kjernekapital (hybridkapital, herunder fondsobligasjonskapital)</h4>
 <p>Kapital som er godkjent i henhold til reglene nedenfor kan medregnes som annen kjernekapital. Finansdepartementet kan fastsette nærmere regler om annen kjernekapital.</p>
 <p>Typer kapital som kan medregnes er</p>
@@ -122,7 +195,7 @@ d. Evne til å dekke tap
   2. Hvis annen godkjent kjernekapital etter § 3a annet ledd bokstav a) og b) skrives ned, kan den skrives opp igjen ved at den tildeles en andel av fremtidige resultater tilsvarende sin andel av kjernekapitalen etter nedskrivning. I perioden som annen godkjent kjernekapital er skrevet ned, bortfaller kravet på rente.
   3. Annen godkjent kjernekapital etter § 3a annet ledd bokstav a) og b) skrives ned med endelig virkning dersom hele den innskutte egenkapitalen er nedskrevet.
   4. Ved brudd på kapitalkrav skal annen godkjent kjernekapital etter § 3a annet ledd bokstav c) konverteres til ordinær aksjekapital eller ordinær egenkapitalbeviskapital. Finanstilsynet kan i tillegg kreve konvertering dersom dette anses nødvendig av hensyn til låntakers soliditet eller finansielle situasjon forøvrig. Konverteringskursen bestemmes av markedsverdien for aksjene eller egenkapitalbevisene på utstedelsesdagen for den aktuelle andre godkjente kjernekapitalen. Långiverne skal få færre aksjer eller egenkapitalbevis hvis aksjekursen har steget, men ikke flere aksjer eller egenkapitalbevis hvis aksjekursen er redusert.</p>
-<p><em>Tilføyd ved forskrift 20 des 2010 nr. 1717 (i kraft 1 jan 2011), endret ved forskrift 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2010 nr. 1717 (i kraft 1 jan 2011), endret ved forskrift 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</p>
 <h4 id="4-tilleggskapital">§ 4. Tilleggskapital</h4>
 <p>Tilleggskapitalen kan bestå av følgende poster:</p>
 <ol>
@@ -140,7 +213,7 @@ d. Evne til å dekke tap
 <li>45 prosent av urealiserte gevinster på investeringseiendommer og varige driftsmidler som omfattes av § 7 første ledd bokstav i, jf. International Accounting Standards (IAS) 40 og IAS 16. Bestemmelsen gjelder ikke for pensjonsforetak.</li>
 <li>Overskytende beløp av annen godkjent kjernekapital, jf. § 9 første ledd bokstav d.</li>
 </ol>
-<p><em>Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 18 des 2009 nr. 1726 (i kraft 21 des 2009), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 18 des 2009 nr. 1726 (i kraft 21 des 2009), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</p>
 <h4 id="5-opphevet-1-jan-2007-vedforskrift-14-des-2006-nr-1507">§ 5. (Opphevet 1 jan 2007 vedforskrift 14 des 2006 nr. 1507.)</h4>
 <h4 id="6-opphevet-vedforskrift-23-des-1992-nr-1202">§ 6. (Opphevet vedforskrift 23 des 1992 nr. 1202.)</h4>
 <h4 id="7-fradragsposter">§ 7. Fradragsposter</h4>
@@ -168,13 +241,13 @@ s. Dersom fradragene i tilleggskapitalen i henhold til § 7 annet ledd bokstav a
 <p>a. Beholdning av egne instrumenter nevnt i § 4 nr. 2 og 3.
 b. Femti prosent av bokført verdi av ansvarlig kapital i andre finansforetak og verdipapirforetak for den del av den ansvarlige kapital i det mottakende finansforetaket eller verdipapirforetaket som overstiger to prosent. Det skal ikke gjøres fradrag for ansvarlig kapital i andre finansforetak og verdipapirforetak som ved anvendelsen av kapitaldekningsreglene på konsolidert basis skal konsolideres med det rapporterende foretaket. Bestemmelsene i første og annet punktum gjelder ikke for livsforsikring med investeringsvalg uten avkastningsgaranti.
 c. Femti prosent av bokførte verdier av ansvarlig kapital som ikke trekkes fra i henhold til første ledd bokstav m første punktum og annet ledd bokstav b første punktum, for den delen av summen av slik ansvarlig kapital som overstiger ti prosent av finansforetakets egen ansvarlige kapital. Bestemmelsene i første punktum gjelder ikke for livsforsikring med investeringsvalg uten avkastningsgaranti.</p>
-<p><em>Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 10 mai 1999 nr. 562 (i kraft 1 juli 1999), 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 17 mars 2000 nr. 276 , 22 des 2003 nr. 1770 (i kraft 1 jan 2004), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 4 april 2008 nr. 339 , 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 17 juli 1996 nr. 781 (i kraft 31 des 1996), 10 mai 1999 nr. 562 (i kraft 1 juli 1999), 11 jan 2000 nr. 22 (fom regnskapsåret 1999), 17 mars 2000 nr. 276 , 22 des 2003 nr. 1770 (i kraft 1 jan 2004), 14 des 2006 nr. 1507 (i kraft 1 jan 2007), 4 april 2008 nr. 339 , 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</p>
 <h4 id="8-tillegg">§ 8. Tillegg</h4>
 <p>Følgende poster skal legges til kjernekapitalen:</p>
 <p>a. Netto urealisert tap på utlån, sertifikater og obligasjoner klassifisert som tilgjengelig for salg, jf. IAS 39, med unntak for nedskrivning som følge av svekket kredittverdighet. Bestemmelsen gjelder ikke for pensjonsforetak.
 b. Netto urealisert tap på sikringsinstrumenter ved kontantstrømssikring, jf. International Accounting Standards (IAS) 39.
 c. Urealisert tap fratrukket kjernekapitalen som følge av økt verdi av gjeld og som skyldes en bedring av foretakets egen kredittverdighet, jf. International Accounting Standards (IAS) 39.</p>
-<p><em>Tilføyd ved forskrift 14 des 2006 nr. 1507 (i kraft 1 jan 2007), endret ved forskrift 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 14 des 2006 nr. 1507 (i kraft 1 jan 2007), endret ved forskrift 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</p>
 <h4 id="9-begrensninger">§ 9. Begrensninger</h4>
 <p>Følgende begrensninger skal gjelde:</p>
 <p>a. Summen av de poster som inngår i tilleggskapitalen kan ikke utgjøre mer enn 100 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i bokstav e.
@@ -183,17 +256,19 @@ c. –
 d. Summen av annen godkjent kjernekapital i henhold til § 3a første ledd bokstav a, b og c kan ikke utgjøre mer enn 50 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i bokstav e. Summen av annen godkjent kjernekapital i henhold til § 3a første ledd bokstav a og b kan ikke utgjøre mer enn 35 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i bokstav e. Annen godkjent kjernekapital i henhold til § 3a første ledd bokstav a kan ikke utgjøre mer enn 15 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i bokstav e.
 e. Fradrag av postene nevnt i § 7 første ledd bokstav a til l og r og tillegg av postene nevnt i § 8 bokstav a til c.</p>
 <p>Finanstilsynet kan i særlige tilfeller og for en tidsbegrenset periode samtykke i at et finansforetak kan ha en sammensetning av den ansvarlige kapitalen som overskrider grensene som følger av første ledd.</p>
-<p><em>Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 8), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 8), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), 9 des 2016 nr. 1528 (i kraft 1 jan 2017).</p>
 <h4 id="11-overgangsbestemmelser">§ 11. Overgangsbestemmelser</h4>
 <p>Fondsobligasjonskapital opptatt før 31. desember 2010 som teller med som kjernekapital per 31. desember 2010, men som ikke oppfyller vilkårene i § 3a , skal kunne medregnes som annen godkjent kjernekapital etter § 3a frem til 1. januar 2041, men slik at beløpet som medregnes fra 1. januar 2021 begrenses til maksimalt 20 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i § 9 bokstav e, og slik at beløpet som medregnes fra 1. januar 2031 begrenses til maksimalt 10 prosent av kjernekapitalen etter fradrag og tillegg som spesifisert i § 9 bokstav e.</p>
-<p><em>Endret ved forskrifter 17 mars 2000 nr. 276 , 20 des 2005 nr. 1602 (i kraft 1 jan 2006 med virkning for regnskapsår som starter 1 jan 2005 eller senere), 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 10), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</em></p>
+<p class="note">Endret ved forskrifter 17 mars 2000 nr. 276 , 20 des 2005 nr. 1602 (i kraft 1 jan 2006 med virkning for regnskapsår som starter 1 jan 2005 eller senere), 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 10), 20 des 2010 nr. 1717 (i kraft 1 jan 2011), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014).</p>
 <h2 id="del-b">Del B</h2>
 <p>Tilføyd ved forskrift 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), opphevet ved forskrift 19 des 2019 nr. 2111 (i kraft 31 des 2019, unntatt § 22).</p>
 <p>§ 12 – § 21 (Opphevet)</p>
 <p>Tilføyd ved forskrift 22 aug 2014 nr. 1103 (i kraft 30 sep 2014), endret ved forskrift 9 des 2016 nr. 1528 (i kraft 1 jan 2017), opphevet ved forskrift 19 des 2019 nr. 2111 (i kraft 31 des 2019).</p>
 <h4 id="22-ikrafttreden">§ 22. Ikrafttreden</h4>
 <p>Denne forskrift trer i kraft samtidig med forskrift om minstekrav til kapitaldekning i finansinstitusjoner, jf. lov 10. juni 1988 nr. 40 om finansieringsvirksomhet og finansinstitusjoner §§ 2-9 tredje ledd og 3-17 .</p>
-<p><em>Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 9), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014, tidligere § 10).</em></p>
+<p class="note">Endret ved forskrifter 14 des 2006 nr. 1507 (i kraft 1 jan 2007, tidligere § 9), 22 aug 2014 nr. 1103 (i kraft 30 sep 2014, tidligere § 10).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

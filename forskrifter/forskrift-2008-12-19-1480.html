@@ -19,64 +19,337 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2008-12-19-1480.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om valg til Sametinget" href="../feeds/forskrift-2008-12-19-1480.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Forskrift om valg til Sametinget</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2008-12-19-1480</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2008-12-19</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-23-1190</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2008-12-19-1480" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forskriftens-formal-og-virkeomrade">Kapittel 1. Forskriftens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-forskriftens-formal">§ 1. Forskriftens formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-sametingets-valgmanntall">Kapittel 2. Stemmerett og Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#3-stemmerett">§ 3. Stemmerett</a></li>
+<li class="lvl4"><a href="#4-sametingets-valgmanntall">§ 4. Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#5-innfring-i-sametingets-valgmanntall">§ 5. Innføring i Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#6-sametingets-ansvar-for-a-fre-sametingets-valgmanntall">§ 6. Sametingets ansvar for å føre Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#7-kunngjring-om-manntallsfringen">§ 7. Kunngjøring om manntallsføringen</a></li>
+<li class="lvl4"><a href="#8-utlegging-av-sametingets-valgmanntall">§ 8. Utlegging av Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#9-krav-om-retting-og-oppdatering-av-sametingets-valgmanntall">§ 9. Krav om retting og oppdatering av Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#10-grunnlag-for-oppdatering-av-sametingets-valgmanntall-etter-30-juni">§ 10. Grunnlag for oppdatering av Sametingets valgmanntall etter 30. juni</a></li>
+<li class="lvl4"><a href="#11-underretninger-om-endringer-i-sametingets-valgmanntall">§ 11. Underretninger om endringer i Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#12-tilgang-til-valgmanntallseksemplar">§ 12. Tilgang til valgmanntallseksemplar</a></li>
+<li class="lvl4"><a href="#13-valgkort">§ 13. Valgkort</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-og-plikt-til-a-ta-imot-valg">Kapittel 3. Valgbarhet og plikt til å ta imot valg</a></li>
+<li class="lvl4"><a href="#14-valgbarhet">§ 14. Valgbarhet</a></li>
+<li class="lvl4"><a href="#15-utelukkelse-fra-valg">§ 15. Utelukkelse fra valg</a></li>
+<li class="lvl4"><a href="#16-rett-til-a-kreve-fritak">§ 16. Rett til å kreve fritak</a></li>
+<li class="lvl2"><a href="#kapittel-4-valgorganene">Kapittel 4. Valgorganene</a></li>
+<li class="lvl4"><a href="#17-samevalgstyre-ansvar-for-stemmingen-i-et-valglokale">§ 17. Samevalgstyre. Ansvar for stemmingen i et valglokale</a></li>
+<li class="lvl4"><a href="#18-sametingets-valgnemnd">§ 18. Sametingets valgnemnd</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-av-samepolitiske-organisasjoner">Kapittel 5. Registrering av samepolitiske organisasjoner</a></li>
+<li class="lvl4"><a href="#19-registreringsmyndigheten-virkninger-av-registreringen">§ 19. Registreringsmyndigheten. Virkninger av registreringen</a></li>
+<li class="lvl4"><a href="#20-vilkar-for-registrering-hos-sametinget">§ 20. Vilkår for registrering hos Sametinget</a></li>
+<li class="lvl4"><a href="#21-om-fremsetting-av-sknaden-krav-til-underskrift">§ 21. Om fremsetting av søknaden. Krav til underskrift</a></li>
+<li class="lvl4"><a href="#22-endring-av-registrert-navn-sammenslaing-av-registrerte-organisasjoner-under-nytt-navn">§ 22. Endring av registrert navn. Sammenslåing av registrerte organisasjoner under nytt navn</a></li>
+<li class="lvl4"><a href="#23-avregistrering-nar-et-registrert-navn-blir-fritt">§ 23. Avregistrering. Når et registrert navn blir fritt</a></li>
+<li class="lvl4"><a href="#24-opplysninger-om-hvem-som-sitter-i-organisasjonens-utvende-organ">§ 24. Opplysninger om hvem som sitter i organisasjonens utøvende organ</a></li>
+<li class="lvl4"><a href="#25-opplysninger-som-skal-registreres-offentlighet-underretning">§ 25. Opplysninger som skal registreres. Offentlighet. Underretning</a></li>
+<li class="lvl4"><a href="#26-kunngjring-av-vedtak">§ 26. Kunngjøring av vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-6-listeforslagene-og-behandlingen-av-disse">Kapittel 6. Listeforslagene og behandlingen av disse</a></li>
+<li class="lvl4"><a href="#27-kunngjring">§ 27. Kunngjøring</a></li>
+<li class="lvl4"><a href="#28-krav-til-listeforslaget">§ 28. Krav til listeforslaget</a></li>
+<li class="lvl4"><a href="#28a-opphevet">§ 28a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-vedlegg-til-listeforslaget">§ 29. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#30-underskrifter-pa-listeforslag-taushetsplikt">§ 30. Underskrifter på listeforslag. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#31-tilbakekalling-av-listeforslag">§ 31. Tilbakekalling av listeforslag</a></li>
+<li class="lvl4"><a href="#32-behandling-av-listeforslagene-godkjenning-av-valglistene">§ 32. Behandling av listeforslagene. Godkjenning av valglistene</a></li>
+<li class="lvl4"><a href="#33-underretning-til-forslagstillerne-offentliggjring-av-godkjente-valglister">§ 33. Underretning til forslagstillerne. Offentliggjøring av godkjente valglister</a></li>
+<li class="lvl4"><a href="#34-klage">§ 34. Klage</a></li>
+<li class="lvl2"><a href="#kapittel-7-utfring-og-trykking-av-stemmesedler">Kapittel 7. Utføring og trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#35-trykking-av-stemmesedler">§ 35. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#36-krav-til-stemmesedler-med-kandidatnavn">§ 36. Krav til stemmesedler med kandidatnavn</a></li>
+<li class="lvl4"><a href="#37-plikt-til-a-produsere-blanke-stemmesedler">§ 37. Plikt til å produsere blanke stemmesedler</a></li>
+<li class="lvl4"><a href="#38-rett-til-a-fa-stemmesedler">§ 38. Rett til å få stemmesedler</a></li>
+<li class="lvl4"><a href="#39-velgernes-adgang-til-a-endre-pa-stemmesedlene">§ 39. Velgernes adgang til å endre på stemmesedlene</a></li>
+<li class="lvl2"><a href="#kapittel-8-forhandsstemmegivningen">Kapittel 8. Forhåndsstemmegivningen</a></li>
+<li class="lvl4"><a href="#39a-velgere-som-bare-kan-avgi-forhandsstemme">§ 39a. Velgere som bare kan avgi forhåndsstemme</a></li>
+<li class="lvl4"><a href="#40-perioden-for-forhandsstemmegivningen-kunngjring">§ 40. Perioden for forhåndsstemmegivningen. Kunngjøring</a></li>
+<li class="lvl4"><a href="#40a-opphevet">§ 40a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41-hvem-kan-motta-forhandsstemmer">§ 41. Hvem kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#42-pa-hvilke-steder-det-kan-mottas-forhandsstemmer">§ 42. På hvilke steder det kan mottas forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#42a-opphevet">§ 42a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#42b-opphevet">§ 42b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43-fremgangsmaten-ved-stemmegivningen">§ 43. Fremgangsmåten ved stemmegivningen</a></li>
+<li class="lvl4"><a href="#44-fremgangsmaten-ved-brevstemmegivning-utenriks">§ 44. Fremgangsmåten ved brevstemmegivning utenriks</a></li>
+<li class="lvl4"><a href="#45-ordensregler">§ 45. Ordensregler</a></li>
+<li class="lvl4"><a href="#46-tmming-av-urner-oppbevaring-og-transport-av-valgmateriell-mv">§ 46. Tømming av urner. Oppbevaring og transport av valgmateriell mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-stemmegivning-pa-valgtinget">Kapittel 9. Stemmegivning på valgtinget</a></li>
+<li class="lvl4"><a href="#47-tid-og-sted-for-stemmegivningen">§ 47. Tid og sted for stemmegivningen</a></li>
+<li class="lvl4"><a href="#47a-opphevet">§ 47a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#47b-opphevet">§ 47b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#48-kunngjring-om-stemmegivningen">§ 48. Kunngjøring om stemmegivningen</a></li>
+<li class="lvl4"><a href="#49-ordensregler">§ 49. Ordensregler</a></li>
+<li class="lvl4"><a href="#50-stemmegivningen-i-valglokalet">§ 50. Stemmegivningen i valglokalet</a></li>
+<li class="lvl4"><a href="#51-bruk-av-omslagskonvolutt">§ 51. Bruk av omslagskonvolutt</a></li>
+<li class="lvl4"><a href="#52-stemmegivning-umiddelbart-utenfor-valglokalet">§ 52. Stemmegivning umiddelbart utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#53-tmming-av-urner-i-lpet-av-valgdagen">§ 53. Tømming av urner i løpet av valgdagen</a></li>
+<li class="lvl4"><a href="#54-oppbevaring-og-transport-av-valgmateriell-forsegling">§ 54. Oppbevaring og transport av valgmateriell. Forsegling.</a></li>
+<li class="lvl4"><a href="#55-offentliggjring-av-valgresultater-og-prognoser">§ 55. Offentliggjøring av valgresultater og prognoser</a></li>
+<li class="lvl2"><a href="#kapittel-10-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 10. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</a></li>
+<li class="lvl4"><a href="#56-godkjenning-av-stemmegivning-avgitt-pa-forhand">§ 56. Godkjenning av stemmegivning avgitt på forhånd</a></li>
+<li class="lvl4"><a href="#57-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 57. Godkjenning av stemmegivning avgitt på valgtinget</a></li>
+<li class="lvl4"><a href="#58-apning-av-omslags-og-stemmeseddelkonvolutter">§ 58. Åpning av omslags- og stemmeseddelkonvolutter</a></li>
+<li class="lvl4"><a href="#59-flere-stemmeseddelkonvolutter-eller-stemmesedler-fra-samme-velger">§ 59. Flere stemmeseddelkonvolutter eller stemmesedler fra samme velger</a></li>
+<li class="lvl4"><a href="#60-godkjenning-av-stemmesedler">§ 60. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#61-velgeren-har-levert-flere-stemmesedler">§ 61. Velgeren har levert flere stemmesedler</a></li>
+<li class="lvl4"><a href="#62-ansvar-for-opptelling-og-valgoppgjr">§ 62. Ansvar for opptelling og valgoppgjør</a></li>
+<li class="lvl4"><a href="#63-forsendelse">§ 63. Forsendelse</a></li>
+<li class="lvl4"><a href="#64-prinsipper-for-opptellingen">§ 64. Prinsipper for opptellingen</a></li>
+<li class="lvl4"><a href="#65-forelpig-opptelling-rapportering-av-forelpige-resultater">§ 65. Foreløpig opptelling. Rapportering av foreløpige resultater</a></li>
+<li class="lvl4"><a href="#65a-opphevet">§ 65a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#66-endelig-opptelling">§ 66. Endelig opptelling</a></li>
+<li class="lvl4"><a href="#67-protokollering-fastsetting-av-formular">§ 67. Protokollering. Fastsetting av formular</a></li>
+<li class="lvl2"><a href="#kapittel-11-mandatfordelingen-og-kandidatkaringen">Kapittel 11. Mandatfordelingen og kandidatkåringen</a></li>
+<li class="lvl4"><a href="#67a-fordeling-av-mandatene-pa-valgkretsene">§ 67a. Fordeling av mandatene på valgkretsene</a></li>
+<li class="lvl4"><a href="#68-valgoppgjret-fordeling-av-mandatene">§ 68. Valgoppgjøret. Fordeling av mandatene</a></li>
+<li class="lvl4"><a href="#69-kandidatkaringen">§ 69. Kandidatkåringen</a></li>
+<li class="lvl4"><a href="#70-bokfring-av-valgresultatet-innsending-til-sametingets-valgnemnd">§ 70. Bokføring av valgresultatet. Innsending til Sametingets valgnemnd</a></li>
+<li class="lvl4"><a href="#71-opphevet">§ 71. (Opphevet)</a></li>
+<li class="lvl4"><a href="#72-fullmakt-for-de-valgte-representantene">§ 72. Fullmakt for de valgte representantene</a></li>
+<li class="lvl2"><a href="#kapittel-12-flertallsvalg">Kapittel 12. Flertallsvalg</a></li>
+<li class="lvl4"><a href="#73-vilkarene-for-flertallsvalg">§ 73. Vilkårene for flertallsvalg</a></li>
+<li class="lvl4"><a href="#74-fremgangsmaten-ved-flertallsvalg">§ 74. Fremgangsmåten ved flertallsvalg</a></li>
+<li class="lvl4"><a href="#75-valgoppgjr-ved-flertallsvalg">§ 75. Valgoppgjør ved flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-prving-av-valgets-gyldighet-klage">Kapittel 13. Prøving av valgets gyldighet. Klage</a></li>
+<li class="lvl4"><a href="#76-klage">§ 76. Klage</a></li>
+<li class="lvl4"><a href="#77-kontroll-av-valget-ugyldig-valg-omvalg">§ 77. Kontroll av valget. Ugyldig valg – omvalg</a></li>
+<li class="lvl4"><a href="#78-gjennomfring-av-omvalg">§ 78. Gjennomføring av omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-14-nytt-valgoppgjr-i-valgperioden">Kapittel 14. Nytt valgoppgjør i valgperioden</a></li>
+<li class="lvl4"><a href="#79-nytt-valgoppgjr">§ 79. Nytt valgoppgjør</a></li>
+<li class="lvl2"><a href="#kapittel-15-forskjellige-bestemmelser">Kapittel 15. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#80-oppbevaring-avhending-og-tilintetgjring-av-valgmateriell">§ 80. Oppbevaring, avhending og tilintetgjøring av valgmateriell</a></li>
+<li class="lvl4"><a href="#81-tilgang-til-manntallet-og-det-vrige-materiellet-offentlighet">§ 81. Tilgang til manntallet og det øvrige materiellet – offentlighet</a></li>
+<li class="lvl4"><a href="#82-taushetsplikt">§ 82. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#83-beregning-av-frister-oversittelse">§ 83. Beregning av frister. Oversittelse</a></li>
+<li class="lvl4"><a href="#84-opplysningsplikt">§ 84. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#85-oppgaver-til-valgstatistikk">§ 85. Oppgaver til valgstatistikk</a></li>
+<li class="lvl4"><a href="#85a-om-valgobservasjon">§ 85a. Om valgobservasjon</a></li>
+<li class="lvl4"><a href="#86-utgiftene-ved-sametingsvalget">§ 86. Utgiftene ved sametingsvalget</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelse">Kapittel 16. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#87-ikrafttredelse">§ 87. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#samisk-oversettelse">Samisk oversettelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-23-1190.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-12-19-1480.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om valg til Sametinget</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2008-12-19-1480.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2008-12-19-1480 <code>forskrift/2008-12-19-1480</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>19.12.2008</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-23-1190 <code>forskrift/2025-06-23-1190</code> fra 23.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2008-12-19-1480" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-forskriftens-formal-og-virkeomrade">Kapittel 1. Forskriftens formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-forskriftens-formal">§ 1. Forskriftens formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-virkeomrade">§ 2. Forskriftens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-stemmerett-og-sametingets-valgmanntall">Kapittel 2. Stemmerett og Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#3-stemmerett">§ 3. Stemmerett</a></li>
+<li class="lvl4"><a href="#4-sametingets-valgmanntall">§ 4. Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#5-innfring-i-sametingets-valgmanntall">§ 5. Innføring i Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#6-sametingets-ansvar-for-a-fre-sametingets-valgmanntall">§ 6. Sametingets ansvar for å føre Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#7-kunngjring-om-manntallsfringen">§ 7. Kunngjøring om manntallsføringen</a></li>
+<li class="lvl4"><a href="#8-utlegging-av-sametingets-valgmanntall">§ 8. Utlegging av Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#9-krav-om-retting-og-oppdatering-av-sametingets-valgmanntall">§ 9. Krav om retting og oppdatering av Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#10-grunnlag-for-oppdatering-av-sametingets-valgmanntall-etter-30-juni">§ 10. Grunnlag for oppdatering av Sametingets valgmanntall etter 30. juni</a></li>
+<li class="lvl4"><a href="#11-underretninger-om-endringer-i-sametingets-valgmanntall">§ 11. Underretninger om endringer i Sametingets valgmanntall</a></li>
+<li class="lvl4"><a href="#12-tilgang-til-valgmanntallseksemplar">§ 12. Tilgang til valgmanntallseksemplar</a></li>
+<li class="lvl4"><a href="#13-valgkort">§ 13. Valgkort</a></li>
+<li class="lvl2"><a href="#kapittel-3-valgbarhet-og-plikt-til-a-ta-imot-valg">Kapittel 3. Valgbarhet og plikt til å ta imot valg</a></li>
+<li class="lvl4"><a href="#14-valgbarhet">§ 14. Valgbarhet</a></li>
+<li class="lvl4"><a href="#15-utelukkelse-fra-valg">§ 15. Utelukkelse fra valg</a></li>
+<li class="lvl4"><a href="#16-rett-til-a-kreve-fritak">§ 16. Rett til å kreve fritak</a></li>
+<li class="lvl2"><a href="#kapittel-4-valgorganene">Kapittel 4. Valgorganene</a></li>
+<li class="lvl4"><a href="#17-samevalgstyre-ansvar-for-stemmingen-i-et-valglokale">§ 17. Samevalgstyre. Ansvar for stemmingen i et valglokale</a></li>
+<li class="lvl4"><a href="#18-sametingets-valgnemnd">§ 18. Sametingets valgnemnd</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-av-samepolitiske-organisasjoner">Kapittel 5. Registrering av samepolitiske organisasjoner</a></li>
+<li class="lvl4"><a href="#19-registreringsmyndigheten-virkninger-av-registreringen">§ 19. Registreringsmyndigheten. Virkninger av registreringen</a></li>
+<li class="lvl4"><a href="#20-vilkar-for-registrering-hos-sametinget">§ 20. Vilkår for registrering hos Sametinget</a></li>
+<li class="lvl4"><a href="#21-om-fremsetting-av-sknaden-krav-til-underskrift">§ 21. Om fremsetting av søknaden. Krav til underskrift</a></li>
+<li class="lvl4"><a href="#22-endring-av-registrert-navn-sammenslaing-av-registrerte-organisasjoner-under-nytt-navn">§ 22. Endring av registrert navn. Sammenslåing av registrerte organisasjoner under nytt navn</a></li>
+<li class="lvl4"><a href="#23-avregistrering-nar-et-registrert-navn-blir-fritt">§ 23. Avregistrering. Når et registrert navn blir fritt</a></li>
+<li class="lvl4"><a href="#24-opplysninger-om-hvem-som-sitter-i-organisasjonens-utvende-organ">§ 24. Opplysninger om hvem som sitter i organisasjonens utøvende organ</a></li>
+<li class="lvl4"><a href="#25-opplysninger-som-skal-registreres-offentlighet-underretning">§ 25. Opplysninger som skal registreres. Offentlighet. Underretning</a></li>
+<li class="lvl4"><a href="#26-kunngjring-av-vedtak">§ 26. Kunngjøring av vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-6-listeforslagene-og-behandlingen-av-disse">Kapittel 6. Listeforslagene og behandlingen av disse</a></li>
+<li class="lvl4"><a href="#27-kunngjring">§ 27. Kunngjøring</a></li>
+<li class="lvl4"><a href="#28-krav-til-listeforslaget">§ 28. Krav til listeforslaget</a></li>
+<li class="lvl4"><a href="#28a-opphevet">§ 28a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-vedlegg-til-listeforslaget">§ 29. Vedlegg til listeforslaget</a></li>
+<li class="lvl4"><a href="#30-underskrifter-pa-listeforslag-taushetsplikt">§ 30. Underskrifter på listeforslag. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#31-tilbakekalling-av-listeforslag">§ 31. Tilbakekalling av listeforslag</a></li>
+<li class="lvl4"><a href="#32-behandling-av-listeforslagene-godkjenning-av-valglistene">§ 32. Behandling av listeforslagene. Godkjenning av valglistene</a></li>
+<li class="lvl4"><a href="#33-underretning-til-forslagstillerne-offentliggjring-av-godkjente-valglister">§ 33. Underretning til forslagstillerne. Offentliggjøring av godkjente valglister</a></li>
+<li class="lvl4"><a href="#34-klage">§ 34. Klage</a></li>
+<li class="lvl2"><a href="#kapittel-7-utfring-og-trykking-av-stemmesedler">Kapittel 7. Utføring og trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#35-trykking-av-stemmesedler">§ 35. Trykking av stemmesedler</a></li>
+<li class="lvl4"><a href="#36-krav-til-stemmesedler-med-kandidatnavn">§ 36. Krav til stemmesedler med kandidatnavn</a></li>
+<li class="lvl4"><a href="#37-plikt-til-a-produsere-blanke-stemmesedler">§ 37. Plikt til å produsere blanke stemmesedler</a></li>
+<li class="lvl4"><a href="#38-rett-til-a-fa-stemmesedler">§ 38. Rett til å få stemmesedler</a></li>
+<li class="lvl4"><a href="#39-velgernes-adgang-til-a-endre-pa-stemmesedlene">§ 39. Velgernes adgang til å endre på stemmesedlene</a></li>
+<li class="lvl2"><a href="#kapittel-8-forhandsstemmegivningen">Kapittel 8. Forhåndsstemmegivningen</a></li>
+<li class="lvl4"><a href="#39a-velgere-som-bare-kan-avgi-forhandsstemme">§ 39a. Velgere som bare kan avgi forhåndsstemme</a></li>
+<li class="lvl4"><a href="#40-perioden-for-forhandsstemmegivningen-kunngjring">§ 40. Perioden for forhåndsstemmegivningen. Kunngjøring</a></li>
+<li class="lvl4"><a href="#40a-opphevet">§ 40a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41-hvem-kan-motta-forhandsstemmer">§ 41. Hvem kan motta forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#42-pa-hvilke-steder-det-kan-mottas-forhandsstemmer">§ 42. På hvilke steder det kan mottas forhåndsstemmer</a></li>
+<li class="lvl4"><a href="#42a-opphevet">§ 42a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#42b-opphevet">§ 42b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43-fremgangsmaten-ved-stemmegivningen">§ 43. Fremgangsmåten ved stemmegivningen</a></li>
+<li class="lvl4"><a href="#44-fremgangsmaten-ved-brevstemmegivning-utenriks">§ 44. Fremgangsmåten ved brevstemmegivning utenriks</a></li>
+<li class="lvl4"><a href="#45-ordensregler">§ 45. Ordensregler</a></li>
+<li class="lvl4"><a href="#46-tmming-av-urner-oppbevaring-og-transport-av-valgmateriell-mv">§ 46. Tømming av urner. Oppbevaring og transport av valgmateriell mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-stemmegivning-pa-valgtinget">Kapittel 9. Stemmegivning på valgtinget</a></li>
+<li class="lvl4"><a href="#47-tid-og-sted-for-stemmegivningen">§ 47. Tid og sted for stemmegivningen</a></li>
+<li class="lvl4"><a href="#47a-opphevet">§ 47a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#47b-opphevet">§ 47b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#48-kunngjring-om-stemmegivningen">§ 48. Kunngjøring om stemmegivningen</a></li>
+<li class="lvl4"><a href="#49-ordensregler">§ 49. Ordensregler</a></li>
+<li class="lvl4"><a href="#50-stemmegivningen-i-valglokalet">§ 50. Stemmegivningen i valglokalet</a></li>
+<li class="lvl4"><a href="#51-bruk-av-omslagskonvolutt">§ 51. Bruk av omslagskonvolutt</a></li>
+<li class="lvl4"><a href="#52-stemmegivning-umiddelbart-utenfor-valglokalet">§ 52. Stemmegivning umiddelbart utenfor valglokalet</a></li>
+<li class="lvl4"><a href="#53-tmming-av-urner-i-lpet-av-valgdagen">§ 53. Tømming av urner i løpet av valgdagen</a></li>
+<li class="lvl4"><a href="#54-oppbevaring-og-transport-av-valgmateriell-forsegling">§ 54. Oppbevaring og transport av valgmateriell. Forsegling.</a></li>
+<li class="lvl4"><a href="#55-offentliggjring-av-valgresultater-og-prognoser">§ 55. Offentliggjøring av valgresultater og prognoser</a></li>
+<li class="lvl2"><a href="#kapittel-10-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 10. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</a></li>
+<li class="lvl4"><a href="#56-godkjenning-av-stemmegivning-avgitt-pa-forhand">§ 56. Godkjenning av stemmegivning avgitt på forhånd</a></li>
+<li class="lvl4"><a href="#57-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 57. Godkjenning av stemmegivning avgitt på valgtinget</a></li>
+<li class="lvl4"><a href="#58-apning-av-omslags-og-stemmeseddelkonvolutter">§ 58. Åpning av omslags- og stemmeseddelkonvolutter</a></li>
+<li class="lvl4"><a href="#59-flere-stemmeseddelkonvolutter-eller-stemmesedler-fra-samme-velger">§ 59. Flere stemmeseddelkonvolutter eller stemmesedler fra samme velger</a></li>
+<li class="lvl4"><a href="#60-godkjenning-av-stemmesedler">§ 60. Godkjenning av stemmesedler</a></li>
+<li class="lvl4"><a href="#61-velgeren-har-levert-flere-stemmesedler">§ 61. Velgeren har levert flere stemmesedler</a></li>
+<li class="lvl4"><a href="#62-ansvar-for-opptelling-og-valgoppgjr">§ 62. Ansvar for opptelling og valgoppgjør</a></li>
+<li class="lvl4"><a href="#63-forsendelse">§ 63. Forsendelse</a></li>
+<li class="lvl4"><a href="#64-prinsipper-for-opptellingen">§ 64. Prinsipper for opptellingen</a></li>
+<li class="lvl4"><a href="#65-forelpig-opptelling-rapportering-av-forelpige-resultater">§ 65. Foreløpig opptelling. Rapportering av foreløpige resultater</a></li>
+<li class="lvl4"><a href="#65a-opphevet">§ 65a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#66-endelig-opptelling">§ 66. Endelig opptelling</a></li>
+<li class="lvl4"><a href="#67-protokollering-fastsetting-av-formular">§ 67. Protokollering. Fastsetting av formular</a></li>
+<li class="lvl2"><a href="#kapittel-11-mandatfordelingen-og-kandidatkaringen">Kapittel 11. Mandatfordelingen og kandidatkåringen</a></li>
+<li class="lvl4"><a href="#67a-fordeling-av-mandatene-pa-valgkretsene">§ 67a. Fordeling av mandatene på valgkretsene</a></li>
+<li class="lvl4"><a href="#68-valgoppgjret-fordeling-av-mandatene">§ 68. Valgoppgjøret. Fordeling av mandatene</a></li>
+<li class="lvl4"><a href="#69-kandidatkaringen">§ 69. Kandidatkåringen</a></li>
+<li class="lvl4"><a href="#70-bokfring-av-valgresultatet-innsending-til-sametingets-valgnemnd">§ 70. Bokføring av valgresultatet. Innsending til Sametingets valgnemnd</a></li>
+<li class="lvl4"><a href="#71-opphevet">§ 71. (Opphevet)</a></li>
+<li class="lvl4"><a href="#72-fullmakt-for-de-valgte-representantene">§ 72. Fullmakt for de valgte representantene</a></li>
+<li class="lvl2"><a href="#kapittel-12-flertallsvalg">Kapittel 12. Flertallsvalg</a></li>
+<li class="lvl4"><a href="#73-vilkarene-for-flertallsvalg">§ 73. Vilkårene for flertallsvalg</a></li>
+<li class="lvl4"><a href="#74-fremgangsmaten-ved-flertallsvalg">§ 74. Fremgangsmåten ved flertallsvalg</a></li>
+<li class="lvl4"><a href="#75-valgoppgjr-ved-flertallsvalg">§ 75. Valgoppgjør ved flertallsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-13-prving-av-valgets-gyldighet-klage">Kapittel 13. Prøving av valgets gyldighet. Klage</a></li>
+<li class="lvl4"><a href="#76-klage">§ 76. Klage</a></li>
+<li class="lvl4"><a href="#77-kontroll-av-valget-ugyldig-valg-omvalg">§ 77. Kontroll av valget. Ugyldig valg – omvalg</a></li>
+<li class="lvl4"><a href="#78-gjennomfring-av-omvalg">§ 78. Gjennomføring av omvalg</a></li>
+<li class="lvl2"><a href="#kapittel-14-nytt-valgoppgjr-i-valgperioden">Kapittel 14. Nytt valgoppgjør i valgperioden</a></li>
+<li class="lvl4"><a href="#79-nytt-valgoppgjr">§ 79. Nytt valgoppgjør</a></li>
+<li class="lvl2"><a href="#kapittel-15-forskjellige-bestemmelser">Kapittel 15. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#80-oppbevaring-avhending-og-tilintetgjring-av-valgmateriell">§ 80. Oppbevaring, avhending og tilintetgjøring av valgmateriell</a></li>
+<li class="lvl4"><a href="#81-tilgang-til-manntallet-og-det-vrige-materiellet-offentlighet">§ 81. Tilgang til manntallet og det øvrige materiellet – offentlighet</a></li>
+<li class="lvl4"><a href="#82-taushetsplikt">§ 82. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#83-beregning-av-frister-oversittelse">§ 83. Beregning av frister. Oversittelse</a></li>
+<li class="lvl4"><a href="#84-opplysningsplikt">§ 84. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#85-oppgaver-til-valgstatistikk">§ 85. Oppgaver til valgstatistikk</a></li>
+<li class="lvl4"><a href="#85a-om-valgobservasjon">§ 85a. Om valgobservasjon</a></li>
+<li class="lvl4"><a href="#86-utgiftene-ved-sametingsvalget">§ 86. Utgiftene ved sametingsvalget</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelse">Kapittel 16. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#87-ikrafttredelse">§ 87. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#samisk-oversettelse">Samisk oversettelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-12-19-1480.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2008-12-19-1480.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2008-12-19-1480.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2008-12-19-1480.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2008-12-19-1480.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2008-12-19-1480.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2008-12-19-1480.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2008-12-19-1480.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2008-12-19-1480.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-valg-til-sametinget">Forskrift om valg til Sametinget</h1>
 <h2 id="kapittel-1-forskriftens-formal-og-virkeomrade">Kapittel 1. Forskriftens formål og virkeområde</h2>
 <h4 id="1-forskriftens-formal">§ 1. Forskriftens formål</h4>
 <p>Formålet med forskriften er å legge forholdene til rette slik at den samiske befolkningen ved frie, direkte og hemmelige valg skal kunne velge sine representanter til Sametinget.</p>
@@ -93,7 +366,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(5) Stemmeberettigede samer på Svalbard og Jan Mayen skal føres inn i valgmanntallet i den kommunen der de sist var folkeregisterført som bosatt.</p>
 <p>(6) Stemmeberettigede norske samer som er bosatt utenfor Norge, skal føres inn i valgmanntallet i den kommunen der de sist var folkeregisterført som bosatt. Dette gjelder bare dersom vedkommende har blitt registrert som innført i manntallet i løpet av de siste ti årene før valgdagen. Utenlandsboende norske samer som ikke oppfyller disse vilkårene, må søke om å bli innført i valgmanntallet. Søknaden må inneholde forsikring om at søkeren fortsatt er norsk statsborger dersom vedkommende ikke har vært registrert som bosatt i riket noen gang i løpet av de siste ti år før valgdagen.</p>
 <p>(7) Samer som er ansatt i diplomatiet eller konsulatvesenet og deres husstand, skal føres inn i valgmanntallet i den kommunen der de sist var registrert som bosatt. Dersom de ikke noen gang har vært folkeregisterført som bosatt i Norge, skal de føres inn i valgmanntallet i Oslo.</p>
-<p><em>Endret ved forskrifter 6 mai 2011 nr. 459 , 16 aug 2013 nr. 983 .</em></p>
+<p class="note">Endret ved forskrifter 6 mai 2011 nr. 459 , 16 aug 2013 nr. 983 .</p>
 <h4 id="5-innfring-i-sametingets-valgmanntall">§ 5. Innføring i Sametingets valgmanntall</h4>
 <p>(1) Innføring i Sametingets valgmanntall skjer i henhold til sameloven § 2-6 . Begjæring om innføring i valgmanntallet må ha blitt mottatt av Sametinget senest 30. juni i valgåret for at begjæringen skal få virkning ved valget, med mindre vedkommende kan bli innført i medhold av § 10 bokstav c) eller d).</p>
 <p>(2) Sametinget kan fastsette skjema som kan benyttes ved begjæring om innføring i valgmanntallet.</p>
@@ -101,11 +374,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Sametinget skal utarbeide Sametingets valgmanntall for den enkelte kommune og gjøre det tilgjengelig for vedkommende samevalgstyre og opptellingsvalgstyre så snart det lar seg gjøre.</p>
 <h4 id="7-kunngjring-om-manntallsfringen">§ 7. Kunngjøring om manntallsføringen</h4>
 <p>Senest 31. mai i valgåret skal Sametinget kunngjøre opplysning om at de som anser seg stemmeberettigede etter § 3 , kan sende melding med begjæring om å bli innført i Sametingets valgmanntall. Meldingen må være mottatt av Sametinget senest innen 30. juni. Velgere som har blitt innført i valgmanntallet i løpet av de siste ti årene, trenger ikke søke om innføring. Kunngjøringen skal også inneholde opplysning om at den som oversitter fristen ikke kan delta ved valget, med mindre vedkommende kan bli manntallsført i medhold av § 10 bokstav c) eller d). I kunngjøringen skal det også opplyses at de som ønsker seg innført i valgmanntallet, kan få skjema for begjæring om slik innføring ved henvendelse til Sametinget.</p>
-<p><em>Endret ved forskrift 16 aug 2013 nr. 983 .</em></p>
+<p class="note">Endret ved forskrift 16 aug 2013 nr. 983 .</p>
 <h4 id="8-utlegging-av-sametingets-valgmanntall">§ 8. Utlegging av Sametingets valgmanntall</h4>
 <p>(1) Samevalgstyret skal legge Sametingets valgmanntall ut til offentlig ettersyn så snart det lar seg gjøre. Valgmanntallet skal ligge ute til og med valgdagen i det året det er valg til Sametinget og i det året det er valg til kommunestyrer og fylkesting.</p>
 <p>(2) Samevalgstyret kunngjør tid og sted for utleggingen og opplyser også om adgangen til og fremgangsmåten for å kreve feil rettet. Kunngjøring kan unnlates dersom det ikke er registrert noen personer i valgmanntallet i kommunen. I kommuner der lokale forhold tilsier det, kan kunngjøring skje i form av direkte meddelelse til hver enkelt som er innført i manntallet.</p>
-<p><em>Endret ved forskrift 6 mai 2011 nr. 459 .</em></p>
+<p class="note">Endret ved forskrift 6 mai 2011 nr. 459 .</p>
 <h4 id="9-krav-om-retting-og-oppdatering-av-sametingets-valgmanntall">§ 9. Krav om retting og oppdatering av Sametingets valgmanntall</h4>
 <p>(1) Den som mener at vedkommende selv eller noen annen uriktig er blitt innført eller utelatt fra Sametingets valgmanntall i kommunen, kan kreve at Sametinget retter opp feilen. Kravet skal være skriftlig og begrunnet.</p>
 <p>(2) Sametinget kan oppdatere valgmanntallet så lenge det er praktisk mulig.</p>
@@ -147,7 +420,7 @@ d. den som er medlem av en organisasjon (en gruppe, et parti eller en liknende s
 <h4 id="17-samevalgstyre-ansvar-for-stemmingen-i-et-valglokale">§ 17. Samevalgstyre. Ansvar for stemmingen i et valglokale</h4>
 <p>(1) I de kommunene som har 30 eller flere i valgmanntallet skal det være et samevalgstyre som velges av kommunestyret selv. I de kommunene som har færre enn 30 manntallsførte fungerer valgstyret som samevalgstyre.</p>
 <p>(2) Valgloven 6-2 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="18-sametingets-valgnemnd">§ 18. Sametingets valgnemnd</h4>
 <p>(1) Sametingets valgnemnd har ansvar for forberedelse og avvikling av valget. Sametingets valgnemnd skal bestå av minimum fem medlemmer med varamedlemmer og oppnevnes av Sametinget. Medlemmene og varamedlemmene skal ha stemmerett ved sametingsvalget.</p>
 <p>(2) Valgnemndas leder fastsetter møtested for og innkaller til det første møtet i valgnemnda.</p>
@@ -174,7 +447,7 @@ d. underskrift fra minst 200 personer med stemmerett ved sametingsvalg om at de 
 <p>(2) Søknad om registrering av navn skjer på skjema utferdiget av Sametinget.</p>
 <p>(3) Sametinget utferdiger skjema til bruk for innsamling av erklæringer til støtte for registrering av navn. Navnet skal fremgå av det skjema der støtteerklæringer gis. Skjemaet skal i tillegg ha rubrikk for navn, fødselsdato, postadresse, signatur og dato. Signaturene skal være skrift på papir. Før innsending av søknaden bør erklæringene nummereres fortløpende. Skjema med støtteerklæringer er unntatt offentlighet, jf. offentlighetsloven § 13 og forvaltningsloven § 13 første ledd nr. 1.</p>
 <p>(4) Ved søknader eller meldinger til Sametinget kreves skriftlig erklæring fra en kontaktperson om at de opplysninger som meldes, er riktige.</p>
-<p><em>Endret ved forskrift 15 mai 2009 nr. 514 .</em></p>
+<p class="note">Endret ved forskrift 15 mai 2009 nr. 514 .</p>
 <h4 id="22-endring-av-registrert-navn-sammenslaing-av-registrerte-organisasjoner-under-nytt-navn">§ 22. Endring av registrert navn. Sammenslåing av registrerte organisasjoner under nytt navn</h4>
 <p>(1) En registrert organisasjon kan søke om å få endre det registrerte navnet. Bestemmelsene i § 20 gjelder tilsvarende. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å endre navnet. Hvis organisasjonen fikk minst 60 stemmer i en valgkrets eller minst 200 stemmer i hele landet ved siste sametingsvalg, gjelder ikke bestemmelsene i § 20 tredje ledd bokstav d.</p>
 <p>(2) Hvis to eller flere registrerte organisasjoner slår seg sammen og søker registrering under nytt navn, anses det som søknad om navneendring. Til erstatning for stiftelsesprotokoll skal det legges ved protokoll fra det møtet hvor det ble vedtatt å slå organisasjonene sammen og å søke registrering under et nytt navn. Hvis en av organisasjonene fikk minst 60 stemmer i en valgkrets eller minst 200 stemmer i hele landet ved siste sametingsvalg, gjelder ikke bestemmelsene i § 20 tredje ledd bokstav d.</p>
@@ -205,9 +478,9 @@ d. Listeforslaget må være underskrevet av minst 30 personer som er innført i 
 e. Listeforslaget må inneholde navn på en tillitsvalgt og en vararepresentant blant dem som har skrevet under på listeforslaget. Disse skal ha myndighet til å forhandle med Sametingets valgnemnd om endringer på listeforslaget. Når et listeforslag fra en registrert organisasjon er underskrevet av to av lokalavdelingens styremedlemmer, anses disse å være tillitsvalgt og vararepresentant. Når et listeforslag som ikke omfattes av forrige punktum ikke angir hvem som er tillitsvalgte, anses de to øverste underskriverne å være tillitsvalgt og vararepresentant.
 f. Listeforslaget bør inneholde navn på et visst antall personer blant dem som har underskrevet på listeforslaget, som skal fungere som tillitsutvalg med myndighet til å trekke listeforslaget tilbake. Når et listeforslag utgår fra en registrert organisasjon, anses lokalavdelingens styre å utgjøre tillitsutvalget. På andre listeforslag anses de fem øverste underskriverne å utgjøre tillitsutvalget og de tre neste vararepresentanter.</p>
 <p>(3) Listeforslaget skal ikke inneholde annen type informasjon til velgerne enn det som fremgår av denne paragrafen.</p>
-<p><em>Endret ved forskrifter 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="28a-opphevet">§ 28a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 18 des 2020 nr. 2992 , opphevet ved forskrift 18 des 2020 nr. 2992 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2020 nr. 2992 , opphevet ved forskrift 18 des 2020 nr. 2992 (i kraft 1 jan 2022).</p>
 <h4 id="29-vedlegg-til-listeforslaget">§ 29. Vedlegg til listeforslaget</h4>
 <p>Listeforslaget skal ha følgende vedlegg:</p>
 <p>a. En oversikt over kandidatenes fødselsdato.
@@ -218,7 +491,7 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det ligge v
 <p>Opplysning om hvem som har underskrevet på et listeforslag etter § 28 annet ledd bokstav d første punktum er underlagt taushetsplikt og skal ikke gis ut, jf. forvaltningsloven § 13 første ledd nr. 1 og § 21 tredje ledd i denne forskriften. Opplysning om hvem som er tillitsvalgte for listeforslaget er offentlig.</p>
 <h4 id="31-tilbakekalling-av-listeforslag">§ 31. Tilbakekalling av listeforslag</h4>
 <p>Et innlevert listeforslag kan kalles tilbake av tillitsutvalget. Erklæring om tilbakekalling må være innlevert senest kl. 12 den 20. april i valgåret.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="32-behandling-av-listeforslagene-godkjenning-av-valglistene">§ 32. Behandling av listeforslagene. Godkjenning av valglistene</h4>
 <p>(1) Listeforslagene skal legges ut til ettersyn etter hvert som de kommer inn.</p>
 <p>(2) Sametingets valgnemnd avgjør innen 1. juni i valgåret om forslag til valglister og tilbakekallinger av listeforslag kan godkjennes.</p>
@@ -236,7 +509,7 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det ligge v
 <h2 id="kapittel-7-utfring-og-trykking-av-stemmesedler">Kapittel 7. Utføring og trykking av stemmesedler</h2>
 <h4 id="35-trykking-av-stemmesedler">§ 35. Trykking av stemmesedler</h4>
 <p>Sametingets valgnemnd sørger for at det blir trykt stemmesedler for alle godkjente valglister i alle valgkretsene før forhåndsstemmegivningen starter 10. august innenriks.</p>
-<p><em>Endret ved forskrift 15 mai 2009 nr. 514 .</em></p>
+<p class="note">Endret ved forskrift 15 mai 2009 nr. 514 .</p>
 <h4 id="36-krav-til-stemmesedler-med-kandidatnavn">§ 36. Krav til stemmesedler med kandidatnavn</h4>
 <p>(1) Ved utformingen av stemmesedlene skal det legges vekt på at stemmesedlene skal være lesevennlige.</p>
 <p>(2) Stemmesedlene skal være blå.</p>
@@ -249,7 +522,7 @@ d. Dersom en kandidat ikke er valgbar på grunn av sin stilling, må det ligge v
 b. Overskrift som viser hvilket parti eller gruppe listen utgår fra. Overskriften skal trykkes i skriftstørrelse minimum 20 punkt.
 c. Fornavn, etternavn og fødselsår på kandidatene som stiller til valg på listen. Opplysning om kandidatenes stilling og/eller bosted kan påføres stemmeseddelen. Dette skal gjøres hvis det er nødvendig for å unngå forveksling av kandidatene på listen. Dersom slike opplysninger påføres stemmeseddelen, skal dette gjøres for alle kandidatene på listen. Stemmesedler som gjelder en fellesliste, kan også påføres opplysning om de enkelte kandidatenes tilknytning til de gruppene som står bak felleslisten.</p>
 <p>(8) Stemmeseddelens utside skal se slik ut:  Stemmeseddelens utside (mønsterside) skal se slik ut:</p>
-<p><em>Endret ved forskrifter 16 aug 2013 nr. 983 , 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrifter 16 aug 2013 nr. 983 , 13 feb 2017 nr. 174 .</p>
 <h4 id="37-plikt-til-a-produsere-blanke-stemmesedler">§ 37. Plikt til å produsere blanke stemmesedler</h4>
 <p>Sametingets valgnemnd sørger for at det blir produsert blanke blå stemmesedler. Blanke stemmesedler skal ha samme utførelse som de ordinære stemmesedlene.</p>
 <h4 id="38-rett-til-a-fa-stemmesedler">§ 38. Rett til å få stemmesedler</h4>
@@ -267,7 +540,7 @@ c. perioden for forhåndsstemmegivningen,
 d. på hvilke steder det mottas forhåndsstemmer i kommunen,
 e. muligheten for å avgi stemme på forhånd i andre kommuner, og
 f. adgangen til å stemme fra utlandet, på Svalbard og Jan Mayen.</p>
-<p><em>Endret ved forskrifter 6 mai 2011 nr. 459 , 19 des 2012 nr. 1333 .</em></p>
+<p class="note">Endret ved forskrifter 6 mai 2011 nr. 459 , 19 des 2012 nr. 1333 .</p>
 <h4 id="40-perioden-for-forhandsstemmegivningen-kunngjring">§ 40. Perioden for forhåndsstemmegivningen. Kunngjøring</h4>
 <p>(1) Stemmegivningen til sametingsvalget foregår på samme tid som til stortingsvalget, jf. valgloven § 7-1 . Samevalgstyret kunngjør tid og sted for forhåndsstemmegivningen.</p>
 <p>(2) Velgeren er selv ansvarlig for å avgi forhåndsstemme på et tidspunkt som gjør at forhåndsstemmegivningen kommer inn til samevalgstyret eller opptellingsvalgstyret innen tirsdag etter valgdagen kl. 17.</p>
@@ -275,20 +548,20 @@ f. adgangen til å stemme fra utlandet, på Svalbard og Jan Mayen.</p>
 <p>(4) Valgstyret plikter å tilrettelegge for at velgere som henvender seg til kommunen i perioden 1. juli til 9. august får avgitt stemme.</p>
 <p>(5) Valgstyret angir sted for slik stemmegivning. Valgstyret bør, så langt det lar seg gjøre, ta hensyn til velgers ønske med hensyn til tidspunkt for stemmegivning.</p>
 <p>(6) Valgloven og valgforskriftens regler for forhåndsstemmer gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 15 mai 2009 nr. 514 , 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 15 mai 2009 nr. 514 , 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="40a-opphevet">§ 40a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="41-hvem-kan-motta-forhandsstemmer">§ 41. Hvem kan motta forhåndsstemmer</h4>
 <p>Valgloven § 6-4 , § 7-3 og § 8-2 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="42-pa-hvilke-steder-det-kan-mottas-forhandsstemmer">§ 42. På hvilke steder det kan mottas forhåndsstemmer</h4>
 <p>(1) Stemmegivningen skal foregå der det foregår forhåndsstemmegivning til stortingsvalget. Valgloven §§ 6-7 , 7-2 og 8-3 og valgforskriften §§ 6-2 og 7-5 gjelder tilsvarende.</p>
 <p>(2) Velgere som har søkt om å få avgi forhåndsstemme etter § 7-2 fjerde ledd i valgloven , trenger ikke sende særskilt søknad for å kunne forhåndsstemme til sametingsvalget. Valgstyrets leder sørger for at samevalgstyrets leder får kopi av de innkomne søknader.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="42a-opphevet">§ 42a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="42b-opphevet">§ 42b. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="43-fremgangsmaten-ved-stemmegivningen">§ 43. Fremgangsmåten ved stemmegivningen</h4>
 <p>(1) Valgloven §§ 6-2 , 6-5 , 6-8 , 6-9 og 6-11 og valgforskriften § 7-4 gjelder tilsvarende.</p>
 <p>(2) Velgere med stemmerett i en annen valgkrets enn der stemme avgis skal få utlevert en stemmeseddel med navnene til de samepolitiske organisasjonene registrert hos Sametinget som ved forrige sametingsvalg fikk minst 60 stemmer i en valgkrets eller minst 200 stemmer i hele landet.</p>
@@ -304,7 +577,7 @@ d. tid og sted for stemmegivningen.</p>
 <p>(7) Forhåndsstemmegivningene skal fortløpende sendes til samevalgstyret i kommunen hvor velger er manntallsført, eller til opptellingsvalgstyret i kretsen dersom velger er manntallsført i en kommune med færre enn 30 manntallsførte. Det skal brukes forsendelseskonvolutt.</p>
 <p>(8) Den nest siste uken av forhåndsstemmeperioden skal forhåndsstemmegivningene sendes videre til velgerens hjemkommune hver dag.</p>
 <p>(9) Den siste uken før valgdagen skal forhåndsstemmegivningene ikke sendes som brevpost. Forhåndsstemmegivninger mottatt denne uken skal sendes på en måte som sikrer at stemmegivningene kommer inn til samevalgstyret innen kl. 17 dagen etter valgdagen.</p>
-<p><em>Endret ved forskrifter 16 aug 2013 nr. 983 , 13 feb 2017 nr. 174 , 9 juni 2021 nr. 1828 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 16 aug 2013 nr. 983 , 13 feb 2017 nr. 174 , 9 juni 2021 nr. 1828 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="44-fremgangsmaten-ved-brevstemmegivning-utenriks">§ 44. Fremgangsmåten ved brevstemmegivning utenriks</h4>
 <p>(1) Velgeren skal legge stemmeseddelen i en stemmeseddelkonvolutt.</p>
 <p>(2) Stemmeseddelkonvolutten skal legges i en omslagskonvolutt som limes igjen.</p>
@@ -315,63 +588,63 @@ c. adresse på hjemstedet 30. juni i valgåret, eventuelt siste adresse i Norge 
 d. tid og sted for stemmegivningen.</p>
 <p>(4) Velgeren skriver under på omslagskonvolutten.</p>
 <p>(5) Velgere som er manntallsført i en kommune med 30 eller flere i manntallet sørger for å sende stemmegivningen til samevalgstyret i den kommunen hvor vedkommende er innført i valgmanntallet. Velgere som er manntallsført i en kommune med færre enn 30 i manntallet, sørger for å sende stemmegivningen til opptellingsvalgstyret i kretsen.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="45-ordensregler">§ 45. Ordensregler</h4>
 <p>Valgloven § 6-6 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="46-tmming-av-urner-oppbevaring-og-transport-av-valgmateriell-mv">§ 46. Tømming av urner. Oppbevaring og transport av valgmateriell mv.</h4>
 <p>(1) Dersom det er nødvendig å tømme urner under forhåndsstemmegivningen, skal samevalgstyret sørge for at det etableres betryggende rutiner for oppbevaring av innholdet. Avgitte stemmer skal oppbevares atskilt fra øvrig valgmateriell.</p>
 <p>(2) § 54 om oppbevaring, forsegling og transport gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 16 aug 2013 nr. 983 .</em></p>
+<p class="note">Endret ved forskrift 16 aug 2013 nr. 983 .</p>
 <h2 id="kapittel-9-stemmegivning-pa-valgtinget">Kapittel 9. Stemmegivning på valgtinget</h2>
 <h4 id="47-tid-og-sted-for-stemmegivningen">§ 47. Tid og sted for stemmegivningen</h4>
 <p>(1) Stemmegivningen til sametingsvalget i kommuner med 30 eller flere personer i Sametingets valgmanntall holdes på samme sted og til samme tid som stemmegivningen til stortingsvalget. De to valgene skal holdes klart atskilt.</p>
 <p>(2) I kommuner med færre enn 30 personer i valgmanntallet, jf. § 39a , er det ikke adgang til å motta stemmer til sametingsvalg på valgdagen.</p>
 <p>(3) Valgloven § 6-7 og valgforskriften § 6-2 gjelder tilsvarende.</p>
 <p>(4) Stemmelokalet stenges på det tidspunkt som er fastsatt. Velgere som på dette tidspunkt har møtt frem ved valglokalet, skal gis anledning til å avgi stemme.</p>
-<p><em>Endret ved forskrift 6 mai 2011 nr. 459 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 6 mai 2011 nr. 459 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="47a-opphevet">§ 47a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="47b-opphevet">§ 47b. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , opphevet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="48-kunngjring-om-stemmegivningen">§ 48. Kunngjøring om stemmegivningen</h4>
 <p>Samevalgstyret kunngjør tid og sted for stemmegivningen. I kommuner der lokale forhold tilsier det, kan kunngjøring i stedet skje i form av direkte meddelelse til hver enkelt stemmeberettiget.</p>
 <h4 id="49-ordensregler">§ 49. Ordensregler</h4>
 <p>(1) I valglokalet og i de rom som velgeren må passere for å komme frem til valglokalet, er det ikke tillatt å drive valgagitasjon eller å utføre handlinger som kan forstyrre eller hindre en normal gjennomføring av valghandlingen. Det er ikke tillatt for uvedkommende å føre kontroll med hvem som møter frem og avgir stemme, eller å foreta velgerundersøkelser eller liknende utspørring av velgerne.</p>
 <p>(2) Uvedkommende må ikke få kunnskap om forbruket av de forskjellige valglistenes stemmesedler.</p>
 <p>(3) Leder eller nestleder i valglokalet kan om nødvendig bortvise den som opptrer i strid med reglene i denne paragrafen.</p>
-<p><em>Endret ved forskrifter 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="50-stemmegivningen-i-valglokalet">§ 50. Stemmegivningen i valglokalet</h4>
 <p>(1) Når valgtinget åpner skal velgere som er innført i Sametingets valgmanntall i kommuner med 30 eller flere få adgang til å avgi stemme etter hvert som de møter frem.</p>
 <p>(2) Stemmemottaker setter et kryss i valgmanntallet ved velgerens navn. Velgere skal vise legitimasjon. Hvis en velger ikke kan vise legitimasjon, men er kjent for stemmemottakeren, kan stemmemottakeren i stedet bekrefte velgerens identitet. Velgeren får deretter utlevert en stemmeseddelkonvolutt og blir vist til et stemmeavlukke.</p>
 <p>(3) Velgeren skal i enerom og usett legge stemmeseddelen ned i konvolutten. Velgeren legger selv stemmeseddelkonvolutten ned i en urne.</p>
 <p>(4) Valgloven § 6-8 gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 9 juni 2021 nr. 1828 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 9 juni 2021 nr. 1828 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="51-bruk-av-omslagskonvolutt">§ 51. Bruk av omslagskonvolutt</h4>
 <p>Velgere som ikke er innført i vedkommende del av valgmanntallet eller som allerede er krysset av i valgmanntallet, skal ikke legge stemmeseddelkonvolutten i urnen, men gi den til stemmemottakeren. Stemmemottakeren skal legge stemmeseddelkonvolutten sammen med velgerens valgkort i en omslagskonvolutt, og lime omslagskonvolutten igjen.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="52-stemmegivning-umiddelbart-utenfor-valglokalet">§ 52. Stemmegivning umiddelbart utenfor valglokalet</h4>
 <p>(1) Er velgeren ikke i stand til å bevege seg inn i valglokalet, kan vedkommende avgi stemme til to stemmemottakere umiddelbart utenfor valglokalet.</p>
 <p>(2) Dersom velgeren er manntallsført i vedkommende del av Sametingets valgmanntall, skal avkryssing skje før velgeren får utlevert stemmesedler.</p>
 <p>(3) To stemmemottakere bringer med seg en stemmeseddel for hver gruppe som stiller liste ved valget samt en blank stemmeseddel, en stemmeseddelkonvolutt og en urne ut til velgeren.</p>
 <p>(4) Velgeren legger selv stemmeseddelen i konvolutten, eventuelt med hjelp av en person utpekt etter reglene i § 50 fjerde ledd , og legger den i urnen. Velgeren kan beholde konvolutten med de resterende stemmesedlene eller gi denne til stemmemottakeren. Stemmemottakeren skal sørge for å kassere konvolutten på en betryggende måte. Stemmemottakerne bringer deretter urnen inn i valglokalet.</p>
 <p>(5) Dersom velgeren ikke står innført i vedkommende del av valgmanntallet eller vedkommende allerede er krysset av i valgmanntallet, skal stemmeseddelkonvolutten ikke legges i urnen, men behandles i henhold til § 51 .</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="53-tmming-av-urner-i-lpet-av-valgdagen">§ 53. Tømming av urner i løpet av valgdagen</h4>
 <p>Dersom det er nødvendig å tømme valgurner i løpet av valgdagen, skal samevalgstyret sørge for at leder i valglokalet benytter følgende prosedyre:</p>
 <ol>
 <li>Forseglingen av valgurnen skal brytes av minst to valgmedarbeidere i fellesskap</li>
 <li>Innholdet tømmes umiddelbart over i egnet emballasje som forsegles og merkes med serienumre.</li>
 </ol>
-<p><em>Endret ved forskrifter 16 aug 2013 nr. 983 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 16 aug 2013 nr. 983 , 5 nov 2024 nr. 2663 .</p>
 <h4 id="54-oppbevaring-og-transport-av-valgmateriell-forsegling">§ 54. Oppbevaring og transport av valgmateriell. Forsegling.</h4>
 <p>(1) Samevalgstyret skal etablere betryggende rutiner for oppbevaring og transport av valgmateriell i alle faser av valggjennomføringen.</p>
 <p>(2) Valgmateriellet skal forsegles dersom det i perioder ikke er under direkte oppsyn av valgmyndighetene. Forseglingen skal foretas på en slik måte at ingen får adgang til det forseglede materiellet uten at dette etterlater seg tydelige merker.</p>
 <p>(3) All transport av valgmateriell skal foregå på hurtigst betryggende måte og av andre enn dem som oppbevarer forseglingsutstyret.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="55-offentliggjring-av-valgresultater-og-prognoser">§ 55. Offentliggjøring av valgresultater og prognoser</h4>
 <p>Valgresultater og prognoser som er laget på grunnlag av undersøkelser foretatt den dag eller de dager valget foregår, kan ikke offentliggjøres før tidligst kl. 21 på valgdagen mandag.</p>
-<p><em>Endret ved forskrift 15 mai 2009 nr. 514 .</em></p>
+<p class="note">Endret ved forskrift 15 mai 2009 nr. 514 .</p>
 <h2 id="kapittel-10-prving-av-stemmegivninger-og-stemmesedler-opptelling-protokollering-mm">Kapittel 10. Prøving av stemmegivninger og stemmesedler, opptelling, protokollering m.m.</h2>
 <h4 id="56-godkjenning-av-stemmegivning-avgitt-pa-forhand">§ 56. Godkjenning av stemmegivning avgitt på forhånd</h4>
 <p>(1) En forhåndsstemmegivning skal godkjennes dersom</p>
@@ -385,7 +658,7 @@ g. stemmegivningen er kommet inn til samevalgstyret innen kl. 17 dagen etter val
 <p>Stemmegivninger avgitt i kommuner med færre enn 30 manntallsførte må ha kommet inn til opptellingsvalgstyret i kretsen innen kl. 17 dagen etter valgdagen.</p>
 <p>(2) Velgerens stemmegivning er godkjent når vedkommende er krysset av i valgmanntallet.</p>
 <p>(3) Forhåndsstemmegivningene skal godkjennes før valgdagen i den utstrekning det er mulig.</p>
-<p><em>Endret ved forskrifter 15 mai 2009 nr. 514 , 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrifter 15 mai 2009 nr. 514 , 13 feb 2017 nr. 174 .</p>
 <h4 id="57-godkjenning-av-stemmegivning-avgitt-pa-valgtinget">§ 57. Godkjenning av stemmegivning avgitt på valgtinget</h4>
 <p>(1) En stemmegivning avgitt på valgtinget skal godkjennes dersom</p>
 <p>a. velgeren er innført i Sametingets valgmanntall i kommunen,
@@ -397,7 +670,7 @@ d. velgeren ikke allerede har avgitt godkjent stemmegivning.</p>
 <p>Samevalgstyret eller opptellingsvalgstyret skal påse at åpning av omslags- og stemmeseddelkonvolutter ikke foretas av de samme personene, dersom dette foregår samtidig. Det skal være to personer til stede ved åpning av stemmegivninger.</p>
 <h4 id="59-flere-stemmeseddelkonvolutter-eller-stemmesedler-fra-samme-velger">§ 59. Flere stemmeseddelkonvolutter eller stemmesedler fra samme velger</h4>
 <p>Dersom en stemmegivning inneholder flere stemmeseddelkonvolutter eller stemmesedler uten konvolutt, skal stemmeseddelen eller -sedlene legges ulest ned i én stemmeseddelkonvolutt.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="60-godkjenning-av-stemmesedler">§ 60. Godkjenning av stemmesedler</h4>
 <p>(1) En stemmeseddel skal godkjennes dersom</p>
 <p>a. det fremgår at den gjelder sametingsvalget,
@@ -434,7 +707,7 @@ b. alle omslagskonvolutter fra forhåndsstemmegivningen utenriks og på Svalbard
 c. bekreftet avskrift av samevalgstyrets protokoll og
 d. kopi av innkomne klager.</p>
 <p>(4) Materiellet skal pakkes i god orden i forsvarlig forseglet emballasje og sendes på hurtigst betryggende måte. Materiellet skal være sendt fra samevalgstyret senest innen onsdag etter valget kl. 15.</p>
-<p><em>Endret ved forskrift 9 juni 2021 nr. 1828 .</em></p>
+<p class="note">Endret ved forskrift 9 juni 2021 nr. 1828 .</p>
 <h4 id="64-prinsipper-for-opptellingen">§ 64. Prinsipper for opptellingen</h4>
 <p>(1) Stemmesedlene skal telles opp i to omganger, ved en foreløpig og en endelig opptelling.</p>
 <p>(2) Opptellingen foretas særskilt for stemmer avgitt på forhånd og stemmer avgitt på valgtinget.</p>
@@ -445,9 +718,9 @@ d. kopi av innkomne klager.</p>
 <p>(3) Stemmesedler det er tvil om kan godkjennes, legges til side og holdes utenfor opptellingen.</p>
 <p>(4) Hver listes foreløpige stemmetall finnes ved å telle hvor mange stemmesedler som er avgitt til hver liste.</p>
 <p>(5) I kommuner med 30 eller flere personer i Sametingets valgmanntall skal samevalgstyret så snart opptellingen er avsluttet, innrapportere det foreløpige resultatet til opptellingsvalgstyret i kretsen.</p>
-<p><em>Endret ved forskrift 15 mai 2009 nr. 514 .</em></p>
+<p class="note">Endret ved forskrift 15 mai 2009 nr. 514 .</p>
 <h4 id="65a-opphevet">§ 65a. (Opphevet)</h4>
-<p><em>Tilføyd ved forskrift 9 juni 2021 nr. 1829 , oppehvet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 juni 2021 nr. 1829 , oppehvet ved forskrift 9 juni 2021 nr. 1829 (i kraft 1 jan 2022).</p>
 <h4 id="66-endelig-opptelling">§ 66. Endelig opptelling</h4>
 <p>(1) Endelig opptelling skjer hos opptellingsvalgstyret. Opptellingen og valgoppgjøret skjer samlet for hele kretsen. Dersom opptellingsvalgstyret finner feil ved samevalgstyrets avgjørelser om å godkjenne eller forkaste stemmegivninger eller stemmesedler, eller feil i samevalgstyrets opptelling, skal feilene rettes.</p>
 <p>(2) Stemmesedlene fra den foreløpige opptellingen skal telles på nytt. Opptellingsvalgstyret avgjør om stemmesedler som ikke ble tatt med i den foreløpige opptellingen, skal godkjennes. Godkjente stemmesedler blant disse skal telles sammen med de øvrige stemmesedlene.</p>
@@ -459,7 +732,7 @@ d. kopi av innkomne klager.</p>
 <p>(4) Departementet fastsetter formularer, der administrative forhold, mottak og behandling av stemmegivninger og stemmesedler, opptelling, valgoppgjør og kontroll skal protokolleres.</p>
 <p>(5) Sametinget fastsetter formular etter § 67 (3).</p>
 <p>(6) Valgmyndighetene er forpliktet til å bruke fastsatte formular.</p>
-<p><em>Endret ved forskrifter 6 mai 2011 nr. 459 , 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrifter 6 mai 2011 nr. 459 , 13 feb 2017 nr. 174 , 5 nov 2024 nr. 2663 .</p>
 <h2 id="kapittel-11-mandatfordelingen-og-kandidatkaringen">Kapittel 11. Mandatfordelingen og kandidatkåringen</h2>
 <h4 id="67a-fordeling-av-mandatene-pa-valgkretsene">§ 67a. Fordeling av mandatene på valgkretsene</h4>
 <p>(1) Fordeling av mandatene på valgkretsene skjer etter St. Laguës metode, jf. sameloven § 2-4 . Samtlige 39 mandater til Sametinget skal fordeles på valgkretsene. Fordelingstallet for valgkretsen ved mandatfordelingen mellom valgkretsene er antall manntallsførte i valgkretsen. Sametingets valgmanntall pr. 30. juni i det år det sist ble avholdt kommunestyre- og fylkestingsvalg legges til grunn.</p>
@@ -467,11 +740,11 @@ d. kopi av innkomne klager.</p>
 <p>a. Hver valgkrets skal ha 2 mandater.
 b. De øvrige 25 mandatene fordeles deretter forholdsmessig mellom valgkretsene på grunnlag av antall manntallsførte, ved at fordelingstallet i den enkelte krets divideres med 1-3-5-7 osv. De kvotienter som fremkommer, nummereres fortløpende. Mandatene fordeles på valgkretsene på grunnlag av de fremkomne kvotientene. Mandat nr. 1 tilfaller den valgkretsen som har den største kvotienten. Mandat nr. 2 tilfaller den valgkretsen som har den nest største kvotienten, osv. Dersom to eller flere valgkretser har samme kvotient, tilfaller mandatet det valgdistriktet som har det høyeste fordelingstallet. Har de samme fordelingstall, avgjøres det ved loddtrekning hvilken valgkrets mandatet skal tilfalle.
 c. Sør-Norge valgkrets skal likevel ikke tildeles flere mandater enn valgkretsen ville fått dersom alle 39 mandater var fordelt forholdsmessig mellom valgkretsene.</p>
-<p><em>Endret ved forskrift 6 mai 2011 nr. 459 .</em></p>
+<p class="note">Endret ved forskrift 6 mai 2011 nr. 459 .</p>
 <h4 id="68-valgoppgjret-fordeling-av-mandatene">§ 68. Valgoppgjøret. Fordeling av mandatene</h4>
 <p>(1) Opptellingsvalgstyret skal uten opphold foreta valgoppgjør for kretsen og fordele kretsens mandater mellom listene. Mandatfordelingen skjer i henhold til St. Laguës modifiserte metode.</p>
 <p>(2) St. Lagües modifiserte metode innebærer at hver listes stemmetall divideres med 1,4-3-5-7 osv., jf. valgloven § 11-4 andre ledd . Hvert stemmetall skal divideres så mange ganger som det er nødvendig for å finne det antall mandater listen skal ha. Det første mandatet tilfaller den listen som har den største kvotienten. Det andre mandatet tilfaller den listen som har den nest største kvotienten. Det tredje mandatet tilfaller den listen som har den tredje største kvotienten. Hvis flere lister har samme kvotient, tilfaller mandatet den listen som har størst stemmetall. Har de samme stemmetall, avgjøres det ved loddtrekning hvilken liste mandatet skal tilfalle.</p>
-<p><em>Endret ved forskrift 5 nov 2024 nr. 2663 .</em></p>
+<p class="note">Endret ved forskrift 5 nov 2024 nr. 2663 .</p>
 <h4 id="69-kandidatkaringen">§ 69. Kandidatkåringen</h4>
 <p>(1) Når det er avgjort hvor mange mandater en valgliste skal ha, fordeler opptellingsvalgstyret disse til kandidatene på listen. Kandidater som ikke er valgbare settes ut av betraktning. (2) Kandidatkåringen foregår på følgende måte: Først telles de navn som er oppført som nr. 1 på stemmesedlene. Den kandidaten som har flest oppføringer blir valgt. Deretter telles de navn som er oppført som nr. 2 på stemmesedlene. Den kandidaten som har flest oppføringer når man legger sammen resultatene fra første og andre opptelling, blir valgt. Opptellingene fortsetter på samme måte inntil alle de representantplassene listen skal ha, er besatt. Oppnår flere kandidater samme resultat, er den opprinnelige rekkefølgen på listen avgjørende.</p>
 <p>(3) Hver liste skal så vidt mulig tildeles så mange vararepresentanter som den får representanter, med tillegg av tre. Vararepresentantplassene fordeles på samme måte som representantene.</p>
@@ -522,16 +795,16 @@ c. Sør-Norge valgkrets skal likevel ikke tildeles flere mandater enn valgkretse
 b. til forskere i vitenskapelig øyemed når det foreligger samtykke fra Sametinget, eller
 c. til andre når det foreligger samtykke fra Sametinget.</p>
 <p>(2) Tilgang til det øvrige valgmateriellet kan bare gis til forskere i vitenskapelig øyemed og etter samtykke fra Sametinget.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="82-taushetsplikt">§ 82. Taushetsplikt</h4>
 <p>(1) Forvaltningslovens bestemmelser om taushetsplikt gjelder tilsvarende ved sametingsvalget.</p>
 <p>(2) En person som assisterer en velger ved stemmegivningen og får kjennskap til hvordan vedkommende har stemt, har taushetsplikt om dette.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="83-beregning-av-frister-oversittelse">§ 83. Beregning av frister. Oversittelse</h4>
 <p>(1) Hvis en dato som er utgangspunktet for en frist faller på en lørdag eller en helligdag, begynner fristen å løpe nærmest påfølgende hverdag.</p>
 <p>(2) Hvis en dato for avslutningen av en frist faller på en lørdag eller en helligdag, løper fristen ut den nærmest påfølgende hverdag.</p>
 <p>(3) Bestemmelsene i første og annet ledd gjelder tilsvarende i de tilfeller hvor en dato som er det tidligste eller seneste tidspunkt for noen handling etter denne forskriften, faller på en lørdag eller en helligdag.</p>
-<p><em>Endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="84-opplysningsplikt">§ 84. Opplysningsplikt</h4>
 <p>Alle offentlig ansatte plikter så langt det er mulig å gi valgmyndighetene de opplysninger de måtte kreve til bruk ved forberedelse og gjennomføring av valget.</p>
 <h4 id="85-oppgaver-til-valgstatistikk">§ 85. Oppgaver til valgstatistikk</h4>
@@ -539,11 +812,11 @@ c. til andre når det foreligger samtykke fra Sametinget.</p>
 <h4 id="85a-om-valgobservasjon">§ 85a. Om valgobservasjon</h4>
 <p>(1) Departementet kan akkreditere nasjonale og internasjonale valgobservatører fra institusjoner eller organisasjoner til å observere gjennomføringen av valg til Sametinget.</p>
 <p>(2) Kommunene har plikt til å ta imot akkrediterte valgobservatører og tilrettelegge for valgobservasjon.</p>
-<p><em>Tilføyd ved forskrift 15 mai 2009 nr. 514 , endret ved forskrift 13 feb 2017 nr. 174 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 mai 2009 nr. 514 , endret ved forskrift 13 feb 2017 nr. 174 .</p>
 <h4 id="86-utgiftene-ved-sametingsvalget">§ 86. Utgiftene ved sametingsvalget</h4>
 <p>(1) Statskassen dekker utgiftene til opptellingsvalgstyrene med kr 44 per registrert i valgmanntallene i valgkretsen.</p>
 <p>(2) Statskassen dekker utgiftene til Sametingets valgnemnds virksomhet for så vidt gjelder gjøremål fastsatt i sameloven og denne forskriften. Departementet kan – i samråd med Sametinget – sette en ramme for de utgifter som skal dekkes i medhold av første punktum, og kan stille et tilsvarende beløp til disposisjon for Sametinget til dekning av utgiftene.</p>
-<p><em>Endret ved forskrifter 9 juni 2021 nr. 1828 , 23 juni 2025 nr. 1190 .</em></p>
+<p class="note">Endret ved forskrifter 9 juni 2021 nr. 1828 , 23 juni 2025 nr. 1190 .</p>
 <h2 id="kapittel-16-ikrafttredelse">Kapittel 16. Ikrafttredelse</h2>
 <h4 id="87-ikrafttredelse">§ 87. Ikrafttredelse</h4>
 <p>(1) Denne forskriften trer i kraft straks.</p>
@@ -551,6 +824,8 @@ c. til andre når det foreligger samtykke fra Sametinget.</p>
 <h2 id="samisk-oversettelse">Samisk oversettelse</h2>
 <p>For å lese nordsamisk oversettelse av forskriften se her: pdf-fil</p>
 <p>Tilføyd 22 mars 2017. Oversettelsen er à jour med forskrift 13 feb 2017 nr. 174 ifølge Kommunal- og moderniseringsdepartementet. Dette er en uoffisiell oversettelse av den norske versjonen av forskriften. Hvis det er forskjeller mellom samisk og norsk versjon, så gjelder den norske versjonen slik den er kunngjort i Norsk Lovtidend.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

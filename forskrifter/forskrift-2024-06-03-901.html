@@ -19,64 +19,335 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2024-06-03-901.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Privatskoleforskrifta" href="../feeds/forskrift-2024-06-03-901.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Privatskoleforskrifta</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2024-06-03-901</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2024-08-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-06-22-1213</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2024-06-03-901" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-delen-grunnskoleopplring">Første delen – grunnskoleopplæring</a></li>
+<li class="lvl3"><a href="#kapittel-1-innhaldet-i-grunnskoleopplringa">Kapittel 1. Innhaldet i grunnskoleopplæringa</a></li>
+<li class="lvl5"><a href="#1-1-lreplanar">§ 1-1. Læreplanar</a></li>
+<li class="lvl5"><a href="#1-2-opplring-i-samisk">§ 1-2. Opplæring i samisk</a></li>
+<li class="lvl5"><a href="#1-3-forsterka-opplring-i-norsk">§ 1-3. Forsterka opplæring i norsk</a></li>
+<li class="lvl5"><a href="#1-4-tid-til-eksamen-og-eksamensfrebuing">§ 1-4. Tid til eksamen og eksamensførebuing</a></li>
+<li class="lvl5"><a href="#1-5-fysisk-aktivitet-pa-5-til-7-trinn">§ 1-5. Fysisk aktivitet på 5. til 7. trinn</a></li>
+<li class="lvl5"><a href="#1-6-valfag-pa-8-til-10-trinn">§ 1-6. Valfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-7-opplring-i-framandsprak-fordjuping-eller-arbeidslivsfag-pa-8-til-10-trinn">§ 1-7. Opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-8-fritak-fra-opplring-i-framandsprak-fordjuping-eller-arbeidslivsfag-pa-8-til-10-trinn">§ 1-8. Fritak frå opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-9-fritak-fra-skriveopplring-i-eitt-av-dei-norske-skriftspraka">§ 1-9. Fritak frå skriveopplæring i eitt av dei norske skriftspråka</a></li>
+<li class="lvl5"><a href="#1-10-forsering-av-fag">§ 1-10. Forsering av fag</a></li>
+<li class="lvl3"><a href="#kapittel-2-leksehjelp">Kapittel 2. Leksehjelp</a></li>
+<li class="lvl5"><a href="#2-1-tilbod-om-leksehjelp">§ 2-1. Tilbod om leksehjelp</a></li>
+<li class="lvl2"><a href="#andre-delen-vidaregaande-opplring">Andre delen – vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#kapittel-3-inntak-til-vidaregaande-opplring">Kapittel 3. Inntak til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#3-1-elevstatus">§ 3-1. Elevstatus</a></li>
+<li class="lvl5"><a href="#3-2-kven-som-kan-takast-inn">§ 3-2. Kven som kan takast inn</a></li>
+<li class="lvl5"><a href="#3-3-meir-opplring-for-elevar-i-fag-som-ikkje-er-bestatt">§ 3-3. Meir opplæring for elevar i fag som ikkje er bestått</a></li>
+<li class="lvl5"><a href="#3-4-plassar-for-inntak-av-elevar-til-meir-opplring">§ 3-4. Plassar for inntak av elevar til meir opplæring</a></li>
+<li class="lvl5"><a href="#3-5-skolar-som-kan-ta-inn-vaksne-skjarar-utan-rett-til-vidaregaande-opplring">§ 3-5. Skolar som kan ta inn vaksne søkjarar utan rett til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#3-6-kvote-for-vaksne-skjarar">§ 3-6. Kvote for vaksne søkjarar</a></li>
+<li class="lvl5"><a href="#3-7-plassar-til-utvekslingselevar">§ 3-7. Plassar til utvekslingselevar</a></li>
+<li class="lvl5"><a href="#3-8-inntak-pa-grunnlag-av-ferdigheit-eller-inntaksprve">§ 3-8. Inntak på grunnlag av ferdigheit eller inntaksprøve</a></li>
+<li class="lvl5"><a href="#3-9-skjarar-som-kan-givast-fortrinnsrett">§ 3-9. Søkjarar som kan givast fortrinnsrett</a></li>
+<li class="lvl5"><a href="#3-10-inntak-til-utdanningsprogram-og-programomrade">§ 3-10. Inntak til utdanningsprogram og programområde</a></li>
+<li class="lvl5"><a href="#3-11-vilkar-for-inntak-til-vidaregaande-trinn-1">§ 3-11. Vilkår for inntak til vidaregåande trinn 1</a></li>
+<li class="lvl5"><a href="#3-12-skjarar-utan-karakterar-eller-utan-samanliknbart-karaktergrunnlag">§ 3-12. Søkjarar utan karakterar eller utan samanliknbart karaktergrunnlag</a></li>
+<li class="lvl5"><a href="#3-13-vilkar-for-inntak-til-vidaregaande-trinn-2-og-vidaregaande-trinn-3">§ 3-13. Vilkår for inntak til vidaregåande trinn 2 og vidaregåande trinn 3</a></li>
+<li class="lvl3"><a href="#kapittel-4-innhaldet-i-den-vidaregaande-opplringa">Kapittel 4. Innhaldet i den vidaregåande opplæringa</a></li>
+<li class="lvl5"><a href="#4-1-lreplanar">§ 4-1. Læreplanar</a></li>
+<li class="lvl5"><a href="#4-2-meir-opplring">§ 4-2. Meir opplæring</a></li>
+<li class="lvl5"><a href="#4-3-tid-til-eksamen-og-eksamensfrebuing">§ 4-3. Tid til eksamen og eksamensførebuing</a></li>
+<li class="lvl5"><a href="#4-4-opplring-i-framandsprak">§ 4-4. Opplæring i framandspråk</a></li>
+<li class="lvl5"><a href="#4-5-fritak-fra-opplring-i-framandsprak">§ 4-5. Fritak frå opplæring i framandspråk</a></li>
+<li class="lvl5"><a href="#4-6-fritak-fra-skriveopplring-i-eitt-av-dei-norske-skriftspraka">§ 4-6. Fritak frå skriveopplæring i eitt av dei norske skriftspråka</a></li>
+<li class="lvl5"><a href="#4-7-fritak-fra-opplring-i-kroppsving">§ 4-7. Fritak frå opplæring i kroppsøving</a></li>
+<li class="lvl5"><a href="#4-8-godkjenning-av-tidlegare-bestatt-opplring">§ 4-8. Godkjenning av tidlegare bestått opplæring</a></li>
+<li class="lvl5"><a href="#4-9-opplring-etter-lreplanen-i-norsk-for-spraklege-minoritetar-med-kort-butid-i-noreg">§ 4-9. Opplæring etter læreplanen i norsk for språklege minoritetar med kort butid i Noreg</a></li>
+<li class="lvl2"><a href="#tredje-delen-fellesreglar-for-grunnskoleopplringa-og-den-vidaregaande-opplringa">Tredje delen – fellesreglar for grunnskoleopplæringa og den vidaregåande opplæringa</a></li>
+<li class="lvl3"><a href="#kapittel-5-krav-til-lreplanane">Kapittel 5. Krav til læreplanane</a></li>
+<li class="lvl5"><a href="#5-1-generelle-krav-til-lreplanane">§ 5-1. Generelle krav til læreplanane</a></li>
+<li class="lvl5"><a href="#5-2-skolar-som-er-godkjende-pa-grunnlag-av-livssyn">§ 5-2. Skolar som er godkjende på grunnlag av livssyn</a></li>
+<li class="lvl5"><a href="#5-3-skolar-som-er-godkjende-pa-grunnlag-av-ei-anerkjend-pedagogisk-retning">§ 5-3. Skolar som er godkjende på grunnlag av ei anerkjend pedagogisk retning</a></li>
+<li class="lvl5"><a href="#5-4-internasjonale-skolar">§ 5-4. Internasjonale skolar</a></li>
+<li class="lvl5"><a href="#5-5-andre-skolar">§ 5-5. Andre skolar</a></li>
+<li class="lvl3"><a href="#kapittel-6-individuell-vurdering">Kapittel 6. Individuell vurdering</a></li>
+<li class="lvl4"><a href="#i-generelle-reglar">I. Generelle reglar</a></li>
+<li class="lvl4"><a href="#ii-undervegsvurdering">II. Undervegsvurdering</a></li>
+<li class="lvl4"><a href="#iii-sluttvurdering">III. Sluttvurdering</a></li>
+<li class="lvl4"><a href="#iv-fritak-fra-vurdering-med-karakter">IV. Fritak frå vurdering med karakter</a></li>
+<li class="lvl4"><a href="#v-eksamen">V. Eksamen</a></li>
+<li class="lvl4"><a href="#vi-dokumentasjon-i-grunnskolen">VI. Dokumentasjon i grunnskolen</a></li>
+<li class="lvl4"><a href="#vii-dokumentasjon-i-vidaregaande-opplring">VII. Dokumentasjon i vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#kapittel-7-klage-pa-sluttvurderingar">Kapittel 7. Klage på sluttvurderingar</a></li>
+<li class="lvl5"><a href="#7-1-kva-kapittelet-gjeld-og-forholdet-til-forvaltningsloven">§ 7-1. Kva kapittelet gjeld og forholdet til forvaltningsloven</a></li>
+<li class="lvl5"><a href="#7-2-klagefristar">§ 7-2. Klagefristar</a></li>
+<li class="lvl5"><a href="#7-3-rett-til-grunngiving-for-karakteren">§ 7-3. Rett til grunngiving for karakteren</a></li>
+<li class="lvl5"><a href="#7-4-klage-pa-fastsetjing-av-standpunktkarakter-i-fag">§ 7-4. Klage på fastsetjing av standpunktkarakter i fag</a></li>
+<li class="lvl5"><a href="#7-5-klage-pa-vedtak-om-ikkje-a-fastsetje-standpunktkarakter-i-fag">§ 7-5. Klage på vedtak om ikkje å fastsetje standpunktkarakter i fag</a></li>
+<li class="lvl5"><a href="#7-6-klage-pa-standpunktkarakter-i-orden-og-i-oppfrsel">§ 7-6. Klage på standpunktkarakter i orden og i oppførsel</a></li>
+<li class="lvl5"><a href="#7-7-klage-pa-karakter-ved-skriftleg-eksamen">§ 7-7. Klage på karakter ved skriftleg eksamen</a></li>
+<li class="lvl5"><a href="#7-8-klage-pa-gjennomfringa-av-munnleg-eksamen-og-eksamen-som-ikkje-berre-er-skriftleg-eller-munnleg">§ 7-8. Klage på gjennomføringa av munnleg eksamen og eksamen som ikkje berre er skriftleg eller munnleg</a></li>
+<li class="lvl5"><a href="#7-9-klage-pa-fag-og-sveineprve">§ 7-9. Klage på fag- og sveineprøve</a></li>
+<li class="lvl3"><a href="#kapittel-8-samarbeid-med-foreldra">Kapittel 8. Samarbeid med foreldra</a></li>
+<li class="lvl5"><a href="#8-1-foreldremte-og-foreldresamtale">§ 8-1. Foreldremøte og foreldresamtale</a></li>
+<li class="lvl3"><a href="#kapittel-9-tilleggskompetanse">Kapittel 9. Tilleggskompetanse</a></li>
+<li class="lvl5"><a href="#9-1-spesialkompetanse-i-skolar-som-er-godkjende-for-a-drive-pa-grunnlag-av-ei-anerkjend-pedagogisk-retning">§ 9-1. Spesialkompetanse i skolar som er godkjende for å drive på grunnlag av ei anerkjend pedagogisk retning</a></li>
+<li class="lvl5"><a href="#9-2-spisskompetanse-i-skolar-som-er-godkjende-for-a-drive-srskilt-tilrettelagd-vidaregaande-opplring-i-kombinasjon-med-toppidrett">§ 9-2. Spisskompetanse i skolar som er godkjende for å drive særskilt tilrettelagd vidaregåande opplæring i kombinasjon med toppidrett</a></li>
+<li class="lvl3"><a href="#kapittel-10-politiattest-og-yrkesforbod">Kapittel 10. Politiattest og yrkesforbod</a></li>
+<li class="lvl5"><a href="#10-1-politiattest-ved-tilsetjing">§ 10-1. Politiattest ved tilsetjing</a></li>
+<li class="lvl5"><a href="#10-2-krav-til-politiattesten">§ 10-2. Krav til politiattesten</a></li>
+<li class="lvl5"><a href="#10-3-behandling-og-oppbevaring-av-politiattesten">§ 10-3. Behandling og oppbevaring av politiattesten</a></li>
+<li class="lvl5"><a href="#10-4-yrkesforbod">§ 10-4. Yrkesforbod</a></li>
+<li class="lvl3"><a href="#kapittel-11-spesielt-for-skolar-som-driv-srskilt-tilrettelagd-opplring-for-elevar-med-dokumenterte-behov">Kapittel 11. Spesielt for skolar som driv særskilt tilrettelagd opplæring for elevar med dokumenterte behov</a></li>
+<li class="lvl5"><a href="#11-1-krav-til-dokumentasjon-av-den-nedsette-funksjonsevna-og-lrevanskane-til-eleven">§ 11-1. Krav til dokumentasjon av den nedsette funksjonsevna og lærevanskane til eleven</a></li>
+<li class="lvl5"><a href="#11-2-kostnader-til-individuell-tilrettelegging">§ 11-2. Kostnader til individuell tilrettelegging</a></li>
+<li class="lvl2"><a href="#fjerde-delen-forskjellige-reglar">Fjerde delen – forskjellige reglar</a></li>
+<li class="lvl3"><a href="#kapittel-12-ulykkesforsikring">Kapittel 12. Ulykkesforsikring</a></li>
+<li class="lvl5"><a href="#12-1-krav-til-forsikringa">§ 12-1. Krav til forsikringa</a></li>
+<li class="lvl5"><a href="#12-2-kva-forsikringa-skal-gjelde">§ 12-2. Kva forsikringa skal gjelde</a></li>
+<li class="lvl5"><a href="#12-3-nar-og-kvar-forsikringa-skal-gjelde">§ 12-3. Når og kvar forsikringa skal gjelde</a></li>
+<li class="lvl5"><a href="#12-4-erstatning-ved-varig-medisinsk-invaliditet-eller-ved-dd">§ 12-4. Erstatning ved varig medisinsk invaliditet eller ved død</a></li>
+<li class="lvl5"><a href="#12-5-tilbakebetaling-av-utgifter-til-behandling">§ 12-5. Tilbakebetaling av utgifter til behandling</a></li>
+<li class="lvl5"><a href="#12-6-avgrensingar-i-forsikringsdekninga">§ 12-6. Avgrensingar i forsikringsdekninga</a></li>
+<li class="lvl3"><a href="#kapittel-13-rapportering-og-evaluering-av-opplringsverksemda">Kapittel 13. Rapportering og evaluering av opplæringsverksemda</a></li>
+<li class="lvl5"><a href="#13-1-rapportering-fra-grunnskolar-til-utdanningsdirektoratet">§ 13-1. Rapportering frå grunnskolar til Utdanningsdirektoratet</a></li>
+<li class="lvl5"><a href="#13-2-opplysningar-fra-vidaregaande-skolar-til-utdanningsdirektoratet">§ 13-2. Opplysningar frå vidaregåande skolar til Utdanningsdirektoratet</a></li>
+<li class="lvl5"><a href="#13-3-nasjonale-underskingar-om-skole-og-lringsmiljet-til-elevane">§ 13-3. Nasjonale undersøkingar om skole- og læringsmiljøet til elevane</a></li>
+<li class="lvl5"><a href="#13-4-nasjonale-prver">§ 13-4. Nasjonale prøver</a></li>
+<li class="lvl5"><a href="#13-5-kartlegging">§ 13-5. Kartlegging</a></li>
+<li class="lvl5"><a href="#13-6-internasjonale-underskingar">§ 13-6. Internasjonale undersøkingar</a></li>
+<li class="lvl5"><a href="#13-7-fritak-fra-nasjonale-prver-og-kartleggingsprver">§ 13-7. Fritak frå nasjonale prøver og kartleggingsprøver</a></li>
+<li class="lvl5"><a href="#13-8-ferdigheitsprver-i-svmming">§ 13-8. Ferdigheitsprøver i svømming</a></li>
+<li class="lvl3"><a href="#kapittel-14-behandling-av-personopplysningar">Kapittel 14. Behandling av personopplysningar</a></li>
+<li class="lvl5"><a href="#14-1-innhenting-av-opplysningar-fra-folkeregisteret">§ 14-1. Innhenting av opplysningar frå Folkeregisteret</a></li>
+<li class="lvl5"><a href="#14-2-styrt-tilgang-til-personopplysningar">§ 14-2. Styrt tilgang til personopplysningar</a></li>
+<li class="lvl5"><a href="#14-3-innhenting-av-opplysningar-ved-skolebyte">§ 14-3. Innhenting av opplysningar ved skolebyte</a></li>
+<li class="lvl5"><a href="#14-4-innhenting-av-opplysningar-ved-overgang-fra-grunnskole-til-vidaregaande-opplring">§ 14-4. Innhenting av opplysningar ved overgang frå grunnskole til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#14-5-ikkje-anonyme-skolemiljunderskingar">§ 14-5. Ikkje-anonyme skolemiljøundersøkingar</a></li>
+<li class="lvl3"><a href="#kapittel-15-delbetaling-for-lremiddel-og-digitalt-utstyr-i-vidaregaande-opplring">Kapittel 15. Delbetaling for læremiddel og digitalt utstyr i vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#15-1-eigendel-for-berbar-pc">§ 15-1. Eigendel for berbar PC</a></li>
+<li class="lvl3"><a href="#kapittel-16-sknadsfrist">Kapittel 16. Søknadsfrist</a></li>
+<li class="lvl5"><a href="#16-1-sknadsfrist">§ 16-1. Søknadsfrist</a></li>
+<li class="lvl3"><a href="#kapittel-16a-lovbrotsgebyr">Kapittel 16A. Lovbrotsgebyr</a></li>
+<li class="lvl5"><a href="#16a-1-lovbrotsgebyr">§ 16A-1. Lovbrotsgebyr</a></li>
+<li class="lvl5"><a href="#16a-2-vre-ramme-for-lovbrotsgebyr-etter-privatskolelova-7-2c">§ 16A-2. Øvre ramme for lovbrotsgebyr etter privatskolelova § 7-2c</a></li>
+<li class="lvl2"><a href="#femte-delen-sluttreglar">Femte delen – sluttreglar</a></li>
+<li class="lvl3"><a href="#kapittel-17-innfringstakt-og-overgangsordningar">Kapittel 17. Innføringstakt og overgangsordningar</a></li>
+<li class="lvl5"><a href="#17-1-innfringstakt-for-lreplanverket-for-kunnskapslftet">§ 17-1. Innføringstakt for Læreplanverket for Kunnskapsløftet</a></li>
+<li class="lvl5"><a href="#17-2-overgangsregel-for-krav-om-a-tilby-arbeidslivsfag-pa-8-til-10-trinn">§ 17-2. Overgangsregel for krav om å tilby arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl3"><a href="#kapittel-18-iverksetjing-og-oppheving">Kapittel 18. Iverksetjing og oppheving</a></li>
+<li class="lvl5"><a href="#18-1-iverksetjing-og-oppheving">§ 18-1. Iverksetjing og oppheving</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-06-22-1213.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-03-901.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til privatskolelova (privatskoleforskrifta)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2024-06-03-901.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2024-06-03-901 <code>forskrift/2024-06-03-901</code></td></tr>
+<tr><th>Korttittel</th><td>Privatskoleforskrifta</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2024</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-06-22-1213 <code>forskrift/2026-06-22-1213</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2024-06-03-901" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#frste-delen-grunnskoleopplring">Første delen – grunnskoleopplæring</a></li>
+<li class="lvl3"><a href="#kapittel-1-innhaldet-i-grunnskoleopplringa">Kapittel 1. Innhaldet i grunnskoleopplæringa</a></li>
+<li class="lvl5"><a href="#1-1-lreplanar">§ 1-1. Læreplanar</a></li>
+<li class="lvl5"><a href="#1-2-opplring-i-samisk">§ 1-2. Opplæring i samisk</a></li>
+<li class="lvl5"><a href="#1-3-forsterka-opplring-i-norsk">§ 1-3. Forsterka opplæring i norsk</a></li>
+<li class="lvl5"><a href="#1-4-tid-til-eksamen-og-eksamensfrebuing">§ 1-4. Tid til eksamen og eksamensførebuing</a></li>
+<li class="lvl5"><a href="#1-5-fysisk-aktivitet-pa-5-til-7-trinn">§ 1-5. Fysisk aktivitet på 5. til 7. trinn</a></li>
+<li class="lvl5"><a href="#1-6-valfag-pa-8-til-10-trinn">§ 1-6. Valfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-7-opplring-i-framandsprak-fordjuping-eller-arbeidslivsfag-pa-8-til-10-trinn">§ 1-7. Opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-8-fritak-fra-opplring-i-framandsprak-fordjuping-eller-arbeidslivsfag-pa-8-til-10-trinn">§ 1-8. Fritak frå opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl5"><a href="#1-9-fritak-fra-skriveopplring-i-eitt-av-dei-norske-skriftspraka">§ 1-9. Fritak frå skriveopplæring i eitt av dei norske skriftspråka</a></li>
+<li class="lvl5"><a href="#1-10-forsering-av-fag">§ 1-10. Forsering av fag</a></li>
+<li class="lvl3"><a href="#kapittel-2-leksehjelp">Kapittel 2. Leksehjelp</a></li>
+<li class="lvl5"><a href="#2-1-tilbod-om-leksehjelp">§ 2-1. Tilbod om leksehjelp</a></li>
+<li class="lvl2"><a href="#andre-delen-vidaregaande-opplring">Andre delen – vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#kapittel-3-inntak-til-vidaregaande-opplring">Kapittel 3. Inntak til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#3-1-elevstatus">§ 3-1. Elevstatus</a></li>
+<li class="lvl5"><a href="#3-2-kven-som-kan-takast-inn">§ 3-2. Kven som kan takast inn</a></li>
+<li class="lvl5"><a href="#3-3-meir-opplring-for-elevar-i-fag-som-ikkje-er-bestatt">§ 3-3. Meir opplæring for elevar i fag som ikkje er bestått</a></li>
+<li class="lvl5"><a href="#3-4-plassar-for-inntak-av-elevar-til-meir-opplring">§ 3-4. Plassar for inntak av elevar til meir opplæring</a></li>
+<li class="lvl5"><a href="#3-5-skolar-som-kan-ta-inn-vaksne-skjarar-utan-rett-til-vidaregaande-opplring">§ 3-5. Skolar som kan ta inn vaksne søkjarar utan rett til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#3-6-kvote-for-vaksne-skjarar">§ 3-6. Kvote for vaksne søkjarar</a></li>
+<li class="lvl5"><a href="#3-7-plassar-til-utvekslingselevar">§ 3-7. Plassar til utvekslingselevar</a></li>
+<li class="lvl5"><a href="#3-8-inntak-pa-grunnlag-av-ferdigheit-eller-inntaksprve">§ 3-8. Inntak på grunnlag av ferdigheit eller inntaksprøve</a></li>
+<li class="lvl5"><a href="#3-9-skjarar-som-kan-givast-fortrinnsrett">§ 3-9. Søkjarar som kan givast fortrinnsrett</a></li>
+<li class="lvl5"><a href="#3-10-inntak-til-utdanningsprogram-og-programomrade">§ 3-10. Inntak til utdanningsprogram og programområde</a></li>
+<li class="lvl5"><a href="#3-11-vilkar-for-inntak-til-vidaregaande-trinn-1">§ 3-11. Vilkår for inntak til vidaregåande trinn 1</a></li>
+<li class="lvl5"><a href="#3-12-skjarar-utan-karakterar-eller-utan-samanliknbart-karaktergrunnlag">§ 3-12. Søkjarar utan karakterar eller utan samanliknbart karaktergrunnlag</a></li>
+<li class="lvl5"><a href="#3-13-vilkar-for-inntak-til-vidaregaande-trinn-2-og-vidaregaande-trinn-3">§ 3-13. Vilkår for inntak til vidaregåande trinn 2 og vidaregåande trinn 3</a></li>
+<li class="lvl3"><a href="#kapittel-4-innhaldet-i-den-vidaregaande-opplringa">Kapittel 4. Innhaldet i den vidaregåande opplæringa</a></li>
+<li class="lvl5"><a href="#4-1-lreplanar">§ 4-1. Læreplanar</a></li>
+<li class="lvl5"><a href="#4-2-meir-opplring">§ 4-2. Meir opplæring</a></li>
+<li class="lvl5"><a href="#4-3-tid-til-eksamen-og-eksamensfrebuing">§ 4-3. Tid til eksamen og eksamensførebuing</a></li>
+<li class="lvl5"><a href="#4-4-opplring-i-framandsprak">§ 4-4. Opplæring i framandspråk</a></li>
+<li class="lvl5"><a href="#4-5-fritak-fra-opplring-i-framandsprak">§ 4-5. Fritak frå opplæring i framandspråk</a></li>
+<li class="lvl5"><a href="#4-6-fritak-fra-skriveopplring-i-eitt-av-dei-norske-skriftspraka">§ 4-6. Fritak frå skriveopplæring i eitt av dei norske skriftspråka</a></li>
+<li class="lvl5"><a href="#4-7-fritak-fra-opplring-i-kroppsving">§ 4-7. Fritak frå opplæring i kroppsøving</a></li>
+<li class="lvl5"><a href="#4-8-godkjenning-av-tidlegare-bestatt-opplring">§ 4-8. Godkjenning av tidlegare bestått opplæring</a></li>
+<li class="lvl5"><a href="#4-9-opplring-etter-lreplanen-i-norsk-for-spraklege-minoritetar-med-kort-butid-i-noreg">§ 4-9. Opplæring etter læreplanen i norsk for språklege minoritetar med kort butid i Noreg</a></li>
+<li class="lvl2"><a href="#tredje-delen-fellesreglar-for-grunnskoleopplringa-og-den-vidaregaande-opplringa">Tredje delen – fellesreglar for grunnskoleopplæringa og den vidaregåande opplæringa</a></li>
+<li class="lvl3"><a href="#kapittel-5-krav-til-lreplanane">Kapittel 5. Krav til læreplanane</a></li>
+<li class="lvl5"><a href="#5-1-generelle-krav-til-lreplanane">§ 5-1. Generelle krav til læreplanane</a></li>
+<li class="lvl5"><a href="#5-2-skolar-som-er-godkjende-pa-grunnlag-av-livssyn">§ 5-2. Skolar som er godkjende på grunnlag av livssyn</a></li>
+<li class="lvl5"><a href="#5-3-skolar-som-er-godkjende-pa-grunnlag-av-ei-anerkjend-pedagogisk-retning">§ 5-3. Skolar som er godkjende på grunnlag av ei anerkjend pedagogisk retning</a></li>
+<li class="lvl5"><a href="#5-4-internasjonale-skolar">§ 5-4. Internasjonale skolar</a></li>
+<li class="lvl5"><a href="#5-5-andre-skolar">§ 5-5. Andre skolar</a></li>
+<li class="lvl3"><a href="#kapittel-6-individuell-vurdering">Kapittel 6. Individuell vurdering</a></li>
+<li class="lvl4"><a href="#i-generelle-reglar">I. Generelle reglar</a></li>
+<li class="lvl4"><a href="#ii-undervegsvurdering">II. Undervegsvurdering</a></li>
+<li class="lvl4"><a href="#iii-sluttvurdering">III. Sluttvurdering</a></li>
+<li class="lvl4"><a href="#iv-fritak-fra-vurdering-med-karakter">IV. Fritak frå vurdering med karakter</a></li>
+<li class="lvl4"><a href="#v-eksamen">V. Eksamen</a></li>
+<li class="lvl4"><a href="#vi-dokumentasjon-i-grunnskolen">VI. Dokumentasjon i grunnskolen</a></li>
+<li class="lvl4"><a href="#vii-dokumentasjon-i-vidaregaande-opplring">VII. Dokumentasjon i vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#kapittel-7-klage-pa-sluttvurderingar">Kapittel 7. Klage på sluttvurderingar</a></li>
+<li class="lvl5"><a href="#7-1-kva-kapittelet-gjeld-og-forholdet-til-forvaltningsloven">§ 7-1. Kva kapittelet gjeld og forholdet til forvaltningsloven</a></li>
+<li class="lvl5"><a href="#7-2-klagefristar">§ 7-2. Klagefristar</a></li>
+<li class="lvl5"><a href="#7-3-rett-til-grunngiving-for-karakteren">§ 7-3. Rett til grunngiving for karakteren</a></li>
+<li class="lvl5"><a href="#7-4-klage-pa-fastsetjing-av-standpunktkarakter-i-fag">§ 7-4. Klage på fastsetjing av standpunktkarakter i fag</a></li>
+<li class="lvl5"><a href="#7-5-klage-pa-vedtak-om-ikkje-a-fastsetje-standpunktkarakter-i-fag">§ 7-5. Klage på vedtak om ikkje å fastsetje standpunktkarakter i fag</a></li>
+<li class="lvl5"><a href="#7-6-klage-pa-standpunktkarakter-i-orden-og-i-oppfrsel">§ 7-6. Klage på standpunktkarakter i orden og i oppførsel</a></li>
+<li class="lvl5"><a href="#7-7-klage-pa-karakter-ved-skriftleg-eksamen">§ 7-7. Klage på karakter ved skriftleg eksamen</a></li>
+<li class="lvl5"><a href="#7-8-klage-pa-gjennomfringa-av-munnleg-eksamen-og-eksamen-som-ikkje-berre-er-skriftleg-eller-munnleg">§ 7-8. Klage på gjennomføringa av munnleg eksamen og eksamen som ikkje berre er skriftleg eller munnleg</a></li>
+<li class="lvl5"><a href="#7-9-klage-pa-fag-og-sveineprve">§ 7-9. Klage på fag- og sveineprøve</a></li>
+<li class="lvl3"><a href="#kapittel-8-samarbeid-med-foreldra">Kapittel 8. Samarbeid med foreldra</a></li>
+<li class="lvl5"><a href="#8-1-foreldremte-og-foreldresamtale">§ 8-1. Foreldremøte og foreldresamtale</a></li>
+<li class="lvl3"><a href="#kapittel-9-tilleggskompetanse">Kapittel 9. Tilleggskompetanse</a></li>
+<li class="lvl5"><a href="#9-1-spesialkompetanse-i-skolar-som-er-godkjende-for-a-drive-pa-grunnlag-av-ei-anerkjend-pedagogisk-retning">§ 9-1. Spesialkompetanse i skolar som er godkjende for å drive på grunnlag av ei anerkjend pedagogisk retning</a></li>
+<li class="lvl5"><a href="#9-2-spisskompetanse-i-skolar-som-er-godkjende-for-a-drive-srskilt-tilrettelagd-vidaregaande-opplring-i-kombinasjon-med-toppidrett">§ 9-2. Spisskompetanse i skolar som er godkjende for å drive særskilt tilrettelagd vidaregåande opplæring i kombinasjon med toppidrett</a></li>
+<li class="lvl3"><a href="#kapittel-10-politiattest-og-yrkesforbod">Kapittel 10. Politiattest og yrkesforbod</a></li>
+<li class="lvl5"><a href="#10-1-politiattest-ved-tilsetjing">§ 10-1. Politiattest ved tilsetjing</a></li>
+<li class="lvl5"><a href="#10-2-krav-til-politiattesten">§ 10-2. Krav til politiattesten</a></li>
+<li class="lvl5"><a href="#10-3-behandling-og-oppbevaring-av-politiattesten">§ 10-3. Behandling og oppbevaring av politiattesten</a></li>
+<li class="lvl5"><a href="#10-4-yrkesforbod">§ 10-4. Yrkesforbod</a></li>
+<li class="lvl3"><a href="#kapittel-11-spesielt-for-skolar-som-driv-srskilt-tilrettelagd-opplring-for-elevar-med-dokumenterte-behov">Kapittel 11. Spesielt for skolar som driv særskilt tilrettelagd opplæring for elevar med dokumenterte behov</a></li>
+<li class="lvl5"><a href="#11-1-krav-til-dokumentasjon-av-den-nedsette-funksjonsevna-og-lrevanskane-til-eleven">§ 11-1. Krav til dokumentasjon av den nedsette funksjonsevna og lærevanskane til eleven</a></li>
+<li class="lvl5"><a href="#11-2-kostnader-til-individuell-tilrettelegging">§ 11-2. Kostnader til individuell tilrettelegging</a></li>
+<li class="lvl2"><a href="#fjerde-delen-forskjellige-reglar">Fjerde delen – forskjellige reglar</a></li>
+<li class="lvl3"><a href="#kapittel-12-ulykkesforsikring">Kapittel 12. Ulykkesforsikring</a></li>
+<li class="lvl5"><a href="#12-1-krav-til-forsikringa">§ 12-1. Krav til forsikringa</a></li>
+<li class="lvl5"><a href="#12-2-kva-forsikringa-skal-gjelde">§ 12-2. Kva forsikringa skal gjelde</a></li>
+<li class="lvl5"><a href="#12-3-nar-og-kvar-forsikringa-skal-gjelde">§ 12-3. Når og kvar forsikringa skal gjelde</a></li>
+<li class="lvl5"><a href="#12-4-erstatning-ved-varig-medisinsk-invaliditet-eller-ved-dd">§ 12-4. Erstatning ved varig medisinsk invaliditet eller ved død</a></li>
+<li class="lvl5"><a href="#12-5-tilbakebetaling-av-utgifter-til-behandling">§ 12-5. Tilbakebetaling av utgifter til behandling</a></li>
+<li class="lvl5"><a href="#12-6-avgrensingar-i-forsikringsdekninga">§ 12-6. Avgrensingar i forsikringsdekninga</a></li>
+<li class="lvl3"><a href="#kapittel-13-rapportering-og-evaluering-av-opplringsverksemda">Kapittel 13. Rapportering og evaluering av opplæringsverksemda</a></li>
+<li class="lvl5"><a href="#13-1-rapportering-fra-grunnskolar-til-utdanningsdirektoratet">§ 13-1. Rapportering frå grunnskolar til Utdanningsdirektoratet</a></li>
+<li class="lvl5"><a href="#13-2-opplysningar-fra-vidaregaande-skolar-til-utdanningsdirektoratet">§ 13-2. Opplysningar frå vidaregåande skolar til Utdanningsdirektoratet</a></li>
+<li class="lvl5"><a href="#13-3-nasjonale-underskingar-om-skole-og-lringsmiljet-til-elevane">§ 13-3. Nasjonale undersøkingar om skole- og læringsmiljøet til elevane</a></li>
+<li class="lvl5"><a href="#13-4-nasjonale-prver">§ 13-4. Nasjonale prøver</a></li>
+<li class="lvl5"><a href="#13-5-kartlegging">§ 13-5. Kartlegging</a></li>
+<li class="lvl5"><a href="#13-6-internasjonale-underskingar">§ 13-6. Internasjonale undersøkingar</a></li>
+<li class="lvl5"><a href="#13-7-fritak-fra-nasjonale-prver-og-kartleggingsprver">§ 13-7. Fritak frå nasjonale prøver og kartleggingsprøver</a></li>
+<li class="lvl5"><a href="#13-8-ferdigheitsprver-i-svmming">§ 13-8. Ferdigheitsprøver i svømming</a></li>
+<li class="lvl3"><a href="#kapittel-14-behandling-av-personopplysningar">Kapittel 14. Behandling av personopplysningar</a></li>
+<li class="lvl5"><a href="#14-1-innhenting-av-opplysningar-fra-folkeregisteret">§ 14-1. Innhenting av opplysningar frå Folkeregisteret</a></li>
+<li class="lvl5"><a href="#14-2-styrt-tilgang-til-personopplysningar">§ 14-2. Styrt tilgang til personopplysningar</a></li>
+<li class="lvl5"><a href="#14-3-innhenting-av-opplysningar-ved-skolebyte">§ 14-3. Innhenting av opplysningar ved skolebyte</a></li>
+<li class="lvl5"><a href="#14-4-innhenting-av-opplysningar-ved-overgang-fra-grunnskole-til-vidaregaande-opplring">§ 14-4. Innhenting av opplysningar ved overgang frå grunnskole til vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#14-5-ikkje-anonyme-skolemiljunderskingar">§ 14-5. Ikkje-anonyme skolemiljøundersøkingar</a></li>
+<li class="lvl3"><a href="#kapittel-15-delbetaling-for-lremiddel-og-digitalt-utstyr-i-vidaregaande-opplring">Kapittel 15. Delbetaling for læremiddel og digitalt utstyr i vidaregåande opplæring</a></li>
+<li class="lvl5"><a href="#15-1-eigendel-for-berbar-pc">§ 15-1. Eigendel for berbar PC</a></li>
+<li class="lvl3"><a href="#kapittel-16-sknadsfrist">Kapittel 16. Søknadsfrist</a></li>
+<li class="lvl5"><a href="#16-1-sknadsfrist">§ 16-1. Søknadsfrist</a></li>
+<li class="lvl3"><a href="#kapittel-16a-lovbrotsgebyr">Kapittel 16A. Lovbrotsgebyr</a></li>
+<li class="lvl5"><a href="#16a-1-lovbrotsgebyr">§ 16A-1. Lovbrotsgebyr</a></li>
+<li class="lvl5"><a href="#16a-2-vre-ramme-for-lovbrotsgebyr-etter-privatskolelova-7-2c">§ 16A-2. Øvre ramme for lovbrotsgebyr etter privatskolelova § 7-2c</a></li>
+<li class="lvl2"><a href="#femte-delen-sluttreglar">Femte delen – sluttreglar</a></li>
+<li class="lvl3"><a href="#kapittel-17-innfringstakt-og-overgangsordningar">Kapittel 17. Innføringstakt og overgangsordningar</a></li>
+<li class="lvl5"><a href="#17-1-innfringstakt-for-lreplanverket-for-kunnskapslftet">§ 17-1. Innføringstakt for Læreplanverket for Kunnskapsløftet</a></li>
+<li class="lvl5"><a href="#17-2-overgangsregel-for-krav-om-a-tilby-arbeidslivsfag-pa-8-til-10-trinn">§ 17-2. Overgangsregel for krav om å tilby arbeidslivsfag på 8. til 10. trinn</a></li>
+<li class="lvl3"><a href="#kapittel-18-iverksetjing-og-oppheving">Kapittel 18. Iverksetjing og oppheving</a></li>
+<li class="lvl5"><a href="#18-1-iverksetjing-og-oppheving">§ 18-1. Iverksetjing og oppheving</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-03-901.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2024-06-03-901.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2024-06-03-901.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2024-06-03-901.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2024-06-03-901.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2024-06-03-901.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2024-06-03-901.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2024-06-03-901.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2024-06-03-901.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-privatskolelova-privatskoleforskrifta">Forskrift til privatskolelova (privatskoleforskrifta)</h1>
 <h2 id="frste-delen-grunnskoleopplring">Første delen – grunnskoleopplæring</h2>
 <h3 id="kapittel-1-innhaldet-i-grunnskoleopplringa">Kapittel 1. Innhaldet i grunnskoleopplæringa</h3>
 <p>( privatskolelova § 2-3 )</p>
@@ -102,7 +373,7 @@ b. arbeidslivsfag, etter den læreplanen som skolen har fått godkjend.</p>
 <p>Elevane skal ha det faget dei har valt, frå 8. til 10. trinn. Dei kan likevel byte fag det første halvåret i samråd med skolen. Skolen kan godkjenne fagbyte på eit seinare tidspunkt dersom særlege grunnar taler for det.</p>
 <p>Elevane kan ikkje krevje å halde fram med det same faget dersom dei byter skole.</p>
 <p>Kravet i andre ledd bokstav b gjeld ikkje for internasjonale skolar, jf. privatskolelova § 2-1 andre ledd bokstav c .</p>
-<p><em>Endra ved forskrift 18 feb 2026 nr. 235 (i kraft 1 aug 2026).</em></p>
+<p class="note">Endra ved forskrift 18 feb 2026 nr. 235 (i kraft 1 aug 2026).</p>
 <h5 id="1-8-fritak-fra-opplring-i-framandsprak-fordjuping-eller-arbeidslivsfag-pa-8-til-10-trinn">§ 1-8. Fritak frå opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn</h5>
 <p>Elevar som får opplæring i samisk som første- eller andrespråk, opplæring i kvensk eller finsk som andrespråk, opplæring i norsk teiknspråk eller særskild språkopplæring etter privatskolelova § 3-5 , er fritatt frå opplæring i framandspråk, fordjuping eller arbeidslivsfag på 8. til 10. trinn. Dei skal likevel få slik opplæring dersom dei ønskjer det.</p>
 <p>Elevar som ikkje deltar i opplæringa i framandspråk, fordjuping eller arbeidslivsfag, skal få forsterka opplæring i engelsk, norsk, samisk, kvensk, finsk, norsk teiknspråk eller eit anna språk som dei allereie har eit grunnlag i.</p>
@@ -132,7 +403,7 @@ d. Dei får særskild språkopplæring etter privatskolelova § 3-5 .</p>
 <p>Ungdom med rett til vidaregåande opplæring skal prioriterast føre vaksne søkjarar.</p>
 <p>Søkjarar til eit fullstendig utdanningsprogram eller programområde skal takast inn før andre søkjarar. Dei som gjer omval og dei som forserer fag, har rett til opplæring også i dei faga som allereie er bestått og skal reknast som søkjarar til eit fullstendig utdanningsprogram.</p>
 <p>For søkjarar mellom 19 og 24 år og vaksne søkjarar over 25 år med kort butid i Noreg kan ei vurdering av formalkompetansen erstatte realkompetansevurderinga som skal gjerast etter privatskolelova § 3-1 andre ledd . For vaksne søkjarar over 25 år med kort butid i Norge kan ei vurdering av formalkompetansen skje på grunnlag av dokumentasjon som fortel kva for fag søkjarane må ta for å komme vidare i utdanningsløpet. Det er dagleg leiar som skal vurdere formalkompetansen, og kvar enkelt elev må sjølv leggje fram den nødvendige dokumentasjonen.</p>
-<p><em>Endra ved forskrift 22 juni 2026 nr. 1184 .</em></p>
+<p class="note">Endra ved forskrift 22 juni 2026 nr. 1184 .</p>
 <h5 id="3-3-meir-opplring-for-elevar-i-fag-som-ikkje-er-bestatt">§ 3-3. Meir opplæring for elevar i fag som ikkje er bestått</h5>
 <p>Elevar som ikkje har bestått eit fag, kan søkje skolen om meir opplæring etter § 4-2 i faget frå det påfølgjande skoleåret eller seinare skoleår. Skolen kan fastsetje ein eigen frist for slik søknad. Fristen må vere minst ei veke etter siste moglege sensur for standpunkt og ordinær eksamen i faget. Skolen kan ta inn desse elevane til ny opplæring i desse faga dersom skolen har ledig kapasitet etter det ordinære inntaket.</p>
 <p>Dei som ikkje har bestått eitt eller fleire fag, kan velje å søkje om inntak i desse faga ved ordinært inntak.</p>
@@ -165,7 +436,7 @@ u. Vinterlandbruksskulen i Ryfylke med opp til 17 elevar
 v. Wang AS med opp til 45 elevar
 w. Øya videregående skole med opp til 7 elevar.</p>
 <p>Vaksne søkjarar med rett til vidaregåande opplæring skal prioriterast føre vaksne søkjarar utan rett.</p>
-<p><em>Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024).</p>
 <h5 id="3-6-kvote-for-vaksne-skjarar">§ 3-6. Kvote for vaksne søkjarar</h5>
 <p>Skolen kan etter søknad til Utdanningsdirektoratet få godkjent ein kvote for vaksne med rett til vidaregåande opplæring innanfor ramma av det elevtalet skolen er godkjend for. Skolen kan etter reglane i § 3-5 også ta inn vaksne søkjarar utan rett innanfor denne kvoten. Kvoten for vaksne søkjarar kan ikkje brukast til å ta inn ungdom med rett til vidaregåande opplæring.</p>
 <h5 id="3-7-plassar-til-utvekslingselevar">§ 3-7. Plassar til utvekslingselevar</h5>
@@ -179,7 +450,7 @@ w. Øya videregående skole med opp til 7 elevar.</p>
 <p>Søkjarar skal takast inn til eit fullstendig utdanningsprogram på vidaregåande trinn 1 eller eit fullstendig programområde på vidaregåande trinn 2 eller trinn 3. Dette gjeld også søkjarar som gjer omval eller som forserer fag.</p>
 <p>Ein elev kan søkje skolen om å ikkje delta i opplæringa i eit eller fleire fag for å ta eksamen som privatist. Skolen kan innvilge søknaden om det ligg føre tungtvegande grunnar.</p>
 <p>Avgjerda av om ein elev ikkje skal delta i opplæringa, er eit enkeltvedtak. Statsforvaltaren er klageinstans.</p>
-<p><em>Endra ved forskrift 2 april 2025 nr. 575 .</em></p>
+<p class="note">Endra ved forskrift 2 april 2025 nr. 575 .</p>
 <h5 id="3-11-vilkar-for-inntak-til-vidaregaande-trinn-1">§ 3-11. Vilkår for inntak til vidaregåande trinn 1</h5>
 <p>Søkjarar som har vitnemål for fullført norsk grunnskole eller dokumentasjon på tilsvarande opplæring i tråd med § 3-2 , fyller vilkåra for inntak til vidaregåande trinn 1.</p>
 <h5 id="3-12-skjarar-utan-karakterar-eller-utan-samanliknbart-karaktergrunnlag">§ 3-12. Søkjarar utan karakterar eller utan samanliknbart karaktergrunnlag</h5>
@@ -207,7 +478,7 @@ c. søkjarar som ikkje har bestått eitt eller fleire fag.</p>
 <p>Elevar som har gjennomført opplæringa, men ikkje har bestått standpunktkarakter eller eksamen i eitt eller fleire fag, kan få meir opplæring i faget eller faga. Det same gjeld elevar som ikkje har bestått fag- eller sveineprøva.</p>
 <p>Opplæringa må vere i samsvar med læreplanen i faget som skolen har fått godkjend, jf. privatskolelova § 2-3 .</p>
 <p>Opplæringa skal reknast som gjennomført etter første ledd dersom eleven har følgt opplæringa fram til 1. mars. Dersom opplæringa følgjer ei anna organisering enn eit normalt opplæringsår, må eleven ha følgt ein like stor del av opplæringa.</p>
-<p><em>Endra ved forskrift 2 april 2025 nr. 575 .</em></p>
+<p class="note">Endra ved forskrift 2 april 2025 nr. 575 .</p>
 <h5 id="4-3-tid-til-eksamen-og-eksamensfrebuing">§ 4-3. Tid til eksamen og eksamensførebuing</h5>
 <p>Tid som går med til eksamen og eksamensførebuing, skal reknast som opplæringstid. Elevar som ikkje blir trekte ut til eksamen, skal ha ordinær opplæring.</p>
 <h5 id="4-4-opplring-i-framandsprak">§ 4-4. Opplæring i framandspråk</h5>
@@ -313,14 +584,14 @@ h. tryggleikskurs på bane, andre og tredje del av tryggleikskurs på veg og fø
 i. representasjon på arrangement på nasjonalt og internasjonalt nivå.</p>
 <p>Ved fråvær som kjem av sjukdom eller andre helseforhold, kan eleven leggje fram eigenmelding i opptil ti prosent av timane i eit fag. Dersom helserelatert og eventuelt udokumentert fråvær i eit fag til saman har nådd ti prosent, må eleven leggje fram dokumentasjon frå helsepersonell ved meir helserelatert fråvær. Eleven kan likevel leggje fram eigenmelding etter at ti prosent er nådd, dersom årsaka er ein tilstand som gir høgare risiko for helserelatert fråvær, og dette er dokumentert av helsepersonell.</p>
 <p>Dagleg leiar sjølv kan avgjere at ein elev som til saman har opp til femten prosent eigenmeldt eller udokumentert fråvær i eit fag, likevel kan få karakter dersom årsaka til fråværet gjer det klart urimeleg at fråværsgrensa skal gjelde. Faglæraren må i alle høve ha tilstrekkeleg grunnlag for å gi karakter, jf. § 6-2 .</p>
-<p><em>Endra ved forskrifter 18 feb 2025 nr. 234 (i kraft 1 aug 2025), 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrifter 18 feb 2025 nr. 234 (i kraft 1 aug 2025), 13 april 2026 nr. 591 .</p>
 <h6 id="6-9-system-for-fring-av-karakterar-og-fravr">§ 6-9. System for føring av karakterar og fråvær</h6>
 <p>Skolen skal ha eit system for føring av karakterar og fråvær.</p>
 <p>Fråvær, halvårsvurdering med karakterar og sluttvurdering med karakter skal førast inn i det systemet som skolen bruker. Dette gjeld både karakterar i fag og karakterar i orden og i oppførsel. Karakterane er fastsette når dei er førte inn.</p>
 <p>Skolen skal rette og attestere føringsfeil.</p>
 <p>Elevar som er fritatt for opplæringsplikt etter opplæringslova § 2-2 tredje ledd , jf. privatskolelova § 3-3 , skal framleis stå oppførte i systemet for føring av karakterar.</p>
 <p>Skolen skal dokumentere fråvær kvart halvår. Dersom eleven er hos skolehelsetenesta, skal det ikkje bli rekna som fråvær frå opplæringa etter kapittel 6 i denne forskrifta.</p>
-<p><em>Endra ved forskrift 22 juni 2026 nr. 1213 (i kraft 1 aug 2026).</em></p>
+<p class="note">Endra ved forskrift 22 juni 2026 nr. 1213 (i kraft 1 aug 2026).</p>
 <h6 id="6-10-dispensasjon-fra-reglane-om-individuell-vurdering">§ 6-10. Dispensasjon frå reglane om individuell vurdering</h6>
 <p>Utdanningsdirektoratet kan i særlege tilfelle innvilge søknader om dispensasjon frå reglane i dette kapittelet. Avgjerda er eit enkeltvedtak. Departementet er klageinstans.</p>
 <h4 id="ii-undervegsvurdering">II. Undervegsvurdering</h4>
@@ -352,7 +623,7 @@ c. reflekterer over sin eigen orden og oppførsel og korleis dei kan utvikle seg
 <h6 id="6-15-sluttvurdering-i-fag">§ 6-15. Sluttvurdering i fag</h6>
 <p>Sluttvurderinga skal gi informasjon om kompetansen til elevane ved avslutninga av opplæringa i fag. Grunnlaget for sluttvurderinga i eit fag er kompetansemåla i læreplanen i faget som skolen har fått godkjend etter privatskolelova § 2-3 , jf. § 6-2 .</p>
 <p>Sluttvurderingar i grunnskolen og vidaregåande opplæring er standpunktkarakterar og eksamenskarakterar.</p>
-<p><em>Endra ved forskrift 2 april 2025 nr. 575 .</em></p>
+<p class="note">Endra ved forskrift 2 april 2025 nr. 575 .</p>
 <h6 id="6-16-standpunktkarakterar-i-fag">§ 6-16. Standpunktkarakterar i fag</h6>
 <p>Standpunktkarakterar skal vere eit uttrykk for den samla kompetansen elevane har ved avslutninga av opplæringa. Standpunktkarakterar skal setjast i samsvar med § 6-2 .</p>
 <p>Skolen har ansvar for at elevane er kjende med kva det blir lagt vekt på i fastsetjinga av standpunktkarakterane. Elevane skal ha fått høve til å vise kompetansen sin på fleire og varierte måtar. Kompetansen som elevane har vist i den tida dei har fått opplæring, skal takast med i vurderinga når standpunktkarakterane skal fastsetjast.</p>
@@ -360,7 +631,7 @@ c. reflekterer over sin eigen orden og oppførsel og korleis dei kan utvikle seg
 <p>I fag der eleven er oppe til eksamen, skal standpunktkarakteren fastsetjast seinast dagen før sensur av eksamen. Dette gjeld ikkje der ein elev får meir opplæring etter § 4-2 og samtidig er meld opp til utsett, ny eller særskild eksamen, jf. § 6-35 – § 6-37 . Standpunktkarakterane skal då fastsetjast etter endeleg sensur av utsett, ny eller særskild eksamen.</p>
 <p>Faglærarane set standpunktkarakter. Dersom skolen er i tvil om at reglane for fastsetjing av standpunktkarakter er følgde i eit fag, kan skolen krevje at faglæraren gjer ei ny fagleg vurdering før karakteren blir fastsett og ført.</p>
 <p>Dersom ein elev ikkje kan få standpunktkarakter i eit fag og eleven har fått varsel etter § 6-7 , skal skolen gjere enkeltvedtak om at det ikkje blir gitt standpunktkarakter i faget.</p>
-<p><em>Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</p>
 <h6 id="6-17-standpunktkarakterar-i-orden-og-i-oppfrsel">§ 6-17. Standpunktkarakterar i orden og i oppførsel</h6>
 <p>På 10. trinn og ved avslutninga av opplæringsløpet i vidaregåande skole skal det setjast ein standpunktkarakter i orden og ein standpunktkarakter i oppførsel.</p>
 <p>Standpunktkarakterane i orden og i oppførsel skal vere eit uttrykk for korleis elevane har tedd seg, og kva for orden dei har hatt. Det skal gjerast ei heilskapleg vurdering av ordenen deira og oppførselen deira gjennom opplæringstida.</p>
@@ -422,7 +693,7 @@ b. opp til 30 minuttar per kandidat ved munnleg eksamen
 c. opp til 45 minuttar per kandidat ved munnleg-praktisk eksamen
 d. opp til fem timar per kandidat ved praktisk eksamen.</p>
 <p>Skriftleg eksamen skal starte klokka 09.00 norsk tid. Kandidatar som ikkje har møtt når eksamen startar, skal likevel få gjennomføre eksamen dersom dei møter før klokka 10.00, men dei skal ikkje få kompensert tapt tid</p>
-<p><em>Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</p>
 <h6 id="6-29-talet-pa-eksamenar-i-grunnskolen">§ 6-29. Talet på eksamenar i grunnskolen</h6>
 <p>I grunnskolen skal alle elevar trekkjast ut til éin sentralt gitt skriftleg eksamen og éin lokalt gitt munnleg eller munnleg-praktisk eksamen.</p>
 <p>Elevar i grunnskolen som forserer opplæringa i eit fag, jf. § 1-10 , skal vere med i uttrekket til eksamen i dette faget det skoleåret dei avsluttar opplæringa i faget. Dersom elevane blir trekte ut til eksamen, kjem denne i tillegg til dei andre eksamenane elevane skal ha i grunnskolen.</p>
@@ -447,7 +718,7 @@ c. På andre studieførebuande utdanningsprogram og programområde skal elevane 
 <p>Alle eksamenssvar skal vurderast av to sensorar.</p>
 <p>Ved sentralt gitt eksamen skal begge sensorane vere eksterne. Dersom sensorane ikkje blir samde, skal ein oppmann eller ei oppkvinne avgjere karakteren.</p>
 <p>Ved lokalt gitt eksamen skal minst éin sensor vere ekstern. Ved lokalt gitt skriftleg eksamen skal faglæraren til eleven ikkje vere sensor. Ved lokalt gitt munnleg, praktisk og munnleg-praktisk eksamen skal faglæraren til eleven vere sensor om skolen ønskjer det. På munnleg, praktisk og munnleg-praktisk eksamen skal ein av sensorane vere eksaminator og ha hovudansvaret for å gi oppgåver og stille spørsmål til kandidaten. Sensor skal ha tilfredsstillande kompetanse i faget. Ein fagarbeidar kan vere sensor i programfag på yrkesfaglege utdanningsprogram.</p>
-<p><em>Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endra ved forskrift 7 sep 2025 nr. 1787 (i kraft 1 jan 2026).</p>
 <h6 id="6-34-srskild-tilrettelegging-av-eksamen">§ 6-34. Særskild tilrettelegging av eksamen</h6>
 <p>Elevar har rett til særskild tilrettelegging av eksamen dersom dei treng det for å få vist kompetansen sin i faget. Tilrettelegginga må vere tilpassa behova til kvar enkelt elev så langt det er mogleg, men eleven må bli prøvd i kompetansemåla i faget og skal ikkje få fordelar framfor andre eksamenskandidatar.</p>
 <p>Der det i læreplanen i faget er lagt særleg vekt på skriftlege, munnlege eller praktiske ferdigheiter, skal eksamen ikkje leggjast til rette på ein slik måte at desse ferdigheitene ikkje blir prøvde.</p>
@@ -507,7 +778,7 @@ b. dei om er fritatt frå opplæring i kroppsøving etter § 4-6
 c. dei som er fritatt frå vurdering med karakter etter § 6-19 eller § 6-21 til § 6-23
 d. dei som fell inn under dei særskilde reglane om dokumentasjon etter § 6-47
 e. dei som har fått dispensasjon etter § 6-10 eller § 6-39 .</p>
-<p><em>Endra ved forskrift 22 juni 2026 nr. 1184 .</em></p>
+<p class="note">Endra ved forskrift 22 juni 2026 nr. 1184 .</p>
 <h6 id="6-46-frstegongsvitnemal-i-vidaregaande-opplring">§ 6-46. Førstegongsvitnemål i vidaregåande opplæring</h6>
 <p>Førstegongsvitnemål skal givast som dokumentasjon til elevar som har bestått vidaregåande opplæring som gir generell studiekompetanse, innan fem år etter oppstart.</p>
 <p>På førstegongsvitnemålet skal det førast følgjande karakterar:</p>
@@ -531,14 +802,14 @@ e. karakterar som er betra i løpet av den tida læreplanen for skolen fastset f
 <p>I eit fag der det er fastsett i læreplanen at privatistar kan ta eksamen på høgare nivå og få godskrive faget på lågare nivå, er det eksamenskarakteren på høgaste nivå som skal førast.</p>
 <p>Når ein elev har fått sluttvurdering med bestått karakter i eit fag, skal karakteren følgje eleven fram til kompetansebevis og vitnemål. Eleven kan då ikkje bli elev i faget på nytt. For elevar som i samband med omval eller forsering har brukt retten til å ta fag på nytt som elev, jf. § 3-2 , er det den siste beståtte karakteren som skal førast på vitnemålet eller kompetansebeviset.</p>
 <p>Elevar med individuell opplæringsplan som ikkje gir grunnlag for å fastsetje standpunktkarakter i eitt eller fleire fag, skal få ført på kompetansebeviset at dei er vurderte etter individuell opplæringsplan. Kompetansen til eleven skal dokumenterast i eit vedlegg til kompetansebeviset.</p>
-<p><em>Endra ved forskrift 22 juni 2026 nr. 1184 .</em></p>
+<p class="note">Endra ved forskrift 22 juni 2026 nr. 1184 .</p>
 <h6 id="6-50-fring-av-fravr-i-vidaregaande-opplring">§ 6-50. Føring av fråvær i vidaregåande opplæring</h6>
 <p>Det skal førast fråvær i dagar og enkelttimar på vitnemålet og kompetansebeviset i vidaregåande opplæring. Enkelttimar kan ikkje gjerast om til dagar.</p>
 <p>Skolen kan avgjere om fråværet til elevar som følgjer opplæringa i mindre enn eit fullstendig utdanningsprogram, skal førast i dagar og timar eller berre i timar.</p>
 <p>Ein elev kan krevje at årsaka til fråværet blir ført på eit vedlegg til vitnemålet eller kompetansebeviset.</p>
 <p>Ein elev kan krevje at opp til ti fråværsdagar i løpet av eit skoleår ikkje blir førte på vitnemålet eller kompetansebeviset, dersom det blir lagt fram slik dokumentasjon som er nemnd i § 6-8 andre og tredje ledd .</p>
 <p>Fråvær på grunn av sjukdom eller andre helseforhold må ha vart i meir enn tre dagar for ikkje å bli ført på vitnemålet eller kompetansebeviset, og det er berre fråværet frå og med den fjerde dagen som kan strykast. Dersom ein elev har ein dokumentert høgare risiko for helserelatert fråvær, kan fråværet likevel strykast frå og med den første fråværsdagen.</p>
-<p><em>Endra ved forskrift 18 feb 2025 nr. 234 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endra ved forskrift 18 feb 2025 nr. 234 (i kraft 1 aug 2025).</p>
 <h6 id="6-51-ansvar-for-a-utferde-vitnemal-og-kompetansebevis-i-vidaregaande-opplring">§ 6-51. Ansvar for å utferde vitnemål og kompetansebevis i vidaregåande opplæring</h6>
 <p>Skolen der eleven fullfører og består opplæringa, skal utferde vitnemål. Dersom eleven treng nytt vitnemål, er det skolen som utferda det opphavlege vitnemålet, som skal utferde vitnemålet på nytt.</p>
 <p>Når ein privatist som tidlegare har fått vitnemål som elev, treng eit nytt vitnemål, er det den skolen som utferda det opphavlege vitnemålet, som skal utferde det nye. Når ein privatist som ikkje tidlegare har oppfylt krava til vitnemål, skal ha vitnemål, er det den skolen der privatisten sist fekk standpunktkarakter i eit fag, som skal utferde vitnemålet. Når ein privatist som ikkje tidlegare har fått standpunktkarakter i vidaregåande opplæring, skal ha vitnemål, er det den fylkeskommunen der privatisten bur, som skal utferde vitnemålet. Det same gjeld dersom ein privatist sist fekk standpunktkarakter i eit fag på ein skole som er godkjend etter privatskolelova .</p>
@@ -628,10 +899,10 @@ b. straffeloven (1902) § 195 , § 196 , § 200 andre ledd , § 201 første ledd
 <p>For å bli tatt inn ved ein skole godkjend med tilskot etter sats for særleg ressurskrevjande elevar, er det krav om at eleven må ha:</p>
 <p>a. sakkyndig vurdering frå pedagogisk-psykologisk teneste eller frå ein annan kompetent faginstans som dokumenterer at eleven har sterkt nedsett funksjonsevne og omfattande lærevanskar som er langvarige eller permanente
 b. vedtak om individuelt tilrettelagd opplæring.</p>
-<p><em>Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024), endra ved forskrift 2 april 2025 nr. 575 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024), endra ved forskrift 2 april 2025 nr. 575 .</p>
 <h5 id="11-2-kostnader-til-individuell-tilrettelegging">§ 11-2. Kostnader til individuell tilrettelegging</h5>
 <p>Heimkommunen eller heimfylket skal dekkje kostnadene for elevar som har rett til individuell tilrettelegging, jf. privatskolelova § 3-6 , når eleven er vesentleg meir ressurskrevjande enn det satsen etter økonomiforskrift til privatskolelova § 4-3 dekkjer.</p>
-<p><em>Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 17 juni 2024 nr. 1048 (i kraft 1 aug 2024).</p>
 <h2 id="fjerde-delen-forskjellige-reglar">Fjerde delen – forskjellige reglar</h2>
 <h3 id="kapittel-12-ulykkesforsikring">Kapittel 12. Ulykkesforsikring</h3>
 <p>( privatskolelova § 7-1b )</p>
@@ -674,24 +945,24 @@ c. opplysningar om tilsette, kompetanse og ressursar
 d. opplysningar om fagval og organiseringa av opplæringa for ulike elevgrupper
 e. opplysningar om foreldrebetaling og moderasjonsordningar for skolefritidsordninga.</p>
 <p>Utdanningsdirektoratet kan behandle personopplysningar etter første ledd som indirekte kan knytast til barn og unge i opplæringspliktig alder, inkludert personopplysningar som nemnde i personvernforordninga artikkel 9 og 10, når dette er nødvendig for formål som er omtalte i privatskolelova § 7-2d . Opplysningane kan også brukast som grunnlag for forsking, analyse og statistikk.</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-2-opplysningar-fra-vidaregaande-skolar-til-utdanningsdirektoratet">§ 13-2. Opplysningar frå vidaregåande skolar til Utdanningsdirektoratet <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-13-2.html" title="Endringshistorikk for § 13-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Utan hinder av teieplikt skal vidaregåande skolar gjere følgjande opplysningar om elevar i den vidaregåande opplæringa tilgjengelege for Utdanningsdirektoratet:</p>
 <p>a. bakgrunnsopplysningar, til dømes om heimfylke, fødselsnummer og kjønn
 b. opplysningar om deltaking i vidaregåande opplæring, til dømes om elevstatus, fagval, ungdomsrett og inntak
 c. opplysningar om læringsresultat og gjennomføring, til dømes karakterar, resultat og karakterpoeng.</p>
 <p>Utdanningsdirektoratet kan behandle personopplysningar etter første ledd som indirekte kan knytast til ein elev, inkludert personopplysningar som nemnde i personvernforordninga artikkel 9 og 10, når det er nødvendig for formål som er omtalte i privatskolelova § 7-2d . Opplysningane kan også brukast som grunnlag for forsking, analyse og statistikk</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-3-nasjonale-underskingar-om-skole-og-lringsmiljet-til-elevane">§ 13-3. Nasjonale undersøkingar om skole- og læringsmiljøet til elevane <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-13-3.html" title="Endringshistorikk for § 13-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>På oppdrag frå departementet utarbeider Utdanningsdirektoratet nasjonale undersøkingar om skole- og læringsmiljøet til elevane. Skolen skal sørgje for at undersøkingane blir gjennomførte og følgde opp lokalt. Utdanningsdirektoratet kan godkjenne lokale tilleggsspørsmål frå skolar. Det skal vere frivillig for elevane å delta i slike undersøkingar.</p>
 <p>Dei endelege resultata frå undersøkingane skal ikkje innehalde direkte identifiserbare personopplysningar.</p>
 <p>Utdanningsdirektoratet kan behandle personopplysningar når det er nødvendig for å gjennomføre undersøkingane. Utdanningsdirektoratet kan også behandle endelege resultat som indirekte kan knytast til enkeltpersonar, når det er nødvendig for å kartleggje skole- og læringsmiljøet til elevane, jf. privatskolelova § 7-2d . Opplysningane kan også brukast som grunnlag for forsking, analyse og statistikk.</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-4-nasjonale-prver">§ 13-4. Nasjonale prøver <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-13-4.html" title="Endringshistorikk for § 13-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>På oppdrag frå departementet utarbeider Utdanningsdirektoratet nasjonale prøver som skal gi kunnskap om elevane sine grunnleggjande ferdigheiter i lesing, rekning og engelsk. Informasjonen frå prøvene skal gi grunnlag for undervegsvurdering og kvalitetsutvikling på alle nivå i skolesystemet. Det er obligatorisk for elevane å delta i slike prøver.</p>
 <p>Skolen skal sørgje for at prøver etter første ledd blir gjennomførte.</p>
 <p>Utdanningsdirektoratet kan behandle personopplysningar om personar som deltar i nasjonale prøver, og personopplysningar knytte til resultata på slike prøver når det er nødvendig for formål som er omtalte i første ledd, jf. privatskolelova § 7-2d . Opplysningane kan også brukast som grunnlag for forsking, analyse og statistikk. Utdanningsdirektoratet kan levere ut prøveresultata for kvar enkelt elev til skolen eleven går på.</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-5-kartlegging">§ 13-5. Kartlegging <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-13-5.html" title="Endringshistorikk for § 13-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>På oppdrag frå departementet utarbeider Utdanningsdirektoratet kartleggingar som skal gi kunnskap om kven som treng ekstra oppfølging i enkelte fag og ferdigheiter. Det er obligatorisk for elevane å delta i slike kartleggingar.</p>
 <p>Skolen skal sørgje for at kartleggingar etter første ledd blir gjennomførte.</p>
@@ -701,12 +972,12 @@ c. opplysningar om læringsresultat og gjennomføring, til dømes karakterar, re
 b. drift av eit digitalt system for gjennomføring av kartleggingane
 c. forsking, analyse og statistikk, jf. privatskolelova § 7-2d .</p>
 <p>Utdanningsdirektoratet kan levere ut prøveresultata for kvar enkelt elev til skolen eleven går på.</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-6-internasjonale-underskingar">§ 13-6. Internasjonale undersøkingar <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-13-6.html" title="Endringshistorikk for § 13-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Utdanningsdirektoratet har ansvaret for norsk deltaking i internasjonale undersøkingar som skal gi kunnskapsgrunnlag for å drive skoleutvikling på nasjonalt nivå. Det er obligatorisk å delta for dei skolane og elevane som blir trekte ut til å vere med.</p>
 <p>Dei internasjonale undersøkingane må gjennomførast i tråd med retningslinjene for kvar undersøking.</p>
 <p>Utdanningsdirektoratet kan behandle personopplysningar om dei som deltar i internasjonale undersøkingar, når det er nødvendig for formål som er omtalte i første ledd, jf. privatskolelova § 7-2d . Opplysningane kan også brukast som grunnlag for forsking, analyse og statistikk.</p>
-<p><em>Endra ved forskrift 13 april 2026 nr. 591 .</em></p>
+<p class="note">Endra ved forskrift 13 april 2026 nr. 591 .</p>
 <h5 id="13-7-fritak-fra-nasjonale-prver-og-kartleggingsprver">§ 13-7. Fritak frå nasjonale prøver og kartleggingsprøver</h5>
 <p>Skolen kan gi fritak frå nasjonale prøver og kartleggingsprøver til elevar som</p>
 <p>a. får individuelt tilrettelagd opplæring, jf. opplæringslova § 11-6 og § 11-7 , jf. privatskolelova § 3-6
@@ -774,10 +1045,10 @@ d. fråvær som blir ført på vitnemål for grunnskolen.</p>
 </ul>
 <p>Ved vurderinga av ilegging og utmåling av lovbrotsgebyr kan det også leggjast vekt på om det er oppdaga forhold i strid med andre lover og forskrifter, dersom forholdet svekkjer tilliten til skolen.</p>
 <p>Lovbrotsgebyret skal ikkje vere høgare enn tre gonger grunnbeløpet i folketrygda (3 G).</p>
-<p><em>Tilføyd ved forskrift 18 mai 2026 nr. 830 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 mai 2026 nr. 830 .</p>
 <h5 id="16a-2-vre-ramme-for-lovbrotsgebyr-etter-privatskolelova-7-2c">§ 16A-2. Øvre ramme for lovbrotsgebyr etter privatskolelova § 7-2c</h5>
 <p>Lovbrotsgebyr etter privatskolelova § 7-2c skal ikkje vere høgare enn tre gonger grunnbeløpet i folketrygda (3 G).</p>
-<p><em>Tilføyd ved forskrift 18 mai 2026 nr. 830 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 mai 2026 nr. 830 .</p>
 <h2 id="femte-delen-sluttreglar">Femte delen – sluttreglar</h2>
 <h3 id="kapittel-17-innfringstakt-og-overgangsordningar">Kapittel 17. Innføringstakt og overgangsordningar</h3>
 <p>( privatskolelova § 2-3 )</p>
@@ -785,10 +1056,12 @@ d. fråvær som blir ført på vitnemål for grunnskolen.</p>
 <p>Opplæringsforskrifta kapittel 23 om innføringstakt og overgangsordningar for Læreplanverket for Kunnskapsløftet gjeld tilsvarande for privatskolar.</p>
 <h5 id="17-2-overgangsregel-for-krav-om-a-tilby-arbeidslivsfag-pa-8-til-10-trinn">§ 17-2. Overgangsregel for krav om å tilby arbeidslivsfag på 8. til 10. trinn <a class="para-history" href="../historikk/forskrift-2024-06-03-901/para-17-2.html" title="Endringshistorikk for § 17-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>I staden for arbeidslivsfag kan skolen fram til 1. august 2027 velje å tilby minst eitt av faga fordjuping i engelsk, fordjuping i norsk, fordjuping i samisk eller fordjuping i matematikk.</p>
-<p><em>Tilføyd ved forskrift 18 feb 2026 nr. 235 (i kraft 1 aug 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 18 feb 2026 nr. 235 (i kraft 1 aug 2026).</p>
 <h3 id="kapittel-18-iverksetjing-og-oppheving">Kapittel 18. Iverksetjing og oppheving</h3>
 <h5 id="18-1-iverksetjing-og-oppheving">§ 18-1. Iverksetjing og oppheving</h5>
 <p>Forskrifta trer i kraft 1. august 2024. Samstundes blir forskrift 14. juli 2006 nr. 932 til privatskolelova oppheva.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

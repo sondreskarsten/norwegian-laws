@@ -19,70 +19,453 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2004-06-01-922.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Produktforskriften" href="../feeds/forskrift-2004-06-01-922.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Produktforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2004-06-01-922</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2004-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-17-1870</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2004-06-01-922" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-opphevet">§ 1-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-regulerte-stoff-stoffblandinger-og-produkter">Kapittel 2. Regulerte stoff, stoffblandinger og produkter</a></li>
+<li class="lvl4"><a href="#2-1-pcb">§ 2-1. PCB</a></li>
+<li class="lvl4"><a href="#2-2-blyhagl-pa-skytebane">§ 2-2. Blyhagl på skytebane</a></li>
+<li class="lvl4"><a href="#2-3-kvikkslv-og-kvikkslvforbindelser">§ 2-3. Kvikksølv og kvikksølvforbindelser</a></li>
+<li class="lvl4"><a href="#2-4-gjennomfring-av-forordningen-om-kvikkslv">§ 2-4. Gjennomføring av forordningen om kvikksølv</a></li>
+<li class="lvl4"><a href="#2-5-oktylfenol">§ 2-5. Oktylfenol</a></li>
+<li class="lvl4"><a href="#2-6-metylolakrylamid">§ 2-6. Metylolakrylamid</a></li>
+<li class="lvl4"><a href="#2-7-opphevet">§ 2-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-8-opphevet">§ 2-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-9-pfos-i-brannskum">§ 2-9. PFOS i brannskum</a></li>
+<li class="lvl4"><a href="#2-10-tekstil-og-lrvarer-som-inneholder-pentaklorfenol">§ 2-10. Tekstil- og lærvarer som inneholder pentaklorfenol</a></li>
+<li class="lvl4"><a href="#2-11-krombehandlet-trevirke">§ 2-11. Krombehandlet trevirke</a></li>
+<li class="lvl4"><a href="#2-12-vaskemidler-innhold-av-fosfor">§ 2-12. Vaskemidler – innhold av fosfor</a></li>
+<li class="lvl4"><a href="#2-13-opphevet">§ 2-13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-14-vaskemidler-gjennomfring-av-vaskemiddelforordningen">§ 2-14. Vaskemidler – gjennomføring av Vaskemiddelforordningen</a></li>
+<li class="lvl4"><a href="#2-15-tungmetall-i-emballasje">§ 2-15. Tungmetall i emballasje</a></li>
+<li class="lvl4"><a href="#2-16-batterier-virkeomrade-og-definisjoner">§ 2-16. Batterier – virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-17-batterier-forbud">§ 2-17. Batterier – forbud</a></li>
+<li class="lvl4"><a href="#2-18-batterier-og-batteridrevne-produkter-merking-konstruksjon-og-informasjon">§ 2-18. Batterier og batteridrevne produkter – merking, konstruksjon og informasjon</a></li>
+<li class="lvl4"><a href="#2-18a-kapasitetsmerking-av-batterier-gjennomfring-av-forordningeu-nr-11032010">§ 2-18a. Kapasitetsmerking av batterier – gjennomføring av forordning(EU) nr. 1103/2010</a></li>
+<li class="lvl4"><a href="#2-19-kjrety-utfasing-av-komponenter-merking-og-informasjonsplikt">§ 2-19. Kjøretøy – utfasing av komponenter, merking og informasjonsplikt</a></li>
+<li class="lvl4"><a href="#2-20-kvaliteten-pa-bensin-og-autodiesel">§ 2-20. Kvaliteten på bensin og autodiesel</a></li>
+<li class="lvl4"><a href="#2-21-krav-til-klimagassreduksjon-fra-drivstoff">§ 2-21. Krav til klimagassreduksjon fra drivstoff</a></li>
+<li class="lvl4"><a href="#2-22-opphevet">§ 2-22. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-23-opphevet">§ 2-23. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-24-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-virkeomrade-og-definisjoner">§ 2-24. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-25-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-krav-til-innhold-av-voc-merking-mv">§ 2-25. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – krav til innhold av VOC, merking mv.</a></li>
+<li class="lvl4"><a href="#2-26-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-overgangsregler">§ 2-26. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – overgangsregler</a></li>
+<li class="lvl4"><a href="#2-27-svovelinnhold-i-marint-drivstoff">§ 2-27. Svovelinnhold i marint drivstoff</a></li>
+<li class="lvl4"><a href="#2-28-opphevet">§ 2-28. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-29-frostvske-som-inneholder-etylenglykol">§ 2-29. Frostvæske som inneholder etylenglykol</a></li>
+<li class="lvl4"><a href="#2-30-stoff-stoffblandinger-og-produkter-som-reguleres-i-reach-forordningen-vedlegg-xvii">§ 2-30. Stoff, stoffblandinger og produkter som reguleres i REACH-forordningen vedlegg XVII</a></li>
+<li class="lvl4"><a href="#2-31-produkter-som-inneholder-asbest-unntak-fra-forbudet-i-reach-forordningen-vedlegg-xvii-post-6">§ 2-31. Produkter som inneholder asbest – unntak fra forbudet i REACH-forordningen vedlegg XVII post 6</a></li>
+<li class="lvl4"><a href="#2-32-plikt-til-a-gi-opplysninger-om-stoffer-med-svrt-unskede-egenskaper-svhc-i-produkter-til-det-europeiske-kjemikaliebyraet-echa">§ 2-32. Plikt til å gi opplysninger om stoffer med svært uønskede egenskaper (SVHC) i produkter til Det europeiske kjemikaliebyrået (ECHA)</a></li>
+<li class="lvl4"><a href="#2-33-n-nitrosaminer-og-n-nitrosamindannende-stoffer-i-narresmokker">§ 2-33. N-nitrosaminer og N-nitrosamindannende stoffer i narresmokker</a></li>
+<li class="lvl4"><a href="#2-34-overtredelsesgebyr">§ 2-34. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-2">Vedlegg til kapittel 2</a></li>
+<li class="lvl4"><a href="#vedlegg-i-batterier-merking">Vedlegg I. Batterier – merking</a></li>
+<li class="lvl4"><a href="#vedlegg-ii-forordning-om-kapasitetsmerking-av-batterier">Vedlegg II. Forordning om kapasitetsmerking av batterier</a></li>
+<li class="lvl4"><a href="#vedlegg-iii-materialer-og-deler-som-er-unntatt-fra-forbudet-i-2-19">Vedlegg III. Materialer og deler som er unntatt fra forbudet i § 2-19</a></li>
+<li class="lvl4"><a href="#vedlegg-iv-krav-til-bensin-og-autodiesel">Vedlegg IV. Krav til bensin og autodiesel</a></li>
+<li class="lvl5"><a href="#tabell-1">Tabell 1</a></li>
+<li class="lvl5"><a href="#tabell-2">Tabell 2</a></li>
+<li class="lvl4"><a href="#vedlegg-v-beregning-av-klimagassintensitet-for-drivstoff-og-energi">Vedlegg V. Beregning av klimagassintensitet for drivstoff og energi</a></li>
+<li class="lvl5"><a href="#del-iberegning-av-livlpsutslipp-av-klimagasser-per-energienhet-for-drivstoff-og-energi">Del I.Beregning av livløpsutslipp av klimagasser per energienhet for drivstoff og energi</a></li>
+<li class="lvl5"><a href="#del-iirapportering-for-omsettere-av-andre-drivstoff-enn-biodrivstoff">Del II.Rapportering for omsettere av andre drivstoff enn biodrivstoff</a></li>
+<li class="lvl4"><a href="#vedlegg-vi-vaskemiddelforordningen">Vedlegg VI. Vaskemiddelforordningen</a></li>
+<li class="lvl4"><a href="#vedlegg-vii-vedlegg-til-2-24-til-2-26-om-organiske-forbindelser-i-maling-og-lakkeringsprodukter">Vedlegg VII: Vedlegg til § 2-24 til § 2-26 om organiske forbindelser i maling- og lakkeringsprodukter</a></li>
+<li class="lvl4"><a href="#vedlegg-viii-vedlegg-til-2-33-om-n-nitrosaminer-og-n-nitrosamindannende-stoffer-i-narresmokker">Vedlegg VIII. Vedlegg til § 2-33 om N-nitrosaminer og N-nitrosamindannende stoffer i narresmokker</a></li>
+<li class="lvl2"><a href="#kapittel-2a-elektriske-og-elektroniske-produkter-ee-produkter">Kapittel 2a. Elektriske og elektroniske produkter (EE-produkter)</a></li>
+<li class="lvl4"><a href="#2a-1-virkeomrade">§ 2a-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2a-2-definisjoner">§ 2a-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#2a-3-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-3. Forbud mot visse stoffer i EE-produkter</a></li>
+<li class="lvl4"><a href="#2a-4-unntak-fra-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-4. Unntak fra forbud mot visse stoffer i EE-produkter</a></li>
+<li class="lvl4"><a href="#2a-5-produksjonskontroll-og-teknisk-dokumentasjon">§ 2a-5. Produksjonskontroll og teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#2a-6-samsvarserklring">§ 2a-6. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#2a-7-ce-merking">§ 2a-7. CE-merking</a></li>
+<li class="lvl4"><a href="#2a-8-navn-og-adresse">§ 2a-8. Navn og adresse</a></li>
+<li class="lvl4"><a href="#2a-9-type-og-serienummer">§ 2a-9. Type- og serienummer</a></li>
+<li class="lvl4"><a href="#2a-10-merking-med-avkrysset-avfallsbeholder-og-informasjon-for-a-fremme-miljmessig-forsvarlig-avfallsbehandling-mv">§ 2a-10. Merking med avkrysset avfallsbeholder og informasjon for å fremme miljømessig forsvarlig avfallsbehandling mv.</a></li>
+<li class="lvl4"><a href="#2a-11-serieproduksjon">§ 2a-11. Serieproduksjon</a></li>
+<li class="lvl4"><a href="#2a-12-register">§ 2a-12. Register</a></li>
+<li class="lvl4"><a href="#2a-13-representant">§ 2a-13. Representant</a></li>
+<li class="lvl4"><a href="#2a-14-tilfeller-der-produsentens-forpliktelser-gjelder-for-importrer-og-distributrer">§ 2a-14. Tilfeller der produsentens forpliktelser gjelder for importører og distributører</a></li>
+<li class="lvl4"><a href="#2a-15-identifikasjon-av-markedsdeltakere">§ 2a-15. Identifikasjon av markedsdeltakere</a></li>
+<li class="lvl4"><a href="#2a-16-sknad-om-unntak">§ 2a-16. Søknad om unntak</a></li>
+<li class="lvl4"><a href="#2a-17-overtredelsesgebyr">§ 2a-17. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-2a">Vedlegg til kapittel 2a</a></li>
+<li class="lvl4"><a href="#vedlegg-1bruksomrader-som-er-unntatt-fra-forbudet-i-2a-3">Vedlegg 1Bruksområder som er unntatt fra forbudet i § 2a-3</a></li>
+<li class="lvl4"><a href="#vedlegg-2bruksomrader-som-er-unntatt-fra-forbudet-i-2a-3-som-gjelder-srskilt-for-medisinsk-utstyr-og-overvakings-og-kontrollinstrumenter">Vedlegg 2Bruksområder som er unntatt fra forbudet i § 2a-3 som gjelder særskilt for medisinsk utstyr og overvåkings- og kontrollinstrumenter</a></li>
+<li class="lvl4"><a href="#vedlegg-3vilkar-for-a-fa-unntak">Vedlegg 3Vilkår for å få unntak</a></li>
+<li class="lvl5"><a href="#krav-til-sknad">Krav til søknad</a></li>
+<li class="lvl4"><a href="#vedlegg-4-eu-samsvarserklring">Vedlegg 4. EU-samsvarserklæring</a></li>
+<li class="lvl4"><a href="#vedlegg-5-fremgangsmater-for-samsvarsvurdering">Vedlegg 5. Fremgangsmåter for samsvarsvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-2b-regulering-av-enkelte-produkter-av-plast">Kapittel 2b. Regulering av enkelte produkter av plast</a></li>
+<li class="lvl4"><a href="#2b-1-formal">§ 2b-1. Formål</a></li>
+<li class="lvl4"><a href="#2b-2-definisjoner">§ 2b-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#2b-3-forbud-mot-enkelte-engangsprodukter-av-plast">§ 2b-3. Forbud mot enkelte engangsprodukter av plast</a></li>
+<li class="lvl4"><a href="#2b-4-forbud-mot-produkter-av-okso-nedbrytbar-plast">§ 2b-4. Forbud mot produkter av okso-nedbrytbar plast</a></li>
+<li class="lvl4"><a href="#2b-5-krav-til-merking-av-enkelte-engangsprodukter-av-plast">§ 2b-5. Krav til merking av enkelte engangsprodukter av plast.</a></li>
+<li class="lvl4"><a href="#2b-6-krav-om-at-korker-og-lokk-skal-sitte-fast">§ 2b-6. Krav om at korker og lokk skal sitte fast</a></li>
+<li class="lvl4"><a href="#2b-7-krav-til-andel-materialgjenvunnet-plast-i-drikkeflasker-av-plast-til-engangsbruk">§ 2b-7. Krav til andel materialgjenvunnet plast i drikkeflasker av plast til engangsbruk</a></li>
+<li class="lvl4"><a href="#2b-8-overtredelsesgebyr">§ 2b-8. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-3-omsetningskrav-for-biodrivstoff-og-brekraftskriterier-for-biodrivstoff-og-flytende-biobrensel">Kapittel 3. Omsetningskrav for biodrivstoff og bærekraftskriterier for biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl4"><a href="#3-1-formal">§ 3-1. Formål</a></li>
+<li class="lvl4"><a href="#3-2-definisjoner">§ 3-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-omsetning-av-biodrivstoff-til-veitrafikk">§ 3-3. Krav til omsetning av biodrivstoff til veitrafikk</a></li>
+<li class="lvl4"><a href="#3-3a-krav-til-omsetning-av-biodrivstoff-til-luftfart">§ 3-3a. Krav til omsetning av biodrivstoff til luftfart</a></li>
+<li class="lvl4"><a href="#3-3b-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-sjfart">§ 3-3b. Krav til omsetning av biodrivstoff og biobrensel til sjøfart</a></li>
+<li class="lvl4"><a href="#3-3c-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-andre-formal">§ 3-3c. Krav til omsetning av biodrivstoff og biobrensel til andre formål</a></li>
+<li class="lvl4"><a href="#3-3d-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart">§ 3-3d. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart</a></li>
+<li class="lvl4"><a href="#3-3e-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart-ved-salg-via-videreforhandlere">§ 3-3e. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart ved salg via videreforhandlere</a></li>
+<li class="lvl4"><a href="#3-4-samlet-oppfyllelse-og-fleksibilitet-mellom-omsetningskrav">§ 3-4. Samlet oppfyllelse og fleksibilitet mellom omsetningskrav</a></li>
+<li class="lvl4"><a href="#3-5-krav-til-oppfyllelse-av-brekraftskriterier">§ 3-5. Krav til oppfyllelse av bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-6-krav-til-reduksjon-av-klimagassutslipp">§ 3-6. Krav til reduksjon av klimagassutslipp</a></li>
+<li class="lvl4"><a href="#3-7-arealkriterier-for-biodiversitet">§ 3-7. Arealkriterier for biodiversitet</a></li>
+<li class="lvl4"><a href="#3-8-arealkriterier-for-arealer-med-hyt-karbonlager">§ 3-8. Arealkriterier for arealer med høyt karbonlager</a></li>
+<li class="lvl4"><a href="#3-9-arealkriterier-for-torvmark">§ 3-9. Arealkriterier for torvmark</a></li>
+<li class="lvl4"><a href="#3-10-rapporteringsplikt-pa-omsetningskrav-og-brekraftskriterier">§ 3-10. Rapporteringsplikt på omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-10a-krav-om-bruk-av-et-massebalansesystem-for-rapportering-pa-oppfyllelse-av-omsetningskrav-og-brekraftskriterier">§ 3-10a. Krav om bruk av et massebalansesystem for rapportering på oppfyllelse av omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-11-verifikasjon-av-rapporteringen-pa-omsetningskrav-og-brekraftskriterier">§ 3-11. Verifikasjon av rapporteringen på omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-12-oppgjr-av-underoppfyllelse">§ 3-12. Oppgjør av underoppfyllelse</a></li>
+<li class="lvl4"><a href="#3-13-gebyr-for-kontrolltiltak-ved-rapportering">§ 3-13. Gebyr for kontrolltiltak ved rapportering</a></li>
+<li class="lvl4"><a href="#3-14-gebyr-for-saksbehandling-av-unntakssknader">§ 3-14. Gebyr for saksbehandling av unntakssøknader</a></li>
+<li class="lvl4"><a href="#3-15-unntak">§ 3-15. Unntak</a></li>
+<li class="lvl4"><a href="#3-16-endring-av-gebyrsatsene">§ 3-16. Endring av gebyrsatsene</a></li>
+<li class="lvl4"><a href="#3-17-overtredelsesgebyr">§ 3-17. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-3">Vedlegg til kapittel 3</a></li>
+<li class="lvl4"><a href="#vedlegg-i-beregning-av-livssyklus-klimagassutslipp-fra-biodrivstoff-og-flytende-biobrensel">Vedlegg I. Beregning av livssyklus klimagassutslipp fra biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl4"><a href="#vedlegg-ii-regler-for-beregning-av-virkningen-pa-klimagassene-av-biodrivstoff-flytende-biobrensel-og-tilsvarende-fossilt-brensel-som-de-sammenlignes-med">Vedlegg II. Regler for beregning av virkningen på klimagassene av biodrivstoff, flytende biobrensel og tilsvarende fossilt brensel som de sammenlignes med</a></li>
+<li class="lvl5"><a href="#a-standardverdier-for-biodrivstoff-som-produseres-uten-netto-karbonutslipp-som-flge-av-arealbruksendring">A. Standardverdier for biodrivstoff som produseres uten netto karbonutslipp som følge av arealbruksendring</a></li>
+<li class="lvl5"><a href="#b-beregnede-standardverdier-for-framtidig-biodrivstoff-som-i-januar-2008-ikke-var-tilgjengelig-pa-markedet-eller-som-fantes-pa-markedet-bare-i-ubetydelige-mengder-og-som-produseres-uten-netto-karbonutslipp-som-flge-av-arealbruksendring">B. Beregnede standardverdier for framtidig biodrivstoff som i januar 2008 ikke var tilgjengelig på markedet, eller som fantes på markedet bare i ubetydelige mengder, og som produseres uten netto karbonutslipp som følge av arealbruksendring</a></li>
+<li class="lvl5"><a href="#c-metode">C. Metode</a></li>
+<li class="lvl5"><a href="#d-disaggregerte-standardverdier-for-biodrivstoff-og-flytende-biobrensel">D. Disaggregerte standardverdier for biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl5"><a href="#e-beregnede-disaggregerte-standardverdier-for-framtidig-biodrivstoff-og-flytende-biobrensel-som-i-januar-2008-ikke-var-tilgjengelig-pa-markedet-eller-som-fantes-pa-markedet-bare-i-ubetydelige-mengder">E. Beregnede disaggregerte standardverdier for framtidig biodrivstoff og flytende biobrensel som i januar 2008 ikke var tilgjengelig på markedet, eller som fantes på markedet bare i ubetydelige mengder</a></li>
+<li class="lvl4"><a href="#vedlegg-iii-forhold-som-kan-omfattes-av-frivillige-tiltak">Vedlegg III. Forhold som kan omfattes av frivillige tiltak</a></li>
+<li class="lvl4"><a href="#vedlegg-iv-retningslinjer-for-beregning-av-karbonlagre-i-jorden-i-henhold-til-vedlegg-v-til-direktiv-200928ef">Vedlegg IV. Retningslinjer for beregning av karbonlagre i jorden i henhold til vedlegg V til direktiv 2009/28/EF</a></li>
+<li class="lvl5"><a href="#1-innledning">1. Innledning</a></li>
+<li class="lvl5"><a href="#2-ensartet-representasjon-av-karbonlagre-i-jord">2. Ensartet representasjon av karbonlagre i jord</a></li>
+<li class="lvl5"><a href="#3-beregning-av-karbonlagre">3. Beregning av karbonlagre</a></li>
+<li class="lvl5"><a href="#4-lager-av-organisk-karbon-i-jord">4. Lager av organisk karbon i jord</a></li>
+<li class="lvl5"><a href="#5-karbonlager-i-vegetasjon-over-og-under-jord">5. Karbonlager i vegetasjon over og under jord</a></li>
+<li class="lvl5"><a href="#6-standardverdi-for-karbonlager-i-mineraljord">6. Standardverdi for karbonlager i mineraljord</a></li>
+<li class="lvl5"><a href="#7-faktorer-som-gjenspeiler-forskjellen-mellom-organisk-karbon-i-jord-og-standardverdien-for-organisk-karbon-i-jord">7. Faktorer som gjenspeiler forskjellen mellom organisk karbon i jord og standardverdien for organisk karbon i jord</a></li>
+<li class="lvl5"><a href="#8-verdier-for-karbonlager-i-vegetasjon-over-og-under-jord">8. Verdier for karbonlager i vegetasjon over og under jord</a></li>
+<li class="lvl4"><a href="#vedlegg-v-rastoff-som-gir-grunnlag-for-medregning-i-delkrav-og-dobbeltelling-av-biodrivstoff">Vedlegg V. Råstoff som gir grunnlag for medregning i delkrav og dobbeltelling av biodrivstoff</a></li>
+<li class="lvl4"><a href="#vedlegg-vi-utslipp-fra-indirekte-arealbruksendringer">Vedlegg VI. Utslipp fra indirekte arealbruksendringer</a></li>
+<li class="lvl4"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-4-persistente-organiske-miljgifter-pops">Kapittel 4. Persistente organiske miljøgifter (POPs)</a></li>
+<li class="lvl4"><a href="#4-1-gjennomfring-av-forordning-eu-20191021-om-persistente-organiske-forbindelser-pops-forordningen">§ 4-1. Gjennomføring av forordning (EU) 2019/1021 om persistente organiske forbindelser (POPs-forordningen)</a></li>
+<li class="lvl4"><a href="#4-2-forbud-mot-eksport-av-stoff-stoffblandinger-og-produkter-som-reguleres-i-pops-forordningen-vedlegg-i">§ 4-2. Forbud mot eksport av stoff, stoffblandinger og produkter som reguleres i POPs-forordningen vedlegg I</a></li>
+<li class="lvl4"><a href="#4-3-overtredelsesgebyr">§ 4-3. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-4-opphevet">Vedlegg til kapittel 4 (opphevet)</a></li>
+<li class="lvl3"><a href="#forordninger_1">Forordninger</a></li>
+<li class="lvl4"><a href="#konsolidert-versjon-av-forordning-om-persistente-organiske-forbindelser-pops-pa-engelsk">Konsolidert versjon av forordning om persistente organiske forbindelser (POPs) på engelsk</a></li>
+<li class="lvl4"><a href="#pops-forordningen-pa-dansk">POPs-forordningen på dansk</a></li>
+<li class="lvl2"><a href="#kapittel-5-omsetningsrestriksjoner-for-visse-farlige-stoffer">Kapittel 5. Omsetningsrestriksjoner for visse farlige stoffer</a></li>
+<li class="lvl4"><a href="#5-1-omsetning-og-import-av-visse-farlige-kjemikalier-til-privat-bruk">§ 5-1. Omsetning og import av visse farlige kjemikalier til privat bruk</a></li>
+<li class="lvl4"><a href="#5-2-overtredelsesgebyr">§ 5-2. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-regulering-av-ozonreduserende-stoffer">Kapittel 6. Regulering av ozonreduserende stoffer</a></li>
+<li class="lvl4"><a href="#6-1-gjennomfring-av-forordning-om-ozonreduserende-stoffer-og-etterflgende-rettsakter">§ 6-1. Gjennomføring av forordning om ozonreduserende stoffer og etterfølgende rettsakter</a></li>
+<li class="lvl4"><a href="#6-2-forbud-mot-import-og-eksport">§ 6-2. Forbud mot import og eksport</a></li>
+<li class="lvl4"><a href="#6-3-ansvarlig-myndighet">§ 6-3. Ansvarlig myndighet</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-6">Vedlegg til kapittel 6</a></li>
+<li class="lvl2"><a href="#kapittel-6a-regulering-av-fluorholdige-stoffer">Kapittel 6a. Regulering av fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-1-gjennomfring-av-eu-rettsakter-om-fluorholdige-stoffer">§ 6a-1. Gjennomføring av EU-rettsakter om fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-2-forbud-mot-import-og-eksport">§ 6a-2. Forbud mot import og eksport</a></li>
+<li class="lvl4"><a href="#6a-3-ansvarlig-myndighet">§ 6a-3. Ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#6a-3a-sertifikat-for-personell-som-handterer-fluorholdige-stoffer">§ 6a-3a. Sertifikat for personell som håndterer fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-4-rapporteringskrav-for-sf6-gass-for-importrer-og-anleggseiere">§ 6a-4. Rapporteringskrav for SF6-gass for importører og anleggseiere</a></li>
+<li class="lvl4"><a href="#6a-5-gebyr">§ 6a-5. Gebyr</a></li>
+<li class="lvl4"><a href="#6a-6-overtredelsesgebyr">§ 6a-6. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-6a">Vedlegg til kapittel 6a</a></li>
+<li class="lvl4"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl4"><a href="#forordninger_2">Forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-6b-overtredelsesgebyr">Kapittel 6b. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#6b-1-overtredelsesgebyr-for-foretak">§ 6b-1. Overtredelsesgebyr for foretak</a></li>
+<li class="lvl4"><a href="#6b-2-ileggelse-og-utmaling-av-overtredelsesgebyr">§ 6b-2. Ileggelse og utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#7-1-unntak">§ 7-1. Unntak</a></li>
+<li class="lvl4"><a href="#7-2-tilsyn">§ 7-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#7-3-klage">§ 7-3. Klage</a></li>
+<li class="lvl4"><a href="#7-4-tvangsmulkt">§ 7-4. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#7-5-straff">§ 7-5. Straff</a></li>
+<li class="lvl4"><a href="#7-6-fordeling-av-myndighet">§ 7-6. Fordeling av myndighet</a></li>
+<li class="lvl4"><a href="#7-7-ikrafttreden-og-oppheving-av-gjeldende-forskrifter">§ 7-7. Ikrafttreden og oppheving av gjeldende forskrifter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-17-1870.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-01-922.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om begrensning i bruk av helse- og miljøfarlige kjemikalier og andre produkter (produktforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-06-01-922.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2004-06-01-922 <code>forskrift/2004-06-01-922</code></td></tr>
+<tr><th>Korttittel</th><td>Produktforskriften</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2004</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-17-1870 <code>forskrift/2026-09-17-1870</code> fra 17.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2004-06-01-922" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-opphevet">§ 1-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-regulerte-stoff-stoffblandinger-og-produkter">Kapittel 2. Regulerte stoff, stoffblandinger og produkter</a></li>
+<li class="lvl4"><a href="#2-1-pcb">§ 2-1. PCB</a></li>
+<li class="lvl4"><a href="#2-2-blyhagl-pa-skytebane">§ 2-2. Blyhagl på skytebane</a></li>
+<li class="lvl4"><a href="#2-3-kvikkslv-og-kvikkslvforbindelser">§ 2-3. Kvikksølv og kvikksølvforbindelser</a></li>
+<li class="lvl4"><a href="#2-4-gjennomfring-av-forordningen-om-kvikkslv">§ 2-4. Gjennomføring av forordningen om kvikksølv</a></li>
+<li class="lvl4"><a href="#2-5-oktylfenol">§ 2-5. Oktylfenol</a></li>
+<li class="lvl4"><a href="#2-6-metylolakrylamid">§ 2-6. Metylolakrylamid</a></li>
+<li class="lvl4"><a href="#2-7-opphevet">§ 2-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-8-opphevet">§ 2-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-9-pfos-i-brannskum">§ 2-9. PFOS i brannskum</a></li>
+<li class="lvl4"><a href="#2-10-tekstil-og-lrvarer-som-inneholder-pentaklorfenol">§ 2-10. Tekstil- og lærvarer som inneholder pentaklorfenol</a></li>
+<li class="lvl4"><a href="#2-11-krombehandlet-trevirke">§ 2-11. Krombehandlet trevirke</a></li>
+<li class="lvl4"><a href="#2-12-vaskemidler-innhold-av-fosfor">§ 2-12. Vaskemidler – innhold av fosfor</a></li>
+<li class="lvl4"><a href="#2-13-opphevet">§ 2-13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-14-vaskemidler-gjennomfring-av-vaskemiddelforordningen">§ 2-14. Vaskemidler – gjennomføring av Vaskemiddelforordningen</a></li>
+<li class="lvl4"><a href="#2-15-tungmetall-i-emballasje">§ 2-15. Tungmetall i emballasje</a></li>
+<li class="lvl4"><a href="#2-16-batterier-virkeomrade-og-definisjoner">§ 2-16. Batterier – virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-17-batterier-forbud">§ 2-17. Batterier – forbud</a></li>
+<li class="lvl4"><a href="#2-18-batterier-og-batteridrevne-produkter-merking-konstruksjon-og-informasjon">§ 2-18. Batterier og batteridrevne produkter – merking, konstruksjon og informasjon</a></li>
+<li class="lvl4"><a href="#2-18a-kapasitetsmerking-av-batterier-gjennomfring-av-forordningeu-nr-11032010">§ 2-18a. Kapasitetsmerking av batterier – gjennomføring av forordning(EU) nr. 1103/2010</a></li>
+<li class="lvl4"><a href="#2-19-kjrety-utfasing-av-komponenter-merking-og-informasjonsplikt">§ 2-19. Kjøretøy – utfasing av komponenter, merking og informasjonsplikt</a></li>
+<li class="lvl4"><a href="#2-20-kvaliteten-pa-bensin-og-autodiesel">§ 2-20. Kvaliteten på bensin og autodiesel</a></li>
+<li class="lvl4"><a href="#2-21-krav-til-klimagassreduksjon-fra-drivstoff">§ 2-21. Krav til klimagassreduksjon fra drivstoff</a></li>
+<li class="lvl4"><a href="#2-22-opphevet">§ 2-22. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-23-opphevet">§ 2-23. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-24-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-virkeomrade-og-definisjoner">§ 2-24. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-25-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-krav-til-innhold-av-voc-merking-mv">§ 2-25. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – krav til innhold av VOC, merking mv.</a></li>
+<li class="lvl4"><a href="#2-26-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-overgangsregler">§ 2-26. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – overgangsregler</a></li>
+<li class="lvl4"><a href="#2-27-svovelinnhold-i-marint-drivstoff">§ 2-27. Svovelinnhold i marint drivstoff</a></li>
+<li class="lvl4"><a href="#2-28-opphevet">§ 2-28. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-29-frostvske-som-inneholder-etylenglykol">§ 2-29. Frostvæske som inneholder etylenglykol</a></li>
+<li class="lvl4"><a href="#2-30-stoff-stoffblandinger-og-produkter-som-reguleres-i-reach-forordningen-vedlegg-xvii">§ 2-30. Stoff, stoffblandinger og produkter som reguleres i REACH-forordningen vedlegg XVII</a></li>
+<li class="lvl4"><a href="#2-31-produkter-som-inneholder-asbest-unntak-fra-forbudet-i-reach-forordningen-vedlegg-xvii-post-6">§ 2-31. Produkter som inneholder asbest – unntak fra forbudet i REACH-forordningen vedlegg XVII post 6</a></li>
+<li class="lvl4"><a href="#2-32-plikt-til-a-gi-opplysninger-om-stoffer-med-svrt-unskede-egenskaper-svhc-i-produkter-til-det-europeiske-kjemikaliebyraet-echa">§ 2-32. Plikt til å gi opplysninger om stoffer med svært uønskede egenskaper (SVHC) i produkter til Det europeiske kjemikaliebyrået (ECHA)</a></li>
+<li class="lvl4"><a href="#2-33-n-nitrosaminer-og-n-nitrosamindannende-stoffer-i-narresmokker">§ 2-33. N-nitrosaminer og N-nitrosamindannende stoffer i narresmokker</a></li>
+<li class="lvl4"><a href="#2-34-overtredelsesgebyr">§ 2-34. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-2">Vedlegg til kapittel 2</a></li>
+<li class="lvl4"><a href="#vedlegg-i-batterier-merking">Vedlegg I. Batterier – merking</a></li>
+<li class="lvl4"><a href="#vedlegg-ii-forordning-om-kapasitetsmerking-av-batterier">Vedlegg II. Forordning om kapasitetsmerking av batterier</a></li>
+<li class="lvl4"><a href="#vedlegg-iii-materialer-og-deler-som-er-unntatt-fra-forbudet-i-2-19">Vedlegg III. Materialer og deler som er unntatt fra forbudet i § 2-19</a></li>
+<li class="lvl4"><a href="#vedlegg-iv-krav-til-bensin-og-autodiesel">Vedlegg IV. Krav til bensin og autodiesel</a></li>
+<li class="lvl5"><a href="#tabell-1">Tabell 1</a></li>
+<li class="lvl5"><a href="#tabell-2">Tabell 2</a></li>
+<li class="lvl4"><a href="#vedlegg-v-beregning-av-klimagassintensitet-for-drivstoff-og-energi">Vedlegg V. Beregning av klimagassintensitet for drivstoff og energi</a></li>
+<li class="lvl5"><a href="#del-iberegning-av-livlpsutslipp-av-klimagasser-per-energienhet-for-drivstoff-og-energi">Del I.Beregning av livløpsutslipp av klimagasser per energienhet for drivstoff og energi</a></li>
+<li class="lvl5"><a href="#del-iirapportering-for-omsettere-av-andre-drivstoff-enn-biodrivstoff">Del II.Rapportering for omsettere av andre drivstoff enn biodrivstoff</a></li>
+<li class="lvl4"><a href="#vedlegg-vi-vaskemiddelforordningen">Vedlegg VI. Vaskemiddelforordningen</a></li>
+<li class="lvl4"><a href="#vedlegg-vii-vedlegg-til-2-24-til-2-26-om-organiske-forbindelser-i-maling-og-lakkeringsprodukter">Vedlegg VII: Vedlegg til § 2-24 til § 2-26 om organiske forbindelser i maling- og lakkeringsprodukter</a></li>
+<li class="lvl4"><a href="#vedlegg-viii-vedlegg-til-2-33-om-n-nitrosaminer-og-n-nitrosamindannende-stoffer-i-narresmokker">Vedlegg VIII. Vedlegg til § 2-33 om N-nitrosaminer og N-nitrosamindannende stoffer i narresmokker</a></li>
+<li class="lvl2"><a href="#kapittel-2a-elektriske-og-elektroniske-produkter-ee-produkter">Kapittel 2a. Elektriske og elektroniske produkter (EE-produkter)</a></li>
+<li class="lvl4"><a href="#2a-1-virkeomrade">§ 2a-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2a-2-definisjoner">§ 2a-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#2a-3-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-3. Forbud mot visse stoffer i EE-produkter</a></li>
+<li class="lvl4"><a href="#2a-4-unntak-fra-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-4. Unntak fra forbud mot visse stoffer i EE-produkter</a></li>
+<li class="lvl4"><a href="#2a-5-produksjonskontroll-og-teknisk-dokumentasjon">§ 2a-5. Produksjonskontroll og teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#2a-6-samsvarserklring">§ 2a-6. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#2a-7-ce-merking">§ 2a-7. CE-merking</a></li>
+<li class="lvl4"><a href="#2a-8-navn-og-adresse">§ 2a-8. Navn og adresse</a></li>
+<li class="lvl4"><a href="#2a-9-type-og-serienummer">§ 2a-9. Type- og serienummer</a></li>
+<li class="lvl4"><a href="#2a-10-merking-med-avkrysset-avfallsbeholder-og-informasjon-for-a-fremme-miljmessig-forsvarlig-avfallsbehandling-mv">§ 2a-10. Merking med avkrysset avfallsbeholder og informasjon for å fremme miljømessig forsvarlig avfallsbehandling mv.</a></li>
+<li class="lvl4"><a href="#2a-11-serieproduksjon">§ 2a-11. Serieproduksjon</a></li>
+<li class="lvl4"><a href="#2a-12-register">§ 2a-12. Register</a></li>
+<li class="lvl4"><a href="#2a-13-representant">§ 2a-13. Representant</a></li>
+<li class="lvl4"><a href="#2a-14-tilfeller-der-produsentens-forpliktelser-gjelder-for-importrer-og-distributrer">§ 2a-14. Tilfeller der produsentens forpliktelser gjelder for importører og distributører</a></li>
+<li class="lvl4"><a href="#2a-15-identifikasjon-av-markedsdeltakere">§ 2a-15. Identifikasjon av markedsdeltakere</a></li>
+<li class="lvl4"><a href="#2a-16-sknad-om-unntak">§ 2a-16. Søknad om unntak</a></li>
+<li class="lvl4"><a href="#2a-17-overtredelsesgebyr">§ 2a-17. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-2a">Vedlegg til kapittel 2a</a></li>
+<li class="lvl4"><a href="#vedlegg-1bruksomrader-som-er-unntatt-fra-forbudet-i-2a-3">Vedlegg 1Bruksområder som er unntatt fra forbudet i § 2a-3</a></li>
+<li class="lvl4"><a href="#vedlegg-2bruksomrader-som-er-unntatt-fra-forbudet-i-2a-3-som-gjelder-srskilt-for-medisinsk-utstyr-og-overvakings-og-kontrollinstrumenter">Vedlegg 2Bruksområder som er unntatt fra forbudet i § 2a-3 som gjelder særskilt for medisinsk utstyr og overvåkings- og kontrollinstrumenter</a></li>
+<li class="lvl4"><a href="#vedlegg-3vilkar-for-a-fa-unntak">Vedlegg 3Vilkår for å få unntak</a></li>
+<li class="lvl5"><a href="#krav-til-sknad">Krav til søknad</a></li>
+<li class="lvl4"><a href="#vedlegg-4-eu-samsvarserklring">Vedlegg 4. EU-samsvarserklæring</a></li>
+<li class="lvl4"><a href="#vedlegg-5-fremgangsmater-for-samsvarsvurdering">Vedlegg 5. Fremgangsmåter for samsvarsvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-2b-regulering-av-enkelte-produkter-av-plast">Kapittel 2b. Regulering av enkelte produkter av plast</a></li>
+<li class="lvl4"><a href="#2b-1-formal">§ 2b-1. Formål</a></li>
+<li class="lvl4"><a href="#2b-2-definisjoner">§ 2b-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#2b-3-forbud-mot-enkelte-engangsprodukter-av-plast">§ 2b-3. Forbud mot enkelte engangsprodukter av plast</a></li>
+<li class="lvl4"><a href="#2b-4-forbud-mot-produkter-av-okso-nedbrytbar-plast">§ 2b-4. Forbud mot produkter av okso-nedbrytbar plast</a></li>
+<li class="lvl4"><a href="#2b-5-krav-til-merking-av-enkelte-engangsprodukter-av-plast">§ 2b-5. Krav til merking av enkelte engangsprodukter av plast.</a></li>
+<li class="lvl4"><a href="#2b-6-krav-om-at-korker-og-lokk-skal-sitte-fast">§ 2b-6. Krav om at korker og lokk skal sitte fast</a></li>
+<li class="lvl4"><a href="#2b-7-krav-til-andel-materialgjenvunnet-plast-i-drikkeflasker-av-plast-til-engangsbruk">§ 2b-7. Krav til andel materialgjenvunnet plast i drikkeflasker av plast til engangsbruk</a></li>
+<li class="lvl4"><a href="#2b-8-overtredelsesgebyr">§ 2b-8. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-3-omsetningskrav-for-biodrivstoff-og-brekraftskriterier-for-biodrivstoff-og-flytende-biobrensel">Kapittel 3. Omsetningskrav for biodrivstoff og bærekraftskriterier for biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl4"><a href="#3-1-formal">§ 3-1. Formål</a></li>
+<li class="lvl4"><a href="#3-2-definisjoner">§ 3-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-omsetning-av-biodrivstoff-til-veitrafikk">§ 3-3. Krav til omsetning av biodrivstoff til veitrafikk</a></li>
+<li class="lvl4"><a href="#3-3a-krav-til-omsetning-av-biodrivstoff-til-luftfart">§ 3-3a. Krav til omsetning av biodrivstoff til luftfart</a></li>
+<li class="lvl4"><a href="#3-3b-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-sjfart">§ 3-3b. Krav til omsetning av biodrivstoff og biobrensel til sjøfart</a></li>
+<li class="lvl4"><a href="#3-3c-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-andre-formal">§ 3-3c. Krav til omsetning av biodrivstoff og biobrensel til andre formål</a></li>
+<li class="lvl4"><a href="#3-3d-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart">§ 3-3d. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart</a></li>
+<li class="lvl4"><a href="#3-3e-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart-ved-salg-via-videreforhandlere">§ 3-3e. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart ved salg via videreforhandlere</a></li>
+<li class="lvl4"><a href="#3-4-samlet-oppfyllelse-og-fleksibilitet-mellom-omsetningskrav">§ 3-4. Samlet oppfyllelse og fleksibilitet mellom omsetningskrav</a></li>
+<li class="lvl4"><a href="#3-5-krav-til-oppfyllelse-av-brekraftskriterier">§ 3-5. Krav til oppfyllelse av bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-6-krav-til-reduksjon-av-klimagassutslipp">§ 3-6. Krav til reduksjon av klimagassutslipp</a></li>
+<li class="lvl4"><a href="#3-7-arealkriterier-for-biodiversitet">§ 3-7. Arealkriterier for biodiversitet</a></li>
+<li class="lvl4"><a href="#3-8-arealkriterier-for-arealer-med-hyt-karbonlager">§ 3-8. Arealkriterier for arealer med høyt karbonlager</a></li>
+<li class="lvl4"><a href="#3-9-arealkriterier-for-torvmark">§ 3-9. Arealkriterier for torvmark</a></li>
+<li class="lvl4"><a href="#3-10-rapporteringsplikt-pa-omsetningskrav-og-brekraftskriterier">§ 3-10. Rapporteringsplikt på omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-10a-krav-om-bruk-av-et-massebalansesystem-for-rapportering-pa-oppfyllelse-av-omsetningskrav-og-brekraftskriterier">§ 3-10a. Krav om bruk av et massebalansesystem for rapportering på oppfyllelse av omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-11-verifikasjon-av-rapporteringen-pa-omsetningskrav-og-brekraftskriterier">§ 3-11. Verifikasjon av rapporteringen på omsetningskrav og bærekraftskriterier</a></li>
+<li class="lvl4"><a href="#3-12-oppgjr-av-underoppfyllelse">§ 3-12. Oppgjør av underoppfyllelse</a></li>
+<li class="lvl4"><a href="#3-13-gebyr-for-kontrolltiltak-ved-rapportering">§ 3-13. Gebyr for kontrolltiltak ved rapportering</a></li>
+<li class="lvl4"><a href="#3-14-gebyr-for-saksbehandling-av-unntakssknader">§ 3-14. Gebyr for saksbehandling av unntakssøknader</a></li>
+<li class="lvl4"><a href="#3-15-unntak">§ 3-15. Unntak</a></li>
+<li class="lvl4"><a href="#3-16-endring-av-gebyrsatsene">§ 3-16. Endring av gebyrsatsene</a></li>
+<li class="lvl4"><a href="#3-17-overtredelsesgebyr">§ 3-17. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-3">Vedlegg til kapittel 3</a></li>
+<li class="lvl4"><a href="#vedlegg-i-beregning-av-livssyklus-klimagassutslipp-fra-biodrivstoff-og-flytende-biobrensel">Vedlegg I. Beregning av livssyklus klimagassutslipp fra biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl4"><a href="#vedlegg-ii-regler-for-beregning-av-virkningen-pa-klimagassene-av-biodrivstoff-flytende-biobrensel-og-tilsvarende-fossilt-brensel-som-de-sammenlignes-med">Vedlegg II. Regler for beregning av virkningen på klimagassene av biodrivstoff, flytende biobrensel og tilsvarende fossilt brensel som de sammenlignes med</a></li>
+<li class="lvl5"><a href="#a-standardverdier-for-biodrivstoff-som-produseres-uten-netto-karbonutslipp-som-flge-av-arealbruksendring">A. Standardverdier for biodrivstoff som produseres uten netto karbonutslipp som følge av arealbruksendring</a></li>
+<li class="lvl5"><a href="#b-beregnede-standardverdier-for-framtidig-biodrivstoff-som-i-januar-2008-ikke-var-tilgjengelig-pa-markedet-eller-som-fantes-pa-markedet-bare-i-ubetydelige-mengder-og-som-produseres-uten-netto-karbonutslipp-som-flge-av-arealbruksendring">B. Beregnede standardverdier for framtidig biodrivstoff som i januar 2008 ikke var tilgjengelig på markedet, eller som fantes på markedet bare i ubetydelige mengder, og som produseres uten netto karbonutslipp som følge av arealbruksendring</a></li>
+<li class="lvl5"><a href="#c-metode">C. Metode</a></li>
+<li class="lvl5"><a href="#d-disaggregerte-standardverdier-for-biodrivstoff-og-flytende-biobrensel">D. Disaggregerte standardverdier for biodrivstoff og flytende biobrensel</a></li>
+<li class="lvl5"><a href="#e-beregnede-disaggregerte-standardverdier-for-framtidig-biodrivstoff-og-flytende-biobrensel-som-i-januar-2008-ikke-var-tilgjengelig-pa-markedet-eller-som-fantes-pa-markedet-bare-i-ubetydelige-mengder">E. Beregnede disaggregerte standardverdier for framtidig biodrivstoff og flytende biobrensel som i januar 2008 ikke var tilgjengelig på markedet, eller som fantes på markedet bare i ubetydelige mengder</a></li>
+<li class="lvl4"><a href="#vedlegg-iii-forhold-som-kan-omfattes-av-frivillige-tiltak">Vedlegg III. Forhold som kan omfattes av frivillige tiltak</a></li>
+<li class="lvl4"><a href="#vedlegg-iv-retningslinjer-for-beregning-av-karbonlagre-i-jorden-i-henhold-til-vedlegg-v-til-direktiv-200928ef">Vedlegg IV. Retningslinjer for beregning av karbonlagre i jorden i henhold til vedlegg V til direktiv 2009/28/EF</a></li>
+<li class="lvl5"><a href="#1-innledning">1. Innledning</a></li>
+<li class="lvl5"><a href="#2-ensartet-representasjon-av-karbonlagre-i-jord">2. Ensartet representasjon av karbonlagre i jord</a></li>
+<li class="lvl5"><a href="#3-beregning-av-karbonlagre">3. Beregning av karbonlagre</a></li>
+<li class="lvl5"><a href="#4-lager-av-organisk-karbon-i-jord">4. Lager av organisk karbon i jord</a></li>
+<li class="lvl5"><a href="#5-karbonlager-i-vegetasjon-over-og-under-jord">5. Karbonlager i vegetasjon over og under jord</a></li>
+<li class="lvl5"><a href="#6-standardverdi-for-karbonlager-i-mineraljord">6. Standardverdi for karbonlager i mineraljord</a></li>
+<li class="lvl5"><a href="#7-faktorer-som-gjenspeiler-forskjellen-mellom-organisk-karbon-i-jord-og-standardverdien-for-organisk-karbon-i-jord">7. Faktorer som gjenspeiler forskjellen mellom organisk karbon i jord og standardverdien for organisk karbon i jord</a></li>
+<li class="lvl5"><a href="#8-verdier-for-karbonlager-i-vegetasjon-over-og-under-jord">8. Verdier for karbonlager i vegetasjon over og under jord</a></li>
+<li class="lvl4"><a href="#vedlegg-v-rastoff-som-gir-grunnlag-for-medregning-i-delkrav-og-dobbeltelling-av-biodrivstoff">Vedlegg V. Råstoff som gir grunnlag for medregning i delkrav og dobbeltelling av biodrivstoff</a></li>
+<li class="lvl4"><a href="#vedlegg-vi-utslipp-fra-indirekte-arealbruksendringer">Vedlegg VI. Utslipp fra indirekte arealbruksendringer</a></li>
+<li class="lvl4"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-4-persistente-organiske-miljgifter-pops">Kapittel 4. Persistente organiske miljøgifter (POPs)</a></li>
+<li class="lvl4"><a href="#4-1-gjennomfring-av-forordning-eu-20191021-om-persistente-organiske-forbindelser-pops-forordningen">§ 4-1. Gjennomføring av forordning (EU) 2019/1021 om persistente organiske forbindelser (POPs-forordningen)</a></li>
+<li class="lvl4"><a href="#4-2-forbud-mot-eksport-av-stoff-stoffblandinger-og-produkter-som-reguleres-i-pops-forordningen-vedlegg-i">§ 4-2. Forbud mot eksport av stoff, stoffblandinger og produkter som reguleres i POPs-forordningen vedlegg I</a></li>
+<li class="lvl4"><a href="#4-3-overtredelsesgebyr">§ 4-3. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-4-opphevet">Vedlegg til kapittel 4 (opphevet)</a></li>
+<li class="lvl3"><a href="#forordninger_1">Forordninger</a></li>
+<li class="lvl4"><a href="#konsolidert-versjon-av-forordning-om-persistente-organiske-forbindelser-pops-pa-engelsk">Konsolidert versjon av forordning om persistente organiske forbindelser (POPs) på engelsk</a></li>
+<li class="lvl4"><a href="#pops-forordningen-pa-dansk">POPs-forordningen på dansk</a></li>
+<li class="lvl2"><a href="#kapittel-5-omsetningsrestriksjoner-for-visse-farlige-stoffer">Kapittel 5. Omsetningsrestriksjoner for visse farlige stoffer</a></li>
+<li class="lvl4"><a href="#5-1-omsetning-og-import-av-visse-farlige-kjemikalier-til-privat-bruk">§ 5-1. Omsetning og import av visse farlige kjemikalier til privat bruk</a></li>
+<li class="lvl4"><a href="#5-2-overtredelsesgebyr">§ 5-2. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-regulering-av-ozonreduserende-stoffer">Kapittel 6. Regulering av ozonreduserende stoffer</a></li>
+<li class="lvl4"><a href="#6-1-gjennomfring-av-forordning-om-ozonreduserende-stoffer-og-etterflgende-rettsakter">§ 6-1. Gjennomføring av forordning om ozonreduserende stoffer og etterfølgende rettsakter</a></li>
+<li class="lvl4"><a href="#6-2-forbud-mot-import-og-eksport">§ 6-2. Forbud mot import og eksport</a></li>
+<li class="lvl4"><a href="#6-3-ansvarlig-myndighet">§ 6-3. Ansvarlig myndighet</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-6">Vedlegg til kapittel 6</a></li>
+<li class="lvl2"><a href="#kapittel-6a-regulering-av-fluorholdige-stoffer">Kapittel 6a. Regulering av fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-1-gjennomfring-av-eu-rettsakter-om-fluorholdige-stoffer">§ 6a-1. Gjennomføring av EU-rettsakter om fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-2-forbud-mot-import-og-eksport">§ 6a-2. Forbud mot import og eksport</a></li>
+<li class="lvl4"><a href="#6a-3-ansvarlig-myndighet">§ 6a-3. Ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#6a-3a-sertifikat-for-personell-som-handterer-fluorholdige-stoffer">§ 6a-3a. Sertifikat for personell som håndterer fluorholdige stoffer</a></li>
+<li class="lvl4"><a href="#6a-4-rapporteringskrav-for-sf6-gass-for-importrer-og-anleggseiere">§ 6a-4. Rapporteringskrav for SF6-gass for importører og anleggseiere</a></li>
+<li class="lvl4"><a href="#6a-5-gebyr">§ 6a-5. Gebyr</a></li>
+<li class="lvl4"><a href="#6a-6-overtredelsesgebyr">§ 6a-6. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#vedlegg-til-kapittel-6a">Vedlegg til kapittel 6a</a></li>
+<li class="lvl4"><a href="#vedlegg-1">Vedlegg 1</a></li>
+<li class="lvl4"><a href="#forordninger_2">Forordninger</a></li>
+<li class="lvl2"><a href="#kapittel-6b-overtredelsesgebyr">Kapittel 6b. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#6b-1-overtredelsesgebyr-for-foretak">§ 6b-1. Overtredelsesgebyr for foretak</a></li>
+<li class="lvl4"><a href="#6b-2-ileggelse-og-utmaling-av-overtredelsesgebyr">§ 6b-2. Ileggelse og utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#7-1-unntak">§ 7-1. Unntak</a></li>
+<li class="lvl4"><a href="#7-2-tilsyn">§ 7-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#7-3-klage">§ 7-3. Klage</a></li>
+<li class="lvl4"><a href="#7-4-tvangsmulkt">§ 7-4. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#7-5-straff">§ 7-5. Straff</a></li>
+<li class="lvl4"><a href="#7-6-fordeling-av-myndighet">§ 7-6. Fordeling av myndighet</a></li>
+<li class="lvl4"><a href="#7-7-ikrafttreden-og-oppheving-av-gjeldende-forskrifter">§ 7-7. Ikrafttreden og oppheving av gjeldende forskrifter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-01-922.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2004-06-01-922.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2004-06-01-922.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2004-06-01-922.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2004-06-01-922.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-06-01-922.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2004-06-01-922.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2004-06-01-922.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2004-06-01-922.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-begrensning-i-bruk-av-helse-og-miljfarlige-kjemikalier-og-andre-produkter-produktforskriften">Forskrift om begrensning i bruk av helse- og miljøfarlige kjemikalier og andre produkter (produktforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-opphevet">§ 1-1. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</em></p>
+<p class="note">Opphevet ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</p>
 <h4 id="1-2-virkeomrade">§ 1-2. Virkeområde <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gjelder ikke produksjon, import, eksport, omsetning og bruk av stoff, stoffblandinger og produkter til analyse og forskningsformål, med mindre annet fremgår særskilt av de enkelte bestemmelser.</p>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h2 id="kapittel-2-regulerte-stoff-stoffblandinger-og-produkter">Kapittel 2. Regulerte stoff, stoffblandinger og produkter</h2>
 <p>Hele kapitlet endret ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-1-pcb">§ 2-1. PCB</h4>
@@ -102,10 +485,10 @@ b. Det er utarbeidet en plan som sikrer at utfasingen av kondensatorer i damplam
 c. Det er dokumentert budsjettdekning eller økonomisk garanti for gjennomføring av planen.
 d. Det er utarbeidet en avfallsplan hvor det gis informasjon om rutiner for avfallshåndteringen i alle ledd i forbindelse med utfasingen. Rutinene skal beskrive håndteringen av de PCB-holdige kondensatorene eller armaturene fra de demonteres, til de er levert godkjent mottak for farlig avfall eller for elektrisk elektronisk avfall.</p>
 <p>Syvende ledd gjelder ikke for produkter som har lekkasje eller annen defekt som forsterker produktets helse- eller miljørisiko.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="2-2-blyhagl-pa-skytebane">§ 2-2. Blyhagl på skytebane <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å bruke blyhagl på skytebane.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 16 juli 2015 nr. 903 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 16 juli 2015 nr. 903 .</p>
 <h4 id="2-3-kvikkslv-og-kvikkslvforbindelser">§ 2-3. Kvikksølv og kvikksølvforbindelser <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, eksportere, omsette og bruke stoff eller stoffblanding som inneholder kvikksølv eller kvikksølvforbindelser. Forbudet omfatter også stoff og stoffblandinger til analyse- og forskningsformål.</p>
 <p>Det er forbudt å produsere, importere, eksportere og omsette faste bearbeidede produkter som inneholder kvikksølv eller kvikksølvforbindelser. Forbudet omfatter også produkter til analyse- og forskningsformål.</p>
@@ -123,8 +506,8 @@ j. kvikksølv(II)tiocyanat for bestemmelse av klorid i vannprøver,
 k. kvikksølv(II)klorid for fiksering av vannprøver til laboratorieanalyser.</p>
 <p>Forbudet mot import, eksport og produksjon i annet ledd skal likevel gjelde for elektriske og elektroniske produkter og for komponenter i kjøretøy som er listet opp i vedlegg II til artikkel 5 i forordning (EU) 2017/852 om kvikksølv.</p>
 <p>Forbudene i første og annet ledd omfatter ikke de bruksområder for kvikksølvforbindelser og kvikksølv som reguleres i REACH-forordningen vedlegg XVII poster 18, 18a og 62, jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften). Forbudet i annet ledd gjelder likevel for febertermometre og andre måleinstrumenter som reguleres av REACH-forordningen vedlegg XVII post 18a som er tatt i bruk før 3. april 2009. 1</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 26 juni 2013 nr. 811 (i kraft 1 juli 2013), 22 juli 2014 nr. 995 , 22 juli 2014 nr. 995 (i kraft 10 okt 2017), 2 mai 2023 nr. 665 , 25 nov 2024 nr. 3026 (i kraft 31 des 2025).
-1 Jf. REACH-forordningen vedlegg XVII post 18a nr. 1 og nr. 2, jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 26 juni 2013 nr. 811 (i kraft 1 juli 2013), 22 juli 2014 nr. 995 , 22 juli 2014 nr. 995 (i kraft 10 okt 2017), 2 mai 2023 nr. 665 , 25 nov 2024 nr. 3026 (i kraft 31 des 2025).
+1 Jf. REACH-forordningen vedlegg XVII post 18a nr. 1 og nr. 2, jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften).</p>
 <h4 id="2-4-gjennomfring-av-forordningen-om-kvikkslv">§ 2-4. Gjennomføring av forordningen om kvikksølv <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forordning (EU) 2017/852 om kvikksølv (kvikksølvforordningen), som inntatt i EØS-avtalen vedlegg XX kapittel IV nr. 22a, gjelder som forskrift.</p>
 <p>Forordningen gjelder med de tilpasningene som følger av vedlegg XX kapittel IV , protokoll 1 til avtalen og avtalen for øvrig, og med endringene som følger av</p>
@@ -135,25 +518,25 @@ k. kvikksølv(II)klorid for fiksering av vannprøver til laboratorieanalyser.</p
 <li>forordning (EU) 2026/55 .</li>
 </ul>
 <p>Første ledd gjelder ikke for Svalbard, Jan Mayen eller bilandene.</p>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 22 juli 2014 nr. 995 , tilføyd ved forskrift 4 mai 2021 nr. 1397 , endret ved forskrifter 29 nov 2022 nr. 2047 , 8 des 2023 nr. 2013 , 25 nov 2024 nr. 3026 , 23 juni 2026 nr. 1256 (i kraft 1 juli 2026), 17 sep 2026 nr. 1870 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 22 juli 2014 nr. 995 , tilføyd ved forskrift 4 mai 2021 nr. 1397 , endret ved forskrifter 29 nov 2022 nr. 2047 , 8 des 2023 nr. 2013 , 25 nov 2024 nr. 3026 , 23 juni 2026 nr. 1256 (i kraft 1 juli 2026), 17 sep 2026 nr. 1870 .</p>
 <h4 id="2-5-oktylfenol">§ 2-5. Oktylfenol <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, eksportere, omsette og bruke oktylfenol og oktylfenoletoksilater, og stoffblandinger som inneholder disse stoffene. Forbudene gjelder ikke der disse stoffene og stoffblandingene forekommer i eller skal brukes i maling, lakk og smøreolje.</p>
 <p>Denne paragrafen gjelder ikke der bruk er regulert gjennom annen lovgivning, inkludert REACH-forordningen artikkel 56 og vedlegg XIV post nr. 42, jf. REACH-forskriften § 1.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 18 mars 2019 nr. 434 (i kraft 4 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 18 mars 2019 nr. 434 (i kraft 4 jan 2021).</p>
 <h4 id="2-6-metylolakrylamid">§ 2-6. Metylolakrylamid <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å bruke stoff eller stoffblandinger som inneholder 1 vektprosent eller mer metylolakrylamid (CAS-nr. 924-42-5) til tetting av vannlekkasjer i forbindelse med anleggsvirksomhet.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 27 mai 2013 nr. 536 (i kraft 1 juni 2013).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 27 mai 2013 nr. 536 (i kraft 1 juni 2013).</p>
 <h4 id="2-7-opphevet">§ 2-7. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-7.html" title="Endringshistorikk for § 2-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 26 juni 2013 nr. 811 (i kraft 1 juli 2013, endringen antatt å gjelde fjerde ledd), 12 feb 2015 nr. 121 , 9 juli 2016 nr. 911 , opphevet ved forskrift 6 mai 2017 nr. 548 (i kraft 2 mars 2019).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 26 juni 2013 nr. 811 (i kraft 1 juli 2013, endringen antatt å gjelde fjerde ledd), 12 feb 2015 nr. 121 , 9 juli 2016 nr. 911 , opphevet ved forskrift 6 mai 2017 nr. 548 (i kraft 2 mars 2019).</p>
 <h4 id="2-8-opphevet">§ 2-8. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-8.html" title="Endringshistorikk for § 2-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 29 juni 2015 nr. 820 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 29 juni 2015 nr. 820 .</p>
 <h4 id="2-9-pfos-i-brannskum">§ 2-9. PFOS i brannskum <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-9.html" title="Endringshistorikk for § 2-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å ha brannskum som inneholder 0,001 vektprosent eller mer PFOS eller PFOS-relaterte forbindelser.</p>
 <p>Brannskum som inneholder 0,001 vektprosent eller mer PFOS eller PFOS-relaterte forbindelser skal leveres til godkjent mottak for destruksjon.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 27 nov 2013 nr. 1370 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 27 nov 2013 nr. 1370 .</p>
 <h4 id="2-10-tekstil-og-lrvarer-som-inneholder-pentaklorfenol">§ 2-10. Tekstil- og lærvarer som inneholder pentaklorfenol <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-10.html" title="Endringshistorikk for § 2-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, eksportere og omsette tekstiler og lær som inneholder mer enn 5 ppm pentaklorfenol eller dens salter eller estere. For analyse av pentaklorfenol skal metoden US EPA 8270 eller ekvivalente metoder benyttes.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 1 okt 2020 nr. 2041 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 1 okt 2020 nr. 2041 (i kraft 1 nov 2020).</p>
 <h4 id="2-11-krombehandlet-trevirke">§ 2-11. Krombehandlet trevirke</h4>
 <p>Det er forbudt å importere, eksportere og omsette trevirke og produkter av trevirke som er behandlet med forbindelser av krom.</p>
 <p>Forbudet gjelder ikke omsetning av trevirke behandlet med kromløsninger i industrianlegg til yrkesmessig og industriell bruk til følgende bruksområder:</p>
@@ -174,7 +557,7 @@ e. på steder hvor behandlet trevirke kan komme i kontakt med halvfabrikata elle
 <p>Den som produserer eller importerer trevirke behandlet med kromløsninger, skal påse at alt trevirke skal være tørket til under 30 vektprosent fuktighet før det leveres til forhandler eller bruker. Trevirket skal heller ikke omsettes før kromløsningen er fullstendig fiksert.</p>
 <p>Ved omsetning skal alt trevirke behandlet med krom være stykkmerket: «Bare til bruk i næringsvirksomhet». Tre som omsettes i emballasje skal være merket med etikett som lyder: «Bruk hansker når treet håndteres. Bruk støvmaske og øyevern ved bearbeiding av treet. Avfall fra trevirket skal behandles som farlig avfall».</p>
 <p>Trevirke behandlet med løsninger av krom skal også være stykkmerket med informasjon om hvilke metaller det inneholder.</p>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-12-vaskemidler-innhold-av-fosfor">§ 2-12. Vaskemidler – innhold av fosfor <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-12.html" title="Endringshistorikk for § 2-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere eller omsette for bruk i Norge vaskemidler med høyere innhold i vektprosent av fosfor enn</p>
 <p>a. tøyvaskemidler: 0,2 %,
@@ -185,14 +568,14 @@ e. spesialmidler for meierier og næringsmiddelindustri: 10,0 %,
 f. spesialmidler for melkeproduksjon og øvrig industri: 2,5 %.</p>
 <p>For konsentrater til yrkesmessig bruk i lukkede systemer med automatisk dosering gjelder grenseverdiene i første ledd bokstav a) til f) etter fortynning.</p>
 <p>Forbudet i første ledd bokstav a) gjelder ikke tøyvaskemidler til forbrukere. Fra 1. januar 2017 gjelder forbudet i første ledd bokstav b) ikke maskinoppvaskmidler til forbrukere. Slike vaskemidler er regulert i vaskemiddelforordningen artikkel 4a og vedlegg VIa, jf. § 2-14 .</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 29 nov 2013 nr. 1393 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 29 nov 2013 nr. 1393 .</p>
 <h4 id="2-13-opphevet">§ 2-13. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-13.html" title="Endringshistorikk for § 2-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 29 nov 2013 nr. 1393 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 29 nov 2013 nr. 1393 .</p>
 <h4 id="2-14-vaskemidler-gjennomfring-av-vaskemiddelforordningen">§ 2-14. Vaskemidler – gjennomføring av Vaskemiddelforordningen <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-14.html" title="Endringshistorikk for § 2-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalen vedlegg II kapittel XV nr. 12u (forordning (EF) nr. 648/2004 som endret ved forordning (EF) nr. 907/2006 , forordning (EF) nr. 551/2009 , forordning (EF) nr. 1336/2008 og forordning (EU) nr. 259/2012 ) om vaske- og rengjøringsmidler gjelder som forskrift med de tilpasninger som følger av EØS-avtalens vedlegg II kapittel XV, protokoll 1 til avtalen og til avtalen for øvrig.</p>
 <p>All merking skal være på norsk.</p>
 <p>I vedlegg VI til kapittel 2 i denne forskrift gjengis EØS-avtalens vedlegg II kapittel XV nr. 12u (forordning (EF) nr. 648/2004 , forordning (EF) nr. 907/2006 , forordning (EF) nr. 551/2009 , forordning (EF) nr. 1336/2008 og forordning (EU) nr. 259/2012 ), slik Klima- og miljødepartementet tolker denne delen av EØS-avtalen.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 29 nov 2013 nr. 1393 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 29 nov 2013 nr. 1393 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="2-15-tungmetall-i-emballasje">§ 2-15. Tungmetall i emballasje <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-15.html" title="Endringshistorikk for § 2-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, eksportere og omsette emballasje der det samlede innhold av bly, kadmium, kvikksølv og seksverdig krom overstiger 100 mg/kg.</p>
 <p>Forbudet gjelder ikke for</p>
@@ -201,7 +584,7 @@ b. emballasje av glass hvor gjenvunnet materiale av glass er benyttet i produksj
 c. kasser og paller i plastmateriale hvor gjenvunnet materiale fra tilsvarende plastkasser og -paller er benyttet i produksjonen.</p>
 <p>Med emballasje menes alle produkt som blir brukt til å inneholde, beskytte eller levere en vare fra produsent til bruker eller forbruker. Engangsartikler brukt til det samme formål anses også som emballasje.</p>
 <p>Forbudet i første ledd gjelder ikke for containere for veg-, jernbane-, sjø- og lufttransport.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 2 juli 2013 nr. 855 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 2 juli 2013 nr. 855 .</p>
 <h4 id="2-16-batterier-virkeomrade-og-definisjoner">§ 2-16. Batterier – virkeområde og definisjoner</h4>
 <p>§ 2-16, § 2-17 , og § 2-18 gjelder alle batterier, også innebygde, med unntak av batterier brukt i utstyr som er produsert spesifikt til militære formål eller til å bli sendt ut i rommet.</p>
 <p>I § 2-16, § 2-17 og § 2-18 og vedlegg I skal følgende definisjoner legges til grunn:</p>
@@ -211,7 +594,7 @@ c. Industribatteri: batteri spesielt laget for industriell eller yrkesmessig bru
 d. Blybatteri : batteri som inneholder bly, brukt til startmotor, tenning og lys i kjøretøy mv., som ikke er industribatteri,
 e. Knappcellebatteri: små runde batterier med diameter større enn høyden brukt i små bærbare apparater som høreapparater og ur og til backup-strøm,
 f. Batteridrevet produkt: produkter som helt eller delvis drives eller kan drives av batterier.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 24 okt 2012 nr. 988 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 24 okt 2012 nr. 988 .</p>
 <h4 id="2-17-batterier-forbud">§ 2-17. Batterier – forbud <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-17.html" title="Endringshistorikk for § 2-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, eksportere eller omsette</p>
 <p>a. batterier som inneholder 5 ppm eller mer kvikksølv. For knappecellebatterier lovlig bragt i omsetning før 1. oktober 2015 gjelder en grense på 2 vektprosent kvikksølv,
@@ -219,7 +602,7 @@ b. bærbare batterier som inneholder mer enn 20 ppm kadmium. Forbudet gjelder ik
   - nødlys og alarmsystemer,
   - medisinsk utstyr,
   - bærbart elektroverktøy lovlig bragt i omsetning før 31. desember 2016.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 24 okt 2012 nr. 988 , 18 des 2012 nr. 1294 , 25 sep 2015 nr. 1124 (i kraft 1 nov 2015).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 24 okt 2012 nr. 988 , 18 des 2012 nr. 1294 , 25 sep 2015 nr. 1124 (i kraft 1 nov 2015).</p>
 <h4 id="2-18-batterier-og-batteridrevne-produkter-merking-konstruksjon-og-informasjon">§ 2-18. Batterier og batteridrevne produkter – merking, konstruksjon og informasjon <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-18.html" title="Endringshistorikk for § 2-18" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Produsenter og importører plikter å sørge for at batterier er merket med</p>
 <p>a. symbol med overkrysset avfallsbeholder som angitt i vedlegg I,
@@ -230,11 +613,11 @@ c. kapasitet i henhold til § 2-18a .</p>
 <p>Produsenter og importører av produkter med innebygde batterier plikter å sørge for at det ved distribusjon av produktene følger med en anvisning om hvordan batteriene uten fare kan fjernes enten av sluttbrukeren eller av uavhengige kvalifiserte fagfolk. Om nødvendig må opplysning om batteritype fremgå. Kravene i dette leddet gjelder ikke produkter som krever kontinuerlig strømforsyning av hensyn til sikkerhet, yteevne, medisinske årsaker eller for å ivareta data.</p>
 <p>Påslag for eventuelle kostnader for håndtering av kasserte batterier skal ikke fremgå ved salg av batterier til sluttbruker.</p>
 <p>Det er forbudt å omsette batterier og batteridrevne produkter som ikke overholder kravene i første, andre og tredje ledd i denne paragrafen.</p>
-<p><em>Endret ved forskrifter 17 nov 2004 nr. 1479 (i kraft 1 jan 2005), 2 okt 2007 nr. 1154 , opphevet ved forskrift 17 nov 2011 nr. 1113 , tilføyd igjen ved forskrift 24 okt 2012 nr. 988 , endret ved forskrift 25 sep 2015 nr. 1124 (i kraft 1 nov 2015).</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2004 nr. 1479 (i kraft 1 jan 2005), 2 okt 2007 nr. 1154 , opphevet ved forskrift 17 nov 2011 nr. 1113 , tilføyd igjen ved forskrift 24 okt 2012 nr. 988 , endret ved forskrift 25 sep 2015 nr. 1124 (i kraft 1 nov 2015).</p>
 <h4 id="2-18a-kapasitetsmerking-av-batterier-gjennomfring-av-forordningeu-nr-11032010">§ 2-18a. Kapasitetsmerking av batterier – gjennomføring av forordning(EU) nr. 1103/2010 <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-18a.html" title="Endringshistorikk for § 2-18a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalens vedlegg II kapittel XV nr. 12zzd (forordning (EU) nr. 1103/2010 ) om fastsettelse, i henhold til europaparlaments- og rådsdirektiv 2006/66/EF , av regler for kapasitetsmerking av bærbare (oppladbare) sekundærbatterier og -akkumulatorer samt kjøretøybatterier og kjøretøyakkumulatorer gjelder som forskrift med de tilpasninger som følger av vedlegg II kapittel XV, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>I vedlegg II til kapittel 2 i denne forskrift gjengis EØS-avtalen vedlegg II kapittel XV nr. 12w (kommisjonsforordning (EU) nr. 1103/2010 ) slik Klima- og miljødepartementet tolker denne delen av EØS-avtalen med de tilpasninger som følger av vedlegg II kapittel XV, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 24 okt 2012 nr. 988 , endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 24 okt 2012 nr. 988 , endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="2-19-kjrety-utfasing-av-komponenter-merking-og-informasjonsplikt">§ 2-19. Kjøretøy – utfasing av komponenter, merking og informasjonsplikt <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-19.html" title="Endringshistorikk for § 2-19" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere kjøretøy som inneholder bly, kvikksølv, seksverdig krom eller kadmium. Det er også forbudt å importere kjøretøy produsert etter 1. juli 2003 som inneholder bly, kvikksølv, seksverdig krom eller kadmium. Forbudene gjelder tilsvarende for komponenter og materialer til kjøretøy. Forbudene gjelder ikke dersom</p>
 <p>a. innholdet av bly, kvikksølv og seksverdig krom i homogene materialer ikke overstiger 0,1 vektprosent og innholdet av kadmium i homogene materialer ikke overstiger 0,01 vektprosent
@@ -246,7 +629,7 @@ c. de ovennevnte stoffene finnes i reservedeler til bruk i kjøretøy som er bra
 <p>Den som ervervsmessig produserer eller importerer komponenter til kjøretøy, skal på anmodning fra virksomheter som driver behandling av kasserte kjøretøyer, gi demonteringsopplysninger.</p>
 <p>Med demonteringsopplysninger menes alle opplysninger som er nødvendige for å behandle kasserte kjøretøy på en miljømessig forsvarlig måte, herunder opplysninger om plassering av komponenter og materialer med innhold av farlige stoffer og opplysninger om gjenvinnbarhet.</p>
 <p>Bestemmelser om retursystem og håndtering av kasserte kjøretøy er inntatt i forskrift 1. juni 2004 nr. 930 om gjenvinning og behandling av avfall kapittel 4.</p>
-<p><em>Endret ved forskrifter 17 nov 2011 nr. 1113 , 6 juni 2018 nr. 834 .</em></p>
+<p class="note">Endret ved forskrifter 17 nov 2011 nr. 1113 , 6 juni 2018 nr. 834 .</p>
 <h4 id="2-20-kvaliteten-pa-bensin-og-autodiesel">§ 2-20. Kvaliteten på bensin og autodiesel <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-20.html" title="Endringshistorikk for § 2-20" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>De som importerer, setter sammen, distribuerer eller omsetter bensin og autodiesel med eller uten innblandet biodrivstoff til bruk i motorvogner, ikke-veigående maskiner, landbrukstraktorer og fritidsbåter som ikke går til sjøs, skal oppfylle kravene til kvalitet i vedlegg IV (tabell 1 og 2) til dette kapitlet. Forsvarets bruk av flydrivstoff til drift av bakkeutstyr omfattes ikke.</p>
 <p>Med bensin menes alle flyktige mineraloljer som kan anvendes i forbrenningsmotorer med styrt tenning for framdrift av kjøretøyer og som omfattes av tolltariffnumrene 27.10.1231, 27.10.1232, 27.10.1233, 27.10.1241 og 27.10.1242.</p>
@@ -259,7 +642,7 @@ c. de ovennevnte stoffene finnes i reservedeler til bruk i kjøretøy som er bra
 <p>Tilsetning av metylsyklopentadienyl mangan trikarbonyl (MMT) skal utgjøre maksimalt 2 mg mangan per liter drivstoff. Salgssteder der metalliske additiver er tilsatt drivstoffet skal være merket tydelig med «Inneholder metalliske additiver».</p>
 <p>De ansvarlige etter første ledd skal gjennomføre drivstoffkontroll etter gjeldende CEN-standarder eller på en tilsvarende måte. Kontroll av drivstoffkvalitetene skal utføres i henhold til krav og analysemetoder gitt i tabellene 1 og 2 i vedlegg IV til dette kapitlet.</p>
 <p>De ansvarlige etter første ledd skal innen 31. mars hvert år rapportere resultatene av forrige års drivstoffkontroll til Miljødirektoratet.</p>
-<p><em>Endret ved forskrifter 22 sep 2005 nr. 1073 , 9 des 2007 nr. 1788 (i kraft 1 april 2008), 17 nov 2011 nr. 1113 , 9 jan 2012 nr. 23 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), 2 nov 2015 nr. 1261 .</em></p>
+<p class="note">Endret ved forskrifter 22 sep 2005 nr. 1073 , 9 des 2007 nr. 1788 (i kraft 1 april 2008), 17 nov 2011 nr. 1113 , 9 jan 2012 nr. 23 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), 2 nov 2015 nr. 1261 .</p>
 <h4 id="2-21-krav-til-klimagassreduksjon-fra-drivstoff">§ 2-21. Krav til klimagassreduksjon fra drivstoff <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-21.html" title="Endringshistorikk for § 2-21" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsettere av drivstoff til motorvogner, mobile ikke-veigående maskiner, landbrukstraktorer og fritidsbåter som ikke går til sjøs, skal omsette drivstoff med maksimalt 88,454 g CO 2 -ekvivalenter/MJ livssyklusutslipp av klimagasser per enhet energi. Elektrisitet til bruk i veitransport og biodrivstoff til luftfart kan telle med i oppfyllelsen av kravet.</p>
 <p>Med omsetter menes her den som omsetter drivstoff og er registrert etter særavgiftsforskriften § 5-1 eller § 5-2 .</p>
@@ -271,11 +654,11 @@ b. forrige kalenderårs livssyklusutslipp av klimagasser per energienhet for oms
 <p>Med omsatt volum menes her drivstoff som omsetter er eller hadde vært ansvarlig for å betale særavgifter for etter særavgiftsforskriften § 2-1 , også dersom drivstoffet er unntatt fra eller fritatt for særavgifter.</p>
 <p>Livssyklusutslipp av klimagasser fra biodrivstoff skal beregnes etter metode som er beskrevet i vedlegg I til IV i kapittel 3. Biodrivstoff som skal telle med i oppfyllelsen av kravet om reduserte klimagassutslipp, må oppfylle bærekraftskriteriene i § 3-5 til § 3-9 . Rapporteringen på biodrivstoff skal være i tråd med reglene beskrevet i § 3-10 og § 3-11 . Klimagassintensiteten for biodrivstoff som ikke oppfyller bærekraftskriteriene i § 3-5 til § 3-9 , er lik klimagassintensiteten for det respektive fossile brenselet framstilt av konvensjonell råolje eller gass.</p>
 <p>Livssyklusutslipp av klimagasser fra ikke-biologiske drivstoff skal beregnes etter metode fastsatt i Vedlegg V, del I, i kapittel 2. Rapportering skal skje etter vedlegg V, del II, i kapittel 2.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2004 nr. 1479 (i kraft 1 jan 2005), endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), tilføyd igjen ved forskrift 2 nov 2015 nr. 1261 , endret ved forskrifter 15 mai 2017 nr. 604 , 21 des 2017 nr. 2398 (med virkning fra rapportering for kalenderåret 2017), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2004 nr. 1479 (i kraft 1 jan 2005), endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), tilføyd igjen ved forskrift 2 nov 2015 nr. 1261 , endret ved forskrifter 15 mai 2017 nr. 604 , 21 des 2017 nr. 2398 (med virkning fra rapportering for kalenderåret 2017), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="2-22-opphevet">§ 2-22. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-22.html" title="Endringshistorikk for § 2-22" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 29 juni 2005 nr. 740 , endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 29 juni 2005 nr. 740 , endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013).</p>
 <h4 id="2-23-opphevet">§ 2-23. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-23.html" title="Endringshistorikk for § 2-23" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 21 mars 2007 nr. 414 , endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 21 mars 2007 nr. 414 , endret ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013).</p>
 <h4 id="2-24-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-virkeomrade-og-definisjoner">§ 2-24. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – virkeområde og definisjoner <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-24.html" title="Endringshistorikk for § 2-24" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Bestemmelsene i § 2-24 til § 2-26 gjelder for de maling- og lakkeringsprodukter som framgår av vedlegg VII til dette kapitlet avsnitt 1.</p>
 <p>I § 2-24 til § 2-26 og i vedlegg VII menes med:</p>
@@ -285,7 +668,7 @@ c. Organisk løsemiddel: VOC som brukes alene eller sammen med andre stoffer til
 d. Belegg: produkter som brukes for å oppnå en film med dekorative, beskyttende eller andre funksjonelle virkninger på en overflate og som inneholder organiske løsemidler som er nødvendige for at produktet kan påføres korrekt.
 e. Film: et sammenhengende belegg som kommer frem ved påføring av et eller flere lag på et underlag.
 f. Lag: strøk eller sjikt.</p>
-<p><em>Tilføyd ved forskrift 21 mars 2007 nr. 414 , endret ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Tilføyd ved forskrift 21 mars 2007 nr. 414 , endret ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-25-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-krav-til-innhold-av-voc-merking-mv">§ 2-25. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – krav til innhold av VOC, merking mv.</h4>
 <p>Det er forbudt å produsere, importere, eksportere og omsette maling- og lakkeringsprodukter som står oppført i vedlegg VII avsnitt 1, dersom VOC-innhold er høyere enn angitt i vedlegg VII avsnitt 2. Forbudet gjelder fra de datoer som er oppgitt i vedlegget. For å fastslå om grenseverdiene er overholdt, skal analysemetodene som angitt i vedlegg VII avsnitt 3 benyttes.</p>
 <p>Forbudet gjelder ikke for maling- og lakkeringsprodukter utelukkende til bruk i næringsvirksomhet som omfattes av forskrift 1. juni 2004 nr. 931 om begrensning av forurensning kap. 9 jf. direktiv 1999/13/EF .</p>
@@ -293,10 +676,10 @@ f. Lag: strøk eller sjikt.</p>
 <p>For maling- og lakkeringsprodukter som nevnt i vedlegg VII avsnitt 1, skal emballasjen i tillegg til forskriftsmessig helse-, miljø-, brann- og eksplosjonsfaremerking være merket med lettleselig og varig påskrift på norsk som opplyser om</p>
 <p>a. produktets underkategori og de relevante VOC-grenseverdiene i g/l jf. vedlegg VII avsnitt 2
 b. det maksimale VOC-innhold i g/l i produktet i bruksklar tilstand.</p>
-<p><em>Tilføyd ved forskrift 16 april 2007 nr. 417 , endret ved forskrifter 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Tilføyd ved forskrift 16 april 2007 nr. 417 , endret ved forskrifter 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="2-26-flyktige-organiske-forbindelser-voc-i-maling-og-lakkeringsprodukter-overgangsregler">§ 2-26. Flyktige organiske forbindelser (VOC) i maling- og lakkeringsprodukter – overgangsregler</h4>
 <p>Maling- og lakkeringsprodukter som er produsert før grenseverdiene i vedlegg VII avsnitt 2 trer i kraft, kan omsettes inntil ett år etter de aktuelle ikrafttredelsesdatoene, selv om grenseverdiene og kravet til merking ikke er oppfylt.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-27-svovelinnhold-i-marint-drivstoff">§ 2-27. Svovelinnhold i marint drivstoff</h4>
 <p>Det er forbudt å produsere, importere og omsette marin dieselolje med mer enn 1,50 vektprosent svovel, dersom denne er beregnet på forbrenning om bord i sjøfartøy.</p>
 <p>Det er forbudt å produsere, importere og omsette marin gassolje med mer enn 0,10 vektprosent svovel, dersom denne er beregnet på forbrenning om bord i sjøfartøy.</p>
@@ -314,16 +697,16 @@ i. en erklæring om at det leverte drivstoffet ikke er marin dieselolje med mer 
 <p>Med marint drivstoff menes ethvert petroleumsbasert flytende drivstoff beregnet på bruk om bord på fartøy, inkludert de drivstoff som er definert i ISO 8217.</p>
 <p>Med marin dieselolje menes ethvert marint drivstoff definert for DMB-kvalitet i tabell I i ISO 8217 med unntak av referansen til svovelinnholdet.</p>
 <p>Med marin gassolje menes ethvert marint drivstoff definert for DMX-, DMA- eller DMZ-kvalitet i tabell I i ISO 8217 med unntak av referansen til svovelinnholdet.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 , endret ved forskrifter 6 nov 2014 nr. 1405 , 13 sep 2022 nr. 1569 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 , endret ved forskrifter 6 nov 2014 nr. 1405 , 13 sep 2022 nr. 1569 .</p>
 <h4 id="2-28-opphevet">§ 2-28. (Opphevet) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-28.html" title="Endringshistorikk for § 2-28" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 21 aug 2013 nr. 1015 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 , opphevet ved forskrift 21 aug 2013 nr. 1015 .</p>
 <h4 id="2-29-frostvske-som-inneholder-etylenglykol">§ 2-29. Frostvæske som inneholder etylenglykol</h4>
 <p>Frostvæske med etylenglykol som produseres, importeres, eksporteres eller omsettes til privat bruk, skal tilsettes bitter smak i en konsentrasjon som forhindrer at produktet drikkes.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-30-stoff-stoffblandinger-og-produkter-som-reguleres-i-reach-forordningen-vedlegg-xvii">§ 2-30. Stoff, stoffblandinger og produkter som reguleres i REACH-forordningen vedlegg XVII <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-30.html" title="Endringshistorikk for § 2-30" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å eksportere stoff, stoffblandinger eller produkter som i henhold til følgende poster i REACH-forordningen vedlegg XVII ikke er tillatt å bringe i omsetning, jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften): Post: Stoff/stoffblanding 1 Post 1 Polyklorerte terfenyler (PCT) 2 Post 3 nr. 3 Visse farlige og flytende stoffer og stoffblandinger 3 Post 4 Tris(2,3 dibromopropyl)fosfat 4 Post 5 Benzen 5 Post 6 Asbestfibrer 6 Post 7 Tris-aziridinyl-fosfinoksid 7 Post 8 Polybrombifenyler (PBB) 8 Post 12 2-naftylamin og dets salter 9 Post 13 Benzidin og dets salter 10 Post 14 4-nitrobifenyl 11 Post 15 4-aminobifenyl xenylamin og dets salter 12 Post 16 Blykarbonater 13 Post 17 Blysulfater 14 Post 18 Kvikksølvforbindelser 15 Post 18a Kvikksølv 16 Post 19 Arsenforbindelser 17 Post 20 nr. 1–3 Organiske tinnforbindelser 18 Post 21 Dibutyltinnhydrogenborat (DBB) 19 – – 20 Post 23 Kadmium 21 Post 24 Monometyltetraklordifenylmetan (Ugilec 141) 22 Post 25 Monometyldiklordifenylmetan, (Ugilec 121, Ugilec 21) 23 Post 26 Monometyldibromdifenylmetan brombenzylbromtoluen (DBBT) 24 Post 27 Nikkel 25 Post 31 Kreosot, kreosotolje, steinkulltjære og antracenolje 26 Post 32 Kloroform 27 Post 34 1,1,2-trikloretaen 28 Post 35 1,2,2-tetrakloretan 29 Post 36 1,1,1,2-tetrakloretan 30 Post 37 Pentakloretan 31 Post 38 1,1-dikloreten 32 Post 40 Brannfarlige, svært brannfarlige eller ekstremt brannfarlige stoffer 33 Post 43 Azofargestoffer 34 Post 45 Oktabromdifenyleter 35 Post 46 Nonylfenol, nonylfenoletoksylater 36 Post 48 Toluen 37 Post 49 Triklorbenzen 38 Post 50 nr. 1–4 Polysykliske aromatiske hydrokarboner (PAH) 39 Post 51 nr. 2 Di(2-ethylheksyl)ftalat (DEHP), dibutylftalat (DBP) og butylbenzylftalat (BBP) 40 Post 52 Ftalater 41 Post 62 Fenylkvikksølvforbindelser 42 – – 43 Post 72 Formaldehyd 44 Post 75 Tatoveringskjemikalier</p>
 <p>Med eksport i denne bestemmelsen menes eksport fra Norge til land utenfor EØS-området.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 , endret ved forskrifter 27 mai 2013 nr. 536 (i kraft 1 juni 2013), 21 aug 2013 nr. 1015 , 27 nov 2013 nr. 1370 , 4 nov 2014 nr. 1394 , 3 mai 2016 nr. 461 , 24 sep 2016 nr. 1143 , 4 feb 2017 nr. 130 , 25 juni 2018 nr. 1075 , 9 juli 2018 nr. 1168 , 6 mars 2019 nr. 199 , 1 okt 2020 nr. 2041 (i kraft 1 nov 2020), 4 mai 2021 nr. 1442 , 24 juni 2021 nr. 2194</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 , endret ved forskrifter 27 mai 2013 nr. 536 (i kraft 1 juni 2013), 21 aug 2013 nr. 1015 , 27 nov 2013 nr. 1370 , 4 nov 2014 nr. 1394 , 3 mai 2016 nr. 461 , 24 sep 2016 nr. 1143 , 4 feb 2017 nr. 130 , 25 juni 2018 nr. 1075 , 9 juli 2018 nr. 1168 , 6 mars 2019 nr. 199 , 1 okt 2020 nr. 2041 (i kraft 1 nov 2020), 4 mai 2021 nr. 1442 , 24 juni 2021 nr. 2194</p>
 <h4 id="2-31-produkter-som-inneholder-asbest-unntak-fra-forbudet-i-reach-forordningen-vedlegg-xvii-post-6">§ 2-31. Produkter som inneholder asbest – unntak fra forbudet i REACH-forordningen vedlegg XVII post 6</h4>
 <p>Forbudet mot å bringe i omsetning produkter som inneholder asbestfibre i REACH-forordningen vedlegg XVII post 6 nr. 1, jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften), gjelder ikke følgende produkter i sin helhet som var tatt i bruk før 1. januar 2005 forutsatt at asbestfibrene ikke kan bli frigjort til omgivelsene ved normal bruk:</p>
 <p>a. hus og andre bygninger,
@@ -331,21 +714,21 @@ b. kjøretøy som er godkjent etter den til enhver tid gjeldende forskrift 4. ok
 c. fartøy registrert i Luftfartøyregisteret etter lov 11. juni 1993 nr. 101 om luftfart,
 d. fartøy registrert i skipsregisteret etter lov 24. juni 1994 nr. 39 om sjøfarten eller Norsk internasjonalt skipsregister etter lov 12. juni 1987 nr. 48 om norsk internasjonalt skipsregister eller
 e. rullende materiell til bruk på jernbane, herunder sporvei, tunnelbane, forstadsbane og lignende sporbundet transportmiddel.</p>
-<p><em>Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="2-32-plikt-til-a-gi-opplysninger-om-stoffer-med-svrt-unskede-egenskaper-svhc-i-produkter-til-det-europeiske-kjemikaliebyraet-echa">§ 2-32. Plikt til å gi opplysninger om stoffer med svært uønskede egenskaper (SVHC) i produkter til Det europeiske kjemikaliebyrået (ECHA) <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-32.html" title="Endringshistorikk for § 2-32" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Enhver leverandør av et produkt som definert i REACH-forordningen artikkel 3 nr. 33 jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften) skal gi opplysninger om stoffer med svært uønskede egenskaper (SVHC) i produkter i henhold til REACH-forordningen artikkel 33 nr. 1 til Det europeiske kjemikaliebyrået (ECHA).</p>
 <p>Opplysningsplikten i første ledd gjelder ikke for leverandører som leverer produkter direkte til forbrukere med mindre leverandør også er importør eller produsent av produktet.</p>
 <p>Opplysningene som skal gis til ECHA i henhold til første ledd skal gis elektronisk i den formen som til enhver tid etterspørres i databasen opprettet av ECHA for dette formålet.</p>
-<p><em>Tilføyd ved forskrift 27 mai 2013 nr. 550 , endret ved forskrifter 27 mai 2014 nr. 696 , 25 sep 2015 nr. 1126 , opphevet ved forskrift 18 mars 2019 nr. 435 (i kraft 4 juli 2020), tilføyd ved forskrift 16 april 2021 nr. 1186 .</em></p>
+<p class="note">Tilføyd ved forskrift 27 mai 2013 nr. 550 , endret ved forskrifter 27 mai 2014 nr. 696 , 25 sep 2015 nr. 1126 , opphevet ved forskrift 18 mars 2019 nr. 435 (i kraft 4 juli 2020), tilføyd ved forskrift 16 april 2021 nr. 1186 .</p>
 <h4 id="2-33-n-nitrosaminer-og-n-nitrosamindannende-stoffer-i-narresmokker">§ 2-33. N-nitrosaminer og N-nitrosamindannende stoffer i narresmokker <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-33.html" title="Endringshistorikk for § 2-33" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å produsere, importere, omsette og bruke narresmokker som er framstilt av elastomere eller gummi dersom de deler av narresmokken som er framstilt av elastomere eller gummi, avgir mer enn 0,01 mg N-nitrosaminer/kg materiale eller 0,1 mg N-nitrosamindannende stoffer/kg materiale til en væske brukt i utlekkingstest (spyttestløsning) i tråd med vedlegg VIII til dette kapittelet.</p>
 <p>Tilsyn og analytisk kontroll med denne bestemmelsen skal utføres i samsvar med vedlegg VIII til dette kapittelet.</p>
-<p><em>Tilføyd ved forskrift 24 juni 2014 nr. 871 .</em></p>
+<p class="note">Tilføyd ved forskrift 24 juni 2014 nr. 871 .</p>
 <h4 id="2-34-overtredelsesgebyr">§ 2-34. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-2-34.html" title="Endringshistorikk for § 2-34" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet kan ved overtredelse av bestemmelser i dette kapitlet ilegge den ansvarlige for overtredelsen et overtredelsesgebyr.</p>
 <p>Første ledd gjelder ikke for overtredelser av § 2-4 , § 2-14 , § 2-18a og § 2-32 .</p>
 <p>For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b .</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h3 id="vedlegg-til-kapittel-2">Vedlegg til kapittel 2</h3>
 <h4 id="vedlegg-i-batterier-merking">Vedlegg I. Batterier – merking</h4>
 <p>Symbol med overkrysset avfallsbeholder:</p>
@@ -445,7 +828,7 @@ h. solcellepaneler beregnet på bruk i et anlegg som konstrueres, monteres og in
 i. utstyr som er særskilt konstruert for forsknings- og utviklingsformål og som bare gjøres tilgjengelig for yrkesmessig bruk,
 j. utstyr som er særskilt konstruert for, og som skal installeres som en del av en annen type utstyr som er unntatt fra eller ikke omfattes av denne forskriftens virkeområde, som bare kan oppfylle sin funksjon dersom det er en del av det nevnte utstyret, og bare kan erstattes av utstyr som er særskilt konstruert på samme måte,
 k. pipeorgler.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 12 juni 2018 nr. 848 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 12 juni 2018 nr. 848 .</p>
 <h4 id="2a-2-definisjoner">§ 2a-2. Definisjoner</h4>
 <p>Med EE-produkter i kapittel 2a menes</p>
 <p>a. elektrisk og elektronisk utstyr som er avhengig av elektrisk kraft eller elektromagnetiske felt for å fungere tilfredsstillende
@@ -459,7 +842,7 @@ b. utstyr for generering, overføring og måling av slik kraft og slike felt som
 <p>Med eksport menes eksport fra Norge til land utenfor EØS-området.</p>
 <p>Med omsetning menes enhver levering av et EE-produkt for distribusjon, forbruk eller bruk på EØS-markedet i forbindelse med kommersiell virksomhet, med eller uten vederlag.</p>
 <p>Med homogent materiale menes et tvers igjennom ensartet materiale eller et materiale bestående av en kombinasjon av materialer, som ikke kan skilles eller deles opp i ulike materialer ved mekaniske handlinger, som f.eks. skruing, skjæring, knusing, maling og sliping.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 25 juni 2019 nr. 918 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 25 juni 2019 nr. 918 .</p>
 <h4 id="2a-3-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-3. Forbud mot visse stoffer i EE-produkter</h4>
 <p>Det er forbudt å bringe i omsetning og eksportere EE-produkter der innholdet av bly, kvikksølv, seksverdig krom, polybromerte bifenyler (PBB), polybromerte difenyletere (PBDE) di-(2etylheksyl)ftalat (DEHP), benzylbutylftalat (BBP), dibutylftalat (DBP) eller diisobutylftalat (DIBP) i homogene materialer er over 0,1 vektprosent, eller der innholdet av kadmium i homogene materialer er over 0,01 vektprosent. Eksportforbudet gjelder ikke for EE-produkter som er bragt lovlig i omsetning.</p>
 <p>Forbudet i første ledd mot innhold av bly, kvikksølv, seksverdig krom, polybromerte bifenyler (PBB), polybromerte difenyletere (PBDE) og kadmium gjelder for EE-produkter i</p>
@@ -471,7 +854,7 @@ d. produktkategori 11: fra 22. juli 2019.</p>
 <p>a. produktkategori 1–7 og 10–11: fra 22. juli 2019
 b. produktkategori 8 og 9: fra 22. juli 2021.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE-produkter som distributøren vet eller burde vite at er brakt i omsetning i strid med første ledd. Importøren og distributøren skal underrette alle tidligere salgsledd og Miljødirektoratet dersom de mener eller har grunn til å tro at et EE-produkt ikke er i samsvar med kravet i første ledd.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 12 juni 2018 nr. 848 , 4 des 2018 nr. 1795 , 25 juni 2019 nr. 918 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 12 juni 2018 nr. 848 , 4 des 2018 nr. 1795 , 25 juni 2019 nr. 918 .</p>
 <h4 id="2a-4-unntak-fra-forbud-mot-visse-stoffer-i-ee-produkter">§ 2a-4. Unntak fra forbud mot visse stoffer i EE-produkter</h4>
 <p>Forbudet i § 2a-3 første ledd gjelder ikke for produkter som er omfattet av de tidsbegrensede unntakene listet i vedlegg 1 og 2.</p>
 <p>Unntak hvor fristen er utløpt og som det er søkt om fornyelse for, er gyldige inntil ny søknad er vurdert. Dersom søknaden om fornyelse av et unntak avslås, eller unntaket tilbakekalles, skal unntaket slutte å gjelde tidligst 12 og senest 18 måneder etter tidspunktet da søknaden ble avslått.</p>
@@ -493,7 +876,7 @@ g. alle andre EE-produkter som var utenfor virkeområdet til direktiv 2002/95/EF
 <p>a. produktkategori 1–7 og 10–11: brakt i omsetning før 22. juli 2019
 b. produktkategori 8 og 9: brakt i omsetning før 22. juli 2021.</p>
 <p>Forbudet i § 2a-3 første ledd mot EE-produkter som inneholder DEHP, BBP og DBP gjelder ikke leketøy som reguleres av REACH-forordningen (forordning (EF) nr. 1907/2006 ) vedlegg XVII post 51.</p>
-<p><em>Tilføyd ved forskrift 4 des 2018 nr. 1795 .</em></p>
+<p class="note">Tilføyd ved forskrift 4 des 2018 nr. 1795 .</p>
 <h4 id="2a-5-produksjonskontroll-og-teknisk-dokumentasjon">§ 2a-5. Produksjonskontroll og teknisk dokumentasjon</h4>
 <p>Produsenten skal utføre eller få utført produksjonskontroll og utarbeide teknisk dokumentasjon i samsvar med vedlegg 5 og skal oppbevare denne dokumentasjonen i ti år etter at EE-produktene er brakt i omsetning. Produsenten skal sørge for at nødvendig dokumentasjon følger produktet.</p>
 <p>Importøren skal sikre at den tekniske dokumentasjonen på anmodning fra Miljødirektoratet kan gjøres tilgjengelig for myndigheten i ti år etter at EE-produktene er brakt i omsetning.</p>
@@ -501,25 +884,25 @@ b. produktkategori 8 og 9: brakt i omsetning før 22. juli 2021.</p>
 <p>Det er forbudt å bringe i omsetning EE-produkter som det ikke er utarbeidet teknisk dokumentasjon for og som ikke ledsages av nødvendig dokumentasjon.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE-produkter dersom distributøren vet eller burde vite at det ikke er utarbeidet teknisk dokumentasjon for disse produktene.</p>
 <p>Med nødvendig dokumentasjon i denne bestemmelsen menes dokumenter som inneholder CE-merket, navn og adresse eller type-, parti- eller serienummer, jf. § 2a-6 , § 2a-7 og § 2a-8 , dersom det ikke er mulig å påføre denne merkingen på produktet.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-4).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-4).</p>
 <h4 id="2a-6-samsvarserklring">§ 2a-6. Samsvarserklæring</h4>
 <p>Produsenten skal utarbeide en samsvarserklæring. Denne erklæringen skal fastslå at produktet overholder kravene i § 2a-3 og være på norsk eller engelsk. Samsvarserklæringen skal utformes i samsvar med vedlegg 4 og oppdateres ved endringer i regelverket eller produktet. Produsenten skal oppbevare samsvarserklæringen i ti år etter at EE-produktet er brakt i omsetning.</p>
 <p>Importøren skal oppbevare en kopi av samsvarserklæringen i ti år etter at EE-produktet er brakt i omsetning og stille den til rådighet for Miljødirektoratet.</p>
 <p>Det er forbudt å bringe i omsetning EE-produkter som det ikke er utarbeidet samsvarserklæring for i samsvar med først ledd.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE-produkter dersom distributøren vet eller burde vite at det ikke er utarbeidet samsvarserklæring for disse produktene.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-5).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-5).</p>
 <h4 id="2a-7-ce-merking">§ 2a-7. CE-merking</h4>
 <p>Produsenten skal påføre CE-merket. CE-merket skal påføres selve EE-produktet slik at det er synlig, lett leselig og ikke kan fjernes. Dersom det ikke er mulig å påføre CE-merket på EE-produktet, kan merket påføres emballasjen og i dokumenter som følger med produktet.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE produkter som ikke er påført CE-merket i samsvar med første ledd.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-6).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-6).</p>
 <h4 id="2a-8-navn-og-adresse">§ 2a-8. Navn og adresse</h4>
 <p>Produsenten og importøren skal påføre eget navn, firma eller registrert varemerke og kontaktadresse på EE-produktet. Dersom påføring direkte på produktet ikke er mulig, kan disse opplysningene i stedet gis på emballasjen eller i dokumenter som følger produktet. Adressen skal angi ett enkelt sted der produsenten kan kontaktes.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE-produkter som ikke er påført produsentens navn, firma eller registrert varemerke og kontaktadresse i samsvar med første ledd. Det er forbudt å gjøre tilgjengelig på markedet EE-produkter som ikke er påført importørens navn, firma eller registrert varemerke og kontaktadresse i samsvar med første ledd.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-7).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-7).</p>
 <h4 id="2a-9-type-og-serienummer">§ 2a-9. Type- og serienummer</h4>
 <p>Produsenten skal påføre EE-produktet type-, parti- eller serienummer eller et annet element som gjør det mulig å identifisere det. Dersom EE-produktets størrelse eller art ikke tillater påføring av et slikt element, kan de nødvendige opplysningene gis på emballasjen eller i dokumenter som følger med produktet.</p>
 <p>Det er forbudt å gjøre tilgjengelig på markedet EE-produkter som ikke er påført type-, parti- eller serienummer eller annet element som gjør det mulig å identifisere det i samsvar med første ledd.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-8).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-8).</p>
 <h4 id="2a-10-merking-med-avkrysset-avfallsbeholder-og-informasjon-for-a-fremme-miljmessig-forsvarlig-avfallsbehandling-mv">§ 2a-10. Merking med avkrysset avfallsbeholder og informasjon for å fremme miljømessig forsvarlig avfallsbehandling mv.</h4>
 <p>EE-produkter skal merkes med et piktogram som består av en overkrysset avfallsbeholder på hjul, som vist her:</p>
 <p>Streken under avfallsbeholderen betyr at produktet ble brakt i omsetning etter 13. august 2005. Streken kan erstattes av datomerking. Datomerkingen skal enten være åååå.mm.dd eller datokode. En eventuell datokode må gjøres tilgjengelig for behandlingsanleggene for EE-avfall.</p>
@@ -531,32 +914,32 @@ b. innhold av farlige stoffer og stoffblandinger og hvor disse er plassert i pro
 c. behandling av produktet som avfall, inkludert hvordan produktet kan forberedes til ombruk.</p>
 <p>Opplysningene skal gis for hver enkelt type nytt EE-produkt som er brakt i omsetning.</p>
 <p>Formålet med opplysningene er å legge til rette for vedlikehold, oppgradering og renovering av EE-produkter, samt miljømessig forsvarlig behandling av kasserte EE-produkter i henhold til forskrift 1. juni 2004 nr. 930 om gjenvinning og behandling av avfall ( avfallsforskriften) kapittel 1 om kasserte elektriske og elektroniske produkter. Opplysningene skal gjøres tilgjengelig for behandlingsanlegg innen ett år etter at produktet er brakt i omsetning. Opplysningene skal gis i form av manualer eller elektroniske medier (f.eks. cd-rom eller online-tjenester) og ha det omfang som er nødvendig for en miljømessig forsvarlig behandling av produktet når det ender som avfall.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-9).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-9).</p>
 <h4 id="2a-11-serieproduksjon">§ 2a-11. Serieproduksjon</h4>
 <p>Produsenten skal ha prosedyrer for å sikre at alle produkter i en serieproduksjon er i samsvar med § 2a-3 . Det skal tas hensyn til endringer i produktets konstruksjon eller egenskaper, samt endringer i de harmoniserte standarder eller de tekniske spesifikasjoner det er vist til i samsvarserklæringen.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 4 des 2018 nr. 1795 (tidligere § 2a-10).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 4 des 2018 nr. 1795 (tidligere § 2a-10).</p>
 <h4 id="2a-12-register">§ 2a-12. Register</h4>
 <p>Produsent og importør skal føre register over EE-produkter som ikke er i samsvar med regelverket og over tilbakekalte produkter, og holde distributørene løpende underrettet. Importøren skal før EE-produkter bringes i omsetning sikre at produsenten har ført slikt register.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-11).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-11).</p>
 <h4 id="2a-13-representant">§ 2a-13. Representant</h4>
 <p>Produsenten kan utpeke en representant gjennom skriftlig fullmakt. Representanten er ansvarlig for de oppgaver som er angitt i fullmakten og fullmakten skal som minimum omfatte plikt for representanten til å holde samsvarserklæringen og den tekniske dokumentasjonen tilgjengelig for Miljødirektoratet i ti år etter at EE-produktet er brakt i omsetning.</p>
 <p>Representanten kan ikke overta produsentens plikt til å sikre at EE-produktet er i samsvar med kravene i § 2a-3 og til å utarbeide teknisk dokumentasjon.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-12).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-12).</p>
 <h4 id="2a-14-tilfeller-der-produsentens-forpliktelser-gjelder-for-importrer-og-distributrer">§ 2a-14. Tilfeller der produsentens forpliktelser gjelder for importører og distributører</h4>
 <p>Importør eller distributør anses som produsent og skal oppfylle produsentens forpliktelser i kapittel 2a når vedkommende importør eller distributør bringer i omsetning EE-produkter under eget navn eller varemerke, eller endrer produkter som allerede er brakt i omsetning på en måte som kan påvirket produktenes samsvar med forbudet i § 2a-3 .</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-13).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-13).</p>
 <h4 id="2a-15-identifikasjon-av-markedsdeltakere">§ 2a-15. Identifikasjon av markedsdeltakere</h4>
 <p>Både produsent, produsentens representant, importør og distributør av EE-produkter skal på anmodning fra Miljødirektoratet, i en periode på ti år etter at EE-produktet er brakt i omsetning, identifisere:</p>
 <p>a. alle markedsdeltakere som har levert EE-produkt til dem, og
 b. alle markedsdeltakere som de har levert EE-produkt til.</p>
 <p>Med markedsdeltakere i denne bestemmelsen menes produsent, produsentens representant, importør og distributør.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-14).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrifter 11 juli 2015 nr. 893 , 16 jan 2017 nr. 39 , 4 des 2018 nr. 1795 (tidligere § 2a-14).</p>
 <h4 id="2a-16-sknad-om-unntak">§ 2a-16. Søknad om unntak</h4>
 <p>Produsent eller dennes representant, importør eller distributør kan søke EU-kommisjonen om unntak fra forbudet i § 2a-3 . Krav til søknad og vilkår for å få unntak følger av vedlegg 3.</p>
-<p><em>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 4 des 2018 nr. 1795 (tidligere § 2a-15).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013), endret ved forskrift 4 des 2018 nr. 1795 (tidligere § 2a-15).</p>
 <h4 id="2a-17-overtredelsesgebyr">§ 2a-17. Overtredelsesgebyr</h4>
 <p>Miljødirektoratet kan ved overtredelse av bestemmelser i dette kapitlet ilegge den ansvarlige for overtredelsen et overtredelsesgebyr. For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b .</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h3 id="vedlegg-til-kapittel-2a">Vedlegg til kapittel 2a</h3>
 <p>Tilføyd ved forskrift 26 juni 2013 nr. 811 (i kraft 1 juli 2013).</p>
 <h4 id="vedlegg-1bruksomrader-som-er-unntatt-fra-forbudet-i-2a-3">Vedlegg 1Bruksområder som er unntatt fra forbudet i § 2a-3</h4>
@@ -588,13 +971,13 @@ b. alle markedsdeltakere som de har levert EE-produkt til.</p>
 <p>Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</p>
 <h4 id="2b-1-formal">§ 2b-1. Formål</h4>
 <p>Formålet med dette kapitlet er å forebygge og redusere miljøpåvirkningen fra enkelte plastprodukter, herunder redusere og forebygge marin forsøpling og spredning av mikroplast.</p>
-<p><em>Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</p>
 <h4 id="2b-2-definisjoner">§ 2b-2. Definisjoner</h4>
 <p>Med bringe i omsetning menes å gjøre et produkt tilgjengelig på det norske markedet for første gang.</p>
 <p>Med gjøre et produkt tilgjengelig på det norske markedet menes enhver levering av et produkt for distribusjon, forbruk eller bruk på det norske markedet i forbindelse med kommersiell virksomhet, mot betaling eller gratis.</p>
 <p>Med plast menes et materiale som består av en polymer som definert i artikkel 3 nr. 5) i REACH-forordningen jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften) , som kan være tilsatt tilsetningsstoffer eller andre stoffer, og som kan fungere som en strukturell hovedbestanddel i sluttprodukter. Naturlige polymerer som ikke er kjemisk modifisert er ikke omfattet av definisjonen.</p>
 <p>Med okso-nedbrytbar plast menes plastmaterialer som inneholder tilsetningsstoffer som, ved oksidasjon, fører til fragmentering av plastmaterialet til mikrofragmenter eller til kjemisk nedbrytning.</p>
-<p><em>Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021), endret ved forskrift 28 juni 2021 nr. 2278 (i kraft 3 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021), endret ved forskrift 28 juni 2021 nr. 2278 (i kraft 3 juli 2021).</p>
 <h4 id="2b-3-forbud-mot-enkelte-engangsprodukter-av-plast">§ 2b-3. Forbud mot enkelte engangsprodukter av plast</h4>
 <p>Det er forbudt å bringe i omsetning følgende produkter dersom de er laget helt eller delvis av plast og er beregnet for engangsbruk:</p>
 <p>a. Bomullspinner
@@ -608,10 +991,10 @@ h. Drikkevareemballasje av ekspandert polystyren (EPS) og korker og lokk til dis
 i. Drikkebegre av ekspandert polystyren (EPS) og lokk til disse.</p>
 <p>Forbudene i første ledd bokstav a og d gjelder ikke for bomullspinner og sugerør til bruk som medisinsk utstyr.</p>
 <p>Forbudet i første ledd bokstav f gjelder ikke for ballongpinner og festemekanismer til ballonger til industriell eller annen ervervsmessig bruk, som ikke distribueres til forbrukere.</p>
-<p><em>Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</p>
 <h4 id="2b-4-forbud-mot-produkter-av-okso-nedbrytbar-plast">§ 2b-4. Forbud mot produkter av okso-nedbrytbar plast</h4>
 <p>Det er forbudt å bringe i omsetning produkter laget av okso-nedbrytbar plast.</p>
-<p><em>Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2020 nr. 3200 (i kraft 3 juli 2021).</p>
 <h4 id="2b-5-krav-til-merking-av-enkelte-engangsprodukter-av-plast">§ 2b-5. Krav til merking av enkelte engangsprodukter av plast.</h4>
 <p>Den som bringer i omsetning følgende produkter, skal sørge for at produktene er merket i henhold til merkekravene som fremgår i denne bestemmelsens andre ledd dersom de er laget helt eller delvis av plast og er beregnet for engangsbruk:</p>
 <p>a. Sanitetsbind, tamponger og innføringshylstre for tamponger
@@ -619,7 +1002,7 @@ b. Våtservietter til personlig pleie og husholdningsbruk
 c. Tobakksprodukter med filtre og filtre som markedsføres for bruk sammen med tobakksprodukter
 d. Drikkebegre.</p>
 <p>Forordning (EU) 2020/2151 om harmoniserte merkekrav for engangsprodukter i plast, som inntatt i EØS-avtalen vedlegg II kapittel XVII nr. 9dd, gjelder som forskrift. Forordningen gjelder med tilpasningene som følger av vedlegg II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 28 juni 2021 nr. 2278 (i kraft 1 okt 2021), endret ved forskrift 31 mars 2025 nr. 574 .</em></p>
+<p class="note">Tilføyd ved forskrift 28 juni 2021 nr. 2278 (i kraft 1 okt 2021), endret ved forskrift 31 mars 2025 nr. 574 .</p>
 <h4 id="2b-6-krav-om-at-korker-og-lokk-skal-sitte-fast">§ 2b-6. Krav om at korker og lokk skal sitte fast</h4>
 <p>En drikkevarebeholder til engangsbruk som er laget helt eller delvis av plast som rommer opp til tre liter væske og har kork eller lokk av plast, kan bare bringes i omsetning hvis korken eller lokket sitter fast i beholderen i hele perioden produktet er ment å brukes. Korkene og lokkenes feste må oppfylle Den europeiske standardiseringsorganisasjonens harmoniserte standarder for testmetoder og krav for å vise at korker og lokk blir sittende fast på drikkevarebeholdere (EN 17665:2022+A1:2023).</p>
 <p>Første ledd gjelder ikke for:</p>
@@ -627,7 +1010,7 @@ d. Drikkebegre.</p>
 b. drikkevarebeholdere som er ment for og blir brukt til flytende næringsmidler til spesielle medisinske formål, som er definert i artikkel 2 bokstav g) i forordning (EU) nr. 609/2013 , jf. forskrift 10. januar 2014 nr. 21 om næringsmidler til særskilte grupper § 1 .</p>
 <p>Korker og lokk av metall med plastforsegling skal ikke anses for å være framstilt av plast.</p>
 <p>Den som bringer i omsetning drikkevarebeholdere omfattet av denne bestemmelsen, skal kunne dokumentere skriftlig at den europeiske standarden nevnt i første ledd er oppfylt.</p>
-<p><em>Tilføyd ved forskrift 20 des 2024 nr. 3499 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2024 nr. 3499 .</p>
 <h4 id="2b-7-krav-til-andel-materialgjenvunnet-plast-i-drikkeflasker-av-plast-til-engangsbruk">§ 2b-7. Krav til andel materialgjenvunnet plast i drikkeflasker av plast til engangsbruk</h4>
 <p>Fra 1. januar 2025 skal den som bringer i omsetning drikkeflasker av plast til engangsbruk som rommer opp til tre liter væske og er framstilt fra polyetylentereftalat (PET) som hovedkomponent, sørge for at flaskene inneholder minst 25 % materialgjenvunnet plast. Dette kravet gjelder likevel ikke for den som bringer i omsetning mindre enn 1000 kg slike flasker i løpet av kalenderåret, beregnet på grunnlag av flaskenes samlede vekt uten drikke.</p>
 <p>Fra 1. januar 2030 skal den som bringer i omsetning drikkeflasker av plast til engangsbruk som rommer opp til tre liter væske, sørge for at flaskene inneholder minst 30 % materialgjenvunnet plast.</p>
@@ -637,16 +1020,16 @@ b. drikkevarebeholdere som er ment for og blir brukt til flytende næringsmidler
 <p>a. drikkeflasker av glass eller metall med korker eller lokk av plast,
 b. drikkeflasker som er ment for og blir brukt til flytende næringsmidler til spesielle medisinske formål som er definert i artikkel 2 bokstav g) i forordning (EU) nr. 609/2013 , jf. forskrift 10. januar 2014 nr. 21 om næringsmidler til særskilte grupper § 1 .</p>
 <p>Den som skal oppfylle krav etter første til fjerde ledd, må utarbeide en årlig rapport på oppfyllelse av kravene til sitt godkjente retursystem for drikkevareemballasje, jf. avfallsforskriften kapittel 6 , eller returselskap for emballasje, jf. avfallsforskriften kapittel 7 .</p>
-<p><em>Tilføyd ved forskrift 20 des 2024 nr. 3499 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2024 nr. 3499 .</p>
 <h4 id="2b-8-overtredelsesgebyr">§ 2b-8. Overtredelsesgebyr</h4>
 <p>Miljødirektoratet kan ved overtredelse av § 2b-3 , § 2b-4 , § 2b-5 første ledd , § 2b-6 eller § 2b-7 ilegge den ansvarlige for overtredelsen et overtredelsesgebyr.</p>
 <p>For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b.</p>
-<p><em>Tilføyd ved forskrift 20 des 2024 nr. 3499 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2024 nr. 3499 .</p>
 <h2 id="kapittel-3-omsetningskrav-for-biodrivstoff-og-brekraftskriterier-for-biodrivstoff-og-flytende-biobrensel">Kapittel 3. Omsetningskrav for biodrivstoff og bærekraftskriterier for biodrivstoff og flytende biobrensel</h2>
 <p>Kapitlet opphevet ved forskrift 17 nov 2011 nr. 1113 , tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrift 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="3-1-formal">§ 3-1. Formål <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med kapittelet er å fremme omsetning av biodrivstoff og å fremme bærekraft for biodrivstoff og flytende biobrensler.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 30 april 2019 nr. 555 (i kraft 1 jan 2020), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 30 april 2019 nr. 555 (i kraft 1 jan 2020), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="3-2-definisjoner">§ 3-2. Definisjoner <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I dette kapittelet menes med</p>
 <p>a. biomasse: den biologisk nedbrytbare delen av produkter, avfall og rester av biologisk opprinnelse fra jordbruk, skogbruk, fiske, akvakultur og tilhørende næringer, samt den biologisk nedbrytbare delen av industriavfall og kommunalt avfall, likevel ikke avfall av fossilt opphav.
@@ -669,7 +1052,7 @@ q. akvakulturanlegg: anlegg eller installasjon i sjø, som har tilknytning til o
 r. spesialskip til oppdrag på kontinentalsokkelen: som definert i særavgiftsforskriften § 4-4-3 (4).
 s. offentlige fartøy som ikke er i næring: fartøy som brukes i offentlig virksomhet, herunder militære fartøy.
 t. videreforhandler: den som videreselger drivstoff eller brensel fra omsetter og som håndterer drivstoffet eller brenselet fysisk.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 21 nov 2018 nr. 1731 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 21 nov 2018 nr. 1731 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-3-krav-til-omsetning-av-biodrivstoff-til-veitrafikk">§ 3-3. Krav til omsetning av biodrivstoff til veitrafikk <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetter av flytende drivstoff til veitrafikk skal sørge for at minst 20 volumprosent av total omsatt mengde flytende drivstoff per år består av biodrivstoff. Biogass skal holdes utenfor kravet.</p>
 <p>Ved oppfyllelsen av omsetningskravet i første ledd skal:</p>
@@ -680,10 +1063,10 @@ c. omsetning av avansert biodrivstoff eller biodrivstoff fremstilt av råstoff p
 <p>• Omsetningskravet i første ledd er 21 volumprosent.
 • Delkravet i andre ledd bokstav a er minst 14,5 volumprosent.
 • Delkravet i andre ledd bokstav b er minst 2 volumprosent.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 26 juni 2015 nr. 809 (i kraft 1 okt 2015), 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 8 sep 2017 nr. 1372 (i kraft 1 okt 2017), 21 nov 2018 nr. 1731 (se denne for overgangsbestemmelser), 17 juni 2020 nr. 1221 (i kraft 1 juli 2020), 24 sep 2020 nr. 1944 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 20 des 2023 nr. 2305 (i kraft 1 jan 2024), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 26 juni 2015 nr. 809 (i kraft 1 okt 2015), 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 8 sep 2017 nr. 1372 (i kraft 1 okt 2017), 21 nov 2018 nr. 1731 (se denne for overgangsbestemmelser), 17 juni 2020 nr. 1221 (i kraft 1 juli 2020), 24 sep 2020 nr. 1944 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 20 des 2023 nr. 2305 (i kraft 1 jan 2024), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-3a-krav-til-omsetning-av-biodrivstoff-til-luftfart">§ 3-3a. Krav til omsetning av biodrivstoff til luftfart <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3a.html" title="Endringshistorikk for § 3-3a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetter av flytende drivstoff til luftfart skal sørge for at minst 2 volumprosent av totalt omsatt mengde flytende drivstoff per år består av avansert biodrivstoff eller biodrivstoff fremstilt av råstoff på listen i vedlegg V, del B. Drivstoff som omsettes til flygninger utført av militært luftfartøy omfattes ikke av kravet.</p>
-<p><em>Tilføyd ved forskrift 30 april 2019 nr. 555 (i kraft 1 jan 2020), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023, tidligere § 3-4a), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 30 april 2019 nr. 555 (i kraft 1 jan 2020), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023, tidligere § 3-4a), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-3b-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-sjfart">§ 3-3b. Krav til omsetning av biodrivstoff og biobrensel til sjøfart <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3b.html" title="Endringshistorikk for § 3-3b" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetter av flytende drivstoff og flytende brensler til fartøy og akvakulturanlegg skal sørge for at minst 7 volumprosent av total omsatt mengde flytende drivstoff og flytende brensler per år består av avansert biodrivstoff og avansert flytende biobrensel eller biodrivstoff og flytende biobrensel fremstilt av råstoff på listen i vedlegg V, del B. Biogass skal holdes utenfor kravet.</p>
 <p>Ved oppfyllelsen av omsetningskravet i første ledd skal minst 1 volumprosent bestå av avansert biodrivstoff.</p>
@@ -691,7 +1074,7 @@ c. omsetning av avansert biodrivstoff eller biodrivstoff fremstilt av råstoff p
 <p>• Omsetningskravet i første ledd er 8 volumprosent.
 • Delkravet i andre ledd er minst 2 volumprosent.</p>
 <p>Kravene i første og andre ledd gjelder ikke flytende drivstoff og flytende brensler som går til fartøy i utenriks fart, som definert i særavgiftsforskriften § 4-4-1 (3) .</p>
-<p><em>Tilføyd ved forskrift 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), endret ved forskrifter 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), endret ved forskrifter 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-3c-krav-til-omsetning-av-biodrivstoff-og-biobrensel-til-andre-formal">§ 3-3c. Krav til omsetning av biodrivstoff og biobrensel til andre formål <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3c.html" title="Endringshistorikk for § 3-3c" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetter av flytende drivstoff og flytende brensler skal, ved omsetning til andre formål enn veitrafikk, luftfart og sjøfart sørge for at minst 11 volumprosent av totalt omsatt mengde flytende drivstoff og flytende brensler til disse formålene per år består av avansert biodrivstoff og avansert flytende biobrensel eller biodrivstoff og flytende biobrensel fremstilt av råstoff på listen i vedlegg V, del B. Biogass skal holdes utenfor kravet.</p>
 <p>Ved oppfyllelsen av omsetningskravet i første ledd skal minst 1 volumprosent bestå av avansert biodrivstoff.</p>
@@ -703,31 +1086,31 @@ c. omsetning av avansert biodrivstoff eller biodrivstoff fremstilt av råstoff p
 <p>a. Bensin
 b. Tungdestillat (gassolje med tåkepunkt over 5 °C)
 c. Tungolje (mineralolje som inneholder destillasjonsrest).</p>
-<p><em>Tilføyd ved forskrift 20 des 2022 nr. 2356 (i kraft 1 jan 2023), endret ved forskrifter 25 sep 2023 nr. 1516 (i kraft 1 okt 2023, tidligere § 3-3b), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 20 des 2022 nr. 2356 (i kraft 1 jan 2023), endret ved forskrifter 25 sep 2023 nr. 1516 (i kraft 1 okt 2023, tidligere § 3-3b), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-3d-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart">§ 3-3d. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3d.html" title="Endringshistorikk for § 3-3d" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved omsetning av flytende drivstoff eller flytende brensler til sjøfart skal omsetteren innhente en erklæring om, eller sikre annen egnet dokumentasjon på, at produktene er til bruk som nevnt i § 3-3b . En erklæring skal gis av den som om bord er ansvarlig for bunkringen, av rederiet eller av videreforhandler av drivstoffet, og skal oppbevares i minst tre år.</p>
 <p>Ved omsetning av flytende drivstoff eller flytende brensler til fartøy skal omsetter sikre dokumentasjon som inneholder opplysninger om fartøyets navn, nasjonalitet, bestemmelsessted, mengde drivstoff og bunkringsdato. Dokumentasjonen skal oppbevares i tre år og være tilgjengelig for Miljødirektoratet på forespørsel. Ved omsetning av drivstoff til fartøy i utenriks fart skal første utenlandske havn oppgis i tillegg.</p>
 <p>Ved omsetning av flytende drivstoff eller flytende brensler til akvakulturanlegg skal omsetter sikre dokumentasjon som inneholder opplysninger om anleggets navn eller annen identifikasjon, lokasjon, mengde drivstoff og bunkringsdato. Dokumentasjonen skal oppbevares i tre år og være tilgjengelig for Miljødirektoratet på forespørsel.</p>
 <p>Ved omsetning av flytende drivstoff eller flytende brensler til spesialskip til oppdrag på kontinentalsokkelen skal omsetter sikre dokumentasjon som inneholder opplysninger om fartøyet, og følgende opplysninger om den innretningen på kontinentalsokkelen skipet leverer drivstoff til: feltet og innretningens navn og lokasjon, mengde drivstoff levert og bunkringsdato. Dokumentasjonen skal oppbevares i tre år og være tilgjengelig for Miljødirektoratet på forespørsel.</p>
 <p>Ved salg via videreforhandler gjelder § 3-3e . Omsettere og videreforhandlere som selger drivstoff eller brensel via én eller flere videreforhandlere skal, på forespørsel fra Miljødirektoratet, oppgi hvilke videreforhandlere de har solgt til det foregående året.</p>
-<p><em>Tilføyd ved forskrift 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), endret ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), endret ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-3e-krav-til-dokumentasjon-pa-omsetning-av-flytende-drivstoff-og-flytende-brensler-til-sjfart-ved-salg-via-videreforhandlere">§ 3-3e. Krav til dokumentasjon på omsetning av flytende drivstoff og flytende brensler til sjøfart ved salg via videreforhandlere <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-3e.html" title="Endringshistorikk for § 3-3e" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved salg via én eller flere videreforhandlere, skal videreforhandleren som selger til sluttbruk innhente og oppbevare dokumentasjon som nevnt i § 3-3d andre til fjerde ledd. Dokumentasjonen skal oppbevares i tre år.</p>
 <p>Videreforhandleren som selger til sluttbruk skal gi omsetter erklæring som nevnt i § 3-3d første ledd , enten direkte eller via øvrige videreforhandlere. Alle videreforhandlere er ansvarlige for å gi videre riktige og fullstendige opplysninger, og for å legge frem dokumentasjon for Miljødirektoratet på forespørsel.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-4-samlet-oppfyllelse-og-fleksibilitet-mellom-omsetningskrav">§ 3-4. Samlet oppfyllelse og fleksibilitet mellom omsetningskrav <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetningskravene i § 3-3 , § 3-3a , § 3-3b og § 3-3c kan oppfylles i samarbeid med andre omsettere innenfor samme omsetningskrav ved at omsettere som omsetter mer biodrivstoff eller biobrensel enn de er forpliktet til kan overføre overskytende volumer til andre omsettere.</p>
 <p>Ved omsetning av biodrivstoff utover omsetningskravet i § 3-3 kan overskytende volum avansert biodrivstoff og avansert flytende biobrensel og biodrivstoff og flytende biobrensel fremstilt av råstoff på listen i vedlegg V, del B, medregnes i oppfyllelsen av omsetningskravet i § 3-3c , og motsatt. Dette kan gjøres av den enkelte omsetter selv eller i samarbeid med andre omsettere.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 8 sep 2017 nr. 1372 (i kraft 1 okt 2017), 21 nov 2018 nr. 1731 (se denne for overgangsbestemmelse), 17 juni 2020 nr. 1221 (i kraft 1 juli 2020), 24 sep 2020 nr. 1944 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 8 sep 2017 nr. 1372 (i kraft 1 okt 2017), 21 nov 2018 nr. 1731 (se denne for overgangsbestemmelse), 17 juni 2020 nr. 1221 (i kraft 1 juli 2020), 24 sep 2020 nr. 1944 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 25 sep 2023 nr. 1516 (i kraft 1 okt 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-5-krav-til-oppfyllelse-av-brekraftskriterier">§ 3-5. Krav til oppfyllelse av bærekraftskriterier <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Biodrivstoff og flytende biobrensel som</p>
 <p>a. regnes med i oppfyllelsen av forpliktelser om fornybar energi, herunder §§ 3-3 til 3-4 i denne forskrift, eller
 b. er omfattet av økonomiske støtteordninger skal, uavhengig av råstoffets opprinnelsesland, oppfylle bærekraftskriteriene i § 3-6 til § 3-9 .</p>
 <p>Biodrivstoff og flytende biobrensel produsert av avfall og rester, med unntak av rester fra jordbruk, akvakultur, fiskeri og skogbruk, skal bare oppfylle kravet til reduksjon av klimagassutslipp i § 3-6 .</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-6-krav-til-reduksjon-av-klimagassutslipp">§ 3-6. Krav til reduksjon av klimagassutslipp <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Bruk av biodrivstoff og flytende biobrensel som er omfattet av § 3-5 skal medføre en reduksjon i utslipp av klimagasser på minst 35 % i forhold til standardverdier for fossilt drivstoff og brensel, jf. vedlegg II, del C, punkt 19. Fra 1. januar 2018 skal utslippsreduksjonen være minst 50 %. Biodrivstoff og flytende biobrensel som er omfattet av § 3-5 og som er produsert på anlegg med produksjonsoppstart 5. oktober 2015 eller senere skal ha en klimagassreduksjon på minst 60 % fra 1. januar 2017. Reduksjon i klimagasser skal beregnes etter metode som beskrevet i vedlegg I, II og IV.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 27 okt 2016 nr. 1255 (i kraft 1 jan 2017), 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="3-7-arealkriterier-for-biodiversitet">§ 3-7. Arealkriterier for biodiversitet <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Biodrivstoff og flytende biobrensel som er omfattet av § 3-5 skal ikke være fremstilt av råstoff fra arealer som etter 1. januar 2008 hadde en av følgende statuser, uansett om arealet fortsatt har slik status eller ikke:</p>
 <p>a. skog og annet tresatt areal med hjemmehørende arter der det ikke er noen synlige tegn på menneskelig aktivitet, og de økologiske prosessene ikke er betydelig forstyrret,
@@ -738,17 +1121,17 @@ c. gressmark med stort biologisk mangfold som er
   i. naturlige, det vil si gressmark som i fravær av inngrep fra mennesker fortsatt vil være gressmark og som opprettholder naturlig artssammensetning og økologiske særtrekk og prosesser, eller
   ii. ikke-naturlige, det vil si gressmark som i fravær av inngrep fra mennesker vil opphøre å være gressmark og som er artsrik og ikke forringet, med mindre det kan dokumenteres at innhøsting av råstoffet er nødvendig for å opprettholde arealets status som gressmark.</p>
 <p>Ved anvendelsen av første ledd bokstav c skal EØS-avtalens vedlegg II kapittel XVII nr. 6d (forordning (EU) nr. 1307/2014 ) gjelde som forskrift med de tilpasninger som følger av vedlegg II kapittel XVII , protokoll 1 til avtalen og avtalen for øvrig. Forordningens artikkel 2 skal ikke gjelde for gressmark som ligger innenfor EFTA-statenes territorium.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 7 nov 2017 nr. 1734 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 7 nov 2017 nr. 1734 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="3-8-arealkriterier-for-arealer-med-hyt-karbonlager">§ 3-8. Arealkriterier for arealer med høyt karbonlager <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Biodrivstoff og flytende biobrensel som er omfattet av § 3-5 skal ikke være produsert av råstoff fra arealer som i januar 2008 hadde følgende status, og som ikke lenger har slik status:</p>
 <p>a. våtmarksområder, det vil si arealer som er dekket eller mettet av vann i hele eller en stor del av året,
 b. sammenhengende skogkledde områder, det vil si arealer som omfatter mer enn én hektar med trær som er mer enn fem meter høye og har en trekronedekning på mer enn 30 %, eller trær som kan nå disse verdiene på stedet,
 c. arealer som omfatter mer enn én hektar med trær som er mer enn fem meter høye og har en trekronedekning på mellom 10 og 30 %, eller trær som kan nå disse verdiene på stedet, med mindre det kan dokumenteres at karbonlagrene i arealet før og etter omleggingen er slike at vilkårene i § 3-6 fortsatt vil bli oppfylt når metoden i vedlegg II del C blir anvendt.</p>
 <p>Bestemmelsene i denne paragrafen gjelder likevel ikke dersom arealet, på det tidspunktet råstoffet ble hentet ut, hadde samme status som i januar 2008.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrift 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrift 20 des 2022 nr. 2356 (i kraft 1 jan 2023).</p>
 <h4 id="3-9-arealkriterier-for-torvmark">§ 3-9. Arealkriterier for torvmark <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Biodrivstoff og flytende biobrensel som er omfattet av § 3-5 skal ikke fremstilles av råstoff fra arealer som var torvmark i januar 2008, med mindre det kan dokumenteres at dyrking og innhøsting av råstoffet ikke innebærer drenering av tidligere udrenert jord.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 2 nov 2015 nr. 1261 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 2 nov 2015 nr. 1261 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-10-rapporteringsplikt-pa-omsetningskrav-og-brekraftskriterier">§ 3-10. Rapporteringsplikt på omsetningskrav og bærekraftskriterier <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-10.html" title="Endringshistorikk for § 3-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>De som omsetter drivstoff og flytende brensel etter §§ 3-3 til 3-4 skal hvert år innen 31. mars rapportere til Miljødirektoratet på oppfyllelse av omsetningskrav og bærekraftskriterier for foregående år. Til dette formål skal det benyttes et massebalansesystem som nevnt i § 3-10a .</p>
 <p>Rapportering etter første ledd skal inkludere relevante opplysninger om tiltak som er truffet for vern av jord, vann og luft, utbedring av forringet mark, unngåelse av overdrevent vannforbruk i arealer der vann er en knapp ressurs, og hensiktsmessige og relevante opplysninger om tiltak som er truffet for å ta hensyn til forholdene nevnt i vedlegg III i dette kapittelet.</p>
@@ -760,7 +1143,7 @@ c. arealer som omfatter mer enn én hektar med trær som er mer enn fem meter h�
 <p>Omsetter skal, på forespørsel fra Miljødirektoratet, kunne legge frem dokumentasjon som nevnt i sjuende ledd, som dekker alle ledd i biodrivstoffets eller det flytende biobrenselets forsyningskjede, herunder dokumentasjon på klassifisering av råstoff. Omsetterne må sørge for at alle aktørene i forsyningskjeden oppbevarer slik dokumentasjon i minst fem år etter den enkelte transaksjonen av råstoffet, drivstoffet eller brenselet.</p>
 <p>Ved samlet oppfyllelse av omsetningskrav i henhold til § 3-4 skal opplysninger om omsatt mengde biodrivstoff og oppfyllelse av bærekraftskriteriene fra den enkelte omsetter fremkomme.</p>
 <p>Rapporteringsskjema utarbeidet av Miljødirektoratet skal benyttes ved rapporteringen.</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 21 nov 2018 nr. 1731 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 21 nov 2018 nr. 1731 , 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-10a-krav-om-bruk-av-et-massebalansesystem-for-rapportering-pa-oppfyllelse-av-omsetningskrav-og-brekraftskriterier">§ 3-10a. Krav om bruk av et massebalansesystem for rapportering på oppfyllelse av omsetningskrav og bærekraftskriterier <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-10a.html" title="Endringshistorikk for § 3-10a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For rapportering på oppfyllelse av bærekraftskriterier etter § 3-10 skal det benyttes et massebalansesystem som:</p>
 <p>a. tillater at partier med råstoff eller biodrivstoff med ulike bærekraftsegenskaper kan blandes, innenfor en fysisk avgrenset lokalitet,
@@ -768,7 +1151,7 @@ b. krever at opplysninger om bærekraftsegenskaper og størrelsen på partiene i
 c. fastsetter at summen av alle partier som trekkes ut av blandingen skal beskrives som å ha de samme bærekraftsegenskapene i de samme mengdene som summen av alle partier som tilføres blandingen.</p>
 <p>Massebalansen skal gjøres opp minst hver tredje måned, på hver lokalitet. Ved hvert oppgjør skal omsetter føre oversikt over mengdene fossilt drivstoff og flytende biodrivstoff eller flytende biobrensler, med tilhørende bærekraftsegenskaper, som var på lokaliteten, ble tatt inn og ut, og som gjenstår på lokaliteten i løpet av oppgjørsperioden.</p>
 <p>Omsetter kan ikke bruke opplysninger om bærekraftsegenskaper til rapporteringen på et omsetningskrav når det har gått mer enn to år fra det aktuelle partiet biodrivstoff eller biobrensel ble tatt inn på lokaliteten til partiet ble omsatt.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-11-verifikasjon-av-rapporteringen-pa-omsetningskrav-og-brekraftskriterier">§ 3-11. Verifikasjon av rapporteringen på omsetningskrav og bærekraftskriterier <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-11.html" title="Endringshistorikk for § 3-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Rapporteringen etter § 3-10 og massebalansesystemet som nevnt i § 3-10a , skal ha vært gjenstand for en uavhengig revisjon av tilstrekkelig kvalitet.</p>
 <p>Ved bruk av dokumentasjon som nevnt i § 3-10 sjuende ledd , skal revisjonen dekke dokumentasjon fra alle ledd i forsyningskjeden.</p>
@@ -778,25 +1161,25 @@ b. har relevante spesifikke ferdigheter og kompetanse: revisoren skal ha de nød
 <p>Revisoren skal benytte anerkjent, relevant standard for slik revisjon.</p>
 <p>Revisjonen skal verifisere at systemene som brukes er nøyaktige, pålitelige og sikret mot svindel. Revisjonen skal vurdere prøvetakingens hyppighet og metode, og dataenes pålitelighet.</p>
 <p>Dokumentasjon på gjennomført revisjon og at revisor oppfyller kravet i tredje ledd fremlegges Miljødirektoratet sammen med rapportering etter § 3-10 .</p>
-<p><em>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrifter 20 des 2022 nr. 2356 (i kraft 1 jan 2023), 16 des 2024 nr. 3392 (i kraft 1 jan 2025), 11 des 2025 nr. 2608 (i kraft 1 jan 2026).</p>
 <h4 id="3-12-oppgjr-av-underoppfyllelse">§ 3-12. Oppgjør av underoppfyllelse <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-12.html" title="Endringshistorikk for § 3-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom omsetter av flytende drivstoff eller flytende brensel ikke oppfyller krav etter §§ 3-3 , 3-3a , 3-3b og 3-3c , kan Miljødirektoratet vedta at omsetter skal omsette volum biodrivstoff eller brensel tilsvarende underskuddet det påfølgende året. §§ 3-10 og 3-10a gjelder også ved omsetning som følger av slike vedtak.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-13-gebyr-for-kontrolltiltak-ved-rapportering">§ 3-13. Gebyr for kontrolltiltak ved rapportering <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-13.html" title="Endringshistorikk for § 3-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Omsetter skal betale et gebyr til statskassen for Miljødirektoratets arbeid med rapportering i henhold til § 3-10 . Gebyret fastsettes etter antall omsetningskrav den enkelte omsetter rapporterer på og hvilken type dokumentasjon som er brukt til å dokumentere oppfyllelse av bærekraftskriteriene: Antall krav omsetter rapporterer på Bruk av dokumentasjon iht. § 3-10 sjuende ledd (egen dokumentasjon) Bruk av dokumentasjon iht. § 3-10 femte ledd (frivillige ordninger) 1 110 000,– 75 000,– 2 183 000,– 126 000,– 3 238 000,– 163 000,–</p>
 <p>Gebyret forfaller til betaling 30 dager etter at virksomheten har mottatt faktura fra Miljødirektoratet.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-14-gebyr-for-saksbehandling-av-unntakssknader">§ 3-14. Gebyr for saksbehandling av unntakssøknader <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-14.html" title="Endringshistorikk for § 3-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For behandling av søknad om unntak fra omsetningskravene i §§ 3-3 , 3-3a , 3-3b og 3-3c , dokumentasjonskrav i § 3-3d og kvalitetskrav i § 2-20 , skal omsetter betale gebyr til statskassen etter følgende satser: Sats 2025 1 52 900,– 2 42 400,– 3 31 800,– 4 21 200,– 5 10 600,–</p>
 <p>Miljødirektoratet vedtar hvilken gebyrsats som skal gjelde i det enkelte tilfelle. Ved fastsettelse av gebyrsats, skal forventet ressursforbruk knyttet til saksbehandlingen legges til grunn.</p>
 <p>Gebyret forfaller til betaling 30 dager etter at virksomheten har mottatt faktura fra Miljødirektoratet.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-15-unntak">§ 3-15. Unntak <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-15.html" title="Endringshistorikk for § 3-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når særlige grunner foreligger kan Miljødirektoratet redusere eller frafalle gebyr etter §§ 3-13 og 3-14 .</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-16-endring-av-gebyrsatsene">§ 3-16. Endring av gebyrsatsene <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-16.html" title="Endringshistorikk for § 3-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet kan endre gebyrsatsene i §§ 3-13 og 3-14 i samsvar med endring i konsumprisindeksen i perioden 1. oktober til 30. september. Den endrede satsen skal avrundes til nærmeste 100 kr. Endringen trer i kraft den påfølgende 1. januar.</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h4 id="3-17-overtredelsesgebyr">§ 3-17. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-3-17.html" title="Endringshistorikk for § 3-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet kan ved overtredelse av følgende bestemmelser i dette kapitlet ilegge den ansvarlige for overtredelsen et overtredelsesgebyr:</p>
 <p>a. § 3-3 . Krav til omsetning av biodrivstoff til veitrafikk
@@ -804,7 +1187,7 @@ b. § 3-3a . Krav til omsetning av avansert biodrivstoff til luftfart
 c. § 3-3b . Krav til omsetning av avansert biodrivstoff og biobrensel til sjøfart
 d. § 3-3c . Krav til omsetning av avansert biodrivstoff og biobrensel til andre formål</p>
 <p>For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b .</p>
-<p><em>Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 16 des 2024 nr. 3392 (i kraft 1 jan 2025).</p>
 <h3 id="vedlegg-til-kapittel-3">Vedlegg til kapittel 3</h3>
 <p>Tilføyd ved forskrift 11 sep 2013 nr. 1122 (i kraft 1 jan 2014), endret ved forskrift 7 nov 2017 nr. 1734 .</p>
 <h4 id="vedlegg-i-beregning-av-livssyklus-klimagassutslipp-fra-biodrivstoff-og-flytende-biobrensel">Vedlegg I. Beregning av livssyklus klimagassutslipp fra biodrivstoff og flytende biobrensel</h4>
@@ -994,7 +1377,7 @@ d. § 3-3c . Krav til omsetning av avansert biodrivstoff og biobrensel til andre
 <li>forordning (EU) 2025/1399</li>
 <li>forordning (EU) 2025/1930 .</li>
 </ul>
-<p><em>Endret ved forskrifter 22 sep 2008 nr. 1039 , 1 aug 2012 nr. 844 , 27 nov 2013 nr. 1370 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 22 juli 2014 nr. 995 , 7 mai 2015 nr. 486 , 6 feb 2016 nr. 106 , 9 juli 2016 nr. 911 , 4 juni 2016 nr. 576 (i kraft 30 sep 2016), 4 okt 2016 nr. 1168 , 4 mai 2020 nr. 933 , 26 april 2021 nr. 1295 , 17 des 2021 nr. 3716 , 28 april 2023 nr. 663 , 22 sep 2023 nr. 1512 , 27 okt 2023 nr. 1750 , 27 okt 2023 nr. 1780 , 14 mars 2025 nr. 461 , 10 feb 2026 nr. 181 , 23 mars 2026 nr. 509 .</em></p>
+<p class="note">Endret ved forskrifter 22 sep 2008 nr. 1039 , 1 aug 2012 nr. 844 , 27 nov 2013 nr. 1370 , 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 22 juli 2014 nr. 995 , 7 mai 2015 nr. 486 , 6 feb 2016 nr. 106 , 9 juli 2016 nr. 911 , 4 juni 2016 nr. 576 (i kraft 30 sep 2016), 4 okt 2016 nr. 1168 , 4 mai 2020 nr. 933 , 26 april 2021 nr. 1295 , 17 des 2021 nr. 3716 , 28 april 2023 nr. 663 , 22 sep 2023 nr. 1512 , 27 okt 2023 nr. 1750 , 27 okt 2023 nr. 1780 , 14 mars 2025 nr. 461 , 10 feb 2026 nr. 181 , 23 mars 2026 nr. 509 .</p>
 <h4 id="4-2-forbud-mot-eksport-av-stoff-stoffblandinger-og-produkter-som-reguleres-i-pops-forordningen-vedlegg-i">§ 4-2. Forbud mot eksport av stoff, stoffblandinger og produkter som reguleres i POPs-forordningen vedlegg I <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det er forbudt å eksportere følgende stoff, alene eller i stoffblandinger og produkter, til land utenfor EØS-området i den utstrekning stoffene er forbudt å omsette i henhold til § 4-1 :</p>
 <p>a. Tetrabromdifenyleter
@@ -1006,12 +1389,12 @@ f. Kortkjedede klorparafiner
 g. Heksabromosyklododekan.
 h. Pentaklorfenol og dets salter og estere
 i. Dekabromdifenyleter.</p>
-<p><em>Tilføyd ved forskrift 27 nov 2013 nr. 1370 , endret ved forskrifter 22 juli 2014 nr. 995 , 9 juli 2016 nr. 911 , 4 mai 2021 nr. 1442 .</em></p>
+<p class="note">Tilføyd ved forskrift 27 nov 2013 nr. 1370 , endret ved forskrifter 22 juli 2014 nr. 995 , 9 juli 2016 nr. 911 , 4 mai 2021 nr. 1442 .</p>
 <h4 id="4-3-overtredelsesgebyr">§ 4-3. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet kan ved overtredelse av følgende bestemmelser i regelverket som er gjennomført i § 4-1 ilegge den ansvarlige for overtredelsen et overtredelsesgebyr:</p>
 <p>a. forordning (EF) 2019/1021 om persistente organiske forurensninger (POPs), artikkel 3 nr. 1 og nr. 2 om forbud mot og restriksjoner for produksjon, omsetning og bruk av nærmere angitte stoffer.</p>
 <p>For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b.</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h3 id="vedlegg-til-kapittel-4-opphevet">Vedlegg til kapittel 4 (opphevet)</h3>
 <p>Vedlegget tilføyd ved forskrift 22 sep 2008 nr. 1039 , endret ved forskrifter 1 aug 2012 nr. 844 , 27 nov 2013 nr. 1370 , 22 juli 2014 nr. 995 , 7 mai 2015 nr. 486 , opphevet ved forskrift 6 feb 2016 nr. 106 .</p>
 <h3 id="forordninger_1">Forordninger</h3>
@@ -1033,21 +1416,21 @@ i. Dekabromdifenyleter.</p>
 <p>Kravet i tredje ledd om at rekvisisjonen skal ha politiets påtegning, gjelder ikke ved kjøp av metanolbasert drivstoff til modellkjøretøy, som er tilsatt 10 % olje eller mer. Selger skal føre arkiv over salgsdato, produktnavn, volum og kjøpers navn og adresse.</p>
 <p>Omsetningsrestriksjonene gjelder ikke for styren, benzosyre og white spirit som rent stoff eller i blanding, motorbensin, dieselolje til transportformål, parafin, fyringsolje til faste eller mobile anlegg og som selges i detalj fra tankbil, og brensel som selges i lukkete systemer som f.eks. gassflasker med flytende gass. Restriksjonene gjelder heller ikke for ferdigproduserte farger og penner til kunstnerisk bruk og for ferdigformulerte kjemikalier i pulver- eller væskeform til fotografisk bruk. Ferdigformulerte fotokjemikalier som skal merkes med piktogram GHS06 eller med piktogram GHS08 med signalordet «Fare» og som i henhold til forskrift om klassifisering, merking og emballering av stoffer og stoffblandinger (CLP-forskriften) skal klassifiseres i fareklasse og farekategori Carc. 1A, Carc. 1B, Muta. 1A, Muta. 1B, Repr. 1A, Repr. 1B, Acute Tox. 1, Acute Tox. 2, Acute Tox. 3, STOT RE 1 eller STOT SE 1, kan derimot ikke omsettes til privat bruk.</p>
 <p>Denne bestemmelsen gjelder ikke for kreftfremkallende, arvestoffskadelige eller reproduksjonstoksisk stoff som reguleres i REACH-forordningen vedlegg XVII post 28–30 jf. forskrift 30. mai 2008 nr. 516 om registrering, vurdering, godkjenning og begrensning av kjemikalier (REACH-forskriften).</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 20 sep 2010 nr. 1288 , 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 4 juni 2015 nr. 610 , 19 mai 2016 nr. 506 , 18 juni 2020 nr. 1271 .</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 20 sep 2010 nr. 1288 , 17 nov 2011 nr. 1113 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 4 juni 2015 nr. 610 , 19 mai 2016 nr. 506 , 18 juni 2020 nr. 1271 .</p>
 <h4 id="5-2-overtredelsesgebyr">§ 5-2. Overtredelsesgebyr <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Miljødirektoratet kan ved overtredelse av § 5-1 om restriksjoner for omsetning og import av giftige kjemikalier til privat bruk ilegge den ansvarlige for overtredelsen et overtredelsesgebyr. For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b .</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h2 id="kapittel-6-regulering-av-ozonreduserende-stoffer">Kapittel 6. Regulering av ozonreduserende stoffer</h2>
 <p>Hele kapitlet endret ved forskrift 26 juni 2013 nr. 791 (i kraft 1 juli 2013).</p>
 <h4 id="6-1-gjennomfring-av-forordning-om-ozonreduserende-stoffer-og-etterflgende-rettsakter">§ 6-1. Gjennomføring av forordning om ozonreduserende stoffer og etterfølgende rettsakter <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalens vedlegg XX kapittel III nr. 21aa (forordning (EF) nr. 1005/2009 om ozonreduserende stoffer som endret ved forordning (EU) nr. 744/2010 , forordning (EU) nr. 1087/2013 og forordning (EU) 2017/605 ) og nr. 21aaa (forordning (EU) nr. 291/2011 ) gjelder som forskrift med de tilpasninger som følger av vedlegg XX kapittel III, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 26 juni 2013 nr. 791 (i kraft 1 juli 2013), 20 april 2015 nr. 388 , 19 okt 2017 nr. 1640 .</em></p>
+<p class="note">Endret ved forskrifter 26 juni 2013 nr. 791 (i kraft 1 juli 2013), 20 april 2015 nr. 388 , 19 okt 2017 nr. 1640 .</p>
 <h4 id="6-2-forbud-mot-import-og-eksport">§ 6-2. Forbud mot import og eksport</h4>
 <p>Det er forbudt å importere og eksportere ozonreduserende stoffer, samt produkter og utstyr som inneholder eller er avhengig av ozonreduserende stoffer til og fra Norge uten særskilt tillatelse fra Miljødirektoratet. Miljødirektoratet kan gi slik tillatelse der dette er i samsvar med Norges folkerettslige forpliktelser.</p>
-<p><em>Endret ved forskrift 26 juni 2013 nr. 791 (i kraft 1 juli 2013)</em></p>
+<p class="note">Endret ved forskrift 26 juni 2013 nr. 791 (i kraft 1 juli 2013)</p>
 <h4 id="6-3-ansvarlig-myndighet">§ 6-3. Ansvarlig myndighet</h4>
 <p>Miljødirektoratet er ansvarlig myndighet etter forordningene.</p>
-<p><em>Endret ved forskrift 26 juni 2013 nr. 791 (i kraft 1 juli 2013).</em></p>
+<p class="note">Endret ved forskrift 26 juni 2013 nr. 791 (i kraft 1 juli 2013).</p>
 <h3 id="vedlegg-til-kapittel-6">Vedlegg til kapittel 6</h3>
 <p>Endret ved forskrifter 26 juni 2013 nr. 791 (i kraft 1 juli 2013), 20 april 2015 nr. 388 .</p>
 <p>Nedenfor gjengis EØS-avtalen vedlegg XX kapittel III nr. 21aa (forordning (EF) nr. 1005/2009 , forordning (EU) nr. 744/2010 og forordning (EU) nr. 1087/2013 ) og nr. 21aaa (forordning (EU) nr. 291/2011 ).</p>
@@ -1063,32 +1446,32 @@ i. Dekabromdifenyleter.</p>
 <p>Kapitlet tilføyd ved forskrift 6 mai 2010 nr. 722 .</p>
 <h4 id="6a-1-gjennomfring-av-eu-rettsakter-om-fluorholdige-stoffer">§ 6a-1. Gjennomføring av EU-rettsakter om fluorholdige stoffer</h4>
 <p>EØS-avtalens vedlegg II kapittel XVII nr. 9b og vedlegg XX kapittel III nr. 21aq (forordning (EU) nr. 517/2014 , forordning (EU) 2015/2065 , forordning (EU) 2015/2066 , forordning (EU) 2015/2067 , forordning (EU) 2015/2068 , forordning (EF) nr. 1497/2007 , forordning (EF) nr. 1516/2007 , forordning (EF) nr. 304/2008 , forordning (EF) nr. 306/2008 og forordning (EF) nr. 307/2008 ) om fluorholdige klimagasser gjelder som forskrift med de tilpasninger som følger av vedlegg XX, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 14 des 2018 nr. 2032 , 15 juni 2019 nr. 934 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 14 des 2018 nr. 2032 , 15 juni 2019 nr. 934 .</p>
 <h4 id="6a-2-forbud-mot-import-og-eksport">§ 6a-2. Forbud mot import og eksport</h4>
 <p>Det er fra 1. januar 2019 forbudt å importere og eksportere HFK i bulk til og fra Norge uten tillatelse fra Miljødirektoratet. Miljødirektoratet kan gi slik tillatelse i henhold til nedfasingsplan gitt i vedlegg I og for øvrig der dette er i samsvar med Norges folkerettslige forpliktelser. Tillatelse til import og eksport av HFK gis for ett år om gangen. Forbudet gjelder HFK som angitt i vedlegg I til forordning (EU) nr. 517/2014 .</p>
 <p>Søknad om import eller eksport av HFK må sendes Miljødirektoratet innen 15. oktober hvert år.</p>
-<p><em>Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 14 des 2018 nr. 2032 , 15 juni 2019 nr. 934 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 14 des 2018 nr. 2032 , 15 juni 2019 nr. 934 .</p>
 <h4 id="6a-3-ansvarlig-myndighet">§ 6a-3. Ansvarlig myndighet</h4>
 <p>Miljødirektoratet er ansvarlig myndighet.</p>
 <p>Miljødirektoratet eller den offentlige eller private institusjonen direktoratet bemyndiger, fatter vedtak om sertifisering av foretak og relevant personell der forordningene stiller krav om slik sertifisering.</p>
-<p><em>Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 juni 2019 nr. 934 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 15 juni 2019 nr. 934 .</p>
 <h4 id="6a-3a-sertifikat-for-personell-som-handterer-fluorholdige-stoffer">§ 6a-3a. Sertifikat for personell som håndterer fluorholdige stoffer</h4>
 <p>Sertifikat utstedt i medhold av § 6a-3 andre ledd og forordning (EU) nr. 517/2014 artikkel 10 skal ha en gyldighet på 5 år fra utstedelsesdato. Etter dette tidspunktet må sertifikatet fornyes. Miljødirektoratet fastsetter nærmere krav til slik resertifisering.</p>
-<p><em>Tilføyd ved forskrift 14 des 2018 nr. 2032 .</em></p>
+<p class="note">Tilføyd ved forskrift 14 des 2018 nr. 2032 .</p>
 <h4 id="6a-4-rapporteringskrav-for-sf6-gass-for-importrer-og-anleggseiere">§ 6a-4. Rapporteringskrav for SF6-gass for importører og anleggseiere</h4>
 <p>Importører av SF6-gass og eiere av anlegg som har installert SF6-gass skal innen 15. mars hvert år sende Miljødirektoratet informasjon om beholdning, import og forbruk av SF6-gass det foregående året, samt informasjon om gjenvinning og behandling av SF6-gass fra anlegg som har slik gass installert.</p>
-<p><em>Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 14 des 2018 nr. 2032 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrifter 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 14 des 2018 nr. 2032 .</p>
 <h4 id="6a-5-gebyr">§ 6a-5. Gebyr</h4>
 <p>Kostnadene forbundet med sertifiseringsordninger etter kapitlet her skal dekkes gjennom innkreving av gebyr fra de som søker om sertifikat. Miljødirektoratet fastsetter gebyrsatsene for de ulike sertifikatene. Miljødirektoratet kan endre gebyrsatsene med virkning fra 1. januar påfølgende år. Gebyrsatsene kan ikke gjøres større enn at innkrevd gebyr dekker samlede kostnader forbundet med sertifiseringsordningen.</p>
 <p>Miljødirektoratet eller den direktoratet bemyndiger skal kreve inn gebyret.</p>
-<p><em>Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrift 15 mars 2013 nr. 284 (i kraft 1 juli 2013).</em></p>
+<p class="note">Tilføyd ved forskrift 6 mai 2010 nr. 722 , endret ved forskrift 15 mars 2013 nr. 284 (i kraft 1 juli 2013).</p>
 <h4 id="6a-6-overtredelsesgebyr">§ 6a-6. Overtredelsesgebyr</h4>
 <p>Miljødirektoratet kan ved overtredelse av følgende bestemmelser i regelverket som er gjennomført i § 6a-1 ilegge den ansvarlige for overtredelsen et overtredelsesgebyr:</p>
 <p>a. forordning (EU) nr. 517/2014 om fluorholdige klimagasser, artikkel 3 om forebygging av utslipp av fluorholdige klimagasser,
 b. forordning (EU) nr. 517/2014 om fluorholdige klimagasser, artikkel 11 nr. 4 om ulovlig kjøp og salg av fluorholdige klimagasser,
 c. forordning (EU) nr. 517/2014 om fluorholdige klimagasser, artikkel 11 nr. 5 om salg av ikke-hermetisk lukket utstyr med fluorholdige klimagasser uten å kontrollere at installasjon gjøres av sertifisert virksomhet.</p>
 <p>For ileggelse av overtredelsesgebyr gjelder bestemmelsene i kapittel 6b.</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h3 id="vedlegg-til-kapittel-6a">Vedlegg til kapittel 6a</h3>
 <p>Tilføyd ved forskrift 6 mai 2010 nr. 722 .</p>
 <h4 id="vedlegg-1">Vedlegg 1</h4>
@@ -1128,34 +1511,34 @@ c. forordning (EU) nr. 517/2014 om fluorholdige klimagasser, artikkel 11 nr. 5 o
 <p>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h4 id="6b-1-overtredelsesgebyr-for-foretak">§ 6b-1. Overtredelsesgebyr for foretak</h4>
 <p>Foretak kan ilegges overtredelsesgebyr dersom overtredelsen ble begått av noen som handlet på vegne av foretaket. Dette gjelder selv om ingen enkeltperson kan ilegges overtredelsesgebyr for overtredelsen.</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h4 id="6b-2-ileggelse-og-utmaling-av-overtredelsesgebyr">§ 6b-2. Ileggelse og utmåling av overtredelsesgebyr</h4>
 <p>Ved vurderingen av om overtredelsesgebyr skal ilegges og ved utmålingen av gebyret, skal det blant annet tas hensyn til</p>
 <p>a. lovbruddets grovhet, herunder om lovbruddet har medført risiko for helse eller miljø
 b. om den ansvarlige tidligere har begått liknende lovbrudd
 c. momentene som nevnt i forvaltningsloven § 44 tredje ledd for fysiske personer og § 46 andre ledd for foretak.</p>
 <p>Overtredelsesgebyr for foretak skal ikke overstige 15 ganger folketrygdens grunnbeløp. Overtredelsesgebyr for fysiske personer skal ikke overstige 2 ganger folketrygdens grunnbeløp. Grunnbeløpet på overtredelsestidspunktet legges til grunn ved beregningen av overtredelsesgebyrets størrelse.</p>
-<p><em>Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 sep 2023 nr. 1587 .</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <h4 id="7-1-unntak">§ 7-1. Unntak</h4>
 <p>Miljødirektoratet eller den Klima- og miljødepartementet bemyndiger, kan ved forskrift eller enkeltvedtak gjøre unntak fra denne forskriften og sette de vilkår som er nødvendige for å motvirke skade eller ulempe.</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="7-2-tilsyn">§ 7-2. Tilsyn</h4>
 <p>Miljødirektoratet eller den Klima- og miljødepartementet bemyndiger, fører tilsyn med at bestemmelsene i denne forskriften og vedtak truffet i medhold av forskriften overholdes. Sjøfartsdirektoratet fører tilsyn med at bestemmelsene i kapittel 6 overholdes om bord på sivile norske skip.</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="7-3-klage">§ 7-3. Klage</h4>
 <p>Enkeltvedtak truffet av Miljødirektoratet i medhold av forskriften kan påklages til Klima- og miljødepartementet. Enkeltvedtak truffet av Sjøfartsdirektoratet i medhold av kapittel 6 kan påklages til Klima- og miljødepartementet.</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="7-4-tvangsmulkt">§ 7-4. Tvangsmulkt</h4>
 <p>For å sikre at forskriften eller vedtak truffet i medhold av forskriften blir gjennomført, kan Miljødirektoratet eller den Klima- og miljødepartementet bestemmer treffe vedtak om tvangsmulkt etter produktkontrolloven § 13 .</p>
 <p>For å sikre at bestemmelsene i kapittel 6 eller vedtak truffet i medhold av kapittel 6 blir gjennomført, kan Sjøfartsdirektoratet treffe vedtak om tvangsmulkt etter sjødyktighetsloven § 124 .</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="7-5-straff">§ 7-5. Straff <a class="para-history" href="../historikk/forskrift-2004-06-01-922/para-7-5.html" title="Endringshistorikk for § 7-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Overtredelse av forskriften eller vedtak truffet i medhold av forskriften straffes etter produktkontrolloven § 12 hvis ikke strengere straffebestemmelser kommer til anvendelse.</p>
-<p><em>Endret ved forskrift 17 nov 2011 nr. 1113 .</em></p>
+<p class="note">Endret ved forskrift 17 nov 2011 nr. 1113 .</p>
 <h4 id="7-6-fordeling-av-myndighet">§ 7-6. Fordeling av myndighet</h4>
 <p>I tillegg til det som fremgår av bestemmelsene i denne forskriften, er rette forurensningsmyndighet den eller de som i henhold til tidligere delegeringsvedtak i Klima- og miljødepartementet eller Miljødirektoratet er tildelt myndighet på områder som faller innenfor denne forskriftens virkeområde.</p>
-<p><em>Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrifter 21 juni 2010 nr. 1073 , 15 mars 2013 nr. 284 (i kraft 1 juli 2013), 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="7-7-ikrafttreden-og-oppheving-av-gjeldende-forskrifter">§ 7-7. Ikrafttreden og oppheving av gjeldende forskrifter</h4>
 <p>Forskriften trer i kraft 1. juli 2004. Fra samme tidspunkt oppheves:</p>
 <ul>
@@ -1165,6 +1548,8 @@ c. momentene som nevnt i forvaltningsloven § 44 tredje ledd for fysiske persone
 <li>forskrift 20. desember 2002 nr. 1823 om begrensninger i bruk m.m. av enkelte farlige kjemikalier,</li>
 <li>forskrift 12. mars 2004 nr. 535 om endring i forskrift 20. desember 2002 nr. 1823 om begrensninger i bruk m.m. av enkelte farlige kjemikalier.</li>
 </ul>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

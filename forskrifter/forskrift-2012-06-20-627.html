@@ -19,64 +19,155 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-06-20-627.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om skattefordeling mellom skattekreditorene" href="../feeds/forskrift-2012-06-20-627.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forskrift om skattefordeling mellom skattekreditorene</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-06-20-627</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2012-06-20</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-10-2488</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-06-20-627" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-definisjoner">§ 1. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-skattekreditorene">§ 2. Skattekreditorene</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser-om-fordelingen-av-skatt-og-trygdeavgift">Kapittel 2. Alminnelige bestemmelser om fordelingen av skatt og trygdeavgift</a></li>
+<li class="lvl4"><a href="#3-forelpige-og-korrigerte-fordelingstall-for-personlige-skattytere">§ 3. Foreløpige og korrigerte fordelingstall for personlige skattytere</a></li>
+<li class="lvl4"><a href="#4-endelige-fordelingstall-for-personlige-skattytere">§ 4. Endelige fordelingstall for personlige skattytere</a></li>
+<li class="lvl4"><a href="#5-forelpige-og-korrigerte-fordelingstall-for-upersonlige-skattytere">§ 5. Foreløpige og korrigerte fordelingstall for upersonlige skattytere</a></li>
+<li class="lvl4"><a href="#6-endelige-fordelingstall-for-upersonlige-skattytere">§ 6. Endelige fordelingstall for upersonlige skattytere</a></li>
+<li class="lvl4"><a href="#7-endring-av-fordelingstall">§ 7. Endring av fordelingstall</a></li>
+<li class="lvl4"><a href="#8-periodisk-oppgjr-med-fordelinger">§ 8. Periodisk oppgjør med fordelinger</a></li>
+<li class="lvl4"><a href="#9-forskudd-pa-periodisk-oppgjr">§ 9. Forskudd på periodisk oppgjør</a></li>
+<li class="lvl4"><a href="#10-fordeling-av-inn-og-utbetalinger-for-eldre-ar">§ 10. Fordeling av inn- og utbetalinger for eldre år</a></li>
+<li class="lvl4"><a href="#11-fordeling-av-skatt-mv-til-staten">§ 11. Fordeling av skatt mv. til staten</a></li>
+<li class="lvl2"><a href="#kapittel-3-marginavsetning">Kapittel 3. Marginavsetning</a></li>
+<li class="lvl4"><a href="#12-tilbakeholdt-margin-pa-bankkonto-for-skatt">§ 12. Tilbakeholdt margin på bankkonto for skatt</a></li>
+<li class="lvl4"><a href="#13-marginoppgjret">§ 13. Marginoppgjøret</a></li>
+<li class="lvl2"><a href="#kapittel-4-andre-bestemmelser-om-fordeling">Kapittel 4. Andre bestemmelser om fordeling</a></li>
+<li class="lvl4"><a href="#14-fordeling-av-renter-innkrevingsutgifter-inntekter-gebyrer-mv">§ 14. Fordeling av renter, innkrevingsutgifter/-inntekter, gebyrer mv.</a></li>
+<li class="lvl4"><a href="#15-innbetaling-fra-anonyme-skattytere-mv">§ 15. Innbetaling fra anonyme skattytere mv.</a></li>
+<li class="lvl4"><a href="#16-tilfeldige-inntektertilfeldige-utgifter">§ 16. Tilfeldige inntekter/tilfeldige utgifter</a></li>
+<li class="lvl4"><a href="#17-herrelse-skatte-og-ansvarsbelp">§ 17. Herreløse skatte- og ansvarsbeløp</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikrafttredelse-mv">Kapittel 5. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#18-ikrafttredelse-mv">§ 18. Ikrafttredelse mv.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-10-2488.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-20-627.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om gjennomføringen av fordeling av skatt mv. mellom skattekreditorene</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-06-20-627.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-06-20-627 <code>forskrift/2012-06-20-627</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om skattefordeling mellom skattekreditorene</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>20.06.2012</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-10-2488 <code>forskrift/2025-12-10-2488</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-06-20-627" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-definisjoner">§ 1. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-skattekreditorene">§ 2. Skattekreditorene</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser-om-fordelingen-av-skatt-og-trygdeavgift">Kapittel 2. Alminnelige bestemmelser om fordelingen av skatt og trygdeavgift</a></li>
+<li class="lvl4"><a href="#3-forelpige-og-korrigerte-fordelingstall-for-personlige-skattytere">§ 3. Foreløpige og korrigerte fordelingstall for personlige skattytere</a></li>
+<li class="lvl4"><a href="#4-endelige-fordelingstall-for-personlige-skattytere">§ 4. Endelige fordelingstall for personlige skattytere</a></li>
+<li class="lvl4"><a href="#5-forelpige-og-korrigerte-fordelingstall-for-upersonlige-skattytere">§ 5. Foreløpige og korrigerte fordelingstall for upersonlige skattytere</a></li>
+<li class="lvl4"><a href="#6-endelige-fordelingstall-for-upersonlige-skattytere">§ 6. Endelige fordelingstall for upersonlige skattytere</a></li>
+<li class="lvl4"><a href="#7-endring-av-fordelingstall">§ 7. Endring av fordelingstall</a></li>
+<li class="lvl4"><a href="#8-periodisk-oppgjr-med-fordelinger">§ 8. Periodisk oppgjør med fordelinger</a></li>
+<li class="lvl4"><a href="#9-forskudd-pa-periodisk-oppgjr">§ 9. Forskudd på periodisk oppgjør</a></li>
+<li class="lvl4"><a href="#10-fordeling-av-inn-og-utbetalinger-for-eldre-ar">§ 10. Fordeling av inn- og utbetalinger for eldre år</a></li>
+<li class="lvl4"><a href="#11-fordeling-av-skatt-mv-til-staten">§ 11. Fordeling av skatt mv. til staten</a></li>
+<li class="lvl2"><a href="#kapittel-3-marginavsetning">Kapittel 3. Marginavsetning</a></li>
+<li class="lvl4"><a href="#12-tilbakeholdt-margin-pa-bankkonto-for-skatt">§ 12. Tilbakeholdt margin på bankkonto for skatt</a></li>
+<li class="lvl4"><a href="#13-marginoppgjret">§ 13. Marginoppgjøret</a></li>
+<li class="lvl2"><a href="#kapittel-4-andre-bestemmelser-om-fordeling">Kapittel 4. Andre bestemmelser om fordeling</a></li>
+<li class="lvl4"><a href="#14-fordeling-av-renter-innkrevingsutgifter-inntekter-gebyrer-mv">§ 14. Fordeling av renter, innkrevingsutgifter/-inntekter, gebyrer mv.</a></li>
+<li class="lvl4"><a href="#15-innbetaling-fra-anonyme-skattytere-mv">§ 15. Innbetaling fra anonyme skattytere mv.</a></li>
+<li class="lvl4"><a href="#16-tilfeldige-inntektertilfeldige-utgifter">§ 16. Tilfeldige inntekter/tilfeldige utgifter</a></li>
+<li class="lvl4"><a href="#17-herrelse-skatte-og-ansvarsbelp">§ 17. Herreløse skatte- og ansvarsbeløp</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikrafttredelse-mv">Kapittel 5. Ikrafttredelse mv.</a></li>
+<li class="lvl4"><a href="#18-ikrafttredelse-mv">§ 18. Ikrafttredelse mv.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-20-627.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-06-20-627.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-06-20-627.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-06-20-627.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-06-20-627.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-06-20-627.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-06-20-627.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-06-20-627.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-06-20-627.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-gjennomfringen-av-fordeling-av-skatt-mv-mellom-skattekreditorene">Forskrift om gjennomføringen av fordeling av skatt mv. mellom skattekreditorene</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-definisjoner">§ 1. Definisjoner</h4>
 <p>I denne forskrift betyr:</p>
@@ -87,7 +178,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Skattekreditor: Den som har krav på en andel av skatt og avgift som inngår i fellesinnkrevingen.</li>
 <li>Skattekontoret: Divisjon innkreving, avdeling næring og regnskap, seksjon regnskap.</li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</p>
 <h4 id="2-skattekreditorene">§ 2. Skattekreditorene</h4>
 <ol>
 <li>
@@ -100,7 +191,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Renter, innkrevingsutgifter/-inntekter, gebyrer mv. skal fordeles i samsvar med § 14 .</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-2-alminnelige-bestemmelser-om-fordelingen-av-skatt-og-trygdeavgift">Kapittel 2. Alminnelige bestemmelser om fordelingen av skatt og trygdeavgift</h2>
 <h4 id="3-forelpige-og-korrigerte-fordelingstall-for-personlige-skattytere">§ 3. Foreløpige og korrigerte fordelingstall for personlige skattytere</h4>
 <ol>
@@ -120,7 +211,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Skattekontoret formidler resultatet av beregningen til kommunene og fylkeskommunene. Samtidig overføres resultatet elektronisk til den som drifter skatteregnskapene.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="4-endelige-fordelingstall-for-personlige-skattytere">§ 4. Endelige fordelingstall for personlige skattytere</h4>
 <ol>
 <li>
@@ -133,7 +224,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bestemmelsene i § 3 nr. 5 gjelder tilsvarende.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</p>
 <h4 id="5-forelpige-og-korrigerte-fordelingstall-for-upersonlige-skattytere">§ 5. Foreløpige og korrigerte fordelingstall for upersonlige skattytere</h4>
 <ol>
 <li>
@@ -155,7 +246,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bestemmelsene i § 3 nr. 5 gjelder tilsvarende.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="6-endelige-fordelingstall-for-upersonlige-skattytere">§ 6. Endelige fordelingstall for upersonlige skattytere</h4>
 <ol>
 <li>
@@ -168,7 +259,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Bestemmelsene i § 3 nr. 5 gjelder tilsvarende.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="7-endring-av-fordelingstall">§ 7. Endring av fordelingstall</h4>
 <ol>
 <li>
@@ -181,7 +272,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Når vilkårene for endring som nevnt i nr. 1 eller nr. 2 er oppfylt, kan skattekontoret av eget tiltak fastsette nye fordelingstall.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="8-periodisk-oppgjr-med-fordelinger">§ 8. Periodisk oppgjør med fordelinger</h4>
 <ol>
 <li>
@@ -194,7 +285,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Når oppgjøret avgis, skal skattekontoret overføre kommunenes andel til kommunene, fylkeskommunens andel til fylkeskassereren, og statens og folketrygdens andel til inntektsregnskapet for skatt og folketrygd. Tilbakebetaling fra skattekreditorene til skatteregnskapet skal skje innen den 20. i måneden etter utløpet av perioden.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="9-forskudd-pa-periodisk-oppgjr">§ 9. Forskudd på periodisk oppgjør</h4>
 <ol>
 <li>
@@ -204,7 +295,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Forskuddet fordeles mellom skattekreditorene etter gjeldende fordelingstall for de skattearter og inntektsår det foretas forskuddsfordeling for. Ved forskuddsfordeling skal fordelte beløp overføres til kommunen og fylkeskommunen, jf. § 8 nr. 3. Det utbetales ikke forskudd til staten og folketrygden. Samlet oppgjør til staten og folketrygden foretas i forbindelse med periodeavslutning, i samsvar med frister i § 8 .</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="10-fordeling-av-inn-og-utbetalinger-for-eldre-ar">§ 10. Fordeling av inn- og utbetalinger for eldre år</h4>
 <ol>
 <li>
@@ -217,10 +308,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dersom endringer i beregnet skatt for en skattyter får virkning i flere kommuner, kan Skattedirektoratet, når det foreligger sterke administrative hensyn, i særlige tilfeller fravike den fordeling som følger av nr. 1 og bestemme at oppgjøret skal belastes staten.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="11-fordeling-av-skatt-mv-til-staten">§ 11. Fordeling av skatt mv. til staten</h4>
 <p>Skattekontoret beregner også fordelingstall til bruk ved fordelingen av skatt mv. til staten. Fordelingstallene omfatter trinnskatt mv. og fellesskatt. Skattekontoret overfører resultatet av beregningen elektronisk til den som drifter skatteregnskapene, jf. § 3 nr. 5 siste punktum.</p>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-3-marginavsetning">Kapittel 3. Marginavsetning</h2>
 <h4 id="12-tilbakeholdt-margin-pa-bankkonto-for-skatt">§ 12. Tilbakeholdt margin på bankkonto for skatt</h4>
 <ol>
@@ -231,7 +322,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Marginprosenten fastsettes av skattekontoret. Prosenten bør ikke overstige 14 prosent. Grunnlaget for forslaget skal være forholdet mellom overskytende forskudd og totalt beregnet skatt for personlige skattytere i kommunen for de tre nærmest foregående skattefastsettingsårene.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="13-marginoppgjret">§ 13. Marginoppgjøret</h4>
 <ol>
 <li>
@@ -241,7 +332,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Eventuell rest av den tilbakeholdte margin (jf. § 12 ) ved utgangen av oktober i skattefastsettingsåret skal fordeles mellom skattekreditorene i månedsoppgjøret for november i samme år.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h2 id="kapittel-4-andre-bestemmelser-om-fordeling">Kapittel 4. Andre bestemmelser om fordeling</h2>
 <h4 id="14-fordeling-av-renter-innkrevingsutgifter-inntekter-gebyrer-mv">§ 14. Fordeling av renter, innkrevingsutgifter/-inntekter, gebyrer mv.</h4>
 <ol>
@@ -255,18 +346,20 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>De utgifter som det offentlige pådrar seg ved rettslig prøving av skattekrav mv. etter reglene i innkrevingsloven § 36 og skatteforvaltningsloven § 15-1 , skal fordeles som innkrevingsutgifter. Tilsvarende gjelder for utgifter som det offentlige pådrar seg ved prejudisiell prøving av skattekrav i saker etter skatteforvaltningsloven § 14-12 , straffeprosessloven § 427 og § 428 , og i sivile erstatningskrav mot medvirkere. Tilkjente saksomkostninger fordeles som innkrevingsinntekter.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020), 7 des 2020 nr. 2636 , 27 okt 2020 nr. 2157 (i kraft 1 jan 2021), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020), 7 des 2020 nr. 2636 , 27 okt 2020 nr. 2157 (i kraft 1 jan 2021), 10 des 2025 nr. 2488 (i kraft 1 jan 2026).</p>
 <h4 id="15-innbetaling-fra-anonyme-skattytere-mv">§ 15. Innbetaling fra anonyme skattytere mv.</h4>
 <p>Innbetaling fra anonyme skattytere bokføres til inntekt i skatteregnskapet og fordeles til staten. Innbetaling fra kjent skattyter som ukrevet foretar innbetaling, når skattemyndigheten ikke fastsetter en skatteforpliktelse, bokføres til inntekt i skatteregnskapet i den kommune hvor innbetaler anses skattemessig bosatt. Innbetalingen fordeles etter de foreløpige fordelingstallene for personlige skattytere for inneværende inntektsår, jf. § 3 nr. 1.</p>
-<p><em>Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2017 nr. 47 , 28 nov 2018 nr. 1778 (i kraft 1 jan 2019), 27 okt 2020 nr. 2157 (i kraft 1 nov 2020).</p>
 <h4 id="16-tilfeldige-inntektertilfeldige-utgifter">§ 16. Tilfeldige inntekter/tilfeldige utgifter</h4>
 <p>Inntekts- og utgiftsføring av beløp i henhold til skattebetalingsforskriften § 10-4-3 fordeles etter gjeldende fordelingstall for personlige skattytere for det inntektsåret kravet eller innbetalingen vedrører.</p>
-<p><em>Endret ved forskrift 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endret ved forskrift 28 nov 2018 nr. 1778 (i kraft 1 jan 2019).</p>
 <h4 id="17-herrelse-skatte-og-ansvarsbelp">§ 17. Herreløse skatte- og ansvarsbeløp</h4>
 <p>Uidentifiserbare innbetalinger, skattetrekk som ikke kan fordeles samt utbetalinger som ikke kan gjennomføres på grunn av ukjent adresse mv., skal 3 år etter utløpet av det regnskapsår beløpet oppstod, fordeles til staten.</p>
 <h2 id="kapittel-5-ikrafttredelse-mv">Kapittel 5. Ikrafttredelse mv.</h2>
 <h4 id="18-ikrafttredelse-mv">§ 18. Ikrafttredelse mv.</h4>
 <p>Forskriften trer i kraft straks. Fra samme tidspunkt oppheves forskrift 18. desember 2008 nr. 1432 om gjennomføringen av fordeling av skatt mv. mellom skattekreditorene.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,221 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1946-12-13-22.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om krigspensjonering for sivile m.v." href="../feeds/lov-1946-12-13-22.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Lov om krigspensjonering for sivile m.v.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1946-12-13-22</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Pensjons- og trygderett &raquo; Utenfor folketrygdloven &raquo; Krigspensjon</dd>
-<dt>Ikrafttredelse</dt><dd>1946-12-13</dd>
-<dt>Sist endret</dt><dd>lov/2024-05-24-24</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1946-12-13-22" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapitel-i-omfang">Kapitel I. Omfang.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#kapitel-ii-ytelser-under-sykdom">Kapitel II. Ytelser under sykdom.</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#kapitel-iii-ytelser-under-invaliditet">Kapitel III. Ytelser under invaliditet.</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12-opphevet">§ 12. (Opphevet)</a></li>
+<li class="lvl4"><a href="#13-opphevet">§ 13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl2"><a href="#kapitel-iv-ytelser-ved-ddsfall">Kapitel IV. Ytelser ved dødsfall.</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+<li class="lvl4"><a href="#17">§ 17</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl2"><a href="#kapitel-v-pensjonsgrunnlag">Kapitel V. Pensjonsgrunnlag.</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl2"><a href="#kapitel-vi-om-fradrag-i-ytelsene">Kapitel VI. Om fradrag i ytelsene.</a></li>
+<li class="lvl4"><a href="#22-opphevet">§ 22. (Opphevet)</a></li>
+<li class="lvl4"><a href="#23">§ 23</a></li>
+<li class="lvl4"><a href="#24">§ 24</a></li>
+<li class="lvl2"><a href="#kapitel-vii-dekning-av-utgifter">Kapitel VII. Dekning av utgifter.</a></li>
+<li class="lvl4"><a href="#25">§ 25</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl4"><a href="#27-opphevet">§ 27. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapitel-viii-forskjellige-bestemmelser">Kapitel VIII. Forskjellige bestemmelser.</a></li>
+<li class="lvl4"><a href="#28">§ 28</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl4"><a href="#30-opphevet">§ 30. (Opphevet)</a></li>
+<li class="lvl4"><a href="#31">§ 31</a></li>
+<li class="lvl4"><a href="#32">§ 32</a></li>
+<li class="lvl4"><a href="#33">§ 33</a></li>
+<li class="lvl4"><a href="#34">§ 34</a></li>
+<li class="lvl4"><a href="#35">§ 35</a></li>
+<li class="lvl4"><a href="#36">§ 36</a></li>
+<li class="lvl4"><a href="#37">§ 37</a></li>
+<li class="lvl4"><a href="#38">§ 38</a></li>
+<li class="lvl4"><a href="#38-a">§ 38 a</a></li>
+<li class="lvl4"><a href="#39">§ 39</a></li>
+<li class="lvl4"><a href="#40-opphevet">§ 40. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41">§ 41</a></li>
+<li class="lvl4"><a href="#42-opphevet">§ 42. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43">§ 43</a></li>
+<li class="lvl2"><a href="#kapitel-ix-overgangsbestemmelser">Kapitel IX. Overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#44">§ 44</a></li>
+<li class="lvl4"><a href="#45">§ 45</a></li>
+<li class="lvl4"><a href="#46">§ 46</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-05-24-24.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1946-12-13-22.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om krigspensjonering for hjemmestyrkepersonell og sivilpersoner</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1946-12-13-22.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1946-12-13-22 <code>lov/1946-12-13-22</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om krigspensjonering for sivile m.v.</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Pensjons- og trygderett &raquo; Utenfor folketrygdloven &raquo; Krigspensjon</td></tr>
+<tr><th>Ikrafttredelse</th><td>13.12.1946</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-05-24-24 <code>lov/2024-05-24-24</code> fra 01.06.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1946-12-13-22" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapitel-i-omfang">Kapitel I. Omfang.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#kapitel-ii-ytelser-under-sykdom">Kapitel II. Ytelser under sykdom.</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#kapitel-iii-ytelser-under-invaliditet">Kapitel III. Ytelser under invaliditet.</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12-opphevet">§ 12. (Opphevet)</a></li>
+<li class="lvl4"><a href="#13-opphevet">§ 13. (Opphevet)</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl2"><a href="#kapitel-iv-ytelser-ved-ddsfall">Kapitel IV. Ytelser ved dødsfall.</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+<li class="lvl4"><a href="#17">§ 17</a></li>
+<li class="lvl4"><a href="#18-opphevet">§ 18. (Opphevet)</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl2"><a href="#kapitel-v-pensjonsgrunnlag">Kapitel V. Pensjonsgrunnlag.</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl2"><a href="#kapitel-vi-om-fradrag-i-ytelsene">Kapitel VI. Om fradrag i ytelsene.</a></li>
+<li class="lvl4"><a href="#22-opphevet">§ 22. (Opphevet)</a></li>
+<li class="lvl4"><a href="#23">§ 23</a></li>
+<li class="lvl4"><a href="#24">§ 24</a></li>
+<li class="lvl2"><a href="#kapitel-vii-dekning-av-utgifter">Kapitel VII. Dekning av utgifter.</a></li>
+<li class="lvl4"><a href="#25">§ 25</a></li>
+<li class="lvl4"><a href="#26-opphevet">§ 26. (Opphevet)</a></li>
+<li class="lvl4"><a href="#27-opphevet">§ 27. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapitel-viii-forskjellige-bestemmelser">Kapitel VIII. Forskjellige bestemmelser.</a></li>
+<li class="lvl4"><a href="#28">§ 28</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl4"><a href="#30-opphevet">§ 30. (Opphevet)</a></li>
+<li class="lvl4"><a href="#31">§ 31</a></li>
+<li class="lvl4"><a href="#32">§ 32</a></li>
+<li class="lvl4"><a href="#33">§ 33</a></li>
+<li class="lvl4"><a href="#34">§ 34</a></li>
+<li class="lvl4"><a href="#35">§ 35</a></li>
+<li class="lvl4"><a href="#36">§ 36</a></li>
+<li class="lvl4"><a href="#37">§ 37</a></li>
+<li class="lvl4"><a href="#38">§ 38</a></li>
+<li class="lvl4"><a href="#38-a">§ 38 a</a></li>
+<li class="lvl4"><a href="#39">§ 39</a></li>
+<li class="lvl4"><a href="#40-opphevet">§ 40. (Opphevet)</a></li>
+<li class="lvl4"><a href="#41">§ 41</a></li>
+<li class="lvl4"><a href="#42-opphevet">§ 42. (Opphevet)</a></li>
+<li class="lvl4"><a href="#43">§ 43</a></li>
+<li class="lvl2"><a href="#kapitel-ix-overgangsbestemmelser">Kapitel IX. Overgangsbestemmelser.</a></li>
+<li class="lvl4"><a href="#44">§ 44</a></li>
+<li class="lvl4"><a href="#45">§ 45</a></li>
+<li class="lvl4"><a href="#46">§ 46</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1946-12-13-22.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1946-12-13-22.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1946-12-13-22.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1946-12-13-22.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1946-12-13-22.html">Observerte kildeutgaver</a> · <a href="../historie/lov-om-krigspensjonering-for-sivile-m-v.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1946-12-13-22.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1946-12-13-22.html">Observerte kildeutgaver</a> · <a href="../historie/krigspensjonering-for-sivile-m-v.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1946-12-13-22.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-krigspensjonering-for-hjemmestyrkepersonell-og-sivilpersoner">Lov om krigspensjonering for hjemmestyrkepersonell og sivilpersoner</h1>
 <h2 id="kapitel-i-omfang">Kapitel I. Omfang.</h2>
 <h4 id="1">§ 1</h4>
 <ol>
@@ -90,7 +247,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Vedtak som Arbeids- og velferdsdirektoratet treffer etter denne paragraf, kan påklages til departementet.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 17 des 1993 nr. 130 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lover 17 des 1993 nr. 130 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="2">§ 2</h4>
 <p>Krigsulykke vil si enhver skade på person som er følge av krigshendinger så som ildgivning, flyangrep, bombe- eller granateksplosjoner, torpedering og minesprengning og videre skade på person påført på grunn av patriotisk arbeid eller holdning.</p>
 <p>Når det finnes rimelig kan det også for andre skader som er påført en person ved hendinger som skyldes krigen ytes hel eller delvis erstatning etter denne lov.</p>
@@ -105,12 +262,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Gruppe 3.
   Andre sivilpersoner og personer som hører under foran nevnte grupper, når ulykken er uten sammenheng med de nevnte tjeneste- eller arbeidsforhold.</li>
 </ul>
-<p><em>Endret ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h2 id="kapitel-ii-ytelser-under-sykdom">Kapitel II. Ytelser under sykdom.</h2>
 <h4 id="4">§ 4</h4>
 <p>Under krigsbetinget sykdom, jfr. kapittel I ytes fri sykebehandling og sykepenger etter bestemmelsene i dette kapittel, jfr. dog § 24 sjette ledd.</p>
 <p>Kongen kan i forskrift gi nærmere regler om refusjon av utgifter ved sykebehandling etter denne lov.</p>
-<p><em>Endret ved lover 18 des 1964 nr. 12, 13 juni 1980 nr. 45 , 14 juni 2002 nr. 22 .</em></p>
+<p class="note">Endret ved lover 18 des 1964 nr. 12, 13 juni 1980 nr. 45 , 14 juni 2002 nr. 22 .</p>
 <h4 id="5">§ 5</h4>
 <p>Sykebehandlingen består i nødvendig legehjelp, medisin, kur og pleie – i tilfelle på sykehus eller annen kuranstalt – fra skaden inntraff og så lenge det trenges. Videre betales nødvendige utgifter i anledning av reise til og fra lege, sykehus eller annen kuranstalt.</p>
 <p>For politiske fanger tilståes hjelp etter første ledd fra det tidspunkt de slapp ut av fangenskapet.</p>
@@ -129,46 +286,46 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Får den skadede fri kur og pleie i institusjon under statlig ansvar, eller i anstalt under kriminalomsorgen, ytes stønad med uforandret beløp til og med den tredje kalendermåneden etter den måneden forpleiningen tok til. Dersom innlegging er for skade eller sykdom som går inn under loven her, ytes full invalidepensjon med eventuelle forsørgingstillegg. Ved forpleining ut over nevnte tidsrom skal det til enslig person utbetales så stor del av nevnte ytelse at denne sammen med eventuelle andre pensjons- og trygdeytelser, svarer til 37 prosent av den fulle invalidepensjon, dog ikke mer enn nevnt i første ledd. For den som forsørger ektefelle og barn, skal slik stønad ut over nevnte tidsrom svare til en fjerdedel av folketrygdens grunnbeløp tillagt familiestønad etter reglene i §§ 17 og 19 , dog ikke mer enn nevnt i første ledd. Bestemmelsene i første og andre ledd gjelder ikke for opphold i somatiske sykehusavdelinger. Kongen kan gi nærmere regler om ytelser under fri kur og pleie etter denne lov. Bestemmelsen i nr. 1 annet ledd gjelder på tilsvarende måte. Bestemmelsen etter annet ledd om full minsteytelse på 37 prosent skal også gjelde ved innleggelse i sykehjem m.v.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 12 juni 1959 nr. 4, 18 des 1964 nr. 12, 16 des 1966 nr. 12, 17 apr 1970 nr. 20, 13 juni 1980 nr. 45 , 18 des 1981 nr. 94 , 11 juli 1986 nr. 55 , 26 mai 1989 nr. 24 , 21 des 1990 nr. 80 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</em></p>
+<p class="note">Endret ved lover 12 juni 1959 nr. 4, 18 des 1964 nr. 12, 16 des 1966 nr. 12, 17 apr 1970 nr. 20, 13 juni 1980 nr. 45 , 18 des 1981 nr. 94 , 11 juli 1986 nr. 55 , 26 mai 1989 nr. 24 , 21 des 1990 nr. 80 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</p>
 <h4 id="7">§ 7</h4>
 <p>Barnetillegg ytes med kr. 1.350 årlig for det første forsørgede barn under 18 år, og kr. 900 årlig for hvert følgende forsørget barn. Ved delvis sykmelding reduseres tillegget tilsvarende.</p>
 <p>For adoptivbarn og fosterbarn som forsørges av den skadede, ytes ikke barnetillegg etter de virkelige foreldre.</p>
 <p>Forlenget barnetillegg ytes etter bestemmelsen i lov av 29. juni 1951 nr. 34 avsnitt III nr. 3.</p>
-<p><em>Endret ved lover 19 juni 1953 nr. 2, 39 nov 1956 nr. 3, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</em></p>
+<p class="note">Endret ved lover 19 juni 1953 nr. 2, 39 nov 1956 nr. 3, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</p>
 <h2 id="kapitel-iii-ytelser-under-invaliditet">Kapitel III. Ytelser under invaliditet.</h2>
 <h4 id="8">§ 8</h4>
 <p>Får den skadede, etter endt sykebehandling, mén som medfører fullstendig eller delvis tap av ervervsevnen, har han etter fylte 18 år rett til invalidpensjon.</p>
 <p>Barn som får mén som nevnt i første ledd, kan også før fylte 18 år, når det finnes rimelig, tilståes invalidpensjon som fastsettes skjønnsmessig etter invaliditetsgraden og vedkommendes alder. Pensjonen skal ikke overstige minstepensjon for den gruppe vedkommende tilhører.</p>
 <p>Ved bedømmelsen av tapet av ervervsevne skal det tas hensyn til skadedes muligheter for ervervsmessig inntekt før og etter skaden. Det kan også tas særskilt hensyn til skadens medisinske art og størrelse.</p>
 <p>Har en skadet rett til delvis invalidepensjon når tilbakefall (forverrelse) inntrer, er arbeidsgiverens rett til å kreve refusjon i eller gjøre fradrag for sykepenger, jfr. § 6 nr. 1 og nr. 4, begrenset til det beløp som kontantstønaden forhøyes med på grunn av tilbakefallet (forverrelsen).</p>
-<p><em>Endret ved lover 12 juni 1959 nr. 4, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12.</em></p>
+<p class="note">Endret ved lover 12 juni 1959 nr. 4, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12.</p>
 <h4 id="9">§ 9</h4>
 <p>Invalidpensjonen beregnes til 75 % av pensjonsgrunnlaget.</p>
 <p>Ved fullstendig tap av ervervsevnen ytes hel pensjon og ved nedsatt ervervsevne avkortet pensjon. Den skadede har dog ikke rett til invalidpensjon hvis ervervsevnen er nedsatt med mindre enn 8 1/3 prosent.</p>
-<p><em>Endret ved lov 18 des 1964 nr. 12.</em></p>
+<p class="note">Endret ved lov 18 des 1964 nr. 12.</p>
 <h4 id="10">§ 10</h4>
 <p>Til anskaffelse av kunstige lemmer eller andre hjelpemidler skal det tilståes invaliden passende bidrag (protesebidrag). Det kan også ytes bidrag til vedlikehold og fornyelse av slike hjelpemidler.</p>
 <p>Nødvendig sykehusbehandling etter at invaliditeten er fastslått, ytes etter kap. II . Bestemmelsen i § 6 nr. 4 gjelder tilsvarende.</p>
-<p><em>Endret ved lover 16 des 1966 nr. 12, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 16 des 1966 nr. 12, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="11">§ 11</h4>
 <p>Tillegg for forsørget barn under 18 år ytes når invalidens ervervsevne er nedsatt med 20 prosent eller mer. Tillegget utgjør ved full invaliditet kr. 1.350 årlig for det første forsørgede barn og kr. 900 årlig for hvert følgende forsørget barn. Ved delvis invaliditet reduseres tillegget tilsvarende. Barnetillegg gis fra den første dag i måneden etter at barnet er født, og løper til og med den måned da retten til barnetillegg opphører. Ved dødsfall løper tillegget ut måneden etter vedkommendes død.</p>
 <p>Paragraf 7 annet og tredje ledd får tilsvarende anvendelse.</p>
-<p><em>Endret ved lover 19 juni 1953 nr. 2, 19 des 1958 nr. 20, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</em></p>
+<p class="note">Endret ved lover 19 juni 1953 nr. 2, 19 des 1958 nr. 20, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</p>
 <h4 id="12-opphevet">§ 12. (Opphevet)</h4>
-<p><em>Endret ved lover 13 juni 1980 nr. 45 , 20 des 1991 nr. 90 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</em></p>
+<p class="note">Endret ved lover 13 juni 1980 nr. 45 , 20 des 1991 nr. 90 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</p>
 <h4 id="13-opphevet">§ 13. (Opphevet)</h4>
-<p><em>Endret ved lover 13 juni 1980 nr. 45 , 20 des 1991 nr. 90 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</em></p>
+<p class="note">Endret ved lover 13 juni 1980 nr. 45 , 20 des 1991 nr. 90 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</p>
 <h4 id="14">§ 14</h4>
 <p>Invaliden kan tilstås bidrag til utdannelse, yrkesopplæring eller hjelp til erverv, når det antas at invaliden kan få varig nytte av dette og han selv ikke har midler til å bekoste det. Bidragene til hver invalid til dette formål må i alt ikke overstige kr. 5.000.</p>
-<p><em>Endret ved lover 30 nov 1956 nr. 3, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 30 nov 1956 nr. 3, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="15">§ 15</h4>
 <p>Blir invaliditetsgraden fastsatt endelig til mindre enn 20 %, skal invalidpensjonen utløses med et beløp en gang for alle som svarer til pensjonen for 6 år.</p>
 <p>– – –</p>
-<p><em>Endret ved lover 17 apr 1970 nr. 20, 18 des 1998 nr. 86 (ikr. 1 sep 1999, endringene i bestemmelsene om kapitalutløsning gjelder ikke for den som har satt fram krav om og fyller vilkårene for kapitalutløsning før 1 sep 1999, se § 46 ).</em></p>
+<p class="note">Endret ved lover 17 apr 1970 nr. 20, 18 des 1998 nr. 86 (ikr. 1 sep 1999, endringene i bestemmelsene om kapitalutløsning gjelder ikke for den som har satt fram krav om og fyller vilkårene for kapitalutløsning før 1 sep 1999, se § 46 ).</p>
 <h2 id="kapitel-iv-ytelser-ved-ddsfall">Kapitel IV. Ytelser ved dødsfall.</h2>
 <h4 id="16">§ 16</h4>
 <p>Til flytting av grav kan ytes bidrag med inntil 15 prosent av folketrygdens grunnbeløp.</p>
-<p><em>Endret ved lover 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</em></p>
+<p class="note">Endret ved lover 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</p>
 <h4 id="17">§ 17</h4>
 <ol>
 <li>
@@ -181,9 +338,9 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Rett til enke- eller enkemannspensjon inntrer ikke hvis ekteskapet er inngått etter at avdøde ble skadet, og ekteskapet ikke har vart i minst fem år. Når særlige grunner taler for det, kan det tilstås hel eller delvis pensjon selv om ekteskapet ikke har vart i fem år. Enkepensjonen faller bort hvis enken gifter seg igjen. Blir hun igjen enke eller blir det nye ekteskap oppløst ved skilsmisse, og gjør hennes økonomiske forhold det rimelig, kan hun tilstås pensjon med inntil forskjellen mellom enkepensjonen etter bestemmelsene i denne lov og underhold eller pensjon hun måtte være sikret gjennom seinere ekteskap. Bestemmelsene gjelder tilsvarende for enkemannspensjon. I særlige tilfelle kan det ytes enkepensjon helt eller delvis til kvinne som før skaden inntraff har levd sammen med avdøde og har barn med ham. Enkepensjonen løper fra og med den måned da mannen dør og til og med måneden etter den måned hvori enken dør. Gifter enken seg igjen, løper pensjonen til og med den måned da det nye ekteskap inngås. Får enken fri kur og pleie i institusjon under statlig ansvar, eller i anstalt under kriminalomsorgen, ytes stønad med uforandret beløp til og med den tredje kalendermåneden etter den måneden da forpleiningen tok til. Ved forpleining ut over dette tidsrom skal det til enslig person utbetales så stor del av nevnte ytelse at denne sammen med eventuelle andre pensjons- og trygdeytelser, svarer til 37 prosent av full enkepensjon, dog ikke mer enn nevnt i første punktum. For den som forsørger barn, skal slik stønad ut over nevnte tidsrom svare til en fjerdedel av folketrygdens grunnbeløp tillagt barnepensjon etter denne lovs § 19 annet ledd, dog ikke mer enn nevnt i første punktum. For øvrig gjelder bestemmelsene i § 6 nr. 4 fjerde og sjette ledd tilsvarende. Bestemmelsene i leddet her gjelder ikke for opphold i somatiske sykehusavdelinger.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 30 nov 1956 nr. 3, 19 des 1958 nr. 20, 6 apr 1962 nr. 16, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 18 mai 1973 nr. 23 , 13 juni 1980 nr. 45 , 18 des 1981 nr. 94 , 11 juli 1986 nr. 55 , 26 mai 1989 nr. 24 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</em></p>
+<p class="note">Endret ved lover 30 nov 1956 nr. 3, 19 des 1958 nr. 20, 6 apr 1962 nr. 16, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 18 mai 1973 nr. 23 , 13 juni 1980 nr. 45 , 18 des 1981 nr. 94 , 11 juli 1986 nr. 55 , 26 mai 1989 nr. 24 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</p>
 <h4 id="18-opphevet">§ 18. (Opphevet)</h4>
-<p><em>Endret ved lov 13 juni 1980 nr. 45 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</em></p>
+<p class="note">Endret ved lov 13 juni 1980 nr. 45 , opphevet ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</p>
 <h4 id="19">§ 19</h4>
 <p>For avdødes barn, jfr. § 7 , annet ledd, ytes pensjon på samme vilkår som fastsatt for enkepensjonen i § 17 nr. 1. Pensjon ytes i tilfelle etter disse satser: For første barn 40 prosent av folketrygdens grunnbeløp og for hvert av de øvrige barn 25 prosent av grunnbeløpet.</p>
 <p>Er begge foreldrene døde, skal pensjonen for første barn svare til enkepensjonen, dog minst 2/3 av full enkepensjon. Pensjonen for neste barn utgjør 40 prosent av det grunnbeløp som er nevnt i første ledd og pensjonen for hvert av de øvrige barn 25 prosent av grunnbeløpet. Når det for barn i gruppe 1 gjelder å opprettholde foreldrehjemmet eller å holde familien sammen med egen husholdning, kan det tilstås et tillegg på inntil 40 prosent av pensjonen for første foreldreløse barn (husholdstillegg).</p>
@@ -194,18 +351,18 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Barnepensjonen løper også om enken (enkemannen) gifter seg på ny.</p>
 <p>Til hvert barn tilhørende gruppe I utbetales ved barnets fylte 18 år et kontantbeløp på kr. 2.000.</p>
 <p>Til barn som får fri kur og pleie i institusjon under statlig ansvar, eller i anstalt under kriminalomsorgen, skal pensjonen etter utløpet av den tredje kalendermåned etter den måned da forpleiningen tok til, utgjøre 37 prosent av barnepensjonen utenfor institusjon og ikke mindre enn 25 prosent av folketrygdens grunnbeløp. Barnepensjon til søsken av barn i institusjon skal omregnes og ytes med det beløp som vedkommende søsken ville få om de alene var berettiget til barnepensjon. Bestemmelsene i leddet her gjelder ikke for opphold i somatiske sykehusavdelinger.</p>
-<p><em>Endret ved lover 19 des 1958 nr. 20, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 13 juni 1980 nr. 45 , 12 des 1981 nr. 94, 11 juli 1986 nr. 55 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</em></p>
+<p class="note">Endret ved lover 19 des 1958 nr. 20, 1 feb 1963 nr. 3 , 18 des 1964 nr. 12, 16 des 1966 nr. 12, 22 mars 1968 nr. 4, 13 juni 1980 nr. 45 , 12 des 1981 nr. 94, 11 juli 1986 nr. 55 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ).</p>
 <h4 id="20">§ 20</h4>
 <p>Til avdødes foreldre (herunder adoptivforeldre), søsken under 18 år og besteforeldre kan tilståes pensjon dersom de ikke kan underholde seg selv, og avdøde før han ble påført skaden bidro vesentlig til deres underhold, eller det må ansees sannsynlig at avdøde ville kommet til å bidra vesentlig til deres underhold, dersom skaden ikke var inntruffet. Pensjonene beregnes skjønnsmessig til et beløp som står i et rimelig forhold til det underhold avdøde har ytt dem tidligere eller framtidig må antas å ville ha ytt dem, dog slik at de sammenlagt ikke overstiger minstepensjonen for enker i vedkommende gruppe.</p>
 <h2 id="kapitel-v-pensjonsgrunnlag">Kapitel V. Pensjonsgrunnlag.</h2>
 <h4 id="21">§ 21</h4>
 <p>Pensjonsgrunnlaget (antatt årsinntekt i 1946) for personer i gruppe 1 skal være kr 10.000.</p>
 <p>For personer i gruppe 2 er pensjonsgrunnlaget kr 4.000 og for personer i gruppe 3 kr 3.200.</p>
-<p><em>Endret ved lover 18 juni 1954 nr. 3, 22 mars 1968 nr. 4, 13 juni 1980 nr. 45 , 24 mai 1985 nr. 34 , 20 des 1991 nr. 90 , 9 des 1994 nr. 65 (ikr. 1 mai 1995), 18 des 1998 nr. 86 (ikr. 1 sep 1999).</em></p>
+<p class="note">Endret ved lover 18 juni 1954 nr. 3, 22 mars 1968 nr. 4, 13 juni 1980 nr. 45 , 24 mai 1985 nr. 34 , 20 des 1991 nr. 90 , 9 des 1994 nr. 65 (ikr. 1 mai 1995), 18 des 1998 nr. 86 (ikr. 1 sep 1999).</p>
 <h2 id="kapitel-vi-om-fradrag-i-ytelsene">Kapitel VI. Om fradrag i ytelsene.</h2>
 <p>Overskriften endret ved lov 13 juni 1980 nr. 45 .</p>
 <h4 id="22-opphevet">§ 22. (Opphevet)</h4>
-<p><em>Opphevet ved lov 13 juni 1980 nr. 45 .</em></p>
+<p class="note">Opphevet ved lov 13 juni 1980 nr. 45 .</p>
 <h4 id="23">§ 23</h4>
 <ol>
 <li>
@@ -215,7 +372,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Pensjon etter denne lov settes ned med uføre-, alders- og etterlattepensjon som vedkommende har rett til i medhold av utenlandsk lov. Er pensjonen etter loven her gitt etter en lavere uføregrad enn 100 prosent, skal fradragsbeløpet avkortes forholdsmessig. I tillegg til den resterende pensjon gis et beløp som svarer til 1/4 av folketrygdens grunnbeløp eller en forholdsmessig del av dette beløp dersom pensjonen etter loven her er gitt etter en lavere uføregrad enn 100 prosent. Tillegget skal likevel ikke overstige fradraget i henhold til første ledd. Tillegg gis ikke til barnepensjon som er gitt etter § 19 første ledd. Departementet kan gi regler om gjennomføringen av bestemmelsene i første og annet ledd, herunder regler om eventuell begrensning av fradraget og i hvilken rekkefølge samordning og begrensning skal foretas når vedkommende også har rett til annen norsk pensjon ved siden av utenlandsk pensjon.</p>
 </li>
 </ol>
-<p><em>Opphevet ved lover 19 juni 1953 nr. 2, 6 juli 1957 nr. 36. Tilføyd ved lov 16 des 1966 nr. 12, endret ved lover 29 mars 1968 nr. 3, 19 des 1969 nr. 92, 17 mars 1972 nr. 10, 15 des 1972 nr. 86, 13 juni 1980 nr. 45 , 23 des 1988 nr. 110 , 26 mai 1989 nr. 24 , 16 juni 1994 nr. 22 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 6 juni 1997 nr. 36 (ikr. 1 jan 1998), 21 des 2001 nr. 118 (ikr. 1 jan 2002), 20 juni 2003 nr. 55 (ikr. 1 jan 2004), 17 des 2004 nr. 85 (ikr. 1 jan 2005), 19 des 2008 nr. 106 (ikr. 1 mars 2010 iflg. res. 19 feb 2010 nr. 189 ), 25 juni 2010 nr. 29 (ikr. 1 jan 2011), 16 des 2011 nr. 58 (ikr. 1 jan 2012), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ), 16 juni 2023 nr. 35 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 904 ).</em></p>
+<p class="note">Opphevet ved lover 19 juni 1953 nr. 2, 6 juli 1957 nr. 36. Tilføyd ved lov 16 des 1966 nr. 12, endret ved lover 29 mars 1968 nr. 3, 19 des 1969 nr. 92, 17 mars 1972 nr. 10, 15 des 1972 nr. 86, 13 juni 1980 nr. 45 , 23 des 1988 nr. 110 , 26 mai 1989 nr. 24 , 16 juni 1994 nr. 22 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 6 juni 1997 nr. 36 (ikr. 1 jan 1998), 21 des 2001 nr. 118 (ikr. 1 jan 2002), 20 juni 2003 nr. 55 (ikr. 1 jan 2004), 17 des 2004 nr. 85 (ikr. 1 jan 2005), 19 des 2008 nr. 106 (ikr. 1 mars 2010 iflg. res. 19 feb 2010 nr. 189 ), 25 juni 2010 nr. 29 (ikr. 1 jan 2011), 16 des 2011 nr. 58 (ikr. 1 jan 2012), 20 juni 2014 nr. 24 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 799 ), 16 juni 2023 nr. 35 (i kraft 1 jan 2024 iflg. res. 16 juni 2023 nr. 904 ).</p>
 <h4 id="24">§ 24</h4>
 <p>Har noen rett til invalidpensjon eller sykepenger etter denne lov eller etter loven om krigspensjonering for militærpersoner eller etter en av lovene om ulykkestrygd for industriarbeidere m.v., sjømenn eller fiskere eller etter lov om yrkesskadetrygd skal den samlede erstatning ikke overstige hva skadede ved 100 % invaliditet har krav på etter den lov som gir ham høyest erstatning.</p>
 <p>Er vilkårene til stede for å yte samme person både invalidpensjon eller sykepenger og enkepensjon etter denne lov, eller invalidpensjon eller sykepenger etter denne lov og enkepensjon etter loven om krigspensjonering for militærpersoner, skal invalidpensjonen eller sykepengene reduseres med 50 pst., dog ikke ut over 50 pst. av enkepensjonen.</p>
@@ -224,31 +381,31 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Får begge foreldre sykepenger eller invalidepensjon eller den ene sykepenger og den annen invalidepensjon, regnes barnetillegg bare for den som betinger det høyeste tillegget.</p>
 <p>Rett til fri sykebehandling og sykepenger etter kapittel II faller bort i den utstrekning tilsvarende ytelser gis etter lov om folketrygd, for offentlig regning etter annen lovgivning eller fra fremmed stat.</p>
 <p>Dersom det ytes invalidepensjon etter §§ 8 og 9 samtidig med sykepenger etter lov om folketrygd, kommer sykepengene fra folketrygden til fradrag i den utstrekning ytelsene dekker samme tap av ervervsevne.</p>
-<p><em>Endret ved lover 6 juli 1957 nr. 36, 12 des 1958 nr. 14, 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</em></p>
+<p class="note">Endret ved lover 6 juli 1957 nr. 36, 12 des 1958 nr. 14, 18 des 1964 nr. 12, 13 juni 1980 nr. 45 .</p>
 <h2 id="kapitel-vii-dekning-av-utgifter">Kapitel VII. Dekning av utgifter.</h2>
 <h4 id="25">§ 25</h4>
 <p>Utgiftene til ytelser etter denne lov og til administrasjon dekkes av staten.</p>
-<p><em>Opphevet ved lov 16 des 1966 nr. 12, tilføyd ved lov 21 des 1990 nr. 80 .</em></p>
+<p class="note">Opphevet ved lov 16 des 1966 nr. 12, tilføyd ved lov 21 des 1990 nr. 80 .</p>
 <h4 id="26-opphevet">§ 26. (Opphevet)</h4>
-<p><em>Endret ved lover 25 feb 1949 nr. 3, 18 juni 1954 nr. 3, 31 mai 1956 nr. 4, 6 juli 1957 nr. 18 , opphevet ved lov 16 des 1966 nr. 12.</em></p>
+<p class="note">Endret ved lover 25 feb 1949 nr. 3, 18 juni 1954 nr. 3, 31 mai 1956 nr. 4, 6 juli 1957 nr. 18 , opphevet ved lov 16 des 1966 nr. 12.</p>
 <h4 id="27-opphevet">§ 27. (Opphevet)</h4>
-<p><em>Endret ved lover 6 juni 1957 nr. 18, 12 des 1958 nr. 14, opphevet ved lov 16 des 1966 nr. 12.</em></p>
+<p class="note">Endret ved lover 6 juni 1957 nr. 18, 12 des 1958 nr. 14, opphevet ved lov 16 des 1966 nr. 12.</p>
 <h2 id="kapitel-viii-forskjellige-bestemmelser">Kapitel VIII. Forskjellige bestemmelser.</h2>
 <h4 id="28">§ 28</h4>
 <p>Krigspensjoneringen administreres av Arbeids- og velferdsetaten.</p>
 <p>Vedtak etter denne loven fattes av Arbeids- og velferdsdirektoratet, som kan delegere vedtaksmyndighet til underliggende organer.</p>
-<p><em>Endret ved lover 16 des 1966 nr. 10, 29 jan 1971 nr. 8, 21 des 1990 nr. 80 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 16 des 1966 nr. 10, 29 jan 1971 nr. 8, 21 des 1990 nr. 80 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="29-opphevet">§ 29. (Opphevet)</h4>
-<p><em>Opphevet ved lov 16 des 1966 nr. 10.</em></p>
+<p class="note">Opphevet ved lov 16 des 1966 nr. 10.</p>
 <h4 id="30-opphevet">§ 30. (Opphevet)</h4>
-<p><em>Opphevet ved lov 16 des 1966 nr. 10.</em></p>
+<p class="note">Opphevet ved lov 16 des 1966 nr. 10.</p>
 <h4 id="31">§ 31</h4>
 <p>For pensjonstaker som har bopel i utlandet, faller retten til ytelser bort. Er han norsk statsborger får han denne rett tilbake når han igjen bosetter seg i riket. Ytelsene regnes i så fall fra den dag han gjør kravet gjeldende for Arbeids- og velferdsetaten. Når det finnes rimelig, kan det gjøres unntak fra denne regel.</p>
-<p><em>Endret ved lover 30 nov 1956 nr. 3, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 30 nov 1956 nr. 3, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="32">§ 32</h4>
 <p>Krigspensjoneringen kan dekke krigsinvalidepensjonistens egenandeler til varig innleggelse i syke- eller aldershjem i utlandet ut over det som dekkes av bostedslandet. Dekningen begrenser seg til det som er normalt i bostedslandet.</p>
 <p>Ved egenandelsdekning etter første ledd beregnes pensjonen etter § 6 nr. 4 sjette ledd.</p>
-<p><em>Opphevet ved lov 13 juni 1980 nr. 45 , tilføyd ved lov 24 mai 2024 nr. 24 (i kraft 1 juni 2024).</em></p>
+<p class="note">Opphevet ved lov 13 juni 1980 nr. 45 , tilføyd ved lov 24 mai 2024 nr. 24 (i kraft 1 juni 2024).</p>
 <h4 id="33">§ 33</h4>
 <ol>
 <li>
@@ -258,19 +415,19 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Folketrygdloven § 22-15 gjelder tilsvarende for ytelser etter loven her.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 13 juni 1980 nr. 45 , 14 des 1984 nr. 79 , 3 juni 1988 nr. 38 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 19 des 2008 nr. 106 (ikr. 1 mars 2010 iflg. res. 19 feb 2010 nr. 189 ).</em></p>
+<p class="note">Endret ved lover 13 juni 1980 nr. 45 , 14 des 1984 nr. 79 , 3 juni 1988 nr. 38 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997), 19 des 2008 nr. 106 (ikr. 1 mars 2010 iflg. res. 19 feb 2010 nr. 189 ).</p>
 <h4 id="34">§ 34</h4>
 <p>Det kan bestemmes at barnepensjoner og barnetillegg skal utbetales til den som har omsorgen for barnet. Også ellers kan det, når særlige grunner foreligger, bestemmes at sykepenger, pensjoner eller andre ytelser skal utbetales til andre enn de berettigede.</p>
-<p><em>Endret ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="35">§ 35</h4>
 <p>Krav på pensjoner eller andre ytelser etter denne lov må snarest mulig meldes til Arbeids- og velferdsetaten på vedkommendes bosted med nødvendig legeerklæring.</p>
 <p>Arbeids- og velferdsetaten kan nekte ytelser etter kapitel II dersom krav ikke er fremsatt uten ugrunnet opphold.</p>
 <p>Rett til pensjoner og andre ytelser etter kapitel III og IV faller bort hvis det ikke er reist krav overfor Arbeids- og velferdsetaten innen tre år etter at skaden er inntruffet.</p>
 <p>Det kan ses bort fra denne fristen når særlige grunner foreligger.</p>
-<p><em>Endret ved lover 29 jan 1971 nr. 8, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 29 jan 1971 nr. 8, 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="36">§ 36</h4>
 <p>Midlertidig utbetaling av hel eller delvis pensjon kan settes i verk før pensjonskravet er endelig avgjort, når Arbeids- og velferdsetaten finner det overveiende sannsynlig at vilkårene for pensjon er til stede. Midlertidig utbetalt pensjonsbeløp blir å avregne i tilstått pensjon, men kan ikke kreves tilbakebetalt hvis pensjon ikke blir tilstått.</p>
-<p><em>Endret ved lover 22 mars 1968 nr. 4, 19 juni 1969 nr. 54 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 22 mars 1968 nr. 4, 19 juni 1969 nr. 54 , 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="37">§ 37</h4>
 <ol>
 <li>
@@ -286,16 +443,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Blir ytelsen forhøyet, gjelder bestemmelsen i nr. 1 tilsvarende. Vedtak om å nedsette eller oppheve pensjonen kan tidligst settes i verk fra den første dag i måneden etter at pensjonisten får melding om det.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 19 des 1958 nr. 20, 17 apr 1970 nr. 20, 13 juni 1980 nr. 45 , 14 des 1984 nr. 79 .</em></p>
+<p class="note">Endret ved lover 19 des 1958 nr. 20, 17 apr 1970 nr. 20, 13 juni 1980 nr. 45 , 14 des 1984 nr. 79 .</p>
 <h4 id="38">§ 38</h4>
 <p>Invalidepensjon med tillegg og pensjoner til etterlatte betales etterskottsvis for hver måned.</p>
 <p>Dersom retten til pensjonen faller bort, løper pensjonen ut måneden. Ved dødsfall løper pensjonen ut måneden etter vedkommendes død.</p>
 <p>Terminbeløp avrundes til nærmeste hele krone.</p>
 <p>Bestemmelsene i folketrygdloven § 22-7 gjelder tilsvarende.</p>
-<p><em>Endret ved lover 19 des 1958 nr. 20, 18 des 1964 nr. 12, 16 des 1966 nr. 12, 14 juni 1974 nr. 45 , 24 mai 1985 nr. 35 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</em></p>
+<p class="note">Endret ved lover 19 des 1958 nr. 20, 18 des 1964 nr. 12, 16 des 1966 nr. 12, 14 juni 1974 nr. 45 , 24 mai 1985 nr. 35 , 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</p>
 <h4 id="38-a">§ 38 a</h4>
 <p>Ved behandlingen av saker etter loven her gjelder reglene i <a href="lov-2025-06-20-81.html">forvaltningsloven</a>.</p>
-<p><em>Tilføyd ved lov 19 juni 1969 nr. 54 , endret ved lover 29 jan 1971 nr. 8, 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 1969 nr. 54 , endret ved lover 29 jan 1971 nr. 8, 28 feb 1997 nr. 19 (ikr. 1 mai 1997).</p>
 <h4 id="39">§ 39</h4>
 <ol>
 <li>
@@ -305,14 +462,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Arbeids- og velferdsetaten kan, når det finnes nødvendig for avgjørelsen av en sak etter denne lov la innhente forklaringer gjennom bevissikring etter reglene i <a href="lov-2005-06-17-90.html">tvisteloven</a> § 28-3 tredje ledd og § 28-4 eller ved politiet. Krav om bevissikring fremmes for den tingrett hvor de som skal avhøres, bor eller oppholder seg eller realbevis skal undersøkes.</p>
 </li>
 </ol>
-<p><em>Endret ved lover 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lover 26 jan 2007 nr. 3 og 21 des 2007 nr. 127 .</em></p>
+<p class="note">Endret ved lover 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ), 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lover 26 jan 2007 nr. 3 og 21 des 2007 nr. 127 .</p>
 <h4 id="40-opphevet">§ 40. (Opphevet)</h4>
-<p><em>Endret ved lover 16 des 1966 nr. 12, 16 mai 1986 nr. 21 , 13 des 1991 nr. 81 , 28 feb 1997 nr. 19 (i kraft 1 mai 1997), 6 juni 1997 nr. 35 (i kraft 1 nov 1997), opphevet ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</em></p>
+<p class="note">Endret ved lover 16 des 1966 nr. 12, 16 mai 1986 nr. 21 , 13 des 1991 nr. 81 , 28 feb 1997 nr. 19 (i kraft 1 mai 1997), 6 juni 1997 nr. 35 (i kraft 1 nov 1997), opphevet ved lov 16 juni 2006 nr. 20 (ikr. 1 juli 2006 iflg. res. 16 juni 2006 nr. 631 ).</p>
 <h4 id="41">§ 41</h4>
 <p>For reise som en lege gjør i anledning av sykebesøk hos en krigsskadet etter denne lov, tilkommer han godtgjørelse etter de regler som til enhver tid gjelder for liknende reiser etter lov om folketrygd.</p>
-<p><em>Endret ved lover 12 des 1958 nr. 14, 29 jan 1971 nr. 8.</em></p>
+<p class="note">Endret ved lover 12 des 1958 nr. 14, 29 jan 1971 nr. 8.</p>
 <h4 id="42-opphevet">§ 42. (Opphevet)</h4>
-<p><em>Opphevet ved lov 18 des 1959 nr. 11 .</em></p>
+<p class="note">Opphevet ved lov 18 des 1959 nr. 11 .</p>
 <h4 id="43">§ 43</h4>
 <p>Bestemmelsene i denne lov kan endres med virkning for enhver som har krav på ytelser etter den.</p>
 <h2 id="kapitel-ix-overgangsbestemmelser">Kapitel IX. Overgangsbestemmelser.</h2>
@@ -346,7 +503,7 @@ b. Bestemmelser av 12 mars 1941 om ulykkestrygd for kystloser i løsfart, statsl
 <p>De ytelser som utbetales etter denne lov skal ikke i noe tilfelle være mindre enn de ville ha blitt etter provisorisk anordning av 18 mai 1945 om Krigspensjonering for sivilpersoner og Stortingets vedtak av 28 februar 1946.</p>
 </li>
 </ol>
-<p><em>Endret ved lov 16 juni 1989 nr. 88 .</em></p>
+<p class="note">Endret ved lov 16 juni 1989 nr. 88 .</p>
 <h4 id="46">§ 46</h4>
 <ol>
 <li>
@@ -359,7 +516,9 @@ b. Bestemmelser av 12 mars 1941 om ulykkestrygd for kystloser i løsfart, statsl
 <p>Fastsettelse av pensjonsgrunnlag for tiden før 1. september 1999 foretas etter dagjeldende bestemmelser i denne loven § 21 .</p>
 </li>
 </ol>
-<p><em>Tilføyd ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</em></p>
+<p class="note">Tilføyd ved lov 18 des 1998 nr. 86 (ikr. 1 sep 1999).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

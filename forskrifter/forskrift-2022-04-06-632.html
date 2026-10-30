@@ -19,64 +19,269 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-04-06-632.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Dyrehelseovervåkningsforskriften" href="../feeds/forskrift-2022-04-06-632.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Dyrehelseovervåkningsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-04-06-632</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-04-28</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-28-1927</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-04-06-632" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade-og-gjennomfring">Kapittel I. Virkeområde og gjennomføring</a></li>
+<li class="lvl4"><a href="#1-saklig-virkeomrade">§ 1. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#2-stedlig-virkeomrade">§ 2. Stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#3-overvakning-utryddelsesprogrammer-og-sykdomsfri-status">§ 3. Overvåkning, utryddelsesprogrammer og sykdomsfri status</a></li>
+<li class="lvl4"><a href="#4-es-overvakningsprogrammer-og-segmenter">§ 4. EØS-overvåkningsprogrammer og segmenter</a></li>
+<li class="lvl4"><a href="#4a-godkjenning-og-anerkjenning-av-sykdomsfri-status-for-newcastlesyke-og-hypatogen-fugleinfluensa-i-segmenter-av-fjrfeanlegg">§ 4a. Godkjenning og anerkjenning av sykdomsfri status for Newcastlesyke og høypatogen fugleinfluensa i segmenter av fjørfeanlegg</a></li>
+<li class="lvl4"><a href="#5-melding-rapportering-og-sknader">§ 5. Melding, rapportering og søknader</a></li>
+<li class="lvl4"><a href="#6-godkjent-sykdomsfri-status-og-utryddelsesprogram-i-es-stater">§ 6. Godkjent sykdomsfri status og utryddelsesprogram i EØS-stater</a></li>
+<li class="lvl4"><a href="#7-godkjenning-av-nasjonale-tiltak-for-visse-akvatiske-sykdommer">§ 7. Godkjenning av nasjonale tiltak for visse akvatiske sykdommer</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-tiltak-ved-kategori-c-sykdommer-hos-akvatiske-dyr-i-omrader-med-sykdomsfri-status-eller-utryddelsesprogram">Kapittel II. Utfyllende nasjonale bestemmelser – tiltak ved kategori C-sykdommer hos akvatiske dyr i områder med sykdomsfri status eller utryddelsesprogram</a></li>
+<li class="lvl4"><a href="#8-restriksjoner-pa-a-ta-akvatiske-dyr-ut-av-eller-inn-til-et-akvakulturanlegg-kategori-c-sykdommer">§ 8. Restriksjoner på å ta akvatiske dyr ut av eller inn til et akvakulturanlegg – kategori C-sykdommer</a></li>
+<li class="lvl4"><a href="#9-restriksjoner-pa-avl-og-reproduksjon-kategori-c-sykdommer">§ 9. Restriksjoner på avl og reproduksjon – kategori C-sykdommer</a></li>
+<li class="lvl2"><a href="#kapittel-iii-avsluttende-bestemmelser">Kapittel III. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-tiltak-tilsyn-og-vedtak">§ 10. Tiltak, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#11-straff">§ 11. Straff</a></li>
+<li class="lvl4"><a href="#12-dispensasjon">§ 12. Dispensasjon</a></li>
+<li class="lvl4"><a href="#13-ikrafttredelse">§ 13. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1godkjent-sykdomsfri-og-ikke-vaksinerende-status-for-landdyr-for-visse-listefrte-sykdommer-i-norge-eller-deler-av-norge">Vedlegg 1.Godkjent sykdomsfri og ikke-vaksinerende status for landdyr for visse listeførte sykdommer i Norge eller deler av Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-2godkjent-sykdomsfri-status-for-akvatiske-dyr-for-visse-listefrte-sykdommer-i-norge-eller-deler-av-norge">Vedlegg 2.Godkjent sykdomsfri status for akvatiske dyr for visse listeførte sykdommer i Norge eller deler av Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-3">Vedlegg 3</a></li>
+<li class="lvl3"><a href="#del-i">Del I</a></li>
+<li class="lvl3"><a href="#del-2">Del 2</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2020689-om-overvakning-utryddelsesprogrammer-og-sykdomsfri-status">Konsolidert forordning (EU) 2020/689 om overvåkning, utryddelsesprogrammer og sykdomsfri status</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2020689av-17-desember-2019om-utfylling-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-overvakingsregler-utryddelsesprogrammer-og-sykdomsfri-status-for-visse-listefrte-og-nye-sykdommer">DELEGERT KOMMISJONSFORORDNING (EU) 2020/689av 17. desember 2019om utfylling av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til overvåkingsregler, utryddelsesprogrammer og sykdomsfri status for visse listeførte og nye sykdommer</a></li>
+<li class="lvl5"><a href="#del-ialminnelige-bestemmelser">DEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-iiovervaking-utryddelsesprogrammer-og-sykdomsfri-status">DEL IIOVERVÅKING, UTRYDDELSESPROGRAMMER OG SYKDOMSFRI STATUS</a></li>
+<li class="lvl5"><a href="#del-iiiovergangs-og-sluttbestemmelser">DEL IIIOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-isrlige-kasusdefinisjoner-av-sykdom-hos-landdyr">VEDLEGG ISÆRLIGE KASUSDEFINISJONER AV SYKDOM HOS LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iiunionens-overvakingsprogram">VEDLEGG IIUNIONENS OVERVÅKINGSPROGRAM</a></li>
+<li class="lvl5"><a href="#vedlegg-iiidiagnostiske-metoder-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-for-visse-sykdommer-hos-landdyr">VEDLEGG IIIDIAGNOSTISKE METODER FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS FOR VISSE SYKDOMMER HOS LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsykdomsspesifikke-krav-for-tildeling-opprettholdelse-suspensjon-og-tilbakekalling-av-sykdomsfri-status-pa-anleggsniva-samt-sykdomsspesifikke-krav-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-for-medlemsstater-eller-soner">VEDLEGG IVSYKDOMSSPESIFIKKE KRAV FOR TILDELING, OPPRETTHOLDELSE, SUSPENSJON OG TILBAKEKALLING AV SYKDOMSFRI STATUS PÅ ANLEGGSNIVÅ SAMT SYKDOMSSPESIFIKKE KRAV FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS FOR MEDLEMSSTATER ELLER SONER</a></li>
+<li class="lvl5"><a href="#vedlegg-vsykdomsspesifikke-krav-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-i-medlemsstater-og-soner">VEDLEGG VSYKDOMSSPESIFIKKE KRAV FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS I MEDLEMSSTATER OG SONER</a></li>
+<li class="lvl5"><a href="#vedlegg-visrlige-krav-med-hensyn-til-sykdommer-hos-akvatiske-dyr">VEDLEGG VISÆRLIGE KRAV MED HENSYN TIL SYKDOMMER HOS AKVATISKE DYR</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2020690-om-unionens-overvakningsprogram-og-segmenter">Konsolidert forordning (EU) 2020/690 om Unionens overvåkningsprogram og segmenter</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-2020690av-17-desember-2019om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordningeu-2016429med-hensyn-til-de-listefrte-sykdommene-som-er-omfattet-av-unionens-overvakingsprogrammer-det-geografiske-virkeomradet-for-slike-programmer-og-for-hvilke-listefrte-sykdommer-segmenter-kan-gis-status-som-sykdomsfri">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2020/690av 17. desember 2019om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning(EU) 2016/429med hensyn til de listeførte sykdommene som er omfattet av Unionens overvåkingsprogrammer, det geografiske virkeområdet for slike programmer og for hvilke listeførte sykdommer segmenter kan gis status som sykdomsfri</a></li>
+<li class="lvl5"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-ii">VEDLEGG II</a></li>
+<li class="lvl3"><a href="#konsolidert-forordningeu-20202002om-melding-rapportering-og-sknader">Konsolidert forordning(EU) 2020/2002om melding, rapportering og søknader</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-20202002av-7-desember-2020om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-melding-om-og-rapportering-av-listefrte-sykdommer-i-unionen-med-hensyn-til-formater-og-framgangsmater-for-framlegging-og-rapportering-av-unionens-overvakingsprogrammer-og-utryddelsesprogrammer-og-for-sknad-om-anerkjennelse-av-sykdomsfri-status-og-med-hensyn-til-det-databaserte-informasjonssystemet">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2020/2002av 7. desember 2020om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til melding om og rapportering av listeførte sykdommer i Unionen, med hensyn til formater og framgangsmåter for framlegging og rapportering av Unionens overvåkingsprogrammer og utryddelsesprogrammer og for søknad om anerkjennelse av sykdomsfri status og med hensyn til det databaserte informasjonssystemet</a></li>
+<li class="lvl5"><a href="#vedlegg-ilistefrte-sykdommer-som-det-skal-meldes-om-i-unionen">VEDLEGG ILISTEFØRTE SYKDOMMER SOM DET SKAL MELDES OM I UNIONEN</a></li>
+<li class="lvl5"><a href="#vedlegg-iiopplysninger-som-skal-gis-ved-melding-i-unionen-om-utbrudd-av-listefrte-sykdommer-i-samsvar-med-artikkel-3-nr-3">VEDLEGG IIOPPLYSNINGER SOM SKAL GIS VED MELDING I UNIONEN OM UTBRUDD AV LISTEFØRTE SYKDOMMER I SAMSVAR MED ARTIKKEL 3 NR. 3</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiopplysninger-som-skal-gis-ved-rapportering-i-unionen-om-pavisning-av-listefrte-sykdommer-i-samsvar-med-artikkel-4-nr-3">VEDLEGG IIIOPPLYSNINGER SOM SKAL GIS VED RAPPORTERING I UNIONEN OM PÅVISNING AV LISTEFØRTE SYKDOMMER I SAMSVAR MED ARTIKKEL 4 NR. 3</a></li>
+<li class="lvl5"><a href="#vedlegg-ivmeldings-og-rapporteringsregioner-i-medlemsstatene-i-samsvar-med-artikkel-5">VEDLEGG IVMELDINGS- OG RAPPORTERINGSREGIONER I MEDLEMSSTATENE I SAMSVAR MED ARTIKKEL 5</a></li>
+<li class="lvl5"><a href="#vedlegg-vopplysninger-om-resultatene-av-gjennomfringen-av-obligatoriske-og-frivillige-utryddelsesprogrammer-som-skal-gis-i-samsvar-med-artikkel-7-nr-2-bokstav-a">VEDLEGG VOPPLYSNINGER OM RESULTATENE AV GJENNOMFØRINGEN AV OBLIGATORISKE OG FRIVILLIGE UTRYDDELSESPROGRAMMER SOM SKAL GIS I SAMSVAR MED ARTIKKEL 7 NR. 2 BOKSTAV A)</a></li>
+<li class="lvl5"><a href="#vedlegg-vim2opplysninger-som-skal-tas-med-i-sknader-om-anerkjennelse-av-sykdomsfri-status-for-medlemsstater-eller-soner-med-hensyn-til-sykdommer-hos-landdyr-og-akvatiske-dyr-og-i-sknader-om-sykdomsfri-status-for-segmenter-med-hensyn-til-sykdommer-hos-akvatiske-dyr-i-samsvar-med-artikkel-11-m2">VEDLEGG VI►M2Opplysninger som skal tas med i søknader om anerkjennelse av sykdomsfri status for medlemsstater eller soner med hensyn til sykdommer hos landdyr og akvatiske dyr og i søknader om sykdomsfri status for segmenter med hensyn til sykdommer hos akvatiske dyr i samsvar med artikkel 11 ◄M2</a></li>
+<li class="lvl5"><a href="#vedlegg-viiopplysninger-som-skal-gis-ved-framlegging-av-utryddelsesprogrammer-i-samsvar-med-artikkel-10">VEDLEGG VIIOPPLYSNINGER SOM SKAL GIS VED FRAMLEGGING AV UTRYDDELSESPROGRAMMER I SAMSVAR MED ARTIKKEL 10</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2021620-om-godkjent-sykdomsfri-status-og-utryddelsesprogram-i-eu-stater">Konsolidert forordning (EU) 2021/620 om godkjent sykdomsfri status og utryddelsesprogram i EU-stater</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2021620av-15-april-2021om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-godkjenning-av-sykdomsfri-status-og-ikke-vaksinert-status-for-visse-medlemsstater-eller-for-soner-eller-segmenter-i-disse-medlemsstatene-med-hensyn-til-visse-listefrte-sykdommer-og-godkjenning-av-utryddelsesprogrammer-for-disse-listefrte-sykdommene">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2021/620av 15. april 2021om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til godkjenning av sykdomsfri status og ikke-vaksinert status for visse medlemsstater eller for soner eller segmenter i disse medlemsstatene med hensyn til visse listeførte sykdommer og godkjenning av utryddelsesprogrammer for disse listeførte sykdommene</a></li>
+<li class="lvl5"><a href="#vedlegg-iinfeksjon-medbrucella-abortus-b-melitensisogb-suis">VEDLEGG IINFEKSJON MEDBRUCELLA ABORTUS, B. MELITENSISOGB. SUIS</a></li>
+<li class="lvl5"><a href="#vedlegg-iiinfeksjon-medmycobacterium-tuberculosis-kompleks-m-bovis-m-capraeogm-tuberculosis-mtbc">VEDLEGG IIINFEKSJON MEDMYCOBACTERIUM TUBERCULOSIS-KOMPLEKS (M. BOVIS, M. CAPRAEOGM. TUBERCULOSIS) (MTBC)</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiinfeksjon-med-rabiesvirus-rabv">VEDLEGG IIIINFEKSJON MED RABIESVIRUS (RABV)</a></li>
+<li class="lvl5"><a href="#vedlegg-ivenzootisk-bovin-leukose-ebl">VEDLEGG IVENZOOTISK BOVIN LEUKOSE (EBL)</a></li>
+<li class="lvl5"><a href="#vedlegg-vinfeksis-bovin-rhinotrakeittinfeksis-pustuls-vulvovaginitt-ibripv">VEDLEGG VINFEKSIØS BOVIN RHINOTRAKEITT/INFEKSIØS PUSTULØS VULVOVAGINITT (IBR/IPV)</a></li>
+<li class="lvl5"><a href="#vedlegg-vipseudorabiesvirus-adv">VEDLEGG VIPSEUDORABIESVIRUS (ADV)</a></li>
+<li class="lvl5"><a href="#vedlegg-viibovin-virusdiare-bvd">VEDLEGG VIIBOVIN VIRUSDIARÉ (BVD)</a></li>
+<li class="lvl5"><a href="#vedlegg-viiiinfeksjon-med-blatungevirus-btv">VEDLEGG VIIIINFEKSJON MED BLÅTUNGEVIRUS (BTV)</a></li>
+<li class="lvl5"><a href="#vedlegg-ixinfestasjon-medvarroa-spp">VEDLEGG IXINFESTASJON MEDVARROA SPP.</a></li>
+<li class="lvl5"><a href="#vedlegg-xinfeksjon-med-newcastle-disease-virus">VEDLEGG XINFEKSJON MED NEWCASTLE DISEASE-VIRUS</a></li>
+<li class="lvl5"><a href="#vedlegg-xihypatogen-avir-influensa-hpai">VEDLEGG XIHØYPATOGEN AVIÆR INFLUENSA (HPAI)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiihemoragisk-virusseptikemi-vhs">VEDLEGG XIIHEMORAGISK VIRUSSEPTIKEMI (VHS)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiiinfeksis-hematopoietisk-nekrose-ihn">VEDLEGG XIIIINFEKSIØS HEMATOPOIETISK NEKROSE (IHN)</a></li>
+<li class="lvl5"><a href="#vedlegg-xivinfeksjon-med-hpr-deletert-infeksis-lakseanemi-virus-hpr-deletert-ilav">VEDLEGG XIVINFEKSJON MED HPR-DELETERT INFEKSIØS LAKSEANEMI-VIRUS (HPR-DELETERT ILAV)</a></li>
+<li class="lvl5"><a href="#vedlegg-xvinfeksjon-medmarteilia-refringens">VEDLEGG XVINFEKSJON MEDMARTEILIA REFRINGENS</a></li>
+<li class="lvl5"><a href="#vedlegg-xviinfeksjon-medbonamia-exitiosa">VEDLEGG XVIINFEKSJON MEDBONAMIA EXITIOSA</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiinfeksjon-medbonamia-ostreae">VEDLEGG XVIIINFEKSJON MEDBONAMIA OSTREAE</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiiinfeksjon-med-hvitflekksyndromvirus-wssv">VEDLEGG XVIIIINFEKSJON MED HVITFLEKKSYNDROMVIRUS (WSSV)</a></li>
+<li class="lvl3"><a href="#konsolidert-beslutning-eu-2021260-om-godkjente-nasjonale-tiltak-for-visse-akvatiske-dyr">Konsolidert beslutning (EU) 2021/260 om godkjente nasjonale tiltak for visse akvatiske dyr</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsbeslutning-eu-2021260av-11-februar-2021om-godkjenning-av-nasjonale-tiltak-som-har-som-formal-a-begrense-virkningene-av-visse-sykdommer-hos-akvatiske-dyr-i-samsvar-med-artikkel-226-nr-3-i-europaparlaments-og-radsforordning-eu-2016429-og-om-oppheving-av-kommisjonsbeslutning-2010221eu">KOMMISJONENS GJENNOMFØRINGSBESLUTNING (EU) 2021/260av 11. februar 2021om godkjenning av nasjonale tiltak som har som formål å begrense virkningene av visse sykdommer hos akvatiske dyr i samsvar med artikkel 226 nr. 3 i europaparlaments- og rådsforordning (EU) 2016/429, og om oppheving av kommisjonsbeslutning 2010/221/EU</a></li>
+<li class="lvl5"><a href="#vedlegg-imedlemsstater1eller-deler-av-medlemsstater-som-anses-som-frie-for-visse-sykdommer-som-rammer-akvatiske-dyr-og-som-har-fatt-godkjent-nasjonale-tiltak-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG IMedlemsstater1eller deler av medlemsstater som anses som frie for visse sykdommer som rammer akvatiske dyr, og som har fått godkjent nasjonale tiltak i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl5"><a href="#vedlegg-iimedlemsstater1eller-deler-av-medlemsstater-som-har-utryddelsesprogrammer-for-visse-sykdommer-som-rammer-akvatiske-dyr-og-som-har-fatt-godkjent-nasjonale-tiltak-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG IIMedlemsstater1eller deler av medlemsstater som har utryddelsesprogrammer for visse sykdommer som rammer akvatiske dyr, og som har fått godkjent nasjonale tiltak i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl5"><a href="#vedlegg-iiim5arter-av-akvatiske-dyr-som-er-mottakelige-for-sykdommer-som-visse-medlemsstaterhar-truffet-nasjonale-tiltak-mot-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG III►M5Arter av akvatiske dyr som er mottakelige for sykdommer som visse medlemsstater*har truffet nasjonale tiltak mot i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl3"><a href="#forordningeu-20242623om-godkjenning-og-anerkjenning-av-sykdomsfri-status-for-newcastlesyke-og-hypatogen-fugleinfluensa-i-segmenter-av-fjrfeanlegg">Forordning(EU) 2024/2623om godkjenning og anerkjenning av sykdomsfri status for Newcastlesyke og høypatogen fugleinfluensa i segmenter av fjørfeanlegg</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-20242623av-30-juli-2024om-utfylling-av-europaparlaments-og-radsforordningeu-2016429med-hensyn-til-regler-for-godkjenning-og-anerkjennelse-av-sykdomsfri-status-for-segmenter-der-det-holdes-landdyr">DELEGERT KOMMISJONSFORORDNING(EU) 2024/2623av 30. juli 2024om utfylling av europaparlaments- og rådsforordning(EU) 2016/429med hensyn til regler for godkjenning og anerkjennelse av sykdomsfri status for segmenter der det holdes landdyr</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iikrav-og-framgangsmater-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-kategori-a-sykdommer-for-segmenter-der-det-holdes-landdyr">KAPITTEL IIKRAV OG FRAMGANGSMÅTER FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL KATEGORI A-SYKDOMMER FOR SEGMENTER DER DET HOLDES LANDDYR</a></li>
+<li class="lvl5"><a href="#kapittel-iiisrlige-krav-for-godkjenning-av-sykdomsfri-status-for-segmenter-der-det-holdes-landdyr-med-hensyn-til-kategori-a-sykdommer-oppfrt-i-vedlegg-ii-til-gjennomfringsforordningeu-2020690">KAPITTEL IIISÆRLIGE KRAV FOR GODKJENNING AV SYKDOMSFRI STATUS FOR SEGMENTER DER DET HOLDES LANDDYR MED HENSYN TIL KATEGORI A-SYKDOMMER OPPFØRT I VEDLEGG II TIL GJENNOMFØRINGSFORORDNING(EU) 2020/690</a></li>
+<li class="lvl5"><a href="#kapittel-ivovergangs-og-sluttbestemmelser">KAPITTEL IVOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-ikrav-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-kategori-a-sykdommer-for-segmenter-der-det-holdes-landdyr">VEDLEGG IKRAV FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL KATEGORI A-SYKDOMMER FOR SEGMENTER DER DET HOLDES LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iisrlige-krav-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-hypatogen-avir-influensa-eller-newcastle-disease-virus-for-fjrfesegmenter">VEDLEGG IISÆRLIGE KRAV FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL HØYPATOGEN AVIÆR INFLUENSA ELLER NEWCASTLE DISEASE-VIRUS FOR FJØRFESEGMENTER</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-28-1927.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-632.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift som utfyller dyrehelseforskriften med bestemmelser om melding, rapportering, overvåkning, utryddelsesprogram og sykdomsfri status for bestemte dyresykdommer (dyrehelseovervåkningsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-04-06-632.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-04-06-632 <code>forskrift/2022-04-06-632</code></td></tr>
+<tr><th>Korttittel</th><td>Dyrehelseovervåkningsforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>28.04.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-28-1927 <code>forskrift/2026-09-28-1927</code> fra 28.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-04-06-632" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade-og-gjennomfring">Kapittel I. Virkeområde og gjennomføring</a></li>
+<li class="lvl4"><a href="#1-saklig-virkeomrade">§ 1. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#2-stedlig-virkeomrade">§ 2. Stedlig virkeområde</a></li>
+<li class="lvl4"><a href="#3-overvakning-utryddelsesprogrammer-og-sykdomsfri-status">§ 3. Overvåkning, utryddelsesprogrammer og sykdomsfri status</a></li>
+<li class="lvl4"><a href="#4-es-overvakningsprogrammer-og-segmenter">§ 4. EØS-overvåkningsprogrammer og segmenter</a></li>
+<li class="lvl4"><a href="#4a-godkjenning-og-anerkjenning-av-sykdomsfri-status-for-newcastlesyke-og-hypatogen-fugleinfluensa-i-segmenter-av-fjrfeanlegg">§ 4a. Godkjenning og anerkjenning av sykdomsfri status for Newcastlesyke og høypatogen fugleinfluensa i segmenter av fjørfeanlegg</a></li>
+<li class="lvl4"><a href="#5-melding-rapportering-og-sknader">§ 5. Melding, rapportering og søknader</a></li>
+<li class="lvl4"><a href="#6-godkjent-sykdomsfri-status-og-utryddelsesprogram-i-es-stater">§ 6. Godkjent sykdomsfri status og utryddelsesprogram i EØS-stater</a></li>
+<li class="lvl4"><a href="#7-godkjenning-av-nasjonale-tiltak-for-visse-akvatiske-sykdommer">§ 7. Godkjenning av nasjonale tiltak for visse akvatiske sykdommer</a></li>
+<li class="lvl2"><a href="#kapittel-ii-utfyllende-nasjonale-bestemmelser-tiltak-ved-kategori-c-sykdommer-hos-akvatiske-dyr-i-omrader-med-sykdomsfri-status-eller-utryddelsesprogram">Kapittel II. Utfyllende nasjonale bestemmelser – tiltak ved kategori C-sykdommer hos akvatiske dyr i områder med sykdomsfri status eller utryddelsesprogram</a></li>
+<li class="lvl4"><a href="#8-restriksjoner-pa-a-ta-akvatiske-dyr-ut-av-eller-inn-til-et-akvakulturanlegg-kategori-c-sykdommer">§ 8. Restriksjoner på å ta akvatiske dyr ut av eller inn til et akvakulturanlegg – kategori C-sykdommer</a></li>
+<li class="lvl4"><a href="#9-restriksjoner-pa-avl-og-reproduksjon-kategori-c-sykdommer">§ 9. Restriksjoner på avl og reproduksjon – kategori C-sykdommer</a></li>
+<li class="lvl2"><a href="#kapittel-iii-avsluttende-bestemmelser">Kapittel III. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#10-tiltak-tilsyn-og-vedtak">§ 10. Tiltak, tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#11-straff">§ 11. Straff</a></li>
+<li class="lvl4"><a href="#12-dispensasjon">§ 12. Dispensasjon</a></li>
+<li class="lvl4"><a href="#13-ikrafttredelse">§ 13. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1godkjent-sykdomsfri-og-ikke-vaksinerende-status-for-landdyr-for-visse-listefrte-sykdommer-i-norge-eller-deler-av-norge">Vedlegg 1.Godkjent sykdomsfri og ikke-vaksinerende status for landdyr for visse listeførte sykdommer i Norge eller deler av Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-2godkjent-sykdomsfri-status-for-akvatiske-dyr-for-visse-listefrte-sykdommer-i-norge-eller-deler-av-norge">Vedlegg 2.Godkjent sykdomsfri status for akvatiske dyr for visse listeførte sykdommer i Norge eller deler av Norge</a></li>
+<li class="lvl2"><a href="#vedlegg-3">Vedlegg 3</a></li>
+<li class="lvl3"><a href="#del-i">Del I</a></li>
+<li class="lvl3"><a href="#del-2">Del 2</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2020689-om-overvakning-utryddelsesprogrammer-og-sykdomsfri-status">Konsolidert forordning (EU) 2020/689 om overvåkning, utryddelsesprogrammer og sykdomsfri status</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordning-eu-2020689av-17-desember-2019om-utfylling-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-overvakingsregler-utryddelsesprogrammer-og-sykdomsfri-status-for-visse-listefrte-og-nye-sykdommer">DELEGERT KOMMISJONSFORORDNING (EU) 2020/689av 17. desember 2019om utfylling av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til overvåkingsregler, utryddelsesprogrammer og sykdomsfri status for visse listeførte og nye sykdommer</a></li>
+<li class="lvl5"><a href="#del-ialminnelige-bestemmelser">DEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#del-iiovervaking-utryddelsesprogrammer-og-sykdomsfri-status">DEL IIOVERVÅKING, UTRYDDELSESPROGRAMMER OG SYKDOMSFRI STATUS</a></li>
+<li class="lvl5"><a href="#del-iiiovergangs-og-sluttbestemmelser">DEL IIIOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-isrlige-kasusdefinisjoner-av-sykdom-hos-landdyr">VEDLEGG ISÆRLIGE KASUSDEFINISJONER AV SYKDOM HOS LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iiunionens-overvakingsprogram">VEDLEGG IIUNIONENS OVERVÅKINGSPROGRAM</a></li>
+<li class="lvl5"><a href="#vedlegg-iiidiagnostiske-metoder-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-for-visse-sykdommer-hos-landdyr">VEDLEGG IIIDIAGNOSTISKE METODER FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS FOR VISSE SYKDOMMER HOS LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-ivsykdomsspesifikke-krav-for-tildeling-opprettholdelse-suspensjon-og-tilbakekalling-av-sykdomsfri-status-pa-anleggsniva-samt-sykdomsspesifikke-krav-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-for-medlemsstater-eller-soner">VEDLEGG IVSYKDOMSSPESIFIKKE KRAV FOR TILDELING, OPPRETTHOLDELSE, SUSPENSJON OG TILBAKEKALLING AV SYKDOMSFRI STATUS PÅ ANLEGGSNIVÅ SAMT SYKDOMSSPESIFIKKE KRAV FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS FOR MEDLEMSSTATER ELLER SONER</a></li>
+<li class="lvl5"><a href="#vedlegg-vsykdomsspesifikke-krav-for-tildeling-og-opprettholdelse-av-sykdomsfri-status-i-medlemsstater-og-soner">VEDLEGG VSYKDOMSSPESIFIKKE KRAV FOR TILDELING OG OPPRETTHOLDELSE AV SYKDOMSFRI STATUS I MEDLEMSSTATER OG SONER</a></li>
+<li class="lvl5"><a href="#vedlegg-visrlige-krav-med-hensyn-til-sykdommer-hos-akvatiske-dyr">VEDLEGG VISÆRLIGE KRAV MED HENSYN TIL SYKDOMMER HOS AKVATISKE DYR</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2020690-om-unionens-overvakningsprogram-og-segmenter">Konsolidert forordning (EU) 2020/690 om Unionens overvåkningsprogram og segmenter</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-2020690av-17-desember-2019om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordningeu-2016429med-hensyn-til-de-listefrte-sykdommene-som-er-omfattet-av-unionens-overvakingsprogrammer-det-geografiske-virkeomradet-for-slike-programmer-og-for-hvilke-listefrte-sykdommer-segmenter-kan-gis-status-som-sykdomsfri">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2020/690av 17. desember 2019om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning(EU) 2016/429med hensyn til de listeførte sykdommene som er omfattet av Unionens overvåkingsprogrammer, det geografiske virkeområdet for slike programmer og for hvilke listeførte sykdommer segmenter kan gis status som sykdomsfri</a></li>
+<li class="lvl5"><a href="#vedlegg-i">VEDLEGG I</a></li>
+<li class="lvl5"><a href="#vedlegg-ii">VEDLEGG II</a></li>
+<li class="lvl3"><a href="#konsolidert-forordningeu-20202002om-melding-rapportering-og-sknader">Konsolidert forordning(EU) 2020/2002om melding, rapportering og søknader</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-20202002av-7-desember-2020om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-melding-om-og-rapportering-av-listefrte-sykdommer-i-unionen-med-hensyn-til-formater-og-framgangsmater-for-framlegging-og-rapportering-av-unionens-overvakingsprogrammer-og-utryddelsesprogrammer-og-for-sknad-om-anerkjennelse-av-sykdomsfri-status-og-med-hensyn-til-det-databaserte-informasjonssystemet">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2020/2002av 7. desember 2020om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til melding om og rapportering av listeførte sykdommer i Unionen, med hensyn til formater og framgangsmåter for framlegging og rapportering av Unionens overvåkingsprogrammer og utryddelsesprogrammer og for søknad om anerkjennelse av sykdomsfri status og med hensyn til det databaserte informasjonssystemet</a></li>
+<li class="lvl5"><a href="#vedlegg-ilistefrte-sykdommer-som-det-skal-meldes-om-i-unionen">VEDLEGG ILISTEFØRTE SYKDOMMER SOM DET SKAL MELDES OM I UNIONEN</a></li>
+<li class="lvl5"><a href="#vedlegg-iiopplysninger-som-skal-gis-ved-melding-i-unionen-om-utbrudd-av-listefrte-sykdommer-i-samsvar-med-artikkel-3-nr-3">VEDLEGG IIOPPLYSNINGER SOM SKAL GIS VED MELDING I UNIONEN OM UTBRUDD AV LISTEFØRTE SYKDOMMER I SAMSVAR MED ARTIKKEL 3 NR. 3</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiopplysninger-som-skal-gis-ved-rapportering-i-unionen-om-pavisning-av-listefrte-sykdommer-i-samsvar-med-artikkel-4-nr-3">VEDLEGG IIIOPPLYSNINGER SOM SKAL GIS VED RAPPORTERING I UNIONEN OM PÅVISNING AV LISTEFØRTE SYKDOMMER I SAMSVAR MED ARTIKKEL 4 NR. 3</a></li>
+<li class="lvl5"><a href="#vedlegg-ivmeldings-og-rapporteringsregioner-i-medlemsstatene-i-samsvar-med-artikkel-5">VEDLEGG IVMELDINGS- OG RAPPORTERINGSREGIONER I MEDLEMSSTATENE I SAMSVAR MED ARTIKKEL 5</a></li>
+<li class="lvl5"><a href="#vedlegg-vopplysninger-om-resultatene-av-gjennomfringen-av-obligatoriske-og-frivillige-utryddelsesprogrammer-som-skal-gis-i-samsvar-med-artikkel-7-nr-2-bokstav-a">VEDLEGG VOPPLYSNINGER OM RESULTATENE AV GJENNOMFØRINGEN AV OBLIGATORISKE OG FRIVILLIGE UTRYDDELSESPROGRAMMER SOM SKAL GIS I SAMSVAR MED ARTIKKEL 7 NR. 2 BOKSTAV A)</a></li>
+<li class="lvl5"><a href="#vedlegg-vim2opplysninger-som-skal-tas-med-i-sknader-om-anerkjennelse-av-sykdomsfri-status-for-medlemsstater-eller-soner-med-hensyn-til-sykdommer-hos-landdyr-og-akvatiske-dyr-og-i-sknader-om-sykdomsfri-status-for-segmenter-med-hensyn-til-sykdommer-hos-akvatiske-dyr-i-samsvar-med-artikkel-11-m2">VEDLEGG VI►M2Opplysninger som skal tas med i søknader om anerkjennelse av sykdomsfri status for medlemsstater eller soner med hensyn til sykdommer hos landdyr og akvatiske dyr og i søknader om sykdomsfri status for segmenter med hensyn til sykdommer hos akvatiske dyr i samsvar med artikkel 11 ◄M2</a></li>
+<li class="lvl5"><a href="#vedlegg-viiopplysninger-som-skal-gis-ved-framlegging-av-utryddelsesprogrammer-i-samsvar-med-artikkel-10">VEDLEGG VIIOPPLYSNINGER SOM SKAL GIS VED FRAMLEGGING AV UTRYDDELSESPROGRAMMER I SAMSVAR MED ARTIKKEL 10</a></li>
+<li class="lvl3"><a href="#konsolidert-forordning-eu-2021620-om-godkjent-sykdomsfri-status-og-utryddelsesprogram-i-eu-stater">Konsolidert forordning (EU) 2021/620 om godkjent sykdomsfri status og utryddelsesprogram i EU-stater</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordning-eu-2021620av-15-april-2021om-fastsettelse-av-regler-for-anvendelsen-av-europaparlaments-og-radsforordning-eu-2016429-med-hensyn-til-godkjenning-av-sykdomsfri-status-og-ikke-vaksinert-status-for-visse-medlemsstater-eller-for-soner-eller-segmenter-i-disse-medlemsstatene-med-hensyn-til-visse-listefrte-sykdommer-og-godkjenning-av-utryddelsesprogrammer-for-disse-listefrte-sykdommene">KOMMISJONENS GJENNOMFØRINGSFORORDNING (EU) 2021/620av 15. april 2021om fastsettelse av regler for anvendelsen av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til godkjenning av sykdomsfri status og ikke-vaksinert status for visse medlemsstater eller for soner eller segmenter i disse medlemsstatene med hensyn til visse listeførte sykdommer og godkjenning av utryddelsesprogrammer for disse listeførte sykdommene</a></li>
+<li class="lvl5"><a href="#vedlegg-iinfeksjon-medbrucella-abortus-b-melitensisogb-suis">VEDLEGG IINFEKSJON MEDBRUCELLA ABORTUS, B. MELITENSISOGB. SUIS</a></li>
+<li class="lvl5"><a href="#vedlegg-iiinfeksjon-medmycobacterium-tuberculosis-kompleks-m-bovis-m-capraeogm-tuberculosis-mtbc">VEDLEGG IIINFEKSJON MEDMYCOBACTERIUM TUBERCULOSIS-KOMPLEKS (M. BOVIS, M. CAPRAEOGM. TUBERCULOSIS) (MTBC)</a></li>
+<li class="lvl5"><a href="#vedlegg-iiiinfeksjon-med-rabiesvirus-rabv">VEDLEGG IIIINFEKSJON MED RABIESVIRUS (RABV)</a></li>
+<li class="lvl5"><a href="#vedlegg-ivenzootisk-bovin-leukose-ebl">VEDLEGG IVENZOOTISK BOVIN LEUKOSE (EBL)</a></li>
+<li class="lvl5"><a href="#vedlegg-vinfeksis-bovin-rhinotrakeittinfeksis-pustuls-vulvovaginitt-ibripv">VEDLEGG VINFEKSIØS BOVIN RHINOTRAKEITT/INFEKSIØS PUSTULØS VULVOVAGINITT (IBR/IPV)</a></li>
+<li class="lvl5"><a href="#vedlegg-vipseudorabiesvirus-adv">VEDLEGG VIPSEUDORABIESVIRUS (ADV)</a></li>
+<li class="lvl5"><a href="#vedlegg-viibovin-virusdiare-bvd">VEDLEGG VIIBOVIN VIRUSDIARÉ (BVD)</a></li>
+<li class="lvl5"><a href="#vedlegg-viiiinfeksjon-med-blatungevirus-btv">VEDLEGG VIIIINFEKSJON MED BLÅTUNGEVIRUS (BTV)</a></li>
+<li class="lvl5"><a href="#vedlegg-ixinfestasjon-medvarroa-spp">VEDLEGG IXINFESTASJON MEDVARROA SPP.</a></li>
+<li class="lvl5"><a href="#vedlegg-xinfeksjon-med-newcastle-disease-virus">VEDLEGG XINFEKSJON MED NEWCASTLE DISEASE-VIRUS</a></li>
+<li class="lvl5"><a href="#vedlegg-xihypatogen-avir-influensa-hpai">VEDLEGG XIHØYPATOGEN AVIÆR INFLUENSA (HPAI)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiihemoragisk-virusseptikemi-vhs">VEDLEGG XIIHEMORAGISK VIRUSSEPTIKEMI (VHS)</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiiinfeksis-hematopoietisk-nekrose-ihn">VEDLEGG XIIIINFEKSIØS HEMATOPOIETISK NEKROSE (IHN)</a></li>
+<li class="lvl5"><a href="#vedlegg-xivinfeksjon-med-hpr-deletert-infeksis-lakseanemi-virus-hpr-deletert-ilav">VEDLEGG XIVINFEKSJON MED HPR-DELETERT INFEKSIØS LAKSEANEMI-VIRUS (HPR-DELETERT ILAV)</a></li>
+<li class="lvl5"><a href="#vedlegg-xvinfeksjon-medmarteilia-refringens">VEDLEGG XVINFEKSJON MEDMARTEILIA REFRINGENS</a></li>
+<li class="lvl5"><a href="#vedlegg-xviinfeksjon-medbonamia-exitiosa">VEDLEGG XVIINFEKSJON MEDBONAMIA EXITIOSA</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiinfeksjon-medbonamia-ostreae">VEDLEGG XVIIINFEKSJON MEDBONAMIA OSTREAE</a></li>
+<li class="lvl5"><a href="#vedlegg-xviiiinfeksjon-med-hvitflekksyndromvirus-wssv">VEDLEGG XVIIIINFEKSJON MED HVITFLEKKSYNDROMVIRUS (WSSV)</a></li>
+<li class="lvl3"><a href="#konsolidert-beslutning-eu-2021260-om-godkjente-nasjonale-tiltak-for-visse-akvatiske-dyr">Konsolidert beslutning (EU) 2021/260 om godkjente nasjonale tiltak for visse akvatiske dyr</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsbeslutning-eu-2021260av-11-februar-2021om-godkjenning-av-nasjonale-tiltak-som-har-som-formal-a-begrense-virkningene-av-visse-sykdommer-hos-akvatiske-dyr-i-samsvar-med-artikkel-226-nr-3-i-europaparlaments-og-radsforordning-eu-2016429-og-om-oppheving-av-kommisjonsbeslutning-2010221eu">KOMMISJONENS GJENNOMFØRINGSBESLUTNING (EU) 2021/260av 11. februar 2021om godkjenning av nasjonale tiltak som har som formål å begrense virkningene av visse sykdommer hos akvatiske dyr i samsvar med artikkel 226 nr. 3 i europaparlaments- og rådsforordning (EU) 2016/429, og om oppheving av kommisjonsbeslutning 2010/221/EU</a></li>
+<li class="lvl5"><a href="#vedlegg-imedlemsstater1eller-deler-av-medlemsstater-som-anses-som-frie-for-visse-sykdommer-som-rammer-akvatiske-dyr-og-som-har-fatt-godkjent-nasjonale-tiltak-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG IMedlemsstater1eller deler av medlemsstater som anses som frie for visse sykdommer som rammer akvatiske dyr, og som har fått godkjent nasjonale tiltak i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl5"><a href="#vedlegg-iimedlemsstater1eller-deler-av-medlemsstater-som-har-utryddelsesprogrammer-for-visse-sykdommer-som-rammer-akvatiske-dyr-og-som-har-fatt-godkjent-nasjonale-tiltak-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG IIMedlemsstater1eller deler av medlemsstater som har utryddelsesprogrammer for visse sykdommer som rammer akvatiske dyr, og som har fått godkjent nasjonale tiltak i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl5"><a href="#vedlegg-iiim5arter-av-akvatiske-dyr-som-er-mottakelige-for-sykdommer-som-visse-medlemsstaterhar-truffet-nasjonale-tiltak-mot-i-samsvar-med-artikkel-226-nr-3-i-forordningeu-2016429">VEDLEGG III►M5Arter av akvatiske dyr som er mottakelige for sykdommer som visse medlemsstater*har truffet nasjonale tiltak mot i samsvar med artikkel 226 nr. 3 i forordning(EU) 2016/429</a></li>
+<li class="lvl3"><a href="#forordningeu-20242623om-godkjenning-og-anerkjenning-av-sykdomsfri-status-for-newcastlesyke-og-hypatogen-fugleinfluensa-i-segmenter-av-fjrfeanlegg">Forordning(EU) 2024/2623om godkjenning og anerkjenning av sykdomsfri status for Newcastlesyke og høypatogen fugleinfluensa i segmenter av fjørfeanlegg</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-20242623av-30-juli-2024om-utfylling-av-europaparlaments-og-radsforordningeu-2016429med-hensyn-til-regler-for-godkjenning-og-anerkjennelse-av-sykdomsfri-status-for-segmenter-der-det-holdes-landdyr">DELEGERT KOMMISJONSFORORDNING(EU) 2024/2623av 30. juli 2024om utfylling av europaparlaments- og rådsforordning(EU) 2016/429med hensyn til regler for godkjenning og anerkjennelse av sykdomsfri status for segmenter der det holdes landdyr</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iikrav-og-framgangsmater-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-kategori-a-sykdommer-for-segmenter-der-det-holdes-landdyr">KAPITTEL IIKRAV OG FRAMGANGSMÅTER FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL KATEGORI A-SYKDOMMER FOR SEGMENTER DER DET HOLDES LANDDYR</a></li>
+<li class="lvl5"><a href="#kapittel-iiisrlige-krav-for-godkjenning-av-sykdomsfri-status-for-segmenter-der-det-holdes-landdyr-med-hensyn-til-kategori-a-sykdommer-oppfrt-i-vedlegg-ii-til-gjennomfringsforordningeu-2020690">KAPITTEL IIISÆRLIGE KRAV FOR GODKJENNING AV SYKDOMSFRI STATUS FOR SEGMENTER DER DET HOLDES LANDDYR MED HENSYN TIL KATEGORI A-SYKDOMMER OPPFØRT I VEDLEGG II TIL GJENNOMFØRINGSFORORDNING(EU) 2020/690</a></li>
+<li class="lvl5"><a href="#kapittel-ivovergangs-og-sluttbestemmelser">KAPITTEL IVOVERGANGS- OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-ikrav-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-kategori-a-sykdommer-for-segmenter-der-det-holdes-landdyr">VEDLEGG IKRAV FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL KATEGORI A-SYKDOMMER FOR SEGMENTER DER DET HOLDES LANDDYR</a></li>
+<li class="lvl5"><a href="#vedlegg-iisrlige-krav-for-godkjenning-av-sykdomsfri-status-med-hensyn-til-hypatogen-avir-influensa-eller-newcastle-disease-virus-for-fjrfesegmenter">VEDLEGG IISÆRLIGE KRAV FOR GODKJENNING AV SYKDOMSFRI STATUS MED HENSYN TIL HØYPATOGEN AVIÆR INFLUENSA ELLER NEWCASTLE DISEASE-VIRUS FOR FJØRFESEGMENTER</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-632.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-04-06-632.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-04-06-632.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-04-06-632.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-04-06-632.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-04-06-632.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-04-06-632.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-04-06-632.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-04-06-632.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-som-utfyller-dyrehelseforskriften-med-bestemmelser-om-melding-rapportering-overvakning-utryddelsesprogram-og-sykdomsfri-status-for-bestemte-dyresykdommer-dyrehelseovervakningsforskriften">Forskrift som utfyller dyrehelseforskriften med bestemmelser om melding, rapportering, overvåkning, utryddelsesprogram og sykdomsfri status for bestemte dyresykdommer (dyrehelseovervåkningsforskriften)</h1>
 <h2 id="kapittel-i-virkeomrade-og-gjennomfring">Kapittel I. Virkeområde og gjennomføring</h2>
 <h4 id="1-saklig-virkeomrade">§ 1. Saklig virkeområde</h4>
 <p>Forskriften utfyller bestemmelsene i dyrehelseforskriften 6. april 2022 nr. 631 som gjennomfører forordning (EU) 2016/429 ved å gi utfyllende bestemmelser om:</p>
@@ -89,25 +294,25 @@ e. Godkjenning av nasjonale tiltak i henhold til dyrehelseforordningens artikkel
 <p>Forskriften gjelder for norsk land- og sjøterritorium, på norske luft- og sjøfartøyer, innretninger på norsk kontinentalsokkel og Norges økonomiske sone.</p>
 <h4 id="3-overvakning-utryddelsesprogrammer-og-sykdomsfri-status">§ 3. Overvåkning, utryddelsesprogrammer og sykdomsfri status</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13h (forordning (EU) 2020/689 sist endret ved forordning (EU) 2023/1798 ) om utfylling av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til overvåkingsregler, utryddelsesprogrammer og sykdomsfri status for visse listeførte og nye sykdommer, gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 15 feb 2024 nr. 278 .</em></p>
+<p class="note">Endret ved forskrift 15 feb 2024 nr. 278 .</p>
 <h4 id="4-es-overvakningsprogrammer-og-segmenter">§ 4. EØS-overvåkningsprogrammer og segmenter</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13b (forordning (EU) 2020/690 endret ved forordning (EU) 2024/2043 ) med utfyllende bestemmelser til europaparlaments- og rådsforordning (EU) 2016/429 med bestemmelser om hvilke listeførte sykdommer som kan omfattes av et av Unionens overvåkningsprogrammer, programmets geografiske omfang og de listeførte sykdommene som det kan fastsettes segmenter med sykdomsfri status for, gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 10 feb 2025 nr. 169 .</em></p>
+<p class="note">Endret ved forskrift 10 feb 2025 nr. 169 .</p>
 <h4 id="4a-godkjenning-og-anerkjenning-av-sykdomsfri-status-for-newcastlesyke-og-hypatogen-fugleinfluensa-i-segmenter-av-fjrfeanlegg">§ 4a. Godkjenning og anerkjenning av sykdomsfri status for Newcastlesyke og høypatogen fugleinfluensa i segmenter av fjørfeanlegg</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13y (forordning (EU) 2024/2623 ) om utfylling av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til regler for godkjenning og anerkjennelse av sykdomsfri status for segmenter der det holdes landdyr, gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I , protokoll I til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 17 mars 2025 nr. 468 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 mars 2025 nr. 468 .</p>
 <h4 id="5-melding-rapportering-og-sknader">§ 5. Melding, rapportering og søknader</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13k (forordning (EU) 2020/2002 sist endret ved forordning (EU) 2023/1451 ) med utfyllende bestemmelser til europaparlaments- og rådsforordning (EU) 2016/429 om melding og rapportering av listeførte sykdommer til Unionen, utforming av skjema og framgangsmåten for søknader og rapportering av resultater fra overvåknings- og utryddelsesprogram, samt godkjenning av sykdomsfri status, og Unionens datainformasjonssystem, gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 21 mars 2023 nr. 406 , 14 des 2023 nr. 2086 .</em></p>
+<p class="note">Endret ved forskrifter 21 mars 2023 nr. 406 , 14 des 2023 nr. 2086 .</p>
 <h4 id="6-godkjent-sykdomsfri-status-og-utryddelsesprogram-i-es-stater">§ 6. Godkjent sykdomsfri status og utryddelsesprogram i EØS-stater</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13r (forordning (EU) 2021/620 sist endret ved forordning (EU) 2026/293 )) med utfyllende bestemmelser til europaparlaments- og rådsforordning (EU) 2016/429 om godkjent sykdomsfri status og ikke-vaksinerende status for visse medlemsland, eller soner eller segmenter av disse, for visse listeførte sykdommer, og godkjente utryddelsesprogrammer for disse listeførte sykdommene, gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Norges sykdomsfrie statuser for sykdommer hos landdyr fremgår av forskriftens vedlegg 1.</p>
 <p>Norges sykdomsfrie statuser for sykdommer hos akvatiske dyr fremgår av forskriftens vedlegg 2.</p>
-<p><em>Endret ved forskrifter 14 juni 2022 nr. 1054 , 11 juli 2022 nr. 1361 , 21 mars 2023 nr. 406 , 26 sep 2023 nr. 1517 , 30 okt 2023 nr. 1731 , 11 des 2023 nr. 1992 , 8 juli 2024 nr. 1722 , 28 okt 2024 nr. 2599 , 10 feb 2025 nr. 169 , 17 mars 2025 nr. 468 , 16 juni 2025 nr. 1046 , 27 okt 2025 nr. 2132 , 4 mai 2026 nr. 740 .</em></p>
+<p class="note">Endret ved forskrifter 14 juni 2022 nr. 1054 , 11 juli 2022 nr. 1361 , 21 mars 2023 nr. 406 , 26 sep 2023 nr. 1517 , 30 okt 2023 nr. 1731 , 11 des 2023 nr. 1992 , 8 juli 2024 nr. 1722 , 28 okt 2024 nr. 2599 , 10 feb 2025 nr. 169 , 17 mars 2025 nr. 468 , 16 juni 2025 nr. 1046 , 27 okt 2025 nr. 2132 , 4 mai 2026 nr. 740 .</p>
 <h4 id="7-godkjenning-av-nasjonale-tiltak-for-visse-akvatiske-sykdommer">§ 7. Godkjenning av nasjonale tiltak for visse akvatiske sykdommer</h4>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 13o (beslutning (EU) 2021/260 endret ved beslutning (EU) 2023/749 , beslutning (EU) 2023/2626 , beslutning (EU) 2025/403 og beslutning (EU) 2026/837 ) om godkjenning av nasjonale tiltak som har som formål å begrense virkningene av visse sykdommer hos akvatiske dyr i samsvar med artikkel 226 nr. 3 i europaparlaments- og rådsforordning (EU) 2016/429 , og om oppheving av kommisjonsbeslutning 2010/221/EU , gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Områder i Norge med godkjente nasjonale tiltak for Gyrodactylus salaris fremgår av forskriftens vedlegg 3.</p>
-<p><em>Endret ved forskrifter 11 juli 2022 nr. 1361 , 20 mars 2023 nr. 362 , 14 des 2023 nr. 2085 , 29 april 2024 nr. 688 , 16 juni 2025 nr. 1045 , 28 sep 2026 nr. 1927 .</em></p>
+<p class="note">Endret ved forskrifter 11 juli 2022 nr. 1361 , 20 mars 2023 nr. 362 , 14 des 2023 nr. 2085 , 29 april 2024 nr. 688 , 16 juni 2025 nr. 1045 , 28 sep 2026 nr. 1927 .</p>
 <h2 id="kapittel-ii-utfyllende-nasjonale-bestemmelser-tiltak-ved-kategori-c-sykdommer-hos-akvatiske-dyr-i-omrader-med-sykdomsfri-status-eller-utryddelsesprogram">Kapittel II. Utfyllende nasjonale bestemmelser – tiltak ved kategori C-sykdommer hos akvatiske dyr i områder med sykdomsfri status eller utryddelsesprogram</h2>
 <h4 id="8-restriksjoner-pa-a-ta-akvatiske-dyr-ut-av-eller-inn-til-et-akvakulturanlegg-kategori-c-sykdommer">§ 8. Restriksjoner på å ta akvatiske dyr ut av eller inn til et akvakulturanlegg – kategori C-sykdommer</h4>
 <p>Dersom det er grunn til mistanke om eller påvist en listeført kategori C-sykdom i et akvakulturanlegg i et område med sykdomsfri status eller utryddelsesprogram, skal driftsansvarlige sikre at akvatiske dyr ikke tas ut av eller inn til akvakulturanlegget. Mattilsynet kan gi tillatelse til at akvatiske dyr tas ut av eller inn til anlegget.</p>
@@ -2978,6 +3183,8 @@ c. En detaljert beskrivelse av verne- og overvåkingstiltakene i henhold til del
 <p>8 Delegert kommisjonsforordning (EU) 2019/2035 av 28. juni 2019 om utfylling av europaparlaments- og rådsforordning (EU) 2016/429 med hensyn til regler for anlegg for landdyr og rugerier, samt sporing av visse holdte landdyr og rugeegg (EUT L 314 av 5.12.2019, s. 115, ELI: http://data.europa.eu/eli/reg_del/2019/2035/oj). 9 Europaparlaments- og rådsforordning (EU) 2017/625 av 15. mars 2017 om offentlig kontroll og annen offentlig virksomhet som gjennomføres for å sikre anvendelsen av næringsmiddel- og fôrvareregelverket samt regler for dyrs helse og velferd, plantehelse og plantevernmidler (EUT L 95 av 7.4.2017, s. 1, ELI: http://data.europa.eu/eli/reg/2017/625/oj).</p>
 <p>AVSNITT 2 Særlige verne- og overvåkingstiltak for Newcastle disease-virus</p>
 <p>Alle anleggene som utgjør en del av fjørfesegmentet skal godkjennes i samsvar med artikkel 3 nr. 1 bokstav c) i denne forordningen, og oppfylle kravene for godkjenning av rugerier fastsatt i artikkel 7 i delegert forordning (EU) 2019/2035 eller kravene for godkjenning av anlegg der det holdes fjørfe fastsatt i artikkel 8 i forordningen. I tillegg kommer følgende: Diagrammet nevnt i del III bokstav b) iii) i vedlegg I til denne forordningen skal vise plasseringen av anleggene der det holdes alle typer fjørfe, samt rugerier, oppdrettssteder, verpesteder, forsøkssteder, egglagre og alle steder der det oppbevares egg eller fjørfe. Det skal vise flyten av produkter og andre varer mellom disse stedene. En detaljert framgangsmåte skal regulere forflytning av fjørfe, egg og andre produkter fra disse. Fjørfe, egg og andre produkter fra disse som kommer inn i et anlegg som er en del av fjørfesegmentet, skal komme fra et anlegg som ikke har noen utbrudd eller er underlagt restriksjoner som følge av utbrudd av Newcastle disease-virus, og skal kontrolleres for å sikre at de ikke utgjør noen risiko for innføring av Newcastle disease-virus. Fjørfe og rugeegg som flyttes til eller innenfor fjørfesegmentet, skal identifiseres på en slik måte at de kan spores og ledsages av behørig dokumentert identifikasjon. For et område med fjørfe i flere aldersgrupper eller i andre tilfeller der fjørfe innsettes på forskjellige tidspunkter i fjørfeets levetid, skal det ved skriftlig prosedyre beskrives innsetting og uttak av fjørfe, herunder rengjøring og desinfisering av transportkasser og gjenbrukbare transportbokser. Overvåkingen nevnt i del I bokstav c) iii) i vedlegg I skal opprettes under ansvar av segmentansvarlig, og skal omfatte kontinuerlig passiv og aktiv overvåking for å påvise fravær av smitte i alle anlegg som utgjør en del av fjørfesegmentet. Den passive overvåkingen skal omfatte kliniske indikatorer og beskrive relatert oppfølgingsundersøkelse, herunder prøvetaking for laboratorieundersøkelser. Den aktive overvåkingen skal omfatte testing utført på et definert antall prøver fra fugler i hvert anlegg eller epidemiologiske enhet, dersom det er mer enn én per anlegg, med et konfidensnivå på minst 95 % for å påvise infeksjonen med en målprevalens på 5 % minst hver sjette måned i produksjonsperioden dersom ingen utbrudd av Newcastle disease-virus hos fjørfe eller andre fugler i fangenskap er bekreftet i løpet av de foregående seks månedene på medlemsstatens territorium minst hver tredje måned dersom det er bekreftet utbrudd av Newcastle disease-virus hos fjørfe eller andre fugler i fangenskap i løpet av de foregående seks månedene på medlemsstatens territorium dersom en del av fjørfesegmentet ligger i en restriksjonssone på grunn av et utbrudd av Newcastle disease-virus, innen en uke etter datoen for utbruddet og deretter minst hver 28. dag. Dessuten skal overvåkingen oppdateres slik at den omfatter daglig klinisk undersøkelse samt prøver som tas ukentlig på et representativt antall fugler som er syke eller funnet døde, for molekylær virologisk testing. Prøvene skal sendes til et laboratorium utpekt i samsvar med artikkel 37 i forordning (EU) 2017/625 av vedkommende myndighet for å utføre testene, idet det tas hensyn til fuglenes vaksinasjonsstatus og hvilke typer vaksiner som er brukt. Systemet for tidlig varsling nevnt i del I avsnitt 1 nr. 2 bokstav c) må bygge på en skriftlig protokoll med angivelse av framgangsmåtene for rapportering. Det skal være tilpasset artene av fjørfe som finnes i fjørfesegmentet og deres mottakelighet for Newcastle disease-virus, og skal angi tiltaksnivåer basert på resultater og definerte terskler for den passive og aktive overvåkingen som er beskrevet i nr. 2 beskrive hvilke tiltak som skal treffes inneholde en liste over ansvarlig personale som skal underrettes. Dokumentasjonen nevnt i del I bokstav h) i vedlegg I skal oppbevares i minst tre år inneholde resultatene av sykdomsovervåkingen, som skal rapporteres til vedkommende myndighet minst hver tredje måned dersom det er bekreftet utbrudd av Newcastle disease-virus hos fjørfe eller fugler i fangenskap i løpet av de foregående seks månedene på medlemsstatens territorium hver 28. dag når en del av et segment ligger i en restriksjonssone på grunn av et utbrudd av Newcastle disease-virus.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

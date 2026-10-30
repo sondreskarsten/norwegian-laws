@@ -19,73 +19,222 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-04-04-418.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Designforskriften" href="../feeds/forskrift-2003-04-04-418.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Designforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2003-04-04-418</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2003-05-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2019-06-21-800</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2003-04-04-418" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-sknad-om-registrering-av-design">Kapittel 1. Søknad om registrering av design</a></li>
+<li class="lvl4"><a href="#1-formkrav">§ 1. Formkrav</a></li>
+<li class="lvl4"><a href="#2-sprakkrav">§ 2. Språkkrav</a></li>
+<li class="lvl4"><a href="#3-sknadens-innhold">§ 3. Søknadens innhold</a></li>
+<li class="lvl4"><a href="#3a-adresse-for-korrespondanse">§ 3a. Adresse for korrespondanse</a></li>
+<li class="lvl4"><a href="#4-produktangivelse-og-klasse">§ 4. Produktangivelse og klasse</a></li>
+<li class="lvl4"><a href="#5-bilder-og-modell">§ 5. Bilder og modell</a></li>
+<li class="lvl4"><a href="#6-leveringsdag">§ 6. Leveringsdag</a></li>
+<li class="lvl2"><a href="#kapittel-2-prioritet">Kapittel 2. Prioritet</a></li>
+<li class="lvl4"><a href="#7-sknadsprioritet">§ 7. Søknadsprioritet</a></li>
+<li class="lvl4"><a href="#8-grunnlag-for-sknadsprioritet">§ 8. Grunnlag for søknadsprioritet</a></li>
+<li class="lvl4"><a href="#9-folkerettslig-avtale-om-prioritet">§ 9. Folkerettslig avtale om prioritet</a></li>
+<li class="lvl4"><a href="#10-utstillingsprioritet">§ 10. Utstillingsprioritet</a></li>
+<li class="lvl4"><a href="#11-sknader-med-mer-enn-en-design-samregistrering">§ 11. Søknader med mer enn én design (samregistrering)</a></li>
+<li class="lvl4"><a href="#12-tilbakekall-av-krav-om-prioritet">§ 12. Tilbakekall av krav om prioritet</a></li>
+<li class="lvl2"><a href="#kapittel-3-sknadsbehandlingen">Kapittel 3. Søknadsbehandlingen</a></li>
+<li class="lvl4"><a href="#13-standard-underskelse">§ 13. Standard undersøkelse</a></li>
+<li class="lvl4"><a href="#14-supplerende-underskelse">§ 14. Supplerende undersøkelse</a></li>
+<li class="lvl4"><a href="#15-protest-under-sknadsbehandlingen">§ 15. Protest under søknadsbehandlingen</a></li>
+<li class="lvl4"><a href="#16-delvis-avslag-og-registrering-i-endret-form">§ 16. Delvis avslag og registrering i endret form</a></li>
+<li class="lvl2"><a href="#kapittel-4-utskilling-deling-og-sammenslaing-av-sknader-og-registreringer">Kapittel 4. Utskilling, deling og sammenslåing av søknader og registreringer</a></li>
+<li class="lvl4"><a href="#16a-utskilling-av-design-i-ny-sknad">§ 16a. Utskilling av design i ny søknad</a></li>
+<li class="lvl4"><a href="#17-deling-av-sknader">§ 17. Deling av søknader</a></li>
+<li class="lvl4"><a href="#18-deling-av-registreringer">§ 18. Deling av registreringer</a></li>
+<li class="lvl4"><a href="#19-sammenslaing-av-avdelte-sknader-og-registreringer">§ 19. Sammenslåing av avdelte søknader og registreringer</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-og-kunngjring">Kapittel 5. Registrering og kunngjøring</a></li>
+<li class="lvl4"><a href="#20-designregisteret">§ 20. Designregisteret</a></li>
+<li class="lvl4"><a href="#21-internasjonale-designregistreringer">§ 21. Internasjonale designregistreringer</a></li>
+<li class="lvl4"><a href="#22-kunngjring-av-nasjonal-registrering-fornyelse-og-opphr">§ 22. Kunngjøring av nasjonal registrering, fornyelse og opphør</a></li>
+<li class="lvl4"><a href="#23-kunngjring-av-internasjonal-registrering-fornyelse-og-opphr">§ 23. Kunngjøring av internasjonal registrering, fornyelse og opphør</a></li>
+<li class="lvl4"><a href="#24-kunngjring-av-administrativ-overprving">§ 24. Kunngjøring av administrativ overprøving</a></li>
+<li class="lvl4"><a href="#25-andre-kunngjringer">§ 25. Andre kunngjøringer</a></li>
+<li class="lvl2"><a href="#kapittel-6-administrativ-overprving-og-klage">Kapittel 6. Administrativ overprøving og klage</a></li>
+<li class="lvl4"><a href="#26-administrativ-overprving">§ 26. Administrativ overprøving</a></li>
+<li class="lvl4"><a href="#27-krav-om-overprving-fra-departementet">§ 27. Krav om overprøving fra departementet</a></li>
+<li class="lvl4"><a href="#28-delvis-ugyldighet">§ 28. Delvis ugyldighet</a></li>
+<li class="lvl4"><a href="#29-opphevet-1-juli-2010-jfforskrift-25-juni-2010-nr-937">§ 29. (Opphevet 1 juli 2010, jf.forskrift 25 juni 2010 nr. 937.)</a></li>
+<li class="lvl2"><a href="#kapittel-7-forskjellige-bestemmelser">Kapittel 7. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#30-sprakkrav-og-korrespondanseadresse-etter-registrering">§ 30. Språkkrav og korrespondanseadresse etter registrering</a></li>
+<li class="lvl4"><a href="#31-krav-om-slettelse-etterdesignloven-34">§ 31. Krav om slettelse etterdesignloven § 34</a></li>
+<li class="lvl4"><a href="#32-fornyelse-av-registrering">§ 32. Fornyelse av registrering</a></li>
+<li class="lvl4"><a href="#33-dokumentformater-leveringstidspunkt-frister-og-betalinger">§ 33. Dokumentformater, leveringstidspunkt, frister og betalinger</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-oppbevaring-av-modell">§ 35. Oppbevaring av modell</a></li>
+<li class="lvl2"><a href="#kapittel-8-internasjonal-designregistrering">Kapittel 8. Internasjonal designregistrering</a></li>
+<li class="lvl4"><a href="#36-sknad-om-internasjonal-designregistrering">§ 36. Søknad om internasjonal designregistrering</a></li>
+<li class="lvl4"><a href="#37-behandling-av-krav-om-at-en-internasjonal-designregistrering-skal-ha-virkning-i-norge">§ 37. Behandling av krav om at en internasjonal designregistrering skal ha virkning i Norge</a></li>
+<li class="lvl4"><a href="#38-oppheving-av-eget-tiltak">§ 38. Oppheving av eget tiltak</a></li>
+<li class="lvl4"><a href="#39-opphevet-1-juli-2010-jfforskrift-25-juni-2010-nr-937">§ 39. (Opphevet 1 juli 2010, jf.forskrift 25 juni 2010 nr. 937.)</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#40-oppheving-av-andre-forskrifter">§ 40. Oppheving av andre forskrifter</a></li>
+<li class="lvl4"><a href="#41-ikraftsettings-og-overgangsbestemmelser">§ 41. Ikraftsettings- og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2019-06-21-800.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-04-04-418.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til designloven (designforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-04-04-418.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2003-04-04-418 <code>forskrift/2003-04-04-418</code></td></tr>
+<tr><th>Korttittel</th><td>Designforskriften</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.05.2003</td></tr>
+<tr><th>Sist endret</th><td>FOR-2019-06-21-800 <code>forskrift/2019-06-21-800</code> fra 01.07.2019</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2003-04-04-418" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-sknad-om-registrering-av-design">Kapittel 1. Søknad om registrering av design</a></li>
+<li class="lvl4"><a href="#1-formkrav">§ 1. Formkrav</a></li>
+<li class="lvl4"><a href="#2-sprakkrav">§ 2. Språkkrav</a></li>
+<li class="lvl4"><a href="#3-sknadens-innhold">§ 3. Søknadens innhold</a></li>
+<li class="lvl4"><a href="#3a-adresse-for-korrespondanse">§ 3a. Adresse for korrespondanse</a></li>
+<li class="lvl4"><a href="#4-produktangivelse-og-klasse">§ 4. Produktangivelse og klasse</a></li>
+<li class="lvl4"><a href="#5-bilder-og-modell">§ 5. Bilder og modell</a></li>
+<li class="lvl4"><a href="#6-leveringsdag">§ 6. Leveringsdag</a></li>
+<li class="lvl2"><a href="#kapittel-2-prioritet">Kapittel 2. Prioritet</a></li>
+<li class="lvl4"><a href="#7-sknadsprioritet">§ 7. Søknadsprioritet</a></li>
+<li class="lvl4"><a href="#8-grunnlag-for-sknadsprioritet">§ 8. Grunnlag for søknadsprioritet</a></li>
+<li class="lvl4"><a href="#9-folkerettslig-avtale-om-prioritet">§ 9. Folkerettslig avtale om prioritet</a></li>
+<li class="lvl4"><a href="#10-utstillingsprioritet">§ 10. Utstillingsprioritet</a></li>
+<li class="lvl4"><a href="#11-sknader-med-mer-enn-en-design-samregistrering">§ 11. Søknader med mer enn én design (samregistrering)</a></li>
+<li class="lvl4"><a href="#12-tilbakekall-av-krav-om-prioritet">§ 12. Tilbakekall av krav om prioritet</a></li>
+<li class="lvl2"><a href="#kapittel-3-sknadsbehandlingen">Kapittel 3. Søknadsbehandlingen</a></li>
+<li class="lvl4"><a href="#13-standard-underskelse">§ 13. Standard undersøkelse</a></li>
+<li class="lvl4"><a href="#14-supplerende-underskelse">§ 14. Supplerende undersøkelse</a></li>
+<li class="lvl4"><a href="#15-protest-under-sknadsbehandlingen">§ 15. Protest under søknadsbehandlingen</a></li>
+<li class="lvl4"><a href="#16-delvis-avslag-og-registrering-i-endret-form">§ 16. Delvis avslag og registrering i endret form</a></li>
+<li class="lvl2"><a href="#kapittel-4-utskilling-deling-og-sammenslaing-av-sknader-og-registreringer">Kapittel 4. Utskilling, deling og sammenslåing av søknader og registreringer</a></li>
+<li class="lvl4"><a href="#16a-utskilling-av-design-i-ny-sknad">§ 16a. Utskilling av design i ny søknad</a></li>
+<li class="lvl4"><a href="#17-deling-av-sknader">§ 17. Deling av søknader</a></li>
+<li class="lvl4"><a href="#18-deling-av-registreringer">§ 18. Deling av registreringer</a></li>
+<li class="lvl4"><a href="#19-sammenslaing-av-avdelte-sknader-og-registreringer">§ 19. Sammenslåing av avdelte søknader og registreringer</a></li>
+<li class="lvl2"><a href="#kapittel-5-registrering-og-kunngjring">Kapittel 5. Registrering og kunngjøring</a></li>
+<li class="lvl4"><a href="#20-designregisteret">§ 20. Designregisteret</a></li>
+<li class="lvl4"><a href="#21-internasjonale-designregistreringer">§ 21. Internasjonale designregistreringer</a></li>
+<li class="lvl4"><a href="#22-kunngjring-av-nasjonal-registrering-fornyelse-og-opphr">§ 22. Kunngjøring av nasjonal registrering, fornyelse og opphør</a></li>
+<li class="lvl4"><a href="#23-kunngjring-av-internasjonal-registrering-fornyelse-og-opphr">§ 23. Kunngjøring av internasjonal registrering, fornyelse og opphør</a></li>
+<li class="lvl4"><a href="#24-kunngjring-av-administrativ-overprving">§ 24. Kunngjøring av administrativ overprøving</a></li>
+<li class="lvl4"><a href="#25-andre-kunngjringer">§ 25. Andre kunngjøringer</a></li>
+<li class="lvl2"><a href="#kapittel-6-administrativ-overprving-og-klage">Kapittel 6. Administrativ overprøving og klage</a></li>
+<li class="lvl4"><a href="#26-administrativ-overprving">§ 26. Administrativ overprøving</a></li>
+<li class="lvl4"><a href="#27-krav-om-overprving-fra-departementet">§ 27. Krav om overprøving fra departementet</a></li>
+<li class="lvl4"><a href="#28-delvis-ugyldighet">§ 28. Delvis ugyldighet</a></li>
+<li class="lvl4"><a href="#29-opphevet-1-juli-2010-jfforskrift-25-juni-2010-nr-937">§ 29. (Opphevet 1 juli 2010, jf.forskrift 25 juni 2010 nr. 937.)</a></li>
+<li class="lvl2"><a href="#kapittel-7-forskjellige-bestemmelser">Kapittel 7. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#30-sprakkrav-og-korrespondanseadresse-etter-registrering">§ 30. Språkkrav og korrespondanseadresse etter registrering</a></li>
+<li class="lvl4"><a href="#31-krav-om-slettelse-etterdesignloven-34">§ 31. Krav om slettelse etterdesignloven § 34</a></li>
+<li class="lvl4"><a href="#32-fornyelse-av-registrering">§ 32. Fornyelse av registrering</a></li>
+<li class="lvl4"><a href="#33-dokumentformater-leveringstidspunkt-frister-og-betalinger">§ 33. Dokumentformater, leveringstidspunkt, frister og betalinger</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-oppbevaring-av-modell">§ 35. Oppbevaring av modell</a></li>
+<li class="lvl2"><a href="#kapittel-8-internasjonal-designregistrering">Kapittel 8. Internasjonal designregistrering</a></li>
+<li class="lvl4"><a href="#36-sknad-om-internasjonal-designregistrering">§ 36. Søknad om internasjonal designregistrering</a></li>
+<li class="lvl4"><a href="#37-behandling-av-krav-om-at-en-internasjonal-designregistrering-skal-ha-virkning-i-norge">§ 37. Behandling av krav om at en internasjonal designregistrering skal ha virkning i Norge</a></li>
+<li class="lvl4"><a href="#38-oppheving-av-eget-tiltak">§ 38. Oppheving av eget tiltak</a></li>
+<li class="lvl4"><a href="#39-opphevet-1-juli-2010-jfforskrift-25-juni-2010-nr-937">§ 39. (Opphevet 1 juli 2010, jf.forskrift 25 juni 2010 nr. 937.)</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#40-oppheving-av-andre-forskrifter">§ 40. Oppheving av andre forskrifter</a></li>
+<li class="lvl4"><a href="#41-ikraftsettings-og-overgangsbestemmelser">§ 41. Ikraftsettings- og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-04-04-418.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-04-04-418.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-04-04-418.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2003-04-04-418.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2003-04-04-418.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-04-04-418.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2003-04-04-418.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2003-04-04-418.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-04-04-418.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-designloven-designforskriften">Forskrift til designloven (designforskriften)</h1>
 <h2 id="kapittel-1-sknad-om-registrering-av-design">Kapittel 1. Søknad om registrering av design</h2>
 <h4 id="1-formkrav">§ 1. Formkrav</h4>
 <p>Søknad om registrering av design leveres på særskilt søknadsskjema. Skjema med vedlegg skal utfylles med trykt skrift.</p>
-<p><em>Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 15 mai 2009 nr. 511 , 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 15 mai 2009 nr. 511 , 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="2-sprakkrav">§ 2. Språkkrav</h4>
 <p>Søknaden skal være på norsk. Vedlegg til søknaden og andre dokumenter i saken skal være på norsk, dansk, svensk eller engelsk.</p>
 <p>Er søknaden eller andre dokumenter på annet språk enn bestemt i første ledd, kan Patentstyret kreve at søkeren skal levere en oversettelse til norsk innen en frist som Patentstyret fastsetter. Patentstyret kan kreve at oversettelsen bekreftes av en statsautorisert oversetter.</p>
 <p>Patentstyret kan i det enkelte tilfellet godta annet språk enn nevnt i første ledd.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="3-sknadens-innhold">§ 3. Søknadens innhold</h4>
 <p>Søknaden skal være signert av søkeren eller dennes fullmektig og inneholde:</p>
 <ol>
@@ -94,10 +243,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>en angivelse av om og hvor lenge registreringen ønskes utsatt etter designloven § 18 annet ledd.</li>
 </ol>
 <p>Søknaden skal i tillegg inneholde opplysninger som nevnt i § 4 og § 5 .</p>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019, se endringsforskriften for overgangsregler).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019, se endringsforskriften for overgangsregler).</p>
 <h4 id="3a-adresse-for-korrespondanse">§ 3a. Adresse for korrespondanse</h4>
 <p>Dersom ikke annet er angitt i søknaden, er adressen som oppgis etter § 3 nr. 1 adresse for meddelelser og forkynnelser m.m. etter designloven 49. Har søker oppnevnt fullmektig, er fullmektigens adresse slik adresse så langt som fullmakten rekker. Er det flere søkere eller fullmektiger, og ikke annet er angitt, er adressen til den som er nevnt først adresse for korrespondanse. Søker kan når som helst melde inn ny adresse for korrespondanse.</p>
-<p><em>Tilføyd ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Tilføyd ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="4-produktangivelse-og-klasse">§ 4. Produktangivelse og klasse</h4>
 <p>Søknaden skal presist angi produktet eller produktene som designen gjelder, slik at Patentstyret kan avgjøre hvilken klasse og underklasse produktet tilhører etter Locarnoavtalen av 8. oktober 1968 nr. 1 om internasjonal klassifisering av design. Klasse og underklasse etter Locarnoavtalen skal angis i søknaden, men angivelsen er ikke bindende for Patentstyret.</p>
 <h4 id="5-bilder-og-modell">§ 5. Bilder og modell</h4>
@@ -107,18 +256,18 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Omfatter søknaden mer enn en design, jf. designloven § 15 , skal det leveres inn inntil sju separate bilder og eventuelt modell av hver design. Bilder skal være fortløpende nummerert, slik at det går klart frem hvilken design de gjelder. Leveres det flere bilder av hver design, skal det til hovednummeret knyttes et tilleggsnummer for hvert bilde (1.1, 1.2, 1.3 osv.).</p>
 <p>Hvis det anses nødvendig, kan Patentstyret kreve at søker leverer modell. Modellen må være av holdbart og ufarlig materiale og medregnet innpakning skal den ikke i noen retning overstige 30 cm eller veie mer enn 4 kg.</p>
 <p>Patentstyret kan fastsette nærmere krav til bildene og gi nærmere retningslinjer om oversendelsesmåter og lagringsformater mv.</p>
-<p><em>Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 9 april 2010 nr. 498 (i kraft 17 juni 2010), 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019, se endringsforskriften for overgangsregler).</em></p>
+<p class="note">Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 9 april 2010 nr. 498 (i kraft 17 juni 2010), 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019, se endringsforskriften for overgangsregler).</p>
 <h4 id="6-leveringsdag">§ 6. Leveringsdag</h4>
 <p>Søknaden får leveringsdag selv om den ikke oppfyller vilkårene i § 2 , § 3 og § 4 , hvis den senere rettes eller leveres på korrekt måte, jf. designloven § 19 .</p>
 <p>Hvis verken bilder eller eventuelt modell følger med søknaden, regnes den bare som levert hvis den inneholder et krav om prioritet som oppfyller vilkårene i designloven § 16 første ledd, jf. forskriften § 7 til § 9 .</p>
-<p><em>Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrifter 14 mai 2004 nr. 749 (i kraft 1 juli 2004), 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h2 id="kapittel-2-prioritet">Kapittel 2. Prioritet</h2>
 <h4 id="7-sknadsprioritet">§ 7. Søknadsprioritet</h4>
 <p>Søkeren kan kreve prioritet etter designloven § 16 første ledd på grunnlag av den første søknaden om designregistrering eller bruksmønsterbeskyttelse som viser designen, hvis denne søknaden ble innlevert i en stat som er tilsluttet Pariskonvensjonen 20. mars 1883 nr. 1 om beskyttelse av industriell eiendomsrett eller avtale 15. april 1994 nr. 1 om opprettelse av Verdens handelsorganisasjon (WTO-avtalen), eller hvis den ble innlevert til regional registreringsmyndighet for slike stater.</p>
 <p>Kravet om prioritet må tas med i søknaden ved innleveringen til Patentstyret. Det kan ikke kreves prioritet etter dette tidspunktet. En design kan bare ha én prioritet.</p>
 <p>Kravet skal opplyse om hvilken designmyndighet den påberopte søknaden ble innlevert til, hvilken dag den ble innlevert og søknadsnummeret. Hvis kravet ikke inneholder disse opplysningene, skal Patentstyret gi søkeren en frist på én måned til å innlevere opplysningene. Retten til prioritet bortfaller dersom fristen ikke overholdes.</p>
 <p>Patentstyret kan forlange at den som krever prioritet, skal innlevere et prioritetsbevis innen tre måneder fra krav om dette ble sendt fra Patentstyret. Prioritetsbeviset skal inneholde opplysninger som nevnt i tredje ledd, søkerens navn, kopi av søknaden og være bekreftet av designmyndigheten som den påberopte søknaden ble innlevert til.</p>
-<p><em>Endret ved forskrift 14 mai 2004 nr. 749 (i kraft 1 juli 2004).</em></p>
+<p class="note">Endret ved forskrift 14 mai 2004 nr. 749 (i kraft 1 juli 2004).</p>
 <h4 id="8-grunnlag-for-sknadsprioritet">§ 8. Grunnlag for søknadsprioritet</h4>
 <p>For at en søknad skal kunne gi grunnlag for prioritet etter designloven § 16 første ledd, må den være den første som angir designen.</p>
 <p>En senere søknad som angir designen, kan likevel gi grunnlag for prioritet hvis:</p>
@@ -152,11 +301,11 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 </ol>
 <p>Får Patentstyret kjennskap til andre forhold som kan ha betydning for beskyttelsen av designen, skal dette inngå i undersøkelsen.</p>
 <p>Patentstyret skal orientere søkeren om resultatet av undersøkelsen, uten å ta stilling til om vilkårene for designrett er oppfylt.</p>
-<p><em>Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</em></p>
+<p class="note">Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</p>
 <h4 id="15-protest-under-sknadsbehandlingen">§ 15. Protest under søknadsbehandlingen</h4>
 <p>Hvis Patentstyret før en design er registrert, mottar en protest av betydning for vurderingen av søknaden, skal Patentstyret gi søkeren melding om dette.</p>
 <p>Protest mot registrering av en design gir ikke partsrettigheter. Dersom protesten ikke tas til følge, skal vedkommende som har fremsatt den gjøres oppmerksom på adgangen til å kreve administrativ overprøving.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="16-delvis-avslag-og-registrering-i-endret-form">§ 16. Delvis avslag og registrering i endret form</h4>
 <p>Omfatter søknaden mer enn én design, og én eller flere av designene ikke oppfyller vilkårene for registrering etter designloven § 17 første ledd, må disse designene avdeles etter forskriften § 17 eller trekkes fra søknaden. Hvis søkeren ikke ønsker dette, skal søknaden avslås i sin helhet.</p>
 <p>Hvis Patentstyret finner at en design kan registreres i endret form etter designloven § 14 , skal Patentstyret gi søkeren melding om dette med en frist på to måneder til å innlevere bilder av designen i endret form.</p>
@@ -167,28 +316,28 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Søker skal sammen med kravet om utskilling levere nytt søknadsskjema, angi den opprinnelige søknadens nummer, samt vedlegge bilder som viser designen. Bestemmelsene i § 3 til § 5 gjelder tilsvarende. Det skal betales fastsatt gebyr for den nye søknaden.</p>
 <p>Krav om utskilling avslås hvis vilkårene i første og annet ledd ikke er oppfylt. Designloven § 19 gjelder tilsvarende.</p>
 <p>Gjennomføres utskilling, gis søkeren melding om dette med opplysning om nummeret på den nye søknaden. Den nye søknaden regnes som levert samme dag som bildene av designen ble levert i den opprinnelige søknaden.</p>
-<p><em>Tilføyd ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010), endret ved forskrift 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010), endret ved forskrift 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="17-deling-av-sknader">§ 17. Deling av søknader</h4>
 <p>Omfatter søknaden mer enn én design, kan søkeren kreve søknaden delt i flere selvstendige søknader.</p>
 <p>Kravet om deling skal angi den opprinnelige søknadens nummer og hvilke av designene den opprinnelige og de nye søknadene skal omfatte. Søker skal levere nytt søknadsskjema og vedlegge bilder for hver ny søknad. Bestemmelsene i § 3 til § 5 gjelder tilsvarende. Det skal betales fastsatt gebyr for hver ny søknad. Ny søknad betegnes som avdelt søknad.</p>
 <p>Avdelt søknad må leveres før den opprinnelige søknaden er endelig avgjort. Avdelt søknad kan ikke omfatte design som ikke var omfattet av den opprinnelige søknaden før delingen. Avdelt søknad kan ikke omfatte samme design som den opprinnelige søknaden eller annen avdelt søknad.</p>
 <p>Krav om deling avslås hvis vilkårene i første til tredje ledd ikke er oppfylt. Designloven § 19 gjelder tilsvarende.</p>
 <p>Gjennomføres deling, gis søkeren melding om dette med opplysning om nummeret på den avdelte søknaden. Den opprinnelige søknaden beholder sitt søknadsnummer. Hver avdelt søknad gis nytt søknadsnummer. Avdelt søknad får samme leveringsdag som den opprinnelige søknaden, og den enkelte designen beholder sin opprinnelige prioritet. Dokumenter som ble levert i den opprinnelige søknaden frem til og med gjennomføringen av delingen, skal regnes som dokumenter i en avdelt søknad.</p>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010). 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010). 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="18-deling-av-registreringer">§ 18. Deling av registreringer</h4>
 <p>Omfatter en registrering mer enn én design, kan designhaveren kreve registreringen delt i flere selvstendige registreringer.</p>
 <p>Kravet om deling skal angi den opprinnelige registreringens nummer og hvilke av designene den opprinnelige og de nye registreringene skal omfatte. Det skal betales fastsatt gebyr for hver ny registrering. Ny registrering betegnes som avdelt registrering.</p>
 <p>Krav om deling må leveres før den opprinnelige registreringen er opphørt. Avdelt registrering kan ikke omfatte design som ikke var omfattet av den opprinnelige registreringen før delingen. Avdelt registrering kan ikke omfatte samme design som den opprinnelige registreringen eller annen avdelt registrering.</p>
 <p>Krav om deling avslås hvis vilkårene i første til tredje ledd ikke er oppfylt. Designloven § 19 gjelder tilsvarende.</p>
 <p>Gjennomføres deling, gis designhaveren melding om dette med opplysning om nummeret på den avdelte registreringen. Den opprinnelige registreringen beholder sitt nummer. Hver avdelt registrering gis nytt registreringsnummer. Avdelt registrering får samme leveringsdag som den opprinnelige registreringen, og den enkelte designen beholder sin opprinnelige prioritet. Dokumenter som ble levert i den opprinnelige registreringen frem til og med gjennomføringen av delingen, skal regnes som dokumenter i en avdelt registrering.</p>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="19-sammenslaing-av-avdelte-sknader-og-registreringer">§ 19. Sammenslåing av avdelte søknader og registreringer</h4>
 <p>Søkeren kan kreve at Patentstyret slår sammen tidligere avdelte søknader, jf. § 17 , som er levert til Patentstyret på samme dag hvis designene tilhører samme klasse etter Locarnoavtalen 8. oktober 1968 nr. 1 om internasjonal klassifisering av design.</p>
 <p>Kravet skal angi søknadens nummer, nummeret på den søknaden den ønskes sammenslått med, og hvilke design den sammenslåtte søknaden skal omfatte. Ved krav om delvis sammenslåing skal søkeren angi hvilke design som skal inngå i søknaden som de overføres til. Det skal betales fastsatt gebyr. Krav om sammenslåing avslås hvis vilkårene i leddet her ikke er oppfylt. Designloven § 19 gjelder tilsvarende.</p>
 <p>Ved sammenslåing av tidligere avdelte søknader hvor den opprinnelige søknaden inngår, videreføres alltid den søknaden som har det opprinnelige søknadsnummeret.</p>
 <p>Gjennomføres hel eller delvis sammenslåing, gis søkeren melding om dette med opplysning om nummeret på den sammenslåtte søknaden.</p>
 <p>Innehaveren kan kreve at Patentstyret slår sammen tidligere avdelte registreringer, jf. § 18 , når søknaden er levert til Patentstyret på samme dag hvis designene tilhører samme klasse etter Locarnoavtalen 8. oktober 1968 nr. 1 om internasjonal klassifisering av design. Bestemmelsene i annet til fjerde ledd gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h2 id="kapittel-5-registrering-og-kunngjring">Kapittel 5. Registrering og kunngjøring</h2>
 <h4 id="20-designregisteret">§ 20. Designregisteret</h4>
 <p>Patentstyret fører register over designsøknader og designregistreringer. For internasjonale designregistreringer hvor Norge er utpekt gjelder § 21 . Opplysningene i designregistret er tilgjengelig for enhver.</p>
@@ -228,7 +377,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>om søkerens, innehaverens, fullmektigens eller lisenstakerens navn, foretaksnavn eller adresse er endret.</li>
 </ol>
 <p>Melding om endringer etter nr. 29, 31 og 32 skal leveres på særskilt skjema fastsatt av Patentstyret.</p>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 1 mars 2013 nr. 246 (i kraft 1 april 2013), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 1 mars 2013 nr. 246 (i kraft 1 april 2013), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="21-internasjonale-designregistreringer">§ 21. Internasjonale designregistreringer</h4>
 <p>Internasjonale designregistreringer hvor Norge er utpekt føres i registeret nevnt i § 20 . Opplysningene i registeret er tilgjengelige for enhver.</p>
 <p>Registeret skal inneholde følgende opplysninger om den internasjonale registreringen:</p>
@@ -250,17 +399,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>andre opplysninger som mottas fra Det internasjonale byrået om internasjonal designregistrering som gjelder i Norge når opplysningene har betydning for retten til, rettigheter i eller vernet av designen i Norge</li>
 <li>opplysninger som nevnt i § 20 annet ledd nr. 19, 21 og 29 til 32.</li>
 </ol>
-<p><em>Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="22-kunngjring-av-nasjonal-registrering-fornyelse-og-opphr">§ 22. Kunngjøring av nasjonal registrering, fornyelse og opphør</h4>
 <p>Kunngjøring av registrering av design etter designloven § 18 skal inneholde opplysninger som nevnt i § 20 annet ledd nr. 1 til 16, 18 og 19.</p>
 <p>Kunngjøring av fornyelse etter designloven § 24 skal inneholde opplysninger som nevnt i § 20 annet ledd nr. 1 til 5 og dato for utløpet av fornyelsesperioden.</p>
 <p>Opphør av registreringen skal kunngjøres. Kunngjøringen skal inneholde opplysninger som nevnt i § 20 annet ledd nr. 1 til 5 og opplysning om at registreringen har opphørt å gjelde og datoen for dette.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="23-kunngjring-av-internasjonal-registrering-fornyelse-og-opphr">§ 23. Kunngjøring av internasjonal registrering, fornyelse og opphør</h4>
 <p>Kunngjøring av internasjonal designregistrering etter designloven § 57 fjerde ledd skal inneholde opplysninger som nevnt i § 21 annet ledd nr. 1 til 10 og 13, samt datoen for kunngjøring i Norsk designtidende.</p>
 <p>Kunngjøring av fornyelse av internasjonal designregistrering etter designloven § 58 tredje ledd skal inneholde opplysninger som nevnt i § 21 annet ledd nr. 1 til 5 og dato for utløpet av fornyelsesperioden.</p>
 <p>Kunngjøring av opphør av internasjonal designregistrering etter designloven § 59 skal inneholde opplysninger som nevnt i § 21 annet ledd nr. 1 til 5 og opplysning om at registreringen har opphørt å gjelde og datoen for dette.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="24-kunngjring-av-administrativ-overprving">§ 24. Kunngjøring av administrativ overprøving</h4>
 <p>Kunngjøring av krav om administrativ overprøving etter designloven § 27 skal inneholde:</p>
 <ol>
@@ -274,7 +423,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>opplysninger om utfallet av den administrative overprøvingen</li>
 <li>datoen avgjørelsen ble endelig.</li>
 </ol>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="25-andre-kunngjringer">§ 25. Andre kunngjøringer</h4>
 <p>Kunngjøring etter designloven § 50 skal inneholde:</p>
 <ol>
@@ -295,12 +444,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>utlegg og arrest i designen.</li>
 </ol>
 <p>Kunngjøring etter nr. 3 og 6 til 10 skal inneholde opplysning om hvilken dato melding om forholdet som kunngjøres kom inn til Patentstyret.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h2 id="kapittel-6-administrativ-overprving-og-klage">Kapittel 6. Administrativ overprøving og klage</h2>
 <h4 id="26-administrativ-overprving">§ 26. Administrativ overprøving</h4>
 <p>Krav om administrativ overprøving skal inneholde opplysninger som nevnt i designloven § 27 første ledd samt navnet eller foretaksnavnet og adressen til en eventuell fullmektig. § 3 a gjelder tilsvarende for korrespondanse med innsigeren, jf. designloven § 49 .</p>
 <p>Hvis kravet om administrativ overprøving trekkes tilbake, kan behandlingen av saken bare fortsette etter designloven § 27 femte ledd hvis designhaveren gis melding om dette inn to måneder etter at kravet ble trukket tilbake.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="27-krav-om-overprving-fra-departementet">§ 27. Krav om overprøving fra departementet</h4>
 <p>Utenriksdepartementet kan fremme krav om administrativ overprøving etter designloven § 26 annet ledd nr. 3, bortsett fra krav om administrativ overprøving knyttet til nasjonale kontroll- og garantimerker, som kan fremmes av Justisdepartementet.</p>
 <h4 id="28-delvis-ugyldighet">§ 28. Delvis ugyldighet</h4>
@@ -311,21 +460,21 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="30-sprakkrav-og-korrespondanseadresse-etter-registrering">§ 30. Språkkrav og korrespondanseadresse etter registrering</h4>
 <p>Dokumenter som gjelder designregistreringer, herunder dokument i sak om administrativ overprøving, overføring eller klage m.m., skal være på norsk, dansk eller svensk. Det samme gjelder for dokument som gjelder internasjonale registreringer fra andre enn Det internasjonale byrået, herunder for dokument i sak om fornyet vurdering etter § 37 annet ledd. Er et dokument på annet språk, kan Patentstyret kreve at det leveres en oversettelse til norsk innen en frist som Patentstyret fastsetter. Bestemmelsene i § 6 annet ledd annet punktum og tredje ledd gjelder tilsvarende.</p>
 <p>§ 3a gjelder tilsvarende for korrespondanse med innehaver av nasjonal eller internasjonal designregistrering.</p>
-<p><em>Opphevet ved forskrift 15 mai 2009 nr. 511 . Tilføyd igjen ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Opphevet ved forskrift 15 mai 2009 nr. 511 . Tilføyd igjen ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="31-krav-om-slettelse-etterdesignloven-34">§ 31. Krav om slettelse etterdesignloven § 34</h4>
 <p>Krav fra designhaveren om slettelse av registreringen etter designloven § 34 første ledd leveres til Patentstyret og skal være signert av designhaveren eller dennes fullmektig. Kravet skal angi registreringsnummer og eventuelt hvilken design i registreringen som kreves slettet. § 3 annet ledd gjelder tilsvarende.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="32-fornyelse-av-registrering">§ 32. Fornyelse av registrering</h4>
 <p>Patentstyret skal varsle designhaver om fristen etter designloven § 24 første ledd ett år før registreringen utløper. At varsel ikke er gitt, gir ikke rett til å kreve fornyelse etter fristens utløp.</p>
 <p>Hvis et krav om fornyelse ikke oppfyller vilkårene i designloven § 24 , skal Patentstyret gi innehaveren en frist for retting av forholdet. Rettes ikke forholdet innen fristen, avslås kravet.</p>
 <p>Når en registrering er fornyet, skal Patentstyret sende melding om dette til designhaveren.</p>
-<p><em>Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Endret ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="33-dokumentformater-leveringstidspunkt-frister-og-betalinger">§ 33. Dokumentformater, leveringstidspunkt, frister og betalinger</h4>
 <p>Søknad og andre dokumenter kan leveres i papirformat eller elektronisk i samsvar med forskrift om betalinger mv. til Patentstyret og Klagenemnda for industrielle rettigheter.</p>
 <p>Bestemmelser om frister, betaling av avgifter og gebyrer og om når et dokument skal regnes som levert med fristavbrytende virkning, er gitt i forskrift om betalinger mv. til Patentstyret og Klagenemda for industrielle rettigheter.</p>
-<p><em>Endret ved forskrifter 15 mai 2009 nr. 511 , 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Endret ved forskrifter 15 mai 2009 nr. 511 , 25 juni 2010 nr. 937 (i kraft 1 juli 2010), 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="34-opphevet">§ 34. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</em></p>
+<p class="note">Opphevet ved forskrift 25 juni 2010 nr. 937 (i kraft 1 juli 2010).</p>
 <h4 id="35-oppbevaring-av-modell">§ 35. Oppbevaring av modell</h4>
 <p>Er det levert inn modell til Patentstyret i forbindelse med en designsøknad, skal Patentstyret oppbevare den i fem år etter at registreringen er opphørt. Har designhaveren innen dette tidspunktet ikke bedt om å få tilbakelevert modellen, kan Patentstyret tilintetgjøre den.</p>
 <h2 id="kapittel-8-internasjonal-designregistrering">Kapittel 8. Internasjonal designregistrering</h2>
@@ -333,16 +482,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="36-sknad-om-internasjonal-designregistrering">§ 36. Søknad om internasjonal designregistrering</h4>
 <p>Søknad om internasjonal designregistrering kan leveres enten direkte til Det internasjonale byrået eller til Patentstyret, på Det internasjonale byråets offisielle søknadsskjema. Ved levering til Patentstyret skal søknaden samt eventuelle vedlegg være på engelsk. Søknadsskjemaet skal være utfylt med trykt skrift. For øvrig skal søknaden oppfylle vilkårene i designloven § 56 første ledd, Genèveavtalen artikkel 5 samt regel 7 i de supplerende reglene til Genèveavtalen (Genèvereglene).</p>
 <p>Dersom gebyr betales innen den frist Patentstyret setter, skal en internasjonal søknad som er levert til Patentstyret oversendes til Det internasjonale byrået slik at den kan være mottatt der innen én måned etter leveringen hos Patentstyret, jf. regel 13 i Genèvereglene.</p>
-<p><em>Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010), endret ved forskrift 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</em></p>
+<p class="note">Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010), endret ved forskrift 21 juni 2019 nr. 800 (i kraft 1 juli 2019).</p>
 <h4 id="37-behandling-av-krav-om-at-en-internasjonal-designregistrering-skal-ha-virkning-i-norge">§ 37. Behandling av krav om at en internasjonal designregistrering skal ha virkning i Norge</h4>
 <p>Foreligger det noe til hinder for at en internasjonal designregistrering kan gis virkning i Norge, skal Patentstyret gi Det internasjonale byrået melding om avslag etter designloven § 57 annet ledd innen seks måneder etter den dagen da registreringen ble kunngjort i Det internasjonale byråets bulleteng (International Design Bulletin), jf. Genèveavtalen artikkel 12 nr. 2 og regel 18 nr. 1 bokstav a i Genèvereglene.</p>
 <p>Innehaveren av den internasjonale designregistreringen kan kreve en fornyet vurdering av spørsmålet om registreringen helt eller delvis kan gis virkning i Norge. Krav om fornyet vurdering med eventuelle rettinger av mangler må leveres til Patentstyret innen to måneder etter den dagen da melding om avslaget ble sendt søkeren.</p>
 <p>Finner Patentstyret at det ikke foreligger noe til hinder for at den internasjonale designregistreringen helt eller delvis kan gis virkning i Norge, skal denne innføres i designregistret og kunngjøres innen den fristen som er angitt i første ledd i paragrafen her.</p>
 <p>Designloven § 49 gjelder tilsvarende i saker om internasjonal designregistrering.</p>
-<p><em>Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</em></p>
+<p class="note">Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</p>
 <h4 id="38-oppheving-av-eget-tiltak">§ 38. Oppheving av eget tiltak</h4>
 <p>Dersom en internasjonal designregistrering er gitt virkning i Norge ved en åpenbar feil, kan Patentstyret oppheve innføringen i samsvar med designloven § 33 hvis det gjøres innen den fristen som er angitt i § 37 første ledd i forskriften her. Patentstyret skal innen samme frist gi Det internasjonale byrået melding om opphevingen.</p>
-<p><em>Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</em></p>
+<p class="note">Tilføyd ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010).</p>
 <h4 id="39-opphevet-1-juli-2010-jfforskrift-25-juni-2010-nr-937">§ 39. (Opphevet 1 juli 2010, jf.forskrift 25 juni 2010 nr. 937.)</h4>
 <h2 id="kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</h2>
 <p>Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010, tidligere kapittel 8).</p>
@@ -351,13 +500,15 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>1 Forskrift av 15. september 1970 nr. 9122 om klassifikasjon av mønster
 2 Forskrift av 20. desember 1996 nr. 1163 til mønsterloven
 3 Forskrift av 23. desember 1996 nr. 1264 om nærmere bestemmelser til mønsterloven.</p>
-<p><em>Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010, tidligere § 36).</em></p>
+<p class="note">Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010, tidligere § 36).</p>
 <h4 id="41-ikraftsettings-og-overgangsbestemmelser">§ 41. Ikraftsettings- og overgangsbestemmelser</h4>
 <p>Forskriften her trer i kraft 1. mai 2003.</p>
 <p>De tidligere forskriftene gjelder for design som er registrert eller søkt registrert før forskriften her trådte i kraft, så langt ikke annet er bestemt i tredje og fjerde ledd.</p>
 <p>Bestemmelsene i § 26 til § 28 gjelder også for registreringer som er gjort på grunnlag av designloven, selv om søknaden ble innlevert før forskriften her trådte i kraft.</p>
 <p>Kapittel 7 i forskriften her, bortsett fra § 32 første ledd, gjelder også for design som er registrert eller søkt registrert før forskriften her trådte i kraft.</p>
-<p><em>Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010, tidligere § 37).</em></p>
+<p class="note">Endret ved forskrift 9 april 2010 nr. 498 (i kraft 17 juni 2010, tidligere § 37).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

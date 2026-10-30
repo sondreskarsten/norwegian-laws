@@ -19,64 +19,211 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-06-21-854.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om konsekvensutredninger" href="../feeds/forskrift-2017-06-21-854.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> · <a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Forskrift om konsekvensutredninger</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-06-21-854</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementetKommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-06-353</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-21-854" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-forholdet-til-annet-regelverk">§ 3. Forholdet til annet regelverk</a></li>
+<li class="lvl3"><a href="#4-forslagsstiller">§ 4. Forslagsstiller</a></li>
+<li class="lvl3"><a href="#5-ansvarlig-myndighet">§ 5. Ansvarlig myndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-planer-og-tiltak-som-omfattes-av-forskriften">Kapittel 2. Planer og tiltak som omfattes av forskriften</a></li>
+<li class="lvl4"><a href="#6-planer-og-tiltak-som-alltid-skal-konsekvensutredes-og-ha-planprogram-eller-melding">§ 6. Planer og tiltak som alltid skal konsekvensutredes og ha planprogram eller melding</a></li>
+<li class="lvl4"><a href="#7-planer-og-tiltak-etter-andre-lover-som-alltid-skal-konsekvensutredes-men-ikke-ha-melding">§ 7. Planer og tiltak etter andre lover som alltid skal konsekvensutredes, men ikke ha melding</a></li>
+<li class="lvl4"><a href="#8-planer-og-tiltak-som-skal-konsekvensutredes-hvis-de-kan-fa-vesentlige-virkninger-for-milj-eller-samfunn">§ 8. Planer og tiltak som skal konsekvensutredes hvis de kan få vesentlige virkninger for miljø eller samfunn</a></li>
+<li class="lvl2"><a href="#kapittel-3-vurdering-av-om-planer-eller-tiltak-etter-8-krever-konsekvensutredning">Kapittel 3. Vurdering av om planer eller tiltak etter § 8 krever konsekvensutredning</a></li>
+<li class="lvl4"><a href="#9-opplysninger-som-skal-legges-frem-av-forslagsstiller-som-grunnlag-for-ansvarlig-myndighets-vurdering-etter-11eller-12">§ 9. Opplysninger som skal legges frem av forslagsstiller som grunnlag for ansvarlig myndighets vurdering etter§ 11eller§ 12</a></li>
+<li class="lvl4"><a href="#10-kriterier-for-vurderingen-av-om-en-plan-eller-et-tiltak-kan-fa-vesentlige-virkninger-for-milj-eller-samfunn">§ 10. Kriterier for vurderingen av om en plan eller et tiltak kan få vesentlige virkninger for miljø eller samfunn</a></li>
+<li class="lvl4"><a href="#11-ansvarlig-myndighets-vurdering-av-planer-etter-8frste-ledd-bokstav-a">§ 11. Ansvarlig myndighets vurdering av planer etter§ 8første ledd bokstav a</a></li>
+<li class="lvl4"><a href="#12-ansvarlig-myndighets-vurdering-av-tiltak-etter-8frste-ledd-bokstav-b">§ 12. Ansvarlig myndighets vurdering av tiltak etter§ 8første ledd bokstav b</a></li>
+<li class="lvl2"><a href="#kapittel-4-utarbeidelse-og-hring-av-planprogram-eller-melding-med-forslag-til-utredningsprogram-samt-fastsetting-av-plan-eller-utredingsprogram">Kapittel 4. Utarbeidelse og høring av planprogram eller melding med forslag til utredningsprogram samt fastsetting av plan- eller utredingsprogram</a></li>
+<li class="lvl4"><a href="#13-utarbeidelse-av-planprogram-eller-melding-med-forslag-til-utredningsprogram">§ 13. Utarbeidelse av planprogram eller melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#14-krav-til-innholdet-i-planprogram-og-melding-med-forslag-til-utredningsprogram">§ 14. Krav til innholdet i planprogram og melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#15-hring-av-forslag-til-planprogram-eller-melding-med-forslag-til-utredningsprogram">§ 15. Høring av forslag til planprogram eller melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#16-fastsetting-av-plan-eller-utredningsprogram">§ 16. Fastsetting av plan- eller utredningsprogram</a></li>
+<li class="lvl2"><a href="#kapittel-5-innholdet-i-konsekvensutredningen">Kapittel 5. Innholdet i konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#17-generelt-om-krav-til-innholdet">§ 17. Generelt om krav til innholdet</a></li>
+<li class="lvl4"><a href="#18-srlig-om-overordnede-planer">§ 18. Særlig om overordnede planer</a></li>
+<li class="lvl4"><a href="#19-beskrivelse-av-planen-eller-tiltaket">§ 19. Beskrivelse av planen eller tiltaket</a></li>
+<li class="lvl4"><a href="#20-beskrivelse-av-miljtilstanden">§ 20. Beskrivelse av miljøtilstanden</a></li>
+<li class="lvl4"><a href="#21-beskrivelse-av-faktorer-som-kan-bli-pavirket-og-vurdering-av-vesentlige-virkninger-for-milj-og-samfunn">§ 21. Beskrivelse av faktorer som kan bli påvirket og vurdering av vesentlige virkninger for miljø og samfunn</a></li>
+<li class="lvl4"><a href="#22-metode-kilder-og-usikkerhet">§ 22. Metode, kilder og usikkerhet</a></li>
+<li class="lvl4"><a href="#23-forebygging-av-virkninger">§ 23. Forebygging av virkninger</a></li>
+<li class="lvl4"><a href="#24-innleggelse-av-data-i-databaser">§ 24. Innleggelse av data i databaser</a></li>
+<li class="lvl2"><a href="#kapittel-6-behandling-av-konsekvensutredningen">Kapittel 6. Behandling av konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#25-hring-av-planforslag-eller-sknad-med-konsekvensutredning">§ 25. Høring av planforslag eller søknad med konsekvensutredning</a></li>
+<li class="lvl4"><a href="#26-endringer-av-planer-eller-tiltak-etter-gjennomfrt-hring">§ 26. Endringer av planer eller tiltak etter gjennomført høring</a></li>
+<li class="lvl4"><a href="#27-vurderingen-av-konsekvensutredningen-og-behovet-for-tilleggsutredninger">§ 27. Vurderingen av konsekvensutredningen og behovet for tilleggsutredninger</a></li>
+<li class="lvl4"><a href="#28-oppdatert-kunnskap">§ 28. Oppdatert kunnskap</a></li>
+<li class="lvl4"><a href="#29-sluttbehandling-av-saken">§ 29. Sluttbehandling av saken</a></li>
+<li class="lvl4"><a href="#30-offentliggjring-av-vedtaket">§ 30. Offentliggjøring av vedtaket</a></li>
+<li class="lvl2"><a href="#kapittel-7-srskilte-bestemmelser-for-planer-etter-plan-og-bygningsloven">Kapittel 7. Særskilte bestemmelser for planer etter plan- og bygningsloven</a></li>
+<li class="lvl4"><a href="#31-endring-av-rollen-som-ansvarlig-myndighet">§ 31. Endring av rollen som ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#32-srskilte-regler-om-planprogram">§ 32. Særskilte regler om planprogram</a></li>
+<li class="lvl2"><a href="#kapittel-8-planer-og-tiltak-med-grenseoverskridende-virkninger">Kapittel 8. Planer og tiltak med grenseoverskridende virkninger</a></li>
+<li class="lvl4"><a href="#33-nasjonalt-kontaktpunkt">§ 33. Nasjonalt kontaktpunkt</a></li>
+<li class="lvl4"><a href="#34-planer-og-tiltak-som-kan-fa-vesentlige-virkninger-i-andre-land">§ 34. Planer og tiltak som kan få vesentlige virkninger i andre land</a></li>
+<li class="lvl4"><a href="#35-planer-og-tiltak-som-kan-fa-vesentlige-virkninger-i-norge">§ 35. Planer og tiltak som kan få vesentlige virkninger i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-8a-tiltak-med-virkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">Kapittel 8A. Tiltak med virkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#35a-rapportering-til-mekanismen-for-informasjonsutveksling">§ 35A. Rapportering til Mekanismen for informasjonsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-9-sanksjoner-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Sanksjoner, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#36-overtredelsesgebyr">§ 36. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl4"><a href="#38-ikrafttredelse">§ 38. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#39-overgangsbestemmelser">§ 39. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-i-planer-etter-plan-og-bygningsloven-og-tiltak-etter-annet-lovverk-som-alltid-skal-ha-planprogram-eller-melding-og-konsekvensutredning">VEDLEGG I. Planer etter plan- og bygningsloven og tiltak etter annet lovverk som alltid skal ha planprogram eller melding og konsekvensutredning</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-planer-etter-plan-og-bygningsloven-og-tiltak-etter-annet-lovverk-som-skal-vurderes-nrmere">VEDLEGG II. Planer etter plan- og bygningsloven og tiltak etter annet lovverk som skal vurderes nærmere</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-06-353.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-21-854.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om konsekvensutredninger</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-21-854.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-06-21-854 <code>forskrift/2017-06-21-854</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementetKommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-06-353 <code>forskrift/2026-03-06-353</code> fra 06.03.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-21-854" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-forholdet-til-annet-regelverk">§ 3. Forholdet til annet regelverk</a></li>
+<li class="lvl3"><a href="#4-forslagsstiller">§ 4. Forslagsstiller</a></li>
+<li class="lvl3"><a href="#5-ansvarlig-myndighet">§ 5. Ansvarlig myndighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-planer-og-tiltak-som-omfattes-av-forskriften">Kapittel 2. Planer og tiltak som omfattes av forskriften</a></li>
+<li class="lvl4"><a href="#6-planer-og-tiltak-som-alltid-skal-konsekvensutredes-og-ha-planprogram-eller-melding">§ 6. Planer og tiltak som alltid skal konsekvensutredes og ha planprogram eller melding</a></li>
+<li class="lvl4"><a href="#7-planer-og-tiltak-etter-andre-lover-som-alltid-skal-konsekvensutredes-men-ikke-ha-melding">§ 7. Planer og tiltak etter andre lover som alltid skal konsekvensutredes, men ikke ha melding</a></li>
+<li class="lvl4"><a href="#8-planer-og-tiltak-som-skal-konsekvensutredes-hvis-de-kan-fa-vesentlige-virkninger-for-milj-eller-samfunn">§ 8. Planer og tiltak som skal konsekvensutredes hvis de kan få vesentlige virkninger for miljø eller samfunn</a></li>
+<li class="lvl2"><a href="#kapittel-3-vurdering-av-om-planer-eller-tiltak-etter-8-krever-konsekvensutredning">Kapittel 3. Vurdering av om planer eller tiltak etter § 8 krever konsekvensutredning</a></li>
+<li class="lvl4"><a href="#9-opplysninger-som-skal-legges-frem-av-forslagsstiller-som-grunnlag-for-ansvarlig-myndighets-vurdering-etter-11eller-12">§ 9. Opplysninger som skal legges frem av forslagsstiller som grunnlag for ansvarlig myndighets vurdering etter§ 11eller§ 12</a></li>
+<li class="lvl4"><a href="#10-kriterier-for-vurderingen-av-om-en-plan-eller-et-tiltak-kan-fa-vesentlige-virkninger-for-milj-eller-samfunn">§ 10. Kriterier for vurderingen av om en plan eller et tiltak kan få vesentlige virkninger for miljø eller samfunn</a></li>
+<li class="lvl4"><a href="#11-ansvarlig-myndighets-vurdering-av-planer-etter-8frste-ledd-bokstav-a">§ 11. Ansvarlig myndighets vurdering av planer etter§ 8første ledd bokstav a</a></li>
+<li class="lvl4"><a href="#12-ansvarlig-myndighets-vurdering-av-tiltak-etter-8frste-ledd-bokstav-b">§ 12. Ansvarlig myndighets vurdering av tiltak etter§ 8første ledd bokstav b</a></li>
+<li class="lvl2"><a href="#kapittel-4-utarbeidelse-og-hring-av-planprogram-eller-melding-med-forslag-til-utredningsprogram-samt-fastsetting-av-plan-eller-utredingsprogram">Kapittel 4. Utarbeidelse og høring av planprogram eller melding med forslag til utredningsprogram samt fastsetting av plan- eller utredingsprogram</a></li>
+<li class="lvl4"><a href="#13-utarbeidelse-av-planprogram-eller-melding-med-forslag-til-utredningsprogram">§ 13. Utarbeidelse av planprogram eller melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#14-krav-til-innholdet-i-planprogram-og-melding-med-forslag-til-utredningsprogram">§ 14. Krav til innholdet i planprogram og melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#15-hring-av-forslag-til-planprogram-eller-melding-med-forslag-til-utredningsprogram">§ 15. Høring av forslag til planprogram eller melding med forslag til utredningsprogram</a></li>
+<li class="lvl4"><a href="#16-fastsetting-av-plan-eller-utredningsprogram">§ 16. Fastsetting av plan- eller utredningsprogram</a></li>
+<li class="lvl2"><a href="#kapittel-5-innholdet-i-konsekvensutredningen">Kapittel 5. Innholdet i konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#17-generelt-om-krav-til-innholdet">§ 17. Generelt om krav til innholdet</a></li>
+<li class="lvl4"><a href="#18-srlig-om-overordnede-planer">§ 18. Særlig om overordnede planer</a></li>
+<li class="lvl4"><a href="#19-beskrivelse-av-planen-eller-tiltaket">§ 19. Beskrivelse av planen eller tiltaket</a></li>
+<li class="lvl4"><a href="#20-beskrivelse-av-miljtilstanden">§ 20. Beskrivelse av miljøtilstanden</a></li>
+<li class="lvl4"><a href="#21-beskrivelse-av-faktorer-som-kan-bli-pavirket-og-vurdering-av-vesentlige-virkninger-for-milj-og-samfunn">§ 21. Beskrivelse av faktorer som kan bli påvirket og vurdering av vesentlige virkninger for miljø og samfunn</a></li>
+<li class="lvl4"><a href="#22-metode-kilder-og-usikkerhet">§ 22. Metode, kilder og usikkerhet</a></li>
+<li class="lvl4"><a href="#23-forebygging-av-virkninger">§ 23. Forebygging av virkninger</a></li>
+<li class="lvl4"><a href="#24-innleggelse-av-data-i-databaser">§ 24. Innleggelse av data i databaser</a></li>
+<li class="lvl2"><a href="#kapittel-6-behandling-av-konsekvensutredningen">Kapittel 6. Behandling av konsekvensutredningen</a></li>
+<li class="lvl4"><a href="#25-hring-av-planforslag-eller-sknad-med-konsekvensutredning">§ 25. Høring av planforslag eller søknad med konsekvensutredning</a></li>
+<li class="lvl4"><a href="#26-endringer-av-planer-eller-tiltak-etter-gjennomfrt-hring">§ 26. Endringer av planer eller tiltak etter gjennomført høring</a></li>
+<li class="lvl4"><a href="#27-vurderingen-av-konsekvensutredningen-og-behovet-for-tilleggsutredninger">§ 27. Vurderingen av konsekvensutredningen og behovet for tilleggsutredninger</a></li>
+<li class="lvl4"><a href="#28-oppdatert-kunnskap">§ 28. Oppdatert kunnskap</a></li>
+<li class="lvl4"><a href="#29-sluttbehandling-av-saken">§ 29. Sluttbehandling av saken</a></li>
+<li class="lvl4"><a href="#30-offentliggjring-av-vedtaket">§ 30. Offentliggjøring av vedtaket</a></li>
+<li class="lvl2"><a href="#kapittel-7-srskilte-bestemmelser-for-planer-etter-plan-og-bygningsloven">Kapittel 7. Særskilte bestemmelser for planer etter plan- og bygningsloven</a></li>
+<li class="lvl4"><a href="#31-endring-av-rollen-som-ansvarlig-myndighet">§ 31. Endring av rollen som ansvarlig myndighet</a></li>
+<li class="lvl4"><a href="#32-srskilte-regler-om-planprogram">§ 32. Særskilte regler om planprogram</a></li>
+<li class="lvl2"><a href="#kapittel-8-planer-og-tiltak-med-grenseoverskridende-virkninger">Kapittel 8. Planer og tiltak med grenseoverskridende virkninger</a></li>
+<li class="lvl4"><a href="#33-nasjonalt-kontaktpunkt">§ 33. Nasjonalt kontaktpunkt</a></li>
+<li class="lvl4"><a href="#34-planer-og-tiltak-som-kan-fa-vesentlige-virkninger-i-andre-land">§ 34. Planer og tiltak som kan få vesentlige virkninger i andre land</a></li>
+<li class="lvl4"><a href="#35-planer-og-tiltak-som-kan-fa-vesentlige-virkninger-i-norge">§ 35. Planer og tiltak som kan få vesentlige virkninger i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-8a-tiltak-med-virkninger-i-omrader-utenfor-nasjonal-jurisdiksjon">Kapittel 8A. Tiltak med virkninger i områder utenfor nasjonal jurisdiksjon</a></li>
+<li class="lvl4"><a href="#35a-rapportering-til-mekanismen-for-informasjonsutveksling">§ 35A. Rapportering til Mekanismen for informasjonsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-9-sanksjoner-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Sanksjoner, ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#36-overtredelsesgebyr">§ 36. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#37-straff">§ 37. Straff</a></li>
+<li class="lvl4"><a href="#38-ikrafttredelse">§ 38. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#39-overgangsbestemmelser">§ 39. Overgangsbestemmelser</a></li>
+<li class="lvl2"><a href="#vedlegg-i-planer-etter-plan-og-bygningsloven-og-tiltak-etter-annet-lovverk-som-alltid-skal-ha-planprogram-eller-melding-og-konsekvensutredning">VEDLEGG I. Planer etter plan- og bygningsloven og tiltak etter annet lovverk som alltid skal ha planprogram eller melding og konsekvensutredning</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-planer-etter-plan-og-bygningsloven-og-tiltak-etter-annet-lovverk-som-skal-vurderes-nrmere">VEDLEGG II. Planer etter plan- og bygningsloven og tiltak etter annet lovverk som skal vurderes nærmere</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-21-854.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-21-854.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-21-854.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-06-21-854.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-06-21-854.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-21-854.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-06-21-854.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-06-21-854.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-21-854.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-konsekvensutredninger">Forskrift om konsekvensutredninger</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med forskriften er å sikre at hensynet til miljø og samfunn blir tatt i betraktning under forberedelsen av planer og tiltak, og når det tas stilling til om og på hvilke vilkår planer eller tiltak kan gjennomføres.</p>
 <h3 id="2-virkeomrade">§ 2. Virkeområde</h3>
@@ -136,7 +283,7 @@ f. konsekvenser for befolkningens helse, for eksempel som følge av vann- eller 
 g. vesentlig forurensning eller klimagassutslipp
 h. risiko for alvorlige ulykker som en følge av naturfarer som ras, skred eller flom.</p>
 <p>I vurderingen av om planen eller tiltaket kan få vesentlige virkninger og følgelig skal konsekvensutredes, skal det ses hen til virkningenes intensitet og kompleksitet, sannsynlighet for at virkningene inntreffer og når de inntreffer, varighet, hyppighet og mulighet for å reversere eller begrense dem, om virkningene strekker seg over landegrensene eller til marine områder utenfor nasjonal jurisdiksjon, samt samlede virkninger av forslaget til plan eller tiltak og andre eksisterende, godkjente eller planlagte planer eller tiltak.</p>
-<p><em>Endret ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</p>
 <h4 id="11-ansvarlig-myndighets-vurdering-av-planer-etter-8frste-ledd-bokstav-a">§ 11. Ansvarlig myndighets vurdering av planer etter§ 8første ledd bokstav a</h4>
 <p>Ansvarlig myndighet skal før planarbeidet starter, jf. plan- og bygningsloven § 12-8 , og senest seks uker etter at forslagsstilleren har gitt opplysningene etter § 9, ut fra alle tilgjengelige opplysninger ta stilling til om planen kan få vesentlige virkninger for miljø eller samfunn.</p>
 <p>Hvis ansvarlig myndighet finner at planen kan få vesentlige virkninger for miljø eller samfunn, skal planen konsekvensutredes, jf. bestemmelsene i kapittel 5 .</p>
@@ -214,7 +361,7 @@ d. hvor sårbar planen eller tiltaket er for klimaendringer og naturfarer som fl
 <p>Beskrivelsen skal omfatte positive, negative, direkte, indirekte, midlertidige, varige, kortsiktige og langsiktige virkninger.</p>
 <p>Samlede virkninger av planen eller tiltaket sett i lys av allerede gjennomførte, vedtatte eller godkjente planer eller tiltak i influensområdet skal også vurderes. Der hvor reindriftsinteresser blir berørt, skal de samlede virkningene av planer og tiltak innenfor det aktuelle reinbeitedistriktet vurderes.</p>
 <p>Virkninger over landegrenser og i marine områder utenfor nasjonal jurisdiksjon skal også beskrives.</p>
-<p><em>Endret ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</p>
 <h4 id="22-metode-kilder-og-usikkerhet">§ 22. Metode, kilder og usikkerhet</h4>
 <p>Konsekvensutredningen skal inneholde en beskrivelse av de metodene som er brukt for å kartlegge virkningene for miljø og samfunn. Beskrivelsen skal omfatte utfordringer, tekniske mangler og kunnskapsmangler som har påvirket sammenstillingen av informasjonen og de viktigste usikkerhetsfaktorene ved utredningen.</p>
 <p>Utredningen skal inneholde en liste med opplysninger om de kildene som er brukt i beskrivelser og vurderinger i rapporten.</p>
@@ -267,7 +414,7 @@ d. hvor sårbar planen eller tiltaket er for klimaendringer og naturfarer som fl
 <p>Dersom tiltak som gjennomføres i marine områder kan forårsake betydelig forurensning av eller vesentlige og skadelige forandringer i det marine miljøet i områder utenfor nasjonal jurisdiksjon, skal ansvarlig myndighet sørge for at informasjon som nevnt i andre ledd meldes til Mekanismen for informasjonsutveksling som er opprettet i medhold av Avtale om bevaring og bærekraftig bruk av marint biologisk mangfold i områder utenfor nasjonal jurisdiksjon under Havrettskonvensjonen .</p>
 <p>Relevant informasjon i løpet av konsekvensutredningsprosessen, rapporter om konsekvensutredninger og eventuelle relevante overvåkingsrapporter skal innen rimelig tid meldes til Mekanismen for informasjonsutveksling.</p>
 <p>Kravene i denne bestemmelsen gjelder ikke for Forsvarets aktiviteter, herunder Forsvarets aktiviteter utført av statlige fartøy og luftfartøy i ikke-kommersiell tjeneste.</p>
-<p><em>Tilføyd ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2025 nr. 2707 (i kraft 17 jan 2026).</p>
 <h2 id="kapittel-9-sanksjoner-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Sanksjoner, ikrafttredelse og overgangsbestemmelser</h2>
 <h4 id="36-overtredelsesgebyr">§ 36. Overtredelsesgebyr</h4>
 <p>Overtredelsesgebyr i henhold til plan- og bygningsloven § 32-8a kan ilegges den som fremmer forslag til reguleringsplan etter plan- og bygningsloven eller tiltak og planer etter annet lovverk og som forsettlig eller uaktsomt:</p>
@@ -289,6 +436,8 @@ c. gir uriktige eller villedende opplysninger av betydning for vurdering av sake
 <h2 id="vedlegg-ii-planer-etter-plan-og-bygningsloven-og-tiltak-etter-annet-lovverk-som-skal-vurderes-nrmere">VEDLEGG II. Planer etter plan- og bygningsloven og tiltak etter annet lovverk som skal vurderes nærmere</h2>
 <p>A. Planer og tiltak B. Ansvarlig myndighet og lov(er) behandlingen er knyttet opp til 1. JORDBRUK, SKOGBRUK OG AKVAKULTUR a) Prosjekter for omstrukturering av jordeiendommer. Statsforvalteren b) Prosjekter for bruk av uoppdyrkede landområder eller delvis naturlige områder til intensivt landbruk, herunder nydyrking på mer enn 50 dekar. Også mindre tiltak skal behandles etter kapittel 5 og 6 dersom det ikke kan utelukkes at tiltaket kan få vesentlige virkninger for naturmangfold eller andre viktige miljøhensyn. Kommunen. Forskrift om nydyrking gitt med hjemmel i jordloven. c) Vannforvaltningstiltak innen landbruk, herunder vannings- og dreneringsprosjekter. Planmyndigheten. Plan- og bygningsloven. d) i. Avskoging med sikte på omlegging til annen arealbruk Planmyndigheten. Plan- og bygningsloven. ii. Skogreising som omfatter samlet overflate på mer enn 500 dekar. Også mindre meldepliktige tiltak skal behandles etter kapittel 3 dersom det ikke kan utelukkes at tiltaket kan få vesentlige virkninger for naturmangfold eller andre viktige miljøhensyn. Kommunen. Forskrift om bærekraftig skogbruk med hjemmel i skogbruksloven. e) Anlegg for intensivt dyrehold Statsforvalteren. Lov om regulering av svine- og fjørfeproduksjon. f) Akvakultur som ikke er omfattet av vedlegg I nr. 31. Fylkeskommunen. Akvakulturloven g) Landgjenvinning fra havet. Planmyndigheten. Plan- og bygningsloven. h) Reingjerder på mer enn 30 km. Reindriftsforvaltningen i Alta. Reindriftsloven. i) Etablering av landbruksvei dersom nyanlegget overstiger 5 km. Kommunen. Forskrift om planlegging og godkjenning av veier for landbruksformål gitt med hjemmel i jordloven og skogbruksloven. 2. UTVINNINGSINDUSTRI a) Mineraluttak, herunder torvskjæring. Planmyndigheten. Plan- og bygningsloven. b) Gruvedrift under jorden. Planmyndigheten. Plan- og bygningsloven. c) Mudringsrelatert kommersiell utvinning av mineraler fra havbunnen Fylkeskommunen. Havbunnsmineralloven. d) Dypboring, særlig: i. Geotermisk boring ii. Boring for atomavfall iii. Boring med sikte på vannforsyning med unntak av boring som utføres for å studere jordbunnens fasthet. Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat. Vannressursloven. e) Anlegg for utvinning av kull, olje, naturgass, malm og oljeskifer. Energidepartementet for tiltak etter petroleumsloven. 3. ENERGIANLEGG a) Industrianlegg for produksjon av elektrisk energi, damp og varmtvann som krever konsesjon etter energiloven. Norges vassdrags- og energidirektorat. Energiloven. b1) Industrianlegg og rørledninger for transport av olje og gass, damp og varmtvann. Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat. Naturgassloven. Energiloven. Energidepartementet. Petroleumsloven. b2) Kraftledninger som krever anleggskonsesjon. Norges vassdrags- og energidirektorat. Energiloven. c) Lagring av naturgass på jordoverflaten. Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat for tiltak som krever konsesjon etter naturgassloven. d) Lagring av brennbar gass under jorden. Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat for tiltak som krever konsesjon etter naturgassloven. e) Lagring av fossilt brensel på jordoverflaten Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat for tiltak som krever konsesjon etter naturgassloven. f) Industriell brikettering av kull og lignitt. Planmyndigheten. Plan- og bygningsloven. g) Anlegg for bearbeiding og lagring av radioaktivt avfall der det kreves tillatelse fra Direktoratet for strålevern og atomsikkerhet. Direktoratet for strålevern og atomsikkerhet. Atomenergiloven. Forurensningsloven og strålevernloven. h) Anlegg for produksjon av vannkraft. Norges vassdrags- og energidirektorat for tiltak som krever konsesjon etter vannressursloven eller vassdragsreguleringsloven. i) Konsesjonspliktige anlegg for utnytting av vindkraft til energiproduksjon. Norges vassdrags- og energidirektorat. Energiloven. j) Anlegg til oppsamling av CO 2 -strømmer fra anlegg med sikte på geologisk lagring. Slike tiltak omfattes av vedlegg I nr. 22. k) Solkraftanlegg som ikke er omfattet av vedlegg I nr. 30. Planmyndigheten. Plan- og bygningsloven . 4. PRODUKSJON OG BEARBEIDING AV METALL a) Anlegg for produksjon av råjern eller stål (første- eller andregangs smelting) med tilhørende utstyr for kontinuerlig støpning. Planmyndigheten. Plan- og bygningsloven. b) Anlegg for bearbeiding av ferrometaller ved hjelp av: i. Varmevalsing ii. Smiing med hammere iii. Påføring av beskyttelseslag av smeltet metall. Planmyndigheten. Plan- og bygningsloven. c) Ferrometallstøperier. Planmyndigheten. Plan- og bygningsloven. d) Anlegg for smelting, herunder legering, av ikke-jernholdige metaller, unntatt edelmetaller, herunder gjenvinningsprodukter (raffinering, støpning). Planmyndigheten. Plan- og bygningsloven. e) Anlegg for overflatebehandling av metaller og plast ved hjelp av en elektrolytisk eller kjemisk prosess. Planmyndigheten. Plan- og bygningsloven. f) Anlegg for produksjon og montering av motorvogner. Planmyndigheten. Plan- og bygningsloven. g) Skipsverft. Planmyndigheten. Plan- og bygningsloven. h) Produksjons- og reparasjonsanlegg for luftfartøy. Planmyndigheten. Plan- og bygningsloven. i) Produksjon av jernbanemateriell. Planmyndigheten. Plan- og bygningsloven. j) Eksplosjonsforming. Planmyndigheten. Plan- og bygningsloven. k) Anlegg for røsting og sintring av malm. Planmyndigheten. Plan- og bygningsloven. 5. MINERALINDUSTRI a) Koksverk (tørrdestillasjon av kull). Planmyndigheten. Plan- og bygningsloven. b) Sementproduksjonsanlegg. Planmyndigheten. Plan- og bygningsloven. c) Anlegg for produksjon av asbest og fremstilling av asbestbaserte produkter. Planmyndigheten. Plan- og bygningsloven. d) Anlegg for produksjon av glass, herunder glassfibrer. Planmyndigheten. Plan- og bygningsloven. e) Anlegg for smelting av mineralske stoffer, herunder produksjon av mineralfibrer. Planmyndigheten. Plan- og bygningsloven. f) Anlegg for produksjon av keramiske produkter ved brenning, særlig takstein, murstein, ildfast stein, fliser, steintøy eller porselen. Planmyndigheten. Plan- og bygningsloven. 6. KJEMISK INDUSTRI (tiltak som ikke omfattes av vedlegg I nr. 6) a) Behandling av halvfabrikata og produksjon av kjemikalier. Planmyndigheten. Plan- og bygningsloven. b) Produksjon av plantevernmidler og legemidler, maling og lakk, elastomer og peroksider. Planmyndigheten. Plan- og bygningsloven. c) Lagringsanlegg for olje, samt petrokjemiske og kjemiske produkter. Planmyndigheten. Plan- og bygningsloven. 7. NÆRINGSMIDDELINDUSTRI a) Fremstilling av dyre- og plantefett. Planmyndigheten. Plan- og bygningsloven. b) Konservering av dyre- og planteprodukter. Planmyndigheten. Plan- og bygningsloven. c) Fremstilling av meieriprodukter. Planmyndigheten. Plan- og bygningsloven. d) Brygging og malting. Planmyndigheten. Plan- og bygningsloven. e) Sukkervareproduksjon. Planmyndigheten. Plan- og bygningsloven. f) Slakterier. Planmyndigheten. Plan- og bygningsloven. g) Industriell fremstilling av stivelse. Planmyndigheten. Plan- og bygningsloven. h) Fiskemels- og fiskeoljefabrikker. Planmyndigheten. Plan- og bygningsloven. i) Sukkerfabrikker. Planmyndigheten. Plan- og bygningsloven. 8. TEKSTIL-, LÆRVARE-, TREVARE- OG PAPIRINDUSTRI a) Industrianlegg for produksjon av papir og papp. Planmyndigheten. Plan- og bygningsloven. b) Anlegg for forbehandling (vasking, bleking, mercerisering) eller farging av fibrer eller tekstiler. Planmyndigheten. Plan- og bygningsloven. c) Anlegg for garving av huder og skinn. Planmyndigheten. Plan- og bygningsloven. d) Anlegg for produksjon og behandling av cellulose. Planmyndigheten. Plan- og bygningsloven. 9. GUMMIINDUSTRI Produksjon og behandling av elastomerprodukter. Planmyndigheten. Plan- og bygningsloven. 10. INFRASTRUKTURPROSJEKTER a) Utviklingsprosjekter for industriområder. Planmyndigheten. Plan- og bygningsloven. b) Utviklingsprosjekter for by- og tettstedsområder, inkludert kjøpesentre og parkeringsanlegg. Planmyndigheten. Plan- og bygningsloven. c) Bygging av jernbane og anlegg for omlasting av gods, samt terminaler som betjener flere transportsystemer. Planmyndigheten. Plan- og bygningsloven. d) i. Bygging av flyplasser ii. Landingsplass for helikopter. Planmyndigheten. Plan- og bygningsloven. e) i. Bygging av veier ii. Bygging av havner og havneanlegg, herunder fiskehavner og offshorerelaterte havner iii. Utvidelse eller vesentlig endret bruk av eksisterende farleder. Planmyndigheten. Plan- og bygningsloven. f) Bygging av innlands vannveier som ikke omfattes av vedlegg I, samt kanalisering og flomsikring. Planmyndigheten. Plan- og bygningsloven. g) Demninger og anlegg for oppdemming eller varig lagring av vann. Norges vassdrags- og energidirektorat. Vannressursloven. Planmyndigheten. Plan- og bygningsloven. h) Sporveier, høybaner og undergrunnsbaner, svevebaner og lignende baner av bestemte typer som utelukkende eller hovedsakelig blir brukt til persontransport. Planmyndigheten. Plan- og bygningsloven. i) Rørledninger for transport av CO 2 -strømmer med sikte på geologisk lagring. Tiltak som omfattes av Naturgassloven. Norges vassdrags- og energidirektorat. Tiltak som omfattes av petroleumsloven behandles etter egne regler om konsekvensutredninger. Tilsvarende gjelder tiltak som omfattes av kontinentalsokkelloven. Energidepartementet. j) Vannledningsanlegg over større avstander. Planmyndigheten. Plan- og bygningsloven k) Bygging av erosjonsforebyggende kystanlegg og vannbygging til sjøs som kan medføre endringer av kysten, f.eks. diker, moloer, sjeteer og andre bygg til vern mot havet, bortsett fra vedlikehold og gjenoppbygging av slike anlegg. Planmyndigheten. Plan- og bygningsloven. l) Anlegg for uttak eller kunstig infiltrasjon for gjenoppbygging av grunnvann. Planmyndigheten. Plan- og bygningsloven. Norges vassdrags- og energidirektorat. Vannressursloven. m) Anlegg for transport av vannressurser mellom nedbørfelt. Norges vassdrags- og energidirektorat. Vannressursloven. Planmyndigheten. Plan- og bygningsloven. 11. ANDRE PROSJEKTER a) Permanente konkurranse- og testbaner for bil og motorsykkel. Planmyndigheten. Plan- og bygningsloven. b) Anlegg for avfallsdisponering basert på forbrenning. Planmyndigheten. Plan- og bygningsloven. c) Renseanlegg for spillvann. Planmyndigheten. Plan- og bygningsloven. d) Opplagringsplasser for slamavleiring. Planmyndigheten. Plan- og bygningsloven. e) Lagring av skrapjern, herunder opphoggingsplasser for kjøretøyer. Planmyndigheten. Plan- og bygningsloven. f) Prøvingsbenker for motorer, turbiner eller reaktorer. Planmyndigheten. Plan- og bygningsloven. g) Anlegg for produksjon av syntetiske mineralfibrer. Planmyndigheten. Plan- og bygningsloven. h) Anlegg for gjenvinning eller destruering av eksplosjonsfarlige stoffer. Planmyndigheten. Plan- og bygningsloven. i) Destruksjonsanlegg for dyreskrotter. Planmyndigheten. Plan- og bygningsloven. j) Næringsbygg, herunder kjøpesentre som ikke inngår i pkt. 10 b, bygg for offentlig eller privat tjenesteyting og bygg til allmennyttige formål. Planmyndigheten. Plan- og bygningsloven. k) Deponier for masse på land og i sjø større enn 50 dekar eller 50 000 m 3 masse. Planmyndigheten. Plan- og bygningsloven. 12. TURISME OG FRITID a) Hoppbakker, skianlegg og skiheiser, taubaner og tilknyttet utbygging. Planmyndigheten. Plan- og bygningsloven. b) Lystbåthavner. Planmyndigheten. Plan- og bygningsloven. c) Feriebyer, hotellkomplekser utenfor bymessige områder og tilknyttet utbygging. Planmyndigheten. Plan- og bygningsloven. d) Permanente campingplasser. Planmyndigheten. Plan- og bygningsloven. e) Temaparker, herunder golfbaner o.l. Planmyndigheten. Plan- og bygningsloven. 13. UTVIDELSER ELLER ENDRINGER Utvidelser eller endringer av tiltak nevnt i vedlegg I og vedlegg II som kan få vesentlige virkninger. Jf. ovenfor</p>
 <p>Endret ved forskrifter 20 des 2018 nr. 2067 (i kraft 1 jan 2019), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021), 20 des 2023 nr. 2169 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024), 9 mai 2025 nr. 755 (i kraft 1 juli 2025), 6 mars 2026 nr. 353 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

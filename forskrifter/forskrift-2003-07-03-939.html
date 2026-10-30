@@ -19,71 +19,142 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2003-07-03-939.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om syltetøy og lignende produkter" href="../feeds/forskrift-2003-07-03-939.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om syltetøy og lignende produkter</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2003-07-03-939</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2003-07-12</dd>
-<dt>Sist endret</dt><dd>forskrift/2004-01-09-167</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2003-07-03-939" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-omfang">§ 1. Omfang</a></li>
+<li class="lvl3"><a href="#2-generelt">§ 2. Generelt</a></li>
+<li class="lvl3"><a href="#3-varebetegnelser-mv">§ 3. Varebetegnelser mv.</a></li>
+<li class="lvl3"><a href="#4-merking">§ 4. Merking</a></li>
+<li class="lvl3"><a href="#5-ingredienser">§ 5. Ingredienser</a></li>
+<li class="lvl3"><a href="#6-tilsyn-og-vedtak">§ 6. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#7-dispensasjon">§ 7. Dispensasjon</a></li>
+<li class="lvl3"><a href="#8-straff">§ 8. Straff</a></li>
+<li class="lvl3"><a href="#9-overgangsbestemmelse">§ 9. Overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-varebetegnelser-og-produktdefinisjoner">Vedlegg 1. Varebetegnelser og produktdefinisjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl2"><a href="#vedlegg-3">Vedlegg 3</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2004-01-09-167.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-07-03-939.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om syltetøy og lignende produkter.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-07-03-939.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2003-07-03-939 <code>forskrift/2003-07-03-939</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om syltetøy og lignende produkter</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>12.07.2003</td></tr>
+<tr><th>Sist endret</th><td>FOR-2004-01-09-167 <code>forskrift/2004-01-09-167</code> fra 09.01.2004</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2003-07-03-939" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-omfang">§ 1. Omfang</a></li>
+<li class="lvl3"><a href="#2-generelt">§ 2. Generelt</a></li>
+<li class="lvl3"><a href="#3-varebetegnelser-mv">§ 3. Varebetegnelser mv.</a></li>
+<li class="lvl3"><a href="#4-merking">§ 4. Merking</a></li>
+<li class="lvl3"><a href="#5-ingredienser">§ 5. Ingredienser</a></li>
+<li class="lvl3"><a href="#6-tilsyn-og-vedtak">§ 6. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#7-dispensasjon">§ 7. Dispensasjon</a></li>
+<li class="lvl3"><a href="#8-straff">§ 8. Straff</a></li>
+<li class="lvl3"><a href="#9-overgangsbestemmelse">§ 9. Overgangsbestemmelse</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-varebetegnelser-og-produktdefinisjoner">Vedlegg 1. Varebetegnelser og produktdefinisjoner</a></li>
+<li class="lvl2"><a href="#vedlegg-2">Vedlegg 2</a></li>
+<li class="lvl2"><a href="#vedlegg-3">Vedlegg 3</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-07-03-939.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2003-07-03-939.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2003-07-03-939.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2003-07-03-939.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2003-07-03-939.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-07-03-939.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2003-07-03-939.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2003-07-03-939.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2003-07-03-939.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-syltety-og-lignende-produkter">Forskrift om syltetøy og lignende produkter.</h1>
 <h3 id="1-omfang">§ 1. Omfang</h3>
 <p>Denne forskriften omfatter bestemmelser om produktspesifikasjoner og merking av syltetøy, syltetøy ekstra, gelé, gelé ekstra, marmelade og søtet kastanjepuré som skal omsettes.</p>
 <p>Forskriften omfatter ikke tilsvarende produkter bestemt til framstilling av bakervarer, kaker og kjeks.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="2-generelt">§ 2. Generelt</h3>
 <p>Produktene som omfattes av denne forskriften skal oppfylle produktdefinisjonene i vedlegg 1, og skal omsettes med de varebetegnelsene som er angitt i vedlegget.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="3-varebetegnelser-mv">§ 3. Varebetegnelser mv.</h3>
 <p>Varebetegnelsene i vedlegg 1 er forbeholdt produktene som er definert der.</p>
 <p>Varebetegnelsene i vedlegg 1 kan i overensstemmelse med vanlig praksis anvendes til å betegne andre produkter som ikke kan forveksles med dem som er definert i vedlegg 1.</p>
@@ -97,21 +168,21 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>Opplysningene om frukt- og sukkerinnhold skal være lett leselige og gis i samme synsfelt som varebetegnelsen.</li>
 <li>Overstiger restinnholdet av svoveldioksid 10 mg/kg, skal dette angis i ingredienslisten.</li>
 </ol>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="5-ingredienser">§ 5. Ingredienser</h3>
 <p>Kun ingrediensene som er angitt i vedlegg 2 og 3 kan benyttes til framstilling av produktene som er definert i vedlegg 1. I tillegg kan produktene inneholde tilsetningsstoffer i henhold til gjeldende forskrift om tilsetningsstoffer til næringsmidler.</p>
 <h3 id="6-tilsyn-og-vedtak">§ 6. Tilsyn og vedtak</h3>
 <p>Mattilsynet fører tilsyn og fatter vedtak for å gjennomføre bestemmelsene gitt i og i medhold av denne forskriften.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="7-dispensasjon">§ 7. Dispensasjon</h3>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskriften, forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="8-straff">§ 8. Straff</h3>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller bestemmelser og vedtak gitt i medhold av den, er straffbart i henhold til matloven § 28 .</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="9-overgangsbestemmelse">§ 9. Overgangsbestemmelse</h3>
 <p>Omsetning av produkter som omfattes av forskriften og som er merket innen 12. juli 2004 i samsvar med forskrift av 20. desember 1993 nr. 1370 om syltetøy og lignende produkter, er tillatt inntil lagrene er brukt opp.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 167 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 167 .</p>
 <h3 id="10-ikrafttredelse">§ 10. Ikrafttredelse</h3>
 <p>Denne forskriften trer i kraft 12. juli 2003. Samtidig oppheves forskrift av 20. desember 1993 nr. 1370 om syltetøy og lignende produkter.</p>
 <h2 id="vedlegg-1-varebetegnelser-og-produktdefinisjoner">Vedlegg 1. Varebetegnelser og produktdefinisjoner</h2>
@@ -126,6 +197,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>A Definisjoner</p>
 <p>I denne forskriften menes med: Frukt: Fersk, frisk, tilstrekkelig moden frukt med alle vesentlige bestanddeler i behold, etter at den er renset, renskåret og topp- og stilkparti er fjernet. I denne forskriften anses bær, tomat, spiselig del av rabarbrastilker, gulrot, søtpotet, agurk, gresskar, melon og vannmelon som frukt. Med «ingefær» menes den spiselige roten av ingefærplanten. Den kan brukes fersk eller konservert ved tørking eller nedlegging i sukkerlake. Fruktkjøtt (pulp): Den spiselige delen av hele frukten eventuelt uten skall, skinn, frø, kjerner og lignende. Denne kan være skåret i stykker eller knust, men ikke laget til puré. Fruktpuré (puré): Den spiselige delen av hele frukten eventuelt uten skall, skinn, frø, kjerner og lignende. Denne er laget til puré ved pressing gjennom sikt eller ved en lignende prosess. Vandig ekstrakt av frukt (vandig ekstrakt): Vandig ekstrakt som inneholder alle de vannløselige bestanddelene i den frukten som benyttes, med forbehold om svinn som er uunngåelig ved en hensiktsmessig framstilling. Sukker: Tillatte former for sukker er: De som er definert i gjeldende forskrift om sukker Fruktosesirup Ulike former for sukker som er utvunnet fra frukt Brunt sukker.</p>
 <p>B Behandling av råvarer Produktene som er definert i avsnitt A pkt. 1 , 2, 3 og 4 kan behandles på følgende måter Varme- eller kuldebehandling Frysetørking Konsentrering i den grad det er teknisk mulig Svoveldioksid (E 220) eller dets salter (E 221, E 222, E 223, E 224, E 226 og E 227) kan brukes som hjelpemiddel i framstillingen av produktene som er definert i vedlegg I del I med unntak av produktene med betegnelsen «ekstra». Det maksimale svoveldioksidinnholdet må ikke overstige mengdebegrensningene som er gitt i gjeldende forskrift om tilsetningsstoffer til næringsmidler. Aprikoser og plommer til framstilling av syltetøy kan tørkes på andre måter enn ved frysetørking. Sitrusskall kan konserveres i saltlake.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

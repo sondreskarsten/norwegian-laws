@@ -19,64 +19,285 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2001-06-15-59.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Stiftelsesloven – stiftl" href="../feeds/lov-2001-06-15-59.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Stiftelsesloven – stiftl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2001-06-15-59</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>Selskaper, fond og foreninger &raquo; Stiftelser/legater og foreninger</dd>
-<dt>Ikrafttredelse</dt><dd>2005-01-01, 2005-04-29, 2005-12-21</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-106</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2001-06-15-59" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjon">§ 2. Definisjon</a></li>
+<li class="lvl4"><a href="#3-radighet-over-formuesverdien">§ 3. Rådighet over formuesverdien</a></li>
+<li class="lvl4"><a href="#4-alminnelige-stiftelser-og-nringsdrivende-stiftelser">§ 4. Alminnelige stiftelser og næringsdrivende stiftelser</a></li>
+<li class="lvl4"><a href="#5-nrstaende">§ 5. Nærstående</a></li>
+<li class="lvl4"><a href="#6-unntak-fra-lovens-virkeomrade">§ 6. Unntak fra lovens virkeområde</a></li>
+<li class="lvl4"><a href="#7-stiftelsestilsynet">§ 7. Stiftelsestilsynet</a></li>
+<li class="lvl4"><a href="#7-a-stiftelsesklagenemnda">§ 7 a. Stiftelsesklagenemnda</a></li>
+<li class="lvl4"><a href="#8-stiftelsesregisteret">§ 8. Stiftelsesregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-2-opprettelse-av-stiftelser">Kapittel 2. Opprettelse av stiftelser</a></li>
+<li class="lvl4"><a href="#9-stiftelsesdokument">§ 9. Stiftelsesdokument</a></li>
+<li class="lvl4"><a href="#10-vedtekter">§ 10. Vedtekter</a></li>
+<li class="lvl4"><a href="#11-melding-til-stiftelsesregisteret">§ 11. Melding til Stiftelsesregisteret</a></li>
+<li class="lvl4"><a href="#12-vedlegg-til-melding-etter-11">§ 12. Vedlegg til melding etter§ 11</a></li>
+<li class="lvl4"><a href="#13-melding-til-foretaksregisteret-av-nringsdrivende-stiftelser">§ 13. Melding til Foretaksregisteret av næringsdrivende stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-kapital">Kapittel 3. Kapital</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#14-grunnkapital">§ 14. Grunnkapital</a></li>
+<li class="lvl5"><a href="#15-grunnkapital-i-andre-eiendeler-enn-penger">§ 15. Grunnkapital i andre eiendeler enn penger</a></li>
+<li class="lvl5"><a href="#16-forhyelse-av-grunnkapitalen">§ 16. Forhøyelse av grunnkapitalen</a></li>
+<li class="lvl5"><a href="#17-nedsetting-av-grunnkapitalen">§ 17. Nedsetting av grunnkapitalen</a></li>
+<li class="lvl5"><a href="#18-forvaltning-av-stiftelsens-kapital">§ 18. Forvaltning av stiftelsens kapital</a></li>
+<li class="lvl5"><a href="#19-utdeling">§ 19. Utdeling</a></li>
+<li class="lvl5"><a href="#20-lan-og-sikkerhet">§ 20. Lån og sikkerhet</a></li>
+<li class="lvl5"><a href="#21-separasjonsplikt">§ 21. Separasjonsplikt</a></li>
+<li class="lvl3"><a href="#ii-srregler-for-nringsdrivende-stiftelser-som-nevnt-i-4-annet-ledd-bokstav-a-og-b">II. Særregler for næringsdrivende stiftelser som nevnt i § 4 annet ledd bokstav a og b</a></li>
+<li class="lvl5"><a href="#22-srlige-krav-til-grunnkapitalen">§ 22. Særlige krav til grunnkapitalen</a></li>
+<li class="lvl5"><a href="#23-krav-til-egenkapitalen-ved-overgang-fra-alminnelig-stiftelse">§ 23. Krav til egenkapitalen ved overgang fra alminnelig stiftelse</a></li>
+<li class="lvl5"><a href="#24-bundet-egenkapital">§ 24. Bundet egenkapital</a></li>
+<li class="lvl5"><a href="#25-tap-av-stiftelsens-egenkapital">§ 25. Tap av stiftelsens egenkapital</a></li>
+<li class="lvl2"><a href="#kapittel-4-stiftelsers-organisasjon">Kapittel 4. Stiftelsers organisasjon</a></li>
+<li class="lvl3"><a href="#i-styret">I. Styret</a></li>
+<li class="lvl5"><a href="#26-styret">§ 26. Styret</a></li>
+<li class="lvl5"><a href="#27-krav-til-styrets-sammensetning">§ 27. Krav til styrets sammensetning</a></li>
+<li class="lvl5"><a href="#27-a-krav-til-kjnnssammensetning-i-styret">§ 27 a. Krav til kjønnssammensetning i styret</a></li>
+<li class="lvl5"><a href="#27-b-krav-til-kjnnssammensetning-for-styremedlemmer-valgt-av-og-blant-de-ansatte">§ 27 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte</a></li>
+<li class="lvl5"><a href="#27-c-krav-til-registrering-av-opplysninger-om-kjnnssammensetning-i-styret">§ 27 c. Krav til registrering av opplysninger om kjønnssammensetning i styret</a></li>
+<li class="lvl5"><a href="#28-styremedlemmers-tjenestetid">§ 28. Styremedlemmers tjenestetid</a></li>
+<li class="lvl5"><a href="#29-stiftelsestilsynets-myndighet-til-a-oppnevne-og-avsette-styremedlem">§ 29. Stiftelsestilsynets myndighet til å oppnevne og avsette styremedlem</a></li>
+<li class="lvl5"><a href="#30-styrets-myndighet-og-ansvar">§ 30. Styrets myndighet og ansvar</a></li>
+<li class="lvl5"><a href="#31-styrets-saksbehandling">§ 31. Styrets saksbehandling</a></li>
+<li class="lvl5"><a href="#32-vedtaksfrhet">§ 32. Vedtaksførhet</a></li>
+<li class="lvl5"><a href="#33-flertallskrav">§ 33. Flertallskrav</a></li>
+<li class="lvl3"><a href="#ii-daglig-leder">II. Daglig leder</a></li>
+<li class="lvl5"><a href="#34-daglig-leder">§ 34. Daglig leder</a></li>
+<li class="lvl5"><a href="#35-daglig-leders-myndighet-og-ansvar">§ 35. Daglig leders myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#iii-andre-organer">III. Andre organer</a></li>
+<li class="lvl5"><a href="#36-vedtektsbestemmelser-om-at-stiftelsen-skal-ha-andre-organer-enn-styre-og-daglig-leder">§ 36. Vedtektsbestemmelser om at stiftelsen skal ha andre organer enn styre og daglig leder</a></li>
+<li class="lvl3"><a href="#iv-inhabilitet-representasjon-utad-mv">IV. Inhabilitet, representasjon utad, mv.</a></li>
+<li class="lvl5"><a href="#37-inhabilitet">§ 37. Inhabilitet</a></li>
+<li class="lvl5"><a href="#38-representasjon-utad">§ 38. Representasjon utad</a></li>
+<li class="lvl5"><a href="#39-overskridelse-av-representasjonsrett">§ 39. Overskridelse av representasjonsrett</a></li>
+<li class="lvl5"><a href="#40-godtgjrelse">§ 40. Godtgjørelse</a></li>
+<li class="lvl3"><a href="#v-ansattes-representasjon-i-nringsdrivende-stiftelser">V. Ansattes representasjon i næringsdrivende stiftelser</a></li>
+<li class="lvl5"><a href="#41-ansattes-representasjonsrett-i-styret">§ 41. Ansattes representasjonsrett i styret</a></li>
+<li class="lvl5"><a href="#42-ansattes-representasjonsrett-i-konserner-og-grupper-av-foretak">§ 42. Ansattes representasjonsrett i konserner og grupper av foretak</a></li>
+<li class="lvl2"><a href="#kapittel-5-revisor">Kapittel 5. Revisor</a></li>
+<li class="lvl4"><a href="#43-valg-av-revisor-mv">§ 43. Valg av revisor mv.</a></li>
+<li class="lvl4"><a href="#44-revisors-plikter">§ 44. Revisors plikter</a></li>
+<li class="lvl4"><a href="#44-a-mte-med-revisor">§ 44 a. Møte med revisor</a></li>
+<li class="lvl2"><a href="#kapittel-6-omdanning">Kapittel 6. Omdanning</a></li>
+<li class="lvl4"><a href="#45-omdanning">§ 45. Omdanning</a></li>
+<li class="lvl4"><a href="#46-vilkar-for-omdanning">§ 46. Vilkår for omdanning</a></li>
+<li class="lvl4"><a href="#47-innholdet-av-omdanningsvedtaket">§ 47. Innholdet av omdanningsvedtaket</a></li>
+<li class="lvl4"><a href="#48-hvem-som-kan-foreta-omdanning">§ 48. Hvem som kan foreta omdanning</a></li>
+<li class="lvl4"><a href="#49-saksbehandling-ved-omdanning">§ 49. Saksbehandling ved omdanning</a></li>
+<li class="lvl4"><a href="#50-stiftelsestilsynets-omdanningsmyndighet">§ 50. Stiftelsestilsynets omdanningsmyndighet</a></li>
+<li class="lvl4"><a href="#51-stiftelsestilsynets-prving-av-omdanningsvedtak">§ 51. Stiftelsestilsynets prøving av omdanningsvedtak</a></li>
+<li class="lvl4"><a href="#52-opphevelse-av-stiftelser">§ 52. Opphevelse av stiftelser</a></li>
+<li class="lvl4"><a href="#53-sammenslaing-av-to-eller-flere-stiftelser">§ 53. Sammenslåing av to eller flere stiftelser</a></li>
+<li class="lvl4"><a href="#54-deling-av-stiftelser">§ 54. Deling av stiftelser</a></li>
+<li class="lvl4"><a href="#55-omdanning-av-annet-enn-stiftelser">§ 55. Omdanning av annet enn stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-6-a-opphevelse-av-boligstiftelser-som-er-opprettet-av-kommuner">Kapittel 6 A. Opphevelse av boligstiftelser som er opprettet av kommuner</a></li>
+<li class="lvl4"><a href="#55-a-virkeomrade">§ 55 a. Virkeområde</a></li>
+<li class="lvl4"><a href="#55-b-vedtak-om-opphevelse-melding-til-stiftelsesregisteret">§ 55 b. Vedtak om opphevelse. Melding til Stiftelsesregisteret</a></li>
+<li class="lvl4"><a href="#55-c-rapport-om-opphevelsen">§ 55 c. Rapport om opphevelsen</a></li>
+<li class="lvl4"><a href="#55-d-stiftelsestilsynets-kontroll-av-melding-om-opphevelse">§ 55 d. Stiftelsestilsynets kontroll av melding om opphevelse</a></li>
+<li class="lvl4"><a href="#55-e-ikrafttredelse-av-opphevelsen">§ 55 e. Ikrafttredelse av opphevelsen</a></li>
+<li class="lvl2"><a href="#kapittel-7-erstatningsansvar-og-straffansvar-gransking">Kapittel 7. Erstatningsansvar og straffansvar. Gransking</a></li>
+<li class="lvl4"><a href="#56-erstatningsansvar">§ 56. Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#57-beslutning-om-a-fremme-krav-pa-vegne-av-stiftelsen">§ 57. Beslutning om å fremme krav på vegne av stiftelsen</a></li>
+<li class="lvl4"><a href="#58-straff">§ 58. Straff</a></li>
+<li class="lvl4"><a href="#59-gransking">§ 59. Gransking</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelses-og-overgangsregler-endringer-i-andre-lover">Kapittel 8. Ikrafttredelses- og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#60-ikrafttredelse">§ 60. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#61-overgangsregler">§ 61. Overgangsregler</a></li>
+<li class="lvl4"><a href="#62-endringer-i-andre-lover">§ 62. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-106.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-59.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om stiftelser (stiftelsesloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-06-15-59.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2001-06-15-59 <code>lov/2001-06-15-59</code></td></tr>
+<tr><th>Korttittel</th><td>Stiftelsesloven – stiftl</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Selskaper, fond og foreninger &raquo; Stiftelser/legater og foreninger</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2005, 29.04.2005, 21.12.2005</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-106 <code>lov/2025-06-20-106</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2001-06-15-59" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjon">§ 2. Definisjon</a></li>
+<li class="lvl4"><a href="#3-radighet-over-formuesverdien">§ 3. Rådighet over formuesverdien</a></li>
+<li class="lvl4"><a href="#4-alminnelige-stiftelser-og-nringsdrivende-stiftelser">§ 4. Alminnelige stiftelser og næringsdrivende stiftelser</a></li>
+<li class="lvl4"><a href="#5-nrstaende">§ 5. Nærstående</a></li>
+<li class="lvl4"><a href="#6-unntak-fra-lovens-virkeomrade">§ 6. Unntak fra lovens virkeområde</a></li>
+<li class="lvl4"><a href="#7-stiftelsestilsynet">§ 7. Stiftelsestilsynet</a></li>
+<li class="lvl4"><a href="#7-a-stiftelsesklagenemnda">§ 7 a. Stiftelsesklagenemnda</a></li>
+<li class="lvl4"><a href="#8-stiftelsesregisteret">§ 8. Stiftelsesregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-2-opprettelse-av-stiftelser">Kapittel 2. Opprettelse av stiftelser</a></li>
+<li class="lvl4"><a href="#9-stiftelsesdokument">§ 9. Stiftelsesdokument</a></li>
+<li class="lvl4"><a href="#10-vedtekter">§ 10. Vedtekter</a></li>
+<li class="lvl4"><a href="#11-melding-til-stiftelsesregisteret">§ 11. Melding til Stiftelsesregisteret</a></li>
+<li class="lvl4"><a href="#12-vedlegg-til-melding-etter-11">§ 12. Vedlegg til melding etter§ 11</a></li>
+<li class="lvl4"><a href="#13-melding-til-foretaksregisteret-av-nringsdrivende-stiftelser">§ 13. Melding til Foretaksregisteret av næringsdrivende stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-3-kapital">Kapittel 3. Kapital</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#14-grunnkapital">§ 14. Grunnkapital</a></li>
+<li class="lvl5"><a href="#15-grunnkapital-i-andre-eiendeler-enn-penger">§ 15. Grunnkapital i andre eiendeler enn penger</a></li>
+<li class="lvl5"><a href="#16-forhyelse-av-grunnkapitalen">§ 16. Forhøyelse av grunnkapitalen</a></li>
+<li class="lvl5"><a href="#17-nedsetting-av-grunnkapitalen">§ 17. Nedsetting av grunnkapitalen</a></li>
+<li class="lvl5"><a href="#18-forvaltning-av-stiftelsens-kapital">§ 18. Forvaltning av stiftelsens kapital</a></li>
+<li class="lvl5"><a href="#19-utdeling">§ 19. Utdeling</a></li>
+<li class="lvl5"><a href="#20-lan-og-sikkerhet">§ 20. Lån og sikkerhet</a></li>
+<li class="lvl5"><a href="#21-separasjonsplikt">§ 21. Separasjonsplikt</a></li>
+<li class="lvl3"><a href="#ii-srregler-for-nringsdrivende-stiftelser-som-nevnt-i-4-annet-ledd-bokstav-a-og-b">II. Særregler for næringsdrivende stiftelser som nevnt i § 4 annet ledd bokstav a og b</a></li>
+<li class="lvl5"><a href="#22-srlige-krav-til-grunnkapitalen">§ 22. Særlige krav til grunnkapitalen</a></li>
+<li class="lvl5"><a href="#23-krav-til-egenkapitalen-ved-overgang-fra-alminnelig-stiftelse">§ 23. Krav til egenkapitalen ved overgang fra alminnelig stiftelse</a></li>
+<li class="lvl5"><a href="#24-bundet-egenkapital">§ 24. Bundet egenkapital</a></li>
+<li class="lvl5"><a href="#25-tap-av-stiftelsens-egenkapital">§ 25. Tap av stiftelsens egenkapital</a></li>
+<li class="lvl2"><a href="#kapittel-4-stiftelsers-organisasjon">Kapittel 4. Stiftelsers organisasjon</a></li>
+<li class="lvl3"><a href="#i-styret">I. Styret</a></li>
+<li class="lvl5"><a href="#26-styret">§ 26. Styret</a></li>
+<li class="lvl5"><a href="#27-krav-til-styrets-sammensetning">§ 27. Krav til styrets sammensetning</a></li>
+<li class="lvl5"><a href="#27-a-krav-til-kjnnssammensetning-i-styret">§ 27 a. Krav til kjønnssammensetning i styret</a></li>
+<li class="lvl5"><a href="#27-b-krav-til-kjnnssammensetning-for-styremedlemmer-valgt-av-og-blant-de-ansatte">§ 27 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte</a></li>
+<li class="lvl5"><a href="#27-c-krav-til-registrering-av-opplysninger-om-kjnnssammensetning-i-styret">§ 27 c. Krav til registrering av opplysninger om kjønnssammensetning i styret</a></li>
+<li class="lvl5"><a href="#28-styremedlemmers-tjenestetid">§ 28. Styremedlemmers tjenestetid</a></li>
+<li class="lvl5"><a href="#29-stiftelsestilsynets-myndighet-til-a-oppnevne-og-avsette-styremedlem">§ 29. Stiftelsestilsynets myndighet til å oppnevne og avsette styremedlem</a></li>
+<li class="lvl5"><a href="#30-styrets-myndighet-og-ansvar">§ 30. Styrets myndighet og ansvar</a></li>
+<li class="lvl5"><a href="#31-styrets-saksbehandling">§ 31. Styrets saksbehandling</a></li>
+<li class="lvl5"><a href="#32-vedtaksfrhet">§ 32. Vedtaksførhet</a></li>
+<li class="lvl5"><a href="#33-flertallskrav">§ 33. Flertallskrav</a></li>
+<li class="lvl3"><a href="#ii-daglig-leder">II. Daglig leder</a></li>
+<li class="lvl5"><a href="#34-daglig-leder">§ 34. Daglig leder</a></li>
+<li class="lvl5"><a href="#35-daglig-leders-myndighet-og-ansvar">§ 35. Daglig leders myndighet og ansvar</a></li>
+<li class="lvl3"><a href="#iii-andre-organer">III. Andre organer</a></li>
+<li class="lvl5"><a href="#36-vedtektsbestemmelser-om-at-stiftelsen-skal-ha-andre-organer-enn-styre-og-daglig-leder">§ 36. Vedtektsbestemmelser om at stiftelsen skal ha andre organer enn styre og daglig leder</a></li>
+<li class="lvl3"><a href="#iv-inhabilitet-representasjon-utad-mv">IV. Inhabilitet, representasjon utad, mv.</a></li>
+<li class="lvl5"><a href="#37-inhabilitet">§ 37. Inhabilitet</a></li>
+<li class="lvl5"><a href="#38-representasjon-utad">§ 38. Representasjon utad</a></li>
+<li class="lvl5"><a href="#39-overskridelse-av-representasjonsrett">§ 39. Overskridelse av representasjonsrett</a></li>
+<li class="lvl5"><a href="#40-godtgjrelse">§ 40. Godtgjørelse</a></li>
+<li class="lvl3"><a href="#v-ansattes-representasjon-i-nringsdrivende-stiftelser">V. Ansattes representasjon i næringsdrivende stiftelser</a></li>
+<li class="lvl5"><a href="#41-ansattes-representasjonsrett-i-styret">§ 41. Ansattes representasjonsrett i styret</a></li>
+<li class="lvl5"><a href="#42-ansattes-representasjonsrett-i-konserner-og-grupper-av-foretak">§ 42. Ansattes representasjonsrett i konserner og grupper av foretak</a></li>
+<li class="lvl2"><a href="#kapittel-5-revisor">Kapittel 5. Revisor</a></li>
+<li class="lvl4"><a href="#43-valg-av-revisor-mv">§ 43. Valg av revisor mv.</a></li>
+<li class="lvl4"><a href="#44-revisors-plikter">§ 44. Revisors plikter</a></li>
+<li class="lvl4"><a href="#44-a-mte-med-revisor">§ 44 a. Møte med revisor</a></li>
+<li class="lvl2"><a href="#kapittel-6-omdanning">Kapittel 6. Omdanning</a></li>
+<li class="lvl4"><a href="#45-omdanning">§ 45. Omdanning</a></li>
+<li class="lvl4"><a href="#46-vilkar-for-omdanning">§ 46. Vilkår for omdanning</a></li>
+<li class="lvl4"><a href="#47-innholdet-av-omdanningsvedtaket">§ 47. Innholdet av omdanningsvedtaket</a></li>
+<li class="lvl4"><a href="#48-hvem-som-kan-foreta-omdanning">§ 48. Hvem som kan foreta omdanning</a></li>
+<li class="lvl4"><a href="#49-saksbehandling-ved-omdanning">§ 49. Saksbehandling ved omdanning</a></li>
+<li class="lvl4"><a href="#50-stiftelsestilsynets-omdanningsmyndighet">§ 50. Stiftelsestilsynets omdanningsmyndighet</a></li>
+<li class="lvl4"><a href="#51-stiftelsestilsynets-prving-av-omdanningsvedtak">§ 51. Stiftelsestilsynets prøving av omdanningsvedtak</a></li>
+<li class="lvl4"><a href="#52-opphevelse-av-stiftelser">§ 52. Opphevelse av stiftelser</a></li>
+<li class="lvl4"><a href="#53-sammenslaing-av-to-eller-flere-stiftelser">§ 53. Sammenslåing av to eller flere stiftelser</a></li>
+<li class="lvl4"><a href="#54-deling-av-stiftelser">§ 54. Deling av stiftelser</a></li>
+<li class="lvl4"><a href="#55-omdanning-av-annet-enn-stiftelser">§ 55. Omdanning av annet enn stiftelser</a></li>
+<li class="lvl2"><a href="#kapittel-6-a-opphevelse-av-boligstiftelser-som-er-opprettet-av-kommuner">Kapittel 6 A. Opphevelse av boligstiftelser som er opprettet av kommuner</a></li>
+<li class="lvl4"><a href="#55-a-virkeomrade">§ 55 a. Virkeområde</a></li>
+<li class="lvl4"><a href="#55-b-vedtak-om-opphevelse-melding-til-stiftelsesregisteret">§ 55 b. Vedtak om opphevelse. Melding til Stiftelsesregisteret</a></li>
+<li class="lvl4"><a href="#55-c-rapport-om-opphevelsen">§ 55 c. Rapport om opphevelsen</a></li>
+<li class="lvl4"><a href="#55-d-stiftelsestilsynets-kontroll-av-melding-om-opphevelse">§ 55 d. Stiftelsestilsynets kontroll av melding om opphevelse</a></li>
+<li class="lvl4"><a href="#55-e-ikrafttredelse-av-opphevelsen">§ 55 e. Ikrafttredelse av opphevelsen</a></li>
+<li class="lvl2"><a href="#kapittel-7-erstatningsansvar-og-straffansvar-gransking">Kapittel 7. Erstatningsansvar og straffansvar. Gransking</a></li>
+<li class="lvl4"><a href="#56-erstatningsansvar">§ 56. Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#57-beslutning-om-a-fremme-krav-pa-vegne-av-stiftelsen">§ 57. Beslutning om å fremme krav på vegne av stiftelsen</a></li>
+<li class="lvl4"><a href="#58-straff">§ 58. Straff</a></li>
+<li class="lvl4"><a href="#59-gransking">§ 59. Gransking</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelses-og-overgangsregler-endringer-i-andre-lover">Kapittel 8. Ikrafttredelses- og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#60-ikrafttredelse">§ 60. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#61-overgangsregler">§ 61. Overgangsregler</a></li>
+<li class="lvl4"><a href="#62-endringer-i-andre-lover">§ 62. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-59.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2001-06-15-59.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2001-06-15-59.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2001-06-15-59.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2001-06-15-59.html">Observerte kildeutgaver</a> · <a href="../historie/stiftelsesloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2001-06-15-59.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2001-06-15-59.html">Observerte kildeutgaver</a> · <a href="../historie/stiftelsesloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2001-06-15-59.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-stiftelser-stiftelsesloven">Lov om stiftelser (stiftelsesloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Denne loven gjelder for stiftelser, når ikke annet er fastsatt i eller i medhold av lov. En stiftelse kan være en alminnelig stiftelse eller en næringsdrivende stiftelse, jf. § 4 .</p>
@@ -109,7 +330,7 @@ e. selskap der vedkommende selv eller noen som er nevnt i bokstav a til d, hver 
 <p>a. kirker og gravplasser og verdier for øvrig som soknet eller et trossamfunn eier,
 b. pensjonskasser og pensjonsfond som er under Finanstilsynets tilsyn, jf. <a href="lov-2024-06-21-41.html">finanstilsynsloven</a> § 1-2 første ledd bokstav k ,
 c. sparebanker.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 26 aug 2011 nr. 40 (ikr. 1 jan 2012 iflg. res. 26 aug 2011 nr. 866 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 48 (ikr. 21 des 2009 iflg. res. 18 des 2009 nr. 1603 ), 26 aug 2011 nr. 40 (ikr. 1 jan 2012 iflg. res. 26 aug 2011 nr. 866 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h4 id="7-stiftelsestilsynet">§ 7. Stiftelsestilsynet</h4>
 <p>Stiftelsestilsynet fører tilsyn med stiftelser. Stiftelsestilsynets oppgaver er:</p>
 <p>a. å føre et stiftelsesregister der alle stiftelser skal være registrert, jf. § 8 ,
@@ -119,7 +340,7 @@ c. å treffe vedtak med hjemmel i denne lov.</p>
 <p>Kongen kan gi forskrift om Stiftelsestilsynets organisasjon og virksomhet og om registrering av stiftelser. Det kan kreves gebyr for registrering av stiftelser i Stiftelsesregisteret, og stiftelsene kan ilegges en årlig avgift. Kongen kan gi forskrift om når gebyr og avgift skal kreves, om størrelsen og om innkrevingen av disse.</p>
 <p>Gebyrene og avgiftene er tvangsgrunnlag for utlegg.</p>
 <p>Stiftelsestilsynet kan, uten hinder av taushetsplikt, innhente opplysninger fra Folkeregisteret når det er nødvendig for å løse oppgaver etter denne loven, <a href="lov-2019-06-14-21.html">arveloven</a> og <a href="lov-1984-06-08-59.html">dekningsloven</a> .</p>
-<p><em>Endret ved lover 17 des 2004 nr. 93 (ikr. 1 jan 2005), 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ), 13 des 2013 nr. 119 , 23 nov 2018 nr. 89 (ikr. 23 nov 2018 iflg. res. 23 nov 2018 nr. 1745 ), 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ).</em></p>
+<p class="note">Endret ved lover 17 des 2004 nr. 93 (ikr. 1 jan 2005), 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ), 13 des 2013 nr. 119 , 23 nov 2018 nr. 89 (ikr. 23 nov 2018 iflg. res. 23 nov 2018 nr. 1745 ), 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ).</p>
 <h4 id="7-a-stiftelsesklagenemnda">§ 7 a. Stiftelsesklagenemnda</h4>
 <p>Stiftelsesklagenemnda avgjør klager på enkeltvedtak fattet av Stiftelsestilsynet i medhold av denne loven, dekningsloven , arveloven og <a href="lov-2007-06-29-81.html">samvirkelova</a> , med mindre noe annet følger av særskilt lovbestemmelse. Departementet har ikke instruksjons- eller omgjøringsrett overfor Stiftelsesklagenemnda i enkeltsaker.</p>
 <p>Departementet er klageinstans for Stiftelsestilsynets og Stiftelsesklagenemndas avgjørelser om partsinnsyn etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a> , samt avgjørelser i saker etter <a href="lov-2006-05-19-16.html">offentleglova</a> .</p>
@@ -127,7 +348,7 @@ c. å treffe vedtak med hjemmel i denne lov.</p>
 <p>Stiftelsesklagenemnda kan bare treffe vedtak når alle medlemmene er til stede. Avgjørelser treffes med alminnelig flertall.</p>
 <p>Stiftelsesklagenemnda er klageinstans for Stiftelsestilsynets avgjørelser om sakskostnader etter forvaltningsloven § 36 . Nemndas avgjørelser om sakskostnader kan ikke påklages.</p>
 <p>Departementet kan gi forskrift med nærmere bestemmelser om Stiftelsesklagenemndas sammensetning, organisering og arbeid og om nemndas sekretariat. Departementet kan gi nærmere overgangsregler for nemndsbehandling av klager fremsatt før lovendringen trer i kraft. Stiftelsesklagenemnda finansieres gjennom den årlige avgiften stiftelsene betaler etter forskrift gitt i medhold av § 7 tredje ledd.</p>
-<p><em>Tilføyd ved lov 13 mars 2015 nr. 12 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 679 ), endret ved lover 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ), 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ).</em></p>
+<p class="note">Tilføyd ved lov 13 mars 2015 nr. 12 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 679 ), endret ved lover 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ), 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ).</p>
 <h4 id="8-stiftelsesregisteret">§ 8. Stiftelsesregisteret</h4>
 <p>Alle stiftelser skal være registrert i et sentralt register som føres av Stiftelsestilsynet (Stiftelsesregisteret). Stiftelsesregisteret skal inneholde følgende opplysninger, som skal meldes ved opprettelsen av stiftelsen, jf. § 11 :</p>
 <p>a. datoen for opprettelsen av stiftelsen og oppretterens navn;
@@ -143,7 +364,7 @@ h. om stiftelsen er alminnelig eller næringsdrivende.</p>
 <p>Første gang en stiftelse meldes til Stiftelsesregisteret skal dokumenter som nevnt i § 12 vedlegges meldingen. Ved endringsmeldinger skal dokumenter som nevnt i § 12 første ledd bokstav b, c og d vedlegges meldingen, hvis endringsmeldingen gjelder slike forhold.</p>
 <p>Melding etter første til tredje ledd kan sendes elektronisk, så langt dette ikke er i strid med kravene i § 12 .</p>
 <p>Følgende bestemmelser i <a href="lov-2025-06-20-106.html">foretaksregisterloven</a> gjelder tilsvarende for Stiftelsesregisteret: § 1-6 , § 4-3 , § 4-5 , § 4-7 , kapittel 5 , § 7-1 , § 8-1 , kapittel 9 , § 11-2 og § 12-1 . Det samme gjelder foretaksregisterloven § 4-6 , likevel slik at en observatør som har fratrådt, selv kan gi Stiftelsesregisteret melding om dette. Stiftelsestilsynet kan gi forskrift om at Stiftelsestilsynet av eget tiltak kan registrere endringer i Stiftelsesregisteret, og om konsekvensene av slike endringer i forhold til andre registre.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</p>
 <h2 id="kapittel-2-opprettelse-av-stiftelser">Kapittel 2. Opprettelse av stiftelser</h2>
 <h4 id="9-stiftelsesdokument">§ 9. Stiftelsesdokument</h4>
 <p>Den som skal opprette en stiftelse, skal utarbeide et stiftelsesdokument for stiftelsen, som minst skal angi:</p>
@@ -164,7 +385,7 @@ e. grunnkapitalens størrelse (jf. § 14 første ledd og § 22 ).</p>
 <p>Vedtektene for en næringsdrivende stiftelse skal også angi stiftelsens foretaksnavn, jf. <a href="lov-1985-06-21-79.html">foretaksnavneloven</a> § 2-2 åttende ledd.</p>
 <p>Stiftelsens navn skal inneholde ordet stiftelse eller forkortelsen STI.</p>
 <p>Dersom det i den rettslige disposisjonen som danner grunnlaget for stiftelsen, ikke er fastsatt vedtekter som fyller kravene i første og annet ledd, skal stiftelsens styre utarbeide vedtekter eller foreta nødvendige endringer i vedtektene. Styret skal også endre angivelsen i vedtektene av grunnkapitalens størrelse dersom vedtektsbestemmelsen ellers ikke ville være forenlig med § 15 annet ledd.</p>
-<p><em>Endret ved lover 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ), 15 des 2006 nr. 88 (ikr. 1 jan 2007 iflg. res. 15 des 2006 nr. 1432 ), 12 april 2024 nr. 17 (i kraft 1 juli 2024 iflg. res. 12 april 2024 nr. 602 ).</em></p>
+<p class="note">Endret ved lover 5 sep 2003 nr. 91 (ikr. 1 mars 2004 iflg. res. 5 sep 2003 nr. 1118 ), 15 des 2006 nr. 88 (ikr. 1 jan 2007 iflg. res. 15 des 2006 nr. 1432 ), 12 april 2024 nr. 17 (i kraft 1 juli 2024 iflg. res. 12 april 2024 nr. 602 ).</p>
 <h4 id="11-melding-til-stiftelsesregisteret">§ 11. Melding til Stiftelsesregisteret</h4>
 <p>Innen tre måneder etter at stiftelsen er opprettet etter § 2 , skal styret melde stiftelsen til Stiftelsestilsynet for registrering i Stiftelsesregisteret. Meldingen skal inneholde opplysninger som nevnt i § 8 første ledd.</p>
 <p>Stiftelsen kan ikke registreres uten at det er utarbeidet et stiftelsesdokument i samsvar med § 9 første og annet ledd, jf. § 10 , og uten at hele grunnkapitalen selvstendig er stilt til rådighet for stiftelsen.</p>
@@ -179,7 +400,7 @@ d. hvis grunnkapitalen består av andre eiendeler enn penger, erklæring fra rev
 <p>Hvis styret har foretatt endringer i stiftelsesdokumentet etter § 9 fjerde ledd eller i vedtektene etter § 10 tredje ledd, skal det som vedlegg til meldingen dessuten følge en bekreftet kopi av det opprinnelige stiftelsesdokumentet eller de opprinnelige vedtektene.</p>
 <h4 id="13-melding-til-foretaksregisteret-av-nringsdrivende-stiftelser">§ 13. Melding til Foretaksregisteret av næringsdrivende stiftelser</h4>
 <p>Næringsdrivende stiftelser skal meldes til Foretaksregisteret med de opplysninger som følger av foretaksregisterloven kapittel 3 . Er det ved opprettelsen på det rene at stiftelsen skal drive næringsvirksomhet, skal stiftelsen meldes til Foretaksregisteret samtidig med at stiftelsen meldes for registrering i Stiftelsesregisteret etter § 11 . Blir stiftelsen næringsdrivende på et senere tidspunkt, skal stiftelsen meldes til Foretaksregisteret uten ugrunnet opphold, i tilfelle med vedlegg som nevnt i § 23 annet punktum.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</p>
 <h2 id="kapittel-3-kapital">Kapittel 3. Kapital</h2>
 <h3 id="i-alminnelige-regler">I. Alminnelige regler</h3>
 <h5 id="14-grunnkapital">§ 14. Grunnkapital</h5>
@@ -220,7 +441,7 @@ c. lånet eller sikkerhetsstillelsen ytes i samsvar med det som er vanlig ved fi
 <p>a. eiendeler som etter vedtektene eller styrets beslutning forvaltes av statsforvalteren etter <a href="lov-2010-03-26-9.html">vergemålsloven</a> § 97 , og
 b. eiendeler som Stiftelsestilsynet har bestemt at kan forvaltes sammen med eiendeler fra andre stiftelser (fellesforvaltning).</p>
 <p>Er eiendeler fra flere stiftelser lagt under felles forvaltning av en stiftelse, kan Stiftelsestilsynet beslutte at den stiftelsen som utfører den felles forvaltningen, skal være stiftelsenes styre.</p>
-<p><em>Endret ved lover 21 des 2005 nr. 130 , 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 , 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lover 21 des 2005 nr. 130 , 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 , 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h3 id="ii-srregler-for-nringsdrivende-stiftelser-som-nevnt-i-4-annet-ledd-bokstav-a-og-b">II. Særregler for næringsdrivende stiftelser som nevnt i § 4 annet ledd bokstav a og b</h3>
 <h5 id="22-srlige-krav-til-grunnkapitalen">§ 22. Særlige krav til grunnkapitalen</h5>
 <p>Næringsdrivende stiftelser som nevnt i § 4 annet ledd bokstav a og b, skal ha en grunnkapital på minst 200 000 kroner. I slike næringsdrivende stiftelser er grunnkapitalen bundet, jf. § 24 .</p>
@@ -248,8 +469,8 @@ d. hvis den som har avgitt en formuesverdi som inngår som grunnkapital i stifte
 <p>Har styret bare to styremedlemmer, kan person som nevnt i tredje ledd, heller ikke være styrets leder.</p>
 <p>Stiftelsestilsynet kan ved enkeltvedtak gjøre unntak fra bestemmelsene i annet, tredje og fjerde ledd.</p>
 <p>Lovens regler om styremedlemmer gjelder så langt de passer, også for varamedlemmer og observatører.</p>
-<p><em>Endret ved lover 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 , 28 mai 2021 nr. 51 (ikr. 1 des 2021 iflg. meddelelse 1 des 2021 nr. 3309 , jf. res. 23. juni 2021 nr. 2064 ).
-1 Jf. EØS-avtalen art. 31 og 34 .</em></p>
+<p class="note">Endret ved lover 26 mars 2010 nr. 9 (ikr. 1 juli 2013 iflg. res. 5 apr 2013 nr. 338 ) som endret ved lov 5 apr 2013 nr. 12 , 28 mai 2021 nr. 51 (ikr. 1 des 2021 iflg. meddelelse 1 des 2021 nr. 3309 , jf. res. 23. juni 2021 nr. 2064 ).
+1 Jf. EØS-avtalen art. 31 og 34 .</p>
 <h5 id="27-a-krav-til-kjnnssammensetning-i-styret">§ 27 a. Krav til kjønnssammensetning i styret</h5>
 <p>(1) Bestemmelsene i denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.</p>
 <p>(2) Har styret tre eller flere medlemmer, skal kjønnssammensetningen i styret oppfylle følgende krav:</p>
@@ -262,15 +483,15 @@ d. hvis den som har avgitt en formuesverdi som inngår som grunnkapital i stifte
 </ol>
 <p>(3) Annet ledd gjelder tilsvarende for varamedlemmer.</p>
 <p>(4) For styremedlemmer som de ansatte etter lov skal velge, gjelder kravene til kjønnssammensetning i § 27 b .</p>
-<p><em>Tilføyd ved lov 19 des 2003 nr. 120 , endret ved lover 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ), 20 des 2023 nr. 114 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2003 nr. 120 , endret ved lover 16 juni 2023 nr. 67 (i kraft 1 juli 2023 iflg. res. 16 juni 2023 nr. 905 ), 20 des 2023 nr. 114 (i kraft 1 jan 2024).</p>
 <h5 id="27-b-krav-til-kjnnssammensetning-for-styremedlemmer-valgt-av-og-blant-de-ansatte">§ 27 b. Krav til kjønnssammensetning for styremedlemmer valgt av og blant de ansatte</h5>
 <p>(1) Denne paragrafen gjelder for næringsdrivende stiftelser, stiftelser som etter vedtektene har utdeling til formål og stiftelser der staten, en fylkeskommune eller kommune skal oppnevne ett eller flere styremedlemmer.</p>
 <p>(2) Dersom det etter lov skal velges styremedlemmer blant de ansatte, kan ikke alle disse styremedlemmene ha samme kjønn. Det samme gjelder for varamedlemmer. Første og annet punktum gjelder ikke dersom mer enn 80 prosent av samlet antall ansatte i stiftelsen på tidspunktet valget skjer, har samme kjønn.</p>
 <p>(3) For stiftelser med flere enn 200 ansatte, skal kjønnssammensetningen blant styremedlemmer som etter lov velges av og blant de ansatte, oppfylle kravene i § 27 a annet og tredje ledd , likevel slik at dersom det skal velges to styremedlemmer av og blant de ansatte, kan ikke disse ha styremedlemmene ha samme kjønn.</p>
-<p><em>Tilføyd ved lov 20 des 2023 nr. 114 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2023 nr. 114 (i kraft 1 jan 2024).</p>
 <h5 id="27-c-krav-til-registrering-av-opplysninger-om-kjnnssammensetning-i-styret">§ 27 c. Krav til registrering av opplysninger om kjønnssammensetning i styret</h5>
 <p>For stiftelser som ikke er registrert i Foretaksregisteret, skal det registreres i Enhetsregisteret om stiftelsen er underlagt krav til kjønnssammensetning i styret etter § 27 a og § 27 b . Enhetsregisteret skal i så fall også inneholde opplysninger om styremedlemmenes og varamedlemmenes kjønn og opplysninger om medlemmet er valgt av og blant de ansatte. For stiftelser som er registrert i Foretaksregisteret, gjelder foretaksregisterloven § 3-2 tredje ledd .</p>
-<p><em>Tilføyd ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2025 nr. 105 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1094 ).</p>
 <h5 id="28-styremedlemmers-tjenestetid">§ 28. Styremedlemmers tjenestetid</h5>
 <p>Styremedlemmer tjenestegjør i fire år, hvis ikke noe annet er fastsatt i stiftelsens vedtekter. Et styremedlem skal bli stående i vervet inntil et nytt medlem er valgt, selv om tjenestetiden er utløpt.</p>
 <p>Hvis det foreligger særlig grunn, har et styremedlem rett til å tre tilbake før tjenestetiden er ute. Styret og den som har valgt styremedlemmet, skal gis rimelig forhåndsvarsel.</p>
@@ -288,7 +509,7 @@ d. hvis den som har avgitt en formuesverdi som inngår som grunnkapital i stifte
 <p>Styrets leder skal sørge for at styremedlemmene så vidt mulig kan delta i en samlet behandling av de saker som blir behandlet. Hvert styremedlem og daglig leder kan kreve at saken blir behandlet i møte. Dersom en sak skal behandles i møte, bestemmer styrets leder møteformen. Mer enn halvdelen av styrets medlemmer kan likevel kreve at møtet blir holdt som fysisk eller elektronisk møte.</p>
 <p>Styrebehandlingen ledes av styrelederen. Deltar verken styrelederen eller varalederen, velger styret en leder for styrebehandlingen. Daglig leder har rett og plikt til å delta i styrets behandling av saker og til å uttale seg, hvis ikke noe annet er bestemt av styret i den enkelte sak.</p>
 <p>Det skal føres protokoll over styrebehandlingen. Protokollen skal minst angi tid og sted, deltakerne, behandlingsmåten og styrets beslutninger. Styremedlem eller daglig leder som ikke er enig i styrets beslutning, kan kreve sin oppfatning innført i protokollen. Protokollen skal signeres av alle de medlemmer som har deltatt i styrebehandlingen.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</p>
 <h5 id="32-vedtaksfrhet">§ 32. Vedtaksførhet</h5>
 <p>Styret kan treffe beslutning når mer enn halvdelen av styremedlemmene er til stede eller deltar i styrebehandlingen, hvis ikke vedtektene stiller strengere krav. Styret kan likevel ikke treffe beslutning uten at alle medlemmene av styret så vidt mulig er gitt anledning til å delta i behandling av saken. Har et styremedlem forfall og det finnes varamedlem for ham eller henne, skal varamedlemmet innkalles.</p>
 <h5 id="33-flertallskrav">§ 33. Flertallskrav</h5>
@@ -318,7 +539,7 @@ h. å avgi uttalelse til styret eller annet organ i stiftelsen.</p>
 <p>Annen myndighet enn det som følger av annet ledd, kan ikke legges til slike organer.</p>
 <p>Reglene i § 37 om inhabilitet og § 40 om godtgjørelse gjelder tilsvarende for medlem av organ som nevnt i paragrafen her.</p>
 <p>Vedtektene kan fastsette nærmere regler om saksbehandlingen. Dersom ikke annet følger av vedtektene, gjelder reglene om saksbehandling i styret så langt de passer.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 51 (ikr. 1 juni 2021 iflg. res. 28 mai 2021 nr. 1667 ).</p>
 <h3 id="iv-inhabilitet-representasjon-utad-mv">IV. Inhabilitet, representasjon utad, mv.</h3>
 <h5 id="37-inhabilitet">§ 37. Inhabilitet</h5>
 <p>Et styremedlem eller en daglig leder må ikke delta i behandlingen eller avgjørelsen av spørsmål som har slik særlig betydning for ham eller henne selv eller for hans eller hennes nærstående, at vedkommende må anses for å ha en fremtredende personlig eller økonomisk særinteresse i saken.</p>
@@ -345,15 +566,15 @@ h. å avgi uttalelse til styret eller annet organ i stiftelsen.</p>
 <p>Revisor velges av den eller de personer eller organer som etter vedtektene velger eller oppnevner styrets medlemmer, hvis ikke det er fastsatt noe annet i vedtektene.</p>
 <p>Stiftelsestilsynet kan frata en revisor oppdraget hvis han eller hun ikke gjennomfører sine plikter etter loven, og den som har myndighet til å velge revisor etter første ledd, unnlater å gjøre dette. Stiftelsestilsynet kan også oppnevne revisor, dersom den som har myndighet til å velge revisor etter første ledd, unnlater å velge revisor, eller velger en revisor som ikke fyller vilkårene for å være revisor for stiftelsen. Stiftelsestilsynets oppnevning gjelder for tiden inntil en annen revisor er valgt på foreskreven måte.</p>
 <p>Dersom en eller flere kommuner eller fylkeskommuner har rett til å velge eller oppnevne et flertall i styret, kan kommune- og fylkesrevisjonen velges som stiftelsens revisor. Det samme gjelder hvor stiftelsens virksomhet i vesentlig grad er basert på tilskudd eller bevilgning fra kommune eller fylkeskommune som nevnt. For øvrig gjelder reglene i denne paragraf.</p>
-<p><em>Endret ved lov 7 mai 2004 nr. 21 (ikr. 1 jan 2005).</em></p>
+<p class="note">Endret ved lov 7 mai 2004 nr. 21 (ikr. 1 jan 2005).</p>
 <h4 id="44-revisors-plikter">§ 44. Revisors plikter</h4>
 <p>Stiftelsestilsynet kan kreve at revisor gjør nærmere rede for bestemte angitte forhold i stiftelsen. Kopi av revisors skriftlige dokumentasjon med påpekninger som nevnt i <a href="lov-2020-11-20-128.html">revisorloven</a> § 9-5 skal fortløpende sendes til Stiftelsestilsynet.</p>
 <p>I revisjonsberetningen skal revisor uttale seg om stiftelsen er forvaltet og om utdelinger er foretatt i samsvar med lov, stiftelsens formål og vedtektene for øvrig.</p>
 <p>Dersom styremedlemmer eller ansatte i stiftelsen, oppretter, eller nærstående til noen av disse, har mottatt lån eller annen ytelse fra stiftelsen, skal revisor attestere at ytelsen er i samsvar med lov, forskrifter og stiftelsens formål.</p>
-<p><em>Endret ved lover 15 des 2006 nr. 88 (ikr. 1 jan 2007 iflg. res. 15 des 2006 nr. 1432 ), 16 des 2022 nr. 90 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2255 ).</em></p>
+<p class="note">Endret ved lover 15 des 2006 nr. 88 (ikr. 1 jan 2007 iflg. res. 15 des 2006 nr. 1432 ), 16 des 2022 nr. 90 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2255 ).</p>
 <h4 id="44-a-mte-med-revisor">§ 44 a. Møte med revisor</h4>
 <p>Styret skal hvert år ha et møte med revisor uten at daglig leder eller andre fra den daglige ledelsen er til stede. Aksjeloven § 7-5 a gjelder tilsvarende.</p>
-<p><em>Tilføyd ved lov 20 nov 2020 nr. 128 (ikr. 1 jan 2021 iflg. res. 20 nov 2020 nr. 2420 ).</em></p>
+<p class="note">Tilføyd ved lov 20 nov 2020 nr. 128 (ikr. 1 jan 2021 iflg. res. 20 nov 2020 nr. 2420 ).</p>
 <h2 id="kapittel-6-omdanning">Kapittel 6. Omdanning</h2>
 <h4 id="45-omdanning">§ 45. Omdanning</h4>
 <p>Med omdanning menes i loven her endring eller opphevelse av den rettslige disposisjonen som danner grunnlaget for stiftelsen, eller av stiftelsens vedtekter.</p>
@@ -369,7 +590,7 @@ b. vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med de k
 c. vedtektsendring som er nødvendig for å bringe vedtektene i samsvar med § 10 tredje ledd om navn til alminnelige stiftelser.</p>
 <p>Vedtektsendringer som nevnt i dette ledd kan vedtas av styret.</p>
 <p>Reglene i dette kapitlet kan ikke fravikes i den rettslige disposisjonen som danner grunnlaget for stiftelsen, i vedtektene eller av den som er tillagt omdanningsmyndighet.</p>
-<p><em>Endret ved lov 12 april 2024 nr. 17 (i kraft 1 juli 2024 iflg. res. 12 april 2024 nr. 602 ).</em></p>
+<p class="note">Endret ved lov 12 april 2024 nr. 17 (i kraft 1 juli 2024 iflg. res. 12 april 2024 nr. 602 ).</p>
 <h4 id="46-vilkar-for-omdanning">§ 46. Vilkår for omdanning</h4>
 <p>Omdanning kan foretas når en bestemmelse i vedtektene eller den rettslige disposisjonen som danner grunnlaget for stiftelsen</p>
 <p>a. ikke lar seg etterleve, for eksempel fordi stiftelsens kapital er utilstrekkelig til å tilgodese dens formål på en rimelig måte,
@@ -396,7 +617,7 @@ d. er åpenbart uheldig eller åpenbart ufornuftig.</p>
 <p>Avviklingsstyret skal lage en fortegnelse over stiftelsens eiendeler, rettigheter og forpliktelser og gjøre opp en balanse med henblikk på avvikling av stiftelsen. Fortegnelsen og balansen skal i revidert stand sendes Stiftelsestilsynet.</p>
 <p>Stiftelsens eiendeler skal omgjøres i penger så langt det er nødvendig for å dekke dens forpliktelser. Avviklingsstyret skal sørge for at forpliktelsene blir dekket i den utstrekning ikke kreditor frafaller sitt krav eller samtykker i å ta en annen som debitor i stedet. Kan en kreditor ikke finnes, eller nekter han eller hun å motta sitt tilgodehavende, skal beløpet deponeres i Norges Bank etter reglene i lov 17. februar 1939 nr. 2 om deponering i gjeldshøve. Det som er igjen av eiendeler etter at kreditorene er dekket etter annet og tredje punktum, skal utdeles til formål som nevnt i § 47 annet ledd, men ved utdelingen skal det tas forbehold om at eiendelen eller beløpet kan kreves tilbake i den utstrekning dette er nødvendig for å dekke kreditorer som ikke er dekket etter annet og tredje punktum.</p>
 <p>Etter avsluttet utbetaling fremlegges revidert oppgjør for Stiftelsestilsynet, som skal godkjenne oppgjøret og registrere at stiftelsen er opphevet. Overfor kreditor som ikke har fått dekning etter fjerde ledd, hefter avviklingsstyrets medlemmer solidarisk uten begrensning, hvis det ikke godtgjøres at de har opptrådt med tilbørlig aktsomhet. Krav mot den som har mottatt eiendeler etter fjerde ledd siste punktum, og krav mot avviklingsstyrets medlemmer foreldes tre år etter at det ble registrert at stiftelsen var opphevet.</p>
-<p><em>Endret ved lover 5 sep 2003 nr. 92 (ikr. 1 jan 2004 iflg. res. 5 sep 2003 nr. 1119 ), 15 juni 2007 nr. 36 , 14 juni 2013 nr. 41 (ikr. 1 juli 2013 iflg. res. 14 juni 2013 nr. 638 ).</em></p>
+<p class="note">Endret ved lover 5 sep 2003 nr. 92 (ikr. 1 jan 2004 iflg. res. 5 sep 2003 nr. 1119 ), 15 juni 2007 nr. 36 , 14 juni 2013 nr. 41 (ikr. 1 juli 2013 iflg. res. 14 juni 2013 nr. 638 ).</p>
 <h4 id="53-sammenslaing-av-to-eller-flere-stiftelser">§ 53. Sammenslåing av to eller flere stiftelser</h4>
 <p>Et vedtak om omdanning kan gå ut på at to eller flere stiftelser slås sammen til en ny stiftelse, eller at en eller flere stiftelser overdrar sine eiendeler, rettigheter og forpliktelser som helhet til en annen stiftelse (sammenslåing).</p>
 <p>Stiftelsestilsynet kan kreve at styrene i hver av de stiftelser som skal slås sammen, skal utarbeide en skriftlig rapport om sammenslåingen og hva den vil bety for stiftelsen. Rapporten skal redegjøre for den betydning sammenslåingen kan få for stiftelsens kreditorer og de ansatte i stiftelsen. Stiftelsestilsynet kan også kreve fremlagt siste årsregnskap, årsberetning og revisjonsberetning for stiftelsene. Det kan dessuten kreves at det utarbeides mellombalanser for stiftelsene, som skal være utarbeidet og revidert etter reglene for årsregnskap. Har stiftelsen ansatte, skal de ansatte gis mulighet til å uttale seg om sammenslåingen, og skriftlige uttalelser fra de ansatte eller representanter for de ansatte skal sendes Stiftelsestilsynet.</p>
@@ -404,7 +625,7 @@ d. er åpenbart uheldig eller åpenbart ufornuftig.</p>
 <p>Når sammenslåingen er vedtatt, og vedtaket i tilfelle er godkjent av Stiftelsestilsynet, skal Stiftelsestilsynet kunngjøre vedtaket i Brønnøysundregistrenes elektroniske kunngjøringspublikasjon og varsle stiftelsenes kreditorer om at de må melde fra til stiftelsen innen seks uker fra kunngjøringen, dersom de vil gjøre innsigelse mot sammenslåingen.</p>
 <p>Gjør en kreditor med uomtvistet og forfalt fordring innsigelse før fristens utløp, kan sammenslåingen ikke gjennomføres før fordringen er betalt. En kreditor med omtvistet eller ikke forfalt fordring kan kreve at betryggende sikkerhet blir stilt, dersom fordringen ikke fra før er betryggende sikret. Aksjeloven § 13-15 annet ledd annet punktum, og tredje og fjerde ledd, jf. § 18-3 , gjelder tilsvarende.</p>
 <p>Når fristen for innsigelser er gått ut uten at det er kommet innsigelser fra kreditorene, eller når krav fra kreditorene er behandlet i samsvar med femte ledd, skal det avgis en bevitnelse til Stiftelsestilsynet for hver av stiftelsene om at forholdet til kreditorene ikke er til hinder for gjennomføring av sammenslutningen. Bevitnelsen skal være underskrevet av styret og revisor. Stiftelsestilsynet skal deretter registrere sammenslåingen i Stiftelsesregisteret. Sammenslåingen trer i kraft fra registreringstidspunktet.</p>
-<p><em>Endret ved lover 14 juni 2013 nr. 41 (ikr. 1 juli 2013 iflg. res. 14 juni 2013 nr. 638 ), 13 mars 2015 nr. 12 (ikr. 1 apr 2015 iflg. res. 13 mars 2015 nr. 226 ).</em></p>
+<p class="note">Endret ved lover 14 juni 2013 nr. 41 (ikr. 1 juli 2013 iflg. res. 14 juni 2013 nr. 638 ), 13 mars 2015 nr. 12 (ikr. 1 apr 2015 iflg. res. 13 mars 2015 nr. 226 ).</p>
 <h4 id="54-deling-av-stiftelser">§ 54. Deling av stiftelser</h4>
 <p>Et vedtak om omdanning kan gå ut på at en stiftelse skal deles i to eller flere stiftelser.</p>
 <p>For gjennomføringen av delingen gjelder § 53 tilsvarende, jf. likevel tredje ledd i paragrafen her.</p>
@@ -423,11 +644,11 @@ c. formuesverdier som tilhører en forening, når det følger av foreningsrettsl
 <p>a. har til formål å skaffe boliger til personer som ikke kan ivareta sine interesser på boligmarkedet, og derfor trenger bistand til å skaffe eller beholde egnet bolig, og
 b. er opprettet av én eller flere kommuner.</p>
 <p>Ved opphevelse av boligstiftelser etter reglene i dette kapitlet gjelder ikke kapittel 6 .</p>
-<p><em>Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</p>
 <h4 id="55-b-vedtak-om-opphevelse-melding-til-stiftelsesregisteret">§ 55 b. Vedtak om opphevelse. Melding til Stiftelsesregisteret</h4>
 <p>En kommune som har opprettet en stiftelse som nevnt i § 55 a , kan innen 31. desember 2028 treffe vedtak om at stiftelsen skal oppheves med de virkninger som følger av § 55 e . Dersom stiftelsen er opprettet av flere kommuner, må vedtaket treffes av samtlige av disse kommunene. Hvis oppretterkommunen har opphørt å eksistere, er det kommunen eller kommunene hvis areal dekker oppretterkommunen, som kan treffe vedtak om opphevelse.</p>
 <p>Vedtak om opphevelse skal meldes til Stiftelsesregisteret uten ugrunnet opphold. Vedlagt meldingen skal følge rapport, vedlegg til rapporten og uttalelser fra styret og ansatte i stiftelsen, jf. § 55 c . Kommunen skal sørge for at alle stiftelsens kreditorer med kjent adresse så vidt mulig varsles om opphevelsen.</p>
-<p><em>Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</p>
 <h4 id="55-c-rapport-om-opphevelsen">§ 55 c. Rapport om opphevelsen</h4>
 <p>Før kommunen treffer vedtak etter § 55 b , skal kommunen utarbeide en rapport om opphevelsen. Rapporten skal minst angi</p>
 <p>a. hvordan kommunen planlegger å bruke eiendelene i stiftelsen
@@ -439,16 +660,16 @@ f. fordeling av stiftelsens eiendeler, rettigheter og forpliktelser dersom stift
 <p>Som vedlegg til rapporten skal følge stiftelsens vedtekter, siste årsregnskap og eventuell årsberetning og revisjonsberetning for stiftelsen. Det samme gjelder mellombalanse for stiftelsen, dersom rapporten utarbeides mer enn seks måneder etter balansedagen for det senest fastsatte årsregnskapet.</p>
 <p>Kommunen skal forelegge rapporten med vedlegg for styret og eventuelle ansatte i stiftelsen for uttalelse. Fristen for uttalelse etter første punktum skal være minst fire uker.</p>
 <p>En uttalelse fra styret i stiftelsen skal inngå i saksdokumentene ved den videre behandlingen i kommunen. Det samme gjelder uttalelser fra de ansatte eller representanter for de ansatte.</p>
-<p><em>Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</p>
 <h4 id="55-d-stiftelsestilsynets-kontroll-av-melding-om-opphevelse">§ 55 d. Stiftelsestilsynets kontroll av melding om opphevelse</h4>
 <p>Når Stiftelsestilsynet har fått melding om vedtak om opphevelse etter § 55 b annet ledd første punktum, skal det prøve om vedtaket er i samsvar med §§ 55 a til 55 c før vedtaket registreres i Stiftelsesregisteret. Dersom Stiftelsestilsynet finner at vedtaket ikke er i samsvar med de nevnte bestemmelsene, skal vedtaket nektes registrert.</p>
-<p><em>Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</p>
 <h4 id="55-e-ikrafttredelse-av-opphevelsen">§ 55 e. Ikrafttredelse av opphevelsen</h4>
 <p>Når vedtaket om opphevelse er registrert i Stiftelsesregisteret, inntrer følgende virkninger:</p>
 <p>a. stiftelsen er opphevet
 b. stiftelsens eiendeler, rettigheter og forpliktelser er overført til kommunen
 c. andre virkninger som er bestemt i rapporten etter § 55 c .</p>
-<p><em>Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2022 nr. 93 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2247 ).</p>
 <h2 id="kapittel-7-erstatningsansvar-og-straffansvar-gransking">Kapittel 7. Erstatningsansvar og straffansvar. Gransking</h2>
 <h4 id="56-erstatningsansvar">§ 56. Erstatningsansvar</h4>
 <p>Stiftelsen kan kreve at styremedlem, person med verv i organ som nevnt i § 36 , daglig leder, revisor og gransker erstatter tap som de forsettlig eller uaktsomt har voldt stiftelsen under utførelsen av sine oppgaver.</p>
@@ -461,7 +682,7 @@ c. andre virkninger som er bestemt i rapporten etter § 55 c .</p>
 <p>Oppretter, styremedlem, person med verv i organ som nevnt i § 36 , daglig leder og revisor som forsettlig eller uaktsomt overtrer bestemmelse gitt i eller i medhold av loven her, straffes med bøter eller under skjerpende forhold med fengsel i inntil ett år.</p>
 <p>Ledende ansatt som er tildelt myndighet til å treffe beslutning på vegne av stiftelsen innenfor avgrensede saksområder, og som forsettlig eller uaktsomt overtrer bestemmelse gitt i eller i medhold av loven her under utøvelsen av sin myndighet, straffes med bøter eller under skjerpende forhold med fengsel i inntil ett år.</p>
 <p>Foreldelsesfristen for adgang til å reise straffesak er fem år.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="59-gransking">§ 59. Gransking</h4>
 <p>Stiftelsestilsynet kan beslutte å granske opprettelsen av en stiftelse, forvaltningen av den eller nærmere angitte forhold ved forvaltningen eller regnskapene. Stiftelsestilsynet skal gi stiftelsen eller i tilfelle den som granskingen ellers vil omfatte, anledning til å uttale seg før avgjørelsen treffes.</p>
 <p>Stiftelsestilsynet kan gjennomføre granskingen selv, eller oppnevne en eller flere granskere til å gjennomføre gransking på vegne av Stiftelsestilsynet. Stiftelsens ledelse skal sørge for at Stiftelsestilsynet, eventuelt granskeren, gis anledning til å foreta nødvendige undersøkelser i stiftelsen, og at de gis nødvendige opplysninger eller annen bistand. Særskilt oppnevnt gransker har taushetsplikt etter forvaltningsloven §§ 13 flg.</p>
@@ -482,13 +703,15 @@ f. Stiftelser som er opprettet før loven trer i kraft, skal være organisert i 
 g. Omdanning som det er truffet vedtak om eller søkt fylkesmannen om før loven trer i kraft, gjennomføres etter reglene i lov 23. mai 1980 nr. 11 om stiftelser m.m. kapittel VI.
 h. Frem til 1. januar 2009 kan Stiftelsestilsynet unnlate å kunngjøre vedtak om opphevelse av en stiftelse etter reglene i § 52 annet ledd, dersom tilsynet finner at hensynet til stiftelsens kreditorer er tilstrekkelig ivaretatt uten slik kunngjøring eller ved begrenset kunngjøring. Alle kreditorer med kjent adresse skal uansett så vidt mulig ha særskilt varsel.
 i. Kongen kan gi nærmere overgangsregler.</p>
-<p><em>Endret ved lov 15 juni 2007 nr. 36 .</em></p>
+<p class="note">Endret ved lov 15 juni 2007 nr. 36 .</p>
 <h4 id="62-endringer-i-andre-lover">§ 62. Endringer i andre lover</h4>
 <p>Fra den tid 1 loven trer i kraft gjøres følgende endringer i andre lover:</p>
 <p><em>– – –
 2. Lov 23. mai 1980 nr. 11 om stiftelser m.m. oppheves.
 – – –
 1 Ikr. 1 jan 2005 iflg. res. 19 nov 2004 nr. 1489 , med unntak av følgende bestemmelser i § 62: nr. 1 om endringer i arveavgiftsloven 19 juni 1964 nr. 14 , nr. 3 om endringer i konkursloven 8 juni 1984 nr. 58 , endringene i nr. 4 av foretaksregisterloven 21 juni 1985 nr. 78 § 4-4 (1) bokstav a og bokstav e annet punktum, nr. 5 om endringer i finansieringsvirksomhetsloven 10 juni 1988 nr. 40 , og endringen i nr. 9 av regnskapsloven 17 juli 1998 nr. 56 § 9-1 . Ved lov 29 apr 2005 nr. 22 ble endringen i nr. 1 og nr. 3 opphevet. Iflg. res. 29 apr 2005 nr. 366 trådte endringen i nr. 4 av foretaksregisterloven § 4-4 (1) bokstav a og bokstav e annet punktum og endringen i nr. 9 av regnskapsloven § 9-1 ikr. 29 apr 2005. Iflg. res. 21 des 2005 nr. 1608 trådte endringen i nr. 5 av finansieringsvirksomhetsloven § 2-22 ikr. 21 des 2005.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

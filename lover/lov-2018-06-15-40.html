@@ -19,64 +19,393 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2018-06-15-40.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Åndsverkloven" href="../feeds/lov-2018-06-15-40.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &rsaquo;
 <span>Åndsverkloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2018-06-15-40</code></dd>
-<dt>Departement</dt><dd>Kultur- og likestillingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Immaterialrett &raquo; Opphavsrett</dd>
-<dt>Ikrafttredelse</dt><dd>2018-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-12-13-76</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2018-06-15-40" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-grunnleggende-bestemmelser-om-opphavsrett-til-andsverk">Kapittel 1 Grunnleggende bestemmelser om opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-opphavsrett-til-andsverk">§ 2. Opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#3-opphavsrettens-innhold">§ 3. Opphavsrettens innhold</a></li>
+<li class="lvl4"><a href="#4-visse-midlertidige-eksemplar">§ 4. Visse midlertidige eksemplar</a></li>
+<li class="lvl4"><a href="#5-rett-til-navngivelse-og-vern-mot-krenkende-bruk-ideelle-rettigheter">§ 5. Rett til navngivelse og vern mot krenkende bruk (ideelle rettigheter)</a></li>
+<li class="lvl4"><a href="#6-bearbeidelser-mv">§ 6. Bearbeidelser mv.</a></li>
+<li class="lvl4"><a href="#7-samleverk">§ 7. Samleverk</a></li>
+<li class="lvl4"><a href="#8-fellesverk">§ 8. Fellesverk</a></li>
+<li class="lvl4"><a href="#9-ukjent-opphaver">§ 9. Ukjent opphaver</a></li>
+<li class="lvl4"><a href="#10-offentliggjring-og-utgivelse">§ 10. Offentliggjøring og utgivelse</a></li>
+<li class="lvl4"><a href="#11-opphavsrettens-vernetid">§ 11. Opphavsrettens vernetid</a></li>
+<li class="lvl4"><a href="#12-vernetid-for-anonyme-andsverk">§ 12. Vernetid for anonyme åndsverk</a></li>
+<li class="lvl4"><a href="#13-vernetid-for-verk-som-tidligere-ikke-er-offentliggjort">§ 13. Vernetid for verk som tidligere ikke er offentliggjort</a></li>
+<li class="lvl4"><a href="#14-andsverk-som-ikke-har-opphavsrettslig-vern">§ 14. Åndsverk som ikke har opphavsrettslig vern</a></li>
+<li class="lvl4"><a href="#15-forholdet-til-vern-etter-annen-lovgivning">§ 15. Forholdet til vern etter annen lovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-2-rettigheter-til-utvende-kunstnere-og-produsenter-mfl-nrstaende-rettigheter">Kapittel 2 Rettigheter til utøvende kunstnere og produsenter mfl. (nærstående rettigheter)</a></li>
+<li class="lvl4"><a href="#16-utvende-kunstneres-enerett">§ 16. Utøvende kunstneres enerett</a></li>
+<li class="lvl4"><a href="#17-heving-av-avtale-om-rettigheter-til-lydopptak">§ 17. Heving av avtale om rettigheter til lydopptak</a></li>
+<li class="lvl4"><a href="#18-utvende-kunstners-rett-til-tilleggsvederlag">§ 18. Utøvende kunstners rett til tilleggsvederlag</a></li>
+<li class="lvl4"><a href="#19-avtale-om-lpende-vederlag">§ 19. Avtale om løpende vederlag</a></li>
+<li class="lvl4"><a href="#20-produsenters-enerett">§ 20. Produsenters enerett</a></li>
+<li class="lvl4"><a href="#21-vederlag-for-offentlig-fremfring-og-overfring-til-allmennheten-av-lydopptak">§ 21. Vederlag for offentlig fremføring og overføring til allmennheten av lydopptak</a></li>
+<li class="lvl4"><a href="#22-kringkastingsforetaks-rettigheter">§ 22. Kringkastingsforetaks rettigheter</a></li>
+<li class="lvl4"><a href="#23-eneretten-til-fotografiske-bilder">§ 23. Eneretten til fotografiske bilder</a></li>
+<li class="lvl4"><a href="#24-eneretten-til-databaser">§ 24. Eneretten til databaser</a></li>
+<li class="lvl2"><a href="#kapittel-3-avgrensning-av-opphavsretten-og-forvaltning-av-rettigheter-ved-avtalelisens-mv">Kapittel 3 Avgrensning av opphavsretten og forvaltning av rettigheter ved avtalelisens mv.</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#25-alminnelige-bestemmelser-om-bruk-av-andsverk-etter-dette-kapitlet">§ 25. Alminnelige bestemmelser om bruk av åndsverk etter dette kapitlet</a></li>
+<li class="lvl5"><a href="#26-kopiering-til-privat-bruk">§ 26. Kopiering til privat bruk</a></li>
+<li class="lvl5"><a href="#27-spredning-av-eksemplar-konsumpsjon">§ 27. Spredning av eksemplar (konsumpsjon)</a></li>
+<li class="lvl5"><a href="#28-visning-av-eksemplar-konsumpsjon">§ 28. Visning av eksemplar (konsumpsjon)</a></li>
+<li class="lvl5"><a href="#29-sitat">§ 29. Sitat</a></li>
+<li class="lvl5"><a href="#30-tilfeldig-eller-underordnet-medtakelse-av-et-verk">§ 30. Tilfeldig eller underordnet medtakelse av et verk</a></li>
+<li class="lvl5"><a href="#31-gjengivelse-av-verk-plassert-i-det-offentlige-rom">§ 31. Gjengivelse av verk plassert i det offentlige rom</a></li>
+<li class="lvl5"><a href="#32-offentlige-forhandlinger-mv">§ 32. Offentlige forhandlinger mv.</a></li>
+<li class="lvl5"><a href="#33-dokumentinnsyn-mv">§ 33. Dokumentinnsyn mv.</a></li>
+<li class="lvl5"><a href="#34-begrensninger-i-videre-bruk-av-dokumenter-og-adgang-til-sitat-fra-ikke-offentliggjorte-dokumenter">§ 34. Begrensninger i videre bruk av dokumenter og adgang til sitat fra ikke-offentliggjorte dokumenter</a></li>
+<li class="lvl5"><a href="#35-offentlig-gjengivelse-av-debattprogram">§ 35. Offentlig gjengivelse av debattprogram</a></li>
+<li class="lvl5"><a href="#36-gjengivelse-av-verk-ved-medias-omtale-av-dagshending">§ 36. Gjengivelse av verk ved medias omtale av dagshending</a></li>
+<li class="lvl5"><a href="#37-gjengivelse-av-kunstverk-og-fotografiske-verk-i-kritisk-og-vitenskapelig-fremstilling-og-biografier">§ 37. Gjengivelse av kunstverk og fotografiske verk i kritisk og vitenskapelig fremstilling og biografier</a></li>
+<li class="lvl5"><a href="#38-gjengivelse-av-kunstverk-og-fotografisk-verk-i-katalog-mv">§ 38. Gjengivelse av kunstverk og fotografisk verk i katalog mv.</a></li>
+<li class="lvl5"><a href="#39-endring-av-byggverk-og-bruksgjenstander">§ 39. Endring av byggverk og bruksgjenstander</a></li>
+<li class="lvl5"><a href="#40-fri-bruk-ved-seremonier-ungdomsstevner-og-andre-tilstelninger">§ 40. Fri bruk ved seremonier, ungdomsstevner og andre tilstelninger</a></li>
+<li class="lvl3"><a href="#ii-bruk-av-datamaskinprogram-og-databaser">II Bruk av datamaskinprogram og databaser</a></li>
+<li class="lvl5"><a href="#41-rett-til-endringer-i-datamaskinprogram-og-databaser">§ 41. Rett til endringer i datamaskinprogram og databaser</a></li>
+<li class="lvl5"><a href="#42-omvendt-utvikling-av-datamaskinprogram">§ 42. Omvendt utvikling av datamaskinprogram</a></li>
+<li class="lvl3"><a href="#iii-bruk-av-verk-i-undervisningsvirksomhet">III Bruk av verk i undervisningsvirksomhet</a></li>
+<li class="lvl5"><a href="#43-fri-bruk-av-verk-ved-undervisningsvirksomhet">§ 43. Fri bruk av verk ved undervisningsvirksomhet</a></li>
+<li class="lvl5"><a href="#44-tvangslisens-for-samleverk-til-bruk-i-undervisning-mv">§ 44. Tvangslisens for samleverk til bruk i undervisning mv.</a></li>
+<li class="lvl5"><a href="#45-tvangslisens-for-bruk-av-verk-ved-offentlig-eksamen">§ 45. Tvangslisens for bruk av verk ved offentlig eksamen</a></li>
+<li class="lvl5"><a href="#46-avtalelisens-for-bruk-av-verk-i-undervisningsvirksomhet">§ 46. Avtalelisens for bruk av verk i undervisningsvirksomhet</a></li>
+<li class="lvl3"><a href="#iv-bruk-av-verk-i-virksomheter-arkiv-bibliotek-museer-mv">IV Bruk av verk i virksomheter, arkiv, bibliotek, museer mv.</a></li>
+<li class="lvl5"><a href="#47-avtalelisens-for-bruk-av-verk-i-institusjoner-ervervsvirksomheter-mv">§ 47. Avtalelisens for bruk av verk i institusjoner, ervervsvirksomheter mv.</a></li>
+<li class="lvl5"><a href="#48-opptak-for-bruk-i-visse-dgninstitusjoner">§ 48. Opptak for bruk i visse døgninstitusjoner</a></li>
+<li class="lvl5"><a href="#49-bruk-av-verk-i-arkiv-bibliotek-museer-mv">§ 49. Bruk av verk i arkiv, bibliotek, museer mv.</a></li>
+<li class="lvl5"><a href="#50-avtalelisens-for-bruk-av-verk-i-arkiv-bibliotek-og-museer">§ 50. Avtalelisens for bruk av verk i arkiv, bibliotek og museer</a></li>
+<li class="lvl3"><a href="#v-bruk-av-hitteverk-i-kulturarvinstitusjoner-mv">V Bruk av hitteverk i kulturarvinstitusjoner mv.</a></li>
+<li class="lvl5"><a href="#51-kulturarvinstitusjoner-som-er-omfattet-av-reglene-om-hitteverk">§ 51. Kulturarvinstitusjoner som er omfattet av reglene om hitteverk</a></li>
+<li class="lvl5"><a href="#52-definisjon-av-hitteverk">§ 52. Definisjon av hitteverk</a></li>
+<li class="lvl5"><a href="#53-bruk-av-hitteverk">§ 53. Bruk av hitteverk</a></li>
+<li class="lvl5"><a href="#54-omfattende-sk-etter-rettighetshavere-mv">§ 54. Omfattende søk etter rettighetshavere mv.</a></li>
+<li class="lvl3"><a href="#vi-bruk-av-verk-for-personer-med-nedsatt-funksjonsevne">VI Bruk av verk for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#55-fri-bruk-for-personer-med-nedsatt-funksjonsevne">§ 55. Fri bruk for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#56-tvangslisens-for-fremstilling-og-bruk-av-opptak-for-personer-med-nedsatt-funksjonsevne">§ 56. Tvangslisens for fremstilling og bruk av opptak for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#56-a-nrmere-regler-for-gjennomfring-av-marrakechtraktaten-og-marrakechdirektivet">§ 56 a. Nærmere regler for gjennomføring av Marrakechtraktaten og Marrakechdirektivet</a></li>
+<li class="lvl3"><a href="#vii-bruk-av-verk-pa-det-audiovisuelle-omradet-mv">VII Bruk av verk på det audiovisuelle området mv.</a></li>
+<li class="lvl5"><a href="#57-avtalelisens-for-tilgjengeliggjring-av-audiovisuelle-produksjoner-mv">§ 57. Avtalelisens for tilgjengeliggjøring av audiovisuelle produksjoner mv.</a></li>
+<li class="lvl5"><a href="#58-midlertidige-efemre-opptak">§ 58. Midlertidige (efemære) opptak</a></li>
+<li class="lvl3"><a href="#viii-flgerett-ved-videresalg-av-kunstverk1">VIII Følgerett ved videresalg av kunstverk1</a></li>
+<li class="lvl5"><a href="#59-flgerett-ved-videresalg-av-kunstverk">§ 59. Følgerett ved videresalg av kunstverk</a></li>
+<li class="lvl5"><a href="#60-beregning-og-innkreving-av-flgerettsvederlaget">§ 60. Beregning og innkreving av følgerettsvederlaget</a></li>
+<li class="lvl5"><a href="#61-ufravikelighet-og-opplysningsplikt-mv-ved-flgerett">§ 61. Ufravikelighet og opplysningsplikt mv. ved følgerett</a></li>
+<li class="lvl3"><a href="#ix-felles-bestemmelser-om-tvangslisens-avtalelisens-nemnd-mv">IX Felles bestemmelser om tvangslisens, avtalelisens, nemnd mv.</a></li>
+<li class="lvl5"><a href="#62-tvistelsning-for-bruk-av-verk-ved-tvangslisens">§ 62. Tvisteløsning for bruk av verk ved tvangslisens</a></li>
+<li class="lvl5"><a href="#63-vilkar-for-bruk-av-verk-ved-avtalelisens">§ 63. Vilkår for bruk av verk ved avtalelisens</a></li>
+<li class="lvl5"><a href="#64-vederlag-for-bruk-av-verk-ved-avtalelisens">§ 64. Vederlag for bruk av verk ved avtalelisens</a></li>
+<li class="lvl5"><a href="#65-tvistelsning-ved-avtalelisens">§ 65. Tvisteløsning ved avtalelisens</a></li>
+<li class="lvl5"><a href="#66-organisasjoners-sksmalsrett">§ 66. Organisasjoners søksmålsrett</a></li>
+<li class="lvl2"><a href="#kapittel-4-opphavsrettens-overgang-mv">Kapittel 4 Opphavsrettens overgang mv.</a></li>
+<li class="lvl4"><a href="#67-alminnelige-bestemmelser-om-overdragelse">§ 67. Alminnelige bestemmelser om overdragelse</a></li>
+<li class="lvl4"><a href="#68-endringer-og-videreoverdragelse">§ 68. Endringer og videreoverdragelse</a></li>
+<li class="lvl4"><a href="#69-rett-til-rimelig-vederlag-ved-overdragelse-av-opphavsrett">§ 69. Rett til rimelig vederlag ved overdragelse av opphavsrett</a></li>
+<li class="lvl4"><a href="#70-avregning-og-kontroll">§ 70. Avregning og kontroll</a></li>
+<li class="lvl4"><a href="#71-datamaskinprogram-skapt-i-arbeidsforhold">§ 71. Datamaskinprogram skapt i arbeidsforhold</a></li>
+<li class="lvl4"><a href="#72-avtaler-om-innspilling-av-filmverk">§ 72. Avtaler om innspilling av filmverk</a></li>
+<li class="lvl4"><a href="#73-avtaler-om-fremfring-og-overfring">§ 73. Avtaler om fremføring og overføring</a></li>
+<li class="lvl4"><a href="#74-forlagsavtaler">§ 74. Forlagsavtaler</a></li>
+<li class="lvl4"><a href="#75-arv">§ 75. Arv</a></li>
+<li class="lvl4"><a href="#76-opphavsretten-og-formuesforholdet-mellom-ektefeller">§ 76. Opphavsretten og formuesforholdet mellom ektefeller</a></li>
+<li class="lvl4"><a href="#77-utlegg-og-annen-tvangsforflgning">§ 77. Utlegg og annen tvangsforfølgning</a></li>
+<li class="lvl2"><a href="#kapittel-5-straff-og-erstatning-mv">Kapittel 5 Straff og erstatning mv.</a></li>
+<li class="lvl4"><a href="#78-forbud-mot-inngrep-og-andre-overtredelser">§ 78. Forbud mot inngrep og andre overtredelser</a></li>
+<li class="lvl4"><a href="#79-straff">§ 79. Straff</a></li>
+<li class="lvl4"><a href="#80-straff-for-grovt-inngrep">§ 80. Straff for grovt inngrep</a></li>
+<li class="lvl4"><a href="#81-vederlag-og-erstatning">§ 81. Vederlag og erstatning</a></li>
+<li class="lvl4"><a href="#82-tiltak-for-a-hindre-inngrep-og-andre-overtredelser">§ 82. Tiltak for å hindre inngrep og andre overtredelser</a></li>
+<li class="lvl4"><a href="#83-tillatelse-til-bruk">§ 83. Tillatelse til bruk</a></li>
+<li class="lvl4"><a href="#84-formidling-av-informasjon-om-dom-i-sak-om-inngrep-og-overtredelse">§ 84. Formidling av informasjon om dom i sak om inngrep og overtredelse</a></li>
+<li class="lvl4"><a href="#85-tvungent-verneting">§ 85. Tvungent verneting</a></li>
+<li class="lvl2"><a href="#kapittel-6-srskilte-tiltak-ved-inngrep-i-opphavsrett-mm-pa-internett">Kapittel 6 Særskilte tiltak ved inngrep i opphavsrett m.m. på Internett</a></li>
+<li class="lvl3"><a href="#i-behandling-av-personopplysninger-og-tilgang-til-abonnementsopplysninger">I Behandling av personopplysninger og tilgang til abonnementsopplysninger</a></li>
+<li class="lvl5"><a href="#86-opphevet">§ 86. (Opphevet)</a></li>
+<li class="lvl5"><a href="#87-tilgang-til-opplysninger-som-identifiserer-innehaver-av-abonnement-brukt-ved-opphavsrettsinngrep-mm">§ 87. Tilgang til opplysninger som identifiserer innehaver av abonnement brukt ved opphavsrettsinngrep m.m.</a></li>
+<li class="lvl3"><a href="#ii-tiltak-rettet-mot-nettsted1">II Tiltak rettet mot nettsted1</a></li>
+<li class="lvl5"><a href="#88-palegg-om-a-hindre-eller-vanskeliggjre-tilgang-til-nettsted-der-det-gjres-tilgjengelig-materiale-som-gjr-inngrep-i-opphavsrett-mm">§ 88. Pålegg om å hindre eller vanskeliggjøre tilgang til nettsted der det gjøres tilgjengelig materiale som gjør inngrep i opphavsrett m.m.</a></li>
+<li class="lvl5"><a href="#89-begjringen">§ 89. Begjæringen</a></li>
+<li class="lvl5"><a href="#90-behandling-av-begjringen">§ 90. Behandling av begjæringen</a></li>
+<li class="lvl5"><a href="#91-rettens-avgjrelse">§ 91. Rettens avgjørelse</a></li>
+<li class="lvl5"><a href="#92-etterflgende-forhandlinger">§ 92. Etterfølgende forhandlinger</a></li>
+<li class="lvl5"><a href="#93-gjennomfring-av-palegg">§ 93. Gjennomføring av pålegg</a></li>
+<li class="lvl5"><a href="#94-opphevelse-av-palegg">§ 94. Opphevelse av pålegg</a></li>
+<li class="lvl5"><a href="#95-bortfall-av-palegg">§ 95. Bortfall av pålegg</a></li>
+<li class="lvl5"><a href="#96-sakskostnader">§ 96. Sakskostnader</a></li>
+<li class="lvl5"><a href="#97-erstatning-ved-opphevelse-og-bortfall-av-palegg">§ 97. Erstatning ved opphevelse og bortfall av pålegg</a></li>
+<li class="lvl5"><a href="#98-forholdet-til-tvisteloven">§ 98. Forholdet til tvisteloven</a></li>
+<li class="lvl2"><a href="#kapittel-7-bestemmelser-til-vern-for-tekniske-beskyttelsessystemer-og-elektronisk-rettighetsinformasjon">Kapittel 7 Bestemmelser til vern for tekniske beskyttelsessystemer og elektronisk rettighetsinformasjon</a></li>
+<li class="lvl4"><a href="#99-forbud-mot-omgaelse-mv-av-effektive-tekniske-beskyttelsessystemer">§ 99. Forbud mot omgåelse mv. av effektive tekniske beskyttelsessystemer</a></li>
+<li class="lvl4"><a href="#100-adgangen-til-bruk-av-verk-nar-effektive-tekniske-beskyttelsessystemer-er-anvendt">§ 100. Adgangen til bruk av verk når effektive tekniske beskyttelsessystemer er anvendt</a></li>
+<li class="lvl4"><a href="#101-tekniske-innretninger-til-beskyttelse-av-et-datamaskinprogram">§ 101. Tekniske innretninger til beskyttelse av et datamaskinprogram</a></li>
+<li class="lvl4"><a href="#102-forbud-mot-fjerning-eller-endring-av-elektronisk-rettighetsinformasjon">§ 102. Forbud mot fjerning eller endring av elektronisk rettighetsinformasjon</a></li>
+<li class="lvl4"><a href="#103-arbeider-vernet-etter-kapittel-2">§ 103. Arbeider vernet etter kapittel 2</a></li>
+<li class="lvl2"><a href="#kapittel-8-forskjellige-bestemmelser">Kapittel 8 Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#104-retten-til-eget-bilde">§ 104. Retten til eget bilde</a></li>
+<li class="lvl4"><a href="#105-bestilte-portretter">§ 105. Bestilte portretter</a></li>
+<li class="lvl4"><a href="#106-forbud-mot-a-bruke-tittel-mv-som-kan-forveksles-med-annet-andsverk">§ 106. Forbud mot å bruke tittel mv. som kan forveksles med annet åndsverk</a></li>
+<li class="lvl4"><a href="#107-forbud-mot-bruk-av-opphaverens-navn-og-merke">§ 107. Forbud mot bruk av opphaverens navn og merke</a></li>
+<li class="lvl4"><a href="#108-forbud-mot-a-tilgjengeliggjre-andsverk-pa-en-krenkende-mate">§ 108. Forbud mot å tilgjengeliggjøre åndsverk på en krenkende måte</a></li>
+<li class="lvl4"><a href="#109-plikt-til-a-varsle-opphaveren-fr-deleggelse-av-andsverk">§ 109. Plikt til å varsle opphaveren før ødeleggelse av åndsverk</a></li>
+<li class="lvl4"><a href="#110-opphaverens-rett-til-a-fa-adgang-til-andsverk-i-andres-besittelse">§ 110. Opphaverens rett til å få adgang til åndsverk i andres besittelse</a></li>
+<li class="lvl4"><a href="#111-forholdet-til-tjenesteloven">§ 111. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#112-bestemmelser-om-trykte-verk-mv">§ 112. Bestemmelser om trykte verk mv.</a></li>
+<li class="lvl4"><a href="#112-a-portabilitet-av-nettbaserte-innholdstjenester">§ 112 a. Portabilitet av nettbaserte innholdstjenester</a></li>
+<li class="lvl2"><a href="#kapittel-9-lovens-rekkevidde">Kapittel 9 Lovens rekkevidde</a></li>
+<li class="lvl4"><a href="#113-lovens-rekkevidde-for-opphavsrett-til-andsverk">§ 113. Lovens rekkevidde for opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#114-lovens-rekkevidde-for-nrstaende-rettigheter">§ 114. Lovens rekkevidde for nærstående rettigheter</a></li>
+<li class="lvl4"><a href="#115-lovens-anvendelse-for-satellittkringkasting">§ 115. Lovens anvendelse for satellittkringkasting</a></li>
+<li class="lvl4"><a href="#116-forskriftshjemmel-for-a-kunne-gi-loven-anvendelse-for-andre-andsverk">§ 116. Forskriftshjemmel for å kunne gi loven anvendelse for andre åndsverk</a></li>
+<li class="lvl4"><a href="#117-lovens-anvendelse-for-eksisterende-andsverk">§ 117. Lovens anvendelse for eksisterende åndsverk</a></li>
+<li class="lvl2"><a href="#kapittel-10-sluttbestemmelser">Kapittel 10 Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#118-ikrafttredelses-og-overgangsregler">§ 118. Ikrafttredelses- og overgangsregler</a></li>
+<li class="lvl4"><a href="#119-endringer-i-andre-lover">§ 119. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-12-13-76.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-15-40.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om opphavsrett til åndsverk mv. (åndsverkloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-06-15-40.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2018-06-15-40 <code>lov/2018-06-15-40</code></td></tr>
+<tr><th>Korttittel</th><td>Åndsverkloven</td></tr>
+<tr><th>Departement</th><td>Kultur- og likestillingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Immaterialrett &raquo; Opphavsrett</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2018</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-12-13-76 <code>lov/2024-12-13-76</code> fra 01.01.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2018-06-15-40" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-grunnleggende-bestemmelser-om-opphavsrett-til-andsverk">Kapittel 1 Grunnleggende bestemmelser om opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#1-lovens-formal">§ 1. Lovens formål</a></li>
+<li class="lvl4"><a href="#2-opphavsrett-til-andsverk">§ 2. Opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#3-opphavsrettens-innhold">§ 3. Opphavsrettens innhold</a></li>
+<li class="lvl4"><a href="#4-visse-midlertidige-eksemplar">§ 4. Visse midlertidige eksemplar</a></li>
+<li class="lvl4"><a href="#5-rett-til-navngivelse-og-vern-mot-krenkende-bruk-ideelle-rettigheter">§ 5. Rett til navngivelse og vern mot krenkende bruk (ideelle rettigheter)</a></li>
+<li class="lvl4"><a href="#6-bearbeidelser-mv">§ 6. Bearbeidelser mv.</a></li>
+<li class="lvl4"><a href="#7-samleverk">§ 7. Samleverk</a></li>
+<li class="lvl4"><a href="#8-fellesverk">§ 8. Fellesverk</a></li>
+<li class="lvl4"><a href="#9-ukjent-opphaver">§ 9. Ukjent opphaver</a></li>
+<li class="lvl4"><a href="#10-offentliggjring-og-utgivelse">§ 10. Offentliggjøring og utgivelse</a></li>
+<li class="lvl4"><a href="#11-opphavsrettens-vernetid">§ 11. Opphavsrettens vernetid</a></li>
+<li class="lvl4"><a href="#12-vernetid-for-anonyme-andsverk">§ 12. Vernetid for anonyme åndsverk</a></li>
+<li class="lvl4"><a href="#13-vernetid-for-verk-som-tidligere-ikke-er-offentliggjort">§ 13. Vernetid for verk som tidligere ikke er offentliggjort</a></li>
+<li class="lvl4"><a href="#14-andsverk-som-ikke-har-opphavsrettslig-vern">§ 14. Åndsverk som ikke har opphavsrettslig vern</a></li>
+<li class="lvl4"><a href="#15-forholdet-til-vern-etter-annen-lovgivning">§ 15. Forholdet til vern etter annen lovgivning</a></li>
+<li class="lvl2"><a href="#kapittel-2-rettigheter-til-utvende-kunstnere-og-produsenter-mfl-nrstaende-rettigheter">Kapittel 2 Rettigheter til utøvende kunstnere og produsenter mfl. (nærstående rettigheter)</a></li>
+<li class="lvl4"><a href="#16-utvende-kunstneres-enerett">§ 16. Utøvende kunstneres enerett</a></li>
+<li class="lvl4"><a href="#17-heving-av-avtale-om-rettigheter-til-lydopptak">§ 17. Heving av avtale om rettigheter til lydopptak</a></li>
+<li class="lvl4"><a href="#18-utvende-kunstners-rett-til-tilleggsvederlag">§ 18. Utøvende kunstners rett til tilleggsvederlag</a></li>
+<li class="lvl4"><a href="#19-avtale-om-lpende-vederlag">§ 19. Avtale om løpende vederlag</a></li>
+<li class="lvl4"><a href="#20-produsenters-enerett">§ 20. Produsenters enerett</a></li>
+<li class="lvl4"><a href="#21-vederlag-for-offentlig-fremfring-og-overfring-til-allmennheten-av-lydopptak">§ 21. Vederlag for offentlig fremføring og overføring til allmennheten av lydopptak</a></li>
+<li class="lvl4"><a href="#22-kringkastingsforetaks-rettigheter">§ 22. Kringkastingsforetaks rettigheter</a></li>
+<li class="lvl4"><a href="#23-eneretten-til-fotografiske-bilder">§ 23. Eneretten til fotografiske bilder</a></li>
+<li class="lvl4"><a href="#24-eneretten-til-databaser">§ 24. Eneretten til databaser</a></li>
+<li class="lvl2"><a href="#kapittel-3-avgrensning-av-opphavsretten-og-forvaltning-av-rettigheter-ved-avtalelisens-mv">Kapittel 3 Avgrensning av opphavsretten og forvaltning av rettigheter ved avtalelisens mv.</a></li>
+<li class="lvl3"><a href="#i-generelle-bestemmelser">I Generelle bestemmelser</a></li>
+<li class="lvl5"><a href="#25-alminnelige-bestemmelser-om-bruk-av-andsverk-etter-dette-kapitlet">§ 25. Alminnelige bestemmelser om bruk av åndsverk etter dette kapitlet</a></li>
+<li class="lvl5"><a href="#26-kopiering-til-privat-bruk">§ 26. Kopiering til privat bruk</a></li>
+<li class="lvl5"><a href="#27-spredning-av-eksemplar-konsumpsjon">§ 27. Spredning av eksemplar (konsumpsjon)</a></li>
+<li class="lvl5"><a href="#28-visning-av-eksemplar-konsumpsjon">§ 28. Visning av eksemplar (konsumpsjon)</a></li>
+<li class="lvl5"><a href="#29-sitat">§ 29. Sitat</a></li>
+<li class="lvl5"><a href="#30-tilfeldig-eller-underordnet-medtakelse-av-et-verk">§ 30. Tilfeldig eller underordnet medtakelse av et verk</a></li>
+<li class="lvl5"><a href="#31-gjengivelse-av-verk-plassert-i-det-offentlige-rom">§ 31. Gjengivelse av verk plassert i det offentlige rom</a></li>
+<li class="lvl5"><a href="#32-offentlige-forhandlinger-mv">§ 32. Offentlige forhandlinger mv.</a></li>
+<li class="lvl5"><a href="#33-dokumentinnsyn-mv">§ 33. Dokumentinnsyn mv.</a></li>
+<li class="lvl5"><a href="#34-begrensninger-i-videre-bruk-av-dokumenter-og-adgang-til-sitat-fra-ikke-offentliggjorte-dokumenter">§ 34. Begrensninger i videre bruk av dokumenter og adgang til sitat fra ikke-offentliggjorte dokumenter</a></li>
+<li class="lvl5"><a href="#35-offentlig-gjengivelse-av-debattprogram">§ 35. Offentlig gjengivelse av debattprogram</a></li>
+<li class="lvl5"><a href="#36-gjengivelse-av-verk-ved-medias-omtale-av-dagshending">§ 36. Gjengivelse av verk ved medias omtale av dagshending</a></li>
+<li class="lvl5"><a href="#37-gjengivelse-av-kunstverk-og-fotografiske-verk-i-kritisk-og-vitenskapelig-fremstilling-og-biografier">§ 37. Gjengivelse av kunstverk og fotografiske verk i kritisk og vitenskapelig fremstilling og biografier</a></li>
+<li class="lvl5"><a href="#38-gjengivelse-av-kunstverk-og-fotografisk-verk-i-katalog-mv">§ 38. Gjengivelse av kunstverk og fotografisk verk i katalog mv.</a></li>
+<li class="lvl5"><a href="#39-endring-av-byggverk-og-bruksgjenstander">§ 39. Endring av byggverk og bruksgjenstander</a></li>
+<li class="lvl5"><a href="#40-fri-bruk-ved-seremonier-ungdomsstevner-og-andre-tilstelninger">§ 40. Fri bruk ved seremonier, ungdomsstevner og andre tilstelninger</a></li>
+<li class="lvl3"><a href="#ii-bruk-av-datamaskinprogram-og-databaser">II Bruk av datamaskinprogram og databaser</a></li>
+<li class="lvl5"><a href="#41-rett-til-endringer-i-datamaskinprogram-og-databaser">§ 41. Rett til endringer i datamaskinprogram og databaser</a></li>
+<li class="lvl5"><a href="#42-omvendt-utvikling-av-datamaskinprogram">§ 42. Omvendt utvikling av datamaskinprogram</a></li>
+<li class="lvl3"><a href="#iii-bruk-av-verk-i-undervisningsvirksomhet">III Bruk av verk i undervisningsvirksomhet</a></li>
+<li class="lvl5"><a href="#43-fri-bruk-av-verk-ved-undervisningsvirksomhet">§ 43. Fri bruk av verk ved undervisningsvirksomhet</a></li>
+<li class="lvl5"><a href="#44-tvangslisens-for-samleverk-til-bruk-i-undervisning-mv">§ 44. Tvangslisens for samleverk til bruk i undervisning mv.</a></li>
+<li class="lvl5"><a href="#45-tvangslisens-for-bruk-av-verk-ved-offentlig-eksamen">§ 45. Tvangslisens for bruk av verk ved offentlig eksamen</a></li>
+<li class="lvl5"><a href="#46-avtalelisens-for-bruk-av-verk-i-undervisningsvirksomhet">§ 46. Avtalelisens for bruk av verk i undervisningsvirksomhet</a></li>
+<li class="lvl3"><a href="#iv-bruk-av-verk-i-virksomheter-arkiv-bibliotek-museer-mv">IV Bruk av verk i virksomheter, arkiv, bibliotek, museer mv.</a></li>
+<li class="lvl5"><a href="#47-avtalelisens-for-bruk-av-verk-i-institusjoner-ervervsvirksomheter-mv">§ 47. Avtalelisens for bruk av verk i institusjoner, ervervsvirksomheter mv.</a></li>
+<li class="lvl5"><a href="#48-opptak-for-bruk-i-visse-dgninstitusjoner">§ 48. Opptak for bruk i visse døgninstitusjoner</a></li>
+<li class="lvl5"><a href="#49-bruk-av-verk-i-arkiv-bibliotek-museer-mv">§ 49. Bruk av verk i arkiv, bibliotek, museer mv.</a></li>
+<li class="lvl5"><a href="#50-avtalelisens-for-bruk-av-verk-i-arkiv-bibliotek-og-museer">§ 50. Avtalelisens for bruk av verk i arkiv, bibliotek og museer</a></li>
+<li class="lvl3"><a href="#v-bruk-av-hitteverk-i-kulturarvinstitusjoner-mv">V Bruk av hitteverk i kulturarvinstitusjoner mv.</a></li>
+<li class="lvl5"><a href="#51-kulturarvinstitusjoner-som-er-omfattet-av-reglene-om-hitteverk">§ 51. Kulturarvinstitusjoner som er omfattet av reglene om hitteverk</a></li>
+<li class="lvl5"><a href="#52-definisjon-av-hitteverk">§ 52. Definisjon av hitteverk</a></li>
+<li class="lvl5"><a href="#53-bruk-av-hitteverk">§ 53. Bruk av hitteverk</a></li>
+<li class="lvl5"><a href="#54-omfattende-sk-etter-rettighetshavere-mv">§ 54. Omfattende søk etter rettighetshavere mv.</a></li>
+<li class="lvl3"><a href="#vi-bruk-av-verk-for-personer-med-nedsatt-funksjonsevne">VI Bruk av verk for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#55-fri-bruk-for-personer-med-nedsatt-funksjonsevne">§ 55. Fri bruk for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#56-tvangslisens-for-fremstilling-og-bruk-av-opptak-for-personer-med-nedsatt-funksjonsevne">§ 56. Tvangslisens for fremstilling og bruk av opptak for personer med nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#56-a-nrmere-regler-for-gjennomfring-av-marrakechtraktaten-og-marrakechdirektivet">§ 56 a. Nærmere regler for gjennomføring av Marrakechtraktaten og Marrakechdirektivet</a></li>
+<li class="lvl3"><a href="#vii-bruk-av-verk-pa-det-audiovisuelle-omradet-mv">VII Bruk av verk på det audiovisuelle området mv.</a></li>
+<li class="lvl5"><a href="#57-avtalelisens-for-tilgjengeliggjring-av-audiovisuelle-produksjoner-mv">§ 57. Avtalelisens for tilgjengeliggjøring av audiovisuelle produksjoner mv.</a></li>
+<li class="lvl5"><a href="#58-midlertidige-efemre-opptak">§ 58. Midlertidige (efemære) opptak</a></li>
+<li class="lvl3"><a href="#viii-flgerett-ved-videresalg-av-kunstverk1">VIII Følgerett ved videresalg av kunstverk1</a></li>
+<li class="lvl5"><a href="#59-flgerett-ved-videresalg-av-kunstverk">§ 59. Følgerett ved videresalg av kunstverk</a></li>
+<li class="lvl5"><a href="#60-beregning-og-innkreving-av-flgerettsvederlaget">§ 60. Beregning og innkreving av følgerettsvederlaget</a></li>
+<li class="lvl5"><a href="#61-ufravikelighet-og-opplysningsplikt-mv-ved-flgerett">§ 61. Ufravikelighet og opplysningsplikt mv. ved følgerett</a></li>
+<li class="lvl3"><a href="#ix-felles-bestemmelser-om-tvangslisens-avtalelisens-nemnd-mv">IX Felles bestemmelser om tvangslisens, avtalelisens, nemnd mv.</a></li>
+<li class="lvl5"><a href="#62-tvistelsning-for-bruk-av-verk-ved-tvangslisens">§ 62. Tvisteløsning for bruk av verk ved tvangslisens</a></li>
+<li class="lvl5"><a href="#63-vilkar-for-bruk-av-verk-ved-avtalelisens">§ 63. Vilkår for bruk av verk ved avtalelisens</a></li>
+<li class="lvl5"><a href="#64-vederlag-for-bruk-av-verk-ved-avtalelisens">§ 64. Vederlag for bruk av verk ved avtalelisens</a></li>
+<li class="lvl5"><a href="#65-tvistelsning-ved-avtalelisens">§ 65. Tvisteløsning ved avtalelisens</a></li>
+<li class="lvl5"><a href="#66-organisasjoners-sksmalsrett">§ 66. Organisasjoners søksmålsrett</a></li>
+<li class="lvl2"><a href="#kapittel-4-opphavsrettens-overgang-mv">Kapittel 4 Opphavsrettens overgang mv.</a></li>
+<li class="lvl4"><a href="#67-alminnelige-bestemmelser-om-overdragelse">§ 67. Alminnelige bestemmelser om overdragelse</a></li>
+<li class="lvl4"><a href="#68-endringer-og-videreoverdragelse">§ 68. Endringer og videreoverdragelse</a></li>
+<li class="lvl4"><a href="#69-rett-til-rimelig-vederlag-ved-overdragelse-av-opphavsrett">§ 69. Rett til rimelig vederlag ved overdragelse av opphavsrett</a></li>
+<li class="lvl4"><a href="#70-avregning-og-kontroll">§ 70. Avregning og kontroll</a></li>
+<li class="lvl4"><a href="#71-datamaskinprogram-skapt-i-arbeidsforhold">§ 71. Datamaskinprogram skapt i arbeidsforhold</a></li>
+<li class="lvl4"><a href="#72-avtaler-om-innspilling-av-filmverk">§ 72. Avtaler om innspilling av filmverk</a></li>
+<li class="lvl4"><a href="#73-avtaler-om-fremfring-og-overfring">§ 73. Avtaler om fremføring og overføring</a></li>
+<li class="lvl4"><a href="#74-forlagsavtaler">§ 74. Forlagsavtaler</a></li>
+<li class="lvl4"><a href="#75-arv">§ 75. Arv</a></li>
+<li class="lvl4"><a href="#76-opphavsretten-og-formuesforholdet-mellom-ektefeller">§ 76. Opphavsretten og formuesforholdet mellom ektefeller</a></li>
+<li class="lvl4"><a href="#77-utlegg-og-annen-tvangsforflgning">§ 77. Utlegg og annen tvangsforfølgning</a></li>
+<li class="lvl2"><a href="#kapittel-5-straff-og-erstatning-mv">Kapittel 5 Straff og erstatning mv.</a></li>
+<li class="lvl4"><a href="#78-forbud-mot-inngrep-og-andre-overtredelser">§ 78. Forbud mot inngrep og andre overtredelser</a></li>
+<li class="lvl4"><a href="#79-straff">§ 79. Straff</a></li>
+<li class="lvl4"><a href="#80-straff-for-grovt-inngrep">§ 80. Straff for grovt inngrep</a></li>
+<li class="lvl4"><a href="#81-vederlag-og-erstatning">§ 81. Vederlag og erstatning</a></li>
+<li class="lvl4"><a href="#82-tiltak-for-a-hindre-inngrep-og-andre-overtredelser">§ 82. Tiltak for å hindre inngrep og andre overtredelser</a></li>
+<li class="lvl4"><a href="#83-tillatelse-til-bruk">§ 83. Tillatelse til bruk</a></li>
+<li class="lvl4"><a href="#84-formidling-av-informasjon-om-dom-i-sak-om-inngrep-og-overtredelse">§ 84. Formidling av informasjon om dom i sak om inngrep og overtredelse</a></li>
+<li class="lvl4"><a href="#85-tvungent-verneting">§ 85. Tvungent verneting</a></li>
+<li class="lvl2"><a href="#kapittel-6-srskilte-tiltak-ved-inngrep-i-opphavsrett-mm-pa-internett">Kapittel 6 Særskilte tiltak ved inngrep i opphavsrett m.m. på Internett</a></li>
+<li class="lvl3"><a href="#i-behandling-av-personopplysninger-og-tilgang-til-abonnementsopplysninger">I Behandling av personopplysninger og tilgang til abonnementsopplysninger</a></li>
+<li class="lvl5"><a href="#86-opphevet">§ 86. (Opphevet)</a></li>
+<li class="lvl5"><a href="#87-tilgang-til-opplysninger-som-identifiserer-innehaver-av-abonnement-brukt-ved-opphavsrettsinngrep-mm">§ 87. Tilgang til opplysninger som identifiserer innehaver av abonnement brukt ved opphavsrettsinngrep m.m.</a></li>
+<li class="lvl3"><a href="#ii-tiltak-rettet-mot-nettsted1">II Tiltak rettet mot nettsted1</a></li>
+<li class="lvl5"><a href="#88-palegg-om-a-hindre-eller-vanskeliggjre-tilgang-til-nettsted-der-det-gjres-tilgjengelig-materiale-som-gjr-inngrep-i-opphavsrett-mm">§ 88. Pålegg om å hindre eller vanskeliggjøre tilgang til nettsted der det gjøres tilgjengelig materiale som gjør inngrep i opphavsrett m.m.</a></li>
+<li class="lvl5"><a href="#89-begjringen">§ 89. Begjæringen</a></li>
+<li class="lvl5"><a href="#90-behandling-av-begjringen">§ 90. Behandling av begjæringen</a></li>
+<li class="lvl5"><a href="#91-rettens-avgjrelse">§ 91. Rettens avgjørelse</a></li>
+<li class="lvl5"><a href="#92-etterflgende-forhandlinger">§ 92. Etterfølgende forhandlinger</a></li>
+<li class="lvl5"><a href="#93-gjennomfring-av-palegg">§ 93. Gjennomføring av pålegg</a></li>
+<li class="lvl5"><a href="#94-opphevelse-av-palegg">§ 94. Opphevelse av pålegg</a></li>
+<li class="lvl5"><a href="#95-bortfall-av-palegg">§ 95. Bortfall av pålegg</a></li>
+<li class="lvl5"><a href="#96-sakskostnader">§ 96. Sakskostnader</a></li>
+<li class="lvl5"><a href="#97-erstatning-ved-opphevelse-og-bortfall-av-palegg">§ 97. Erstatning ved opphevelse og bortfall av pålegg</a></li>
+<li class="lvl5"><a href="#98-forholdet-til-tvisteloven">§ 98. Forholdet til tvisteloven</a></li>
+<li class="lvl2"><a href="#kapittel-7-bestemmelser-til-vern-for-tekniske-beskyttelsessystemer-og-elektronisk-rettighetsinformasjon">Kapittel 7 Bestemmelser til vern for tekniske beskyttelsessystemer og elektronisk rettighetsinformasjon</a></li>
+<li class="lvl4"><a href="#99-forbud-mot-omgaelse-mv-av-effektive-tekniske-beskyttelsessystemer">§ 99. Forbud mot omgåelse mv. av effektive tekniske beskyttelsessystemer</a></li>
+<li class="lvl4"><a href="#100-adgangen-til-bruk-av-verk-nar-effektive-tekniske-beskyttelsessystemer-er-anvendt">§ 100. Adgangen til bruk av verk når effektive tekniske beskyttelsessystemer er anvendt</a></li>
+<li class="lvl4"><a href="#101-tekniske-innretninger-til-beskyttelse-av-et-datamaskinprogram">§ 101. Tekniske innretninger til beskyttelse av et datamaskinprogram</a></li>
+<li class="lvl4"><a href="#102-forbud-mot-fjerning-eller-endring-av-elektronisk-rettighetsinformasjon">§ 102. Forbud mot fjerning eller endring av elektronisk rettighetsinformasjon</a></li>
+<li class="lvl4"><a href="#103-arbeider-vernet-etter-kapittel-2">§ 103. Arbeider vernet etter kapittel 2</a></li>
+<li class="lvl2"><a href="#kapittel-8-forskjellige-bestemmelser">Kapittel 8 Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#104-retten-til-eget-bilde">§ 104. Retten til eget bilde</a></li>
+<li class="lvl4"><a href="#105-bestilte-portretter">§ 105. Bestilte portretter</a></li>
+<li class="lvl4"><a href="#106-forbud-mot-a-bruke-tittel-mv-som-kan-forveksles-med-annet-andsverk">§ 106. Forbud mot å bruke tittel mv. som kan forveksles med annet åndsverk</a></li>
+<li class="lvl4"><a href="#107-forbud-mot-bruk-av-opphaverens-navn-og-merke">§ 107. Forbud mot bruk av opphaverens navn og merke</a></li>
+<li class="lvl4"><a href="#108-forbud-mot-a-tilgjengeliggjre-andsverk-pa-en-krenkende-mate">§ 108. Forbud mot å tilgjengeliggjøre åndsverk på en krenkende måte</a></li>
+<li class="lvl4"><a href="#109-plikt-til-a-varsle-opphaveren-fr-deleggelse-av-andsverk">§ 109. Plikt til å varsle opphaveren før ødeleggelse av åndsverk</a></li>
+<li class="lvl4"><a href="#110-opphaverens-rett-til-a-fa-adgang-til-andsverk-i-andres-besittelse">§ 110. Opphaverens rett til å få adgang til åndsverk i andres besittelse</a></li>
+<li class="lvl4"><a href="#111-forholdet-til-tjenesteloven">§ 111. Forholdet til tjenesteloven</a></li>
+<li class="lvl4"><a href="#112-bestemmelser-om-trykte-verk-mv">§ 112. Bestemmelser om trykte verk mv.</a></li>
+<li class="lvl4"><a href="#112-a-portabilitet-av-nettbaserte-innholdstjenester">§ 112 a. Portabilitet av nettbaserte innholdstjenester</a></li>
+<li class="lvl2"><a href="#kapittel-9-lovens-rekkevidde">Kapittel 9 Lovens rekkevidde</a></li>
+<li class="lvl4"><a href="#113-lovens-rekkevidde-for-opphavsrett-til-andsverk">§ 113. Lovens rekkevidde for opphavsrett til åndsverk</a></li>
+<li class="lvl4"><a href="#114-lovens-rekkevidde-for-nrstaende-rettigheter">§ 114. Lovens rekkevidde for nærstående rettigheter</a></li>
+<li class="lvl4"><a href="#115-lovens-anvendelse-for-satellittkringkasting">§ 115. Lovens anvendelse for satellittkringkasting</a></li>
+<li class="lvl4"><a href="#116-forskriftshjemmel-for-a-kunne-gi-loven-anvendelse-for-andre-andsverk">§ 116. Forskriftshjemmel for å kunne gi loven anvendelse for andre åndsverk</a></li>
+<li class="lvl4"><a href="#117-lovens-anvendelse-for-eksisterende-andsverk">§ 117. Lovens anvendelse for eksisterende åndsverk</a></li>
+<li class="lvl2"><a href="#kapittel-10-sluttbestemmelser">Kapittel 10 Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#118-ikrafttredelses-og-overgangsregler">§ 118. Ikrafttredelses- og overgangsregler</a></li>
+<li class="lvl4"><a href="#119-endringer-i-andre-lover">§ 119. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-15-40.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2018-06-15-40.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2018-06-15-40.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2018-06-15-40.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2018-06-15-40.html">Observerte kildeutgaver</a> · <a href="../historie/åndsverkloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2018-06-15-40.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2018-06-15-40.html">Observerte kildeutgaver</a> · <a href="../historie/åndsverkloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2018-06-15-40.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-opphavsrett-til-andsverk-mv-andsverkloven">Lov om opphavsrett til åndsverk mv. (åndsverkloven)</h1>
 <h2 id="kapittel-1-grunnleggende-bestemmelser-om-opphavsrett-til-andsverk">Kapittel 1 Grunnleggende bestemmelser om opphavsrett til åndsverk</h2>
 <h4 id="1-lovens-formal">§ 1. Lovens formål</h4>
 <p>Formålet med loven er å</p>
@@ -119,8 +448,8 @@ d. verket overføres til allmennheten, i tråd eller trådløst, herunder når v
 b. en overføring i nettverk av et mellomledd på vegne av tredjeparter,</p>
 <p>omfattes slik eksemplarfremstilling ikke av eneretten etter § 3 , med mindre den har selvstendig økonomisk betydning.</p>
 <p>Bestemmelsen i første ledd gjelder ikke for datamaskinprogrammer og databaser. 1</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (1)).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (1)).</p>
 <h4 id="5-rett-til-navngivelse-og-vern-mot-krenkende-bruk-ideelle-rettigheter">§ 5. Rett til navngivelse og vern mot krenkende bruk (ideelle rettigheter)</h4>
 <p>Ved fremstilling av eksemplar av åndsverk og når verket gjøres tilgjengelig for allmennheten, har opphaveren krav på å bli navngitt slik som god skikk tilsier såfremt navngivelse er praktisk mulig.</p>
 <p>Et verk må ikke endres eller gjøres tilgjengelig for allmennheten på en måte eller i en sammenheng som er krenkende for opphaverens eller verkets anseelse eller egenart.</p>
@@ -171,8 +500,8 @@ c. gjøre fremføringen eller opptak av den tilgjengelig for allmennheten. For o
 <p>Når eksemplar av et opptak som gjengir en utøvende kunstners fremføring av et verk eller tradisjonsuttrykk med kunstnerens samtykke er solgt eller på annen måte overdratt innenfor EØS-området, kan eksemplaret spres videre på annen måte enn ved utleie.</p>
 <p>Når ikke annet er avtalt, omfatter en avtale om innspilling på film av en utøvende kunstners fremføring, også retten til å leie ut eksemplar av filmen.</p>
 <p>Bestemmelsene i § 3 første til tredje ledd, §§ 4 , 5 , 8 til 10 , 25 , 26 , 29 , 30 , 33 til 36 , 40 , 43 til 55 , 56 a , 57 , 58 , 62 til 70 og 75 til 77 gjelder tilsvarende.</p>
-<p><em>Endret ved lover 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ), 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 2, 3 og 5), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (1), endret ved direktiv 2011/77/EU art. 1 (2) a) og nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) art. 3 og 5 og kap. 2).</em></p>
+<p class="note">Endret ved lover 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ), 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 2, 3 og 5), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (1), endret ved direktiv 2011/77/EU art. 1 (2) a) og nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) art. 3 og 5 og kap. 2).</p>
 <h4 id="17-heving-av-avtale-om-rettigheter-til-lydopptak">§ 17. Heving av avtale om rettigheter til lydopptak</h4>
 <p>En utøvende kunstner som har overdratt rettigheter til et lydopptak til en produsent, kan heve avtalen når det er gått 50 år etter utløpet av det året lydopptaket første gang ble utgitt, eller dersom utgivelse ikke har funnet sted, etter utløpet av det året lydopptaket på annen måte ble offentliggjort, hvis produsenten ikke</p>
 <p>a. tilbyr et tilstrekkelig antall eksemplar av lydopptaket for salg, og
@@ -197,8 +526,8 @@ b. stiller lydopptaket til rådighet på en slik måte at allmennheten selv kan 
 <p>Vernet etter denne bestemmelsen varer i 50 år etter utløpet av det året innspillingen fant sted. Dersom en film i løpet av tidsrommet nevnt i første punktum i leddet her, utgis eller offentliggjøres, varer vernet i 50 år etter utløpet av det året opptaket første gang ble utgitt eller offentliggjort. Dersom et lydopptak i løpet av tidsrommet nevnt i første punktum i leddet her utgis, varer vernet i 70 år etter utløpet av det året opptaket første gang ble utgitt. For lydopptak som ikke utgis, men i det samme tidsrommet på annen måte offentliggjøres, varer vernet i 70 år etter utløpet av det året opptaket første gang ble offentliggjort.</p>
 <p>Når eksemplar av et lydopptak eller en film med produsentens samtykke er solgt eller på annen måte overdratt innenfor EØS-området, kan eksemplaret spres videre på annen måte enn ved utleie.</p>
 <p>Bestemmelsene i § 3 første til tredje ledd, §§ 4 , 9 , 10 , 26 , 29 , 30 , 33 til 36 , 40 , 43 til 55 , 56 a , 57 , 58 og 62 til 66 gjelder tilsvarende.</p>
-<p><em>Endret ved lover 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ), 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 Se EØS-avtalens vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsretsdirektivet) art. 2, 3 og 5), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (2) og (3), endret ved direktiv 2011/77/EU art. 1 (2) b) og nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) kap. 2).</em></p>
+<p class="note">Endret ved lover 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ), 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 Se EØS-avtalens vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsretsdirektivet) art. 2, 3 og 5), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (2) og (3), endret ved direktiv 2011/77/EU art. 1 (2) b) og nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) kap. 2).</p>
 <h4 id="21-vederlag-for-offentlig-fremfring-og-overfring-til-allmennheten-av-lydopptak">§ 21. Vederlag for offentlig fremføring og overføring til allmennheten av lydopptak</h4>
 <p>Lydopptak av utøvende kunstneres prestasjoner kan mot vederlag gjøres tilgjengelig for allmennheten ved offentlig fremføring og overføring til allmennheten. Dette gjelder ikke for overføring på en slik måte at den enkelte selv kan velge tid og sted for tilgang til opptaket.</p>
 <p>Både produsenten av opptaket og de utøvende kunstnere hvis fremføring gjengis, har krav på vederlag. Har to eller flere kunstnere samvirket ved fremføringen, må de gjøre vederlagskravet gjeldende i fellesskap. Overfor de vederlagspliktige må vederlagskravet gjøres gjeldende gjennom oppkrevings- og fordelingsorganisasjon som er godkjent av departementet. Departementet kan i forskrift gi nærmere regler om oppkreving og fordeling av vederlag. Vederlagets størrelse skal fastsettes uavhengig av avgiftsplikten etter § 3 i lov 14. desember 1956 nr. 4 om avgift på offentlig framføring av utøvende kunstneres prestasjoner mv .</p>
@@ -206,8 +535,8 @@ b. stiller lydopptaket til rådighet på en slik måte at allmennheten selv kan 
 <p>Bestemmelsene i §§ 5 , 29 , 30 , 36 , 40 og 43 , jf. §§ 25 , og 75 fjerde ledd gjelder tilsvarende.</p>
 <p>Det som er bestemt i denne paragrafen gjelder ikke for lydopptak som inngår i film, dersom den ellers vederlagspliktige bruk av lydopptaket allerede er klarert ved overføringen til filmen. For offentlig fremføring og overføring til allmennheten av lydopptak som ikke er vernet etter denne loven, gjelder lov 14. desember 1956 nr. 4 om avgift på offentlig framføring av utøvende kunstneres prestasjoner mv .</p>
 <p>Vederlagsplikt etter denne paragrafen gjelder i 70 år etter utløpet av det året opptaket første gang ble utgitt eller offentliggjort.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) art. 8 (2)), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (1) og (2), endret ved direktiv 2011/77/EU art. 1 (2) a og b, 8 og 10 med tilføyelsen av art. 10 (5) ved direktiv 2011/77/EU art. 1 (3)).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9g (direktiv 2006/115/EF (utleie- og utlånsdirektivet) art. 8 (2)), nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (1) og (2), endret ved direktiv 2011/77/EU art. 1 (2) a og b, 8 og 10 med tilføyelsen av art. 10 (5) ved direktiv 2011/77/EU art. 1 (3)).</p>
 <h4 id="22-kringkastingsforetaks-rettigheter">§ 22. Kringkastingsforetaks rettigheter</h4>
 <p>En kringkastingssending eller deler av den må ikke uten kringkastingsforetakets samtykke</p>
 <p>a. opptas på innretning som kan gjengi den
@@ -217,8 +546,8 @@ c. på annen måte i ervervsøyemed gjøres tilgjengelig for allmennheten.</p>
 <p>Departementet kan i forskrift fastsette vilkår for overføring av kringkastingssending direkte innen en bedrift eller annen virksomhet gjennom radio- eller fjernsynsmottaker.</p>
 <p>Uten hinder av denne bestemmelsen kan et fjernsynsselskap som er etablert innenfor EØS-området, i sine generelle nyhetssendinger vederlagsfritt sende korte utdrag fra begivenheter av stor interesse for allmennheten, som et annet fjernsynsselskap har eksklusive rettigheter til å sende fra. 3 Korte utdrag fra slik begivenhet skal ikke være lengre enn det nyhetsformålet tilsier, og kan uansett ikke overstige 90 sekunder. Utdrag kan bare gjengis så lenge begivenheten har nyhetsinteresse. Utdragets kilde skal angis med mindre det av praktiske grunner er umulig, og den opprinnelige sendingens karakter må ikke forandres eller forringes. Etter at fjernsynsselskapet har sendt utdrag i kringkastingssending, kan selskapet gjøre den samme nyhetssendingen som utdraget inngår i, tilgjengelig som audiovisuell bestillingstjeneste.</p>
 <p>Bestemmelsene i §§ 4 , 9 , 10 , 26 , 29 , 30 , 33 til 36 , § 40 første ledd bokstav a, §§ 43 til 45 , 48 , 49 , 54 , 55 , 56 a , 58 , 62 og § 65 første til tredje ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (4)). 2 Se EØS-avtalens vedlegg XVII nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (4), 8 og 10). 3 Se EØS-avtalen vedlegg XI nr. 5p (direktiv 2010/13/EU (AMT-direktivet) art. 15).</em></p>
+<p class="note">Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (4)). 2 Se EØS-avtalens vedlegg XVII nr. 9f (direktiv 2006/116/EF (vernetidsdirektivet) art. 3 (4), 8 og 10). 3 Se EØS-avtalen vedlegg XI nr. 5p (direktiv 2010/13/EU (AMT-direktivet) art. 15).</p>
 <h4 id="23-eneretten-til-fotografiske-bilder">§ 23. Eneretten til fotografiske bilder</h4>
 <p>Den som lager et fotografisk bilde, har enerett til å fremstille eksemplar av det, enten det skjer ved fotografering, trykk, tegning eller på annen måte, og gjøre det tilgjengelig for allmennheten. Med fotografisk bilde menes bilde som er frembrakt ved bruk av kamera eller ved annen teknikk som kan likestilles med fotografering.</p>
 <p>Eneretten til et fotografisk bilde varer i fotografens levetid og 15 år etter utløpet av fotografens dødsår, men likevel minst 50 år fra utløpet av det året bildet ble laget. Har to eller flere eneretten sammen, løper vernetiden fra utløpet av dødsåret for den lengstlevende.</p>
@@ -276,8 +605,8 @@ d. kunstnerisk gjengivelse av andre kunstverk.</p>
 <h5 id="33-dokumentinnsyn-mv">§ 33. Dokumentinnsyn mv.</h5>
 <p>Vern etter denne loven er ikke til hinder for dokumentinnsyn etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a> og <a href="lov-2006-05-19-16.html">offentleglova</a> eller annen lovgivning.</p>
 <p>Loven er heller ikke til hinder for at verk brukes i forbindelse med politiets kriminalitetsbekjempelse, som bevis, eller ved saksbehandling etter <a href="lov-1967-12-15-9.html">patentloven</a> , <a href="lov-2003-03-14-15.html">designloven</a> og <a href="lov-2010-03-26-8.html">varemerkeloven</a> , eller for at verk tilgjengeliggjøres og brukes i henhold til <a href="lov-2008-06-27-71.html">plan- og bygningsloven</a> § 2-4 .</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 52 (i kraft 1 jan 2025 iflg. res. 6 des 2024 nr. 2937 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (3) e og f).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 52 (i kraft 1 jan 2025 iflg. res. 6 des 2024 nr. 2937 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (3) e og f).</p>
 <h5 id="34-begrensninger-i-videre-bruk-av-dokumenter-og-adgang-til-sitat-fra-ikke-offentliggjorte-dokumenter">§ 34. Begrensninger i videre bruk av dokumenter og adgang til sitat fra ikke-offentliggjorte dokumenter</h5>
 <p>Dokumenter som er påberopt som bevis eller som sakkyndig uttalelse eller lignende i forhandlinger som nevnt i § 32 , og dokumenter som det er gitt innsyn i som nevnt i § 33 , kan ikke brukes i strid med denne loven.</p>
 <p>Det kan likevel siteres fra slike dokumenter i samsvar med god skikk og i den utstrekning det er nødvendig for omtale av forhandlingene eller av sak dokumentet er av betydning for, selv om verket ikke har vært offentliggjort.</p>
@@ -403,15 +732,15 @@ d. kjente rettighetshavere navngis.</p>
 <p>Av utgitt litterært verk eller musikkverk kan det i annen form enn lydopptak fremstilles eksemplar til bruk for personer med nedsatt funksjonsevne som ikke kan tilegne seg verket på vanlig måte. For rene lydopptak gjelder bestemmelsene i §§ 56 og 56 a .</p>
 <p>Utgitt litterært verk kan gjengis på film, med eller uten lyd, bestemt til bruk for hørsels- og talehemmede.</p>
 <p>Bestemmelsene i første og andre ledd gjelder ikke for ervervsmessig bruk, 1 og gir heller ikke rett til kopiering av eksemplar som andre har fremstilt etter første ledd.</p>
-<p><em>Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (3) b, jf. art. 2).</em></p>
+<p class="note">Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (3) b, jf. art. 2).</p>
 <h5 id="56-tvangslisens-for-fremstilling-og-bruk-av-opptak-for-personer-med-nedsatt-funksjonsevne">§ 56. Tvangslisens for fremstilling og bruk av opptak for personer med nedsatt funksjonsevne</h5>
 <p>Departementet kan ved enkeltvedtak eller i forskrift bestemme at nærmere angitt organisasjon eller bibliotek for vederlagsfri bruk for personer med nedsatt funksjonsevne skal ha rett til på nærmere fastsatte vilkår å fremstille eksemplar av utgitt litterært verk gjennom opptak på innretning som kan gjengi det. I tilslutning til teksten kan offentliggjort kunstverk og offentliggjort fotografisk verk gjengis på opptaket. Opphaveren har krav på vederlag som utredes av staten. Bestemmelsen gjelder ikke for ervervsmessig bruk. 1</p>
 <p><em>1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 5 (3) b).</em></p>
 <h5 id="56-a-nrmere-regler-for-gjennomfring-av-marrakechtraktaten-og-marrakechdirektivet">§ 56 a. Nærmere regler for gjennomføring av Marrakechtraktaten og Marrakechdirektivet</h5>
 <p>Departementet kan i forskrift gi bestemmelser om at nærmere angitt organisasjon kan fremstille, importere og utveksle eksemplar av offentliggjort litterært verk, herunder lydopptak, som er tilrettelagt for bruk for blinde, syns- og lesehemmede, til berettigede enkeltpersoner og til nærmere angitt organisasjon i et annet land, herunder overføring av tilpasset åndsverk slik at den enkelte selv kan velge tid og sted for tilgang til verket.</p>
-<p><em>Tilføyd ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 EØS-avtalen vedlegg XVII nr. 15 (direktiv (EU) 2017/1564 (Marrakechdirektivet)).</em></p>
+<p class="note">Tilføyd ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 EØS-avtalen vedlegg XVII nr. 15 (direktiv (EU) 2017/1564 (Marrakechdirektivet)).</p>
 <h3 id="vii-bruk-av-verk-pa-det-audiovisuelle-omradet-mv">VII Bruk av verk på det audiovisuelle området mv.</h3>
 <h5 id="57-avtalelisens-for-tilgjengeliggjring-av-audiovisuelle-produksjoner-mv">§ 57. Avtalelisens for tilgjengeliggjøring av audiovisuelle produksjoner mv.</h5>
 <p>Offentliggjorte audiovisuelle produksjoner og offentliggjorte verk som inngår i audiovisuelle produksjoner kan gjøres tilgjengelig for allmennheten ved nærmere angitt overføring i tråd eller trådløst når den som foretar tilgjengeliggjøringen oppfyller vilkårene for avtalelisens etter § 63 første ledd. Det kan også fremstilles eksemplar som er nødvendig for slik tilgjengeliggjøring. Slik avtalelisens gjelder ikke for bruk av verk der det er inngått avtale direkte med opphaveren.</p>
@@ -452,8 +781,8 @@ e. 0,25 prosent av den del av salgsprisen som overstiger 500 000 euro.</p>
 <p>For avtalelisens etter første og andre ledd må avtalen inngås av en organisasjon som er godkjent av Patentstyret på grunnlag av at den på området representerer et betydelig antall opphavere til verk som brukes i Norge 2 , og er egnet til å forvalte rettighetene på området. For bruk på nærmere angitte områder kan departementet i forskrift bestemme at den organisasjonen som godkjennes, må være en felles organisasjon for de berørte rettighetshavere. Godkjenning kan trekkes tilbake dersom organisasjonen ikke lenger oppfyller kravene i dette ledd eller andre særlige grunner tilsier det. Organisasjoner som er godkjent, plikter å melde fra til Patentstyret om forhold som kan ha betydning for godkjenningen, slik som endringer med hensyn til organisasjonens representativitet.</p>
 <p>Klagenemnda for mediesaker (Medieklagenemnda) er klageinstans for enkeltvedtak fattet av Patentstyret etter tredje ledd. Søksmål kan bare reises hvis klageretten har blitt brukt og Medieklagenemnda har avgjort klagen. Søksmål rettes mot staten ved Klagenemnda for mediesaker.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om kontroll med organisasjoner og fond som mottar vederlag til videre fordeling.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
-1 Se EØS-avtalen vedlegg XVII nr. 8 ( direktiv 93/83/EØF (satellitt- og kabeldirektivet) art. 10). 2 Se EØS-avtalen art. 4 .</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
+1 Se EØS-avtalen vedlegg XVII nr. 8 ( direktiv 93/83/EØF (satellitt- og kabeldirektivet) art. 10). 2 Se EØS-avtalen art. 4 .</p>
 <h5 id="64-vederlag-for-bruk-av-verk-ved-avtalelisens">§ 64. Vederlag for bruk av verk ved avtalelisens</h5>
 <p>Ved bruk av verk etter § 63 er det som avtalen, Vederlagsnemnda eller organisasjonen som mottar vederlaget for bruken, bestemmer om innkreving og fordeling av vederlaget, bindende også for opphavere som ikke representeres av organisasjonen. Utenforstående opphavere skal ha samme rett som organiserte til å få del i midler og goder som utdeles fra eller som vesentlig er bekostet av vederlaget.</p>
 <p>Uansett bestemmelsen i første ledd kan en utenforstående opphaver som sannsynliggjør at eget verk er brukt etter § 63 , kreve at vederlag for dette skal utbetales til seg. Kravet må fremsettes innen tre år etter utløpet av det året bruken fant sted, og kan bare rettes mot den organisasjonen som i medhold av § 63 har innkrevd vederlag. Vederlagets størrelse kan hver av partene kreve fastsatt etter regler som departementet gir i forskrift.</p>
@@ -485,8 +814,8 @@ e. 0,25 prosent av den del av salgsprisen som overstiger 500 000 euro.</p>
 <p>Opphaveren kan kreve at erververens regnskaper, bokføring og lagerbeholdning, samt attestasjoner fra den som har brukt verket, stilles til rådighet for en av opphaveren oppnevnt statsautorisert eller registrert revisor. Revisoren skal opplyse opphaveren om riktigheten av den avregningen som er foretatt, og om eventuelle uregelmessigheter ved den. For øvrig har revisoren taushetsplikt om alle andre forhold som revisoren blir kjent med ved gjennomgangen.</p>
 <p>Bestemmelsene i denne paragrafen kan ikke fravikes til skade for opphaveren.</p>
 <p>Dersom rettighetene er lisensiert fra en kollektiv forvaltningsorganisasjon, gjelder også rapporteringsplikten etter lov om kollektiv forvaltning av opphavsrett mv. § 31 . 1</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
-1 EØS-avtalen vedlegg XVII nr. 11 (direktiv 2014/26/EU (direktivet om kollektiv rettighetsforvaltning) art. 17).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
+1 EØS-avtalen vedlegg XVII nr. 11 (direktiv 2014/26/EU (direktivet om kollektiv rettighetsforvaltning) art. 17).</p>
 <h4 id="71-datamaskinprogram-skapt-i-arbeidsforhold">§ 71. Datamaskinprogram skapt i arbeidsforhold</h4>
 <p>Opphavsrett til datamaskinprogram som er skapt av en arbeidstaker under utførelsen av oppgaver som omfattes av arbeidsforholdet, eller etter arbeidsgivers anvisninger, går over til arbeidsgiveren. Det samme gjelder adgang til endring av verket og videreoverdragelse av retten. Bestemmelsene i første og andre punktum gjelder ikke rettigheter etter § 5 eller der annet er avtalt.</p>
 <p><em>1 Se EØS-avtalen vedlegg XVII nr. 5 (direktiv 2009/24/EF (dataprogramdirektivet) art. 2 nr. 3).</em></p>
@@ -550,11 +879,11 @@ d. utleveres til rettighetshaveren.</p>
 <p>I dom i sak om inngrep i en annens rett eller andre overtredelser av denne loven kan retten bestemme at informasjon om dommen skal formidles på passende måte for overtrederens regning. Dette gjelder tilsvarende ved medvirkning til overtredelse og i tilfeller som nevnt i § 78 første ledd andre punktum.</p>
 <h4 id="85-tvungent-verneting">§ 85. Tvungent verneting</h4>
 <p>Sivilt søksmål om inngrep i en annens rett eller andre overtredelser av denne loven må reises ved Oslo tingrett. Det samme gjelder søksmål om prøving av avgjørelse om godkjenning etter §§ 18 , 21 , 46 , 60 og 63 .</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).</p>
 <h2 id="kapittel-6-srskilte-tiltak-ved-inngrep-i-opphavsrett-mm-pa-internett">Kapittel 6 Særskilte tiltak ved inngrep i opphavsrett m.m. på Internett</h2>
 <h3 id="i-behandling-av-personopplysninger-og-tilgang-til-abonnementsopplysninger">I Behandling av personopplysninger og tilgang til abonnementsopplysninger</h3>
 <h5 id="86-opphevet">§ 86. (Opphevet)</h5>
-<p><em>Opphevet ved lov 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ).</em></p>
+<p class="note">Opphevet ved lov 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ).</p>
 <h5 id="87-tilgang-til-opplysninger-som-identifiserer-innehaver-av-abonnement-brukt-ved-opphavsrettsinngrep-mm">§ 87. Tilgang til opplysninger som identifiserer innehaver av abonnement brukt ved opphavsrettsinngrep m.m.</h5>
 <p>Hvis det sannsynliggjøres at det er gjort inngrep i rettigheter etter denne loven, kan retten uten hinder av taushetsplikten etter <a href="lov-2024-12-13-76.html">ekomloven</a> § 3-10 , etter begjæring fra rettighetshaveren, pålegge en tilbyder av elektroniske kommunikasjonstjenester å utlevere opplysninger som identifiserer innehaveren av abonnementet som er brukt ved inngrepet.</p>
 <p>Før retten fatter avgjørelse i saken, skal Nasjonal kommunikasjonsmyndighet anmodes om å samtykke til at tilbyderen fritas fra taushetsplikten etter ekomloven § 3-10 . Rettighetshaveren skal sende slik anmodning til myndigheten og legge myndighetens uttalelse frem for retten. Uttalelsen meddeles partene. Myndigheten kan bare nekte samtykke når det kan utsette staten eller allmenne interesser for skade eller virke urimelig overfor den som har krav på hemmelighold.</p>
@@ -562,7 +891,7 @@ d. utleveres til rettighetshaveren.</p>
 <p>Begjæringen om pålegg om utlevering av opplysninger fremsettes i prosesskriv til Oslo tingrett. Bare tilbyderen av elektroniske kommunikasjonstjenester skal angis og behandles som motpart ved slike begjæringer. <a href="lov-2005-06-17-90.html">Tvisteloven</a> § 28-5 første ledd gjelder tilsvarende i sak etter paragrafen her. De øvrige bestemmelsene i tvisteloven kapittel 28 gjelder ikke.</p>
 <p>Opplysningene skal ikke utleveres før avgjørelsen er endelig. Ved utlevering av opplysningene skal tilbyderen samtidig gi melding om utleveringen til retten. Rettighetshaveren skal gi abonnenten melding om utleveringen når det har gått én måned siden opplysningene ble utlevert. Kopi av meldingen sendes samtidig til retten. Dersom særlige grunner tilsier det, kan retten i den enkelte sak fastsette en annen frist for når abonnenten skal gis melding om utleveringen. Allmennheten skal ikke gjøres kjent med saken før tidligst én måned etter at opplysningene er utlevert og abonnenten er underrettet om utleveringen, eller mer enn seks måneder er gått siden saken ble avsluttet.</p>
 <p>For behandling av personopplysninger som mottas i medhold av denne bestemmelsen, gjelder <a href="lov-2018-06-15-38.html">personopplysningsloven</a>.</p>
-<p><em>Endret ved lov 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</em></p>
+<p class="note">Endret ved lov 13 des 2024 nr. 76 (i kraft 1 jan 2025 iflg. res. 13 des 2024 nr. 3095 ).</p>
 <h3 id="ii-tiltak-rettet-mot-nettsted1">II Tiltak rettet mot nettsted1</h3>
 <p>1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 8 (3)).</p>
 <h5 id="88-palegg-om-a-hindre-eller-vanskeliggjre-tilgang-til-nettsted-der-det-gjres-tilgjengelig-materiale-som-gjr-inngrep-i-opphavsrett-mm">§ 88. Pålegg om å hindre eller vanskeliggjøre tilgang til nettsted der det gjøres tilgjengelig materiale som gjør inngrep i opphavsrett m.m.</h5>
@@ -628,8 +957,8 @@ e. tilby tjenester i tilknytning til</p>
 <p>Eksemplar av verk som faller inn under lov 9. juni 1989 nr. 32 om avleveringsplikt for allment tilgjengelege dokument, skal likevel alltid utstyres med nødvendig informasjon til at omgåelse av tekniske beskyttelsessystemer for lovlig eksemplarfremstilling, er mulig.</p>
 <p>Bestemmelsene i denne paragrafen gjelder ikke der vernet verk på avtalte vilkår ved overføring stilles til rådighet for allmennheten på en slik måte at den enkelte selv kan velge tid og sted for tilgang til verket.</p>
 <p>Bestemmelsene i denne paragrafen gjelder ikke for datamaskinprogram. Departementet kan ved enkeltvedtak eller i forskrift fastsette at enkelte arkiv, bibliotek og museer automatisk får avlevert nødvendig informasjon til at omgåelse av tekniske beskyttelsessystemer for lovlig eksemplarfremstilling, skal være mulig.</p>
-<p><em>Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 6).</em></p>
+<p class="note">Endret ved lov 4 juni 2021 nr. 58 (ikr. 1 juli 2021 iflg. res. 4 juni 2021 nr. 1779 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 6).</p>
 <h4 id="101-tekniske-innretninger-til-beskyttelse-av-et-datamaskinprogram">§ 101. Tekniske innretninger til beskyttelse av et datamaskinprogram</h4>
 <p>Det er forbudt å omsette eller i ervervsøyemed besitte et hvilket som helst middel hvis eneste formål er å gjøre det lettere ulovlig å fjerne eller omgå tekniske innretninger til beskyttelse av et datamaskinprogram.</p>
 <p><em>1 Se EØS-avtalen vedlegg XVII nr. 9e (direktiv 2001/29/EF (opphavsrettsdirektivet) art. 7).</em></p>
@@ -673,8 +1002,8 @@ e. bildet brukes som omhandlet i § 33 andre ledd eller § 37 tredje ledd.</p>
 <p>Trykte verk skal være påført ansvarlig utgiver, opplagsnummer og trykkeår. Grafiske verk og trykte gjengivelser av musikkverk skal dessuten være påført fortløpende nummer innen opplaget.</p>
 <h4 id="112-a-portabilitet-av-nettbaserte-innholdstjenester">§ 112 a. Portabilitet av nettbaserte innholdstjenester</h4>
 <p>EØS-avtalen vedlegg XVII punkt 12 (europaparlaments- og rådsforordning (EU) 2017/1128 om grensekryssende portabilitet av nettbaserte innholdstjenester i det indre marked (portabilitetsforordningen)) gjelder som lov med de tilpasninger som følger av vedlegg XVII, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ).
-1 EØS-avtalen vedlegg XVII nr. 12 (forordning (EU) 2017/1128 (portabilitetsforordningen)).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ).
+1 EØS-avtalen vedlegg XVII nr. 12 (forordning (EU) 2017/1128 (portabilitetsforordningen)).</p>
 <h2 id="kapittel-9-lovens-rekkevidde">Kapittel 9 Lovens rekkevidde</h2>
 <h4 id="113-lovens-rekkevidde-for-opphavsrett-til-andsverk">§ 113. Lovens rekkevidde for opphavsrett til åndsverk</h4>
 <p>Lovens bestemmelser om opphavsrett får anvendelse på</p>
@@ -694,8 +1023,8 @@ e. kunstverk og fotografisk verk som er innføyd i bygninger eller faste anlegg 
 b. selskap som har norsk styre og sete her i riket.</p>
 <p>Bestemmelsene i §§ 16 og 22 gjelder også for fremføringer og kringkastingssendinger som finner sted i Norge. Bestemmelsen om spredningsrett i §§ 16 og 20 gjelder for lyd- og filmopptak gjort i Norge. Bestemmelsen i § 20 om rett til eksemplarfremstilling gjelder til fordel for ethvert lyd- og filmopptak. Bestemmelsen i § 24 gjelder for arbeid frembrakt av noen som er statsborger i eller bosatt i eller har sete i et land innenfor EØS-området. 1 Bestemmelsen i § 23 gjelder for fotografiske bilder som første gang er utgitt her i riket eller som er laget av noen som er statsborger i eller bosatt i eller har sete i et land innenfor EØS-området. Det samme gjelder for fotografier innføyd i bygninger eller faste anlegg i et land innenfor nevnte område.</p>
 <p>Bestemmelsene i § 104 gjelder avbildninger av person som er eller har vært bosatt her i riket.</p>
-<p><em>Endret ved lover 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ), 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
-1 Se EØS-avtalen vedlegg XVII nr. 9a (direktiv 96/9/EF (databasedirektivet) art. 11).</em></p>
+<p class="note">Endret ved lover 20 des 2018 nr. 120 (ikr. 1 aug 2019 iflg. res. 21 juni 2019 nr. 807 ), 28 mai 2021 nr. 49 (ikr. 1 juli 2021 iflg. res. 28 mai 2021 nr. 1685 ).
+1 Se EØS-avtalen vedlegg XVII nr. 9a (direktiv 96/9/EF (databasedirektivet) art. 11).</p>
 <h4 id="115-lovens-anvendelse-for-satellittkringkasting">§ 115. Lovens anvendelse for satellittkringkasting</h4>
 <p>Når verk eller prestasjoner kringkastes over satellitt fra et land utenfor EØS-området, kommer loven til anvendelse dersom satellitten mottar signalene fra Norge, eller kringkastingssendingen foretas etter oppdrag fra et kringkastingsforetak som har sitt hovedsete her i riket. Paragrafen her gjelder bare dersom senderlandets regler om retten til kringkasting av verk og prestasjoner ikke gir tilsvarende vern som etter denne lov.</p>
 <p><em>1 Se EØS-avtalen vedlegg XVII nr. 8 (direktiv 93/83/EØF (satellitt- og kabeldirektivet) art. 2 (2), jf. art. 1).</em></p>
@@ -713,10 +1042,12 @@ b. selskap som har norsk styre og sete her i riket.</p>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer.</p>
 <p>Fra samme tid oppheves lov 12. mai 1961 nr. 2 om opphavsrett til åndsverk m.v.</p>
 <p>Loven gjelder ikke handlinger som er utført eller rettigheter som er ervervet før denne loven trer i kraft. Kongen kan gi nærmere overgangsregler.</p>
-<p><em>Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 sep 2021, iflg. res. 26 aug 2021 nr. 2609 ).
-1 Fra 1 juli 2018 iflg. res. 15 juni 2018 nr. 879 .</em></p>
+<p class="note">Endret ved lov 28 mai 2021 nr. 49 (ikr. 1 sep 2021, iflg. res. 26 aug 2021 nr. 2609 ).
+1 Fra 1 juli 2018 iflg. res. 15 juni 2018 nr. 879 .</p>
 <h4 id="119-endringer-i-andre-lover">§ 119. Endringer i andre lover</h4>
 <p><em>– – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

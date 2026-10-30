@@ -19,64 +19,141 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-06-10-636.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i RÅK-tilskuddsforskriften" href="../feeds/forskrift-2009-06-10-636.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>RÅK-tilskuddsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-06-10-636</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-19-2891</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-10-636" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-vilkar-for-prisnedskrivingstilskudd">§ 2. Vilkår for prisnedskrivingstilskudd</a></li>
+<li class="lvl3"><a href="#3-tilskuddsgrunnlag-og-satser">§ 3. Tilskuddsgrunnlag og -satser</a></li>
+<li class="lvl3"><a href="#4-resepter">§ 4. Resepter</a></li>
+<li class="lvl3"><a href="#5-sknad">§ 5. Søknad</a></li>
+<li class="lvl3"><a href="#6-opplysningsplikt-og-kontroll">§ 6. Opplysningsplikt og kontroll</a></li>
+<li class="lvl3"><a href="#7-retting-av-feilutbetalinger">§ 7. Retting av feilutbetalinger</a></li>
+<li class="lvl3"><a href="#8-tilbakeholdelse-og-avkorting">§ 8. Tilbakeholdelse og avkorting</a></li>
+<li class="lvl3"><a href="#9-innkreving-av-tilbakebetalingsbelp-eller-avkortingsbelp-mv">§ 9. Innkreving av tilbakebetalingsbeløp eller avkortingsbeløp mv.</a></li>
+<li class="lvl3"><a href="#10-utestenging">§ 10. Utestenging</a></li>
+<li class="lvl3"><a href="#11-forvaltningsmyndighet">§ 11. Forvaltningsmyndighet</a></li>
+<li class="lvl3"><a href="#12-dispensasjon">§ 12. Dispensasjon</a></li>
+<li class="lvl3"><a href="#13-klage">§ 13. Klage</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelse">§ 14. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-ravarer-omfattet-av-forskriften">Vedlegg 1: Råvarer omfattet av forskriften</a></li>
+<li class="lvl2"><a href="#vedlegg-2-ferdigvarer-omfattet-av-forskriften">Vedlegg 2: Ferdigvarer omfattet av forskriften</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-19-2891.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-10-636.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om råvareprisutjevning for bearbeidede jordbruksvarer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-10-636.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-06-10-636 <code>forskrift/2009-06-10-636</code></td></tr>
+<tr><th>Korttittel</th><td>RÅK-tilskuddsforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-19-2891 <code>forskrift/2025-12-19-2891</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-06-10-636" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-vilkar-for-prisnedskrivingstilskudd">§ 2. Vilkår for prisnedskrivingstilskudd</a></li>
+<li class="lvl3"><a href="#3-tilskuddsgrunnlag-og-satser">§ 3. Tilskuddsgrunnlag og -satser</a></li>
+<li class="lvl3"><a href="#4-resepter">§ 4. Resepter</a></li>
+<li class="lvl3"><a href="#5-sknad">§ 5. Søknad</a></li>
+<li class="lvl3"><a href="#6-opplysningsplikt-og-kontroll">§ 6. Opplysningsplikt og kontroll</a></li>
+<li class="lvl3"><a href="#7-retting-av-feilutbetalinger">§ 7. Retting av feilutbetalinger</a></li>
+<li class="lvl3"><a href="#8-tilbakeholdelse-og-avkorting">§ 8. Tilbakeholdelse og avkorting</a></li>
+<li class="lvl3"><a href="#9-innkreving-av-tilbakebetalingsbelp-eller-avkortingsbelp-mv">§ 9. Innkreving av tilbakebetalingsbeløp eller avkortingsbeløp mv.</a></li>
+<li class="lvl3"><a href="#10-utestenging">§ 10. Utestenging</a></li>
+<li class="lvl3"><a href="#11-forvaltningsmyndighet">§ 11. Forvaltningsmyndighet</a></li>
+<li class="lvl3"><a href="#12-dispensasjon">§ 12. Dispensasjon</a></li>
+<li class="lvl3"><a href="#13-klage">§ 13. Klage</a></li>
+<li class="lvl3"><a href="#14-ikrafttredelse">§ 14. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-ravarer-omfattet-av-forskriften">Vedlegg 1: Råvarer omfattet av forskriften</a></li>
+<li class="lvl2"><a href="#vedlegg-2-ferdigvarer-omfattet-av-forskriften">Vedlegg 2: Ferdigvarer omfattet av forskriften</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-10-636.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-06-10-636.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-06-10-636.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2009-06-10-636.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2009-06-10-636.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-10-636.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2009-06-10-636.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2009-06-10-636.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2009-06-10-636.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-ravareprisutjevning-for-bearbeidede-jordbruksvarer">Forskrift om råvareprisutjevning for bearbeidede jordbruksvarer</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med råvareprisutjevningen er å kompensere for prisforskjeller på jordbruksråvarer mellom Norge og utlandet, slik at næringsmiddelindustrien i Norge kan produsere og omsette industrielt bearbeidede jordbruksvarer basert på norskproduserte jordbruksråvarer.</p>
 <h3 id="2-vilkar-for-prisnedskrivingstilskudd">§ 2. Vilkår for prisnedskrivingstilskudd</h3>
@@ -85,30 +162,30 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Som dagligvaremarked etter første ledd regnes marked for salg til detaljister, grossister, storhusholdningskunder, skoler, institusjoner o.l.</p>
 <p>Som spesialmarked etter første ledd regnes Svalbard, Jan Mayen, oljeinnretninger på norsk sokkel, internasjonale transitthaller på flyplasser, NATO-representasjoner, NATO-styrker på øvelse i Norge, ambassader/utenlandske representasjoner samt proviantering av skip i utenriksfart, unntatt norske fartøy registrert som fiskebåter og Sjøforsvarets fartøyer.</p>
 <p>Det gis ikke tilskudd dersom ferdigvaren omsettes som dyrefôr.</p>
-<p><em>Endret ved forskrift 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</p>
 <h3 id="3-tilskuddsgrunnlag-og-satser">§ 3. Tilskuddsgrunnlag og -satser</h3>
 <p>Tilskudd etter denne forskriften beregnes på grunnlag av de omsatte ferdigvarenes forbruk av tilskuddsberettigede jordbruksråvarer i henhold til resepter som nevnt i § 4 , og etter de satser som fremgår av vedlegg 1. Landbruksdirektoratet avgjør hvilke kvaliteter som omfattes av hver enkelt jordbruksråvare nevnt i vedlegg 1.</p>
 <p>I tilskuddsberegningen benyttes de satser som gjelder på det tidspunktet foretaket gir fra seg besittelsen av ferdigvaren.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</p>
 <h3 id="4-resepter">§ 4. Resepter</h3>
 <p>Før det kan søkes om tilskudd skal foretakets resepter på ferdigvarer være godkjent av Landbruksdirektoratet. Reseptene skal angi forbruk av jordbruksråvarer og andre ingredienser i ferdigvaren. Forbruket skal oppgis som kilogram innsatt råvare pr. 100 kilogram produsert ferdigvare. Prosessrelatert svinn, målt som samlet vekttap fra råvarer og ingredienser ved fremstilling av 100 kilogram produsert ferdigvare, skal også oppgis.</p>
 <p>Landbruksdirektoratet kan godkjenne bruk av standardresepter.</p>
 <p>Landbruksdirektoratet kan kreve at det uten vederlag fremlegges vareprøver i forbindelse med godkjenning av resepter og standardresepter.</p>
 <p>Landbruksdirektoratet kan fastsette maksimumsgrenser for tilskuddsberettiget innhold av jordbruksråvarer i reseptene og maksimumsgrenser for svinn.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="5-sknad">§ 5. Søknad</h3>
 <p>For å oppnå rett til tilskudd må foretaket sende søknad til Landbruksdirektoratet. Søknaden må fremmes innen utgangen av kalendermåneden etter det tidspunktet som danner grunnlag for satsberegningen etter § 3 annet ledd. Det kan etter begrunnet søknad innrømmes forlenget søknadsfrist. Slik søknad skal være sendt Landbruksdirektoratet innen utløpet av den ordinære søknadsfristen.</p>
 <p>Landbruksdirektoratet kan fastsette krav til søknadens innhold og form.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021).</p>
 <h3 id="6-opplysningsplikt-og-kontroll">§ 6. Opplysningsplikt og kontroll</h3>
 <p>Søkere av tilskudd plikter å gi alle opplysninger som Landbruksdirektoratet finner nødvendig for å kunne forvalte ordningen. Landbruksdirektoratet kan i denne forbindelse kreve prognoser over forventet omsetning i dagligvaremarked og spesialmarked. Prognosene skal være basert på de til enhver tid mest oppdaterte data som foretaket er i besittelse av.</p>
 <p>Krav til prognose og dokumentasjon fastsettes av Landbruksdirektoratet.</p>
 <p>Landbruksdirektoratet fører tilsyn med at utbetalinger av tilskudd er riktig. Landbruksdirektoratet har adgang til all bokføring, korrespondanse og opptegnelser som vedkommer tilskuddet, og kan utføre nødvendig kontroll av råvarer, ferdigvarer og produksjon. Landbruksdirektoratet kan kreve at opplysningene bekreftes av revisor.</p>
 <p>Landbruksdirektoratet kan foreta stedlig kontroll hos tilskuddsmottaker.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021), 21 des 2021 nr. 3783 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2020 nr. 2789 (i kraft 1 jan 2021), 21 des 2021 nr. 3783 (i kraft 1 jan 2022).</p>
 <h3 id="7-retting-av-feilutbetalinger">§ 7. Retting av feilutbetalinger</h3>
 <p>Landbruksdirektoratet kan rette feil i utbetalt tilskudd, enten ved etterbetaling eller ved krav om tilbakebetaling fra tilskuddsmottaker. Etterbetaling foretas likevel ikke dersom feilutbetalingen skyldes tilskuddsmottaker.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="8-tilbakeholdelse-og-avkorting">§ 8. Tilbakeholdelse og avkorting</h3>
 <p>Dersom foretaket handler eller har handlet i strid med bestemmelser gitt i eller i medhold av denne forskriften, kan hele eller deler av tilskuddet holdes tilbake inntil forholdet er rettet. Er det ved overtredelsen av disse bestemmelsene utvist uaktsomhet eller forsett, kan hele eller deler av tilskuddet som tilfaller foretaket avkortes.</p>
 <h3 id="9-innkreving-av-tilbakebetalingsbelp-eller-avkortingsbelp-mv">§ 9. Innkreving av tilbakebetalingsbeløp eller avkortingsbeløp mv.</h3>
@@ -118,10 +195,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Dersom foretaket grovt uaktsomt eller forsettlig overtrer bestemmelser gitt i eller i medhold av denne forskriften, kan foretaket utestenges fra ordningen i inntil tre år regnet fra vedtakstidspunktet.</p>
 <h3 id="11-forvaltningsmyndighet">§ 11. Forvaltningsmyndighet</h3>
 <p>Landbruksdirektoratet forvalter tilskuddsordningen etter bestemmelsene i denne forskriften.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="12-dispensasjon">§ 12. Dispensasjon</h3>
 <p>Landbruksdirektoratet kan i særlige tilfeller dispensere fra denne forskriften.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="13-klage">§ 13. Klage</h3>
 <p>Enkeltvedtak fattet i medhold av denne forskriften kan påklages til Landbruks- og matdepartementet etter lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven) kapittel VI .</p>
 <h3 id="14-ikrafttredelse">§ 14. Ikrafttredelse</h3>
@@ -140,6 +217,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Varebetegnelsen kan avvike fra fullstendig varebetegnelse i Tolltariffen. For varenumre angitt med «ex» kan det kun gis tilskudd for varer spesifisert i varebetegnelsen. Varenummer i Tolltariffen Varebetegnelse 17.04.9091 Karameller 17.04.9099 Sukkervarer uten innhold av kakao, ellers ex 18.06.2090 Sjokolademasse, i beholdere med innhold over 2 kg 18.06.3100 Sjokolade i blokk, plate eller stang, med fyll 18.06.3200 Sjokolade i blokk, plate eller stang, uten fyll 18.06.9010 Annen sjokolade, herunder sukkervarer med innhold av kakao 18.06.9091 Sjokoladepålegg 18.06.9092 Pulver til sjokoladedrikk, bortsett fra varer som hører under varenummer 18.06.1000 19.01.1010 Næringsmidler bestemt for barn i pakninger for detaljsalg av varer som hører under pos. 04.01.–04.04. 19.01.1090 Næringsmidler bestemt for barn i pakninger for detaljsalg ellers 19.01.2010 Kakemiks i beholdere med netto innhold inntil 2 kg 19.01.2091 Kakemiks i beholdere med netto innhold 2 kg eller mer 19.01.2097 Deiger, tilformede, som inneholder ost og/eller høyst 20 % pølse, kjøtt eller flesk ex 19.01.2098 Andre kake- eller bakerimiks i tørr form, glutenfri diettmat og laktoseredusert diettmat ex 19.01.9098 Desserter, puddinger, vaniljesaus, vaniljekrem, rømmedressing, iskremblanding, produkter til bakeri, glutenfri diettmat og laktoseredusert diettmat 19.02.1100 Pasta m/innhold av egg, ukokt 19.02.1900 Pasta, ukokt, ellers 19.02.2091 Fylt pasta, kokt, fylt med mindre enn 20 % kjøtt, flesk eller slakteavfall 19.02.2099 Fylt pasta, tilberedt, ikke kokt, fylt med mindre enn 20 % kjøtt, flesk eller slakteavfall 19.02.3001 Annen pasta, kokt 19.02.3009 Annen pasta, ellers ex 19.04.9090 Ferdigretter med ris 19.05.3100 1 Søte kjeks og småkaker 19.05.3200 1 Vafler og vaffelkjeks 19.05.9010 Pizza, herunder porsjonspizza o.l., med innhold av pølse, kjøtt eller slakteavfall 19.05.9021 Pizza, herunder porsjonspizza o.l., ikke inneholdende pølse, kjøtt eller slakteavfall 19.05.9031 1 Andre kaker 19.05.9033 1 Wienerbrød, herunder wienerbrødstang o.l. ex 19.05.9091 Pizzaboller/-snurrer ex 19.05.9092 1 Brød og brødvarer, samt paier o.l., unntatt påsmurte, fylt med innhold av høyst 20 % pølse, kjøtt, flesk eller slakteavfall ex 19.05.9098 1 Annet bakverk ex 20.05.2010 Tørket potetmos 21.03.9010 Majones og remulade 21.03.9099 Sauser og preparater, ellers 21.04.10 Supper og buljonger 21.04.2001 Homogeniserte næringsmidler bestemt for småbarn i pakninger for detaljsalg 21.05 Spise-is ex 21.06.9098 Næringsmidler for barn, stuinger, gryteretter, varmestabilt eggeplommepulver, glutenfri diettmat og laktoseredusert diettmat</p>
 <p>1 Gjelder langtidsholdbare bakverk som har holdbarhetsdato minst 5 døgn etter produksjonstidspunktet. Holdbarhetsdato skal være angitt med «siste forbruksdag» «best før» eller «best før utgangen av» på emballasje, dokumenter, skilt eller etiketter av enhver art som følger, eller som viser til næringsmidlet.</p>
 <p>Endret ved forskrifter 25 mars 2010 nr. 455 (i kraft 1 jan 2010), 16 des 2013 nr. 1772 (i kraft 1 jan 2014), 21 des 2017 nr. 2399 (i kraft 1 jan 2018), 20 des 2019 nr. 2081 (i kraft 1 jan 2020), 15 des 2020 nr. 2789 (i kraft 1 jan 2021), 20 des 2022 nr. 2427 (i kraft 1 jan 2023), 21 des 2023 nr. 2334 (i kraft 1 jan 2024), 23 des 2024 nr. 3437 (i kraft 1 jan 2025), 19 des 2025 nr. 2891 (i kraft 1 jan 2026).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

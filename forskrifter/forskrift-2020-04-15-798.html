@@ -19,64 +19,367 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-04-15-798.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om utdanningsstøtte" href="../feeds/forskrift-2020-04-15-798.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om utdanningsstøtte</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-04-15-798</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-04-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-10-11-2067</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-04-15-798" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-1-generelle-regler-for-lan-og-stipend">Del 1. Generelle regler for lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</a></li>
+<li class="lvl5"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-skere-som-ikke-bor-sammen-med-foreldrene">§ 3. Søkere som ikke bor sammen med foreldrene</a></li>
+<li class="lvl5"><a href="#4-ektefeller">§ 4. Ektefeller</a></li>
+<li class="lvl5"><a href="#5-gyldighetsperiode-for-satser">§ 5. Gyldighetsperiode for satser</a></li>
+<li class="lvl3"><a href="#kapittel-2-krav-til-statsborgerskapet-og-tilknytningen-til-norge">Kapittel 2. Krav til statsborgerskapet og tilknytningen til Norge</a></li>
+<li class="lvl5"><a href="#6-krav-til-norsk-statsborgerskap">§ 6. Krav til norsk statsborgerskap</a></li>
+<li class="lvl5"><a href="#7-lan-og-stipend-til-utenlandske-statsborgere-som-tar-utdanning-i-norge">§ 7. Lån og stipend til utenlandske statsborgere som tar utdanning i Norge</a></li>
+<li class="lvl5"><a href="#8-lan-og-stipend-til-arbeidstakere-fra-es-eller-efta-land-og-deres-familiemedlemmer-som-tar-utdanning-i-norge-eller-utlandet">§ 8. Lån og stipend til arbeidstakere fra EØS- eller EFTA-land og deres familiemedlemmer som tar utdanning i Norge eller utlandet</a></li>
+<li class="lvl5"><a href="#9-lan-og-stipend-til-es-borgere-og-familiemedlemmer-med-varig-oppholdsrett">§ 9. Lån og stipend til EØS-borgere og familiemedlemmer med varig oppholdsrett</a></li>
+<li class="lvl5"><a href="#10-krav-om-skerens-tilknytning-til-norge-ved-utdanning-i-utlandet-eller-nettstudier">§ 10. Krav om søkerens tilknytning til Norge ved utdanning i utlandet eller nettstudier</a></li>
+<li class="lvl5"><a href="#11-lan-og-stipend-til-statsborgere-fra-storbritannia-og-deres-familiemedlemmer-som-tar-utdanning-i-norge-eller-utlandet">§ 11. Lån og stipend til statsborgere fra Storbritannia og deres familiemedlemmer som tar utdanning i Norge eller utlandet</a></li>
+<li class="lvl5"><a href="#12-lan-og-stipend-til-utenlandske-statsborgere-som-tar-utdanning-i-utlandet">§ 12. Lån og stipend til utenlandske statsborgere som tar utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#13-utstyrsstipend-til-ungdom-som-sker-opphold-i-norge">§ 13. Utstyrsstipend til ungdom som søker opphold i Norge</a></li>
+<li class="lvl5"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl3"><a href="#kapittel-3-krav-om-opptak-studiekompetanse-alder-finansiering-fra-andre-og-gjeld">Kapittel 3. Krav om opptak, studiekompetanse, alder, finansiering fra andre og gjeld</a></li>
+<li class="lvl5"><a href="#15-krav-om-opptak-som-elev-eller-student">§ 15. Krav om opptak som elev eller student</a></li>
+<li class="lvl5"><a href="#16-krav-om-generell-studiekompetanse-for-lan-og-stipend-til-universitets-og-hyskoleutdanning-i-land-utenfor-norden">§ 16. Krav om generell studiekompetanse for lån og stipend til universitets- og høyskoleutdanning i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#17-aldersbegrensninger">§ 17. Aldersbegrensninger</a></li>
+<li class="lvl5"><a href="#18-unntak-fra-retten-til-lan-og-stipend-nar-utgifter-til-livsopphold-og-bolig-dekkes-av-det-offentlige">§ 18. Unntak fra retten til lån og stipend når utgifter til livsopphold og bolig dekkes av det offentlige</a></li>
+<li class="lvl5"><a href="#19-retten-til-lan-og-stipend-for-skere-som-er-under-omsorg-av-barnevernet-og-som-bor-utenfor-fosterhjem-eller-barnevernsinstitusjon">§ 19. Retten til lån og stipend for søkere som er under omsorg av barnevernet og som bor utenfor fosterhjem eller barnevernsinstitusjon</a></li>
+<li class="lvl5"><a href="#20-unntak-fra-retten-til-lan-og-stipend-ved-sttte-fra-bade-norske-og-utenlandske-offentlige-utdanningssttteordninger">§ 20. Unntak fra retten til lån og stipend ved støtte fra både norske og utenlandske offentlige utdanningsstøtteordninger</a></li>
+<li class="lvl5"><a href="#21-unntak-fra-retten-til-lan-og-stipend-ved-kombinasjon-med-norske-sttteordninger-for-utvikling">§ 21. Unntak fra retten til lån og stipend ved kombinasjon med norske støtteordninger for utvikling</a></li>
+<li class="lvl5"><a href="#22-unntak-fra-retten-til-lan-og-stipend-til-phd-utdanning-i-norden-ved-finansiering-fra-andre">§ 22. Unntak fra retten til lån og stipend til ph.d.-utdanning i Norden ved finansiering fra andre</a></li>
+<li class="lvl5"><a href="#23-lan-og-stipend-til-sker-som-tidligere-har-fatt-slettet-gjeld-fordi-skeren-var-ufr">§ 23. Lån og stipend til søker som tidligere har fått slettet gjeld fordi søkeren var ufør</a></li>
+<li class="lvl3"><a href="#kapittel-4-hvilke-utdanninger-som-gir-rett-til-lan-og-stipend">Kapittel 4. Hvilke utdanninger som gir rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#24-krav-om-at-utdanning-i-norge-skal-vre-godkjent-for-utdanningssttte">§ 24. Krav om at utdanning i Norge skal være godkjent for utdanningsstøtte</a></li>
+<li class="lvl5"><a href="#25-krav-til-utdanning-i-utlandet">§ 25. Krav til utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#26-utdanning-i-norden">§ 26. Utdanning i Norden</a></li>
+<li class="lvl5"><a href="#27-universitets-og-hyskoleutdanning-i-land-utenfor-norden">§ 27. Universitets- og høyskoleutdanning i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#28-universitets-og-hyskoleutdanning-pa-nett-i-et-es-land-eller-i-storbritannia">§ 28. Universitets- og høyskoleutdanning på nett i et EØS-land eller i Storbritannia</a></li>
+<li class="lvl5"><a href="#29-utveksling-i-utlandet-for-skere-som-tar-universitets-og-hyskoleutdanning-og-fagskoleutdanning">§ 29. Utveksling i utlandet for søkere som tar universitets- og høyskoleutdanning og fagskoleutdanning</a></li>
+<li class="lvl5"><a href="#30-yrkesfaglig-utdanning">§ 30. Yrkesfaglig utdanning</a></li>
+<li class="lvl5"><a href="#31-praksisopphold-eller-studietur-i-utlandet-for-skere-som-omfattes-av-del-3-og-som-tar-en-utdanning-som-ikke-er-universitets-og-hyskoleutdanning-eller-fagskoleutdanning">§ 31. Praksisopphold eller studietur i utlandet for søkere som omfattes av del 3 og som tar en utdanning som ikke er universitets- og høyskoleutdanning eller fagskoleutdanning</a></li>
+<li class="lvl5"><a href="#32-videregaende-opplring-i-land-utenfor-norden">§ 32. Videregående opplæring i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#33-utvekslingsopphold-i-videregaende-opplring-i-land-utenfor-norden">§ 33. Utvekslingsopphold i videregående opplæring i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#34-lrlinger-i-utlandet">§ 34. Lærlinger i utlandet</a></li>
+<li class="lvl5"><a href="#35-utdanninger-i-utlandet-som-ikke-gir-rett-til-lan-og-stipend">§ 35. Utdanninger i utlandet som ikke gir rett til lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-5-foreldrestipend-sykestipend-og-sprakstipend">Kapittel 5. Foreldrestipend, sykestipend og språkstipend</a></li>
+<li class="lvl5"><a href="#36-foreldrestipend">§ 36. Foreldrestipend</a></li>
+<li class="lvl5"><a href="#37-foreldrestipend-etter-utdanningsperioden">§ 37. Foreldrestipend etter utdanningsperioden</a></li>
+<li class="lvl5"><a href="#38-sykestipend-pa-grunnlag-av-egen-sykdom">§ 38. Sykestipend på grunnlag av egen sykdom</a></li>
+<li class="lvl5"><a href="#39-sykestipend-pa-grunnlag-av-barns-sykdom">§ 39. Sykestipend på grunnlag av barns sykdom</a></li>
+<li class="lvl5"><a href="#40-beregning-av-sykestipendet">§ 40. Beregning av sykestipendet</a></li>
+<li class="lvl5"><a href="#41-sprakstipend">§ 41. Språkstipend</a></li>
+<li class="lvl3"><a href="#kapittel-6-sknadsfrister-og-bortfall-av-vedtak-om-lan-og-stipend">Kapittel 6. Søknadsfrister og bortfall av vedtak om lån og stipend</a></li>
+<li class="lvl5"><a href="#42-generelle-sknadsfrister">§ 42. Generelle søknadsfrister</a></li>
+<li class="lvl5"><a href="#43-sknadsfrister-for-foreldrestipend-og-sykestipend">§ 43. Søknadsfrister for foreldrestipend og sykestipend</a></li>
+<li class="lvl5"><a href="#44-unntak-fra-sknadsfristene-ved-srlige-forhold">§ 44. Unntak fra søknadsfristene ved særlige forhold</a></li>
+<li class="lvl5"><a href="#44a-bortfall-av-vedtak-om-lan-og-stipend">§ 44a. Bortfall av vedtak om lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-7-utbetaling-av-lan-og-stipend">Kapittel 7. Utbetaling av lån og stipend</a></li>
+<li class="lvl5"><a href="#45-utbetaling-av-lan-og-stipend-til-utdanning-i-norge">§ 45. Utbetaling av lån og stipend til utdanning i Norge</a></li>
+<li class="lvl5"><a href="#46-utbetaling-av-lan-og-stipend-til-utdanning-i-utlandet">§ 46. Utbetaling av lån og stipend til utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#47-utbetaling-ved-avbrutt-utdanning-i-perioden-med-lan-og-stipend">§ 47. Utbetaling ved avbrutt utdanning i perioden med lån og stipend</a></li>
+<li class="lvl2"><a href="#del-2-videregaende-opplring-for-skere-under-21-ar-som-ikke-har-oppnadd-studie-eller-yrkeskompetanse-og-forberedende-opplring-for-voksne-for-skere-under-21-ar">Del 2. Videregående opplæring for søkere under 21 år som ikke har oppnådd studie- eller yrkeskompetanse og forberedende opplæring for voksne for søkere under 21 år</a></li>
+<li class="lvl3"><a href="#kapittel-8-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 8. Hvor lenge en søker har rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#48-antall-ar-med-lan-og-stipend">§ 48. Antall år med lån og stipend</a></li>
+<li class="lvl5"><a href="#49-periode-med-lan-og-stipend">§ 49. Periode med lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-9-lan-og-stipend-til-videregaende-opplring-og-forberedende-opplring-for-voksne">Kapittel 9. Lån og stipend til videregående opplæring og forberedende opplæring for voksne</a></li>
+<li class="lvl5"><a href="#50-utstyrsstipend">§ 50. Utstyrsstipend</a></li>
+<li class="lvl5"><a href="#51-borteboerstipend">§ 51. Borteboerstipend</a></li>
+<li class="lvl5"><a href="#52-unntak-fra-retten-til-borteboerstipend-ved-offentlige-stnader-som-er-ment-a-dekke-boutgifter">§ 52. Unntak fra retten til borteboerstipend ved offentlige stønader som er ment å dekke boutgifter</a></li>
+<li class="lvl5"><a href="#53-behovsprving-av-borteboerstipend">§ 53. Behovsprøving av borteboerstipend</a></li>
+<li class="lvl5"><a href="#54-inntektsavhengig-stipend">§ 54. Inntektsavhengig stipend</a></li>
+<li class="lvl5"><a href="#55-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-forsrgerinntekt">§ 55. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot forsørgerinntekt</a></li>
+<li class="lvl5"><a href="#56-ny-beregning-ved-lavere-forsrgerinntekt">§ 56. Ny beregning ved lavere forsørgerinntekt</a></li>
+<li class="lvl5"><a href="#57-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-skerens-trygde-og-pensjonsytelser">§ 57. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot søkerens trygde- og pensjonsytelser</a></li>
+<li class="lvl5"><a href="#58-barnestipend">§ 58. Barnestipend</a></li>
+<li class="lvl5"><a href="#59-reduksjon-av-barnestipend">§ 59. Reduksjon av barnestipend</a></li>
+<li class="lvl5"><a href="#60-rekkeflgen-inntektsavhengig-stipend-og-barnestipend-reduseres-i">§ 60. Rekkefølgen inntektsavhengig stipend og barnestipend reduseres i</a></li>
+<li class="lvl5"><a href="#61-flyktningstipend">§ 61. Flyktningstipend</a></li>
+<li class="lvl5"><a href="#62-antall-ar-med-flyktningstipend">§ 62. Antall år med flyktningstipend</a></li>
+<li class="lvl5"><a href="#63-stipend-til-reiser-i-norge">§ 63. Stipend til reiser i Norge</a></li>
+<li class="lvl5"><a href="#64-stipend-til-reiser-i-norden">§ 64. Stipend til reiser i Norden</a></li>
+<li class="lvl5"><a href="#65-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 65. Lån og stipend til reiser i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#66-stipend-til-skolepenger-til-videregaende-opplring-ved-utenlandske-eller-internasjonale-skoler">§ 66. Stipend til skolepenger til videregående opplæring ved utenlandske eller internasjonale skoler</a></li>
+<li class="lvl5"><a href="#67-lan-til-skere-som-er-18-ar-eller-eldre">§ 67. Lån til søkere som er 18 år eller eldre</a></li>
+<li class="lvl5"><a href="#67a-opphevet">§ 67a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#68-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 68. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</a></li>
+<li class="lvl5"><a href="#69-lan-til-skolepenger">§ 69. Lån til skolepenger</a></li>
+<li class="lvl2"><a href="#del-3-universitets-og-hyskoleutdanning-fagskoleutdanning-folkehgskoleutdanning-videregaende-opplring-og-forberedende-opplring-for-voksne-for-skere-som-ikke-er-omfattet-avdel-2-og-andre-utdanninger">Del 3. Universitets- og høyskoleutdanning, fagskoleutdanning, folkehøgskoleutdanning, videregående opplæring og forberedende opplæring for voksne for søkere som ikke er omfattet avdel 2, og andre utdanninger</a></li>
+<li class="lvl3"><a href="#kapittel-10-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 10. Hvor lenge en søker har rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#70-antall-studiepoeng-eller-ar-med-lan-og-stipend">§ 70. Antall studiepoeng eller år med lån og stipend</a></li>
+<li class="lvl5"><a href="#70a-antall-studiepoeng-med-lan-og-stipend-ved-forsinkelse-i-utdanning-i-utlandet-i-2020-eller-varen-2021-pa-grunn-av-utbruddet-av-covid-19">§ 70a. Antall studiepoeng med lån og stipend ved forsinkelse i utdanning i utlandet i 2020 eller våren 2021 på grunn av utbruddet av covid-19</a></li>
+<li class="lvl5"><a href="#71-lan-og-stipend-hvis-skeren-er-forsinket-i-utdanningen">§ 71. Lån og stipend hvis søkeren er forsinket i utdanningen</a></li>
+<li class="lvl5"><a href="#72-periode-med-lan-og-stipend-i-studiearet">§ 72. Periode med lån og stipend i studieåret</a></li>
+<li class="lvl5"><a href="#73-lan-og-stipend-i-12-maneder-for-skere-med-nedsatt-funksjonsevne">§ 73. Lån og stipend i 12 måneder for søkere med nedsatt funksjonsevne</a></li>
+<li class="lvl3"><a href="#kapittel-11-lan-og-stipend">Kapittel 11. Lån og stipend</a></li>
+<li class="lvl5"><a href="#74-basislan">§ 74. Basislån</a></li>
+<li class="lvl5"><a href="#74a-opphevet">§ 74a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#75-reduksjon-ved-deltidsutdanning">§ 75. Reduksjon ved deltidsutdanning</a></li>
+<li class="lvl5"><a href="#76-omgjring-av-basislan-til-utdanningsstipend">§ 76. Omgjøring av basislån til utdanningsstipend</a></li>
+<li class="lvl5"><a href="#77-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatte-studiepoeng-eller-fullfrt-sprakkurs">§ 77. Omgjøring til utdanningsstipend på grunnlag av beståtte studiepoeng eller fullført språkkurs</a></li>
+<li class="lvl5"><a href="#78-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatt-grad">§ 78. Omgjøring til utdanningsstipend på grunnlag av bestått grad</a></li>
+<li class="lvl5"><a href="#79-unntak-fra-vilkaret-om-studiepoeng-eller-grad">§ 79. Unntak fra vilkåret om studiepoeng eller grad</a></li>
+<li class="lvl5"><a href="#80-omgjring-av-basislan-til-utdanningsstipend-for-tidligere-perioder">§ 80. Omgjøring av basislån til utdanningsstipend for tidligere perioder</a></li>
+<li class="lvl5"><a href="#81-omgjring-av-basislan-til-utdanningsstipend-for-senere-perioder">§ 81. Omgjøring av basislån til utdanningsstipend for senere perioder</a></li>
+<li class="lvl5"><a href="#82-barnestipend">§ 82. Barnestipend</a></li>
+<li class="lvl5"><a href="#83-tilleggsstipend-ved-nedsatt-funksjonsevne">§ 83. Tilleggsstipend ved nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#84-flyktningstipend">§ 84. Flyktningstipend</a></li>
+<li class="lvl5"><a href="#85-antall-ar-med-flyktningstipend">§ 85. Antall år med flyktningstipend</a></li>
+<li class="lvl5"><a href="#86-dekning-av-skolepenger-i-norge">§ 86. Dekning av skolepenger i Norge</a></li>
+<li class="lvl5"><a href="#87-dekning-av-skolepenger-i-norden">§ 87. Dekning av skolepenger i Norden</a></li>
+<li class="lvl5"><a href="#88-dekning-av-skolepenger-i-land-utenfor-norden">§ 88. Dekning av skolepenger i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#89-dekning-av-skolepenger-i-universitets-og-hyskoleutdanning-ved-utvalgte-lresteder-i-land-utenfor-norden">§ 89. Dekning av skolepenger i universitets- og høyskoleutdanning ved utvalgte læresteder i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#89a-dekning-av-skolepenger-til-nettstudier-i-es-land">§ 89a. Dekning av skolepenger til nettstudier i EØS-land</a></li>
+<li class="lvl5"><a href="#90-beregning-av-lan-og-stipend-til-skolepenger">§ 90. Beregning av lån og stipend til skolepenger</a></li>
+<li class="lvl5"><a href="#91-valutajustering-ved-utbetaling-av-lan-og-stipend-til-skolepenger-i-land-utenfor-norden">§ 91. Valutajustering ved utbetaling av lån og stipend til skolepenger i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#92-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 92. Lån og stipend til reiser i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#93-tilleggslan-til-forkurs-eller-sommerkurs-i-norge">§ 93. Tilleggslån til forkurs eller sommerkurs i Norge</a></li>
+<li class="lvl5"><a href="#94-tilleggsstipend-til-spesielt-tilrettelagt-ingenir-og-konomiutdanning-i-frankrike-og-tyskland">§ 94. Tilleggsstipend til spesielt tilrettelagt ingeniør- og økonomiutdanning i Frankrike og Tyskland</a></li>
+<li class="lvl5"><a href="#94a-rekrutteringsstipend-til-gradsutdanning-eller-utvekslingsopphold-i-utvalgte-land">§ 94a. Rekrutteringsstipend til gradsutdanning eller utvekslingsopphold i utvalgte land</a></li>
+<li class="lvl5"><a href="#95-tilleggslan-til-skere-som-er-30-ar-eller-eldre">§ 95. Tilleggslån til søkere som er 30 år eller eldre</a></li>
+<li class="lvl5"><a href="#96-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 96. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</a></li>
+<li class="lvl3"><a href="#kapittel-12-behovsprving-av-stipend">Kapittel 12. Behovsprøving av stipend</a></li>
+<li class="lvl5"><a href="#97-behovsprving-av-stipend">§ 97. Behovsprøving av stipend</a></li>
+<li class="lvl5"><a href="#98-behovsprving-mot-person-og-kapitalinntekt">§ 98. Behovsprøving mot person- og kapitalinntekt</a></li>
+<li class="lvl5"><a href="#99-behovsprving-mot-trygde-eller-pensjonsytelser">§ 99. Behovsprøving mot trygde- eller pensjonsytelser</a></li>
+<li class="lvl5"><a href="#100-behovsprving-mot-formue">§ 100. Behovsprøving mot formue</a></li>
+<li class="lvl5"><a href="#101-behovsprving-av-barnestipend-mot-ektefelles-person-og-kapitalinntekt">§ 101. Behovsprøving av barnestipend mot ektefelles person- og kapitalinntekt</a></li>
+<li class="lvl2"><a href="#del-4-avsluttende-bestemmelser">Del 4. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-13-opplysningsplikt-tap-av-rettigheter-og-ikrafttredelse">Kapittel 13. Opplysningsplikt, tap av rettigheter og ikrafttredelse</a></li>
+<li class="lvl5"><a href="#102-skerens-plikt-til-a-gi-opplysninger">§ 102. Søkerens plikt til å gi opplysninger</a></li>
+<li class="lvl5"><a href="#103-endring-av-lane-og-stipendbelp-ved-nye-opplysninger">§ 103. Endring av låne- og stipendbeløp ved nye opplysninger</a></li>
+<li class="lvl5"><a href="#104-flger-av-brudd-pa-opplysningsplikten">§ 104. Følger av brudd på opplysningsplikten</a></li>
+<li class="lvl5"><a href="#105-flger-av-brudd-pa-betalingsplikten">§ 105. Følger av brudd på betalingsplikten</a></li>
+<li class="lvl5"><a href="#106-ikrafttredelse">§ 106. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-10-11-2067.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-15-798.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om utdanningsstøtte</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-04-15-798.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-04-15-798 <code>forskrift/2020-04-15-798</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.04.2020</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-10-11-2067 <code>forskrift/2026-10-11-2067</code> fra 11.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-04-15-798" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-1-generelle-regler-for-lan-og-stipend">Del 1. Generelle regler for lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</a></li>
+<li class="lvl5"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-skere-som-ikke-bor-sammen-med-foreldrene">§ 3. Søkere som ikke bor sammen med foreldrene</a></li>
+<li class="lvl5"><a href="#4-ektefeller">§ 4. Ektefeller</a></li>
+<li class="lvl5"><a href="#5-gyldighetsperiode-for-satser">§ 5. Gyldighetsperiode for satser</a></li>
+<li class="lvl3"><a href="#kapittel-2-krav-til-statsborgerskapet-og-tilknytningen-til-norge">Kapittel 2. Krav til statsborgerskapet og tilknytningen til Norge</a></li>
+<li class="lvl5"><a href="#6-krav-til-norsk-statsborgerskap">§ 6. Krav til norsk statsborgerskap</a></li>
+<li class="lvl5"><a href="#7-lan-og-stipend-til-utenlandske-statsborgere-som-tar-utdanning-i-norge">§ 7. Lån og stipend til utenlandske statsborgere som tar utdanning i Norge</a></li>
+<li class="lvl5"><a href="#8-lan-og-stipend-til-arbeidstakere-fra-es-eller-efta-land-og-deres-familiemedlemmer-som-tar-utdanning-i-norge-eller-utlandet">§ 8. Lån og stipend til arbeidstakere fra EØS- eller EFTA-land og deres familiemedlemmer som tar utdanning i Norge eller utlandet</a></li>
+<li class="lvl5"><a href="#9-lan-og-stipend-til-es-borgere-og-familiemedlemmer-med-varig-oppholdsrett">§ 9. Lån og stipend til EØS-borgere og familiemedlemmer med varig oppholdsrett</a></li>
+<li class="lvl5"><a href="#10-krav-om-skerens-tilknytning-til-norge-ved-utdanning-i-utlandet-eller-nettstudier">§ 10. Krav om søkerens tilknytning til Norge ved utdanning i utlandet eller nettstudier</a></li>
+<li class="lvl5"><a href="#11-lan-og-stipend-til-statsborgere-fra-storbritannia-og-deres-familiemedlemmer-som-tar-utdanning-i-norge-eller-utlandet">§ 11. Lån og stipend til statsborgere fra Storbritannia og deres familiemedlemmer som tar utdanning i Norge eller utlandet</a></li>
+<li class="lvl5"><a href="#12-lan-og-stipend-til-utenlandske-statsborgere-som-tar-utdanning-i-utlandet">§ 12. Lån og stipend til utenlandske statsborgere som tar utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#13-utstyrsstipend-til-ungdom-som-sker-opphold-i-norge">§ 13. Utstyrsstipend til ungdom som søker opphold i Norge</a></li>
+<li class="lvl5"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl3"><a href="#kapittel-3-krav-om-opptak-studiekompetanse-alder-finansiering-fra-andre-og-gjeld">Kapittel 3. Krav om opptak, studiekompetanse, alder, finansiering fra andre og gjeld</a></li>
+<li class="lvl5"><a href="#15-krav-om-opptak-som-elev-eller-student">§ 15. Krav om opptak som elev eller student</a></li>
+<li class="lvl5"><a href="#16-krav-om-generell-studiekompetanse-for-lan-og-stipend-til-universitets-og-hyskoleutdanning-i-land-utenfor-norden">§ 16. Krav om generell studiekompetanse for lån og stipend til universitets- og høyskoleutdanning i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#17-aldersbegrensninger">§ 17. Aldersbegrensninger</a></li>
+<li class="lvl5"><a href="#18-unntak-fra-retten-til-lan-og-stipend-nar-utgifter-til-livsopphold-og-bolig-dekkes-av-det-offentlige">§ 18. Unntak fra retten til lån og stipend når utgifter til livsopphold og bolig dekkes av det offentlige</a></li>
+<li class="lvl5"><a href="#19-retten-til-lan-og-stipend-for-skere-som-er-under-omsorg-av-barnevernet-og-som-bor-utenfor-fosterhjem-eller-barnevernsinstitusjon">§ 19. Retten til lån og stipend for søkere som er under omsorg av barnevernet og som bor utenfor fosterhjem eller barnevernsinstitusjon</a></li>
+<li class="lvl5"><a href="#20-unntak-fra-retten-til-lan-og-stipend-ved-sttte-fra-bade-norske-og-utenlandske-offentlige-utdanningssttteordninger">§ 20. Unntak fra retten til lån og stipend ved støtte fra både norske og utenlandske offentlige utdanningsstøtteordninger</a></li>
+<li class="lvl5"><a href="#21-unntak-fra-retten-til-lan-og-stipend-ved-kombinasjon-med-norske-sttteordninger-for-utvikling">§ 21. Unntak fra retten til lån og stipend ved kombinasjon med norske støtteordninger for utvikling</a></li>
+<li class="lvl5"><a href="#22-unntak-fra-retten-til-lan-og-stipend-til-phd-utdanning-i-norden-ved-finansiering-fra-andre">§ 22. Unntak fra retten til lån og stipend til ph.d.-utdanning i Norden ved finansiering fra andre</a></li>
+<li class="lvl5"><a href="#23-lan-og-stipend-til-sker-som-tidligere-har-fatt-slettet-gjeld-fordi-skeren-var-ufr">§ 23. Lån og stipend til søker som tidligere har fått slettet gjeld fordi søkeren var ufør</a></li>
+<li class="lvl3"><a href="#kapittel-4-hvilke-utdanninger-som-gir-rett-til-lan-og-stipend">Kapittel 4. Hvilke utdanninger som gir rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#24-krav-om-at-utdanning-i-norge-skal-vre-godkjent-for-utdanningssttte">§ 24. Krav om at utdanning i Norge skal være godkjent for utdanningsstøtte</a></li>
+<li class="lvl5"><a href="#25-krav-til-utdanning-i-utlandet">§ 25. Krav til utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#26-utdanning-i-norden">§ 26. Utdanning i Norden</a></li>
+<li class="lvl5"><a href="#27-universitets-og-hyskoleutdanning-i-land-utenfor-norden">§ 27. Universitets- og høyskoleutdanning i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#28-universitets-og-hyskoleutdanning-pa-nett-i-et-es-land-eller-i-storbritannia">§ 28. Universitets- og høyskoleutdanning på nett i et EØS-land eller i Storbritannia</a></li>
+<li class="lvl5"><a href="#29-utveksling-i-utlandet-for-skere-som-tar-universitets-og-hyskoleutdanning-og-fagskoleutdanning">§ 29. Utveksling i utlandet for søkere som tar universitets- og høyskoleutdanning og fagskoleutdanning</a></li>
+<li class="lvl5"><a href="#30-yrkesfaglig-utdanning">§ 30. Yrkesfaglig utdanning</a></li>
+<li class="lvl5"><a href="#31-praksisopphold-eller-studietur-i-utlandet-for-skere-som-omfattes-av-del-3-og-som-tar-en-utdanning-som-ikke-er-universitets-og-hyskoleutdanning-eller-fagskoleutdanning">§ 31. Praksisopphold eller studietur i utlandet for søkere som omfattes av del 3 og som tar en utdanning som ikke er universitets- og høyskoleutdanning eller fagskoleutdanning</a></li>
+<li class="lvl5"><a href="#32-videregaende-opplring-i-land-utenfor-norden">§ 32. Videregående opplæring i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#33-utvekslingsopphold-i-videregaende-opplring-i-land-utenfor-norden">§ 33. Utvekslingsopphold i videregående opplæring i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#34-lrlinger-i-utlandet">§ 34. Lærlinger i utlandet</a></li>
+<li class="lvl5"><a href="#35-utdanninger-i-utlandet-som-ikke-gir-rett-til-lan-og-stipend">§ 35. Utdanninger i utlandet som ikke gir rett til lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-5-foreldrestipend-sykestipend-og-sprakstipend">Kapittel 5. Foreldrestipend, sykestipend og språkstipend</a></li>
+<li class="lvl5"><a href="#36-foreldrestipend">§ 36. Foreldrestipend</a></li>
+<li class="lvl5"><a href="#37-foreldrestipend-etter-utdanningsperioden">§ 37. Foreldrestipend etter utdanningsperioden</a></li>
+<li class="lvl5"><a href="#38-sykestipend-pa-grunnlag-av-egen-sykdom">§ 38. Sykestipend på grunnlag av egen sykdom</a></li>
+<li class="lvl5"><a href="#39-sykestipend-pa-grunnlag-av-barns-sykdom">§ 39. Sykestipend på grunnlag av barns sykdom</a></li>
+<li class="lvl5"><a href="#40-beregning-av-sykestipendet">§ 40. Beregning av sykestipendet</a></li>
+<li class="lvl5"><a href="#41-sprakstipend">§ 41. Språkstipend</a></li>
+<li class="lvl3"><a href="#kapittel-6-sknadsfrister-og-bortfall-av-vedtak-om-lan-og-stipend">Kapittel 6. Søknadsfrister og bortfall av vedtak om lån og stipend</a></li>
+<li class="lvl5"><a href="#42-generelle-sknadsfrister">§ 42. Generelle søknadsfrister</a></li>
+<li class="lvl5"><a href="#43-sknadsfrister-for-foreldrestipend-og-sykestipend">§ 43. Søknadsfrister for foreldrestipend og sykestipend</a></li>
+<li class="lvl5"><a href="#44-unntak-fra-sknadsfristene-ved-srlige-forhold">§ 44. Unntak fra søknadsfristene ved særlige forhold</a></li>
+<li class="lvl5"><a href="#44a-bortfall-av-vedtak-om-lan-og-stipend">§ 44a. Bortfall av vedtak om lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-7-utbetaling-av-lan-og-stipend">Kapittel 7. Utbetaling av lån og stipend</a></li>
+<li class="lvl5"><a href="#45-utbetaling-av-lan-og-stipend-til-utdanning-i-norge">§ 45. Utbetaling av lån og stipend til utdanning i Norge</a></li>
+<li class="lvl5"><a href="#46-utbetaling-av-lan-og-stipend-til-utdanning-i-utlandet">§ 46. Utbetaling av lån og stipend til utdanning i utlandet</a></li>
+<li class="lvl5"><a href="#47-utbetaling-ved-avbrutt-utdanning-i-perioden-med-lan-og-stipend">§ 47. Utbetaling ved avbrutt utdanning i perioden med lån og stipend</a></li>
+<li class="lvl2"><a href="#del-2-videregaende-opplring-for-skere-under-21-ar-som-ikke-har-oppnadd-studie-eller-yrkeskompetanse-og-forberedende-opplring-for-voksne-for-skere-under-21-ar">Del 2. Videregående opplæring for søkere under 21 år som ikke har oppnådd studie- eller yrkeskompetanse og forberedende opplæring for voksne for søkere under 21 år</a></li>
+<li class="lvl3"><a href="#kapittel-8-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 8. Hvor lenge en søker har rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#48-antall-ar-med-lan-og-stipend">§ 48. Antall år med lån og stipend</a></li>
+<li class="lvl5"><a href="#49-periode-med-lan-og-stipend">§ 49. Periode med lån og stipend</a></li>
+<li class="lvl3"><a href="#kapittel-9-lan-og-stipend-til-videregaende-opplring-og-forberedende-opplring-for-voksne">Kapittel 9. Lån og stipend til videregående opplæring og forberedende opplæring for voksne</a></li>
+<li class="lvl5"><a href="#50-utstyrsstipend">§ 50. Utstyrsstipend</a></li>
+<li class="lvl5"><a href="#51-borteboerstipend">§ 51. Borteboerstipend</a></li>
+<li class="lvl5"><a href="#52-unntak-fra-retten-til-borteboerstipend-ved-offentlige-stnader-som-er-ment-a-dekke-boutgifter">§ 52. Unntak fra retten til borteboerstipend ved offentlige stønader som er ment å dekke boutgifter</a></li>
+<li class="lvl5"><a href="#53-behovsprving-av-borteboerstipend">§ 53. Behovsprøving av borteboerstipend</a></li>
+<li class="lvl5"><a href="#54-inntektsavhengig-stipend">§ 54. Inntektsavhengig stipend</a></li>
+<li class="lvl5"><a href="#55-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-forsrgerinntekt">§ 55. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot forsørgerinntekt</a></li>
+<li class="lvl5"><a href="#56-ny-beregning-ved-lavere-forsrgerinntekt">§ 56. Ny beregning ved lavere forsørgerinntekt</a></li>
+<li class="lvl5"><a href="#57-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-skerens-trygde-og-pensjonsytelser">§ 57. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot søkerens trygde- og pensjonsytelser</a></li>
+<li class="lvl5"><a href="#58-barnestipend">§ 58. Barnestipend</a></li>
+<li class="lvl5"><a href="#59-reduksjon-av-barnestipend">§ 59. Reduksjon av barnestipend</a></li>
+<li class="lvl5"><a href="#60-rekkeflgen-inntektsavhengig-stipend-og-barnestipend-reduseres-i">§ 60. Rekkefølgen inntektsavhengig stipend og barnestipend reduseres i</a></li>
+<li class="lvl5"><a href="#61-flyktningstipend">§ 61. Flyktningstipend</a></li>
+<li class="lvl5"><a href="#62-antall-ar-med-flyktningstipend">§ 62. Antall år med flyktningstipend</a></li>
+<li class="lvl5"><a href="#63-stipend-til-reiser-i-norge">§ 63. Stipend til reiser i Norge</a></li>
+<li class="lvl5"><a href="#64-stipend-til-reiser-i-norden">§ 64. Stipend til reiser i Norden</a></li>
+<li class="lvl5"><a href="#65-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 65. Lån og stipend til reiser i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#66-stipend-til-skolepenger-til-videregaende-opplring-ved-utenlandske-eller-internasjonale-skoler">§ 66. Stipend til skolepenger til videregående opplæring ved utenlandske eller internasjonale skoler</a></li>
+<li class="lvl5"><a href="#67-lan-til-skere-som-er-18-ar-eller-eldre">§ 67. Lån til søkere som er 18 år eller eldre</a></li>
+<li class="lvl5"><a href="#67a-opphevet">§ 67a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#68-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 68. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</a></li>
+<li class="lvl5"><a href="#69-lan-til-skolepenger">§ 69. Lån til skolepenger</a></li>
+<li class="lvl2"><a href="#del-3-universitets-og-hyskoleutdanning-fagskoleutdanning-folkehgskoleutdanning-videregaende-opplring-og-forberedende-opplring-for-voksne-for-skere-som-ikke-er-omfattet-avdel-2-og-andre-utdanninger">Del 3. Universitets- og høyskoleutdanning, fagskoleutdanning, folkehøgskoleutdanning, videregående opplæring og forberedende opplæring for voksne for søkere som ikke er omfattet avdel 2, og andre utdanninger</a></li>
+<li class="lvl3"><a href="#kapittel-10-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 10. Hvor lenge en søker har rett til lån og stipend</a></li>
+<li class="lvl5"><a href="#70-antall-studiepoeng-eller-ar-med-lan-og-stipend">§ 70. Antall studiepoeng eller år med lån og stipend</a></li>
+<li class="lvl5"><a href="#70a-antall-studiepoeng-med-lan-og-stipend-ved-forsinkelse-i-utdanning-i-utlandet-i-2020-eller-varen-2021-pa-grunn-av-utbruddet-av-covid-19">§ 70a. Antall studiepoeng med lån og stipend ved forsinkelse i utdanning i utlandet i 2020 eller våren 2021 på grunn av utbruddet av covid-19</a></li>
+<li class="lvl5"><a href="#71-lan-og-stipend-hvis-skeren-er-forsinket-i-utdanningen">§ 71. Lån og stipend hvis søkeren er forsinket i utdanningen</a></li>
+<li class="lvl5"><a href="#72-periode-med-lan-og-stipend-i-studiearet">§ 72. Periode med lån og stipend i studieåret</a></li>
+<li class="lvl5"><a href="#73-lan-og-stipend-i-12-maneder-for-skere-med-nedsatt-funksjonsevne">§ 73. Lån og stipend i 12 måneder for søkere med nedsatt funksjonsevne</a></li>
+<li class="lvl3"><a href="#kapittel-11-lan-og-stipend">Kapittel 11. Lån og stipend</a></li>
+<li class="lvl5"><a href="#74-basislan">§ 74. Basislån</a></li>
+<li class="lvl5"><a href="#74a-opphevet">§ 74a. (Opphevet)</a></li>
+<li class="lvl5"><a href="#75-reduksjon-ved-deltidsutdanning">§ 75. Reduksjon ved deltidsutdanning</a></li>
+<li class="lvl5"><a href="#76-omgjring-av-basislan-til-utdanningsstipend">§ 76. Omgjøring av basislån til utdanningsstipend</a></li>
+<li class="lvl5"><a href="#77-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatte-studiepoeng-eller-fullfrt-sprakkurs">§ 77. Omgjøring til utdanningsstipend på grunnlag av beståtte studiepoeng eller fullført språkkurs</a></li>
+<li class="lvl5"><a href="#78-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatt-grad">§ 78. Omgjøring til utdanningsstipend på grunnlag av bestått grad</a></li>
+<li class="lvl5"><a href="#79-unntak-fra-vilkaret-om-studiepoeng-eller-grad">§ 79. Unntak fra vilkåret om studiepoeng eller grad</a></li>
+<li class="lvl5"><a href="#80-omgjring-av-basislan-til-utdanningsstipend-for-tidligere-perioder">§ 80. Omgjøring av basislån til utdanningsstipend for tidligere perioder</a></li>
+<li class="lvl5"><a href="#81-omgjring-av-basislan-til-utdanningsstipend-for-senere-perioder">§ 81. Omgjøring av basislån til utdanningsstipend for senere perioder</a></li>
+<li class="lvl5"><a href="#82-barnestipend">§ 82. Barnestipend</a></li>
+<li class="lvl5"><a href="#83-tilleggsstipend-ved-nedsatt-funksjonsevne">§ 83. Tilleggsstipend ved nedsatt funksjonsevne</a></li>
+<li class="lvl5"><a href="#84-flyktningstipend">§ 84. Flyktningstipend</a></li>
+<li class="lvl5"><a href="#85-antall-ar-med-flyktningstipend">§ 85. Antall år med flyktningstipend</a></li>
+<li class="lvl5"><a href="#86-dekning-av-skolepenger-i-norge">§ 86. Dekning av skolepenger i Norge</a></li>
+<li class="lvl5"><a href="#87-dekning-av-skolepenger-i-norden">§ 87. Dekning av skolepenger i Norden</a></li>
+<li class="lvl5"><a href="#88-dekning-av-skolepenger-i-land-utenfor-norden">§ 88. Dekning av skolepenger i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#89-dekning-av-skolepenger-i-universitets-og-hyskoleutdanning-ved-utvalgte-lresteder-i-land-utenfor-norden">§ 89. Dekning av skolepenger i universitets- og høyskoleutdanning ved utvalgte læresteder i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#89a-dekning-av-skolepenger-til-nettstudier-i-es-land">§ 89a. Dekning av skolepenger til nettstudier i EØS-land</a></li>
+<li class="lvl5"><a href="#90-beregning-av-lan-og-stipend-til-skolepenger">§ 90. Beregning av lån og stipend til skolepenger</a></li>
+<li class="lvl5"><a href="#91-valutajustering-ved-utbetaling-av-lan-og-stipend-til-skolepenger-i-land-utenfor-norden">§ 91. Valutajustering ved utbetaling av lån og stipend til skolepenger i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#92-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 92. Lån og stipend til reiser i land utenfor Norden</a></li>
+<li class="lvl5"><a href="#93-tilleggslan-til-forkurs-eller-sommerkurs-i-norge">§ 93. Tilleggslån til forkurs eller sommerkurs i Norge</a></li>
+<li class="lvl5"><a href="#94-tilleggsstipend-til-spesielt-tilrettelagt-ingenir-og-konomiutdanning-i-frankrike-og-tyskland">§ 94. Tilleggsstipend til spesielt tilrettelagt ingeniør- og økonomiutdanning i Frankrike og Tyskland</a></li>
+<li class="lvl5"><a href="#94a-rekrutteringsstipend-til-gradsutdanning-eller-utvekslingsopphold-i-utvalgte-land">§ 94a. Rekrutteringsstipend til gradsutdanning eller utvekslingsopphold i utvalgte land</a></li>
+<li class="lvl5"><a href="#95-tilleggslan-til-skere-som-er-30-ar-eller-eldre">§ 95. Tilleggslån til søkere som er 30 år eller eldre</a></li>
+<li class="lvl5"><a href="#96-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 96. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</a></li>
+<li class="lvl3"><a href="#kapittel-12-behovsprving-av-stipend">Kapittel 12. Behovsprøving av stipend</a></li>
+<li class="lvl5"><a href="#97-behovsprving-av-stipend">§ 97. Behovsprøving av stipend</a></li>
+<li class="lvl5"><a href="#98-behovsprving-mot-person-og-kapitalinntekt">§ 98. Behovsprøving mot person- og kapitalinntekt</a></li>
+<li class="lvl5"><a href="#99-behovsprving-mot-trygde-eller-pensjonsytelser">§ 99. Behovsprøving mot trygde- eller pensjonsytelser</a></li>
+<li class="lvl5"><a href="#100-behovsprving-mot-formue">§ 100. Behovsprøving mot formue</a></li>
+<li class="lvl5"><a href="#101-behovsprving-av-barnestipend-mot-ektefelles-person-og-kapitalinntekt">§ 101. Behovsprøving av barnestipend mot ektefelles person- og kapitalinntekt</a></li>
+<li class="lvl2"><a href="#del-4-avsluttende-bestemmelser">Del 4. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-13-opplysningsplikt-tap-av-rettigheter-og-ikrafttredelse">Kapittel 13. Opplysningsplikt, tap av rettigheter og ikrafttredelse</a></li>
+<li class="lvl5"><a href="#102-skerens-plikt-til-a-gi-opplysninger">§ 102. Søkerens plikt til å gi opplysninger</a></li>
+<li class="lvl5"><a href="#103-endring-av-lane-og-stipendbelp-ved-nye-opplysninger">§ 103. Endring av låne- og stipendbeløp ved nye opplysninger</a></li>
+<li class="lvl5"><a href="#104-flger-av-brudd-pa-opplysningsplikten">§ 104. Følger av brudd på opplysningsplikten</a></li>
+<li class="lvl5"><a href="#105-flger-av-brudd-pa-betalingsplikten">§ 105. Følger av brudd på betalingsplikten</a></li>
+<li class="lvl5"><a href="#106-ikrafttredelse">§ 106. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-15-798.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-04-15-798.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-04-15-798.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-04-15-798.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-04-15-798.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-04-15-798.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-04-15-798.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-04-15-798.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-04-15-798.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-utdanningssttte">Forskrift om utdanningsstøtte</h1>
 <h2 id="del-1-generelle-regler-for-lan-og-stipend">Del 1. Generelle regler for lån og stipend</h2>
 <h3 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h3>
 <h5 id="1-hva-og-hvem-forskriften-gjelder">§ 1. Hva og hvem forskriften gjelder</h5>
@@ -87,7 +390,7 @@ c. hvilke lån og stipend som kan gis og hvordan disse beregnes.</p>
 <p>Forskriftens del 2 gjelder for søkere som tar videregående opplæring i Norge eller tilsvarende opplæring i utlandet, frem til søkeren har oppnådd studie- eller yrkeskompetanse, men ikke lenger enn frem til studieårets start i det kalenderåret søkeren fyller 21 år. Forskriftens del 2 gjelder også for søkere som tar forberedende opplæring for voksne, frem til studieårets start i det kalenderåret søkeren fyller 21 år. Forskriftens del 2 gjelder for søkere som er 16 år eller eldre i det kalenderåret opplæringen starter, eller som har fullført grunnskolen eller tilsvarende opplæring.</p>
 <p>Forskriftens del 3 gjelder alle andre søkere.</p>
 <p>Departementet kan ved krig eller andre alvorlige hendelser gjøre tidsavgrensede unntak fra forskriftens bestemmelser om rett til lån og stipend til utdanning i utlandet. Hendelsene må ha ført til at det er umulig eller uforholdsmessig vanskelig å gjennomføre en utdanning, eller at det ikke er formålstjenlig at studenter får lån og stipend til utdanning i bestemte land.</p>
-<p><em>Endret ved forskrifter 23 juni 2022 nr. 1160 , 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 23 juni 2022 nr. 1160 , 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="2-definisjoner">§ 2. Definisjoner</h5>
 <p>I forskriften menes med</p>
 <p>a. søker: den som søker om, mottar eller har mottatt lån og stipend fra Lånekassen
@@ -102,12 +405,12 @@ f. studieår: periode med lån og stipend fra 16. august til 15. juni.</p>
 <p>a. Søkeren bor i en selvstendig boenhet som er fysisk atskilt fra huset der foreldrene bor.
 b. Søkeren bor i en selvstendig og klart atskilt boenhet i samme hus som foreldrene, og søkerens boenhet er registrert med et eget bruksenhetsnummer eller tilsvarende i Folkeregisteret eller i matrikkelen.</p>
 <p>En søker som på grunn av krig eller andre alvorlige hendelser som fører til at det er umulig eller uforholdsmessig vanskelig for søkeren å gjennomføre utdanning i utlandet ved å oppholde seg ved studiestedet, og som midlertidig flytter til foreldrehjemmet og fortsetter utdanningen med nettbaserte løsninger, kan regnes som ikke å bo med foreldrene. Unntak kan gis for inntil ett studieår av gangen.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="4-ektefeller">§ 4. Ektefeller</h5>
 <p>Regler om ektefeller gjelder også samboere med felles barn. Separerte likestilles med gifte hvis ikke forskriften fastsetter noe annet.</p>
 <h5 id="5-gyldighetsperiode-for-satser">§ 5. Gyldighetsperiode for satser</h5>
 <p>Satsene for studieåret 2026–2027 gjelder for perioden 16. august 2026 til 15. august 2027. Gyldighetsperioden for satsene kan avvike for utdanninger i utlandet.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h3 id="kapittel-2-krav-til-statsborgerskapet-og-tilknytningen-til-norge">Kapittel 2. Krav til statsborgerskapet og tilknytningen til Norge</h3>
 <h5 id="6-krav-til-norsk-statsborgerskap">§ 6. Krav til norsk statsborgerskap</h5>
 <p>Norsk statsborgerskap gir rett til lån og stipend. Statsborgere av andre land likestilles med norske statsborgere etter reglene i kapittel 2 .</p>
@@ -120,7 +423,7 @@ d. Søkeren har opphold på grunnlag av familieinnvandring med norsk eller utenl
 e. Søkeren er gift, samboer med felles barn eller partner med norsk statsborger, og begge bor i Norge.
 f. Søkeren har i en opptjeningstid på minst 24 måneder hatt sammenhengende fulltidsarbeid i Norge, vært bosatt i og betalt skatt til Norge. Søkeren skal ha hatt oppholdstillatelse som arbeidstaker i opptjeningstiden. Det skal ikke være opphold i opptjeningstiden eller mellom opptjeningstiden og perioden med lån og stipend. Det kan likevel gjøres unntak for opphold på inntil 1 år ved sykdom eller fødsel.
 g. Søkeren har i en opptjeningstid på minst 36 måneder vært bosatt i og vært i utdanning i Norge og bestått utdanning tilsvarende 3 års fulltidsutdanning. Det skal ikke være opphold i opptjeningstiden eller mellom opptjeningstiden og perioden med lån og stipend. Det kan likevel gjøres unntak for opphold på inntil 1 år ved sykdom eller fødsel. Søkeren kan i opptjeningstiden ikke ha mottatt støtte til utdanningen fra offentlige utdanningsstøtteordninger eller norske offentlige støtteordninger for utvikling.</p>
-<p><em>Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h5 id="8-lan-og-stipend-til-arbeidstakere-fra-es-eller-efta-land-og-deres-familiemedlemmer-som-tar-utdanning-i-norge-eller-utlandet">§ 8. Lån og stipend til arbeidstakere fra EØS- eller EFTA-land og deres familiemedlemmer som tar utdanning i Norge eller utlandet</h5>
 <p>En statsborger fra et EØS- eller EFTA-land som er arbeidstaker i Norge, har rett til lån og stipend på samme vilkår som norske statsborgere. En EØS- eller EFTA-borger som slutter å arbeide og går over i utdanning, opprettholder sin status som arbeidstaker dersom utdanningen har faglig sammenheng med det tidligere arbeidet. EØS-borgere eller EFTA-borgere som har blitt ufrivillig arbeidsledige, blir likevel regnet som arbeidstakere.</p>
 <p>Følgende medlemmer av EØS- eller EFTA-arbeidstakerens familie har rett til lån og stipend på samme vilkår som norske statsborgere:</p>
@@ -129,7 +432,7 @@ b. barn eller barnebarn av arbeidstakeren eller arbeidstakerens ektefelle, derso
 c. foreldre eller besteforeldre av arbeidstakeren eller arbeidstakerens ektefelle, dersom de blir forsørget av arbeidstakeren eller arbeidstakerens ektefelle
 d. barn av arbeidstakeren eller arbeidstakerens ektefelle, dersom barnet bor og tar utdanning i Norge. Barnet må enten bo sammen med arbeidstakeren eller ha bodd sammen med arbeidstakeren da arbeidstakeren ble regnet som arbeidstaker i Norge.</p>
 <p>Retten til lån og stipend etter bokstav a, b og c gjelder bare så lenge EØS- eller EFTA-borgeren regnes som arbeidstaker i Norge.</p>
-<p><em>Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h5 id="9-lan-og-stipend-til-es-borgere-og-familiemedlemmer-med-varig-oppholdsrett">§ 9. Lån og stipend til EØS-borgere og familiemedlemmer med varig oppholdsrett</h5>
 <p>En EØS-borger med varig oppholdsrett i Norge etter utlendingsloven § 115 , har rett til lån og stipend på samme vilkår som norske statsborgere. Den samme retten gjelder for familiemedlemmer av EØS-borgeren med varig oppholdsrett etter utlendingsloven § 116 .</p>
 <h5 id="10-krav-om-skerens-tilknytning-til-norge-ved-utdanning-i-utlandet-eller-nettstudier">§ 10. Krav om søkerens tilknytning til Norge ved utdanning i utlandet eller nettstudier</h5>
@@ -151,9 +454,9 @@ b. utdanning som bare foregår på nett ved et lærested i et annet EØS-land en
 <h5 id="13-utstyrsstipend-til-ungdom-som-sker-opphold-i-norge">§ 13. Utstyrsstipend til ungdom som søker opphold i Norge</h5>
 <p>Ungdom som søker opphold i Norge, og som har rett til videregående opplæring eller forberedende opplæring for voksne etter opplæringslova § 5-9 og § 18-10 , har rett til utstyrsstipend.</p>
 <p>Søkeren har ikke rett til annen type lån og stipend.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="14-opphevet">§ 14. (Opphevet)</h5>
-<p><em>Opphevet ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Opphevet ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h3 id="kapittel-3-krav-om-opptak-studiekompetanse-alder-finansiering-fra-andre-og-gjeld">Kapittel 3. Krav om opptak, studiekompetanse, alder, finansiering fra andre og gjeld</h3>
 <h5 id="15-krav-om-opptak-som-elev-eller-student">§ 15. Krav om opptak som elev eller student</h5>
 <p>For å ha rett til lån og stipend skal søkeren være tatt opp som elev eller student i en utdanning som er godkjent for utdanningsstøtte, og ha rett til å gå opp til eksamen. Søkere som er lærlinger, har rett til lån og stipend når lærekontrakten er godkjent. Søkere som er lærekandidater, praksisbrevkandidater eller kandidater for fagbrev på jobb, har rett til lån og stipend når opplæringskontrakten er godkjent.</p>
@@ -166,7 +469,7 @@ c. Søkeren har opptak til utdanning i utøvende eller skapende musikk, ballett,
 <h5 id="17-aldersbegrensninger">§ 17. Aldersbegrensninger</h5>
 <p>En søker som har fylt 65 år før 1. januar 2027, har ikke rett til lån og stipend.</p>
 <p>En søker som er over 50 år når utdanningen avsluttes, kan ikke ha høyere gjeld enn 500 000 kr ved avsluttet utdanning da gjelden skal være betalt tilbake før søkeren fyller 70 år. Gjeldsgrensen på 500 000 kr blir redusert med 5 prosent for hvert år søkeren er eldre enn 50 år.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="18-unntak-fra-retten-til-lan-og-stipend-nar-utgifter-til-livsopphold-og-bolig-dekkes-av-det-offentlige">§ 18. Unntak fra retten til lån og stipend når utgifter til livsopphold og bolig dekkes av det offentlige</h5>
 <p>En søker som får dekket utgifter til livsopphold og bolig av det offentlige, har ikke rett til lån og stipend i den samme perioden. Følgende søkere har likevel rett til lån og stipend:</p>
 <p>a. Søkere som er omfattet av del 2 , har rett til utstyrsstipend dersom utgifter til individuelt utstyr ikke dekkes av fylkeskommunen eller andre offentlige ordninger.
@@ -189,7 +492,7 @@ f. stipend til reiser dersom søkeren får ytelser fra kommunen til dekning av r
 <p>En utenlandsk statsborger som får støtte til utdanning i Norge eller i utlandet gjennom en norsk offentlig støtteordning for utvikling, har ikke rett til lån og stipend i den samme perioden.</p>
 <h5 id="22-unntak-fra-retten-til-lan-og-stipend-til-phd-utdanning-i-norden-ved-finansiering-fra-andre">§ 22. Unntak fra retten til lån og stipend til ph.d.-utdanning i Norden ved finansiering fra andre</h5>
 <p>En søker som tar ph.d.-utdanning i Norden og som får finansiering fra andre til dekning av livsoppholdet under utdanningen, har ikke rett til lån og stipend i den samme perioden.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="23-lan-og-stipend-til-sker-som-tidligere-har-fatt-slettet-gjeld-fordi-skeren-var-ufr">§ 23. Lån og stipend til søker som tidligere har fått slettet gjeld fordi søkeren var ufør</h5>
 <p>En søker som tidligere har fått slettet gjeld etter forskrift om tilbakebetaling av utdanningslån fordi søkeren var ufør, har bare rett til lån og stipend til utdanning dersom helsesituasjonen har bedret seg slik at søkeren kan gå tilbake til arbeidslivet når utdanningen er gjennomført.</p>
 <h3 id="kapittel-4-hvilke-utdanninger-som-gir-rett-til-lan-og-stipend">Kapittel 4. Hvilke utdanninger som gir rett til lån og stipend</h3>
@@ -208,7 +511,7 @@ c. Utdanningen skal vare i minst ett semester.</p>
 <p>Det gjøres unntak fra kravet i bokstav a og b for utdanning i sørsamisk språk. Slike søkere har rett til lån og stipend ut fra den prosentandelen av fulltidsutdanning som de tar.</p>
 <p>Det kan gjøres unntak fra kravet i bokstav c for utdanning som har sammenheng med søkerens yrke eller tidligere utdanning og for utvekslingsopphold i utlandet.</p>
 <p>Det kan gjøres unntak fra kravet i bokstav a for søkere i utdanning i utlandet ved krig eller andre alvorlige hendelser som har ført til at det er umulig eller uforholdsmessig vanskelig for søkeren å gjennomføre stedbasert utdanning. Unntak kan gis for inntil ett studieår av gangen.</p>
-<p><em>Endret ved forskrifter 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="26-utdanning-i-norden">§ 26. Utdanning i Norden</h5>
 <p>Utdanning i Norden gir rett til lån og stipend når utdanningen oppfyller følgende vilkår:</p>
 <p>a. Utdanningen skal normalt være offentlig godkjent i studielandet.
@@ -226,15 +529,15 @@ e. ballettutdanning ved Royal Ballet School i London, Storbritannia, til søkere
 f. ballettutdanning ved fremstående læresteder som tilsvarer Royal Ballet School, som blir anbefalt av relevant norsk faginstans og hvor faginstansen bekrefter at lærestedet har strenge krav for opptak
 g. opphold i utlandet som er en del av 1-årig utdanningsprogram for jødiske veivisere som administreres av Det Mosaiske Trossamfund.</p>
 <p>Språkkurset som reguleres i bokstav d, skal ha et omfang på minimum 15 undervisningstimer per uke og en varighet på minst 3 måneder. Til lengre kurs kan det gis lån og stipend i inntil 2 semestre. Kurs ved en språkskole skal lede til en offisiell språkeksamen som teller som grunnlag for opptak til universitets- og høyskoleutdanning. Kurset skal tas i et land hvor søkeren planlegger å ta utdanning som gir rett til lån og stipend. Dersom slikt kurs ikke finnes i landet, kan kurset tas i et annet land, hvor språket er offisielt språk.</p>
-<p><em>Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 des 2022 nr. 2323 (i kraft 1 jan 2023), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 des 2022 nr. 2323 (i kraft 1 jan 2023), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="28-universitets-og-hyskoleutdanning-pa-nett-i-et-es-land-eller-i-storbritannia">§ 28. Universitets- og høyskoleutdanning på nett i et EØS-land eller i Storbritannia</h5>
 <p>En søker som i et annet EØS-land enn Norge tar en universitetets- eller høyskoleutdanning som bare foregår på nett og som oppfyller vilkårene i § 26 eller § 27 første ledd bokstav a eller bokstav b, har bare rett til lån til dekning av skolepenger etter § 89a .</p>
 <p>Søkere som er i gang med en gradsutdanning som bare foregår på nett ved et lærested i Storbritannia, senest innen utløpet av overgangsperioden som er avtalt mellom Island, Liechtenstein, Norge og Storbritannia som følge av at Storbritannia trer ut av EU, har rett til lån til skolepenger etter § 89a . Skolepenger blir gitt i normert tid for utdanningen.</p>
-<p><em>Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="29-utveksling-i-utlandet-for-skere-som-tar-universitets-og-hyskoleutdanning-og-fagskoleutdanning">§ 29. Utveksling i utlandet for søkere som tar universitets- og høyskoleutdanning og fagskoleutdanning</h5>
 <p>Utvekslingsopphold i utlandet som er en godkjent del av en universitets- og høyskoleutdanning eller en fagskoleutdanning som søkeren har begynt på i Norge eller i utlandet, gir rett til lån og stipend. Utvekslingsoppholdet skal vare i minst 4 uker.</p>
 <p>Det gis likevel lån og stipend til kurs som varer mindre enn 4 uker ved de norske studiesentrene og instituttene i utlandet.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="30-yrkesfaglig-utdanning">§ 30. Yrkesfaglig utdanning</h5>
 <p>Yrkesfaglig utdanning i et land utenfor Norden på nivå med videregående opplæring eller fagskoleutdanning i Norge, gir rett til lån og stipend dersom utdanning innenfor tilsvarende fagområde enten ikke finnes i Norge eller regnes som ett av de verneverdige tradisjonshåndverksfagene i Norge i liste publisert av Utdanningsdirektoratet. Utdanningen skal ha offentlig godkjenning i studielandet eller bli anbefalt av norsk faginstans.</p>
 <h5 id="31-praksisopphold-eller-studietur-i-utlandet-for-skere-som-omfattes-av-del-3-og-som-tar-en-utdanning-som-ikke-er-universitets-og-hyskoleutdanning-eller-fagskoleutdanning">§ 31. Praksisopphold eller studietur i utlandet for søkere som omfattes av del 3 og som tar en utdanning som ikke er universitets- og høyskoleutdanning eller fagskoleutdanning</h5>
@@ -246,13 +549,13 @@ g. opphold i utlandet som er en del av 1-årig utdanningsprogram for jødiske ve
 b. Søkeren er tatt opp av United World College Norge.
 c. Søkeren er tatt opp i en utdanning ved utvalgte læresteder i Frankrike, som tilsvarer studiespesialisering i videregående opplæring, gjennom Institut français ved Den franske ambassaden eller Direktoratet for høyere utdanning og kompetanse (HK-dir).
 d. Søkeren er tatt opp i yrkesfaglig opplæring ved utvalgte skoler i Frankrike gjennom Institut français ved Den franske ambassaden.</p>
-<p><em>Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="33-utvekslingsopphold-i-videregaende-opplring-i-land-utenfor-norden">§ 33. Utvekslingsopphold i videregående opplæring i land utenfor Norden</h5>
 <p>Utvekslingsopphold i videregående opplæring i land utenfor Norden gir rett til lån og stipend når søkeren oppfyller ett av følgende vilkår:</p>
 <p>a. Søkeren er tatt opp i et utvekslingssamarbeid mellom norsk videregående skole og utenlandsk skole som er godkjent av Direktoratet for høyere utdanning og kompetanse (HK-dir).
 b. Søkeren er tatt opp i et utvekslingsprogram som varer i 1 år og som vil kunne erstatte videregående trinn 2 i norsk videregående opplæring. Utvekslingsorganisasjonen som tilbyr utvekslingsprogrammet, skal være godkjent av Direktoratet for høyere utdanning og kompetanse (HK-dir).</p>
 <p>Utvekslingsopphold i utlandet på videregående opplæringsnivå gjennom Erasmus+ eller andre nasjonalt inngåtte avtaler, gir også rett til lån og stipend. Utvekslingsoppholdet skal ha en varighet på minst 3 måneder.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h5 id="34-lrlinger-i-utlandet">§ 34. Lærlinger i utlandet</h5>
 <p>En lærling som tar hele eller deler av læretiden i en bedrift i utlandet, har rett til lån og stipend hvis lærlingen har inngått lærekontrakt og opplegget er godkjent av fylkeskommunen.</p>
 <h5 id="35-utdanninger-i-utlandet-som-ikke-gir-rett-til-lan-og-stipend">§ 35. Utdanninger i utlandet som ikke gir rett til lån og stipend</h5>
@@ -261,7 +564,7 @@ b. Søkeren er tatt opp i et utvekslingsprogram som varer i 1 år og som vil kun
 b. flygerutdanning i Norden ved andre læresteder enn offentlige høyskoler eller universiteter
 c. helsefaglig utdanning i et fagområde som ikke er et lovregulert yrke etter lov om helsepersonell § 48
 d. jordmor-, medisin-, provisorfarmasøyt-, sykepleier-, tannlege- eller veterinærmedisinutdanning som tas i land utenfor EØS, Sveits, Storbritannia, USA, Canada, Australia og New Zealand. En søker som våren 2022 eller tidligere startet i en helsefaglig utdanning som ga rett til lån og stipend, har rett til å fullføre denne utdanningen med lån og stipend.</p>
-<p><em>Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h3 id="kapittel-5-foreldrestipend-sykestipend-og-sprakstipend">Kapittel 5. Foreldrestipend, sykestipend og språkstipend</h3>
 <h5 id="36-foreldrestipend">§ 36. Foreldrestipend</h5>
 <p>En søker som får eller adopterer barn i utdanningsperioden og har rett til lån og stipend, får i en periode lån og stipend som foreldrestipend når følgende vilkår er oppfylt:</p>
@@ -293,10 +596,10 @@ b. søkeren blir syk etter at Lånekassen har fått søknad om lån og stipend. 
 c. søkeren ikke har rett til arbeidsavklaringspenger i sykdomsperioden. Dersom søkeren bare mottar arbeidsavklaringspenger i deler av sykdomsperioden, kan sykestipend gis for den perioden søkeren ikke mottar arbeidsavklaringspenger.</p>
 <p>Sykestipendet gis for den delen av sykdomsperioden som går utover de første 14 dagene nevnt i bokstav a, men ikke for mer enn 4 måneder og 15 dager per studieår.</p>
 <p>Utstyrsstipend og lån til skolepenger til utdanning som bare foregår på nett ved et lærested i et annet EØS-land enn Norge, blir ikke gjort om til sykestipend.</p>
-<p><em>Endret ved forskrift 23 juni 2021 nr. 2175 .</em></p>
+<p class="note">Endret ved forskrift 23 juni 2021 nr. 2175 .</p>
 <h5 id="39-sykestipend-pa-grunnlag-av-barns-sykdom">§ 39. Sykestipend på grunnlag av barns sykdom</h5>
 <p>En søker som er helt studieufør på grunn av sykdom hos egne barn under 12 år, har også rett til sykestipend. Som barn under 12 år regnes også barn som fyller 12 år i løpet av 2026. Vilkårene i § 38 første ledd bokstav b, andre og tredje ledd og § 40 gjelder også ved barns sykdom.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="40-beregning-av-sykestipendet">§ 40. Beregning av sykestipendet</h5>
 <p>Sykestipendet blir beregnet ut fra den maksimale summen søkeren har rett til. Søkere som får sykepenger i samme periode som de har rett til sykestipend, får differansen mellom lån og stipend og sykepengene gjort om til sykestipend.</p>
 <h5 id="41-sprakstipend">§ 41. Språkstipend</h5>
@@ -309,7 +612,7 @@ c. en utdanning i et land utenfor Skandinavia.</p>
 <p>Søkeren har ikke rett til lån og stipend til skolepenger til korte, forberedende språkkurs.</p>
 <p>Søkeren har normalt ikke rett til språkstipend mer enn 1 gang til språkkurs i samme språk.</p>
 <p>Søkere som får stipend til språkkurs fra andre, får redusert språkstipend.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h3 id="kapittel-6-sknadsfrister-og-bortfall-av-vedtak-om-lan-og-stipend">Kapittel 6. Søknadsfrister og bortfall av vedtak om lån og stipend</h3>
 <p>Overskrift endret ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="42-generelle-sknadsfrister">§ 42. Generelle søknadsfrister</h5>
@@ -320,7 +623,7 @@ b. for utdanning som starter 1. november 2026 eller senere. Søknaden for høste
 c. for utdanning som starter 1. mars 2027 eller senere og for utdanning som er avsluttet før 15. mars 2027. Søknaden for våren 2027 skal være mottatt før utdanningen er avsluttet.
 d. for lærlinger, lærekandidater, praksisbrevkandidater og kandidater for fagbrev på jobb. Søknaden for høsten 2026 og våren 2027 skal være mottatt senest 30. juni 2027. Hvis opplæringen avsluttes før 30. juni 2027, skal søknaden være mottatt før utdanningen er avsluttet.</p>
 <p>En søker som etter at perioden med lån og stipend er avsluttet, melder endringer eller sender inn opplysninger som Lånekassen har bedt om, har ikke rett til å få behandlet søknaden på nytt. Søkeren har heller ikke rett til å få utbetalt lån og stipend. Det gjøres unntak hvis opplysningene ikke har vært tilgjengelige tidligere.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="43-sknadsfrister-for-foreldrestipend-og-sykestipend">§ 43. Søknadsfrister for foreldrestipend og sykestipend</h5>
 <p>En søknad om foreldrestipend skal være mottatt senest 12 måneder etter fødselen eller omsorgsovertakelsen.</p>
 <p>En søknad om sykestipend skal være mottatt senest 6 måneder etter at studieåret eller utdanningen er avsluttet.</p>
@@ -329,7 +632,7 @@ d. for lærlinger, lærekandidater, praksisbrevkandidater og kandidater for fagb
 <h5 id="44a-bortfall-av-vedtak-om-lan-og-stipend">§ 44a. Bortfall av vedtak om lån og stipend</h5>
 <p>Vedtaket om lån og stipend faller bort dersom søkeren har blitt bedt om å sende inn signert avtale om utdanningsstøtte, og denne ikke er mottatt i Lånekassen innen perioden det ble tildelt lån og stipend for er avsluttet. Det samme gjelder for søkere som er bedt om å sende inn gyldig kontonummer eller annen informasjon som er nødvendig for å gjennomføre utbetalingen.</p>
 <p>Lånekassen kan utvide fristen i første ledd hvis det ikke var mulig for søkeren å overholde den. Søkeren skal i slike tilfeller signere avtalen eller sende inn kontonummer innen den fristen som Lånekassen bestemmer.</p>
-<p><em>Tilføyd ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h3 id="kapittel-7-utbetaling-av-lan-og-stipend">Kapittel 7. Utbetaling av lån og stipend</h3>
 <h5 id="45-utbetaling-av-lan-og-stipend-til-utdanning-i-norge">§ 45. Utbetaling av lån og stipend til utdanning i Norge</h5>
 <p>En søker får månedlige utbetalinger i perioden med lån og stipend. Følgende lån og stipend blir likevel ikke utbetalt månedlig:</p>
@@ -342,7 +645,7 @@ b. utstyrsstipend, som blir utbetalt for 1 eller 2 semestre.</p>
 <p>a. lån og stipend til skolepenger etter § 66 , § 69 og § 87 til § 89a blir utbetalt i sin helhet første semester dersom lærestedet krever hele skolepengebeløpet innbetalt ved starten av studieåret
 b. det siste månedsbeløpet for søkere som har rett til lån og stipend i 11 måneder blir utbetalt i den siste måneden søkeren har rett til lån og stipend
 c. lån til søkere som er 18 år eller eldre etter § 67 og § 68 blir utbetalt månedlig.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="47-utbetaling-ved-avbrutt-utdanning-i-perioden-med-lan-og-stipend">§ 47. Utbetaling ved avbrutt utdanning i perioden med lån og stipend</h5>
 <p>En søker mister retten til lån og stipend fra det tidspunktet utdanningen avbrytes.</p>
 <p>Lån og stipend som ikke er utbetalt når utdanningen avbrytes, blir utbetalt frem til avbruddet dersom utdanningen har vart i minst 3 måneder.</p>
@@ -353,7 +656,7 @@ c. tilleggsstipend til spesielt tilrettelagt ingeniør- og økonomiutdanning i F
 d. rekrutteringsstipend til utdanning i utvalgte land.</p>
 <p>Det gjøres unntak fra kravet om 3 måneder i andre og tredje ledd hvis søkeren må avbryte utdanningen på grunn av sykdom og hvis søkeren oppfyller vilkåret i § 38 første ledd bokstav b.</p>
 <p>En søker som må avbryte utdanning i utlandet på grunn av krig eller andre alvorlige hendelser som førte til at det ble umulig eller uforholdsmessig vanskelig for søkeren å fortsette utdanningen, kan beholde retten til lån og stipend for studieåret.</p>
-<p><em>Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h2 id="del-2-videregaende-opplring-for-skere-under-21-ar-som-ikke-har-oppnadd-studie-eller-yrkeskompetanse-og-forberedende-opplring-for-voksne-for-skere-under-21-ar">Del 2. Videregående opplæring for søkere under 21 år som ikke har oppnådd studie- eller yrkeskompetanse og forberedende opplæring for voksne for søkere under 21 år</h2>
 <p>Deloverskrift endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h3 id="kapittel-8-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 8. Hvor lenge en søker har rett til lån og stipend</h3>
@@ -361,13 +664,13 @@ d. rekrutteringsstipend til utdanning i utvalgte land.</p>
 <h5 id="48-antall-ar-med-lan-og-stipend">§ 48. Antall år med lån og stipend</h5>
 <p>En søker som tar videregående opplæring i Norge eller tilsvarende opplæring i utlandet, har rett til lån og stipend frem til søkeren oppnår studie- eller yrkeskompetanse.</p>
 <p>Søkere som tar forberedende opplæring for voksne, har rett til lån og stipend i inntil 2 år.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="49-periode-med-lan-og-stipend">§ 49. Periode med lån og stipend</h5>
 <p>En søker har normalt rett til lån og stipend i 10 måneder per studieår.</p>
 <p>Dette gjelder likevel ikke for</p>
 <p>a. lærlinger, praksisbrevkandidater, lærekandidater og kandidater for fagbrev på jobb. Slike søkere har rett til lån og stipend i 11 måneder per studieår.
 b. søkere som tar utdanning som varer i mindre enn 1 studieår, eller som har fleksibel start- og sluttdato. Slike søkere har rett til lån og stipend fra den datoen utdanningen starter, til den datoen utdanningen, inkludert eksamen, slutter.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h3 id="kapittel-9-lan-og-stipend-til-videregaende-opplring-og-forberedende-opplring-for-voksne">Kapittel 9. Lån og stipend til videregående opplæring og forberedende opplæring for voksne</h3>
 <p>Kapitteloverskrift endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="50-utstyrsstipend">§ 50. Utstyrsstipend</h5>
@@ -375,7 +678,7 @@ b. søkere som tar utdanning som varer i mindre enn 1 studieår, eller som har f
 <p>Søkere som tar hele den videregående opplæringen i utlandet, har rett til stipend etter laveste sats. Søkere som tar deler av den videregående opplæringen i utlandet, har rett til stipend etter samme sats som for utdanningsprogrammet eller programområdet søkeren tar i Norge.</p>
 <p>Søkere som tar forberedende opplæring for voksne, har rett til stipend etter laveste sats.</p>
 <p>Søkere som bytter utdanningsprogram eller programområde i studieåret, får beholde det stipendet de allerede har fått. Søkere som begynner på et nytt utdanningsprogram eller programområde med høyere sats, har rett til differansen mellom satsene.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="51-borteboerstipend">§ 51. Borteboerstipend</h5>
 <p>En søker som ikke bor sammen med foreldrene, har i studieåret 2026–2027 rett til et stipend til dekning av bokostnader med 7 015 kr per måned når ett av følgende vilkår er oppfylt:</p>
 <p>a. Avstanden mellom foreldrehjemmet og skolen er 40 km eller mer.
@@ -387,12 +690,12 @@ d. Søkeren bor utenfor foreldrehjemmet på grunn av særlige personlige eller s
 <p>a. er gift
 b. forsørger barn og bor sammen med barnet.</p>
 <p>En separert søker regnes ikke som gift i denne bestemmelsen.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 (med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 (med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="52-unntak-fra-retten-til-borteboerstipend-ved-offentlige-stnader-som-er-ment-a-dekke-boutgifter">§ 52. Unntak fra retten til borteboerstipend ved offentlige stønader som er ment å dekke boutgifter</h5>
 <p>En søker som mottar overgangsstønad, uføretrygd, arbeidsavklaringspenger, kommunal eller statlig bostøtte eller andre stønader som er ment å dekke boutgifter, har ikke rett til borteboerstipend.</p>
 <h5 id="53-behovsprving-av-borteboerstipend">§ 53. Behovsprøving av borteboerstipend</h5>
 <p>For lærlinger, praksisbrevkandidater, lærekandidater og kandidater for fagbrev på jobb blir borteboerstipendet i studieåret 2026–2027 redusert dersom brutto månedslønn er høyere enn 18 677 kr i den perioden søkeren får lån og stipend. 60 prosent av bruttoinntekten over denne grensen trekkes fra stipendet. Dersom inntekten varierer, blir gjennomsnittlig månedsinntekt per semester lagt til grunn.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="54-inntektsavhengig-stipend">§ 54. Inntektsavhengig stipend</h5>
 <p>En søker fra en familie med svak økonomi kan få stipend som et bidrag til å dekke livsopphold. Stipendet gis etter 3 satser avhengig av</p>
 <p>a. inntekten til søkerens forsørgere
@@ -401,7 +704,7 @@ c. søkerens trygde- og pensjonsytelser eller lønn som lærling, praksisbrevkan
 <p>Tabellene under viser satser per måned for inntektsavhengig stipend for studieåret 2026–2027, avhengig av forsørgernes inntekt og antall barn i søkerens familie. Inntekten som blir lagt til grunn er personinntekt og netto positiv kapitalinntekt ved fastsettingen av formues- og inntektsskatt for 2024. Inntekt i utlandet eller på Svalbard, som ikke er med i fastsettingen, skal også regnes med.</p>
 <p>Inntekten til forsørgeren økes med 61 359 kr for studieåret 2026–2027 dersom forsørgeren har ektefelle eller samboer som ikke er søkerens forsørger. En separert person regnes ikke som ektefelle i denne bestemmelsen. Med samboere menes par som lever i et ekteskapslignende forhold i en felles husholdning, og som har levd slik i minst 12 av de siste 18 månedene. Tabell A: Inntektsgrense for forsørgere som bor sammen, og forsørger som er alene om forsørgeransvaret Antall barn: Satser: Kr 4071 Kr 2714 Kr 1356 1 0–341 033 kr 341 034–413 564 kr 413 565–486 095 kr 2 0–420 961 kr 420 962–493 492 kr 493 493–566 023 kr 3 0–500 889 kr 500 890–573 420 kr 573 421–645 951 kr 4 eller flere 0–580 817 kr 580 818–653 348 kr 653 349–725 879 kr Tabell B: Inntektsgrense for to forsørgere som ikke bor sammen Antall barn: Satser: Kr 4071 Kr 2714 Kr 1356 1 0–511 551 kr 511 552–584 082 kr 584 083–656 613 kr 2 0–591 479 kr 591 480–664 010 kr 664 011–736 541 kr 3 0–671 407 kr 671 408–743 938 kr 743 939–816 469 kr 4 eller flere 0–751 335 kr 751 336–823 866 kr 823 867–896 397 kr</p>
 <p>Stipendet blir redusert hvis søkeren får lønn som lærling, praksisbrevkandidat, lærekandidat eller kandidat for fagbrev på jobb eller trygde- og pensjonsytelser i den perioden søkeren får lån og stipend. 60 prosent av bruttobeløpet trekkes fra stipendet. Dersom inntekten varierer, blir gjennomsnittlig månedsinntekt per semester lagt til grunn.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="55-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-forsrgerinntekt">§ 55. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot forsørgerinntekt</h5>
 <p>Lånekassen ser bort fra følgende når det inntektsavhengige stipendet behovsprøves:</p>
 <p>a. erstatnings- og forsikringsutbetaling som følge av kritisk sykdom eller personskade på forsørger
@@ -414,20 +717,20 @@ d. Søkeren er gift.
 e. Søkeren forsørger barn og bor sammen med barnet.</p>
 <p>En separert søker regnes ikke som gift i denne bestemmelsen.</p>
 <p>Når Lånekassen ser bort fra inntekten til en av forsørgerne, gjelder inntektsgrensene i tabell A i § 54 .</p>
-<p><em>Endret ved forskrift 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021).</em></p>
+<p class="note">Endret ved forskrift 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021).</p>
 <h5 id="56-ny-beregning-ved-lavere-forsrgerinntekt">§ 56. Ny beregning ved lavere forsørgerinntekt</h5>
 <p>Hvis forsørgernes personinntekt og netto positiv kapitalinntekt er lavere i studieåret enn i skattleggingsperioden 2024, tar Lånekassen hensyn til det. Inntekten beregnes med utgangspunkt i skattereglene.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="57-unntak-fra-vilkar-om-behovsprving-av-inntektsavhengig-stipend-mot-skerens-trygde-og-pensjonsytelser">§ 57. Unntak fra vilkår om behovsprøving av inntektsavhengig stipend mot søkerens trygde- og pensjonsytelser</h5>
 <p>Lånekassen ser bort fra søkerens barnepensjon og grunnstønad i behovsprøvingen av inntektsavhengig stipend.</p>
 <h5 id="58-barnestipend">§ 58. Barnestipend</h5>
 <p>En søker som har barn som er født i 2011 eller senere, og som bor sammen med barnet minst 40 prosent, har rett til barnestipend. Søkeren har på samme vilkår også rett til barnestipend for ektefelles barn. Søkere som har 1 barn, har i studieåret 2026–2027 rett til inntil 2 340 kr per måned. For barn nummer 2 har søkere rett til inntil 2 131 kr. For hvert barn flere enn 2 har søkeren rett til inntil 1 385 kr per måned.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="59-reduksjon-av-barnestipend">§ 59. Reduksjon av barnestipend</h5>
 <p>Barnestipendet blir redusert hvis søkeren får lønn som lærling, praksisbrevkandidat, lærekandidat eller kandidat for fagbrev på jobb eller trygde- og pensjonsytelser i den perioden søkeren får lån og stipend. 60 prosent av bruttobeløpet trekkes fra stipendet. Dersom inntekten varierer, blir gjennomsnittlig månedsinntekt per semester lagt til grunn.</p>
 <p>Barnestipendet til søkere som er gift, blir i studieåret 2026–2027 redusert med 60 prosent av ektefellens eller samboerens bruttoinntekt over 44 471 kr per måned. En separert søker regnes ikke som gift i denne bestemmelsen.</p>
 <p>Lånekassen ser bort fra søkerens barnepensjon og grunnstønad ved behovsprøving mot trygde- og pensjonsytelser.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="60-rekkeflgen-inntektsavhengig-stipend-og-barnestipend-reduseres-i">§ 60. Rekkefølgen inntektsavhengig stipend og barnestipend reduseres i</h5>
 <p>Ved behovsprøvingen reduseres først det inntektsavhengige stipendet, deretter barnestipendet.</p>
 <h5 id="61-flyktningstipend">§ 61. Flyktningstipend</h5>
@@ -438,38 +741,38 @@ b. lån til skolepenger
 c. lån til reise
 d. tilleggslån til søkere som er 18 år eller eldre med barn under 16 år.</p>
 <p>Stipendet blir ikke gjort om til lån etter § 103 hvis søkeren avbryter utdanningen.</p>
-<p><em>Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h5 id="62-antall-ar-med-flyktningstipend">§ 62. Antall år med flyktningstipend</h5>
 <p>En søker har rett til flyktningstipend i inntil 3 år, innenfor en periode på 6 år etter datoen beskyttelsen ble innvilget. Innenfor denne perioden gis stipendet med varighet etter denne tabellen: Tidspunktet utdanningen startet Varighet av flyktningstipendet Innen 3 år etter innvilget beskyttelse 3 år Innen 4 år etter innvilget beskyttelse 2 år Innen 5 år etter innvilget beskyttelse 1 år</p>
 <p>Søkeren har rett til flyktningstipend i inntil 3 år, innenfor en periode på 8 år etter datoen beskyttelsen ble innvilget, når søkeren oppfyller ett av følgende vilkår:</p>
 <p>a. Søkeren har barn eller får barn i løpet av den tiden flyktningstipendet normalt kan gis. Søkeren skal begynne på utdanningen før barnet er fylt 10 år.
 b. Søkeren tar forberedende opplæring for voksne.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="63-stipend-til-reiser-i-norge">§ 63. Stipend til reiser i Norge</h5>
 <p>En søker som ikke bor sammen med en av eller begge foreldrene, har rett til et stipend til dekning av utgifter til 3 reiser tur-retur per studieår mellom foreldrehjemmet og skolen i Norge. Søkeren skal selv dekke en egenandel som i studieåret 2026–2027 er 1 472 kr. Avstand mellom foreldrehjemmet og skolen Sats i studieåret 2026–2027 Inntil 300 kilometer 2,26 kr per kilometer Fra og med 300 til og med 1 500 kilometer 1,25 kr per kilometer Over 1 500 kilometer 0,45 kr per kilometer</p>
 <p>Søkere som tar et nettstudium ved et norsk lærested, har rett til stipend til reiser når obligatorisk klasseromsundervisning er en del av utdanningen.</p>
 <p>Søkere som får støtte til reiser fra andre, har ikke rett til stipend til reiser.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="64-stipend-til-reiser-i-norden">§ 64. Stipend til reiser i Norden</h5>
 <p>En søker som tar utdanning i Norden og som ikke bor sammen med en av eller begge foreldrene, har rett til et stipend til dekning av utgifter til 3 reiser tur-retur per studieår fra Norge til lærestedet i Norden. Stipendet blir beregnet etter satsene i tabellen under. Land Sats i studieåret 2026–2027 Sverige, Finland, Danmark 5 622 kr Island 9 504 kr Færøyene 13 704 kr</p>
 <p>Satsene i tabellen over gjelder for utdanning i et helt studieår. Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
 <p>Søkere som tar utdanning i Norden og som ikke bor sammen med en av eller begge foreldrene, har også rett til et stipend til dekning av utgifter til 3 reiser tur-retur per studieår fra foreldrehjemmet i Norge til grensestasjon i Norge. Stipendet blir gitt etter satsene i tabellen i § 63 .</p>
 <p>Søkeren skal selv dekke en egenandel som i studieåret 2026–2027 er 1 472 kr.</p>
 <p>Søkere som får støtte til reiser fra andre, har ikke rett til stipend til reiser.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="65-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 65. Lån og stipend til reiser i land utenfor Norden</h5>
 <p>En søker som tar utdanning i land utenfor Norden, og som har bostedsadresse i Folkeregisteret i Norge, har rett til lån og stipend til dekning av utgifter til reiser mellom Norge og regionen lærestedet ligger i.</p>
 <p>Søkeren har rett til 65 prosent per region som lån og 35 prosent per region som stipend etter satsene i fjerde kolonne i tabellen under. Region Lån (65 %) Stipend (35 %) Sum i studieåret 2026–2027 Europa 2 022 kr 1 089 kr 3 110 kr Afrika 8 307 kr 4 473 kr 12 780 kr Asia 6 941 kr 3 737 kr 10 678 kr Nord- og Mellom-Amerika 7 543 kr 4 061 kr 11 604 kr Sør-Amerika 9 658 kr 5 200 kr 14 858 kr Oseania 11 005 kr 5 926 kr 16 930 kr</p>
 <p>Søkere som tar utdanning som varer lenger enn 6 måneder per studieår, har også rett til et lån etter satsene i tabellen under. Region Lån i studieåret 2026–2027 Europa 3 110 kr Afrika 12 780 kr Asia 10 678 kr Nord- og Mellom-Amerika 11 604 kr Sør-Amerika 14 858 kr Oseania 16 930 kr</p>
 <p>Søkere som har bostedsadresse i Folkeregisteret i Norge, har også rett til stipend til dekning av utgifter til 2 reiser tur-retur per studieår fra foreldrehjemmet i Norge til grensestasjon i Norge. Stipendet blir gitt etter satsene i tabellen i § 63 . Søkeren skal selv dekke en egenandel som i studieåret 2026–2027 er 980 kr.</p>
 <p>Søkere som får støtte til reiser fra andre eller som bor sammen med en av eller begge foreldrene i utlandet, har ikke rett til lån og stipend til reiser.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="66-stipend-til-skolepenger-til-videregaende-opplring-ved-utenlandske-eller-internasjonale-skoler">§ 66. Stipend til skolepenger til videregående opplæring ved utenlandske eller internasjonale skoler</h5>
 <p>En søker som tar videregående opplæring ved utenlandske eller internasjonale skoler i Norge eller utlandet som ikke er godkjent etter privatskolelova , har i studieåret 2026–2027 rett til stipend til skolepenger på inntil 117 641 kr. Stipendet kan likevel ikke tilsvare mer enn 85 prosent av skolepengene som søkeren skal betale.</p>
 <p>Søkere som tar opplæring ved en skole som er godkjent etter privatskolelova , kan likevel ha rett til stipendet hvis statstilskuddet har et formål eller omfang som har liten eller ingen betydning for størrelsen på skolepengene.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
 <p>Hvis søkeren får støtte til skolepenger fra andre, og den samlede støtten til skolepenger er høyere enn det beløpet som søkeren skal betale, blir stipendet redusert.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="67-lan-til-skere-som-er-18-ar-eller-eldre">§ 67. Lån til søkere som er 18 år eller eldre</h5>
 <p>En søker som er 18 år eller eldre, har i studieåret 2026–2027 rett til å låne inntil 4 046 kr per måned når søkeren oppfyller ett av følgende vilkår:</p>
 <p>a. Søkeren bor ikke sammen med foreldrene.
@@ -477,9 +780,9 @@ b. Søkeren er gift og bor sammen med foreldrene.
 c. Søkeren forsørger barn og bor sammen både med barnet og foreldrene.</p>
 <p>En separert søker regnes ikke som gift i denne bestemmelsen.</p>
 <p>Lånet kan tas opp fra måneden etter at søkeren har fylt 18 år.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="67a-opphevet">§ 67a. (Opphevet)</h5>
-<p><em>Tilføyd ved forskrift 27 jan 2022 nr. 136 , endret ved forskrift 2 des 2022 nr. 2069 , opphevet ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 jan 2022 nr. 136 , endret ved forskrift 2 des 2022 nr. 2069 , opphevet ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="68-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 68. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</h5>
 <p>En søker har i studieåret 2026–2027 rett til et lån på inntil 6 087 kr per måned i 10 måneder når følgende vilkår er oppfylt:</p>
 <p>a. Søkeren er 18 år eller eldre.
@@ -489,11 +792,11 @@ c. Søkeren tar annen utdanning enn forberedende opplæring for voksne.</p>
 <p>Søkeren kan låne inntil 60 870 kr per studieår, begrenset til 121 740 kr totalt.</p>
 <p>Lånet kan tas opp fra måneden etter at søkeren har fylt 18 år.</p>
 <p>Søkeren kan maksimalt få lån på til sammen 243 480 kr etter § 68 , § 95 og § 96 .</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="69-lan-til-skolepenger">§ 69. Lån til skolepenger</h5>
 <p>En søker som betaler skolepenger til lærestedet, har i studieåret 2026–2027 rett til lån til å dekke skolepenger på inntil 33 841 kr. Søkere som får støtte fra andre til skolepenger, får redusert lån til skolepenger.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ), 11 okt 2026 nr. 2067 .</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ), 11 okt 2026 nr. 2067 .</p>
 <h2 id="del-3-universitets-og-hyskoleutdanning-fagskoleutdanning-folkehgskoleutdanning-videregaende-opplring-og-forberedende-opplring-for-voksne-for-skere-som-ikke-er-omfattet-avdel-2-og-andre-utdanninger">Del 3. Universitets- og høyskoleutdanning, fagskoleutdanning, folkehøgskoleutdanning, videregående opplæring og forberedende opplæring for voksne for søkere som ikke er omfattet avdel 2, og andre utdanninger</h2>
 <p>Deloverskrift endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h3 id="kapittel-10-hvor-lenge-en-sker-har-rett-til-lan-og-stipend">Kapittel 10. Hvor lenge en søker har rett til lån og stipend</h3>
@@ -505,12 +808,12 @@ c. Søkeren tar annen utdanning enn forberedende opplæring for voksne.</p>
 b. Søkeren har nedsatt funksjonsevne og er blitt forsinket i utdanningen fordi læringsmiljøet eller studiesituasjonen ikke er tilpasset søkerens nedsatte funksjonsevne.</p>
 <p>Grensen for antall år med lån og stipend til folkehøgskoleutdanning eller forberedende opplæring for voksne kan likevel ikke utvides.</p>
 <p>En søker som tok gradsutdanning i utlandet og som måtte avbryte utdanningen eller ble forhindret fra å avlegge studiepoeng på grunn av krig eller andre alvorlige hendelser som førte til at det var umulig eller uforholdsmessig vanskelig å gjennomføre utdanningen, kan få utvidet antall studiepoeng søkeren kan få lån og stipend til, med inntil 30 studiepoeng. Dersom søkeren skulle ha tatt eksamen for hele studieåret i vårsemesteret, utvides grensen med inntil 60 studiepoeng.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 23 juni 2021 nr. 2175 , 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 23 juni 2021 nr. 2175 , 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="70a-antall-studiepoeng-med-lan-og-stipend-ved-forsinkelse-i-utdanning-i-utlandet-i-2020-eller-varen-2021-pa-grunn-av-utbruddet-av-covid-19">§ 70a. Antall studiepoeng med lån og stipend ved forsinkelse i utdanning i utlandet i 2020 eller våren 2021 på grunn av utbruddet av covid-19</h5>
 <p>Denne bestemmelsen gjelder så lenge det er søkere som oppfyller vilkårene i andre og tredje ledd.</p>
 <p>Lån og stipend kan gis til utdanning på inntil 30 studiepoeng eller tilsvarende utover grensen på 480 studiepoeng eller tilsvarende i § 70 første ledd til søkere i utdanning i utlandet som i 2020 eller våren 2021 var i sitt 16. semester med rett til lån og stipend, og som ble forsinket i utdanningen i samme semester på grunn av utbruddet av covid-19.</p>
 <p>Retten til lån og stipend utvides med 30 studiepoeng eller tilsvarende utover grensen i andre ledd dersom søkeren tok en utdanning som var lagt opp med eksamen bare én gang i året.</p>
-<p><em>Tilføyd ved forskrift 1 juli 2020 nr. 1460 , endret ved forskrift 23 juni 2021 nr. 2175 .</em></p>
+<p class="note">Tilføyd ved forskrift 1 juli 2020 nr. 1460 , endret ved forskrift 23 juni 2021 nr. 2175 .</p>
 <h5 id="71-lan-og-stipend-hvis-skeren-er-forsinket-i-utdanningen">§ 71. Lån og stipend hvis søkeren er forsinket i utdanningen</h5>
 <p>En søker regnes som forsinket i utdanningen hvis søkeren ikke består en utdanning søkeren har fått lån og stipend til. Søkere som er mer enn 60 studiepoeng forsinket, har ikke rett til lån og stipend før semesteret etter at forsinkelse som overstiger 60 studiepoeng, er hentet inn.</p>
 <p>Søkere som er forsinket ut over 60 studiepoeng, kan likevel ha rett til lån og stipend dersom forsinkelsen skyldes en av følgende årsaker:</p>
@@ -519,7 +822,7 @@ b. fødsel i utdanningsperioden
 c. læringsmiljøet eller studiesituasjonen ved lærestedet er ikke tilpasset søkerens nedsatte funksjonsevne
 d. andre særlige grunner som gjør det vanskelig å unngå forsinkelse.</p>
 <p>Søkere som er forsinket ut over 60 studiepoeng og som har nedbetalt utdanningslånet, har likevel rett til lån og stipend. Dersom søkeren senere blir mer enn 60 studiepoeng forsinket, skal vilkårene i første eller andre ledd være oppfylt for å ha rett til lån og stipend.</p>
-<p><em>Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="72-periode-med-lan-og-stipend-i-studiearet">§ 72. Periode med lån og stipend i studieåret</h5>
 <p>En søker som tar universitets- og høyskoleutdanning og fagskoleutdanning, har rett til lån og stipend i 11 måneder per studieår når følgende vilkår er oppfylt:</p>
 <p>a. Søkeren har rett til lån og stipend i vårsemesteret i en periode på mellom 4 og 5 måneder innenfor tidsrommet 16. januar til 15. juli for utdanning i Norge, eller 16. januar til 15. august for utdanning i utlandet.
@@ -535,7 +838,7 @@ b. Søkeren tar en utdanning hvor det er en særlig grunn til at en del av utdan
 c. Søkeren tar studiepoeng som inngår i søkerens utdanning, og som fører til at søkeren sparer inn på normert studietid.
 d. Søkeren tar forkurs eller sommerkurs ved universiteter og høyskoler i Norge.</p>
 <p>Utdanningen om sommeren må vare i minst 2 uker.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="73-lan-og-stipend-i-12-maneder-for-skere-med-nedsatt-funksjonsevne">§ 73. Lån og stipend i 12 måneder for søkere med nedsatt funksjonsevne</h5>
 <p>En søker som på grunn av nedsatt funksjonsevne ikke kan ha lønnet arbeid i tillegg til utdanningen, har rett til lån og stipend i 12 måneder per studieår. Den nedsatte funksjonsevnen skal påvirke studiesituasjonen i betydelig grad, slik at lønnet arbeid i tillegg til utdanningen fører til at søkeren ikke kan opprettholde normal utdanningsprogresjon.</p>
 <p>Søkeren skal studere i hele vårsemesteret og fortsette utdanningen i høstsemesteret.</p>
@@ -545,26 +848,26 @@ d. Søkeren tar forkurs eller sommerkurs ved universiteter og høyskoler i Norge
 <p>Deler av basislånet kan bli gjort om til utdanningsstipend for søkere som ikke bor sammen med foreldrene, etter vilkår om utdanningsprogresjon og behovsprøving i § 77 , § 78 og § 97 .</p>
 <p>Søkere med nedsatt funksjonsevne som ikke bor sammen med foreldrene og som har rett til lån og stipend i 12 måneder, får 40 prosent av basislånet utbetalt som utdanningsstipend i den 11. og 12., eller bare den 12., måneden.</p>
 <p>Søkere som har rett til lån og stipend til forsinkelse utover 60 studiepoeng etter § 71 andre ledd bokstav c, og som ikke mottar trygde- og pensjonsytelser som er ment å dekke livsopphold, har rett til å få basislånet utbetalt som stipend. Stipendet blir ikke behovsprøvd.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="74a-opphevet">§ 74a. (Opphevet)</h5>
-<p><em>Tilføyd ved forskrift 27 jan 2022 nr. 136 , endret ved forskrift 2 des 2022 nr. 2069 , opphevet ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 27 jan 2022 nr. 136 , endret ved forskrift 2 des 2022 nr. 2069 , opphevet ved forskrift 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="75-reduksjon-ved-deltidsutdanning">§ 75. Reduksjon ved deltidsutdanning</h5>
 <p>Låne- og stipendbeløpene gjelder fulltidsutdanning. En søker som tar deltidsutdanning, har rett til lån og stipend ut fra den prosentandelen av fulltidsutdanning som søkeren tar.</p>
 <p>Som fulltidsutdanning i universitets- og høyskoleutdanning og høyere yrkesfaglig utdanning regnes 30 studiepoeng per semester.</p>
 <p>Som fulltidsutdanning i videregående opplæring regnes 924 årstimer per studieår. Som fulltidsutdanning i utdanningsprogram for studiespesialisering regnes 784 årstimer per studieår. Videregående opplæring som er modulstrukturert og forberedende opplæring for voksne regnes også som fulltidsutdanning.</p>
 <p>Som fulltidsutdanning i utdanning som følger læreplaner for videregående opplæring og som fører frem til eksamen for privatister, regnes årstimer per studieår etter tredje ledd.</p>
-<p><em>Endret ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Endret ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="76-omgjring-av-basislan-til-utdanningsstipend">§ 76. Omgjøring av basislån til utdanningsstipend</h5>
 <p>En søker som ikke bor sammen med foreldrene, kan få deler av basislånet omgjort til utdanningsstipend etter reglene i § 77 og § 78 . Hvem som regnes som ikke å bo sammen med foreldrene, reguleres i § 3 . En søker som er gift eller har barn å forsørge og bor sammen med barnet, regnes som ikke å bo sammen med foreldrene. En separert søker regnes ikke som gift i denne bestemmelsen.</p>
 <p>For at basislånet skal kunne gjøres om til utdanningsstipend, skal de faglige resultatene være oppnådd etter at søkeren har fått lån og stipend etter del 3 for første gang, og i en utdanning som gir rett til lån og stipend.</p>
 <p>Størrelsen på basislånet i det semesteret omgjøringen gis, avgjør hvor stor del av basislånet som kan gjøres om til utdanningsstipend.</p>
 <p>Søkere som har rett til å få gjort om deler av basislånet til utdanningsstipend, men som har betalt inn basislån som kunne vært omgjort, har rett til å få tilsvarende beløp utbetalt.</p>
-<p><em>Endret ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Endret ved forskrift 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="77-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatte-studiepoeng-eller-fullfrt-sprakkurs">§ 77. Omgjøring til utdanningsstipend på grunnlag av beståtte studiepoeng eller fullført språkkurs</h5>
 <p>En søker som består studiepoeng eller tilsvarende i universitets- og høyskoleutdanning, får inntil 15 prosent av basislånet gjort om til utdanningsstipend. Søkere i andre utdanninger får inntil 40 prosent av basislånet gjort om til utdanningsstipend. Antall beståtte studiepoeng eller tilsvarende avgjør hvor stor del av basislånet som blir gjort om til utdanningsstipend. Det kan gis omgjøring for inntil 60 studiepoeng eller tilsvarende per studieår. Søkere som har fått lån og stipend til videregående opplæring etter modulstrukturerte læreplaner og forberedende opplæring for voksne, får 40 prosent av basislånet gjort om til utdanningsstipend for perioden det er bekreftet at søkeren har fulgt opplæringen. Søkeren kan bare få omgjøring for den samme perioden som lånet og stipendet er gitt for.</p>
 <p>Søkere som har fullført språkkurs med lån og stipend etter § 27 andre ledd bokstav d og tredje ledd , kan få 40 prosent av basislånet omgjort til utdanningsstipend dersom søkeren begynner på en gradsutdanning i landet der språkkurset ble tatt, innen ett år etter fullført språkkurs.</p>
 <p>Søkere som tar privatisteksamen i fag innen videregående opplæring som søkeren har bestått tidligere, har ikke rett til omgjøring av basislån til utdanningsstipend.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="78-omgjring-til-utdanningsstipend-pa-grunnlag-av-bestatt-grad">§ 78. Omgjøring til utdanningsstipend på grunnlag av bestått grad</h5>
 <p>En søker som består en grad i universitets- og høyskoleutdanning, får inntil 25 prosent av basislånet gjort om til utdanningsstipend. Basislånet gjøres om for det antall semestre graden er normert til.</p>
 <p>Studiepoeng som inngår i 2 beståtte grader, kan bare brukes til omgjøring én gang.</p>
@@ -573,7 +876,7 @@ d. Søkeren tar forkurs eller sommerkurs ved universiteter og høyskoler i Norge
 b. Fullført praktisk-pedagogisk utdanning i samsvar med forskrift til rammeplan for praktisk-pedagogisk utdanning og følgende videreutdanninger i sykepleie i samsvar med forskriftene til rammeplaner for utdanningene: helsesykepleier, jordmor, anestesi-, barne-, intensiv-, operasjons- og kreftsykepleie.
 c. Fullført videreutdanning ved universitet eller høyskole som er et vilkår for autorisasjon etter helsepersonelloven § 48a .</p>
 <p>Disse gradene bestått i utlandet gir også rett til omgjøring: bachelorgrad, mastergrad og ph.d.-grad som kan gis generell godkjenning av Direktoratet for høyere utdanning og kompetanse som likestilt med en akkreditert norsk grad på tilsvarende nivå.</p>
-<p><em>Endret ved forskrifter 16 des 2022 nr. 2323 (i kraft 1 jan 2023), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 16 des 2022 nr. 2323 (i kraft 1 jan 2023), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="79-unntak-fra-vilkaret-om-studiepoeng-eller-grad">§ 79. Unntak fra vilkåret om studiepoeng eller grad</h5>
 <p>En søker som ikke har bestått studiepoeng eller grad, får gjort om basislånet til utdanningsstipend for de semestrene søkeren</p>
 <p>a. har fått foreldrestipend
@@ -601,7 +904,7 @@ b. Søkeren har tidligere fått fullt utdanningsstipend.</p>
 <h5 id="82-barnestipend">§ 82. Barnestipend</h5>
 <p>En søker som har barn som er født i 2011 eller senere, og som bor sammen med barnet minst 40 prosent, har rett til et stipend i tillegg til basislånet. Søkeren har på samme vilkår også rett til barnestipend for ektefelles barn. Søkere som har 1 barn, har i studieåret 2026–2027 rett til inntil 2 340 kr per måned. For barn nummer 2 har søkere rett til inntil 2 131 kr. For hvert barn flere enn 2 har søkeren rett til inntil 1 385 kr per måned.</p>
 <p>Stipendet behovsprøves etter reglene i kapittel 12 .</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 23 juni 2021 nr. 2175 , 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 23 juni 2021 nr. 2175 , 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="83-tilleggsstipend-ved-nedsatt-funksjonsevne">§ 83. Tilleggsstipend ved nedsatt funksjonsevne</h5>
 <p>En søker som på grunn av nedsatt funksjonsevne ikke kan ha lønnet arbeid i tillegg til utdanningen, har, i tillegg til basislånet, rett til et stipend som i studieåret 2026–2027 er 4 668 kr per måned. Stipendet kan gis i 12 måneder per studieår.</p>
 <p>Dersom søkeren har lønnet arbeid i et semester som stipendet er gitt for, faller retten til stipendet bort for hele semesteret. Begrenset arbeid i forbindelse med rekruttering til en stilling før et arbeidsforhold er påbegynt, regnes ikke som lønnet arbeid.</p>
@@ -609,12 +912,12 @@ b. Søkeren har tidligere fått fullt utdanningsstipend.</p>
 <p>Søkeren skal studere i stipendperioden.</p>
 <p>Søkere som er helt studieuføre på søknadstidspunktet og som har rett til sykestipend etter § 38 , har ikke rett til stipendet. Søkere som har mottatt stipendet, og som blir helt studieuføre og har rett til sykestipend etter § 38 , har rett til å beholde tildelt stipend i perioden med sykestipend.</p>
 <p>Stipendet behovsprøves etter reglene i kapittel 12 .</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="84-flyktningstipend">§ 84. Flyktningstipend</h5>
 <p>En utenlandsk statsborger som tar forberedende opplæring for voksne eller videregående opplæring i Norge, som har beskyttelse i Norge og som ikke får introduksjonsstønad etter integreringsloven , får basislånet som flyktningstipend.</p>
 <p>Stipendet blir ikke gjort om til lån etter § 103 hvis søkeren avbryter utdanningen.</p>
 <p>Stipendet behovsprøves etter reglene i kapittel 12 .</p>
-<p><em>Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</em></p>
+<p class="note">Endret ved forskrifter 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024).</p>
 <h5 id="85-antall-ar-med-flyktningstipend">§ 85. Antall år med flyktningstipend</h5>
 <p>En søker har rett til flyktningstipend i inntil 3 år, innenfor en periode på 6 år etter datoen beskyttelsen ble innvilget. Innenfor denne perioden gis stipendet med varighet etter denne tabellen: Tidspunktet utdanningen startet Varighet av flyktningstipendet Innen 3 år etter innvilget beskyttelse 3 år Innen 4 år etter innvilget beskyttelse 2 år Innen 5 år etter innvilget beskyttelse 1 år</p>
 <p>Søkeren har rett til flyktningstipend i inntil 3 år, innenfor en periode på 8 år etter datoen beskyttelsen ble innvilget, dersom søkeren har barn eller får barn i løpet av den tiden flyktningstipendet normalt kan gis. Søkeren skal begynne på utdanningen før barnet er fylt 10 år.</p>
@@ -623,11 +926,11 @@ b. Søkeren har tidligere fått fullt utdanningsstipend.</p>
 <p>Søkere som tar trafikkflygerutdanning i Norge, har, i tillegg til beløpet i første ledd, rett til lån på inntil 450 024 kr i studieåret 2026–2027 til skolepenger per år. Søkeren kan maksimalt få lånet i 2 studieår. Lån til skolepenger er begrenset til 531 126 kr per studieår.</p>
 <p>Søkere som tar yrkessjåførutdanning i Norge, har, i tillegg til beløpet i første ledd, rett til lån på inntil 49 628 kr i studieåret 2026–2027 til skolepenger per år. Lån til skolepenger er begrenset til 130 730 kr per studieår.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats. Dette gjelder likevel ikke for søkere som tar yrkessjåførutdanning etter tredje ledd.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="87-dekning-av-skolepenger-i-norden">§ 87. Dekning av skolepenger i Norden</h5>
 <p>En søker som tar en utdanning i et annet nordisk land enn Norge, og som betaler skolepenger til lærestedet, har i studieåret 2026–2027 rett til lån til å dekke skolepenger på inntil 81 102 kr.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="88-dekning-av-skolepenger-i-land-utenfor-norden">§ 88. Dekning av skolepenger i land utenfor Norden</h5>
 <p>En søker som tar utdanning i land utenfor Norden, og som betaler skolepenger til lærestedet på mer enn 1 000 kr per semester, har i studieåret 2026–2027 rett til lån og stipend til å dekke skolepenger på inntil 294 534 kr.</p>
 <p>Av de første 84 866 kr blir 40 prosent av beløpet gitt som stipend, og den resterende delen av beløpet blir gitt som lån.</p>
@@ -637,7 +940,7 @@ b. Søkeren har tidligere fått fullt utdanningsstipend.</p>
 b. Søkeren får barn i utdanningsperioden.
 c. Søkeren er blitt forsinket på grunn av sykdom.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="89-dekning-av-skolepenger-i-universitets-og-hyskoleutdanning-ved-utvalgte-lresteder-i-land-utenfor-norden">§ 89. Dekning av skolepenger i universitets- og høyskoleutdanning ved utvalgte læresteder i land utenfor Norden</h5>
 <p>En søker som tar universitets- og høyskoleutdanning ved utvalgte læresteder i land utenfor Norden, og som betaler skolepenger på mer enn 1 000 kr per semester, har i studieåret 2026–2027 rett til lån og stipend til å dekke skolepenger på inntil 384 264 kr. Lærestedene velges ut på bakgrunn av resultatene i Academic Ranking of World Universities 2025 og The Times Higher Education World University Rankings 2026.</p>
 <p>Av de første 84 866 kr blir 40 prosent av beløpet gitt som stipend, og den resterende delen av beløpet blir gitt som lån.</p>
@@ -649,42 +952,42 @@ c. Søkeren er blitt forsinket på grunn av sykdom.</p>
 b. Søkeren får barn i utdanningsperioden.
 c. Søkeren er blitt forsinket på grunn av sykdom.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="89a-dekning-av-skolepenger-til-nettstudier-i-es-land">§ 89a. Dekning av skolepenger til nettstudier i EØS-land</h5>
 <p>En søker som tar en utdanning som bare foregår på nett ved et lærested i et annet EØS-land enn Norge, og som omfattes av § 28 , har i studieåret 2026–2027 rett til lån til dekning av skolepenger på inntil 81 102 kr. Søkeren har ikke rett til andre lån eller stipend.</p>
 <p>Søkere som tar utdanning som varer 6 måneder eller mindre per studieår, har rett til halv sats.</p>
-<p><em>Tilføyd ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), endret ved forskrifter 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Tilføyd ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), endret ved forskrifter 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="90-beregning-av-lan-og-stipend-til-skolepenger">§ 90. Beregning av lån og stipend til skolepenger</h5>
 <p>En søker som får støtte fra andre til skolepenger, får redusert lån og stipend. Lånet reduseres først, deretter stipendet.</p>
-<p><em>Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</em></p>
+<p class="note">Endret ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022).</p>
 <h5 id="91-valutajustering-ved-utbetaling-av-lan-og-stipend-til-skolepenger-i-land-utenfor-norden">§ 91. Valutajustering ved utbetaling av lån og stipend til skolepenger i land utenfor Norden</h5>
 <p>En søker som får lån og stipend til dekning av skolepenger i land utenfor Norden, og som betaler skolepenger i utenlandsk valuta, kan få utbetalt et annet beløp enn beløpet i vedtaket om lån og stipend dersom valutakursen for norske kroner er endret sammenlignet med valutakursen Lånekassen fastsetter for studieåret 2026–2027. Dette gjelder ikke for lån til skolepenger til utdanning som bare foregår på nett ved et lærested i et annet EØS-land enn Norge.</p>
 <p>Søkeren kan få utbetalt et lavere beløp dersom den norske kronen har styrket seg med mer enn 1 prosent på utbetalingstidspunktet, sammenliknet med valutakursen som Lånekassen har fastsatt for studieåret.</p>
 <p>Søkeren kan få utbetalt et høyere beløp dersom den norske kronen har svekket seg med mer enn 1 prosent på utbetalingstidspunktet, sammenliknet med valutakursen som Lånekassen har fastsatt for studieåret.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="92-lan-og-stipend-til-reiser-i-land-utenfor-norden">§ 92. Lån og stipend til reiser i land utenfor Norden</h5>
 <p>En søker som tar utdanning i land utenfor Norden, og som har bostedsadresse i Folkeregisteret i Norge, har rett til lån og stipend til dekning av utgifter til reiser mellom Norge og regionen lærestedet ligger i.</p>
 <p>Søkeren har rett til 65 prosent per region som lån og 35 prosent per region som stipend etter satsene i fjerde kolonne i tabellen under. Region Lån (65 %) Stipend (35 %) Sum i studieåret 2026–2027 Europa 2 022 kr 1 089 kr 3 110 kr Afrika 8 307 kr 4 473 kr 12 780 kr Asia 6 941 kr 3 737 kr 10 678 kr Nord- og Mellom-Amerika 7 543 kr 4 061 kr 11 604 kr Sør-Amerika 9 658 kr 5 200 kr 14 858 kr Oseania 11 005 kr 5 926 kr 16 930 kr</p>
 <p>Søkere som tar utdanning som varer lenger enn 6 måneder per studieår, har også rett til et lån etter satsene i tabellen under. Region Lån i studieåret 2026–2027 Europa 3 110 kr Afrika 12 780 kr Asia 10 678 kr Nord- og Mellom-Amerika 11 604 kr Sør-Amerika 14 858 kr Oseania 16 930 kr</p>
 <p>Søkere som tar kurs som varer i mindre enn 4 uker ved de norske studiesentrene og instituttene i utlandet, har bare rett til lån til reiser. Lånet gis etter satsene i tabellen i tredje ledd.</p>
 <p>Søkere som får støtte til reiser fra andre eller som bor sammen med en av eller begge foreldrene i utlandet, har ikke rett til lån og stipend til reiser.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="93-tilleggslan-til-forkurs-eller-sommerkurs-i-norge">§ 93. Tilleggslån til forkurs eller sommerkurs i Norge</h5>
 <p>En søker som sommeren 2027 tar forkurs eller sommerkurs ved universiteter eller høyskoler i Norge, har rett til et lån på inntil 5 830 kr per måned i studieåret 2026–2027, i tillegg til basislån.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="94-tilleggsstipend-til-spesielt-tilrettelagt-ingenir-og-konomiutdanning-i-frankrike-og-tyskland">§ 94. Tilleggsstipend til spesielt tilrettelagt ingeniør- og økonomiutdanning i Frankrike og Tyskland</h5>
 <p>En søker som tar en mastergradsutdanning i ingeniør- eller økonomifag som er spesielt tilrettelagt for norske studenter ved læresteder i Frankrike eller Tyskland, har, i tillegg til basislånet, rett til et stipend i de 3 første årene søkeren har rett til lån og stipend til mastergradsutdanningen. For studieåret 2026–2027 er stipendet på 25 260 kr.</p>
 <p>Utdanningen skal være tilrettelagt av Direktoratet for høyere utdanning og kompetanse (HK-dir).</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="94a-rekrutteringsstipend-til-gradsutdanning-eller-utvekslingsopphold-i-utvalgte-land">§ 94a. Rekrutteringsstipend til gradsutdanning eller utvekslingsopphold i utvalgte land</h5>
 <p>En søker som i Brasil, Russland, India, Kina, Sør-Afrika, Japan eller Sør-Korea tar en gradsutdanning eller et utvekslingsopphold som er en godkjent del av en universitets- og høyskoleutdanning som søkeren har begynt på i Norge, har, i tillegg til basislånet, rett til et stipend i inntil 10 måneder. For studieåret 2026–2027 er stipendet på inntil 4 493 kr per måned.</p>
-<p><em>Tilføyd ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), endret ved forskrifter 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Tilføyd ved forskrift 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), endret ved forskrifter 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="95-tilleggslan-til-skere-som-er-30-ar-eller-eldre">§ 95. Tilleggslån til søkere som er 30 år eller eldre</h5>
 <p>En søker som er født i 1996 eller tidligere og som tar universitets- og høyskoleutdanning eller fagskoleutdanning, har i studieåret 2026–2027 rett til et lån på inntil 12 174 kr per måned i tillegg til basislånet, i 10 måneder. Søkeren kan låne inntil 121 740 kr per studieår, begrenset til 243 480 kr totalt.</p>
 <p>En søker som er født i 1996 eller tidligere og som tar videregående opplæring, har i studieåret 2026–2027 rett til et lån på inntil 6 087 kr per måned i tillegg til basislånet, i 10 måneder. Søkeren kan låne inntil 60 870 kr per studieår, begrenset til 121 740 kr totalt.</p>
 <p>Dersom søkeren har permisjon fra utdanningen på grunn av fødsel eller adopsjon, blir tilleggslånet beregnet etter reglene i § 36 syvende ledd.</p>
 <p>Søkeren kan maksimalt få lån på til sammen 243 480 kr etter § 68 , § 95 og § 96 .</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="96-tilleggslan-til-skere-som-er-18-ar-eller-eldre-med-barn-under-16-ar">§ 96. Tilleggslån til søkere som er 18 år eller eldre med barn under 16 år</h5>
 <p>En søker har i studieåret 2026–2027 rett til et lån på inntil 6 087 kr per måned i tillegg til basislånet, i 10 måneder, når søkeren oppfyller følgende vilkår:</p>
 <p>a. Søkeren er 18 år eller eldre.
@@ -695,14 +998,14 @@ d. Søkeren har ikke rett til tilleggslån etter § 95 .</p>
 <p>Søkeren kan låne inntil 60 870 kr per studieår, begrenset til 121 740 kr totalt.</p>
 <p>Lånet kan tas opp fra og med måneden etter at søkeren har fylt 18 år.</p>
 <p>Søkeren kan maksimalt få lån på til sammen 243 480 kr etter § 68 , § 95 og § 96 .</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h3 id="kapittel-12-behovsprving-av-stipend">Kapittel 12. Behovsprøving av stipend</h3>
 <h5 id="97-behovsprving-av-stipend">§ 97. Behovsprøving av stipend</h5>
 <p>Utdanningsstipend, barnestipend, flyktningstipend og tilleggsstipend til søkere med nedsatt funksjonsevne blir redusert hvis søkeren har brutto person- og kapitalinntekt, trygde- eller pensjonsytelser eller formue over grensene i § 98 , § 99 og § 100 , og hvis søkeren er gift og søkeren og ektefellen samlet har formue over grensene i § 100 . Barnestipendet blir også redusert hvis søkeren er gift, og ektefellen har brutto person- og kapitalinntekt over grensene i § 101 .</p>
 <p>Stipendene behovsprøves mot opplysninger om brutto person- og kapitalinntekt, trygde- og pensjonsytelser og formue i fastsettingen av formues- og inntektsskatt for det kalenderåret søkeren har fått lån og stipend. Inntekt og formue opptjent på Svalbard regnes med. Stipend søkeren ikke har rett til, blir gjort om til lån.</p>
 <p>Stipendene blir redusert i denne rekkefølgen: Tilleggsstipend til søkere med nedsatt funksjonsevne, barnestipend, utdanningsstipend og flyktningstipend.</p>
 <p>Separerte søkere regnes ikke som gift i dette kapittelet. Ved behovsprøving legger Lånekassen til grunn den sivilstanden som søkeren hadde da søknaden om lån og stipend ble mottatt, med mindre sivilstanden har endret seg.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025).</p>
 <h5 id="98-behovsprving-mot-person-og-kapitalinntekt">§ 98. Behovsprøving mot person- og kapitalinntekt</h5>
 <p>En søker som har brutto person- og kapitalinntekt over grensene i tabellen under, får stipendet redusert med 5 prosent per måned av den delen av inntekten som overstiger grensene. Kalenderår Lån og stipend i mer enn 7 måneder per kalenderår Lån og stipend i 7 måneder eller mindre per kalenderår 2026 234 821 kr 587 053 kr 2027 243 040 kr 607 600 kr</p>
 <p>Eksempler på ytelser etter folketrygdloven som behovsprøves etter § 98 :</p>
@@ -716,7 +1019,7 @@ b. barnepensjon
 c. avkastning av barns formue dersom formuen forvaltes av statsforvalteren
 d. erstatnings- og forsikringsutbetaling som følge av kritisk sykdom eller personskade på søkeren eller søkerens ektefelle
 e. skattefrie inntekter.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 , 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 , 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="99-behovsprving-mot-trygde-eller-pensjonsytelser">§ 99. Behovsprøving mot trygde- eller pensjonsytelser</h5>
 <p>En søker som får trygde- eller pensjonsytelser over grensene i tabellen under, får stipendet redusert med 5 prosent per måned av den delen av ytelsene som overstiger grensene. Kalenderår Lån og stipend i mer enn 7 måneder per kalenderår Lån og stipend i 7 måneder eller mindre per kalenderår 2026 125 643 kr 352 231 kr 2027 130 041 kr 364 559 kr</p>
 <p>Eksempler på ytelser etter folketrygdloven , integreringsloven og sosialtjenesteloven som behovsprøves etter § 99 :</p>
@@ -730,7 +1033,7 @@ g. kvalifiseringsstønad.</p>
 <p>Fra 1. januar 2022 skal dagpenger under arbeidsløshet for søkere som tar høyere utdanning, eller høyere utdanning i kombinasjon med annen utdanning, behovsprøves etter § 99 .</p>
 <p>Barnepensjon og skattefrie ytelser regnes ikke med.</p>
 <p>En etterbetalt trygde- eller pensjonsytelse som er opptjent i en tidligere periode enn året den ble skattlagt, behovsprøves både for alle opptjeningsårene søkeren har fått stipend og for det året ytelsen ble skattlagt.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 , 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 7 april 2022 nr. 555 , 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="100-behovsprving-mot-formue">§ 100. Behovsprøving mot formue</h5>
 <p>En søker som har formue over grensene i tabellen under, får stipendet redusert med 2 prosent per måned av den delen av formuen som overstiger grensene.</p>
 <p>Gifte søkere som har formue over grensene i tabellen under, får stipendet redusert med 1 prosent per måned av den delen av samlet formue for søkeren og ektefellen som overstiger grensene. Formue som ektefellen har i særeie, regnes med. Søkere som er gift når Lånekassen mottar søknaden om lån og stipend, regnes som gift ved behovsprøvingen. Kalenderår Enslig søker Samlet for søkeren og søkerens ektefelle 2026 534 225 kr 1 026 024 kr 2027 552 923 kr 1 061 935 kr</p>
@@ -738,10 +1041,10 @@ g. kvalifiseringsstønad.</p>
 <p>a. barns formue dersom formuen forvaltes av statsforvalteren
 b. erstatnings- og forsikringsutbetaling som følge av kritisk sykdom eller personskade på søkeren eller søkerens ektefelle
 c. formuesverdien av trygdefinansiert bil. Dersom formuesverdien av bilen er høyere enn tilskuddet til innkjøp av bilen fra folketrygden, skal differansen mellom disse beløpene regnes som en del av formuen.</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h5 id="101-behovsprving-av-barnestipend-mot-ektefelles-person-og-kapitalinntekt">§ 101. Behovsprøving av barnestipend mot ektefelles person- og kapitalinntekt</h5>
 <p>Barnestipendet blir redusert dersom søkeren har en ektefelle med brutto person- og kapitalinntekt over grensene i tabellen under i den perioden søkeren får barnestipend. Renteinntekter fra Boligsparing for ungdom regnes ikke med. Stipendet blir redusert med 5 prosent per måned av den delen av ektefellens brutto person- og kapitalinntekt som overstiger grensene. Kalenderår Person- og kapitalinntekt til søkerens ektefelle 2026 529 861 kr 2027 548 406 kr</p>
-<p><em>Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</em></p>
+<p class="note">Endret ved forskrifter 24 mars 2021 nr. 1028 (i kraft 15 april 2021, med virkning fra 16 aug 2021), 10 feb 2022 nr. 282 (i kraft 1 mars 2022, med virkning fra 16 aug 2022), 16 mars 2023 nr. 353 (i kraft 15 april 2023 med virkning fra 16 aug 2023), 4 mars 2024 nr. 376 (i kraft 15 april 2024 med virkning fra 16 aug 2024), 27 feb 2025 nr. 348 (i kraft 15 april 2025 med virkning fra 16 aug 2025), 24 april 2026 nr. 649 (i kraft 24 april 2026 med virkning fra 16 aug 2026, endring endret ved forskrift 24 mai 2026 nr. 896 ).</p>
 <h2 id="del-4-avsluttende-bestemmelser">Del 4. Avsluttende bestemmelser</h2>
 <h3 id="kapittel-13-opplysningsplikt-tap-av-rettigheter-og-ikrafttredelse">Kapittel 13. Opplysningsplikt, tap av rettigheter og ikrafttredelse</h3>
 <h5 id="102-skerens-plikt-til-a-gi-opplysninger">§ 102. Søkerens plikt til å gi opplysninger</h5>
@@ -757,6 +1060,8 @@ c. formuesverdien av trygdefinansiert bil. Dersom formuesverdien av bilen er hø
 <p>Mislighold av betalingsplikten etter forskrift om tilbakebetaling av utdanningslån kan føre til at søkeren mister retten til lån og stipend til ny utdanning.</p>
 <h5 id="106-ikrafttredelse">§ 106. Ikrafttredelse</h5>
 <p>Forskriften trer i kraft fra 15. april 2020.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,219 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2019-03-30-2307.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Kirkeordning for Den norske kirke" href="../feeds/forskrift-2019-03-30-2307.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &rsaquo;
 <span>Kirkeordning for Den norske kirke</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2019-03-30-2307</code></dd>
-<dt>Departement</dt><dd>Barne- og familiedepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-03-22-487</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2019-03-30-2307" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-den-norske-kirkes-grunnlag">Kapittel 1. Den norske kirkes grunnlag</a></li>
+<li class="lvl4"><a href="#1-den-norske-kirkes-lregrunnlag">§ 1. Den norske kirkes læregrunnlag</a></li>
+<li class="lvl4"><a href="#2-forholdet-til-den-vrige-kirkeordning">§ 2. Forholdet til den øvrige kirkeordning</a></li>
+<li class="lvl2"><a href="#kapittel-2-kirkelig-inndeling-kirkens-organer-medlemskap-kirkelige-registre-og-kirkelig-stemmerett">Kapittel 2. Kirkelig inndeling, kirkens organer, medlemskap, kirkelige registre og kirkelig stemmerett</a></li>
+<li class="lvl4"><a href="#3-kirkelig-inndeling-navn-pa-kirker-og-kirkelige-enheter-srskilte-menighetsformer">§ 3. Kirkelig inndeling, navn på kirker og kirkelige enheter, særskilte menighetsformer</a></li>
+<li class="lvl4"><a href="#4-medlemskap">§ 4. Medlemskap</a></li>
+<li class="lvl4"><a href="#5-registrering-i-den-norske-kirkes-medlemsregister">§ 5. Registrering i Den norske kirkes medlemsregister</a></li>
+<li class="lvl4"><a href="#6-soknetilknytning">§ 6. Soknetilknytning</a></li>
+<li class="lvl4"><a href="#7-stemmerett-og-valg">§ 7. Stemmerett og valg</a></li>
+<li class="lvl2"><a href="#kapittel-3-virksomheten-i-soknet-soknets-organer-og-deres-oppgavefordeling-mm">Kapittel 3. Virksomheten i soknet. Soknets organer og deres oppgavefordeling m.m.</a></li>
+<li class="lvl4"><a href="#8-soknets-organer">§ 8. Soknets organer</a></li>
+<li class="lvl4"><a href="#9-menighetsradets-sammensetning">§ 9. Menighetsrådets sammensetning</a></li>
+<li class="lvl4"><a href="#10-uttreden-av-menighetsradet-i-valgperioden">§ 10. Uttreden av menighetsrådet i valgperioden</a></li>
+<li class="lvl4"><a href="#11-formene-for-menighetsradets-virksomhet">§ 11. Formene for menighetsrådets virksomhet</a></li>
+<li class="lvl4"><a href="#12-menighetsradets-oppgaver">§ 12. Menighetsrådets oppgaver</a></li>
+<li class="lvl4"><a href="#13-menighetsmtet">§ 13. Menighetsmøtet</a></li>
+<li class="lvl4"><a href="#14-menighetsmtets-oppgaver">§ 14. Menighetsmøtets oppgaver</a></li>
+<li class="lvl4"><a href="#15-kirkelig-fellesrads-sammensetning">§ 15. Kirkelig fellesråds sammensetning</a></li>
+<li class="lvl4"><a href="#16-formene-for-kirkelig-fellesrads-virksomhet">§ 16. Formene for kirkelig fellesråds virksomhet</a></li>
+<li class="lvl4"><a href="#17-kirkelig-fellesrads-oppgaver">§ 17. Kirkelig fellesråds oppgaver</a></li>
+<li class="lvl4"><a href="#18-opptak-av-lan-pa-soknets-vegne-og-andre-konomibestemmelser-for-soknet">§ 18. Opptak av lån på soknets vegne og andre økonomibestemmelser for soknet</a></li>
+<li class="lvl2"><a href="#kapittel-4-kirker">Kapittel 4. Kirker</a></li>
+<li class="lvl4"><a href="#19-definisjon-av-og-eiendomsrett-til-kirke">§ 19. Definisjon av og eiendomsrett til kirke</a></li>
+<li class="lvl4"><a href="#20-forvaltning-av-kirkene-og-begrensning-i-radighet">§ 20. Forvaltning av kirkene og begrensning i rådighet</a></li>
+<li class="lvl4"><a href="#21-kirkefond">§ 21. Kirkefond</a></li>
+<li class="lvl4"><a href="#22-betaling-for-bruk-av-kirken-mv">§ 22. Betaling for bruk av kirken mv.</a></li>
+<li class="lvl4"><a href="#23-oppfring-av-ny-kirke-mv">§ 23. Oppføring av ny kirke mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-regionale-og-nasjonale-kirkelige-organer">Kapittel 5. Regionale og nasjonale kirkelige organer</a></li>
+<li class="lvl4"><a href="#24-bispedmmeradets-sammensetning">§ 24. Bispedømmerådets sammensetning</a></li>
+<li class="lvl4"><a href="#25-formene-for-bispedmmeradets-virksomhet">§ 25. Formene for bispedømmerådets virksomhet</a></li>
+<li class="lvl4"><a href="#26-bispedmmeradets-oppgaver">§ 26. Bispedømmerådets oppgaver</a></li>
+<li class="lvl4"><a href="#27-kirkemtets-sammensetning">§ 27. Kirkemøtets sammensetning</a></li>
+<li class="lvl4"><a href="#28-kirkemtets-oppgaver">§ 28. Kirkemøtets oppgaver</a></li>
+<li class="lvl4"><a href="#29-kirkeradets-sammensetning">§ 29. Kirkerådets sammensetning</a></li>
+<li class="lvl4"><a href="#30-kirkeradets-oppgaver-mm">§ 30. Kirkerådets oppgaver m.m.</a></li>
+<li class="lvl4"><a href="#31-bispemtet">§ 31. Bispemøtet</a></li>
+<li class="lvl4"><a href="#32-klagenemndas-sammensetning">§ 32. Klagenemndas sammensetning</a></li>
+<li class="lvl4"><a href="#33-klagenemndas-oppgaver">§ 33. Klagenemndas oppgaver</a></li>
+<li class="lvl4"><a href="#34-samisk-kirkerads-sammensetning">§ 34. Samisk kirkeråds sammensetning</a></li>
+<li class="lvl4"><a href="#35-samisk-kirkerads-oppgaver">§ 35. Samisk kirkeråds oppgaver</a></li>
+<li class="lvl4"><a href="#36-ungdomsdemokrati">§ 36. Ungdomsdemokrati</a></li>
+<li class="lvl2"><a href="#kapittel-6-forskjellige-bestemmelser">Kapittel 6. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#36a-kirkens-styringstjeneste">§ 36a. Kirkens styringstjeneste</a></li>
+<li class="lvl4"><a href="#36b-samisk-kirkeliv">§ 36b. Samisk kirkeliv</a></li>
+<li class="lvl4"><a href="#37-retningslinjer-for-arbeid-i-mter-og-rad">§ 37. Retningslinjer for arbeid i møter og råd.</a></li>
+<li class="lvl4"><a href="#38-rett-og-plikt-til-a-delta-i-mte">§ 38. Rett og plikt til å delta i møte</a></li>
+<li class="lvl4"><a href="#39-vigslede-medarbeideres-tjeneste">§ 39. Vigslede medarbeideres tjeneste</a></li>
+<li class="lvl4"><a href="#39a-biskopens-tilsyn">§ 39a. Biskopens tilsyn</a></li>
+<li class="lvl4"><a href="#40-adgang-til-a-oppstille-vilkar-om-medlemskap-i-den-norske-kirke-for-tilsatte-og-ombud">§ 40. Adgang til å oppstille vilkår om medlemskap i Den norske kirke for tilsatte og ombud</a></li>
+<li class="lvl4"><a href="#41-partssammensatt-utvalg-mm">§ 41. Partssammensatt utvalg m.m.</a></li>
+<li class="lvl4"><a href="#42-saksbehandlingsregler-for-kirkelige-organer-og-forholdet-mellom-kirkeordningen-og-annet-kirkelig-regelverk">§ 42. Saksbehandlingsregler for kirkelige organer og forholdet mellom kirkeordningen og annet kirkelig regelverk</a></li>
+<li class="lvl4"><a href="#42a-sprak">§ 42a. Språk</a></li>
+<li class="lvl4"><a href="#43-endringsregler">§ 43. Endringsregler</a></li>
+<li class="lvl4"><a href="#44-overgangsregler">§ 44. Overgangsregler</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-03-22-487.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-03-30-2307.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Kirkeordning for Den norske kirke</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-03-30-2307.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2019-03-30-2307 <code>forskrift/2019-03-30-2307</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Barne- og familiedepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-03-22-487 <code>forskrift/2026-03-22-487</code> fra 22.03.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2019-03-30-2307" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-den-norske-kirkes-grunnlag">Kapittel 1. Den norske kirkes grunnlag</a></li>
+<li class="lvl4"><a href="#1-den-norske-kirkes-lregrunnlag">§ 1. Den norske kirkes læregrunnlag</a></li>
+<li class="lvl4"><a href="#2-forholdet-til-den-vrige-kirkeordning">§ 2. Forholdet til den øvrige kirkeordning</a></li>
+<li class="lvl2"><a href="#kapittel-2-kirkelig-inndeling-kirkens-organer-medlemskap-kirkelige-registre-og-kirkelig-stemmerett">Kapittel 2. Kirkelig inndeling, kirkens organer, medlemskap, kirkelige registre og kirkelig stemmerett</a></li>
+<li class="lvl4"><a href="#3-kirkelig-inndeling-navn-pa-kirker-og-kirkelige-enheter-srskilte-menighetsformer">§ 3. Kirkelig inndeling, navn på kirker og kirkelige enheter, særskilte menighetsformer</a></li>
+<li class="lvl4"><a href="#4-medlemskap">§ 4. Medlemskap</a></li>
+<li class="lvl4"><a href="#5-registrering-i-den-norske-kirkes-medlemsregister">§ 5. Registrering i Den norske kirkes medlemsregister</a></li>
+<li class="lvl4"><a href="#6-soknetilknytning">§ 6. Soknetilknytning</a></li>
+<li class="lvl4"><a href="#7-stemmerett-og-valg">§ 7. Stemmerett og valg</a></li>
+<li class="lvl2"><a href="#kapittel-3-virksomheten-i-soknet-soknets-organer-og-deres-oppgavefordeling-mm">Kapittel 3. Virksomheten i soknet. Soknets organer og deres oppgavefordeling m.m.</a></li>
+<li class="lvl4"><a href="#8-soknets-organer">§ 8. Soknets organer</a></li>
+<li class="lvl4"><a href="#9-menighetsradets-sammensetning">§ 9. Menighetsrådets sammensetning</a></li>
+<li class="lvl4"><a href="#10-uttreden-av-menighetsradet-i-valgperioden">§ 10. Uttreden av menighetsrådet i valgperioden</a></li>
+<li class="lvl4"><a href="#11-formene-for-menighetsradets-virksomhet">§ 11. Formene for menighetsrådets virksomhet</a></li>
+<li class="lvl4"><a href="#12-menighetsradets-oppgaver">§ 12. Menighetsrådets oppgaver</a></li>
+<li class="lvl4"><a href="#13-menighetsmtet">§ 13. Menighetsmøtet</a></li>
+<li class="lvl4"><a href="#14-menighetsmtets-oppgaver">§ 14. Menighetsmøtets oppgaver</a></li>
+<li class="lvl4"><a href="#15-kirkelig-fellesrads-sammensetning">§ 15. Kirkelig fellesråds sammensetning</a></li>
+<li class="lvl4"><a href="#16-formene-for-kirkelig-fellesrads-virksomhet">§ 16. Formene for kirkelig fellesråds virksomhet</a></li>
+<li class="lvl4"><a href="#17-kirkelig-fellesrads-oppgaver">§ 17. Kirkelig fellesråds oppgaver</a></li>
+<li class="lvl4"><a href="#18-opptak-av-lan-pa-soknets-vegne-og-andre-konomibestemmelser-for-soknet">§ 18. Opptak av lån på soknets vegne og andre økonomibestemmelser for soknet</a></li>
+<li class="lvl2"><a href="#kapittel-4-kirker">Kapittel 4. Kirker</a></li>
+<li class="lvl4"><a href="#19-definisjon-av-og-eiendomsrett-til-kirke">§ 19. Definisjon av og eiendomsrett til kirke</a></li>
+<li class="lvl4"><a href="#20-forvaltning-av-kirkene-og-begrensning-i-radighet">§ 20. Forvaltning av kirkene og begrensning i rådighet</a></li>
+<li class="lvl4"><a href="#21-kirkefond">§ 21. Kirkefond</a></li>
+<li class="lvl4"><a href="#22-betaling-for-bruk-av-kirken-mv">§ 22. Betaling for bruk av kirken mv.</a></li>
+<li class="lvl4"><a href="#23-oppfring-av-ny-kirke-mv">§ 23. Oppføring av ny kirke mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-regionale-og-nasjonale-kirkelige-organer">Kapittel 5. Regionale og nasjonale kirkelige organer</a></li>
+<li class="lvl4"><a href="#24-bispedmmeradets-sammensetning">§ 24. Bispedømmerådets sammensetning</a></li>
+<li class="lvl4"><a href="#25-formene-for-bispedmmeradets-virksomhet">§ 25. Formene for bispedømmerådets virksomhet</a></li>
+<li class="lvl4"><a href="#26-bispedmmeradets-oppgaver">§ 26. Bispedømmerådets oppgaver</a></li>
+<li class="lvl4"><a href="#27-kirkemtets-sammensetning">§ 27. Kirkemøtets sammensetning</a></li>
+<li class="lvl4"><a href="#28-kirkemtets-oppgaver">§ 28. Kirkemøtets oppgaver</a></li>
+<li class="lvl4"><a href="#29-kirkeradets-sammensetning">§ 29. Kirkerådets sammensetning</a></li>
+<li class="lvl4"><a href="#30-kirkeradets-oppgaver-mm">§ 30. Kirkerådets oppgaver m.m.</a></li>
+<li class="lvl4"><a href="#31-bispemtet">§ 31. Bispemøtet</a></li>
+<li class="lvl4"><a href="#32-klagenemndas-sammensetning">§ 32. Klagenemndas sammensetning</a></li>
+<li class="lvl4"><a href="#33-klagenemndas-oppgaver">§ 33. Klagenemndas oppgaver</a></li>
+<li class="lvl4"><a href="#34-samisk-kirkerads-sammensetning">§ 34. Samisk kirkeråds sammensetning</a></li>
+<li class="lvl4"><a href="#35-samisk-kirkerads-oppgaver">§ 35. Samisk kirkeråds oppgaver</a></li>
+<li class="lvl4"><a href="#36-ungdomsdemokrati">§ 36. Ungdomsdemokrati</a></li>
+<li class="lvl2"><a href="#kapittel-6-forskjellige-bestemmelser">Kapittel 6. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#36a-kirkens-styringstjeneste">§ 36a. Kirkens styringstjeneste</a></li>
+<li class="lvl4"><a href="#36b-samisk-kirkeliv">§ 36b. Samisk kirkeliv</a></li>
+<li class="lvl4"><a href="#37-retningslinjer-for-arbeid-i-mter-og-rad">§ 37. Retningslinjer for arbeid i møter og råd.</a></li>
+<li class="lvl4"><a href="#38-rett-og-plikt-til-a-delta-i-mte">§ 38. Rett og plikt til å delta i møte</a></li>
+<li class="lvl4"><a href="#39-vigslede-medarbeideres-tjeneste">§ 39. Vigslede medarbeideres tjeneste</a></li>
+<li class="lvl4"><a href="#39a-biskopens-tilsyn">§ 39a. Biskopens tilsyn</a></li>
+<li class="lvl4"><a href="#40-adgang-til-a-oppstille-vilkar-om-medlemskap-i-den-norske-kirke-for-tilsatte-og-ombud">§ 40. Adgang til å oppstille vilkår om medlemskap i Den norske kirke for tilsatte og ombud</a></li>
+<li class="lvl4"><a href="#41-partssammensatt-utvalg-mm">§ 41. Partssammensatt utvalg m.m.</a></li>
+<li class="lvl4"><a href="#42-saksbehandlingsregler-for-kirkelige-organer-og-forholdet-mellom-kirkeordningen-og-annet-kirkelig-regelverk">§ 42. Saksbehandlingsregler for kirkelige organer og forholdet mellom kirkeordningen og annet kirkelig regelverk</a></li>
+<li class="lvl4"><a href="#42a-sprak">§ 42a. Språk</a></li>
+<li class="lvl4"><a href="#43-endringsregler">§ 43. Endringsregler</a></li>
+<li class="lvl4"><a href="#44-overgangsregler">§ 44. Overgangsregler</a></li>
+<li class="lvl4"><a href="#45-ikrafttredelse">§ 45. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-03-30-2307.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2019-03-30-2307.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2019-03-30-2307.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2019-03-30-2307.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2019-03-30-2307.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-03-30-2307.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2019-03-30-2307.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2019-03-30-2307.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2019-03-30-2307.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="kirkeordning-for-den-norske-kirke">Kirkeordning for Den norske kirke</h1>
 <h2 id="kapittel-1-den-norske-kirkes-grunnlag">Kapittel 1. Den norske kirkes grunnlag</h2>
 <p>Tilføyd ved forskrift 9 okt 2020 nr. 2797 (i kraft 1 jan 2021).</p>
 <h4 id="1-den-norske-kirkes-lregrunnlag">§ 1. Den norske kirkes læregrunnlag</h4>
@@ -97,16 +252,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Barn anses å høre inn under Den norske kirke fra fødselen dersom foreldrene er medlemmer.</p>
 <p>Kirkemøtet fastsetter nærmere regler om framgangsmåte for inn- og utmelding.</p>
 <p>Biskopen avgjør i tvilstilfelle om en person skal anses som medlem av Den norske kirke.</p>
-<p><em>Endret ved forskrift 25 sep 2022 nr. 1695 .</em></p>
+<p class="note">Endret ved forskrift 25 sep 2022 nr. 1695 .</p>
 <h4 id="5-registrering-i-den-norske-kirkes-medlemsregister">§ 5. Registrering i Den norske kirkes medlemsregister</h4>
 <p>Medlemmer registreres i Den norske kirkes medlemsregister.</p>
 <p>Opplysninger om døpte, konfirmerte, vigsler til ekteskap, jordfestelser ved prest i Den norske kirke samt inn- og utmeldinger skal også inntas i registeret.</p>
-<p><em>Endret ved forskrift 25 sep 2022 nr. 1695 .</em></p>
+<p class="note">Endret ved forskrift 25 sep 2022 nr. 1695 .</p>
 <h4 id="6-soknetilknytning">§ 6. Soknetilknytning</h4>
 <p>Medlemskap i Den norske kirke er knyttet til det sokn medlemmet er bosatt i.</p>
 <p>Biskopen kan etter søknad fra et medlem samtykke i at dette får sin tilknytning overført til et annet sokn enn det vedkommende er bosatt i. Biskopen kan samtykke i at et medlem beholder valgbarheten i et sokn ut valgperioden, selv om vedkommende flytter eller får sin tilknytning overført.</p>
 <p>Medlemmer av Den norske kirke blir betjent i det soknet de er knyttet til og får likeledes tilbud om kirkens tjenester i gudstjenester og kirkelige handlinger.</p>
-<p><em>Endret ved forskrift 26 sep 2022 nr. 1683 .</em></p>
+<p class="note">Endret ved forskrift 26 sep 2022 nr. 1683 .</p>
 <h4 id="7-stemmerett-og-valg">§ 7. Stemmerett og valg</h4>
 <p>Hvert medlem av Den norske kirke som bor i eller er registrert i soknet og som senest i det år det stemmes vil ha fylt 15 år, har kirkelig stemmerett.</p>
 <p>Ingen kan ha stemmerett i mer enn ett sokn.</p>
@@ -119,7 +274,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>I prosti hvor ikke alle sokn hører til samme kommune og i andre tilfeller der det ligger til rette for det, kan Kirkerådet samtykke til etablering av kirkelig fellesråd som omfatter flere kommuner. I kommuner med særlig mange sokn kan Kirkerådet også foreta andre tilpasninger av bestemmelsene om kirkelig fellesråd.</p>
 <p>For å fremme hensiktsmessige organisasjonsformer og en hensiktsmessig oppgavefordeling i og mellom soknene kan Kirkerådet godkjenne forsøk som avviker fra kirkeordningens bestemmelser om organiseringen av soknets organer i kommuner med mer enn ett sokn, oppgavefordelingen mellom disse og deres sammensetning. Kirkerådet kan gi nærmere retningslinjer for forsøk etter denne bestemmelse.</p>
 <p>Ved endringer i kommunegrenser eller sammenslåing av kommuner gjelder bestemmelsene i inndelingslova om økonomisk oppgjør i kapittel V og gjennomføring i kapittel VI tilsvarende for kirkelig fellesråd så langt det passer. Bispedømmerådet utøver den myndighet som i inndelingslova er lagt til statsforvalteren.</p>
-<p><em>Endret ved forskrifter 14 nov 2021 nr. 3252 (i kraft 1 jan 2022), 8 aug 2023 nr. 1345 .</em></p>
+<p class="note">Endret ved forskrifter 14 nov 2021 nr. 3252 (i kraft 1 jan 2022), 8 aug 2023 nr. 1345 .</p>
 <h4 id="9-menighetsradets-sammensetning">§ 9. Menighetsrådets sammensetning</h4>
 <p>Menighetsrådet består av soknepresten og – etter menighetsmøtets bestemmelse – fire, seks, åtte eller ti andre medlemmer og et antall varamedlemmer som velges ved flertalls- eller forholdsvalg for fire år etter regler fastsatt av Kirkemøtet. Endring av tallet på de medlemmer som skal velges, må være vedtatt i menighetsmøtet før fristen for å levere listeforslag.</p>
 <p>I kommuner med bare ett sokn kan kommunen velge ett medlem og ett varamedlem til menighetsrådet, som tiltrer rådet når dette behandler saker som i kommuner med flere sokn tilligger kirkelig fellesråd. Dette medlem kommer i tillegg til dem som velges etter første ledd.</p>
@@ -127,7 +282,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Rett til å kreve seg fritatt for valg til menighetsråd har den som avgir skriftlig erklæring om at vedkommende ikke ønsker å stille til valg på den aktuelle valglisten. Slik erklæring må settes frem innen den frist menighetsrådet setter, ellers tapes retten til å strykes fra listeforslaget. Den som unnlater å kreve seg fritatt fra å stå på liste, kan ikke nekte å motta valg.</p>
 <p>Biskopen kan bestemme at en annen prest enn soknepresten skal være medlem av menighetsrådet. Biskopen bestemmer også hvordan prestene skal være varamedlemmer for hverandre.</p>
 <p>Biskopen og prosten har rett til å ta del i menighetsrådsmøte, men uten stemmerett. Det samme gjelder soknepresten dersom vedkommende ikke er medlem av rådet. Menighetsrådet kan innkalle andre til å ta del i forhandlingene, men uten stemmerett.</p>
-<p><em>Endret ved forskrifter 26 sep 2022 nr. 1683 , 22 mars 2026 nr. 464 .</em></p>
+<p class="note">Endret ved forskrifter 26 sep 2022 nr. 1683 , 22 mars 2026 nr. 464 .</p>
 <h4 id="10-uttreden-av-menighetsradet-i-valgperioden">§ 10. Uttreden av menighetsrådet i valgperioden</h4>
 <p>Den som taper valgbarheten til menighetsrådet i valgperioden, trer endelig ut av rådet. Hvis tap av valgbarhet skyldes registrert utflytting fra soknet for to år eller mindre, trer vedkommende ut av vervet for den tid utflyttingen varer.</p>
 <p>Menighetsrådet kan etter søknad frita, for et kortere tidsrom eller resten av valgperioden, den som ikke uten uforholdsmessige vanskeligheter eller belastning kan skjøtte sine plikter i vervet.</p>
@@ -135,7 +290,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Hvis et menighetsrådsmedlem har brutt taushetsplikten etter kirkeordningen § 42 første ledd, kan menighetsrådet selv vedta at vedkommende skal tre ut av rådet. Menighetsrådets vedtak kan påklages til Den norske kirkes klagenemnd.</p>
 <p>Hvis departementet som tilsynsmyndighet etter trossamfunnsloven kommer til at et rådsmedlem i tilknytning til utøvelse av tjeneste eller et verv for menighetsråd eller kirkelig fellesråd har utøvet vold eller tvang, fremsatt trusler, krenket barns rettigheter, brutt lovbestemte diskrimineringsforbud eller på andre måter alvorlig krenket andres rettigheter og friheter, kan Kirkerådet treffe vedtak om å frata medlemmet vervet. Kirkerådet kan også treffe vedtak om å suspendere medlemmet fra vervet inntil saken etter første punktum er avgjort. Kirkerådets vedtak etter første og annet punktum kan påklages til Den norske kirkes klagenemnd.</p>
 <p>Hvis medlemmer av menighetsrådet trer endelig ut, og de er valgt ved flertallsvalg, skal varamedlemmer tre inn i den nummerorden de er valgt. Hvis medlemmer av menighetsrådet trer endelig ut, og de er valgt ved forholdsvalg, skal varamedlemmer fra samme liste tre inn i deres sted i den nummerorden varamedlemmene er valgt.</p>
-<p><em>Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</p>
 <h4 id="11-formene-for-menighetsradets-virksomhet">§ 11. Formene for menighetsrådets virksomhet</h4>
 <p>Menighetsrådet kan gi lederen eller et arbeidsutvalg bestående av lederen og minst to av rådets øvrige medlemmer fullmakt til på saklig begrensede områder å treffe avgjørelse i saker som skulle ha vært avgjort av rådet. Avgjørelse som er truffet med hjemmel i slik fullmakt, skal refereres i første møte etter at avgjørelsen er truffet.</p>
 <p>Menighetsrådet kan bestemme at en av soknets tilsatte skal være daglig leder av virksomheten.</p>
@@ -149,17 +304,17 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Menighetsrådet forbereder og gir innstilling til avgjørelse i alle saker som legges frem for menighetsmøtet, jf. § 13 , eller som menighetsmøtet selv tar opp.</p>
 <p>Menighetsrådet gir hvert år menighetsmøtet en orientering om det kristelige arbeidet i soknet.</p>
 <p>Menighetsrådet skaffer til veie de opplysninger og gir de uttalelser som kirkelig myndighet ber om.</p>
-<p><em>Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</p>
 <h4 id="13-menighetsmtet">§ 13. Menighetsmøtet</h4>
 <p>Menighetsmøtet består av de stemmeberettigede i soknet. Bare de som møter frem personlig, kan stemme. Menighetsmøtet kan i særlige tilfeller også gjennomføres som fjernmøte. Også biskopen, prosten og soknepresten kan ta del i møtet, men bare stemme om de ellers er stemmeberettiget i soknet.</p>
 <p>Menighetsmøtet kalles sammen av menighetsrådet så ofte det er påkrevd eller finnes ønskelig eller når minst 20 av soknets stemmeberettigede krever det.</p>
 <p>Nærmere regler om formene for menighetsmøtets virksomhet gis av Kirkemøtet.</p>
-<p><em>Endret ved forskrift 10 mars 2021 nr. 687 .</em></p>
+<p class="note">Endret ved forskrift 10 mars 2021 nr. 687 .</p>
 <h4 id="14-menighetsmtets-oppgaver">§ 14. Menighetsmøtets oppgaver</h4>
 <p>Menighetsmøtet avgjør saker om innføring av gudstjenstlige bøker i kirken når Kirkemøtet har overlatt spørsmålet til menighetsmøtets avgjørelse. Menighetsmøtet avgjør også andre saker som etter nærmere bestemmelse av Kirkemøtet eller andre kirkelige organer blir overlatt til menighetsmøtets avgjørelse.</p>
 <p>Før vedkommende myndighet treffer avgjørelse, skal menighetsmøtet gis anledning til å uttale seg om oppføring eller nedlegging av kirke og om deling, sammenslåing eller andre endringer i grensene for sokn. Dette gjelder likevel ikke når endringer i soknegrensene er en følge av endringer i kommunegrenser.</p>
 <p>For øvrig gir menighetsmøtet uttalelse når kirkelige myndigheter ber om det eller når menighetsmøtet av eget tiltak ønsker å uttale seg.</p>
-<p><em>Endret ved forskrift 8 aug 2023 nr. 1345 .</em></p>
+<p class="note">Endret ved forskrift 8 aug 2023 nr. 1345 .</p>
 <h4 id="15-kirkelig-fellesrads-sammensetning">§ 15. Kirkelig fellesråds sammensetning</h4>
 <p>Kirkelig fellesråd består av:</p>
 <p>a. to menighetsrådsmedlemmer fra hvert menighetsråd i kommunen, valgt av det enkelte menighetsråd, og
@@ -185,7 +340,7 @@ f. anskaffelse av lokaler, utstyr og materiell til konfirmasjonsopplæring.</p>
 <p>Kirkelig fellesråd foretar tilsetting av og har arbeidsgiveransvaret for alle tilsatte som lønnes over fellesrådets budsjett. Før tilsetting og fastsetting av instruks skal vedkommende menighetsråd gis anledning til å uttale seg. Kirkelig fellesråd kan bemyndige menighetsråd til å utøve tilsettingsmyndighet og andre arbeidsgiverfunksjoner for stilling hvor dette ellers ville ligge til fellesrådet. Kirkelig fellesråd kan også tildele utvalg som nevnt i § 41 første ledd myndighet til å foreta tilsetting og treffe avgjørelser i saker som gjelder forholdet mellom soknene eller soknet som arbeidsgiver og de tilsatte.</p>
 <p>Kirkelig fellesråd forvalter inntekter og formue knyttet til kirke og kirkefond, tilskudd til kirkelig virksomhet fra kommunen eller kirkens virksomhet nasjonalt og midler menighetsråd stiller til fellesrådets disposisjon for å løse oppgaver i soknene.</p>
 <p>Kirkelig fellesråd utfører for øvrig de oppgaver som etter avtale blir overlatt det av det enkelte menighetsråd.</p>
-<p><em>Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</p>
 <h4 id="18-opptak-av-lan-pa-soknets-vegne-og-andre-konomibestemmelser-for-soknet">§ 18. Opptak av lån på soknets vegne og andre økonomibestemmelser for soknet</h4>
 <p>På soknets vegne kan det bare opptas lån når dette er godkjent av bispedømmerådet.</p>
 <p>På soknets vegne er det ikke tillatt å garantere for andres økonomiske forpliktelser eller stille eiendeler til sikkerhet for andres gjeld.</p>
@@ -194,7 +349,7 @@ f. anskaffelse av lokaler, utstyr og materiell til konfirmasjonsopplæring.</p>
 <p>a. motta melding fra kirkelig fellesråd om utsatt inndekning i organet i henhold til forskriftens § 17 syvende ledd siste punktum,
 b. motta kopi av revisjonsberetning fra revisor hvis revisor i revisjonsberetningen konkluderer negativt eller ikke har tilstrekkelig grunnlag for å konkludere om godkjenning av regnskapet i organ for soknet, jf. forskriftens § 18 tredje ledd annet punktum og
 c. motta innberetning fra revisor dersom det i organ for soknet ikke er avlagt regnskap innen 1. juli i året etter regnskapsåret, jf. forskriftens § 18 fjerde ledd.</p>
-<p><em>Endret ved forskrifter 9 okt 2020 nr. 2797 (i kraft 1 jan 2021), 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrifter 9 okt 2020 nr. 2797 (i kraft 1 jan 2021), 14 nov 2021 nr. 3252 (i kraft 1 jan 2022).</p>
 <h2 id="kapittel-4-kirker">Kapittel 4. Kirker</h2>
 <h4 id="19-definisjon-av-og-eiendomsrett-til-kirke">§ 19. Definisjon av og eiendomsrett til kirke</h4>
 <p>Med kirke menes i dette kapittel soknekirke eller kapell som er godkjent av Kongen eller departementet, som er kirke fra gammelt av eller som etter kirkeordningens ikrafttredelse er godkjent som kirke av Kirkerådet.</p>
@@ -205,7 +360,7 @@ c. motta innberetning fra revisor dersom det i organ for soknet ikke er avlagt r
 <p>Kirker kan ikke avhendes, pantsettes eller påheftes bruksretter. Biskopen kan likevel samtykke i avhending og påhefte av bruksretter når særlige grunner tilsier det. Det kan stilles vilkår for slik godkjenning. Bestemmelsene om enkeltvedtak i forvaltningsloven kommer til anvendelse på biskopens vedtak. Biskopens vedtak i saker om avhending av kirker kan påklages til Den norske kirkes klagenemnd, og Kirkerådet kan gi retningslinjer for biskopens og klagenemndas saksbehandling. I saker om påhefte av bruksretter skal Kirkerådet gi retningslinjer for saksbehandlingen.</p>
 <p>Formuesrettigheter som er knyttet til en kirke, kan ikke skilles fra den. Fast eiendom som ikke er nødvendig for kirken, kan likevel avhendes med samtykke av bispedømmerådet.</p>
 <p>Menighetsrådet fører fortegnelse over inventar og utstyr i soknets kirker. Anskaffelse og avhendelse av kirkens inventar og utstyr skal godkjennes av biskopen.</p>
-<p><em>Endret ved forskrifter 15 nov 2021 nr. 3351 (se denne for overgangsregler), 11 april 2024 nr. 638 .</em></p>
+<p class="note">Endret ved forskrifter 15 nov 2021 nr. 3351 (se denne for overgangsregler), 11 april 2024 nr. 638 .</p>
 <h4 id="21-kirkefond">§ 21. Kirkefond</h4>
 <p>Kapital som er knyttet til en kirke, samles i et kirkefond. Fondet forvaltes av kirkelig fellesråd. Kirkerådet kan gi nærmere regler om forvaltningen. Avkastningen skal benyttes til kirkens drift og vedlikehold. Med bispedømmerådets samtykke kan avkastningen benyttes til andre kirkelige formål i soknet eller i andre sokn i kommunen.</p>
 <p>Fondets kapital kan med bispedømmerådets samtykke benyttes til kirkelige formål i soknet eller i andre sokn innen kommunen.</p>
@@ -222,7 +377,7 @@ c. motta innberetning fra revisor dersom det i organ for soknet ikke er avlagt r
 <p>Nedlegging av kirke skal godkjennes av biskopen. Bestemmelsene om enkeltvedtak i forvaltningsloven kommer til anvendelse på biskopens vedtak. Biskopens vedtak kan påklages til Den norske kirkes klagenemnd, og Kirkerådet kan gi retningslinjer for biskopens og klagenemndas saksbehandling.</p>
 <p>Tiltak ut over vanlig vedlikehold av kirke skal godkjennes av biskopen. Bestemmelsene om enkeltvedtak i forvaltningsloven kommer til anvendelse på biskopens vedtak. Biskopens vedtak kan påklages til Den norske kirkes klagenemnd, og Kirkerådet kan gi retningslinjer for biskopens og klagenemndas saksbehandling.</p>
 <p>På uteområdet ved en listeført kirke som ikke har en tilknyttet gravplass, skal tiltak som ikke er søknadspliktige etter plan- og bygningsloven og som vil kunne ha en negativ innvirkning på kulturhistoriske verdier, ikke finne sted uten biskopens godkjenning. Før biskopen treffer sin avgjørelse, skal saken forelegges rette kulturmiljømyndighet for uttalelse.</p>
-<p><em>Endret ved forskrifter 15 nov 2021 nr. 3351 (se denne for overgangsregler), 11 april 2024 nr. 638 .</em></p>
+<p class="note">Endret ved forskrifter 15 nov 2021 nr. 3351 (se denne for overgangsregler), 11 april 2024 nr. 638 .</p>
 <h2 id="kapittel-5-regionale-og-nasjonale-kirkelige-organer">Kapittel 5. Regionale og nasjonale kirkelige organer</h2>
 <h4 id="24-bispedmmeradets-sammensetning">§ 24. Bispedømmerådets sammensetning</h4>
 <p>Bispedømmerådet består av:</p>
@@ -234,7 +389,7 @@ e. en nordsamisk representant i Nord-Hålogaland bispedømmeråd, en lulesamisk 
 f. en representant fra døvemenighetene i Oslo bispedømmeråd.</p>
 <p>Medlemmene nevnt i bokstav b, c, d, e og f velges for fire år. For medlemmene valgt ved flertallsvalg etter bokstav d, velges det like mange varamedlemmer. For medlemmene valgt ved forholdsvalg etter bokstav d, skal hver liste tildeles like mange varamedlemmer som den får medlemmer, med tillegg av tre. For medlemmene valgt etter bokstav b, c, e og f, velges det to varamedlemmer. Kirkemøtet gir nærmere regler om valget, herunder regler som presiserer hvem som er stemmeberettiget og valgbar etter første ledd bokstavene b, c, d, e og f.</p>
 <p>Reglene i § 9 tredje og fjerde ledd og § 10 gjelder tilsvarende for bispedømmerådet.</p>
-<p><em>Endret ved forskrifter 26 sep 2022 nr. 1683 , 22 mars 2026 nr. 464 .</em></p>
+<p class="note">Endret ved forskrifter 26 sep 2022 nr. 1683 , 22 mars 2026 nr. 464 .</p>
 <h4 id="25-formene-for-bispedmmeradets-virksomhet">§ 25. Formene for bispedømmerådets virksomhet</h4>
 <p>Bispedømmerådet kan gi lederen eller et arbeidsutvalg bestående av lederen og minst to av rådets øvrige medlemmer fullmakt til på saklig begrensede områder å treffe avgjørelse i saker som skulle ha vært avgjort av rådet. Avgjørelse som er truffet med hjemmel i slik fullmakt, skal refereres i første møte etter at avgjørelsen er truffet.</p>
 <p>Bispedømmerådet skal ha en daglig leder av virksomheten.</p>
@@ -245,7 +400,7 @@ f. en representant fra døvemenighetene i Oslo bispedømmeråd.</p>
 <p>Bispedømmerådet utfører de oppgaver som det etter avtale blir overlatt av det enkelte menighetsråd eller kirkelige fellesråd.</p>
 <h4 id="27-kirkemtets-sammensetning">§ 27. Kirkemøtets sammensetning</h4>
 <p>Kirkemøtet består av preses i Bispemøtet, medlemmene av bispedømmerådene, lederen av Den norske kirkes ungdomsutvalg og lederen av Samisk kirkeråd. Kirkemøtet fastsetter nærmere regler for valg av de to sistnevnte.</p>
-<p><em>Endret ved forskrift 8 aug 2023 nr. 1345 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 8 aug 2023 nr. 1345 (i kraft 1 jan 2024).</p>
 <h4 id="28-kirkemtets-oppgaver">§ 28. Kirkemøtets oppgaver</h4>
 <p>Kirkemøtet er Den norske kirkes øverste representative og besluttende organ og fastsetter kirkens grunnlag og lære og alle liturgier og gudstjenstlige bøker i kirken. Kirkemøtet skal ha sin oppmerksomhet henvendt på saker av felles kirkelig karakter og ellers på alt som kan gjøres for å vekke og nære det kristelige liv i menighetene, og det skal fremme samarbeidet innen Den norske kirke. Kirkemøtet skal verne og fremme samisk kirkeliv og ivareta Den norske kirkes økumeniske oppgaver og internasjonale samarbeid.</p>
 <p>Kirkemøtet</p>
@@ -262,7 +417,7 @@ e. utfører de oppgaver det er gitt i trossamfunnsloven eller kirkeordningen.</p
 <p>Kirkerådet består av 17 medlemmer, preses i Bispemøtet og 16 medlemmer valgt av Kirkemøtet. Det skal være to prester og en kirkelig ansatt blant de som velges av Kirkemøtet. Visepreses er vara for preses. For hvert øvrig medlem velges det ett varamedlem.</p>
 <p>Reglene i § 10 første til femte ledd gjelder tilsvarende for Kirkerådet.</p>
 <p>Nærmere regler for valg av Kirkerådet fastsettes av Kirkemøtet.</p>
-<p><em>Endret ved forskrifter 7 aug 2023 nr. 1341 , 28 april 2025 nr. 780 , 22 mars 2026 nr. 464 .</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2023 nr. 1341 , 28 april 2025 nr. 780 , 22 mars 2026 nr. 464 .</p>
 <h4 id="30-kirkeradets-oppgaver-mm">§ 30. Kirkerådets oppgaver m.m.</h4>
 <p>Kirkerådet forbereder de saker som skal behandles av Kirkemøtet, og iverksetter Kirkemøtets beslutninger.</p>
 <p>Kirkerådet leder kirkens arbeid på nasjonalt nivå.</p>
@@ -271,7 +426,7 @@ e. utfører de oppgaver det er gitt i trossamfunnsloven eller kirkeordningen.</p
 <p>Hvis en tilråding etter fjerde ledd som har minst 2/3 flertall i Bispemøtet, ikke får flertall i Kirkerådet, sendes saken tilbake til Bispemøtet. Hvis Kirkerådets vedtak i andre gangs behandling ikke er i samsvar med Bispemøtets siste tilrådning, oversendes saken til Kirkemøtet for avgjørelse. Reglene i § 28 femte ledd kommer da til anvendelse.</p>
 <p>Kirkerådet skal ha en daglig leder av virksomheten.</p>
 <p>Kirkemøtet fastsetter nærmere regler for Kirkerådets virksomhet .</p>
-<p><em>Endret ved forskrift 27 april 2025 nr. 779 .</em></p>
+<p class="note">Endret ved forskrift 27 april 2025 nr. 779 .</p>
 <h4 id="31-bispemtet">§ 31. Bispemøtet</h4>
 <p>Bispemøtet består av samtlige tjenestegjørende biskoper.</p>
 <p>Bispemøtet har et særskilt ansvar for kirkens lære og skal bidra til å fremme enhet i kirken og med andre kirker. Den kollegiale siden ved biskopenes tilsyn utøves i Bispemøtet. Bispemøtet virker også for samordning av de gjøremål som etter gjeldende regler tilligger biskopene. Bispemøtet utfører for øvrig de gjøremål som til enhver tid er pålagt ved bestemmelse av Kirkemøtet og avgir uttalelse i saker som det blir forelagt av Kirkemøtet, Kirkerådet og Den norske kirkes klagenemnd.</p>
@@ -292,7 +447,7 @@ e. utfører de oppgaver det er gitt i trossamfunnsloven eller kirkeordningen.</p
 <p>Klagenemndas medlemmer velges med et tilsvarende antall personlige varamedlemmer av Kirkemøtet på det første møtet i dets valgperiode. Blant medlemmene skal det være minst to personer av hvert kjønn og tilsvarende for varamedlemmene. Medlemmene velges for fire år.</p>
 <p>Kirkemøtet velger leder av klagenemnda. Klagenemnda velger selv sin nestleder.</p>
 <p>Utelukket fra å bli valgt inn i klagenemnda er biskoper, medlemmer av Kirkerådet og de øvrige sentralkirkelige råd, tilsatte i den sentralkirkelige administrasjon samt tilsatte i bispedømmeadministrasjonene.</p>
-<p><em>Endret ved forskrift 11 april 2024 nr. 638 .</em></p>
+<p class="note">Endret ved forskrift 11 april 2024 nr. 638 .</p>
 <h4 id="33-klagenemndas-oppgaver">§ 33. Klagenemndas oppgaver</h4>
 <p>Klagenemnda</p>
 <p>a. avgjør klager etter kirkeordningen § 10 fjerde og femte ledd , § 20 andre ledd , § 23 femte og sjette ledd og § 39 tredje ledd ,
@@ -302,7 +457,7 @@ d. avgjør klager på Kirkerådets vedtak om avslag på innsynskrav etter offent
 e. utfører for øvrig de oppgaver den er pålagt av Kirkemøtet.</p>
 <p>Klagenemndas avgjørelser kan ikke påklages.</p>
 <p>Kirkemøtet gir nærmere regler om klagenemnda.</p>
-<p><em>Endret ved forskrifter 14 nov 2021 nr. 3252 (i kraft 1 jan 2022), 11 april 2024 nr. 638 .</em></p>
+<p class="note">Endret ved forskrifter 14 nov 2021 nr. 3252 (i kraft 1 jan 2022), 11 april 2024 nr. 638 .</p>
 <h4 id="34-samisk-kirkerads-sammensetning">§ 34. Samisk kirkeråds sammensetning</h4>
 <p>Samisk kirkeråd består av:</p>
 <p>a. Samisk kirkeråds leder, valgt av Kirkemøtet,
@@ -322,11 +477,11 @@ c. en biskop, valgt av Bispemøtet.</p>
 <h4 id="36a-kirkens-styringstjeneste">§ 36a. Kirkens styringstjeneste</h4>
 <p>Den norske kirke styres av demokratiske organer på alle nivå i et samvirke mellom valgte representanter for og blant kirkens medlemmer og representanter for tjenesten med Ord og sakrament.</p>
 <p>De som er medlemmer av styringsorganer i Den norske kirke, utgjør kirkens styringstjeneste.</p>
-<p><em>Tilføyd ved forskrift 28 april 2025 nr. 780 .</em></p>
+<p class="note">Tilføyd ved forskrift 28 april 2025 nr. 780 .</p>
 <h4 id="36b-samisk-kirkeliv">§ 36b. Samisk kirkeliv</h4>
 <p>Samisk kirkeliv er en integrert og likeverdig del av Den norske kirke.</p>
 <p>Kirkelige organer skal legge til rette for at samisk språk og kultur, selvbestemmelse og medvirkning i kirkedemokratiet sikres og utvikles i kirken.</p>
-<p><em>Tilføyd ved forskrift 22 mars 2026 nr. 487 .</em></p>
+<p class="note">Tilføyd ved forskrift 22 mars 2026 nr. 487 .</p>
 <h4 id="37-retningslinjer-for-arbeid-i-mter-og-rad">§ 37. Retningslinjer for arbeid i møter og råd.</h4>
 <p>De kirkelige møter og råd etter denne ordning skal utføre sitt arbeid i lojalitet mot Den norske kirkes læregrunnlag.</p>
 <h4 id="38-rett-og-plikt-til-a-delta-i-mte">§ 38. Rett og plikt til å delta i møte</h4>
@@ -338,12 +493,12 @@ c. en biskop, valgt av Bispemøtet.</p>
 <p>All vigslet tjeneste skal organiseres slik at de vigslede kan utøve sin tjeneste i samsvar med vigslingens forutsetninger og forpliktelser.</p>
 <p>Vigslet medarbeider som gjør seg skyldig i grovt pliktbrudd eller annet vesentlig brudd på vigslingsforpliktelsen, kan fratas retten til å utføre vigslet tjeneste etter nærmere regler om saksbehandling og klageadgang fastsatt av Kirkemøtet.</p>
 <p>Kirkemøtet fastsetter tjenesteordning og gir nærmere regler om vilkår mv. for vigslede medarbeidere.</p>
-<p><em>Endret ved forskrift 28 april 2025 nr. 793 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrift 28 april 2025 nr. 793 (i kraft 1 jan 2026).</p>
 <h4 id="39a-biskopens-tilsyn">§ 39a. Biskopens tilsyn</h4>
 <p>Biskopen skal gjennom forkynnelse og sakramentforvaltning ta vare på den apostoliske lære etter Guds ord og vår kirkes bekjennelse, fremme og bevare enheten i Guds kirke og rettlede og oppmuntre bispedømmets menigheter, kirkelig tilsatte og øvrige medarbeidere. For å ivareta dette tilsynsansvaret kan biskopen gi råd og veiledning, og også gi bindende pålegg vedrørende vigslede medarbeideres og andre kirkelig tilsattes tjenesteutøvelse.</p>
 <p>Biskopen ser til at prestene forvalter sakramentene, forkynner og selv lever i overensstemmelse med den kristne tro, slik den er uttrykt i vår kirkes bekjennelse og ordninger, og at også andre som er vigslet til tjeneste i kirken virker og lever i samsvar med vigslingens formaning og løfte.</p>
 <p>Biskopen fører tilsyn med at de kirkelige råd i bispedømmet utfører sitt arbeid i lojalitet med den evangelisk-lutherske lære. Biskopen kan oppheve et vedtak i et kirkelig råd som strider mot kirkens lære.</p>
-<p><em>Tilføyd ved forskrift 28 april 2025 nr. 793 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 28 april 2025 nr. 793 (i kraft 1 jan 2026).</p>
 <h4 id="40-adgang-til-a-oppstille-vilkar-om-medlemskap-i-den-norske-kirke-for-tilsatte-og-ombud">§ 40. Adgang til å oppstille vilkår om medlemskap i Den norske kirke for tilsatte og ombud</h4>
 <p>Kirkelige ombud skal være medlem av Den norske kirke. Biskopen kan dispensere fra kravet når særlige grunner tilsier det. For nasjonale ombud er preses i Bispemøtet dispensasjonsmyndighet. Ved tilsetting i kirkelige stillinger som er av betydning for å virkeliggjøre Den norske kirkes formål, skal tilsettingsmyndigheten oppstille krav om medlemskap i Den norske kirke i tråd med adgangen til dette i likestillings- og diskrimineringsloven § 9 , jf. § 30 . Det skal oppgis i utlysningen av stillingen at medlemskap kreves. Biskopen kan gi dispensasjon fra tilsettingsmyndighetens plikt til å oppstille slikt krav til medlemskap når særlige grunner tilsier det.</p>
 <h4 id="41-partssammensatt-utvalg-mm">§ 41. Partssammensatt utvalg m.m.</h4>
@@ -359,21 +514,23 @@ c. en biskop, valgt av Bispemøtet.</p>
 <p>a. Ugildhet inntrer ikke ved valg til tillitsverv eller ved fastsetting av godtgjøring o.l. for slike verv.
 b. Kirkelig tilsatte som i denne egenskap har medvirket ved tilretteleggelsen av grunnlaget for en avgjørelse, eller ved tidligere avgjørelse i samme sak, skal alltid anses som ugild når saken behandles i et kirkelig organ. Biskopen regnes ikke som kirkelig tilsatt i forhold til denne bestemmelse. Det samme gjelder prost og annen prest som enten i kraft av sin stilling eller etter oppnevning av biskopen er medlem av et organ for soknet.</p>
 <p>Bestemmelsene i kirkeordningen skal ved motstrid gå foran bestemmelser i annet regelverk fastsatt av Kirkemøtet eller annet kirkelig organ.</p>
-<p><em>Endret ved forskrifter 9 okt 2020 nr. 2797 (i kraft 1 jan 2021), 8 aug 2023 nr. 1345 , 22 mars 2026 nr. 487 .</em></p>
+<p class="note">Endret ved forskrifter 9 okt 2020 nr. 2797 (i kraft 1 jan 2021), 8 aug 2023 nr. 1345 , 22 mars 2026 nr. 487 .</p>
 <h4 id="42a-sprak">§ 42a. Språk</h4>
 <p>Bokmål og nynorsk er likeverdige skriftspråk i kirkelige organer. For kirkelige organer som opptrer på vegne av rettssubjektet Den norske kirke, anvendes språklovas regler om statsorgan bare for den administrative delen av virksomheten.</p>
 <p>Samiske språk og norsk er likeverdige språk.</p>
 <p>Kirkelige organer skal legge til rette for at enhver som ber om det, skal få individuelle kirkelige tjenester på samisk i Den norske kirkes menigheter i språkutviklingskommuner og språkvitaliseringskommuner.</p>
-<p><em>Tilføyd ved forskrift 22 mars 2026 nr. 487 .</em></p>
+<p class="note">Tilføyd ved forskrift 22 mars 2026 nr. 487 .</p>
 <h4 id="43-endringsregler">§ 43. Endringsregler</h4>
 <p>Endringer av bestemmelsene i kapittel 1 skjer slik det er bestemt i § 2 . Et vedtak om endring av § 28 fjerde og femte ledd, § 30 fjerde og femte ledd og § 43 krever tilslutning fra to tredjedeler av Kirkemøtets medlemmer.</p>
 <p>Øvrige bestemmelser kan endres ved alminnelig flertall.</p>
 <h4 id="44-overgangsregler">§ 44. Overgangsregler</h4>
 <p>Forskrifter og andre bestemmelser gitt av Kirkemøtet eller annet kirkelig organ i medhold av kirkeloven gjelder også etter at kirkeordningen har trådt i kraft. Så langt de passer gjelder det samme for bestemmelser truffet av departementet i medhold av kirkeloven der disse ikke er erstattet av nye bestemmelser vedtatt av Kirkemøtet eller annet kirkelig organ.</p>
-<p><em>Tilføyd ved forskrift 9 okt 2020 nr. 2797 (i kraft 1 jan 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 9 okt 2020 nr. 2797 (i kraft 1 jan 2021).</p>
 <h4 id="45-ikrafttredelse">§ 45. Ikrafttredelse</h4>
 <p>Kirkeordningen trer i kraft 1. januar 2021.</p>
-<p><em>Tilføyd ved forskrift 9 okt 2020 nr. 2797 (i kraft 1 jan 2021)</em></p>
+<p class="note">Tilføyd ved forskrift 9 okt 2020 nr. 2797 (i kraft 1 jan 2021)</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

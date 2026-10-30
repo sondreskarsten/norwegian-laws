@@ -19,64 +19,283 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2000-06-02-39.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Apotekloven – apotl" href="../feeds/lov-2000-06-02-39.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Apotekloven – apotl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2000-06-02-39</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Helse- og omsorgsrett &raquo; Legemidler. Apotek\nNæringsrett &raquo; Handel og tjenester</dd>
-<dt>Ikrafttredelse</dt><dd>2001-03-01, 2001-07-01 (§ 8-1)</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-44</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2000-06-02-39" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-krav-om-konsesjon">§ 1-4. Krav om konsesjon</a></li>
+<li class="lvl4"><a href="#1-5-bruk-av-kjennetegn">§ 1-5. Bruk av kjennetegn</a></li>
+<li class="lvl4"><a href="#1-6-erstatningsansvar">§ 1-6. Erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kap-2-konsesjon-til-eierskap-til-apotek">Kap. 2. Konsesjon til eierskap til apotek</a></li>
+<li class="lvl4"><a href="#2-1-konsesjonsmyndighet">§ 2-1. Konsesjonsmyndighet</a></li>
+<li class="lvl4"><a href="#2-2-apotekkonsesjon">§ 2-2. Apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-3-skere-som-ikke-kan-gis-apotekkonsesjon">§ 2-3. Søkere som ikke kan gis apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-4-apotekkonsesjon-til-kommuner-og-fylkeskommuner">§ 2-4. Apotekkonsesjon til kommuner og fylkeskommuner</a></li>
+<li class="lvl4"><a href="#2-5-apotekkonsesjon-til-sykehusapotek">§ 2-5. Apotekkonsesjon til sykehusapotek</a></li>
+<li class="lvl4"><a href="#2-6-opphevet">§ 2-6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-7-apotekkonsesjonens-omfang">§ 2-7. Apotekkonsesjonens omfang</a></li>
+<li class="lvl4"><a href="#2-8-vilkar-for-apotekkonsesjon">§ 2-8. Vilkår for apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-9-rettsvirkninger-av-apotekkonsesjon">§ 2-9. Rettsvirkninger av apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-10-opplysningsplikt-og-srlige-meldeplikter">§ 2-10. Opplysningsplikt og særlige meldeplikter</a></li>
+<li class="lvl4"><a href="#2-11-overtakelse-av-apotekkonsesjon-mv">§ 2-11. Overtakelse av apotekkonsesjon m.v.</a></li>
+<li class="lvl4"><a href="#2-12-avkall-pa-apotekkonsesjon">§ 2-12. Avkall på apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-13-tilbakekall-og-endring-av-apotekkonsesjon">§ 2-13. Tilbakekall og endring av apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-14-forskrifter">§ 2-14. Forskrifter</a></li>
+<li class="lvl2"><a href="#kap-3-konsesjon-til-drift-av-apotek">Kap. 3. Konsesjon til drift av apotek</a></li>
+<li class="lvl4"><a href="#3-1-konsesjonsmyndighet">§ 3-1. Konsesjonsmyndighet</a></li>
+<li class="lvl4"><a href="#3-2-rett-til-driftskonsesjon">§ 3-2. Rett til driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-apotekvirksomheten">§ 3-3. Krav til apotekvirksomheten</a></li>
+<li class="lvl4"><a href="#3-4-filialapotek">§ 3-4. Filialapotek</a></li>
+<li class="lvl4"><a href="#3-5-vilkar-for-driftskonsesjon">§ 3-5. Vilkår for driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-6-forholdet-mellom-konsesjonrene">§ 3-6. Forholdet mellom konsesjonærene</a></li>
+<li class="lvl4"><a href="#3-7-driftskonsesjonsansvaret-ved-apotekers-fravr">§ 3-7. Driftskonsesjonsansvaret ved apotekers fravær</a></li>
+<li class="lvl4"><a href="#3-8-overtakelse-av-driftskonsesjon-mv">§ 3-8. Overtakelse av driftskonsesjon m.v.</a></li>
+<li class="lvl4"><a href="#3-9-tilbakekall-og-endring-av-driftskonsesjon">§ 3-9. Tilbakekall og endring av driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-10-samtidig-bortfall-av-apotek-og-driftskonsesjon">§ 3-10. Samtidig bortfall av apotek- og driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-11-forskrifter">§ 3-11. Forskrifter</a></li>
+<li class="lvl2"><a href="#kap-4-apotekets-personale">Kap. 4. Apotekets personale</a></li>
+<li class="lvl4"><a href="#4-1-apotekets-faglige-personale">§ 4-1. Apotekets faglige personale</a></li>
+<li class="lvl4"><a href="#4-2-opphevet">§ 4-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-3-personalkrav">§ 4-3. Personalkrav</a></li>
+<li class="lvl4"><a href="#4-4-ekspedisjon-og-handtering-av-legemidler">§ 4-4. Ekspedisjon og håndtering av legemidler</a></li>
+<li class="lvl4"><a href="#4-5-samarbeid-med-helsepersonell">§ 4-5. Samarbeid med helsepersonell</a></li>
+<li class="lvl4"><a href="#4-6-praktisk-opplring-i-praksisapotek">§ 4-6. Praktisk opplæring i praksisapotek</a></li>
+<li class="lvl2"><a href="#kap-5-grunnkrav-til-apotekvirksomhet">Kap. 5. Grunnkrav til apotekvirksomhet</a></li>
+<li class="lvl4"><a href="#5-1-lokaler-innredning-og-utstyr">§ 5-1. Lokaler, innredning og utstyr</a></li>
+<li class="lvl4"><a href="#5-2-apnings-og-lukningstider">§ 5-2. Åpnings- og lukningstider</a></li>
+<li class="lvl4"><a href="#5-3-forhandlingsplikt">§ 5-3. Forhandlingsplikt</a></li>
+<li class="lvl4"><a href="#5-4-vareleveranser-varelager-og-leveringsgrad">§ 5-4. Vareleveranser, varelager og leveringsgrad</a></li>
+<li class="lvl4"><a href="#5-5-regnskap-og-annen-virksomhetsregistrering">§ 5-5. Regnskap og annen virksomhetsregistrering</a></li>
+<li class="lvl4"><a href="#5-5-a-dokumentasjon-av-reseptekspedisjon">§ 5-5 a. Dokumentasjon av reseptekspedisjon</a></li>
+<li class="lvl4"><a href="#5-6-internkontroll">§ 5-6. Internkontroll</a></li>
+<li class="lvl4"><a href="#5-7-formidling-av-offentlig-informasjon">§ 5-7. Formidling av offentlig informasjon</a></li>
+<li class="lvl4"><a href="#5-8-nedlegging-av-apotek">§ 5-8. Nedlegging av apotek</a></li>
+<li class="lvl2"><a href="#kap-6-salg-og-markedsfring-fra-apotek">Kap. 6. Salg og markedsføring fra apotek</a></li>
+<li class="lvl4"><a href="#6-1-leveringsrett-for-apotekets-varer-mv">§ 6-1. Leveringsrett for apotekets varer m.v.</a></li>
+<li class="lvl4"><a href="#6-2-leveringsplikt-for-forhandlingspliktige-varer-mv">§ 6-2. Leveringsplikt for forhandlingspliktige varer m.v.</a></li>
+<li class="lvl4"><a href="#6-3-levering-av-legemidler-fra-medisinutsalg">§ 6-3. Levering av legemidler fra medisinutsalg</a></li>
+<li class="lvl4"><a href="#6-4-prisopplysningsplikt">§ 6-4. Prisopplysningsplikt</a></li>
+<li class="lvl4"><a href="#6-5-legemiddelinformasjon">§ 6-5. Legemiddelinformasjon</a></li>
+<li class="lvl4"><a href="#6-6-utlevering-av-legemidler-etter-resept-og-rekvisisjon">§ 6-6. Utlevering av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#6-7-utlevering-av-legemidler-uten-resept">§ 6-7. Utlevering av legemidler uten resept</a></li>
+<li class="lvl4"><a href="#6-8-utleveringsbestemmelser">§ 6-8. Utleveringsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-9-reklamasjoner-og-varslingsplikt-ved-feil-og-kvalitetsmangler">§ 6-9. Reklamasjoner og varslingsplikt ved feil og kvalitetsmangler</a></li>
+<li class="lvl4"><a href="#6-10-returmedisin">§ 6-10. Returmedisin</a></li>
+<li class="lvl4"><a href="#6-11-markedsfring">§ 6-11. Markedsføring</a></li>
+<li class="lvl4"><a href="#6-12-restriksjoner-pa-salg-og-utlevering-av-legemidler">§ 6-12. Restriksjoner på salg og utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kap-7-tilvirkning-av-legemidler-i-apotek">Kap. 7. Tilvirkning av legemidler i apotek</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-tilvirkning">§ 7-1. Rett til tilvirkning</a></li>
+<li class="lvl4"><a href="#7-2-tilvirkningsstandard">§ 7-2. Tilvirkningsstandard</a></li>
+<li class="lvl4"><a href="#7-3-salg-av-apotektilvirkede-legemidler">§ 7-3. Salg av apotektilvirkede legemidler</a></li>
+<li class="lvl2"><a href="#kap-8-tilsyn-med-apotek">Kap. 8. Tilsyn med apotek</a></li>
+<li class="lvl4"><a href="#8-1-tilsynsmyndighet">§ 8-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#8-2-plikt-til-medvirkning">§ 8-2. Plikt til medvirkning</a></li>
+<li class="lvl4"><a href="#8-3-palegg-om-retting">§ 8-3. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#8-4-advarsel">§ 8-4. Advarsel</a></li>
+<li class="lvl4"><a href="#8-5-stenging">§ 8-5. Stenging</a></li>
+<li class="lvl2"><a href="#kap-9-administrative-bestemmelser-og-straff">Kap. 9. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#9-1-klageinstans-i-visse-saker">§ 9-1. Klageinstans i visse saker</a></li>
+<li class="lvl4"><a href="#9-2-gebyrer">§ 9-2. Gebyrer</a></li>
+<li class="lvl4"><a href="#9-3-tvangsmulkt">§ 9-3. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#9-4-opphevet">§ 9-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-5-straff">§ 9-5. Straff</a></li>
+<li class="lvl4"><a href="#9-6-overtredelsesgebyr">§ 9-6. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kap-10-ikrafttredelse-overgangsregler">Kap. 10. Ikrafttredelse. Overgangsregler</a></li>
+<li class="lvl4"><a href="#10-1-ikrafttredelse">§ 10-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-2-eldre-forskrifter">§ 10-2. Eldre forskrifter</a></li>
+<li class="lvl4"><a href="#10-3-eldre-bevillinger">§ 10-3. Eldre bevillinger</a></li>
+<li class="lvl4"><a href="#10-4-eldre-apotek-og-medisinutsalg">§ 10-4. Eldre apotek og medisinutsalg</a></li>
+<li class="lvl4"><a href="#10-5-endringer-i-andre-lover">§ 10-5. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-44.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2000-06-02-39.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om apotek (apotekloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2000-06-02-39.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2000-06-02-39 <code>lov/2000-06-02-39</code></td></tr>
+<tr><th>Korttittel</th><td>Apotekloven – apotl</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Helse- og omsorgsrett &raquo; Legemidler. Apotek\nNæringsrett &raquo; Handel og tjenester</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2001, 01.07.2001 (§ 8-1)</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-44 <code>lov/2026-06-19-44</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2000-06-02-39" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-4-krav-om-konsesjon">§ 1-4. Krav om konsesjon</a></li>
+<li class="lvl4"><a href="#1-5-bruk-av-kjennetegn">§ 1-5. Bruk av kjennetegn</a></li>
+<li class="lvl4"><a href="#1-6-erstatningsansvar">§ 1-6. Erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kap-2-konsesjon-til-eierskap-til-apotek">Kap. 2. Konsesjon til eierskap til apotek</a></li>
+<li class="lvl4"><a href="#2-1-konsesjonsmyndighet">§ 2-1. Konsesjonsmyndighet</a></li>
+<li class="lvl4"><a href="#2-2-apotekkonsesjon">§ 2-2. Apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-3-skere-som-ikke-kan-gis-apotekkonsesjon">§ 2-3. Søkere som ikke kan gis apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-4-apotekkonsesjon-til-kommuner-og-fylkeskommuner">§ 2-4. Apotekkonsesjon til kommuner og fylkeskommuner</a></li>
+<li class="lvl4"><a href="#2-5-apotekkonsesjon-til-sykehusapotek">§ 2-5. Apotekkonsesjon til sykehusapotek</a></li>
+<li class="lvl4"><a href="#2-6-opphevet">§ 2-6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#2-7-apotekkonsesjonens-omfang">§ 2-7. Apotekkonsesjonens omfang</a></li>
+<li class="lvl4"><a href="#2-8-vilkar-for-apotekkonsesjon">§ 2-8. Vilkår for apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-9-rettsvirkninger-av-apotekkonsesjon">§ 2-9. Rettsvirkninger av apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-10-opplysningsplikt-og-srlige-meldeplikter">§ 2-10. Opplysningsplikt og særlige meldeplikter</a></li>
+<li class="lvl4"><a href="#2-11-overtakelse-av-apotekkonsesjon-mv">§ 2-11. Overtakelse av apotekkonsesjon m.v.</a></li>
+<li class="lvl4"><a href="#2-12-avkall-pa-apotekkonsesjon">§ 2-12. Avkall på apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-13-tilbakekall-og-endring-av-apotekkonsesjon">§ 2-13. Tilbakekall og endring av apotekkonsesjon</a></li>
+<li class="lvl4"><a href="#2-14-forskrifter">§ 2-14. Forskrifter</a></li>
+<li class="lvl2"><a href="#kap-3-konsesjon-til-drift-av-apotek">Kap. 3. Konsesjon til drift av apotek</a></li>
+<li class="lvl4"><a href="#3-1-konsesjonsmyndighet">§ 3-1. Konsesjonsmyndighet</a></li>
+<li class="lvl4"><a href="#3-2-rett-til-driftskonsesjon">§ 3-2. Rett til driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-apotekvirksomheten">§ 3-3. Krav til apotekvirksomheten</a></li>
+<li class="lvl4"><a href="#3-4-filialapotek">§ 3-4. Filialapotek</a></li>
+<li class="lvl4"><a href="#3-5-vilkar-for-driftskonsesjon">§ 3-5. Vilkår for driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-6-forholdet-mellom-konsesjonrene">§ 3-6. Forholdet mellom konsesjonærene</a></li>
+<li class="lvl4"><a href="#3-7-driftskonsesjonsansvaret-ved-apotekers-fravr">§ 3-7. Driftskonsesjonsansvaret ved apotekers fravær</a></li>
+<li class="lvl4"><a href="#3-8-overtakelse-av-driftskonsesjon-mv">§ 3-8. Overtakelse av driftskonsesjon m.v.</a></li>
+<li class="lvl4"><a href="#3-9-tilbakekall-og-endring-av-driftskonsesjon">§ 3-9. Tilbakekall og endring av driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-10-samtidig-bortfall-av-apotek-og-driftskonsesjon">§ 3-10. Samtidig bortfall av apotek- og driftskonsesjon</a></li>
+<li class="lvl4"><a href="#3-11-forskrifter">§ 3-11. Forskrifter</a></li>
+<li class="lvl2"><a href="#kap-4-apotekets-personale">Kap. 4. Apotekets personale</a></li>
+<li class="lvl4"><a href="#4-1-apotekets-faglige-personale">§ 4-1. Apotekets faglige personale</a></li>
+<li class="lvl4"><a href="#4-2-opphevet">§ 4-2. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-3-personalkrav">§ 4-3. Personalkrav</a></li>
+<li class="lvl4"><a href="#4-4-ekspedisjon-og-handtering-av-legemidler">§ 4-4. Ekspedisjon og håndtering av legemidler</a></li>
+<li class="lvl4"><a href="#4-5-samarbeid-med-helsepersonell">§ 4-5. Samarbeid med helsepersonell</a></li>
+<li class="lvl4"><a href="#4-6-praktisk-opplring-i-praksisapotek">§ 4-6. Praktisk opplæring i praksisapotek</a></li>
+<li class="lvl2"><a href="#kap-5-grunnkrav-til-apotekvirksomhet">Kap. 5. Grunnkrav til apotekvirksomhet</a></li>
+<li class="lvl4"><a href="#5-1-lokaler-innredning-og-utstyr">§ 5-1. Lokaler, innredning og utstyr</a></li>
+<li class="lvl4"><a href="#5-2-apnings-og-lukningstider">§ 5-2. Åpnings- og lukningstider</a></li>
+<li class="lvl4"><a href="#5-3-forhandlingsplikt">§ 5-3. Forhandlingsplikt</a></li>
+<li class="lvl4"><a href="#5-4-vareleveranser-varelager-og-leveringsgrad">§ 5-4. Vareleveranser, varelager og leveringsgrad</a></li>
+<li class="lvl4"><a href="#5-5-regnskap-og-annen-virksomhetsregistrering">§ 5-5. Regnskap og annen virksomhetsregistrering</a></li>
+<li class="lvl4"><a href="#5-5-a-dokumentasjon-av-reseptekspedisjon">§ 5-5 a. Dokumentasjon av reseptekspedisjon</a></li>
+<li class="lvl4"><a href="#5-6-internkontroll">§ 5-6. Internkontroll</a></li>
+<li class="lvl4"><a href="#5-7-formidling-av-offentlig-informasjon">§ 5-7. Formidling av offentlig informasjon</a></li>
+<li class="lvl4"><a href="#5-8-nedlegging-av-apotek">§ 5-8. Nedlegging av apotek</a></li>
+<li class="lvl2"><a href="#kap-6-salg-og-markedsfring-fra-apotek">Kap. 6. Salg og markedsføring fra apotek</a></li>
+<li class="lvl4"><a href="#6-1-leveringsrett-for-apotekets-varer-mv">§ 6-1. Leveringsrett for apotekets varer m.v.</a></li>
+<li class="lvl4"><a href="#6-2-leveringsplikt-for-forhandlingspliktige-varer-mv">§ 6-2. Leveringsplikt for forhandlingspliktige varer m.v.</a></li>
+<li class="lvl4"><a href="#6-3-levering-av-legemidler-fra-medisinutsalg">§ 6-3. Levering av legemidler fra medisinutsalg</a></li>
+<li class="lvl4"><a href="#6-4-prisopplysningsplikt">§ 6-4. Prisopplysningsplikt</a></li>
+<li class="lvl4"><a href="#6-5-legemiddelinformasjon">§ 6-5. Legemiddelinformasjon</a></li>
+<li class="lvl4"><a href="#6-6-utlevering-av-legemidler-etter-resept-og-rekvisisjon">§ 6-6. Utlevering av legemidler etter resept og rekvisisjon</a></li>
+<li class="lvl4"><a href="#6-7-utlevering-av-legemidler-uten-resept">§ 6-7. Utlevering av legemidler uten resept</a></li>
+<li class="lvl4"><a href="#6-8-utleveringsbestemmelser">§ 6-8. Utleveringsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-9-reklamasjoner-og-varslingsplikt-ved-feil-og-kvalitetsmangler">§ 6-9. Reklamasjoner og varslingsplikt ved feil og kvalitetsmangler</a></li>
+<li class="lvl4"><a href="#6-10-returmedisin">§ 6-10. Returmedisin</a></li>
+<li class="lvl4"><a href="#6-11-markedsfring">§ 6-11. Markedsføring</a></li>
+<li class="lvl4"><a href="#6-12-restriksjoner-pa-salg-og-utlevering-av-legemidler">§ 6-12. Restriksjoner på salg og utlevering av legemidler</a></li>
+<li class="lvl2"><a href="#kap-7-tilvirkning-av-legemidler-i-apotek">Kap. 7. Tilvirkning av legemidler i apotek</a></li>
+<li class="lvl4"><a href="#7-1-rett-til-tilvirkning">§ 7-1. Rett til tilvirkning</a></li>
+<li class="lvl4"><a href="#7-2-tilvirkningsstandard">§ 7-2. Tilvirkningsstandard</a></li>
+<li class="lvl4"><a href="#7-3-salg-av-apotektilvirkede-legemidler">§ 7-3. Salg av apotektilvirkede legemidler</a></li>
+<li class="lvl2"><a href="#kap-8-tilsyn-med-apotek">Kap. 8. Tilsyn med apotek</a></li>
+<li class="lvl4"><a href="#8-1-tilsynsmyndighet">§ 8-1. Tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#8-2-plikt-til-medvirkning">§ 8-2. Plikt til medvirkning</a></li>
+<li class="lvl4"><a href="#8-3-palegg-om-retting">§ 8-3. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#8-4-advarsel">§ 8-4. Advarsel</a></li>
+<li class="lvl4"><a href="#8-5-stenging">§ 8-5. Stenging</a></li>
+<li class="lvl2"><a href="#kap-9-administrative-bestemmelser-og-straff">Kap. 9. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#9-1-klageinstans-i-visse-saker">§ 9-1. Klageinstans i visse saker</a></li>
+<li class="lvl4"><a href="#9-2-gebyrer">§ 9-2. Gebyrer</a></li>
+<li class="lvl4"><a href="#9-3-tvangsmulkt">§ 9-3. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#9-4-opphevet">§ 9-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#9-5-straff">§ 9-5. Straff</a></li>
+<li class="lvl4"><a href="#9-6-overtredelsesgebyr">§ 9-6. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kap-10-ikrafttredelse-overgangsregler">Kap. 10. Ikrafttredelse. Overgangsregler</a></li>
+<li class="lvl4"><a href="#10-1-ikrafttredelse">§ 10-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#10-2-eldre-forskrifter">§ 10-2. Eldre forskrifter</a></li>
+<li class="lvl4"><a href="#10-3-eldre-bevillinger">§ 10-3. Eldre bevillinger</a></li>
+<li class="lvl4"><a href="#10-4-eldre-apotek-og-medisinutsalg">§ 10-4. Eldre apotek og medisinutsalg</a></li>
+<li class="lvl4"><a href="#10-5-endringer-i-andre-lover">§ 10-5. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2000-06-02-39.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2000-06-02-39.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2000-06-02-39.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2000-06-02-39.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2000-06-02-39.html">Observerte kildeutgaver</a> · <a href="../historie/apotekloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2000-06-02-39.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2000-06-02-39.html">Observerte kildeutgaver</a> · <a href="../historie/apotekloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2000-06-02-39.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-apotek-apotekloven">Lov om apotek (apotekloven)</h1>
 <h2 id="kap-1-alminnelige-bestemmelser">Kap. 1. Alminnelige bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Denne lov har til formål å sikre forsvarlig utlevering av legemidler til sluttbruker. Den skal medvirke til riktig legemiddelbruk i befolkningen og til god tilgjengelighet i alle deler av landet til legemidler og farmasøytiske tjenester som har god kvalitet og rimelig pris.</p>
@@ -98,19 +317,19 @@ h. tilvirkning: fremstilling, pakking, ompakking, etikettering, ometikettering o
 i. resept: rekvirering av legemidler til bruk for bestemte personer eller dyr fra person med rekvireringsrett;
 j. rekvisisjon: rekvirering av legemidler fra person med rekvireringsrett på annen måte enn ved resept;
 k. ekspedisjon: farmasøytisk kontroll og istandgjøring av legemiddel i henhold til resept eller rekvisisjon.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="1-4-krav-om-konsesjon">§ 1-4. Krav om konsesjon</h4>
 <p>For å eie og drive apotek kreves offentlig godkjenning i form av konsesjon til eierskap til apoteket etter kap. 2 (apotekkonsesjon) og konsesjon til drift av apoteket etter kap. 3 (driftskonsesjon).</p>
 <h4 id="1-5-bruk-av-kjennetegn">§ 1-5. Bruk av kjennetegn <a class="para-history" href="../historikk/lov-2000-06-02-39/para-1-5.html" title="Endringshistorikk for § 1-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotek skal betegne seg utad med ordet apotek. Sykehusapotek kan betegne seg utad som sykehusapotek. Apotekets egennavn skal være godkjent av departementet, som kan nekte spesielle navn brukt.</p>
 <p>Ordet apotek og sammensetninger som inneholder dette ordet, må ikke brukes som betegnelse for noen virksomhet som ikke er offentlig godkjent apotek etter loven. Slike ord må heller ikke brukes som betegnelse på og reklame for produkter som ikke omfattes av apotekenes forhandlingsplikt.</p>
 <p>Tittelen apoteker må ikke brukes av noen som ikke er apoteker etter denne loven. Kommersiell bruk av ordsammensetninger som inneholder denne tittelen, er ikke tillatt.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="1-6-erstatningsansvar">§ 1-6. Erstatningsansvar <a class="para-history" href="../historikk/lov-2000-06-02-39/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For pasientskader gjelder reglene i <a href="lov-2001-06-15-53.html">pasientskadeloven</a>.</p>
 <p>Apotekenes ansvar ved tilvirkning av legemidler reguleres i <a href="lov-1988-12-23-104.html">produktansvarsloven</a> kapittel 3 .</p>
 <p>For øvrig gjelder alminnelige erstatningsregler.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h2 id="kap-2-konsesjon-til-eierskap-til-apotek">Kap. 2. Konsesjon til eierskap til apotek</h2>
 <h4 id="2-1-konsesjonsmyndighet">§ 2-1. Konsesjonsmyndighet</h4>
 <p>Konsesjon til eierskap til apotek (apotekkonsesjon) gis av departementet.</p>
@@ -120,7 +339,7 @@ k. ekspedisjon: farmasøytisk kontroll og istandgjøring av legemiddel i henhold
 b. Søker må dokumentere sannsynlighet for at apotekets faglige virksomhet får et omfang som er stort nok til at apotekets kompetanse som faghandel og tilvirker av legemidler sikres og holdes ved like. Kravet kan dokumenteres i fellesskap med annet eller andre nærliggende apotek med samme eier, eller i forpliktende samarbeid.</p>
 <p>Departementet kan i forskrift fastsette regler som begrenser retten til konsesjon etter denne paragraf dersom konkurransepolitiske hensyn tilsier det.</p>
 <p>Departementet kan i forskrift fastsette regler som begrenser retten til konsesjon etter denne paragraf dersom hensynet til en geografisk forsvarlig fordeling av farmasøytisk personell tilsier det. Slike regler kan ikke begrense erververens rett til apotekkonsesjon ved erverv av et eksisterende apotek og eierens rett til ny konsesjon for eksisterende apotek ved omdannelse av eierform.</p>
-<p><em>Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-3-skere-som-ikke-kan-gis-apotekkonsesjon">§ 2-3. Søkere som ikke kan gis apotekkonsesjon <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotekkonsesjon etter § 2-2 kan ikke gis dersom:</p>
 <p>a. Søkeren har rekvireringsrett for legemidler, er industriell tilvirker av legemidler eller er tilknyttet slik tilvirker eller foretak som tar syke i behandling. Det samme gjelder dersom søkeren har slike nærstående, med mindre departementet gjør unntak i det enkelte tilfellet.
@@ -130,21 +349,21 @@ d. Søker kontrolleres av en eller flere industrielle tilvirkere av legemidler e
 e. Søker har kontroll over et foretak som tar syke i behandling.</p>
 <p>Et foretak har kontroll over et annet foretak når det tar plass før dette i en ubrutt rekke av foretak som har bestemmende innflytelse over en blokkerende minoritetsandel eller en tredjedel eller mer av stemmene eller aksjekapitalen i det neste foretaket i rekken.</p>
 <p>Hvis søkerne tidligere har hatt apotekkonsesjon som er kalt tilbake etter § 2-13 , kan ny konsesjon gis bare hvis departementet finner det ubetenkelig. Tilsvarende gjelder hvis søkeren eller hans representanter eller eiere med bestemmende innflytelse, har hatt bestemmende innflytelse over apotekkonsesjonær som har mistet konsesjonen på grunn av tilbakekall eller bortfall.</p>
-<p><em>Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-4-apotekkonsesjon-til-kommuner-og-fylkeskommuner">§ 2-4. Apotekkonsesjon til kommuner og fylkeskommuner</h4>
 <p>I særlige tilfeller kan apotekkonsesjon gis til kommuner og fylkeskommuner, og til foretak som eies helt av en kommune eller fylkeskommune.</p>
 <h4 id="2-5-apotekkonsesjon-til-sykehusapotek">§ 2-5. Apotekkonsesjon til sykehusapotek <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotekkonsesjon til sykehusapotek kan gis til staten, kommuner, fylkeskommuner og til foretak som eies helt av stat, kommune eller fylkeskommune. Konsesjon til sykehusapotek kan også gis til privat søker.</p>
 <p>Søkere må oppfylle kravene i § 2-2 jf. § 2-3 første ledd bokstav a, b og d.</p>
-<p><em>Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-6-opphevet">§ 2-6. (Opphevet) <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lov 15 juni 2001 nr. 94 (i kraft 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 15 juni 2001 nr. 94 (i kraft 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-7-apotekkonsesjonens-omfang">§ 2-7. Apotekkonsesjonens omfang <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-7.html" title="Endringshistorikk for § 2-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En apotekkonsesjon omfatter et bestemt apotek i et bestemt geografisk område.</p>
 <p>Apotekkonsesjonen kan ellers inneholde:</p>
 <p>a. Tillatelse til etablering av medisinutsalg i områder uten apotek. Tillatelse til å ha medisinutsalg kan kalles tilbake med 6 måneders varsel, og skal kalles tilbake hvis det etableres et apotek på stedet.
 b. Tilvirkertillatelse etter § 7-1 og tillatelse etter § 7-3 tredje ledd til salg til apotek og grossist av legemidler som er tilvirket til lager.</p>
-<p><em>Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-8-vilkar-for-apotekkonsesjon">§ 2-8. Vilkår for apotekkonsesjon <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-8.html" title="Endringshistorikk for § 2-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det kan settes vilkår for apotekkonsesjonen når det finnes påkrevd av hensyn til de mål loven skal fremme, herunder vilkår om:</p>
 <p>a. samarbeid med den lokale helse- og omsorgstjenesten
@@ -156,13 +375,13 @@ f. medvirkning til forsvarlig legemiddelberedskap
 g. tilvirkning og leveringsplikt av viktige legemidler av hensyn til den nasjonale legemiddelforsyningen.</p>
 <p>I stedet for naturaloppfyllelse av vilkår som er pålagt etter første ledd, kan departementet godkjenne at vilkåret blir oppfylt gjennom tilbud om økonomisk kompensasjon til andre apotek i området som er pålagt det samme vilkåret.</p>
 <p>Vilkår som nevnt i første ledd kan settes også etter at konsesjonen er gitt.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</p>
 <h4 id="2-9-rettsvirkninger-av-apotekkonsesjon">§ 2-9. Rettsvirkninger av apotekkonsesjon</h4>
 <p>Apotekkonsesjon innebærer rett og plikt til å etablere og drive apotek, medisinutsalg og tilvirkning av legemidler som angitt i konsesjonen, jf. § 2-7 og § 2-8 .</p>
 <p>Rettsvirkningene faller bort hvis driften av apoteket ikke er i gang 12 måneder etter at konsesjonen er gitt og ny frist ikke er satt.</p>
 <h4 id="2-10-opplysningsplikt-og-srlige-meldeplikter">§ 2-10. Opplysningsplikt og særlige meldeplikter <a class="para-history" href="../historikk/lov-2000-06-02-39/para-2-10.html" title="Endringshistorikk for § 2-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotekkonsesjonæren skal gi departementet melding om vesentlige endringer av de opplysningene som ligger til grunn for konsesjonsvedtaket.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="2-11-overtakelse-av-apotekkonsesjon-mv">§ 2-11. Overtakelse av apotekkonsesjon m.v.</h4>
 <p>Apotekkonsesjon kan ikke overdras.</p>
 <p>Ved konsesjonærens død og konkurs og ved overdragelse av apoteket faller konsesjonen bort. Døds- eller konkursboet kan ved melding til departementet likevel overta rettighetene og pliktene etter apotekkonsesjonen for en periode på inntil 6 måneder. Perioden kan forlenges etter søknad.</p>
@@ -193,16 +412,16 @@ c. Søker har hederlig vandel i henhold til politiattest.
 d. Søker skal være daglig leder for apoteket.
 e. Søker ikke er uskikket til å drive apotek.</p>
 <p>Samme person kan ikke ha mer enn én driftskonsesjon på samme tid. I særlige tilfeller kan det tillates at samme person kan opprettholde en driftskonsesjon i inntil 6 måneder etter at personen har begynt å fungere som apoteker på grunnlag av ny driftskonsesjon.</p>
-<p><em>Endret ved lover 22 des 2006 nr. 100 (ikr. 1 apr 2007 iflg. res. 22 des 2006 nr. 1527 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 19 juni 2015 nr. 59 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 678 ), 16 juni 2017 nr. 53 (ikr. 1 juli 2017 iflg. res. 16 juni 2017 nr. 762 ).</em></p>
+<p class="note">Endret ved lover 22 des 2006 nr. 100 (ikr. 1 apr 2007 iflg. res. 22 des 2006 nr. 1527 ), 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 19 juni 2015 nr. 59 (ikr. 1 juli 2015 iflg. res. 19 juni 2015 nr. 678 ), 16 juni 2017 nr. 53 (ikr. 1 juli 2017 iflg. res. 16 juni 2017 nr. 762 ).</p>
 <h4 id="3-3-krav-til-apotekvirksomheten">§ 3-3. Krav til apotekvirksomheten <a class="para-history" href="../historikk/lov-2000-06-02-39/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Før driftskonsesjonen gis må apotekkonsesjonæren godtgjøre at apoteket fyller de kravene som gjelder for apotekvirksomheten, herunder at det kan dokumenteres tilfredsstillende leveringsevne av apotekfremstilte legemidler.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="3-4-filialapotek">§ 3-4. Filialapotek <a class="para-history" href="../historikk/lov-2000-06-02-39/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I tillegg til hovedapoteket kan det gis tillatelse til drift av inntil tre filialapotek, som hver skal være under stedlig ledelse av en person med autorisasjon som provisorfarmasøyt eller reseptarfarmasøyt, hvis apotekkonsesjonæren godtgjør at:</p>
 <p>a. Person med kvalifikasjoner som nevnt i § 3-2 første ledd ikke lar seg ansette som apoteker av årsaker som ikke kan lastes apotekkonsesjonæren.
 b. Apoteket tilbyr apotektjenester som stedets befolkning ikke kan skaffe seg på annen måte uten urimelig kostnad eller ulempe. I særlige tilfeller kan dette kravet fravikes.</p>
 <p>Kravene i første ledd bokstav a og b gjelder ikke hvis apoteket på søknadstidspunktet er i drift som filialapotek. I dette tilfellet bør tillatelsen tidsbegrenses til varigheten av arbeidsforholdet til filialapotekets stedlige leder.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="3-5-vilkar-for-driftskonsesjon">§ 3-5. Vilkår for driftskonsesjon</h4>
 <p>Det kan settes slike vilkår for driftskonsesjon som anses nødvendig for at apotekeren skal kunne utøve sin daglige ledelse av apotekets virksomhet forsvarlig. Slike vilkår kan settes også etter at konsesjonen er gitt.</p>
 <h4 id="3-6-forholdet-mellom-konsesjonrene">§ 3-6. Forholdet mellom konsesjonærene</h4>
@@ -212,11 +431,11 @@ b. Apoteket tilbyr apotektjenester som stedets befolkning ikke kan skaffe seg p�
 <p>Saker om ansettelse, oppsigelse, suspensjon, avskjed og forflytting av apotekets personale avgjøres alltid av apotekkonsesjonæren etter innstilling fra apotekeren, med mindre beslutningsmyndigheten i slike saker fullt ut er lagt til apotekeren.</p>
 <h4 id="3-7-driftskonsesjonsansvaret-ved-apotekers-fravr">§ 3-7. Driftskonsesjonsansvaret ved apotekers fravær <a class="para-history" href="../historikk/lov-2000-06-02-39/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved sykdom, permisjon og annet midlertidig fravær over 1 måned skal virksomhetens daglige ledelse overlates til en person med rett til å utøve yrke som provisorfarmasøyt eller med autorisasjon som reseptarfarmasøyt. Vedkommende skal ha tilstrekkelig apotekpraksis til å overta driftsansvaret. Ved sammenhengende fravær over 3 måneder skal det sendes melding til departementet. Perioden kan normalt ikke overstige 12 måneder, men departementet kan i særlige tilfeller godkjenne at den forlenges.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="3-8-overtakelse-av-driftskonsesjon-mv">§ 3-8. Overtakelse av driftskonsesjon m.v. <a class="para-history" href="../historikk/lov-2000-06-02-39/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Driftskonsesjon kan ikke overdras.</p>
 <p>Konsesjonen faller bort når apotekers arbeidsforhold avsluttes. Rettighetene og pliktene etter konsesjonen kan ved melding til departementet likevel overføres for en periode på inntil 6 måneder til en annen person som fyller vilkårene i § 3-2 eller til en person som fyller kravene til å overta driftsansvaret etter § 3-7 .</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="3-9-tilbakekall-og-endring-av-driftskonsesjon">§ 3-9. Tilbakekall og endring av driftskonsesjon <a class="para-history" href="../historikk/lov-2000-06-02-39/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan endelig eller midlertidig kalle tilbake driftskonsesjonen hvis kravene for å ha den etter § 3-2 første ledd ikke lenger foreligger.</p>
 <p>Det samme gjelder:</p>
@@ -225,7 +444,7 @@ b. ved mislighold av innrapporteringsplikter som tilligger apotekeren ifølge lo
 c. ved mangelfull medvirkning under tilsyn, jf. § 8-2
 d. ved uforsvarlig personlig utøvelse av rettigheter og plikter som apoteker.</p>
 <p>Hvis tilbakekallsgrunnen bare gjelder filialapotek eller medisinutsalg, kan tilbakekallet begrenses til å gjelde denne delen av driftskonsesjonen.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="3-10-samtidig-bortfall-av-apotek-og-driftskonsesjon">§ 3-10. Samtidig bortfall av apotek- og driftskonsesjon</h4>
 <p>Ved avkall, tilbakekall og bortfall av apotekkonsesjonen faller driftskonsesjonen bort samtidig som apotekkonsesjonen.</p>
 <h4 id="3-11-forskrifter">§ 3-11. Forskrifter</h4>
@@ -234,9 +453,9 @@ d. ved uforsvarlig personlig utøvelse av rettigheter og plikter som apoteker.</
 <h4 id="4-1-apotekets-faglige-personale">§ 4-1. Apotekets faglige personale <a class="para-history" href="../historikk/lov-2000-06-02-39/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotekets farmasøytiske personale er de ansatte med rett til å utøve yrke som provisorfarmasøyt eller reseptarfarmasøyt.</p>
 <p>Apotekets tekniske personale er de ansatte med rett til å utøve yrke som apotekteknikere.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="4-2-opphevet">§ 4-2. (Opphevet) <a class="para-history" href="../historikk/lov-2000-06-02-39/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lov 22 des 2006 nr. 100 (i kraft 1 april 2007 iflg. res. 22 des 2006 nr. 1527 ), opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 22 des 2006 nr. 100 (i kraft 1 april 2007 iflg. res. 22 des 2006 nr. 1527 ), opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="4-3-personalkrav">§ 4-3. Personalkrav</h4>
 <p>Apoteket skal ha et faglig personale som i antall og kompetanse er tilstrekkelig til å sikre god kvalitet på og sikkerhet ved apotekets oppbevaring, tilvirkning, ekspedisjon og utlevering av legemidler. Apotekkonsesjonæren skal medvirke til nødvendig videre- og etterutdanning.</p>
 <p>Minst en person tilhørende apotekets farmasøytiske personale skal være til stede i hele åpningstiden.</p>
@@ -257,7 +476,7 @@ d. ved uforsvarlig personlig utøvelse av rettigheter og plikter som apoteker.</
 <h4 id="5-2-apnings-og-lukningstider">§ 5-2. Åpnings- og lukningstider <a class="para-history" href="../historikk/lov-2000-06-02-39/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apoteket skal være åpent for ekspedisjon og utlevering av legemidler til publikum innenfor sine åpningstider. Dersom ikke annet er fastsatt i medhold av annet ledd, står apoteket fritt til å bestemme sine åpnings- og lukningstider.</p>
 <p>Departementet kan ved forskrift bestemme minste åpningstider for apotek, og kan også fastsette lukningstider på søndager. I forskrift kan det også gis bestemmelser om plikt til rapportering og kunngjøring av åpningstidene.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="5-3-forhandlingsplikt">§ 5-3. Forhandlingsplikt</h4>
 <p>Apoteket har plikt til å forhandle:</p>
 <p>a. alle legemidler som er tillatt solgt her i landet
@@ -269,7 +488,7 @@ b. vanlig medisinsk utstyr som benyttes av forbrukere.</p>
 <p>Apotek plikter å gi departementet elektronisk tilgang til opplysninger om lagerstatus ved fare for tilgangen til legemidler i Norge. Apotek plikter også å gi departementet informasjon om tilgjengelighet av legemidler og prognoser for etterspørsel av legemidler. Departementet kan gi forskrift om gjennomføringen av første og andre punktum.</p>
 <p>Apoteket skal registrere etterspørsel og utlevering av legemidler ved apoteket, slik at leveringsgraden går fram.</p>
 <p>Departementet kan gi forskrift om hvilke varer et apotek alltid skal ha på lager og stille minstekrav til leveringsgrad for legemidler og om apotekenes plikter ved mottak av legemidler fra leverandør og om adgangen for apotek til å levere legemidler til hverandre.</p>
-<p><em>Endret ved lover 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ), 19 juni 2026 nr. 44 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1235 ).</em></p>
+<p class="note">Endret ved lover 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ), 19 juni 2026 nr. 44 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1235 ).</p>
 <h4 id="5-5-regnskap-og-annen-virksomhetsregistrering">§ 5-5. Regnskap og annen virksomhetsregistrering <a class="para-history" href="../historikk/lov-2000-06-02-39/para-5-5.html" title="Endringshistorikk for § 5-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apoteket skal ha eget budsjett og regnskap. Regnskapet skal føres ordentlig og fullstendig i henhold til den regnskapsplikt som gjelder for virksomheten.</p>
 <p>Departementet kan ved forskrift gi nærmere bestemmelser om regnskapsplikten og kan fastsette de tillegg til regnskapsplikten som finnes påkrevd. Apoteket kan også pålegges å føre andre oppgaver over sin virksomhet enn de som følger av regnskapsplikten.</p>
@@ -277,7 +496,7 @@ b. vanlig medisinsk utstyr som benyttes av forbrukere.</p>
 <h4 id="5-5-a-dokumentasjon-av-reseptekspedisjon">§ 5-5 a. Dokumentasjon av reseptekspedisjon</h4>
 <p>Apoteket skal oppbevare opplysninger om ekspedisjon og utlevering av legemidler og handelsvarer etter resept og rekvisisjon. Departementet gir nærmere bestemmelser om slik registrering, herunder krav til oppbevaringsperioder og hva som skal registreres.</p>
 <p>For pasienters innsynsrett i lagrede opplysninger gjelder <a href="lov-1999-07-02-63.html">pasient- og brukerrettighetsloven</a>.</p>
-<p><em>Tilføyd ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), endret ved lov 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), endret ved lov 24 juni 2011 nr. 30 (ikr. 1 jan 2012 iflg. res. 16 des 2011 nr. 1252 ).</p>
 <h4 id="5-6-internkontroll">§ 5-6. Internkontroll</h4>
 <p>Apoteket skal etablere internkontroll for virksomheten og må kunne dokumentere at virksomhet og tjenester planlegges, utføres og vedlikeholdes i samsvar med krav fastsatt i lov og forskrift.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om internkontroll i apotek.</p>
@@ -285,13 +504,13 @@ b. vanlig medisinsk utstyr som benyttes av forbrukere.</p>
 <p>Apoteket plikter å bistå i formidlingen av offentlig informasjon om legemidler, medisinsk utstyr og lignende.</p>
 <h4 id="5-8-nedlegging-av-apotek">§ 5-8. Nedlegging av apotek <a class="para-history" href="../historikk/lov-2000-06-02-39/para-5-8.html" title="Endringshistorikk for § 5-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved nedlegging skal apotekets eier sikre forsvarlig behandling av legemidler, relevant dokumentasjon og personopplysninger som oppbevares eller lagres i apoteket. Departementet kan i forskrift gi nærmere bestemmelser om krav i forbindelse med nedlegging.</p>
-<p><em>Tilføyd ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Tilføyd ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h2 id="kap-6-salg-og-markedsfring-fra-apotek">Kap. 6. Salg og markedsføring fra apotek</h2>
 <h4 id="6-1-leveringsrett-for-apotekets-varer-mv">§ 6-1. Leveringsrett for apotekets varer m.v. <a class="para-history" href="../historikk/lov-2000-06-02-39/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apoteket har med de begrensninger som følger av lov og forskrift rett til å levere forhandlingspliktige varer og yte de tjenester som følger av forhandlingsplikten. Apotek kan også levere og yte andre varer og tjenester hvis det naturlig og hensiktsmessig lar seg forene med apotekets salg av forhandlingspliktige varer. Departementet kan likevel gi forskrift som innskrenker adgangen til å selge varer og varegrupper som ikke omfattes av forhandlingsplikten, og kan gi bestemmelser som innskrenker adgangen til å yte andre tjenester enn farmasøytiske tjenester.</p>
 <p>Departementet kan gi forskrift som begrenser apotekets adgang til forsendelse av legemidler.</p>
 <p>Departementet kan ved forskrift og i det enkelte tilfellet helt eller delvis unnta sykehusapotek fra leveringsrett for forhandlingspliktige varer til andre kunder enn sykehuset og sykehusets ansatte og brukere.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="6-2-leveringsplikt-for-forhandlingspliktige-varer-mv">§ 6-2. Leveringsplikt for forhandlingspliktige varer m.v.</h4>
 <p>Apotek skal så snart som mulig levere varer og yte tjenester som etterspørres og som omfattes eller følger av forhandlingsplikten.</p>
 <p>Apotek har ikke adgang til å levere når utlevering innebærer brudd på gjeldende utleveringsbestemmelser og det ikke er adgang til å gjøre unntak. Det samme gjelder når:</p>
@@ -310,7 +529,7 @@ c. apoteket har grunn til å tro at legemidlet kan misbrukes eller utgjøre en f
 <p>Apoteket kan, uten hinder av første ledd, bytte rekvirert legemiddel med generisk likeverdig legemiddel, biotilsvarende likeverdig legemiddel eller parallellimportert legemiddel, hvis departementet har godkjent legemidlene som byttbare. Slikt bytte kan ikke skje i strid med rekvirentens eller kundens uttrykkelige ønske. Dersom rekvirenten ber om det, skal apoteket meddele rekvirenten om at slikt bytte er foretatt.</p>
 <p>Departementet kan i forskrift gi nærmere bestemmelser om at rekvirenten i det enkelte tilfelle skal journalføre en begrunnelse for at bytte etter annet ledd er uønsket.</p>
 <p>Ved utlevering mot resept skal apoteket bidra til at kunden får tilstrekkelig informasjon om legemidlet til at det kan brukes riktig.</p>
-<p><em>Endret ved lover 20 des 2002 nr. 101 (ikr. 1 jan 2003 iflg. res. 20 des 2002 nr. 1732 ), 21 mai 2021 nr. 40 (ikr. 1 juli 2021 iflg. res. 21 mai 2021 nr. 1653 ).</em></p>
+<p class="note">Endret ved lover 20 des 2002 nr. 101 (ikr. 1 jan 2003 iflg. res. 20 des 2002 nr. 1732 ), 21 mai 2021 nr. 40 (ikr. 1 juli 2021 iflg. res. 21 mai 2021 nr. 1653 ).</p>
 <h4 id="6-7-utlevering-av-legemidler-uten-resept">§ 6-7. Utlevering av legemidler uten resept</h4>
 <p>Ved salg til publikum av legemidler som kan utleveres uten resept, skal apoteket bidra til at kunden får nødvendig informasjon om legemidlet, herunder kontrollere at:</p>
 <p>a. legemidlet er forsynt med tilstrekkelige opplysninger om bruk, oppbevaring og holdbarhet
@@ -323,7 +542,7 @@ c. kunden er opplyst om mulige skadelige effekter.</p>
 <p>a. Ved feil og kvalitetsmangler på videresolgte preparater skal melding gis til legemidlets tilvirker eller importør.
 b. Hvis det kan antas at bruken av et apotektilvirket legemiddel kan føre eller har ført til helseskade, skal tilsynsmyndigheten straks varsles, og nødvendige skritt for å avverge eller begrense skaden skal tas.</p>
 <p>Første ledd gjelder tilsvarende dersom feil eller kvalitetsmangler på legemidler avdekkes i apoteket før utlevering.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="6-10-returmedisin">§ 6-10. Returmedisin</h4>
 <p>Apotek plikter i forbrukerkjøp å ta i retur legemidler for kassasjon uten kostnad for kunden.</p>
 <p>Departementet kan gi nærmere bestemmelser om mottak, oppbevaring og kassasjon av returmedisin.</p>
@@ -332,41 +551,41 @@ b. Hvis det kan antas at bruken av et apotektilvirket legemiddel kan føre eller
 <p>Apoteket kan med de begrensninger som er gitt i lov og forskrifter, markedsføre sine varer, tjenester, priser, rabatter og leveringsbetingelser.</p>
 <p>Bare varer som omfattes av forhandlingsplikten, kan markedsføres generelt som varer som fås på apotek. Andre varer kan bare knyttes til apotek sammen med angivelse av hvilket eller hvilke apotek som forhandler varen.</p>
 <p>Departementet kan gi nærmere bestemmelser om markedsføring av apoteks varer og tjenester, herunder bestemmelser som innskrenker adgangen til markedsføring etter denne paragrafen.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="6-12-restriksjoner-pa-salg-og-utlevering-av-legemidler">§ 6-12. Restriksjoner på salg og utlevering av legemidler <a class="para-history" href="../historikk/lov-2000-06-02-39/para-6-12.html" title="Endringshistorikk for § 6-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom det er fare for tilgangen til legemidler i Norge, kan departementet pålegge apotek restriksjoner på salg og utlevering av legemidler.</p>
 <p>Departementet kan gi forskrift om gjennomføringen av første ledd.</p>
-<p><em>Opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), tilføyd ved lov 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</em></p>
+<p class="note">Opphevet ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), tilføyd ved lov 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</p>
 <h2 id="kap-7-tilvirkning-av-legemidler-i-apotek">Kap. 7. Tilvirkning av legemidler i apotek</h2>
 <h4 id="7-1-rett-til-tilvirkning">§ 7-1. Rett til tilvirkning <a class="para-history" href="../historikk/lov-2000-06-02-39/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan gi apotekkonsesjonær tilvirkertillatelse for apotek som oppfyller vilkårene for slik tillatelse. For tilvirkning utenfor apotek kan det gis tillatelse til andre enn apotekkonsesjonær dersom tilvirkningen skjer på oppdrag fra apoteket. Departementet gir forskrift med nærmere bestemmelser om hvilke krav som må være oppfylt for å få tilvirkertillatelse, og om tilbakekall av tillatelsen.</p>
 <p>Departementet kan forby tilvirkning eller lagring av visse legemidler og varer i apotek.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="7-2-tilvirkningsstandard">§ 7-2. Tilvirkningsstandard <a class="para-history" href="../historikk/lov-2000-06-02-39/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilvirkning av legemidler etter dette kapitlet skal være forsvarlig og i samsvar med god tilvirkningspraksis. Departementet kan i forskrift gi nærmere bestemmelser om kvalitets- og sikkerhetskrav.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="7-3-salg-av-apotektilvirkede-legemidler">§ 7-3. Salg av apotektilvirkede legemidler <a class="para-history" href="../historikk/lov-2000-06-02-39/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Apotek har rett til å selge egentilvirkede legemidler til sluttbruker i apotek som omfattes av driftskonsesjon.</p>
 <p>Legemidler som er tilvirket etter den enkelte resepten, kan selges til eller gjennom apotek av virksomhet med tilvirkertillatelse som leieprodusent for resepturproduksjon. Hvis ikke annet følger av avtale, svarer leieprodusenten for legemidlets sammensetning, holdbarhet, emballasje og for leveringen til mottagende apotek.</p>
 <p>Legemidler som er tilvirket til lager, kan bare selges til apotek og til grossist på grunnlag av særskilt tillatelse fra departementet. Tillatelsen kan gis for et begrenset tidsrom og på nærmere vilkår, som kan endres etter at tillatelse er gitt. Apotek med tillatelse til salg av lagerproduksjon etter dette ledd kan pålegges leveringsplikt til apotek og grossist for legemidler som omfattes av tillatelsen.</p>
 <p>Departementet kan gi nærmere bestemmelser om salg, herunder om bestilling, mottak og levering, av apotektilvirkede legemidler.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h2 id="kap-8-tilsyn-med-apotek">Kap. 8. Tilsyn med apotek</h2>
 <h4 id="8-1-tilsynsmyndighet">§ 8-1. Tilsynsmyndighet <a class="para-history" href="../historikk/lov-2000-06-02-39/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet er tilsynsmyndighet og fører tilsyn med at krav til apotekvirksomhet i lov og forskrifter er oppfylt.</p>
-<p><em>Endret ved lov 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ).</em></p>
+<p class="note">Endret ved lov 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ).</p>
 <h4 id="8-2-plikt-til-medvirkning">§ 8-2. Plikt til medvirkning <a class="para-history" href="../historikk/lov-2000-06-02-39/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som er gjenstand for tilsyn, plikter å sørge for at tilsynsmyndigheten har uhindret tilgang til apotek. Tilsynsmyndigheten skal videre gis nødvendig tilgang til den delen av apotekkonsesjonærens virksomhet som er knyttet til drift av apotek.</p>
 <p>Tilsynsmyndigheten kan pålegge apotekkonsesjonæren, apotekeren og apotekets stedlige leder, eller representanter for disse, å være tilstede under tilsynet.</p>
 <p>Tilsynsmyndigheten skal ha tilgang til nødvendig dokumentasjon og kan vederlagsfritt ta ut legemidler og andre varer til nærmere undersøkelse og kontroll.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="8-3-palegg-om-retting">§ 8-3. Pålegg om retting <a class="para-history" href="../historikk/lov-2000-06-02-39/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Hvis apoteket eller apotekkonsesjonæren ikke oppfyller krav til virksomheten fastsatt i lov og forskrifter, kan tilsynsmyndigheten gi pålegg om retting innen en fastsatt frist.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="8-4-advarsel">§ 8-4. Advarsel <a class="para-history" href="../historikk/lov-2000-06-02-39/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved mangelfull eller uforsvarlig drift kan tilsynsmyndigheten gi advarsel, selv om forholdet er rettet på eller har vært av forbigående karakter.</p>
 <p>Beslutning om advarsel regnes som enkeltvedtak og rettes både til apotekkonsesjonæren og til apotekeren. Når særlige grunner foreligger, kan advarselen rettes kun til apotekkonsesjonæren.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="8-5-stenging">§ 8-5. Stenging</h4>
 <p>Tilsynsmyndigheten kan stenge apotek og medisinutsalg hvis det ikke foreligger slik konsesjon eller tillatelse som loven påbyr, eller hvis virksomheten kan medføre vesentlig fare for helse og sikkerhet. Ved stenging kan det kreves at lokalene forsegles.</p>
 <p>Tilsynsmyndigheten kan om nødvendig kreve bistand fra politiet for å gjennomføre stenging og forsegling.</p>
@@ -374,22 +593,22 @@ b. Hvis det kan antas at bruken av et apotektilvirket legemiddel kan føre eller
 <h4 id="9-1-klageinstans-i-visse-saker">§ 9-1. Klageinstans i visse saker <a class="para-history" href="../historikk/lov-2000-06-02-39/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kongen kan fastsette at Statens helsepersonellnemnd skal være klageinstans for vedtak etter kap. 3 til 9 som er fattet av underordnet organ i kraft av loven eller etter delegasjon fra departementet.</p>
 <p>I slike saker kaller nemnda seg Apotekklagenemnda. For øvrig gjelder §§ 69 og 70 i lov om helsepersonell m.v. (<a href="lov-1999-07-02-64.html">helsepersonelloven</a>) om nemndas organisering og virksomhet.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ).</p>
 <h4 id="9-2-gebyrer">§ 9-2. Gebyrer</h4>
 <p>Departementet kan gi forskrifter om gebyr for behandling av søknad om apotekkonsesjon etter kap. 2 og driftskonsesjon etter kap. 3 .</p>
 <h4 id="9-3-tvangsmulkt">§ 9-3. Tvangsmulkt <a class="para-history" href="../historikk/lov-2000-06-02-39/para-9-3.html" title="Endringshistorikk for § 9-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å sikre at vilkår gitt etter § 2-8 , plikter etter § 5-4 tredje ledd og § 5-5 og pålegg gitt etter § 8-3 oppfylles, kan tilsynsmyndigheten bestemme at apoteket skal betale en løpende tvangsmulkt for hver dag som går etter utløpet av fristen som er satt for oppfylling av forholdet, inntil det er oppfylt. Vedtak om tvangsmulkt er tvangsgrunnlag for utlegg.</p>
-<p><em>Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 des 2008 nr. 110 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1423 , tidligere § 9-4), 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2001 nr. 94 (ikr. 1 juli 2001 iflg. res. 15 juni 2001 nr. 665 ), 19 des 2008 nr. 110 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1423 , tidligere § 9-4), 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</p>
 <h4 id="9-4-opphevet">§ 9-4. (Opphevet) <a class="para-history" href="../historikk/lov-2000-06-02-39/para-9-4.html" title="Endringshistorikk for § 9-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved lov 19 des 2008 nr. 110 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1423 ), opphevet ved lov 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2008 nr. 110 (ikr. 1 jan 2009 iflg. res. 19 des 2008 nr. 1423 ), opphevet ved lov 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ).</p>
 <h4 id="9-5-straff">§ 9-5. Straff <a class="para-history" href="../historikk/lov-2000-06-02-39/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som forsettlig eller uaktsomt overtrer §§ 1-4 , 1-5 , 2-10 , 3-7 , 5-5 , 6-5 annet punktum, 6-9 , 6-11 , 7-2 første ledd og 8-2 , straffes med bøter eller fengsel inntil 6 måneder.</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 22 juni 2018 nr. 76 .</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 22 juni 2018 nr. 76 .</p>
 <h4 id="9-6-overtredelsesgebyr">§ 9-6. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2000-06-02-39/para-9-6.html" title="Endringshistorikk for § 9-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan ilegge foretak eller fysiske personer som bryter meldeplikten etter § 3-8 andre ledd og pålegg etter § 6-12 , overtredelsesgebyr. Fysiske personer kan bare ilegges overtredelsesgebyr for forsettlige eller uaktsomme overtredelser.</p>
 <p>Departementet kan gi forskrift om utmåling og betaling av overtredelsesgebyr.</p>
 <p>Adgangen til å ilegge overtredelsesgebyr foreldes to år etter at overtredelsen opphørte. Fristen avbrytes ved at det gis forhåndsvarsel eller treffes vedtak om overtredelsesgebyr.</p>
-<p><em>Tilføyd ved lov 21 juni 2019 nr. 42 (ikr. 1 jan 2022 iflg. res. 17 sep 2021 nr. 2767 ), endret ved lov 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2019 nr. 42 (ikr. 1 jan 2022 iflg. res. 17 sep 2021 nr. 2767 ), endret ved lov 25 juni 2024 nr. 68 (i kraft 1 juli 2024 iflg. res. 25 juni 2024 nr. 1268 ).</p>
 <h2 id="kap-10-ikrafttredelse-overgangsregler">Kap. 10. Ikrafttredelse. Overgangsregler</h2>
 <h4 id="10-1-ikrafttredelse">§ 10-1. Ikrafttredelse</h4>
 <p>Loven trer i kraft fra den tid Kongen bestemmer. 1 Kongen kan bestemme at de enkelte bestemmelsene i loven skal tre i kraft til forskjellig tid.</p>
@@ -400,11 +619,13 @@ b. Hvis det kan antas at bruken av et apotektilvirket legemiddel kan føre eller
 <h4 id="10-3-eldre-bevillinger">§ 10-3. Eldre bevillinger <a class="para-history" href="../historikk/lov-2000-06-02-39/para-10-3.html" title="Endringshistorikk for § 10-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Bevillingshavere til apotek som var lovlig etablert som selvstendig apotek ved denne lovens ikrafttredelse, gis uten ny søknadsbehandling apotekkonsesjon og driftskonsesjon på de vilkår som er knyttet til bevillingen. Tilsvarende gjelder for medisinutsalg og for tilvirkertillatelse gitt i tilknytning til bevillingen. For bevilling gitt til kommune, fylkeskommune og stat skal driftskonsesjonen anses å ligge hos den tilsatte apotekeren.</p>
 <p>Bevillingshavere til apotek som var lovlig etablert som filialapotek ved denne lovens ikrafttredelse, gis uten ny søknadsbehandling apotekkonsesjon på de vilkår som er knyttet til bevillingen. Den tilsatte bestyreren skal anses som apoteker for filialapoteket og ha tittelen apoteker, dersom vilkårene i § 3-2 første ledd er oppfylt. Hvis filialapotekets bestyrer ikke oppfyller vilkårene for egen driftskonsesjon, skal filialapoteket anses å ligge under driftskonsesjonen til den apoteker som ved lovens ikrafttredelse var bevillingshaver til filialapoteket, og bestyreren skal ha tittelen apotekbestyrer.</p>
-<p><em>Endret ved lover 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 22 juni 2018 nr. 76 .</em></p>
+<p class="note">Endret ved lover 19 juni 2009 nr. 71 (ikr. 1 jan 2010 iflg. res. 19 juni 2009 nr. 689 ), 22 juni 2018 nr. 76 .</p>
 <h4 id="10-4-eldre-apotek-og-medisinutsalg">§ 10-4. Eldre apotek og medisinutsalg</h4>
 <p><em>– – –</em></p>
 <h4 id="10-5-endringer-i-andre-lover">§ 10-5. Endringer i andre lover</h4>
 <p>Med virkning fra lovens ikrafttredelse gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

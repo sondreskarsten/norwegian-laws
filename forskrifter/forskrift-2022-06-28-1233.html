@@ -19,64 +19,607 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-06-28-1233.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Bilforskriften" href="../feeds/forskrift-2022-06-28-1233.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Bilforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-06-28-1233</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2022-10-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-10-02-1981</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-28-1233" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-1-administrative-bestemmelser">Del 1 – Administrative bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl5"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl5"><a href="#1-3-forholdet-til-tidligere-forskrifter">§ 1-3. Forholdet til tidligere forskrifter</a></li>
+<li class="lvl5"><a href="#1-4-rettsakter-for-godkjenning-av-bil-og-tilhenger-til-bil">§ 1-4. Rettsakter for godkjenning av bil og tilhenger til bil</a></li>
+<li class="lvl5"><a href="#1-5-definisjoner-og-kjretyklasser">§ 1-5. Definisjoner og kjøretøyklasser</a></li>
+<li class="lvl5"><a href="#1-6-forholdet-til-registrering">§ 1-6. Forholdet til registrering</a></li>
+<li class="lvl5"><a href="#1-7-kjrety-som-er-tatt-i-bruk">§ 1-7. Kjøretøy som er tatt i bruk</a></li>
+<li class="lvl3"><a href="#kapittel-2-generelt-om-godkjenning">Kapittel 2 – Generelt om godkjenning</a></li>
+<li class="lvl5"><a href="#2-1-godkjenningsmyndighet">§ 2-1. Godkjenningsmyndighet</a></li>
+<li class="lvl5"><a href="#2-2-valg-av-godkjenningsform">§ 2-2. Valg av godkjenningsform</a></li>
+<li class="lvl5"><a href="#2-3-sknad-om-godkjenning">§ 2-3. Søknad om godkjenning</a></li>
+<li class="lvl5"><a href="#2-4-generelt-om-kjretyets-konstruksjon">§ 2-4. Generelt om kjøretøyets konstruksjon</a></li>
+<li class="lvl5"><a href="#2-5-forevisning-og-identitetskontroll-av-nytt-eu-typegodkjent-og-eu-enkeltgodkjent-kjrety">§ 2-5. Forevisning og identitetskontroll av nytt EU-typegodkjent og EU-enkeltgodkjent kjøretøy</a></li>
+<li class="lvl5"><a href="#2-6-fremstilling-for-ny-godkjenning">§ 2-6. Fremstilling for ny godkjenning</a></li>
+<li class="lvl5"><a href="#2-7-understellsnummer">§ 2-7. Understellsnummer</a></li>
+<li class="lvl5"><a href="#2-8-tillatt-totalvekt">§ 2-8. Tillatt totalvekt</a></li>
+<li class="lvl5"><a href="#2-9-kontroll">§ 2-9. Kontroll</a></li>
+<li class="lvl5"><a href="#2-10-innstilling-av-hastighetsbegrenser">§ 2-10. Innstilling av hastighetsbegrenser</a></li>
+<li class="lvl3"><a href="#kapittel-3-typegodkjenning">Kapittel 3 – Typegodkjenning</a></li>
+<li class="lvl5"><a href="#3-1-eu-typegodkjenning">§ 3-1. EU-typegodkjenning</a></li>
+<li class="lvl5"><a href="#3-2-nasjonal-typegodkjenning-av-smaserier">§ 3-2. Nasjonal typegodkjenning av småserier</a></li>
+<li class="lvl5"><a href="#3-3-restkjrety">§ 3-3. Restkjøretøy</a></li>
+<li class="lvl3"><a href="#kapittel-4-enkeltgodkjenning-av-nytt-kjrety">Kapittel 4 – Enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-1-nytt-kjrety">§ 4-1. Nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-2-kjrety-som-kan-enkeltgodkjennes">§ 4-2. Kjøretøy som kan enkeltgodkjennes</a></li>
+<li class="lvl5"><a href="#4-3-eu-enkeltgodkjenning-av-nytt-kjrety">§ 4-3. EU-enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-4-nasjonal-enkeltgodkjenning-av-nytt-kjrety">§ 4-4. Nasjonal enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-5-fabrikantens-generelle-forpliktelser-ved-nasjonal-godkjenning">§ 4-5. Fabrikantens generelle forpliktelser ved nasjonal godkjenning</a></li>
+<li class="lvl5"><a href="#4-6-fabrikantens-forpliktelser-knyttet-til-anvendelsen-av-typegodkjente-komponenter-eller-separate-tekniske-enheter">§ 4-6. Fabrikantens forpliktelser knyttet til anvendelsen av typegodkjente komponenter eller separate tekniske enheter</a></li>
+<li class="lvl5"><a href="#4-7-fabrikantens-forpliktelser-knyttet-til-kjrety-oppbygd-i-flere-trinn">§ 4-7. Fabrikantens forpliktelser knyttet til kjøretøy oppbygd i flere trinn</a></li>
+<li class="lvl3"><a href="#kapittel-5-enkeltgodkjenning-av-brukt-kjrety">Kapittel 5 – Enkeltgodkjenning av brukt kjøretøy</a></li>
+<li class="lvl5"><a href="#5-1-brukt-kjrety">§ 5-1. Brukt kjøretøy</a></li>
+<li class="lvl5"><a href="#5-2-godkjenning-av-bruktimportert-kjrety">§ 5-2. Godkjenning av bruktimportert kjøretøy</a></li>
+<li class="lvl5"><a href="#5-3-godkjenning-av-bruktimportert-kjrety-i-gruppe-m1-og-n1-som-oppfyller-tredjelands-nasjonale-krav">§ 5-3. Godkjenning av bruktimportert kjøretøy i gruppe M1 og N1 som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#5-4-godkjenning-av-bruktimportert-kjrety-i-gruppe-m2-og-m3-n2-og-n3-som-oppfyller-tredjelands-nasjonale-krav">§ 5-4. Godkjenning av bruktimportert kjøretøy i gruppe M2 og M3, N2 og N3 som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#5-5-godkjenning-av-bruktimportert-kjrety-i-gruppe-o-som-oppfyller-tredjelands-nasjonale-krav">§ 5-5. Godkjenning av bruktimportert kjøretøy i gruppe O som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl3"><a href="#kapittel-6-srlige-godkjenningsregler">Kapittel 6 – Særlige godkjenningsregler</a></li>
+<li class="lvl5"><a href="#6-1-ambulanse">§ 6-1. Ambulanse</a></li>
+<li class="lvl5"><a href="#6-2-kjrety-etter-forordning-eu-2018858-artikkel-2-nr-3">§ 6-2. Kjøretøy etter forordning (EU) 2018/858 artikkel 2 nr. 3</a></li>
+<li class="lvl5"><a href="#6-3-kjrety-for-konkurransekjring-pa-vei-rallybiler">§ 6-3. Kjøretøy for konkurransekjøring på vei (rallybiler)</a></li>
+<li class="lvl5"><a href="#6-4-prototyper">§ 6-4. Prototyper</a></li>
+<li class="lvl5"><a href="#6-5-opphevet">§ 6-5. (Opphevet)</a></li>
+<li class="lvl5"><a href="#6-6-godkjenning-av-kjrety-importert-som-arvegods-eller-ved-eiers-flytting-eller-som-registreres-pa-internasjonale-organisasjoner-eller-utenlandsk-myndighet-mfl-i-norge">§ 6-6. Godkjenning av kjøretøy importert som arvegods eller ved eiers flytting, eller som registreres på internasjonale organisasjoner eller utenlandsk myndighet mfl. i Norge</a></li>
+<li class="lvl5"><a href="#6-7-kjrety-for-forsvaret">§ 6-7. Kjøretøy for Forsvaret</a></li>
+<li class="lvl5"><a href="#6-8-bevaringsverdige-kjrety">§ 6-8. Bevaringsverdige kjøretøy</a></li>
+<li class="lvl5"><a href="#6-9-godkjenning-av-tilhenger-for-kjring-i-hastighet-over-80-kmt-tempo-100-ordning">§ 6-9. Godkjenning av tilhenger for kjøring i hastighet over 80 km/t – Tempo 100-ordning</a></li>
+<li class="lvl3"><a href="#kapittel-7-endring-av-godkjent-kjrety">Kapittel 7 – Endring av godkjent kjøretøy</a></li>
+<li class="lvl5"><a href="#7-1-reparasjon-ombygging-og-oppbygging">§ 7-1. Reparasjon, ombygging og oppbygging</a></li>
+<li class="lvl5"><a href="#7-2-krav-om-dokumentasjon-for-endrede-kjrety">§ 7-2. Krav om dokumentasjon for endrede kjøretøy</a></li>
+<li class="lvl5"><a href="#7-3-definisjoner">§ 7-3. Definisjoner</a></li>
+<li class="lvl5"><a href="#7-4-reparasjon-av-kjrety">§ 7-4. Reparasjon av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-5-ombygging-av-kjrety">§ 7-5. Ombygging av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-6-oppbygging-av-kjrety">§ 7-6. Oppbygging av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-7-krav-til-understellsnummer-ved-skade-reparasjon-ombygging-og-oppbygging">§ 7-7. Krav til understellsnummer ved skade, reparasjon, ombygging og oppbygging</a></li>
+<li class="lvl5"><a href="#7-8-endring-av-eller-konvertering-til-elektrisk-drevet-kjrety-eller-hybridkjrety">§ 7-8. Endring av eller konvertering til elektrisk drevet kjøretøy eller hybridkjøretøy</a></li>
+<li class="lvl5"><a href="#7-9-ettermontering-av-lpg-og-cng-drivstoffanlegg-i-kjrety">§ 7-9. Ettermontering av LPG- og CNG-drivstoffanlegg i kjøretøy</a></li>
+<li class="lvl5"><a href="#7-10-krav-til-og-krav-om-bilbelter-og-festepunkter-ved-endring-av-sitteinnretninger">§ 7-10. Krav til og krav om bilbelter og festepunkter ved endring av sitteinnretninger</a></li>
+<li class="lvl5"><a href="#7-11-krav-til-bilbelterfestepunkter-pa-plasser-som-ikke-har-originale-festepunkter">§ 7-11. Krav til bilbelter/festepunkter på plasser som ikke har originale festepunkter</a></li>
+<li class="lvl5"><a href="#7-12-endring-av-sitteinnretninger-og-persontall">§ 7-12. Endring av sitteinnretninger og persontall</a></li>
+<li class="lvl5"><a href="#7-13-miljkrav-for-ombygd-bil-30-ar-eller-eldre">§ 7-13. Miljøkrav for ombygd bil 30 år eller eldre</a></li>
+<li class="lvl3"><a href="#kapittel-8-bruk-av-nasjonale-tekniske-bestemmelser">Kapittel 8 – Bruk av nasjonale tekniske bestemmelser</a></li>
+<li class="lvl5"><a href="#8-1-bruk-av-dekk-og-felg">§ 8-1. Bruk av dekk og felg</a></li>
+<li class="lvl5"><a href="#8-2-alternative-nasjonale-bestemmelser-for-lysutstyr">§ 8-2. Alternative nasjonale bestemmelser for lysutstyr</a></li>
+<li class="lvl5"><a href="#8-3-nasjonale-bestemmelser-for-lys-og-refleksutstyr-som-ikke-reguleres-av-fn-regulativ-nr-48">§ 8-3. Nasjonale bestemmelser for lys- og refleksutstyr som ikke reguleres av FN-regulativ nr. 48</a></li>
+<li class="lvl2"><a href="#del-2-tekniske-bestemmelser">Del 2 – Tekniske bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-9-alternative-krav-ved-nasjonal-smaseriegodkjenning">Kapittel 9 – Alternative krav ved nasjonal småseriegodkjenning</a></li>
+<li class="lvl5"><a href="#9-1-nasjonal-smaserietypegodkjenning-for-tilhenger-i-gruppe-o1-og-o2">§ 9-1. Nasjonal småserietypegodkjenning for tilhenger i gruppe O1 og O2</a></li>
+<li class="lvl3"><a href="#kapittel-10-alternative-krav-ved-enkeltgodkjenning">Kapittel 10 – Alternative krav ved enkeltgodkjenning</a></li>
+<li class="lvl5"><a href="#10-1-masser-og-dimensjoner-for-kjrety-i-gruppe-m2-m3-n1-o1-og-o2">§ 10-1. Masser og dimensjoner for kjøretøy i gruppe M2, M3, N1, O1 og O2</a></li>
+<li class="lvl5"><a href="#10-2-masser-og-dimensjoner-for-kjrety-i-gruppe-n2">§ 10-2. Masser og dimensjoner for kjøretøy i gruppe N2</a></li>
+<li class="lvl5"><a href="#10-3-masser-og-dimensjoner-for-kjrety-i-gruppe-n3">§ 10-3. Masser og dimensjoner for kjøretøy i gruppe N3</a></li>
+<li class="lvl5"><a href="#10-4-masser-og-dimensjoner-for-kjrety-i-gruppe-o3">§ 10-4. Masser og dimensjoner for kjøretøy i gruppe O3</a></li>
+<li class="lvl5"><a href="#10-5-masser-og-dimensjoner-for-kjrety-i-gruppe-o4">§ 10-5. Masser og dimensjoner for kjøretøy i gruppe O4</a></li>
+<li class="lvl5"><a href="#10-6-avansert-ndbremsesystem-aebs-for-kjrety-i-gruppe-m2-m3-n2-og-n3">§ 10-6. Avansert nødbremsesystem (AEBS) for kjøretøy i gruppe M2, M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#10-7-kjrefeltvarsler-ldws-for-kjrety-i-gruppe-m2-m3-n2-og-n3">§ 10-7. Kjørefeltvarsler (LDWS) for kjøretøy i gruppe M2, M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#10-8-tekniske-lsninger-for-aksellft">§ 10-8. Tekniske løsninger for akselløft</a></li>
+<li class="lvl5"><a href="#10-9-mekaniske-koblingsdeler-for-kjrety-i-gruppe-n2-n3-o3-og-o4">§ 10-9. Mekaniske koblingsdeler for kjøretøy i gruppe N2, N3, O3 og O4</a></li>
+<li class="lvl3"><a href="#kapittel-11-kjrety-som-oppfyller-tredjelands-nasjonale-krav">Kapittel 11 – Kjøretøy som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#11-1-kjrety-i-gruppe-i-gruppe-m1-og-n1">§ 11-1. Kjøretøy i gruppe i gruppe M1 og N1</a></li>
+<li class="lvl5"><a href="#11-2-kjrety-i-gruppe-m2-og-m3-n2-og-n3">§ 11-2. Kjøretøy i gruppe M2 og M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#11-3-kjrety-i-gruppe-o">§ 11-3. Kjøretøy i gruppe O</a></li>
+<li class="lvl3"><a href="#kapittel-12-krav-til-spesielle-kjrety">Kapittel 12 – Krav til spesielle kjøretøy</a></li>
+<li class="lvl5"><a href="#12-1-ambulanse">§ 12-1. Ambulanse</a></li>
+<li class="lvl5"><a href="#12-2-farge-og-profilering-pa-utrykningskjrety-og-andre-kjrety-i-etatenes-tjeneste">§ 12-2. Farge og profilering på utrykningskjøretøy og andre kjøretøy i etatenes tjeneste</a></li>
+<li class="lvl5"><a href="#12-3-lyd-og-lysutstyr-for-utrykningskjrety">§ 12-3. Lyd- og lysutstyr for utrykningskjøretøy</a></li>
+<li class="lvl5"><a href="#12-4-blatt-varsellys-til-alle-sider">§ 12-4. Blått varsellys til alle sider</a></li>
+<li class="lvl5"><a href="#12-5-blatt-varsellys-forover">§ 12-5. Blått varsellys forover</a></li>
+<li class="lvl5"><a href="#12-6-blinkende-fjernlys">§ 12-6. Blinkende fjernlys</a></li>
+<li class="lvl5"><a href="#12-7-sirene-og-signalhorn">§ 12-7. Sirene og signalhorn</a></li>
+<li class="lvl3"><a href="#kapittel-13-krav-til-dekk-og-felg">Kapittel 13 – Krav til dekk og felg</a></li>
+<li class="lvl5"><a href="#13-1-piggdekk-til-bil">§ 13-1. Piggdekk til bil</a></li>
+<li class="lvl5"><a href="#13-2-piggdekk-til-tilhenger">§ 13-2. Piggdekk til tilhenger</a></li>
+<li class="lvl5"><a href="#13-3-bytte-av-dekkfelg">§ 13-3. Bytte av dekk/felg</a></li>
+<li class="lvl3"><a href="#kapittel-14-krav-ved-montering-av-ekstra-lys-og-refleksutstyr">Kapittel 14 – Krav ved montering av ekstra lys- og refleksutstyr</a></li>
+<li class="lvl5"><a href="#14-1-fjernlys">§ 14-1. Fjernlys</a></li>
+<li class="lvl5"><a href="#14-2-kjrelys">§ 14-2. Kjørelys</a></li>
+<li class="lvl5"><a href="#14-3-arbeidslys">§ 14-3. Arbeidslys</a></li>
+<li class="lvl5"><a href="#14-4-toppmarkeringslys">§ 14-4. Toppmarkeringslys</a></li>
+<li class="lvl5"><a href="#14-5-sidemarkeringslys">§ 14-5. Sidemarkeringslys</a></li>
+<li class="lvl5"><a href="#14-6-markeringslys-bak-baklys">§ 14-6. Markeringslys bak (baklys)</a></li>
+<li class="lvl5"><a href="#14-7-retningslys-bak">§ 14-7. Retningslys bak</a></li>
+<li class="lvl5"><a href="#14-8-stopplys">§ 14-8. Stopplys</a></li>
+<li class="lvl5"><a href="#14-9-gult-varsellys">§ 14-9. Gult varsellys</a></li>
+<li class="lvl5"><a href="#14-10-taklykt-for-drosje">§ 14-10. Taklykt for drosje</a></li>
+<li class="lvl5"><a href="#14-11-refleksutstyr-pa-kjrety-som-benyttes-ved-arbeid-pa-eller-langs-veg">§ 14-11. Refleksutstyr på kjøretøy som benyttes ved arbeid på eller langs veg</a></li>
+<li class="lvl2"><a href="#del-3-sluttbestemmelser">Del 3 – Sluttbestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-15-administrative-bestemmelser-gebyr-mm">Kapittel 15 – Administrative bestemmelser, gebyr m.m.</a></li>
+<li class="lvl5"><a href="#15-1-gebyr">§ 15-1. Gebyr</a></li>
+<li class="lvl3"><a href="#kapittel-16-markedstilsyn">Kapittel 16 – Markedstilsyn</a></li>
+<li class="lvl5"><a href="#16-1-tilsynsmyndighet">§ 16-1. Tilsynsmyndighet</a></li>
+<li class="lvl5"><a href="#16-2-tilsyn-med-bil-mm">§ 16-2. Tilsyn med bil m.m.</a></li>
+<li class="lvl3"><a href="#kapittel-17-ikrafttredelse-unntak-og-overgangsbestemmelser">Kapittel 17 – Ikrafttredelse, unntak og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#17-1-forholdet-til-gamle-og-nye-bestemmelser">§ 17-1. Forholdet til gamle og nye bestemmelser</a></li>
+<li class="lvl5"><a href="#17-2-unntak">§ 17-2. Unntak</a></li>
+<li class="lvl5"><a href="#17-3-overgangsbestemmelser">§ 17-3. Overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#17-4-ikrafttredelse">§ 17-4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-tekniske-krav-ved-enkeltgodkjenning-av-nye-kjrety">Vedlegg 1 – Tekniske krav ved enkeltgodkjenning av nye kjøretøy.</a></li>
+<li class="lvl3"><a href="#innledning">Innledning</a></li>
+<li class="lvl3"><a href="#a-belter-og-barnesikring-kollisjonstesting-sikkerhet-til-drivstoffsystem-og-elektrisk-sikkerhet">A – Belter og barnesikring, kollisjonstesting, sikkerhet til drivstoffsystem og elektrisk sikkerhet</a></li>
+<li class="lvl4"><a href="#a1-innvendig-utforming">A1 – Innvendig utforming</a></li>
+<li class="lvl4"><a href="#a2-seter-og-hodesttter">A2 – Seter og hodestøtter</a></li>
+<li class="lvl4"><a href="#a3-buss-seter">A3 – Buss-seter</a></li>
+<li class="lvl4"><a href="#a4-bilbeltefester">A4 – Bilbeltefester</a></li>
+<li class="lvl4"><a href="#a5-bilbelter-og-sikringsutstyr">A5 – Bilbelter og sikringsutstyr</a></li>
+<li class="lvl4"><a href="#a6-bilbeltevarslere">A6 – Bilbeltevarslere</a></li>
+<li class="lvl4"><a href="#a8-barnesikringsfester">A8 – Barnesikringsfester</a></li>
+<li class="lvl4"><a href="#a9-barnesikringsutstyr">A9 – Barnesikringsutstyr</a></li>
+<li class="lvl4"><a href="#a11-underkjringshinder-foran">A11 – Underkjøringshinder foran</a></li>
+<li class="lvl4"><a href="#a12-underkjringshinder-bak">A12 – Underkjøringshinder bak</a></li>
+<li class="lvl4"><a href="#a13-sidevern">A13 – Sidevern</a></li>
+<li class="lvl4"><a href="#a14-drivstofftankers-sikkerhet">A14 – Drivstofftankers sikkerhet</a></li>
+<li class="lvl4"><a href="#a15-lpg-sikkerhet">A15 – LPG-sikkerhet</a></li>
+<li class="lvl4"><a href="#a16-cng-og-lng-sikkerhet">A16 – CNG- og LNG-sikkerhet</a></li>
+<li class="lvl4"><a href="#a17-hydrogensikkerhet">A17 – Hydrogensikkerhet</a></li>
+<li class="lvl4"><a href="#a18-hydrogensystem-materialsikkerhet">A18 – Hydrogensystem materialsikkerhet</a></li>
+<li class="lvl4"><a href="#a19-el-sikkerhet-under-bruk">A19 – El-sikkerhet under bruk</a></li>
+<li class="lvl4"><a href="#a20-frontkollisjon-delvis">A20 – Frontkollisjon, delvis</a></li>
+<li class="lvl4"><a href="#a21-frontkollisjon-fullbredde">A21 – Frontkollisjon, fullbredde</a></li>
+<li class="lvl4"><a href="#a22-kollisjonssikret-styreinnretning">A22 – Kollisjonssikret styreinnretning</a></li>
+<li class="lvl4"><a href="#a24-frerhusets-styrke">A24 – Førerhusets styrke</a></li>
+<li class="lvl4"><a href="#a25-sidekollisjon">A25 – Sidekollisjon</a></li>
+<li class="lvl4"><a href="#a26-sidekollisjon-mot-stolper">A26 – Sidekollisjon mot stolper</a></li>
+<li class="lvl4"><a href="#a27-kollisjon-bakfra">A27 – Kollisjon bakfra</a></li>
+<li class="lvl4"><a href="#a28-ecall-system">A28 – eCall system</a></li>
+<li class="lvl3"><a href="#b-myke-trafikanter-synsfelt-og-sikt">B – Myke trafikanter, synsfelt og sikt</a></li>
+<li class="lvl4"><a href="#b1-beskyttelse-av-fotgjengeres-bein-og-hode">B1 – Beskyttelse av fotgjengeres bein og hode</a></li>
+<li class="lvl4"><a href="#b2-utvidet-beskyttelsesomrade-for-hodestt">B2 – Utvidet beskyttelsesområde for hodestøt</a></li>
+<li class="lvl4"><a href="#b3-frontalbeskyttelsessystem">B3 – Frontalbeskyttelsessystem</a></li>
+<li class="lvl4"><a href="#b4-avansert-ndbremsing-for-fotgjengere-og-syklister">B4 – Avansert nødbremsing for fotgjengere og syklister</a></li>
+<li class="lvl4"><a href="#b5-advarsel-om-kollisjon-med-fotgjengere-og-syklister">B5 – Advarsel om kollisjon med fotgjengere og syklister</a></li>
+<li class="lvl4"><a href="#b6-system-for-informasjon-om-blindsoner">B6 – System for informasjon om blindsoner</a></li>
+<li class="lvl4"><a href="#b7-ryggeassistent">B7 – Ryggeassistent</a></li>
+<li class="lvl4"><a href="#b8-synsfelt-forover-for-lette-kjrety">B8 – Synsfelt forover for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#b9-direkte-sikt-for-tunge-kjretyer">B9 – Direkte sikt for tunge kjøretøyer</a></li>
+<li class="lvl4"><a href="#b10-sikkerhetsglass">B10 – Sikkerhetsglass</a></li>
+<li class="lvl4"><a href="#b11-avisingavdugging">B11 – Avising/avdugging</a></li>
+<li class="lvl4"><a href="#b12-vindusviskervindusspyler">B12 – Vindusvisker/vindusspyler</a></li>
+<li class="lvl4"><a href="#b13-innretninger-for-indirekte-sikt">B13 – Innretninger for indirekte sikt</a></li>
+<li class="lvl4"><a href="#b14-akustisk-kjretyvarslingssystem-avas">B14 – Akustisk kjøretøyvarslingssystem (AVAS)</a></li>
+<li class="lvl3"><a href="#c-chassis-bremser-dekk-og-styring">C – Chassis, bremser, dekk og styring</a></li>
+<li class="lvl4"><a href="#c1-styreinnretning">C1 – Styreinnretning</a></li>
+<li class="lvl4"><a href="#c2-kjrefeltvarsler-ldws">C2 – Kjørefeltvarsler (LDWS)*</a></li>
+<li class="lvl4"><a href="#c3-kjrefeltassistent-for-ndstilfeller-elks">C3 – Kjørefeltassistent for nødstilfeller (ELKS)</a></li>
+<li class="lvl4"><a href="#c4-bremser">C4 – Bremser</a></li>
+<li class="lvl4"><a href="#c6-bremseassistering">C6 – Bremseassistering</a></li>
+<li class="lvl4"><a href="#c7-stabilitetskontroll">C7 – Stabilitetskontroll*</a></li>
+<li class="lvl4"><a href="#c8-avansert-ndbremsesystem-i-tunge-kjretyer-aebs">C8 – Avansert nødbremsesystem i tunge kjøretøyer (AEBS)</a></li>
+<li class="lvl4"><a href="#c9-avansert-ndbremsesystem-i-lette-kjretyer">C9 – Avansert nødbremsesystem i lette kjøretøyer</a></li>
+<li class="lvl4"><a href="#c11-reservehjul-og-systemer-for-sikkerhetsdekk">C11 – Reservehjul og systemer for sikkerhetsdekk</a></li>
+<li class="lvl4"><a href="#c13-overvaking-av-dekktrykk-i-lette-kjretyer">C13 – Overvåking av dekktrykk i lette kjøretøyer</a></li>
+<li class="lvl4"><a href="#c14-overvaking-av-dekktrykk-i-tunge-kjretyer">C14 – Overvåking av dekktrykk i tunge kjøretøyer</a></li>
+<li class="lvl4"><a href="#c15-dekkmontering">C15 – Dekkmontering</a></li>
+<li class="lvl3"><a href="#d-instrumentering-elektrisk-system-belysning-og-beskyttelse-mot-uautorisert-bruk-inkludert-cyberangrep">D – Instrumentering, elektrisk system, belysning, og beskyttelse mot uautorisert bruk, inkludert cyberangrep</a></li>
+<li class="lvl4"><a href="#d1-signalhorn">D1 – Signalhorn</a></li>
+<li class="lvl4"><a href="#d2-radiosty-elektromagnetisk-kompatibilitet">D2 – Radiostøy (elektromagnetisk kompatibilitet)</a></li>
+<li class="lvl4"><a href="#d3-beskyttelse-mot-uautorisert-bruk-startsperre-og-alarmsystemer">D3 – Beskyttelse mot uautorisert bruk, startsperre og alarmsystemer</a></li>
+<li class="lvl4"><a href="#d4-beskyttelse-av-kjrety-mot-cyberangrep">D4 – Beskyttelse av kjøretøy mot cyberangrep</a></li>
+<li class="lvl4"><a href="#d5-hastighetsmaler">D5 – Hastighetsmåler</a></li>
+<li class="lvl4"><a href="#d6-kilometerteller">D6 – Kilometerteller</a></li>
+<li class="lvl4"><a href="#d7-hastighetsbegrensere">D7 – Hastighetsbegrensere</a></li>
+<li class="lvl4"><a href="#d8-intelligente-fartstilpasningssystemer-isa">D8 – Intelligente fartstilpasningssystemer (ISA)</a></li>
+<li class="lvl4"><a href="#d9-merking-av-betjeningsinnretninger-kontrollinnretninger-og-indikatorer">D9 – Merking av betjeningsinnretninger, kontrollinnretninger og indikatorer</a></li>
+<li class="lvl4"><a href="#d10-varmeanlegg">D10 – Varmeanlegg</a></li>
+<li class="lvl4"><a href="#d15-montering-av-lyssignalinnretninger-innretninger-for-belysning-av-veien-og-lysreflekterende-innretninger">D15 – Montering av lyssignalinnretninger, innretninger for belysning av veien og lysreflekterende innretninger</a></li>
+<li class="lvl4"><a href="#d16-ndbremssignal">D16 – Nødbremssignal</a></li>
+<li class="lvl4"><a href="#d17-innretninger-for-rengjring-av-frontlykter">D17 – Innretninger for rengjøring av frontlykter</a></li>
+<li class="lvl4"><a href="#d18-girskiftindikator">D18 – Girskiftindikator</a></li>
+<li class="lvl3"><a href="#e-systemfunksjoner-for-frersttte-eller-automatiserte-kjresystemer">E – Systemfunksjoner for førerstøtte eller automatiserte kjøresystemer</a></li>
+<li class="lvl4"><a href="#e1-grensesnitt-for-ettermontering-av-alkolas">E1 – Grensesnitt for ettermontering av alkolås</a></li>
+<li class="lvl4"><a href="#e2-tretthets-og-oppmerksomhetsvarsel">E2 – Tretthets- og oppmerksomhetsvarsel</a></li>
+<li class="lvl4"><a href="#e3-avansert-distraksjonsvarsel">E3 – Avansert distraksjonsvarsel</a></li>
+<li class="lvl4"><a href="#e4-system-for-overvaking-av-frertilgjengelighet">E4 – System for overvåking av førertilgjengelighet</a></li>
+<li class="lvl4"><a href="#e5-hendelsesdatalogger-kollisjonsdataopptaker">E5 – Hendelsesdatalogger (Kollisjonsdataopptaker)</a></li>
+<li class="lvl4"><a href="#e6-systemer-som-overtar-frerens-kontroll">E6 – Systemer som overtar førerens kontroll</a></li>
+<li class="lvl4"><a href="#e7-systemer-som-gir-kjretyet-informasjon-om-kjretyets-tilstand-og-omradet-rundt">E7 – Systemer som gir kjøretøyet informasjon om kjøretøyets tilstand og området rundt</a></li>
+<li class="lvl3"><a href="#f-generell-kjretykonstruksjon-og-egenskaper">F – Generell kjøretøykonstruksjon og -egenskaper</a></li>
+<li class="lvl4"><a href="#f1-monteringssted-for-kjennemerker">F1 – Monteringssted for kjennemerker</a></li>
+<li class="lvl4"><a href="#f2-ryggefunksjon">F2 – Ryggefunksjon</a></li>
+<li class="lvl4"><a href="#f3-drlaser-og-drhengsler">F3 – Dørlåser og dørhengsler</a></li>
+<li class="lvl4"><a href="#f4-innstigningstrinn-handtak-og-stigbrett">F4 – Innstigningstrinn, håndtak og stigbrett</a></li>
+<li class="lvl4"><a href="#f5-utvendige-utstikkende-deler">F5 – Utvendige utstikkende deler</a></li>
+<li class="lvl4"><a href="#f6-utvendige-utstikkende-deler-pa-frerhus-i-nyttekjrety">F6 – Utvendige utstikkende deler på førerhus i nyttekjøretøy</a></li>
+<li class="lvl4"><a href="#f7-understellsnummer-og-fabrikasjonsplate">F7 – Understellsnummer og fabrikasjonsplate</a></li>
+<li class="lvl4"><a href="#f8-slepeinnretninger">F8 – Slepeinnretninger</a></li>
+<li class="lvl4"><a href="#f9-hjulavskjerming">F9 – Hjulavskjerming</a></li>
+<li class="lvl4"><a href="#f10-innretninger-mot-vannsprut">F10 – Innretninger mot vannsprut</a></li>
+<li class="lvl4"><a href="#f11-masser-og-dimensjoner">F11 – Masser og dimensjoner</a></li>
+<li class="lvl4"><a href="#f12-mekaniske-koblingsdeler">F12 – Mekaniske koblingsdeler</a></li>
+<li class="lvl4"><a href="#f13-kjretyer-beregnet-pa-transport-av-farlig-gods">F13 – Kjøretøyer beregnet på transport av farlig gods</a></li>
+<li class="lvl4"><a href="#f14-generell-busskonstruksjon">F14 – Generell busskonstruksjon</a></li>
+<li class="lvl4"><a href="#f15-overbygningens-styrke-pa-busser">F15 – Overbygningens styrke på busser</a></li>
+<li class="lvl4"><a href="#f16-brannegenskaper-innvendig-i-busser">F16 – Brannegenskaper innvendig i busser</a></li>
+<li class="lvl3"><a href="#g-miljegenskaper-og-utslipp">G – Miljøegenskaper og utslipp</a></li>
+<li class="lvl4"><a href="#g1-styniva">G1 – Støynivå</a></li>
+<li class="lvl4"><a href="#g2-eksosutslipp-fra-kjrety-i-laboratorium">G2 – Eksosutslipp fra kjøretøy i laboratorium</a></li>
+<li class="lvl4"><a href="#g2a-bestemmelse-av-spesifikke-co2-utslipp-og-drivstofforbruk-og-krav-til-forbruksmaler">G2a – Bestemmelse av spesifikke CO2-utslipp og drivstofforbruk, og krav til forbruksmåler</a></li>
+<li class="lvl4"><a href="#g3-eksosutslipp-fra-motor-i-laboratorium">G3 – Eksosutslipp fra motor i laboratorium</a></li>
+<li class="lvl4"><a href="#g3a-bestemmelse-av-bilens-spesifikke-co2-utslipp-og-drivstofforbruk">G3a – Bestemmelse av bilens spesifikke CO2-utslipp og drivstofforbruk</a></li>
+<li class="lvl4"><a href="#g3b-bestemmelse-av-tilhengerens-spesifikke-energieffektivitet">G3b – Bestemmelse av tilhengerens spesifikke energieffektivitet</a></li>
+<li class="lvl4"><a href="#g4-eksosutslipp-pa-veien">G4 – Eksosutslipp på veien</a></li>
+<li class="lvl4"><a href="#g5-eksosutslippets-holdbarhet">G5 – Eksosutslippets holdbarhet</a></li>
+<li class="lvl4"><a href="#g6-utslipp-av-veivhusgasser">G6 – Utslipp av veivhusgasser</a></li>
+<li class="lvl4"><a href="#g7-fordampingsutslipp">G7 – Fordampingsutslipp</a></li>
+<li class="lvl4"><a href="#g8-lavtemperatur-eksosutslipp-i-laboratorium">G8 – Lavtemperatur eksosutslipp i laboratorium</a></li>
+<li class="lvl4"><a href="#g9-egendiagnosesystem-obd">G9 – Egendiagnosesystem (OBD)</a></li>
+<li class="lvl4"><a href="#g10-fravr-av-manipulasjonsinnretning">G10 – Fravær av manipulasjonsinnretning</a></li>
+<li class="lvl4"><a href="#g11-hjelpestrategier-for-utslippsreduksjon">G11 – Hjelpestrategier for utslippsreduksjon</a></li>
+<li class="lvl4"><a href="#g12-innretning-mot-ulovlige-inngrep">G12 – Innretning mot ulovlige inngrep</a></li>
+<li class="lvl4"><a href="#g13-gjenvinning">G13 – Gjenvinning</a></li>
+<li class="lvl4"><a href="#g14-klimaanlegg">G14 – Klimaanlegg</a></li>
+<li class="lvl3"><a href="#h-tilgang-til-kjretyinformasjon-og-programvareoppdatering">H – Tilgang til kjøretøyinformasjon og programvareoppdatering</a></li>
+<li class="lvl4"><a href="#h2-programvareoppdatering">H2 – Programvareoppdatering</a></li>
+<li class="lvl3"><a href="#fotnoter-til-vedlegg-11gitt-generelt-unntak-mime-15209132-03-om-utsatt-ikrafttredelse-til-1-november-2016-ett-ar-overgang-med-hjemmel-i-9-bf-20122overholdelse-av-punktene-fra-g2-til-g12-er-obligatorisk-men-bare-en-typegodkjenning-i-henhold-til-enten-forordningef-nr-7152007-forordningef-nr-5952009eller-forordningeu-20241257forutsettes-avhengig-av-forordningens-virkeomrade">Fotnoter til vedlegg 11Gitt generelt unntak, MIME 15/209132-03, om utsatt ikrafttredelse til 1. november 2016 (+ ett år overgang med hjemmel i § 9 BF 2012)2Overholdelse av punktene fra G2 til G12 er obligatorisk, men bare én typegodkjenning i henhold til enten forordning(EF) nr. 715/2007, forordning(EF) nr. 595/2009eller forordning(EU) 2024/1257forutsettes, avhengig av forordningens virkeområde.</a></li>
+<li class="lvl2"><a href="#vedlegg-2-tekniske-krav-og-administrative-bestemmelser-for-nasjonal-smaserietypegodkjenning-for-tilhenger-i-gruppe-o1-og-o2">Vedlegg 2 – Tekniske krav og administrative bestemmelser for nasjonal småserietypegodkjenning for tilhenger i gruppe O1 og O2</a></li>
+<li class="lvl2"><a href="#vedlegg-3-tempo-100-ordning">Vedlegg 3 – Tempo 100-ordning</a></li>
+<li class="lvl3"><a href="#del-a-krav-til-trekkende-bils-egenvekt-med-frer">Del A: Krav til trekkende bils egenvekt med fører</a></li>
+<li class="lvl3"><a href="#del-b-tempo-100-merke">Del B: Tempo 100-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-4-alternative-krav-ved-enkeltgodkjenning-av-n1">Vedlegg 4 – Alternative krav ved enkeltgodkjenning av N1</a></li>
+<li class="lvl2"><a href="#vedlegg-5-eu-rettsakter-tatt-inn-i-forskriften">Vedlegg 5 – EU-rettsakter tatt inn i forskriften</a></li>
+<li class="lvl3"><a href="#a-belter-og-barnesikring-kollisjonstesting-sikkerhet-til-drivstoffsystem-og-elektrisk-sikkerhet_1">A – Belter og barnesikring, kollisjonstesting, sikkerhet til drivstoffsystem og elektrisk sikkerhet</a></li>
+<li class="lvl3"><a href="#b-myke-trafikanter-synsfelt-og-sikt_1">B – Myke trafikanter, synsfelt og sikt</a></li>
+<li class="lvl3"><a href="#co2-chassis-bremser-dekk-og-styring">CO2 – Chassis, bremser, dekk og styring</a></li>
+<li class="lvl3"><a href="#d-instrumentering-elektrisk-system-belysning-og-beskyttelse-mot-uatorisert-bruk-inkludert-cyberangrep">D – Instrumentering, elektrisk system, belysning, og beskyttelse mot uatorisert bruk, inkludert cyberangrep</a></li>
+<li class="lvl3"><a href="#e-frer-og-systemfunksjon">E – Fører- og systemfunksjon</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-generell-kjretykonstruksjon-og-egenskaper">Forordning (EU) nr. – Generell kjøretøykonstruksjon og -egenskaper</a></li>
+<li class="lvl3"><a href="#g-miljegenskaper-og-utslipp_1">G – Miljøegenskaper og utslipp</a></li>
+<li class="lvl3"><a href="#h-tilgang-til-kjretyinformasjon-og-programvareoppdatering_1">H – Tilgang til kjøretøyinformasjon og programvareoppdatering</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-10-02-1981.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-28-1233.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om godkjenning av bil og tilhenger til bil (bilforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-28-1233.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-06-28-1233 <code>forskrift/2022-06-28-1233</code></td></tr>
+<tr><th>Korttittel</th><td>Bilforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.10.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-10-02-1981 <code>forskrift/2026-10-02-1981</code> fra 05.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-06-28-1233" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-1-administrative-bestemmelser">Del 1 – Administrative bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl5"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl5"><a href="#1-3-forholdet-til-tidligere-forskrifter">§ 1-3. Forholdet til tidligere forskrifter</a></li>
+<li class="lvl5"><a href="#1-4-rettsakter-for-godkjenning-av-bil-og-tilhenger-til-bil">§ 1-4. Rettsakter for godkjenning av bil og tilhenger til bil</a></li>
+<li class="lvl5"><a href="#1-5-definisjoner-og-kjretyklasser">§ 1-5. Definisjoner og kjøretøyklasser</a></li>
+<li class="lvl5"><a href="#1-6-forholdet-til-registrering">§ 1-6. Forholdet til registrering</a></li>
+<li class="lvl5"><a href="#1-7-kjrety-som-er-tatt-i-bruk">§ 1-7. Kjøretøy som er tatt i bruk</a></li>
+<li class="lvl3"><a href="#kapittel-2-generelt-om-godkjenning">Kapittel 2 – Generelt om godkjenning</a></li>
+<li class="lvl5"><a href="#2-1-godkjenningsmyndighet">§ 2-1. Godkjenningsmyndighet</a></li>
+<li class="lvl5"><a href="#2-2-valg-av-godkjenningsform">§ 2-2. Valg av godkjenningsform</a></li>
+<li class="lvl5"><a href="#2-3-sknad-om-godkjenning">§ 2-3. Søknad om godkjenning</a></li>
+<li class="lvl5"><a href="#2-4-generelt-om-kjretyets-konstruksjon">§ 2-4. Generelt om kjøretøyets konstruksjon</a></li>
+<li class="lvl5"><a href="#2-5-forevisning-og-identitetskontroll-av-nytt-eu-typegodkjent-og-eu-enkeltgodkjent-kjrety">§ 2-5. Forevisning og identitetskontroll av nytt EU-typegodkjent og EU-enkeltgodkjent kjøretøy</a></li>
+<li class="lvl5"><a href="#2-6-fremstilling-for-ny-godkjenning">§ 2-6. Fremstilling for ny godkjenning</a></li>
+<li class="lvl5"><a href="#2-7-understellsnummer">§ 2-7. Understellsnummer</a></li>
+<li class="lvl5"><a href="#2-8-tillatt-totalvekt">§ 2-8. Tillatt totalvekt</a></li>
+<li class="lvl5"><a href="#2-9-kontroll">§ 2-9. Kontroll</a></li>
+<li class="lvl5"><a href="#2-10-innstilling-av-hastighetsbegrenser">§ 2-10. Innstilling av hastighetsbegrenser</a></li>
+<li class="lvl3"><a href="#kapittel-3-typegodkjenning">Kapittel 3 – Typegodkjenning</a></li>
+<li class="lvl5"><a href="#3-1-eu-typegodkjenning">§ 3-1. EU-typegodkjenning</a></li>
+<li class="lvl5"><a href="#3-2-nasjonal-typegodkjenning-av-smaserier">§ 3-2. Nasjonal typegodkjenning av småserier</a></li>
+<li class="lvl5"><a href="#3-3-restkjrety">§ 3-3. Restkjøretøy</a></li>
+<li class="lvl3"><a href="#kapittel-4-enkeltgodkjenning-av-nytt-kjrety">Kapittel 4 – Enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-1-nytt-kjrety">§ 4-1. Nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-2-kjrety-som-kan-enkeltgodkjennes">§ 4-2. Kjøretøy som kan enkeltgodkjennes</a></li>
+<li class="lvl5"><a href="#4-3-eu-enkeltgodkjenning-av-nytt-kjrety">§ 4-3. EU-enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-4-nasjonal-enkeltgodkjenning-av-nytt-kjrety">§ 4-4. Nasjonal enkeltgodkjenning av nytt kjøretøy</a></li>
+<li class="lvl5"><a href="#4-5-fabrikantens-generelle-forpliktelser-ved-nasjonal-godkjenning">§ 4-5. Fabrikantens generelle forpliktelser ved nasjonal godkjenning</a></li>
+<li class="lvl5"><a href="#4-6-fabrikantens-forpliktelser-knyttet-til-anvendelsen-av-typegodkjente-komponenter-eller-separate-tekniske-enheter">§ 4-6. Fabrikantens forpliktelser knyttet til anvendelsen av typegodkjente komponenter eller separate tekniske enheter</a></li>
+<li class="lvl5"><a href="#4-7-fabrikantens-forpliktelser-knyttet-til-kjrety-oppbygd-i-flere-trinn">§ 4-7. Fabrikantens forpliktelser knyttet til kjøretøy oppbygd i flere trinn</a></li>
+<li class="lvl3"><a href="#kapittel-5-enkeltgodkjenning-av-brukt-kjrety">Kapittel 5 – Enkeltgodkjenning av brukt kjøretøy</a></li>
+<li class="lvl5"><a href="#5-1-brukt-kjrety">§ 5-1. Brukt kjøretøy</a></li>
+<li class="lvl5"><a href="#5-2-godkjenning-av-bruktimportert-kjrety">§ 5-2. Godkjenning av bruktimportert kjøretøy</a></li>
+<li class="lvl5"><a href="#5-3-godkjenning-av-bruktimportert-kjrety-i-gruppe-m1-og-n1-som-oppfyller-tredjelands-nasjonale-krav">§ 5-3. Godkjenning av bruktimportert kjøretøy i gruppe M1 og N1 som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#5-4-godkjenning-av-bruktimportert-kjrety-i-gruppe-m2-og-m3-n2-og-n3-som-oppfyller-tredjelands-nasjonale-krav">§ 5-4. Godkjenning av bruktimportert kjøretøy i gruppe M2 og M3, N2 og N3 som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#5-5-godkjenning-av-bruktimportert-kjrety-i-gruppe-o-som-oppfyller-tredjelands-nasjonale-krav">§ 5-5. Godkjenning av bruktimportert kjøretøy i gruppe O som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl3"><a href="#kapittel-6-srlige-godkjenningsregler">Kapittel 6 – Særlige godkjenningsregler</a></li>
+<li class="lvl5"><a href="#6-1-ambulanse">§ 6-1. Ambulanse</a></li>
+<li class="lvl5"><a href="#6-2-kjrety-etter-forordning-eu-2018858-artikkel-2-nr-3">§ 6-2. Kjøretøy etter forordning (EU) 2018/858 artikkel 2 nr. 3</a></li>
+<li class="lvl5"><a href="#6-3-kjrety-for-konkurransekjring-pa-vei-rallybiler">§ 6-3. Kjøretøy for konkurransekjøring på vei (rallybiler)</a></li>
+<li class="lvl5"><a href="#6-4-prototyper">§ 6-4. Prototyper</a></li>
+<li class="lvl5"><a href="#6-5-opphevet">§ 6-5. (Opphevet)</a></li>
+<li class="lvl5"><a href="#6-6-godkjenning-av-kjrety-importert-som-arvegods-eller-ved-eiers-flytting-eller-som-registreres-pa-internasjonale-organisasjoner-eller-utenlandsk-myndighet-mfl-i-norge">§ 6-6. Godkjenning av kjøretøy importert som arvegods eller ved eiers flytting, eller som registreres på internasjonale organisasjoner eller utenlandsk myndighet mfl. i Norge</a></li>
+<li class="lvl5"><a href="#6-7-kjrety-for-forsvaret">§ 6-7. Kjøretøy for Forsvaret</a></li>
+<li class="lvl5"><a href="#6-8-bevaringsverdige-kjrety">§ 6-8. Bevaringsverdige kjøretøy</a></li>
+<li class="lvl5"><a href="#6-9-godkjenning-av-tilhenger-for-kjring-i-hastighet-over-80-kmt-tempo-100-ordning">§ 6-9. Godkjenning av tilhenger for kjøring i hastighet over 80 km/t – Tempo 100-ordning</a></li>
+<li class="lvl3"><a href="#kapittel-7-endring-av-godkjent-kjrety">Kapittel 7 – Endring av godkjent kjøretøy</a></li>
+<li class="lvl5"><a href="#7-1-reparasjon-ombygging-og-oppbygging">§ 7-1. Reparasjon, ombygging og oppbygging</a></li>
+<li class="lvl5"><a href="#7-2-krav-om-dokumentasjon-for-endrede-kjrety">§ 7-2. Krav om dokumentasjon for endrede kjøretøy</a></li>
+<li class="lvl5"><a href="#7-3-definisjoner">§ 7-3. Definisjoner</a></li>
+<li class="lvl5"><a href="#7-4-reparasjon-av-kjrety">§ 7-4. Reparasjon av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-5-ombygging-av-kjrety">§ 7-5. Ombygging av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-6-oppbygging-av-kjrety">§ 7-6. Oppbygging av kjøretøy</a></li>
+<li class="lvl5"><a href="#7-7-krav-til-understellsnummer-ved-skade-reparasjon-ombygging-og-oppbygging">§ 7-7. Krav til understellsnummer ved skade, reparasjon, ombygging og oppbygging</a></li>
+<li class="lvl5"><a href="#7-8-endring-av-eller-konvertering-til-elektrisk-drevet-kjrety-eller-hybridkjrety">§ 7-8. Endring av eller konvertering til elektrisk drevet kjøretøy eller hybridkjøretøy</a></li>
+<li class="lvl5"><a href="#7-9-ettermontering-av-lpg-og-cng-drivstoffanlegg-i-kjrety">§ 7-9. Ettermontering av LPG- og CNG-drivstoffanlegg i kjøretøy</a></li>
+<li class="lvl5"><a href="#7-10-krav-til-og-krav-om-bilbelter-og-festepunkter-ved-endring-av-sitteinnretninger">§ 7-10. Krav til og krav om bilbelter og festepunkter ved endring av sitteinnretninger</a></li>
+<li class="lvl5"><a href="#7-11-krav-til-bilbelterfestepunkter-pa-plasser-som-ikke-har-originale-festepunkter">§ 7-11. Krav til bilbelter/festepunkter på plasser som ikke har originale festepunkter</a></li>
+<li class="lvl5"><a href="#7-12-endring-av-sitteinnretninger-og-persontall">§ 7-12. Endring av sitteinnretninger og persontall</a></li>
+<li class="lvl5"><a href="#7-13-miljkrav-for-ombygd-bil-30-ar-eller-eldre">§ 7-13. Miljøkrav for ombygd bil 30 år eller eldre</a></li>
+<li class="lvl3"><a href="#kapittel-8-bruk-av-nasjonale-tekniske-bestemmelser">Kapittel 8 – Bruk av nasjonale tekniske bestemmelser</a></li>
+<li class="lvl5"><a href="#8-1-bruk-av-dekk-og-felg">§ 8-1. Bruk av dekk og felg</a></li>
+<li class="lvl5"><a href="#8-2-alternative-nasjonale-bestemmelser-for-lysutstyr">§ 8-2. Alternative nasjonale bestemmelser for lysutstyr</a></li>
+<li class="lvl5"><a href="#8-3-nasjonale-bestemmelser-for-lys-og-refleksutstyr-som-ikke-reguleres-av-fn-regulativ-nr-48">§ 8-3. Nasjonale bestemmelser for lys- og refleksutstyr som ikke reguleres av FN-regulativ nr. 48</a></li>
+<li class="lvl2"><a href="#del-2-tekniske-bestemmelser">Del 2 – Tekniske bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-9-alternative-krav-ved-nasjonal-smaseriegodkjenning">Kapittel 9 – Alternative krav ved nasjonal småseriegodkjenning</a></li>
+<li class="lvl5"><a href="#9-1-nasjonal-smaserietypegodkjenning-for-tilhenger-i-gruppe-o1-og-o2">§ 9-1. Nasjonal småserietypegodkjenning for tilhenger i gruppe O1 og O2</a></li>
+<li class="lvl3"><a href="#kapittel-10-alternative-krav-ved-enkeltgodkjenning">Kapittel 10 – Alternative krav ved enkeltgodkjenning</a></li>
+<li class="lvl5"><a href="#10-1-masser-og-dimensjoner-for-kjrety-i-gruppe-m2-m3-n1-o1-og-o2">§ 10-1. Masser og dimensjoner for kjøretøy i gruppe M2, M3, N1, O1 og O2</a></li>
+<li class="lvl5"><a href="#10-2-masser-og-dimensjoner-for-kjrety-i-gruppe-n2">§ 10-2. Masser og dimensjoner for kjøretøy i gruppe N2</a></li>
+<li class="lvl5"><a href="#10-3-masser-og-dimensjoner-for-kjrety-i-gruppe-n3">§ 10-3. Masser og dimensjoner for kjøretøy i gruppe N3</a></li>
+<li class="lvl5"><a href="#10-4-masser-og-dimensjoner-for-kjrety-i-gruppe-o3">§ 10-4. Masser og dimensjoner for kjøretøy i gruppe O3</a></li>
+<li class="lvl5"><a href="#10-5-masser-og-dimensjoner-for-kjrety-i-gruppe-o4">§ 10-5. Masser og dimensjoner for kjøretøy i gruppe O4</a></li>
+<li class="lvl5"><a href="#10-6-avansert-ndbremsesystem-aebs-for-kjrety-i-gruppe-m2-m3-n2-og-n3">§ 10-6. Avansert nødbremsesystem (AEBS) for kjøretøy i gruppe M2, M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#10-7-kjrefeltvarsler-ldws-for-kjrety-i-gruppe-m2-m3-n2-og-n3">§ 10-7. Kjørefeltvarsler (LDWS) for kjøretøy i gruppe M2, M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#10-8-tekniske-lsninger-for-aksellft">§ 10-8. Tekniske løsninger for akselløft</a></li>
+<li class="lvl5"><a href="#10-9-mekaniske-koblingsdeler-for-kjrety-i-gruppe-n2-n3-o3-og-o4">§ 10-9. Mekaniske koblingsdeler for kjøretøy i gruppe N2, N3, O3 og O4</a></li>
+<li class="lvl3"><a href="#kapittel-11-kjrety-som-oppfyller-tredjelands-nasjonale-krav">Kapittel 11 – Kjøretøy som oppfyller tredjelands nasjonale krav</a></li>
+<li class="lvl5"><a href="#11-1-kjrety-i-gruppe-i-gruppe-m1-og-n1">§ 11-1. Kjøretøy i gruppe i gruppe M1 og N1</a></li>
+<li class="lvl5"><a href="#11-2-kjrety-i-gruppe-m2-og-m3-n2-og-n3">§ 11-2. Kjøretøy i gruppe M2 og M3, N2 og N3</a></li>
+<li class="lvl5"><a href="#11-3-kjrety-i-gruppe-o">§ 11-3. Kjøretøy i gruppe O</a></li>
+<li class="lvl3"><a href="#kapittel-12-krav-til-spesielle-kjrety">Kapittel 12 – Krav til spesielle kjøretøy</a></li>
+<li class="lvl5"><a href="#12-1-ambulanse">§ 12-1. Ambulanse</a></li>
+<li class="lvl5"><a href="#12-2-farge-og-profilering-pa-utrykningskjrety-og-andre-kjrety-i-etatenes-tjeneste">§ 12-2. Farge og profilering på utrykningskjøretøy og andre kjøretøy i etatenes tjeneste</a></li>
+<li class="lvl5"><a href="#12-3-lyd-og-lysutstyr-for-utrykningskjrety">§ 12-3. Lyd- og lysutstyr for utrykningskjøretøy</a></li>
+<li class="lvl5"><a href="#12-4-blatt-varsellys-til-alle-sider">§ 12-4. Blått varsellys til alle sider</a></li>
+<li class="lvl5"><a href="#12-5-blatt-varsellys-forover">§ 12-5. Blått varsellys forover</a></li>
+<li class="lvl5"><a href="#12-6-blinkende-fjernlys">§ 12-6. Blinkende fjernlys</a></li>
+<li class="lvl5"><a href="#12-7-sirene-og-signalhorn">§ 12-7. Sirene og signalhorn</a></li>
+<li class="lvl3"><a href="#kapittel-13-krav-til-dekk-og-felg">Kapittel 13 – Krav til dekk og felg</a></li>
+<li class="lvl5"><a href="#13-1-piggdekk-til-bil">§ 13-1. Piggdekk til bil</a></li>
+<li class="lvl5"><a href="#13-2-piggdekk-til-tilhenger">§ 13-2. Piggdekk til tilhenger</a></li>
+<li class="lvl5"><a href="#13-3-bytte-av-dekkfelg">§ 13-3. Bytte av dekk/felg</a></li>
+<li class="lvl3"><a href="#kapittel-14-krav-ved-montering-av-ekstra-lys-og-refleksutstyr">Kapittel 14 – Krav ved montering av ekstra lys- og refleksutstyr</a></li>
+<li class="lvl5"><a href="#14-1-fjernlys">§ 14-1. Fjernlys</a></li>
+<li class="lvl5"><a href="#14-2-kjrelys">§ 14-2. Kjørelys</a></li>
+<li class="lvl5"><a href="#14-3-arbeidslys">§ 14-3. Arbeidslys</a></li>
+<li class="lvl5"><a href="#14-4-toppmarkeringslys">§ 14-4. Toppmarkeringslys</a></li>
+<li class="lvl5"><a href="#14-5-sidemarkeringslys">§ 14-5. Sidemarkeringslys</a></li>
+<li class="lvl5"><a href="#14-6-markeringslys-bak-baklys">§ 14-6. Markeringslys bak (baklys)</a></li>
+<li class="lvl5"><a href="#14-7-retningslys-bak">§ 14-7. Retningslys bak</a></li>
+<li class="lvl5"><a href="#14-8-stopplys">§ 14-8. Stopplys</a></li>
+<li class="lvl5"><a href="#14-9-gult-varsellys">§ 14-9. Gult varsellys</a></li>
+<li class="lvl5"><a href="#14-10-taklykt-for-drosje">§ 14-10. Taklykt for drosje</a></li>
+<li class="lvl5"><a href="#14-11-refleksutstyr-pa-kjrety-som-benyttes-ved-arbeid-pa-eller-langs-veg">§ 14-11. Refleksutstyr på kjøretøy som benyttes ved arbeid på eller langs veg</a></li>
+<li class="lvl2"><a href="#del-3-sluttbestemmelser">Del 3 – Sluttbestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-15-administrative-bestemmelser-gebyr-mm">Kapittel 15 – Administrative bestemmelser, gebyr m.m.</a></li>
+<li class="lvl5"><a href="#15-1-gebyr">§ 15-1. Gebyr</a></li>
+<li class="lvl3"><a href="#kapittel-16-markedstilsyn">Kapittel 16 – Markedstilsyn</a></li>
+<li class="lvl5"><a href="#16-1-tilsynsmyndighet">§ 16-1. Tilsynsmyndighet</a></li>
+<li class="lvl5"><a href="#16-2-tilsyn-med-bil-mm">§ 16-2. Tilsyn med bil m.m.</a></li>
+<li class="lvl3"><a href="#kapittel-17-ikrafttredelse-unntak-og-overgangsbestemmelser">Kapittel 17 – Ikrafttredelse, unntak og overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#17-1-forholdet-til-gamle-og-nye-bestemmelser">§ 17-1. Forholdet til gamle og nye bestemmelser</a></li>
+<li class="lvl5"><a href="#17-2-unntak">§ 17-2. Unntak</a></li>
+<li class="lvl5"><a href="#17-3-overgangsbestemmelser">§ 17-3. Overgangsbestemmelser</a></li>
+<li class="lvl5"><a href="#17-4-ikrafttredelse">§ 17-4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-tekniske-krav-ved-enkeltgodkjenning-av-nye-kjrety">Vedlegg 1 – Tekniske krav ved enkeltgodkjenning av nye kjøretøy.</a></li>
+<li class="lvl3"><a href="#innledning">Innledning</a></li>
+<li class="lvl3"><a href="#a-belter-og-barnesikring-kollisjonstesting-sikkerhet-til-drivstoffsystem-og-elektrisk-sikkerhet">A – Belter og barnesikring, kollisjonstesting, sikkerhet til drivstoffsystem og elektrisk sikkerhet</a></li>
+<li class="lvl4"><a href="#a1-innvendig-utforming">A1 – Innvendig utforming</a></li>
+<li class="lvl4"><a href="#a2-seter-og-hodesttter">A2 – Seter og hodestøtter</a></li>
+<li class="lvl4"><a href="#a3-buss-seter">A3 – Buss-seter</a></li>
+<li class="lvl4"><a href="#a4-bilbeltefester">A4 – Bilbeltefester</a></li>
+<li class="lvl4"><a href="#a5-bilbelter-og-sikringsutstyr">A5 – Bilbelter og sikringsutstyr</a></li>
+<li class="lvl4"><a href="#a6-bilbeltevarslere">A6 – Bilbeltevarslere</a></li>
+<li class="lvl4"><a href="#a8-barnesikringsfester">A8 – Barnesikringsfester</a></li>
+<li class="lvl4"><a href="#a9-barnesikringsutstyr">A9 – Barnesikringsutstyr</a></li>
+<li class="lvl4"><a href="#a11-underkjringshinder-foran">A11 – Underkjøringshinder foran</a></li>
+<li class="lvl4"><a href="#a12-underkjringshinder-bak">A12 – Underkjøringshinder bak</a></li>
+<li class="lvl4"><a href="#a13-sidevern">A13 – Sidevern</a></li>
+<li class="lvl4"><a href="#a14-drivstofftankers-sikkerhet">A14 – Drivstofftankers sikkerhet</a></li>
+<li class="lvl4"><a href="#a15-lpg-sikkerhet">A15 – LPG-sikkerhet</a></li>
+<li class="lvl4"><a href="#a16-cng-og-lng-sikkerhet">A16 – CNG- og LNG-sikkerhet</a></li>
+<li class="lvl4"><a href="#a17-hydrogensikkerhet">A17 – Hydrogensikkerhet</a></li>
+<li class="lvl4"><a href="#a18-hydrogensystem-materialsikkerhet">A18 – Hydrogensystem materialsikkerhet</a></li>
+<li class="lvl4"><a href="#a19-el-sikkerhet-under-bruk">A19 – El-sikkerhet under bruk</a></li>
+<li class="lvl4"><a href="#a20-frontkollisjon-delvis">A20 – Frontkollisjon, delvis</a></li>
+<li class="lvl4"><a href="#a21-frontkollisjon-fullbredde">A21 – Frontkollisjon, fullbredde</a></li>
+<li class="lvl4"><a href="#a22-kollisjonssikret-styreinnretning">A22 – Kollisjonssikret styreinnretning</a></li>
+<li class="lvl4"><a href="#a24-frerhusets-styrke">A24 – Førerhusets styrke</a></li>
+<li class="lvl4"><a href="#a25-sidekollisjon">A25 – Sidekollisjon</a></li>
+<li class="lvl4"><a href="#a26-sidekollisjon-mot-stolper">A26 – Sidekollisjon mot stolper</a></li>
+<li class="lvl4"><a href="#a27-kollisjon-bakfra">A27 – Kollisjon bakfra</a></li>
+<li class="lvl4"><a href="#a28-ecall-system">A28 – eCall system</a></li>
+<li class="lvl3"><a href="#b-myke-trafikanter-synsfelt-og-sikt">B – Myke trafikanter, synsfelt og sikt</a></li>
+<li class="lvl4"><a href="#b1-beskyttelse-av-fotgjengeres-bein-og-hode">B1 – Beskyttelse av fotgjengeres bein og hode</a></li>
+<li class="lvl4"><a href="#b2-utvidet-beskyttelsesomrade-for-hodestt">B2 – Utvidet beskyttelsesområde for hodestøt</a></li>
+<li class="lvl4"><a href="#b3-frontalbeskyttelsessystem">B3 – Frontalbeskyttelsessystem</a></li>
+<li class="lvl4"><a href="#b4-avansert-ndbremsing-for-fotgjengere-og-syklister">B4 – Avansert nødbremsing for fotgjengere og syklister</a></li>
+<li class="lvl4"><a href="#b5-advarsel-om-kollisjon-med-fotgjengere-og-syklister">B5 – Advarsel om kollisjon med fotgjengere og syklister</a></li>
+<li class="lvl4"><a href="#b6-system-for-informasjon-om-blindsoner">B6 – System for informasjon om blindsoner</a></li>
+<li class="lvl4"><a href="#b7-ryggeassistent">B7 – Ryggeassistent</a></li>
+<li class="lvl4"><a href="#b8-synsfelt-forover-for-lette-kjrety">B8 – Synsfelt forover for lette kjøretøy</a></li>
+<li class="lvl4"><a href="#b9-direkte-sikt-for-tunge-kjretyer">B9 – Direkte sikt for tunge kjøretøyer</a></li>
+<li class="lvl4"><a href="#b10-sikkerhetsglass">B10 – Sikkerhetsglass</a></li>
+<li class="lvl4"><a href="#b11-avisingavdugging">B11 – Avising/avdugging</a></li>
+<li class="lvl4"><a href="#b12-vindusviskervindusspyler">B12 – Vindusvisker/vindusspyler</a></li>
+<li class="lvl4"><a href="#b13-innretninger-for-indirekte-sikt">B13 – Innretninger for indirekte sikt</a></li>
+<li class="lvl4"><a href="#b14-akustisk-kjretyvarslingssystem-avas">B14 – Akustisk kjøretøyvarslingssystem (AVAS)</a></li>
+<li class="lvl3"><a href="#c-chassis-bremser-dekk-og-styring">C – Chassis, bremser, dekk og styring</a></li>
+<li class="lvl4"><a href="#c1-styreinnretning">C1 – Styreinnretning</a></li>
+<li class="lvl4"><a href="#c2-kjrefeltvarsler-ldws">C2 – Kjørefeltvarsler (LDWS)*</a></li>
+<li class="lvl4"><a href="#c3-kjrefeltassistent-for-ndstilfeller-elks">C3 – Kjørefeltassistent for nødstilfeller (ELKS)</a></li>
+<li class="lvl4"><a href="#c4-bremser">C4 – Bremser</a></li>
+<li class="lvl4"><a href="#c6-bremseassistering">C6 – Bremseassistering</a></li>
+<li class="lvl4"><a href="#c7-stabilitetskontroll">C7 – Stabilitetskontroll*</a></li>
+<li class="lvl4"><a href="#c8-avansert-ndbremsesystem-i-tunge-kjretyer-aebs">C8 – Avansert nødbremsesystem i tunge kjøretøyer (AEBS)</a></li>
+<li class="lvl4"><a href="#c9-avansert-ndbremsesystem-i-lette-kjretyer">C9 – Avansert nødbremsesystem i lette kjøretøyer</a></li>
+<li class="lvl4"><a href="#c11-reservehjul-og-systemer-for-sikkerhetsdekk">C11 – Reservehjul og systemer for sikkerhetsdekk</a></li>
+<li class="lvl4"><a href="#c13-overvaking-av-dekktrykk-i-lette-kjretyer">C13 – Overvåking av dekktrykk i lette kjøretøyer</a></li>
+<li class="lvl4"><a href="#c14-overvaking-av-dekktrykk-i-tunge-kjretyer">C14 – Overvåking av dekktrykk i tunge kjøretøyer</a></li>
+<li class="lvl4"><a href="#c15-dekkmontering">C15 – Dekkmontering</a></li>
+<li class="lvl3"><a href="#d-instrumentering-elektrisk-system-belysning-og-beskyttelse-mot-uautorisert-bruk-inkludert-cyberangrep">D – Instrumentering, elektrisk system, belysning, og beskyttelse mot uautorisert bruk, inkludert cyberangrep</a></li>
+<li class="lvl4"><a href="#d1-signalhorn">D1 – Signalhorn</a></li>
+<li class="lvl4"><a href="#d2-radiosty-elektromagnetisk-kompatibilitet">D2 – Radiostøy (elektromagnetisk kompatibilitet)</a></li>
+<li class="lvl4"><a href="#d3-beskyttelse-mot-uautorisert-bruk-startsperre-og-alarmsystemer">D3 – Beskyttelse mot uautorisert bruk, startsperre og alarmsystemer</a></li>
+<li class="lvl4"><a href="#d4-beskyttelse-av-kjrety-mot-cyberangrep">D4 – Beskyttelse av kjøretøy mot cyberangrep</a></li>
+<li class="lvl4"><a href="#d5-hastighetsmaler">D5 – Hastighetsmåler</a></li>
+<li class="lvl4"><a href="#d6-kilometerteller">D6 – Kilometerteller</a></li>
+<li class="lvl4"><a href="#d7-hastighetsbegrensere">D7 – Hastighetsbegrensere</a></li>
+<li class="lvl4"><a href="#d8-intelligente-fartstilpasningssystemer-isa">D8 – Intelligente fartstilpasningssystemer (ISA)</a></li>
+<li class="lvl4"><a href="#d9-merking-av-betjeningsinnretninger-kontrollinnretninger-og-indikatorer">D9 – Merking av betjeningsinnretninger, kontrollinnretninger og indikatorer</a></li>
+<li class="lvl4"><a href="#d10-varmeanlegg">D10 – Varmeanlegg</a></li>
+<li class="lvl4"><a href="#d15-montering-av-lyssignalinnretninger-innretninger-for-belysning-av-veien-og-lysreflekterende-innretninger">D15 – Montering av lyssignalinnretninger, innretninger for belysning av veien og lysreflekterende innretninger</a></li>
+<li class="lvl4"><a href="#d16-ndbremssignal">D16 – Nødbremssignal</a></li>
+<li class="lvl4"><a href="#d17-innretninger-for-rengjring-av-frontlykter">D17 – Innretninger for rengjøring av frontlykter</a></li>
+<li class="lvl4"><a href="#d18-girskiftindikator">D18 – Girskiftindikator</a></li>
+<li class="lvl3"><a href="#e-systemfunksjoner-for-frersttte-eller-automatiserte-kjresystemer">E – Systemfunksjoner for førerstøtte eller automatiserte kjøresystemer</a></li>
+<li class="lvl4"><a href="#e1-grensesnitt-for-ettermontering-av-alkolas">E1 – Grensesnitt for ettermontering av alkolås</a></li>
+<li class="lvl4"><a href="#e2-tretthets-og-oppmerksomhetsvarsel">E2 – Tretthets- og oppmerksomhetsvarsel</a></li>
+<li class="lvl4"><a href="#e3-avansert-distraksjonsvarsel">E3 – Avansert distraksjonsvarsel</a></li>
+<li class="lvl4"><a href="#e4-system-for-overvaking-av-frertilgjengelighet">E4 – System for overvåking av førertilgjengelighet</a></li>
+<li class="lvl4"><a href="#e5-hendelsesdatalogger-kollisjonsdataopptaker">E5 – Hendelsesdatalogger (Kollisjonsdataopptaker)</a></li>
+<li class="lvl4"><a href="#e6-systemer-som-overtar-frerens-kontroll">E6 – Systemer som overtar førerens kontroll</a></li>
+<li class="lvl4"><a href="#e7-systemer-som-gir-kjretyet-informasjon-om-kjretyets-tilstand-og-omradet-rundt">E7 – Systemer som gir kjøretøyet informasjon om kjøretøyets tilstand og området rundt</a></li>
+<li class="lvl3"><a href="#f-generell-kjretykonstruksjon-og-egenskaper">F – Generell kjøretøykonstruksjon og -egenskaper</a></li>
+<li class="lvl4"><a href="#f1-monteringssted-for-kjennemerker">F1 – Monteringssted for kjennemerker</a></li>
+<li class="lvl4"><a href="#f2-ryggefunksjon">F2 – Ryggefunksjon</a></li>
+<li class="lvl4"><a href="#f3-drlaser-og-drhengsler">F3 – Dørlåser og dørhengsler</a></li>
+<li class="lvl4"><a href="#f4-innstigningstrinn-handtak-og-stigbrett">F4 – Innstigningstrinn, håndtak og stigbrett</a></li>
+<li class="lvl4"><a href="#f5-utvendige-utstikkende-deler">F5 – Utvendige utstikkende deler</a></li>
+<li class="lvl4"><a href="#f6-utvendige-utstikkende-deler-pa-frerhus-i-nyttekjrety">F6 – Utvendige utstikkende deler på førerhus i nyttekjøretøy</a></li>
+<li class="lvl4"><a href="#f7-understellsnummer-og-fabrikasjonsplate">F7 – Understellsnummer og fabrikasjonsplate</a></li>
+<li class="lvl4"><a href="#f8-slepeinnretninger">F8 – Slepeinnretninger</a></li>
+<li class="lvl4"><a href="#f9-hjulavskjerming">F9 – Hjulavskjerming</a></li>
+<li class="lvl4"><a href="#f10-innretninger-mot-vannsprut">F10 – Innretninger mot vannsprut</a></li>
+<li class="lvl4"><a href="#f11-masser-og-dimensjoner">F11 – Masser og dimensjoner</a></li>
+<li class="lvl4"><a href="#f12-mekaniske-koblingsdeler">F12 – Mekaniske koblingsdeler</a></li>
+<li class="lvl4"><a href="#f13-kjretyer-beregnet-pa-transport-av-farlig-gods">F13 – Kjøretøyer beregnet på transport av farlig gods</a></li>
+<li class="lvl4"><a href="#f14-generell-busskonstruksjon">F14 – Generell busskonstruksjon</a></li>
+<li class="lvl4"><a href="#f15-overbygningens-styrke-pa-busser">F15 – Overbygningens styrke på busser</a></li>
+<li class="lvl4"><a href="#f16-brannegenskaper-innvendig-i-busser">F16 – Brannegenskaper innvendig i busser</a></li>
+<li class="lvl3"><a href="#g-miljegenskaper-og-utslipp">G – Miljøegenskaper og utslipp</a></li>
+<li class="lvl4"><a href="#g1-styniva">G1 – Støynivå</a></li>
+<li class="lvl4"><a href="#g2-eksosutslipp-fra-kjrety-i-laboratorium">G2 – Eksosutslipp fra kjøretøy i laboratorium</a></li>
+<li class="lvl4"><a href="#g2a-bestemmelse-av-spesifikke-co2-utslipp-og-drivstofforbruk-og-krav-til-forbruksmaler">G2a – Bestemmelse av spesifikke CO2-utslipp og drivstofforbruk, og krav til forbruksmåler</a></li>
+<li class="lvl4"><a href="#g3-eksosutslipp-fra-motor-i-laboratorium">G3 – Eksosutslipp fra motor i laboratorium</a></li>
+<li class="lvl4"><a href="#g3a-bestemmelse-av-bilens-spesifikke-co2-utslipp-og-drivstofforbruk">G3a – Bestemmelse av bilens spesifikke CO2-utslipp og drivstofforbruk</a></li>
+<li class="lvl4"><a href="#g3b-bestemmelse-av-tilhengerens-spesifikke-energieffektivitet">G3b – Bestemmelse av tilhengerens spesifikke energieffektivitet</a></li>
+<li class="lvl4"><a href="#g4-eksosutslipp-pa-veien">G4 – Eksosutslipp på veien</a></li>
+<li class="lvl4"><a href="#g5-eksosutslippets-holdbarhet">G5 – Eksosutslippets holdbarhet</a></li>
+<li class="lvl4"><a href="#g6-utslipp-av-veivhusgasser">G6 – Utslipp av veivhusgasser</a></li>
+<li class="lvl4"><a href="#g7-fordampingsutslipp">G7 – Fordampingsutslipp</a></li>
+<li class="lvl4"><a href="#g8-lavtemperatur-eksosutslipp-i-laboratorium">G8 – Lavtemperatur eksosutslipp i laboratorium</a></li>
+<li class="lvl4"><a href="#g9-egendiagnosesystem-obd">G9 – Egendiagnosesystem (OBD)</a></li>
+<li class="lvl4"><a href="#g10-fravr-av-manipulasjonsinnretning">G10 – Fravær av manipulasjonsinnretning</a></li>
+<li class="lvl4"><a href="#g11-hjelpestrategier-for-utslippsreduksjon">G11 – Hjelpestrategier for utslippsreduksjon</a></li>
+<li class="lvl4"><a href="#g12-innretning-mot-ulovlige-inngrep">G12 – Innretning mot ulovlige inngrep</a></li>
+<li class="lvl4"><a href="#g13-gjenvinning">G13 – Gjenvinning</a></li>
+<li class="lvl4"><a href="#g14-klimaanlegg">G14 – Klimaanlegg</a></li>
+<li class="lvl3"><a href="#h-tilgang-til-kjretyinformasjon-og-programvareoppdatering">H – Tilgang til kjøretøyinformasjon og programvareoppdatering</a></li>
+<li class="lvl4"><a href="#h2-programvareoppdatering">H2 – Programvareoppdatering</a></li>
+<li class="lvl3"><a href="#fotnoter-til-vedlegg-11gitt-generelt-unntak-mime-15209132-03-om-utsatt-ikrafttredelse-til-1-november-2016-ett-ar-overgang-med-hjemmel-i-9-bf-20122overholdelse-av-punktene-fra-g2-til-g12-er-obligatorisk-men-bare-en-typegodkjenning-i-henhold-til-enten-forordningef-nr-7152007-forordningef-nr-5952009eller-forordningeu-20241257forutsettes-avhengig-av-forordningens-virkeomrade">Fotnoter til vedlegg 11Gitt generelt unntak, MIME 15/209132-03, om utsatt ikrafttredelse til 1. november 2016 (+ ett år overgang med hjemmel i § 9 BF 2012)2Overholdelse av punktene fra G2 til G12 er obligatorisk, men bare én typegodkjenning i henhold til enten forordning(EF) nr. 715/2007, forordning(EF) nr. 595/2009eller forordning(EU) 2024/1257forutsettes, avhengig av forordningens virkeområde.</a></li>
+<li class="lvl2"><a href="#vedlegg-2-tekniske-krav-og-administrative-bestemmelser-for-nasjonal-smaserietypegodkjenning-for-tilhenger-i-gruppe-o1-og-o2">Vedlegg 2 – Tekniske krav og administrative bestemmelser for nasjonal småserietypegodkjenning for tilhenger i gruppe O1 og O2</a></li>
+<li class="lvl2"><a href="#vedlegg-3-tempo-100-ordning">Vedlegg 3 – Tempo 100-ordning</a></li>
+<li class="lvl3"><a href="#del-a-krav-til-trekkende-bils-egenvekt-med-frer">Del A: Krav til trekkende bils egenvekt med fører</a></li>
+<li class="lvl3"><a href="#del-b-tempo-100-merke">Del B: Tempo 100-merke</a></li>
+<li class="lvl2"><a href="#vedlegg-4-alternative-krav-ved-enkeltgodkjenning-av-n1">Vedlegg 4 – Alternative krav ved enkeltgodkjenning av N1</a></li>
+<li class="lvl2"><a href="#vedlegg-5-eu-rettsakter-tatt-inn-i-forskriften">Vedlegg 5 – EU-rettsakter tatt inn i forskriften</a></li>
+<li class="lvl3"><a href="#a-belter-og-barnesikring-kollisjonstesting-sikkerhet-til-drivstoffsystem-og-elektrisk-sikkerhet_1">A – Belter og barnesikring, kollisjonstesting, sikkerhet til drivstoffsystem og elektrisk sikkerhet</a></li>
+<li class="lvl3"><a href="#b-myke-trafikanter-synsfelt-og-sikt_1">B – Myke trafikanter, synsfelt og sikt</a></li>
+<li class="lvl3"><a href="#co2-chassis-bremser-dekk-og-styring">CO2 – Chassis, bremser, dekk og styring</a></li>
+<li class="lvl3"><a href="#d-instrumentering-elektrisk-system-belysning-og-beskyttelse-mot-uatorisert-bruk-inkludert-cyberangrep">D – Instrumentering, elektrisk system, belysning, og beskyttelse mot uatorisert bruk, inkludert cyberangrep</a></li>
+<li class="lvl3"><a href="#e-frer-og-systemfunksjon">E – Fører- og systemfunksjon</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-generell-kjretykonstruksjon-og-egenskaper">Forordning (EU) nr. – Generell kjøretøykonstruksjon og -egenskaper</a></li>
+<li class="lvl3"><a href="#g-miljegenskaper-og-utslipp_1">G – Miljøegenskaper og utslipp</a></li>
+<li class="lvl3"><a href="#h-tilgang-til-kjretyinformasjon-og-programvareoppdatering_1">H – Tilgang til kjøretøyinformasjon og programvareoppdatering</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-28-1233.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-06-28-1233.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-06-28-1233.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2022-06-28-1233.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2022-06-28-1233.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-28-1233.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2022-06-28-1233.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2022-06-28-1233.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2022-06-28-1233.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-godkjenning-av-bil-og-tilhenger-til-bil-bilforskriften">Forskrift om godkjenning av bil og tilhenger til bil (bilforskriften)</h1>
 <h2 id="del-1-administrative-bestemmelser">Del 1 – Administrative bestemmelser</h2>
 <h3 id="kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</h3>
 <h5 id="1-1-formal">§ 1-1. Formål</h5>
@@ -89,10 +632,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(2) 15. september 2012–30. september 2022: Forskrift 5. juli 2012 nr. 817 om godkjenning av bil og tilhenger til bil (bilforskriften) .</p>
 <p>(3) 1. januar 1995–14. september 2012: Forskrift 4. oktober 1994 nr. 918 om tekniske krav og godkjenning av kjøretøy, deler og utstyr (kjøretøyforskriften) .</p>
 <p>(4) Før 1. januar 1995: Forskrift 25. januar 1990 nr. 91 om krav til kjøretøy og kjøretøyforskriften vedlegg 2 .</p>
-<p><em>Endret ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="1-4-rettsakter-for-godkjenning-av-bil-og-tilhenger-til-bil">§ 1-4. Rettsakter for godkjenning av bil og tilhenger til bil <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Følgende forordninger og direktiver gjelder som norsk rett, med de tilpasninger som følger av denne forskrift: forordning (EU) 2018/858 , forordning (EF) nr. 595/2009 , forordning (EU) nr. 582/2011 som endret ved forordning (EU) 2018/932 og forordning (EU) 2026/361 , forordning (EU) nr. 143/2013 , forordning (EU) nr. 195/2013 , forordning (EU) nr. 133/2014 , forordning (EU) nr. 136/2014 , forordning (EU) nr. 540/2014 som endret ved forordning (EU) 2017/1576 , forordning (EU) nr. 627/2014 , forordning (EU) 2015/45 , forordning (EU) 2015/562 , forordning (EU) 2015/758 som gjennomført ved forordning (EU) 2017/78 og senest endret ved forordning (EU) 2024/1180 , forordning (EU) 2016/1718 , forordning (EU) 2017/1151 som endret ved forordning (EU) 2018/1832 , forordning (EU) 2017/1154 , forordning (EU) 2017/1347 , forordning (EU) 2017/2400 som endret ved forordning (EU) 2022/1379 , forordning (EU) 2019/26 , forordning (EU) 2019/318 , forordning (EU) 2019/543 , forordning (EU) 2019/839 , forordning (EU) 2019/1892 , forordning (EU) 2019/2144 , forordning (EU) 2020/683 som endret ved forordning (EU) 2022/195 , forordning (EU) 2022/545 , forordning (EU) 2022/1177 og forordning (EU) 2022/1362 , forordning (EU) 2020/1812 , forordning (EU) 2021/133 som endret ved forordning (EU) 2024/1061 , forordning (EU) 2021/535 som endret ved forordning (EU) 2024/883 , forordning (EU) 2021/646 , forordning (EU) 2021/1243 , forordning (EU) 2021/1244 , forordning (EU) 2021/1341 , forordning (EU) 2021/1445 , forordning (EU) 2021/1958 , forordning (EU) 2022/163 , forordning (EU) 2022/1398 , forordning (EU) 2022/1426 som endret ved forordning (EU) 2026/481 , forordning (EU) 2023/2590 , forordning (EU) 2024/1721 , forordning (EU) 2024/2220 , forordning (EU) 2025/1871 , forordning (EU) 2025/1122 og forordning (EU) 2026/699 .</p>
-<p><em>Endret ved forskrifter 23 sep 2022 nr. 1644 (i kraft 1 okt 2022), 18 nov 2022 nr. 1990 , 28 mars 2023 nr. 433 , 18 april 2023 nr. 513 , 11 mai 2023 nr. 694 , 28 juni 2023 nr. 1153 , 23 aug 2023 nr. 1353 , 25 sep 2023 nr. 1527 , 3 okt 2023 nr. 1569 , 6 feb 2024 nr. 198 , 20 mars 2024 nr. 510 , 5 aug 2024 nr. 1874 (i kraft 7 aug 2024), 10 des 2024 nr. 3033 (i kraft 12 des 2024), 10 des 2024 nr. 3034 (i kraft 12 des 2024), 10 des 2024 nr. 3035 (i kraft 12 des 2024), 16 jan 2025 nr. 74 (i kraft 21 jan 2025), 11 feb 2025 nr. 221 (i kraft 18 feb 2025), 3 april 2025 nr. 615 (i kraft 7 april 2025), 10 okt 2025 nr. 2022 (i kraft 16 okt 2025), 10 okt 2025 nr. 2023 (i kraft 16 okt 2025), 18 feb 2026 nr. 240 (i kraft 23 feb 2026), 24 mars 2026 nr. 472 (i kraft 15 april 2026), 6 juli 2026 nr. 1512 (i kraft 10 juli 2026), 2 okt 2026 nr. 1981 (i kraft 5 okt 2026).</em></p>
+<p class="note">Endret ved forskrifter 23 sep 2022 nr. 1644 (i kraft 1 okt 2022), 18 nov 2022 nr. 1990 , 28 mars 2023 nr. 433 , 18 april 2023 nr. 513 , 11 mai 2023 nr. 694 , 28 juni 2023 nr. 1153 , 23 aug 2023 nr. 1353 , 25 sep 2023 nr. 1527 , 3 okt 2023 nr. 1569 , 6 feb 2024 nr. 198 , 20 mars 2024 nr. 510 , 5 aug 2024 nr. 1874 (i kraft 7 aug 2024), 10 des 2024 nr. 3033 (i kraft 12 des 2024), 10 des 2024 nr. 3034 (i kraft 12 des 2024), 10 des 2024 nr. 3035 (i kraft 12 des 2024), 16 jan 2025 nr. 74 (i kraft 21 jan 2025), 11 feb 2025 nr. 221 (i kraft 18 feb 2025), 3 april 2025 nr. 615 (i kraft 7 april 2025), 10 okt 2025 nr. 2022 (i kraft 16 okt 2025), 10 okt 2025 nr. 2023 (i kraft 16 okt 2025), 18 feb 2026 nr. 240 (i kraft 23 feb 2026), 24 mars 2026 nr. 472 (i kraft 15 april 2026), 6 juli 2026 nr. 1512 (i kraft 10 juli 2026), 2 okt 2026 nr. 1981 (i kraft 5 okt 2026).</p>
 <h5 id="1-5-definisjoner-og-kjretyklasser">§ 1-5. Definisjoner og kjøretøyklasser</h5>
 <p>(1) For nasjonal godkjenning gjelder definisjonene i forordning (EU) 2018/858 artikkel 3 og vedlegg I samt definisjoner i de enkelte kapitler i denne forskrift. I tillegg gjelder følgende definisjoner for hele forskriften:</p>
 <p>a. forordningen : forordning (EU) 2018/858 med endringsrettsakter som er tatt inn i EØS-avtalen og implementert i denne forskrift.
@@ -117,7 +660,7 @@ c. ambulanse : kjøretøy i gruppe M beregnet på transport av syke eller skaded
 <p>(3) Den som søker om godkjenning må dokumentere utført arbeid og benyttede delers/komponenters opprinnelse. Dokumentasjon for utført arbeid kan være dokumentasjon fra verksted, egenerklæring når arbeid er utført av kjøretøyeier selv på eget kjøretøy, foto eller lignende. Dokumentasjon for deler kan være registreringsdokumenter, dokumentasjon for at importerte deler er gått over til fri disponering etter vareførselsloven , kjøpekontrakter, salgsmelding, kvitteringer, foto, egenerklæring eller lignende. Den som søker om godkjenning av bil og tilhenger til bil må selv bære omkostningene i forbindelse med godkjenningen, så som dokumentasjon, prøvinger, kontroll av produksjonsoverensstemmelse mv.</p>
 <p>(4) Opplysninger og dokumentasjon skal framlegges på norsk, svensk, dansk eller engelsk, eller være oversatt til et av disse språkene. Fremlagt dokumentasjon på annet språk, f.eks. tysk, kan godtas dersom den som foretar godkjenning er fortrolig med språket. Dokumentasjon på annet språk, men i harmonisert format, kan likevel godtas.</p>
 <p>(5) Dersom ikke annet er fastsatt i forordningen, kan Statens vegvesen forby person eller virksomhet å framstille bil og tilhenger til bil for godkjenning for en periode ved vesentlige brudd på reglene eller framlegging av feil opplysninger.</p>
-<p><em>Endret ved forskrift 10 mars 2026 nr. 371 .</em></p>
+<p class="note">Endret ved forskrift 10 mars 2026 nr. 371 .</p>
 <h5 id="2-4-generelt-om-kjretyets-konstruksjon">§ 2-4. Generelt om kjøretøyets konstruksjon</h5>
 <p>(1) Kjøretøy skal være bygd, innrettet og utstyrt slik at de tåler de påkjenninger som de vanligvis utsettes for og kan nyttes uten å volde unødig fare eller ulempe og slik at fare for brann mest mulig unngås.</p>
 <p>(2) Statens vegvesen kan til enhver tid nekte å godkjenne et kjøretøy dersom det kan utgjøre eller utgjør en stor fare for trafikksikkerhet eller miljø.</p>
@@ -125,7 +668,7 @@ c. ambulanse : kjøretøy i gruppe M beregnet på transport av syke eller skaded
 <p>Ny bil og tilhenger til bil som er EU-typegodkjent eller EU-enkeltgodkjent i annet EØS-land regnes som godkjent i Norge dersom det ikke er foretatt ombygging etter godkjenningen. Det kan utføres kontroll av kjøretøyets identitet og overensstemmelse med opprinnelig godkjenning.</p>
 <h5 id="2-6-fremstilling-for-ny-godkjenning">§ 2-6. Fremstilling for ny godkjenning <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Godkjent kjøretøy skal fremstilles til ny godkjenning dersom det foretas endring av kjøretøyet som gjør at det ikke lenger er i samsvar med opplysninger i vognkortet, eller følger av de enkelte bestemmelser i denne forskrift. Det samme gjelder andre endringer av kjøretøyet som har betydning for kjøretøyets miljø-, trafikksikkerhets- eller brannsikkerhetsegenskaper.</p>
-<p><em>Endret ved forskrift 13 mai 2026 nr. 853 (i kraft 8 juni 2026).</em></p>
+<p class="note">Endret ved forskrift 13 mai 2026 nr. 853 (i kraft 8 juni 2026).</p>
 <h5 id="2-7-understellsnummer">§ 2-7. Understellsnummer</h5>
 <p>(1) Godkjenningspliktig bil og tilhenger til bil skal være tydelig merket med understellsnummer.</p>
 <p>(2) Understellsnummeret skal være angitt ved innpreging i rammen eller i egnet del i bærende konstruksjon når kjøretøyet ikke har ramme. Det skal være plassert slik at det er godt synlig og utført slik at det vanskelig kan fjernes eller endres. Understellsnummerets plassering på kjøretøyet skal legges inn i motorvognregisteret.</p>
@@ -150,7 +693,7 @@ d. Alle tekniske krav som følge av endret tillatt totalvekt skal være oppfylt.
 b. Bil som av konstruksjonsmessige årsaker ikke kan kjøres med større hastighet enn det hastighetsbegrenseren er innstilt på.
 c. Bil som brukes i vitenskapelig forsøk, etter samtykke fra Statens vegvesen.
 d. Bil som benyttes utelukkende til offentlig transport i tettbygd område.</p>
-<p><em>Tilføyd ved forskrift 29 jan 2025 nr. 105 (i kraft 1 feb 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 29 jan 2025 nr. 105 (i kraft 1 feb 2025).</p>
 <h3 id="kapittel-3-typegodkjenning">Kapittel 3 – Typegodkjenning</h3>
 <h5 id="3-1-eu-typegodkjenning">§ 3-1. EU-typegodkjenning</h5>
 <p>Forordning (EU) 2018/858 gjelder som norsk forskrift for EU-typegodkjenning av bil og tilhenger til bil, samt av systemer, komponenter og separate tekniske enheter.</p>
@@ -185,25 +728,25 @@ e. F10: Innretninger mot vannsprut (Kun hvor det er benyttet nasjonalt unntak),
 f. Denne forskrift § 8-2 og § 8-3 : Nasjonale bestemmelser for lysutstyr.</p>
 <p>(5) Bil og tilhenger til bil som er godkjent i annet EØS-land eller Sveits etter dette landets nasjonale regelverk og som importeres uendret til Norge, skal ikke underlegges ny kontroll eller krav om ny dokumentasjon av forhold som tidligere er dokumentert og godkjent. Dersom det ikke tidligere er framlagt dokumentasjon på oppfyllelse av krav på områder der det norske regelverket stiller tekniske krav eller der de norske krav avviker fra godkjenningslandets, kan oppfyllelse av disse kravene kreves dokumentert. Bil og tilhenger til bil som er godkjent i annet EØS-land kan likevel bare nektes godkjent dersom forskjellen mellom de krav som ble stilt i godkjenningslandet og norske krav er av en slik art at bilen eller tilhengeren utgjør en stor fare for trafikksikkerhet og/eller miljø.</p>
 <p>(6) Bil eller chassis og tilhenger til bil som er dokumentert bestilt hos fabrikant eller produsert før ikrafttredelsesdatoen for et nytt krav, men som ikke tilfredsstiller dette, kan enkeltgodkjennes også etter denne dato når kjøretøyet tilfredsstiller de krav som ble stilt før denne dato. Kjøretøyet må registreres innen ett år etter kravets ikrafttredelsesdato.</p>
-<p><em>Endret ved forskrifter 18 juli 2024 nr. 1837 , 29 jan 2025 nr. 105 (i kraft 1 feb 2025).</em></p>
+<p class="note">Endret ved forskrifter 18 juli 2024 nr. 1837 , 29 jan 2025 nr. 105 (i kraft 1 feb 2025).</p>
 <h5 id="4-5-fabrikantens-generelle-forpliktelser-ved-nasjonal-godkjenning">§ 4-5. Fabrikantens generelle forpliktelser ved nasjonal godkjenning <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Ved nasjonal godkjenning av kjøretøy gjelder fabrikantens forpliktelser som følger av forordning (EU) 2018/858 med de tillegg eller begrensninger som fremgår av denne forskrift med vedlegg. Tilsvarende gjelder for fabrikantens representanter, importører og distributører.</p>
 <p>(2) Fabrikanten skal sikre at det ferdigbygde og komplette kjøretøyet som søkes godkjent, herunder alle benyttede systemer, komponenter og separate tekniske enheter, er produsert eller godkjent i samsvar med forskriftens krav og bestemmelser.</p>
 <p>(3) Fabrikanten har plikt til å gi godkjenningsmyndigheten de opplysningene som kreves i forbindelse med godkjenning. Dersom en annen søker på vegne av fabrikanten, plikter fabrikanten å oversende alle relevante opplysninger og dokumentasjon til ansvarlig søker, jf. § 2-3 annet ledd .</p>
 <p>(4) Fabrikanten er ansvarlig for å sikre produksjonssamsvar. Fabrikanten er ansvarlig for at essensielle sammenføyinger og forbindelser som er benyttet, særlig når det gjelder ramme, karosseri og drivverk, er i tråd med kravene § 2-4 første ledd .</p>
 <p>(5) Fabrikanten skal sikre at kjøretøyet er designet, konstruert og sammenføyd for å minimere risiko for skade på sjåfører og myke trafikanter.</p>
-<p><em>Tilføyd ved forskrift 6 jan 2025 nr. 4 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 jan 2025 nr. 4 .</p>
 <h5 id="4-6-fabrikantens-forpliktelser-knyttet-til-anvendelsen-av-typegodkjente-komponenter-eller-separate-tekniske-enheter">§ 4-6. Fabrikantens forpliktelser knyttet til anvendelsen av typegodkjente komponenter eller separate tekniske enheter <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Dersom en komponent eller separat teknisk enhet er typegodkjent etter vilkårene beskrevet i forordning (EU) 2018/858 artikkel 29 nr. 3, eller med samme vilkår relatert til en typegodkjenning utstedt i henhold til 1958-avtalen for FN-regulativ, eller direktiv 2007/46/EF artikkel 10, gjelder følgende ved nasjonal enkeltgodkjenning av det komplette og ferdigbygde kjøretøyet:</p>
 <p>a. Fabrikanten skal overfor godkjenningsmyndigheten kunne dokumentere og synliggjøre hvilke begrensninger og vilkår som gjelder for de typegodkjente komponentene eller separate tekniske enhetene som er benyttet.
 b. Fabrikanten skal overfor godkjenningsmyndigheten kunne dokumentere at begrensningene og vilkårene for komponenten eller den separate tekniske enheten jf. bokstav a) fortsatt er ivaretatt for det ferdigbygde kjøretøyet.</p>
-<p><em>Tilføyd ved forskrift 6 jan 2025 nr. 4 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 jan 2025 nr. 4 .</p>
 <h5 id="4-7-fabrikantens-forpliktelser-knyttet-til-kjrety-oppbygd-i-flere-trinn">§ 4-7. Fabrikantens forpliktelser knyttet til kjøretøy oppbygd i flere trinn <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Ved nasjonal enkeltgodkjenning av kjøretøy som er oppbygd av flere fabrikanter, gjelder forordning (EU) 2018/858 vedlegg IX, med de tillegg eller begrensninger som følger av denne forskrift.</p>
 <p>(2) I tilfeller hvor det komplette kjøretøyet er oppbygd av flere fabrikanter, er de respektive fabrikantene kun ansvarlige for de systemene, komponentene eller separate tekniske enhetene som de har tilføyd og/eller endret i kjøretøyets oppbygging, eller hvor fabrikanten(e) på annen måte påvirker relevante deler av kravområdets eller rettsaktenes virkeområde for det aktuelle kjøretøyet.</p>
 <p>(3) Fabrikanter i påfølgende trinn må innhente nødvendige opplysninger fra foregående fabrikanter, for å avklare og rette seg etter vilkår og begrensninger som påvirker foregående prøvinger eller godkjenninger. Fabrikanter på foregående trinn skal underrette fabrikanter på påfølgende trinn om eventuelle endringer som kan påvirke typegodkjenningen av en komponent, et system, en separat teknisk enhet, eller av hele kjøretøyet. Plikten til å underrette gjelder også ved tilfeller hvor det foreligger vilkår og begrensninger som beskrevet i § 4-6 . Tilsvarende gjelder også for tilfeller hvor overenstemmelse med et krav er dokumentert av en foregående fabrikant, på annen måte enn ved typegodkjenning (som for eksempel testrapport).</p>
 <p>(4) Dersom kjøretøy, komponent, separat teknisk enhet eller system endres på en sånn måte at de ikke lenger kan understøttes av en typegodkjenning, eller annen dokumentasjon om overenstemmelse med et krav, skal kun den som har riktig kompetanse og utstyr i henhold til den aktuelle rettsakten og denne forskrift, utføre de nødvendige prøver med påfølgende utstedelse av dokumentasjon. Det er fabrikanten som utfører endringen som er ansvarlig for å sikre at endringen utføres i henhold til denne forskrift.</p>
-<p><em>Tilføyd ved forskrift 6 jan 2025 nr. 4 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 jan 2025 nr. 4 .</p>
 <h3 id="kapittel-5-enkeltgodkjenning-av-brukt-kjrety">Kapittel 5 – Enkeltgodkjenning av brukt kjøretøy</h3>
 <h5 id="5-1-brukt-kjrety">§ 5-1. Brukt kjøretøy</h5>
 <p>Bil og tilhenger til bil regnes som brukt når den har vært registrert.</p>
@@ -246,7 +789,7 @@ h. NRCan : Natural Resources Canada.</p>
 <p>(1) Denne bestemmelsen gjelder for kjøretøy som definert i § 1-5 første ledd . For Forsvarets og Sivilforsvarets ambulansebiler som ikke brukes i den sivile beredskapstjenesten, gjelder ikke kravene i denne paragrafens tredje og fjerde ledd samt § 12-1 , men likevel slik at øvrige paragrafer i kapittel 12 gjelder.</p>
 <p>(2) I tillegg til kravene som stilles ved godkjenning etter kapitlene 2–5, må ambulanse som skal godkjennes etter forskrift 18. januar 2002 nr. 55 om godkjenning og registrering av utrykningskjøretøy oppfylle tekniske krav som følger av kapittel 12 .</p>
 <p>(3) Ved godkjenning skal det fremlegges dokumentasjon fra kompetent, uavhengig laboratorium eller fra produsent av bilen eller produsent av ombyggingen til ambulansebil om at kravene i kapittel 12 er oppfylt. Dokumentasjon for at kravene i § 12-1 første ledd er oppfylt skal imidlertid komme fra kompetent, uavhengig laboratorium.</p>
-<p><em>Endret ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="6-2-kjrety-etter-forordning-eu-2018858-artikkel-2-nr-3">§ 6-2. Kjøretøy etter forordning (EU) 2018/858 artikkel 2 nr. 3</h5>
 <p>(1) For kjøretøy angitt i bokstav a–c kan produsenten søke om typegodkjenning eller enkeltgodkjenning i henhold til kapitlene 3–5. Alternativt kan kjøretøyet enkeltgodkjennes i henhold til de tekniske kravene i kjøretøyforskriften .</p>
 <p>a. Kjøretøy utformet og konstruert primært for bruk på byggeplasser eller i steinbrudd, havne- eller lufthavnanlegg.
@@ -277,7 +820,7 @@ d. Piggdekk tillates brukt med følgende begrensninger:
 <p>(2) Godkjenningsmyndigheten kan ved søknad om godkjenning av prototyper gjøre unntak fra enkelte tekniske krav og krav til dokumentasjon for oppfyllelse av gitte kravnivå.</p>
 <p>(3) Godkjenning av prototyper gis for en tidsbegrenset periode på inntil 2 år. Etter søknad kan testperioden forlenges en gang med inntil 1år. Søknad må være mottatt av godkjenningsmyndigheten senest tre måneder før utløp av 2-årsperioden. Prototyper kan ikke bygges om etter endt godkjenningsperiode for ordinært bruk.</p>
 <h5 id="6-5-opphevet">§ 6-5. (Opphevet) <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-6-5.html" title="Endringshistorikk for § 6-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
-<p><em>Endret ved forskrift 20 mars 2024 nr. 510 , opphevet ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 20 mars 2024 nr. 510 , opphevet ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="6-6-godkjenning-av-kjrety-importert-som-arvegods-eller-ved-eiers-flytting-eller-som-registreres-pa-internasjonale-organisasjoner-eller-utenlandsk-myndighet-mfl-i-norge">§ 6-6. Godkjenning av kjøretøy importert som arvegods eller ved eiers flytting, eller som registreres på internasjonale organisasjoner eller utenlandsk myndighet mfl. i Norge</h5>
 <p>(1) Kjøretøy som har vært registrert i utlandet og som importeres som arvegods, kan godkjennes etter kravene i tredje ledd. Forutsetningen for at kjøretøyet kan anses som arvegods, er at avgiftsmyndighetene har godtatt det som arvegods («motorvogner som innføres som arvegods») ved å innvilge det avgiftsfradrag eller avgiftsfritak.</p>
 <p>(2) Kjøretøy som tas med fra utlandet i forbindelse med flytting til eller etablering i Norge, og som registreres på kjennemerker med gule tegn på blå, reflekterende bunn («diplomatkjennemerker») eller som registreres på internasjonale organisasjoner i Norge eller deres personale som nyter personlig tollfrihet, i den grad dette følger av folkeretten eller av særskilt overenskomst, forutsatt at kjøretøyet importeres til eget bruk, og det gis avgiftsfrihet, avgiftsnedsettelse eller avgiftstilskudd for engangsavgift, kan godkjennes etter tredje ledd. Slikt kjøretøy anses ved eventuelt senere salg i Norge som tidligere registrert her i landet hva angår tekniske krav.</p>
@@ -288,7 +831,7 @@ c. Krav om speil, jf. kap. 30 .
 d. Krav til LPG-drivstoffanlegg på bil, jf. § 22-6 .</p>
 <p>(4) Bil og tilhenger til bil som tas med til Norge og registreres på det amerikanske forsvaret eller dets avtalepartnere, eller på deres personale eller personalets familie, i henhold til Tilleggsavtale mellom Norge og USA om forsvarssamarbeid av 16. april 2021 artikkel IX, skal godkjennes uten ytterligere krav. Slikt kjøretøy anses ved eventuelt senere salg i Norge som tidligere registrert her i landet hva angår tekniske krav.</p>
 <p>(5) I vognkortet gjøres merknad om at kjøretøyet er godkjent etter foranstående bestemmelser.</p>
-<p><em>Endret ved forskrift 4 okt 2022 nr. 1714 .</em></p>
+<p class="note">Endret ved forskrift 4 okt 2022 nr. 1714 .</p>
 <h5 id="6-7-kjrety-for-forsvaret">§ 6-7. Kjøretøy for Forsvaret</h5>
 <p>Kjøretøy som utelukkende er utformet, konstruert eller tilpasset til bruk av Forsvaret må oppfylle de tekniske kravene i kjøretøyforskriften , men likevel slik at kravene i bilforskriften kan benyttes. Denne bestemmelsen gjelder ikke for ambulanse da slike kjøretøy følger § 6-1 første ledd.</p>
 <h5 id="6-8-bevaringsverdige-kjrety">§ 6-8. Bevaringsverdige kjøretøy</h5>
@@ -368,7 +911,7 @@ i. Godkjenningspliktig endring: endring av kjøretøyet som gjør at det ikke le
 <p>a. karosseri til kjøretøy med ramme (ikke selvbærende karosseri) blir skiftet ut med karosseri av samme type og det ikke foretas omfattende utskifting av deler og komponenter for øvrig.
 b. ramme skiftes ut med ramme av samme type uten at det foretas omfattende utskifting av deler og komponenter for øvrig.
 c. en forpart og en bakpart fra to kjøretøy med selvbærende karosseri av identisk type sammenføyes, og det ikke foretas omfattende utskiftning av deler og komponenter for øvrig.</p>
-<p><em>Endret ved forskrift 13 mai 2026 nr. 853 (i kraft 8 juni 2026).</em></p>
+<p class="note">Endret ved forskrift 13 mai 2026 nr. 853 (i kraft 8 juni 2026).</p>
 <h5 id="7-5-ombygging-av-kjrety">§ 7-5. Ombygging av kjøretøy</h5>
 <p>(1) Når et kjøretøy ombygges til annen kjøretøygruppe, skal kjøretøyet tilfredsstille de krav som gjelder for den nye gruppen. Dog kan kjøretøy som har vært registrert i Norge i minst 3 år, ombygges til annen kjøretøygruppe uten at kjøretøyet kreves å oppfylle de krav til støy, avgass, bremser og kollisjonsegenskaper som gjelder for den nye gruppen.</p>
 <p>(2) Med mindre annet fremgår, og bortsett fra unntaket i første ledd, skal de kravene gjelde som gjaldt på det tidspunktet kjøretøyet ble registrert første gang eller tatt i bruk uten registreringsplikt i Norge.</p>
@@ -426,7 +969,7 @@ b. Hoftebelte:
 <p>(2) Setetype, sete og festepunkter som er i henhold til FMVSS og CMVSS kan godkjennes på bil som modifiseres som angitt i første ledd eller omklassifiseres uten endringer på sitteinnretninger. (Jf. § 11-1 og § 11-2 .)</p>
 <h5 id="7-13-miljkrav-for-ombygd-bil-30-ar-eller-eldre">§ 7-13. Miljøkrav for ombygd bil 30 år eller eldre <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-7-13.html" title="Endringshistorikk for § 7-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Ved ombygging av bil som er 30 år eller eldre fritas denne fra krav om å gjennomføre kjøresyklus for avgasstesting. Ved ombygging skal de brukskrav til utslipp som gjaldt på tidspunkt for første gangs registrering i Norge tilfredsstilles. Bil skal være utstyrt med utslippsreduserende komponenter i samsvar med de krav som bilen er godkjent etter ved første gangs registrering i Norge.</p>
-<p><em>Tilføyd ved forskrift 28 aug 2024 nr. 2043 (i kraft 1 okt 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 28 aug 2024 nr. 2043 (i kraft 1 okt 2024).</p>
 <h3 id="kapittel-8-bruk-av-nasjonale-tekniske-bestemmelser">Kapittel 8 – Bruk av nasjonale tekniske bestemmelser</h3>
 <h5 id="8-1-bruk-av-dekk-og-felg">§ 8-1. Bruk av dekk og felg</h5>
 <p>(1) Dekk som ifølge forskrift om bruk av kjøretøy § 1-4 tillates brukt med pigger, kan bare ha pigger som fastsatt i bestemmelsene i § 13-1 og § 13-2 .</p>
@@ -494,7 +1037,7 @@ b. Kjøretøy som utfører spesielle funksjoner. Som slike kjøretøy anses blan
 <h5 id="10-9-mekaniske-koblingsdeler-for-kjrety-i-gruppe-n2-n3-o3-og-o4">§ 10-9. Mekaniske koblingsdeler for kjøretøy i gruppe N2, N3, O3 og O4 <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-10-9.html" title="Endringshistorikk for § 10-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Trekkende kjøretøy i gruppe N2, N3, O3 eller O4 som har kobling for å trekke tilhenger i gruppe O3 og O4, kan godkjennes med koblingsanordninger med karakteristiske verdier lavere enn de D-, Dc-, S, V- eller U-verdier som kreves i henhold til FN-regulativ nr. 55, når det tas hensyn til tekniske vekter for trekkende kjøretøy.</p>
 <p>(2) De laveste karakteristiske verdiene for kjøretøyet og koblingsanordningen skal registreres i kjøretøyregisteret.</p>
-<p><em>Tilføyd ved forskrift 23 feb 2026 nr. 273 (i kraft 1 mars 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 23 feb 2026 nr. 273 (i kraft 1 mars 2026).</p>
 <h3 id="kapittel-11-kjrety-som-oppfyller-tredjelands-nasjonale-krav">Kapittel 11 – Kjøretøy som oppfyller tredjelands nasjonale krav</h3>
 <p>Overskrift endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="11-1-kjrety-i-gruppe-i-gruppe-m1-og-n1">§ 11-1. Kjøretøy i gruppe i gruppe M1 og N1</h5>
@@ -573,14 +1116,14 @@ c. Direktoratet for samfunnssikkerhet og beredskap for brannvesenets kjøretøy,
 d. Forsvaret for forsvarets kjøretøy.</p>
 <p>(3) For kjøretøy som ikke reguleres av myndighetene nevnt i annet ledd, kan grunnfarge og uniformering fastsettes av kjøretøyets eier eller den som disponerer dette.</p>
 <p>(4) Kjøretøy til bruk i opplæring i utrykningskjøring følger reglene i utrykningsforskriften § 34 annet ledd annet punktum.</p>
-<h5 id="12-3-lyd-og-lysutstyr-for-utrykningskjrety">§ 12-3. Lyd- og lysutstyr for utrykningskjøretøy</h5>
+<h5 id="12-3-lyd-og-lysutstyr-for-utrykningskjrety">§ 12-3. Lyd- og lysutstyr for utrykningskjøretøy <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-12-3.html" title="Endringshistorikk for § 12-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Motorvogn som nyttes som utrykningskjøretøy kan ha sirene (signalhorn med stor lydstyrke) i henhold til bestemmelsene i § 12-7 . Tonehøyden skal ikke være jevn.</p>
 <p>(2) Blått varsellys: Motorvogn som nyttes som utrykningskjøretøy skal ha en eller flere varsellykter i henhold til kravene i § 12-4 , som enkeltvis eller samlet gir blinkende, blått lys til alle sider. Lykten(e) skal være montert på eller i nærheten av taket.</p>
 <p>(3) I tillegg til dette kan det monteres varsellykter på bilens sideflater som for eksempel speil og skjermer.</p>
 <p>(4) For innvendig montert varsellykt som er montert bak frontvinduet skal monteringen være tett til vindusflaten slik at det ikke oppstår reflekterende lys i vindusflaten. Lyktens ytre begrensning skal ikke strekke seg mer enn 8 cm ovenfor vinduets nederste kant (avgrensning mot gummilist og lignende). Lykten skal kobles over egen bryter som gir strømtilførsel kun når de øvrige blålysene er tent.</p>
 <p>(5) Utrykningskjøretøy kan i tillegg ha blått blinkende lys i henhold til § 12-5 og blinkende fjernlys i henhold til § 12-6 .</p>
 <p>(6) Politiets uniformerte utrykningskjøretøy kan ha svakt blått identifikasjonslys på taket. Lyset skal være fast (det vil si ikke blinkende). Politidirektoratet gir nærmere retningslinjer for utforming og bruk av slikt lys.</p>
-<p><em>Endret ved forskrift 20 des 2022 nr. 2403 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 20 des 2022 nr. 2403 (i kraft 1 jan 2023).</p>
 <h5 id="12-4-blatt-varsellys-til-alle-sider">§ 12-4. Blått varsellys til alle sider</h5>
 <p>(1) Lyktene skal tilfredsstille minst ett av følgende krav:</p>
 <p>a. Blått varsellys skal være E-merket med symbolet B i henhold til FN-regulativ nr. 65.
@@ -727,7 +1270,7 @@ c. Være godkjent og merket i henhold til annen standard med tilsvarende krav so
 <p>(2) Varsellykten skal avgi gult lys i alle retninger innenfor en vertikalvinkel fra minst 5° over til minst 5° under horisontalplanet gjennom lyktens sentrum, og gi inntrykk av å være blinkende. De skal være montert slik at lyskjeglens senterlinje er horisontal. Kravet om synlighet bakover er valgfritt for trekkbil for semitrailer.</p>
 <p>(3) Lykten(e) skal være plassert godt synlig og slik at lyset virker minst mulig sjenerende for føreren og slik at de ikke forstyrrer funksjonen til andre lys (f.eks. stopplys og blinklys). De skal være montert slik at lyskjeglens senterlinje danner et horisontalt plan under dreiningen.</p>
 <p>(4) Varsellyset skal være sammenkoplet med kontrollampe som er godt synlig fra førerens plass og som viser når varsellyset er i funksjon.</p>
-<p><em>Endret ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="14-10-taklykt-for-drosje">§ 14-10. Taklykt for drosje <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-14-10.html" title="Endringshistorikk for § 14-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Drosje skal ha svakt lysende taklykt som foran og bak har påskriften «TAXI» og et løyvenummer.</p>
 <p>(2) Lyktens kuppel skal være av materiale som avgir hvitt lys og bevillingsnummeret skal være i sorte typer med høyde min. 40 mm. Påskriften «TAXI» kan integreres i selskapets logo og fargen samt geometrisk utforming for både «TAXI» og logo er valgfri, likeledes typenes størrelse. Logoen tillates å dekke inntil 40 % av flateinnholdet av flaten den monteres på. Lykten skal ikke være større enn 400 mm lang, 200 mm høy og 150 mm bred.</p>
@@ -735,13 +1278,13 @@ c. Være godkjent og merket i henhold til annen standard med tilsvarende krav so
 <p>(4) Lykten skal være koplet slik at den kan tennes selv om bilens øvrige lys ikke er tent og slik at følgende er oppfylt:</p>
 <p>a. På drosjer med taksameter skal lykten være sammenkoblet med taksameteret på en slik måte at den bare kan lyse når taksameteret er slått av.
 b. På andre drosjer skal lykten være koplet over egen bryter og sammenkoplet med kontrollampe som er godt synlig fra førerens plass og som viser når lykten lyser.</p>
-<p><em>Endret ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h5 id="14-11-refleksutstyr-pa-kjrety-som-benyttes-ved-arbeid-pa-eller-langs-veg">§ 14-11. Refleksutstyr på kjøretøy som benyttes ved arbeid på eller langs veg <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-14-11.html" title="Endringshistorikk for § 14-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Den reflekterende folien skal bestå av skråstilte striper i rødt og gult.</p>
 <p>(2) Folien skal være festet til kjøretøyets karosseri bak og/eller på sidene. Det er ikke tillatt å feste folien foran på kjøretøyet eller på panseret.</p>
 <p>(3) Folien skal ha refleksjonsgrad D eller E som fastsatt i FN-regulativ nr. 104.</p>
 <p>(4) Dersom kjøretøyets hjørner skal merkes, skal slik merking være av klasse F i fargene rød og hvit med dimensjoner som fastsatt i FN-regulativ nr. 104.</p>
-<p><em>Endret ved forskrift 18 juli 2024 nr. 1837 .</em></p>
+<p class="note">Endret ved forskrift 18 juli 2024 nr. 1837 .</p>
 <h2 id="del-3-sluttbestemmelser">Del 3 – Sluttbestemmelser</h2>
 <h3 id="kapittel-15-administrative-bestemmelser-gebyr-mm">Kapittel 15 – Administrative bestemmelser, gebyr m.m.</h3>
 <h5 id="15-1-gebyr">§ 15-1. Gebyr <a class="para-history" href="../historikk/forskrift-2022-06-28-1233/para-15-1.html" title="Endringshistorikk for § 15-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
@@ -753,7 +1296,7 @@ d. EU-typegodkjenning.</p>
 <p>(2) Det skal ikke betales gebyr for klagebehandling. Det betales heller ikke gebyr for identitetssjekk eller stikkprøvekontroll av bruktimportert EU-typegodkjent bil og tilhenger til bil.</p>
 <p>(3) Gebyr skal være betalt før søknad om godkjenning som angitt i første ledd bokstav a og b behandles. Ved omgjøring av vedtak skal gebyr tilbakebetales, i den grad det omgjorte vedtak har hatt betydning for gebyrplikten.</p>
 <p>(4) Innbetalt gebyr for godkjenninger som angitt i første ledd bokstav a og b vil ikke refunderes dersom kunden unnlater å fremstille kjøretøyet til kontroll. Dette gjelder likevel ikke dersom timen er avbestilt senest nest siste virkedag før dato for bestilt time. Selv om fristen for avbestilling er utløpt, kan gebyret for manglende fremstilling frafalles av godkjenningsmyndigheten dersom det fremlegges helseattest eller dokumentasjon for andre forhold som gjør det rimelig å frafalle gebyret.</p>
-<p><em>Endret ved forskrifter 20 des 2022 nr. 2385 (i kraft 1 jan 2023), 10 okt 2023 nr. 1663 .</em></p>
+<p class="note">Endret ved forskrifter 20 des 2022 nr. 2385 (i kraft 1 jan 2023), 10 okt 2023 nr. 1663 .</p>
 <h3 id="kapittel-16-markedstilsyn">Kapittel 16 – Markedstilsyn</h3>
 <h5 id="16-1-tilsynsmyndighet">§ 16-1. Tilsynsmyndighet</h5>
 <p>(1) Statens vegvesen er tilsynsmyndighet for bil, tilhenger til bil, samt systemer, komponenter, separate tekniske enheter, deler og utstyr til slike kjøretøy.</p>
@@ -1132,6 +1675,8 @@ d. EU-typegodkjenning.</p>
 <h3 id="h-tilgang-til-kjretyinformasjon-og-programvareoppdatering_1">H – Tilgang til kjøretøyinformasjon og programvareoppdatering</h3>
 <p>Punkt Emne Basisrettsakt M 1 M 2 M 3 N 1 N 2 N 3 O 1 O 2 O 3 O 4 Separat teknisk enhet Komponent H1 Tilgang til kjøretøyets OBD, og opplysninger om reparasjon og vedlikehold Forordning (EU) 2018/858 , artikkel 61–66 og vedlegg X. X X X X X X X X X X H2 Programvareoppdatering Forordning (EU) 2018/858 , vedlegg IV, FN-reg. 156 X X X X X X X X X X</p>
 <p>1 Gjelder kun dersom slikt utstyr/enhet/system Gjelder kun dersom slikt utstyr/enhet/system finnes i eller er montert i kjøretøyet. 2 Gjelder for automatiserte kjøretøy. 3 Forordning (EF) nr. 715/2007 er likevel gyldig til 1. juli 2030 og forordning (EF) nr. 595/2009 er likevel gyldig til 1. juli 2031.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

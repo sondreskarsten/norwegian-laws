@@ -19,64 +19,337 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-06-16-51.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Likestillings- og diskrimineringsloven – ldl" href="../feeds/lov-2017-06-16-51.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kultur--og-likestillingsdepartementet.html">Kultur- og likestillingsdepartementet</a> &rsaquo;
 <span>Likestillings- og diskrimineringsloven – ldl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-06-16-51</code></dd>
-<dt>Departement</dt><dd>Kultur- og likestillingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Likestilling og diskriminering\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nFamilie-, person- og barnerett &raquo; Personrett. Personvern\nInternasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nSamerett &raquo; Diskriminering</dd>
-<dt>Ikrafttredelse</dt><dd>2018-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-14-33</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-51" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#3-geografisk-virkeomrade">§ 3. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#4-ufravikelighet">§ 4. Ufravikelighet</a></li>
+<li class="lvl4"><a href="#5-fns-rasediskrimineringskonvensjon">§ 5. FNs rasediskrimineringskonvensjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-forbud-mot-a-diskriminere">Kapittel 2 Forbud mot å diskriminere</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-a-diskriminere">§ 6. Forbud mot å diskriminere</a></li>
+<li class="lvl4"><a href="#7-direkte-forskjellsbehandling">§ 7. Direkte forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#8-indirekte-forskjellsbehandling">§ 8. Indirekte forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#9-lovlig-forskjellsbehandling">§ 9. Lovlig forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#10-lovlig-forskjellsbehandling-pa-grunn-av-graviditet-fdsel-amming-og-permisjon-ved-fdsel-eller-adopsjon">§ 10. Lovlig forskjellsbehandling på grunn av graviditet, fødsel, amming og permisjon ved fødsel eller adopsjon</a></li>
+<li class="lvl4"><a href="#11-adgang-til-positiv-srbehandling">§ 11. Adgang til positiv særbehandling</a></li>
+<li class="lvl4"><a href="#12-brudd-pa-plikten-til-universell-utforming-eller-individuell-tilrettelegging">§ 12. Brudd på plikten til universell utforming eller individuell tilrettelegging</a></li>
+<li class="lvl4"><a href="#13-forbud-mot-a-trakassere">§ 13. Forbud mot å trakassere</a></li>
+<li class="lvl4"><a href="#14-forbud-mot-a-gjengjelde">§ 14. Forbud mot å gjengjelde</a></li>
+<li class="lvl4"><a href="#15-forbud-mot-a-instruere-noen-om-a-diskriminere-trakassere-eller-gjengjelde">§ 15. Forbud mot å instruere noen om å diskriminere, trakassere eller gjengjelde</a></li>
+<li class="lvl4"><a href="#16-forbud-mot-a-medvirke-til-a-diskriminere-trakassere-gjengjelde-eller-instruere">§ 16. Forbud mot å medvirke til å diskriminere, trakassere, gjengjelde eller instruere</a></li>
+<li class="lvl2"><a href="#kapittel-3-universell-utforming-og-individuell-tilrettelegging">Kapittel 3 Universell utforming og individuell tilrettelegging</a></li>
+<li class="lvl4"><a href="#17-universell-utforming">§ 17. Universell utforming</a></li>
+<li class="lvl4"><a href="#18-universell-utforming-av-ikt">§ 18. Universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#19-aktivitetsplikt-for-universell-utforming">§ 19. Aktivitetsplikt for universell utforming</a></li>
+<li class="lvl4"><a href="#19-a-aktivitets-og-redegjrelsesplikt-for-universell-utforming-av-ikt">§ 19 a. Aktivitets- og redegjørelsesplikt for universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#20-rett-til-individuell-tilrettelegging-av-kommunale-tjenester">§ 20. Rett til individuell tilrettelegging av kommunale tjenester</a></li>
+<li class="lvl4"><a href="#21-rett-til-individuell-tilrettelegging-for-elever-og-studenter">§ 21. Rett til individuell tilrettelegging for elever og studenter</a></li>
+<li class="lvl4"><a href="#22-rett-til-individuell-tilrettelegging-for-arbeidsskere-og-arbeidstakere">§ 22. Rett til individuell tilrettelegging for arbeidssøkere og arbeidstakere</a></li>
+<li class="lvl4"><a href="#23-rett-til-individuell-tilrettelegging-for-gravide-arbeidsskere-arbeidstakere-elever-og-studenter">§ 23. Rett til individuell tilrettelegging for gravide arbeidssøkere, arbeidstakere, elever og studenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-aktivt-likestillingsarbeid">Kapittel 4 Aktivt likestillingsarbeid</a></li>
+<li class="lvl4"><a href="#24-offentlige-myndigheters-aktivitets-og-redegjrelsesplikt">§ 24. Offentlige myndigheters aktivitets- og redegjørelsesplikt</a></li>
+<li class="lvl4"><a href="#25-arbeidslivets-organisasjoners-plikt-til-a-arbeide-for-likestilling">§ 25. Arbeidslivets organisasjoners plikt til å arbeide for likestilling</a></li>
+<li class="lvl4"><a href="#26-arbeidsgivers-aktivitetsplikt">§ 26. Arbeidsgivers aktivitetsplikt</a></li>
+<li class="lvl4"><a href="#26-a-arbeidsgivers-redegjrelsesplikt">§ 26 a. Arbeidsgivers redegjørelsesplikt</a></li>
+<li class="lvl4"><a href="#26-b-arbeidsgivers-opplysningsplikt-om-likestillingsarbeid">§ 26 b. Arbeidsgivers opplysningsplikt om likestillingsarbeid</a></li>
+<li class="lvl4"><a href="#26-c-forankring-i-selskapers-styre">§ 26 c. Forankring i selskapers styre</a></li>
+<li class="lvl4"><a href="#27-innhold-i-lremidler-og-undervisning">§ 27. Innhold i læremidler og undervisning</a></li>
+<li class="lvl4"><a href="#28-kjnnsbalanse-i-offentlige-utvalg-mv">§ 28. Kjønnsbalanse i offentlige utvalg mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlige-regler-i-arbeidsforhold">Kapittel 5 Særlige regler i arbeidsforhold</a></li>
+<li class="lvl4"><a href="#29-diskrimineringsforbudet-i-arbeidsforhold-mv">§ 29. Diskrimineringsforbudet i arbeidsforhold mv.</a></li>
+<li class="lvl4"><a href="#30-forbud-mot-innhenting-av-opplysninger-i-ansettelsesprosesser">§ 30. Forbud mot innhenting av opplysninger i ansettelsesprosesser</a></li>
+<li class="lvl4"><a href="#31-arbeidsgivers-opplysningsplikt-overfor-arbeidssker">§ 31. Arbeidsgivers opplysningsplikt overfor arbeidssøker</a></li>
+<li class="lvl4"><a href="#32-arbeidsgivers-opplysningsplikt-om-lnn">§ 32. Arbeidsgivers opplysningsplikt om lønn</a></li>
+<li class="lvl4"><a href="#33-arbeidstakeres-rettigheter-ved-foreldrepermisjon">§ 33. Arbeidstakeres rettigheter ved foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#34-lik-lnn-for-arbeid-av-lik-verdi">§ 34. Lik lønn for arbeid av lik verdi</a></li>
+<li class="lvl2"><a href="#kapittel-6-handheving-bevisbyrde-og-reaksjoner">Kapittel 6 Håndheving, bevisbyrde og reaksjoner</a></li>
+<li class="lvl4"><a href="#35-diskrimineringsnemndas-myndighet-til-a-handheve-loven">§ 35. Diskrimineringsnemndas myndighet til å håndheve loven</a></li>
+<li class="lvl4"><a href="#36-handheving-av-reglene-om-universell-utforming-av-ikt">§ 36. Håndheving av reglene om universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#36-a-tilsynsorganets-plikt-til-kontroll-og-rapportering">§ 36 a. Tilsynsorganets plikt til kontroll og rapportering</a></li>
+<li class="lvl4"><a href="#37-bevisbyrde">§ 37. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#38-oppreisning-og-erstatning">§ 38. Oppreisning og erstatning</a></li>
+<li class="lvl4"><a href="#39-straff-for-grov-overtredelse-av-diskrimineringsforbudet-som-er-begatt-av-flere-i-fellesskap">§ 39. Straff for grov overtredelse av diskrimineringsforbudet som er begått av flere i fellesskap</a></li>
+<li class="lvl4"><a href="#40-organisasjoners-adgang-til-a-opptre-som-fullmektig">§ 40. Organisasjoners adgang til å opptre som fullmektig</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#41-overgangsregler">§ 41. Overgangsregler</a></li>
+<li class="lvl4"><a href="#42-ikrafttredelse">§ 42. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#43-viderefring-av-forskrifter">§ 43. Videreføring av forskrifter</a></li>
+<li class="lvl4"><a href="#44-endringer-i-andre-lover">§ 44. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-1international-convention-on-the-elimination-of-all-forms-of-racial-discriminationautentisk-engelsk-tekst">Vedlegg 1.International Convention on the Elimination of All Forms of Racial Discrimination(autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#part-i">Part I</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl3"><a href="#part-ii">Part II</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl5"><a href="#art-15">Art 15</a></li>
+<li class="lvl5"><a href="#art-16">Art 16</a></li>
+<li class="lvl3"><a href="#part-iii">Part III</a></li>
+<li class="lvl5"><a href="#art-17">Art 17</a></li>
+<li class="lvl5"><a href="#art-18">Art 18</a></li>
+<li class="lvl5"><a href="#art-19">Art 19</a></li>
+<li class="lvl5"><a href="#art-20">Art 20</a></li>
+<li class="lvl5"><a href="#art-21">Art 21</a></li>
+<li class="lvl5"><a href="#art-22">Art 22</a></li>
+<li class="lvl5"><a href="#art-23">Art 23</a></li>
+<li class="lvl5"><a href="#art-24">Art 24</a></li>
+<li class="lvl5"><a href="#art-25">Art 25</a></li>
+<li class="lvl2"><a href="#vedlegg-2-internasjonal-konvensjon-om-avskaffelse-av-alle-former-for-rasediskriminering-norsk-oversettelse">Vedlegg 2. Internasjonal konvensjon om avskaffelse av alle former for rasediskriminering (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#del-i">Del I</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl3"><a href="#del-ii">Del II</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl3"><a href="#del-iii">Del III</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-14-33.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-51.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-51.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-06-16-51 <code>lov/2017-06-16-51</code></td></tr>
+<tr><th>Korttittel</th><td>Likestillings- og diskrimineringsloven – ldl</td></tr>
+<tr><th>Departement</th><td>Kultur- og likestillingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Likestilling og diskriminering\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nFamilie-, person- og barnerett &raquo; Personrett. Personvern\nInternasjonal rett &raquo; Folkerett\nInternasjonal rett &raquo; Konvensjoner. Overenskomster\nSamerett &raquo; Diskriminering</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2018</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-14-33 <code>lov/2024-06-14-33</code> fra 01.07.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-51" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-saklig-virkeomrade">§ 2. Saklig virkeområde</a></li>
+<li class="lvl4"><a href="#3-geografisk-virkeomrade">§ 3. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#4-ufravikelighet">§ 4. Ufravikelighet</a></li>
+<li class="lvl4"><a href="#5-fns-rasediskrimineringskonvensjon">§ 5. FNs rasediskrimineringskonvensjon</a></li>
+<li class="lvl2"><a href="#kapittel-2-forbud-mot-a-diskriminere">Kapittel 2 Forbud mot å diskriminere</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-a-diskriminere">§ 6. Forbud mot å diskriminere</a></li>
+<li class="lvl4"><a href="#7-direkte-forskjellsbehandling">§ 7. Direkte forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#8-indirekte-forskjellsbehandling">§ 8. Indirekte forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#9-lovlig-forskjellsbehandling">§ 9. Lovlig forskjellsbehandling</a></li>
+<li class="lvl4"><a href="#10-lovlig-forskjellsbehandling-pa-grunn-av-graviditet-fdsel-amming-og-permisjon-ved-fdsel-eller-adopsjon">§ 10. Lovlig forskjellsbehandling på grunn av graviditet, fødsel, amming og permisjon ved fødsel eller adopsjon</a></li>
+<li class="lvl4"><a href="#11-adgang-til-positiv-srbehandling">§ 11. Adgang til positiv særbehandling</a></li>
+<li class="lvl4"><a href="#12-brudd-pa-plikten-til-universell-utforming-eller-individuell-tilrettelegging">§ 12. Brudd på plikten til universell utforming eller individuell tilrettelegging</a></li>
+<li class="lvl4"><a href="#13-forbud-mot-a-trakassere">§ 13. Forbud mot å trakassere</a></li>
+<li class="lvl4"><a href="#14-forbud-mot-a-gjengjelde">§ 14. Forbud mot å gjengjelde</a></li>
+<li class="lvl4"><a href="#15-forbud-mot-a-instruere-noen-om-a-diskriminere-trakassere-eller-gjengjelde">§ 15. Forbud mot å instruere noen om å diskriminere, trakassere eller gjengjelde</a></li>
+<li class="lvl4"><a href="#16-forbud-mot-a-medvirke-til-a-diskriminere-trakassere-gjengjelde-eller-instruere">§ 16. Forbud mot å medvirke til å diskriminere, trakassere, gjengjelde eller instruere</a></li>
+<li class="lvl2"><a href="#kapittel-3-universell-utforming-og-individuell-tilrettelegging">Kapittel 3 Universell utforming og individuell tilrettelegging</a></li>
+<li class="lvl4"><a href="#17-universell-utforming">§ 17. Universell utforming</a></li>
+<li class="lvl4"><a href="#18-universell-utforming-av-ikt">§ 18. Universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#19-aktivitetsplikt-for-universell-utforming">§ 19. Aktivitetsplikt for universell utforming</a></li>
+<li class="lvl4"><a href="#19-a-aktivitets-og-redegjrelsesplikt-for-universell-utforming-av-ikt">§ 19 a. Aktivitets- og redegjørelsesplikt for universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#20-rett-til-individuell-tilrettelegging-av-kommunale-tjenester">§ 20. Rett til individuell tilrettelegging av kommunale tjenester</a></li>
+<li class="lvl4"><a href="#21-rett-til-individuell-tilrettelegging-for-elever-og-studenter">§ 21. Rett til individuell tilrettelegging for elever og studenter</a></li>
+<li class="lvl4"><a href="#22-rett-til-individuell-tilrettelegging-for-arbeidsskere-og-arbeidstakere">§ 22. Rett til individuell tilrettelegging for arbeidssøkere og arbeidstakere</a></li>
+<li class="lvl4"><a href="#23-rett-til-individuell-tilrettelegging-for-gravide-arbeidsskere-arbeidstakere-elever-og-studenter">§ 23. Rett til individuell tilrettelegging for gravide arbeidssøkere, arbeidstakere, elever og studenter</a></li>
+<li class="lvl2"><a href="#kapittel-4-aktivt-likestillingsarbeid">Kapittel 4 Aktivt likestillingsarbeid</a></li>
+<li class="lvl4"><a href="#24-offentlige-myndigheters-aktivitets-og-redegjrelsesplikt">§ 24. Offentlige myndigheters aktivitets- og redegjørelsesplikt</a></li>
+<li class="lvl4"><a href="#25-arbeidslivets-organisasjoners-plikt-til-a-arbeide-for-likestilling">§ 25. Arbeidslivets organisasjoners plikt til å arbeide for likestilling</a></li>
+<li class="lvl4"><a href="#26-arbeidsgivers-aktivitetsplikt">§ 26. Arbeidsgivers aktivitetsplikt</a></li>
+<li class="lvl4"><a href="#26-a-arbeidsgivers-redegjrelsesplikt">§ 26 a. Arbeidsgivers redegjørelsesplikt</a></li>
+<li class="lvl4"><a href="#26-b-arbeidsgivers-opplysningsplikt-om-likestillingsarbeid">§ 26 b. Arbeidsgivers opplysningsplikt om likestillingsarbeid</a></li>
+<li class="lvl4"><a href="#26-c-forankring-i-selskapers-styre">§ 26 c. Forankring i selskapers styre</a></li>
+<li class="lvl4"><a href="#27-innhold-i-lremidler-og-undervisning">§ 27. Innhold i læremidler og undervisning</a></li>
+<li class="lvl4"><a href="#28-kjnnsbalanse-i-offentlige-utvalg-mv">§ 28. Kjønnsbalanse i offentlige utvalg mv.</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlige-regler-i-arbeidsforhold">Kapittel 5 Særlige regler i arbeidsforhold</a></li>
+<li class="lvl4"><a href="#29-diskrimineringsforbudet-i-arbeidsforhold-mv">§ 29. Diskrimineringsforbudet i arbeidsforhold mv.</a></li>
+<li class="lvl4"><a href="#30-forbud-mot-innhenting-av-opplysninger-i-ansettelsesprosesser">§ 30. Forbud mot innhenting av opplysninger i ansettelsesprosesser</a></li>
+<li class="lvl4"><a href="#31-arbeidsgivers-opplysningsplikt-overfor-arbeidssker">§ 31. Arbeidsgivers opplysningsplikt overfor arbeidssøker</a></li>
+<li class="lvl4"><a href="#32-arbeidsgivers-opplysningsplikt-om-lnn">§ 32. Arbeidsgivers opplysningsplikt om lønn</a></li>
+<li class="lvl4"><a href="#33-arbeidstakeres-rettigheter-ved-foreldrepermisjon">§ 33. Arbeidstakeres rettigheter ved foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#34-lik-lnn-for-arbeid-av-lik-verdi">§ 34. Lik lønn for arbeid av lik verdi</a></li>
+<li class="lvl2"><a href="#kapittel-6-handheving-bevisbyrde-og-reaksjoner">Kapittel 6 Håndheving, bevisbyrde og reaksjoner</a></li>
+<li class="lvl4"><a href="#35-diskrimineringsnemndas-myndighet-til-a-handheve-loven">§ 35. Diskrimineringsnemndas myndighet til å håndheve loven</a></li>
+<li class="lvl4"><a href="#36-handheving-av-reglene-om-universell-utforming-av-ikt">§ 36. Håndheving av reglene om universell utforming av IKT</a></li>
+<li class="lvl4"><a href="#36-a-tilsynsorganets-plikt-til-kontroll-og-rapportering">§ 36 a. Tilsynsorganets plikt til kontroll og rapportering</a></li>
+<li class="lvl4"><a href="#37-bevisbyrde">§ 37. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#38-oppreisning-og-erstatning">§ 38. Oppreisning og erstatning</a></li>
+<li class="lvl4"><a href="#39-straff-for-grov-overtredelse-av-diskrimineringsforbudet-som-er-begatt-av-flere-i-fellesskap">§ 39. Straff for grov overtredelse av diskrimineringsforbudet som er begått av flere i fellesskap</a></li>
+<li class="lvl4"><a href="#40-organisasjoners-adgang-til-a-opptre-som-fullmektig">§ 40. Organisasjoners adgang til å opptre som fullmektig</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7 Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#41-overgangsregler">§ 41. Overgangsregler</a></li>
+<li class="lvl4"><a href="#42-ikrafttredelse">§ 42. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#43-viderefring-av-forskrifter">§ 43. Videreføring av forskrifter</a></li>
+<li class="lvl4"><a href="#44-endringer-i-andre-lover">§ 44. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-1international-convention-on-the-elimination-of-all-forms-of-racial-discriminationautentisk-engelsk-tekst">Vedlegg 1.International Convention on the Elimination of All Forms of Racial Discrimination(autentisk engelsk tekst)</a></li>
+<li class="lvl3"><a href="#part-i">Part I</a></li>
+<li class="lvl5"><a href="#art-1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl3"><a href="#part-ii">Part II</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl5"><a href="#art-15">Art 15</a></li>
+<li class="lvl5"><a href="#art-16">Art 16</a></li>
+<li class="lvl3"><a href="#part-iii">Part III</a></li>
+<li class="lvl5"><a href="#art-17">Art 17</a></li>
+<li class="lvl5"><a href="#art-18">Art 18</a></li>
+<li class="lvl5"><a href="#art-19">Art 19</a></li>
+<li class="lvl5"><a href="#art-20">Art 20</a></li>
+<li class="lvl5"><a href="#art-21">Art 21</a></li>
+<li class="lvl5"><a href="#art-22">Art 22</a></li>
+<li class="lvl5"><a href="#art-23">Art 23</a></li>
+<li class="lvl5"><a href="#art-24">Art 24</a></li>
+<li class="lvl5"><a href="#art-25">Art 25</a></li>
+<li class="lvl2"><a href="#vedlegg-2-internasjonal-konvensjon-om-avskaffelse-av-alle-former-for-rasediskriminering-norsk-oversettelse">Vedlegg 2. Internasjonal konvensjon om avskaffelse av alle former for rasediskriminering (norsk oversettelse)</a></li>
+<li class="lvl3"><a href="#del-i">Del I</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl3"><a href="#del-ii">Del II</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl3"><a href="#del-iii">Del III</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-51.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-51.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-51.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-06-16-51.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-06-16-51.html">Observerte kildeutgaver</a> · <a href="../historie/likestillings-og-diskrimineringsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-06-16-51.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-06-16-51.html">Observerte kildeutgaver</a> · <a href="../historie/likestillings-og-diskrimineringsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-06-16-51.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-likestilling-og-forbud-mot-diskriminering-likestillings-og-diskrimineringsloven">Lov om likestilling og forbud mot diskriminering (likestillings- og diskrimineringsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Lovens formål er å fremme likestilling og hindre diskriminering på grunn av kjønn, graviditet, permisjon ved fødsel eller adopsjon, omsorgsoppgaver, etnisitet, religion, livssyn, funksjonsnedsettelse, seksuell orientering, kjønnsidentitet, kjønnsuttrykk, alder og andre vesentlige forhold ved en person.</p>
@@ -117,7 +390,7 @@ b. permisjon forbeholdt hver av foreldrene, jf. <a href="lov-1997-02-28-19.html"
 <p>er bare tillatt der forskjellsbehandlingen er nødvendig for å beskytte kvinnen, fosteret eller barnet i forbindelse med graviditet, fødsel eller amming, eller der det foreligger andre åpenbare grunner. Forskjellsbehandlingen må ikke være uforholdsmessig inngripende overfor den som forskjellsbehandles.</p>
 <p>Ved forskjellsbehandling på grunn av permisjon ved fødsel eller adopsjon i perioder som ikke omfattes av første ledd, gjelder § 9 første ledd.</p>
 <p>Ved ansettelse og oppsigelse er forskjellsbehandling på grunn av graviditet, fødsel, amming og permisjon ved fødsel eller adopsjon aldri tillatt. Dette gjelder også ved forlengelse av midlertidig stilling.</p>
-<p><em>Endret ved lov 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</p>
 <h4 id="11-adgang-til-positiv-srbehandling">§ 11. Adgang til positiv særbehandling</h4>
 <p>Positiv særbehandling på grunn av forhold som nevnt i § 6 første ledd er tillatt hvis</p>
 <p>a. særbehandlingen er egnet til å fremme lovens formål,
@@ -133,7 +406,7 @@ c. særbehandlingen opphører når formålet med den er oppnådd.</p>
 <p>Forbudet omfatter trakassering på grunn av eksisterende, antatte, tidligere eller fremtidige forhold som nevnt i § 6 første ledd.</p>
 <p>Forbudet gjelder også hvis en person blir trakassert på grunn av sin tilknytning til en annen person, og trakasseringen skjer på grunn av forhold som nevnt i § 6 første ledd.</p>
 <p>Arbeidsgivere og ledelsen i organisasjoner og utdanningsinstitusjoner skal innenfor sitt ansvarsområde forebygge og søke å hindre trakassering og seksuell trakassering.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="14-forbud-mot-a-gjengjelde">§ 14. Forbud mot å gjengjelde</h4>
 <p>Det er forbudt å gjengjelde mot noen som har fremmet klage om brudd på denne loven, eller som har gitt uttrykk for at klage kan bli fremmet, med mindre vedkommende har opptrådt grovt uaktsomt.</p>
 <p>Forbudet etter første ledd gjelder tilsvarende overfor vitner i en klagesak, og overfor personer som bistår i en klagesak.</p>
@@ -155,7 +428,7 @@ e. sikkerhetshensyn
 f. vernehensyn.</p>
 <p>Plikten etter første ledd anses som oppfylt dersom virksomheten oppfyller krav til universell utforming i lov eller forskrift.</p>
 <p>Kongen kan gi forskrift om innholdet i plikten til universell utforming på områder som ikke er omfattet av krav i annen lov eller forskrift.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="18-universell-utforming-av-ikt">§ 18. Universell utforming av IKT</h4>
 <p>Offentlige og private virksomheter har plikt til universell utforming av hovedløsninger for informasjons- og kommunikasjonsteknologi (IKT) rettet mot eller stilt til rådighet for bruker, slik at virksomhetens alminnelige funksjoner kan benyttes av flest mulig, uavhengig av funksjonsnedsettelse. IKT-løsningene skal være universelt utformet fra det tidspunktet som er fastsatt i § 41 .</p>
 <p>Med IKT menes teknologi og systemer av teknologi som brukes til å uttrykke, skape, omdanne, utveksle, lagre, mangfoldiggjøre og publisere informasjon, eller som på annen måte gjør informasjon anvendbar.</p>
@@ -166,15 +439,15 @@ c. kostnadene ved tilretteleggingen
 d. virksomhetens størrelse og ressurser.</p>
 <p>Plikten etter første ledd anses som oppfylt dersom virksomheten oppfyller krav til universell utforming i annen lov eller forskrift.</p>
 <p>Kongen kan gi forskrifter med nærmere bestemmelser om avgrensning av virkeområdet og innholdet i plikten til universell utforming av IKT-løsninger.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="19-aktivitetsplikt-for-universell-utforming">§ 19. Aktivitetsplikt for universell utforming</h4>
 <p>Offentlige virksomheter skal arbeide aktivt og målrettet for å fremme universell utforming innen virksomheten. Det samme gjelder for private virksomheter rettet mot allmennheten.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="19-a-aktivitets-og-redegjrelsesplikt-for-universell-utforming-av-ikt">§ 19 a. Aktivitets- og redegjørelsesplikt for universell utforming av IKT</h4>
 <p>Offentlige og private virksomheter skal arbeide aktivt og målrettet for å fremme universell utforming av IKT innen virksomheten.</p>
 <p>Offentlige virksomheter skal redegjøre for arbeidet med universell utforming av IKT.</p>
 <p>Kongen kan gi forskrifter med nærmere bestemmelser om innholdet i redegjørelsesplikten og hvordan plikten skal oppfylles.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="20-rett-til-individuell-tilrettelegging-av-kommunale-tjenester">§ 20. Rett til individuell tilrettelegging av kommunale tjenester</h4>
 <p>Barn med funksjonsnedsettelse har rett til egnet individuell tilrettelegging av kommunale barnehagetilbud, for å sikre likeverdige utviklings- og aktivitetsmuligheter.</p>
 <p>Personer med funksjonsnedsettelse har rett til egnet individuell tilrettelegging av kommunale tjenestetilbud etter <a href="lov-2011-06-24-30.html">helse- og omsorgstjenesteloven</a> av varig karakter for den enkelte, for å sikre et likeverdig tilbud.</p>
@@ -204,7 +477,7 @@ c. virksomhetens ressurser.</p>
 <h4 id="24-offentlige-myndigheters-aktivitets-og-redegjrelsesplikt">§ 24. Offentlige myndigheters aktivitets- og redegjørelsesplikt</h4>
 <p>Offentlige myndigheter skal i all sin virksomhet arbeide aktivt, målrettet og planmessig for å fremme likestilling og hindre diskriminering som nevnt i § 6 . Plikten innebærer blant annet at offentlige myndigheter skal forebygge trakassering, seksuell trakassering og kjønnsbasert vold og motarbeide stereotypisering.</p>
 <p>Offentlige myndigheter skal redegjøre for hva de gjør for å integrere hensynet til likestilling og ikke-diskriminering i sitt arbeid. Offentlige myndigheter skal redegjøre for hvordan de arbeider med å omsette prinsipper, prosedyrer og standarder for likestilling og ikke-diskriminering til handling. Offentlige myndigheter skal vurdere resultatene som er oppnådd, og opplyse hvilke forventninger de har til dette arbeidet fremover. Redegjørelsen skal gis i årsrapport, i årsberetning eller i et annet offentlig tilgjengelig dokument.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="25-arbeidslivets-organisasjoners-plikt-til-a-arbeide-for-likestilling">§ 25. Arbeidslivets organisasjoners plikt til å arbeide for likestilling</h4>
 <p>Arbeidslivets organisasjoner skal, innenfor sine virkefelt, arbeide aktivt, målrettet og planmessig for å fremme likestilling og hindre diskriminering på grunn av kjønn, graviditet, permisjon ved fødsel og adopsjon, omsorgsoppgaver, etnisitet, religion, livssyn, funksjonsnedsettelse, seksuell orientering, kjønnsidentitet og kjønnsuttrykk.</p>
 <h4 id="26-arbeidsgivers-aktivitetsplikt">§ 26. Arbeidsgivers aktivitetsplikt</h4>
@@ -218,7 +491,7 @@ d. vurdere resultater av arbeidet etter bokstav a til c.</p>
 <p>Med ufrivillig deltidsarbeid menes deltidsarbeid der stillingsinnehaveren ønsker og er tilgjengelig for å jobbe mer.</p>
 <p>Arbeid som nevnt i denne bestemmelsen skal dokumenteres. Arbeid som nevnt i bestemmelsens andre ledd skal skje fortløpende og i samarbeid med de ansattes representanter.</p>
 <p>Kongen kan i forskrift gi nærmere regler om innholdet i og gjennomføringen av lønnskartleggingen.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 , endring endret ved lov 20 des 2019 nr. 110 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 , endring endret ved lov 20 des 2019 nr. 110 ).</p>
 <h4 id="26-a-arbeidsgivers-redegjrelsesplikt">§ 26 a. Arbeidsgivers redegjørelsesplikt</h4>
 <p>Arbeidsgivere som har plikter etter § 26 andre ledd, skal redegjøre for den faktiske tilstanden når det gjelder kjønnslikestilling i virksomheten og hva de gjør for å oppfylle aktivitetsplikten etter § 26 .</p>
 <p>Redegjørelsen etter første ledd skal gis i årsberetningen eller i annet offentlig tilgjengelig dokument. Dersom redegjørelsen gis i annet offentlig tilgjengelig dokument, og foretaket har en plikt til å levere årsberetning, skal det i årsberetningen opplyses hvor dokumentet finnes offentlig tilgjengelig. Arbeidsgivere i offentlige virksomheter som ikke er pålagt å utarbeide årsberetning, skal ta redegjørelsen etter første ledd inn i sin årsrapport eller i et annet offentlig tilgjengelig dokument.</p>
@@ -226,15 +499,15 @@ d. vurdere resultater av arbeidet etter bokstav a til c.</p>
 <p>Virksomhetens ansatte og deres representanter, Diskrimineringsnemnda, Likestillings- og diskrimineringsombudet og forskere har rett til innsyn i resultatene av lønnskartleggingen, også når resultatene ikke kan anonymiseres. Opplysningene kan bare gis i den utstrekning de er nødvendige for å undersøke om det foreligger ulovlig forskjellsbehandling ved lønnsfastsettelsen.</p>
 <p>Den som mottar lønnsopplysninger etter fjerde ledd, har taushetsplikt og skal underskrive en taushetserklæring. Dette gjelder ikke opplysninger som er offentlige etter <a href="lov-2006-05-19-16.html">offentleglova</a>.</p>
 <p>Kongen kan gi forskrift om standardisering av redegjørelsesplikten på likestillingsområdet.</p>
-<p><em>Tilføyd ved lov 19 des 2017 nr. 115 (ikr. 1 jan 2018), endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Tilføyd ved lov 19 des 2017 nr. 115 (ikr. 1 jan 2018), endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="26-b-arbeidsgivers-opplysningsplikt-om-likestillingsarbeid">§ 26 b. Arbeidsgivers opplysningsplikt om likestillingsarbeid</h4>
 <p>Virksomhetens ansatte og deres representanter, Diskrimineringsnemnda, Likestillings- og diskrimineringsombudet og forskere har rett til innsyn i dokumentasjon om likestillingsarbeid. Dersom dokumentasjonen som det gis innsyn i innebærer opplysninger, som kan knyttes til enkeltansattes lønn, etnisitet, religion, livssyn, funksjonsnedsettelse, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk, skal den som mottar opplysninger pålegges taushetsplikt og underskrive en taushetserklæring. Dette gjelder ikke opplysninger som er offentlige etter offentleglova.</p>
 <p>Opplysningene kan bare gis i den utstrekning de er nødvendige for å undersøke om arbeidsgiver har overholdt sin aktivitets- og dokumentasjonsplikt etter likestillings- og diskrimineringsloven § 26 .</p>
-<p><em>Tilføyd ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 , endring endret ved lov 20 des 2019 nr. 110 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 , endring endret ved lov 20 des 2019 nr. 110 ).</p>
 <h4 id="26-c-forankring-i-selskapers-styre">§ 26 c. Forankring i selskapers styre</h4>
 <p>Styret i aksjeselskaper og allmennaksjeselskaper skal sørge for at plikten til aktivt likestillingsarbeid og plikten til å redegjøre for dette oppfylles i samsvar med likestillings- og diskrimineringsloven §§ 26 og 26 a og <a href="lov-1998-07-17-56.html">regnskapsloven</a> § 3-3 c . 1</p>
-<p><em>Tilføyd ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).
-1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).
+1 Inkurie: Regnskapsloven § 3-3 c om redegjørelse om samfunnsansvar ble opphevet 1. november 2024.</p>
 <h4 id="27-innhold-i-lremidler-og-undervisning">§ 27. Innhold i læremidler og undervisning</h4>
 <p>I barnehager, skoler og andre utdanningsinstitusjoner som tilbyr opplæring med grunnlag i lov, skal læremidlene og undervisningen bygge på formålet med loven her.</p>
 <h4 id="28-kjnnsbalanse-i-offentlige-utvalg-mv">§ 28. Kjønnsbalanse i offentlige utvalg mv.</h4>
@@ -279,7 +552,7 @@ b. nyte godt av forbedringer av arbeidsvilkårene som arbeidstakeren ellers vill
 c. fremme lønnskrav og bli vurdert i lønnsforhandlinger på samme måte som de øvrige arbeidstakerne i virksomheten.</p>
 <p>Første ledd gjelder ikke fastsettelse eller endringer av lønns- og arbeidsvilkår som er en følge av andre forhold enn foreldrepermisjon.</p>
 <p>Paragrafen her gjelder tilsvarende ved andre permisjoner knyttet til graviditet og fødsel etter arbeidsmiljøloven §§ 12-2 til 12-8 eller skipsarbeidsloven §§ 7-2 til 7-7 .</p>
-<p><em>Endret ved lov 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2024 nr. 33 (i kraft 1 juli 2024 iflg. res. 14 juni 2024 nr. 961 ).</p>
 <h4 id="34-lik-lnn-for-arbeid-av-lik-verdi">§ 34. Lik lønn for arbeid av lik verdi</h4>
 <p>Kvinner og menn i samme virksomhet skal ha lik lønn for samme arbeid eller arbeid av lik verdi. Lønnen skal fastsettes på samme måte, uten hensyn til kjønn.</p>
 <p>Retten etter første ledd gjelder uavhengig av om arbeidene tilhører ulike fag, eller lønnen reguleres i ulike tariffavtaler.</p>
@@ -294,11 +567,11 @@ c. fremme lønnskrav og bli vurdert i lønnsforhandlinger på samme måte som de
 <p>Digitaliseringsdirektoratet kan kreve de opplysningene som er nødvendige for å gjennomføre sine oppgaver etter loven, og kreve adgang til IKT-løsninger som nevnt i § 18 . Det samme gjelder klageinstansen ved klage over vedtak etter andre ledd.</p>
 <p>Søksmål om gyldigheten av vedtak truffet av Digitaliseringsdirektoratet eller av klageinstansen må reises innen tre måneder etter at underretning om vedtaket er mottatt. Vedtaket kan ikke bringes inn for domstolene uten at klageadgangen er utnyttet og klagen er avgjort. Søksmål skal likevel i alle tilfelle kunne reises når det er gått seks måneder fra klage første gang ble fremsatt, og det ikke skyldes forsømmelse fra klagerens side at klageinstansens avgjørelse ikke foreligger.</p>
 <p>Departementet kan i forskrift fastsette nærmere regler om gjennomføring av tilsyn, utmåling av tvangsmulkt, og hvordan vedtak om tvangsmulkt skal gjennomføres.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="36-a-tilsynsorganets-plikt-til-kontroll-og-rapportering">§ 36 a. Tilsynsorganets plikt til kontroll og rapportering</h4>
 <p>Digitaliseringsdirektoratet skal jevnlig måle om offentlige organers nettsteder og mobilapplikasjoner overholder kravene til universell utforming.</p>
 <p>Departementet kan gi forskrift om gjennomføring av kontroll og rapportering til ESA.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="37-bevisbyrde">§ 37. Bevisbyrde</h4>
 <p>Diskriminering skal anses å ha skjedd hvis det foreligger omstendigheter som gir grunn til å tro at diskriminering har skjedd, og den ansvarlige ikke sannsynliggjør at diskriminering likevel ikke har skjedd.</p>
 <p>Dette gjelder ved påståtte brudd på</p>
@@ -314,7 +587,7 @@ c. §§ 29 , 30 , 33 og 34</p>
 <p>kan kreve oppreisning og erstatning.</p>
 <p>I arbeidsforhold og ved arbeidsgivers valg og behandling av selvstendig næringsdrivende og innleide arbeidstakere, gjelder arbeidsgivers ansvar uavhengig av om arbeidsgiver kan bebreides. I saker om trakassering og seksuell trakassering og på andre samfunnsområder enn nevnt i første punktum, gjelder ansvaret dersom den ansvarlige kan bebreides.</p>
 <p>Erstatningen skal dekke økonomisk tap som følge av den ulovlige behandlingen. Oppreisning for ikke-økonomisk skade fastsettes til det som er rimelig ut fra skadens art og omfang, partenes forhold og omstendighetene for øvrig.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 57 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 776 ).</p>
 <h4 id="39-straff-for-grov-overtredelse-av-diskrimineringsforbudet-som-er-begatt-av-flere-i-fellesskap">§ 39. Straff for grov overtredelse av diskrimineringsforbudet som er begått av flere i fellesskap</h4>
 <p>Den som i fellesskap med minst to andre personer grovt overtrer forbudet mot å</p>
 <p>a. diskriminere på grunn av etnisitet, religion eller livssyn i § 6 ,
@@ -334,7 +607,7 @@ d. instruere om å diskriminere på grunn av etnisitet, religion eller livssyn i
 <h4 id="41-overgangsregler">§ 41. Overgangsregler</h4>
 <p>Plikten etter § 18 første ledd og redegjørelsesplikten etter § 19 a inntrer tolv måneder etter at forskrift om innholdet i plikten etter § 18 femte ledd har trådt i kraft, eller tolv måneder etter at forskriften gjøres gjeldende for nye pliktsubjekter, med mindre kortere frister følger av forskriften. Eksisterende IKT-løsninger skal være universelt utformet fra 1. januar 2021.</p>
 <p>Digitaliseringsdirektoratet kan gi dispensasjon fra fristene dersom det vil være uforholdsmessig byrdefullt å overholde dem.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 77 (ikr. 1 jan 2022 iflg. res. 11 juni 2021 nr. 1910 ).</p>
 <h4 id="42-ikrafttredelse">§ 42. Ikrafttredelse</h4>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer. Fra samme tid oppheves lov 21. juni 2013 nr. 58 om forbud mot diskriminering på grunn av seksuell orientering, kjønnsidentitet og kjønnsuttrykk, lov 21. juni 2013 nr. 59 om likestilling mellom kjønnene, lov 21. juni 2013 nr. 60 om forbud mot diskriminering på grunn av etnisitet, religion og livssyn og lov 21. juni 2013 nr. 61 om forbud mot diskriminering på grunn av nedsatt funksjonsevne.</p>
 <p><em>1 Fra 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 .</em></p>
@@ -342,7 +615,7 @@ d. instruere om å diskriminere på grunn av etnisitet, religion eller livssyn i
 <p>Forskrifter gitt i medhold av lov 9. juni 1978 nr. 45 om likestilling mellom kjønnene og i medhold av lov 20. juni 2008 nr. 42 om forbud mot diskriminering på grunn av nedsatt funksjonsevne gjelder også etter at denne loven har trådt i kraft.</p>
 <h4 id="44-endringer-i-andre-lover">§ 44. Endringer i andre lover</h4>
 <p>Fra den tid loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lov 19 des 2017 nr. 115 (ikr. 1 jan 2018).</em></p>
+<p class="note">Endret ved lov 19 des 2017 nr. 115 (ikr. 1 jan 2018).</p>
 <h2 id="vedlegg-1international-convention-on-the-elimination-of-all-forms-of-racial-discriminationautentisk-engelsk-tekst">Vedlegg 1.International Convention on the Elimination of All Forms of Racial Discrimination(autentisk engelsk tekst)</h2>
 <p>Adopted and opened for signature and ratification by General Assembly resolution 2106 (XX) of 21 December 1965.</p>
 <p>Entry into force 4 January 1969, in accordance with Article 19.</p>
@@ -941,6 +1214,8 @@ d. oppsigelser etter artikkel 21.</p>
 <p>De forente nasjoners generalsekretær skal oversende bekreftede kopier av denne konvensjon til alle stater som tilhører en av kategoriene nevnt i artikkel 17 nr. 1.</p>
 </li>
 </ol>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

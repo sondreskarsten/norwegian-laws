@@ -19,72 +19,331 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-12-22-2384.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om godkjenning av yrkeskvalifikasjoner" href="../feeds/forskrift-2017-12-22-2384.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om godkjenning av yrkeskvalifikasjoner</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-12-22-2384</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2018-01-01, 2019-03-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-11-28-1934</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-12-22-2384" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-1a-opphevet">§ 1-1a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-midlertidig-tjenesteytelse">Kapittel 2. Midlertidig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-yrkesutver-ved-midlertidig-tjenesteytelse">§ 2-1. Krav til yrkesutøver ved midlertidig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-dokumentasjon-ved-forhandsmelding">§ 2-2. Krav til dokumentasjon ved forhåndsmelding</a></li>
+<li class="lvl4"><a href="#2-3-saksbehandling-ved-midlertidig-tjenesteytelse-som-krever-forhandskontroll">§ 2-3. Saksbehandling ved midlertidig tjenesteytelse som krever forhåndskontroll</a></li>
+<li class="lvl4"><a href="#2-4-yrkesutvers-bruk-av-yrkestittel">§ 2-4. Yrkesutøvers bruk av yrkestittel</a></li>
+<li class="lvl4"><a href="#2-5-informasjon-til-tjenestebrukere">§ 2-5. Informasjon til tjenestebrukere</a></li>
+<li class="lvl4"><a href="#2-6-delvis-adgang-ved-midlertidig-tjenesteytelse-etter-forhandskontroll">§ 2-6. Delvis adgang ved midlertidig tjenesteytelse etter forhåndskontroll</a></li>
+<li class="lvl4"><a href="#2-7-administrativt-samarbeid">§ 2-7. Administrativt samarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-3-etablering-godkjenning-etter-generell-ordning">Kapittel 3. Etablering – godkjenning etter generell ordning</a></li>
+<li class="lvl4"><a href="#3-1-kvalifikasjonsnivaer">§ 3-1. Kvalifikasjonsnivåer</a></li>
+<li class="lvl4"><a href="#3-2-likebehandling-av-kvalifikasjonsbevis">§ 3-2. Likebehandling av kvalifikasjonsbevis</a></li>
+<li class="lvl4"><a href="#3-3-vilkar-for-godkjenning">§ 3-3. Vilkår for godkjenning</a></li>
+<li class="lvl4"><a href="#3-4-utligningstiltak">§ 3-4. Utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-yrkesutvers-valgfrihet-ved-utligningstiltak">§ 3-5. Unntak fra yrkesutøvers valgfrihet ved utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-6-srlige-krav-som-stilles-til-vedtak-om-utligningstiltak">§ 3-6. Særlige krav som stilles til vedtak om utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-7-delvis-adgang-til-et-yrke-ved-etablering">§ 3-7. Delvis adgang til et yrke ved etablering</a></li>
+<li class="lvl2"><a href="#kapittel-4-etablering-automatisk-godkjenning-pa-grunnlag-av-yrkeserfaring">Kapittel 4. Etablering – Automatisk godkjenning på grunnlag av yrkeserfaring</a></li>
+<li class="lvl4"><a href="#4-1-anvendelsesomrade">§ 4-1. Anvendelsesområde</a></li>
+<li class="lvl4"><a href="#4-2-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-1">§ 4-2. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 1</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-2">§ 4-3. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 2</a></li>
+<li class="lvl4"><a href="#4-4-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-3">§ 4-4. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 3</a></li>
+<li class="lvl4"><a href="#4-5-krav-til-dokumentasjon-av-yrkeserfaring-og-eventuell-opplring">§ 4-5. Krav til dokumentasjon av yrkeserfaring og eventuell opplæring</a></li>
+<li class="lvl2"><a href="#kapittel-5-etablering-godkjenning-etter-felles-opplringsramme-og-opplringsprve">Kapittel 5. Etablering – godkjenning etter felles opplæringsramme og opplæringsprøve</a></li>
+<li class="lvl4"><a href="#5-1-felles-opplringsrammer-og-opplringsprver">§ 5-1. Felles opplæringsrammer og opplæringsprøver</a></li>
+<li class="lvl2"><a href="#kapittel-6-europeisk-profesjonskort">Kapittel 6. Europeisk profesjonskort</a></li>
+<li class="lvl4"><a href="#6-1-yrker-regulert-av-yrkeskvalifikasjonsloven-som-omfattes-av-profesjonskort">§ 6-1. Yrker regulert av yrkeskvalifikasjonsloven som omfattes av profesjonskort</a></li>
+<li class="lvl4"><a href="#6-2-sknad-om-profesjonskort">§ 6-2. Søknad om profesjonskort</a></li>
+<li class="lvl4"><a href="#6-3-ansvarlig-myndighet-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-3. Ansvarlig myndighet for behandling av profesjonskort hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-4-generelle-regler-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-4. Generelle regler for behandling av profesjonskort hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-5-behandling-av-profesjonskort-ved-midlertidig-tjenesteytelse-nar-det-ikke-kreves-forhandskontroll-i-vertsstaten-og-hvor-norge-er-etableringsstat">§ 6-5. Behandling av profesjonskort ved midlertidig tjenesteytelse når det ikke kreves forhåndskontroll i vertsstaten og hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-6-behandling-av-profesjonskort-ved-etablering-eller-midlertidig-tjenesteytelse-nar-det-kreves-forhandskontroll-i-vertsstaten-og-hvor-norge-er-etableringsstat">§ 6-6. Behandling av profesjonskort ved etablering eller midlertidig tjenesteytelse når det kreves forhåndskontroll i vertsstaten og hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-7-behandling-av-profesjonskort-ved-etablering-hvor-norge-er-vertsstat">§ 6-7. Behandling av profesjonskort ved etablering hvor Norge er vertsstat</a></li>
+<li class="lvl4"><a href="#6-8-oppdateringer-og-tilgang-til-informasjon-i-imi">§ 6-8. Oppdateringer og tilgang til informasjon i IMI</a></li>
+<li class="lvl2"><a href="#kapittel-7-varslingsplikt-hvor-yrkesutver-har-fatt-begrenset-retten-til-a-utve-yrket">Kapittel 7. Varslingsplikt hvor yrkesutøver har fått begrenset retten til å utøve yrket</a></li>
+<li class="lvl4"><a href="#7-1-innholdet-i-varslingen">§ 7-1. Innholdet i varslingen</a></li>
+<li class="lvl4"><a href="#7-2-klagerett-pa-varslingen">§ 7-2. Klagerett på varslingen</a></li>
+<li class="lvl2"><a href="#kapittel-8-saksbehandlingsregler">Kapittel 8. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#8-1-krav-til-dokumentasjon-ved-sknad-om-etablering">§ 8-1. Krav til dokumentasjon ved søknad om etablering</a></li>
+<li class="lvl4"><a href="#8-2-generelle-saksbehandlingsfrister-ved-sknad-om-etablering">§ 8-2. Generelle saksbehandlingsfrister ved søknad om etablering</a></li>
+<li class="lvl4"><a href="#8-3-krav-til-sprakkunnskaper-og-sprakkontroll">§ 8-3. Krav til språkkunnskaper og språkkontroll</a></li>
+<li class="lvl4"><a href="#8-4-bruk-av-akademisk-tittel">§ 8-4. Bruk av akademisk tittel</a></li>
+<li class="lvl4"><a href="#8-5-elektronisk-sknad">§ 8-5. Elektronisk søknad</a></li>
+<li class="lvl4"><a href="#8-6-kvalifikasjonsbevis-ervervet-i-tredjeland-og-tredjelandsborger">§ 8-6. Kvalifikasjonsbevis ervervet i tredjeland og tredjelandsborger</a></li>
+<li class="lvl4"><a href="#8-7-prveperiode">§ 8-7. Prøveperiode</a></li>
+<li class="lvl4"><a href="#8-8-egnethetsprve">§ 8-8. Egnethetsprøve</a></li>
+<li class="lvl2"><a href="#kapittel-9-administrative-bestemmelser">Kapittel 9. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-assistansesenter">§ 9-1. Assistansesenter</a></li>
+<li class="lvl4"><a href="#9-2-statistikk">§ 9-2. Statistikk</a></li>
+<li class="lvl2"><a href="#kapittel-10-forholdsmessighetsvurdering-ved-regulering-av-yrker">Kapittel 10. Forholdsmessighetsvurdering ved regulering av yrker</a></li>
+<li class="lvl4"><a href="#10-1-formal-og-virkeomrade">§ 10-1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#10-2-krav-om-forholdsmessighetsvurdering">§ 10-2. Krav om forholdsmessighetsvurdering</a></li>
+<li class="lvl4"><a href="#10-3-krav-til-forholdsmessighetsvurderingen">§ 10-3. Krav til forholdsmessighetsvurderingen</a></li>
+<li class="lvl4"><a href="#10-4-krav-til-regulering">§ 10-4. Krav til regulering</a></li>
+<li class="lvl4"><a href="#10-5-formal-i-allmenhetens-interesse">§ 10-5. Formål i allmenhetens interesse</a></li>
+<li class="lvl4"><a href="#10-6-vurdering-av-forholdsmessighet">§ 10-6. Vurdering av forholdsmessighet</a></li>
+<li class="lvl4"><a href="#10-7-momenter-i-forholdsmessighetsvurderingen-nar-nye-eller-endrede-regler-kombineres-med-andre-krav-som-begrenser-adgangen-til-yrket">§ 10-7. Momenter i forholdsmessighetsvurderingen når nye eller endrede regler kombineres med andre krav som begrenser adgangen til yrket</a></li>
+<li class="lvl4"><a href="#10-8-andre-relevante-vurderinger-av-forholdsmessighet">§ 10-8. Andre relevante vurderinger av forholdsmessighet</a></li>
+<li class="lvl4"><a href="#10-9-forholdsmessighetsvurdering-ved-midlertidig-begrensning-i-retten-til-a-utve-et-yrke">§ 10-9. Forholdsmessighetsvurdering ved midlertidig begrensning i retten til å utøve et yrke</a></li>
+<li class="lvl4"><a href="#10-10-forholdsmessighetsvurdering-ved-regulering-av-helseyrker">§ 10-10. Forholdsmessighetsvurdering ved regulering av helseyrker</a></li>
+<li class="lvl4"><a href="#10-11-informasjonsutveksling">§ 10-11. Informasjonsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-11-godkjenning-av-yrkeskvalifikasjoner-fra-det-forente-kongeriket-storbritannia-og-nord-irland">Kapittel 11. Godkjenning av yrkeskvalifikasjoner fra det forente kongeriket Storbritannia og Nord-Irland</a></li>
+<li class="lvl4"><a href="#11-1-formal">§ 11-1. Formål</a></li>
+<li class="lvl4"><a href="#11-2-virkeomrade">§ 11-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#11-3-virkning-av-godkjenning">§ 11-3. Virkning av godkjenning</a></li>
+<li class="lvl4"><a href="#11-4-rett-til-godkjenning-av-yrkeskvalifikasjoner-fra-storbritannia">§ 11-4. Rett til godkjenning av yrkeskvalifikasjoner fra Storbritannia</a></li>
+<li class="lvl4"><a href="#11-5-utlikningstiltak">§ 11-5. Utlikningstiltak</a></li>
+<li class="lvl4"><a href="#11-6-unntak-fra-retten-til-godkjenning-eller-autorisasjon">§ 11-6. Unntak fra retten til godkjenning eller autorisasjon</a></li>
+<li class="lvl4"><a href="#11-7-saksbehandlingsregler">§ 11-7. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#11-8-andre-bestemmelser">§ 11-8. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#11-9-krav-til-sprak">§ 11-9. Krav til språk</a></li>
+<li class="lvl2"><a href="#kapittel-12-avsluttende-bestemmelser">Kapittel 12. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-2-gjennomfring-av-kommisjonens-gjennomfringsforordning-2015983-og-20201190">§ 12-2. Gjennomføring av Kommisjonens gjennomføringsforordning 2015/983 og 2020/1190</a></li>
+<li class="lvl2"><a href="#vedlegg-1-virksomhet-knyttet-til-kategoriene-av-yrkeserfaring-som-vist-til-i-4-2-til-4-4-og-yrkeskvalifikasjonsdirektivets-artikkel-17-18-og-19">Vedlegg 1: Virksomhet knyttet til kategoriene av yrkeserfaring som vist til i § 4-2 til § 4-4 og yrkeskvalifikasjonsdirektivets artikkel 17, 18 og 19</a></li>
+<li class="lvl3"><a href="#liste-inringshovedgrupper-som-omfattes-av-direktiv-64427ef-endret-ved-direktiv-6977ef-og-av-direktiv-68366ef-og-82489ef">Liste INæringshovedgrupper som omfattes av direktiv 64/427/EØF, endret ved direktiv 69/77/EØF, og av direktiv 68/366/EØF og 82/489/EØF</a></li>
+<li class="lvl4"><a href="#1liberaliseringsdirektiv-64429efnice-nomenklatur-tilsvarer-nrings-hovedgruppene-2340-isic">1(liberaliseringsdirektiv 64/429/EØF)NICE-nomenklatur (tilsvarer Nærings- hovedgruppene 23–40 ISIC)</a></li>
+<li class="lvl4"><a href="#2direktiv-68366efliberaliseringsdirektiv-68365efnice-nomenklatur">2Direktiv 68/366/EØF(liberaliseringsdirektiv 68/365/EØF)NICE-nomenklatur</a></li>
+<li class="lvl4"><a href="#3direktiv-82489efisic-nomenklatur">3Direktiv 82/489/EØFISIC-nomenklatur</a></li>
+<li class="lvl3"><a href="#liste-iinringshovedgrupper-som-omfattes-av-direktiv-75368ef-75369ef-og-82470ef">Liste IINæringshovedgrupper som omfattes av direktiv 75/368/EØF, 75/369/EØF, og 82/470/EØF</a></li>
+<li class="lvl4"><a href="#1direktiv-75368ef-virksomhet-vist-til-i-artikkel-5-nr-1isic-nomenklatur">1Direktiv 75/368/EØF (virksomhet vist til i artikkel 5 nr. 1))ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#2direktiv-75369ef-artikkel-6-der-virksomheten-anses-for-a-vre-industri-eller-handverksvirksomhetisic-nomenklatur">2Direktiv 75/369/EØF (artikkel 6: der virksomheten anses for å være industri- eller håndverksvirksomhet)ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#3direktiv-82470ef-artikkel-6-nr-1-og-3gruppe-718-og-720-i-isic-nomenklaturen">3Direktiv 82/470/EØF (artikkel 6 nr. 1) og 3))Gruppe 718 og 720 i ISIC-nomenklaturen</a></li>
+<li class="lvl3"><a href="#liste-iiidirektiv-64222ef-68364ef-68368ef-75368ef-75369ef-70523ef-og-82470ef">Liste IIIDirektiv 64/222/EØF, 68/364/EØF, 68/368/EØF, 75/368/EØF, 75/369/EØF, 70/523/EØF og 82/470/EØF</a></li>
+<li class="lvl4"><a href="#1direktiv-64222efliberaliseringsdirektiv-64223ef-og-64224ef">1Direktiv 64/222/EØF(liberaliseringsdirektiv 64/223/EØF og 64/224/EØF)</a></li>
+<li class="lvl4"><a href="#2direktiv-68364efliberaliseringsdirektiv-68363ef">2Direktiv 68/364/EØF(liberaliseringsdirektiv 68/363/EØF)</a></li>
+<li class="lvl4"><a href="#3direktiv-68368efliberaliseringsdirektiv-68367efisic-nomenklatur">3Direktiv 68/368/EØF(liberaliseringsdirektiv 68/367/EØF)ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#4direktiv-75368ef-artikkel-7all-virksomhet-oppfrt-i-vedlegget-til-direktiv-75368ef-bortsett-fra-virksomhet-som-vist-til-i-artikkel-5-nr-1-i-dette-direktiv-liste-ii-nr-1-i-dette-vedleggisic-nomenklatur">4Direktiv 75/368/EØF (artikkel 7)All virksomhet oppført i vedlegget til direktiv 75/368/EØF, bortsett fra virksomhet som vist til i artikkel 5 nr. 1 i dette direktiv (liste II nr. 1 i dette vedlegg).ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#5direktiv-75369ef-artikkel-5">5Direktiv 75/369/EØF (artikkel 5)</a></li>
+<li class="lvl4"><a href="#6direktiv-70523ef">6Direktiv 70/523/EØF</a></li>
+<li class="lvl4"><a href="#7direktiv-82470ef-artikkel-6-nr-2">7Direktiv 82/470/EØF (artikkel 6 nr. 2))</a></li>
+<li class="lvl2"><a href="#vedlegg-2-dokumenter-som-kan-kreves-i-samsvar-med-8-1-og-artikkel-50-nr-1-i-yrkeskvalifikasjonsdirektivet">Vedlegg 2: Dokumenter som kan kreves i samsvar med § 8-1 og artikkel 50 nr. 1) i yrkeskvalifikasjonsdirektivet</a></li>
+<li class="lvl2"><a href="#veiledning-til-forskrift-om-godkjenning-av-yrkeskvalifikasjoner">Veiledning til forskrift om godkjenning av yrkeskvalifikasjoner</a></li>
+<li class="lvl3"><a href="#forord">Forord</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser_1">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-2-midlertidig-tjenesteytelse_1">Kapittel 2. Midlertidig tjenesteytelse</a></li>
+<li class="lvl3"><a href="#kapittel-3-etablering-godkjenning-etter-generell-ordning_1">Kapittel 3. Etablering – godkjenning etter generell ordning</a></li>
+<li class="lvl3"><a href="#kapittel-4-etablering-automatisk-godkjenning-pa-grunnlag-av-yrkeserfaring_1">Kapittel 4. Etablering – Automatisk godkjenning på grunnlag av yrkeserfaring</a></li>
+<li class="lvl3"><a href="#kapittel-5-etablering-godkjenning-etter-felles-opplringsramme-og-opplringsprve_1">Kapittel 5. Etablering – godkjenning etter felles opplæringsramme og opplæringsprøve</a></li>
+<li class="lvl3"><a href="#kapittel-6-europeisk-profesjonskort_1">Kapittel 6. Europeisk profesjonskort</a></li>
+<li class="lvl3"><a href="#kapittel-7-varslingsplikt-hvor-yrkesutver-har-fatt-begrenset-retten-til-a-utve-yrket_1">Kapittel 7. Varslingsplikt hvor yrkesutøver har fått begrenset retten til å utøve yrket</a></li>
+<li class="lvl3"><a href="#kapittel-8-saksbehandlingsregler_1">Kapittel 8. Saksbehandlingsregler</a></li>
+<li class="lvl3"><a href="#kapittel-9-administrative-bestemmelser_1">Kapittel 9. Administrative bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-11-28-1934.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-22-2384.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om godkjenning av yrkeskvalifikasjoner</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-12-22-2384.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-12-22-2384 <code>forskrift/2017-12-22-2384</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2018, 01.03.2019</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-11-28-1934 <code>forskrift/2023-11-28-1934</code> fra 01.12.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-12-22-2384" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-1a-opphevet">§ 1-1a. (Opphevet)</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-midlertidig-tjenesteytelse">Kapittel 2. Midlertidig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#2-1-krav-til-yrkesutver-ved-midlertidig-tjenesteytelse">§ 2-1. Krav til yrkesutøver ved midlertidig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#2-2-krav-til-dokumentasjon-ved-forhandsmelding">§ 2-2. Krav til dokumentasjon ved forhåndsmelding</a></li>
+<li class="lvl4"><a href="#2-3-saksbehandling-ved-midlertidig-tjenesteytelse-som-krever-forhandskontroll">§ 2-3. Saksbehandling ved midlertidig tjenesteytelse som krever forhåndskontroll</a></li>
+<li class="lvl4"><a href="#2-4-yrkesutvers-bruk-av-yrkestittel">§ 2-4. Yrkesutøvers bruk av yrkestittel</a></li>
+<li class="lvl4"><a href="#2-5-informasjon-til-tjenestebrukere">§ 2-5. Informasjon til tjenestebrukere</a></li>
+<li class="lvl4"><a href="#2-6-delvis-adgang-ved-midlertidig-tjenesteytelse-etter-forhandskontroll">§ 2-6. Delvis adgang ved midlertidig tjenesteytelse etter forhåndskontroll</a></li>
+<li class="lvl4"><a href="#2-7-administrativt-samarbeid">§ 2-7. Administrativt samarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-3-etablering-godkjenning-etter-generell-ordning">Kapittel 3. Etablering – godkjenning etter generell ordning</a></li>
+<li class="lvl4"><a href="#3-1-kvalifikasjonsnivaer">§ 3-1. Kvalifikasjonsnivåer</a></li>
+<li class="lvl4"><a href="#3-2-likebehandling-av-kvalifikasjonsbevis">§ 3-2. Likebehandling av kvalifikasjonsbevis</a></li>
+<li class="lvl4"><a href="#3-3-vilkar-for-godkjenning">§ 3-3. Vilkår for godkjenning</a></li>
+<li class="lvl4"><a href="#3-4-utligningstiltak">§ 3-4. Utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-yrkesutvers-valgfrihet-ved-utligningstiltak">§ 3-5. Unntak fra yrkesutøvers valgfrihet ved utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-6-srlige-krav-som-stilles-til-vedtak-om-utligningstiltak">§ 3-6. Særlige krav som stilles til vedtak om utligningstiltak</a></li>
+<li class="lvl4"><a href="#3-7-delvis-adgang-til-et-yrke-ved-etablering">§ 3-7. Delvis adgang til et yrke ved etablering</a></li>
+<li class="lvl2"><a href="#kapittel-4-etablering-automatisk-godkjenning-pa-grunnlag-av-yrkeserfaring">Kapittel 4. Etablering – Automatisk godkjenning på grunnlag av yrkeserfaring</a></li>
+<li class="lvl4"><a href="#4-1-anvendelsesomrade">§ 4-1. Anvendelsesområde</a></li>
+<li class="lvl4"><a href="#4-2-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-1">§ 4-2. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 1</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-2">§ 4-3. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 2</a></li>
+<li class="lvl4"><a href="#4-4-krav-til-yrkeserfaringens-lengde-som-omfattes-av-yrker-nevnt-i-vedlegg-1-liste-3">§ 4-4. Krav til yrkeserfaringens lengde som omfattes av yrker nevnt i vedlegg 1, liste 3</a></li>
+<li class="lvl4"><a href="#4-5-krav-til-dokumentasjon-av-yrkeserfaring-og-eventuell-opplring">§ 4-5. Krav til dokumentasjon av yrkeserfaring og eventuell opplæring</a></li>
+<li class="lvl2"><a href="#kapittel-5-etablering-godkjenning-etter-felles-opplringsramme-og-opplringsprve">Kapittel 5. Etablering – godkjenning etter felles opplæringsramme og opplæringsprøve</a></li>
+<li class="lvl4"><a href="#5-1-felles-opplringsrammer-og-opplringsprver">§ 5-1. Felles opplæringsrammer og opplæringsprøver</a></li>
+<li class="lvl2"><a href="#kapittel-6-europeisk-profesjonskort">Kapittel 6. Europeisk profesjonskort</a></li>
+<li class="lvl4"><a href="#6-1-yrker-regulert-av-yrkeskvalifikasjonsloven-som-omfattes-av-profesjonskort">§ 6-1. Yrker regulert av yrkeskvalifikasjonsloven som omfattes av profesjonskort</a></li>
+<li class="lvl4"><a href="#6-2-sknad-om-profesjonskort">§ 6-2. Søknad om profesjonskort</a></li>
+<li class="lvl4"><a href="#6-3-ansvarlig-myndighet-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-3. Ansvarlig myndighet for behandling av profesjonskort hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-4-generelle-regler-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-4. Generelle regler for behandling av profesjonskort hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-5-behandling-av-profesjonskort-ved-midlertidig-tjenesteytelse-nar-det-ikke-kreves-forhandskontroll-i-vertsstaten-og-hvor-norge-er-etableringsstat">§ 6-5. Behandling av profesjonskort ved midlertidig tjenesteytelse når det ikke kreves forhåndskontroll i vertsstaten og hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-6-behandling-av-profesjonskort-ved-etablering-eller-midlertidig-tjenesteytelse-nar-det-kreves-forhandskontroll-i-vertsstaten-og-hvor-norge-er-etableringsstat">§ 6-6. Behandling av profesjonskort ved etablering eller midlertidig tjenesteytelse når det kreves forhåndskontroll i vertsstaten og hvor Norge er etableringsstat</a></li>
+<li class="lvl4"><a href="#6-7-behandling-av-profesjonskort-ved-etablering-hvor-norge-er-vertsstat">§ 6-7. Behandling av profesjonskort ved etablering hvor Norge er vertsstat</a></li>
+<li class="lvl4"><a href="#6-8-oppdateringer-og-tilgang-til-informasjon-i-imi">§ 6-8. Oppdateringer og tilgang til informasjon i IMI</a></li>
+<li class="lvl2"><a href="#kapittel-7-varslingsplikt-hvor-yrkesutver-har-fatt-begrenset-retten-til-a-utve-yrket">Kapittel 7. Varslingsplikt hvor yrkesutøver har fått begrenset retten til å utøve yrket</a></li>
+<li class="lvl4"><a href="#7-1-innholdet-i-varslingen">§ 7-1. Innholdet i varslingen</a></li>
+<li class="lvl4"><a href="#7-2-klagerett-pa-varslingen">§ 7-2. Klagerett på varslingen</a></li>
+<li class="lvl2"><a href="#kapittel-8-saksbehandlingsregler">Kapittel 8. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#8-1-krav-til-dokumentasjon-ved-sknad-om-etablering">§ 8-1. Krav til dokumentasjon ved søknad om etablering</a></li>
+<li class="lvl4"><a href="#8-2-generelle-saksbehandlingsfrister-ved-sknad-om-etablering">§ 8-2. Generelle saksbehandlingsfrister ved søknad om etablering</a></li>
+<li class="lvl4"><a href="#8-3-krav-til-sprakkunnskaper-og-sprakkontroll">§ 8-3. Krav til språkkunnskaper og språkkontroll</a></li>
+<li class="lvl4"><a href="#8-4-bruk-av-akademisk-tittel">§ 8-4. Bruk av akademisk tittel</a></li>
+<li class="lvl4"><a href="#8-5-elektronisk-sknad">§ 8-5. Elektronisk søknad</a></li>
+<li class="lvl4"><a href="#8-6-kvalifikasjonsbevis-ervervet-i-tredjeland-og-tredjelandsborger">§ 8-6. Kvalifikasjonsbevis ervervet i tredjeland og tredjelandsborger</a></li>
+<li class="lvl4"><a href="#8-7-prveperiode">§ 8-7. Prøveperiode</a></li>
+<li class="lvl4"><a href="#8-8-egnethetsprve">§ 8-8. Egnethetsprøve</a></li>
+<li class="lvl2"><a href="#kapittel-9-administrative-bestemmelser">Kapittel 9. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-assistansesenter">§ 9-1. Assistansesenter</a></li>
+<li class="lvl4"><a href="#9-2-statistikk">§ 9-2. Statistikk</a></li>
+<li class="lvl2"><a href="#kapittel-10-forholdsmessighetsvurdering-ved-regulering-av-yrker">Kapittel 10. Forholdsmessighetsvurdering ved regulering av yrker</a></li>
+<li class="lvl4"><a href="#10-1-formal-og-virkeomrade">§ 10-1. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#10-2-krav-om-forholdsmessighetsvurdering">§ 10-2. Krav om forholdsmessighetsvurdering</a></li>
+<li class="lvl4"><a href="#10-3-krav-til-forholdsmessighetsvurderingen">§ 10-3. Krav til forholdsmessighetsvurderingen</a></li>
+<li class="lvl4"><a href="#10-4-krav-til-regulering">§ 10-4. Krav til regulering</a></li>
+<li class="lvl4"><a href="#10-5-formal-i-allmenhetens-interesse">§ 10-5. Formål i allmenhetens interesse</a></li>
+<li class="lvl4"><a href="#10-6-vurdering-av-forholdsmessighet">§ 10-6. Vurdering av forholdsmessighet</a></li>
+<li class="lvl4"><a href="#10-7-momenter-i-forholdsmessighetsvurderingen-nar-nye-eller-endrede-regler-kombineres-med-andre-krav-som-begrenser-adgangen-til-yrket">§ 10-7. Momenter i forholdsmessighetsvurderingen når nye eller endrede regler kombineres med andre krav som begrenser adgangen til yrket</a></li>
+<li class="lvl4"><a href="#10-8-andre-relevante-vurderinger-av-forholdsmessighet">§ 10-8. Andre relevante vurderinger av forholdsmessighet</a></li>
+<li class="lvl4"><a href="#10-9-forholdsmessighetsvurdering-ved-midlertidig-begrensning-i-retten-til-a-utve-et-yrke">§ 10-9. Forholdsmessighetsvurdering ved midlertidig begrensning i retten til å utøve et yrke</a></li>
+<li class="lvl4"><a href="#10-10-forholdsmessighetsvurdering-ved-regulering-av-helseyrker">§ 10-10. Forholdsmessighetsvurdering ved regulering av helseyrker</a></li>
+<li class="lvl4"><a href="#10-11-informasjonsutveksling">§ 10-11. Informasjonsutveksling</a></li>
+<li class="lvl2"><a href="#kapittel-11-godkjenning-av-yrkeskvalifikasjoner-fra-det-forente-kongeriket-storbritannia-og-nord-irland">Kapittel 11. Godkjenning av yrkeskvalifikasjoner fra det forente kongeriket Storbritannia og Nord-Irland</a></li>
+<li class="lvl4"><a href="#11-1-formal">§ 11-1. Formål</a></li>
+<li class="lvl4"><a href="#11-2-virkeomrade">§ 11-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#11-3-virkning-av-godkjenning">§ 11-3. Virkning av godkjenning</a></li>
+<li class="lvl4"><a href="#11-4-rett-til-godkjenning-av-yrkeskvalifikasjoner-fra-storbritannia">§ 11-4. Rett til godkjenning av yrkeskvalifikasjoner fra Storbritannia</a></li>
+<li class="lvl4"><a href="#11-5-utlikningstiltak">§ 11-5. Utlikningstiltak</a></li>
+<li class="lvl4"><a href="#11-6-unntak-fra-retten-til-godkjenning-eller-autorisasjon">§ 11-6. Unntak fra retten til godkjenning eller autorisasjon</a></li>
+<li class="lvl4"><a href="#11-7-saksbehandlingsregler">§ 11-7. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#11-8-andre-bestemmelser">§ 11-8. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#11-9-krav-til-sprak">§ 11-9. Krav til språk</a></li>
+<li class="lvl2"><a href="#kapittel-12-avsluttende-bestemmelser">Kapittel 12. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#12-2-gjennomfring-av-kommisjonens-gjennomfringsforordning-2015983-og-20201190">§ 12-2. Gjennomføring av Kommisjonens gjennomføringsforordning 2015/983 og 2020/1190</a></li>
+<li class="lvl2"><a href="#vedlegg-1-virksomhet-knyttet-til-kategoriene-av-yrkeserfaring-som-vist-til-i-4-2-til-4-4-og-yrkeskvalifikasjonsdirektivets-artikkel-17-18-og-19">Vedlegg 1: Virksomhet knyttet til kategoriene av yrkeserfaring som vist til i § 4-2 til § 4-4 og yrkeskvalifikasjonsdirektivets artikkel 17, 18 og 19</a></li>
+<li class="lvl3"><a href="#liste-inringshovedgrupper-som-omfattes-av-direktiv-64427ef-endret-ved-direktiv-6977ef-og-av-direktiv-68366ef-og-82489ef">Liste INæringshovedgrupper som omfattes av direktiv 64/427/EØF, endret ved direktiv 69/77/EØF, og av direktiv 68/366/EØF og 82/489/EØF</a></li>
+<li class="lvl4"><a href="#1liberaliseringsdirektiv-64429efnice-nomenklatur-tilsvarer-nrings-hovedgruppene-2340-isic">1(liberaliseringsdirektiv 64/429/EØF)NICE-nomenklatur (tilsvarer Nærings- hovedgruppene 23–40 ISIC)</a></li>
+<li class="lvl4"><a href="#2direktiv-68366efliberaliseringsdirektiv-68365efnice-nomenklatur">2Direktiv 68/366/EØF(liberaliseringsdirektiv 68/365/EØF)NICE-nomenklatur</a></li>
+<li class="lvl4"><a href="#3direktiv-82489efisic-nomenklatur">3Direktiv 82/489/EØFISIC-nomenklatur</a></li>
+<li class="lvl3"><a href="#liste-iinringshovedgrupper-som-omfattes-av-direktiv-75368ef-75369ef-og-82470ef">Liste IINæringshovedgrupper som omfattes av direktiv 75/368/EØF, 75/369/EØF, og 82/470/EØF</a></li>
+<li class="lvl4"><a href="#1direktiv-75368ef-virksomhet-vist-til-i-artikkel-5-nr-1isic-nomenklatur">1Direktiv 75/368/EØF (virksomhet vist til i artikkel 5 nr. 1))ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#2direktiv-75369ef-artikkel-6-der-virksomheten-anses-for-a-vre-industri-eller-handverksvirksomhetisic-nomenklatur">2Direktiv 75/369/EØF (artikkel 6: der virksomheten anses for å være industri- eller håndverksvirksomhet)ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#3direktiv-82470ef-artikkel-6-nr-1-og-3gruppe-718-og-720-i-isic-nomenklaturen">3Direktiv 82/470/EØF (artikkel 6 nr. 1) og 3))Gruppe 718 og 720 i ISIC-nomenklaturen</a></li>
+<li class="lvl3"><a href="#liste-iiidirektiv-64222ef-68364ef-68368ef-75368ef-75369ef-70523ef-og-82470ef">Liste IIIDirektiv 64/222/EØF, 68/364/EØF, 68/368/EØF, 75/368/EØF, 75/369/EØF, 70/523/EØF og 82/470/EØF</a></li>
+<li class="lvl4"><a href="#1direktiv-64222efliberaliseringsdirektiv-64223ef-og-64224ef">1Direktiv 64/222/EØF(liberaliseringsdirektiv 64/223/EØF og 64/224/EØF)</a></li>
+<li class="lvl4"><a href="#2direktiv-68364efliberaliseringsdirektiv-68363ef">2Direktiv 68/364/EØF(liberaliseringsdirektiv 68/363/EØF)</a></li>
+<li class="lvl4"><a href="#3direktiv-68368efliberaliseringsdirektiv-68367efisic-nomenklatur">3Direktiv 68/368/EØF(liberaliseringsdirektiv 68/367/EØF)ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#4direktiv-75368ef-artikkel-7all-virksomhet-oppfrt-i-vedlegget-til-direktiv-75368ef-bortsett-fra-virksomhet-som-vist-til-i-artikkel-5-nr-1-i-dette-direktiv-liste-ii-nr-1-i-dette-vedleggisic-nomenklatur">4Direktiv 75/368/EØF (artikkel 7)All virksomhet oppført i vedlegget til direktiv 75/368/EØF, bortsett fra virksomhet som vist til i artikkel 5 nr. 1 i dette direktiv (liste II nr. 1 i dette vedlegg).ISIC-nomenklatur</a></li>
+<li class="lvl4"><a href="#5direktiv-75369ef-artikkel-5">5Direktiv 75/369/EØF (artikkel 5)</a></li>
+<li class="lvl4"><a href="#6direktiv-70523ef">6Direktiv 70/523/EØF</a></li>
+<li class="lvl4"><a href="#7direktiv-82470ef-artikkel-6-nr-2">7Direktiv 82/470/EØF (artikkel 6 nr. 2))</a></li>
+<li class="lvl2"><a href="#vedlegg-2-dokumenter-som-kan-kreves-i-samsvar-med-8-1-og-artikkel-50-nr-1-i-yrkeskvalifikasjonsdirektivet">Vedlegg 2: Dokumenter som kan kreves i samsvar med § 8-1 og artikkel 50 nr. 1) i yrkeskvalifikasjonsdirektivet</a></li>
+<li class="lvl2"><a href="#veiledning-til-forskrift-om-godkjenning-av-yrkeskvalifikasjoner">Veiledning til forskrift om godkjenning av yrkeskvalifikasjoner</a></li>
+<li class="lvl3"><a href="#forord">Forord</a></li>
+<li class="lvl3"><a href="#kapittel-1-innledende-bestemmelser_1">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-2-midlertidig-tjenesteytelse_1">Kapittel 2. Midlertidig tjenesteytelse</a></li>
+<li class="lvl3"><a href="#kapittel-3-etablering-godkjenning-etter-generell-ordning_1">Kapittel 3. Etablering – godkjenning etter generell ordning</a></li>
+<li class="lvl3"><a href="#kapittel-4-etablering-automatisk-godkjenning-pa-grunnlag-av-yrkeserfaring_1">Kapittel 4. Etablering – Automatisk godkjenning på grunnlag av yrkeserfaring</a></li>
+<li class="lvl3"><a href="#kapittel-5-etablering-godkjenning-etter-felles-opplringsramme-og-opplringsprve_1">Kapittel 5. Etablering – godkjenning etter felles opplæringsramme og opplæringsprøve</a></li>
+<li class="lvl3"><a href="#kapittel-6-europeisk-profesjonskort_1">Kapittel 6. Europeisk profesjonskort</a></li>
+<li class="lvl3"><a href="#kapittel-7-varslingsplikt-hvor-yrkesutver-har-fatt-begrenset-retten-til-a-utve-yrket_1">Kapittel 7. Varslingsplikt hvor yrkesutøver har fått begrenset retten til å utøve yrket</a></li>
+<li class="lvl3"><a href="#kapittel-8-saksbehandlingsregler_1">Kapittel 8. Saksbehandlingsregler</a></li>
+<li class="lvl3"><a href="#kapittel-9-administrative-bestemmelser_1">Kapittel 9. Administrative bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-10-avsluttende-bestemmelser">Kapittel 10. Avsluttende bestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-22-2384.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-12-22-2384.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-12-22-2384.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-12-22-2384.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-12-22-2384.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-12-22-2384.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-12-22-2384.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-12-22-2384.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-12-22-2384.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-godkjenning-av-yrkeskvalifikasjoner">Forskrift om godkjenning av yrkeskvalifikasjoner</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften gir bestemmelser som utfyller og presiserer yrkeskvalifikasjonsloven.</p>
 <p>For yrker som omfattes av lov 2. juli 1999 nr. 64 om helsepersonell m.v . og lov 15. juni 2001 nr. 75 om veterinærer og annet dyrehelsepersonell , gjelder § 9-1 og kapittel 10 . For borgere av Sveits gjelder ikke bestemmelsene i kapittel 5 , 6 og 7 . Kapittel 3 og § 8-1 , § 8-3 , § 8-4 , § 8-5 , § 8-7 og § 8-8 gjelder for borgere med yrkeskvalifikasjoner fra tredjeland, om ikke annet er bestemt.</p>
 <p>For borgere med yrkeskvalifikasjoner fra Storbritannia gjelder kun kapittel 11, om ikke annet er bestemt. Definisjonene i yrkeskvalifikasjonsloven gjelder så langt de passer.</p>
-<p><em>Endret ved forskrifter 8 sep 2021 nr. 2753 (i kraft 1 jan 2022), 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Endret ved forskrifter 8 sep 2021 nr. 2753 (i kraft 1 jan 2022), 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="1-1a-opphevet">§ 1-1a. (Opphevet) <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-1-1a.html" title="Endringshistorikk for § 1-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Tilføyd ved forskrift 10 april 2019 nr. 479 , endret ved forskrift 18 okt 2019 nr. 1386 , opphevet ved forskrift 18 des 2020 nr. 2870 .</em></p>
+<p class="note">Tilføyd ved forskrift 10 april 2019 nr. 479 , endret ved forskrift 18 okt 2019 nr. 1386 , opphevet ved forskrift 18 des 2020 nr. 2870 .</p>
 <h4 id="1-2-definisjoner">§ 1-2. Definisjoner <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I forskriften forstås med</p>
 <p>a. foretaksleder: en person som i et foretak innenfor den aktuelle bransjen har utøvd en virksomhet
@@ -95,7 +354,7 @@ b. livslang læring: allmenn utdanning, yrkesutdanning, ikke-formell opplæring 
 c. tvingende allmenne hensyn: årsaker eller hensyn som er anerkjent som dette i rettspraksis.
 d. beskyttet yrkestittel: en form for regulering av et yrke, der bruken av tittelen i forbindelse med en eller flere former for yrkesvirksomhet i henhold til lov, forskrift eller administrative bestemmelser, er direkte eller indirekte underlagt krav om en bestemt yrkeskvalifikasjon, og der urettmessig bruk av denne tittelen er underlagt sanksjoner.
 e. reservert yrkesvirksomhet: en form for regulering av et yrke der adgangen til en eller flere former for yrkesvirksomhet i henhold til lover, forskrifter eller administrative bestemmelser er direkte eller indirekte forbeholdt utøvere av et lovregulert yrke, som har en bestemt yrkeskvalifikasjon, herunder dersom yrkesvirksomheten utøves sammen med andre lovregulerte yrker.</p>
-<p><em>Endret ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Endret ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h2 id="kapittel-2-midlertidig-tjenesteytelse">Kapittel 2. Midlertidig tjenesteytelse</h2>
 <h4 id="2-1-krav-til-yrkesutver-ved-midlertidig-tjenesteytelse">§ 2-1. Krav til yrkesutøver ved midlertidig tjenesteytelse</h4>
 <p>En yrkesutøver som er lovlig etablert i en annen EØS-stat eller Sveits, og som har rett til å utøve yrket der, har rett til å utøve det samme yrket midlertidig i Norge. Er verken yrket eller utdanningen lovregulert i etableringsstaten, må yrkesutøveren ha utøvet yrket i minst ett av de siste ti årene i en eller flere stater innen EØS eller Sveits.</p>
@@ -128,7 +387,7 @@ b. navn og adresse på tilsynsmyndigheten i etableringsstaten, hvis virksomheten
 c. navn på bransjeorganisasjon eller lignende hvor yrkesutøver er registrert,
 d. yrkestittel, eller eksamensbevis hvis yrkestittel ikke finnes,
 e. forsikringsdekning eller andre former for personlig eller kollektiv beskyttelse med hensyn til yrkesansvar.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="2-6-delvis-adgang-ved-midlertidig-tjenesteytelse-etter-forhandskontroll">§ 2-6. Delvis adgang ved midlertidig tjenesteytelse etter forhåndskontroll</h4>
 <p>Yrkesutøver som ikke gis rett til å utøve yrket midlertidig, kan gis delvis adgang til yrket. Rett til delvis adgang gjelder for yrker som er omfattet av forhåndskontroll. Vilkårene for delvis adgang i § 3-7 gjelder tilsvarende.</p>
 <h4 id="2-7-administrativt-samarbeid">§ 2-7. Administrativt samarbeid</h4>
@@ -142,7 +401,7 @@ c. har vært ilagt disiplinære eller strafferettslige sanksjoner i forbindelse 
 <h2 id="kapittel-3-etablering-godkjenning-etter-generell-ordning">Kapittel 3. Etablering – godkjenning etter generell ordning</h2>
 <h4 id="3-1-kvalifikasjonsnivaer">§ 3-1. Kvalifikasjonsnivåer <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved vurdering av vilkår for godkjenning etter dette kapittelet skal yrkeskvalifikasjonene inndeles i følgende nivå: Nivå A Kursbevis for kvalifikasjon utstedt av ansvarlig myndighet, på grunnlag av 1. opplæring som ikke leder til en formell kvalifikasjon 2. særskilt eksamen uten forutgående opplæring 3. utøvelse av yrket i tre sammenhengende år på fulltid eller av tilsvarende varighet på deltid i løpet av de siste ti år 4. dokumentasjon på antall år eller fullførte fag på grunnskole, eller kompetansebevis fra videregående opplæring dersom denne ikke er fullført Nivå B Vitnemål for fullført videregående opplæring. Med dette menes: 1. studieforberedende videregående opplæring 2. yrkesfaglig videregående opplæring, fag- og svennebrev Nivå C Vitnemål for fullført annen utdanning ut over videregående opplæringsnivå enn nivå D og E, dette gjelder 1. utdanning med en varighet på minst ett år 2. yrkesopplæring med særlig struktur som går utover det som kreves i nivå B Nivå D Vitnemål for fullført høyere utdanning med en varighet på minst tre år og høyst fire år ved et universitet eller annen høyere utdanningsinstitusjon. Utdanningen kan uttrykkes i et tilsvarende antall studiepoeng (ECTS). Niva E Vitnemål for fullført høyere utdanning med en varighet på minst fire år ved et universitet eller annen høyere utdanningsinstitusjon. Utdanningen kan uttrykkes i et tilsvarende antall studiepoeng (ECTS).</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="3-2-likebehandling-av-kvalifikasjonsbevis">§ 3-2. Likebehandling av kvalifikasjonsbevis</h4>
 <p>Andre kvalifikasjonsbevis enn de som er nevnt i § 3-1 , skal likestilles med bevis etter den bestemmelsen dersom følgende krav oppfylles:</p>
 <p>a. kvalifikasjonsbeviset er utstedt av en ansvarlig myndighet i en EØS-stat og har gitt søker rett til å utøve yrket der, og
@@ -155,7 +414,7 @@ b. opplæringen er på tilsvarende nivå i en annen EØS-stat eller Sveits.</p>
 <p>I yrker hvor det kreves kvalifikasjoner med høyere utdanning med minst fire års utdanning, som nevnt i § 3-1 nivå E, kan en yrkesutøver med kvalifikasjoner som kursbevis, som nevnt i § 3-1 nivå A, nektes adgang til å utøve yrket.</p>
 <p>En yrkesutøver med yrkeskvalifikasjoner fra tredjeland kan få tilsvarende rett til å utøve yrket i Norge. Dette gjelder likevel ikke for yrkesutøver som har utdanning fra hjemstaten som nevnt under nivå A i § 3-1 . Videre gjelder det ikke for yrker i Norge hvor kravet er som nevnt under nivå A i § 3-1 . Reglene i andre til femte ledd gjelder tilsvarende for yrkesutøver med yrkeskvalifikasjoner fra tredjeland.</p>
 <p>Den ansvarlige myndigheten kan avslå søknad fra yrkesutøver med yrkeskvalifikasjoner fra tredjeland dersom hensynet til offentlig helse og sikkerhet tilsier det.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="3-4-utligningstiltak">§ 3-4. Utligningstiltak <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den ansvarlige myndigheten kan pålegge yrkesutøveren å fullføre en prøveperiode i inntil tre år eller bestå en egnethetsprøve etter § 8-7 og § 8-8 , når:</p>
 <p>a. innholdet i yrkesutøverens utdanning er vesentlig forskjellig fra innholdet i den norske utdanningen, eller
@@ -164,7 +423,7 @@ b. yrket i Norge omfatter regulerte yrkesaktiviteter som ikke inngår i en samme
 <p>For en yrkesutøver med yrkeskvalifikasjoner fra tredjeland som har en oppholdstillatelse i Norge, skal den ansvarlige myndigheten opplyse om mulige utligningstiltak som prøveperiode, egnethetstest eller kompletterende utdanning i den grad slike tiltak er tilgjengelige og anses hensiktsmessige, og kan utligne den vesentlige forskjellen.</p>
 <p>Når vilkårene i første ledd bokstav a eller b er oppfylt, kan den ansvarlige myndigheten avslå en søknad fra yrkesutøver med yrkeskvalifikasjoner fra et tredjeland.</p>
 <p>En prøveperiode for yrkesutøver med yrkeskvalifikasjoner fra tredjeland kan ikke være lenger enn to år.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="3-5-unntak-fra-yrkesutvers-valgfrihet-ved-utligningstiltak">§ 3-5. Unntak fra yrkesutøvers valgfrihet ved utligningstiltak <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Yrkesutøveren kan velge mellom en prøveperiode eller en egnethetsprøve. Dersom det er nødvendig, kan det gjøres unntak fra yrkesutøverens valgfrihet i følgende tilfeller:</p>
 <p>a. utøvelsen av yrket krever særlig kjennskap til nasjonal rett, og yrket består i vesentlig grad av å gi råd og veiledning om nasjonal rett,
@@ -174,14 +433,14 @@ d. yrkesutøver med kvalifikasjoner vist med attest med fullført videregående 
 e. yrkesutøver som omfattes av forskrift om utførelse av arbeid, bruk av arbeidsutstyr og tilhørende tekniske krav kapittel 26 om sikkerhet og helse ved arbeid under vann eller økt omgivende trykk.</p>
 <p>Dersom yrkesutøveren innehar kursbevis som nevnt i § 3-1 nivå A, men hvor yrket i Norge krever kvalifikasjoner på nivå D, kan den ansvarlige myndigheten pålegge yrkesutøveren å utføre både prøveperiode og egnethetsprøve.</p>
 <p>Adgangen til å velge mellom prøveperiode og egnethetsprøve gjelder ikke for yrkesutøver med yrkeskvalifikasjoner fra tredjeland.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="3-6-srlige-krav-som-stilles-til-vedtak-om-utligningstiltak">§ 3-6. Særlige krav som stilles til vedtak om utligningstiltak <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Før vedtak om utligningstiltak treffes, skal den ansvarlige myndigheten vurdere om den kunnskap som yrkesutøveren har ervervet ved sin yrkeserfaring eller livslange læring, helt eller delvis utligner den vesentlige forskjellen fra utdanningen som kreves i Norge.</p>
 <p>Vedtak om utligningstiltak skal begrunnes og den ansvarlige myndigheten skal informere yrkesutøveren om</p>
 <p>a. hvilket kvalifikasjonsnivå som kreves for å utføre yrket og hvilket kvalifikasjonsnivå yrkesutøver har i henhold til § 3-1 , og
 b. hvilke vesentlige forskjeller som ble lagt til grunn for vurderingen og begrunnelse for hvorfor forskjellene ikke kan bli avhjulpet av den kunnskapen som yrkesutøveren har ervervet ved sin yrkeserfaring eller livslang læring.</p>
 <p>Yrkesutøveren skal gis mulighet til å ta egnethetsprøve senest seks måneder etter vedtaket, der det ikke kreves prøveperiode.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="3-7-delvis-adgang-til-et-yrke-ved-etablering">§ 3-7. Delvis adgang til et yrke ved etablering</h4>
 <p>Den ansvarlige myndigheten kan, etter en individuell vurdering, gi yrkesutøveren delvis adgang til et yrke når:</p>
 <p>a. yrkesutøveren er fullt ut kvalifisert til å utøve yrket i etableringsstaten,
@@ -234,7 +493,7 @@ b. fjellfører.</p>
 <h4 id="6-3-ansvarlig-myndighet-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-3. Ansvarlig myndighet for behandling av profesjonskort hvor Norge er etableringsstat <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-6-3.html" title="Endringshistorikk for § 6-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den ansvarlige myndigheten for europeisk profesjonskort er den myndighet som har ansvar for godkjenning av yrkeskvalifikasjonene for det aktuelle yrket. Oppgaven kan delegeres til en annen ansvarlig myndighet.</p>
 <p>Direktoratet for høyere utdanning og kompetanse er ansvarlig myndighet ved behandling av profesjonskort for ikke-lovregulerte yrker.</p>
-<p><em>Endret ved forskrift 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</p>
 <h4 id="6-4-generelle-regler-for-behandling-av-profesjonskort-hvor-norge-er-etableringsstat">§ 6-4. Generelle regler for behandling av profesjonskort hvor Norge er etableringsstat</h4>
 <p>Den ansvarlig myndigheten skal behandle profesjonskort via IMI.</p>
 <p>Den ansvarlige myndigheten skal innen en uke bekrefte at søknaden om profesjonskort er mottatt, og opplyse om manglende dokumenter.</p>
@@ -288,7 +547,7 @@ f. bevis for yrkesutøvers finansielle stilling,
 g. bevis for at yrkesutøver ikke midlertidig eller endelig er frakjent retten til å utøve yrket eller dømt for noe straffbart forhold.</p>
 <p>Den ansvarlige myndigheten kan kreve at søkeren innhenter bekreftelse på ektheten av utstedte attester og kvalifikasjonsbevis.</p>
 <p>Personer som er innvilget beskyttelse i Norge kan ikke pålegges å ta kontakt med hjemlandets myndigheter dersom dette kan komme i konflikt med deres beskyttelsesbehov.</p>
-<p><em>Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endret ved forskrift 8 sep 2021 nr. 2753 (i kraft 1 jan 2022).</p>
 <h4 id="8-2-generelle-saksbehandlingsfrister-ved-sknad-om-etablering">§ 8-2. Generelle saksbehandlingsfrister ved søknad om etablering</h4>
 <p>Den ansvarlige myndigheten skal bekrefte mottak av søknaden innen en måned etter at den er mottatt, og opplyse om eventuelle manglende dokumenter eller mangler ved søknaden.</p>
 <p>Søknaden skal behandles innen tre måneder etter at søknaden er komplett. For yrker som omfattes av kapittel 3 og 4, kan fristen forlenges med en måned.</p>
@@ -315,32 +574,32 @@ g. bevis for at yrkesutøver ikke midlertidig eller endelig er frakjent retten t
 <h4 id="9-1-assistansesenter">§ 9-1. Assistansesenter <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Assistansesenteret skal gi yrkesutøvere og assistansesentre i andre EØS-stater informasjon om nasjonal lovgivning som gjelder for lovregulerte yrker og utøvelsen av disse, og der det er relevant, yrkesetiske regler.</p>
 <p>Direktoratet for høyere utdanning og kompetanse er assistansesenter i Norge.</p>
-<p><em>Endret ved forskrift 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</p>
 <h4 id="9-2-statistikk">§ 9-2. Statistikk <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kunnskapsdepartementet kan be om statistikkrapportering. Statistikkrapportering kan blant annet innebære antall søknader, innvilgelser og avslag, samt søkerland og saksbehandlingstid etter yrkeskvalifikasjonsloven og denne forskriften. Departementet kan gi nærmere retningslinjer for innholdet i statistikkrapporteringen. Direktoratet for høyere utdanning og kompetanse skal innhente statistikk fra de ansvarlige myndigheter.</p>
-<p><em>Endret ved forskrifter 8 sep 2021 nr. 2753 (i kraft 1 jan 2022), 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 8 sep 2021 nr. 2753 (i kraft 1 jan 2022), 16 des 2022 nr. 2323 (i kraft 1 jan 2023).</p>
 <h2 id="kapittel-10-forholdsmessighetsvurdering-ved-regulering-av-yrker">Kapittel 10. Forholdsmessighetsvurdering ved regulering av yrker</h2>
 <p>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-1-formal-og-virkeomrade">§ 10-1. Formål og virkeområde</h4>
 <p>Formålet med dette kapittelet er å gi rammer for gjennomføringen av forholdsmessighetsvurderinger før innføring av nye, eller endringer av eksisterende, regler som begrenser adgangen til, eller utøvelsen av, et lovregulert yrke.</p>
 <p>Kapittelet gjelder for yrker som omfattes av yrkeskvalifikasjonsloven , helsepersonelloven , spesialistforskriften og dyrehelsepersonelloven .</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-2-krav-om-forholdsmessighetsvurdering">§ 10-2. Krav om forholdsmessighetsvurdering <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-10-2.html" title="Endringshistorikk for § 10-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den ansvarlige myndigheten skal foreta en forholdsmessighetsvurdering før det vedtas nye, eller ved endring av eksisterende, regler som begrenser adgangen til et yrke eller utøvelsen av et yrke som omfattes av yrkeskvalifikasjonsloven .</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-3-krav-til-forholdsmessighetsvurderingen">§ 10-3. Krav til forholdsmessighetsvurderingen <a class="para-history" href="../historikk/forskrift-2017-12-22-2384/para-10-3.html" title="Endringshistorikk for § 10-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forholdsmessighetsvurderingen skal</p>
 <p>a. stå i forhold til den foreslåtte regelen og dens karakter, innhold og virkning,
 b. følges av en beskrivelse som er tilstrekkelig detaljert til at det kan vurderes om forholdsmessighetsprinsippet er overholdt,
 c. understøttes av kvalitative og, når det er mulig og relevant, kvantitative opplysninger og
 d. skje på en objektiv og uavhengig måte.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-4-krav-til-regulering">§ 10-4. Krav til regulering</h4>
 <p>Den ansvarlige myndigheten skal sikre at forslaget er forenlig med følgende prinsipper:</p>
 <p>a. kravene må verken direkte eller indirekte være diskriminerende på grunnlag av nasjonalitet eller bosted,
 b. kravene må være begrunnet ut fra formål i allmenhetens interesse, jf. § 10-5 og
 c. forholdsmessighetsvurderingen skal vise at de foreslåtte kravene er egnet til å sikre at det fastsatte formålet nås, og at kravene ikke går lenger enn det som er nødvendig.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-5-formal-i-allmenhetens-interesse">§ 10-5. Formål i allmenhetens interesse</h4>
 <p>Formål i allmennhetens interesse som kan begrunne et forslag til regler er blant annet:</p>
 <p>a. offentlig orden, offentlig sikkerhet eller folkehelsen,
@@ -355,7 +614,7 @@ i. dyrehelse,
 j. immaterialrettigheter og
 k. sikring og bevaring av den nasjonale historiske og kunstneriske arven, sosialpolitiske mål og kulturpolitiske mål.</p>
 <p>Økonomiske eller administrative hensyn kan ikke begrunne en begrensning av adgangen til, eller utøvelsen av, et lovregulert yrke.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-6-vurdering-av-forholdsmessighet">§ 10-6. Vurdering av forholdsmessighet</h4>
 <p>I forholdsmessighetsvurderingen etter § 10-4 bokstav c skal myndigheten med utgangspunkt i formål i allmenhetens interesse vurdere:</p>
 <p>a. arten av risiko som er knyttet til de ønskede målene, særlig risikoene for mottakerne av tjenestene, herunder forbrukere, yrkesutøvere og tredjeparter,
@@ -364,7 +623,7 @@ c. bestemmelsens egnethet, om den er hensiktsmessig for å nå det ønskede mål
 d. virkningen for fri bevegelse av personer og tjenester, forbrukernes valgmuligheter og tjenestens kvalitet,
 e. muligheten for å bruke mindre restriktive midler for å nå målet i allmennhetens interesse, og
 f. om de nye eller endrede reglene hver for seg bidrar til, og er nødvendige for, å nå formålet i allmenhetens interesse når de kombineres med andre krav som begrenser adgangen til yrket.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-7-momenter-i-forholdsmessighetsvurderingen-nar-nye-eller-endrede-regler-kombineres-med-andre-krav-som-begrenser-adgangen-til-yrket">§ 10-7. Momenter i forholdsmessighetsvurderingen når nye eller endrede regler kombineres med andre krav som begrenser adgangen til yrket</h4>
 <p>I forholdsmessighetsvurderingen etter § 10-6 bokstav f skal det tas særskilt hensyn til:</p>
 <p>a. om yrket reguleres ved en beskyttet yrkestittel, reservert yrkesvirksomhet eller annen måte,
@@ -379,7 +638,7 @@ i. krav til forsikringsdekning,
 j. språkkrav, i det omfang de er nødvendige for å utøve yrket,
 k. krav om faste minstesatser eller minimumssatser og
 l. krav som gjelder markedsføring.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-8-andre-relevante-vurderinger-av-forholdsmessighet">§ 10-8. Andre relevante vurderinger av forholdsmessighet</h4>
 <p>Når det er relevant, skal myndigheten også ta hensyn til følgende i forholdsmessighetsvurderingen:</p>
 <p>a. hvordan kravet er knyttet til den yrkesvirksomhet som omfattes av yrket, eller er forbeholdt yrket og den yrkeskvalifikasjonen som kreves,
@@ -388,32 +647,32 @@ c. muligheten til å tilegne seg yrkeskvalifikasjonen på alternative måter,
 d. om yrkesvirksomhet som er forbeholdt visse yrker, kan eller ikke kan utøves sammen med andre yrker,
 e. graden av selvstendighet ved utøvelse av yrket og
 f. vitenskapelig og teknisk utvikling som påvirker forbrukernes mulighet til å vurdere kvaliteten på tjenesten som ytes av yrkesutøveren.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-9-forholdsmessighetsvurdering-ved-midlertidig-begrensning-i-retten-til-a-utve-et-yrke">§ 10-9. Forholdsmessighetsvurdering ved midlertidig begrensning i retten til å utøve et yrke</h4>
 <p>Om et forslag til regler medfører begrensninger i retten til å utøve yrket midlertidig, skal den ansvarlige myndigheten foreta en forholdsmessighetsvurdering av disse begrensningene.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-10-forholdsmessighetsvurdering-ved-regulering-av-helseyrker">§ 10-10. Forholdsmessighetsvurdering ved regulering av helseyrker</h4>
 <p>Ved regulering av helseyrker som har konsekvenser for pasientsikkerheten, skal myndigheten særlig ta hensyn til målet om å sikre et høyt nivå for vern av menneskers helse.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="10-11-informasjonsutveksling">§ 10-11. Informasjonsutveksling</h4>
 <p>Den ansvarlige myndigheten skal sende forholdsmessighetsvurderingen til Kunnskapsdepartementet eller den myndighet departementet bestemmer.</p>
 <p>Kunnskapsdepartementet eller den myndighet departementet bestemmer, skal ta imot og sende forholdsmessighetsvurderingen og forslaget til regler til andre EØS-stater, EFTAs overvåkingsorgan og Europakommisjonen, slik at de gis mulighet til å kommentere vurderingen og forslaget til regulering.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h2 id="kapittel-11-godkjenning-av-yrkeskvalifikasjoner-fra-det-forente-kongeriket-storbritannia-og-nord-irland">Kapittel 11. Godkjenning av yrkeskvalifikasjoner fra det forente kongeriket Storbritannia og Nord-Irland</h2>
 <p>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-1-formal">§ 11-1. Formål</h4>
 <p>Formålet med dette kapittelet er å legge til rette for godkjenning av yrkeskvalifikasjoner fra Storbritannia.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-2-virkeomrade">§ 11-2. Virkeområde</h4>
 <p>Bestemmelsene i dette kapittelet gjelder for yrkesutøvere som har ervervet yrkeskvalifikasjoner i Storbritannia og som søker om yrkesgodkjenning til et yrke som er omfattet av yrkeskvalifikasjonsloven . Bestemmelsene gjelder ikke for yrkesutøvere som omfattes av helsepersonelloven eller dyrehelsepersonelloven .</p>
 <p>For borgere fra EU/EØS som har ervervet sine yrkeskvalifikasjoner fra Storbritannia før 1. januar 2021, gjelder bestemmelsene i kapittel 3 til 9.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-3-virkning-av-godkjenning">§ 11-3. Virkning av godkjenning</h4>
 <p>En yrkesutøver som får godkjenning eller autorisasjon etter dette kapittelet har rett til å bruke yrkestittelen og utøve et lovregulert yrke på lik linje med yrkesutøveren som har ervervet sine yrkeskvalifikasjoner i Norge.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-4-rett-til-godkjenning-av-yrkeskvalifikasjoner-fra-storbritannia">§ 11-4. Rett til godkjenning av yrkeskvalifikasjoner fra Storbritannia</h4>
 <p>Den ansvarlige myndigheten skal godkjenne yrkeskvalifikasjonene til en yrkesutøver som søker om godkjenning i Norge, hvis yrkesutøveren har tilsvarende yrkeskvalifikasjoner for samme yrke i Storbritannia.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-5-utlikningstiltak">§ 11-5. Utlikningstiltak</h4>
 <p>Den ansvarlige myndigheten kan pålegge yrkesutøveren å fullføre en prøveperiode eller bestå en egnethetsprøve, når</p>
 <p>a. det er en vesentlig forskjell mellom yrkesutøverens yrkeskvalifikasjoner og de kvalifikasjonene som kreves for å utøve yrket i Norge, eller
@@ -421,36 +680,36 @@ b. yrket i Norge omfatter en eller flere former for yrkesvirksomheter som omfatt
 <p>Bestemmelsene i § 3-6 første ledd, § 8-7 og § 8-8 gjelder tilsvarende.</p>
 <p>Den ansvarlige myndigheten kan bestemme hvilket utlikningstiltak yrkesutøveren skal gjennomføre.</p>
 <p>Den ansvarlige myndigheten skal avholde egnethetsprøve med en rimelig hyppighet og minst en gang i året.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-6-unntak-fra-retten-til-godkjenning-eller-autorisasjon">§ 11-6. Unntak fra retten til godkjenning eller autorisasjon</h4>
 <p>Den ansvarlige myndigheten kan nekte godkjenning av yrkeskvalifikasjoner for samme yrket dersom</p>
 <p>a. yrkesutøveren unnlater eller nekter å gjennomføre utlikningstiltak etter § 11-5,
 b. utlikningstiltaket etter § 11-5 vil innebære å kreve at yrkesutøveren må gjennomføre en yrkesutdanning som tilsvarer den norske utdanningen for yrket,
 c. adgang til, og utøvelse av, et lovregulert yrke i Norge er omfattet av andre vilkår enn besittelse av bestemte yrkeskvalifikasjoner, og yrkesutøveren ikke oppfyller disse vilkårene, for eksempel alderskrav.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-7-saksbehandlingsregler">§ 11-7. Saksbehandlingsregler</h4>
 <p>Den ansvarlige myndigheten skal bekrefte mottak av søknad innen en måned etter at den er mottatt, og opplyse om eventuelle manglende dokumenter eller mangler ved søknaden.</p>
 <p>Søknaden skal behandles innen fire måneder etter at søknaden er komplett.</p>
 <p>Den ansvarlige myndigheten kan kreve at yrkesutøveren dokumenterer sine yrkeskvalifikasjoner, men ikke mer enn det som er nødvendig for å avgjøre om yrkesutøveren har tilsvarende yrkeskvalifikasjoner som de som kreves i Norge.</p>
 <p>Kopier av dokumenter skal anses som tilstrekkelig dokumentasjon, med mindre det anses nødvendig å kreve originaldokumenter for å beskytte godkjenningsprosessens integritet. Den ansvarlige myndigheten kan kreve at kopiene er bekreftet etter nasjonale regler.</p>
 <p>Den ansvarlige myndigheten kan dele personopplysninger, inkludert personopplysninger som er nevnt i personvernforordningen artikkel 9 og 10 , om en yrkesutøver med ansvarlig myndighet i Storbritannia.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-8-andre-bestemmelser">§ 11-8. Andre bestemmelser</h4>
 <p>Den ansvarlige myndigheten skal gjøre tilgjengelig for yrkesutøvere opplysninger om de yrkeskvalifikasjonene som kreves for å utøve det lovregulerte yrket. Den ansvarlige myndigheten skal også gjøre tilgjengelig opplysninger som forklarer eventuelle andre vilkår som gjelder for utøvelsen av det lovregulerte yrket.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h4 id="11-9-krav-til-sprak">§ 11-9. Krav til språk</h4>
 <p>Den ansvarlige myndigheten kan kreve at yrkesutøveren dokumenterer å ha språkkunnskapene som er nødvendige for å utøve det lovregulerte yrket. Alle språktester skal stå i rimelig forhold til yrkesvirksomheten som skal utøves.</p>
-<p><em>Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023).</p>
 <h2 id="kapittel-12-avsluttende-bestemmelser">Kapittel 12. Avsluttende bestemmelser</h2>
 <p>Endret ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023, tidligere kapittel 10).</p>
 <h4 id="12-1-ikrafttredelse">§ 12-1. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. januar 2018 med unntak av bestemmelsene i kapittel 5 , 6 og 7, som trer i kraft senere. 1</p>
-<p><em>Endret ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023, tidligere § 10-1).
-1 Kapittel 6 og 7 i kraft 1 mars 2019 ved vedtak 1 mars 2019 nr. 161 .</em></p>
+<p class="note">Endret ved forskrift 28 nov 2023 nr. 1934 (i kraft 1 des 2023, tidligere § 10-1).
+1 Kapittel 6 og 7 i kraft 1 mars 2019 ved vedtak 1 mars 2019 nr. 161 .</p>
 <h4 id="12-2-gjennomfring-av-kommisjonens-gjennomfringsforordning-2015983-og-20201190">§ 12-2. Gjennomføring av Kommisjonens gjennomføringsforordning 2015/983 og 2020/1190</h4>
 <p>EØS-avtalens vedlegg VII nr. 1b Kommisjonens gjennomføringsforordning (EU) 2015/983 av 24. juni 2015 om prosedyren for utstedelse av europeisk profesjonskort og bruk av varslingsmekanismer i henhold til Europaparlamentets og Rådets direktiv 2005/36/EF gjelder som norsk forskrift med de generelle tilpasninger som følger av EØS-avtalens protokoll 1 og EØS-avtalen for øvrig.</p>
 <p>EØS-avtalens vedlegg VII nr. 1b Kommisjonens gjennomføringsforordning (EU) 2020/1190 av 11. august 2020 om endring av Kommisjonens gjennomføringsforordning (EU) 2015/983 om prosedyren for utstedelse av europeisk profesjonskort og bruk av varslingsmekanismer i henhold til Europaparlamentets og Rådets direktiv 2005/36/EF gjelder som norsk forskrift med de generelle tilpasninger som følger av EØS-avtalens protokoll 1 og EØS-avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 28 jan 2022 nr. 142 , 28 nov 2023 nr. 1934 (i kraft 1 des 2023, tidligere § 10-2).</em></p>
+<p class="note">Endret ved forskrifter 28 jan 2022 nr. 142 , 28 nov 2023 nr. 1934 (i kraft 1 des 2023, tidligere § 10-2).</p>
 <h2 id="vedlegg-1-virksomhet-knyttet-til-kategoriene-av-yrkeserfaring-som-vist-til-i-4-2-til-4-4-og-yrkeskvalifikasjonsdirektivets-artikkel-17-18-og-19">Vedlegg 1: Virksomhet knyttet til kategoriene av yrkeserfaring som vist til i § 4-2 til § 4-4 og yrkeskvalifikasjonsdirektivets artikkel 17, 18 og 19</h2>
 <h3 id="liste-inringshovedgrupper-som-omfattes-av-direktiv-64427ef-endret-ved-direktiv-6977ef-og-av-direktiv-68366ef-og-82489ef">Liste INæringshovedgrupper som omfattes av direktiv 64/427/EØF, endret ved direktiv 69/77/EØF, og av direktiv 68/366/EØF og 82/489/EØF</h3>
 <h4 id="1liberaliseringsdirektiv-64429efnice-nomenklatur-tilsvarer-nrings-hovedgruppene-2340-isic">1(liberaliseringsdirektiv 64/429/EØF)NICE-nomenklatur (tilsvarer Nærings- hovedgruppene 23–40 ISIC)</h4>
@@ -774,6 +1033,8 @@ c. adgang til, og utøvelse av, et lovregulert yrke i Norge er omfattet av andre
 <p>Forskriften trer i kraft 1. januar 2018, med unntak av bestemmelsene i kapittel 5 om godkjenning etter felles opplæringsramme og opplæringsprøve, 6 om europeisk profesjonskort og kapittel 7 om varslingsplikt hvor yrkesutøver har fått begrenset retten til å utøve yrket. De bestemmelsene vil tre i kraft senere. Dette fordi de gjennomfører bestemmelser i direktiv 2013/55/EU og som ikke kan tre i kraft før endringen i EØS-avtalen som tar inn det direktivet har trådt i kraft.</p>
 <p>Til § 10-2 – Gjennomføring av Kommisjonens gjennomføringsforordning 2015/983</p>
 <p>Det er i forskriften lagt inn en henvisning til kommisjonens gjennomføringsforordning 2015/983 om europeisk profesjonskort og varslingsmekanismer. I forordningen er det nærmere regler for den ansvarlige myndigheten til profesjonskort og varslingsmekanismer. Forordningen gjelder som norsk forskrift.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,73 +19,164 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-03-03-704.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om offentlig kontroll på matområdet" href="../feeds/forskrift-2020-03-03-704.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om offentlig kontroll på matområdet</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-03-03-704</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementetLandbruks- og matdepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-04-07</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-18-1071</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-03-03-704" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-organisering-planlegging-og-gjennomfring-av-offentlig-kontroll-og-verifisering-av-virksomheter-og-enkeltpersoners-etterlevelse-av-regelverket-for-mat-dyrehelse-og-dyrevelferd">§ 2. Organisering, planlegging og gjennomføring av offentlig kontroll og verifisering av virksomheter og enkeltpersoners etterlevelse av regelverket for mat, dyrehelse og dyrevelferd</a></li>
+<li class="lvl3"><a href="#2a-analysemetoder-for-prver-tatt-for-a-verifisere-virksomhetens-overholdelse-av-mikrobiologiske-kriterier-forordning-ef-20732005">§ 2a. Analysemetoder for prøver tatt for å verifisere virksomhetens overholdelse av mikrobiologiske kriterier, forordning (EF) 2073/2005</a></li>
+<li class="lvl3"><a href="#3-tilsyn-og-vedtak">§ 3. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#4-ikrafttredelse">§ 4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2017625">Forordning (EU) nr. 2017/625</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningeu-2017625av-15-mars-2017om-offentlig-kontroll-og-annen-offentlig-virksomhet-som-gjennomfres-for-a-sikre-anvendelsen-av-nringsmiddel-og-forvareregelverket-samt-regler-for-dyrs-helse-og-velferd-plantehelse-og-plantevernmidler-om-endring-av-europaparlaments-og-radsforordningef-nr-9992001-efnr-3962005-efnr-10692009-efnr-11072009-eunr-11512012-eunr-6522014-eu2016429og-eu20162031-radsforordningef-nr-12005og-efnr-10992009samt-radsdirektiv9858ef199974ef200743ef2008119efog2008120efog-om-oppheving-av-europaparlaments-og-radsforordningef-nr-8542004og-efnr-8822004-radsdirektiv89608ef89662ef90425ef91496ef9623ef9693efog9778efog-radsbeslutning92438efforordningen-om-offentlig-kontroll">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EU) 2017/625av 15. mars 2017om offentlig kontroll og annen offentlig virksomhet som gjennomføres for å sikre anvendelsen av næringsmiddel- og fôrvareregelverket samt regler for dyrs helse og velferd, plantehelse og plantevernmidler, om endring av europaparlaments- og rådsforordning(EF) nr. 999/2001, (EF)nr. 396/2005, (EF)nr. 1069/2009, (EF)nr. 1107/2009, (EU)nr. 1151/2012, (EU)nr. 652/2014, (EU)2016/429og (EU)2016/2031, rådsforordning(EF) nr. 1/2005og (EF)nr. 1099/2009samt rådsdirektiv98/58/EF,1999/74/EF,2007/43/EF,2008/119/EFog2008/120/EFog om oppheving av europaparlaments- og rådsforordning(EF) nr. 854/2004og (EF)nr. 882/2004, rådsdirektiv89/608/EØF,89/662/EØF,90/425/EØF,91/496/EØF,96/23/EF,96/93/EFog97/78/EFog rådsbeslutning92/438/EØF(forordningen om offentlig kontroll)</a></li>
+<li class="lvl5"><a href="#avdeling-iformal-virkeomrade-og-definisjoner">AVDELING IFORMÅL, VIRKEOMRÅDE OG DEFINISJONER</a></li>
+<li class="lvl5"><a href="#avdeling-iioffentlig-kontroll-og-annen-offentlig-virksomhet-i-medlemsstatene">Avdeling IIOFFENTLIG KONTROLL OG ANNEN OFFENTLIG VIRKSOMHET I MEDLEMSSTATENE</a></li>
+<li class="lvl5"><a href="#avdeling-iiireferanselaboratorier-og-referansesentre">AVDELING IIIREFERANSELABORATORIER OG REFERANSESENTRE</a></li>
+<li class="lvl5"><a href="#avdeling-ivadministrativ-bistand-og-samarbeid">AVDELING IVADMINISTRATIV BISTAND OG SAMARBEID</a></li>
+<li class="lvl5"><a href="#avdeling-vplanlegging-og-rapportering">AVDELING VPLANLEGGING OG RAPPORTERING</a></li>
+<li class="lvl5"><a href="#avdeling-viunionens-virksomhet">AVDELING VIUNIONENS VIRKSOMHET</a></li>
+<li class="lvl5"><a href="#avdeling-viihandhevingstiltak">AVDELING VIIHÅNDHEVINGSTILTAK</a></li>
+<li class="lvl5"><a href="#avdeling-viiifelles-bestemmelser">AVDELING VIIIFELLES BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-iterritorier-nevnt-i-artikkel-3-nr-40-unntatt-i-forbindelse-med-anvendelsen-av-artikkel-1-nr-2-bokstav-g">VEDLEGG ITERRITORIER NEVNT I ARTIKKEL 3 NR. 40, UNNTATT I FORBINDELSE MED ANVENDELSEN AV ARTIKKEL 1 NR. 2 BOKSTAV G)</a></li>
+<li class="lvl5"><a href="#vedlegg-iiopplring-av-vedkommende-myndigheters-personale">VEDLEGG IIOPPLÆRING AV VEDKOMMENDE MYNDIGHETERS PERSONALE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiikarakterisering-av-analysemetoder">VEDLEGG IIIKARAKTERISERING AV ANALYSEMETODER</a></li>
+<li class="lvl5"><a href="#vedlegg-iv">VEDLEGG IV</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellene-nevnt-i-artikkel-146-nr-2">VEDLEGG VSAMMENLIGNINGSTABELLENE NEVNT I ARTIKKEL 146 NR. 2</a></li>
+<li class="lvl3"><a href="#forordningeu-20242463">Forordning(EU) 2024/2463</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20242463av-12-september-2024om-fastsettelse-av-analysemetoder-for-offentlig-kontroll-som-gjennomfres-for-a-verifisere-at-driftsansvarlige-for-nringsmiddelforetak-overholder-forordningef-nr-20732005">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2024/2463av 12. september 2024om fastsettelse av analysemetoder for offentlig kontroll som gjennomføres for å verifisere at driftsansvarlige for næringsmiddelforetak overholder forordning(EF) nr. 2073/2005</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-18-1071.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-03-03-704.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om offentlig kontroll for å sikre etterlevelse av regelverket for mat, fôr, plantevernmidler, dyrehelse og dyrevelferd</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-03-03-704.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-03-03-704 <code>forskrift/2020-03-03-704</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om offentlig kontroll på matområdet</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementetLandbruks- og matdepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>07.04.2020</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-18-1071 <code>forskrift/2025-06-18-1071</code> fra 18.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-03-03-704" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-organisering-planlegging-og-gjennomfring-av-offentlig-kontroll-og-verifisering-av-virksomheter-og-enkeltpersoners-etterlevelse-av-regelverket-for-mat-dyrehelse-og-dyrevelferd">§ 2. Organisering, planlegging og gjennomføring av offentlig kontroll og verifisering av virksomheter og enkeltpersoners etterlevelse av regelverket for mat, dyrehelse og dyrevelferd</a></li>
+<li class="lvl3"><a href="#2a-analysemetoder-for-prver-tatt-for-a-verifisere-virksomhetens-overholdelse-av-mikrobiologiske-kriterier-forordning-ef-20732005">§ 2a. Analysemetoder for prøver tatt for å verifisere virksomhetens overholdelse av mikrobiologiske kriterier, forordning (EF) 2073/2005</a></li>
+<li class="lvl3"><a href="#3-tilsyn-og-vedtak">§ 3. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#4-ikrafttredelse">§ 4. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2017625">Forordning (EU) nr. 2017/625</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningeu-2017625av-15-mars-2017om-offentlig-kontroll-og-annen-offentlig-virksomhet-som-gjennomfres-for-a-sikre-anvendelsen-av-nringsmiddel-og-forvareregelverket-samt-regler-for-dyrs-helse-og-velferd-plantehelse-og-plantevernmidler-om-endring-av-europaparlaments-og-radsforordningef-nr-9992001-efnr-3962005-efnr-10692009-efnr-11072009-eunr-11512012-eunr-6522014-eu2016429og-eu20162031-radsforordningef-nr-12005og-efnr-10992009samt-radsdirektiv9858ef199974ef200743ef2008119efog2008120efog-om-oppheving-av-europaparlaments-og-radsforordningef-nr-8542004og-efnr-8822004-radsdirektiv89608ef89662ef90425ef91496ef9623ef9693efog9778efog-radsbeslutning92438efforordningen-om-offentlig-kontroll">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EU) 2017/625av 15. mars 2017om offentlig kontroll og annen offentlig virksomhet som gjennomføres for å sikre anvendelsen av næringsmiddel- og fôrvareregelverket samt regler for dyrs helse og velferd, plantehelse og plantevernmidler, om endring av europaparlaments- og rådsforordning(EF) nr. 999/2001, (EF)nr. 396/2005, (EF)nr. 1069/2009, (EF)nr. 1107/2009, (EU)nr. 1151/2012, (EU)nr. 652/2014, (EU)2016/429og (EU)2016/2031, rådsforordning(EF) nr. 1/2005og (EF)nr. 1099/2009samt rådsdirektiv98/58/EF,1999/74/EF,2007/43/EF,2008/119/EFog2008/120/EFog om oppheving av europaparlaments- og rådsforordning(EF) nr. 854/2004og (EF)nr. 882/2004, rådsdirektiv89/608/EØF,89/662/EØF,90/425/EØF,91/496/EØF,96/23/EF,96/93/EFog97/78/EFog rådsbeslutning92/438/EØF(forordningen om offentlig kontroll)</a></li>
+<li class="lvl5"><a href="#avdeling-iformal-virkeomrade-og-definisjoner">AVDELING IFORMÅL, VIRKEOMRÅDE OG DEFINISJONER</a></li>
+<li class="lvl5"><a href="#avdeling-iioffentlig-kontroll-og-annen-offentlig-virksomhet-i-medlemsstatene">Avdeling IIOFFENTLIG KONTROLL OG ANNEN OFFENTLIG VIRKSOMHET I MEDLEMSSTATENE</a></li>
+<li class="lvl5"><a href="#avdeling-iiireferanselaboratorier-og-referansesentre">AVDELING IIIREFERANSELABORATORIER OG REFERANSESENTRE</a></li>
+<li class="lvl5"><a href="#avdeling-ivadministrativ-bistand-og-samarbeid">AVDELING IVADMINISTRATIV BISTAND OG SAMARBEID</a></li>
+<li class="lvl5"><a href="#avdeling-vplanlegging-og-rapportering">AVDELING VPLANLEGGING OG RAPPORTERING</a></li>
+<li class="lvl5"><a href="#avdeling-viunionens-virksomhet">AVDELING VIUNIONENS VIRKSOMHET</a></li>
+<li class="lvl5"><a href="#avdeling-viihandhevingstiltak">AVDELING VIIHÅNDHEVINGSTILTAK</a></li>
+<li class="lvl5"><a href="#avdeling-viiifelles-bestemmelser">AVDELING VIIIFELLES BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-iterritorier-nevnt-i-artikkel-3-nr-40-unntatt-i-forbindelse-med-anvendelsen-av-artikkel-1-nr-2-bokstav-g">VEDLEGG ITERRITORIER NEVNT I ARTIKKEL 3 NR. 40, UNNTATT I FORBINDELSE MED ANVENDELSEN AV ARTIKKEL 1 NR. 2 BOKSTAV G)</a></li>
+<li class="lvl5"><a href="#vedlegg-iiopplring-av-vedkommende-myndigheters-personale">VEDLEGG IIOPPLÆRING AV VEDKOMMENDE MYNDIGHETERS PERSONALE</a></li>
+<li class="lvl5"><a href="#vedlegg-iiikarakterisering-av-analysemetoder">VEDLEGG IIIKARAKTERISERING AV ANALYSEMETODER</a></li>
+<li class="lvl5"><a href="#vedlegg-iv">VEDLEGG IV</a></li>
+<li class="lvl5"><a href="#vedlegg-vsammenligningstabellene-nevnt-i-artikkel-146-nr-2">VEDLEGG VSAMMENLIGNINGSTABELLENE NEVNT I ARTIKKEL 146 NR. 2</a></li>
+<li class="lvl3"><a href="#forordningeu-20242463">Forordning(EU) 2024/2463</a></li>
+<li class="lvl4"><a href="#kommisjonens-gjennomfringsforordningeu-20242463av-12-september-2024om-fastsettelse-av-analysemetoder-for-offentlig-kontroll-som-gjennomfres-for-a-verifisere-at-driftsansvarlige-for-nringsmiddelforetak-overholder-forordningef-nr-20732005">KOMMISJONENS GJENNOMFØRINGSFORORDNING(EU) 2024/2463av 12. september 2024om fastsettelse av analysemetoder for offentlig kontroll som gjennomføres for å verifisere at driftsansvarlige for næringsmiddelforetak overholder forordning(EF) nr. 2073/2005</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-03-03-704.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-03-03-704.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-03-03-704.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-03-03-704.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-03-03-704.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-03-03-704.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-03-03-704.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-03-03-704.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-03-03-704.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-offentlig-kontroll-for-a-sikre-etterlevelse-av-regelverket-for-mat-for-plantevernmidler-dyrehelse-og-dyrevelferd">Forskrift om offentlig kontroll for å sikre etterlevelse av regelverket for mat, fôr, plantevernmidler, dyrehelse og dyrevelferd</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Forskriften gjelder for organisering, planlegging gjennomføring og rapportering av offentlig kontroll og offentlig virksomhet for å verifisere overholdelse av EØS-regler som omfattes av lov om matproduksjon og mattrygghet mv. og lov om dyrevelferd.</p>
 <p>Forskriften gjelder ikke for Svalbard.</p>
 <h3 id="2-organisering-planlegging-og-gjennomfring-av-offentlig-kontroll-og-verifisering-av-virksomheter-og-enkeltpersoners-etterlevelse-av-regelverket-for-mat-dyrehelse-og-dyrevelferd">§ 2. Organisering, planlegging og gjennomføring av offentlig kontroll og verifisering av virksomheter og enkeltpersoners etterlevelse av regelverket for mat, dyrehelse og dyrevelferd</h3>
 <p>EØS-avtalens vedlegg I kapittel I del 1.1 nr. 11b, vedlegg II kapittel XII nr. 164 forordning (EU) 2017/625 om offentlig kontroll og annen offentlig virksomhet som gjennomføres for å sikre anvendelsen av næringsmiddel- og fôrvareregelverket samt regler for dyrs helse og velferd, plantehelse og plantevernmidler, om endring av europaparlaments- og rådsforordning (EF) nr. 999/2001 , (EF) nr. 396/2005 , (EF) nr. 1069/2009 , (EF) nr. 1107/2009 , (EU) nr. 1151/2012 , (EU) nr. 652/2014 , (EU) 2016/429 og (EU) 2016/2031 , rådsforordning (EF) nr. 1/2005 og (EF) nr. 1099/2009 samt rådsdirektiv 98/58/EF , 1999/74/EF , 2007/43/EF , 2008/119/EF og 2008/120/EF og om oppheving av europaparlaments- og rådsforordning (EF) nr. 854/2004 og (EF) nr. 882/2004 , rådsdirektiv 89/608/EØF , 89/662/EØF , 90/425/EØF , 91/496/EØF , 96/23/EF , 96/93/EF og 97/78/EF og rådsbeslutning 92/438/EØF (forordningen om offentlig kontroll), som endret ved forordning (EU) 2019/478 , forordning (EU) 2019/2127 og forordning (EU) 2021/1756 , gjelder som forskrift med de tilpasninger som følger av vedlegg I og II, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 9 juli 2022 nr. 1360 .</em></p>
+<p class="note">Endret ved forskrift 9 juli 2022 nr. 1360 .</p>
 <h3 id="2a-analysemetoder-for-prver-tatt-for-a-verifisere-virksomhetens-overholdelse-av-mikrobiologiske-kriterier-forordning-ef-20732005">§ 2a. Analysemetoder for prøver tatt for å verifisere virksomhetens overholdelse av mikrobiologiske kriterier, forordning (EF) 2073/2005</h3>
 <p>EØS-avtalen forordning (EU) 2024/2463 gjelder som forskrift med de tilpasningene som følger av vedlegg I og II , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 18 juni 2025 nr. 1071 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 juni 2025 nr. 1071 .</p>
 <h3 id="3-tilsyn-og-vedtak">§ 3. Tilsyn og vedtak</h3>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige vedtak for å oppnå etterlevelse av bestemmelser gitt i denne forskriften, jf. matloven § 23 , § 24 , § 25 og § 26 og dyrevelferdsloven § 30 , § 32 , § 33 , § 34 og § 35 .</p>
 <h3 id="4-ikrafttredelse">§ 4. Ikrafttredelse</h3>
@@ -3070,6 +3161,8 @@ d. Artikkel 22 nr. 1, 3, 4, 5, 6 og 7 i direktiv 97/78/EF .</p>
 <p>Denne forordningen er bindende i alle deler og kommer direkte til anvendelse i alle medlemsstater.</p>
 <p><em>4 Ikrafttredelse for EFTA-statene vil skje i henhold til EØS-komiteens beslutning nr. 124/2025 av 13. juni 2025.
 Utferdiget i Brussel 12. september 2024. For Kommisjonen Ursula VON DER LEYEN President</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

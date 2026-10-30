@@ -19,64 +19,155 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2015-05-19-541.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Deklareringsforskriften" href="../feeds/forskrift-2015-05-19-541.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> · <a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> · <a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> · <a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Deklareringsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2015-05-19-541</code></dd>
-<dt>Departement</dt><dd>EnergidepartementetJustis- og beredskapsdepartementetKlima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-11-2493</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2015-05-19-541" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1: Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-geografisk-virkeomrade">§ 1. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-deklarering-av-kjemikalier">Kapittel 2: Deklarering av kjemikalier</a></li>
+<li class="lvl4"><a href="#3-virkeomrade">§ 3. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-plikt-til-a-deklarere-kjemikalier">§ 4. Plikt til å deklarere kjemikalier</a></li>
+<li class="lvl4"><a href="#5-opplysninger-som-deklarasjonen-skal-inneholde">§ 5. Opplysninger som deklarasjonen skal inneholde</a></li>
+<li class="lvl4"><a href="#6-innholdsangivelse">§ 6. Innholdsangivelse</a></li>
+<li class="lvl4"><a href="#7-deklarasjonsnummer-og-sikkerhetsdatablad">§ 7. Deklarasjonsnummer og sikkerhetsdatablad</a></li>
+<li class="lvl4"><a href="#8-oppdatering-av-informasjon">§ 8. Oppdatering av informasjon</a></li>
+<li class="lvl4"><a href="#9-adgang-til-a-gi-utfyllende-regler-om-deklareringsplikt">§ 9. Adgang til å gi utfyllende regler om deklareringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-3-gebyr-for-myndighetenes-kontroll-med-kjemiske-stoffer-og-stoffblandinger">Kapittel 3: Gebyr for myndighetenes kontroll med kjemiske stoffer og stoffblandinger</a></li>
+<li class="lvl4"><a href="#10-gebyr-til-statskassen">§ 10. Gebyr til statskassen</a></li>
+<li class="lvl4"><a href="#11-gebyrsatser">§ 11. Gebyrsatser</a></li>
+<li class="lvl4"><a href="#12-innkreving-og-nedsettelsefrafall-av-gebyr">§ 12. Innkreving og nedsettelse/frafall av gebyr</a></li>
+<li class="lvl4"><a href="#13-adgang-til-a-gi-utfyllende-regler-om-gebyrgrunnlaget">§ 13. Adgang til å gi utfyllende regler om gebyrgrunnlaget</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4: Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#14-unntak">§ 14. Unntak</a></li>
+<li class="lvl4"><a href="#15-tilsyn">§ 15. Tilsyn</a></li>
+<li class="lvl4"><a href="#16-tvangsmulkt-og-forelegg">§ 16. Tvangsmulkt og forelegg</a></li>
+<li class="lvl4"><a href="#17-klage">§ 17. Klage</a></li>
+<li class="lvl4"><a href="#18-straff">§ 18. Straff</a></li>
+<li class="lvl4"><a href="#19-ikrafttredelse-og-overgangsbestemmelser">§ 19. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-11-2493.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-19-541.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om deklarering av kjemikalier til produktregisteret (deklareringsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-05-19-541.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2015-05-19-541 <code>forskrift/2015-05-19-541</code></td></tr>
+<tr><th>Korttittel</th><td>Deklareringsforskriften</td></tr>
+<tr><th>Departement</th><td>EnergidepartementetJustis- og beredskapsdepartementetKlima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.06.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-11-2493 <code>forskrift/2025-12-11-2493</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2015-05-19-541" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1: Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-geografisk-virkeomrade">§ 1. Geografisk virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-deklarering-av-kjemikalier">Kapittel 2: Deklarering av kjemikalier</a></li>
+<li class="lvl4"><a href="#3-virkeomrade">§ 3. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-plikt-til-a-deklarere-kjemikalier">§ 4. Plikt til å deklarere kjemikalier</a></li>
+<li class="lvl4"><a href="#5-opplysninger-som-deklarasjonen-skal-inneholde">§ 5. Opplysninger som deklarasjonen skal inneholde</a></li>
+<li class="lvl4"><a href="#6-innholdsangivelse">§ 6. Innholdsangivelse</a></li>
+<li class="lvl4"><a href="#7-deklarasjonsnummer-og-sikkerhetsdatablad">§ 7. Deklarasjonsnummer og sikkerhetsdatablad</a></li>
+<li class="lvl4"><a href="#8-oppdatering-av-informasjon">§ 8. Oppdatering av informasjon</a></li>
+<li class="lvl4"><a href="#9-adgang-til-a-gi-utfyllende-regler-om-deklareringsplikt">§ 9. Adgang til å gi utfyllende regler om deklareringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-3-gebyr-for-myndighetenes-kontroll-med-kjemiske-stoffer-og-stoffblandinger">Kapittel 3: Gebyr for myndighetenes kontroll med kjemiske stoffer og stoffblandinger</a></li>
+<li class="lvl4"><a href="#10-gebyr-til-statskassen">§ 10. Gebyr til statskassen</a></li>
+<li class="lvl4"><a href="#11-gebyrsatser">§ 11. Gebyrsatser</a></li>
+<li class="lvl4"><a href="#12-innkreving-og-nedsettelsefrafall-av-gebyr">§ 12. Innkreving og nedsettelse/frafall av gebyr</a></li>
+<li class="lvl4"><a href="#13-adgang-til-a-gi-utfyllende-regler-om-gebyrgrunnlaget">§ 13. Adgang til å gi utfyllende regler om gebyrgrunnlaget</a></li>
+<li class="lvl2"><a href="#kapittel-4-avsluttende-bestemmelser">Kapittel 4: Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#14-unntak">§ 14. Unntak</a></li>
+<li class="lvl4"><a href="#15-tilsyn">§ 15. Tilsyn</a></li>
+<li class="lvl4"><a href="#16-tvangsmulkt-og-forelegg">§ 16. Tvangsmulkt og forelegg</a></li>
+<li class="lvl4"><a href="#17-klage">§ 17. Klage</a></li>
+<li class="lvl4"><a href="#18-straff">§ 18. Straff</a></li>
+<li class="lvl4"><a href="#19-ikrafttredelse-og-overgangsbestemmelser">§ 19. Ikrafttredelse og overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-19-541.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2015-05-19-541.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2015-05-19-541.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2015-05-19-541.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2015-05-19-541.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-05-19-541.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2015-05-19-541.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2015-05-19-541.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2015-05-19-541.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-deklarering-av-kjemikalier-til-produktregisteret-deklareringsforskriften">Forskrift om deklarering av kjemikalier til produktregisteret (deklareringsforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1: Innledende bestemmelser</h2>
 <h4 id="1-geografisk-virkeomrade">§ 1. Geografisk virkeområde</h4>
 <p>Denne forskriften gjelder for kjemikalier som produseres eller importeres i Norge, herunder Svalbard. Forskriften gjelder ikke kjemikalier i transitt som er under tilsyn av tollmyndighetene, såfremt kjemikaliene ikke er gjenstand for noen behandling eller bearbeidelse.</p>
@@ -104,7 +195,7 @@ h. tobakksvarer, som er regulert i lov 9. mars 1973 nr. 14 om vern mot tobakkska
 <h4 id="4-plikt-til-a-deklarere-kjemikalier">§ 4. Plikt til å deklarere kjemikalier</h4>
 <p>Den som produserer eller importerer 100 kg eller mer pr. år av et kjemikalie som omfattes av § 3 , skal sørge for at kjemikaliet blir deklarert gjennom Miljødirektoratets løsning for elektronisk deklarering, Kjemikaliedeklarering til produktregisteret.</p>
 <p>Deklareringspliktige kjemikalier jf. første ledd skal være deklarert til Miljødirektoratet senest når omsetning eller yrkesmessig bruk begynner i Norge.</p>
-<p><em>Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</p>
 <h4 id="5-opplysninger-som-deklarasjonen-skal-inneholde">§ 5. Opplysninger som deklarasjonen skal inneholde</h4>
 <p>Deklarasjonen skal inneholde:</p>
 <p>a. Navn, adresse med telefonnummer og bedriftsnummer til ansvarlig virksomhet jf. § 4 første ledd,
@@ -116,7 +207,7 @@ f. faktisk mengde produsert, importert og eksportert per år,
 g. innholdsangivelse i samsvar med § 6 ,
 h. fysikalske data av betydning for å vurdere farlige egenskaper ved kjemikaliet.</p>
 <p>Informasjon som menes omfattet av lovbestemt taushetsplikt skal identifiseres og angis av den ansvarlige jf. § 4 først ledd. Det skal også gis en begrunnelse for hvorfor den ansvarlige mener at informasjonen er taushetsbelagt.</p>
-<p><em>Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</p>
 <h4 id="6-innholdsangivelse">§ 6. Innholdsangivelse</h4>
 <p>For deklareringspliktige kjemiske stoffer jf. § 4 skal følgende angis:</p>
 <p>a. entydig kjemisk betegnelse,
@@ -127,26 +218,26 @@ c. for stoffer som er klassifisert; kode(r) for fareklasse og farekategori og ko
 b. CAS-nr. og EC-nr.,
 c. for stoffer som er klassifisert; kode(r) for fareklasse og farekategori og kode(r) for faresetninger i henhold til CLP-forordningen jf. CLP-forskriften,
 d. mengden av hver komponent angitt i vektprosent. Summen av mengden av alle komponenter som angis skal være 100 vektprosent.</p>
-<p><em>Endret ved forskrift 23 mai 2016 nr. 523 .</em></p>
+<p class="note">Endret ved forskrift 23 mai 2016 nr. 523 .</p>
 <h4 id="7-deklarasjonsnummer-og-sikkerhetsdatablad">§ 7. Deklarasjonsnummer og sikkerhetsdatablad</h4>
 <p>Når et kjemikalie er deklarert i henhold til § 5 og § 6 , tildeles kjemikaliet et deklarasjonsnummer. Dette deklarasjonsnummeret skal angis i rubrikk 15 i kjemikaliets sikkerhetsdatablad i henhold til REACH-forordningen artikkel 31 nr. 6 jf. REACH-forskriften.</p>
 <h4 id="8-oppdatering-av-informasjon">§ 8. Oppdatering av informasjon</h4>
 <p>Den som i henhold til § 4 plikter å deklarere kjemikalier skal uten ugrunnet opphold og av eget tiltak sørge for at opplysningene i produktregisteret blir oppdatert dersom det skjer endringer i informasjonen som kreves i § 5 og § 6 . Opplysninger om faktisk mengde som er produsert, importert og eksportert foregående år skal rapporteres senest 15. mars hvert år. Innrapportering skal skje ved hjelp av Miljødirektoratets løsning for elektronisk deklarering, Kjemikaliedeklarering til produktregisteret. Dersom kjemikaliet ikke er deklarert ved hjelp av løsningen for elektronisk deklarering tidligere, skal den ansvarlige samtidig angi informasjon som nevnt i § 6 .</p>
-<p><em>Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</p>
 <h4 id="9-adgang-til-a-gi-utfyllende-regler-om-deklareringsplikt">§ 9. Adgang til å gi utfyllende regler om deklareringsplikt</h4>
 <p>Miljødirektoratet kan i samråd med Arbeidstilsynet, Direktoratet for samfunnssikkerhet og beredskap og Havindustritilsynet fastsette nærmere regler om gjennomføring av deklareringsplikten etter § 4 .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-3-gebyr-for-myndighetenes-kontroll-med-kjemiske-stoffer-og-stoffblandinger">Kapittel 3: Gebyr for myndighetenes kontroll med kjemiske stoffer og stoffblandinger</h2>
 <h4 id="10-gebyr-til-statskassen">§ 10. Gebyr til statskassen</h4>
 <p>For kjemikalier som skal deklareres i henhold til § 4 skal det betales et årlig gebyr til statskassen. Den som i henhold til § 4 plikter å deklarere kjemikalier er ansvarlig for at gebyret blir betalt.</p>
 <p>Gebyret beregnes ut fra det antall gebyrpliktige kjemikalier som det foregående kalenderår er registrert på den enkelte produsent eller importør i produktregisteret.</p>
 <p>Kjemikalier som er klassifisert utelukkende for fysisk fare i henhold til CLP-forordningen artikkel 3, jf. forskrift 16. juni 2012 nr. 622 om klassifisering, merking og emballering av stoffer og stoffblandinger (CLP) § 1 , omfattes ikke av gebyrplikten i denne forskrift.</p>
 <p>Kjemikalier som det skal betales årsgebyr for etter forskrift 10. april 2014 nr. 548 om biocider (biocidforskriften) vedlegg 1 er ikke gebyrpliktige etter denne forskrift.</p>
-<p><em>Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</em></p>
+<p class="note">Endret ved forskrift 27 aug 2018 nr. 1275 (i kraft 1 okt 2018).</p>
 <h4 id="11-gebyrsatser">§ 11. Gebyrsatser</h4>
 <p>Gebyret er kr 890,– for hvert av de 100 første deklareringspliktige kjemikalier, og kr 140,– pr. kjemikalie utover dette. Gebyret skal ikke overstige kr 116 690,– per år for den enkelte produsent eller importør.</p>
 <p>Samlet gebyr skal ikke overstige faktiske kostnader knyttet til myndighetenes kontroll med kjemikalier. Miljødirektoratet kan endre gebyrsatsene i samsvar med endringer i konsumprisindeksen i perioden 1. oktober til 30. september. Satsene skal avrundes til nærmeste 10 kr. Slik endring trer i kraft den påfølgende 1. januar.</p>
-<p><em>Endret ved forskrifter 27 okt 2023 nr. 1825 (i kraft 1 jan 2024), 30 okt 2024 nr. 2920 (i kraft 1 jan 2025), 11 des 2025 nr. 2493 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 27 okt 2023 nr. 1825 (i kraft 1 jan 2024), 30 okt 2024 nr. 2920 (i kraft 1 jan 2025), 11 des 2025 nr. 2493 (i kraft 1 jan 2026).</p>
 <h4 id="12-innkreving-og-nedsettelsefrafall-av-gebyr">§ 12. Innkreving og nedsettelse/frafall av gebyr</h4>
 <p>Gebyr etter denne forskriften kreves årlig inn av Miljødirektoratet.</p>
 <p>Når særlige grunner foreligger, kan Miljødirektoratet ved enkeltvedtak nedsette eller frafalle gebyr etter denne forskriften.</p>
@@ -155,21 +246,23 @@ d. mengden av hver komponent angitt i vektprosent. Summen av mengden av alle kom
 <h2 id="kapittel-4-avsluttende-bestemmelser">Kapittel 4: Avsluttende bestemmelser</h2>
 <h4 id="14-unntak">§ 14. Unntak</h4>
 <p>I særlige tilfeller kan Arbeidstilsynet, Direktoratet for samfunnssikkerhet og beredskap, Miljødirektoratet og Havindustritilsynet innenfor sine respektive myndighetsområder gjøre unntak fra bestemmelsene i denne forskrift.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="15-tilsyn">§ 15. Tilsyn</h4>
 <p>Arbeidstilsynet, Direktoratet for samfunnssikkerhet og beredskap, Miljødirektoratet og Havindustritilsynet fører tilsyn med at denne forskriften følges innenfor sine respektive myndighetsområder.</p>
 <p>Tilsynsmyndighetene kan på sine myndighetsområder fatte de vedtak som arbeidsmiljøloven, brann- og eksplosjonsvernloven og produktkontrolloven gir adgang til.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="16-tvangsmulkt-og-forelegg">§ 16. Tvangsmulkt og forelegg</h4>
 <p>For å sikre at bestemmelsene i denne forskriften eller vedtak truffet i medhold av forskriften blir overholdt, kan tilsynsmyndighetene innenfor sine respektive myndighetsområder fatte vedtak om tvangsmulkt i medhold av arbeidsmiljøloven § 18-7 , brann- og eksplosjonsvernloven § 39 og produktkontrolloven § 13 .</p>
 <p>Direktoratet for samfunnssikkerhet og beredskap kan ilegge forelegg i medhold av brann- og eksplosjonsvernloven § 40 .</p>
 <h4 id="17-klage">§ 17. Klage</h4>
 <p>Vedtak truffet av det lokale arbeidstilsynet kan påklages til Direktoratet for arbeidstilsynet. Vedtak truffet av Direktoratet for samfunnssikkerhet og beredskap kan påklages til Justis- og beredskapsdepartementet. Vedtak truffet av Miljødirektoratet kan påklages til Klima- og miljødepartementet. Vedtak truffet av Havindustritilsynet kan påklages til Energidepartementet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="18-straff">§ 18. Straff</h4>
 <p>Ved overtredelse av denne forskriften eller vedtak truffet i medhold av forskriften, kommer bestemmelsene om straff i arbeidsmiljøloven kapittel 19 , brann- og eksplosjonsvernloven § 42 , produktkontrolloven § 12 og straffeloven § 48a og § 48b til anvendelse, dersom overtredelsen ikke rammes av strengere straffebestemmelser.</p>
 <h4 id="19-ikrafttredelse-og-overgangsbestemmelser">§ 19. Ikrafttredelse og overgangsbestemmelser</h4>
 <p>Forskriften trer i kraft 1. juni 2015.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

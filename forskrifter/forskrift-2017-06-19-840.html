@@ -19,64 +19,449 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-06-19-840.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Byggteknisk forskrift (TEK17)" href="../feeds/forskrift-2017-06-19-840.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kommunal--og-distriktsdepartementet.html">Kommunal- og distriktsdepartementet</a> &rsaquo;
 <span>Byggteknisk forskrift (TEK17)</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-06-19-840</code></dd>
-<dt>Departement</dt><dd>Kommunal- og distriktsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-11-1792</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-19-840" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-felles-bestemmelser">Kapittel 1. Felles bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-forskriftens-anvendelse-pa-srskilte-tiltak">§ 1-2. Forskriftens anvendelse på særskilte tiltak</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-dokumentasjon-for-oppfyllelse-av-krav">Kapittel 2. Dokumentasjon for oppfyllelse av krav</a></li>
+<li class="lvl4"><a href="#2-1-dokumentasjon-for-oppfyllelse-av-krav-generelt">§ 2-1. Dokumentasjon for oppfyllelse av krav. Generelt</a></li>
+<li class="lvl4"><a href="#2-2-dokumentasjon-for-oppfyllelse-av-funksjonskrav-underlag-for-detaljprosjektering">§ 2-2. Dokumentasjon for oppfyllelse av funksjonskrav. Underlag for detaljprosjektering</a></li>
+<li class="lvl4"><a href="#2-3-dokumentasjon-for-oppfyllelse-av-ytelser-produksjonsunderlag">§ 2-3. Dokumentasjon for oppfyllelse av ytelser. Produksjonsunderlag</a></li>
+<li class="lvl4"><a href="#2-4-dokumentasjon-av-utfrelsen">§ 2-4. Dokumentasjon av utførelsen</a></li>
+<li class="lvl2"><a href="#kapittel-3-dokumentasjon-av-byggevarer">Kapittel 3. Dokumentasjon av byggevarer</a></li>
+<li class="lvl4"><a href="#3-1-dokumentasjon-av-byggevarer-til-byggverk">§ 3-1. Dokumentasjon av byggevarer til byggverk</a></li>
+<li class="lvl2"><a href="#kapittel-4-dokumentasjon-for-forvaltning-drift-og-vedlikehold-fdv">Kapittel 4. Dokumentasjon for forvaltning, drift og vedlikehold (FDV)</a></li>
+<li class="lvl4"><a href="#4-1-dokumentasjon-for-driftsfasen">§ 4-1. Dokumentasjon for driftsfasen</a></li>
+<li class="lvl4"><a href="#4-2-oppbevaring-av-dokumentasjon-for-driftsfasen">§ 4-2. Oppbevaring av dokumentasjon for driftsfasen</a></li>
+<li class="lvl2"><a href="#kapittel-5-grad-av-utnytting">Kapittel 5. Grad av utnytting</a></li>
+<li class="lvl4"><a href="#5-1-fastsetting-av-grad-av-utnytting">§ 5-1. Fastsetting av grad av utnytting</a></li>
+<li class="lvl4"><a href="#5-2-bebygd-areal-bya">§ 5-2. Bebygd areal (BYA)</a></li>
+<li class="lvl4"><a href="#5-3-prosent-bebygd-areal-bya">§ 5-3. Prosent bebygd areal (%-BYA)</a></li>
+<li class="lvl4"><a href="#5-4-bruksareal-bra">§ 5-4. Bruksareal (BRA)</a></li>
+<li class="lvl4"><a href="#5-5-prosent-bruksareal-bra">§ 5-5. Prosent bruksareal (%-BRA)</a></li>
+<li class="lvl4"><a href="#5-6-minste-uteoppholdsareal-mua">§ 5-6. Minste uteoppholdsareal (MUA)</a></li>
+<li class="lvl4"><a href="#5-7-parkeringsareal">§ 5-7. Parkeringsareal</a></li>
+<li class="lvl4"><a href="#5-8-tomt">§ 5-8. Tomt</a></li>
+<li class="lvl4"><a href="#5-9-bygningers-hyde">§ 5-9. Bygningers høyde</a></li>
+<li class="lvl2"><a href="#kapittel-6-beregnings-og-maleregler">Kapittel 6. Beregnings- og måleregler</a></li>
+<li class="lvl4"><a href="#6-1-etasjeantall">§ 6-1. Etasjeantall</a></li>
+<li class="lvl4"><a href="#6-2-hyde">§ 6-2. Høyde</a></li>
+<li class="lvl4"><a href="#6-3-avstand">§ 6-3. Avstand</a></li>
+<li class="lvl4"><a href="#6-4-areal">§ 6-4. Areal</a></li>
+<li class="lvl4"><a href="#6-5-frittliggende-bygning">§ 6-5. Frittliggende bygning</a></li>
+<li class="lvl2"><a href="#kapittel-7-sikkerhet-mot-naturpakjenninger">Kapittel 7. Sikkerhet mot naturpåkjenninger</a></li>
+<li class="lvl4"><a href="#7-1-generelle-krav-om-sikkerhet-mot-naturpakjenninger">§ 7-1. Generelle krav om sikkerhet mot naturpåkjenninger</a></li>
+<li class="lvl4"><a href="#7-2-sikkerhet-mot-flom-og-stormflo">§ 7-2. Sikkerhet mot flom og stormflo</a></li>
+<li class="lvl4"><a href="#7-3-sikkerhet-mot-skred">§ 7-3. Sikkerhet mot skred</a></li>
+<li class="lvl4"><a href="#7-4-unntaksbestemmelse-for-utbygging-i-omrader-med-fare-for-fjellskred-og-flodblge-som-flge-av-fjellskred">§ 7-4. Unntaksbestemmelse for utbygging i områder med fare for fjellskred og flodbølge som følge av fjellskred</a></li>
+<li class="lvl2"><a href="#kapittel-8-opparbeidet-uteareal">Kapittel 8. Opparbeidet uteareal</a></li>
+<li class="lvl4"><a href="#8-1-opparbeidet-uteareal">§ 8-1. Opparbeidet uteareal</a></li>
+<li class="lvl4"><a href="#8-2-opparbeidet-uteareal-med-krav-om-universell-utforming">§ 8-2. Opparbeidet uteareal med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-3-uteoppholdsareal">§ 8-3. Uteoppholdsareal</a></li>
+<li class="lvl4"><a href="#8-4-generelle-krav-til-gangatkomst-og-ganglinjer">§ 8-4. Generelle krav til gangatkomst og ganglinjer</a></li>
+<li class="lvl4"><a href="#8-5-gangatkomst-til-bygning-med-boenhet">§ 8-5. Gangatkomst til bygning med boenhet</a></li>
+<li class="lvl4"><a href="#8-6-gangatkomst-til-byggverk-med-krav-om-universell-utforming">§ 8-6. Gangatkomst til byggverk med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-7-gangatkomst-til-uteoppholdsareal-med-krav-om-universell-utforming">§ 8-7. Gangatkomst til uteoppholdsareal med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-8-parkeringsplass-annet-oppstillingsareal-og-kjreatkomst">§ 8-8. Parkeringsplass, annet oppstillingsareal og kjøreatkomst</a></li>
+<li class="lvl4"><a href="#8-9-trapp-i-uteareal">§ 8-9. Trapp i uteareal</a></li>
+<li class="lvl4"><a href="#8-10-opphevet">§ 8-10. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-ytre-milj">Kapittel 9. Ytre miljø</a></li>
+<li class="lvl4"><a href="#9-1-generelle-krav-til-ytre-milj">§ 9-1. Generelle krav til ytre miljø</a></li>
+<li class="lvl4"><a href="#9-2-helse-og-miljfarlige-stoffer">§ 9-2. Helse- og miljøfarlige stoffer</a></li>
+<li class="lvl4"><a href="#9-3-forurensning-i-grunnen">§ 9-3. Forurensning i grunnen</a></li>
+<li class="lvl4"><a href="#9-4-utvalgte-naturtyper">§ 9-4. Utvalgte naturtyper</a></li>
+<li class="lvl4"><a href="#9-5-byggavfall-og-ombruk">§ 9-5. Byggavfall og ombruk</a></li>
+<li class="lvl4"><a href="#9-6-avfallsplan">§ 9-6. Avfallsplan</a></li>
+<li class="lvl4"><a href="#9-7-kartlegging-av-farlig-avfall-bygningsfraksjoner-som-ma-fjernes-og-materialer-som-er-egnet-for-ombruk-krav-til-rapportering">§ 9-7. Kartlegging av farlig avfall, bygningsfraksjoner som må fjernes og materialer som er egnet for ombruk. Krav til rapportering</a></li>
+<li class="lvl4"><a href="#9-8-avfallssortering">§ 9-8. Avfallssortering</a></li>
+<li class="lvl4"><a href="#9-9-sluttrapport-for-faktisk-disponering-av-avfall">§ 9-9. Sluttrapport for faktisk disponering av avfall</a></li>
+<li class="lvl4"><a href="#9-10-utslippskrav-til-vedovner">§ 9-10. Utslippskrav til vedovner</a></li>
+<li class="lvl2"><a href="#kapittel-10-konstruksjonssikkerhet">Kapittel 10. Konstruksjonssikkerhet</a></li>
+<li class="lvl4"><a href="#10-1-personlig-og-materiell-sikkerhet">§ 10-1. Personlig og materiell sikkerhet</a></li>
+<li class="lvl4"><a href="#10-2-konstruksjonssikkerhet">§ 10-2. Konstruksjonssikkerhet</a></li>
+<li class="lvl4"><a href="#10-3-nedfall-fra-og-sammenstt-med-byggverk">§ 10-3. Nedfall fra og sammenstøt med byggverk</a></li>
+<li class="lvl2"><a href="#kapittel-11-sikkerhet-ved-brann">Kapittel 11. Sikkerhet ved brann</a></li>
+<li class="lvl3"><a href="#i-generelle-krav-til-sikkerhet-ved-brann">I. Generelle krav til sikkerhet ved brann</a></li>
+<li class="lvl5"><a href="#11-1-sikkerhet-ved-brann">§ 11-1. Sikkerhet ved brann</a></li>
+<li class="lvl5"><a href="#11-2-risikoklasser">§ 11-2. Risikoklasser</a></li>
+<li class="lvl5"><a href="#11-3-brannklasser">§ 11-3. Brannklasser</a></li>
+<li class="lvl3"><a href="#ii-breevne-og-stabilitet-ved-brann-og-eksplosjon">II. Bæreevne og stabilitet ved brann og eksplosjon</a></li>
+<li class="lvl5"><a href="#11-4-breevne-og-stabilitet">§ 11-4. Bæreevne og stabilitet</a></li>
+<li class="lvl5"><a href="#11-5-sikkerhet-ved-eksplosjon">§ 11-5. Sikkerhet ved eksplosjon</a></li>
+<li class="lvl3"><a href="#iii-tiltak-mot-antennelse-utvikling-og-spredning-av-brann-og-ryk">III. Tiltak mot antennelse, utvikling og spredning av brann og røyk</a></li>
+<li class="lvl5"><a href="#11-6-tiltak-mot-brannspredning-mellom-byggverk">§ 11-6. Tiltak mot brannspredning mellom byggverk</a></li>
+<li class="lvl5"><a href="#11-7-brannseksjoner">§ 11-7. Brannseksjoner</a></li>
+<li class="lvl5"><a href="#11-8-brannceller">§ 11-8. Brannceller</a></li>
+<li class="lvl5"><a href="#11-9-materialer-og-produkters-egenskaper-ved-brann">§ 11-9. Materialer og produkters egenskaper ved brann</a></li>
+<li class="lvl5"><a href="#11-10-tekniske-installasjoner">§ 11-10. Tekniske installasjoner</a></li>
+<li class="lvl3"><a href="#iv-tilrettelegging-for-rmning-og-redning">IV. Tilrettelegging for rømning og redning</a></li>
+<li class="lvl5"><a href="#11-11-generelle-krav-om-rmning-og-redning">§ 11-11. Generelle krav om rømning og redning</a></li>
+<li class="lvl5"><a href="#11-12-tiltak-for-a-pavirke-rmnings-og-redningstider">§ 11-12. Tiltak for å påvirke rømnings- og redningstider</a></li>
+<li class="lvl5"><a href="#11-13-utgang-fra-branncelle">§ 11-13. Utgang fra branncelle</a></li>
+<li class="lvl5"><a href="#11-14-rmningsvei">§ 11-14. Rømningsvei</a></li>
+<li class="lvl5"><a href="#11-15-tilrettelegging-for-redning-av-husdyr">§ 11-15. Tilrettelegging for redning av husdyr</a></li>
+<li class="lvl3"><a href="#v-tilrettelegging-for-slokking">V. Tilrettelegging for slokking</a></li>
+<li class="lvl5"><a href="#11-16-tilrettelegging-for-manuell-slokking">§ 11-16. Tilrettelegging for manuell slokking</a></li>
+<li class="lvl5"><a href="#11-17-tilrettelegging-for-rednings-og-slokkemannskap">§ 11-17. Tilrettelegging for rednings- og slokkemannskap</a></li>
+<li class="lvl2"><a href="#kapittel-12-planlsning-og-bygningsdeler-i-byggverk">Kapittel 12. Planløsning og bygningsdeler i byggverk</a></li>
+<li class="lvl3"><a href="#i-innledende-bestemmelser-om-planlsning-og-bygningsdeler">I. Innledende bestemmelser om planløsning og bygningsdeler</a></li>
+<li class="lvl5"><a href="#12-1-krav-til-planlsning-og-universell-utforming-av-byggverk">§ 12-1. Krav til planløsning og universell utforming av byggverk</a></li>
+<li class="lvl5"><a href="#12-2-krav-om-tilgjengelig-boenhet">§ 12-2. Krav om tilgjengelig boenhet</a></li>
+<li class="lvl5"><a href="#12-3-krav-om-heis-i-byggverk">§ 12-3. Krav om heis i byggverk</a></li>
+<li class="lvl3"><a href="#ii-inngangsparti-sikkerhet-i-bruk-kommunikasjonsvei-rom-og-lignende">II. Inngangsparti, sikkerhet i bruk, kommunikasjonsvei, rom og lignende</a></li>
+<li class="lvl5"><a href="#12-4-inngangsparti">§ 12-4. Inngangsparti</a></li>
+<li class="lvl5"><a href="#12-5-sikkerhet-i-bruk">§ 12-5. Sikkerhet i bruk</a></li>
+<li class="lvl5"><a href="#12-6-kommunikasjonsvei">§ 12-6. Kommunikasjonsvei</a></li>
+<li class="lvl5"><a href="#12-7-krav-til-utforming-av-rom-og-annet-oppholdsareal">§ 12-7. Krav til utforming av rom og annet oppholdsareal</a></li>
+<li class="lvl5"><a href="#12-8-entre-og-garderobe">§ 12-8. Entré og garderobe</a></li>
+<li class="lvl5"><a href="#12-9-bad-og-toalett">§ 12-9. Bad og toalett</a></li>
+<li class="lvl5"><a href="#12-10-bod-og-oppbevaringsplass">§ 12-10. Bod og oppbevaringsplass</a></li>
+<li class="lvl5"><a href="#12-11-balkong-terrasse-og-lignende">§ 12-11. Balkong, terrasse og lignende</a></li>
+<li class="lvl5"><a href="#12-12-avfallssystem-og-kildesortering">§ 12-12. Avfallssystem og kildesortering</a></li>
+<li class="lvl3"><a href="#iii-bygningsdeler">III. Bygningsdeler</a></li>
+<li class="lvl5"><a href="#12-13-dr-port-og-lignende">§ 12-13. Dør, port og lignende</a></li>
+<li class="lvl5"><a href="#12-14-trapp">§ 12-14. Trapp</a></li>
+<li class="lvl5"><a href="#12-15-utforming-av-rekkverk">§ 12-15. Utforming av rekkverk</a></li>
+<li class="lvl5"><a href="#12-16-rampe">§ 12-16. Rampe</a></li>
+<li class="lvl5"><a href="#12-17-vindu-og-andre-glassfelt">§ 12-17. Vindu og andre glassfelt</a></li>
+<li class="lvl5"><a href="#12-18-skilt-styrings-og-betjeningspanel-handtak-armaturer-og-lignende">§ 12-18. Skilt, styrings- og betjeningspanel, håndtak, armaturer og lignende</a></li>
+<li class="lvl2"><a href="#kapittel-13-inneklima-og-helse">Kapittel 13. Inneklima og helse</a></li>
+<li class="lvl3"><a href="#i-luftkvalitet">I. Luftkvalitet</a></li>
+<li class="lvl5"><a href="#13-1-generelle-krav-til-ventilasjon">§ 13-1. Generelle krav til ventilasjon</a></li>
+<li class="lvl5"><a href="#13-2-ventilasjon-i-boligbygning">§ 13-2. Ventilasjon i boligbygning</a></li>
+<li class="lvl5"><a href="#13-3-ventilasjon-i-byggverk-for-publikum-og-arbeidsbygning">§ 13-3. Ventilasjon i byggverk for publikum og arbeidsbygning</a></li>
+<li class="lvl3"><a href="#ii-termisk-inneklima">II. Termisk inneklima</a></li>
+<li class="lvl5"><a href="#13-4-termisk-inneklima">§ 13-4. Termisk inneklima</a></li>
+<li class="lvl3"><a href="#iii-stralingsmilj">III. Strålingsmiljø</a></li>
+<li class="lvl5"><a href="#13-5-radon">§ 13-5. Radon</a></li>
+<li class="lvl3"><a href="#iv-lyd-og-vibrasjoner">IV. Lyd og vibrasjoner</a></li>
+<li class="lvl5"><a href="#13-6-lyd-og-vibrasjoner">§ 13-6. Lyd og vibrasjoner</a></li>
+<li class="lvl3"><a href="#v-lys-og-utsyn">V. Lys og utsyn</a></li>
+<li class="lvl5"><a href="#13-7-lys">§ 13-7. Lys</a></li>
+<li class="lvl5"><a href="#13-8-utsyn">§ 13-8. Utsyn</a></li>
+<li class="lvl3"><a href="#vi-fukt-vatrom-og-rom-med-vanninstallasjoner">VI. Fukt, våtrom og rom med vanninstallasjoner</a></li>
+<li class="lvl5"><a href="#13-9-generelle-krav-om-fukt">§ 13-9. Generelle krav om fukt</a></li>
+<li class="lvl5"><a href="#13-10-fukt-fra-grunnen">§ 13-10. Fukt fra grunnen</a></li>
+<li class="lvl5"><a href="#13-11-overvann">§ 13-11. Overvann</a></li>
+<li class="lvl5"><a href="#13-12-nedbr">§ 13-12. Nedbør</a></li>
+<li class="lvl5"><a href="#13-13-fukt-fra-inneluft">§ 13-13. Fukt fra inneluft</a></li>
+<li class="lvl5"><a href="#13-14-byggfukt">§ 13-14. Byggfukt</a></li>
+<li class="lvl5"><a href="#13-15-vatrom-og-rom-med-vanninstallasjoner">§ 13-15. Våtrom og rom med vanninstallasjoner</a></li>
+<li class="lvl3"><a href="#vii-rengjring-fr-bygningen-tas-i-bruk">VII. Rengjøring før bygningen tas i bruk</a></li>
+<li class="lvl5"><a href="#13-16-rengjring-fr-bygningen-tas-i-bruk">§ 13-16. Rengjøring før bygningen tas i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-14-energi">Kapittel 14. Energi</a></li>
+<li class="lvl4"><a href="#14-1-generelle-krav">§ 14-1. Generelle krav</a></li>
+<li class="lvl4"><a href="#14-2-krav-til-energieffektivitet">§ 14-2. Krav til energieffektivitet</a></li>
+<li class="lvl4"><a href="#14-3-minimumsniva-for-energieffektivitet">§ 14-3. Minimumsnivå for energieffektivitet</a></li>
+<li class="lvl4"><a href="#14-4-krav-til-lsninger-for-energiforsyning">§ 14-4. Krav til løsninger for energiforsyning</a></li>
+<li class="lvl4"><a href="#14-5-unntak-og-krav-til-srskilte-tiltak">§ 14-5. Unntak og krav til særskilte tiltak</a></li>
+<li class="lvl2"><a href="#kapittel-15-installasjoner-og-anlegg">Kapittel 15. Installasjoner og anlegg</a></li>
+<li class="lvl3"><a href="#i-varme-og-kjleinstallasjon">I. Varme- og kjøleinstallasjon</a></li>
+<li class="lvl5"><a href="#15-1-generelle-krav-til-varme-og-kjleinstallasjoner">§ 15-1. Generelle krav til varme- og kjøleinstallasjoner</a></li>
+<li class="lvl5"><a href="#15-2-sentralvarmeinstallasjon">§ 15-2. Sentralvarmeinstallasjon</a></li>
+<li class="lvl5"><a href="#15-3-rykkanal-og-skorstein">§ 15-3. Røykkanal og skorstein</a></li>
+<li class="lvl5"><a href="#15-4-varmepumpe-og-kuldeinstallasjon">§ 15-4. Varmepumpe- og kuldeinstallasjon</a></li>
+<li class="lvl3"><a href="#ii-innvendige-vann-og-avlpsinstallasjoner">II. Innvendige vann- og avløpsinstallasjoner</a></li>
+<li class="lvl5"><a href="#15-5-innvendig-vanninstallasjon">§ 15-5. Innvendig vanninstallasjon</a></li>
+<li class="lvl5"><a href="#15-6-innvendig-avlpsinstallasjon">§ 15-6. Innvendig avløpsinstallasjon</a></li>
+<li class="lvl3"><a href="#iii-utvendige-vannforsynings-og-avlpsanlegg">III. Utvendige vannforsynings- og avløpsanlegg</a></li>
+<li class="lvl5"><a href="#15-7-utvendig-vannforsyningsanlegg-med-ledningsnett">§ 15-7. Utvendig vannforsyningsanlegg med ledningsnett</a></li>
+<li class="lvl5"><a href="#15-8-utvendig-avlpsanlegg-med-ledningsnett-overvann-og-drensvann">§ 15-8. Utvendig avløpsanlegg med ledningsnett. Overvann og drensvann</a></li>
+<li class="lvl3"><a href="#iv-lfteinnretninger">IV. Løfteinnretninger</a></li>
+<li class="lvl5"><a href="#15-9-heiser">§ 15-9. Heiser</a></li>
+<li class="lvl5"><a href="#15-10-rom-og-sjakt-for-heis">§ 15-10. Rom og sjakt for heis</a></li>
+<li class="lvl5"><a href="#15-11-fritt-sikkerhetsrom-for-heis">§ 15-11. Fritt sikkerhetsrom for heis</a></li>
+<li class="lvl5"><a href="#15-12-lfteplattformer">§ 15-12. Løfteplattformer</a></li>
+<li class="lvl5"><a href="#15-13-rulletrapp-og-rullende-fortau">§ 15-13. Rulletrapp og rullende fortau</a></li>
+<li class="lvl5"><a href="#15-14-trappeheiser">§ 15-14. Trappeheiser</a></li>
+<li class="lvl5"><a href="#15-15-sammenhengen-mellom-lfteinnretninger-og-harmoniserte-standarder">§ 15-15. Sammenhengen mellom løfteinnretninger og harmoniserte standarder</a></li>
+<li class="lvl2"><a href="#kapittel-16-sikkerhetskontroll-av-heis">Kapittel 16. Sikkerhetskontroll av heis</a></li>
+<li class="lvl4"><a href="#16-1-administrative-bestemmelser">§ 16-1. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#16-2-krav-til-sikkerhetskontrollr-for-utfring-av-periodisk-sikkerhetskontroll">§ 16-2. Krav til sikkerhetskontrollør for utføring av periodisk sikkerhetskontroll</a></li>
+<li class="lvl4"><a href="#16-3-vilkar-for-a-fa-godkjenning-som-sikkerhetskontrollr-for-personer-med-yrkeskvalifikasjoner-fra-andre-land">§ 16-3. Vilkår for å få godkjenning som sikkerhetskontrollør for personer med yrkeskvalifikasjoner fra andre land</a></li>
+<li class="lvl4"><a href="#16-4-midlertidig-utvelse-av-sikkerhetskontroll">§ 16-4. Midlertidig utøvelse av sikkerhetskontroll</a></li>
+<li class="lvl4"><a href="#16-5-sprakkrav">§ 16-5. Språkkrav</a></li>
+<li class="lvl4"><a href="#16-6-nasjonalt-installasjonsregister">§ 16-6. Nasjonalt installasjonsregister</a></li>
+<li class="lvl4"><a href="#16-7-opphevet">§ 16-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-8-prisregulering">§ 16-8. Prisregulering</a></li>
+<li class="lvl2"><a href="#kapittel-17-klima-og-livslp">Kapittel 17. Klima og livsløp</a></li>
+<li class="lvl4"><a href="#17-1-klimagassregnskap-fra-materialer">§ 17-1. Klimagassregnskap fra materialer</a></li>
+<li class="lvl2"><a href="#kapittel-18-ikrafttredelse-og-overgangsbestemmelser">Kapittel 18. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#18-1-ikrafttredelse">§ 18-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#18-2-overgangsbestemmelser">§ 18-2. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-11-1792.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-19-840.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tekniske krav til byggverk (Byggteknisk forskrift)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-19-840.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-06-19-840 <code>forskrift/2017-06-19-840</code></td></tr>
+<tr><th>Korttittel</th><td>Byggteknisk forskrift (TEK17)</td></tr>
+<tr><th>Departement</th><td>Kommunal- og distriktsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-11-1792 <code>forskrift/2026-09-11-1792</code> fra 01.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-19-840" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-felles-bestemmelser">Kapittel 1. Felles bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-forskriftens-anvendelse-pa-srskilte-tiltak">§ 1-2. Forskriftens anvendelse på særskilte tiltak</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-dokumentasjon-for-oppfyllelse-av-krav">Kapittel 2. Dokumentasjon for oppfyllelse av krav</a></li>
+<li class="lvl4"><a href="#2-1-dokumentasjon-for-oppfyllelse-av-krav-generelt">§ 2-1. Dokumentasjon for oppfyllelse av krav. Generelt</a></li>
+<li class="lvl4"><a href="#2-2-dokumentasjon-for-oppfyllelse-av-funksjonskrav-underlag-for-detaljprosjektering">§ 2-2. Dokumentasjon for oppfyllelse av funksjonskrav. Underlag for detaljprosjektering</a></li>
+<li class="lvl4"><a href="#2-3-dokumentasjon-for-oppfyllelse-av-ytelser-produksjonsunderlag">§ 2-3. Dokumentasjon for oppfyllelse av ytelser. Produksjonsunderlag</a></li>
+<li class="lvl4"><a href="#2-4-dokumentasjon-av-utfrelsen">§ 2-4. Dokumentasjon av utførelsen</a></li>
+<li class="lvl2"><a href="#kapittel-3-dokumentasjon-av-byggevarer">Kapittel 3. Dokumentasjon av byggevarer</a></li>
+<li class="lvl4"><a href="#3-1-dokumentasjon-av-byggevarer-til-byggverk">§ 3-1. Dokumentasjon av byggevarer til byggverk</a></li>
+<li class="lvl2"><a href="#kapittel-4-dokumentasjon-for-forvaltning-drift-og-vedlikehold-fdv">Kapittel 4. Dokumentasjon for forvaltning, drift og vedlikehold (FDV)</a></li>
+<li class="lvl4"><a href="#4-1-dokumentasjon-for-driftsfasen">§ 4-1. Dokumentasjon for driftsfasen</a></li>
+<li class="lvl4"><a href="#4-2-oppbevaring-av-dokumentasjon-for-driftsfasen">§ 4-2. Oppbevaring av dokumentasjon for driftsfasen</a></li>
+<li class="lvl2"><a href="#kapittel-5-grad-av-utnytting">Kapittel 5. Grad av utnytting</a></li>
+<li class="lvl4"><a href="#5-1-fastsetting-av-grad-av-utnytting">§ 5-1. Fastsetting av grad av utnytting</a></li>
+<li class="lvl4"><a href="#5-2-bebygd-areal-bya">§ 5-2. Bebygd areal (BYA)</a></li>
+<li class="lvl4"><a href="#5-3-prosent-bebygd-areal-bya">§ 5-3. Prosent bebygd areal (%-BYA)</a></li>
+<li class="lvl4"><a href="#5-4-bruksareal-bra">§ 5-4. Bruksareal (BRA)</a></li>
+<li class="lvl4"><a href="#5-5-prosent-bruksareal-bra">§ 5-5. Prosent bruksareal (%-BRA)</a></li>
+<li class="lvl4"><a href="#5-6-minste-uteoppholdsareal-mua">§ 5-6. Minste uteoppholdsareal (MUA)</a></li>
+<li class="lvl4"><a href="#5-7-parkeringsareal">§ 5-7. Parkeringsareal</a></li>
+<li class="lvl4"><a href="#5-8-tomt">§ 5-8. Tomt</a></li>
+<li class="lvl4"><a href="#5-9-bygningers-hyde">§ 5-9. Bygningers høyde</a></li>
+<li class="lvl2"><a href="#kapittel-6-beregnings-og-maleregler">Kapittel 6. Beregnings- og måleregler</a></li>
+<li class="lvl4"><a href="#6-1-etasjeantall">§ 6-1. Etasjeantall</a></li>
+<li class="lvl4"><a href="#6-2-hyde">§ 6-2. Høyde</a></li>
+<li class="lvl4"><a href="#6-3-avstand">§ 6-3. Avstand</a></li>
+<li class="lvl4"><a href="#6-4-areal">§ 6-4. Areal</a></li>
+<li class="lvl4"><a href="#6-5-frittliggende-bygning">§ 6-5. Frittliggende bygning</a></li>
+<li class="lvl2"><a href="#kapittel-7-sikkerhet-mot-naturpakjenninger">Kapittel 7. Sikkerhet mot naturpåkjenninger</a></li>
+<li class="lvl4"><a href="#7-1-generelle-krav-om-sikkerhet-mot-naturpakjenninger">§ 7-1. Generelle krav om sikkerhet mot naturpåkjenninger</a></li>
+<li class="lvl4"><a href="#7-2-sikkerhet-mot-flom-og-stormflo">§ 7-2. Sikkerhet mot flom og stormflo</a></li>
+<li class="lvl4"><a href="#7-3-sikkerhet-mot-skred">§ 7-3. Sikkerhet mot skred</a></li>
+<li class="lvl4"><a href="#7-4-unntaksbestemmelse-for-utbygging-i-omrader-med-fare-for-fjellskred-og-flodblge-som-flge-av-fjellskred">§ 7-4. Unntaksbestemmelse for utbygging i områder med fare for fjellskred og flodbølge som følge av fjellskred</a></li>
+<li class="lvl2"><a href="#kapittel-8-opparbeidet-uteareal">Kapittel 8. Opparbeidet uteareal</a></li>
+<li class="lvl4"><a href="#8-1-opparbeidet-uteareal">§ 8-1. Opparbeidet uteareal</a></li>
+<li class="lvl4"><a href="#8-2-opparbeidet-uteareal-med-krav-om-universell-utforming">§ 8-2. Opparbeidet uteareal med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-3-uteoppholdsareal">§ 8-3. Uteoppholdsareal</a></li>
+<li class="lvl4"><a href="#8-4-generelle-krav-til-gangatkomst-og-ganglinjer">§ 8-4. Generelle krav til gangatkomst og ganglinjer</a></li>
+<li class="lvl4"><a href="#8-5-gangatkomst-til-bygning-med-boenhet">§ 8-5. Gangatkomst til bygning med boenhet</a></li>
+<li class="lvl4"><a href="#8-6-gangatkomst-til-byggverk-med-krav-om-universell-utforming">§ 8-6. Gangatkomst til byggverk med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-7-gangatkomst-til-uteoppholdsareal-med-krav-om-universell-utforming">§ 8-7. Gangatkomst til uteoppholdsareal med krav om universell utforming</a></li>
+<li class="lvl4"><a href="#8-8-parkeringsplass-annet-oppstillingsareal-og-kjreatkomst">§ 8-8. Parkeringsplass, annet oppstillingsareal og kjøreatkomst</a></li>
+<li class="lvl4"><a href="#8-9-trapp-i-uteareal">§ 8-9. Trapp i uteareal</a></li>
+<li class="lvl4"><a href="#8-10-opphevet">§ 8-10. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-ytre-milj">Kapittel 9. Ytre miljø</a></li>
+<li class="lvl4"><a href="#9-1-generelle-krav-til-ytre-milj">§ 9-1. Generelle krav til ytre miljø</a></li>
+<li class="lvl4"><a href="#9-2-helse-og-miljfarlige-stoffer">§ 9-2. Helse- og miljøfarlige stoffer</a></li>
+<li class="lvl4"><a href="#9-3-forurensning-i-grunnen">§ 9-3. Forurensning i grunnen</a></li>
+<li class="lvl4"><a href="#9-4-utvalgte-naturtyper">§ 9-4. Utvalgte naturtyper</a></li>
+<li class="lvl4"><a href="#9-5-byggavfall-og-ombruk">§ 9-5. Byggavfall og ombruk</a></li>
+<li class="lvl4"><a href="#9-6-avfallsplan">§ 9-6. Avfallsplan</a></li>
+<li class="lvl4"><a href="#9-7-kartlegging-av-farlig-avfall-bygningsfraksjoner-som-ma-fjernes-og-materialer-som-er-egnet-for-ombruk-krav-til-rapportering">§ 9-7. Kartlegging av farlig avfall, bygningsfraksjoner som må fjernes og materialer som er egnet for ombruk. Krav til rapportering</a></li>
+<li class="lvl4"><a href="#9-8-avfallssortering">§ 9-8. Avfallssortering</a></li>
+<li class="lvl4"><a href="#9-9-sluttrapport-for-faktisk-disponering-av-avfall">§ 9-9. Sluttrapport for faktisk disponering av avfall</a></li>
+<li class="lvl4"><a href="#9-10-utslippskrav-til-vedovner">§ 9-10. Utslippskrav til vedovner</a></li>
+<li class="lvl2"><a href="#kapittel-10-konstruksjonssikkerhet">Kapittel 10. Konstruksjonssikkerhet</a></li>
+<li class="lvl4"><a href="#10-1-personlig-og-materiell-sikkerhet">§ 10-1. Personlig og materiell sikkerhet</a></li>
+<li class="lvl4"><a href="#10-2-konstruksjonssikkerhet">§ 10-2. Konstruksjonssikkerhet</a></li>
+<li class="lvl4"><a href="#10-3-nedfall-fra-og-sammenstt-med-byggverk">§ 10-3. Nedfall fra og sammenstøt med byggverk</a></li>
+<li class="lvl2"><a href="#kapittel-11-sikkerhet-ved-brann">Kapittel 11. Sikkerhet ved brann</a></li>
+<li class="lvl3"><a href="#i-generelle-krav-til-sikkerhet-ved-brann">I. Generelle krav til sikkerhet ved brann</a></li>
+<li class="lvl5"><a href="#11-1-sikkerhet-ved-brann">§ 11-1. Sikkerhet ved brann</a></li>
+<li class="lvl5"><a href="#11-2-risikoklasser">§ 11-2. Risikoklasser</a></li>
+<li class="lvl5"><a href="#11-3-brannklasser">§ 11-3. Brannklasser</a></li>
+<li class="lvl3"><a href="#ii-breevne-og-stabilitet-ved-brann-og-eksplosjon">II. Bæreevne og stabilitet ved brann og eksplosjon</a></li>
+<li class="lvl5"><a href="#11-4-breevne-og-stabilitet">§ 11-4. Bæreevne og stabilitet</a></li>
+<li class="lvl5"><a href="#11-5-sikkerhet-ved-eksplosjon">§ 11-5. Sikkerhet ved eksplosjon</a></li>
+<li class="lvl3"><a href="#iii-tiltak-mot-antennelse-utvikling-og-spredning-av-brann-og-ryk">III. Tiltak mot antennelse, utvikling og spredning av brann og røyk</a></li>
+<li class="lvl5"><a href="#11-6-tiltak-mot-brannspredning-mellom-byggverk">§ 11-6. Tiltak mot brannspredning mellom byggverk</a></li>
+<li class="lvl5"><a href="#11-7-brannseksjoner">§ 11-7. Brannseksjoner</a></li>
+<li class="lvl5"><a href="#11-8-brannceller">§ 11-8. Brannceller</a></li>
+<li class="lvl5"><a href="#11-9-materialer-og-produkters-egenskaper-ved-brann">§ 11-9. Materialer og produkters egenskaper ved brann</a></li>
+<li class="lvl5"><a href="#11-10-tekniske-installasjoner">§ 11-10. Tekniske installasjoner</a></li>
+<li class="lvl3"><a href="#iv-tilrettelegging-for-rmning-og-redning">IV. Tilrettelegging for rømning og redning</a></li>
+<li class="lvl5"><a href="#11-11-generelle-krav-om-rmning-og-redning">§ 11-11. Generelle krav om rømning og redning</a></li>
+<li class="lvl5"><a href="#11-12-tiltak-for-a-pavirke-rmnings-og-redningstider">§ 11-12. Tiltak for å påvirke rømnings- og redningstider</a></li>
+<li class="lvl5"><a href="#11-13-utgang-fra-branncelle">§ 11-13. Utgang fra branncelle</a></li>
+<li class="lvl5"><a href="#11-14-rmningsvei">§ 11-14. Rømningsvei</a></li>
+<li class="lvl5"><a href="#11-15-tilrettelegging-for-redning-av-husdyr">§ 11-15. Tilrettelegging for redning av husdyr</a></li>
+<li class="lvl3"><a href="#v-tilrettelegging-for-slokking">V. Tilrettelegging for slokking</a></li>
+<li class="lvl5"><a href="#11-16-tilrettelegging-for-manuell-slokking">§ 11-16. Tilrettelegging for manuell slokking</a></li>
+<li class="lvl5"><a href="#11-17-tilrettelegging-for-rednings-og-slokkemannskap">§ 11-17. Tilrettelegging for rednings- og slokkemannskap</a></li>
+<li class="lvl2"><a href="#kapittel-12-planlsning-og-bygningsdeler-i-byggverk">Kapittel 12. Planløsning og bygningsdeler i byggverk</a></li>
+<li class="lvl3"><a href="#i-innledende-bestemmelser-om-planlsning-og-bygningsdeler">I. Innledende bestemmelser om planløsning og bygningsdeler</a></li>
+<li class="lvl5"><a href="#12-1-krav-til-planlsning-og-universell-utforming-av-byggverk">§ 12-1. Krav til planløsning og universell utforming av byggverk</a></li>
+<li class="lvl5"><a href="#12-2-krav-om-tilgjengelig-boenhet">§ 12-2. Krav om tilgjengelig boenhet</a></li>
+<li class="lvl5"><a href="#12-3-krav-om-heis-i-byggverk">§ 12-3. Krav om heis i byggverk</a></li>
+<li class="lvl3"><a href="#ii-inngangsparti-sikkerhet-i-bruk-kommunikasjonsvei-rom-og-lignende">II. Inngangsparti, sikkerhet i bruk, kommunikasjonsvei, rom og lignende</a></li>
+<li class="lvl5"><a href="#12-4-inngangsparti">§ 12-4. Inngangsparti</a></li>
+<li class="lvl5"><a href="#12-5-sikkerhet-i-bruk">§ 12-5. Sikkerhet i bruk</a></li>
+<li class="lvl5"><a href="#12-6-kommunikasjonsvei">§ 12-6. Kommunikasjonsvei</a></li>
+<li class="lvl5"><a href="#12-7-krav-til-utforming-av-rom-og-annet-oppholdsareal">§ 12-7. Krav til utforming av rom og annet oppholdsareal</a></li>
+<li class="lvl5"><a href="#12-8-entre-og-garderobe">§ 12-8. Entré og garderobe</a></li>
+<li class="lvl5"><a href="#12-9-bad-og-toalett">§ 12-9. Bad og toalett</a></li>
+<li class="lvl5"><a href="#12-10-bod-og-oppbevaringsplass">§ 12-10. Bod og oppbevaringsplass</a></li>
+<li class="lvl5"><a href="#12-11-balkong-terrasse-og-lignende">§ 12-11. Balkong, terrasse og lignende</a></li>
+<li class="lvl5"><a href="#12-12-avfallssystem-og-kildesortering">§ 12-12. Avfallssystem og kildesortering</a></li>
+<li class="lvl3"><a href="#iii-bygningsdeler">III. Bygningsdeler</a></li>
+<li class="lvl5"><a href="#12-13-dr-port-og-lignende">§ 12-13. Dør, port og lignende</a></li>
+<li class="lvl5"><a href="#12-14-trapp">§ 12-14. Trapp</a></li>
+<li class="lvl5"><a href="#12-15-utforming-av-rekkverk">§ 12-15. Utforming av rekkverk</a></li>
+<li class="lvl5"><a href="#12-16-rampe">§ 12-16. Rampe</a></li>
+<li class="lvl5"><a href="#12-17-vindu-og-andre-glassfelt">§ 12-17. Vindu og andre glassfelt</a></li>
+<li class="lvl5"><a href="#12-18-skilt-styrings-og-betjeningspanel-handtak-armaturer-og-lignende">§ 12-18. Skilt, styrings- og betjeningspanel, håndtak, armaturer og lignende</a></li>
+<li class="lvl2"><a href="#kapittel-13-inneklima-og-helse">Kapittel 13. Inneklima og helse</a></li>
+<li class="lvl3"><a href="#i-luftkvalitet">I. Luftkvalitet</a></li>
+<li class="lvl5"><a href="#13-1-generelle-krav-til-ventilasjon">§ 13-1. Generelle krav til ventilasjon</a></li>
+<li class="lvl5"><a href="#13-2-ventilasjon-i-boligbygning">§ 13-2. Ventilasjon i boligbygning</a></li>
+<li class="lvl5"><a href="#13-3-ventilasjon-i-byggverk-for-publikum-og-arbeidsbygning">§ 13-3. Ventilasjon i byggverk for publikum og arbeidsbygning</a></li>
+<li class="lvl3"><a href="#ii-termisk-inneklima">II. Termisk inneklima</a></li>
+<li class="lvl5"><a href="#13-4-termisk-inneklima">§ 13-4. Termisk inneklima</a></li>
+<li class="lvl3"><a href="#iii-stralingsmilj">III. Strålingsmiljø</a></li>
+<li class="lvl5"><a href="#13-5-radon">§ 13-5. Radon</a></li>
+<li class="lvl3"><a href="#iv-lyd-og-vibrasjoner">IV. Lyd og vibrasjoner</a></li>
+<li class="lvl5"><a href="#13-6-lyd-og-vibrasjoner">§ 13-6. Lyd og vibrasjoner</a></li>
+<li class="lvl3"><a href="#v-lys-og-utsyn">V. Lys og utsyn</a></li>
+<li class="lvl5"><a href="#13-7-lys">§ 13-7. Lys</a></li>
+<li class="lvl5"><a href="#13-8-utsyn">§ 13-8. Utsyn</a></li>
+<li class="lvl3"><a href="#vi-fukt-vatrom-og-rom-med-vanninstallasjoner">VI. Fukt, våtrom og rom med vanninstallasjoner</a></li>
+<li class="lvl5"><a href="#13-9-generelle-krav-om-fukt">§ 13-9. Generelle krav om fukt</a></li>
+<li class="lvl5"><a href="#13-10-fukt-fra-grunnen">§ 13-10. Fukt fra grunnen</a></li>
+<li class="lvl5"><a href="#13-11-overvann">§ 13-11. Overvann</a></li>
+<li class="lvl5"><a href="#13-12-nedbr">§ 13-12. Nedbør</a></li>
+<li class="lvl5"><a href="#13-13-fukt-fra-inneluft">§ 13-13. Fukt fra inneluft</a></li>
+<li class="lvl5"><a href="#13-14-byggfukt">§ 13-14. Byggfukt</a></li>
+<li class="lvl5"><a href="#13-15-vatrom-og-rom-med-vanninstallasjoner">§ 13-15. Våtrom og rom med vanninstallasjoner</a></li>
+<li class="lvl3"><a href="#vii-rengjring-fr-bygningen-tas-i-bruk">VII. Rengjøring før bygningen tas i bruk</a></li>
+<li class="lvl5"><a href="#13-16-rengjring-fr-bygningen-tas-i-bruk">§ 13-16. Rengjøring før bygningen tas i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-14-energi">Kapittel 14. Energi</a></li>
+<li class="lvl4"><a href="#14-1-generelle-krav">§ 14-1. Generelle krav</a></li>
+<li class="lvl4"><a href="#14-2-krav-til-energieffektivitet">§ 14-2. Krav til energieffektivitet</a></li>
+<li class="lvl4"><a href="#14-3-minimumsniva-for-energieffektivitet">§ 14-3. Minimumsnivå for energieffektivitet</a></li>
+<li class="lvl4"><a href="#14-4-krav-til-lsninger-for-energiforsyning">§ 14-4. Krav til løsninger for energiforsyning</a></li>
+<li class="lvl4"><a href="#14-5-unntak-og-krav-til-srskilte-tiltak">§ 14-5. Unntak og krav til særskilte tiltak</a></li>
+<li class="lvl2"><a href="#kapittel-15-installasjoner-og-anlegg">Kapittel 15. Installasjoner og anlegg</a></li>
+<li class="lvl3"><a href="#i-varme-og-kjleinstallasjon">I. Varme- og kjøleinstallasjon</a></li>
+<li class="lvl5"><a href="#15-1-generelle-krav-til-varme-og-kjleinstallasjoner">§ 15-1. Generelle krav til varme- og kjøleinstallasjoner</a></li>
+<li class="lvl5"><a href="#15-2-sentralvarmeinstallasjon">§ 15-2. Sentralvarmeinstallasjon</a></li>
+<li class="lvl5"><a href="#15-3-rykkanal-og-skorstein">§ 15-3. Røykkanal og skorstein</a></li>
+<li class="lvl5"><a href="#15-4-varmepumpe-og-kuldeinstallasjon">§ 15-4. Varmepumpe- og kuldeinstallasjon</a></li>
+<li class="lvl3"><a href="#ii-innvendige-vann-og-avlpsinstallasjoner">II. Innvendige vann- og avløpsinstallasjoner</a></li>
+<li class="lvl5"><a href="#15-5-innvendig-vanninstallasjon">§ 15-5. Innvendig vanninstallasjon</a></li>
+<li class="lvl5"><a href="#15-6-innvendig-avlpsinstallasjon">§ 15-6. Innvendig avløpsinstallasjon</a></li>
+<li class="lvl3"><a href="#iii-utvendige-vannforsynings-og-avlpsanlegg">III. Utvendige vannforsynings- og avløpsanlegg</a></li>
+<li class="lvl5"><a href="#15-7-utvendig-vannforsyningsanlegg-med-ledningsnett">§ 15-7. Utvendig vannforsyningsanlegg med ledningsnett</a></li>
+<li class="lvl5"><a href="#15-8-utvendig-avlpsanlegg-med-ledningsnett-overvann-og-drensvann">§ 15-8. Utvendig avløpsanlegg med ledningsnett. Overvann og drensvann</a></li>
+<li class="lvl3"><a href="#iv-lfteinnretninger">IV. Løfteinnretninger</a></li>
+<li class="lvl5"><a href="#15-9-heiser">§ 15-9. Heiser</a></li>
+<li class="lvl5"><a href="#15-10-rom-og-sjakt-for-heis">§ 15-10. Rom og sjakt for heis</a></li>
+<li class="lvl5"><a href="#15-11-fritt-sikkerhetsrom-for-heis">§ 15-11. Fritt sikkerhetsrom for heis</a></li>
+<li class="lvl5"><a href="#15-12-lfteplattformer">§ 15-12. Løfteplattformer</a></li>
+<li class="lvl5"><a href="#15-13-rulletrapp-og-rullende-fortau">§ 15-13. Rulletrapp og rullende fortau</a></li>
+<li class="lvl5"><a href="#15-14-trappeheiser">§ 15-14. Trappeheiser</a></li>
+<li class="lvl5"><a href="#15-15-sammenhengen-mellom-lfteinnretninger-og-harmoniserte-standarder">§ 15-15. Sammenhengen mellom løfteinnretninger og harmoniserte standarder</a></li>
+<li class="lvl2"><a href="#kapittel-16-sikkerhetskontroll-av-heis">Kapittel 16. Sikkerhetskontroll av heis</a></li>
+<li class="lvl4"><a href="#16-1-administrative-bestemmelser">§ 16-1. Administrative bestemmelser</a></li>
+<li class="lvl4"><a href="#16-2-krav-til-sikkerhetskontrollr-for-utfring-av-periodisk-sikkerhetskontroll">§ 16-2. Krav til sikkerhetskontrollør for utføring av periodisk sikkerhetskontroll</a></li>
+<li class="lvl4"><a href="#16-3-vilkar-for-a-fa-godkjenning-som-sikkerhetskontrollr-for-personer-med-yrkeskvalifikasjoner-fra-andre-land">§ 16-3. Vilkår for å få godkjenning som sikkerhetskontrollør for personer med yrkeskvalifikasjoner fra andre land</a></li>
+<li class="lvl4"><a href="#16-4-midlertidig-utvelse-av-sikkerhetskontroll">§ 16-4. Midlertidig utøvelse av sikkerhetskontroll</a></li>
+<li class="lvl4"><a href="#16-5-sprakkrav">§ 16-5. Språkkrav</a></li>
+<li class="lvl4"><a href="#16-6-nasjonalt-installasjonsregister">§ 16-6. Nasjonalt installasjonsregister</a></li>
+<li class="lvl4"><a href="#16-7-opphevet">§ 16-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#16-8-prisregulering">§ 16-8. Prisregulering</a></li>
+<li class="lvl2"><a href="#kapittel-17-klima-og-livslp">Kapittel 17. Klima og livsløp</a></li>
+<li class="lvl4"><a href="#17-1-klimagassregnskap-fra-materialer">§ 17-1. Klimagassregnskap fra materialer</a></li>
+<li class="lvl2"><a href="#kapittel-18-ikrafttredelse-og-overgangsbestemmelser">Kapittel 18. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#18-1-ikrafttredelse">§ 18-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#18-2-overgangsbestemmelser">§ 18-2. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-19-840.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-19-840.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-19-840.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-06-19-840.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-06-19-840.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-19-840.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-06-19-840.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-06-19-840.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-19-840.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tekniske-krav-til-byggverk-byggteknisk-forskrift">Forskrift om tekniske krav til byggverk (Byggteknisk forskrift)</h1>
 <h2 id="kapittel-1-felles-bestemmelser">Kapittel 1. Felles bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Forskriften skal sikre at tiltak planlegges, prosjekteres og utføres ut fra hensyn til god visuell kvalitet, universell utforming og slik at tiltaket oppfyller tekniske krav til sikkerhet, miljø, helse og energi.</p>
@@ -107,7 +492,7 @@ c. skal det for besøkende være likestilt tilgang til toalett som oppfyller § 
 <p>(7) Unntakene i sjette ledd gjelder også for andre studentboliger dersom det tinglyses en heftelse på eiendommen om at boligen skal benyttes til utleie for studenter i minst 20 år fra ferdigattest eller midlertidig brukstillatelse. Det skal dokumenteres at heftelsen er tinglyst og dokumentasjonen skal være godtatt av kommunen før igangsettingstillatelse kan gis. Departementet er rettighetshaver til heftelsen.</p>
 <p>(8) For bruksendring fra tilleggsdel til hoveddel eller omvendt innenfor en boenhet gjelder krav i forskriften med unntak av § 12-2 , § 12-9 , § 12-10 annet ledd, § 13-5 annet og tredje ledd, § 13-8 og § 14-2 til § 14-5 . Bestemmelsen omfatter bare bruksendring av rom som har tak, vegg eller gulv direkte mot hoveddel i boenheten. Bestemmelsen gjelder kun bruksendring i bolig der oppføring av boligen ble omsøkt før 1. juli 2011.</p>
 <p>(9) For fritidsfartøy, herunder husbåter, som omfattes av direktiv 2013/53/EU , gjelder forskrift 25. januar 2016 nr. 35 om produksjon og omsetning av fritidsfartøy og vannscootere mv.</p>
-<p><em>Endret ved forskrifter 11 juni 2018 nr. 854 , 28 april 2021 nr. 1315 (i kraft 1 juli 2021), 6 feb 2023 nr. 157 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrifter 11 juni 2018 nr. 854 , 28 april 2021 nr. 1315 (i kraft 1 juli 2021), 6 feb 2023 nr. 157 (i kraft 1 juli 2023).</p>
 <h4 id="1-3-definisjoner">§ 1-3. Definisjoner <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I forskriften menes med</p>
 <p>a. boenhet: bruksenhet som har alle hovedfunksjoner og som skal brukes til boligformål
@@ -125,7 +510,7 @@ l. rom for varig opphold: rom for varig opphold i arbeids- og publikumsbygg er a
 m. trinnfri: flate som kan ha terskel eller nivåforskjell på maksimum 25 mm. Terskel eller nivåforskjell mellom 20 mm og 25 mm anses som trinnfri dersom den har en skråskåren kant som ikke er brattere enn 45 grader.
 n. ytelse: teknisk, bruks- eller miljømessig kvalitet, kapasitet eller egenskap ved byggverk, bygningsdel, installasjon eller utearealer. En ytelse er en tolking og konkretisering av funksjonskrav og er angitt kvantitativt eller kvalitativt.
 o. organisatorisk sikringstiltak etter § 7-2 og § 7-3 : sikringstiltak mot naturpåkjenninger som krever aktivering for å oppnå sin funksjon, og som har en fysisk og permanent del.</p>
-<p><em>Endret ved forskrift 11 sep 2026 nr. 1792 (i kraft 1 okt 2026).</em></p>
+<p class="note">Endret ved forskrift 11 sep 2026 nr. 1792 (i kraft 1 okt 2026).</p>
 <h2 id="kapittel-2-dokumentasjon-for-oppfyllelse-av-krav">Kapittel 2. Dokumentasjon for oppfyllelse av krav</h2>
 <h4 id="2-1-dokumentasjon-for-oppfyllelse-av-krav-generelt">§ 2-1. Dokumentasjon for oppfyllelse av krav. Generelt</h4>
 <p>(1) Det skal dokumenteres at kravene i forskriften er oppfylt i det ferdige byggverket.</p>
@@ -147,7 +532,7 @@ b. ved analyse som viser at ytelsene oppfyller funksjonskravene i forskriften.</
 <p>Endret ved forskrift 29 april 2021 nr. 1319 .</p>
 <h4 id="3-1-dokumentasjon-av-byggevarer-til-byggverk">§ 3-1. Dokumentasjon av byggevarer til byggverk <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En byggevare skal ha forsvarlige egenskaper, som bidrar til at byggverk oppfyller kravene i denne forskriften. Egenskapene må kunne dokumenteres.</p>
-<p><em>Endret ved forskrift 29 april 2021 nr. 1319 .</em></p>
+<p class="note">Endret ved forskrift 29 april 2021 nr. 1319 .</p>
 <h2 id="kapittel-4-dokumentasjon-for-forvaltning-drift-og-vedlikehold-fdv">Kapittel 4. Dokumentasjon for forvaltning, drift og vedlikehold (FDV)</h2>
 <h4 id="4-1-dokumentasjon-for-driftsfasen">§ 4-1. Dokumentasjon for driftsfasen</h4>
 <p>(1) Ansvarlig prosjekterende og ansvarlig utførende skal, innenfor sitt ansvarsområde, framlegge den nødvendige dokumentasjonen for ansvarlig søker. Dokumentasjonen skal gi grunnlag for hvordan igangsetting, forvaltning, drift og vedlikehold av byggverket, tekniske installasjoner og anlegg skal utføres på en tilfredsstillende måte.</p>
@@ -200,7 +585,7 @@ c. loft som bare inneholder tilleggsdel og som har bruksareal mindre enn 1/3 av 
 <p>Mindre tiltak etter plan- og bygningsloven § 29-4 tredje ledd bokstav b er bygninger som verken har samlet bruksareal eller bebygd areal over 50 m 2 og andre mindre tiltak som ikke kan måles etter Norsk Standard NS 3940:2012 Areal- og volumberegninger av bygninger.</p>
 <h4 id="6-5-frittliggende-bygning">§ 6-5. Frittliggende bygning <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-6-5.html" title="Endringshistorikk for § 6-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En frittliggende bygning etter plan- og bygningsloven § 29-4 tredje ledd bokstav b skal plasseres minst 1,0 m fra andre bygninger på eiendommen. Avstanden måles fra bygningens fasadeliv.</p>
-<p><em>Tilføyd ved forskrift 9 feb 2021 nr. 411 (i kraft 1 mai 2021).</em></p>
+<p class="note">Tilføyd ved forskrift 9 feb 2021 nr. 411 (i kraft 1 mai 2021).</p>
 <h2 id="kapittel-7-sikkerhet-mot-naturpakjenninger">Kapittel 7. Sikkerhet mot naturpåkjenninger</h2>
 <h4 id="7-1-generelle-krav-om-sikkerhet-mot-naturpakjenninger">§ 7-1. Generelle krav om sikkerhet mot naturpåkjenninger</h4>
 <p>(1) Byggverk skal plasseres, prosjekteres og utføres slik at det oppnås tilfredsstillende sikkerhet mot skade eller vesentlig ulempe fra naturpåkjenninger.</p>
@@ -331,7 +716,7 @@ c. Parkeringsplassen skal være tydelig skiltet og merket.</p>
 b. byggverk som ikke er koblet til strømnettet
 c. tiltak på eksisterende byggverk som ikke er hovedombygging
 d. hovedombygging der kostnaden for oppfyllelse av kravet i fjerde ledd overstiger syv prosent av totalkostnaden ved hovedombyggingen.</p>
-<p><em>Endret ved forskrift 28 april 2021 nr. 1315 (i kraft 1 juli 2021).</em></p>
+<p class="note">Endret ved forskrift 28 april 2021 nr. 1315 (i kraft 1 juli 2021).</p>
 <h4 id="8-9-trapp-i-uteareal">§ 8-9. Trapp i uteareal</h4>
 <p>(1) Trapper i utearealer skal være lette og sikre å gå i.</p>
 <p>(2) Trapper i utearealer med krav om universell utforming skal i tillegg ha</p>
@@ -341,13 +726,13 @@ c. taktilt og visuelt farefelt foran det øverste trinnet
 d. oppmerksomhetsfelt foran og inntil det nederste trinnet
 e. synlig kontrastmarkering på trappeforkanten på de øvrige inntrinnene.</p>
 <h4 id="8-10-opphevet">§ 8-10. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 19 juni 2017 nr. 840 (i kraft 1 juli 2021, jf. § 17-1 ).</em></p>
+<p class="note">Opphevet ved forskrift 19 juni 2017 nr. 840 (i kraft 1 juli 2021, jf. § 17-1 ).</p>
 <h2 id="kapittel-9-ytre-milj">Kapittel 9. Ytre miljø</h2>
 <h4 id="9-1-generelle-krav-til-ytre-milj">§ 9-1. Generelle krav til ytre miljø</h4>
 <p>Byggverk skal prosjekteres, oppføres, driftes og rives på en måte som medfører minst mulig belastning på naturressurser og det ytre miljøet. Byggavfallet skal håndteres tilsvarende.</p>
 <h4 id="9-2-helse-og-miljfarlige-stoffer">§ 9-2. Helse- og miljøfarlige stoffer <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det skal velges produkter uten eller med lavt innhold av helse- eller miljøfarlige stoffer.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-3-forurensning-i-grunnen">§ 9-3. Forurensning i grunnen</h4>
 <p>Ved planlegging av byggverk skal det undersøkes om det finnes forurenset grunn.</p>
 <h4 id="9-4-utvalgte-naturtyper">§ 9-4. Utvalgte naturtyper</h4>
@@ -357,7 +742,7 @@ b. Der konsekvensene for den utvalgte naturtypen ikke er klarlagt etter reglene 
 <h4 id="9-5-byggavfall-og-ombruk">§ 9-5. Byggavfall og ombruk <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Byggverket skal sikres en forsvarlig og tilsiktet levetid slik at avfallsmengden over byggverkets livsløp begrenses til et minimum.</p>
 <p>(2) Det skal velges produkter som er egnet for ombruk og materialgjenvinning. Byggverk skal prosjekteres og bygges slik at det er tilrettelagt for senere demontering når dette kan gjennomføres innenfor en praktisk og økonomisk forsvarlig ramme.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-6-avfallsplan">§ 9-6. Avfallsplan <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-6.html" title="Endringshistorikk for § 9-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) For følgende tiltak skal det utarbeides en avfallsplan som gjør rede for planlagt håndtering av byggavfallet fordelt på ulike avfallstyper og -mengder:</p>
 <p>a. oppføring, tilbygging, påbygging og underbygging av bygningen dersom tiltaket overskrider 300 m 2 BRA
@@ -365,7 +750,7 @@ b. vesentlig endring, herunder fasadeendring, eller vesentlig reparasjon av bygn
 c. riving av bygning eller del av bygning som overskrider 100 m 2 BRA
 d. oppføring, tilbygging, påbygging, underbygging, endring eller riving av bygninger, konstruksjoner og anlegg dersom tiltaket genererer over 10 tonn bygg- og rivningsavfall.</p>
 <p>(2) Tiltak som omfatter flere bygninger, konstruksjoner eller anlegg skal vurderes under ett.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-7-kartlegging-av-farlig-avfall-bygningsfraksjoner-som-ma-fjernes-og-materialer-som-er-egnet-for-ombruk-krav-til-rapportering">§ 9-7. Kartlegging av farlig avfall, bygningsfraksjoner som må fjernes og materialer som er egnet for ombruk. Krav til rapportering <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-7.html" title="Endringshistorikk for § 9-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) For tiltak i eksisterende byggverk skal det foretas kartlegging av bygningsdeler, installasjoner og lignende som kan utgjøre farlig avfall etter avfallsforskriften . Det samme gjelder andre bygningsfraksjoner som avfallsforskriften stiller krav om å fjerne.</p>
 <p>(2) For tiltak nevnt i § 9-6 første ledd bokstav b til d skal det utarbeides en egen rapport fra miljøkartleggingen.</p>
@@ -389,13 +774,13 @@ d. byggeår og tidligere bruk, hvis dette er kjent
 e. forekomsten av, mengden av og typen materialer eller bygningsfraksjoner egnet for ombruk, samt vurdering av restlevetid
 f. opprinnelig byggevaredokumentasjon, hvis dette finnes
 g. alle identifiserte materialer eller bygningsfraksjoner egnet for ombruk sammenstilt i en tabell i henhold til Norsk Standard NS 3451:2022 Bygningsdelstabell og systemkodetabell for bygninger og tilhørende uteområder.</p>
-<p><em>Endret ved forskrifter 3 mars 2020 nr. 242 (i kraft 1 juli 2020), 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 mars 2020 nr. 242 (i kraft 1 juli 2020), 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-8-avfallssortering">§ 9-8. Avfallssortering <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-8.html" title="Endringshistorikk for § 9-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Minimum 70 vektprosent av avfallet som oppstår i tiltak etter § 9-6 første ledd skal sorteres i rene avfallstyper, og alt avfall skal leveres til godkjent avfallsmottak, ombruk eller direkte til gjenvinning.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-9-sluttrapport-for-faktisk-disponering-av-avfall">§ 9-9. Sluttrapport for faktisk disponering av avfall <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-9-9.html" title="Endringshistorikk for § 9-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For tiltak etter § 9-6 første ledd skal det utarbeides en sluttrapport som viser faktisk disponering av avfallet, fordelt på ulike avfallstyper og avfallsmengder. Levering til godkjent avfallsmottak, ombruk eller direkte til gjenvinning skal dokumenteres.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="9-10-utslippskrav-til-vedovner">§ 9-10. Utslippskrav til vedovner</h4>
 <p>(1) Lukket ildsted for vedfyring skal utføres slik at det oppnås tilfredsstillende sikkerhet mot forurensning. Utslipp av partikler fra slikt ildsted skal ikke overstige verdiene gitt i Norsk Standard NS 3059:1994 Lukkede vedfyrte ildsteder – Røykutslipp – Krav.</p>
 <p>(2) Der eldre bevaringsverdig ildsted er nødvendig av hensyn til interiøret i kulturhistorisk, antikvarisk eller verneverdig bygning, kan bevaringsverdig ildsted likevel tas i bruk.</p>
@@ -446,7 +831,7 @@ b. brann ikke kan føre til urimelige store økonomiske tap eller samfunnsmessig
 <p>a. Mellom campingenheter kan avstanden i annet ledd reduseres til minimum 4,0 meter dersom det totale arealet for campingenheten ikke overstiger 75 m 2 og campingenheten ikke på noe punkt overstiger en høyde på 4,0 meter over bakken. I en campingenhet inngår en campingvogn, bobil, villavogn, husvogn o.l. med tilhørende telt, fortelt, spikertelt, terrasse, levegg og lignende byggverk.
 b. Avstanden måles fra ytterpunkt til ytterpunkt på campingenheten. Kapittel 5 og 6 kommer ikke til anvendelse ved beregning av areal, høyde og avstand for campingenheter, men gjelder ved beregning av avstand til nabogrense.
 c. Campingplass skal deles opp i parseller med grunnareal på maksimalt 1 200 m 2 . Mellom parsellene skal det være branngater på minimum 8,0 meter bredde.</p>
-<p><em>Endret ved forskrift 9 des 2021 nr. 3448 (i kraft 1 mars 2022).</em></p>
+<p class="note">Endret ved forskrift 9 des 2021 nr. 3448 (i kraft 1 mars 2022).</p>
 <h5 id="11-7-brannseksjoner">§ 11-7. Brannseksjoner</h5>
 <p>(1) Byggverk skal deles opp i brannseksjoner for å</p>
 <p>a. sikre liv og helse der rømning og redning kan ta lang tid
@@ -580,7 +965,7 @@ c. Rom for varig opphold skal ha fri passasje på minimum 0,9 m til dør og vind
 b. trinnfri tilgang og snuareal for rullestol. Areal for rullestol skal plasseres slik at personer i rullestol kan betjene nødvendige funksjoner på en tilfredsstillende måte.</p>
 <p>(6) I byggverk med krav om universell utforming skal det være resepsjon eller informasjonstavle der dette er nødvendig. Resepsjoner og informasjonstavler skal være lette å finne og sentralt plasserte i forhold til hovedatkomsten.</p>
 <p>(7) I byggverk med krav om universell utforming, som har mange rom med samme funksjon, er det tilstrekkelig at 1/10 av rommene er universelt utformet i henhold til bestemmelser i forskriften. Dette gjelder likevel ikke der den forutsatte bruken tilsier at flere eller alle rom skal være universelt utformet.</p>
-<p><em>Endret ved forskrift 6 feb 2023 nr. 157 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endret ved forskrift 6 feb 2023 nr. 157 (i kraft 1 juli 2023).</p>
 <h5 id="12-8-entre-og-garderobe">§ 12-8. Entré og garderobe</h5>
 <p>(1) Entré eller inngang i en tilgjengelig boenhet skal ha</p>
 <p>a. fri passasje på minimum 0,9 m utenfor møbleringssonen
@@ -771,7 +1156,7 @@ c. Bygningsdeler med innebygd sisterne eller lignende skal sikres mot fuktinntre
 <p>(4) For bygning eller del av en bygning som skal holde lav innetemperatur, gjelder ikke energikravene dersom energibehovet holdes på et forsvarlig nivå.</p>
 <p>(5) Dersom kravene i dette kapitlet ikke kan forenes med bevaring av kulturminner og antikvariske verdier, gjelder kravene så langt de passer.</p>
 <p>(6) Delegert kommisjonsforordning (EU) nr. 244/2012 om utfylling av europaparlaments- og rådsdirektiv 2010/31/EU om bygningers energiytelse gjennom fastsettelse av en ramme for sammenligningsmetoder for beregning av kostnadsoptimale nivåer for minstekrav til bygningers og bygningselementers energiytelse, som inntatt i EØS-avtalen vedlegg IV nr. 17a, gjelder som forskrift. Delegert kommisjonsforordning gjelder med tilpasningene som følger av vedlegg IV , protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrift 15 aug 2025 nr. 1662 .</em></p>
+<p class="note">Endret ved forskrift 15 aug 2025 nr. 1662 .</p>
 <h4 id="14-2-krav-til-energieffektivitet">§ 14-2. Krav til energieffektivitet</h4>
 <p>(1) Det totale netto energibehovet for bygningen skal ikke overstige energirammene i tabellen i bokstav a samtidig som kravene i § 14-3 oppfylles.</p>
 <p>a. Tabell: Energirammer Bygningskategori Totalt netto energibehov [kWh/m 2 oppvarmet BRA per år] Småhus, samt fritidsbolig over 150 m 2 oppvarmet BRA 100 + 1600/m 2 oppvarmet BRA Boligblokk 95 Barnehage 135 Kontorbygning 115 Skolebygning 110 Universitet/høyskole 125 Sykehus 225 (265) Sykehjem 195 (230) Hotellbygning 170 Idrettsbygning 145 Forretningsbygning 180 Kulturbygning 130 Lett industri/verksteder 140 (160)
@@ -787,7 +1172,7 @@ b. Kravene gitt i parentes gjelder for arealer der varmegjenvinning av ventilasj
 <p>a. Alle bygninger, unntatt boligbygning og fritidsbolig med laftede yttervegger, skal ha: Tabell: Minimumsnivå U-verdi yttervegg [W/(m 2 K)] U-verdi tak [W/(m 2 K)] U-verdi gulv på grunn og mot det fri [W/(m 2 K)] U-verdi vindu og dør, inkludert karm/ramme [W/(m 2 K)] Lekkasjetall ved 50 Pa trykkforskjell (luftveksling per time) ≤ 0,22 ≤ 0,18 ≤ 0,18 ≤ 1,2 ≤ 1,5
 b. Boligbygning og fritidsbolig med laftede yttervegger skal ha: Tabell: Minimumsnivå Dimensjon yttervegg U-verdi tak [W/(m 2 K)] U-verdi gulv på grunn og mot det fri [W/(m 2 K)] U-verdi vindu og dør, inkludert karm/ramme [W/(m 2 K)] Lekkasjetall ved 50 Pa trykkforskjell (luftveksling per time) ≥ 6″ laft ≤ 0,18 ≤ 0,18 ≤ 1,2 ≤ 6</p>
 <p>(2) Rør, utstyr og kanaler som er knyttet til bygningens varmesystem skal isoleres. Isolasjonstykkelsen skal være økonomisk optimal beregnet etter norsk standard eller en likeverdig europeisk standard.</p>
-<p><em>Endret ved forskrifter 12 des 2017 nr. 2000 (i kraft 1 jan 2018), 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2017 nr. 2000 (i kraft 1 jan 2018), 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="14-4-krav-til-lsninger-for-energiforsyning">§ 14-4. Krav til løsninger for energiforsyning <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-14-4.html" title="Endringshistorikk for § 14-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det er ikke tillatt å installere varmeinstallasjon for fossilt brensel.</p>
 <p>(2) Bygning med over 1 000 m 2 oppvarmet BRA skal</p>
@@ -798,7 +1183,7 @@ c. ha felles varmesentral.</p>
 <p>(4) Boenhet i småhus skal oppføres med skorstein. Kravet gjelder ikke dersom</p>
 <p>a. boenheten oppføres med vannbåren varme, eller
 b. årlig netto energibehov til oppvarming ikke overstiger kravet til passivhus, beregnet etter Norsk Standard NS 3700:2013 Kriterier for passivhus og lavenergibygninger – Boligbygninger.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsforskriftens del II for overgangsregel som gjelder frem til 1. juli 2023).</p>
 <h4 id="14-5-unntak-og-krav-til-srskilte-tiltak">§ 14-5. Unntak og krav til særskilte tiltak <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-14-5.html" title="Endringshistorikk for § 14-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) For frittstående bygning til og med 70 m 2 oppvarmet BRA gjelder i dette kapitlet kun § 14-1 , § 14-3 og § 14-4 første ledd.</p>
 <p>(2) For fritidsbolig til og med 70 m 2 oppvarmet BRA gjelder ikke kravene i kapittel 14.</p>
@@ -908,7 +1293,7 @@ d. tåle indre og ytre belastninger samt kjemiske påvirkninger
 e. sikres mot frostskader
 f. ha tilstrekkelig tetthet mot lekkasje.</p>
 <p>(5) Stikkledning for avløpsanlegg som ikke lenger brukes, skal frakobles.</p>
-<p><em>Endret ved forskrift 22 juni 2023 nr. 1092 (i kraft 1 jan 2024, se endringforskriften del II for overgangsbestemmelse).</em></p>
+<p class="note">Endret ved forskrift 22 juni 2023 nr. 1092 (i kraft 1 jan 2024, se endringforskriften del II for overgangsbestemmelse).</p>
 <h3 id="iv-lfteinnretninger">IV. Løfteinnretninger</h3>
 <h5 id="15-9-heiser">§ 15-9. Heiser</h5>
 <p>(1) Den sikkerhetsmessige utformingen av heiser, herunder krav til tilgjengelighet, skal være i henhold til forskrift om omsetning og dokumentasjon av heiser og sikkerhetskomponenter for heiser .</p>
@@ -978,7 +1363,7 @@ c. Automatiske parkeringsanlegg uten persontransport.</p>
 <p>a. Eier av løfteinnretning er ansvarlig for at løfteinnretning som er i bruk, er sikkerhetsmessig forsvarlig og at det utføres vedlikehold og ettersyn med denne.
 b. Eier skal umiddelbart melde ulykker og hendelser til kommunen og til Direktoratet for byggkvalitet.
 c. Når feil på installasjonen kan medføre fare for personsikkerhet, skal løfteinnretningen settes ut av drift.</p>
-<p><em>Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</p>
 <h4 id="16-2-krav-til-sikkerhetskontrollr-for-utfring-av-periodisk-sikkerhetskontroll">§ 16-2. Krav til sikkerhetskontrollør for utføring av periodisk sikkerhetskontroll <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-16-2.html" title="Endringshistorikk for § 16-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Periodisk sikkerhetskontroll kan utføres av</p>
 <p>a. sikkerhetskontrollør tilsatt i kommunal heiskontrollordning
@@ -996,18 +1381,18 @@ Endret ved forskrifter 7 juli 2017 nr. 1164 , 12 juni 2026 nr. 1085 (i kraft 1 j
 <p>(1) Direktoratet for byggkvalitet kan gi godkjenning som sikkerhetskontrollør til person med yrkeskvalifikasjoner fra en annen EØS-stat, Sveits eller Storbritannia etter reglene i yrkeskvalifikasjonsloven og forskrift om godkjenning av yrkeskvalifikasjoner .</p>
 <p>(2) Søker fra annen EØS-stat, Sveits eller Storbritannia som ikke omfattes av reglene etter yrkeskvalifikasjonsloven og forskrift om godkjenning av yrkeskvalifikasjoner , kan godkjennes dersom søker har likeverdige kvalifikasjoner som nevnt i § 16-2 tredje ledd .</p>
 <p>(3) For yrkesutøvere med yrkeskvalifikasjoner fra land som ikke omfattes av første ledd, gjelder yrkeskvalifikasjonsloven § 2 tredje ledd og bestemmelser gitt i medhold av yrkeskvalifikasjonsloven § 2 femte ledd .</p>
-<p><em>Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</p>
 <h4 id="16-4-midlertidig-utvelse-av-sikkerhetskontroll">§ 16-4. Midlertidig utøvelse av sikkerhetskontroll <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-16-4.html" title="Endringshistorikk for § 16-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Periodisk sikkerhetskontroll kan utføres på midlertidig og tilfeldig grunnlag av yrkesutøver som oppfyller kravene i yrkeskvalifikasjonsloven § 4 .</p>
 <p>(2) Første gang tjeneste som nevnt i første ledd ytes i Norge, skal tjenesteyter levere forhåndsmelding og dokumentasjon til Direktoratet for byggkvalitet i samsvar med yrkeskvalifikasjonsloven § 5 og forskrift om godkjenning av yrkeskvalifikasjoner § 2-2 . Underretning til Direktoratet for byggkvalitet skal skje for hvert år tjenesteyter ønsker å utøve yrket.</p>
-<p><em>Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</p>
 <h4 id="16-5-sprakkrav">§ 16-5. Språkkrav</h4>
 <p>Direktoratet for byggkvalitet kan kreve at person som gis godkjenning som sikkerhetskontrollør for heis etter § 16-3 eller som skal utøve midlertidig tjeneste i samsvar med § 16-4 , dokumenterer å ha tilstrekkelige norskkunnskaper for å kunne praktisere yrket.</p>
 <h4 id="16-6-nasjonalt-installasjonsregister">§ 16-6. Nasjonalt installasjonsregister <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-16-6.html" title="Endringshistorikk for § 16-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Det skal føres register over installerte løfteinnretninger og gjennomførte sikkerhetskontroller. Kravet om registrering gjelder likevel ikke løfteinnretninger som omfattes av § 16-1 (2) og (3) . Eier av løfteinnretning skal melde installasjonen til kommunen og registeret. Sikkerhetskontrollorganene skal uten ugrunnet opphold melde inn gjennomført sikkerhetskontroll til registeret. Registerførende organ utpekes av Direktoratet for byggkvalitet.</p>
-<p><em>Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</p>
 <h4 id="16-7-opphevet">§ 16-7. (Opphevet) <a class="para-history" href="../historikk/forskrift-2017-06-19-840/para-16-7.html" title="Endringshistorikk for § 16-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</em></p>
+<p class="note">Opphevet ved forskrift 12 juni 2026 nr. 1085 (i kraft 1 juli 2026).</p>
 <h4 id="16-8-prisregulering">§ 16-8. Prisregulering</h4>
 <p>Departementet kan i forskrift fastsette maksimalpris for sikkerhetskontroll av heis dersom dette anses som nødvendig for å motvirke uforholdsmessige regionale prisforskjeller som etter departementets vurdering kan få konsekvenser for personsikkerheten.</p>
 <h2 id="kapittel-17-klima-og-livslp">Kapittel 17. Klima og livsløp</h2>
@@ -1022,11 +1407,13 @@ Tilføyd ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, se endringsfors
 <p>(1) Forskriften trer i kraft 1. juli 2017.</p>
 <p>(2) Fra samme tidspunkt oppheves forskrift 26. mars 2010 nr. 489 om tekniske krav til byggverk .</p>
 <p>(3) Fra 1. juli 2021 oppheves § 8-10 Plassering av byggverk.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, tidligere § 17-1).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, tidligere § 17-1).</p>
 <h4 id="18-2-overgangsbestemmelser">§ 18-2. Overgangsbestemmelser</h4>
 <p>(1) For søknader som kommer inn til kommunen før 1. januar 2019 kan tiltakshaver velge om hele tiltaket skal følge denne forskriften eller bestemmelsene i forskrift 26. mars 2010 nr. 489 om tekniske krav til byggverk . Der tiltakshaver velger byggteknisk forskrift (TEK10) skal dette fremgå av søknad om tillatelse til tiltak.</p>
 <p>(2) Kommunen kan etter søknad tillate at forskrift 26. mars 2010 nr. 489 om tekniske krav til byggverk legges til grunn også for søknader som kommer inn etter 1. januar 2019. Dette gjelder kun for tiltak der prosjektering er påbegynt før 1. juli 2017 og der bruk av forskriften vil føre til omfattende og kostbare endringer.</p>
-<p><em>Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, tidligere § 17-2).</em></p>
+<p class="note">Endret ved forskrift 29 mai 2022 nr. 945 (i kraft 1 juli 2022, tidligere § 17-2).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

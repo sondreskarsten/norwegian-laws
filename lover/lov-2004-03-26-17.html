@@ -19,64 +19,133 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2004-03-26-17.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om finansiell sikkerhetsstillelse" href="../feeds/lov-2004-03-26-17.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Lov om finansiell sikkerhetsstillelse</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2004-03-26-17</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Obligasjoner\nEU/EØS-rett &raquo; Finansielle tjenester\nKonkurs, gjeld og pant &raquo; Gjeldsforhandling. Konkurs</dd>
-<dt>Ikrafttredelse</dt><dd>2004-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2019-03-15-6</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2004-03-26-17" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade-og-formal">§ 1. Virkeområde og formål</a></li>
+<li class="lvl3"><a href="#2-definisjoner-mv">§ 2. Definisjoner mv.</a></li>
+<li class="lvl3"><a href="#3-overdragelse-av-eiendomsrett">§ 3. Overdragelse av eiendomsrett</a></li>
+<li class="lvl3"><a href="#4-bruksrett-til-pantsatt-finansiell-sikkerhet">§ 4. Bruksrett til pantsatt finansiell sikkerhet</a></li>
+<li class="lvl3"><a href="#4-a-rettsvern">§ 4 a. Rettsvern</a></li>
+<li class="lvl3"><a href="#5-felles-gjeldsforflgning">§ 5. Felles gjeldsforfølgning</a></li>
+<li class="lvl3"><a href="#6-sluttavregning">§ 6. Sluttavregning</a></li>
+<li class="lvl3"><a href="#7-fullbyrdelse-av-krav">§ 7. Fullbyrdelse av krav</a></li>
+<li class="lvl3"><a href="#8-kommersielt-rimelige-vilkar">§ 8. Kommersielt rimelige vilkår</a></li>
+<li class="lvl3"><a href="#9-lovvalg">§ 9. Lovvalg</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#11-endringer-i-andre-lover">§ 11. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2019-03-15-6.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2004-03-26-17.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om finansiell sikkerhetsstillelse</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2004-03-26-17.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2004-03-26-17 <code>lov/2004-03-26-17</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om finansiell sikkerhetsstillelse</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Obligasjoner\nEU/EØS-rett &raquo; Finansielle tjenester\nKonkurs, gjeld og pant &raquo; Gjeldsforhandling. Konkurs</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2004</td></tr>
+<tr><th>Sist endret</th><td>LOV-2019-03-15-6 <code>lov/2019-03-15-6</code> fra 01.01.2020</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2004-03-26-17" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade-og-formal">§ 1. Virkeområde og formål</a></li>
+<li class="lvl3"><a href="#2-definisjoner-mv">§ 2. Definisjoner mv.</a></li>
+<li class="lvl3"><a href="#3-overdragelse-av-eiendomsrett">§ 3. Overdragelse av eiendomsrett</a></li>
+<li class="lvl3"><a href="#4-bruksrett-til-pantsatt-finansiell-sikkerhet">§ 4. Bruksrett til pantsatt finansiell sikkerhet</a></li>
+<li class="lvl3"><a href="#4-a-rettsvern">§ 4 a. Rettsvern</a></li>
+<li class="lvl3"><a href="#5-felles-gjeldsforflgning">§ 5. Felles gjeldsforfølgning</a></li>
+<li class="lvl3"><a href="#6-sluttavregning">§ 6. Sluttavregning</a></li>
+<li class="lvl3"><a href="#7-fullbyrdelse-av-krav">§ 7. Fullbyrdelse av krav</a></li>
+<li class="lvl3"><a href="#8-kommersielt-rimelige-vilkar">§ 8. Kommersielt rimelige vilkår</a></li>
+<li class="lvl3"><a href="#9-lovvalg">§ 9. Lovvalg</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse">§ 10. Ikrafttredelse</a></li>
+<li class="lvl3"><a href="#11-endringer-i-andre-lover">§ 11. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2004-03-26-17.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2004-03-26-17.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2004-03-26-17.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2004-03-26-17.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2004-03-26-17.html">Observerte kildeutgaver</a> · <a href="../historie/lov-om-finansiell-sikkerhetsstillelse.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/d953213d240550c057329b154be1da6346eeefa3/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2004</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/a38654ef2cac6c5bfe8ecd7c09522022d7cad361/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2acff3bc134462defaacd1433d9cd363b58aa3d7/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2004-03-26-17.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2004-03-26-17.html">Observerte kildeutgaver</a> · <a href="../historie/finansiell-sikkerhetsstillelse.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2004/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2004</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2007/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2010/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2010</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2004-03-26-17.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-finansiell-sikkerhetsstillelse">Lov om finansiell sikkerhetsstillelse</h1>
 <h3 id="1-virkeomrade-og-formal">§ 1. Virkeområde og formål</h3>
 <p>Lovens formål er å styrke det finansielle markedet og ivareta hensynet til finansiell stabilitet ved å bidra til sikker, ordnet og effektiv finansiell sikkerhetsstillelse.</p>
 <p>Loven gjelder avtaler om finansiell sikkerhetsstillelse.</p>
@@ -87,7 +156,7 @@ c. finansinstitusjoner, pensjonskasser, verdipapirforetak, verdipapirfond og for
 d. avregningssentraler, sentrale motparter og lignende lovregulerte institusjoner som handler med finansielle instrumenter som nevnt i <a href="lov-2007-06-29-75.html">verdipapirhandelloven</a> § 2-4 syvende ledd, eller juridiske personer som handler i egenskap av formuesforvalter eller etter fullmakt fra en eller flere personer, for eksempel tillitsmenn for obligasjonseiere i obligasjonsmarkedet eller spesialforetak opprettet i forbindelse med verdipapirisering.</p>
 <p>Loven kommer også til anvendelse på avtaler om finansiell sikkerhetsstillelse som er inngått mellom enhver juridisk person og en institusjon som nevnt i tredje ledd.</p>
 <p>Kongen kan bestemme at loven helt eller delvis skal gjelde for Svalbard og Jan Mayen.</p>
-<p><em>Endret ved lover 29 juni 2007 nr. 75 (ikr. 1 nov 2007 iflg. res. 29 juni 2007 nr. 752 ), 16 des 2016 nr. 91 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1607 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</em></p>
+<p class="note">Endret ved lover 29 juni 2007 nr. 75 (ikr. 1 nov 2007 iflg. res. 29 juni 2007 nr. 752 ), 16 des 2016 nr. 91 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1607 ), 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ).</p>
 <h3 id="2-definisjoner-mv">§ 2. Definisjoner mv.</h3>
 <p>I denne lov menes med:</p>
 <p>a. avtale om finansiell sikkerhetsstillelse: avtale om overdragelse av eiendomsrett til finansiell sikkerhet, herunder gjenkjøpsavtale, og avtale om pantsettelse av finansiell sikkerhet, med det formål å sikre oppfyllelsen av finansielle forpliktelser,
@@ -98,7 +167,7 @@ e. sikkerhetsstiller: den som overdrar eller pantsetter finansiell sikkerhet til
 f. sikkerhetshaver: den som erverver eiendomsrett til eller panterett i finansiell sikkerhet til sikkerhet for finansielle forpliktelser.
 g. gjeldsfordring: pengekrav som oppstår som følge av at en kredittinstitusjon bevilger kreditt i form av et lån. Lån til en forbruker regnes likevel bare som gjeldsfordring hvis sikkerhetshaveren eller sikkerhetsstilleren er en institusjon som nevnt i § 1 tredje ledd bokstav b.</p>
 <p>Etter denne lov anses sikkerhet ikke som stilt før rettsvern er etablert.</p>
-<p><em>Endret ved lover 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ), 16 des 2016 nr. 90 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1592 ).</em></p>
+<p class="note">Endret ved lover 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ), 16 des 2016 nr. 90 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1592 ).</p>
 <h3 id="3-overdragelse-av-eiendomsrett">§ 3. Overdragelse av eiendomsrett</h3>
 <p>Det er adgang til å avtale finansiell sikkerhetsstillelse i form av overdragelse av eiendomsrett til finansiell sikkerhet.</p>
 <h3 id="4-bruksrett-til-pantsatt-finansiell-sikkerhet">§ 4. Bruksrett til pantsatt finansiell sikkerhet</h3>
@@ -107,17 +176,17 @@ g. gjeldsfordring: pengekrav som oppstår som følge av at en kredittinstitusjon
 <p>Med tilsvarende sikkerhet menes:</p>
 <p>a. når sikkerheten består av kontant innskudd: betaling av samme beløp i samme valuta, og
 b. når sikkerheten består av finansielle instrumenter: finansielle instrumenter som er en del av samme utstedelse eller klasse, som er utstedt på samme nominelle beløp og i samme valuta og som ellers er av samme beskaffenhet som sikkerheten, eller andre aktiva dersom avtalen gir rett til å overføre slike ved en hendelse som påvirker de aktuelle finansielle instrumentene.</p>
-<p><em>Endret ved lov 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ).</em></p>
+<p class="note">Endret ved lov 18 nov 2011 nr. 42 (ikr. 1 jan 2012 iflg. res. 18 nov 2011 nr. 1107 ).</p>
 <h3 id="4-a-rettsvern">§ 4 a. Rettsvern</h3>
 <p>Norges Bank kan inngå avtale om finansiell sikkerhetsstillelse der den finansielle sikkerheten er en eller flere angitte gjeldsfordringer. Sikkerhetsstilleren beholder rådigheten over gjeldsfordringene, med mindre annet følger av det som er avtalt.</p>
 <p>Sikkerheten i fordringene gir også sikkerhet i sikkerhet for fordringene. Norges Bank har rettsvern for sin sikkerhet uten særskilt rettsvernsakt. Dette gjelder ikke der en gjeldsfordring er knyttet til et omsetnings- eller innløsningspapir.</p>
 <p>Departementet kan i forskrift gi nærmere regler om vilkårene for slik avtale om finansiell sikkerhetsstillelse, herunder om avgrensning og identifikasjon av lån og underliggende sikkerheter.</p>
-<p><em>Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1592 ).</em></p>
+<p class="note">Tilføyd ved lov 16 des 2016 nr. 90 (ikr. 1 jan 2017 iflg. res. 16 des 2016 nr. 1592 ).</p>
 <h3 id="5-felles-gjeldsforflgning">§ 5. Felles gjeldsforfølgning</h3>
 <p>Avtale om finansiell sikkerhetsstillelse kan inngås, finansiell sikkerhet kan stilles, og finansiell forpliktelse kan oppstå frem til tidspunktet for åpning av felles gjeldsforfølgning mot sikkerhetsstilleren. Er avtale inngått, sikkerhet stilt eller finansiell forpliktelse oppstått på dagen for, men etter tidspunktet for åpning av felles gjeldsforfølgning, står avtalen, sikkerhetsstillelsen eller kravet seg i forhold til fellesforfølgningen dersom sikkerhetshaveren var i aktsom god tro med hensyn til at fellesforfølgning var åpnet.</p>
 <p>En sikkerhetsstillelse kan ikke omstøtes alene på det grunnlag at den er stilt for en finansiell forpliktelse som allerede er pådratt.</p>
 <p>Med felles gjeldsforfølgning menes gjeldsforhandling etter <a href="lov-1984-06-08-58.html">konkursloven</a> , konkurs og offentlig administrasjon.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h3 id="6-sluttavregning">§ 6. Sluttavregning</h3>
 <p>Finansielle forpliktelser som omfattes av en avtale om finansiell sikkerhetsstillelse kan sluttavregnes på de vilkår som følger av skriftlig avtale mellom partene. Avtale om sluttavregning kan gjøres gjeldende uten hinder av <a href="lov-1984-06-08-59.html">dekningsloven</a> §§ 7-3 og 8-1 eller gjeldsbrevloven § 26 .</p>
 <p>Med sluttavregning menes at partenes forpliktelser ved inntreden av en på forhånd avtalt situasjon fastsettes til pengekrav i henhold til avtalte kriterier, og gjøres opp ved motregning. Den part som skylder det største beløpet plikter å betale en nettosum svarende til differansen mellom partenes forpliktelser til den annen part.</p>
@@ -134,6 +203,8 @@ b. når sikkerheten består av finansielle instrumenter: finansielle instrumente
 <p><em>1 Fra 1 juli 2004 iflg. res. 26 mars 2004 nr. 575 .</em></p>
 <h3 id="11-endringer-i-andre-lover">§ 11. Endringer i andre lover</h3>
 <p>Fra den tid loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

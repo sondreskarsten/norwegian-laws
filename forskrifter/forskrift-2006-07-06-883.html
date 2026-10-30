@@ -19,64 +19,127 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2006-07-06-883.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om fredningsområder for hummer" href="../feeds/forskrift-2006-07-06-883.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om fredningsområder for hummer</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2006-07-06-883</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2006-07-06</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-08-18-1703</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2006-07-06-883" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#1a-opphevet">§ 1a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5-bemyndigelse">§ 5. Bemyndigelse</a></li>
+<li class="lvl3"><a href="#6-straff">§ 6. Straff</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse">§ 7. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#kartvedlegg">Kartvedlegg</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-08-18-1703.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-07-06-883.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fredningsområder for hummer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-07-06-883.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2006-07-06-883 <code>forskrift/2006-07-06-883</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>06.07.2006</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-08-18-1703 <code>forskrift/2026-08-18-1703</code> fra 18.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2006-07-06-883" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1">§ 1</a></li>
+<li class="lvl3"><a href="#1a-opphevet">§ 1a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#3">§ 3</a></li>
+<li class="lvl3"><a href="#4">§ 4</a></li>
+<li class="lvl3"><a href="#5-bemyndigelse">§ 5. Bemyndigelse</a></li>
+<li class="lvl3"><a href="#6-straff">§ 6. Straff</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse">§ 7. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#kartvedlegg">Kartvedlegg</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-07-06-883.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2006-07-06-883.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2006-07-06-883.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2006-07-06-883.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2006-07-06-883.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-07-06-883.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2006-07-06-883.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2006-07-06-883.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2006-07-06-883.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fredningsomrader-for-hummer">Forskrift om fredningsområder for hummer</h1>
 <h3 id="1">§ 1</h3>
 <p>Det er forbudt å fiske med andre redskaper enn håndsnøre, fiskestang, juksa, dorg eller snurpenot i områdene avgrenset av følgende posisjoner (jf. kartvedlegg): Angivelse i grader, minutter og desimalsekunder Angivelse i grader og desimalminutter Risør 58° 42′ 46,41″ N 9° 13′ 56,89″ Ø 58° 42,773′ N 9° 13,948′ Ø 58° 42′ 37,50″ N 9° 14′ 07,68″ Ø 58° 42,625′ N 9° 14,128′ Ø 58° 42′ 58,47″ N 9° 14′ 44,93″ Ø 58° 42,974′ N 9° 14,749′ Ø 58° 43′ 17,81″ N 9° 14′ 52,02″ Ø 58° 43,297′ N 9° 14,867′ Ø 58° 43′ 23,00″ N 9° 14′ 51,71″ Ø 58° 43,383′ N 9° 14,862′ Ø 58° 43′ 29,74″ N 9° 14′ 49,93″ Ø 58° 43,496′ N 9° 14,832′ Ø 58° 43′ 32,03″ N 9° 14′ 40,21″ Ø 58° 43,534′ N 9° 14,670′ Ø Bolærne 59° 13′ 26,146″ N 10° 31′ 9,626″ Ø 59° 13,436′ N 10° 31,160′ Ø 59° 13′ 49,140″ N 10° 32′ 14,945″ Ø 59° 13,819′ N 10° 32,249′ Ø 59° 13′ 32,399″ N 10° 32′ 48,540″ Ø 59° 13,540′ N 10° 32,809′ Ø 59° 13′ 9,230″ N 10° 32′ 41,347″ Ø 59° 13,154′ N 10° 32,689′ Ø 59° 12′ 27,355″ N 10° 33′ 30,533″ Ø 59° 12,456′ N 10° 33,509′ Ø 59° 12′ 19,424″ N 10° 32′ 1,698″ Ø 59° 12,324′ N 10° 32,028′ Ø 59° 12′ 41,280″ N 10° 31′ 32,160″ Ø 59° 12,688′ N 10° 31,536′ Ø 59° 12′ 59,251″ N 10° 31′ 15,681″ Ø 59° 12,988′ N 10° 31,261′ Ø</p>
 <p>Mellom det fjerde og det femte punktet samt mellom det åttende og niende punktet følger grensen sjølinjen. Sandø 59° 5′ 9,282″ N 10° 28′ 6,022″ Ø 59° 5,155′ N 10° 28,100′ Ø 59° 5′ 36,644″ N 10° 29′ 22,049″ Ø 59° 5,611′ N 10° 29,367′ Ø 59° 5′ 28,442″ N 10° 30′ 22,140″ Ø 59° 5,474′ N 10° 30,369′ Ø 59° 4′ 29,165″ N 10° 31′ 20,761″ Ø 59° 4,486′ N 10° 31,346′ Ø 59° 4′ 21,546″ N 10° 28′ 22,365″ Ø 59° 4,359′ N 10° 28,373′ Ø</p>
@@ -128,26 +191,26 @@ Rauerfjorden i Fredrikstad kommune 59° 15′ 10,63″ N 10° 42′ 14,25″ Ø 
 Drøbaksundet i Asker og Frogn kommuner 59° 40′ 42,29″ N 10° 36′ 32,88″ Ø 59° 40,705′ N 10° 36,548′ Ø 59° 40′ 00,67″ N 10° 36′ 48,66″ Ø 59° 40,011′ N 10° 36,811′ Ø 59° 39′ 29,23″ N 10° 36′ 37,09″ Ø 59° 39,487′ N 10° 36,618′ Ø 59° 39′ 28,37″ N 10° 36′ 13,83″ Ø 59° 39,473′ N 10° 36,230′ Ø 59° 39′ 32,52″ N 10° 36′ 12,41″ Ø 59° 39,542′ N 10° 36,207′ Ø 59° 39′ 56,39″ N 10° 36′ 00,76″ Ø 59° 39,940′ N 10° 36,013′ Ø 59° 40′ 01,37″ N 10° 36′ 20,51″ Ø 59° 40,023′ N 10° 36,342′ Ø 59° 40′ 21,31″ N 10° 36′ 19,82″ Ø 59° 40,355′ N 10° 36,330′ Ø
 Endret ved forskrifter 19 sep 2006 nr. 1082 , 28 sep 2015 nr. 1105 (i kraft 1 okt 2015), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016), 19 sep 2017 nr. 1438 (i kraft 1 okt 2017), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018), 12 sep 2019 nr. 1275 (i kraft 1 okt 2019), 12 sep 2020 nr. 1801 (i kraft 1 okt 2020), 24 sep 2021 nr. 2891 (i kraft 1 okt 2021), 16 sep 2022 nr. 1590 (i kraft 1 okt 2022), 28 sep 2023 nr. 1539 (i kraft 1 okt 2023), 11 des 2023 nr. 1999 , 26 sep 2024 nr. 2302 (i kraft 1 okt 2024), 2 juli 2025 nr. 1440 , 26 sep 2025 nr. 1944 , 18 aug 2026 nr. 1703 .</em></p>
 <h3 id="1a-opphevet">§ 1a. (Opphevet)</h3>
-<p><em>Tilføyd ved forskrift 7 mai 2024 nr. 748 , endret ved forskrifter 2 juli 2025 nr. 1440 , 18 des 2025 nr. 2797 , opphevet ved forskrift 18 aug 2026 nr. 1703 .</em></p>
+<p class="note">Tilføyd ved forskrift 7 mai 2024 nr. 748 , endret ved forskrifter 2 juli 2025 nr. 1440 , 18 des 2025 nr. 2797 , opphevet ved forskrift 18 aug 2026 nr. 1703 .</p>
 <h3 id="2">§ 2</h3>
 <p>Det er forbudt å fiske med teiner og ruser langs hele sjølinjen ned til 50 meters dyp regnet fra laveste vannstand i områdene mellom følgende posisjoner (jf. kartvedlegg): Voss herad Grense mot Kvam Gammel grense mot Ullensvang Grader, minutter og desimalsekunder 60° 26′ 45,794″ N 6° 29′ 42,356″ Ø Grader og desimalminutter 60° 26,763′ N 6° 29,706′ Ø Grader, minutter og desimalsekunder 60° 28′ 5,782″ N 6° 38′ 9,84″ Ø Grader og desimalminutter 60° 28,096′ N 6° 38,164′ Ø Ulgenes Porsvik Grader, minutter og desimalsekunder 60° 25′ 51,712″ N 6° 41′ 28,018″ Ø Grader og desimalminutter 60° 25,862′ N 6° 41,467′ Ø Grader, minutter og desimalsekunder 60° 26′ 5,738″ N 6° 42′ 10,78″ Ø Grader og desimalminutter 60° 26,096′ N 6° 42,180′ Ø Ulvik herad Grense mot Voss Grense mot Eidfjord Grader, minutter og desimalsekunder 60° 28′ 37,531″ N 6° 47′ 40,057″ Ø Grader og desimalminutter 60° 28,626′ N 6° 47,668′ Ø Grader, minutter og desimalsekunder 60° 29′ 31,412″ N 6° 55′ 34,376″ Ø Grader og desimalminutter 60° 29,524′ N 6° 55,573′ Ø Eidfjord kommunek Brimnes ferjekai Gammel grense mot Ullensvang Grader, minutter og desimalsekunder 60° 28′ 17,311″ N 6° 54′ 30,007″ Ø Grader og desimalminutter 60° 28,286′ N 6° 54,500′ Ø Grader, minutter og desimalsekunder 60° 28′ 27,609″ N 6° 51′ 2,021″ Ø Grader og desimalminutter 60° 28,460′ N 6° 51,034′ Ø Ologselva Grense mot Ulvik Grader, minutter og desimalsekunder 60°30′ 11,475″ N 6° 58′ 58,865″ Ø Grader og desimalminutter 60° 30,191′ N 6° 58,981′ Ø Grader, minutter og desimalsekunder 60° 29′ 31,412″ N 6° 55′ 34,376″ Ø Grader og desimalminutter 60° 29,524′ N 6° 55,573′ Ø Ullensvang kommune Nornes Aksnes Grader, minutter og desimalsekunder 60° 12′ 15,065″ N 6° 34′ 4,812″ Ø Grader og desimalminutter 60° 12,251′ N 6° 34,080′ Ø Grader minutter og desimalsekunder 60° 13′ 30,808″ N 6° 34′ 17,646″ Ø Grader og desimalminutter 60° 13,513′ N 6° 34,294′ Ø Djupevik Klokkargarden Grader, minutter og desimalsekunder 60° 17′ 20,655″ N 6° 37′ 43,334″ Ø Grader og desimalminutter 60° 17,344′ N 6° 37,722′ Ø Grader, minutter og desimalsekunder 60° 18′ 54,433″ N 6° 39′ 9,158″ Ø Grader og desimalminutter 60° 18,907′ N 6° 39,153′ Ø Kyrkjenes Hestagilet Grader, minutter og desimalsekunder 60° 23′ 57,357″ N 6° 42′ 49,211″ Ø Grader og desimalminutter 60°23,956′ N 6° 42,820′ Ø Grader minutter og desimalsekunder 60° 24′ 42,276″ N 6° 44′ 21,379″ Ø Grader og desimalminutter 60° 24,705′ N 6° 44,356′ Ø Utne ferjekai Steinkrossen Grader, minutter og desimalsekunder 60° 25′ 27,878″ N 6° 37′ 15,758″ Ø Grader og desimalminutter 60° 25,465′ N 6° 37,263′ Ø Grader, minutter og desimalsekunder 60° 26′ 9,554″ N 6° 33′ 34,258″ Ø Grader og desimalminutter 60° 26,159′ N 6° 33,571′ Ø</p>
-<p><em>Tilføyd ved forskrift 9 sep 2016 nr. 1087 (i kraft 1 okt 2016 med virkning til og med 31 des 2025), endret ved forskrift 18 des 2025 nr. 2797 .</em></p>
+<p class="note">Tilføyd ved forskrift 9 sep 2016 nr. 1087 (i kraft 1 okt 2016 med virkning til og med 31 des 2025), endret ved forskrift 18 des 2025 nr. 2797 .</p>
 <h3 id="3">§ 3</h3>
 <p>Det er forbudt å fiske med andre redskaper enn håndsnøre, fiskestang, juksa, dorg eller snurpenot langs hele sjølinjen ned til 50 meters dyp regnet fra laveste vannstand i områdene mellom følgende posisjoner angitt i grader og desimalminutter (jf. kartvedlegg): Høyanger kommune Strandselvi Instevik (Ytste Vikeelva) 61° 07,731′ N 5° 56,772′ Ø 61° 07.509′ N 5° 59.634 Ø Norevik vest Norevik aust 61° 09,996′ N 5° 45,330′ Ø 61° 09,751′ N 5° 46,394′ Ø Balestrand kommune Kongsnes Kvist 61° 09,899′ N 6° 12,252′ Ø 61° 09,469′ N 6° 13,407′ Ø Målsnes Kallestad 61° 08,175′ N 6° 31,702′ Ø 61° 08,872′ N 6° 32,544′ Ø Leikanger og Balestrand kommuner Kjerringelvi (Balestrand kommune) Kvinnafossen 61° 14,059′ N 6° 35,249′ Ø 61° 12,477′ N 6° 38.901′ Ø Grindselvi Fosshagaelvi 61° 10,925′ N 6° 44,668′ Ø 61° 10,905′ N 6° 45,729′ Ø Sogndal kommune Kommunegrense Leikanger Fiksnes 61° 10,476′ N 6° 53,227′ Ø 61° 09,673′ N 6° 54,802′ Ø Mannheller Skarduri 61° 09,616′ N 7° 20,199′ Ø 61° 10.301′ N 7° 22,383′ Ø Lærdal kommune Reinsåna Ferjekaia på Revsnes 61° 07,878′ N 7° 17,746′ Ø 61° 08,823′ N 7° 14,752′ Ø Buelvi i Buene Luftspennet over Aurlandsfjorden v/ Knubben 61° 04,675′ N 7° 02,466′ Ø 61° 04,148 N 7° 02,344′ Ø Vik kommune Inste Trettetunga Straumsneset 61° 06,061′ N 6° 52,435′ Ø 61° 07,677′ N 6° 52,509′ Ø Bergjuv Steinagildet 61° 09,053′ N 6° 41,922′ Ø 61° 09,368′ N 6° 40,980′ Ø Limmesand (ved molo) Eitrelvi – område Eitreneset 61° 04,893′ N 6° 27,754′ Ø 61° 03,975′ N 6° 26,089′ Ø Midtlielvi (ved Hanekam) Gjelaneset – Gila (Stavedalsbukta) 61° 06,046′ N 6° 15,907′ Ø 61° 06,063′ N 6° 12,854′ Ø</p>
-<p><em>Tilføyd ved forskrift 27 sep 2018 nr. 1534 (i kraft 1 okt 2018 og gjelder til og med 31 des 2027).</em></p>
+<p class="note">Tilføyd ved forskrift 27 sep 2018 nr. 1534 (i kraft 1 okt 2018 og gjelder til og med 31 des 2027).</p>
 <h3 id="4">§ 4</h3>
 <p>Det er forbudt å fiske med hummerteiner langs hele sjølinjen ned til 50 meters dyp regnet fra laveste vannstand i områdene avgrenset av følgende posisjoner angitt i grader og desimalminutter (jf. kartvedlegg): Aurlandsfjorden Luftspenn Dyrastadneset i Vik kommune Luftspenn Knubben i Lærdal kommune 61° 03,965′ N 7° 00,450′ Ø 61° 04,148′ N 7° 02,344′ Ø Sogndalsfjorden Nordnes lykt Hagastrondi 61° 09,446′ N 6° 59,758′ Ø 61° 09.329′ N 7° 00.202′ Ø Lustrafjorden Kvarvnes lykt v/kommunegrense Årdal Ombandsneset v/ kommunegrense Sogndal 61° 12,418′ N 7° 23,601′ Ø 61° 10.947′ N 7° 23.728′ Ø</p>
 <p>All fangst av hummer i fredningsområdet skal straks settes tilbake i sjøen på fangststedet.</p>
-<p><em>Tilføyd ved forskrift 27 sep 2018 nr. 1534 (i kraft 1 okt 2018 og gjelder til og med 31 des 2027), endret ved forskrift 28 sep 2023 nr. 1539 (i kraft 1 okt 2023).</em></p>
+<p class="note">Tilføyd ved forskrift 27 sep 2018 nr. 1534 (i kraft 1 okt 2018 og gjelder til og med 31 des 2027), endret ved forskrift 28 sep 2023 nr. 1539 (i kraft 1 okt 2023).</p>
 <h3 id="5-bemyndigelse">§ 5. Bemyndigelse</h3>
 <p>Fiskeridirektoratet kan fastsette nye fredningsområder, forlenge gyldigheten av dem, endre grenser, oppheve fredningsområder og endre restriksjonene som gjelder i dem.</p>
-<p><em>Tilføyd ved forskrift 28 sep 2015 nr. 1105 (i kraft 1 okt 2015), endret ved forskrifter 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 2), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 3).</em></p>
+<p class="note">Tilføyd ved forskrift 28 sep 2015 nr. 1105 (i kraft 1 okt 2015), endret ved forskrifter 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 2), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 3).</p>
 <h3 id="6-straff">§ 6. Straff</h3>
 <p>Den som forsettlig eller uaktsomt overtrer bestemmelser gitt i eller i medhold av denne forskrift, straffes etter lov 6. juni 2008 nr. 37 om forvaltning av viltlevande marine ressursar (havressurslova) § 61 , § 64 og § 65 . På samme måte straffes medvirkning og forsøk.</p>
-<p><em>Endret ved forskrifter 12 des 2012 nr. 1201 , 28 sep 2015 nr. 1105 (i kraft 1 okt 2015, tidligere § 2), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 3), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 4).</em></p>
+<p class="note">Endret ved forskrifter 12 des 2012 nr. 1201 , 28 sep 2015 nr. 1105 (i kraft 1 okt 2015, tidligere § 2), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 3), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 4).</p>
 <h3 id="7-ikrafttredelse">§ 7. Ikrafttredelse</h3>
 <p>Denne forskrift trer i kraft straks.</p>
-<p><em>Endret ved forskrifter 28 sep 2015 nr. 1105 (i kraft 1 okt 2015, tidligere § 3), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 4), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 5).</em></p>
+<p class="note">Endret ved forskrifter 28 sep 2015 nr. 1105 (i kraft 1 okt 2015, tidligere § 3), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016, tidligere § 4), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018, tidligere § 5).</p>
 <h2 id="kartvedlegg">Kartvedlegg</h2>
 <p>Fredningsområde for hummer Langåra: pdf-fil</p>
 <p>Fredningsområde for Nesvika–Ertnsskjeret: pdf-fil</p>
@@ -161,6 +224,8 @@ Endret ved forskrifter 19 sep 2006 nr. 1082 , 28 sep 2015 nr. 1105 (i kraft 1 ok
 <p>Fredningsområde for hummer Nordre Bunnefjorden: pdf-fil</p>
 <p>Fredningsområde for hummer Søndre Bunnefjorden: pdf-fil</p>
 <p>Vedlegget tilføyd ved forskrift 19 sep 2006 nr. 1082 , endret ved forskrifter 28 sep 2015 nr. 1105 (i kraft 1 okt 2015), 9 sep 2016 nr. 1087 (i kraft 1 okt 2016), 19 sep 2017 nr. 1438 (i kraft 1 okt 2017), 27 sep 2018 nr. 1534 (i kraft 1 okt 2018), 12 sep 2019 nr. 1275 (i kraft 1 okt 2019), 12 sep 2020 nr. 1801 (i kraft 1 okt 2020), 24 sep 2021 nr. 2891 (i kraft 1 okt 2021), 16 sep 2022 nr. 1590 (i kraft 1 okt 2022), 28 sep 2023 nr. 1539 (i kraft 1 okt 2023), 7 mai 2024 nr. 748 , 26 sep 2024 nr. 2302 (i kraft 1 okt 2024), 26 sep 2025 nr. 1944 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

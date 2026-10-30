@@ -19,64 +19,137 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2001-06-08-570.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om tomtefeste m.m." href="../feeds/forskrift-2001-06-08-570.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Forskrift om tomtefeste m.m.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2001-06-08-570</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2002-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-10-08-2958</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2001-06-08-570" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-festeavgift">Kapittel I. Festeavgift</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2-innkrevjing-av-festeavgift-pa-grunnlag-av-eldre-festeavtaler">§ 2. (Innkrevjing av festeavgift på grunnlag av eldre festeavtaler)</a></li>
+<li class="lvl2"><a href="#kapittel-ii-innlysing-og-lenging-av-festetomt">Kapittel II. Innløysing og lenging av festetomt</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4-innlysing-av-tomt-til-fritidshus-nar-tomta-hyrer-til-ein-landbrukseigedom">§ 4. (Innløysing av tomt til fritidshus når tomta høyrer til ein landbrukseigedom)</a></li>
+<li class="lvl4"><a href="#5-kva-som-skal-flgje-med-ved-innlysing-ved-punktfeste-og-i-omrade-der-det-er-festa-bort-tomter-til-fritidshus-etter-ei-samla-plan">§ 5. (Kva som skal følgje med ved innløysing ved punktfeste og i område der det er festa bort tomter til fritidshus etter ei samla plan)</a></li>
+<li class="lvl4"><a href="#6-om-utsetjing-av-avgjerd-om-kva-som-skal-flgje-med-ved-innlysing">§ 6. (Om utsetjing av avgjerd om kva som skal følgje med ved innløysing)</a></li>
+<li class="lvl4"><a href="#7-sknad-om-oppfrisking-ved-oversitjing-av-fristen-for-a-krevje-innlysing">§ 7. (Søknad om oppfrisking ved oversitjing av fristen for å krevje innløysing)</a></li>
+<li class="lvl2"><a href="#kapittel-iii-regulering-og-avlysing-av-terminvis-betaling-etter-avhendingslova-2-10">Kapittel III. Regulering og avløysing av terminvis betaling etter avhendingslova § 2-10</a></li>
+<li class="lvl4"><a href="#8-regulering-av-terminvis-pengesum">§ 8. (Regulering av terminvis pengesum)</a></li>
+<li class="lvl4"><a href="#9-avlysing-av-terminvis-betaling">§ 9. (Avløysing av terminvis betaling)</a></li>
+<li class="lvl2"><a href="#kapittel-iv-ikraftsetjing-mm">Kapittel IV. Ikraftsetjing m.m.</a></li>
+<li class="lvl4"><a href="#10-ikraftsetjing-oppheving-av-forskrifter">§ 10. (Ikraftsetjing. Oppheving av forskrifter.)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-10-08-2958.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-06-08-570.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tomtefeste m.m.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-06-08-570.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2001-06-08-570 <code>forskrift/2001-06-08-570</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om tomtefeste m.m.</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2002</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-10-08-2958 <code>forskrift/2021-10-08-2958</code> fra 01.11.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2001-06-08-570" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-festeavgift">Kapittel I. Festeavgift</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2-innkrevjing-av-festeavgift-pa-grunnlag-av-eldre-festeavtaler">§ 2. (Innkrevjing av festeavgift på grunnlag av eldre festeavtaler)</a></li>
+<li class="lvl2"><a href="#kapittel-ii-innlysing-og-lenging-av-festetomt">Kapittel II. Innløysing og lenging av festetomt</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4-innlysing-av-tomt-til-fritidshus-nar-tomta-hyrer-til-ein-landbrukseigedom">§ 4. (Innløysing av tomt til fritidshus når tomta høyrer til ein landbrukseigedom)</a></li>
+<li class="lvl4"><a href="#5-kva-som-skal-flgje-med-ved-innlysing-ved-punktfeste-og-i-omrade-der-det-er-festa-bort-tomter-til-fritidshus-etter-ei-samla-plan">§ 5. (Kva som skal følgje med ved innløysing ved punktfeste og i område der det er festa bort tomter til fritidshus etter ei samla plan)</a></li>
+<li class="lvl4"><a href="#6-om-utsetjing-av-avgjerd-om-kva-som-skal-flgje-med-ved-innlysing">§ 6. (Om utsetjing av avgjerd om kva som skal følgje med ved innløysing)</a></li>
+<li class="lvl4"><a href="#7-sknad-om-oppfrisking-ved-oversitjing-av-fristen-for-a-krevje-innlysing">§ 7. (Søknad om oppfrisking ved oversitjing av fristen for å krevje innløysing)</a></li>
+<li class="lvl2"><a href="#kapittel-iii-regulering-og-avlysing-av-terminvis-betaling-etter-avhendingslova-2-10">Kapittel III. Regulering og avløysing av terminvis betaling etter avhendingslova § 2-10</a></li>
+<li class="lvl4"><a href="#8-regulering-av-terminvis-pengesum">§ 8. (Regulering av terminvis pengesum)</a></li>
+<li class="lvl4"><a href="#9-avlysing-av-terminvis-betaling">§ 9. (Avløysing av terminvis betaling)</a></li>
+<li class="lvl2"><a href="#kapittel-iv-ikraftsetjing-mm">Kapittel IV. Ikraftsetjing m.m.</a></li>
+<li class="lvl4"><a href="#10-ikraftsetjing-oppheving-av-forskrifter">§ 10. (Ikraftsetjing. Oppheving av forskrifter.)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-06-08-570.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2001-06-08-570.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2001-06-08-570.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2001-06-08-570.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2001-06-08-570.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-06-08-570.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2001-06-08-570.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2001-06-08-570.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2001-06-08-570.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tomtefeste-mm">Forskrift om tomtefeste m.m.</h1>
 <h2 id="kapittel-i-festeavgift">Kapittel I. Festeavgift</h2>
 <h4 id="1">§ 1</h4>
 <p><em>(Opphevd)
@@ -108,7 +181,7 @@ h. uttak av jord, sand, stein og torv i samband med jord-, skog- eller hagebruk 
 i. sanking av bær, konglar, mose, tang, tare og liknande i samband med jord-, skog- eller hagebruk etter første punktum og tredje punktum bokstav a til e, og
 j. utføring av tenester for andre med monalege driftsmiddel som hovudsakleg blir nytta i eige jord-, skog- eller hagebruk, eller utleige av slike driftsmiddel, dersom verksemda ikkje blir utøvd som sjølvstendig næring.</p>
 <p>Paragrafen her gjeld ikkje for landbrukseigedom som er eigd av stat, kommune, fylkeskommune eller av føretak som stat, kommune eller fylkeskommune deltek i eller eig heilt eller delvis.</p>
-<p><em>Endra ved forskrifter 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifa for overgangsreglar), 24 juni 2005 nr. 675 (se endringsforskrifta for overgangsreglar), 30 juni 2006 nr. 728 (i kraft 1 juli 2006), 19 juni 2015 nr. 681 (i kraft 1 juli 2015), 4 sep 2015 nr. 1030 .</em></p>
+<p class="note">Endra ved forskrifter 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifa for overgangsreglar), 24 juni 2005 nr. 675 (se endringsforskrifta for overgangsreglar), 30 juni 2006 nr. 728 (i kraft 1 juli 2006), 19 juni 2015 nr. 681 (i kraft 1 juli 2015), 4 sep 2015 nr. 1030 .</p>
 <h4 id="5-kva-som-skal-flgje-med-ved-innlysing-ved-punktfeste-og-i-omrade-der-det-er-festa-bort-tomter-til-fritidshus-etter-ei-samla-plan">§ 5. (Kva som skal følgje med ved innløysing ved punktfeste og i område der det er festa bort tomter til fritidshus etter ei samla plan)</h4>
 <p>I tilhøve som nemnt i tomtefestelova § 37 tredje leddet kan statsforvaltaren avgjere kva som skal følgje med ved innløysinga, dersom ein part ber om det. Dersom innløysinga handsamast ved skjønn etter tomtefestelova § 37 andre leddet, kan statsforvaltaren heilt eller delvis overlate til skjønnet å treffe avgjerd etter første punktum. Justisdepartementet er klageinstans for avgjerd som statsforvaltaren har gjort.</p>
 <p>Så langt ikkje anna følgjer av avtale om korleis innløysing skal gjennomførast, og innanfor det som følgjer av bindande vedtak etter plan- og bygningslovgjevinga, kan statsforvaltaren eller skjønnet i ei sak etter første ledd ta alle avgjerder som trengst for å</p>
@@ -118,22 +191,24 @@ c. halde oppe rådvaldsband over tomtearealet som følgjer av det tidlegare rett
 d. fastsetje rett og plikt for innløysaren til å delta i drifta og finansieringa av fellesanlegg og fellestiltak som er etablert i området og som har vore og framleis vil kunne nyttast av innløysaren, og
 e. fastsetje slike særrettar som ved innløysing av punktfeste er naudsynte for å halde oppe bruken av bortfestaren sin attverande eigedom, og for at brukarar av den attverande eigedom ikkje skal påførast særskilt tap eller kostnad ved at punktfestet blir ei sjølveigande tomt.</p>
 <p>Før statsforvaltaren treffer avgjerd eller overlet saka til skjønnet, skal statsforvaltaren innhente fråsegn frå partane i festehøvet og den kommunen som skal handsame søknad om delingsløyve etter plan- og bygningslova. Ved innløysing i allmenning skal fråsegn også innhentast frå fjellstyre og allmenningsstyre. Vidare skal statsforvaltaren vurdere om det trengst samtykke frå eller bør hentast inn fråsegn frå andre offentlege organ. Hvis saka er overlate til skjønnet, skal kommunen der området ligg, varslast til skjønnet som blir halde og har rett til å møte. I allmenning gjeld dette også for fjellstyret og allmenningsstyret. Einkvar som har festerett til tomt i eit planområde eller ei allmenning, har også rett til å møte, jamvel om han ikkje har kravd innløysing.</p>
-<p><em>Endra ved forskrifter 11 okt 2002 nr. 1094 (i kraft 1 jan 2003), 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifta for overgangsreglar), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endra ved forskrifter 11 okt 2002 nr. 1094 (i kraft 1 jan 2003), 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifta for overgangsreglar), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h4 id="6-om-utsetjing-av-avgjerd-om-kva-som-skal-flgje-med-ved-innlysing">§ 6. (Om utsetjing av avgjerd om kva som skal følgje med ved innløysing)</h4>
 <p>Før statsforvaltaren fastset kva som skal følgje med ved innløysing av tomt i eit område der tomter er festa bort etter ein samla plan, skal han søkje å klarleggje om også andre festarar i området vil be om at statsforvaltaren fastset kva som skal følgje med ved ei innløysing. I så fall skal alle sakene så langt råd er takast opp og avgjerast under eitt. Avgjerda kan utsetjast i inntil ti år dersom omsynet til sams førehaving gjer dette turvande, men ikkje lenger enn fem år utan at det ligg føre særlege grunnar.</p>
-<p><em>Endra ved forskrifter 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifta for overgangsreglar), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endra ved forskrifter 15 okt 2004 nr. 1337 (i kraft 1 nov 2004, se endringsforskrifta for overgangsreglar), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h4 id="7-sknad-om-oppfrisking-ved-oversitjing-av-fristen-for-a-krevje-innlysing">§ 7. (Søknad om oppfrisking ved oversitjing av fristen for å krevje innløysing)</h4>
 <p>Høvet som Kongen har etter lov 20. desember 1996 nr. 106 om tomtefeste § 36 andre ledd til å gje oppfrisking ved orsakande oversitjing av fristen for å krevje innløysing, blir lagt til statsforvaltaren. Justisdepartementet er klageinstans for fylkesmannens vedtak om å gje eller avslå oppfrisking.</p>
 <p><em>Opphevd frå 1 nov 2004, jf. forskrift 15 okt 2004 nr. 1337 for overgangsreglar, tilføyd igjen ved forskrift 24 juni 2005 nr. 675 (se endringsforskrifta for overgangsreglar), endra ved forskrifter 21 des 2007 nr. 1607 (i kraft 1 jan 2008, jf endringsforskrifta for overgangsreglar), 19 juni 2015 nr. 681 (i kraft 1 juli 2015), 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
 <h2 id="kapittel-iii-regulering-og-avlysing-av-terminvis-betaling-etter-avhendingslova-2-10">Kapittel III. Regulering og avløysing av terminvis betaling etter avhendingslova § 2-10</h2>
 <h4 id="8-regulering-av-terminvis-pengesum">§ 8. (Regulering av terminvis pengesum)</h4>
 <p>Regulering i samsvar med endringa i pengeverdien av den terminvise pengesummen etter avhendingslova § 2-10 første leddet, jf. tredje leddet, skal skje i samsvar med utviklinga i (den berekna) konsumprisindeksen frå Statistisk sentralbyrå. I avtalehøve frå før 1865 skal ein regulere den terminvise pengesummen ut frå utviklinga i konsumprisindeksen frå 1865.</p>
-<p><em>Endra ved forskrift 15 okt 2004 nr. 1337 (i kraft 1 nov 2004).</em></p>
+<p class="note">Endra ved forskrift 15 okt 2004 nr. 1337 (i kraft 1 nov 2004).</p>
 <h4 id="9-avlysing-av-terminvis-betaling">§ 9. (Avløysing av terminvis betaling)</h4>
 <p>Ved fastsetjing av avløysingssum etter avhendingslova § 2-10 andre leddet, jf. tredje leddet, skal det leggjast til grunn ei rente på 5% når ein skal finne kapitalverdien.</p>
 <h2 id="kapittel-iv-ikraftsetjing-mm">Kapittel IV. Ikraftsetjing m.m.</h2>
 <h4 id="10-ikraftsetjing-oppheving-av-forskrifter">§ 10. (Ikraftsetjing. Oppheving av forskrifter.)</h4>
 <p>Forskrifta her tek til å gjelde 1. januar 2002. Frå same tid held forskrift av 5. desember 1986 nr. 2166 om innløysing av festetomter til bustadhus og fritidshus opp å gjelde, med dei unntaka som følgjer av tomtefestelova § 44 tredje leddet. Forskrift av 21. desember 1990 nr. 1023 om forhøyelse av festeavgifter opphevast også frå same dato.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

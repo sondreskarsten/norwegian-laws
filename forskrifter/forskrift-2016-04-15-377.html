@@ -19,68 +19,231 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-04-15-377.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om EØS-krav til radioutstyr" href="../feeds/forskrift-2016-04-15-377.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-digitaliserings--og-forvaltningsdepartementet.html">Digitaliserings- og forvaltningsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-digitaliserings--og-forvaltningsdepartementet.html">Digitaliserings- og forvaltningsdepartementet</a> &rsaquo;
 <span>Forskrift om EØS-krav til radioutstyr</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-04-15-377</code></dd>
-<dt>Departement</dt><dd>Digitaliserings- og forvaltningsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-06-13</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-04-17-632</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-04-15-377" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-radioutstyr">Kapittel 2. Krav til radioutstyr</a></li>
+<li class="lvl4"><a href="#4-vilkar-for-a-kunne-gjre-radioutstyr-tilgjengelig-pa-markedet-og-sette-det-i-drift">§ 4. Vilkår for å kunne gjøre radioutstyr tilgjengelig på markedet og sette det i drift</a></li>
+<li class="lvl4"><a href="#5-utstillinger-demonstrasjoner-ol">§ 5. Utstillinger, demonstrasjoner o.l.</a></li>
+<li class="lvl4"><a href="#6-grunnleggende-krav">§ 6. Grunnleggende krav</a></li>
+<li class="lvl4"><a href="#7-spesielle-krav-til-radioutstyr-som-omfattes-av-regional-avtale-om-radiotelefonitjeneste-pa-elver-kanaler-og-innsjer">§ 7. Spesielle krav til radioutstyr som omfattes av regional avtale om radiotelefonitjeneste på elver, kanaler og innsjøer</a></li>
+<li class="lvl4"><a href="#8-spesielle-krav-til-radioutstyr-som-er-beregnet-for-bruk-om-bord-pa-farty-som-ikke-omfattes-avsolas-74">§ 8. Spesielle krav til radioutstyr som er beregnet for bruk om bord på fartøy som ikke omfattes avSOLAS-74</a></li>
+<li class="lvl4"><a href="#9-spesielle-krav-til-maritimt-radioutstyr-i-tjenesten-automatic-identification-system-ais">§ 9. Spesielle krav til maritimt radioutstyr i tjenesten Automatic Identification System (AIS)</a></li>
+<li class="lvl4"><a href="#10-spesielle-krav-til-sender-skeutstyr-for-lokalisering-av-personer-tatt-av-snras">§ 10. Spesielle krav til sender-/søkeutstyr for lokalisering av personer tatt av snøras</a></li>
+<li class="lvl4"><a href="#11-spesielle-krav-til-ndpeilesendere">§ 11. Spesielle krav til nødpeilesendere</a></li>
+<li class="lvl4"><a href="#11a-spesielle-krav-til-handholdte-mobiltelefoner-for-a-sikre-lokalisering-ved-ndkommunikasjon">§ 11a. Spesielle krav til håndholdte mobiltelefoner for å sikre lokalisering ved nødkommunikasjon</a></li>
+<li class="lvl4"><a href="#11b-beskyttelse-av-nettet-beskyttelse-av-personopplysninger-og-beskyttelse-mot-svindel">§ 11b. Beskyttelse av nettet, beskyttelse av personopplysninger og beskyttelse mot svindel</a></li>
+<li class="lvl4"><a href="#11c-krav-til-felles-ladegrensesnitt">§ 11c. Krav til felles ladegrensesnitt</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-til-markedsdeltakerne">Kapittel 3. Krav til markedsdeltakerne</a></li>
+<li class="lvl4"><a href="#12-produsent">§ 12. Produsent</a></li>
+<li class="lvl4"><a href="#13-autorisert-representant-i-es">§ 13. Autorisert representant i EØS</a></li>
+<li class="lvl4"><a href="#14-importr">§ 14. Importør</a></li>
+<li class="lvl4"><a href="#15-distributr">§ 15. Distributør</a></li>
+<li class="lvl2"><a href="#kapittel-4-samsvarsvurdering">Kapittel 4. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#16-antakelse-om-samsvar">§ 16. Antakelse om samsvar</a></li>
+<li class="lvl4"><a href="#17-prosedyrer-for-samsvarsvurdering">§ 17. Prosedyrer for samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#18-modul-a-samsvarsprosedyre-ved-intern-produksjonskontroll">§ 18. Modul A – samsvarsprosedyre ved intern produksjonskontroll</a></li>
+<li class="lvl4"><a href="#19-modul-b-samsvarsprosedyre-ved-eu-typeprving">§ 19. Modul B – samsvarsprosedyre ved EU-typeprøving</a></li>
+<li class="lvl4"><a href="#20-modul-c-samsvarsprosedyre-ved-typesamsvar-pa-grunnlag-av-intern-produksjonskontroll">§ 20. Modul C – samsvarsprosedyre ved typesamsvar på grunnlag av intern produksjonskontroll</a></li>
+<li class="lvl4"><a href="#21-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-krav-til-system">§ 21. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – krav til system</a></li>
+<li class="lvl4"><a href="#22-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-teknisk-kontrollorgan">§ 22. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#23-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-ansvar-for-kontroll">§ 23. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – ansvar for kontroll</a></li>
+<li class="lvl4"><a href="#24-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-krav-til-merking-mm">§ 24. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – krav til merking m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-dokumentasjon-informasjon-og-merking">Kapittel 5. Krav til dokumentasjon, informasjon og merking</a></li>
+<li class="lvl4"><a href="#25-informasjon-til-bruker">§ 25. Informasjon til bruker</a></li>
+<li class="lvl4"><a href="#26-samsvarserklring">§ 26. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#27-teknisk-dokumentasjon">§ 27. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#28-merking">§ 28. Merking</a></li>
+<li class="lvl2"><a href="#kapittel-6-teknisk-kontrollorgan">Kapittel 6. Teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#29-utpeking-av-teknisk-kontrollorgan">§ 29. Utpeking av teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#30-krav-til-teknisk-kontrollorgan-organisasjon-og-personell">§ 30. Krav til teknisk kontrollorgan – organisasjon og personell</a></li>
+<li class="lvl4"><a href="#31-driftsmessige-forpliktelser-for-teknisk-kontrollorgan">§ 31. Driftsmessige forpliktelser for teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#32-informasjonsplikt-for-teknisk-kontrollorgan">§ 32. Informasjonsplikt for teknisk kontrollorgan</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilsyn-og-reaksjoner">Kapittel 7. Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#33-tilsyn">§ 33. Tilsyn</a></li>
+<li class="lvl4"><a href="#34-reaksjoner">§ 34. Reaksjoner</a></li>
+<li class="lvl4"><a href="#35-straff">§ 35. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse-mm">Kapittel 8. Ikrafttredelse m.m.</a></li>
+<li class="lvl4"><a href="#36-unntak">§ 36. Unntak</a></li>
+<li class="lvl4"><a href="#37-ikrafttredelse">§ 37. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#38-overgangsbestemmelse">§ 38. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#39-endringer-i-andre-forskrifter">§ 39. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-samsvarserklring">Vedlegg 1. Samsvarserklæring</a></li>
+<li class="lvl2"><a href="#vedlegg-2-forenklet-samsvarserklring">Vedlegg 2. Forenklet samsvarserklæring</a></li>
+<li class="lvl2"><a href="#vedlegg-3-teknisk-dokumentasjon">Vedlegg 3. Teknisk dokumentasjon</a></li>
+<li class="lvl2"><a href="#vedlegg-4-piktogram">Vedlegg 4. Piktogram</a></li>
+<li class="lvl2"><a href="#vedlegg-5-spesifikasjoner-for-og-opplysninger-om-lading-for-visse-kategorier-eller-klasser-av-radioutstyr">Vedlegg 5 Spesifikasjoner for og opplysninger om lading for visse kategorier eller klasser av radioutstyr</a></li>
+<li class="lvl3"><a href="#del-1spesifikasjoner-for-ladeegenskaper">Del 1Spesifikasjoner for ladeegenskaper</a></li>
+<li class="lvl3"><a href="#del-2opplysninger-om-spesifikasjoner-for-ladeegenskaper-og-kompatible-ladere">Del 2Opplysninger om spesifikasjoner for ladeegenskaper og kompatible ladere</a></li>
+<li class="lvl3"><a href="#del-3piktogram-som-angir-om-en-ladeenhet-flger-med-radioutstyret-eller-ikke">Del 3Piktogram som angir om en ladeenhet følger med radioutstyret eller ikke</a></li>
+<li class="lvl3"><a href="#del-4etikettens-innhold-og-format">Del 4Etikettens innhold og format</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-04-17-632.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-04-15-377.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om EØS-krav til radioutstyr</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-04-15-377.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-04-15-377 <code>forskrift/2016-04-15-377</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om EØS-krav til radioutstyr</td></tr>
+<tr><th>Departement</th><td>Digitaliserings- og forvaltningsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>13.06.2016</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-04-17-632 <code>forskrift/2024-04-17-632</code> fra 28.04.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-04-15-377" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-krav-til-radioutstyr">Kapittel 2. Krav til radioutstyr</a></li>
+<li class="lvl4"><a href="#4-vilkar-for-a-kunne-gjre-radioutstyr-tilgjengelig-pa-markedet-og-sette-det-i-drift">§ 4. Vilkår for å kunne gjøre radioutstyr tilgjengelig på markedet og sette det i drift</a></li>
+<li class="lvl4"><a href="#5-utstillinger-demonstrasjoner-ol">§ 5. Utstillinger, demonstrasjoner o.l.</a></li>
+<li class="lvl4"><a href="#6-grunnleggende-krav">§ 6. Grunnleggende krav</a></li>
+<li class="lvl4"><a href="#7-spesielle-krav-til-radioutstyr-som-omfattes-av-regional-avtale-om-radiotelefonitjeneste-pa-elver-kanaler-og-innsjer">§ 7. Spesielle krav til radioutstyr som omfattes av regional avtale om radiotelefonitjeneste på elver, kanaler og innsjøer</a></li>
+<li class="lvl4"><a href="#8-spesielle-krav-til-radioutstyr-som-er-beregnet-for-bruk-om-bord-pa-farty-som-ikke-omfattes-avsolas-74">§ 8. Spesielle krav til radioutstyr som er beregnet for bruk om bord på fartøy som ikke omfattes avSOLAS-74</a></li>
+<li class="lvl4"><a href="#9-spesielle-krav-til-maritimt-radioutstyr-i-tjenesten-automatic-identification-system-ais">§ 9. Spesielle krav til maritimt radioutstyr i tjenesten Automatic Identification System (AIS)</a></li>
+<li class="lvl4"><a href="#10-spesielle-krav-til-sender-skeutstyr-for-lokalisering-av-personer-tatt-av-snras">§ 10. Spesielle krav til sender-/søkeutstyr for lokalisering av personer tatt av snøras</a></li>
+<li class="lvl4"><a href="#11-spesielle-krav-til-ndpeilesendere">§ 11. Spesielle krav til nødpeilesendere</a></li>
+<li class="lvl4"><a href="#11a-spesielle-krav-til-handholdte-mobiltelefoner-for-a-sikre-lokalisering-ved-ndkommunikasjon">§ 11a. Spesielle krav til håndholdte mobiltelefoner for å sikre lokalisering ved nødkommunikasjon</a></li>
+<li class="lvl4"><a href="#11b-beskyttelse-av-nettet-beskyttelse-av-personopplysninger-og-beskyttelse-mot-svindel">§ 11b. Beskyttelse av nettet, beskyttelse av personopplysninger og beskyttelse mot svindel</a></li>
+<li class="lvl4"><a href="#11c-krav-til-felles-ladegrensesnitt">§ 11c. Krav til felles ladegrensesnitt</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-til-markedsdeltakerne">Kapittel 3. Krav til markedsdeltakerne</a></li>
+<li class="lvl4"><a href="#12-produsent">§ 12. Produsent</a></li>
+<li class="lvl4"><a href="#13-autorisert-representant-i-es">§ 13. Autorisert representant i EØS</a></li>
+<li class="lvl4"><a href="#14-importr">§ 14. Importør</a></li>
+<li class="lvl4"><a href="#15-distributr">§ 15. Distributør</a></li>
+<li class="lvl2"><a href="#kapittel-4-samsvarsvurdering">Kapittel 4. Samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#16-antakelse-om-samsvar">§ 16. Antakelse om samsvar</a></li>
+<li class="lvl4"><a href="#17-prosedyrer-for-samsvarsvurdering">§ 17. Prosedyrer for samsvarsvurdering</a></li>
+<li class="lvl4"><a href="#18-modul-a-samsvarsprosedyre-ved-intern-produksjonskontroll">§ 18. Modul A – samsvarsprosedyre ved intern produksjonskontroll</a></li>
+<li class="lvl4"><a href="#19-modul-b-samsvarsprosedyre-ved-eu-typeprving">§ 19. Modul B – samsvarsprosedyre ved EU-typeprøving</a></li>
+<li class="lvl4"><a href="#20-modul-c-samsvarsprosedyre-ved-typesamsvar-pa-grunnlag-av-intern-produksjonskontroll">§ 20. Modul C – samsvarsprosedyre ved typesamsvar på grunnlag av intern produksjonskontroll</a></li>
+<li class="lvl4"><a href="#21-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-krav-til-system">§ 21. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – krav til system</a></li>
+<li class="lvl4"><a href="#22-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-teknisk-kontrollorgan">§ 22. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#23-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-ansvar-for-kontroll">§ 23. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – ansvar for kontroll</a></li>
+<li class="lvl4"><a href="#24-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-krav-til-merking-mm">§ 24. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – krav til merking m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-dokumentasjon-informasjon-og-merking">Kapittel 5. Krav til dokumentasjon, informasjon og merking</a></li>
+<li class="lvl4"><a href="#25-informasjon-til-bruker">§ 25. Informasjon til bruker</a></li>
+<li class="lvl4"><a href="#26-samsvarserklring">§ 26. Samsvarserklæring</a></li>
+<li class="lvl4"><a href="#27-teknisk-dokumentasjon">§ 27. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#28-merking">§ 28. Merking</a></li>
+<li class="lvl2"><a href="#kapittel-6-teknisk-kontrollorgan">Kapittel 6. Teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#29-utpeking-av-teknisk-kontrollorgan">§ 29. Utpeking av teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#30-krav-til-teknisk-kontrollorgan-organisasjon-og-personell">§ 30. Krav til teknisk kontrollorgan – organisasjon og personell</a></li>
+<li class="lvl4"><a href="#31-driftsmessige-forpliktelser-for-teknisk-kontrollorgan">§ 31. Driftsmessige forpliktelser for teknisk kontrollorgan</a></li>
+<li class="lvl4"><a href="#32-informasjonsplikt-for-teknisk-kontrollorgan">§ 32. Informasjonsplikt for teknisk kontrollorgan</a></li>
+<li class="lvl2"><a href="#kapittel-7-tilsyn-og-reaksjoner">Kapittel 7. Tilsyn og reaksjoner</a></li>
+<li class="lvl4"><a href="#33-tilsyn">§ 33. Tilsyn</a></li>
+<li class="lvl4"><a href="#34-reaksjoner">§ 34. Reaksjoner</a></li>
+<li class="lvl4"><a href="#35-straff">§ 35. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse-mm">Kapittel 8. Ikrafttredelse m.m.</a></li>
+<li class="lvl4"><a href="#36-unntak">§ 36. Unntak</a></li>
+<li class="lvl4"><a href="#37-ikrafttredelse">§ 37. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#38-overgangsbestemmelse">§ 38. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#39-endringer-i-andre-forskrifter">§ 39. Endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-1-samsvarserklring">Vedlegg 1. Samsvarserklæring</a></li>
+<li class="lvl2"><a href="#vedlegg-2-forenklet-samsvarserklring">Vedlegg 2. Forenklet samsvarserklæring</a></li>
+<li class="lvl2"><a href="#vedlegg-3-teknisk-dokumentasjon">Vedlegg 3. Teknisk dokumentasjon</a></li>
+<li class="lvl2"><a href="#vedlegg-4-piktogram">Vedlegg 4. Piktogram</a></li>
+<li class="lvl2"><a href="#vedlegg-5-spesifikasjoner-for-og-opplysninger-om-lading-for-visse-kategorier-eller-klasser-av-radioutstyr">Vedlegg 5 Spesifikasjoner for og opplysninger om lading for visse kategorier eller klasser av radioutstyr</a></li>
+<li class="lvl3"><a href="#del-1spesifikasjoner-for-ladeegenskaper">Del 1Spesifikasjoner for ladeegenskaper</a></li>
+<li class="lvl3"><a href="#del-2opplysninger-om-spesifikasjoner-for-ladeegenskaper-og-kompatible-ladere">Del 2Opplysninger om spesifikasjoner for ladeegenskaper og kompatible ladere</a></li>
+<li class="lvl3"><a href="#del-3piktogram-som-angir-om-en-ladeenhet-flger-med-radioutstyret-eller-ikke">Del 3Piktogram som angir om en ladeenhet følger med radioutstyret eller ikke</a></li>
+<li class="lvl3"><a href="#del-4etikettens-innhold-og-format">Del 4Etikettens innhold og format</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-04-15-377.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-04-15-377.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-04-15-377.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-04-15-377.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-04-15-377.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-04-15-377.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-04-15-377.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-04-15-377.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-04-15-377.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-es-krav-til-radioutstyr">Forskrift om EØS-krav til radioutstyr</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med forskriften er å sikre at det indre marked fungerer, og at radioutstyr har en tilstrekkelig grad av elektromagnetisk kompatibilitet, utnytter frekvensspekteret på en effektiv måte og tilfredsstiller krav til sikkerhet for liv og helse for personer og husdyr, og beskyttelse av eiendom. Forskriften skal sikre tilgang til nødtjeneste og felles ladegrensesnitt. Forskriften skal også sikre beskyttelse av nettet, beskyttelse av personopplysninger og beskyttelse mot svindel.</p>
-<p><em>Endret ved forskrifter 17 april 2024 nr. 632 (i kraft 28 des 2024), 17 april 2024 nr. 632 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 17 april 2024 nr. 632 (i kraft 28 des 2024), 17 april 2024 nr. 632 (i kraft 1 aug 2025).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften gjelder krav til radioutstyr som definert i § 3 , men likevel ikke</p>
 <p>a. utstyr regulert av forskrift 29. september 2016 nr. 1161 om EØS-krav til maritimt radioutstyr
@@ -89,7 +252,7 @@ c. utstyr tillatt brukt etter forskrift 5. november 2009 nr. 1340 om radioamatø
 d. spesialbygde evalueringsbyggesett for profesjonelle som kun skal brukes ved forsknings- og utviklingsinstitusjoner til forsknings- eller utviklingsformål
 e. radioutstyr som kun benyttes for å ivareta rikets eller annen offentlig sikkerhet, kun benyttes av Forsvaret, eller kun benyttes for statens tiltak på det strafferettslige området.</p>
 <p>På Svalbard kan det, for radioutstyr som omfattes av forskriften, alternativt gis tillatelse etter ekomloven § 13-1 tredje ledd .</p>
-<p><em>Endret ved forskrifter 29 sep 2016 nr. 1161 , 17 april 2024 nr. 632 , 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 29 sep 2016 nr. 1161 , 17 april 2024 nr. 632 , 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I forskriften menes med</p>
 <p>a. radioutstyr : et elektrisk eller elektronisk produkt, som enten alene eller sammen med ekstrautstyr, for eksempel en antenne, tilsiktet utstråler eller mottar radiobølger for radiokommunikasjon eller radiobestemmelse
@@ -115,13 +278,13 @@ t. CE-merking: merking der produsenten angir at radioutstyret oppfyller gjeldend
 u. elektromagnetisk kompatibilitet: den evne et radioutstyr har til å fungere tilfredsstillende i sitt elektromagnetiske miljø uten å forårsake uakseptabel elektromagnetisk forstyrrelse for annet utstyr i dette miljøet
 v. sluttbruker: enhver fysisk eller juridisk person som er bosatt eller etablert i EØS-området, og som et produkt har vært gjort tilgjengelig for enten som forbruker utenfor enhver handel, virksomhet, håndverk eller yrke eller som profesjonell sluttbruker i tilknytning til sitt industrielle eller profesjonelle virke.</p>
 <p>For øvrig gjelder definisjonene i ekomloven.</p>
-<p><em>Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 (i kraft 28 des 2024).</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 (i kraft 28 des 2024).</p>
 <h2 id="kapittel-2-krav-til-radioutstyr">Kapittel 2. Krav til radioutstyr</h2>
 <h4 id="4-vilkar-for-a-kunne-gjre-radioutstyr-tilgjengelig-pa-markedet-og-sette-det-i-drift">§ 4. Vilkår for å kunne gjøre radioutstyr tilgjengelig på markedet og sette det i drift</h4>
 <p>Radioutstyr kan gjøres tilgjengelig på markedet når det tilfredsstiller de grunnleggende kravene i § 6 og er korrekt merket i henhold til § 28 .</p>
 <p>Radioutstyr kan settes i drift når det tilfredsstiller kravene i første ledd, når det er korrekt installert og vedlikeholdt og brukt som tilsiktet.</p>
 <p>Frekvenstillatelse etter lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon (ekomloven) kapittel 11 må om nødvendig foreligge.</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="5-utstillinger-demonstrasjoner-ol">§ 5. Utstillinger, demonstrasjoner o.l.</h4>
 <p>Radioutstyr kan vises på utstillinger, messer og liknende arrangementer selv om utstyret ikke tilfredsstiller kravene i forskriften, forutsatt at det skiltes klart og tydelig at radioutstyret ikke kan gjøres tilgjengelig på markedet eller settes i drift før det tilfredsstiller kravene i forskriften.</p>
 <p>Demonstrasjon av radioutstyr er kun tillatt dersom det er truffet tilfredsstillende tiltak for å unngå skadelig interferens, elektromagnetisk forstyrrelse, risiko for helse og sikkerhet til personer og husdyr, eller skade på eiendom.</p>
@@ -140,7 +303,7 @@ c. hensiktsmessig utnytter frekvensspekteret og støtter effektiv utnyttelse av 
 d. sikrer tilgang til nødtjeneste i samsvar med § 7 til § 11a ,
 e. sikrer beskyttelse av nettet, beskyttelse av personopplysninger og beskyttelse mot svindel i samsvar med § 11b ,
 f. oppfyller krav til felles ladegrensesnitt i samsvar med § 11b .</p>
-<p><em>Endret ved forskrifter 9 jan 2020 nr. 31 (i kraft 17 mars 2022), 21 nov 2023 nr. 1889 (i kraft 1 aug 2024), 17 april 2024 nr. 632 (i kraft 28 des 2024).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2020 nr. 31 (i kraft 17 mars 2022), 21 nov 2023 nr. 1889 (i kraft 1 aug 2024), 17 april 2024 nr. 632 (i kraft 28 des 2024).</p>
 <h4 id="7-spesielle-krav-til-radioutstyr-som-omfattes-av-regional-avtale-om-radiotelefonitjeneste-pa-elver-kanaler-og-innsjer">§ 7. Spesielle krav til radioutstyr som omfattes av regional avtale om radiotelefonitjeneste på elver, kanaler og innsjøer</h4>
 <p>Radioutstyr som skal brukes på elver, kanaler og innsjøer i Tyskland, Østerrike, Belgia, Bulgaria, Kroatia, Frankrike, Ungarn, Luxembourg, Moldova, Nederland, Polen, Romania, Russland, Slovakia, Sveits, Den Tsjekkiske republikk, Ukraina og Jugoslavia, og som omfattes av avtale vedtatt i Basel 6. april 2000 om radiotelefontjeneste på elver, kanaler og innsjøer i de land der avtalen er innført, og som opererer i de frekvensområder som er fastsatt i avtalen, skal bruke systemet for automatisk senderidentifikasjon (ATIS).</p>
 <p>Radioutstyr som i henhold til avtalen brukes i kommunikasjon «skip til skip», «skip til havnemyndighet» og «ombordkommunikasjon» skal ikke kunne sende med høyere sendereffekt enn 1 watt.</p>
@@ -159,7 +322,7 @@ f. oppfyller krav til felles ladegrensesnitt i samsvar med § 11b .</p>
 <h4 id="11a-spesielle-krav-til-handholdte-mobiltelefoner-for-a-sikre-lokalisering-ved-ndkommunikasjon">§ 11a. Spesielle krav til håndholdte mobiltelefoner for å sikre lokalisering ved nødkommunikasjon</h4>
 <p>Håndholdte mobiltelefoner skal konstrueres slik at det sikres mottak og behandling av Wi-Fi-data, data fra globale satellittnavigasjonssystemer som minimum er kompatible og samvirkende med Galileo-systemet og at det gis tilgang til disse dataene for overføring i forbindelse med nødkommunikasjon.</p>
 <p>Med håndholdte mobiltelefoner i første ledd menes mobiltelefoner som har funksjonalitet tilsvarende en datamaskin for så vidt gjelder evne til å behandle og lagre data. Med Galileo-systemet menes det globale satellittnavigasjonssystemet eid og kontrollert av Den europeiske union.</p>
-<p><em>Tilføyd ved forskrift 9 jan 2020 nr. 31 (i kraft 17 mars 2022).</em></p>
+<p class="note">Tilføyd ved forskrift 9 jan 2020 nr. 31 (i kraft 17 mars 2022).</p>
 <h4 id="11b-beskyttelse-av-nettet-beskyttelse-av-personopplysninger-og-beskyttelse-mot-svindel">§ 11b. Beskyttelse av nettet, beskyttelse av personopplysninger og beskyttelse mot svindel</h4>
 <p>EØS-avtalen vedlegg II kapittel XVIII nr. 4zzu (forordning (EU) 2022/30 ) av 29. oktober 2021 som endret ved delegert kommisjonsforordning (EU) 2023/2444 ) om utfylling av europarlaments- og rådsdirektiv 2014/53/EU , med hensyn til anvendelsen av de grunnleggende kravene nevnt i artikkel 3 nr. 3 bokstav d), e) og f) i nevnte direktiv, gjelder som forskrift med de tilpasninger som følger av vedlegg XVIII, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>Internett-tilkoblet radioutstyr skal konstrueres slik at det ikke skader nettverket eller dets funksjon eller misbruker nettverksressurser, og dermed forårsaker en uakseptabel forringelse av tjenesten. Med internett-tilkoblet radioutstyr menes radioutstyr som kan kommunisere selv over internett, enten det kommuniserer direkte eller via annet utstyr.</p>
@@ -168,12 +331,12 @@ f. oppfyller krav til felles ladegrensesnitt i samsvar med § 11b .</p>
 <p>Med som kan behandle personopplysninger i tredje ledd menes enhver operasjon eller rekke av operasjoner som gjøres med personopplysninger, enten automatisert eller ikke, f.eks. innsamling, registrering, organisering, strukturering, lagring, tilpasning eller endring, gjenfinning, konsultering, bruk, utlevering ved overføring, spredning eller alle andre former for tilgjengeliggjøring, sammenstilling eller samkjøring, begrensning, sletting eller tilintetgjøring. Med trafikkdata i tredje ledd menes data som er nødvendig for å overføre kommunikasjon i et elektronisk kommunikasjonsnett eller for fakturering av slik overføring. Med lokasjonsdata i tredje ledd menes data som angir den geografiske plasseringen av terminalutstyr. Med virtuell valuta i fjerde ledd menes digital representasjon av verdi som ikke er utstedt eller garantert av en sentralbank, eller en offentlig myndighet, som ikke nødvendigvis er knyttet til en lovlig etablert valuta og har ikke juridisk status som valuta eller penger, men er akseptert av fysiske eller juridiske personer som et middel til utveksling, og som kan være overført, lagret og handlet elektronisk Se direktiv (EU) 2019/713 artikkel 2 punkt d. 2</p>
 <p>Kravene i annet, tredje og fjerde ledd gjelder ikke for radioutstyr som er omfattet av forordning (EU) 2017/745 og forordning (EU) 2017/746 , jf. forskrift 9. mai 2021 nr. 1476 om medisinsk utstyr .</p>
 <p>Kravene i tredje og fjerde ledd gjelder ikke for radioutstyr som er omfattet av forordning (EU) 2019/2144 , jf. forskrift 28. juni 2022 nr. 1233 om godkjenning av bil og tilhenger (bilforskriften) , forordning (EU) 2018/1139 og direktiv (EU) 2019/520 .</p>
-<p><em>Tilføyd ved forskrift 21 nov 2023 nr. 1889 (i kraft 1 aug 2024), endret ved forskrifter 17 april 2024 nr. 632 (i kraft 1 aug 2025), 26 aug 2025 nr. 1745 .
-1 Leketøydirektivet (direktiv 2009/48/EF ), gjennomført i forskrift 18. november 2013 nr. 1403 om sikkerhet ved leketøy (leketøyforskriften) . 2 Se direktiv (EU) 2019/713 artikkel 2 punkt d.</em></p>
+<p class="note">Tilføyd ved forskrift 21 nov 2023 nr. 1889 (i kraft 1 aug 2024), endret ved forskrifter 17 april 2024 nr. 632 (i kraft 1 aug 2025), 26 aug 2025 nr. 1745 .
+1 Leketøydirektivet (direktiv 2009/48/EF ), gjennomført i forskrift 18. november 2013 nr. 1403 om sikkerhet ved leketøy (leketøyforskriften) . 2 Se direktiv (EU) 2019/713 artikkel 2 punkt d.</p>
 <h4 id="11c-krav-til-felles-ladegrensesnitt">§ 11c. Krav til felles ladegrensesnitt</h4>
 <p>Radioutstyr omfattet av vedlegg 5 del 1 skal konstrueres slik at det oppfyller spesifikasjonene for ladeegenskaper som følger av vedlegg 5 del 1.</p>
 <p>Dersom en markedsdeltaker gir forbrukere og andre sluttbrukere mulighet til å kjøpe radioutstyr omfattet av vedlegg 5 del 1 sammen med en ladeenhet skal markedsdeltakeren også tilby muligheten til å kjøpe radioutstyret uten ladeenhet.</p>
-<p><em>Tilføyd ved forskrift 17 april 2024 nr. 632 (i kraft 28 des 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 17 april 2024 nr. 632 (i kraft 28 des 2024).</p>
 <h2 id="kapittel-3-krav-til-markedsdeltakerne">Kapittel 3. Krav til markedsdeltakerne</h2>
 <h4 id="12-produsent">§ 12. Produsent</h4>
 <p>Før radioutstyr bringes i omsetning skal produsent utarbeide teknisk dokumentasjon i samsvar med § 27 , utføre eller få utført samsvarsvurdering etter kapittel 4 , sikre krav til merking etter § 28 og informasjon til bruker etter § 25 .</p>
@@ -236,7 +399,7 @@ c. modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring i samsvar
 <p>a. modul B og C – samsvarsprosedyre ved EU-typeprøving etterfulgt av typesamsvar på grunnlag av intern produksjonskontroll i samsvar med § 19 og § 20
 b. modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring i samsvar med § 21 – § 24.</p>
 <p>Samsvarsvurderingen skal ta hensyn til alle tilsiktede driftsforhold og for de grunnleggende kravene til sikkerhet i § 6 første ledd bokstav a, skal det også tas hensyn til forhold som med rimelighet kan forutses. Hvor radioutstyret kan konfigureres på ulike måter skal samsvarsvurderingen bekrefte at radioutstyret oppfyller de grunnleggende kravene i § 6 i alle konfigurasjoner.</p>
-<p><em>Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 (i kraft 28 des 2024), 17 april 2024 nr. 632 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 (i kraft 28 des 2024), 17 april 2024 nr. 632 (i kraft 1 aug 2025).</p>
 <h4 id="18-modul-a-samsvarsprosedyre-ved-intern-produksjonskontroll">§ 18. Modul A – samsvarsprosedyre ved intern produksjonskontroll</h4>
 <p>Når produsent anvender samsvarsprosedyre ved intern produksjonskontroll for å erklære at et radioutstyr oppfyller de grunnleggende kravene i forskriften § 6 skal produsenten:</p>
 <p>a. utarbeide teknisk dokumentasjon i henhold til forskriften § 27
@@ -260,13 +423,13 @@ d. underlagsdokumentasjon som viser at den tekniske konstruksjonen er tilfredsst
 <p>Teknisk kontrollorgan skal uoppfordret informere andre tekniske kontrollorgan om EU-typesertifikater som de har avslått, trukket tilbake, midlertidig opphevet eller på annen måte begrenset. På anmodning plikter teknisk kontrollorgan å informere andre tekniske kontrollorgan om sertifikater som de har utstedt.</p>
 <p>Teknisk kontrollorgan skal oppbevare EU-typeprøvingssertifikatet, vedlegg og tillegg samt teknisk dokumentasjon som omfatter dokumentasjon fremlagt av produsenten, i 10 år etter samsvarsvurderingen av radioutstyret eller til tidspunktet for utløp av EU-typeprøvingssertifikatet.</p>
 <p>Produsent eller dennes autoriserte representant i EØS skal oppbevare EU-typeprøvingssertifikatet, vedlegg og tillegg samt teknisk dokumentasjon i 10 år etter at radioutstyret ble brakt i omsetning.</p>
-<p><em>Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="20-modul-c-samsvarsprosedyre-ved-typesamsvar-pa-grunnlag-av-intern-produksjonskontroll">§ 20. Modul C – samsvarsprosedyre ved typesamsvar på grunnlag av intern produksjonskontroll</h4>
 <p>Når produsent anvender samsvarsprosedyre ved typesamsvar på grunnlag av intern produksjonskontroll for å erklære at radioutstyr er i samsvar med radioutstyrstypen som fremgår av et EU-typeprøvingssertifikat og oppfyller de grunnleggende kravene i forskriften § 6 skal</p>
 <p>a. produsent besørge en forsvarlig produksjonsprosess for å sikre at radioutstyret er i samsvar med den godkjente radioutstyrstypen beskrevet i EU-typesprøvingsertifikatet og med relevante krav i forskriften,
 b. produsent eller dennes autoriserte representant i EØS påføre CE-merking i henhold til § 28 på radioutstyr som oppfyller kravene i forskriften,
 c. produsent eller dennes autoriserte representant i EØS utstede samsvarserklæring i henhold til § 26 og oppbevare denne sammen med den tekniske dokumentasjonen i 10 år etter at utstyret ble brakt i omsetning. I samsvarserklæringen skal det angis hvilken radioutstyrstype den er utarbeidet for.</p>
-<p><em>Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</em></p>
+<p class="note">Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</p>
 <h4 id="21-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-krav-til-system">§ 21. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – krav til system</h4>
 <p>Når produsent anvender samsvarsprosedyre ved full kvalitetssikring for å erklære at radioutstyret er i samsvar med kravene i forskriften skal kravene i bestemmelsen her være oppfylt. Produsent eller dennes autoriserte representant i EØS skal merke hver radioutstyrsenhet i samsvar med § 28 og utstede samsvarserklæring i samsvar med § 26 .</p>
 <p>Produsent skal nytte et godkjent kvalitetssystem for konstruksjon, produksjon, sluttkontroll og måling i samsvar med tredje ledd og skal være underlagt kontroll av teknisk kontrollorgan i samsvar med § 23 .</p>
@@ -280,7 +443,7 @@ f. kvalitetsregistre som inspeksjonsrapporter, måledata, kalibreringsdata, rapp
 g. metodene for å påse at den fastsatte konstruksjons- og utstyrskvalitet oppnås, og at kvalitetssystemet fungerer effektivt.</p>
 <p>Teknisk kontrollorgan plikter å informere Digitaliserings- og forvaltningsdepartementet om godkjenninger og tilbaketrekkinger av kvalitetssystemer som de har gjort, og skal regelmessig eller på forespørsel stille til rådighet for Digitaliserings- og forvaltningsdepartementet fortegnelse over kvalitetssystemer som er avslått, midlertidig opphevet eller på annen måte begrenset.</p>
 <p>Teknisk kontrollorgan skal uoppfordret informere andre tekniske kontrollorgan om godkjenninger av kvalitetssystemer som de har avslått, midlertidig opphevet, trukket tilbake eller på annen måte begrenset. På anmodning plikter teknisk kontrollorgan å informere andre tekniske kontrollorgan om kvalitetssystemer som de har godkjent.</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="22-modul-h-samsvarsprosedyre-pa-grunnlag-av-full-kvalitetssikring-teknisk-kontrollorgan">§ 22. Modul H – samsvarsprosedyre på grunnlag av full kvalitetssikring – teknisk kontrollorgan</h4>
 <p>Produsent som nytter samsvarsprosedyre etter § 21 , skal søke teknisk kontrollorgan om vurdering av kvalitetssystem. Søknaden skal inneholde:</p>
 <p>a. navn og adresse til produsent. Der søknaden er fremmet av produsentens autoriserte representant i EØS skal også dennes navn og adresse oppgis,
@@ -311,7 +474,7 @@ c. kvalitetsregistre som fastsatt i produksjonsdelen av kvalitetssystemet som in
 <p>For radioutstyr omfattet av vedlegg 5 del 1 skal opplysninger om hvorvidt det følger med lader eller ikke vises grafisk ved hjelp av et piktogram slik det fremgår av vedlegg 5 del 3. Piktogrammet skal være trykket på emballasjen eller være påført emballasjen med et klistermerke. Piktogrammet skal være synlig og lett å lese. I tilfeller med fjernsalg skal piktogrammet være plassert nær prisangivelsen for radioutstyret.</p>
 <p>For radioutstyr omfattes av vedlegg 5 del 1, skal bruksanvisningen inneholde opplysninger om radioutstyrets ladeegenskaper og de kompatible ladeenhetene som følger av vedlegg 5 del 1 og 2. Opplysningene skal også angis på en etikett slik det følger av vedlegg 5 del 4. Etiketten skal være trykt i bruksanvisningen og på emballasjen, eller påføres emballasjen som et klistermerke. Dersom det ikke er emballasje på utstyret, skal klistremerket festes på radioutstyret. Når radioutstyret gjøres tilgjengelig for forbrukere og andre sluttbrukere skal etiketten vises på en måte som gjør den synlig og lett leselig og i tilfeller med fjernsalg skal etiketten være plassert nær prisangivelsen for radioutstyret. Dersom det ikke er mulig på grunn av radioutstyrets størrelse eller art kan etiketten trykkes på et eget dokument som følger med radioutstyret.</p>
 <p>Med hvert eksemplar av radioutstyr skal det følge med enten fullstendig eller forenklet samsvarserklæring. Samsvarserklæringen skal være i samsvar med krav til samsvarserklæring i forskriften § 26 .</p>
-<p><em>Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 , 17 april 2024 nr. 632 (i kraft 28 des 2024).</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 17 april 2024 nr. 632 , 17 april 2024 nr. 632 (i kraft 28 des 2024).</p>
 <h4 id="26-samsvarserklring">§ 26. Samsvarserklæring</h4>
 <p>Samsvarserklæringen skal erklære at de grunnleggende kravene i § 6 er oppfylt.</p>
 <p>Samsvarserklæringen skal ha samme struktur og inneholde de elementer som angitt i vedlegg 1, og skal oppdateres fortløpende.</p>
@@ -328,13 +491,13 @@ c. kvalitetsregistre som fastsatt i produksjonsdelen av kvalitetssystemet som in
 <p>Forutsatt at CE-merkingen er synlig og tydelig tillates merking lavere enn 5 mm dersom radioutstyrets fysiske karakter tilsier det.</p>
 <p>CE-merking skal påføres radioutstyret eller dets merkeplate slik at den er synlig, leselig, og ikke kan fjernes. CE-merkingen skal også påføres emballasjen slik at den er synlig og leselig. Dersom det på grunn av radioutstyrets fysiske karakter ikke er mulig eller berettiget å påføre CE-merkingen på radioutstyret er det tilstrekkelig kun å merke emballasjen.</p>
 <p>Radioutstyr og dets emballasje skal merkes med teknisk kontrollorgans identifikasjonsnummer når det nyttes samsvarsprosedyre etter § 21 til § 24 . Identifikasjonsnummeret skal plasseres like etter og ha samme høyde som CE-merkingen. Identifikasjonsnummeret skal påføres av teknisk kontrollorgan eller av produsenten eller autorisert representant i EØS etter instruksjon fra teknisk kontrollorgan.</p>
-<p><em>Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</em></p>
+<p class="note">Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</p>
 <h2 id="kapittel-6-teknisk-kontrollorgan">Kapittel 6. Teknisk kontrollorgan</h2>
 <h4 id="29-utpeking-av-teknisk-kontrollorgan">§ 29. Utpeking av teknisk kontrollorgan</h4>
 <p>Digitaliserings- og forvaltningsdepartementet utpeker teknisk kontrollorgan for radioutstyr som omfattes av forskriften etter lov 16. juni 1994 nr. 20 om tekniske kontrollorgan som har til oppgåve å gjennomføre samsvarsvurderingar.</p>
 <p>Søknad om utpeking som teknisk kontrollorgan skal sendes til Digitaliserings- og forvaltningsdepartementet. Søknaden skal inneholde en beskrivelse av de samsvarsvurderingsoppgaver, samsvarsvurderingsmoduler og radioutstyr som teknisk kontrollorgan hevder å være kompetent til. Der det finnes akkrediteringssertifikat utstedt av Norsk akkreditering som erklærer at teknisk kontrollorgan oppfyller vilkårene i § 30 og § 31 skal dette legges ved søknaden.</p>
 <p>Der det ikke finnes akkrediteringssertifikat skal teknisk kontrollorgan legge frem tilstrekkelig dokumentasjon som er nødvendig for å kunne kontrollere, verifisere og føre tilsyn med at kravene i § 30 og § 31 er oppfylt.</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="30-krav-til-teknisk-kontrollorgan-organisasjon-og-personell">§ 30. Krav til teknisk kontrollorgan – organisasjon og personell</h4>
 <p>Teknisk kontrollorgan skal være en juridisk person og tilfredsstille følgende krav:</p>
 <p>a. Teknisk kontrollorgan skal være uavhengig av den organisasjon eller det radioutstyr som vurderes. Dette er likevel ikke til hinder for at teknisk kontrollorgan tilhører en næringslivs- eller yrkesorganisasjon som representerer virksomheter som er involvert i konstruksjon, produksjon, levering, montering, bruk eller vedlikehold av radioutstyret, såfremt det er bevist at det tekniske kontrollorgan er uavhengig og det ikke foreligger interessekonflikter.
@@ -360,14 +523,14 @@ d. nødvendige kvalifikasjoner til å utarbeide EU-typeprøvingssertifikater, go
 <p>Teknisk kontrollorgan skal stille til rådighet for Digitaliserings- og forvaltningsdepartementet relevante dokumenter om vurderingen av underleverandør eller datterselskaps kvalifikasjoner og det arbeid de utfører.</p>
 <p>Teknisk kontrollorgan skal tegne ansvarsforsikring.</p>
 <p>For teknisk kontrollorgan gjelder regler om taushetsplikt etter lov 10. februar 1967 om behandlingsmåten i forvaltningssaker § 13 – § 13f.</p>
-<p><em>Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="31-driftsmessige-forpliktelser-for-teknisk-kontrollorgan">§ 31. Driftsmessige forpliktelser for teknisk kontrollorgan</h4>
 <p>Teknisk kontrollorgan skal utføre oppgaver etter kapittel 4 . Der organet vurderer at produsenten tilfredsstiller relevante krav i forskriften skal det utstede EU-typeprøvingssertifikat eller godkjenning av kvalitetssystem.</p>
 <p>Ved samsvarsvurdering skal teknisk kontrollorgan ta hensyn til forholdsmessighet slik at oppdragsgiver ikke pålegges unødige byrder. Ved utføring av samsvarsvurderingsoppgaver skal teknisk kontrollorgan ta tilstrekkelig hensyn til oppdragsgivers foretaks størrelse, sektor som det opereres i, selskapsstruktur, kompleksiteten til den aktuelle radioutstyrsteknologien og produksjonsprosessens masse- eller seriepreg. Det skal tas hensyn til graden av behovet for stringens og beskyttelsesnivå som kreves for å oppfylle kravene i forskriften.</p>
 <p>Der teknisk kontrollorgan oppdager at de grunnleggende kravene i § 6 eller tilsvarende harmoniserte standarder eller andre tekniske spesifikasjoner ikke er oppfylt av produsenten, skal det tekniske kontrollorganet kreve at produsenten treffer egnede korrigerende tiltak.</p>
 <p>Der teknisk kontrollorgan i forbindelse med kontroll av samsvar etter at EU-typeprøvingssertifikat eller godkjenning av kvalitetsstyringssystemer har blitt utstedt oppdager at radioutstyret ikke lengre oppfyller kravene skal det kreve at produsenten treffer egnede korrigerende tiltak, og om nødvendig trekke tilbake eller oppheve sertifikatet eller godkjenningen.</p>
 <p>Der produsenten ikke treffer korrigerende tiltak eller tiltaket ikke har ønsket effekt skal teknisk kontrollorgan begrense, oppheve eller trekke tilbake sertifikatet eller godkjenningen ut fra en vurdering av hva som er mest hensiktsmessig.</p>
-<p><em>Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</em></p>
+<p class="note">Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018).</p>
 <h4 id="32-informasjonsplikt-for-teknisk-kontrollorgan">§ 32. Informasjonsplikt for teknisk kontrollorgan</h4>
 <p>Teknisk kontrollorgan plikter å informere Digitaliserings- og forvaltningsdepartementet om:</p>
 <p>a. ethvert avslag, begrensning, midlertidig oppheving og tilbakekall av EU-typeprøvingssertifikat eller godkjennelse av kvalitetssystem,
@@ -375,18 +538,18 @@ b. forhold som kan ha innvirkning på omfanget av eller betingelsene for utpekin
 c. anmodning fra Nasjonal kommunikasjonsmyndighet om opplysninger som gjelder samsvarsvurderingsvirksomhet,
 d. på forespørsel, opplysninger om samsvarsvurderingsaktiviteter utført av organet selv og av underleverandør eller datterselskap.</p>
 <p>Teknisk kontrollorgan plikter å informere andre tekniske kontrollorgan som driver samsvarsvurderinger etter forskriften her om negative resultater av samsvarsvurderinger og på forespørsel om positive resultater.</p>
-<p><em>Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 7 aug 2018 nr. 1224 (i kraft 8 aug 2018), 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-7-tilsyn-og-reaksjoner">Kapittel 7. Tilsyn og reaksjoner</h2>
 <h4 id="33-tilsyn">§ 33. Tilsyn</h4>
 <p>Nasjonal kommunikasjonsmyndighet fører tilsyn etter lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon kapittel 15 med at bestemmelser i forskriften eller vedtak fattet med hjemmel i forskriften overholdes.</p>
 <p>Den som er gjenstand for tilsyn plikter å skaffe til veie radioutstyr som Nasjonal kommunikasjonsmyndighet ber om å få utlevert eller tilsendt for nærmere kontroll, selv om radioutstyret ikke er tilgjengelig på lager. Radioutstyret som er gjenstand for tilsyn skal overleveres til Nasjonal kommunikasjonsmyndighet vederlagsfritt.</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="34-reaksjoner">§ 34. Reaksjoner</h4>
 <p>Ved brudd på pliktene kan Nasjonal kommunikasjonsmyndighet gjennomføre reaksjoner etter lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon kapittel 15 og lov 12. april 2013 nr. 13 om det frie varebytte i EØS (EØS-vareloven) , forordning (EF) nr. 765/2008 .</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h4 id="35-straff">§ 35. Straff</h4>
 <p>Brudd på forskriften er straffbart etter lov 13. desember 2024 nr. 76 om elektronisk kommunikasjon § 15-14 .</p>
-<p><em>Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 20 des 2024 nr. 3423 (i kraft 1 jan 2025).</p>
 <h2 id="kapittel-8-ikrafttredelse-mm">Kapittel 8. Ikrafttredelse m.m.</h2>
 <h4 id="36-unntak">§ 36. Unntak</h4>
 <p>Når særlige grunner foreligger og det ikke vil være i strid med EØS-avtalen kan Nasjonal kommunikasjonsmyndighet gjøre unntak fra krav i forskriften.</p>
@@ -461,6 +624,8 @@ d. på forespørsel, opplysninger om samsvarsvurderingsaktiviteter utført av or
 <p>Så lenge den forblir synlig og leselig, kan etikettens utforming variere (f.eks. når det gjelder farge, kontur og linjetykkelse). Dersom etiketten forminskes eller forstørres, skal størrelsesforholdet som er angitt i figurene i nr. 1 i denne delen, opprettholdes. Størrelsen «a» nevnt i nr. 1 i denne delen skal være minst 7 mm, uavhengig av endringen.</p>
 </li>
 </ol>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,151 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-06-16-56.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten" href="../feeds/lov-2017-06-16-56.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-06-16-56</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Helse- og omsorgsrett &raquo; Helseforetak\nHelse- og omsorgsrett &raquo; Helsepersonell\nHelse- og omsorgsrett &raquo; Kommunehelsetjeneste</dd>
-<dt>Ikrafttredelse</dt><dd>2018-06-15, 2019-05-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-74</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-56" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-statens-underskelseskommisjon-for-helse-og-omsorgstjenesten">§ 4. Statens undersøkelseskommisjon for helse- og omsorgstjenesten</a></li>
+<li class="lvl3"><a href="#5-underskelseskommisjonens-oppgaver">§ 5. Undersøkelseskommisjonens oppgaver</a></li>
+<li class="lvl3"><a href="#6-arlig-rapportering">§ 6. Årlig rapportering</a></li>
+<li class="lvl3"><a href="#7-melding-til-underskelseskommisjonen-om-alvorlige-hendelser">§ 7. Melding til undersøkelseskommisjonen om alvorlige hendelser</a></li>
+<li class="lvl3"><a href="#8-underretning-og-adgang-til-a-uttale-seg">§ 8. Underretning og adgang til å uttale seg</a></li>
+<li class="lvl3"><a href="#9-tiltak-for-a-fremskaffe-opplysninger">§ 9. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl3"><a href="#10-forklaringsplikt">§ 10. Forklaringsplikt</a></li>
+<li class="lvl3"><a href="#11-bevissikring">§ 11. Bevissikring</a></li>
+<li class="lvl3"><a href="#12-taushetsplikt">§ 12. Taushetsplikt</a></li>
+<li class="lvl3"><a href="#13-offentlighet">§ 13. Offentlighet</a></li>
+<li class="lvl3"><a href="#14-informasjon-til-relevant-offentlig-organ">§ 14. Informasjon til relevant offentlig organ</a></li>
+<li class="lvl3"><a href="#15-underskelsesrapport">§ 15. Undersøkelsesrapport</a></li>
+<li class="lvl3"><a href="#16-foreleggelse-av-utkast-til-underskelsesrapport">§ 16. Foreleggelse av utkast til undersøkelsesrapport</a></li>
+<li class="lvl3"><a href="#17-forbud-mot-bruk-som-bevis-i-straffesak">§ 17. Forbud mot bruk som bevis i straffesak</a></li>
+<li class="lvl3"><a href="#18-forbud-mot-sanksjoner-fra-arbeidsgiver">§ 18. Forbud mot sanksjoner fra arbeidsgiver</a></li>
+<li class="lvl3"><a href="#19-forholdet-til-helseregisterloven">§ 19. Forholdet til helseregisterloven</a></li>
+<li class="lvl3"><a href="#20-ikraftsetting">§ 20. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#21-endringer-i-andre-lover">§ 21. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-74.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-56.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-56.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-06-16-56 <code>lov/2017-06-16-56</code></td></tr>
+<tr><th>Korttittel</th><td>Lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Helse- og omsorgsrett &raquo; Helseforetak\nHelse- og omsorgsrett &raquo; Helsepersonell\nHelse- og omsorgsrett &raquo; Kommunehelsetjeneste</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.06.2018, 01.05.2019</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-74 <code>lov/2025-06-20-74</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-56" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl3"><a href="#4-statens-underskelseskommisjon-for-helse-og-omsorgstjenesten">§ 4. Statens undersøkelseskommisjon for helse- og omsorgstjenesten</a></li>
+<li class="lvl3"><a href="#5-underskelseskommisjonens-oppgaver">§ 5. Undersøkelseskommisjonens oppgaver</a></li>
+<li class="lvl3"><a href="#6-arlig-rapportering">§ 6. Årlig rapportering</a></li>
+<li class="lvl3"><a href="#7-melding-til-underskelseskommisjonen-om-alvorlige-hendelser">§ 7. Melding til undersøkelseskommisjonen om alvorlige hendelser</a></li>
+<li class="lvl3"><a href="#8-underretning-og-adgang-til-a-uttale-seg">§ 8. Underretning og adgang til å uttale seg</a></li>
+<li class="lvl3"><a href="#9-tiltak-for-a-fremskaffe-opplysninger">§ 9. Tiltak for å fremskaffe opplysninger</a></li>
+<li class="lvl3"><a href="#10-forklaringsplikt">§ 10. Forklaringsplikt</a></li>
+<li class="lvl3"><a href="#11-bevissikring">§ 11. Bevissikring</a></li>
+<li class="lvl3"><a href="#12-taushetsplikt">§ 12. Taushetsplikt</a></li>
+<li class="lvl3"><a href="#13-offentlighet">§ 13. Offentlighet</a></li>
+<li class="lvl3"><a href="#14-informasjon-til-relevant-offentlig-organ">§ 14. Informasjon til relevant offentlig organ</a></li>
+<li class="lvl3"><a href="#15-underskelsesrapport">§ 15. Undersøkelsesrapport</a></li>
+<li class="lvl3"><a href="#16-foreleggelse-av-utkast-til-underskelsesrapport">§ 16. Foreleggelse av utkast til undersøkelsesrapport</a></li>
+<li class="lvl3"><a href="#17-forbud-mot-bruk-som-bevis-i-straffesak">§ 17. Forbud mot bruk som bevis i straffesak</a></li>
+<li class="lvl3"><a href="#18-forbud-mot-sanksjoner-fra-arbeidsgiver">§ 18. Forbud mot sanksjoner fra arbeidsgiver</a></li>
+<li class="lvl3"><a href="#19-forholdet-til-helseregisterloven">§ 19. Forholdet til helseregisterloven</a></li>
+<li class="lvl3"><a href="#20-ikraftsetting">§ 20. Ikraftsetting</a></li>
+<li class="lvl3"><a href="#21-endringer-i-andre-lover">§ 21. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-56.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-56.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-56.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-06-16-56.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-06-16-56.html">Observerte kildeutgaver</a> · <a href="../historie/statens-undersøkelseskommisjon-for-helse-og-omsorgstjenesten.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-06-16-56.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-06-16-56.html">Observerte kildeutgaver</a> · <a href="../historie/statens-undersøkelseskommisjon-for-helse-og-omsorgstjenesten.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-06-16-56.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-statens-underskelseskommisjon-for-helse-og-omsorgstjenesten">Lov om Statens undersøkelseskommisjon for helse- og omsorgstjenesten</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med loven er å bedre pasient- og brukersikkerheten i helse- og omsorgstjenesten gjennom undersøkelser av alvorlige hendelser og andre alvorlige forhold.</p>
 <h3 id="2-virkeomrade">§ 2. Virkeområde</h3>
@@ -87,7 +174,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>I loven menes med</p>
 <p>a. alvorlig hendelse: dødsfall eller svært alvorlig skade på pasient eller bruker hvor utfallet er uventet ut fra påregnelig risiko.
 b. alvorlige forhold: omstendigheter eller sammenhenger som antas å kunne føre til alvorlige hendelser.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 31 (ikr. 1 juli 2021 iflg. res. 7 mai 2021 nr. 1444 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 31 (ikr. 1 juli 2021 iflg. res. 7 mai 2021 nr. 1444 ).</p>
 <h3 id="4-statens-underskelseskommisjon-for-helse-og-omsorgstjenesten">§ 4. Statens undersøkelseskommisjon for helse- og omsorgstjenesten</h3>
 <p>Statens undersøkelseskommisjon for helse- og omsorgstjenesten (undersøkelseskommisjonen) er et forvaltningsorgan administrativt underlagt departementet. Den skal utføre sine oppgaver uavhengig og selvstendig, og den kan ikke instrueres i faglige spørsmål.</p>
 <p>Undersøkelseskommisjonen ledes av en direktør. Direktøren beskikkes av Kongen.</p>
@@ -103,7 +190,7 @@ b. alvorlige forhold: omstendigheter eller sammenhenger som antas å kunne føre
 <p>En virksomhet som yter helse- og omsorgstjenester, skal snarest mulig og senest innen fem virkedager sende melding til Statens undersøkelseskommisjon om dødsfall eller svært alvorlig skade på pasient eller bruker som følge av tjenesteytelsen eller ved at en pasient eller bruker skader en annen. Meldeplikten gjelder dersom utfallet er uventet ut fra påregnelig risiko.</p>
 <p>Pasienter, brukere eller nærmeste pårørende kan sende melding til undersøkelseskommisjonen om hendelser som nevnt i første ledd.</p>
 <p>Når undersøkelseskommisjonen har mottatt melding etter første eller andre ledd skal den uten ugrunnet opphold avgjøre om det skal iverksettes undersøkelse.</p>
-<p><em>Endret ved lover 7 mai 2021 nr. 31 (ikr. 1 juli 2021 iflg. res. 7 mai 2021 nr. 1444 ), 20 juni 2025 nr. 74 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 675 ).</em></p>
+<p class="note">Endret ved lover 7 mai 2021 nr. 31 (ikr. 1 juli 2021 iflg. res. 7 mai 2021 nr. 1444 ), 20 juni 2025 nr. 74 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 675 ).</p>
 <h3 id="8-underretning-og-adgang-til-a-uttale-seg">§ 8. Underretning og adgang til å uttale seg</h3>
 <p>Når undersøkelseskommisjonen har iverksatt undersøkelse, skal den så vidt mulig underrette tjenesteytere, pasienter eller brukere, nærmeste pårørende eller andre som undersøkelsen angår. Slik underretning skal gis så snart som mulig, og den skal opplyse om rettighetene etter andre ledd og etter § 16 .</p>
 <p>Innen undersøkelsen avsluttes, skal personene og tjenesteyterne nevnt i første ledd gis adgang til å uttale seg om den alvorlige hendelsen eller det alvorlige forholdet. De har også rett til å gjøre seg kjent med dokumentene med de begrensninger som følger av taushetsplikten i § 12 .</p>
@@ -152,6 +239,8 @@ d. dersom omstendigheter knyttet til arbeidstakeren eller dennes handlinger elle
 <p><em>1 §§ 1 , 2 , 4 og 20 trer i kraft 15 juni 2018 iflg. res. 15 juni 2018 nr. 878 . § 3 , § 5 til § 19 og § 21 trer i kraft 1 mai 2019 iflg. res 26 apr 2019 nr. 541 .</em></p>
 <h3 id="21-endringer-i-andre-lover">§ 21. Endringer i andre lover</h3>
 <p>Fra den tid loven trer i kraft gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

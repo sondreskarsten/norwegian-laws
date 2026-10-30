@@ -19,64 +19,313 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2013-04-26-412.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om miljøvern og sikkerhet i Antarktis" href="../feeds/forskrift-2013-04-26-412.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-klima--og-miljødepartementet.html">Klima- og miljødepartementet</a> &rsaquo;
 <span>Forskrift om miljøvern og sikkerhet i Antarktis</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2013-04-26-412</code></dd>
-<dt>Departement</dt><dd>Klima- og miljødepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-04-26</dd>
-<dt>Sist endret</dt><dd>forskrift/2013-12-19-1757</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2013-04-26-412" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-forholdet-til-andre-staters-myndighetsutvelse">§ 4. Forholdet til andre staters myndighetsutøvelse</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#5-generelt-om-aktivitet-i-antarktis">§ 5. Generelt om aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-utvinning-av-mineralressurser">§ 6. Forbud mot utvinning av mineralressurser</a></li>
+<li class="lvl4"><a href="#7-inspeksjoner">§ 7. Inspeksjoner</a></li>
+<li class="lvl4"><a href="#8-ndssituasjoner">§ 8. Nødssituasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-til-aktivitet-i-antarktis">Kapittel 3. Krav til aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#9-meldeplikt-for-aktivitet-i-antarktis">§ 9. Meldeplikt for aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#10-krav-om-beredskap-for-akutt-forurensning">§ 10. Krav om beredskap for akutt forurensning</a></li>
+<li class="lvl4"><a href="#11-krav-om-beredskap-for-a-ivareta-sikkerhet-for-liv-og-helse">§ 11. Krav om beredskap for å ivareta sikkerhet for liv og helse</a></li>
+<li class="lvl4"><a href="#12-krav-om-forsikring">§ 12. Krav om forsikring</a></li>
+<li class="lvl4"><a href="#13-palegg-om-endringer-i-utsettelse-av-og-forbud-mot-aktivitet">§ 13. Pålegg om endringer i, utsettelse av og forbud mot aktivitet</a></li>
+<li class="lvl4"><a href="#14-overvakning-og-tiltak-ved-uforutsette-virkninger">§ 14. Overvåkning og tiltak ved uforutsette virkninger</a></li>
+<li class="lvl4"><a href="#15-rapporteringsplikt">§ 15. Rapporteringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-forelpig-og-fullstendig-konsekvensvurdering">Kapittel 4. Foreløpig og fullstendig konsekvensvurdering</a></li>
+<li class="lvl4"><a href="#16-forelpig-konsekvensvurdering">§ 16. Foreløpig konsekvensvurdering</a></li>
+<li class="lvl4"><a href="#17-fullstendig-konsekvensvurdering">§ 17. Fullstendig konsekvensvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-5-vern-av-flora-og-fauna">Kapittel 5. Vern av flora og fauna</a></li>
+<li class="lvl4"><a href="#18-vern-av-naturlig-forekommende-flora-og-fauna">§ 18. Vern av naturlig forekommende flora og fauna</a></li>
+<li class="lvl4"><a href="#19-innfrsel-av-plante-og-dyrearter-og-mikroorganismer">§ 19. Innførsel av plante- og dyrearter og mikroorganismer</a></li>
+<li class="lvl2"><a href="#kapittel-6-handtering-av-forurensning-og-avfall">Kapittel 6. Håndtering av forurensning og avfall</a></li>
+<li class="lvl4"><a href="#20-virkeomrade">§ 20. Virkeområde</a></li>
+<li class="lvl4"><a href="#21-fjerning-av-avfall-fra-antarktis">§ 21. Fjerning av avfall fra Antarktis</a></li>
+<li class="lvl4"><a href="#22-forbud-mot-utslipp-av-miljskadelige-stoffer-og-produkter">§ 22. Forbud mot utslipp av miljøskadelige stoffer og produkter</a></li>
+<li class="lvl4"><a href="#23-lagring-av-avfall">§ 23. Lagring av avfall</a></li>
+<li class="lvl4"><a href="#24-opprensking-pa-avfallsplasser-og-byggeplasser">§ 24. Opprensking på avfallsplasser og byggeplasser</a></li>
+<li class="lvl4"><a href="#25-kontroll-og-journalfring-av-avfallshandtering">§ 25. Kontroll og journalføring av avfallshåndtering</a></li>
+<li class="lvl2"><a href="#kapittel-7-ansvar-ved-akutt-forurensning">Kapittel 7. Ansvar ved akutt forurensning</a></li>
+<li class="lvl4"><a href="#26-mottiltak">§ 26. Mottiltak</a></li>
+<li class="lvl4"><a href="#27-ansvar-for-mottiltak-truffet-av-andre">§ 27. Ansvar for mottiltak truffet av andre</a></li>
+<li class="lvl4"><a href="#28-ansvar-nar-mottiltak-ikke-er-truffet-av-noen">§ 28. Ansvar når mottiltak ikke er truffet av noen</a></li>
+<li class="lvl4"><a href="#29-solidarisk-ansvar">§ 29. Solidarisk ansvar</a></li>
+<li class="lvl4"><a href="#30-unntak-fra-ansvar">§ 30. Unntak fra ansvar</a></li>
+<li class="lvl4"><a href="#31-ansvarsbegrensning">§ 31. Ansvarsbegrensning</a></li>
+<li class="lvl4"><a href="#32-sksmal">§ 32. Søksmål</a></li>
+<li class="lvl2"><a href="#kapittel-8-spesielle-verneomrader-og-forvaltningsomrader">Kapittel 8. Spesielle verneområder og forvaltningsområder</a></li>
+<li class="lvl4"><a href="#33-spesielle-verneomrader">§ 33. Spesielle verneområder</a></li>
+<li class="lvl4"><a href="#34-spesielle-forvaltningsomrader">§ 34. Spesielle forvaltningsområder</a></li>
+<li class="lvl4"><a href="#35-historiske-steder-og-kulturminner">§ 35. Historiske steder og kulturminner</a></li>
+<li class="lvl2"><a href="#kapittel-9-srskilte-bestemmelser">Kapittel 9. Særskilte bestemmelser</a></li>
+<li class="lvl4"><a href="#36-dispensasjon">§ 36. Dispensasjon</a></li>
+<li class="lvl4"><a href="#37-opplysningsplikt">§ 37. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#38-tilsyn">§ 38. Tilsyn</a></li>
+<li class="lvl4"><a href="#39-klageadgang">§ 39. Klageadgang</a></li>
+<li class="lvl4"><a href="#40-straffereaksjoner">§ 40. Straffereaksjoner</a></li>
+<li class="lvl4"><a href="#41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">§ 41. Ikrafttredelse og opphevelse av tidligere forskrift</a></li>
+<li class="lvl2"><a href="#kommentarer-til-forskrift-om-miljvern-og-sikkerhet-i-antarktis">Kommentarer til forskrift om miljøvern og sikkerhet i Antarktis</a></li>
+<li class="lvl3"><a href="#i-generelle-merknader">I. Generelle merknader</a></li>
+<li class="lvl3"><a href="#ii-kommentarer-til-de-enkelte-bestemmelsene">II. Kommentarer til de enkelte bestemmelsene</a></li>
+<li class="lvl4"><a href="#kapittel-1-innledende-bestemmelser_1">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#til-1-formal">Til § 1. Formål</a></li>
+<li class="lvl5"><a href="#til-2-virkeomrade">Til § 2. Virkeområde</a></li>
+<li class="lvl5"><a href="#til-3-definisjoner">Til § 3. Definisjoner</a></li>
+<li class="lvl5"><a href="#til-4-forholdet-til-andre-staters-myndighetsutvelse">Til § 4. Forholdet til andre staters myndighetsutøvelse</a></li>
+<li class="lvl4"><a href="#kapittel-2-alminnelige-bestemmelser_1">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#til-5-generelt-om-aktivitet-i-antarktis">Til § 5. Generelt om aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-6-forbud-mot-utvinning-av-mineralressurser">Til § 6. Forbud mot utvinning av mineralressurser</a></li>
+<li class="lvl5"><a href="#til-7-inspeksjoner">Til § 7. Inspeksjoner</a></li>
+<li class="lvl5"><a href="#til-8-ndssituasjoner">Til § 8. Nødssituasjoner</a></li>
+<li class="lvl4"><a href="#kapittel-3-krav-til-aktivitet-i-antarktis_1">Kapittel 3. Krav til aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-9-meldeplikt-for-aktivitet-i-antarktis">Til § 9. Meldeplikt for aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-10-krav-om-beredskap-for-akutt-forurensning">Til § 10. Krav om beredskap for akutt forurensning</a></li>
+<li class="lvl5"><a href="#til-11-krav-om-beredskap-for-a-ivareta-sikkerhet-for-liv-og-helse">Til § 11. Krav om beredskap for å ivareta sikkerhet for liv og helse</a></li>
+<li class="lvl5"><a href="#til-12-krav-om-forsikring">Til § 12. Krav om forsikring</a></li>
+<li class="lvl5"><a href="#til-13-palegg-om-endringer-i-utsettelse-av-og-forbud-mot-aktivitet">Til § 13. Pålegg om endringer i, utsettelse av og forbud mot aktivitet</a></li>
+<li class="lvl5"><a href="#til-14-overvaking-og-tiltak-ved-uforutsette-virkninger">Til § 14. Overvåking og tiltak ved uforutsette virkninger</a></li>
+<li class="lvl5"><a href="#til-15-rapporteringsplikt">Til § 15. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#kapittel-4-forelpig-og-fullstendig-konsekvensvurdering_1">Kapittel 4. Foreløpig og fullstendig konsekvensvurdering</a></li>
+<li class="lvl5"><a href="#til-16-og-17-miljkonsekvensvurderinger">Til § 16 og § 17 Miljøkonsekvensvurderinger</a></li>
+<li class="lvl4"><a href="#kapittel-5-vern-av-flora-og-fauna_1">Kapittel 5. Vern av flora og fauna.</a></li>
+<li class="lvl5"><a href="#til-18-vern-av-naturlig-forekommende-flora-og-fauna">Til § 18. Vern av naturlig forekommende flora og fauna</a></li>
+<li class="lvl5"><a href="#til-19-innfrsel-av-plante-og-dyrearter-og-mikroorganismer">Til § 19. Innførsel av plante- og dyrearter og mikroorganismer</a></li>
+<li class="lvl4"><a href="#kapittel-6-handtering-av-forurensning-og-avfall_1">Kapittel 6. Håndtering av forurensning og avfall</a></li>
+<li class="lvl5"><a href="#til-20-virkeomrade">Til § 20. Virkeområde</a></li>
+<li class="lvl5"><a href="#til-21-fjerning-av-avfall-fra-antarktis">Til § 21. Fjerning av avfall fra Antarktis</a></li>
+<li class="lvl5"><a href="#til-22-forbud-mot-utslipp-av-miljskadelige-stoffer-og-produkter">Til § 22. Forbud mot utslipp av miljøskadelige stoffer og produkter</a></li>
+<li class="lvl5"><a href="#til-23-lagring-av-avfall">Til § 23. Lagring av avfall</a></li>
+<li class="lvl5"><a href="#til-24-opprensking-av-avfallsplasser-og-byggeplasser">Til § 24. Opprensking av avfallsplasser og byggeplasser</a></li>
+<li class="lvl5"><a href="#til-25-kontroll-og-journalfring-av-avfallshandtering">Til § 25. Kontroll og journalføring av avfallshåndtering</a></li>
+<li class="lvl4"><a href="#kapittel-7-ansvar-ved-akutt-forurensning_1">Kapittel 7. Ansvar ved akutt forurensning</a></li>
+<li class="lvl5"><a href="#til-26-mottiltak">Til § 26. Mottiltak</a></li>
+<li class="lvl5"><a href="#til-27-ansvar-for-mottiltak-truffet-av-andre">Til § 27. Ansvar for mottiltak truffet av andre</a></li>
+<li class="lvl5"><a href="#til-28-ansvar-nar-mottiltak-ikke-er-truffet-av-noen">Til § 28. Ansvar når mottiltak ikke er truffet av noen</a></li>
+<li class="lvl5"><a href="#til-29-solidarisk-ansvar">Til § 29. Solidarisk ansvar</a></li>
+<li class="lvl5"><a href="#til-30-unntak-fra-ansvar">Til § 30. Unntak fra ansvar</a></li>
+<li class="lvl5"><a href="#til-31-ansvarsbegrensing">Til § 31. Ansvarsbegrensing</a></li>
+<li class="lvl5"><a href="#til-32-sksmal">Til § 32. Søksmål</a></li>
+<li class="lvl4"><a href="#kapittel-8-spesielle-verneomrader-og-forvaltningsomrader_1">Kapittel 8. Spesielle verneområder og forvaltningsområder</a></li>
+<li class="lvl5"><a href="#til-33-spesielle-verneomrader">Til § 33. Spesielle verneområder</a></li>
+<li class="lvl5"><a href="#til-34-spesielle-forvaltningsomrader">Til § 34. Spesielle forvaltningsområder</a></li>
+<li class="lvl5"><a href="#til-35-historiske-steder-og-kulturminner">Til § 35. Historiske steder og kulturminner</a></li>
+<li class="lvl4"><a href="#kapittel-9-srskilte-bestemmelser_1">Kapittel 9. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#til-36-dispensasjon">Til § 36. Dispensasjon</a></li>
+<li class="lvl5"><a href="#til-37-opplysningsplikt">Til § 37. Opplysningsplikt</a></li>
+<li class="lvl5"><a href="#til-38-tilsyn">Til § 38. Tilsyn</a></li>
+<li class="lvl5"><a href="#til-39-klageadgang">Til § 39. Klageadgang</a></li>
+<li class="lvl5"><a href="#til-40-straffereaksjoner">Til § 40. Straffereaksjoner</a></li>
+<li class="lvl5"><a href="#til-41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">Til § 41. Ikrafttredelse og opphevelse av tidligere forskrift</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2013-12-19-1757.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-04-26-412.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om miljøvern og sikkerhet i Antarktis</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-04-26-412.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2013-04-26-412 <code>forskrift/2013-04-26-412</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Klima- og miljødepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>26.04.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2013-12-19-1757 <code>forskrift/2013-12-19-1757</code> fra 01.01.2014</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2013-04-26-412" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-forholdet-til-andre-staters-myndighetsutvelse">§ 4. Forholdet til andre staters myndighetsutøvelse</a></li>
+<li class="lvl2"><a href="#kapittel-2-alminnelige-bestemmelser">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#5-generelt-om-aktivitet-i-antarktis">§ 5. Generelt om aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#6-forbud-mot-utvinning-av-mineralressurser">§ 6. Forbud mot utvinning av mineralressurser</a></li>
+<li class="lvl4"><a href="#7-inspeksjoner">§ 7. Inspeksjoner</a></li>
+<li class="lvl4"><a href="#8-ndssituasjoner">§ 8. Nødssituasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-3-krav-til-aktivitet-i-antarktis">Kapittel 3. Krav til aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#9-meldeplikt-for-aktivitet-i-antarktis">§ 9. Meldeplikt for aktivitet i Antarktis</a></li>
+<li class="lvl4"><a href="#10-krav-om-beredskap-for-akutt-forurensning">§ 10. Krav om beredskap for akutt forurensning</a></li>
+<li class="lvl4"><a href="#11-krav-om-beredskap-for-a-ivareta-sikkerhet-for-liv-og-helse">§ 11. Krav om beredskap for å ivareta sikkerhet for liv og helse</a></li>
+<li class="lvl4"><a href="#12-krav-om-forsikring">§ 12. Krav om forsikring</a></li>
+<li class="lvl4"><a href="#13-palegg-om-endringer-i-utsettelse-av-og-forbud-mot-aktivitet">§ 13. Pålegg om endringer i, utsettelse av og forbud mot aktivitet</a></li>
+<li class="lvl4"><a href="#14-overvakning-og-tiltak-ved-uforutsette-virkninger">§ 14. Overvåkning og tiltak ved uforutsette virkninger</a></li>
+<li class="lvl4"><a href="#15-rapporteringsplikt">§ 15. Rapporteringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-forelpig-og-fullstendig-konsekvensvurdering">Kapittel 4. Foreløpig og fullstendig konsekvensvurdering</a></li>
+<li class="lvl4"><a href="#16-forelpig-konsekvensvurdering">§ 16. Foreløpig konsekvensvurdering</a></li>
+<li class="lvl4"><a href="#17-fullstendig-konsekvensvurdering">§ 17. Fullstendig konsekvensvurdering</a></li>
+<li class="lvl2"><a href="#kapittel-5-vern-av-flora-og-fauna">Kapittel 5. Vern av flora og fauna</a></li>
+<li class="lvl4"><a href="#18-vern-av-naturlig-forekommende-flora-og-fauna">§ 18. Vern av naturlig forekommende flora og fauna</a></li>
+<li class="lvl4"><a href="#19-innfrsel-av-plante-og-dyrearter-og-mikroorganismer">§ 19. Innførsel av plante- og dyrearter og mikroorganismer</a></li>
+<li class="lvl2"><a href="#kapittel-6-handtering-av-forurensning-og-avfall">Kapittel 6. Håndtering av forurensning og avfall</a></li>
+<li class="lvl4"><a href="#20-virkeomrade">§ 20. Virkeområde</a></li>
+<li class="lvl4"><a href="#21-fjerning-av-avfall-fra-antarktis">§ 21. Fjerning av avfall fra Antarktis</a></li>
+<li class="lvl4"><a href="#22-forbud-mot-utslipp-av-miljskadelige-stoffer-og-produkter">§ 22. Forbud mot utslipp av miljøskadelige stoffer og produkter</a></li>
+<li class="lvl4"><a href="#23-lagring-av-avfall">§ 23. Lagring av avfall</a></li>
+<li class="lvl4"><a href="#24-opprensking-pa-avfallsplasser-og-byggeplasser">§ 24. Opprensking på avfallsplasser og byggeplasser</a></li>
+<li class="lvl4"><a href="#25-kontroll-og-journalfring-av-avfallshandtering">§ 25. Kontroll og journalføring av avfallshåndtering</a></li>
+<li class="lvl2"><a href="#kapittel-7-ansvar-ved-akutt-forurensning">Kapittel 7. Ansvar ved akutt forurensning</a></li>
+<li class="lvl4"><a href="#26-mottiltak">§ 26. Mottiltak</a></li>
+<li class="lvl4"><a href="#27-ansvar-for-mottiltak-truffet-av-andre">§ 27. Ansvar for mottiltak truffet av andre</a></li>
+<li class="lvl4"><a href="#28-ansvar-nar-mottiltak-ikke-er-truffet-av-noen">§ 28. Ansvar når mottiltak ikke er truffet av noen</a></li>
+<li class="lvl4"><a href="#29-solidarisk-ansvar">§ 29. Solidarisk ansvar</a></li>
+<li class="lvl4"><a href="#30-unntak-fra-ansvar">§ 30. Unntak fra ansvar</a></li>
+<li class="lvl4"><a href="#31-ansvarsbegrensning">§ 31. Ansvarsbegrensning</a></li>
+<li class="lvl4"><a href="#32-sksmal">§ 32. Søksmål</a></li>
+<li class="lvl2"><a href="#kapittel-8-spesielle-verneomrader-og-forvaltningsomrader">Kapittel 8. Spesielle verneområder og forvaltningsområder</a></li>
+<li class="lvl4"><a href="#33-spesielle-verneomrader">§ 33. Spesielle verneområder</a></li>
+<li class="lvl4"><a href="#34-spesielle-forvaltningsomrader">§ 34. Spesielle forvaltningsområder</a></li>
+<li class="lvl4"><a href="#35-historiske-steder-og-kulturminner">§ 35. Historiske steder og kulturminner</a></li>
+<li class="lvl2"><a href="#kapittel-9-srskilte-bestemmelser">Kapittel 9. Særskilte bestemmelser</a></li>
+<li class="lvl4"><a href="#36-dispensasjon">§ 36. Dispensasjon</a></li>
+<li class="lvl4"><a href="#37-opplysningsplikt">§ 37. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#38-tilsyn">§ 38. Tilsyn</a></li>
+<li class="lvl4"><a href="#39-klageadgang">§ 39. Klageadgang</a></li>
+<li class="lvl4"><a href="#40-straffereaksjoner">§ 40. Straffereaksjoner</a></li>
+<li class="lvl4"><a href="#41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">§ 41. Ikrafttredelse og opphevelse av tidligere forskrift</a></li>
+<li class="lvl2"><a href="#kommentarer-til-forskrift-om-miljvern-og-sikkerhet-i-antarktis">Kommentarer til forskrift om miljøvern og sikkerhet i Antarktis</a></li>
+<li class="lvl3"><a href="#i-generelle-merknader">I. Generelle merknader</a></li>
+<li class="lvl3"><a href="#ii-kommentarer-til-de-enkelte-bestemmelsene">II. Kommentarer til de enkelte bestemmelsene</a></li>
+<li class="lvl4"><a href="#kapittel-1-innledende-bestemmelser_1">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl5"><a href="#til-1-formal">Til § 1. Formål</a></li>
+<li class="lvl5"><a href="#til-2-virkeomrade">Til § 2. Virkeområde</a></li>
+<li class="lvl5"><a href="#til-3-definisjoner">Til § 3. Definisjoner</a></li>
+<li class="lvl5"><a href="#til-4-forholdet-til-andre-staters-myndighetsutvelse">Til § 4. Forholdet til andre staters myndighetsutøvelse</a></li>
+<li class="lvl4"><a href="#kapittel-2-alminnelige-bestemmelser_1">Kapittel 2. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#til-5-generelt-om-aktivitet-i-antarktis">Til § 5. Generelt om aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-6-forbud-mot-utvinning-av-mineralressurser">Til § 6. Forbud mot utvinning av mineralressurser</a></li>
+<li class="lvl5"><a href="#til-7-inspeksjoner">Til § 7. Inspeksjoner</a></li>
+<li class="lvl5"><a href="#til-8-ndssituasjoner">Til § 8. Nødssituasjoner</a></li>
+<li class="lvl4"><a href="#kapittel-3-krav-til-aktivitet-i-antarktis_1">Kapittel 3. Krav til aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-9-meldeplikt-for-aktivitet-i-antarktis">Til § 9. Meldeplikt for aktivitet i Antarktis</a></li>
+<li class="lvl5"><a href="#til-10-krav-om-beredskap-for-akutt-forurensning">Til § 10. Krav om beredskap for akutt forurensning</a></li>
+<li class="lvl5"><a href="#til-11-krav-om-beredskap-for-a-ivareta-sikkerhet-for-liv-og-helse">Til § 11. Krav om beredskap for å ivareta sikkerhet for liv og helse</a></li>
+<li class="lvl5"><a href="#til-12-krav-om-forsikring">Til § 12. Krav om forsikring</a></li>
+<li class="lvl5"><a href="#til-13-palegg-om-endringer-i-utsettelse-av-og-forbud-mot-aktivitet">Til § 13. Pålegg om endringer i, utsettelse av og forbud mot aktivitet</a></li>
+<li class="lvl5"><a href="#til-14-overvaking-og-tiltak-ved-uforutsette-virkninger">Til § 14. Overvåking og tiltak ved uforutsette virkninger</a></li>
+<li class="lvl5"><a href="#til-15-rapporteringsplikt">Til § 15. Rapporteringsplikt</a></li>
+<li class="lvl4"><a href="#kapittel-4-forelpig-og-fullstendig-konsekvensvurdering_1">Kapittel 4. Foreløpig og fullstendig konsekvensvurdering</a></li>
+<li class="lvl5"><a href="#til-16-og-17-miljkonsekvensvurderinger">Til § 16 og § 17 Miljøkonsekvensvurderinger</a></li>
+<li class="lvl4"><a href="#kapittel-5-vern-av-flora-og-fauna_1">Kapittel 5. Vern av flora og fauna.</a></li>
+<li class="lvl5"><a href="#til-18-vern-av-naturlig-forekommende-flora-og-fauna">Til § 18. Vern av naturlig forekommende flora og fauna</a></li>
+<li class="lvl5"><a href="#til-19-innfrsel-av-plante-og-dyrearter-og-mikroorganismer">Til § 19. Innførsel av plante- og dyrearter og mikroorganismer</a></li>
+<li class="lvl4"><a href="#kapittel-6-handtering-av-forurensning-og-avfall_1">Kapittel 6. Håndtering av forurensning og avfall</a></li>
+<li class="lvl5"><a href="#til-20-virkeomrade">Til § 20. Virkeområde</a></li>
+<li class="lvl5"><a href="#til-21-fjerning-av-avfall-fra-antarktis">Til § 21. Fjerning av avfall fra Antarktis</a></li>
+<li class="lvl5"><a href="#til-22-forbud-mot-utslipp-av-miljskadelige-stoffer-og-produkter">Til § 22. Forbud mot utslipp av miljøskadelige stoffer og produkter</a></li>
+<li class="lvl5"><a href="#til-23-lagring-av-avfall">Til § 23. Lagring av avfall</a></li>
+<li class="lvl5"><a href="#til-24-opprensking-av-avfallsplasser-og-byggeplasser">Til § 24. Opprensking av avfallsplasser og byggeplasser</a></li>
+<li class="lvl5"><a href="#til-25-kontroll-og-journalfring-av-avfallshandtering">Til § 25. Kontroll og journalføring av avfallshåndtering</a></li>
+<li class="lvl4"><a href="#kapittel-7-ansvar-ved-akutt-forurensning_1">Kapittel 7. Ansvar ved akutt forurensning</a></li>
+<li class="lvl5"><a href="#til-26-mottiltak">Til § 26. Mottiltak</a></li>
+<li class="lvl5"><a href="#til-27-ansvar-for-mottiltak-truffet-av-andre">Til § 27. Ansvar for mottiltak truffet av andre</a></li>
+<li class="lvl5"><a href="#til-28-ansvar-nar-mottiltak-ikke-er-truffet-av-noen">Til § 28. Ansvar når mottiltak ikke er truffet av noen</a></li>
+<li class="lvl5"><a href="#til-29-solidarisk-ansvar">Til § 29. Solidarisk ansvar</a></li>
+<li class="lvl5"><a href="#til-30-unntak-fra-ansvar">Til § 30. Unntak fra ansvar</a></li>
+<li class="lvl5"><a href="#til-31-ansvarsbegrensing">Til § 31. Ansvarsbegrensing</a></li>
+<li class="lvl5"><a href="#til-32-sksmal">Til § 32. Søksmål</a></li>
+<li class="lvl4"><a href="#kapittel-8-spesielle-verneomrader-og-forvaltningsomrader_1">Kapittel 8. Spesielle verneområder og forvaltningsområder</a></li>
+<li class="lvl5"><a href="#til-33-spesielle-verneomrader">Til § 33. Spesielle verneområder</a></li>
+<li class="lvl5"><a href="#til-34-spesielle-forvaltningsomrader">Til § 34. Spesielle forvaltningsområder</a></li>
+<li class="lvl5"><a href="#til-35-historiske-steder-og-kulturminner">Til § 35. Historiske steder og kulturminner</a></li>
+<li class="lvl4"><a href="#kapittel-9-srskilte-bestemmelser_1">Kapittel 9. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#til-36-dispensasjon">Til § 36. Dispensasjon</a></li>
+<li class="lvl5"><a href="#til-37-opplysningsplikt">Til § 37. Opplysningsplikt</a></li>
+<li class="lvl5"><a href="#til-38-tilsyn">Til § 38. Tilsyn</a></li>
+<li class="lvl5"><a href="#til-39-klageadgang">Til § 39. Klageadgang</a></li>
+<li class="lvl5"><a href="#til-40-straffereaksjoner">Til § 40. Straffereaksjoner</a></li>
+<li class="lvl5"><a href="#til-41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">Til § 41. Ikrafttredelse og opphevelse av tidligere forskrift</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-04-26-412.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2013-04-26-412.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2013-04-26-412.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2013-04-26-412.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2013-04-26-412.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-2013-04-26-412.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2013-04-26-412.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-miljvern-og-sikkerhet-i-antarktis">Forskrift om miljøvern og sikkerhet i Antarktis</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriftens formål er å verne miljøet i Antarktis og dets avhengige og tilknyttede økosystemer, bevare Antarktis' egenverdi, herunder villmarkskarakter og estetiske verdier, og å opprettholde områdets verdi for vitenskapelig forskning. Forskriften har også som formål at all aktivitet i Antarktis som omfattes av forskriften skal gjennomføres på en sikker og selvforsynt måte. Disse hensyn skal være grunnleggende i planlegging og gjennomføring av all aktivitet i Antarktis.</p>
@@ -265,13 +514,13 @@ c. for hvert tonn som overstiger 70 000 tonn, med 200 SDR.</p>
 <p>Tilsynsmyndigheten skal ha fri adgang til alle installasjoner, transportmidler og områder hvor det foregår aktivitet som omfattes av denne forskrift.</p>
 <h4 id="39-klageadgang">§ 39. Klageadgang</h4>
 <p>Vedtak fattet av Norsk Polarinstitutt kan påklages til Klima- og miljødepartementet etter reglene i lov 10. februar 1967 om behandlingsmåten i forvaltningssaker.</p>
-<p><em>Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h4 id="40-straffereaksjoner">§ 40. Straffereaksjoner</h4>
 <p>Den som forsettelig eller uaktsomt overtrer denne forskrift eller forbud eller pålegg gitt i medhold av den, straffes med bøter eller fengsel i inntil ett år eller begge deler.</p>
 <h4 id="41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">§ 41. Ikrafttredelse og opphevelse av tidligere forskrift</h4>
 <p>Forskriften trer i kraft straks. Klima- og miljødepartementet kan gjøre endringer i forskriften.</p>
 <p>Fra den tid forskriften trer i kraft oppheves forskrift 5. mai 1995 nr. 408 om vern av miljøet i Antarktis.</p>
-<p><em>Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014).</p>
 <h2 id="kommentarer-til-forskrift-om-miljvern-og-sikkerhet-i-antarktis">Kommentarer til forskrift om miljøvern og sikkerhet i Antarktis</h2>
 <h3 id="i-generelle-merknader">I. Generelle merknader</h3>
 <p>Antarktis er 12 millioner kvadratkilometer, omtrent 40 ganger større enn Norge. I samsvar med Miljøvernprotokollen undertegnet av Norge i Madrid 1991 og beslutninger truffet på samrådsmøtene under Antarktistraktaten, gir forskriften strenge regler for å verne miljøet og bevare Antarktis villmarkskarakter og estetiske verdier, samt regler om reisendes ansvar for egen sikkerhet. Norsk Polarinstitutt (NP) er miljøvernmyndighet i Antarktis.</p>
@@ -460,6 +709,8 @@ c. for hvert tonn som overstiger 70 000 tonn, med 200 SDR.</p>
 <h5 id="til-41-ikrafttredelse-og-opphevelse-av-tidligere-forskrift">Til § 41. Ikrafttredelse og opphevelse av tidligere forskrift</h5>
 <p>Klima- og miljødepartementet har hjemmel til å endre forskriften. Samtidig med ikrafttredelsen av forskriften oppheves forskrift 5. mai 1995 nr. 408 om vern av miljøet i Antarktis.</p>
 <p>Kommentarene endret ved forskrift 19 des 2013 nr. 1757 (i kraft 1 jan 2014), 1 mai 2014 uten kunngjøring.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

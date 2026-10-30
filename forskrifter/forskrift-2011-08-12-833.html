@@ -19,64 +19,183 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2011-08-12-833.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om lufttransporttjenester i EØS" href="../feeds/forskrift-2011-08-12-833.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Forskrift om lufttransporttjenester i EØS</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2011-08-12-833</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-08-12</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-06-27-1381</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2011-08-12-833" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#1-generelt">1. Generelt</a></li>
+<li class="lvl4"><a href="#1-gjennomfring-av-forordning-ef-nr-10082008">§ 1. Gjennomføring av forordning (EF) nr. 1008/2008</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-ansvarlige-myndigheter-for-de-enkelte-delene-av-forskriften">§ 3. Ansvarlige myndigheter for de enkelte delene av forskriften</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#2-utfyllende-regler-om-tildeling-av-driftstillatelse">2. Utfyllende regler om tildeling av driftstillatelse</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-andre-regler-om-driftstillatelse">§ 5. Forholdet til andre regler om driftstillatelse</a></li>
+<li class="lvl2"><a href="#3-utfyllende-regler-om-leie-av-luftfarty">3. Utfyllende regler om leie av luftfartøy</a></li>
+<li class="lvl4"><a href="#6-godkjennelse-av-dry-lease">§ 6. Godkjennelse av dry-lease</a></li>
+<li class="lvl4"><a href="#7-godkjennelse-av-wet-lease">§ 7. Godkjennelse av wet-lease</a></li>
+<li class="lvl4"><a href="#8-registrering">§ 8. Registrering</a></li>
+<li class="lvl4"><a href="#9-utleie">§ 9. Utleie</a></li>
+<li class="lvl2"><a href="#4-utfyllende-regler-om-fastsettelse-av-forpliktelser-til-offentlig-tjenesteytelse-og-gjennomfring-av-anskaffelser">4. Utfyllende regler om fastsettelse av forpliktelser til offentlig tjenesteytelse og gjennomføring av anskaffelser</a></li>
+<li class="lvl4"><a href="#10-myndighet-til-a-fastsette-forpliktelse-til-offentlig-tjenesteytelse">§ 10. Myndighet til å fastsette forpliktelse til offentlig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#11-tildeling-av-enerett-til-a-fly-rute-etter-konkurranse">§ 11. Tildeling av enerett til å fly rute etter konkurranse</a></li>
+<li class="lvl4"><a href="#12-krav-til-tilbyder">§ 12. Krav til tilbyder</a></li>
+<li class="lvl4"><a href="#13-valg-av-anskaffelsesprosedyre">§ 13. Valg av anskaffelsesprosedyre</a></li>
+<li class="lvl4"><a href="#14-kunngjring">§ 14. Kunngjøring</a></li>
+<li class="lvl4"><a href="#15-krav-til-innholdet-i-kunngjringen">§ 15. Krav til innholdet i kunngjøringen</a></li>
+<li class="lvl4"><a href="#16-krav-til-innholdet-i-konkurransegrunnlaget">§ 16. Krav til innholdet i konkurransegrunnlaget</a></li>
+<li class="lvl4"><a href="#17-tilbudets-utforming">§ 17. Tilbudets utforming</a></li>
+<li class="lvl4"><a href="#18-avvising-av-for-sent-innkomne-tilbud">§ 18. Avvising av for sent innkomne tilbud</a></li>
+<li class="lvl4"><a href="#19-prosedyre-ved-tilbudsapning">§ 19. Prosedyre ved tilbudsåpning</a></li>
+<li class="lvl4"><a href="#20-avvisning-pa-grunn-av-forhold-ved-tilbudet">§ 20. Avvisning på grunn av forhold ved tilbudet</a></li>
+<li class="lvl4"><a href="#21-avvisning-pa-grunn-av-forhold-ved-tilbyderen">§ 21. Avvisning på grunn av forhold ved tilbyderen</a></li>
+<li class="lvl4"><a href="#22-avvisning-pa-grunn-av-forventet-mislighold">§ 22. Avvisning på grunn av forventet mislighold</a></li>
+<li class="lvl4"><a href="#23-ettersending-av-opplysninger-og-dokumentasjon">§ 23. Ettersending av opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#24-gjennomfring-av-konkurranse-med-forhandling">§ 24. Gjennomføring av konkurranse med forhandling</a></li>
+<li class="lvl4"><a href="#25-avlysning-av-konkurransen-og-totalforkastelse">§ 25. Avlysning av konkurransen og totalforkastelse</a></li>
+<li class="lvl4"><a href="#26-kriterier-for-valg-av-tilbud">§ 26. Kriterier for valg av tilbud</a></li>
+<li class="lvl4"><a href="#27-omgjring-av-tildelingsbeslutningen">§ 27. Omgjøring av tildelingsbeslutningen</a></li>
+<li class="lvl4"><a href="#28-kontraktsinngaelse">§ 28. Kontraktsinngåelse</a></li>
+<li class="lvl2"><a href="#5-sanksjoner">5. Sanksjoner</a></li>
+<li class="lvl4"><a href="#29-brudd-pa-reglene-om-informasjon-til-og-likebehandling-av-passasjerer">§ 29. Brudd på reglene om informasjon til og likebehandling av passasjerer</a></li>
+<li class="lvl2"><a href="#6-avsluttende-bestemmelser">6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#30-oppheving-og-endring-av-andre-forskrifter">§ 30. Oppheving og endring av andre forskrifter</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse-og-overgangsregler">§ 31. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-06-27-1381.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-08-12-833.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om lufttransporttjenester i EØS</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-08-12-833.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2011-08-12-833 <code>forskrift/2011-08-12-833</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om lufttransporttjenester i EØS</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>12.08.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-06-27-1381 <code>forskrift/2024-06-27-1381</code> fra 01.07.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2011-08-12-833" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#1-generelt">1. Generelt</a></li>
+<li class="lvl4"><a href="#1-gjennomfring-av-forordning-ef-nr-10082008">§ 1. Gjennomføring av forordning (EF) nr. 1008/2008</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-ansvarlige-myndigheter-for-de-enkelte-delene-av-forskriften">§ 3. Ansvarlige myndigheter for de enkelte delene av forskriften</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#2-utfyllende-regler-om-tildeling-av-driftstillatelse">2. Utfyllende regler om tildeling av driftstillatelse</a></li>
+<li class="lvl4"><a href="#5-forholdet-til-andre-regler-om-driftstillatelse">§ 5. Forholdet til andre regler om driftstillatelse</a></li>
+<li class="lvl2"><a href="#3-utfyllende-regler-om-leie-av-luftfarty">3. Utfyllende regler om leie av luftfartøy</a></li>
+<li class="lvl4"><a href="#6-godkjennelse-av-dry-lease">§ 6. Godkjennelse av dry-lease</a></li>
+<li class="lvl4"><a href="#7-godkjennelse-av-wet-lease">§ 7. Godkjennelse av wet-lease</a></li>
+<li class="lvl4"><a href="#8-registrering">§ 8. Registrering</a></li>
+<li class="lvl4"><a href="#9-utleie">§ 9. Utleie</a></li>
+<li class="lvl2"><a href="#4-utfyllende-regler-om-fastsettelse-av-forpliktelser-til-offentlig-tjenesteytelse-og-gjennomfring-av-anskaffelser">4. Utfyllende regler om fastsettelse av forpliktelser til offentlig tjenesteytelse og gjennomføring av anskaffelser</a></li>
+<li class="lvl4"><a href="#10-myndighet-til-a-fastsette-forpliktelse-til-offentlig-tjenesteytelse">§ 10. Myndighet til å fastsette forpliktelse til offentlig tjenesteytelse</a></li>
+<li class="lvl4"><a href="#11-tildeling-av-enerett-til-a-fly-rute-etter-konkurranse">§ 11. Tildeling av enerett til å fly rute etter konkurranse</a></li>
+<li class="lvl4"><a href="#12-krav-til-tilbyder">§ 12. Krav til tilbyder</a></li>
+<li class="lvl4"><a href="#13-valg-av-anskaffelsesprosedyre">§ 13. Valg av anskaffelsesprosedyre</a></li>
+<li class="lvl4"><a href="#14-kunngjring">§ 14. Kunngjøring</a></li>
+<li class="lvl4"><a href="#15-krav-til-innholdet-i-kunngjringen">§ 15. Krav til innholdet i kunngjøringen</a></li>
+<li class="lvl4"><a href="#16-krav-til-innholdet-i-konkurransegrunnlaget">§ 16. Krav til innholdet i konkurransegrunnlaget</a></li>
+<li class="lvl4"><a href="#17-tilbudets-utforming">§ 17. Tilbudets utforming</a></li>
+<li class="lvl4"><a href="#18-avvising-av-for-sent-innkomne-tilbud">§ 18. Avvising av for sent innkomne tilbud</a></li>
+<li class="lvl4"><a href="#19-prosedyre-ved-tilbudsapning">§ 19. Prosedyre ved tilbudsåpning</a></li>
+<li class="lvl4"><a href="#20-avvisning-pa-grunn-av-forhold-ved-tilbudet">§ 20. Avvisning på grunn av forhold ved tilbudet</a></li>
+<li class="lvl4"><a href="#21-avvisning-pa-grunn-av-forhold-ved-tilbyderen">§ 21. Avvisning på grunn av forhold ved tilbyderen</a></li>
+<li class="lvl4"><a href="#22-avvisning-pa-grunn-av-forventet-mislighold">§ 22. Avvisning på grunn av forventet mislighold</a></li>
+<li class="lvl4"><a href="#23-ettersending-av-opplysninger-og-dokumentasjon">§ 23. Ettersending av opplysninger og dokumentasjon</a></li>
+<li class="lvl4"><a href="#24-gjennomfring-av-konkurranse-med-forhandling">§ 24. Gjennomføring av konkurranse med forhandling</a></li>
+<li class="lvl4"><a href="#25-avlysning-av-konkurransen-og-totalforkastelse">§ 25. Avlysning av konkurransen og totalforkastelse</a></li>
+<li class="lvl4"><a href="#26-kriterier-for-valg-av-tilbud">§ 26. Kriterier for valg av tilbud</a></li>
+<li class="lvl4"><a href="#27-omgjring-av-tildelingsbeslutningen">§ 27. Omgjøring av tildelingsbeslutningen</a></li>
+<li class="lvl4"><a href="#28-kontraktsinngaelse">§ 28. Kontraktsinngåelse</a></li>
+<li class="lvl2"><a href="#5-sanksjoner">5. Sanksjoner</a></li>
+<li class="lvl4"><a href="#29-brudd-pa-reglene-om-informasjon-til-og-likebehandling-av-passasjerer">§ 29. Brudd på reglene om informasjon til og likebehandling av passasjerer</a></li>
+<li class="lvl2"><a href="#6-avsluttende-bestemmelser">6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#30-oppheving-og-endring-av-andre-forskrifter">§ 30. Oppheving og endring av andre forskrifter</a></li>
+<li class="lvl4"><a href="#31-ikrafttredelse-og-overgangsregler">§ 31. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-08-12-833.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2011-08-12-833.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2011-08-12-833.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2011-08-12-833.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2011-08-12-833.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-08-12-833.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2011-08-12-833.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2011-08-12-833.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2011-08-12-833.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-lufttransporttjenester-i-es">Forskrift om lufttransporttjenester i EØS</h1>
 <h2 id="1-generelt">1. Generelt</h2>
 <h4 id="1-gjennomfring-av-forordning-ef-nr-10082008">§ 1. Gjennomføring av forordning (EF) nr. 1008/2008</h4>
 <p>EØS-avtalen vedlegg XIII nr. 64a (forordning (EF) nr. 1008/2008 ) om felles regler for drift av lufttransporttjenester i Fellesskapet (heretter kalt lufttransportforordningen) med endring:</p>
@@ -86,14 +205,14 @@ c. forordning (EU) 2020/2114 av 16. desember 2020
 d. forordning (EU) 2020/2115 av 16. desember 2020, og
 e. forordning (EU) 2018/1139 av 4. juli 2018</p>
 <p>gjelder som forskrift med de tilpasninger som følger av vedlegg XIII, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 11 juli 2019 nr. 999 , 22 juni 2020 nr. 1348 , 12 mars 2021 nr. 680 , 27 juni 2024 nr. 1381 (i kraft 1 juli 2024).</em></p>
+<p class="note">Endret ved forskrifter 11 juli 2019 nr. 999 , 22 juni 2020 nr. 1348 , 12 mars 2021 nr. 680 , 27 juni 2024 nr. 1381 (i kraft 1 juli 2024).</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften gjelder i riket med unntak av Svalbard.</p>
 <h4 id="3-ansvarlige-myndigheter-for-de-enkelte-delene-av-forskriften">§ 3. Ansvarlige myndigheter for de enkelte delene av forskriften</h4>
 <p>(1) Luftfartstilsynet fører tilsyn med reglene i lufttrafikkforordningens kapittel II, og de utfyllende reglene i forskriftens kapittel 3 . Herunder ilegger Luftfartstilsynet sanksjoner i medhold av bestemmelsene i lufttrafikkforordningen kapittel II.</p>
 <p>(2) Forbrukertilsynet fører som luftfartsmyndighet tilsyn med reglene i lufttrafikkforordningen artikkel 23, jf. sanksjonsbestemmelsene i forskriftens § 29 .</p>
 <p>(3) Samferdselsdepartementet forvalter alle de bestemmelsene i forordningen og forskriften som ikke er ikke er omfattet av (1) og (2).</p>
-<p><em>Endret ved forskrift 18 des 2017 nr. 2412 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 18 des 2017 nr. 2412 (i kraft 1 jan 2018).</p>
 <h4 id="4-definisjoner">§ 4. Definisjoner</h4>
 <p>I denne forskrift menes med:</p>
 <ol>
@@ -106,7 +225,7 @@ e. forordning (EU) 2018/1139 av 4. juli 2018</p>
 <li>Wet lease: Innleie av luftfartøy med besetning, der luftfartøyet opereres av utleier på dennes tekniske og operative ansvar i leieperioden.</li>
 <li>Anbudskonkurranse: Anskaffelsesprosedyre hvor forhandlinger ikke er tillatt.</li>
 </ol>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h2 id="2-utfyllende-regler-om-tildeling-av-driftstillatelse">2. Utfyllende regler om tildeling av driftstillatelse</h2>
 <h4 id="5-forholdet-til-andre-regler-om-driftstillatelse">§ 5. Forholdet til andre regler om driftstillatelse</h4>
 <p>For selskap som ikke er underlagt reglene om lisens i lufttrafikkforordningens kapittel II gjelder forskrift 25. april 1974 nr. 4166 om ervervsmessig luftfart med fly så langt det følger av virkeområdebestemmelsene i denne forskriften.</p>
@@ -152,22 +271,22 @@ d. at innleier har det kommersielle ansvaret.</p>
 <p>Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="10-myndighet-til-a-fastsette-forpliktelse-til-offentlig-tjenesteytelse">§ 10. Myndighet til å fastsette forpliktelse til offentlig tjenesteytelse</h4>
 <p>Samferdselsdepartementet har alene myndighet til å fastsette forpliktelse til offentlig tjenesteytelse for ruter i, til eller fra Norge i overensstemmelse med lufttransportforordningen artikkel 16. Andre som ønsker nye eller endrede forpliktelser til offentlig tjenesteyting må rette søknad om dette til departementet.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="11-tildeling-av-enerett-til-a-fly-rute-etter-konkurranse">§ 11. Tildeling av enerett til å fly rute etter konkurranse</h4>
 <p>Lufttransportforordningen artikkel 16 nr. 10 krever at tildeling av enerett til å betjene en flyrute skal skje etter konkurranse i tråd med reglene i samme forordning artikkel 17. Bestemmelsene i kapitlet her utfyller de kravene til valg og gjennomføring av prosedyren som følger av lufttransportforordningen. Oppdragsgiver har i tillegg adgang til å oppstille ytterligere prosedyreregler i konkurransegrunnlaget for anskaffelsen.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="12-krav-til-tilbyder">§ 12. Krav til tilbyder</h4>
 <p>Den som tildeles enerett må ha gyldig lisens utstedt av lisensutstedende myndighet i tråd med kravene i lufttransportforordningen kapittel II. Dersom lisens ikke foreligger ved tilbudsfristens utløp, har oppdragsgiver rett til å anmode tilbyderen om å ettersende denne innen en kort tilleggsfrist, i henhold til § 23 .</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="13-valg-av-anskaffelsesprosedyre">§ 13. Valg av anskaffelsesprosedyre</h4>
 <p>Anskaffelsen skal skje ved at det gjennomføres en anbudskonkurranse eller ved konkurranse med forhandling. Ved begge konkurranseformene kan oppdragsgiver beslutte å gjennomføre en prekvalifisering av leverandører, hvor det bare er de leverandører som anses kvalifisert og blir invitert av oppdragsgiver, som har adgang til å gi tilbud.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="14-kunngjring">§ 14. Kunngjøring</h4>
 <p>(1) Oppdragsgiver skal kunngjøre konkurransen i Den Europeiske Unions Tidende.</p>
 <p>(2) Kunngjøringen i Den Europeiske Unions Tidende skal utformes og i sin helhet offentliggjøres på ett av Den Europeiske Unions offisielle språk.</p>
 <p>(3) Dersom en forutgående anbudskonkurranse er mislykket, kan det gjennomføres en konkurranse med forhandling uten forutgående kunngjøring, under forutsetning av at det ikke gjøres vesentlige endringer i konkurransegrunnlaget. En anbudskonkurranse skal anses mislykket der det ikke foreligger noen tilbud, eller der det foreligger kun ett tilbud, eller der det gjenstår ett eller ingen tilbud etter at de øvrige tilbudene avvises.</p>
 <p>(4) Kontrahering uten forutgående kunngjøring kan også benyttes dersom det oppstår et nødstilfelle, jf. lufttransportforordningen artikkel 16 nr. 12.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="15-krav-til-innholdet-i-kunngjringen">§ 15. Krav til innholdet i kunngjøringen</h4>
 <p>Kunngjøring av konkurranse skal inneholde:</p>
 <p>a. oppdragsgivers navn, postadresse, telefonnummer og e-postadresse.
@@ -175,7 +294,7 @@ b. angivelse av hvor interesserte leverandører skal henvende seg for å få til
 c. ruteangivelse og ruteområdets eller rutens geografiske beliggenhet.
 d. frist og angivelse av tid og sted for innlevering av tilbud, herunder den adressen tilbudet skal sendes til.
 e. kontraktens gyldighetsperiode og tidspunkt for oppstart.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="16-krav-til-innholdet-i-konkurransegrunnlaget">§ 16. Krav til innholdet i konkurransegrunnlaget</h4>
 <p>Konkurransegrunnlaget skal minst inneholde:</p>
 <p>a. kravene knyttet til forpliktelsen til offentlig tjenesteytelse.
@@ -183,18 +302,18 @@ b. bestemmelser vedrørende endring og opphør av kontrakten, særlig vedrørend
 c. kontraktens gyldighetsperiode og tidspunkt for oppstart.
 d. sanksjoner ved mislighold av kontrakten.
 e. objektive og gjennomsiktige parametere som danner grunnlag for beregning av et eventuelt krav om kompensasjon for ivaretakelse av forpliktelsen til offentlig tjenesteytelse.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="17-tilbudets-utforming">§ 17. Tilbudets utforming</h4>
 <p>Tilbudet skal være skriftlig og avgis enten direkte eller per post. Tilbudet kan også avgis med elektronisk middel forutsatt at konkurransegrunnlaget åpner for det, og</p>
 <p>a. tilbudet inneholder alle nødvendige opplysninger,
 b. fortrolighet om tilbudet bevares frem til vurderingen skal skje,
 c. tilbudet av bevishensyn om nødvendig snarest bekreftes skriftlig eller ved oversendelse av en bekreftet gjenpart, og
 d. tilbudet først åpnes etter utløpet av tilbudsfristen.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="18-avvising-av-for-sent-innkomne-tilbud">§ 18. Avvising av for sent innkomne tilbud</h4>
 <p>(1) Tilbud som kommer inn etter tilbudsfristens utløp kan avvises.</p>
 <p>(2) Det gjelder likevel ikke tilbud som kommer inn etter fristen, men før tilbudsåpningen, dersom det tydelig fremgår av postsendingen at tilbudet er postlagt så tidlig at det ved normal postgang burde vært kommet frem før fristen, eller vedkommende tilbyder kan godtgjøre dette ved hjelp av kvittering fra det postselskapet tilbudet har blitt levert til, før tilbudsåpning er foretatt.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="19-prosedyre-ved-tilbudsapning">§ 19. Prosedyre ved tilbudsåpning</h4>
 <p>(1) Rettidig mottatt tilbud vil bli åpnet etter tilbudsfristens utløp av to representanter for oppdragsgiver. Tilbyderne har ikke rett til å være til stede ved tilbudsåpningen.</p>
 <p>(2) Oppdragsgiver skal føre en protokoll ved tilbudsåpningen, hvor følgende informasjon skal fremgå:</p>
@@ -204,7 +323,7 @@ c. Tilbyderens navn
 d. Hvilke ruteområder eller ruter tilbudet omfatter
 e. Tilbudets krav til kompensasjon
 f. Eventuell avvisning av tilbydere eller tilbud.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="20-avvisning-pa-grunn-av-forhold-ved-tilbudet">§ 20. Avvisning på grunn av forhold ved tilbudet</h4>
 <p>(1) Et tilbud skal avvises når:</p>
 <p>a. det ikke er levert i samsvar med § 17 ,
@@ -214,7 +333,7 @@ c. det på grunn av forbehold, feil, uklarheter, ufullstendigheter eller liknend
 <p>a. tilbudet ikke inneholder alle de opplysningene som det er stilt krav om,
 b. tilbudet inneholder avvik fra konkurransegrunnlaget, eller
 c. kravet om kompensasjon i tilbudet virker unormalt lavt i forhold til ytelsen. Før et tilbud kan avvises på dette grunnlaget, skal oppdragsgiver skriftlig forlange en redegjørelse om de enkelte delene av tilbudet og etterprøve denne på grunnlag av de opplysninger som er blitt gitt. Oppdragsgiver kan ta hensyn til opplysninger om for eksempel besparelser ved utførelsen av tjenesten, tekniske løsninger eller uvanlig fordelaktige vilkår som er tilgjengelig for leverandøren, eller nyskapning.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="21-avvisning-pa-grunn-av-forhold-ved-tilbyderen">§ 21. Avvisning på grunn av forhold ved tilbyderen</h4>
 <p>(1) Oppdragsgiveren skal avvise tilbud fra tilbydere som;</p>
 <p>a. ikke har gyldig lisens, jf. § 12 , eller
@@ -229,44 +348,46 @@ f. har gitt grovt misvisende eller feilaktige opplysninger eller unnlatt å gi o
 <p>(3) Når oppdragsgiveren krever bevis for at tilbyderen ikke er i en situasjon som nevnt i annet ledd bokstav a), b) c), e) eller f), kan følgende dokumentasjon godtas som tilstrekkelig bevis:</p>
 <p>a. for så vidt gjelder forhold nevnt i bokstav a), b) eller c): utdrag fra politiregister eller konkursregister. I mangel av dette, et tilsvarende dokument som viser at kravene er tilfredsstilt, utstedt av en retts- eller forvaltningsmyndighet i anbyderens hjemstat eller nåværende oppholdsstat, eller
 b. For så vidt gjelder bokstav e) eller f): attest utstedt av vedkommende myndighet i den berørte staten.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="22-avvisning-pa-grunn-av-forventet-mislighold">§ 22. Avvisning på grunn av forventet mislighold</h4>
 <p>Oppdragsgiver har rett til å avvise tilbud fra tilbydere som ikke kan forventes å oppfylle kontrakten på en tilfredsstillende måte.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="23-ettersending-av-opplysninger-og-dokumentasjon">§ 23. Ettersending av opplysninger og dokumentasjon</h4>
 <p>Oppdragsgiver kan anmode tilbydere om å ettersende, supplere, klargjøre eller utdype mottatte opplysninger og dokumentasjon innen en kort tilleggsfrist dersom opplysningene eller dokumentasjonen inneholder eller synes å inneholde feil eller mangler, eller dersom bestemte dokumenter mangler. Dette gjelder både ved anbudskonkurranser og ved konkurranser med forhandling.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="24-gjennomfring-av-konkurranse-med-forhandling">§ 24. Gjennomføring av konkurranse med forhandling</h4>
 <p>Ved konkurranser med forhandling har oppdragsgiver rett, men ikke plikt til å forhandle med tilbyderne. Dersom det gjennomføres forhandlinger, har oppdragsgiver rett til å redusere det antall tilbud som det skal forhandles om. Reduksjonen skal skje på bakgrunn av tildelingskriteriene. Oppdragsgiver skal i forhandlingene ikke uten samtykke gi øvrige tilbydere tilgang til opplysninger som det vil være av konkurransemessig betydning å hemmeligholde. Oppdragsgiver skal for øvrig gjennomføre forhandlingene basert på et prinsipp om likebehandling.</p>
-<p><em>Tilføyd ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="25-avlysning-av-konkurransen-og-totalforkastelse">§ 25. Avlysning av konkurransen og totalforkastelse</h4>
 <p>(1) Oppdragsgiver kan avlyse konkurransen, eller deler av konkurransen, med øyeblikkelig virkning dersom det foreligger saklig grunn.</p>
 <p>(2) Oppdragsgiver kan forkaste alle tilbud dersom resultatet av konkurransen gir saklig grunn for det.</p>
 <p>(3) Saklig grunn skal blant annet anses å foreligge i tilfeller der det foreligger ingen eller bare ett gyldig tilbud, eventuelt etter at andre tilbud er avvist, tilfeller der samtlige tilbud overstiger budsjettet for anskaffelsen og tilfeller der det er tatt konkrete forbehold vedrørende avlysning i konkurransegrunnlaget.</p>
 <p>(4) Oppdragsgiver skal informere alle som har deltatt i konkurransen om beslutning fattet i henhold til denne paragrafen, og om det vil bli gjennomført ny konkurranse.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 24).</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 24).</p>
 <h4 id="26-kriterier-for-valg-av-tilbud">§ 26. Kriterier for valg av tilbud</h4>
 <p>Oppdragsgiver skal basere tildelingen av en kontrakt enten på hvilket tilbud som har det laveste kompensasjonskrav eller på hvilket tilbud som samlet sett er økonomisk mest fordelaktig. Dersom oppdragsgiver baserer tildelingen av kontrakten på det tilbudet som er det økonomisk mest fordelaktige, kan det blant annet benyttes slike kriterier som kompensasjonskrav, billettpriser, kapasitet, tjenestekvalitet, billettsystemer og miljøvennlighet. Tildelingskriteriene skal oppgis i konkurransegrunnlaget.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 25).</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 25).</p>
 <h4 id="27-omgjring-av-tildelingsbeslutningen">§ 27. Omgjøring av tildelingsbeslutningen</h4>
 <p>Tildelingsbeslutningen kan omgjøres dersom oppdragsgiver finner at den er fattet i strid med denne forskriften eller lufttransportforordningen.</p>
-<p><em>Tilføyd ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 april 2016 nr. 387 .</p>
 <h4 id="28-kontraktsinngaelse">§ 28. Kontraktsinngåelse</h4>
 <p>Kontrakt anses inngått når begge parter har signert kontrakten.</p>
-<p><em>Tilføyd ved forskrift 18 april 2016 nr. 387 .</em></p>
+<p class="note">Tilføyd ved forskrift 18 april 2016 nr. 387 .</p>
 <h2 id="5-sanksjoner">5. Sanksjoner</h2>
 <h4 id="29-brudd-pa-reglene-om-informasjon-til-og-likebehandling-av-passasjerer">§ 29. Brudd på reglene om informasjon til og likebehandling av passasjerer</h4>
 <p>Person eller foretak som ikke etterlever forpliktelsene til å gi opplysninger om priser, skatter, avgifter, tillegg, gebyrer og andre vilkår som nevnt i lufttransportforordningen artikkel 23 nr. 1 kan ilegges tvangsmulkt eller overtredelsesgebyr som nevnt i luftfartsloven § 10-42 fjerde ledd og § 10-43 . Det samme gjelder personer eller foretak som ikke overholder forbudet mot forskjellsbehandling i samme forordning artikkel 23 nr. 2.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 26).</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 26).</p>
 <h2 id="6-avsluttende-bestemmelser">6. Avsluttende bestemmelser</h2>
 <h4 id="30-oppheving-og-endring-av-andre-forskrifter">§ 30. Oppheving og endring av andre forskrifter</h4>
 <p>(1) Forskrift 15. april 1994 nr. 256 om gjennomføring av anbud i forbindelse med forpliktelse til offentlig tjenesteytelse oppheves.</p>
 <p>(2) I forskrift 15. juli 1994 nr. 691 om gjennomføring og håndheving av EØS-avtalen på luftfartens område gjøres følgende endringer: – – –</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 27).</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 27).</p>
 <h4 id="31-ikrafttredelse-og-overgangsregler">§ 31. Ikrafttredelse og overgangsregler</h4>
 <p>Forskriften trer i kraft straks.</p>
 <p>Forskriftens bestemmelser gjelder også for kontrakter som er inngått før den trådte i kraft og for tillatelser som er gitt i medhold av de forordningene som erstattes av lufttransportforordningen.</p>
-<p><em>Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 28).</em></p>
+<p class="note">Endret ved forskrift 18 april 2016 nr. 387 (tidligere § 28).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,69 +19,232 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-06-17-611.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i NOIS-registerforskriften" href="../feeds/forskrift-2005-06-17-611.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>NOIS-registerforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-06-17-611</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-11-19-3235</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-06-17-611" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-norsk-overvakingssystem-for-antibiotikabruk-og-helsetjenesteassosierte-infeksjoner-i-sykehjem-og-spesialisthelsetjenesten">§ 1-1. Etablering av Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner i sykehjem og spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#1-2-registerets-formal">§ 1-2. Registerets formål</a></li>
+<li class="lvl4"><a href="#1-3-innholdet-i-registeret">§ 1-3. Innholdet i registeret</a></li>
+<li class="lvl4"><a href="#1-3a-avidentifiserte-opplysninger">§ 1-3a. Avidentifiserte opplysninger</a></li>
+<li class="lvl4"><a href="#1-4-forbud-mot-bruk">§ 1-4. Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#1-5-dataansvarlig">§ 1-5. Dataansvarlig</a></li>
+<li class="lvl4"><a href="#1-6-databehandler">§ 1-6. Databehandler</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-i-registeret">§ 1-7. Opplysninger i registeret</a></li>
+<li class="lvl4"><a href="#1-8-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon-kvalitetskontroll">§ 1-8. Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon, kvalitetskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-registeret-mv">Kapittel 2. Melding av helseopplysninger til registeret mv.</a></li>
+<li class="lvl4"><a href="#2-1-virksomhetenes-deltaking-i-overvakingssystemet">§ 2-1. Virksomhetenes deltaking i overvåkingssystemet</a></li>
+<li class="lvl4"><a href="#2-2-helsepersonellets-meldingsplikt-av-opplysninger-til-registeret">§ 2-2. Helsepersonellets meldingsplikt av opplysninger til registeret</a></li>
+<li class="lvl4"><a href="#2-3-meldingsskjema-formkrav">§ 2-3. Meldingsskjema, formkrav</a></li>
+<li class="lvl4"><a href="#2-4-virksomhetens-plikter">§ 2-4. Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#2-5-rapportering-fra-registeret">§ 2-5. Rapportering fra registeret</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-registeret">Kapittel 3. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-2. Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#4-1-informasjonssikkerhet">§ 4-1. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#4-2-plikt-til-internkontroll">§ 4-2. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#4-3-internkontrollens-innhold">§ 4-3. Internkontrollens innhold</a></li>
+<li class="lvl2"><a href="#kapittel-5-bevaring-av-helseopplysninger-i-registeret">Kapittel 5. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#5-1-bevaring-av-helseopplysninger">§ 5-1. Bevaring av helseopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-opphevet">§ 6-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-2-ikrafttredelse">§ 6-2. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-paragrafer-i-forskriften">Merknader til de enkelte paragrafer i forskriften</a></li>
+<li class="lvl3"><a href="#til-kapittel-1-generelle-bestemmelser">Til kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#til-1-1-etablering-av-norsk-overvakingssystem-for-infeksjoner-i-sykehustjenesten">Til § 1-1 Etablering av Norsk overvåkingssystem for infeksjoner i sykehustjenesten</a></li>
+<li class="lvl4"><a href="#til-1-2-innholdet-i-registeret">Til § 1-2 Innholdet i registeret</a></li>
+<li class="lvl4"><a href="#til-1-3-registerets-formal">Til § 1-3 Registerets formål</a></li>
+<li class="lvl4"><a href="#til-1-4-forbud-mot-bruk">Til § 1-4 Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#til-1-5-databehandlingsansvarlig">Til § 1-5 Databehandlingsansvarlig</a></li>
+<li class="lvl4"><a href="#til-1-6-databehandler">Til § 1-6 Databehandler</a></li>
+<li class="lvl4"><a href="#til-1-7-opplysninger-i-registeret">Til § 1-7 Opplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-1-8-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon-kvalitetskontroll">Til § 1-8 Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon, kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-kapittel-2-melding-av-helseopplysninger-til-registeret-mv">Til kapittel 2. Melding av helseopplysninger til registeret mv.</a></li>
+<li class="lvl4"><a href="#til-2-1-virksomhetenes-deltaking-i-overvakingssystemet">Til § 2-1 Virksomhetenes deltaking i overvåkingssystemet</a></li>
+<li class="lvl4"><a href="#til-2-2-helsepersonellets-meldingsplikt-av-opplysninger-til-registeret">Til § 2-2 Helsepersonellets meldingsplikt av opplysninger til registeret</a></li>
+<li class="lvl4"><a href="#til-2-3-meldingsskjema-formkrav">Til § 2-3 Meldingsskjema, formkrav</a></li>
+<li class="lvl4"><a href="#til-2-4-virksomhetens-plikter">Til § 2-4 Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#til-2-5-rapportering-fra-registeret">Til § 2-5 Rapportering fra registeret</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-behandling-av-helseopplysninger-i-registeret">Til kapittel 3. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-3-1-plikt-til-a-utlevere-ikke-koblede-data-til-forskning-mv">Til § 3-1 Plikt til å utlevere ikke koblede data til forskning mv.</a></li>
+<li class="lvl4"><a href="#til-3-2-annen-behandling-av-data-fra-registeret">Til § 3-2 Annen behandling av data fra registeret</a></li>
+<li class="lvl4"><a href="#til-3-3-informasjonsstrategi-rettet-mot-brukergrupper">Til § 3-3 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl4"><a href="#til-3-4-kostnader">Til § 3-4 Kostnader</a></li>
+<li class="lvl4"><a href="#til-3-5-oversikt-over-utleveringer">Til § 3-5 Oversikt over utleveringer</a></li>
+<li class="lvl3"><a href="#til-kapittel-4-informasjonssikkerhet-og-internkontroll">Til kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#til-4-1-informasjonssikkerhet">Til § 4-1 Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#til-4-2-plikt-til-internkontroll">Til § 4-2 Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#til-4-3-internkontrollens-innhold">Til § 4-3 Internkontrollens innhold</a></li>
+<li class="lvl3"><a href="#til-kapittel-5-bevaring-av-helseopplysninger-i-registeret">Til kapittel 5. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-5-1-bevaring-av-helseopplysninger">Til § 5-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-kapittel-6-avsluttende-bestemmelser">Til kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#til-6-1-straff">Til § 6-1 Straff</a></li>
+<li class="lvl4"><a href="#til-6-2-ikrafttredelse">Til § 6-2 Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-11-19-3235.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-17-611.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner (NOIS-registerforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-06-17-611.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-06-17-611 <code>forskrift/2005-06-17-611</code></td></tr>
+<tr><th>Korttittel</th><td>NOIS-registerforskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-11-19-3235 <code>forskrift/2021-11-19-3235</code> fra 19.11.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-06-17-611" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-etablering-av-norsk-overvakingssystem-for-antibiotikabruk-og-helsetjenesteassosierte-infeksjoner-i-sykehjem-og-spesialisthelsetjenesten">§ 1-1. Etablering av Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner i sykehjem og spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#1-2-registerets-formal">§ 1-2. Registerets formål</a></li>
+<li class="lvl4"><a href="#1-3-innholdet-i-registeret">§ 1-3. Innholdet i registeret</a></li>
+<li class="lvl4"><a href="#1-3a-avidentifiserte-opplysninger">§ 1-3a. Avidentifiserte opplysninger</a></li>
+<li class="lvl4"><a href="#1-4-forbud-mot-bruk">§ 1-4. Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#1-5-dataansvarlig">§ 1-5. Dataansvarlig</a></li>
+<li class="lvl4"><a href="#1-6-databehandler">§ 1-6. Databehandler</a></li>
+<li class="lvl4"><a href="#1-7-opplysninger-i-registeret">§ 1-7. Opplysninger i registeret</a></li>
+<li class="lvl4"><a href="#1-8-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon-kvalitetskontroll">§ 1-8. Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon, kvalitetskontroll</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-av-helseopplysninger-til-registeret-mv">Kapittel 2. Melding av helseopplysninger til registeret mv.</a></li>
+<li class="lvl4"><a href="#2-1-virksomhetenes-deltaking-i-overvakingssystemet">§ 2-1. Virksomhetenes deltaking i overvåkingssystemet</a></li>
+<li class="lvl4"><a href="#2-2-helsepersonellets-meldingsplikt-av-opplysninger-til-registeret">§ 2-2. Helsepersonellets meldingsplikt av opplysninger til registeret</a></li>
+<li class="lvl4"><a href="#2-3-meldingsskjema-formkrav">§ 2-3. Meldingsskjema, formkrav</a></li>
+<li class="lvl4"><a href="#2-4-virksomhetens-plikter">§ 2-4. Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#2-5-rapportering-fra-registeret">§ 2-5. Rapportering fra registeret</a></li>
+<li class="lvl2"><a href="#kapittel-3-behandling-av-helseopplysninger-i-registeret">Kapittel 3. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#3-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-2. Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl2"><a href="#kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#4-1-informasjonssikkerhet">§ 4-1. Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#4-2-plikt-til-internkontroll">§ 4-2. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#4-3-internkontrollens-innhold">§ 4-3. Internkontrollens innhold</a></li>
+<li class="lvl2"><a href="#kapittel-5-bevaring-av-helseopplysninger-i-registeret">Kapittel 5. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#5-1-bevaring-av-helseopplysninger">§ 5-1. Bevaring av helseopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-opphevet">§ 6-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#6-2-ikrafttredelse">§ 6-2. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#merknader-til-de-enkelte-paragrafer-i-forskriften">Merknader til de enkelte paragrafer i forskriften</a></li>
+<li class="lvl3"><a href="#til-kapittel-1-generelle-bestemmelser">Til kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#til-1-1-etablering-av-norsk-overvakingssystem-for-infeksjoner-i-sykehustjenesten">Til § 1-1 Etablering av Norsk overvåkingssystem for infeksjoner i sykehustjenesten</a></li>
+<li class="lvl4"><a href="#til-1-2-innholdet-i-registeret">Til § 1-2 Innholdet i registeret</a></li>
+<li class="lvl4"><a href="#til-1-3-registerets-formal">Til § 1-3 Registerets formål</a></li>
+<li class="lvl4"><a href="#til-1-4-forbud-mot-bruk">Til § 1-4 Forbud mot bruk</a></li>
+<li class="lvl4"><a href="#til-1-5-databehandlingsansvarlig">Til § 1-5 Databehandlingsansvarlig</a></li>
+<li class="lvl4"><a href="#til-1-6-databehandler">Til § 1-6 Databehandler</a></li>
+<li class="lvl4"><a href="#til-1-7-opplysninger-i-registeret">Til § 1-7 Opplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-1-8-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon-kvalitetskontroll">Til § 1-8 Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon, kvalitetskontroll</a></li>
+<li class="lvl3"><a href="#til-kapittel-2-melding-av-helseopplysninger-til-registeret-mv">Til kapittel 2. Melding av helseopplysninger til registeret mv.</a></li>
+<li class="lvl4"><a href="#til-2-1-virksomhetenes-deltaking-i-overvakingssystemet">Til § 2-1 Virksomhetenes deltaking i overvåkingssystemet</a></li>
+<li class="lvl4"><a href="#til-2-2-helsepersonellets-meldingsplikt-av-opplysninger-til-registeret">Til § 2-2 Helsepersonellets meldingsplikt av opplysninger til registeret</a></li>
+<li class="lvl4"><a href="#til-2-3-meldingsskjema-formkrav">Til § 2-3 Meldingsskjema, formkrav</a></li>
+<li class="lvl4"><a href="#til-2-4-virksomhetens-plikter">Til § 2-4 Virksomhetens plikter</a></li>
+<li class="lvl4"><a href="#til-2-5-rapportering-fra-registeret">Til § 2-5 Rapportering fra registeret</a></li>
+<li class="lvl3"><a href="#til-kapittel-3-behandling-av-helseopplysninger-i-registeret">Til kapittel 3. Behandling av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-3-1-plikt-til-a-utlevere-ikke-koblede-data-til-forskning-mv">Til § 3-1 Plikt til å utlevere ikke koblede data til forskning mv.</a></li>
+<li class="lvl4"><a href="#til-3-2-annen-behandling-av-data-fra-registeret">Til § 3-2 Annen behandling av data fra registeret</a></li>
+<li class="lvl4"><a href="#til-3-3-informasjonsstrategi-rettet-mot-brukergrupper">Til § 3-3 Informasjonsstrategi rettet mot brukergrupper</a></li>
+<li class="lvl4"><a href="#til-3-4-kostnader">Til § 3-4 Kostnader</a></li>
+<li class="lvl4"><a href="#til-3-5-oversikt-over-utleveringer">Til § 3-5 Oversikt over utleveringer</a></li>
+<li class="lvl3"><a href="#til-kapittel-4-informasjonssikkerhet-og-internkontroll">Til kapittel 4. Informasjonssikkerhet og internkontroll</a></li>
+<li class="lvl4"><a href="#til-4-1-informasjonssikkerhet">Til § 4-1 Informasjonssikkerhet</a></li>
+<li class="lvl4"><a href="#til-4-2-plikt-til-internkontroll">Til § 4-2 Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#til-4-3-internkontrollens-innhold">Til § 4-3 Internkontrollens innhold</a></li>
+<li class="lvl3"><a href="#til-kapittel-5-bevaring-av-helseopplysninger-i-registeret">Til kapittel 5. Bevaring av helseopplysninger i registeret</a></li>
+<li class="lvl4"><a href="#til-5-1-bevaring-av-helseopplysninger">Til § 5-1 Bevaring av helseopplysninger</a></li>
+<li class="lvl3"><a href="#til-kapittel-6-avsluttende-bestemmelser">Til kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#til-6-1-straff">Til § 6-1 Straff</a></li>
+<li class="lvl4"><a href="#til-6-2-ikrafttredelse">Til § 6-2 Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-17-611.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-06-17-611.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-06-17-611.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-06-17-611.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-06-17-611.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-06-17-611.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-06-17-611.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-06-17-611.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-06-17-611.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-norsk-overvakingssystem-for-antibiotikabruk-og-helsetjenesteassosierte-infeksjoner-nois-registerforskriften">Forskrift om Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner (NOIS-registerforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-1-etablering-av-norsk-overvakingssystem-for-antibiotikabruk-og-helsetjenesteassosierte-infeksjoner-i-sykehjem-og-spesialisthelsetjenesten">§ 1-1. Etablering av Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner i sykehjem og spesialisthelsetjenesten <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Denne forskriften etablerer et landsomfattende Norsk overvåkingssystem for antibiotikabruk og helsetjenesteassosierte infeksjoner i sykehus, dagkirurgiske klinikker og sykehjem. Forskriften gir regler for innsamling og behandling av helseopplysninger i overvåkingssystemet.</p>
 <p>Innsamling og behandling av helseopplysninger i registeret skjer etter nærmere bestemmelser fra Helsedirektoratet.</p>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="1-2-registerets-formal">§ 1-2. Registerets formål <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registeret skal bidra til overvåking av antibiotikabruk og helsetjenesteassosierte infeksjoner hos pasienter i sykehus, dagkirurgiske klinikker og sykehjem gjennom systematisk fortløpende eller periodisk innsamling av data. Rapportering, tolkning og analyse av data fra disse virksomhetene jf. § 1-3 annet ledd, skal legge grunnlaget for å</p>
 <ol>
@@ -93,7 +256,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>bidra med data til europeisk overvåking av antibiotikabruk og helsetjenesteassosierte infeksjoner.</li>
 </ol>
 <p>Opplysninger i registeret kan foruten de formål som nevnt ovenfor, behandles til styring, planlegging og kvalitetssikring av helse- og omsorgstjenesten og helse- og omsorgsforvaltningen, samt til utarbeiding av statistikk og til forskning.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 17 jan 2013 nr. 61 .</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 17 jan 2013 nr. 61 .</p>
 <h4 id="1-3-innholdet-i-registeret">§ 1-3. Innholdet i registeret <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registeret kan inneholde avidentifiserte helseopplysninger om hvorvidt personer som følges opp under og etter et opphold i sykehus, dagkirurgiske klinikker og sykehjem</p>
 <ol>
@@ -101,19 +264,19 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>har blitt påført en helsetjenesteassosiert infeksjon.</li>
 </ol>
 <p>Helsedirektoratet gir nærmere bestemmelser om antibiotikabruk som skal rapporteres, hvilke infeksjoner som skal rapporteres, hvilke sykehus, dagkirurgiske klinikker, sykehjem og pasientgrupper, jf. første ledd som skal inkluderes i registeret og hvilke som skal delta i prevalens- eller insidensundersøkelser.</p>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="1-3a-avidentifiserte-opplysninger">§ 1-3a. Avidentifiserte opplysninger</h4>
 <p>Med avidentifiserte opplysninger i denne forskriften forstås helseopplysninger der navn, fødselsnummer og andre personentydige kjennetegn er fjernet, slik at opplysningene ikke lenger kan knyttes til en enkeltperson, og hvor identitet bare kan tilbakeføres ved sammenstilling med de samme opplysninger som tidligere ble fjernet.</p>
-<p><em>Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Tilføyd ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-4-forbud-mot-bruk">§ 1-4. Forbud mot bruk <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysningene i registeret kan ikke anvendes til formål som er uforenelig med formål som nevnt i § 1-2 .</p>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="1-5-dataansvarlig">§ 1-5. Dataansvarlig</h4>
 <p>Folkehelseinstituttet er dataansvarlig for registeret.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-6-databehandler">§ 1-6. Databehandler <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet kan inngå skriftlig avtale med en databehandler om innsamling og behandling av helseopplysninger i registeret, herunder om overvåking og forskning, jf. § 1-2 , drift og kvalitetssikring av registeret, samt tilgjengeliggjøring av data.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="1-7-opplysninger-i-registeret">§ 1-7. Opplysninger i registeret <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Registeret kan inneholde følgende opplysninger om personer som tilhører de pasientgrupper som er bestemt inkludert i registeret, jf. § 1-3 annet ledd.</p>
 <ol>
@@ -135,47 +298,47 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
     d. om antibiotikabehandling, varighet og eventuelle følgetilstander,
     e. status ved utskrivelse og i oppfølgingsperioden.</li>
 </ol>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="1-8-koding-og-klassifisering-av-opplysningene-i-registeret-krav-til-dokumentasjon-kvalitetskontroll">§ 1-8. Koding og klassifisering av opplysningene i registeret, krav til dokumentasjon, kvalitetskontroll <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-1-8.html" title="Endringshistorikk for § 1-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal sørge for at helseopplysninger som behandles i registeret, er korrekte, relevante og nødvendige for de formål de innsamles for, jf. § 1-2 . Folkehelseinstituttet skal ved enhver registrering i registeret kunne dokumentere hvilke klassifikasjoner eller kodeverk som er benyttet.</p>
 <p>Departementet kan gi nærmere bestemmelser om hvilke nasjonale eller internasjonale kodeverk og klassifikasjoner som skal benyttes ved registrering av opplysninger i registeret.</p>
 <p>Dersom meldingsskjema er mangelfullt utfylt, skal avsenderen av opplysningene varsles, jf. helseregisterloven § 13 andre ledd andre punktum.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-2-melding-av-helseopplysninger-til-registeret-mv">Kapittel 2. Melding av helseopplysninger til registeret mv.</h2>
 <h4 id="2-1-virksomhetenes-deltaking-i-overvakingssystemet">§ 2-1. Virksomhetenes deltaking i overvåkingssystemet <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Virksomheter som behandler pasienter i pasientgrupper, jf. forskriften § 1-3 annet ledd, skal delta i overvåkingssystemet for antibiotikabruk og helsetjenesteassosierte infeksjoner i sykehjem og spesialisthelsetjenesten dersom ikke dataansvarlig har fritatt dem for deltakelse.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="2-2-helsepersonellets-meldingsplikt-av-opplysninger-til-registeret">§ 2-2. Helsepersonellets meldingsplikt av opplysninger til registeret <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helsepersonell ved virksomheter som behandler pasienter i pasientgrupper, jf. forskriften § 1-3 annet ledd, skal melde opplysninger som nevnt i § 1-7 til registeret.</p>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="2-3-meldingsskjema-formkrav">§ 2-3. Meldingsskjema, formkrav <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Melding av opplysninger som nevnt i § 2-2 , skal skje som fastsatt av Helsedirektoratet etter nærmere bestemmelser om form, innhold og frister for melding til registeret.</p>
 <p>Helsedirektoratet kan gi pålegg om bruk av standardiserte meldingsformater ved forsendelsen av opplysningene.</p>
-<p><em>Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</em></p>
+<p class="note">Endret ved forskrift 27 april 2012 nr. 497 (i kraft 1 juli 2012).</p>
 <h4 id="2-4-virksomhetens-plikter">§ 2-4. Virksomhetens plikter</h4>
 <p>Ledelsen ved virksomheter er ansvarlig for registrering av opplysninger som skal meldes til registeret, jf. § 1-7 , og har ansvar for at pliktene som nevnt i § 2-1 til § 2-3 , oppfylles, og skal sørge for at det finnes rutiner som sikrer dette.</p>
 <p>Ledelsen ved virksomhetene skal påse at resultatene av overvåkingen sendes til Folkehelseinstituttet.</p>
-<p><em>Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrift 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h4 id="2-5-rapportering-fra-registeret">§ 2-5. Rapportering fra registeret <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-2-5.html" title="Endringshistorikk for § 2-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Folkehelseinstituttet skal sørge for regelmessig rapportering om forekomsten av antibiotikabruk og helsetjenesteassosierte infeksjoner til de aktuelle delene av helsetjenesten, jf. § 1-2 , gjennom å offentliggjøre årlige oversikter om antibiotikabruk og om forekomst av helsetjenesteassosierte infeksjoner i virksomhetene i landet.</p>
 <p>Folkehelseinstituttet skal ivareta rapportering om antibiotikabruk til Verdens helseorganisasjon og forekomst av helsetjenesteassosierte infeksjoner til EU-kommisjonen jf. vedtak 2119/98/EF. Slike opplysninger skal være avidentifiserte.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 18 des 2015 nr. 1588 (i kraft 1 jan 2016).</p>
 <h2 id="kapittel-3-behandling-av-helseopplysninger-i-registeret">Kapittel 3. Behandling av helseopplysninger i registeret</h2>
 <h4 id="3-1-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 3-1. Tilgjengeliggjøring og annen behandling av helseopplysninger <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Helseopplysninger i NOIS-registeret skal behandles i samsvar med personvernforordningen , personopplysningsloven og de alminnelige vilkårene i helseregisterloven § 6 og reglene om taushetsplikt i helseregisterloven § 17 , jf. helsepersonelloven §§ 21 flg.</p>
 <p>Ved tilgjengeliggjøring og sammenstilling av opplysninger i registeret gjelder i tillegg helseregisterloven § 19 til § 19h .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="3-2-informasjonsstrategi-rettet-mot-brukergrupper">§ 3-2. Informasjonsstrategi rettet mot brukergrupper <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For å fremme bruk av data fra registeret og for å bygge opp informasjon og kunnskap, jf. forskriften § 1-3 , skal Folkehelseinstituttet ha en aktiv informasjonsstrategi og -plan rettet mot så vel helse- og omsorgsforvaltningen, helse- og omsorgstjenesten og øvrig forvaltning, som mot forskere innen medisinsk forskning, helse- og omsorgstjenesteforskning og samfunnsforskning.</p>
-<p><em>Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-3).</em></p>
+<p class="note">Endret ved forskrifter 27 april 2012 nr. 497 (i kraft 1 juli 2012), 17 jan 2013 nr. 61 , 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021, tidligere § 3-3).</p>
 <h2 id="kapittel-4-informasjonssikkerhet-og-internkontroll">Kapittel 4. Informasjonssikkerhet og internkontroll</h2>
 <h4 id="4-1-informasjonssikkerhet">§ 4-1. Informasjonssikkerhet</h4>
 <p>Folkehelseinstituttet og databehandleren skal gjennomføre tekniske og organisatoriske tiltak for å oppnå et sikkerhetsnivå som er egnet med hensyn til risikoen, jf. personvernforordningen artikkel 32 og helseregisterloven § 21 .</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-2-plikt-til-internkontroll">§ 4-2. Plikt til internkontroll</h4>
 <p>Folkehelseinstituttet skal gjennomføre tekniske og organisatoriske tiltak for å sikre og påvise at behandling av opplysninger utføres i samsvar med personvernforordningen, personopplysingsloven og helseregisterloven, jf. helseregisterloven § 22 . Tiltakene skal tilpasses virksomhetens art, aktiviteter og størrelse i det omfang det er nødvendig for å etterleve reglene om behandling av helseopplysninger, med særlig vekt på bestemmelser gitt i medhold av helseregisterloven § 21 .</p>
 <p>Databehandleren som behandler helseopplysninger på vegne av Folkehelseinstituttet, skal behandle opplysninger i samsvar med rutiner Folkehelseinstituttet har oppstilt.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="4-3-internkontrollens-innhold">§ 4-3. Internkontrollens innhold <a class="para-history" href="../historikk/forskrift-2005-06-17-611/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Internkontrollen innebærer at Folkehelseinstituttet skal ha kunnskap om gjeldende regler om behandling av helseopplysninger, tilstrekkelig og oppdatert dokumentasjon for gjennomføring av rutiner, samt ha denne dokumentasjonen tilgjengelig for dem det måtte angå.</p>
 <p>Internkontrollen skal blant annet inneholde:</p>
@@ -194,14 +357,14 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>rutiner for hvordan virksomheten sikrer at de ansatte har tilstrekkelig kompetanse til å overholde forskriftens krav.</li>
 </ol>
 <p>Skriftlig dokumentasjon skal minst omfatte dokumentasjon av rutiner som nevnt i annet ledd nr. 1 til 8. Tilsynsmyndighetene kan gi pålegg om skriftlig dokumentasjon ut over dette, dersom det anses påkrevd. Tilsynsmyndighetene kan dispensere fra hele eller deler av dette kapittel når særlige forhold foreligger.</p>
-<p><em>Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2015 nr. 1588 (i kraft 1 jan 2016), 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 19 nov 2021 nr. 3235 .</p>
 <h2 id="kapittel-5-bevaring-av-helseopplysninger-i-registeret">Kapittel 5. Bevaring av helseopplysninger i registeret</h2>
 <h4 id="5-1-bevaring-av-helseopplysninger">§ 5-1. Bevaring av helseopplysninger</h4>
 <p>Opplysninger i registeret kan i den utstrekning det er nødvendig for å nå formålet med registeret, bevares i ubegrenset tid, med mindre annet følger av denne forskriften eller helseregisterloven § 25 .</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h2 id="kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</h2>
 <h4 id="6-1-opphevet">§ 6-1. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Opphevet ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="6-2-ikrafttredelse">§ 6-2. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. juli 2005.</p>
 <h2 id="merknader-til-de-enkelte-paragrafer-i-forskriften">Merknader til de enkelte paragrafer i forskriften</h2>
@@ -294,6 +457,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="til-6-2-ikrafttredelse">Til § 6-2 Ikrafttredelse</h4>
 <p>Bestemmelsen fastslår at denne forskriften trer i kraft 1. juli 2005.</p>
 <p>Merknader endret ved forskrift 17 jan 2013 nr. 61 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

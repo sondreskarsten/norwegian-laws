@@ -19,67 +19,182 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2016-06-17-73.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Anskaffelsesloven" href="../feeds/lov-2016-06-17-73.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Anskaffelsesloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2016-06-17-73</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>Anskaffelser, avtaler, bygg og entrepriser &raquo; Anskaffelser\nForvaltnings- og kommunalrett &raquo; Offentlig forvaltning</dd>
-<dt>Ikrafttredelse</dt><dd>2017-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-03-06-8</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2016-06-17-73" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-rettighetshavere">§ 3. Rettighetshavere</a></li>
+<li class="lvl3"><a href="#4-grunnleggende-prinsipper">§ 4. Grunnleggende prinsipper</a></li>
+<li class="lvl3"><a href="#5-opphevet">§ 5. (Opphevet)</a></li>
+<li class="lvl3"><a href="#5a-plikt-til-a-ha-anskaffelsesstrategi-og-rutiner">§ 5a. Plikt til å ha anskaffelsesstrategi og -rutiner</a></li>
+<li class="lvl3"><a href="#5b-klima-og-miljhensyn">§ 5b. Klima- og miljøhensyn</a></li>
+<li class="lvl3"><a href="#5c-standardiserte-minimumskrav-og-kriterier-om-klima-og-milj">§ 5c. Standardiserte minimumskrav og -kriterier om klima og miljø</a></li>
+<li class="lvl3"><a href="#5d-sikkerhet-og-beredskap">§ 5d. Sikkerhet og beredskap</a></li>
+<li class="lvl3"><a href="#5e-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 5e. Kontraktsvilkår om lønns- og arbeidsvilkår</a></li>
+<li class="lvl3"><a href="#5f-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 5f. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter</a></li>
+<li class="lvl3"><a href="#5g-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 5g. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling</a></li>
+<li class="lvl3"><a href="#5h-kontraktsvilkar-om-bruk-av-lrlinger">§ 5h. Kontraktsvilkår om bruk av lærlinger</a></li>
+<li class="lvl3"><a href="#5i-krav-til-kontroll">§ 5i. Krav til kontroll</a></li>
+<li class="lvl3"><a href="#5j-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 5j. Tilsyn med krav til lønns- og arbeidsvilkår</a></li>
+<li class="lvl3"><a href="#5k-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 5k. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden</a></li>
+<li class="lvl3"><a href="#5l-dokumentasjon-av-skatte-og-avgiftsmessige-forhold">§ 5l. Dokumentasjon av skatte- og avgiftsmessige forhold</a></li>
+<li class="lvl3"><a href="#5m-menneskerettigheter-og-anstendige-arbeidsforhold">§ 5m. Menneskerettigheter og anstendige arbeidsforhold</a></li>
+<li class="lvl3"><a href="#5n-universell-utforming">§ 5n. Universell utforming</a></li>
+<li class="lvl3"><a href="#5o-innovasjon">§ 5o. Innovasjon</a></li>
+<li class="lvl3"><a href="#5p-krav-om-sanksjoner-for-brudd-pa-kontraktsvilkar-om-samfunnshensyn">§ 5p. Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensyn</a></li>
+<li class="lvl3"><a href="#6-opphevet">§ 6. (Opphevet)</a></li>
+<li class="lvl3"><a href="#7-opphevet">§ 7. (Opphevet)</a></li>
+<li class="lvl3"><a href="#7a-regler-om-anskaffelser-av-helse-og-sosialtjenester">§ 7a. Regler om anskaffelser av helse- og sosialtjenester</a></li>
+<li class="lvl3"><a href="#8-sksmal">§ 8. Søksmål</a></li>
+<li class="lvl3"><a href="#9-midlertidig-forfyning">§ 9. Midlertidig forføyning</a></li>
+<li class="lvl3"><a href="#10-erstatning">§ 10. Erstatning</a></li>
+<li class="lvl3"><a href="#11-tvistelsningsorgan">§ 11. Tvisteløsningsorgan</a></li>
+<li class="lvl3"><a href="#12-overtredelsesgebyr">§ 12. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#13-sksmal-om-a-kjenne-en-kontrakt-uten-virkning">§ 13. Søksmål om å kjenne en kontrakt uten virkning</a></li>
+<li class="lvl3"><a href="#14-sksmal-om-a-avkorte-en-kontrakts-varighet-eller-idmme-oppdragsgiver-overtredelsesgebyr">§ 14. Søksmål om å avkorte en kontrakts varighet eller idømme oppdragsgiver overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#15-prosessuelle-srregler-og-tidsfrister-ved-sksmal-etter-13og-14">§ 15. Prosessuelle særregler og tidsfrister ved søksmål etter§§ 13og 14</a></li>
+<li class="lvl3"><a href="#16-forskrifter">§ 16. Forskrifter</a></li>
+<li class="lvl3"><a href="#17-palegg">§ 17. Pålegg</a></li>
+<li class="lvl3"><a href="#18-ikrafttredelse-og-overgangsregler">§ 18. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-03-06-8.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-06-17-73.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om offentlige anskaffelser (anskaffelsesloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-06-17-73.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2016-06-17-73 <code>lov/2016-06-17-73</code></td></tr>
+<tr><th>Korttittel</th><td>Anskaffelsesloven</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Anskaffelser, avtaler, bygg og entrepriser &raquo; Anskaffelser\nForvaltnings- og kommunalrett &raquo; Offentlig forvaltning</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2017</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-03-06-8 <code>lov/2026-03-06-8</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2016-06-17-73" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl3"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl3"><a href="#3-rettighetshavere">§ 3. Rettighetshavere</a></li>
+<li class="lvl3"><a href="#4-grunnleggende-prinsipper">§ 4. Grunnleggende prinsipper</a></li>
+<li class="lvl3"><a href="#5-opphevet">§ 5. (Opphevet)</a></li>
+<li class="lvl3"><a href="#5a-plikt-til-a-ha-anskaffelsesstrategi-og-rutiner">§ 5a. Plikt til å ha anskaffelsesstrategi og -rutiner</a></li>
+<li class="lvl3"><a href="#5b-klima-og-miljhensyn">§ 5b. Klima- og miljøhensyn</a></li>
+<li class="lvl3"><a href="#5c-standardiserte-minimumskrav-og-kriterier-om-klima-og-milj">§ 5c. Standardiserte minimumskrav og -kriterier om klima og miljø</a></li>
+<li class="lvl3"><a href="#5d-sikkerhet-og-beredskap">§ 5d. Sikkerhet og beredskap</a></li>
+<li class="lvl3"><a href="#5e-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 5e. Kontraktsvilkår om lønns- og arbeidsvilkår</a></li>
+<li class="lvl3"><a href="#5f-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 5f. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter</a></li>
+<li class="lvl3"><a href="#5g-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 5g. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling</a></li>
+<li class="lvl3"><a href="#5h-kontraktsvilkar-om-bruk-av-lrlinger">§ 5h. Kontraktsvilkår om bruk av lærlinger</a></li>
+<li class="lvl3"><a href="#5i-krav-til-kontroll">§ 5i. Krav til kontroll</a></li>
+<li class="lvl3"><a href="#5j-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 5j. Tilsyn med krav til lønns- og arbeidsvilkår</a></li>
+<li class="lvl3"><a href="#5k-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 5k. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden</a></li>
+<li class="lvl3"><a href="#5l-dokumentasjon-av-skatte-og-avgiftsmessige-forhold">§ 5l. Dokumentasjon av skatte- og avgiftsmessige forhold</a></li>
+<li class="lvl3"><a href="#5m-menneskerettigheter-og-anstendige-arbeidsforhold">§ 5m. Menneskerettigheter og anstendige arbeidsforhold</a></li>
+<li class="lvl3"><a href="#5n-universell-utforming">§ 5n. Universell utforming</a></li>
+<li class="lvl3"><a href="#5o-innovasjon">§ 5o. Innovasjon</a></li>
+<li class="lvl3"><a href="#5p-krav-om-sanksjoner-for-brudd-pa-kontraktsvilkar-om-samfunnshensyn">§ 5p. Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensyn</a></li>
+<li class="lvl3"><a href="#6-opphevet">§ 6. (Opphevet)</a></li>
+<li class="lvl3"><a href="#7-opphevet">§ 7. (Opphevet)</a></li>
+<li class="lvl3"><a href="#7a-regler-om-anskaffelser-av-helse-og-sosialtjenester">§ 7a. Regler om anskaffelser av helse- og sosialtjenester</a></li>
+<li class="lvl3"><a href="#8-sksmal">§ 8. Søksmål</a></li>
+<li class="lvl3"><a href="#9-midlertidig-forfyning">§ 9. Midlertidig forføyning</a></li>
+<li class="lvl3"><a href="#10-erstatning">§ 10. Erstatning</a></li>
+<li class="lvl3"><a href="#11-tvistelsningsorgan">§ 11. Tvisteløsningsorgan</a></li>
+<li class="lvl3"><a href="#12-overtredelsesgebyr">§ 12. Overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#13-sksmal-om-a-kjenne-en-kontrakt-uten-virkning">§ 13. Søksmål om å kjenne en kontrakt uten virkning</a></li>
+<li class="lvl3"><a href="#14-sksmal-om-a-avkorte-en-kontrakts-varighet-eller-idmme-oppdragsgiver-overtredelsesgebyr">§ 14. Søksmål om å avkorte en kontrakts varighet eller idømme oppdragsgiver overtredelsesgebyr</a></li>
+<li class="lvl3"><a href="#15-prosessuelle-srregler-og-tidsfrister-ved-sksmal-etter-13og-14">§ 15. Prosessuelle særregler og tidsfrister ved søksmål etter§§ 13og 14</a></li>
+<li class="lvl3"><a href="#16-forskrifter">§ 16. Forskrifter</a></li>
+<li class="lvl3"><a href="#17-palegg">§ 17. Pålegg</a></li>
+<li class="lvl3"><a href="#18-ikrafttredelse-og-overgangsregler">§ 18. Ikrafttredelse og overgangsregler</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-06-17-73.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-06-17-73.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-06-17-73.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2016-06-17-73.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2016-06-17-73.html">Observerte kildeutgaver</a> · <a href="../historie/anskaffelsesloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2016-06-17-73.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2016-06-17-73.html">Observerte kildeutgaver</a> · <a href="../historie/anskaffelsesloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2016-06-17-73.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-offentlige-anskaffelser-anskaffelsesloven">Lov om offentlige anskaffelser (anskaffelsesloven)</h1>
 <h3 id="1-formal">§ 1. Formål</h3>
 <p>Formålet med loven er å fremme effektiv og bærekraftig bruk av samfunnets ressurser. Med bærekraftig menes økonomisk, sosial og miljømessig bærekraft. Loven skal også bidra til at det offentlige ivaretar sikkerhets- og beredskapshensyn og opptrer på en tillitvekkende måte.</p>
-<p><em>Endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="2-virkeomrade">§ 2. Virkeområde</h3>
 <p>Loven gjelder når oppdragsgiver som nevnt i annet ledd inngår vare-, tjeneste- eller bygge- og anleggskontrakter, herunder konsesjonskontrakter, eller gjennomfører plan- og designkonkurranser, med en anslått verdi som er lik eller overstiger 500 000 kroner eksklusive merverdiavgift.</p>
 <p>Loven gjelder for følgende oppdragsgivere:</p>
@@ -92,7 +207,7 @@ f. andre virksomheter som utøver forsyningsaktivitet på grunnlag av enerett el
 <p>Loven gjelder ikke for anskaffelser som kan unntas etter EØS-avtalen artikkel 123 . Bestemmelsene i §§ 5a til 5p om samfunnshensyn gjelder ikke for forsvars- og sikkerhetsanskaffelser med mindre annet er fastsatt i forskrift med hjemmel i denne loven. Bestemmelsene om samfunnshensyn i §§ 5a , 5b , 5c , 5e , 5f , 5g , 5h , 5i , 5j , 5k og 5l gjelder ikke for forsynings- eller konsesjonskontrakter. Departementet kan i forskrift fastsette ytterligere unntak fra lovens virkeområde.</p>
 <p>Departementet kan i forskrift fastsette at loven skal gjelde for bygge- og anleggskontrakter og tilknyttede tjenestekontrakter som oppdragsgivere som nevnt i annet ledd bokstav a til d ikke selv inngår, men yter direkte tilskudd til med mer enn 50 prosent.</p>
 <p>Departementet kan i forskrift fastsette at loven skal gjelde for Svalbard, og fastsette særlige regler av hensyn til de stedlige forholdene.</p>
-<p><em>Endret ved lover 13 jan 2017 nr. 2 (ikr. 14 feb 2017), 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Endret ved lover 13 jan 2017 nr. 2 (ikr. 14 feb 2017), 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="3-rettighetshavere">§ 3. Rettighetshavere</h3>
 <p>Rettighetshavere etter loven er virksomheter etablert</p>
 <p>a. i Norge
@@ -100,35 +215,35 @@ b. i andre EØS-stater, i det omfang de har rettigheter etter EØS-avtalen
 c. i en stat som er part til WTO-avtalen om offentlige innkjøp, i det omfang de har rettigheter etter denne avtalen
 d. i en stat som er part til en annen internasjonal avtale som Norge er forpliktet av, i det omfang de har rettigheter etter den aktuelle avtalen.</p>
 <p>Virksomheter som ikke omfattes av første ledd, kan delta i konkurranser om offentlige kontrakter. Disse virksomhetene har likevel ikke rettighetene som følger av denne loven eller forskrifter fastsatt med hjemmel i loven.</p>
-<p><em>Endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="4-grunnleggende-prinsipper">§ 4. Grunnleggende prinsipper</h3>
 <p>Oppdragsgiveren skal opptre i samsvar med grunnleggende prinsipper om konkurranse, likebehandling, forutberegnelighet, etterprøvbarhet og forholdsmessighet.</p>
-<p><em>Oppheves ved lov 6 mars 2026 nr. 8 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Oppheves ved lov 6 mars 2026 nr. 8 (i kraft fra den tid Kongen bestemmer).</p>
 <h3 id="5-opphevet">§ 5. (Opphevet)</h3>
-<p><em>Endret ved lover 13 jan 2017 nr. 2 (ikr. 14 feb 2017), 16 juni 2023 nr. 68 , opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Endret ved lover 13 jan 2017 nr. 2 (ikr. 14 feb 2017), 16 juni 2023 nr. 68 , opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5a-plikt-til-a-ha-anskaffelsesstrategi-og-rutiner">§ 5a. Plikt til å ha anskaffelsesstrategi og -rutiner</h3>
 <p>Oppdragsgiver skal ha en anskaffelsesstrategi for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet. Strategien skal være offentlig tilgjengelig.</p>
 <p>Oppdragsgiver skal ha egnede rutiner for å ivareta de samfunnshensynene i §§ 5b til 5p som er relevante for oppdragsgivers virksomhet.</p>
-<p><em>Tilføyd ved lov 16 juni 2023 nr. 68 , endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 16 juni 2023 nr. 68 , endret ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5b-klima-og-miljhensyn">§ 5b. Klima- og miljøhensyn</h3>
 <p>Oppdragsgiver skal ta hensyn til klima og miljø i alle anskaffelser for å redusere anskaffelsens samlede klimaavtrykk og miljøbelastning.</p>
 <p>I anskaffelser som er kunngjøringspliktige etter forskrifter fastsatt med hjemmel i denne loven, skal oppdragsgiver som vekter tildelingskriteriene, vekte klima- og miljøhensyn med minimum tretti prosent. Hvis oppdragsgiver angir tildelingskriteriene i prioritert rekkefølge, skal klima- og miljøhensyn være blant de tre høyest prioriterte. Tildelingskriterier etter første og andre punktum kan erstattes eller kombineres med klima- og miljøkrav i kravspesifikasjonen dersom dette gir en bedre klima- eller miljøeffekt. Dette skal begrunnes i anskaffelsesdokumentene.</p>
 <p>Forpliktelsene etter første og andre ledd gjelder ikke dersom anskaffelsen etter sin art har et uvesentlig klimaavtrykk og miljøbelastning, eller dersom forpliktelsene går på bekostning av vesentlige interesser innenfor helse, sikkerhet eller beredskap. Dette skal begrunnes i anskaffelsesdokumentene.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5c-standardiserte-minimumskrav-og-kriterier-om-klima-og-milj">§ 5c. Standardiserte minimumskrav og -kriterier om klima og miljø</h3>
 <p>Forpliktelsene etter § 5b gjelder ikke dersom oppdragsgiver i lov eller forskrift fastsatt med hjemmel i denne loven er pålagt å stille standardiserte minimumskrav eller -kriterier til klimaavtrykk eller miljøbelastning. Kravene eller kriteriene må gjelde hovedytelsen som anskaffes.</p>
 <p>Departementet kan gi forskrift om standardiserte minimumskrav og -kriterier om klimaavtrykk og miljøbelastning.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5d-sikkerhet-og-beredskap">§ 5d. Sikkerhet og beredskap</h3>
 <p>Oppdragsgiver kan stille krav eller kriterier i alle ledd av en anskaffelsesprosess for å ivareta sikkerhets- og beredskapshensyn. Oppdragsgiver bør vurdere å stille slike krav i anskaffelser der det er relevant.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5e-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 5e. Kontraktsvilkår om lønns- og arbeidsvilkår</h3>
 <p>I tjeneste- og bygge- og anleggskontrakter skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, minst har:</p>
 <p>a. lønns- og arbeidsvilkår som er i samsvar med gjeldende forskrifter om allmenngjort tariffavtale gitt med hjemmel i lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler § 5 , eller
 b. lønns- og arbeidsvilkår som er i samsvar med bestemmelser om arbeidstid, lønn, herunder overtidstillegg, skift- og turnustillegg og ulempetillegg, og dekning av utgifter til reise, kost og losji i en gjeldende landsomfattende tariffavtale for den aktuelle bransje.</p>
 <p>Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.</p>
 <p>Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5f-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 5f. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter</h3>
 <p>I bygge- og anleggskontrakter og kontrakter om renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, har følgende:</p>
 <p>a. obligatorisk tjenestepensjon i samsvar med lov om obligatorisk tjenestepensjon
@@ -136,7 +251,7 @@ b. HMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjem
 <p>I bygge- og anleggskontrakter skal oppdragsgiver i tillegg stille kontraktsvilkår om informasjonsplikt og språkferdigheter i samsvar med krav om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser fastsatt i forskrift gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser.</p>
 <p>Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.</p>
 <p>Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkårene.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5g-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 5g. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling</h3>
 <p>I kontrakter om utførelse av bygge- og anleggsarbeider eller renholdstjenester skal oppdragsgiver stille kontraktsvilkår om at lønn og annen godtgjørelse skal utbetales via bank eller annet foretak med rett til å drive betalingsformidling. Kravet gjelder utbetalinger til ansatte og innleide som direkte medvirker i utførelsen av arbeidet eller tjenesten.</p>
 <p>Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.</p>
@@ -144,7 +259,7 @@ b. HMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjem
 <p>Alle avtaler leverandøren inngår om utføring av arbeid under kontrakten, skal inneholde tilsvarende bestemmelser.</p>
 <p>Unntaket for andre betalingsmåter i medhold av <a href="lov-1999-03-26-14.html">skatteloven</a> § 6-51 tredje ledd gjelder så langt det passer.</p>
 <p>Unntaket i arbeidsmiljøloven § 14-15 annet ledd gjelder så langt det passer.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5h-kontraktsvilkar-om-bruk-av-lrlinger">§ 5h. Kontraktsvilkår om bruk av lærlinger</h3>
 <p>I tjenestekontrakter og kontrakter om bygge- og anleggsarbeider skal oppdragsgiver stille kontraktsvilkår om at leverandør er tilknyttet en lærlingordning. Oppdragsgiver skal også stille kontraktsvilkår om at minst ti prosent av arbeidet utføres av lærlinger, og at minst én av dem som deltar i arbeidet med å oppfylle kontrakten, skal være lærling.</p>
 <p>Kravene etter første ledd gjelder når følgende vilkår er oppfylt:</p>
@@ -157,44 +272,44 @@ d. Det er et særlig behov for læreplasser. Med dette menes at underdekningen p
 <p>Kontraktsvilkåret er oppfylt dersom en leverandør som er tilknyttet en lærlingordning, kan dokumentere ett av følgende forhold:</p>
 <p>a. at det er gjort reelle forsøk på å inngå kontrakt med lærling uten å lykkes
 b. at lærlingen ikke kan benyttes i kontraktsarbeidet på grunn av forhold med lærlingen, og reelle forsøk på å inngå kontrakt med ny lærling ikke har lykkes.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5i-krav-til-kontroll">§ 5i. Krav til kontroll</h3>
 <p>Oppdragsgiver skal føre nødvendig kontroll av at kontraktsvilkårene som nevnt i §§ 5e første ledd, 5f første ledd, 5g og 5h overholdes. Risikovurderingen og etterfølgende dokumentasjonskontroll skal dokumenteres.</p>
 <p>Leverandører og underleverandører skal på forespørsel utlevere nødvendig dokumentasjon til oppdragsgiver for å dokumentere overholdelse av kontraktsvilkår som nevnt i §§ 5e , 5f og 5g .</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5j-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 5j. Tilsyn med krav til lønns- og arbeidsvilkår</h3>
 <p>Arbeidstilsynet fører innenfor sitt myndighetsområde tilsyn med at pliktene etter §§ 5e, 5f og 5i overholdes. Tilsynet gir pålegg og treffer enkeltvedtak som er nødvendige for gjennomføring av bestemmelsen. Arbeidsmiljøloven §§ 18-4 , 18-5 , 18-6 første, andre, sjette, sjuende og åttende ledd samt §§ 18-7 , 18-8 , 18-10 , 18-10 a , 18-12 og 18-13 får tilsvarende anvendelse.</p>
 <p>Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5k-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 5k. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden</h3>
 <p>Oppdragsgiver skal stille kontraktsvilkår om at leverandør ikke har mer enn to ledd i leverandørkjeden under seg når leverandøren skal utføre bygge- og anleggsarbeider eller renholdstjenester.</p>
 <p>Kravet gjelder når kontraktens verdi er lik eller overstiger kunngjøringsplikt for vare- og tjenestekontrakter.</p>
 <p>Oppdragsgiver kan åpne for flere ledd i leverandørkjeden dersom det er nødvendig for å sikre tilstrekkelig konkurranse. Det maksimale antallet ledd skal angis i kontrakten.</p>
 <p>Etter at kontrakt er inngått, kan oppdragsgiver godta flere ledd dersom det på grunn av uforutsette omstendigheter er nødvendig for å få gjennomført kontrakten.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5l-dokumentasjon-av-skatte-og-avgiftsmessige-forhold">§ 5l. Dokumentasjon av skatte- og avgiftsmessige forhold</h3>
 <p>Oppdragsgiver skal kreve at den valgte leverandøren gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold. Dette gjelder kun for norske leverandører.</p>
 <p>Opplysningene eller attesten skal ikke være eldre enn seks måneder regnet fra den dato oppdragsgiver meddeler hvem som har vunnet kontrakten.</p>
 <p>Ved bygge- og anleggskontrakter skal leverandøren kreve at norske underleverandører gjør tilgjengelig opplysninger eller fremviser attest for skatt og merverdiavgift som dokumenterer etterlevelse av skatte- og avgiftsmessige forhold ved inngåelse av kontrakter i tilknytning til oppdraget som overstiger en verdi på 500 000 kroner eksklusive merverdiavgift.</p>
 <p>Brudd på leverandørens plikt etter tredje ledd til å kreve dokumentasjon gir oppdragsgiver rett til å kreve at leverandøren erstatter vedkommende underleverandør med en underleverandør som kan levere dokumentasjon av skatte- og avgiftsmessige forhold. Oppdragsgiver kan også kreve at leverandøren erstatter en underleverandør som ikke har oppfylt sine forpliktelser til å betale skatter og avgifter. Eventuelle økonomiske krav fra underleverandører eller omkostninger for øvrig som følge av heving av avtaler med underleverandører i denne forbindelse skal bæres av leverandøren.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5m-menneskerettigheter-og-anstendige-arbeidsforhold">§ 5m. Menneskerettigheter og anstendige arbeidsforhold</h3>
 <p>Ved anskaffelser hvor det er risiko for brudd på grunnleggende menneskerettigheter og anstendige arbeidsforhold, bør oppdragsgiver stille krav eller kriterier for å motvirke at slike brudd oppstår.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5n-universell-utforming">§ 5n. Universell utforming</h3>
 <p>Oppdragsgiver skal stille krav til universell utforming i offentlige kontrakter i samsvar med regler fastsatt i forskrift i medhold av denne loven.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5o-innovasjon">§ 5o. Innovasjon</h3>
 <p>For å åpne for nye eller vesentlig endrede varer, tjenester, produksjonsmåter mv. kan oppdragsgiver stille egnede krav eller kriterier som fremmer innovasjon. Oppdragsgiver kan også åpne for alternative tilbud.</p>
 <p>En innovativ anskaffelse kan eksempelvis skje gjennom bruk av konkurranse med forhandling, innovasjonspartnerskap eller konkurransepreget dialog.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="5p-krav-om-sanksjoner-for-brudd-pa-kontraktsvilkar-om-samfunnshensyn">§ 5p. Krav om sanksjoner for brudd på kontraktsvilkår om samfunnshensyn</h3>
 <p>Der oppdragsgiver skal, eller har valgt å, innta kontraktsvilkår for å ivareta samfunnshensyn etter §§ 5b til 5m , skal oppdragsgiver i kontrakten innta egnede sanksjoner for leverandørens eller underleverandørens brudd på kontraktsvilkårene.</p>
-<p><em>Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Tilføyd ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="6-opphevet">§ 6. (Opphevet)</h3>
-<p><em>Endret ved lover 21 apr 2017 nr. 18 , 16 juni 2023 nr. 68 , 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ), 20 juni 2025 nr. 34 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1099 ), opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Endret ved lover 21 apr 2017 nr. 18 , 16 juni 2023 nr. 68 , 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ), 20 juni 2025 nr. 34 (i kraft 1 juli 2025 iflg. res. 20 juni 2025 nr. 1099 ), opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="7-opphevet">§ 7. (Opphevet)</h3>
-<p><em>Opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</em></p>
+<p class="note">Opphevet ved lov 6 mars 2026 nr. 8 (i kraft 1 juli 2026 iflg. res. 6 mars 2026 nr. 358 ).</p>
 <h3 id="7a-regler-om-anskaffelser-av-helse-og-sosialtjenester">§ 7a. Regler om anskaffelser av helse- og sosialtjenester</h3>
 <p>Departementet skal ved forskrift gi særskilte regler om anskaffelser av helse- og sosialtjenester.</p>
 <p>Departementet skal ved utformingen av forskriften særlig legge vekt på særtrekkene ved helse- og sosialtjenester. Forskriften skal bidra til å fremme viktige hensyn som mangfold, kvalitet, kontinuitet og brukermedvirkning innenfor dette tjenesteområdet.</p>
@@ -252,13 +367,15 @@ b. når kontraktens verdi er lik eller overstiger en nasjonal terskelverdi fasts
 <p>Departementet kan gi forskrift om oppdragsgiverens adgang til å si opp en kontrakt.</p>
 <p>Departementet kan gi forskrift om bruk av elektronisk faktura i offentlige anskaffelser.</p>
 <p>Departementet kan gi forskrift om at oppdragsgiveren skal stille nærmere bestemte energi- og miljøkrav som har sitt utspring i EØS-avtalen, WTO-avtalen om offentlige innkjøp eller andre internasjonale avtaler som Norge er forpliktet av.</p>
-<p><em>Endret ved lov 21 apr 2017 nr. 18 .</em></p>
+<p class="note">Endret ved lov 21 apr 2017 nr. 18 .</p>
 <h3 id="17-palegg">§ 17. Pålegg</h3>
 <p>Departementet kan gi oppdragsgiveren pålegg som er nødvendige for å sikre oppfyllelse av Norges forpliktelser etter EØS-avtalen, WTO-avtalen om offentlige innkjøp eller andre internasjonale avtaler som Norge er forpliktet av. For å sikre at plikten etter et slikt pålegg blir oppfylt, kan departementet ilegge oppdragsgiveren en løpende tvangsmulkt etter utløpet av den frist som er satt for oppfylling av pålegget, inntil pålegget er oppfylt. Departementet kan gi forskrift om tvangsmulkt.</p>
 <h3 id="18-ikrafttredelse-og-overgangsregler">§ 18. Ikrafttredelse og overgangsregler</h3>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer. Fra samme tid oppheves lov 16. juli 1999 nr. 69 om offentlige anskaffelser.</p>
 <p>Departementet kan gi forskrift om overgangsregler.</p>
 <p><em>1 Fra 1 jan 2017 iflg. res. 9 des 2016 nr. 1459 .</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

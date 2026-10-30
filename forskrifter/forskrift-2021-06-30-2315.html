@@ -19,64 +19,313 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2021-06-30-2315.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Jernbaneforskriften" href="../feeds/forskrift-2021-06-30-2315.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Jernbaneforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2021-06-30-2315</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-06-30</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-03-26-542</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2021-06-30-2315" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-1a-formal">§ 1-1a. Formål</a></li>
+<li class="lvl4"><a href="#1-2-samferdselsdepartementets-oppgaver">§ 1-2. Samferdselsdepartementets oppgaver</a></li>
+<li class="lvl4"><a href="#1-3-statens-jernbanetilsyns-oppgaver-som-markedsovervakingsorgan">§ 1-3. Statens jernbanetilsyns oppgaver som markedsovervåkingsorgan</a></li>
+<li class="lvl4"><a href="#1-4-statens-jernbanetilsyn-som-lisensutstedende-myndighet">§ 1-4. Statens jernbanetilsyn som lisensutstedende myndighet</a></li>
+<li class="lvl4"><a href="#1-5-delegering-av-forskriftsmyndighet-samarbeid-mellom-myndigheter-mm">§ 1-5. Delegering av forskriftsmyndighet, samarbeid mellom myndigheter m.m.</a></li>
+<li class="lvl4"><a href="#1-6-jernbanedirektoratets-oppgaver">§ 1-6. Jernbanedirektoratets oppgaver</a></li>
+<li class="lvl4"><a href="#1-7-definisjoner">§ 1-7. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-tilgang-til-a-trafikkere-jernbanenettet-mv">Kapittel 2. Tilgang til å trafikkere jernbanenettet mv.</a></li>
+<li class="lvl4"><a href="#2-1-rett-til-tilgang-til-jernbanenettet">§ 2-1. Rett til tilgang til jernbanenettet</a></li>
+<li class="lvl4"><a href="#2-2-unntak-fra-tilgangsretten-for-passasjertransport">§ 2-2. Unntak fra tilgangsretten for passasjertransport</a></li>
+<li class="lvl4"><a href="#2-3-saksbehandlingsregler">§ 2-3. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#2-4-tilgang-til-spor-til-og-i-havner-terminaler-og-andre-serviceanlegg">§ 2-4. Tilgang til spor til og i havner, terminaler og andre serviceanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-3-srskilte-krav-til-jernbaneforetak-og-infrastrukturforvalter">Kapittel 3. Særskilte krav til jernbaneforetak og infrastrukturforvalter</a></li>
+<li class="lvl4"><a href="#3-1-transportvilkar-for-passasjertransport">§ 3-1. Transportvilkår for passasjertransport</a></li>
+<li class="lvl4"><a href="#3-2-avtale-mellom-myndigheten-og-infrastrukturforvalter">§ 3-2. Avtale mellom myndigheten og infrastrukturforvalter</a></li>
+<li class="lvl4"><a href="#3-3-srskilte-krav-til-jernbaneforetaks-drift">§ 3-3. Særskilte krav til jernbaneforetaks drift</a></li>
+<li class="lvl4"><a href="#3-4-infrastrukturforvalters-uavhengighet">§ 3-4. Infrastrukturforvalters uavhengighet</a></li>
+<li class="lvl4"><a href="#3-5-infrastrukturforvalters-upartiskhet-ved-trafikkstyring-og-vedlikeholdsplanlegging">§ 3-5. Infrastrukturforvalters upartiskhet ved trafikkstyring og vedlikeholdsplanlegging</a></li>
+<li class="lvl4"><a href="#3-5a-planlegging-av-vedlikeholdsarbeider-og-andre-midlertidige-kapasitetsbegrensninger">§ 3-5a. Planlegging av vedlikeholdsarbeider og andre midlertidige kapasitetsbegrensninger</a></li>
+<li class="lvl4"><a href="#3-6-srskilte-krav-til-infrastrukturforvalters-drift">§ 3-6. Særskilte krav til infrastrukturforvalters drift</a></li>
+<li class="lvl4"><a href="#3-7-atskillelse-av-regnskaper">§ 3-7. Atskillelse av regnskaper</a></li>
+<li class="lvl4"><a href="#3-8-koordineringsmekanisme">§ 3-8. Koordineringsmekanisme</a></li>
+<li class="lvl4"><a href="#3-9-europeisk-nettverk-av-infrastrukturforvaltere">§ 3-9. Europeisk nettverk av infrastrukturforvaltere</a></li>
+<li class="lvl2"><a href="#kapittel-4-jernbanerelaterte-tjenester">Kapittel 4. Jernbanerelaterte tjenester</a></li>
+<li class="lvl4"><a href="#4-1-tilgang-til-den-minste-pakken-med-tjenester">§ 4-1. Tilgang til den minste pakken med tjenester</a></li>
+<li class="lvl4"><a href="#4-2-tilgang-til-serviceanlegg-og-tjenester-i-disse">§ 4-2. Tilgang til serviceanlegg og tjenester i disse</a></li>
+<li class="lvl4"><a href="#4-3-behandling-av-anmodninger-om-kapasitet-i-serviceanlegg">§ 4-3. Behandling av anmodninger om kapasitet i serviceanlegg</a></li>
+<li class="lvl4"><a href="#4-4-tilleggstjenester">§ 4-4. Tilleggstjenester</a></li>
+<li class="lvl4"><a href="#4-5-ekstratjenester">§ 4-5. Ekstratjenester</a></li>
+<li class="lvl4"><a href="#4-6-serviceanlegg-som-ikke-er-i-bruk">§ 4-6. Serviceanlegg som ikke er i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-5-netterklring">Kapittel 5. Netterklæring</a></li>
+<li class="lvl4"><a href="#5-1-krav-om-netterklring">§ 5-1. Krav om netterklæring</a></li>
+<li class="lvl4"><a href="#5-2-innhold-i-netterklringen">§ 5-2. Innhold i netterklæringen</a></li>
+<li class="lvl2"><a href="#kapittel-6-avgifter-for-bruk-av-jernbaneinfrastruktur-og-tjenester">Kapittel 6. Avgifter for bruk av jernbaneinfrastruktur og tjenester</a></li>
+<li class="lvl4"><a href="#6-1-generelt-om-avgifter-og-betaling">§ 6-1. Generelt om avgifter og betaling</a></li>
+<li class="lvl4"><a href="#6-2-infrastrukturavgifter">§ 6-2. Infrastrukturavgifter</a></li>
+<li class="lvl4"><a href="#6-3-unntak-fra-avgiftsprinsippene">§ 6-3. Unntak fra avgiftsprinsippene</a></li>
+<li class="lvl4"><a href="#6-4-rabatter">§ 6-4. Rabatter</a></li>
+<li class="lvl4"><a href="#6-5-kompensasjonsordning">§ 6-5. Kompensasjonsordning</a></li>
+<li class="lvl4"><a href="#6-6-ytelsesordning">§ 6-6. Ytelsesordning</a></li>
+<li class="lvl4"><a href="#6-7-reservasjonsavgifter">§ 6-7. Reservasjonsavgifter</a></li>
+<li class="lvl4"><a href="#6-8-samarbeid-om-avgiftsordninger-for-flere-enn-ett-jernbanenett">§ 6-8. Samarbeid om avgiftsordninger for flere enn ett jernbanenett</a></li>
+<li class="lvl4"><a href="#6-9-avgifter-for-jernbanerelaterte-tjenester-mv">§ 6-9. Avgifter for jernbanerelaterte tjenester mv.</a></li>
+<li class="lvl2"><a href="#kapittel-7-rammeavtaler">Kapittel 7. Rammeavtaler</a></li>
+<li class="lvl4"><a href="#7-1-rammeavtaler">§ 7-1. Rammeavtaler</a></li>
+<li class="lvl4"><a href="#7-2-rammeavtalens-innhold">§ 7-2. Rammeavtalens innhold</a></li>
+<li class="lvl4"><a href="#7-3-rammeavtalers-varighet">§ 7-3. Rammeavtalers varighet</a></li>
+<li class="lvl2"><a href="#kapittel-8-fordeling-av-infrastrukturkapasitet">Kapittel 8. Fordeling av infrastrukturkapasitet</a></li>
+<li class="lvl4"><a href="#8-1-rett-til-kapasitet-mv">§ 8-1. Rett til kapasitet mv.</a></li>
+<li class="lvl4"><a href="#8-2-sknad">§ 8-2. Søknad</a></li>
+<li class="lvl4"><a href="#8-3-sknader-som-gjelder-kapasitet-pa-flere-enn-ett-jernbanenett">§ 8-3. Søknader som gjelder kapasitet på flere enn ett jernbanenett</a></li>
+<li class="lvl4"><a href="#8-4-kapasitetsfordeling-over-flere-jernbanenett">§ 8-4. Kapasitetsfordeling over flere jernbanenett</a></li>
+<li class="lvl4"><a href="#8-5-tidsplan-for-fordelingsprosessen">§ 8-5. Tidsplan for fordelingsprosessen</a></li>
+<li class="lvl4"><a href="#8-6-behandling-av-sknader">§ 8-6. Behandling av søknader</a></li>
+<li class="lvl4"><a href="#8-7-adhocsknader">§ 8-7. Adhocsøknader</a></li>
+<li class="lvl4"><a href="#8-8-jernbaneinfrastruktur-til-spesielle-formal">§ 8-8. Jernbaneinfrastruktur til spesielle formål</a></li>
+<li class="lvl2"><a href="#kapittel-9-interessekonflikter-og-overbelastet-infrastruktur">Kapittel 9. Interessekonflikter og overbelastet infrastruktur</a></li>
+<li class="lvl4"><a href="#9-1-samordning">§ 9-1. Samordning</a></li>
+<li class="lvl4"><a href="#9-2-tvistelsningsordning">§ 9-2. Tvisteløsningsordning</a></li>
+<li class="lvl4"><a href="#9-3-overbelastet-infrastruktur">§ 9-3. Overbelastet infrastruktur</a></li>
+<li class="lvl4"><a href="#9-4-tidligere-utnyttelse-av-ruteleier">§ 9-4. Tidligere utnyttelse av ruteleier</a></li>
+<li class="lvl4"><a href="#9-5-prioriteringskriterier">§ 9-5. Prioriteringskriterier</a></li>
+<li class="lvl4"><a href="#9-6-kapasitetsanalyse">§ 9-6. Kapasitetsanalyse</a></li>
+<li class="lvl4"><a href="#9-7-kapasitetsforbedringsplan">§ 9-7. Kapasitetsforbedringsplan</a></li>
+<li class="lvl2"><a href="#kapittel-10-tildelt-infrastrukturkapasitet">Kapittel 10. Tildelt infrastrukturkapasitet</a></li>
+<li class="lvl4"><a href="#10-1-avtaler-med-infrastrukturforvalteren">§ 10-1. Avtaler med infrastrukturforvalteren</a></li>
+<li class="lvl4"><a href="#10-2-ruteleier-som-ikke-brukes">§ 10-2. Ruteleier som ikke brukes</a></li>
+<li class="lvl4"><a href="#10-3-kapasitet-til-ikke-planlagt-vedlikehold">§ 10-3. Kapasitet til ikke-planlagt vedlikehold</a></li>
+<li class="lvl4"><a href="#10-4-srlige-tiltak-i-tilfelle-forstyrrelser">§ 10-4. Særlige tiltak i tilfelle forstyrrelser</a></li>
+<li class="lvl2"><a href="#kapittel-11-markedsovervaking">Kapittel 11. Markedsovervåking</a></li>
+<li class="lvl4"><a href="#11-1-markedsovervakingsorganets-oppgaver-og-myndighet">§ 11-1. Markedsovervåkingsorganets oppgaver og myndighet</a></li>
+<li class="lvl4"><a href="#11-2-markedsovervakningsorganets-organisering">§ 11-2. Markedsovervåkningsorganets organisering</a></li>
+<li class="lvl4"><a href="#11-3-klage">§ 11-3. Klage</a></li>
+<li class="lvl4"><a href="#11-4-kontroll-med-regnskaper">§ 11-4. Kontroll med regnskaper</a></li>
+<li class="lvl4"><a href="#11-5-opplysninger-som-kan-kreves-lagt-frem-ved-kontroll-med-regnskaper">§ 11-5. Opplysninger som kan kreves lagt frem ved kontroll med regnskaper</a></li>
+<li class="lvl4"><a href="#11-6-palegg-og-tvangsmulkt">§ 11-6. Pålegg og tvangsmulkt</a></li>
+<li class="lvl4"><a href="#11-7-overtredelsesgebyr">§ 11-7. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-12-lisens-for-jernbaneforetak">Kapittel 12. Lisens for jernbaneforetak</a></li>
+<li class="lvl4"><a href="#12-1-krav-om-lisens">§ 12-1. Krav om lisens</a></li>
+<li class="lvl4"><a href="#12-2-vilkar-for-lisens">§ 12-2. Vilkår for lisens</a></li>
+<li class="lvl4"><a href="#12-3-vandel-mm">§ 12-3. Vandel m.m.</a></li>
+<li class="lvl4"><a href="#12-4-konomisk-evne">§ 12-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#12-5-faglig-dyktighet">§ 12-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#12-6-forsikring-og-garanti">§ 12-6. Forsikring og garanti</a></li>
+<li class="lvl4"><a href="#12-7-saksbehandling">§ 12-7. Saksbehandling</a></li>
+<li class="lvl4"><a href="#12-8-lisensens-gyldighet">§ 12-8. Lisensens gyldighet</a></li>
+<li class="lvl4"><a href="#12-9-forbud-mot-overdragelse">§ 12-9. Forbud mot overdragelse</a></li>
+<li class="lvl4"><a href="#12-10-suspensjon-og-tilbakekall-av-lisens">§ 12-10. Suspensjon og tilbakekall av lisens</a></li>
+<li class="lvl4"><a href="#12-11-fornyet-lisens-ved-endring-av-jernbaneforetakets-rettslige-stilling-mm">§ 12-11. Fornyet lisens ved endring av jernbaneforetakets rettslige stilling m.m.</a></li>
+<li class="lvl4"><a href="#12-12-palegg-og-tvangsmulkt">§ 12-12. Pålegg og tvangsmulkt</a></li>
+<li class="lvl2"><a href="#kapittel-13-avsluttende-bestemmelser">Kapittel 13. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-grenseoverskridende-avtaler">§ 13-1. Grenseoverskridende avtaler</a></li>
+<li class="lvl4"><a href="#13-2-innkreving-av-avgift-fra-jernbaneforetak-som-tilbyr-persontransport">§ 13-2. Innkreving av avgift fra jernbaneforetak som tilbyr persontransport</a></li>
+<li class="lvl4"><a href="#13-3-innsamling-av-informasjon-om-jernbanemarkedene">§ 13-3. Innsamling av informasjon om jernbanemarkedene</a></li>
+<li class="lvl4"><a href="#13-4-unntak">§ 13-4. Unntak</a></li>
+<li class="lvl4"><a href="#13-5-ikrafttredelse">§ 13-5. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-liste-over-jernbaneinfrastrukturanlegg">Vedlegg I. Liste over jernbaneinfrastrukturanlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-prinsipper-for-ytelsesordningen-nevnt-i-6-6">Vedlegg II. Prinsipper for ytelsesordningen nevnt i§ 6-6</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-grunnleggende-prinsipper-og-parametre-for-avtaler-mellom-vedkommende-myndighet-og-infrastrukturforvalter">Vedlegg III. Grunnleggende prinsipper og parametre for avtaler mellom vedkommende myndighet og infrastrukturforvalter</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-tidsplan-for-tildelingsprosessen">Vedlegg IV. Tidsplan for tildelingsprosessen</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-03-26-542.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-06-30-2315.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om jernbanevirksomhet, serviceanlegg, avgifter og fordeling av infrastrukturkapasitet mv. (jernbaneforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-06-30-2315.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2021-06-30-2315 <code>forskrift/2021-06-30-2315</code></td></tr>
+<tr><th>Korttittel</th><td>Jernbaneforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>30.06.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-03-26-542 <code>forskrift/2025-03-26-542</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2021-06-30-2315" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-1a-formal">§ 1-1a. Formål</a></li>
+<li class="lvl4"><a href="#1-2-samferdselsdepartementets-oppgaver">§ 1-2. Samferdselsdepartementets oppgaver</a></li>
+<li class="lvl4"><a href="#1-3-statens-jernbanetilsyns-oppgaver-som-markedsovervakingsorgan">§ 1-3. Statens jernbanetilsyns oppgaver som markedsovervåkingsorgan</a></li>
+<li class="lvl4"><a href="#1-4-statens-jernbanetilsyn-som-lisensutstedende-myndighet">§ 1-4. Statens jernbanetilsyn som lisensutstedende myndighet</a></li>
+<li class="lvl4"><a href="#1-5-delegering-av-forskriftsmyndighet-samarbeid-mellom-myndigheter-mm">§ 1-5. Delegering av forskriftsmyndighet, samarbeid mellom myndigheter m.m.</a></li>
+<li class="lvl4"><a href="#1-6-jernbanedirektoratets-oppgaver">§ 1-6. Jernbanedirektoratets oppgaver</a></li>
+<li class="lvl4"><a href="#1-7-definisjoner">§ 1-7. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-tilgang-til-a-trafikkere-jernbanenettet-mv">Kapittel 2. Tilgang til å trafikkere jernbanenettet mv.</a></li>
+<li class="lvl4"><a href="#2-1-rett-til-tilgang-til-jernbanenettet">§ 2-1. Rett til tilgang til jernbanenettet</a></li>
+<li class="lvl4"><a href="#2-2-unntak-fra-tilgangsretten-for-passasjertransport">§ 2-2. Unntak fra tilgangsretten for passasjertransport</a></li>
+<li class="lvl4"><a href="#2-3-saksbehandlingsregler">§ 2-3. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#2-4-tilgang-til-spor-til-og-i-havner-terminaler-og-andre-serviceanlegg">§ 2-4. Tilgang til spor til og i havner, terminaler og andre serviceanlegg</a></li>
+<li class="lvl2"><a href="#kapittel-3-srskilte-krav-til-jernbaneforetak-og-infrastrukturforvalter">Kapittel 3. Særskilte krav til jernbaneforetak og infrastrukturforvalter</a></li>
+<li class="lvl4"><a href="#3-1-transportvilkar-for-passasjertransport">§ 3-1. Transportvilkår for passasjertransport</a></li>
+<li class="lvl4"><a href="#3-2-avtale-mellom-myndigheten-og-infrastrukturforvalter">§ 3-2. Avtale mellom myndigheten og infrastrukturforvalter</a></li>
+<li class="lvl4"><a href="#3-3-srskilte-krav-til-jernbaneforetaks-drift">§ 3-3. Særskilte krav til jernbaneforetaks drift</a></li>
+<li class="lvl4"><a href="#3-4-infrastrukturforvalters-uavhengighet">§ 3-4. Infrastrukturforvalters uavhengighet</a></li>
+<li class="lvl4"><a href="#3-5-infrastrukturforvalters-upartiskhet-ved-trafikkstyring-og-vedlikeholdsplanlegging">§ 3-5. Infrastrukturforvalters upartiskhet ved trafikkstyring og vedlikeholdsplanlegging</a></li>
+<li class="lvl4"><a href="#3-5a-planlegging-av-vedlikeholdsarbeider-og-andre-midlertidige-kapasitetsbegrensninger">§ 3-5a. Planlegging av vedlikeholdsarbeider og andre midlertidige kapasitetsbegrensninger</a></li>
+<li class="lvl4"><a href="#3-6-srskilte-krav-til-infrastrukturforvalters-drift">§ 3-6. Særskilte krav til infrastrukturforvalters drift</a></li>
+<li class="lvl4"><a href="#3-7-atskillelse-av-regnskaper">§ 3-7. Atskillelse av regnskaper</a></li>
+<li class="lvl4"><a href="#3-8-koordineringsmekanisme">§ 3-8. Koordineringsmekanisme</a></li>
+<li class="lvl4"><a href="#3-9-europeisk-nettverk-av-infrastrukturforvaltere">§ 3-9. Europeisk nettverk av infrastrukturforvaltere</a></li>
+<li class="lvl2"><a href="#kapittel-4-jernbanerelaterte-tjenester">Kapittel 4. Jernbanerelaterte tjenester</a></li>
+<li class="lvl4"><a href="#4-1-tilgang-til-den-minste-pakken-med-tjenester">§ 4-1. Tilgang til den minste pakken med tjenester</a></li>
+<li class="lvl4"><a href="#4-2-tilgang-til-serviceanlegg-og-tjenester-i-disse">§ 4-2. Tilgang til serviceanlegg og tjenester i disse</a></li>
+<li class="lvl4"><a href="#4-3-behandling-av-anmodninger-om-kapasitet-i-serviceanlegg">§ 4-3. Behandling av anmodninger om kapasitet i serviceanlegg</a></li>
+<li class="lvl4"><a href="#4-4-tilleggstjenester">§ 4-4. Tilleggstjenester</a></li>
+<li class="lvl4"><a href="#4-5-ekstratjenester">§ 4-5. Ekstratjenester</a></li>
+<li class="lvl4"><a href="#4-6-serviceanlegg-som-ikke-er-i-bruk">§ 4-6. Serviceanlegg som ikke er i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-5-netterklring">Kapittel 5. Netterklæring</a></li>
+<li class="lvl4"><a href="#5-1-krav-om-netterklring">§ 5-1. Krav om netterklæring</a></li>
+<li class="lvl4"><a href="#5-2-innhold-i-netterklringen">§ 5-2. Innhold i netterklæringen</a></li>
+<li class="lvl2"><a href="#kapittel-6-avgifter-for-bruk-av-jernbaneinfrastruktur-og-tjenester">Kapittel 6. Avgifter for bruk av jernbaneinfrastruktur og tjenester</a></li>
+<li class="lvl4"><a href="#6-1-generelt-om-avgifter-og-betaling">§ 6-1. Generelt om avgifter og betaling</a></li>
+<li class="lvl4"><a href="#6-2-infrastrukturavgifter">§ 6-2. Infrastrukturavgifter</a></li>
+<li class="lvl4"><a href="#6-3-unntak-fra-avgiftsprinsippene">§ 6-3. Unntak fra avgiftsprinsippene</a></li>
+<li class="lvl4"><a href="#6-4-rabatter">§ 6-4. Rabatter</a></li>
+<li class="lvl4"><a href="#6-5-kompensasjonsordning">§ 6-5. Kompensasjonsordning</a></li>
+<li class="lvl4"><a href="#6-6-ytelsesordning">§ 6-6. Ytelsesordning</a></li>
+<li class="lvl4"><a href="#6-7-reservasjonsavgifter">§ 6-7. Reservasjonsavgifter</a></li>
+<li class="lvl4"><a href="#6-8-samarbeid-om-avgiftsordninger-for-flere-enn-ett-jernbanenett">§ 6-8. Samarbeid om avgiftsordninger for flere enn ett jernbanenett</a></li>
+<li class="lvl4"><a href="#6-9-avgifter-for-jernbanerelaterte-tjenester-mv">§ 6-9. Avgifter for jernbanerelaterte tjenester mv.</a></li>
+<li class="lvl2"><a href="#kapittel-7-rammeavtaler">Kapittel 7. Rammeavtaler</a></li>
+<li class="lvl4"><a href="#7-1-rammeavtaler">§ 7-1. Rammeavtaler</a></li>
+<li class="lvl4"><a href="#7-2-rammeavtalens-innhold">§ 7-2. Rammeavtalens innhold</a></li>
+<li class="lvl4"><a href="#7-3-rammeavtalers-varighet">§ 7-3. Rammeavtalers varighet</a></li>
+<li class="lvl2"><a href="#kapittel-8-fordeling-av-infrastrukturkapasitet">Kapittel 8. Fordeling av infrastrukturkapasitet</a></li>
+<li class="lvl4"><a href="#8-1-rett-til-kapasitet-mv">§ 8-1. Rett til kapasitet mv.</a></li>
+<li class="lvl4"><a href="#8-2-sknad">§ 8-2. Søknad</a></li>
+<li class="lvl4"><a href="#8-3-sknader-som-gjelder-kapasitet-pa-flere-enn-ett-jernbanenett">§ 8-3. Søknader som gjelder kapasitet på flere enn ett jernbanenett</a></li>
+<li class="lvl4"><a href="#8-4-kapasitetsfordeling-over-flere-jernbanenett">§ 8-4. Kapasitetsfordeling over flere jernbanenett</a></li>
+<li class="lvl4"><a href="#8-5-tidsplan-for-fordelingsprosessen">§ 8-5. Tidsplan for fordelingsprosessen</a></li>
+<li class="lvl4"><a href="#8-6-behandling-av-sknader">§ 8-6. Behandling av søknader</a></li>
+<li class="lvl4"><a href="#8-7-adhocsknader">§ 8-7. Adhocsøknader</a></li>
+<li class="lvl4"><a href="#8-8-jernbaneinfrastruktur-til-spesielle-formal">§ 8-8. Jernbaneinfrastruktur til spesielle formål</a></li>
+<li class="lvl2"><a href="#kapittel-9-interessekonflikter-og-overbelastet-infrastruktur">Kapittel 9. Interessekonflikter og overbelastet infrastruktur</a></li>
+<li class="lvl4"><a href="#9-1-samordning">§ 9-1. Samordning</a></li>
+<li class="lvl4"><a href="#9-2-tvistelsningsordning">§ 9-2. Tvisteløsningsordning</a></li>
+<li class="lvl4"><a href="#9-3-overbelastet-infrastruktur">§ 9-3. Overbelastet infrastruktur</a></li>
+<li class="lvl4"><a href="#9-4-tidligere-utnyttelse-av-ruteleier">§ 9-4. Tidligere utnyttelse av ruteleier</a></li>
+<li class="lvl4"><a href="#9-5-prioriteringskriterier">§ 9-5. Prioriteringskriterier</a></li>
+<li class="lvl4"><a href="#9-6-kapasitetsanalyse">§ 9-6. Kapasitetsanalyse</a></li>
+<li class="lvl4"><a href="#9-7-kapasitetsforbedringsplan">§ 9-7. Kapasitetsforbedringsplan</a></li>
+<li class="lvl2"><a href="#kapittel-10-tildelt-infrastrukturkapasitet">Kapittel 10. Tildelt infrastrukturkapasitet</a></li>
+<li class="lvl4"><a href="#10-1-avtaler-med-infrastrukturforvalteren">§ 10-1. Avtaler med infrastrukturforvalteren</a></li>
+<li class="lvl4"><a href="#10-2-ruteleier-som-ikke-brukes">§ 10-2. Ruteleier som ikke brukes</a></li>
+<li class="lvl4"><a href="#10-3-kapasitet-til-ikke-planlagt-vedlikehold">§ 10-3. Kapasitet til ikke-planlagt vedlikehold</a></li>
+<li class="lvl4"><a href="#10-4-srlige-tiltak-i-tilfelle-forstyrrelser">§ 10-4. Særlige tiltak i tilfelle forstyrrelser</a></li>
+<li class="lvl2"><a href="#kapittel-11-markedsovervaking">Kapittel 11. Markedsovervåking</a></li>
+<li class="lvl4"><a href="#11-1-markedsovervakingsorganets-oppgaver-og-myndighet">§ 11-1. Markedsovervåkingsorganets oppgaver og myndighet</a></li>
+<li class="lvl4"><a href="#11-2-markedsovervakningsorganets-organisering">§ 11-2. Markedsovervåkningsorganets organisering</a></li>
+<li class="lvl4"><a href="#11-3-klage">§ 11-3. Klage</a></li>
+<li class="lvl4"><a href="#11-4-kontroll-med-regnskaper">§ 11-4. Kontroll med regnskaper</a></li>
+<li class="lvl4"><a href="#11-5-opplysninger-som-kan-kreves-lagt-frem-ved-kontroll-med-regnskaper">§ 11-5. Opplysninger som kan kreves lagt frem ved kontroll med regnskaper</a></li>
+<li class="lvl4"><a href="#11-6-palegg-og-tvangsmulkt">§ 11-6. Pålegg og tvangsmulkt</a></li>
+<li class="lvl4"><a href="#11-7-overtredelsesgebyr">§ 11-7. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-12-lisens-for-jernbaneforetak">Kapittel 12. Lisens for jernbaneforetak</a></li>
+<li class="lvl4"><a href="#12-1-krav-om-lisens">§ 12-1. Krav om lisens</a></li>
+<li class="lvl4"><a href="#12-2-vilkar-for-lisens">§ 12-2. Vilkår for lisens</a></li>
+<li class="lvl4"><a href="#12-3-vandel-mm">§ 12-3. Vandel m.m.</a></li>
+<li class="lvl4"><a href="#12-4-konomisk-evne">§ 12-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#12-5-faglig-dyktighet">§ 12-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#12-6-forsikring-og-garanti">§ 12-6. Forsikring og garanti</a></li>
+<li class="lvl4"><a href="#12-7-saksbehandling">§ 12-7. Saksbehandling</a></li>
+<li class="lvl4"><a href="#12-8-lisensens-gyldighet">§ 12-8. Lisensens gyldighet</a></li>
+<li class="lvl4"><a href="#12-9-forbud-mot-overdragelse">§ 12-9. Forbud mot overdragelse</a></li>
+<li class="lvl4"><a href="#12-10-suspensjon-og-tilbakekall-av-lisens">§ 12-10. Suspensjon og tilbakekall av lisens</a></li>
+<li class="lvl4"><a href="#12-11-fornyet-lisens-ved-endring-av-jernbaneforetakets-rettslige-stilling-mm">§ 12-11. Fornyet lisens ved endring av jernbaneforetakets rettslige stilling m.m.</a></li>
+<li class="lvl4"><a href="#12-12-palegg-og-tvangsmulkt">§ 12-12. Pålegg og tvangsmulkt</a></li>
+<li class="lvl2"><a href="#kapittel-13-avsluttende-bestemmelser">Kapittel 13. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-grenseoverskridende-avtaler">§ 13-1. Grenseoverskridende avtaler</a></li>
+<li class="lvl4"><a href="#13-2-innkreving-av-avgift-fra-jernbaneforetak-som-tilbyr-persontransport">§ 13-2. Innkreving av avgift fra jernbaneforetak som tilbyr persontransport</a></li>
+<li class="lvl4"><a href="#13-3-innsamling-av-informasjon-om-jernbanemarkedene">§ 13-3. Innsamling av informasjon om jernbanemarkedene</a></li>
+<li class="lvl4"><a href="#13-4-unntak">§ 13-4. Unntak</a></li>
+<li class="lvl4"><a href="#13-5-ikrafttredelse">§ 13-5. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-i-liste-over-jernbaneinfrastrukturanlegg">Vedlegg I. Liste over jernbaneinfrastrukturanlegg</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-prinsipper-for-ytelsesordningen-nevnt-i-6-6">Vedlegg II. Prinsipper for ytelsesordningen nevnt i§ 6-6</a></li>
+<li class="lvl2"><a href="#vedlegg-iii-grunnleggende-prinsipper-og-parametre-for-avtaler-mellom-vedkommende-myndighet-og-infrastrukturforvalter">Vedlegg III. Grunnleggende prinsipper og parametre for avtaler mellom vedkommende myndighet og infrastrukturforvalter</a></li>
+<li class="lvl2"><a href="#vedlegg-iv-tidsplan-for-tildelingsprosessen">Vedlegg IV. Tidsplan for tildelingsprosessen</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-06-30-2315.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2021-06-30-2315.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2021-06-30-2315.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2021-06-30-2315.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2021-06-30-2315.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-06-30-2315.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2021-06-30-2315.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2021-06-30-2315.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2021-06-30-2315.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-jernbanevirksomhet-serviceanlegg-avgifter-og-fordeling-av-infrastrukturkapasitet-mv-jernbaneforskriften">Forskrift om jernbanevirksomhet, serviceanlegg, avgifter og fordeling av infrastrukturkapasitet mv. (jernbaneforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forskriften gjelder bl.a.</p>
@@ -87,16 +336,16 @@ d. regler om kontroll og håndheving av forskriftens bestemmelser av et markedso
 e. vilkår for utstedelse av lisenser til jernbaneforetak.
 f. Oppgaver og ansvar for myndigheter og foretak som utøver aktivitet knyttet til jernbane.</p>
 <p>(2) Forskriften får anvendelse på jernbaneinfrastruktur som brukes til nasjonale og internasjonale jernbanetjenester, men får ikke anvendelse på sporvei, tunnelbane, godsbane, museumsbane og lignende jernbanesystemer.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="1-1a-formal">§ 1-1a. Formål <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-1-1a.html" title="Endringshistorikk for § 1-1a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med forskriften er å tydeliggjøre roller og ansvar i jernbanesektoren og legge til rette for at aktører i jernbanesektoren bidrar til at statens jernbanepolitiske mål nås. De jernbanepolitiske målene skal bidra til et hensiktsmessig person- og godstogtilbud der kapasitet og øvrige ressurser utnyttes på en effektiv, samfunnsnyttig og sikker måte, og fremgår av gjeldende nasjonale transportplan og øvrige styringsdokumenter fra departementet.</p>
-<p><em>Tilføyd ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="1-2-samferdselsdepartementets-oppgaver">§ 1-2. Samferdselsdepartementets oppgaver <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Samferdselsdepartementet sender årlige oppdragsbrev til foretak som utøver rollen som infrastrukturforvalter på det nasjonale jernbanenettet. Brevet skal omtale de sektorpolitiske målene for foretaket, vilkår for bruk av statlig finansiering, herunder etter avtale med Jernbanedirektoratet i medhold av § 3-2 , og rapporteringskrav. Samferdselsdepartementet skal jevnlig innhente skriftlige opplysninger fra infrastrukturforvalter og avholde tilhørende møter.</p>
 <p>(2) Samferdselsdepartementet godkjenner transportvilkår og tilleggsavgift for rutegående persontransport etter § 3-1 .</p>
 <p>(3) Samferdselsdepartementet fastsetter inntektsrammene for infrastrukturavgiftene som infrastrukturforvalter innkrever som betaling for bruk av jernbaneinfrastrukturen i tråd med bestemmelsene i kapittel 6 .</p>
 <p>(4) Samferdselsdepartementet fastsetter satser og øvre rammer for overtredelsesgebyr etter § 11-7 .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="1-3-statens-jernbanetilsyns-oppgaver-som-markedsovervakingsorgan">§ 1-3. Statens jernbanetilsyns oppgaver som markedsovervåkingsorgan</h4>
 <p>(1) Statens jernbanetilsyn er markedsovervåkingsorgan etter jernbaneloven § 11a , fører tilsyn etter jernbaneloven § 11 , og har myndighet til å ilegge tvangsmulkt og overtredelsesgebyr etter jernbaneloven § 13 og § 13a .</p>
 <p>(2) Statens jernbanetilsyn vurderer etter anmodning vedkommende myndighets beslutninger om å tildele kontrakt om offentlig tjenesteyting direkte i medhold av forordning (EF) nr. 1370/2007 artikkel 5 nr. 4a og 4b.</p>
@@ -126,7 +375,7 @@ e. ved behov inngå takstsamarbeidsavtaler med fylkeskommuner og kollektivselska
 <p>(4) Jernbanedirektoratet utarbeider retningslinjer for reiseinformasjon, billettering og gebyrer for tilknytning til og bruk av elektroniske støttesystemer for billettering i medhold av forskrift om billettering ved jernbanetransport .</p>
 <p>(5) Jernbanedirektoratet skal som fagorgan gi råd og innspill til departementet og aktørene i sektoren for å bedre måloppnåelsen.</p>
 <p>(6) Når det er besluttet at eiendommer der det er jernbaneinfrastruktur eller serviceanlegg skal frigis til andre formål, kan Jernbanedirektoratet og den som forvalter eiendommene etter oppdrag fra departementet inngå avtale om avhending og etterbruk. Slike avtaler bør særlig omhandle sikring, vedlikehold, miljø, kulturminner mv.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="1-7-definisjoner">§ 1-7. Definisjoner <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I forskriften her forstås med</p>
 <p>a. jernbanenett: hele jernbaneinfrastrukturen som forvaltes av en infrastrukturforvalter
@@ -158,7 +407,7 @@ z. omfattende vedlikehold: arbeid som ikke utføres rutinemessig som ledd i den 
 æ. lisens: en autorisasjon utstedt av en lisensutstedende myndighet til et foretak, som viser at foretaket er kvalifisert til å yte jernbanetjenester som jernbaneforetak
 ø. persontransport med høyhastighetstog: persontransport med jernbane uten stopp underveis mellom to steder som ligger mer enn 200 km fra hverandre, på spesialbygde høyhastighetslinjer utstyrt for hastigheter på normalt minst 250 km/t, og der det i gjennomsnitt kjøres med slike hastigheter
 å. offentlig-privat partnerskap: en bindende avtale mellom offentlige organer og ett eller flere andre foretak enn infrastrukturforvalter, som foretakene helt eller delvis bygger og/eller finansierer jernbaneinfrastruktur i henhold til, og/eller skaffer seg rett til å utøve en eller flere av funksjonene til en infrastrukturforvalter i et forhåndsfastsatt tidsrom. Et slikt partnerskap kan ha enhver hensiktsmessig rettslig bindende form etter norsk lov.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-2-tilgang-til-a-trafikkere-jernbanenettet-mv">Kapittel 2. Tilgang til å trafikkere jernbanenettet mv.</h2>
 <h4 id="2-1-rett-til-tilgang-til-jernbanenettet">§ 2-1. Rett til tilgang til jernbanenettet</h4>
 <p>(1) Jernbaneforetak har tilgang til å trafikkere jernbanenettet på åpne, rettferdige og ikke-diskriminerende vilkår når formålet er å utøve godstransportvirksomhet. Med forbehold for forordning (EF) nr. 1370/2007 , har jernbaneforetak tilgang til å trafikkere jernbanenettet på åpne, rettferdige og ikke-diskriminerende vilkår når formålet er å utøve persontransportvirksomhet. Jernbaneforetak skal ha rett til å ta med passasjerer fra enhver stasjon og sette dem av ved en annen stasjon.</p>
@@ -185,11 +434,11 @@ z. omfattende vedlikehold: arbeid som ikke utføres rutinemessig som ledd i den 
 <h4 id="3-2-avtale-mellom-myndigheten-og-infrastrukturforvalter">§ 3-2. Avtale mellom myndigheten og infrastrukturforvalter <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Myndigheten nevnt i § 1-6 første ledd skal inngå en avtale med infrastrukturforvalter om kjøp av tjenester i tråd med vedlegg III . Dette påvirker ikke gjeldende prinsipper for planlegging og finansiering av infrastrukturen, og prinsippet om ettårig budsjettering. Avtalen skal gjelde for en periode på minst fem år, og skal ta utgangspunkt i rammer og vilkår angitt i oppdragsbrev som nevnt i § 1-2 første ledd og tildelingsbrev. Avtalen skal inneholde stimuleringstiltak for å redusere kostnadene ved å stille infrastruktur til rådighet og nivået på avgiftene som innkreves som betaling for bruk av infrastrukturen etter kapittel 6 .</p>
 <p>(2) Før avtale etter første ledd undertegnes, skal søkere og potensielle søkere konsulteres.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="3-3-srskilte-krav-til-jernbaneforetaks-drift">§ 3-3. Særskilte krav til jernbaneforetaks drift <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Jernbaneforetak skal drives etter de prinsipper som gjelder for kommersielle selskaper. Dette gjelder uansett hvem som eier dem og om de har påtatt seg forpliktelser til offentlig tjenesteytelse.</p>
 <p>(2) Jernbaneforetak som skal utføre passasjertransport skal utforme beredskapsplaner som skal samordnes på en hensiktsmessig måte med henblikk på å sikre assistanse til passasjerer i tråd med forordning (EU) 2021/782 artikkel 20 ved større driftsavbrytelser.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="3-4-infrastrukturforvalters-uavhengighet">§ 3-4. Infrastrukturforvalters uavhengighet <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Infrastrukturforvalter er ansvarlig for drift, vedlikehold og fornyelse av jernbanenettet. Infrastrukturforvalter har ansvaret for utviklingen av jernbaneinfrastrukturen innenfor rammene av oppdragsbrev etter § 1-2 og avtale med Jernbanedirektoratet etter § 3-2 i denne forskriften. Verken jernbaneforetak eller andre skal, direkte eller indirekte, kunne utøve avgjørende innflytelse på infrastrukturforvalters beslutninger i forbindelse med ivaretakelsen av de grunnleggende funksjonene angitt i § 1-7 bokstav i .</p>
 <p>(2) Medlemmer av infrastrukturforvalters daglige ledelse og styre, og personer som er underordnet disse, skal opptre på en ikke-diskriminerende måte og slik at det ikke foreligger en mulighet for påvirkning som følge av interessekonflikter.</p>
@@ -199,7 +448,7 @@ b. som personer med ansvar for å treffe beslutninger om grunnleggende funksjone
 <p>(4) Infrastrukturforvalter skal påse at det ikke oppstår interessekonflikter for personer som ivaretar grunnleggende funksjoner, herunder gjennom jobbskifter, gjennom engasjement, eller på annen måte. Tredje ledd bokstav a får tilsvarende anvendelse for avdelingsledere med ansvar for forvaltning av jernbaneinfrastrukturen og avdelingsledere med ansvar for leveranser av transporttjenester på sporet.</p>
 <p>(5) Som unntak fra første ledd kan infrastrukturforvalters funksjoner utføres av forskjellige infrastrukturforvaltere, herunder parter i offentlig-private partnerskap, forutsatt at alle oppfyller kravene i paragrafen her, § 3-5 og § 3-7 , og påtar seg det fulle ansvaret for utøvelsen av de aktuelle funksjonene.</p>
 <p>(6) Infrastrukturforvalter kan inngå samarbeidsavtaler med ett eller flere jernbaneforetak på en måte som ikke innebærer forskjellsbehandling, og med sikte på å skape fordeler for kundene, for eksempel reduserte kostnader eller bedre ytelse på den delen av jernbanenettet som omfattes av avtalen. Markedsovervåkingsorganet skal føre tilsyn med gjennomføringen av slike avtaler, og kan, dersom det er berettiget, gi råd om at de bør heves.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="3-5-infrastrukturforvalters-upartiskhet-ved-trafikkstyring-og-vedlikeholdsplanlegging">§ 3-5. Infrastrukturforvalters upartiskhet ved trafikkstyring og vedlikeholdsplanlegging</h4>
 <p>(1) Infrastrukturforvalters oppgaver forbundet med trafikkstyring og vedlikeholdsplanlegging skal utøves på en ikke-diskriminerende og gjennomsiktige måte. Infrastrukturforvalter skal i denne forbindelse sikre at det ikke foreligger interessekonflikter som kan skape tvil om ansvarlige personers egnethet til å treffe beslutninger om dette.</p>
 <p>(2) Infrastrukturforvalter skal sikre at jernbaneforetak, ved stans eller andre former for avbrytelser, har full og rettidig tilgang til relevante opplysninger som gjelder dem. Infrastrukturforvalter skal gi tilgang til opplysninger på en transparent og ikke-diskriminerende måte.</p>
@@ -207,12 +456,12 @@ b. som personer med ansvar for å treffe beslutninger om grunnleggende funksjone
 <p>(4) Planlegging av vedlikeholdsarbeid skal skje på en ikke-diskriminerende måte.</p>
 <h4 id="3-5a-planlegging-av-vedlikeholdsarbeider-og-andre-midlertidige-kapasitetsbegrensninger">§ 3-5a. Planlegging av vedlikeholdsarbeider og andre midlertidige kapasitetsbegrensninger <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-3-5a.html" title="Endringshistorikk for § 3-5a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Infrastrukturforvalter skal sikre at vedlikeholdsarbeider og andre midlertidige kapasitetsbegrensninger planlegges på en måte som gir størst mulig samfunnsøkonomisk lønnsomhet og som begrenser negative virkninger for søkerne og brukere av jernbanetjenester. Infrastrukturforvalter skal ta hensyn til innspill fra søkere, særlig gjennom bruk av koordineringsmekanismen omhandlet i § 3-8 og samråd med berørte parter ved utarbeidelsen av netterklæringen etter § 5-1 .</p>
-<p><em>Tilføyd ved forskrift 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 mars 2025 nr. 542 .</p>
 <h4 id="3-6-srskilte-krav-til-infrastrukturforvalters-drift">§ 3-6. Særskilte krav til infrastrukturforvalters drift <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Infrastrukturforvalter skal utarbeide en plan som omfatter investerings- og finansieringsprogrammer innenfor rammer fastsatt av staten. Planen skal utformes med henblikk på å sikre optimal og effektiv anvendelse og utvikling av jernbaneinfrastrukturen og samtidig sikre økonomisk balanse og omfatte de midler som er nødvendig for å oppnå disse målene. Infrastrukturforvalter skal sikre at kjente søkere og på deres anmodning potensielle søkere får tilgang til de relevante opplysninger og gis mulighet til å uttale seg om planens innhold når det gjelder vilkårene for adgang til og bruk av infrastrukturen, typen infrastruktur og utbygging og utvikling av infrastrukturen før den vedtas av infrastrukturforvaltningen. Departementet kan gi nærmere retningslinjer for utarbeidelse og oppdatering av slike planer.</p>
 <p>(2) Infrastrukturforvalters resultatregnskap skal være balansert under normale markedsforhold og over en rimelig periode på høyst fem år, slik at inntektene fra infrastrukturavgifter, overskudd fra annen forretningsvirksomhet, inntekter uten tilbakebetalingsplikt fra private kilder og statlig finansiering, herunder eventuelle forskuddsbetalinger fra staten, når det er relevant, minst dekker utgiftene til jernbaneinfrastrukturen.</p>
 <p>(3) Den som på vegne av staten forvalter eiendommer der det er jernbaneinfrastruktur eller serviceanlegg skal ta hensyn til målene nevnt i § 1-1a .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="3-7-atskillelse-av-regnskaper">§ 3-7. Atskillelse av regnskaper</h4>
 <p>(1) Inntekter fra infrastrukturforvalters aktiviteter skal kun benyttes av infrastrukturforvalter til å finansiere egne aktiviteter, herunder betaling av renter og avdrag på lån. Infrastrukturforvalter kan likevel betale midler tilbake til eier som utbytte.</p>
 <p>2) Infrastrukturforvalter skal, verken direkte eller indirekte, yte lån til jernbaneforetak. Jernbaneforetak skal, verken direkte eller indirekte, yte lån til infrastrukturforvalter.</p>
@@ -230,7 +479,7 @@ e. Andre spørsmål vedrørende betingelsene for tilgang, bruk av infrastrukture
 <p>(3) Infrastrukturforvalter skal i samråd med de nevnte aktørene utarbeide og offentliggjøre nærmere retningslinjer for koordineringen.</p>
 <p>(4) Koordineringen skal finne sted minst en gang hvert kalenderår. Infrastrukturforvalter skal publisere en oversikt over aktiviteter i henhold til denne bestemmelsen på sine nettsider.</p>
 <p>(5) Koordinering etter denne bestemmelsen berører ikke søkeres rett til å klage til markedsovervåkingsorganet etter bestemmelsene i kapittel 11 .</p>
-<p><em>Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</p>
 <h4 id="3-9-europeisk-nettverk-av-infrastrukturforvaltere">§ 3-9. Europeisk nettverk av infrastrukturforvaltere</h4>
 <p>Infrastrukturforvalter skal delta og samarbeide i et europeisk nettverk av infrastrukturforvaltere. Dette nettverket møtes regelmessig med henblikk på å</p>
 <p>a. utvikle jernbaneinfrastrukturen i EØS-området
@@ -290,7 +539,7 @@ e. omfattende vedlikeholdstjenester som leveres i vedlikeholdsanlegg beregnet fo
 <p>(2) Netterklæringen skal kunne anskaffes mot betaling av en avgift som ikke overstiger utgivelseskostnadene, og skal gjøres gratis tilgjengelig elektronisk på infrastrukturforvalterens nettside. Tilsvarende skal netterklæringen publiseres på en felles nettportal opprettet innenfor samarbeidet nevnt i § 6-8 og § 8-4 . Netterklæringen skal ajourføres og endres ved behov.</p>
 <p>(3) Netterklæringen skal også inneholde opplysninger om vilkårene for tilgang til alle serviceanlegg som er knyttet til jernbanenettet og for tilbud om tjenester i disse anlegg, eller vise til et nettsted der opplysningene er tilgjengelig elektronisk og gratis.</p>
 <p>(4) Den som driver serviceanlegg som ikke kontrolleres av infrastrukturforvalter, skal legge fram opplysninger om vilkårene for tilgang til serviceanlegg og for tilbud om tjenester i disse anlegg, samt nødvendige tekniske opplysninger. Den som driver serviceanlegg skal gi disse opplysningene til infrastrukturforvalteren eller vise til et nettsted der opplysningene er tilgjengelig elektronisk og vederlagsfritt.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="5-2-innhold-i-netterklringen">§ 5-2. Innhold i netterklæringen <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Netterklæringen skal inneholde følgende opplysninger:</p>
 <p>a. Et avsnitt som viser hvilken type jernbaneinfrastruktur som står til rådighet for jernbaneforetakene, og vilkårene for å få adgang til denne. Opplysningene i dette avsnittet skal hvert år oppdateres mot eller vise til infrastrukturregisteret.
@@ -308,7 +557,7 @@ e. Et avsnitt med opplysninger om søknad om lisens og sikkerhetssertifikat som 
 f. Et avsnitt med opplysninger om framgangsmåter for tvisteløsning og klager i forbindelse med spørsmål om adgang til jernbaneinfrastruktur og -tjenester og i forbindelse med ytelsesordningen nevnt i § 6-6 .
 g. Et avsnitt om opplysninger om adgang til og innkreving av betaling for bruk av serviceanlegg nevnt i kapittel 4 .
 h. En avtalemal for inngåelse av rammeavtale mellom en infrastrukturforvalter og en søker i samsvar med kapittel 7 .</p>
-<p><em>Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</p>
 <h2 id="kapittel-6-avgifter-for-bruk-av-jernbaneinfrastruktur-og-tjenester">Kapittel 6. Avgifter for bruk av jernbaneinfrastruktur og tjenester</h2>
 <h4 id="6-1-generelt-om-avgifter-og-betaling">§ 6-1. Generelt om avgifter og betaling <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Infrastrukturforvalter beregner, fastsetter og innkrever avgifter som betaling for bruk av jernbaneinfrastruktur. Avgiftene skal fastsettes i samsvar med forskriften her og slik at infrastrukturen blir utnyttet på en samfunnsøkonomisk effektiv måte. Inntektene skal brukes til å finansiere infrastrukturforvalters virksomhet.</p>
@@ -317,7 +566,7 @@ h. En avtalemal for inngåelse av rammeavtale mellom en infrastrukturforvalter o
 <p>(4) Infrastrukturforvalter skal fastsette en metode for fordeling av kostnader på de ulike kategorier av tjenester som tilbys jernbaneforetak. Metoden skal oppdateres jevnlig på grunnlag av beste internasjonale praksis.</p>
 <p>(5) For at markedsovervåkingsorganet skal kunne utføre sine oppgaver etter kapittel 11 skal infrastrukturforvalter og den som driver serviceanlegg gi markedsovervåkingsorganet alle nødvendige opplysninger om de avgifter og priser som kreves. Infrastrukturforvalter og den som driver serviceanlegg skal kunne godtgjøre overfor jernbaneforetakene at avgiftene og prisene som faktureres dem er i samsvar med forskriften her.</p>
 <p>(6) Markedsovervåkingsorganet kan fastsette nærmere bestemmelser om beregning av avgifter etter § 6-2 første ledd og om avgifter for kostnadene av støyvirkninger etter § 6-2 tredje ledd .</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="6-2-infrastrukturavgifter">§ 6-2. Infrastrukturavgifter <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Avgiftene for bruk av tjenester nevnt i § 4-1 og for tilgang til jernbaneinfrastruktur som knytter sammen serviceanlegg, skal fastsettes til kostnaden som oppstår som en direkte følge av den enkelte togtjenesten. Avgiftene kan endres som angitt i annet og tredje ledd.</p>
 <p>(2) Infrastrukturavgiftene kan omfatte en avgift som gjenspeiler kapasitetsmangelen i en identifiserbar del av jernbanenettet i perioder med overbelastning.</p>
@@ -326,7 +575,7 @@ h. En avtalemal for inngåelse av rammeavtale mellom en infrastrukturforvalter o
 <p>(5) For bestemte investeringsprosjekter kan infrastrukturforvalter, etter fremlegg for departementet, fastsette høyere avgifter på grunnlag av den langsiktige kostnaden ved slike prosjekter, dersom avgiftene øker produktiviteten og/eller effektiviteten og prosjektet ellers ikke kan iverksettes. En slik avgiftsordning kan også omfatte avtaler om deling av risikoen knyttet til nye investeringer.</p>
 <p>(6) Infrastrukturavgifter kan differensieres for å stimulere til å utstyre togene med ETCS som oppfyller kravene til baseline 2.3.0.d eller nyere som spesifisert i TSI-styring, kontroll og signal. En slik differensiering skal ikke føre til at det samlet sett blir noen endring i infrastrukturforvalters inntekter.</p>
 <p>(7) Det kan innkreves avgifter for kapasitet som brukes til vedlikehold av infrastruktur. Slike avgifter skal ikke overstige nettoinntektstap som følge av vedlikeholdet.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="6-3-unntak-fra-avgiftsprinsippene">§ 6-3. Unntak fra avgiftsprinsippene <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-6-3.html" title="Endringshistorikk for § 6-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Innenfor fristene i sjette ledd skal departementet gjennom fastsettelse av inntektsramme som angitt i § 1-2 tredje ledd godkjenne at infrastrukturforvalter fastsetter og krever inn påslag på infrastrukturavgifter etter § 6-2 for å oppnå inntil full dekning for sine kostnader. Før slik godkjenning må det godtgjøres at markedet tåler å betale foreslåtte påslag, etter en vurdering som nevnt i annet og tredje ledd. Påslag må fastsettes på grunnlag av prinsippene om effektivitet, innsyn og likebehandling, og sikre optimal konkurranseevne for jernbanens markedssegmenter. Jernbaneforetakenes egne produktivitetsøkninger skal holdes utenfor. Det skal innkreves like avgifter for sammenlignbare tjenester i samme markedssegment.</p>
 <p>(2) Avgiftsnivået skal ikke være så høyt at et markedssegment som ellers kan betale avgifter fastsatt etter § 6-2 tredje ledd , hindres i å bruke den aktuelle jernbaneinfrastrukturen.</p>
@@ -341,7 +590,7 @@ g. regelmessig og sporadisk togtrafikk.</p>
 <p>(4) Listen over relevante markedssegmenter skal fremgå av netterklæringen. Listen må revurderes minst hvert femte år. Statens jernbanetilsyn fører tilsyn med listen i samsvar med kapittel 11 .</p>
 <p>(5) Infrastrukturforvalter skal også definere markedssegmenter som for tiden er inaktive, men der jernbaneforetak kan starte opp tjenester i avgiftsordningens gyldighetsperiode. Disse markedssegmentene skal ikke ilegges påslag på infrastrukturavgiftene.</p>
 <p>(6) Dersom en infrastrukturforvalter har til hensikt å endre de grunnleggende elementene i påslagene på infrastrukturavgiftene, skal endringene offentliggjøres senest tre måneder før fristen for offentliggjøringen av netterklæringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="6-4-rabatter">§ 6-4. Rabatter</h4>
 <p>(1) Infrastrukturforvalter kan gi rabatt etter annet og tredje ledd på avgifter som innkreves for en bestemt del av jernbaneinfrastrukturen. Rabattordningene må være like for tilsvarende tjenester, og rabatter må gis på like vilkår til alle jernbaneforetak.</p>
 <p>(2) Det kan gis tidsbegrensede rabatter for bestemte trafikkstrømmer for å fremme utviklingen av nye jernbanetjenester eller oppmuntre til bruk av jernbanestrekninger som i vesentlig grad er underutnyttet.</p>
@@ -360,12 +609,12 @@ g. regelmessig og sporadisk togtrafikk.</p>
 <p>(7) Infrastrukturforvalter skal så snart som mulig underrette jernbaneforetakene om beregningen av skyldige beløp etter ytelsesordningen. Denne beregningen skal omfatte alle forsinkede togavganger i løpet av et tidsrom på høyst en måned.</p>
 <p>(8) Med forbehold for gjeldende klageordninger og bestemmelsene i § 11-2 skal det ved tvist om ytelsesordningen opprettes en tvisteløsningsordning slik at det blir mulig å avgjøre slike tvister raskt. Denne tvisteløsningsordningen skal være upartisk for de berørte partene. Hvis denne ordningen benyttes, skal det treffes en beslutning innen en frist på ti virkedager.</p>
 <p>(9) En gang i året skal infrastrukturforvalter offentliggjøre årlig gjennomsnittlig ytelsesnivå som jernbaneforetakene har oppnådd på grunnlag av de viktigste avtalte parametere i ytelsesordningen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="6-7-reservasjonsavgifter">§ 6-7. Reservasjonsavgifter</h4>
 <p>(1) Infrastrukturforvalter kan kreve en avgift for kapasitet som er tildelt, men ikke brukes. Søker eller jernbaneforetaket utpekt i samsvar med § 8-2 første ledd annet punktum skal betale avgiften.</p>
 <p>(2) Denne avgiften skal oppmuntre til effektiv utnyttelse av kapasiteten. Innkreving av en slik avgift er obligatorisk når søkere som har fått tildelt et ruteleie, gjentatte ganger unnlater å benytte tildelte leie eller deler av dem. Infrastrukturforvalter skal til enhver tid kunne opplyse berørte parter om hvilken infrastrukturkapasitet som allerede er tildelt.</p>
 <p>(3) Infrastrukturforvalter skal offentliggjøre kriteriene for fastsettelse av denne avgiften i netterklæringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="6-8-samarbeid-om-avgiftsordninger-for-flere-enn-ett-jernbanenett">§ 6-8. Samarbeid om avgiftsordninger for flere enn ett jernbanenett</h4>
 <p>(1) Infrastrukturforvalter skal samarbeide med andre infrastrukturforvaltere med sikte på å etablere effektive avgiftsordninger og koordinere innkrevingen, og for å innkreve avgifter for tjenester som går over flere jernbanenett.</p>
 <p>(2) Infrastrukturforvalterne skal særlig ha som mål å sikre optimal konkurranseevne for internasjonale jernbanetjenester og effektiv bruk av jernbanenettene. For dette formål skal de fastsette hensiktsmessige fremgangsmåter i samsvar med reglene i denne forskrift.</p>
@@ -375,14 +624,14 @@ g. regelmessig og sporadisk togtrafikk.</p>
 <p>(2) Den som driver anlegg som tilbyr tjenester nevnt i § 4-2 , § 4-4 og § 4-5 , skal gi infrastrukturforvalter opplysninger om de avgifter som skal medtas i netterklæringen, eller angi et nettsted der slike opplysninger er gjort gratis tilgjengelig.</p>
 <p>(3) Avgiften som pålegges for sportilgang i serviceanlegg som nevnt i § 4-2 og for å utføre tjenester i slike anlegg, skal ikke overstige kostnaden ved å yte dem, med tillegg av en rimelig fortjeneste.</p>
 <p>(4) Dersom tjenestene som nevnt i § 4-4 og § 4-5 kun tilbys av én leverandør, skal avgiften for tjenestene ikke overstige kostnaden ved å yte dem, med tillegg av en rimelig fortjeneste.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-7-rammeavtaler">Kapittel 7. Rammeavtaler</h2>
 <h4 id="7-1-rammeavtaler">§ 7-1. Rammeavtaler <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Infrastrukturforvalter og en søker kan inngå en rammeavtale om bruk av infrastrukturkapasitet for et lengre tidsrom enn en ruteplanperiode. I rammeavtalen skal egenskapene ved den infrastrukturkapasitet som en søker har anmodet om og blir tilbudt spesifiseres. Rammeavtalen skal ikke i detalj spesifisere et ruteleie, men være utformet på en slik måte at søkerens legitime forretningsmessige behov ivaretas.</p>
 <p>(2) Infrastrukturforvalter skal senest fire uker etter avtaleinngåelse melde inn nye og reviderte rammeavtaler til Statens jernbanetilsyn.</p>
 <p>(3) Alle berørte parter skal få innsyn i det generelle innholdet i hver rammeavtale, unntatt forretningsforhold som det vil være av konkurransemessig betydning å hemmeligholde av hensyn til den som opplysningen angår</p>
 <p>(4) Markedsovervåkingsorganet kan fastsette nærmere bestemmelser om fremgangsmåter og kriterier for rammeavtaler etter dette kapitlet.</p>
-<p><em>Endret ved forskrift 24 sep 2021 nr. 2824 .</em></p>
+<p class="note">Endret ved forskrift 24 sep 2021 nr. 2824 .</p>
 <h4 id="7-2-rammeavtalens-innhold">§ 7-2. Rammeavtalens innhold</h4>
 <p>(1) Rammeavtaler skal ikke utformes på en måte som utelukker andre søkere eller tjenester fra å bruke den relevante jernbaneinfrastrukturen.</p>
 <p>(2) Rammeavtaler skal kunne endres eller begrenses for å gjøre det mulig å utnytte jernbaneinfrastrukturen på en bedre måte.</p>
@@ -402,7 +651,7 @@ g. regelmessig og sporadisk togtrafikk.</p>
 <p>(4) Krav til søkerne kan bare inneholde bestemmelser om en finansiell garanti som ikke kan overstige et hensiktsmessig nivå som skal stå i forhold til søkerens forventede virksomhetsnivå, og en forsikring med hensyn til evnen til å utarbeide bud på infrastrukturkapasitet som er i samsvar med reglene.</p>
 <p>(5) En søker som er part i en rammeavtale skal søke i samsvar med avtalens bestemmelser.</p>
 <p>(6) Markedsovervåkingsorganet kan fastsette nærmere bestemmelser om kriterier for søkere av infrastrukturkapasitet.</p>
-<p><em>Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 .</p>
 <h4 id="8-3-sknader-som-gjelder-kapasitet-pa-flere-enn-ett-jernbanenett">§ 8-3. Søknader som gjelder kapasitet på flere enn ett jernbanenett</h4>
 <p>(1) Søkere kan søke om infrastrukturkapasitet som går over flere enn ett jernbanenett ved å inngi en søknad til en av de berørte infrastrukturforvalterne. Denne infrastrukturforvalteren kan deretter på søkerens vegne søke om kapasitet hos de andre berørte infrastrukturforvalterne.</p>
 <p>(2) Infrastrukturforvaltere skal sørge for at søkere som ønsker infrastrukturkapasitet som går over flere enn ett jernbanenett kan søke direkte til eventuelle felles organ som infrastrukturforvalterne har opprettet for dette formålet. Dette krav berører ikke Rådsforordning (EU) nr. 913/2010 om et europeisk jernbanenett for konkurransedyktig godstransport.</p>
@@ -415,14 +664,14 @@ g. regelmessig og sporadisk togtrafikk.</p>
 <p>(2) Infrastrukturforvalter kan prioritere visse togtjenester i forbindelse med ruteplan- og samordningsprosessen, men bare i de tilfeller som nevnt i § 8-8 og § 9-5 .</p>
 <p>(3) Infrastrukturforvalteren skal rådføre seg om utkastet til ruteplanen med alle som har søkt om infrastrukturkapasitet og gi dem en tidsfrist på minst en måned for å fremsette sine synspunkter. Tilsvarende gjelder også for andre som ønsker muligheten til å kommentere hvordan ruteplanen kan påvirke deres mulighet til å anskaffe jernbanetjenester i ruteplanperioden. Infrastrukturforvalter kan foreslå eventuelle justeringer i omsøkte ruteleier når dette kan begrunnes i kjøreplantekniske forutsetninger og prinsippene for ruteplanen slik de fremgår av netterklæringen.</p>
 <p>(4) Infrastrukturforvalter skal treffe nødvendige tiltak for å løse eventuelle problemer som påpekes.</p>
-<p><em>Endret ved forskrift 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Endret ved forskrift 26 mars 2025 nr. 542 .</p>
 <h4 id="8-7-adhocsknader">§ 8-7. Adhocsøknader</h4>
 <p>(1) Infrastrukturforvalteren skal besvare adhocsøknader om individuelle ruteleier så snart som mulig, og senest innen fem virkedager. Opplysninger om ledig og tilgjengelig kapasitet skal gjøres tilgjengelig for alle søkere som ønsker å bruke denne kapasiteten.</p>
 <p>(2) Infrastrukturforvalter skal om nødvendig foreta en vurdering av behovet for reservekapasitet som skal være tilgjengelig innenfor rammen av den endelige ruteplanen, slik at de kan svare hurtig på forventede adhocsøknader om kapasitet. Dette gjelder også i tilfeller av overbelastet infrastruktur.</p>
 <h4 id="8-8-jernbaneinfrastruktur-til-spesielle-formal">§ 8-8. Jernbaneinfrastruktur til spesielle formål</h4>
 <p>(1) Infrastrukturkapasitet skal anses som tilgjengelig for bruk for alle typer transporttjenester som har de nødvendige egenskaper for å kunne utnytte det aktuelle ruteleiet.</p>
 <p>(2) Der det finnes egnede alternative ruter kan infrastrukturforvalteren, etter samråd med berørte parter, reservere jernbaneinfrastruktur til bruk for bestemte typer trafikk. Slik reservasjon skal ikke være til hinder for at den aktuelle jernbaneinfrastrukturen kan utnyttes av andre typer trafikk dersom det finnes tilgjengelig kapasitet. Opplysninger om reservert jernbaneinfrastruktur skal fremgå av netterklæringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h2 id="kapittel-9-interessekonflikter-og-overbelastet-infrastruktur">Kapittel 9. Interessekonflikter og overbelastet infrastruktur</h2>
 <h4 id="9-1-samordning">§ 9-1. Samordning</h4>
 <p>(1) Dersom det oppstår interessekonflikter under ruteplanleggingen omhandlet i § 8-6 skal infrastrukturforvalteren gjennom en samordning av alle søknadene forsøke å tilgodese alle søknader så langt det er mulig.</p>
@@ -434,17 +683,17 @@ c. alternative ruteleier som er foreslått for de relevante linjer i samsvar med
 d. fullstendige opplysninger om de kriteriene som anvendes i kapasitetsfordelingsprosessen.</p>
 <p>(4) I henhold til forvaltningslovens regler om taushetsplikt skal nevnte opplysninger legges fram på en slik måte at andre søkeres identitet ikke avsløres, med mindre de berørte søkere har gitt sitt samtykke til slik avsløring.</p>
 <p>(5) Prinsippene for samordningen skal fastsettes av infrastrukturforvalteren, og skal fremgå av netterklæringen. Prinsippene skal særlig gjenspeile vanskelighetene ved å organisere internasjonale ruteleier og hvilke konsekvenser endringer kan få for andre infrastrukturforvaltere.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="9-2-tvistelsningsordning">§ 9-2. Tvisteløsningsordning</h4>
 <p>Uavhengig av § 11-2 skal infrastrukturforvalter opprette en ordning for å finne en hurtig løsning på tvister som oppstår i forbindelse med fordeling av infrastrukturkapasitet. Ordningen skal fremgå av netterklæringen. Når tvisteløsningsordningen brukes skal det treffes en endelig beslutning innen 10 virkedager.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="9-3-overbelastet-infrastruktur">§ 9-3. Overbelastet infrastruktur <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-9-3.html" title="Endringshistorikk for § 9-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Dersom det etter samordning av søknadene om ruteleier og etter samråd med søkerne ikke er mulig å imøtekomme alle søknader om infrastrukturkapasitet til togtjenester i tilstrekkelig omfang, skal infrastrukturforvalteren umiddelbart erklære den berørte jernbaneinfrastrukturen som overbelastet. Det samme gjelder for jernbaneinfrastruktur der det kan forventes kapasitetsmangel i nær framtid.</p>
 <p>(2) For jernbaneinfrastruktur som er blitt erklært overbelastet, skal infrastrukturforvalteren foreta en kapasitetsanalyse i henhold til § 9-6 , med mindre en kapasitetsforbedringsplan i henhold til § 9-7 allerede er under gjennomføring.</p>
-<p><em>Endret ved forskrift 26 mars 2025 nr. 542 .</em></p>
+<p class="note">Endret ved forskrift 26 mars 2025 nr. 542 .</p>
 <h4 id="9-4-tidligere-utnyttelse-av-ruteleier">§ 9-4. Tidligere utnyttelse av ruteleier</h4>
 <p>Det skal fremgå av netterklæringen hvilke betingelser infrastrukturforvalter stiller for å ta hensyn til tidligere utnyttelsesgrad når det foretas en prioritering under fordelingsprosessen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="9-5-prioriteringskriterier">§ 9-5. Prioriteringskriterier <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Hvis avgifter i henhold til § 6-2 annet ledd ikke har blitt innkrevd eller ikke har gitt et tilfredsstillende resultat, og jernbaneinfrastrukturen er blitt erklært overbelastet, skal infrastrukturforvalter prioritere følgende tjenester ved fordeling av infrastrukturkapasitet i synkende rekkefølge:</p>
 <ol>
@@ -455,7 +704,7 @@ d. fullstendige opplysninger om de kriteriene som anvendes i kapasitetsfordeling
 </ol>
 <p>(2) Hvis det er søkt om flere ruteleier enn det er kapasitet til, skal infrastrukturforvalter tildele ruteleier etter en annen rekkefølge enn etter første ledd hvis transporttjenesten har vesentlig større betydning for samfunnet enn andre tjenester som derved utelukkes. Det skal også tas hensyn til virkningene av en slik utelukkelse i andre EØS-stater.</p>
 <p>(3) Infrastrukturforvalter skal fastsette en metode med tilhørende kriterier som skal benyttes ved prioritering av overbelastet infrastruktur etter paragrafen her. Denne metoden skal fastsettes i samråd med markedsovervåkingsorganet og Jernbanedirektoratet, og skal fremgå av netterklæringen.</p>
-<p><em>Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 , 26 mars 2025 nr. 542 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2023 nr. 2116 (i kraft 1 jan 2024), 26 mars 2025 nr. 542 , 26 mars 2025 nr. 542 (i kraft 1 jan 2026).</p>
 <h4 id="9-6-kapasitetsanalyse">§ 9-6. Kapasitetsanalyse</h4>
 <p>(1) Infrastrukturforvalter skal innen seks måneder fra det tidspunkt jernbaneinfrastrukturen er erklært overbelastet utføre en kapasitetsanalyse. Kapasitetsanalysen skal avklare årsakene til overbelastningen og angi hvilke tiltak som kan treffes på kort og mellomlang sikt for å redusere overbelastningen.</p>
 <p>(2) Kapasitetsanalysen skal omfatte jernbaneinfrastrukturen, driftsprosedyrene, arten av de ulike transporttjenester på jernbaneinfrastrukturen, samt virkningen av alle disse faktorene på infrastrukturkapasiteten. Tiltakene som skal overveies omfatter særlig om trafikken kan kjøres på en annen strekning, endring av ruteplanen, hastighetsendringer og forbedringer av jernbaneinfrastrukturen.</p>
@@ -472,10 +721,10 @@ d. muligheter for og kostnader ved å forbedre kapasiteten, herunder sannsynlige
 <h2 id="kapittel-10-tildelt-infrastrukturkapasitet">Kapittel 10. Tildelt infrastrukturkapasitet</h2>
 <h4 id="10-1-avtaler-med-infrastrukturforvalteren">§ 10-1. Avtaler med infrastrukturforvalteren <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-10-1.html" title="Endringshistorikk for § 10-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ethvert jernbaneforetak som yter jernbanetransporttjenester skal inngå de nødvendige administrative, tekniske og finansielle avtaler med infrastrukturforvalteren for den jernbaneinfrastruktur som benyttes, herunder avtale som gir infrastrukturforvalteren nødvendige trafikkdata og annen relevant informasjon for å kunne ivareta sine oppgaver som planlegger og forvalter av jernbaneinfrastrukturen. Vilkårene i disse avtalene skal sikre åpenhet og ikke-diskriminering og være i overensstemmelse med forskriften her.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="10-2-ruteleier-som-ikke-brukes">§ 10-2. Ruteleier som ikke brukes</h4>
 <p>Særlig for overbelastet infrastruktur skal infrastrukturforvalter kreve at det gis avkall på et ruteleie som i løpet av et tidsrom på minst en måned er benyttet mindre enn en terskelverdi. Dette gjelder ikke ved ikke-økonomiske årsaker utenfor jernbaneforetakets kontroll. Terskelverdien fastsettes i netterklæringen.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="10-3-kapasitet-til-ikke-planlagt-vedlikehold">§ 10-3. Kapasitet til ikke-planlagt vedlikehold</h4>
 <p>Infrastrukturforvalter skal så snart som mulig underrette de berørte parter om at infrastrukturkapasiteten ikke er tilgjengelig på grunn av ikke-planlagt vedlikeholdsarbeid. Markedsovervåkingsorganet kan kreve at infrastrukturforvaltningen gjør slike opplysninger tilgjengelige for det, dersom det anser at det er nødvendig.</p>
 <h4 id="10-4-srlige-tiltak-i-tilfelle-forstyrrelser">§ 10-4. Særlige tiltak i tilfelle forstyrrelser</h4>
@@ -491,7 +740,7 @@ d. muligheter for og kostnader ved å forbedre kapasiteten, herunder sannsynlige
 <p>(4) Markedsovervåkingsorganet kan kreve relevante opplysninger etter jernbaneloven § 11 andre ledd. Opplysningene skal legges fram innen en rimelig frist som markedsovervåkingsorganet fastsetter. Fristen kan ikke være lengre enn en måned, med mindre markedsovervåkingsorganet under ekstraordinære omstendigheter samtykker og forlenger fristen med inntil to uker.</p>
 <p>(5) Markedsovervåkingsorganet skal ved behov treffe avgjørelse om hensiktsmessige tiltak for å motvirke diskriminering mellom søkere, skadelig konkurransevridning og alle andre former for uønskede situasjoner i markedene for jernbanetjenester. Dette gjelder også forholdene nevnt i § 11-3 første ledd.</p>
 <p>(6) Markedsovervåkingsorganet skal publisere sine avgjørelser.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="11-2-markedsovervakningsorganets-organisering">§ 11-2. Markedsovervåkningsorganets organisering</h4>
 <p>(1) Markedsovervåkingsorganet skal bemannes og forvaltes på en måte som sikrer dets uavhengighet. Personer med ansvar for organets vedtak ansettes av Kongen.</p>
 <p>(2) Personer med ansvar for markedsovervåkningsorganets vedtak skal handle uavhengig av alle markedsinteresser knyttet til jernbanesektoren, og de skal ikke ha noen interesse i eller forretningsforbindelse med noen av de regulerte foretak eller enheter. De skal avgi en årlig forpliktelseserklæring og en interesseerklæring om at det ikke foreligger noen direkte eller indirekte interesser som vil kunne anses å berøre deres uavhengighet. De skal ikke delta i beslutning i saker som berører et foretak de har hatt en direkte eller indirekte tilknytning til i løpet av året før oppstarten av saksbehandlingen.</p>
@@ -511,7 +760,7 @@ j. overholdelse av kravene i § 3-4 til § 3-7
 k. inngåtte rammeavtaler.</p>
 <p>(2) Markedsovervåkingsorganet skal ved behov innhente relevante opplysninger og ta initiativ til høring av alle berørte parter innen en måned etter å ha mottatt klagen. Markedsovervåkingsorganet skal ta stilling til klagen og om nødvendig treffe tiltak for å avhjelpe situasjonen. Markedsovervåkingsorganet skal innen en forhåndsbestemt rimelig frist, og i alle tilfeller innen seks uker etter å ha mottatt alle relevante opplysninger, underrette de berørte parter om sin avgjørelse av klagen. Avgjørelsen skal være begrunnet.</p>
 <p>(3) I tilfelle av en klage på et avslag på en søknad om infrastrukturkapasitet eller på vilkårene for et tilbud om kapasitet, skal markedsovervåkingsorganet enten bekrefte at endring av infrastrukturforvalters beslutning ikke er nødvendig eller kreve en endring av den beslutningen etter nærmere retningslinjer.</p>
-<p><em>Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 18 des 2023 nr. 2116 (i kraft 1 jan 2024).</p>
 <h4 id="11-4-kontroll-med-regnskaper">§ 11-4. Kontroll med regnskaper</h4>
 <p>Markedsovervåkingsorganet kan utføre revisjoner og ta initiativ til eksterne revisjoner hos infrastrukturforvalter, den som driver serviceanlegg og jernbaneforetak for å kontrollere at de overholder bestemmelsene i § 3-7 . Når det gjelder vertikalt integrerte virksomheter, skal denne myndigheten omfatte alle rettssubjekter. Markedsovervåkingsorganet har rett til å kreve utlevert alle relevante opplysninger til dette formålet på et nødvendig og forholdsmessig detaljnivå. Disse opplysningene kan brukes til å rapportere til vedkommende myndighet om ulovlig statsstøtte.</p>
 <h4 id="11-5-opplysninger-som-kan-kreves-lagt-frem-ved-kontroll-med-regnskaper">§ 11-5. Opplysninger som kan kreves lagt frem ved kontroll med regnskaper <a class="para-history" href="../historikk/forskrift-2021-06-30-2315/para-11-5.html" title="Endringshistorikk for § 11-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -533,7 +782,7 @@ c. Opplysninger om finansielle resultater
   4. regnskap over driftsutgifter
   5. resultatregnskap
   6. ledsagende noter som ved behov utdyper og redegjør for opplysningene i nr. 1 til 5.</p>
-<p><em>Endret ved forskrift 24 sep 2021 nr. 2824 .</em></p>
+<p class="note">Endret ved forskrift 24 sep 2021 nr. 2824 .</p>
 <h4 id="11-6-palegg-og-tvangsmulkt">§ 11-6. Pålegg og tvangsmulkt</h4>
 <p>(1) Markedsovervåkingsorganet kan gi pålegg om korrigerende tiltak i henhold til jernbaneloven § 11 og § 11a .</p>
 <p>(2) Markedsovervåkingsorganet kan i pålegg fastsette en løpende tvangsmulkt for hver dag som går etter utløpet av den frist som er satt for oppfylling av pålegget, og frem til pålegget er oppfylt. Markedsovervåkingsorganet kan frafalle påløpt tvangsmulkt.</p>
@@ -630,6 +879,8 @@ f. skatter og trygdeavgifter.</p>
 <p>(15) Når infrastrukturforvalter følger punkt 8, 12 eller 14, skal informasjonen minst omhandle: planlagt dag, tidspunkt på dagen og, så langt det kan fastsettes, start- og endetidspunkt for kapasitetsbegrensningen, hvilken del av strekningen som er berørt av begrensningen, og hvis aktuelt, kapasitet på omkjøringslinjer. Infrastrukturforvalter skal publisere slik oppdatert informasjon, eller en link til slik informasjon, i netterklæringen, jf. § 5-2 bokstav c .</p>
 <p>(16) Ved kapasitetsbegrensninger som varer i mer enn 30 påfølgende dager og som berører mer enn 50 % av det beregnede trafikkvolumet på en jernbanestrekning, skal infrastrukturforvalter i den første konsultasjonsrunden gi søkere en sammenligning av betingelser for to alternative kapasitetsbegrensninger. Infrastrukturforvalter skal utforme disse alternativene etter innspill fra og i samråd med søkerne når de ber om det. For hvert alternativ skal en slik sammenligning minst inneholde: varigheten på kapasitetsbegrensningen, de forventede infrastrukturavgiftene, tilgjengelig kapasitet på omkjøringsstrekninger, tilgjengelige alternative ruter, og forventede reisetider. Før det blir truffet en beslutning om alternative kapasitetsbegrensninger, skal infrastrukturforvalter konsultere interesserte søkere og ta hensyn til hvordan disse søkerne og deres kunder blir berørt.</p>
 <p>(17) Ved kapasitetsbegrensninger som varer i mer enn 30 påfølgende dager og som berører mer enn 50 % av trafikken på en jernbanestrekning, skal infrastrukturforvalter fastsette kriterier for hvilke tog innenfor hver type tjeneste som skal omdirigeres. Det må da tas hensyn til kommersielle og operative konsekvenser, hvis ikke disse konsekvensene er resultat av ledelsesmessige eller organisatoriske beslutninger hos søkeren, og infrastrukturforvalters må ta hensyn til § 6-1 første ledd . Infrastrukturforvalter skal publisere disse kriteriene i netterklæringen sammen med en foreløpig tildeling av restkapasiteten for ulike typer togtjenester i henhold til punkt 8. Når konsultasjonen er ferdig, og uten at infrastrukturforvalters forpliktelser til å ta inn informasjon i netterklæringen i henhold til § 5-2 berøres, skal infrastrukturforvalter gi de berørte jernbaneforetakene en foreløpig angivelse av restkapasitet, basert på tilbakemeldingen fra søkerne.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

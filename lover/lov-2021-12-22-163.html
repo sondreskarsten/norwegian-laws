@@ -19,64 +19,241 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2021-12-22-163.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forsikringsformidlingsloven" href="../feeds/lov-2021-12-22-163.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forsikringsformidlingsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2021-12-22-163</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Forsikring\nErstatnings- og forsikringsrett\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nEU/EØS-rett &raquo; Finansielle tjenester</dd>
-<dt>Ikrafttredelse</dt><dd>2022-01-01, 2022-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-106</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2021-12-22-163" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-mv">Kapittel 1. Formål, virkeområde mv.</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forsikringsformidling">§ 1-3. Forsikringsformidling</a></li>
+<li class="lvl4"><a href="#1-4-unntak-fra-loven">§ 1-4. Unntak fra loven</a></li>
+<li class="lvl4"><a href="#1-5-forskrifter">§ 1-5. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-2-de-ulike-typer-forsikringsformidling">Kapittel 2. De ulike typer forsikringsformidling</a></li>
+<li class="lvl4"><a href="#2-1-forsikringsmegling">§ 2-1. Forsikringsmegling</a></li>
+<li class="lvl4"><a href="#2-2-gjenforsikringsmegling">§ 2-2. Gjenforsikringsmegling</a></li>
+<li class="lvl4"><a href="#2-3-forsikringsagentvirksomhet">§ 2-3. Forsikringsagentvirksomhet</a></li>
+<li class="lvl4"><a href="#2-4-aksessorisk-forsikringsagentvirksomhet">§ 2-4. Aksessorisk forsikringsagentvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-a-drive-forsikringsformidling-sknad-tildeling-mv">Kapittel 3. Vilkår for å drive forsikringsformidling, søknad, tildeling mv.</a></li>
+<li class="lvl4"><a href="#3-1-adgang-til-a-drive-forsikringsformidling">§ 3-1. Adgang til å drive forsikringsformidling</a></li>
+<li class="lvl4"><a href="#3-2-sknad-om-a-drive-forsikringsformidling">§ 3-2. Søknad om å drive forsikringsformidling</a></li>
+<li class="lvl4"><a href="#3-3-registrering-som-forsikringsagentforetak-eller-aksessorisk-forsikringsagentforetak-kontroll-av-vilkar-mv">§ 3-3. Registrering som forsikringsagentforetak eller aksessorisk forsikringsagentforetak, kontroll av vilkår mv.</a></li>
+<li class="lvl4"><a href="#3-4-tillatelse-registrering-vilkar-mv">§ 3-4. Tillatelse, registrering, vilkår mv.</a></li>
+<li class="lvl4"><a href="#3-5-igangsetting-av-virksomhet">§ 3-5. Igangsetting av virksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-4-norske-forsikringsformidlingsforetaks-virksomhet-i-utlandet">Kapittel 4. Norske forsikringsformidlingsforetaks virksomhet i utlandet</a></li>
+<li class="lvl4"><a href="#4-1-etablering-av-filial-i-annen-es-stat">§ 4-1. Etablering av filial i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#4-2-grensekryssende-virksomhet-i-annen-es-stat">§ 4-2. Grensekryssende virksomhet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#4-3-norske-forsikringsformidlingsforetaks-virksomhet-utenfor-es">§ 4-3. Norske forsikringsformidlingsforetaks virksomhet utenfor EØS</a></li>
+<li class="lvl2"><a href="#kapittel-5-utenlandske-forsikringsformidlingsforetaks-virksomhet-i-norge">Kapittel 5. Utenlandske forsikringsformidlingsforetaks virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#5-1-filial-av-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-1. Filial av forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-2-anvendelse-av-regler-om-etablering-av-filial">§ 5-2. Anvendelse av regler om etablering av filial</a></li>
+<li class="lvl4"><a href="#5-3-grensekryssende-virksomhet-fra-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-3. Grensekryssende virksomhet fra forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-4-virksomhet-i-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-4. Virksomhet i forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-5-forsikringsformidlingsforetak-med-hovedsete-utenfor-es">§ 5-5. Forsikringsformidlingsforetak med hovedsete utenfor EØS</a></li>
+<li class="lvl2"><a href="#kapittel-6-kvalifikasjonskrav-og-vandelskrav-egnethetskrav">Kapittel 6. Kvalifikasjonskrav og vandelskrav (egnethetskrav)</a></li>
+<li class="lvl4"><a href="#6-1-kvalifikasjonskrav-for-ledelsen-i-forsikringsmeglingsforetak-og-forsikringsagentforetak">§ 6-1. Kvalifikasjonskrav for ledelsen i forsikringsmeglingsforetak og forsikringsagentforetak</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjonskrav-for-forsikringsmegler">§ 6-2. Kvalifikasjonskrav for forsikringsmegler</a></li>
+<li class="lvl4"><a href="#6-3-kvalifikasjonskrav-for-forsikringsagent">§ 6-3. Kvalifikasjonskrav for forsikringsagent</a></li>
+<li class="lvl4"><a href="#6-4-kvalifikasjonskrav-for-aksessoriske-forsikringsagentforetak">§ 6-4. Kvalifikasjonskrav for aksessoriske forsikringsagentforetak</a></li>
+<li class="lvl4"><a href="#6-5-krav-til-hederlig-vandel">§ 6-5. Krav til hederlig vandel</a></li>
+<li class="lvl2"><a href="#kapittel-7-forsikringer">Kapittel 7. Forsikringer</a></li>
+<li class="lvl4"><a href="#7-1-forsikringsplikt">§ 7-1. Forsikringsplikt</a></li>
+<li class="lvl4"><a href="#7-2-hva-forsikringene-skal-dekke">§ 7-2. Hva forsikringene skal dekke</a></li>
+<li class="lvl4"><a href="#7-3-forsikringsdekningen">§ 7-3. Forsikringsdekningen</a></li>
+<li class="lvl4"><a href="#7-4-skadelidtes-krav">§ 7-4. Skadelidtes krav</a></li>
+<li class="lvl2"><a href="#kapittel-8-krav-til-virksomheten-i-forsikringsformidlingsforetak">Kapittel 8. Krav til virksomheten i forsikringsformidlingsforetak</a></li>
+<li class="lvl4"><a href="#8-1-forsvarlig-virksomhet">§ 8-1. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#8-2-krav-til-konomi">§ 8-2. Krav til økonomi</a></li>
+<li class="lvl4"><a href="#8-3-klientkonto">§ 8-3. Klientkonto</a></li>
+<li class="lvl4"><a href="#8-4-srlige-krav-til-forsikringsmeglingsforetak">§ 8-4. Særlige krav til forsikringsmeglingsforetak</a></li>
+<li class="lvl4"><a href="#8-5-underagenter">§ 8-5. Underagenter</a></li>
+<li class="lvl4"><a href="#8-6-forsikringsforetak-som-kan-overta-forsikringsrisikoen">§ 8-6. Forsikringsforetak som kan overta forsikringsrisikoen</a></li>
+<li class="lvl4"><a href="#8-7-opplysningsplikt-overfor-norsk-naturskadepool">§ 8-7. Opplysningsplikt overfor Norsk Naturskadepool</a></li>
+<li class="lvl4"><a href="#8-8-taushetsplikt">§ 8-8. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-9-god-forretningsskikk-styring-og-handtering-av-interessekonflikter-mv">Kapittel 9. God forretningsskikk, styring og håndtering av interessekonflikter mv.</a></li>
+<li class="lvl4"><a href="#9-1-god-forretningsskikk">§ 9-1. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#9-2-kundebehandling-systemer-og-rutiner-mv">§ 9-2. Kundebehandling, systemer og rutiner mv.</a></li>
+<li class="lvl4"><a href="#9-3-styring-og-handtering-av-interessekonflikter">§ 9-3. Styring og håndtering av interessekonflikter</a></li>
+<li class="lvl4"><a href="#9-4-lnnsordning-og-vederlag">§ 9-4. Lønnsordning og vederlag</a></li>
+<li class="lvl4"><a href="#9-5-behandling-av-tvister-i-klageorgan">§ 9-5. Behandling av tvister i klageorgan</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilsyn-tilbakekall-sanksjoner-straff-mv">Kapittel 10. Tilsyn, tilbakekall, sanksjoner, straff mv.</a></li>
+<li class="lvl4"><a href="#10-1-tilsyn">§ 10-1. Tilsyn</a></li>
+<li class="lvl4"><a href="#10-2-palegg-om-retting">§ 10-2. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#10-3-tilbakekall-av-tillatelse-og-sletting-av-registrering">§ 10-3. Tilbakekall av tillatelse og sletting av registrering</a></li>
+<li class="lvl4"><a href="#10-4-straff">§ 10-4. Straff</a></li>
+<li class="lvl4"><a href="#10-5-finanstilsynets-taushetsplikt-mv">§ 10-5. Finanstilsynets taushetsplikt mv.</a></li>
+<li class="lvl4"><a href="#10-6-forbud-mot-a-ha-ledelsesfunksjon">§ 10-6. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#10-7-overtredelsesgebyr">§ 10-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#10-8-momenter-ved-ileggelse-og-utmaling-av-overtredelsesgebyr">§ 10-8. Momenter ved ileggelse og utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelsesregler-og-overgangsregler-endringer-i-andre-lover">Kapittel 11. Ikrafttredelsesregler og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse">§ 11-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#11-2-overgangsregler">§ 11-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#11-3-endringer-i-andre-lover">§ 11-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-106.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2021-12-22-163.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om forsikringsformidling (forsikringsformidlingsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2021-12-22-163.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2021-12-22-163 <code>lov/2021-12-22-163</code></td></tr>
+<tr><th>Korttittel</th><td>Forsikringsformidlingsloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Forsikring\nErstatnings- og forsikringsrett\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nEU/EØS-rett &raquo; Finansielle tjenester</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2022, 01.07.2022</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-106 <code>lov/2025-06-20-106</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2021-12-22-163" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-mv">Kapittel 1. Formål, virkeområde mv.</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-forsikringsformidling">§ 1-3. Forsikringsformidling</a></li>
+<li class="lvl4"><a href="#1-4-unntak-fra-loven">§ 1-4. Unntak fra loven</a></li>
+<li class="lvl4"><a href="#1-5-forskrifter">§ 1-5. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-2-de-ulike-typer-forsikringsformidling">Kapittel 2. De ulike typer forsikringsformidling</a></li>
+<li class="lvl4"><a href="#2-1-forsikringsmegling">§ 2-1. Forsikringsmegling</a></li>
+<li class="lvl4"><a href="#2-2-gjenforsikringsmegling">§ 2-2. Gjenforsikringsmegling</a></li>
+<li class="lvl4"><a href="#2-3-forsikringsagentvirksomhet">§ 2-3. Forsikringsagentvirksomhet</a></li>
+<li class="lvl4"><a href="#2-4-aksessorisk-forsikringsagentvirksomhet">§ 2-4. Aksessorisk forsikringsagentvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-3-vilkar-for-a-drive-forsikringsformidling-sknad-tildeling-mv">Kapittel 3. Vilkår for å drive forsikringsformidling, søknad, tildeling mv.</a></li>
+<li class="lvl4"><a href="#3-1-adgang-til-a-drive-forsikringsformidling">§ 3-1. Adgang til å drive forsikringsformidling</a></li>
+<li class="lvl4"><a href="#3-2-sknad-om-a-drive-forsikringsformidling">§ 3-2. Søknad om å drive forsikringsformidling</a></li>
+<li class="lvl4"><a href="#3-3-registrering-som-forsikringsagentforetak-eller-aksessorisk-forsikringsagentforetak-kontroll-av-vilkar-mv">§ 3-3. Registrering som forsikringsagentforetak eller aksessorisk forsikringsagentforetak, kontroll av vilkår mv.</a></li>
+<li class="lvl4"><a href="#3-4-tillatelse-registrering-vilkar-mv">§ 3-4. Tillatelse, registrering, vilkår mv.</a></li>
+<li class="lvl4"><a href="#3-5-igangsetting-av-virksomhet">§ 3-5. Igangsetting av virksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-4-norske-forsikringsformidlingsforetaks-virksomhet-i-utlandet">Kapittel 4. Norske forsikringsformidlingsforetaks virksomhet i utlandet</a></li>
+<li class="lvl4"><a href="#4-1-etablering-av-filial-i-annen-es-stat">§ 4-1. Etablering av filial i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#4-2-grensekryssende-virksomhet-i-annen-es-stat">§ 4-2. Grensekryssende virksomhet i annen EØS-stat</a></li>
+<li class="lvl4"><a href="#4-3-norske-forsikringsformidlingsforetaks-virksomhet-utenfor-es">§ 4-3. Norske forsikringsformidlingsforetaks virksomhet utenfor EØS</a></li>
+<li class="lvl2"><a href="#kapittel-5-utenlandske-forsikringsformidlingsforetaks-virksomhet-i-norge">Kapittel 5. Utenlandske forsikringsformidlingsforetaks virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#5-1-filial-av-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-1. Filial av forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-2-anvendelse-av-regler-om-etablering-av-filial">§ 5-2. Anvendelse av regler om etablering av filial</a></li>
+<li class="lvl4"><a href="#5-3-grensekryssende-virksomhet-fra-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-3. Grensekryssende virksomhet fra forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-4-virksomhet-i-forsikringsformidlingsforetak-registrert-i-en-annen-es-stat">§ 5-4. Virksomhet i forsikringsformidlingsforetak registrert i en annen EØS-stat</a></li>
+<li class="lvl4"><a href="#5-5-forsikringsformidlingsforetak-med-hovedsete-utenfor-es">§ 5-5. Forsikringsformidlingsforetak med hovedsete utenfor EØS</a></li>
+<li class="lvl2"><a href="#kapittel-6-kvalifikasjonskrav-og-vandelskrav-egnethetskrav">Kapittel 6. Kvalifikasjonskrav og vandelskrav (egnethetskrav)</a></li>
+<li class="lvl4"><a href="#6-1-kvalifikasjonskrav-for-ledelsen-i-forsikringsmeglingsforetak-og-forsikringsagentforetak">§ 6-1. Kvalifikasjonskrav for ledelsen i forsikringsmeglingsforetak og forsikringsagentforetak</a></li>
+<li class="lvl4"><a href="#6-2-kvalifikasjonskrav-for-forsikringsmegler">§ 6-2. Kvalifikasjonskrav for forsikringsmegler</a></li>
+<li class="lvl4"><a href="#6-3-kvalifikasjonskrav-for-forsikringsagent">§ 6-3. Kvalifikasjonskrav for forsikringsagent</a></li>
+<li class="lvl4"><a href="#6-4-kvalifikasjonskrav-for-aksessoriske-forsikringsagentforetak">§ 6-4. Kvalifikasjonskrav for aksessoriske forsikringsagentforetak</a></li>
+<li class="lvl4"><a href="#6-5-krav-til-hederlig-vandel">§ 6-5. Krav til hederlig vandel</a></li>
+<li class="lvl2"><a href="#kapittel-7-forsikringer">Kapittel 7. Forsikringer</a></li>
+<li class="lvl4"><a href="#7-1-forsikringsplikt">§ 7-1. Forsikringsplikt</a></li>
+<li class="lvl4"><a href="#7-2-hva-forsikringene-skal-dekke">§ 7-2. Hva forsikringene skal dekke</a></li>
+<li class="lvl4"><a href="#7-3-forsikringsdekningen">§ 7-3. Forsikringsdekningen</a></li>
+<li class="lvl4"><a href="#7-4-skadelidtes-krav">§ 7-4. Skadelidtes krav</a></li>
+<li class="lvl2"><a href="#kapittel-8-krav-til-virksomheten-i-forsikringsformidlingsforetak">Kapittel 8. Krav til virksomheten i forsikringsformidlingsforetak</a></li>
+<li class="lvl4"><a href="#8-1-forsvarlig-virksomhet">§ 8-1. Forsvarlig virksomhet</a></li>
+<li class="lvl4"><a href="#8-2-krav-til-konomi">§ 8-2. Krav til økonomi</a></li>
+<li class="lvl4"><a href="#8-3-klientkonto">§ 8-3. Klientkonto</a></li>
+<li class="lvl4"><a href="#8-4-srlige-krav-til-forsikringsmeglingsforetak">§ 8-4. Særlige krav til forsikringsmeglingsforetak</a></li>
+<li class="lvl4"><a href="#8-5-underagenter">§ 8-5. Underagenter</a></li>
+<li class="lvl4"><a href="#8-6-forsikringsforetak-som-kan-overta-forsikringsrisikoen">§ 8-6. Forsikringsforetak som kan overta forsikringsrisikoen</a></li>
+<li class="lvl4"><a href="#8-7-opplysningsplikt-overfor-norsk-naturskadepool">§ 8-7. Opplysningsplikt overfor Norsk Naturskadepool</a></li>
+<li class="lvl4"><a href="#8-8-taushetsplikt">§ 8-8. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-9-god-forretningsskikk-styring-og-handtering-av-interessekonflikter-mv">Kapittel 9. God forretningsskikk, styring og håndtering av interessekonflikter mv.</a></li>
+<li class="lvl4"><a href="#9-1-god-forretningsskikk">§ 9-1. God forretningsskikk</a></li>
+<li class="lvl4"><a href="#9-2-kundebehandling-systemer-og-rutiner-mv">§ 9-2. Kundebehandling, systemer og rutiner mv.</a></li>
+<li class="lvl4"><a href="#9-3-styring-og-handtering-av-interessekonflikter">§ 9-3. Styring og håndtering av interessekonflikter</a></li>
+<li class="lvl4"><a href="#9-4-lnnsordning-og-vederlag">§ 9-4. Lønnsordning og vederlag</a></li>
+<li class="lvl4"><a href="#9-5-behandling-av-tvister-i-klageorgan">§ 9-5. Behandling av tvister i klageorgan</a></li>
+<li class="lvl2"><a href="#kapittel-10-tilsyn-tilbakekall-sanksjoner-straff-mv">Kapittel 10. Tilsyn, tilbakekall, sanksjoner, straff mv.</a></li>
+<li class="lvl4"><a href="#10-1-tilsyn">§ 10-1. Tilsyn</a></li>
+<li class="lvl4"><a href="#10-2-palegg-om-retting">§ 10-2. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#10-3-tilbakekall-av-tillatelse-og-sletting-av-registrering">§ 10-3. Tilbakekall av tillatelse og sletting av registrering</a></li>
+<li class="lvl4"><a href="#10-4-straff">§ 10-4. Straff</a></li>
+<li class="lvl4"><a href="#10-5-finanstilsynets-taushetsplikt-mv">§ 10-5. Finanstilsynets taushetsplikt mv.</a></li>
+<li class="lvl4"><a href="#10-6-forbud-mot-a-ha-ledelsesfunksjon">§ 10-6. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#10-7-overtredelsesgebyr">§ 10-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#10-8-momenter-ved-ileggelse-og-utmaling-av-overtredelsesgebyr">§ 10-8. Momenter ved ileggelse og utmåling av overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-11-ikrafttredelsesregler-og-overgangsregler-endringer-i-andre-lover">Kapittel 11. Ikrafttredelsesregler og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#11-1-ikrafttredelse">§ 11-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#11-2-overgangsregler">§ 11-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#11-3-endringer-i-andre-lover">§ 11-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2021-12-22-163.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2021-12-22-163.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2021-12-22-163.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2021-12-22-163.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2021-12-22-163.html">Observerte kildeutgaver</a> · <a href="../historie/forsikringsformidlingsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2021-12-22-163.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2021-12-22-163.html">Observerte kildeutgaver</a> · <a href="../historie/forsikringsformidlingsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2021-12-22-163.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-forsikringsformidling-forsikringsformidlingsloven">Lov om forsikringsformidling (forsikringsformidlingsloven)</h1>
 <h2 id="kapittel-1-formal-virkeomrade-mv">Kapittel 1. Formål, virkeområde mv.</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Formålet med loven er å legge til rette for at formidling av forsikringsavtaler skjer på en sikker, ordnet og effektiv måte, og bidra til at forsikringstakere inngår forsikringsavtaler i samsvar med sine forsikringsbehov.</p>
@@ -127,7 +304,7 @@ d. opplysninger om identiteten til fysiske og juridiske personer som må anses �
 e. opplysninger om at forhold som nevnt i bokstav c og d ikke er til hinder for Finanstilsynets mulighet til å føre effektivt tilsyn med virksomheten.</p>
 <p>Søknaden skal behandles innen tre måneder etter at den er mottatt. Dersom søknaden ikke inneholder de opplysningene som er nødvendige for Finanstilsynets vurdering av søknaden, regnes fristen fra det tidspunktet slike opplysninger ble mottatt av Finanstilsynet.</p>
 <p>Departementet kan i forskrift gi regler som utfyller bestemmelsene i paragrafen her.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h4 id="3-3-registrering-som-forsikringsagentforetak-eller-aksessorisk-forsikringsagentforetak-kontroll-av-vilkar-mv">§ 3-3. Registrering som forsikringsagentforetak eller aksessorisk forsikringsagentforetak, kontroll av vilkår mv.</h4>
 <p>For foretak som har avtale om formidling av forsikringer med forsikringsforetak eller forsikringsforetakets agenter, skal forsikringsforetaket påse at vilkårene for registrering i § 3-4 er oppfylt. Dersom vilkårene er oppfylt, skal forsikringsforetaket gi en bekreftelse til foretaket.</p>
 <p>Ved søknad om registrering som forsikringsagentforetak eller aksessorisk forsikringsagentforetak skal foretaket vedlegge bekreftelse som nevnt i første ledd som dokumentasjon for at vilkårene for registrering er oppfylt. Finanstilsynet kan be om utfyllende informasjon av betydning for Finanstilsynets vurdering av søknaden.</p>
@@ -176,7 +353,7 @@ d. postadresse i Norge
 e. navn på personene som skal inngå i ledelsen av filialen.</p>
 <p>Finanstilsynet skal innen én måned etter at opplysningene er mottatt fra tilsynsmyndigheten i forsikringsformidlingsforetakets hjemstat, gi tilsynsmyndigheten i hjemstaten melding om at filialen kan etableres, og samtidig gi en oversikt over hvilke regler som vil gjelde for virksomheten her i riket. Etablerer foretaket filial eller tilsvarende etablering som omfattes av <a href="lov-2025-06-20-106.html">foretaksregisterloven</a> , må foretaket registrere denne i Foretaksregisteret før virksomheten kan igangsettes.</p>
 <p>Departementet kan gi forskrifter som gjør unntak fra, avgrenser eller utfyller bestemmelsene i paragrafen her. Departementet kan herunder gi regler om hvilke opplysninger Finanstilsynet skal motta fra tilsynsmyndighetene i forsikringsformidlingsforetakets hjemstat.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 106 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1119 ).</p>
 <h4 id="5-2-anvendelse-av-regler-om-etablering-av-filial">§ 5-2. Anvendelse av regler om etablering av filial</h4>
 <p>Lovens bestemmelser om filialetablering i § 5-1 gjelder enhver permanent tilstedeværelse som et forsikringsformidlingsforetak med hovedsete i en annen EØS-stat har her i riket. Dette gjelder likevel ikke hvis det etableres et eget forsikringsformidlingsforetak i Norge.</p>
 <p>Departementet kan i forskrift gi regler som utfyller paragrafen her, herunder om hva slags virksomhet som er omfattet av reglene om etablering av filial.</p>
@@ -215,7 +392,7 @@ c. hvilke forsikringsklasser forsikringsavtalene som skal formidles, omfatter.</
 <p>Person som nevnt i § § 6-1 til 6-4 skal ikke være dømt for straffbart forhold eller i stilling eller ved utøvelsen av andre verv ha utvist adferd som gir grunn til å anta at vedkommende ikke vil kunne ivareta stillingen eller vervet på en forsvarlig måte. Person som nevnt i § § 6-1 til 6-4 skal heller ikke være under konkursbehandling, konkurskarantene eller gjeldsforhandling.</p>
 <p>Kravene i første ledd skal dokumenteres gjennom foreleggelse av ordinær politiattest etter <a href="lov-2010-05-28-16.html">politiregisterloven</a> § 40 og bekreftelse fra Brønnøysundregistrene om at personen ikke er under konkursbehandling, konkurskarantene eller gjeldsforhandling.</p>
 <p>Departementet kan gi forskrifter som gjør unntak fra, avgrenser eller utfyller bestemmelsene i paragrafen her. Departementet kan herunder gi regler om begrenset politiattest.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-7-forsikringer">Kapittel 7. Forsikringer</h2>
 <h4 id="7-1-forsikringsplikt">§ 7-1. Forsikringsplikt</h4>
 <p>Forsikringsformidlingsforetak skal til enhver tid ha forsikringer i samsvar med bestemmelsene i kapitlet her. Forsikringene må tegnes i et forsikringsforetak i en EØS-stat.</p>
@@ -294,7 +471,7 @@ f. forsikring tegnet av foretak med en årsomsetning på minst 50 mill. kroner.<
 <h4 id="9-1-god-forretningsskikk">§ 9-1. God forretningsskikk</h4>
 <p>Forsikringsformidlingsforetak skal utøve sin virksomhet i samsvar med god forretningsskikk.</p>
 <p>Departementet kan i forskrift gi utfyllende regler om god forretningsskikk.</p>
-<h4 id="9-2-kundebehandling-systemer-og-rutiner-mv">§ 9-2. Kundebehandling, systemer og rutiner mv.</h4>
+<h4 id="9-2-kundebehandling-systemer-og-rutiner-mv">§ 9-2. Kundebehandling, systemer og rutiner mv. <a class="para-history" href="../historikk/lov-2021-12-22-163/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forsikringsformidlingsforetak skal ha systemer og rutiner for å sikre etterlevelse av regler om opplysningsplikt og om utforming av kundeavtaler gitt i eller i medhold av <a href="lov-1989-06-16-69.html">forsikringsavtaleloven</a> .</p>
 <p>Forsikringsformidlingsforetak skal ha rutiner for å sikre at klager fra kunder eller andre berørte behandles på en forsvarlig måte.</p>
 <p>Departementet kan i forskrift gi regler som utfyller bestemmelsene i paragrafen her.</p>
@@ -357,6 +534,8 @@ b. bestemmelse i forskrift som utfyller bestemmelsene nevnt i bokstav a, når de
 <li>Lov 10. juni 2005 nr. 41 om forsikringsformidling oppheves.</li>
 <li>I lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjøres følgende endringer: – – –</li>
 </ol>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,69 +19,334 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1999-09-13-1052.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om såvarer" href="../feeds/forskrift-1999-09-13-1052.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om såvarer</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1999-09-13-1052</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1999-09-13</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-03-1742</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1999-09-13-1052" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-anvendelsesomrade">§ 2. Anvendelsesområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#3a-registrering-av-virksomheter">§ 3a. Registrering av virksomheter</a></li>
+<li class="lvl4"><a href="#4-savareforretninger-mv">§ 4. Såvareforretninger mv.</a></li>
+<li class="lvl4"><a href="#5-leierenserier">§ 5. Leierenserier</a></li>
+<li class="lvl4"><a href="#6-vedlegg">§ 6. Vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-ii-kontroll-med-avlen">Kapittel II. Kontroll med avlen</a></li>
+<li class="lvl4"><a href="#7-krav-til-utsd">§ 7. Krav til utsæd</a></li>
+<li class="lvl4"><a href="#8-krav-til-avlssted">§ 8. Krav til avlssted</a></li>
+<li class="lvl4"><a href="#9-melding-om-avl">§ 9. Melding om avl</a></li>
+<li class="lvl4"><a href="#10-vekstkontroll">§ 10. Vekstkontroll</a></li>
+<li class="lvl4"><a href="#10a-autorisasjon-som-vekstkontrollr">§ 10a. Autorisasjon som vekstkontrollør</a></li>
+<li class="lvl2"><a href="#kapittel-iii-kvalitetskontroll-og-sertifisering">Kapittel III. Kvalitetskontroll og sertifisering</a></li>
+<li class="lvl4"><a href="#11-kontrolldyrking">§ 11. Kontrolldyrking</a></li>
+<li class="lvl4"><a href="#12-forhandssertifisering">§ 12. Forhåndssertifisering</a></li>
+<li class="lvl4"><a href="#13-kvalitetskrav">§ 13. Kvalitetskrav</a></li>
+<li class="lvl4"><a href="#14-prvetaking-og-analyse">§ 14. Prøvetaking og analyse</a></li>
+<li class="lvl4"><a href="#15-sertifisering">§ 15. Sertifisering</a></li>
+<li class="lvl4"><a href="#16-opplysning-om-kontrollresultat">§ 16. Opplysning om kontrollresultat</a></li>
+<li class="lvl2"><a href="#kapittel-iv-merking">Kapittel IV. Merking</a></li>
+<li class="lvl4"><a href="#17-offisiell-merking">§ 17. Offisiell merking</a></li>
+<li class="lvl4"><a href="#18-varedeklarasjon-leverandretikett">§ 18. Varedeklarasjon (leverandøretikett)</a></li>
+<li class="lvl4"><a href="#19-annullering-og-ny-merking">§ 19. Annullering og ny merking</a></li>
+<li class="lvl4"><a href="#20-srlig-merking">§ 20. Særlig merking</a></li>
+<li class="lvl2"><a href="#kapittel-v-omsetning">Kapittel V. Omsetning</a></li>
+<li class="lvl4"><a href="#21-vilkar-for-omsetning">§ 21. Vilkår for omsetning</a></li>
+<li class="lvl4"><a href="#21a-omsetning-av-ikke-endelig-godkjente-sorter">§ 21a. Omsetning av ikke endelig godkjente sorter</a></li>
+<li class="lvl4"><a href="#21b-opphevet">§ 21b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#21c-omsetning-av-naturfrblandinger">§ 21c. Omsetning av naturfrøblandinger</a></li>
+<li class="lvl4"><a href="#21d-lukkede-systemer">§ 21d. Lukkede systemer</a></li>
+<li class="lvl4"><a href="#22-omsetningssesong">§ 22. Omsetningssesong</a></li>
+<li class="lvl4"><a href="#23-forsegling">§ 23. Forsegling</a></li>
+<li class="lvl2"><a href="#kapittel-vi-innfrsel">Kapittel VI. Innførsel</a></li>
+<li class="lvl4"><a href="#24-innfrsel-av-savare">§ 24. Innførsel av såvare</a></li>
+<li class="lvl4"><a href="#25-srlige-innfrselsbestemmelser">§ 25. Særlige innførselsbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-vii-internkontroll">Kapittel VII. Internkontroll</a></li>
+<li class="lvl4"><a href="#26-plikt-til-internkontroll">§ 26. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#27-innholdet-i-internkontrollen">§ 27. Innholdet i internkontrollen</a></li>
+<li class="lvl2"><a href="#kapittel-viii-srlige-bestemmelser">Kapittel VIII. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#28-fr-med-narkotiske-stoffer">§ 28. Frø med narkotiske stoffer</a></li>
+<li class="lvl4"><a href="#29-fr-av-genmodifiserte-planter">§ 29. Frø av genmodifiserte planter</a></li>
+<li class="lvl4"><a href="#30-sorts-og-artsblandinger">§ 30. Sorts- og artsblandinger</a></li>
+<li class="lvl4"><a href="#30a-sammensatte-sorter">§ 30a. Sammensatte sorter</a></li>
+<li class="lvl4"><a href="#31-blanding-av-savarepartier-fra-forskjellige-kontraktavlere">§ 31. Blanding av såvarepartier fra forskjellige kontraktavlere</a></li>
+<li class="lvl4"><a href="#32-opphevet">§ 32. (Opphevet)</a></li>
+<li class="lvl4"><a href="#33-opphevet">§ 33. (Opphevet)</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-beiset-savare">§ 35. Beiset såvare</a></li>
+<li class="lvl4"><a href="#36-oecd-systemet">§ 36. OECD-systemet</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#37-kontrollmyndighet">§ 37. Kontrollmyndighet</a></li>
+<li class="lvl4"><a href="#38-dispensasjon">§ 38. Dispensasjon</a></li>
+<li class="lvl4"><a href="#39-straff">§ 39. Straff</a></li>
+<li class="lvl4"><a href="#39a-overgangsbestemmelse">39a. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#40-ikrafttreden">§ 40. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#vedlegg-til-forskrift-13-september-1999-nr-1052-om-savarer">Vedlegg til forskrift 13. september 1999 nr. 1052 om såvarer</a></li>
+<li class="lvl3"><a href="#a-generelle-vedlegg-og-vedlegg-som-gjelder-for-alle-savaregrupper">A Generelle vedlegg og vedlegg som gjelder for alle såvaregrupper</a></li>
+<li class="lvl4"><a href="#a1-arter-2">A1 – Arter (§ 2)</a></li>
+<li class="lvl4"><a href="#a2-merking-og-sertifisering-i-henhold-til-oecd-systemet-36">A2 – Merking og sertifisering i henhold til OECD-systemet (§ 36)</a></li>
+<li class="lvl4"><a href="#a3-opphevet">A3 (Opphevet)</a></li>
+<li class="lvl4"><a href="#a4-toleranseverdier-ved-etterkontroll-av-deklarerte-verdier-37">A4 – Toleranseverdier ved etterkontroll av deklarerte verdier (§ 37)</a></li>
+<li class="lvl4"><a href="#a5-dyrkingsregler-7-8">A5 – Dyrkingsregler (§ 7, § 8)</a></li>
+<li class="lvl4"><a href="#a6-melding-om-avlen-9">A6 – Melding om avlen (§ 9)</a></li>
+<li class="lvl4"><a href="#a7-regler-for-gjennomfring-av-vekstkontroll-10-og-kontrolldyrking-11">A7 – Regler for gjennomføring av vekstkontroll (§ 10) og kontrolldyrking (§ 11)</a></li>
+<li class="lvl4"><a href="#a8-offisielt-dokument-ved-omsetning-importeksport-av-ikke-endelig-sertifisert-savare-til-offisiell-sertifisering-i-et-annet-land-i-es-omradet-21">A8 – Offisielt dokument ved omsetning (import/eksport) av ikke endelig sertifisert såvare til offisiell sertifisering i et annet land i EØS-området (§ 21)</a></li>
+<li class="lvl4"><a href="#a9-klasser-av-savare-3-c">A9 – Klasser av såvare (§ 3 c)</a></li>
+<li class="lvl4"><a href="#a10-krav-til-smapakninger">A10 – Krav til småpakninger</a></li>
+<li class="lvl4"><a href="#a11-krav-til-avlsgarder-8">A11 – Krav til avlsgårder (§ 8)</a></li>
+<li class="lvl4"><a href="#a12-vilkar-for-omsetning-av-savare-som-er-skt-opptatt-pa-nasjonal-sortsliste-21a">A12 – Vilkår for omsetning av såvare som er søkt opptatt på nasjonal sortsliste (§ 21a)</a></li>
+<li class="lvl3"><a href="#b-vedlegg-om-sakorn">B Vedlegg om såkorn</a></li>
+<li class="lvl4"><a href="#b1-krav-til-kvalitet-13-19">B1 – Krav til kvalitet (§ 13, § 19)</a></li>
+<li class="lvl5"><a href="#del-1-norske-kvalitetskrav">Del 1 – Norske kvalitetskrav</a></li>
+<li class="lvl5"><a href="#del-2-minimumskrav-for-kvalitet-ma-tilfredsstilles-ved-eksport">Del 2 – Minimumskrav for kvalitet (må tilfredsstilles ved eksport)</a></li>
+<li class="lvl5"><a href="#del-3-kvalitetskrav-ved-vekstkontroll-og-kontrolldyrking">Del 3 – Kvalitetskrav ved vekstkontroll og kontrolldyrking</a></li>
+<li class="lvl4"><a href="#b2-krav-til-merking">B2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17">Del 1 – Krav til offisiell merking jf.§ 17</a></li>
+<li class="lvl5"><a href="#del-2-merkingens-farge-og-strrelse-jf-17">Del 2 – Merkingens farge og størrelse jf. § 17</a></li>
+<li class="lvl5"><a href="#del-3-srlig-merking-jf-20">Del 3 – Særlig merking jf. § 20</a></li>
+<li class="lvl5"><a href="#del-4-krav-til-varedeklarasjon-leverandretikett-jf-18">Del 4 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl4"><a href="#b3-opphevet">B3 – (Opphevet)</a></li>
+<li class="lvl3"><a href="#c-vedlegg-om-savarer-av-forvekster-gras-til-grntanlegg-bete-olje-og-fiberplanter">C Vedlegg om såvarer av fôrvekster, gras til grøntanlegg, bete, olje- og fiberplanter</a></li>
+<li class="lvl4"><a href="#c1-krav-til-kvalitet-13">C1 – Krav til kvalitet (§ 13)</a></li>
+<li class="lvl5"><a href="#iforvekster-og-gras-til-grntanlegg">IFôrvekster og gras til grøntanlegg</a></li>
+<li class="lvl5"><a href="#ii-bete">II – BETE</a></li>
+<li class="lvl5"><a href="#iii-olje-og-fiberplanter">III – Olje- og fiberplanter</a></li>
+<li class="lvl5"><a href="#iv-kvalitetskrav-ved-vekstkontroll-og-kontrolldyrking">IV – Kvalitetskrav ved vekstkontroll og kontrolldyrking</a></li>
+<li class="lvl4"><a href="#c2-krav-til-merking">C2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17_1">Del 1 – Krav til offisiell merking jf. § 17</a></li>
+<li class="lvl5"><a href="#del-2-krav-til-varedeklarasjon-leverandretikett-jf-18">Del 2 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl5"><a href="#del-3-merkingens-farge-og-strrelse-jf-17-og-18">Del 3 – Merkingens farge og størrelse jf. § 17 og § 18</a></li>
+<li class="lvl5"><a href="#del-4-srlig-merking-jf-20">Del 4 – Særlig merking jf. § 20</a></li>
+<li class="lvl4"><a href="#c3-vilkar-for-produksjon-av-strre-partier-av-grasfr-3-d">C3 – Vilkår for produksjon av større partier av grasfrø (§ 3 d)</a></li>
+<li class="lvl5"><a href="#i-sknad-til-mattilsynet">I. Søknad til Mattilsynet</a></li>
+<li class="lvl5"><a href="#ii-dokumentasjon-for-homogenitet">II. Dokumentasjon for homogenitet</a></li>
+<li class="lvl5"><a href="#iii-stikkprvebasert-heterogenitetstest">III. Stikkprøvebasert heterogenitetstest</a></li>
+<li class="lvl4"><a href="#c4-vilkar-for-omsetning-av-naturfrblandinger-21c">C4 – Vilkår for omsetning av naturfrøblandinger (§ 21c)</a></li>
+<li class="lvl5"><a href="#1-direkte-innsamlede-naturfrblandinger">1. Direkte innsamlede naturfrøblandinger:</a></li>
+<li class="lvl5"><a href="#2-oppformerte-naturfrblandinger">2. Oppformerte naturfrøblandinger:</a></li>
+<li class="lvl3"><a href="#d-vedlegg-om-grnnsaksfr">D Vedlegg om grønnsaksfrø</a></li>
+<li class="lvl4"><a href="#d1-krav-til-kvalitet-13">D1 – Krav til kvalitet (§ 13)</a></li>
+<li class="lvl5"><a href="#i-krav-til-fret">I – Krav til frøet</a></li>
+<li class="lvl5"><a href="#ii-kvalitetskrav-ved-vekstkontroll">II – Kvalitetskrav ved vekstkontroll</a></li>
+<li class="lvl4"><a href="#d2-krav-til-merking">D2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17_2">Del 1 – Krav til offisiell merking jf. § 17</a></li>
+<li class="lvl5"><a href="#del-2-krav-til-varedeklarasjon-leverandretikett-jf-18_1">Del 2 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl5"><a href="#del-3-merkingens-farge-og-strrelse-jf-17-og-18_1">Del 3 – Merkingens farge og størrelse jf. § 17 og § 18</a></li>
+<li class="lvl5"><a href="#del-4-srlig-merking-jf-20_1">Del 4 – Særlig merking jf. § 20</a></li>
+<li class="lvl3"><a href="#e-varedeklarasjon-for-savare-av-bevaringsverdige-sorter-og-naturfrblandinger-18">E Varedeklarasjon for såvare av bevaringsverdige sorter og naturfrøblandinger (§ 18)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-03-1742.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-13-1052.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om såvarer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1999-09-13-1052.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1999-09-13-1052 <code>forskrift/1999-09-13-1052</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>13.09.1999</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-03-1742 <code>forskrift/2026-09-03-1742</code> fra 03.09.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1999-09-13-1052" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-anvendelsesomrade">§ 2. Anvendelsesområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#3a-registrering-av-virksomheter">§ 3a. Registrering av virksomheter</a></li>
+<li class="lvl4"><a href="#4-savareforretninger-mv">§ 4. Såvareforretninger mv.</a></li>
+<li class="lvl4"><a href="#5-leierenserier">§ 5. Leierenserier</a></li>
+<li class="lvl4"><a href="#6-vedlegg">§ 6. Vedlegg</a></li>
+<li class="lvl2"><a href="#kapittel-ii-kontroll-med-avlen">Kapittel II. Kontroll med avlen</a></li>
+<li class="lvl4"><a href="#7-krav-til-utsd">§ 7. Krav til utsæd</a></li>
+<li class="lvl4"><a href="#8-krav-til-avlssted">§ 8. Krav til avlssted</a></li>
+<li class="lvl4"><a href="#9-melding-om-avl">§ 9. Melding om avl</a></li>
+<li class="lvl4"><a href="#10-vekstkontroll">§ 10. Vekstkontroll</a></li>
+<li class="lvl4"><a href="#10a-autorisasjon-som-vekstkontrollr">§ 10a. Autorisasjon som vekstkontrollør</a></li>
+<li class="lvl2"><a href="#kapittel-iii-kvalitetskontroll-og-sertifisering">Kapittel III. Kvalitetskontroll og sertifisering</a></li>
+<li class="lvl4"><a href="#11-kontrolldyrking">§ 11. Kontrolldyrking</a></li>
+<li class="lvl4"><a href="#12-forhandssertifisering">§ 12. Forhåndssertifisering</a></li>
+<li class="lvl4"><a href="#13-kvalitetskrav">§ 13. Kvalitetskrav</a></li>
+<li class="lvl4"><a href="#14-prvetaking-og-analyse">§ 14. Prøvetaking og analyse</a></li>
+<li class="lvl4"><a href="#15-sertifisering">§ 15. Sertifisering</a></li>
+<li class="lvl4"><a href="#16-opplysning-om-kontrollresultat">§ 16. Opplysning om kontrollresultat</a></li>
+<li class="lvl2"><a href="#kapittel-iv-merking">Kapittel IV. Merking</a></li>
+<li class="lvl4"><a href="#17-offisiell-merking">§ 17. Offisiell merking</a></li>
+<li class="lvl4"><a href="#18-varedeklarasjon-leverandretikett">§ 18. Varedeklarasjon (leverandøretikett)</a></li>
+<li class="lvl4"><a href="#19-annullering-og-ny-merking">§ 19. Annullering og ny merking</a></li>
+<li class="lvl4"><a href="#20-srlig-merking">§ 20. Særlig merking</a></li>
+<li class="lvl2"><a href="#kapittel-v-omsetning">Kapittel V. Omsetning</a></li>
+<li class="lvl4"><a href="#21-vilkar-for-omsetning">§ 21. Vilkår for omsetning</a></li>
+<li class="lvl4"><a href="#21a-omsetning-av-ikke-endelig-godkjente-sorter">§ 21a. Omsetning av ikke endelig godkjente sorter</a></li>
+<li class="lvl4"><a href="#21b-opphevet">§ 21b. (Opphevet)</a></li>
+<li class="lvl4"><a href="#21c-omsetning-av-naturfrblandinger">§ 21c. Omsetning av naturfrøblandinger</a></li>
+<li class="lvl4"><a href="#21d-lukkede-systemer">§ 21d. Lukkede systemer</a></li>
+<li class="lvl4"><a href="#22-omsetningssesong">§ 22. Omsetningssesong</a></li>
+<li class="lvl4"><a href="#23-forsegling">§ 23. Forsegling</a></li>
+<li class="lvl2"><a href="#kapittel-vi-innfrsel">Kapittel VI. Innførsel</a></li>
+<li class="lvl4"><a href="#24-innfrsel-av-savare">§ 24. Innførsel av såvare</a></li>
+<li class="lvl4"><a href="#25-srlige-innfrselsbestemmelser">§ 25. Særlige innførselsbestemmelser</a></li>
+<li class="lvl2"><a href="#kapittel-vii-internkontroll">Kapittel VII. Internkontroll</a></li>
+<li class="lvl4"><a href="#26-plikt-til-internkontroll">§ 26. Plikt til internkontroll</a></li>
+<li class="lvl4"><a href="#27-innholdet-i-internkontrollen">§ 27. Innholdet i internkontrollen</a></li>
+<li class="lvl2"><a href="#kapittel-viii-srlige-bestemmelser">Kapittel VIII. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#28-fr-med-narkotiske-stoffer">§ 28. Frø med narkotiske stoffer</a></li>
+<li class="lvl4"><a href="#29-fr-av-genmodifiserte-planter">§ 29. Frø av genmodifiserte planter</a></li>
+<li class="lvl4"><a href="#30-sorts-og-artsblandinger">§ 30. Sorts- og artsblandinger</a></li>
+<li class="lvl4"><a href="#30a-sammensatte-sorter">§ 30a. Sammensatte sorter</a></li>
+<li class="lvl4"><a href="#31-blanding-av-savarepartier-fra-forskjellige-kontraktavlere">§ 31. Blanding av såvarepartier fra forskjellige kontraktavlere</a></li>
+<li class="lvl4"><a href="#32-opphevet">§ 32. (Opphevet)</a></li>
+<li class="lvl4"><a href="#33-opphevet">§ 33. (Opphevet)</a></li>
+<li class="lvl4"><a href="#34-opphevet">§ 34. (Opphevet)</a></li>
+<li class="lvl4"><a href="#35-beiset-savare">§ 35. Beiset såvare</a></li>
+<li class="lvl4"><a href="#36-oecd-systemet">§ 36. OECD-systemet</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#37-kontrollmyndighet">§ 37. Kontrollmyndighet</a></li>
+<li class="lvl4"><a href="#38-dispensasjon">§ 38. Dispensasjon</a></li>
+<li class="lvl4"><a href="#39-straff">§ 39. Straff</a></li>
+<li class="lvl4"><a href="#39a-overgangsbestemmelse">39a. Overgangsbestemmelse</a></li>
+<li class="lvl4"><a href="#40-ikrafttreden">§ 40. Ikrafttreden</a></li>
+<li class="lvl2"><a href="#vedlegg-til-forskrift-13-september-1999-nr-1052-om-savarer">Vedlegg til forskrift 13. september 1999 nr. 1052 om såvarer</a></li>
+<li class="lvl3"><a href="#a-generelle-vedlegg-og-vedlegg-som-gjelder-for-alle-savaregrupper">A Generelle vedlegg og vedlegg som gjelder for alle såvaregrupper</a></li>
+<li class="lvl4"><a href="#a1-arter-2">A1 – Arter (§ 2)</a></li>
+<li class="lvl4"><a href="#a2-merking-og-sertifisering-i-henhold-til-oecd-systemet-36">A2 – Merking og sertifisering i henhold til OECD-systemet (§ 36)</a></li>
+<li class="lvl4"><a href="#a3-opphevet">A3 (Opphevet)</a></li>
+<li class="lvl4"><a href="#a4-toleranseverdier-ved-etterkontroll-av-deklarerte-verdier-37">A4 – Toleranseverdier ved etterkontroll av deklarerte verdier (§ 37)</a></li>
+<li class="lvl4"><a href="#a5-dyrkingsregler-7-8">A5 – Dyrkingsregler (§ 7, § 8)</a></li>
+<li class="lvl4"><a href="#a6-melding-om-avlen-9">A6 – Melding om avlen (§ 9)</a></li>
+<li class="lvl4"><a href="#a7-regler-for-gjennomfring-av-vekstkontroll-10-og-kontrolldyrking-11">A7 – Regler for gjennomføring av vekstkontroll (§ 10) og kontrolldyrking (§ 11)</a></li>
+<li class="lvl4"><a href="#a8-offisielt-dokument-ved-omsetning-importeksport-av-ikke-endelig-sertifisert-savare-til-offisiell-sertifisering-i-et-annet-land-i-es-omradet-21">A8 – Offisielt dokument ved omsetning (import/eksport) av ikke endelig sertifisert såvare til offisiell sertifisering i et annet land i EØS-området (§ 21)</a></li>
+<li class="lvl4"><a href="#a9-klasser-av-savare-3-c">A9 – Klasser av såvare (§ 3 c)</a></li>
+<li class="lvl4"><a href="#a10-krav-til-smapakninger">A10 – Krav til småpakninger</a></li>
+<li class="lvl4"><a href="#a11-krav-til-avlsgarder-8">A11 – Krav til avlsgårder (§ 8)</a></li>
+<li class="lvl4"><a href="#a12-vilkar-for-omsetning-av-savare-som-er-skt-opptatt-pa-nasjonal-sortsliste-21a">A12 – Vilkår for omsetning av såvare som er søkt opptatt på nasjonal sortsliste (§ 21a)</a></li>
+<li class="lvl3"><a href="#b-vedlegg-om-sakorn">B Vedlegg om såkorn</a></li>
+<li class="lvl4"><a href="#b1-krav-til-kvalitet-13-19">B1 – Krav til kvalitet (§ 13, § 19)</a></li>
+<li class="lvl5"><a href="#del-1-norske-kvalitetskrav">Del 1 – Norske kvalitetskrav</a></li>
+<li class="lvl5"><a href="#del-2-minimumskrav-for-kvalitet-ma-tilfredsstilles-ved-eksport">Del 2 – Minimumskrav for kvalitet (må tilfredsstilles ved eksport)</a></li>
+<li class="lvl5"><a href="#del-3-kvalitetskrav-ved-vekstkontroll-og-kontrolldyrking">Del 3 – Kvalitetskrav ved vekstkontroll og kontrolldyrking</a></li>
+<li class="lvl4"><a href="#b2-krav-til-merking">B2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17">Del 1 – Krav til offisiell merking jf.§ 17</a></li>
+<li class="lvl5"><a href="#del-2-merkingens-farge-og-strrelse-jf-17">Del 2 – Merkingens farge og størrelse jf. § 17</a></li>
+<li class="lvl5"><a href="#del-3-srlig-merking-jf-20">Del 3 – Særlig merking jf. § 20</a></li>
+<li class="lvl5"><a href="#del-4-krav-til-varedeklarasjon-leverandretikett-jf-18">Del 4 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl4"><a href="#b3-opphevet">B3 – (Opphevet)</a></li>
+<li class="lvl3"><a href="#c-vedlegg-om-savarer-av-forvekster-gras-til-grntanlegg-bete-olje-og-fiberplanter">C Vedlegg om såvarer av fôrvekster, gras til grøntanlegg, bete, olje- og fiberplanter</a></li>
+<li class="lvl4"><a href="#c1-krav-til-kvalitet-13">C1 – Krav til kvalitet (§ 13)</a></li>
+<li class="lvl5"><a href="#iforvekster-og-gras-til-grntanlegg">IFôrvekster og gras til grøntanlegg</a></li>
+<li class="lvl5"><a href="#ii-bete">II – BETE</a></li>
+<li class="lvl5"><a href="#iii-olje-og-fiberplanter">III – Olje- og fiberplanter</a></li>
+<li class="lvl5"><a href="#iv-kvalitetskrav-ved-vekstkontroll-og-kontrolldyrking">IV – Kvalitetskrav ved vekstkontroll og kontrolldyrking</a></li>
+<li class="lvl4"><a href="#c2-krav-til-merking">C2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17_1">Del 1 – Krav til offisiell merking jf. § 17</a></li>
+<li class="lvl5"><a href="#del-2-krav-til-varedeklarasjon-leverandretikett-jf-18">Del 2 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl5"><a href="#del-3-merkingens-farge-og-strrelse-jf-17-og-18">Del 3 – Merkingens farge og størrelse jf. § 17 og § 18</a></li>
+<li class="lvl5"><a href="#del-4-srlig-merking-jf-20">Del 4 – Særlig merking jf. § 20</a></li>
+<li class="lvl4"><a href="#c3-vilkar-for-produksjon-av-strre-partier-av-grasfr-3-d">C3 – Vilkår for produksjon av større partier av grasfrø (§ 3 d)</a></li>
+<li class="lvl5"><a href="#i-sknad-til-mattilsynet">I. Søknad til Mattilsynet</a></li>
+<li class="lvl5"><a href="#ii-dokumentasjon-for-homogenitet">II. Dokumentasjon for homogenitet</a></li>
+<li class="lvl5"><a href="#iii-stikkprvebasert-heterogenitetstest">III. Stikkprøvebasert heterogenitetstest</a></li>
+<li class="lvl4"><a href="#c4-vilkar-for-omsetning-av-naturfrblandinger-21c">C4 – Vilkår for omsetning av naturfrøblandinger (§ 21c)</a></li>
+<li class="lvl5"><a href="#1-direkte-innsamlede-naturfrblandinger">1. Direkte innsamlede naturfrøblandinger:</a></li>
+<li class="lvl5"><a href="#2-oppformerte-naturfrblandinger">2. Oppformerte naturfrøblandinger:</a></li>
+<li class="lvl3"><a href="#d-vedlegg-om-grnnsaksfr">D Vedlegg om grønnsaksfrø</a></li>
+<li class="lvl4"><a href="#d1-krav-til-kvalitet-13">D1 – Krav til kvalitet (§ 13)</a></li>
+<li class="lvl5"><a href="#i-krav-til-fret">I – Krav til frøet</a></li>
+<li class="lvl5"><a href="#ii-kvalitetskrav-ved-vekstkontroll">II – Kvalitetskrav ved vekstkontroll</a></li>
+<li class="lvl4"><a href="#d2-krav-til-merking">D2 – Krav til merking</a></li>
+<li class="lvl5"><a href="#del-1-krav-til-offisiell-merking-jf-17_2">Del 1 – Krav til offisiell merking jf. § 17</a></li>
+<li class="lvl5"><a href="#del-2-krav-til-varedeklarasjon-leverandretikett-jf-18_1">Del 2 – Krav til varedeklarasjon (leverandøretikett) jf. § 18</a></li>
+<li class="lvl5"><a href="#del-3-merkingens-farge-og-strrelse-jf-17-og-18_1">Del 3 – Merkingens farge og størrelse jf. § 17 og § 18</a></li>
+<li class="lvl5"><a href="#del-4-srlig-merking-jf-20_1">Del 4 – Særlig merking jf. § 20</a></li>
+<li class="lvl3"><a href="#e-varedeklarasjon-for-savare-av-bevaringsverdige-sorter-og-naturfrblandinger-18">E Varedeklarasjon for såvare av bevaringsverdige sorter og naturfrøblandinger (§ 18)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-13-1052.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1999-09-13-1052.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-13-1052.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1999-09-13-1052.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1999-09-13-1052.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1999-09-13-1052.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1999-09-13-1052.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1999-09-13-1052.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1999-09-13-1052.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-savarer">Forskrift om såvarer</h1>
 <h2 id="kapittel-i-innledende-bestemmelser">Kapittel I. Innledende bestemmelser</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Formålet med denne forskriften er å sikre produksjon og omsetning av såvare med best mulig helse og kvalitet.</p>
 <p>Forskriften skal videre bidra til in-situ bevaring og bærekraftig bruk av plantegenetiske ressurser.</p>
-<p><em>Endret ved forskrift 30 april 2010 nr. 635 .</em></p>
+<p class="note">Endret ved forskrift 30 april 2010 nr. 635 .</p>
 <h4 id="2-anvendelsesomrade">§ 2. Anvendelsesområde</h4>
 <p>Denne forskriften gjelder krav til såvarer av arter oppført i vedlegg A1 som er beregnet til yrkesmessig bruk, med unntak av såvarer til produksjon til prydformål. Kravene er ikke til hinder for ikke-kommersiell utveksling av såvarer.</p>
 <p>Bestemmelsen i første ledd gjelder med følgende unntak:</p>
@@ -90,7 +355,7 @@ b. for genbanker og lignende gjelder bare § 3 bokstav z, § 4 fjerde ledd og §
 c. for lukkede systemer gjelder bare § 3 bokstav n, § 21d , § 26 og § 27 , i tillegg til bestemmelsene det vises til i bokstav a.
 d. for leierenserier gjelder bare § 3 bokstav m og § 5 , i tillegg til bestemmelsene det vises til i bokstav a.
 e. for såvarer av økologisk heterogent materiale gjelder bare § 3 bokstav ab, § 4 første ledd og § 13 første ledd, i tillegg til bestemmelsene det vises til i bokstav a.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 1 nov 2004 nr. 1412 , 30 april 2010 nr. 635 , 26 juni 2020 nr. 1448 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 1 nov 2004 nr. 1412 , 30 april 2010 nr. 635 , 26 juni 2020 nr. 1448 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
 <p>I denne forskriften betyr:</p>
 <p>a. Sertifisert såvare:
@@ -154,7 +419,7 @@ aa. Såvareforretning:
   Virksomhet som importerer, produserer eller pakker om såvarer med sikte på omsetning.
 ab. Økologisk heterogent materiale
   Økologisk heterogent materiale slik dette er definert i forskrift om økologisk produksjon og merking av økologiske landbruksprodukter, akvakulturprodukter, næringsmidler og fôr § 2 , jf. forordning (EU) 2018/848 artikkel 3 nr. 18.</p>
-<p><em>Endret ved forskrifter 20 nov 2003 nr. 1378 , 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 1 nov 2004 nr. 1412 , 21 des 2006 nr. 1569 , 6 juli 2007 nr. 951 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 6 mars 2014 nr. 253 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023), 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 20 nov 2003 nr. 1378 , 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 1 nov 2004 nr. 1412 , 21 des 2006 nr. 1569 , 6 juli 2007 nr. 951 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 6 mars 2014 nr. 253 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023), 17 okt 2025 nr. 2124 .</p>
 <h4 id="3a-registrering-av-virksomheter">§ 3a. Registrering av virksomheter</h4>
 <p>Den som vil drive følgende virksomhet skal registrere virksomheten hos Mattilsynet før oppstart:</p>
 <p>a. såvareforretninger
@@ -165,57 +430,57 @@ e. gårder for avl av klasse prebasis.</p>
 <p>Registreringen skal gjøres på den måten Mattilsynet bestemmer.</p>
 <p>Virksomheten skal ha en kontaktperson med fysisk kontorsted i Norge som skal fungere som kontaktpunkt for Mattilsynet. Kontaktpersonen skal være ansatt i virksomheten eller innehaver av enkeltpersonsforetaket, og skal ha tilstrekkelig faglig kompetanse.</p>
 <p>Endringer i registrerte opplysninger, herunder opplysninger om opphør av virksomheten, skal registreres senest fire uker etter at endringene har funnet sted.</p>
-<p><em>Tilføyd ved forskrift 6 juli 2007 nr. 951 , endret ved forskrifter 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 juli 2007 nr. 951 , endret ved forskrifter 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="4-savareforretninger-mv">§ 4. Såvareforretninger mv.</h4>
 <p>Bare såvareforretninger kan innføre, eksportere, omsette og produsere såvarer.</p>
 <p>Uten hensyn til bestemmelsene i første ledd kan en person eller virksomhet som er gitt tillatelse etter § 21a og vedlegg A12, innføre, eksportere, omsette og produsere såvare av den respektive, ikke endelig godkjente sorten.</p>
 <p>Bestemmelsene i første ledd gjelder ikke for forretninger (detaljister) som utelukkende kjøper og omsetter videre såvare som er ferdigpakket her i landet eller som er innført ferdig pakket av en såvareforretning.</p>
 <p>Såvareforretninger og andre personer eller virksomheter som nevnt i første og annet ledd, skal føre statistikk, sammenstille oversikter, gjøre prøveuttak og avgi de rapporter som Mattilsynet krever.</p>
 <p>Såvareforretninger skal innen 15. februar hvert år sende oversikt over omsatt mengde såvarer av bevaringsverdige sorter, tradisjonssorter av grønnsaker og naturfrøblandinger foregående året.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 1 nov 2004 nr. 1412 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 1 nov 2004 nr. 1412 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="5-leierenserier">§ 5. Leierenserier</h4>
 <p>Virksomheten skal føre en journal over de partiene som renses med oppgave over eier, art, sort, kvantum råvare og kvantum ferdig renset vare.</p>
 <p>Leierenseriene skal hvert år innen 1. juli sende en oversikt til Landbruksdirektoratet over antall tonn såvarer fordelt på de enkelte artene som er renset i perioden fra 1. juli året før fram til og med 30. juni inneværende år.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 6 juli 2007 nr. 951 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 6 juli 2007 nr. 951 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</p>
 <h4 id="6-vedlegg">§ 6. Vedlegg</h4>
 <p>Vedleggene til denne forskriften gjelder som en del av forskriften.</p>
 <h2 id="kapittel-ii-kontroll-med-avlen">Kapittel II. Kontroll med avlen</h2>
 <h4 id="7-krav-til-utsd">§ 7. Krav til utsæd</h4>
 <p>Ved produksjon av såvarer skal kravene i vedlegg A5 være oppfylt.</p>
-<p><em>Endret ved forskrifter 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="8-krav-til-avlssted">§ 8. Krav til avlssted</h4>
 <p>Avl av såvare kan bare foregå på grunnlag av en skriftlig kontrakt mellom en såvareforretning og den enkelte kontraktavler og i henhold til dyrkingsreglene i vedlegg A5. Ved produksjon av såvare av bevaringsverdige sorter gjelder samme dyrkingsregler som for klasse sertifisert med unntak av reglene i vedlegg A5, pkt. 2 og 7.</p>
 <p>Krav til gårder som skal drive avl av klasse prebasis fremgår av vedlegg A11.</p>
 <p>På areal der det er påvist floghavre kan det ikke avles såkorn eller såfrø av oljevekster, bladfaks, engsvingel, strandsvingel, raigras eller raisvingel i funnåret. Før det igjen kan avles såvarer av nevnte arter må det i to vekstsesonger etter hverandre ha vært dyrket bygg eller vårhvete på arealet og vekstkontroll må være gjennomført i begge vekstsesonger etter reglene i § 10 uten at det er påvist floghavre. Med areal menes her området nærmere enn 100 meter fra stedet der floghavren er funnet. Hvis deler av området er naturlig avgrenset av vei, skog, bekk, eiendomsgrense eller lignende, regnes områdene utenfor avgrensningen ikke som en del av arealet.</p>
 <p>Mattilsynet skal gis uhindret adgang til alle arealer kontraktavleren driver, innbefattet arealer utenom kontrakt. Dette gjelder også maskiner, rom og anlegg som kontraktavleren benytter til lagring og behandling av såvarer.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 16 mai 2013 nr. 529 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 16 mai 2013 nr. 529 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</p>
 <h4 id="9-melding-om-avl">§ 9. Melding om avl</h4>
 <p>Såvareforretninger og andre personer eller virksomheter med tillatelse til omsetning etter § 4 annet ledd, skal gi skriftlig melding til Mattilsynet om utsædspartier til kontrolldyrking og arealer til vekstkontroll etter reglene i vedlegg A6.</p>
 <p>For sorter som ikke er registrert på norsk sortsliste, er forretningen ansvarlig for å fremskaffe en sortsbeskrivelse som Mattilsynet kan godkjenne.</p>
 <p>Såvareforretninger skal innen 1. mars gi melding om størrelse og lokalitet på planlagt areal for produksjon av såvarer av naturfrøblandinger, bevaringsverdige sorter og tradisjonssorter av grønnsaker, for de to sistnevnte skal det også opplyses om sort. Mattilsynet kan tildele kvoter for såvareproduksjon av bevaringsverdige sorter, tradisjonssorter av grønnsaker og naturfrøblandinger.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 6 juli 2007 nr. 951 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="10-vekstkontroll">§ 10. Vekstkontroll</h4>
 <p>Ved sertifisert produksjon av såvarer skal det gjennomføres vekstkontroll etter reglene i vedlegg A7.</p>
 <p>Mattilsynet skal utføre kontroll som nevnt i første ledd av såvarearealer til avl av såvare av klassene prebasis og basis. Mattilsynet kan likevel fastsette en tidsavgrenset forsøksperiode der virksomhetene, på samme vilkår som nevnt i tredje ledd, skal sørge for at det utføres kontroll av såvarearealer av disse klassene.</p>
 <p>Virksomhetene skal sørge for at det utføres kontroll som nevnt i første ledd av såvarearealer til avl av såvare av klasse sertifisert. Kontrollen skal utføres av personer som er autorisert av Mattilsynet etter § 10a .</p>
 <p>Ved produksjon av innsamlede naturfrøblandinger skal Mattilsynet utføre kontroll på innsamlingsstedet i løpet av vekstsesongen.</p>
 <p>Ved avl av såvare av bevaringsverdige sorter og oppformerte naturfrøblandinger skal såvarevirksomhetene sørge for at kontraktarealene blir kontrollert for floghavre i henhold til bestemmelsene om floghavre i vedlegg A7.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 4 juli 2013 nr. 865 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 3 sep 2026 nr. 1742 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 4 juli 2013 nr. 865 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 3 sep 2026 nr. 1742 .</p>
 <h4 id="10a-autorisasjon-som-vekstkontrollr">§ 10a. Autorisasjon som vekstkontrollør</h4>
 <p>Den som autoriseres som vekstkontrollør må være fylt 18 år. Søkeren må ha landbruksfaglig kompetanse og må ha bestått offentlige kurs for vekstkontrollører.</p>
 <p>Vekstkontrolløren må ikke ha personlig interesse i utfallet av kontrollen eller oppnå personlige fordeler i forbindelse med gjennomføringen av kontrollen. Det forhold at vekstkontrolløren er ansatt av såvareforretningen som har kontrakt om avl av arealene som er gjenstand for kontroll, er ikke tilstrekkelig til at det foreligger omstendigheter som nevnt i første punktum. Personer som er ansatt hos eller har et forhold til kontraktavleren som nevnt i forvaltningsloven § 6 første ledd b) eller c) kan ikke utføre vekstkontroll av kontraktavlerens arealer.</p>
 <p>Vekstkontrollører skal følge reglene om gjennomføring av vekstkontroll. Mattilsynet kan stille ytterligere vilkår for autorisasjonen.</p>
 <p>Autorisasjonen kan trekkes tilbake ved overtredelse av bestemmelsene i første, annet eller tredje ledd.</p>
-<p><em>Tilføyd ved forskrift 23 juni 2009 nr. 829 , endret ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 23 juni 2009 nr. 829 , endret ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h2 id="kapittel-iii-kvalitetskontroll-og-sertifisering">Kapittel III. Kvalitetskontroll og sertifisering</h2>
 <h4 id="11-kontrolldyrking">§ 11. Kontrolldyrking</h4>
 <p>Mattilsynet skal kontrolldyrke de såvarepartiene som nyttes i avlen etter reglene i vedlegg A7 for å kontrollere at partiene oppfyller vilkårene for godkjenning.</p>
 <p>Såvarepartier til produksjon av klasse handelsfrø, klasse standard, bevaringsverdige sorter, tradisjonssorter av grønnsaker og naturfrøblandinger er unntatt fra kravet om kontrolldyrking.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="12-forhandssertifisering">§ 12. Forhåndssertifisering</h4>
 <p>Når vekstkontrollen og kontrolldyrkingen er gjennomført, underretter Mattilsynet innmelderen skriftlig om resultatet av kontrollen. Dersom kravene er oppfylt, gis det en foreløpig godkjenning av avlingen på arealet i riktig klasse.</p>
 <p>Hvis avlingen ikke kan godkjennes, skal det gis skriftlig melding om årsaken(e) til avgjørelsen.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h4 id="13-kvalitetskrav">§ 13. Kvalitetskrav</h4>
 <p>Følgende kvalitetskrav skal være oppfylt ved produksjonen:</p>
 <p>a. Såkorn som avles, sertifiseres og omsettes i Norge skal tilfredsstille kvalitetskravene i vedlegg B1, del 1 og del 3. Såkorn som produseres for eksport til EØS-området skal tilfredsstille kvalitetskravene i vedlegg B1, del 2 og del 3.
@@ -226,7 +491,7 @@ e. Naturfrøblandinger skal tilfredsstille kvalitetskravene i vedlegg C4.
 f. Såvarer av økologisk heterogent materiale av korn, bete og olje- og fiberplanter skal tilfredsstille kravene til sertifisert såvare i vedlegg B1 og C1 med unntak av kravet til sortsekthet og sortsrenhet. Såvarer av økologisk heterogent materiale av fôrvekster og gras til grøntanlegg skal tilfredsstille kravene til klasse handelsfrø i vedlegg C1. Såvarer av økologisk heterogent materiale av grønnsaker skal tilfredsstille kravene til klasse standard i vedlegg D1 med unntak av kravet til sortsekthet og sortsrenhet. Såvarer av økologisk heterogent materiale trenger ikke oppfylle kravet til spireevne forutsatt at såvareforretningen merker pakningene med konstatert spireevne ved omsetning.</p>
 <p>Mattilsynet kan tillate omsetning av såvarer av klassene prebasis og basis selv om kravet til spireevne ikke er oppfylt. Dette gjelder dersom såvaren skal brukes til videre oppformering og såvareforretningen opplyser om konstatert spireevne ved omsetning.</p>
 <p>EØS-avtalen vedlegg I kapittel III del 2 nr. 45 (forordning (EF) nr. 217/2006 ) om gjennomføringsbestemmelser til Rådets direktiv 66/401/EØF , direktiv 66/402/EØF , direktiv 2002/54/EF , direktiv 2002/55/EF og direktiv 2002/57/EF for så vidt gjelder medlemsstatenes bemyndigelse til å gi midlertidig tillatelse til omsetning av frø som ikke oppfyller kravene til minimum spireevne, gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og EØS-avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 21 des 2006 nr. 1569 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 21 des 2006 nr. 1569 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</p>
 <h4 id="14-prvetaking-og-analyse">§ 14. Prøvetaking og analyse</h4>
 <p>Prøvetaking av såvarepartienefor laboratorieanalyse og for kontrolldyrking skal foretas av Mattilsynet eller av prøvetaker autorisert av Mattilsynet. Tilsvarende gjelder ved prøvetaking av såvarepartier for laboratorieanalyse av bevaringsverdige sorter, tradisjonssorter av grønnsaker og naturfrøblandinger. Prøvetakingen skal foretas i henhold til International Seed Testing Association (ISTA) sine metoder for prøvetaking.</p>
 <p>Det skal være et offentlig laboratorium eller laboratorium autorisert av Mattilsynet, og akkreditert av ISTA, som utfører analysene av</p>
@@ -235,15 +500,15 @@ b. såvarepartier av bevaringsverdige sorter,
 c. såvarepartier av tradisjonssorter av grønnsaker, og
 d. de komponentene i naturfrøblandinger som består av arter oppført i vedlegg A1, Jordbruksvekster, punkt II Fôrvekster og gras til grøntanlegg, nr. 1 til 3.</p>
 <p>Kravene til laboratorier i andre ledd gjelder ikke ved analyse av andre komponenter i naturfrøblandinger enn de som følger av andre ledd bokstav d.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 17 okt 2025 nr. 2124 , 3 sep 2026 nr. 1742 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 17 okt 2025 nr. 2124 , 3 sep 2026 nr. 1742 .</p>
 <h4 id="15-sertifisering">§ 15. Sertifisering</h4>
 <p>Mattilsynet sertifiserer såvaren på grunnlag av resultatene fra vekstkontrollen, kontrolldyrkingen og laboratorieanalysen og etter kvalitetskravene i vedlegg A9. For at Mattilsynet skal kunne sertifisere såvaren, må såvaren være av en sort som er opptatt på norsk offisiell sortsliste, på EUs felles sortsliste eller det er en såvare av en sort som det er gitt tillatelse til omsetning av, jf. § 21a .</p>
 <p>Uten hensyn til første ledd kan såvare bestemt for eksport til et land utenfor EØS-området godkjennes dersom den sorten det gjelder er tillatt brukt i innførselslandet.</p>
 <p>Dersom vekstkontrollen av en såvareavling er gjennomført i strid med reglene i § 10a , kan såvarepartiene fra avlingen ikke sertifiseres.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 23 juni 2009 nr. 829 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 15 mars 2006 nr. 308 , 23 juni 2009 nr. 829 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="16-opplysning-om-kontrollresultat">§ 16. Opplysning om kontrollresultat</h4>
 <p>Mot kjøpsdokumentasjon har enhver kjøper av sertifisert såvare rett til å få opplysninger fra såvareforretningen eller Mattilsynet om kontrollresultatene for det aktuelle såvarepartiet.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h2 id="kapittel-iv-merking">Kapittel IV. Merking</h2>
 <h4 id="17-offisiell-merking">§ 17. Offisiell merking</h4>
 <p>Ved omsetning skal pakninger eller partier være offisielt merket i henhold til kravene i</p>
@@ -255,7 +520,7 @@ c. vedlegg D2, del 1 og 3 (grønnsaksfrø).</p>
 <p>Såvarer av bevaringsverdige sorter, naturfrøblandinger, tradisjonssorter av grønnsaker, grønnsaksfrø av klasse standard og grønnsaksfrø av ikke endelig godkjent sort, er unntatt fra kravet om offisiell merking.</p>
 <p>Såvareforretninger skal føre journal over produserte partier, hvor også partivekt, partinummer og løpenummer skal inngå. Hver pakning i partiet skal ha unikt løpenummer, og nummereringen skal starte med 001. Forretninger som veier ut og omsetter småpakninger, skal føre journal over antallet pakninger som produseres og partinummer for de frøpartiene som inngår.</p>
 <p>Den offisielle merkingen skal godkjennes av Mattilsynet, og kan påføres pakningen som klistrelapp, påsydd merkelapp eller ved trykking rett på pakningen.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1448 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 19 feb 2010 nr. 292 , 30 april 2010 nr. 635 , 5 jan 2015 nr. 6 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1448 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="18-varedeklarasjon-leverandretikett">§ 18. Varedeklarasjon (leverandøretikett)</h4>
 <p>Ved omsetning skal hver pakning ha en varedeklarasjon på norsk, enten som en etikett eller trykt eller påstemplet utenpå pakningen. Dersom pakningen er gjennomsiktig, kan varedeklarasjonen legges inne i pakningen.</p>
 <p>Varedeklarasjonen skal oppfylle kravene i</p>
@@ -263,7 +528,7 @@ c. vedlegg D2, del 1 og 3 (grønnsaksfrø).</p>
 b. vedlegg C2 del 2 og 3 (såvarer av fôrvekster og gras til grøntanlegg, beter, olje- og fiberplanter)
 c. vedlegg D2, del 2 og 3 (grønnsaksfrø inkludert frø av tradisjonssorter)
 d. vedlegg E (såvarer av bevaringsverdige sorter og naturfrøblandinger).</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="19-annullering-og-ny-merking">§ 19. Annullering og ny merking</h4>
 <p>Dersom resultatet av kontrollen under § 14 viser at såvarepartiet ikke tilfredsstiller kvalitetskravene i § 13 skal merkingen fjernes.</p>
 <p>Et såkornparti som ikke tilfredsstiller kvalitetskravene i vedlegg B1, del 1, kan godkjennes for eksport, dersom det tilfredsstiller kvalitetskravene i vedlegg B1, del 2. Partiet skal påføres ny, ajourført merking.</p>
@@ -278,7 +543,7 @@ c. vedlegg D2, del 4, pkt. a (grønnsaksfrø).</p>
 <p>a. vedlegg B2, del 3 pkt. b (såkorn)
 b. vedlegg C2, del 4, pkt. b (jordbruksfrø)
 c. vedlegg D2, del 4, pkt. b (grønnsaksfrø).</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 28 mars 2017 nr. 392 (i kraft 1 april 2017), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h2 id="kapittel-v-omsetning">Kapittel V. Omsetning</h2>
 <p>Overskriften endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h4 id="21-vilkar-for-omsetning">§ 21. Vilkår for omsetning</h4>
@@ -295,7 +560,7 @@ d. Såvarer av arter som står oppført i vedlegg A1, punkt V Grønnsaker skal e
 b. små mengder såvarer som omsettes til vitenskapelig formål eller til foredlingsformål, eller
 c. foredlermateriale av såvare som omsettes til oppformering under sortseierens ansvar, eller
 d. hagebruksfrø som er avlet i Norge, og som omsettes som såvare til en såvareforretning for rensing.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 6 juli 2007 nr. 951 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 6 juli 2007 nr. 951 , 23 juni 2009 nr. 829 , 30 april 2010 nr. 635 , 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 , 20 des 2022 nr. 2540 (i kraft 1 jan 2023).</p>
 <h4 id="21a-omsetning-av-ikke-endelig-godkjente-sorter">§ 21a. Omsetning av ikke endelig godkjente sorter</h4>
 <p>Mattilsynet kan etter reglene i vedlegg A12 tillate omsetning av såvare av en sort som det, jf. forskrift 1. oktober 1999 nr. 1069 om prøving og godkjenning av plantesorter, er søkt om opptak for på norsk offisiell sortsliste. For sorter av grønnsaker kan tillatelse også gis dersom sorten er søkt tatt opp på offisiell sortsliste i et annet land i EØS-området.</p>
 <p>Tillatelse til omsetning kan gis for inntil ett år, men kan forlenges med inntil ett år av gangen. For sorter av grønnsaker kan forlenget tillatelse gis inntil to ganger.</p>
@@ -304,7 +569,7 @@ d. hagebruksfrø som er avlet i Norge, og som omsettes som såvare til en såvar
 <p>a. det påvises at dyrking av den aktuelle sorten vil kunne ha skadelig innvirkning på dyrkingen av andre sorter eller arter, eller
 b. hvis den offisielle verdiprøvingen viser, eller det er allment kjent, at sorten ikke gir resultater minst på nivå med annen tilsvarende sort på den offisielle sortslisten, eller
 c. hvis det er grunn til å tro at sorten er en risiko for menneskers helse eller for miljøet.</p>
-<p><em>Tilføyd ved forskrift 15 mars 2006 nr. 308 , endret ved forskrift 31 mai 2011 nr. 567 .</em></p>
+<p class="note">Tilføyd ved forskrift 15 mars 2006 nr. 308 , endret ved forskrift 31 mai 2011 nr. 567 .</p>
 <h4 id="21b-opphevet">§ 21b. (Opphevet)</h4>
 <p><em>Opphvet ved forskrift 31 mai 2011 nr. 567 .</em></p>
 <h4 id="21c-omsetning-av-naturfrblandinger">§ 21c. Omsetning av naturfrøblandinger</h4>
@@ -317,22 +582,22 @@ d. naturtype på innsamlingsstedet
 e. året frøet ble samlet inn (gjelder oppformerte naturfrøblandinger) eller skal samles inn (gjelder direkte høstede naturfrøblandinger) i kildeområdet
 f. opplysninger om prosentandel i vekt av arter og eventuelt underarter (for direkte innsamlede blandinger oppgis bare arter som er typiske for naturtypen på innsamlingsstedet, og som ved å inngå i blandingen, har betydning for bevaring av plantegenetiske ressurser)
 g. lokalitet på planlagt areal for såvareproduksjon (gjelder oppformerte naturfrøblandinger).</p>
-<p><em>Tilføyd ved forskrift 5 jan 2015 nr. 6 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2015 nr. 6 .</p>
 <h4 id="21d-lukkede-systemer">§ 21d. Lukkede systemer</h4>
 <p>I et lukket system skal det foreligge en skriftlig avtale mellom den som leverer og den som mottar en såvare. Av avtalen skal det gå fram hvilke standarder og betingelser som er satt for den leverte såvaren. Videre skal det gå fram at mottakeren av såvaren ikke får eiendomsrett til verken såvaren eller det høstede produktet. Leverandøren av såvaren skal sende en kopi av avtalen unntatt det som gjelder de økonomiske forholdene, til Mattilsynet.</p>
 <p>Såvaren skal ikke inneholde Avena fatua (floghavre), Avena sterilis og norskproduserte såvarer skal heller ikke inneholde Echinochloa crus-galli (hønsehirse).</p>
 <p>Såvaren skal prøvetas og være analysert minimum for innhold av nevnte ugras. Prøvetakingen skal utføres av en prøvetaker autorisert av Mattilsynet. Laboratoriet skal være akkreditert av International Seed Testing Association (ISTA).</p>
-<p><em>Tilføyd ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="22-omsetningssesong">§ 22. Omsetningssesong</h4>
 <p>En omsetningssesong løper fra 1. oktober til og med 30. september året etter.</p>
 <p>Et såkornparti kan omsettes inntil utløpet av den sesongen som analysen ble utført.</p>
 <p>Et parti såvare av grønnsaker, fôrvekster, gras til grøntanlegg, beter, olje- og fiberplanter kan omsettes inntil utløpet av sesongen etter den sesongen som analysen ble utført.</p>
 <p>Et parti såvare eller en del av dette, kan omsettes utover de periodene som er nevnt i første og andre ledd dersom ny analyse viser at partiet fortsatt tilfredsstiller kravet til spireevne. Prøvetaking av partiet for ny analyse av spireevnen og for å foreta nødvendig tilleggsmerking, kan starte i august før sesongen utløper.</p>
 <p>Et parti såvare kan tilleggsmerkes med sikte på forlenget godkjenning før utløpet av den sesongen da forseglingen har funnet sted, dersom Mattilsynet finner at nytt analyseresultat, jf. tredje ledd, fortsatt vil være et uttrykk for partiets kvalitet på omsetningstidspunktet.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 15 mars 2006 nr. 308 , 4 nov 2008 nr. 1191 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 15 mars 2006 nr. 308 , 4 nov 2008 nr. 1191 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</p>
 <h4 id="23-forsegling">§ 23. Forsegling</h4>
 <p>Ved omsetning skal hver pakning være forsvarlig forseglet. Forseglingen skal være slik at den ødelegges når pakningen åpnes, eller at det synes på den offisielle merkingen.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 .</p>
 <h2 id="kapittel-vi-innfrsel">Kapittel VI. Innførsel</h2>
 <h4 id="24-innfrsel-av-savare">§ 24. Innførsel av såvare</h4>
 <p>Såvare kan innføres dersom:</p>
@@ -341,7 +606,7 @@ b. partiet er godkjent som såvare av en myndighet i et land i EØS-området, el
 c. partiet oppfyller kravene i § 35 .
 d. det for partier av såkorn, oljevekster, engsvingel, bladfaks, raigras, strandsvingel og raisvingel foreligger en offisiell erklæring fra eksportlandet om at partiet er avlet på areal hvor det ikke er påvist floghavre i avlingsåret.
 e. det for partier av såkorn, oljevekster, engsvingel, bladfaks, raigras, strandsvingel og raisvingel, foreligger en offisiell erklæring fra eksportlandet som bekrefter at det er tatt ut en prøve for floghavreanalyse av partiet. Prøven skal være på 1 kg pr. påbegynt 10 tonn for såkorn og 200 gram pr. parti inntil 10 tonn for de øvrige arter. Prøven skal ikke inneholde floghavre. Hvis prøven inneholder floghavre kan en ny prøve ikke endre resultatet.</p>
-<p><em>Endret ved forskrifter 18 des 2002 nr. 1787 (i kraft 1 jan 2003), 15 mars 2006 nr. 308 , 6 april 2016 nr. 356 (i kraft 1 mai 2016), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2002 nr. 1787 (i kraft 1 jan 2003), 15 mars 2006 nr. 308 , 6 april 2016 nr. 356 (i kraft 1 mai 2016), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="25-srlige-innfrselsbestemmelser">§ 25. Særlige innførselsbestemmelser</h4>
 <p>Mattilsynet kan tillate innførsel av et parti såvare som ikke tilfredsstiller kravene under § 24 pkt. a-c dersom:</p>
 <p>a. partiet innføres for oppformering og avlingen skal eksporteres, eller
@@ -351,7 +616,7 @@ d. partiet er avlet som foredlermateriale under sortseierens ansvar og kontroll 
 <p>Mattilsynet kan tillate innførsel av såvarer til vitenskapelige formål, testing eller foredlingsformål uten hensyn til kravene i § 4 første ledd og § 24 .</p>
 <p>Universiteter, høgskoler og laboratorier kan innføre prøvemateriale uten hensyn til kravene i § 4 første ledd og § 24 til bruk i egen forskning, undervisning eller laboratorievirksomhet.</p>
 <p>Mattilsynet kan tillate innførsel av grønnsaksfrø til bruk i egen virksomhet uten hensyn til kravene i § 4 første ledd .</p>
-<p><em>Endret ved forskrifter 18 des 2002 nr. 1787 , 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 19 feb 2010 nr. 292 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2002 nr. 1787 , 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 19 feb 2010 nr. 292 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 17 okt 2025 nr. 2124 .</p>
 <h2 id="kapittel-vii-internkontroll">Kapittel VII. Internkontroll</h2>
 <h4 id="26-plikt-til-internkontroll">§ 26. Plikt til internkontroll</h4>
 <p>Virksomheter som omfattes av denne forskriften skal innføre og utøve internkontroll. Den ansvarlige for virksomheten skal sørge for at plikten til internkontroll overholdes.</p>
@@ -363,14 +628,14 @@ c. Ha rutiner for å avdekke, rette opp og hindre gjentakelse av overtredelser.
 d. Foreta systematisk gjennomgang av internkontrollen for å sikre at den fungerer som forutsatt.</p>
 <p>Punkt a-d skal dokumenteres skriftlig i den form og det omfang som er nødvendig på bakgrunn av virksomhetens art, aktiviteter, risikoforhold og størrelse. Dokumentasjonen skal være tilgjengelig for Mattilsynet.</p>
 <p>Mattilsynet kan gi pålegg om iverksetting av tiltak om ytterligere dokumentasjon dersom internkontrollen er utilstrekkelig for overholdelse av såvareregelverket.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h2 id="kapittel-viii-srlige-bestemmelser">Kapittel VIII. Særlige bestemmelser</h2>
 <h4 id="28-fr-med-narkotiske-stoffer">§ 28. Frø med narkotiske stoffer</h4>
 <p>Det er forbudt å innføre eller omsette frø dersom frøet inneholder narkotiske stoffer, eller stammer fra plante som inneholder narkotiske stoffer.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 16 mai 2013 nr. 529 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 16 mai 2013 nr. 529 .</p>
 <h4 id="29-fr-av-genmodifiserte-planter">§ 29. Frø av genmodifiserte planter</h4>
 <p>Innførsel og omsetning av frø av genmodifiserte planter, er kun tillatt dersom de er godkjent i Norge etter genteknologiloven .</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 12 april 2022 nr. 747 .</p>
 <h4 id="30-sorts-og-artsblandinger">§ 30. Sorts- og artsblandinger</h4>
 <p>Sertifisert såkorn av forskjellige sorter av samme art kan blandes og omsettes som «sortsblanding».</p>
 <p>Sertifisert såkorn av forskjellige arter kan blandes og omsettes som «artsblanding».</p>
@@ -378,49 +643,49 @@ d. Foreta systematisk gjennomgang av internkontrollen for å sikre at den funger
 <p>Såvarer av forskjellige arter og sorter av fôrvekster (jf. vedlegg A1 punkt II) kan blandes med såvarer av andre arter og sorter enn fôrvekster dersom blandingen skal omsettes til andre formål enn dyrking av fôr. Blandingen kan også inneholde arter som ikke er omfattet av vedlegg A1. Det er en forutsetning at såvarer av artene oppført i vedlegg A1 som inngår i slike blandinger, tilfredsstiller kvalitetskravene i denne forskriften.</p>
 <p>Såvarer av forskjellige sorter av samme art grønnsaker (jf. vedlegg A1 romertall V) av klasse standard, kan omsettes som «sortsblanding» i småpakninger som angitt i vedlegg A 10 tabell 1.</p>
 <p>Bevaringsverdige sorter som fyller vilkårene for omsetning, jf. § 21 , kan inngå i blandingene som følger av første til femte ledd og i naturfrøblandinger.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 30 april 2010 nr. 635 , 16 mai 2013 nr. 529 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 30 april 2010 nr. 635 , 16 mai 2013 nr. 529 , 5 jan 2015 nr. 6 , 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="30a-sammensatte-sorter">§ 30a. Sammensatte sorter</h4>
 <p>En sammensatt sort skal være blandet i et bestemt forhold fastsatt av sortseier. Den sammensatte sorten skal være registrert hos Mattilsynet.</p>
 <p>For sammensatte sorter av olje- og fiberplanter skal hann- og hunnkomponentene være beiset med beisemiddel med forskjellig farge.</p>
-<p><em>Tilføyd ved forskrift 20 nov 2003 nr. 1378 . Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 nov 2003 nr. 1378 . Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h4 id="31-blanding-av-savarepartier-fra-forskjellige-kontraktavlere">§ 31. Blanding av såvarepartier fra forskjellige kontraktavlere</h4>
 <p>Når forhåndssertifiseringen, jf. § 12 , er mottatt, kan såvareforretningen blande såvarepartier av samme klasse fra forskjellige kontraktavlere.</p>
 <h4 id="32-opphevet">§ 32. (Opphevet)</h4>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 15 mars 2006 nr. 308 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 26 mai 2004 nr. 788 , 15 mars 2006 nr. 308 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="33-opphevet">§ 33. (Opphevet)</h4>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="34-opphevet">§ 34. (Opphevet)</h4>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 , opphevet ved forskrift 26 juni 2020 nr. 1447 (i kraft 1 juli 2020).</p>
 <h4 id="35-beiset-savare">§ 35. Beiset såvare</h4>
 <p>Beiset såvare kan bare omsettes eller importeres dersom det er brukt et beisemiddel som er godkjent i henhold til forskrift om plantevernmidler .</p>
 <p>Etikettene og dokumentene som følger beiset såvare skal være i henhold til forordning (EF) nr. 1107/2009 , artikkel 49 nr. 4, jf. forskrift om plantevernmidler § 3 .</p>
 <p>Beisemiddelet skal være jevnt fordelt i partiet.</p>
 <p>Det er forbudt å omsette eller importere beisete såvarer i porsjonspakninger til hobbybruk. Som porsjonspakninger til hobbybruk regnes frøposer med en nettovekt på maksimalt 100 gram av storfrøede arter som erter, vikker og bønner og 30 gram av andre arter.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 16 juni 2005 nr. 593 , 31 mai 2011 nr. 567 , 6 april 2016 nr. 356 (i kraft 1 mai 2016), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 16 juni 2005 nr. 593 , 31 mai 2011 nr. 567 , 6 april 2016 nr. 356 (i kraft 1 mai 2016), 26 juni 2020 nr. 1447 (i kraft 1 juli 2020), 12 april 2022 nr. 747 .</p>
 <h4 id="36-oecd-systemet">§ 36. OECD-systemet</h4>
 <p>Såvare kan sertifiseres og merkes etter de reglene som er fastsatt av OECD for sertifisering av såvare som omsettes internasjonalt, jf. vedlegg A2, dersom den aktuelle sorten er opptatt på den offisielle OECD-sortslisten, og dersom partiet tilfredsstiller de kravene som OECD har fastsatt.</p>
 <p>Ved sertifisering etter de reglene som er nevnt i første ledd, utsteder Mattilsynet sertifikat og merkelapper.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h2 id="kapittel-ix-avsluttende-bestemmelser">Kapittel IX. Avsluttende bestemmelser</h2>
 <h4 id="37-kontrollmyndighet">§ 37. Kontrollmyndighet</h4>
 <p>Mattilsynet fører tilsyn og fatter vedtak for å gjennomføre bestemmelsene gitt i eller i medhold av denne forskriften.</p>
 <p>Mattilsynet har rett til å ta ut prøver av all såvare som omfattes av forskriften.</p>
 <p>Mattilsynet kan innføre referansemateriale av såvarer uten hensyn til kravene i § 4 første ledd og § 24 .</p>
 <p>Ved all etterkontroll, herunder også kontroll av såvarer som er pakket, merket og klar for omsetning, benyttes toleranseverdier iht. vedlegg A4.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 , 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 , 17 okt 2025 nr. 2124 .</p>
 <h4 id="38-dispensasjon">§ 38. Dispensasjon</h4>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskriften forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen.</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 .</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 .</p>
 <h4 id="39-straff">§ 39. Straff</h4>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller bestemmelser og vedtak gitt i medhold av den, er straffbar i henhold til matloven § 28 .</p>
-<p><em>Endret ved forskrift 9 jan 2004 nr. 137 (tidligere § 40).</em></p>
+<p class="note">Endret ved forskrift 9 jan 2004 nr. 137 (tidligere § 40).</p>
 <h4 id="39a-overgangsbestemmelse">39a. Overgangsbestemmelse</h4>
 <p>Ferdig produsert såkorn som Mattilsynet har sertifisert i klasse D, kan fortsatt omsettes etter opphør av denne klassifiseringen, så lenge øvrige vilkår i forskriften her er oppfylt.</p>
-<p><em>Tilføyd ved forskrift 23 juni 2009 nr. 829 , endret ved forskrift 17 okt 2025 nr. 2124 .</em></p>
+<p class="note">Tilføyd ved forskrift 23 juni 2009 nr. 829 , endret ved forskrift 17 okt 2025 nr. 2124 .</p>
 <h4 id="40-ikrafttreden">§ 40. Ikrafttreden</h4>
 <p>Denne forskriften trer i kraft straks.</p>
 <p>Samtidig oppheves forskrift av 23. desember 1993 nr. 1418 om såkorn, forskrift av 23. desember 1993 nr. 1417 om jordbruksfrø og forskrift av 23. desember 1993 nr. 1419 om hagebruksfrø.</p>
-<p><em>Endret ved forskrifter 9 jan 2004 nr. 137 (tidligere § 41), 10 juni 2010 nr. 794 .</em></p>
+<p class="note">Endret ved forskrifter 9 jan 2004 nr. 137 (tidligere § 41), 10 juni 2010 nr. 794 .</p>
 <h2 id="vedlegg-til-forskrift-13-september-1999-nr-1052-om-savarer">Vedlegg til forskrift 13. september 1999 nr. 1052 om såvarer</h2>
 <p>Vedlegget tilføyd 30 mars 2005.</p>
 <h3 id="a-generelle-vedlegg-og-vedlegg-som-gjelder-for-alle-savaregrupper">A Generelle vedlegg og vedlegg som gjelder for alle såvaregrupper</h3>
@@ -891,6 +1156,8 @@ d. Foreta systematisk gjennomgang av internkontrollen for å sikre at den funger
 <p>Pakninger med bevaringsverdige sorter skal merkes: «EØS-regler og krav» Firmanavn Året for forsegling eller siste omsetningsdato Art, botanisk betegnelse Sort «Bevaringsverdig sort». For grønnsaksfrø gjelder: «Bevaringsverdig sort – klasse sertifisert» eller «Bevaringsverdig sort – klasse standard». Sortens opprinnelsesområde Regionen såvaren er produsert i hvis denne ikke er identisk med opprinnelsesområdet Partinummer Oppgitt nettovekt eller antall frø, eventuelt bruttovekt. Naturfrøblandinger skal merkes: «EØS-regler og krav» Firmanavn Høstemetode: direkte innsamlet eller oppformert Året for forsegling eller siste omsetningsdato Opprinnelsesområde Kildeområde Innsamlingssted Naturtype på innsamlingsstedet Ordene «naturfrøblanding beregnet til bruk i et område med samme naturgitte forhold som på innsamlingsstedet» Partinummer Prosentandel i vekt av arter og eventuelt underarter. For direkte høstede blandinger er det tilstrekkelig å oppgi hvilke arter som inngår. Oppgitt nettovekt eller bruttovekt Spireevne (gjelder bare for de artene i oppformerte naturfrøblandinger som står oppført i vedlegg C1 tabell 1a) og 1b), og hvor det der oppgitte kravet til spireevne ikke er oppfylt. Hvis dette gjelder mer enn fem arter, er det tilstrekkelig å angi gjennomsnittlig spireevne).</p>
 <p>Merknader: Dersom det er brukt granulerte pesticider, pilleringsmidler eller andre tilsetningsstoffer til behandling av frøet, skal stoffenes vekt, frøvekt og totalvekt av tilsetningsstoffer og frø, oppgis.</p>
 <p>Vedlegg E tilføyd ved forskrift 30 april 2010 nr. 635 . Endret ved forskrifter 31 mai 2011 nr. 567 , 5 jan 2015 nr. 6 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

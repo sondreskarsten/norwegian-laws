@@ -19,64 +19,177 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2005-06-03-37.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Utdanningsstøtteloven" href="../feeds/lov-2005-06-03-37.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Utdanningsstøtteloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2005-06-03-37</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Pensjons- og trygderett &raquo; Utenfor folketrygdloven &raquo; Utdanningsstøtte\nSkoler, universiteter og forskning &raquo; Skoler. Privatskoler\nSkoler, universiteter og forskning &raquo; Universiteter og høyskoler</dd>
-<dt>Ikrafttredelse</dt><dd>2005-07-15, 2006-01-01, 2006-08-15</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-60</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2005-06-03-37" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-og-virkeomrade">Kapittel I. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-rettigheter">§ 2. Rettigheter</a></li>
+<li class="lvl4"><a href="#3-virkeomrade">§ 3. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tildeling-av-utdanningssttte">Kapittel II. Tildeling av utdanningsstøtte</a></li>
+<li class="lvl4"><a href="#4-utdanning-det-gis-sttte-til">§ 4. Utdanning det gis støtte til</a></li>
+<li class="lvl4"><a href="#5-sttteformer">§ 5. Støtteformer</a></li>
+<li class="lvl4"><a href="#6-andre-ytelser">§ 6. Andre ytelser</a></li>
+<li class="lvl4"><a href="#7-behovsprving">§ 7. Behovsprøving</a></li>
+<li class="lvl2"><a href="#kapittel-iii-tilbakebetaling">Kapittel III. Tilbakebetaling</a></li>
+<li class="lvl4"><a href="#8-tilbakebetaling">§ 8. Tilbakebetaling</a></li>
+<li class="lvl4"><a href="#9-renter">§ 9. Renter</a></li>
+<li class="lvl4"><a href="#10-ettergivelse">§ 10. Ettergivelse</a></li>
+<li class="lvl4"><a href="#11-tvangsgrunnlag-for-utlegg">§ 11. Tvangsgrunnlag for utlegg</a></li>
+<li class="lvl4"><a href="#12-namsmyndighet">§ 12. Namsmyndighet</a></li>
+<li class="lvl4"><a href="#13-overfring-av-fordringer-til-innkrevingsmyndigheten">§ 13. Overføring av fordringer til Innkrevingsmyndigheten</a></li>
+<li class="lvl4"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl4"><a href="#15-tap-av-rettigheter">§ 15. Tap av rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-iv-administrasjon">Kapittel IV. Administrasjon</a></li>
+<li class="lvl4"><a href="#16-statens-lanekasse-for-utdanning">§ 16. Statens lånekasse for utdanning</a></li>
+<li class="lvl4"><a href="#17-innkreving">§ 17. Innkreving</a></li>
+<li class="lvl4"><a href="#18-klagenemnd">§ 18. Klagenemnd</a></li>
+<li class="lvl4"><a href="#19-regnskap-revisjon-og-kontroll">§ 19. Regnskap, revisjon og kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-v-behandling-av-personopplysninger">Kapittel V Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#20-behandling-av-personopplysninger">§ 20. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#21-innhenting-av-personopplysninger">§ 21. Innhenting av personopplysninger</a></li>
+<li class="lvl4"><a href="#22-utlevering-til-andre-lands-offentlige-utdanningsstttemyndigheter">§ 22. Utlevering til andre lands offentlige utdanningsstøttemyndigheter</a></li>
+<li class="lvl2"><a href="#kapittel-vi-andre-bestemmelser">Kapittel VI. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#23-finansiering">§ 23. Finansiering</a></li>
+<li class="lvl4"><a href="#24-krav-til-medvirkning">§ 24. Krav til medvirkning</a></li>
+<li class="lvl4"><a href="#25-minstebelp">§ 25. Minstebeløp</a></li>
+<li class="lvl4"><a href="#26-ikraftsetting">§ 26. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</a></li>
+<li class="lvl4"><a href="#28-overgangsregler">§ 28. Overgangsregler</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-60.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-03-37.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om utdanningsstøtte (utdanningsstøtteloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-03-37.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2005-06-03-37 <code>lov/2005-06-03-37</code></td></tr>
+<tr><th>Korttittel</th><td>Utdanningsstøtteloven</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Pensjons- og trygderett &raquo; Utenfor folketrygdloven &raquo; Utdanningsstøtte\nSkoler, universiteter og forskning &raquo; Skoler. Privatskoler\nSkoler, universiteter og forskning &raquo; Universiteter og høyskoler</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.07.2005, 01.01.2006, 15.08.2006</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-60 <code>lov/2026-06-19-60</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2005-06-03-37" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-og-virkeomrade">Kapittel I. Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-rettigheter">§ 2. Rettigheter</a></li>
+<li class="lvl4"><a href="#3-virkeomrade">§ 3. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tildeling-av-utdanningssttte">Kapittel II. Tildeling av utdanningsstøtte</a></li>
+<li class="lvl4"><a href="#4-utdanning-det-gis-sttte-til">§ 4. Utdanning det gis støtte til</a></li>
+<li class="lvl4"><a href="#5-sttteformer">§ 5. Støtteformer</a></li>
+<li class="lvl4"><a href="#6-andre-ytelser">§ 6. Andre ytelser</a></li>
+<li class="lvl4"><a href="#7-behovsprving">§ 7. Behovsprøving</a></li>
+<li class="lvl2"><a href="#kapittel-iii-tilbakebetaling">Kapittel III. Tilbakebetaling</a></li>
+<li class="lvl4"><a href="#8-tilbakebetaling">§ 8. Tilbakebetaling</a></li>
+<li class="lvl4"><a href="#9-renter">§ 9. Renter</a></li>
+<li class="lvl4"><a href="#10-ettergivelse">§ 10. Ettergivelse</a></li>
+<li class="lvl4"><a href="#11-tvangsgrunnlag-for-utlegg">§ 11. Tvangsgrunnlag for utlegg</a></li>
+<li class="lvl4"><a href="#12-namsmyndighet">§ 12. Namsmyndighet</a></li>
+<li class="lvl4"><a href="#13-overfring-av-fordringer-til-innkrevingsmyndigheten">§ 13. Overføring av fordringer til Innkrevingsmyndigheten</a></li>
+<li class="lvl4"><a href="#14-opphevet">§ 14. (Opphevet)</a></li>
+<li class="lvl4"><a href="#15-tap-av-rettigheter">§ 15. Tap av rettigheter</a></li>
+<li class="lvl2"><a href="#kapittel-iv-administrasjon">Kapittel IV. Administrasjon</a></li>
+<li class="lvl4"><a href="#16-statens-lanekasse-for-utdanning">§ 16. Statens lånekasse for utdanning</a></li>
+<li class="lvl4"><a href="#17-innkreving">§ 17. Innkreving</a></li>
+<li class="lvl4"><a href="#18-klagenemnd">§ 18. Klagenemnd</a></li>
+<li class="lvl4"><a href="#19-regnskap-revisjon-og-kontroll">§ 19. Regnskap, revisjon og kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-v-behandling-av-personopplysninger">Kapittel V Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#20-behandling-av-personopplysninger">§ 20. Behandling av personopplysninger</a></li>
+<li class="lvl4"><a href="#21-innhenting-av-personopplysninger">§ 21. Innhenting av personopplysninger</a></li>
+<li class="lvl4"><a href="#22-utlevering-til-andre-lands-offentlige-utdanningsstttemyndigheter">§ 22. Utlevering til andre lands offentlige utdanningsstøttemyndigheter</a></li>
+<li class="lvl2"><a href="#kapittel-vi-andre-bestemmelser">Kapittel VI. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#23-finansiering">§ 23. Finansiering</a></li>
+<li class="lvl4"><a href="#24-krav-til-medvirkning">§ 24. Krav til medvirkning</a></li>
+<li class="lvl4"><a href="#25-minstebelp">§ 25. Minstebeløp</a></li>
+<li class="lvl4"><a href="#26-ikraftsetting">§ 26. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</a></li>
+<li class="lvl4"><a href="#28-overgangsregler">§ 28. Overgangsregler</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-03-37.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2005-06-03-37.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2005-06-03-37.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2005-06-03-37.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2005-06-03-37.html">Observerte kildeutgaver</a> · <a href="../historie/utdanningsstøtteloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3374530ced584b9c5a5073143e3458049ae6a93d/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2005-06-03-37.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2005-06-03-37.html">Observerte kildeutgaver</a> · <a href="../historie/utdanningsstøtteloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2008/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2008</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2005-06-03-37.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-utdanningssttte-utdanningssttteloven">Lov om utdanningsstøtte (utdanningsstøtteloven)</h1>
 <h2 id="kapittel-i-formal-og-virkeomrade">Kapittel I. Formål og virkeområde</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Utdanningsstøtteordningens formål er å bidra til</p>
@@ -91,7 +204,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Loven gjelder for utdanning i Norge, herunder Svalbard såfremt ikke annet følger av forskrift gitt av Kongen. Det kan også gis støtte til utdanning i utlandet dersom utdanningen er godkjent etter § 4 .</p>
 <p>Loven gjelder for norske statsborgere og for EØS-borgere eller EFTA-borgere som har arbeidstilknytning, eller EØS-borger som har annen særlig tilknytning til Norge. Loven gjelder også for utenlandske statsborgere som på grunn av arbeid, utdanning, ekteskap, slektskap eller andre forhold har en særlig tilknytning til Norge, eller som har kommet til landet av politiske eller humanitære grunner, eller som deltar i særskilte utdanningsprogram som er godkjent av departementet.</p>
 <p>Departementet gir forskrifter om hvem som er omfattet av utdanningsstøtteordningene.</p>
-<p><em>Endret ved lov 19 juni 2009 nr. 41 (ikr. 1 jan 2010 iflg. res. 30 okt 2009 nr. 1324 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2009 nr. 41 (ikr. 1 jan 2010 iflg. res. 30 okt 2009 nr. 1324 ).</p>
 <h2 id="kapittel-ii-tildeling-av-utdanningssttte">Kapittel II. Tildeling av utdanningsstøtte</h2>
 <h4 id="4-utdanning-det-gis-sttte-til">§ 4. Utdanning det gis støtte til</h4>
 <p>Det gis utdanningsstøtte bare til en utdanning som er godkjent for utdanningsstøtte. Vedtak om godkjenning for utdanningsstøtte fattes av departementet eller den departementet bestemmer.</p>
@@ -107,7 +220,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Utdanningsstøtten kan behovsprøves mot økonomien til søkeren, søkerens ektefelle eller samboer og søkerens forsørgere. Ved behovsprøvingen kan det også legges vekt på økonomien til forsørgers ektefelle eller samboer.</p>
 <p>Utdanningsstøtten kan falle bort eller reduseres dersom søkeren får støtte gjennom andre støtteordninger.</p>
 <p>Departementet gir forskrifter om behovsprøving, herunder beløpsgrenser og hvilke grupper behovsprøvingen skal gjelde for.</p>
-<p><em>Endret ved lov 22 mai 2015 nr. 34 (ikr. 22 mai 2015 iflg. res. 22 mai 2015 nr. 534).</em></p>
+<p class="note">Endret ved lov 22 mai 2015 nr. 34 (ikr. 22 mai 2015 iflg. res. 22 mai 2015 nr. 534).</p>
 <h2 id="kapittel-iii-tilbakebetaling">Kapittel III. Tilbakebetaling</h2>
 <h4 id="8-tilbakebetaling">§ 8. Tilbakebetaling</h4>
 <p>Det skal fastsettes en tilbakebetalingsplan for den enkelte låntaker.</p>
@@ -115,28 +228,28 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Låntaker kan belastes gebyr ved utsending av terminvarsel, samt gebyrer ved for sen betaling. Låntaker kan i tillegg belastes gebyrer og kostnader i forbindelse med innkreving av utdanningslån.</p>
 <p>Det kan gis utsettelse med betaling av hele terminbeløp i inntil 3 år eller inntil 6 år ved utsettelse av halve terminbeløp. I særlige tilfeller kan det gis utsettelse ut over disse grensene. Det kan gis rentefritak i forbindelse med videre utdanning, militærtjeneste, sykdom, arbeidsledighet eller omsorgsforpliktelser når låntakers inntekt er under fastsatte grenser, eller hvor andre forhold gjør at innkreving av renter vil virke urimelig.</p>
 <p>Departementet gir forskrifter om tilbakebetaling av lån, blant annet om satser og gebyrer, rentefritak og utsettelse av betaling av terminbeløp.</p>
-<p><em>Endret ved lov 26 mai 2020 nr. 51 .</em></p>
+<p class="note">Endret ved lov 26 mai 2020 nr. 51 .</p>
 <h4 id="9-renter">§ 9. Renter</h4>
 <p>Statens lånekasse for utdanning (Lånekassen) regner renter av lånet når utdanningen er avsluttet eller avbrutt eller når låntakeren ikke lenger mottar støtte fra Lånekassen. For særlige ordninger kan Lånekassen regne renter av utdanningslånet fra utbetalingstidspunktet, dersom det er fastsatt av Stortinget.</p>
 <p>Lånekassen regner renter etter regler fastsatt av Stortinget. Departementet gir utfyllende forskrifter om fastsettelse og belastning av renter, og om rentebelastning for særlige ordninger etter første ledd andre punktum.</p>
-<p><em>Endret ved lov 31 mai 2024 nr. 27 (i kraft 1 aug 2024 iflg. res. 31 mai 2024 nr. 872 ).</em></p>
+<p class="note">Endret ved lov 31 mai 2024 nr. 27 (i kraft 1 aug 2024 iflg. res. 31 mai 2024 nr. 872 ).</p>
 <h4 id="10-ettergivelse">§ 10. Ettergivelse</h4>
 <p>Gjelden ettergis ved låntakers død.</p>
 <p>Gjelden ettergis, helt eller delvis, når det finnes rimelig på grunn av uførhet eller langvarig sykdom.</p>
 <p>Gjelden kan ettergis, helt eller delvis, etter rammer fastsatt av Stortinget, blant annet når låntaker er bosatt i og utøver et yrke i tiltakssonen i Finnmark og Nord-Troms eller andre bestemte deler av landet.</p>
 <p>Dersom grunnlaget for ettergivelse er falt bort og det ikke er gått mer enn ti år siden vedtaket ble fattet, kan gjelden reaktiveres.</p>
 <p>Departementet gir forskrifter med nærmere vilkår for ettergivelse av gjeld og reaktivering av gjeld.</p>
-<p><em>Endret ved lov 31 mai 2024 nr. 27 (i kraft 1 aug 2024 iflg. res. 31 mai 2024 nr. 872 ).</em></p>
+<p class="note">Endret ved lov 31 mai 2024 nr. 27 (i kraft 1 aug 2024 iflg. res. 31 mai 2024 nr. 872 ).</p>
 <h4 id="11-tvangsgrunnlag-for-utlegg">§ 11. Tvangsgrunnlag for utlegg</h4>
 <p>Krav på tilbakebetaling av utdanningsstøtte er tvangsgrunnlag for utlegg.</p>
 <h4 id="12-namsmyndighet">§ 12. Namsmyndighet</h4>
 <p>Krav som nevnt i § 11 innkreves av Innkrevingsmyndigheten med mindre departementet bestemmer annet.</p>
-<p><em>Endret ved lover 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 11 jan 2013 nr. 3 (ikr. 1 juni 2013 iflg. res. 24 mai 2013 nr. 533 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="13-overfring-av-fordringer-til-innkrevingsmyndigheten">§ 13. Overføring av fordringer til Innkrevingsmyndigheten</h4>
 <p>Ved vedvarende og grovt mislighold kan låntakers gjeld bli overført til Innkrevingsmyndigheten. En overføring av kravet til Innkrevingsmyndigheten medfører tap av rettigheter gitt i eller i medhold av denne lov. Dette gjelder likevel ikke ettergivelse av gjeld ved låntakers død.</p>
-<p><em>Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="14-opphevet">§ 14. (Opphevet)</h4>
-<p><em>Opphevet ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Opphevet ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="15-tap-av-rettigheter">§ 15. Tap av rettigheter</h4>
 <p>Søker eller låntaker som forsettlig eller uaktsomt har gitt uriktige opplysninger eller unnlatt å gi opplysninger, og av den grunn har mottatt eller forsøkt å motta støtte vedkommende ikke hadde rett til, kan helt eller delvis miste rettigheter gitt i eller i medhold av denne lov.</p>
 <p>Låntaker som misligholder sin betalingsplikt, kan helt eller delvis miste rettigheter gitt i eller i medhold av denne lov.</p>
@@ -146,10 +259,10 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Lånekassen forvalter utdanningsstøtten i samsvar med bestemmelsene gitt i eller i medhold av denne lov. Lånekassen er underlagt departementet.</p>
 <h4 id="17-innkreving">§ 17. Innkreving</h4>
 <p>Innkrevingsmyndigheten kan forvalte deler av regelverket om tilbakebetaling etter denne lov med forskrifter. For saker Innkrevingsmyndigheten behandler etter denne lov, har departementet instruksjonsmyndighet.</p>
-<p><em>Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lov 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="18-klagenemnd">§ 18. Klagenemnd</h4>
 <p>Departementet oppnevner en klagenemnd som er klageinstans for enkeltvedtak etter denne loven, herunder vedtak om tildeling av utdanningsstøtte, forrentning og tilbakebetaling. Departementet kan gi forskrift om klagenemnda og om saksbehandlingen i nemnda.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="19-regnskap-revisjon-og-kontroll">§ 19. Regnskap, revisjon og kontroll</h4>
 <p>Departementet fører tilsyn med Lånekassen og med Statens innkrevingssentral for de saker som behandles etter denne lov. Lånekassen sender hvert år etter departementets nærmere bestemmelser rapport og regnskap for foregående år. Riksrevisjonen reviderer Lånekassens regnskap og forvaltning.</p>
 <h2 id="kapittel-v-behandling-av-personopplysninger">Kapittel V Behandling av personopplysninger</h2>
@@ -158,37 +271,39 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Lånekassen kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , når det er nødvendig for å forvalte rettigheter eller plikter fastsatt i eller i medhold av denne loven. Dersom Lånekassen skal hente inn personopplysninger fra andre enn søkeren eller låntakeren selv, må vilkårene i § 21 være oppfylt.</p>
 <p>Lånekassen kan treffe avgjørelser som utelukkende er basert på automatisert behandling av personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 . Avgjørelsen kan ikke bygge på skjønnsmessige lov- eller forskriftsvilkår, med mindre avgjørelsen er utvilsom. Behandlingen må sikre partens krav til forsvarlig saksbehandling, og den må være forenlig med retten til vern av personopplysninger. Den registrerte har rett til manuell overprøving av avgjørelsen.</p>
 <p>Departementet gir forskrift om behandlingen av personopplysninger i Lånekassen, blant annet om formålet med behandlingen, hvilke typer personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling og utlevering.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</p>
 <h4 id="21-innhenting-av-personopplysninger">§ 21. Innhenting av personopplysninger</h4>
 <p>Dersom det er nødvendig for å forvalte søkerens eller låntakerens rettigheter eller plikter fastsatt i eller i medhold av denne loven, kan Lånekassen hente inn personopplysninger fra andre. Lånekassen skal gis nødvendige opplysninger uten hinder av taushetsplikt.</p>
 <p>Departementet gir forskrift om innhenting av personopplysninger, blant annet hvilke personopplysninger som kan hentes inn, hvor de kan hentes fra og om hvilke personer.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</p>
 <h4 id="22-utlevering-til-andre-lands-offentlige-utdanningsstttemyndigheter">§ 22. Utlevering til andre lands offentlige utdanningsstøttemyndigheter</h4>
 <p>Lånekassen kan uten hinder av taushetsplikt utlevere opplysninger til offentlige utdanningsstøttemyndigheter i en EØS-stat, på Færøyene og på Grønland når det er nødvendig for å kontrollere om en person har mottatt utdanningsstøtte fra Lånekassen og andre lands offentlige utdanningsstøtteordning samtidig. Lånekassen kan utlevere opplysninger om navn, kundenummer, fødselsnummer og hvilket undervisningsår og semester opplysningene gjelder for.</p>
 <p>Utleveringen fra Lånekassen kan skje uten hinder av taushetsplikt.</p>
-<p><em>Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</em></p>
+<p class="note">Tilføyd ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 ).</p>
 <h2 id="kapittel-vi-andre-bestemmelser">Kapittel VI. Andre bestemmelser</h2>
 <p>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere kap V).</p>
 <h4 id="23-finansiering">§ 23. Finansiering</h4>
 <p>Utdanningsstøtteordninger etter denne lov, utgiftene ved ettergivelse av lån, og avskriving for tap på fordringer finansieres ved midler bevilget over det årlige statsbudsjett og innlån fra staten.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 20).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 20).</p>
 <h4 id="24-krav-til-medvirkning">§ 24. Krav til medvirkning</h4>
 <p>Norske undervisningsinstitusjoner med personer som er berettiget til utdanningsstøtte, plikter å medvirke til gjennomføringen av ordningene i samsvar med nærmere bestemmelser som blir gitt av departementet og Lånekassen.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 21).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 21).</p>
 <h4 id="25-minstebelp">§ 25. Minstebeløp</h4>
 <p>Det kan settes en minstegrense for utbetaling av beløp som søkeren eller låntakeren ellers er berettiget til. Ved tildeling av støtte kan grensen være inntil kr 50 per måned i lån, og inntil kr 20 per måned i stipend. For annen utbetaling eller godskriving kan grensen settes inntil kr 50.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 22).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 22).</p>
 <h4 id="26-ikraftsetting">§ 26. Ikraftsetting</h4>
 <p>Loven gjelder fra den tid Kongen bestemmer. 1 Kongen kan sette i kraft de enkelte bestemmelsene til forskjellig tid.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 24).
-1 Iflg. res. 3 juni 2005 nr. 512 gjelder § 23 fra 15 juli 2005, kapittel III og IV gjelder i sin helhet fra 1 jan 2006, og loven i sin helhet gjelder fra 15 aug 2006.</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 24).
+1 Iflg. res. 3 juni 2005 nr. 512 gjelder § 23 fra 15 juli 2005, kapittel III og IV gjelder i sin helhet fra 1 jan 2006, og loven i sin helhet gjelder fra 15 aug 2006.</p>
 <h4 id="27-opphevelse-av-andre-lover">§ 27. Opphevelse av andre lover</h4>
 <p>Fra lovens ikraftsetting oppheves lov av 26. april 1985 nr. 21 om utdanningsstøtte til elever og studenter. 1</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 25).
-1 Iflg. res. 3 juni 2005 nr. 512 er § 16 i den loven opphevet fra 15 juli 2005, § 8 til § 9a er opphevet fra 1 jan 2006, og loven i sin helhet er opphevet fra 15 aug 2006.</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 25).
+1 Iflg. res. 3 juni 2005 nr. 512 er § 16 i den loven opphevet fra 15 juli 2005, § 8 til § 9a er opphevet fra 1 jan 2006, og loven i sin helhet er opphevet fra 15 aug 2006.</p>
 <h4 id="28-overgangsregler">§ 28. Overgangsregler</h4>
 <p>For låntakere som har lån fra før 1. juli 1985 regnes det ikke renter av rentegjeld som er opparbeidet før 1. januar 1990. Departementet kan for øvrig fastsette nødvendige overgangsbestemmelser.</p>
-<p><em>Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 26).</em></p>
+<p class="note">Endret ved lov 11 juni 2021 nr. 81 (ikr. 1 jan 2022 iflg. res. 18 juni 2021 nr. 1972 , tidligere § 26).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

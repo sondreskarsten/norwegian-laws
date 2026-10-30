@@ -19,79 +19,192 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1996-11-29-68.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Svalbardskatteloven – svalbsktl" href="../feeds/lov-1996-11-29-68.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Svalbardskatteloven – svalbsktl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1996-11-29-68</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skatte- og avgiftsrett &raquo; Svalbardskatt\nSvalbard og biland &raquo; Generelt</dd>
-<dt>Ikrafttredelse</dt><dd>1998-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-12-22-118</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1996-11-29-68" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-skattesatser">§ 1-2. Skattesatser</a></li>
+<li class="lvl4"><a href="#1-3-skattesubjekter">§ 1-3. Skattesubjekter</a></li>
+<li class="lvl4"><a href="#1-4-fritak-for-skatt">§ 1-4. Fritak for skatt</a></li>
+<li class="lvl4"><a href="#1-5-fullmaktshjemmel">§ 1-5. Fullmaktshjemmel</a></li>
+<li class="lvl2"><a href="#kapittel-2-skatteplikt-til-svalbard">Kapittel 2. Skatteplikt til Svalbard</a></li>
+<li class="lvl4"><a href="#2-1-personer-bosatt-pa-svalbard">§ 2-1. Personer bosatt på Svalbard</a></li>
+<li class="lvl4"><a href="#2-2-personer-som-ikke-er-bosatt-pa-svalbard">§ 2-2. Personer som ikke er bosatt på Svalbard</a></li>
+<li class="lvl4"><a href="#2-3-selskaper-hjemmehrende-pa-svalbard">§ 2-3. Selskaper hjemmehørende på Svalbard</a></li>
+<li class="lvl4"><a href="#2-4-selskaper-som-ikke-er-hjemmehrende-pa-svalbard">§ 2-4. Selskaper som ikke er hjemmehørende på Svalbard</a></li>
+<li class="lvl2"><a href="#kapittel-3-skatt-av-formue-og-inntekt">Kapittel 3. Skatt av formue og inntekt</a></li>
+<li class="lvl4"><a href="#3-1-skattlegging-ved-lnnstrekk">§ 3-1. Skattlegging ved lønnstrekk</a></li>
+<li class="lvl4"><a href="#3-2-formue-og-annen-inntekt-enn-lnn">§ 3-2. Formue og annen inntekt enn lønn</a></li>
+<li class="lvl4"><a href="#3-3-fribelp-for-ungdom">§ 3-3. Fribeløp for ungdom</a></li>
+<li class="lvl2"><a href="#kapittel-4-skatteforvaltning-mv">Kapittel 4. Skatteforvaltning mv.</a></li>
+<li class="lvl4"><a href="#4-1-skatteforvaltningslovens-anvendelse-pa-svalbard">§ 4-1. Skatteforvaltningslovens anvendelse på Svalbard</a></li>
+<li class="lvl4"><a href="#4-2-srlige-bestemmelser-for-visse-grupper-skattepliktige">§ 4-2. Særlige bestemmelser for visse grupper skattepliktige</a></li>
+<li class="lvl4"><a href="#4-3-opphevet">§ 4-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-4-opphevet">§ 4-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-5-opphevet">§ 4-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-6-opphevet">§ 4-6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-7-opphevet">§ 4-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-8-opphevet">§ 4-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-9-opphevet">§ 4-9. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-5-betaling-og-innkreving-av-skatt">Kapittel 5. Betaling og innkreving av skatt</a></li>
+<li class="lvl4"><a href="#5-1-skattebetalingslovens-og-innkrevingslovens-anvendelse-pa-svalbard">§ 5-1. Skattebetalingslovens og innkrevingslovens anvendelse på Svalbard</a></li>
+<li class="lvl4"><a href="#5-2-skatt-fastsatt-ved-lnnstrekk">§ 5-2. Skatt fastsatt ved lønnstrekk</a></li>
+<li class="lvl4"><a href="#5-3-opphevet">§ 5-3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-6-ikrafttredelse-og-overgangsbestemmelser">Kapittel 6. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-ikrafttredelse">§ 6-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#6-2-overgangsbestemmelser">§ 6-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-3-avvikling-av-forenklet-fellesoppgjr">§ 6-3. Avvikling av forenklet fellesoppgjør</a></li>
+<li class="lvl4"><a href="#6-4-avvikling-av-srskilt-praksis-for-pendlere">§ 6-4. Avvikling av særskilt praksis for pendlere</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-12-22-118.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1996-11-29-68.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om skatt til Svalbard (Svalbardskatteloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1996-11-29-68.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1996-11-29-68 <code>lov/1996-11-29-68</code></td></tr>
+<tr><th>Korttittel</th><td>Svalbardskatteloven – svalbsktl</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skatte- og avgiftsrett &raquo; Svalbardskatt\nSvalbard og biland &raquo; Generelt</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1998</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-12-22-118 <code>lov/2025-12-22-118</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1996-11-29-68" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-skattesatser">§ 1-2. Skattesatser</a></li>
+<li class="lvl4"><a href="#1-3-skattesubjekter">§ 1-3. Skattesubjekter</a></li>
+<li class="lvl4"><a href="#1-4-fritak-for-skatt">§ 1-4. Fritak for skatt</a></li>
+<li class="lvl4"><a href="#1-5-fullmaktshjemmel">§ 1-5. Fullmaktshjemmel</a></li>
+<li class="lvl2"><a href="#kapittel-2-skatteplikt-til-svalbard">Kapittel 2. Skatteplikt til Svalbard</a></li>
+<li class="lvl4"><a href="#2-1-personer-bosatt-pa-svalbard">§ 2-1. Personer bosatt på Svalbard</a></li>
+<li class="lvl4"><a href="#2-2-personer-som-ikke-er-bosatt-pa-svalbard">§ 2-2. Personer som ikke er bosatt på Svalbard</a></li>
+<li class="lvl4"><a href="#2-3-selskaper-hjemmehrende-pa-svalbard">§ 2-3. Selskaper hjemmehørende på Svalbard</a></li>
+<li class="lvl4"><a href="#2-4-selskaper-som-ikke-er-hjemmehrende-pa-svalbard">§ 2-4. Selskaper som ikke er hjemmehørende på Svalbard</a></li>
+<li class="lvl2"><a href="#kapittel-3-skatt-av-formue-og-inntekt">Kapittel 3. Skatt av formue og inntekt</a></li>
+<li class="lvl4"><a href="#3-1-skattlegging-ved-lnnstrekk">§ 3-1. Skattlegging ved lønnstrekk</a></li>
+<li class="lvl4"><a href="#3-2-formue-og-annen-inntekt-enn-lnn">§ 3-2. Formue og annen inntekt enn lønn</a></li>
+<li class="lvl4"><a href="#3-3-fribelp-for-ungdom">§ 3-3. Fribeløp for ungdom</a></li>
+<li class="lvl2"><a href="#kapittel-4-skatteforvaltning-mv">Kapittel 4. Skatteforvaltning mv.</a></li>
+<li class="lvl4"><a href="#4-1-skatteforvaltningslovens-anvendelse-pa-svalbard">§ 4-1. Skatteforvaltningslovens anvendelse på Svalbard</a></li>
+<li class="lvl4"><a href="#4-2-srlige-bestemmelser-for-visse-grupper-skattepliktige">§ 4-2. Særlige bestemmelser for visse grupper skattepliktige</a></li>
+<li class="lvl4"><a href="#4-3-opphevet">§ 4-3. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-4-opphevet">§ 4-4. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-5-opphevet">§ 4-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-6-opphevet">§ 4-6. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-7-opphevet">§ 4-7. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-8-opphevet">§ 4-8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#4-9-opphevet">§ 4-9. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-5-betaling-og-innkreving-av-skatt">Kapittel 5. Betaling og innkreving av skatt</a></li>
+<li class="lvl4"><a href="#5-1-skattebetalingslovens-og-innkrevingslovens-anvendelse-pa-svalbard">§ 5-1. Skattebetalingslovens og innkrevingslovens anvendelse på Svalbard</a></li>
+<li class="lvl4"><a href="#5-2-skatt-fastsatt-ved-lnnstrekk">§ 5-2. Skatt fastsatt ved lønnstrekk</a></li>
+<li class="lvl4"><a href="#5-3-opphevet">§ 5-3. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-6-ikrafttredelse-og-overgangsbestemmelser">Kapittel 6. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-1-ikrafttredelse">§ 6-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#6-2-overgangsbestemmelser">§ 6-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#6-3-avvikling-av-forenklet-fellesoppgjr">§ 6-3. Avvikling av forenklet fellesoppgjør</a></li>
+<li class="lvl4"><a href="#6-4-avvikling-av-srskilt-praksis-for-pendlere">§ 6-4. Avvikling av særskilt praksis for pendlere</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1996-11-29-68.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1996-11-29-68.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1996-11-29-68.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1996-11-29-68.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1996-11-29-68.html">Observerte kildeutgaver</a> · <a href="../historie/svalbardskatteloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1996-11-29-68.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1996-11-29-68.html">Observerte kildeutgaver</a> · <a href="../historie/svalbardskatteloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1996-11-29-68.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-skatt-til-svalbard-svalbardskatteloven">Lov om skatt til Svalbard (Svalbardskatteloven)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</h4>
 <p>Denne lov gjelder skatt til Svalbard av formue og inntekt, herunder fastsetting, betaling og innkreving av slik skatt.</p>
 <p>Svalbard omfatter de områder av kongeriket Norge som er nevnt i lov om Svalbard av 17. juli 1925 nr. 11 § 1 annet ledd.</p>
-<p><em>Endret ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="1-2-skattesatser">§ 1-2. Skattesatser</h4>
 <p>Stortinget fastsetter for hver budsjettermin skattesatsene etter denne lov.</p>
 <h4 id="1-3-skattesubjekter">§ 1-3. Skattesubjekter <a class="para-history" href="../historikk/lov-1996-11-29-68/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Med person menes i denne lov fysiske personer samt boer etter slike.</p>
 <p>Med selskap menes aksjeselskap og allmennaksjeselskap samt likestilt selskap og sammenslutning som nevnt i <a href="lov-1999-03-26-14.html">skatteloven</a> kapittel 10 , samt boer etter slike.</p>
-<p><em>Endret ved lover 13 juni 1997 nr. 44 (ikr. 1 jan 1999), 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 13 juni 1997 nr. 44 (ikr. 1 jan 1999), 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 25 juni 2024 nr. 63 .</p>
 <h4 id="1-4-fritak-for-skatt">§ 1-4. Fritak for skatt <a class="para-history" href="../historikk/lov-1996-11-29-68/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formues- og inntektsskatt etter denne lov kan ikke pålegges institusjoner mv. som omfattes av skatteloven § 2-30 første ledd bokstavene b og d og § 2-32 første og fjerde ledd .</p>
 <p>Den norske stat er likevel skattepliktig for formue og inntekt knyttet til statens bergverksdrift på Svalbard.</p>
-<p><em>Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 25 juni 2024 nr. 63 .</p>
 <h4 id="1-5-fullmaktshjemmel">§ 1-5. Fullmaktshjemmel</h4>
 <p>Kongen kan gi forskrifter til utfylling og gjennomføring av denne lov.</p>
 <h2 id="kapittel-2-skatteplikt-til-svalbard">Kapittel 2. Skatteplikt til Svalbard</h2>
@@ -104,25 +217,25 @@ b. Dersom begrensningen i skatteplikt etter dette ledd leder til at et betydelig
 <p>Lønn og annen godtgjørelse for arbeid utført utenfor Svalbard er unntatt fra skatteplikten dersom det godtgjøres at inntekten er skattepliktig ved annen norsk skattlegging eller i fremmed stat.</p>
 <p>Det samme gjelder inntekt vunnet ved næringsvirksomhet som er utøvet utenfor Svalbard.</p>
 <p>Skatt skal ikke svares av formue i eller inntekt av fast eiendom eller anlegg med tilbehør som ligger utenfor Svalbard.</p>
-<p><em>Endret ved lover 17 des 1999 nr. 91 (f o m inntektsåret 2000), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 17 des 1999 nr. 91 (f o m inntektsåret 2000), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 .</p>
 <h4 id="2-2-personer-som-ikke-er-bosatt-pa-svalbard">§ 2-2. Personer som ikke er bosatt på Svalbard <a class="para-history" href="../historikk/lov-1996-11-29-68/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Personer som tar midlertidig opphold på Svalbard og der utfører arbeid eller utøver næringsvirksomhet, skal svare skatt til Svalbard av inntekt vunnet ved slikt arbeid eller virksomhet dersom oppholdet varer sammenhengende i minst 30 dager.</p>
 <p>Personer som tar midlertidig opphold på Svalbard og der mottar ytelser som nevnt i skatteloven § 5-10 bokstav c , skal svare skatt til Svalbard av ytelsene dersom oppholdet varer sammenhengende i minst 30 dager, og vedkommende var i aktivt arbeid på Svalbard da retten til utbetaling oppstod. Departementet kan gi forskrift om at skatteplikten til Svalbard skal bestå ved midlertidig opphold utenfor Svalbard.</p>
 <p>Personer hjemmehørende utenfor Svalbard skal svare skatt av formue i og inntekt av fast eiendom og anlegg med tilbehør som ligger på Svalbard. Det kan kreves fradrag for gjeld stiftet til erverv av slik formue og renter av denne gjelden.</p>
-<p><em>Endret ved lover 27 mars 1998 nr. 17 (f o m inntektsåret 1998), 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 27 mars 1998 nr. 17 (f o m inntektsåret 1998), 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 25 juni 2024 nr. 63 .</p>
 <h4 id="2-3-selskaper-hjemmehrende-pa-svalbard">§ 2-3. Selskaper hjemmehørende på Svalbard <a class="para-history" href="../historikk/lov-1996-11-29-68/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Selskaper som er hjemmehørende på Svalbard, skal svare skatt av hele sin inntekt når ikke annet følger av denne lov. Et selskap anses som hjemmehørende på Svalbard dersom det har kontor på Svalbard og selskapet ledes derfra.</p>
 <p>Inntekt av næringsvirksomhet utøvet utenfor Svalbard unntas fra skatteplikt dersom det godtgjøres at inntekten er skattepliktig ved annen norsk skattlegging eller i fremmed stat.</p>
 <p>Skatt skal ikke svares av inntekt av fast eiendom eller anlegg med tilbehør som ligger utenfor Svalbard.</p>
-<p><em>Endret ved lover 21 des 2000 nr. 110 , 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 21 des 2000 nr. 110 , 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 .</p>
 <h4 id="2-4-selskaper-som-ikke-er-hjemmehrende-pa-svalbard">§ 2-4. Selskaper som ikke er hjemmehørende på Svalbard <a class="para-history" href="../historikk/lov-1996-11-29-68/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Selskaper som er hjemmehørende utenfor Svalbard, skal svare skatt av inntekt vunnet ved virksomhet utøvet på Svalbard, dersom virksomheten varer sammenhengende i minst 30 dager. § 2-2 tredje ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lover 10 des 2010 nr. 64 (f o m inntektsåret 2011), 25 juni 2024 nr. 63 .</em></p>
+<p class="note">Endret ved lover 10 des 2010 nr. 64 (f o m inntektsåret 2011), 25 juni 2024 nr. 63 .</p>
 <h2 id="kapittel-3-skatt-av-formue-og-inntekt">Kapittel 3. Skatt av formue og inntekt</h2>
 <h4 id="3-1-skattlegging-ved-lnnstrekk">§ 3-1. Skattlegging ved lønnstrekk <a class="para-history" href="../historikk/lov-1996-11-29-68/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skatt av lønn, pensjoner og annen ytelse som nevnt i skatteloven § 12-2 bokstavene a, b, c, j og k, beregnes med en prosentvis fastsatt del av ytelsens bruttoverdi, jf. § 5-2 . Skatten beregnes med en lav sats for inntekt opp til 12 ganger folketrygdens grunnbeløp, og med en høyere sats for overskytende inntekt. I det samlede inntektsgrunnlaget etter forrige punktum inngår også inntekt som nevnt i § 3-2 fjerde ledd bokstav b. Det benyttes det grunnbeløp som sist ble fastsatt for inntektsåret.</p>
 <p>Ved utflytting fra Svalbard gjelder skatteloven § 14-3 fjerde ledd bokstav b tilsvarende.</p>
-<p><em>Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 14 des 2007 nr. 104 (f o m inntektsåret 2008), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 19 juni 2015 nr. 51 (i kraft 19 juni 2015 med virkning fra inntektsåret 2015), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 , tidligere § 3-2), 25 juni 2024 nr. 63 (med virkning fra inntektsåret 2024).</em></p>
+<p class="note">Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 14 des 2007 nr. 104 (f o m inntektsåret 2008), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 19 juni 2015 nr. 51 (i kraft 19 juni 2015 med virkning fra inntektsåret 2015), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 , tidligere § 3-2), 25 juni 2024 nr. 63 (med virkning fra inntektsåret 2024).</p>
 <h4 id="3-2-formue-og-annen-inntekt-enn-lnn">§ 3-2. Formue og annen inntekt enn lønn <a class="para-history" href="../historikk/lov-1996-11-29-68/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formue og inntekt av annen art enn nevnt i § 3-1 skattlegges etter reglene i skatteloven , med mindre annet er bestemt.</p>
 <p>I skatteloven unntas fra anvendelse bestemmelsene om vilkår for skatteplikt til riket, om fordeling av beskatningsretten mellom kommuner, om sambeskatning av ektefeller, om minstefradrag og særfradrag, om skipsaksjeselskaper og skipsallmennaksjeselskaper og om beregning av personinntekt. Skattepliktig utdeling fra selskap og gevinst eller tap ved realisasjon av selskapsandel skal ikke oppjusteres etter reglene i skatteloven. Videre unntas §§ 2-30 til 2-32 fjerde ledd, § 4-10 annet ledd første punktum og tredje ledd første punktum, § 6-13 første ledd, §§ 6-18 til 6-20 , §§ 6-42 til 6-44 , §§ 6-47 til 6-49 , § 6-61 , § 10-12 , § 10-31 første ledd annet punktum, reglene i § 10-34 gjelder bare i forhold til endring av aksjens kostpris, § 10-42 femte til tiende ledd, § 10-44 annet ledd annet punktum, § 16-10 , samt kapittel 15 og 17 . Ved anvendelsen av bestemmelsene om gjelds- og gjeldsrentefordeling i skatteloven §§ 4-31 og 6-91 likestilles unntak fra skattlegging på Svalbard etter denne lov med unntak fra skattlegging i Norge etter overenskomst med fremmed stat.</p>
@@ -131,38 +244,38 @@ b. Dersom begrensningen i skatteplikt etter dette ledd leder til at et betydelig
 <p>a. Ved fastsettelsen av alminnelig inntekt fra enkeltpersonforetak gis det fradrag for renter på gjeld til finansinstitusjoner og gjeld som knytter seg til mengdegjeldsbrev. Fradrag gis i den utstrekning gjelden ikke overstiger verdien av eiendelene i virksomheten. Ved fastsettelsen av verdien av eiendelene i virksomheten, gjelder skatteloven § 12-12 annet ledd tilsvarende, med unntak av § 12-12 annet ledd bokstav c.
 b. Skatt av alminnelig inntekt fra enkeltpersonforetak beregnes med en prosentvis fastsatt del av denne inntekten og med samme satser som er fastsatt for lønnsinntekt, jf. § 3-1 . Slik inntekt inngår ikke ved fastsettelsen av ordinær alminnelig inntekt. Særskilt godtgjørelse etter <a href="lov-1985-06-21-83.html">selskapsloven</a> § 2-26 første ledd skattlegges på tilsvarende måte.
 c. Underskudd i enkeltpersonforetak fremføres til fradrag i senere års inntekt fra enkeltpersonforetak. Når det ved opphør av virksomhet i enkeltpersonforetak er udekket underskudd, kan slikt underskudd kreves avregnet mot alminnelig inntekt ved bruk av en avregningsfaktor på 0,5.</p>
-<p><em>Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 17 des 1999 nr. 91 (f o m inntektsåret 2000), 21 des 2000 nr. 110 (f o m inntektsåret 2000 for skattytere som nevnt i § 1-3 annet ledd, f o m inntektsåret 2001 for skattytere som nevnt i § 1-3 første ledd), 9 des 2005 nr. 110 (f o m inntektsåret 2006), 14 des 2007 nr. 104 (f o m inntektsåret 2008), 10 des 2010 nr. 64 (f o m inntektsåret 2010), 18 des 2015 nr. 113 (f o m inntektsåret 2016), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 , tidligere § 3-1), 18 juni 2021 nr. 104 .</em></p>
+<p class="note">Endret ved lover 26 mars 1999 nr. 14 (ikr. 1 jan 2000), 17 des 1999 nr. 91 (f o m inntektsåret 2000), 21 des 2000 nr. 110 (f o m inntektsåret 2000 for skattytere som nevnt i § 1-3 annet ledd, f o m inntektsåret 2001 for skattytere som nevnt i § 1-3 første ledd), 9 des 2005 nr. 110 (f o m inntektsåret 2006), 14 des 2007 nr. 104 (f o m inntektsåret 2008), 10 des 2010 nr. 64 (f o m inntektsåret 2010), 18 des 2015 nr. 113 (f o m inntektsåret 2016), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 , tidligere § 3-1), 18 juni 2021 nr. 104 .</p>
 <h4 id="3-3-fribelp-for-ungdom">§ 3-3. Fribeløp for ungdom <a class="para-history" href="../historikk/lov-1996-11-29-68/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ungdom som ved utløpet av inntektsåret er fra og med 13 til og med 19 år, skal ikke betale skatt av lønn, feriepenger, annen godtgjørelse vunnet ved arbeid i tjenesteforhold og sykepenger innenfor et beløp svarende til beløpsgrensen for frikort på det norske fastlandet, jf. <a href="lov-2005-06-17-67.html">skattebetalingsloven</a> kapittel 5 med forskrifter. Arbeidsgiver trekker skatt etter § 3-1 uten hensyn til fribeløpet. Trukket skatt innenfor fribeløpet refunderes fra skattemyndighetene. Refusjonsbeløpet utbetales så snart som mulig og senest tre uker etter at vedtaket om tilbakebetaling ble truffet. Skattebetalingsloven § 11-3 gjelder tilsvarende. Skattebetalingsloven § 11-4 gjelder ikke.</p>
-<p><em>Tilføyd ved lov 22 des 2025 nr. 118 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved lov 22 des 2025 nr. 118 (i kraft 1 jan 2026).</p>
 <h2 id="kapittel-4-skatteforvaltning-mv">Kapittel 4. Skatteforvaltning mv.</h2>
 <p>Kapitlet endret ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-1-skatteforvaltningslovens-anvendelse-pa-svalbard">§ 4-1. Skatteforvaltningslovens anvendelse på Svalbard</h4>
 <p><a href="lov-2016-05-27-14.html">Skatteforvaltningsloven</a> gjelder ved fastsetting av skatt og trygdeavgift til Svalbard jf. skatteforvaltningsloven § 1-1 bokstav b.</p>
-<p><em>Endret ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-2-srlige-bestemmelser-for-visse-grupper-skattepliktige">§ 4-2. Særlige bestemmelser for visse grupper skattepliktige <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan fastsette nærmere regler om</p>
 <p>a. forenklet felles skatteoppgjør for prosjektgrupper mv. med kortere opphold på Svalbard,
 b. krav til registrering og dokumentasjon av regnskapsopplysninger, årsregnskap og årsberetning for næringsdrivende selskaper, eller for grupper av slike.</p>
-<p><em>Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 19 des 2014 nr. 78 (ikr. 1 juli 2016 iflg. res. 22 jan 2016 nr. 43 ), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 19 des 2014 nr. 78 (ikr. 1 juli 2016 iflg. res. 22 jan 2016 nr. 43 ), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-3-opphevet">§ 4-3. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lover 25 juni 2004 nr. 42 , 17 juni 2005 nr. 72 (ikr. 1 aug 2005 iflg. vedtak 30 juni 2005 nr. 780 ), 14 des 2007 nr. 104 (ikr. 1 jan 2008), 26 apr 2013 nr. 16 (ikr. 1 juli 2013 iflg. res. 26 apr 2013 nr. 413 ), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 25 juni 2004 nr. 42 , 17 juni 2005 nr. 72 (ikr. 1 aug 2005 iflg. vedtak 30 juni 2005 nr. 780 ), 14 des 2007 nr. 104 (ikr. 1 jan 2008), 26 apr 2013 nr. 16 (ikr. 1 juli 2013 iflg. res. 26 apr 2013 nr. 413 ), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-4-opphevet">§ 4-4. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 12 des 2008 nr. 95 (ikr. 1 jan 2009), 10 des 2010 nr. 64 (f o m inntektsåret 2011), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 12 des 2008 nr. 95 (ikr. 1 jan 2009), 10 des 2010 nr. 64 (f o m inntektsåret 2011), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-5-opphevet">§ 4-5. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 26 apr 2013 nr. 16 (ikr. 1 juli 2013 iflg. res. 26 apr 2013 nr. 413 ), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 26 apr 2013 nr. 16 (ikr. 1 juli 2013 iflg. res. 26 apr 2013 nr. 413 ), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-6-opphevet">§ 4-6. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 14 des 2007 nr. 104 (ikr. 1 jan 2008), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-7-opphevet">§ 4-7. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lov 14 des 2007 nr. 104 (ikr. 1 jan 2008), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lov 14 des 2007 nr. 104 (ikr. 1 jan 2008), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-8-opphevet">§ 4-8. (Opphevet)</h4>
-<p><em>Endret ved lov 17 des 1999 nr. 91 (ikr. 1 jan 2000), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lov 17 des 1999 nr. 91 (ikr. 1 jan 2000), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h4 id="4-9-opphevet">§ 4-9. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lover 17 juli 1998 nr. 56 (ikr. 1 jan 1999), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lover 17 juli 1998 nr. 56 (ikr. 1 jan 1999), 10 des 2010 nr. 64 (f o m inntektsåret 2011), 19 des 2014 nr. 78 (ikr. 1 jan 2015), opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h2 id="kapittel-5-betaling-og-innkreving-av-skatt">Kapittel 5. Betaling og innkreving av skatt</h2>
 <h4 id="5-1-skattebetalingslovens-og-innkrevingslovens-anvendelse-pa-svalbard">§ 5-1. Skattebetalingslovens og innkrevingslovens anvendelse på Svalbard <a class="para-history" href="../historikk/lov-1996-11-29-68/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skattebetalingsloven og <a href="lov-2025-04-25-12.html">innkrevingsloven</a> gjelder ved betaling og innkreving av skatt og trygdeavgift til Svalbard.</p>
-<p><em>Endret ved lover 19 juni 1997 nr. 76 (f o m inntektsåret 1998), 15 des 2000 nr. 93 (ikr. 1 jan 2001), 14 des 2007 nr. 104 (ikr. 1 jan 2008), 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ) som endret ved lov 12 des 2008 nr. 100 , 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 19 juni 1997 nr. 76 (f o m inntektsåret 1998), 15 des 2000 nr. 93 (ikr. 1 jan 2001), 14 des 2007 nr. 104 (ikr. 1 jan 2008), 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ) som endret ved lov 12 des 2008 nr. 100 , 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="5-2-skatt-fastsatt-ved-lnnstrekk">§ 5-2. Skatt fastsatt ved lønnstrekk <a class="para-history" href="../historikk/lov-1996-11-29-68/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved utbetaling av lønn og annen godtgjørelse for arbeid skal arbeidsgiver gjøre fradrag i ytelsens verdi for skatt etter § 3-1 . Arbeidsgiver trekker skatt med høy sats når samlet utbetaling fra arbeidsgiveren til den ansatte i inntektsåret overstiger 12 ganger folketrygdens grunnbeløp.</p>
 <p>Ansatte som sannsynliggjør samlet inntekt over 12 ganger folketrygdens grunnbeløp fra flere arbeidsgivere i inntektsåret, kan kreve at det fastsettes forskuddsskatt etter bestemmelsene i skattebetalingsloven på dette grunnlag.</p>
@@ -173,9 +286,9 @@ b. krav til registrering og dokumentasjon av regnskapsopplysninger, årsregnskap
 <p>Når samlet lønn og annen ytelse som omfattes av § 3-2 overstiger 12 ganger folketrygdens grunnbeløp, skjer avregning og innkreving mv. etter bestemmelsene i skattebetalingsloven og innkrevingsloven , med de unntak og presiseringer som følger av § 5-1 .</p>
 <p>Bestemmelsene i denne paragraf gjelder tilsvarende ved utbetaling av andre ytelser som nevnt i § 3-2 .</p>
 <p>Departementet kan fastsette nærmere regler om gjennomføring av lønnstrekkordningen, herunder om lønnstrekk i naturalytelser og utgiftsgodtgjørelser.</p>
-<p><em>Endret ved lover 14 des 2007 nr. 104 (f o m inntektsåret 2008), 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ) som endret ved lov 12 des 2008 nr. 100 , 10 des 2010 nr. 64 (ikr. 10 des 2010 for femte ledd fjerde punktum, f o m inntektsåret 2011 for femte ledd tredje punktum), 19 des 2014 nr. 78 (ikr. 1 jan 2015), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ), 20 juni 2025 nr. 48 (i kraft 1 jan 2026 iflg. res. 20. juni 2025 nr. 1086 ).</em></p>
+<p class="note">Endret ved lover 14 des 2007 nr. 104 (f o m inntektsåret 2008), 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ) som endret ved lov 12 des 2008 nr. 100 , 10 des 2010 nr. 64 (ikr. 10 des 2010 for femte ledd fjerde punktum, f o m inntektsåret 2011 for femte ledd tredje punktum), 19 des 2014 nr. 78 (ikr. 1 jan 2015), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 25 juni 2024 nr. 63 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ), 20 juni 2025 nr. 48 (i kraft 1 jan 2026 iflg. res. 20. juni 2025 nr. 1086 ).</p>
 <h4 id="5-3-opphevet">§ 5-3. (Opphevet) <a class="para-history" href="../historikk/lov-1996-11-29-68/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved lov 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ), tidligere § 5-4, opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 67 (ikr. 1 jan 2009 iflg. res. 21 des 2007 nr. 1616 ), tidligere § 5-4, opphevet ved lov 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ).</p>
 <h2 id="kapittel-6-ikrafttredelse-og-overgangsbestemmelser">Kapittel 6. Ikrafttredelse og overgangsbestemmelser</h2>
 <h4 id="6-1-ikrafttredelse">§ 6-1. Ikrafttredelse</h4>
 <p>Denne lov trer i kraft med virkning fra 1. januar 1998. Samtidig oppheves lov av 15. juli 1925 om skatt til Svalbard på formue og inntekt.</p>
@@ -186,13 +299,15 @@ b. krav til registrering og dokumentasjon av regnskapsopplysninger, årsregnskap
 <p>§ 3-3 gjelder tilsvarende.</p>
 <p>Ordningen med forenklet felles skatteoppgjør avvikles fra den tid Kongen bestemmer. Etter avvikling skattlegges denne gruppen etter ordinære regler og skattesatser. Overgang til ordinær beskatning skal tidligst skje for inntektsåret 2015.</p>
 <p>Ved forenklet felles skatteoppgjør i overgangsperioden benyttes skattesatser fastsatt av Stortinget.</p>
-<p><em>Tilføyd ved lov 15 des 2006 nr. 79 (med virkning for inntektsårene 2006 og 2007), endret ved lover 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 22 des 2025 nr. 118 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved lov 15 des 2006 nr. 79 (med virkning for inntektsårene 2006 og 2007), endret ved lover 10 des 2010 nr. 64 (f o m inntektsåret 2011), 27 mai 2016 nr. 14 (ikr. 1 jan 2017 iflg. res. 27 mai 2016 nr. 531 ), 22 des 2025 nr. 118 (i kraft 1 jan 2026).</p>
 <h4 id="6-4-avvikling-av-srskilt-praksis-for-pendlere">§ 6-4. Avvikling av særskilt praksis for pendlere <a class="para-history" href="../historikk/lov-1996-11-29-68/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Denne paragraf gjelder for ansatte som ikke er bosatt på Svalbard, og som er ansatt i stillinger som har gått inn under særskilt praksis for skatt til Svalbard for pendlere. Gjeldende praksis videreføres ut inntektsåret 2014, og avsluttes deretter. Følgende vilkår må være oppfylt for den enkelte ansatte:</p>
 <p>a. det første arbeidsoppholdet på Svalbard varer sammenhengende i 30 dager, og
 b. påfølgende arbeidsopphold er ledd i en turnusordning med regelmessige arbeidsopphold på Svalbard, og
 c. vedkommende har ikke inntekt fra selvstendige arbeidsforhold utenfor Svalbard.</p>
-<p><em>Tilføyd ved lov 10 des 2010 nr. 64 (f o m inntektsåret 2011).</em></p>
+<p class="note">Tilføyd ved lov 10 des 2010 nr. 64 (f o m inntektsåret 2011).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,231 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-05-26-1811.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om opptak, studier og eksamen ved NIH" href="../feeds/forskrift-2005-05-26-1811.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om opptak, studier og eksamen ved NIH</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-05-26-1811</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-05-26, opptak høst 2007</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-11-13-2636</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-05-26-1811" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-opptak">Kapittel II. Opptak</a></li>
+<li class="lvl4"><a href="#3-opptaksrammer">§ 3. Opptaksrammer</a></li>
+<li class="lvl4"><a href="#4-generelt-opptaksgrunnlag">§ 4. Generelt opptaksgrunnlag</a></li>
+<li class="lvl4"><a href="#5-opptakskrav-for-de-enkelte-studier">§ 5. Opptakskrav for de enkelte studier</a></li>
+<li class="lvl4"><a href="#6-rangeringsregler-for-de-enkelte-studier">§ 6. Rangeringsregler for de enkelte studier</a></li>
+<li class="lvl4"><a href="#7-kvoter">§ 7. Kvoter</a></li>
+<li class="lvl4"><a href="#8-overgang-mellom-studieprogram">§ 8. Overgang mellom studieprogram</a></li>
+<li class="lvl4"><a href="#9-opptakskomite">§ 9. Opptakskomité</a></li>
+<li class="lvl4"><a href="#10-sknadsfrister">§ 10. Søknadsfrister</a></li>
+<li class="lvl4"><a href="#11-politi-og-helseattest">§ 11. Politi- og helseattest</a></li>
+<li class="lvl4"><a href="#12-reservering-av-studieplass">§ 12. Reservering av studieplass</a></li>
+<li class="lvl4"><a href="#13-opptak-som-emnestudent">§ 13. Opptak som emnestudent</a></li>
+<li class="lvl4"><a href="#14-sknad-og-dokumentasjon">§ 14. Søknad og dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-iii-programplan">Kapittel III. Programplan</a></li>
+<li class="lvl4"><a href="#15-innhold-i-program-og-emneplaner">§ 15. Innhold i program- og emneplaner</a></li>
+<li class="lvl4"><a href="#16-fastsetting-av-program-og-emneplaner">§ 16. Fastsetting av program- og emneplaner</a></li>
+<li class="lvl2"><a href="#kapittel-iv-studierett-permisjon-utdanningsplan-og-undervisningsterminer">Kapittel IV. Studierett, permisjon, utdanningsplan og undervisningsterminer</a></li>
+<li class="lvl4"><a href="#17-studierett-og-studieprogresjon">§ 17. Studierett og studieprogresjon</a></li>
+<li class="lvl4"><a href="#18-permisjon">§ 18. Permisjon</a></li>
+<li class="lvl4"><a href="#19-utdanningsplan-veiledningskontrakt-og-semesterregistrering">§ 19. Utdanningsplan, veiledningskontrakt og semesterregistrering</a></li>
+<li class="lvl4"><a href="#20-studiearet">§ 20. Studieåret</a></li>
+<li class="lvl4"><a href="#21-delstudium-i-utlandet">§ 21. Delstudium i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-v-innpassing">Kapittel V. Innpassing</a></li>
+<li class="lvl4"><a href="#22-godskriving-av-grad-yrkesutdanning-fag-osv-fra-institusjon-under-loven">§ 22. Godskriving av grad, yrkesutdanning, fag osv. fra institusjon under loven</a></li>
+<li class="lvl4"><a href="#23-godkjenning-av-grad-eller-utdanning-fra-institusjon-som-ikke-gar-inn-under-loven">§ 23. Godkjenning av grad eller utdanning fra institusjon som ikke går inn under loven</a></li>
+<li class="lvl4"><a href="#24-reduksjon-i-studiepoeng">§ 24. Reduksjon i studiepoeng</a></li>
+<li class="lvl2"><a href="#kapittel-vi-eksamen">Kapittel VI. Eksamen</a></li>
+<li class="lvl4"><a href="#25-avvikling-av-eksamener">§ 25. Avvikling av eksamener</a></li>
+<li class="lvl4"><a href="#26-vilkar-for-a-ga-opp-til-eksamen">§ 26. Vilkår for å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#27-privatister">§ 27. Privatister</a></li>
+<li class="lvl4"><a href="#28-oppmelding-til-eksamen">§ 28. Oppmelding til eksamen</a></li>
+<li class="lvl4"><a href="#29-trekk-fra-eksamen">§ 29. Trekk fra eksamen</a></li>
+<li class="lvl4"><a href="#30-eksamens-og-vurderingsformer">§ 30. Eksamens- og vurderingsformer</a></li>
+<li class="lvl4"><a href="#31-eksamensoppgavers-malform-og-eksamensbesvarelsers-sprak">§ 31. Eksamensoppgavers målform og eksamensbesvarelsers språk</a></li>
+<li class="lvl4"><a href="#32-srordninger-til-eksamen">§ 32. Særordninger til eksamen</a></li>
+<li class="lvl4"><a href="#33-antall-forsk-til-eksamen">§ 33. Antall forsøk til eksamen</a></li>
+<li class="lvl4"><a href="#34-utsatt-eksamen-og-kontinuasjonseksamen">§ 34. Utsatt eksamen og kontinuasjonseksamen</a></li>
+<li class="lvl4"><a href="#35-eksamen-etter-tidligere-ordninger">§ 35. Eksamen etter tidligere ordninger</a></li>
+<li class="lvl4"><a href="#36-innpass-av-emne">§ 36. Innpass av emne</a></li>
+<li class="lvl4"><a href="#37-sensur">§ 37. Sensur</a></li>
+<li class="lvl4"><a href="#38-karaktersystem">§ 38. Karaktersystem</a></li>
+<li class="lvl4"><a href="#39-begrunnelse-for-og-klage-pa-karakter">§ 39. Begrunnelse for og klage på karakter</a></li>
+<li class="lvl4"><a href="#40-klage-over-formelle-feil-ved-eksamen">§ 40. Klage over formelle feil ved eksamen</a></li>
+<li class="lvl4"><a href="#41-fusk">§ 41. Fusk</a></li>
+<li class="lvl4"><a href="#42-annullering-av-eksamen-eller-annen-vurdering">§ 42. Annullering av eksamen eller annen vurdering</a></li>
+<li class="lvl2"><a href="#kapittel-vii-veiledet-praksis">Kapittel VII. Veiledet praksis</a></li>
+<li class="lvl4"><a href="#43-vurdering-av-praksisstudier">§ 43. Vurdering av praksisstudier</a></li>
+<li class="lvl4"><a href="#44-varsel-om-fare-for-ikke-bestatt">§ 44. Varsel om fare for ikke bestått</a></li>
+<li class="lvl4"><a href="#45-ikke-bestatt-praksisstudier">§ 45. Ikke bestått praksisstudier</a></li>
+<li class="lvl4"><a href="#46-antall-forsk">§ 46. Antall forsøk</a></li>
+<li class="lvl2"><a href="#kapittel-viii-grader-vitnemal-og-karakterutskrift">Kapittel VIII. Grader, vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#47-grader">§ 47. Grader.</a></li>
+<li class="lvl4"><a href="#48-krav-til-innhold-og-sammensetning-av-bachelorgrad">§ 48. Krav til innhold og sammensetning av bachelorgrad</a></li>
+<li class="lvl4"><a href="#49-krav-til-innhold-og-sammensetning-av-mastergrad">§ 49. Krav til innhold og sammensetning av mastergrad</a></li>
+<li class="lvl4"><a href="#50-tilleggsbetegnelse-for-grader">§ 50. Tilleggsbetegnelse for grader</a></li>
+<li class="lvl4"><a href="#51-karakterutskrift">§ 51. Karakterutskrift</a></li>
+<li class="lvl4"><a href="#52-vitnemal">§ 52. Vitnemål</a></li>
+<li class="lvl4"><a href="#53-ikrafttredelse">§ 53. Ikrafttredelse.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-11-13-2636.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-05-26-1811.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om opptak, studier og eksamen ved Norges idrettshøgskole</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-05-26-1811.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-05-26-1811 <code>forskrift/2005-05-26-1811</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om opptak, studier og eksamen ved NIH</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>26.05.2005, opptak høst 2007</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-11-13-2636 <code>forskrift/2025-11-13-2636</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-05-26-1811" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-opptak">Kapittel II. Opptak</a></li>
+<li class="lvl4"><a href="#3-opptaksrammer">§ 3. Opptaksrammer</a></li>
+<li class="lvl4"><a href="#4-generelt-opptaksgrunnlag">§ 4. Generelt opptaksgrunnlag</a></li>
+<li class="lvl4"><a href="#5-opptakskrav-for-de-enkelte-studier">§ 5. Opptakskrav for de enkelte studier</a></li>
+<li class="lvl4"><a href="#6-rangeringsregler-for-de-enkelte-studier">§ 6. Rangeringsregler for de enkelte studier</a></li>
+<li class="lvl4"><a href="#7-kvoter">§ 7. Kvoter</a></li>
+<li class="lvl4"><a href="#8-overgang-mellom-studieprogram">§ 8. Overgang mellom studieprogram</a></li>
+<li class="lvl4"><a href="#9-opptakskomite">§ 9. Opptakskomité</a></li>
+<li class="lvl4"><a href="#10-sknadsfrister">§ 10. Søknadsfrister</a></li>
+<li class="lvl4"><a href="#11-politi-og-helseattest">§ 11. Politi- og helseattest</a></li>
+<li class="lvl4"><a href="#12-reservering-av-studieplass">§ 12. Reservering av studieplass</a></li>
+<li class="lvl4"><a href="#13-opptak-som-emnestudent">§ 13. Opptak som emnestudent</a></li>
+<li class="lvl4"><a href="#14-sknad-og-dokumentasjon">§ 14. Søknad og dokumentasjon</a></li>
+<li class="lvl2"><a href="#kapittel-iii-programplan">Kapittel III. Programplan</a></li>
+<li class="lvl4"><a href="#15-innhold-i-program-og-emneplaner">§ 15. Innhold i program- og emneplaner</a></li>
+<li class="lvl4"><a href="#16-fastsetting-av-program-og-emneplaner">§ 16. Fastsetting av program- og emneplaner</a></li>
+<li class="lvl2"><a href="#kapittel-iv-studierett-permisjon-utdanningsplan-og-undervisningsterminer">Kapittel IV. Studierett, permisjon, utdanningsplan og undervisningsterminer</a></li>
+<li class="lvl4"><a href="#17-studierett-og-studieprogresjon">§ 17. Studierett og studieprogresjon</a></li>
+<li class="lvl4"><a href="#18-permisjon">§ 18. Permisjon</a></li>
+<li class="lvl4"><a href="#19-utdanningsplan-veiledningskontrakt-og-semesterregistrering">§ 19. Utdanningsplan, veiledningskontrakt og semesterregistrering</a></li>
+<li class="lvl4"><a href="#20-studiearet">§ 20. Studieåret</a></li>
+<li class="lvl4"><a href="#21-delstudium-i-utlandet">§ 21. Delstudium i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-v-innpassing">Kapittel V. Innpassing</a></li>
+<li class="lvl4"><a href="#22-godskriving-av-grad-yrkesutdanning-fag-osv-fra-institusjon-under-loven">§ 22. Godskriving av grad, yrkesutdanning, fag osv. fra institusjon under loven</a></li>
+<li class="lvl4"><a href="#23-godkjenning-av-grad-eller-utdanning-fra-institusjon-som-ikke-gar-inn-under-loven">§ 23. Godkjenning av grad eller utdanning fra institusjon som ikke går inn under loven</a></li>
+<li class="lvl4"><a href="#24-reduksjon-i-studiepoeng">§ 24. Reduksjon i studiepoeng</a></li>
+<li class="lvl2"><a href="#kapittel-vi-eksamen">Kapittel VI. Eksamen</a></li>
+<li class="lvl4"><a href="#25-avvikling-av-eksamener">§ 25. Avvikling av eksamener</a></li>
+<li class="lvl4"><a href="#26-vilkar-for-a-ga-opp-til-eksamen">§ 26. Vilkår for å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#27-privatister">§ 27. Privatister</a></li>
+<li class="lvl4"><a href="#28-oppmelding-til-eksamen">§ 28. Oppmelding til eksamen</a></li>
+<li class="lvl4"><a href="#29-trekk-fra-eksamen">§ 29. Trekk fra eksamen</a></li>
+<li class="lvl4"><a href="#30-eksamens-og-vurderingsformer">§ 30. Eksamens- og vurderingsformer</a></li>
+<li class="lvl4"><a href="#31-eksamensoppgavers-malform-og-eksamensbesvarelsers-sprak">§ 31. Eksamensoppgavers målform og eksamensbesvarelsers språk</a></li>
+<li class="lvl4"><a href="#32-srordninger-til-eksamen">§ 32. Særordninger til eksamen</a></li>
+<li class="lvl4"><a href="#33-antall-forsk-til-eksamen">§ 33. Antall forsøk til eksamen</a></li>
+<li class="lvl4"><a href="#34-utsatt-eksamen-og-kontinuasjonseksamen">§ 34. Utsatt eksamen og kontinuasjonseksamen</a></li>
+<li class="lvl4"><a href="#35-eksamen-etter-tidligere-ordninger">§ 35. Eksamen etter tidligere ordninger</a></li>
+<li class="lvl4"><a href="#36-innpass-av-emne">§ 36. Innpass av emne</a></li>
+<li class="lvl4"><a href="#37-sensur">§ 37. Sensur</a></li>
+<li class="lvl4"><a href="#38-karaktersystem">§ 38. Karaktersystem</a></li>
+<li class="lvl4"><a href="#39-begrunnelse-for-og-klage-pa-karakter">§ 39. Begrunnelse for og klage på karakter</a></li>
+<li class="lvl4"><a href="#40-klage-over-formelle-feil-ved-eksamen">§ 40. Klage over formelle feil ved eksamen</a></li>
+<li class="lvl4"><a href="#41-fusk">§ 41. Fusk</a></li>
+<li class="lvl4"><a href="#42-annullering-av-eksamen-eller-annen-vurdering">§ 42. Annullering av eksamen eller annen vurdering</a></li>
+<li class="lvl2"><a href="#kapittel-vii-veiledet-praksis">Kapittel VII. Veiledet praksis</a></li>
+<li class="lvl4"><a href="#43-vurdering-av-praksisstudier">§ 43. Vurdering av praksisstudier</a></li>
+<li class="lvl4"><a href="#44-varsel-om-fare-for-ikke-bestatt">§ 44. Varsel om fare for ikke bestått</a></li>
+<li class="lvl4"><a href="#45-ikke-bestatt-praksisstudier">§ 45. Ikke bestått praksisstudier</a></li>
+<li class="lvl4"><a href="#46-antall-forsk">§ 46. Antall forsøk</a></li>
+<li class="lvl2"><a href="#kapittel-viii-grader-vitnemal-og-karakterutskrift">Kapittel VIII. Grader, vitnemål og karakterutskrift</a></li>
+<li class="lvl4"><a href="#47-grader">§ 47. Grader.</a></li>
+<li class="lvl4"><a href="#48-krav-til-innhold-og-sammensetning-av-bachelorgrad">§ 48. Krav til innhold og sammensetning av bachelorgrad</a></li>
+<li class="lvl4"><a href="#49-krav-til-innhold-og-sammensetning-av-mastergrad">§ 49. Krav til innhold og sammensetning av mastergrad</a></li>
+<li class="lvl4"><a href="#50-tilleggsbetegnelse-for-grader">§ 50. Tilleggsbetegnelse for grader</a></li>
+<li class="lvl4"><a href="#51-karakterutskrift">§ 51. Karakterutskrift</a></li>
+<li class="lvl4"><a href="#52-vitnemal">§ 52. Vitnemål</a></li>
+<li class="lvl4"><a href="#53-ikrafttredelse">§ 53. Ikrafttredelse.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-05-26-1811.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-05-26-1811.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-05-26-1811.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-05-26-1811.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-05-26-1811.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-05-26-1811.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-05-26-1811.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-05-26-1811.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-05-26-1811.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-opptak-studier-og-eksamen-ved-norges-idrettshgskole">Forskrift om opptak, studier og eksamen ved Norges idrettshøgskole</h1>
 <h2 id="kapittel-i-generelle-bestemmelser">Kapittel I. Generelle bestemmelser</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p><em>Forskriften gjelder for studier ved Norges idrettshøgskole, unntatt studier på doktorgradsnivå. Forskriften gir regler om opptak til studier, organisering av studier, eksamen, krav for tildeling av grader og bestemmelser om studentens og høgskolens plikter og rettigheter. For studier hvor nasjonal rammeplan fastsatt i samsvar med lov om universiteter og høyskoler § 3-2 nr. 2 har bestemmelser som avviker fra denne forskrift, gjelder rammeplanens bestemmelser.
@@ -89,7 +256,7 @@ Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 
 <p>Styret fastsetter opptaksramme for det enkelte studieprogram.</p>
 <h4 id="4-generelt-opptaksgrunnlag">§ 4. Generelt opptaksgrunnlag</h4>
 <p>For opptak til alle studier ved Norges idrettshøgskole kreves generell studiekompetanse eller tilsvarende, fastsatt av Kunnskapsdepartementet gjennom forskrift 31. januar 2007 nr. 173 om opptak til høyere utdanning.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 12 nov 2015 nr. 1627 .</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 12 nov 2015 nr. 1627 .</p>
 <h4 id="5-opptakskrav-for-de-enkelte-studier">§ 5. Opptakskrav for de enkelte studier</h4>
 <p><em>Opptakskrav til 3-årig bachelorprogram som tilbys gjennom Samordna opptak: Generell studiekompetanse, eller realkompetanse. Opptakskrav til årsstudier som tilbys gjennom Samordna opptak: Generell studiekompetanse, eller realkompetanse Opptakskrav til 2. studieår bachelorstudier ved NIH: Opptakskrav til det enkelte studium er fastsatt i programplanen. Opptakskrav til øvrige studieprogram på lavere grads nivå: Opptakskrav til det enkelte studium er fastsatt i programplanen. Opptakskrav til det enkelte masterprogram er fastsatt i programplanen. Opptakskrav til lærerutdanning i praktiske og estetiske fag for trinn 1–13, kroppsøving og idrettsfag: Generell studiekompetanse og spesielle opptakskrav LÆRER.
 Endret ved forskrifter 6 nov 2008 nr. 1588 , 30 nov 2010 nr. 1850 (i kraft 1 jan 2011), 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 30 nov 2016 nr. 1938 , 18 des 2018 nr. 2286 , 19 des 2019 nr. 2260 (i kraft 10 april 2020), 18 juni 2020 nr. 1974 , 11 okt 2022 nr. 1732 , 25 feb 2025 nr. 374 .</em></p>
@@ -101,7 +268,7 @@ Endret ved forskrifter 6 nov 2008 nr. 1588 , 30 nov 2010 nr. 1850 (i kraft 1 jan
 <li>Søkere til øvrige studieprogrammer på lavere grads nivå: rangeringsregelverk til studium er fastsatt i programplanen.</li>
 <li>Søkere til mastergrad. Rangeringsregelverk til studiet er fastsatt i programplanen.</li>
 </ol>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 30 nov 2010 nr. 1850 (i kraft 1 jan 2011), 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 18 des 2018 nr. 2286 , 25 feb 2025 nr. 374 .</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 30 nov 2010 nr. 1850 (i kraft 1 jan 2011), 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 18 des 2018 nr. 2286 , 25 feb 2025 nr. 374 .</p>
 <h4 id="7-kvoter">§ 7. Kvoter</h4>
 <p>Opptak til studieplasser som omfattes av kvoteordningene, forutsetter at generelle og spesielle opptakskrav er oppfylt. Høgskolen har følgende kvoter:</p>
 <ol>
@@ -115,7 +282,7 @@ Endret ved forskrifter 6 nov 2008 nr. 1588 , 30 nov 2010 nr. 1850 (i kraft 1 jan
   c. Bachelor i trening, helse og prestasjon.</li>
 <li>En studieplass på master i idrettsfysiologi og bevegelseslære, master i idrettsmedisin eller master i idrett og samfunnsvitenskap kan tildeles tilsvarende til søker som er innstilt av Norges idrettsforbund.</li>
 </ol>
-<p><em>Endret ved forskrifter 12 nov 2015 nr. 1627 , 30 nov 2016 nr. 1938 , 18 des 2018 nr. 2286 , 19 des 2019 nr. 2260 (i kraft 10 april 2020), 11 okt 2022 nr. 1732 , 25 feb 2025 nr. 374 .</em></p>
+<p class="note">Endret ved forskrifter 12 nov 2015 nr. 1627 , 30 nov 2016 nr. 1938 , 18 des 2018 nr. 2286 , 19 des 2019 nr. 2260 (i kraft 10 april 2020), 11 okt 2022 nr. 1732 , 25 feb 2025 nr. 374 .</p>
 <h4 id="8-overgang-mellom-studieprogram">§ 8. Overgang mellom studieprogram</h4>
 <ol>
 <li>En student kan normalt få overgang fra et årsstudium/1BA til et bachelorstudium innenfor samme fagområde dersom:</li>
@@ -137,27 +304,27 @@ c. studenten oppfyller opptakskravet til studieprogrammet.</p>
 <p>Studenter må søke om overgang innen fastsatt frist.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026).</p>
 <h4 id="9-opptakskomite">§ 9. Opptakskomité</h4>
 <p>Styret kan oppnevne opptakskomité for opptak til studier på lavere og høyere grads nivå. Styret fastsetter mandat for opptakskomiteen.</p>
-<p><em>Endret ved forskrifter 18 des 2018 nr. 2286 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 8).</em></p>
+<p class="note">Endret ved forskrifter 18 des 2018 nr. 2286 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 8).</p>
 <h4 id="10-sknadsfrister">§ 10. Søknadsfrister</h4>
 <p><em>For studier der opptaket er organisert gjennom Samordna Opptak, gjelder de fastsatte nasjonale søknadsfristene. Søknadsfrister for øvrige studier fastsettes av Studieutvalget og kunngjøres samtidig med utlysning av studieprogrammet.
 Endret ved forskrifter 19 juni 2007 nr. 1084 (i kraft 1 aug 2007), 16 des 2010 nr. 1851 (i kraft 1 jan 2011 og gjeldende for opptak til studier ved Norges idrettshøgskole for studieåret 2011–2012), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 9).</em></p>
 <h4 id="11-politi-og-helseattest">§ 11. Politi- og helseattest</h4>
 <p>For enkelte studier kreves at studenter legger fram politiattest, jf. lov om universiteter og høyskoler § 12-2 og/eller helseattest. Når søker får tilbud om et studieprogram som har krav om politiattest og/eller helseattest, skal høgskolen i tilbudet opplyse om dette kravet og frist for å levere nødvendige attester.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 10).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 10).</p>
 <h4 id="12-reservering-av-studieplass">§ 12. Reservering av studieplass</h4>
 <p>Søkere som er tatt opp som student ved Norges idrettshøgskole kan få reservert studieplassen i inntil to år grunnet innkalling til førstegangstjeneste, og i ett år grunnet graviditet, eller sykdom som er til hinder for gjennomføring av ordinær undervisning eller annen vektig grunn. Den som får innvilget søknad om utsatt studiestart, får reservert studieplassen til neste gang studieprogrammet har ordinær studiestart.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 18 des 2018 nr. 2286 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 11).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 18 des 2018 nr. 2286 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 11).</p>
 <h4 id="13-opptak-som-emnestudent">§ 13. Opptak som emnestudent</h4>
 <p>(1) Personer uten studierett på høgskolens studieprogram kan få anledning til å følge undervisning og ta eksamen i emner med ledig kapasitet, som emnestudent. Emnestudenter må fylle opptakskrav til studieprogrammet som emnet inngår i, og forkunnskapskrav som er fastsatt for emnet. Emnestudenter må betale semesteravgift for å følge undervisning og ta eksamen. Søkerne rangeres etter tidspunktet hvor NIH mottar komplett søknad.</p>
 <p>(2) Emnestudenter skal ha samme vurderingsform og vurderingsordning som ordinære studenter i emnet, og kan ikke ta eksamen etter tidligere ordninger. Emnestudenter omfattes av øvrige krav som ordinære studenter har om frammøte, deltakelse i gruppearbeid eller liknende.</p>
 <p>(3) Opptak som emnestudent gir rett til å følge undervisning og ta eksamen i samme semester. Emnestudenter har bare mulighet til å ta enkeltemner ved høgskolen, ikke hele studieprogram. En emnestudent kan takke ja til maksimalt emner som utgjør 30 studiepoeng per studieår.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 24 sep 2009 nr. 1516 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 30 nov 2016 nr. 1938 , 25 feb 2025 nr. 374 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 12).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 24 sep 2009 nr. 1516 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 30 nov 2016 nr. 1938 , 25 feb 2025 nr. 374 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 12).</p>
 <h4 id="14-sknad-og-dokumentasjon">§ 14. Søknad og dokumentasjon</h4>
 <p>Søknad om opptak skjer via Samordna Opptak eller Søknadsweb. Alle dokumenter som skal gi grunnlag for opptak, må følge søknaden eller lastes opp i søkerportalen innen fastsatt frist.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 30 nov 2016 nr. 1938 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 13).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 30 nov 2016 nr. 1938 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 13).</p>
 <h2 id="kapittel-iii-programplan">Kapittel III. Programplan</h2>
 <p>Overskriften endret ved forskrift 18 juni 2020 nr. 1974 .</p>
 <h4 id="15-innhold-i-program-og-emneplaner">§ 15. Innhold i program- og emneplaner</h4>
@@ -166,7 +333,7 @@ Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 
 <h4 id="16-fastsetting-av-program-og-emneplaner">§ 16. Fastsetting av program- og emneplaner</h4>
 <p>Styret vedtar programplan for studieprogram etter anbefaling fra Studieutvalget i forbindelse med etablering av nytt studieprogram. Studieadministrative forhold i planene skal avklares med studieavdelingen før planene leveres til behandling i Studieutvalget. Programleder godkjenner emneplaner og endringer i program- og emneplaner så lenge endringene ikke medfører betydelige endringer i studiets målsetting, innhold og ressursrammer.</p>
 <p>Endringer i program- og emneplaner skal ferdigstilles i løpet av høstsemesteret dersom endringene skal gjelde fra kommende studieår.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 15).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 15).</p>
 <h2 id="kapittel-iv-studierett-permisjon-utdanningsplan-og-undervisningsterminer">Kapittel IV. Studierett, permisjon, utdanningsplan og undervisningsterminer</h2>
 <h4 id="17-studierett-og-studieprogresjon">§ 17. Studierett og studieprogresjon</h4>
 <p><em>Opptak til et studieprogram gir studenten studierett til studieprogrammet og emner som inngår i dette. En student som ikke fyller eventuelle betingelser som er knyttet til det enkelte studieprogram ved studiestart, mister studieretten. Studieretten opphører når: Studenten har fullført studieprogrammet eller NIH mottar melding fra studenten om at vedkommende trekker seg fra studieprogrammet før det er fullført eller Studentene har brukt alle eksamensforsøk på et emne som er obligatorisk i studieprogrammet hvor studenten har studierett eller studenten blir fratatt sin studierett. En student på lavere grads studier som ikke har inngått utdanningsplan med redusert progresjon, mister studieretten dersom studieprogresjonen er: 30 studiepoeng eller mindre etter første studieår, 60 studiepoeng eller mindre etter andre studieår, 90 studiepoeng eller mindre etter tredje studieår, 120 studiepoeng eller mindre etter fjerde studieår. I tillegg må alle emner fra første år bachelor i idrettsvitenskap være bestått før studentene kan starte på tredje år bachelor i idrettsvitenskap. Unntatt fra bestemmelsene om progresjon er studieprogram som er definert som deltidsstudier. En student på mastergradsstudier som ikke har inngått utdanningsplan med redusert progresjon, mister studieretten dersom studieprogresjonen er: 30 studiepoeng eller mindre etter første studieår, mindre enn 60 studiepoeng etter andre studieår, mindre enn 120 studiepoeng etter tre år. Studenter har rett til å inngå utdanningsplan med redusert progresjon. Årsaker kan være funksjonsnedsetting, særlig tyngende omsorgsoppgaver, toppidrettsstatus, graviditet, sykdom og skade som er til hinder for gjennomføring av undervisning, eller annen vektig grunn.
@@ -174,34 +341,34 @@ Endret ved forskrifter 19 juni 2007 nr. 1084 (i kraft 1 aug 2007), 2 mars 2010 n
 <h4 id="18-permisjon">§ 18. Permisjon</h4>
 <p>Årsaker til permisjon kan være; tjeneste etter forsvarsloven § 17 , verv i studentpolitiske eller folkevalgte organer, funksjonsnedsetting, særlig tyngende omsorgsoppgaver, toppidrettsstatus, graviditet, sykdom og skade som er til hinder for gjennomføring av undervisning, eller annen vektig grunn. Permisjon gis normalt bare for ett år.</p>
 <p>I permisjonsperioden har studenten fortsatt studierett og rett til å gå opp til eksamen ved institusjonen.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 17).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 12 nov 2015 nr. 1627 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 17).</p>
 <h4 id="19-utdanningsplan-veiledningskontrakt-og-semesterregistrering">§ 19. Utdanningsplan, veiledningskontrakt og semesterregistrering</h4>
 <p><em>En student som er tatt opp til studier av 60 studiepoengs omfang eller mer skal ha en utdanningsplan for sitt studium i form av en avtale inngått mellom studenten og høgskolen. Utdanningsplanen skal angi partenes viktigste rettigheter og plikter. Utdanningsplanen skal være inngått i løpet av studentens første semester. Dersom utdanningsplanen skal ha vesentlige avvik fra programplanen skal institutt som har det faglige ansvaret for studiet ha anledning til å uttale seg før planen blir utformet. En student som er tatt opp til masterprogram skal inngå veiledningskontrakt i første studieår. Veiledningskontrakten skal blant annet regulere omfanget og varigheten av veiledningen. Kontrakten inngås mellom studenten og det instituttet som studenten er tatt opp til. Studentens rett til oppfølging og tilrettelegging underveis i utdanningen er betinget av at studentens forpliktelser etter utdanningsplanen og mastergradskontrakten blir overholdt. Studenten må betale semesteravgift og bekrefte sin utdanningsplan hvert semester innen fastsatt frist for å beholde sin studie- og undervisningsrett. En student som er fritatt for å betale semesteravgift pga. utvekslingsordninger eller lignende skal bekrefte sin utdanningsplan på samme måte som øvrige studenter. Studieutvalget fastsetter frister, jf. § 18 nr. 4 og 6, § 24 nr. 3 og 4 samt § 26 nr. 2.
 Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 18).</em></p>
 <h4 id="20-studiearet">§ 20. Studieåret</h4>
 <p>Høstsemesteret varer normalt 19 uker. Vårsemesteret varer normalt 21 uker. Påskeferie er fra og med mandag etter palmesøndag til og med tirsdag etter påske.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 19).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 19).</p>
 <h4 id="21-delstudium-i-utlandet">§ 21. Delstudium i utlandet</h4>
 <p>Alle bachelor- og masterstudier skal gi mulighet til inntil ett semesters studieopphold (30 studiepoeng) eller praksis i utlandet.</p>
 <p>Studenten må normalt ha bestått først år bachelor i idrettsvitenskap før utreise og skal ellers tilfredsstille evt. språk- og/eller karakterkrav høgskolens partnere stiller til innreisende studenter.</p>
 <p>Studenter som studerer ved et lærested i utlandet som en del av utdanningen ved NIH skal bekrefte utdanningsplanen og betale semesteravgift ved NIH før utreise for å opprettholde sin studierett.</p>
 <p>NIH skal legge til rette for delstudier i utlandet gjennom å gi generell veiledning om blant annet samarbeidsavtaler og finansieringsordninger.</p>
-<p><em>Tilføyd ved forskrift 25 mai 2012 nr. 793 (i kraft 1 aug 2012), endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 20).</em></p>
+<p class="note">Tilføyd ved forskrift 25 mai 2012 nr. 793 (i kraft 1 aug 2012), endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 20).</p>
 <h2 id="kapittel-v-innpassing">Kapittel V. Innpassing</h2>
 <p>Overskriten endret ved forskrift 18 juni 2020 nr. 1974 .</p>
 <h4 id="22-godskriving-av-grad-yrkesutdanning-fag-osv-fra-institusjon-under-loven">§ 22. Godskriving av grad, yrkesutdanning, fag osv. fra institusjon under loven</h4>
 <p>Instituttene avgjør søknad om godskriving av grad, yrkesutdanning, fag eller emne fra en institusjon som går inn under lov om universiteter og høyskoler.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 20), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 21).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 20), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 21).</p>
 <h4 id="23-godkjenning-av-grad-eller-utdanning-fra-institusjon-som-ikke-gar-inn-under-loven">§ 23. Godkjenning av grad eller utdanning fra institusjon som ikke går inn under loven</h4>
 <p>Instituttene avgjør søknad om å få godkjent grad eller utdanning fra utenlandsk eller norsk institusjon som ikke går inn under lov om universiteter og høyskoler som jevngod med grad, yrkesutdanning eller annet utdanningsprogram som gis ved høgskolen.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 21), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 22).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 21), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 22).</p>
 <h4 id="24-reduksjon-i-studiepoeng">§ 24. Reduksjon i studiepoeng</h4>
 <p>Studenter som avlegger eksamen i emner som faglig sett dekker hverandre helt eller delvis, får redusert den samlede studiepoengsummen for de aktuelle emnene. Den fagseksjon som er ansvarlig for emnet gjør vedtak om slik reduksjon.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 22), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 23).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 22), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 23).</p>
 <h2 id="kapittel-vi-eksamen">Kapittel VI. Eksamen</h2>
 <h4 id="25-avvikling-av-eksamener">§ 25. Avvikling av eksamener</h4>
 <p>Eksamen skal fremme læring, sikre kvalitet og ivareta studentenes rettssikkerhet. Studentenes kunnskaper og ferdigheter skal prøves på en upartisk og faglig betryggende måte. Det skal framgå klart av program- eller emneplanen hvilke eksamener og vurderinger studenten skal ta underveis og framgangsmåten ved fastsetting av karakter, herunder innbyrdes vekting av delprøver mv. Studentenes kunnskaper og ferdigheter skal prøves i hvert emne. Dette kan skje i form av avsluttende eksamen, vurderinger underveis, eller på annen måte i henhold til programplanen. Det kan unntaksvis fastsettes at enkelte emner ikke skal ha slik vurdering. Det skal da kreves at studenten har deltatt i undervisningen, etter nærmere bestemmelse i programplanen.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 23), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 24).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 23), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 24).</p>
 <h4 id="26-vilkar-for-a-ga-opp-til-eksamen">§ 26. Vilkår for å gå opp til eksamen</h4>
 <p><em>For å melde seg opp til eksamen må studenten fylle de generelle opptakskrav til studier ved NIH og eventuelle opptakskrav fastsatt til studieprogrammet eller emnet. Dersom spesielle arbeids-/studiekrav, godkjent obligatorisk oppgave, undervisning eller praksis er en forutsetning for at studenten kan gå opp til eksamen, skal slike vilkår være fastsatt i emne- eller programplanen. For å få gå opp til eksamen må studenten være registrert og oppmeldt til eksamen innen de frister som er fastsatt av høgskolen. For å få gå opp til eksamen må studenten ha betalt semesteravgift innen fastsatt frist.
 Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 24), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 25).</em></p>
@@ -210,18 +377,18 @@ Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 24)
 Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 25), 12 nov 2015 nr. 1627 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 26).</em></p>
 <h4 id="28-oppmelding-til-eksamen">§ 28. Oppmelding til eksamen</h4>
 <p>Studenter skal melde seg til eksamen for det enkelte semester gjennom utdanningsplanen, innen de fastsatte frister. Studenter som skal ta utsatt eksamen skal melde seg til eksamen gjennom Studentweb. Frist for oppmelding til utsatt eksamen er normalt to uker før eksamen.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 26), 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 27).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 26), 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 27).</p>
 <h4 id="29-trekk-fra-eksamen">§ 29. Trekk fra eksamen</h4>
 <p>Studenter som ønsker å trekke seg fra en eksamen de er meldt opp til må gjøre dette senest en måned før første vurderingsordning starter. Det teller som et eksamensforsøk dersom studenten trekker seg når det er mindre enn en måned til eksamen starter. Trekkfristen gjelder også for hjemmeeksamen, slik at studenten må trekke seg senest en måned før oppgaven blir gjort kjent.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 27), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 28).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 27), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 28).</p>
 <h4 id="30-eksamens-og-vurderingsformer">§ 30. Eksamens- og vurderingsformer</h4>
 <p>Aktuelle eksamens- og vurderingsformer kan være skriftlig eksamen under tilsyn, muntlig eksamen, skriftlig hjemmeeksamen, praktisk-metodisk eksamen, ferdighetsprøver, laboratorieøvelser, prosjektarbeid, praksis, mastergradsoppgave, avhandling, prøveforelesning eller framføringer eller en kombinasjon av disse eksamensformene. Eksamen kan være individuell eller gruppebasert.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 28), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 29).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 28), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 29).</p>
 <h4 id="31-eksamensoppgavers-malform-og-eksamensbesvarelsers-sprak">§ 31. Eksamensoppgavers målform og eksamensbesvarelsers språk</h4>
 <p>Eksamensoppgaver som blir gitt på norsk, skal foreligge på bokmål eller nynorsk i samsvar med den målformen eksamenskandidatene har valgt ved oppmelding til eksamen. Unntak kan forekomme i overensstemmelse med forskrift om målform i eksamensoppgaver.</p>
 <p>Eksamensbesvarelser kan leveres på svensk, dansk eller engelsk som alternativ til norsk. Studenter på lærerutdanningene må levere eksamensbesvarelser på norsk.</p>
 <p>Eksamensbesvarelsen kan kreves på engelsk hvor det er et engelskspråklig emne og vurderingsformen krever samarbeid mellom norske og internasjonale studenter. I disse tilfeller skal språk på besvarelsen fremkomme i emneplanen.</p>
-<p><em>Tilføyd ved forskrift 25 mai 2012 nr. 793 (i kraft 1 aug 2012), endret ved forskrift 14 des 2023 nr. 2383 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 30).</em></p>
+<p class="note">Tilføyd ved forskrift 25 mai 2012 nr. 793 (i kraft 1 aug 2012), endret ved forskrift 14 des 2023 nr. 2383 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 30).</p>
 <h4 id="32-srordninger-til-eksamen">§ 32. Særordninger til eksamen</h4>
 <p><em>Studenter som har permanent behov for spesielle ordninger i forbindelse med eksamen, må innen 1. september søke om dette for studierettsperioden. Studenter som får akutt behov for tilrettelegging, må søke om dette så snart som mulig etter at behovet oppstår. Tilrettelegging kan gis til kandidater som dokumenterer nedsatt funksjonsevne, gravide med dokumentert behov for hvile, mødre som ammer etc. Studenter med norsk som fremmedspråk kan gis utvidet tid etter søknad. Slik tid gis normalt kun det første studieår i Norge. Studenter med norsk som fremmedspråk kan søke høgskolen om å få oppgaver på engelsk innen 15. september for kommende studieår.
 Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 29), 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 31).</em></p>
@@ -236,7 +403,7 @@ Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 
 Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 32), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 34).</em></p>
 <h4 id="36-innpass-av-emne">§ 36. Innpass av emne</h4>
 <p>En student kan få innpasset et emne som er bestått ved høgskolen eller en annen institusjon. Det er kun emner som skal inngå som en del av en utdanningsplan/grad som kan innpasses. Søknad skal leveres til høgskolen og blir vurdert av emneansvarlig eller programleder. Frist for å søke innpass av emner er 15. september. Med søknaden skal det vedlegges kopi av vitnemål eller karakterutskrift og program-/emneplan eller tilsvarende inkludert pensumliste for den eksamen/prøve studenten søker innpass på grunnlag av.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 33), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 35).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 33), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 35).</p>
 <h4 id="37-sensur">§ 37. Sensur</h4>
 <p><em>Instituttleder oppnevner eksterne sensorer etter forslag fra emneansvarlig. Alle emner skal gjennomgå ekstern sensur minimum hvert 4. år. Ekstern sensor kan ikke være tilsatt i hovedstilling eller bistilling ved institusjonen og heller ikke ha hatt engasjement som timelærer i det aktuelle emnet for eksamenskullet. Tilsatte ved samarbeidsinstitusjoner bør ikke benyttes som eksterne sensorer dersom de har nær tilknytning til det fagmiljøet som har ansvar for undervisningen i emnet. Oppnevningen skal gjelde både ordinær og utsatt eksamen. Ekstern sensor må ha minst en av følgende kvalifikasjoner: være ansatt på lektor/amanuensisnivå eller høyere nivå ved universitetet, høyskole eller annen forskningsinstitusjon eller på annen måte ha dokumentert vitenskapelig kompetanse på tilsvarende nivå ha erfaring som sensor i fagområdet ved universitetet/høyskole gjennom yrkespraksis være særlig kvalifisert innen fagområdet. Ekstern deltakelse i vurderingen kan for eksempel være følgende: vurdering av studentenes prestasjoner i et emne, for alle eller et utvalg av studentene for å kontrollere og godkjenne eksamensoppgaver og prinsipper for karaktersetting i et emne for å vurdere intern sensors karaktersetting for å vurdere emne-/programplaner, undervisningsopplegget og/eller vurderingsordningene i emne eller program. Ekstern sensor skal primært oppnevnes som tilsynssensor, men kan unntaksvis benyttes som ren bedømmersensor. Dette er ytterligere presisert i retningslinjer for ekstern sensor ved NIH. Det skal benyttes to sensorer hvorav minst en ekstern ved bedømmelse av studentenes prestasjoner i følgende tilfeller: ved vurdering av masteroppgaver ved klage over karakterfastsetting. Det skal benyttes to sensorer ved bedømmelse av studentenes prestasjoner i følgende tilfeller: ved vurdering av bacheloroppgaver eller lignende selvstendig arbeid på lavere grad ved vurderinger som ikke er etterprøvbare som eksempelvis muntlig vurdering, praktisk-metodisk vurdering o.l. ved vurderinger som alene utgår 15 studiepoeng eller mer. Dersom det er ekstern sensor ved eksamen, fastsettes karakteren i fellesskap av intern og ekstern sensor. Dersom eksamenskommisjonen ikke kommer til enighet om en karakter, skal ekstern sensor avgjøre karakteren. Sensuren skal foreligge innen 15 virkedager fra eksamen er avlagt. Styret selv skal fatte vedtak om lengre frist dersom det ikke er mulig å skaffe kvalifisert sensor innen denne fristen. Sensur på masteroppgaver skal foreligge innen to måneder etter innlevering. Det skal utarbeides sensorveiledning for alle vurderingsformer. Sensorveiledningen skal gjøres tilgjengelige for kandidatene rett i etterkant av sensurfrist.
 Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 34), 18 des 2018 nr. 2286 , 18 juni 2020 nr. 1974 , 11 okt 2022 nr. 1732 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 36).</em></p>
@@ -253,10 +420,10 @@ Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 37)
 <h4 id="41-fusk">§ 41. Fusk</h4>
 <p>Dersom det under eksamen oppstår mistanke om fusk eller forsøk på fusk, skal studenten straks gjøres oppmerksom på at han/hun vil bli rapportert. Dette gjelder også for studenter som eventuelt yter hjelp. Studieutvalget fastsetter utfyllende retningslinjer for behandling av fusk / forsøk på fusk. Konsekvenser for studenten ved fusk/forsøk på fusk framgår i lov om universiteter og høyskoler § 12-4 .</p>
 <p>Vedtak etter denne paragrafen fattes av NIHs klagenemnd (institusjonens nemnd for studentsaker), jf. lov om universiteter og høyskoler § 14-1 . Vedtak om utestenging og tap av eksamensrett fattes med to tredels flertall.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 38), 12 juni 2025 nr. 1371 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 40).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 38), 12 juni 2025 nr. 1371 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 40).</p>
 <h4 id="42-annullering-av-eksamen-eller-annen-vurdering">§ 42. Annullering av eksamen eller annen vurdering</h4>
 <p>Klagenemnda kan annullere eksamen eller annen vurdering, eller godkjenning av emner i tilfeller som beskrevet i lov om universiteter og høyskoler, § 4-7 .</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 39), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 41).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 39), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 41).</p>
 <h2 id="kapittel-vii-veiledet-praksis">Kapittel VII. Veiledet praksis</h2>
 <p>Kapitlet tilføyd ved forskrift 30 nov 2016 nr. 1961 .</p>
 <h4 id="43-vurdering-av-praksisstudier">§ 43. Vurdering av praksisstudier</h4>
@@ -264,50 +431,52 @@ Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 37)
 <p>(2) For hver praksisperiode på mer enn 3 uker skal det avholdes midtveisvurdering og avsluttende vurdering der studentens prestasjoner vurderes i forhold til målene for praksisperioden.</p>
 <p>(3) Det skal fremgå av emneplanen hvem som fastsetter den faglige vurderingen.</p>
 <p>(4) Krav til tilstedeværelse eller oppmøte kan normalt ikke fravikes på grunn av sykdom eller andre grunner. Krav til tilstedeværelse skal framgå av emneplanen.</p>
-<p><em>Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 42).</em></p>
+<p class="note">Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 42).</p>
 <h4 id="44-varsel-om-fare-for-ikke-bestatt">§ 44. Varsel om fare for ikke bestått</h4>
 <p>(1) Hvis det oppstår tvil om studenten kan bestå praksisstudiet, skal studenten snarest kalles inn til et møte.</p>
 <p>(2) Dersom det er fare for å ikke bestå praksisperioden skal det gis skriftlig varsel så snart som mulig. Meldingen skal angi hva studenten ikke mestrer, og hvilke krav som må oppfylles for å bestå praksisstudiet.</p>
 <p>(3) Viser studenten i løpet av praksisperioden handling eller atferd som utvilsomt gir grunnlag for å ikke bestå praksisstudiet, kan studenten få karakteren «ikke bestått» selv om forutgående varsel ikke er gitt innen fristen etter andre ledd.</p>
-<p><em>Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 43).</em></p>
+<p class="note">Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 43).</p>
 <h4 id="45-ikke-bestatt-praksisstudier">§ 45. Ikke bestått praksisstudier</h4>
 <p>(1) Dersom det fra praksisveileder foreligger en faglig vurdering eller manglende fremmøte som gir karakteren «ikke bestått», stadfestes eller annulleres denne av et utvalg for den respektive utdanning.</p>
-<p><em>Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 44).</em></p>
+<p class="note">Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 44).</p>
 <h4 id="46-antall-forsk">§ 46. Antall forsøk</h4>
 <p>(1) Dersom praksis etter utvalgets vurdering er vurdert til «ikke bestått» må hele praksisperioden tas om igjen såfremt det ikke foreligger særskilte forhold.</p>
 <p>(2) Dersom praksisstudiet ikke er bestått og det er brukt to forsøk, må studiet avbrytes såfremt det ikke foreligger særskilte forhold.</p>
 <p>(3) Dersom det foreligger særskilte grunner kan Studieutvalget gi studenten et tredje og siste forsøk på å bestå praksisstudiet.</p>
 <p>(4) Dersom studenten får annullert praksisperioden på grunn av formelle feil skal det tilrettelegges for ny praksisperiode så raskt som mulig.</p>
-<p><em>Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 45).</em></p>
+<p class="note">Tilføyd ved forskrift 30 nov 2016 nr. 1961 , endret ved forskrift 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 45).</p>
 <h2 id="kapittel-viii-grader-vitnemal-og-karakterutskrift">Kapittel VIII. Grader, vitnemål og karakterutskrift</h2>
 <p>Kapitlet endret ved forskrift 30 nov 2016 nr. 1961 , tidligere kapittel VII.</p>
 <h4 id="47-grader">§ 47. Grader.</h4>
 <p>(1) Norges idrettshøgskole tildeler bachelorgrad av 180 studiepoengs omfang og mastergrad av 120 studiepoengs omfang.</p>
 <p>(2) Gradene tildeles av rektor.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 40), 30 nov 2016 nr. 1961 (tidligere § 42), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 46).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 40), 30 nov 2016 nr. 1961 (tidligere § 42), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 46).</p>
 <h4 id="48-krav-til-innhold-og-sammensetning-av-bachelorgrad">§ 48. Krav til innhold og sammensetning av bachelorgrad</h4>
 <p>(1) For å få tildelt bachelorgrad må studenten ha bestått emner som til sammen utgjør minst 180 studiepoeng. I disse studiepoengene skal det inngå idrettsfag av minimum 120 studiepoeng, hvorav faglig fordypning utgjør 60 studiepoeng.</p>
 <p>(2) For å få utstedt vitnemål må minst 60 studiepoeng som skal inngå i graden være bestått ved NIH.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 41), 30 nov 2016 nr. 1961 (tidligere § 43), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 47).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 41), 30 nov 2016 nr. 1961 (tidligere § 43), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 47).</p>
 <h4 id="49-krav-til-innhold-og-sammensetning-av-mastergrad">§ 49. Krav til innhold og sammensetning av mastergrad</h4>
 <p>For å få tildelt mastergrad av 120 studiepoengs omfang må kravene som er fastsatt i forskrift 1. desember 2005 nr. 1392 om krav til mastergrad være oppfylt. I tillegg må studenten ha bestått emner som er fastsatt i den enkelte programplan. Omfanget av det selvstendige arbeidet fastsettes i programplanen. Det er obligatorisk med veiledning av det selvstendige arbeidet. For å få utstedt vitnemål må minst 60 studiepoeng som skal inngå i graden være bestått ved NIH.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 42), 30 nov 2016 nr. 1961 (tidligere § 44), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 48).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 42), 30 nov 2016 nr. 1961 (tidligere § 44), 18 juni 2020 nr. 1974 , 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 48).</p>
 <h4 id="50-tilleggsbetegnelse-for-grader">§ 50. Tilleggsbetegnelse for grader</h4>
 <p>(1) For studenter som ikke har faglig spesialisering angis betegnelsen bachelor i idrettsvitenskap på vitnemålet.</p>
 <p>(2) For studenter som har faglig spesialisering angis betegnelsen bachelor med påskrift av studieprogrammets navn på vitnemålet.</p>
 <p>(3) For mastergrad av 120 studiepoengs omfang angis betegnelsen master i studieprogrammets navn på vitnemålet. I tillegg oppgis tittel på det selvstendige arbeidet. Emnene som inngår i graden dokumenteres i grunnlag for vitnemål.</p>
-<p><em>Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 43), 30 nov 2016 nr. 1961 (tidligere § 45), 18 juni 2020 nr. 1974 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 49).</em></p>
+<p class="note">Endret ved forskrifter 6 nov 2008 nr. 1588 , 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 43), 30 nov 2016 nr. 1961 (tidligere § 45), 18 juni 2020 nr. 1974 , 13 juni 2024 nr. 1577 (i kraft 1 aug 2024), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 49).</p>
 <h4 id="51-karakterutskrift">§ 51. Karakterutskrift</h4>
 <p>Studenter som har fullført og bestått et eller flere emner kan få karakterutskrift. Karakterutskriften skal opplyse om emnets kode, navn og omfang, karakter i emnet samt hvilket år og semester karakteren er oppnådd.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 44), 30 nov 2016 nr. 1961 (tidligere § 46), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 50).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 44), 30 nov 2016 nr. 1961 (tidligere § 46), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 50).</p>
 <h4 id="52-vitnemal">§ 52. Vitnemål</h4>
 <p>(1) Vitnemål utstedes på norsk for studieprogram hvor undervisningsspråket er norsk. For studieprogram hvor undervisningsspråket er engelsk utstedes vitnemålet på engelsk. Et eget vitnemålstillegg, Diploma Supplement, gir en nærmere beskrivelse på engelsk av kandidatens utdanning og det norske utdanningssystemet.</p>
 <p>(2) Det utstedes bare ett vitnemål for oppnådd grad.</p>
 <p>(3) Administrerende direktør fastsetter utformingen av vitnemål, karakterutskrift og Diploma Supplement.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 45), 30 nov 2016 nr. 1961 (tidligere § 47), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 51).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 45), 30 nov 2016 nr. 1961 (tidligere § 47), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 51).</p>
 <h4 id="53-ikrafttredelse">§ 53. Ikrafttredelse.</h4>
 <p>Forskriften trer i kraft straks. Bestemmelsen i § 6 nr. 7, annet punktum gjelder for opptak fra høst 2007.</p>
-<p><em>Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 46), 30 nov 2016 nr. 1961 (tidligere § 48), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 52).</em></p>
+<p class="note">Endret ved forskrifter 25 mai 2012 nr. 793 (i kraft 1 aug 2012, tidligere § 46), 30 nov 2016 nr. 1961 (tidligere § 48), 13 nov 2025 nr. 2636 (i kraft 1 jan 2026, tidligere § 52).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

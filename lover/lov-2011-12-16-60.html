@@ -19,64 +19,235 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2011-12-16-60.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Stortings- og regjeringspensjonsloven" href="../feeds/lov-2011-12-16-60.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Stortings- og regjeringspensjonsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2011-12-16-60</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Pensjons- og trygderett\nStats-, statsforfatnings- og statsborgerrett &raquo; Stortinget</dd>
-<dt>Ikrafttredelse</dt><dd>2012-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2022-04-01-17</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2011-12-16-60" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-medlemskap">§ 1-2. Medlemskap</a></li>
+<li class="lvl4"><a href="#1-3-samordning">§ 1-3. Samordning</a></li>
+<li class="lvl2"><a href="#kapittel-2-alderspensjon">Kapittel 2. Alderspensjon</a></li>
+<li class="lvl4"><a href="#2-1-virkeomrade">§ 2-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-2-opptjening-av-alderspensjon-pensjonsbeholdning">§ 2-2. Opptjening av alderspensjon – pensjonsbeholdning</a></li>
+<li class="lvl4"><a href="#2-3-krav-til-medlemstid-for-rett-til-alderspensjon">§ 2-3. Krav til medlemstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#2-4-alder-ved-uttak-av-alderspensjon">§ 2-4. Alder ved uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-5-levealdersjustering-og-nytralt-uttak">§ 2-5. Levealdersjustering og nøytralt uttak</a></li>
+<li class="lvl4"><a href="#2-6-beregning-av-alderspensjon">§ 2-6. Beregning av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-7-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 2-7. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-8-omregning-av-alderspensjon-ved-opptjening-etter-pensjonsuttak">§ 2-8. Omregning av alderspensjon ved opptjening etter pensjonsuttak</a></li>
+<li class="lvl4"><a href="#2-9-alderspensjon-til-den-som-ogsa-har-opptjening-etter-kapitlene-3-og-4">§ 2-9. Alderspensjon til den som også har opptjening etter kapitlene 3 og 4</a></li>
+<li class="lvl2"><a href="#kapittel-3-alderspensjon-opptjent-etter-den-tidligere-loven-om-pensjonsordning-for-stortingsrepresentanter">Kapittel 3. Alderspensjon opptjent etter den tidligere loven om pensjonsordning for stortingsrepresentanter</a></li>
+<li class="lvl4"><a href="#3-1-virkeomrade">§ 3-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-2-opptjeningstid">§ 3-2. Opptjeningstid</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-opptjeningstid-for-rett-til-alderspensjon">§ 3-3. Krav til opptjeningstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#3-4-uttak-av-alderspensjon">§ 3-4. Uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#3-5-pensjonsgrunnlag">§ 3-5. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#3-6-pensjonsberegning">§ 3-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#3-7-barnetillegg">§ 3-7. Barnetillegg</a></li>
+<li class="lvl4"><a href="#3-8-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 3-8. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-alderspensjon-opptjent-etter-den-tidligere-loven-om-pensjonsordning-for-statsrader">Kapittel 4. Alderspensjon opptjent etter den tidligere loven om pensjonsordning for statsråder</a></li>
+<li class="lvl4"><a href="#4-1-virkeomrade">§ 4-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-opptjeningstid">§ 4-2. Opptjeningstid</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-opptjeningstid-for-rett-til-alderspensjon">§ 4-3. Krav til opptjeningstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#4-4-uttak-av-alderspensjon">§ 4-4. Uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#4-5-pensjonsgrunnlag">§ 4-5. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#4-6-pensjonsberegning">§ 4-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#4-7-barnetillegg">§ 4-7. Barnetillegg</a></li>
+<li class="lvl4"><a href="#4-8-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 4-8. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-midlertidig-ufrepensjon-og-ufrepensjon">Kapittel 5. Midlertidig uførepensjon og uførepensjon.</a></li>
+<li class="lvl4"><a href="#5-1-virkeomrade">§ 5-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#5-2-forholdet-til-lov-om-statens-pensjonskasse">§ 5-2. Forholdet til lov om Statens pensjonskasse</a></li>
+<li class="lvl4"><a href="#5-3-rett-til-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-3. Rett til midlertidig uførepensjon og uførepensjon</a></li>
+<li class="lvl4"><a href="#5-4-pensjonsgrunnlag">§ 5-4. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#5-5-pensjonsgivende-opptjeningstid">§ 5-5. Pensjonsgivende opptjeningstid</a></li>
+<li class="lvl4"><a href="#5-6-full-opptjeningstid">§ 5-6. Full opptjeningstid</a></li>
+<li class="lvl4"><a href="#5-7-opphr-av-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-7. Opphør av midlertidig uførepensjon og uførepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-6-etterlattepensjon">Kapittel 6. Etterlattepensjon</a></li>
+<li class="lvl4"><a href="#6-1-virkeomrade">§ 6-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#6-2-forholdet-til-lov-om-statens-pensjonskasse">§ 6-2. Forholdet til lov om Statens pensjonskasse</a></li>
+<li class="lvl4"><a href="#6-3-rett-til-etterlattepensjon">§ 6-3. Rett til etterlattepensjon</a></li>
+<li class="lvl4"><a href="#6-4-pensjonsgrunnlag">§ 6-4. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#6-5-pensjonsgivende-opptjeningstid">§ 6-5. Pensjonsgivende opptjeningstid</a></li>
+<li class="lvl4"><a href="#6-6-pensjonsberegning">§ 6-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#6-7-opphr-av-etterlattepensjon">§ 6-7. Opphør av etterlattepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-7-regulering">Kapittel 7. Regulering</a></li>
+<li class="lvl4"><a href="#7-1-regulering-av-alderspensjon">§ 7-1. Regulering av alderspensjon</a></li>
+<li class="lvl4"><a href="#7-2-regulering-av-opptjente-rettigheter-fr-uttak-av-alderspensjon">§ 7-2. Regulering av opptjente rettigheter før uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#7-3-regulering-av-midlertidig-ufrepensjon-ufrepensjon-og-etterlattepensjon">§ 7-3. Regulering av midlertidig uførepensjon, uførepensjon og etterlattepensjon</a></li>
+<li class="lvl4"><a href="#7-4-reguleringsfaktorer">§ 7-4. Reguleringsfaktorer</a></li>
+<li class="lvl2"><a href="#kapittel-8-forskjellige-bestemmelser">Kapittel 8. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-administrasjon">§ 8-1. Administrasjon</a></li>
+<li class="lvl4"><a href="#8-2-melding-om-uttak-av-fleksibel-alderspensjon">§ 8-2. Melding om uttak av fleksibel alderspensjon</a></li>
+<li class="lvl4"><a href="#8-3-plikt-til-a-gi-opplysninger">§ 8-3. Plikt til å gi opplysninger</a></li>
+<li class="lvl4"><a href="#8-4-innhenting-av-opplysninger">§ 8-4. Innhenting av opplysninger</a></li>
+<li class="lvl4"><a href="#8-5-utbetaling-av-pensjon">§ 8-5. Utbetaling av pensjon</a></li>
+<li class="lvl4"><a href="#8-6-finansiering">§ 8-6. Finansiering</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-2-overgangsbestemmelser">§ 9-2. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2022-04-01-17.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-12-16-60.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om pensjonsordning for stortingsrepresentanter og regjeringsmedlemmer (stortings- og regjeringspensjonsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2011-12-16-60.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2011-12-16-60 <code>lov/2011-12-16-60</code></td></tr>
+<tr><th>Korttittel</th><td>Stortings- og regjeringspensjonsloven</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Pensjons- og trygderett\nStats-, statsforfatnings- og statsborgerrett &raquo; Stortinget</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2012</td></tr>
+<tr><th>Sist endret</th><td>LOV-2022-04-01-17 <code>lov/2022-04-01-17</code> fra 01.04.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2011-12-16-60" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-medlemskap">§ 1-2. Medlemskap</a></li>
+<li class="lvl4"><a href="#1-3-samordning">§ 1-3. Samordning</a></li>
+<li class="lvl2"><a href="#kapittel-2-alderspensjon">Kapittel 2. Alderspensjon</a></li>
+<li class="lvl4"><a href="#2-1-virkeomrade">§ 2-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-2-opptjening-av-alderspensjon-pensjonsbeholdning">§ 2-2. Opptjening av alderspensjon – pensjonsbeholdning</a></li>
+<li class="lvl4"><a href="#2-3-krav-til-medlemstid-for-rett-til-alderspensjon">§ 2-3. Krav til medlemstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#2-4-alder-ved-uttak-av-alderspensjon">§ 2-4. Alder ved uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-5-levealdersjustering-og-nytralt-uttak">§ 2-5. Levealdersjustering og nøytralt uttak</a></li>
+<li class="lvl4"><a href="#2-6-beregning-av-alderspensjon">§ 2-6. Beregning av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-7-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 2-7. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl4"><a href="#2-8-omregning-av-alderspensjon-ved-opptjening-etter-pensjonsuttak">§ 2-8. Omregning av alderspensjon ved opptjening etter pensjonsuttak</a></li>
+<li class="lvl4"><a href="#2-9-alderspensjon-til-den-som-ogsa-har-opptjening-etter-kapitlene-3-og-4">§ 2-9. Alderspensjon til den som også har opptjening etter kapitlene 3 og 4</a></li>
+<li class="lvl2"><a href="#kapittel-3-alderspensjon-opptjent-etter-den-tidligere-loven-om-pensjonsordning-for-stortingsrepresentanter">Kapittel 3. Alderspensjon opptjent etter den tidligere loven om pensjonsordning for stortingsrepresentanter</a></li>
+<li class="lvl4"><a href="#3-1-virkeomrade">§ 3-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-2-opptjeningstid">§ 3-2. Opptjeningstid</a></li>
+<li class="lvl4"><a href="#3-3-krav-til-opptjeningstid-for-rett-til-alderspensjon">§ 3-3. Krav til opptjeningstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#3-4-uttak-av-alderspensjon">§ 3-4. Uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#3-5-pensjonsgrunnlag">§ 3-5. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#3-6-pensjonsberegning">§ 3-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#3-7-barnetillegg">§ 3-7. Barnetillegg</a></li>
+<li class="lvl4"><a href="#3-8-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 3-8. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-alderspensjon-opptjent-etter-den-tidligere-loven-om-pensjonsordning-for-statsrader">Kapittel 4. Alderspensjon opptjent etter den tidligere loven om pensjonsordning for statsråder</a></li>
+<li class="lvl4"><a href="#4-1-virkeomrade">§ 4-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-opptjeningstid">§ 4-2. Opptjeningstid</a></li>
+<li class="lvl4"><a href="#4-3-krav-til-opptjeningstid-for-rett-til-alderspensjon">§ 4-3. Krav til opptjeningstid for rett til alderspensjon</a></li>
+<li class="lvl4"><a href="#4-4-uttak-av-alderspensjon">§ 4-4. Uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#4-5-pensjonsgrunnlag">§ 4-5. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#4-6-pensjonsberegning">§ 4-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#4-7-barnetillegg">§ 4-7. Barnetillegg</a></li>
+<li class="lvl4"><a href="#4-8-tidspunkt-for-uttak-og-opphr-av-alderspensjon">§ 4-8. Tidspunkt for uttak og opphør av alderspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-midlertidig-ufrepensjon-og-ufrepensjon">Kapittel 5. Midlertidig uførepensjon og uførepensjon.</a></li>
+<li class="lvl4"><a href="#5-1-virkeomrade">§ 5-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#5-2-forholdet-til-lov-om-statens-pensjonskasse">§ 5-2. Forholdet til lov om Statens pensjonskasse</a></li>
+<li class="lvl4"><a href="#5-3-rett-til-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-3. Rett til midlertidig uførepensjon og uførepensjon</a></li>
+<li class="lvl4"><a href="#5-4-pensjonsgrunnlag">§ 5-4. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#5-5-pensjonsgivende-opptjeningstid">§ 5-5. Pensjonsgivende opptjeningstid</a></li>
+<li class="lvl4"><a href="#5-6-full-opptjeningstid">§ 5-6. Full opptjeningstid</a></li>
+<li class="lvl4"><a href="#5-7-opphr-av-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-7. Opphør av midlertidig uførepensjon og uførepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-6-etterlattepensjon">Kapittel 6. Etterlattepensjon</a></li>
+<li class="lvl4"><a href="#6-1-virkeomrade">§ 6-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#6-2-forholdet-til-lov-om-statens-pensjonskasse">§ 6-2. Forholdet til lov om Statens pensjonskasse</a></li>
+<li class="lvl4"><a href="#6-3-rett-til-etterlattepensjon">§ 6-3. Rett til etterlattepensjon</a></li>
+<li class="lvl4"><a href="#6-4-pensjonsgrunnlag">§ 6-4. Pensjonsgrunnlag</a></li>
+<li class="lvl4"><a href="#6-5-pensjonsgivende-opptjeningstid">§ 6-5. Pensjonsgivende opptjeningstid</a></li>
+<li class="lvl4"><a href="#6-6-pensjonsberegning">§ 6-6. Pensjonsberegning</a></li>
+<li class="lvl4"><a href="#6-7-opphr-av-etterlattepensjon">§ 6-7. Opphør av etterlattepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-7-regulering">Kapittel 7. Regulering</a></li>
+<li class="lvl4"><a href="#7-1-regulering-av-alderspensjon">§ 7-1. Regulering av alderspensjon</a></li>
+<li class="lvl4"><a href="#7-2-regulering-av-opptjente-rettigheter-fr-uttak-av-alderspensjon">§ 7-2. Regulering av opptjente rettigheter før uttak av alderspensjon</a></li>
+<li class="lvl4"><a href="#7-3-regulering-av-midlertidig-ufrepensjon-ufrepensjon-og-etterlattepensjon">§ 7-3. Regulering av midlertidig uførepensjon, uførepensjon og etterlattepensjon</a></li>
+<li class="lvl4"><a href="#7-4-reguleringsfaktorer">§ 7-4. Reguleringsfaktorer</a></li>
+<li class="lvl2"><a href="#kapittel-8-forskjellige-bestemmelser">Kapittel 8. Forskjellige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-administrasjon">§ 8-1. Administrasjon</a></li>
+<li class="lvl4"><a href="#8-2-melding-om-uttak-av-fleksibel-alderspensjon">§ 8-2. Melding om uttak av fleksibel alderspensjon</a></li>
+<li class="lvl4"><a href="#8-3-plikt-til-a-gi-opplysninger">§ 8-3. Plikt til å gi opplysninger</a></li>
+<li class="lvl4"><a href="#8-4-innhenting-av-opplysninger">§ 8-4. Innhenting av opplysninger</a></li>
+<li class="lvl4"><a href="#8-5-utbetaling-av-pensjon">§ 8-5. Utbetaling av pensjon</a></li>
+<li class="lvl4"><a href="#8-6-finansiering">§ 8-6. Finansiering</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Ikrafttredelse og overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-2-overgangsbestemmelser">§ 9-2. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-12-16-60.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2011-12-16-60.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2011-12-16-60.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2011-12-16-60.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2011-12-16-60.html">Observerte kildeutgaver</a> · <a href="../historie/stortings-og-regjeringspensjonsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2011-12-16-60.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2011-12-16-60.html">Observerte kildeutgaver</a> · <a href="../historie/stortings-og-regjeringspensjonsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2011-12-16-60.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-pensjonsordning-for-stortingsrepresentanter-og-regjeringsmedlemmer-stortings-og-regjeringspensjonsloven">Lov om pensjonsordning for stortingsrepresentanter og regjeringsmedlemmer (stortings- og regjeringspensjonsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål</h4>
 <p>Formålet med pensjonsordningen for stortingsrepresentanter og regjeringsmedlemmer er å sikre medlemmene pensjonsytelser ved alderdom og uførhet. Ordningen skal også sikre pensjonsytelser til etterlatte.</p>
@@ -88,7 +259,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Alderspensjon etter kapittel 2 er nettoberegnet ytelse og skal ikke samordnes etter bestemmelsene i lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser. Det samme gjelder midlertidig uførepensjon og uførepensjon etter kapittel 5 , med unntak av når den midlertidige uførepensjonen og uførepensjonen er beregnet etter lov 28. juli 1949 nr. 26 om Statens pensjonskasse § 28 andre ledd (bruttopensjon).</p>
 <p>Alderspensjon etter kapitlene 3 og 4 samordnes etter bestemmelsene i <a href="lov-1957-07-06-26.html">samordningsloven</a>. Alderspensjon etter kapitlene 3 og 4 skal regnes som to forskjellige ordninger ved anvendelse av bestemmelsene i samordningsloven.</p>
 <p>Etterlattepensjon etter kapittel 6 skal samordnes etter bestemmelsene i samordningsloven når pensjonen beregnes som bruttoytelse. Når pensjonen beregnes som nettoytelse, gjelder bestemmelsen i samordningsloven § 3 tredje ledd.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 , endring endret ved lov 19 des 2014 nr. 73 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 , endring endret ved lov 19 des 2014 nr. 73 ).</p>
 <h2 id="kapittel-2-alderspensjon">Kapittel 2. Alderspensjon</h2>
 <h4 id="2-1-virkeomrade">§ 2-1. Virkeområde</h4>
 <p>Kapitlet gjelder alderspensjon til stortingsrepresentanter og regjeringsmedlemmer.</p>
@@ -100,7 +271,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Pensjonsopptjeningen utgjør 6,03 prosent av opptjeningsgrunnlaget opp til 7,1 ganger folketrygdens grunnbeløp og 24,13 prosent av opptjeningsgrunnlaget mellom 7,1 og 12 ganger grunnbeløpet. Opptjeningen gjennomføres på månedsbasis. Ved opptjening i deler av en måned skal det foretas en forholdsmessig beregning av pensjonsopptjeningen.</p>
 <p>Pensjonsopptjeningen tilføres pensjonsbeholdningen fortløpende.</p>
 <p>Pensjonsbeholdningen reguleres årlig i samsvar med lønnsveksten, se § 7-2 første ledd.</p>
-<p><em>Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</em></p>
+<p class="note">Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</p>
 <h4 id="2-3-krav-til-medlemstid-for-rett-til-alderspensjon">§ 2-3. Krav til medlemstid for rett til alderspensjon</h4>
 <p>Det kreves minst ett års samlet medlemskap for å ha rett til alderspensjon etter kapitlet her.</p>
 <h4 id="2-4-alder-ved-uttak-av-alderspensjon">§ 2-4. Alder ved uttak av alderspensjon</h4>
@@ -136,12 +307,12 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Pensjonen en har rett til i perioden fra 65 til 67 år, kan tas ut tidligst fra fylte 62 år beregnet etter bestemmelsen i § 3-6 tredje ledd. Det kan ikke tas ut alderspensjon etter andre og tredje ledd i paragrafen her samtidig. Den som tar ut pensjon etter første punktum i leddet her, mister retten til å ta ut pensjon etter andre ledd.</p>
 <p>Det gis ikke pensjon etter tredje ledd for tidsrom der det ytes avtalefestet pensjon som nevnt i lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser § 1 nr. 1 første ledd bokstav d, arbeidsavklaringspenger eller uførepensjon fra folketrygden eller uførepensjon etter loven her.</p>
 <p>Det gis ikke alderspensjon til den som har verv som stortingsrepresentant eller stilling som regjeringsmedlem. Det samme gjelder den som er ansatt i statlig eller kommunal tjeneste i minst 80 prosent stilling, eller har minst 80 prosent stilling som kommunalt ombud.</p>
-<p><em>Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</em></p>
-<h4 id="3-5-pensjonsgrunnlag">§ 3-5. Pensjonsgrunnlag</h4>
+<p class="note">Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</p>
+<h4 id="3-5-pensjonsgrunnlag">§ 3-5. Pensjonsgrunnlag <a class="para-history" href="../historikk/lov-2011-12-16-60/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For den som er stortingsrepresentant ved lovens ikrafttredelse, er pensjonsgrunnlaget den årlige bruttogodtgjørelsen som er fastsatt for stortingsrepresentanter på dette tidspunktet.</p>
 <p>For stortingsrepresentant som har fratrådt vervet før lovens ikrafttredelse, benyttes det pensjonsgrunnlaget som følger av reglene i tidligere lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter.</p>
 <p>Før pensjonen tas ut, reguleres pensjonsgrunnlaget årlig i samsvar med lønnsveksten, se § 7-2 andre ledd.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 25 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 781 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 25 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 781 ).</p>
 <h4 id="3-6-pensjonsberegning">§ 3-6. Pensjonsberegning <a class="para-history" href="../historikk/lov-2011-12-16-60/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Full alderspensjon gis etter 12 års opptjeningstid, og den utgjør 66 prosent av pensjonsgrunnlaget. Ved kortere opptjeningstid reduseres pensjonen forholdsmessig.</p>
 <p>Reglene om levealdersjustering og garantert pensjonsnivå i lov 28. juli 1949 nr. 26 om Statens pensjonskasse §§ 24 , 24 a , 24 b og 24 c gjelder tilsvarende fra fylte 67 år. Ved anvendelsen av reglene om garantert pensjonsnivå skal kravet til full tjenestetid fastsettes etter første ledd.</p>
@@ -150,7 +321,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. Summen av alderspensjon for perioden fra 65 til 67 år beregnet etter bokstav a fordeles på perioden fra pensjonsuttaket til 67 år.
 c. Pensjonen utbetales fram til 67 år og erstattes da av alderspensjon beregnet etter første og andre ledd i paragrafen her.</p>
 <p>Dersom det er opptjent rett til tjenestepensjon som omfattes av lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser og som kan tas ut ved 65 år, skal denne inngå som en del av beregningen etter tredje ledd bokstav a ved at det foretas samordning som om den var tatt ut fra 65 år.</p>
-<p><em>Endret ved lover 15 juni 2018 nr. 30 (ikr. 1 jan 2019 iflg. res. 20 des 2018 nr. 2051 ), 21 juni 2019 nr. 26 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 782 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2018 nr. 30 (ikr. 1 jan 2019 iflg. res. 20 des 2018 nr. 2051 ), 21 juni 2019 nr. 26 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 782 ).</p>
 <h4 id="3-7-barnetillegg">§ 3-7. Barnetillegg</h4>
 <p>Forsørger pensjonisten barn under 18 år, skal det for hvert barn gis et barnetillegg på 10 prosent av alderspensjonen etter levealdersjustering. Alderspensjonen med barnetillegg må likevel ikke overstige 90 prosent av pensjonsgrunnlaget etter levealdersjustering når pensjonen er beregnet etter full opptjeningstid. Er pensjonen beregnet etter redusert opptjeningstid, reduseres begrensningen tilsvarende. Når alderspensjonen tas ut etter § 3-4 tredje ledd, gis det barnetillegg fra 65 år. Tillegget beregnes som om alderspensjonen hadde vært tatt ut ved 65 år.</p>
 <p>Barnetillegg utbetales til og med den måneden barnet fyller 18 år. Dersom barnet dør før fylte 18 år, utbetales tillegget til og med måneden etter at barnet døde.</p>
@@ -169,7 +340,7 @@ c. Pensjonen utbetales fram til 67 år og erstattes da av alderspensjon beregnet
 <p>Pensjonen en har rett til i perioden fra 65 til 67 år, kan likevel tas ut tidligst fra fylte 62 år beregnet etter bestemmelsen i § 4-6 tredje ledd. Dersom vedkommende også har rett til å ta ut pensjon etter § 3-4 andre ledd før fylte 65 år, kan ikke pensjonen etter første punktum i leddet her tas ut samtidig. Den som tar ut pensjon etter første punktum, mister retten til å ta ut pensjon etter § 3-4 andre ledd.</p>
 <p>Det gis ikke pensjon etter andre ledd i paragrafen her for tidsrom der det gis avtalefestet pensjon som nevnt i lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser § 1 nr. 1 første ledd bokstav d, arbeidsavklaringspenger eller midlertidig uførepensjon eller uførepensjon fra folketrygden eller uførepensjon etter loven her.</p>
 <p>Det gis ikke alderspensjon til den som har verv som stortingsrepresentant eller stilling som regjeringsmedlem. Det samme gjelder den som er ansatt i statlig eller kommunal tjeneste i minst 80 prosent stilling, eller som har minst 80 prosent stilling som kommunalt ombud.</p>
-<p><em>Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</em></p>
+<p class="note">Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</p>
 <h4 id="4-5-pensjonsgrunnlag">§ 4-5. Pensjonsgrunnlag</h4>
 <p>Pensjonsgrunnlaget for den som er regjeringsmedlem ved lovens ikrafttredelse, er den årlige bruttogodtgjørelsen som er fastsatt for regjeringsmedlemmer på dette tidspunktet.</p>
 <p>For regjeringsmedlem som har fratrådt vervet før lovens ikrafttredelse, benyttes det pensjonsgrunnlaget som følger av reglene i tidligere lov 14. desember 1951 nr. 11 om pensjonsordning for statsråder.</p>
@@ -182,7 +353,7 @@ c. Pensjonen utbetales fram til 67 år og erstattes da av alderspensjon beregnet
 b. Summen av årlig alderspensjon beregnet etter bokstav a fordeles på perioden fra pensjonsuttaket til 67 år.
 c. Pensjonen utbetales fram til 67 år og erstattes da av alderspensjon beregnet etter første og andre ledd i paragrafen her.</p>
 <p>Dersom det er opptjent rett til tjenestepensjon som omfattes av lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser og som kan tas ut ved 65 år, skal denne inngå som en del av beregningen etter tredje ledd bokstav a ved at det foretas samordning som om den var tatt ut fra 65 år.</p>
-<p><em>Endret ved lover 15 juni 2018 nr. 30 (ikr. 1 jan 2019 iflg. res. 20 des 2018 nr. 2051 ), 21 juni 2019 nr. 26 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 782 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2018 nr. 30 (ikr. 1 jan 2019 iflg. res. 20 des 2018 nr. 2051 ), 21 juni 2019 nr. 26 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 782 ).</p>
 <h4 id="4-7-barnetillegg">§ 4-7. Barnetillegg</h4>
 <p>Forsørger pensjonisten barn under 18 år, skal det for hvert barn gis et barnetillegg på 10 prosent av alderspensjonen etter levealdersjustering. Alderspensjonen med barnetillegg må likevel ikke overstige 90 prosent av pensjonsgrunnlaget etter levealdersjustering når pensjonen er beregnet etter full opptjeningstid. Er pensjonen beregnet etter redusert opptjeningstid, reduseres begrensningen tilsvarende. Når alderspensjonen tas ut etter § 4-4 andre ledd, gis det barnetillegg fra 65 år. Tillegget beregnes som om alderspensjonen hadde vært tatt ut ved 65 år.</p>
 <p>Barnetillegg utbetales til og med den måneden barnet fyller 18 år. Dersom barnet dør før fylte 18 år, utbetales tillegget til og med måneden etter at barnet døde.</p>
@@ -193,22 +364,22 @@ c. Pensjonen utbetales fram til 67 år og erstattes da av alderspensjon beregnet
 <p>Overskriften endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-1-virkeomrade">§ 5-1. Virkeområde <a class="para-history" href="../historikk/lov-2011-12-16-60/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kapitlet gjelder midlertidig uførepensjon og uførepensjon for den som er eller har vært stortingsrepresentant eller regjeringsmedlem.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-2-forholdet-til-lov-om-statens-pensjonskasse">§ 5-2. Forholdet til lov om Statens pensjonskasse <a class="para-history" href="../historikk/lov-2011-12-16-60/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Reglene om midlertidig uførepensjon og uførepensjon i lov 28. juli 1949 nr. 26 om Statens pensjonskasse kapittel 6 gjelder så langt ikke annet følger av loven her.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-3-rett-til-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-3. Rett til midlertidig uførepensjon og uførepensjon <a class="para-history" href="../historikk/lov-2011-12-16-60/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Midlertidig uførepensjon og uførepensjon gis når et medlem må fratre vervet som stortingsrepresentant eller stilling som regjeringsmedlem på grunn av sykdom, skade eller lyte, og vedkommende er under 65 år.</p>
 <p>Den som blir ufør etter at vervet som stortingsrepresentant eller stilling som regjeringsmedlem er fratrådt, har rett til uførepensjon etter samme uføregrad som i folketrygden når vedkommende</p>
 <p>a. har rett til uføretrygd etter folketrygdloven ,
 b. har en samlet medlemstid i ordningen på minst tre år, der opptjeningstid etter de tidligere lovene om pensjonsordninger for stortingsrepresentanter og statsråder også regnes med, og
 c. er under 65 år.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-4-pensjonsgrunnlag">§ 5-4. Pensjonsgrunnlag <a class="para-history" href="../historikk/lov-2011-12-16-60/para-5-4.html" title="Endringshistorikk for § 5-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Pensjonsgrunnlaget for den som omfattes av § 5-3 første ledd, er det opptjeningsgrunnlaget som stortingsrepresentanten eller regjeringsmedlemmet har på tidspunktet den midlertidige uførepensjonen eller uførepensjonen gis virkning fra, se § 2-2 andre ledd.</p>
 <p>Pensjonsgrunnlaget for den som omfattes av § 5-3 andre ledd, er opptjeningsgrunnlaget på fratredelsestidspunktet. Har vedkommende fratrådt ved lovens ikrafttredelse, fastsettes pensjonsgrunnlaget etter § 3-5 andre ledd eller § 4-5 andre ledd. Pensjonsgrunnlaget reguleres fram til virkningstidspunktet for pensjonen i samsvar med lønnsveksten, se § 7-4 om reguleringsfaktorer.</p>
 <p>Pensjonsgrunnlaget begrenses til tolv ganger folketrygdens grunnbeløp.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-5-pensjonsgivende-opptjeningstid">§ 5-5. Pensjonsgivende opptjeningstid</h4>
 <p>Som opptjeningstid regnes den tid stortingsrepresentanten eller regjeringsmedlemmet har vært medlem av pensjonsordningen. For den som omfattes av § 5-3 første ledd, skal tiden fram til fylte 65 år regnes med i opptjeningstiden.</p>
 <p>Opptjeningstid etter de tidligere lovene om pensjonsordninger for stortingsrepresentanter og statsråder skal medregnes som opptjeningstid ved beregning av pensjon etter kapitlet her. Opptjeningstiden skal omregnes ved at</p>
@@ -219,11 +390,11 @@ b. opptjeningstid inntil 6 år fra pensjonsordningen for statsråder skal multip
 <p>Når midlertidig uførepensjon og uførepensjon gis etter § 5-3 første ledd, er full opptjeningstid 30 år. Det samme gjelder for den som omfattes av § 5-3 andre ledd og som har opptjeningstid etter de tidligere lovene om pensjonsordninger for stortingsrepresentanter og statsråder.</p>
 <p>Når uførepensjonen gis etter § 5-3 andre ledd og pensjonisten ikke hadde opptjeningstid etter de tidligere lovene om pensjonsordninger for stortingsrepresentanter og statsråder, regnes full opptjeningstid som perioden fra vedkommende ble medlem og fram til 65 år, likevel ikke mer enn 40 år og ikke mindre enn 30 år.</p>
 <p>Beregningen av midlertidig uførepensjon og uførepensjon skjer for øvrig i samsvar med lov 28. juli 1949 nr. 26 om Statens pensjonskasse, men med de særskilte beregningsfaktorene som framgår av kapitlet her.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 ).</p>
 <h4 id="5-7-opphr-av-midlertidig-ufrepensjon-og-ufrepensjon">§ 5-7. Opphør av midlertidig uførepensjon og uførepensjon <a class="para-history" href="../historikk/lov-2011-12-16-60/para-5-7.html" title="Endringshistorikk for § 5-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Midlertidig uførepensjon og uførepensjon opphører ved utgangen av måneden pensjonisten fyller 65 år.</p>
 <p>Dersom pensjonisten dør før fylte 65 år, opphører midlertidig uførepensjon og uførepensjon ved utgangen av måneden etter dødsfallet. Dersom avdøde etterlater seg ektefelle, utbetales pensjonen i ytterligere én måned.</p>
-<p><em>Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 , tidligere § 5-8).</em></p>
+<p class="note">Endret ved lov 7 mars 2014 nr. 5 (ikr. 1 jan 2015 iflg. res. 20 juni 2014 nr. 798 , tidligere § 5-8).</p>
 <h2 id="kapittel-6-etterlattepensjon">Kapittel 6. Etterlattepensjon</h2>
 <h4 id="6-1-virkeomrade">§ 6-1. Virkeområde</h4>
 <p>Kapitlet gjelder etterlattepensjon til gjenlevende ektefelle og barn under 20 år etter stortingsrepresentanter og regjeringsmedlemmer.</p>
@@ -236,7 +407,7 @@ b. opptjeningstid inntil 6 år fra pensjonsordningen for statsråder skal multip
 <p>Pensjonsgrunnlaget for etterlatte som omfattes av § 6-3 første ledd, er opptjeningsgrunnlaget avdøde hadde på tidspunktet for dødsfallet, se § 2-2 andre ledd.</p>
 <p>For etterlatte som omfattes av § 6-3 andre ledd, er pensjonsgrunnlaget det opptjeningsgrunnlaget avdøde hadde ved fratredelsen. Har avdøde fratrådt før lovens ikrafttredelse, fastsettes pensjonsgrunnlaget etter § 3-5 andre ledd eller § 4-5 andre ledd. Pensjonsgrunnlaget reguleres fram til virkningstidspunktet for pensjonen i samsvar med lønnsveksten. Når avdøde var over 67 år ved dødsfallet, skal pensjonsgrunnlaget for tiden fra 67 år reguleres med et gjennomsnitt av lønns- og prisvekst. Ved regulering benyttes de reguleringsfaktorer som fastsettes årlig, jf. § 7-4 .</p>
 <p>Pensjonsgrunnlaget begrenses til tolv ganger folketrygdens grunnbeløp.</p>
-<p><em>Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</em></p>
+<p class="note">Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</p>
 <h4 id="6-5-pensjonsgivende-opptjeningstid">§ 6-5. Pensjonsgivende opptjeningstid</h4>
 <p>Som opptjeningstid ved beregning av etterlattepensjon regnes den tid stortingsrepresentanten eller regjeringsmedlemmet har vært medlem av pensjonsordningen. For tilfeller der retten til etterlattepensjon følger av § 6-3 første ledd, regnes tiden som avdøde ville ha fått ved å fortsette i vervet eller stillingen fram til fylte 65 år med i opptjeningstiden.</p>
 <p>Opptjeningstid etter de tidligere lovene om pensjonsordninger for stortingsrepresentanter og statsråder skal medregnes som opptjeningstid ved beregning av pensjon etter kapitlet her. Opptjeningstiden skal omregnes ved at</p>
@@ -255,14 +426,14 @@ b. opptjeningstid inntil 6 år fra pensjonsordningen for statsråder skal multip
 <p>Alderspensjon etter kapittel 2 under utbetaling reguleres årlig med virkning fra 1. mai i samsvar med et gjennomsnitt av lønns- og prisvekst. Ved første reguleringstidspunkt etter pensjonsuttak i månedene juni til april settes fratrekket forholdsmessig ned ut fra når i perioden pensjonen ble tatt ut.</p>
 <p>Regulering av alderspensjon etter kapitlene 3 og 4 under utbetaling foretas ved at pensjonsgrunnlaget reguleres årlig med virkning fra 1. mai i samsvar med et gjennomsnitt av lønns- og prisvekst. Ved første reguleringstidspunkt etter pensjonsuttak gjelder første ledd andre punktum tilsvarende.</p>
 <p>Alderspensjon etter kapitlene 3 og 4 som er tatt ut før 67 år, skal omregnes fra måneden etter fylte 67 år ved at pensjonsgrunnlaget oppreguleres med lønnsveksten fra uttakstidspunktet og fram til omregningstidspunktet. Bestemmelsen i første ledd andre punktum gjelder tilsvarende ved første regulering etter at pensjonsgrunnlaget er omregnet.</p>
-<p><em>Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</em></p>
+<p class="note">Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</p>
 <h4 id="7-2-regulering-av-opptjente-rettigheter-fr-uttak-av-alderspensjon">§ 7-2. Regulering av opptjente rettigheter før uttak av alderspensjon</h4>
 <p>Pensjonsbeholdningen etter § 2-2 reguleres årlig med virkning fra 1. mai i samsvar med lønnsveksten.</p>
 <p>Pensjonsgrunnlaget etter §§ 3-5 og 4-5 reguleres med lønnsveksten fram til tidspunktet det tas ut alderspensjon etter loven her.</p>
 <h4 id="7-3-regulering-av-midlertidig-ufrepensjon-ufrepensjon-og-etterlattepensjon">§ 7-3. Regulering av midlertidig uførepensjon, uførepensjon og etterlattepensjon <a class="para-history" href="../historikk/lov-2011-12-16-60/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Regulering av midlertidig uførepensjon, uførepensjon og etterlattepensjon til gjenlevende ektefelle under utbetaling foretas ved at pensjonsgrunnlaget reguleres årlig med virkning fra 1. mai i samsvar med lønnsveksten.</p>
 <p>Fra måneden etter fylte 67 år reguleres etterlattepensjonen i samsvar med et gjennomsnitt av lønns- og prisvekst. Ved første reguleringstidspunkt etter 67 år i månedene juni til april settes fratrekket forholdsmessig ned ut fra når i perioden pensjonen ble tatt ut.</p>
-<p><em>Endret ved lover 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ), 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</em></p>
+<p class="note">Endret ved lover 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ), 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</p>
 <h4 id="7-4-reguleringsfaktorer">§ 7-4. Reguleringsfaktorer</h4>
 <p>Ved regulering benyttes de reguleringsfaktorene som er fastsatt av Kongen etter folketrygdloven § 19-14 åttende ledd og § 20-18 åttende ledd.</p>
 <h2 id="kapittel-8-forskjellige-bestemmelser">Kapittel 8. Forskjellige bestemmelser</h2>
@@ -282,14 +453,14 @@ b. opptjeningstid inntil 6 år fra pensjonsordningen for statsråder skal multip
 <p>Feilutbetalt pensjon kan kreves tilbakebetalt etter bestemmelsene i lov 28. juli 1949 nr. 26 om Statens pensjonskasse § 44 sjette til niende ledd.</p>
 <p>Renter ved forsinket utbetaling av pensjon gis etter bestemmelsene i lov 28. juli 1949 nr. 26 om Statens pensjonskasse § 44 a .</p>
 <p>Det er et vilkår for rett til ytelser etter kapitlene 3 til 6 at pensjonssøkeren setter fram krav om tilsvarende ytelser etter folketrygdloven . Departementet kan gi forskrift om framsetting av slikt krav.</p>
-<p><em>Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</em></p>
+<p class="note">Endret ved lov 19 des 2014 nr. 73 (ikr. 1 jan 2015 iflg. res. 19 des 2014 nr. 1717 ).</p>
 <h4 id="8-6-finansiering">§ 8-6. Finansiering</h4>
 <p>Utgifter til pensjoner og administrasjon etter denne loven dekkes av staten.</p>
 <h2 id="kapittel-9-ikrafttredelse-og-overgangsbestemmelser">Kapittel 9. Ikrafttredelse og overgangsbestemmelser</h2>
-<h4 id="9-1-ikrafttredelse">§ 9-1. Ikrafttredelse</h4>
+<h4 id="9-1-ikrafttredelse">§ 9-1. Ikrafttredelse <a class="para-history" href="../historikk/lov-2011-12-16-60/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Loven trer i kraft 1. januar 2012.</p>
 <p>Fra samme tidspunkt oppheves lov 14. desember 1951 nr. 11 om pensjonsordning for statsråder og lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter.</p>
-<p><em>Endret ved lov 20 des 2018 nr. 98 (ikr. 1 jan 2019).</em></p>
+<p class="note">Endret ved lov 20 des 2018 nr. 98 (ikr. 1 jan 2019).</p>
 <h4 id="9-2-overgangsbestemmelser">§ 9-2. Overgangsbestemmelser</h4>
 <p>Det godskrives opptjening etter bestemmelsene i kapittel 2 i perioden 1. oktober 2009 til 31. desember 2011 til dem som i denne perioden er eller har vært</p>
 <p>a. stortingsrepresentanter og som ikke hadde opparbeidet rett til pensjon etter lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter før 1. oktober 2009,
@@ -298,7 +469,9 @@ b. regjeringsmedlemmer og som ikke har opparbeidet rett til pensjon etter lov 14
 <p>Stortingsrepresentanter og regjeringsmedlemmer som får opptjening i kapittel 2 etter første ledd skal ikke ha opptjening etter kapitlene 3 og 4 for samme periode.</p>
 <p>Pensjonsopptjening etter første ledd skal legges til grunn for fastsetting av en pensjonsbeholdning 1. januar 2012. Opptjeningen beregnes etter § 2-2 . Opptjeningen 1. mai 2010 reguleres i samsvar med økningen i folketrygdens grunnbeløp på dette tidspunkt. Opptjeningen 1. mai 2011 reguleres i samsvar med folketrygdens grunnbeløp på dette tidspunkt.</p>
 <p>De som før 1. januar 2012 mottar uførepensjon eller etterlattepensjon etter lov 12. juni 1981 nr. 61 om pensjonsordning for stortingsrepresentanter eller etter lov 14. desember 1951 nr. 11 om pensjonsordning for statsråder, skal fortsatt ha pensjonen beregnet etter disse reglene. For øvrig gjelder loven her. Ved overgang fra uførepensjon til alderspensjon ved fylte 65 år skal alderspensjonen beregnes etter bestemmelsene i kapitlene 3 og 4.</p>
-<p><em>Endret ved lov 20 des 2018 nr. 98 (ikr. 1 jan 2019).</em></p>
+<p class="note">Endret ved lov 20 des 2018 nr. 98 (ikr. 1 jan 2019).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

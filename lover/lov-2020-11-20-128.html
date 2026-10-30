@@ -19,69 +19,290 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2020-11-20-128.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Revisorloven" href="../feeds/lov-2020-11-20-128.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Revisorloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2020-11-20-128</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Revisjon</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01, 2021-05-01</dd>
-<dt>Sist endret</dt><dd>lov/2024-06-21-41</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2020-11-20-128" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkeomrade-og-definisjoner">Kapittel 1 Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-uavhengige-tilbydere-av-attestasjonstjenester-for-brekraftsrapportering">§ 1-3. Uavhengige tilbydere av attestasjonstjenester for bærekraftsrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-2-revisjonsplikt-mv">Kapittel 2 Revisjonsplikt mv.</a></li>
+<li class="lvl4"><a href="#2-1-revisjonsplikt-og-adgangen-til-a-si-opp-revisor">§ 2-1. Revisjonsplikt og adgangen til å si opp revisor</a></li>
+<li class="lvl4"><a href="#2-2-plikt-til-a-legge-til-rette-for-revisjonen">§ 2-2. Plikt til å legge til rette for revisjonen</a></li>
+<li class="lvl4"><a href="#2-3-forbud-mot-begrensninger-i-det-frie-revisorvalget">§ 2-3. Forbud mot begrensninger i det frie revisorvalget</a></li>
+<li class="lvl4"><a href="#2-4-overfring-av-revisjonsoppdrag-ved-sammenslutning-og-omorganisering">§ 2-4. Overføring av revisjonsoppdrag ved sammenslutning og omorganisering</a></li>
+<li class="lvl2"><a href="#kapittel-3-godkjenning-som-revisor">Kapittel 3 Godkjenning som revisor</a></li>
+<li class="lvl4"><a href="#3-1-godkjenning-som-revisor">§ 3-1. Godkjenning som revisor</a></li>
+<li class="lvl4"><a href="#3-2-utdanning">§ 3-2. Utdanning</a></li>
+<li class="lvl4"><a href="#3-3-praktisk-opplring">§ 3-3. Praktisk opplæring</a></li>
+<li class="lvl4"><a href="#3-3-a-brekraftsrevisor">§ 3-3 a. Bærekraftsrevisor</a></li>
+<li class="lvl4"><a href="#3-4-vilkar-om-a-vre-skikket">§ 3-4. Vilkår om å være skikket</a></li>
+<li class="lvl4"><a href="#3-5-godkjenning-av-revisorer-fra-andre-es-land-og-sveits">§ 3-5. Godkjenning av revisorer fra andre EØS-land og Sveits</a></li>
+<li class="lvl4"><a href="#3-6-godkjenning-av-revisorer-fra-land-utenfor-es">§ 3-6. Godkjenning av revisorer fra land utenfor EØS</a></li>
+<li class="lvl4"><a href="#3-7-revisortitler">§ 3-7. Revisortitler</a></li>
+<li class="lvl4"><a href="#3-8-deponering">§ 3-8. Deponering</a></li>
+<li class="lvl2"><a href="#kapittel-4-godkjenning-av-revisjonsselskaper-adgang-for-utenlandske-revisjonsselskaper-til-a-drive-virksomhet-i-norge">Kapittel 4 Godkjenning av revisjonsselskaper. Adgang for utenlandske revisjonsselskaper til å drive virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#4-1-godkjenning-av-revisjonsselskaper">§ 4-1. Godkjenning av revisjonsselskaper</a></li>
+<li class="lvl4"><a href="#4-2-adgang-for-revisjonsselskaper-fra-andre-es-land-til-a-drive-virksomhet-i-norge">§ 4-2. Adgang for revisjonsselskaper fra andre EØS-land til å drive virksomhet i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-5-etterutdanning">Kapittel 5 Etterutdanning</a></li>
+<li class="lvl4"><a href="#5-1-krav-til-etterutdanning">§ 5-1. Krav til etterutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-6-revisorregister-mv">Kapittel 6 Revisorregister mv.</a></li>
+<li class="lvl4"><a href="#6-1-revisor-og-attestantregisteret">§ 6-1. Revisor- og attestantregisteret</a></li>
+<li class="lvl4"><a href="#6-2-opplysninger-om-statsautoriserte-revisorer">§ 6-2. Opplysninger om statsautoriserte revisorer</a></li>
+<li class="lvl4"><a href="#6-3-plikt-til-a-registrere-enkeltpersonforetak">§ 6-3. Plikt til å registrere enkeltpersonforetak</a></li>
+<li class="lvl4"><a href="#6-4-opplysninger-om-revisjonsforetak">§ 6-4. Opplysninger om revisjonsforetak</a></li>
+<li class="lvl2"><a href="#kapittel-7-organisasjon-og-kvalitetsstyring">Kapittel 7 Organisasjon og kvalitetsstyring</a></li>
+<li class="lvl4"><a href="#7-1-organisering-av-virksomheten-og-kvalitetsstyring">§ 7-1. Organisering av virksomheten og kvalitetsstyring</a></li>
+<li class="lvl4"><a href="#7-2-klientregister">§ 7-2. Klientregister</a></li>
+<li class="lvl4"><a href="#7-3-registrering-av-overtredelser-og-skriftlige-klager">§ 7-3. Registrering av overtredelser og skriftlige klager</a></li>
+<li class="lvl2"><a href="#kapittel-8-uavhengighet-og-objektivitet">Kapittel 8 Uavhengighet og objektivitet</a></li>
+<li class="lvl4"><a href="#8-1-overordnede-krav-til-uavhengighet">§ 8-1. Overordnede krav til uavhengighet</a></li>
+<li class="lvl4"><a href="#8-1-a-uavhengighet-ved-attestasjon-av-pliktig-brekraftsrapportering">§ 8-1 a. Uavhengighet ved attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#8-2-finansielle-forbindelser-til-den-reviderte">§ 8-2. Finansielle forbindelser til den reviderte</a></li>
+<li class="lvl4"><a href="#8-3-gaver">§ 8-3. Gaver</a></li>
+<li class="lvl4"><a href="#8-4-deltakelse-i-beslutningstaking-interessekonflikter">§ 8-4. Deltakelse i beslutningstaking. Interessekonflikter</a></li>
+<li class="lvl4"><a href="#8-5-vurdering-av-uavhengighet-og-tiltak-for-a-sikre-uavhengighet">§ 8-5. Vurdering av uavhengighet og tiltak for å sikre uavhengighet</a></li>
+<li class="lvl4"><a href="#8-6-forbud-mot-pavirkning">§ 8-6. Forbud mot påvirkning</a></li>
+<li class="lvl4"><a href="#8-7-honorar">§ 8-7. Honorar</a></li>
+<li class="lvl4"><a href="#8-8-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 8-8. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</a></li>
+<li class="lvl2"><a href="#kapittel-9-revisors-plikter-ved-lovfestet-revisjon-attestasjon-av-pliktig-brekraftsrapportering-og-revisorbekreftelser">Kapittel 9 Revisors plikter ved lovfestet revisjon, attestasjon av pliktig bærekraftsrapportering og revisorbekreftelser</a></li>
+<li class="lvl4"><a href="#9-1-formalet-med-lovfestet-revisjon-og-attestasjon-av-pliktig-brekraftsrapportering">§ 9-1. Formålet med lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-2-forberedelse-og-fortsettelse-av-revisjonsoppdraget">§ 9-2. Forberedelse og fortsettelse av revisjonsoppdraget</a></li>
+<li class="lvl4"><a href="#9-3-oppdragsansvarlig-revisor">§ 9-3. Oppdragsansvarlig revisor</a></li>
+<li class="lvl4"><a href="#9-4-revisors-plikter-ved-utfrelse-av-lovfestet-revisjon">§ 9-4. Revisors plikter ved utførelse av lovfestet revisjon</a></li>
+<li class="lvl4"><a href="#9-4-a-revisors-plikter-ved-utfrelse-av-attestasjon-av-pliktig-brekraftsrapportering">§ 9-4 a. Revisors plikter ved utførelse av attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-5-kommunikasjon-med-styret">§ 9-5. Kommunikasjon med styret</a></li>
+<li class="lvl4"><a href="#9-6-rett-og-plikt-til-a-trekke-seg-som-revisor">§ 9-6. Rett og plikt til å trekke seg som revisor</a></li>
+<li class="lvl4"><a href="#9-7-revisjonsberetning">§ 9-7. Revisjonsberetning</a></li>
+<li class="lvl4"><a href="#9-7-a-attestasjonsuttalelse-om-brekraftsrapportering">§ 9-7 a. Attestasjonsuttalelse om bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-8-srlige-krav-ved-revisjon-av-konsernregnskaper-og-attestasjon-av-pliktig-konsolidert-brekraftsrapportering-mv">§ 9-8. Særlige krav ved revisjon av konsernregnskaper og attestasjon av pliktig konsolidert bærekraftsrapportering mv.</a></li>
+<li class="lvl4"><a href="#9-9-oppdragsdokumentasjon">§ 9-9. Oppdragsdokumentasjon</a></li>
+<li class="lvl4"><a href="#9-10-revisors-plikter-ved-revisorbekreftelser">§ 9-10. Revisors plikter ved revisorbekreftelser</a></li>
+<li class="lvl2"><a href="#kapittel-10-taushetsplikt-og-opplysningsplikt">Kapittel 10 Taushetsplikt og opplysningsplikt</a></li>
+<li class="lvl4"><a href="#10-1-revisors-taushetsplikt">§ 10-1. Revisors taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-revisors-opplysningsplikt">§ 10-2. Revisors opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-11-erstatningsansvar">Kapittel 11 Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#11-1-erstatningsansvar">§ 11-1. Erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-12-srlige-plikter-ved-revisjon-av-foretak-av-allmenn-interesse">Kapittel 12 Særlige plikter ved revisjon av foretak av allmenn interesse</a></li>
+<li class="lvl4"><a href="#12-1-gjennomfring-av-revisjonsforordningen">§ 12-1. Gjennomføring av revisjonsforordningen</a></li>
+<li class="lvl4"><a href="#12-2-nasjonal-tilsynsmyndighet">§ 12-2. Nasjonal tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#12-3-revisjonshonorar">§ 12-3. Revisjonshonorar</a></li>
+<li class="lvl4"><a href="#12-4-adgang-til-a-yte-visse-tjenester">§ 12-4. Adgang til å yte visse tjenester</a></li>
+<li class="lvl4"><a href="#12-4-a-forbud-mot-a-levere-visse-tjenester-for-den-som-attesterer-brekraftsrapportering">§ 12-4 a. Forbud mot å levere visse tjenester for den som attesterer bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#12-4-b-uregelmessigheter">§ 12-4 b. Uregelmessigheter</a></li>
+<li class="lvl4"><a href="#12-5-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 12-5. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</a></li>
+<li class="lvl4"><a href="#12-6-revisjonsforetak-fra-land-utenfor-es-som-reviderer-foretak-notert-pa-regulert-marked-i-norge">§ 12-6. Revisjonsforetak fra land utenfor EØS som reviderer foretak notert på regulert marked i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-13-kvalitetskontroll-mv">Kapittel 13 Kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#13-1-kvalitetskontroll">§ 13-1. Kvalitetskontroll</a></li>
+<li class="lvl4"><a href="#13-2-tilsyn-med-standardsetting">§ 13-2. Tilsyn med standardsetting</a></li>
+<li class="lvl2"><a href="#kapittel-14-administrative-tiltak-overtredelsesgebyr-og-straff">Kapittel 14 Administrative tiltak, overtredelsesgebyr og straff</a></li>
+<li class="lvl4"><a href="#14-1-tilbakekall-og-suspensjon-av-godkjenningen-til-en-statsautorisert-revisor">§ 14-1. Tilbakekall og suspensjon av godkjenningen til en statsautorisert revisor</a></li>
+<li class="lvl4"><a href="#14-2-tilbakekall-og-suspensjon-av-godkjenningen-til-et-revisjonsselskap">§ 14-2. Tilbakekall og suspensjon av godkjenningen til et revisjonsselskap</a></li>
+<li class="lvl4"><a href="#14-3-forbud-mot-a-ha-ledelsesfunksjon">§ 14-3. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#14-4-forbud-mot-a-undertegne-revisjonsberetninger">§ 14-4. Forbud mot å undertegne revisjonsberetninger</a></li>
+<li class="lvl4"><a href="#14-5-overtredelsesgebyr">§ 14-5. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-6-momenter-ved-vedtak-om-overtredelsesgebyr">§ 14-6. Momenter ved vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-7-foreldelse-mv">§ 14-7. Foreldelse mv.</a></li>
+<li class="lvl4"><a href="#14-8-straff">§ 14-8. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-15-klagenemnd">Kapittel 15 Klagenemnd</a></li>
+<li class="lvl4"><a href="#15-1-klagenemnd">§ 15-1. Klagenemnd</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelses-og-overgangsregler-endringer-i-andre-lover">Kapittel 16 Ikrafttredelses- og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#16-1-ikrafttredelse">§ 16-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-2-overgangsregler">§ 16-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2024-06-21-41.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-11-20-128.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om revisjon og revisorer (revisorloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-11-20-128.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2020-11-20-128 <code>lov/2020-11-20-128</code></td></tr>
+<tr><th>Korttittel</th><td>Revisorloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Revisjon</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021, 01.05.2021</td></tr>
+<tr><th>Sist endret</th><td>LOV-2024-06-21-41 <code>lov/2024-06-21-41</code> fra 01.04.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2020-11-20-128" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkeomrade-og-definisjoner">Kapittel 1 Virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-uavhengige-tilbydere-av-attestasjonstjenester-for-brekraftsrapportering">§ 1-3. Uavhengige tilbydere av attestasjonstjenester for bærekraftsrapportering</a></li>
+<li class="lvl2"><a href="#kapittel-2-revisjonsplikt-mv">Kapittel 2 Revisjonsplikt mv.</a></li>
+<li class="lvl4"><a href="#2-1-revisjonsplikt-og-adgangen-til-a-si-opp-revisor">§ 2-1. Revisjonsplikt og adgangen til å si opp revisor</a></li>
+<li class="lvl4"><a href="#2-2-plikt-til-a-legge-til-rette-for-revisjonen">§ 2-2. Plikt til å legge til rette for revisjonen</a></li>
+<li class="lvl4"><a href="#2-3-forbud-mot-begrensninger-i-det-frie-revisorvalget">§ 2-3. Forbud mot begrensninger i det frie revisorvalget</a></li>
+<li class="lvl4"><a href="#2-4-overfring-av-revisjonsoppdrag-ved-sammenslutning-og-omorganisering">§ 2-4. Overføring av revisjonsoppdrag ved sammenslutning og omorganisering</a></li>
+<li class="lvl2"><a href="#kapittel-3-godkjenning-som-revisor">Kapittel 3 Godkjenning som revisor</a></li>
+<li class="lvl4"><a href="#3-1-godkjenning-som-revisor">§ 3-1. Godkjenning som revisor</a></li>
+<li class="lvl4"><a href="#3-2-utdanning">§ 3-2. Utdanning</a></li>
+<li class="lvl4"><a href="#3-3-praktisk-opplring">§ 3-3. Praktisk opplæring</a></li>
+<li class="lvl4"><a href="#3-3-a-brekraftsrevisor">§ 3-3 a. Bærekraftsrevisor</a></li>
+<li class="lvl4"><a href="#3-4-vilkar-om-a-vre-skikket">§ 3-4. Vilkår om å være skikket</a></li>
+<li class="lvl4"><a href="#3-5-godkjenning-av-revisorer-fra-andre-es-land-og-sveits">§ 3-5. Godkjenning av revisorer fra andre EØS-land og Sveits</a></li>
+<li class="lvl4"><a href="#3-6-godkjenning-av-revisorer-fra-land-utenfor-es">§ 3-6. Godkjenning av revisorer fra land utenfor EØS</a></li>
+<li class="lvl4"><a href="#3-7-revisortitler">§ 3-7. Revisortitler</a></li>
+<li class="lvl4"><a href="#3-8-deponering">§ 3-8. Deponering</a></li>
+<li class="lvl2"><a href="#kapittel-4-godkjenning-av-revisjonsselskaper-adgang-for-utenlandske-revisjonsselskaper-til-a-drive-virksomhet-i-norge">Kapittel 4 Godkjenning av revisjonsselskaper. Adgang for utenlandske revisjonsselskaper til å drive virksomhet i Norge</a></li>
+<li class="lvl4"><a href="#4-1-godkjenning-av-revisjonsselskaper">§ 4-1. Godkjenning av revisjonsselskaper</a></li>
+<li class="lvl4"><a href="#4-2-adgang-for-revisjonsselskaper-fra-andre-es-land-til-a-drive-virksomhet-i-norge">§ 4-2. Adgang for revisjonsselskaper fra andre EØS-land til å drive virksomhet i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-5-etterutdanning">Kapittel 5 Etterutdanning</a></li>
+<li class="lvl4"><a href="#5-1-krav-til-etterutdanning">§ 5-1. Krav til etterutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-6-revisorregister-mv">Kapittel 6 Revisorregister mv.</a></li>
+<li class="lvl4"><a href="#6-1-revisor-og-attestantregisteret">§ 6-1. Revisor- og attestantregisteret</a></li>
+<li class="lvl4"><a href="#6-2-opplysninger-om-statsautoriserte-revisorer">§ 6-2. Opplysninger om statsautoriserte revisorer</a></li>
+<li class="lvl4"><a href="#6-3-plikt-til-a-registrere-enkeltpersonforetak">§ 6-3. Plikt til å registrere enkeltpersonforetak</a></li>
+<li class="lvl4"><a href="#6-4-opplysninger-om-revisjonsforetak">§ 6-4. Opplysninger om revisjonsforetak</a></li>
+<li class="lvl2"><a href="#kapittel-7-organisasjon-og-kvalitetsstyring">Kapittel 7 Organisasjon og kvalitetsstyring</a></li>
+<li class="lvl4"><a href="#7-1-organisering-av-virksomheten-og-kvalitetsstyring">§ 7-1. Organisering av virksomheten og kvalitetsstyring</a></li>
+<li class="lvl4"><a href="#7-2-klientregister">§ 7-2. Klientregister</a></li>
+<li class="lvl4"><a href="#7-3-registrering-av-overtredelser-og-skriftlige-klager">§ 7-3. Registrering av overtredelser og skriftlige klager</a></li>
+<li class="lvl2"><a href="#kapittel-8-uavhengighet-og-objektivitet">Kapittel 8 Uavhengighet og objektivitet</a></li>
+<li class="lvl4"><a href="#8-1-overordnede-krav-til-uavhengighet">§ 8-1. Overordnede krav til uavhengighet</a></li>
+<li class="lvl4"><a href="#8-1-a-uavhengighet-ved-attestasjon-av-pliktig-brekraftsrapportering">§ 8-1 a. Uavhengighet ved attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#8-2-finansielle-forbindelser-til-den-reviderte">§ 8-2. Finansielle forbindelser til den reviderte</a></li>
+<li class="lvl4"><a href="#8-3-gaver">§ 8-3. Gaver</a></li>
+<li class="lvl4"><a href="#8-4-deltakelse-i-beslutningstaking-interessekonflikter">§ 8-4. Deltakelse i beslutningstaking. Interessekonflikter</a></li>
+<li class="lvl4"><a href="#8-5-vurdering-av-uavhengighet-og-tiltak-for-a-sikre-uavhengighet">§ 8-5. Vurdering av uavhengighet og tiltak for å sikre uavhengighet</a></li>
+<li class="lvl4"><a href="#8-6-forbud-mot-pavirkning">§ 8-6. Forbud mot påvirkning</a></li>
+<li class="lvl4"><a href="#8-7-honorar">§ 8-7. Honorar</a></li>
+<li class="lvl4"><a href="#8-8-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 8-8. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</a></li>
+<li class="lvl2"><a href="#kapittel-9-revisors-plikter-ved-lovfestet-revisjon-attestasjon-av-pliktig-brekraftsrapportering-og-revisorbekreftelser">Kapittel 9 Revisors plikter ved lovfestet revisjon, attestasjon av pliktig bærekraftsrapportering og revisorbekreftelser</a></li>
+<li class="lvl4"><a href="#9-1-formalet-med-lovfestet-revisjon-og-attestasjon-av-pliktig-brekraftsrapportering">§ 9-1. Formålet med lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-2-forberedelse-og-fortsettelse-av-revisjonsoppdraget">§ 9-2. Forberedelse og fortsettelse av revisjonsoppdraget</a></li>
+<li class="lvl4"><a href="#9-3-oppdragsansvarlig-revisor">§ 9-3. Oppdragsansvarlig revisor</a></li>
+<li class="lvl4"><a href="#9-4-revisors-plikter-ved-utfrelse-av-lovfestet-revisjon">§ 9-4. Revisors plikter ved utførelse av lovfestet revisjon</a></li>
+<li class="lvl4"><a href="#9-4-a-revisors-plikter-ved-utfrelse-av-attestasjon-av-pliktig-brekraftsrapportering">§ 9-4 a. Revisors plikter ved utførelse av attestasjon av pliktig bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-5-kommunikasjon-med-styret">§ 9-5. Kommunikasjon med styret</a></li>
+<li class="lvl4"><a href="#9-6-rett-og-plikt-til-a-trekke-seg-som-revisor">§ 9-6. Rett og plikt til å trekke seg som revisor</a></li>
+<li class="lvl4"><a href="#9-7-revisjonsberetning">§ 9-7. Revisjonsberetning</a></li>
+<li class="lvl4"><a href="#9-7-a-attestasjonsuttalelse-om-brekraftsrapportering">§ 9-7 a. Attestasjonsuttalelse om bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#9-8-srlige-krav-ved-revisjon-av-konsernregnskaper-og-attestasjon-av-pliktig-konsolidert-brekraftsrapportering-mv">§ 9-8. Særlige krav ved revisjon av konsernregnskaper og attestasjon av pliktig konsolidert bærekraftsrapportering mv.</a></li>
+<li class="lvl4"><a href="#9-9-oppdragsdokumentasjon">§ 9-9. Oppdragsdokumentasjon</a></li>
+<li class="lvl4"><a href="#9-10-revisors-plikter-ved-revisorbekreftelser">§ 9-10. Revisors plikter ved revisorbekreftelser</a></li>
+<li class="lvl2"><a href="#kapittel-10-taushetsplikt-og-opplysningsplikt">Kapittel 10 Taushetsplikt og opplysningsplikt</a></li>
+<li class="lvl4"><a href="#10-1-revisors-taushetsplikt">§ 10-1. Revisors taushetsplikt</a></li>
+<li class="lvl4"><a href="#10-2-revisors-opplysningsplikt">§ 10-2. Revisors opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-11-erstatningsansvar">Kapittel 11 Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#11-1-erstatningsansvar">§ 11-1. Erstatningsansvar</a></li>
+<li class="lvl2"><a href="#kapittel-12-srlige-plikter-ved-revisjon-av-foretak-av-allmenn-interesse">Kapittel 12 Særlige plikter ved revisjon av foretak av allmenn interesse</a></li>
+<li class="lvl4"><a href="#12-1-gjennomfring-av-revisjonsforordningen">§ 12-1. Gjennomføring av revisjonsforordningen</a></li>
+<li class="lvl4"><a href="#12-2-nasjonal-tilsynsmyndighet">§ 12-2. Nasjonal tilsynsmyndighet</a></li>
+<li class="lvl4"><a href="#12-3-revisjonshonorar">§ 12-3. Revisjonshonorar</a></li>
+<li class="lvl4"><a href="#12-4-adgang-til-a-yte-visse-tjenester">§ 12-4. Adgang til å yte visse tjenester</a></li>
+<li class="lvl4"><a href="#12-4-a-forbud-mot-a-levere-visse-tjenester-for-den-som-attesterer-brekraftsrapportering">§ 12-4 a. Forbud mot å levere visse tjenester for den som attesterer bærekraftsrapportering</a></li>
+<li class="lvl4"><a href="#12-4-b-uregelmessigheter">§ 12-4 b. Uregelmessigheter</a></li>
+<li class="lvl4"><a href="#12-5-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 12-5. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</a></li>
+<li class="lvl4"><a href="#12-6-revisjonsforetak-fra-land-utenfor-es-som-reviderer-foretak-notert-pa-regulert-marked-i-norge">§ 12-6. Revisjonsforetak fra land utenfor EØS som reviderer foretak notert på regulert marked i Norge</a></li>
+<li class="lvl2"><a href="#kapittel-13-kvalitetskontroll-mv">Kapittel 13 Kvalitetskontroll mv.</a></li>
+<li class="lvl4"><a href="#13-1-kvalitetskontroll">§ 13-1. Kvalitetskontroll</a></li>
+<li class="lvl4"><a href="#13-2-tilsyn-med-standardsetting">§ 13-2. Tilsyn med standardsetting</a></li>
+<li class="lvl2"><a href="#kapittel-14-administrative-tiltak-overtredelsesgebyr-og-straff">Kapittel 14 Administrative tiltak, overtredelsesgebyr og straff</a></li>
+<li class="lvl4"><a href="#14-1-tilbakekall-og-suspensjon-av-godkjenningen-til-en-statsautorisert-revisor">§ 14-1. Tilbakekall og suspensjon av godkjenningen til en statsautorisert revisor</a></li>
+<li class="lvl4"><a href="#14-2-tilbakekall-og-suspensjon-av-godkjenningen-til-et-revisjonsselskap">§ 14-2. Tilbakekall og suspensjon av godkjenningen til et revisjonsselskap</a></li>
+<li class="lvl4"><a href="#14-3-forbud-mot-a-ha-ledelsesfunksjon">§ 14-3. Forbud mot å ha ledelsesfunksjon</a></li>
+<li class="lvl4"><a href="#14-4-forbud-mot-a-undertegne-revisjonsberetninger">§ 14-4. Forbud mot å undertegne revisjonsberetninger</a></li>
+<li class="lvl4"><a href="#14-5-overtredelsesgebyr">§ 14-5. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-6-momenter-ved-vedtak-om-overtredelsesgebyr">§ 14-6. Momenter ved vedtak om overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-7-foreldelse-mv">§ 14-7. Foreldelse mv.</a></li>
+<li class="lvl4"><a href="#14-8-straff">§ 14-8. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-15-klagenemnd">Kapittel 15 Klagenemnd</a></li>
+<li class="lvl4"><a href="#15-1-klagenemnd">§ 15-1. Klagenemnd</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelses-og-overgangsregler-endringer-i-andre-lover">Kapittel 16 Ikrafttredelses- og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#16-1-ikrafttredelse">§ 16-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-2-overgangsregler">§ 16-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-11-20-128.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-11-20-128.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-11-20-128.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2020-11-20-128.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2020-11-20-128.html">Observerte kildeutgaver</a> · <a href="../historie/revisorloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2020-11-20-128.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2020-11-20-128.html">Observerte kildeutgaver</a> · <a href="../historie/revisorloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2020-11-20-128.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-revisjon-og-revisorer-revisorloven">Lov om revisjon og revisorer (revisorloven)</h1>
 <h2 id="kapittel-1-virkeomrade-og-definisjoner">Kapittel 1 Virkeområde og definisjoner</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde <a class="para-history" href="../historikk/lov-2020-11-20-128/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Loven gjelder revisjonsplikt, godkjenning av revisorer, lovfestet revisjon, attestasjon av pliktig bærekraftsrapportering og revisorbekreftelser.</p>
 <p>(2) Kongen fastsetter regler om lovens anvendelse for Norges økonomiske sone og for Svalbard, Jan Mayen og bilandene.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="1-2-definisjoner">§ 1-2. Definisjoner <a class="para-history" href="../historikk/lov-2020-11-20-128/para-1-2.html" title="Endringshistorikk for § 1-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Med revisor menes det revisjonsselskapet som er valgt revisor for revisjon av årsregnskapet eller attestasjon av pliktig bærekraftsrapportering og den statsautoriserte revisoren som er utpekt som oppdragsansvarlig revisor ved oppdrag om lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering. Hvis oppdraget utføres av en statsautorisert revisor i eget navn, menes den statsautoriserte revisoren som er valgt revisor for revisjon av årsregnskapet eller attestasjon av pliktig bærekraftsrapportering.</p>
 <p>(2) Med revisjonsforetak menes revisjonsselskap og statsautorisert revisor som utfører lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering i eget navn.</p>
@@ -99,7 +320,7 @@ d. avtale når uttalelsen kun er ment til bruk for oppdragsgiveren og det ikke f
 b. banker
 c. kredittforetak
 d. forsikringsforetak.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="1-3-uavhengige-tilbydere-av-attestasjonstjenester-for-brekraftsrapportering">§ 1-3. Uavhengige tilbydere av attestasjonstjenester for bærekraftsrapportering <a class="para-history" href="../historikk/lov-2020-11-20-128/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan i forskrift gi nærmere regler om uavhengige tilbydere av attestasjonstjenester for bærekraftsrapportering som akkrediteres etter <a href="lov-2013-04-12-13.html">EØS-vareloven</a> §§ 2 og 3 . Forskriften kan inneholde nærmere regler om anvendelsen av loven her, herunder krav til blant annet:</p>
 <p>a. teoretisk og praktisk opplæring og eksamen som sikrer at uavhengige tilbydere av attestasjonstjenester tilegner seg nødvendig kunnskap om bærekraftsrapportering og attestasjon av bærekraftsrapportering,
@@ -110,7 +331,7 @@ e. valg og avsettelse av revisor,
 f. tilsyn og sanksjoner,
 g. organiseringen av arbeidet til den uavhengige tilbyderen av attestasjonstjenester, særlig når det gjelder tilstrekkelige ressurser og personell og oppdragsdokumentasjon, og
 h. rapportering av uregelmessigheter.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-2-revisjonsplikt-mv">Kapittel 2 Revisjonsplikt mv.</h2>
 <h4 id="2-1-revisjonsplikt-og-adgangen-til-a-si-opp-revisor">§ 2-1. Revisjonsplikt og adgangen til å si opp revisor <a class="para-history" href="../historikk/lov-2020-11-20-128/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisjonspliktige skal påse at årsregnskapet blir revidert av ett eller flere revisjonsforetak.</p>
@@ -123,40 +344,40 @@ e. øvrige regnskapspliktige hvis driftsinntektene av den samlede virksomheten e
 f. andre som er revisjonspliktige etter annen lov eller forskrift.</p>
 <p>(3) Terskelverdiene i annet ledd bokstav e skal baseres på årsregnskapet for siste regnskapsår. Viser et årsregnskap driftsinntekter, balansesum eller årsverk som er lik eller over terskelverdiene, skal årsregnskapet for påfølgende regnskapsår revideres. For morforetak gjelder terskelverdiene for konsernet sett som en enhet.</p>
 <p>(4) Den revisjonspliktige kan ikke avsette revisor uten saklig grunn. Dette gjelder også for eventuell uavhengig tilbyder av attestasjonstjenester som nevnt i § 1-3 . Uenighet om regnskapsmessig behandling eller revisjonshandlinger anses ikke som saklig grunn for avsettelse. Det gjør heller ikke uenighet om pliktig bærekraftsrapportering eller attestasjonshandlinger. Den revisjonspliktige skal uten ugrunnet opphold gi melding til Foretaksregisteret om at revisors oppdrag er avsluttet. Dersom et revisjonsoppdrag for et foretak av allmenn interesse, jf. §§ 1-2 eller 12-1 , avsluttes før utløpet av tjenestetiden, skal den revisjonspliktige dessuten sende begrunnelse for dette til Finanstilsynet. Departementet kan i forskrift fastsette regler om at melding om begrunnelse for avslutning av revisjonsoppdrag etter bestemmelsen i fjerde punktum også skal gjelde andre revisjonspliktige foretak.</p>
-<p><em>Endret ved lover 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h4 id="2-2-plikt-til-a-legge-til-rette-for-revisjonen">§ 2-2. Plikt til å legge til rette for revisjonen</h4>
 <p>Den reviderte skal gi revisor adgang til å foreta de undersøkelser og gi de opplysninger revisor finner nødvendige for utførelsen av sitt oppdrag.</p>
 <h4 id="2-3-forbud-mot-begrensninger-i-det-frie-revisorvalget">§ 2-3. Forbud mot begrensninger i det frie revisorvalget <a class="para-history" href="../historikk/lov-2020-11-20-128/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En revisjonspliktig eller et foretak som har plikt til å utarbeide bærekraftsrapportering etter <a href="lov-1998-07-17-56.html">regnskapsloven</a> § 2-3 , kan ikke ved avtale eller vedtekt pålegges å velge et bestemt revisjonsforetak eller et revisjonsforetak fra en liste eller lignende.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="2-4-overfring-av-revisjonsoppdrag-ved-sammenslutning-og-omorganisering">§ 2-4. Overføring av revisjonsoppdrag ved sammenslutning og omorganisering</h4>
 <p>(1) Ved sammenslutning av revisjonsselskaper fortsetter det sammensluttede revisjonsselskapet de revisjonsoppdrag som selskapene hadde før sammenslutningen. Det samme gjelder ved selskapsrettslige omorganiseringer av et revisjonsselskap uten reelle endringer i eierforholdet og når et enkeltpersonforetak som nevnt i § 6-3 opptas i et revisjonsselskap.</p>
 <p>(2) Overføring av revisjonsoppdrag etter første ledd medfører ingen innskrenkninger i den revidertes adgang til å bytte revisor.</p>
 <p>(3) Revisjonsforetak som gjennomfører endring som nevnt i første ledd, skal uten ugrunnet opphold gi skriftlig melding om endringen til de reviderte og Finanstilsynet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-3-godkjenning-som-revisor">Kapittel 3 Godkjenning som revisor</h2>
 <h4 id="3-1-godkjenning-som-revisor">§ 3-1. Godkjenning som revisor <a class="para-history" href="../historikk/lov-2020-11-20-128/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet gir godkjenning som statsautorisert revisor til personer som oppfyller kravene i §§ 3-2 til 3-6 .</p>
 <p>(2) Finanstilsynet gir tilleggsgodkjenning som bærekraftsrevisor til statsautorisert revisor som oppfyller kravene i § 3-3 a . Tilleggsgodkjenning kan gis samtidig med godkjenning etter første ledd.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-2-utdanning">§ 3-2. Utdanning</h4>
 <p>(1) Statsautorisert revisor skal ha oppnådd mastergrad i regnskap og revisjon eller en tilsvarende utenlandsk mastergrad.</p>
 <p>(2) Utdanningen skal sikre nødvendig teoretisk kunnskap som er relevant for lovfestet revisjon i Norge.</p>
 <p>(3) Hvis det er mer enn fem år siden utløpet av det kalenderåret kravene i første ledd ble oppfylt, må søkeren oppfylle kravene i § 5-1 første og annet ledd. Dokumentasjonskravet i § 5-1 fjerde til sjette ledd gjelder.</p>
 <p>(4) Departementet kan i forskrift fastsette nærmere regler om utdanningskrav for godkjenning som statsautorisert revisor, herunder krav til karakterer og dokumentasjon.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-3-praktisk-opplring">§ 3-3. Praktisk opplæring</h4>
 <p>(1) Statsautorisert revisor skal ha minst tre års variert praktisk opplæring i revisjon av årsregnskap eller tilsvarende finansiell rapportering, også for konsern. Minst ett år av opplæringen skal gjennomføres etter at kravene i § 3-2 første til tredje ledd er oppfylt.</p>
 <p>(2) Minst to år av opplæringen skal gjennomføres i et revisjonsforetak. Inntil ett av disse årene kan i stedet bestå av praksis fra Riksrevisjonen, kommunal- eller fylkeskommunal revisjon eller skatterevisjon under veiledning av en statsautorisert revisor. Finanstilsynet kan i særlige tilfeller godkjenne at begge årene består av praksis fra kommunal- eller fylkeskommunal revisjon under veiledning av en statsautorisert revisor.</p>
 <p>(3) Statsautorisert revisor skal ha bestått en eksamen som prøver revisors evne til å anvende teoretisk kunnskap i praksis og dokumenterer at vedkommende er egnet til å ha ansvar for oppdrag om lovfestet revisjon. For å ta eksamen må utdanning etter § 3-2 og minst to år av den praktiske opplæringen være gjennomført.</p>
 <p>(4) Departementet kan i forskrift fastsette regler om praktisk opplæring for godkjenning som statsautorisert revisor, herunder gjøre unntak fra kravene i denne paragrafen. Departementet kan også gi regler om eksamen etter tredje ledd og om dokumentasjon av den praktiske opplæringen.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-3-a-brekraftsrevisor">§ 3-3 a. Bærekraftsrevisor</h4>
 <p>(1) Den som skal foreta attestasjon av pliktig bærekraftsrapportering, må ha godkjenning som statsautorisert revisor og i tillegg ha godkjenning som bærekraftsrevisor.</p>
 <p>(2) Bærekraftsrevisor skal ha minst åtte måneder praktisk opplæring i attestasjon av bærekraftsrapportering eller andre bærekraftsrelaterte tjenester. Praksistiden kan inngå i kravet til tre års praktisk opplæring etter § 3-3 .</p>
 <p>(3) Bærekraftsrevisor skal ha bestått en eksamen som prøver revisorens evne til å anvende teoretisk kunnskap som er relevant for attestasjon av pliktig bærekraftsrapportering i praksis og dokumenterer at vedkommende er egnet til å ha ansvar for attestasjon av pliktig bærekraftsrapportering.</p>
 <p>(4) Departementet kan i forskrift fastsette regler om praktisk opplæring for godkjenning som bærekraftsrevisor. Departementet kan også gi regler om eksamen etter tredje ledd og om dokumentasjon av den praktiske opplæringen.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-4-vilkar-om-a-vre-skikket">§ 3-4. Vilkår om å være skikket</h4>
 <p>(1) Godkjenning som statsautorisert revisor skal ikke gis til personer som</p>
 <p>a. ikke er myndig
@@ -165,25 +386,25 @@ c. er dømt for straffbart forhold som gir grunn til å anta at vedkommende ikke
 d. har utvist en atferd som gir grunn til å anta at vedkommende ikke kan utøve yrket på en forsvarlig måte.</p>
 <p>(2) Ved vurderingen etter første ledd bokstav d skal det særlig tas hensyn til om atferden har medført tilbakekall av en offentlig godkjenning eller tilsynsmessige reaksjoner, bestått i regelbrudd som er konstatert ved forvaltningsvedtak eller rettsavgjørelse eller gitt grunnlag for at vedkommende er ilagt konkurskarantene eller annet virksomhetsforbud.</p>
 <p>(3) Søker skal legge frem ordinær politiattest etter <a href="lov-2010-05-28-16.html">politiregisterloven</a> § 40 .</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-5-godkjenning-av-revisorer-fra-andre-es-land-og-sveits">§ 3-5. Godkjenning av revisorer fra andre EØS-land og Sveits <a class="para-history" href="../historikk/lov-2020-11-20-128/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Godkjenning som statsautorisert revisor gis til person med revisorgodkjenning fra et EØS-land eller Sveits i samsvar med revisjonsdirektivet (direktiv 2006/43/EF med senere endringer), <a href="lov-2017-06-16-69.html">yrkeskvalifikasjonsloven</a> § 8 og forskrifter gitt i medhold av loven.</p>
 <p>(2) Godkjenning som bærekraftsrevisor gis til person med revisorgodkjenning fra et EØS-land eller Sveits som gir rett til å avgi attestasjonsuttalelser om bærekraftsrapportering i samsvar med revisjonsdirektivet, yrkeskvalifikasjonsloven § 8 og forskrifter gitt i medhold av loven.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-6-godkjenning-av-revisorer-fra-land-utenfor-es">§ 3-6. Godkjenning av revisorer fra land utenfor EØS</h4>
 <p>(1) Finanstilsynet gir godkjenning som statsautorisert revisor til revisorer med revisorgodkjenning fra andre land enn et EØS-land eller Sveits dersom</p>
 <p>a. vedkommende består en egnethetsprøve som angitt i § 3-5 ,
 b. kravene til utdanning og praksis som vedkommende måtte oppfylle for å bli godkjent som revisor i hjemlandet, bestått egnethetsprøve og den yrkeserfaring vedkommende kan dokumentere, samlet sett innebærer kvalifikasjoner på minst samme nivå som etter § 3-2 og § 3-3 , og
 c. vedkommende oppfyller vilkårene i § 3-4 .</p>
 <p>(2) Godkjenning etter første ledd kan bare gis hvis statsautoriserte revisorer har tilsvarende adgang til godkjenning i det aktuelle landet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-7-revisortitler">§ 3-7. Revisortitler <a class="para-history" href="../historikk/lov-2020-11-20-128/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tittelen statsautorisert revisor kan bare benyttes av godkjente revisorer. Tittelen bærekraftsrevisor kan bare benyttes av statsautorisert revisor med tilleggsgodkjenning etter § 3-1 annet ledd .</p>
 <p>(2) Betegnelsen revisor eller tilsvarende utenlandske betegnelser kan ikke benyttes av andre enn godkjente revisorer på en måte som utilbørlig gir inntrykk av at et regnskap, bærekraftsrapportering eller annen informasjon er bekreftet i henhold til reglene i denne loven.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="3-8-deponering">§ 3-8. Deponering <a class="para-history" href="../historikk/lov-2020-11-20-128/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Finanstilsynet skal gi godkjenningen som statsautorisert revisor og i tilfelle bærekraftsrevisor tilbake til den som frivillig har sagt fra seg godkjenningen, hvis vedkommende oppfyller kravene til etterutdanning i § 5-1 første og annet ledd og krav til skikkethet i § 3-4 . Dokumentasjonskravet i § 5-1 fjerde til sjette ledd gjelder.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-4-godkjenning-av-revisjonsselskaper-adgang-for-utenlandske-revisjonsselskaper-til-a-drive-virksomhet-i-norge">Kapittel 4 Godkjenning av revisjonsselskaper. Adgang for utenlandske revisjonsselskaper til å drive virksomhet i Norge</h2>
 <h4 id="4-1-godkjenning-av-revisjonsselskaper">§ 4-1. Godkjenning av revisjonsselskaper</h4>
 <p>(1) Finanstilsynet gir godkjenning som revisjonsselskap til foretak</p>
@@ -192,12 +413,12 @@ b. som har et styre hvor et flertall av både medlemmene og varamedlemmene i sty
 c. hvor godkjente revisorer eller godkjente revisjonsselskap innehar mer enn halvparten av stemmene i selskapets øverste organ,
 d. som er i stand til å oppfylle sine forpliktelser etter hvert som de forfaller.</p>
 <p>(2) I et revisjonsselskap der de ansatte har rett til å velge styremedlemmer, skal flertallskravet i første ledd bokstav b også oppfylles blant de styremedlemmene som ikke er valgt av de ansatte.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="4-2-adgang-for-revisjonsselskaper-fra-andre-es-land-til-a-drive-virksomhet-i-norge">§ 4-2. Adgang for revisjonsselskaper fra andre EØS-land til å drive virksomhet i Norge</h4>
 <p>(1) Et revisjonsselskap som er godkjent i et annet EØS-land, kan utføre lovfestet revisjon og oppdrag om revisorbekreftelser hvis revisjonsselskapet utpeker statsautoriserte revisorer som oppdragsansvarlig revisor for oppdrag om lovfestet revisjon og er registrert i Revisorregisteret.</p>
 <p>(2) Finanstilsynet skal registrere revisjonsselskapet i Revisorregisteret når det er godtgjort at revisjonsselskapet er godkjent i hjemlandet. Bekreftelse fra ansvarlig myndighet i hjemlandet skal ikke være eldre enn tre måneder. Finanstilsynet skal underrette ansvarlig myndighet i hjemlandet om registreringen.</p>
 <p>(3) Dokumentasjon som gjelder reviderte som er hjemmehørende i Norge skal oppbevares i samsvar med § 9-9 sjuende ledd.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-5-etterutdanning">Kapittel 5 Etterutdanning</h2>
 <h4 id="5-1-krav-til-etterutdanning">§ 5-1. Krav til etterutdanning <a class="para-history" href="../historikk/lov-2020-11-20-128/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En statsautorisert revisor skal ha gjennomført minst 120 timer relevant etterutdanning i løpet av de tre foregående kalenderårene eller i løpet av det inneværende og de to foregående kalenderårene. Etterutdanningen skal være innenfor fagkretsen for en mastergrad i regnskap og revisjon, jf. § 3-2 første ledd. Som relevant etterutdanning regnes</p>
@@ -210,20 +431,20 @@ b. utarbeidelse av undervisningsopplegg, artikler og annet fagstoff, deltakelse 
 <p>(6) Dokumentasjon etter fjerde ledd og oversikt som nevnt i femte ledd skal oppbevares i fem år etter utløpet av det kalenderåret etterutdanningen ble gjennomført.</p>
 <p>(7) Ved avvikling av foreldrepermisjon utover seks måneder utvides perioden i første ledd med ett år. Finanstilsynet kan i særlige tilfeller og i en tidsbegrenset periode tillate et lavere krav til etterutdanning enn angitt i første ledd.</p>
 <p>(8) Reglene i første til syvende ledd gjelder tilsvarende for bærekraftsrevisorer, jf. § 3-3 a . Foruten fagområdene nevnt i annet ledd, skal etterutdanningen også dekke bærekraftsrapportering og attestasjon av bærekraftsrapportering.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-6-revisorregister-mv">Kapittel 6 Revisorregister mv.</h2>
 <h4 id="6-1-revisor-og-attestantregisteret">§ 6-1. Revisor- og attestantregisteret <a class="para-history" href="../historikk/lov-2020-11-20-128/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet skal føre et offentlig register over statsautoriserte revisorer og revisjonsselskaper. Registeret skal også inneholde informasjon om uavhengige tilbydere av attestasjonstjenester, jf. § 1-3 .</p>
 <p>(2) Statsautoriserte revisorer og revisjonsselskaper skal uten ugrunnet opphold gi melding til Finanstilsynet om endringer i registrerte opplysninger.</p>
 <p>(3) Departementet kan gi forskrift til utfylling av bestemmelsene i dette kapittelet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="6-2-opplysninger-om-statsautoriserte-revisorer">§ 6-2. Opplysninger om statsautoriserte revisorer <a class="para-history" href="../historikk/lov-2020-11-20-128/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Revisor- og attestantregisteret skal inneholde følgende opplysninger om statsautoriserte revisorer:</p>
 <p>a. navn, adresse og revisorregisternummer tildelt av Finanstilsynet
 b. navn, adresse, nettstedadresse og organisasjonsnummer på revisjonsforetak som revisoren er tilknyttet som partner, ansatt eller på annen måte
 c. om revisoren er godkjent som bærekraftsrevisor
 d. om revisoren er registrert i et annet land, om registreringen omfatter revisjon av årsregnskap, attestasjon av pliktig bærekraftsrapportering eller begge deler, navn på tilsynsmyndigheten og revisorregisternummer tildelt i landet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="6-3-plikt-til-a-registrere-enkeltpersonforetak">§ 6-3. Plikt til å registrere enkeltpersonforetak</h4>
 <p>En statsautorisert revisor som utfører lovfestet revisjon i eget navn, skal registrere enkeltpersonforetaket i Foretaksregisteret.</p>
 <h4 id="6-4-opplysninger-om-revisjonsforetak">§ 6-4. Opplysninger om revisjonsforetak <a class="para-history" href="../historikk/lov-2020-11-20-128/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -237,7 +458,7 @@ f. navn og adresse på de andre foretakene i revisors nettverk eller opplysning 
 g. om revisjonsforetaket er registrert i andre land, navn på tilsynsmyndighet, revisorregisternummer og organisasjonsnummer i landet, og om registreringen omfatter revisjon av årsregnskap, attestasjon av pliktig bærekraftsrapportering eller begge deler
 h. navn og adresse på medlemmer og varamedlemmer i styret og på daglig leder
 i. navn og adresse på aksjeeiere eller deltakere i revisjonsselskap.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-7-organisasjon-og-kvalitetsstyring">Kapittel 7 Organisasjon og kvalitetsstyring</h2>
 <h4 id="7-1-organisering-av-virksomheten-og-kvalitetsstyring">§ 7-1. Organisering av virksomheten og kvalitetsstyring <a class="para-history" href="../historikk/lov-2020-11-20-128/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisjonsforetak skal ha forsvarlige rutiner for administrasjon, regnskap og informasjonssikring, samt kvalitetsstyring som sikrer at retningslinjer, rutiner og beslutninger blir fulgt i hele organisasjonen.</p>
@@ -252,7 +473,7 @@ f. hendelser som har eller kan få alvorlige konsekvenser for lovfestet revisjon
 <p>(4) Revisjonsselskap skal ha retningslinjer for fastsettelse av lønn, annen godtgjørelse og overskuddsdeling som er tilstrekkelige til å sikre kvalitet ved utførelsen av lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering. Honorar fra det reviderte foretaket for andre tjenester enn revisjon eller attestasjon av pliktig bærekraftsrapportering skal ikke gi grunnlag for fastsettelse av vederlaget til noen som deltar i eller kan påvirke utfallet av revisjonen eller attestasjonen av pliktig bærekraftsrapportering.</p>
 <p>(5) Revisjonsforetak skal se til at de systemer, rutiner og retningslinjer som er etablert etter paragrafen her og revisjonsforordningen virker etter hensikten og gjennomføre tiltak for å utbedre eventuelle svakheter. Revisjonsforetaket skal dokumentere systemene, rutinene og retningslinjene og informere medarbeiderne om dem.</p>
 <p>(6) Oppfyllelsen av kravene i dette kapittelet skal tilpasses omfanget av og kompleksiteten i virksomheten. Revisjonsforetaket skal kunne vise at de retningslinjene, rutinene og systemene som er etablert, er egnet til å oppfylle kravene.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="7-2-klientregister">§ 7-2. Klientregister <a class="para-history" href="../historikk/lov-2020-11-20-128/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisjonsforetak skal registrere følgende opplysninger om klienter som det utfører lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering for:</p>
 <p>a. navn
@@ -262,23 +483,23 @@ d. honorar for lovfestet revisjon for hvert regnskapsår
 e. honorar for attestasjon av pliktig bærekraftsrapportering for hvert regnskapsår og
 f. honorar for andre tjenester for hvert regnskapsår.</p>
 <p>(2) Ved konsernrevisjon og attestasjon av pliktig konsolidert bærekraftsrapportering skal revisjonsforetaket som er konsernrevisor, også registrere opplysninger om oppdragsansvarlige revisorer for vesentlige datterforetak hvor det samme revisjonsforetaket er valgt revisor eller attesterer bærekraftsrapporteringen.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="7-3-registrering-av-overtredelser-og-skriftlige-klager">§ 7-3. Registrering av overtredelser og skriftlige klager <a class="para-history" href="../historikk/lov-2020-11-20-128/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisjonsforetak skal registrere overtredelser av bestemmelser i denne loven eller revisjonsforordningen som gjelder oppdrag om lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering, samt tiltak som er gjennomført i den forbindelse. Det er ikke nødvendig å registrere mindre overtredelser. Revisjonsforetaket skal utarbeide en årlig rapport som gir en oversikt over tiltak som nevnt og gjøre den kjent internt.</p>
 <p>(2) Revisjonsforetak skal registrere skriftlige klager på utførelsen av oppdrag om lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering.</p>
 <p>(3) Bestemmelsene i paragrafen her gjelder ikke ved revisjon av små foretak etter regnskapsloven .</p>
 <p>(4) Registrerte opplysninger skal oppbevares i fem år.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-8-uavhengighet-og-objektivitet">Kapittel 8 Uavhengighet og objektivitet</h2>
 <h4 id="8-1-overordnede-krav-til-uavhengighet">§ 8-1. Overordnede krav til uavhengighet</h4>
 <p>(1) Revisor skal være uavhengig av den reviderte i hele oppdragsperioden.</p>
 <p>(2) Revisor skal ikke utføre lovfestet revisjon hvis det foreligger en tilknytning mellom revisor og den reviderte som utgjør en risiko for egenkontroll, egeninteresse, partiskhet, fortrolighet eller press som er egnet til å svekke tilliten til revisors uavhengighet. Revisor skal heller ikke utføre en lovfestet revisjon hvis et foretak i revisors nettverk eller noen som deltar i eller kan påvirke utfallet av revisjonen, har en slik tilknytning til den reviderte.</p>
 <p>(3) Revisor skal ikke utføre lovfestet revisjon dersom revisor har ivaretatt internrevisjonsfunksjonen det foregående regnskapsåret.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="8-1-a-uavhengighet-ved-attestasjon-av-pliktig-brekraftsrapportering">§ 8-1 a. Uavhengighet ved attestasjon av pliktig bærekraftsrapportering</h4>
 <p>(1) Bestemmelsene i kapittelet her gjelder tilsvarende ved attestasjon av pliktig bærekraftsrapportering.</p>
 <p>(2) § 8-8 gjelder tilsvarende for personer med samme rolle på et oppdrag om attestasjon av pliktig bærekraftsrapportering.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="8-2-finansielle-forbindelser-til-den-reviderte">§ 8-2. Finansielle forbindelser til den reviderte</h4>
 <p>(1) Revisor kan ikke ha en vesentlig og direkte eier- eller avkastningsinteresse i finansielle instrumenter utstedt eller garantert av den reviderte eller aktivt handle med slike instrumenter, unntatt finansielle instrumenter eiet gjennom diversifiserte ordninger for kollektive investeringer. Det samme gjelder for</p>
 <p>a. foretak i revisors nettverk
@@ -290,17 +511,17 @@ b. mindreårige barn til vedkommende selv og til person som nevnt i bokstav a, s
 c. slektninger som vedkommende bor sammen med og har bodd sammen med i minst ett år
 d. foretak som vedkommende selv eller noen som er nevnt i bokstav a til c har bestemmende innflytelse over eller sammenfallende økonomiske interesser med.</p>
 <p>(3) Revisor kan ikke eie finansielle instrumenter utstedt av et foretak i samme konsern som den reviderte eller et foretak med lignende tilknytning, hvis eierskapet kan medføre eller oppfattes å medføre en interessekonflikt, unntatt finansielle instrumenter eiet gjennom diversifiserte ordninger for kollektive investeringer. Det samme gjelder for de som er nevnt i første ledd bokstav a og c.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="8-3-gaver">§ 8-3. Gaver</h4>
 <p>Personer eller foretak som nevnt i § 8-2 skal ikke motta gaver eller andre fordeler fra den reviderte som er egnet til å svekke tilliten til revisors uavhengighet. Det samme gjelder for gaver eller andre fordeler fra foretak i samme konsern som den reviderte og foretak med lignende tilknytning.</p>
 <h4 id="8-4-deltakelse-i-beslutningstaking-interessekonflikter">§ 8-4. Deltakelse i beslutningstaking. Interessekonflikter</h4>
 <p>(1) Revisor eller noen som deltar i eller kan påvirke utfallet av revisjonen, skal ikke delta i den revidertes beslutningstaking.</p>
 <p>(2) Revisor, et foretak i revisors nettverk, eller noen som deltar i eller kan påvirke utfallet av revisjonen, kan ikke ha et ansettelsesforhold, forretningsforhold eller annen forbindelse til den reviderte som kan medføre eller oppfattes å medføre en interessekonflikt.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="8-5-vurdering-av-uavhengighet-og-tiltak-for-a-sikre-uavhengighet">§ 8-5. Vurdering av uavhengighet og tiltak for å sikre uavhengighet</h4>
 <p>(1) Før et revisjonsforetak påtar seg eller fortsetter et oppdrag om lovfestet revisjon, skal revisor vurdere sin uavhengighet. Fornyet vurdering skal gjøres når revisor blir kjent med nye forhold eller ny informasjon som tilsier det. Hvis det foreligger forhold som kan reise tvil om revisors uavhengighet, skal revisor iverksette nødvendige tiltak for å sikre uavhengigheten.</p>
 <p>(2) Vurdering etter første ledd skal også gjøres hvis den reviderte blir overtatt av, slår seg sammen med eller overtar et annet foretak. Levering av andre tjenester enn revisjon skal vurderes særskilt. Revisor skal snarest mulig og senest innen tre måneder etter sammenslåingen avvikle forhold i strid med bestemmelsene i dette kapittelet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="8-6-forbud-mot-pavirkning">§ 8-6. Forbud mot påvirkning</h4>
 <p>Revisjonsforetak skal sikre at eiere, styremedlemmer og ledende ansatte i revisjonsforetaket eller i et revisjonsforetak i revisors nettverk ikke griper inn i utførelsen av en lovfestet revisjon på en måte som kan reise tvil om uavhengigheten og objektiviteten til den oppdragsansvarlige revisoren.</p>
 <h4 id="8-7-honorar">§ 8-7. Honorar</h4>
@@ -308,22 +529,22 @@ d. foretak som vedkommende selv eller noen som er nevnt i bokstav a til c har be
 <h4 id="8-8-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 8-8. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</h4>
 <p>(1) Personer som har vært oppdragsansvarlig eller valgt revisor for den reviderte, kan ikke tiltre en ledende stilling hos den reviderte i en periode på ett år etter at vedkommende avsluttet sitt oppdrag. Ved konsernrevisjon gjelder dette også for personer som har vært oppdragsansvarlig revisor i vesentlige datterselskaper hvor det samme revisjonsselskapet er revisor.</p>
 <p>(2) Andre statsautoriserte revisorer som har vært direkte involvert i et oppdrag om lovfestet revisjon, kan ikke ta en stilling som nevnt i første ledd hos den reviderte i en periode på minst ett år etter at vedkommende var direkte involvert i oppdraget.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-9-revisors-plikter-ved-lovfestet-revisjon-attestasjon-av-pliktig-brekraftsrapportering-og-revisorbekreftelser">Kapittel 9 Revisors plikter ved lovfestet revisjon, attestasjon av pliktig bærekraftsrapportering og revisorbekreftelser</h2>
 <p>Overskriften endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-1-formalet-med-lovfestet-revisjon-og-attestasjon-av-pliktig-brekraftsrapportering">§ 9-1. Formålet med lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Formålet med lovfestet revisjon er å skape tillit til at årsregnskapet oppfyller gjeldende lovkrav og ikke inneholder vesentlig feilinformasjon, og ved dette blant annet bidra til å forebygge og avdekke økonomisk kriminalitet.</p>
 <p>(2) Formålet med attestasjon av pliktig bærekraftsrapportering er å skape tillit til at bærekraftsrapporteringen oppfyller gjeldende lovkrav og ikke inneholder vesentlig feilinformasjon.</p>
 <p>(3) Revisor er allmennhetens tillitsperson ved utførelse av lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering. Revisor skal utøve virksomheten med integritet, objektivitet og aktsomhet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-2-forberedelse-og-fortsettelse-av-revisjonsoppdraget">§ 9-2. Forberedelse og fortsettelse av revisjonsoppdraget <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Før et revisjonsforetak påtar seg et oppdrag om lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering, skal revisjonsforetaket be den revidertes forrige revisor opplyse om det foreligger forhold som tilsier at en ny revisor ikke bør påta seg oppdraget. Den forrige revisoren skal uten hinder av taushetsplikten gi opplysninger som nevnt og opplyse om begrunnelsen for sin fratreden. Opplysningene skal gis skriftlig hvis revisjonsforetaket ber om det. Disse bestemmelsene gjelder på samme måte hvis bærekraftsrapporteringen tidligere ble attestert av en uavhengig tilbyder av attestasjonstjenester, jf. § 1-3 .</p>
 <p>(2) Før et revisjonsforetak påtar seg eller fortsetter en lovfestet revisjon av et foretak som er et mellomstort eller stort foretak etter regnskapsloven § 1-5 eller påtar seg eller fortsetter attestasjon av pliktig bærekraftsrapportering etter regnskapsloven § 2-3 , skal det vurderes om revisjonsforetaket har nødvendig tilgang på kompetente personer, tid og ressurser til å utføre oppdraget og om den oppdragsansvarlige revisoren har nødvendig godkjenning. Ved lovfestet revisjon av foretak av allmenn interesse skal revisor i tillegg vurdere de forholdene som er angitt i revisjonsforordningen artikkel 6.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-3-oppdragsansvarlig-revisor">§ 9-3. Oppdragsansvarlig revisor <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-3.html" title="Endringshistorikk for § 9-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Et revisjonsselskap skal utpeke én statsautorisert revisor som oppdragsansvarlig revisor for hvert oppdrag om lovfestet revisjon. Et revisjonsselskap skal utpeke én bærekraftsrevisor som oppdragsansvarlig revisor for hvert oppdrag om attestasjon av pliktig bærekraftsrapportering. Sikring av oppdragskvalitet, uavhengighet og kompetanse skal være de viktigste kriteriene for utpekingen. Revisjonsselskapet skal sørge for at den oppdragsansvarlige revisoren har tilgang på tilstrekkelige ressurser og personer med nødvendig kompetanse til å utføre sine oppgaver på en forsvarlig måte, herunder kompetanse om gjeldende lovkrav for virksomheten.</p>
 <p>(2) Oppdragsansvarlig revisor skal være aktivt involvert i oppdragsutførelsen og sette av tilstrekkelig tid og ressurser til å utføre sine oppgaver på en forsvarlig måte. Dette gjelder også en statsautorisert revisor som utfører lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering i eget navn.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-4-revisors-plikter-ved-utfrelse-av-lovfestet-revisjon">§ 9-4. Revisors plikter ved utførelse av lovfestet revisjon <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-4.html" title="Endringshistorikk for § 9-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisor skal vurdere om årsregnskapet er utarbeidet i samsvar med gjeldende lovkrav.</p>
 <p>(2) Revisor skal vurdere om årsberetningen omfatter de opplysninger som skal gis i henhold til gjeldende lovkrav, med unntak av bærekraftsrapporteringen som er gitt i årsberetningen i henhold til regnskapsloven §§ 2-3 til 2-7 . Revisor skal også vurdere om årsberetningen er konsistent med årsregnskapet, og om revisor, basert på kunnskapen opparbeidet gjennom revisjonen av årsregnskapet, har avdekket vesentlig feilinformasjon i årsberetningen.</p>
@@ -336,7 +557,7 @@ e. innhente tilstrekkelig og hensiktsmessig revisjonsbevis som grunnlag for sin 
 <p>(4) Revisor skal utføre revisjonen med profesjonell skepsis, herunder være oppmerksom på muligheten for vesentlig feilinformasjon i årsregnskapet som skyldes misligheter eller utilsiktede feil. Revisor skal særlig utvise profesjonell skepsis ved vurdering av regnskapsestimater knyttet til virkelige verdier, nedskrivninger av eiendeler, avsetninger, transaksjoner med nærstående parter og fremtidige kontantstrømmer av betydning for foretakets evne til fortsatt drift.</p>
 <p>(5) Utkontraktering av oppgaver er uten betydning for revisors ansvar og plikter.</p>
 <p>(6) Departementet kan i forskrift fastsette krav til utførelsen av lovfestet revisjon hvis det er nødvendig for gjennomføringen av internasjonale forpliktelser.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-4-a-revisors-plikter-ved-utfrelse-av-attestasjon-av-pliktig-brekraftsrapportering">§ 9-4 a. Revisors plikter ved utførelse av attestasjon av pliktig bærekraftsrapportering</h4>
 <p>(1) Revisor skal vurdere om bærekraftsrapporteringen er utarbeidet i samsvar med gjeldende lovkrav.</p>
 <p>(2) Revisor skal utføre attestasjon av pliktig bærekraftsrapportering i samsvar med god revisjonsskikk for attestasjon av pliktig bærekraftsrapportering. Dette innebærer blant annet at revisor skal</p>
@@ -347,14 +568,14 @@ d. innhente tilstrekkelig og hensiktsmessig bevis for sin attestasjonsuttalelse 
 <p>(3) Revisor skal utføre attestasjonen av bærekraftsrapporteringen med profesjonell skepsis, herunder være oppmerksom på muligheten for vesentlig feilinformasjon som skyldes misligheter eller utilsiktede feil.</p>
 <p>(4) Utkontraktering av oppgaver er uten betydning for revisors ansvar og plikter.</p>
 <p>(5) Departementet kan i forskrift fastsette krav til utførelsen av attestasjon av pliktig bærekraftsrapportering hvis det er nødvendig for gjennomføringen av internasjonale forpliktelser.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-5-kommunikasjon-med-styret">§ 9-5. Kommunikasjon med styret <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisor skal kommunisere skriftlig til styret om alle forhold som er fremkommet ved revisjonen eller ved attestasjonen av pliktig bærekraftsrapportering og som styret bør gjøres kjent med for å kunne ivareta sitt ansvar og oppgaver, herunder vesentlige mangler i foretakets interne kontroll, brudd på bokføringsreglene og andre lovkrav og avdekkede misligheter. Revisor skal angi hva forholdet gjelder og hvilke konsekvenser det vil ha for revisjonen hvis forholdet ikke følges opp. Revisor skal se etter at de kommuniserte forholdene er behandlet av styret. Det skal fremgå av den skriftlige kommunikasjonen at den er gitt etter paragrafen her. I foretak som ikke har styre, skal kommunikasjonen skje til annet relevant ledelsesorgan.</p>
 <p>(2) Revisor skal nummerere sin skriftlige dokumentasjon som er avgitt etter paragrafen her.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-6-rett-og-plikt-til-a-trekke-seg-som-revisor">§ 9-6. Rett og plikt til å trekke seg som revisor <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-6.html" title="Endringshistorikk for § 9-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Revisor har plikt til å trekke seg fra et oppdrag om lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering når revisoren under sitt arbeid har påpekt vesentlige brudd på gjeldende lovkrav og den reviderte ikke iverksetter tiltak for å rette på forholdene. Revisor har ellers bare rett til å trekke seg fra oppdraget hvis revisor ikke gis mulighet til å oppfylle sine plikter etter denne loven eller det foreligger andre særlige grunner. Revisor skal varsle den reviderte eller foretaket som har utarbeidet bærekraftsrapporteringen, i rimelig tid før revisor trekker seg. En revisor som har trukket seg, skal uten ugrunnet opphold gi melding til Foretaksregisteret.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-7-revisjonsberetning">§ 9-7. Revisjonsberetning <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-7.html" title="Endringshistorikk for § 9-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisor skal avgi en revisjonsberetning som viser resultatet av den lovfestede revisjonen. Revisjonsberetningen skal være skriftlig, datert, signert av oppdragsansvarlig revisor og angi hvor revisor er etablert. Revisjonsberetningen skal være på norsk eller samme språk som den revidertes årsregnskap. Revisjonsberetningen skal avgis uten ugrunnet opphold etter at årsregnskapet er utarbeidet.</p>
 <p>(2) I revisjonsberetningen skal revisor</p>
@@ -368,7 +589,7 @@ g. uttale seg om årsberetningen inneholder de opplysninger som skal gis i henho
 h. uttale seg hvis det er vesentlig usikkerhet knyttet til hendelser eller forhold som kan gi grunnlag for betydelig tvil om den revidertes evne til fortsatt drift.</p>
 <p>(3) Annet ledd bokstav f og g gjelder på samme måte for informasjon som er publisert separat og henvist til i årsberetningen i henhold til regnskapsloven § 2-9 om redegjørelse om foretaksstyring og eventuelt § 2-10 om rapportering om betalinger til myndigheter mv.</p>
 <p>(4) Der revisjonen er utført av mer enn én revisor, skal revisorene bli enige om resultatet av revisjonen og avgi en felles revisjonsberetning. Hvis revisorene ikke blir enige, skal revisorene uttale seg om årsregnskapet i hvert sitt avsnitt i revisjonsberetningen og angi årsaken til uenigheten.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-7-a-attestasjonsuttalelse-om-brekraftsrapportering">§ 9-7 a. Attestasjonsuttalelse om bærekraftsrapportering</h4>
 <p>(1) Hvis den reviderte har plikt til å utarbeide bærekraftsrapportering etter regnskapsloven § 2-3 , skal revisor avgi en attestasjonsuttalelse som viser resultatet av attestasjonen av bærekraftsrapporteringen. Attestasjonsuttalelsen kan i stedet avgis av et annet revisjonsforetak eller en uavhengig tilbyder av attestasjonstjenester, jf. § 1-3 , som er valgt av den reviderte til å attestere bærekraftsrapporteringen.</p>
 <p>(2) Attestasjonsuttalelsen skal være skriftlig, datert, signert av oppdragsansvarlig bærekraftsrevisor og angi hvor revisor er etablert. Attestasjonsuttalelsen skal være på norsk eller samme språk som bærekraftsrapporteringen.</p>
@@ -381,7 +602,7 @@ c. gi uttrykk for en mening på grunnlag av et attestasjonsoppdrag som skal gi m
   iii. overholdelsen av kravet om å merke bærekraftsrapporteringen i samsvar med kravene til elektronisk rapporteringsformat etter regnskapsloven § 2-7 .</p>
 <p>(4) Attestasjonsuttalelsen kan inntas i revisjonsberetningen eller gis som en separat uttalelse.</p>
 <p>(5) Der attestasjonen er utført av mer enn én revisor, skal revisorene bli enige om resultatet av attestasjonen av bærekraftsrapporteringen og avgi en felles attestasjonsuttalelse. Hvis revisorene ikke blir enige, skal revisorene gi uttrykk for en mening om bærekraftsrapporteringen i hvert sitt avsnitt i attestasjonsuttalelsen og angi årsaken til uenigheten.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-8-srlige-krav-ved-revisjon-av-konsernregnskaper-og-attestasjon-av-pliktig-konsolidert-brekraftsrapportering-mv">§ 9-8. Særlige krav ved revisjon av konsernregnskaper og attestasjon av pliktig konsolidert bærekraftsrapportering mv. <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-8.html" title="Endringshistorikk for § 9-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Konsernrevisor har ansvaret for at revisjonsberetningen til et morforetak også dekker konsernregnskapet.</p>
 <p>(2) Konsernrevisor skal gjennomgå og vurdere revisjon utført av andre revisorer som er nødvendig for konsernrevisjonen. For å kunne bygge på revisjon utført av andre revisorer, må konsernrevisor om nødvendig innhente samtykke til overføring av relevant oppdragsdokumentasjon. Hvis konsernrevisor ikke får gjennomgått og vurdert revisjon utført av andre revisorer, eller konsernrevisors vurdering er at det ikke kan bygges på den utførte revisjonen, skal konsernrevisor sørge for ytterligere revisjonshandlinger.</p>
@@ -391,7 +612,7 @@ c. gi uttrykk for en mening på grunnlag av et attestasjonsoppdrag som skal gi m
 <p>(6) Annet til femte ledd gjelder tilsvarende for revisor som attesterer den konsoliderte bærekraftsrapporteringen som er gitt i konsernets årsberetning i henhold til regnskapsloven § 2-5 .</p>
 <p>(7) Hvis en revisor som reviderer årsregnskap eller attesterer bærekraftsrapporteringen for et morforetak, ber om det, plikter en revisor i et datterforetak å gi relevante opplysninger.</p>
 <p>(8) En revisor som reviderer årsregnskap eller attesterer bærekraftsrapporteringen for et datterforetak, et tilknyttet foretak eller en felleskontrollert virksomhet, kan uten hinder av taushetsplikt gi relevante opplysninger og utlevere relevant dokumentasjon til en revisor som reviderer årsregnskap eller attesterer bærekraftsrapporteringen for et morforetak eller et foretak med investeringer i tilknyttet foretak eller felleskontrollert virksomhet. Dette gjelder også der et slikt foretak er hjemmehørende i et annet land, forutsatt at opplysninger og dokumentasjon overføres i samsvar med reglene i personvernforordningen . Revisoren som mottar opplysningene, har taushetsplikt etter § 10-1 første og annet ledd .</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-9-oppdragsdokumentasjon">§ 9-9. Oppdragsdokumentasjon <a class="para-history" href="../historikk/lov-2020-11-20-128/para-9-9.html" title="Endringshistorikk for § 9-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Revisor skal dokumentere hvert oppdrag om lovfestet revisjon og attestasjon av pliktig bærekraftsrapportering på en måte som er tilstrekkelig til å underbygge revisjonsberetningen og attestasjonsuttalelsen om bærekraftsrapportering og at revisjonen og attestasjonsoppdraget er utført i samsvar med §§ 9-2 til 9-8 . Forhold som tilsier at det kan foreligge misligheter og feil, skal dokumenteres særskilt med angivelse av hva revisor har foretatt seg i den anledning.</p>
 <p>(2) Revisor skal dokumentere vurderingene og tiltak for å sikre uavhengighet som nevnt i § 8-5 .</p>
@@ -401,11 +622,11 @@ c. gi uttrykk for en mening på grunnlag av et attestasjonsoppdrag som skal gi m
 <p>(6) Oppdragsdokumentasjonen skal sammenstilles og stenges for endring senest 60 dager etter at revisjonsberetningen eller attestasjonsuttalelsen om bærekraftsrapporteringen er avgitt.</p>
 <p>(7) Oppdragsdokumentasjonen skal oppbevares i minst fem år etter at revisjonsberetningen eller attestasjonsuttalelsen om bærekraftsrapporteringen er avgitt.</p>
 <p>(8) Departementet kan i forskrift fastsette krav til oppbevaringen av dokumentasjon.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="9-10-revisors-plikter-ved-revisorbekreftelser">§ 9-10. Revisors plikter ved revisorbekreftelser</h4>
 <p>(1) Oppdrag om revisorbekreftelser skal utføres og dokumenteres i samsvar med god revisjonsskikk. Oppdraget skal utføres med profesjonell skepsis. Oppdragsdokumentasjon skal oppbevares i fem år etter at revisorbekreftelsen er avgitt. Kravet om god revisjonsskikk innebærer blant annet at revisor skal kommunisere med styret i samsvar med § 9-5 første ledd. Når grunnlaget for bekreftelsen ikke er lov eller forskrift skal revisor sørge for en klar forståelse av oppdraget.</p>
 <p>(2) Kravene til uavhengighet i § 8-1 første og andre ledd og § 8-5 første ledd gjelder tilsvarende for oppdrag om revisorbekreftelser.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-10-taushetsplikt-og-opplysningsplikt">Kapittel 10 Taushetsplikt og opplysningsplikt</h2>
 <h4 id="10-1-revisors-taushetsplikt">§ 10-1. Revisors taushetsplikt</h4>
 <p>(1) Et revisjonsforetak plikter å hindre at uvedkommende får adgang eller kjennskap til opplysninger som mottas i forbindelse med foretakets virksomhet, med mindre revisor i eller i medhold av lov er gitt plikt eller adgang til å gi taushetsbelagte opplysninger.</p>
@@ -418,23 +639,23 @@ d. avgi forklaring og utlevere dokumentasjon til politiet når det er åpnet ett
 <p>(4) Taushetsbelagte opplysninger kan ikke utnyttes i egen virksomhet eller i tjeneste eller arbeid for andre.</p>
 <p>(5) Pliktene etter denne paragrafen gjelder også etter at oppdraget er avsluttet.</p>
 <p>(6) Departementet kan i forskrift fastsette bestemmelser om unntak fra revisors taushetsplikt overfor tilsynsmyndigheter i andre land.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="10-2-revisors-opplysningsplikt">§ 10-2. Revisors opplysningsplikt <a class="para-history" href="../historikk/lov-2020-11-20-128/para-10-2.html" title="Endringshistorikk for § 10-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Hvis en aksjeeier på generalforsamling, en deltaker i selskapsmøte, en møtende med stemmerett i organet som velger revisor, et medlem av bedriftsforsamlingen eller styret, eller daglig leder krever det, skal den oppdragsansvarlige revisoren gi opplysninger om forhold vedrørende den reviderte som revisor har fått kjennskap til i forbindelse med revisjonen eller attestasjonen av pliktig bærekraftsrapportering. Plikten til å gi opplysninger gjelder ikke hvis det vil være til uforholdsmessig skade for den reviderte. Hvis et medlem av bedriftsforsamlingen eller styret anmoder revisor utenfor møte om å gi informasjon, kan revisor kreve å gi svar i møte i vedkommende organ.</p>
 <p>(2) Etter at et revisjonsforetak er valgt som revisor, skal forrige revisor gi ny revisor opplysninger og dokumentasjon om sitt revisjonsoppdrag eller oppdrag om attestasjon av pliktig bærekraftsrapportering når ny revisor ber om det og dette kan ha betydning for den fremtidige revisjonen.</p>
 <p>(3) Hvis den reviderte ikke oppfyller en plikt til å utlevere bestemte dokumenter til offentlige myndigheter, skal revisor etter forespørsel fra vedkommende myndighet utlevere kopi av slike dokumenter som revisor har i sin besittelse.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-11-erstatningsansvar">Kapittel 11 Erstatningsansvar</h2>
 <h4 id="11-1-erstatningsansvar">§ 11-1. Erstatningsansvar</h4>
 <p>(1) En oppdragsansvarlig revisor plikter å erstatte skade som denne forsettlig eller uaktsomt har voldt under utførelsen av sitt oppdrag. Et revisjonsselskap er solidarisk ansvarlig med en oppdragsansvarlig revisor som har utført oppdraget på dets vegne.</p>
 <p>(2) Erstatningsansvar etter første ledd kan lempes når retten under hensyn til skadens størrelse, den ansvarliges økonomiske bæreevne, foreliggende forsikringer og forsikringsmuligheter, skyldforhold, ansvarsfordelingen mellom revisor og den revidertes organer og forholdene ellers finner at ansvaret virker urimelig tyngende for den ansvarlige. Det samme gjelder når det i særlige tilfeller er rimelig at den skadelidte helt eller delvis bærer skaden.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-12-srlige-plikter-ved-revisjon-av-foretak-av-allmenn-interesse">Kapittel 12 Særlige plikter ved revisjon av foretak av allmenn interesse</h2>
 <h4 id="12-1-gjennomfring-av-revisjonsforordningen">§ 12-1. Gjennomføring av revisjonsforordningen <a class="para-history" href="../historikk/lov-2020-11-20-128/para-12-1.html" title="Endringshistorikk for § 12-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) EØS-avtalen vedlegg XXII (forordning (EU) nr. 537/2014 om særlige plikter ved revisjon av foretak av allmenn interesse og opphevelse av kommisjonsbeslutning 2005/909/EF , med tilpasninger til EØS-avtalen) (revisjonsforordningen) gjelder som lov med de endringer og tillegg som følger av protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>(2) Når det i loven her vises til revisjonsforordningen, menes forordningen slik den til enhver tid er gjennomført og endret etter første eller tredje ledd.</p>
 <p>(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her og i forskrift gjøre endringer i, herunder fastsette unntak fra, bestemmelsene gjennomført i første ledd til gjennomføring av Norges forpliktelser etter EØS-avtalen .</p>
-<p><em>Endres ved lov 21 juni 2024 nr. 42 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 21 juni 2024 nr. 42 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="12-2-nasjonal-tilsynsmyndighet">§ 12-2. Nasjonal tilsynsmyndighet</h4>
 <p>Finanstilsynet er nasjonal tilsynsmyndighet etter revisjonsforordningen artikkel 20.</p>
 <h4 id="12-3-revisjonshonorar">§ 12-3. Revisjonshonorar</h4>
@@ -447,11 +668,11 @@ d. avgi forklaring og utlevere dokumentasjon til politiet når det er åpnet ett
 b. regnskapsåret umiddelbart før perioden nevnt i bokstav a når det gjelder tjenestene nevnt i revisjonsforordningen artikkel 5 nr. 1 annet ledd bokstav e.</p>
 <p>(2) En revisor som attesterer bærekraftsrapporteringen til et foretak av allmenn interesse, og medlemmer av revisors nettverk, kan yte andre tjenester enn revisjon, som ikke er forbudte tjenester som nevnt i første ledd, til foretaket som revisor attesterer bærekraftsrapporteringen til, dets morforetak eller dets kontrollerte foretak. For å kunne yte slike tjenester må revisjonsutvalget ha godkjent dette etter å ha foretatt en behørig vurdering av uavhengigheten og tiltak for å sikre uavhengigheten som revisor har iverksatt etter § 8-5 første ledd .</p>
 <p>(3) Når et foretak i nettverket til revisoren som attesterer bærekraftsrapporteringen til et foretak av allmenn interesse, yter tjenester som nevnt i første ledd til et foretak registrert i et land utenfor EØS som er kontrollert av det foretaket som revisor attesterer bærekraftsrapporteringen til, skal revisor vurdere sin uavhengighet i samsvar med § 8-5 første ledd og om nødvendig trekke seg fra oppdraget.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="12-4-b-uregelmessigheter">§ 12-4 b. Uregelmessigheter</h4>
 <p>(1) Hvis en revisor som attesterer bærekraftsrapporteringen til et foretak av allmenn interesse, mistenker, eller har rimelig grunn til å mistenke, at uregelmessigheter, herunder misligheter som gjelder bærekraftsrapporteringen, kan forekomme eller har funnet sted, skal revisoren underrette foretaket og oppfordre det til å undersøke saken og treffe egnede tiltak for å håndtere slike uregelmessigheter og hindre at de oppstår igjen.</p>
 <p>(2) Hvis foretaket ikke undersøker saken, skal Finanstilsynet underrettes. Hvis revisoren i god tro formidler opplysninger om eventuelle uregelmessigheter til Finanstilsynet, skal dette ikke anses som et brudd på taushetsplikt.</p>
-<p><em>Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Tilføyd ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="12-5-karensperiode-for-adgang-til-a-tiltre-ledende-stilling-hos-den-reviderte">§ 12-5. Karensperiode for adgang til å tiltre ledende stilling hos den reviderte</h4>
 <p>Ved revisjon av foretak av allmenn interesse er perioden etter § 8-8 første ledd to år.</p>
 <h4 id="12-6-revisjonsforetak-fra-land-utenfor-es-som-reviderer-foretak-notert-pa-regulert-marked-i-norge">§ 12-6. Revisjonsforetak fra land utenfor EØS som reviderer foretak notert på regulert marked i Norge <a class="para-history" href="../historikk/lov-2020-11-20-128/para-12-6.html" title="Endringshistorikk for § 12-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -462,7 +683,7 @@ b. regnskapsåret umiddelbart før perioden nevnt i bokstav a når det gjelder t
 <p>(5) Registrerte revisjonsforetak er underlagt kvalitetskontroll etter § 13-1 . Finanstilsynet kan gjøre unntak fra dette hvis det i løpet av de siste tre årene har vært utført kvalitetskontroll av revisjonsforetaket i et annet EØS-land eller i et tredjeland med likeverdig kvalitetskontroll.</p>
 <p>(6) Bestemmelsene om reaksjoner og sanksjoner i § § 14-3 til 14-8 gjelder for revisjonsforetaket og den oppdragsansvarlige revisoren.</p>
 <p>(7) Departementet kan fastsette forskrift om registrering og tilsyn med registrerte revisjonsforetak.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-13-kvalitetskontroll-mv">Kapittel 13 Kvalitetskontroll mv.</h2>
 <h4 id="13-1-kvalitetskontroll">§ 13-1. Kvalitetskontroll <a class="para-history" href="../historikk/lov-2020-11-20-128/para-13-1.html" title="Endringshistorikk for § 13-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Statsautoriserte revisorer og revisjonsselskaper er underlagt kvalitetskontroll av Finanstilsynet eller den tilsynet utpeker. Kvalitetskontroll foretas på grunnlag av en risikovurdering. Kvalitetskontroll av revisjonsforetak og oppdragsansvarlige revisorer som utfører lovfestet revisjon eller attestasjon av pliktig bærekraftsrapportering, foretas minst hvert sjette år.</p>
@@ -471,34 +692,34 @@ b. regnskapsåret umiddelbart før perioden nevnt i bokstav a når det gjelder t
 <p>(4) Kvalitetskontrollen skal ta hensyn til omfanget av og kompleksiteten i revisjonsforetakets virksomhet.</p>
 <p>(5) Kontrollører skal ha den utdanning og erfaring som er nødvendig for å kunne utføre en kvalitetskontroll. En kontrollør kan ikke i løpet av de tre siste årene før en kontroll ha vært tilknyttet den kontrollerte som tillitsvalgt, partner, ansatt eller på annen måte. Finanstilsynet skal offentliggjøre en årlig rapport om resultatene fra kvalitetskontrollen.</p>
 <p>(6) Finanstilsynet godkjenner opplegget for kvalitetskontroll som utføres av andre enn tilsynet, og tilsynet kan gi instrukser om gjennomføringen av kontrollene.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="13-2-tilsyn-med-standardsetting">§ 13-2. Tilsyn med standardsetting <a class="para-history" href="../historikk/lov-2020-11-20-128/para-13-2.html" title="Endringshistorikk for § 13-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Finanstilsynet har overordnet ansvar for tilsyn med fastsetting av standarder om revisjon, attestasjon av pliktig bærekraftsrapportering, kvalitetsstyring og yrkesetikk.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-14-administrative-tiltak-overtredelsesgebyr-og-straff">Kapittel 14 Administrative tiltak, overtredelsesgebyr og straff</h2>
 <h4 id="14-1-tilbakekall-og-suspensjon-av-godkjenningen-til-en-statsautorisert-revisor">§ 14-1. Tilbakekall og suspensjon av godkjenningen til en statsautorisert revisor</h4>
 <p>(1) Finanstilsynet kan kalle tilbake godkjenningen hvis en statsautorisert revisor må anses uskikket fordi vedkommende</p>
 <p>a. har overtrådt revisors plikter etter gjeldende lovkrav og overtredelsen er grov eller flere overtredelser til sammen er grove, eller
 b. ikke lenger oppfyller vilkårene i § 3-4 .</p>
 <p>(2) Finanstilsynet kan suspendere godkjenningen hvis en statsautorisert revisor er siktet for et forhold som kan medføre tilbakekall, inntil straffesaken er avsluttet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="14-2-tilbakekall-og-suspensjon-av-godkjenningen-til-et-revisjonsselskap">§ 14-2. Tilbakekall og suspensjon av godkjenningen til et revisjonsselskap</h4>
 <p>(1) Finanstilsynet kan kalle tilbake godkjenningen hvis et revisjonsselskap</p>
 <p>a. ikke lenger oppfyller vilkårene i § 4-1 eller
 b. må anses uskikket fordi revisjonsselskapet har overtrådt sine plikter etter gjeldende lovkrav og overtredelsen er grov eller flere overtredelser til sammen er grove.</p>
 <p>(2) Finanstilsynet kan suspendere godkjenningen hvis et revisjonsselskap er siktet for et forhold som kan medføre tilbakekall, inntil straffesaken er avsluttet.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="14-3-forbud-mot-a-ha-ledelsesfunksjon">§ 14-3. Forbud mot å ha ledelsesfunksjon</h4>
 <p>(1) Dersom en statsautorisert revisor har overtrådt bestemmelser gitt i eller i medhold av loven her, og overtredelsen medfører at vedkommende må anses uskikket til å ha ledelsesfunksjon i et revisjonsselskap eller foretak av allmenn interesse, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan ha slik ledelsesfunksjon.</p>
 <p>(2) Et vedtak etter første ledd innebærer at personen ikke kan være medlem av styret eller daglig leder i et foretak av allmenn interesse eller i et revisjonsselskap.</p>
 <p>(3) Et vedtak etter første ledd kan gis for et tidsrom av inntil tre år.</p>
 <p>(4) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="14-4-forbud-mot-a-undertegne-revisjonsberetninger">§ 14-4. Forbud mot å undertegne revisjonsberetninger <a class="para-history" href="../historikk/lov-2020-11-20-128/para-14-4.html" title="Endringshistorikk for § 14-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Dersom en statsautorisert revisor har overtrådt bestemmelser gitt i eller i medhold av loven her, og overtredelsen medfører at vedkommende må anses uskikket til å undertegne revisjonsberetning eller attestasjonsuttalelse om bærekraftsrapportering, kan Finanstilsynet fatte vedtak om at vedkommende ikke kan gjøre dette.</p>
 <p>(2) Et vedtak etter første ledd kan gis for et tidsrom av inntil tre år.</p>
 <p>(3) Departementet kan fastsette utfyllende forskrifter til bestemmelsen her.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="14-5-overtredelsesgebyr">§ 14-5. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2020-11-20-128/para-14-5.html" title="Endringshistorikk for § 14-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Finanstilsynet kan ilegge overtredelsesgebyr ved overtredelse av</p>
 <p>a. § 7-1
@@ -514,7 +735,7 @@ i. vedtak fattet med hjemmel i § 14-3 eller § 14-4 .</p>
 <p>(3) For juridiske personer kan det fastsettes overtredelsesgebyr på inntil 10 millioner kroner, eller opptil 2 prosent av den samlede årsomsetningen etter siste godkjente årsregnskap. For et morselskap eller et datterselskap av et morselskap som skal utarbeide konsernregnskap etter direktiv 2013/34/EU , skal den relevante samlede omsetningen være den samlede årsomsetningen, eller tilsvarende inntekt etter relevante regnskapsdirektiver, etter siste godkjente konsernregnskap.</p>
 <p>(4) For fysiske personer kan det fastsettes et overtredelsesgebyr på inntil 5 millioner kroner.</p>
 <p>(5) Departementet kan i forskrift gi nærmere bestemmelser om kvalifisert skyldkrav for å ilegge overtredelsesgebyr.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ). Endres ved lov 19 juni 2026 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="14-6-momenter-ved-vedtak-om-overtredelsesgebyr">§ 14-6. Momenter ved vedtak om overtredelsesgebyr</h4>
 <p>Ved avgjørelsen av om overtredelsesgebyr skal ilegges og ved utmåling av overtredelsesgebyr kan det blant annet tas hensyn til</p>
 <p>a. overtredelsens grovhet og varighet
@@ -527,31 +748,31 @@ g. tidligere overtredelser.</p>
 <h4 id="14-7-foreldelse-mv">§ 14-7. Foreldelse mv.</h4>
 <p>(1) Adgangen til å ilegge overtredelsesgebyr foreldes fem år etter at overtredelsen har opphørt. Fristen avbrytes ved at Finanstilsynet sender forhåndsvarsel eller treffer vedtak.</p>
 <p>(2) Departementet kan fastsette forskrifter om renter ved forsinket betaling av overtredelsesgebyr og nærmere bestemmelser om foreldelse.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="14-8-straff">§ 14-8. Straff <a class="para-history" href="../historikk/lov-2020-11-20-128/para-14-8.html" title="Endringshistorikk for § 14-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som uten å være statsautorisert revisor, forsettlig eller uaktsomt gir inntrykk av selv å ha bekreftet et regnskap eller annen informasjon etter reglene i denne loven, straffes med bøter eller fengsel inntil ett år.</p>
 <p>(2) Den som forsettlig eller uaktsomt overtrer §§ 8-1 til 8-7 , § 8-8 eller § 12-5 , § 9-4 første, annet, fjerde eller femte ledd, § 9-4 a første, tredje eller fjerde ledd, § 9-10 eller 10-2 , straffes med bøter eller fengsel inntil ett år. Det samme gjelder den som handler i strid med vedtak fattet med hjemmel i § 14-3 eller § 14-4 .</p>
 <p>(3) Grove eller gjentatte brudd på god revisjonsskikk, jf. § 9-4 tredje ledd og § 9-4 a annet ledd, straffes med bøter eller fengsel inntil ett år.</p>
 <p>(4) Foreldelsesfristen for adgang til å reise straffesak er fem år.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-15-klagenemnd">Kapittel 15 Klagenemnd</h2>
 <h4 id="15-1-klagenemnd">§ 15-1. Klagenemnd</h4>
 <p>(1) Departementet kan i forskrift fastsette at en klagenemnd skal avgjøre klager på vedtak truffet av Finanstilsynet etter denne loven.</p>
 <p>(2) <a href="lov-2025-06-20-81.html">Forvaltningsloven</a> gjelder for klagenemndens virksomhet. Departementet kan i forskrift fastsette regler om frister, innholdet av klage, tilsvar og muntlig forhandling og om klagenemndens sammensetning og virksomhet.</p>
 <p>(3) Klagenemndens utgifter til klagebehandling etter første ledd dekkes av Finanstilsynet. Departementet fastsetter medlemmenes godtgjørelse.</p>
 <p>(4) Det kan kreves gebyr for behandling av klage som angitt i første ledd. Departementet kan i forskrift fastsette nærmere regler om når gebyr skal kreves, om gebyrenes størrelse og om innkrevingen.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h2 id="kapittel-16-ikrafttredelses-og-overgangsregler-endringer-i-andre-lover">Kapittel 16 Ikrafttredelses- og overgangsregler. Endringer i andre lover</h2>
 <h4 id="16-1-ikrafttredelse">§ 16-1. Ikrafttredelse</h4>
 <p>(1) Loven trer i kraft fra den tid 1 Kongen bestemmer. De enkelte bestemmelser kan settes i kraft til ulik tid.</p>
 <p>(2) Lov 15. januar 1999 nr. 2 om revisjon og revisorer oppheves fra den tiden loven trer i kraft.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).
-1 Fra 1 jan 2021 med unntak av § 16-3 nr. 10 (endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel ) iflg. res. 20 nov 2020 nr. 2420 . Fra 1. mai 2021 for § 16-3 nr. 10, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (<a href="lov-2007-06-29-75.html">verdipapirhandelloven</a>), iflg. res. 9 april 2021 nr. 1104 .</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).
+1 Fra 1 jan 2021 med unntak av § 16-3 nr. 10 (endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel ) iflg. res. 20 nov 2020 nr. 2420 . Fra 1. mai 2021 for § 16-3 nr. 10, endringene i lov 29. juni 2007 nr. 75 om verdipapirhandel (<a href="lov-2007-06-29-75.html">verdipapirhandelloven</a>), iflg. res. 9 april 2021 nr. 1104 .</p>
 <h4 id="16-2-overgangsregler">§ 16-2. Overgangsregler</h4>
 <p>(1) En person som ved lovens ikrafttredelse er godkjent som registrert revisor, jf. lov 15. januar 1999 nr. 2 om revisjon og revisorer kapittel 3 , er fra dette tidspunktet statsautorisert revisor.</p>
 <p>(2) En person som ved lovens ikrafttredelse er godkjent revisor, men ikke ansvarlig revisor, jf. lov 15. januar 1999 nr. 2 om revisjon og revisorer § 3-7 , må oppfylle kravene til etterutdanning i § 5-1 fra og med det tredje årsskiftet etter lovens ikrafttredelse. Vedkommende kan bare utpekes som oppdragsansvarlig revisor eller påta seg oppdrag om lovfestet revisjon eller revisorbekreftelser hvis kravene i § 5-1 første og annet ledd er oppfylt, og vedkommende har dokumentert dette overfor Finanstilsynet etter reglene i § 5-1 fjerde og femte ledd. Personer som ikke har dokumentert fullført etterutdanning etter fristen i denne paragrafen er ikke godkjent som statsautorisert revisor etter fristens utløp. Disse kan søke om godkjenning i henhold til reglene i § 3-8 .</p>
 <p>(3) Departementet kan gi overgangsregler.</p>
-<p><em>Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</em></p>
+<p class="note">Endret ved lov 21 juni 2024 nr. 42 (i kraft 1 nov 2024 iflg. res. 11 okt 2024 nr. 2454 ).</p>
 <h4 id="16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover</h4>
 <p>Følgende endringer gjøres i andre lover:</p>
 <p><em>1 . I lov 7. desember 1956 nr. 1 om tilsynet med finansforetak mv. gjøres følgende endringer: – – –
@@ -567,6 +788,8 @@ g. tidligere overtredelser.</p>
 11 . I lov 29. juni 2007 nr. 81 om samvirkeforetak skal ny § 101 a i kapittel 7 lyde: – – –
 12 . I lov 10. april 2015 nr. 17 om finansforetak og finanskonsern gjøres følgende endringer: – – –
 13 . I lov 21. juni 2019 nr. 31 om Norges Bank og pengevesenet mv. gjøres følgende endringer: – – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

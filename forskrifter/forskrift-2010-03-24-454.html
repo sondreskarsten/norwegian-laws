@@ -19,68 +19,147 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-03-24-454.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om posisjonsrapporteringsutstyr" href="../feeds/forskrift-2010-03-24-454.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om posisjonsrapporteringsutstyr</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2010-03-24-454</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-03-24</dd>
-<dt>Sist endret</dt><dd>forskrift/2024-11-20-2800</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2010-03-24-454" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade">Kapittel I. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-ii-krav-til-posisjonsrapporteringsutstyr">Kapittel II. Krav til posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#2-krav-til-posisjonsrapporteringsutstyr-om-bord-i-fiske-og-fangstfarty">§ 2. Krav til posisjonsrapporteringsutstyr om bord i fiske- og fangstfartøy</a></li>
+<li class="lvl4"><a href="#3-krav-til-tjenesteleverandr-som-videreformidler-sporingsopplysninger-fra-farty">§ 3. Krav til tjenesteleverandør som videreformidler sporingsopplysninger fra fartøy</a></li>
+<li class="lvl2"><a href="#kapittel-iii-generelle-krav-til-installering-av-posisjonsrapporteringsutstyr">Kapittel III. Generelle krav til installering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#4-generelle-krav-til-installering-av-posisjonsrapporteringsutstyr">§ 4. Generelle krav til installering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#5-forsegling-plombering-og-plassering-av-posisjonsrapporteringsutstyr">§ 5. Forsegling, plombering og plassering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#6-aktivering-og-deaktivering-av-posisjonsrapporteringsutstyr">§ 6. Aktivering og deaktivering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#7-strmtilfrsel-til-posisjonsrapporteringsutstyret">§ 7. Strømtilførsel til posisjonsrapporteringsutstyret</a></li>
+<li class="lvl2"><a href="#kapittel-iv-spesielle-krav-til-installering-av-posisjonsrapporteringsutsytr-inmarsat">Kapittel IV. Spesielle krav til installering av posisjonsrapporteringsutsytr (Inmarsat)</a></li>
+<li class="lvl4"><a href="#8-inmarsat-utstyr">§ 8. Inmarsat-utstyr</a></li>
+<li class="lvl2"><a href="#kapittel-v-generelle-bestemmelser-straff-og-ikrafttredelse">Kapittel V. Generelle bestemmelser, straff og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-autorisasjon">§ 9. Autorisasjon</a></li>
+<li class="lvl4"><a href="#10-straff">§ 10. Straff</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2024-11-20-2800.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-03-24-454.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til utstyr og installasjon av posisjonsrapporteringsutstyr</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-03-24-454.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2010-03-24-454 <code>forskrift/2010-03-24-454</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om posisjonsrapporteringsutstyr</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>24.03.2010</td></tr>
+<tr><th>Sist endret</th><td>FOR-2024-11-20-2800 <code>forskrift/2024-11-20-2800</code> fra 20.11.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2010-03-24-454" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade">Kapittel I. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-ii-krav-til-posisjonsrapporteringsutstyr">Kapittel II. Krav til posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#2-krav-til-posisjonsrapporteringsutstyr-om-bord-i-fiske-og-fangstfarty">§ 2. Krav til posisjonsrapporteringsutstyr om bord i fiske- og fangstfartøy</a></li>
+<li class="lvl4"><a href="#3-krav-til-tjenesteleverandr-som-videreformidler-sporingsopplysninger-fra-farty">§ 3. Krav til tjenesteleverandør som videreformidler sporingsopplysninger fra fartøy</a></li>
+<li class="lvl2"><a href="#kapittel-iii-generelle-krav-til-installering-av-posisjonsrapporteringsutstyr">Kapittel III. Generelle krav til installering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#4-generelle-krav-til-installering-av-posisjonsrapporteringsutstyr">§ 4. Generelle krav til installering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#5-forsegling-plombering-og-plassering-av-posisjonsrapporteringsutstyr">§ 5. Forsegling, plombering og plassering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#6-aktivering-og-deaktivering-av-posisjonsrapporteringsutstyr">§ 6. Aktivering og deaktivering av posisjonsrapporteringsutstyr</a></li>
+<li class="lvl4"><a href="#7-strmtilfrsel-til-posisjonsrapporteringsutstyret">§ 7. Strømtilførsel til posisjonsrapporteringsutstyret</a></li>
+<li class="lvl2"><a href="#kapittel-iv-spesielle-krav-til-installering-av-posisjonsrapporteringsutsytr-inmarsat">Kapittel IV. Spesielle krav til installering av posisjonsrapporteringsutsytr (Inmarsat)</a></li>
+<li class="lvl4"><a href="#8-inmarsat-utstyr">§ 8. Inmarsat-utstyr</a></li>
+<li class="lvl2"><a href="#kapittel-v-generelle-bestemmelser-straff-og-ikrafttredelse">Kapittel V. Generelle bestemmelser, straff og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-autorisasjon">§ 9. Autorisasjon</a></li>
+<li class="lvl4"><a href="#10-straff">§ 10. Straff</a></li>
+<li class="lvl4"><a href="#11-ikrafttredelse">§ 11. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-03-24-454.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-03-24-454.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-03-24-454.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2010-03-24-454.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2010-03-24-454.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-03-24-454.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2010-03-24-454.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2010-03-24-454.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-03-24-454.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-utstyr-og-installasjon-av-posisjonsrapporteringsutstyr">Forskrift om krav til utstyr og installasjon av posisjonsrapporteringsutstyr</h1>
 <h2 id="kapittel-i-virkeomrade">Kapittel I. Virkeområde</h2>
 <h4 id="1-virkeomrade">§ 1. Virkeområde</h4>
 <p>Denne forskrift gjelder for norske fiske- og fangstfartøy som i henhold til forskrift 21. desember 2009 nr. 1743 om posisjonsrapportering og elektronisk rapportering for norske fiske- og fangstfartøy skal ha posisjonsrapporteringsutstyr om bord, samt produsent, tjenesteleverandør og installatør av slikt utstyr.</p>
-<p><em>Endret ved forskrift 28 juni 2024 nr. 1522 .</em></p>
+<p class="note">Endret ved forskrift 28 juni 2024 nr. 1522 .</p>
 <h2 id="kapittel-ii-krav-til-posisjonsrapporteringsutstyr">Kapittel II. Krav til posisjonsrapporteringsutstyr</h2>
 <h4 id="2-krav-til-posisjonsrapporteringsutstyr-om-bord-i-fiske-og-fangstfarty">§ 2. Krav til posisjonsrapporteringsutstyr om bord i fiske- og fangstfartøy</h4>
 <p>Posisjonsrapporteringsutstyr skal være typegodkjent av Fiskeridirektoratet og tilfredsstille følgende krav:</p>
@@ -96,7 +175,7 @@ d. være sikret mot manipulering og deaktivering, herunder sikret mot at andre e
 e. fungere slik at Fiskeridirektoratet skal kunne motta posisjonsopplysninger fra tilfeldige tidspunkt i tillegg til de posisjonsopplysninger som sendes i henhold til eventuell forhåndskodet rapporteringsplan,
 f. være av en slik art at fartøyet kan spores i alle områder der fartøy vil oppholde seg,
 g. være sikret mot påvirkning fra annet teknisk utstyr om bord i fartøyet.</p>
-<p><em>Endres ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</em></p>
+<p class="note">Endres ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</p>
 <h4 id="3-krav-til-tjenesteleverandr-som-videreformidler-sporingsopplysninger-fra-farty">§ 3. Krav til tjenesteleverandør som videreformidler sporingsopplysninger fra fartøy</h4>
 <p>Tjenesteleverandør som videreformidler sporingsopplysningene fra fartøy skal tilfredsstille følgende krav:</p>
 <p>a. sporingsmeldingene skal sendes over sikre linjer i tilnærmet sann tid i forhold til rapporteringsøyeblikket, på et format som godkjennes av Fiskeridirektoratet.
@@ -119,11 +198,11 @@ d. er tilgjengelige for inspeksjon og vedlikehold.</p>
 <h4 id="6-aktivering-og-deaktivering-av-posisjonsrapporteringsutstyr">§ 6. Aktivering og deaktivering av posisjonsrapporteringsutstyr</h4>
 <p>Når posisjonsrapporteringsutstyr installeres, eller enhetens forsegling brytes, skal autorisert installatør informere Fiskeridirektoratet gjennom innsending av skjema. Installasjon eller reparasjon av utstyret anses ikke å være gjennomført før Fiskeridirektoratet har mottatt og godkjent skjemaet. Kvittering på eventuelt godkjent skjema sendes til eier av fartøyet.</p>
 <p>Dersom et fartøy med posisjonsrapporteringsutstyr om bord selges til utlandet, skal fartøyets eier informere Fiskeridirektoratet om dette i god tid, og senest to uker før eierskifte finner sted.</p>
-<p><em>Endret ved forskrift 20 nov 2024 nr. 2800 .</em></p>
+<p class="note">Endret ved forskrift 20 nov 2024 nr. 2800 .</p>
 <h4 id="7-strmtilfrsel-til-posisjonsrapporteringsutstyret">§ 7. Strømtilførsel til posisjonsrapporteringsutstyret</h4>
 <p>Det er skipsførers ansvar å tilse at posisjonsrapporteringsutstyret om bord har kontinuerlig strømtilførsel.</p>
 <p>Strømtilførselen til satellittsporingsutstyret skal ikke brytes uten ved nødvendig strømbrudd grunnet vedlikehold av sporingsutstyret, verkstedsopphold eller når fartøyet skal ligge uvirksom i mer enn 30 dager. Det skal sendes skriftlig melding til Fiskeridirektoratet før strøm brytes. Når strømmen til sporingsutstyret er brutt er det krav om at fartøyet ikke endrer posisjon.</p>
-<p><em>Endret ved forskrift 11 juni 2010 nr. 1340 .</em></p>
+<p class="note">Endret ved forskrift 11 juni 2010 nr. 1340 .</p>
 <h2 id="kapittel-iv-spesielle-krav-til-installering-av-posisjonsrapporteringsutsytr-inmarsat">Kapittel IV. Spesielle krav til installering av posisjonsrapporteringsutsytr (Inmarsat)</h2>
 <p>Oppheves ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</p>
 <h4 id="8-inmarsat-utstyr">§ 8. Inmarsat-utstyr</h4>
@@ -131,18 +210,20 @@ d. er tilgjengelige for inspeksjon og vedlikehold.</p>
 <p>Skadet eller ødelagt kabel som forbinder sender eller mottakerenhet og antenne skal erstattes med kabel anbefalt for sporingsformål av utstyrsleverandør.</p>
 <p>Dersom utstyret skal programmeres med definisjoner som skal angi bestemte funksjoner («Macro Encode Messages», MEM-koder) og format for tidsangivelse utover gjeldende Inmarsat-standarder, skal koder og formater være i overensstemmelse med de krav som stilles i forbindelse med godkjennelse fra Fiskeridirektoratet.</p>
 <p>Dersom satellittsporingsutstyret som benyttes om bord i fiskefartøyene samtidig skal fungere som radioutstyr i det globale maritime nød- og sikkerhetssystemet GMDSS, skal utstyret installeres i henhold til gjeldende regelverk for installasjon av slikt GMDSS-utstyr.</p>
-<p><em>Oppheves ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</em></p>
+<p class="note">Oppheves ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</p>
 <h2 id="kapittel-v-generelle-bestemmelser-straff-og-ikrafttredelse">Kapittel V. Generelle bestemmelser, straff og ikrafttredelse</h2>
 <p>Endres ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</p>
 <h4 id="9-autorisasjon">§ 9. Autorisasjon</h4>
 <p>Autorisasjon etter denne forskrift gis av Fiskeridirektoratet.</p>
-<p><em>Endres ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</em></p>
+<p class="note">Endres ved forskrift 14 okt 2026 nr. 2060 (i kraft 1 april 2027).</p>
 <h4 id="10-straff">§ 10. Straff</h4>
 <p>Den som forsettlig eller uaktsomt overtrer bestemmelser i denne forskriften straffes etter lov om forvaltning av viltlevande marine ressursar (havressurslova) av 6. juni 2008 nr. 37 § 62 og § 64 . På samme måte straffes medvirkning og forsøk.</p>
 <h4 id="11-ikrafttredelse">§ 11. Ikrafttredelse</h4>
 <p>Denne forskrift trer i kraft straks. Samtidig oppheves forskrift 23. desember 1999 nr. 1592 om krav til utstyr som skal benyttes om bord i fiskefartøy til sporing via satellitt, forskrift 13. juni 2000 nr. 674 om installasjon av satellittsporingsutstyr om bord i fiske- og fangstfartøy og forskrift 28. april 1999 nr. 536 om innføring av satellittbasert overvåkning av fiskefartøyers aktivitet for fartøy som har installert satellittutstyr om bord.</p>
 <h2 id="vedlegg-1-opphevet">Vedlegg 1 (Opphevet)</h2>
 <p>Opphevet ved forskrift 28 juni 2024 nr. 1522 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

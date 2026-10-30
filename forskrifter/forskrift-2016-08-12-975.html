@@ -19,64 +19,439 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-08-12-975.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forsyningsforskriften" href="../feeds/forskrift-2016-08-12-975.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forsyningsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-08-12-975</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-04-14-617</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-08-12-975" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-virkeomrade">Kapittel 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#hvilke-anskaffelser-som-er-omfattet-av-forskriften-og-hvem-den-gjelder-for">Hvilke anskaffelser som er omfattet av forskriften, og hvem den gjelder for</a></li>
+<li class="lvl4"><a href="#aktiviteter-som-er-omfattet-av-forskriften">Aktiviteter som er omfattet av forskriften</a></li>
+<li class="lvl3"><a href="#kapittel-2-unntak">Kapittel 2. Unntak</a></li>
+<li class="lvl5"><a href="#2-1-unntak-for-anskaffelser-som-er-omfattet-av-andre-regler">§ 2-1. Unntak for anskaffelser som er omfattet av andre regler</a></li>
+<li class="lvl5"><a href="#2-2-unntak-for-anskaffelser-som-gjelder-sikkerhetsmessige-forhold-eller-som-er-erklrt-hemmelige">§ 2-2. Unntak for anskaffelser som gjelder sikkerhetsmessige forhold eller som er erklært hemmelige</a></li>
+<li class="lvl5"><a href="#2-3-unntak-for-tjenestekontrakter-som-inngas-pa-grunnlag-av-en-enerett">§ 2-3. Unntak for tjenestekontrakter som inngås på grunnlag av en enerett</a></li>
+<li class="lvl5"><a href="#2-4-unntak-for-visse-tjenestekontrakter">§ 2-4. Unntak for visse tjenestekontrakter</a></li>
+<li class="lvl5"><a href="#2-5-unntak-for-kontrakter-om-forsknings-og-utviklingstjenester">§ 2-5. Unntak for kontrakter om forsknings- og utviklingstjenester</a></li>
+<li class="lvl5"><a href="#2-6-unntak-for-anskaffelser-knyttet-til-utvelsen-av-aktiviteter-i-tredjeland">§ 2-6. Unntak for anskaffelser knyttet til utøvelsen av aktiviteter i tredjeland</a></li>
+<li class="lvl5"><a href="#2-7-unntak-for-kontrakter-som-inngas-med-sikte-pa-videresalg-eller-utleie-til-tredjeperson">§ 2-7. Unntak for kontrakter som inngås med sikte på videresalg eller utleie til tredjeperson</a></li>
+<li class="lvl5"><a href="#2-8-unntak-for-kontrakter-om-kjp-av-vann-levering-av-energi-og-levering-av-brensel-til-energiproduksjon">§ 2-8. Unntak for kontrakter om kjøp av vann, levering av energi og levering av brensel til energiproduksjon</a></li>
+<li class="lvl5"><a href="#2-9-fritak-for-liberaliserte-sektorer">§ 2-9. Fritak for liberaliserte sektorer</a></li>
+<li class="lvl3"><a href="#kapittel-3-samarbeid-i-offentlig-sektor">Kapittel 3. Samarbeid i offentlig sektor</a></li>
+<li class="lvl5"><a href="#3-1-utvidet-egenregi">§ 3-1. Utvidet egenregi</a></li>
+<li class="lvl5"><a href="#3-2-felles-kontroll">§ 3-2. Felles kontroll</a></li>
+<li class="lvl5"><a href="#3-3-samarbeidsavtaler">§ 3-3. Samarbeidsavtaler</a></li>
+<li class="lvl5"><a href="#3-4-beregning-av-aktivitet">§ 3-4. Beregning av aktivitet</a></li>
+<li class="lvl5"><a href="#3-5-kontrakter-med-foretak-i-samme-gruppe">§ 3-5. Kontrakter med foretak i samme gruppe</a></li>
+<li class="lvl5"><a href="#3-6-kontrakter-som-tildeles-av-eller-til-et-fellesforetak">§ 3-6. Kontrakter som tildeles av eller til et fellesforetak</a></li>
+<li class="lvl3"><a href="#kapittel-4-definisjoner">Kapittel 4. Definisjoner</a></li>
+<li class="lvl5"><a href="#4-1-kontraktstyper">§ 4-1. Kontraktstyper</a></li>
+<li class="lvl5"><a href="#4-2-dokumenter">§ 4-2. Dokumenter</a></li>
+<li class="lvl5"><a href="#4-3-samordnede-innkjp">§ 4-3. Samordnede innkjøp</a></li>
+<li class="lvl5"><a href="#4-4-standarder-og-spesifikasjoner">§ 4-4. Standarder og spesifikasjoner</a></li>
+<li class="lvl5"><a href="#4-5-andre-definisjoner">§ 4-5. Andre definisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-5-anvendelsesomrade-for-de-ulike-delene-i-forskriften-og-terskelverdier">Kapittel 5. Anvendelsesområde for de ulike delene i forskriften og terskelverdier</a></li>
+<li class="lvl5"><a href="#5-1-anvendelsesomrade">§ 5-1. Anvendelsesområde</a></li>
+<li class="lvl5"><a href="#5-2-es-terskelverdier">§ 5-2. EØS-terskelverdier</a></li>
+<li class="lvl5"><a href="#5-3-beregning-av-anskaffelsens-anslatte-verdi">§ 5-3. Beregning av anskaffelsens anslåtte verdi</a></li>
+<li class="lvl3"><a href="#kapittel-6-blandede-anskaffelser">Kapittel 6. Blandede anskaffelser</a></li>
+<li class="lvl5"><a href="#6-1-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-der-alle-ytelsene-er-omfattet-av-forskriften">§ 6-1. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet der alle ytelsene er omfattet av forskriften</a></li>
+<li class="lvl5"><a href="#6-2-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-og-som-delvis-er-omfattet-av-forskriften-og-delvis-er-unntatt-anskaffelsesregelverket">§ 6-2. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet og som delvis er omfattet av forskriften og delvis er unntatt anskaffelsesregelverket</a></li>
+<li class="lvl5"><a href="#6-3-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-og-som-delvis-er-omfattet-av-forskriften-og-delvis-innebrer-en-konsesjon">§ 6-3. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet og som delvis er omfattet av forskriften og delvis innebærer en konsesjon</a></li>
+<li class="lvl5"><a href="#6-4-blandede-anskaffelser-knyttet-til-utvelsen-av-flere-aktiviteter">§ 6-4. Blandede anskaffelser knyttet til utøvelsen av flere aktiviteter</a></li>
+<li class="lvl5"><a href="#6-5-blandede-anskaffelser-som-delvis-er-omfattet-av-forskriften-og-delvis-inneholder-forsvars-eller-sikkerhetselementer">§ 6-5. Blandede anskaffelser som delvis er omfattet av forskriften og delvis inneholder forsvars- eller sikkerhetselementer</a></li>
+<li class="lvl3"><a href="#kapittel-7-fellesbestemmelser">Kapittel 7. Fellesbestemmelser</a></li>
+<li class="lvl5"><a href="#7-1-dokumentasjonsplikt">§ 7-1. Dokumentasjonsplikt</a></li>
+<li class="lvl5"><a href="#7-2-offentlighet">§ 7-2. Offentlighet</a></li>
+<li class="lvl5"><a href="#7-3-taushetsplikt">§ 7-3. Taushetsplikt</a></li>
+<li class="lvl5"><a href="#7-4-habilitet">§ 7-4. Habilitet</a></li>
+<li class="lvl5"><a href="#7-5-fristberegning">§ 7-5. Fristberegning</a></li>
+<li class="lvl5"><a href="#7-6-sprakkrav">§ 7-6. Språkkrav</a></li>
+<li class="lvl5"><a href="#7-7-innkjpssentraler">§ 7-7. Innkjøpssentraler</a></li>
+<li class="lvl5"><a href="#7-8-opphevet">§ 7-8. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-9-klima-og-miljhensyn">§ 7-9. Klima- og miljøhensyn</a></li>
+<li class="lvl5"><a href="#7-10-opphevet">§ 7-10. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-11-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 7-11. Kontraktsvilkår om lønns- og arbeidsvilkår</a></li>
+<li class="lvl5"><a href="#7-12-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 7-12. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter</a></li>
+<li class="lvl5"><a href="#7-13-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 7-13. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling</a></li>
+<li class="lvl5"><a href="#7-14-kontraktsvilkar-om-bruk-av-lrlinger">§ 7-14. Kontraktsvilkår om bruk av lærlinger</a></li>
+<li class="lvl5"><a href="#7-15-krav-til-kontroll">§ 7-15. Krav til kontroll</a></li>
+<li class="lvl5"><a href="#7-16-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 7-16. Tilsyn med krav til lønns- og arbeidsvilkår</a></li>
+<li class="lvl5"><a href="#7-17-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 7-17. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden</a></li>
+<li class="lvl2"><a href="#del-ii-anskaffelser-over-es-terskelverdiene">Del II. Anskaffelser over EØS-terskelverdiene</a></li>
+<li class="lvl3"><a href="#kapittel-8-dialog-med-markedet-fr-konkurransen">Kapittel 8. Dialog med markedet før konkurransen</a></li>
+<li class="lvl5"><a href="#8-1-forberedende-underskelser">§ 8-1. Forberedende undersøkelser</a></li>
+<li class="lvl5"><a href="#8-2-dialog-med-leverandrer-fr-konkurransen">§ 8-2. Dialog med leverandører før konkurransen</a></li>
+<li class="lvl3"><a href="#kapittel-9-valg-av-anskaffelsesprosedyre">Kapittel 9. Valg av anskaffelsesprosedyre</a></li>
+<li class="lvl5"><a href="#9-1-tillatte-anskaffelsesprosedyrer">§ 9-1. Tillatte anskaffelsesprosedyrer</a></li>
+<li class="lvl5"><a href="#9-2-vilkar-for-bruk-av-konkurranse-med-forhandling-uten-forutgaende-kunngjring">§ 9-2. Vilkår for bruk av konkurranse med forhandling uten forutgående kunngjøring</a></li>
+<li class="lvl5"><a href="#9-3-vilkar-for-anskaffelser-uten-konkurranse">§ 9-3. Vilkår for anskaffelser uten konkurranse</a></li>
+<li class="lvl3"><a href="#kapittel-10-konkurransegrunnlag">Kapittel 10. Konkurransegrunnlag</a></li>
+<li class="lvl5"><a href="#10-1-konkurransegrunnlag">§ 10-1. Konkurransegrunnlag</a></li>
+<li class="lvl5"><a href="#10-2-rettelser-suppleringer-eller-endringer-av-konkurransegrunnlaget">§ 10-2. Rettelser, suppleringer eller endringer av konkurransegrunnlaget</a></li>
+<li class="lvl5"><a href="#10-3-elektronisk-tilgang-til-konkurransegrunnlaget">§ 10-3. Elektronisk tilgang til konkurransegrunnlaget</a></li>
+<li class="lvl3"><a href="#kapittel-11-kravspesifikasjoner-mm">Kapittel 11. Kravspesifikasjoner m.m.</a></li>
+<li class="lvl5"><a href="#11-1-kravspesifikasjoner">§ 11-1. Kravspesifikasjoner</a></li>
+<li class="lvl5"><a href="#11-2-plikt-til-a-ta-hensyn-til-universell-utforming-i-visse-anskaffelser">§ 11-2. Plikt til å ta hensyn til universell utforming i visse anskaffelser</a></li>
+<li class="lvl5"><a href="#11-3-merkeordninger">§ 11-3. Merkeordninger</a></li>
+<li class="lvl5"><a href="#11-4-testrapporter-attester-og-annen-dokumentasjon">§ 11-4. Testrapporter, attester og annen dokumentasjon</a></li>
+<li class="lvl5"><a href="#11-5-foresprsler-om-tilgang-til-kravspesifikasjoner">§ 11-5. Forespørsler om tilgang til kravspesifikasjoner</a></li>
+<li class="lvl3"><a href="#kapittel-12-kvalifikasjonskrav-og-utvelgelse-av-leverandrer">Kapittel 12. Kvalifikasjonskrav og utvelgelse av leverandører</a></li>
+<li class="lvl4"><a href="#kvalifikasjonskrav">Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#sttte-fra-andre-virksomheter-og-deltakelse-i-fellesskap">Støtte fra andre virksomheter og deltakelse i fellesskap</a></li>
+<li class="lvl4"><a href="#utvelgelse-av-leverandrer">Utvelgelse av leverandører</a></li>
+<li class="lvl3"><a href="#kapittel-13-kvalifikasjonsordninger">Kapittel 13. Kvalifikasjonsordninger</a></li>
+<li class="lvl5"><a href="#13-1-etablering-av-en-kvalifikasjonsordning">§ 13-1. Etablering av en kvalifikasjonsordning</a></li>
+<li class="lvl5"><a href="#13-2-opptak-i-en-kvalifikasjonsordning">§ 13-2. Opptak i en kvalifikasjonsordning</a></li>
+<li class="lvl5"><a href="#13-3-anskaffelser-som-gjennomfres-ved-bruk-av-en-kvalifikasjonsordning">§ 13-3. Anskaffelser som gjennomføres ved bruk av en kvalifikasjonsordning</a></li>
+<li class="lvl3"><a href="#kapittel-14-tildelingskriterier">Kapittel 14. Tildelingskriterier</a></li>
+<li class="lvl5"><a href="#14-1-tildelingskriterier">§ 14-1. Tildelingskriterier</a></li>
+<li class="lvl5"><a href="#14-2-beregning-av-livssykluskostnader">§ 14-2. Beregning av livssykluskostnader</a></li>
+<li class="lvl3"><a href="#kapittel-15-kontraktsvilkar-bruk-av-underleverandrer-og-oppdeling-av-anskaffelser">Kapittel 15. Kontraktsvilkår, bruk av underleverandører og oppdeling av anskaffelser</a></li>
+<li class="lvl5"><a href="#15-1-kontraktsvilkar">§ 15-1. Kontraktsvilkår</a></li>
+<li class="lvl5"><a href="#15-2-bruk-av-underleverandrer">§ 15-2. Bruk av underleverandører</a></li>
+<li class="lvl5"><a href="#15-3-oppdeling-av-anskaffelser">§ 15-3. Oppdeling av anskaffelser</a></li>
+<li class="lvl3"><a href="#kapittel-16-frister">Kapittel 16. Frister</a></li>
+<li class="lvl5"><a href="#16-1-fastsettelse-av-frister">§ 16-1. Fastsettelse av frister</a></li>
+<li class="lvl5"><a href="#16-2-minimumsfrister-i-en-apen-anbudskonkurranse">§ 16-2. Minimumsfrister i en åpen anbudskonkurranse</a></li>
+<li class="lvl5"><a href="#16-3-minimumsfrister-i-andre-prosedyrer">§ 16-3. Minimumsfrister i andre prosedyrer</a></li>
+<li class="lvl5"><a href="#16-4-vedstaelsesfrist">§ 16-4. Vedståelsesfrist</a></li>
+<li class="lvl5"><a href="#16-5-frist-for-begjring-om-midlertidig-forfyning">§ 16-5. Frist for begjæring om midlertidig forføyning</a></li>
+<li class="lvl3"><a href="#kapittel-17-kunngjring">Kapittel 17. Kunngjøring</a></li>
+<li class="lvl5"><a href="#17-1-fremgangsmaten-ved-kunngjringer">§ 17-1. Fremgangsmåten ved kunngjøringer</a></li>
+<li class="lvl5"><a href="#17-2-kunngjring-av-konkurranse">§ 17-2. Kunngjøring av konkurranse</a></li>
+<li class="lvl5"><a href="#17-3-veiledende-kunngjring">§ 17-3. Veiledende kunngjøring</a></li>
+<li class="lvl5"><a href="#17-4-kunngjring-pa-kjperprofil">§ 17-4. Kunngjøring på kjøperprofil</a></li>
+<li class="lvl5"><a href="#17-5-intensjonskunngjring">§ 17-5. Intensjonskunngjøring</a></li>
+<li class="lvl5"><a href="#17-6-kunngjring-av-kontraktsinngaelse">§ 17-6. Kunngjøring av kontraktsinngåelse</a></li>
+<li class="lvl3"><a href="#kapittel-18-kommunikasjon">Kapittel 18. Kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-1-krav-om-bruk-av-elektronisk-kommunikasjon">§ 18-1. Krav om bruk av elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-2-generelle-krav-til-verkty-og-lsninger-som-brukes-til-elektronisk-kommunikasjon">§ 18-2. Generelle krav til verktøy og løsninger som brukes til elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-3-krav-til-mottak-og-oppbevaring-av-foresprsler-om-a-delta-i-konkurransen-og-tilbud-mv">§ 18-3. Krav til mottak og oppbevaring av forespørsler om å delta i konkurransen og tilbud mv.</a></li>
+<li class="lvl5"><a href="#18-4-unntak-fra-kravet-om-bruk-av-elektronisk-kommunikasjon">§ 18-4. Unntak fra kravet om bruk av elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-5-bruk-av-elektroniske-signaturer-mv">§ 18-5. Bruk av elektroniske signaturer mv.</a></li>
+<li class="lvl3"><a href="#kapittel-19-gjennomfring-av-konkurransen">Kapittel 19. Gjennomføring av konkurransen</a></li>
+<li class="lvl4"><a href="#fremgangsmate-og-invitasjoner">Fremgangsmåte og invitasjoner</a></li>
+<li class="lvl4"><a href="#tilbudet">Tilbudet</a></li>
+<li class="lvl4"><a href="#gjennomfring-av-ulike-anskaffelsesprosedyrer">Gjennomføring av ulike anskaffelsesprosedyrer</a></li>
+<li class="lvl3"><a href="#kapittel-20-avvisning">Kapittel 20. Avvisning</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-formalfeil">Avvisning på grunn av formalfeil</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-forhold-ved-leverandren">Avvisning på grunn av forhold ved leverandøren</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-forhold-ved-tilbudet">Avvisning på grunn av forhold ved tilbudet</a></li>
+<li class="lvl4"><a href="#fremgangsmaten-ved-avvisning">Fremgangsmåten ved avvisning</a></li>
+<li class="lvl3"><a href="#kapittel-21-avslutning-av-konkurransen">Kapittel 21. Avslutning av konkurransen</a></li>
+<li class="lvl5"><a href="#21-1-meddelelse-om-valg-av-leverandr-og-begrunnelse">§ 21-1. Meddelelse om valg av leverandør og begrunnelse</a></li>
+<li class="lvl5"><a href="#21-2-karensperiode-fr-inngaelse-av-kontrakt">§ 21-2. Karensperiode før inngåelse av kontrakt</a></li>
+<li class="lvl5"><a href="#21-3-suspensjon-av-oppdragsgivers-adgang-til-a-innga-kontrakt">§ 21-3. Suspensjon av oppdragsgivers adgang til å inngå kontrakt</a></li>
+<li class="lvl5"><a href="#21-4-avlysning-av-konkurransen">§ 21-4. Avlysning av konkurransen</a></li>
+<li class="lvl5"><a href="#21-5-dokumentasjonsplikt">§ 21-5. Dokumentasjonsplikt</a></li>
+<li class="lvl3"><a href="#kapittel-22-rammeavtaler-dynamiske-innkjpsordninger-og-gjennomfring-av-innovasjonspartnerskap">Kapittel 22. Rammeavtaler, dynamiske innkjøpsordninger og gjennomføring av innovasjonspartnerskap</a></li>
+<li class="lvl4"><a href="#rammeavtaler">Rammeavtaler</a></li>
+<li class="lvl4"><a href="#dynamiske-innkjpsordninger">Dynamiske innkjøpsordninger</a></li>
+<li class="lvl4"><a href="#gjennomfring-av-innovasjonspartnerskap">Gjennomføring av innovasjonspartnerskap</a></li>
+<li class="lvl3"><a href="#kapittel-23-elektroniske-kataloger-og-elektroniske-auksjoner">Kapittel 23. Elektroniske kataloger og elektroniske auksjoner</a></li>
+<li class="lvl4"><a href="#elektroniske-kataloger">Elektroniske kataloger</a></li>
+<li class="lvl4"><a href="#elektroniske-auksjoner">Elektroniske auksjoner</a></li>
+<li class="lvl3"><a href="#kapittel-24-endringer-i-kontrakten-og-oppsigelse">Kapittel 24. Endringer i kontrakten og oppsigelse</a></li>
+<li class="lvl5"><a href="#24-1-endringer-som-er-tillatt">§ 24-1. Endringer som er tillatt</a></li>
+<li class="lvl5"><a href="#24-2-vesentlige-endringer">§ 24-2. Vesentlige endringer</a></li>
+<li class="lvl5"><a href="#24-3-oppsigelse-i-srlige-tilfeller">§ 24-3. Oppsigelse i særlige tilfeller</a></li>
+<li class="lvl3"><a href="#kapittel-25-samordnede-innkjp">Kapittel 25. Samordnede innkjøp</a></li>
+<li class="lvl5"><a href="#25-1-anskaffelser-som-gjennomfres-i-fellesskap">§ 25-1. Anskaffelser som gjennomføres i fellesskap</a></li>
+<li class="lvl5"><a href="#25-2-samordnede-innkjp-med-oppdragsgivere-fra-andre-es-stater">§ 25-2. Samordnede innkjøp med oppdragsgivere fra andre EØS-stater</a></li>
+<li class="lvl2"><a href="#del-iii-anskaffelser-av-srlige-tjenester-og-helse-og-sosialtjenester">Del III. Anskaffelser av særlige tjenester og helse- og sosialtjenester</a></li>
+<li class="lvl3"><a href="#kapittel-26-anskaffelser-av-srlige-tjenester-og-helse-og-sosialtjenester">Kapittel 26. Anskaffelser av særlige tjenester og helse- og sosialtjenester</a></li>
+<li class="lvl5"><a href="#26-1-gjennomfring-av-konkurransen">§ 26-1. Gjennomføring av konkurransen</a></li>
+<li class="lvl5"><a href="#26-2-reserverte-kontrakter-for-visse-helse-og-sosialtjenester">§ 26-2. Reserverte kontrakter for visse helse- og sosialtjenester</a></li>
+<li class="lvl5"><a href="#26-2a-kontrakter-som-reserveres-for-ideelle-organisasjoner">§ 26-2a. Kontrakter som reserveres for ideelle organisasjoner</a></li>
+<li class="lvl5"><a href="#26-3-kontrakter-som-reserveres-for-virksomheter-med-funksjonshemmede-eller-vanskeligstilte-personer">§ 26-3. Kontrakter som reserveres for virksomheter med funksjonshemmede eller vanskeligstilte personer</a></li>
+<li class="lvl5"><a href="#26-4-kunngjring-av-konkurranse">§ 26-4. Kunngjøring av konkurranse</a></li>
+<li class="lvl5"><a href="#26-5-intensjonskunngjring">§ 26-5. Intensjonskunngjøring</a></li>
+<li class="lvl5"><a href="#26-6-kunngjring-av-kontraktsinngaelse">§ 26-6. Kunngjøring av kontraktsinngåelse</a></li>
+<li class="lvl5"><a href="#26-7-meddelelse-om-valg-av-leverandr-og-begrunnelse-for-valget">§ 26-7. Meddelelse om valg av leverandør og begrunnelse for valget</a></li>
+<li class="lvl5"><a href="#26-8-karensperiode-fr-inngaelse-av-kontrakt">§ 26-8. Karensperiode før inngåelse av kontrakt</a></li>
+<li class="lvl5"><a href="#26-9-suspensjon-av-oppdragsgivers-adgang-til-a-innga-kontrakt">§ 26-9. Suspensjon av oppdragsgivers adgang til å inngå kontrakt</a></li>
+<li class="lvl2"><a href="#del-iv-plan-og-designkonkurranser">Del IV. Plan- og designkonkurranser</a></li>
+<li class="lvl3"><a href="#kapittel-27-plan-og-designkonkurranser">Kapittel 27. Plan og designkonkurranser</a></li>
+<li class="lvl5"><a href="#27-1-definisjon">§ 27-1. Definisjon</a></li>
+<li class="lvl5"><a href="#27-2-kunngjring">§ 27-2. Kunngjøring</a></li>
+<li class="lvl5"><a href="#27-3-organiseringen-av-en-plan-og-designkonkurranse-og-utvelgelsen-av-deltakere">§ 27-3. Organiseringen av en plan- og designkonkurranse og utvelgelsen av deltakere</a></li>
+<li class="lvl5"><a href="#27-4-juryen">§ 27-4. Juryen</a></li>
+<li class="lvl2"><a href="#del-v-avsluttende-bestemmelser">Del V. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-28-avsluttende-bestemmelser">Kapittel 28. Avsluttende bestemmelser</a></li>
+<li class="lvl5"><a href="#28-1-verneting-for-anskaffelser-i-oljesektoren-mv">§ 28-1. Verneting for anskaffelser i oljesektoren mv.</a></li>
+<li class="lvl5"><a href="#28-2-ikrafttredelse">§ 28-2. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#28-3-overgangsregler">§ 28-3. Overgangsregler</a></li>
+<li class="lvl2"><a href="#vedlegg-1-liste-over-prosedyrer-som-nevnt-i-1-2-fjerde-ledd">Vedlegg 1. Liste over prosedyrer som nevnt i § 1-2 fjerde ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-2-bygge-og-anleggsaktiviteter">Vedlegg 2. Bygge- og anleggsaktiviteter</a></li>
+<li class="lvl2"><a href="#vedlegg-3-srlige-tjenester">Vedlegg 3. Særlige tjenester</a></li>
+<li class="lvl2"><a href="#vedlegg-4-helse-og-sosialtjenester">Vedlegg 4. Helse- og sosialtjenester</a></li>
+<li class="lvl2"><a href="#vedlegg-5-helse-og-sosialtjenester-som-er-omfattet-av-26-2">Vedlegg 5. Helse- og sosialtjenester som er omfattet av § 26-2</a></li>
+<li class="lvl2"><a href="#vedlegg-6-internasjonale-konvensjoner">Vedlegg 6. Internasjonale konvensjoner</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-04-14-617.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-08-12-975.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om innkjøpsregler i forsyningssektorene (forsyningsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-08-12-975.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-08-12-975 <code>forskrift/2016-08-12-975</code></td></tr>
+<tr><th>Korttittel</th><td>Forsyningsforskriften</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-04-14-617 <code>forskrift/2026-04-14-617</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-08-12-975" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-1-virkeomrade">Kapittel 1. Virkeområde</a></li>
+<li class="lvl4"><a href="#hvilke-anskaffelser-som-er-omfattet-av-forskriften-og-hvem-den-gjelder-for">Hvilke anskaffelser som er omfattet av forskriften, og hvem den gjelder for</a></li>
+<li class="lvl4"><a href="#aktiviteter-som-er-omfattet-av-forskriften">Aktiviteter som er omfattet av forskriften</a></li>
+<li class="lvl3"><a href="#kapittel-2-unntak">Kapittel 2. Unntak</a></li>
+<li class="lvl5"><a href="#2-1-unntak-for-anskaffelser-som-er-omfattet-av-andre-regler">§ 2-1. Unntak for anskaffelser som er omfattet av andre regler</a></li>
+<li class="lvl5"><a href="#2-2-unntak-for-anskaffelser-som-gjelder-sikkerhetsmessige-forhold-eller-som-er-erklrt-hemmelige">§ 2-2. Unntak for anskaffelser som gjelder sikkerhetsmessige forhold eller som er erklært hemmelige</a></li>
+<li class="lvl5"><a href="#2-3-unntak-for-tjenestekontrakter-som-inngas-pa-grunnlag-av-en-enerett">§ 2-3. Unntak for tjenestekontrakter som inngås på grunnlag av en enerett</a></li>
+<li class="lvl5"><a href="#2-4-unntak-for-visse-tjenestekontrakter">§ 2-4. Unntak for visse tjenestekontrakter</a></li>
+<li class="lvl5"><a href="#2-5-unntak-for-kontrakter-om-forsknings-og-utviklingstjenester">§ 2-5. Unntak for kontrakter om forsknings- og utviklingstjenester</a></li>
+<li class="lvl5"><a href="#2-6-unntak-for-anskaffelser-knyttet-til-utvelsen-av-aktiviteter-i-tredjeland">§ 2-6. Unntak for anskaffelser knyttet til utøvelsen av aktiviteter i tredjeland</a></li>
+<li class="lvl5"><a href="#2-7-unntak-for-kontrakter-som-inngas-med-sikte-pa-videresalg-eller-utleie-til-tredjeperson">§ 2-7. Unntak for kontrakter som inngås med sikte på videresalg eller utleie til tredjeperson</a></li>
+<li class="lvl5"><a href="#2-8-unntak-for-kontrakter-om-kjp-av-vann-levering-av-energi-og-levering-av-brensel-til-energiproduksjon">§ 2-8. Unntak for kontrakter om kjøp av vann, levering av energi og levering av brensel til energiproduksjon</a></li>
+<li class="lvl5"><a href="#2-9-fritak-for-liberaliserte-sektorer">§ 2-9. Fritak for liberaliserte sektorer</a></li>
+<li class="lvl3"><a href="#kapittel-3-samarbeid-i-offentlig-sektor">Kapittel 3. Samarbeid i offentlig sektor</a></li>
+<li class="lvl5"><a href="#3-1-utvidet-egenregi">§ 3-1. Utvidet egenregi</a></li>
+<li class="lvl5"><a href="#3-2-felles-kontroll">§ 3-2. Felles kontroll</a></li>
+<li class="lvl5"><a href="#3-3-samarbeidsavtaler">§ 3-3. Samarbeidsavtaler</a></li>
+<li class="lvl5"><a href="#3-4-beregning-av-aktivitet">§ 3-4. Beregning av aktivitet</a></li>
+<li class="lvl5"><a href="#3-5-kontrakter-med-foretak-i-samme-gruppe">§ 3-5. Kontrakter med foretak i samme gruppe</a></li>
+<li class="lvl5"><a href="#3-6-kontrakter-som-tildeles-av-eller-til-et-fellesforetak">§ 3-6. Kontrakter som tildeles av eller til et fellesforetak</a></li>
+<li class="lvl3"><a href="#kapittel-4-definisjoner">Kapittel 4. Definisjoner</a></li>
+<li class="lvl5"><a href="#4-1-kontraktstyper">§ 4-1. Kontraktstyper</a></li>
+<li class="lvl5"><a href="#4-2-dokumenter">§ 4-2. Dokumenter</a></li>
+<li class="lvl5"><a href="#4-3-samordnede-innkjp">§ 4-3. Samordnede innkjøp</a></li>
+<li class="lvl5"><a href="#4-4-standarder-og-spesifikasjoner">§ 4-4. Standarder og spesifikasjoner</a></li>
+<li class="lvl5"><a href="#4-5-andre-definisjoner">§ 4-5. Andre definisjoner</a></li>
+<li class="lvl3"><a href="#kapittel-5-anvendelsesomrade-for-de-ulike-delene-i-forskriften-og-terskelverdier">Kapittel 5. Anvendelsesområde for de ulike delene i forskriften og terskelverdier</a></li>
+<li class="lvl5"><a href="#5-1-anvendelsesomrade">§ 5-1. Anvendelsesområde</a></li>
+<li class="lvl5"><a href="#5-2-es-terskelverdier">§ 5-2. EØS-terskelverdier</a></li>
+<li class="lvl5"><a href="#5-3-beregning-av-anskaffelsens-anslatte-verdi">§ 5-3. Beregning av anskaffelsens anslåtte verdi</a></li>
+<li class="lvl3"><a href="#kapittel-6-blandede-anskaffelser">Kapittel 6. Blandede anskaffelser</a></li>
+<li class="lvl5"><a href="#6-1-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-der-alle-ytelsene-er-omfattet-av-forskriften">§ 6-1. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet der alle ytelsene er omfattet av forskriften</a></li>
+<li class="lvl5"><a href="#6-2-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-og-som-delvis-er-omfattet-av-forskriften-og-delvis-er-unntatt-anskaffelsesregelverket">§ 6-2. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet og som delvis er omfattet av forskriften og delvis er unntatt anskaffelsesregelverket</a></li>
+<li class="lvl5"><a href="#6-3-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-og-som-delvis-er-omfattet-av-forskriften-og-delvis-innebrer-en-konsesjon">§ 6-3. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet og som delvis er omfattet av forskriften og delvis innebærer en konsesjon</a></li>
+<li class="lvl5"><a href="#6-4-blandede-anskaffelser-knyttet-til-utvelsen-av-flere-aktiviteter">§ 6-4. Blandede anskaffelser knyttet til utøvelsen av flere aktiviteter</a></li>
+<li class="lvl5"><a href="#6-5-blandede-anskaffelser-som-delvis-er-omfattet-av-forskriften-og-delvis-inneholder-forsvars-eller-sikkerhetselementer">§ 6-5. Blandede anskaffelser som delvis er omfattet av forskriften og delvis inneholder forsvars- eller sikkerhetselementer</a></li>
+<li class="lvl3"><a href="#kapittel-7-fellesbestemmelser">Kapittel 7. Fellesbestemmelser</a></li>
+<li class="lvl5"><a href="#7-1-dokumentasjonsplikt">§ 7-1. Dokumentasjonsplikt</a></li>
+<li class="lvl5"><a href="#7-2-offentlighet">§ 7-2. Offentlighet</a></li>
+<li class="lvl5"><a href="#7-3-taushetsplikt">§ 7-3. Taushetsplikt</a></li>
+<li class="lvl5"><a href="#7-4-habilitet">§ 7-4. Habilitet</a></li>
+<li class="lvl5"><a href="#7-5-fristberegning">§ 7-5. Fristberegning</a></li>
+<li class="lvl5"><a href="#7-6-sprakkrav">§ 7-6. Språkkrav</a></li>
+<li class="lvl5"><a href="#7-7-innkjpssentraler">§ 7-7. Innkjøpssentraler</a></li>
+<li class="lvl5"><a href="#7-8-opphevet">§ 7-8. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-9-klima-og-miljhensyn">§ 7-9. Klima- og miljøhensyn</a></li>
+<li class="lvl5"><a href="#7-10-opphevet">§ 7-10. (Opphevet)</a></li>
+<li class="lvl5"><a href="#7-11-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 7-11. Kontraktsvilkår om lønns- og arbeidsvilkår</a></li>
+<li class="lvl5"><a href="#7-12-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 7-12. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter</a></li>
+<li class="lvl5"><a href="#7-13-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 7-13. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling</a></li>
+<li class="lvl5"><a href="#7-14-kontraktsvilkar-om-bruk-av-lrlinger">§ 7-14. Kontraktsvilkår om bruk av lærlinger</a></li>
+<li class="lvl5"><a href="#7-15-krav-til-kontroll">§ 7-15. Krav til kontroll</a></li>
+<li class="lvl5"><a href="#7-16-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 7-16. Tilsyn med krav til lønns- og arbeidsvilkår</a></li>
+<li class="lvl5"><a href="#7-17-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 7-17. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden</a></li>
+<li class="lvl2"><a href="#del-ii-anskaffelser-over-es-terskelverdiene">Del II. Anskaffelser over EØS-terskelverdiene</a></li>
+<li class="lvl3"><a href="#kapittel-8-dialog-med-markedet-fr-konkurransen">Kapittel 8. Dialog med markedet før konkurransen</a></li>
+<li class="lvl5"><a href="#8-1-forberedende-underskelser">§ 8-1. Forberedende undersøkelser</a></li>
+<li class="lvl5"><a href="#8-2-dialog-med-leverandrer-fr-konkurransen">§ 8-2. Dialog med leverandører før konkurransen</a></li>
+<li class="lvl3"><a href="#kapittel-9-valg-av-anskaffelsesprosedyre">Kapittel 9. Valg av anskaffelsesprosedyre</a></li>
+<li class="lvl5"><a href="#9-1-tillatte-anskaffelsesprosedyrer">§ 9-1. Tillatte anskaffelsesprosedyrer</a></li>
+<li class="lvl5"><a href="#9-2-vilkar-for-bruk-av-konkurranse-med-forhandling-uten-forutgaende-kunngjring">§ 9-2. Vilkår for bruk av konkurranse med forhandling uten forutgående kunngjøring</a></li>
+<li class="lvl5"><a href="#9-3-vilkar-for-anskaffelser-uten-konkurranse">§ 9-3. Vilkår for anskaffelser uten konkurranse</a></li>
+<li class="lvl3"><a href="#kapittel-10-konkurransegrunnlag">Kapittel 10. Konkurransegrunnlag</a></li>
+<li class="lvl5"><a href="#10-1-konkurransegrunnlag">§ 10-1. Konkurransegrunnlag</a></li>
+<li class="lvl5"><a href="#10-2-rettelser-suppleringer-eller-endringer-av-konkurransegrunnlaget">§ 10-2. Rettelser, suppleringer eller endringer av konkurransegrunnlaget</a></li>
+<li class="lvl5"><a href="#10-3-elektronisk-tilgang-til-konkurransegrunnlaget">§ 10-3. Elektronisk tilgang til konkurransegrunnlaget</a></li>
+<li class="lvl3"><a href="#kapittel-11-kravspesifikasjoner-mm">Kapittel 11. Kravspesifikasjoner m.m.</a></li>
+<li class="lvl5"><a href="#11-1-kravspesifikasjoner">§ 11-1. Kravspesifikasjoner</a></li>
+<li class="lvl5"><a href="#11-2-plikt-til-a-ta-hensyn-til-universell-utforming-i-visse-anskaffelser">§ 11-2. Plikt til å ta hensyn til universell utforming i visse anskaffelser</a></li>
+<li class="lvl5"><a href="#11-3-merkeordninger">§ 11-3. Merkeordninger</a></li>
+<li class="lvl5"><a href="#11-4-testrapporter-attester-og-annen-dokumentasjon">§ 11-4. Testrapporter, attester og annen dokumentasjon</a></li>
+<li class="lvl5"><a href="#11-5-foresprsler-om-tilgang-til-kravspesifikasjoner">§ 11-5. Forespørsler om tilgang til kravspesifikasjoner</a></li>
+<li class="lvl3"><a href="#kapittel-12-kvalifikasjonskrav-og-utvelgelse-av-leverandrer">Kapittel 12. Kvalifikasjonskrav og utvelgelse av leverandører</a></li>
+<li class="lvl4"><a href="#kvalifikasjonskrav">Kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#sttte-fra-andre-virksomheter-og-deltakelse-i-fellesskap">Støtte fra andre virksomheter og deltakelse i fellesskap</a></li>
+<li class="lvl4"><a href="#utvelgelse-av-leverandrer">Utvelgelse av leverandører</a></li>
+<li class="lvl3"><a href="#kapittel-13-kvalifikasjonsordninger">Kapittel 13. Kvalifikasjonsordninger</a></li>
+<li class="lvl5"><a href="#13-1-etablering-av-en-kvalifikasjonsordning">§ 13-1. Etablering av en kvalifikasjonsordning</a></li>
+<li class="lvl5"><a href="#13-2-opptak-i-en-kvalifikasjonsordning">§ 13-2. Opptak i en kvalifikasjonsordning</a></li>
+<li class="lvl5"><a href="#13-3-anskaffelser-som-gjennomfres-ved-bruk-av-en-kvalifikasjonsordning">§ 13-3. Anskaffelser som gjennomføres ved bruk av en kvalifikasjonsordning</a></li>
+<li class="lvl3"><a href="#kapittel-14-tildelingskriterier">Kapittel 14. Tildelingskriterier</a></li>
+<li class="lvl5"><a href="#14-1-tildelingskriterier">§ 14-1. Tildelingskriterier</a></li>
+<li class="lvl5"><a href="#14-2-beregning-av-livssykluskostnader">§ 14-2. Beregning av livssykluskostnader</a></li>
+<li class="lvl3"><a href="#kapittel-15-kontraktsvilkar-bruk-av-underleverandrer-og-oppdeling-av-anskaffelser">Kapittel 15. Kontraktsvilkår, bruk av underleverandører og oppdeling av anskaffelser</a></li>
+<li class="lvl5"><a href="#15-1-kontraktsvilkar">§ 15-1. Kontraktsvilkår</a></li>
+<li class="lvl5"><a href="#15-2-bruk-av-underleverandrer">§ 15-2. Bruk av underleverandører</a></li>
+<li class="lvl5"><a href="#15-3-oppdeling-av-anskaffelser">§ 15-3. Oppdeling av anskaffelser</a></li>
+<li class="lvl3"><a href="#kapittel-16-frister">Kapittel 16. Frister</a></li>
+<li class="lvl5"><a href="#16-1-fastsettelse-av-frister">§ 16-1. Fastsettelse av frister</a></li>
+<li class="lvl5"><a href="#16-2-minimumsfrister-i-en-apen-anbudskonkurranse">§ 16-2. Minimumsfrister i en åpen anbudskonkurranse</a></li>
+<li class="lvl5"><a href="#16-3-minimumsfrister-i-andre-prosedyrer">§ 16-3. Minimumsfrister i andre prosedyrer</a></li>
+<li class="lvl5"><a href="#16-4-vedstaelsesfrist">§ 16-4. Vedståelsesfrist</a></li>
+<li class="lvl5"><a href="#16-5-frist-for-begjring-om-midlertidig-forfyning">§ 16-5. Frist for begjæring om midlertidig forføyning</a></li>
+<li class="lvl3"><a href="#kapittel-17-kunngjring">Kapittel 17. Kunngjøring</a></li>
+<li class="lvl5"><a href="#17-1-fremgangsmaten-ved-kunngjringer">§ 17-1. Fremgangsmåten ved kunngjøringer</a></li>
+<li class="lvl5"><a href="#17-2-kunngjring-av-konkurranse">§ 17-2. Kunngjøring av konkurranse</a></li>
+<li class="lvl5"><a href="#17-3-veiledende-kunngjring">§ 17-3. Veiledende kunngjøring</a></li>
+<li class="lvl5"><a href="#17-4-kunngjring-pa-kjperprofil">§ 17-4. Kunngjøring på kjøperprofil</a></li>
+<li class="lvl5"><a href="#17-5-intensjonskunngjring">§ 17-5. Intensjonskunngjøring</a></li>
+<li class="lvl5"><a href="#17-6-kunngjring-av-kontraktsinngaelse">§ 17-6. Kunngjøring av kontraktsinngåelse</a></li>
+<li class="lvl3"><a href="#kapittel-18-kommunikasjon">Kapittel 18. Kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-1-krav-om-bruk-av-elektronisk-kommunikasjon">§ 18-1. Krav om bruk av elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-2-generelle-krav-til-verkty-og-lsninger-som-brukes-til-elektronisk-kommunikasjon">§ 18-2. Generelle krav til verktøy og løsninger som brukes til elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-3-krav-til-mottak-og-oppbevaring-av-foresprsler-om-a-delta-i-konkurransen-og-tilbud-mv">§ 18-3. Krav til mottak og oppbevaring av forespørsler om å delta i konkurransen og tilbud mv.</a></li>
+<li class="lvl5"><a href="#18-4-unntak-fra-kravet-om-bruk-av-elektronisk-kommunikasjon">§ 18-4. Unntak fra kravet om bruk av elektronisk kommunikasjon</a></li>
+<li class="lvl5"><a href="#18-5-bruk-av-elektroniske-signaturer-mv">§ 18-5. Bruk av elektroniske signaturer mv.</a></li>
+<li class="lvl3"><a href="#kapittel-19-gjennomfring-av-konkurransen">Kapittel 19. Gjennomføring av konkurransen</a></li>
+<li class="lvl4"><a href="#fremgangsmate-og-invitasjoner">Fremgangsmåte og invitasjoner</a></li>
+<li class="lvl4"><a href="#tilbudet">Tilbudet</a></li>
+<li class="lvl4"><a href="#gjennomfring-av-ulike-anskaffelsesprosedyrer">Gjennomføring av ulike anskaffelsesprosedyrer</a></li>
+<li class="lvl3"><a href="#kapittel-20-avvisning">Kapittel 20. Avvisning</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-formalfeil">Avvisning på grunn av formalfeil</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-forhold-ved-leverandren">Avvisning på grunn av forhold ved leverandøren</a></li>
+<li class="lvl4"><a href="#avvisning-pa-grunn-av-forhold-ved-tilbudet">Avvisning på grunn av forhold ved tilbudet</a></li>
+<li class="lvl4"><a href="#fremgangsmaten-ved-avvisning">Fremgangsmåten ved avvisning</a></li>
+<li class="lvl3"><a href="#kapittel-21-avslutning-av-konkurransen">Kapittel 21. Avslutning av konkurransen</a></li>
+<li class="lvl5"><a href="#21-1-meddelelse-om-valg-av-leverandr-og-begrunnelse">§ 21-1. Meddelelse om valg av leverandør og begrunnelse</a></li>
+<li class="lvl5"><a href="#21-2-karensperiode-fr-inngaelse-av-kontrakt">§ 21-2. Karensperiode før inngåelse av kontrakt</a></li>
+<li class="lvl5"><a href="#21-3-suspensjon-av-oppdragsgivers-adgang-til-a-innga-kontrakt">§ 21-3. Suspensjon av oppdragsgivers adgang til å inngå kontrakt</a></li>
+<li class="lvl5"><a href="#21-4-avlysning-av-konkurransen">§ 21-4. Avlysning av konkurransen</a></li>
+<li class="lvl5"><a href="#21-5-dokumentasjonsplikt">§ 21-5. Dokumentasjonsplikt</a></li>
+<li class="lvl3"><a href="#kapittel-22-rammeavtaler-dynamiske-innkjpsordninger-og-gjennomfring-av-innovasjonspartnerskap">Kapittel 22. Rammeavtaler, dynamiske innkjøpsordninger og gjennomføring av innovasjonspartnerskap</a></li>
+<li class="lvl4"><a href="#rammeavtaler">Rammeavtaler</a></li>
+<li class="lvl4"><a href="#dynamiske-innkjpsordninger">Dynamiske innkjøpsordninger</a></li>
+<li class="lvl4"><a href="#gjennomfring-av-innovasjonspartnerskap">Gjennomføring av innovasjonspartnerskap</a></li>
+<li class="lvl3"><a href="#kapittel-23-elektroniske-kataloger-og-elektroniske-auksjoner">Kapittel 23. Elektroniske kataloger og elektroniske auksjoner</a></li>
+<li class="lvl4"><a href="#elektroniske-kataloger">Elektroniske kataloger</a></li>
+<li class="lvl4"><a href="#elektroniske-auksjoner">Elektroniske auksjoner</a></li>
+<li class="lvl3"><a href="#kapittel-24-endringer-i-kontrakten-og-oppsigelse">Kapittel 24. Endringer i kontrakten og oppsigelse</a></li>
+<li class="lvl5"><a href="#24-1-endringer-som-er-tillatt">§ 24-1. Endringer som er tillatt</a></li>
+<li class="lvl5"><a href="#24-2-vesentlige-endringer">§ 24-2. Vesentlige endringer</a></li>
+<li class="lvl5"><a href="#24-3-oppsigelse-i-srlige-tilfeller">§ 24-3. Oppsigelse i særlige tilfeller</a></li>
+<li class="lvl3"><a href="#kapittel-25-samordnede-innkjp">Kapittel 25. Samordnede innkjøp</a></li>
+<li class="lvl5"><a href="#25-1-anskaffelser-som-gjennomfres-i-fellesskap">§ 25-1. Anskaffelser som gjennomføres i fellesskap</a></li>
+<li class="lvl5"><a href="#25-2-samordnede-innkjp-med-oppdragsgivere-fra-andre-es-stater">§ 25-2. Samordnede innkjøp med oppdragsgivere fra andre EØS-stater</a></li>
+<li class="lvl2"><a href="#del-iii-anskaffelser-av-srlige-tjenester-og-helse-og-sosialtjenester">Del III. Anskaffelser av særlige tjenester og helse- og sosialtjenester</a></li>
+<li class="lvl3"><a href="#kapittel-26-anskaffelser-av-srlige-tjenester-og-helse-og-sosialtjenester">Kapittel 26. Anskaffelser av særlige tjenester og helse- og sosialtjenester</a></li>
+<li class="lvl5"><a href="#26-1-gjennomfring-av-konkurransen">§ 26-1. Gjennomføring av konkurransen</a></li>
+<li class="lvl5"><a href="#26-2-reserverte-kontrakter-for-visse-helse-og-sosialtjenester">§ 26-2. Reserverte kontrakter for visse helse- og sosialtjenester</a></li>
+<li class="lvl5"><a href="#26-2a-kontrakter-som-reserveres-for-ideelle-organisasjoner">§ 26-2a. Kontrakter som reserveres for ideelle organisasjoner</a></li>
+<li class="lvl5"><a href="#26-3-kontrakter-som-reserveres-for-virksomheter-med-funksjonshemmede-eller-vanskeligstilte-personer">§ 26-3. Kontrakter som reserveres for virksomheter med funksjonshemmede eller vanskeligstilte personer</a></li>
+<li class="lvl5"><a href="#26-4-kunngjring-av-konkurranse">§ 26-4. Kunngjøring av konkurranse</a></li>
+<li class="lvl5"><a href="#26-5-intensjonskunngjring">§ 26-5. Intensjonskunngjøring</a></li>
+<li class="lvl5"><a href="#26-6-kunngjring-av-kontraktsinngaelse">§ 26-6. Kunngjøring av kontraktsinngåelse</a></li>
+<li class="lvl5"><a href="#26-7-meddelelse-om-valg-av-leverandr-og-begrunnelse-for-valget">§ 26-7. Meddelelse om valg av leverandør og begrunnelse for valget</a></li>
+<li class="lvl5"><a href="#26-8-karensperiode-fr-inngaelse-av-kontrakt">§ 26-8. Karensperiode før inngåelse av kontrakt</a></li>
+<li class="lvl5"><a href="#26-9-suspensjon-av-oppdragsgivers-adgang-til-a-innga-kontrakt">§ 26-9. Suspensjon av oppdragsgivers adgang til å inngå kontrakt</a></li>
+<li class="lvl2"><a href="#del-iv-plan-og-designkonkurranser">Del IV. Plan- og designkonkurranser</a></li>
+<li class="lvl3"><a href="#kapittel-27-plan-og-designkonkurranser">Kapittel 27. Plan og designkonkurranser</a></li>
+<li class="lvl5"><a href="#27-1-definisjon">§ 27-1. Definisjon</a></li>
+<li class="lvl5"><a href="#27-2-kunngjring">§ 27-2. Kunngjøring</a></li>
+<li class="lvl5"><a href="#27-3-organiseringen-av-en-plan-og-designkonkurranse-og-utvelgelsen-av-deltakere">§ 27-3. Organiseringen av en plan- og designkonkurranse og utvelgelsen av deltakere</a></li>
+<li class="lvl5"><a href="#27-4-juryen">§ 27-4. Juryen</a></li>
+<li class="lvl2"><a href="#del-v-avsluttende-bestemmelser">Del V. Avsluttende bestemmelser</a></li>
+<li class="lvl3"><a href="#kapittel-28-avsluttende-bestemmelser">Kapittel 28. Avsluttende bestemmelser</a></li>
+<li class="lvl5"><a href="#28-1-verneting-for-anskaffelser-i-oljesektoren-mv">§ 28-1. Verneting for anskaffelser i oljesektoren mv.</a></li>
+<li class="lvl5"><a href="#28-2-ikrafttredelse">§ 28-2. Ikrafttredelse</a></li>
+<li class="lvl5"><a href="#28-3-overgangsregler">§ 28-3. Overgangsregler</a></li>
+<li class="lvl2"><a href="#vedlegg-1-liste-over-prosedyrer-som-nevnt-i-1-2-fjerde-ledd">Vedlegg 1. Liste over prosedyrer som nevnt i § 1-2 fjerde ledd</a></li>
+<li class="lvl2"><a href="#vedlegg-2-bygge-og-anleggsaktiviteter">Vedlegg 2. Bygge- og anleggsaktiviteter</a></li>
+<li class="lvl2"><a href="#vedlegg-3-srlige-tjenester">Vedlegg 3. Særlige tjenester</a></li>
+<li class="lvl2"><a href="#vedlegg-4-helse-og-sosialtjenester">Vedlegg 4. Helse- og sosialtjenester</a></li>
+<li class="lvl2"><a href="#vedlegg-5-helse-og-sosialtjenester-som-er-omfattet-av-26-2">Vedlegg 5. Helse- og sosialtjenester som er omfattet av § 26-2</a></li>
+<li class="lvl2"><a href="#vedlegg-6-internasjonale-konvensjoner">Vedlegg 6. Internasjonale konvensjoner</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-08-12-975.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-08-12-975.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-08-12-975.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-08-12-975.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-08-12-975.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-08-12-975.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-08-12-975.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-08-12-975.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-08-12-975.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-innkjpsregler-i-forsyningssektorene-forsyningsforskriften">Forskrift om innkjøpsregler i forsyningssektorene (forsyningsforskriften)</h1>
 <h2 id="del-i-alminnelige-bestemmelser">Del I. Alminnelige bestemmelser</h2>
 <h3 id="kapittel-1-virkeomrade">Kapittel 1. Virkeområde</h3>
 <h4 id="hvilke-anskaffelser-som-er-omfattet-av-forskriften-og-hvem-den-gjelder-for">Hvilke anskaffelser som er omfattet av forskriften, og hvem den gjelder for</h4>
@@ -89,7 +464,7 @@ d. transport som definert i § 1-6
 e. havner og lufthavner som definert i § 1-7
 f. post som definert i § 1-8
 g. olje, gass, kull og andre typer fast brensel som definert i § 1-9 .</p>
-<p><em>Endret ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h6 id="1-2-hvem-forskriften-gjelder-for">§ 1-2. Hvem forskriften gjelder for</h6>
 <p>(1) Forskriften gjelder for følgende oppdragsgivere:</p>
 <p>a. statlige myndigheter
@@ -153,7 +528,7 @@ b. postsending: en adressert sending i den endelige formen som den har på innle
 c. andre tjenester enn posttjenester:
   1. forvaltning av kurertjenester, både før og etter forsendelse, for eksempel postromforvaltning
   2. tjenester knyttet til postsendinger som ikke er omfattet av bokstav b, for eksempel uadressert reklame.</p>
-<p><em>Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</p>
 <h6 id="1-9-olje-gass-kull-og-andre-typer-fast-brensel">§ 1-9. Olje, gass, kull og andre typer fast brensel</h6>
 <p>Forskriften gjelder for aktiviteter som har til formål å utnytte et geografisk område til</p>
 <p>a. utvinning av olje eller gass, inkludert gassproduksjon
@@ -176,7 +551,7 @@ b. velger å gjennomføre etter anskaffelsesregler som er fastsatt av en interna
 <p>a. som oppdragsgiveren kan unnta etter EØS-avtalen artikkel 123, eller
 b. som er erklært hemmelige eller bare kan utføres under særlige sikkerhetstiltak i henhold til lov, forskrift eller forvaltningsvedtak, og de aktuelle vesentlige interessene ikke kan sikres gjennom mindre inngripende tiltak.</p>
 <p>(2) Anskaffelsesloven og forskriften gjelder ikke dersom anvendelsen av disse vil forhindre oppdragsgiveren fra å ivareta vesentlige sikkerhetsinteresser. Anskaffelsesloven og forskriften gjelder likevel dersom oppdragsgiveren kan ivareta disse interessene ved mindre inngripende tiltak, for eksempel ved å pålegge leverandørene taushetsplikt.</p>
-<p><em>Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</em></p>
+<p class="note">Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</p>
 <h5 id="2-3-unntak-for-tjenestekontrakter-som-inngas-pa-grunnlag-av-en-enerett">§ 2-3. Unntak for tjenestekontrakter som inngås på grunnlag av en enerett</h5>
 <p>Anskaffelsesloven og forskriften gjelder ikke for tjenestekontrakter som oppdragsgiveren inngår med en annen oppdragsgiver som nevnt i § 1-2 første ledd bokstav a til d som har en enerett til å utføre tjenesten. Dette gjelder bare når eneretten er tildelt ved lov, forskrift eller kunngjort forvaltningsvedtak som er forenlig med EØS-avtalen.</p>
 <h5 id="2-4-unntak-for-visse-tjenestekontrakter">§ 2-4. Unntak for visse tjenestekontrakter</h5>
@@ -289,7 +664,7 @@ c. tilknyttede innkjøpstjenester: støtte til innkjøpsaktiviteter, særlig i f
   1. å stille til rådighet teknisk infrastruktur som gjør det mulig for oppdragsgivere å inngå kontrakter
   2. å gi råd om gjennomføringen eller utformingen av anskaffelser
   3. å forberede og gjennomføre anskaffelser på vegne av oppdragsgivere.</p>
-<p><em>Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</p>
 <h5 id="4-4-standarder-og-spesifikasjoner">§ 4-4. Standarder og spesifikasjoner</h5>
 <p>I forskriften menes med</p>
 <p>a. standard: en offentlig tilgjengelig teknisk spesifikasjon som er godkjent av et anerkjent nasjonalt, europeisk eller internasjonalt standardiseringsorgan
@@ -319,7 +694,7 @@ h. innovasjon: innføring av en ny eller betydelig forbedret vare, tjeneste elle
 <p>a. 5 millioner kroner ekskl. mva. for vare- og tjenestekontrakter og plan- og designkonkurranser
 b. 62,9 millioner kroner ekskl. mva. for bygge- og anleggskontrakter.</p>
 <p>(2) EØS-terskelverdien er 11,6 millioner kroner ekskl. mva. for kontrakter om særlige tjenester og helse- og sosialtjenester.</p>
-<p><em>Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</em></p>
+<p class="note">Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</p>
 <h5 id="5-3-beregning-av-anskaffelsens-anslatte-verdi">§ 5-3. Beregning av anskaffelsens anslåtte verdi <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-5-3.html" title="Endringshistorikk for § 5-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Oppdragsgiveren skal beregne kontraktens verdi på grunnlag av et anslag over den samlede betalingen ekskl. mva., inkludert enhver form for opsjon som er fastsatt i anskaffelsesdokumentene. Eventuelle betalinger eller premier til leverandørene skal tas med i beregningen.</p>
 <p>(2) Beregningen skal være forsvarlig på tidspunktet for kunngjøringen av konkurransen. For anskaffelser som ikke krever kunngjøring, skal beregningen være forsvarlig på det tidspunktet oppdragsgiveren innleder anskaffelsesprosessen.</p>
@@ -344,7 +719,7 @@ c. kontrakter vedrørende prosjektering: honorarer, provisjoner og andre former 
 <p>a. for tidsbegrensede kontrakter med en varighet på 48 måneder eller mindre skal verdien beregnes på grunnlag av den samlede verdien for hele kontraktens varighet, og
 b. for tidsubegrensede kontrakter eller kontrakter med en varighet på over 48 måneder skal verdien beregnes på grunnlag av den månedlige verdien multiplisert med 48.</p>
 <p>(13) Ved plan- og designkonkurranser skal oppdragsgiveren beregne verdien på grunnlag av betalinger eller premier til deltakerne i konkurransen. Dersom plan- og designkonkurransen skal lede til inngåelsen av en tjenestekontrakt, skal oppdragsgiveren beregne verdien på grunnlag av kontraktens anslåtte verdi i tillegg til eventuelle betalinger eller premier til deltakerne i konkurransen.</p>
-<p><em>Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</em></p>
+<p class="note">Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</p>
 <h3 id="kapittel-6-blandede-anskaffelser">Kapittel 6. Blandede anskaffelser</h3>
 <h5 id="6-1-blandede-anskaffelser-knyttet-til-utvelsen-av-samme-aktivitet-der-alle-ytelsene-er-omfattet-av-forskriften">§ 6-1. Blandede anskaffelser knyttet til utøvelsen av samme aktivitet der alle ytelsene er omfattet av forskriften</h5>
 <p>(1) Kontrakter om minst to typer ytelser (varer, tjenester eller bygge- og anleggsarbeider) som er knyttet til utøvelsen av samme aktivitet og som alle er omfattet av forskriften, skal inngås etter reglene som gjelder for ytelsen som utgjør kontraktens hovedelement.</p>
@@ -388,7 +763,7 @@ b. en blandet kontrakt.</p>
 <p>(2) Oppdragsgiveren skal oppbevare kontrakten gjennom hele kontraktsperioden.</p>
 <h5 id="7-2-offentlighet">§ 7-2. Offentlighet <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>For allmennhetens innsyn i dokumentene knyttet til en offentlig anskaffelse gjelder offentleglova . Oppdragsgivere som ikke er omfattet av offentleglova , skal gi allmennheten innsyn i vare- og tjenestekontrakter med en verdi på minst 11,6 millioner kroner ekskl. mva. og bygge- og anleggskontrakter med en verdi på minst 96 millioner kroner ekskl. mva. Reglene i offentleglova om unntak fra innsyn gjelder tilsvarende.</p>
-<p><em>Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</em></p>
+<p class="note">Endret ved forskrifter 4 april 2018 nr. 533 (i kraft 6 april 2018), 12 feb 2020 nr. 128 , 18 mars 2022 nr. 442 , 14 mars 2024 nr. 449 , 21 april 2026 nr. 623 .</p>
 <h5 id="7-3-taushetsplikt">§ 7-3. Taushetsplikt</h5>
 <p>(1) Ved gjennomføringen av en anskaffelse som er omfattet av forskriften, gjelder reglene om taushetsplikt i forvaltningsloven. For oppdragsgivere som ikke er omfattet av forvaltningsloven, gjelder forvaltningsloven § 13 tilsvarende.</p>
 <p>(2) Oppdragsgiveren kan stille krav til leverandørene om å beskytte informasjon av fortrolig karakter som gjøres tilgjengelig for dem i forbindelse med en anskaffelse.</p>
@@ -405,24 +780,24 @@ b. en blandet kontrakt.</p>
 b. varer, tjenester og bygge- og anleggsarbeider gjennom innkjøpssentraler. Dette kan skje ved at oppdragsgiveren bruker kontrakter som er tildelt, rammeavtaler som er inngått eller dynamiske innkjøpsordninger som er etablert av en innkjøpssentral. Oppdragsgiveren skal i så fall være identifisert i kunngjøringen.</p>
 <p>(2) Dersom oppdragsgiveren anskaffer ytelser fra eller gjennom en innkjøpssentral, anses han å ha overholdt forskriften. Oppdragsgiveren er likevel ansvarlig for å overholde reglene for de delene av anskaffelsen som han selv gjennomfører, inkludert når han inngår kontrakter under innkjøpssentralens rammeavtale eller dynamiske innkjøpsordning.</p>
 <p>(3) Oppdragsgiveren kan inngå kontrakter om samordnede innkjøpsaktiviteter med en innkjøpssentral uten å følge forskriften. Slike kontrakter kan også inkludere tilknyttede innkjøpstjenester.</p>
-<p><em>Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 19 des 2017 nr. 2247 (i kraft 1 jan 2018).</p>
 <h5 id="7-8-opphevet">§ 7-8. (Opphevet) <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-8.html" title="Endringshistorikk for § 7-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
-<p><em>Endret ved forskrift 4 april 2018 nr. 533 (i kraft 6 april 2018), opphevet ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Endret ved forskrift 4 april 2018 nr. 533 (i kraft 6 april 2018), opphevet ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-9-klima-og-miljhensyn">§ 7-9. Klima- og miljøhensyn <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-9.html" title="Endringshistorikk for § 7-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Oppdragsgiver skal ta hensyn til klima og miljø i alle anskaffelser for å redusere anskaffelsens samlede klimaavtrykk og miljøbelastning.</p>
 <p>(2) I kunngjøringspliktige anskaffelser skal oppdragsgiver som vekter tildelingskriteriene, vekte klima- og miljøhensyn med minimum tretti prosent. Hvis oppdragsgiver angir tildelingskriteriene i prioritert rekkefølge, skal klima- og miljøhensyn være blant de tre høyest prioriterte. Tildelingskriterier etter første og andre punktum kan erstattes eller kombineres med klima- og miljøkrav i kravspesifikasjonen dersom dette gir en bedre klima- eller miljøeffekt. Dette skal begrunnes i anskaffelsesdokumentene.</p>
 <p>(3) Forpliktelsene etter første og andre ledd gjelder ikke dersom anskaffelsen etter sin art har et uvesentlig klimaavtrykk og miljøbelastning, eller dersom forpliktelsene går på bekostning av vesentlige interesser innenfor helse, sikkerhet eller beredskap. Dette skal begrunnes i anskaffelsesdokumentene.</p>
 <p>(4) Forpliktelsene etter første og andre ledd gjelder heller ikke dersom oppdragsgiver med hjemmel i anskaffelsesloven er pålagt å stille standardiserte minimumskrav eller -kriterier til klimaavtrykk eller miljøbelastning. Kravene eller kriteriene må gjelde hovedytelsen som anskaffes.</p>
-<p><em>Tilføyd ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017), endret ved forskrifter 1 aug 2023 nr. 1305 (i kraft 1 jan 2024), 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017), endret ved forskrifter 1 aug 2023 nr. 1305 (i kraft 1 jan 2024), 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-10-opphevet">§ 7-10. (Opphevet) <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-10.html" title="Endringshistorikk for § 7-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
-<p><em>Tilføyd ved forskrift 29 aug 2023 nr. 1368 (i kraft 1 jan 2024), opphevet ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 29 aug 2023 nr. 1368 (i kraft 1 jan 2024), opphevet ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-11-kontraktsvilkar-om-lnns-og-arbeidsvilkar">§ 7-11. Kontraktsvilkår om lønns- og arbeidsvilkår <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-11.html" title="Endringshistorikk for § 7-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) I tjeneste- og bygge- og anleggskontrakter skal oppdragsgivere som nevnt i § 1-2 første ledd bokstav a til d stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, minst har:</p>
 <p>a. lønns- og arbeidsvilkår som er i samsvar med gjeldende forskrifter om allmenngjort tariffavtale gitt med hjemmel i lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler § 5 , eller
 b. lønns- og arbeidsvilkår som er i samsvar med bestemmelser om arbeidstid, lønn, herunder overtidstillegg, skift- og turnustillegg og ulempetillegg, og dekning av utgifter til reise, kost og losji i en gjeldende landsomfattende tariffavtale for den aktuelle bransje.</p>
 <p>(2) Kravet gjelder når kontraktens verdi er lik eller overstiger verdien for kunngjøringsplikt for vare- og tjenestekontrakter som angitt i anskaffelsesforskriften § 5-3 .</p>
 <p>(3) Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkåret.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-12-kontraktsvilkar-om-lnns-og-arbeidsvilkar-i-bygge-anleggs-og-renholdskontrakter">§ 7-12. Kontraktsvilkår om lønns- og arbeidsvilkår i bygge-, anleggs- og renholdskontrakter <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-12.html" title="Endringshistorikk for § 7-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) I bygge- og anleggskontrakter og kontrakter om renholdstjenester skal oppdragsgivere som nevnt i § 1-2 første ledd bokstav a til d stille kontraktsvilkår om at ansatte og innleide hos leverandør og underleverandører som direkte medvirker til å oppfylle kontrakten, har følgende:</p>
 <p>a. obligatorisk tjenestepensjon i samsvar med lov om obligatorisk tjenestepensjon
@@ -430,7 +805,7 @@ b. HMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjem
 <p>(2) I bygge- og anleggskontrakter skal oppdragsgiver i tillegg stille kontraktsvilkår om informasjonsplikt og språkferdigheter i samsvar med krav om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser fastsatt i forskrift gitt med hjemmel i arbeidsmiljøloven §§ 1-4 og 4-1 om sikkerhet, helse og arbeidsmiljø på bygge- eller anleggsplasser.</p>
 <p>(3) Kravet gjelder når kontraktens verdi er lik eller overstiger verdien for kunngjøringsplikt for vare- og tjenestekontrakter som angitt i anskaffelsesforskriften § 5-3 .</p>
 <p>(4) Oppdragsgiver skal i kontrakten kreve at leverandør og underleverandører på forespørsel dokumenterer overholdelse av kontraktsvilkårene.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-13-kontraktsvilkar-om-betaling-av-lnn-og-annen-godtgjrelse-via-bank-eller-annet-foretak-med-rett-til-a-drive-betalingsformidling">§ 7-13. Kontraktsvilkår om betaling av lønn og annen godtgjørelse via bank eller annet foretak med rett til å drive betalingsformidling <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-13.html" title="Endringshistorikk for § 7-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) I kontrakter om utførelse av bygge- og anleggsarbeider eller renholdstjenester skal oppdragsgivere som nevnt i § 1-2 første ledd bokstav a til d stille kontraktsvilkår om at lønn og annen godtgjørelse skal utbetales via bank eller annet foretak med rett til å drive betalingsformidling. Kravet gjelder utbetalinger til ansatte og innleide som direkte medvirker i utførelsen av arbeidet eller tjenesten.</p>
 <p>(2) Kravet gjelder når kontraktens verdi er lik eller overstiger verdien for kunngjøringsplikt for vare- og tjenestekontrakter som angitt i anskaffelsesforskriften § 5-3 .</p>
@@ -438,7 +813,7 @@ b. HMS-kort i samsvar med krav til HMS-kort fastsatt i forskrifter gitt med hjem
 <p>(4) Alle avtaler leverandøren inngår om utføring av arbeid under kontrakten, skal inneholde tilsvarende bestemmelser.</p>
 <p>(5) Unntaket for andre betalingsmåter i medhold av skatteloven § 6-51 tredje ledd gjelder så langt det passer.</p>
 <p>(6) Unntaket i arbeidsmiljøloven § 14-15 annet ledd gjelder så langt det passer.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-14-kontraktsvilkar-om-bruk-av-lrlinger">§ 7-14. Kontraktsvilkår om bruk av lærlinger <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-14.html" title="Endringshistorikk for § 7-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) I tjenestekontrakter og kontrakter om bygge- og anleggsarbeider skal oppdragsgivere som nevnt i § 1-2 første ledd bokstav a til d stille kontraktsvilkår om at leverandør er tilknyttet en lærlingordning. Oppdragsgiver skal også stille kontraktsvilkår om at minst ti prosent av arbeidet utføres av lærlinger, og at minst én av dem som deltar i arbeidet med å oppfylle kontrakten, skal være lærling.</p>
 <p>(2) Kravene etter første ledd gjelder når følgende vilkår er oppfylt:</p>
@@ -451,21 +826,21 @@ d. Det er et særlig behov for læreplasser. Med dette menes at underdekningen p
 <p>(5) Kontraktsvilkåret er oppfylt dersom en leverandør som er tilknyttet en lærlingordning, kan dokumentere ett av følgende forhold:</p>
 <p>a. at det er gjort reelle forsøk på å inngå kontrakt med lærling uten å lykkes
 b. at lærlingen ikke kan benyttes i kontraktsarbeidet på grunn av forhold med lærlingen, og reelle forsøk på å inngå kontrakt med ny lærling ikke har lykkes.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-15-krav-til-kontroll">§ 7-15. Krav til kontroll <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-15.html" title="Endringshistorikk for § 7-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Oppdragsgiver skal føre nødvendig kontroll av at kontraktsvilkårene som nevnt i §§ 7-11 første ledd, 7-12 første ledd, 7-13 og 7-14 overholdes. Risikovurderingen og etterfølgende dokumentasjonskontroll skal dokumenteres.</p>
 <p>(2) Leverandører og underleverandører skal på forespørsel utlevere nødvendig dokumentasjon til oppdragsgiver for å dokumentere overholdelse av kontraktsvilkår tilknyttet bestemmelsene som nevnt i §§ 7-11 til 7-13 .</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-16-tilsyn-med-krav-til-lnns-og-arbeidsvilkar">§ 7-16. Tilsyn med krav til lønns- og arbeidsvilkår <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-16.html" title="Endringshistorikk for § 7-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Arbeidstilsynet fører innenfor sitt myndighetsområde tilsyn med at pliktene etter §§ 7-11 , 7-12 og 7-15 overholdes. Tilsynet gir pålegg og treffer enkeltvedtak som er nødvendige for gjennomføring av bestemmelsen. Arbeidsmiljøloven §§ 18-4 , 18-5 , 18-6 første, andre, sjette, sjuende og åttende ledd samt §§ 18-7 , 18-8 , 18-10 , 18-10 a , 18-12 og 18-13 får tilsvarende anvendelse.</p>
 <p>(2) Havindustritilsynet har innenfor sitt myndighetsområde tilsvarende tilsynsansvar og myndighet.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h5 id="7-17-kontraktsvilkar-om-begrensning-i-antall-ledd-i-leverandrkjeden">§ 7-17. Kontraktsvilkår om begrensning i antall ledd i leverandørkjeden <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-7-17.html" title="Endringshistorikk for § 7-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Oppdragsgivere som nevnt i § 1-2 første ledd bokstav a til d skal stille kontraktsvilkår om at leverandør ikke har mer enn to ledd i leverandørkjeden under seg når leverandøren skal utføre bygge- og anleggsarbeider eller renholdstjenester.</p>
 <p>(2) Kravet gjelder når kontraktens verdi er lik eller overstiger verdien for kunngjøringsplikt som angitt i forsyningsforskriften § 5-2 første ledd bokstav a .</p>
 <p>(3) Oppdragsgiver kan åpne for flere ledd i leverandørkjeden dersom det er nødvendig for å sikre tilstrekkelig konkurranse. Det maksimale antallet ledd skal angis i kontrakten.</p>
 <p>(4) Etter at kontrakt er inngått, kan oppdragsgiver godta flere ledd dersom det på grunn av uforutsette omstendigheter er nødvendig for å få gjennomført kontrakten.</p>
-<p><em>Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 14 april 2026 nr. 617 (i kraft 1 juli 2026).</p>
 <h2 id="del-ii-anskaffelser-over-es-terskelverdiene">Del II. Anskaffelser over EØS-terskelverdiene</h2>
 <h3 id="kapittel-8-dialog-med-markedet-fr-konkurransen">Kapittel 8. Dialog med markedet før konkurransen</h3>
 <h5 id="8-1-forberedende-underskelser">§ 8-1. Forberedende undersøkelser</h5>
@@ -559,7 +934,7 @@ e. merkekravene er fastsatt av en tredjepart som leverandøren som søker om mer
 <p>a. andre merkeordninger som bekrefter at varene, tjenestene eller bygge- og anleggsarbeidene oppfyller tilsvarende merkekrav;
 b. annen dokumentasjon for at merkekravene er oppfylt, dersom leverandøren ikke har mulighet til å delta i merkeordningen eller en tilsvarende merkeordning innen fristen og dette ikke skyldes leverandøren selv. Annen dokumentasjon kan blant annet være teknisk dokumentasjon fra produsenten.</p>
 <p>(3) Dersom en merkeordning bare oppfyller vilkårene i første ledd bokstav b til e, kan oppdragsgiveren utforme kravspesifikasjonene ved henvisning til merkekravene som har tilknytning til leveransen og er egnet til å beskrive egenskapene til varene, tjenestene eller bygge- og anleggsarbeidene som oppdragsgiveren skal anskaffe.</p>
-<p><em>Endret ved forskrift 20 des 2016 nr. 1745 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 20 des 2016 nr. 1745 (i kraft 1 jan 2017).</p>
 <h5 id="11-4-testrapporter-attester-og-annen-dokumentasjon">§ 11-4. Testrapporter, attester og annen dokumentasjon</h5>
 <p>(1) Oppdragsgiveren kan kreve at leverandørene fremlegger en testrapport fra et samsvarsvurderingsorgan, eller en attest som er utstedt av et slikt organ, som dokumentasjon for at de tilbudte varene, tjenestene eller bygge- og anleggsarbeidene oppfyller kravspesifikasjonene, tildelingskriteriene eller kontraktsvilkårene. Med samsvarsvurderingsorgan menes et organ som utøver samsvarsvurderingsvirksomhet, inkludert kalibrering, testing, sertifisering og inspeksjon, og som er akkreditert etter forordning (EF) nr. 765/2008 .</p>
 <p>(2) Dersom oppdragsgiveren krever at leverandørene fremlegger attester som er utstedt av et bestemt samsvarsvurderingsorgan, skal han også godta attester fra tilsvarende organer.</p>
@@ -602,7 +977,7 @@ b. annen dokumentasjon for at merkekravene er oppfylt, dersom leverandøren ikke
 <p>(2) Oppdragsgiveren skal angi den nedre og øvre grensen i kunngjøringen eller i invitasjonen til å bekrefte interesse, sammen med objektive og ikke-diskriminerende kriterier eller regler for utvelgelsen av eventuelle overtallige kvalifiserte leverandører.</p>
 <p>(3) Oppdragsgiveren skal velge ut et antall deltakere som er tilstrekkelig til å sikre reell konkurranse. Oppdragsgiveren kan velge ut færre leverandører enn oppgitt i kunngjøringen eller i invitasjonen dersom det ikke foreligger et tilstrekkelig antall leverandører.</p>
 <p>(4) Oppdragsgiveren skal snarest mulig gi leverandørene som ikke blir valgt ut, en skriftlig meddelelse om utvelgelsen. Meddelelsen skal inneholde en kort begrunnelse.</p>
-<p><em>Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</em></p>
+<p class="note">Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</p>
 <h3 id="kapittel-13-kvalifikasjonsordninger">Kapittel 13. Kvalifikasjonsordninger</h3>
 <h5 id="13-1-etablering-av-en-kvalifikasjonsordning">§ 13-1. Etablering av en kvalifikasjonsordning</h5>
 <p>(1) En eller flere oppdragsgivere eller organer kan etablere en kvalifikasjonsordning hvor leverandørene til enhver tid skal kunne søke om opptak. Etableringen av ordningen skal kunngjøres etter § 17-1 og § 17-2 tredje ledd.</p>
@@ -637,7 +1012,7 @@ c. kundeservice, teknisk bistand og leveringsbetingelser, for eksempel leverings
 <p>(7) Oppdragsgiveren kan sette en fast pris eller kostnad, og velge tilbud bare på grunnlag av andre tildelingskriterier som nevnt i tredje ledd.</p>
 <p>(8) Ved konkurranse om innovasjonspartnerskap og konkurransepreget dialog kan oppdragsgiveren bare velge tilbud på grunnlag av det beste forholdet mellom pris eller kostnad og kvalitet.</p>
 <p>(9) Oppdragsgiveren skal angi krav til dokumentasjon for hvert tildelingskriterium.</p>
-<p><em>Endret ved forskrift 1 aug 2023 nr. 1305 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrift 1 aug 2023 nr. 1305 (i kraft 1 jan 2024).</p>
 <h5 id="14-2-beregning-av-livssykluskostnader">§ 14-2. Beregning av livssykluskostnader</h5>
 <p>(1) Dersom oppdragsgiveren skal beregne livssykluskostnadene ved varene, tjenestene eller bygge- og anleggsarbeidene, skal han angi i anskaffelsesdokumentene hvilke opplysninger leverandørene skal gi, og hvilken beregningsmetode han skal bruke.</p>
 <p>(2) I beregningen av livssykluskostnadene skal alle eller noen av de følgende kostnadene inngå så langt de er relevante:</p>
@@ -870,7 +1245,7 @@ i. når oppdragsgiveren kan dokumentere at leverandøren for øvrig har begått 
 b. overtredelser som nevnt tredje ledd bokstav a som er slått fast ved rettskraftig dom eller endelig forvaltningsvedtak.</p>
 <p>(5) Oppdragsgiveren kan unnlate å avvise en leverandør etter første ledd bokstav b eller c eller fjerde ledd når allmenne hensyn gjør det nødvendig å inngå kontrakten med leverandøren.</p>
 <p>(6) Avvisning etter denne bestemmelsen kan skje for handlinger eller unnlatelser som er foretatt både før og under konkurransen.</p>
-<p><em>Endret ved forskrift 20 des 2016 nr. 1745 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 20 des 2016 nr. 1745 (i kraft 1 jan 2017).</p>
 <h6 id="20-3-identifikasjon">§ 20-3. Identifikasjon</h6>
 <p>(1) Ved vurderingen av om en leverandør skal avvises etter § 20-2 fjerde ledd, jf. § 20-2 annet ledd, skal oppdragsgiveren sidestille feil eller overtredelser begått av en person i leverandørens administrasjons-, ledelses- eller kontrollorgan, eller som har kompetanse til å representere, kontrollere eller treffe beslutninger i slike organer, med feil eller overtredelser begått av leverandøren selv.</p>
 <p>(2) Ved vurderingen av om en leverandør kan eller skal avvises etter øvrige regler i § 20-2 , kan oppdragsgiveren sidestille feil eller overtredelser begått av personer som nevnt i første ledd med feil eller overtredelser begått av leverandøren selv.</p>
@@ -963,7 +1338,7 @@ f. bruk av reserverte konkurranser etter forskriften
 g. bruk av unntak fra kravet om elektroniske kommunikasjonsmidler.</p>
 <p>(2) Dokumentasjonen som nevnt i første ledd skal oppbevares i minst tre år fra tidspunktet for tildelingen av kontrakten.</p>
 <p>(3) Dersom kunngjøringen av kontraktinngåelsen inneholder opplysninger som nevnt i første ledd, kan oppdragsgiveren henvise til denne kunngjøringen for disse opplysningene.</p>
-<p><em>Endret ved forskrift 13 feb 2020 nr. 159 (i kraft 19 feb 2020).</em></p>
+<p class="note">Endret ved forskrift 13 feb 2020 nr. 159 (i kraft 19 feb 2020).</p>
 <h3 id="kapittel-22-rammeavtaler-dynamiske-innkjpsordninger-og-gjennomfring-av-innovasjonspartnerskap">Kapittel 22. Rammeavtaler, dynamiske innkjøpsordninger og gjennomføring av innovasjonspartnerskap</h3>
 <h4 id="rammeavtaler">Rammeavtaler</h4>
 <h6 id="22-1-rammeavtaler">§ 22-1. Rammeavtaler</h6>
@@ -1124,7 +1499,7 @@ d. organisasjonen har ikke hatt kontrakt om levering av de samme tjenestene i l�
 <p>(1) Oppdragsgivere kan reservere retten til å delta i konkurranser om helse- og sosialtjenester (som angitt i vedlegg 3) til ideelle organisasjoner dersom reservasjonen bidrar til å oppnå sosiale mål, fellesskapets beste og budsjettmessig effektivitet.</p>
 <p>(2) Ideelle organisasjoner har ikke avkastning på egenkapital som hovedformål. De arbeider utelukkende for et sosialt formål for felleskapets beste, og reinvesterer eventuelt overskudd i aktivitet som oppfyller organisasjonens sosiale formål. En ideell organisasjon kan i begrenset omfang drive kommersiell aktivitet som støtter opp om virksomhetens sosiale formål.</p>
 <p>(3) Kunngjøringen av konkurransen skal vise til denne bestemmelsen.</p>
-<p><em>Tilføyd ved forskrift 13 feb 2020 nr. 159 (i kraft 19 feb 2020).</em></p>
+<p class="note">Tilføyd ved forskrift 13 feb 2020 nr. 159 (i kraft 19 feb 2020).</p>
 <h5 id="26-3-kontrakter-som-reserveres-for-virksomheter-med-funksjonshemmede-eller-vanskeligstilte-personer">§ 26-3. Kontrakter som reserveres for virksomheter med funksjonshemmede eller vanskeligstilte personer</h5>
 <p>Oppdragsgiveren kan begrense konkurransen til virksomheter eller programmer som har som hovedformål å integrere funksjonshemmede eller vanskeligstilte personer i arbeidslivet. Dette gjelder bare når minst 30 prosent av de ansatte i virksomheten eller programmet har en funksjonshemming eller er vanskeligstilte. Dersom oppdragsgiveren bruker denne muligheten, skal han angi dette i kunngjøringen.</p>
 <h5 id="26-4-kunngjring-av-konkurranse">§ 26-4. Kunngjøring av konkurranse</h5>
@@ -1184,7 +1559,7 @@ b. utelukkende med premier eller utbetalinger til deltakerne.</p>
 <p>Søksmål om brudd på forskriften reises for Stavanger tingrett når oppdragsgiveren utøver aktiviteter som definert i § 1-9 .</p>
 <h5 id="28-2-ikrafttredelse">§ 28-2. Ikrafttredelse <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-28-2.html" title="Endringshistorikk for § 28-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Forskriften gjelder fra 1. januar 2017. Fra samme tidspunkt oppheves forskrift 7. april 2006 nr. 403 om innkjøpsregler i forsyningssektorene (vann- og energiforsyning, transport og posttjenester).</p>
-<p><em>Endret ved forskrift 9 des 2016 nr. 1484 .</em></p>
+<p class="note">Endret ved forskrift 9 des 2016 nr. 1484 .</p>
 <h5 id="28-3-overgangsregler">§ 28-3. Overgangsregler <a class="para-history" href="../historikk/forskrift-2016-08-12-975/para-28-3.html" title="Endringshistorikk for § 28-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Forskriften gjelder anskaffelser iverksatt etter forskriftens ikrafttredelse. En anskaffelse er iverksatt når den er kunngjort. En anskaffelse som ikke kunngjøres, er iverksatt når oppdragsgiveren har sendt ut en forespørsel til en eller flere leverandører om å melde sin interesse eller inngi tilbud i forbindelse med en planlagt anskaffelse.</p>
 <p>(2) § 18-1 første ledd om kommunikasjon og informasjonsutveksling ved bruk av elektroniske kommunikasjonsmidler trer i kraft:</p>
@@ -1196,7 +1571,7 @@ c. 1. juli 2018 for andre oppdragsgivere.</p>
 b. ordinær postgang eller andre egnede forsendelsesmåter
 c. en kombinasjon av disse kommunikasjonsmidlene.</p>
 <p>(4) Frem til tidspunktene angitt i annet ledd skal karensperioden for anskaffelser etter del II og anskaffelser etter del III være minst 10 dager dersom meddelelsen om valg av leverandør sendes med elektroniske kommunikasjonsmidler, eller minst 15 dager dersom den sendes med andre kommunikasjonsmidler.</p>
-<p><em>Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</em></p>
+<p class="note">Endret ved forskrift 20 april 2017 nr. 484 (i kraft 1 mai 2017).</p>
 <h2 id="vedlegg-1-liste-over-prosedyrer-som-nevnt-i-1-2-fjerde-ledd">Vedlegg 1. Liste over prosedyrer som nevnt i § 1-2 fjerde ledd</h2>
 <p>En rettighet som er tildelt i samsvar med en av følgende prosedyrer, utgjør ikke en enerett eller særrett som definert i § 1-2 fjerde ledd: anskaffelsesprosedyrer med en forutgående kunngjøring av konkurransen som gjennomføres i samsvar med denne forskriften anskaffelsesforskriften forskrift om forsvars- og sikkerhetsanskaffelser konsesjonskontraktforskriften utstedelse av tillatelse til å drive naturgassfasiliteter i samsvar med prosedyren i direktiv 2009/73/EF artikkel 4 tillatelse eller oppfordring til å gi tilbud på nye kraftverk i samsvar med direktiv 2009/72/EF utstedelse av tillatelse til å levere posttjenester med eller uten enerett i samsvar med prosedyrene i direktiv 97/67/EF artikkel 9 utstedelse av tillatelse til å utføre aktiviteter vedrørende utnyttelse av hydrokarbon i samsvar med direktiv 94/22/EF offentlige tjenestekontrakter som definert i forordning (EF) nr. 1370/2007 med sikte på offentlig persontransport med buss, sporvogn, jernbane eller t-bane som tildelt på grunnlag av en konkurranse i samsvar med forordningens artikkel 5 nr. 3, forutsatt at fristen er i samsvar med forordningens artikkel 4 nr. 3 eller 4.</p>
 <h2 id="vedlegg-2-bygge-og-anleggsaktiviteter">Vedlegg 2. Bygge- og anleggsaktiviteter</h2>
@@ -1210,6 +1585,8 @@ c. en kombinasjon av disse kommunikasjonsmidlene.</p>
 <p>CPV-kode Beskrivelse 85000000–85323000 Helse- og sosial tjenesteyting 75121000 Administrative utdanningstjenester 75122000 Administrative helsetjenester 75123000 Administrative boligtjenester</p>
 <h2 id="vedlegg-6-internasjonale-konvensjoner">Vedlegg 6. Internasjonale konvensjoner</h2>
 <p>ILOs konvensjon nr. 87 om foreningsfrihet og vern av organisasjonsretten ILOs konvensjon nr. 98 om retten til å organisere seg og til å føre kollektive forhandlinger ILOs konvensjon nr. 29 om tvangsarbeid ILOs konvensjon nr. 105 om avskaffelse av tvangsarbeid ILOs konvensjon nr. 138 om minstealder for adgang til sysselsetting ILOs konvensjon nr. 111 om diskriminering i sysselsetting og yrke ILOs konvensjon nr. 100 om lik lønn for mannlige og kvinnelige arbeidere for arbeid av lik verdi ILOs konvensjon nr. 182 om forbud mot og umiddelbare tiltak for å avskaffe de verste former for barnearbeid Wienkonvensjonen om beskyttelse av ozonlaget og Montrealprotokollen Baselkonvensjonen om kontroll av grensekryssende transport av farlig avfall og dets disponering Stockholmkonvensjonen om persistente organiske miljøgifter Rotterdamkonvensjonen om informasjon og forhåndssamtykke i handel med visse farlige kjemikalier.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

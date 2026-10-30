@@ -19,64 +19,119 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2009-12-18-1582.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-statsministerens-kontor.html">Statsministerens kontor</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-statsministerens-kontor.html">Statsministerens kontor</a> &rsaquo;
 <span>Endr. i departementstrukturen fra 01.01.2010</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2009-12-18-1582</code></dd>
-<dt>Departement</dt><dd>Statsministerens kontor</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2010-01-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1582" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#vedlegg-1-oversikt-over-lover-arbeidsdepartementet-skal-ha-ansvaret-for">Vedlegg 1. Oversikt over lover Arbeidsdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-2-oversikt-over-lover-barne-likestillings-og-inkluderingsdepartementet-skal-ha-ansvaret-for">Vedlegg 2. Oversikt over lover Barne-, likestillings- og inkluderingsdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-3-oversikt-over-lover-fornyings-administrasjons-og-kirkedepartementet-skal-ha-ansvaret-for">Vedlegg 3. Oversikt over lover Fornyings-, administrasjons- og kirkedepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-4-oversikt-over-lover-kulturdepartementet-skal-ha-ansvaret-for">Vedlegg 4. Oversikt over lover Kulturdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-5-overfring-av-forvaltningsansvaret-for-lover-til-justis-og-politidepartementet-ansvaret-for">Vedlegg 5. Overføring av forvaltningsansvaret for lover til Justis- og politidepartementet ansvaret for</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1582.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Endringer i departementstrukturen fra 1. januar 2010</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1582.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2009-12-18-1582 <code>forskrift/2009-12-18-1582</code></td></tr>
+<tr><th>Korttittel</th><td>Endr. i departementstrukturen fra 01.01.2010</td></tr>
+<tr><th>Departement</th><td>Statsministerens kontor</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2010</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2009-12-18-1582" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#vedlegg-1-oversikt-over-lover-arbeidsdepartementet-skal-ha-ansvaret-for">Vedlegg 1. Oversikt over lover Arbeidsdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-2-oversikt-over-lover-barne-likestillings-og-inkluderingsdepartementet-skal-ha-ansvaret-for">Vedlegg 2. Oversikt over lover Barne-, likestillings- og inkluderingsdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-3-oversikt-over-lover-fornyings-administrasjons-og-kirkedepartementet-skal-ha-ansvaret-for">Vedlegg 3. Oversikt over lover Fornyings-, administrasjons- og kirkedepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-4-oversikt-over-lover-kulturdepartementet-skal-ha-ansvaret-for">Vedlegg 4. Oversikt over lover Kulturdepartementet skal ha ansvaret for</a></li>
+<li class="lvl2"><a href="#vedlegg-5-overfring-av-forvaltningsansvaret-for-lover-til-justis-og-politidepartementet-ansvaret-for">Vedlegg 5. Overføring av forvaltningsansvaret for lover til Justis- og politidepartementet ansvaret for</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1582.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2009-12-18-1582.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2009-12-18-1582.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2009-12-18-1582.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2009-12-18-1582.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="endringer-i-departementstrukturen-fra-1-januar-2010">Endringer i departementstrukturen fra 1. januar 2010</h1>
 <p>Opprettelse av Arbeidsdepartementet (AD), Barne-, likestillings- og inkluderingsdepartementet (BLD), Fornyings-, administrasjons- og kirkedepartementet (FAD) og Kulturdepartementet (KUD). Nedleggelse av Arbeids- og inkluderingsdepartementet, Barne- og likestillingsdepartementet, Fornyings- og administrasjonsdepartementet og Kultur- og kirkedepartementet. – – – – – – Overføring av ansvaret for Innvandringsavdelingen fra Arbeids- og inkluderingsdepartementet til Justis- og politidepartementet. Overføring av ansvaret for lover til departementene i samsvar med et vedlagt forslag. Delegering til departementene til å foreta de endringer i forskrifter, avtaler, instrukser og bestemmelser som er en nødvendig følge av omorganiseringen. Endringene trer i kraft 1. januar 2010.</p>
 <h2 id="vedlegg-1-oversikt-over-lover-arbeidsdepartementet-skal-ha-ansvaret-for">Vedlegg 1. Oversikt over lover Arbeidsdepartementet skal ha ansvaret for</h2>
 <p>Lov 17. juli 1925 nr. 11 om Svalbard, § 4 Lov 5. mai 1927 nr. 1 om arbeidstvister Lov 24. mai 1929 nr. 4 om tilsyn med elektriske anlegg og elektrisk utstyr. Gjelder for petroleumsvirksomhet på landanleggene Kårstø, Kollsnes, Sture, Nyhamna inkl. reservegasskraftverket, Tjeldbergodden, Slagentangen, Melkøya og Mongstad og for de planlagte gasskraftverkene i Hammerfest, Skogn og Grenland. Lov 22. april 1932 nr. 1 om merkning av vekten på tunge kolli som fraktes med fartøi (lov om merkning på tunge kolli) Lov 13. desember 1946 nr. 21 om krigspensjonering for militærpersoner Lov 13. desember 1946 nr. 22 om krigspensjonering for hjemmestyrkepersonell og sivilpersoner Lov 26. april 1947 nr. 1 om 1. og 17. mai som høgtidsdager Lov 27. juni 1947 nr. 10 om ulykkestrygd for arbeidere ved norske bedrifter på Svalbard Lov 3. desember 1948 nr. 7 om pensjonstrygd for sjømenn Lov 28. juli 1949 nr. 26 om Statens Pensjonskasse Midlertidig lov 29. juni 1951 nr. 34 om tillegg til lover av 13. desember 1946 om 1) Krigspensjonering for hjemmestyrkepersonell og sivilpersoner og 2) Krigspensjonering for militærpersoner Lov 6. juli 1951 nr. 4 om Norges Krigsskaderåd Lov 14. desember 1951 nr. 11 om pensjonsordning for statsråder Lov 19. desember 1952 nr. 7 om lønnsnemnd i arbeidstvister Lov 26. juni 1953 nr. 11 om pensjonsordning for apotekvirksomhet mv. Lov 17. juli 1953 nr. 2 om erstatning for krigsskade på eiendom og interesse Lov 26. november 1954 nr. 3 om stønad ved krigsskade på person Lov 9. november 1956 nr. 1 om tillegg til lov om Statens Pensjonskasse av 28. juli 1949 Lov 14. desember 1956 nr. 7 om forsynings- og beredskapstiltak, § 30 Lov 21. desember 1956 nr. 1 om aldersgrenser for offentlige tjenestemenn m. fl. Lov 3. mai 1957 om pensjonering av fastlønt befal som etter søknad gis avskjed med redusert lønn og tjenesteplikt Lov 28. juni 1957 nr. 12 om pensjonstrygd for fiskere Lov 6. juli 1957 nr. 26 om samordning av pensjons- og trygdeytelser Lov 12. desember 1958 nr. 10 om yrkesskadetrygd Lov 24. mai 1961 nr. 1 om sparebanker, § 8 , § 8c , § 14 , § 17a , § 17b Lov 24. mai 1961.nr. 2 om forretningsbanker; § 9, § 11 og § 12 Lov 22. juni 1962 nr. 12 om pensjonsordning for sykepleiere Lov 6. mai 1966 om pensjonsordning for Stortingets ombudsmann for forvaltningen Lov 16. desember 1966 nr. 9 om anke til Trygderetten Lov 22. mars 1968 nr. 2 om tillegg til 1) lov om krigspensjonering for militærpersoner av 13. desember 1946 og 2) lov om krigspensjonering for hjemmestyrkepersonell og sivilpersoner av 13. desember 1946 Lov 9. mars 1973 nr. 14 om vern mot tobakkskader, § 6 og § 12 Lov 14. desember 1973 nr. 61 om statsgaranti for lønnskrav ved konkurs m.v. Lov 11. juni 1976 nr. 79 om kontroll med produkter og forbrukertjenester, § 4 Lov 12. juni 1981 nr. 61 om pensjonsordningen for stortingsrepresentanter 1 Lov 21. mai 1982 nr. 29 om opphevelse av lov av 9. november 1956 om pensjonsordningen for åremålstilsatte Lov 21. mai 1982 nr. 25 om tillegg til lov 28. juli 1949 om Statens Pensjonskasse Lov 21. juni 1985 nr. 83 om ansvarlige selskaper og kommandittselskaper, § 2-10 og § 2-13 , annet ledd Lov 29. april 1988 nr. 21 om ferie Lov 6. mai 1988 nr. 22 om lønnsplikt under permittering Lov 24. juni 1988 nr. 64 om utlendingers adgang til riket og deres opphold her (utlendingsloven) § 58a og § 11a , § 13 , § 50 , § 51 første ledd bokstav a, § 54 , § 55 og § 56 første ledd for forhold omfattet av § 58a Lov 23. desember 1988 nr. 110 om statstilskott til ordninger for avtalefestet pensjon Lov 17. februar 1989 nr. 2 om bidragsforskott (forskotteringsloven) Lov 30. august 1991 nr. 71 om statsforetak, § 20 og § 33 Lov 8. november 1991 nr. 76 om kommunale og fylkeskommunale eldreråd Lov 13. desember 1991 nr. 81 om sosiale tjenester, § 4-5 og kapitlene 5 og 5A Lov 4. juni 1993 nr. 58 om allmenngjøring av tariffavtaler m.v. (allmenngjøringsloven) Lov 11. juni 1993 nr. 64 om avtalefestet pensjon for offentlige tjenestemenn m. fl. Lov 1. juli 1994 nr. 49 om avtalefestet pensjon for arbeidstakere med rett til medlemskap i Pensjonsordning for apotekvirksomhet mv. Lov 23. august 1996 nr. 63 om allmenngjøring av bestemmelser i tariffavtale om europeiske samarbeidsutvalg m.v. Lov 29. november 1996 nr. 72 om petroleumsvirksomhet. Bestemmelser som gjelder sikkerhet, hovedsakelig kapittel IX og X. Lov 28. februar 1997 nr. 19 om folketrygd (folketrygdloven), for så vidt gjelder: Kapittel 1 Formål og definisjoner m.m. Kapittel 2 Medlemskap Kapittel 3 Pensjonskomponentene, trygdetid, pensjonspoeng, beregning av pensjoner, forsørgingstillegg, med unntak av § 3-15 Pensjonsgivende inntekt (under Finansdepartementet) Kapittel 4 Dagpenger under arbeidsløshet Kapittel 5 Stønad ved helsetjenester, for så vidt gjelder § 5-24 Stønad til helsetjenester i utlandet (kapitlet for øvrig under Helse- og omsorgsdepartementet) Kapittel 6 Grunnstønad og hjelpestønad Kapittel 7 Stønad ved gravferd Kapittel 8 Sykepenger Kapittel 9 Stønad ved barns og andre nære pårørendes sykdom Kapittel 10 Ytelser under medisinsk rehabilitering Kapittel 11 Ytelser under yrkesrettet attføring Kapittel 12 Tidsbegrenset uførestønad og uførepensjon Kapittel 13 Yrkesskadedekning Kapittel 15 Stønad til enslig mor eller far Kapittel 16 Ytelser til tidligere familiepleier Kapittel 17 Ytelser til gjenlevende ektefelle Kapittel 18 Barnepensjon Kapittel 19 Alderspensjon Kapittel 21 Saksbehandling i trygdesaker. Anke- og klagebehandling m.m. Kapittel 22 Utbetaling, med unntak av § 22-2 Utbetaling ved direkte oppgjør, § 22-4 Disponering av ytelser til langtidspasienter i helseinstitusjon og § 22-5 Felles trivselsordninger for langtidspasienter (under Helse- og omsorgsdepartementet) Kapittel 23 Finansiering, med unntak av § 23-2 Arbeidsgiveravgift, § 23-3 Trygdeavgift, § 23-5 Produktavgift ved fiske m.m., § 23-9 Tilskott fra kommunene og fylkeskommunene, § 23-10 Tilskott fra staten og § 23-11 Folketrygdens midler – folketrygdfondet (under Finansdepartementet) Kapittel 24 Saksbehandling i avgiftssaker m.m., for så vidt gjelder § 24-2 Trygdeetatens oppgaver (kapitlet forøvrig under Finansdepartementet) Kapittel 25 Forskjellige bestemmelser, med unntak av § 25-6 Tap av retten til å praktisere for trygdens regning og § 25-7 Utelukkelse fra å utstede legeerklæringer (under Helse- og omsorgsdepartementet) Kapittel 26 Ikrafttredelse og overgangsbestemmelser. Endringer i andre lover Lov 13. juni 1997 nr. 44 om aksjeselskaper; § 6-4 , § 6-5 , § 6-35 Lov 13. juni 1997 nr. 45 om allmennaksjeselskaper; § 6-4 , § 6-5 , § 6-35 og § 6-37 Lov 21. august 1998 nr. 65 om pensjonsordning for ballettdansere, sangsolister og korsangere ved den Norske Opera Lov 15. januar 1999 nr. 1 om pensjonsordning for ledsagere i utenrikstjenesten Lov 14. juni 2002 nr. 20 om vern mot brann, eksplosjon og ulykker med farlig stoff og om brannvesenets redningsoppgaver. Gjelder for petroleumsvirksomhet på landanleggene Kårstø, Kollsnes, Sture, Nyhamna inkl. reservegasskraftverket, Tjeldbergodden, Slagentangen, Melkøya og Mongstad og for de planlagte gasskraftverkene i Hammerfest, Skogn og Grenland. Lov 10. desember 2004 nr. 76 om arbeidsmarkedstjenester (arbeidsmarkedsloven) Lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (bidragsinnkrevingsloven) Lov 17. juni 2005 nr. 62 om arbeidsmiljø, arbeidstid og stillingsvern mv. (arbeidsmiljøloven) med unntak av kapittel 13 Vern mot diskriminering (under Barne-, likestillings- og inkluderingsdepartementet) Lov 16. juni 2006 nr. 20 om arbeids- og velferdsforvaltningen (arbeids- og velferdsforvaltningsloven) Lov 22. desember 2006 nr. 98 om endringar i lov 26. juni 1953 nr. 11 om pensjonsordning for apoteketaten mv. Lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her (utlendingsloven): Forskriftsmyndighet etter loven § 5 , kapittel 3 , § 56 , kapittel 13 og § 127 for så vidt gjelder arbeidsinnvandring eller innreise og opphold i riket for utlendinger som omfattes av EØS-avtalen eller EFTA-konvensjonen, i den utstrekning myndigheten ligger til departementet, samt annet forvaltningsansvar etter lovens kapittel 3 og 13, unntatt ansvaret for lovbestemmelsene som sådanne som legges til Justisdepartementet.</p>
@@ -89,6 +144,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Lov 4. november 1948 nr. 1 om avgift på omsetning av billedkunst Lov 13. desember 1948 nr. 5 om Riksteatret Lov 14. desember 1956 nr. 4 om avgift på offentlig framføring av utøvende kunstneres prestasjoner m.v. Lov 23. oktober 1959 nr. 3 om oreigning av fast eigedom for så vidt gjelder grunn til formål som nevnt i § 2 nr. 4, 5, 34, 38 og 39 Lov 12 mai 1961 nr. 2 om opphavsrett til åndsverk m.v. (åndsverkloven) Lov 9. april 1965 nr. 1 om avgift til Det norske komponistforbund Lov 13. juni 1969 nr. 25 om trudomssamfunn og ymist anna § 23 og § 23a til § 23f i lov 9. juni 1978 nr. 50 om kulturminner, jf. forskrift 9. februar 1979 nr. 8785 om faglig ansvarsfordeling etter kulturminneloven § 1 nr. 5 og § 12 nr. 3. Lov 11. april 1980 nr. 5 om målbruk i offentleg tjeneste Lov 12. juni 1981 nr. 64 om tilskott til livssynsamfunn Lov 12. juni 1981 nr. 68 om forbud mot profesjonell boksing Lov 20. desember 1985 nr. 108 om folkebibliotek Lov 15. mai 1987 nr. 21 om film og videogram Lov 29. mai 1987 nr. 23 om bibliotekvederlag Lov 9. juni 1989 nr. 32 om avleveringsplikt for allment tilgjengelege dokument Lov 18. mai 1990 nr. 11 om stadnamn Lov 28. august 1992 nr. 103 om pengespill m.v. (pengespilloven) Lov 4. desember 1992 nr. 126 om arkiv Lov 4. desember 1992 nr. 127 om kringkasting Lov 28. mai 1993 nr. 52 om vederlag for visning av billedkunst og kunsthåndverk m.v. Lov 24. februar 1995 nr. 11 om lotterier m.v. (lotteriloven) Lov 13. juni 1997 nr. 53 om tilsyn med erverv i dagspresse og kringkasting Lov 15. juni 2001 nr. 73 om organisert kampaktivitet som tillater knockout Lov 29. juni 2007 nr. 86 om forbud mot prispåslag ved videresalg av billetter til kultur- og idrettsarrangementer (svartebørsloven) Lov 29. juni 2007 nr. 87 om registrering av innsamlinger (innsamlingsregistreringsloven) Lov 29. juni 2007 nr. 88 om register for frivillig virksomhet (frivillighetsregisterloven) Lov 29. juni 2007 nr. 89 om offentlege styresmakters ansvar for kulturverksemd (kulturlova) Lov 13. juni 2008 nr. 41 om redaksjonell fridom i media.</p>
 <h2 id="vedlegg-5-overfring-av-forvaltningsansvaret-for-lover-til-justis-og-politidepartementet-ansvaret-for">Vedlegg 5. Overføring av forvaltningsansvaret for lover til Justis- og politidepartementet ansvaret for</h2>
 <p>Justis- og politidepartementet (JD) får overført: Forvaltningsansvaret for lov 15. mai 2008 nr. 35 om utlendingers adgang til riket og deres opphold her: Ansvaret for loven som sådan, forskriftsmyndighet etter loven i den utstrekning myndigheten ligger til departementet, samt annet forvaltningsansvar etter loven, unntatt forvaltningsansvaret etter kapittel 3 og kapittel 13 som legges til Arbeidsdepartementet. Lov 17. juni 2005 nr. 85 om rettsforhold og forvaltning av grunn og naturressurser i Finnmark fylke (finnmarksloven) kap. 1, 2 og 3 samt § 49 , ansvaret for lovbestemmelsene som sådan. (Øvrig forvaltningsansvar etter bestemmelsene vil ligge i Fornyings-, administrasjons- og kirkedepartementet.)</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

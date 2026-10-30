@@ -19,64 +19,393 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2025-06-20-40.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &rsaquo;
 <span>Barnelova</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2025-06-20-40</code></dd>
-<dt>Departement</dt><dd>Barne- og familiedepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Barn og foreldre</dd>
-<dt>Ikrafttredelse</dt><dd>Kongen fastset</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2025-06-20-40" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-grunnleggjande-rettar-for-barn">Kapittel 1 Grunnleggjande rettar for barn</a></li>
+<li class="lvl4"><a href="#1-1-det-beste-for-barnet">§ 1-1. Det beste for barnet</a></li>
+<li class="lvl4"><a href="#1-2-barnet-sin-rett-til-medverknad">§ 1-2. Barnet sin rett til medverknad</a></li>
+<li class="lvl4"><a href="#1-3-barnet-sin-rett-til-omsorg-utvikling-og-vern-mot-vald">§ 1-3. Barnet sin rett til omsorg, utvikling og vern mot vald</a></li>
+<li class="lvl4"><a href="#1-4-barnet-sin-rett-til-ikkje-a-bli-diskriminert">§ 1-4. Barnet sin rett til ikkje å bli diskriminert</a></li>
+<li class="lvl4"><a href="#1-5-barnet-sin-rett-til-familieliv">§ 1-5. Barnet sin rett til familieliv</a></li>
+<li class="lvl2"><a href="#kapittel-2-kven-som-er-foreldre-til-eit-barn">Kapittel 2 Kven som er foreldre til eit barn</a></li>
+<li class="lvl4"><a href="#2-1-foreldreskapen-til-eit-barn">§ 2-1. Foreldreskapen til eit barn</a></li>
+<li class="lvl4"><a href="#2-2-morskap">§ 2-2. Morskap</a></li>
+<li class="lvl4"><a href="#2-3-medmorskap">§ 2-3. Medmorskap</a></li>
+<li class="lvl4"><a href="#2-4-farskap-etter-ekteskap">§ 2-4. Farskap etter ekteskap</a></li>
+<li class="lvl4"><a href="#2-5-farskap-etter-erklring-for-barn-fdt-i-noreg">§ 2-5. Farskap etter erklæring for barn født i Noreg</a></li>
+<li class="lvl4"><a href="#2-6-farskap-etter-erklring-for-barn-fdt-i-utlandet">§ 2-6. Farskap etter erklæring for barn født i utlandet</a></li>
+<li class="lvl4"><a href="#2-7-farskap-for-ektefelle-eller-sambuar-som-var-dd-fr-assistert-befruktning">§ 2-7. Farskap for ektefelle eller sambuar som var død før assistert befruktning</a></li>
+<li class="lvl4"><a href="#2-8-endring-av-foreldreskap-nar-ein-annan-person-erklrer-farskap">§ 2-8. Endring av foreldreskap når ein annan person erklærer farskap</a></li>
+<li class="lvl4"><a href="#2-9-barnet-sin-rett-til-kunnskap-om-den-biologiske-faren">§ 2-9. Barnet sin rett til kunnskap om den biologiske faren</a></li>
+<li class="lvl2"><a href="#kapittel-3-det-offentlege-sitt-ansvar-for-a-fastsetje-foreldreskap-mm">Kapittel 3 Det offentlege sitt ansvar for å fastsetje foreldreskap m.m.</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-gi-fdselsmelding">§ 3-1. Plikt til å gi fødselsmelding</a></li>
+<li class="lvl4"><a href="#3-2-det-offentlege-sitt-ansvar-for-fastsetjing-eller-klarlegging-av-foreldreskap">§ 3-2. Det offentlege sitt ansvar for fastsetjing eller klarlegging av foreldreskap</a></li>
+<li class="lvl4"><a href="#3-3-innhenting-av-prver-for-dna-analyse-i-saker-om-farskap">§ 3-3. Innhenting av prøver for DNA-analyse i saker om farskap</a></li>
+<li class="lvl4"><a href="#3-4-bortlegging-av-sak-om-foreldreskap">§ 3-4. Bortlegging av sak om foreldreskap</a></li>
+<li class="lvl4"><a href="#3-5-nar-arbeids-og-velferdsetaten-skal-reise-sak-for-retten">§ 3-5. Når Arbeids- og velferdsetaten skal reise sak for retten</a></li>
+<li class="lvl2"><a href="#kapittel-4-rettargang-i-saker-om-foreldreskap">Kapittel 4 Rettargang i saker om foreldreskap</a></li>
+<li class="lvl4"><a href="#4-1-kapittelet-sitt-verkeomrade-og-forholdet-til-andre-reglar-om-rettargang">§ 4-1. Kapittelet sitt verkeområde og forholdet til andre reglar om rettargang</a></li>
+<li class="lvl4"><a href="#4-2-kva-for-domstol-foreldreskapssaka-hyrer-under">§ 4-2. Kva for domstol foreldreskapssaka høyrer under</a></li>
+<li class="lvl4"><a href="#4-3-partane-i-saka">§ 4-3. Partane i saka</a></li>
+<li class="lvl4"><a href="#4-4-midlertidig-verje-for-mindrearige-barn">§ 4-4. Midlertidig verje for mindreårige barn</a></li>
+<li class="lvl4"><a href="#4-5-vilkar-og-fristar-for-a-reise-sak-om-endring-av-farskap-eller-medmorskap">§ 4-5. Vilkår og fristar for å reise sak om endring av farskap eller medmorskap</a></li>
+<li class="lvl4"><a href="#4-6-prvetaking-og-dna-analyse">§ 4-6. Prøvetaking og DNA-analyse</a></li>
+<li class="lvl4"><a href="#4-7-vilkara-for-a-avseie-dom-i-foreldreskapssak">§ 4-7. Vilkåra for å avseie dom i foreldreskapssak</a></li>
+<li class="lvl4"><a href="#4-8-dom-utan-hovudforhandling">§ 4-8. Dom utan hovudforhandling</a></li>
+<li class="lvl4"><a href="#4-9-heving-av-saka">§ 4-9. Heving av saka</a></li>
+<li class="lvl4"><a href="#4-10-utvida-rettskraft">§ 4-10. Utvida rettskraft</a></li>
+<li class="lvl4"><a href="#4-11-srreglar-om-ankesaker">§ 4-11. Særreglar om ankesaker</a></li>
+<li class="lvl4"><a href="#4-12-srreglar-om-gjenopning">§ 4-12. Særreglar om gjenopning</a></li>
+<li class="lvl4"><a href="#4-13-kostnaden-med-saka">§ 4-13. Kostnaden med saka</a></li>
+<li class="lvl2"><a href="#kapittel-5-rettargang-i-andre-slektskapssaker-enn-foreldreskapssaker">Kapittel 5 Rettargang i andre slektskapssaker enn foreldreskapssaker</a></li>
+<li class="lvl4"><a href="#5-1-verkeomradet-og-forholdet-til-allmenne-rettargangsreglar">§ 5-1. Verkeområdet og forholdet til allmenne rettargangsreglar</a></li>
+<li class="lvl4"><a href="#5-2-kven-som-kan-vere-part-i-ei-slektskapssak">§ 5-2. Kven som kan vere part i ei slektskapssak</a></li>
+<li class="lvl4"><a href="#5-3-stillinga-til-verja">§ 5-3. Stillinga til verja</a></li>
+<li class="lvl4"><a href="#5-4-utvida-rettskraft">§ 5-4. Utvida rettskraft</a></li>
+<li class="lvl4"><a href="#5-5-srreglar-om-gjenopning">§ 5-5. Særreglar om gjenopning</a></li>
+<li class="lvl2"><a href="#kapittel-6-foreldreansvaret">Kapittel 6 Foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-1-kven-som-har-foreldreansvaret">§ 6-1. Kven som har foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-2-foreldreansvar-etter-ddsfall">§ 6-2. Foreldreansvar etter dødsfall</a></li>
+<li class="lvl4"><a href="#6-3-melding-om-foreldreansvar-til-folkeregistermyndigheita">§ 6-3. Melding om foreldreansvar til folkeregistermyndigheita</a></li>
+<li class="lvl4"><a href="#6-4-omsorgsplikta-som-flgjer-med-foreldreansvaret">§ 6-4. Omsorgsplikta som følgjer med foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-5-avgjerder-som-hyrer-til-foreldreansvaret">§ 6-5. Avgjerder som høyrer til foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-6-foreldra-si-plikt-til-a-oppfylle-barnet-sin-sjlvraderett-og-rett-til-medverknad">§ 6-6. Foreldra si plikt til å oppfylle barnet sin sjølvråderett og rett til medverknad</a></li>
+<li class="lvl4"><a href="#6-7-barnet-sin-rett-til-personvern">§ 6-7. Barnet sin rett til personvern</a></li>
+<li class="lvl4"><a href="#6-8-medlemskap-i-foreiningar">§ 6-8. Medlemskap i foreiningar</a></li>
+<li class="lvl4"><a href="#6-9-flytting-ut-av-landet-og-opphald-utanfor-landet">§ 6-9. Flytting ut av landet og opphald utanfor landet</a></li>
+<li class="lvl4"><a href="#6-10-utanlandsreise-med-barnet">§ 6-10. Utanlandsreise med barnet</a></li>
+<li class="lvl4"><a href="#6-11-forbod-mot-utanlandsreise-med-barnet">§ 6-11. Forbod mot utanlandsreise med barnet</a></li>
+<li class="lvl4"><a href="#6-12-rett-til-opplysningar-om-barnet">§ 6-12. Rett til opplysningar om barnet</a></li>
+<li class="lvl2"><a href="#kapittel-7-barnet-sin-bustad-og-dagleg-myndigheit-nar-foreldra-ikkje-bur-saman">Kapittel 7 Barnet sin bustad og dagleg myndigheit når foreldra ikkje bur saman</a></li>
+<li class="lvl4"><a href="#7-1-barnet-sin-bustad">§ 7-1. Barnet sin bustad</a></li>
+<li class="lvl4"><a href="#7-2-myndigheit-til-a-ta-daglege-avgjerder">§ 7-2. Myndigheit til å ta daglege avgjerder</a></li>
+<li class="lvl4"><a href="#7-3-flytting-innanlands">§ 7-3. Flytting innanlands</a></li>
+<li class="lvl2"><a href="#kapittel-8-samvr">Kapittel 8 Samvær</a></li>
+<li class="lvl4"><a href="#8-1-barnet-og-foreldra-sin-rett-til-samvr">§ 8-1. Barnet og foreldra sin rett til samvær</a></li>
+<li class="lvl4"><a href="#8-2-omfanget-av-samvret">§ 8-2. Omfanget av samværet</a></li>
+<li class="lvl4"><a href="#8-3-ansvaret-for-gjennomfring-av-samvr">§ 8-3. Ansvaret for gjennomføring av samvær</a></li>
+<li class="lvl4"><a href="#8-4-omsorgsplikt-og-avgjerder-som-hyrer-til-samvret">§ 8-4. Omsorgsplikt og avgjerder som høyrer til samværet</a></li>
+<li class="lvl4"><a href="#8-5-hve-til-a-stille-vilkar-for-samvr">§ 8-5. Høve til å stille vilkår for samvær</a></li>
+<li class="lvl4"><a href="#8-6-samvr-med-sttta-eller-beskytta-tilsyn">§ 8-6. Samvær med støtta eller beskytta tilsyn</a></li>
+<li class="lvl4"><a href="#8-7-samvr-ved-kontaktforbod-eller-besksforbod">§ 8-7. Samvær ved kontaktforbod eller besøksforbod</a></li>
+<li class="lvl4"><a href="#8-8-reisekostnader-ved-samvr-med-foreldra">§ 8-8. Reisekostnader ved samvær med foreldra</a></li>
+<li class="lvl4"><a href="#8-9-samvrsrett-for-andre-enn-foreldra">§ 8-9. Samværsrett for andre enn foreldra</a></li>
+<li class="lvl2"><a href="#kapittel-9-forsrgaransvar-og-bidragsplikt-mm">Kapittel 9 Forsørgaransvar og bidragsplikt m.m.</a></li>
+<li class="lvl4"><a href="#9-1-foreldra-sitt-ansvar-for-a-forsrge-barnet">§ 9-1. Foreldra sitt ansvar for å forsørge barnet</a></li>
+<li class="lvl4"><a href="#9-2-barnebidrag-og-srbidrag">§ 9-2. Barnebidrag og særbidrag</a></li>
+<li class="lvl4"><a href="#9-3-kor-lenge-forsrgaransvaret-varer">§ 9-3. Kor lenge forsørgaransvaret varer</a></li>
+<li class="lvl4"><a href="#9-4-forholdet-mellom-reglane-om-bidragsplikt-etter-barnelova-og-barnevernsloven">§ 9-4. Forholdet mellom reglane om bidragsplikt etter barnelova og barnevernsloven</a></li>
+<li class="lvl4"><a href="#9-5-korleis-bidrag-blir-fastsett">§ 9-5. Korleis bidrag blir fastsett</a></li>
+<li class="lvl4"><a href="#9-6-offentleg-utmaling-av-barnebidrag">§ 9-6. Offentleg utmåling av barnebidrag</a></li>
+<li class="lvl4"><a href="#9-7-fastsetjing-av-barnebidrag-for-tid-som-har-gatt">§ 9-7. Fastsetjing av barnebidrag for tid som har gått</a></li>
+<li class="lvl4"><a href="#9-8-indeksregulering-av-barnebidrag">§ 9-8. Indeksregulering av barnebidrag</a></li>
+<li class="lvl4"><a href="#9-9-srskilt-endring-av-fastsett-bidrag">§ 9-9. Særskilt endring av fastsett bidrag</a></li>
+<li class="lvl4"><a href="#9-10-forholdet-mellom-avgjerdsorgan-og-pastandar-fra-partane">§ 9-10. Forholdet mellom avgjerdsorgan og påstandar frå partane</a></li>
+<li class="lvl4"><a href="#9-11-midlertidig-avgjerd-om-barnebidrag">§ 9-11. Midlertidig avgjerd om barnebidrag</a></li>
+<li class="lvl4"><a href="#9-12-klage">§ 9-12. Klage</a></li>
+<li class="lvl4"><a href="#9-13-gjennomfring-av-avgjerder-om-bidrag-og-gebyr-tvangsgrunnlag">§ 9-13. Gjennomføring av avgjerder om bidrag og gebyr. Tvangsgrunnlag</a></li>
+<li class="lvl4"><a href="#9-14-forskot-pa-barnebidrag">§ 9-14. Forskot på barnebidrag</a></li>
+<li class="lvl4"><a href="#9-15-krav-om-tilbakebetaling-av-bidrag-nar-farskapen-blir-endra">§ 9-15. Krav om tilbakebetaling av bidrag når farskapen blir endra</a></li>
+<li class="lvl2"><a href="#kapittel-10-mekling">Kapittel 10 Mekling</a></li>
+<li class="lvl4"><a href="#10-1-formal-med-mekling">§ 10-1. Formål med mekling</a></li>
+<li class="lvl4"><a href="#10-2-kven-skal-delta-i-mekling">§ 10-2. Kven skal delta i mekling</a></li>
+<li class="lvl4"><a href="#10-3-gjennomfring-av-mekling">§ 10-3. Gjennomføring av mekling</a></li>
+<li class="lvl4"><a href="#10-4-barnesamtale-ved-mekling">§ 10-4. Barnesamtale ved mekling</a></li>
+<li class="lvl4"><a href="#10-5-teieplikt-for-meklarar">§ 10-5. Teieplikt for meklarar</a></li>
+<li class="lvl4"><a href="#10-6-politiattest-for-meklarar">§ 10-6. Politiattest for meklarar</a></li>
+<li class="lvl2"><a href="#kapittel-11-generelle-reglar-om-rettargang-i-foreldretvistar">Kapittel 11 Generelle reglar om rettargang i foreldretvistar</a></li>
+<li class="lvl4"><a href="#11-1-dei-srlege-pliktene-til-advokatar">§ 11-1. Dei særlege pliktene til advokatar</a></li>
+<li class="lvl4"><a href="#11-2-dei-srlege-pliktene-til-dommarar">§ 11-2. Dei særlege pliktene til dommarar</a></li>
+<li class="lvl4"><a href="#11-3-teieplikt-for-sakkunnig-og-representant-for-barnet">§ 11-3. Teieplikt for sakkunnig og representant for barnet</a></li>
+<li class="lvl4"><a href="#11-4-kostnader-ved-tiltak-etter-kapittel-12">§ 11-4. Kostnader ved tiltak etter kapittel 12</a></li>
+<li class="lvl2"><a href="#kapittel-12-srlege-reglar-om-rettargang-i-foreldretvistar">Kapittel 12 Særlege reglar om rettargang i foreldretvistar</a></li>
+<li class="lvl4"><a href="#12-1-kva-ein-kan-reise-sak-om">§ 12-1. Kva ein kan reise sak om</a></li>
+<li class="lvl4"><a href="#12-2-vilkar-for-a-reise-sak">§ 12-2. Vilkår for å reise sak</a></li>
+<li class="lvl4"><a href="#12-3-kva-for-domstol-saka-hyrer-under">§ 12-3. Kva for domstol saka høyrer under</a></li>
+<li class="lvl4"><a href="#12-4-stemning-og-tilsvar">§ 12-4. Stemning og tilsvar</a></li>
+<li class="lvl4"><a href="#12-5-innhenting-av-informasjon">§ 12-5. Innhenting av informasjon</a></li>
+<li class="lvl4"><a href="#12-6-barnet-sin-rett-til-medverknad-i-foreldretvistsaker-for-retten">§ 12-6. Barnet sin rett til medverknad i foreldretvistsaker for retten</a></li>
+<li class="lvl4"><a href="#12-7-midlertidig-avgjerd">§ 12-7. Midlertidig avgjerd</a></li>
+<li class="lvl4"><a href="#12-8-saksstyring-og-plan-for-sakshandsaming">§ 12-8. Saksstyring og plan for sakshandsaming</a></li>
+<li class="lvl4"><a href="#12-9-avgjerder-under-saksfrebuinga">§ 12-9. Avgjerder under saksførebuinga</a></li>
+<li class="lvl4"><a href="#12-10-endring-av-avgjerd">§ 12-10. Endring av avgjerd</a></li>
+<li class="lvl4"><a href="#12-11-representant-for-barnet">§ 12-11. Representant for barnet</a></li>
+<li class="lvl4"><a href="#12-12-bruk-av-sakkunnig">§ 12-12. Bruk av sakkunnig</a></li>
+<li class="lvl4"><a href="#12-13-oversikt-over-sakkunnige">§ 12-13. Oversikt over sakkunnige</a></li>
+<li class="lvl4"><a href="#12-14-barnesakkunnig-kommisjon">§ 12-14. Barnesakkunnig kommisjon</a></li>
+<li class="lvl4"><a href="#12-15-handsaming-av-personopplysningar-i-barnesakkunnig-kommisjon">§ 12-15. Handsaming av personopplysningar i Barnesakkunnig kommisjon</a></li>
+<li class="lvl2"><a href="#kapittel-13-srlege-reglar-om-rettargang-i-saker-om-foreldreansvar-mm-etter-ddsfall">Kapittel 13 Særlege reglar om rettargang i saker om foreldreansvar m.m. etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-1-kven-som-kan-krevje-foreldreansvaret-etter-ddsfall">§ 13-1. Kven som kan krevje foreldreansvaret etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-2-retten-si-avgjerd-i-saker-om-foreldreansvar-etter-ddsfall">§ 13-2. Retten si avgjerd i saker om foreldreansvar etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-3-retten-si-plikt-til-a-ta-opp-sak-om-foreldreansvar-etter-ddsfall-av-eige-tiltak">§ 13-3. Retten si plikt til å ta opp sak om foreldreansvar etter dødsfall av eige tiltak</a></li>
+<li class="lvl4"><a href="#13-4-endring-av-avgjerd-om-foreldreansvar-mm-etter-ddsfall">§ 13-4. Endring av avgjerd om foreldreansvar m.m. etter dødsfall</a></li>
+<li class="lvl2"><a href="#kapittel-14-tvangskraft-og-tvangsfullfring">Kapittel 14 Tvangskraft og tvangsfullføring</a></li>
+<li class="lvl4"><a href="#14-1-vedtak-om-tvangskraft-for-avtalar">§ 14-1. Vedtak om tvangskraft for avtalar</a></li>
+<li class="lvl4"><a href="#14-2-tvangsfullfring-av-avtalar-og-avgjerder-i-foreldretvistar">§ 14-2. Tvangsfullføring av avtalar og avgjerder i foreldretvistar</a></li>
+<li class="lvl4"><a href="#14-3-nar-tvangsfullfring-ikkje-skal-skje">§ 14-3. Når tvangsfullføring ikkje skal skje</a></li>
+<li class="lvl4"><a href="#14-4-bruk-av-sakkunnig-godkjend-meklar-eller-tilsett-ved-familieverntenesta-i-saker-om-tvangsfullfring">§ 14-4. Bruk av sakkunnig, godkjend meklar eller tilsett ved familieverntenesta i saker om tvangsfullføring</a></li>
+<li class="lvl4"><a href="#14-5-korleis-avtalar-med-tvangskraft-og-avgjerder-kan-tvangsfullfrast">§ 14-5. Korleis avtalar med tvangskraft og avgjerder kan tvangsfullførast</a></li>
+<li class="lvl2"><a href="#kapittel-15-internasjonal-privatrett">Kapittel 15 Internasjonal privatrett</a></li>
+<li class="lvl4"><a href="#15-1-generelle-fresegner">§ 15-1. Generelle føresegner</a></li>
+<li class="lvl4"><a href="#15-2-jurisdiksjon-i-saker-om-foreldreskap">§ 15-2. Jurisdiksjon i saker om foreldreskap</a></li>
+<li class="lvl4"><a href="#15-3-anerkjenning-av-morskap">§ 15-3. Anerkjenning av morskap</a></li>
+<li class="lvl4"><a href="#15-4-anerkjenning-av-farskap-og-medmorskap">§ 15-4. Anerkjenning av farskap og medmorskap</a></li>
+<li class="lvl4"><a href="#15-5-jurisdiksjon-i-sak-om-foreldreansvar-bustad-samvr-mm">§ 15-5. Jurisdiksjon i sak om foreldreansvar, bustad, samvær m.m.</a></li>
+<li class="lvl4"><a href="#15-6-lovval-for-foreldreansvar-etter-lova-mm">§ 15-6. Lovval for foreldreansvar etter lova m.m.</a></li>
+<li class="lvl4"><a href="#15-7-anerkjenning-av-utanlandske-avgjerder-om-foreldreansvar-bustad-samvr-mm">§ 15-7. Anerkjenning av utanlandske avgjerder om foreldreansvar, bustad, samvær m.m.</a></li>
+<li class="lvl4"><a href="#15-8-jurisdiksjon-i-saker-om-barnebidrag">§ 15-8. Jurisdiksjon i saker om barnebidrag</a></li>
+<li class="lvl4"><a href="#15-9-henting-og-utlevering-av-opplysningar-etter-avtale-med-annan-stat">§ 15-9. Henting og utlevering av opplysningar etter avtale med annan stat</a></li>
+<li class="lvl4"><a href="#15-10-godkjenning-av-private-avtalar-for-innkrevjing-i-utlandet">§ 15-10. Godkjenning av private avtalar for innkrevjing i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-16-andre-fresegner">Kapittel 16 Andre føresegner</a></li>
+<li class="lvl4"><a href="#16-1-forholdet-til-andre-reglar-om-sakshandsaming">§ 16-1. Forholdet til andre reglar om sakshandsaming</a></li>
+<li class="lvl4"><a href="#16-2-innhenting-av-opplysingar-fra-folkeregisteret">§ 16-2. Innhenting av opplysingar frå Folkeregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-17-ikraftsetjingsreglar-og-overgangsreglar-endringar-i-andre-lover">Kapittel 17 Ikraftsetjingsreglar og overgangsreglar. Endringar i andre lover</a></li>
+<li class="lvl4"><a href="#17-1-ikraftsetjing">§ 17-1. Ikraftsetjing</a></li>
+<li class="lvl4"><a href="#17-2-overgangsreglar">§ 17-2. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#17-3-endringar-i-andre-lover">§ 17-3. Endringar i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-40.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om barn og foreldre (barnelova)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2025-06-20-40.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2025-06-20-40 <code>lov/2025-06-20-40</code></td></tr>
+<tr><th>Korttittel</th><td>Barnelova</td></tr>
+<tr><th>Departement</th><td>Barne- og familiedepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Barn og foreldre</td></tr>
+<tr><th>Ikrafttredelse</th><td>Kongen fastset</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2025-06-20-40" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-grunnleggjande-rettar-for-barn">Kapittel 1 Grunnleggjande rettar for barn</a></li>
+<li class="lvl4"><a href="#1-1-det-beste-for-barnet">§ 1-1. Det beste for barnet</a></li>
+<li class="lvl4"><a href="#1-2-barnet-sin-rett-til-medverknad">§ 1-2. Barnet sin rett til medverknad</a></li>
+<li class="lvl4"><a href="#1-3-barnet-sin-rett-til-omsorg-utvikling-og-vern-mot-vald">§ 1-3. Barnet sin rett til omsorg, utvikling og vern mot vald</a></li>
+<li class="lvl4"><a href="#1-4-barnet-sin-rett-til-ikkje-a-bli-diskriminert">§ 1-4. Barnet sin rett til ikkje å bli diskriminert</a></li>
+<li class="lvl4"><a href="#1-5-barnet-sin-rett-til-familieliv">§ 1-5. Barnet sin rett til familieliv</a></li>
+<li class="lvl2"><a href="#kapittel-2-kven-som-er-foreldre-til-eit-barn">Kapittel 2 Kven som er foreldre til eit barn</a></li>
+<li class="lvl4"><a href="#2-1-foreldreskapen-til-eit-barn">§ 2-1. Foreldreskapen til eit barn</a></li>
+<li class="lvl4"><a href="#2-2-morskap">§ 2-2. Morskap</a></li>
+<li class="lvl4"><a href="#2-3-medmorskap">§ 2-3. Medmorskap</a></li>
+<li class="lvl4"><a href="#2-4-farskap-etter-ekteskap">§ 2-4. Farskap etter ekteskap</a></li>
+<li class="lvl4"><a href="#2-5-farskap-etter-erklring-for-barn-fdt-i-noreg">§ 2-5. Farskap etter erklæring for barn født i Noreg</a></li>
+<li class="lvl4"><a href="#2-6-farskap-etter-erklring-for-barn-fdt-i-utlandet">§ 2-6. Farskap etter erklæring for barn født i utlandet</a></li>
+<li class="lvl4"><a href="#2-7-farskap-for-ektefelle-eller-sambuar-som-var-dd-fr-assistert-befruktning">§ 2-7. Farskap for ektefelle eller sambuar som var død før assistert befruktning</a></li>
+<li class="lvl4"><a href="#2-8-endring-av-foreldreskap-nar-ein-annan-person-erklrer-farskap">§ 2-8. Endring av foreldreskap når ein annan person erklærer farskap</a></li>
+<li class="lvl4"><a href="#2-9-barnet-sin-rett-til-kunnskap-om-den-biologiske-faren">§ 2-9. Barnet sin rett til kunnskap om den biologiske faren</a></li>
+<li class="lvl2"><a href="#kapittel-3-det-offentlege-sitt-ansvar-for-a-fastsetje-foreldreskap-mm">Kapittel 3 Det offentlege sitt ansvar for å fastsetje foreldreskap m.m.</a></li>
+<li class="lvl4"><a href="#3-1-plikt-til-a-gi-fdselsmelding">§ 3-1. Plikt til å gi fødselsmelding</a></li>
+<li class="lvl4"><a href="#3-2-det-offentlege-sitt-ansvar-for-fastsetjing-eller-klarlegging-av-foreldreskap">§ 3-2. Det offentlege sitt ansvar for fastsetjing eller klarlegging av foreldreskap</a></li>
+<li class="lvl4"><a href="#3-3-innhenting-av-prver-for-dna-analyse-i-saker-om-farskap">§ 3-3. Innhenting av prøver for DNA-analyse i saker om farskap</a></li>
+<li class="lvl4"><a href="#3-4-bortlegging-av-sak-om-foreldreskap">§ 3-4. Bortlegging av sak om foreldreskap</a></li>
+<li class="lvl4"><a href="#3-5-nar-arbeids-og-velferdsetaten-skal-reise-sak-for-retten">§ 3-5. Når Arbeids- og velferdsetaten skal reise sak for retten</a></li>
+<li class="lvl2"><a href="#kapittel-4-rettargang-i-saker-om-foreldreskap">Kapittel 4 Rettargang i saker om foreldreskap</a></li>
+<li class="lvl4"><a href="#4-1-kapittelet-sitt-verkeomrade-og-forholdet-til-andre-reglar-om-rettargang">§ 4-1. Kapittelet sitt verkeområde og forholdet til andre reglar om rettargang</a></li>
+<li class="lvl4"><a href="#4-2-kva-for-domstol-foreldreskapssaka-hyrer-under">§ 4-2. Kva for domstol foreldreskapssaka høyrer under</a></li>
+<li class="lvl4"><a href="#4-3-partane-i-saka">§ 4-3. Partane i saka</a></li>
+<li class="lvl4"><a href="#4-4-midlertidig-verje-for-mindrearige-barn">§ 4-4. Midlertidig verje for mindreårige barn</a></li>
+<li class="lvl4"><a href="#4-5-vilkar-og-fristar-for-a-reise-sak-om-endring-av-farskap-eller-medmorskap">§ 4-5. Vilkår og fristar for å reise sak om endring av farskap eller medmorskap</a></li>
+<li class="lvl4"><a href="#4-6-prvetaking-og-dna-analyse">§ 4-6. Prøvetaking og DNA-analyse</a></li>
+<li class="lvl4"><a href="#4-7-vilkara-for-a-avseie-dom-i-foreldreskapssak">§ 4-7. Vilkåra for å avseie dom i foreldreskapssak</a></li>
+<li class="lvl4"><a href="#4-8-dom-utan-hovudforhandling">§ 4-8. Dom utan hovudforhandling</a></li>
+<li class="lvl4"><a href="#4-9-heving-av-saka">§ 4-9. Heving av saka</a></li>
+<li class="lvl4"><a href="#4-10-utvida-rettskraft">§ 4-10. Utvida rettskraft</a></li>
+<li class="lvl4"><a href="#4-11-srreglar-om-ankesaker">§ 4-11. Særreglar om ankesaker</a></li>
+<li class="lvl4"><a href="#4-12-srreglar-om-gjenopning">§ 4-12. Særreglar om gjenopning</a></li>
+<li class="lvl4"><a href="#4-13-kostnaden-med-saka">§ 4-13. Kostnaden med saka</a></li>
+<li class="lvl2"><a href="#kapittel-5-rettargang-i-andre-slektskapssaker-enn-foreldreskapssaker">Kapittel 5 Rettargang i andre slektskapssaker enn foreldreskapssaker</a></li>
+<li class="lvl4"><a href="#5-1-verkeomradet-og-forholdet-til-allmenne-rettargangsreglar">§ 5-1. Verkeområdet og forholdet til allmenne rettargangsreglar</a></li>
+<li class="lvl4"><a href="#5-2-kven-som-kan-vere-part-i-ei-slektskapssak">§ 5-2. Kven som kan vere part i ei slektskapssak</a></li>
+<li class="lvl4"><a href="#5-3-stillinga-til-verja">§ 5-3. Stillinga til verja</a></li>
+<li class="lvl4"><a href="#5-4-utvida-rettskraft">§ 5-4. Utvida rettskraft</a></li>
+<li class="lvl4"><a href="#5-5-srreglar-om-gjenopning">§ 5-5. Særreglar om gjenopning</a></li>
+<li class="lvl2"><a href="#kapittel-6-foreldreansvaret">Kapittel 6 Foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-1-kven-som-har-foreldreansvaret">§ 6-1. Kven som har foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-2-foreldreansvar-etter-ddsfall">§ 6-2. Foreldreansvar etter dødsfall</a></li>
+<li class="lvl4"><a href="#6-3-melding-om-foreldreansvar-til-folkeregistermyndigheita">§ 6-3. Melding om foreldreansvar til folkeregistermyndigheita</a></li>
+<li class="lvl4"><a href="#6-4-omsorgsplikta-som-flgjer-med-foreldreansvaret">§ 6-4. Omsorgsplikta som følgjer med foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-5-avgjerder-som-hyrer-til-foreldreansvaret">§ 6-5. Avgjerder som høyrer til foreldreansvaret</a></li>
+<li class="lvl4"><a href="#6-6-foreldra-si-plikt-til-a-oppfylle-barnet-sin-sjlvraderett-og-rett-til-medverknad">§ 6-6. Foreldra si plikt til å oppfylle barnet sin sjølvråderett og rett til medverknad</a></li>
+<li class="lvl4"><a href="#6-7-barnet-sin-rett-til-personvern">§ 6-7. Barnet sin rett til personvern</a></li>
+<li class="lvl4"><a href="#6-8-medlemskap-i-foreiningar">§ 6-8. Medlemskap i foreiningar</a></li>
+<li class="lvl4"><a href="#6-9-flytting-ut-av-landet-og-opphald-utanfor-landet">§ 6-9. Flytting ut av landet og opphald utanfor landet</a></li>
+<li class="lvl4"><a href="#6-10-utanlandsreise-med-barnet">§ 6-10. Utanlandsreise med barnet</a></li>
+<li class="lvl4"><a href="#6-11-forbod-mot-utanlandsreise-med-barnet">§ 6-11. Forbod mot utanlandsreise med barnet</a></li>
+<li class="lvl4"><a href="#6-12-rett-til-opplysningar-om-barnet">§ 6-12. Rett til opplysningar om barnet</a></li>
+<li class="lvl2"><a href="#kapittel-7-barnet-sin-bustad-og-dagleg-myndigheit-nar-foreldra-ikkje-bur-saman">Kapittel 7 Barnet sin bustad og dagleg myndigheit når foreldra ikkje bur saman</a></li>
+<li class="lvl4"><a href="#7-1-barnet-sin-bustad">§ 7-1. Barnet sin bustad</a></li>
+<li class="lvl4"><a href="#7-2-myndigheit-til-a-ta-daglege-avgjerder">§ 7-2. Myndigheit til å ta daglege avgjerder</a></li>
+<li class="lvl4"><a href="#7-3-flytting-innanlands">§ 7-3. Flytting innanlands</a></li>
+<li class="lvl2"><a href="#kapittel-8-samvr">Kapittel 8 Samvær</a></li>
+<li class="lvl4"><a href="#8-1-barnet-og-foreldra-sin-rett-til-samvr">§ 8-1. Barnet og foreldra sin rett til samvær</a></li>
+<li class="lvl4"><a href="#8-2-omfanget-av-samvret">§ 8-2. Omfanget av samværet</a></li>
+<li class="lvl4"><a href="#8-3-ansvaret-for-gjennomfring-av-samvr">§ 8-3. Ansvaret for gjennomføring av samvær</a></li>
+<li class="lvl4"><a href="#8-4-omsorgsplikt-og-avgjerder-som-hyrer-til-samvret">§ 8-4. Omsorgsplikt og avgjerder som høyrer til samværet</a></li>
+<li class="lvl4"><a href="#8-5-hve-til-a-stille-vilkar-for-samvr">§ 8-5. Høve til å stille vilkår for samvær</a></li>
+<li class="lvl4"><a href="#8-6-samvr-med-sttta-eller-beskytta-tilsyn">§ 8-6. Samvær med støtta eller beskytta tilsyn</a></li>
+<li class="lvl4"><a href="#8-7-samvr-ved-kontaktforbod-eller-besksforbod">§ 8-7. Samvær ved kontaktforbod eller besøksforbod</a></li>
+<li class="lvl4"><a href="#8-8-reisekostnader-ved-samvr-med-foreldra">§ 8-8. Reisekostnader ved samvær med foreldra</a></li>
+<li class="lvl4"><a href="#8-9-samvrsrett-for-andre-enn-foreldra">§ 8-9. Samværsrett for andre enn foreldra</a></li>
+<li class="lvl2"><a href="#kapittel-9-forsrgaransvar-og-bidragsplikt-mm">Kapittel 9 Forsørgaransvar og bidragsplikt m.m.</a></li>
+<li class="lvl4"><a href="#9-1-foreldra-sitt-ansvar-for-a-forsrge-barnet">§ 9-1. Foreldra sitt ansvar for å forsørge barnet</a></li>
+<li class="lvl4"><a href="#9-2-barnebidrag-og-srbidrag">§ 9-2. Barnebidrag og særbidrag</a></li>
+<li class="lvl4"><a href="#9-3-kor-lenge-forsrgaransvaret-varer">§ 9-3. Kor lenge forsørgaransvaret varer</a></li>
+<li class="lvl4"><a href="#9-4-forholdet-mellom-reglane-om-bidragsplikt-etter-barnelova-og-barnevernsloven">§ 9-4. Forholdet mellom reglane om bidragsplikt etter barnelova og barnevernsloven</a></li>
+<li class="lvl4"><a href="#9-5-korleis-bidrag-blir-fastsett">§ 9-5. Korleis bidrag blir fastsett</a></li>
+<li class="lvl4"><a href="#9-6-offentleg-utmaling-av-barnebidrag">§ 9-6. Offentleg utmåling av barnebidrag</a></li>
+<li class="lvl4"><a href="#9-7-fastsetjing-av-barnebidrag-for-tid-som-har-gatt">§ 9-7. Fastsetjing av barnebidrag for tid som har gått</a></li>
+<li class="lvl4"><a href="#9-8-indeksregulering-av-barnebidrag">§ 9-8. Indeksregulering av barnebidrag</a></li>
+<li class="lvl4"><a href="#9-9-srskilt-endring-av-fastsett-bidrag">§ 9-9. Særskilt endring av fastsett bidrag</a></li>
+<li class="lvl4"><a href="#9-10-forholdet-mellom-avgjerdsorgan-og-pastandar-fra-partane">§ 9-10. Forholdet mellom avgjerdsorgan og påstandar frå partane</a></li>
+<li class="lvl4"><a href="#9-11-midlertidig-avgjerd-om-barnebidrag">§ 9-11. Midlertidig avgjerd om barnebidrag</a></li>
+<li class="lvl4"><a href="#9-12-klage">§ 9-12. Klage</a></li>
+<li class="lvl4"><a href="#9-13-gjennomfring-av-avgjerder-om-bidrag-og-gebyr-tvangsgrunnlag">§ 9-13. Gjennomføring av avgjerder om bidrag og gebyr. Tvangsgrunnlag</a></li>
+<li class="lvl4"><a href="#9-14-forskot-pa-barnebidrag">§ 9-14. Forskot på barnebidrag</a></li>
+<li class="lvl4"><a href="#9-15-krav-om-tilbakebetaling-av-bidrag-nar-farskapen-blir-endra">§ 9-15. Krav om tilbakebetaling av bidrag når farskapen blir endra</a></li>
+<li class="lvl2"><a href="#kapittel-10-mekling">Kapittel 10 Mekling</a></li>
+<li class="lvl4"><a href="#10-1-formal-med-mekling">§ 10-1. Formål med mekling</a></li>
+<li class="lvl4"><a href="#10-2-kven-skal-delta-i-mekling">§ 10-2. Kven skal delta i mekling</a></li>
+<li class="lvl4"><a href="#10-3-gjennomfring-av-mekling">§ 10-3. Gjennomføring av mekling</a></li>
+<li class="lvl4"><a href="#10-4-barnesamtale-ved-mekling">§ 10-4. Barnesamtale ved mekling</a></li>
+<li class="lvl4"><a href="#10-5-teieplikt-for-meklarar">§ 10-5. Teieplikt for meklarar</a></li>
+<li class="lvl4"><a href="#10-6-politiattest-for-meklarar">§ 10-6. Politiattest for meklarar</a></li>
+<li class="lvl2"><a href="#kapittel-11-generelle-reglar-om-rettargang-i-foreldretvistar">Kapittel 11 Generelle reglar om rettargang i foreldretvistar</a></li>
+<li class="lvl4"><a href="#11-1-dei-srlege-pliktene-til-advokatar">§ 11-1. Dei særlege pliktene til advokatar</a></li>
+<li class="lvl4"><a href="#11-2-dei-srlege-pliktene-til-dommarar">§ 11-2. Dei særlege pliktene til dommarar</a></li>
+<li class="lvl4"><a href="#11-3-teieplikt-for-sakkunnig-og-representant-for-barnet">§ 11-3. Teieplikt for sakkunnig og representant for barnet</a></li>
+<li class="lvl4"><a href="#11-4-kostnader-ved-tiltak-etter-kapittel-12">§ 11-4. Kostnader ved tiltak etter kapittel 12</a></li>
+<li class="lvl2"><a href="#kapittel-12-srlege-reglar-om-rettargang-i-foreldretvistar">Kapittel 12 Særlege reglar om rettargang i foreldretvistar</a></li>
+<li class="lvl4"><a href="#12-1-kva-ein-kan-reise-sak-om">§ 12-1. Kva ein kan reise sak om</a></li>
+<li class="lvl4"><a href="#12-2-vilkar-for-a-reise-sak">§ 12-2. Vilkår for å reise sak</a></li>
+<li class="lvl4"><a href="#12-3-kva-for-domstol-saka-hyrer-under">§ 12-3. Kva for domstol saka høyrer under</a></li>
+<li class="lvl4"><a href="#12-4-stemning-og-tilsvar">§ 12-4. Stemning og tilsvar</a></li>
+<li class="lvl4"><a href="#12-5-innhenting-av-informasjon">§ 12-5. Innhenting av informasjon</a></li>
+<li class="lvl4"><a href="#12-6-barnet-sin-rett-til-medverknad-i-foreldretvistsaker-for-retten">§ 12-6. Barnet sin rett til medverknad i foreldretvistsaker for retten</a></li>
+<li class="lvl4"><a href="#12-7-midlertidig-avgjerd">§ 12-7. Midlertidig avgjerd</a></li>
+<li class="lvl4"><a href="#12-8-saksstyring-og-plan-for-sakshandsaming">§ 12-8. Saksstyring og plan for sakshandsaming</a></li>
+<li class="lvl4"><a href="#12-9-avgjerder-under-saksfrebuinga">§ 12-9. Avgjerder under saksførebuinga</a></li>
+<li class="lvl4"><a href="#12-10-endring-av-avgjerd">§ 12-10. Endring av avgjerd</a></li>
+<li class="lvl4"><a href="#12-11-representant-for-barnet">§ 12-11. Representant for barnet</a></li>
+<li class="lvl4"><a href="#12-12-bruk-av-sakkunnig">§ 12-12. Bruk av sakkunnig</a></li>
+<li class="lvl4"><a href="#12-13-oversikt-over-sakkunnige">§ 12-13. Oversikt over sakkunnige</a></li>
+<li class="lvl4"><a href="#12-14-barnesakkunnig-kommisjon">§ 12-14. Barnesakkunnig kommisjon</a></li>
+<li class="lvl4"><a href="#12-15-handsaming-av-personopplysningar-i-barnesakkunnig-kommisjon">§ 12-15. Handsaming av personopplysningar i Barnesakkunnig kommisjon</a></li>
+<li class="lvl2"><a href="#kapittel-13-srlege-reglar-om-rettargang-i-saker-om-foreldreansvar-mm-etter-ddsfall">Kapittel 13 Særlege reglar om rettargang i saker om foreldreansvar m.m. etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-1-kven-som-kan-krevje-foreldreansvaret-etter-ddsfall">§ 13-1. Kven som kan krevje foreldreansvaret etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-2-retten-si-avgjerd-i-saker-om-foreldreansvar-etter-ddsfall">§ 13-2. Retten si avgjerd i saker om foreldreansvar etter dødsfall</a></li>
+<li class="lvl4"><a href="#13-3-retten-si-plikt-til-a-ta-opp-sak-om-foreldreansvar-etter-ddsfall-av-eige-tiltak">§ 13-3. Retten si plikt til å ta opp sak om foreldreansvar etter dødsfall av eige tiltak</a></li>
+<li class="lvl4"><a href="#13-4-endring-av-avgjerd-om-foreldreansvar-mm-etter-ddsfall">§ 13-4. Endring av avgjerd om foreldreansvar m.m. etter dødsfall</a></li>
+<li class="lvl2"><a href="#kapittel-14-tvangskraft-og-tvangsfullfring">Kapittel 14 Tvangskraft og tvangsfullføring</a></li>
+<li class="lvl4"><a href="#14-1-vedtak-om-tvangskraft-for-avtalar">§ 14-1. Vedtak om tvangskraft for avtalar</a></li>
+<li class="lvl4"><a href="#14-2-tvangsfullfring-av-avtalar-og-avgjerder-i-foreldretvistar">§ 14-2. Tvangsfullføring av avtalar og avgjerder i foreldretvistar</a></li>
+<li class="lvl4"><a href="#14-3-nar-tvangsfullfring-ikkje-skal-skje">§ 14-3. Når tvangsfullføring ikkje skal skje</a></li>
+<li class="lvl4"><a href="#14-4-bruk-av-sakkunnig-godkjend-meklar-eller-tilsett-ved-familieverntenesta-i-saker-om-tvangsfullfring">§ 14-4. Bruk av sakkunnig, godkjend meklar eller tilsett ved familieverntenesta i saker om tvangsfullføring</a></li>
+<li class="lvl4"><a href="#14-5-korleis-avtalar-med-tvangskraft-og-avgjerder-kan-tvangsfullfrast">§ 14-5. Korleis avtalar med tvangskraft og avgjerder kan tvangsfullførast</a></li>
+<li class="lvl2"><a href="#kapittel-15-internasjonal-privatrett">Kapittel 15 Internasjonal privatrett</a></li>
+<li class="lvl4"><a href="#15-1-generelle-fresegner">§ 15-1. Generelle føresegner</a></li>
+<li class="lvl4"><a href="#15-2-jurisdiksjon-i-saker-om-foreldreskap">§ 15-2. Jurisdiksjon i saker om foreldreskap</a></li>
+<li class="lvl4"><a href="#15-3-anerkjenning-av-morskap">§ 15-3. Anerkjenning av morskap</a></li>
+<li class="lvl4"><a href="#15-4-anerkjenning-av-farskap-og-medmorskap">§ 15-4. Anerkjenning av farskap og medmorskap</a></li>
+<li class="lvl4"><a href="#15-5-jurisdiksjon-i-sak-om-foreldreansvar-bustad-samvr-mm">§ 15-5. Jurisdiksjon i sak om foreldreansvar, bustad, samvær m.m.</a></li>
+<li class="lvl4"><a href="#15-6-lovval-for-foreldreansvar-etter-lova-mm">§ 15-6. Lovval for foreldreansvar etter lova m.m.</a></li>
+<li class="lvl4"><a href="#15-7-anerkjenning-av-utanlandske-avgjerder-om-foreldreansvar-bustad-samvr-mm">§ 15-7. Anerkjenning av utanlandske avgjerder om foreldreansvar, bustad, samvær m.m.</a></li>
+<li class="lvl4"><a href="#15-8-jurisdiksjon-i-saker-om-barnebidrag">§ 15-8. Jurisdiksjon i saker om barnebidrag</a></li>
+<li class="lvl4"><a href="#15-9-henting-og-utlevering-av-opplysningar-etter-avtale-med-annan-stat">§ 15-9. Henting og utlevering av opplysningar etter avtale med annan stat</a></li>
+<li class="lvl4"><a href="#15-10-godkjenning-av-private-avtalar-for-innkrevjing-i-utlandet">§ 15-10. Godkjenning av private avtalar for innkrevjing i utlandet</a></li>
+<li class="lvl2"><a href="#kapittel-16-andre-fresegner">Kapittel 16 Andre føresegner</a></li>
+<li class="lvl4"><a href="#16-1-forholdet-til-andre-reglar-om-sakshandsaming">§ 16-1. Forholdet til andre reglar om sakshandsaming</a></li>
+<li class="lvl4"><a href="#16-2-innhenting-av-opplysingar-fra-folkeregisteret">§ 16-2. Innhenting av opplysingar frå Folkeregisteret</a></li>
+<li class="lvl2"><a href="#kapittel-17-ikraftsetjingsreglar-og-overgangsreglar-endringar-i-andre-lover">Kapittel 17 Ikraftsetjingsreglar og overgangsreglar. Endringar i andre lover</a></li>
+<li class="lvl4"><a href="#17-1-ikraftsetjing">§ 17-1. Ikraftsetjing</a></li>
+<li class="lvl4"><a href="#17-2-overgangsreglar">§ 17-2. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#17-3-endringar-i-andre-lover">§ 17-3. Endringar i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-40.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2025-06-20-40.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2025-06-20-40.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/lov-2025-06-20-40.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2025-06-20-40.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2025-06-20-40.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/lov-2025-06-20-40.html">Observerte kildeutgaver</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2025-06-20-40.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2025-06-20-40.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-barn-og-foreldre-barnelova">Lov om barn og foreldre (barnelova)</h1>
 <p>Endringar i følgjande lover: Lov 21. mars 1975 nr. 9 om nordisk vitneplikt . Lov 13. juni 1980 nr. 35 om fri rettshjelp . Lov 22. mai 1981 nr. 25 om rettergangsmåten i straffesaker (<a href="lov-1981-05-22-25.html">Straffeprosessloven</a>) . Lov 17. desember 1982 nr. 86 om rettsgebyr (<a href="lov-1982-12-17-86.html">rettsgebyrloven</a>) . Lov 8. juli 1988 nr. 72 om anerkjennelse og fullbyrding av utenlandske avgjørelser om foreldreansvar m v og om tilbakelevering av barn (<a href="lov-1988-07-08-72.html">barnebortføringsloven</a>) . Lov 17. februar 1989 nr. 2 om bidragsforskott (<a href="lov-1989-02-17-2.html">forskotteringsloven</a>) . Lov 4. juli 1991 nr. 47 om ekteskap (<a href="lov-1991-07-04-47.html">ekteskapsloven</a>) . Lov 17. juli 1992 nr. 99 om frivillig og tvungen gjeldsordning for privatpersoner (<a href="lov-1992-07-17-99.html">gjeldsordningsloven</a>) . Lov 28. februar 1997 nr. 19 om folketrygd (<a href="lov-1997-02-28-19.html">folketrygdloven</a>) . Lov 19. juni 1997 nr. 62 om familievernkontorer . Lov 26. juni 1998 nr. 41 om kontantstøtte til småbarnsforeldre (<a href="lov-1998-06-26-41.html">kontantstøtteloven</a>) . Lov 26. mars 1999 nr. 14 om skatt av formue og inntekt (<a href="lov-1999-03-26-14.html">skatteloven</a>) . Lov 2. juli 1999 nr. 63 om pasient- og brukerrettigheter (<a href="lov-1999-07-02-63.html">pasient- og brukerrettighetsloven</a>) . Lov 2. juli 1999 nr. 64 om helsepersonell m.v. (<a href="lov-1999-07-02-64.html">helsepersonelloven</a>) . Lov 8. mars 2002 nr. 4 om barnetrygd (<a href="lov-2002-03-08-4.html">barnetrygdloven</a>) . Lov 29. april 2005 nr. 20 om innkreving av underholdsbidrag mv. (<a href="lov-2005-04-29-20.html">bidragsinnkrevingsloven</a>) . Lov 17. juni 2005 nr. 90 om mekling og rettergang i sivile tvister (<a href="lov-2005-06-17-90.html">tvisteloven</a>) . Lov 26. mars 2010 nr. 9 om vergemål (<a href="lov-2010-03-26-9.html">vergemålsloven</a>) . Lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet . Lov 9. desember 2016 nr. 88 om folkeregistrering (<a href="lov-2016-12-09-88.html">folkeregisterloven</a>) . Lov 18. juni 2021 nr. 97 om barnevern (<a href="lov-2021-06-18-97.html">barnevernsloven</a>) .</p>
 <h2 id="kapittel-1-grunnleggjande-rettar-for-barn">Kapittel 1 Grunnleggjande rettar for barn</h2>
 <h4 id="1-1-det-beste-for-barnet">§ 1-1. Det beste for barnet</h4>
@@ -595,6 +924,8 @@ b. dersom ein av partane eller barnet har vanleg bustad i Noreg</p>
 19. I lov 6. juni 2014 nr. 19 om stans i utbetalinga av offentlege ytingar og barnebidrag når ein av foreldra har bortført eit barn til utlandet gjøres følgende endringer: § 6 andre punktum skal lyde: Det kan ikkje krevjast endring av bidraget etter barnelova § 9-9 første ledd så lenge bortføringa varar.
 20. I lov 9. desember 2016 nr. 88 om folkeregistrering gjøres følgende endringer: § 3-3 første ledd skal lyde: For personer som fødes i Norge, registreres fødselsdato på grunnlag av fødselsmeldingen gitt i medhold av barnelova § 3-1 . § 6-4 første ledd skal lyde: Fødsel som har skjedd uten at en lege eller jordmor er til stede, skal meldes til skattekontoret av moren selv, jf. barnelova § 3-1 .
 21. I lov 18. juni 2021 nr. 97 om barnevern gjøres følgende endringer: § 3-4 tredje ledd skal lyde: Pålegg om hjelpetiltak kan rettes mot både foreldre som barnet bor sammen med, og foreldre som har samvær med barnet. § 15-12 andre ledd skal lyde: Krav om bidrag eller endring av fastsatt bidrag etter første ledd skal sendes til Arbeids- og velferdsetaten. Arbeids- og velferdsetaten avgjør kravet og fastsetter beløpet. Den bidragspliktige kan sette frem krav om å få endret fastsatt bidrag eller ettergitt bidragsgjeld. Bidraget kan fastsettes eller endres med virkning fra inntil tre måneder før kravet ble mottatt. Bidrag som er fastsatt etter barneloven faller bort fra det tidspunktet bidrag kan fastsettes etter denne bestemmelsen. Barnevernstjenesten skal, uten hinder av taushetsplikt, gi Arbeids- og velferdsetaten de opplysninger som er nødvendige i den enkelte saken.</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

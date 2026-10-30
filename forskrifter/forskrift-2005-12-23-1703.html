@@ -19,88 +19,203 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-12-23-1703.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om kontroll av Salmonella mv." href="../feeds/forskrift-2005-12-23-1703.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> · <a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om kontroll av Salmonella mv.</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-12-23-1703</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementetLandbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2005-12-23</dd>
-<dt>Sist endret</dt><dd>forskrift/2022-04-06-635</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-12-23-1703" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-overordnede-regler-om-kontroll-med-salmonella-og-andre-zoonoser">§ 1. Overordnede regler om kontroll med Salmonella og andre zoonoser</a></li>
+<li class="lvl3"><a href="#2-prevalens-av-salmonella-og-prvetaking">§ 2. Prevalens av salmonella og prøvetaking</a></li>
+<li class="lvl3"><a href="#3-forbud-mot-vaksinasjon-mot-salmonella-og-bruk-av-antibakterielle-midler-som-tiltak">§ 3. Forbud mot vaksinasjon mot Salmonella og bruk av antibakterielle midler som tiltak</a></li>
+<li class="lvl3"><a href="#4-tilsyn-og-vedtak">§ 4. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#5-dispensasjon">§ 5. Dispensasjon</a></li>
+<li class="lvl3"><a href="#6-straff">§ 6. Straff</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse">§ 7. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-ef-nr-21602003">Forordning (EF) nr. 2160/2003</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-21602003av-17-november-2003om-kontroll-av-salmonella-og-andre-spesifiserte-zoonotiske-smittestoffer-som-overfres-gjennom-nringsmidler">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 2160/2003av 17. november 2003om kontroll av salmonella og andre spesifiserte zoonotiske smittestoffer som overføres gjennom næringsmidler</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iifellesskapsmal">Kapittel IIFellesskapsmål</a></li>
+<li class="lvl5"><a href="#kapittel-iiikontrollprogrammer">Kapittel IIIKontrollprogrammer</a></li>
+<li class="lvl5"><a href="#kapittel-ivkontrollmetoder">Kapittel IVKontrollmetoder</a></li>
+<li class="lvl5"><a href="#kapittel-vhandel">Kapittel VHandel</a></li>
+<li class="lvl5"><a href="#kapittel-vilaboratorier">Kapittel VILaboratorier</a></li>
+<li class="lvl5"><a href="#kapittel-viigjennomfring">Kapittel VIIGjennomføring</a></li>
+<li class="lvl5"><a href="#kapittel-viiialminnelige-bestemmelser-og-sluttbestemmelser">Kapittel VIIIAlminnelige bestemmelser og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg-ispesifiserte-zoonoser-og-zoonotiske-smittestoffer-som-det-skal-opprettes-fellesskapsmal-for-reduksjon-av-prevalens-for-i-henhold-til-artikkel-4">Vedlegg ISpesifiserte zoonoser og zoonotiske smittestoffer som det skal opprettes fellesskapsmål for reduksjon av prevalens for i henhold til artikkel 4</a></li>
+<li class="lvl5"><a href="#vedlegg-iikontroll-av-zoonoser-og-zoonotiske-smittestoffer-som-er-oppfrt-i-vedlegg-i">Vedlegg IIKontroll av zoonoser og zoonotiske smittestoffer som er oppført i vedlegg I</a></li>
+<li class="lvl5"><a href="#vedlegg-iiisrlige-kriterier-for-bestemmelse-av-salmonellaserotyper-av-betydning-for-folkehelsen">Vedlegg IIISærlige kriterier for bestemmelse av salmonellaserotyper av betydning for folkehelsen</a></li>
+<li class="lvl3"><a href="#forordning-ef-nr-11772006">Forordning (EF) nr. 1177/2006</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-11772006av-1-august-2006om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-krav-til-anvendelsen-av-srlige-kontrollmetoder-innenfor-rammen-av-nasjonale-programmer-for-bekjempelse-av-salmonella-i-fjrfe">KOMMISJONSFORORDNING(EF) nr. 1177/2006av 1. august 2006om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til krav til anvendelsen av særlige kontrollmetoder innenfor rammen av nasjonale programmer for bekjempelse av salmonella i fjørfe</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2002010">Forordning (EU) nr. 200/2010</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-2002010av-10-mars-2010om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-et-unionsmal-for-reduksjon-av-prevalensen-av-salmonellaserotyper-i-flokker-av-voksent-avlsfjrfe-av-artengallus-gallus">KOMMISJONSFORORDNING(EU) nr. 200/2010av 10. mars 2010om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til et unionsmål for reduksjon av prevalensen av salmonellaserotyper i flokker av voksent avlsfjørfe av artenGallus gallus</a></li>
+<li class="lvl5"><a href="#vedleggprveprogram-som-er-ndvendig-for-a-kontrollere-at-unionsmalet-for-reduksjon-av-de-relevante-salmonellaserotypene-i-flokker-av-voksent-avlsfjrfe-av-artengallus-galluser-oppnadd">VedleggPrøveprogram som er nødvendig for å kontrollere at unionsmålet for reduksjon av de relevante salmonellaserotypene i flokker av voksent avlsfjørfe av artenGallus galluser oppnådd</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5172011">Forordning (EU) nr. 517/2011</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-5172011av-25-mai-2011om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-et-unionsmal-for-reduksjon-av-prevalensen-av-visse-salmonellaserotyper-hos-verpehner-av-artengallus-gallusog-om-endring-av-forordningef-nr-21602003og-kommisjonsforordningeu-nr-2002010">KOMMISJONSFORORDNING(EU) nr. 517/2011av 25. mai 2011om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til et unionsmål for reduksjon av prevalensen av visse salmonellaserotyper hos verpehøner av artenGallus gallusog om endring av forordning(EF) nr. 2160/2003og kommisjonsforordning(EU) nr. 200/2010</a></li>
+<li class="lvl5"><a href="#vedleggprveprogrammet-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-er-oppnadd-nar-det-gjelder-a-redusere-forekomsten-avsalmonella-enteritidisogsalmonella-typhimuriumhos-voksne-verpehner-av-artengallus-gallus-som-nevnt-i-artikkel-1-nr-2">VedleggPrøveprogrammet som er nødvendig for å kontrollere om unionsmålet er oppnådd når det gjelder å redusere forekomsten avSalmonella enteritidisogSalmonella typhimuriumhos voksne verpehøner av artenGallus gallus, som nevnt i artikkel 1 nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2002012">Forordning (EU) nr. 200/2012</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-2002012av-8-mars-2012om-et-unionsmal-for-reduksjon-avsalmonella-enteritidisogsalmonella-typhimuriumi-flokker-av-broilere-som-fastsatt-i-europaparlaments-og-radsforordningef-nr-21602003">KOMMISJONSFORORDNING(EU) nr. 200/2012av 8. mars 2012om et unionsmål for reduksjon avSalmonella enteritidisogSalmonella typhimuriumi flokker av broilere, som fastsatt i europaparlaments- og rådsforordning(EF) nr. 2160/2003</a></li>
+<li class="lvl5"><a href="#vedleggprveprogrammet-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-er-nadd-som-nevnt-i-artikkel-1-nr-2">VedleggPrøveprogrammet som er nødvendig for å kontrollere om unionsmålet er nådd, som nevnt i artikkel 1 nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-11902012">Forordning (EU) nr. 1190/2012</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-11902012av-12-desember-2012om-et-unionsmal-for-reduksjon-avsalmonella-enteritidisogsalmonella-typhimuriumi-kalkunflokker-som-fastsatt-i-europaparlaments-og-radsforordningef-nr-21602003">KOMMISJONSFORORDNING(EU) nr. 1190/2012av 12. desember 2012om et unionsmål for reduksjon avSalmonella EnteritidisogSalmonella Typhimuriumi kalkunflokker, som fastsatt i europaparlaments- og rådsforordning(EF) nr. 2160/2003</a></li>
+<li class="lvl5"><a href="#vedleggprveprogram-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-som-nevnt-i-artikkel-1-nr-2-er-oppnadd">VedleggPrøveprogram som er nødvendig for å kontrollere om unionsmålet som nevnt i artikkel 1 nr. 2 er oppnådd</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2022-04-06-635.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-12-23-1703.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om kontroll av Salmonella og andre matbårne zoonotiske smittestoffer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-12-23-1703.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-12-23-1703 <code>forskrift/2005-12-23-1703</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om kontroll av Salmonella mv.</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementetLandbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>23.12.2005</td></tr>
+<tr><th>Sist endret</th><td>FOR-2022-04-06-635 <code>forskrift/2022-04-06-635</code> fra 28.04.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-12-23-1703" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-overordnede-regler-om-kontroll-med-salmonella-og-andre-zoonoser">§ 1. Overordnede regler om kontroll med Salmonella og andre zoonoser</a></li>
+<li class="lvl3"><a href="#2-prevalens-av-salmonella-og-prvetaking">§ 2. Prevalens av salmonella og prøvetaking</a></li>
+<li class="lvl3"><a href="#3-forbud-mot-vaksinasjon-mot-salmonella-og-bruk-av-antibakterielle-midler-som-tiltak">§ 3. Forbud mot vaksinasjon mot Salmonella og bruk av antibakterielle midler som tiltak</a></li>
+<li class="lvl3"><a href="#4-tilsyn-og-vedtak">§ 4. Tilsyn og vedtak</a></li>
+<li class="lvl3"><a href="#5-dispensasjon">§ 5. Dispensasjon</a></li>
+<li class="lvl3"><a href="#6-straff">§ 6. Straff</a></li>
+<li class="lvl3"><a href="#7-ikrafttredelse">§ 7. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordning-ef-nr-21602003">Forordning (EF) nr. 2160/2003</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-21602003av-17-november-2003om-kontroll-av-salmonella-og-andre-spesifiserte-zoonotiske-smittestoffer-som-overfres-gjennom-nringsmidler">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 2160/2003av 17. november 2003om kontroll av salmonella og andre spesifiserte zoonotiske smittestoffer som overføres gjennom næringsmidler</a></li>
+<li class="lvl5"><a href="#kapittel-iinnledende-bestemmelser">Kapittel IInnledende bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iifellesskapsmal">Kapittel IIFellesskapsmål</a></li>
+<li class="lvl5"><a href="#kapittel-iiikontrollprogrammer">Kapittel IIIKontrollprogrammer</a></li>
+<li class="lvl5"><a href="#kapittel-ivkontrollmetoder">Kapittel IVKontrollmetoder</a></li>
+<li class="lvl5"><a href="#kapittel-vhandel">Kapittel VHandel</a></li>
+<li class="lvl5"><a href="#kapittel-vilaboratorier">Kapittel VILaboratorier</a></li>
+<li class="lvl5"><a href="#kapittel-viigjennomfring">Kapittel VIIGjennomføring</a></li>
+<li class="lvl5"><a href="#kapittel-viiialminnelige-bestemmelser-og-sluttbestemmelser">Kapittel VIIIAlminnelige bestemmelser og sluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg-ispesifiserte-zoonoser-og-zoonotiske-smittestoffer-som-det-skal-opprettes-fellesskapsmal-for-reduksjon-av-prevalens-for-i-henhold-til-artikkel-4">Vedlegg ISpesifiserte zoonoser og zoonotiske smittestoffer som det skal opprettes fellesskapsmål for reduksjon av prevalens for i henhold til artikkel 4</a></li>
+<li class="lvl5"><a href="#vedlegg-iikontroll-av-zoonoser-og-zoonotiske-smittestoffer-som-er-oppfrt-i-vedlegg-i">Vedlegg IIKontroll av zoonoser og zoonotiske smittestoffer som er oppført i vedlegg I</a></li>
+<li class="lvl5"><a href="#vedlegg-iiisrlige-kriterier-for-bestemmelse-av-salmonellaserotyper-av-betydning-for-folkehelsen">Vedlegg IIISærlige kriterier for bestemmelse av salmonellaserotyper av betydning for folkehelsen</a></li>
+<li class="lvl3"><a href="#forordning-ef-nr-11772006">Forordning (EF) nr. 1177/2006</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningef-nr-11772006av-1-august-2006om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-krav-til-anvendelsen-av-srlige-kontrollmetoder-innenfor-rammen-av-nasjonale-programmer-for-bekjempelse-av-salmonella-i-fjrfe">KOMMISJONSFORORDNING(EF) nr. 1177/2006av 1. august 2006om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til krav til anvendelsen av særlige kontrollmetoder innenfor rammen av nasjonale programmer for bekjempelse av salmonella i fjørfe</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2002010">Forordning (EU) nr. 200/2010</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-2002010av-10-mars-2010om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-et-unionsmal-for-reduksjon-av-prevalensen-av-salmonellaserotyper-i-flokker-av-voksent-avlsfjrfe-av-artengallus-gallus">KOMMISJONSFORORDNING(EU) nr. 200/2010av 10. mars 2010om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til et unionsmål for reduksjon av prevalensen av salmonellaserotyper i flokker av voksent avlsfjørfe av artenGallus gallus</a></li>
+<li class="lvl5"><a href="#vedleggprveprogram-som-er-ndvendig-for-a-kontrollere-at-unionsmalet-for-reduksjon-av-de-relevante-salmonellaserotypene-i-flokker-av-voksent-avlsfjrfe-av-artengallus-galluser-oppnadd">VedleggPrøveprogram som er nødvendig for å kontrollere at unionsmålet for reduksjon av de relevante salmonellaserotypene i flokker av voksent avlsfjørfe av artenGallus galluser oppnådd</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-5172011">Forordning (EU) nr. 517/2011</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-5172011av-25-mai-2011om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-21602003med-hensyn-til-et-unionsmal-for-reduksjon-av-prevalensen-av-visse-salmonellaserotyper-hos-verpehner-av-artengallus-gallusog-om-endring-av-forordningef-nr-21602003og-kommisjonsforordningeu-nr-2002010">KOMMISJONSFORORDNING(EU) nr. 517/2011av 25. mai 2011om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 2160/2003med hensyn til et unionsmål for reduksjon av prevalensen av visse salmonellaserotyper hos verpehøner av artenGallus gallusog om endring av forordning(EF) nr. 2160/2003og kommisjonsforordning(EU) nr. 200/2010</a></li>
+<li class="lvl5"><a href="#vedleggprveprogrammet-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-er-oppnadd-nar-det-gjelder-a-redusere-forekomsten-avsalmonella-enteritidisogsalmonella-typhimuriumhos-voksne-verpehner-av-artengallus-gallus-som-nevnt-i-artikkel-1-nr-2">VedleggPrøveprogrammet som er nødvendig for å kontrollere om unionsmålet er oppnådd når det gjelder å redusere forekomsten avSalmonella enteritidisogSalmonella typhimuriumhos voksne verpehøner av artenGallus gallus, som nevnt i artikkel 1 nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-2002012">Forordning (EU) nr. 200/2012</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-2002012av-8-mars-2012om-et-unionsmal-for-reduksjon-avsalmonella-enteritidisogsalmonella-typhimuriumi-flokker-av-broilere-som-fastsatt-i-europaparlaments-og-radsforordningef-nr-21602003">KOMMISJONSFORORDNING(EU) nr. 200/2012av 8. mars 2012om et unionsmål for reduksjon avSalmonella enteritidisogSalmonella typhimuriumi flokker av broilere, som fastsatt i europaparlaments- og rådsforordning(EF) nr. 2160/2003</a></li>
+<li class="lvl5"><a href="#vedleggprveprogrammet-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-er-nadd-som-nevnt-i-artikkel-1-nr-2">VedleggPrøveprogrammet som er nødvendig for å kontrollere om unionsmålet er nådd, som nevnt i artikkel 1 nr. 2</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-11902012">Forordning (EU) nr. 1190/2012</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-11902012av-12-desember-2012om-et-unionsmal-for-reduksjon-avsalmonella-enteritidisogsalmonella-typhimuriumi-kalkunflokker-som-fastsatt-i-europaparlaments-og-radsforordningef-nr-21602003">KOMMISJONSFORORDNING(EU) nr. 1190/2012av 12. desember 2012om et unionsmål for reduksjon avSalmonella EnteritidisogSalmonella Typhimuriumi kalkunflokker, som fastsatt i europaparlaments- og rådsforordning(EF) nr. 2160/2003</a></li>
+<li class="lvl5"><a href="#vedleggprveprogram-som-er-ndvendig-for-a-kontrollere-om-unionsmalet-som-nevnt-i-artikkel-1-nr-2-er-oppnadd">VedleggPrøveprogram som er nødvendig for å kontrollere om unionsmålet som nevnt i artikkel 1 nr. 2 er oppnådd</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-12-23-1703.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-12-23-1703.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-12-23-1703.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-12-23-1703.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-12-23-1703.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-12-23-1703.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-12-23-1703.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-12-23-1703.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-12-23-1703.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-kontroll-av-salmonella-og-andre-matbarne-zoonotiske-smittestoffer">Forskrift om kontroll av Salmonella og andre matbårne zoonotiske smittestoffer</h1>
 <h3 id="1-overordnede-regler-om-kontroll-med-salmonella-og-andre-zoonoser">§ 1. Overordnede regler om kontroll med Salmonella og andre zoonoser</h3>
 <p>EØS-avtalen vedlegg I kapittel I del 7.1 nr. 8b (forordning (EF) nr. 2160/2003 som endret ved forordning (EF) nr. 1237/2007 , forordning (EF) nr. 213/2009 , forordning (EU) nr. 517/2011 , forordning (EU) nr. 1086/2011 , forordning (EU) nr. 517/2013 og forordning (EU) 2016/429 ) om kontroll av Salmonella og andre spesifiserte zoonotiske smittestoffer som overføres gjennom næringsmidler gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 5 jan 2010 nr. 46 , 19 feb 2010 nr. 293 (i kraft 1 mars 2010), 11 nov 2010 nr. 1449 , 4 juli 2011 nr. 735 , 13 feb 2012 nr. 142 , 30 juni 2014 nr. 921 , 17 sep 2014 nr. 1294 , 9 mai 2019 nr. 624 (se endringsforskriften for overgangsregler), 6 april 2022 nr. 635 (i kraft 28 april 2022).</em></p>
+<p class="note">Endret ved forskrifter 5 jan 2010 nr. 46 , 19 feb 2010 nr. 293 (i kraft 1 mars 2010), 11 nov 2010 nr. 1449 , 4 juli 2011 nr. 735 , 13 feb 2012 nr. 142 , 30 juni 2014 nr. 921 , 17 sep 2014 nr. 1294 , 9 mai 2019 nr. 624 (se endringsforskriften for overgangsregler), 6 april 2022 nr. 635 (i kraft 28 april 2022).</p>
 <h3 id="2-prevalens-av-salmonella-og-prvetaking">§ 2. Prevalens av salmonella og prøvetaking</h3>
 <p>EØS-avtalen vedlegg I kapittel I del 7.2 nr. 53 (forordning (EU) nr. 200/2010 som endret ved forordning (EU) nr. 517/2011 og forordning (EU) 2019/268 ) om gjennomføring av europaparlaments- og rådsforordning (EF) nr. 2160/2003 med hensyn til et unionsmål for reduksjon av prevalensen av salmonellaserotyper i flokker av voksent avlsfjørfe av arten Gallus gallus gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen vedlegg I kapittel I del 7.2 nr. 55 (forordning (EU) nr. 517/2011 som endret ved forordning (EU) 2019/268 ) om gjennomføring av europaparlaments- og rådsforordning (EF) nr. 2160/2003 med hensyn til et unionsmål for reduksjon av prevalensen av visse salmonellaserotyper hos verpehøner av arten Gallus gallus og om endring av forordning (EF) nr. 2160/2003 og kommisjonsforordning (EU) nr. 200/2010 gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen vedlegg I kapittel I del 7.2 nr. 57 (forordning (EU) nr. 200/2012 som endret ved forordning (EU) 2019/268 ) vedrørende et unionsmål for reduksjon av Salmonella entiritidis og Salmonella typhimurium i flokker av broilere, som angitt i europaparlaments- og rådsforordning (EF) nr. 2160/2003 gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalen vedlegg I kapittel I del 7.2 nr. 51 (forordning (EU) nr. 1190/2012 som endret ved forordning (EU) 2019/268 ) vedrørende et unionsmål for reduksjon av Salmonella Entiritidis og Salmonella Typhimurium i flokker av kalkun, som angitt i europaparlaments- og rådsforordning (EF) nr. 2160/2003 gjelder som forskrift med de tilpasninger som følger av vedlegg I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 5 jan 2010 nr. 46 , 19 feb 2010 nr. 293 (i kraft 1 mars 2010), 11 nov 2010 nr. 1449 , 4 juli 2011 nr. 735 , 13 feb 2012 nr. 142 , 29 okt 2012 nr. 1000 , 17 juni 2013 nr. 675 , 9 mai 2019 nr. 624 (se endringsforskriften for overgangsregler).</em></p>
+<p class="note">Endret ved forskrifter 5 jan 2010 nr. 46 , 19 feb 2010 nr. 293 (i kraft 1 mars 2010), 11 nov 2010 nr. 1449 , 4 juli 2011 nr. 735 , 13 feb 2012 nr. 142 , 29 okt 2012 nr. 1000 , 17 juni 2013 nr. 675 , 9 mai 2019 nr. 624 (se endringsforskriften for overgangsregler).</p>
 <h3 id="3-forbud-mot-vaksinasjon-mot-salmonella-og-bruk-av-antibakterielle-midler-som-tiltak">§ 3. Forbud mot vaksinasjon mot Salmonella og bruk av antibakterielle midler som tiltak</h3>
 <p>EØS-avtalens vedlegg I kapittel I del 7.2 nr. 29 (forordning (EF) nr. 1177/2006 ) om gjennomføring av europaparlaments- og rådsforordning (EF) nr. 2160/2003 med hensyn til krav til anvendelse av særlige kontrollmetoder innenfor rammen av nasjonale programmer for bekjempelse av salmonella i fjørfe gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 5 jan 2010 nr. 46 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2010 nr. 46 .</p>
 <h3 id="4-tilsyn-og-vedtak">§ 4. Tilsyn og vedtak</h3>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige vedtak for gjennomføring av bestemmelsene i denne forskriften, jf. matloven § 23 .</p>
-<p><em>Tilføyd ved forskrift 5 jan 2010 nr. 46 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2010 nr. 46 .</p>
 <h3 id="5-dispensasjon">§ 5. Dispensasjon</h3>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskriften, forutsatt at det ikke vil stride mot Norges internasjonale forpliktelser, herunder EØS-avtalen.</p>
-<p><em>Tilføyd ved forskrift 5 jan 2010 nr. 46 .</em></p>
+<p class="note">Tilføyd ved forskrift 5 jan 2010 nr. 46 .</p>
 <h3 id="6-straff">§ 6. Straff</h3>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller bestemmelser og vedtak gitt i medhold av den, er straffbart i henhold til matloven § 28 .</p>
-<p><em>Endret ved forskrift 5 jan 2010 nr. 46 (tidligere § 3).</em></p>
+<p class="note">Endret ved forskrift 5 jan 2010 nr. 46 (tidligere § 3).</p>
 <h3 id="7-ikrafttredelse">§ 7. Ikrafttredelse</h3>
 <p>Denne forskriften trer i kraft straks.</p>
-<p><em>Endret ved forskrift 5 jan 2010 nr. 46 (tidligere § 4).</em></p>
+<p class="note">Endret ved forskrift 5 jan 2010 nr. 46 (tidligere § 4).</p>
 <h2 id="forordninger">Forordninger</h2>
 <h3 id="forordning-ef-nr-21602003">Forordning (EF) nr. 2160/2003</h3>
 <p>Forordningen endret ved forskrifter 19 feb 2010 nr. 293 (i kraft 1 mars 2010), 11 nov 2010 nr. 1449 , 13 feb 2012 nr. 142 , 30 juni 2014 nr. 921 , 17 sep 2014 nr. 1294 , 9 mai 2019 nr. 624 , 6 april 2022 nr. 635 (i kraft 28 april 2022).</p>
@@ -784,6 +899,8 @@ b. å redusere den største årlige prosentandelen av flokker av voksne avlskalk
 <p>4.2.2 Opplysningene nevnt i bokstav a)–d) i nr. 4.2.1 skal gis separat for prøvetakingen som foretas innenfor rammen av det overordnede nasjonale kontrollprogrammet for Salmonella for: prøvetaking foretatt av de driftsansvarlige for næringsmiddelforetak som fastsatt i nr. 2.1 bokstav a), og prøvetaking foretatt av vedkommende myndighet som fastsatt i nr. 2.1 bokstav b).</p>
 <p>4.2.3 Resultatene av prøvetakingen skal anses som relevante opplysninger om næringsmiddelkjeden som fastsatt i avsnitt III i vedlegg II til europaparlaments- og rådsforordning (EF) nr. 853/2004 5 Vedkommende myndighet skal minst få framlagt følgende opplysninger om hver kalkunflokk som det er tatt prøver av: Permanent, entydig identifikasjon av driftsenheten. Permanent, entydig identifikasjon av flokken. Prøvetakingsmåned. Antall fugler per flokk. Resultatene og alle andre relevante opplysninger skal omfattes av rapporten om utviklingstrekk og kilder fastsatt i artikkel 9 nr. 1 i europaparlaments- og rådsdirektiv 2003/99/EF . 6 Den driftsansvarlige for næringsmiddelforetaket skal uten unødig opphold underrette vedkommende myndighet om påvisning av Salmonella Enteritidis og Salmonella Typhimurium , herunder monofasiske stammer med antigenformel 1,4,[5],12:i:-, uten unødig opphold. Den driftsansvarlige for næringsmiddelforetaket skal instruere analyselaboratoriet om å handle i samsvar med dette.</p>
 <p>1 EUT L 250 av 18.9.2008, s. 1. 2 EUT L 61 av 11.3.2010, s. 1. 3 EUT L 165 av 30.4.2004, s. 1. 4 EUT L 153 av 14.6.2007, s. 26. 5 EUT L 139 av 30.4.2004, s. 55. 6 EUT L 325, 12.12.2003, s. 31.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

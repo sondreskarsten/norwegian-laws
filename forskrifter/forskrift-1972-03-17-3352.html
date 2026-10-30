@@ -19,68 +19,141 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1972-03-17-3352.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Beskyttelsesinstruksen" href="../feeds/forskrift-1972-03-17-3352.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Beskyttelsesinstruksen</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1972-03-17-3352</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1972-07-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-10-13-1628</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1972-03-17-3352" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-anvendelse">§ 1. Anvendelse.</a></li>
+<li class="lvl3"><a href="#2-beskyttelsesgrader">§ 2. Beskyttelsesgrader.</a></li>
+<li class="lvl3"><a href="#3-betingelser-for-gradering">§ 3. Betingelser for gradering.</a></li>
+<li class="lvl3"><a href="#4-om-bruken-av-beskyttelsesgrader">§ 4. Om bruken av beskyttelsesgrader.</a></li>
+<li class="lvl3"><a href="#5-gradering-og-nedgradering">§ 5. Gradering og nedgradering.</a></li>
+<li class="lvl3"><a href="#5a">§ 5a</a></li>
+<li class="lvl3"><a href="#6-merking-med-beskyttelsesgrad">§ 6. Merking med beskyttelsesgrad</a></li>
+<li class="lvl3"><a href="#7-spredning">§ 7. Spredning.</a></li>
+<li class="lvl3"><a href="#8-journalisering">§ 8. Journalisering.</a></li>
+<li class="lvl3"><a href="#9-oppbevaring">§ 9. Oppbevaring.</a></li>
+<li class="lvl3"><a href="#10-forsendelse">§ 10. Forsendelse.</a></li>
+<li class="lvl3"><a href="#11-tilintetgjrelse">§ 11. Tilintetgjørelse.</a></li>
+<li class="lvl3"><a href="#12">§ 12</a></li>
+<li class="lvl3"><a href="#13-delegasjon">§ 13. Delegasjon.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-10-13-1628.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1972-03-17-3352.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Instruks for behandling av dokumenter som trenger beskyttelse av andre grunner enn nevnt i sikkerhetsloven med forskrifter (beskyttelsesinstruksen)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1972-03-17-3352.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1972-03-17-3352 <code>forskrift/1972-03-17-3352</code></td></tr>
+<tr><th>Korttittel</th><td>Beskyttelsesinstruksen</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.1972</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-10-13-1628 <code>forskrift/2023-10-13-1628</code> fra 13.10.2023</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1972-03-17-3352" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-anvendelse">§ 1. Anvendelse.</a></li>
+<li class="lvl3"><a href="#2-beskyttelsesgrader">§ 2. Beskyttelsesgrader.</a></li>
+<li class="lvl3"><a href="#3-betingelser-for-gradering">§ 3. Betingelser for gradering.</a></li>
+<li class="lvl3"><a href="#4-om-bruken-av-beskyttelsesgrader">§ 4. Om bruken av beskyttelsesgrader.</a></li>
+<li class="lvl3"><a href="#5-gradering-og-nedgradering">§ 5. Gradering og nedgradering.</a></li>
+<li class="lvl3"><a href="#5a">§ 5a</a></li>
+<li class="lvl3"><a href="#6-merking-med-beskyttelsesgrad">§ 6. Merking med beskyttelsesgrad</a></li>
+<li class="lvl3"><a href="#7-spredning">§ 7. Spredning.</a></li>
+<li class="lvl3"><a href="#8-journalisering">§ 8. Journalisering.</a></li>
+<li class="lvl3"><a href="#9-oppbevaring">§ 9. Oppbevaring.</a></li>
+<li class="lvl3"><a href="#10-forsendelse">§ 10. Forsendelse.</a></li>
+<li class="lvl3"><a href="#11-tilintetgjrelse">§ 11. Tilintetgjørelse.</a></li>
+<li class="lvl3"><a href="#12">§ 12</a></li>
+<li class="lvl3"><a href="#13-delegasjon">§ 13. Delegasjon.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1972-03-17-3352.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1972-03-17-3352.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1972-03-17-3352.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1972-03-17-3352.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1972-03-17-3352.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1972-03-17-3352.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-1972-03-17-3352.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1972-03-17-3352.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-1972-03-17-3352.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="instruks-for-behandling-av-dokumenter-som-trenger-beskyttelse-av-andre-grunner-enn-nevnt-i-sikkerhetsloven-med-forskrifter-beskyttelsesinstruksen">Instruks for behandling av dokumenter som trenger beskyttelse av andre grunner enn nevnt i sikkerhetsloven med forskrifter (beskyttelsesinstruksen)</h1>
 <h3 id="1-anvendelse">§ 1. Anvendelse.</h3>
 <p>Denne instruks kommer til anvendelse ved behandling av dokumenter som trenger beskyttelse av andre grunner enn de som er nevnt i lov 1. juni 2018 nr. 24 om nasjonal sikkerhet (sikkerhetsloven) med forskrifter, jf. § 4 .</p>
 <p>Instruksen omfatter dokumenter uavhengig av mediet de er tilgjengelig på.</p>
-<p><em>Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 8 feb 2019 nr. 72 .</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 8 feb 2019 nr. 72 .</p>
 <h3 id="2-beskyttelsesgrader">§ 2. Beskyttelsesgrader.</h3>
 <p>For å beskytte innholdet av et dokument, skal en av følgende beskyttelsesgrader nyttes:</p>
 <ul>
@@ -88,16 +161,16 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <li>FORTROLIG</li>
 </ul>
 <p>De sikkerhetsgrader som er nyttet i sikkerhetsloven med forskrifter må ikke anvendes.</p>
-<p><em>Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</p>
 <h3 id="3-betingelser-for-gradering">§ 3. Betingelser for gradering.</h3>
 <p>Gradering av et dokument skal bare foretas når dokumentet kan unntas fra offentlighet i medhold av offentleglova , og skadevirkninger som nevnt i § 4 kan inntreffe.</p>
-<p><em>Endret ved forskrifter 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 23 jan 2009 nr. 50 .</em></p>
+<p class="note">Endret ved forskrifter 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 23 jan 2009 nr. 50 .</p>
 <h3 id="4-om-bruken-av-beskyttelsesgrader">§ 4. Om bruken av beskyttelsesgrader.</h3>
 <p>Når betingelsene for gradering etter § 3 er til stede, benyttes beskyttelsesgradene slik:</p>
 <p>«Strengt fortrolig» benyttes dersom det vil kunne forårsake betydelig skade for offentlige interesser, en bedrift, en institusjon eller en enkeltperson at dokumentets innhold blir kjent for uvedkommende.</p>
 <p>«Fortrolig» benyttes dersom det vil kunne skade offentlige interesser, en bedrift, en institusjon eller en enkeltperson at dokumentets innhold blir kjent for uvedkommende.</p>
 <p>Det må påses at det ikke benyttes høyere beskyttelsesgrad enn strengt nødvendig.</p>
-<p><em>Endret ved forskrifter 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 23 jan 2009 nr. 50 .</em></p>
+<p class="note">Endret ved forskrifter 17 okt 2008 nr. 1119 (i kraft 1 jan 2009), 23 jan 2009 nr. 50 .</p>
 <h3 id="5-gradering-og-nedgradering">§ 5. Gradering og nedgradering.</h3>
 <p><em>Det forvaltningsorgan som lager et dokument har ansvaret for at det graderes i samsvar med de regler som er fastsatt i denne instruks. Ved gradering av et dokument må det nøye påses at dokumentet ikke graderes i større utstrekning enn strengt påkrevet og at det ikke gis høyere gradering enn nødvendig. Når et dokument påføres gradering, skal det samtidig vurderes om graderingen kan bortfalle fra et bestemt tidspunkt eller ved inntreden av en bestemt begivenhet før 30 års fristen. Tidsangivelser innføres for 2 og 5 år. Dette skal i tilfelle påføres i tilknytning til graderingen. Dokumenter som går inn under unntak fra automatisk nedgradering etter 30 år, skal i tilknytning til graderingen merkes «Unntatt fra automatisk nedgradering» med henvisning til Beskyttelsesinstruksen § 5a . Revurdering av graderingen skal skje etter 40 år og deretter hvert 10. år med sikte på nedgradering. Bestemmelsene i dette pkt. gjelder ikke for dokumenter inneholdende sensitiv informasjon som er gradert av NATO og/eller andre internasjonale organer. Et dokument kan bare nedgraderes av den etat som har foretatt graderingen. Denne etat plikter å ta initiativ til nedgradering dersom kravet til sikkerhetsmessig beskyttelse endres. En revurdering av graderingen av et dokument skal skje: Når det kommer henvendelse om innsyn i dokumentet. Når dokumentet ellers er til behandling i tilknytning til en konkret sak. Når samme (tilsvarende) opplysninger gjøres kjent av utenlandske myndigheter/internasjonale organisasjoner. Når dokumentet er i ferd med å bli avlevert til arkivverket. Arkivverket kan nekte å motta graderte dokumenter som ikke har vært gjenstand for en slik vurdering. Når det forøvrig foreligger grunn til å revurdere graderingen. Riksarkivaren kan treffe beslutning om å avgradere et dokument som er beskyttelsesgradert og som er levert Arkivverket, når det må anses åpenbart at det ikke lenger er grunnlag for å gradere dokumentet. Beslutningen kan først treffes etter at spørsmålet er forelagt avgivende etat. Mottakeren av et gradert dokument skal alltid henvende seg til utstederen dersom han mener at et dokument er feilaktig gradert.
 Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</em></p>
@@ -116,34 +189,36 @@ e. Dokumenter vedrørende Politiets beredskap, Politiets overvåkingstjeneste, S
 <p>Papirdokumenter gradert STRENGT FORTROLIG skal være forsynt med eksemplarnummer, og det skal angis hvor mange eksemplarer dokumentet er ustedt i samt det totale antall sider. Dokumentet skal for øvrig pagineres på vanlig måte.</p>
 <p>Papirdokumenter merket FORTROLIG behøver ikke nummerering og skal pagineres på vanlig måte.</p>
 <p>Hvis graderingen bare skal gjelde for et begrenset tidsrom, skal det i tilknytning til graderingen angis hvor lenge den skal opprettholdes.</p>
-<p><em>Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009).</p>
 <h3 id="7-spredning">§ 7. Spredning.</h3>
 <p>Det skal bare gis tilgang til gradert dokument i den grad det er tjenstlige behov. Det må – bortsett fra de tilfelle som er nevnt i 1. og 3. ledd – bare forelegges eller gjøres kjent for personer som av tjenestlige grunner må kjenne innholdet.</p>
 <p>Den myndighet som har laget et gradert dokument kan for det enkelte tilfelle gi tillatelse til at det gis tilgang for den som har et særlig behov for det.</p>
 <p>En part har rett til å gjøre seg kjent med sakens dokumenter for så vidt ikke annet følger av reglene i forvaltningsloven § 18 til § 20 .</p>
 <p>Den som har et gradert dokument i sin varetekt, er personlig ansvarlig for at opplysningene ikke blir kjent av uvedkommende.</p>
-<p><em>Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009).</em></p>
+<p class="note">Endret ved forskrifter 29 juni 2001 nr. 723 (i kraft 1 juli 2001), 17 okt 2008 nr. 1119 (i kraft 1 jan 2009).</p>
 <h3 id="8-journalisering">§ 8. Journalisering.</h3>
 <p>Et dokument merket STRENGT FORTROLIG skal føres i journal unntatt fra offentlighet.</p>
 <p>Et dokument merket FORTROLIG kan enten føres i journal unntatt fra offentlighet eller i åpen journal. Hvis journalføring i åpen journal ikke kan finne sted uten å røpe fortrolige opplysninger, skal det brukes nøytrale kjennetegn eller utelatelser eller overstrykninger i den kopi av journalen som i henhold til reglene om offentlighet i forvaltningen skal legges fram for publikum.</p>
 <h3 id="9-oppbevaring">§ 9. Oppbevaring.</h3>
 <p>Et FORTROLIG og STRENGT FORTROLIG dokument må oppbevares slik at det ikke er tilgjengelig for uvedkommende. Når kontoret forlates, skal slike dokumenter være forsvarlig sikret. For å oppbevare dokumentene elektronisk må det være iverksatt informasjonssikkerhetstiltak, jf. § 12 .</p>
 <p>Hvis et gradert dokument må tas med hjem eller på reiser og møter, må det utvises særskilt aktsomhet, slik at dokumentet ikke etterlates på offentlig transportmiddel eller forøvrig kan bli tilgjengelig for uvedkommende.</p>
-<p><em>Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</p>
 <h3 id="10-forsendelse">§ 10. Forsendelse.</h3>
 <p>Dokumenter merket STRENGT FORTROLIG skal fortrinnsvis sendes med bud/kurér, men kan også sendes som rekommandert post. Sendes et dokument merket STRENGT FORTROLIG i posten, skal det skje i dobbelt konvolutt. Den indre konvolutt skal forsegles og påføres beskyttelsesgrad. Den ytre konvolutt skal være umerket. Forsendelse av dokumenter merket FORTROLIG kan skje på vanlig måte i umerket, lukket konvolutt.</p>
 <p>Dokumenter merket FORTROLIG og STRENGT FORTROLIG kan sendes elektronisk, forutsatt at det er iverksatt informasjonssikkerhetstiltak jf. § 12 . Ved forsendelse av dokumenter merket STRENGT FORTROLIG skal det alltid innhentes kvittering.</p>
 <p>Hvis det ikke foreligger særlige grunner, skal forsendelsen adresseres til vedkommende institusjon og ikke til en bestemt person eller stillingshaver. Ønsker avsenderen at forsendelsen bare skal åpnes av bestemte personer, kan dokumentet sendes til en bestemt stillingsinnehaver. Mottakeren plikter i så fall å sørge for at dokumentet uten opphold blir journalisert i samsvar med § 8 foran.</p>
-<p><em>Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001).</p>
 <h3 id="11-tilintetgjrelse">§ 11. Tilintetgjørelse.</h3>
 <p>Hvis et gradert dokument skal tilintetgjøres, må det sørges for at dette skjer under betryggende kontroll, og at det gjøres anmerkning om tilintetgjørelsen i journalen.</p>
 <h3 id="12">§ 12</h3>
 <p>Dokumenter gradert etter denne instruksen skal så langt det passer, behandles elektronisk i samsvar med følgende regler i sikkerhetslovens forskrift om virksomheters arbeid med forebyggende sikkerhet § 23 i kapittel 4 om håndtering og beskyttelse av skjermingsverdig informasjon, kapittel 7 om beskyttelse av skjermingsverdige informasjonssystemer og sikkerhetslovens forskrift om kryptosikkerhet.</p>
 <p>Dokumenter gradert etter instruksen skal i slike tilfeller følge reglene for dokumenter gradert BEGRENSET.</p>
-<p><em>Tilføyd ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001), endret ved forskrift 8 feb 2019 nr. 72 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001), endret ved forskrift 8 feb 2019 nr. 72 .</p>
 <h3 id="13-delegasjon">§ 13. Delegasjon.</h3>
 <p>Statsministeren kan gi utfyllende bestemmelser for gjennomføringen av disse regler.</p>
-<p><em>Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001, tidligere § 12 ).</em></p>
+<p class="note">Endret ved forskrift 29 juni 2001 nr. 723 (i kraft 1 juli 2001, tidligere § 12 ).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

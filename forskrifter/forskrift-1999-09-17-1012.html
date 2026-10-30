@@ -19,64 +19,285 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1999-09-17-1012.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om militære rekvisisjoner" href="../feeds/forskrift-1999-09-17-1012.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-forsvarsdepartementet.html">Forsvarsdepartementet</a> &rsaquo;
 <span>Forskrift om militære rekvisisjoner</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1999-09-17-1012</code></dd>
-<dt>Departement</dt><dd>Forsvarsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1999-12-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-10-08-2958</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1999-09-17-1012" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-forskriftens-virkeomrade">Kapittel I. Forskriftens virkeområde</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1">Jf. rekvisisjonsloven § 1.</a></li>
+<li class="lvl5"><a href="#1">§ 1</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelt-om-bruk-av-rekvisisjon-og-annen-behovsdekning">Kapittel II. Generelt om bruk av rekvisisjon og annen behovsdekning</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8">Jf. rekvisisjonsloven § 8.</a></li>
+<li class="lvl5"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-5-og-6">Jf. rekvisisjonsloven § 5 og § 6.</a></li>
+<li class="lvl5"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#kapittel-iii-hvem-som-har-rekvisisjonsrett">Kapittel III. Hvem som har rekvisisjonsrett</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-7">Jf. rekvisisjonsloven § 7.</a></li>
+<li class="lvl5"><a href="#4">§ 4</a></li>
+<li class="lvl5"><a href="#5">§ 5</a></li>
+<li class="lvl5"><a href="#6">§ 6</a></li>
+<li class="lvl2"><a href="#kapittel-iv-rekvisisjonsrettens-omfang-hensynet-til-den-som-berres-av-rekvisisjon">Kapittel IV. Rekvisisjonsrettens omfang – hensynet til den som berøres av rekvisisjon</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-9">Jf. rekvisisjonsloven § 9.</a></li>
+<li class="lvl5"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#kapittel-v-geografisk-avgrensning">Kapittel V. Geografisk avgrensning</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#kapittel-vi-krav-til-rekvisisjoners-utforming-og-innhold">Kapittel VI. Krav til rekvisisjoners utforming og innhold</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-9-og-11">Jf. rekvisisjonsloven § 9 og § 11.</a></li>
+<li class="lvl5"><a href="#11">§ 11</a></li>
+<li class="lvl2"><a href="#kapittel-vii-hvem-rekvisisjoner-skal-rettes-til">Kapittel VII. Hvem rekvisisjoner skal rettes til</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8_1">Jf. rekvisisjonsloven § 8.</a></li>
+<li class="lvl5"><a href="#12">§ 12</a></li>
+<li class="lvl5"><a href="#13">§ 13</a></li>
+<li class="lvl2"><a href="#kapittel-viii-oppfyllelse-av-rekvisisjoner">Kapittel VIII. Oppfyllelse av rekvisisjoner</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8-9-og-11">Jf. rekvisisjonsloven § 8, § 9 og § 11.</a></li>
+<li class="lvl5"><a href="#14">§ 14</a></li>
+<li class="lvl5"><a href="#15">§ 15</a></li>
+<li class="lvl5"><a href="#16">§ 16</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avlevering-og-mottak-av-varer-og-tjenester">Kapittel IX. Avlevering og mottak av varer og tjenester</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-11">Jf. rekvisisjonsloven § 11.</a></li>
+<li class="lvl5"><a href="#17">§ 17</a></li>
+<li class="lvl5"><a href="#18">§ 18</a></li>
+<li class="lvl5"><a href="#19">§ 19</a></li>
+<li class="lvl2"><a href="#kapittel-x-prioritering-i-forhold-til-sivile-behov">Kapittel X. Prioritering i forhold til sivile behov</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl2"><a href="#kapittel-xi-erstatning-for-ytelser-tap-og-skade-som-flge-av-rekvisisjon">Kapittel XI. Erstatning for ytelser, tap og skade som følge av rekvisisjon</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-12-13-15-16-og-17">Jf. rekvisisjonsloven § 12, § 13, § 15, § 16 og § 17.</a></li>
+<li class="lvl5"><a href="#22">§ 22</a></li>
+<li class="lvl2"><a href="#kapittel-xii-om-skjnnsnemnder-og-framgangsmaten-ved-skjnn">Kapittel XII. Om skjønnsnemnder og framgangsmåten ved skjønn</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-12-13-14-15-og-16">Jf. rekvisisjonsloven § 12, § 13, § 14, § 15 og § 16.</a></li>
+<li class="lvl5"><a href="#23">§ 23</a></li>
+<li class="lvl5"><a href="#24">§ 24</a></li>
+<li class="lvl5"><a href="#25">§ 25</a></li>
+<li class="lvl5"><a href="#26">§ 26</a></li>
+<li class="lvl5"><a href="#27">§ 27</a></li>
+<li class="lvl5"><a href="#28">§ 28</a></li>
+<li class="lvl5"><a href="#29">§ 29</a></li>
+<li class="lvl2"><a href="#kapittel-xiii-bruk-av-loven-i-fred">Kapittel XIII. Bruk av loven i fred</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1_1">Jf. rekvisisjonsloven § 1.</a></li>
+<li class="lvl5"><a href="#30">§ 30</a></li>
+<li class="lvl5"><a href="#31">§ 31</a></li>
+<li class="lvl5"><a href="#32">§ 32</a></li>
+<li class="lvl5"><a href="#33">§ 33</a></li>
+<li class="lvl5"><a href="#34">§ 34</a></li>
+<li class="lvl5"><a href="#35">§ 35</a></li>
+<li class="lvl2"><a href="#kapittel-xiv-rekvisisjoner-og-annen-behovsdekning-som-forberedes-i-fred">Kapittel XIV. Rekvisisjoner og annen behovsdekning som forberedes i fred</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1-5-og-6">Jf. rekvisisjonsloven § 1, § 5 og § 6.</a></li>
+<li class="lvl5"><a href="#36">§ 36</a></li>
+<li class="lvl5"><a href="#37">§ 37</a></li>
+<li class="lvl5"><a href="#38">§ 38</a></li>
+<li class="lvl5"><a href="#39">§ 39</a></li>
+<li class="lvl5"><a href="#40">§ 40</a></li>
+<li class="lvl5"><a href="#41">§ 41</a></li>
+<li class="lvl5"><a href="#42">§ 42</a></li>
+<li class="lvl5"><a href="#43">§ 43</a></li>
+<li class="lvl5"><a href="#44">§ 44</a></li>
+<li class="lvl5"><a href="#45">§ 45</a></li>
+<li class="lvl5"><a href="#46">§ 46</a></li>
+<li class="lvl2"><a href="#kapittel-xv-forberedelse-for-produksjon-i-krig">Kapittel XV. Forberedelse for produksjon i krig</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-6">Jf. rekvisisjonsloven § 6.</a></li>
+<li class="lvl5"><a href="#47">§ 47</a></li>
+<li class="lvl5"><a href="#48">§ 48</a></li>
+<li class="lvl5"><a href="#49">§ 49</a></li>
+<li class="lvl5"><a href="#50">§ 50</a></li>
+<li class="lvl2"><a href="#kapittel-xvi-tilbakelevering-og-frigiving-av-rekvirert-ytelse">Kapittel XVI. Tilbakelevering og frigiving av rekvirert ytelse</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-24">Jf. rekvisisjonsloven § 24.</a></li>
+<li class="lvl5"><a href="#51">§ 51</a></li>
+<li class="lvl2"><a href="#kapittel-xvii-rekvisisjonsberettigede-myndigheter">Kapittel XVII. Rekvisisjonsberettigede myndigheter</a></li>
+<li class="lvl4"><a href="#52">§ 52</a></li>
+<li class="lvl2"><a href="#kapittel-xviii-srlige-bestemmelser">Kapittel XVIII. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#53">§ 53</a></li>
+<li class="lvl4"><a href="#54">§ 54</a></li>
+<li class="lvl4"><a href="#55">§ 55</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-10-08-2958.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-17-1012.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om militære rekvisisjoner.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1999-09-17-1012.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1999-09-17-1012 <code>forskrift/1999-09-17-1012</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om militære rekvisisjoner</td></tr>
+<tr><th>Departement</th><td>Forsvarsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.12.1999</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-10-08-2958 <code>forskrift/2021-10-08-2958</code> fra 01.11.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1999-09-17-1012" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-forskriftens-virkeomrade">Kapittel I. Forskriftens virkeområde</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1">Jf. rekvisisjonsloven § 1.</a></li>
+<li class="lvl5"><a href="#1">§ 1</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelt-om-bruk-av-rekvisisjon-og-annen-behovsdekning">Kapittel II. Generelt om bruk av rekvisisjon og annen behovsdekning</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8">Jf. rekvisisjonsloven § 8.</a></li>
+<li class="lvl5"><a href="#2">§ 2</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-5-og-6">Jf. rekvisisjonsloven § 5 og § 6.</a></li>
+<li class="lvl5"><a href="#3">§ 3</a></li>
+<li class="lvl2"><a href="#kapittel-iii-hvem-som-har-rekvisisjonsrett">Kapittel III. Hvem som har rekvisisjonsrett</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-7">Jf. rekvisisjonsloven § 7.</a></li>
+<li class="lvl5"><a href="#4">§ 4</a></li>
+<li class="lvl5"><a href="#5">§ 5</a></li>
+<li class="lvl5"><a href="#6">§ 6</a></li>
+<li class="lvl2"><a href="#kapittel-iv-rekvisisjonsrettens-omfang-hensynet-til-den-som-berres-av-rekvisisjon">Kapittel IV. Rekvisisjonsrettens omfang – hensynet til den som berøres av rekvisisjon</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-9">Jf. rekvisisjonsloven § 9.</a></li>
+<li class="lvl5"><a href="#7">§ 7</a></li>
+<li class="lvl2"><a href="#kapittel-v-geografisk-avgrensning">Kapittel V. Geografisk avgrensning</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#kapittel-vi-krav-til-rekvisisjoners-utforming-og-innhold">Kapittel VI. Krav til rekvisisjoners utforming og innhold</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-9-og-11">Jf. rekvisisjonsloven § 9 og § 11.</a></li>
+<li class="lvl5"><a href="#11">§ 11</a></li>
+<li class="lvl2"><a href="#kapittel-vii-hvem-rekvisisjoner-skal-rettes-til">Kapittel VII. Hvem rekvisisjoner skal rettes til</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8_1">Jf. rekvisisjonsloven § 8.</a></li>
+<li class="lvl5"><a href="#12">§ 12</a></li>
+<li class="lvl5"><a href="#13">§ 13</a></li>
+<li class="lvl2"><a href="#kapittel-viii-oppfyllelse-av-rekvisisjoner">Kapittel VIII. Oppfyllelse av rekvisisjoner</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-8-9-og-11">Jf. rekvisisjonsloven § 8, § 9 og § 11.</a></li>
+<li class="lvl5"><a href="#14">§ 14</a></li>
+<li class="lvl5"><a href="#15">§ 15</a></li>
+<li class="lvl5"><a href="#16">§ 16</a></li>
+<li class="lvl2"><a href="#kapittel-ix-avlevering-og-mottak-av-varer-og-tjenester">Kapittel IX. Avlevering og mottak av varer og tjenester</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-11">Jf. rekvisisjonsloven § 11.</a></li>
+<li class="lvl5"><a href="#17">§ 17</a></li>
+<li class="lvl5"><a href="#18">§ 18</a></li>
+<li class="lvl5"><a href="#19">§ 19</a></li>
+<li class="lvl2"><a href="#kapittel-x-prioritering-i-forhold-til-sivile-behov">Kapittel X. Prioritering i forhold til sivile behov</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl2"><a href="#kapittel-xi-erstatning-for-ytelser-tap-og-skade-som-flge-av-rekvisisjon">Kapittel XI. Erstatning for ytelser, tap og skade som følge av rekvisisjon</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-12-13-15-16-og-17">Jf. rekvisisjonsloven § 12, § 13, § 15, § 16 og § 17.</a></li>
+<li class="lvl5"><a href="#22">§ 22</a></li>
+<li class="lvl2"><a href="#kapittel-xii-om-skjnnsnemnder-og-framgangsmaten-ved-skjnn">Kapittel XII. Om skjønnsnemnder og framgangsmåten ved skjønn</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-12-13-14-15-og-16">Jf. rekvisisjonsloven § 12, § 13, § 14, § 15 og § 16.</a></li>
+<li class="lvl5"><a href="#23">§ 23</a></li>
+<li class="lvl5"><a href="#24">§ 24</a></li>
+<li class="lvl5"><a href="#25">§ 25</a></li>
+<li class="lvl5"><a href="#26">§ 26</a></li>
+<li class="lvl5"><a href="#27">§ 27</a></li>
+<li class="lvl5"><a href="#28">§ 28</a></li>
+<li class="lvl5"><a href="#29">§ 29</a></li>
+<li class="lvl2"><a href="#kapittel-xiii-bruk-av-loven-i-fred">Kapittel XIII. Bruk av loven i fred</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1_1">Jf. rekvisisjonsloven § 1.</a></li>
+<li class="lvl5"><a href="#30">§ 30</a></li>
+<li class="lvl5"><a href="#31">§ 31</a></li>
+<li class="lvl5"><a href="#32">§ 32</a></li>
+<li class="lvl5"><a href="#33">§ 33</a></li>
+<li class="lvl5"><a href="#34">§ 34</a></li>
+<li class="lvl5"><a href="#35">§ 35</a></li>
+<li class="lvl2"><a href="#kapittel-xiv-rekvisisjoner-og-annen-behovsdekning-som-forberedes-i-fred">Kapittel XIV. Rekvisisjoner og annen behovsdekning som forberedes i fred</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-1-5-og-6">Jf. rekvisisjonsloven § 1, § 5 og § 6.</a></li>
+<li class="lvl5"><a href="#36">§ 36</a></li>
+<li class="lvl5"><a href="#37">§ 37</a></li>
+<li class="lvl5"><a href="#38">§ 38</a></li>
+<li class="lvl5"><a href="#39">§ 39</a></li>
+<li class="lvl5"><a href="#40">§ 40</a></li>
+<li class="lvl5"><a href="#41">§ 41</a></li>
+<li class="lvl5"><a href="#42">§ 42</a></li>
+<li class="lvl5"><a href="#43">§ 43</a></li>
+<li class="lvl5"><a href="#44">§ 44</a></li>
+<li class="lvl5"><a href="#45">§ 45</a></li>
+<li class="lvl5"><a href="#46">§ 46</a></li>
+<li class="lvl2"><a href="#kapittel-xv-forberedelse-for-produksjon-i-krig">Kapittel XV. Forberedelse for produksjon i krig</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-6">Jf. rekvisisjonsloven § 6.</a></li>
+<li class="lvl5"><a href="#47">§ 47</a></li>
+<li class="lvl5"><a href="#48">§ 48</a></li>
+<li class="lvl5"><a href="#49">§ 49</a></li>
+<li class="lvl5"><a href="#50">§ 50</a></li>
+<li class="lvl2"><a href="#kapittel-xvi-tilbakelevering-og-frigiving-av-rekvirert-ytelse">Kapittel XVI. Tilbakelevering og frigiving av rekvirert ytelse</a></li>
+<li class="lvl3"><a href="#jf-rekvisisjonsloven-24">Jf. rekvisisjonsloven § 24.</a></li>
+<li class="lvl5"><a href="#51">§ 51</a></li>
+<li class="lvl2"><a href="#kapittel-xvii-rekvisisjonsberettigede-myndigheter">Kapittel XVII. Rekvisisjonsberettigede myndigheter</a></li>
+<li class="lvl4"><a href="#52">§ 52</a></li>
+<li class="lvl2"><a href="#kapittel-xviii-srlige-bestemmelser">Kapittel XVIII. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#53">§ 53</a></li>
+<li class="lvl4"><a href="#54">§ 54</a></li>
+<li class="lvl4"><a href="#55">§ 55</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-17-1012.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1999-09-17-1012.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1999-09-17-1012.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-1999-09-17-1012.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-1999-09-17-1012.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feeds/forskrift-1999-09-17-1012.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-1999-09-17-1012.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-militre-rekvisisjoner">Forskrift om militære rekvisisjoner.</h1>
 <h2 id="kapittel-i-forskriftens-virkeomrade">Kapittel I. Forskriftens virkeområde</h2>
 <h3 id="jf-rekvisisjonsloven-1">Jf. rekvisisjonsloven § 1.</h3>
 <h5 id="1">§ 1</h5>
@@ -90,7 +311,7 @@ b. Utenfor krigstid, når Forsvaret eller deler av dette er innkalt etter særsk
 <p>Forsvarets behov for ytelser fra det sivile samfunn når situasjonen krever det, jf. § 1 , skal i størst mulig grad planlegges og forberedes i fredstid, dels ved forberedt rekvisisjon og dels ved fremsendelse av behovsoppgaver, jf. kap. XIV . Behovene skal i utgangspunktet fremsettes for de myndigheter som i krig har det logistikk- eller organisasjonsmessige ansvar på det aktuelle området, og skal presenteres til de aktuelle fagdepartementer eller statsforvalteren etter de bestemmelser og prosedyrer som er gitt i forskrifter og/eller direktiver som regulerer leveranser av varer og tjenester til enheter i Forsvaret. Det er et siktemål for denne samlede planlegging å skape størst mulig grad av forsyningssikkerhet for Forsvaret. Forberedt rekvisisjon skal ikke foretas på områder som dekkes gjennom den øvrige planlagte behovsdekningen.</p>
 <p>Nødvendige behov for varer og tjenester som ikke er planlagt, skal normalt også presenteres for de samme myndigheter. Dersom det anses tvingende nødvendig i den foreliggende situasjon, kan rekvisisjon rettes direkte til den som skal avgi det rekvirerte.</p>
 <p>Selvstendige militære avdelinger som er tillagt rekvisisjonsrett i henhold til denne forskrift, skal som hovedregel få sine behov dekket gjennom de vanlige militære forsyningskanaler.</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h3 id="jf-rekvisisjonsloven-5-og-6">Jf. rekvisisjonsloven § 5 og § 6.</h3>
 <h5 id="3">§ 3</h5>
 <p>Dekning av Forsvarets behov ved rekvisisjon skal såvidt mulig omfatte varer og tjenester uten at Forsvaret overtar kontroll og ansvar for personell og materiell som ikke anses nødvendig ut fra formålet med rekvisisjonen.</p>
@@ -142,7 +363,7 @@ g. Husrom, lagerrom mv. rettes som regel til vedkommende kommune eller statsforv
 h. Teleanlegg og andre teletjenester rettes til Post- og teletilsynet. Rekvisisjon av ytelser fra Norsk Rikskringkasting (NRK) eller private mediaanlegg rettes til NRK, lokal avdeling av NRK eller eventuelt direkte til vedkommende private institusjon.
 i. Bygg- og anleggsmaskiner mv. rettes til Nærings- og handelsdepartementet (NHD), eller den departementet til enhver tid bemyndiger.</p>
 <p>Det som er fastsatt i denne paragraf utelukker ikke at ikke-forberedte rekvisisjoner om nødvendig kan rettes til statsforvalter eller kommune.</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h2 id="kapittel-viii-oppfyllelse-av-rekvisisjoner">Kapittel VIII. Oppfyllelse av rekvisisjoner</h2>
 <h3 id="jf-rekvisisjonsloven-8-9-og-11">Jf. rekvisisjonsloven § 8, § 9 og § 11.</h3>
 <h5 id="14">§ 14</h5>
@@ -180,7 +401,7 @@ i. Bygg- og anleggsmaskiner mv. rettes til Nærings- og handelsdepartementet (NH
 <p>Hvis noe skjønnsmedlem gjennom slektskap eller på annen måte står i et så nært forhold til den part det er rekvirert hos, at medlemmet vil være ugild (jf. lov av 10. februar 1967 om behandlingsmåten i forvaltningssaker, kap. II ), skal det fratre skjønnet og et varamedlem skal kalles inn. Hvis det i nemnda rår tvil om et skjønnsmedlem skal fratre, avgjøres habilitetsspørsmålet av statsforvalteren.</p>
 <p>Skjønnsmedlemmene plikter å møte. Har et skjønnsmedlem forfall, kan det permitteres av lederen i skjønnsnemnda. Dersom lederen har forfall, eller lederen er i tvil om medlemmet kan meddeles permisjon, avgjør statsforvalteren saken.</p>
 <p>Hvis ikke annet er bestemt, tilkommer de medlemmer og varamedlemmer av skjønnsnemndene som ikke er oppnevnt av militær myndighet, samme godtgjørelse fra staten som lov av 17. desember 1982 nr. 86 (rettsgebyrloven) fastsetter for skjønnsmenn. For reiser utbetales dessuten godtgjørelse etter statens reiseregulativ.</p>
-<p><em>Endret ved forskrift 24 des 2020 nr. 3264 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 24 des 2020 nr. 3264 (i kraft 1 jan 2021).</p>
 <h5 id="24">§ 24</h5>
 <p>Lederen av skjønnsnemnda sørger for at det blir ført protokoll over avholdte skjønnsforretninger. I protokollen innføres det nødvendige om ytelsens art, mengde og kvalitet, og godtgjørelsens og/eller erstatningens størrelse. Etter avholdt skjønn skal protokollen underskrives av samtlige skjønnsmenn, med angivelse av hvor og når skjønnet ble holdt. Protokollen oppbevares av lederen, og han skal tilskrive den som rekvisisjonen var rettet til med en bekreftet utskrift av protokollen. Har ytelsene vært fordelt på flere leverandører, skal det gå fram av protokollen hvor mye hver enkelt har levert og hvilke beløp den enkelte er tilkjent. Protokollen skal således inneholde opplysninger om:</p>
 <p>a. Sammensetningen av skjønnsnemnda.
@@ -192,7 +413,7 @@ f. Skjønnsnemndas avgjørelse. Samtlige medlemmer av skjønnsnemnda underskrive
 <h5 id="25">§ 25</h5>
 <p>Når skjønn er påkrevet, skal rekvirenten uten unødig opphold gi vedkommende skjønnsnemnd underretning om dette og anmode nemnda om å avholde skjønn. Underretningen sendes som regel gjennom statsforvalteren med mindre forholdene i krig skulle gjøre en annen fremgangsmåte nødvendig. Samtidig skal rekvirenten gi nemnda alle opplysninger som er nødvendige. Lederen av skjønnsnemnda sammenkaller nemnda og fastsetter tid og sted for skjønnsforretningen, dersom dette ikke er fastsatt av rekvirenten. Innkalling skal skje uten ugrunnet opphold.</p>
 <p>Lederen av skjønnsnemnda sørger for at nemnda blir fulltallig ved om nødvendig å kalle inn varamedlemmer. For øvrig legges rekvisisjonsdokumentet til grunn for skjønnet. Dette legges fram av den som rekvisisjonen er rettet til, jf. kap. VII .</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h5 id="26">§ 26</h5>
 <p>Partene (rekvirenten og den det er rekvirert hos) varsles av nemnda om tid og sted for skjønnsforretningen. I protokollen innføres partenes navn og adresse. Hvis den det er rekvirert hos, ikke møter selv, kan en annen møte som hans representant. Han skal da legge fram fullmakt for parten, når nemnda krever det. Møter ingen for den part det er rekvirert hos, kan skjønn likevel holdes om nemnda finner det forsvarlig.</p>
 <h5 id="27">§ 27</h5>
@@ -222,12 +443,12 @@ f. Skjønnsnemndas avgjørelse. Samtlige medlemmer av skjønnsnemnda underskrive
 <p>For å unngå skader og ulemper mest mulig, skal bruk av grunn i øvingsøyemed i størst mulig grad søkes begrenset til utmark. Plantefelt, hager, sådd åker og eng skal søkes unngått mest mulig. Rekvisisjon av eiendom til bruk skjer i samsvar med denne forskriftens bestemmelser og de lover og bestemmelser som gjelder på området natur- og miljøvern.</p>
 <h5 id="33">§ 33</h5>
 <p>Såfremt bruken av privat grunn berører flere eiendommer som vanskelig kan angis på forhånd, rettes rekvisisjonen til statsforvalteren med angivelse av de områder hvor øvelsen vil finne sted og i hvilket tidsrom.</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h5 id="34">§ 34</h5>
 <p>Statsforvalteren skal i samråd med øvingsledelsen sørge for en offentlig meddelelse til grunneierne i de distrikter hvor øvelsen etter planen skal foregå. Offentliggjøringen skjer på den måte som statsforvalteren bestemmer (presse, radio, ved oppslag osv.).</p>
 <p>Kunngjøringen skal inneholde lovhjemmelen og den begrensning i bruken som er angitt foran, samt en oversikt over de områder hvor øvelsen vil foregå. Kunngjøringen skal også inneholde informasjon om at erstatning for skade som måtte oppstå, vil bli gitt i samsvar med bestemmelsene i lov om militære rekvisisjoner. Det skal angis frist for når skriftlig krav om erstatning for skade og tap må være mottatt ved den aktuelle militære avdeling. Vanligvis skal dette skje innen tre uker etter øvelsens avslutning.</p>
 <p>I kunngjøringen bør det videre anføres at statlige og kommunale myndigheter, særskilte oppnevnte organer, selskaper og enkeltpersoner, etter anmodning plikter å bistå ved forberedelse og oppfyllelse av militære rekvisisjoner, samt at det er straffbart å motsette seg eller søke å hindre gjennomføringen av militære rekvisisjoner eller å overtre noen bestemmelser utferdiget med hjemmel i rekvisisjonsloven.</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h5 id="35">§ 35</h5>
 <p>Vedtak om rekvisisjon av bruksrett til privat grunn under militære øvelser er unntatt fra forvaltningslovens bestemmelser om grunngiving og klage. Det samme gjelder vedtak om militære rekvisisjoner som forberedes i fred. Når det gjelder pålegg om forberedende tiltak, som i fred kan gis til virksomheter og bedrifter, vises til forvaltningslovens bestemmelser om at grunngiving kan unnlates i den utstrekning begrunnelse ikke kan gis uten å røpe opplysninger som parten ikke har krav på å bli kjent med.</p>
 <h2 id="kapittel-xiv-rekvisisjoner-og-annen-behovsdekning-som-forberedes-i-fred">Kapittel XIV. Rekvisisjoner og annen behovsdekning som forberedes i fred</h2>
@@ -263,7 +484,7 @@ f. Ved iverksettelse av forberedte rekvisisjoner av luftfartøyer skal vedkommen
 <p>Forberedelser for rekvisisjon av bygninger skal skje iht. reglement av 17. januar 1986 nr. 3047 for forberedelse av rekvirering av bygninger til Totalforsvaret ved beredskap og krig.</p>
 <h5 id="43">§ 43</h5>
 <p>Behov for arealer fremmes gjennom Forsvarets bygningstjeneste til statsforvalteren.</p>
-<p><em>Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</em></p>
+<p class="note">Endret ved forskrift 8 okt 2021 nr. 2958 (i kraft 1 nov 2021).</p>
 <h5 id="44">§ 44</h5>
 <p>Forberedelsene av behovsdekning av andre forsyninger, gjenstander, varer og tjenester enn de som er omtalt foran i dette kapittel skjer ved at de militære myndigheter som har ansvaret for mobiliseringsforberedelsene, fremmer behovsoppgaver gjennom Forsvarets overkommando og Forsvarsdepartementet til det aktuelle fagdepartement, jf. bl.a. Nærings- og handelsdepartementets forskrift om leveranseplanlegging for varer og tjenester til enheter i totalforsvaret, datert 3. august 1999.</p>
 <h5 id="45">§ 45</h5>
@@ -331,6 +552,8 @@ d. Lokal myndighet (fylkesnivå):
 <p>Enhver som under utøvelse av offentlig stilling eller verv i medhold av lov om militære rekvisisjoner eller denne forskrift erverver kunnskap om militære planer og forberedelser av enhver art, har taushetsplikt overfor uvedkommende.</p>
 <h4 id="55">§ 55</h4>
 <p>Forskriften trer i kraft den 1. desember 1999. Fra samme tid oppheves kgl.res. av 22. februar 1952 nr. 1 om Reglement for militære rekvisisjoner, kgl.res. av 15. januar 1954 om godkjenning av tillegg til rekvisisjonsreglementet, kgl.res. av 12. desember 1969 nr. 3 om unntak fra forvaltningslovens regler om grunngiving og klage ved militære rekvisisjoner, samt forskrift av 22. juni 1977 nr. 1 om unntak fra forvaltningslovens grunnregler om grunngiving og klage i visse saker etter lov om militære rekvisisjoner.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

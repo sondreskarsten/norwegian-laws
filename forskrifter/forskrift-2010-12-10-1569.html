@@ -19,64 +19,189 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2010-12-10-1569.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Tillatelsesforskriften" href="../feeds/forskrift-2010-12-10-1569.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Tillatelsesforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2010-12-10-1569</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2011-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2018-03-23-517</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2010-12-10-1569" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-virksomhetstillatelser">§ 1-3. Virksomhetstillatelser</a></li>
+<li class="lvl4"><a href="#1-4-ansvar-for-trafikkstyring">§ 1-4. Ansvar for trafikkstyring</a></li>
+<li class="lvl4"><a href="#1-5-unntak">§ 1-5. Unntak</a></li>
+<li class="lvl4"><a href="#1-6-myndighetene-oppgaver-delegering-mv">§ 1-6. Myndighetene oppgaver, delegering mv.</a></li>
+<li class="lvl4"><a href="#1-7-opphevet-vedforskrift-14-jan-2011-nr-37">§ 1-7. (Opphevet vedforskrift 14 jan 2011 nr. 37.)</a></li>
+<li class="lvl2"><a href="#kapittel-2-srskilte-vilkar-for-rutegaende-persontransport">Kapittel 2. Særskilte vilkår for rutegående persontransport</a></li>
+<li class="lvl4"><a href="#2-1-srskilte-vilkar-for-rutegaende-persontransport">§ 2-1. Særskilte vilkår for rutegående persontransport</a></li>
+<li class="lvl2"><a href="#kapittel-3-tillatelse-til-a-drive-trafikkvirksomhet">Kapittel 3. Tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-tillatelse-til-a-drive-trafikkvirksomhet">§ 3-1. Krav om tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-2-vilkar-for-tillatelse-til-a-drive-trafikkvirksomhet">§ 3-2. Vilkår for tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-3-vandel-og-konkurs">§ 3-3. Vandel og konkurs</a></li>
+<li class="lvl4"><a href="#3-4-konomisk-evne">§ 3-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#3-5-faglig-dyktighet">§ 3-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#3-6-forsikringgaranti">§ 3-6. Forsikring/garanti</a></li>
+<li class="lvl4"><a href="#3-7-sikkerhetsstyringssystem-mm">§ 3-7. Sikkerhetsstyringssystem m.m.</a></li>
+<li class="lvl4"><a href="#3-8-ansvaret-for-virksomheten">§ 3-8. Ansvaret for virksomheten</a></li>
+<li class="lvl4"><a href="#3-9-forbud-mot-overdragelse-ol">§ 3-9. Forbud mot overdragelse o.l.</a></li>
+<li class="lvl4"><a href="#3-10-tillatelsens-gyldighet">§ 3-10. Tillatelsens gyldighet</a></li>
+<li class="lvl4"><a href="#3-11-varsel-ved-vesentlige-endringer-av-betydning-for-tillatelsen">§ 3-11. Varsel ved vesentlige endringer av betydning for tillatelsen</a></li>
+<li class="lvl4"><a href="#3-12-suspensjon-og-tilbakekall">§ 3-12. Suspensjon og tilbakekall</a></li>
+<li class="lvl2"><a href="#kapittel-4-tillatelse-til-a-drive-infrastruktur">Kapittel 4. Tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-tillatelse-til-a-drive-infrastruktur">§ 4-1. Krav om tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-2-vilkar-for-tillatelse-til-a-drive-infrastruktur">§ 4-2. Vilkår for tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-3-vandel-og-konkurs">§ 4-3. Vandel og konkurs</a></li>
+<li class="lvl4"><a href="#4-4-konomisk-evne">§ 4-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#4-5-faglig-dyktighet">§ 4-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#4-6-forsikringgaranti">§ 4-6. Forsikring/garanti</a></li>
+<li class="lvl4"><a href="#4-7-sikkerhetsstyringssystem-mm">§ 4-7. Sikkerhetsstyringssystem m.m.</a></li>
+<li class="lvl4"><a href="#4-8-ansvaret-for-virksomheten">§ 4-8. Ansvaret for virksomheten</a></li>
+<li class="lvl4"><a href="#4-9-forbud-mot-overdragelse-ol">§ 4-9. Forbud mot overdragelse o.l.</a></li>
+<li class="lvl4"><a href="#4-10-tillatelsens-gyldighet">§ 4-10. Tillatelsens gyldighet</a></li>
+<li class="lvl4"><a href="#4-11-varsel-ved-vesentlige-endringer-av-betydning-for-tillatelsen">§ 4-11. Varsel ved vesentlige endringer av betydning for tillatelsen</a></li>
+<li class="lvl4"><a href="#4-12-suspensjon-og-tilbakekall">§ 4-12. Suspensjon og tilbakekall</a></li>
+<li class="lvl2"><a href="#kapittel-5-saksbehandlingsregler-og-avsluttende-bestemmelser">Kapittel 5. Saksbehandlingsregler og avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#5-1-saksbehandlingsregler">§ 5-1. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#5-2-overgangsbestemmelser">§ 5-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#5-3-ikrafttredelse-mv">§ 5-3. Ikrafttredelse mv.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2018-03-23-517.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-12-10-1569.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om tillatelse til å drive trafikkvirksomhet og infrastruktur for sporvei, tunnelbane, forstadsbane og godsbane, samt sidespor, havnespor m.m. (tillatelsesforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-12-10-1569.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2010-12-10-1569 <code>forskrift/2010-12-10-1569</code></td></tr>
+<tr><th>Korttittel</th><td>Tillatelsesforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2011</td></tr>
+<tr><th>Sist endret</th><td>FOR-2018-03-23-517 <code>forskrift/2018-03-23-517</code> fra 01.01.2020</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2010-12-10-1569" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-virksomhetstillatelser">§ 1-3. Virksomhetstillatelser</a></li>
+<li class="lvl4"><a href="#1-4-ansvar-for-trafikkstyring">§ 1-4. Ansvar for trafikkstyring</a></li>
+<li class="lvl4"><a href="#1-5-unntak">§ 1-5. Unntak</a></li>
+<li class="lvl4"><a href="#1-6-myndighetene-oppgaver-delegering-mv">§ 1-6. Myndighetene oppgaver, delegering mv.</a></li>
+<li class="lvl4"><a href="#1-7-opphevet-vedforskrift-14-jan-2011-nr-37">§ 1-7. (Opphevet vedforskrift 14 jan 2011 nr. 37.)</a></li>
+<li class="lvl2"><a href="#kapittel-2-srskilte-vilkar-for-rutegaende-persontransport">Kapittel 2. Særskilte vilkår for rutegående persontransport</a></li>
+<li class="lvl4"><a href="#2-1-srskilte-vilkar-for-rutegaende-persontransport">§ 2-1. Særskilte vilkår for rutegående persontransport</a></li>
+<li class="lvl2"><a href="#kapittel-3-tillatelse-til-a-drive-trafikkvirksomhet">Kapittel 3. Tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-tillatelse-til-a-drive-trafikkvirksomhet">§ 3-1. Krav om tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-2-vilkar-for-tillatelse-til-a-drive-trafikkvirksomhet">§ 3-2. Vilkår for tillatelse til å drive trafikkvirksomhet</a></li>
+<li class="lvl4"><a href="#3-3-vandel-og-konkurs">§ 3-3. Vandel og konkurs</a></li>
+<li class="lvl4"><a href="#3-4-konomisk-evne">§ 3-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#3-5-faglig-dyktighet">§ 3-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#3-6-forsikringgaranti">§ 3-6. Forsikring/garanti</a></li>
+<li class="lvl4"><a href="#3-7-sikkerhetsstyringssystem-mm">§ 3-7. Sikkerhetsstyringssystem m.m.</a></li>
+<li class="lvl4"><a href="#3-8-ansvaret-for-virksomheten">§ 3-8. Ansvaret for virksomheten</a></li>
+<li class="lvl4"><a href="#3-9-forbud-mot-overdragelse-ol">§ 3-9. Forbud mot overdragelse o.l.</a></li>
+<li class="lvl4"><a href="#3-10-tillatelsens-gyldighet">§ 3-10. Tillatelsens gyldighet</a></li>
+<li class="lvl4"><a href="#3-11-varsel-ved-vesentlige-endringer-av-betydning-for-tillatelsen">§ 3-11. Varsel ved vesentlige endringer av betydning for tillatelsen</a></li>
+<li class="lvl4"><a href="#3-12-suspensjon-og-tilbakekall">§ 3-12. Suspensjon og tilbakekall</a></li>
+<li class="lvl2"><a href="#kapittel-4-tillatelse-til-a-drive-infrastruktur">Kapittel 4. Tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-1-krav-om-tillatelse-til-a-drive-infrastruktur">§ 4-1. Krav om tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-2-vilkar-for-tillatelse-til-a-drive-infrastruktur">§ 4-2. Vilkår for tillatelse til å drive infrastruktur</a></li>
+<li class="lvl4"><a href="#4-3-vandel-og-konkurs">§ 4-3. Vandel og konkurs</a></li>
+<li class="lvl4"><a href="#4-4-konomisk-evne">§ 4-4. Økonomisk evne</a></li>
+<li class="lvl4"><a href="#4-5-faglig-dyktighet">§ 4-5. Faglig dyktighet</a></li>
+<li class="lvl4"><a href="#4-6-forsikringgaranti">§ 4-6. Forsikring/garanti</a></li>
+<li class="lvl4"><a href="#4-7-sikkerhetsstyringssystem-mm">§ 4-7. Sikkerhetsstyringssystem m.m.</a></li>
+<li class="lvl4"><a href="#4-8-ansvaret-for-virksomheten">§ 4-8. Ansvaret for virksomheten</a></li>
+<li class="lvl4"><a href="#4-9-forbud-mot-overdragelse-ol">§ 4-9. Forbud mot overdragelse o.l.</a></li>
+<li class="lvl4"><a href="#4-10-tillatelsens-gyldighet">§ 4-10. Tillatelsens gyldighet</a></li>
+<li class="lvl4"><a href="#4-11-varsel-ved-vesentlige-endringer-av-betydning-for-tillatelsen">§ 4-11. Varsel ved vesentlige endringer av betydning for tillatelsen</a></li>
+<li class="lvl4"><a href="#4-12-suspensjon-og-tilbakekall">§ 4-12. Suspensjon og tilbakekall</a></li>
+<li class="lvl2"><a href="#kapittel-5-saksbehandlingsregler-og-avsluttende-bestemmelser">Kapittel 5. Saksbehandlingsregler og avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#5-1-saksbehandlingsregler">§ 5-1. Saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#5-2-overgangsbestemmelser">§ 5-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#5-3-ikrafttredelse-mv">§ 5-3. Ikrafttredelse mv.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-12-10-1569.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2010-12-10-1569.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2010-12-10-1569.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2010-12-10-1569.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2010-12-10-1569.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-12-10-1569.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2010-12-10-1569.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2010-12-10-1569.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2010-12-10-1569.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-tillatelse-til-a-drive-trafikkvirksomhet-og-infrastruktur-for-sporvei-tunnelbane-forstadsbane-og-godsbane-samt-sidespor-havnespor-mm-tillatelsesforskriften">Forskrift om tillatelse til å drive trafikkvirksomhet og infrastruktur for sporvei, tunnelbane, forstadsbane og godsbane, samt sidespor, havnespor m.m. (tillatelsesforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Forskriften gjelder:</p>
@@ -92,7 +217,7 @@ b. infrastruktur: sporanlegg med tilhørende grunn og innretninger, signal- og s
 c. trafikkvirksomhet: person- og godstransport på infrastrukturen,
 d. trafikkstyring: togledelse og andre funksjoner som koordinerer og ivaretar sikkerheten for togfremføringen,
 e. jernbanevirksomhet: drift av infrastruktur, trafikkstyring og trafikkvirksomhet.</p>
-<p><em>Endret ved forskrift 20 des 2016 nr. 1771 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 20 des 2016 nr. 1771 (i kraft 1 jan 2017).</p>
 <h4 id="1-3-virksomhetstillatelser">§ 1-3. Virksomhetstillatelser</h4>
 <p>Virksomheter som vil drive trafikkvirksomhet må ha tillatelse etter kapittel 3 .</p>
 <p>Virksomheter som vil drive infrastruktur må ha tillatelse etter kapittel 4 .</p>
@@ -102,7 +227,7 @@ e. jernbanevirksomhet: drift av infrastruktur, trafikkstyring og trafikkvirksomh
 <h4 id="1-5-unntak">§ 1-5. Unntak</h4>
 <p>Med hjemmel i jernbaneloven § 2 bokstav a og b kan Samferdselsdepartementet unnta virksomheter som driver jernbanevirksomhet av svært begrenset omfang og der formålet ikke primært er transport av passasjerer eller gods fra lovens virkeområde og forskriften her.</p>
 <p>Ved avgjørelsen skal det bl.a. legges vekt på banens lengde, hastighet, driftsperiode, trafikkrisiko for passasjerer, tredjemann og omgivelsene for øvrig, samt om banen krysser vei. Baner som krysser offentlig vei vil ikke omfattes av unntaket.</p>
-<h4 id="1-6-myndighetene-oppgaver-delegering-mv">§ 1-6. Myndighetene oppgaver, delegering mv.</h4>
+<h4 id="1-6-myndighetene-oppgaver-delegering-mv">§ 1-6. Myndighetene oppgaver, delegering mv. <a class="para-history" href="../historikk/forskrift-2010-12-10-1569/para-1-6.html" title="Endringshistorikk for § 1-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Statens jernbanetilsyn gir tillatelser til å drive trafikkvirksomhet og infrastruktur.</p>
 <p>Statens jernbanetilsyn er tilsynsmyndighet i henhold til jernbaneloven § 3d , § 3e , § 3f , § 3g og § 13 .</p>
 <p>Statens jernbanetilsyn får den myndighet som tilligger departementet til bl.a. å godkjenne rullende materiell og infrastruktur mv. i henhold til jernbaneloven § 4 og § 5 .</p>
@@ -110,14 +235,14 @@ e. jernbanevirksomhet: drift av infrastruktur, trafikkstyring og trafikkvirksomh
 <p>Statens jernbanetilsyn kan i forskrift eller enkeltvedtak fastsette nærmere krav til og vilkår for å drive jernbanevirksomhet for å ivareta hensynet til en sikker og hensiktsmessig trafikkavvikling samt miljø etter jernbaneloven § 6 , og kan gi nærmere bestemmelser til forskriften her.</p>
 <p>Statens jernbanetilsyn kan i enkeltvedtak eller forskrift gjøre unntak fra forskriften her og tilpasse kravene til den virksomhet som drives.</p>
 <p>Samferdselsdepartementet godkjenner transportvilkår og tilleggsavgift for rutegående persontransport etter § 2-1 første ledd i forskriften her.</p>
-<p><em>Endret ved forskrift 17 mars 2017 nr. 332 .</em></p>
+<p class="note">Endret ved forskrift 17 mars 2017 nr. 332 .</p>
 <h4 id="1-7-opphevet-vedforskrift-14-jan-2011-nr-37">§ 1-7. (Opphevet vedforskrift 14 jan 2011 nr. 37.) <a class="para-history" href="../historikk/forskrift-2010-12-10-1569/para-1-7.html" title="Endringshistorikk for § 1-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <h2 id="kapittel-2-srskilte-vilkar-for-rutegaende-persontransport">Kapittel 2. Særskilte vilkår for rutegående persontransport</h2>
 <h4 id="2-1-srskilte-vilkar-for-rutegaende-persontransport">§ 2-1. Særskilte vilkår for rutegående persontransport <a class="para-history" href="../historikk/forskrift-2010-12-10-1569/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet skal godkjenne transportvilkår for jernbanevirksomheter som driver rutegående persontransport.</p>
 <p>Når fylkeskommunen eller kommunen gir tilskudd til lokal jernbane innen et fylke eller en kommune, fastsetter fylkeskommunen eller kommunen transportvilkår. Fylkeskommunens eller kommunens vedtak i saker om godkjenning av ruteplan, takster og tilskudd kan ikke påklages til departementet.</p>
 <p>Departementet skal godkjenne tilleggsavgift for reisende uten gyldig billett.</p>
-<p><em>Endret ved forskrift 23 mars 2018 nr. 517 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 23 mars 2018 nr. 517 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-3-tillatelse-til-a-drive-trafikkvirksomhet">Kapittel 3. Tillatelse til å drive trafikkvirksomhet</h2>
 <h4 id="3-1-krav-om-tillatelse-til-a-drive-trafikkvirksomhet">§ 3-1. Krav om tillatelse til å drive trafikkvirksomhet</h4>
 <p>Virksomheter som vil drive trafikkvirksomhet må ha tillatelse utstedt av Statens jernbanetilsyn.</p>
@@ -134,7 +259,7 @@ c. ikke er dømt for alvorlige eller gjentatte brudd på sosialrettslige eller a
 <h4 id="3-4-konomisk-evne">§ 3-4. Økonomisk evne</h4>
 <p>Virksomheten må ha tilfredsstillende økonomisk evne.</p>
 <p>For å dokumentere at kravet til økonomisk evne er oppfylt, må foretaket fremlegge en beskrivelse av virksomhetens økonomi og finansiering samt årsregnskap, eller dersom dette ikke er mulig, årsbalansen. Det må fremlegges attest for skatt og merverdiavgift.</p>
-<p><em>Endret ved forskrift 20 des 2016 nr. 1747 (i kraft 1 jan 2017).</em></p>
+<p class="note">Endret ved forskrift 20 des 2016 nr. 1747 (i kraft 1 jan 2017).</p>
 <h4 id="3-5-faglig-dyktighet">§ 3-5. Faglig dyktighet</h4>
 <p>Krav til faglig dyktighet er oppfylt når virksomheten har eller vil ha en ledelsesorganisasjon som har den kunnskap og/eller erfaring som er nødvendig for å utøve sikker og effektiv driftskontroll.</p>
 <p>For å dokumentere at kravene til faglig dyktighet er oppfylt, må det fremlegges følgende dokumentasjon:</p>
@@ -199,14 +324,16 @@ c. opplysninger om faglig dyktighet i ledelsesorganisasjonen, herunder kvalifika
 <h4 id="5-1-saksbehandlingsregler">§ 5-1. Saksbehandlingsregler <a class="para-history" href="../historikk/forskrift-2010-12-10-1569/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom ikke annet er særskilt bestemt i forskriften her, gjelder forvaltningslovens saksbehandlingsregler. Dette omfatter også at Statens jernbanetilsyn skal gi veiledning om hvordan tillatelser oppnås og hvilke krav som gjelder, herunder tilgang til forskrifter og eventuelle andre dokumenter som er aktuelle i forbindelse med søknader. Tilsynet kan også utgi veiledninger.</p>
 <p>Søknad om tillatelse etter forskriften her avgjøres så snart som mulig og senest tre måneder etter den dato da alle nødvendige opplysninger er fremlagt.</p>
-<p><em>Endret ved forskrift 14 jan 2011 nr. 37 .</em></p>
+<p class="note">Endret ved forskrift 14 jan 2011 nr. 37 .</p>
 <h4 id="5-2-overgangsbestemmelser">§ 5-2. Overgangsbestemmelser <a class="para-history" href="../historikk/forskrift-2010-12-10-1569/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Virksomheter som ikke var omfattet av tillatelsesforskriften 16. desember 2005 nr. 1489 og som kommer inn under forskriften her, må ha søkt om og fått tillatelser etter kapittel 3 og 4 innen 1. juli 2013.</p>
 <p>Virksomheter som var omfattet av tillatelsesforskriften 16. desember 2005 nr. 1489 og som ikke oppfyller krav om tillatelser etter kapittel 3 og 4, må ha søkt om og fått tillatelser innen 1. januar 2016.</p>
-<p><em>Endret ved forskrift 14 des 2012 nr. 1263 .</em></p>
+<p class="note">Endret ved forskrift 14 des 2012 nr. 1263 .</p>
 <h4 id="5-3-ikrafttredelse-mv">§ 5-3. Ikrafttredelse mv.</h4>
 <p>Forskriften trer i kraft 1. januar 2011. Samtidig oppheves tillatelsesforskriften 16. desember 2005 nr. 1489 .</p>
 <p>Forskrifter gitt med hjemmel i tillatelsesforskriften 16. desember 2005 nr. 1489 gjelder fortsatt etter at forskriften her trer i kraft.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

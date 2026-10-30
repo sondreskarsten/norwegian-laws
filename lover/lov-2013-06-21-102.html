@@ -19,64 +19,335 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2013-06-21-102.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Skipsarbeidsloven" href="../feeds/lov-2013-06-21-102.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Skipsarbeidsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2013-06-21-102</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nTransport og kommunikasjoner &raquo; Skipsfart</dd>
-<dt>Ikrafttredelse</dt><dd>2013-08-20, 2014-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-04-10-14</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2013-06-21-102" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-ufravikelighet">§ 1-3. Ufravikelighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-arbeidsgiverens-og-rederiets-plikter-mv">Kapittel 2. Arbeidsgiverens og rederiets plikter mv.</a></li>
+<li class="lvl4"><a href="#2-1-arbeidsgiveren">§ 2-1. Arbeidsgiveren</a></li>
+<li class="lvl4"><a href="#2-2-arbeidsgiverens-alminnelige-plikter-og-ansvar">§ 2-2. Arbeidsgiverens alminnelige plikter og ansvar</a></li>
+<li class="lvl4"><a href="#2-3-rederiet">§ 2-3. Rederiet</a></li>
+<li class="lvl4"><a href="#2-4-rederiets-alminnelige-plikter-og-ansvar-mv">§ 2-4. Rederiets alminnelige plikter og ansvar mv.</a></li>
+<li class="lvl4"><a href="#2-5-arbeidstakerens-krav-mot-rederiet">§ 2-5. Arbeidstakerens krav mot rederiet</a></li>
+<li class="lvl4"><a href="#2-6-varsling-om-kritikkverdige-forhold">§ 2-6. Varsling om kritikkverdige forhold</a></li>
+<li class="lvl4"><a href="#2-7-vern-mot-gjengjeldelse-ved-varsling">§ 2-7. Vern mot gjengjeldelse ved varsling</a></li>
+<li class="lvl2"><a href="#kapittel-3-ansettelse-mv">Kapittel 3. Ansettelse mv.</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-skriftlig-arbeidsavtale">§ 3-1. Krav om skriftlig arbeidsavtale</a></li>
+<li class="lvl4"><a href="#3-2-ansettelse-med-prvetid">§ 3-2. Ansettelse med prøvetid</a></li>
+<li class="lvl4"><a href="#3-3-informasjon-om-ledige-stillinger-i-virksomheten">§ 3-3. Informasjon om ledige stillinger i virksomheten</a></li>
+<li class="lvl4"><a href="#3-4-midlertidig-ansettelse">§ 3-4. Midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#3-5-virkninger-av-ulovlig-midlertidig-ansettelse">§ 3-5. Virkninger av ulovlig midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#3-6-fortrinnsrett-til-ny-ansettelse">§ 3-6. Fortrinnsrett til ny ansettelse</a></li>
+<li class="lvl4"><a href="#3-7-fortrinnsrett-for-deltidsansatte">§ 3-7. Fortrinnsrett for deltidsansatte</a></li>
+<li class="lvl4"><a href="#3-8-virkninger-av-brudd-pa-reglene-om-fortrinnsrett">§ 3-8. Virkninger av brudd på reglene om fortrinnsrett</a></li>
+<li class="lvl4"><a href="#3-9-bruk-av-arbeidsformidlingsvirksomhet">§ 3-9. Bruk av arbeidsformidlingsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-4-lnn-mv">Kapittel 4. Lønn mv.</a></li>
+<li class="lvl4"><a href="#4-1-beregning-av-lnn">§ 4-1. Beregning av lønn</a></li>
+<li class="lvl4"><a href="#4-2-utbetaling-av-lnn-og-feriepenger">§ 4-2. Utbetaling av lønn og feriepenger</a></li>
+<li class="lvl4"><a href="#4-3-trekk-i-lnn-og-feriepenger">§ 4-3. Trekk i lønn og feriepenger</a></li>
+<li class="lvl4"><a href="#4-4-lnn-ved-sykdom-og-skade">§ 4-4. Lønn ved sykdom og skade</a></li>
+<li class="lvl4"><a href="#4-5-lnn-ved-skipsforlis">§ 4-5. Lønn ved skipsforlis</a></li>
+<li class="lvl4"><a href="#4-5-a-arbeidsavtalens-gyldighet-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 4-5 a. Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ran</a></li>
+<li class="lvl4"><a href="#4-6-rett-til-fri-hjemreise">§ 4-6. Rett til fri hjemreise</a></li>
+<li class="lvl4"><a href="#4-7-rederiets-garantiplikt">§ 4-7. Rederiets garantiplikt</a></li>
+<li class="lvl4"><a href="#4-8-rederiets-inntreden-i-arbeidstakers-rettigheter">§ 4-8. Rederiets inntreden i arbeidstakers rettigheter</a></li>
+<li class="lvl4"><a href="#4-9-folkerettslige-forpliktelser-om-trygdekoordinering">§ 4-9. Folkerettslige forpliktelser om trygdekoordinering</a></li>
+<li class="lvl2"><a href="#kapittel-5-opphr-av-arbeidsforhold">Kapittel 5. Opphør av arbeidsforhold</a></li>
+<li class="lvl4"><a href="#5-1-drfting-fr-beslutning-om-oppsigelse">§ 5-1. Drøfting før beslutning om oppsigelse</a></li>
+<li class="lvl4"><a href="#5-2-oppsigelsesfrister">§ 5-2. Oppsigelsesfrister</a></li>
+<li class="lvl4"><a href="#5-3-formkrav-ved-oppsigelse">§ 5-3. Formkrav ved oppsigelse</a></li>
+<li class="lvl4"><a href="#5-4-virkninger-av-formfeil-ved-oppsigelse">§ 5-4. Virkninger av formfeil ved oppsigelse</a></li>
+<li class="lvl4"><a href="#5-5-oppsigelsesvern-i-arbeidsavtaler-med-bestemt-prvetid">§ 5-5. Oppsigelsesvern i arbeidsavtaler med bestemt prøvetid</a></li>
+<li class="lvl4"><a href="#5-6-vern-mot-usaklig-oppsigelse">§ 5-6. Vern mot usaklig oppsigelse</a></li>
+<li class="lvl4"><a href="#5-7-oppsigelsesvern-ved-sykdom-eller-skade">§ 5-7. Oppsigelsesvern ved sykdom eller skade</a></li>
+<li class="lvl4"><a href="#5-8-oppsigelsesvern-ved-svangerskap-og-etter-fdsel-eller-adopsjon">§ 5-8. Oppsigelsesvern ved svangerskap og etter fødsel eller adopsjon</a></li>
+<li class="lvl4"><a href="#5-9-oppsigelsesvern-ved-militrtjeneste-mv">§ 5-9. Oppsigelsesvern ved militærtjeneste mv.</a></li>
+<li class="lvl4"><a href="#5-9-a-vern-mot-opphr-av-arbeidsforhold-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 5-9 a. Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ran</a></li>
+<li class="lvl4"><a href="#5-10-rett-til-a-fortsette-i-stillingen">§ 5-10. Rett til å fortsette i stillingen</a></li>
+<li class="lvl4"><a href="#5-11-virkninger-av-usaklig-oppsigelse">§ 5-11. Virkninger av usaklig oppsigelse</a></li>
+<li class="lvl4"><a href="#5-12-opphr-av-arbeidsforhold-grunnet-alder">§ 5-12. Opphør av arbeidsforhold grunnet alder</a></li>
+<li class="lvl4"><a href="#5-13-suspensjon">§ 5-13. Suspensjon</a></li>
+<li class="lvl4"><a href="#5-14-avskjed">§ 5-14. Avskjed</a></li>
+<li class="lvl4"><a href="#5-15-fratredelseshavn-ved-arbeidsforholdets-opphr">§ 5-15. Fratredelseshavn ved arbeidsforholdets opphør</a></li>
+<li class="lvl4"><a href="#5-16-attest">§ 5-16. Attest</a></li>
+<li class="lvl2"><a href="#kapittel-5-a-arbeidstakernes-rettigheter-ved-virksomhetsoverdragelse">Kapittel 5 A. Arbeidstakernes rettigheter ved virksomhetsoverdragelse</a></li>
+<li class="lvl4"><a href="#5-a-1-kapitlets-virkeomrade">§ 5 A-1. Kapitlets virkeområde</a></li>
+<li class="lvl4"><a href="#5-a-2-vern-mot-oppsigelse">§ 5 A-2. Vern mot oppsigelse</a></li>
+<li class="lvl4"><a href="#5-a-3-lnns-og-arbeidsvilkar">§ 5 A-3. Lønns- og arbeidsvilkår</a></li>
+<li class="lvl4"><a href="#5-a-4-representasjon">§ 5 A-4. Representasjon</a></li>
+<li class="lvl4"><a href="#5-a-5-informasjon-og-drfting">§ 5 A-5. Informasjon og drøfting</a></li>
+<li class="lvl2"><a href="#kapittel-6-tvister-om-arbeidsforhold">Kapittel 6. Tvister om arbeidsforhold</a></li>
+<li class="lvl4"><a href="#6-1-rett-til-a-kreve-forhandlinger">§ 6-1. Rett til å kreve forhandlinger</a></li>
+<li class="lvl4"><a href="#6-2-sksmalsfrister">§ 6-2. Søksmålsfrister</a></li>
+<li class="lvl4"><a href="#6-3-fristforlengelse-og-oppfriskning">§ 6-3. Fristforlengelse og oppfriskning</a></li>
+<li class="lvl4"><a href="#6-4-tvister-i-norge-om-arbeidsforhold">§ 6-4. Tvister i Norge om arbeidsforhold</a></li>
+<li class="lvl4"><a href="#6-5-tvister-i-utlandet-om-arbeidsforhold">§ 6-5. Tvister i utlandet om arbeidsforhold</a></li>
+<li class="lvl2"><a href="#kapittel-7-rett-til-permisjon">Kapittel 7. Rett til permisjon</a></li>
+<li class="lvl4"><a href="#7-1-svangerskapskontroll">§ 7-1. Svangerskapskontroll</a></li>
+<li class="lvl4"><a href="#7-2-svangerskapspermisjon">§ 7-2. Svangerskapspermisjon</a></li>
+<li class="lvl4"><a href="#7-3-omsorgspermisjon">§ 7-3. Omsorgspermisjon</a></li>
+<li class="lvl4"><a href="#7-4-fdselspermisjon">§ 7-4. Fødselspermisjon</a></li>
+<li class="lvl4"><a href="#7-5-foreldrepermisjon">§ 7-5. Foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#7-6-delvis-permisjon">§ 7-6. Delvis permisjon</a></li>
+<li class="lvl4"><a href="#7-7-varslingsplikt">§ 7-7. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#7-8-barns-og-barnepassers-sykdom">§ 7-8. Barns og barnepassers sykdom</a></li>
+<li class="lvl4"><a href="#7-9-omsorg-for-og-pleie-av-nre-parrende">§ 7-9. Omsorg for og pleie av nære pårørende</a></li>
+<li class="lvl4"><a href="#7-10-utdanningspermisjon">§ 7-10. Utdanningspermisjon</a></li>
+<li class="lvl4"><a href="#7-11-militrtjeneste-mv">§ 7-11. Militærtjeneste mv.</a></li>
+<li class="lvl4"><a href="#7-12-offentlige-verv">§ 7-12. Offentlige verv</a></li>
+<li class="lvl2"><a href="#kapittel-8-rederiets-og-skipsfrerens-omsorgsplikter">Kapittel 8. Rederiets og skipsførerens omsorgsplikter</a></li>
+<li class="lvl4"><a href="#8-1-omsorgsplikt-ved-sykdom-og-skade">§ 8-1. Omsorgsplikt ved sykdom og skade</a></li>
+<li class="lvl4"><a href="#8-2-omsorgsplikt-ved-ddsfall-og-begravelse">§ 8-2. Omsorgsplikt ved dødsfall og begravelse</a></li>
+<li class="lvl4"><a href="#8-3-omkostningsdekning">§ 8-3. Omkostningsdekning</a></li>
+<li class="lvl4"><a href="#8-4-erstatning-for-eiendeler">§ 8-4. Erstatning for eiendeler</a></li>
+<li class="lvl4"><a href="#8-5-eiendeler-som-etterlates-om-bord">§ 8-5. Eiendeler som etterlates om bord</a></li>
+<li class="lvl2"><a href="#kapittel-9-skipstjenesten">Kapittel 9. Skipstjenesten</a></li>
+<li class="lvl4"><a href="#9-1-kontrolltiltak">§ 9-1. Kontrolltiltak</a></li>
+<li class="lvl4"><a href="#9-2-rett-til-a-ta-med-eiendeler-om-bord">§ 9-2. Rett til å ta med eiendeler om bord</a></li>
+<li class="lvl4"><a href="#9-3-skipsfrerens-plikter-ved-alvorlige-straffbare-handlinger-om-bord">§ 9-3. Skipsførerens plikter ved alvorlige straffbare handlinger om bord</a></li>
+<li class="lvl4"><a href="#9-4-rett-til-a-ga-i-land-i-fritiden">§ 9-4. Rett til å gå i land i fritiden</a></li>
+<li class="lvl4"><a href="#9-5-rett-til-a-fratre">§ 9-5. Rett til å fratre</a></li>
+<li class="lvl4"><a href="#9-6-bestemmelser-som-skal-vre-tilgjengelige">§ 9-6. Bestemmelser som skal være tilgjengelige</a></li>
+<li class="lvl4"><a href="#9-7-rett-til-a-fremsette-klage">§ 9-7. Rett til å fremsette klage</a></li>
+<li class="lvl2"><a href="#kapittel-10-vern-mot-diskriminering">Kapittel 10. Vern mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-1-forbud-mot-diskriminering">§ 10-1. Forbud mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-2-hva-kapitlet-omfatter">§ 10-2. Hva kapitlet omfatter</a></li>
+<li class="lvl4"><a href="#10-3-unntak-fra-forbudet-mot-diskriminering">§ 10-3. Unntak fra forbudet mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-4-innhenting-av-opplysninger-ved-ansettelse">§ 10-4. Innhenting av opplysninger ved ansettelse</a></li>
+<li class="lvl4"><a href="#10-5-positiv-srbehandling">§ 10-5. Positiv særbehandling</a></li>
+<li class="lvl4"><a href="#10-6-opplysningsplikt">§ 10-6. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#10-7-forbud-mot-gjengjeldelse">§ 10-7. Forbud mot gjengjeldelse</a></li>
+<li class="lvl4"><a href="#10-8-bevisbyrde">§ 10-8. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#10-9-virkningene-av-brudd-pa-diskrimineringsforbudet">§ 10-9. Virkningene av brudd på diskrimineringsforbudet</a></li>
+<li class="lvl2"><a href="#kapittel-11-informasjon-og-drfting">Kapittel 11. Informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-1-plikt-til-informasjon-og-drfting">§ 11-1. Plikt til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-2-gjennomfring-av-plikten-til-informasjon-og-drfting">§ 11-2. Gjennomføring av plikten til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-3-fortrolige-opplysninger">§ 11-3. Fortrolige opplysninger</a></li>
+<li class="lvl4"><a href="#11-4-opphevet">§ 11-4. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-12-tilsyn-og-sanksjoner">Kapittel 12. Tilsyn og sanksjoner</a></li>
+<li class="lvl4"><a href="#12-1-tilsyn-og-sertifisering">§ 12-1. Tilsyn og sertifisering</a></li>
+<li class="lvl4"><a href="#12-2-forvaltningstiltak">§ 12-2. Forvaltningstiltak</a></li>
+<li class="lvl4"><a href="#12-3-overtredelsesgebyr">§ 12-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-4-straff">§ 12-4. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-13-vrige-bestemmelser">Kapittel 13. Øvrige bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-04-10-14.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-102.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-06-21-102.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2013-06-21-102 <code>lov/2013-06-21-102</code></td></tr>
+<tr><th>Korttittel</th><td>Skipsarbeidsloven</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett\nEU/EØS-rett &raquo; Arbeids- og sosialpolitikk\nTransport og kommunikasjoner &raquo; Skipsfart</td></tr>
+<tr><th>Ikrafttredelse</th><td>20.08.2013, 01.01.2014</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-04-10-14 <code>lov/2026-04-10-14</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2013-06-21-102" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-formal">§ 1-1. Lovens formål</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-ufravikelighet">§ 1-3. Ufravikelighet</a></li>
+<li class="lvl2"><a href="#kapittel-2-arbeidsgiverens-og-rederiets-plikter-mv">Kapittel 2. Arbeidsgiverens og rederiets plikter mv.</a></li>
+<li class="lvl4"><a href="#2-1-arbeidsgiveren">§ 2-1. Arbeidsgiveren</a></li>
+<li class="lvl4"><a href="#2-2-arbeidsgiverens-alminnelige-plikter-og-ansvar">§ 2-2. Arbeidsgiverens alminnelige plikter og ansvar</a></li>
+<li class="lvl4"><a href="#2-3-rederiet">§ 2-3. Rederiet</a></li>
+<li class="lvl4"><a href="#2-4-rederiets-alminnelige-plikter-og-ansvar-mv">§ 2-4. Rederiets alminnelige plikter og ansvar mv.</a></li>
+<li class="lvl4"><a href="#2-5-arbeidstakerens-krav-mot-rederiet">§ 2-5. Arbeidstakerens krav mot rederiet</a></li>
+<li class="lvl4"><a href="#2-6-varsling-om-kritikkverdige-forhold">§ 2-6. Varsling om kritikkverdige forhold</a></li>
+<li class="lvl4"><a href="#2-7-vern-mot-gjengjeldelse-ved-varsling">§ 2-7. Vern mot gjengjeldelse ved varsling</a></li>
+<li class="lvl2"><a href="#kapittel-3-ansettelse-mv">Kapittel 3. Ansettelse mv.</a></li>
+<li class="lvl4"><a href="#3-1-krav-om-skriftlig-arbeidsavtale">§ 3-1. Krav om skriftlig arbeidsavtale</a></li>
+<li class="lvl4"><a href="#3-2-ansettelse-med-prvetid">§ 3-2. Ansettelse med prøvetid</a></li>
+<li class="lvl4"><a href="#3-3-informasjon-om-ledige-stillinger-i-virksomheten">§ 3-3. Informasjon om ledige stillinger i virksomheten</a></li>
+<li class="lvl4"><a href="#3-4-midlertidig-ansettelse">§ 3-4. Midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#3-5-virkninger-av-ulovlig-midlertidig-ansettelse">§ 3-5. Virkninger av ulovlig midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#3-6-fortrinnsrett-til-ny-ansettelse">§ 3-6. Fortrinnsrett til ny ansettelse</a></li>
+<li class="lvl4"><a href="#3-7-fortrinnsrett-for-deltidsansatte">§ 3-7. Fortrinnsrett for deltidsansatte</a></li>
+<li class="lvl4"><a href="#3-8-virkninger-av-brudd-pa-reglene-om-fortrinnsrett">§ 3-8. Virkninger av brudd på reglene om fortrinnsrett</a></li>
+<li class="lvl4"><a href="#3-9-bruk-av-arbeidsformidlingsvirksomhet">§ 3-9. Bruk av arbeidsformidlingsvirksomhet</a></li>
+<li class="lvl2"><a href="#kapittel-4-lnn-mv">Kapittel 4. Lønn mv.</a></li>
+<li class="lvl4"><a href="#4-1-beregning-av-lnn">§ 4-1. Beregning av lønn</a></li>
+<li class="lvl4"><a href="#4-2-utbetaling-av-lnn-og-feriepenger">§ 4-2. Utbetaling av lønn og feriepenger</a></li>
+<li class="lvl4"><a href="#4-3-trekk-i-lnn-og-feriepenger">§ 4-3. Trekk i lønn og feriepenger</a></li>
+<li class="lvl4"><a href="#4-4-lnn-ved-sykdom-og-skade">§ 4-4. Lønn ved sykdom og skade</a></li>
+<li class="lvl4"><a href="#4-5-lnn-ved-skipsforlis">§ 4-5. Lønn ved skipsforlis</a></li>
+<li class="lvl4"><a href="#4-5-a-arbeidsavtalens-gyldighet-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 4-5 a. Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ran</a></li>
+<li class="lvl4"><a href="#4-6-rett-til-fri-hjemreise">§ 4-6. Rett til fri hjemreise</a></li>
+<li class="lvl4"><a href="#4-7-rederiets-garantiplikt">§ 4-7. Rederiets garantiplikt</a></li>
+<li class="lvl4"><a href="#4-8-rederiets-inntreden-i-arbeidstakers-rettigheter">§ 4-8. Rederiets inntreden i arbeidstakers rettigheter</a></li>
+<li class="lvl4"><a href="#4-9-folkerettslige-forpliktelser-om-trygdekoordinering">§ 4-9. Folkerettslige forpliktelser om trygdekoordinering</a></li>
+<li class="lvl2"><a href="#kapittel-5-opphr-av-arbeidsforhold">Kapittel 5. Opphør av arbeidsforhold</a></li>
+<li class="lvl4"><a href="#5-1-drfting-fr-beslutning-om-oppsigelse">§ 5-1. Drøfting før beslutning om oppsigelse</a></li>
+<li class="lvl4"><a href="#5-2-oppsigelsesfrister">§ 5-2. Oppsigelsesfrister</a></li>
+<li class="lvl4"><a href="#5-3-formkrav-ved-oppsigelse">§ 5-3. Formkrav ved oppsigelse</a></li>
+<li class="lvl4"><a href="#5-4-virkninger-av-formfeil-ved-oppsigelse">§ 5-4. Virkninger av formfeil ved oppsigelse</a></li>
+<li class="lvl4"><a href="#5-5-oppsigelsesvern-i-arbeidsavtaler-med-bestemt-prvetid">§ 5-5. Oppsigelsesvern i arbeidsavtaler med bestemt prøvetid</a></li>
+<li class="lvl4"><a href="#5-6-vern-mot-usaklig-oppsigelse">§ 5-6. Vern mot usaklig oppsigelse</a></li>
+<li class="lvl4"><a href="#5-7-oppsigelsesvern-ved-sykdom-eller-skade">§ 5-7. Oppsigelsesvern ved sykdom eller skade</a></li>
+<li class="lvl4"><a href="#5-8-oppsigelsesvern-ved-svangerskap-og-etter-fdsel-eller-adopsjon">§ 5-8. Oppsigelsesvern ved svangerskap og etter fødsel eller adopsjon</a></li>
+<li class="lvl4"><a href="#5-9-oppsigelsesvern-ved-militrtjeneste-mv">§ 5-9. Oppsigelsesvern ved militærtjeneste mv.</a></li>
+<li class="lvl4"><a href="#5-9-a-vern-mot-opphr-av-arbeidsforhold-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 5-9 a. Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ran</a></li>
+<li class="lvl4"><a href="#5-10-rett-til-a-fortsette-i-stillingen">§ 5-10. Rett til å fortsette i stillingen</a></li>
+<li class="lvl4"><a href="#5-11-virkninger-av-usaklig-oppsigelse">§ 5-11. Virkninger av usaklig oppsigelse</a></li>
+<li class="lvl4"><a href="#5-12-opphr-av-arbeidsforhold-grunnet-alder">§ 5-12. Opphør av arbeidsforhold grunnet alder</a></li>
+<li class="lvl4"><a href="#5-13-suspensjon">§ 5-13. Suspensjon</a></li>
+<li class="lvl4"><a href="#5-14-avskjed">§ 5-14. Avskjed</a></li>
+<li class="lvl4"><a href="#5-15-fratredelseshavn-ved-arbeidsforholdets-opphr">§ 5-15. Fratredelseshavn ved arbeidsforholdets opphør</a></li>
+<li class="lvl4"><a href="#5-16-attest">§ 5-16. Attest</a></li>
+<li class="lvl2"><a href="#kapittel-5-a-arbeidstakernes-rettigheter-ved-virksomhetsoverdragelse">Kapittel 5 A. Arbeidstakernes rettigheter ved virksomhetsoverdragelse</a></li>
+<li class="lvl4"><a href="#5-a-1-kapitlets-virkeomrade">§ 5 A-1. Kapitlets virkeområde</a></li>
+<li class="lvl4"><a href="#5-a-2-vern-mot-oppsigelse">§ 5 A-2. Vern mot oppsigelse</a></li>
+<li class="lvl4"><a href="#5-a-3-lnns-og-arbeidsvilkar">§ 5 A-3. Lønns- og arbeidsvilkår</a></li>
+<li class="lvl4"><a href="#5-a-4-representasjon">§ 5 A-4. Representasjon</a></li>
+<li class="lvl4"><a href="#5-a-5-informasjon-og-drfting">§ 5 A-5. Informasjon og drøfting</a></li>
+<li class="lvl2"><a href="#kapittel-6-tvister-om-arbeidsforhold">Kapittel 6. Tvister om arbeidsforhold</a></li>
+<li class="lvl4"><a href="#6-1-rett-til-a-kreve-forhandlinger">§ 6-1. Rett til å kreve forhandlinger</a></li>
+<li class="lvl4"><a href="#6-2-sksmalsfrister">§ 6-2. Søksmålsfrister</a></li>
+<li class="lvl4"><a href="#6-3-fristforlengelse-og-oppfriskning">§ 6-3. Fristforlengelse og oppfriskning</a></li>
+<li class="lvl4"><a href="#6-4-tvister-i-norge-om-arbeidsforhold">§ 6-4. Tvister i Norge om arbeidsforhold</a></li>
+<li class="lvl4"><a href="#6-5-tvister-i-utlandet-om-arbeidsforhold">§ 6-5. Tvister i utlandet om arbeidsforhold</a></li>
+<li class="lvl2"><a href="#kapittel-7-rett-til-permisjon">Kapittel 7. Rett til permisjon</a></li>
+<li class="lvl4"><a href="#7-1-svangerskapskontroll">§ 7-1. Svangerskapskontroll</a></li>
+<li class="lvl4"><a href="#7-2-svangerskapspermisjon">§ 7-2. Svangerskapspermisjon</a></li>
+<li class="lvl4"><a href="#7-3-omsorgspermisjon">§ 7-3. Omsorgspermisjon</a></li>
+<li class="lvl4"><a href="#7-4-fdselspermisjon">§ 7-4. Fødselspermisjon</a></li>
+<li class="lvl4"><a href="#7-5-foreldrepermisjon">§ 7-5. Foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#7-6-delvis-permisjon">§ 7-6. Delvis permisjon</a></li>
+<li class="lvl4"><a href="#7-7-varslingsplikt">§ 7-7. Varslingsplikt</a></li>
+<li class="lvl4"><a href="#7-8-barns-og-barnepassers-sykdom">§ 7-8. Barns og barnepassers sykdom</a></li>
+<li class="lvl4"><a href="#7-9-omsorg-for-og-pleie-av-nre-parrende">§ 7-9. Omsorg for og pleie av nære pårørende</a></li>
+<li class="lvl4"><a href="#7-10-utdanningspermisjon">§ 7-10. Utdanningspermisjon</a></li>
+<li class="lvl4"><a href="#7-11-militrtjeneste-mv">§ 7-11. Militærtjeneste mv.</a></li>
+<li class="lvl4"><a href="#7-12-offentlige-verv">§ 7-12. Offentlige verv</a></li>
+<li class="lvl2"><a href="#kapittel-8-rederiets-og-skipsfrerens-omsorgsplikter">Kapittel 8. Rederiets og skipsførerens omsorgsplikter</a></li>
+<li class="lvl4"><a href="#8-1-omsorgsplikt-ved-sykdom-og-skade">§ 8-1. Omsorgsplikt ved sykdom og skade</a></li>
+<li class="lvl4"><a href="#8-2-omsorgsplikt-ved-ddsfall-og-begravelse">§ 8-2. Omsorgsplikt ved dødsfall og begravelse</a></li>
+<li class="lvl4"><a href="#8-3-omkostningsdekning">§ 8-3. Omkostningsdekning</a></li>
+<li class="lvl4"><a href="#8-4-erstatning-for-eiendeler">§ 8-4. Erstatning for eiendeler</a></li>
+<li class="lvl4"><a href="#8-5-eiendeler-som-etterlates-om-bord">§ 8-5. Eiendeler som etterlates om bord</a></li>
+<li class="lvl2"><a href="#kapittel-9-skipstjenesten">Kapittel 9. Skipstjenesten</a></li>
+<li class="lvl4"><a href="#9-1-kontrolltiltak">§ 9-1. Kontrolltiltak</a></li>
+<li class="lvl4"><a href="#9-2-rett-til-a-ta-med-eiendeler-om-bord">§ 9-2. Rett til å ta med eiendeler om bord</a></li>
+<li class="lvl4"><a href="#9-3-skipsfrerens-plikter-ved-alvorlige-straffbare-handlinger-om-bord">§ 9-3. Skipsførerens plikter ved alvorlige straffbare handlinger om bord</a></li>
+<li class="lvl4"><a href="#9-4-rett-til-a-ga-i-land-i-fritiden">§ 9-4. Rett til å gå i land i fritiden</a></li>
+<li class="lvl4"><a href="#9-5-rett-til-a-fratre">§ 9-5. Rett til å fratre</a></li>
+<li class="lvl4"><a href="#9-6-bestemmelser-som-skal-vre-tilgjengelige">§ 9-6. Bestemmelser som skal være tilgjengelige</a></li>
+<li class="lvl4"><a href="#9-7-rett-til-a-fremsette-klage">§ 9-7. Rett til å fremsette klage</a></li>
+<li class="lvl2"><a href="#kapittel-10-vern-mot-diskriminering">Kapittel 10. Vern mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-1-forbud-mot-diskriminering">§ 10-1. Forbud mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-2-hva-kapitlet-omfatter">§ 10-2. Hva kapitlet omfatter</a></li>
+<li class="lvl4"><a href="#10-3-unntak-fra-forbudet-mot-diskriminering">§ 10-3. Unntak fra forbudet mot diskriminering</a></li>
+<li class="lvl4"><a href="#10-4-innhenting-av-opplysninger-ved-ansettelse">§ 10-4. Innhenting av opplysninger ved ansettelse</a></li>
+<li class="lvl4"><a href="#10-5-positiv-srbehandling">§ 10-5. Positiv særbehandling</a></li>
+<li class="lvl4"><a href="#10-6-opplysningsplikt">§ 10-6. Opplysningsplikt</a></li>
+<li class="lvl4"><a href="#10-7-forbud-mot-gjengjeldelse">§ 10-7. Forbud mot gjengjeldelse</a></li>
+<li class="lvl4"><a href="#10-8-bevisbyrde">§ 10-8. Bevisbyrde</a></li>
+<li class="lvl4"><a href="#10-9-virkningene-av-brudd-pa-diskrimineringsforbudet">§ 10-9. Virkningene av brudd på diskrimineringsforbudet</a></li>
+<li class="lvl2"><a href="#kapittel-11-informasjon-og-drfting">Kapittel 11. Informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-1-plikt-til-informasjon-og-drfting">§ 11-1. Plikt til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-2-gjennomfring-av-plikten-til-informasjon-og-drfting">§ 11-2. Gjennomføring av plikten til informasjon og drøfting</a></li>
+<li class="lvl4"><a href="#11-3-fortrolige-opplysninger">§ 11-3. Fortrolige opplysninger</a></li>
+<li class="lvl4"><a href="#11-4-opphevet">§ 11-4. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-12-tilsyn-og-sanksjoner">Kapittel 12. Tilsyn og sanksjoner</a></li>
+<li class="lvl4"><a href="#12-1-tilsyn-og-sertifisering">§ 12-1. Tilsyn og sertifisering</a></li>
+<li class="lvl4"><a href="#12-2-forvaltningstiltak">§ 12-2. Forvaltningstiltak</a></li>
+<li class="lvl4"><a href="#12-3-overtredelsesgebyr">§ 12-3. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-4-straff">§ 12-4. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-13-vrige-bestemmelser">Kapittel 13. Øvrige bestemmelser</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-102.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-06-21-102.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-06-21-102.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2013-06-21-102.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2013-06-21-102.html">Observerte kildeutgaver</a> · <a href="../historie/skipsarbeidsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2013-06-21-102.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2013-06-21-102.html">Observerte kildeutgaver</a> · <a href="../historie/skipsarbeidsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2013-06-21-102.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-stillingsvern-mv-for-arbeidstakere-pa-skip-skipsarbeidsloven">Lov om stillingsvern mv. for arbeidstakere på skip (skipsarbeidsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-lovens-formal">§ 1-1. Lovens formål</h4>
 <p>Lovens formål er:</p>
@@ -95,7 +366,7 @@ b. gjør tjeneste på Forsvarets skip, med unntak av sivilt personell på skip b
 b. i hvilken utstrekning loven skal gjelde for arbeidstaker som omfattes av <a href="lov-2017-06-16-67.html">statsansatteloven</a> ,
 c. hva som etter loven er å anse som skip,
 d. hvorvidt og i hvilken utstrekning loven skal gjelde for arbeidstaker som har sitt arbeid om bord på annen innretning i sjøen enn skip, og utenlandsk skip så langt folkeretten tillater det og skipet befinner seg i Norges territorialfarvann, herunder i Svalbards eller Jan Mayens territorialfarvann.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 122 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 122 .</p>
 <h4 id="1-3-ufravikelighet">§ 1-3. Ufravikelighet</h4>
 <p>(1) Loven kan ikke fravikes ved avtale til ugunst for arbeidstaker, med mindre det er særskilt fastsatt i loven eller i forskrift gitt med hjemmel i loven.</p>
 <p>(2) For arbeidstaker som har sitt arbeid om bord på skip registrert i norsk internasjonalt skipsregister (NIS) fastsetter <a href="lov-1987-06-12-48.html">NIS-loven</a> § 8 første ledd om og i hvilken utstrekning loven kan fravikes.</p>
@@ -138,12 +409,12 @@ d. hvorvidt og i hvilken utstrekning loven skal gjelde for arbeidstaker som har 
 b. kontraktsformular,
 c. unntak fra annet ledd når det er nødvendig på grunn av særlige forhold utenfor partenes kontroll,
 d. krav til endring av arbeidsavtalen eller til skriftlig informasjon til arbeidstaker ved endringer i arbeidsforholdet.</p>
-<p><em>Endret ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</em></p>
+<p class="note">Endret ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</p>
 <h4 id="3-2-ansettelse-med-prvetid">§ 3-2. Ansettelse med prøvetid <a class="para-history" href="../historikk/lov-2013-06-21-102/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Prøvetid på inntil seks måneder kan avtales skriftlig. Ved midlertidig ansettelse kan prøvetiden ikke overstige halvparten av ansettelsesforholdets varighet.</p>
 <p>(2) Har arbeidstakeren vært fraværende fra arbeidet i prøvetiden og dette ikke skyldes arbeidsgiveren, kan prøvetiden etter første ledd forlenges med en periode som tilsvarer lengden av fraværet. Forlengelse kan bare skje dersom arbeidsgiver har orientert arbeidstaker skriftlig både om adgangen til forlengelse ved ansettelsen og om forlengelsen innen utløpet av prøveperioden.</p>
 <p>(3) Det kan ikke avtales ny prøvetid dersom arbeidstaker skal fortsette i samme stilling eller i en stilling som i det vesentlige er likeartet stillingen arbeidstakeren har hatt i samme virksomhet. Ved fast ansettelse kan ny prøvetid likevel avtales dersom arbeidstakerens tidligere ansettelsestid og ny prøvetid samlet ikke overstiger seks måneder.</p>
-<p><em>Endret ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</em></p>
+<p class="note">Endret ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</p>
 <h4 id="3-3-informasjon-om-ledige-stillinger-i-virksomheten">§ 3-3. Informasjon om ledige stillinger i virksomheten</h4>
 <p>Arbeidsgiver skal informere arbeidstakerne om ledige stillinger i virksomheten.</p>
 <h4 id="3-4-midlertidig-ansettelse">§ 3-4. Midlertidig ansettelse</h4>
@@ -171,7 +442,7 @@ b. arbeidstaker som har akseptert tilbud om redusert stilling i stedet for oppsi
 <p>(1) Deltidsansatte har fortrinnsrett til utvidet stilling fremfor at arbeidsgiver foretar ny ansettelse i virksomheten.</p>
 <p>(2) Fortrinnsretten er betinget av at arbeidstaker er kvalifisert for stillingen og at utøvelse av fortrinnsretten ikke vil innebære vesentlige ulemper for virksomheten.</p>
 <p>(3) Fortrinnsrett etter § 3-6 , med unntak av annet ledd bokstav a, går foran fortrinnsrett for deltidsansatte.</p>
-<p><em>Endret ved lov 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</em></p>
+<p class="note">Endret ved lov 9 mai 2014 nr. 16 (ikr. 9 mai 2014 iflg. res. 9 mai 2014 nr. 625 ).</p>
 <h4 id="3-8-virkninger-av-brudd-pa-reglene-om-fortrinnsrett">§ 3-8. Virkninger av brudd på reglene om fortrinnsrett</h4>
 <p>(1) Dersom retten kommer til at en arbeidstaker med fortrinnsrett skulle ha vært ansatt i en bestemt stilling, skal retten etter påstand fra vedkommende avsi dom for ansettelse i stillingen, med mindre dette finnes urimelig.</p>
 <p>(2) Ved brudd på reglene om fortrinnsrett kan arbeidstaker kreve erstatning. Erstatningen fastsettes i samsvar med § 5-11 annet ledd.</p>
@@ -189,7 +460,7 @@ b. arbeidstaker som har akseptert tilbud om redusert stilling i stedet for oppsi
 <p>(2) Arbeidstaker har rett til månedlig skriftlig oppgave over tilgodehavende og utbetalte beløp, med angivelse av lønn, tilleggsutbetalinger og eventuelle trekk.</p>
 <p>(3) Arbeidstaker kan kreve fast månedlig overføring via bank av hele eller deler av sitt tilgodehavende til husstandsmedlemmer eller andre.</p>
 <p>(4) Departementet kan gi forskrift med nærmere krav til gjennomføring av kravene i denne bestemmelsen, herunder fastsette særregler for fiskeri og fangst.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="4-3-trekk-i-lnn-og-feriepenger">§ 4-3. Trekk i lønn og feriepenger</h4>
 <p>(1) Trekk i lønn eller feriepenger kan ikke gjøres med mindre:</p>
 <p>a. det er hjemlet i lov,
@@ -208,7 +479,7 @@ d. det gjelder erstatning for skade eller tap som arbeidstaker i forbindelse med
 <p>(2) Denne bestemmelsen får ikke anvendelse for arbeidstaker på fiske- og fangstfartøy med mindre det er avtalt løpende tidslønn.</p>
 <h4 id="4-5-a-arbeidsavtalens-gyldighet-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 4-5 a. Arbeidsavtalens gyldighet ved fangenskap som følge av piratvirksomhet eller væpnet ran</h4>
 <p>Arbeidsavtalen skal fortsatt gjelde hvis arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Arbeidstakeren har krav på lønn og øvrige rettigheter i arbeidsforholdet så lenge arbeidsforholdet består, jf. § 5-9 a .</p>
-<p><em>Tilføyd ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</em></p>
+<p class="note">Tilføyd ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</p>
 <h4 id="4-6-rett-til-fri-hjemreise">§ 4-6. Rett til fri hjemreise</h4>
 <p>(1) Ved opphør av arbeidsforholdet fra arbeidsgivers side skal arbeidsgiver sørge for arbeidstakers hjemreise til bosted og dekke utgifter til dette og til nødvendig underhold. Det samme gjelder når:</p>
 <p>a. arbeidstaker som har vært ansatt i seks måneders sammenhengende tjeneste i utenriksfart hos samme arbeidsgiver eller på samme skip,
@@ -242,13 +513,13 @@ c. omfang og innhold av garantiene,
 d. virkningen av at garantier ikke er stilt eller er opphørt,
 e. garantistens og statens regresskrav i arbeidsgivers konkursbo,
 f. anmerkning av garanti i skipsregisteret.</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 72 (ikr. 1 juli 2017 iflg. res. 16 juni 2017 nr. 787 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 72 (ikr. 1 juli 2017 iflg. res. 16 juni 2017 nr. 787 ).</p>
 <h4 id="4-8-rederiets-inntreden-i-arbeidstakers-rettigheter">§ 4-8. Rederiets inntreden i arbeidstakers rettigheter</h4>
 <p>Har rederiet dekket arbeidstakers krav på lønn mv. i anledning arbeidstakers arbeid på skipet, trer rederiet inn i arbeidstakers rettigheter i tilknytning til slike krav, herunder arbeidstakers sjøpanterett etter <a href="lov-1994-06-24-39.html">sjøloven</a> § 51 .</p>
 <h4 id="4-9-folkerettslige-forpliktelser-om-trygdekoordinering">§ 4-9. Folkerettslige forpliktelser om trygdekoordinering <a class="para-history" href="../historikk/lov-2013-06-21-102/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kongen kan i forskrift gjennomføre bilaterale avtaler med andre land om trygdekoordinering.</p>
 <p>Bestemmelsene som er gitt i eller i medhold av denne loven, skal fravikes i den utstrekning det er nødvendig for å overholde forpliktelser som følger av EØS-avtalens hoveddel, bilaterale avtaler som nevnt i første ledd og forordninger og avtaler som nevnt i folketrygdloven §§ 1-3 a og 1-3 b .</p>
-<p><em>Tilføyd ved lov 25 nov 2022 nr. 86 (i kraft 25 nov 2022 iflg. res. 25 nov 2022 nr. 2013 ).</em></p>
+<p class="note">Tilføyd ved lov 25 nov 2022 nr. 86 (i kraft 25 nov 2022 iflg. res. 25 nov 2022 nr. 2013 ).</p>
 <h2 id="kapittel-5-opphr-av-arbeidsforhold">Kapittel 5. Opphør av arbeidsforhold</h2>
 <h4 id="5-1-drfting-fr-beslutning-om-oppsigelse">§ 5-1. Drøfting før beslutning om oppsigelse <a class="para-history" href="../historikk/lov-2013-06-21-102/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Før arbeidsgiver fatter beslutning om oppsigelse, skal spørsmålet så langt det er praktisk mulig drøftes med arbeidstaker og med arbeidstakers tillitsvalgte, med mindre arbeidstaker selv ikke ønsker det. Både grunnlaget for oppsigelsen og eventuell utvelgelse mellom flere arbeidstakere av hvem som skal sies opp, skal drøftes.</p>
@@ -265,7 +536,7 @@ h. forslag til kriterier for beregning av eventuelle ekstraordinære sluttvederl
 <p>Meldingen skal gis tidligst mulig og senest samtidig med at arbeidsgiver innkaller til drøftinger. Tilsvarende melding skal også gis til Arbeids- og velferdsetaten, jf. arbeidsmarkedsloven § 8 .</p>
 <p>(4) Arbeidstakernes tillitsvalgte kan kommentere meldingen direkte overfor Arbeids- og velferdsetaten.</p>
 <p>(5) Planlagte masseoppsigelser får tidligst virkning 30 dager etter at Arbeids- og velferdsetaten er underrettet. Arbeids- og velferdsetaten kan forlenge fristen i henhold til arbeidsmarkedsloven § 8 tredje ledd.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-2-oppsigelsesfrister">§ 5-2. Oppsigelsesfrister</h4>
 <p>(1) Den gjensidige oppsigelsesfristen er én måned. For skipsfører er den gjensidige fristen likevel tre måneder. Oppsigelsesfristen regnes fra dato til dato.</p>
 <p>(2) Har arbeidstaker vært ansatt i minst fem år sammenhengende i virksomheten når oppsigelsen gis, er den gjensidige oppsigelsesfristen minst to måneder. Har arbeidsforholdet vart i minst ti år sammenhengende, er den gjensidige oppsigelsesfristen minst tre måneder.</p>
@@ -293,7 +564,7 @@ e. hvem som er arbeidsgiver og rett saksøkt i en eventuell tvist.</p>
 <p>(1) En arbeidstaker kan ikke sies opp uten at det er saklig begrunnet i virksomhetens, arbeidsgivers eller arbeidstakers forhold.</p>
 <p>(2) Skyldes oppsigelsen driftsinnskrenkning eller rasjonaliseringstiltak, er den ikke saklig begrunnet dersom arbeidsgiver har annet passende arbeid å tilby arbeidstaker. Ved avgjørelse av om en oppsigelse har saklig grunn i driftsinnskrenkning eller rasjoneringstiltak, skal det foretas en avveining mellom virksomhetens behov og de ulemper oppsigelsen påfører den enkelte arbeidstaker.</p>
 <p>(3) Registrering av et skip i norsk internasjonalt skipsregister (NIS) gir alltid saklig grunn til oppsigelse dersom arbeidsgiver ikke har annet passende arbeid å tilby arbeidstaker.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-7-oppsigelsesvern-ved-sykdom-eller-skade">§ 5-7. Oppsigelsesvern ved sykdom eller skade</h4>
 <p>(1) En arbeidstaker som er helt eller delvis borte fra arbeidet på grunn av sykdom eller skade, kan ikke av denne grunn sies opp i de første 12 månedene etter at arbeidsuførheten inntrådte.</p>
 <p>(2) Oppsigelse som finner sted innenfor det tidsrom arbeidstakeren er vernet mot oppsigelse etter denne paragraf, skal anses å ha sin grunn i arbeidsuførheten, dersom ikke noe annet gjøres overveiende sannsynlig.</p>
@@ -306,7 +577,7 @@ e. hvem som er arbeidsgiver og rett saksøkt i en eventuell tvist.</p>
 <p>(2) Oppsigelse som finner sted umiddelbart før eller innenfor det tidsrom arbeidstaker er vernet mot oppsigelse etter denne paragraf, skal anses å ha sin grunn i dette forhold, dersom ikke noe annet gjøres overveiende sannsynlig.</p>
 <h4 id="5-9-a-vern-mot-opphr-av-arbeidsforhold-ved-fangenskap-som-flge-av-piratvirksomhet-eller-vpnet-ran">§ 5-9 a. Vern mot opphør av arbeidsforhold ved fangenskap som følge av piratvirksomhet eller væpnet ran</h4>
 <p>Arbeidsforholdet skal fortsette dersom arbeidstakeren holdes i fangenskap på eller utenfor skipet som følge av piratvirksomhet eller væpnet ran mot skipet. Det kan ikke bringes til opphør før arbeidstakeren har blitt løslatt og fått fri hjemreise. Dette gjelder også hvis arbeidsavtalens gyldighetsperiode er utløpt eller det er meldt oppsigelse av arbeidsavtalen i forkant av eller under fangenskapet.</p>
-<p><em>Tilføyd ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</em></p>
+<p class="note">Tilføyd ved lov 10 april 2026 nr. 14 (i kraft 1 juli 2026 iflg. res. 10 april 2026 nr. 566 ).</p>
 <h4 id="5-10-rett-til-a-fortsette-i-stillingen">§ 5-10. Rett til å fortsette i stillingen</h4>
 <p>(1) Ved tvist om et arbeidsforhold lovlig er brakt til opphør etter reglene i § 5-6 , kan arbeidstakeren fortsette i stillingen så lenge forhandlinger pågår etter § 6-1 .</p>
 <p>(2) Har arbeidstakeren reist søksmål innen de frister som følger av § 6-2 , kan retten etter krav fra arbeidstakeren bestemme at vedkommende skal fortsette i stillingen under sakens behandling dersom den finner det klart urimelig at arbeidsforholdet ikke opprettholdes i dette tidsrommet.</p>
@@ -344,22 +615,22 @@ e. hvem som er arbeidsgiver og rett saksøkt i en eventuell tvist.</p>
 <p>a. virksomheten eller den delen av virksomheten som skal overdras ligger innenfor EØS, og
 b. erververen ligger innenfor EØS, eller den virksomheten eller delen av denne som overdras, forblir innenfor EØS.</p>
 <p>(3) §§ 5 A-2 og 5 A-3 gjelder ikke ved overdragelse fra et konkursbo.</p>
-<p><em>Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-a-2-vern-mot-oppsigelse">§ 5 A-2. Vern mot oppsigelse</h4>
 <p>(1) Overdragelse av en virksomhet eller en del av en virksomhet som nevnt i § 5 A-1 gir ikke i seg selv grunn for oppsigelse eller avskjed fra tidligere eller ny arbeidsgiver.</p>
 <p>(2) Dersom en arbeidsavtale eller et arbeidsforhold opphører fordi skiftet av arbeidsgiver medfører vesentlige endringer i arbeidsvilkårene til skade for arbeidstakeren, anses opphøret som en følge av arbeidsgivers forhold.</p>
 <p>(3) Ved tvister etter denne paragrafen gjelder §§ 5-10 og 5-11 .</p>
-<p><em>Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-a-3-lnns-og-arbeidsvilkar">§ 5 A-3. Lønns- og arbeidsvilkår</h4>
 <p>(1) Den tidligere arbeidsgiverens rettigheter og plikter som følger av en arbeidsavtale eller et arbeidsforhold som foreligger på det tidspunktet overdragelsen finner sted, overføres til den nye arbeidsgiveren.</p>
 <p>(2) Den nye arbeidsgiveren skal opprettholde de individuelle arbeidsvilkårene som følger av en tariffavtale som den tidligere arbeidsgiveren var bundet av, inntil tariffavtalen utløper, eller en annen tariffavtale trer i kraft eller kommer til anvendelse.</p>
 <p>(3) Arbeidstakernes rett til videre opptjening av alders-, etterlatte- og uførepensjon i henhold til en kollektiv tjenestepensjon, overføres ikke etter første og annet ledd.</p>
-<p><em>Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-a-4-representasjon">§ 5 A-4. Representasjon</h4>
 <p>(1) Hvis virksomheten bevarer sin uavhengighet, skal tillitsvalgte som representerer arbeidstakere som berøres av en overdragelse som nevnt i § 5 A-1 , beholde sin rettsstilling og funksjon.</p>
 <p>(2) Hvis virksomheten ikke bevarer sin uavhengighet, skal de overførte arbeidstakerne som var representert før overdragelsen, fortsatt være representert på en egnet måte frem til et nyvalg kan finne sted.</p>
 <p>(3) Første ledd gjelder ikke dersom overdragelsen medfører at grunnlaget for arbeidstakernes representasjon opphører. I slike tilfeller skal de tillitsvalgte fortsatt være sikret vern i samsvar med de avtalene som beskytter de tillitsvalgte på dette området.</p>
-<p><em>Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="5-a-5-informasjon-og-drfting">§ 5 A-5. Informasjon og drøfting</h4>
 <p>(1) Tidligere og ny arbeidsgiver skal så tidlig som mulig informere de berørte arbeidstakernes tillitsvalgte om overdragelsen. Det skal gis særskilt informasjon om</p>
 <p>a. grunnen til overdragelsen
@@ -368,7 +639,7 @@ c. de rettslige, økonomiske og sosiale følgene av overdragelsen for arbeidstak
 d. planlagte tiltak overfor arbeidstakerne.</p>
 <p>(2) I virksomheter hvor det ikke er tillitsvalgte skal de berørte arbeidstakerne så tidlig som mulig få informasjonen nevnt i første ledd.</p>
 <p>(3) Dersom tidligere eller ny arbeidsgiver planlegger tiltak overfor arbeidstakerne, skal de så tidlig som mulig drøfte tiltakene med de tillitsvalgte med sikte på å oppnå en avtale.</p>
-<p><em>Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Tilføyd ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h2 id="kapittel-6-tvister-om-arbeidsforhold">Kapittel 6. Tvister om arbeidsforhold</h2>
 <h4 id="6-1-rett-til-a-kreve-forhandlinger">§ 6-1. Rett til å kreve forhandlinger</h4>
 <p>(1) En arbeidstaker kan kreve forhandlinger med arbeidsgiver dersom det gjøres gjeldende at:</p>
@@ -413,7 +684,7 @@ c. tvist om det har foreligget ulovlig midlertidig ansettelse eller suspensjon.<
 <p>(1) Tvist om arbeidsforholdet mellom arbeidstaker og arbeidsgiver eller mellom arbeidstaker og rederiet mens skipet er i utlandet må ikke bringes inn for utenlandsk myndighet.</p>
 <p>(2) Tvist etter første ledd kan forelegges en norsk utenrikstjenesteansatt som avgjør saken etter å ha innhentet partenes forklaringer. Avgjørelsen kan innen seks måneder bringes inn for retten i Norge. I tvist om avskjed eller oppsigelse kan utenrikstjenesteansatte ikke avgjøre saken, men de kan forberede og lede forhandlinger etter § 6-1 .</p>
 <p>(3) Departementet kan gi forskrifter om behandling av tvister etter annet ledd.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 34 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 944 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 34 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 944 ).</p>
 <h2 id="kapittel-7-rett-til-permisjon">Kapittel 7. Rett til permisjon</h2>
 <h4 id="7-1-svangerskapskontroll">§ 7-1. Svangerskapskontroll</h4>
 <p>Arbeidstaker som er gravid, har rett til fri fra arbeidet med lønn i forbindelse med svangerskapskontroll, dersom slik kontroll ikke med rimelighet kan finne sted utenfor arbeidstiden. Fraværet skal arrangeres slik at det ikke er til vesentlig ulempe for skipets drift.</p>
@@ -471,7 +742,7 @@ f. unntak fra retten til permisjon for visse arbeidsgivere.</p>
 <p>(3) Rederiet skal sørge for at omsorgen overtas av en norsk utenrikstjenesteansatt dersom den som har sitt arbeid om bord, blir etterlatt i utlandet på grunn av skade eller sykdom. Er dette ikke praktisk mulig, skal rederiet sørge for at det på annen måte skaffes forsvarlig pleie, og underrette de nærmeste pårørende dersom vedkommende ber om det.</p>
 <p>(4) Skipsføreren skal medvirke til gjennomføringen av omsorgsplikten etter denne paragraf.</p>
 <p>(5) Departementet kan gi forskrifter om det nærmere innhold og omfang av omsorgsplikten etter denne paragraf.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 34 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 944 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 34 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 944 ).</p>
 <h4 id="8-2-omsorgsplikt-ved-ddsfall-og-begravelse">§ 8-2. Omsorgsplikt ved dødsfall og begravelse</h4>
 <p>(1) Rederiet skal sørge for underretning til nærmeste pårørende og for begravelse eller hjemsendelse av båren, dersom den som har sitt arbeid om bord dør mens vedkommende:</p>
 <p>a. er i tjeneste om bord,
@@ -500,7 +771,7 @@ c. er under reise for rederiets eller arbeidsgiverens regning.</p>
 <p>(1) Dersom skipet ikke er i norsk havn, skal skipsføreren ved alvorlig straffbar handling om bord, snarest mulig foreta undersøkelse, sikre bevis og ta opp forklaring. Dette gjelder likevel ikke hvis handlingen er begått på et fremmed lands territorium og etterforskes av stedets myndigheter.</p>
 <p>(2) Inntil relevante myndigheter kan ta seg av saken, kan skipsføreren iverksette tiltak og anvende maktmidler som er nødvendige og forholdsmessige for å sikre kontroll med den som har begått handlingen.</p>
 <p>(3) Departementet kan gi forskrift om tiltak og maktmidler etter første og annet ledd.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="9-4-rett-til-a-ga-i-land-i-fritiden">§ 9-4. Rett til å gå i land i fritiden</h4>
 <p>Den som har sitt arbeid om bord, har rett til å gå i land i sin fritid under skipets opphold i havn. Dette gjelder likevel ikke dersom skipets forhold gjør det nødvendig at vedkommende blir om bord. I så fall har vedkommende krav på passende godtgjøring.</p>
 <h4 id="9-5-rett-til-a-fratre">§ 9-5. Rett til å fratre</h4>
@@ -535,7 +806,7 @@ f. klage fra arbeidstaker på utenlandsk skip.</p>
 <p>(2) Trakassering og instruks om å diskriminere personer av grunner nevnt i første ledd, anses som diskriminering.</p>
 <p>(3) Bestemmelsene i dette kapittel gjelder tilsvarende ved diskriminering av arbeidstaker som arbeider deltid eller er midlertidig ansatt.</p>
 <p>(4) Ved diskriminering på grunn av kjønn, graviditet, permisjon i forbindelse med fødsel og adopsjon, omsorgsoppgaver, etnisitet, religion, livssyn, funksjonsnedsettelse, seksuell orientering, kjønnsidentitet eller kjønnsuttrykk gjelder <a href="lov-2017-06-16-51.html">likestillings- og diskrimineringsloven</a> .</p>
-<p><em>Endret ved lover 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ), 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ), 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="10-2-hva-kapitlet-omfatter">§ 10-2. Hva kapitlet omfatter</h4>
 <p>(1) Bestemmelsene i dette kapittel gjelder alle sider ved arbeidsforholdet, herunder:</p>
 <p>a. utlysing av stilling, ansettelse, omplassering og forfremmelse,
@@ -553,7 +824,7 @@ d. opphør.</p>
 <p>(1) Arbeidsgiver må ikke i utlysing etter nye arbeidstakere eller på annen måte be om at søkerne skal gi opplysninger om hvordan de stiller seg til politiske, religiøse eller kulturelle spørsmål eller om de er medlemmer av arbeidstakerorganisasjoner. Arbeidsgiver må heller ikke iverksette tiltak for å innhente slike opplysninger på annen måte.</p>
 <p>(2) Forbudet i første ledd gjelder ikke dersom innhenting av opplysninger om hvordan søkerne stiller seg til politiske spørsmål eller om de er medlemmer av arbeidstakerorganisasjon er begrunnet i stillingens karakter, eller det inngår i formålet for vedkommende virksomhet å fremme bestemte politiske syn og arbeidstakers stilling vil være av betydning for gjennomføringen av formålet. Dersom slike opplysninger vil bli krevet, må dette angis i utlysingen av stillingen.</p>
 <p>(3) Arbeidsgiver kan heller ikke innhente opplysninger som angitt i likestillings- og diskrimineringsloven § 30 .</p>
-<p><em>Endret ved lov 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2017 nr. 51 (ikr. 1 jan 2018 iflg. res. 16 juni 2017 nr. 751 ).</p>
 <h4 id="10-5-positiv-srbehandling">§ 10-5. Positiv særbehandling</h4>
 <p>Særbehandling som bidrar til å fremme likebehandling er ikke i strid med bestemmelsene i dette kapittel. Særbehandlingen skal opphøre når formålet med den er oppnådd.</p>
 <h4 id="10-6-opplysningsplikt">§ 10-6. Opplysningsplikt</h4>
@@ -569,7 +840,7 @@ d. opphør.</p>
 <h4 id="11-1-plikt-til-informasjon-og-drfting">§ 11-1. Plikt til informasjon og drøfting <a class="para-history" href="../historikk/lov-2013-06-21-102/para-11-1.html" title="Endringshistorikk for § 11-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) I virksomhet som jevnlig sysselsetter minst 50 arbeidstakere, skal arbeidsgiver informere om og drøfte spørsmål av betydning for ansettelsesforholdene med arbeidstakernes representanter.</p>
 <p>(2) Departementet kan gi forskrift om beregningen av antall arbeidstakere i virksomheten.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="11-2-gjennomfring-av-plikten-til-informasjon-og-drfting">§ 11-2. Gjennomføring av plikten til informasjon og drøfting <a class="para-history" href="../historikk/lov-2013-06-21-102/para-11-2.html" title="Endringshistorikk for § 11-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Plikten til informasjon og drøfting omfatter:</p>
 <p>a. informasjon om den aktuelle og forventede utvikling av virksomhetens aktiviteter og økonomiske situasjon,
@@ -578,11 +849,11 @@ c. informasjon og drøfting om beslutninger som kan føre til vesentlig endring 
 <p>(2) Informasjon etter første ledd bokstav a skal skje på et passende tidspunkt. Informasjon og drøfting etter første ledd bokstav b og c skal skje så tidlig som mulig.</p>
 <p>(3) Informasjonen skal gis slik at det er mulig for arbeidstakernes representanter å sette seg inn i saken, foreta en passende undersøkelse, vurdere saken og forberede eventuell drøfting. Drøftingen skal bygge på informasjon fra arbeidsgiver, finne sted på det nivå for ledelse og representasjon som saken tilsier og skje på en måte og med et innhold som er passende. Drøftingen skal gjennomføres slik at det er mulig for arbeidstakernes representanter å møte arbeidsgiveren og få et grunngitt svar på uttalelser de måtte avgi. Drøfting etter første ledd bokstav c skal ta sikte på å komme fram til en avtale.</p>
 <p>(4) Bestemmelsene i denne paragrafen kan fravikes ved tariffavtale.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h4 id="11-3-fortrolige-opplysninger">§ 11-3. Fortrolige opplysninger</h4>
 <p>Dersom virksomhetens behov tilsier at bestemte opplysninger ikke bør gis videre, kan rederiet pålegge arbeidstakernes representanter og eventuelle rådgivere taushetsplikt. Arbeidsgiver kan i særlige tilfeller unnlate å gi informasjon eller gjennomføre drøfting dersom det på det aktuelle tidspunktet åpenbart vil være til betydelig skade for virksomheten at opplysningene blir kjent.</p>
 <h4 id="11-4-opphevet">§ 11-4. (Opphevet) <a class="para-history" href="../historikk/lov-2013-06-21-102/para-11-4.html" title="Endringshistorikk for § 11-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</em></p>
+<p class="note">Opphevet ved lov 14 juni 2019 nr. 22 (ikr. 1 aug 2019 iflg. res. 14 juni 2019 nr. 726 ).</p>
 <h2 id="kapittel-12-tilsyn-og-sanksjoner">Kapittel 12. Tilsyn og sanksjoner</h2>
 <h4 id="12-1-tilsyn-og-sertifisering">§ 12-1. Tilsyn og sertifisering</h4>
 <p>(1) Det føres tilsyn med loven etter bestemmelsene i tredje ledd.</p>
@@ -611,6 +882,8 @@ f. arbeidsgiverens eller rederiets økonomiske evne.</p>
 <p><em>1 Iflg. res. 21 juni 2013 nr. 730 trådte loven ikr. 20 aug 2013, med unntak av lovens kapittel 10 som trådte ikr. 1 jan 2014. Opphevelse av sjømannsloven 30 mai 1975 nr. 18 trådte ikr. 20 aug 2013, med unntak av lovens kapittel IIA som ble opphevet fra 1 jan 2014.</em></p>
 <h4 id="13-2-endringer-i-andre-lover">§ 13-2. Endringer i andre lover</h4>
 <p>Fra det tidspunkt loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

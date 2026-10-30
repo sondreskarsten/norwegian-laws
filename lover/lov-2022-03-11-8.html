@@ -19,64 +19,263 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2022-03-11-8.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Tollavgiftsloven – tavl" href="../feeds/lov-2022-03-11-8.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Tollavgiftsloven – tavl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2022-03-11-8</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skatte- og avgiftsrett &raquo; Toll</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-04-25-12</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2022-03-11-8" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-samarbeid-med-annen-stat">§ 1-3. Samarbeid med annen stat</a></li>
+<li class="lvl4"><a href="#1-4-forholdet-til-forvaltningsloven">§ 1-4. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-plikt-til-a-beregne-tollavgift">Kapittel 2 Plikt til å beregne tollavgift</a></li>
+<li class="lvl4"><a href="#2-1-nar-tollavgift-skal-beregnes">§ 2-1. Når tollavgift skal beregnes</a></li>
+<li class="lvl4"><a href="#2-2-tidfesting">§ 2-2. Tidfesting</a></li>
+<li class="lvl4"><a href="#2-3-hvem-som-er-tollavgiftspliktig">§ 2-3. Hvem som er tollavgiftspliktig</a></li>
+<li class="lvl4"><a href="#2-4-medansvar-for-tollavgift">§ 2-4. Medansvar for tollavgift</a></li>
+<li class="lvl4"><a href="#2-5-solidaransvar-for-tollavgift">§ 2-5. Solidaransvar for tollavgift</a></li>
+<li class="lvl4"><a href="#2-6-tollavgiftspliktig-ved-erverv-av-vare-med-nedsatt-tollavgift-pa-vilkar-om-sluttbruk">§ 2-6. Tollavgiftspliktig ved erverv av vare med nedsatt tollavgift på vilkår om sluttbruk</a></li>
+<li class="lvl4"><a href="#2-7-tollavgift-for-vare-som-sendes-i-henhold-til-internasjonal-avtale-om-forenklinger-ved-grensekryssende-varefrsel">§ 2-7. Tollavgift for vare som sendes i henhold til internasjonal avtale om forenklinger ved grensekryssende vareførsel</a></li>
+<li class="lvl2"><a href="#kapittel-3-satser-og-beregningsgrunnlag-for-tollavgift">Kapittel 3 Satser og beregningsgrunnlag for tollavgift</a></li>
+<li class="lvl4"><a href="#3-1-satser-for-tollavgift-tolltariffen">§ 3-1. Satser for tollavgift – tolltariffen</a></li>
+<li class="lvl4"><a href="#3-2-nedsettelse-av-tollavgiftssatser-i-budsjettaret">§ 3-2. Nedsettelse av tollavgiftssatser i budsjettåret</a></li>
+<li class="lvl4"><a href="#3-3-beregningsgrunnlag-for-tollavgift">§ 3-3. Beregningsgrunnlag for tollavgift</a></li>
+<li class="lvl4"><a href="#3-4-beregningsgrunnlag-for-vare-som-gjeninnfres-etter-bearbeiding-eller-reparasjon-mv-utenlands-bearbeiding">§ 3-4. Beregningsgrunnlag for vare som gjeninnføres etter bearbeiding eller reparasjon mv. (utenlands bearbeiding)</a></li>
+<li class="lvl4"><a href="#3-5-nedsettelse-av-beregningsgrunnlaget-nar-varen-er-skadet-eller-bedervet">§ 3-5. Nedsettelse av beregningsgrunnlaget når varen er skadet eller bedervet</a></li>
+<li class="lvl2"><a href="#kapittel-4-opprinnelse">Kapittel 4 Opprinnelse</a></li>
+<li class="lvl4"><a href="#4-1-preferensiell-opprinnelse">§ 4-1. Preferensiell opprinnelse</a></li>
+<li class="lvl4"><a href="#4-2-ikke-preferensiell-opprinnelse">§ 4-2. Ikke-preferensiell opprinnelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-nedsettelse-av-tollavgiftssats-for-landbruksvarer">Kapittel 5 Nedsettelse av tollavgiftssats for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-1-nedsettelse-av-tollavgiftssats-for-landbruksvarer">§ 5-1. Nedsettelse av tollavgiftssats for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-2-generell-nedsettelse-av-tollavgiftssatser-for-landbruksvarer">§ 5-2. Generell nedsettelse av tollavgiftssatser for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-3-individuell-nedsettelse-av-tollavgiftssatser-for-landbruksvarer-og-bearbeidede-landbruksvarer-etter-sknad">§ 5-3. Individuell nedsettelse av tollavgiftssatser for landbruksvarer og bearbeidede landbruksvarer etter søknad</a></li>
+<li class="lvl4"><a href="#5-4-tildeling-av-tollkvoteandeler-for-landbruksvarer-ved-auksjon-eller-pa-annen-mate">§ 5-4. Tildeling av tollkvoteandeler for landbruksvarer ved auksjon eller på annen måte</a></li>
+<li class="lvl2"><a href="#kapittel-6-fritak-for-tollavgift">Kapittel 6 Fritak for tollavgift</a></li>
+<li class="lvl4"><a href="#6-1-tollavgiftsfritak-som-flge-av-unntak-fra-plikten-til-a-levere-deklarasjon-etter-varefrselsloven-4-1">§ 6-1. Tollavgiftsfritak som følge av unntak fra plikten til å levere deklarasjon etter vareførselsloven § 4-1</a></li>
+<li class="lvl4"><a href="#6-2-tollavgiftsfritak-for-varer-som-det-er-fritak-fra-a-beregne-merverdiavgift-av">§ 6-2. Tollavgiftsfritak for varer som det er fritak fra å beregne merverdiavgift av</a></li>
+<li class="lvl4"><a href="#6-3-tollavgiftsfritak-for-kjtt-fra-egen-jakt">§ 6-3. Tollavgiftsfritak for kjøtt fra egen jakt</a></li>
+<li class="lvl4"><a href="#6-4-andre-tollavgiftsfritak">§ 6-4. Andre tollavgiftsfritak</a></li>
+<li class="lvl2"><a href="#kapittel-7-refusjon-av-tollavgift-ved-gjenutfrsel">Kapittel 7 Refusjon av tollavgift ved gjenutførsel</a></li>
+<li class="lvl4"><a href="#7-1-refusjon-av-tollavgift-ved-gjenutfrsel-av-vare-benyttet-ved-reparasjon-eller-bearbeiding">§ 7-1. Refusjon av tollavgift ved gjenutførsel av vare benyttet ved reparasjon eller bearbeiding</a></li>
+<li class="lvl4"><a href="#7-2-refusjon-av-tollavgift-ved-gjenutfrsel-av-vare-i-uendret-tilstand-mv">§ 7-2. Refusjon av tollavgift ved gjenutførsel av vare i uendret tilstand mv.</a></li>
+<li class="lvl4"><a href="#7-3-delvis-refusjon-av-tollavgift">§ 7-3. Delvis refusjon av tollavgift</a></li>
+<li class="lvl4"><a href="#7-4-refusjon-ved-feil-eller-srlige-grunner">§ 7-4. Refusjon ved feil eller særlige grunner</a></li>
+<li class="lvl4"><a href="#7-5-generelle-bestemmelser-om-refusjon-av-tollavgift">§ 7-5. Generelle bestemmelser om refusjon av tollavgift</a></li>
+<li class="lvl2"><a href="#kapittel-8-srlige-forvaltningsregler">Kapittel 8 Særlige forvaltningsregler</a></li>
+<li class="lvl4"><a href="#8-1-taushetsplikt">§ 8-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-2-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 8-2. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#8-3-overfrt-taushetsplikt">§ 8-3. Overført taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-4-ubekreftede-personopplysninger-i-tips-mv">§ 8-4. Ubekreftede personopplysninger i tips mv.</a></li>
+<li class="lvl4"><a href="#8-5-sammenstilling-av-personopplysninger-og-automatiserte-avgjrelser">§ 8-5. Sammenstilling av personopplysninger og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#8-6-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 8-6. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#8-7-klagefrist">§ 8-7. Klagefrist</a></li>
+<li class="lvl4"><a href="#8-8-riksrevisjonens-innhenting-av-dokumentasjon">§ 8-8. Riksrevisjonens innhenting av dokumentasjon</a></li>
+<li class="lvl4"><a href="#8-9-tollrepresentant">§ 8-9. Tollrepresentant</a></li>
+<li class="lvl2"><a href="#kapittel-9-opplysningsplikt-fastsetting-og-beregning-av-tollavgift">Kapittel 9 Opplysningsplikt, fastsetting og beregning av tollavgift</a></li>
+<li class="lvl4"><a href="#9-1-alminnelig-opplysningsplikt">§ 9-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#9-2-melding-for-tollavgift">§ 9-2. Melding for tollavgift</a></li>
+<li class="lvl4"><a href="#9-3-fastsetting-og-beregning-av-tollavgift">§ 9-3. Fastsetting og beregning av tollavgift</a></li>
+<li class="lvl4"><a href="#9-4-endring-av-egen-fastsetting">§ 9-4. Endring av egen fastsetting</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll">Kapittel 10 Kontroll</a></li>
+<li class="lvl4"><a href="#10-1-kontrollopplysninger-fra-tollavgiftspliktige-mv-og-tredjeparter">§ 10-1. Kontrollopplysninger fra tollavgiftspliktige mv. og tredjeparter</a></li>
+<li class="lvl4"><a href="#10-2-kontroll-hos-den-opplysningspliktige">§ 10-2. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#10-3-kontrollopplysninger-fra-offentlige-myndigheter">§ 10-3. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#10-4-palegg-om-bokfring">§ 10-4. Pålegg om bokføring</a></li>
+<li class="lvl4"><a href="#10-5-klage-over-palegg-om-bokfring">§ 10-5. Klage over pålegg om bokføring</a></li>
+<li class="lvl2"><a href="#kapittel-11-endring-uten-klage-og-endringsfrister">Kapittel 11 Endring uten klage og endringsfrister</a></li>
+<li class="lvl4"><a href="#11-1-tollmyndighetenes-endring-av-tollavgiftsfastsetting-mv">§ 11-1. Tollmyndighetenes endring av tollavgiftsfastsetting mv.</a></li>
+<li class="lvl4"><a href="#11-2-frister-for-endring-av-tollavgiftsfastsetting-mv">§ 11-2. Frister for endring av tollavgiftsfastsetting mv.</a></li>
+<li class="lvl4"><a href="#11-3-unntak-fra-fristene-for-a-ta-opp-tollavgiftsfastsetting-mv-til-endring">§ 11-3. Unntak fra fristene for å ta opp tollavgiftsfastsetting mv. til endring</a></li>
+<li class="lvl4"><a href="#11-4-nedsettelse-av-tollavgift">§ 11-4. Nedsettelse av tollavgift</a></li>
+<li class="lvl2"><a href="#kapittel-12-administrative-reaksjoner-straff-og-sksmal">Kapittel 12 Administrative reaksjoner, straff og søksmål</a></li>
+<li class="lvl4"><a href="#12-1-tvangsmulkt">§ 12-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#12-2-overtredelsesgebyr">§ 12-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-3-tilleggsavgift">§ 12-3. Tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-4-unntak-fra-tilleggsavgift">§ 12-4. Unntak fra tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-5-skjerpet-tilleggsavgift">§ 12-5. Skjerpet tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-6-straff-for-unnlatt-medvirkning-til-kontroll">§ 12-6. Straff for unnlatt medvirkning til kontroll</a></li>
+<li class="lvl4"><a href="#12-7-utsatt-iverksetting-av-vedtak-om-sanksjon">§ 12-7. Utsatt iverksetting av vedtak om sanksjon</a></li>
+<li class="lvl4"><a href="#12-8-frist-for-sksmal-mot-tollmyndighetenes-vedtak">§ 12-8. Frist for søksmål mot tollmyndighetenes vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 13 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsbestemmelser">§ 13-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-3-endringer-i-andre-lover">§ 13-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-04-25-12.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-8.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om tollavgift (tollavgiftsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2022-03-11-8.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2022-03-11-8 <code>lov/2022-03-11-8</code></td></tr>
+<tr><th>Korttittel</th><td>Tollavgiftsloven – tavl</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skatte- og avgiftsrett &raquo; Toll</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-04-25-12 <code>lov/2025-04-25-12</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2022-03-11-8" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-samarbeid-med-annen-stat">§ 1-3. Samarbeid med annen stat</a></li>
+<li class="lvl4"><a href="#1-4-forholdet-til-forvaltningsloven">§ 1-4. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-plikt-til-a-beregne-tollavgift">Kapittel 2 Plikt til å beregne tollavgift</a></li>
+<li class="lvl4"><a href="#2-1-nar-tollavgift-skal-beregnes">§ 2-1. Når tollavgift skal beregnes</a></li>
+<li class="lvl4"><a href="#2-2-tidfesting">§ 2-2. Tidfesting</a></li>
+<li class="lvl4"><a href="#2-3-hvem-som-er-tollavgiftspliktig">§ 2-3. Hvem som er tollavgiftspliktig</a></li>
+<li class="lvl4"><a href="#2-4-medansvar-for-tollavgift">§ 2-4. Medansvar for tollavgift</a></li>
+<li class="lvl4"><a href="#2-5-solidaransvar-for-tollavgift">§ 2-5. Solidaransvar for tollavgift</a></li>
+<li class="lvl4"><a href="#2-6-tollavgiftspliktig-ved-erverv-av-vare-med-nedsatt-tollavgift-pa-vilkar-om-sluttbruk">§ 2-6. Tollavgiftspliktig ved erverv av vare med nedsatt tollavgift på vilkår om sluttbruk</a></li>
+<li class="lvl4"><a href="#2-7-tollavgift-for-vare-som-sendes-i-henhold-til-internasjonal-avtale-om-forenklinger-ved-grensekryssende-varefrsel">§ 2-7. Tollavgift for vare som sendes i henhold til internasjonal avtale om forenklinger ved grensekryssende vareførsel</a></li>
+<li class="lvl2"><a href="#kapittel-3-satser-og-beregningsgrunnlag-for-tollavgift">Kapittel 3 Satser og beregningsgrunnlag for tollavgift</a></li>
+<li class="lvl4"><a href="#3-1-satser-for-tollavgift-tolltariffen">§ 3-1. Satser for tollavgift – tolltariffen</a></li>
+<li class="lvl4"><a href="#3-2-nedsettelse-av-tollavgiftssatser-i-budsjettaret">§ 3-2. Nedsettelse av tollavgiftssatser i budsjettåret</a></li>
+<li class="lvl4"><a href="#3-3-beregningsgrunnlag-for-tollavgift">§ 3-3. Beregningsgrunnlag for tollavgift</a></li>
+<li class="lvl4"><a href="#3-4-beregningsgrunnlag-for-vare-som-gjeninnfres-etter-bearbeiding-eller-reparasjon-mv-utenlands-bearbeiding">§ 3-4. Beregningsgrunnlag for vare som gjeninnføres etter bearbeiding eller reparasjon mv. (utenlands bearbeiding)</a></li>
+<li class="lvl4"><a href="#3-5-nedsettelse-av-beregningsgrunnlaget-nar-varen-er-skadet-eller-bedervet">§ 3-5. Nedsettelse av beregningsgrunnlaget når varen er skadet eller bedervet</a></li>
+<li class="lvl2"><a href="#kapittel-4-opprinnelse">Kapittel 4 Opprinnelse</a></li>
+<li class="lvl4"><a href="#4-1-preferensiell-opprinnelse">§ 4-1. Preferensiell opprinnelse</a></li>
+<li class="lvl4"><a href="#4-2-ikke-preferensiell-opprinnelse">§ 4-2. Ikke-preferensiell opprinnelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-nedsettelse-av-tollavgiftssats-for-landbruksvarer">Kapittel 5 Nedsettelse av tollavgiftssats for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-1-nedsettelse-av-tollavgiftssats-for-landbruksvarer">§ 5-1. Nedsettelse av tollavgiftssats for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-2-generell-nedsettelse-av-tollavgiftssatser-for-landbruksvarer">§ 5-2. Generell nedsettelse av tollavgiftssatser for landbruksvarer</a></li>
+<li class="lvl4"><a href="#5-3-individuell-nedsettelse-av-tollavgiftssatser-for-landbruksvarer-og-bearbeidede-landbruksvarer-etter-sknad">§ 5-3. Individuell nedsettelse av tollavgiftssatser for landbruksvarer og bearbeidede landbruksvarer etter søknad</a></li>
+<li class="lvl4"><a href="#5-4-tildeling-av-tollkvoteandeler-for-landbruksvarer-ved-auksjon-eller-pa-annen-mate">§ 5-4. Tildeling av tollkvoteandeler for landbruksvarer ved auksjon eller på annen måte</a></li>
+<li class="lvl2"><a href="#kapittel-6-fritak-for-tollavgift">Kapittel 6 Fritak for tollavgift</a></li>
+<li class="lvl4"><a href="#6-1-tollavgiftsfritak-som-flge-av-unntak-fra-plikten-til-a-levere-deklarasjon-etter-varefrselsloven-4-1">§ 6-1. Tollavgiftsfritak som følge av unntak fra plikten til å levere deklarasjon etter vareførselsloven § 4-1</a></li>
+<li class="lvl4"><a href="#6-2-tollavgiftsfritak-for-varer-som-det-er-fritak-fra-a-beregne-merverdiavgift-av">§ 6-2. Tollavgiftsfritak for varer som det er fritak fra å beregne merverdiavgift av</a></li>
+<li class="lvl4"><a href="#6-3-tollavgiftsfritak-for-kjtt-fra-egen-jakt">§ 6-3. Tollavgiftsfritak for kjøtt fra egen jakt</a></li>
+<li class="lvl4"><a href="#6-4-andre-tollavgiftsfritak">§ 6-4. Andre tollavgiftsfritak</a></li>
+<li class="lvl2"><a href="#kapittel-7-refusjon-av-tollavgift-ved-gjenutfrsel">Kapittel 7 Refusjon av tollavgift ved gjenutførsel</a></li>
+<li class="lvl4"><a href="#7-1-refusjon-av-tollavgift-ved-gjenutfrsel-av-vare-benyttet-ved-reparasjon-eller-bearbeiding">§ 7-1. Refusjon av tollavgift ved gjenutførsel av vare benyttet ved reparasjon eller bearbeiding</a></li>
+<li class="lvl4"><a href="#7-2-refusjon-av-tollavgift-ved-gjenutfrsel-av-vare-i-uendret-tilstand-mv">§ 7-2. Refusjon av tollavgift ved gjenutførsel av vare i uendret tilstand mv.</a></li>
+<li class="lvl4"><a href="#7-3-delvis-refusjon-av-tollavgift">§ 7-3. Delvis refusjon av tollavgift</a></li>
+<li class="lvl4"><a href="#7-4-refusjon-ved-feil-eller-srlige-grunner">§ 7-4. Refusjon ved feil eller særlige grunner</a></li>
+<li class="lvl4"><a href="#7-5-generelle-bestemmelser-om-refusjon-av-tollavgift">§ 7-5. Generelle bestemmelser om refusjon av tollavgift</a></li>
+<li class="lvl2"><a href="#kapittel-8-srlige-forvaltningsregler">Kapittel 8 Særlige forvaltningsregler</a></li>
+<li class="lvl4"><a href="#8-1-taushetsplikt">§ 8-1. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-2-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 8-2. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#8-3-overfrt-taushetsplikt">§ 8-3. Overført taushetsplikt</a></li>
+<li class="lvl4"><a href="#8-4-ubekreftede-personopplysninger-i-tips-mv">§ 8-4. Ubekreftede personopplysninger i tips mv.</a></li>
+<li class="lvl4"><a href="#8-5-sammenstilling-av-personopplysninger-og-automatiserte-avgjrelser">§ 8-5. Sammenstilling av personopplysninger og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#8-6-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 8-6. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl4"><a href="#8-7-klagefrist">§ 8-7. Klagefrist</a></li>
+<li class="lvl4"><a href="#8-8-riksrevisjonens-innhenting-av-dokumentasjon">§ 8-8. Riksrevisjonens innhenting av dokumentasjon</a></li>
+<li class="lvl4"><a href="#8-9-tollrepresentant">§ 8-9. Tollrepresentant</a></li>
+<li class="lvl2"><a href="#kapittel-9-opplysningsplikt-fastsetting-og-beregning-av-tollavgift">Kapittel 9 Opplysningsplikt, fastsetting og beregning av tollavgift</a></li>
+<li class="lvl4"><a href="#9-1-alminnelig-opplysningsplikt">§ 9-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#9-2-melding-for-tollavgift">§ 9-2. Melding for tollavgift</a></li>
+<li class="lvl4"><a href="#9-3-fastsetting-og-beregning-av-tollavgift">§ 9-3. Fastsetting og beregning av tollavgift</a></li>
+<li class="lvl4"><a href="#9-4-endring-av-egen-fastsetting">§ 9-4. Endring av egen fastsetting</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll">Kapittel 10 Kontroll</a></li>
+<li class="lvl4"><a href="#10-1-kontrollopplysninger-fra-tollavgiftspliktige-mv-og-tredjeparter">§ 10-1. Kontrollopplysninger fra tollavgiftspliktige mv. og tredjeparter</a></li>
+<li class="lvl4"><a href="#10-2-kontroll-hos-den-opplysningspliktige">§ 10-2. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#10-3-kontrollopplysninger-fra-offentlige-myndigheter">§ 10-3. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#10-4-palegg-om-bokfring">§ 10-4. Pålegg om bokføring</a></li>
+<li class="lvl4"><a href="#10-5-klage-over-palegg-om-bokfring">§ 10-5. Klage over pålegg om bokføring</a></li>
+<li class="lvl2"><a href="#kapittel-11-endring-uten-klage-og-endringsfrister">Kapittel 11 Endring uten klage og endringsfrister</a></li>
+<li class="lvl4"><a href="#11-1-tollmyndighetenes-endring-av-tollavgiftsfastsetting-mv">§ 11-1. Tollmyndighetenes endring av tollavgiftsfastsetting mv.</a></li>
+<li class="lvl4"><a href="#11-2-frister-for-endring-av-tollavgiftsfastsetting-mv">§ 11-2. Frister for endring av tollavgiftsfastsetting mv.</a></li>
+<li class="lvl4"><a href="#11-3-unntak-fra-fristene-for-a-ta-opp-tollavgiftsfastsetting-mv-til-endring">§ 11-3. Unntak fra fristene for å ta opp tollavgiftsfastsetting mv. til endring</a></li>
+<li class="lvl4"><a href="#11-4-nedsettelse-av-tollavgift">§ 11-4. Nedsettelse av tollavgift</a></li>
+<li class="lvl2"><a href="#kapittel-12-administrative-reaksjoner-straff-og-sksmal">Kapittel 12 Administrative reaksjoner, straff og søksmål</a></li>
+<li class="lvl4"><a href="#12-1-tvangsmulkt">§ 12-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#12-2-overtredelsesgebyr">§ 12-2. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#12-3-tilleggsavgift">§ 12-3. Tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-4-unntak-fra-tilleggsavgift">§ 12-4. Unntak fra tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-5-skjerpet-tilleggsavgift">§ 12-5. Skjerpet tilleggsavgift</a></li>
+<li class="lvl4"><a href="#12-6-straff-for-unnlatt-medvirkning-til-kontroll">§ 12-6. Straff for unnlatt medvirkning til kontroll</a></li>
+<li class="lvl4"><a href="#12-7-utsatt-iverksetting-av-vedtak-om-sanksjon">§ 12-7. Utsatt iverksetting av vedtak om sanksjon</a></li>
+<li class="lvl4"><a href="#12-8-frist-for-sksmal-mot-tollmyndighetenes-vedtak">§ 12-8. Frist for søksmål mot tollmyndighetenes vedtak</a></li>
+<li class="lvl2"><a href="#kapittel-13-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 13 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#13-2-overgangsbestemmelser">§ 13-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#13-3-endringer-i-andre-lover">§ 13-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-8.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2022-03-11-8.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2022-03-11-8.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2022-03-11-8.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2022-03-11-8.html">Observerte kildeutgaver</a> · <a href="../historie/tollavgiftsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2022-03-11-8.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2022-03-11-8.html">Observerte kildeutgaver</a> · <a href="../historie/tollavgiftsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2022-03-11-8.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-tollavgift-tollavgiftsloven">Lov om tollavgift (tollavgiftsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</h4>
 <p>(1) Loven gjelder plikt til å beregne tollavgift for varer som innføres til tollområdet, og fastsetting av tollavgift.</p>
@@ -111,7 +310,7 @@ e. vare: alt som er omfattet av forskrift om klassifisering av varer.</p>
 <p>(2) Den som har medvirket til manglende overholdelse av vilkår som nevnt i § 2-1 annet ledd, og plikter som nevnt i § 2-1 tredje ledd, er medansvarlig for tollavgift dersom vedkommende visste eller burde ha visst at vilkår eller plikter ikke er oppfylt. Det samme gjelder den som har ervervet eller oppbevart varen. For den som har ervervet eller oppbevart varen, vurderes kunnskapen på tidspunktet for mottak av varen.</p>
 <p>(3) Den som har benyttet tollrepresentant som i eget navn har levert melding for tollavgift, jf. § 8-9 første ledd tredje punktum, er medansvarlig for tollavgift.</p>
 <p>(4) Departementet kan gi forskrift om at rederiet er medansvarlig for tollavgift ved innførsel av proviant i strid med vilkår for fritak.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 110 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 110 .</p>
 <h4 id="2-5-solidaransvar-for-tollavgift">§ 2-5. Solidaransvar for tollavgift</h4>
 <p>Dersom flere plikter å beregne tollavgift for den samme varen, er de solidarisk ansvarlige for tollavgiften.</p>
 <h4 id="2-6-tollavgiftspliktig-ved-erverv-av-vare-med-nedsatt-tollavgift-pa-vilkar-om-sluttbruk">§ 2-6. Tollavgiftspliktig ved erverv av vare med nedsatt tollavgift på vilkår om sluttbruk</h4>
@@ -228,7 +427,7 @@ c. til bruk i forbindelse med utforskning og utnyttelse av undersjøiske naturfo
 <p>(3) Informasjonsutveksling med fremmed stat eller til organisasjon på mandat fra De forente nasjoner (FN) som Norge har akseptert som offentlig myndighet, er ikke omfattet av denne bestemmelsen.</p>
 <p>(4) Departementet kan uten hinder av taushetsplikten etter første ledd godkjenne at opplysninger gis til forskningsformål i samsvar med forvaltningsloven § 13 d .</p>
 <p>(5) Forvaltningsloven §§ 13 , 13 b , 13 c og 13 e gjelder ikke som utfyllende bestemmelser for taushetsplikten etter denne paragrafen.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 53 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 53 .</p>
 <h4 id="8-2-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 8-2. Utlevering av opplysninger til offentlige myndigheter</h4>
 <p>(1) Taushetsplikten etter § 8-1 første ledd første punktum er ikke til hinder for at opplysninger utleveres til andre offentlige myndigheter dersom dette er nødvendig for å utføre mottakerorganets oppgaver etter lov, eller for å hindre at virksomhet blir utøvd på en uforsvarlig måte.</p>
 <p>(2) Utleveringen må ikke være uforholdsmessig ut fra de ulempene den medfører i form av inngrep i personvernet og fare for at opplysninger av konkurransemessig betydning kommer på avveie.</p>
@@ -252,14 +451,14 @@ c. til bruk i forbindelse med utforskning og utnyttelse av undersjøiske naturfo
 <p>(2) Tollrepresentanten skal opplyse tollmyndighetene om at vedkommende handler på vegne av den representerte. Dersom tollrepresentanten leverer melding for tollavgift i eget navn, men handler på vegne av en annen fysisk eller juridisk person, skal vedkommende opplyse om det.</p>
 <p>(3) Tollmyndighetene kan kreve at tollrepresentanten sannsynliggjør at vedkommende handler på vegne av den representerte. Dersom dette ikke kan sannsynliggjøres, anses vedkommende for å handle i eget navn og på egne vegne.</p>
 <p>(4) Departementet kan gi forskrift om tollrepresentantens opplysningsplikt etter annet ledd og om unntak fra plikten.</p>
-<p><em>Tilføyd ved lov 20 des 2022 nr. 110 .</em></p>
+<p class="note">Tilføyd ved lov 20 des 2022 nr. 110 .</p>
 <h2 id="kapittel-9-opplysningsplikt-fastsetting-og-beregning-av-tollavgift">Kapittel 9 Opplysningsplikt, fastsetting og beregning av tollavgift</h2>
 <h4 id="9-1-alminnelig-opplysningsplikt">§ 9-1. Alminnelig opplysningsplikt</h4>
 <p>Den som leverer melding for tollavgift etter § 9-2 , skal gi riktige og fullstendige opplysninger. Vedkommende skal opptre aktsomt og lojalt slik at tollavgiftsplikten i rett tid blir klarlagt og oppfylt, og varsle tollmyndighetene om eventuelle feil.</p>
 <h4 id="9-2-melding-for-tollavgift">§ 9-2. Melding for tollavgift <a class="para-history" href="../historikk/lov-2022-03-11-8/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Melding for tollavgift skal leveres av den deklarasjonspliktige når en vare deklareres for prosedyren overgang til fri disponering etter vareførselsloven § 4-1 . Meldingen skal gis som del av deklarasjonen og inneholde alle opplysninger som har betydning for fastsetting av tollavgift.</p>
 <p>(2) Departementet kan gi forskrift om innholdet i melding for tollavgift.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 110 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 110 .</p>
 <h4 id="9-3-fastsetting-og-beregning-av-tollavgift">§ 9-3. Fastsetting og beregning av tollavgift</h4>
 <p>Den som leverer en melding for tollavgift etter § 9-2 , fastsetter grunnlaget for tollavgift ved levering av meldingen, og beregner tollavgift av det fastsatte grunnlaget.</p>
 <h4 id="9-4-endring-av-egen-fastsetting">§ 9-4. Endring av egen fastsetting</h4>
@@ -298,10 +497,10 @@ c. til bruk i forbindelse med utforskning og utnyttelse av undersjøiske naturfo
 <p>Fristene i § 11-2 er ikke til hinder for at fastsettingen tas opp til endring</p>
 <p>a. når endringen følger av, eller forutsettes i, utfallet av et søksmål
 b. som følge av uttalelsen fra Stortingets ombud for kontroll med forvaltningen, i en sak der tollavgiftspliktig eller medansvarlig er part.</p>
-<p><em>Endret ved lov 22 juni 2022 nr. 78 .</em></p>
+<p class="note">Endret ved lov 22 juni 2022 nr. 78 .</p>
 <h4 id="11-4-nedsettelse-av-tollavgift">§ 11-4. Nedsettelse av tollavgift <a class="para-history" href="../historikk/lov-2022-03-11-8/para-11-4.html" title="Endringshistorikk for § 11-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tollmyndighetene kan treffe enkeltvedtak om nedsettelse av tollavgift dersom det oppstår tilfeller eller situasjoner som ikke var overveid da Stortingets vedtak om tollavgift ble truffet, og tollavgiften i det enkelte tilfellet får en utilsiktet og klart urimelig virkning.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 53 .</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 53 .</p>
 <h2 id="kapittel-12-administrative-reaksjoner-straff-og-sksmal">Kapittel 12 Administrative reaksjoner, straff og søksmål</h2>
 <h4 id="12-1-tvangsmulkt">§ 12-1. Tvangsmulkt</h4>
 <p>(1) For å fremtvinge levering av pliktige opplysninger, kan tollmyndighetene ilegge den som har plikt til å gi opplysninger etter § 10-1 , en daglig løpende tvangsmulkt når opplysningene ikke gis innen de fastsatte frister. Det samme gjelder når det er åpenbare mangler ved de opplysningene som er gitt. Tvangsmulkt kan også ilegges den som ikke retter seg etter et pålegg om bokføring etter § 10-4 innen den fastsatte fristen.</p>
@@ -338,7 +537,7 @@ d. når tilleggsavgiften for det enkelte forhold vil bli under 1 000 kroner.</p
 <p>(1) Søksmål som gjelder enkeltvedtak om fastsetting av tollavgift, må reises innen seks måneder etter at vedtaket ble sendt tollavgiftspliktig eller medansvarlig. Det kan gis oppfriskning for oversittelse av fristen etter <a href="lov-2005-06-17-90.html">tvisteloven</a> §§ 16-12 til 16-14 .</p>
 <p>(2) Søksmålsfristen avbrytes dersom det omtvistede spørsmålet klages inn for Stortingets ombud for kontroll med forvaltningen. Ny søksmålsfrist på seks måneder løper fra ombudets melding om avsluttet behandling er kommet frem til tollavgiftspliktig eller medansvarlig, eller fra denne blir varslet om myndighetenes svar på ombudets anmodning om fornyet behandling. Søksmålsfristen etter første ledd avbrytes likevel ikke dersom klagen ikke fører til realitetsavgjørelse hos ombudet og dette skyldes forsettlig forhold fra tollavgiftspliktiges eller medansvarliges side.</p>
 <p>(3) Søksmålsfristen i første ledd første punktum gjelder ikke når søksmål reises mot førsteinstansens vedtak i medhold av forvaltningsloven § 27 b annet punktum.</p>
-<p><em>Endret ved lover 22 juni 2022 nr. 78 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2022 nr. 78 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h2 id="kapittel-13-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 13 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</h2>
 <h4 id="13-1-ikrafttredelse">§ 13-1. Ikrafttredelse</h4>
 <p>Loven trer i kraft fra den tid 1 Kongen bestemmer.</p>
@@ -347,7 +546,9 @@ d. når tilleggsavgiften for det enkelte forhold vil bli under 1 000 kroner.</p
 <p>Departementet kan gi forskrift om overgangsbestemmelser.</p>
 <h4 id="13-3-endringer-i-andre-lover">§ 13-3. Endringer i andre lover</h4>
 <p>Fra det tidspunktet loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lov 20 des 2022 nr. 110 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 110 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

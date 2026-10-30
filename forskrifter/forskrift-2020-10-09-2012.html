@@ -19,64 +19,213 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-10-09-2012.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Pass- og ID-kortforskriften" href="../feeds/forskrift-2020-10-09-2012.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Pass- og ID-kortforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-10-09-2012</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2020-10-19, 2022-11-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-18-2657</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-10-09-2012" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-politidirektoratets-ansvar-og-oppgaver">§ 1-2. Politidirektoratets ansvar og oppgaver</a></li>
+<li class="lvl4"><a href="#1-3-utenriksstasjonenes-passmyndighet">§ 1-3. Utenriksstasjonenes passmyndighet</a></li>
+<li class="lvl4"><a href="#1-4-gjennomfring-av-eu-rettsakter">§ 1-4. Gjennomføring av EU-rettsakter</a></li>
+<li class="lvl2"><a href="#kapittel-2-sknad-om-pass-og-nasjonalt-id-kort">Kapittel 2. Søknad om pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#2-1-personlig-fremmte">§ 2-1. Personlig fremmøte</a></li>
+<li class="lvl4"><a href="#2-2-godtgjring-av-identitet">§ 2-2. Godtgjøring av identitet</a></li>
+<li class="lvl4"><a href="#2-3-godtgjring-av-statsborgerskap">§ 2-3. Godtgjøring av statsborgerskap</a></li>
+<li class="lvl4"><a href="#2-4-innhenting-av-opplysninger-fra-folkeregisteret-fdselsnummer-personnavn-mv">§ 2-4. Innhenting av opplysninger fra Folkeregisteret, fødselsnummer, personnavn, mv.</a></li>
+<li class="lvl4"><a href="#2-5-samtykke-til-utstedelse-av-pass-eller-nasjonalt-id-kort-med-reiserett-til-mindrearige">§ 2-5. Samtykke til utstedelse av pass eller nasjonalt ID-kort med reiserett til mindreårige</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-ansiktsfoto">§ 2-6. Krav til ansiktsfoto</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-fingeravtrykk">§ 2-7. Krav til fingeravtrykk</a></li>
+<li class="lvl4"><a href="#2-8-krav-til-navnetrekk">§ 2-8. Krav til navnetrekk</a></li>
+<li class="lvl4"><a href="#2-9-krav-til-bekreftelse">§ 2-9. Krav til bekreftelse</a></li>
+<li class="lvl4"><a href="#2-10-kontroll-av-sknaden">§ 2-10. Kontroll av søknaden</a></li>
+<li class="lvl4"><a href="#2-11-innlevering-og-makulering-av-tidligere-pass-og-nasjonalt-id-kort">§ 2-11. Innlevering og makulering av tidligere pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#2-12-opplysning-om-straffansvar-for-uriktig-forklaring-mv">§ 2-12. Opplysning om straffansvar for uriktig forklaring mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2a-utstedelse-av-nasjonalt-id-kort-til-utenlandske-statsborgere">Kapittel 2A. Utstedelse av nasjonalt ID-kort til utenlandske statsborgere</a></li>
+<li class="lvl4"><a href="#2a-1-rett-til-nasjonalt-id-kort-uten-reiserett">§ 2A-1. Rett til nasjonalt ID-kort uten reiserett</a></li>
+<li class="lvl4"><a href="#2a-2-dokumentasjonskrav">§ 2A-2. Dokumentasjonskrav</a></li>
+<li class="lvl4"><a href="#2a-3-begrensninger-i-gyldighetstiden">§ 2A-3. Begrensninger i gyldighetstiden</a></li>
+<li class="lvl4"><a href="#2a-4-opplysninger-pa-kortet">§ 2A-4. Opplysninger på kortet</a></li>
+<li class="lvl2"><a href="#kapittel-3-ekstra-pass-og-midlertidig-pass">Kapittel 3. Ekstra pass og midlertidig pass</a></li>
+<li class="lvl4"><a href="#3-1-ekstra-pass">§ 3-1. Ekstra pass</a></li>
+<li class="lvl4"><a href="#3-2-midlertidig-pass">§ 3-2. Midlertidig pass</a></li>
+<li class="lvl4"><a href="#3-3-ugyldiggjring-og-innlevering">§ 3-3. Ugyldiggjøring og innlevering</a></li>
+<li class="lvl2"><a href="#kapittel-4-nektelse-og-tilbakekall-av-pass-og-nasjonalt-id-kort">Kapittel 4. Nektelse og tilbakekall av pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#4-1-nektelse-og-tilbakekall-av-pass-og-nasjonalt-id-kort-med-reiserett">§ 4-1. Nektelse og tilbakekall av pass og nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl4"><a href="#4-2-nektelse-av-midlertidig-pass">§ 4-2. Nektelse av midlertidig pass</a></li>
+<li class="lvl4"><a href="#4-3-vedtakets-varighet">§ 4-3. Vedtakets varighet</a></li>
+<li class="lvl4"><a href="#4-4-tilbakekall-av-pass-eller-nasjonalt-id-kort-med-reiserett-til-mindrearige">§ 4-4. Tilbakekall av pass eller nasjonalt ID-kort med reiserett til mindreårige</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-opplysninger-i-pass-og-id-kortregistrene">Kapittel 5. Behandling av opplysninger i pass- og ID-kortregistrene</a></li>
+<li class="lvl4"><a href="#5-1-behandlingsansvar">§ 5-1. Behandlingsansvar</a></li>
+<li class="lvl4"><a href="#5-2-opplysninger-som-skal-registreres-i-passregisteret">§ 5-2. Opplysninger som skal registreres i passregisteret</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-som-skal-registreres-i-id-kortregisteret">§ 5-3. Opplysninger som skal registreres i ID-kortregisteret</a></li>
+<li class="lvl4"><a href="#5-3a-utlevering-av-opplysninger-fra-passregisteret-og-id-kortregisteret">§ 5-3a. Utlevering av opplysninger fra passregisteret og ID-kortregisteret</a></li>
+<li class="lvl4"><a href="#5-4-innsyn">§ 5-4. Innsyn</a></li>
+<li class="lvl4"><a href="#5-5-retting-og-begrensning-av-behandling">§ 5-5. Retting og begrensning av behandling</a></li>
+<li class="lvl4"><a href="#5-6-sletting">§ 5-6. Sletting</a></li>
+<li class="lvl4"><a href="#5-7-felles-saksbehandlingsregler-om-innsyn-retting-begrensning-av-behandling-og-sletting">§ 5-7. Felles saksbehandlingsregler om innsyn, retting, begrensning av behandling og sletting</a></li>
+<li class="lvl2"><a href="#kapittel-6-gyldighetstid">Kapittel 6. Gyldighetstid</a></li>
+<li class="lvl4"><a href="#6-1-gyldighetstiden-for-ordinrt-pass-og-nasjonalt-id-kort">§ 6-1. Gyldighetstiden for ordinært pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#6-2-begrensninger-i-gyldighetstiden-for-pass-og-nasjonalt-id-kort-med-reiserett">§ 6-2. Begrensninger i gyldighetstiden for pass og nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl4"><a href="#6-3-gyldighetstiden-for-ekstra-pass-og-midlertidig-pass">§ 6-3. Gyldighetstiden for ekstra pass og midlertidig pass</a></li>
+<li class="lvl2"><a href="#kapittel-7-gebyr">Kapittel 7. Gebyr</a></li>
+<li class="lvl4"><a href="#7-1-sknadsgebyr-for-pass">§ 7-1. Søknadsgebyr for pass</a></li>
+<li class="lvl4"><a href="#7-2-sknadsgebyr-for-nasjonalt-id-kort">§ 7-2. Søknadsgebyr for nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#7-3-sknadsgebyr-ved-samtidig-sknad-om-pass-og-nasjonalt-id-kort">§ 7-3. Søknadsgebyr ved samtidig søknad om pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#7-4-tilleggsgebyr-for-ekspresslevering-av-pass-og-nasjonalt-id-kort">§ 7-4. Tilleggsgebyr for ekspresslevering av pass og nasjonalt ID-kort</a></li>
+<li class="lvl2"><a href="#kapittel-8-andre-bestemmelser">Kapittel 8. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-18-2657.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-09-2012.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om pass og nasjonalt ID-kort (pass- og ID-kortforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-10-09-2012.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-10-09-2012 <code>forskrift/2020-10-09-2012</code></td></tr>
+<tr><th>Korttittel</th><td>Pass- og ID-kortforskriften</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>19.10.2020, 01.11.2022</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-18-2657 <code>forskrift/2025-12-18-2657</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-10-09-2012" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-politidirektoratets-ansvar-og-oppgaver">§ 1-2. Politidirektoratets ansvar og oppgaver</a></li>
+<li class="lvl4"><a href="#1-3-utenriksstasjonenes-passmyndighet">§ 1-3. Utenriksstasjonenes passmyndighet</a></li>
+<li class="lvl4"><a href="#1-4-gjennomfring-av-eu-rettsakter">§ 1-4. Gjennomføring av EU-rettsakter</a></li>
+<li class="lvl2"><a href="#kapittel-2-sknad-om-pass-og-nasjonalt-id-kort">Kapittel 2. Søknad om pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#2-1-personlig-fremmte">§ 2-1. Personlig fremmøte</a></li>
+<li class="lvl4"><a href="#2-2-godtgjring-av-identitet">§ 2-2. Godtgjøring av identitet</a></li>
+<li class="lvl4"><a href="#2-3-godtgjring-av-statsborgerskap">§ 2-3. Godtgjøring av statsborgerskap</a></li>
+<li class="lvl4"><a href="#2-4-innhenting-av-opplysninger-fra-folkeregisteret-fdselsnummer-personnavn-mv">§ 2-4. Innhenting av opplysninger fra Folkeregisteret, fødselsnummer, personnavn, mv.</a></li>
+<li class="lvl4"><a href="#2-5-samtykke-til-utstedelse-av-pass-eller-nasjonalt-id-kort-med-reiserett-til-mindrearige">§ 2-5. Samtykke til utstedelse av pass eller nasjonalt ID-kort med reiserett til mindreårige</a></li>
+<li class="lvl4"><a href="#2-6-krav-til-ansiktsfoto">§ 2-6. Krav til ansiktsfoto</a></li>
+<li class="lvl4"><a href="#2-7-krav-til-fingeravtrykk">§ 2-7. Krav til fingeravtrykk</a></li>
+<li class="lvl4"><a href="#2-8-krav-til-navnetrekk">§ 2-8. Krav til navnetrekk</a></li>
+<li class="lvl4"><a href="#2-9-krav-til-bekreftelse">§ 2-9. Krav til bekreftelse</a></li>
+<li class="lvl4"><a href="#2-10-kontroll-av-sknaden">§ 2-10. Kontroll av søknaden</a></li>
+<li class="lvl4"><a href="#2-11-innlevering-og-makulering-av-tidligere-pass-og-nasjonalt-id-kort">§ 2-11. Innlevering og makulering av tidligere pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#2-12-opplysning-om-straffansvar-for-uriktig-forklaring-mv">§ 2-12. Opplysning om straffansvar for uriktig forklaring mv.</a></li>
+<li class="lvl2"><a href="#kapittel-2a-utstedelse-av-nasjonalt-id-kort-til-utenlandske-statsborgere">Kapittel 2A. Utstedelse av nasjonalt ID-kort til utenlandske statsborgere</a></li>
+<li class="lvl4"><a href="#2a-1-rett-til-nasjonalt-id-kort-uten-reiserett">§ 2A-1. Rett til nasjonalt ID-kort uten reiserett</a></li>
+<li class="lvl4"><a href="#2a-2-dokumentasjonskrav">§ 2A-2. Dokumentasjonskrav</a></li>
+<li class="lvl4"><a href="#2a-3-begrensninger-i-gyldighetstiden">§ 2A-3. Begrensninger i gyldighetstiden</a></li>
+<li class="lvl4"><a href="#2a-4-opplysninger-pa-kortet">§ 2A-4. Opplysninger på kortet</a></li>
+<li class="lvl2"><a href="#kapittel-3-ekstra-pass-og-midlertidig-pass">Kapittel 3. Ekstra pass og midlertidig pass</a></li>
+<li class="lvl4"><a href="#3-1-ekstra-pass">§ 3-1. Ekstra pass</a></li>
+<li class="lvl4"><a href="#3-2-midlertidig-pass">§ 3-2. Midlertidig pass</a></li>
+<li class="lvl4"><a href="#3-3-ugyldiggjring-og-innlevering">§ 3-3. Ugyldiggjøring og innlevering</a></li>
+<li class="lvl2"><a href="#kapittel-4-nektelse-og-tilbakekall-av-pass-og-nasjonalt-id-kort">Kapittel 4. Nektelse og tilbakekall av pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#4-1-nektelse-og-tilbakekall-av-pass-og-nasjonalt-id-kort-med-reiserett">§ 4-1. Nektelse og tilbakekall av pass og nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl4"><a href="#4-2-nektelse-av-midlertidig-pass">§ 4-2. Nektelse av midlertidig pass</a></li>
+<li class="lvl4"><a href="#4-3-vedtakets-varighet">§ 4-3. Vedtakets varighet</a></li>
+<li class="lvl4"><a href="#4-4-tilbakekall-av-pass-eller-nasjonalt-id-kort-med-reiserett-til-mindrearige">§ 4-4. Tilbakekall av pass eller nasjonalt ID-kort med reiserett til mindreårige</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-opplysninger-i-pass-og-id-kortregistrene">Kapittel 5. Behandling av opplysninger i pass- og ID-kortregistrene</a></li>
+<li class="lvl4"><a href="#5-1-behandlingsansvar">§ 5-1. Behandlingsansvar</a></li>
+<li class="lvl4"><a href="#5-2-opplysninger-som-skal-registreres-i-passregisteret">§ 5-2. Opplysninger som skal registreres i passregisteret</a></li>
+<li class="lvl4"><a href="#5-3-opplysninger-som-skal-registreres-i-id-kortregisteret">§ 5-3. Opplysninger som skal registreres i ID-kortregisteret</a></li>
+<li class="lvl4"><a href="#5-3a-utlevering-av-opplysninger-fra-passregisteret-og-id-kortregisteret">§ 5-3a. Utlevering av opplysninger fra passregisteret og ID-kortregisteret</a></li>
+<li class="lvl4"><a href="#5-4-innsyn">§ 5-4. Innsyn</a></li>
+<li class="lvl4"><a href="#5-5-retting-og-begrensning-av-behandling">§ 5-5. Retting og begrensning av behandling</a></li>
+<li class="lvl4"><a href="#5-6-sletting">§ 5-6. Sletting</a></li>
+<li class="lvl4"><a href="#5-7-felles-saksbehandlingsregler-om-innsyn-retting-begrensning-av-behandling-og-sletting">§ 5-7. Felles saksbehandlingsregler om innsyn, retting, begrensning av behandling og sletting</a></li>
+<li class="lvl2"><a href="#kapittel-6-gyldighetstid">Kapittel 6. Gyldighetstid</a></li>
+<li class="lvl4"><a href="#6-1-gyldighetstiden-for-ordinrt-pass-og-nasjonalt-id-kort">§ 6-1. Gyldighetstiden for ordinært pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#6-2-begrensninger-i-gyldighetstiden-for-pass-og-nasjonalt-id-kort-med-reiserett">§ 6-2. Begrensninger i gyldighetstiden for pass og nasjonalt ID-kort med reiserett</a></li>
+<li class="lvl4"><a href="#6-3-gyldighetstiden-for-ekstra-pass-og-midlertidig-pass">§ 6-3. Gyldighetstiden for ekstra pass og midlertidig pass</a></li>
+<li class="lvl2"><a href="#kapittel-7-gebyr">Kapittel 7. Gebyr</a></li>
+<li class="lvl4"><a href="#7-1-sknadsgebyr-for-pass">§ 7-1. Søknadsgebyr for pass</a></li>
+<li class="lvl4"><a href="#7-2-sknadsgebyr-for-nasjonalt-id-kort">§ 7-2. Søknadsgebyr for nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#7-3-sknadsgebyr-ved-samtidig-sknad-om-pass-og-nasjonalt-id-kort">§ 7-3. Søknadsgebyr ved samtidig søknad om pass og nasjonalt ID-kort</a></li>
+<li class="lvl4"><a href="#7-4-tilleggsgebyr-for-ekspresslevering-av-pass-og-nasjonalt-id-kort">§ 7-4. Tilleggsgebyr for ekspresslevering av pass og nasjonalt ID-kort</a></li>
+<li class="lvl2"><a href="#kapittel-8-andre-bestemmelser">Kapittel 8. Andre bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-09-2012.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-10-09-2012.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-10-09-2012.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-10-09-2012.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-10-09-2012.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-10-09-2012.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-10-09-2012.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-10-09-2012.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-10-09-2012.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-pass-og-nasjonalt-id-kort-pass-og-id-kortforskriften">Forskrift om pass og nasjonalt ID-kort (pass- og ID-kortforskriften)</h1>
 <h2 id="kapittel-1-alminnelige-bestemmelser">Kapittel 1. Alminnelige bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Forskriften gjelder utstedelse, bruk og forvaltning av pass og nasjonalt ID-kort.</p>
@@ -88,7 +237,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Utenriksstasjonen som har mottatt søknaden står alltid som utstedende myndighet i passet.</p>
 <h4 id="1-4-gjennomfring-av-eu-rettsakter">§ 1-4. Gjennomføring av EU-rettsakter <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-1-4.html" title="Endringshistorikk for § 1-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>EØS-avtalen vedlegg V nr. 1a (forordning (EU) nr. 2019/1157 ) gjelder som forskrift med de tilpasninger som følger av vedlegg VIII nr. 10a og av avtalen for øvrig.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 .</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 .</p>
 <h2 id="kapittel-2-sknad-om-pass-og-nasjonalt-id-kort">Kapittel 2. Søknad om pass og nasjonalt ID-kort</h2>
 <h4 id="2-1-personlig-fremmte">§ 2-1. Personlig fremmøte</h4>
 <p>Søknad om pass fremmes ved personlig fremmøte hos passmyndighet i Norge eller ved norsk utenriksstasjon med passmyndighet. Søknad om nasjonalt ID-kort fremmes ved personlig fremmøte hos ID-kortmyndighet i Norge.</p>
@@ -99,7 +248,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-2-godtgjring-av-identitet">§ 2-2. Godtgjøring av identitet <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Søkeren skal godtgjøre sin folkeregistrerte identitet ved å gi opplysninger, herunder navn, statsborgerskap, fødselsdato, fødselsnummer, fødested og familieforhold, og ved å fremlegge nødvendige underlagsdokumenter. Identiteten er godtgjort når det ikke er tvil om at dokumenter og andre opplysninger bekrefter søkerens identitet.</p>
 <p>Søkerens siste pass eller nasjonale ID-kort skal benyttes til identifisering, med mindre søkeren ikke tidligere har hatt pass eller nasjonalt ID-kort, disse er meldt tapt eller ikke er egnet til å identifisere søkeren. I tillegg kan det kreves fremlagt annen dokumentasjon som kan bidra til å bekrefte søkerens identitet.</p>
-<p><em>Endret ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Endret ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h4 id="2-3-godtgjring-av-statsborgerskap">§ 2-3. Godtgjøring av statsborgerskap</h4>
 <p>Hvis søkeren tidligere har vært utenlandsk statsborger skal statsborgervedtaket fremlegges ved første gangs søknad om norsk pass eller nasjonalt ID-kort.</p>
 <p>For søkere som bor eller oppholder seg i utlandet bør det i tvilstilfelle kreves at søkeren fremlegger erklæring fra bosteds- eller oppholdslandets myndigheter om at søkeren ikke før 1. januar 2020 etter søknad har ervervet statsborgerskap i dette landet. Dersom slik erklæring ikke kan skaffes, kan det kreves at søkeren fremlegger gyldig oppholdstillatelse fra oppholdslandet eller avgir en egenerklæring om at han eller hun ikke før 1. januar 2020 har ervervet annet lands statsborgerskap etter søknad eller uttrykkelig samtykke. Dersom søkeren opplyser å ha ervervet statsborgerskap i bosteds- eller oppholdslandet etter 1. januar 2020, bør det i tvilstilfelle kreves fremlagt dokumentasjon på når statsborgerskapet er ervervet.</p>
@@ -128,7 +277,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <h4 id="2-10-kontroll-av-sknaden">§ 2-10. Kontroll av søknaden <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-2-10.html" title="Endringshistorikk for § 2-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Pass- og ID-kortmyndigheten skal foreta en grundig kontroll av søkerens identitet og fremlagte opplysninger, herunder opplysninger om foreldreansvar, og ektheten av fremlagte dokumenter.</p>
 <p>For å kontrollere at vilkårene for utstedelse av pass eller nasjonalt ID-kort er oppfylt, skal det gjennomføres søk i passregisteret og ID-kortregisteret, herunder biometrisk sammenligning. Det skal også gjennomføres biometrisk sammenligning mot utlendingsregisteret ved utstedelse av nasjonalt ID-kort til utenlandske statsborgere. Det kan gjennomføres søk mot politiets registre i den utstrekning det er gitt adgang til det i politiregisterforskriften del 11 .</p>
-<p><em>Endret ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrifter 29 mars 2025 nr. 560 og 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Endret ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrifter 29 mars 2025 nr. 560 og 29 mars 2025 nr. 561 ).</p>
 <h4 id="2-11-innlevering-og-makulering-av-tidligere-pass-og-nasjonalt-id-kort">§ 2-11. Innlevering og makulering av tidligere pass og nasjonalt ID-kort</h4>
 <p>Søkerens tidligere pass eller nasjonale ID-kort skal innleveres for makulering eller meldes tapt før nytt pass eller nasjonalt ID-kort utleveres. Hvis dokumentet er tapt eller fremstår som ødelagt ved innlevering, skal søkeren opplyse hvordan dette har skjedd.</p>
 <p>Hvis det tidligere passet har innstemplet visum eller oppholdstillatelse med gjenstående gyldighetstid, makuleres kun øvrige deler av passet. Det er passinnehaverens ansvar å opplyse om slikt visum eller oppholdstillatelse, og undersøke gyldigheten av disse i et ellers makulert pass.</p>
@@ -144,17 +293,17 @@ b. har oppholdstillatelse som ikke er utløpt eller oppholdsrett etter utlending
 c. godtgjør sin identitet i samsvar med §§ 2-2 og 2A-2 .</p>
 <p>Nasjonalt ID-kort dokumenterer ikke lovlig opphold eller andre rettigheter.</p>
 <p>De alminnelige reglene i ID-kortloven og forskriften om utstedelse av nasjonalt ID-kort gjelder med de særregler som følger av dette kapittelet.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h4 id="2a-2-dokumentasjonskrav">§ 2A-2. Dokumentasjonskrav</h4>
 <p>Søkere som er EØS- eller EFTA-borgere skal legge frem elektronisk maskinlesbart nasjonalt ID-kort eller pass fra hjemlandet.</p>
 <p>Søkere som ikke er EØS- eller EFTA-borgere skal legge frem norsk oppholdskort som dokumenterer oppholdstillatelsen eller oppholdsretten. Søkere som har pass fra hjemlandet, norsk utlendingspass eller reisebevis for flyktninger skal også legge frem dette.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h4 id="2a-3-begrensninger-i-gyldighetstiden">§ 2A-3. Begrensninger i gyldighetstiden</h4>
 <p>Nasjonalt ID-kort til utenlandske statsborgere med midlertidig oppholdstillatelse eller oppholdsrett etter utlendingsloven § 114 skal ikke gis gyldighet utover oppholdskortets utløpsdato. ID-kort til mindreårige skal heller ikke gis gyldighet utover gyldighetstiden som følger av forskriften § 6-1 andre ledd bokstav b og c.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h4 id="2a-4-opplysninger-pa-kortet">§ 2A-4. Opplysninger på kortet</h4>
 <p>ID-kortets maskinlesbare felt skal påføres standardtekst som viser at kortet er utstedt til utenlandsk statsborger.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h2 id="kapittel-3-ekstra-pass-og-midlertidig-pass">Kapittel 3. Ekstra pass og midlertidig pass</h2>
 <h4 id="3-1-ekstra-pass">§ 3-1. Ekstra pass</h4>
 <p>Innehaveren av et ordinært pass kan få utstedt et ekstra pass når det dokumenteres at tjenstlige eller andre grunner gir behov for å reise til flere land og</p>
@@ -163,7 +312,7 @@ b. en eller flere reiser vanskeliggjøres fordi passet i anledning annen reise m
 <p>Ekstra pass kan utstedes som ordinært pass eller som midlertidig pass.</p>
 <h4 id="3-2-midlertidig-pass">§ 3-2. Midlertidig pass <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Midlertidig pass kan utstedes til personer som på grunn av en nært forestående reise ikke kan avvente utstedelse av et ordinært pass. De alminnelige vilkårene for pass skal være oppfylt.</p>
-<p><em>Endret ved forskrifter 16 mai 2022 nr. 858 , 16 mai 2022 nr. 858 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 16 mai 2022 nr. 858 , 16 mai 2022 nr. 858 (i kraft 1 jan 2023).</p>
 <h4 id="3-3-ugyldiggjring-og-innlevering">§ 3-3. Ugyldiggjøring og innlevering</h4>
 <p>Ved utstedelse av midlertidig pass til personer som innehar et gyldig ordinært pass registreres det ordinære passet som ugyldig i passregisteret. I særlige tilfeller kan det gjøres unntak etter retningslinjer fastsatt av Politidirektoratet.</p>
 <p>Etter at reisen er avsluttet plikter innehaveren å innlevere det midlertidige passet og eventuelt ordinært pass som er ugyldiggjort etter første ledd.</p>
@@ -210,7 +359,7 @@ g. ugyldiggjorte ID-kort.</p>
 <p>Det kan i tillegg registreres opplysninger som er nødvendig for forvaltning av registeret og utstedelse av ID-kort.</p>
 <h4 id="5-3a-utlevering-av-opplysninger-fra-passregisteret-og-id-kortregisteret">§ 5-3a. Utlevering av opplysninger fra passregisteret og ID-kortregisteret <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-5-3a.html" title="Endringshistorikk for § 5-3a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Opplysninger fra passregisteret og ID-kortregisteret kan utleveres til utlendingsmyndighetene til bruk i arbeid etter utlendingsloven med å avklare identiteten til en person som har plikt til å gi opplysninger om egen identitet.</p>
-<p><em>Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Tilføyd ved forskrift 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
 <h4 id="5-4-innsyn">§ 5-4. Innsyn</h4>
 <p>Den registrerte har rett til innsyn etter personvernforordningen artikkel 15.</p>
 <h4 id="5-5-retting-og-begrensning-av-behandling">§ 5-5. Retting og begrensning av behandling</h4>
@@ -254,25 +403,27 @@ c. Midlertidig pass 1 690 kroner.</p>
 <p>Søknadsgebyret refunderes ikke ved avslag på søknaden.</p>
 <p>Det påløper ikke gebyr ved utstedelse av nytt pass som erstatning for pass med produksjonsfeil.</p>
 <p>Søknadsgebyret kan unntaksvis frafalles i samsvar med retningslinjer gitt av Politidirektoratet.</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3045 (i kraft 1 jan 2021), 18 des 2023 nr. 2097 (i kraft 1 jan 2024), 16 des 2024 nr. 3145 (i kraft 1 jan 2025), 18 des 2025 nr. 2657 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3045 (i kraft 1 jan 2021), 18 des 2023 nr. 2097 (i kraft 1 jan 2024), 16 des 2024 nr. 3145 (i kraft 1 jan 2025), 18 des 2025 nr. 2657 (i kraft 1 jan 2026).</p>
 <h4 id="7-2-sknadsgebyr-for-nasjonalt-id-kort">§ 7-2. Søknadsgebyr for nasjonalt ID-kort <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For behandling av søknad om nasjonalt ID-kort betales følgende gebyr:</p>
 <p>a. Nasjonalt ID-kort til søkere over ti år 840 kroner.
 b. Nasjonalt ID-kort til søkere under ti år 510 kroner.</p>
 <p>Søknadsgebyret refunderes ikke ved avslag på søknaden.</p>
 <p>Det påløper ikke gebyr ved utstedelse av nytt nasjonalt ID-kort som erstatning for nasjonalt ID-kort med produksjonsfeil.</p>
-<p><em>Endret ved forskrifter 21 des 2020 nr. 3045 (i kraft 1 jan 2021), 18 des 2023 nr. 2097 (i kraft 1 jan 2024), 16 des 2024 nr. 3145 (i kraft 1 jan 2025), 18 des 2025 nr. 2657 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 21 des 2020 nr. 3045 (i kraft 1 jan 2021), 18 des 2023 nr. 2097 (i kraft 1 jan 2024), 16 des 2024 nr. 3145 (i kraft 1 jan 2025), 18 des 2025 nr. 2657 (i kraft 1 jan 2026).</p>
 <h4 id="7-3-sknadsgebyr-ved-samtidig-sknad-om-pass-og-nasjonalt-id-kort">§ 7-3. Søknadsgebyr ved samtidig søknad om pass og nasjonalt ID-kort <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Når en person søker om ordinært pass og nasjonalt ID-kort samtidig, reduseres gebyrprisen med et beløp tilsvarende 20 prosent per dokument (samsøkingsrabatt), avrundet til nærmeste ti kroner.</p>
 <p>Samsøkingsrabatt gjelder ikke ved søknad om midlertidig pass og ekstra pass.</p>
-<p><em>Endret ved forskrift 21 des 2020 nr. 3045 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endret ved forskrift 21 des 2020 nr. 3045 (i kraft 1 jan 2021).</p>
 <h4 id="7-4-tilleggsgebyr-for-ekspresslevering-av-pass-og-nasjonalt-id-kort">§ 7-4. Tilleggsgebyr for ekspresslevering av pass og nasjonalt ID-kort</h4>
 <p>Pass og nasjonalt ID-kort kan utstedes med ekspresslevering mot et tilleggsgebyr på 240 kroner. Politidirektoratet gir nærmere retningslinjer om bestilling og levering.</p>
 <h2 id="kapittel-8-andre-bestemmelser">Kapittel 8. Andre bestemmelser</h2>
 <h4 id="8-1-ikrafttredelse">§ 8-1. Ikrafttredelse <a class="para-history" href="../historikk/forskrift-2020-10-09-2012/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Forskriften trer i kraft 19. oktober 2020, unntatt § 2-5 . Fra samme tidspunkt som forskriften trer i kraft oppheves forskrift 9. desember 1999 nr. 1263 om pass (passforskriften) . § 2-5 trer i kraft 1. november 2022.</p>
 <p>Politidirektoratet bestemmer fra hvilket tidspunkt og fra hvilke søkersteder i Norge utenlandske statsborgere, herunder grupper av utenlandske statsborgere, kan fremme søknad om nasjonalt ID-kort.</p>
-<p><em>Endret ved forskrifter 13 okt 2022 nr. 1763 , 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</em></p>
+<p class="note">Endret ved forskrifter 13 okt 2022 nr. 1763 , 6 aug 2024 nr. 1878 (i kraft 1 april 2025, endring endret ved forskrift 29 mars 2025 nr. 561 ).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

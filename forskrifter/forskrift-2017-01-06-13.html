@@ -19,64 +19,275 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-01-06-13.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om opptak til høgare utdanning" href="../feeds/forskrift-2017-01-06-13.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Forskrift om opptak til høgare utdanning</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-01-06-13</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-01-15</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-02-26-331</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-01-06-13" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade">Kapittel 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-generell-studiekompetanse">Kapittel 2. Generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#2-1-generell-studiekompetanse-kunnskapslftet">§ 2-1. Generell studiekompetanse – Kunnskapsløftet</a></li>
+<li class="lvl4"><a href="#2-2-utanlandsk-utdanning">§ 2-2. Utanlandsk utdanning</a></li>
+<li class="lvl4"><a href="#2-3-opptak-pa-grunnlag-av-fullfrt-hgare-utdanning">§ 2-3. Opptak på grunnlag av fullført høgare utdanning</a></li>
+<li class="lvl4"><a href="#2-4-opptak-pa-grunnlag-av-fullfrt-fagskuleutdanning">§ 2-4. Opptak på grunnlag av fullført fagskuleutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-3-unntak-fra-krav-om-generell-studiekompetanse">Kapittel 3. Unntak frå krav om generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#3-1-realkompetanse">§ 3-1. Realkompetanse</a></li>
+<li class="lvl4"><a href="#3-2-dispensasjon">§ 3-2. Dispensasjon</a></li>
+<li class="lvl4"><a href="#3-3-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagd-ingenirutdanning">§ 3-3. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagd ingeniørutdanning</a></li>
+<li class="lvl4"><a href="#3-4-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-arkitekturfag-og-tekniske-fag">§ 3-4. Unntak frå kravet om generell studiekompetanse for opptak til enkelte arkitekturfag og tekniske fag</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-sprakfag">§ 3-5. Unntak frå kravet om generell studiekompetanse for opptak til enkelte språkfag</a></li>
+<li class="lvl4"><a href="#3-6-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-kunstfag">§ 3-6. Unntak frå kravet om generell studiekompetanse for opptak til enkelte kunstfag</a></li>
+<li class="lvl4"><a href="#3-7-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagde-studium-i-akvakultur-havbruk-og-fiskerifag">§ 3-7. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagde studium i akvakultur – havbruk og fiskerifag</a></li>
+<li class="lvl4"><a href="#3-8-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-nautikk-og-studium-i-marinteknisk-drift">§ 3-8. Unntak frå krav om generell studiekompetanse for opptak til studium i nautikk og studium i marinteknisk drift</a></li>
+<li class="lvl4"><a href="#3-9-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-serviceleiing-og-marknadsfring-ved-universitetet-i-innlandet">§ 3-9. Unntak frå krav om generell studiekompetanse for opptak til studium i serviceleiing og marknadsføring ved Universitetet i Innlandet</a></li>
+<li class="lvl4"><a href="#3-10-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-matteknologi">§ 3-10. Unntak frå kravet om generell studiekompetanse for opptak til matteknologi</a></li>
+<li class="lvl4"><a href="#3-11-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagd-paramedisinutdanning">§ 3-11. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagd paramedisinutdanning</a></li>
+<li class="lvl4"><a href="#3-12-oppheva">§ 3-12. (Oppheva)</a></li>
+<li class="lvl2"><a href="#kapittel-4-spesielle-opptakskrav">Kapittel 4. Spesielle opptakskrav</a></li>
+<li class="lvl4"><a href="#4-1-spesielle-opptakskrav-i-tillegg-til-generell-studiekompetanse">§ 4-1. Spesielle opptakskrav i tillegg til generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#4-2-spesielle-opptakskrav-til-enkelte-helse-og-veterinrfag">§ 4-2. Spesielle opptakskrav til enkelte helse- og veterinærfag</a></li>
+<li class="lvl4"><a href="#4-3-spesielle-opptakskrav-til-informatikk-realfag-natur-og-miljfag">§ 4-3. Spesielle opptakskrav til informatikk, realfag, natur- og miljøfag</a></li>
+<li class="lvl4"><a href="#4-4-spesielle-opptakskrav-til-arkitekturfag-og-teknologiske-fag">§ 4-4. Spesielle opptakskrav til arkitekturfag og teknologiske fag</a></li>
+<li class="lvl4"><a href="#4-5-spesielle-opptakskrav-til-enkelte-konomiske-og-administrative-fag">§ 4-5. Spesielle opptakskrav til enkelte økonomiske og administrative fag</a></li>
+<li class="lvl4"><a href="#4-6-spesielle-opptakskrav-til-enkelte-hotell-og-reiselivsfag">§ 4-6. Spesielle opptakskrav til enkelte hotell- og reiselivsfag</a></li>
+<li class="lvl4"><a href="#4-7-spesielle-opptakskrav-til-lrarutdanningar">§ 4-7. Spesielle opptakskrav til lærarutdanningar</a></li>
+<li class="lvl4"><a href="#4-7a-dispensasjonsordning-for-nivakrav-til-lrarutdanningar">§ 4-7A. Dispensasjonsordning for nivåkrav til lærarutdanningar</a></li>
+<li class="lvl4"><a href="#4-8-spesielle-opptakskrav-til-engelskspraklege-utdanningsprogram">§ 4-8. Spesielle opptakskrav til engelskspråklege utdanningsprogram</a></li>
+<li class="lvl4"><a href="#4-9-spesielle-opptakskrav-til-enkelte-kunstfag">§ 4-9. Spesielle opptakskrav til enkelte kunstfag</a></li>
+<li class="lvl4"><a href="#4-10-spesielle-opptakskrav-til-diverse-fag">§ 4-10. Spesielle opptakskrav til diverse fag</a></li>
+<li class="lvl4"><a href="#4-11-desentralisert-utdanning-og-deltidsutdanning">§ 4-11. Desentralisert utdanning og deltidsutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-5-opptak-pa-visse-vilkar">Kapittel 5. Opptak på visse vilkår</a></li>
+<li class="lvl4"><a href="#5-1-opptak-pa-visse-vilkar">§ 5-1. Opptak på visse vilkår</a></li>
+<li class="lvl4"><a href="#5-2-opptak-pa-visse-vilkar-for-utanlandske-skjarar">§ 5-2. Opptak på visse vilkår for utanlandske søkjarar</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppheva">Kapittel 6. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-1-oppheva">§ 6-1. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-2-oppheva">§ 6-2. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-3-oppheva">§ 6-3. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-4-oppheva">§ 6-4. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-5-oppheva">§ 6-5. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-6-oppheva">§ 6-6. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-7-oppheva">§ 6-7. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-8-oppheva">§ 6-8. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-9-oppheva">§ 6-9. (Oppheva)</a></li>
+<li class="lvl2"><a href="#kapittel-7-rangering-av-skjarar-ved-opptak">Kapittel 7. Rangering av søkjarar ved opptak</a></li>
+<li class="lvl4"><a href="#7-1-generelt-om-rangering-og-kvotar">§ 7-1. Generelt om rangering og kvotar</a></li>
+<li class="lvl4"><a href="#7-2-kvote-for-frstegongsvitnemal-og-ordinr-kvote">§ 7-2. Kvote for førstegongsvitnemål og ordinær kvote</a></li>
+<li class="lvl4"><a href="#7-3-spesielle-kvotar">§ 7-3. Spesielle kvotar</a></li>
+<li class="lvl4"><a href="#7-4-poengberekning-av-skjarar-med-meir-enn-eitt-grunnlag-for-rangering">§ 7-4. Poengberekning av søkjarar med meir enn eitt grunnlag for rangering</a></li>
+<li class="lvl4"><a href="#7-5-karakterpoeng">§ 7-5. Karakterpoeng</a></li>
+<li class="lvl4"><a href="#7-6-omrekning-fra-utanlandske-til-norske-karakterar">§ 7-6. Omrekning frå utanlandske til norske karakterar</a></li>
+<li class="lvl4"><a href="#7-7-karakterforbetringar">§ 7-7. Karakterforbetringar</a></li>
+<li class="lvl4"><a href="#7-8-tilleggspoeng-for-realfag-og-framandsprak-fra-vidaregaande-opplring">§ 7-8. Tilleggspoeng for realfag og framandspråk frå vidaregåande opplæring</a></li>
+<li class="lvl4"><a href="#7-9-tilleggspoeng-for-det-underrepresenterte-kjnnet">§ 7-9. Tilleggspoeng for det underrepresenterte kjønnet</a></li>
+<li class="lvl4"><a href="#7-10-tilleggspoeng-for-alder">§ 7-10. Tilleggspoeng for alder</a></li>
+<li class="lvl4"><a href="#7-11-tilleggspoeng-for-hgare-utdanning-fagskuleutdanning-eitt-ar-pa-folkehgskule-sivilteneste-eller-militr-frstegongsteneste">§ 7-11. Tilleggspoeng for høgare utdanning, fagskuleutdanning, eitt år på folkehøgskule, sivilteneste eller militær førstegongsteneste</a></li>
+<li class="lvl4"><a href="#7-12-rangering-av-skjarar-som-ikkje-kan-poengbereknast">§ 7-12. Rangering av søkjarar som ikkje kan poengbereknast</a></li>
+<li class="lvl4"><a href="#7-13-rangering-pa-grunnlag-av-srskild-vurdering">§ 7-13. Rangering på grunnlag av særskild vurdering</a></li>
+<li class="lvl4"><a href="#7-14-rangering-pa-grunnlag-av-opptaksprve">§ 7-14. Rangering på grunnlag av opptaksprøve</a></li>
+<li class="lvl4"><a href="#7-15-rangering-ved-opptak-til-spesielt-tilrettelagd-ingenirutdanning">§ 7-15. Rangering ved opptak til spesielt tilrettelagd ingeniørutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-8-nasjonal-klagenemnd-for-opptak-gjennom-samordna-opptak">Kapittel 8. Nasjonal klagenemnd for opptak gjennom Samordna opptak</a></li>
+<li class="lvl4"><a href="#8-1-nasjonal-klagenemnd-for-opptak-gjennom-samordna-opptak">§ 8-1. Nasjonal klagenemnd for opptak gjennom Samordna opptak</a></li>
+<li class="lvl4"><a href="#8-2-korleis-klagenemnda-skal-nemnast-opp-og-vere-samansett">§ 8-2. Korleis klagenemnda skal nemnast opp og vere samansett</a></li>
+<li class="lvl4"><a href="#8-3-avgjerd-i-klagenemnda">§ 8-3. Avgjerd i klagenemnda</a></li>
+<li class="lvl4"><a href="#8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda</a></li>
+<li class="lvl2"><a href="#kapittel-9-overgangsreglar">Kapittel 9. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#9-1-generell-studiekompetanse-etter-tidlegare-ordningar">§ 9-1. Generell studiekompetanse etter tidlegare ordningar</a></li>
+<li class="lvl4"><a href="#9-2-overgangsreglar-om-rangering">§ 9-2. Overgangsreglar om rangering</a></li>
+<li class="lvl4"><a href="#9-3-overgangsreglar-for-spesielle-opptakskrav">§ 9-3. Overgangsreglar for spesielle opptakskrav</a></li>
+<li class="lvl2"><a href="#kapittel-10-behandling-av-personopplysningar">Kapittel 10. Behandling av personopplysningar</a></li>
+<li class="lvl4"><a href="#10-1-behandling-av-personopplysningar-i-det-samordna-opptaket">§ 10-1. Behandling av personopplysningar i det samordna opptaket</a></li>
+<li class="lvl2"><a href="#kapittel-11-iverksetjing">Kapittel 11. Iverksetjing</a></li>
+<li class="lvl4"><a href="#11-1-iverksetjing">§ 11-1. Iverksetjing</a></li>
+<li class="lvl2"><a href="#vedlegg-i-generell-studiekompetanse-for-skarar-med-utanlandsk-utdanning-gsu-lista">Vedlegg I. Generell studiekompetanse for søkarar med utanlandsk utdanning – GSU-lista</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-liste-over-tabellar-for-omrekning-av-karakterar-fra-utanlandsk-vidaregaande-opplring">Vedlegg II. Liste over tabellar for omrekning av karakterar frå utanlandsk vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#omrekning-av-utanlandske-karakterar">Omrekning av utanlandske karakterar</a></li>
+<li class="lvl4"><a href="#offisiell-karakterstatistikk">Offisiell karakterstatistikk</a></li>
+<li class="lvl4"><a href="#eigeninnsamla-karakterstatistikk">Eigeninnsamla karakterstatistikk</a></li>
+<li class="lvl4"><a href="#liner-omrekning">Lineær omrekning</a></li>
+<li class="lvl4"><a href="#individuell-vurdering">Individuell vurdering</a></li>
+<li class="lvl3"><a href="#liste-over-utdanningssystem-og-type-omrekning">Liste over utdanningssystem og type omrekning</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-02-26-331.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-01-06-13.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om opptak til høgare utdanning</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-01-06-13.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-01-06-13 <code>forskrift/2017-01-06-13</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>15.01.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-02-26-331 <code>forskrift/2026-02-26-331</code> fra 26.02.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-01-06-13" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-verkeomrade">Kapittel 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#1-1-verkeomrade">§ 1-1. Verkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-generell-studiekompetanse">Kapittel 2. Generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#2-1-generell-studiekompetanse-kunnskapslftet">§ 2-1. Generell studiekompetanse – Kunnskapsløftet</a></li>
+<li class="lvl4"><a href="#2-2-utanlandsk-utdanning">§ 2-2. Utanlandsk utdanning</a></li>
+<li class="lvl4"><a href="#2-3-opptak-pa-grunnlag-av-fullfrt-hgare-utdanning">§ 2-3. Opptak på grunnlag av fullført høgare utdanning</a></li>
+<li class="lvl4"><a href="#2-4-opptak-pa-grunnlag-av-fullfrt-fagskuleutdanning">§ 2-4. Opptak på grunnlag av fullført fagskuleutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-3-unntak-fra-krav-om-generell-studiekompetanse">Kapittel 3. Unntak frå krav om generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#3-1-realkompetanse">§ 3-1. Realkompetanse</a></li>
+<li class="lvl4"><a href="#3-2-dispensasjon">§ 3-2. Dispensasjon</a></li>
+<li class="lvl4"><a href="#3-3-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagd-ingenirutdanning">§ 3-3. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagd ingeniørutdanning</a></li>
+<li class="lvl4"><a href="#3-4-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-arkitekturfag-og-tekniske-fag">§ 3-4. Unntak frå kravet om generell studiekompetanse for opptak til enkelte arkitekturfag og tekniske fag</a></li>
+<li class="lvl4"><a href="#3-5-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-sprakfag">§ 3-5. Unntak frå kravet om generell studiekompetanse for opptak til enkelte språkfag</a></li>
+<li class="lvl4"><a href="#3-6-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-kunstfag">§ 3-6. Unntak frå kravet om generell studiekompetanse for opptak til enkelte kunstfag</a></li>
+<li class="lvl4"><a href="#3-7-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagde-studium-i-akvakultur-havbruk-og-fiskerifag">§ 3-7. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagde studium i akvakultur – havbruk og fiskerifag</a></li>
+<li class="lvl4"><a href="#3-8-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-nautikk-og-studium-i-marinteknisk-drift">§ 3-8. Unntak frå krav om generell studiekompetanse for opptak til studium i nautikk og studium i marinteknisk drift</a></li>
+<li class="lvl4"><a href="#3-9-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-serviceleiing-og-marknadsfring-ved-universitetet-i-innlandet">§ 3-9. Unntak frå krav om generell studiekompetanse for opptak til studium i serviceleiing og marknadsføring ved Universitetet i Innlandet</a></li>
+<li class="lvl4"><a href="#3-10-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-matteknologi">§ 3-10. Unntak frå kravet om generell studiekompetanse for opptak til matteknologi</a></li>
+<li class="lvl4"><a href="#3-11-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagd-paramedisinutdanning">§ 3-11. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagd paramedisinutdanning</a></li>
+<li class="lvl4"><a href="#3-12-oppheva">§ 3-12. (Oppheva)</a></li>
+<li class="lvl2"><a href="#kapittel-4-spesielle-opptakskrav">Kapittel 4. Spesielle opptakskrav</a></li>
+<li class="lvl4"><a href="#4-1-spesielle-opptakskrav-i-tillegg-til-generell-studiekompetanse">§ 4-1. Spesielle opptakskrav i tillegg til generell studiekompetanse</a></li>
+<li class="lvl4"><a href="#4-2-spesielle-opptakskrav-til-enkelte-helse-og-veterinrfag">§ 4-2. Spesielle opptakskrav til enkelte helse- og veterinærfag</a></li>
+<li class="lvl4"><a href="#4-3-spesielle-opptakskrav-til-informatikk-realfag-natur-og-miljfag">§ 4-3. Spesielle opptakskrav til informatikk, realfag, natur- og miljøfag</a></li>
+<li class="lvl4"><a href="#4-4-spesielle-opptakskrav-til-arkitekturfag-og-teknologiske-fag">§ 4-4. Spesielle opptakskrav til arkitekturfag og teknologiske fag</a></li>
+<li class="lvl4"><a href="#4-5-spesielle-opptakskrav-til-enkelte-konomiske-og-administrative-fag">§ 4-5. Spesielle opptakskrav til enkelte økonomiske og administrative fag</a></li>
+<li class="lvl4"><a href="#4-6-spesielle-opptakskrav-til-enkelte-hotell-og-reiselivsfag">§ 4-6. Spesielle opptakskrav til enkelte hotell- og reiselivsfag</a></li>
+<li class="lvl4"><a href="#4-7-spesielle-opptakskrav-til-lrarutdanningar">§ 4-7. Spesielle opptakskrav til lærarutdanningar</a></li>
+<li class="lvl4"><a href="#4-7a-dispensasjonsordning-for-nivakrav-til-lrarutdanningar">§ 4-7A. Dispensasjonsordning for nivåkrav til lærarutdanningar</a></li>
+<li class="lvl4"><a href="#4-8-spesielle-opptakskrav-til-engelskspraklege-utdanningsprogram">§ 4-8. Spesielle opptakskrav til engelskspråklege utdanningsprogram</a></li>
+<li class="lvl4"><a href="#4-9-spesielle-opptakskrav-til-enkelte-kunstfag">§ 4-9. Spesielle opptakskrav til enkelte kunstfag</a></li>
+<li class="lvl4"><a href="#4-10-spesielle-opptakskrav-til-diverse-fag">§ 4-10. Spesielle opptakskrav til diverse fag</a></li>
+<li class="lvl4"><a href="#4-11-desentralisert-utdanning-og-deltidsutdanning">§ 4-11. Desentralisert utdanning og deltidsutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-5-opptak-pa-visse-vilkar">Kapittel 5. Opptak på visse vilkår</a></li>
+<li class="lvl4"><a href="#5-1-opptak-pa-visse-vilkar">§ 5-1. Opptak på visse vilkår</a></li>
+<li class="lvl4"><a href="#5-2-opptak-pa-visse-vilkar-for-utanlandske-skjarar">§ 5-2. Opptak på visse vilkår for utanlandske søkjarar</a></li>
+<li class="lvl2"><a href="#kapittel-6-oppheva">Kapittel 6. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-1-oppheva">§ 6-1. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-2-oppheva">§ 6-2. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-3-oppheva">§ 6-3. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-4-oppheva">§ 6-4. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-5-oppheva">§ 6-5. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-6-oppheva">§ 6-6. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-7-oppheva">§ 6-7. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-8-oppheva">§ 6-8. (Oppheva)</a></li>
+<li class="lvl4"><a href="#6-9-oppheva">§ 6-9. (Oppheva)</a></li>
+<li class="lvl2"><a href="#kapittel-7-rangering-av-skjarar-ved-opptak">Kapittel 7. Rangering av søkjarar ved opptak</a></li>
+<li class="lvl4"><a href="#7-1-generelt-om-rangering-og-kvotar">§ 7-1. Generelt om rangering og kvotar</a></li>
+<li class="lvl4"><a href="#7-2-kvote-for-frstegongsvitnemal-og-ordinr-kvote">§ 7-2. Kvote for førstegongsvitnemål og ordinær kvote</a></li>
+<li class="lvl4"><a href="#7-3-spesielle-kvotar">§ 7-3. Spesielle kvotar</a></li>
+<li class="lvl4"><a href="#7-4-poengberekning-av-skjarar-med-meir-enn-eitt-grunnlag-for-rangering">§ 7-4. Poengberekning av søkjarar med meir enn eitt grunnlag for rangering</a></li>
+<li class="lvl4"><a href="#7-5-karakterpoeng">§ 7-5. Karakterpoeng</a></li>
+<li class="lvl4"><a href="#7-6-omrekning-fra-utanlandske-til-norske-karakterar">§ 7-6. Omrekning frå utanlandske til norske karakterar</a></li>
+<li class="lvl4"><a href="#7-7-karakterforbetringar">§ 7-7. Karakterforbetringar</a></li>
+<li class="lvl4"><a href="#7-8-tilleggspoeng-for-realfag-og-framandsprak-fra-vidaregaande-opplring">§ 7-8. Tilleggspoeng for realfag og framandspråk frå vidaregåande opplæring</a></li>
+<li class="lvl4"><a href="#7-9-tilleggspoeng-for-det-underrepresenterte-kjnnet">§ 7-9. Tilleggspoeng for det underrepresenterte kjønnet</a></li>
+<li class="lvl4"><a href="#7-10-tilleggspoeng-for-alder">§ 7-10. Tilleggspoeng for alder</a></li>
+<li class="lvl4"><a href="#7-11-tilleggspoeng-for-hgare-utdanning-fagskuleutdanning-eitt-ar-pa-folkehgskule-sivilteneste-eller-militr-frstegongsteneste">§ 7-11. Tilleggspoeng for høgare utdanning, fagskuleutdanning, eitt år på folkehøgskule, sivilteneste eller militær førstegongsteneste</a></li>
+<li class="lvl4"><a href="#7-12-rangering-av-skjarar-som-ikkje-kan-poengbereknast">§ 7-12. Rangering av søkjarar som ikkje kan poengbereknast</a></li>
+<li class="lvl4"><a href="#7-13-rangering-pa-grunnlag-av-srskild-vurdering">§ 7-13. Rangering på grunnlag av særskild vurdering</a></li>
+<li class="lvl4"><a href="#7-14-rangering-pa-grunnlag-av-opptaksprve">§ 7-14. Rangering på grunnlag av opptaksprøve</a></li>
+<li class="lvl4"><a href="#7-15-rangering-ved-opptak-til-spesielt-tilrettelagd-ingenirutdanning">§ 7-15. Rangering ved opptak til spesielt tilrettelagd ingeniørutdanning</a></li>
+<li class="lvl2"><a href="#kapittel-8-nasjonal-klagenemnd-for-opptak-gjennom-samordna-opptak">Kapittel 8. Nasjonal klagenemnd for opptak gjennom Samordna opptak</a></li>
+<li class="lvl4"><a href="#8-1-nasjonal-klagenemnd-for-opptak-gjennom-samordna-opptak">§ 8-1. Nasjonal klagenemnd for opptak gjennom Samordna opptak</a></li>
+<li class="lvl4"><a href="#8-2-korleis-klagenemnda-skal-nemnast-opp-og-vere-samansett">§ 8-2. Korleis klagenemnda skal nemnast opp og vere samansett</a></li>
+<li class="lvl4"><a href="#8-3-avgjerd-i-klagenemnda">§ 8-3. Avgjerd i klagenemnda</a></li>
+<li class="lvl4"><a href="#8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda</a></li>
+<li class="lvl2"><a href="#kapittel-9-overgangsreglar">Kapittel 9. Overgangsreglar</a></li>
+<li class="lvl4"><a href="#9-1-generell-studiekompetanse-etter-tidlegare-ordningar">§ 9-1. Generell studiekompetanse etter tidlegare ordningar</a></li>
+<li class="lvl4"><a href="#9-2-overgangsreglar-om-rangering">§ 9-2. Overgangsreglar om rangering</a></li>
+<li class="lvl4"><a href="#9-3-overgangsreglar-for-spesielle-opptakskrav">§ 9-3. Overgangsreglar for spesielle opptakskrav</a></li>
+<li class="lvl2"><a href="#kapittel-10-behandling-av-personopplysningar">Kapittel 10. Behandling av personopplysningar</a></li>
+<li class="lvl4"><a href="#10-1-behandling-av-personopplysningar-i-det-samordna-opptaket">§ 10-1. Behandling av personopplysningar i det samordna opptaket</a></li>
+<li class="lvl2"><a href="#kapittel-11-iverksetjing">Kapittel 11. Iverksetjing</a></li>
+<li class="lvl4"><a href="#11-1-iverksetjing">§ 11-1. Iverksetjing</a></li>
+<li class="lvl2"><a href="#vedlegg-i-generell-studiekompetanse-for-skarar-med-utanlandsk-utdanning-gsu-lista">Vedlegg I. Generell studiekompetanse for søkarar med utanlandsk utdanning – GSU-lista</a></li>
+<li class="lvl2"><a href="#vedlegg-ii-liste-over-tabellar-for-omrekning-av-karakterar-fra-utanlandsk-vidaregaande-opplring">Vedlegg II. Liste over tabellar for omrekning av karakterar frå utanlandsk vidaregåande opplæring</a></li>
+<li class="lvl3"><a href="#omrekning-av-utanlandske-karakterar">Omrekning av utanlandske karakterar</a></li>
+<li class="lvl4"><a href="#offisiell-karakterstatistikk">Offisiell karakterstatistikk</a></li>
+<li class="lvl4"><a href="#eigeninnsamla-karakterstatistikk">Eigeninnsamla karakterstatistikk</a></li>
+<li class="lvl4"><a href="#liner-omrekning">Lineær omrekning</a></li>
+<li class="lvl4"><a href="#individuell-vurdering">Individuell vurdering</a></li>
+<li class="lvl3"><a href="#liste-over-utdanningssystem-og-type-omrekning">Liste over utdanningssystem og type omrekning</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-01-06-13.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-01-06-13.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-01-06-13.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-01-06-13.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-01-06-13.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-01-06-13.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-01-06-13.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-01-06-13.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-01-06-13.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-opptak-til-hgare-utdanning">Forskrift om opptak til høgare utdanning</h1>
 <h2 id="kapittel-1-verkeomrade">Kapittel 1. Verkeområde</h2>
 <h4 id="1-1-verkeomrade">§ 1-1. Verkeområde <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Forskrifta gjeld for opptak til grunnutdanningar ved institusjonar under lov 8. mars 2024 nr. 9 om universiteter og høyskoler .</p>
@@ -85,7 +296,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Forskrifta gjeld ikkje ved innpassing etter første studieår i fleirårige profesjonsutdanningar, for opptak til utdanning som byggjer på grunnutdanning, «profesjonsdelen» av utdanning og etter- og vidareutdanning. For slike utdanningar har institusjonane fullmakt til å fastsette opptakskrav og rangeringsreglar sjølve dersom departementet ikkje har fastsett slike i anna forskrift eller rammeplan.</p>
 <p>(5) Departementet kan frita enkeltstudium frå reglane i denne forskrifta.</p>
 <p>(6) Forskrifta gjeld òg, med visse unntak, jf. forskrifta § 8-1 , for klagar over enkeltvedtak i den nasjonale opptaksmodellen for grunnutdanningar ved universitet og høgskular som blir organisert av tenesta Samordna opptak.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 28 juni 2024 nr. 1392 (i kraft 1 aug 2024), 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 28 juni 2024 nr. 1392 (i kraft 1 aug 2024), 19 des 2024 nr. 3488 .</p>
 <h2 id="kapittel-2-generell-studiekompetanse">Kapittel 2. Generell studiekompetanse</h2>
 <h4 id="2-1-generell-studiekompetanse-kunnskapslftet">§ 2-1. Generell studiekompetanse – Kunnskapsløftet <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det generelle grunnlaget for opptak til universitet og høgskular (generell studiekompetanse) skal normalt vere at søkjaren har</p>
@@ -95,7 +306,7 @@ b. fylt 23 år i løpet av opptaksåret og kan dokumentere minimum fem års full
 <p>(2) For søkjarar som har bestått norsk 309 timar, samisk/finsk 309 timar og historie 113 timar, gjeld ikkje kravet om norsk 393 timar og kravet om historie 140 timar.</p>
 <p>(3) Opptaksorganet har plikt til å vurdere om anna utdanning eller annan dokumentasjon av kunnskapar kan godkjennast som likeverdig. Departementet kan gi nærmare reglar.</p>
 <p>(4) Søkjarar med generell studiekompetanse på grunnlag av vidaregåande opplæring eller tidlegare ordningar før Kunnskapsløftet skal framleis ha generell studiekompetanse, jf. overgangsføresegna i § 9-1 .</p>
-<p><em>Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</p>
 <h4 id="2-2-utanlandsk-utdanning">§ 2-2. Utanlandsk utdanning <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar med 3-årig vidaregåande utdanning frå dei andre nordiske landa er kvalifiserte for opptak utan tilleggskrav i norsk når den vidaregåande utdanninga gir generelt opptaksgrunnlag til universitet og høgskular i dei respektive landa.</p>
 <p>(2) Søkjarar som har utanlandsk utdanning frå land utanfor Norden, må dokumentere bestått utdanning på nivå med norsk 3-årig vidaregåande opplæring som gir generell studiekompetanse, sjå også åttande ledd, og i tillegg dokumentere kunnskapar i norsk og engelsk med éi av desse prøvene: Norskprøver: Bestått norsk med 393 timar frå vidaregåande opplæring. Bestått eksamen frå trinn 3 i norsk for utanlandske studentar ved universiteta. Bestått årskurs i norsk språk og samfunnskunnskap for utanlandske studentar. Skriftleg og munnleg test i norsk, høgare nivå («Bergenstesten»), begge vurdert til «bestått» eller betre resultat. Avsluttande prøve i norsk (norskprøven) med ferdigheiter på minimum nivå B2 i alle delprøver, jf. lov 6. november 2020 nr. 127 om integrering gjennom opplæring, utdanning og arbeid (Integreringslova) § 37 . Frå og med opptak til studieåret 2023–2024 kan kunnskapar i norsk også dokumenterast med en av følgjande kombinasjonar av prøvedelar: Bestått eller betre resultat i munnleg test frå test i norsk, høgare nivå («Bergenstesten»), saman med avsluttande prøver i leseforståing, lytteforståing og skriftleg framstilling frå norskprøven (jf. pkt. 5 ovanfor) med minimum nivå B2 som resultat i alle tre delprøver. Bestått eller betre resultat i skriftleg test frå test i norsk, høgare nivå («Bergenstesten»), saman med delprøve i munnleg kommunikasjon frå norskprøven (jf. pkt. 5 ovanfor) med minimum B2 som resultat. Engelskprøver: Faget Engelsk frå norsk vidaregåande skule (140 timar) Test of English as a Foreign Language (TOEFL) med Minst 60 poeng på TOEFL iBT, eller Minst 60 poeng på TOEFL iBT Home Edition, eller Minst 500 poeng på papirbasert test International English Language Testing Service (IELTS) Academic test eller Online academic test med overall Band Score på minst 5,0 eller betre Cambridge ESOL Examinations First certificate in English, eller Certificate in Advanced English, eller Certificate of Proficiency in English Pearson PTE Academic eller Academic online med overall score på minst 51 The European language certificate (telc) English B2, eller English B2-C1 University, eller English certificate på C1-nivå University of Michigan, Michigan Language Assessment Certificate og Proficiency (ECPE) Certificate of Competency in English (ECCE) Fullført og bestått eitt år i vidaregåande skule eller høgare utdanning frå Australia, Canada, Irland, New Zealand, Storbritannia eller USA, der undervisningsspråket har vore engelsk. Fullført og bestått 60 studiepoeng i engelsk språk og litteratur frå universitet eller høgskule. Fullført og bestått engelskspråkleg mastergrad.</p>
@@ -113,37 +324,37 @@ b. fylt 23 år i løpet av opptaksåret og kan dokumentere minimum fem års full
 <p>(6) Universitetet eller høgskulen kan godta annan dokumentasjon av norskkunnskapar.</p>
 <p>(7) Krava til norskkunnskapar gjeld ikkje for søkjarar som skal takast opp til framandspråklege utdanningsprogram, utdanningsprogram der samisk er undervisningsspråk, og for studentar som deltek i internasjonale utvekslingsprogram.</p>
 <p>(8) GSU-lista gir ei oversikt over utanlandske utdanningar som kan kvalifisera for opptak til studium ved universitet og høgskular i Noreg. Lista er bindande ved opptak til høgare utdanning, jf. vedlegg I til denne forskrifta. Direktoratet for høgare utdanning og kompetanse har ansvaret for å føre og halda ved like denne lista.</p>
-<p><em>Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 15 des 2020 nr. 2912 (i kraft 1 jan 2021), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 2 feb 2023 nr. 134 , 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 15 des 2020 nr. 2912 (i kraft 1 jan 2021), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 2 feb 2023 nr. 134 , 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</p>
 <h4 id="2-3-opptak-pa-grunnlag-av-fullfrt-hgare-utdanning">§ 2-3. Opptak på grunnlag av fullført høgare utdanning <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-2-3.html" title="Endringshistorikk for § 2-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar som er tekne opp til høgare utdanning på grunnlag av reglar om unntak frå kravet om generell studiekompetanse, jf. kapittel 3 , og som har bestått ei slik utdanning på minst eitt år (60 studiepoeng eller to studium, kvart på 30 studiepoeng), får generell studiekompetanse såframt dei har dokumenterte norskkunnskapar.</p>
 <p>(2) Dersom den høgare utdanninga ikkje har hatt norsk eller anna nordisk språk som undervisningsspråk, må kravet om norsk oppfyllast, jf. § 2-1 . Søkjarar med utdanning frå land utanom Norden som er tekne opp på grunnlag av § 2-2 sjuande ledd , må dokumentere norskkunnskapar etter føresegnene i § 2-2 .</p>
-<p><em>Endra ved forskrifter 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 19 des 2023 nr. 2223 .</em></p>
+<p class="note">Endra ved forskrifter 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 19 des 2023 nr. 2223 .</p>
 <h4 id="2-4-opptak-pa-grunnlag-av-fullfrt-fagskuleutdanning">§ 2-4. Opptak på grunnlag av fullført fagskuleutdanning <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-2-4.html" title="Endringshistorikk for § 2-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar som har fullført 2-årig fagskuleutdanning (120 fagskulepoeng/studiepoeng frå fagskule) som er godkjend etter lov 20. juni 2003 nr. 56 om fagskoleutdanning eller lov 8. juni 2018 nr. 28 , får generell studiekompetanse.</p>
 <p>(2) Dersom fagskuleutdanninga ikkje har hatt norsk eller anna nordisk språk som undervisningsspråk, må kravet om norsk oppfyllast, jf. § 2-2 . Søkjarar frå land utanom Norden må også dokumentere engelskkunnskapar jf. § 2-2 (8) .</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 19 des 2023 nr. 2223 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 19 des 2023 nr. 2223 .</p>
 <h2 id="kapittel-3-unntak-fra-krav-om-generell-studiekompetanse">Kapittel 3. Unntak frå krav om generell studiekompetanse</h2>
 <h4 id="3-1-realkompetanse">§ 3-1. Realkompetanse <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar som er 25 år eller eldre i opptaksåret, og som ikkje har generell studiekompetanse, har krav på å få vurdert om dei er kvalifiserte for eit bestemt studium på grunnlag av realkompetanse. Denne føresegna gjeld ikkje for søkjarar som er kvalifiserte for opptak til dette bestemte studiet etter andre føresegner, jf. § 3-2 til § 3-12 .</p>
 <p>(2) Realkompetanse er kunnskapar søkjaren har fått gjennom yrkespraksis, ubetalt arbeid, organisasjonsarbeid, utdanning eller på annan måte.</p>
 <p>(3) Utdanningsinstitusjonen må vurdere kvalifikasjonane ut frå det faget søkjaren ønskjer å studere og finne fram til eigna og tenlege framgangsmåtar for slike vurderingar. Søkjaren må ha nødvendige faglege føresetnader for å gjennomføre det aktuelle studiet utan å ha generell studiekompetanse.</p>
-<p><em>Endra ved forskrifter 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endra ved forskrifter 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</p>
 <h4 id="3-2-dispensasjon">§ 3-2. Dispensasjon <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Institusjonane kan i særskilde tilfelle gjere unntak frå kravet om generell studiekompetanse. Vilkåret for slik dispensasjon er at søkjaren kan dokumentere at det på grunn av varig sjukdom, funksjonshemming eller liknande har vore umogleg å oppfylle nokre av dei krava ein normalt må oppfylle for å bli tilkjend generell studiekompetanse.</p>
 <p>(2) Utdanningsinstitusjonen må vurdere kvalifikasjonane ut frå det faget søkjaren ønskjer å studere, og finne fram til eigna og tenlege framgangsmåtar for slike vurderingar. Søkjaren må ha nødvendige faglege føresetnader for å gjennomføre det aktuelle studiet utan å ha generell studiekompetanse.</p>
-<p><em>Endra ved forskrifter 11 juni 2021 nr. 2699 (i kraft 1 aug 2021), 28 juni 2022 nr. 1235 , 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endra ved forskrifter 11 juni 2021 nr. 2699 (i kraft 1 aug 2021), 28 juni 2022 nr. 1235 , 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</p>
 <h4 id="3-3-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagd-ingenirutdanning">§ 3-3. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagd ingeniørutdanning <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Institusjonar kan ta opp søkjarar som ikkje oppfyller krava til generell studiekompetanse, til spesielt tilrettelagd ingeniørutdanning, jf. § 2-1 første ledd og § 4-4 fjerde ledd. Søkjarane må ha relevant fagbrev eller sveinebrev.</p>
-<p><em>Endra ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endra ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020).</p>
 <h4 id="3-4-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-arkitekturfag-og-tekniske-fag">§ 3-4. Unntak frå kravet om generell studiekompetanse for opptak til enkelte arkitekturfag og tekniske fag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Desse studia er unnatekne frå kravet om generell studiekompetanse:</p>
 <p>a. Integrert masterstudium i teknologiske fag, 3-årig ingeniørutdanning og maritime fag har unntak frå kravet om generell studiekompetanse for søkjarar som har bestått 1-årig forkurs for 3-årig ingeniørutdanning og integrert masterstudium i teknologiske fag etter fagplan av 2014.
 b. Arkitektutdanning ved Noregs teknisk-naturvitskaplege universitet har unntak frå kravet om generell studiekompetanse for søkjarar som har bestått 2-årig fagskuleutdanning etter studieordningar før rammeplan fastsett av departementet i 1998–1999.</p>
-<p><em>Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</p>
 <h4 id="3-5-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-sprakfag">§ 3-5. Unntak frå kravet om generell studiekompetanse for opptak til enkelte språkfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Samisk semesteremne og samisk nybegynnarkurs. Unntak frå kravet om generell studiekompetanse og spesielle opptakskrav fastsette under § 4-10 andre ledd gjeld for søkjarar som har samisk tilknyting, etter nærmare reglar fastsette av institusjonen.</p>
 <p>(2) Finsk semesteremne og årseining i kvensk . Unntak frå kravet om generell studiekompetanse gjeld søkjarar som har finsk eller kvensk tilknyting, etter nærmare reglar fastsette av institusjonen.</p>
-<p><em>Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</p>
 <h4 id="3-6-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-enkelte-kunstfag">§ 3-6. Unntak frå kravet om generell studiekompetanse for opptak til enkelte kunstfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Generell studiekompetanse skal framleis vere det normale kravet for opptak også for desse studia. Unntak frå kravet om generell studiekompetanse gjeld for søkjarar som fyller spesielle faglege krav fastsette av institusjonen ved opptak til desse utdanningane og/eller institusjonane (jf. § 4-1 ):</p>
 <p>a. Studium i utøvande og skapande kunst
@@ -157,15 +368,15 @@ h. Studium i duodji 1 ved Samisk høgskole
 i. Studium i visuell kunst, film og tv, manus, lyddesign og Visual Effects ved Høyskolen Kristiania
 j. Studium ved Den norske filmskolen ved Universitetet i Innlandet
 k. Studium i manus – scenetekst og tv-drama ved NSKI Høgskole.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2024 nr. 3488 .</p>
 <h4 id="3-7-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-spesielt-tilrettelagde-studium-i-akvakultur-havbruk-og-fiskerifag">§ 3-7. Unntak frå kravet om generell studiekompetanse for opptak til spesielt tilrettelagde studium i akvakultur – havbruk og fiskerifag</h4>
 <p>Institusjonar kan ta opp søkjarar med relevant fagbrev som ikkje oppfyller krava til generell studiekompetanse, til spesielt tilrettelagde studium i akvakultur.</p>
 <h4 id="3-8-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-nautikk-og-studium-i-marinteknisk-drift">§ 3-8. Unntak frå krav om generell studiekompetanse for opptak til studium i nautikk og studium i marinteknisk drift <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-8.html" title="Endringshistorikk for § 3-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Institusjonar kan ta opp søkjarar med relevant fagbrev som ikkje fyller krava til generell studiekompetanse, til spesielt tilrettelagde studium i nautikk og spesielt tilrettelagde studium i marinteknisk drift.</p>
-<p><em>Endra ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endra ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020).</p>
 <h4 id="3-9-unntak-fra-krav-om-generell-studiekompetanse-for-opptak-til-studium-i-serviceleiing-og-marknadsfring-ved-universitetet-i-innlandet">§ 3-9. Unntak frå krav om generell studiekompetanse for opptak til studium i serviceleiing og marknadsføring ved Universitetet i Innlandet <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Universitetet i Innlandet kan ta opp søkjarar med relevant fagbrev som ikkje fyller krava til generell studiekompetanse, til spesielt tilrettelagde studium i serviceleiing og marknadsføring.</p>
-<p><em>Endra ved forskrift 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrift 19 des 2024 nr. 3488 .</p>
 <h4 id="3-10-unntak-fra-kravet-om-generell-studiekompetanse-for-opptak-til-matteknologi">§ 3-10. Unntak frå kravet om generell studiekompetanse for opptak til matteknologi <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-3-10.html" title="Endringshistorikk for § 3-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Matteknologiutdanning har unntak frå kravet om generell studiekompetanse for søkjarar som har bestått 1-årig forkurs for 3-årig ingeniørutdanning og integrert masterstudium i teknologiske fag etter fagplan av 2014, eller 1-årig tilpassingskurs.</p>
 <p><em>Føyd til ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), endra ved forskrifter 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</em></p>
@@ -178,7 +389,7 @@ k. Studium i manus – scenetekst og tv-drama ved NSKI Høgskole.</p>
 <h4 id="4-1-spesielle-opptakskrav-i-tillegg-til-generell-studiekompetanse">§ 4-1. Spesielle opptakskrav i tillegg til generell studiekompetanse <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) I tillegg til kravet om generell studiekompetanse har departementet fastsett spesielle opptakskrav for studium og fagområde, jf. § 4-2 til § 4-10 . Fagkrava refererer til norsk vidaregåande opplæring, studieførebuande utdanningsprogram. Fagkrava må vere oppfylte.</p>
 <p>(2) Opptaksorganet har plikt til å vurdere om anna utdanning eller annan dokumentasjon av kunnskapar enn det som er nemnt i første ledd, kan godkjennast som likeverdig. Departementet kan gi nærmare reglar.</p>
-<p><em>Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</p>
 <h4 id="4-2-spesielle-opptakskrav-til-enkelte-helse-og-veterinrfag">§ 4-2. Spesielle opptakskrav til enkelte helse- og veterinærfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Medisin, odontologi, ernæring og farmasi (profesjonsstudium og integrerte masterprogram) har krav om matematikk R1 eller matematikk (S1 + S2), fysikk 1 og kjemi (1 + 2).</p>
 <p>(2) Bachelorstudium i biovitskap og laboratorieteknologi ved Noregs teknisk-naturvitskaplege universitet og bioingeniørutdanning har krav om matematikk R1 eller matematikk S1 + S2 og enten fysikk 1 eller biologi 1 eller kjemi 1.</p>
@@ -187,14 +398,14 @@ k. Studium i manus – scenetekst og tv-drama ved NSKI Høgskole.</p>
 <p>(5) Veterinærmedisin har krav om matematikk R1 eller matematikk (S1 + S2) og kjemi (1 + 2).</p>
 <p>(6) Ernæringsstudium (bachelor) har krav om matematikk R1 eller matematikk (S1 + S2), fysikk 1 og kjemi (1 + 2).</p>
 <p>(7) 3-årig bachelor i paramedisin har krav om at søkjarar må dokumentere gyldig førarkort klasse B (personbil) og ha bestått fysisk opptaksprøve etter nærmare reglar fastsette av institusjonen.</p>
-<p><em>Endra ved forskrifter 11 okt 2017 nr. 1770 (i kraft 1 jan 2018), 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 26 mars 2021 nr. 1039 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 20 juni 2024 nr. 1111 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</em></p>
+<p class="note">Endra ved forskrifter 11 okt 2017 nr. 1770 (i kraft 1 jan 2018), 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 26 mars 2021 nr. 1039 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 20 juni 2024 nr. 1111 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</p>
 <h4 id="4-3-spesielle-opptakskrav-til-informatikk-realfag-natur-og-miljfag">§ 4-3. Spesielle opptakskrav til informatikk, realfag, natur- og miljøfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Informatikkutdanning har krav om matematikk R1 eller matematikk (S1 + S2). Om opptak til Universitetet i Oslo sjå òg andre ledd.</p>
 <p>(2) Informatikk: robotikk og intelligente system ved Universitetet i Oslo har krav om matematikk (R1 + R2) og i tillegg fysikk (1 + 2) eller kjemi (1 + 2) eller biologi (1 + 2) eller informasjonsteknologi (1 + 2) eller geofag (1 + 2) eller teknologi og forskingslære (1 + 2).</p>
 <p>(3) Realfag, natur- og miljøfag har krav om matematikk R1 eller matematikk (S1 + S2) og enten matematikk R2 eller fysikk (1 + 2) eller kjemi (1 + 2) eller biologi (1 + 2) eller informasjonsteknologi (1 + 2) eller geofag (1 + 2) eller teknologi og forskingslære (1 + 2). Sjå òg fjerde ledd.</p>
 <p>(4) For studium innan Realfag, natur- og miljøfag kan institusjonane sjølv òg fastsetje krav om matematikk (R1 + R2) og i tillegg fysikk (1 + 2) eller kjemi (1 + 2) eller biologi (1 + 2) eller informasjonsteknologi (1+ 2) eller geofag (1 + 2) eller teknologi og forskingslære (1 + 2).</p>
 <p>(5) Bachelorstudia Matematikk: finans, forsikring og økonomi, Matematikk: data, modellering og berekningar og Matematikk: teoretisk og anvend matematikk ved Universitetet i Oslo har krav om matematikk R1 + R2 og i tillegg enten fysikk 1 + 2, kjemi 1 + 2, biologi 1 + 2, informasjonsteknologi 1 + 2, geofag 1 + 2, teknologi og forskingslære 1 + 2 eller samfunnsøkonomi 1 + 2.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</p>
 <h4 id="4-4-spesielle-opptakskrav-til-arkitekturfag-og-teknologiske-fag">§ 4-4. Spesielle opptakskrav til arkitekturfag og teknologiske fag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Arkitektutdanning ved Noregs teknisk-naturvitskaplege universitet har krav om matematikk (R1 + R2) og fysikk 1. Søkjarar med 2-årig teknisk fagskule etter rammeplan fastsett av departementet 1998–1999 og tidlegare studieordningar fyller krava for opptak utan omsyn til dei spesielle krava i matematikk og fysikk som er fastsette her.</p>
 <p>(2) Arkitektutdanning ved Arkitektur- og designhøgskolen i Oslo og Bergen arkitekthøgskole har krav om at søkjaren må bestå opptaksprøve etter nærmare reglar fastsette av institusjonen.</p>
@@ -211,13 +422,13 @@ c. For søkjarar som blir tekne opp til treterminordning, gjeld ikkje det spesie
 <p>a. Søkjarar med nyare godkjend 2-årig fagskuleutdanning i tekniske fag må dokumentere tilsvarande kunnskapar i matematikk og fysikk.
 b. Søkjarar med 2-årig teknisk fagskule etter rammeplan fastsett av departementet i 1998–1999 og tidlegare studieordningar må dokumentere kunnskapar tilsvarande matematikk R2 med eit gjennomsnitt på minimum karakteren 4,0.
 c. Søkjarar med bestått 1-årig forkurs for 3-årig ingeniørutdanning og integrert masterstudium i teknologiske fag etter fagplan av 2014 og søkjarar med 1-årig forkurs for ingeniørutdanning og maritim høgskuleutdanning fyller fagkrava for opptak utan omsyn til dei spesielle fagkrava i matematikk og fysikk som er fastsette her. Søkjarar må ha karakteren C eller betre i matematikk frå forkurs.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</p>
 <h4 id="4-5-spesielle-opptakskrav-til-enkelte-konomiske-og-administrative-fag">§ 4-5. Spesielle opptakskrav til enkelte økonomiske og administrative fag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For studium innan økonomiske og administrative fag kan institusjonane sjølv fastsetje krav om matematikk R1 eller matematikk (S1 + S2) eller ha krav om minimum karakteren 4,0 i fellesfaget matematikk (224 timar).</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 15 feb 2022 nr. 256 , 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 15 feb 2022 nr. 256 , 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</p>
 <h4 id="4-6-spesielle-opptakskrav-til-enkelte-hotell-og-reiselivsfag">§ 4-6. Spesielle opptakskrav til enkelte hotell- og reiselivsfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Kjøkken- og restaurantleiing har krav om fagbrev som kokk, institusjonskokk eller servitør. Andre fag-/sveinebrev frå utdanningsprogram for restaurant- og matfag kan vurderast.</p>
-<p><em>Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</p>
 <h4 id="4-7-spesielle-opptakskrav-til-lrarutdanningar">§ 4-7. Spesielle opptakskrav til lærarutdanningar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-7.html" title="Endringshistorikk for § 4-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Grunnskulelærarutdanning og 5-årig lektorutdanning har krav om at søkjarar må dokumentere minimum 35 skulepoeng og eit gjennomsnitt på minimum karakteren 3,0 i norsk (393 timar) og 4,0 i fellesfaget matematikk (224 timar) eller minimum 40 skulepoeng og eit gjennomsnitt på minimum karakteren 3,0 i norsk (393 timar) og 3,0 i fellesfaget matematikk (224 timar). Karakterkravet i matematikk gjeld ikkje for søkjarar som kan dokumentere bestått programfag i matematikk med eit omfang på minst 140 timar eller tilsvarande. Søkjarar kan i tillegg måtte gjennomføre ei opptaksprøve i form av eit intervju etter nærmare reglar fastsette av institusjonen. For søkjarar som har samisk som førstespråk eller andrespråk, gjeld karakterkravet i norsk for gjennomsnittet av karakterane i norsk (309 timar) og samisk (309 timar). For søkjarar som har norsk teiknspråk, kvensk eller finsk som andrespråk, gjeld karakterkravet i norsk gjennomsnittet av karakterane i første- og andrespråket. For søkjarar til grunnskulelærarutdanning ved Samisk høgskole gjeld i tillegg krava som er fastsette i § 4-10 .</p>
 <p>(2) Grunnskulelærarutdanning og 5-årig lektorutdanning med realfag, miljø- og naturfag har krav om at søkjarar må dokumentere minimum 35 skulepoeng og eit gjennomsnitt på minimum karakteren 3,0 i norsk (393 timar) og i tillegg kravet som er fastsett for realfag, miljø- og naturfag i § 4-3 tredje eller fjerde ledd.</p>
@@ -227,7 +438,7 @@ c. Søkjarar med bestått 1-årig forkurs for 3-årig ingeniørutdanning og inte
 <p>(6) Grunnutdanning i musikk, dans og drama som er pedagogisk retta kan ha krav om at søkjarar må dokumentere kunnskapar og ferdigheiter i musikk, dans eller drama etter vedtak og nærmare reglar fastsette av institusjonen.</p>
 <p>(7) Yrkesfaglærarutdanning har krav om fag-/sveinebrev eller anna fullført og bestått 3-årig yrkesutdanning i skule frå vidaregåande opplæring og 2 års relevant praksis etter avslutta utdanning. I dei tilfella der ein må ha autorisasjon for å praktisere i yrket, må ein òg ha autorisasjon for å komme inn på yrkesfaglærarutdanninga.</p>
 <p>(8) 3-årig lærarutdanning for tospråklege lærarar har krav om at søkjarar må dokumentere eit gjennomsnitt på minimum karakteren 3,0 i norsk (393 timar) og tospråkleg kompetanse etter nærmare reglar fastsette av institusjonen.</p>
-<p><em>Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 2 feb 2023 nr. 134 , 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 22 jan 2021 nr. 211 (i kraft 31 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 2 feb 2023 nr. 134 , 19 des 2024 nr. 3488 .</p>
 <h4 id="4-7a-dispensasjonsordning-for-nivakrav-til-lrarutdanningar">§ 4-7A. Dispensasjonsordning for nivåkrav til lærarutdanningar</h4>
 <p>(1) Departementet kan etter søknad frå ein institusjon innvilge unntak frå nivåkrava i § 4-7 første til femte ledd og åttande ledd dersom institusjonen har tiltak som varetek dei same omsyna som nivåkrava er meint å vareta.</p>
 <p>(2) For følgande utdanningar har departementet gitt dispensasjon frå krava til karakter i norsk og matematikk og krava til skulepoeng i § 4-7 :</p>
@@ -243,10 +454,10 @@ i. Grunnskulelærarutdanning for trinn 1–7, grunnskulelærarutdanning for trin
 j. Grunnskulelærarutdanning for trinn 1–7, grunnskulelærarutdanning for trinn 5–10 og lærarutdanning i praktiske og estetiske fag for trinn 1–13 ved Universitetet i Søraust-Noreg</p>
 <p>For følgande utdanningar har departementet gitt dispensasjon frå krava til karakter i matematikk i § 4-7 : Lektorutdanning ved MF – vitenskapelig høyskole Grunnskolelærarutdanning for trinn 1–7, grunnskulelærarutdanning for trinn 5–10, lektorutdanning med engelsk i første studieår, lektorutdanning med framandspråk i første studieår, lektorutdanning med historie i første studieår, lektorutdanning med idrett i første studieår, lektorutdanning med norsk i første studieår, lektorutdanning med religion i første studieår og lektorutdanning med samfunnskunnskap i første studieår ved Universitetet i Agder.</p>
 <p>(3) For grunnskulelærarutdanning for trinn 1–7 og grunnskulelærarutdanning for trinn 5–10 ved Samisk høgskole har departementet gitt dispensasjon frå krava til karakter i matematikk og krava til skulepoeng i § 4-7 .</p>
-<p><em>Tilføyd ved forskrift 20 juni 2024 nr. 1111 , endra ved forskrifter 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</em></p>
+<p class="note">Tilføyd ved forskrift 20 juni 2024 nr. 1111 , endra ved forskrifter 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</p>
 <h4 id="4-8-spesielle-opptakskrav-til-engelskspraklege-utdanningsprogram">§ 4-8. Spesielle opptakskrav til engelskspråklege utdanningsprogram <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-8.html" title="Endringshistorikk for § 4-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For bachelorprogram og integrerte masterprogam som i sin heilskap har engelsk som undervisningsspråk, kan lærestadane sjølve fastsetje krav om at søkjarar må dokumentere minimum karakteren 4,0 i fellesfaget engelsk (140 timar). Kravet gjeld ikkje for søkjarar som kan dokumentere bestått programfag i engelsk med eit omfang på minst 140 timar eller tilsvarande.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 9 april 2021 nr. 1130 , 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</p>
 <h4 id="4-9-spesielle-opptakskrav-til-enkelte-kunstfag">§ 4-9. Spesielle opptakskrav til enkelte kunstfag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved opptak til desse utdanningane må søkjarar bestå opptaksprøve etter nærmare reglar fastsette av institusjonen:</p>
 <p>a. Scenekunstutdanning
@@ -263,7 +474,7 @@ k. Bachelorstudium i dansekunst ved Høyskolen for Dansekunst
 l. Bachelorstudium i manus – scenetekst og tv-drama ved NSKI Høgskole.
 m. Film- og fjernsynsutdanning ved Universitetet i Innlandet.
 n. Årsstudium i instrumentmaking ved Universitetet i Søraust-Noreg</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 11 jan 2022 nr. 52 (i kraft 12 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</p>
 <h4 id="4-10-spesielle-opptakskrav-til-diverse-fag">§ 4-10. Spesielle opptakskrav til diverse fag <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-10.html" title="Endringshistorikk for § 4-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Spesialtilpassa høgskuleutdanning for døve ved Noregs teknisk-naturvitskaplege universitet har krav om at søkjarar må dokumentere ferdigheiter i norsk teiknspråk etter nærmare reglar fastsette av institusjonen.</p>
 <p>(2) Studium ved Samisk høgskole og studium i samiske språk ved andre institusjonar har krav om at søkjarar må dokumentere kunnskapar i samisk språk etter nærmare reglar fastsette av institusjonen.</p>
@@ -299,12 +510,12 @@ e. Følgjande studium ved Høyskolen Kristiania
   - Bachelor i manus
   - Bachelor i lyddesign</p>
 <p>(11) Høgskulekandidatutdanning for trafikklærar for tunge klassar ved Nord universitet har krav om at søkjarar oppfyller krava til førarkort for klassane BECEDE per 1. mars i opptaksåret, og dokumenterer 3 års yrkespraksis på heiltid per 1. mars i opptaksåret med køyretøy som har tillaten totalvekt over 16 tonn.</p>
-<p><em>Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 som endra ved forskrift 11 des 2019 nr. 1714 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 2 feb 2023 nr. 134 , 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</em></p>
+<p class="note">Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 26 nov 2019 nr. 1580 som endra ved forskrift 11 des 2019 nr. 1714 (i kraft 1 jan 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 2 feb 2023 nr. 134 , 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 21 nov 2025 nr. 2336 .</p>
 <h4 id="4-11-desentralisert-utdanning-og-deltidsutdanning">§ 4-11. Desentralisert utdanning og deltidsutdanning <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-4-11.html" title="Endringshistorikk for § 4-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) For opptak til desentralisert utdanning og/eller deltidsutdanning kan institusjonane fastsetje spesielle opptakskrav i form av relevant yrkeserfaring og arbeidstilknyting i studietida. For opptak til deltidsstudium kan det i tillegg stillast krav om tilknyting til utdanningsstaden.</p>
 <p>(2) Det kan stillast krav om inntil 5 års yrkeserfaring. Dersom det blir stilt krav om dette skal minimum 2 år utgjere relevant yrkeserfaring.</p>
 <p>(3) Det kan stillast krav om geografisk tilknyting til utdanningsstaden.</p>
-<p><em>Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</em></p>
+<p class="note">Endra ved forskrift 23 nov 2018 nr. 1767 (i kraft 1 jan 2019).</p>
 <h2 id="kapittel-5-opptak-pa-visse-vilkar">Kapittel 5. Opptak på visse vilkår</h2>
 <h4 id="5-1-opptak-pa-visse-vilkar">§ 5-1. Opptak på visse vilkår <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar som på grunn av spesielle omstende ikkje kan gå opp til eksamen i vidaregåande opplæring, og som difor ikkje kan få dokumentasjon på bestått opplæring som normalt er krav for opptak til institusjonar som er omfatta av denne forskrifta, kan få opptak til høgare utdanning på visse vilkår. Søkjaren får opptak til høgare utdanning på vilkår av at han/ho består eksamen i eitt eller fleire fag i vidaregåande opplæring i løpet av første semester etter opptak. Det er ein føresetnad at søkjaren har karakteren 2 eller betre, eller oppfyller andre opptakskrav med standpunktkarakteren i det faget han/ho ikkje har avlagt eksamen i, og at søkjaren ikkje allereie har avsluttande vurdering i faget. Dersom det er fastsett spesielle opptakskrav for opptak til studiet er det ein føresetnad at søkjaren oppfyller desse når eksamen er avlagt.</p>
@@ -313,30 +524,30 @@ e. Følgjande studium ved Høyskolen Kristiania
 <p>(4) Studentar med opptak på visse vilkår som ikkje fyller opptakskrava innan den fastsette fristen, mistar studieplassen og studieretten.</p>
 <p>(5) Studentar som går opp til eksamen i eit studium dei har fått opptak til på visse vilkår, får ikkje denne eksamenen godkjend som bestått utan at opptakskravet er oppfylt.</p>
 <p>(6) Den utdanningsinstitusjonen som gir opptak på visse vilkår, skal så langt det er mogleg og rimeleg, leggje til rette for at studenten både kan gå opp til utsett eksamen i vidaregåande opplæring og gjennomføre det studiet det på visse vilkår er gitt opptak til. Dersom institusjonen ikkje finn å kunne leggje til rette på denne måten, skal studenten få forlengje opptaket på visse vilkår til neste gong det blir arrangert utsett eksamen i det aktuelle faget i vidaregåande opplæring.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</p>
 <h4 id="5-2-opptak-pa-visse-vilkar-for-utanlandske-skjarar">§ 5-2. Opptak på visse vilkår for utanlandske søkjarar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Utanlandske søkjarar til årskurs i norsk som kan dokumentere at dei fyller krava for opptak til påfølgjande, ordinære studium, kan få tilbod om studieplass på påfølgjande studium på same institusjon etter visse vilkår. Opptaket til ordinære studium følgjande studieår, blir gitt på vilkår av at søkjaren fullfører og består årskurs i norsk. Søkjarar som ikkje består årskurs i norsk mister tilbod om studieplass.</p>
 <p><em>Føyd til ved forskrift 30 jan 2018 nr. 137 (i kraft 1 feb 2018), endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020, tidlegare § 5-3), 19 des 2024 nr. 3488 .</em></p>
 <h2 id="kapittel-6-oppheva">Kapittel 6. (Oppheva)</h2>
 <p>Endra ved forskrift 16 des 2020 nr. 2916 (i kraft 1 jan 2021), kapittelet oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-1-oppheva">§ 6-1. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-2-oppheva">§ 6-2. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-3-oppheva">§ 6-3. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-4-oppheva">§ 6-4. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-5-oppheva">§ 6-5. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-6-oppheva">§ 6-6. (Oppheva) <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-6-6.html" title="Endringshistorikk for § 6-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endra ved forskrift 16 des 2020 nr. 2916 (i kraft 1 jan 2021), oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Endra ved forskrift 16 des 2020 nr. 2916 (i kraft 1 jan 2021), oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-7-oppheva">§ 6-7. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-8-oppheva">§ 6-8. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h4 id="6-9-oppheva">§ 6-9. (Oppheva)</h4>
-<p><em>Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Oppheva ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h2 id="kapittel-7-rangering-av-skjarar-ved-opptak">Kapittel 7. Rangering av søkjarar ved opptak</h2>
 <h4 id="7-1-generelt-om-rangering-og-kvotar">§ 7-1. Generelt om rangering og kvotar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Opptak til studium skjer på grunnlag av rangering innanfor kvotar. Ein kvote er eit bestemt tal eller ein bestemt del av studieplassane som skal fordelast blant søkjarar som tilfredsstiller nærmare bestemte krav.</p>
@@ -345,26 +556,26 @@ e. Følgjande studium ved Høyskolen Kristiania
 <p>(4) Søkjarar med høg poengsum skal rangerast framfor søkjarar med låg poengsum. Søkjarar med lik poengsum i ein kvote skal rangerast etter alder, eldre søkjarar går framfor yngre søkjarar.</p>
 <p>(5) Når alle kvalifiserte søkjarar som har søkt innan ordinær søknadsfrist har fått tilbod om plass på eit studium, kan lærestadane lyse ut studiet på nytt med ledige studieplassar. Kvalifiserte søkjarar kan få tilbod om opptak til ledige studieplassar utan omsyn til reglane om rangering i kapittel sju.</p>
 <p>(6) Institusjonar kan gi tidleg tilsegn om opptak til søkjarar som har dokumentert behov for dette, og er kvalifisert for utdanninga dei har søkt. Institusjonane fastsett poenggrense for tidleg tilsegn om opptak og avgjer kva for studium det er mogleg å søkje om tidleg opptak til.</p>
-<p><em>Endra ved forskrifter 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 .</em></p>
+<p class="note">Endra ved forskrifter 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 .</p>
 <h4 id="7-2-kvote-for-frstegongsvitnemal-og-ordinr-kvote">§ 7-2. Kvote for førstegongsvitnemål og ordinær kvote <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Kvote for førstegongsvitnemål omfattar søkjarar som ikkje fyller meir enn 21 år i opptaksåret, og som har fått utferda førstegongsvitnemål etter normal tid i vidaregåande opplæring etter føresegner fastsette i forskrift til lov 17. juli 1998 nr. 61 om grunnskolen og den vidaregåande opplæringa. Kvoten omfattar òg søkjarar som ikkje fyller meir enn 21 år i opptaksåret, og som har oppnådd generell studiekompetanse på bakgrunn av vitnemål frå yrkesfag som er fullførte og bestått på normal tid, i tillegg til at dei oppfyller fagkrava i § 2-1 .</p>
 <p>(2) Søkjarar i kvoten for førstegongsvitnemål skal rangerast på grunnlag av føresegnene i § 7-5 , § 7-8 , § 7-9 eller etter § 7-12 , § 7-13 , § 7-14 .</p>
 <p>(3) 50 prosent av studieplassane skal tilbydast søkjarar i kvoten for førstegongsvitnemål.</p>
 <p>(4) Søkjarar som fyller kriteria for opptak i kvoten for førstegongsvitnemål, men som ikkje får tilbod om studieplass, konkurrerer vidare i ordinær kvote.</p>
 <p>(5) Departementet kan frita enkelte studium frå kravet om kvote for førstegongsvitnemål.</p>
-<p><em>Endra ved forskrift 16 des 2020 nr. 2916 (i kraft 1 jan 2021).</em></p>
+<p class="note">Endra ved forskrift 16 des 2020 nr. 2916 (i kraft 1 jan 2021).</p>
 <h4 id="7-3-spesielle-kvotar">§ 7-3. Spesielle kvotar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Når særskilde forhold gjer det ønskeleg, kan departementet fastsetje spesielle kvotar for enkelte utdanningar.</p>
 <p>(2) Departementet kan i særskilde tilfelle fastsetje unntak frå kvote for førstegongsvitnemål innanfor ein spesiell kvote.</p>
 <p>(3) Departementet kan fastsetje avvikande rangeringsreglar for spesielle kvotar, mellom anna reglar for tildeling av særlege tilleggspoeng.</p>
 <p>(4) Søkjarar som fyller kriteria for opptak i ein spesiell kvote, men ikkje får tilbod om studieplass, konkurrerer eventuelt vidare i kvoten for førstegongsvitnemål og deretter i den ordinære kvoten, jf. § 7-2 .</p>
-<p><em>Endra ved forskrift 19 des 2023 nr. 2223 .</em></p>
+<p class="note">Endra ved forskrift 19 des 2023 nr. 2223 .</p>
 <h4 id="7-4-poengberekning-av-skjarar-med-meir-enn-eitt-grunnlag-for-rangering">§ 7-4. Poengberekning av søkjarar med meir enn eitt grunnlag for rangering</h4>
 <p>Søkjarar som fyller krava til generell studiekompetanse både som 23/5-søkjarar og på grunnlag av 3-årig vidaregåande opplæring eller tilsvarande, jf. § 2-1 , skal poengbereknast etter begge desse grunnlaga for rangering. Ved rangering som 23/5-søkjar kan det for desse søkjarane inngå fag frå beståtte vitnemål eller kompetansebevis som er nødvendige for at søkjaren skal vere kvalifisert for eit studium, og fag som kan gi tilleggspoeng. Lærestaden skal bruke den poengberekninga som gir høgast rangering.</p>
 <h4 id="7-5-karakterpoeng">§ 7-5. Karakterpoeng <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-5.html" title="Endringshistorikk for § 7-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Grunnlaget for rangering er det same som grunnlaget for kvalifisering. Fag som gir tilleggspoeng kan tas med i rangeringa. Rangering skjer ved utrekning av poeng. Karakterpoeng er gjennomsnitt av talkarakterar, med to desimalar, multiplisert med 10.</p>
 <p>(2) For søkjarar med vitnemål frå norsk gymnas med bokstavkarakterar gjeld fastsett omrekningstabell, jf. § 9-2 .</p>
-<p><em>Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 19 des 2023 nr. 2223 .</em></p>
+<p class="note">Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 19 des 2023 nr. 2223 .</p>
 <h4 id="7-6-omrekning-fra-utanlandske-til-norske-karakterar">§ 7-6. Omrekning frå utanlandske til norske karakterar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-6.html" title="Endringshistorikk for § 7-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Søkjarar med anna vidaregåande opplæring enn norsk skal rangerast ved utrekning av poeng eller individuell vurdering, jf. § 7-5 første ledd og § 7-1 fjerde ledd .</p>
 <p>(2) Departementet eller den institusjonen departementet gir fullmakt skal fastsetje og halde ved like omrekningstabellar for anna vidaregåande opplæring enn norsk, jf. vedlegg II. Karakterfordelinga i den utanlandske vidaregåande opplæringa skal samanliknast med karakterfordelinga i norsk vidaregåande opplæring.</p>
@@ -372,10 +583,10 @@ e. Følgjande studium ved Høyskolen Kristiania
 <p>(4) For søkjarar med utanlandsk vidaregåande opplæring der det ikkje finst ein omrekningstabell, skal det nyttast ei lineær omrekning for å berekne karakterpoeng, jf. første ledd.</p>
 <p>(5) For søkjarar med utanlandsk vidaregåande opplæring der et ikkje finst ein omrekningstabell, og der lineær omrekning klart blir urimeleg, skal rangering skje etter § 7-12 .</p>
 <p>(6) For søkjarar med utanlandsk vidaregåande opplæring som kvalifiserer for opptak etter § 2-2 (8) reknast tilleggsfag som nemnd i § 7-5 (1) , avlagt i norsk vidaregåande opplæring, inn i karakterpoengsum etter en gjennomsnittsrekning som om søkjaren hadde 25 karakterar frå det utanlandske vitnemålet.</p>
-<p><em>Oppheva ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), endra ved forskrifter 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Oppheva ved forskrift 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), endra ved forskrifter 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 .</p>
 <h4 id="7-7-karakterforbetringar">§ 7-7. Karakterforbetringar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-7.html" title="Endringshistorikk for § 7-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved berekning av karakterpoeng utanom kvoten for førstegongsvitnemål skal karakterforbetringar erstatte tidlegare karakter(ar) i same faget.</p>
-<p><em>Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020).</em></p>
+<p class="note">Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020).</p>
 <h4 id="7-8-tilleggspoeng-for-realfag-og-framandsprak-fra-vidaregaande-opplring">§ 7-8. Tilleggspoeng for realfag og framandspråk frå vidaregåande opplæring</h4>
 <p>(1) Det kan totalt givast inntil 4 tilleggspoeng for programfag frå programområde for realfag og programfag innanfor «framandspråk» frå vidaregåande opplæring i Kunnskapsløftet. Faga må vere bestått. Det skal ikkje givast utteljing for fag som overlappar kvarandre.</p>
 <p>(2) Alle programfag frå programområde for realfag og programfag innanfor «framandspråk» med eit omfang på 140 timar gir 0,5 tilleggspoeng, bortsett frå faga matematikk R2, fysikk 2 og «framandspråk» III, som gir 1,0 tilleggspoeng.</p>
@@ -385,7 +596,7 @@ e. Følgjande studium ved Høyskolen Kristiania
 <p>(1) For å jamne ut forskjellar og oppnå meir likestilling mellom kjønna, kan departementet for enkelte utdanningar fastsette at søkjarar av det kjønnet som er klart underrepresentert blant studentar på eller yrkesutøvarar frå vedkommande utdanning, skal ha inntil 2 tilleggspoeng for ein avgrensa periode.</p>
 <p>(2) Det blir berre gitt tilleggspoeng der det er godtgjort at andre verkemidlar ikkje har ført fram. Om erfaringar frå tidlegare opptak synleggjer at tilleggspoeng kan resultere i for låg representasjon av eit kjønn, kan ein vurdere om det kan innførast spesielle tiltak, jf. § 7-3 .</p>
 <p>(3) Ein søknad om å nytte tilleggspoeng må mellom anna innehalde ein vurdering av kvifor ein vil ha tilleggspoeng eller kvotar, jf. § 7-3 . Vurderinga må omfatte både kva kjønnsbalansen på studiet og i yrket er no, og kvifor det er viktig med god kjønnsbalanse i den aktuelle utdanninga. Ein må også vurdere omsynet til samfunnet og brukarane i eit kjønnsperspektiv. Søknader skal omfatte start og sluttpunkt for tiltaket.</p>
-<p><em>Endra ved forskrift 30 jan 2018 nr. 137 (i kraft 1 feb 2018).</em></p>
+<p class="note">Endra ved forskrift 30 jan 2018 nr. 137 (i kraft 1 feb 2018).</p>
 <h4 id="7-10-tilleggspoeng-for-alder">§ 7-10. Tilleggspoeng for alder</h4>
 <p>(1) Søkjarar utanom kvoten for førstegongsvitnemål som har vitnemål om bestått 3-årig vidaregåande opplæring som gir studie- eller yrkeskompetanse, får 2 alderspoeng per år frå og med det året søkjaren fyller 20 år, maksimalt 8 poeng.</p>
 <p>(2) 23/5-søkjarar får 2 alderspoeng per år frå og med det året søkjaren fyller 24 år, maksimalt 8 poeng.</p>
@@ -394,18 +605,18 @@ e. Følgjande studium ved Høyskolen Kristiania
 <p>(2) Eit fullført halvårig studium i høgare utdanning eller fagskule eller 30 studiepoeng/fagskulepoeng/studiepoeng frå fagskule gir 1 tilleggspoeng.</p>
 <p>(3) Søkjarar som har generell studiekompetanse med grunnlag i høgare utdanning eller fagskule kan ikkje få tilleggspoeng for denne.</p>
 <p>(4) Det kan maksimalt givast 2 tilleggspoeng etter denne føresegna.</p>
-<p><em>Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</em></p>
+<p class="note">Endra ved forskrifter 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022).</p>
 <h4 id="7-12-rangering-av-skjarar-som-ikkje-kan-poengbereknast">§ 7-12. Rangering av søkjarar som ikkje kan poengbereknast <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-7-12.html" title="Endringshistorikk for § 7-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Kvalifiserte søkjarar som ikkje kan poengbereknast, må rangerast i høve til poengberekna søkjarar ved hjelp av ei individuell skjønnsmessig vurdering. For å få tilbod om opptak må søkjaren ha likeverdige ferdigheiter og kunnskapar med søkjarar som får tilbod om opptak etter rangering på grunnlag av poengberekning.</p>
 <p>(2) I vurderinga skal det takast omsyn til om søkjaren har eit opptaksgrunnlag og ein fagsamansetnad som er likeverdig med det som gir grunnlag for tilleggspoeng for realfag/framandspråk for søkjarar som kan poengbereknast og andre poeng etter dette kapittelet.</p>
-<p><em>Endra ved forskrifter 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endra ved forskrifter 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023).</p>
 <h4 id="7-13-rangering-pa-grunnlag-av-srskild-vurdering">§ 7-13. Rangering på grunnlag av særskild vurdering</h4>
 <p>(1) Grunnlag for opptak etter særskild vurdering kan vere at eit anna morsmål enn norsk, sjukdom, funksjonshemming eller andre spesielle forhold gir grunn til å tru at karakterpoengsummen etter føresegnene i § 7-5 til § 7-7 ikkje gir eit rett bilete av kvalifikasjonane til søkjaren.</p>
 <p>(2) Søkjarar som ønskjer å bli vurderte etter denne føresegna, må be om det i søknaden og leggje ved særskild grunngiving og dokumentasjon på dei forholda dei nemner.</p>
 <p>(3) Forhold som dei som er nemnde ovanfor, gir ikkje i seg sjølve rett til studieplass. For å få tilbod om opptak må søkjaren ha likeverdige ferdigheiter og kunnskapar med søkjarar som får tilbod om opptak etter § 7-1 til § 7-12 og § 7-14 . Søkjaren må sannsynleggjere at dei særskilde forholda har hatt innverknad på resultata frå vidaregåande opplæring. Utdanning og andre forhold utover vidaregåande opplæring skal ikkje leggast vekt på.</p>
 <p>(4) For studium med opptaksprøve gjeld denne føresegna når tilbod om opptaksprøve eller endeleg rangering heilt eller delvis byggjer på poengberekning etter § 7-1 til § 7-12 .</p>
 <p>(5) Søkjarar som ikkje får tilbod om opptak etter desse reglane, skal rangerast etter reglane i høvesvis § 7-1 til § 7-12 og § 7-14 .</p>
-<p><em>Endra ved forskrift 29 juni 2017 nr. 1065 (i kraft 1 juli 2017).</em></p>
+<p class="note">Endra ved forskrift 29 juni 2017 nr. 1065 (i kraft 1 juli 2017).</p>
 <h4 id="7-14-rangering-pa-grunnlag-av-opptaksprve">§ 7-14. Rangering på grunnlag av opptaksprøve</h4>
 <p>(1) Søkjarar til studium som etter § 4-4 , § 4-7 , § 4-9 og § 4-10 har opptaksprøve som spesielt opptakskrav, kan rangerast på éin av desse måtane:</p>
 <ul>
@@ -420,7 +631,7 @@ e. Følgjande studium ved Høyskolen Kristiania
 <h4 id="8-1-nasjonal-klagenemnd-for-opptak-gjennom-samordna-opptak">§ 8-1. Nasjonal klagenemnd for opptak gjennom Samordna opptak <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Reglane for nasjonal klagenemnd gjeld klagar over enkeltvedtak i den nasjonale opptaksmodellen for grunnutdanningar ved universitet og høgskular som Samordna opptak ved Direktoratet for høgare utdanning og kompetanse organiserer.</p>
 <p>(2) Reglane for nasjonal klagenemnd gjeld ikkje vedtak om opptak på grunnlag av realkompetanse og vedtak om opptak etter at det er gitt dispensasjon frå enkelte av krava om generell studiekompetanse, jf. § 8-1 i universitets- og høgskulelova. Reglane gjeld heller ikkje for klagar på vurdering av spesielle opptakskrav som omfattar ferdigheiter eller opptaksprøver etter nærmare reglar fastsette av institusjonen. Klagar på slike vedtak skal behandlast i samsvar med den klageordninga som er etablert ved kvar lærestad.</p>
-<p><em>Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 , 20 juni 2024 nr. 1111 , 19 des 2024 nr. 3488 .</em></p>
+<p class="note">Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 19 des 2023 nr. 2223 , 20 juni 2024 nr. 1111 , 19 des 2024 nr. 3488 .</p>
 <h4 id="8-2-korleis-klagenemnda-skal-nemnast-opp-og-vere-samansett">§ 8-2. Korleis klagenemnda skal nemnast opp og vere samansett <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-8-2.html" title="Endringshistorikk for § 8-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet nemner opp klagenemnda.</p>
 <p>Klagenemnda skal ha sju medlemmer og vere slik samansett:</p>
@@ -430,14 +641,14 @@ c. éin medlem med personleg varamedlem frå forvaltingsområdet for vidaregåan
 d. to medlemmer og to numeriske varamedlemmer som representerer studentane. Medlemmene skal oppnemnast i samsvar med forslag frå representative studentorganisasjonar.</p>
 <p>Medlemmene oppnemnast for inntil fire år, med unntak av studentrepresentantane som oppnemnast for inntil to år. Medlemmene kan gjenoppnemnast éin gong. Personar som har vore varamedlemmer kan oppnemnast i to periodar som fast medlem.</p>
 <p>Krava i likestillings- og diskrimineringsloven § 28 første ledd skal oppfyllast for studentrepresentantane og dei andre medlemmene kvar for seg.</p>
-<p><em>Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endra ved forskrifter 2 feb 2017 nr. 117 , 30 jan 2018 nr. 137 (i kraft 1 feb 2018), 23 nov 2018 nr. 1767 (i kraft 1 jan 2019), 29 nov 2022 nr. 2086 (i kraft 1 jan 2023), 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</p>
 <h4 id="8-3-avgjerd-i-klagenemnda">§ 8-3. Avgjerd i klagenemnda <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Klagenemnda er vedtaksfør når minst fire medlemmer, inkludert leiaren eller nestleiaren og éin studentrepresentant, deltar i behandlinga.</p>
 <p>Vedtak treffes ved alminnelig flertall av de avgitte stemmene. Ved stemmelikhet har nemndas leder dobbeltstemme. Dersom nemndas leder ikke er til stede, har nestleder dobbeltstemme.</p>
-<p><em>Endra ved forskrift 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</em></p>
+<p class="note">Endra ved forskrift 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</p>
 <h4 id="8-4-delegering-i-nemnda">§ 8-4. Delegering i nemnda <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Klagenemnda kan delegere til nemndas leder å fatte vedtak i enkle saker. Beslutningen om delegering må være enstemmig.</p>
-<p><em>Tilføyd ved forskrift 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</em></p>
+<p class="note">Tilføyd ved forskrift 2 juli 2025 nr. 1463 (i kraft 1 aug 2025).</p>
 <h2 id="kapittel-9-overgangsreglar">Kapittel 9. Overgangsreglar</h2>
 <h4 id="9-1-generell-studiekompetanse-etter-tidlegare-ordningar">§ 9-1. Generell studiekompetanse etter tidlegare ordningar <a class="para-history" href="../historikk/forskrift-2017-01-06-13/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Generell studiekompetanse har søkjarar som i samsvar med Reform 94 har bestått 3-årig vidaregåande opplæring med grunnkurs, VKI og VKII, eller som har bestått fagopplæring med fagbrev/sveinebrev eller er 23/5-søkjarar, og som har desse faga, bestått med karakteren 2 eller betre, frå vidaregåande opplæring (Reform 94):</p>
@@ -459,7 +670,7 @@ d. to medlemmer og to numeriske varamedlemmer som representerer studentane. Medl
 <p>(9) For søkjarar med 3-årig vidaregåande opplæring frå Oslo By Steinerskole til og med 2004 og frå andre Rudolf Steinerskolar til og med 2005, gjeld at det skal vurderast individuelt om dei fyller krava til generell studiekompetanse.</p>
 <p>(10) Søkjarar som har dokumentert engelsk med (2 + 2) veketimar frå grunnkurs og VKI i yrkesfagleg studieretning i Reform 94, oppfyller kravet om engelsk 140 timar, jf. føresegner gitt i medhald av opplæringsforskrifta § 23-5 om korleis fag kan erstatte kvarandre frå Reform 94 til Kunnskapsløftet.</p>
 <p>(11) Skriftleg og munnleg test i norsk, høgare nivå («Bergenstesten») avlagt før hausten 2009, med minimum 450 poeng på skriftleg del og 500 poeng på munnleg del, fyller krava til dokumentasjon på kunnskapar i norsk etter § 2-2 andre ledd.</p>
-<p><em>Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</em></p>
+<p class="note">Endra ved forskrifter 26 nov 2019 nr. 1580 (i kraft 1 jan 2020), 29 mai 2020 nr. 1132 (i kraft 15 juni 2020), 16 des 2020 nr. 2916 (i kraft 1 jan 2021), 1 des 2021 nr. 3391 (i kraft 1 jan 2022), 19 des 2023 nr. 2223 , 19 des 2024 nr. 3488 , 16 jan 2025 nr. 42 .</p>
 <h4 id="9-2-overgangsreglar-om-rangering">§ 9-2. Overgangsreglar om rangering</h4>
 <p>(1) Omrekningstabell for søkjarar med vitnemål frå norsk gymnas med bokstavkarakterar: S = 6, M = 5, G = 4, T = 4, Ng = 2.</p>
 <h4 id="9-3-overgangsreglar-for-spesielle-opptakskrav">§ 9-3. Overgangsreglar for spesielle opptakskrav</h4>
@@ -470,7 +681,7 @@ d. to medlemmer og to numeriske varamedlemmer som representerer studentane. Medl
 <p>Institusjonane og den nasjonale opptakstenesta kan innhente opplysningar om namn, fødselsnummer eller d-nummer, arbeidserfaring og vitnemål og annan dokumentasjon på oppnådd kompetanse frå andre offentlege myndigheiter, offentlege system for vitnemål, statlege, fylkeskommunale og private utdanningsinstitusjonar, når formålet er å behandle søknad om opptak til utdanning ved universitet og høgskolar som deltek i det samordna opptaket etter universitets- og høgskolelova § 8-5 .</p>
 <p>Institusjonane og den nasjonale opptakstenesta kan ta avgjerder etter heilt eller delvis automatisert saksbehandling. Søkjaren kan krevje at vedtaket skal overprøvast manuelt.</p>
 <p>Direktoratet for høgare utdanning og kompetanse er behandlingsansvarleg for den nasjonale opptakstenesta.</p>
-<p><em>Endra ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</em></p>
+<p class="note">Endra ved forskrift 28 juni 2024 nr. 1392 (i kraft 1 aug 2024).</p>
 <h2 id="kapittel-11-iverksetjing">Kapittel 11. Iverksetjing</h2>
 <h4 id="11-1-iverksetjing">§ 11-1. Iverksetjing</h4>
 <p>Forskrifta trer i kraft 15. januar 2017. Oppheva frå same dato blir</p>
@@ -502,6 +713,8 @@ d. to medlemmer og to numeriske varamedlemmer som representerer studentane. Medl
 <p>For utdanningssystem Samordna opptak ikkje har statistikk frå, og som ein reknar for å ha vesentlege avvik i karakterfordelinga frå norsk karakterfordeling, skal søknadar rangerast etter § 7-12 .</p>
 <h3 id="liste-over-utdanningssystem-og-type-omrekning">Liste over utdanningssystem og type omrekning</h3>
 <p>Omrekningstabellane for kvart utdanningssystem er til ei kvar tid oppdaterte på Samordna opptak sine nettsider . Utdanningssystem Karakterskala Type omrekning Afghanistan Karakterskala: 0–100 med 50 som lågaste beståtte gjennomsnitt Type tabell: eigeninnsamla karakterstatistikk Albania Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: lineær omrekning Algerie Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Angola Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Argentina Karakterskala: varierer Type tabell: lineær omrekning Armenia Karakterskala: 1–5 med 3 som lågaste ståkarakter eller 1–10 med 4 som lågaste ståkarakter Type tabell: lineær omrekning Aserbajdsjan Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Austerrike Karakterskala: 5–1 med 4 som lågaste ståkarakter Type tabell: lineær omrekning Australia Karakterskala: varierer Type tabell: lineær omrekning Bahrain Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: lineær omrekning Bangladesh Karakterskala: 0–5 med 1 som lågaste ståkarakter, eller 0–100 med 33 som lågaste ståkarakter Type tabell: lineær omrekning Belarus, 3–10 Karakterskala: 1–10 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Belarus, 3–5 Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Belgia, 50–100 Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Belgia, andre skalaer enn 50–100 Karakterskala: 0–20 med 10 som lågaste ståkarakter, eller varierande karakterskala. Type tabell: individuell vurdering Bolivia Karakterskala: 1–7 med 3,6 som lågaste ståkarakter, 1–70 med 36 som lågaste ståkarakter eller 1–100 med 50 som lågaste ståkarakter Type tabell: lineær omrekning Bosnia Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Brasil Karakterskala: varierer Type tabell: lineær omrekning Bulgaria, vgs t.o.m. 2021 Karakterskala: 2–6 med 3 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Bulgaria, vgs f.o.m. 2022 Karakterskala: 2–6 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Bulgaria, eksamen Karakterskala: 2–6 med 3 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Burundi Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: individuell vurdering Canada, alle provinsar/territorium utanom Quebec og New Brunswick Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Canada, Quebec og New Brunswick Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: lineær omrekning Chile Karakterskala: 1–7 med 4 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Colombia Karakterskala: varierer Type tabell: lineær omrekning Costa Rica Karakterskala: varierer Type tabell: lineær omrekning Cuba Karakterskala: 0–100 med 70 som lågaste ståkarakter Type tabell: lineær omrekning Danmark, 02–12 Karakterskala: – 3–12 med 02 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Danmark, 06–13 Karakterskala: 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Danmark, enkeltkarakterar Karakterskala: – 3–12 med 02 som lågaste ståkarakter og 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Dei sameinte arabiske emirata, 42,5–100 Karakterskala: 0–100 med 42,5 som lågaste ståkarakter Type tabell: individuell vurdering Dei sameinte arabiske emirata, 50–100 Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Dei sameinte arabiske emirata, 60–100 Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk EB, 50–100 Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk EB, 60–100 Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Ecuador, 7–10 Karakterskala: 0–10 med 7 som lågaste ståkarakter Type tabell: lineær omrekning Ecuador, 12–20 Karakterskala: 0–20 med 12 som lågaste ståkarakter Type tabell: lineær omrekning Egypt Karakterskala: varierer Type tabell: eigeninnsamla karakterstatistikk Elfenbeinskysten Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning El Salvador Karakterskala: varierer Type tabell: lineær omrekning England, Wales og Nord-Irland, A-levels (f.o.m. 2010) Karakterskala: N–A* med E som lågaste ståkarakter Type tabell: offisiell karakterstatistikk England, Wales og Nord-Irland, A-levels (t.o.m. 2009) Karakterskala: N–A med E som lågaste ståkarakter Type tabell: offisiell karakterstatistikk England, Wales og Nord-Irland, AS-levels Karakterskala: E–A med E som lågaste ståkarakter Type tabell: offisiell karakterstatistikk England, Wales og Nord-Irland, GCSE, IGCSE og O-levels (G–A<em>) Karakterskala: G–A</em> med G som lågaste ståkarakter Type tabell: offisiell karakterstatistikk England, Wales og Nord-Irland, GCSE, IGCSE og O-levels (1–9) Karakterskala: 1–9 med 1 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Eritrea Karakterskala: D–A med D som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Estland, nasjonale eksamenar (1997–2001 + 2014-) Karakterskala: 1–100 med 1 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Estland, nasjonale eksamenar (2002–2013) Karakterskala: 1–100 med 20 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Estland, vgs Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Etiopia, F–A Karakterskala: F–A med D som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Etiopia, 201–700 Karakterskala: 201–700 med 201 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Etiopia, 50–400 Karakterskala: 50–400 med 50 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Etiopia, 50–500 Karakterskala: 50–500 med 50 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Filippinane, 10-årig Karakterskala: 0–100 med 75 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Filippinane, 12-årig Karakterskala: 0–100 med 75 som lågaste ståkarakter Type tabell: lineær omrekning Finland, eksamen Karakterskala: Improbatur, Approbatur, Lubenter approbatur, Cum laude approbatur, Magna cum laude approbatur, Eximia cum laude approbatur, Laudatur med Approbatur som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Finland, vgs Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Frankrike Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: fastsett av Kunnskapsdepartementet (KD) Færøyene, 02–12 Karakterskala: – 3–12 med 02 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Færøyene, 06–13 Karakterskala: 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Færøyene, enkeltkarakterar Karakterskala: – 3–12 med 02 som lågaste ståkarakter og 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Gambia (WAEC) Karakterskala: F9–A1 med E8 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Georgia Karakterskala: 1–10 med 4 som lågaste ståkarakter eller 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Ghana (WAEC) Karakterskala: F9–A1 med E8 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Grønland, 02–12 Karakterskala: – 3–12 med 02 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Grønland, 06–13 Karakterskala: 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Grønland, enkeltkarakterar Karakterskala: – 3–12 med 02 som lågaste ståkarakter og 00–13 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Guinea Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Hellas, 9,5–20 Karakterskala: 0–20 med 9,5 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Hellas, 10–20 Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Honduras Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: lineær omrekning Hongkong, 1–5 Karakterskala: 1–5 med 1 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Hongkong, A-levels Karakterskala: F–A med F som lågaste ståkarakter Type tabell: lineær omrekning IB, diplom Poengsumskala: 0–45 der 24 er lågaste godkjende poengsum for å få diplom Type tabell: fastsett av Kunnskapsdepartementet (KD) IB, enkeltkarakterar Karakterskala: 1–7 der 3 er lågaste karakter som reknast om Type tabell: offisiell karakterstatistikk India, 33 %–100 % Karakterskala: 33 %–100 % med 33 % som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk India, 35 %–100 % Karakterskala: 35 %–100 % med 35 % som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk India, andre skalaer enn 33 %–100 % og 35 %–100 % Karakterskala: andre skalaer enn 33 %–100 % og 35 %–100 % Type tabell: lineær omrekning Indonesia Karakterskala: varierer Type tabell: Lineær omrekning Irak Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Iran, vgs Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Iran, Pre-University Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Irland (f.o.m. 2017) Karakterskala: 8–1 med 7 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Irland (1992–2016) Karakterskala: F–A1 med D3 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Irland (t.o.m. 1991) Karakterskala: F–A med D som lågaste ståkarakter Type tabell: lineær omrekning Island Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Island, enkeltkarakterar Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Israel Karakterskala: 0–100 med 45 som lågaste ståkarakter Type tabell: lineær omrekning Italia, 36–60 Karakterskala: 0–100 med 36 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Italia, 60–100 Karakterskala: 60–100 med 60 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Japan Karakterskala: Fuka, Ka, Ryo, Yu, Shu med Ka som lågaste ståkarakter Type tabell: lineær omrekning Jemen Karakterskala: varierer Type tabell: lineær omrekning Jordan Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Kamerun, engelsk Karakterskala: F–A med E som lågaste ståkarakter Type tabell: lineær omrekning Kamerun, fransk Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Kapp Verde Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Kasakhstan Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Kenya Karakterskala: E–A med E som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Kina, D–A Karakterskala: D–A med D som lågaste ståkarakter Type tabell: lineær omrekning Kina, C–A (gjelder f.o.m. 2024) Karakterskala: C–A med C som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Kina, 60–100 og 90–150 Karakterskala: 0–100-skala med 60 som lågaste ståkarakter og 0–150-skala med 90 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Kirgisistan Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Kongo-Brazzaville Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Kongo DRC Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Kosovo Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Kroatia Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Kuwait Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Latvia, nasjonale eksamenar (2024) Karakterskala: 1–100 med 15 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Latvia, nasjonale eksamenar (2023) Karakterskala: 1–100 med 10 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Latvia, nasjonale eksamenar (2013–2022) Karakterskala: 0–100 med 5 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Latvia, nasjonale eksamenar (t.o.m. 2012) Karakterskala: E–A med E som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Latvia, vgs (f.o.m. 1991) Karakterskala: 1–10 med 4 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Latvia, vgs (t.o.m. 1990) Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Libanon Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Liberia (WAEC) Karakterskala: F9–A1 med E8 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Liberia, andre skalaer enn E8–A1 Karakterskala: varierer Type tabell: lineær omrekning Libya Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Litauen, nasjonale eksamenar (f.o.m. 2013) Karakterskala: 1–100 med 16 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Litauen, nasjonale eksamenar (1999–2012) Karakterskala: 1–100 med 1 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Litauen, vgs (f.o.m. 1994) Karakterskala: 1–10 med 4 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Litauen, vgs (t.o.m. 1993) Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Luxembourg Karakterskala: 1–60 med 30 som lågaste ståkarakter Type tabell: lineær omrekning Madagaskar Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Malawi Karakterskala: 9–1 med 8 som lågaste ståkarakter Type tabell: lineær omrekning Marokko Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Mexico Karakterskala: 0–10 med 6 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Mexico, andre skalaer enn 6–10 Karakterskala: varierer Type tabell: lineær omrekning Moldova (inkl. Transnistria) Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: lineær omrekning Mongolia Karakterskala: 2–5 med 3 som lågaste ståkarakter, eller varierande karakterskala Type tabell: lineær omrekning Montenegro Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Nederland, HAVO Karakterskala: 1–10 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Nederland, VWO Karakterskala: 1–10 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Nederland, andre kvalifikasjonar Karakterskala: varierer Type tabell: lineær omrekning Nepal, 2–4 Karakterskala: 0–4 med 2 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Nepal, 33–100 Karakterskala: 0–100 med 33 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Nepal, 35–100 Karakterskala: 0–100 med 35 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk New Zealand Karakterskala: Achievement (A), Merit (M) og Excellence (E) med Achievement (A) som lågaste ståkarakter Type tabell: lineær omrekning Nicaragua Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: lineær omrekning Nigeria (WAEC) Karakterskala: F9–A1 med E8 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Nord-Makedonia Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Oman Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Pakistan Karakterskala: 0 %–100 % med 33 % som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Palestina Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Panama Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Paraguay Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Peru Karakterskala: 1–20 med 11 som lågaste ståkarakter Type tabell: individuell vurdering Polen, 3–5 (t.o.m. 1991) Karakterskala: Niedostateczny, Dostateczny, Dobry, Bardzo dobry med Dostateczny som lågaste ståkarakter Type tabell: lineær omrekning Polen, vgs og eksamen 1991–2004 Karakterskala: Niedostateczny, Dopuszczajacy/Mierny, Dostateczny, Dobry, Bardzo dobry, Celujaczy med Dopuszczajacy/Mierny som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Polen, vgs (f.o.m. 2005) Karakterskala: Niedostateczny, Dopuszczajacy, Dostateczny, Dobry, Bardzo dobry, Celujaczy med Dopuszczajacy som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Polen, eksamen (f.o.m. 2005) Karakterskala: 0–100 med 30 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Portugal Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Qatar Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: lineær omrekning Romania, eksamen Karakterskala: 0–10 med 6 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Romania, vgs Karakterskala: 0–10 med 5 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Russland Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Rwanda Karakterskala: varierer Type tabell: lineær omrekning Saudi-Arabia Karakterskala: 0 %–100 % med 50 % som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Senegal Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Serbia Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sierra Leone (WAEC) Karakterskala: F9–A1 med E8 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Singapore Karakterskala: varierer Type tabell: lineær omrekning Skottland Karakterskala: D–A med D som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Slovakia, standpunkt og munnlege eksamenar Karakterskala: Nedostatečný, Dostatečný, Dobrý, Chvalitebný, Výborný med Dostatečný som lågaste ståkarakter Type tabell: lineær omrekning Slovakia, skriftlege eksamenar Karakterskala: 0–100 med 33 som lågaste ståkarakter Type tabell: lineær omrekning Slovenia Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: lineær omrekning Somalia Karakterskala: varierer Type tabell: individuell vurdering Spania Karakterskala: 1–10 med 5 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sri Lanka Karakterskala: F–A med S som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sudan Karakterskala: 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sveits Karakterskala: 1–6 med 4 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sverige, GY11 Karakterskala: F (0), E (10), D (12,5), C (15), B (17,5), A (20), med E som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Sverige, gymnasieskolan (1997–2013) Karakterskala: IG (0), G (10), VG (15), MVG (20), med G (10) som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Sverige, gymnasieskolan (t.o.m. 1996) Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Sverige, enkeltkarakterar (f.o.m. 1997) Karakterskala: G–MVG med G som lågaste ståkarakter (1997–2013), F–A med E som lågaste ståkarakter (frå 2014) Type tabell: offisiell karakterstatistikk Sverige, enkeltkarakterar (t.o.m. 1996) Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Syria, naturfagleg linje Karakterskala: 0–100 med 40 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Syria, litterær linje Karakterskala: 0–100 med 42,14 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Sør-Afrika, Senior Certificate Karakterskala: F–A med F som lågaste ståkarakter Type tabell: lineær omrekning Sør-Afrika, National Senior Certificate Karakterskala: 0 %–100 % med 33,33 % som lågaste ståkarakter Type tabell: lineær omrekning Sør-Korea Karakterskala: 0–60/Ga, 60–69/Yang, 70–79/Mi, 80–89/U/Wu og 90–100/Su med Ga som lågaste ståkarakter. Type tabell: lineær omrekning Tadsjikistan Karakterskala: 2–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Taiwan Karakterskala: 0–100 med 60 som lågaste ståkarakter Type tabell: lineær omrekning Tanzania Karakterskala: E–A med E som lågaste ståkarakter Type tabell: lineær omrekning Thailand Karakterskala: 0–4 med 1 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Tsjekkia Karakterskala: Nedostatečný, Dostatečný, Dobrý, Chvalitebný, Výborný, med Dostatečný som lågaste ståkarakter Type tabell: lineær omrekning Tunisia Karakterskala: 0–20 med 10 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Turkmenistan Karakterskala: 2–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Tyrkia, 2–5 Karakterskala: 1–5 med 2 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Tyrkia, 5–10 Karakterskala: 0–10 med 5 som lågaste ståkarakter og 0–100 med 50 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Tyskland Karakterskala: 6–1 med 4 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Uganda Karakterskala: E–A med E som lågaste ståkarakter Type tabell: lineær omrekning Ukraina, 3–5 Karakterskala: 2–5 med 3 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Ukraina, 1–12 Karakterskala: 1–12 med 1 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Ungarn, vgs Karakterskala: Elégtelen, Elégséges, Közepes, Jó, Jeles, med Elégséges som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Ungarn, eksamen Karakterskala: 0–100 med 20 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk USA, AP scores Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: offisiell karakterstatistikk USA, high school Karakterskala: D–A med D som lågaste ståkarakter Type tabell: offisiell karakterstatistikk Usbekistan Karakterskala: 1–5 med 3 som lågaste ståkarakter Type tabell: lineær omrekning Venezuela Karakterskala: 1–20 med 10 som lågaste ståkarakter Type tabell: lineær omrekning Vietnam Karakterskala: 0–10 med 5 som lågaste ståkarakter Type tabell: eigeninnsamla karakterstatistikk Zambia Karakterskala: 8–1 med 8 som lågaste ståkarakter Type tabell: lineær omrekning Zimbabwe Karakterskala: E–A med E som lågaste ståkarakter Type tabell: lineær omrekning</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

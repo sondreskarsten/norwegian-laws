@@ -19,69 +19,350 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-1988-07-08-72.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Barnebortføringsloven" href="../feeds/lov-1988-07-08-72.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-barne--og-familiedepartementet.html">Barne- og familiedepartementet</a> &rsaquo;
 <span>Barnebortføringsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/1988-07-08-72</code></dd>
-<dt>Departement</dt><dd>Barne- og familiedepartementet</dd>
-<dt>Rettsområde</dt><dd>Familie-, person- og barnerett &raquo; Barn og foreldre\nInternasjonal rett &raquo; Konvensjoner. Overenskomster</dd>
-<dt>Ikrafttredelse</dt><dd>1989-04-01, 1989-05-01</dd>
-<dt>Sist endret</dt><dd>lov/2018-12-20-114</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/1988-07-08-72" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade">Kapittel I. Virkeområde.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl2"><a href="#kapittel-ii-anerkjennelse-og-fullbyrding-av-avgjrelser-om-foreldreansvar-m-v-etter-europaradkonvensjonen">Kapittel II. Anerkjennelse og fullbyrding av avgjørelser om foreldreansvar m v etter Europarådkonvensjonen.</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#kapittel-iii-tilbakelevering-av-bortfrte-barn-etter-haag-konvensjonen">Kapittel III. Tilbakelevering av bortførte barn etter Haag-konvensjonen.</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl2"><a href="#kapittel-iv-saksbehandlingen">Kapittel IV. Saksbehandlingen.</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+<li class="lvl4"><a href="#17">§ 17</a></li>
+<li class="lvl4"><a href="#18">§ 18</a></li>
+<li class="lvl2"><a href="#kapittel-v-ymse-bestemmelser">Kapittel V. Ymse bestemmelser.</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#19-a">§ 19 a</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl4"><a href="#22">§ 22</a></li>
+<li class="lvl2"><a href="#europeisk-konvensjon-av-20-mai-1980-om-anerkjennelse-og-fullbyrding-av-avgjrelser-om-foreldreansvar-og-om-gjenopprettelse-av-foreldreansvar1">Europeisk konvensjon av 20 mai 1980 om anerkjennelse og fullbyrding av avgjørelser om foreldreansvar og om gjenopprettelse av foreldreansvar.1</a></li>
+<li class="lvl4"><a href="#art-1">Art 1</a></li>
+<li class="lvl3"><a href="#del-i-sentralmyndigheter">Del I. Sentralmyndigheter.</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl3"><a href="#del-ii-anerkjennelse-og-fullbyrding-av-avgjrelser-og-gjenopprettelse-av-foreldreansvar">Del II. Anerkjennelse og fullbyrding av avgjørelser og gjenopprettelse av foreldreansvar.</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl3"><a href="#del-iii-framgangsmate">Del III. Framgangsmåte.</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl5"><a href="#art-15">Art 15</a></li>
+<li class="lvl5"><a href="#art-16">Art 16</a></li>
+<li class="lvl3"><a href="#del-iv-forbehold">Del IV. Forbehold.</a></li>
+<li class="lvl5"><a href="#art-17">Art 17</a></li>
+<li class="lvl5"><a href="#art-18">Art 18</a></li>
+<li class="lvl3"><a href="#del-v-andre-avtaler">Del V. Andre avtaler.</a></li>
+<li class="lvl5"><a href="#art-19">Art 19</a></li>
+<li class="lvl5"><a href="#art-20">Art 20</a></li>
+<li class="lvl3"><a href="#del-vi-sluttbestemmelser">Del VI. Sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-21">Art 21</a></li>
+<li class="lvl5"><a href="#art-22">Art 22</a></li>
+<li class="lvl5"><a href="#art-23">Art 23</a></li>
+<li class="lvl5"><a href="#art-24">Art 24</a></li>
+<li class="lvl5"><a href="#art-25">Art 25</a></li>
+<li class="lvl5"><a href="#art-26">Art 26</a></li>
+<li class="lvl5"><a href="#art-27">Art 27</a></li>
+<li class="lvl5"><a href="#art-28">Art 28</a></li>
+<li class="lvl5"><a href="#art-29">Art 29</a></li>
+<li class="lvl5"><a href="#art-30">Art 30</a></li>
+<li class="lvl2"><a href="#konvensjon-av-25-oktober-1980-om-de-sivile-sider-ved-internasjonal-barnebortfring1">Konvensjon av 25 oktober 1980 om de sivile sider ved internasjonal barnebortføring.1</a></li>
+<li class="lvl3"><a href="#kapittel-i-konvensjonens-virkeomrade">Kapittel I. Konvensjonens virkeområde.</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl3"><a href="#kapittel-ii-sentralmyndigheter">Kapittel II. Sentralmyndigheter.</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl3"><a href="#kapittel-iii-tilbakelevering-av-barn">Kapittel III. Tilbakelevering av barn.</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl3"><a href="#kapittel-iv-samvrsrett">Kapittel IV. Samværsrett.</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl3"><a href="#kapittel-v-alminnelige-bestemmelser">Kapittel V. Alminnelige bestemmelser.</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+<li class="lvl5"><a href="#art-26_1">Art 26</a></li>
+<li class="lvl5"><a href="#art-27_1">Art 27</a></li>
+<li class="lvl5"><a href="#art-28_1">Art 28</a></li>
+<li class="lvl5"><a href="#art-29_1">Art 29</a></li>
+<li class="lvl5"><a href="#art-30_1">Art 30</a></li>
+<li class="lvl5"><a href="#art-31">Art 31</a></li>
+<li class="lvl5"><a href="#art-32">Art 32</a></li>
+<li class="lvl5"><a href="#art-33">Art 33</a></li>
+<li class="lvl5"><a href="#art-34">Art 34</a></li>
+<li class="lvl5"><a href="#art-35">Art 35</a></li>
+<li class="lvl5"><a href="#art-36">Art 36</a></li>
+<li class="lvl3"><a href="#kapittel-vi-sluttbestemmelser">Kapittel VI. Sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-37">Art 37</a></li>
+<li class="lvl5"><a href="#art-38">Art 38</a></li>
+<li class="lvl5"><a href="#art-39">Art 39</a></li>
+<li class="lvl5"><a href="#art-40">Art 40</a></li>
+<li class="lvl5"><a href="#art-41">Art 41</a></li>
+<li class="lvl5"><a href="#art-42">Art 42</a></li>
+<li class="lvl5"><a href="#art-43">Art 43</a></li>
+<li class="lvl5"><a href="#art-44">Art 44</a></li>
+<li class="lvl5"><a href="#art-45">Art 45</a></li>
+<li class="lvl3"><a href="#sknad-om-tilbakelevering">Søknad om tilbakelevering</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2018-12-20-114.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1988-07-08-72.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om anerkjennelse og fullbyrding av utenlandske avgjørelser om foreldreansvar m v og om tilbakelevering av barn (barnebortføringsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1988-07-08-72.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-1988-07-08-72 <code>lov/1988-07-08-72</code></td></tr>
+<tr><th>Korttittel</th><td>Barnebortføringsloven</td></tr>
+<tr><th>Departement</th><td>Barne- og familiedepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Familie-, person- og barnerett &raquo; Barn og foreldre\nInternasjonal rett &raquo; Konvensjoner. Overenskomster</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.04.1989, 01.05.1989</td></tr>
+<tr><th>Sist endret</th><td>LOV-2018-12-20-114 <code>lov/2018-12-20-114</code> fra 20.12.2018</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/1988-07-08-72" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-virkeomrade">Kapittel I. Virkeområde.</a></li>
+<li class="lvl4"><a href="#1">§ 1</a></li>
+<li class="lvl4"><a href="#2">§ 2</a></li>
+<li class="lvl4"><a href="#3">§ 3</a></li>
+<li class="lvl4"><a href="#4">§ 4</a></li>
+<li class="lvl4"><a href="#5">§ 5</a></li>
+<li class="lvl2"><a href="#kapittel-ii-anerkjennelse-og-fullbyrding-av-avgjrelser-om-foreldreansvar-m-v-etter-europaradkonvensjonen">Kapittel II. Anerkjennelse og fullbyrding av avgjørelser om foreldreansvar m v etter Europarådkonvensjonen.</a></li>
+<li class="lvl4"><a href="#6">§ 6</a></li>
+<li class="lvl4"><a href="#7">§ 7</a></li>
+<li class="lvl4"><a href="#8">§ 8</a></li>
+<li class="lvl4"><a href="#9">§ 9</a></li>
+<li class="lvl4"><a href="#10">§ 10</a></li>
+<li class="lvl2"><a href="#kapittel-iii-tilbakelevering-av-bortfrte-barn-etter-haag-konvensjonen">Kapittel III. Tilbakelevering av bortførte barn etter Haag-konvensjonen.</a></li>
+<li class="lvl4"><a href="#11">§ 11</a></li>
+<li class="lvl4"><a href="#12">§ 12</a></li>
+<li class="lvl2"><a href="#kapittel-iv-saksbehandlingen">Kapittel IV. Saksbehandlingen.</a></li>
+<li class="lvl4"><a href="#13">§ 13</a></li>
+<li class="lvl4"><a href="#14">§ 14</a></li>
+<li class="lvl4"><a href="#15">§ 15</a></li>
+<li class="lvl4"><a href="#16">§ 16</a></li>
+<li class="lvl4"><a href="#17">§ 17</a></li>
+<li class="lvl4"><a href="#18">§ 18</a></li>
+<li class="lvl2"><a href="#kapittel-v-ymse-bestemmelser">Kapittel V. Ymse bestemmelser.</a></li>
+<li class="lvl4"><a href="#19">§ 19</a></li>
+<li class="lvl4"><a href="#19-a">§ 19 a</a></li>
+<li class="lvl4"><a href="#20">§ 20</a></li>
+<li class="lvl4"><a href="#21">§ 21</a></li>
+<li class="lvl4"><a href="#22">§ 22</a></li>
+<li class="lvl2"><a href="#europeisk-konvensjon-av-20-mai-1980-om-anerkjennelse-og-fullbyrding-av-avgjrelser-om-foreldreansvar-og-om-gjenopprettelse-av-foreldreansvar1">Europeisk konvensjon av 20 mai 1980 om anerkjennelse og fullbyrding av avgjørelser om foreldreansvar og om gjenopprettelse av foreldreansvar.1</a></li>
+<li class="lvl4"><a href="#art-1">Art 1</a></li>
+<li class="lvl3"><a href="#del-i-sentralmyndigheter">Del I. Sentralmyndigheter.</a></li>
+<li class="lvl5"><a href="#art-2">Art 2</a></li>
+<li class="lvl5"><a href="#art-3">Art 3</a></li>
+<li class="lvl5"><a href="#art-4">Art 4</a></li>
+<li class="lvl5"><a href="#art-5">Art 5</a></li>
+<li class="lvl5"><a href="#art-6">Art 6</a></li>
+<li class="lvl3"><a href="#del-ii-anerkjennelse-og-fullbyrding-av-avgjrelser-og-gjenopprettelse-av-foreldreansvar">Del II. Anerkjennelse og fullbyrding av avgjørelser og gjenopprettelse av foreldreansvar.</a></li>
+<li class="lvl5"><a href="#art-7">Art 7</a></li>
+<li class="lvl5"><a href="#art-8">Art 8</a></li>
+<li class="lvl5"><a href="#art-9">Art 9</a></li>
+<li class="lvl5"><a href="#art-10">Art 10</a></li>
+<li class="lvl5"><a href="#art-11">Art 11</a></li>
+<li class="lvl5"><a href="#art-12">Art 12</a></li>
+<li class="lvl3"><a href="#del-iii-framgangsmate">Del III. Framgangsmåte.</a></li>
+<li class="lvl5"><a href="#art-13">Art 13</a></li>
+<li class="lvl5"><a href="#art-14">Art 14</a></li>
+<li class="lvl5"><a href="#art-15">Art 15</a></li>
+<li class="lvl5"><a href="#art-16">Art 16</a></li>
+<li class="lvl3"><a href="#del-iv-forbehold">Del IV. Forbehold.</a></li>
+<li class="lvl5"><a href="#art-17">Art 17</a></li>
+<li class="lvl5"><a href="#art-18">Art 18</a></li>
+<li class="lvl3"><a href="#del-v-andre-avtaler">Del V. Andre avtaler.</a></li>
+<li class="lvl5"><a href="#art-19">Art 19</a></li>
+<li class="lvl5"><a href="#art-20">Art 20</a></li>
+<li class="lvl3"><a href="#del-vi-sluttbestemmelser">Del VI. Sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-21">Art 21</a></li>
+<li class="lvl5"><a href="#art-22">Art 22</a></li>
+<li class="lvl5"><a href="#art-23">Art 23</a></li>
+<li class="lvl5"><a href="#art-24">Art 24</a></li>
+<li class="lvl5"><a href="#art-25">Art 25</a></li>
+<li class="lvl5"><a href="#art-26">Art 26</a></li>
+<li class="lvl5"><a href="#art-27">Art 27</a></li>
+<li class="lvl5"><a href="#art-28">Art 28</a></li>
+<li class="lvl5"><a href="#art-29">Art 29</a></li>
+<li class="lvl5"><a href="#art-30">Art 30</a></li>
+<li class="lvl2"><a href="#konvensjon-av-25-oktober-1980-om-de-sivile-sider-ved-internasjonal-barnebortfring1">Konvensjon av 25 oktober 1980 om de sivile sider ved internasjonal barnebortføring.1</a></li>
+<li class="lvl3"><a href="#kapittel-i-konvensjonens-virkeomrade">Kapittel I. Konvensjonens virkeområde.</a></li>
+<li class="lvl5"><a href="#art-1_1">Art 1</a></li>
+<li class="lvl5"><a href="#art-2_1">Art 2</a></li>
+<li class="lvl5"><a href="#art-3_1">Art 3</a></li>
+<li class="lvl5"><a href="#art-4_1">Art 4</a></li>
+<li class="lvl5"><a href="#art-5_1">Art 5</a></li>
+<li class="lvl3"><a href="#kapittel-ii-sentralmyndigheter">Kapittel II. Sentralmyndigheter.</a></li>
+<li class="lvl5"><a href="#art-6_1">Art 6</a></li>
+<li class="lvl5"><a href="#art-7_1">Art 7</a></li>
+<li class="lvl3"><a href="#kapittel-iii-tilbakelevering-av-barn">Kapittel III. Tilbakelevering av barn.</a></li>
+<li class="lvl5"><a href="#art-8_1">Art 8</a></li>
+<li class="lvl5"><a href="#art-9_1">Art 9</a></li>
+<li class="lvl5"><a href="#art-10_1">Art 10</a></li>
+<li class="lvl5"><a href="#art-11_1">Art 11</a></li>
+<li class="lvl5"><a href="#art-12_1">Art 12</a></li>
+<li class="lvl5"><a href="#art-13_1">Art 13</a></li>
+<li class="lvl5"><a href="#art-14_1">Art 14</a></li>
+<li class="lvl5"><a href="#art-15_1">Art 15</a></li>
+<li class="lvl5"><a href="#art-16_1">Art 16</a></li>
+<li class="lvl5"><a href="#art-17_1">Art 17</a></li>
+<li class="lvl5"><a href="#art-18_1">Art 18</a></li>
+<li class="lvl5"><a href="#art-19_1">Art 19</a></li>
+<li class="lvl5"><a href="#art-20_1">Art 20</a></li>
+<li class="lvl3"><a href="#kapittel-iv-samvrsrett">Kapittel IV. Samværsrett.</a></li>
+<li class="lvl5"><a href="#art-21_1">Art 21</a></li>
+<li class="lvl3"><a href="#kapittel-v-alminnelige-bestemmelser">Kapittel V. Alminnelige bestemmelser.</a></li>
+<li class="lvl5"><a href="#art-22_1">Art 22</a></li>
+<li class="lvl5"><a href="#art-23_1">Art 23</a></li>
+<li class="lvl5"><a href="#art-24_1">Art 24</a></li>
+<li class="lvl5"><a href="#art-25_1">Art 25</a></li>
+<li class="lvl5"><a href="#art-26_1">Art 26</a></li>
+<li class="lvl5"><a href="#art-27_1">Art 27</a></li>
+<li class="lvl5"><a href="#art-28_1">Art 28</a></li>
+<li class="lvl5"><a href="#art-29_1">Art 29</a></li>
+<li class="lvl5"><a href="#art-30_1">Art 30</a></li>
+<li class="lvl5"><a href="#art-31">Art 31</a></li>
+<li class="lvl5"><a href="#art-32">Art 32</a></li>
+<li class="lvl5"><a href="#art-33">Art 33</a></li>
+<li class="lvl5"><a href="#art-34">Art 34</a></li>
+<li class="lvl5"><a href="#art-35">Art 35</a></li>
+<li class="lvl5"><a href="#art-36">Art 36</a></li>
+<li class="lvl3"><a href="#kapittel-vi-sluttbestemmelser">Kapittel VI. Sluttbestemmelser.</a></li>
+<li class="lvl5"><a href="#art-37">Art 37</a></li>
+<li class="lvl5"><a href="#art-38">Art 38</a></li>
+<li class="lvl5"><a href="#art-39">Art 39</a></li>
+<li class="lvl5"><a href="#art-40">Art 40</a></li>
+<li class="lvl5"><a href="#art-41">Art 41</a></li>
+<li class="lvl5"><a href="#art-42">Art 42</a></li>
+<li class="lvl5"><a href="#art-43">Art 43</a></li>
+<li class="lvl5"><a href="#art-44">Art 44</a></li>
+<li class="lvl5"><a href="#art-45">Art 45</a></li>
+<li class="lvl3"><a href="#sknad-om-tilbakelevering">Søknad om tilbakelevering</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1988-07-08-72.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-1988-07-08-72.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-1988-07-08-72.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-1988-07-08-72.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-1988-07-08-72.html">Observerte kildeutgaver</a> · <a href="../historie/barnebortføringsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5c8fbd29c7d0ebd23685bd13d9d3af79dc5c3c5e/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/40ccca141661ecd747ce48987ec3e3361b2a8844/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/119fdadb53f801870c6a88ea5ff66ec307c1b365/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-1988-07-08-72.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-1988-07-08-72.html">Observerte kildeutgaver</a> · <a href="../historie/barnebortføringsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2001/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2001</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2005/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2005</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2009/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2009</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-1988-07-08-72.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-anerkjennelse-og-fullbyrding-av-utenlandske-avgjrelser-om-foreldreansvar-m-v-og-om-tilbakelevering-av-barn-barnebortfringsloven">Lov om anerkjennelse og fullbyrding av utenlandske avgjørelser om foreldreansvar m v og om tilbakelevering av barn (barnebortføringsloven)</h1>
 <h2 id="kapittel-i-virkeomrade">Kapittel I. Virkeområde.</h2>
 <h4 id="1">§ 1</h4>
 <p>(1) Bestemmelsene i §§ 2 til 10 , § 13 , § 14 , §§ 16 til 18 og §§ 20 til 22 gjelder i forhold til de stater som er tilsluttet Europarådkonvensjonen 20 mai 1980 om anerkjennelse og fullbyrding av avgjørelser om foreldreansvar og om gjenopprettelse av foreldreansvar. I forhold til Danmark, Finland, Island og Sverige gjelder bestemmelsene ikke så langt det gjelder særskilte bestemmelser.</p>
 <p>(2) Bestemmelsene i §§ 2 til 5, §§ 11 til 13 og §§ 15 til 19 a og §§ 21 til 22 gjelder i forhold til de stater som er tilsluttet Haag-konvensjonen 25 oktober 1980 om de sivile sider ved internasjonal barnebortføring.</p>
-<p><em>Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h4 id="2">§ 2</h4>
 <p>Ved gjensidighet kan Kongen bestemme at reglene i loven her om anerkjennelse og fullbyrding av avgjørelser om foreldreansvar eller tilbakelevering av barn også skal gjelde i forhold til stat som ikke er tilsluttet Europarådkonvensjonen eller Haag-konvensjonen.</p>
 <h4 id="3">§ 3</h4>
@@ -95,7 +376,7 @@ b. samarbeide med sentralmyndighetene i konvensjonstatene
 c. utføre de oppgaver som konvensjonene ellers pålegger den.</p>
 <p>(2) Sentralmyndigheten kan, uten hinder av taushetsplikt, innhente fra Folkeregisteret de opplysninger som er nødvendige for utførelsen av oppgaver etter denne loven. Sentralmyndigheten skal også ha tilgang til opplysninger i registeret til utredning og produksjon av statistikk.</p>
 <p>(3) Kongen bestemmer hvem som skal være sentralmyndighet etter loven her.</p>
-<p><em>Endret ved lov 20 des 2018 nr. 114 .</em></p>
+<p class="note">Endret ved lov 20 des 2018 nr. 114 .</p>
 <h2 id="kapittel-ii-anerkjennelse-og-fullbyrding-av-avgjrelser-om-foreldreansvar-m-v-etter-europaradkonvensjonen">Kapittel II. Anerkjennelse og fullbyrding av avgjørelser om foreldreansvar m v etter Europarådkonvensjonen.</h2>
 <h4 id="6">§ 6</h4>
 <p>(1) En avgjørelse om foreldreansvar eller samværsrett som er truffet i en stat som er tilsluttet Europarådkonvensjonen, gjelder her i landet. Kan avgjørelsen danne grunnlag for fullbyrdelse i den stat hvor den er truffet (opphavsstaten), kan tvangsfullbyrding også gjennomføres her i landet.</p>
@@ -133,16 +414,16 @@ b. det er en alvorlig risiko for at tilbakelevering vil påføre barnet fysisk e
 c. barnet selv motsetter seg tilbakeleveringen, og det har nådd en alder og modenhetsgrad som gjør det naturlig å ta hensyn til barnets mening
 d. den person, institusjon eller instans som hadde omsorgen for barnet, faktisk ikke utøvde retten til foreldreansvar på den tid da bortføringen eller tilbakeholdelsen fant sted, eller hadde samtykket i eller på et senere tidspunkt godtatt bortføringen eller tilbakeholdelsen
 e. det ikke er forenlig med grunnleggende prinsipper her i landet om vernet av menneskerettighetene å beslutte tilbakelevering.</p>
-<p><em>Endret ved lover 10 jan 1992 nr. 6 , 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Endret ved lover 10 jan 1992 nr. 6 , 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h2 id="kapittel-iv-saksbehandlingen">Kapittel IV. Saksbehandlingen.</h2>
 <h4 id="13">§ 13</h4>
 <p>(1) Begjæring om fullbyrding av en avgjørelse som nevnt i § 6 settes fram for tingretten, som treffer sin avgjørelse ved kjennelse.</p>
 <p>(2) Begjæring om tilbakelevering av barn etter § 11 settes fram for Oslo tingrett som treffer sin avgjørelse ved kjennelse. Oslo tingrett kan gjennomføre eventuelle muntlige forhandlinger i en annen rettskrets der dette vurderes hensiktsmessig.</p>
 <p>(3) Begjæringen skal være skrevet på norsk eller engelsk eller være ledsaget av oversetting til norsk. Bilag og skriftlige bevis skal være ledsaget av norsk eller engelsk oversetting. <a href="lov-1915-08-13-5.html">Domstolloven</a> § 136 første ledd annet punktum kommer tilsvarende til anvendelse.</p>
-<p><em>Endret ved lover 30 aug 2002 nr. 67 (ikr. 1 jan 2003 iflg. res. 30 aug 2002 nr. 938 ), 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Endret ved lover 30 aug 2002 nr. 67 (ikr. 1 jan 2003 iflg. res. 30 aug 2002 nr. 938 ), 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h4 id="14">§ 14</h4>
 <p>Begjæring om fullbyrding av en avgjørelse som nevnt i § 6 skal være ledsaget av en kopi av avgjørelsen, og dersom det framgår at avgjørelsen er truffet under saksøktes fravær i saken, et dokument som viser om saksøkte har fått forkynt eller på annen tilbørlig måte er blitt gjort kjent med stevningen eller tilsvarende dokument. Begjæringen skal også ledsages av et dokument som viser at avgjørelsen kan tvangsfullbyrdes i opphavsstaten, og gi opplysning om hvor barnet må antas å befinne seg her i landet og forslag til hvordan foreldreansvaret bør gjenopprettes.</p>
-<p><em>Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</em></p>
+<p class="note">Endret ved lov 17 juni 2005 nr. 90 (ikr. 1 jan 2008 iflg. res. 26 jan 2007 nr. 88 ) som endret ved lov 26 jan 2007 nr. 3 .</p>
 <h4 id="15">§ 15</h4>
 <p>(1) Begjæringen om tilbakelevering av barn etter § 11 skal inneholde opplysninger om søkerne, barnet og den som påstås å ha bortført eller tilbakeholdt barnet, samt barnets fødselsdato. Den skal inneholde en begrunnelse for kravet om tilbakelevering og opplysninger om hvor barnet må antas å oppholde seg her i landet.</p>
 <p>(2) Dersom retten krever det, skal begjæring om tilbakelevering av barn etter § 11 være ledsaget av en avgjørelse eller erklæring fra kompetent myndighet i den stat der barnet hadde sitt bosted umiddelbart før bortføringen eller tilbakeholdelsen, som fastslår at bortføringen eller tilbakeholdelsen er ulovlig. Det gjelder bare dersom slik avgjørelse eller erklæring kan skaffes til veie i den staten.</p>
@@ -150,32 +431,32 @@ e. det ikke er forenlig med grunnleggende prinsipper her i landet om vernet av m
 <p>(1) Sak om tvangsfullbyrding som nevnt i § 6 og sak om tilbakelevering av barn etter § 11 skal behandles uten opphold.</p>
 <p>(2) Har retten ikke avgjort en begjæring om tilbakelevering etter § 11 innen seks uker etter at begjæringen ble innlevert, skal den redegjøre for årsaken til forsinkelsen dersom saksøkeren ber om det.</p>
 <p>(3) Kjennelse i sak om tilbakelevering av barn etter § 11 kan ankes i samsvar med reglene i <a href="lov-2005-06-17-90.html">tvisteloven</a> kapittel 29 og 30 . Fristen for å anke kjennelsen er to uker.</p>
-<p><em>Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h4 id="17">§ 17</h4>
 <p>(1) Før retten avgjør et krav om tvangsfullbyrding av en avgjørelse som nevnt i § 6 eller begjæring om tilbakelevering av barn etter § 11 , skal et barn som er fylt 7 år, og yngre barn som er i stand til å danne seg egne synspunkter, informeres og gis anledning til å uttale seg, når dette ikke er umulig. Barnets mening skal tillegges vekt i samsvar med barnets alder og modenhet.</p>
 <p>(2) Dommeren kan gjennomføre samtaler med barnet. Retten kan oppnevne en sakkyndig til å hjelpe seg, eller la en sakkyndig ha samtale med barnet alene. Der barnet har formidlet sin mening, bør dommeren eller den dommeren peker ut orientere barnet om utfallet av saken og hvordan meningen til barnet har blitt tatt hensyn til.</p>
 <p>(3) Retten kan oppnevne en sakkyndig til å uttale seg om ett eller flere av de spørsmålene saken reiser.</p>
 <p>(4) En sakkyndig oppnevnt etter annet og tredje ledd har taushetsplikt om det som kommer fram om personlige forhold i forbindelse med oppdraget. Den sakkyndige kan uten hinder av taushetsplikt gi all informasjon som er framkommet til retten.</p>
 <p>(5) Kostnadene ved bruk av en sakkyndig dekkes av staten. En sakkyndig oppnevnt etter annet og tredje ledd skal godtgjøres etter lov 21. juli 1916 nr. 2 om vidners og sakkyndiges godtgjørelse m.v.</p>
-<p><em>Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Endret ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h4 id="18">§ 18</h4>
 <p>(1) Bestemmelsene i barneloven 8. april 1981 nr. 7 §§ 60 og 65 gjelder for saker om tvangsfullbyrding etter § 6 og tilbakelevering etter § 11 . Barneloven § 65 første ledd gjelder også ved tvangsfullbyrding av samværsrett. Bestemmelsene i <a href="lov-1992-06-26-86.html">tvangsfullbyrdelsesloven</a> gjelder så langt de passer for saker om tvangsfullbyrding etter § 6 og tilbakelevering etter § 11 .</p>
 <p>(2) En kjennelse om fullbyrding av avgjørelse som nevnt i § 6 eller tilbakelevering av barn etter § 11 kan begjæres tvangsfullbyrdet når kjennelsen er rettskraftig og en eventuell oppfyllelsesfrist er oversittet. Dersom det vurderes å være til barnets beste, kan retten likevel beslutte at en kjennelse kan begjæres tvangsfullbyrdet når den er forkynt og en eventuell oppfyllelsesfrist er ute.</p>
 <p>(3) Dersom det ikke er tilrådelig at barnet er hos en av foreldrene mens sak om fullbyrding etter § 6 eller tilbakelevering etter § 11 behandles, kan retten bestemme at barnevernet skal overta omsorgen for barnet inntil saken er endelig avgjort. Beslutter retten at barnet skal være hos en av foreldrene mens sak som nevnt behandles, jf barneloven § 60 , kan det settes vilkår for å utøve samværet.</p>
-<p><em>Endret ved lover 8 jan 1993 nr. 20 , 20 juni 2003 nr. 40 (ikr. 1 apr 2004 iflg. res. 20 juni 2003 nr. 728 ), 12 des 2008 nr. 85 (ikr. 1 jan 2009 iflg. res. 12 des 2008 nr. 1354 ), 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ). Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 8 jan 1993 nr. 20 , 20 juni 2003 nr. 40 (ikr. 1 apr 2004 iflg. res. 20 juni 2003 nr. 728 ), 12 des 2008 nr. 85 (ikr. 1 jan 2009 iflg. res. 12 des 2008 nr. 1354 ), 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ). Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h2 id="kapittel-v-ymse-bestemmelser">Kapittel V. Ymse bestemmelser.</h2>
 <h4 id="19">§ 19</h4>
 <p>(1) Dersom det under behandlingen av en sak om foreldreansvar eller samværsrett etter barneloven 8 april 1981 nr. 7 blir brakt på det rene at barnet er begjært tilbakelevert etter § 11 i loven her, skal retten ikke treffe avgjørelse i saken før begjæringen er endelig avgjort.</p>
 <p>(2) Får retten i sak som nevnt i (1) underretning av sentralmyndigheten om at et barn ulovlig er bortført hit til landet eller ulovlig tilbakeholdt her, uten at det er framsatt begjæring om tilbakelevering av barnet etter § 11 , skal retten ikke treffe avgjørelse i saken før det er gått rimelig tid uten at begjæring er blitt framsatt.</p>
-<p><em>Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="19-a">§ 19 a</h4>
 <p>(1) Sentralmyndigheten skal underrette barnevernstjenesten i barnets bostedskommune når et barn returneres hit til landet etter en ulovlig bortføring til eller ulovlig tilbakeholdelse i en stat som er tilsluttet Haag-konvensjonen. Underretning kan gis uten hinder av taushetsplikt.</p>
 <p>(2) Sentralmyndigheten skal underrette barnevernstjenesten der barnet oppholder seg når et barn ulovlig er bortført hit til landet eller ulovlig er tilbakeholdt her etter Haag-konvensjonen. Underretning kan gis uten hinder av taushetsplikt.</p>
-<p><em>Tilføyd ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</em></p>
+<p class="note">Tilføyd ved lov 18 des 2015 nr. 126 (ikr. 1 jan 2016 iflg. res. 18 des 2015 nr. 1625 ).</p>
 <h4 id="20">§ 20</h4>
 <p>(1) Dersom et barn med bosted her i landet er bortført til utlandet eller tilbakeholdes i et annet land, kan tingretten på det sted hvor barnet sist oppholdt seg, etter begjæring fra den som har foreldreansvaret avsi kjennelse om at handlingen er ulovlig. Det samme gjelder dersom barnet er bortført eller holdt tilbake av en part som har foreldreansvar i tilfelle hvor foreldreansvaret er delt og den andre part begjærer det. Bortføring eller ulovlig tilbakeholdelse etter forrige punktum foreligger ikke dersom utenlandsoppholdet skjer med samtykke av den annen part eller det gjelder et kort opphold og det synes åpenbart at barnet vil komme tilbake som planlagt, jf barneloven § 40 første ledd.</p>
 <p>(2) Dersom saksøktes oppholdssted er ukjent og ikke kan bringes på det rene, kan sak etter paragrafen her avgjøres selv om saksøkte ikke har fått forkynt stevning eller andre dokumenter i saken.</p>
-<p><em>Endret ved lover 30 aug 2002 nr. 67 (ikr. 1 jan 2003 iflg. res. 30 aug 2002 nr. 938 ), 12 des 2008 nr. 85 (ikr. 1 jan 2009 iflg. res. 12 des 2008 nr. 1354 ). Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 30 aug 2002 nr. 67 (ikr. 1 jan 2003 iflg. res. 30 aug 2002 nr. 938 ), 12 des 2008 nr. 85 (ikr. 1 jan 2009 iflg. res. 12 des 2008 nr. 1354 ). Endres ved lov 20 juni 2025 nr. 40 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="21">§ 21</h4>
 <p>Kongen kan gi forskrift til utfylling og gjennomføring av loven. Kongen kan i forskrift også fravike bestemmelser i loven, dersom det er nødvendig for å oppfylle Norges forpliktelser etter overenskomst med fremmed stat.</p>
 <h4 id="22">§ 22</h4>
@@ -518,6 +799,8 @@ b. enhver henvisning til loven til bostedstaten anses som loven i den territoria
 </ol>
 <h3 id="sknad-om-tilbakelevering">Søknad om tilbakelevering</h3>
 <p>Mønster til blankett er ikke inntatt her. Skjemaer kan finnes på «Myndighetenes nettside om internasjonal barnebortføring», www.barnebortforing.no</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

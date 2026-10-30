@@ -19,75 +19,214 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2003-07-04-74.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Hundeloven – hul" href="../feeds/lov-2003-07-04-74.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Hundeloven – hul</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2003-07-04-74</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>Landbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær</dd>
-<dt>Ikrafttredelse</dt><dd>2004-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-102</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2003-07-04-74" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal-forholdet-til-andre-lover">§ 1. Lovens formål. Forholdet til andre lover</a></li>
+<li class="lvl4"><a href="#1-a-virkeomrade">§ 1 a. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-generelt-aktsomhetskrav">§ 3. Generelt aktsomhetskrav</a></li>
+<li class="lvl4"><a href="#3-a-kompetanse">§ 3 a. Kompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-2-sikring-av-hunder">Kapittel 2. Sikring av hunder</a></li>
+<li class="lvl4"><a href="#4-alminnelige-regler-om-sikring-av-hund-vilkar-for-a-la-hund-vre-ls">§ 4. Alminnelige regler om sikring av hund. Vilkår for å la hund være løs</a></li>
+<li class="lvl4"><a href="#5-forbud-mot-a-ga-fra-bundet-hund">§ 5. Forbud mot å gå fra bundet hund</a></li>
+<li class="lvl4"><a href="#6-sikring-av-hund-ved-bandtvang-mm">§ 6. Sikring av hund ved båndtvang m.m</a></li>
+<li class="lvl4"><a href="#7-srlig-om-sikring-av-hund-der-tamrein-beiter">§ 7. Særlig om sikring av hund der tamrein beiter</a></li>
+<li class="lvl4"><a href="#8-srlig-om-hundedressur-jakt-og-fangst">§ 8. Særlig om hundedressur, jakt og fangst</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-sikringsreglene">§ 9. Unntak fra sikringsreglene</a></li>
+<li class="lvl2"><a href="#kapittel-3-lse-hunder">Kapittel 3. Løse hunder</a></li>
+<li class="lvl4"><a href="#10-lse-hunder">§ 10. Løse hunder</a></li>
+<li class="lvl2"><a href="#kapittel-4-ro-og-orden-antall-hunder-og-merking-av-hunder">Kapittel 4. Ro og orden, antall hunder og merking av hunder</a></li>
+<li class="lvl4"><a href="#11-ro-og-orden-mv">§ 11. Ro og orden mv.</a></li>
+<li class="lvl4"><a href="#12-antall-hunder-i-en-husholdning-eller-pa-en-eiendom">§ 12. Antall hunder i en husholdning eller på en eiendom</a></li>
+<li class="lvl4"><a href="#13-merking-av-hunder">§ 13. Merking av hunder</a></li>
+<li class="lvl2"><a href="#kapittel-5-personers-rettigheter-og-plikter-i-nds-og-faresituasjoner">Kapittel 5. Personers rettigheter og plikter i nøds- og faresituasjoner</a></li>
+<li class="lvl4"><a href="#14-inngrep-pa-stedet-mot-hund-som-jager-eller-angriper-mv">§ 14. Inngrep på stedet mot hund som jager eller angriper mv.</a></li>
+<li class="lvl4"><a href="#15-hund-som-utgjr-klar-fare-for-husdyr-og-tamrein">§ 15. Hund som utgjør klar fare for husdyr og tamrein</a></li>
+<li class="lvl4"><a href="#16-plikter-etter-at-inngrep-er-gjort-mot-hund-etter-14-og-15">§ 16. Plikter etter at inngrep er gjort mot hund etter §§ 14 og 15</a></li>
+<li class="lvl2"><a href="#kapittel-6-sikkerhetstiltak-mot-problematisk-hundehold">Kapittel 6. Sikkerhetstiltak mot problematisk hundehold</a></li>
+<li class="lvl4"><a href="#17-politiets-forebyggende-virkemidler">§ 17. Politiets forebyggende virkemidler</a></li>
+<li class="lvl4"><a href="#17-a-politiets-inngrep-ved-akutt-fare">§ 17 a. Politiets inngrep ved akutt fare</a></li>
+<li class="lvl4"><a href="#18-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-menneske-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18. Avliving eller omplassering av en hund etter angrep eller skade på menneske når det er nødvendig for å avverge fremtidig risiko</a></li>
+<li class="lvl4"><a href="#18-a-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-tamrein-husdyr-hjortevilt-eller-annen-hund-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18 a. Avliving eller omplassering av en hund etter angrep eller skade på tamrein, husdyr, hjortevilt eller annen hund når det er nødvendig for å avverge fremtidig risiko</a></li>
+<li class="lvl4"><a href="#19-farlige-hunder">§ 19. Farlige hunder</a></li>
+<li class="lvl4"><a href="#20-unntak-fra-reglene-i-19">§ 20. Unntak fra reglene i § 19</a></li>
+<li class="lvl4"><a href="#21-krav-til-godkjenning-for-a-ha-a-gjre-med-bestemte-hundetyper">§ 21. Krav til godkjenning for å ha å gjøre med bestemte hundetyper</a></li>
+<li class="lvl4"><a href="#22-forbud-mot-at-en-person-skal-kunne-ha-med-hund-a-gjre">§ 22. Forbud mot at en person skal kunne ha med hund å gjøre</a></li>
+<li class="lvl4"><a href="#23-behandling-av-personopplysninger">§ 23. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-7-administrative-virkemidler-straff-og-erstatningsansvar">Kapittel 7. Administrative virkemidler, straff og erstatningsansvar</a></li>
+<li class="lvl4"><a href="#24-politiets-forvaring-av-hund">§ 24. Politiets forvaring av hund</a></li>
+<li class="lvl4"><a href="#24-a-overtredelsesgebyr">§ 24 a. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#25-saksbehandling-overprving-og-iverksetting-av-vedtak">§ 25. Saksbehandling, overprøving og iverksetting av vedtak</a></li>
+<li class="lvl4"><a href="#26-ansvar-for-kostnader">§ 26. Ansvar for kostnader</a></li>
+<li class="lvl4"><a href="#27-erstatningsansvar">§ 27. Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#28-straff">§ 28. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-8-opphevet">Kapittel 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikraftsetting-oppheving-og-endring-av-andre-lover-overgangsregler">Kapittel 9. Ikraftsetting. Oppheving og endring av andre lover. Overgangsregler</a></li>
+<li class="lvl4"><a href="#30-ikraftsetting">§ 30. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#31-endringer-i-annen-lovgivning">§ 31. Endringer i annen lovgivning</a></li>
+<li class="lvl4"><a href="#32-eldre-forskrifter">§ 32. Eldre forskrifter</a></li>
+<li class="lvl4"><a href="#33-enkeltvedtak-etter-eldre-lovgivning">§ 33. Enkeltvedtak etter eldre lovgivning</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-102.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-07-04-74.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om forsvarlig hundehold (hundeloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2003-07-04-74.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2003-07-04-74 <code>lov/2003-07-04-74</code></td></tr>
+<tr><th>Korttittel</th><td>Hundeloven – hul</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Landbruk, jakt og skogbruk &raquo; Dyrevern. Veterinær</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2004</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-102 <code>lov/2025-06-20-102</code> fra 01.07.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2003-07-04-74" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-lovens-formal-forholdet-til-andre-lover">§ 1. Lovens formål. Forholdet til andre lover</a></li>
+<li class="lvl4"><a href="#1-a-virkeomrade">§ 1 a. Virkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-generelt-aktsomhetskrav">§ 3. Generelt aktsomhetskrav</a></li>
+<li class="lvl4"><a href="#3-a-kompetanse">§ 3 a. Kompetanse</a></li>
+<li class="lvl2"><a href="#kapittel-2-sikring-av-hunder">Kapittel 2. Sikring av hunder</a></li>
+<li class="lvl4"><a href="#4-alminnelige-regler-om-sikring-av-hund-vilkar-for-a-la-hund-vre-ls">§ 4. Alminnelige regler om sikring av hund. Vilkår for å la hund være løs</a></li>
+<li class="lvl4"><a href="#5-forbud-mot-a-ga-fra-bundet-hund">§ 5. Forbud mot å gå fra bundet hund</a></li>
+<li class="lvl4"><a href="#6-sikring-av-hund-ved-bandtvang-mm">§ 6. Sikring av hund ved båndtvang m.m</a></li>
+<li class="lvl4"><a href="#7-srlig-om-sikring-av-hund-der-tamrein-beiter">§ 7. Særlig om sikring av hund der tamrein beiter</a></li>
+<li class="lvl4"><a href="#8-srlig-om-hundedressur-jakt-og-fangst">§ 8. Særlig om hundedressur, jakt og fangst</a></li>
+<li class="lvl4"><a href="#9-unntak-fra-sikringsreglene">§ 9. Unntak fra sikringsreglene</a></li>
+<li class="lvl2"><a href="#kapittel-3-lse-hunder">Kapittel 3. Løse hunder</a></li>
+<li class="lvl4"><a href="#10-lse-hunder">§ 10. Løse hunder</a></li>
+<li class="lvl2"><a href="#kapittel-4-ro-og-orden-antall-hunder-og-merking-av-hunder">Kapittel 4. Ro og orden, antall hunder og merking av hunder</a></li>
+<li class="lvl4"><a href="#11-ro-og-orden-mv">§ 11. Ro og orden mv.</a></li>
+<li class="lvl4"><a href="#12-antall-hunder-i-en-husholdning-eller-pa-en-eiendom">§ 12. Antall hunder i en husholdning eller på en eiendom</a></li>
+<li class="lvl4"><a href="#13-merking-av-hunder">§ 13. Merking av hunder</a></li>
+<li class="lvl2"><a href="#kapittel-5-personers-rettigheter-og-plikter-i-nds-og-faresituasjoner">Kapittel 5. Personers rettigheter og plikter i nøds- og faresituasjoner</a></li>
+<li class="lvl4"><a href="#14-inngrep-pa-stedet-mot-hund-som-jager-eller-angriper-mv">§ 14. Inngrep på stedet mot hund som jager eller angriper mv.</a></li>
+<li class="lvl4"><a href="#15-hund-som-utgjr-klar-fare-for-husdyr-og-tamrein">§ 15. Hund som utgjør klar fare for husdyr og tamrein</a></li>
+<li class="lvl4"><a href="#16-plikter-etter-at-inngrep-er-gjort-mot-hund-etter-14-og-15">§ 16. Plikter etter at inngrep er gjort mot hund etter §§ 14 og 15</a></li>
+<li class="lvl2"><a href="#kapittel-6-sikkerhetstiltak-mot-problematisk-hundehold">Kapittel 6. Sikkerhetstiltak mot problematisk hundehold</a></li>
+<li class="lvl4"><a href="#17-politiets-forebyggende-virkemidler">§ 17. Politiets forebyggende virkemidler</a></li>
+<li class="lvl4"><a href="#17-a-politiets-inngrep-ved-akutt-fare">§ 17 a. Politiets inngrep ved akutt fare</a></li>
+<li class="lvl4"><a href="#18-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-menneske-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18. Avliving eller omplassering av en hund etter angrep eller skade på menneske når det er nødvendig for å avverge fremtidig risiko</a></li>
+<li class="lvl4"><a href="#18-a-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-tamrein-husdyr-hjortevilt-eller-annen-hund-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18 a. Avliving eller omplassering av en hund etter angrep eller skade på tamrein, husdyr, hjortevilt eller annen hund når det er nødvendig for å avverge fremtidig risiko</a></li>
+<li class="lvl4"><a href="#19-farlige-hunder">§ 19. Farlige hunder</a></li>
+<li class="lvl4"><a href="#20-unntak-fra-reglene-i-19">§ 20. Unntak fra reglene i § 19</a></li>
+<li class="lvl4"><a href="#21-krav-til-godkjenning-for-a-ha-a-gjre-med-bestemte-hundetyper">§ 21. Krav til godkjenning for å ha å gjøre med bestemte hundetyper</a></li>
+<li class="lvl4"><a href="#22-forbud-mot-at-en-person-skal-kunne-ha-med-hund-a-gjre">§ 22. Forbud mot at en person skal kunne ha med hund å gjøre</a></li>
+<li class="lvl4"><a href="#23-behandling-av-personopplysninger">§ 23. Behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-7-administrative-virkemidler-straff-og-erstatningsansvar">Kapittel 7. Administrative virkemidler, straff og erstatningsansvar</a></li>
+<li class="lvl4"><a href="#24-politiets-forvaring-av-hund">§ 24. Politiets forvaring av hund</a></li>
+<li class="lvl4"><a href="#24-a-overtredelsesgebyr">§ 24 a. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#25-saksbehandling-overprving-og-iverksetting-av-vedtak">§ 25. Saksbehandling, overprøving og iverksetting av vedtak</a></li>
+<li class="lvl4"><a href="#26-ansvar-for-kostnader">§ 26. Ansvar for kostnader</a></li>
+<li class="lvl4"><a href="#27-erstatningsansvar">§ 27. Erstatningsansvar</a></li>
+<li class="lvl4"><a href="#28-straff">§ 28. Straff</a></li>
+<li class="lvl2"><a href="#kapittel-8-opphevet">Kapittel 8. (Opphevet)</a></li>
+<li class="lvl4"><a href="#29-opphevet">§ 29. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-9-ikraftsetting-oppheving-og-endring-av-andre-lover-overgangsregler">Kapittel 9. Ikraftsetting. Oppheving og endring av andre lover. Overgangsregler</a></li>
+<li class="lvl4"><a href="#30-ikraftsetting">§ 30. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#31-endringer-i-annen-lovgivning">§ 31. Endringer i annen lovgivning</a></li>
+<li class="lvl4"><a href="#32-eldre-forskrifter">§ 32. Eldre forskrifter</a></li>
+<li class="lvl4"><a href="#33-enkeltvedtak-etter-eldre-lovgivning">§ 33. Enkeltvedtak etter eldre lovgivning</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-07-04-74.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2003-07-04-74.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2003-07-04-74.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2003-07-04-74.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2003-07-04-74.html">Observerte kildeutgaver</a> · <a href="../historie/hundeloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/dc44fe73c3a3c860c95e99dcab8d363704d2d7c0/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2003</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/a38654ef2cac6c5bfe8ecd7c09522022d7cad361/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/69eefdb106a4b7a379ab0ecd9e6f490ad852526d/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2003-07-04-74.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2003-07-04-74.html">Observerte kildeutgaver</a> · <a href="../historie/hundeloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2003/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2003</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2007/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2007</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2011/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2011</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2003-07-04-74.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-forsvarlig-hundehold-hundeloven">Lov om forsvarlig hundehold (hundeloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-lovens-formal-forholdet-til-andre-lover">§ 1. Lovens formål. Forholdet til andre lover</h4>
 <p>Loven har til formål å bidra til å fremme et aktsomt hundehold som ivaretar hensyn til sikkerhet, trygghet, alminnelig ro og orden.</p>
 <p>Enhver i det sivile samfunn har ansvaret innenfor lovgivningens ramme å utøve og legge til rette for et positivt og samfunnsgagnlig hundehold, til glede for samfunnet og den enkelte hundeholder.</p>
 <p>Hunder har egenverdi uavhengig av den nytteverdien de måtte ha for mennesker. Hunder skal behandles og bli ivaretatt på en slik måte som overensstemmer med og tar hensyn til deres natur og beskytter dem mot fare for unødige påkjenninger og belastninger. Det skal tas hensyn til de omstendigheter som er nødvendige for å forebygge at hunder kan forårsake skader eller ulemper i samfunnet. Loven skal fremme god dyrevelferd og respekt for og kunnskap om hunder.</p>
 <p>For hundeholdet gjelder også bestemmelser i annen lovgivning, bl.a. de alminnelige reglene i <a href="lov-2009-06-19-97.html">dyrevelferdsloven</a> , <a href="lov-2003-12-19-124.html">matloven</a> , <a href="lov-2007-06-15-40.html">reindriftsloven</a> og granneloven , og dessuten særskilte regler om båndtvang med mer hjemlet i <a href="lov-2009-06-19-100.html">naturmangfoldloven</a> , hundehold eller dyrehold f.eks. i <a href="lov-1999-03-26-17.html">husleieloven</a> .</p>
-<p><em>Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="1-a-virkeomrade">§ 1 a. Virkeområde</h4>
 <p>Loven gjelder med de begrensninger som følger av avtale med fremmed stat eller organisasjon for norsk landterritorium, territorialfarvann, i norsk økonomisk sone og på norske fartøy og luftfartøy.</p>
 <p>Kongen kan gi forskrift om lovens anvendelse på Svalbard og kan fastsette særlige regler under hensyn til de stedlige forhold, herunder at forskrifter og enkeltvedtak etter loven skal kunne vedtas av andre instanser enn ellers.</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I denne lov forstås ved</p>
 <p>a. hundeholder: den som eier eller har tatt omsorg for eller hånd om en hund for kortere eller lengre tid
@@ -110,7 +249,7 @@ h. angrep: at en hund som ikke er sikret gjør en målrettet bevegelse mot et an
 i. ensidig angrep: et angrep som ikke kan ses som en direkte følge av en handling utført av et menneske eller et annet dyr
 j. jage: at hunden springer målrettet etter ett eller flere mennesker eller ett eller flere dyr
 k. klar fare: at hunden enten fortsatt gjør utfall, eller at hendelsesforløpet tilsier at den vil angripe igjen dersom ikke situasjonen løses opp</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="3-generelt-aktsomhetskrav">§ 3. Generelt aktsomhetskrav</h4>
 <p>Hundeholderen skal</p>
 <p>a. forebygge og vise aktsomhet for å unngå at hunden blir satt i en situasjon der den kan gjøre skade på folk, dyr, eiendom eller ting
@@ -118,11 +257,11 @@ b. sørge for at hunden eller hundeholdet ikke er til urimelig ulempe for folk, 
 c. sikre trygghet for hunden, folk og andre dyr ved å holde hunden under forsvarlig tilsyn, og håndtere hunden på en slik måte at den får dekket individuelle behov.</p>
 <p>En hundeholder som midlertidig ønsker å overlate ansvaret for hunden til en annen, må forsikre seg om at vedkommende har de nødvendige forutsetningene for å utvise tilsvarende aktsomhet.</p>
 <p>Den som er berørt, kan kreve overfor hundeholderen at en varig tilstand eller varige forhold som ikke gir tilstrekkelig sikkerhet, eller som volder urimelig ulempe, blir rettet.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="3-a-kompetanse">§ 3 a. Kompetanse</h4>
 <p>Hundeholderen skal ha nødvendig kompetanse til å kunne forebygge at uheldige situasjoner eller skader oppstår. Slik kompetanse omfatter blant annet kunnskap om hold og trening av hund og kunnskap om hundens behov, naturlige adferd, bruksområde og det skadepotensialet hunden kan utgjøre.</p>
 <p>Kongen kan gi nærmere forskrifter om krav til opplæring og kompetanse som nevnt i første ledd.</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-2-sikring-av-hunder">Kapittel 2. Sikring av hunder</h2>
 <h4 id="4-alminnelige-regler-om-sikring-av-hund-vilkar-for-a-la-hund-vre-ls">§ 4. Alminnelige regler om sikring av hund. Vilkår for å la hund være løs</h4>
 <p>Hundeholderen skal opptre hensynsfullt. Utenom båndtvangstider kan hunder bare være løse under tilsyn og kontroll som i størst mulig grad forebygger og forhindrer skader på eller ulemper for mennesker, husdyr, tamrein, vilt eller eiendom. Det skal vises særlig hensyn overfor barn og hunder som utfører en tjeneste.</p>
@@ -131,10 +270,10 @@ c. sikre trygghet for hunden, folk og andre dyr ved å holde hunden under forsva
 <p>Hunder skal alltid holdes under slikt tilsyn at de så vidt mulig hindres i å drive eller forfølge vilt, jf. likevel § 9 tredje ledd.</p>
 <p>Om ferdsel med hund i område hvor tamrein beiter, gjelder også reindriftsloven § 65 .</p>
 <p>Kongen kan gi nærmere forskrifter om sikring av hund.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="5-forbud-mot-a-ga-fra-bundet-hund">§ 5. Forbud mot å gå fra bundet hund</h4>
 <p>Hundeholderen skal ikke gå fra en bundet hund rett ved inngangen til en bygning som er åpen for allmennheten, eller ved lekeplasser. Hundeholderen skal sørge for at det er tilstrekkelig avstand til å unngå utilsiktet kontakt med mennesker og dyr når disse passerer hunden.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="6-sikring-av-hund-ved-bandtvang-mm">§ 6. Sikring av hund ved båndtvang m.m</h4>
 <p>I tiden fra og med 1. april til og med 20. august skal en hund bli holdt i bånd eller forsvarlig inngjerdet eller innestengt, slik at ikke den kan jage eller skade husdyr, tamrein eller viltlevende dyr og deres reir, bo eller hi.</p>
 <p>Kommunen kan gi forskrift om at hunder skal holdes i bånd eller forsvarlig innestengt eller inngjerdet</p>
@@ -146,15 +285,15 @@ e. i hele eller deler av kommunen i bestemt angitt tidsrom når husdyr normalt g
 f. under ekstraordinære forhold som gjør båndtvang påkrevd for å beskytte viltet.</p>
 <p>Båndtvang etter bokstav c og d kan ikke fastsettes i større grad enn nødvendig og slik at hensynet til de som ønsker å ferdes med løs hund også ivaretas i tilstrekkelig grad, både hva angår omfang og geografisk spredning. Båndtvang etter annet ledd bokstav e og f kan bare innføres i de områder av kommunen hvor husdyr har rett til å beite og faktisk beiter, eller hvor vilt man ønsker å beskytte har sitt leveområde. Båndtvang fastsatt i medhold av annet ledd bokstav f må opphøre straks forholdene tilsier det. Der beite, natur- og rekreasjonsområder berører flere kommuner, bør disse samordne sine forskrifter. Kommunens innføring av båndtvang etter bokstav f kan påklages til statsforvalteren.</p>
 <p>Kommunen kan gi forskrift om at hunder ikke har adgang til barnehager, skolegårder eller gravplasser.</p>
-<p><em>Endret ved lover 26 aug 2011 nr. 40 (ikr. 1 jan 2012 iflg. res. 26 aug 2011 nr. 866 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 26 aug 2011 nr. 40 (ikr. 1 jan 2012 iflg. res. 26 aug 2011 nr. 866 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="7-srlig-om-sikring-av-hund-der-tamrein-beiter">§ 7. Særlig om sikring av hund der tamrein beiter</h4>
 <p>I områder der tamrein lovlig beiter, skal hundeholderen se til at hunden ikke unødig uroer eller skremmer rein, selv om den er under kontroll eller er bundet. Reinens eier kan kreve at en hund som uroer rein, blir holdt innestengt mens rein blir flyttet forbi bosted, seter eller hytte. Statsforvalteren kan gi forskrift om at hunder skal holdes i bånd eller forsvarlig innestengt eller inngjerdet når hensynet til reindriften tilsier det.</p>
 <p>Om ferdsel med hund i område hvor tamrein beiter, gjelder også reindriftsloven § 65 .</p>
-<p><em>Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="8-srlig-om-hundedressur-jakt-og-fangst">§ 8. Særlig om hundedressur, jakt og fangst</h4>
 <p>Jakthundtrening, jakthundprøver og dressur kan bare foregå med samtykke av grunneieren eller den som har en allmenn bruksrett til eiendommen. For statsallmenningene gis samtykke av fjellstyret.</p>
 <p>For bruk av hund under jakt og fangst mv. gjelder også <a href="lov-2025-06-20-102.html">viltressursloven</a> § 27 , reindriftsloven § 65 og naturmangfoldloven § 34 med forskrifter.</p>
-<p><em>Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</p>
 <h4 id="9-unntak-fra-sikringsreglene">§ 9. Unntak fra sikringsreglene</h4>
 <p>Båndtvang fastsatt i eller i medhold av §§ 4 , 6 og 7 gjelder ikke for</p>
 <p>a. hund når den brukes i reindrift
@@ -167,21 +306,21 @@ g. førerhunder i aktiv tjeneste eller under trening eller prøving for slik tje
 <p>Hund som nevnt i første ledd bokstav a til d eller i bestemmelse som gjelder særlige bruksformål etter bokstav e, kan på en aktsom måte slippes slik det er naturlig ut fra bruksformålet.</p>
 <p>En hund som nyttes som jakthund eller er under trening eller prøve for dette, kan slippes på en aktsom måte, slik det er naturlig ut fra bruksformålet uten hinder av § 4 fjerde ledd , når dette ikke er i strid med viltressursloven , naturmangfoldloven , reindriftsloven eller regler om båndtvang. Det samme gjelder for trening og prøving av ettersøkshunder.</p>
 <p>Kongen kan gi forskrift om unntak fra sikringsregler fastsatt i § 4 , § 6 første ledd og forskrifter fastsatt med hjemmel i § 6 annet ledd og § 7 .</p>
-<p><em>Endret ved lover 28 mars 2014 nr. 9 (ikr. 1 juni 2014 iflg. res. 28 mars 2014 nr. 371 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</em></p>
+<p class="note">Endret ved lover 28 mars 2014 nr. 9 (ikr. 1 juni 2014 iflg. res. 28 mars 2014 nr. 371 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 20 juni 2025 nr. 102 (i kraft 1 juli 2026 iflg. res. 20 juni 2025 nr. 1105 ).</p>
 <h2 id="kapittel-3-lse-hunder">Kapittel 3. Løse hunder</h2>
 <h4 id="10-lse-hunder">§ 10. Løse hunder</h4>
 <p>Enhver kan oppta hund som er løs i strid med §§ 4 , 6 eller 7 , jf. § 9 , eller med forskrift gitt i medhold av disse paragrafene. I utmark i jakttiden der jakt er lovlig, kan likevel bare rettighetshavere i området og politiet oppta løse hunder. Dersom hunden blir forsøkt fanget inn, skal den beskyttes mot fare for unødig belastninger, jf. lov om dyrevelferd § 3 .</p>
 <p>Hunden skal leveres til hundeholderen dersom denne er til stede. Dette gjelder ikke dersom hundeholderen åpenbart ikke kan ta hånd om hunden på forsvarlig og lovlig måte. Hvis hunden ikke blir levert til hundeholderen, skal den snarest leveres til politiet.</p>
 <p>Unnlater hundeholderen å hente hunden innen rimelig tid, likevel ikke mindre enn en uke, etter at vedkommende er varslet personlig eller ved egnet kunngjøring, kan politiet selge, omplassere eller avlive hunden. Er det fastsatt krav om merking etter § 13 , skal politiet søke å opprette direkte kontakt med den personen hunden er registrert på.</p>
 <p>Opptak og behandling av løse hunder etter paragrafen her skal skje i samsvar med reglene i lov om dyrevelferd .</p>
-<p><em>Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-4-ro-og-orden-antall-hunder-og-merking-av-hunder">Kapittel 4. Ro og orden, antall hunder og merking av hunder</h2>
 <h4 id="11-ro-og-orden-mv">§ 11. Ro og orden mv.</h4>
 <p>Kommunen kan gi forskrift om hundehold av hensyn til alminnelig ro og orden og for å motvirke forsøpling. Regler om at hunder skal holdes i bånd eller forsvarlig innestengt eller inngjerdet, kan bare gis på de vilkår som er satt i § 6 annet ledd.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="12-antall-hunder-i-en-husholdning-eller-pa-en-eiendom">§ 12. Antall hunder i en husholdning eller på en eiendom</h4>
 <p>For å ivareta folks og dyrs sikkerhet og ro og orden, kan kommunen gi forskrift om vilkår for å holde mer enn et bestemt antall voksne hunder i en husholdning eller på en eiendom. Med voksen hund menes hund over 12 måneder. Vilkårene skal ikke være mer inngripende enn nødvendig.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="13-merking-av-hunder">§ 13. Merking av hunder</h4>
 <p>Private organisasjoner kan etablere og drive en ordning for registrering og merking av alle hunder.</p>
 <p>Kongen kan gi forskrift om</p>
@@ -189,7 +328,7 @@ g. førerhunder i aktiv tjeneste eller under trening eller prøving for slik tje
 b. at en hundeholder plikter å gi genetiske og andre opplysninger til registeret om hunden og hundeholdet,
 c. at hundeholderne skal betale gebyr som dekker de nødvendige kostnadene ved ordningen, og
 d. at politiet skal ha innsyn i registeret.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-5-personers-rettigheter-og-plikter-i-nds-og-faresituasjoner">Kapittel 5. Personers rettigheter og plikter i nøds- og faresituasjoner</h2>
 <h4 id="14-inngrep-pa-stedet-mot-hund-som-jager-eller-angriper-mv">§ 14. Inngrep på stedet mot hund som jager eller angriper mv.</h4>
 <p>Hundeholderen skal sørge for å holde eller kalle hunden tilbake og gjøre det vedkommende kan for å avverge urettmessig fare når en hund jager eller angriper mennesker eller dyr.</p>
@@ -199,14 +338,14 @@ d. at politiet skal ha innsyn i registeret.</p>
 b. Når en hund jager eller angriper tamrein eller husdyr som beiter lovlig, eller når hunden ensidig angriper en annen hund, kan det utsatte dyrets eier, innehaver eller den som passer dyret, gjøre det inngrep mot hunden som fremstår som nødvendig for å avverge skade, herunder avliving, så sant inngrepet ikke går lenger enn nødvendig og ikke utover det forsvarlige. Det samme gjelder hvis hunden har voldt betydelig skade på tamrein, husdyr eller en annen hund, og den fortsatt utgjør en klar fare. Denne bestemmelsen kan ikke påberopes når det dyret som blir jaget eller angrepet, urettmessig er kommet inn på eiendom som hundeholderen disponerer.
 c. Når en hund angriper hjortevilt og båndtvang gjelder, kan grunneier, noen som opptrer på dennes vegne, eller jakt- og fangstberettigde gjøre det inngrep mot hunden som fremstår som nødvendig, herunder avliving, for å avverge skade, så sant inngrepet ikke går lenger enn nødvendig og ikke utover det forsvarlige. Dette gjelder likevel ikke en hund som er i aktiv bruk som ettersøkshund etter sykt eller såret vilt.</p>
 <p>Paragrafen her gjelder ikke politihunder som brukes lovlig. Heller ikke gjelder paragrafen der reglene om nødrett og nødverge gjør en farlig bruk av hunden rettmessig.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="15-hund-som-utgjr-klar-fare-for-husdyr-og-tamrein">§ 15. Hund som utgjør klar fare for husdyr og tamrein</h4>
 <p>En hund som uten ledsager går løs i utmark eller landbruksområder i strid med bestemmelser om båndtvang og utgjør en fare for husdyr og tamrein, kan opptas av grunneieren, festeren, forpakteren, beiteberettigede, en berørt reineier eller noen som opptrer på vegne av disse.</p>
 <p>Dersom det ikke lar seg gjøre å oppta hunden eller få politiet til stedet så raskt som situasjonen krever, og hunden utgjør en klar fare, kan vedkommende gjøre det inngrep mot hunden som fremstår som nødvendig for å avverge skade, herunder avliving, så sant inngrepet ikke går lenger enn nødvendig og ikke utover det forsvarlige.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="16-plikter-etter-at-inngrep-er-gjort-mot-hund-etter-14-og-15">§ 16. Plikter etter at inngrep er gjort mot hund etter §§ 14 og 15</h4>
 <p>Den som har avlivet eller påført hund skade etter §§ 14 og 15 , skal snarest råd melde fra om dette til politiet. Lov om dyrevelferd § 4 , jf. § 12 , om hjelp til dyret gjelder overfor den som har skadet dyret.</p>
-<p><em>Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-6-sikkerhetstiltak-mot-problematisk-hundehold">Kapittel 6. Sikkerhetstiltak mot problematisk hundehold</h2>
 <h4 id="17-politiets-forebyggende-virkemidler">§ 17. Politiets forebyggende virkemidler</h4>
 <p>Politiet kan i samsvar med reglene i <a href="lov-1995-08-04-53.html">politiloven</a> § 6 gripe inn overfor hunder og hundeholdere for å ivareta enkeltpersoners eller allmennhetens sikkerhet eller trygghet, eller for å verne andre dyr.</p>
@@ -224,11 +363,11 @@ g. om nødvendig ta hunder i kortvarig forvaring</p>
 <p>Kongen kan gi nærmere forskrift om bruk av tvangsmulkt etter femte ledd.</p>
 <p>Dersom en hundeholder gjentatte ganger unnlater å etterkomme vedtak gitt av politiet, eller overtrer bestemmelser om sikring av hund som kan medføre høy risiko, kan politiet pålegge hundeholderen å redusere antallet hunder eller å avvikle hundeholdet innen en gitt frist. Dersom hundeholderen ikke overholder politiets pålegg, kan politiet gjennomføre tiltaket for hundeholderens regning. Så langt det anses praktisk mulig og forsvarlig, bør politiet søke å omplassere eller selge hunden fremfor å avlive den.</p>
 <p>Dersom hunden blir solgt, skal salgssummen utbetales til eieren med fradrag for kostnadene til forvaring av dyret og gjennomføring av salget.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="17-a-politiets-inngrep-ved-akutt-fare">§ 17 a. Politiets inngrep ved akutt fare</h4>
 <p>Dersom en hund har drept eller påført et menneske betydelig skade eller har angrepet et barn, og fortsatt utgjør en klar fare, kan hunden avlives av politiet der den finnes, dersom hensynet til noens sikkerhet eller allmennhetens trygghet klart tilsier en umiddelbar avliving.</p>
 <p>Vedtak om avliving skal stadfestes skriftlig i etterkant.</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="18-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-menneske-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18. Avliving eller omplassering av en hund etter angrep eller skade på menneske når det er nødvendig for å avverge fremtidig risiko</h4>
 <p>Politiet kan vedta å avlive en hund som har angrepet eller skadet et menneske, dersom ikke dette fremstår som et uforholdsmessig tiltak. Ved vurderingen skal det særlig legges vekt på:</p>
 <p>a. hvilken fare som har vært til stede, blant annet om det er et barn som har vært angrepet
@@ -242,7 +381,7 @@ g. om det finnes andre tiltak som kan forebygge fremtidig risiko</p>
 <p>Dersom det anses praktisk mulig og forsvarlig, skal politiet søke å omplassere en hund fremfor å avlive den.</p>
 <p>En hund som har påført et menneske betydelig skade bør normalt avlives.</p>
 <p>Ved avliving av hunden kan hundeholderen tilbys ett samvær med hunden før avliving dersom dette kan gjøres uten å forhindre gjennomføringen av vedtaket eller utgjøre en sikkerhetsrisiko. Kostnader knyttet til hundeholderens tilstedeværelse dekkes av hundeholderen, jf. § 26 .</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="18-a-avliving-eller-omplassering-av-en-hund-etter-angrep-eller-skade-pa-tamrein-husdyr-hjortevilt-eller-annen-hund-nar-det-er-ndvendig-for-a-avverge-fremtidig-risiko">§ 18 a. Avliving eller omplassering av en hund etter angrep eller skade på tamrein, husdyr, hjortevilt eller annen hund når det er nødvendig for å avverge fremtidig risiko</h4>
 <p>Politiet kan vedta å avlive en hund som har jaget og skadet tamrein, husdyr, eller hjortevilt, dersom det ikke fremstår som et uforholdsmessig tiltak. Ved vurderingen skal det særlig legges vekt på:</p>
 <p>a. hvilken fare som har vært til stede
@@ -255,7 +394,7 @@ e. om det finnes andre tiltak som kan forebygge fremtidig risiko</p>
 b. om hunden kan fryktes å angripe og skade samme eiers dyr på nytt</p>
 <p>Dersom det anses praktisk mulig og forsvarlig, skal politiet søke å omplassere en hund fremfor å avlive den.</p>
 <p>Ved avliving av hunden kan hundeholderen tilbys ett samvær med hunden før avliving dersom dette kan gjøres uten å forhindre gjennomføringen av vedtaket eller utgjøre en sikkerhetsrisiko. Kostnader knyttet til hundeholderens tilstedeværelse dekkes av hundeholderen, jf. § 26 .</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="19-farlige-hunder">§ 19. Farlige hunder</h4>
 <p>Det er forbudt å holde eller innføre hunder som</p>
 <p>a. er gitt trening i eller for å angripe eller forsvare seg eller hundeholderen mot mennesker,
@@ -265,17 +404,17 @@ c. enkelthunder som fremstår som spesielt aggressive, kampvillige eller med and
 <p>Hunder som blir avlet, innført eller holdt i strid med regler i eller i medhold av denne paragraf, kan avlives eller pålegges utført av riket ved vedtak av politiet.</p>
 <p>Ved avliving av hunden kan hundeholderen tilbys ett samvær med hunden før avliving dersom dette kan gjøres uten å forhindre gjennomføringen av vedtaket eller utgjøre en sikkerhetsrisiko. Kostnader knyttet til hundeholderens tilstedeværelse dekkes av hundeholderen, jf. § 26 .</p>
 <p>Kongen kan gi forskrift om forbud mot å holde, avle eller innføre farlige hunder, eller å innføre sæd eller embryo fra farlige hunder. Forskriften kan sette krav til dokumentasjon av hundens rase eller type. Med farlige hunder menes her hunder eller hundetyper som på grunn av en kombinasjon av mentale og fysiske egenskaper og evne til å påføre stor skade, utgjør en fare for mennesker eller dyr.</p>
-<p><em>Endret ved lover 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 16 juni 2023 nr. 66 .</em></p>
+<p class="note">Endret ved lover 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 16 juni 2023 nr. 66 .</p>
 <h4 id="20-unntak-fra-reglene-i-19">§ 20. Unntak fra reglene i § 19</h4>
 <p>En hund omfattes ikke av § 19 første ledd bokstav a eller b hvis den er trent av politiet eller i særlige tilfelle av andre med politiets tillatelse, eller er innført i riket med politiets tillatelse.</p>
 <p>En hund omfattes ikke av § 19 første ledd bokstav a hvis den er lovlig trent av en hundeorganisasjon med tillatelse fra politiet. Hunden kan ikke selges eller omplasseres uten politiets tillatelse.</p>
 <p>En hund omfattes heller ikke av § 19 første ledd bokstav a hvis den er lovlig trent i samsvar med vilkår fastsatt ved forskrift med hjemmel i femte ledd.</p>
 <p>Blir en hund trent uten tillatelse etter andre eller tredje ledd, kan den avlives etter vedtak av politiet. Hvis en hund som er omfattet av unntaket etter andre eller tredje ledd, angriper eller skader et menneske, gjelder § 18 .</p>
 <p>Kongen kan fastsette forskrift om unntak fra forbudet i § 19 første ledd bokstav a og vilkår for slike unntak.</p>
-<p><em>Endret ved lover 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 16 juni 2023 nr. 66 .</em></p>
+<p class="note">Endret ved lover 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ), 16 juni 2023 nr. 66 .</p>
 <h4 id="21-krav-til-godkjenning-for-a-ha-a-gjre-med-bestemte-hundetyper">§ 21. Krav til godkjenning for å ha å gjøre med bestemte hundetyper</h4>
 <p>Kongen kan i forskrift sette vilkår for å innføre, holde eller drive avl med bestemte hundetyper eller blandinger av bestemte hundetyper. I forskriften kan det settes krav om godkjenning og om krav til avlagte prøver eller tester, om skjerpet båndtvang, begrensning i antall hunder, hundeholderens alder, vandel, ansvarsforsikring, og gebyr for å dekke kostnader mv. Setter forskriften krav om godkjenning, kan myndighet til å gi godkjenning delegeres til en privat organisasjon.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="22-forbud-mot-at-en-person-skal-kunne-ha-med-hund-a-gjre">§ 22. Forbud mot at en person skal kunne ha med hund å gjøre</h4>
 <p>Politiet kan ved enkeltvedtak forby en hundeholder å ha med hund å gjøre</p>
 <p>a. når hundeholderens hund blir vedtatt avlivet, omplassert eller utført fra riket etter §§ 18 , 19 , 20 , eller § 21 , jf. § 24
@@ -291,11 +430,11 @@ f. dersom personen har latt en hund delta i hundekamp eller har trent en hund fo
 <p>Politiet kan ta hånd om, omplassere, selge eller om nødvendig avlive en hund dersom noen har å gjøre med hunden i strid med et endelig forbud etter denne paragrafen.</p>
 <p>Forbudet skal gjelde for to år, men kan ved grove brudd fastsettes for en lengre periode.</p>
 <p>Dersom forbudet ikke overholdes, ilegges et varig forbud. Ved nye brudd, jf. første ledd etter at første forbud er utløpt, ilegges også et varig forbud.</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="23-behandling-av-personopplysninger">§ 23. Behandling av personopplysninger</h4>
 <p>Politiet kan behandle personopplysninger, herunder personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , når dette er nødvendig for å utøve myndighet eller utføre andre oppgaver etter loven her.</p>
 <p>Kongen kan gi forskrift om behandlingen, blant annet om formålet med behandlingen, behandlingsansvar, hvilke personopplysninger som kan behandles, hvem det kan behandles personopplysninger om, bruk av automatiserte avgjørelser, adgangen til viderebehandling, utlevering, registerføring og tilgang til registre.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-7-administrative-virkemidler-straff-og-erstatningsansvar">Kapittel 7. Administrative virkemidler, straff og erstatningsansvar</h2>
 <p>Overskrift endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="24-politiets-forvaring-av-hund">§ 24. Politiets forvaring av hund</h4>
@@ -304,27 +443,27 @@ f. dersom personen har latt en hund delta i hundekamp eller har trent en hund fo
 b. vilkårene i §§ 18 , 18 a , 19 eller 20 er til stede,
 c. hunden blir holdt, brukt eller satt i avl i strid med bestemmelser gitt i medhold av § 21 .</p>
 <p>Har politiet tatt hånd om hunden etter hjemler i denne lov, kan den holdes i forvaring inntil saken om salg, omplassering, utførsel eller avliving er endelig avgjort.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="24-a-overtredelsesgebyr">§ 24 a. Overtredelsesgebyr</h4>
 <p>Kongen kan i forskrift gi nærmere bestemmelser om overtredelsesgebyr ved forsettlig eller uaktsomt brudd på lovens båndtvangsbestemmelser i § 6 første ledd, ved forsettlig eller uaktsomt brudd på forskrifter om båndtvang gitt med hjemmel i § 6 andre ledd og § 7 , eller ved forsettlig eller uaktsomt brudd på bestemmelser gitt med hjemmel i §§ 11 , 12 og 13 .</p>
 <p>I forskriften skal det fastsettes nærmere bestemmelser om beregning av overtredelsesgebyr.</p>
 <p>Kongen kan i forskrift også gi nærmere bestemmelser om at andre offentlige myndigheter enn politiet, herunder kommunene, kan føre tilsyn med og utstede gebyr for overtredelse av bestemmelsene nevnt i første ledd.</p>
 <p>Vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg.</p>
-<p><em>Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Tilføyd ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="25-saksbehandling-overprving-og-iverksetting-av-vedtak">§ 25. Saksbehandling, overprøving og iverksetting av vedtak</h4>
 <p>Politiets vedtak etter loven er enkeltvedtak etter <a href="lov-2025-06-20-81.html">forvaltningsloven</a> . Vedtak kan påklages til Politidirektoratet, jf. forvaltningsloven kapittel V . Blir vedtaket brakt inn for domstolen, kan retten prøve alle sider av saken.</p>
 <p>Om utsatt iverksetting ved klage gjelder forvaltningsloven § 42 . Politiet kan alltid kreve at klageren løpende og til rett tid betaler kostnadene ved forvaring, jf. § 26 .</p>
 <p>Politiet sørger for at avliving skjer. Den skal foregå etter reglene i lov om dyrevelferd .</p>
-<p><em>Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 5 apr 2013 nr. 12 , 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="26-ansvar-for-kostnader">§ 26. Ansvar for kostnader</h4>
 <p>Tiltak etter hundeloven kan gjennomføres for hundeholderens regning.</p>
 <p>Der vedtak om avliving kjennes ugyldig i retten, skal staten stå for 70 prosent av oppstallingskostnader knyttet til forvaring.</p>
 <p>Politiets krav etter reglene i første ledd er tvangsgrunnlag for utlegg.</p>
 <p>Kongen kan gi forskrift om ansvar for kostnader.</p>
-<p><em>Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lov 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="27-erstatningsansvar">§ 27. Erstatningsansvar</h4>
 <p>Om erstatningsansvar for skade voldt av hund gjelder det som følger av andre lovfestede og ulovfestede regler, bl.a. <a href="lov-1969-06-13-26.html">skadeserstatningsloven</a> § 1-5 om ansvar for dyr og reindriftsloven § 66 om hunder.</p>
-<p><em>Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 15 juni 2007 nr. 40 (ikr. 1 juli 2007 iflg. res. 15 juni 2007 nr. 627 ), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h4 id="28-straff">§ 28. Straff</h4>
 <p>Med bøter straffes en hundeholder som forsettlig eller uaktsomt overtrer §§ 4 –7 jf. § 9 eller forskrifter eller enkeltvedtak etter §§ 6 , 7 , 11 , 12 . Kongen kan gi nærmere bestemmelser om botens størrelse.</p>
 <p>Med bøter eller fengsel inntil seks måneder straffes en hundeholder som forsettlig eller uaktsomt har unnlatt å forebygge eller avverge at hunden rettsstridig</p>
@@ -335,11 +474,11 @@ b. jager, angriper eller skader dyr.</p>
 <p>a. unnlater å etterkomme pålegg og forbud nedlagt av politiet i samsvar med lovens § 17 , eller
 b. overtrer forbud gitt ved §§ 19 , 21 , 22 eller ved forskrifter eller enkeltvedtak gitt etter disse bestemmelsene.</p>
 <p>På samme måte straffes forsøk.</p>
-<p><em>Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2015 nr. 65 (ikr. 1 okt 2015), 17 juni 2022 nr. 69 (i kraft 1 jan 2023 iflg. res. 17 juni 2022 nr. 1069 ).</p>
 <h2 id="kapittel-8-opphevet">Kapittel 8. (Opphevet)</h2>
 <p>Opphevet ved lov 16 juni 2023 nr. 66 .</p>
 <h4 id="29-opphevet">§ 29. (Opphevet)</h4>
-<p><em>Opphevet ved lov 16 juni 2023 nr. 66 .</em></p>
+<p class="note">Opphevet ved lov 16 juni 2023 nr. 66 .</p>
 <h2 id="kapittel-9-ikraftsetting-oppheving-og-endring-av-andre-lover-overgangsregler">Kapittel 9. Ikraftsetting. Oppheving og endring av andre lover. Overgangsregler</h2>
 <h4 id="30-ikraftsetting">§ 30. Ikraftsetting</h4>
 <p>Loven trer i kraft 1. januar 2004.</p>
@@ -354,6 +493,8 @@ c. bestemmelsen blir opphevet av det organ som har vedtatt den.</p>
 <h4 id="33-enkeltvedtak-etter-eldre-lovgivning">§ 33. Enkeltvedtak etter eldre lovgivning</h4>
 <p>Dressurområder for hunder som er lagt ut etter viltloven § 55 , består for den tid som ble bestemt av den instans som samtykket i å legge ut området.</p>
 <p>Andre enkeltvedtak truffet med hjemmel i bestemmelser som blir opphevet ved §§ 31 og 32 , bortfaller når hjemmelen bortfaller dersom ikke hundeloven gir adgang til å treffe slike vedtak. Gjør den det, gjelder vedtaket inntil saken er blitt behandlet på ny av politiet eller annet forvaltningsorgan som kan treffe vedtaket etter loven her.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

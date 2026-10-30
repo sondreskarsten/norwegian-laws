@@ -19,64 +19,389 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2024-03-08-9.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Universitets- og høyskoleloven" href="../feeds/lov-2024-03-08-9.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-kunnskapsdepartementet.html">Kunnskapsdepartementet</a> &rsaquo;
 <span>Universitets- og høyskoleloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2024-03-08-9</code></dd>
-<dt>Departement</dt><dd>Kunnskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skoler, universiteter og forskning &raquo; Universiteter og høyskoler</dd>
-<dt>Ikrafttredelse</dt><dd>2024-08-01</dd>
-<dt>Sist endret</dt><dd>lov/2026-06-19-60</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2024-03-08-9" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1 Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formalet-med-universiteter-og-hyskoler">§ 1-1. Formålet med universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-virksomhet-og-ansvar">Kapittel 2 Virksomhet og ansvar</a></li>
+<li class="lvl4"><a href="#2-1-universiteters-og-hyskolers-oppgaver">§ 2-1. Universiteters og høyskolers oppgaver</a></li>
+<li class="lvl4"><a href="#2-2-akademisk-frihet-og-ansvar">§ 2-2. Akademisk frihet og ansvar</a></li>
+<li class="lvl4"><a href="#2-3-norsk-og-samisk-fagsprak">§ 2-3. Norsk og samisk fagspråk</a></li>
+<li class="lvl4"><a href="#2-4-apne-forelesninger">§ 2-4. Åpne forelesninger</a></li>
+<li class="lvl4"><a href="#2-5-gratis-hyere-utdanning-ved-statlige-universiteter-og-hyskoler">§ 2-5. Gratis høyere utdanning ved statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#2-6-egenbetaling-for-statsborgere-fra-land-utenfor-es-og-sveits">§ 2-6. Egenbetaling for statsborgere fra land utenfor EØS og Sveits</a></li>
+<li class="lvl4"><a href="#2-7-srlig-ansvar-for-enkelte-institusjoner">§ 2-7. Særlig ansvar for enkelte institusjoner</a></li>
+<li class="lvl4"><a href="#2-8-universiteters-og-hyskolers-behandling-av-personopplysninger">§ 2-8. Universiteters og høyskolers behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-akkreditering-kvalitetssikring-og-grader-mv">Kapittel 3 Akkreditering, kvalitetssikring og grader mv.</a></li>
+<li class="lvl4"><a href="#3-1-institusjonskategori-og-egennavn">§ 3-1. Institusjonskategori og egennavn</a></li>
+<li class="lvl4"><a href="#3-2-akkreditering-som-vilkar-for-a-tilby-hyere-utdanning">§ 3-2. Akkreditering som vilkår for å tilby høyere utdanning</a></li>
+<li class="lvl4"><a href="#3-3-nokuts-akkreditering-av-institusjoner-og-studietilbud">§ 3-3. NOKUTs akkreditering av institusjoner og studietilbud</a></li>
+<li class="lvl4"><a href="#3-4-universiteters-og-hyskolers-akkreditering-av-egne-studietilbud">§ 3-4. Universiteters og høyskolers akkreditering av egne studietilbud</a></li>
+<li class="lvl4"><a href="#3-5-kvalitetssikring">§ 3-5. Kvalitetssikring</a></li>
+<li class="lvl4"><a href="#3-6-tilsyn-med-institusjoner-studietilbud-og-kvalitetsarbeid">§ 3-6. Tilsyn med institusjoner, studietilbud og kvalitetsarbeid</a></li>
+<li class="lvl4"><a href="#3-7-gradssystemet">§ 3-7. Gradssystemet</a></li>
+<li class="lvl4"><a href="#3-8-grader-titler-og-yrkesutdanninger">§ 3-8. Grader, titler og yrkesutdanninger</a></li>
+<li class="lvl4"><a href="#3-9-resdoktor">§ 3-9. Æresdoktor</a></li>
+<li class="lvl4"><a href="#3-10-forbud-mot-misbruk-av-gradstitler">§ 3-10. Forbud mot misbruk av gradstitler</a></li>
+<li class="lvl4"><a href="#3-11-forbud-mot-misbruk-av-betegnelsene-universitet-vitenskapelig-hyskole-og-hyskole">§ 3-11. Forbud mot misbruk av betegnelsene universitet, vitenskapelig høyskole og høyskole</a></li>
+<li class="lvl4"><a href="#3-12-bevilling-som-statsautorisert-translatr">§ 3-12. Bevilling som statsautorisert translatør</a></li>
+<li class="lvl2"><a href="#kapittel-4-organisering-og-ledelse-ved-statlige-institusjoner">Kapittel 4 Organisering og ledelse ved statlige institusjoner</a></li>
+<li class="lvl4"><a href="#4-1-styret">§ 4-1. Styret</a></li>
+<li class="lvl4"><a href="#4-2-delegering">§ 4-2. Delegering</a></li>
+<li class="lvl4"><a href="#4-3-styrets-sammensetning">§ 4-3. Styrets sammensetning</a></li>
+<li class="lvl4"><a href="#4-4-valg-og-oppnevning-av-styret">§ 4-4. Valg og oppnevning av styret</a></li>
+<li class="lvl4"><a href="#4-5-ansatt-rektor">§ 4-5. Ansatt rektor</a></li>
+<li class="lvl4"><a href="#4-6-valgt-rektor">§ 4-6. Valgt rektor</a></li>
+<li class="lvl4"><a href="#4-7-administrerende-direktr">§ 4-7. Administrerende direktør</a></li>
+<li class="lvl4"><a href="#4-8-styrets-saksbehandling">§ 4-8. Styrets saksbehandling</a></li>
+<li class="lvl4"><a href="#4-9-alminnelig-flertallskrav-og-vedtaksfrhet">§ 4-9. Alminnelig flertallskrav og vedtaksførhet</a></li>
+<li class="lvl4"><a href="#4-10-adgang-til-a-avsette-styret">§ 4-10. Adgang til å avsette styret</a></li>
+<li class="lvl2"><a href="#kapittel-5-organisering-og-ledelse-ved-private-institusjoner">Kapittel 5 Organisering og ledelse ved private institusjoner</a></li>
+<li class="lvl4"><a href="#5-1-organisering-og-ledelse">§ 5-1. Organisering og ledelse</a></li>
+<li class="lvl4"><a href="#5-2-delegering">§ 5-2. Delegering</a></li>
+<li class="lvl4"><a href="#5-3-taushetsplikt">§ 5-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#5-4-krav-om-kjnnsbalanse">§ 5-4. Krav om kjønnsbalanse</a></li>
+<li class="lvl2"><a href="#kapittel-6-statstilskudd-egenbetaling-og-tilsyn-med-private-universiteter-og-hyskoler">Kapittel 6 Statstilskudd, egenbetaling og tilsyn med private universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#6-1-vilkar-for-statstilskudd">§ 6-1. Vilkår for statstilskudd</a></li>
+<li class="lvl4"><a href="#6-2-statstilskudd-egenbetaling-og-utdelinger">§ 6-2. Statstilskudd, egenbetaling og utdelinger</a></li>
+<li class="lvl4"><a href="#6-3-avtaler-med-nrstaende-parter">§ 6-3. Avtaler med nærstående parter</a></li>
+<li class="lvl4"><a href="#6-4-tilsyn-med-private-universiteter-og-hyskoler">§ 6-4. Tilsyn med private universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#6-5-rapporteringsplikt-og-meldeplikt">§ 6-5. Rapporteringsplikt og meldeplikt</a></li>
+<li class="lvl4"><a href="#6-6-krav-til-regnskap-og-revisjon">§ 6-6. Krav til regnskap og revisjon</a></li>
+<li class="lvl4"><a href="#6-7-palegg-om-retting">§ 6-7. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#6-8-krav-om-tilbakebetaling-av-statstilskudd">§ 6-8. Krav om tilbakebetaling av statstilskudd</a></li>
+<li class="lvl4"><a href="#6-9-tvangsmulkt-og-overtredelsesgebyr">§ 6-9. Tvangsmulkt og overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#6-10-tilbaketrekking-av-akkreditering">§ 6-10. Tilbaketrekking av akkreditering</a></li>
+<li class="lvl2"><a href="#kapittel-7-ansettelser">Kapittel 7 Ansettelser</a></li>
+<li class="lvl4"><a href="#7-1-likestilling">§ 7-1. Likestilling</a></li>
+<li class="lvl4"><a href="#7-2-ansettelse-i-undervisnings-og-forskningsstillinger">§ 7-2. Ansettelse i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl4"><a href="#7-3-midlertidig-ansettelse-i-undervisnings-og-forskningsstillinger">§ 7-3. Midlertidig ansettelse i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl4"><a href="#7-4-srskilte-ansettelsesregler-for-statlige-universiteter-og-hyskoler">§ 7-4. Særskilte ansettelsesregler for statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#7-5-vikar-for-valgt-eller-aremalsansatt-leder-ved-statlige-universiteter-og-hyskoler">§ 7-5. Vikar for valgt eller åremålsansatt leder ved statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#7-6-ansettelse-pa-aremal">§ 7-6. Ansettelse på åremål</a></li>
+<li class="lvl4"><a href="#7-7-srregel-om-ekstraerverv">§ 7-7. Særregel om ekstraerverv</a></li>
+<li class="lvl4"><a href="#7-8-ansettelse-uten-utlysing">§ 7-8. Ansettelse uten utlysing</a></li>
+<li class="lvl4"><a href="#7-9-enerett-til-bruk-av-visse-stillingstitler">§ 7-9. Enerett til bruk av visse stillingstitler</a></li>
+<li class="lvl4"><a href="#7-10-klage-pa-vedtak-om-ordensstraff-oppsigelse-suspensjon-og-avskjed-ved-statlige-universiteter-og-hyskoler">§ 7-10. Klage på vedtak om ordensstraff, oppsigelse, suspensjon og avskjed ved statlige universiteter og høyskoler</a></li>
+<li class="lvl2"><a href="#kapittel-8-opptak-til-hyere-utdanning">Kapittel 8 Opptak til høyere utdanning</a></li>
+<li class="lvl4"><a href="#8-1-krav-for-opptak-til-hyere-utdanning">§ 8-1. Krav for opptak til høyere utdanning</a></li>
+<li class="lvl4"><a href="#8-2-opptak-pa-grunnlag-av-realkompetanse">§ 8-2. Opptak på grunnlag av realkompetanse</a></li>
+<li class="lvl4"><a href="#8-3-adgangsregulering-til-et-bestemt-studium">§ 8-3. Adgangsregulering til et bestemt studium</a></li>
+<li class="lvl4"><a href="#8-4-rangering">§ 8-4. Rangering</a></li>
+<li class="lvl4"><a href="#8-5-gjennomfring-av-opptak">§ 8-5. Gjennomføring av opptak</a></li>
+<li class="lvl2"><a href="#kapittel-9-godkjenning-av-utdanning-og-kompetanse">Kapittel 9 Godkjenning av utdanning og kompetanse</a></li>
+<li class="lvl4"><a href="#9-1-faglig-godkjenning-av-utdanning-fra-andre-norske-universiteter-og-hyskoler">§ 9-1. Faglig godkjenning av utdanning fra andre norske universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#9-2-faglig-godkjenning-av-utdanning-som-ikke-er-regulert-av-denne-loven-og-av-dokumentert-realkompetanse">§ 9-2. Faglig godkjenning av utdanning som ikke er regulert av denne loven, og av dokumentert realkompetanse</a></li>
+<li class="lvl4"><a href="#9-3-faglig-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-3. Faglig godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-4-godkjenning-av-faglig-jevngodhet-for-fullfrt-grad-fra-utenlandsk-hyere-utdanning">§ 9-4. Godkjenning av faglig jevngodhet for fullført grad fra utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-5-faglig-godkjenning-av-udokumentert-utenlandsk-hyere-utdanning">§ 9-5. Faglig godkjenning av udokumentert utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-6-vederlag-for-faglig-vurdering-av-utenlandsk-doktorgrad">§ 9-6. Vederlag for faglig vurdering av utenlandsk doktorgrad</a></li>
+<li class="lvl4"><a href="#9-7-generell-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-7. Generell godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-8-behandling-av-sknader-om-generell-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-8. Behandling av søknader om generell godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-9-samordning-av-vedtak-om-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-9. Samordning av vedtak om godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-10-forskrift-om-godkjenning">§ 9-10. Forskrift om godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-10-lringsmilj-studentrettigheter-og-studentrepresentasjon">Kapittel 10 Læringsmiljø, studentrettigheter og studentrepresentasjon</a></li>
+<li class="lvl4"><a href="#10-1-lringsmiljet-ved-universiteter-og-hyskoler">§ 10-1. Læringsmiljøet ved universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#10-2-universell-utforming">§ 10-2. Universell utforming</a></li>
+<li class="lvl4"><a href="#10-3-plikt-til-a-forebygge-og-forhindre-trakassering-og-seksuell-trakassering">§ 10-3. Plikt til å forebygge og forhindre trakassering og seksuell trakassering</a></li>
+<li class="lvl4"><a href="#10-4-rett-til-a-varsle-og-forbud-mot-gjengjeldelse">§ 10-4. Rett til å varsle og forbud mot gjengjeldelse</a></li>
+<li class="lvl4"><a href="#10-5-individuell-tilrettelegging-for-studenter">§ 10-5. Individuell tilrettelegging for studenter</a></li>
+<li class="lvl4"><a href="#10-6-tilrettelegging-for-gravide-studenter-og-rett-til-foreldrepermisjon">§ 10-6. Tilrettelegging for gravide studenter og rett til foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#10-7-permisjon-fra-studier">§ 10-7. Permisjon fra studier</a></li>
+<li class="lvl4"><a href="#10-8-studentombud">§ 10-8. Studentombud</a></li>
+<li class="lvl4"><a href="#10-9-tilsyn-med-lringsmiljet">§ 10-9. Tilsyn med læringsmiljøet</a></li>
+<li class="lvl4"><a href="#10-10-lringsmiljutvalg">§ 10-10. Læringsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#10-11-studentorgan">§ 10-11. Studentorgan</a></li>
+<li class="lvl4"><a href="#10-12-studentenes-representasjon-i-universiteters-og-hyskolers-organer">§ 10-12. Studentenes representasjon i universiteters og høyskolers organer</a></li>
+<li class="lvl2"><a href="#kapittel-11-undervisning-eksamen-sensur-klage-og-vitnemal">Kapittel 11 Undervisning, eksamen, sensur, klage og vitnemål</a></li>
+<li class="lvl4"><a href="#11-1-studieplan">§ 11-1. Studieplan</a></li>
+<li class="lvl4"><a href="#11-2-studiepoeng-og-studiear">§ 11-2. Studiepoeng og studieår</a></li>
+<li class="lvl4"><a href="#11-3-faglig-oppflging-individuell-utdanningsplan">§ 11-3. Faglig oppfølging – individuell utdanningsplan</a></li>
+<li class="lvl4"><a href="#11-4-rett-til-a-ga-opp-til-eksamen">§ 11-4. Rett til å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#11-5-skriftsprak-ved-eksamen">§ 11-5. Skriftspråk ved eksamen</a></li>
+<li class="lvl4"><a href="#11-6-gjennomfring-av-eksamen">§ 11-6. Gjennomføring av eksamen</a></li>
+<li class="lvl4"><a href="#11-7-gjennomfring-av-sensur">§ 11-7. Gjennomføring av sensur</a></li>
+<li class="lvl4"><a href="#11-8-rett-til-begrunnelse-for-karakter">§ 11-8. Rett til begrunnelse for karakter</a></li>
+<li class="lvl4"><a href="#11-9-klage-pa-formelle-feil-ved-eksamen">§ 11-9. Klage på formelle feil ved eksamen</a></li>
+<li class="lvl4"><a href="#11-10-klage-pa-karakter">§ 11-10. Klage på karakter</a></li>
+<li class="lvl4"><a href="#11-11-gjennomfring-av-klagesensur">§ 11-11. Gjennomføring av klagesensur</a></li>
+<li class="lvl4"><a href="#11-12-vitnemal-og-annen-dokumentasjon-av-resultater">§ 11-12. Vitnemål og annen dokumentasjon av resultater</a></li>
+<li class="lvl2"><a href="#kapittel-12-regler-om-adferd-og-reaksjoner">Kapittel 12 Regler om adferd og reaksjoner</a></li>
+<li class="lvl4"><a href="#12-1-falske-dokumenter">§ 12-1. Falske dokumenter</a></li>
+<li class="lvl4"><a href="#12-2-krav-om-politiattest">§ 12-2. Krav om politiattest</a></li>
+<li class="lvl4"><a href="#12-3-skikkethetsvurdering">§ 12-3. Skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#12-4-uredelig-opptreden-og-fusk">§ 12-4. Uredelig opptreden og fusk</a></li>
+<li class="lvl4"><a href="#12-5-forstyrrende-opptreden">§ 12-5. Forstyrrende opptreden</a></li>
+<li class="lvl4"><a href="#12-6-grovt-klanderverdig-opptreden">§ 12-6. Grovt klanderverdig opptreden</a></li>
+<li class="lvl4"><a href="#12-7-studentenes-taushetsplikt">§ 12-7. Studentenes taushetsplikt</a></li>
+<li class="lvl4"><a href="#12-8-bruk-av-plagg-som-helt-eller-delvis-dekker-ansiktet">§ 12-8. Bruk av plagg som helt eller delvis dekker ansiktet</a></li>
+<li class="lvl4"><a href="#12-9-rett-til-a-fa-dekket-utgifter-til-advokat">§ 12-9. Rett til å få dekket utgifter til advokat</a></li>
+<li class="lvl4"><a href="#12-10-domstolsprving-av-vedtak-om-utestenging-utelukkelse-uskikkethet-og-bortvisning">§ 12-10. Domstolsprøving av vedtak om utestenging, utelukkelse, uskikkethet og bortvisning</a></li>
+<li class="lvl4"><a href="#12-11-register-for-informasjonsutveksling-om-reaksjoner">§ 12-11. Register for informasjonsutveksling om reaksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-13-doktorgradsutdanninger">Kapittel 13 Doktorgradsutdanninger</a></li>
+<li class="lvl4"><a href="#13-1-om-doktorgradsutdanningene">§ 13-1. Om doktorgradsutdanningene</a></li>
+<li class="lvl4"><a href="#13-2-tvungen-avslutning-av-doktorgradsutdanninger">§ 13-2. Tvungen avslutning av doktorgradsutdanninger</a></li>
+<li class="lvl2"><a href="#kapittel-14-institusjonens-nemnd-for-studentsaker-og-klagebehandling">Kapittel 14 Institusjonens nemnd for studentsaker og klagebehandling</a></li>
+<li class="lvl4"><a href="#14-1-institusjonens-nemnd-for-studentsaker">§ 14-1. Institusjonens nemnd for studentsaker</a></li>
+<li class="lvl4"><a href="#14-2-nasjonale-klagenemnder">§ 14-2. Nasjonale klagenemnder</a></li>
+<li class="lvl4"><a href="#14-3-klage-pa-vedtak-om-tilskudd-til-internasjonalt-utdanningssamarbeid">§ 14-3. Klage på vedtak om tilskudd til internasjonalt utdanningssamarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-15-nasjonale-databaser-rapportering-mv">Kapittel 15 Nasjonale databaser, rapportering mv.</a></li>
+<li class="lvl4"><a href="#15-1-portal-for-deling-av-vitnemal-og-dokumentasjon-av-kompetanse">§ 15-1. Portal for deling av vitnemål og dokumentasjon av kompetanse</a></li>
+<li class="lvl4"><a href="#15-2-database-for-forskningsinformasjon">§ 15-2. Database for forskningsinformasjon</a></li>
+<li class="lvl4"><a href="#15-3-database-for-statistikk-om-hyere-utdanning">§ 15-3. Database for statistikk om høyere utdanning</a></li>
+<li class="lvl2"><a href="#kapittel-16-nokut">Kapittel 16 NOKUT</a></li>
+<li class="lvl4"><a href="#16-1-nokuts-formal">§ 16-1. NOKUTs formål</a></li>
+<li class="lvl4"><a href="#16-2-nokuts-faglige-uavhengighet">§ 16-2. NOKUTs faglige uavhengighet</a></li>
+<li class="lvl4"><a href="#16-3-nokuts-evalueringer">§ 16-3. NOKUTs evalueringer</a></li>
+<li class="lvl4"><a href="#16-4-nokuts-styre">§ 16-4. NOKUTs styre</a></li>
+<li class="lvl2"><a href="#kapittel-17-diverse-regler">Kapittel 17 Diverse regler</a></li>
+<li class="lvl4"><a href="#17-1-forsk">§ 17-1. Forsøk</a></li>
+<li class="lvl4"><a href="#17-2-ikrafttredelse-og-opphevelse">§ 17-2. Ikrafttredelse og opphevelse</a></li>
+<li class="lvl4"><a href="#17-3-overgangsregler">§ 17-3. Overgangsregler</a></li>
+<li class="lvl4"><a href="#17-4-endringer-i-andre-lover">§ 17-4. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-06-19-60.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2024-03-08-9.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om universiteter og høyskoler (universitets- og høyskoleloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2024-03-08-9.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2024-03-08-9 <code>lov/2024-03-08-9</code></td></tr>
+<tr><th>Korttittel</th><td>Universitets- og høyskoleloven</td></tr>
+<tr><th>Departement</th><td>Kunnskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skoler, universiteter og forskning &raquo; Universiteter og høyskoler</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.08.2024</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-06-19-60 <code>lov/2026-06-19-60</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2024-03-08-9" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-og-virkeomrade">Kapittel 1 Formål og virkeområde</a></li>
+<li class="lvl4"><a href="#1-1-formalet-med-universiteter-og-hyskoler">§ 1-1. Formålet med universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#1-2-lovens-virkeomrade">§ 1-2. Lovens virkeområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-virksomhet-og-ansvar">Kapittel 2 Virksomhet og ansvar</a></li>
+<li class="lvl4"><a href="#2-1-universiteters-og-hyskolers-oppgaver">§ 2-1. Universiteters og høyskolers oppgaver</a></li>
+<li class="lvl4"><a href="#2-2-akademisk-frihet-og-ansvar">§ 2-2. Akademisk frihet og ansvar</a></li>
+<li class="lvl4"><a href="#2-3-norsk-og-samisk-fagsprak">§ 2-3. Norsk og samisk fagspråk</a></li>
+<li class="lvl4"><a href="#2-4-apne-forelesninger">§ 2-4. Åpne forelesninger</a></li>
+<li class="lvl4"><a href="#2-5-gratis-hyere-utdanning-ved-statlige-universiteter-og-hyskoler">§ 2-5. Gratis høyere utdanning ved statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#2-6-egenbetaling-for-statsborgere-fra-land-utenfor-es-og-sveits">§ 2-6. Egenbetaling for statsborgere fra land utenfor EØS og Sveits</a></li>
+<li class="lvl4"><a href="#2-7-srlig-ansvar-for-enkelte-institusjoner">§ 2-7. Særlig ansvar for enkelte institusjoner</a></li>
+<li class="lvl4"><a href="#2-8-universiteters-og-hyskolers-behandling-av-personopplysninger">§ 2-8. Universiteters og høyskolers behandling av personopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-3-akkreditering-kvalitetssikring-og-grader-mv">Kapittel 3 Akkreditering, kvalitetssikring og grader mv.</a></li>
+<li class="lvl4"><a href="#3-1-institusjonskategori-og-egennavn">§ 3-1. Institusjonskategori og egennavn</a></li>
+<li class="lvl4"><a href="#3-2-akkreditering-som-vilkar-for-a-tilby-hyere-utdanning">§ 3-2. Akkreditering som vilkår for å tilby høyere utdanning</a></li>
+<li class="lvl4"><a href="#3-3-nokuts-akkreditering-av-institusjoner-og-studietilbud">§ 3-3. NOKUTs akkreditering av institusjoner og studietilbud</a></li>
+<li class="lvl4"><a href="#3-4-universiteters-og-hyskolers-akkreditering-av-egne-studietilbud">§ 3-4. Universiteters og høyskolers akkreditering av egne studietilbud</a></li>
+<li class="lvl4"><a href="#3-5-kvalitetssikring">§ 3-5. Kvalitetssikring</a></li>
+<li class="lvl4"><a href="#3-6-tilsyn-med-institusjoner-studietilbud-og-kvalitetsarbeid">§ 3-6. Tilsyn med institusjoner, studietilbud og kvalitetsarbeid</a></li>
+<li class="lvl4"><a href="#3-7-gradssystemet">§ 3-7. Gradssystemet</a></li>
+<li class="lvl4"><a href="#3-8-grader-titler-og-yrkesutdanninger">§ 3-8. Grader, titler og yrkesutdanninger</a></li>
+<li class="lvl4"><a href="#3-9-resdoktor">§ 3-9. Æresdoktor</a></li>
+<li class="lvl4"><a href="#3-10-forbud-mot-misbruk-av-gradstitler">§ 3-10. Forbud mot misbruk av gradstitler</a></li>
+<li class="lvl4"><a href="#3-11-forbud-mot-misbruk-av-betegnelsene-universitet-vitenskapelig-hyskole-og-hyskole">§ 3-11. Forbud mot misbruk av betegnelsene universitet, vitenskapelig høyskole og høyskole</a></li>
+<li class="lvl4"><a href="#3-12-bevilling-som-statsautorisert-translatr">§ 3-12. Bevilling som statsautorisert translatør</a></li>
+<li class="lvl2"><a href="#kapittel-4-organisering-og-ledelse-ved-statlige-institusjoner">Kapittel 4 Organisering og ledelse ved statlige institusjoner</a></li>
+<li class="lvl4"><a href="#4-1-styret">§ 4-1. Styret</a></li>
+<li class="lvl4"><a href="#4-2-delegering">§ 4-2. Delegering</a></li>
+<li class="lvl4"><a href="#4-3-styrets-sammensetning">§ 4-3. Styrets sammensetning</a></li>
+<li class="lvl4"><a href="#4-4-valg-og-oppnevning-av-styret">§ 4-4. Valg og oppnevning av styret</a></li>
+<li class="lvl4"><a href="#4-5-ansatt-rektor">§ 4-5. Ansatt rektor</a></li>
+<li class="lvl4"><a href="#4-6-valgt-rektor">§ 4-6. Valgt rektor</a></li>
+<li class="lvl4"><a href="#4-7-administrerende-direktr">§ 4-7. Administrerende direktør</a></li>
+<li class="lvl4"><a href="#4-8-styrets-saksbehandling">§ 4-8. Styrets saksbehandling</a></li>
+<li class="lvl4"><a href="#4-9-alminnelig-flertallskrav-og-vedtaksfrhet">§ 4-9. Alminnelig flertallskrav og vedtaksførhet</a></li>
+<li class="lvl4"><a href="#4-10-adgang-til-a-avsette-styret">§ 4-10. Adgang til å avsette styret</a></li>
+<li class="lvl2"><a href="#kapittel-5-organisering-og-ledelse-ved-private-institusjoner">Kapittel 5 Organisering og ledelse ved private institusjoner</a></li>
+<li class="lvl4"><a href="#5-1-organisering-og-ledelse">§ 5-1. Organisering og ledelse</a></li>
+<li class="lvl4"><a href="#5-2-delegering">§ 5-2. Delegering</a></li>
+<li class="lvl4"><a href="#5-3-taushetsplikt">§ 5-3. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#5-4-krav-om-kjnnsbalanse">§ 5-4. Krav om kjønnsbalanse</a></li>
+<li class="lvl2"><a href="#kapittel-6-statstilskudd-egenbetaling-og-tilsyn-med-private-universiteter-og-hyskoler">Kapittel 6 Statstilskudd, egenbetaling og tilsyn med private universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#6-1-vilkar-for-statstilskudd">§ 6-1. Vilkår for statstilskudd</a></li>
+<li class="lvl4"><a href="#6-2-statstilskudd-egenbetaling-og-utdelinger">§ 6-2. Statstilskudd, egenbetaling og utdelinger</a></li>
+<li class="lvl4"><a href="#6-3-avtaler-med-nrstaende-parter">§ 6-3. Avtaler med nærstående parter</a></li>
+<li class="lvl4"><a href="#6-4-tilsyn-med-private-universiteter-og-hyskoler">§ 6-4. Tilsyn med private universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#6-5-rapporteringsplikt-og-meldeplikt">§ 6-5. Rapporteringsplikt og meldeplikt</a></li>
+<li class="lvl4"><a href="#6-6-krav-til-regnskap-og-revisjon">§ 6-6. Krav til regnskap og revisjon</a></li>
+<li class="lvl4"><a href="#6-7-palegg-om-retting">§ 6-7. Pålegg om retting</a></li>
+<li class="lvl4"><a href="#6-8-krav-om-tilbakebetaling-av-statstilskudd">§ 6-8. Krav om tilbakebetaling av statstilskudd</a></li>
+<li class="lvl4"><a href="#6-9-tvangsmulkt-og-overtredelsesgebyr">§ 6-9. Tvangsmulkt og overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#6-10-tilbaketrekking-av-akkreditering">§ 6-10. Tilbaketrekking av akkreditering</a></li>
+<li class="lvl2"><a href="#kapittel-7-ansettelser">Kapittel 7 Ansettelser</a></li>
+<li class="lvl4"><a href="#7-1-likestilling">§ 7-1. Likestilling</a></li>
+<li class="lvl4"><a href="#7-2-ansettelse-i-undervisnings-og-forskningsstillinger">§ 7-2. Ansettelse i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl4"><a href="#7-3-midlertidig-ansettelse-i-undervisnings-og-forskningsstillinger">§ 7-3. Midlertidig ansettelse i undervisnings- og forskningsstillinger</a></li>
+<li class="lvl4"><a href="#7-4-srskilte-ansettelsesregler-for-statlige-universiteter-og-hyskoler">§ 7-4. Særskilte ansettelsesregler for statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#7-5-vikar-for-valgt-eller-aremalsansatt-leder-ved-statlige-universiteter-og-hyskoler">§ 7-5. Vikar for valgt eller åremålsansatt leder ved statlige universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#7-6-ansettelse-pa-aremal">§ 7-6. Ansettelse på åremål</a></li>
+<li class="lvl4"><a href="#7-7-srregel-om-ekstraerverv">§ 7-7. Særregel om ekstraerverv</a></li>
+<li class="lvl4"><a href="#7-8-ansettelse-uten-utlysing">§ 7-8. Ansettelse uten utlysing</a></li>
+<li class="lvl4"><a href="#7-9-enerett-til-bruk-av-visse-stillingstitler">§ 7-9. Enerett til bruk av visse stillingstitler</a></li>
+<li class="lvl4"><a href="#7-10-klage-pa-vedtak-om-ordensstraff-oppsigelse-suspensjon-og-avskjed-ved-statlige-universiteter-og-hyskoler">§ 7-10. Klage på vedtak om ordensstraff, oppsigelse, suspensjon og avskjed ved statlige universiteter og høyskoler</a></li>
+<li class="lvl2"><a href="#kapittel-8-opptak-til-hyere-utdanning">Kapittel 8 Opptak til høyere utdanning</a></li>
+<li class="lvl4"><a href="#8-1-krav-for-opptak-til-hyere-utdanning">§ 8-1. Krav for opptak til høyere utdanning</a></li>
+<li class="lvl4"><a href="#8-2-opptak-pa-grunnlag-av-realkompetanse">§ 8-2. Opptak på grunnlag av realkompetanse</a></li>
+<li class="lvl4"><a href="#8-3-adgangsregulering-til-et-bestemt-studium">§ 8-3. Adgangsregulering til et bestemt studium</a></li>
+<li class="lvl4"><a href="#8-4-rangering">§ 8-4. Rangering</a></li>
+<li class="lvl4"><a href="#8-5-gjennomfring-av-opptak">§ 8-5. Gjennomføring av opptak</a></li>
+<li class="lvl2"><a href="#kapittel-9-godkjenning-av-utdanning-og-kompetanse">Kapittel 9 Godkjenning av utdanning og kompetanse</a></li>
+<li class="lvl4"><a href="#9-1-faglig-godkjenning-av-utdanning-fra-andre-norske-universiteter-og-hyskoler">§ 9-1. Faglig godkjenning av utdanning fra andre norske universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#9-2-faglig-godkjenning-av-utdanning-som-ikke-er-regulert-av-denne-loven-og-av-dokumentert-realkompetanse">§ 9-2. Faglig godkjenning av utdanning som ikke er regulert av denne loven, og av dokumentert realkompetanse</a></li>
+<li class="lvl4"><a href="#9-3-faglig-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-3. Faglig godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-4-godkjenning-av-faglig-jevngodhet-for-fullfrt-grad-fra-utenlandsk-hyere-utdanning">§ 9-4. Godkjenning av faglig jevngodhet for fullført grad fra utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-5-faglig-godkjenning-av-udokumentert-utenlandsk-hyere-utdanning">§ 9-5. Faglig godkjenning av udokumentert utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-6-vederlag-for-faglig-vurdering-av-utenlandsk-doktorgrad">§ 9-6. Vederlag for faglig vurdering av utenlandsk doktorgrad</a></li>
+<li class="lvl4"><a href="#9-7-generell-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-7. Generell godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-8-behandling-av-sknader-om-generell-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-8. Behandling av søknader om generell godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-9-samordning-av-vedtak-om-godkjenning-av-utenlandsk-hyere-utdanning">§ 9-9. Samordning av vedtak om godkjenning av utenlandsk høyere utdanning</a></li>
+<li class="lvl4"><a href="#9-10-forskrift-om-godkjenning">§ 9-10. Forskrift om godkjenning</a></li>
+<li class="lvl2"><a href="#kapittel-10-lringsmilj-studentrettigheter-og-studentrepresentasjon">Kapittel 10 Læringsmiljø, studentrettigheter og studentrepresentasjon</a></li>
+<li class="lvl4"><a href="#10-1-lringsmiljet-ved-universiteter-og-hyskoler">§ 10-1. Læringsmiljøet ved universiteter og høyskoler</a></li>
+<li class="lvl4"><a href="#10-2-universell-utforming">§ 10-2. Universell utforming</a></li>
+<li class="lvl4"><a href="#10-3-plikt-til-a-forebygge-og-forhindre-trakassering-og-seksuell-trakassering">§ 10-3. Plikt til å forebygge og forhindre trakassering og seksuell trakassering</a></li>
+<li class="lvl4"><a href="#10-4-rett-til-a-varsle-og-forbud-mot-gjengjeldelse">§ 10-4. Rett til å varsle og forbud mot gjengjeldelse</a></li>
+<li class="lvl4"><a href="#10-5-individuell-tilrettelegging-for-studenter">§ 10-5. Individuell tilrettelegging for studenter</a></li>
+<li class="lvl4"><a href="#10-6-tilrettelegging-for-gravide-studenter-og-rett-til-foreldrepermisjon">§ 10-6. Tilrettelegging for gravide studenter og rett til foreldrepermisjon</a></li>
+<li class="lvl4"><a href="#10-7-permisjon-fra-studier">§ 10-7. Permisjon fra studier</a></li>
+<li class="lvl4"><a href="#10-8-studentombud">§ 10-8. Studentombud</a></li>
+<li class="lvl4"><a href="#10-9-tilsyn-med-lringsmiljet">§ 10-9. Tilsyn med læringsmiljøet</a></li>
+<li class="lvl4"><a href="#10-10-lringsmiljutvalg">§ 10-10. Læringsmiljøutvalg</a></li>
+<li class="lvl4"><a href="#10-11-studentorgan">§ 10-11. Studentorgan</a></li>
+<li class="lvl4"><a href="#10-12-studentenes-representasjon-i-universiteters-og-hyskolers-organer">§ 10-12. Studentenes representasjon i universiteters og høyskolers organer</a></li>
+<li class="lvl2"><a href="#kapittel-11-undervisning-eksamen-sensur-klage-og-vitnemal">Kapittel 11 Undervisning, eksamen, sensur, klage og vitnemål</a></li>
+<li class="lvl4"><a href="#11-1-studieplan">§ 11-1. Studieplan</a></li>
+<li class="lvl4"><a href="#11-2-studiepoeng-og-studiear">§ 11-2. Studiepoeng og studieår</a></li>
+<li class="lvl4"><a href="#11-3-faglig-oppflging-individuell-utdanningsplan">§ 11-3. Faglig oppfølging – individuell utdanningsplan</a></li>
+<li class="lvl4"><a href="#11-4-rett-til-a-ga-opp-til-eksamen">§ 11-4. Rett til å gå opp til eksamen</a></li>
+<li class="lvl4"><a href="#11-5-skriftsprak-ved-eksamen">§ 11-5. Skriftspråk ved eksamen</a></li>
+<li class="lvl4"><a href="#11-6-gjennomfring-av-eksamen">§ 11-6. Gjennomføring av eksamen</a></li>
+<li class="lvl4"><a href="#11-7-gjennomfring-av-sensur">§ 11-7. Gjennomføring av sensur</a></li>
+<li class="lvl4"><a href="#11-8-rett-til-begrunnelse-for-karakter">§ 11-8. Rett til begrunnelse for karakter</a></li>
+<li class="lvl4"><a href="#11-9-klage-pa-formelle-feil-ved-eksamen">§ 11-9. Klage på formelle feil ved eksamen</a></li>
+<li class="lvl4"><a href="#11-10-klage-pa-karakter">§ 11-10. Klage på karakter</a></li>
+<li class="lvl4"><a href="#11-11-gjennomfring-av-klagesensur">§ 11-11. Gjennomføring av klagesensur</a></li>
+<li class="lvl4"><a href="#11-12-vitnemal-og-annen-dokumentasjon-av-resultater">§ 11-12. Vitnemål og annen dokumentasjon av resultater</a></li>
+<li class="lvl2"><a href="#kapittel-12-regler-om-adferd-og-reaksjoner">Kapittel 12 Regler om adferd og reaksjoner</a></li>
+<li class="lvl4"><a href="#12-1-falske-dokumenter">§ 12-1. Falske dokumenter</a></li>
+<li class="lvl4"><a href="#12-2-krav-om-politiattest">§ 12-2. Krav om politiattest</a></li>
+<li class="lvl4"><a href="#12-3-skikkethetsvurdering">§ 12-3. Skikkethetsvurdering</a></li>
+<li class="lvl4"><a href="#12-4-uredelig-opptreden-og-fusk">§ 12-4. Uredelig opptreden og fusk</a></li>
+<li class="lvl4"><a href="#12-5-forstyrrende-opptreden">§ 12-5. Forstyrrende opptreden</a></li>
+<li class="lvl4"><a href="#12-6-grovt-klanderverdig-opptreden">§ 12-6. Grovt klanderverdig opptreden</a></li>
+<li class="lvl4"><a href="#12-7-studentenes-taushetsplikt">§ 12-7. Studentenes taushetsplikt</a></li>
+<li class="lvl4"><a href="#12-8-bruk-av-plagg-som-helt-eller-delvis-dekker-ansiktet">§ 12-8. Bruk av plagg som helt eller delvis dekker ansiktet</a></li>
+<li class="lvl4"><a href="#12-9-rett-til-a-fa-dekket-utgifter-til-advokat">§ 12-9. Rett til å få dekket utgifter til advokat</a></li>
+<li class="lvl4"><a href="#12-10-domstolsprving-av-vedtak-om-utestenging-utelukkelse-uskikkethet-og-bortvisning">§ 12-10. Domstolsprøving av vedtak om utestenging, utelukkelse, uskikkethet og bortvisning</a></li>
+<li class="lvl4"><a href="#12-11-register-for-informasjonsutveksling-om-reaksjoner">§ 12-11. Register for informasjonsutveksling om reaksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-13-doktorgradsutdanninger">Kapittel 13 Doktorgradsutdanninger</a></li>
+<li class="lvl4"><a href="#13-1-om-doktorgradsutdanningene">§ 13-1. Om doktorgradsutdanningene</a></li>
+<li class="lvl4"><a href="#13-2-tvungen-avslutning-av-doktorgradsutdanninger">§ 13-2. Tvungen avslutning av doktorgradsutdanninger</a></li>
+<li class="lvl2"><a href="#kapittel-14-institusjonens-nemnd-for-studentsaker-og-klagebehandling">Kapittel 14 Institusjonens nemnd for studentsaker og klagebehandling</a></li>
+<li class="lvl4"><a href="#14-1-institusjonens-nemnd-for-studentsaker">§ 14-1. Institusjonens nemnd for studentsaker</a></li>
+<li class="lvl4"><a href="#14-2-nasjonale-klagenemnder">§ 14-2. Nasjonale klagenemnder</a></li>
+<li class="lvl4"><a href="#14-3-klage-pa-vedtak-om-tilskudd-til-internasjonalt-utdanningssamarbeid">§ 14-3. Klage på vedtak om tilskudd til internasjonalt utdanningssamarbeid</a></li>
+<li class="lvl2"><a href="#kapittel-15-nasjonale-databaser-rapportering-mv">Kapittel 15 Nasjonale databaser, rapportering mv.</a></li>
+<li class="lvl4"><a href="#15-1-portal-for-deling-av-vitnemal-og-dokumentasjon-av-kompetanse">§ 15-1. Portal for deling av vitnemål og dokumentasjon av kompetanse</a></li>
+<li class="lvl4"><a href="#15-2-database-for-forskningsinformasjon">§ 15-2. Database for forskningsinformasjon</a></li>
+<li class="lvl4"><a href="#15-3-database-for-statistikk-om-hyere-utdanning">§ 15-3. Database for statistikk om høyere utdanning</a></li>
+<li class="lvl2"><a href="#kapittel-16-nokut">Kapittel 16 NOKUT</a></li>
+<li class="lvl4"><a href="#16-1-nokuts-formal">§ 16-1. NOKUTs formål</a></li>
+<li class="lvl4"><a href="#16-2-nokuts-faglige-uavhengighet">§ 16-2. NOKUTs faglige uavhengighet</a></li>
+<li class="lvl4"><a href="#16-3-nokuts-evalueringer">§ 16-3. NOKUTs evalueringer</a></li>
+<li class="lvl4"><a href="#16-4-nokuts-styre">§ 16-4. NOKUTs styre</a></li>
+<li class="lvl2"><a href="#kapittel-17-diverse-regler">Kapittel 17 Diverse regler</a></li>
+<li class="lvl4"><a href="#17-1-forsk">§ 17-1. Forsøk</a></li>
+<li class="lvl4"><a href="#17-2-ikrafttredelse-og-opphevelse">§ 17-2. Ikrafttredelse og opphevelse</a></li>
+<li class="lvl4"><a href="#17-3-overgangsregler">§ 17-3. Overgangsregler</a></li>
+<li class="lvl4"><a href="#17-4-endringer-i-andre-lover">§ 17-4. Endringer i andre lover</a></li>
+<li class="lvl2"><a href="#vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2024-03-08-9.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2024-03-08-9.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2024-03-08-9.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2024-03-08-9.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2024-03-08-9.html">Observerte kildeutgaver</a> · <a href="../historie/universitets-og-høyskoleloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2024-03-08-9.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2024-03-08-9.html">Observerte kildeutgaver</a> · <a href="../historie/universitets-og-høyskoleloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2024-03-08-9.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-universiteter-og-hyskoler-universitets-og-hyskoleloven">Lov om universiteter og høyskoler (universitets- og høyskoleloven)</h1>
 <h2 id="kapittel-1-formal-og-virkeomrade">Kapittel 1 Formål og virkeområde</h2>
 <h4 id="1-1-formalet-med-universiteter-og-hyskoler">§ 1-1. Formålet med universiteter og høyskoler</h4>
 <p>Universiteters og høyskolers formål er å</p>
@@ -133,7 +458,7 @@ b. utenlandske borgere som kan ha rett til lån og stipend på samme vilkår som
 c. doktorgradskandidater
 d. studenter som er omfattet av et institusjonelt utvekslingssamarbeid. Institusjonene kan likevel kreve egenbetaling dersom dette ligger til grunn for utvekslingsavtalen.</p>
 <p>Departementet kan gi forskrift om unntak fra første ledd.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="2-7-srlig-ansvar-for-enkelte-institusjoner">§ 2-7. Særlig ansvar for enkelte institusjoner</h4>
 <p>Universiteter og høyskoler har et særlig ansvar for grunnforskning og kunstnerisk utviklingsarbeid innenfor de områdene der de tildeler doktorgrad. Departementet kan gi enkelte institusjoner et særskilt nasjonalt ansvar for forskning eller undervisning på bestemte fagområder.</p>
 <p>Norges teknisk-naturvitenskapelige universitet, Universitetet i Bergen, Universitetet i Oslo, Universitetet i Stavanger og Universitetet i Tromsø – Norges arktiske universitet skal bygge opp, drive og vedlikeholde museer med vitenskapelige samlinger og publikumsutstillinger. Departementet kan gi forskrift om samarbeid og arbeidsdeling mellom universitetene.</p>
@@ -148,7 +473,7 @@ d. studenter som er omfattet av et institusjonelt utvekslingssamarbeid. Institus
 <p>Et grunnvilkår for akkreditering som vitenskapelig høyskole er at institusjonen har en tydelig faglig profil, og at institusjonen har rett til å tildele minst én doktorgrad alene. En vesentlig del av institusjonens studietilbud, forskning eller kunstneriske utviklingsarbeid og faglige utviklingsarbeid skal være innenfor doktorgradenes faglige område.</p>
 <p>Et grunnvilkår for akkreditering som høyskole er at institusjonen har akkreditering for minst ett studietilbud som gir rett til å tildele en bachelorgrad alene.</p>
 <p>Departementet fastsetter egennavn på statlige universiteter og høyskoler. Private universiteter og høyskoler fastsetter egennavnet sitt selv. Universiteters og høyskolers egennavn skal beskrive hvilken institusjonskategori institusjonen tilhører.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="3-2-akkreditering-som-vilkar-for-a-tilby-hyere-utdanning">§ 3-2. Akkreditering som vilkår for å tilby høyere utdanning</h4>
 <p>Studietilbud i høyere utdanning skal være akkreditert av NOKUT eller av et universitet, en vitenskapelig høyskole eller en høyskole med myndighet til å akkreditere sine egne studietilbud.</p>
 <p>Akkreditering etter denne loven er et vedtak basert på en faglig vurdering av om en institusjon eller et studietilbud oppfyller standardene og kriteriene som er fastsatt i eller med hjemmel i denne loven.</p>
@@ -163,7 +488,7 @@ d. studenter som er omfattet av et institusjonelt utvekslingssamarbeid. Institus
 <p>Universiteter kan akkreditere egne studietilbud på alle nivåer.</p>
 <p>Vitenskapelige høyskoler og høyskoler med institusjonsakkreditering kan akkreditere egne studietilbud på lavere grads nivå. På fagområder der institusjonene kan tildele doktorgrad, kan de akkreditere egne studietilbud på høyere grads nivå. På fagområder der institusjonene ikke kan tildele doktorgrad, må de søke NOKUT om akkreditering av studietilbud på høyere grads- og doktorgradsnivå.</p>
 <p>Departementet kan trekke tilbake akkrediteringsmyndigheten etter andre og tredje ledd dersom NOKUT har funnet at en institusjon ikke tilfredsstiller kravene til kvalitetssikring som er fastsatt i eller med hjemmel i § 3-5 , eller dersom NOKUT har trukket tilbake akkrediteringen av en institusjon på grunn av manglende oppfyllelse av standardene og kriteriene for akkreditering som er fastsatt i eller med hjemmel i §§ 3-1 til 3-4 .</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="3-5-kvalitetssikring">§ 3-5. Kvalitetssikring</h4>
 <p>Universiteter og høyskoler skal ha et tilfredsstillende internt system for å sikre og videreutvikle utdanningskvaliteten. Studentevalueringer skal inngå i dette systemet.</p>
 <p>Kriteriene for det interne kvalitetsarbeidet ved universiteter og høyskoler og for NOKUTs eksterne kvalitetssikring skal være i samsvar med kravene i de europeiske standardene og retningslinjene for kvalitetssikring i høyere utdanning.</p>
@@ -203,7 +528,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Titler etter §§ 3-7 til 3-9 kan bare brukes ved oppnådd grad eller ved godkjenning av utenlandsk utdanning som faglig jevngod med norsk grad etter § 9-4 . Det er forbudt å bruke titler som uriktig gir inntrykk av å være av samme karakter som disse titlene, eller som kan forveksles med dem. Departementet kan gi forskrift om hvilke titler som er beskyttet.</p>
 <p>Departementet kan ilegge overtredelsesgebyr til den som forsettlig eller uaktsomt tildeler eller bruker en tittel alene eller som en del av en annen tittel uten å ha rett til det.</p>
 <p>Departementet kan gi forskrift om overtredelsesgebyr etter denne paragrafen.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="3-11-forbud-mot-misbruk-av-betegnelsene-universitet-vitenskapelig-hyskole-og-hyskole">§ 3-11. Forbud mot misbruk av betegnelsene universitet, vitenskapelig høyskole og høyskole</h4>
 <p>Betegnelsene universitet og vitenskapelig høyskole kan bare brukes av en institusjon som er akkreditert som universitet eller vitenskapelig høyskole, jf. § 3-2 , og som har fått vedtak om at den tilhører en slik institusjonskategori, jf. § 3-1 . Betegnelsen høyskole kan bare brukes av en institusjon som er akkreditert som høyskole, eller som gir akkrediterte studietilbud, jf. § 3-2 . Betegnelsen universitetssykehus kan bare brukes av virksomheter som er godkjent som universitetssykehus etter <a href="lov-1999-07-02-61.html">spesialisthelsetjenesteloven</a> .</p>
 <p>En institusjon som ikke har akkreditering etter første ledd, kan ikke bruke en betegnelse som gir inntrykk av å ha slik akkreditering, eller som er egnet til å forveksles med en betegnelse som er nevnt i første ledd. Den kan heller ikke markedsføre seg på en måte som gir inntrykk av at institusjonen har slik akkreditering.</p>
@@ -238,7 +563,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Et styremedlem som har fungert sammenhengende i vervet i åtte år ved begynnelsen av en periode, kan ikke gjenvelges eller gjenoppnevnes til styret innenfor samme gruppe. At et styremedlem har fungert sammenhengende i vervet i åtte år, er ikke til hinder for at vedkommende oppnevnes eller utpekes som styreleder.</p>
 <p>Kravene i <a href="lov-2017-06-16-51.html">likestillings- og diskrimineringsloven</a> § 28 om representasjon av begge kjønn skal være oppfylt innen den enkelte gruppe.</p>
 <p>Styret selv fastsetter nærmere regler om valg av styremedlemmer.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="4-5-ansatt-rektor">§ 4-5. Ansatt rektor</h4>
 <p>Rektor skal ansettes på åremål med mindre rektor er valgt etter § 4-6 . Styret selv lyser ut stillingen og ansetter rektor. Ansettelsesprosessen skal sikre at studentene og de ansatte blir hørt.</p>
 <p>Rektor er daglig leder for institusjonen innenfor de rammene styret fastsetter.</p>
@@ -249,7 +574,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>En valgt rektor som ikke allerede er fast ansatt ved institusjonen, trer inn i en åremålsstilling.</p>
 <p>Ved valg av rektor skal stemmene til de ansatte ved opptelling vektes 70–75 prosent, og stemmene til studentene skal vektes 25–30 prosent. Dersom rektor velges i særskilt valgforsamling, skal stemmene vektes tilsvarende.</p>
 <p>Styret selv fastsetter nærmere regler om valget.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="4-7-administrerende-direktr">§ 4-7. Administrerende direktør</h4>
 <p>Dersom en institusjon har valgt rektor etter § 4-6 , skal det ansettes en administrerende direktør ved institusjonen.</p>
 <p>Direktøren skal være leder for den samlede administrative virksomheten ved institusjonen innenfor de rammene styret fastsetter.</p>
@@ -272,7 +597,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Styret selv skal fatte vedtak om at det er forsvarlig å starte opp et nytt studieår. Vedtaket skal fattes før studiestart.</p>
 <h4 id="5-2-delegering">§ 5-2. Delegering <a class="para-history" href="../historikk/lov-2024-03-08-9/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Styret kan delegere avgjørelsesmyndigheten til andre ved institusjonen med mindre det er fastsatt i loven at styret selv skal ta avgjørelsen, eller det er andre særlige begrensninger i adgangen til å delegere.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="5-3-taushetsplikt">§ 5-3. Taushetsplikt</h4>
 <p>Reglene om taushetsplikt i <a href="lov-2025-06-20-81.html">forvaltningsloven</a> §§ 13 til 13 e gjelder for private universiteter og høyskoler.</p>
 <h4 id="5-4-krav-om-kjnnsbalanse">§ 5-4. Krav om kjønnsbalanse</h4>
@@ -288,7 +613,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Private universiteter og høyskoler som mottar statstilskudd, skal kreve egenbetaling fra studenter som er statsborgere i land utenfor EØS eller Sveits. For studenter som er omfattet av § 2-6 andre ledd , bestemmer institusjonen selv om den vil ta egenbetaling.</p>
 <p>Private universiteter og høyskoler som ikke mottar statstilskudd, kan ikke foreta utdelinger som fører til at egenkapitalen blir lavere enn 20 prosent av verdien av eiendelene.</p>
 <p>Departementet kan gi forskrift om disponering av statstilskudd og egenbetaling, blant annet ved avvikling av akkreditert virksomhet.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="6-3-avtaler-med-nrstaende-parter">§ 6-3. Avtaler med nærstående parter</h4>
 <p>Private universiteter og høyskoler kan overfor nærstående parter ikke inngå avtaler eller overføre midler på vilkår som avviker fra det som ville vært fastsatt mellom uavhengige parter. Institusjonene må kunne dokumentere at de ikke har avtaler på slike vilkår.</p>
 <p>Departementet kan kreve dokumentasjon fra nærstående parter som det er behov for i tilsynet med private universiteter og høyskoler etter første ledd.</p>
@@ -306,7 +631,7 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Private universiteter og høyskoler som er små foretak etter <a href="lov-1998-07-17-56.html">regnskapsloven</a> , skal følge reglene i regnskapsloven for mellomstore foretak. Unntaket fra revisjonsplikten i <a href="lov-2020-11-20-128.html">revisorloven</a> § 2-1 , jf. aksjeloven § 7-6 , gjelder ikke for private universiteter og høyskoler.</p>
 <p>Private universiteter og høyskoler skal ha et økonomisk skille mellom de akkrediterte og de ikke-akkrediterte delene av virksomheten. Det skal gå fram av regnskapene at institusjonene opprettholder et slikt skille.</p>
 <p>Departementet kan gi forskrift om krav til regnskap, dokumentasjon og revisjon.</p>
-<p><em>Endret ved lov 10 april 2025 nr. 11 (i kraft 1 aug 2025 iflg. res. 24 juni 2025 nr. 1203 ).</em></p>
+<p class="note">Endret ved lov 10 april 2025 nr. 11 (i kraft 1 aug 2025 iflg. res. 24 juni 2025 nr. 1203 ).</p>
 <h4 id="6-7-palegg-om-retting">§ 6-7. Pålegg om retting</h4>
 <p>Dersom departementet avdekker brudd på reglene som er fastsatt i eller med hjemmel i denne loven eller i grunnlaget for tilskuddet, kan departementet pålegge private universiteter og høyskoler å rette forholdene innen en gitt frist.</p>
 <h4 id="6-8-krav-om-tilbakebetaling-av-statstilskudd">§ 6-8. Krav om tilbakebetaling av statstilskudd</h4>
@@ -328,13 +653,13 @@ d. obligatoriske nasjonale deleksamener i enkelte emner, og om resultatet skal f
 <p>Ansettelsesorganet kan i særskilte tilfeller fravike kravet om sakkyndig vurdering for undervisnings- og forskningsstillinger som ikke er førstestillinger eller professorstillinger.</p>
 <p>Styret kan opprette ett eller flere ansettelsesutvalg som skal ansette personer i undervisnings- og forskningsstillinger. Styret selv skal fastsette sammensetningen av ansettelsesutvalgene. Studentene skal være representert i ansettelsesutvalget dersom ikke styret enstemmig bestemmer noe annet.</p>
 <p>Departementet kan gi forskrift om framgangsmåten og kriteriene for ansettelse og opprykk i undervisnings- og forskningsstillinger.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="7-3-midlertidig-ansettelse-i-undervisnings-og-forskningsstillinger">§ 7-3. Midlertidig ansettelse i undervisnings- og forskningsstillinger</h4>
 <p>Dersom ingen søkere tilfredsstiller kvalifikasjonskravene for ansettelse i en utlyst undervisnings- og forskningsstilling og det på grunn av undervisningssituasjonen er helt nødvendig å ansette noen, kan et universitet eller en høyskole ansette en søker midlertidig i inntil ett år i en lavere stilling. Søkeren må oppfylle kvalifikasjonskravene til den lavere stillingen.</p>
 <p>Permisjoner som den ansatte har krav på etter lov eller tariffavtale, skal ikke medregnes ved beregning av ansettelsesperioden etter første ledd.</p>
 <h4 id="7-4-srskilte-ansettelsesregler-for-statlige-universiteter-og-hyskoler">§ 7-4. Særskilte ansettelsesregler for statlige universiteter og høyskoler <a class="para-history" href="../historikk/lov-2024-03-08-9/para-7-4.html" title="Endringshistorikk for § 7-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved statlige universiteter og høyskoler skal styret selv ansette avdelingsledere og administrativ leder. Styret selv kan fastsette at avdelingsleder skal ansette leder for grunnenhet.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="7-5-vikar-for-valgt-eller-aremalsansatt-leder-ved-statlige-universiteter-og-hyskoler">§ 7-5. Vikar for valgt eller åremålsansatt leder ved statlige universiteter og høyskoler</h4>
 <p>Ved statlige universiteter og høyskoler skal en vikar for en arbeidstaker som har permisjon for å være valgt eller åremålsansatt leder, fratre stillingen uten oppsigelse etter fire år.</p>
 <p>Dersom vikariatet har vart i mer enn tre år, skal personen om mulig tilbys annen passende stilling i virksomheten. Vikaren får også fortrinnsrett til ansettelse i staten på samme vilkår som etter <a href="lov-2017-06-16-67.html">statsansatteloven</a> § 24 .</p>
@@ -360,7 +685,7 @@ j. studentombud</p>
 <p>Åremålsperioden skal være fra to til seks år.</p>
 <p>Dersom særlige grunner taler for det, kan institusjonene ansette personer i ekstraerverv uten at stillingen er lyst ut først.</p>
 <p>Departementet kan gi forskrift om varighet.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="7-8-ansettelse-uten-utlysing">§ 7-8. Ansettelse uten utlysing</h4>
 <p>Dersom særlige grunner taler for det, kan styret selv ansette personer i undervisnings- og forskningsstillinger uten at stillingene er lyst ut først. Dette gjelder ikke dersom mer enn ett medlem av styret motsetter seg det.</p>
 <p>Dersom særlige grunner taler for det, kan styret ved statlige universiteter og høyskoler selv ansette personer i stillinger som prorektor eller leder for avdeling og grunnenhet uten at stillingen er lyst ut først.</p>
@@ -380,7 +705,7 @@ j. studentombud</p>
 <p>Departementet kan gi forskrift om at institusjonene i særskilte tilfeller kan gi søkere dispensasjon fra kravet om generell studiekompetanse ved opptak til et enkelt studium dersom søkerne har de nødvendige faglige forutsetningene for det aktuelle studiet.</p>
 <p>Departementet kan gi forskrift om spesielle opptakskrav dersom hensynet til gjennomføringen av studiet eller utøvelse av yrket gjør det nødvendig.</p>
 <p>Departementet kan gi forskrift om opptak til mastergradsstudier. Institusjonene kan gi forskrift om faglige minstekrav ved opptak til mastergradsstudier.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="8-2-opptak-pa-grunnlag-av-realkompetanse">§ 8-2. Opptak på grunnlag av realkompetanse</h4>
 <p>Universiteter og høyskoler kan gi en søker som er 25 år eller eldre i opptaksåret, og som ikke har generell studiekompetanse, opptak til et studium dersom søkeren på grunnlag av realkompetanse har de nødvendige faglige forutsetningene for det aktuelle studiet.</p>
 <h4 id="8-3-adgangsregulering-til-et-bestemt-studium">§ 8-3. Adgangsregulering til et bestemt studium</h4>
@@ -514,13 +839,13 @@ c. institusjonens ressurser.</p>
 <p>Klageinstansen kan oppheve sensurvedtaket og vedta ny sensur eller ny eksamen for den som har klaget på formelle feil. Klageinstansen kan ikke oppheve sensurvedtaket eller vedta ny sensur eller ny eksamen for andre enn den som har klaget på formelle feil. Dersom klageinstansen mener at institusjonens vurdering av saken er mangelfull, kan klageinstansen sende saken tilbake til institusjonen for ny vurdering.</p>
 <p>Dersom en student har krevd begrunnelse etter § 11-8 eller klaget på karakteren etter § 11-10 , løper fristen for å klage på formelle feil fra studenten har fått begrunnelsen for karakteren eller resultatet fra klagen på karakteren.</p>
 <p>Styret selv eller institusjonens nemnd for studentsaker, jf. § 14-1 , er klageinstans for institusjonens vedtak etter denne paragrafen.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="11-10-klage-pa-karakter">§ 11-10. Klage på karakter <a class="para-history" href="../historikk/lov-2024-03-08-9/para-11-10.html" title="Endringshistorikk for § 11-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En student kan klage skriftlig på sensurvedtaket sitt innen tre uker etter at eksamensresultatet er kunngjort. Dersom studenten har krevd begrunnelse etter § 11-8 eller klaget på formelle feil etter § 11-9 , løper klagefristen fra studenten har fått begrunnelsen for karakteren eller resultatet av klagen på formelle feil.</p>
 <p>Det er individuell klagerett ved gruppeeksamen. En endring av karakter etter klage ved gruppeeksamen vil bare gjelde for den som har klaget.</p>
 <p>Ved bruk av løpende vurdering kan institusjonen bestemme om studenten kan klage på karakteren på den enkelte prestasjonen, eller om studenten bare kan klage på sensurvedtaket for emnet.</p>
 <p>Sensur av muntlig prestasjon, praksis og lignende som etter sin art ikke lar seg etterprøve, kan ikke påklages.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h4 id="11-11-gjennomfring-av-klagesensur">§ 11-11. Gjennomføring av klagesensur</h4>
 <p>Dersom en student klager på karakteren, skal universiteter og høyskoler gjennomføre en klagesensur uten ugrunnet opphold.</p>
 <p>Det skal være minst to nye sensorer, hvorav minst én ekstern, ved klagesensuren. Sensorene skal ikke få opprinnelig karakter, opprinnelig sensors begrunnelse for denne eller studentens begrunnelse for klagen.</p>
@@ -534,7 +859,7 @@ c. institusjonens ressurser.</p>
 <p>Institusjonene skal på forespørsel gi dokumentasjon av resultater til studenter som ikke har fullført utdanningen.</p>
 <p>For personer som ikke er tatt opp som student på det aktuelle studiet, skal institusjonen angi på vitnemålet eller i annen dokumentasjon av resultatet om kunnskapene og ferdighetene er prøvd på en annen måte enn for studenter som er tatt opp ved studiet.</p>
 <p>Institusjonene kan legge til rette for at opplysninger om vitnemål og annen dokumentasjon av resultater automatisk kan deles via en portal for deling av vitnemål og dokumentasjon av kompetanse, jf. § 15-1 .</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h2 id="kapittel-12-regler-om-adferd-og-reaksjoner">Kapittel 12 Regler om adferd og reaksjoner</h2>
 <h4 id="12-1-falske-dokumenter">§ 12-1. Falske dokumenter <a class="para-history" href="../historikk/lov-2024-03-08-9/para-12-1.html" title="Endringshistorikk for § 12-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som har søkt om opptak til studier, godkjenning av utdanning eller godkjenning av kompetanse ved å bruke falske dokumenter, skal få dokumentene inndratt og skal ikke gis opptak eller få godkjent utdanning. Det kan gis en karantenetid på inntil ett år. Dersom det er gitt opptak eller godkjenning av en utdanning på grunnlag av falske dokumenter, skal opptaket eller godkjenningen annulleres.</p>
@@ -543,14 +868,14 @@ c. institusjonens ressurser.</p>
 <p>Dersom den som behandler saker om opptak eller om godkjenning av utdanning og kompetanse etter denne loven, oppdager at en søker eller student har levert falske dokumenter, skal forholdet anmeldes til politiet.</p>
 <p>Dersom en eksamen eller en obligatorisk aktivitet blir annullert, skal studenten levere tilbake eventuelle vitnemål eller annen dokumentasjon av resultater til institusjonen. Dersom en student ikke leverer vitnemålet eller annen dokumentasjon av resultater tilbake innen gitt frist, kan institusjonen kreve namsfogdens hjelp til tilbakelevering i samsvar med reglene i <a href="lov-1992-06-26-86.html">tvangsfullbyrdelsesloven</a> kapittel 13 .</p>
 <p>Departementet kan gi forskrift om hva som anses som falske dokumenter.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</p>
 <h4 id="12-2-krav-om-politiattest">§ 12-2. Krav om politiattest <a class="para-history" href="../historikk/lov-2024-03-08-9/para-12-2.html" title="Endringshistorikk for § 12-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>I studier der studenter kan komme i kontakt med mindreårige som del av klinisk undervisning eller praksis, skal universiteter og høyskoler kreve at studentene legger fram politiattest som nevnt i <a href="lov-2010-05-28-16.html">politiregisterloven</a> § 39 første ledd . Attesten kan kreves framlagt ved opptak og underveis i studiet. I tillegg gjelder særlige regler om politiattest for bestemte typer yrkesutøvelse tilsvarende for studenter som deltar i klinisk undervisning eller praksis.</p>
 <p>Universiteter og høyskoler kan utestenge en student fra klinisk undervisning og praksis dersom studenten er dømt eller har vedtatt forelegg for forhold som innebærer at det må anses uforsvarlig at studenten deltar i arbeid med pasienter, brukere, barnehagebarn, elever eller andre.</p>
 <p>En student som er siktet eller tiltalt for straffbart forhold som er omtalt i politiregisterloven § 39 første ledd eller i politiattester etter første ledd, kan midlertidig utelukkes fra klinisk undervisning og praksis til en rettskraftig dom foreligger eller saken er henlagt, dersom det er nødvendig av hensyn til sikkerheten eller behandlingsmiljøet for pasienter, brukere, barnehagebarn, elever eller andre som studenten vil komme i kontakt med.</p>
 <p>Vedtak om utestenging og utelukkelse fra klinisk undervisning og praksis fattes av styret selv eller institusjonens nemnd for studentsaker, jf. § 14-1 .</p>
 <p>Departementet kan gi forskrift om gjennomføring av kravet om politiattest, blant annet om saksbehandling og frister.</p>
-<p><em>Endret ved lover 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ), 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lover 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ), 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="12-3-skikkethetsvurdering">§ 12-3. Skikkethetsvurdering</h4>
 <p>Departementet kan fastsette at universiteter og høyskoler på enkelte studier skal gjøre en vurdering av om den enkelte student er skikket for yrket.</p>
 <p>Institusjonene skal gjennom hele studiet gjøre en løpende skikkethetsvurdering av alle studenter dersom det er fastsatt krav om skikkethetsvurdering på det aktuelle studiet. For å få vitnemål må studenten være vurdert som skikket for yrket.</p>
@@ -566,7 +891,7 @@ c. institusjonens ressurser.</p>
 <p>Vedtak etter denne paragrafen fattes av styret selv eller institusjonens nemnd for studentsaker, jf. § 14-1 . Vedtak om utestenging og tap av eksamensrett fattes med to tredels flertall.</p>
 <p>Dersom en eksamen eller en obligatorisk aktivitet blir annullert, skal studenten levere tilbake eventuelle vitnemål og annen dokumentasjon av resultater til institusjonen. Dersom en student ikke leverer vitnemålet eller annen dokumentasjon av resultater tilbake til institusjonen innen gitt frist, kan institusjonen kreve namsfogdens hjelp til tilbakelevering i samsvar med reglene i tvangsfullbyrdelsesloven kapittel 13 .</p>
 <p>Dersom vitnemålet kan danne grunnlag for autorisasjon for yrkesutøvelse, skal institusjonen gi melding om annulleringen til den rette myndigheten.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ).</p>
 <h4 id="12-5-forstyrrende-opptreden">§ 12-5. Forstyrrende opptreden</h4>
 <p>Universiteter og høyskoler kan med umiddelbar virkning bortvise en student som forstyrrer undervisningen eller medstudenters arbeid.</p>
 <p>Dersom en student opptrer på en måte som virker grovt forstyrrende for medstudenters arbeid eller for virksomheten ved institusjonen ellers, og fortsetter med slik opptreden tross skriftlig advarsel fra institusjonen, kan studenten bortvises fra nærmere bestemte områder ved institusjonen for inntil ett år.</p>
@@ -590,7 +915,7 @@ c. opptrådt grovt usømmelig.</p>
 <p>Studenter har rett til å få dekket rimelige og nødvendige utgifter til bistand fra advokat eller annen fullmektig i saker som gjelder utestenging etter §§ 12-1 til 12-8 , utelukkelse etter § 12-2 , uskikkethet etter § 12-3 og bortvisning etter §§ 12-5 og 12-8 . Departementet kan gi forskrift om hvor høye utgifter studenter har rett til å få dekket.</p>
 <p>Retten til dekning av utgifter gjelder fra det tidspunktet det tas avgjørelse om å fremme saken.</p>
 <p>Utgiftene til advokat eller annen fullmektig dekkes av det enkelte universitet eller den enkelte høyskole. Salærforskriften gjelder med unntak av reglene i § 4 om hvem som fastsetter salæret, og reglene i § 13 om klage og anke. Det er den enkelte institusjon som fastsetter salæret, og vedtak om salærfastsettelse kan påklages til departementet eller en nasjonal klagenemnd som er oppnevnt av departementet, jf. § 14-2 .</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="12-10-domstolsprving-av-vedtak-om-utestenging-utelukkelse-uskikkethet-og-bortvisning">§ 12-10. Domstolsprøving av vedtak om utestenging, utelukkelse, uskikkethet og bortvisning</h4>
 <p>Studenter kan bringe vedtak om utestenging etter §§ 12-1 til 12-8 , utelukkelse etter § 12-2 , uskikkethet etter § 12-3 og bortvisning etter §§ 12-5 og 12-8 inn for prøving ved tingretten i rettskretsen der universitetets eller høyskolens administrasjon har sitt hovedsete. Et slikt søksmål må reises innen tre måneder etter at det endelige vedtaket kom fram til studenten. Plikten i <a href="lov-2005-06-17-90.html">tvisteloven</a> § 6-2 til å bruke forliksrådet gjelder ikke.</p>
 <p>Retten kan prøve alle sider av vedtaket.</p>
@@ -615,7 +940,7 @@ c. opptrådt grovt usømmelig.</p>
 <p>Nemnda kan ikke instrueres i behandlingen av klagesaker.</p>
 <p>Nemnda skal ha fem medlemmer med personlige varamedlemmer. Lederen og vara for lederen skal være jurister, jf. <a href="lov-2022-05-12-28.html">advokatloven</a> § 67 . Lederen og vara for lederen kan ikke være ansatt ved institusjonen. To av medlemmene skal være studenter. Representanter for institusjonens eier eller medlemmer av institusjonens styre kan ikke være medlemmer av nemnda.</p>
 <p>Nemnda er vedtaksfør når lederen eller varaen for lederen og to andre medlemmer er til stede.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 60 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1141 ).</p>
 <h4 id="14-2-nasjonale-klagenemnder">§ 14-2. Nasjonale klagenemnder</h4>
 <p>Departementet kan opprette nasjonale klagenemnder som skal behandle klager på enkeltvedtak og andre avgjørelser på bestemte områder.</p>
 <p>Departementet kan gi forskrift om klagenemnder og om saksbehandlingen i nemndene.</p>
@@ -655,7 +980,7 @@ d. evalueringer for å vurdere kvaliteten i høyere utdanning.</p>
 <p>Styrets medlemmer skal oppnevnes for inntil fire år. Studentrepresentantene skal oppnevnes for inntil to år. Departementet skal for samme periode oppnevne varamedlemmer, inkludert personlige varamedlemmer for studentrepresentantene. Kravene i likestillings- og diskrimineringsloven § 28 første ledd skal oppfylles for studentrepresentantene og de øvrige medlemmene hver for seg.</p>
 <p>Medlemmer av styret kan ikke inneha ledende stillinger eller verv ved universiteter, høyskoler eller fagskoler.</p>
 <p>Styret skal ansette daglig leder for NOKUT på åremål. Åremålsperioden skal være seks år.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 101 (i kraft 1 aug 2025 iflg. res. 20 juni 2025 nr. 1092 ).</p>
 <h2 id="kapittel-17-diverse-regler">Kapittel 17 Diverse regler</h2>
 <h4 id="17-1-forsk">§ 17-1. Forsøk</h4>
 <p>Departementet kan gjøre tidsavgrensede unntak fra denne loven med forskrifter i forbindelse med pedagogiske eller organisatoriske forsøk.</p>
@@ -669,6 +994,8 @@ d. evalueringer for å vurdere kvaliteten i høyere utdanning.</p>
 <h2 id="vedlegg-samisk-oversettelse">Vedlegg. Samisk oversettelse</h2>
 <p>Se her for å lese loven på nordsamisk: pdf-lenke .</p>
 <p>Oversettelsen av universitets- og høyskoleloven er levert av Kunnskapsdepartementet. Oversettelsen er à jour per 1. august 2025. Dette er en uoffisiell oversettelse av den norske versjonen av loven. Hvis det er forskjeller mellom samisk og norsk versjon, så gjelder den norske versjonen slik den er kunngjort i Norsk Lovtidend.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

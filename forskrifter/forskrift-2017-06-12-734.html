@@ -19,69 +19,146 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2017-06-12-734.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om soner ved påvisning av CWD" href="../feeds/forskrift-2017-06-12-734.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>Forskrift om soner ved påvisning av CWD</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2017-06-12-734</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2017-06-12</dd>
-<dt>Sist endret</dt><dd>forskrift/2021-06-09-1843</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-12-734" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-definisjoner-og-soner">Kapittel I. Formål, virkeområde, definisjoner og soner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-soner">§ 4. Soner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tiltak-i-sonene">Kapittel II. Tiltak i sonene</a></li>
+<li class="lvl4"><a href="#5-forbud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 5. Forbud for å hindre smittespredning i og fra sonene</a></li>
+<li class="lvl4"><a href="#6-bruk-av-salt">§ 6. Bruk av salt</a></li>
+<li class="lvl4"><a href="#7-pabud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 7. Påbud for å hindre smittespredning i og fra sonene</a></li>
+<li class="lvl4"><a href="#8-gjestebeiting">§ 8. Gjestebeiting</a></li>
+<li class="lvl2"><a href="#kapittel-iii-administrative-bestemmelser-straff-dispensasjon-og-ikrafttredelse">Kapittel III. Administrative bestemmelser, straff, dispensasjon og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-tilsyn-og-vedtak">§ 9. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#10-straff">§ 10. Straff</a></li>
+<li class="lvl4"><a href="#11-dispensasjon">§ 11. Dispensasjon</a></li>
+<li class="lvl4"><a href="#12-ikrafttredelse">§ 12. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-hardangervidda-sonen1">Vedlegg – Hardangervidda-sonen1</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2021-06-09-1843.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-12-734.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om soner ved påvisning av Chronic Wasting Disease (CWD-sone)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-12-734.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2017-06-12-734 <code>forskrift/2017-06-12-734</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om soner ved påvisning av CWD</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>12.06.2017</td></tr>
+<tr><th>Sist endret</th><td>FOR-2021-06-09-1843 <code>forskrift/2021-06-09-1843</code> fra 09.06.2021</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2017-06-12-734" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-formal-virkeomrade-definisjoner-og-soner">Kapittel I. Formål, virkeområde, definisjoner og soner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-virkeomrade">§ 2. Virkeområde</a></li>
+<li class="lvl4"><a href="#3-definisjoner">§ 3. Definisjoner</a></li>
+<li class="lvl4"><a href="#4-soner">§ 4. Soner</a></li>
+<li class="lvl2"><a href="#kapittel-ii-tiltak-i-sonene">Kapittel II. Tiltak i sonene</a></li>
+<li class="lvl4"><a href="#5-forbud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 5. Forbud for å hindre smittespredning i og fra sonene</a></li>
+<li class="lvl4"><a href="#6-bruk-av-salt">§ 6. Bruk av salt</a></li>
+<li class="lvl4"><a href="#7-pabud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 7. Påbud for å hindre smittespredning i og fra sonene</a></li>
+<li class="lvl4"><a href="#8-gjestebeiting">§ 8. Gjestebeiting</a></li>
+<li class="lvl2"><a href="#kapittel-iii-administrative-bestemmelser-straff-dispensasjon-og-ikrafttredelse">Kapittel III. Administrative bestemmelser, straff, dispensasjon og ikrafttredelse</a></li>
+<li class="lvl4"><a href="#9-tilsyn-og-vedtak">§ 9. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#10-straff">§ 10. Straff</a></li>
+<li class="lvl4"><a href="#11-dispensasjon">§ 11. Dispensasjon</a></li>
+<li class="lvl4"><a href="#12-ikrafttredelse">§ 12. Ikrafttredelse</a></li>
+<li class="lvl2"><a href="#vedlegg-hardangervidda-sonen1">Vedlegg – Hardangervidda-sonen1</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-12-734.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2017-06-12-734.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2017-06-12-734.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2017-06-12-734.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2017-06-12-734.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-12-734.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2017-06-12-734.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2017-06-12-734.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2017-06-12-734.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-soner-ved-pavisning-av-chronic-wasting-disease-cwd-sone">Forskrift om soner ved påvisning av Chronic Wasting Disease (CWD-sone)</h1>
 <h2 id="kapittel-i-formal-virkeomrade-definisjoner-og-soner">Kapittel I. Formål, virkeområde, definisjoner og soner</h2>
 <p>Kapitteloverskrift tilføyd ved forskrift 16 sep 2020 nr. 1777 .</p>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriftens formål er å begrense spredning av Chronic Wasting Disease (CWD) hos hjortedyr i og fra soner rundt steder der klassisk skrantesjuke er påvist.</p>
-<p><em>Endret ved forskrift 9 juni 2021 nr. 1843 .</em></p>
+<p class="note">Endret ved forskrift 9 juni 2021 nr. 1843 .</p>
 <h4 id="2-virkeomrade">§ 2. Virkeområde</h4>
 <p>Forskriften gjelder i de sonene som opprettes i denne forskriften. Forskriften retter seg mot enhver.</p>
 <h4 id="3-definisjoner">§ 3. Definisjoner</h4>
@@ -95,7 +172,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
   c. kommunen Ulvik nordøst for elva Tysso til Stokkvatnet og til Espelandsvatnet.</li>
 <li>Hardangervidda-sonen: Geografisk avgrensning tilsvarende Hardangervidda villreinområdet sør for riksveg 7, se vedlegg.</li>
 </ol>
-<p><em>Endret ved forskrifter 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 16 sep 2020 nr. 1777 , 9 juni 2021 nr. 1843 .</em></p>
+<p class="note">Endret ved forskrifter 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 16 sep 2020 nr. 1777 , 9 juni 2021 nr. 1843 .</p>
 <h2 id="kapittel-ii-tiltak-i-sonene">Kapittel II. Tiltak i sonene</h2>
 <p>Kapitteloverskrift tilføyd ved forskrift 16 sep 2020 nr. 1777 , endret ved forskrift 9 juni 2021 nr. 1843 .</p>
 <h4 id="5-forbud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 5. Forbud for å hindre smittespredning i og fra sonene</h4>
@@ -107,7 +184,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 b. utbeinet kjøtt, slakt av kalv, materiale som skal til avfallshåndtering etter avtale med Mattilsynet, og materiale til forskning eller prøvetaking.
 c. dersom negativt prøvesvar for Chronic Wasting Disease foreligger for dyret.
 d. slakt eller deler av slakt som holdes under smittevernfaglig forsvarlig kontroll av en jeger inntil negativt prøvesvar foreligger.</p>
-<p><em>Endret ved forskrifter 6 juli 2018 nr. 1163 , 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 20 mars 2020 nr. 384 , 9 juni 2021 nr. 1843 .</em></p>
+<p class="note">Endret ved forskrifter 6 juli 2018 nr. 1163 , 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 20 mars 2020 nr. 384 , 9 juni 2021 nr. 1843 .</p>
 <h4 id="6-bruk-av-salt">§ 6. Bruk av salt</h4>
 <p>I sonene er det forbudt å sette ut eller bruke salt til beitedyr utendørs. Salt omfatter salter og mineraler, herunder løssalt og slikkestein.</p>
 <p>Det er likevel tillatt å gi beitedyr salt fra en salteinnretning i normal beiteperiode dersom</p>
@@ -120,37 +197,39 @@ c. salteinnretningen er plassert med en avstand på minimum 50 meter og maksimum
 <p>Salteinnretninger skal være merket med eiers navn og telefonnummer, alternativt med dyreholds-ID eller organisasjonsnummer.</p>
 <p>Grinder, lemmer og lignende som er satt opp for å skjerme salteplasser, skal ikke åpnes eller fjernes, med mindre Mattilsynet bestemmer annet. All aktivitet innenfor skjermede salteplasser i området som er avgrenset av riksvei 52 og Lærdalen i nord, Sognefjorden og Aurlandsfjorden i vest, fylkesvei 50 i sør-vest, og riksvei 7 og kommunegrensen mot Gol i sør-øst, er forbudt.</p>
 <p>I Hardangervidda-sonen er det forbudt å bruke salteplasser som har vært benyttet i perioden 2015 til 2020.</p>
-<p><em>Tilføyd ved forskrift 20 mars 2020 nr. 384 , endret ved forskrift 9 juni 2021 nr. 1843 (tidligere § 5a).</em></p>
+<p class="note">Tilføyd ved forskrift 20 mars 2020 nr. 384 , endret ved forskrift 9 juni 2021 nr. 1843 (tidligere § 5a).</p>
 <h4 id="7-pabud-for-a-hindre-smittespredning-i-og-fra-sonene">§ 7. Påbud for å hindre smittespredning i og fra sonene</h4>
 <p>Fôr som lagres på innmark og som oppsøkes av hjortedyr, skal sikres mot at ville hjortedyr får tilgang til fôret i perioden 15. oktober til 1. mai.</p>
 <p>Deler av døde hjortedyr skal ikke være tilgjengelige for andre dyr minst frem til negativt prøvesvar for Chronic Wasting Disease for dyret foreligger. Delene skal oppbevares under kontroll i denne perioden. Deler av hjortedyr som legges igjen i naturen i samsvar med god jaktpraksis, kan alternativt dekkes til.</p>
 <p>Kartreferanse til fellingsstedet og stedet der deler av hjortedyr ble lagt igjen i naturen skal oppgis til myndighetene ved forespørsel.</p>
 <p>Det er påbudt å rengjøre utstyr og redskaper som er benyttet i jakt på hjortedyr i sonene. Det er i tillegg påbudt å desinfisere utstyr og redskaper som har vært i kontakt med hjortedyr, blodsøl e.l. fra hjortedyr i sonene, så fremt negativt prøvesvar ikke foreligger.</p>
 <p>Enhver som har hatt salteplasser som har vært benyttet i perioden 2015 til 2020 i Hardangervidda-sonen, skal rapportere inn GPS-koordinater eller informasjon om beliggenhet for disse plassene til Mattilsynet.</p>
-<p><em>Endret ved forskrifter 23 nov 2018 nr. 1768 , 9 juni 2021 nr. 1843 (tidligere § 6).</em></p>
+<p class="note">Endret ved forskrifter 23 nov 2018 nr. 1768 , 9 juni 2021 nr. 1843 (tidligere § 6).</p>
 <h4 id="8-gjestebeiting">§ 8. Gjestebeiting</h4>
 <p>Det er ikke tillatt med ny gjestebeiting i sonene for sauebesetninger tilhørende kommuner som ikke inngår i sonene.</p>
-<p><em>Tilføyd ved forskrift 13 juni 2019 nr. 724 , endret ved forskrift 9 juni 2021 nr. 1843 (tidligere § 6a).</em></p>
+<p class="note">Tilføyd ved forskrift 13 juni 2019 nr. 724 , endret ved forskrift 9 juni 2021 nr. 1843 (tidligere § 6a).</p>
 <h2 id="kapittel-iii-administrative-bestemmelser-straff-dispensasjon-og-ikrafttredelse">Kapittel III. Administrative bestemmelser, straff, dispensasjon og ikrafttredelse</h2>
 <p>Kapitteloverskrift tilføyd ved forskrift 16 sep 2020 nr. 1777 , endret ved forskrift 9 juni 2021 nr. 1843 (tidligere kapittel IV).</p>
 <h4 id="9-tilsyn-og-vedtak">§ 9. Tilsyn og vedtak</h4>
 <p>Mattilsynet fører tilsyn og kan fatte nødvendige enkeltvedtak, jf. matloven § 23 , for å oppnå etterlevelse av bestemmelser gitt i eller i medhold av denne forskriften. Mattilsynet kan også fatte enkeltvedtak i henhold til matloven § 24 til § 26 .</p>
 <p>Mattilsynet kan gi påbud om andre nødvendige tiltak for å hindre spredning av Chronic Wasting Disease, herunder avlivning og prøvetaking, jf. forskrift 27. juni 2002 nr. 732 om tiltak mot sjukdommer og zoonotiske agens hos dyr § 28 .</p>
 <p>Mattilsynet kan uten grunneierens samtykke gjøre nødvendige tiltak for å redusere smitterisikoen fra områder i sonene. Dette kan omfatte smittesanering og inngjerding av slikkesteinsplasser for å gjøre dem utilgjengelige for beitedyr og hjortedyr. Andre punktum gjelder både områder hvor det står slikkesteiner og områder hvor det har stått slikkesteiner i løpet av de siste fem årene.</p>
-<p><em>Endret ved forskrifter 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 16 sep 2020 nr. 1777 (tidligere § 7), 9 juni 2021 nr. 1843 .</em></p>
+<p class="note">Endret ved forskrifter 23 nov 2018 nr. 1768 , 13 juni 2019 nr. 724 , 16 sep 2020 nr. 1777 (tidligere § 7), 9 juni 2021 nr. 1843 .</p>
 <h4 id="10-straff">§ 10. Straff</h4>
 <p>Forsettlig eller uaktsom overtredelse av denne forskriften eller bestemmelser og vedtak gitt i medhold av den, er straffbart etter matloven § 28 .</p>
-<p><em>Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 8).</em></p>
+<p class="note">Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 8).</p>
 <h4 id="11-dispensasjon">§ 11. Dispensasjon</h4>
 <p>Mattilsynet kan i særlige tilfeller dispensere fra bestemmelsene i denne forskrift. Mattilsynet kan også dispensere fra bestemmelsene i denne forskrift dersom det er nødvendig i forbindelse med avlivning og nedskjæring av hjortedyr som gjøres som ledd i bekjempelse av Chronic Wasting Disease.</p>
-<p><em>Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 9).</em></p>
+<p class="note">Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 9).</p>
 <h4 id="12-ikrafttredelse">§ 12. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft straks.</p>
-<p><em>Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 10).</em></p>
+<p class="note">Endret ved forskrift 16 sep 2020 nr. 1777 (tidligere § 10).</p>
 <h2 id="vedlegg-hardangervidda-sonen1">Vedlegg – Hardangervidda-sonen1</h2>
 <p>Sonen er merket i kartet med blått:</p>
 <p>Tilføyd ved forskrift 16 sep 2020 nr. 1777 , endret ved forskrift 9 juni 2021 nr. 1843 .</p>
 <p>1 For interaktivt kart, se Karteksport (miljodirektoratet.no) .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,64 +19,239 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-1997-01-24-36.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>York-Antwerpen reglene 1994</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/1997-01-24-36</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>1997-01-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/1997-01-24-36" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i">I</a></li>
+<li class="lvl3"><a href="#tolkingsregel">Tolkingsregel</a></li>
+<li class="lvl3"><a href="#hovedregel">Hovedregel</a></li>
+<li class="lvl3"><a href="#regel-a">Regel A</a></li>
+<li class="lvl3"><a href="#regel-b">Regel B</a></li>
+<li class="lvl3"><a href="#regel-c">Regel C</a></li>
+<li class="lvl3"><a href="#regel-d">Regel D</a></li>
+<li class="lvl3"><a href="#regel-e">Regel E</a></li>
+<li class="lvl3"><a href="#regel-f">Regel F</a></li>
+<li class="lvl3"><a href="#regel-g">Regel G</a></li>
+<li class="lvl3"><a href="#regel-i-overbordkasting-av-last">Regel I Overbordkasting av last</a></li>
+<li class="lvl3"><a href="#regel-ii-tap-og-skade-ved-oppofrelser-for-felles-sikkerhet">Regel II Tap og skade ved oppofrelser for felles sikkerhet</a></li>
+<li class="lvl3"><a href="#regel-iii-slukking-av-brann-ombord">Regel III Slukking av brann ombord</a></li>
+<li class="lvl3"><a href="#regel-iv-bortkapping-av-vrakgods">Regel IV Bortkapping av vrakgods</a></li>
+<li class="lvl3"><a href="#regel-v-frivillig-strandsetting">Regel V Frivillig strandsetting</a></li>
+<li class="lvl3"><a href="#regel-vi-bergelnn">Regel VI Bergelønn</a></li>
+<li class="lvl3"><a href="#regel-vii-skade-pa-maskineri-og-kjeler">Regel VII Skade på maskineri og kjeler</a></li>
+<li class="lvl3"><a href="#regel-viii-utgifter-ved-a-lette-et-grunnsttt-skip-og-derav-flgende-skade">Regel VIII Utgifter ved å lette et grunnstøtt skip og derav følgende skade</a></li>
+<li class="lvl3"><a href="#regel-ix-last-skipsmaterialer-forrad-og-rekvisita-anvendt-som-brensel">Regel IX Last, skipsmaterialer, forråd og rekvisita anvendt som brensel</a></li>
+<li class="lvl3"><a href="#regel-x-ndhavnsutgifter-mv">Regel X Nødhavnsutgifter mv</a></li>
+<li class="lvl3"><a href="#regel-xi-hyre-og-kostpenger-til-besetningen-og-andre-utgifter-ved-anlp-av-og-opphold-i-ndhavn-mv">Regel XI Hyre og kostpenger til besetningen og andre utgifter ved anløp av og opphold i nødhavn mv</a></li>
+<li class="lvl3"><a href="#regel-xii-skade-pa-last-ved-lossing-mv">Regel XII Skade på last ved lossing mv</a></li>
+<li class="lvl3"><a href="#regel-xiii-fradrag-i-reparasjonskostnader">Regel XIII Fradrag i reparasjonskostnader</a></li>
+<li class="lvl3"><a href="#regel-xiv-midlertidige-reparasjoner">Regel XIV Midlertidige reparasjoner</a></li>
+<li class="lvl3"><a href="#regel-xv-tap-av-frakt">Regel XV Tap av frakt</a></li>
+<li class="lvl3"><a href="#regel-xvi-erstatning-for-last-som-er-tapt-eller-skadet-ved-oppofrelse">Regel XVI Erstatning for last som er tapt eller skadet ved oppofrelse</a></li>
+<li class="lvl3"><a href="#regel-xvii-bidragsverdier">Regel XVII Bidragsverdier</a></li>
+<li class="lvl3"><a href="#regel-xviii-skade-pa-skip">Regel XVIII Skade på skip</a></li>
+<li class="lvl3"><a href="#regel-xix-ikke-anmeldt-eller-uriktig-anmeldt-last">Regel XIX Ikke anmeldt eller uriktig anmeldt last</a></li>
+<li class="lvl3"><a href="#regel-xx-tilveiebringelse-av-pengemidler">Regel XX Tilveiebringelse av pengemidler</a></li>
+<li class="lvl3"><a href="#regel-xxi-renter-av-felleshavarierstatninger">Regel XXI Renter av felleshavarierstatninger</a></li>
+<li class="lvl3"><a href="#regel-xxii-behandling-av-kontante-deposita">Regel XXII Behandling av kontante deposita</a></li>
+<li class="lvl2"><a href="#ii">II</a></li>
+<li class="lvl2"><a href="#iii">III</a></li>
+<li class="lvl3"><a href="#rule-of-interpretation">Rule of Interpretation</a></li>
+<li class="lvl3"><a href="#rule-paramount">Rule Paramount</a></li>
+<li class="lvl3"><a href="#rule-a">Rule A</a></li>
+<li class="lvl3"><a href="#rule-b">Rule B</a></li>
+<li class="lvl3"><a href="#rule-c">Rule C</a></li>
+<li class="lvl3"><a href="#rule-d">Rule D</a></li>
+<li class="lvl3"><a href="#rule-e">Rule E</a></li>
+<li class="lvl3"><a href="#rule-f">Rule F</a></li>
+<li class="lvl3"><a href="#rule-g">Rule G</a></li>
+<li class="lvl3"><a href="#rule-i-jettison-of-cargo">Rule I Jettison of Cargo</a></li>
+<li class="lvl3"><a href="#rule-ii-loss-or-damage-by-sacrifices-for-the-common-safety">Rule II Loss or Damage by Sacrifices for the Common Safety</a></li>
+<li class="lvl3"><a href="#rule-iii-extinguishing-fire-on-shipboard">Rule III Extinguishing Fire on Shipboard</a></li>
+<li class="lvl3"><a href="#rule-iv-cutting-away-wreck">Rule IV Cutting away Wreck</a></li>
+<li class="lvl3"><a href="#rule-v-voluntary-stranding">Rule V Voluntary Stranding</a></li>
+<li class="lvl3"><a href="#rule-vi-salvage-remuneration">Rule VI Salvage Remuneration</a></li>
+<li class="lvl3"><a href="#rule-vii-damage-to-machinery-and-boilers">Rule VII Damage to Machinery and Boilers</a></li>
+<li class="lvl3"><a href="#rule-viii-expenses-lightening-a-ship-when-ashore-and-consequent-damage">Rule VIII Expenses lightening a Ship when Ashore, and Consequent Damage</a></li>
+<li class="lvl3"><a href="#rule-ix-cargo-ships-materials-and-stores-used-for-fuel">Rule IX Cargo, Ship's Materials and Stores used for Fuel</a></li>
+<li class="lvl3"><a href="#rule-x-expenses-of-port-of-refuge-etc">Rule X Expenses of Port of Refuge, etc.</a></li>
+<li class="lvl3"><a href="#rule-xi-wages-and-maintenance-of-crew-and-other-expenses-bearing-up-for-and-in-a-port-of-refuge-etc">Rule XI Wages and Maintenance of Crew and other expenses bearing up for and in a port of refuge, etc.</a></li>
+<li class="lvl3"><a href="#rule-xii-damage-to-cargo-in-discharging-etc">Rule XII Damage to Cargo in Discharging, etc.</a></li>
+<li class="lvl3"><a href="#rule-xiii-deduction-from-cost-of-repairs">Rule XIII Deduction from Cost of Repairs</a></li>
+<li class="lvl3"><a href="#rule-xiv-temporary-repairs">Rule XIV Temporary Repairs</a></li>
+<li class="lvl3"><a href="#rule-xv-loss-of-freight">Rule XV Loss of Freight</a></li>
+<li class="lvl3"><a href="#rule-xvi-amount-to-be-made-good-for-cargo-lost-or-damaged-by-sacrifice">Rule XVI Amount to be made good for Cargo Lost or Damaged by Sacrifice</a></li>
+<li class="lvl3"><a href="#rule-xvii-contributory-values">Rule XVII Contributory Values</a></li>
+<li class="lvl3"><a href="#rule-xviii-damage-to-ship">Rule XVIII Damage to Ship</a></li>
+<li class="lvl3"><a href="#rule-xix-undeclared-or-wrongfully-declared-cargo">Rule XIX Undeclared or Wrongfully Declared Cargo</a></li>
+<li class="lvl3"><a href="#rule-xx-provision-of-funds">Rule XX Provision of Funds</a></li>
+<li class="lvl3"><a href="#rule-xxi-interest-on-losses-made-good-in-general-average">Rule XXI Interest on Losses made good in General Average</a></li>
+<li class="lvl3"><a href="#rule-xxii-treatment-of-cash-deposits">Rule XXII Treatment of Cash Deposits</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-01-24-36.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Kunngjøring av York-Antwerpen reglene 1994.</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-01-24-36.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-1997-01-24-36 <code>forskrift/1997-01-24-36</code></td></tr>
+<tr><th>Korttittel</th><td>York-Antwerpen reglene 1994</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.1997</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/1997-01-24-36" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#i">I</a></li>
+<li class="lvl3"><a href="#tolkingsregel">Tolkingsregel</a></li>
+<li class="lvl3"><a href="#hovedregel">Hovedregel</a></li>
+<li class="lvl3"><a href="#regel-a">Regel A</a></li>
+<li class="lvl3"><a href="#regel-b">Regel B</a></li>
+<li class="lvl3"><a href="#regel-c">Regel C</a></li>
+<li class="lvl3"><a href="#regel-d">Regel D</a></li>
+<li class="lvl3"><a href="#regel-e">Regel E</a></li>
+<li class="lvl3"><a href="#regel-f">Regel F</a></li>
+<li class="lvl3"><a href="#regel-g">Regel G</a></li>
+<li class="lvl3"><a href="#regel-i-overbordkasting-av-last">Regel I Overbordkasting av last</a></li>
+<li class="lvl3"><a href="#regel-ii-tap-og-skade-ved-oppofrelser-for-felles-sikkerhet">Regel II Tap og skade ved oppofrelser for felles sikkerhet</a></li>
+<li class="lvl3"><a href="#regel-iii-slukking-av-brann-ombord">Regel III Slukking av brann ombord</a></li>
+<li class="lvl3"><a href="#regel-iv-bortkapping-av-vrakgods">Regel IV Bortkapping av vrakgods</a></li>
+<li class="lvl3"><a href="#regel-v-frivillig-strandsetting">Regel V Frivillig strandsetting</a></li>
+<li class="lvl3"><a href="#regel-vi-bergelnn">Regel VI Bergelønn</a></li>
+<li class="lvl3"><a href="#regel-vii-skade-pa-maskineri-og-kjeler">Regel VII Skade på maskineri og kjeler</a></li>
+<li class="lvl3"><a href="#regel-viii-utgifter-ved-a-lette-et-grunnsttt-skip-og-derav-flgende-skade">Regel VIII Utgifter ved å lette et grunnstøtt skip og derav følgende skade</a></li>
+<li class="lvl3"><a href="#regel-ix-last-skipsmaterialer-forrad-og-rekvisita-anvendt-som-brensel">Regel IX Last, skipsmaterialer, forråd og rekvisita anvendt som brensel</a></li>
+<li class="lvl3"><a href="#regel-x-ndhavnsutgifter-mv">Regel X Nødhavnsutgifter mv</a></li>
+<li class="lvl3"><a href="#regel-xi-hyre-og-kostpenger-til-besetningen-og-andre-utgifter-ved-anlp-av-og-opphold-i-ndhavn-mv">Regel XI Hyre og kostpenger til besetningen og andre utgifter ved anløp av og opphold i nødhavn mv</a></li>
+<li class="lvl3"><a href="#regel-xii-skade-pa-last-ved-lossing-mv">Regel XII Skade på last ved lossing mv</a></li>
+<li class="lvl3"><a href="#regel-xiii-fradrag-i-reparasjonskostnader">Regel XIII Fradrag i reparasjonskostnader</a></li>
+<li class="lvl3"><a href="#regel-xiv-midlertidige-reparasjoner">Regel XIV Midlertidige reparasjoner</a></li>
+<li class="lvl3"><a href="#regel-xv-tap-av-frakt">Regel XV Tap av frakt</a></li>
+<li class="lvl3"><a href="#regel-xvi-erstatning-for-last-som-er-tapt-eller-skadet-ved-oppofrelse">Regel XVI Erstatning for last som er tapt eller skadet ved oppofrelse</a></li>
+<li class="lvl3"><a href="#regel-xvii-bidragsverdier">Regel XVII Bidragsverdier</a></li>
+<li class="lvl3"><a href="#regel-xviii-skade-pa-skip">Regel XVIII Skade på skip</a></li>
+<li class="lvl3"><a href="#regel-xix-ikke-anmeldt-eller-uriktig-anmeldt-last">Regel XIX Ikke anmeldt eller uriktig anmeldt last</a></li>
+<li class="lvl3"><a href="#regel-xx-tilveiebringelse-av-pengemidler">Regel XX Tilveiebringelse av pengemidler</a></li>
+<li class="lvl3"><a href="#regel-xxi-renter-av-felleshavarierstatninger">Regel XXI Renter av felleshavarierstatninger</a></li>
+<li class="lvl3"><a href="#regel-xxii-behandling-av-kontante-deposita">Regel XXII Behandling av kontante deposita</a></li>
+<li class="lvl2"><a href="#ii">II</a></li>
+<li class="lvl2"><a href="#iii">III</a></li>
+<li class="lvl3"><a href="#rule-of-interpretation">Rule of Interpretation</a></li>
+<li class="lvl3"><a href="#rule-paramount">Rule Paramount</a></li>
+<li class="lvl3"><a href="#rule-a">Rule A</a></li>
+<li class="lvl3"><a href="#rule-b">Rule B</a></li>
+<li class="lvl3"><a href="#rule-c">Rule C</a></li>
+<li class="lvl3"><a href="#rule-d">Rule D</a></li>
+<li class="lvl3"><a href="#rule-e">Rule E</a></li>
+<li class="lvl3"><a href="#rule-f">Rule F</a></li>
+<li class="lvl3"><a href="#rule-g">Rule G</a></li>
+<li class="lvl3"><a href="#rule-i-jettison-of-cargo">Rule I Jettison of Cargo</a></li>
+<li class="lvl3"><a href="#rule-ii-loss-or-damage-by-sacrifices-for-the-common-safety">Rule II Loss or Damage by Sacrifices for the Common Safety</a></li>
+<li class="lvl3"><a href="#rule-iii-extinguishing-fire-on-shipboard">Rule III Extinguishing Fire on Shipboard</a></li>
+<li class="lvl3"><a href="#rule-iv-cutting-away-wreck">Rule IV Cutting away Wreck</a></li>
+<li class="lvl3"><a href="#rule-v-voluntary-stranding">Rule V Voluntary Stranding</a></li>
+<li class="lvl3"><a href="#rule-vi-salvage-remuneration">Rule VI Salvage Remuneration</a></li>
+<li class="lvl3"><a href="#rule-vii-damage-to-machinery-and-boilers">Rule VII Damage to Machinery and Boilers</a></li>
+<li class="lvl3"><a href="#rule-viii-expenses-lightening-a-ship-when-ashore-and-consequent-damage">Rule VIII Expenses lightening a Ship when Ashore, and Consequent Damage</a></li>
+<li class="lvl3"><a href="#rule-ix-cargo-ships-materials-and-stores-used-for-fuel">Rule IX Cargo, Ship's Materials and Stores used for Fuel</a></li>
+<li class="lvl3"><a href="#rule-x-expenses-of-port-of-refuge-etc">Rule X Expenses of Port of Refuge, etc.</a></li>
+<li class="lvl3"><a href="#rule-xi-wages-and-maintenance-of-crew-and-other-expenses-bearing-up-for-and-in-a-port-of-refuge-etc">Rule XI Wages and Maintenance of Crew and other expenses bearing up for and in a port of refuge, etc.</a></li>
+<li class="lvl3"><a href="#rule-xii-damage-to-cargo-in-discharging-etc">Rule XII Damage to Cargo in Discharging, etc.</a></li>
+<li class="lvl3"><a href="#rule-xiii-deduction-from-cost-of-repairs">Rule XIII Deduction from Cost of Repairs</a></li>
+<li class="lvl3"><a href="#rule-xiv-temporary-repairs">Rule XIV Temporary Repairs</a></li>
+<li class="lvl3"><a href="#rule-xv-loss-of-freight">Rule XV Loss of Freight</a></li>
+<li class="lvl3"><a href="#rule-xvi-amount-to-be-made-good-for-cargo-lost-or-damaged-by-sacrifice">Rule XVI Amount to be made good for Cargo Lost or Damaged by Sacrifice</a></li>
+<li class="lvl3"><a href="#rule-xvii-contributory-values">Rule XVII Contributory Values</a></li>
+<li class="lvl3"><a href="#rule-xviii-damage-to-ship">Rule XVIII Damage to Ship</a></li>
+<li class="lvl3"><a href="#rule-xix-undeclared-or-wrongfully-declared-cargo">Rule XIX Undeclared or Wrongfully Declared Cargo</a></li>
+<li class="lvl3"><a href="#rule-xx-provision-of-funds">Rule XX Provision of Funds</a></li>
+<li class="lvl3"><a href="#rule-xxi-interest-on-losses-made-good-in-general-average">Rule XXI Interest on Losses made good in General Average</a></li>
+<li class="lvl3"><a href="#rule-xxii-treatment-of-cash-deposits">Rule XXII Treatment of Cash Deposits</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-01-24-36.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-1997-01-24-36.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-1997-01-24-36.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-1997-01-24-36.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-1997-01-24-36.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="kunngjring-av-york-antwerpen-reglene-1994">Kunngjøring av York-Antwerpen reglene 1994.</h1>
 <h2 id="i">I</h2>
 <h3 id="tolkingsregel">Tolkingsregel</h3>
 <p>Ved oppgjør av felleshavari gjelder følgende regler, således at de utelukker enhver lov og praksis som står i strid med reglene.</p>
@@ -258,6 +433,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Interest shall be allowed on expenditure, sacrifices and allowances in general average at the rate of 7 per cent. per annum, until three months after the date of issue of the general average adjustment, due allowance being made for any payment on account by the contributory interests or from the general average deposit fund.</p>
 <h3 id="rule-xxii-treatment-of-cash-deposits">Rule XXII Treatment of Cash Deposits</h3>
 <p>Where cash deposits have been collected in respect of cargo's liability for general average, salvage or special charges, such deposits shall be paid without any delay into a special account in the joint names of a representative nominated on behalf of the shipowner and a representative nominated on behalf of the depositors in a bank to be approved by both. The sum so deposited, together with accrued interest, if any, shall be held as security for payment to the parties entitled thereto of the general average, salvage or special charges payable by cargo in respect to which the deposits have been collected. Payments on account or refunds of deposits may be made if certified to in writing by the average adjuster. Such deposits and payments or refunds shall be without prejudice to the ultimate liability of the parties.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

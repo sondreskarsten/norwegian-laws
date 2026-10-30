@@ -19,64 +19,441 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2016-05-27-14.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Skatteforvaltningsloven – sktfvl" href="../feeds/lov-2016-05-27-14.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Skatteforvaltningsloven – sktfvl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2016-05-27-14</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Skatte- og avgiftsrett &raquo; Skatteforvaltning</dd>
-<dt>Ikrafttredelse</dt><dd>2017-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-12-22-117</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2016-05-27-14" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forholdet-til-forvaltningsloven">§ 1-3. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-skattemyndigheter">Kapittel 2 Skattemyndigheter</a></li>
+<li class="lvl4"><a href="#2-1-formues-og-inntektsskatt-jan-mayen-skatt-artistskatt-arbeidsgiveravgift-finansskatt-pa-lnn-merverdiavgift-og-suppleringsskatt">§ 2-1. Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt</a></li>
+<li class="lvl4"><a href="#2-2-petroleumsskatt">§ 2-2. Petroleumsskatt</a></li>
+<li class="lvl4"><a href="#2-3-svalbardskatt">§ 2-3. Svalbardskatt</a></li>
+<li class="lvl4"><a href="#2-4-merverdiavgiftskompensasjon">§ 2-4. Merverdiavgiftskompensasjon</a></li>
+<li class="lvl4"><a href="#2-5-sravgifter">§ 2-5. Særavgifter</a></li>
+<li class="lvl4"><a href="#2-6-motorkjretyavgifter">§ 2-6. Motorkjøretøyavgifter</a></li>
+<li class="lvl4"><a href="#2-7-skattemyndighet-i-frste-instans">§ 2-7. Skattemyndighet i første instans</a></li>
+<li class="lvl4"><a href="#2-8-oppnevning-av-nemndsmedlemmer-sammensetning-av-nemndene-og-organisering-av-nemndenes-arbeid">§ 2-8. Oppnevning av nemndsmedlemmer, sammensetning av nemndene og organisering av nemndenes arbeid</a></li>
+<li class="lvl4"><a href="#2-9-nemndenes-uavhengige-stilling">§ 2-9. Nemndenes uavhengige stilling</a></li>
+<li class="lvl4"><a href="#2-10-utelukkingsgrunner">§ 2-10. Utelukkingsgrunner</a></li>
+<li class="lvl4"><a href="#2-11-samtidige-verv">§ 2-11. Samtidige verv</a></li>
+<li class="lvl4"><a href="#2-12-engasjert-hjelp">§ 2-12. Engasjert hjelp</a></li>
+<li class="lvl4"><a href="#2-13-myndighet-til-andre-organer">§ 2-13. Myndighet til andre organer</a></li>
+<li class="lvl2"><a href="#kapittel-3-taushetsplikt">Kapittel 3 Taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-1-hovedregelen-om-taushetsplikt">§ 3-1. Hovedregelen om taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-2-forholdet-til-retten-til-innsyn-i-saksdokumenter">§ 3-2. Forholdet til retten til innsyn i saksdokumenter</a></li>
+<li class="lvl4"><a href="#3-3-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 3-3. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#3-4-utlevering-av-opplysninger-til-finansforetak-mv">§ 3-4. Utlevering av opplysninger til finansforetak mv.</a></li>
+<li class="lvl4"><a href="#3-5-utlevering-av-opplysninger-om-petroleumsvirksomhet">§ 3-5. Utlevering av opplysninger om petroleumsvirksomhet</a></li>
+<li class="lvl4"><a href="#3-6-utlevering-av-opplysninger-til-bruk-i-arbeid-med-pensjon">§ 3-6. Utlevering av opplysninger til bruk i arbeid med pensjon</a></li>
+<li class="lvl4"><a href="#3-7-begrensninger-i-taushetsplikten-nar-det-ikke-er-behov-for-beskyttelse">§ 3-7. Begrensninger i taushetsplikten når det ikke er behov for beskyttelse</a></li>
+<li class="lvl4"><a href="#3-8-opplysninger-til-bruk-for-forskning">§ 3-8. Opplysninger til bruk for forskning</a></li>
+<li class="lvl4"><a href="#3-9-utlevering-av-opplysninger-til-advokattilsynet">§ 3-9. Utlevering av opplysninger til Advokattilsynet</a></li>
+<li class="lvl4"><a href="#3-10-utlevering-av-opplysninger-til-avddes-ektefelle-samboer-og-arving">§ 3-10. Utlevering av opplysninger til avdødes ektefelle, samboer og arving</a></li>
+<li class="lvl4"><a href="#3-11-overfrt-taushetsplikt">§ 3-11. Overført taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-habilitet">Kapittel 4 Habilitet</a></li>
+<li class="lvl4"><a href="#4-1-habilitet">§ 4-1. Habilitet</a></li>
+<li class="lvl4"><a href="#4-2-avgjrelse-av-habilitetssprsmalet">§ 4-2. Avgjørelse av habilitetsspørsmålet</a></li>
+<li class="lvl4"><a href="#4-3-forelpig-avgjrelse">§ 4-3. Foreløpig avgjørelse</a></li>
+<li class="lvl4"><a href="#4-4-stedfortreder">§ 4-4. Stedfortreder</a></li>
+<li class="lvl2"><a href="#kapittel-5-alminnelige-saksbehandlingsregler">Kapittel 5 Alminnelige saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#5-1-veiledningsplikt">§ 5-1. Veiledningsplikt</a></li>
+<li class="lvl4"><a href="#5-2-saksbehandlingstid-forelpig-svar">§ 5-2. Saksbehandlingstid, foreløpig svar</a></li>
+<li class="lvl4"><a href="#5-3-fullmektig">§ 5-3. Fullmektig</a></li>
+<li class="lvl4"><a href="#5-4-partsinnsyn-i-saksdokumenter">§ 5-4. Partsinnsyn i saksdokumenter</a></li>
+<li class="lvl4"><a href="#5-5-fristberegning-mv">§ 5-5. Fristberegning mv.</a></li>
+<li class="lvl4"><a href="#5-6-forhandsvarsling">§ 5-6. Forhåndsvarsling</a></li>
+<li class="lvl4"><a href="#5-7-begrunnelse">§ 5-7. Begrunnelse</a></li>
+<li class="lvl4"><a href="#5-8-melding-om-enkeltvedtak">§ 5-8. Melding om enkeltvedtak</a></li>
+<li class="lvl4"><a href="#5-9-sakskostnader">§ 5-9. Sakskostnader</a></li>
+<li class="lvl4"><a href="#5-10-virkning-av-saksbehandlingsfeil">§ 5-10. Virkning av saksbehandlingsfeil</a></li>
+<li class="lvl4"><a href="#5-11-sammenstilling-profilering-og-automatiserte-avgjrelser">§ 5-11. Sammenstilling, profilering og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#5-12-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 5-12. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl2"><a href="#kapittel-6-bindende-forhandsuttalelser">Kapittel 6 Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#6-1-bindende-forhandsuttalelser">§ 6-1. Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#6-2-klage-og-domstolsprving">§ 6-2. Klage og domstolsprøving</a></li>
+<li class="lvl4"><a href="#6-3-gebyr">§ 6-3. Gebyr</a></li>
+<li class="lvl4"><a href="#6-4-forskrift">§ 6-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-opplysningsplikt-for-tredjeparter">Kapittel 7 Opplysningsplikt for tredjeparter</a></li>
+<li class="lvl4"><a href="#7-1-alminnelige-bestemmelser">§ 7-1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#7-2-lnnsopplysninger-mv">§ 7-2. Lønnsopplysninger mv.</a></li>
+<li class="lvl4"><a href="#7-3-finansielle-forhold-og-forsikringer">§ 7-3. Finansielle forhold og forsikringer</a></li>
+<li class="lvl4"><a href="#7-4-fordringer-og-gjeld-i-selskapsforhold">§ 7-4. Fordringer og gjeld i selskapsforhold</a></li>
+<li class="lvl4"><a href="#7-5-kjp-salg-formidling-leie-utbetalinger-mv">§ 7-5. Kjøp, salg, formidling, leie, utbetalinger mv.</a></li>
+<li class="lvl4"><a href="#7-6-oppdragstakere-og-arbeidstakere">§ 7-6. Oppdragstakere og arbeidstakere</a></li>
+<li class="lvl4"><a href="#7-7-aksjonrer-mv">§ 7-7. Aksjonærer mv.</a></li>
+<li class="lvl4"><a href="#7-8-arv">§ 7-8. Arv</a></li>
+<li class="lvl4"><a href="#7-9-offentlige-myndigheter">§ 7-9. Offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#7-10-annen-opplysningsplikt-for-tredjepart">§ 7-10. Annen opplysningsplikt for tredjepart</a></li>
+<li class="lvl4"><a href="#7-11-salg-av-tjenester-og-utleie-gjennom-digitale-plattformer">§ 7-11. Salg av tjenester og utleie gjennom digitale plattformer</a></li>
+<li class="lvl4"><a href="#7-12-kryptoeiendeler">§ 7-12. Kryptoeiendeler</a></li>
+<li class="lvl4"><a href="#7-13-hvem-opplysningsplikten-pahviler">§ 7-13. Hvem opplysningsplikten påhviler</a></li>
+<li class="lvl4"><a href="#7-14-identifikasjon-av-skattepliktig-og-kopi-av-opplysninger">§ 7-14. Identifikasjon av skattepliktig og kopi av opplysninger</a></li>
+<li class="lvl4"><a href="#7-15-forskrifter-mv">§ 7-15. Forskrifter mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-opplysningsplikt-for-skattepliktige-trekkpliktige-mv">Kapittel 8 Opplysningsplikt for skattepliktige, trekkpliktige mv.</a></li>
+<li class="lvl4"><a href="#8-1-alminnelig-opplysningsplikt">§ 8-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#8-2-skattemelding-for-formues-og-inntektsskatt-svalbardskatt-og-petroleumsskatt">§ 8-2. Skattemelding for formues- og inntektsskatt, svalbardskatt og petroleumsskatt</a></li>
+<li class="lvl4"><a href="#8-3-skattemelding-for-merverdiavgift">§ 8-3. Skattemelding for merverdiavgift</a></li>
+<li class="lvl4"><a href="#8-4-skattemelding-for-sravgifter">§ 8-4. Skattemelding for særavgifter</a></li>
+<li class="lvl4"><a href="#8-5-skattemelding-for-motorkjretyavgifter">§ 8-5. Skattemelding for motorkjøretøyavgifter</a></li>
+<li class="lvl4"><a href="#8-6-skattemelding-for-arbeidsgiveravgift-og-finansskatt-pa-lnn">§ 8-6. Skattemelding for arbeidsgiveravgift og finansskatt på lønn</a></li>
+<li class="lvl4"><a href="#8-7-skattemelding-for-merverdiavgiftskompensasjon">§ 8-7. Skattemelding for merverdiavgiftskompensasjon</a></li>
+<li class="lvl4"><a href="#8-8-melding-om-trekk-mv">§ 8-8. Melding om trekk mv.</a></li>
+<li class="lvl4"><a href="#8-9-selskapsmelding-mv-for-selskap-med-deltakerfastsetting">§ 8-9. Selskapsmelding mv. for selskap med deltakerfastsetting</a></li>
+<li class="lvl4"><a href="#8-10-melding-om-realisasjon-av-naturgass-mv">§ 8-10. Melding om realisasjon av naturgass mv.</a></li>
+<li class="lvl4"><a href="#8-11-melding-og-annen-dokumentasjon-for-kontrollerte-transaksjoner-mv">§ 8-11. Melding og annen dokumentasjon for kontrollerte transaksjoner mv.</a></li>
+<li class="lvl4"><a href="#8-12-melding-om-flernasjonale-konserns-fordeling-av-inntekt-skatt-mv">§ 8-12. Melding om flernasjonale konserns fordeling av inntekt, skatt mv.</a></li>
+<li class="lvl4"><a href="#8-13-melding-om-registrering-for-merverdiavgift-og-sravgifter">§ 8-13. Melding om registrering for merverdiavgift og særavgifter</a></li>
+<li class="lvl4"><a href="#8-14-skattemelding-og-melding-for-suppleringsskatt">§ 8-14. Skattemelding og melding for suppleringsskatt</a></li>
+<li class="lvl4"><a href="#8-15-levering-av-skattemelding-mv">§ 8-15. Levering av skattemelding mv.</a></li>
+<li class="lvl4"><a href="#8-16-forskrifter-mv">§ 8-16. Forskrifter mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-fastsetting">Kapittel 9 Fastsetting</a></li>
+<li class="lvl4"><a href="#9-1-fastsetting-av-skattegrunnlaget">§ 9-1. Fastsetting av skattegrunnlaget</a></li>
+<li class="lvl4"><a href="#9-2-beregning-av-skatt">§ 9-2. Beregning av skatt</a></li>
+<li class="lvl4"><a href="#9-3-melding-om-skatteoppgjr-mv">§ 9-3. Melding om skatteoppgjør mv.</a></li>
+<li class="lvl4"><a href="#9-4-skatte-og-trekkpliktiges-endring-av-fastsetting-mv">§ 9-4. Skatte- og trekkpliktiges endring av fastsetting mv.</a></li>
+<li class="lvl4"><a href="#9-5-trekkpliktiges-adgang-til-a-endre-fastsatt-skatt-pa-utbytte-til-utenlandske-aksjonrer">§ 9-5. Trekkpliktiges adgang til å endre fastsatt skatt på utbytte til utenlandske aksjonærer</a></li>
+<li class="lvl4"><a href="#9-6-sknad-om-refusjon-av-skatt-fastsatt-ved-trekk">§ 9-6. Søknad om refusjon av skatt fastsatt ved trekk</a></li>
+<li class="lvl4"><a href="#9-7-skatteliste">§ 9-7. Skatteliste</a></li>
+<li class="lvl4"><a href="#9-8-takseringsregler-mv">§ 9-8. Takseringsregler mv.</a></li>
+<li class="lvl4"><a href="#9-9-betalingsnedsettelse-og-betalingsutsettelse-mv-lempning">§ 9-9. Betalingsnedsettelse og betalingsutsettelse mv. – lempning</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll">Kapittel 10 Kontroll</a></li>
+<li class="lvl4"><a href="#10-1-kontrollopplysninger-fra-skattepliktige-mv">§ 10-1. Kontrollopplysninger fra skattepliktige mv.</a></li>
+<li class="lvl4"><a href="#10-2-kontrollopplysninger-fra-tredjepart">§ 10-2. Kontrollopplysninger fra tredjepart</a></li>
+<li class="lvl4"><a href="#10-3-kontrollopplysninger-ved-skifte-av-ddsbo">§ 10-3. Kontrollopplysninger ved skifte av dødsbo</a></li>
+<li class="lvl4"><a href="#10-4-kontroll-hos-den-opplysningspliktige">§ 10-4. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#10-5-kontrollopplysninger-fra-offentlige-myndigheter">§ 10-5. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#10-6-kontrollopplysninger-fra-tilbyder-av-tilgang-til-elektronisk-kommunikasjonsnett-eller-tjeneste">§ 10-6. Kontrollopplysninger fra tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste</a></li>
+<li class="lvl4"><a href="#10-7-kontrollopplysninger-om-eierinteresse-i-utenlandsk-selskap-mv">§ 10-7. Kontrollopplysninger om eierinteresse i utenlandsk selskap mv.</a></li>
+<li class="lvl4"><a href="#10-8-kontroll-av-motorvogner">§ 10-8. Kontroll av motorvogner</a></li>
+<li class="lvl4"><a href="#10-9-plikt-til-a-framvise-hms-kort">§ 10-9. Plikt til å framvise HMS-kort</a></li>
+<li class="lvl4"><a href="#10-10-hvem-pliktene-pahviler-i-selskap-mv">§ 10-10. Hvem pliktene påhviler i selskap mv.</a></li>
+<li class="lvl4"><a href="#10-11-framgangsmaten-ved-kontroll">§ 10-11. Framgangsmåten ved kontroll</a></li>
+<li class="lvl4"><a href="#10-12-politiets-bistandsplikt">§ 10-12. Politiets bistandsplikt</a></li>
+<li class="lvl4"><a href="#10-13-klage">§ 10-13. Klage</a></li>
+<li class="lvl4"><a href="#10-14-forskrifter">§ 10-14. Forskrifter</a></li>
+<li class="lvl4"><a href="#10-15-bevissikring">§ 10-15. Bevissikring</a></li>
+<li class="lvl2"><a href="#kapittel-11-palegg-om-bokfring-revisjon-og-oppbevaring-av-regnskapsmateriale">Kapittel 11 Pålegg om bokføring, revisjon og oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#11-1-palegg-om-bokfring">§ 11-1. Pålegg om bokføring</a></li>
+<li class="lvl4"><a href="#11-2-palegg-om-revisjon">§ 11-2. Pålegg om revisjon</a></li>
+<li class="lvl4"><a href="#11-3-palegg-om-oppbevaring-av-regnskapsmateriale">§ 11-3. Pålegg om oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#11-4-klage-over-palegg">§ 11-4. Klage over pålegg</a></li>
+<li class="lvl2"><a href="#kapittel-12-endring-uten-klage">Kapittel 12 Endring uten klage</a></li>
+<li class="lvl4"><a href="#12-1-endring-av-skattefastsetting-mv">§ 12-1. Endring av skattefastsetting mv.</a></li>
+<li class="lvl4"><a href="#12-2-skjnnsfastsetting">§ 12-2. Skjønnsfastsetting</a></li>
+<li class="lvl4"><a href="#12-3-endring-av-vedtak-om-registrering-eller-sletting-i-merverdiavgiftsregisteret">§ 12-3. Endring av vedtak om registrering eller sletting i Merverdiavgiftsregisteret</a></li>
+<li class="lvl4"><a href="#12-4-summarisk-fellesoppgjr">§ 12-4. Summarisk fellesoppgjør</a></li>
+<li class="lvl4"><a href="#12-5-fastsetting-for-flere-skattleggingsperioder-under-ett">§ 12-5. Fastsetting for flere skattleggingsperioder under ett</a></li>
+<li class="lvl4"><a href="#12-6-frister-for-endring-av-skattefastsetting-mv">§ 12-6. Frister for endring av skattefastsetting mv.</a></li>
+<li class="lvl4"><a href="#12-7-utsatt-friststart">§ 12-7. Utsatt friststart</a></li>
+<li class="lvl4"><a href="#12-8-unntak-fra-fristene-for-a-ta-opp-skattefastsetting-mv-til-endring">§ 12-8. Unntak fra fristene for å ta opp skattefastsetting mv. til endring</a></li>
+<li class="lvl4"><a href="#12-9-fordeling-av-kompetanse-mellom-oljeskattekontoret-og-andre-skattemyndigheter">§ 12-9. Fordeling av kompetanse mellom Oljeskattekontoret og andre skattemyndigheter</a></li>
+<li class="lvl4"><a href="#12-10-endring-av-skattefastsetting-overfor-trekkpliktige">§ 12-10. Endring av skattefastsetting overfor trekkpliktige</a></li>
+<li class="lvl4"><a href="#12-11-endring-uten-klage-av-andre-enkeltvedtak-enn-vedtak-om-skattefastsetting">§ 12-11. Endring uten klage av andre enkeltvedtak enn vedtak om skattefastsetting</a></li>
+<li class="lvl2"><a href="#kapittel-13-klage">Kapittel 13 Klage</a></li>
+<li class="lvl4"><a href="#13-1-hvilke-avgjrelser-som-kan-paklages-og-hvem-som-har-klagerett">§ 13-1. Hvilke avgjørelser som kan påklages og hvem som har klagerett</a></li>
+<li class="lvl4"><a href="#13-2-klage-fra-andre">§ 13-2. Klage fra andre</a></li>
+<li class="lvl4"><a href="#13-3-klageinstans">§ 13-3. Klageinstans</a></li>
+<li class="lvl4"><a href="#13-4-klagefrist-oppreisning-for-oversittelse-av-klagefristen">§ 13-4. Klagefrist. Oppreisning for oversittelse av klagefristen.</a></li>
+<li class="lvl4"><a href="#13-5-klagens-adressat-form-og-innhold">§ 13-5. Klagens adressat, form og innhold</a></li>
+<li class="lvl4"><a href="#13-6-saksforberedelse-i-klagesak">§ 13-6. Saksforberedelse i klagesak</a></li>
+<li class="lvl4"><a href="#13-7-klageinstansens-kompetanse">§ 13-7. Klageinstansens kompetanse</a></li>
+<li class="lvl4"><a href="#13-8-fordeling-av-kompetanse-mellom-klagenemnda-for-petroleumsskatt-og-andre-skattemyndigheter">§ 13-8. Fordeling av kompetanse mellom Klagenemnda for petroleumsskatt og andre skattemyndigheter</a></li>
+<li class="lvl4"><a href="#13-9-endring-av-klagenemndenes-avgjrelser">§ 13-9. Endring av klagenemndenes avgjørelser</a></li>
+<li class="lvl2"><a href="#kapittel-14-administrative-reaksjoner-og-straff">Kapittel 14 Administrative reaksjoner og straff</a></li>
+<li class="lvl4"><a href="#14-1-tvangsmulkt">§ 14-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-2-saksbehandlingsregler-ved-ileggelse-av-tvangsmulkt">§ 14-2. Saksbehandlingsregler ved ileggelse av tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-3-tilleggsskatt">§ 14-3. Tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-4-unntak-fra-tilleggsskatt">§ 14-4. Unntak fra tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-5-satser-og-beregningsgrunnlag-for-tilleggsskatt">§ 14-5. Satser og beregningsgrunnlag for tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-6-skjerpet-tilleggsskatt">§ 14-6. Skjerpet tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-7-overtredelsesgebyr">§ 14-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-8-varsel">§ 14-8. Varsel</a></li>
+<li class="lvl4"><a href="#14-9-veiledning-om-taushetsrett-mv">§ 14-9. Veiledning om taushetsrett mv.</a></li>
+<li class="lvl4"><a href="#14-10-utsatt-iverksetting-av-vedtak-om-sanksjon">§ 14-10. Utsatt iverksetting av vedtak om sanksjon</a></li>
+<li class="lvl4"><a href="#14-11-domstolenes-kompetanse-ved-prving-av-vedtak-om-administrative-sanksjoner">§ 14-11. Domstolenes kompetanse ved prøving av vedtak om administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#14-12-kompensasjon-for-urimelig-lang-saksbehandlingstid">§ 14-12. Kompensasjon for urimelig lang saksbehandlingstid</a></li>
+<li class="lvl4"><a href="#14-13-straff-for-tredjeparts-opplysningssvikt-mv">§ 14-13. Straff for tredjeparts opplysningssvikt mv.</a></li>
+<li class="lvl4"><a href="#14-14-straff-for-unnlatt-medvirkning-til-kontroll">§ 14-14. Straff for unnlatt medvirkning til kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-15-sksmal-mv">Kapittel 15 Søksmål mv.</a></li>
+<li class="lvl4"><a href="#15-1-sksmal-fra-skattepliktige-mv">§ 15-1. Søksmål fra skattepliktige mv.</a></li>
+<li class="lvl4"><a href="#15-2-sksmal-fra-departementet-eller-en-kommune">§ 15-2. Søksmål fra departementet eller en kommune</a></li>
+<li class="lvl4"><a href="#15-3-partsstilling">§ 15-3. Partsstilling</a></li>
+<li class="lvl4"><a href="#15-4-sksmalsfrist">§ 15-4. Søksmålsfrist</a></li>
+<li class="lvl4"><a href="#15-5-adgang-til-a-stille-vilkar-for-a-reise-sksmal">§ 15-5. Adgang til å stille vilkår for å reise søksmål</a></li>
+<li class="lvl4"><a href="#15-6-fastsetting-etter-avsagt-dom-mv">§ 15-6. Fastsetting etter avsagt dom mv.</a></li>
+<li class="lvl4"><a href="#15-7-avgjrelse-i-fordelingstvist">§ 15-7. Avgjørelse i fordelingstvist</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 16 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#16-1-ikrafttredelse">§ 16-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-2-overgangsbestemmelser">§ 16-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-12-22-117.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-05-27-14.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om skatteforvaltning (skatteforvaltningsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-05-27-14.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2016-05-27-14 <code>lov/2016-05-27-14</code></td></tr>
+<tr><th>Korttittel</th><td>Skatteforvaltningsloven – sktfvl</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Skatte- og avgiftsrett &raquo; Skatteforvaltning</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2017</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-12-22-117 <code>lov/2025-12-22-117</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2016-05-27-14" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forholdet-til-forvaltningsloven">§ 1-3. Forholdet til forvaltningsloven</a></li>
+<li class="lvl2"><a href="#kapittel-2-skattemyndigheter">Kapittel 2 Skattemyndigheter</a></li>
+<li class="lvl4"><a href="#2-1-formues-og-inntektsskatt-jan-mayen-skatt-artistskatt-arbeidsgiveravgift-finansskatt-pa-lnn-merverdiavgift-og-suppleringsskatt">§ 2-1. Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt</a></li>
+<li class="lvl4"><a href="#2-2-petroleumsskatt">§ 2-2. Petroleumsskatt</a></li>
+<li class="lvl4"><a href="#2-3-svalbardskatt">§ 2-3. Svalbardskatt</a></li>
+<li class="lvl4"><a href="#2-4-merverdiavgiftskompensasjon">§ 2-4. Merverdiavgiftskompensasjon</a></li>
+<li class="lvl4"><a href="#2-5-sravgifter">§ 2-5. Særavgifter</a></li>
+<li class="lvl4"><a href="#2-6-motorkjretyavgifter">§ 2-6. Motorkjøretøyavgifter</a></li>
+<li class="lvl4"><a href="#2-7-skattemyndighet-i-frste-instans">§ 2-7. Skattemyndighet i første instans</a></li>
+<li class="lvl4"><a href="#2-8-oppnevning-av-nemndsmedlemmer-sammensetning-av-nemndene-og-organisering-av-nemndenes-arbeid">§ 2-8. Oppnevning av nemndsmedlemmer, sammensetning av nemndene og organisering av nemndenes arbeid</a></li>
+<li class="lvl4"><a href="#2-9-nemndenes-uavhengige-stilling">§ 2-9. Nemndenes uavhengige stilling</a></li>
+<li class="lvl4"><a href="#2-10-utelukkingsgrunner">§ 2-10. Utelukkingsgrunner</a></li>
+<li class="lvl4"><a href="#2-11-samtidige-verv">§ 2-11. Samtidige verv</a></li>
+<li class="lvl4"><a href="#2-12-engasjert-hjelp">§ 2-12. Engasjert hjelp</a></li>
+<li class="lvl4"><a href="#2-13-myndighet-til-andre-organer">§ 2-13. Myndighet til andre organer</a></li>
+<li class="lvl2"><a href="#kapittel-3-taushetsplikt">Kapittel 3 Taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-1-hovedregelen-om-taushetsplikt">§ 3-1. Hovedregelen om taushetsplikt</a></li>
+<li class="lvl4"><a href="#3-2-forholdet-til-retten-til-innsyn-i-saksdokumenter">§ 3-2. Forholdet til retten til innsyn i saksdokumenter</a></li>
+<li class="lvl4"><a href="#3-3-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 3-3. Utlevering av opplysninger til offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#3-4-utlevering-av-opplysninger-til-finansforetak-mv">§ 3-4. Utlevering av opplysninger til finansforetak mv.</a></li>
+<li class="lvl4"><a href="#3-5-utlevering-av-opplysninger-om-petroleumsvirksomhet">§ 3-5. Utlevering av opplysninger om petroleumsvirksomhet</a></li>
+<li class="lvl4"><a href="#3-6-utlevering-av-opplysninger-til-bruk-i-arbeid-med-pensjon">§ 3-6. Utlevering av opplysninger til bruk i arbeid med pensjon</a></li>
+<li class="lvl4"><a href="#3-7-begrensninger-i-taushetsplikten-nar-det-ikke-er-behov-for-beskyttelse">§ 3-7. Begrensninger i taushetsplikten når det ikke er behov for beskyttelse</a></li>
+<li class="lvl4"><a href="#3-8-opplysninger-til-bruk-for-forskning">§ 3-8. Opplysninger til bruk for forskning</a></li>
+<li class="lvl4"><a href="#3-9-utlevering-av-opplysninger-til-advokattilsynet">§ 3-9. Utlevering av opplysninger til Advokattilsynet</a></li>
+<li class="lvl4"><a href="#3-10-utlevering-av-opplysninger-til-avddes-ektefelle-samboer-og-arving">§ 3-10. Utlevering av opplysninger til avdødes ektefelle, samboer og arving</a></li>
+<li class="lvl4"><a href="#3-11-overfrt-taushetsplikt">§ 3-11. Overført taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-4-habilitet">Kapittel 4 Habilitet</a></li>
+<li class="lvl4"><a href="#4-1-habilitet">§ 4-1. Habilitet</a></li>
+<li class="lvl4"><a href="#4-2-avgjrelse-av-habilitetssprsmalet">§ 4-2. Avgjørelse av habilitetsspørsmålet</a></li>
+<li class="lvl4"><a href="#4-3-forelpig-avgjrelse">§ 4-3. Foreløpig avgjørelse</a></li>
+<li class="lvl4"><a href="#4-4-stedfortreder">§ 4-4. Stedfortreder</a></li>
+<li class="lvl2"><a href="#kapittel-5-alminnelige-saksbehandlingsregler">Kapittel 5 Alminnelige saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#5-1-veiledningsplikt">§ 5-1. Veiledningsplikt</a></li>
+<li class="lvl4"><a href="#5-2-saksbehandlingstid-forelpig-svar">§ 5-2. Saksbehandlingstid, foreløpig svar</a></li>
+<li class="lvl4"><a href="#5-3-fullmektig">§ 5-3. Fullmektig</a></li>
+<li class="lvl4"><a href="#5-4-partsinnsyn-i-saksdokumenter">§ 5-4. Partsinnsyn i saksdokumenter</a></li>
+<li class="lvl4"><a href="#5-5-fristberegning-mv">§ 5-5. Fristberegning mv.</a></li>
+<li class="lvl4"><a href="#5-6-forhandsvarsling">§ 5-6. Forhåndsvarsling</a></li>
+<li class="lvl4"><a href="#5-7-begrunnelse">§ 5-7. Begrunnelse</a></li>
+<li class="lvl4"><a href="#5-8-melding-om-enkeltvedtak">§ 5-8. Melding om enkeltvedtak</a></li>
+<li class="lvl4"><a href="#5-9-sakskostnader">§ 5-9. Sakskostnader</a></li>
+<li class="lvl4"><a href="#5-10-virkning-av-saksbehandlingsfeil">§ 5-10. Virkning av saksbehandlingsfeil</a></li>
+<li class="lvl4"><a href="#5-11-sammenstilling-profilering-og-automatiserte-avgjrelser">§ 5-11. Sammenstilling, profilering og automatiserte avgjørelser</a></li>
+<li class="lvl4"><a href="#5-12-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 5-12. Bruk av personopplysninger ved utvikling og testing av IT-systemer</a></li>
+<li class="lvl2"><a href="#kapittel-6-bindende-forhandsuttalelser">Kapittel 6 Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#6-1-bindende-forhandsuttalelser">§ 6-1. Bindende forhåndsuttalelser</a></li>
+<li class="lvl4"><a href="#6-2-klage-og-domstolsprving">§ 6-2. Klage og domstolsprøving</a></li>
+<li class="lvl4"><a href="#6-3-gebyr">§ 6-3. Gebyr</a></li>
+<li class="lvl4"><a href="#6-4-forskrift">§ 6-4. Forskrift</a></li>
+<li class="lvl2"><a href="#kapittel-7-opplysningsplikt-for-tredjeparter">Kapittel 7 Opplysningsplikt for tredjeparter</a></li>
+<li class="lvl4"><a href="#7-1-alminnelige-bestemmelser">§ 7-1. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#7-2-lnnsopplysninger-mv">§ 7-2. Lønnsopplysninger mv.</a></li>
+<li class="lvl4"><a href="#7-3-finansielle-forhold-og-forsikringer">§ 7-3. Finansielle forhold og forsikringer</a></li>
+<li class="lvl4"><a href="#7-4-fordringer-og-gjeld-i-selskapsforhold">§ 7-4. Fordringer og gjeld i selskapsforhold</a></li>
+<li class="lvl4"><a href="#7-5-kjp-salg-formidling-leie-utbetalinger-mv">§ 7-5. Kjøp, salg, formidling, leie, utbetalinger mv.</a></li>
+<li class="lvl4"><a href="#7-6-oppdragstakere-og-arbeidstakere">§ 7-6. Oppdragstakere og arbeidstakere</a></li>
+<li class="lvl4"><a href="#7-7-aksjonrer-mv">§ 7-7. Aksjonærer mv.</a></li>
+<li class="lvl4"><a href="#7-8-arv">§ 7-8. Arv</a></li>
+<li class="lvl4"><a href="#7-9-offentlige-myndigheter">§ 7-9. Offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#7-10-annen-opplysningsplikt-for-tredjepart">§ 7-10. Annen opplysningsplikt for tredjepart</a></li>
+<li class="lvl4"><a href="#7-11-salg-av-tjenester-og-utleie-gjennom-digitale-plattformer">§ 7-11. Salg av tjenester og utleie gjennom digitale plattformer</a></li>
+<li class="lvl4"><a href="#7-12-kryptoeiendeler">§ 7-12. Kryptoeiendeler</a></li>
+<li class="lvl4"><a href="#7-13-hvem-opplysningsplikten-pahviler">§ 7-13. Hvem opplysningsplikten påhviler</a></li>
+<li class="lvl4"><a href="#7-14-identifikasjon-av-skattepliktig-og-kopi-av-opplysninger">§ 7-14. Identifikasjon av skattepliktig og kopi av opplysninger</a></li>
+<li class="lvl4"><a href="#7-15-forskrifter-mv">§ 7-15. Forskrifter mv.</a></li>
+<li class="lvl2"><a href="#kapittel-8-opplysningsplikt-for-skattepliktige-trekkpliktige-mv">Kapittel 8 Opplysningsplikt for skattepliktige, trekkpliktige mv.</a></li>
+<li class="lvl4"><a href="#8-1-alminnelig-opplysningsplikt">§ 8-1. Alminnelig opplysningsplikt</a></li>
+<li class="lvl4"><a href="#8-2-skattemelding-for-formues-og-inntektsskatt-svalbardskatt-og-petroleumsskatt">§ 8-2. Skattemelding for formues- og inntektsskatt, svalbardskatt og petroleumsskatt</a></li>
+<li class="lvl4"><a href="#8-3-skattemelding-for-merverdiavgift">§ 8-3. Skattemelding for merverdiavgift</a></li>
+<li class="lvl4"><a href="#8-4-skattemelding-for-sravgifter">§ 8-4. Skattemelding for særavgifter</a></li>
+<li class="lvl4"><a href="#8-5-skattemelding-for-motorkjretyavgifter">§ 8-5. Skattemelding for motorkjøretøyavgifter</a></li>
+<li class="lvl4"><a href="#8-6-skattemelding-for-arbeidsgiveravgift-og-finansskatt-pa-lnn">§ 8-6. Skattemelding for arbeidsgiveravgift og finansskatt på lønn</a></li>
+<li class="lvl4"><a href="#8-7-skattemelding-for-merverdiavgiftskompensasjon">§ 8-7. Skattemelding for merverdiavgiftskompensasjon</a></li>
+<li class="lvl4"><a href="#8-8-melding-om-trekk-mv">§ 8-8. Melding om trekk mv.</a></li>
+<li class="lvl4"><a href="#8-9-selskapsmelding-mv-for-selskap-med-deltakerfastsetting">§ 8-9. Selskapsmelding mv. for selskap med deltakerfastsetting</a></li>
+<li class="lvl4"><a href="#8-10-melding-om-realisasjon-av-naturgass-mv">§ 8-10. Melding om realisasjon av naturgass mv.</a></li>
+<li class="lvl4"><a href="#8-11-melding-og-annen-dokumentasjon-for-kontrollerte-transaksjoner-mv">§ 8-11. Melding og annen dokumentasjon for kontrollerte transaksjoner mv.</a></li>
+<li class="lvl4"><a href="#8-12-melding-om-flernasjonale-konserns-fordeling-av-inntekt-skatt-mv">§ 8-12. Melding om flernasjonale konserns fordeling av inntekt, skatt mv.</a></li>
+<li class="lvl4"><a href="#8-13-melding-om-registrering-for-merverdiavgift-og-sravgifter">§ 8-13. Melding om registrering for merverdiavgift og særavgifter</a></li>
+<li class="lvl4"><a href="#8-14-skattemelding-og-melding-for-suppleringsskatt">§ 8-14. Skattemelding og melding for suppleringsskatt</a></li>
+<li class="lvl4"><a href="#8-15-levering-av-skattemelding-mv">§ 8-15. Levering av skattemelding mv.</a></li>
+<li class="lvl4"><a href="#8-16-forskrifter-mv">§ 8-16. Forskrifter mv.</a></li>
+<li class="lvl2"><a href="#kapittel-9-fastsetting">Kapittel 9 Fastsetting</a></li>
+<li class="lvl4"><a href="#9-1-fastsetting-av-skattegrunnlaget">§ 9-1. Fastsetting av skattegrunnlaget</a></li>
+<li class="lvl4"><a href="#9-2-beregning-av-skatt">§ 9-2. Beregning av skatt</a></li>
+<li class="lvl4"><a href="#9-3-melding-om-skatteoppgjr-mv">§ 9-3. Melding om skatteoppgjør mv.</a></li>
+<li class="lvl4"><a href="#9-4-skatte-og-trekkpliktiges-endring-av-fastsetting-mv">§ 9-4. Skatte- og trekkpliktiges endring av fastsetting mv.</a></li>
+<li class="lvl4"><a href="#9-5-trekkpliktiges-adgang-til-a-endre-fastsatt-skatt-pa-utbytte-til-utenlandske-aksjonrer">§ 9-5. Trekkpliktiges adgang til å endre fastsatt skatt på utbytte til utenlandske aksjonærer</a></li>
+<li class="lvl4"><a href="#9-6-sknad-om-refusjon-av-skatt-fastsatt-ved-trekk">§ 9-6. Søknad om refusjon av skatt fastsatt ved trekk</a></li>
+<li class="lvl4"><a href="#9-7-skatteliste">§ 9-7. Skatteliste</a></li>
+<li class="lvl4"><a href="#9-8-takseringsregler-mv">§ 9-8. Takseringsregler mv.</a></li>
+<li class="lvl4"><a href="#9-9-betalingsnedsettelse-og-betalingsutsettelse-mv-lempning">§ 9-9. Betalingsnedsettelse og betalingsutsettelse mv. – lempning</a></li>
+<li class="lvl2"><a href="#kapittel-10-kontroll">Kapittel 10 Kontroll</a></li>
+<li class="lvl4"><a href="#10-1-kontrollopplysninger-fra-skattepliktige-mv">§ 10-1. Kontrollopplysninger fra skattepliktige mv.</a></li>
+<li class="lvl4"><a href="#10-2-kontrollopplysninger-fra-tredjepart">§ 10-2. Kontrollopplysninger fra tredjepart</a></li>
+<li class="lvl4"><a href="#10-3-kontrollopplysninger-ved-skifte-av-ddsbo">§ 10-3. Kontrollopplysninger ved skifte av dødsbo</a></li>
+<li class="lvl4"><a href="#10-4-kontroll-hos-den-opplysningspliktige">§ 10-4. Kontroll hos den opplysningspliktige</a></li>
+<li class="lvl4"><a href="#10-5-kontrollopplysninger-fra-offentlige-myndigheter">§ 10-5. Kontrollopplysninger fra offentlige myndigheter</a></li>
+<li class="lvl4"><a href="#10-6-kontrollopplysninger-fra-tilbyder-av-tilgang-til-elektronisk-kommunikasjonsnett-eller-tjeneste">§ 10-6. Kontrollopplysninger fra tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste</a></li>
+<li class="lvl4"><a href="#10-7-kontrollopplysninger-om-eierinteresse-i-utenlandsk-selskap-mv">§ 10-7. Kontrollopplysninger om eierinteresse i utenlandsk selskap mv.</a></li>
+<li class="lvl4"><a href="#10-8-kontroll-av-motorvogner">§ 10-8. Kontroll av motorvogner</a></li>
+<li class="lvl4"><a href="#10-9-plikt-til-a-framvise-hms-kort">§ 10-9. Plikt til å framvise HMS-kort</a></li>
+<li class="lvl4"><a href="#10-10-hvem-pliktene-pahviler-i-selskap-mv">§ 10-10. Hvem pliktene påhviler i selskap mv.</a></li>
+<li class="lvl4"><a href="#10-11-framgangsmaten-ved-kontroll">§ 10-11. Framgangsmåten ved kontroll</a></li>
+<li class="lvl4"><a href="#10-12-politiets-bistandsplikt">§ 10-12. Politiets bistandsplikt</a></li>
+<li class="lvl4"><a href="#10-13-klage">§ 10-13. Klage</a></li>
+<li class="lvl4"><a href="#10-14-forskrifter">§ 10-14. Forskrifter</a></li>
+<li class="lvl4"><a href="#10-15-bevissikring">§ 10-15. Bevissikring</a></li>
+<li class="lvl2"><a href="#kapittel-11-palegg-om-bokfring-revisjon-og-oppbevaring-av-regnskapsmateriale">Kapittel 11 Pålegg om bokføring, revisjon og oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#11-1-palegg-om-bokfring">§ 11-1. Pålegg om bokføring</a></li>
+<li class="lvl4"><a href="#11-2-palegg-om-revisjon">§ 11-2. Pålegg om revisjon</a></li>
+<li class="lvl4"><a href="#11-3-palegg-om-oppbevaring-av-regnskapsmateriale">§ 11-3. Pålegg om oppbevaring av regnskapsmateriale</a></li>
+<li class="lvl4"><a href="#11-4-klage-over-palegg">§ 11-4. Klage over pålegg</a></li>
+<li class="lvl2"><a href="#kapittel-12-endring-uten-klage">Kapittel 12 Endring uten klage</a></li>
+<li class="lvl4"><a href="#12-1-endring-av-skattefastsetting-mv">§ 12-1. Endring av skattefastsetting mv.</a></li>
+<li class="lvl4"><a href="#12-2-skjnnsfastsetting">§ 12-2. Skjønnsfastsetting</a></li>
+<li class="lvl4"><a href="#12-3-endring-av-vedtak-om-registrering-eller-sletting-i-merverdiavgiftsregisteret">§ 12-3. Endring av vedtak om registrering eller sletting i Merverdiavgiftsregisteret</a></li>
+<li class="lvl4"><a href="#12-4-summarisk-fellesoppgjr">§ 12-4. Summarisk fellesoppgjør</a></li>
+<li class="lvl4"><a href="#12-5-fastsetting-for-flere-skattleggingsperioder-under-ett">§ 12-5. Fastsetting for flere skattleggingsperioder under ett</a></li>
+<li class="lvl4"><a href="#12-6-frister-for-endring-av-skattefastsetting-mv">§ 12-6. Frister for endring av skattefastsetting mv.</a></li>
+<li class="lvl4"><a href="#12-7-utsatt-friststart">§ 12-7. Utsatt friststart</a></li>
+<li class="lvl4"><a href="#12-8-unntak-fra-fristene-for-a-ta-opp-skattefastsetting-mv-til-endring">§ 12-8. Unntak fra fristene for å ta opp skattefastsetting mv. til endring</a></li>
+<li class="lvl4"><a href="#12-9-fordeling-av-kompetanse-mellom-oljeskattekontoret-og-andre-skattemyndigheter">§ 12-9. Fordeling av kompetanse mellom Oljeskattekontoret og andre skattemyndigheter</a></li>
+<li class="lvl4"><a href="#12-10-endring-av-skattefastsetting-overfor-trekkpliktige">§ 12-10. Endring av skattefastsetting overfor trekkpliktige</a></li>
+<li class="lvl4"><a href="#12-11-endring-uten-klage-av-andre-enkeltvedtak-enn-vedtak-om-skattefastsetting">§ 12-11. Endring uten klage av andre enkeltvedtak enn vedtak om skattefastsetting</a></li>
+<li class="lvl2"><a href="#kapittel-13-klage">Kapittel 13 Klage</a></li>
+<li class="lvl4"><a href="#13-1-hvilke-avgjrelser-som-kan-paklages-og-hvem-som-har-klagerett">§ 13-1. Hvilke avgjørelser som kan påklages og hvem som har klagerett</a></li>
+<li class="lvl4"><a href="#13-2-klage-fra-andre">§ 13-2. Klage fra andre</a></li>
+<li class="lvl4"><a href="#13-3-klageinstans">§ 13-3. Klageinstans</a></li>
+<li class="lvl4"><a href="#13-4-klagefrist-oppreisning-for-oversittelse-av-klagefristen">§ 13-4. Klagefrist. Oppreisning for oversittelse av klagefristen.</a></li>
+<li class="lvl4"><a href="#13-5-klagens-adressat-form-og-innhold">§ 13-5. Klagens adressat, form og innhold</a></li>
+<li class="lvl4"><a href="#13-6-saksforberedelse-i-klagesak">§ 13-6. Saksforberedelse i klagesak</a></li>
+<li class="lvl4"><a href="#13-7-klageinstansens-kompetanse">§ 13-7. Klageinstansens kompetanse</a></li>
+<li class="lvl4"><a href="#13-8-fordeling-av-kompetanse-mellom-klagenemnda-for-petroleumsskatt-og-andre-skattemyndigheter">§ 13-8. Fordeling av kompetanse mellom Klagenemnda for petroleumsskatt og andre skattemyndigheter</a></li>
+<li class="lvl4"><a href="#13-9-endring-av-klagenemndenes-avgjrelser">§ 13-9. Endring av klagenemndenes avgjørelser</a></li>
+<li class="lvl2"><a href="#kapittel-14-administrative-reaksjoner-og-straff">Kapittel 14 Administrative reaksjoner og straff</a></li>
+<li class="lvl4"><a href="#14-1-tvangsmulkt">§ 14-1. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-2-saksbehandlingsregler-ved-ileggelse-av-tvangsmulkt">§ 14-2. Saksbehandlingsregler ved ileggelse av tvangsmulkt</a></li>
+<li class="lvl4"><a href="#14-3-tilleggsskatt">§ 14-3. Tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-4-unntak-fra-tilleggsskatt">§ 14-4. Unntak fra tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-5-satser-og-beregningsgrunnlag-for-tilleggsskatt">§ 14-5. Satser og beregningsgrunnlag for tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-6-skjerpet-tilleggsskatt">§ 14-6. Skjerpet tilleggsskatt</a></li>
+<li class="lvl4"><a href="#14-7-overtredelsesgebyr">§ 14-7. Overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#14-8-varsel">§ 14-8. Varsel</a></li>
+<li class="lvl4"><a href="#14-9-veiledning-om-taushetsrett-mv">§ 14-9. Veiledning om taushetsrett mv.</a></li>
+<li class="lvl4"><a href="#14-10-utsatt-iverksetting-av-vedtak-om-sanksjon">§ 14-10. Utsatt iverksetting av vedtak om sanksjon</a></li>
+<li class="lvl4"><a href="#14-11-domstolenes-kompetanse-ved-prving-av-vedtak-om-administrative-sanksjoner">§ 14-11. Domstolenes kompetanse ved prøving av vedtak om administrative sanksjoner</a></li>
+<li class="lvl4"><a href="#14-12-kompensasjon-for-urimelig-lang-saksbehandlingstid">§ 14-12. Kompensasjon for urimelig lang saksbehandlingstid</a></li>
+<li class="lvl4"><a href="#14-13-straff-for-tredjeparts-opplysningssvikt-mv">§ 14-13. Straff for tredjeparts opplysningssvikt mv.</a></li>
+<li class="lvl4"><a href="#14-14-straff-for-unnlatt-medvirkning-til-kontroll">§ 14-14. Straff for unnlatt medvirkning til kontroll</a></li>
+<li class="lvl2"><a href="#kapittel-15-sksmal-mv">Kapittel 15 Søksmål mv.</a></li>
+<li class="lvl4"><a href="#15-1-sksmal-fra-skattepliktige-mv">§ 15-1. Søksmål fra skattepliktige mv.</a></li>
+<li class="lvl4"><a href="#15-2-sksmal-fra-departementet-eller-en-kommune">§ 15-2. Søksmål fra departementet eller en kommune</a></li>
+<li class="lvl4"><a href="#15-3-partsstilling">§ 15-3. Partsstilling</a></li>
+<li class="lvl4"><a href="#15-4-sksmalsfrist">§ 15-4. Søksmålsfrist</a></li>
+<li class="lvl4"><a href="#15-5-adgang-til-a-stille-vilkar-for-a-reise-sksmal">§ 15-5. Adgang til å stille vilkår for å reise søksmål</a></li>
+<li class="lvl4"><a href="#15-6-fastsetting-etter-avsagt-dom-mv">§ 15-6. Fastsetting etter avsagt dom mv.</a></li>
+<li class="lvl4"><a href="#15-7-avgjrelse-i-fordelingstvist">§ 15-7. Avgjørelse i fordelingstvist</a></li>
+<li class="lvl2"><a href="#kapittel-16-ikrafttredelse-overgangsbestemmelser-og-endringer-i-andre-lover">Kapittel 16 Ikrafttredelse, overgangsbestemmelser og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#16-1-ikrafttredelse">§ 16-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#16-2-overgangsbestemmelser">§ 16-2. Overgangsbestemmelser</a></li>
+<li class="lvl4"><a href="#16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-05-27-14.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2016-05-27-14.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2016-05-27-14.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2016-05-27-14.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2016-05-27-14.html">Observerte kildeutgaver</a> · <a href="../historie/skatteforvaltningsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2016-05-27-14.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2016-05-27-14.html">Observerte kildeutgaver</a> · <a href="../historie/skatteforvaltningsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2016-05-27-14.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-skatteforvaltning-skatteforvaltningsloven">Lov om skatteforvaltning (skatteforvaltningsloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 Innledende bestemmelser</h2>
 <h4 id="1-1-lovens-virkeomrade">§ 1-1. Lovens virkeområde <a class="para-history" href="../historikk/lov-2016-05-27-14/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Loven gjelder for fastsetting av</p>
@@ -92,7 +469,7 @@ i. avgifter etter <a href="lov-1959-06-19-2.html">motorkjøretøy- og båtavgift
 j. kompensasjon av merverdiavgift for kommuner, fylkeskommuner mv. etter <a href="lov-2003-12-12-108.html">merverdiavgiftskompensasjonsloven</a> (merverdiavgiftskompensasjon)
 k. finansskatt på lønn etter folketrygdloven kapittel 23 (finansskatt på lønn)
 l. suppleringsskatt etter <a href="lov-2024-01-12-1.html">suppleringsskatteloven</a> .</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="1-2-definisjoner">§ 1-2. Definisjoner</h4>
 <p>I denne loven menes med</p>
 <p>a. skatt: skatter, avgifter og merverdiavgiftskompensasjon som nevnt i § 1-1
@@ -106,10 +483,10 @@ b. Forvaltningsloven kapittel VII om forskrifter gjelder for behandlingen av sak
 <h2 id="kapittel-2-skattemyndigheter">Kapittel 2 Skattemyndigheter</h2>
 <h4 id="2-1-formues-og-inntektsskatt-jan-mayen-skatt-artistskatt-arbeidsgiveravgift-finansskatt-pa-lnn-merverdiavgift-og-suppleringsskatt">§ 2-1. Formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skattekontoret, Skattedirektoratet, Skatteklagenemnda og sekretariatet for Skatteklagenemnda er myndigheter for formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, arbeidsgiveravgift, finansskatt på lønn, merverdiavgift og suppleringsskatt.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</p>
 <h4 id="2-2-petroleumsskatt">§ 2-2. Petroleumsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-2-2.html" title="Endringshistorikk for § 2-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Oljeskattekontoret og Klagenemnda for petroleumsskatt er myndigheter for skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5 . Skattemyndighetene som nevnt i § 2-1 er myndighet for skatt på annen formue og inntekt etter petroleumsskatteloven.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 .</p>
 <h4 id="2-3-svalbardskatt">§ 2-3. Svalbardskatt</h4>
 <p>Skattekontoret, Skattedirektoratet og Skatteklagenemnda for Svalbard er myndigheter for svalbardskatt.</p>
 <h4 id="2-4-merverdiavgiftskompensasjon">§ 2-4. Merverdiavgiftskompensasjon</h4>
@@ -118,7 +495,7 @@ b. Forvaltningsloven kapittel VII om forskrifter gjelder for behandlingen av sak
 <p>Skattekontoret og Skattedirektoratet er myndigheter for særavgifter.</p>
 <h4 id="2-6-motorkjretyavgifter">§ 2-6. Motorkjøretøyavgifter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-2-6.html" title="Endringshistorikk for § 2-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skattekontoret og Skattedirektoratet er myndigheter for motorkjøretøyavgifter.</p>
-<p><em>Oppheves ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Oppheves ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="2-7-skattemyndighet-i-frste-instans">§ 2-7. Skattemyndighet i første instans</h4>
 <p>Skattekontoret og Oljeskattekontoret er skattemyndigheter i første instans.</p>
 <h4 id="2-8-oppnevning-av-nemndsmedlemmer-sammensetning-av-nemndene-og-organisering-av-nemndenes-arbeid">§ 2-8. Oppnevning av nemndsmedlemmer, sammensetning av nemndene og organisering av nemndenes arbeid</h4>
@@ -135,14 +512,14 @@ b. Forvaltningsloven kapittel VII om forskrifter gjelder for behandlingen av sak
 b. ansatte i Finansdepartementet, tjenestemenn i Skattedirektoratet, ved skattekontorene og i sekretariatet for Skatteklagenemnda
 c. enhver som i løpet av de ti siste årene er straffet for overtredelse av denne loven, ligningsloven , merverdiavgiftsloven , <a href="lov-2005-06-17-67.html">skattebetalingsloven</a> , <a href="lov-2025-04-25-12.html">innkrevingsloven</a> , <a href="lov-2005-05-20-28.html">straffeloven</a> §§ 378 til 380 og 406 , <a href="lov-1998-07-17-56.html">regnskapsloven</a> eller <a href="lov-2004-11-19-73.html">bokføringsloven</a>
 d. enhver som i løpet av de ti siste årene er ilagt skjerpet tilleggsskatt etter § 14-6 .</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 86 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 86 , 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="2-11-samtidige-verv">§ 2-11. Samtidige verv</h4>
 <p>Ingen kan samtidig være medlem av, eller varamedlem til, flere enn én nemnd som nevnt i §§ 2-1 til 2-3 .</p>
 <h4 id="2-12-engasjert-hjelp">§ 2-12. Engasjert hjelp</h4>
 <p>Skattemyndighetene kan engasjere sakkyndig bistand til saksforberedelse på alle trinn. Engasjert sakkyndig kan gis adgang til å møte i nemnd. Den sakkyndige kan også gis fullmakt til å treffe avgjørelser etter kapittel 10 .</p>
 <h4 id="2-13-myndighet-til-andre-organer">§ 2-13. Myndighet til andre organer <a class="para-history" href="../historikk/lov-2016-05-27-14/para-2-13.html" title="Endringshistorikk for § 2-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan gi forskrift om at andre organer enn de som er nevnt i dette kapitlet, kan utøve myndighet etter denne loven. Departementet kan gi forskrift om hvilke saksbehandlingsregler som da skal gjelde, herunder gjøre unntak fra skatteforvaltningsloven .</p>
-<p><em>Endret ved lov 21 des 2020 nr. 171 .</em></p>
+<p class="note">Endret ved lov 21 des 2020 nr. 171 .</p>
 <h2 id="kapittel-3-taushetsplikt">Kapittel 3 Taushetsplikt</h2>
 <h4 id="3-1-hovedregelen-om-taushetsplikt">§ 3-1. Hovedregelen om taushetsplikt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-1.html" title="Endringshistorikk for § 3-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Enhver som har eller har hatt verv, stilling eller oppdrag knyttet til skattemyndighetene, skal hindre at uvedkommende får adgang eller kjennskap til det vedkommende i sitt arbeid har fått vite om noens formues- eller inntektsforhold eller andre økonomiske, bedriftsmessige eller personlige forhold. Den som tiltrer verv, stilling eller oppdrag, skal gi skriftlig erklæring om at vedkommende kjenner og vil overholde taushetsplikten.</p>
@@ -150,28 +527,28 @@ d. enhver som i løpet av de ti siste årene er ilagt skjerpet tilleggsskatt ett
 <p>a. innholdet i skattelister som etter § 9-7 skal legges ut til alminnelig ettersyn, eller senere endringer i disse
 b. opplysninger om at en næringsdrivende er eller ikke er registrert i Merverdiavgiftsregisteret, etter forenklet registreringsordning for merverdiavgift eller i medhold av særavgiftsloven
 c. registreringspliktig statsstøtte etter lov om nasjonale saksbehandlingsregler i saker om offentlig støtte § 7 første ledd.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 4 mars 2022 nr. 7 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2252 ).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 4 mars 2022 nr. 7 (i kraft 1 jan 2023 iflg. res. 16 des 2022 nr. 2252 ).</p>
 <h4 id="3-2-forholdet-til-retten-til-innsyn-i-saksdokumenter">§ 3-2. Forholdet til retten til innsyn i saksdokumenter</h4>
 <p>Taushetsplikten etter § 3-1 er ikke til hinder for at opplysningene i en sak gjøres kjent etter § 5-4 .</p>
 <h4 id="3-3-utlevering-av-opplysninger-til-offentlige-myndigheter">§ 3-3. Utlevering av opplysninger til offentlige myndigheter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Taushetsplikten er ikke til hinder for at opplysninger utleveres til andre offentlige myndigheter dersom dette er nødvendig for å utføre mottakerorganets oppgaver etter lov, eller for å hindre at virksomhet blir utøvd på en uforsvarlig måte.</p>
 <p>(2) Utleveringen må ikke være uforholdsmessig ut fra de ulempene den medfører i form av inngrep i personvernet og fare for at opplysninger av konkurransemessig betydning kommer på avveie.</p>
 <p>(3) Departementet kan gi forskrift om utlevering av opplysninger til andre offentlige myndigheter i deres interesse, blant annet om hvem det skal utleveres opplysninger til, hvilke opplysninger som kan utleveres, hvilke kriterier som skal vektlegges ved vurderingen av om utleveringen er forholdsmessig og om at opplysninger i enkelte tilfeller alltid skal kunne utleveres.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 11 mai 2017 nr. 26 (ikr. 1 juni 2017 iflg. res. 11 mai 2017 nr. 563 ), 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 11 mai 2017 nr. 26 (ikr. 1 juni 2017 iflg. res. 11 mai 2017 nr. 563 ), 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ).</p>
 <h4 id="3-4-utlevering-av-opplysninger-til-finansforetak-mv">§ 3-4. Utlevering av opplysninger til finansforetak mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Taushetsplikten etter § 3-1 er ikke til hinder for at opplysninger om fødselsnummer og d-nummer for personlig skattepliktig eller organisasjonsnummer for upersonlig skattepliktig, navn, adresse, skatteklasse, fastsatt nettoformue og nettoinntekt, skatter og avgifter kan gis til finansforetak (jf. <a href="lov-2015-04-10-17.html">finansforetaksloven</a>), forsikringsvirksomhet (jf. <a href="lov-2005-06-10-44.html">forsikringsvirksomhetsloven</a>) og kredittopplysningsvirksomhet. Med kredittopplysningsvirksomhet menes virksomhet som består i å gi meddelelse som belyser kredittverdighet og økonomisk vederheftighet. Disse virksomhetenes bruk av opplysningene skal følge reglene i <a href="lov-2018-06-15-38.html">personopplysningsloven</a>.</p>
-<p><em>Endret ved lov 23 juni 2020 nr. 108 .</em></p>
+<p class="note">Endret ved lov 23 juni 2020 nr. 108 .</p>
 <h4 id="3-5-utlevering-av-opplysninger-om-petroleumsvirksomhet">§ 3-5. Utlevering av opplysninger om petroleumsvirksomhet <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Opplysninger som skattemyndighetene får om selskaper eller personer som er skattepliktige etter petroleumsskatteloven, kan uten hinder av taushetsplikt gjøres tilgjengelig for annen offentlig myndighet i den utstrekning dette er nødvendig for arbeid med å anslå framtidige skatter og avgifter fra petroleumsvirksomheten på den norske kontinentalsokkelen i forbindelse med utarbeidelse av meldinger og proposisjoner til Stortinget.</p>
 <p>(2) Opplysninger som skattemyndighetene får i henhold til § 8-10 , kan gis til Energidepartementet uten hinder av taushetsplikten.</p>
-<p><em>Endret ved lov 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ).</em></p>
+<p class="note">Endret ved lov 22 mars 2024 nr. 11 (i kraft 1 april 2024 iflg. res. 22 mars 2024 nr. 516 ).</p>
 <h4 id="3-6-utlevering-av-opplysninger-til-bruk-i-arbeid-med-pensjon">§ 3-6. Utlevering av opplysninger til bruk i arbeid med pensjon <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Taushetsplikten etter § 3-1 er ikke til hinder for at fellesorganet etter <a href="lov-2010-02-19-5.html">AFP-tilskottsloven</a> § 18 gis tilgang til opplysninger om brutto arbeidsinntekt for arbeidstakere som er omfattet av en avtale om avtalefestet pensjon.</p>
 <p>(2) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning som har offentlig tjenestepensjon eller tjenestepensjon etter <a href="lov-2000-03-24-16.html">foretakspensjonsloven</a> , <a href="lov-2000-11-24-81.html">innskuddspensjonsloven</a> eller <a href="lov-2013-12-13-106.html">tjenestepensjonsloven</a> , gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2 , og pensjonsgivende inntekt for personer som mottar uførepensjon eller avtalefestet pensjon fra innretningen.</p>
 <p>(3) Taushetsplikten etter § 3-1 er ikke til hinder for at privat pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2 , til bruk i arbeidet med pensjonsordning etter innskuddspensjonsloven , foretakspensjonsloven eller tjenestepensjonsloven .</p>
 <p>(4) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2 og pensjonsgivende inntekt, til bruk i arbeidet med avtalefestet pensjon i kommunal sektor for arbeidstakere født i 1963 eller senere.</p>
 <p>(5) Taushetsplikten etter § 3-1 er ikke til hinder for at pensjonsinnretning gis tilgang til nødvendige lønnsopplysninger som er gitt etter § 7-2 , og opplysninger om pensjonsgivende inntekt, til bruk i arbeidet med tidligpensjon og særalderspåslag og etteroppgjør i kommunal sektor for arbeidstakere født i 1963 eller senere.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2019 nr. 25 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 781 ), 23 juni 2020 nr. 108 , 21 des 2020 nr. 171 (ikr. 1 jan 2021), 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ), 22 des 2025 nr. 117 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2019 nr. 25 (ikr. 1 juli 2019 iflg. res. 21 juni 2019 nr. 781 ), 23 juni 2020 nr. 108 , 21 des 2020 nr. 171 (ikr. 1 jan 2021), 20 des 2024 nr. 93 (i kraft 1 jan 2025 iflg. res. 20 des 2024 nr. 3303 ), 22 des 2025 nr. 117 (i kraft 1 jan 2026).</p>
 <h4 id="3-7-begrensninger-i-taushetsplikten-nar-det-ikke-er-behov-for-beskyttelse">§ 3-7. Begrensninger i taushetsplikten når det ikke er behov for beskyttelse</h4>
 <p>Taushetsplikten etter § 3-1 er ikke til hinder for at</p>
 <p>a. opplysninger gjøres kjent i den utstrekning de som har krav på taushet samtykker
@@ -181,13 +558,13 @@ c. opplysninger brukes når de er alminnelig kjent eller alminnelig tilgjengelig
 <p>Skattedirektoratet kan uten hinder av taushetsplikt etter § 3-1 godkjenne at opplysninger gis til forskningsformål i samsvar med forvaltningsloven § 13 d .</p>
 <h4 id="3-9-utlevering-av-opplysninger-til-advokattilsynet">§ 3-9. Utlevering av opplysninger til Advokattilsynet <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-9.html" title="Endringshistorikk for § 3-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Taushetsplikten etter § 3-1 er ikke til hinder for at opplysninger gis til Advokattilsynet til bruk for tilsynsformål.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ), endret ved lov 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ), endret ved lov 12 mai 2022 nr. 28 (i kraft 1 jan 2025 iflg. res. 11 okt 2024 nr. 2461 , endring endret ved lov 21 juni 2024 nr. 46 ).</p>
 <h4 id="3-10-utlevering-av-opplysninger-til-avddes-ektefelle-samboer-og-arving">§ 3-10. Utlevering av opplysninger til avdødes ektefelle, samboer og arving <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-10.html" title="Endringshistorikk for § 3-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Taushetsplikten etter § 3-1 er ikke til hinder for at opplysninger gis til avdødes ektefelle, samboer og arving, jf. <a href="lov-2019-06-14-21.html">arveloven</a> § 2 første og tredje ledd , når vedkommende kan vise til et saklig behov for innsyn, eller til den som har fullmakt som nevnt i arveloven § 92 første til tredje ledd . Når skifteformen er valgt, er det den eller de som representerer boet, jf. arveloven §§ 118 og 134 , som har rett til innsyn.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ), endret ved lover 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ), 31 mai 2024 nr. 25 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 871 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 ), endret ved lover 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ), 31 mai 2024 nr. 25 (i kraft 1 juli 2024 iflg. res. 31 mai 2024 nr. 871 ).</p>
 <h4 id="3-11-overfrt-taushetsplikt">§ 3-11. Overført taushetsplikt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-3-11.html" title="Endringshistorikk for § 3-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Hvis opplysninger gis i tilfeller som nevnt i §§ 3-2 , 3-3 , 3-5 , 3-6 , 3-8 eller 3-9 til noen som ikke selv har taushetsplikt etter annen lov, eller til Finansdepartementet, gjelder taushetsplikten etter § 3-1 tilsvarende for den som får opplysningene. Den som gir opplysningene, skal samtidig gjøre oppmerksom på dette. Opplysningene kan likevel brukes til det formålet som begrunnet at de ble gitt.</p>
-<p><em>Endret ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 , tidligere § 3-9).</em></p>
+<p class="note">Endret ved lov 20 des 2018 nr. 110 (ikr. 1 okt 2019 iflg. res. 13 sep 2019 nr. 1120 , tidligere § 3-9).</p>
 <h2 id="kapittel-4-habilitet">Kapittel 4 Habilitet</h2>
 <h4 id="4-1-habilitet">§ 4-1. Habilitet</h4>
 <p>(1) Inhabil til å delta i tilrettelegging av grunnlaget for en avgjørelse og ved avgjørelse av en sak er en tjenestemann og enhver annen som utfører tjeneste eller arbeid for skattemyndighetene når</p>
@@ -248,7 +625,7 @@ c. den vedtaket retter seg mot, allerede ved søknad, klage eller på annen måt
 <p>(4) Forhåndsvarsling skal unnlates ved vedtak som nevnt i § 9-2 tredje ledd.</p>
 <p>(5) Er enkeltvedtak truffet uten at det er gitt pliktig varsel, kan den vedtaket retter seg mot, ved klage bringe vedtaket inn for samme myndighet til ny behandling.</p>
 <p>(6) Er forhåndsvarsel sendt og det er klart at vedtak likevel ikke vil bli truffet, skal den som har mottatt varsel informeres om sakens utfall.</p>
-<p><em>Endret ved lov 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved lov 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</p>
 <h4 id="5-7-begrunnelse">§ 5-7. Begrunnelse</h4>
 <p>(1) Enkeltvedtak skal begrunnes. Dette gjelder likevel ikke vedtak som nevnt i § 9-2 tredje ledd.</p>
 <p>(2) Begrunnelsens omfang og innhold skal tilpasses vedtakets art og viktighet. I begrunnelsen skal det vises til de regler og de faktiske forhold vedtaket bygger på, med mindre dette må anses unødvendig. Er de faktiske forholdene beskrevet av den skattepliktige eller tredjeparten selv eller i et dokument som er gjort kjent for vedkommende, er en henvisning til den tidligere framstillingen tilstrekkelig. Er vedtaket i samsvar med forhåndsvarsel fra skattemyndighetene, og den skattepliktige eller tredjeparten ikke har hatt innvendinger, er en henvisning til varselet tilstrekkelig.</p>
@@ -270,17 +647,17 @@ b. Oljeskattekontoret når endringsvedtaket er truffet av Klagenemnda for petrol
 <p>(2) Skattemyndighetene kan treffe avgjørelser som utelukkende er basert på automatisert behandling. Behandlingen må sikre partens krav til forsvarlig saksbehandling og være forenlig med retten til vern av personopplysninger. Avgjørelsen kan ikke bygge på skjønnsmessige vilkår i lov eller forskrift, med mindre avgjørelsen er utvilsom. Den registrerte har rett til manuell overprøving av avgjørelsen.</p>
 <p>(3) Skattemyndighetene kan benytte særlige kategorier av personopplysninger som nevnt i personvernforordningen artikkel 9 og 10 , ved sammenstilling, profilering og automatiserte avgjørelser.</p>
 <p>(4) Departementet kan gi forskrift om sammenstilling, profilering og automatiserte avgjørelser, blant annet om formålet med behandlingen, hvilke personopplysninger som kan behandles og hvem det kan behandles personopplysninger om.</p>
-<p><em>Tilføyd ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3804 ).</em></p>
+<p class="note">Tilføyd ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3804 ).</p>
 <h4 id="5-12-bruk-av-personopplysninger-ved-utvikling-og-testing-av-it-systemer">§ 5-12. Bruk av personopplysninger ved utvikling og testing av IT-systemer</h4>
 <p>(1) Skattemyndighetene kan behandle innhentede personopplysninger for å utvikle og teste IT-systemer dersom det vil være umulig eller uforholdsmessig vanskelig å oppnå formålet ved å bruke anonyme eller fiktive opplysninger.</p>
 <p>(2) Departementet kan i forskrift gi nærmere regler om behandling etter første ledd.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 juli 2019), endret ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3804 , tidligere § 5-11).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 juli 2019), endret ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022 iflg. res. 22 des 2021 nr. 3804 , tidligere § 5-11).</p>
 <h2 id="kapittel-6-bindende-forhandsuttalelser">Kapittel 6 Bindende forhåndsuttalelser</h2>
 <h4 id="6-1-bindende-forhandsuttalelser">§ 6-1. Bindende forhåndsuttalelser <a class="para-history" href="../historikk/lov-2016-05-27-14/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattemyndighetene kan på anmodning fra en skattepliktig mv. gi bindende forhåndsuttalelse om de skattemessige virkningene av en konkret planlagt disposisjon før den igangsettes. Dette gjelder bare når det er av vesentlig betydning for den skattepliktige å få klarlagt virkningene før igangsetting, eller spørsmålet er av allmenn interesse.</p>
 <p>(2) Oljeskattekontoret kan på anmodning gi bindende forhåndsuttalelse om hva som skal medregnes som skattepliktig inntekt etter petroleumsskatteloven § 5 første ledd ved realisasjon av naturgass. Dette gjelder bare for transaksjoner mellom parter med interessefellesskap, jf. skatteloven § 13-1 . Første punktum gjelder tilsvarende når skattepliktig etter § 5 tar naturgass ut av særskattepliktig virksomhet. Departementet kan bestemme at dette leddet ikke skal gjelde for enkelte typer naturgass.</p>
 <p>(3) Forhåndsuttalelse gitt etter første ledd, skal legges til grunn som bindende ved fastsettingen dersom den uttalelsen gjelder krever det, og den faktiske disposisjonen er gjennomført i samsvar med forutsetningene for uttalelsen. Forhåndsuttalelse gitt etter annet ledd, skal legges til grunn som bindende ved fastsettingen hvis den skattepliktige har gitt riktige og fullstendige opplysninger, og den faktiske gjennomføringen er i samsvar med forutsetningene for uttalelsen. Fastsetting avgjort med bindende virkning i forhåndsuttalelse gitt etter annet ledd, kan ikke påklages.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="6-2-klage-og-domstolsprving">§ 6-2. Klage og domstolsprøving</h4>
 <p>(1) En bindende forhåndsuttalelse etter § 6-1 første ledd kan påklages i samsvar med reglene om klage over enkeltvedtak om skattefastsetting i kapittel 13 . Skattemyndighetenes beslutning om ikke å gi bindende forhåndsuttalelse kan ikke påklages.</p>
 <p>(2) En bindende forhåndsuttalelse kan ikke prøves i egen sak for domstol. Fastsetting hvor bindende forhåndsuttalelse etter § 6-1 første ledd er lagt til grunn, kan likevel bringes inn for domstol etter ellers gjeldende bestemmelser.</p>
@@ -307,7 +684,7 @@ j. engangsutbetalinger til rettighetshaver, begunstiget, bo eller arving etter l
 <p>(3) Lønnsopplysningene skal omfatte</p>
 <p>a. fradrag som er gjort ved lønnsutbetalingene, slik som medlemsinnskudd til tjenestepensjonsordning, fradragsberettiget fagforeningskontingent mv. Det samme gjelder fradragsberettiget fagforeningskontingent som lønnstakeren legitimerer å ha betalt direkte til sin fagforening.
 b. inntektsfradrag som gis ved fastsettingen, slik som sjømannsfradrag mv.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 23 juni 2020 nr. 108 , 6 nov 2020 nr. 127 (ikr. 1 jan 2021 iflg. res. 6 nov 2020 nr. 2247 ), 18 juni 2021 nr. 109 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 23 juni 2020 nr. 108 , 6 nov 2020 nr. 127 (ikr. 1 jan 2021 iflg. res. 6 nov 2020 nr. 2247 ), 18 juni 2021 nr. 109 .</p>
 <h4 id="7-3-finansielle-forhold-og-forsikringer">§ 7-3. Finansielle forhold og forsikringer <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-3.html" title="Endringshistorikk for § 7-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Plikt til å gi opplysninger om finansielle forhold og forsikringer har</p>
 <p>a. banker, jf. finansforetaksloven § 2-7
@@ -338,10 +715,10 @@ i. digitale sentralbankpenger.</p>
 <p>Opplysningene skal blant annet vise saldo eller verdi, avkastning, utbetalinger, erverv og realisasjon. Utbetalinger knyttet til individuelle pensjonsavtaler og innskuddspensjonsordninger følger reglene i § 7-2 . Tilsvarende gjelder for utbetalinger av uføreytelser knyttet til avtaler om individuell sparing til pensjon. Departementet kan gi forskrift om opplysningsplikt ved formidling av bestemte betalinger, og om at opplysningspliktige som nevnt i første ledd bokstav a, skal gi opplysninger om kontonummer som er aktuelle for overføring av eventuelle tilgodebeløp etter skatteavregning.</p>
 <p>(3) Det skal gis opplysninger som nevnt i annet ledd, for blant annet den enkelte kontohaver, disponent, investor, forsikringstaker, forsikrede og mottaker av utbetalinger og reelle rettighetshaver. Opplysningspliktige skal identifisere kontohavere mv. som nevnt i første punktum. Departementet kan gi forskrift om framgangsmåten ved slik identifisering, herunder om innhenting av egenerklæring om skattemessig bosted mv. Det kan gis forskrift om konsekvensene av at framgangsmåten ikke blir fulgt, herunder at kontoavtale kan sperres, avsluttes eller ikke kan inngås. Det kan også gis forskrift om at opplysningspliktige skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering.</p>
 <p>(4) Dersom opplysningspliktig etter denne bestemmelsen innretter seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal pliktene etter denne bestemmelsen likevel gjelde. Opplysningspliktig som har grunn til å tro at kontohaver eller annen person har innrettet seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal foreta undersøkelser for å avkrefte eller bekrefte mistanken. Dersom mistanken ikke kan avkreftes, skal den opplysningspliktige gi de opplysningene som foreligger, herunder om de forholdene som har medført mistanke.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 19 des 2017 nr. 128 , 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 20 juni 2025 nr. 64 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 19 des 2017 nr. 128 , 15 mars 2019 nr. 6 (ikr. 1 jan 2020 iflg. res. 6 des 2019 nr. 1656 ), 20 juni 2025 nr. 64 .</p>
 <h4 id="7-4-fordringer-og-gjeld-i-selskapsforhold">§ 7-4. Fordringer og gjeld i selskapsforhold <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-4.html" title="Endringshistorikk for § 7-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Aksjeselskap, allmennaksjeselskap samt likestilt selskap og sammenslutning som nevnt i skatteloven § 10-1 , og selskap med deltakerfastsetting, jf. skatteloven § 10-40 , plikter å gi opplysninger om gjeld og rentebetalinger til personlig skattepliktig. Opplysningene spesifiseres slik at lånesaldo ved inngangen til hver kalendermåned framgår. Bestemmelsen gjelder ikke for lån knyttet til mengdegjeldsbrev og innskudd i bank.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 86 .</p>
 <h4 id="7-5-kjp-salg-formidling-leie-utbetalinger-mv">§ 7-5. Kjøp, salg, formidling, leie, utbetalinger mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-5.html" title="Endringshistorikk for § 7-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som har leid fast eiendom som ikke utelukkende skal tjene hans eget boligbehov, skal gi opplysninger om påløpt leie samt utbetaling i siste år til den enkelte utleier, uansett om leietakeren har foretatt utbetalingen selv.</p>
 <p>(2) Allmenning skal gi opplysninger om hva den enkelte bruksberettigede i siste år har mottatt fra allmenningen av trevirke, i kontanter, rabatter eller andre fordeler og samtidig meddele hvor stor del av det utdelte som blir skattlagt på allmenningens hånd.</p>
@@ -352,11 +729,11 @@ i. digitale sentralbankpenger.</p>
 <p>(7) Formidler av drosjetjenester og driftsansvarlig for kontrollutrustning skal gi opplysninger fra skiftlappen for løyvehavere som er tilknyttet virksomheten eller kontrollutrustningen. Departementet kan gi forskrift om at formidlere av drosjetjenester som anvender digitale plattformer, skal ha plikter etter § 7-11 .</p>
 <p>(8) For den som formidler utleie av fast eiendom hvor betaling for formidlingen er knyttet til gjennomførte transaksjoner, gjelder opplysningsplikten etter § 7-11 tilsvarende dersom formidlingen ikke har skjedd gjennom en digital plattform. Det samme gjelder for den som på vegne av utleier inngår kontrakt om utleie av fast eiendom hvor betaling for tjenesten er knyttet til gjennomførte transaksjoner.</p>
 <p>(9) Opplysningsplikten etter fjerde, femte, sjette og syvende ledd gjelder uavhengig av om vedkommende utbetaler eller mottar betalinger selv.</p>
-<p><em>Endret ved lover 20 des 2018 nr. 110 (ikr. 1 jan 2020), 18 des 2020 nr. 161 (ikr. 1 jan 2021 iflg. res. 18 des 2020 nr. 2877 ), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Endret ved lover 20 des 2018 nr. 110 (ikr. 1 jan 2020), 18 des 2020 nr. 161 (ikr. 1 jan 2021 iflg. res. 18 des 2020 nr. 2877 ), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="7-6-oppdragstakere-og-arbeidstakere">§ 7-6. Oppdragstakere og arbeidstakere <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-6.html" title="Endringshistorikk for § 7-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Næringsdrivende og offentlig organ som gir person bosatt i utlandet eller selskap hjemmehørende i utlandet et oppdrag i riket eller på kontinentalsokkelen, skal gi opplysninger om oppdraget og eventuelle underoppdrag. Plikten omfatter opplysninger om hovedoppdragsgiver i kontraktskjeden, egen oppdragsgiver og oppdragstakere begrenset til to ledd nedover i kontraktskjeden. Oppdragstakeren har plikt til å gi opplysninger om egne arbeidstakere som benyttes til å utføre oppdraget.</p>
 <p>(2) Departementet kan bestemme at opplysningsplikten etter første ledd også skal gjelde for oppdrag til enkelte grupper av oppdragstakere som ikke er bosatt eller hjemmehørende i utlandet.</p>
-<p><em>Endret ved lover 19 des 2017 nr. 128 (ikr. 1 jan 2018), 22 des 2021 nr. 158 (ikr. 1 jan 2022).</em></p>
+<p class="note">Endret ved lover 19 des 2017 nr. 128 (ikr. 1 jan 2018), 22 des 2021 nr. 158 (ikr. 1 jan 2022).</p>
 <h4 id="7-7-aksjonrer-mv">§ 7-7. Aksjonærer mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-7.html" title="Endringshistorikk for § 7-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Aksjeselskap og allmennaksjeselskap skal gi opplysninger om forhold som har betydning for skattleggingen av aksjonærene, blant annet over</p>
 <p>a. aksjekapitalens størrelse og aksjenes antall og størrelse, herunder endringer i løpet av skattleggingsperioden som følge av stiftelse, emisjoner, fusjon, fisjon mv.
@@ -365,7 +742,7 @@ c. aksjenes formuesverdi, hvis aksjene ikke er børsnoterte.</p>
 <p>(2) Skattekontoret kan pålegge selskapet å levere ny melding over aksjonærene og deres skattekommuner, når verdsettingen av selskapets aksjer er endret.</p>
 <p>(3) Bestemmelsene i første og annet ledd gjelder tilsvarende for sparebanker, gjensidige forsikringsselskaper og selveiende finansieringsforetak som har utstedt egenkapitalbevis, jf. finansforetaksloven kapittel 10 , for samvirkeforetak av låntakere og for selskaper og sammenslutninger der medlemmene har begrenset ansvar, og som noen eier formuesandeler i eller mottar inntektsandeler fra, unntatt boligselskaper hvor andelshaverne skattlegges etter skatteloven § 7-3 .</p>
 <p>(4) Departementet kan gi forskrift om at det skal gis opplysninger om forhold som nevnt, for tidligere år samt begrense plikten etter første og annet ledd for selskaper som nevnt i tredje ledd.</p>
-<p><em>Endret ved lov 23 juni 2020 nr. 108 .</em></p>
+<p class="note">Endret ved lov 23 juni 2020 nr. 108 .</p>
 <h4 id="7-8-arv">§ 7-8. Arv</h4>
 <p>Offentlige myndigheter som forestår skifte, og testamentsfullbyrdere plikter uten hensyn til mulig taushetsplikt å gi de opplysningene som departementet gir forskrift om, til kontroll med skattefastsettingen.</p>
 <h4 id="7-9-offentlige-myndigheter">§ 7-9. Offentlige myndigheter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-9.html" title="Endringshistorikk for § 7-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -373,7 +750,7 @@ c. aksjenes formuesverdi, hvis aksjene ikke er børsnoterte.</p>
 <p>(2) Innkrevingsmyndigheten skal gi opplysninger til skattemyndighetene om bidragspliktiges gjeld i forbindelse med pliktig underholdsbidrag og andre mellomværender med Innkrevingsmyndigheten.</p>
 <p>(3) Skattemyndighetene skal, uten hinder av taushetsplikt hos folkeregistermyndigheten, ha tilgang til opplysninger fra Folkeregisteret som er nødvendige for fastsetting av skatt.</p>
 <p>(4) Skattemyndighetene skal, uten hinder av taushetsplikt hos Fiskeridirektoratet, ha tilgang til opplysninger fra Fiskeridirektoratet som er nødvendige for fastsetting av særavgift.</p>
-<p><em>Endret ved lover 19 des 2017 nr. 122 (ikr. 1 apr 2018 iflg. res. 16 feb 2018 nr. 220 ), 22 juni 2018 nr. 71 , 23 juni 2020 nr. 108 , 22 des 2021 nr. 158 (ikr. 1 jan 2022), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</em></p>
+<p class="note">Endret ved lover 19 des 2017 nr. 122 (ikr. 1 apr 2018 iflg. res. 16 feb 2018 nr. 220 ), 22 juni 2018 nr. 71 , 23 juni 2020 nr. 108 , 22 des 2021 nr. 158 (ikr. 1 jan 2022), 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ).</p>
 <h4 id="7-10-annen-opplysningsplikt-for-tredjepart">§ 7-10. Annen opplysningsplikt for tredjepart <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-10.html" title="Endringshistorikk for § 7-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det skal gis opplysninger til skattemyndighetene fra</p>
 <p>a. institutter som forestår vitenskapelig forskning eller yrkesopplæring, om tilskudd som gir giveren rett til fradrag etter skatteloven § 6-42
@@ -386,11 +763,11 @@ g. den som selv eller gjennom andre har utbetalt honorar eller annen godtgjørin
 h. selskap i oppstarts- og vekstfasen om tildelte og innløste opsjoner til ansatte etter ordningen i skatteloven § 5-14 andre ledd
 i. kraftleverandør om private strømkunders inntekt ved salg og overføring av strøm fra anlegg for produksjon av fornybar energi i bolig og fritidseiendom.</p>
 <p>(2) Opplysningsplikten etter første ledd bokstav e omfatter også vederlag for varer eller andre ytelser som er levert i forbindelse med slike tjenester.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 21 juni 2019 nr. 38 , 21 des 2020 nr. 171 (ikr. 1 jan 2021), 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 des 2024 nr. 89 (i kraft 1 jan 2025), 20 juni 2025 nr. 59 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 21 juni 2019 nr. 38 , 21 des 2020 nr. 171 (ikr. 1 jan 2021), 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 des 2024 nr. 89 (i kraft 1 jan 2025), 20 juni 2025 nr. 59 .</p>
 <h4 id="7-11-salg-av-tjenester-og-utleie-gjennom-digitale-plattformer">§ 7-11. Salg av tjenester og utleie gjennom digitale plattformer <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-11.html" title="Endringshistorikk for § 7-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Digitale plattformer skal gi opplysninger om salg av tjenester, utleie av fast eiendom og utleie av transportmidler som formidles gjennom plattformen mot vederlag. Det skal blant annet gis opplysninger om utleieren eller tjenesteyteren, om det formidlingen gjelder og om vederlaget.</p>
 <p>(2) Digitale plattformer skal identifisere utleiere og tjenesteytere. Departementet kan gi forskrift om framgangsmåten ved slik identifisering, herunder om hvilke opplysninger plattformen skal innhente. Det kan gis forskrift om konsekvensene av at den digitale plattformen ikke får opplysninger fra utleieren eller tjenesteyteren, herunder om plikt for plattformen til å utelukke denne fra tjenesten eller å holde tilbake vederlag. Det kan også gis forskrift om at den digitale plattformen skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering.</p>
-<p><em>Tilføyd ved lov 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="7-12-kryptoeiendeler">§ 7-12. Kryptoeiendeler <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-12.html" title="Endringshistorikk for § 7-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Vekslings- og oppbevaringstjenester skal gi opplysninger om kryptoeiendeler og andre finansielle forhold. Departementet kan gi forskrift om hva som regnes som kryptoeiendel, og nærmere avgrensninger av hvilke tilbydere av vekslings- og oppbevaringstjenester som er opplysningspliktige.</p>
 <p>(2) For den enkelte bruker av tjenesten skal det blant annet gis opplysninger om</p>
@@ -402,20 +779,20 @@ e. innestående verdier.</p>
 <p>Departementet kan gi forskrift om hvilke opplysninger som skal gis, hvilke brukere det skal gis opplysninger om og beregning av markedsverdien av kryptoeiendeler og utenlandsk valuta.</p>
 <p>(3) Opplysningspliktige skal identifisere brukere av tjenesten. For brukere som er juridiske personer, skal opplysningspliktige også identifisere reelle rettighetshavere. Departementet kan gi forskrift om hvilke opplysninger som skal gis, og framgangsmåten ved slik identifisering, herunder om innhenting av egenerklæring om skattemessig bosted mv. Det kan gis forskrift om konsekvensene av at framgangsmåten ikke blir fulgt, herunder at det ikke kan gjennomføres overføringer eller transaksjoner på vegne av brukeren. Det kan også gis forskrift om at opplysningspliktige skal oppbevare opplysninger og dokumentasjon benyttet i forbindelse med identifisering og overføring.</p>
 <p>(4) Dersom opplysningspliktige etter denne bestemmelsen innretter seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal pliktene etter denne bestemmelsen likevel gjelde. Opplysningspliktige som har grunn til å tro at bruker eller annen person har innrettet seg for å unngå at opplysninger blir utvekslet etter overenskomst med fremmed stat, skal foreta undersøkelser for å avkrefte eller bekrefte mistanken. Dersom mistanken ikke kan avkreftes, skal den opplysningspliktige gi de opplysningene som foreligger, herunder om de forholdene som har medført mistanke.</p>
-<p><em>Tilføyd ved lov 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Tilføyd ved lov 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="7-13-hvem-opplysningsplikten-pahviler">§ 7-13. Hvem opplysningsplikten påhviler <a class="para-history" href="../historikk/lov-2016-05-27-14/para-7-13.html" title="Endringshistorikk for § 7-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) I enkeltpersonforetak påhviler opplysningsplikten etter dette kapitlet innehaveren. I selskap, samvirkeforetak, forening, institusjon eller innretning påhviler opplysningsplikten den daglige lederen av virksomheten, eller styrelederen dersom virksomheten ikke har daglig leder. Er selskap mv. som nevnt i forrige punktum, ikke skattepliktig, påhviler opplysningsplikten også revisor.</p>
 <p>(2) Opplysningsplikten etter § 7-2 første ledd bokstav f påhviler reder og fører (høvedsmann, notbas) for fiske- og fangstfartøy, mens opplysningsplikten etter § 7-2 første ledd bokstav g påhviler formannen for arbeidslaget. Når det foreligger forhold som nevnt i skattebetalingsloven § 4-1 annet ledd, påhviler opplysningsplikten den som har plikt til å foreta forskuddstrekk. Opplysningsplikten etter § 7-5 fjerde ledd påhviler fondsstyret.</p>
-<p><em>Endret ved lover 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-11).</em></p>
+<p class="note">Endret ved lover 19 des 2017 nr. 128 (ikr. 1 jan 2018 med virkning for inntektsåret 2018), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-11).</p>
 <h4 id="7-14-identifikasjon-av-skattepliktig-og-kopi-av-opplysninger">§ 7-14. Identifikasjon av skattepliktig og kopi av opplysninger</h4>
 <p>(1) Meldinger med opplysninger som nevnt i dette kapitlet, skal for personlige skattepliktige inneholde fødselsnummer eller d-nummer. For selskaper, samvirkeforetak, foreninger, sammenslutninger mv. skal meldingen inneholde organisasjonsnummer, eller når slikt ikke finnes, annen identifikasjon etter regler gitt av Skattedirektoratet. Skattedirektoratet kan bestemme at meldingen skal inneholde utenlandsk identifikasjonsnummer.</p>
 <p>(2) Den opplysningspliktige kan kreve at skattepliktig oppgir sitt fødsels-, d- eller organisasjonsnummer. Den opplysningspliktige kan også kreve at skattepliktig som har utenlandsk identifikasjonsnummer, oppgir dette. Den opplysningspliktige kan registrere slik identifikasjon også på grunnlag av opplysninger fra andre enn skattepliktig.</p>
 <p>(3) Skattepliktig skal ha kopi av opplysninger som nevnt i dette kapitlet, med unntak av opplysninger gitt etter § 7-9 fjerde ledd. Det skal framgå av kopien at opplysningene også er sendt skattemyndighetene. For opplysninger som er gitt etter § 7-2 , skal skattepliktig motta en sammenstilt oversikt.</p>
-<p><em>Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-12).</em></p>
+<p class="note">Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-12).</p>
 <h4 id="7-15-forskrifter-mv">§ 7-15. Forskrifter mv.</h4>
 <p>(1) Departementet kan gi forskrift om det nærmere innholdet i opplysningsplikten etter dette kapitlet, hvordan opplysninger skal gis, signatur, leveringsfrist og leveringssted, bekreftelse av opplysninger fra revisor samt om fritak fra å levere melding etter dette kapitlet.</p>
 <p>(2) Departementet kan utforme meldinger som skal brukes ved levering av opplysninger etter dette kapitlet.</p>
-<p><em>Endret ved lover 21 juni 2017 nr. 86 , 22 des 2025 nr. 122 , 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-13).</em></p>
+<p class="note">Endret ved lover 21 juni 2017 nr. 86 , 22 des 2025 nr. 122 , 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 , tidligere § 7-13).</p>
 <h2 id="kapittel-8-opplysningsplikt-for-skattepliktige-trekkpliktige-mv">Kapittel 8 Opplysningsplikt for skattepliktige, trekkpliktige mv.</h2>
 <h4 id="8-1-alminnelig-opplysningsplikt">§ 8-1. Alminnelig opplysningsplikt</h4>
 <p>Den som skal levere skattemelding mv. etter dette kapitlet, skal gi riktige og fullstendige opplysninger. Vedkommende skal opptre aktsomt og lojalt slik at skatteplikten i rett tid blir klarlagt og oppfylt, og varsle skattemyndighetene om eventuelle feil.</p>
@@ -428,7 +805,7 @@ c. har hatt formue eller inntekt som er skattepliktig etter petroleumsskattelove
 <p>(3) Skattemyndighetene kan utstede skattemeldinger med forhåndsutfylt informasjon som har betydning for fastsetting av skattegrunnlaget etter kapittel 9 . Skattemyndighetene kan endre skattemeldingen med opplysninger som nevnt i første punktum, før meldingen er levert av den skattepliktige, dersom den skattepliktige blir varslet om dette.</p>
 <p>(4) Lønnstakere og pensjonister som mottar forhåndsutfylt skattemelding for formues- og inntektsskatt, kan unnlate å levere skattemeldingen når meldingen er riktig og fullstendig utfylt. Hvis skattemeldingen ikke er levert innen leveringsfristens utløp, anses den skattepliktige for å ha gitt de opplysningene som framgår av den forhåndsutfylte skattemeldingen.</p>
 <p>(5) Skattepliktig som bare har inntekt som skattlegges etter kapittel 20 i skatteloven (kildeskatteordning), er fritatt fra å levere skattemelding.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</p>
 <h4 id="8-3-skattemelding-for-merverdiavgift">§ 8-3. Skattemelding for merverdiavgift <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-3.html" title="Endringshistorikk for § 8-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattemelding med opplysninger om den skattepliktiges omsetning, uttak, innførsel, utgående merverdiavgift, fradragsberettiget inngående merverdiavgift, innførselsmerverdiavgift og andre opplysninger som har betydning for fastsettingen av merverdiavgift, skal leveres av</p>
 <p>a. den som er eller skal være registrert i Merverdiavgiftsregisteret
@@ -439,7 +816,7 @@ e. tilbyder i forenklet registreringsordning etter merverdiavgiftsloven
 f. den reder, høvedsmann eller fisker som ved lottfiske leverer fisken til kjøperen, eller som på fartøyets eller fiskerens vegne mottar oppgjøret for fisken.</p>
 <p>(2) Skattemelding skal leveres selv om det ikke har vært merverdiavgiftpliktig omsetning eller uttak i terminen. Skattekontoret kan i enkelttilfeller frita fra leveringsplikten for en eller flere terminer. Skattepliktige som nevnt i første ledd bokstav b til d, skal bare levere skattemelding for de terminer det oppstår plikt til å beregne merverdiavgift. Delte virksomheter og kommuner mv. som er kompensasjonsberettigete, skal oppgi all merverdiavgift som oppstår ved innførsel av varer, i skattemeldingen.</p>
 <p>(3) Skattepliktig som ikke er registrert i Merverdiavgiftsregisteret, skal levere skattemelding med opplysninger som har betydning for fastsettingen av merverdiavgift som oppstår ved innførsel.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 86 .</p>
 <h4 id="8-4-skattemelding-for-sravgifter">§ 8-4. Skattemelding for særavgifter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-4.html" title="Endringshistorikk for § 8-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som er registrert i medhold av særavgiftsloven, skal levere skattemelding med opplysninger om uttak fra virksomhetens godkjente lokale av avgiftspliktige varer, uttak av varer som er fritatt for avgift, innførte varer som ikke er lagt på godkjent lokale, og andre opplysninger som har betydning for fastsetting av særavgifter.</p>
 <p>(2) Fritatt fra å levere skattemelding etter første ledd er likevel</p>
@@ -449,24 +826,24 @@ b. registrerte importører av avgiftspliktige varer som skal brukes til råvarer
 <p>(4) Bruker som er berettiget til helt eller delvis avgiftsfri bruk av ellers avgiftspliktige varer, skal levere skattemelding dersom vilkårene for fritak ikke oppfylles.</p>
 <p>(5) Skattepliktig som ikke er registrert i medhold av særavgiftsloven, skal levere skattemelding med opplysninger som har betydning for fastsettingen av særavgift som oppstår ved innførsel.</p>
 <p>(6) Skattemyndighetene kan utstede skattemeldinger med forhåndsutfylt informasjon som har betydning for fastsetting av skattegrunnlaget etter kapittel 9 .</p>
-<p><em>Endret ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 22 des 2021 nr. 158 (ikr. 1 jan 2022). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="8-5-skattemelding-for-motorkjretyavgifter">§ 8-5. Skattemelding for motorkjøretøyavgifter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-5.html" title="Endringshistorikk for § 8-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som er skattepliktig etter motorkjøretøy- og båtavgiftsloven, skal levere skattemelding med opplysninger om bruk eller endring av motorkjøretøy og andre opplysninger som har betydning for fastsetting av motorkjøretøyavgifter. Dette gjelder likevel ikke når den skattepliktige har gitt riktige og fullstendige opplysninger til vegmyndighetene.</p>
-<p><em>Oppheves ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Oppheves ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="8-6-skattemelding-for-arbeidsgiveravgift-og-finansskatt-pa-lnn">§ 8-6. Skattemelding for arbeidsgiveravgift og finansskatt på lønn <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-6.html" title="Endringshistorikk for § 8-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Arbeidsgiver som skal beregne arbeidsgiveravgift etter folketrygdloven, skal levere skattemelding med opplysninger om beregnet arbeidsgiveravgift og grunnlaget for beregning av avgift etter reglene i a-opplysningsloven.</p>
 <p>(2) Arbeidsgiver som skal beregne finansskatt på lønn etter folketrygdloven, skal levere skattemelding med opplysninger om beregnet finansskatt på lønn og grunnlaget for beregning av finansskatt på lønn etter reglene i a-opplysningsloven.</p>
 <p>(3) Når det foreligger forhold som nevnt i skattebetalingsloven § 4-1 annet ledd, påhviler opplysningsplikten etter første og annet ledd den som har plikt til å foreta forskuddstrekk.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="8-7-skattemelding-for-merverdiavgiftskompensasjon">§ 8-7. Skattemelding for merverdiavgiftskompensasjon <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-7.html" title="Endringshistorikk for § 8-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som krever å få kompensert merverdiavgift etter merverdiavgiftskompensasjonsloven, skal levere skattemelding med opplysninger som har betydning for fastsetting av merverdiavgiftskompensasjon. Grunnlaget for kompensasjonskravet skal kontrolleres og attesteres av statsautorisert revisor eller kommunerevisor.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 64 .</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 64 .</p>
 <h4 id="8-8-melding-om-trekk-mv">§ 8-8. Melding om trekk mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-8.html" title="Endringshistorikk for § 8-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Arbeidsgivere som skal foreta lønnstrekk for skatt etter Svalbardskatteloven § 3-1 , Jan Mayen-skatteloven § 1 og skatteloven kapittel 20 (kildeskatteordning), skal levere melding om foretatt lønnstrekk etter reglene i a-opplysningsloven .</p>
 <p>(2) Den som skal engasjere utenlandsk artist eller arrangere forestilling eller framvisning mv. hvor utenlandsk artist deltar, plikter å levere melding om arrangementet. Det samme gjelder den som stiller plass til rådighet for utenlandske arrangører, eller utenlandske artister som selv arrangerer forestilling. Artist som ingen har meldeplikt for etter første eller annet punktum, skal selv levere melding. Meldingen skal inneholde opplysninger om den meldepliktige selv, den trekkpliktige og artisten og om kontraktsvilkår. Det skal leveres melding til skattekontoret selv om det ikke skal svares skatt etter artistskatteloven. Den trekkpliktige etter artistskatteloven § 7 skal også levere melding med oversikt over skattepliktige ytelser som er utbetalt til artisten i forbindelse med arrangementet, og eventuelle fradragsberettigede utgifter.</p>
 <p>(3) Aksjeselskap, allmennaksjeselskap samt likestilt selskap og sammenslutning som skal foreta skattetrekk etter skattebetalingsloven § 5-4a , skal levere melding om foretatt skattetrekk. Det samme gjelder tilbyder av aksjesparekonto og innlåner som etter avtale om verdipapirlån, jf. skatteloven § 9-11 , utbetaler utbyttekompensasjon som nevnt i skatteloven § 10-11 tredje ledd, til kontraktsmotpart hjemmehørende i utlandet.</p>
 <p>(4) Den som skal foreta skattetrekk ved utbetaling av renter eller vederlag for bruk av eller retten til å bruke immaterielle rettigheter eller skip, fartøy, rigger mv., fly og helikopter etter skattebetalingsloven § 5-4b , skal levere melding om foretatt skattetrekk.</p>
-<p><em>Endret ved lover 22 juni 2018 nr. 71 (ikr. 1 jan 2018 med virkning for inntektsåret 2019), 20 des 2019 nr. 101 (med virkning fra 1 jan 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</em></p>
+<p class="note">Endret ved lover 22 juni 2018 nr. 71 (ikr. 1 jan 2018 med virkning for inntektsåret 2019), 20 des 2019 nr. 101 (med virkning fra 1 jan 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</p>
 <h4 id="8-9-selskapsmelding-mv-for-selskap-med-deltakerfastsetting">§ 8-9. Selskapsmelding mv. for selskap med deltakerfastsetting</h4>
 <p>(1) Selskap hvor deltakerne skattlegges etter skatteloven §§ 10-40 til 10-48 , skal levere selskapsmelding.</p>
 <p>(2) Selskapsmeldingen skal inneholde spesifikasjon av selskapets brutto formue og inntekt, fradragsposter og ellers andre opplysninger som har betydning for deltakernes skatteplikt, herunder fastsettingen av personinntekt etter skatteloven § 12-2 bokstav f og tillegg i alminnelig inntekt etter skatteloven § 10-42 .</p>
@@ -493,7 +870,7 @@ d. nærstående person etter bokstav b sine foreldre, søsken barn, barnebarn, e
 <p>a. selskap eller innretning som er hjemmehørende i Norge, og dets faste driftssteder i utlandet
 b. selskap eller innretning som er hjemmehørende i utlandet, og dets faste driftssteder i Norge.</p>
 <p>(6) Stat, fylkeskommune og kommune regnes ikke som innretning etter denne paragrafen. Selskaper og innretninger har likevel opplysnings- og dokumentasjonsplikt etter første til fjerde ledd for transaksjoner og mellomværender med en fylkeskommune eller kommune som, direkte eller indirekte, eier eller kontrollerer selskapet eller innretningen med minst 50 prosent.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 86 .</p>
 <h4 id="8-12-melding-om-flernasjonale-konserns-fordeling-av-inntekt-skatt-mv">§ 8-12. Melding om flernasjonale konserns fordeling av inntekt, skatt mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-12.html" title="Endringshistorikk for § 8-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Morselskap som er hjemmehørende i Norge og har foretak i utlandet, skal levere melding for hvert regnskapsår med opplysninger om fordelingen av inntekt og skatt i de landene konsernet har foretak. Meldingen skal også inneholde en beskrivelse av konsernets økonomiske aktivitet i hvert enkelt land, samt opplysninger om hvert foretak i konsernet og den økonomiske aktiviteten foretakene driver.</p>
 <p>(2) Opplysningsplikten etter første ledd gjelder tilsvarende for andre foretak i Norge enn morselskap som er hjemmehørende i Norge, dersom</p>
@@ -504,40 +881,40 @@ c. skattemyndighetene har varslet foretaket i Norge om at landet der morselskape
 <p>(4) Opplysningsplikten etter første, annet og tredje ledd gjelder ikke dersom konsernet hadde en samlet inntekt under 6 500 000 000 kroner i året før regnskapsåret.</p>
 <p>(5) Meldingen skal utarbeides på engelsk.</p>
 <p>(6) Skattemyndighetene kan bare utlevere meldingen til andre etter reglene i § 3-3 og til utenlandske myndigheter etter folkerettslig avtale.</p>
-<p><em>Tilføyd ved lov 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI), endret ved lov 22 juni 2018 nr. 71 (med virkning for regnskapsår som begynner 1 jan 2018 eller senere).</em></p>
-<h4 id="8-13-melding-om-registrering-for-merverdiavgift-og-sravgifter">§ 8-13. Melding om registrering for merverdiavgift og særavgifter</h4>
+<p class="note">Tilføyd ved lov 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI), endret ved lov 22 juni 2018 nr. 71 (med virkning for regnskapsår som begynner 1 jan 2018 eller senere).</p>
+<h4 id="8-13-melding-om-registrering-for-merverdiavgift-og-sravgifter">§ 8-13. Melding om registrering for merverdiavgift og særavgifter <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-13.html" title="Endringshistorikk for § 8-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som skal registreres for merverdiavgift eller særavgifter, skal levere melding om registrering med opplysninger om virksomheten, dokumentasjon for at vilkårene for registrering er oppfylt og andre opplysninger som har betydning for registreringen.</p>
 <p>(2) Den som er registrert for merverdiavgift eller særavgifter, skal levere melding med opplysninger om og dokumentasjon for endringer i tidligere gitte opplysninger, eller at virksomheten ikke lenger oppfyller vilkårene for å være registrert, og andre opplysninger med betydning for registreringen.</p>
 <p>(3) Den som er utpekt etter regler i eller i medhold av <a href="lov-1984-06-08-58.html">konkursloven</a> §§ 79 og 138 , skal levere melding om åpning og avslutning av behandlingen av konkursboet til en registrert skattepliktig.</p>
 <p>(4) Tingretten skal levere melding om åpning og avslutning av bobehandlingen ved offentlig skifte av dødsboet til en registrert skattepliktig hvor avdødes gjeld ikke er overtatt.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI, tidligere § 8-12), 30 april 2021 nr. 28 (ikr. 15 mai 2021 iflg. res. 30 april 2021 nr. 1334 ).</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI, tidligere § 8-12), 30 april 2021 nr. 28 (ikr. 15 mai 2021 iflg. res. 30 april 2021 nr. 1334 ).</p>
 <h4 id="8-14-skattemelding-og-melding-for-suppleringsskatt">§ 8-14. Skattemelding og melding for suppleringsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-14.html" title="Endringshistorikk for § 8-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattepliktig som skal svare skatt etter suppleringsskatteloven skal levere skattemelding med opplysninger om beregning av skatten og andre opplysninger som har betydning for fastsetting av denne etter § 9-1 første ledd og § 9-2 første ledd .</p>
 <p>(2) Konsernenheter som er lokalisert i Norge som er omfattet av suppleringsskatteloven , skal levere melding med opplysninger om og beregning av suppleringsskatt. Meldingen kan blant annet inneholde informasjon om samtlige enheter i konsernet og opplysninger som er nødvendige for å beregne suppleringsskatt i andre jurisdiksjoner. Meldingen skal utarbeides på engelsk.</p>
 <p>(3) Plikten etter annet ledd gjelder ikke hvis opplysningene er gitt av øverste morselskap i konsernet, eller en rapporterende konsernenhet, og det er lokalisert i en jurisdiksjon Norge har informasjonsutvekslingsavtale med for den aktuelle skattleggingsperioden.</p>
 <p>(4) Konsernenheter i Norge skal gi notifikasjon om hvilken konsernenhet som skal gi opplysningene som nevnt i tredje ledd, og i hvilken jurisdiksjon enheten er lokalisert. Denne opplysningsplikten gjelder ikke hvis notifikasjon er gitt av annen norsk konsernenhet, dersom det i notifikasjonen også opplyses om hvilke konsernenheter det gis notifikasjon på vegne av.</p>
-<p><em>Tilføyd ved lov 12 jan 2024 nr. 7 (i kraft 1 jan 2024, se endringslov del II for overgangsregel).</em></p>
+<p class="note">Tilføyd ved lov 12 jan 2024 nr. 7 (i kraft 1 jan 2024, se endringslov del II for overgangsregel).</p>
 <h4 id="8-15-levering-av-skattemelding-mv">§ 8-15. Levering av skattemelding mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-8-15.html" title="Endringshistorikk for § 8-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Myndig person skal levere meldinger etter dette kapitlet selv eller ved fullmektig.</p>
 <p>(2) For skattepliktig som er mindreårig, eller som er satt under vergemål, skal vergen levere skattemelding når vergens mandat omfatter levering av slik melding. Dette gjelder ikke barn som etter skatteloven § 2-14 er selvstendig skattepliktig, og som fastsetter skattegrunnlaget selv.</p>
 <p>(3) For selskap og innretning skal meldinger etter dette kapitlet leveres av den som etter alminnelige selskapsrettslige regler kan forplikte selskapet, eller andre som er registrert hos skattemyndighetene med signaturfullmakt.</p>
 <p>(4) For bo skal skattemelding leveres av skifteforvalteren, bostyreren, testamentfullbyrderen eller de selvskiftende arvinger.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 (ikr. 1 jan 2017, se loven VI, tidligere § 8-13), 12 jan 2024 nr. 7 (i kraft 1 jan 2024, tidligere § 8-14).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 (ikr. 1 jan 2017, se loven VI, tidligere § 8-13), 12 jan 2024 nr. 7 (i kraft 1 jan 2024, tidligere § 8-14).</p>
 <h4 id="8-16-forskrifter-mv">§ 8-16. Forskrifter mv.</h4>
 <p>(1) Departementet kan gi forskrift om skattleggingsperioder, hvordan opplysninger skal gis, signatur, leveringsfrist og leveringssted, bekreftelse av opplysninger fra revisor, samt om fritak fra å levere melding etter dette kapitlet.</p>
 <p>(2) Departementet kan utforme meldinger som skal brukes ved levering av opplysninger etter dette kapitlet.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI, tidligere § 8-14), 20 des 2019 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024, tidligere § 8-15).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 (ikr. 1 jan 2017, se lovens VI, tidligere § 8-14), 20 des 2019 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024, tidligere § 8-15).</p>
 <h2 id="kapittel-9-fastsetting">Kapittel 9 Fastsetting</h2>
 <h4 id="9-1-fastsetting-av-skattegrunnlaget">§ 9-1. Fastsetting av skattegrunnlaget <a class="para-history" href="../historikk/lov-2016-05-27-14/para-9-1.html" title="Endringshistorikk for § 9-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattepliktige fastsetter grunnlaget for formues- og inntektsskatt, petroleumsskatt, merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, særavgifter, svalbardskatt etter Svalbardskatteloven § 3-2 , merverdiavgiftskompensasjon og suppleringsskatt ved levering av skattemelding som nevnt i kapittel 8.</p>
 <p>(2) Skattemyndighetene fastsetter grunnlaget for motorkjøretøyavgifter.</p>
 <p>(3) Trekkpliktige fastsetter grunnlaget for skatt av inntekt etter skatteloven kapittel 20 (kildeskatteordning), artistskatt, skatt av renter og vederlag for bruk av eller retten til å bruke immaterielle rettigheter og skip, fartøy, rigger mv., fly og helikopter etter skatteloven §§ 10-80 og 10-81 , skatt av utbytte og uttak fra aksjesparekonto som er skattepliktig etter skatteloven § 10-13 , og skatt som skal beregnes etter Svalbardskatteloven § 3-1 , ved levering av melding om trekk som nevnt i § 8-8 .</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2019 nr. 101 (med virkning fra 1 jan 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 20 des 2019 nr. 101 (med virkning fra 1 jan 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="9-2-beregning-av-skatt">§ 9-2. Beregning av skatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-9-2.html" title="Endringshistorikk for § 9-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattepliktige beregner merverdiavgift, arbeidsgiveravgift, finansskatt på lønn, særavgifter, merverdiavgiftskompensasjon og suppleringsskatt av grunnlaget som er fastsatt etter § 9-1 første ledd .</p>
 <p>(2) Trekkpliktige beregner skatt av inntekt etter skatteloven kapittel 20 (kildeskatteordning), artistskatt, skatt av renter og vederlag for bruk av eller retten til å bruke immaterielle rettigheter og skip, fartøy, rigger mv., fly og helikopter etter skatteloven §§ 10-80 og 10-81 , skatt av utbytte som er skattepliktig etter skatteloven § 10-13 , og skatt som skal beregnes etter Svalbardskatteloven § 3-1 , av grunnlaget som er fastsatt etter § 9-1 tredje ledd .</p>
 <p>(3) Skattemyndighetene beregner øvrig skatt.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="9-3-melding-om-skatteoppgjr-mv">§ 9-3. Melding om skatteoppgjør mv.</h4>
 <p>(1) Når beregningen av formues- og inntektsskatt, petroleumsskatt og svalbardskatt etter Svalbardskatteloven § 3-2 er gjennomført, skal melding om skatteoppgjør snarest mulig sendes skattepliktig.</p>
 <p>(2) Melding om fastsetting av formue og inntekt fastsatt etter reglene i skatteloven § 10-40 til 10-45, sendes selskapets styre og daglig leder.</p>
@@ -546,16 +923,16 @@ c. skattemyndighetene har varslet foretaket i Norge om at landet der morselskape
 <p>(1) Skattepliktige kan endre opplysninger i tidligere leverte skattemeldinger for formues- og inntektsskatt, svalbardskatt, petroleumsskatt, merverdiavgift, arbeidsgiveravgift, finansskatt på lønn og særavgifter ved levering av endringsmelding. Trekkpliktige etter skattebetalingsloven § 5-4 (kildeskatteordning), skattebetalingsloven § 5-4b , Svalbardskatteloven § 3-1 , Jan Mayen-skatteloven og artistskatteloven kan på samme måte endre opplysninger i levert melding om trekk. Dette gjelder likevel ikke grunnlag som er fastsatt av skattemyndighetene, eller på områder hvor myndighetene har varslet om at fastsettingen er under kontroll. Skattepliktige etter petroleumsskatteloven § 5 kan ikke endre opplysninger i tidligere leverte skattemeldinger etter første punktum. Første punktum gjelder ikke for krav om inntreden eller uttreden av rederiskatteordningen, jf. skatteloven §§ 8-10 til 8-20 .</p>
 <p>(2) Endringsmelding som nevnt i første ledd, må være kommet fram til skattemyndighetene senest tre år etter leveringsfristen for skattemelding og melding om trekk.</p>
 <p>(3) Departementet kan gi forskrift om hvordan opplysninger skal gis og leveringssted for endringsmelding og kan utforme endringsmeldinger. Departementet kan gi forskrift om vilkår for endring av beregningsgrunnlaget for utgående merverdiavgift ved for mye angitt merverdiavgift i salgsdokumentasjon.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 23 juni 2020 nr. 108 , 21 des 2020 nr. 171 (ikr. 1 juli 2021), 22 des 2025 nr. 122 . Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019), 23 juni 2020 nr. 108 , 21 des 2020 nr. 171 (ikr. 1 juli 2021), 22 des 2025 nr. 122 . Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="9-5-trekkpliktiges-adgang-til-a-endre-fastsatt-skatt-pa-utbytte-til-utenlandske-aksjonrer">§ 9-5. Trekkpliktiges adgang til å endre fastsatt skatt på utbytte til utenlandske aksjonærer <a class="para-history" href="../historikk/lov-2016-05-27-14/para-9-5.html" title="Endringshistorikk for § 9-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Trekkpliktig aksjeselskap, allmennaksjeselskap samt likestilt selskap og sammenslutning kan endre fastsettingen av skatt som nevnt i skatteloven § 10-13 , ved levering av melding med endringer i melding etter § 8-8. Det samme gjelder for tilbyder av aksjesparekonto. Endringsmeldingen må være kommet fram til skattemyndighetene innen tre måneder etter leveringsfristen for meldingen om trekk, men likevel senest 31. desember i året da utbyttet ble utbetalt eller det tidligere tidspunktet da det oppsto adgang for aksjonæren til å få utbyttet utbetalt.</p>
 <p>(2) Departementet kan gi forskrift om innholdet i endringsmeldingen, herunder krav til dokumentasjon.</p>
-<p><em>Endret ved lov 20 des 2019 nr. 101 (med virkning fra 1 jan 2019).</em></p>
+<p class="note">Endret ved lov 20 des 2019 nr. 101 (med virkning fra 1 jan 2019).</p>
 <h4 id="9-6-sknad-om-refusjon-av-skatt-fastsatt-ved-trekk">§ 9-6. Søknad om refusjon av skatt fastsatt ved trekk <a class="para-history" href="../historikk/lov-2016-05-27-14/para-9-6.html" title="Endringshistorikk for § 9-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattepliktige kan søke refusjon av skatt fastsatt ved trekk etter §§ 9-1 og 9-2 .</p>
 <p>(2) Fristen for å søke refusjon er seks måneder etter utløpet av den trekkpliktiges frist for å fastsette skatten. Fristen for å søke refusjon av skatt på utbytte etter skatteloven § 10-13 er likevel fem år regnet fra utgangen av året da fristen for å fastsette skatten etter §§ 9-1 og 9-2 , løp ut. Søknad om refusjon av skatt på utbytte etter skatteloven § 10-13 kan ikke fremmes før utløpet av perioden for den trekkpliktiges endringsadgang etter § 9-5 . Fristen for å søke refusjon av skatt etter skatteloven §§ 10-80 og 10-81 og kapittel 20 (kildeskatteordning), er tre år etter utløpet av året skatten er fastsatt for.</p>
 <p>(3) Departementet kan gi forskrift om innholdet i søknaden om refusjon, herunder krav til dokumentasjon.</p>
-<p><em>Endret ved lover 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</em></p>
+<p class="note">Endret ved lover 20 des 2018 nr. 110 (ikr. 1 jan 2019 med virkning fra inntektsåret 2019), 21 des 2020 nr. 171 (ikr. 1 juli 2021), 20 des 2023 nr. 101 .</p>
 <h4 id="9-7-skatteliste">§ 9-7. Skatteliste <a class="para-history" href="../historikk/lov-2016-05-27-14/para-9-7.html" title="Endringshistorikk for § 9-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Når fristen for å sende skatteoppgjør i § 9-3 tredje ledd er utløpt, utarbeides det en liste over alle skattepliktiges fastsatte formues- og inntektsskatt, svalbardskatt og petroleumsskatt. Det kan gis innsyn i og utskrift av opplysninger i listen så langt det følger av bestemmelsen her. <a href="lov-2006-05-19-16.html">Offentleglova</a> får ikke anvendelse ved krav om innsyn i slike opplysninger.</p>
 <p>(2) Skattelisten skal inneholde den enkelte skattepliktiges navn, postnummer, poststed, kommune, fødselsår for personlig skattepliktig, organisasjonsnummer for upersonlig skattepliktig, fastsatt nettoformue, nettoinntekt og skatt.</p>
@@ -564,7 +941,7 @@ c. skattemyndighetene har varslet foretaket i Norge om at landet der morselskape
 <p>(5) Skattedirektoratet gjør skattelisten tilgjengelig på Internett til alminnelig ettersyn. Utlegging av listene kunngjøres. Den enkelte skattepliktige skal ha tilgang til opplysninger om søk foretatt på egen person.</p>
 <p>(6) På anmodning skal opplysninger fra skattelistene om den enkelte skattepliktige gis skriftlig til den skattepliktige selv, ektefelle, dødsbo, konkursbo eller domstol. Slike opplysninger kan også i rimelig utstrekning gis skriftlig til andre. Når opplysninger gis til andre etter foregående punktum, skal den enkelte skattepliktige ha tilgang til informasjon om hvem som har fått opplysningene utlevert. Skattemyndighetene kan gjøre unntak fra plikten til å informere den skattepliktige når opplysningene gis til offentlig myndighet.</p>
 <p>(7) Fullstendige skattelister kan utleveres i elektronisk form til pressen. Listen over personlige skattepliktige kan likevel bare utleveres dersom det inngås avtale mellom den enkelte redaksjon og Skattedirektoratet om at hele eller deler av den mottatte skattelisten ikke kan legges ut på Internett eller gis videre til andre. Det kan kreves betaling ved utlevering av skattelister.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="9-8-takseringsregler-mv">§ 9-8. Takseringsregler mv.</h4>
 <p>(1) Departementet kan gi forskrift om takseringsregler for formues-, inntekts- og fradragsposter som må fastsettes ved skjønn. Reglene legges til grunn ved fastsettingen med mindre forholdene i den enkelte saken tilsier et ikke ubetydelig avvik fra takseringsregelen.</p>
 <p>(2) Skattekontoret kan fastsette en lokal takseringsregel når lokale forhold tilsier at en takseringsregel fravikes for en gruppe skattepliktige, eller når takseringsregel for hele landet ikke er fastsatt.</p>
@@ -590,7 +967,7 @@ e. Oppdragsgiver plikter etter krav fra skattemyndighetene å gi opplysninger om
 <p>(5) Skattemyndighetene kan kreve at tredjepart dokumenterer opplysningene ved for eksempel å gi innsyn i, legge fram, sammenstille, utlevere eller sende inn regnskapsmateriale med bilag, kontrakter, korrespondanse, styreprotokoller, elektroniske programmer og programsystemer.</p>
 <h4 id="10-3-kontrollopplysninger-ved-skifte-av-ddsbo">§ 10-3. Kontrollopplysninger ved skifte av dødsbo <a class="para-history" href="../historikk/lov-2016-05-27-14/para-10-3.html" title="Endringshistorikk for § 10-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Utstedes det proklama ved skifte av dødsbo, plikter arving, tingrettsdommer, testamentsfullbyrder og andre som yter hjelp ved skifteoppgjøret, etter krav fra skattemyndighetene å gi opplysninger som er nødvendige for å avgjøre om boet skylder skatt.</p>
-<p><em>Endret ved lov 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ).</em></p>
+<p class="note">Endret ved lov 14 juni 2019 nr. 21 (ikr. 1 jan 2021 iflg. res. 28 feb 2020 nr. 200 , endring endret ved lov 18 des 2020 nr. 149 ).</p>
 <h4 id="10-4-kontroll-hos-den-opplysningspliktige">§ 10-4. Kontroll hos den opplysningspliktige</h4>
 <p>(1) Skattemyndighetene kan foreta kontroll hos den som plikter å gi opplysninger etter denne loven. De opplysningspliktige plikter likevel ikke å gi adgang til kontroll i deres private hjem, med mindre næringsvirksomhet utøves fra den næringsdrivendes private hjem.</p>
 <p>(2) Ved kontroll som nevnt i første ledd, skal den opplysningspliktige gi opplysninger som vedkommende plikter å gi ved kontroll etter §§ 10-1 til 10-3 . Den opplysningspliktige skal videre gi skattemyndighetene adgang til befaring, besiktigelse, gjennomsyn av arkiver, opptelling av eiendeler, taksering mv. av fast eiendom, anlegg, innretninger, transportmidler mv. Ved kontroll av særavgiftspliktige varer kan myndighetene kreve vareprøver avgitt uten vederlag. Ved gjennomsyn av virksomhetens arkiver kan skattemyndighetene kopiere til datalagringsmedium for senere gjennomgang hos den opplysningspliktige eller hos skattemyndighetene.</p>
@@ -607,7 +984,7 @@ e. andre skattemyndigheter, politiet og Mattilsynet gi opplysninger som er av be
 f. utlendingsmyndighetene etter krav fra skattemyndighetene gi opplysninger om oppholds- og arbeidstillatelse i Norge for utenlandske artister
 g. politiet etter krav fra skattemyndighetene gi opplysninger om utenlandske artister som tar engasjement i politidistriktet, samt arrangørens navn og adresse
 h. tollmyndighetene gi opplysninger om vareførselen til og fra landet av betydning for skattemyndighetenes fastsetting av skatt ved innførsel.</p>
-<p><em>Endret ved lover 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ), 22 juni 2018 nr. 71 , 11 mars 2022 nr. 8 (i kraft 1 jan 2023 iflg. res. 16 sep 2022 nr. 1575 ).</em></p>
+<p class="note">Endret ved lover 9 des 2016 nr. 88 (ikr. 1 okt 2017 iflg. res. 9 juni 2017 nr. 718 ), 22 juni 2018 nr. 71 , 11 mars 2022 nr. 8 (i kraft 1 jan 2023 iflg. res. 16 sep 2022 nr. 1575 ).</p>
 <h4 id="10-6-kontrollopplysninger-fra-tilbyder-av-tilgang-til-elektronisk-kommunikasjonsnett-eller-tjeneste">§ 10-6. Kontrollopplysninger fra tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste</h4>
 <p>Når særlige hensyn gjør det nødvendig, og det foreligger mistanke om overtredelse av bestemmelser gitt i eller i medhold av denne loven, kan Skattedirektoratet eller den direktoratet gir fullmakt pålegge tilbyder av tilgang til elektronisk kommunikasjonsnett eller -tjeneste å gi opplysninger om avtalebasert hemmelig telefonnummer eller andre abonnementsopplysninger samt elektronisk kommunikasjonsadresse.</p>
 <h4 id="10-7-kontrollopplysninger-om-eierinteresse-i-utenlandsk-selskap-mv">§ 10-7. Kontrollopplysninger om eierinteresse i utenlandsk selskap mv.</h4>
@@ -620,10 +997,10 @@ b. oppholde seg ved motorvognen til kontrollen er avsluttet eller til det er git
 c. vise fram offentlige dokumenter som det er påbudt å ha med under kjøringen, og gi opplysninger som kontrollmyndigheten mener har betydning for avgiftskontrollen
 d. kjøre til anvist veie- eller kontrollplass.</p>
 <p>(3) Skattemyndighetene kan kreve at skattepliktig framstiller kjøretøy hos Statens vegvesen for kontroll av kjøretøyets registreringsforhold av hensyn til om riktig avgift er fastsatt.</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 68 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 869 ). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 68 (ikr. 1 jan 2020 iflg. res. 21 juni 2019 nr. 869 ). Endres ved lov 19 juni 2026 nr. 41 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="10-9-plikt-til-a-framvise-hms-kort">§ 10-9. Plikt til å framvise HMS-kort <a class="para-history" href="../historikk/lov-2016-05-27-14/para-10-9.html" title="Endringshistorikk for § 10-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom arbeidsgiver skal utstyre en arbeidstaker med HMS-kort etter regler gitt i medhold av <a href="lov-2005-06-17-62.html">arbeidsmiljøloven</a> § 4-1 syvende ledd, kan skattemyndighetene kreve at arbeidstakeren framviser HMS-kortet.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="10-10-hvem-pliktene-pahviler-i-selskap-mv">§ 10-10. Hvem pliktene påhviler i selskap mv.</h4>
 <p>I enkeltpersonforetak påhviler pliktene etter dette kapitlet innehaveren. I selskap, samvirkeforetak, forening, institusjon eller innretning påhviler pliktene den daglige lederen av virksomheten, eller styrelederen dersom virksomheten ikke har daglig leder. For person bosatt i utlandet eller selskap eller innretning hjemmehørende i utlandet påhviler pliktene personens, selskapets eller innretningens norske representant.</p>
 <h4 id="10-11-framgangsmaten-ved-kontroll">§ 10-11. Framgangsmåten ved kontroll</h4>
@@ -647,12 +1024,12 @@ d. kjøre til anvist veie- eller kontrollplass.</p>
 <p>(6) Skattemyndighetene kan kreve bistand av politiet til å iverksette en beslutning om bevissikring. Ved bevissikring i bolig skal skattemyndighetene ha bistand fra politiet.</p>
 <p>(7) Dersom det ikke er tid til å avvente rettens beslutning, kan skattemyndighetene kreve at politiet avstenger områder der bevisene kan være, inntil rettens beslutning foreligger.</p>
 <p>(8) Departementet kan gi forskrift om gjennomføring av bevissikring.</p>
-<p><em>Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 juli 2019).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2018 nr. 110 (ikr. 1 juli 2019).</p>
 <h2 id="kapittel-11-palegg-om-bokfring-revisjon-og-oppbevaring-av-regnskapsmateriale">Kapittel 11 Pålegg om bokføring, revisjon og oppbevaring av regnskapsmateriale</h2>
 <h4 id="11-1-palegg-om-bokfring">§ 11-1. Pålegg om bokføring <a class="para-history" href="../historikk/lov-2016-05-27-14/para-11-1.html" title="Endringshistorikk for § 11-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattemyndighetene kan pålegge skattepliktige og tredjeparter som er bokføringspliktige etter bokføringsloven, å oppfylle sin plikt til å innrette bokføringen, spesifikasjonen, dokumentasjonen og oppbevaringen av regnskapsopplysninger i samsvar med regler gitt i eller i medhold av bokføringsloven. Det samme gjelder plikt til å oppbevare dokumentasjon i samsvar med bestemmelser gitt i eller i medhold av § 7-3 tredje ledd , § 7-11 annet ledd og § 7-12 tredje ledd .</p>
 <p>(2) Pålegg om bokføring rettes til styret i selskap, samvirkeforetak, forening, innretning eller organisasjon, og sendes hvert medlem. Det skal fastsettes en frist for oppfyllelse. Fristen skal være minimum fire uker og ikke lengre enn ett år.</p>
-<p><em>Endret ved lover 23 juni 2020 nr. 108 , 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Endret ved lover 23 juni 2020 nr. 108 , 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="11-2-palegg-om-revisjon">§ 11-2. Pålegg om revisjon <a class="para-history" href="../historikk/lov-2016-05-27-14/para-11-2.html" title="Endringshistorikk for § 11-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Når skattepliktiges årsregnskap er fastsatt i strid med bestemmelser gitt i eller i medhold av regnskapsloven eller bokføringsloven eller god regnskapsskikk eller bokføringsskikk, kan skattemyndighetene gi pålegg om at ett eller flere årsregnskap skal revideres av en statsautorisert revisor i samsvar med bestemmelsene i <a href="lov-2020-11-20-128.html">revisorloven</a> for</p>
 <p>a. aksjeselskap der det er truffet beslutning i medhold av <a href="lov-1997-06-13-44.html">aksjeloven</a> § 7-6
@@ -661,7 +1038,7 @@ b. selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13, som er organis
 <p>(3) Pålegg om revisjon kan ikke gjelde for mer enn tre regnskapsår.</p>
 <p>(4) Pålegg om revisjon rettes til styret i selskapet.</p>
 <p>(5) Departementet kan gi forskrift om varsel, krav til påleggets form og innhold, virkningen av pålegg ved selskapsomdanninger, melding til Foretaksregisteret, innsending av villighetserklæring og om når pålegg om revisjon ikke kan gis.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 109 , 20 juni 2025 nr. 64 .</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 109 , 20 juni 2025 nr. 64 .</p>
 <h4 id="11-3-palegg-om-oppbevaring-av-regnskapsmateriale">§ 11-3. Pålegg om oppbevaring av regnskapsmateriale</h4>
 <p>(1) Skattemyndighetene kan i forbindelse med kontroll pålegge skattepliktige som er bokføringspliktige etter bokføringsloven, å oppbevare regnskapsmateriale etter bokføringsloven § 13 første ledd nr. 1 til 4 i mer enn fem år etter regnskapsårets slutt.</p>
 <p>(2) I enkeltpersonforetak rettes pålegg etter første ledd til foretakets innehaver. I selskap, samvirkeforetak, forening, institusjon eller innretning rettes pålegget til daglig leder av virksomheten, eller styrelederen dersom virksomheten ikke har daglig leder.</p>
@@ -677,7 +1054,7 @@ b. selskap som nevnt i regnskapsloven § 1-2 første ledd nr. 13, som er organis
 b. skattelovgivningen foreskriver endring av fastsettingen som følge av omstendigheter som inntreffer etter fastsettingen eller
 c. endringen følger av en avtale som nevnt i <a href="lov-1949-07-28-15.html">dobbeltbeskatningsavtaleloven</a>.</p>
 <p>(4) Skattemyndighetene kan endre beregningen av formue og inntekt fra selskap som skal levere selskapsmelding som nevnt i § 8-9 .</p>
-<p><em>Endret ved lov 21 juni 2019 nr. 38 .</em></p>
+<p class="note">Endret ved lov 21 juni 2019 nr. 38 .</p>
 <h4 id="12-2-skjnnsfastsetting">§ 12-2. Skjønnsfastsetting</h4>
 <p>(1) Skattemyndighetene kan fastsette det faktiske grunnlaget for skattefastsettingen ved skjønn når det ikke foreligger noen fastsetting etter kapittel 9 eller leverte meldinger ikke gir et forsvarlig grunnlag å bygge fastsettingen på.</p>
 <p>(2) Skjønnet skal settes til det som framstår som riktig ut fra opplysningene i saken.</p>
@@ -694,7 +1071,7 @@ c. endringen følger av en avtale som nevnt i <a href="lov-1949-07-28-15.html">d
 <p>(2) Fristen er ti år dersom den skattepliktige ilegges skjerpet tilleggsskatt eller anmeldes for brudd på straffebestemmelsene i straffeloven §§ 378 til 380 . Vedtak om endring som er truffet i medhold av tiårsfristen, bortfaller dersom vedtaket om skjerpet tilleggsskatt oppheves eller anmeldelsen ikke leder til straffereaksjon for brudd på de nevnte bestemmelsene. Fristen er ti år også i saker hvor det ikke ilegges tilleggsskatt fordi vilkårene i § 14-4 bokstav d er oppfylt.</p>
 <p>(3) Etter den skattepliktiges død kan sak om endring innenfor fristene i første og annet ledd, tas opp senest to år etter dødsfallet. Toårsfristen gjelder ikke så lenge boet verken er overtatt av selvskiftende arvinger eller er endelig oppgjort uten slik overtaking.</p>
 <p>(4) Med mindre det foreligger nye opplysninger i saken, må sak om endring av skattegrunnlaget i vedtak etter §§ 12-1 , 12-3 og 12-4 tas opp senest fire måneder etter vedtakstidspunktet dersom endringen er til ugunst for den skattepliktige. Saken må uansett tas opp innenfor fristene i første til tredje ledd.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024), 20 des 2024 nr. 89 .</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 12 jan 2024 nr. 7 (i kraft 1 jan 2024), 20 des 2024 nr. 89 .</p>
 <h4 id="12-7-utsatt-friststart">§ 12-7. Utsatt friststart</h4>
 <p>Når skattelovgivningen foreskriver endring av skattefastsettingen som følge av omstendigheter som inntreffer etter fastsettingen, regnes fristene etter § 12-6 fra utgangen av det kalenderåret da vilkårene for å foreta endringen ble oppfylt.</p>
 <h4 id="12-8-unntak-fra-fristene-for-a-ta-opp-skattefastsetting-mv-til-endring">§ 12-8. Unntak fra fristene for å ta opp skattefastsetting mv. til endring <a class="para-history" href="../historikk/lov-2016-05-27-14/para-12-8.html" title="Endringshistorikk for § 12-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -702,12 +1079,12 @@ c. endringen følger av en avtale som nevnt i <a href="lov-1949-07-28-15.html">d
 <p>a. når endringen følger av, eller forutsettes i, utfallet av et søksmål
 b. som følge av en uttalelse fra Sivilombudet i en sak der den skattepliktige er part
 c. når det er klart at vanskelige livsforhold hos den skattepliktige har ført til uriktig fastsetting.</p>
-<p><em>Endret ved lover 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 .</em></p>
+<p class="note">Endret ved lover 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 .</p>
 <h4 id="12-9-fordeling-av-kompetanse-mellom-oljeskattekontoret-og-andre-skattemyndigheter">§ 12-9. Fordeling av kompetanse mellom Oljeskattekontoret og andre skattemyndigheter</h4>
 <p>Oljeskattekontoret avgjør med bindende virkning for andre skattemyndigheter enn Klagenemnda for petroleumsskatt hvilke inntekts- og formuesposter som omfattes av petroleumsskatteloven § 5 første ledd, og hva som skal anses som skattepliktig inntekt og fradragsberettiget kostnad for finansielle poster som nevnt i petroleumsskatteloven § 3 d annet til syvende ledd.</p>
 <h4 id="12-10-endring-av-skattefastsetting-overfor-trekkpliktige">§ 12-10. Endring av skattefastsetting overfor trekkpliktige <a class="para-history" href="../historikk/lov-2016-05-27-14/para-12-10.html" title="Endringshistorikk for § 12-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Skattemyndighetene kan treffe vedtak om endring av skattefastsetting etter § 12-1 overfor den som har trekkplikt etter skattebetalingsloven § 5-4 første ledd (kildeskatteordning), artistskatteloven, Svalbardskatteloven og Jan Mayen-skatteloven.</p>
-<p><em>Endret ved lov 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019).</em></p>
+<p class="note">Endret ved lov 22 juni 2018 nr. 71 (ikr. 1 jan 2019 med virkning for inntektsåret 2019).</p>
 <h4 id="12-11-endring-uten-klage-av-andre-enkeltvedtak-enn-vedtak-om-skattefastsetting">§ 12-11. Endring uten klage av andre enkeltvedtak enn vedtak om skattefastsetting</h4>
 <p>(1) Andre enkeltvedtak enn vedtak om skattefastsetting kan endres av det organet som har truffet vedtaket, uten at det er påklaget dersom</p>
 <p>a. endringen ikke er til skade for noen vedtaket retter seg mot eller direkte tilgodeser
@@ -734,7 +1111,7 @@ d. når klagen er avvist av en klagenemnd.</p>
 <p>(2) Skatteklagenemnda er klageinstans ved klage over vedtak om fastsetting av formues- og inntektsskatt, Jan Mayen-skatt, artistskatt, merverdiavgift, petroleumsskatt som ikke er omfattet av fjerde ledd, finansskatt på lønn, arbeidsgiveravgift og suppleringsskatt. Det samme gjelder klage over vedtak om registrering eller sletting i Merverdiavgiftsregisteret, når det samtidig klages over vedtak etter § 12-1 som har direkte sammenheng med registrerings- eller slettingsvedtaket. Skatteklagenemnda skal ikke være klageinstans ved klager over vedtak om liten skatteevne etter skatteloven § 17-4 . Departementet kan gi forskrift om at Skattedirektoratet gjøres til klageinstans ved klager over vedtak om fastsetting av formues- og inntektsskatt, merverdiavgift og arbeidsgiveravgift når klagen gjelder mindre beløp. Saker som skal avgjøres av Skatteklagenemnda, forberedes for nemnda av sekretariatet for Skatteklagenemnda.</p>
 <p>(3) Skatteklagenemnda for Svalbard er klageinstans ved klage over vedtak om fastsetting av skatt etter Svalbardskatteloven. Saker som skal avgjøres av Skatteklagenemnda for Svalbard, fremmes for nemnda av skattekontoret.</p>
 <p>(4) Klagenemnda for petroleumsskatt er klageinstans ved klage over vedtak om fastsetting av skatt på formue i og inntekt av virksomhet etter petroleumsskatteloven § 5 første ledd. Saker som skal avgjøres av Klagenemnda for petroleumsskatt, fremmes for nemnda av Oljeskattekontoret.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 (ikr. 1 aug 2018), 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 21 juni 2017 nr. 86 , 22 juni 2018 nr. 71 (ikr. 1 aug 2018), 12 jan 2024 nr. 7 (i kraft 1 jan 2024).</p>
 <h4 id="13-4-klagefrist-oppreisning-for-oversittelse-av-klagefristen">§ 13-4. Klagefrist. Oppreisning for oversittelse av klagefristen.</h4>
 <p>(1) Klagefristen er seks uker.</p>
 <p>(2) Dersom klageren er avhengig av å få opplysninger fra skattemyndighetene for å klage, kan klageren levere klage innen seks uker etter at skattemyndighetene har sendt de nødvendige opplysningene. Første gang en bolig verdsettes etter eigedomsskattelova § 8 C , er fristen for å klage over vedtak som får betydning for eiendomsskatten, seks uker fra skatteseddelen mottas fra kommunen.</p>
@@ -759,7 +1136,7 @@ d. når klagen er avvist av en klagenemnd.</p>
 <h4 id="13-9-endring-av-klagenemndenes-avgjrelser">§ 13-9. Endring av klagenemndenes avgjørelser <a class="para-history" href="../historikk/lov-2016-05-27-14/para-13-9.html" title="Endringshistorikk for § 13-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En klagenemnd kan innenfor fristen i § 12-6 første ledd endre sin skattefastsetting når det foreligger nye omstendigheter og tungtveiende hensyn tilsier at saken tas opp. Fristen i § 12-6 første ledd er likevel ikke til hinder for at skattefastsettingen tas opp til endring innen seks måneder etter at vedtaket ble sendt den skattepliktige.</p>
 <p>(2) En klagenemnd kan, uavhengig av fristene i kapittel 12 , endre sin skattefastsetting som følge av en uttalelse fra Sivilombudet i en sak der den skattepliktige er part.</p>
-<p><em>Endret ved lover 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 , 20 des 2023 nr. 105 (i kraft 20 des 2023 iflg. res. 20 des 2023 nr. 2136 , se denne for overgangsregel).</em></p>
+<p class="note">Endret ved lover 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 , 20 des 2023 nr. 105 (i kraft 20 des 2023 iflg. res. 20 des 2023 nr. 2136 , se denne for overgangsregel).</p>
 <h2 id="kapittel-14-administrative-reaksjoner-og-straff">Kapittel 14 Administrative reaksjoner og straff</h2>
 <h4 id="14-1-tvangsmulkt">§ 14-1. Tvangsmulkt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-1.html" title="Endringshistorikk for § 14-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) For å fremtvinge levering av pliktige opplysninger kan skattemyndighetene ilegge den som har plikt til å gi opplysninger etter kapittel 7 og 8 eller forespurte opplysninger etter §§ 10-1 , 10-2 , 10-3 , 10-5 , 10-6 og 10-7 , en daglig løpende tvangsmulkt når opplysningene ikke gis innen de fastsatte frister. Det samme gjelder når det er åpenbare feil ved de opplysninger som gis. Tvangsmulkt kan også ilegges den som ikke oppfyller pliktene til å identifisere kontohavere mv., utleiere, tjenesteytere eller brukere etter § 7-3 tredje ledd , § 7-11 annet ledd eller § 7-12 tredje ledd , og den som ikke retter seg etter pålegg om bokføring etter § 11-1 innen den fastsatte fristen.</p>
@@ -767,7 +1144,7 @@ d. når klagen er avvist av en klagenemnd.</p>
 <p>(3) Skattemyndighetene kan redusere eller frafalle påløpt mulkt som følge av særlige grunner som forelå ved ileggelsen.</p>
 <p>(4) Tvangsmulkt påløper ikke dersom oppfyllelse er umulig på grunn av forhold som ikke skyldes den ansvarlige.</p>
 <p>(5) Departementet kan gi forskrift om når pliktige opplysninger anses å ikke være gitt og om nivået på og utmåling av tvangsmulkten.</p>
-<p><em>Endret ved lover 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Endret ved lover 25 april 2025 nr. 12 (i kraft 1 jan 2026 iflg. res. 10 juni 2025 nr. 967 ), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="14-2-saksbehandlingsregler-ved-ileggelse-av-tvangsmulkt">§ 14-2. Saksbehandlingsregler ved ileggelse av tvangsmulkt</h4>
 <p>(1) Ved vedtak om tvangsmulkt kan forhåndsvarsel etter § 5-6 unnlates. I melding om vedtak om tvangsmulkt, jf. § 5-8 , skal skattemyndighetene opplyse om hvilke plikter som nevnt i § 14-1 første ledd som ikke anses å være oppfylt, frist for når tvangsmulkten begynner å løpe og størrelsen på tvangsmulkten.</p>
 <p>(2) Tvangsmulkten tilfaller statskassen.</p>
@@ -775,7 +1152,7 @@ d. når klagen er avvist av en klagenemnd.</p>
 <p>(1) Tilleggsskatt ilegges skattepliktig og trekkpliktig som nevnt i § 8-8 første og annet ledd, som gir uriktig eller ufullstendig opplysning til skattemyndighetene eller unnlater å gi pliktig opplysning, når opplysningssvikten kan føre til skattemessige fordeler.</p>
 <p>(2) Tilleggsskatt ilegges ikke når skattepliktiges eller trekkpliktiges forhold må anses unnskyldelig.</p>
 <p>(3) Tilleggsskatt kan fastsettes samtidig med den skatten den skal beregnes av, eller ved en senere særskilt fastsetting. Fristene i §§ 12-6 til 12-8 gjelder tilsvarende.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 86 .</p>
 <h4 id="14-4-unntak-fra-tilleggsskatt">§ 14-4. Unntak fra tilleggsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-4.html" title="Endringshistorikk for § 14-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Tilleggsskatt fastsettes ikke</p>
 <p>a. av riktige og fullstendige opplysninger som er forhåndsutfylt i skattemeldingen
@@ -784,7 +1161,7 @@ c. når selger unnlater å beregne merverdiavgift av ordinær bokført omsetning
 d. når den skattepliktige frivillig retter eller utfyller opplysninger som er gitt eller lagt til grunn tidligere, slik at det kan fastsettes riktig skatt. Dette gjelder ikke hvis rettingen kan anses framkalt ved kontrolltiltak som er eller vil bli satt i verk, eller ved opplysninger som skattemyndighetene har fått fra andre. Tidligere ilagt tilleggsskatt faller ikke bort.
 e. når tilleggsskatten for det enkelte forholdet vil bli under 1 000 kroner eller
 f. når den skattepliktige er død.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="14-5-satser-og-beregningsgrunnlag-for-tilleggsskatt">§ 14-5. Satser og beregningsgrunnlag for tilleggsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-5.html" title="Endringshistorikk for § 14-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Tilleggsskatt beregnes med 20 prosent av den skattemessige fordelen som er eller kunne ha vært oppnådd. Satsen skal være ti prosent når de uriktige eller ufullstendige opplysningene gjelder opplysninger som også er gitt av arbeidsgiver eller andre etter kapittel 7 , og opplysninger som selskapet har gitt etter § 8-9 for deltakere som skattlegges etter skatteloven §§ 10-40 til 10-48 .</p>
 <p>(2) Formues- og inntektstillegg som gir grunn for å anvende tilleggsskatt, anses å utgjøre den øverste delen av den skattepliktiges formue og inntekt.</p>
@@ -794,13 +1171,13 @@ f. når den skattepliktige er død.</p>
 b. den skattepliktige selv har oppgitt skattegrunnlaget i senere perioder, eller unnlatt å fradragsføre kostnaden i senere perioder, før skattemyndighetene har tatt opp forholdet
 c. skattemyndighetene har tatt opp forholdet, men den skattepliktige sannsynliggjør at grunnlaget uansett ville blitt tatt med eller kostnaden unnlatt fradragsført i senere perioder.</p>
 <p>(5) Ilagt tvangsmulkt etter § 14-1 første ledd første og annet punktum skal komme til fradrag i beregnet tilleggsskatt for unnlatt levering etter § 14-3 første ledd annet punktum.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="14-6-skjerpet-tilleggsskatt">§ 14-6. Skjerpet tilleggsskatt <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-6.html" title="Endringshistorikk for § 14-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skjerpet tilleggsskatt ilegges skattepliktig og trekkpliktig som nevnt i § 8-8 første og annet ledd, som forsettlig eller grovt uaktsomt gir skattemyndighetene uriktig eller ufullstendig opplysning, eller unnlater å gi pliktig opplysning, når vedkommende forstår eller bør forstå at det kan føre til skattemessige fordeler. Skjerpet tilleggsskatt kan bare ilegges i tillegg til tilleggsskatt etter § 14-3 . Bestemmelsen i § 14-4 gjelder tilsvarende.</p>
 <p>(2) Skjerpet tilleggsskatt kan fastsettes i et eget vedtak samtidig med eller etter fastsetting av tilleggsskatt etter § 14-3 . Bestemmelsen i § 14-3 tredje ledd annet punktum gjelder tilsvarende.</p>
 <p>(3) Skjerpet tilleggsskatt beregnes med 20 eller 40 prosent av den skatten som er eller kunne vært unndratt. § 14-5 annet til femte ledd gjelder tilsvarende.</p>
 <p>(4) Skal skattepliktig for samme år svare skjerpet tilleggsskatt etter forskjellige satser, fordeles den skatten som skjerpet tilleggsskatt skal beregnes av, forholdsmessig etter størrelsen på den formuen eller inntekten som de ulike satsene skal anvendes på.</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
 <h4 id="14-7-overtredelsesgebyr">§ 14-7. Overtredelsesgebyr <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-7.html" title="Endringshistorikk for § 14-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Skattemyndighetene kan ilegge overtredelsesgebyr overfor</p>
 <p>a. tredjeparter som ikke oppfyller sine opplysningsplikter etter kapittel 7 , herunder plikten til å identifisere kontohavere mv., utleiere, tjenesteytere eller brukere etter § 7-3 tredje ledd , § 7-11 annet ledd eller § 7-12 tredje ledd
@@ -813,7 +1190,7 @@ d. en bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til
 <p>(5) Overtredelsesgebyr ilegges ikke dersom oppfyllelse er umulig på grunn av forhold som ikke skyldes den ansvarlige.</p>
 <p>(6) Overtredelsesgebyret tilfaller statskassen.</p>
 <p>(7) Departementet kan gi forskrift om grunnlaget for beregning og om utmåling av overtredelsesgebyr.</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 20 des 2016 nr. 120 (ikr. 1 jan 2019), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 20 des 2016 nr. 120 (ikr. 1 jan 2019), 20 juni 2025 nr. 64 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1089 ).</p>
 <h4 id="14-8-varsel">§ 14-8. Varsel</h4>
 <p>I varsel etter § 5-6 om tilleggsskatt og overtredelsesgebyr skal fristen for å uttale seg være minst tre uker. Varsel etter § 5-6 kan unnlates når overtredelsesgebyr ilegges på stedet.</p>
 <h4 id="14-9-veiledning-om-taushetsrett-mv">§ 14-9. Veiledning om taushetsrett mv.</h4>
@@ -825,26 +1202,26 @@ d. en bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til
 <p>Ved prøving av vedtak om tilleggsskatt og overtredelsesgebyr kan retten prøve alle sider av saken.</p>
 <h4 id="14-12-kompensasjon-for-urimelig-lang-saksbehandlingstid">§ 14-12. Kompensasjon for urimelig lang saksbehandlingstid <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-12.html" title="Endringshistorikk for § 14-12" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Departementet kan gi forskrift om utmåling av kompensasjon dersom tilleggsskatt eller overtredelsesgebyr ikke er fastsatt, frafalt eller henlagt innen rimelig tid, herunder hvilken periode kompensasjon skal gis for, hvordan kompensasjon skal gis, hvordan kompensasjon skal utmåles og størrelsen på kompensasjonen.</p>
-<p><em>Tilføyd ved lov 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 ).</em></p>
+<p class="note">Tilføyd ved lov 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 ).</p>
 <h4 id="14-13-straff-for-tredjeparts-opplysningssvikt-mv">§ 14-13. Straff for tredjeparts opplysningssvikt mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-14-13.html" title="Endringshistorikk for § 14-13" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Med bot eller fengsel inntil to år straffes opplysningspliktig tredjepart som gir uriktig eller ufullstendig opplysning til skattemyndighetene, eller unnlater å gi pliktig opplysning.</p>
 <p>(2) Med bot eller fengsel inntil ett år straffes den som grovt uaktsomt overtrer gjerningsbeskrivelsen i første ledd.</p>
-<p><em>Endret ved lov 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 , tidligere § 14-12).</em></p>
+<p class="note">Endret ved lov 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 , tidligere § 14-12).</p>
 <h4 id="14-14-straff-for-unnlatt-medvirkning-til-kontroll">§ 14-14. Straff for unnlatt medvirkning til kontroll</h4>
 <p>Med bot eller fengsel inntil to år straffes den som unnlater å medvirke til kontroll etter § 10-4 .</p>
-<p><em>Endret ved lover 20 des 2016 nr. 120 , 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 , tidligere § 14-13).</em></p>
+<p class="note">Endret ved lover 20 des 2016 nr. 120 , 20 des 2023 nr. 105 (i kraft 1 jan 2024 iflg. res. 20 des 2023 nr. 2136 , tidligere § 14-13).</p>
 <h2 id="kapittel-15-sksmal-mv">Kapittel 15 Søksmål mv.</h2>
 <h4 id="15-1-sksmal-fra-skattepliktige-mv">§ 15-1. Søksmål fra skattepliktige mv. <a class="para-history" href="../historikk/lov-2016-05-27-14/para-15-1.html" title="Endringshistorikk for § 15-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Den som har klageadgang over en avgjørelse skattemyndighetene har truffet etter denne loven, kan reise søksmål om prøving av avgjørelsen. Det kan også reises søksmål om prøving av avgjørelsen i klagesaken.</p>
 <p>(2) <a href="lov-2005-06-17-90.html">Tvisteloven</a> § 1-3 gjelder ikke.</p>
 <p>(3) Skattemyndighetene skal varsle kommunen dersom den skattepliktige går til søksmål om vedtak som har betydning for utskrivingen av eiendomsskatt på kraftanlegg.</p>
-<p><em>Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</em></p>
+<p class="note">Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</p>
 <h4 id="15-2-sksmal-fra-departementet-eller-en-kommune">§ 15-2. Søksmål fra departementet eller en kommune <a class="para-history" href="../historikk/lov-2016-05-27-14/para-15-2.html" title="Endringshistorikk for § 15-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Departementet kan ved søksmål få prøvd om nemndsvedtak i sak om fastsetting av skatt skal oppheves helt eller delvis fordi det bygger på feilaktig faktisk grunnlag eller uriktig oppfatning av et rettsspørsmål. Dette gjelder likevel ikke avgjørelse truffet på grunnlag av en bindende forhåndsuttalelse etter kapittel 6 .</p>
 <p>(2) Kommunestyret kan ved søksmål få prøvd vedtak som gjelder spørsmålet om hva som er rett skattested for enkelte skattepliktige. Søksmål anlegges mot den andre eller de andre kommunene som er part i tvisten.</p>
 <p>(3) Kommunestyret kan ved søksmål få prøvd vedtak som gjelder spørsmål av betydning for utskrivingen av eiendomsskatt. Kommunestyret kan også få prøvd den skattepliktiges fastsetting av skattegrunnlaget for kraftanlegg, som har betydning for utskrivingen av eiendomsskatt.</p>
 <p>(4) Den avgjørelsen retter seg mot, skal varsles om søksmålet.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</p>
 <h4 id="15-3-partsstilling">§ 15-3. Partsstilling</h4>
 <p>(1) Ved søksmål til prøving av avgjørelser etter denne loven utøves statens partsstilling av den skattemyndigheten som har truffet avgjørelsen. Er avgjørelsen truffet av en nemnd, utøves partsstillingen av skattekontoret.</p>
 <p>(2) Departementet kan i enkeltsak eller i grupper av saker overta utøvelsen av partsstillingen eller overføre den til annen skattemyndighet.</p>
@@ -853,7 +1230,7 @@ d. en bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til
 <p>(1) Søksmål må reises innen seks måneder etter at avgjørelsen ble sendt den skattepliktige. Søksmål som nevnt i § 15-2 tredje ledd må reises innen seks måneder etter at melding om fastsetting av skattegrunnlaget for kraftanlegg som har betydning for utskrivingen av eiendomsskatt, ble sendt kommunen. Det kan gis oppfriskning for oversittelse av fristen etter reglene i tvisteloven §§ 16-12 til 16-14 .</p>
 <p>(2) Ved avvisning av klage der avvisningsspørsmålet behandles etter § 13-4 tredje ledd første punktum, løper søksmålsfristen for det påklagde vedtaket fra avvisningsvedtaket ble sendt den skattepliktige, med mindre søksmålsfristen allerede var utløpt da klagen ble sendt.</p>
 <p>(3) Søksmålsfristen avbrytes dersom det omtvistede spørsmålet klages inn for Sivilombudet. Ny søksmålsfrist på seks måneder løper fra ombudets melding om avsluttet behandling er kommet fram til den skattepliktige, eller fra den skattepliktige blir varslet om myndighetenes svar på ombudets anmodning om fornyet behandling. Søksmålsfristen etter første ledd avbrytes likevel ikke dersom klagen ikke fører til realitetsavgjørelse hos ombudet, og dette skyldes et forsettlig forhold fra den skattepliktiges side.</p>
-<p><em>Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 , 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</em></p>
+<p class="note">Endret ved lover 22 des 2021 nr. 158 (ikr. 1 jan 2022), 22 juni 2022 nr. 75 , 20 des 2022 nr. 115 , 20 juni 2025 nr. 59 (i kraft 1 jan 2026 med virkning fra skatteåret 2026).</p>
 <h4 id="15-5-adgang-til-a-stille-vilkar-for-a-reise-sksmal">§ 15-5. Adgang til å stille vilkår for å reise søksmål</h4>
 <p>(1) Det forvaltningsorganet som har truffet enkeltvedtak i medhold av denne loven, kan bestemme at søksmål om gyldigheten av vedtaket ikke skal kunne reises uten at adgangen til å klage over vedtaket er benyttet, og at klagen er avgjort av den høyeste klageinstansen som står åpen.</p>
 <p>(2) Søksmål skal i alle tilfeller kunne reises når det har gått ett år fra klage første gang ble framsatt, og det ikke skyldes forsømmelse fra klagerens side at klageinstansens avgjørelse ikke foreligger. Forutsatt at klagen ble fremmet innen klagefristen, utløper søksmålsfristen etter § 15-4 ikke før klageinstansen har truffet avgjørelse i saken.</p>
@@ -873,10 +1250,12 @@ d. en bokføringspliktig som forsettlig eller uaktsomt overtrer sine plikter til
 <p>(1) § 12-6 gjelder for skattefastsettinger som tas opp til endring etter tidspunktet for lovens ikrafttredelse. Skattemyndighetene kan likevel ikke endre fastsettinger for skattleggingsperiodene 2012 til 2014 til ugunst for den skattepliktige dersom det ikke ville ha vært adgang til å endre fastsettingen etter fristreglene i ligningsloven .</p>
 <p>(2) §§ 14-3 til 14-7 får virkning for saker der opplysningssvikten er begått etter tidspunktet for lovens ikrafttredelse. Det samme gjelder for saker der vedtak treffes etter lovens ikrafttredelse, men opplysningssvikten er begått før tidspunktet for lovens ikrafttredelse, for så vidt samlet tilleggsskatt eller overtredelsesgebyr hadde blitt høyere etter de tidligere reglene.</p>
 <p>(3) Departementet kan gi forskrift om overgangsbestemmelser.</p>
-<p><em>Endret ved lov 21 juni 2017 nr. 86 .</em></p>
+<p class="note">Endret ved lov 21 juni 2017 nr. 86 .</p>
 <h4 id="16-3-endringer-i-andre-lover">§ 16-3. Endringer i andre lover <a class="para-history" href="../historikk/lov-2016-05-27-14/para-16-3.html" title="Endringshistorikk for § 16-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Fra det tidspunkt loven trer i kraft, gjøres følgende endringer i andre lover: – – –</p>
-<p><em>Endret ved lov 20 des 2016 nr. 120 .</em></p>
+<p class="note">Endret ved lov 20 des 2016 nr. 120 .</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

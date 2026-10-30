@@ -19,64 +19,309 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2013-12-13-106.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Tjenestepensjonsloven" href="../feeds/lov-2013-12-13-106.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Tjenestepensjonsloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2013-12-13-106</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>Erstatnings- og forsikringsrett &raquo; Livsforsikring\nEU/EØS-rett &raquo; Finansielle tjenester\nPensjons- og trygderett</dd>
-<dt>Ikrafttredelse</dt><dd>2014-01-01</dd>
-<dt>Sist endret</dt><dd>lov/2022-04-01-17</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2013-12-13-106" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkeomrade-definisjoner">Kapittel 1. Virkeområde. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forskrifter">§ 1-3. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-2-opprettelse-av-pensjonsordninger">Kapittel 2. Opprettelse av pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-1-adgang-til-a-opprette-pensjonsordning">§ 2-1. Adgang til å opprette pensjonsordning</a></li>
+<li class="lvl4"><a href="#2-2-minstekrav">§ 2-2. Minstekrav</a></li>
+<li class="lvl4"><a href="#2-3-pensjonsplan">§ 2-3. Pensjonsplan</a></li>
+<li class="lvl4"><a href="#2-4-styringsgruppe">§ 2-4. Styringsgruppe</a></li>
+<li class="lvl4"><a href="#2-5-pensjonsinnretningens-plikter">§ 2-5. Pensjonsinnretningens plikter</a></li>
+<li class="lvl4"><a href="#2-6-ligningsforhold">§ 2-6. Ligningsforhold</a></li>
+<li class="lvl4"><a href="#2-7-tilsyn">§ 2-7. Tilsyn</a></li>
+<li class="lvl4"><a href="#2-8-informasjon-til-arbeidstakerne">§ 2-8. Informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#2-9-adgang-til-a-ha-kombinerte-pensjonsordninger">§ 2-9. Adgang til å ha kombinerte pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-10-parallelle-pensjonsordninger">§ 2-10. Parallelle pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-11-arbeidstakernes-valgrett">§ 2-11. Arbeidstakernes valgrett</a></li>
+<li class="lvl4"><a href="#2-12-flytting-av-medlemskap">§ 2-12. Flytting av medlemskap</a></li>
+<li class="lvl2"><a href="#kapittel-3-medlemskap-i-pensjonsordningen">Kapittel 3. Medlemskap i pensjonsordningen</a></li>
+<li class="lvl4"><a href="#3-1-krav-til-regelverket">§ 3-1. Krav til regelverket</a></li>
+<li class="lvl4"><a href="#3-2-alminnelige-regler-om-medlemskap">§ 3-2. Alminnelige regler om medlemskap</a></li>
+<li class="lvl4"><a href="#3-3-nye-arbeidstakere">§ 3-3. Nye arbeidstakere</a></li>
+<li class="lvl4"><a href="#3-4-arbeidstakere-i-deltidsstilling">§ 3-4. Arbeidstakere i deltidsstilling</a></li>
+<li class="lvl4"><a href="#3-5-arbeidstakere-med-permisjon">§ 3-5. Arbeidstakere med permisjon</a></li>
+<li class="lvl4"><a href="#3-6-arbeidstakere-som-ikke-er-arbeidsfre">§ 3-6. Arbeidstakere som ikke er arbeidsføre</a></li>
+<li class="lvl4"><a href="#3-7-eldre-arbeidstakere">§ 3-7. Eldre arbeidstakere</a></li>
+<li class="lvl2"><a href="#kapittel-4-alderspensjon">Kapittel 4. Alderspensjon</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#4-1-retten-til-alderspensjon">§ 4-1. Retten til alderspensjon</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-pensjonsplanen">§ 4-2. Krav til pensjonsplanen</a></li>
+<li class="lvl5"><a href="#4-3-beregning-av-lnn">§ 4-3. Beregning av lønn</a></li>
+<li class="lvl5"><a href="#4-4-endring-av-pensjonsplanen">§ 4-4. Endring av pensjonsplanen</a></li>
+<li class="lvl3"><a href="#ii-pensjonsopptjening-kostnader-og-risikopremier">II. Pensjonsopptjening. Kostnader og risikopremier</a></li>
+<li class="lvl5"><a href="#4-5-arlig-oppbygging-av-pensjonsbeholdning">§ 4-5. Årlig oppbygging av pensjonsbeholdning</a></li>
+<li class="lvl5"><a href="#4-6-valgfri-garantert-regulering-av-pensjonsbeholdningen">§ 4-6. Valgfri garantert regulering av pensjonsbeholdningen</a></li>
+<li class="lvl5"><a href="#4-7-grenser-for-arlig-innskudd">§ 4-7. Grenser for årlig innskudd</a></li>
+<li class="lvl5"><a href="#4-8-arlige-kostnader-og-risikopremier">§ 4-8. Årlige kostnader og risikopremier</a></li>
+<li class="lvl3"><a href="#iii-uttak-av-alderspensjon-mv">III. Uttak av alderspensjon mv.</a></li>
+<li class="lvl5"><a href="#4-9-alder-ved-uttak-av-alderspensjon">§ 4-9. Alder ved uttak av alderspensjon</a></li>
+<li class="lvl5"><a href="#4-10-utbetalingstid">§ 4-10. Utbetalingstid</a></li>
+<li class="lvl5"><a href="#4-11-beregning-av-arlige-alderspensjonsytelser">§ 4-11. Beregning av årlige alderspensjonsytelser</a></li>
+<li class="lvl5"><a href="#4-12-uttak-av-alderspensjon-og-omregning-av-pensjonsytelser">§ 4-12. Uttak av alderspensjon og omregning av pensjonsytelser</a></li>
+<li class="lvl5"><a href="#4-13-pensjonsopptjening-etter-pensjonsuttak">§ 4-13. Pensjonsopptjening etter pensjonsuttak</a></li>
+<li class="lvl5"><a href="#4-14-arlig-avkastning-regulering-av-pensjoner-under-utbetaling">§ 4-14. Årlig avkastning. Regulering av pensjoner under utbetaling</a></li>
+<li class="lvl5"><a href="#4-15-opplysningsplikt-om-pensjonsytelser">§ 4-15. Opplysningsplikt om pensjonsytelser</a></li>
+<li class="lvl3"><a href="#iv-pensjonsordning-med-tidsavgrenset-alderspensjon">IV. Pensjonsordning med tidsavgrenset alderspensjon</a></li>
+<li class="lvl5"><a href="#4-16-tidsavgrenset-utbetalingsperiode">§ 4-16. Tidsavgrenset utbetalingsperiode</a></li>
+<li class="lvl3"><a href="#v-tilskudd-fra-arbeidstakerne">V. Tilskudd fra arbeidstakerne</a></li>
+<li class="lvl5"><a href="#4-17-tilskudd-fra-arbeidstakerne">§ 4-17. Tilskudd fra arbeidstakerne</a></li>
+<li class="lvl2"><a href="#kapittel-5-pensjonsordningens-midler">Kapittel 5. Pensjonsordningens midler</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler_1">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#5-1-pensjonsordningens-midler">§ 5-1. Pensjonsordningens midler</a></li>
+<li class="lvl5"><a href="#5-2-forholdet-til-foretaket">§ 5-2. Forholdet til foretaket</a></li>
+<li class="lvl3"><a href="#ii-kapitalforvaltning">II. Kapitalforvaltning</a></li>
+<li class="lvl5"><a href="#5-3-forsvarlig-kapitalforvaltning">§ 5-3. Forsvarlig kapitalforvaltning</a></li>
+<li class="lvl5"><a href="#5-4-individuell-investeringsporteflje">§ 5-4. Individuell investeringsportefølje</a></li>
+<li class="lvl5"><a href="#5-5-investeringsvalg-for-foretaket">§ 5-5. Investeringsvalg for foretaket</a></li>
+<li class="lvl5"><a href="#5-6-sammensetning-og-registrering-av-investeringsporteflje">§ 5-6. Sammensetning og registrering av investeringsportefølje</a></li>
+<li class="lvl5"><a href="#5-7-avkastningsgarantier">§ 5-7. Avkastningsgarantier</a></li>
+<li class="lvl5"><a href="#5-8-kontoinformasjon">§ 5-8. Kontoinformasjon</a></li>
+<li class="lvl3"><a href="#iii-premiefond">III. Premiefond</a></li>
+<li class="lvl5"><a href="#5-9-premiefond-for-pensjonsordningen">§ 5-9. Premiefond for pensjonsordningen</a></li>
+<li class="lvl5"><a href="#5-10-premiefondets-midler">§ 5-10. Premiefondets midler</a></li>
+<li class="lvl5"><a href="#5-11-bruk-av-premiefondet">§ 5-11. Bruk av premiefondet</a></li>
+<li class="lvl5"><a href="#5-12-overfring-til-foretaket">§ 5-12. Overføring til foretaket</a></li>
+<li class="lvl2"><a href="#kapittel-6-opphr-av-medlemskap-pensjonsbevis">Kapittel 6. Opphør av medlemskap. Pensjonsbevis</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler_2">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#6-1-opphr-av-medlemskap">§ 6-1. Opphør av medlemskap</a></li>
+<li class="lvl5"><a href="#6-2-pensjonsbevis">§ 6-2. Pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-3-srregler-for-pensjonskasser">§ 6-3. Særregler for pensjonskasser</a></li>
+<li class="lvl5"><a href="#6-4-forsikringsforholdet-etter-at-det-er-utstedt-pensjonsbevis-kontoinformasjon">§ 6-4. Forsikringsforholdet etter at det er utstedt pensjonsbevis. Kontoinformasjon</a></li>
+<li class="lvl5"><a href="#6-5-sammenslaing-av-pensjonsbevis">§ 6-5. Sammenslåing av pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-6-utenlandske-statsborgere">§ 6-6. Utenlandske statsborgere</a></li>
+<li class="lvl5"><a href="#6-7-registrering-av-pensjonsbevis">§ 6-7. Registrering av pensjonsbevis</a></li>
+<li class="lvl3"><a href="#ii-forvaltning-av-pensjonsbevis">II. Forvaltning av pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-8-forvaltning-av-pensjonsbeholdningen-mv">§ 6-8. Forvaltning av pensjonsbeholdningen mv.</a></li>
+<li class="lvl5"><a href="#6-9-uttak-av-pensjon">§ 6-9. Uttak av pensjon</a></li>
+<li class="lvl5"><a href="#6-10-pensjonsbevis-med-investeringsvalg">§ 6-10. Pensjonsbevis med investeringsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-7-konsernforhold-sammenslaing-deling-og-opphr-av-foretak-avvikling-og-omdanning-av-pensjonsordning-mv">Kapittel 7. Konsernforhold. Sammenslåing, deling og opphør av foretak. Avvikling og omdanning av pensjonsordning mv.</a></li>
+<li class="lvl4"><a href="#7-1-konsernforhold">§ 7-1. Konsernforhold</a></li>
+<li class="lvl4"><a href="#7-2-sammenslaing-av-foretak">§ 7-2. Sammenslåing av foretak</a></li>
+<li class="lvl4"><a href="#7-3-deling-av-foretak-mv">§ 7-3. Deling av foretak mv.</a></li>
+<li class="lvl4"><a href="#7-4-opphr-av-pensjonsordningen">§ 7-4. Opphør av pensjonsordningen</a></li>
+<li class="lvl4"><a href="#7-5-avvikling-av-foretaket">§ 7-5. Avvikling av foretaket</a></li>
+<li class="lvl4"><a href="#7-6-avvikling-av-pensjonsordningen">§ 7-6. Avvikling av pensjonsordningen</a></li>
+<li class="lvl4"><a href="#7-7-omdanning-til-foretakspensjonsordning-eller-innskuddspensjonsordning">§ 7-7. Omdanning til foretakspensjonsordning eller innskuddspensjonsordning</a></li>
+<li class="lvl2"><a href="#kapittel-8-ufrepensjon">Kapittel 8. Uførepensjon</a></li>
+<li class="lvl4"><a href="#8-1-krav-til-regelverket">§ 8-1. Krav til regelverket</a></li>
+<li class="lvl4"><a href="#8-2-vilkar-for-rett-til-ufrepensjon">§ 8-2. Vilkår for rett til uførepensjon</a></li>
+<li class="lvl4"><a href="#8-3-nedsatt-inntektsevne">§ 8-3. Nedsatt inntektsevne</a></li>
+<li class="lvl4"><a href="#8-4-fastsettelse-og-endring-av-ufregrad">§ 8-4. Fastsettelse og endring av uføregrad</a></li>
+<li class="lvl4"><a href="#8-5-lnnsgrunnlag">§ 8-5. Lønnsgrunnlag</a></li>
+<li class="lvl4"><a href="#8-6-grenser-for-ufrepensjon-i-tillegg-til-ufretrygd">§ 8-6. Grenser for uførepensjon i tillegg til uføretrygd</a></li>
+<li class="lvl4"><a href="#8-7-beregning-av-ufrepensjon">§ 8-7. Beregning av uførepensjon</a></li>
+<li class="lvl4"><a href="#8-8-utbetaling-av-ufrepensjon">§ 8-8. Utbetaling av uførepensjon</a></li>
+<li class="lvl4"><a href="#8-9-fradrag-for-arbeidsinntekt">§ 8-9. Fradrag for arbeidsinntekt</a></li>
+<li class="lvl4"><a href="#8-10-oppregulering-av-ufrepensjon-under-utbetaling">§ 8-10. Oppregulering av uførepensjon under utbetaling</a></li>
+<li class="lvl4"><a href="#8-11-opptjent-rett-til-ufrepensjon">§ 8-11. Opptjent rett til uførepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-overgangsregler">§ 9-1. Ikrafttredelse. Overgangsregler</a></li>
+<li class="lvl4"><a href="#9-2-endringer-i-andre-lover">§ 9-2. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2022-04-01-17.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-12-13-106.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om tjenestepensjon (tjenestepensjonsloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-12-13-106.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2013-12-13-106 <code>lov/2013-12-13-106</code></td></tr>
+<tr><th>Korttittel</th><td>Tjenestepensjonsloven</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Erstatnings- og forsikringsrett &raquo; Livsforsikring\nEU/EØS-rett &raquo; Finansielle tjenester\nPensjons- og trygderett</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2014</td></tr>
+<tr><th>Sist endret</th><td>LOV-2022-04-01-17 <code>lov/2022-04-01-17</code> fra 01.04.2022</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2013-12-13-106" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-virkeomrade-definisjoner">Kapittel 1. Virkeområde. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl4"><a href="#1-3-forskrifter">§ 1-3. Forskrifter</a></li>
+<li class="lvl2"><a href="#kapittel-2-opprettelse-av-pensjonsordninger">Kapittel 2. Opprettelse av pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-1-adgang-til-a-opprette-pensjonsordning">§ 2-1. Adgang til å opprette pensjonsordning</a></li>
+<li class="lvl4"><a href="#2-2-minstekrav">§ 2-2. Minstekrav</a></li>
+<li class="lvl4"><a href="#2-3-pensjonsplan">§ 2-3. Pensjonsplan</a></li>
+<li class="lvl4"><a href="#2-4-styringsgruppe">§ 2-4. Styringsgruppe</a></li>
+<li class="lvl4"><a href="#2-5-pensjonsinnretningens-plikter">§ 2-5. Pensjonsinnretningens plikter</a></li>
+<li class="lvl4"><a href="#2-6-ligningsforhold">§ 2-6. Ligningsforhold</a></li>
+<li class="lvl4"><a href="#2-7-tilsyn">§ 2-7. Tilsyn</a></li>
+<li class="lvl4"><a href="#2-8-informasjon-til-arbeidstakerne">§ 2-8. Informasjon til arbeidstakerne</a></li>
+<li class="lvl4"><a href="#2-9-adgang-til-a-ha-kombinerte-pensjonsordninger">§ 2-9. Adgang til å ha kombinerte pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-10-parallelle-pensjonsordninger">§ 2-10. Parallelle pensjonsordninger</a></li>
+<li class="lvl4"><a href="#2-11-arbeidstakernes-valgrett">§ 2-11. Arbeidstakernes valgrett</a></li>
+<li class="lvl4"><a href="#2-12-flytting-av-medlemskap">§ 2-12. Flytting av medlemskap</a></li>
+<li class="lvl2"><a href="#kapittel-3-medlemskap-i-pensjonsordningen">Kapittel 3. Medlemskap i pensjonsordningen</a></li>
+<li class="lvl4"><a href="#3-1-krav-til-regelverket">§ 3-1. Krav til regelverket</a></li>
+<li class="lvl4"><a href="#3-2-alminnelige-regler-om-medlemskap">§ 3-2. Alminnelige regler om medlemskap</a></li>
+<li class="lvl4"><a href="#3-3-nye-arbeidstakere">§ 3-3. Nye arbeidstakere</a></li>
+<li class="lvl4"><a href="#3-4-arbeidstakere-i-deltidsstilling">§ 3-4. Arbeidstakere i deltidsstilling</a></li>
+<li class="lvl4"><a href="#3-5-arbeidstakere-med-permisjon">§ 3-5. Arbeidstakere med permisjon</a></li>
+<li class="lvl4"><a href="#3-6-arbeidstakere-som-ikke-er-arbeidsfre">§ 3-6. Arbeidstakere som ikke er arbeidsføre</a></li>
+<li class="lvl4"><a href="#3-7-eldre-arbeidstakere">§ 3-7. Eldre arbeidstakere</a></li>
+<li class="lvl2"><a href="#kapittel-4-alderspensjon">Kapittel 4. Alderspensjon</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#4-1-retten-til-alderspensjon">§ 4-1. Retten til alderspensjon</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-pensjonsplanen">§ 4-2. Krav til pensjonsplanen</a></li>
+<li class="lvl5"><a href="#4-3-beregning-av-lnn">§ 4-3. Beregning av lønn</a></li>
+<li class="lvl5"><a href="#4-4-endring-av-pensjonsplanen">§ 4-4. Endring av pensjonsplanen</a></li>
+<li class="lvl3"><a href="#ii-pensjonsopptjening-kostnader-og-risikopremier">II. Pensjonsopptjening. Kostnader og risikopremier</a></li>
+<li class="lvl5"><a href="#4-5-arlig-oppbygging-av-pensjonsbeholdning">§ 4-5. Årlig oppbygging av pensjonsbeholdning</a></li>
+<li class="lvl5"><a href="#4-6-valgfri-garantert-regulering-av-pensjonsbeholdningen">§ 4-6. Valgfri garantert regulering av pensjonsbeholdningen</a></li>
+<li class="lvl5"><a href="#4-7-grenser-for-arlig-innskudd">§ 4-7. Grenser for årlig innskudd</a></li>
+<li class="lvl5"><a href="#4-8-arlige-kostnader-og-risikopremier">§ 4-8. Årlige kostnader og risikopremier</a></li>
+<li class="lvl3"><a href="#iii-uttak-av-alderspensjon-mv">III. Uttak av alderspensjon mv.</a></li>
+<li class="lvl5"><a href="#4-9-alder-ved-uttak-av-alderspensjon">§ 4-9. Alder ved uttak av alderspensjon</a></li>
+<li class="lvl5"><a href="#4-10-utbetalingstid">§ 4-10. Utbetalingstid</a></li>
+<li class="lvl5"><a href="#4-11-beregning-av-arlige-alderspensjonsytelser">§ 4-11. Beregning av årlige alderspensjonsytelser</a></li>
+<li class="lvl5"><a href="#4-12-uttak-av-alderspensjon-og-omregning-av-pensjonsytelser">§ 4-12. Uttak av alderspensjon og omregning av pensjonsytelser</a></li>
+<li class="lvl5"><a href="#4-13-pensjonsopptjening-etter-pensjonsuttak">§ 4-13. Pensjonsopptjening etter pensjonsuttak</a></li>
+<li class="lvl5"><a href="#4-14-arlig-avkastning-regulering-av-pensjoner-under-utbetaling">§ 4-14. Årlig avkastning. Regulering av pensjoner under utbetaling</a></li>
+<li class="lvl5"><a href="#4-15-opplysningsplikt-om-pensjonsytelser">§ 4-15. Opplysningsplikt om pensjonsytelser</a></li>
+<li class="lvl3"><a href="#iv-pensjonsordning-med-tidsavgrenset-alderspensjon">IV. Pensjonsordning med tidsavgrenset alderspensjon</a></li>
+<li class="lvl5"><a href="#4-16-tidsavgrenset-utbetalingsperiode">§ 4-16. Tidsavgrenset utbetalingsperiode</a></li>
+<li class="lvl3"><a href="#v-tilskudd-fra-arbeidstakerne">V. Tilskudd fra arbeidstakerne</a></li>
+<li class="lvl5"><a href="#4-17-tilskudd-fra-arbeidstakerne">§ 4-17. Tilskudd fra arbeidstakerne</a></li>
+<li class="lvl2"><a href="#kapittel-5-pensjonsordningens-midler">Kapittel 5. Pensjonsordningens midler</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler_1">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#5-1-pensjonsordningens-midler">§ 5-1. Pensjonsordningens midler</a></li>
+<li class="lvl5"><a href="#5-2-forholdet-til-foretaket">§ 5-2. Forholdet til foretaket</a></li>
+<li class="lvl3"><a href="#ii-kapitalforvaltning">II. Kapitalforvaltning</a></li>
+<li class="lvl5"><a href="#5-3-forsvarlig-kapitalforvaltning">§ 5-3. Forsvarlig kapitalforvaltning</a></li>
+<li class="lvl5"><a href="#5-4-individuell-investeringsporteflje">§ 5-4. Individuell investeringsportefølje</a></li>
+<li class="lvl5"><a href="#5-5-investeringsvalg-for-foretaket">§ 5-5. Investeringsvalg for foretaket</a></li>
+<li class="lvl5"><a href="#5-6-sammensetning-og-registrering-av-investeringsporteflje">§ 5-6. Sammensetning og registrering av investeringsportefølje</a></li>
+<li class="lvl5"><a href="#5-7-avkastningsgarantier">§ 5-7. Avkastningsgarantier</a></li>
+<li class="lvl5"><a href="#5-8-kontoinformasjon">§ 5-8. Kontoinformasjon</a></li>
+<li class="lvl3"><a href="#iii-premiefond">III. Premiefond</a></li>
+<li class="lvl5"><a href="#5-9-premiefond-for-pensjonsordningen">§ 5-9. Premiefond for pensjonsordningen</a></li>
+<li class="lvl5"><a href="#5-10-premiefondets-midler">§ 5-10. Premiefondets midler</a></li>
+<li class="lvl5"><a href="#5-11-bruk-av-premiefondet">§ 5-11. Bruk av premiefondet</a></li>
+<li class="lvl5"><a href="#5-12-overfring-til-foretaket">§ 5-12. Overføring til foretaket</a></li>
+<li class="lvl2"><a href="#kapittel-6-opphr-av-medlemskap-pensjonsbevis">Kapittel 6. Opphør av medlemskap. Pensjonsbevis</a></li>
+<li class="lvl3"><a href="#i-alminnelige-regler_2">I. Alminnelige regler</a></li>
+<li class="lvl5"><a href="#6-1-opphr-av-medlemskap">§ 6-1. Opphør av medlemskap</a></li>
+<li class="lvl5"><a href="#6-2-pensjonsbevis">§ 6-2. Pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-3-srregler-for-pensjonskasser">§ 6-3. Særregler for pensjonskasser</a></li>
+<li class="lvl5"><a href="#6-4-forsikringsforholdet-etter-at-det-er-utstedt-pensjonsbevis-kontoinformasjon">§ 6-4. Forsikringsforholdet etter at det er utstedt pensjonsbevis. Kontoinformasjon</a></li>
+<li class="lvl5"><a href="#6-5-sammenslaing-av-pensjonsbevis">§ 6-5. Sammenslåing av pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-6-utenlandske-statsborgere">§ 6-6. Utenlandske statsborgere</a></li>
+<li class="lvl5"><a href="#6-7-registrering-av-pensjonsbevis">§ 6-7. Registrering av pensjonsbevis</a></li>
+<li class="lvl3"><a href="#ii-forvaltning-av-pensjonsbevis">II. Forvaltning av pensjonsbevis</a></li>
+<li class="lvl5"><a href="#6-8-forvaltning-av-pensjonsbeholdningen-mv">§ 6-8. Forvaltning av pensjonsbeholdningen mv.</a></li>
+<li class="lvl5"><a href="#6-9-uttak-av-pensjon">§ 6-9. Uttak av pensjon</a></li>
+<li class="lvl5"><a href="#6-10-pensjonsbevis-med-investeringsvalg">§ 6-10. Pensjonsbevis med investeringsvalg</a></li>
+<li class="lvl2"><a href="#kapittel-7-konsernforhold-sammenslaing-deling-og-opphr-av-foretak-avvikling-og-omdanning-av-pensjonsordning-mv">Kapittel 7. Konsernforhold. Sammenslåing, deling og opphør av foretak. Avvikling og omdanning av pensjonsordning mv.</a></li>
+<li class="lvl4"><a href="#7-1-konsernforhold">§ 7-1. Konsernforhold</a></li>
+<li class="lvl4"><a href="#7-2-sammenslaing-av-foretak">§ 7-2. Sammenslåing av foretak</a></li>
+<li class="lvl4"><a href="#7-3-deling-av-foretak-mv">§ 7-3. Deling av foretak mv.</a></li>
+<li class="lvl4"><a href="#7-4-opphr-av-pensjonsordningen">§ 7-4. Opphør av pensjonsordningen</a></li>
+<li class="lvl4"><a href="#7-5-avvikling-av-foretaket">§ 7-5. Avvikling av foretaket</a></li>
+<li class="lvl4"><a href="#7-6-avvikling-av-pensjonsordningen">§ 7-6. Avvikling av pensjonsordningen</a></li>
+<li class="lvl4"><a href="#7-7-omdanning-til-foretakspensjonsordning-eller-innskuddspensjonsordning">§ 7-7. Omdanning til foretakspensjonsordning eller innskuddspensjonsordning</a></li>
+<li class="lvl2"><a href="#kapittel-8-ufrepensjon">Kapittel 8. Uførepensjon</a></li>
+<li class="lvl4"><a href="#8-1-krav-til-regelverket">§ 8-1. Krav til regelverket</a></li>
+<li class="lvl4"><a href="#8-2-vilkar-for-rett-til-ufrepensjon">§ 8-2. Vilkår for rett til uførepensjon</a></li>
+<li class="lvl4"><a href="#8-3-nedsatt-inntektsevne">§ 8-3. Nedsatt inntektsevne</a></li>
+<li class="lvl4"><a href="#8-4-fastsettelse-og-endring-av-ufregrad">§ 8-4. Fastsettelse og endring av uføregrad</a></li>
+<li class="lvl4"><a href="#8-5-lnnsgrunnlag">§ 8-5. Lønnsgrunnlag</a></li>
+<li class="lvl4"><a href="#8-6-grenser-for-ufrepensjon-i-tillegg-til-ufretrygd">§ 8-6. Grenser for uførepensjon i tillegg til uføretrygd</a></li>
+<li class="lvl4"><a href="#8-7-beregning-av-ufrepensjon">§ 8-7. Beregning av uførepensjon</a></li>
+<li class="lvl4"><a href="#8-8-utbetaling-av-ufrepensjon">§ 8-8. Utbetaling av uførepensjon</a></li>
+<li class="lvl4"><a href="#8-9-fradrag-for-arbeidsinntekt">§ 8-9. Fradrag for arbeidsinntekt</a></li>
+<li class="lvl4"><a href="#8-10-oppregulering-av-ufrepensjon-under-utbetaling">§ 8-10. Oppregulering av uførepensjon under utbetaling</a></li>
+<li class="lvl4"><a href="#8-11-opptjent-rett-til-ufrepensjon">§ 8-11. Opptjent rett til uførepensjon</a></li>
+<li class="lvl2"><a href="#kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#9-1-ikrafttredelse-overgangsregler">§ 9-1. Ikrafttredelse. Overgangsregler</a></li>
+<li class="lvl4"><a href="#9-2-endringer-i-andre-lover">§ 9-2. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-12-13-106.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2013-12-13-106.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2013-12-13-106.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2013-12-13-106.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2013-12-13-106.html">Observerte kildeutgaver</a> · <a href="../historie/tjenestepensjonsloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/68299e105e21cbc29af1f1fe6a08a870490136f2/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f327ae8f6c6e7575fe02cc142554bb26b774c6b8/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2013-12-13-106.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2013-12-13-106.html">Observerte kildeutgaver</a> · <a href="../historie/tjenestepensjonsloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2013/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2013</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2015/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2015</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2013-12-13-106.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-tjenestepensjon-tjenestepensjonsloven">Lov om tjenestepensjon (tjenestepensjonsloven)</h1>
 <h2 id="kapittel-1-virkeomrade-definisjoner">Kapittel 1. Virkeområde. Definisjoner</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>(1) Loven gjelder tjenestepensjonsordninger etter loven her og foretak som har eller oppretter slik pensjonsordning.</p>
@@ -107,7 +352,7 @@ l. reguleringsfond: pensjonsordningens fond for midler til dekning av årlig reg
 <p>(1) Et foretak kan opprette pensjonsordning i samsvar med reglene i loven her for å sikre arbeidstakere i foretaket og andre forsikrede alderspensjon i tillegg til ytelser fra folketrygden. Regelverket for pensjonsordningen skal i sin helhet være i samsvar med bestemmelsene i loven her med tilhørende forskrifter.</p>
 <p>(2) Foretaket skal tegne forsikring som ved uførhet gir rett til innskuddsfritak i samsvar med den faktiske graden av uførhet. Forsikringen skal omfatte alle medlemmer som ikke har fylt 67 år. Premien for slik forsikring skal beregnes slik at foretaket ikke skal betale årlig premie til alderspensjon for medlemmer som blir uføre. Innskuddsfritaket skal reduseres forholdsmessig etter den faktiske graden av uførhet. Samlet opptjening av rett til alderspensjon på grunnlag av arbeidsinntekt og innskuddsfritak skal ikke på noe tidspunkt overstige 100 prosent av full stilling.</p>
 <p>(3) Foretaket kan i tillegg som del av pensjonsordningen tegne særskilt forsikring etter <a href="lov-2000-03-24-16.html">foretakspensjonsloven</a> som kan gi uførepensjon til medlemmer som helt eller delvis mister ervervsevnen og/eller ytelser til barn og andre etterlatte av medlemmer som dør. <a href="lov-2000-11-24-81.html">Innskuddspensjonsloven</a> § 2-4 tredje ledd gjelder tilsvarende.</p>
-<p><em>Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="2-2-minstekrav">§ 2-2. Minstekrav</h4>
 <p>(1) Et foretak kan opprette pensjonsordning i henhold til loven her dersom foretaket har:</p>
 <p>a. minst to personer i foretaket som begge har en arbeidstid og lønn som utgjør 75 prosent eller mer av full stilling,
@@ -139,7 +384,7 @@ c. personer i foretaket som hver har en arbeidstid og lønn som utgjør 20 prose
 <p>(2) Foretaket skal gi arbeidstakerne skriftlig opplysning om endringer av betydning i regelverket.</p>
 <p>(3) Foretaket skal på anmodning fra en arbeidstaker gi informasjon om vilkårene for opptjening av rett til pensjon, hvilken betydning det har for pensjonsrettighetene å avslutte arbeidsforholdet, verdien av de opptjente pensjonsrettighetene og vilkårene for forvaltning og regulering av opptjente pensjonsrettigheter.</p>
 <p>(4) Kongen kan gi forskrift om hvilken informasjon som skal gis fra pensjonsinnretning eller foretak i tilknytning til ordningen.</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h4 id="2-9-adgang-til-a-ha-kombinerte-pensjonsordninger">§ 2-9. Adgang til å ha kombinerte pensjonsordninger</h4>
 <p>(1) Et foretak som har pensjonsordning for alderspensjon etter loven her, kan supplere denne med en pensjonsordning etter innskuddspensjonsloven eller foretakspensjonsloven (kombinerte pensjonsordninger).</p>
 <p>(2) For kombinerte pensjonsordninger etter første ledd gjelder følgende:</p>
@@ -177,14 +422,14 @@ c. rett til ytelser ved uførhet og til etterlatte skal være utformet på samme
 <p>(2) Arbeidstakere som er medlemmer av en annen pensjonsordning som foretaket betaler premie eller avgift til og som gir pensjonsopptjening av minst tilsvarende verdi, skal ikke være medlemmer av pensjonsordningen, med mindre annet er fastsatt i regelverket.</p>
 <p>(3) Pensjonsordningen kan også omfatte arbeidsgiveren og annen person som må anses som innehaver av foretaket. Bestemmelsen i § 3-4 gjelder tilsvarende. Finanstilsynet kan gi forskrift om hvilke personer som skal omfattes av dette ledd.</p>
 <p>(4) Personer som ikke er pliktige medlemmer i folketrygden med medlemskap som omfatter opptjening av pensjonsrettigheter, kan ikke være medlem av pensjonsordningen. Kongen kan i forskrift gjøre unntak fra bestemmelsen i første punktum.</p>
-<p><em>Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</em></p>
+<p class="note">Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</p>
 <h4 id="3-3-nye-arbeidstakere">§ 3-3. Nye arbeidstakere <a class="para-history" href="../historikk/lov-2013-12-13-106/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En arbeidstaker som ansettes av foretaket og som fyller de øvrige vilkårene for medlemskap i pensjonsordningen, opptas som medlem når arbeidstakeren har mottatt samlet lønn fra foretaket med et beløp som tilsvarer rapporteringspliktig lønn i a-meldingen, med mindre annet følger av forskrift fastsatt av departementet. I regelverket for pensjonsordningen kan det fastsettes lavere eller ingen minstekrav til lønn for opptak i pensjonsordningen. Dersom pensjonsordningen ikke har minstekrav til lønn, skal arbeidstakeren opptas som medlem fra første arbeidsdag i foretaket.</p>
 <p>(2) Forsikringsvirksomhetsloven kapittel 6 gjelder ved flytting til pensjonsordningen av pensjonsbeholdning og andre midler knyttet til pensjonsbevis for opptjent pensjon.</p>
-<p><em>Endret ved lover 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ), 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</em></p>
+<p class="note">Endret ved lover 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ), 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</p>
 <h4 id="3-4-arbeidstakere-i-deltidsstilling">§ 3-4. Arbeidstakere i deltidsstilling <a class="para-history" href="../historikk/lov-2013-12-13-106/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Pensjonsopptjeningen for arbeidstaker i deltidsstilling skal utgjøre en forholdsmessig del av den pensjon som ville være opptjent dersom arbeidstakeren hadde hatt fulltidsstilling.</p>
-<p><em>Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</em></p>
+<p class="note">Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 ).</p>
 <h4 id="3-5-arbeidstakere-med-permisjon">§ 3-5. Arbeidstakere med permisjon <a class="para-history" href="../historikk/lov-2013-12-13-106/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Arbeidstaker som har permisjon for et fastsatt tidsrom og som forutsettes å gjenoppta arbeid i foretaket etter endt permisjon, skal være medlem av pensjonsordningen i permisjonstiden.</p>
 <p>(2) Bestemmelsene i første ledd kan fravikes for permisjon i henhold til avtale ved at det i regelverket fastsettes:</p>
@@ -192,14 +437,14 @@ c. rett til ytelser ved uførhet og til etterlatte skal være utformet på samme
 b. at medlemskapet skal opphøre fra permisjonstidspunktet.</p>
 <p>Det samme gjelder for permisjon i henhold til lov dersom arbeidstakeren er medlem av en annen pensjonsordning i permisjonstiden.</p>
 <p>(3) Regelverket kan fastsette at arbeidstakere som er permitterte som følge av driftsinnskrenkninger mv., skal være medlemmer av pensjonsordningen.</p>
-<p><em>Endret ved lover 17 april 2020 nr. 22 , 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-6), 17 april 2020 nr. 22 (i kraft 1 mars 2022. Forlenget til og med 30 juni 2021 iflg. res 9 okt 2020 nr. 2006 , forlenget til og med 30. september 2021 iflg. res. 18 juni 2021 nr. 2031 , forlenget til og med 31. oktober 2021 iflg. res. 24 sep 2021 nr. 2841 , forlenget til og med 31. desember 2021 iflg. res. 29 okt 2021 nr. 3104 , forlenget til og med 28. februar 2022 iflg. res. 22 des 2021 nr. 3813 , fjerde og femte ledd ble opphevet).</em></p>
+<p class="note">Endret ved lover 17 april 2020 nr. 22 , 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-6), 17 april 2020 nr. 22 (i kraft 1 mars 2022. Forlenget til og med 30 juni 2021 iflg. res 9 okt 2020 nr. 2006 , forlenget til og med 30. september 2021 iflg. res. 18 juni 2021 nr. 2031 , forlenget til og med 31. oktober 2021 iflg. res. 24 sep 2021 nr. 2841 , forlenget til og med 31. desember 2021 iflg. res. 29 okt 2021 nr. 3104 , forlenget til og med 28. februar 2022 iflg. res. 22 des 2021 nr. 3813 , fjerde og femte ledd ble opphevet).</p>
 <h4 id="3-6-arbeidstakere-som-ikke-er-arbeidsfre">§ 3-6. Arbeidstakere som ikke er arbeidsføre <a class="para-history" href="../historikk/lov-2013-12-13-106/para-3-6.html" title="Endringshistorikk for § 3-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Arbeidstaker som ikke er arbeidsfør på den tid arbeidstakeren ellers skulle opptas som medlem, skal først bli medlem av pensjonsordningen når arbeidstakeren begynner å arbeide i stillingen, med mindre annet er fastsatt i regelverket.</p>
-<p><em>Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-7).</em></p>
+<p class="note">Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-7).</p>
 <h4 id="3-7-eldre-arbeidstakere">§ 3-7. Eldre arbeidstakere <a class="para-history" href="../historikk/lov-2013-12-13-106/para-3-7.html" title="Endringshistorikk for § 3-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) En arbeidstaker skal tas opp som medlem av pensjonsordningen etter bestemmelsene i §§ 3-3 til 3-6 frem til fylte 75 år. Dette gjelder selv om arbeidstakeren ved ansettelsen mottar alderspensjon fra folketrygden eller fra annen kollektiv pensjonsordning.</p>
 <p>(2) Arbeidstaker som etter uttak av alderspensjon fra pensjonsordningen fortsatt har fulltids- eller deltidsstilling i foretaket, har fortsatt rett til pensjonsopptjening i pensjonsordningen frem til fylte 75 år.</p>
-<p><em>Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-8).</em></p>
+<p class="note">Endret ved lov 22 des 2021 nr. 164 (i kraft 1 jan 2022 iflg. res. 22 des 2021 nr. 3810 , tidligere § 3-8).</p>
 <h2 id="kapittel-4-alderspensjon">Kapittel 4. Alderspensjon</h2>
 <h3 id="i-alminnelige-regler">I. Alminnelige regler</h3>
 <h5 id="4-1-retten-til-alderspensjon">§ 4-1. Retten til alderspensjon</h5>
@@ -257,12 +502,12 @@ b. krever at de ansatte har særlige fysiske eller psykiske egenskaper for at ar
 <p>(1) Pensjonsopptjening som tilføres pensjonsbeholdningen etter uttak av full pensjon, omregnes til årlig pensjon etter reglene i § 4-11 på grunnlag av forventet gjenstående levetid ut fra beregningsgrunnlaget på omregningstidspunktet. Det omregnede beløpet legges til årlig pensjonsytelse.</p>
 <p>(2) Omregningen foretas med virkning fra 1. januar året etter at opptjeningen fant sted.</p>
 <p>(3) Ved gradert uttak av pensjon skal pensjonsopptjening som tilføres pensjonsbeholdningen etter uttak, omregnes til pensjon når uttaksgraden endres.</p>
-<h5 id="4-14-arlig-avkastning-regulering-av-pensjoner-under-utbetaling">§ 4-14. Årlig avkastning. Regulering av pensjoner under utbetaling</h5>
+<h5 id="4-14-arlig-avkastning-regulering-av-pensjoner-under-utbetaling">§ 4-14. Årlig avkastning. Regulering av pensjoner under utbetaling <a class="para-history" href="../historikk/lov-2013-12-13-106/para-4-14.html" title="Endringshistorikk for § 4-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Det kan fastsettes i pensjonsplanen at foretaket årlig skal betale for regulering av pensjoner under utbetaling. Slik regulering skal være i samsvar med et gjennomsnitt av lønns- og prisvekst. Årlig pensjonsregulering dekkes av årets avkastning av midlene i pensjonsbeholdningene til de medlemmer som har tatt ut pensjon. Årlig avkastning som overstiger årets pensjonsregulering skal tilføres pensjonsordningens pensjonsreguleringsfond. Dersom årlig pensjonsregulering ikke kan dekkes av årets avkastning eller ved overføring av midler i pensjonsreguleringsfondet, skal udekket del av pensjonsreguleringen dekkes av foretaket.</p>
 <p>(2) Dersom pensjonsplanen ikke inneholder bestemmelse som nevnt i første ledd, skal årlig avkastning av midlene i det enkelte medlems pensjonsbeholdning i utbetalingsperioden utbetales som tillegg til medlemmets pensjonsytelse i de påfølgende år. Kongen kan gi nærmere regler i forskrift om beregning og utbetaling av slike tillegg.</p>
 <p>(3) Ved gradert uttak av pensjon foretas forholdsmessig utbetaling av tillegg etter fjerde ledd.</p>
 <p>(4) Kongen kan gi forskrift om en øvre grense for størrelsen på pensjonsordningens pensjonsreguleringsfond. Overskytende midler skal tilføres premiefondet.</p>
-<p><em>Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</em></p>
+<p class="note">Endret ved lov 1 april 2022 nr. 17 (ikr. 1 april 2022 iflg. res. 1 april 2022 nr. 496 , se endringslovens del XII for overgangsregler).</p>
 <h5 id="4-15-opplysningsplikt-om-pensjonsytelser">§ 4-15. Opplysningsplikt om pensjonsytelser</h5>
 <p>(1) Pensjonsinnretningen skal i løpet av det året en arbeidstaker fyller 61 år, gi vedkommende informasjon om beregnet årlig pensjonsytelse ved uttak av pensjon fra hvert av årene fra fylte 62 år til fylte 67 år, henholdsvis med og uten fortsatt pensjonsopptjening. Det skal også gis informasjon om retten til pensjonsopptjening ved arbeid etter fylte 67 år.</p>
 <p>(2) Første ledd gjelder tilsvarende når pensjonsinnretningen mottar melding etter § 4-12 om uttak av pensjon før fylte 67 år. Er utbetalingstiden redusert etter § 4-16 annet ledd, skal pensjonsinnretningen gi arbeidstakeren skriftlig informasjon om adgangen til å redusere uttaket fra folketrygden og andre pensjonsleverandører.</p>
@@ -286,7 +531,7 @@ b. krever at de ansatte har særlige fysiske eller psykiske egenskaper for at ar
 <p>(2) Pensjonsinnretningen skal garantere at pensjonsordningens midler ikke reduseres som følge av negativt avkastningsresultat, med mindre annet følger av § 5-4 . Overfor medlemmene av pensjonsordningen gjelder dette selv om pensjonsinnretningen og foretaket har inngått avtale etter § 5-5 om at pensjonsordningens midler skal forvaltes som egen investeringsportefølje med rett til investeringsvalg for foretaket.</p>
 <p>(3) Pensjonsordningens midler skal disponeres i samsvar med regler gitt i eller i medhold av loven her.</p>
 <p>(4) Pensjonsordningens midler kan overføres til annen pensjonsinnretning ved flytting av pensjonsordningen etter reglene i forsikringsvirksomhetsloven kapittel 6 .</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h5 id="5-2-forholdet-til-foretaket">§ 5-2. Forholdet til foretaket</h5>
 <p>(1) Pensjonsordningens midler skal holdes atskilt fra foretakets midler.</p>
 <p>(2) Midlene hefter ikke for foretakets forpliktelser. Midlene kan ikke ved pantsettelse eller på annen måte benyttes til å sikre eller å dekke foretakets kreditorer.</p>
@@ -331,7 +576,7 @@ e. tap som er belastet investeringsporteføljen ved forvaltning av pensjonsordni
 <p>(2) Midler i premiefondet skal forvaltes av pensjonsinnretningen i samsvar med de regler for kapitalforvaltningen som til enhver tid gjelder for pensjonsinnretningen. Avkastningen på midler knyttet til premiefond skal årlig tilføres premiefondet.</p>
 <p>(3) Premiefondet kan flyttes til annen pensjonsinnretning eller institusjon etter reglene i forsikringsvirksomhetsloven kapittel 6 .</p>
 <p>(4) Midler i premiefond opprettet av samme foretak skal anses som ett fond knyttet til foretakets pensjonsordninger.</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h5 id="5-10-premiefondets-midler">§ 5-10. Premiefondets midler</h5>
 <p>Premiefondet skal tilføres:</p>
 <p>a. alle tilskudd til premiefondet som omfattes av <a href="lov-1999-03-26-14.html">skatteloven</a> § 6-46 tredje ledd bokstav b,
@@ -373,7 +618,7 @@ b. pensjonsytelse utbetalt i løpet av året,
 c. risikopremie belastet årets avkastning,
 d. kostnader og tap som er belastet investeringsporteføljen ved forvaltning av pensjonsbeholdningen i egen investeringsportefølje.</p>
 <p>(4) Kongen kan gi forskrift om hvilken informasjon som skal gis fra pensjonsinnretningen etter tredje ledd.</p>
-<p><em>Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</em></p>
+<p class="note">Endret ved lov 13 des 2019 nr. 79 (ikr. 1 jan 2020 iflg. res. 13 des 2019 nr. 1778 ).</p>
 <h5 id="6-5-sammenslaing-av-pensjonsbevis">§ 6-5. Sammenslåing av pensjonsbevis</h5>
 <p>(1) Arbeidstaker som har flere pensjonsbevis, kan kreve at pensjonsbevisene blir slått sammen, og at nytt pensjonsbevis blir utstedt på grunnlag av samlet pensjonsbeholdning. Det nye pensjonsbeviset utstedes av den pensjonsinnretning som har utstedt pensjonsbevisene eller som de øvrige pensjonsbevisene er flyttet til etter § 6-4 første ledd.</p>
 <p>(2) For pensjonsbevis som gir rett til utbetaling av pensjon når krav om sammenslåing fremsettes, foretas omregning som nevnt i § 4-13 første ledd. Samlet forsikringsteknisk kontantverdi skal være den samme før og etter omregningen.</p>
@@ -435,7 +680,7 @@ d. pensjonsinnretningen har rett til årlig vederlag som nevnt i tredje ledd.</p
 <p>(2) Pensjonsordningen kan yte årlig uførepensjon etter reglene i kapitlet her til medlemmer som i medlemstiden har fått inntektsevnen nedsatt på grunn av skade, sykdom eller lyte, i en slik grad at medlemmet ikke kan fortsette i sin vanlige stilling og ikke kan skaffe seg annet høvelig arbeid.</p>
 <p>(3) Pensjonsplan og annet regelverk for pensjonsordningen skal oppfylle kravene i kapittel 2 og 3. Ytelsene etter pensjonsplanen skal være garantert av pensjonsinnretningen.</p>
 <p>(4) I regelverket for pensjonsordningen kan det fastsettes at arbeidstakere som fratrer sin stilling i foretaket, og som har minst tre års tjenestetid der, skal ha opptjent rett til uførepensjon etter reglene i § 8-11 ved uførhet som følge av skade, sykdom eller lyte oppstått etter at arbeidstakeren opphørte å være medlem av pensjonsordningen.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-2-vilkar-for-rett-til-ufrepensjon">§ 8-2. Vilkår for rett til uførepensjon</h4>
 <p>(1) Det er et vilkår for rett til uførepensjon etter reglene i kapitlet her at medlemmets evne til å utføre inntektsgivende arbeid er varig nedsatt og oppfyller det minstekrav til nedsatt inntektsevne som regelverket fastsetter. Det kan ytes midlertidig uførepensjon når det ikke er avklart om inntektsevnen er varig nedsatt.</p>
 <p>(2) I regelverket kan minstekravet til nedsatt inntektsevne ikke settes lavere enn 20 prosent. Minstekravet kan ikke i noe tilfelle settes høyere enn 50 prosent. Det kan dessuten ikke settes høyere enn:</p>
@@ -443,24 +688,24 @@ d. pensjonsinnretningen har rett til årlig vederlag som nevnt i tredje ledd.</p
 b. 30 prosent dersom medlemmets inntektsevne er nedsatt som følge av yrkesskade eller yrkessykdom, jf. folketrygdloven § 12-17 første ledd bokstav c.</p>
 <p>(3) Et medlem har bare rett til uførepensjon etter reglene i kapitlet her dersom det i samsvar med reglene i folketrygdloven § 12-5 har gjennomgått, eller forsøkt å gjennomgå hensiktsmessig behandling og hensiktsmessige tiltak for å bedre arbeidsevnen.</p>
 <p>(4) Uførepensjon ytes ikke til medlem som har fylt 67 år eller har nådd en lavere særlig aldersgrense fastsatt i eller i medhold av lov.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-3-nedsatt-inntektsevne">§ 8-3. Nedsatt inntektsevne</h4>
 <p>(1) Vurderingen av hvor mye et medlems inntektsevne er blitt nedsatt, skal bygge på en sammenligning av de inntektsmuligheter som medlemmet hadde før uføretidspunktet og medlemmets inntektsmuligheter etter uføretidspunktet.</p>
 <p>(2) Uføretidspunktet er det tidspunkt inntektsevnen ble varig nedsatt minst til det nivå som kreves etter regelverket. Er inntektsevnen redusert gradvis over flere år, kan det tas utgangspunkt i inntektsevnen før skade, sykdom eller lyte oppstod.</p>
 <p>(3) Inntekt før uførhet fastsettes til medlemmets normale årslønn i foretaket før uføretidspunktet, beregnet i samsvar med reglene i § 4-3 . Inntekt etter uførhet fastsettes til den inntekt medlemmet forutsettes å kunne skaffe seg ved å utnytte sin restinntektsevne ved ethvert arbeid som medlemmet nå kan utføre. Ved vurderingen skal det legges vekt på medlemmets alder, evner, utdanning, yrkesbakgrunn og arbeidsmuligheter på hjemstedet, eller andre steder der det er rimelig at medlemmet tar arbeid.</p>
 <p>(4) Ved anvendelsen av bestemmelser i dette kapittel justeres inntekt før og etter uførhet i samsvar med senere regulering av grunnbeløpet i folketrygden (G).</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-4-fastsettelse-og-endring-av-ufregrad">§ 8-4. Fastsettelse og endring av uføregrad</h4>
 <p>(1) Pensjonsinnretningen skal i det enkelte tilfelle fastsette den uføregrad som skal benyttes ved beregningen av uførepensjon fra pensjonsordningen. Uføregrad fastsatt etter folketrygdloven, skal normalt legges til grunn. For øvrig skal uføregraden tilsvare den del av inntektsevnen som anses tapt etter reglene i § 8-3 , og den skal fastsettes gradert i trinn på fem prosent.</p>
 <p>(2) Uføregraden endres ikke selv om uførepensjonen reduseres på grunn av inntekt etter § 8-9 første ledd.</p>
 <p>(3) Inntil uføregrad er fastsatt, kan det ytes midlertidig uførepensjon etter reglene i § 8-8 annet ledd.</p>
 <p>(4) Blir inntektsevnen ytterligere nedsatt etter at uføregrad er fastsatt, kan medlemmet kreve at det etter første ledd blir fastsatt ny uføregrad som motsvarer den del av inntektsevnen som er tapt, jf. § 8-3 .</p>
 <p>(5) Ved endring av uføregrad skal pensjonsinnretningen foreta omberegning av premiereserven etter forsikringsvirksomhetsloven § 9-16 femte ledd. Endring i premiereserve inngår ved beregningen av årets risikoresultat.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-5-lnnsgrunnlag">§ 8-5. Lønnsgrunnlag</h4>
 <p>(1) Lønnsgrunnlaget ved beregningen av uførepensjon fra pensjonsordningen er medlemmets normale årslønn i foretaket, beregnet på uføretidspunktet etter reglene i § 4-3 . Lønn som overstiger 12 G, skal ikke medregnes.</p>
 <p>(2) Dersom skade, sykdom eller lyte oppstått i medlemstiden gradvis har redusert et medlems inntektsevne over flere år, skal det ved beregningen i stedet tas utgangspunkt i medlemmets lønnsgrunnlag før slik skade, sykdom eller lyte oppstod, dersom foretaket før uføretidspunktet har underrettet pensjonsinnretningen om det høyere lønnsgrunnlag som i tilfelle skal legges til grunn ved beregningen av uførepensjon til medlemmet.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-6-grenser-for-ufrepensjon-i-tillegg-til-ufretrygd">§ 8-6. Grenser for uførepensjon i tillegg til uføretrygd</h4>
 <p>(1) Uførepensjonen skal i pensjonsplanen fastsettes som en prosent av det enkelte medlemmets lønnsgrunnlag etter § 8-5 , som et fastsatt kronebeløp, eller som en kombinasjon av disse. Uførepensjonen kan ikke overstige summen av</p>
 <p>a. 25 prosent av G, likevel ikke mer enn 6 prosent av det enkelte medlemmets lønnsgrunnlag etter § 8-5 og
@@ -468,46 +713,48 @@ b. 3 prosent av det enkelte medlemmets lønnsgrunnlag etter § 8-5 .</p>
 <p>(2) I pensjonsplanen kan det også fastsettes at uførepensjonen skal omfatte et tillegg på inntil 66 prosent av den del av medlemmets lønnsgrunnlag som ligger mellom 6 og 12 G. I så fall skal uførepensjon etter første ledd fastsettes på et nivå som ikke er uforholdsmessig lavt sammenlignet med uførepensjonen for lønn mellom 6 og 12 G fra pensjonsordningen.</p>
 <p>(3) Det kan fastsettes i regelverket at uførepensjonen som utbetales til et medlem, skal gis et tillegg for hvert barn under 18 år som medlemmet forsørger eller plikter å forsørge. Barnetillegget per barn kan utgjøre inntil 4 prosent av medlemmets lønnsgrunnlag opp til 6 G. Samlet barnetillegg kan likevel ikke overstige et beløp tilsvarende 12 prosent av medlemmets lønnsgrunnlag opp til 6 G. Barnetillegget og den maksimale beløpsgrensen reduseres forholdsmessig ved redusert uføregrad. Barnetillegg utbetales til og med den måneden barnet fyller 18 år eller i tilfelle måneden etter barnets død.</p>
 <p>(4) Er det i regelverket fastsatt et lavere minstekrav til uføregrad enn minstekravene etter folketrygdloven § 12-7 første og annet ledd eller § 12-17 første ledd bokstav c, kan uførepensjonen i tilfelle hvor folketrygdens minstekrav til uføregrad ikke er oppfylt, også omfatte et tillegg for å dekke manglende rett til uføretrygd fra folketrygden.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-7-beregning-av-ufrepensjon">§ 8-7. Beregning av uførepensjon <a class="para-history" href="../historikk/lov-2013-12-13-106/para-8-7.html" title="Endringshistorikk for § 8-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Et medlems uførepensjon beregnes ut fra medlemmets lønnsgrunnlag etter § 8-5 på den måten som er fastsatt i pensjonsplanen. Barnetillegg beregnes på den måten som er fastsatt i pensjonsplanen, og innenfor rammene i § 8-6 tredje ledd.</p>
 <p>(2) Uførepensjonen fra foretakets pensjonsordning skal reduseres inntil uførepensjonen sammen med eventuell uførepensjon fra fripoliser, pensjonsbevis og oppsatte rettigheter utgjør det høyeste av enten den uførepensjonen som er fastsatt i pensjonsplanen, eller summen av uførepensjon fra fripoliser, pensjonsbevis og oppsatte rettigheter. Det skal ved beregningen etter første punktum ikke tas hensyn til ytelser fra fripoliser, pensjonsbevis og oppsatte rettigheter som dekker inntektstap ved uførhet som ikke omfattes av uføretrygden eller uførepensjonen fra foretakets pensjonsordning. Dersom medlemmet har fått utbetalt for lite eller for mye uførepensjon, kan det foretas et etteroppgjør.</p>
 <p>(3) Medlemmet skal på forespørsel opplyse pensjonsinnretningen om sin rett til uførepensjon fra fripoliser, pensjonsbevis og oppsatte rettigheter.</p>
 <p>(4) Dersom fastsatt uføregrad er lavere enn 100 prosent, fastsettes uførepensjonen til en forholdsmessig andel av uførepensjon beregnet etter første og annet ledd.</p>
 <p>(5) Departementet kan fastsette forskrift til utfylling og gjennomføring av bestemmelsen her.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ), endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ), endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h4 id="8-8-utbetaling-av-ufrepensjon">§ 8-8. Utbetaling av uførepensjon</h4>
 <p>(1) Uførepensjon utbetales til medlemmet tidligst ett år etter det tidspunkt medlemmets inntektsevne ble nedsatt minst til det nivå som kreves etter regelverket. Retten til uførepensjon opphører dersom medlemmet ikke lenger oppfyller det minstekrav til uføregrad som er fastsatt i regelverket.</p>
 <p>(2) Midlertidig uførepensjon kan tidligst utbetales når medlemmet har framsatt krav på arbeidsavklaringspenger eller uføretrygd fra folketrygden, og det må antas at kravet blir innvilget. Dersom medlemmet mottar arbeidsavklaringspenger fra folketrygden, kan pensjonsinnretningen ikke i tillegg utbetale midlertidig uførepensjon som vil innebære at summen av arbeidsavklaringspenger og midlertidig uførepensjon til medlemmet vil overstige 70 prosent av lønnsgrunnlaget etter § 8-5 . Må det antas at bare en del av medlemmets inntektsevne er tapt, beregnes grensen forholdsmessig.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-9-fradrag-for-arbeidsinntekt">§ 8-9. Fradrag for arbeidsinntekt <a class="para-history" href="../historikk/lov-2013-12-13-106/para-8-9.html" title="Endringshistorikk for § 8-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Det skal foretas inntektsfradrag i uførepensjon til medlem som i et kalenderår har pensjonsgivende arbeidsinntekt som overstiger inntekt etter uførhet, som fastsatt etter § 8-3 tredje ledd. Mottar medlemmet uføretrygd fra folketrygden, tillegges inntekt etter uførhet, som fastsatt etter § 8-3 tredje ledd, et tillegg på fire tideler av G. Reduksjonen av uførepensjonen skal tilsvare overskytende inntekt, multiplisert med forholdet mellom uførepensjon ved 100 prosent uføregrad og inntekten før uførhet som fastsatt etter § 8-3 tredje ledd. Ved beregningen justeres inntekt før og etter uførhet etter senere regulering av grunnbeløpet. Inntektsfradraget i uførepensjon overføres til foretakets premiefond.</p>
 <p>(2) Medlemmet skal opplyse pensjonsinnretningen om forventet inntekt og om endringer i inntekten. Dersom medlemmet har fått utbetalt for lite eller for mye pensjon som følge av at det er lagt til grunn uriktige opplysninger om inntekt, skal det foretas et etteroppgjør. Dersom det er utbetalt for lite, skal differansen etterbetales som et engangsbeløp. For mye utbetalt uførepensjon kan inndrives uten hensyn til skyld og kan avregnes ved å trekke i framtidige utbetalinger av uførepensjon og alderspensjon fra pensjonsinnretningen. Krav om tilbakekreving av for mye utbetalt uførepensjon er tvangsgrunnlag for utlegg. Departementet kan gi forskrift om etteroppgjør.</p>
 <p>(3) Det skal ikke utbetales uførepensjon når medlemmets pensjonsgivende arbeidsinntekt i et kalenderår utgjør mer enn 80 prosent av inntekt før uførhet etter § 8-3 tredje ledd, oppjustert i samsvar med senere endringer i grunnbeløpet.</p>
 <p>(4) Barnetillegg etter § 8-6 tredje ledd reduseres på tilsvarende måte som uførepensjonen etter første og tredje ledd.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ). Endres ved lov 12 juni 2026 nr. 24 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ). Endres ved lov 12 juni 2026 nr. 24 (i kraft fra den tid Kongen bestemmer).</p>
 <h4 id="8-10-oppregulering-av-ufrepensjon-under-utbetaling">§ 8-10. Oppregulering av uførepensjon under utbetaling</h4>
 <p>(1) Uførepensjon under utbetaling skal oppreguleres årlig i samsvar med avkastningsprosenten for midlene i pensjonsinnretningens kollektivportefølje til sikring av uførepensjoner under utbetaling, jf. forsikringsvirksomhetsloven § 9-16 femte ledd. Oppregulering i et år skal likevel ikke overstige en prosentvis regulering i samsvar med endringen i grunnbeløpet i folketrygden.</p>
 <p>(2) Avkastning i et år som overstiger det som trengs til oppregulering etter første ledd, skal tilføres pensjonsordningens reguleringsfond for uførepensjon. Midlene i fondet skal brukes til å dekke oppregulering opp til grensen i første ledd i år hvor årets avkastning ikke er tilstrekkelig.</p>
 <p>(3) Det kan fastsettes i regelverket at årlig oppregulering av uførepensjon som ikke kan dekkes av årets avkastning, eller ved overføring av midler i reguleringsfondet, skal dekkes ved tilskudd fra foretaket.</p>
 <p>(4) Departementet kan gi forskrift om en øvre grense for størrelsen på pensjonsordningens reguleringsfond for uførepensjon. Overskytende midler skal tilføres premiefondet.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ).</p>
 <h4 id="8-11-opptjent-rett-til-ufrepensjon">§ 8-11. Opptjent rett til uførepensjon <a class="para-history" href="../historikk/lov-2013-12-13-106/para-8-11.html" title="Endringshistorikk for § 8-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>(1) Er det i regelverket fastsatt at arbeidstakere som fratrer sin stilling i foretaket, skal ha opptjent rett til uførepensjon ved uførhet som følge av skade, sykdom eller lyte oppstått etter at arbeidstakeren opphørte å være medlem av pensjonsordningen, men før arbeidstakeren har fylt 67 år, gjelder bestemmelsene i §§ 8-2 til 8-10 tilsvarende, med mindre annet er fastsatt i annet og tredje ledd.</p>
 <p>(2) Ved beregning av nedsatt inntektsevne etter § 8-3 , skal inntekt før uførhet fastsettes ut fra arbeidstakerens normale årslønn på uføretidspunktet. Inntekt etter uførhet skal fastsettes til den inntekt medlemmet forutsettes å kunne skaffe seg ved å utnytte sin restinntektsevne ved ethvert arbeid som medlemmet nå kan utføre.</p>
 <p>(3) Uførepensjonen skal beregnes på den måte som er fastsatt i pensjonsplanen, på grunnlag av arbeidstakerens lønnsgrunnlag ved fratreden og avkastning tilført pensjonsbeviset fram til uføretidspunktet etter § 8-10 første ledd første punktum. Den skal deretter avkortes etter forholdet mellom arbeidstakerens tjenestetid i foretaket og 40 år.</p>
 <p>(4) Når arbeidstakeren fratrer sin stilling i foretaket, skal pensjonsinnretningen utstede pensjonsbevis til arbeidstakeren som sikrer opptjent rett til uførepensjon. Pensjonsbeviset skal angi arbeidstakerens tjenestetid og normale årslønn ved fratreden. Premiereserve som sikrer opptjent rett til uførepensjon og administrasjonsreserve, skal knyttes til pensjonsbeviset. For øvrig gjelder § 6-3 , § 6-4 første og annet ledd og §§ 6-5 til 6-8 tilsvarende.</p>
-<p><em>Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ), endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</em></p>
+<p class="note">Tilføyd ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ), endret ved lov 4 des 2015 nr. 96 (ikr. 1 jan 2016 iflg. res. 4 des 2015 nr. 1399 ).</p>
 <h2 id="kapittel-9-sluttbestemmelser">Kapittel 9. Sluttbestemmelser</h2>
 <p>Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 ), endret kapittelnummer til kap. 9.</p>
 <h4 id="9-1-ikrafttredelse-overgangsregler">§ 9-1. Ikrafttredelse. Overgangsregler</h4>
 <p>(1) Loven gjelder fra det tidspunkt Kongen bestemmer. 1 De enkelte deler av loven kan settes i kraft til ulik tid.</p>
 <p>(2) Kongen kan gi overgangsregler.</p>
-<p><em>Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 , tidligere § 8-1).
-1 Fra 1 jan 2014 iflg. res. 13 des 2013 nr. 1444 .</em></p>
+<p class="note">Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 , tidligere § 8-1).
+1 Fra 1 jan 2014 iflg. res. 13 des 2013 nr. 1444 .</p>
 <h4 id="9-2-endringer-i-andre-lover">§ 9-2. Endringer i andre lover</h4>
 <p><em>– – –
 Endret ved lov 22 mai 2015 nr. 31 (ikr. 1 jan 2016 iflg. forskr. 15 des 2015 nr. 1480 , tidligere § 8-2).</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

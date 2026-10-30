@@ -19,92 +19,167 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2012-12-20-1424.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i RÅK-importforskriften" href="../feeds/forskrift-2012-12-20-1424.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> &rsaquo;
 <span>RÅK-importforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2012-12-20-1424</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2013-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-17-2646</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2012-12-20-1424" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-fastsettelse-av-nedsatt-tollavgiftssats">§ 2. Fastsettelse av nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#3-tillatelse-til-nedsatt-tollavgiftssats">§ 3. Tillatelse til nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#4-omgjring-av-utstedte-tillatelser-til-nedsatt-tollavgiftssats">§ 4. Omgjøring av utstedte tillatelser til nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#5-opplysningsplikt-og-kontroll">§ 5. Opplysningsplikt og kontroll</a></li>
+<li class="lvl3"><a href="#6-tilbaketrekking-av-tillatelse-til-nedsatt-tollavgiftssats-mv">§ 6. Tilbaketrekking av tillatelse til nedsatt tollavgiftssats mv.</a></li>
+<li class="lvl3"><a href="#7-anvendelseserklring">§ 7. Anvendelseserklæring</a></li>
+<li class="lvl3"><a href="#8-forvaltningsmyndighet">§ 8. Forvaltningsmyndighet</a></li>
+<li class="lvl3"><a href="#9-klage">§ 9. Klage</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse-og-endringer-i-andre-forskrifter">§ 10. Ikrafttredelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1-vareomfang">Vedlegg 1 – Vareomfang</a></li>
+<li class="lvl3"><a href="#vedlegg-2-satser-for-beregning-av-ravareavhengig-toll-matrise-og-deklarasjonsberegning">Vedlegg 2 – Satser for beregning av råvareavhengig toll (matrise- og deklarasjonsberegning)</a></li>
+<li class="lvl3"><a href="#vedlegg-3-matriser">Vedlegg 3 – Matriser</a></li>
+<li class="lvl3"><a href="#vedlegg-4-omregningsfaktorer-for-matriseberegning">Vedlegg 4 – Omregningsfaktorer for matriseberegning</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-17-2646.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-20-1424.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om fastsettelse av nedsatte tollavgiftssatser ved import av industrielt bearbeidede landbruksvarer</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-12-20-1424.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2012-12-20-1424 <code>forskrift/2012-12-20-1424</code></td></tr>
+<tr><th>Korttittel</th><td>RÅK-importforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2013</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-17-2646 <code>forskrift/2025-12-17-2646</code> fra 17.12.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2012-12-20-1424" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl3"><a href="#1-virkeomrade">§ 1. Virkeområde</a></li>
+<li class="lvl3"><a href="#2-fastsettelse-av-nedsatt-tollavgiftssats">§ 2. Fastsettelse av nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#3-tillatelse-til-nedsatt-tollavgiftssats">§ 3. Tillatelse til nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#4-omgjring-av-utstedte-tillatelser-til-nedsatt-tollavgiftssats">§ 4. Omgjøring av utstedte tillatelser til nedsatt tollavgiftssats</a></li>
+<li class="lvl3"><a href="#5-opplysningsplikt-og-kontroll">§ 5. Opplysningsplikt og kontroll</a></li>
+<li class="lvl3"><a href="#6-tilbaketrekking-av-tillatelse-til-nedsatt-tollavgiftssats-mv">§ 6. Tilbaketrekking av tillatelse til nedsatt tollavgiftssats mv.</a></li>
+<li class="lvl3"><a href="#7-anvendelseserklring">§ 7. Anvendelseserklæring</a></li>
+<li class="lvl3"><a href="#8-forvaltningsmyndighet">§ 8. Forvaltningsmyndighet</a></li>
+<li class="lvl3"><a href="#9-klage">§ 9. Klage</a></li>
+<li class="lvl3"><a href="#10-ikrafttredelse-og-endringer-i-andre-forskrifter">§ 10. Ikrafttredelse og endringer i andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+<li class="lvl3"><a href="#vedlegg-1-vareomfang">Vedlegg 1 – Vareomfang</a></li>
+<li class="lvl3"><a href="#vedlegg-2-satser-for-beregning-av-ravareavhengig-toll-matrise-og-deklarasjonsberegning">Vedlegg 2 – Satser for beregning av råvareavhengig toll (matrise- og deklarasjonsberegning)</a></li>
+<li class="lvl3"><a href="#vedlegg-3-matriser">Vedlegg 3 – Matriser</a></li>
+<li class="lvl3"><a href="#vedlegg-4-omregningsfaktorer-for-matriseberegning">Vedlegg 4 – Omregningsfaktorer for matriseberegning</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-20-1424.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2012-12-20-1424.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2012-12-20-1424.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2012-12-20-1424.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2012-12-20-1424.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-12-20-1424.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2012-12-20-1424.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2012-12-20-1424.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2012-12-20-1424.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-fastsettelse-av-nedsatte-tollavgiftssatser-ved-import-av-industrielt-bearbeidede-landbruksvarer">Forskrift om fastsettelse av nedsatte tollavgiftssatser ved import av industrielt bearbeidede landbruksvarer</h1>
 <h3 id="1-virkeomrade">§ 1. Virkeområde</h3>
 <p>Forskriften regulerer fastsettingen av nedsatt tollavgiftssats for bearbeidede landbruksvarer omfattet av vedlegg 1.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="2-fastsettelse-av-nedsatt-tollavgiftssats">§ 2. Fastsettelse av nedsatt tollavgiftssats</h3>
 <p>For ferdigvarer omfattet av vedlegg 1 anvendes tollavgiftssatsen som fremgår der, med mindre det anvises at tollavgiftssatsen for varen skal fastsettes etter matrise- eller deklarasjonsberegning.</p>
 <p>Ved matriseberegning, merket MX i vedlegg 1, fastsettes tollavgiftssatsen basert på fastelementet i vedlegg 1 og deretter tillagt et variabelt element beregnet på grunnlag av ferdigvarens innhold av representantvarene helmelkspulver, skummetmelkpulver, smør, potetstivelse og annen stivelse, hvetemel, storfekjøttsortering (14 %), ost (naturell), heleggpulver og bringebær og satser gitt i vedlegg 2. For å finne andel av representantvarene i ferdigvaren benyttes matrisene i vedlegg 3. For varer der råvareinnholdet avviker fra de varene som inngår i vedlegg 3, benyttes omregningsfaktorer som fremgår av vedlegg 4.</p>
 <p>Ved deklarasjonsberegning, merket D i vedlegg 1, fastsettes tollavgiftssatsen basert på fastelementet i vedlegg 1 og deretter tillagt et variabelt element beregnet på grunnlag av ferdigvarens prosentvise innhold av råvarene gitt i vedlegg 2 multiplisert med tilhørende satser.</p>
-<p><em>Endret ved forskrift 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrift 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="3-tillatelse-til-nedsatt-tollavgiftssats">§ 3. Tillatelse til nedsatt tollavgiftssats</h3>
 <p>Tillatelse til nedsatt tollavgiftssats etter § 2 annet og tredje ledd gis etter søknad og etter de tollavgiftssatser som følger av tollavgiftsloven § 2-2 første ledd første punktum.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="4-omgjring-av-utstedte-tillatelser-til-nedsatt-tollavgiftssats">§ 4. Omgjøring av utstedte tillatelser til nedsatt tollavgiftssats</h3>
 <p>Dersom det skjer endringer i tollavgiftsnivået som følge av internasjonale avtaler eller av Stortingets øvrige tollvedtak, og dette får betydning for allerede utstedte tillatelser til nedsatt tollavgiftssats, kan Landbruksdirektoratet omgjøre tollavgiftssatsen i disse tillatelsene.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="5-opplysningsplikt-og-kontroll">§ 5. Opplysningsplikt og kontroll</h3>
 <p>Landbruksdirektoratet fører tilsyn med at vilkårene for tillatelse til nedsatt tollavgiftssats er oppfylt.</p>
 <p>Importører som søker om, eller har fått innvilget tillatelse til nedsatt tollavgiftssats etter denne forskriften, plikter å gi alle opplysninger som Landbruksdirektoratet trenger for å kunne forvalte ordningen, herunder regnskap, korrespondanse, vareprøver og annen dokumentasjon. Landbruksdirektoratet kan kreve at opplysningene bekreftes av revisor.</p>
 <p>Landbruksdirektoratet kan foreta stedlig kontroll.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 1 april 2016 nr. 348 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="6-tilbaketrekking-av-tillatelse-til-nedsatt-tollavgiftssats-mv">§ 6. Tilbaketrekking av tillatelse til nedsatt tollavgiftssats mv.</h3>
 <p>Ved brudd på bestemmelsene i denne forskriften eller vilkår fastsatt med hjemmel i forskriften, kan Landbruksdirektoratet trekke tilbake tillatelse til nedsatt tollavgiftssats og/eller nekte innrømmelse av ny tillatelse i inntil ett år.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="7-anvendelseserklring">§ 7. Anvendelseserklæring</h3>
 <p>For ferdigvarer som gis tillatelse til nedsatt tollavgiftssats i medhold av denne forskrift, kan Landbruksdirektoratet kreve at importøren avgir en erklæring om varens anvendelse før tillatelse til nedsatt tollavgiftssats innrømmes. Anvendelseserklæringen skal følge varen dersom varen selges videre. Ved et slikt videresalg forpliktes kjøper i henhold til anvendelseserklæringen.</p>
-<p><em>Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endret ved forskrifter 3 sep 2014 nr. 1144 , 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="8-forvaltningsmyndighet">§ 8. Forvaltningsmyndighet</h3>
 <p>Landbruksdirektoratet administrerer ordningen.</p>
-<p><em>Endret ved forskrift 3 sep 2014 nr. 1144 .</em></p>
+<p class="note">Endret ved forskrift 3 sep 2014 nr. 1144 .</p>
 <h3 id="9-klage">§ 9. Klage</h3>
 <p>Enkeltvedtak fattet i medhold av denne forskriften kan påklages til Landbruks- og matdepartementet etter lov 10. februar 1967 om behandlingsmåten i forvaltningssaker (forvaltningsloven).</p>
 <h3 id="10-ikrafttredelse-og-endringer-i-andre-forskrifter">§ 10. Ikrafttredelse og endringer i andre forskrifter</h3>
@@ -129,6 +204,8 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>Endret ved forskrift 15 des 2022 nr. 2320 (i kraft 1 jan 2023).</p>
 <h3 id="vedlegg-4-omregningsfaktorer-for-matriseberegning">Vedlegg 4 – Omregningsfaktorer for matriseberegning</h3>
 <p>Råvarer som deklareres Råvare i matrise/tilleggsråvare Omregningsfaktor Helmelk flytende Melkefett 3,90 % Melkeprotein 3,10 % Skummet melk flytende Melkefett 0,10 % Melkeprotein 3,30 % Melk til yoghurt Melkefett 3,90 % Melkeprotein 3,10 % Melk til drikkevarer Melkefett 3,80 % Melkeprotein 3,30 % Kondensert melk fet Melkefett 9,10 % Melkeprotein 8,10 % Kondensert melk mager Melkefett 0,40 % Melkeprotein 10,20 % Helmelkspulver 28 % Melkefett 28,50 % Melkeprotein 26,70 % Melkepulver 20 % Melkefett 20,50 % Melkeprotein 28,40 % Skummetmelkpulver Melkefett 0,00 % Melkeprotein 36,00 % Kjernemelkpulver Melkefett 7,00 % Melkeprotein 32,00 % Fløte Melkefett 38,00 % Melkeprotein 2,40 % Fløteblanding Melkefett 21,00 % Melkeprotein 6,40 % Rømme Melkefett 35,00 % Melkeprotein 2,50 % Fløtepulver Melkefett 36,00 % Melkeprotein 23,50 % Mysepulver (&lt; 13 % protein) Melkefett 1,10 % Melkeprotein 12,90 % Melkeprotein 1 Melkeprotein 100 % Melkefett 0 % Melkefett 1 Melkeprotein 0 % Melkefett 100 % Smør Melkefett 82,00 % Melkeprotein 0,00 % Ost, naturell Ost 100,00 % Ostepulver Ost 62,00 % Egg i skall Heleggpulver 20,90 % Heleggmasse Heleggpulver 20,50 % Heleggpulver Heleggpulver 100,00 % Eggeplomme, konservert Heleggpulver 59,30 % Eggeplommepulver Heleggpulver 125,20 % Eggehvite, flytende Heleggpulver 0,00 % Eggehvitepulver Heleggpulver 0,00 % Hvete Mel/gryn 77,70 % Durum Mel/gryn 50,00 % Bygg Mel/gryn 69,80 % Havre Mel/gryn 59,90 % Rug Mel/gryn 74,80 % Rughvete Mel/gryn 74,80 % Mais Mel/gryn 0,00 % Ris Mel/gryn 0,00 % Annet korn Mel/gryn 0,00 % Hvetekli Mel/gryn 100,00 % Havrekli Mel/gryn 100,00 % Hvetemel Mel/gryn 100,00 % Durummel Mel/gryn 100,00 % Byggmel Mel/gryn 100,00 % Havregryn Mel/gryn 100,00 % Rugmel Mel/gryn 100,00 % Rughvetemel Mel/gryn 100,00 % Maismel Mel/gryn 0,00 % Rismel Mel/gryn 0,00 % Mel av annet korn Mel/gryn 0,00 % Malt av hvete Mel/gryn 0,00 % Malt av bygg Mel/gryn 0,00 % Gluten av hvete Ingenting 0,00 % Poteter Stivelse 18,20 % Mel og flak av poteter Stivelse 118 % Potetstivelse Stivelse 100,00 % Annen stivelse Stivelse 100,00 % Modifisert stivelse Stivelse 100,00 % Sukker Ingenting 0,00 % Glukose Stivelse 100,00 % Maltodextrin Stivelse 0,00 % Eplepulp Bær 0,00 % Eplekonsentrat Bær 0,00 % Solbær Bær 100,00 % Solbærkonsentrat Bær 270,20 % Bringebær Bær 100,00 % Bringebærkonsentrat Bær 518,00 % Jordbær Bær 100,00 % Jordbærkonsentrat Bær 518,00 % Annet fett enn smør Ingenting 0,00 % Svinekjøttsortering 23 % Kjøtt 74,30 % Storfekjøttsortering 14 % Kjøtt 100,00 % Fårekjøttsortering 25 % Kjøtt 33,30 % Høns Kjøtt 11,70 %</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

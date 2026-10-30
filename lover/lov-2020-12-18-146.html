@@ -19,64 +19,545 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2020-12-18-146.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Finansavtaleloven" href="../feeds/lov-2020-12-18-146.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Finansavtaleloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2020-12-18-146</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Bank, finans og regnskapsrett &raquo; Banker\nBank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Forsikring</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01, Kongen bestemmer</dd>
-<dt>Sist endret</dt><dd>lov/2026-02-06-2</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2020-12-18-146" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#i-virkeomrade">I. Virkeområde</a></li>
+<li class="lvl5"><a href="#1-1-lovens-alminnelige-virkeomrade">§ 1-1. Lovens alminnelige virkeområde</a></li>
+<li class="lvl5"><a href="#1-2-virkeomradet-for-kapittel-2-til-6">§ 1-2. Virkeområdet for kapittel 2 til 6</a></li>
+<li class="lvl3"><a href="#ii-definisjoner">II. Definisjoner</a></li>
+<li class="lvl5"><a href="#1-3-finansavtale-finansiell-tjeneste-og-finansoppdrag">§ 1-3. Finansavtale, finansiell tjeneste og finansoppdrag</a></li>
+<li class="lvl5"><a href="#1-4-forbruker-kunde-og-tjenesteyter">§ 1-4. Forbruker, kunde og tjenesteyter</a></li>
+<li class="lvl5"><a href="#1-5-definisjoner-som-gjelder-kontoavtaler-og-betalingstjenester">§ 1-5. Definisjoner som gjelder kontoavtaler og betalingstjenester</a></li>
+<li class="lvl5"><a href="#1-6-definisjoner-som-gjelder-fullmakttjenester">§ 1-6. Definisjoner som gjelder fullmakttjenester</a></li>
+<li class="lvl5"><a href="#1-7-definisjoner-som-gjelder-kredittavtaler-og-kausjonsavtaler">§ 1-7. Definisjoner som gjelder kredittavtaler og kausjonsavtaler</a></li>
+<li class="lvl5"><a href="#1-8-andre-definisjoner">§ 1-8. Andre definisjoner</a></li>
+<li class="lvl3"><a href="#iii-ufravikelighet-lovvalg-mv">III. Ufravikelighet, lovvalg mv.</a></li>
+<li class="lvl5"><a href="#1-9-ufravikelighet">§ 1-9. Ufravikelighet</a></li>
+<li class="lvl5"><a href="#1-10-lovvalg">§ 1-10. Lovvalg</a></li>
+<li class="lvl5"><a href="#1-11-gjennomfring-av-es-regelverk">§ 1-11. Gjennomføring av EØS-regelverk</a></li>
+<li class="lvl2"><a href="#kapittel-2-betalingsoppgjr">Kapittel 2. Betalingsoppgjør</a></li>
+<li class="lvl3"><a href="#i-forholdet-mellom-betaleren-og-mottakeren-ved-betalingsoverfringer">I. Forholdet mellom betaleren og mottakeren ved betalingsoverføringer</a></li>
+<li class="lvl5"><a href="#2-1-oppgjrsmate-forbrukeres-rett-til-a-betale-med-kontanter">§ 2-1. Oppgjørsmåte. Forbrukeres rett til å betale med kontanter</a></li>
+<li class="lvl5"><a href="#2-2-tid-og-sted-for-betaling">§ 2-2. Tid og sted for betaling</a></li>
+<li class="lvl5"><a href="#2-3-valuta">§ 2-3. Valuta</a></li>
+<li class="lvl5"><a href="#2-4-gebyr-for-bruk-av-betalingsinstrument-og-betalingsmiddel">§ 2-4. Gebyr for bruk av betalingsinstrument og betalingsmiddel</a></li>
+<li class="lvl5"><a href="#2-5-fordeling-av-gebyrer">§ 2-5. Fordeling av gebyrer</a></li>
+<li class="lvl5"><a href="#2-6-forbud-mot-a-kreve-gebyr-for-betalerens-bruk-av-kort">§ 2-6. Forbud mot å kreve gebyr for betalerens bruk av kort</a></li>
+<li class="lvl3"><a href="#ii-tilbakebetaling-av-kredittbelp-mv">II. Tilbakebetaling av kredittbeløp mv.</a></li>
+<li class="lvl5"><a href="#2-7-forbrukerens-innsigelser-mot-kredittyteren">§ 2-7. Forbrukerens innsigelser mot kredittyteren</a></li>
+<li class="lvl5"><a href="#2-8-innsigelse-fra-kausjonist-og-samskyldner">§ 2-8. Innsigelse fra kausjonist og samskyldner</a></li>
+<li class="lvl5"><a href="#2-9-tilbakebetaling-av-kredittbelp">§ 2-9. Tilbakebetaling av kredittbeløp</a></li>
+<li class="lvl5"><a href="#2-10-tap-og-gevinst-ved-frtidig-tilbakebetaling-av-fastrentekreditt">§ 2-10. Tap og gevinst ved førtidig tilbakebetaling av fastrentekreditt</a></li>
+<li class="lvl5"><a href="#2-11-tilbakelevering-av-gjeldsbrev-mv">§ 2-11. Tilbakelevering av gjeldsbrev mv.</a></li>
+<li class="lvl5"><a href="#2-12-sletting-av-panteheftelser-mv">§ 2-12. Sletting av panteheftelser mv.</a></li>
+<li class="lvl3"><a href="#iii-overdragelse-av-pengekrav-kreditorskifte">III. Overdragelse av pengekrav (kreditorskifte)</a></li>
+<li class="lvl5"><a href="#2-13-lovens-anvendelse-ved-overdragelse-av-pengekrav-samtykke-og-varsel">§ 2-13. Lovens anvendelse ved overdragelse av pengekrav. Samtykke og varsel</a></li>
+<li class="lvl5"><a href="#2-14-skyldnerens-rett-til-a-gjre-innsigelser-gjeldende-mot-erververen-av-pengekravet">§ 2-14. Skyldnerens rett til å gjøre innsigelser gjeldende mot erververen av pengekravet</a></li>
+<li class="lvl3"><a href="#iv-srskilte-bestemmelser">IV. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#2-15-krav-oppstatt-ved-spill-eller-veddemal">§ 2-15. Krav oppstått ved spill eller veddemål</a></li>
+<li class="lvl5"><a href="#2-16-regress">§ 2-16. Regress</a></li>
+<li class="lvl2"><a href="#kapittel-3-finansielle-tjenester">Kapittel 3. Finansielle tjenester</a></li>
+<li class="lvl3"><a href="#i-alminnelige-bestemmelser">I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#3-1-tjenesteyterens-alminnelige-plikter">§ 3-1. Tjenesteyterens alminnelige plikter</a></li>
+<li class="lvl5"><a href="#3-2-elektroniske-meldinger-varsler-og-skriftlig-dokument">§ 3-2. Elektroniske meldinger, varsler og skriftlig dokument</a></li>
+<li class="lvl5"><a href="#3-3-opplysninger-i-alminnelige-vilkar-og-i-markedsfring">§ 3-3. Opplysninger i alminnelige vilkår og i markedsføring</a></li>
+<li class="lvl5"><a href="#3-4-personer-med-verge">§ 3-4. Personer med verge</a></li>
+<li class="lvl5"><a href="#3-5-alminnelig-bevisbyrde">§ 3-5. Alminnelig bevisbyrde</a></li>
+<li class="lvl5"><a href="#3-6-bevisbyrde-og-beviskrav-for-elektronisk-avtaleinngaelse">§ 3-6. Bevisbyrde og beviskrav for elektronisk avtaleinngåelse</a></li>
+<li class="lvl5"><a href="#3-7-bevisbyrde-og-beviskrav-for-betalingstransaksjoner">§ 3-7. Bevisbyrde og beviskrav for betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#3-8-avvikling">§ 3-8. Avvikling</a></li>
+<li class="lvl3"><a href="#ii-avtaleinngaelse">II. Avtaleinngåelse</a></li>
+<li class="lvl5"><a href="#3-9-avtaleinngaelsen">§ 3-9. Avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#3-10-srskilt-om-enkeltstaende-finansielle-tjenester">§ 3-10. Særskilt om enkeltstående finansielle tjenester</a></li>
+<li class="lvl5"><a href="#3-11-nar-tjenesteyteren-har-flere-avtalemotparter-i-samme-avtale">§ 3-11. Når tjenesteyteren har flere avtalemotparter i samme avtale</a></li>
+<li class="lvl5"><a href="#3-12-krav-til-avtalens-innhold">§ 3-12. Krav til avtalens innhold</a></li>
+<li class="lvl5"><a href="#3-13-endring-av-avtalevilkar">§ 3-13. Endring av avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-14-passivt-samtykke-til-endring-av-avtalevilkar">§ 3-14. Passivt samtykke til endring av avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-15-referanserente-og-referansevekslingskurs">§ 3-15. Referanserente og referansevekslingskurs</a></li>
+<li class="lvl3"><a href="#iii-elektronisk-signatur-og-elektronisk-segl">III. Elektronisk signatur og elektronisk segl</a></li>
+<li class="lvl5"><a href="#3-16-definisjoner-og-virkeomrade">§ 3-16. Definisjoner og virkeområde</a></li>
+<li class="lvl5"><a href="#3-17-plikter-for-tilbydere-av-elektroniske-signaturlsninger">§ 3-17. Plikter for tilbydere av elektroniske signaturløsninger</a></li>
+<li class="lvl5"><a href="#3-18-tjenesteytere-som-tilbyr-a-innga-avtale-ved-bruk-av-elektronisk-signatur">§ 3-18. Tjenesteytere som tilbyr å inngå avtale ved bruk av elektronisk signatur</a></li>
+<li class="lvl5"><a href="#3-19-rettighetshaverens-plikter">§ 3-19. Rettighetshaverens plikter</a></li>
+<li class="lvl5"><a href="#3-20-ansvar-for-tap-ved-misbruk-av-elektronisk-signatur">§ 3-20. Ansvar for tap ved misbruk av elektronisk signatur</a></li>
+<li class="lvl5"><a href="#3-21-lemping-av-rettighetshaverens-egenandelsansvar">§ 3-21. Lemping av rettighetshaverens egenandelsansvar</a></li>
+<li class="lvl3"><a href="#iv-opplysningsplikt-om-finansielle-tjenester-og-avtalevilkar">IV. Opplysningsplikt om finansielle tjenester og avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-22-opplysningsplikt-fr-avtaleinngaelsen">§ 3-22. Opplysningsplikt før avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#3-23-hvordan-opplysningene-skal-gis">§ 3-23. Hvordan opplysningene skal gis</a></li>
+<li class="lvl5"><a href="#3-24-opplysninger-om-tjenesteyteren">§ 3-24. Opplysninger om tjenesteyteren</a></li>
+<li class="lvl5"><a href="#3-25-opplysninger-om-avtaleinngaelsen-og-om-senere-endringer-av-avtalen">§ 3-25. Opplysninger om avtaleinngåelsen og om senere endringer av avtalen</a></li>
+<li class="lvl5"><a href="#3-26-opplysninger-om-tvistelsning-og-klageorgan">§ 3-26. Opplysninger om tvisteløsning og klageorgan</a></li>
+<li class="lvl5"><a href="#3-27-opplysninger-om-bruk-av-den-finansielle-tjenesten">§ 3-27. Opplysninger om bruk av den finansielle tjenesten</a></li>
+<li class="lvl5"><a href="#3-28-opplysninger-om-kostnader">§ 3-28. Opplysninger om kostnader</a></li>
+<li class="lvl5"><a href="#3-29-opplysninger-om-kredittvurdering">§ 3-29. Opplysninger om kredittvurdering</a></li>
+<li class="lvl5"><a href="#3-30-opplysninger-om-bruk-av-betalingstjenester">§ 3-30. Opplysninger om bruk av betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-31-opplysninger-om-sikkerhet-og-ansvar-mv-ved-bruk-av-betalingstjenester">§ 3-31. Opplysninger om sikkerhet og ansvar mv. ved bruk av betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-32-srskilte-regler-om-opplysningsplikt-for-visse-betalingstjenester">§ 3-32. Særskilte regler om opplysningsplikt for visse betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-33-standardisert-gebyropplysningsskjema-og-forklarende-ordliste">§ 3-33. Standardisert gebyropplysningsskjema og forklarende ordliste</a></li>
+<li class="lvl5"><a href="#3-34-opplysninger-om-kredittavtaler">§ 3-34. Opplysninger om kredittavtaler</a></li>
+<li class="lvl5"><a href="#3-35-standardisert-kredittopplysningsskjema">§ 3-35. Standardisert kredittopplysningsskjema</a></li>
+<li class="lvl5"><a href="#3-36-opplysninger-om-kausjonsansvar">§ 3-36. Opplysninger om kausjonsansvar</a></li>
+<li class="lvl5"><a href="#3-37-opplysninger-om-leiefinansiering">§ 3-37. Opplysninger om leiefinansiering</a></li>
+<li class="lvl5"><a href="#3-38-opplysninger-om-finansoppdrag">§ 3-38. Opplysninger om finansoppdrag</a></li>
+<li class="lvl5"><a href="#3-39-srskilt-opplysningsplikt-ved-tilbud-om-finansiell-tjeneste-i-telefonsamtale">§ 3-39. Særskilt opplysningsplikt ved tilbud om finansiell tjeneste i telefonsamtale</a></li>
+<li class="lvl3"><a href="#v-angrerett-og-betenkningstid">V. Angrerett og betenkningstid</a></li>
+<li class="lvl5"><a href="#3-40-betenkningstid-for-boliglan-og-boligkausjon">§ 3-40. Betenkningstid for boliglån og boligkausjon</a></li>
+<li class="lvl5"><a href="#3-41-angrerett">§ 3-41. Angrerett</a></li>
+<li class="lvl5"><a href="#3-42-fremgangsmaten-for-a-bruke-angreretten">§ 3-42. Fremgangsmåten for å bruke angreretten</a></li>
+<li class="lvl5"><a href="#3-43-gjennomfring-av-angrerett-ved-kredittavtaler">§ 3-43. Gjennomføring av angrerett ved kredittavtaler</a></li>
+<li class="lvl5"><a href="#3-44-gjennomfring-av-angrerett-ved-fjernsalg">§ 3-44. Gjennomføring av angrerett ved fjernsalg</a></li>
+<li class="lvl5"><a href="#3-45-gjennomfring-av-angrerett-ved-avtaler-inngatt-utenom-tjenesteyterens-faste-forretningslokaler">§ 3-45. Gjennomføring av angrerett ved avtaler inngått utenom tjenesteyterens faste forretningslokaler</a></li>
+<li class="lvl3"><a href="#vi-mislighold-og-erstatning">VI. Mislighold og erstatning</a></li>
+<li class="lvl5"><a href="#3-46-sanksjoner-ved-mislighold">§ 3-46. Sanksjoner ved mislighold</a></li>
+<li class="lvl5"><a href="#3-47-reklamasjon-ved-tjenesteyterens-mislighold">§ 3-47. Reklamasjon ved tjenesteyterens mislighold</a></li>
+<li class="lvl5"><a href="#3-48-kundens-rett-til-a-heve-avtalen">§ 3-48. Kundens rett til å heve avtalen</a></li>
+<li class="lvl5"><a href="#3-49-rett-til-erstatning-nar-tjenesteyteren-ikke-har-oppfylt-sine-plikter">§ 3-49. Rett til erstatning når tjenesteyteren ikke har oppfylt sine plikter</a></li>
+<li class="lvl5"><a href="#3-50-ansvarsfrihet">§ 3-50. Ansvarsfrihet</a></li>
+<li class="lvl5"><a href="#3-51-tjenesteyterens-rett-til-a-heve-avtalen-reklamasjon">§ 3-51. Tjenesteyterens rett til å heve avtalen. Reklamasjon</a></li>
+<li class="lvl5"><a href="#3-52-virkningen-av-at-tjenesteyteren-hever-avtalen">§ 3-52. Virkningen av at tjenesteyteren hever avtalen</a></li>
+<li class="lvl3"><a href="#vii-klagebehandling-og-tilsyn">VII. Klagebehandling og tilsyn</a></li>
+<li class="lvl5"><a href="#3-53-behandling-av-klager">§ 3-53. Behandling av klager</a></li>
+<li class="lvl5"><a href="#3-54-behandling-av-tvister-i-klageorgan">§ 3-54. Behandling av tvister i klageorgan</a></li>
+<li class="lvl5"><a href="#3-55-tilsyn">§ 3-55. Tilsyn</a></li>
+<li class="lvl3"><a href="#viii-finansoppdrag">VIII. Finansoppdrag</a></li>
+<li class="lvl5"><a href="#3-56-forholdet-til-andre-lover-definisjoner">§ 3-56. Forholdet til andre lover. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-57-krav-til-finansmegleres-uavhengighet-mv">§ 3-57. Krav til finansmegleres uavhengighet mv.</a></li>
+<li class="lvl5"><a href="#3-58-srskilte-plikter-ved-finansoppdrag">§ 3-58. Særskilte plikter ved finansoppdrag</a></li>
+<li class="lvl2"><a href="#kapittel-4-kontoavtaler-og-betalingstjenester">Kapittel 4. Kontoavtaler og betalingstjenester</a></li>
+<li class="lvl3"><a href="#i-retten-til-kontoavtaler-og-betalingstjenester">I. Retten til kontoavtaler og betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-1-retten-til-kontoavtaler-og-betalingstjenester">§ 4-1. Retten til kontoavtaler og betalingstjenester</a></li>
+<li class="lvl3"><a href="#ii-gjennomfring-av-godkjente-betalingstransaksjoner-mv">II. Gjennomføring av godkjente betalingstransaksjoner mv.</a></li>
+<li class="lvl5"><a href="#4-2-samtykke-til-betalingstransaksjon">§ 4-2. Samtykke til betalingstransaksjon</a></li>
+<li class="lvl5"><a href="#4-3-direktebelastningsfullmakt">§ 4-3. Direktebelastningsfullmakt</a></li>
+<li class="lvl5"><a href="#4-4-fast-betalingsoppdrag">§ 4-4. Fast betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-5-mottak-av-betalingsoppdrag">§ 4-5. Mottak av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-6-avvisning-av-betalingsoppdrag">§ 4-6. Avvisning av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-7-kansellering-av-betalingsoppdrag">§ 4-7. Kansellering av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-8-bekreftelse-pa-dekning-pa-betalerens-betalingskonto">§ 4-8. Bekreftelse på dekning på betalerens betalingskonto</a></li>
+<li class="lvl5"><a href="#4-9-belpsgrenser-for-betalingsinstrument">§ 4-9. Beløpsgrenser for betalingsinstrument</a></li>
+<li class="lvl5"><a href="#4-10-samtykke-til-reservasjon-av-belp-pa-betalerens-konto">§ 4-10. Samtykke til reservasjon av beløp på betalerens konto</a></li>
+<li class="lvl5"><a href="#4-11-overfringstid-for-betalingstjenesteyteren">§ 4-11. Overføringstid for betalingstjenesteyteren</a></li>
+<li class="lvl5"><a href="#4-12-tidspunkt-for-renteberegning-godskriving-og-belastning-av-konto">§ 4-12. Tidspunkt for renteberegning, godskriving og belastning av konto</a></li>
+<li class="lvl5"><a href="#4-13-tilbakeholdsrett-motregning-og-gebyrbelastning">§ 4-13. Tilbakeholdsrett, motregning og gebyrbelastning</a></li>
+<li class="lvl5"><a href="#4-14-informasjon-ved-bruk-av-betalingsfullmektig">§ 4-14. Informasjon ved bruk av betalingsfullmektig</a></li>
+<li class="lvl5"><a href="#4-15-informasjon-ved-gjennomfring-av-betalingsoppdrag">§ 4-15. Informasjon ved gjennomføring av betalingsoppdrag</a></li>
+<li class="lvl3"><a href="#iii-generelle-vilkar-om-bruk-av-konto-og-betalingstjenester">III. Generelle vilkår om bruk av konto og betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-16-vilkar-om-fullmakttjenester">§ 4-16. Vilkår om fullmakttjenester</a></li>
+<li class="lvl5"><a href="#4-17-vilkar-om-betalingsfullmakttjenester">§ 4-17. Vilkår om betalingsfullmakttjenester</a></li>
+<li class="lvl5"><a href="#4-18-vilkar-om-kontoinformasjonstjenester">§ 4-18. Vilkår om kontoinformasjonstjenester</a></li>
+<li class="lvl5"><a href="#4-19-kontoinformasjon">§ 4-19. Kontoinformasjon</a></li>
+<li class="lvl5"><a href="#4-20-oversikt-over-palpte-gebyrer">§ 4-20. Oversikt over påløpte gebyrer</a></li>
+<li class="lvl5"><a href="#4-21-vederlag-og-gebyrer">§ 4-21. Vederlag og gebyrer</a></li>
+<li class="lvl5"><a href="#4-22-overtrekk">§ 4-22. Overtrekk</a></li>
+<li class="lvl5"><a href="#4-23-plikter-ved-utstedelse-og-bruk-av-betalingsinstrument">§ 4-23. Plikter ved utstedelse og bruk av betalingsinstrument</a></li>
+<li class="lvl3"><a href="#iv-ikke-godkjente-og-feil-gjennomfrte-betalingstransaksjoner-misbruk-av-konto-og-betalingsinstrument">IV. Ikke godkjente og feil gjennomførte betalingstransaksjoner. Misbruk av konto og betalingsinstrument</a></li>
+<li class="lvl5"><a href="#4-24-kundens-varslingsplikt-ved-feil-og-misbruk-retting">§ 4-24. Kundens varslingsplikt ved feil og misbruk. Retting</a></li>
+<li class="lvl5"><a href="#4-25-varsel-om-og-retting-ved-feilaktig-godskriving-eller-belastning-av-konto">§ 4-25. Varsel om og retting ved feilaktig godskriving eller belastning av konto</a></li>
+<li class="lvl5"><a href="#4-26-uriktig-kontonummer-eller-identifikasjon">§ 4-26. Uriktig kontonummer eller identifikasjon</a></li>
+<li class="lvl5"><a href="#4-27-betalerens-rett-til-tilbakebetaling-ved-direktebelastninger">§ 4-27. Betalerens rett til tilbakebetaling ved direktebelastninger</a></li>
+<li class="lvl5"><a href="#4-28-ansvar-for-transaksjon-iverksatt-av-betaleren">§ 4-28. Ansvar for transaksjon iverksatt av betaleren</a></li>
+<li class="lvl5"><a href="#4-29-ansvar-for-transaksjon-iverksatt-av-eller-via-betalingsmottakeren">§ 4-29. Ansvar for transaksjon iverksatt av eller via betalingsmottakeren</a></li>
+<li class="lvl5"><a href="#4-30-ansvar-og-egenandeler-ved-ikke-godkjente-betalingstransaksjoner">§ 4-30. Ansvar og egenandeler ved ikke godkjente betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#4-31-lemping-av-kundens-ansvar-etter-4-30">§ 4-31. Lemping av kundens ansvar etter § 4-30</a></li>
+<li class="lvl5"><a href="#4-32-tjenesteyterens-plikt-til-a-tilbakefre-belpet-nar-kunden-bestrider-a-ha-ansvar-etter-4-30">§ 4-32. Tjenesteyterens plikt til å tilbakeføre beløpet når kunden bestrider å ha ansvar etter § 4-30</a></li>
+<li class="lvl5"><a href="#4-33-tjenesteyterens-rett-til-erstatning-for-utlegg-mv">§ 4-33. Tjenesteyterens rett til erstatning for utlegg mv.</a></li>
+<li class="lvl3"><a href="#v-kontobytte">V. Kontobytte</a></li>
+<li class="lvl5"><a href="#4-34-bytte-av-betalingskonto">§ 4-34. Bytte av betalingskonto</a></li>
+<li class="lvl5"><a href="#4-35-fullmakt-til-a-utfre-kontobytte">§ 4-35. Fullmakt til å utføre kontobytte</a></li>
+<li class="lvl5"><a href="#4-36-anmodning-til-den-overfrende-betalingstjenesteyteren">§ 4-36. Anmodning til den overførende betalingstjenesteyteren</a></li>
+<li class="lvl5"><a href="#4-37-den-overfrende-betalingstjenesteyterens-oppgaver">§ 4-37. Den overførende betalingstjenesteyterens oppgaver</a></li>
+<li class="lvl5"><a href="#4-38-den-mottakende-betalingstjenesteyterens-oppgaver">§ 4-38. Den mottakende betalingstjenesteyterens oppgaver</a></li>
+<li class="lvl5"><a href="#4-39-kontobytte-mellom-es-stater">§ 4-39. Kontobytte mellom EØS-stater</a></li>
+<li class="lvl5"><a href="#4-40-opplysningsplikt-om-kontobytte">§ 4-40. Opplysningsplikt om kontobytte</a></li>
+<li class="lvl5"><a href="#4-41-gebyrer-i-forbindelse-med-kontobytte">§ 4-41. Gebyrer i forbindelse med kontobytte</a></li>
+<li class="lvl3"><a href="#vi-oppsigelse">VI. Oppsigelse</a></li>
+<li class="lvl5"><a href="#4-42-kundens-oppsigelse">§ 4-42. Kundens oppsigelse</a></li>
+<li class="lvl5"><a href="#4-43-betalingstjenesteyterens-oppsigelse">§ 4-43. Betalingstjenesteyterens oppsigelse</a></li>
+<li class="lvl5"><a href="#4-44-oppsigelse-av-konto-med-bindingstid">§ 4-44. Oppsigelse av konto med bindingstid</a></li>
+<li class="lvl5"><a href="#4-45-sperring">§ 4-45. Sperring</a></li>
+<li class="lvl5"><a href="#4-46-konto-som-ikke-brukes">§ 4-46. Konto som ikke brukes</a></li>
+<li class="lvl3"><a href="#vii-srskilte-bestemmelser">VII. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#4-47-geografisk-virkeomrade-for-regler-om-betalingstransaksjoner">§ 4-47. Geografisk virkeområde for regler om betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#4-48-unntak-for-visse-forbrukeravtaler">§ 4-48. Unntak for visse forbrukeravtaler</a></li>
+<li class="lvl5"><a href="#4-49-srskilt-om-uttak-av-kontanter-i-kontantautomat">§ 4-49. Særskilt om uttak av kontanter i kontantautomat</a></li>
+<li class="lvl5"><a href="#4-50-srskilt-om-elektroniske-smapenger">§ 4-50. Særskilt om elektroniske småpenger</a></li>
+<li class="lvl5"><a href="#4-51-srskilt-om-enkeltstaende-betalingstjenester">§ 4-51. Særskilt om enkeltstående betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-52-srskilt-om-kontoavtaler-og-betalingstjenester-nar-kunden-er-under-18-ar">§ 4-52. Særskilt om kontoavtaler og betalingstjenester når kunden er under 18 år</a></li>
+<li class="lvl2"><a href="#kapittel-5-kredittavtaler">Kapittel 5. Kredittavtaler</a></li>
+<li class="lvl3"><a href="#i-forklaringsplikt-kredittvurdering-og-avslagsplikt">I. Forklaringsplikt, kredittvurdering og avslagsplikt</a></li>
+<li class="lvl5"><a href="#5-1-forklaringsplikt">§ 5-1. Forklaringsplikt</a></li>
+<li class="lvl5"><a href="#5-2-kredittvurdering">§ 5-2. Kredittvurdering</a></li>
+<li class="lvl5"><a href="#5-3-opplysningsplikt-i-forbindelse-med-kredittvurderingen">§ 5-3. Opplysningsplikt i forbindelse med kredittvurderingen</a></li>
+<li class="lvl5"><a href="#5-4-avslagsplikt">§ 5-4. Avslagsplikt</a></li>
+<li class="lvl5"><a href="#5-5-mislighold-av-kredittvurderingsplikten-eller-avslagsplikten">§ 5-5. Mislighold av kredittvurderingsplikten eller avslagsplikten</a></li>
+<li class="lvl3"><a href="#ii-generelle-vilkar-om-kredittavtaler">II. Generelle vilkår om kredittavtaler</a></li>
+<li class="lvl5"><a href="#5-6-krav-til-egenkapital">§ 5-6. Krav til egenkapital</a></li>
+<li class="lvl5"><a href="#5-7-ager">§ 5-7. Åger</a></li>
+<li class="lvl5"><a href="#5-8-koblingssalg">§ 5-8. Koblingssalg</a></li>
+<li class="lvl5"><a href="#5-9-opplysningsplikt-under-kredittforholdet">§ 5-9. Opplysningsplikt under kredittforholdet</a></li>
+<li class="lvl5"><a href="#5-10-vederlag-og-gebyrer">§ 5-10. Vederlag og gebyrer</a></li>
+<li class="lvl5"><a href="#5-11-lpetid-for-annuitetslan">§ 5-11. Løpetid for annuitetslån</a></li>
+<li class="lvl5"><a href="#5-12-valutalan">§ 5-12. Valutalån</a></li>
+<li class="lvl3"><a href="#iii-oppsigelse">III. Oppsigelse</a></li>
+<li class="lvl5"><a href="#5-13-kundens-oppsigelse">§ 5-13. Kundens oppsigelse</a></li>
+<li class="lvl5"><a href="#5-14-kredittyterens-oppsigelse">§ 5-14. Kredittyterens oppsigelse</a></li>
+<li class="lvl5"><a href="#5-15-sperring-av-kredittmulighet">§ 5-15. Sperring av kredittmulighet</a></li>
+<li class="lvl3"><a href="#iv-samskyldnere">IV. Samskyldnere</a></li>
+<li class="lvl5"><a href="#5-16-virkeomradet-for-reglene-om-samskyldnere">§ 5-16. Virkeområdet for reglene om samskyldnere</a></li>
+<li class="lvl5"><a href="#5-17-gjeldsansvar-og-kredittvurdering">§ 5-17. Gjeldsansvar og kredittvurdering</a></li>
+<li class="lvl5"><a href="#5-18-kredittyterens-varslingsplikt">§ 5-18. Kredittyterens varslingsplikt</a></li>
+<li class="lvl5"><a href="#5-19-samskyldnerens-rett-til-opplysninger">§ 5-19. Samskyldnerens rett til opplysninger</a></li>
+<li class="lvl5"><a href="#5-20-frigivelse-av-sikkerhet-mv">§ 5-20. Frigivelse av sikkerhet mv.</a></li>
+<li class="lvl5"><a href="#5-21-reduksjon-og-bortfall-av-samskyldnerens-gjeldsansvar">§ 5-21. Reduksjon og bortfall av samskyldnerens gjeldsansvar</a></li>
+<li class="lvl3"><a href="#v-srskilte-bestemmelser">V. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#5-22-unntak-for-visse-kredittavtaler">§ 5-22. Unntak for visse kredittavtaler</a></li>
+<li class="lvl5"><a href="#5-23-srskilte-regler-om-leiefinansiering">§ 5-23. Særskilte regler om leiefinansiering</a></li>
+<li class="lvl2"><a href="#kapittel-6-kausjon">Kapittel 6. Kausjon</a></li>
+<li class="lvl3"><a href="#i-kredittyterens-plikter-fr-avtaleinngaelsen">I. Kredittyterens plikter før avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#6-1-forklaringsplikt-kredittvurdering-og-avslagsplikt">§ 6-1. Forklaringsplikt, kredittvurdering og avslagsplikt</a></li>
+<li class="lvl3"><a href="#ii-kausjonsforholdet">II. Kausjonsforholdet</a></li>
+<li class="lvl5"><a href="#6-2-varslingsplikt-ved-manglende-sikkerhetsstillelse-mv">§ 6-2. Varslingsplikt ved manglende sikkerhetsstillelse mv.</a></li>
+<li class="lvl5"><a href="#6-3-varslingsplikt-ved-mislighold-betalingsutsettelse-mv">§ 6-3. Varslingsplikt ved mislighold, betalingsutsettelse mv.</a></li>
+<li class="lvl5"><a href="#6-4-kausjonistens-rett-til-opplysninger">§ 6-4. Kausjonistens rett til opplysninger</a></li>
+<li class="lvl5"><a href="#6-5-endring-av-kausjonskravet-og-innsigelser-til-kredittavtalen">§ 6-5. Endring av kausjonskravet og innsigelser til kredittavtalen</a></li>
+<li class="lvl5"><a href="#6-6-frigivelse-av-sikkerhet-mv">§ 6-6. Frigivelse av sikkerhet mv.</a></li>
+<li class="lvl5"><a href="#6-7-reduksjon-og-bortfall-av-kausjonsansvar">§ 6-7. Reduksjon og bortfall av kausjonsansvar</a></li>
+<li class="lvl3"><a href="#iii-kausjonistens-ansvar-og-inntreden-i-kredittavtalen">III. Kausjonistens ansvar og inntreden i kredittavtalen</a></li>
+<li class="lvl5"><a href="#6-8-gjeldsforsikring">§ 6-8. Gjeldsforsikring</a></li>
+<li class="lvl5"><a href="#6-9-frigjringstid">§ 6-9. Frigjøringstid</a></li>
+<li class="lvl5"><a href="#6-10-kausjonens-forfall-mv">§ 6-10. Kausjonens forfall mv.</a></li>
+<li class="lvl5"><a href="#6-11-renter-ved-forsinket-betaling">§ 6-11. Renter ved forsinket betaling</a></li>
+<li class="lvl5"><a href="#6-12-inndrivingskostnader-mv">§ 6-12. Inndrivingskostnader mv.</a></li>
+<li class="lvl5"><a href="#6-13-kausjonistens-krav-mot-kredittkunden">§ 6-13. Kausjonistens krav mot kredittkunden</a></li>
+<li class="lvl3"><a href="#iv-srskilte-bestemmelser_1">IV. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#6-14-srskilt-om-formidling-av-kausjon">§ 6-14. Særskilt om formidling av kausjon</a></li>
+<li class="lvl2"><a href="#kapittel-7-sanksjoner">Kapittel 7. Sanksjoner</a></li>
+<li class="lvl4"><a href="#7-1-straff">§ 7-1. Straff</a></li>
+<li class="lvl4"><a href="#7-2-overtredelsesgebyr">§ 7-2. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse-og-overgangsregler-endringer-i-andre-lover">Kapittel 8. Ikrafttredelse og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-2-overgangsregler">§ 8-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#8-3-endringer-i-andre-lover">§ 8-3. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2026-02-06-2.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-12-18-146.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om finansavtaler (finansavtaleloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-12-18-146.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2020-12-18-146 <code>lov/2020-12-18-146</code></td></tr>
+<tr><th>Korttittel</th><td>Finansavtaleloven</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Bank, finans og regnskapsrett &raquo; Banker\nBank, finans og regnskapsrett &raquo; Betalingsformidling\nBank, finans og regnskapsrett &raquo; Børs- og verdipapir\nBank, finans og regnskapsrett &raquo; Forsikring</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023, Kongen bestemmer</td></tr>
+<tr><th>Sist endret</th><td>LOV-2026-02-06-2 <code>lov/2026-02-06-2</code> fra 01.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2020-12-18-146" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl3"><a href="#i-virkeomrade">I. Virkeområde</a></li>
+<li class="lvl5"><a href="#1-1-lovens-alminnelige-virkeomrade">§ 1-1. Lovens alminnelige virkeområde</a></li>
+<li class="lvl5"><a href="#1-2-virkeomradet-for-kapittel-2-til-6">§ 1-2. Virkeområdet for kapittel 2 til 6</a></li>
+<li class="lvl3"><a href="#ii-definisjoner">II. Definisjoner</a></li>
+<li class="lvl5"><a href="#1-3-finansavtale-finansiell-tjeneste-og-finansoppdrag">§ 1-3. Finansavtale, finansiell tjeneste og finansoppdrag</a></li>
+<li class="lvl5"><a href="#1-4-forbruker-kunde-og-tjenesteyter">§ 1-4. Forbruker, kunde og tjenesteyter</a></li>
+<li class="lvl5"><a href="#1-5-definisjoner-som-gjelder-kontoavtaler-og-betalingstjenester">§ 1-5. Definisjoner som gjelder kontoavtaler og betalingstjenester</a></li>
+<li class="lvl5"><a href="#1-6-definisjoner-som-gjelder-fullmakttjenester">§ 1-6. Definisjoner som gjelder fullmakttjenester</a></li>
+<li class="lvl5"><a href="#1-7-definisjoner-som-gjelder-kredittavtaler-og-kausjonsavtaler">§ 1-7. Definisjoner som gjelder kredittavtaler og kausjonsavtaler</a></li>
+<li class="lvl5"><a href="#1-8-andre-definisjoner">§ 1-8. Andre definisjoner</a></li>
+<li class="lvl3"><a href="#iii-ufravikelighet-lovvalg-mv">III. Ufravikelighet, lovvalg mv.</a></li>
+<li class="lvl5"><a href="#1-9-ufravikelighet">§ 1-9. Ufravikelighet</a></li>
+<li class="lvl5"><a href="#1-10-lovvalg">§ 1-10. Lovvalg</a></li>
+<li class="lvl5"><a href="#1-11-gjennomfring-av-es-regelverk">§ 1-11. Gjennomføring av EØS-regelverk</a></li>
+<li class="lvl2"><a href="#kapittel-2-betalingsoppgjr">Kapittel 2. Betalingsoppgjør</a></li>
+<li class="lvl3"><a href="#i-forholdet-mellom-betaleren-og-mottakeren-ved-betalingsoverfringer">I. Forholdet mellom betaleren og mottakeren ved betalingsoverføringer</a></li>
+<li class="lvl5"><a href="#2-1-oppgjrsmate-forbrukeres-rett-til-a-betale-med-kontanter">§ 2-1. Oppgjørsmåte. Forbrukeres rett til å betale med kontanter</a></li>
+<li class="lvl5"><a href="#2-2-tid-og-sted-for-betaling">§ 2-2. Tid og sted for betaling</a></li>
+<li class="lvl5"><a href="#2-3-valuta">§ 2-3. Valuta</a></li>
+<li class="lvl5"><a href="#2-4-gebyr-for-bruk-av-betalingsinstrument-og-betalingsmiddel">§ 2-4. Gebyr for bruk av betalingsinstrument og betalingsmiddel</a></li>
+<li class="lvl5"><a href="#2-5-fordeling-av-gebyrer">§ 2-5. Fordeling av gebyrer</a></li>
+<li class="lvl5"><a href="#2-6-forbud-mot-a-kreve-gebyr-for-betalerens-bruk-av-kort">§ 2-6. Forbud mot å kreve gebyr for betalerens bruk av kort</a></li>
+<li class="lvl3"><a href="#ii-tilbakebetaling-av-kredittbelp-mv">II. Tilbakebetaling av kredittbeløp mv.</a></li>
+<li class="lvl5"><a href="#2-7-forbrukerens-innsigelser-mot-kredittyteren">§ 2-7. Forbrukerens innsigelser mot kredittyteren</a></li>
+<li class="lvl5"><a href="#2-8-innsigelse-fra-kausjonist-og-samskyldner">§ 2-8. Innsigelse fra kausjonist og samskyldner</a></li>
+<li class="lvl5"><a href="#2-9-tilbakebetaling-av-kredittbelp">§ 2-9. Tilbakebetaling av kredittbeløp</a></li>
+<li class="lvl5"><a href="#2-10-tap-og-gevinst-ved-frtidig-tilbakebetaling-av-fastrentekreditt">§ 2-10. Tap og gevinst ved førtidig tilbakebetaling av fastrentekreditt</a></li>
+<li class="lvl5"><a href="#2-11-tilbakelevering-av-gjeldsbrev-mv">§ 2-11. Tilbakelevering av gjeldsbrev mv.</a></li>
+<li class="lvl5"><a href="#2-12-sletting-av-panteheftelser-mv">§ 2-12. Sletting av panteheftelser mv.</a></li>
+<li class="lvl3"><a href="#iii-overdragelse-av-pengekrav-kreditorskifte">III. Overdragelse av pengekrav (kreditorskifte)</a></li>
+<li class="lvl5"><a href="#2-13-lovens-anvendelse-ved-overdragelse-av-pengekrav-samtykke-og-varsel">§ 2-13. Lovens anvendelse ved overdragelse av pengekrav. Samtykke og varsel</a></li>
+<li class="lvl5"><a href="#2-14-skyldnerens-rett-til-a-gjre-innsigelser-gjeldende-mot-erververen-av-pengekravet">§ 2-14. Skyldnerens rett til å gjøre innsigelser gjeldende mot erververen av pengekravet</a></li>
+<li class="lvl3"><a href="#iv-srskilte-bestemmelser">IV. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#2-15-krav-oppstatt-ved-spill-eller-veddemal">§ 2-15. Krav oppstått ved spill eller veddemål</a></li>
+<li class="lvl5"><a href="#2-16-regress">§ 2-16. Regress</a></li>
+<li class="lvl2"><a href="#kapittel-3-finansielle-tjenester">Kapittel 3. Finansielle tjenester</a></li>
+<li class="lvl3"><a href="#i-alminnelige-bestemmelser">I. Alminnelige bestemmelser</a></li>
+<li class="lvl5"><a href="#3-1-tjenesteyterens-alminnelige-plikter">§ 3-1. Tjenesteyterens alminnelige plikter</a></li>
+<li class="lvl5"><a href="#3-2-elektroniske-meldinger-varsler-og-skriftlig-dokument">§ 3-2. Elektroniske meldinger, varsler og skriftlig dokument</a></li>
+<li class="lvl5"><a href="#3-3-opplysninger-i-alminnelige-vilkar-og-i-markedsfring">§ 3-3. Opplysninger i alminnelige vilkår og i markedsføring</a></li>
+<li class="lvl5"><a href="#3-4-personer-med-verge">§ 3-4. Personer med verge</a></li>
+<li class="lvl5"><a href="#3-5-alminnelig-bevisbyrde">§ 3-5. Alminnelig bevisbyrde</a></li>
+<li class="lvl5"><a href="#3-6-bevisbyrde-og-beviskrav-for-elektronisk-avtaleinngaelse">§ 3-6. Bevisbyrde og beviskrav for elektronisk avtaleinngåelse</a></li>
+<li class="lvl5"><a href="#3-7-bevisbyrde-og-beviskrav-for-betalingstransaksjoner">§ 3-7. Bevisbyrde og beviskrav for betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#3-8-avvikling">§ 3-8. Avvikling</a></li>
+<li class="lvl3"><a href="#ii-avtaleinngaelse">II. Avtaleinngåelse</a></li>
+<li class="lvl5"><a href="#3-9-avtaleinngaelsen">§ 3-9. Avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#3-10-srskilt-om-enkeltstaende-finansielle-tjenester">§ 3-10. Særskilt om enkeltstående finansielle tjenester</a></li>
+<li class="lvl5"><a href="#3-11-nar-tjenesteyteren-har-flere-avtalemotparter-i-samme-avtale">§ 3-11. Når tjenesteyteren har flere avtalemotparter i samme avtale</a></li>
+<li class="lvl5"><a href="#3-12-krav-til-avtalens-innhold">§ 3-12. Krav til avtalens innhold</a></li>
+<li class="lvl5"><a href="#3-13-endring-av-avtalevilkar">§ 3-13. Endring av avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-14-passivt-samtykke-til-endring-av-avtalevilkar">§ 3-14. Passivt samtykke til endring av avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-15-referanserente-og-referansevekslingskurs">§ 3-15. Referanserente og referansevekslingskurs</a></li>
+<li class="lvl3"><a href="#iii-elektronisk-signatur-og-elektronisk-segl">III. Elektronisk signatur og elektronisk segl</a></li>
+<li class="lvl5"><a href="#3-16-definisjoner-og-virkeomrade">§ 3-16. Definisjoner og virkeområde</a></li>
+<li class="lvl5"><a href="#3-17-plikter-for-tilbydere-av-elektroniske-signaturlsninger">§ 3-17. Plikter for tilbydere av elektroniske signaturløsninger</a></li>
+<li class="lvl5"><a href="#3-18-tjenesteytere-som-tilbyr-a-innga-avtale-ved-bruk-av-elektronisk-signatur">§ 3-18. Tjenesteytere som tilbyr å inngå avtale ved bruk av elektronisk signatur</a></li>
+<li class="lvl5"><a href="#3-19-rettighetshaverens-plikter">§ 3-19. Rettighetshaverens plikter</a></li>
+<li class="lvl5"><a href="#3-20-ansvar-for-tap-ved-misbruk-av-elektronisk-signatur">§ 3-20. Ansvar for tap ved misbruk av elektronisk signatur</a></li>
+<li class="lvl5"><a href="#3-21-lemping-av-rettighetshaverens-egenandelsansvar">§ 3-21. Lemping av rettighetshaverens egenandelsansvar</a></li>
+<li class="lvl3"><a href="#iv-opplysningsplikt-om-finansielle-tjenester-og-avtalevilkar">IV. Opplysningsplikt om finansielle tjenester og avtalevilkår</a></li>
+<li class="lvl5"><a href="#3-22-opplysningsplikt-fr-avtaleinngaelsen">§ 3-22. Opplysningsplikt før avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#3-23-hvordan-opplysningene-skal-gis">§ 3-23. Hvordan opplysningene skal gis</a></li>
+<li class="lvl5"><a href="#3-24-opplysninger-om-tjenesteyteren">§ 3-24. Opplysninger om tjenesteyteren</a></li>
+<li class="lvl5"><a href="#3-25-opplysninger-om-avtaleinngaelsen-og-om-senere-endringer-av-avtalen">§ 3-25. Opplysninger om avtaleinngåelsen og om senere endringer av avtalen</a></li>
+<li class="lvl5"><a href="#3-26-opplysninger-om-tvistelsning-og-klageorgan">§ 3-26. Opplysninger om tvisteløsning og klageorgan</a></li>
+<li class="lvl5"><a href="#3-27-opplysninger-om-bruk-av-den-finansielle-tjenesten">§ 3-27. Opplysninger om bruk av den finansielle tjenesten</a></li>
+<li class="lvl5"><a href="#3-28-opplysninger-om-kostnader">§ 3-28. Opplysninger om kostnader</a></li>
+<li class="lvl5"><a href="#3-29-opplysninger-om-kredittvurdering">§ 3-29. Opplysninger om kredittvurdering</a></li>
+<li class="lvl5"><a href="#3-30-opplysninger-om-bruk-av-betalingstjenester">§ 3-30. Opplysninger om bruk av betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-31-opplysninger-om-sikkerhet-og-ansvar-mv-ved-bruk-av-betalingstjenester">§ 3-31. Opplysninger om sikkerhet og ansvar mv. ved bruk av betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-32-srskilte-regler-om-opplysningsplikt-for-visse-betalingstjenester">§ 3-32. Særskilte regler om opplysningsplikt for visse betalingstjenester</a></li>
+<li class="lvl5"><a href="#3-33-standardisert-gebyropplysningsskjema-og-forklarende-ordliste">§ 3-33. Standardisert gebyropplysningsskjema og forklarende ordliste</a></li>
+<li class="lvl5"><a href="#3-34-opplysninger-om-kredittavtaler">§ 3-34. Opplysninger om kredittavtaler</a></li>
+<li class="lvl5"><a href="#3-35-standardisert-kredittopplysningsskjema">§ 3-35. Standardisert kredittopplysningsskjema</a></li>
+<li class="lvl5"><a href="#3-36-opplysninger-om-kausjonsansvar">§ 3-36. Opplysninger om kausjonsansvar</a></li>
+<li class="lvl5"><a href="#3-37-opplysninger-om-leiefinansiering">§ 3-37. Opplysninger om leiefinansiering</a></li>
+<li class="lvl5"><a href="#3-38-opplysninger-om-finansoppdrag">§ 3-38. Opplysninger om finansoppdrag</a></li>
+<li class="lvl5"><a href="#3-39-srskilt-opplysningsplikt-ved-tilbud-om-finansiell-tjeneste-i-telefonsamtale">§ 3-39. Særskilt opplysningsplikt ved tilbud om finansiell tjeneste i telefonsamtale</a></li>
+<li class="lvl3"><a href="#v-angrerett-og-betenkningstid">V. Angrerett og betenkningstid</a></li>
+<li class="lvl5"><a href="#3-40-betenkningstid-for-boliglan-og-boligkausjon">§ 3-40. Betenkningstid for boliglån og boligkausjon</a></li>
+<li class="lvl5"><a href="#3-41-angrerett">§ 3-41. Angrerett</a></li>
+<li class="lvl5"><a href="#3-42-fremgangsmaten-for-a-bruke-angreretten">§ 3-42. Fremgangsmåten for å bruke angreretten</a></li>
+<li class="lvl5"><a href="#3-43-gjennomfring-av-angrerett-ved-kredittavtaler">§ 3-43. Gjennomføring av angrerett ved kredittavtaler</a></li>
+<li class="lvl5"><a href="#3-44-gjennomfring-av-angrerett-ved-fjernsalg">§ 3-44. Gjennomføring av angrerett ved fjernsalg</a></li>
+<li class="lvl5"><a href="#3-45-gjennomfring-av-angrerett-ved-avtaler-inngatt-utenom-tjenesteyterens-faste-forretningslokaler">§ 3-45. Gjennomføring av angrerett ved avtaler inngått utenom tjenesteyterens faste forretningslokaler</a></li>
+<li class="lvl3"><a href="#vi-mislighold-og-erstatning">VI. Mislighold og erstatning</a></li>
+<li class="lvl5"><a href="#3-46-sanksjoner-ved-mislighold">§ 3-46. Sanksjoner ved mislighold</a></li>
+<li class="lvl5"><a href="#3-47-reklamasjon-ved-tjenesteyterens-mislighold">§ 3-47. Reklamasjon ved tjenesteyterens mislighold</a></li>
+<li class="lvl5"><a href="#3-48-kundens-rett-til-a-heve-avtalen">§ 3-48. Kundens rett til å heve avtalen</a></li>
+<li class="lvl5"><a href="#3-49-rett-til-erstatning-nar-tjenesteyteren-ikke-har-oppfylt-sine-plikter">§ 3-49. Rett til erstatning når tjenesteyteren ikke har oppfylt sine plikter</a></li>
+<li class="lvl5"><a href="#3-50-ansvarsfrihet">§ 3-50. Ansvarsfrihet</a></li>
+<li class="lvl5"><a href="#3-51-tjenesteyterens-rett-til-a-heve-avtalen-reklamasjon">§ 3-51. Tjenesteyterens rett til å heve avtalen. Reklamasjon</a></li>
+<li class="lvl5"><a href="#3-52-virkningen-av-at-tjenesteyteren-hever-avtalen">§ 3-52. Virkningen av at tjenesteyteren hever avtalen</a></li>
+<li class="lvl3"><a href="#vii-klagebehandling-og-tilsyn">VII. Klagebehandling og tilsyn</a></li>
+<li class="lvl5"><a href="#3-53-behandling-av-klager">§ 3-53. Behandling av klager</a></li>
+<li class="lvl5"><a href="#3-54-behandling-av-tvister-i-klageorgan">§ 3-54. Behandling av tvister i klageorgan</a></li>
+<li class="lvl5"><a href="#3-55-tilsyn">§ 3-55. Tilsyn</a></li>
+<li class="lvl3"><a href="#viii-finansoppdrag">VIII. Finansoppdrag</a></li>
+<li class="lvl5"><a href="#3-56-forholdet-til-andre-lover-definisjoner">§ 3-56. Forholdet til andre lover. Definisjoner</a></li>
+<li class="lvl5"><a href="#3-57-krav-til-finansmegleres-uavhengighet-mv">§ 3-57. Krav til finansmegleres uavhengighet mv.</a></li>
+<li class="lvl5"><a href="#3-58-srskilte-plikter-ved-finansoppdrag">§ 3-58. Særskilte plikter ved finansoppdrag</a></li>
+<li class="lvl2"><a href="#kapittel-4-kontoavtaler-og-betalingstjenester">Kapittel 4. Kontoavtaler og betalingstjenester</a></li>
+<li class="lvl3"><a href="#i-retten-til-kontoavtaler-og-betalingstjenester">I. Retten til kontoavtaler og betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-1-retten-til-kontoavtaler-og-betalingstjenester">§ 4-1. Retten til kontoavtaler og betalingstjenester</a></li>
+<li class="lvl3"><a href="#ii-gjennomfring-av-godkjente-betalingstransaksjoner-mv">II. Gjennomføring av godkjente betalingstransaksjoner mv.</a></li>
+<li class="lvl5"><a href="#4-2-samtykke-til-betalingstransaksjon">§ 4-2. Samtykke til betalingstransaksjon</a></li>
+<li class="lvl5"><a href="#4-3-direktebelastningsfullmakt">§ 4-3. Direktebelastningsfullmakt</a></li>
+<li class="lvl5"><a href="#4-4-fast-betalingsoppdrag">§ 4-4. Fast betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-5-mottak-av-betalingsoppdrag">§ 4-5. Mottak av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-6-avvisning-av-betalingsoppdrag">§ 4-6. Avvisning av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-7-kansellering-av-betalingsoppdrag">§ 4-7. Kansellering av betalingsoppdrag</a></li>
+<li class="lvl5"><a href="#4-8-bekreftelse-pa-dekning-pa-betalerens-betalingskonto">§ 4-8. Bekreftelse på dekning på betalerens betalingskonto</a></li>
+<li class="lvl5"><a href="#4-9-belpsgrenser-for-betalingsinstrument">§ 4-9. Beløpsgrenser for betalingsinstrument</a></li>
+<li class="lvl5"><a href="#4-10-samtykke-til-reservasjon-av-belp-pa-betalerens-konto">§ 4-10. Samtykke til reservasjon av beløp på betalerens konto</a></li>
+<li class="lvl5"><a href="#4-11-overfringstid-for-betalingstjenesteyteren">§ 4-11. Overføringstid for betalingstjenesteyteren</a></li>
+<li class="lvl5"><a href="#4-12-tidspunkt-for-renteberegning-godskriving-og-belastning-av-konto">§ 4-12. Tidspunkt for renteberegning, godskriving og belastning av konto</a></li>
+<li class="lvl5"><a href="#4-13-tilbakeholdsrett-motregning-og-gebyrbelastning">§ 4-13. Tilbakeholdsrett, motregning og gebyrbelastning</a></li>
+<li class="lvl5"><a href="#4-14-informasjon-ved-bruk-av-betalingsfullmektig">§ 4-14. Informasjon ved bruk av betalingsfullmektig</a></li>
+<li class="lvl5"><a href="#4-15-informasjon-ved-gjennomfring-av-betalingsoppdrag">§ 4-15. Informasjon ved gjennomføring av betalingsoppdrag</a></li>
+<li class="lvl3"><a href="#iii-generelle-vilkar-om-bruk-av-konto-og-betalingstjenester">III. Generelle vilkår om bruk av konto og betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-16-vilkar-om-fullmakttjenester">§ 4-16. Vilkår om fullmakttjenester</a></li>
+<li class="lvl5"><a href="#4-17-vilkar-om-betalingsfullmakttjenester">§ 4-17. Vilkår om betalingsfullmakttjenester</a></li>
+<li class="lvl5"><a href="#4-18-vilkar-om-kontoinformasjonstjenester">§ 4-18. Vilkår om kontoinformasjonstjenester</a></li>
+<li class="lvl5"><a href="#4-19-kontoinformasjon">§ 4-19. Kontoinformasjon</a></li>
+<li class="lvl5"><a href="#4-20-oversikt-over-palpte-gebyrer">§ 4-20. Oversikt over påløpte gebyrer</a></li>
+<li class="lvl5"><a href="#4-21-vederlag-og-gebyrer">§ 4-21. Vederlag og gebyrer</a></li>
+<li class="lvl5"><a href="#4-22-overtrekk">§ 4-22. Overtrekk</a></li>
+<li class="lvl5"><a href="#4-23-plikter-ved-utstedelse-og-bruk-av-betalingsinstrument">§ 4-23. Plikter ved utstedelse og bruk av betalingsinstrument</a></li>
+<li class="lvl3"><a href="#iv-ikke-godkjente-og-feil-gjennomfrte-betalingstransaksjoner-misbruk-av-konto-og-betalingsinstrument">IV. Ikke godkjente og feil gjennomførte betalingstransaksjoner. Misbruk av konto og betalingsinstrument</a></li>
+<li class="lvl5"><a href="#4-24-kundens-varslingsplikt-ved-feil-og-misbruk-retting">§ 4-24. Kundens varslingsplikt ved feil og misbruk. Retting</a></li>
+<li class="lvl5"><a href="#4-25-varsel-om-og-retting-ved-feilaktig-godskriving-eller-belastning-av-konto">§ 4-25. Varsel om og retting ved feilaktig godskriving eller belastning av konto</a></li>
+<li class="lvl5"><a href="#4-26-uriktig-kontonummer-eller-identifikasjon">§ 4-26. Uriktig kontonummer eller identifikasjon</a></li>
+<li class="lvl5"><a href="#4-27-betalerens-rett-til-tilbakebetaling-ved-direktebelastninger">§ 4-27. Betalerens rett til tilbakebetaling ved direktebelastninger</a></li>
+<li class="lvl5"><a href="#4-28-ansvar-for-transaksjon-iverksatt-av-betaleren">§ 4-28. Ansvar for transaksjon iverksatt av betaleren</a></li>
+<li class="lvl5"><a href="#4-29-ansvar-for-transaksjon-iverksatt-av-eller-via-betalingsmottakeren">§ 4-29. Ansvar for transaksjon iverksatt av eller via betalingsmottakeren</a></li>
+<li class="lvl5"><a href="#4-30-ansvar-og-egenandeler-ved-ikke-godkjente-betalingstransaksjoner">§ 4-30. Ansvar og egenandeler ved ikke godkjente betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#4-31-lemping-av-kundens-ansvar-etter-4-30">§ 4-31. Lemping av kundens ansvar etter § 4-30</a></li>
+<li class="lvl5"><a href="#4-32-tjenesteyterens-plikt-til-a-tilbakefre-belpet-nar-kunden-bestrider-a-ha-ansvar-etter-4-30">§ 4-32. Tjenesteyterens plikt til å tilbakeføre beløpet når kunden bestrider å ha ansvar etter § 4-30</a></li>
+<li class="lvl5"><a href="#4-33-tjenesteyterens-rett-til-erstatning-for-utlegg-mv">§ 4-33. Tjenesteyterens rett til erstatning for utlegg mv.</a></li>
+<li class="lvl3"><a href="#v-kontobytte">V. Kontobytte</a></li>
+<li class="lvl5"><a href="#4-34-bytte-av-betalingskonto">§ 4-34. Bytte av betalingskonto</a></li>
+<li class="lvl5"><a href="#4-35-fullmakt-til-a-utfre-kontobytte">§ 4-35. Fullmakt til å utføre kontobytte</a></li>
+<li class="lvl5"><a href="#4-36-anmodning-til-den-overfrende-betalingstjenesteyteren">§ 4-36. Anmodning til den overførende betalingstjenesteyteren</a></li>
+<li class="lvl5"><a href="#4-37-den-overfrende-betalingstjenesteyterens-oppgaver">§ 4-37. Den overførende betalingstjenesteyterens oppgaver</a></li>
+<li class="lvl5"><a href="#4-38-den-mottakende-betalingstjenesteyterens-oppgaver">§ 4-38. Den mottakende betalingstjenesteyterens oppgaver</a></li>
+<li class="lvl5"><a href="#4-39-kontobytte-mellom-es-stater">§ 4-39. Kontobytte mellom EØS-stater</a></li>
+<li class="lvl5"><a href="#4-40-opplysningsplikt-om-kontobytte">§ 4-40. Opplysningsplikt om kontobytte</a></li>
+<li class="lvl5"><a href="#4-41-gebyrer-i-forbindelse-med-kontobytte">§ 4-41. Gebyrer i forbindelse med kontobytte</a></li>
+<li class="lvl3"><a href="#vi-oppsigelse">VI. Oppsigelse</a></li>
+<li class="lvl5"><a href="#4-42-kundens-oppsigelse">§ 4-42. Kundens oppsigelse</a></li>
+<li class="lvl5"><a href="#4-43-betalingstjenesteyterens-oppsigelse">§ 4-43. Betalingstjenesteyterens oppsigelse</a></li>
+<li class="lvl5"><a href="#4-44-oppsigelse-av-konto-med-bindingstid">§ 4-44. Oppsigelse av konto med bindingstid</a></li>
+<li class="lvl5"><a href="#4-45-sperring">§ 4-45. Sperring</a></li>
+<li class="lvl5"><a href="#4-46-konto-som-ikke-brukes">§ 4-46. Konto som ikke brukes</a></li>
+<li class="lvl3"><a href="#vii-srskilte-bestemmelser">VII. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#4-47-geografisk-virkeomrade-for-regler-om-betalingstransaksjoner">§ 4-47. Geografisk virkeområde for regler om betalingstransaksjoner</a></li>
+<li class="lvl5"><a href="#4-48-unntak-for-visse-forbrukeravtaler">§ 4-48. Unntak for visse forbrukeravtaler</a></li>
+<li class="lvl5"><a href="#4-49-srskilt-om-uttak-av-kontanter-i-kontantautomat">§ 4-49. Særskilt om uttak av kontanter i kontantautomat</a></li>
+<li class="lvl5"><a href="#4-50-srskilt-om-elektroniske-smapenger">§ 4-50. Særskilt om elektroniske småpenger</a></li>
+<li class="lvl5"><a href="#4-51-srskilt-om-enkeltstaende-betalingstjenester">§ 4-51. Særskilt om enkeltstående betalingstjenester</a></li>
+<li class="lvl5"><a href="#4-52-srskilt-om-kontoavtaler-og-betalingstjenester-nar-kunden-er-under-18-ar">§ 4-52. Særskilt om kontoavtaler og betalingstjenester når kunden er under 18 år</a></li>
+<li class="lvl2"><a href="#kapittel-5-kredittavtaler">Kapittel 5. Kredittavtaler</a></li>
+<li class="lvl3"><a href="#i-forklaringsplikt-kredittvurdering-og-avslagsplikt">I. Forklaringsplikt, kredittvurdering og avslagsplikt</a></li>
+<li class="lvl5"><a href="#5-1-forklaringsplikt">§ 5-1. Forklaringsplikt</a></li>
+<li class="lvl5"><a href="#5-2-kredittvurdering">§ 5-2. Kredittvurdering</a></li>
+<li class="lvl5"><a href="#5-3-opplysningsplikt-i-forbindelse-med-kredittvurderingen">§ 5-3. Opplysningsplikt i forbindelse med kredittvurderingen</a></li>
+<li class="lvl5"><a href="#5-4-avslagsplikt">§ 5-4. Avslagsplikt</a></li>
+<li class="lvl5"><a href="#5-5-mislighold-av-kredittvurderingsplikten-eller-avslagsplikten">§ 5-5. Mislighold av kredittvurderingsplikten eller avslagsplikten</a></li>
+<li class="lvl3"><a href="#ii-generelle-vilkar-om-kredittavtaler">II. Generelle vilkår om kredittavtaler</a></li>
+<li class="lvl5"><a href="#5-6-krav-til-egenkapital">§ 5-6. Krav til egenkapital</a></li>
+<li class="lvl5"><a href="#5-7-ager">§ 5-7. Åger</a></li>
+<li class="lvl5"><a href="#5-8-koblingssalg">§ 5-8. Koblingssalg</a></li>
+<li class="lvl5"><a href="#5-9-opplysningsplikt-under-kredittforholdet">§ 5-9. Opplysningsplikt under kredittforholdet</a></li>
+<li class="lvl5"><a href="#5-10-vederlag-og-gebyrer">§ 5-10. Vederlag og gebyrer</a></li>
+<li class="lvl5"><a href="#5-11-lpetid-for-annuitetslan">§ 5-11. Løpetid for annuitetslån</a></li>
+<li class="lvl5"><a href="#5-12-valutalan">§ 5-12. Valutalån</a></li>
+<li class="lvl3"><a href="#iii-oppsigelse">III. Oppsigelse</a></li>
+<li class="lvl5"><a href="#5-13-kundens-oppsigelse">§ 5-13. Kundens oppsigelse</a></li>
+<li class="lvl5"><a href="#5-14-kredittyterens-oppsigelse">§ 5-14. Kredittyterens oppsigelse</a></li>
+<li class="lvl5"><a href="#5-15-sperring-av-kredittmulighet">§ 5-15. Sperring av kredittmulighet</a></li>
+<li class="lvl3"><a href="#iv-samskyldnere">IV. Samskyldnere</a></li>
+<li class="lvl5"><a href="#5-16-virkeomradet-for-reglene-om-samskyldnere">§ 5-16. Virkeområdet for reglene om samskyldnere</a></li>
+<li class="lvl5"><a href="#5-17-gjeldsansvar-og-kredittvurdering">§ 5-17. Gjeldsansvar og kredittvurdering</a></li>
+<li class="lvl5"><a href="#5-18-kredittyterens-varslingsplikt">§ 5-18. Kredittyterens varslingsplikt</a></li>
+<li class="lvl5"><a href="#5-19-samskyldnerens-rett-til-opplysninger">§ 5-19. Samskyldnerens rett til opplysninger</a></li>
+<li class="lvl5"><a href="#5-20-frigivelse-av-sikkerhet-mv">§ 5-20. Frigivelse av sikkerhet mv.</a></li>
+<li class="lvl5"><a href="#5-21-reduksjon-og-bortfall-av-samskyldnerens-gjeldsansvar">§ 5-21. Reduksjon og bortfall av samskyldnerens gjeldsansvar</a></li>
+<li class="lvl3"><a href="#v-srskilte-bestemmelser">V. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#5-22-unntak-for-visse-kredittavtaler">§ 5-22. Unntak for visse kredittavtaler</a></li>
+<li class="lvl5"><a href="#5-23-srskilte-regler-om-leiefinansiering">§ 5-23. Særskilte regler om leiefinansiering</a></li>
+<li class="lvl2"><a href="#kapittel-6-kausjon">Kapittel 6. Kausjon</a></li>
+<li class="lvl3"><a href="#i-kredittyterens-plikter-fr-avtaleinngaelsen">I. Kredittyterens plikter før avtaleinngåelsen</a></li>
+<li class="lvl5"><a href="#6-1-forklaringsplikt-kredittvurdering-og-avslagsplikt">§ 6-1. Forklaringsplikt, kredittvurdering og avslagsplikt</a></li>
+<li class="lvl3"><a href="#ii-kausjonsforholdet">II. Kausjonsforholdet</a></li>
+<li class="lvl5"><a href="#6-2-varslingsplikt-ved-manglende-sikkerhetsstillelse-mv">§ 6-2. Varslingsplikt ved manglende sikkerhetsstillelse mv.</a></li>
+<li class="lvl5"><a href="#6-3-varslingsplikt-ved-mislighold-betalingsutsettelse-mv">§ 6-3. Varslingsplikt ved mislighold, betalingsutsettelse mv.</a></li>
+<li class="lvl5"><a href="#6-4-kausjonistens-rett-til-opplysninger">§ 6-4. Kausjonistens rett til opplysninger</a></li>
+<li class="lvl5"><a href="#6-5-endring-av-kausjonskravet-og-innsigelser-til-kredittavtalen">§ 6-5. Endring av kausjonskravet og innsigelser til kredittavtalen</a></li>
+<li class="lvl5"><a href="#6-6-frigivelse-av-sikkerhet-mv">§ 6-6. Frigivelse av sikkerhet mv.</a></li>
+<li class="lvl5"><a href="#6-7-reduksjon-og-bortfall-av-kausjonsansvar">§ 6-7. Reduksjon og bortfall av kausjonsansvar</a></li>
+<li class="lvl3"><a href="#iii-kausjonistens-ansvar-og-inntreden-i-kredittavtalen">III. Kausjonistens ansvar og inntreden i kredittavtalen</a></li>
+<li class="lvl5"><a href="#6-8-gjeldsforsikring">§ 6-8. Gjeldsforsikring</a></li>
+<li class="lvl5"><a href="#6-9-frigjringstid">§ 6-9. Frigjøringstid</a></li>
+<li class="lvl5"><a href="#6-10-kausjonens-forfall-mv">§ 6-10. Kausjonens forfall mv.</a></li>
+<li class="lvl5"><a href="#6-11-renter-ved-forsinket-betaling">§ 6-11. Renter ved forsinket betaling</a></li>
+<li class="lvl5"><a href="#6-12-inndrivingskostnader-mv">§ 6-12. Inndrivingskostnader mv.</a></li>
+<li class="lvl5"><a href="#6-13-kausjonistens-krav-mot-kredittkunden">§ 6-13. Kausjonistens krav mot kredittkunden</a></li>
+<li class="lvl3"><a href="#iv-srskilte-bestemmelser_1">IV. Særskilte bestemmelser</a></li>
+<li class="lvl5"><a href="#6-14-srskilt-om-formidling-av-kausjon">§ 6-14. Særskilt om formidling av kausjon</a></li>
+<li class="lvl2"><a href="#kapittel-7-sanksjoner">Kapittel 7. Sanksjoner</a></li>
+<li class="lvl4"><a href="#7-1-straff">§ 7-1. Straff</a></li>
+<li class="lvl4"><a href="#7-2-overtredelsesgebyr">§ 7-2. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-8-ikrafttredelse-og-overgangsregler-endringer-i-andre-lover">Kapittel 8. Ikrafttredelse og overgangsregler. Endringer i andre lover</a></li>
+<li class="lvl4"><a href="#8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#8-2-overgangsregler">§ 8-2. Overgangsregler</a></li>
+<li class="lvl4"><a href="#8-3-endringer-i-andre-lover">§ 8-3. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-12-18-146.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2020-12-18-146.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2020-12-18-146.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2020-12-18-146.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2020-12-18-146.html">Observerte kildeutgaver</a> · <a href="../historie/finansavtaleloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/2a073cc505669f0366f803aa36f8d6f286319f53/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/5375454b5a95be70a3742a3eefb819d75cb1f5be/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/e594d138414d3d561ece67e1626f72210919cafb/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2020-12-18-146.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2020-12-18-146.html">Observerte kildeutgaver</a> · <a href="../historie/finansavtaleloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2023/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2023</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2024/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2024</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2025/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2025</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2020-12-18-146.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-finansavtaler-finansavtaleloven">Lov om finansavtaler (finansavtaleloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h3 id="i-virkeomrade">I. Virkeområde</h3>
 <h5 id="1-1-lovens-alminnelige-virkeomrade">§ 1-1. Lovens alminnelige virkeområde</h5>
@@ -89,7 +570,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(4) Kapittel 5 gjelder for kredittavtaler, jf. § 1-7 første ledd, med mindre noe annet følger av sjette ledd eller for øvrig er særskilt bestemt, jf. §§ 5-22 og 5-23 .</p>
 <p>(5) Kapittel 6 gjelder for kausjon, jf. § 1-7 annet ledd, med mindre noe annet følger av sjette ledd eller for øvrig er særskilt bestemt, jf. § 6-14 .</p>
 <p>(6) Er kunden forbruker, gjelder reglene i kapittel 3 til 6 for alle tjenesteytere, jf. § 1-4 , med mindre noe annet er særskilt bestemt. Kapittel 3 til 6 gjelder også for avtaler med en forbruker når kredittyteren eller garantisten er en kommune eller fylkeskommune. Er kunden ikke forbruker, gjelder reglene i kapittel 3 til 6 bare for tjenester som krever særskilt tillatelse eller meldeplikt etter <a href="lov-2015-04-10-17.html">finansforetaksloven</a> og formidling av slike tjenester, med mindre noe annet er særskilt bestemt. Kapittel 3 til 6 gjelder ikke for tjenester som mottas av en annen tjenesteyter uten å berøre kundens rettigheter eller tjenesteyterens plikter etter denne loven.</p>
-<p><em>Endret ved lov 7 juni 2024 nr. 29 (i kraft 1 jan 2025 iflg. res. 7 juni 2024 nr. 925 ).</em></p>
+<p class="note">Endret ved lov 7 juni 2024 nr. 29 (i kraft 1 jan 2025 iflg. res. 7 juni 2024 nr. 925 ).</p>
 <h3 id="ii-definisjoner">II. Definisjoner</h3>
 <h5 id="1-3-finansavtale-finansiell-tjeneste-og-finansoppdrag">§ 1-3. Finansavtale, finansiell tjeneste og finansoppdrag</h5>
 <p>(1) Med finansavtale menes i denne loven avtale om finansiell tjeneste, finansoppdrag, betalingsoppgjør og overdragelse av pengekrav.</p>
@@ -172,14 +653,14 @@ c. avtalen er inngått av forbrukeren etter reise til utlandet i forbindelse med
 b. EØS-avtalen vedlegg XII nr. 3a (forordning (EU) nr. 260/2012 og forordning (EU) nr. 248/2014 om tekniske og forretningsmessige krav til kredittoverføringer og direkte debiteringer i euro).</p>
 <p>(2) Kongen kan i forskrift gi regler til gjennomføring av direktiv (EU) 2019/882 om tilgjengelighetskrav for produkter og tjenester for banktjenester rettet til forbrukere som nevnt i artikkel 2 nr. 2 bokstav d.</p>
 <p>(3) Kongen kan i forskrift fastsette andre beløpsgrenser enn det som følger av regler i loven her, dersom dette på grunn av kursendringer er nødvendig for gjennomføringen av forpliktelser etter EØS-avtalen . Endres beløpsgrensen etter § 4-30 annet ledd , kan det fastsettes at den samme beløpsgrensen skal gjelde også etter § 3-20 .</p>
-<p><em>Endret ved lov 10 april 2025 nr. 11 (i kraft 1 aug 2025 iflg. res. 24 juni 2025 nr. 1203 ).</em></p>
+<p class="note">Endret ved lov 10 april 2025 nr. 11 (i kraft 1 aug 2025 iflg. res. 24 juni 2025 nr. 1203 ).</p>
 <h2 id="kapittel-2-betalingsoppgjr">Kapittel 2. Betalingsoppgjør</h2>
 <h3 id="i-forholdet-mellom-betaleren-og-mottakeren-ved-betalingsoverfringer">I. Forholdet mellom betaleren og mottakeren ved betalingsoverføringer</h3>
 <h5 id="2-1-oppgjrsmate-forbrukeres-rett-til-a-betale-med-kontanter">§ 2-1. Oppgjørsmåte. Forbrukeres rett til å betale med kontanter <a class="para-history" href="../historikk/lov-2020-12-18-146/para-2-1.html" title="Endringshistorikk for § 2-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) Betaling kan foretas ved overføring av beløpet til mottakerens konto, med mindre noe annet er avtalt eller mottakeren har bedt om utbetaling med tvungne betalingsmidler.</p>
 <p>(2) Mottakeren kan gi nærmere anvisning om betalingsmåten dersom dette ikke medfører vesentlig merutgift eller andre ulemper for betaleren. Første punktum gjelder ikke for en næringsdrivende selgers plikt til å tilby forbrukere å betale med tvungne betalingsmidler ved salg av varer eller tjenester, jf. tredje ledd.</p>
 <p>(3) I salgslokale der en næringsdrivende på fast basis selger varer eller tjenester til forbrukere, skal forbrukeren tilbys å betale med tvungne betalingsmidler hvis det kan betales for varen eller tjenesten med andre betalingsløsninger i eller i umiddelbar tilknytning til salgslokalet. Har den næringsdrivende tilgjengelig veksel, skal det i disse tilfellene også tilbys å veksle i forbindelse med betalingen, men ikke hvis det er et klart misforhold mellom seddelen som tilbys som betaling, og beløpet som skal betales. Første og annet punktum gjelder ikke salg av varer fra automater, salg i ubetjente salgslokaler og salg i lokaler som bare en begrenset krets av personer har adgang til. Første og annet punktum gjelder heller ikke når beløpet som skal betales, er høyere enn 20 000 kroner.</p>
-<p><em>Endret ved lov 7 juni 2024 nr. 29 (i kraft 1 okt 2024 iflg. res. 7 juni 2024 nr. 925 ).</em></p>
+<p class="note">Endret ved lov 7 juni 2024 nr. 29 (i kraft 1 okt 2024 iflg. res. 7 juni 2024 nr. 925 ).</p>
 <h5 id="2-2-tid-og-sted-for-betaling">§ 2-2. Tid og sted for betaling</h5>
 <p>(1) Dersom betaleren har rett til å foreta oppgjør ved overføring til mottakerens konto, anses betalingen for å være skjedd når beløpet er godskrevet mottakerens betalingstjenesteyter. Ved overføring hos samme betalingstjenesteyter anses betalingen for å være skjedd når beløpet er godskrevet mottakerens konto. Når oppgjør skal skje med utbetaling i kontanter, anses betalingen for å være skjedd når beløpet er stilt til mottakerens disposisjon gjennom en betalingstjenesteyter på mottakerens sted og melding om dette er kommet frem til mottakeren.</p>
 <p>(2) Dersom ikke annet er avtalt, anses dessuten en fastsatt betalingsfrist for å være avbrutt</p>
@@ -248,7 +729,7 @@ c. dersom skyldneren før utløpet av akseptfristen i et forslag til endring av 
 <p>(5) Tjenesteyteren kan ikke kreve særskilt vederlag for oppfyllelse av opplysnings- eller varslingsplikter etter denne loven eller forskrift gitt i medhold av loven. I den utstrekning det er avtalt, kan det likevel kreves rimelige gebyrer i samsvar med tjenesteyterens faktiske kostnader for ytterligere eller hyppigere opplysninger eller varsler mv., eller for at opplysninger stilles til rådighet på annen måte enn det som kreves etter lov eller forskrift.</p>
 <p>(6) Annet til femte ledd gjelder ikke for tjenester som er omfattet av <a href="lov-2007-06-29-75.html">verdipapirhandelloven</a> , <a href="lov-2011-11-25-44.html">verdipapirfondloven</a> eller <a href="lov-2026-02-06-2.html">folkefinansieringsloven</a> .</p>
 <p>(7) Kongen kan i forskrift fastsette nærmere regler om tjenesteyterens plikter etter første til femte ledd, herunder krav til faglige kvalifikasjoner for virksomheten og ansatte i virksomheten, krav om dokumentasjon av kvalifikasjonene og regler om tilsyn med disse kravene.</p>
-<p><em>Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</p>
 <h5 id="3-2-elektroniske-meldinger-varsler-og-skriftlig-dokument">§ 3-2. Elektroniske meldinger, varsler og skriftlig dokument</h5>
 <p>(1) Meldinger mv. etter denne loven kan sendes til eller gjøres tilgjengelige for mottakeren ved bruk av elektronisk kommunikasjon dersom dette gjøres på en betryggende måte. Tjenesteyteren skal ved avtaleinngåelsen eller når elektronisk kommunikasjon benyttes første gang, opplyse mottakeren om at vedkommende kan reservere seg mot denne kommunikasjonsformen og om rettsvirkningene av valget, jf. annet ledd. Ved melding om heving, oppsigelse, sperring, tvangsfullbyrdelse eller lignende forhold som det er avgjørende at mottakeren får kunnskap om, skal tjenesteyteren forsikre seg om at mottakeren har fått kunnskap om at meldingen er mottatt.</p>
 <p>(2) Når det etter avtalerettslige regler er tillagt rettsvirkninger at en melding etter denne loven er kommet frem, anses en elektronisk melding til tjenesteyteren å være kommet frem fra det tidspunktet meldingen på en betryggende måte er sendt til eller gjort tilgjengelig for tjenesteyteren. En elektronisk melding fra tjenesteyteren anses for å være kommet frem først når mottakeren har fått kunnskap om at meldingen er mottatt. Har mottakeren samtykket til elektronisk kommunikasjon, anses meldingen likevel å være kommet frem når den på avtalt måte er kommet frem til mottakeren.</p>
@@ -265,7 +746,7 @@ c. dersom skyldneren før utløpet av akseptfristen i et forslag til endring av 
 b. Har kunden fylt 18 år, skal opplysningene gis til både kunden og vergen.</p>
 <p>(2) Første ledd gjelder tilsvarende for opplysninger som en tjenesteyter skal gi til en kunde etter en avtale som er omfattet av denne loven.</p>
 <p>(3) Kongen kan i forskrift fastsette at opplysninger som nevnt i første og annet ledd også skal gis til statsforvalteren. I forskriften kan det gis nærmere regler om hvordan opplysningsplikten skal oppfylles, herunder kan det gjøres unntak fra reglene i paragrafen her.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</p>
 <h5 id="3-5-alminnelig-bevisbyrde">§ 3-5. Alminnelig bevisbyrde</h5>
 <p>(1) Med mindre noe annet er særskilt bestemt, skal bevisbyrden for en faktisk omstendighet bæres av den part som har best mulighet for og oppfordring til å sikre bevis for denne omstendigheten.</p>
 <p>(2) Tjenesteyteren har likevel alltid bevisbyrden for at tjenesteyterens plikter etter lov og forskrift er oppfylt.</p>
@@ -368,7 +849,7 @@ c. avtaler om finansiell garanti e.l. til fordel for en forbruker.</p>
 <p>(4) Kunden kan så lenge avtaleforholdet består kreve å få avtalevilkårene og opplysningene nevnt i første ledd.</p>
 <p>(5) Gjelder avtalen flere enkeltstående tjenester på like vilkår som leveres innenfor en periode på ett år, gjelder reglene i første ledd ved første gangs levering selv om det ikke er inngått en innledende avtale om levering av tjenestene. Er det gått mer enn ett år siden siste gang tjenesten ble levert, skal opplysninger gis i samsvar med første ledd.</p>
 <p>(6) Kongen kan i forskrift gi nærmere regler om opplysningsplikt for visse avtaler eller finansielle tjenester som helt eller delvis fraviker opplysningsplikten i første ledd.</p>
-<p><em>Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</p>
 <h5 id="3-23-hvordan-opplysningene-skal-gis">§ 3-23. Hvordan opplysningene skal gis</h5>
 <p>(1) Når ikke noe annet er særskilt bestemt, skal avtalevilkårene og opplysningene nevnt i § 3-22 første ledd gis i et skriftlig dokument.</p>
 <p>(2) Ved fjernsalg til en forbruker skal opplysningene nevnt i § 3-22 første ledd dessuten gis i en form som er tilpasset den aktuelle metoden for fjernkommunikasjon.</p>
@@ -476,7 +957,7 @@ c. for kredittavtaler som ikke er omfattet av bokstav a eller b: skjemaet som er
 <p>(2) Kredittopplysningsskjemaet skal gis kunden før kredittavtalen inngås. Ved kredittavtaler nevnt i første ledd bokstav b kan kredittyteren oppfylle sin opplysningsplikt også på annen måte som like tydelig angir alle opplysninger og avtalevilkår i samsvar med § 3-23 første ledd.</p>
 <p>(3) Så langt avtalen gjelder kreditt, anses kredittyteren for å ha oppfylt opplysningsplikten etter § 3-22 første ledd når kunden har mottatt et personlig tilpasset og oppdatert kredittopplysningsskjema etter reglene i første og annet ledd.</p>
 <p>(4) Opplysninger som eventuelt gis kunden i tillegg til de opplysninger som inngår i det standardiserte kredittopplysningsskjemaet etter første ledd, skal gis i et separat skriftlig dokument.</p>
-<p><em>Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+<p class="note">Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</p>
 <h5 id="3-36-opplysninger-om-kausjonsansvar">§ 3-36. Opplysninger om kausjonsansvar</h5>
 <p>(1) Ved avtaler etter kapittel 6 skal det gis følgende opplysninger om kausjonsansvar:</p>
 <p>a. avtalevilkår og opplysninger som skal gis kredittkunden etter § 3-22 første ledd
@@ -596,7 +1077,7 @@ e. det er klart at avtalen vil bli vesentlig misligholdt, samtidig som et krav o
 <p>(4) Er kunden forbruker, kan heving bare skje dersom kunden er gitt en frist på to uker til å rette forholdet. Dette gjelder likevel ikke heving etter første ledd bokstav a.</p>
 <p>(5) Krav om heving skal meddeles kunden i et skriftlig dokument som skal inneholde opplysninger om hvilke forhold kravet om heving bygger på, opplysninger om hvilke krav tjenesteyteren gjør gjeldende etter § 3-52 , og opplysninger om klagebehandling etter § 3-53 tredje ledd tredje og fjerde punktum. Tjenesteyteren skal samtidig opplyse forbrukeren om hvordan heving eventuelt kan unngås etter fjerde ledd.</p>
 <p>(6) Reglene om reklamasjon i § 3-47 første ledd første punktum og annet ledd gjelder tilsvarende for tjenesteyterens hevingskrav.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="3-52-virkningen-av-at-tjenesteyteren-hever-avtalen">§ 3-52. Virkningen av at tjenesteyteren hever avtalen</h5>
 <p>(1) Ved tjenesteyterens heving faller partenes plikt til å oppfylle avtalen bort.</p>
 <p>(2) Er en kontoavtale eller kredittavtale helt eller delvis oppfylt, gjelder reglene om oppsigelse i § 4-42 tredje ledd og i § 5-13 annet og tredje ledd tilsvarende. For øvrig kan det som er mottatt, kreves tilbakeført så langt det etter forholdene lar seg gjøre. Det samme gjelder for avkastning eller vesentlig nytte en part har hatt av det som er mottatt.</p>
@@ -621,13 +1102,13 @@ e. opplysningsplikt overfor tjenesteyterens kunder.</p>
 <p>(3) Bestemmelsene gitt i eller i medhold av <a href="lov-2024-06-21-41.html">finanstilsynsloven</a> §§ 2-4 , 2-5 , 2-6 og 2-7 gjelder så langt de passer tilsvarende for ansatte i Forbrukertilsynet og medlemmer av Markedsrådet, med mindre noe annet følger av forskrift etter fjerde ledd.</p>
 <p>(4) Kongen kan i forskrift fastsette nærmere regler om Forbrukertilsynets og Markedsrådets tilsynskompetanse, om forholdet til andre tilsynsorgan og til utfylling av reglene nevnt i tredje ledd. Kongen kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr, jf. annet ledd.</p>
 <p>(5) Reglene i denne paragrafen medfører ingen begrensninger for Finanstilsynets tilsyn etter ellers gjeldende regler.</p>
-<p><em>Endret ved lover 17 juni 2022 nr. 59 (i kraft 17 juni 2022 iflg. res. 17 juni 2022 nr. 1033 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</em></p>
+<p class="note">Endret ved lover 17 juni 2022 nr. 59 (i kraft 17 juni 2022 iflg. res. 17 juni 2022 nr. 1033 ), 16 juni 2023 nr. 38 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 930 ), 21 juni 2024 nr. 41 (i kraft 1 april 2025 iflg. res. 21 mars 2025 nr. 479 ).</p>
 <h3 id="viii-finansoppdrag">VIII. Finansoppdrag</h3>
 <h5 id="3-56-forholdet-til-andre-lover-definisjoner">§ 3-56. Forholdet til andre lover. Definisjoner <a class="para-history" href="../historikk/lov-2020-12-18-146/para-3-56.html" title="Endringshistorikk for § 3-56" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>(1) §§ 3-57 og 3-58 gjelder ikke for tjenester som er omfattet av verdipapirhandelloven , verdipapirfondloven eller folkefinansieringsloven .</p>
 <p>(2) Med finansagent menes en tjenesteyter som formidler finansielle tjenester på oppdrag fra en eller flere tjenesteytere, og som handler fullt og helt på oppdragsgiverens ansvar for de finansielle tjenestene som formidles.</p>
 <p>(3) Med finansmegler menes en tjenesteyter som formidler finansielle tjenester som et uavhengig mellomledd og ikke påtar seg å fremme noen av partenes interesser særskilt.</p>
-<p><em>Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</em></p>
+<p class="note">Endret ved lover 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ), 6 feb 2026 nr. 2 (i kraft 1 aug 2026 iflg. res. 19 juni 2026 nr. 1152 ).</p>
 <h5 id="3-57-krav-til-finansmegleres-uavhengighet-mv">§ 3-57. Krav til finansmegleres uavhengighet mv.</h5>
 <p>En finansmegler skal på betryggende måte ivareta partenes interesser i samsvar med god meglerskikk og ikke innrette seg eller opptre på en måte som er egnet til å skape tvil om stillingen som uavhengig mellomledd. Ved vurderingen av finansmeglerens uavhengighet skal det særlig ses hen til oppdragets art, partenes stilling og finansmeglerens interesser. Like med et foretaks interesser regnes interesser til</p>
 <p>a. andre foretak i samme konsern
@@ -641,7 +1122,7 @@ b. Oppdragsgiveren skal frarådes å bruke en tjenesteyter og tjenesteyteren ska
 c. Oppdragsforetaket skal innenfor rammen av finansoppdraget sørge for at tjenesteyterens plikter overfor kunden blir oppfylt, så langt disse ikke er oppfylt av en tjenesteyter som er underlagt krav om meldeplikt eller særskilt tillatelse som nevnt i § 1-2 sjette ledd.</p>
 <p>(3) For oppdragsforetak som ikke er omfattet av reglene i <a href="lov-2022-12-16-91.html">låneformidlingsloven</a>, gjelder reglene fastsatt i og i medhold av låneformidlingsloven §§ 6-1 til 6-3 om forsikringsplikt mv. tilsvarende så langt de passer. For oppdragsforetakets klientmidler gjelder reglene fastsatt i og i medhold av <a href="lov-2021-12-22-163.html">forsikringsformidlingsloven</a> § 8-3 tilsvarende så langt de passer.</p>
 <p>(4) Kongen kan i forskrift fastsette nærmere regler om finansmegleres plikter og rettigheter.</p>
-<p><em>Endret ved lov 16 des 2022 nr. 91 (i kraft 1 juli 2023 iflg. res. 16 des 2022 nr. 2266 ).</em></p>
+<p class="note">Endret ved lov 16 des 2022 nr. 91 (i kraft 1 juli 2023 iflg. res. 16 des 2022 nr. 2266 ).</p>
 <h2 id="kapittel-4-kontoavtaler-og-betalingstjenester">Kapittel 4. Kontoavtaler og betalingstjenester</h2>
 <h3 id="i-retten-til-kontoavtaler-og-betalingstjenester">I. Retten til kontoavtaler og betalingstjenester</h3>
 <h5 id="4-1-retten-til-kontoavtaler-og-betalingstjenester">§ 4-1. Retten til kontoavtaler og betalingstjenester</h5>
@@ -960,7 +1441,7 @@ e. at kundens varslingsplikt etter § 4-24 første ledd og betalingstjenesteyter
 <p>(2) En verge kan inngå kontoavtale i den mindreåriges navn uten den andre vergens samtykke. Ved avtaleinngåelsen skal vergen opplyse om det finnes andre verger for den mindreårige. Finnes det flere verger, skal betalingstjenesteyteren informere den andre vergen om opprettelsen av kontoen.</p>
 <p>(3) Har en kunde flere verger, disponerer de kontoen i fellesskap, med mindre de skriftlig har gitt melding om noe annet, statsforvalteren har besluttet at bare én av vergene skal disponere kontoen etter vergemålsloven § 18 fjerde ledd, eller en gaveyter eller arvelater har besluttet at gaven eller arven skal forvaltes på en bestemt måte, jf. vergemålsloven § 95 .</p>
 <p>(4) Kongen kan i forskrift gi regler om kompetanse for barnevernsmyndigheten til å opprette konto for en mindreårig som det er iverksatt tiltak for etter <a href="lov-2021-06-18-97.html">barnevernsloven</a> , for midler som den mindreårige har rett til å disponere over etter reglene i vergemålsloven , herunder regler om kompetanse til å gi den mindreårige disposisjonsrett over slik konto selv om det ikke foreligger samtykke fra vergen.</p>
-<p><em>Endret ved lover 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ), 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+<p class="note">Endret ved lover 18 juni 2021 nr. 97 (i kraft 1 jan 2023 iflg. res. 14 okt 2022 nr. 1739 ), 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</p>
 <h2 id="kapittel-5-kredittavtaler">Kapittel 5. Kredittavtaler</h2>
 <h3 id="i-forklaringsplikt-kredittvurdering-og-avslagsplikt">I. Forklaringsplikt, kredittvurdering og avslagsplikt</h3>
 <h5 id="5-1-forklaringsplikt">§ 5-1. Forklaringsplikt</h5>
@@ -1094,7 +1575,7 @@ b. Tjenesteyteren kan kreve gebyr for oppsigelse av leieavtalen bare dersom det 
 <p>(2) Når det er sendt varsel etter første ledd, skal kredittyteren holde kausjonisten informert om den videre utviklingen i kredittforholdet. Har kausjonisten grunn til å tro at forholdet er brakt i orden etter et varslet mislighold, gjelder det en ny varslingsplikt etter første ledd ved mislighold av en senere betalingsforpliktelse.</p>
 <p>(3) Kredittyteren skal uten ugrunnet opphold varsle kausjonisten i et skriftlig dokument hver gang det avtales utsettelse for betaling av avdrag eller renter utover tre måneder.</p>
 <p>(4) Blir kredittyteren kjent med at kredittkunden er død, at det er åpnet gjeldsforhandling eller konkurs i kredittkundens bo, eller at kredittkunden har søkt om gjeldsforhandling etter <a href="lov-1992-07-17-99.html">gjeldsordningsloven</a> , skal kausjonisten varsles uten ugrunnet opphold.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="6-4-kausjonistens-rett-til-opplysninger">§ 6-4. Kausjonistens rett til opplysninger</h5>
 <p>Kausjonisten kan på ethvert tidspunkt kreve at kredittyteren opplyser om</p>
 <p>a. hvilket aktuelt beløp kausjonisten hefter for
@@ -1122,7 +1603,7 @@ c. resultatet av eventuelle undersøkelser som kredittyteren har foretatt av kre
 <p>(2) Varsel etter første ledd kan unnlates hvis kredittyteren har tatt rettslige skritt mot kredittkunden etter § 6-10 eller har varslet kausjonisten om at slike skritt vil bli tatt. Det samme gjelder hvis kredittkunden har innledet gjeldsforhandlinger, har søkt om gjeldsforhandling etter gjeldsordningsloven for namsfogden eller det er åpnet konkurs i kredittkundens bo.</p>
 <p>(3) Ved innfrielse av kausjonsansvaret trer kausjonisten etter alminnelige regler inn i kredittavtalen og de sikkerhetene som er stilt for kredittyterens krav.</p>
 <p>(4) Kredittyteren kan hindre at kausjonisten trer inn i kredittavtalen ved å frita kausjonisten for kausjonsansvaret i samme utstrekning som innfrielsen ville ha fritatt kausjonisten for videre ansvar.</p>
-<p><em>Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endret ved lov 19 juni 2026 nr. 45 (i kraft 1 juli 2026 iflg. res. 19 juni 2026 nr. 1146 ). Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="6-10-kausjonens-forfall-mv">§ 6-10. Kausjonens forfall mv.</h5>
 <p>(1) Kredittyteren kan ikke rette krav mot kausjonisten før det er tatt rettslige skritt mot kredittkunden for å få tvangsgrunnlag.</p>
 <p>(2) Har kredittyteren tvangsgrunnlag for utlegg, kan krav rettes mot kausjonisten når det er begjært utlegg mot kredittkunden.</p>
@@ -1131,7 +1612,7 @@ c. resultatet av eventuelle undersøkelser som kredittyteren har foretatt av kre
 <p>(5) Blir kredittkundens bo tatt under konkursbehandling, eller blir det åpnet gjeldsforhandling etter konkursloven , kan kredittyteren straks rette krav mot kausjonisten. Har kredittkunden stilt sikkerhet for gjelden som vil gi kredittyteren full dekning, gjelder likevel tredje ledd.</p>
 <p>(6) Når vilkårene i første til femte ledd er oppfylt, kan kredittyteren sende skriftlig påkrav til kausjonisten. Kausjonsansvaret forfaller til betaling 14 dager etter at påkravet er kommet frem.</p>
 <p>(7) Forfallsreglene i panteloven § 1-9 og sjøloven § 44 gjelder ikke for realkausjon som omfattes av kapitlet her.</p>
-<p><em>Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</em></p>
+<p class="note">Endres ved lov 19 juni 2026 nr. 48 (i kraft fra den tid Kongen bestemmer).</p>
 <h5 id="6-11-renter-ved-forsinket-betaling">§ 6-11. Renter ved forsinket betaling</h5>
 <p>(1) Når kredittyteren har varslet kausjonisten om kredittkundens mislighold i samsvar med § 6-3 første ledd, kan kredittyteren kreve kausjonisten for renter for tiden etter at det varslede misligholdet inntrådte, beregnet etter den rentesatsen som ville ha vært gjeldende i kredittavtalen om kreditten ikke var misligholdt. Er varsel sendt senere enn det som følger av § 6-3 første ledd, kan kredittyteren kreve renter som nevnt for betalingsforpliktelser som er forfalt senere enn tre måneder før varselet ble sendt.</p>
 <p>(2) Kausjonisten svarer ikke for særlige forsinkelsesrenter som følger av kredittkundens mislighold. Når kausjonsansvaret er forfalt, er kausjonisten ansvarlig for forsinkelsesrenter etter alminnelige regler.</p>
@@ -1154,7 +1635,7 @@ c. resultatet av eventuelle undersøkelser som kredittyteren har foretatt av kre
 <p>(1) Ved forsettlig eller uaktsom overtredelse av reglene om opplysningsplikt overfor forbruker ved fjernsalg eller salg utenom tjenesteyterens faste forretningslokaler etter §§ 3-22 til 3-39 og ved forsettlig eller uaktsom overtredelse av § 3-44 tredje ledd eller § 3-45 første ledd kan det fastsettes et overtredelsesgebyr etter reglene gitt i eller i medhold av angrerettloven § 29 .</p>
 <p>(2) Den som forsettlig eller uaktsomt overtrer reglene i § 2-1 tredje ledd , kan ilegges et overtredelsesgebyr dersom overtredelsen anses som vesentlig eller har skjedd gjentatte ganger.</p>
 <p>(3) Departementet kan i forskrift gi nærmere regler om utmåling av overtredelsesgebyr.</p>
-<p><em>Endret ved lover 18 feb 2022 nr. 5 (i kraft 1 juli 2022 iflg. res. 4 mars 2022 nr. 324 ), 7 juni 2024 nr. 29 (i kraft 1 jan 2025 iflg. res. 7 juni 2024 nr. 925 ).</em></p>
+<p class="note">Endret ved lover 18 feb 2022 nr. 5 (i kraft 1 juli 2022 iflg. res. 4 mars 2022 nr. 324 ), 7 juni 2024 nr. 29 (i kraft 1 jan 2025 iflg. res. 7 juni 2024 nr. 925 ).</p>
 <h2 id="kapittel-8-ikrafttredelse-og-overgangsregler-endringer-i-andre-lover">Kapittel 8. Ikrafttredelse og overgangsregler. Endringer i andre lover</h2>
 <h4 id="8-1-ikrafttredelse">§ 8-1. Ikrafttredelse</h4>
 <p>(1) Loven gjelder fra den tid 1 Kongen bestemmer. De enkelte bestemmelser i loven kan settes i kraft til ulik tid.</p>
@@ -1176,6 +1657,8 @@ e. § 7-1 om straff og § 7-2 om overtredelsesgebyr gjelder bare for overtredels
 5. Lov 25. juni 1999 nr. 46 om finansavtaler og finansoppdrag oppheves.
 – – –
 Endret ved lov 16 juni 2023 nr. 59 (i kraft 1 okt 2023 iflg. res. 16 juni 2023 nr. 934 ).</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

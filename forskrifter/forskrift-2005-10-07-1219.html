@@ -19,64 +19,243 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2005-10-07-1219.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Skiltforskriften" href="../feeds/forskrift-2005-10-07-1219.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Skiltforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2005-10-07-1219</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Transport og kommunikasjoner &raquo; Veitrafikk</dd>
-<dt>Ikrafttredelse</dt><dd>2005-10-07, 2006-06-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-08-12-1625</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2005-10-07-1219" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-innledende-bestemmelser">§ 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#2-gyldighet-virkeomrade-mm">§ 2. Gyldighet, virkeområde m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-2-fareskilt">Kapittel 2. Fareskilt</a></li>
+<li class="lvl4"><a href="#3-alminnelige-bestemmelser">§ 3. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#4-de-enkelte-fareskilt">§ 4. De enkelte fareskilt</a></li>
+<li class="lvl2"><a href="#kapittel-3-vikeplikt-og-forkjrsskilt">Kapittel 3. Vikeplikt- og forkjørsskilt</a></li>
+<li class="lvl4"><a href="#5-alminnelige-bestemmelser">§ 5. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#6-de-enkelte-vikeplikt-og-forkjrsskilt">§ 6. De enkelte vikeplikt- og forkjørsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-4-forbudsskilt">Kapittel 4. Forbudsskilt</a></li>
+<li class="lvl4"><a href="#7-alminnelige-bestemmelser">§ 7. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-de-enkelte-forbudsskilt">§ 8. De enkelte forbudsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-5-pabudsskilt">Kapittel 5. Påbudsskilt</a></li>
+<li class="lvl4"><a href="#9-alminnelige-bestemmelser">§ 9. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#10-de-enkelte-pabudsskilt">§ 10. De enkelte påbudsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-6-opplysningsskilt">Kapittel 6. Opplysningsskilt</a></li>
+<li class="lvl4"><a href="#11-alminnelige-bestemmelser">§ 11. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#12-de-enkelte-opplysningsskilt">§ 12. De enkelte opplysningsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-6a-skilt-med-trafikksikkerhetsinformasjon">Kapittel 6a. Skilt med trafikksikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#12a-alminnelige-bestemmelser">§ 12a. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#12b-de-enkelte-skilt">§ 12b. De enkelte skilt</a></li>
+<li class="lvl2"><a href="#kapittel-7-serviceskilt">Kapittel 7. Serviceskilt</a></li>
+<li class="lvl4"><a href="#13-alminnelige-bestemmelser">§ 13. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#14-de-enkelte-serviceskilt">§ 14. De enkelte serviceskilt</a></li>
+<li class="lvl2"><a href="#kapittel-8-vegvisningsskilt">Kapittel 8. Vegvisningsskilt</a></li>
+<li class="lvl4"><a href="#15-alminnelige-bestemmelser">§ 15. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#16-de-enkelte-vegvisningsskilt">§ 16. De enkelte vegvisningsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-9-underskilt">Kapittel 9. Underskilt</a></li>
+<li class="lvl4"><a href="#17-alminnelige-bestemmelser">§ 17. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#18-de-enkelte-underskilt">§ 18. De enkelte underskilt</a></li>
+<li class="lvl2"><a href="#kapittel-10-markeringsskilt-mm">Kapittel 10. Markeringsskilt m.m.</a></li>
+<li class="lvl4"><a href="#19-alminnelige-bestemmelser">§ 19. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#20-de-enkelte-markeringsskilt-mm">§ 20. De enkelte markeringsskilt m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-11-vegoppmerking">Kapittel 11. Vegoppmerking</a></li>
+<li class="lvl4"><a href="#21-alminnelige-bestemmelser">§ 21. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#22-de-enkelte-linjer-og-symboler">§ 22. De enkelte linjer og symboler</a></li>
+<li class="lvl2"><a href="#kapittel-12-trafikklyssignaler-og-anvisning-gitt-av-politiet">Kapittel 12. Trafikklyssignaler og anvisning gitt av politiet</a></li>
+<li class="lvl4"><a href="#23-alminnelige-bestemmelser-trafikklyssignal">§ 23. Alminnelige bestemmelser – trafikklyssignal</a></li>
+<li class="lvl4"><a href="#24-de-enkelte-signaler">§ 24. De enkelte signaler</a></li>
+<li class="lvl4"><a href="#25-anvisning-gitt-av-politiet">§ 25. Anvisning gitt av politiet</a></li>
+<li class="lvl2"><a href="#kapittel-13-skiltmyndigheter-mm">Kapittel 13. Skiltmyndigheter m.m.</a></li>
+<li class="lvl4"><a href="#26-myndighet-for-fartsgrenser-mm">§ 26. Myndighet for fartsgrenser m.m.</a></li>
+<li class="lvl4"><a href="#27-myndighet-for-forkjrsveg-motorveg-mm">§ 27. Myndighet for forkjørsveg, motorveg m.m.</a></li>
+<li class="lvl4"><a href="#28-myndighet-for-trafikkregulerende-skilt">§ 28. Myndighet for trafikkregulerende skilt</a></li>
+<li class="lvl4"><a href="#29-myndighet-for-andre-offentlige-trafikkskilt">§ 29. Myndighet for andre offentlige trafikkskilt</a></li>
+<li class="lvl4"><a href="#30-myndighet-for-trafikklyssignal-og-vegoppmerking">§ 30. Myndighet for trafikklyssignal og vegoppmerking</a></li>
+<li class="lvl4"><a href="#31-overprving-av-skiltvedtak-mm">§ 31. Overprøving av skiltvedtak m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-14-midlertidig-skilting-mm-ved-varsling-av-arbeid-og-tilstelninger-pa-offentlig-veg">Kapittel 14. Midlertidig skilting m.m. ved varsling av arbeid og tilstelninger på offentlig veg</a></li>
+<li class="lvl4"><a href="#32-alminnelige-bestemmelser">§ 32. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#33-ansvar">§ 33. Ansvar</a></li>
+<li class="lvl4"><a href="#34-sanksjoner">§ 34. Sanksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-15-srlige-bestemmelser">Kapittel 15. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#35-tekniske-bestemmelser-normaler-mm">§ 35. Tekniske bestemmelser (normaler) m.m.</a></li>
+<li class="lvl4"><a href="#36-vedtak-skiltregister">§ 36. Vedtak, skiltregister</a></li>
+<li class="lvl4"><a href="#37-alminnelige-bestemmelser-om-dekking-av-skiltutgifter">§ 37. Alminnelige bestemmelser om dekking av skiltutgifter</a></li>
+<li class="lvl4"><a href="#38-generelt-om-dekking-av-utgifter-til-serviceskilting-virksomhetsvisning-og-skilting-ved-tilstelninger">§ 38. Generelt om dekking av utgifter til serviceskilting, virksomhetsvisning og skilting ved tilstelninger</a></li>
+<li class="lvl4"><a href="#39-egenandel-for-serviceskilt-og-virksomhetsvisning-med-servicesymbol">§ 39. Egenandel for serviceskilt og virksomhetsvisning med servicesymbol</a></li>
+<li class="lvl4"><a href="#40-egenandel-for-annen-virksomhetsvisning">§ 40. Egenandel for annen virksomhetsvisning</a></li>
+<li class="lvl4"><a href="#41-betaling-av-egenandel">§ 41. Betaling av egenandel</a></li>
+<li class="lvl4"><a href="#42-ny-egenandel-ved-endring-av-eksisterende-skilt">§ 42. Ny egenandel ved endring av eksisterende skilt</a></li>
+<li class="lvl4"><a href="#43-kostnader-for-skilting-ved-tilstelninger">§ 43. Kostnader for skilting ved tilstelninger</a></li>
+<li class="lvl4"><a href="#44-unntak-fra-38-43">§ 44. Unntak fra§ 38– § 43</a></li>
+<li class="lvl4"><a href="#44a-dekning-av-utgifter-til-skilt-590-trafikksikkerhetsinformasjon">§ 44a. Dekning av utgifter til skilt 590 Trafikksikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#45-trafikkskilting-for-private-veger">§ 45. Trafikkskilting for private veger</a></li>
+<li class="lvl4"><a href="#46-utfyllingsbestemmelser-unntak">§ 46. Utfyllingsbestemmelser, unntak</a></li>
+<li class="lvl4"><a href="#46a-bestemmelser-om-utprving-av-nye-trafikkskilt-mm">§ 46a. Bestemmelser om utprøving av nye trafikkskilt m.m.</a></li>
+<li class="lvl4"><a href="#47-ikrafttreden-og-overgangsbestemmelser-mm">§ 47. Ikrafttreden og overgangsbestemmelser m.m.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-08-12-1625.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-10-07-1219.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om offentlige trafikkskilt, vegoppmerking, trafikklyssignaler og anvisninger (skiltforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-10-07-1219.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2005-10-07-1219 <code>forskrift/2005-10-07-1219</code></td></tr>
+<tr><th>Korttittel</th><td>Skiltforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Transport og kommunikasjoner &raquo; Veitrafikk</td></tr>
+<tr><th>Ikrafttredelse</th><td>07.10.2005, 01.06.2006</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-08-12-1625 <code>forskrift/2026-08-12-1625</code> fra 12.08.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2005-10-07-1219" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledning">Kapittel 1. Innledning</a></li>
+<li class="lvl4"><a href="#1-innledende-bestemmelser">§ 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#2-gyldighet-virkeomrade-mm">§ 2. Gyldighet, virkeområde m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-2-fareskilt">Kapittel 2. Fareskilt</a></li>
+<li class="lvl4"><a href="#3-alminnelige-bestemmelser">§ 3. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#4-de-enkelte-fareskilt">§ 4. De enkelte fareskilt</a></li>
+<li class="lvl2"><a href="#kapittel-3-vikeplikt-og-forkjrsskilt">Kapittel 3. Vikeplikt- og forkjørsskilt</a></li>
+<li class="lvl4"><a href="#5-alminnelige-bestemmelser">§ 5. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#6-de-enkelte-vikeplikt-og-forkjrsskilt">§ 6. De enkelte vikeplikt- og forkjørsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-4-forbudsskilt">Kapittel 4. Forbudsskilt</a></li>
+<li class="lvl4"><a href="#7-alminnelige-bestemmelser">§ 7. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#8-de-enkelte-forbudsskilt">§ 8. De enkelte forbudsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-5-pabudsskilt">Kapittel 5. Påbudsskilt</a></li>
+<li class="lvl4"><a href="#9-alminnelige-bestemmelser">§ 9. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#10-de-enkelte-pabudsskilt">§ 10. De enkelte påbudsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-6-opplysningsskilt">Kapittel 6. Opplysningsskilt</a></li>
+<li class="lvl4"><a href="#11-alminnelige-bestemmelser">§ 11. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#12-de-enkelte-opplysningsskilt">§ 12. De enkelte opplysningsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-6a-skilt-med-trafikksikkerhetsinformasjon">Kapittel 6a. Skilt med trafikksikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#12a-alminnelige-bestemmelser">§ 12a. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#12b-de-enkelte-skilt">§ 12b. De enkelte skilt</a></li>
+<li class="lvl2"><a href="#kapittel-7-serviceskilt">Kapittel 7. Serviceskilt</a></li>
+<li class="lvl4"><a href="#13-alminnelige-bestemmelser">§ 13. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#14-de-enkelte-serviceskilt">§ 14. De enkelte serviceskilt</a></li>
+<li class="lvl2"><a href="#kapittel-8-vegvisningsskilt">Kapittel 8. Vegvisningsskilt</a></li>
+<li class="lvl4"><a href="#15-alminnelige-bestemmelser">§ 15. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#16-de-enkelte-vegvisningsskilt">§ 16. De enkelte vegvisningsskilt</a></li>
+<li class="lvl2"><a href="#kapittel-9-underskilt">Kapittel 9. Underskilt</a></li>
+<li class="lvl4"><a href="#17-alminnelige-bestemmelser">§ 17. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#18-de-enkelte-underskilt">§ 18. De enkelte underskilt</a></li>
+<li class="lvl2"><a href="#kapittel-10-markeringsskilt-mm">Kapittel 10. Markeringsskilt m.m.</a></li>
+<li class="lvl4"><a href="#19-alminnelige-bestemmelser">§ 19. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#20-de-enkelte-markeringsskilt-mm">§ 20. De enkelte markeringsskilt m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-11-vegoppmerking">Kapittel 11. Vegoppmerking</a></li>
+<li class="lvl4"><a href="#21-alminnelige-bestemmelser">§ 21. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#22-de-enkelte-linjer-og-symboler">§ 22. De enkelte linjer og symboler</a></li>
+<li class="lvl2"><a href="#kapittel-12-trafikklyssignaler-og-anvisning-gitt-av-politiet">Kapittel 12. Trafikklyssignaler og anvisning gitt av politiet</a></li>
+<li class="lvl4"><a href="#23-alminnelige-bestemmelser-trafikklyssignal">§ 23. Alminnelige bestemmelser – trafikklyssignal</a></li>
+<li class="lvl4"><a href="#24-de-enkelte-signaler">§ 24. De enkelte signaler</a></li>
+<li class="lvl4"><a href="#25-anvisning-gitt-av-politiet">§ 25. Anvisning gitt av politiet</a></li>
+<li class="lvl2"><a href="#kapittel-13-skiltmyndigheter-mm">Kapittel 13. Skiltmyndigheter m.m.</a></li>
+<li class="lvl4"><a href="#26-myndighet-for-fartsgrenser-mm">§ 26. Myndighet for fartsgrenser m.m.</a></li>
+<li class="lvl4"><a href="#27-myndighet-for-forkjrsveg-motorveg-mm">§ 27. Myndighet for forkjørsveg, motorveg m.m.</a></li>
+<li class="lvl4"><a href="#28-myndighet-for-trafikkregulerende-skilt">§ 28. Myndighet for trafikkregulerende skilt</a></li>
+<li class="lvl4"><a href="#29-myndighet-for-andre-offentlige-trafikkskilt">§ 29. Myndighet for andre offentlige trafikkskilt</a></li>
+<li class="lvl4"><a href="#30-myndighet-for-trafikklyssignal-og-vegoppmerking">§ 30. Myndighet for trafikklyssignal og vegoppmerking</a></li>
+<li class="lvl4"><a href="#31-overprving-av-skiltvedtak-mm">§ 31. Overprøving av skiltvedtak m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-14-midlertidig-skilting-mm-ved-varsling-av-arbeid-og-tilstelninger-pa-offentlig-veg">Kapittel 14. Midlertidig skilting m.m. ved varsling av arbeid og tilstelninger på offentlig veg</a></li>
+<li class="lvl4"><a href="#32-alminnelige-bestemmelser">§ 32. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#33-ansvar">§ 33. Ansvar</a></li>
+<li class="lvl4"><a href="#34-sanksjoner">§ 34. Sanksjoner</a></li>
+<li class="lvl2"><a href="#kapittel-15-srlige-bestemmelser">Kapittel 15. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#35-tekniske-bestemmelser-normaler-mm">§ 35. Tekniske bestemmelser (normaler) m.m.</a></li>
+<li class="lvl4"><a href="#36-vedtak-skiltregister">§ 36. Vedtak, skiltregister</a></li>
+<li class="lvl4"><a href="#37-alminnelige-bestemmelser-om-dekking-av-skiltutgifter">§ 37. Alminnelige bestemmelser om dekking av skiltutgifter</a></li>
+<li class="lvl4"><a href="#38-generelt-om-dekking-av-utgifter-til-serviceskilting-virksomhetsvisning-og-skilting-ved-tilstelninger">§ 38. Generelt om dekking av utgifter til serviceskilting, virksomhetsvisning og skilting ved tilstelninger</a></li>
+<li class="lvl4"><a href="#39-egenandel-for-serviceskilt-og-virksomhetsvisning-med-servicesymbol">§ 39. Egenandel for serviceskilt og virksomhetsvisning med servicesymbol</a></li>
+<li class="lvl4"><a href="#40-egenandel-for-annen-virksomhetsvisning">§ 40. Egenandel for annen virksomhetsvisning</a></li>
+<li class="lvl4"><a href="#41-betaling-av-egenandel">§ 41. Betaling av egenandel</a></li>
+<li class="lvl4"><a href="#42-ny-egenandel-ved-endring-av-eksisterende-skilt">§ 42. Ny egenandel ved endring av eksisterende skilt</a></li>
+<li class="lvl4"><a href="#43-kostnader-for-skilting-ved-tilstelninger">§ 43. Kostnader for skilting ved tilstelninger</a></li>
+<li class="lvl4"><a href="#44-unntak-fra-38-43">§ 44. Unntak fra§ 38– § 43</a></li>
+<li class="lvl4"><a href="#44a-dekning-av-utgifter-til-skilt-590-trafikksikkerhetsinformasjon">§ 44a. Dekning av utgifter til skilt 590 Trafikksikkerhetsinformasjon</a></li>
+<li class="lvl4"><a href="#45-trafikkskilting-for-private-veger">§ 45. Trafikkskilting for private veger</a></li>
+<li class="lvl4"><a href="#46-utfyllingsbestemmelser-unntak">§ 46. Utfyllingsbestemmelser, unntak</a></li>
+<li class="lvl4"><a href="#46a-bestemmelser-om-utprving-av-nye-trafikkskilt-mm">§ 46a. Bestemmelser om utprøving av nye trafikkskilt m.m.</a></li>
+<li class="lvl4"><a href="#47-ikrafttreden-og-overgangsbestemmelser-mm">§ 47. Ikrafttreden og overgangsbestemmelser m.m.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-10-07-1219.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2005-10-07-1219.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2005-10-07-1219.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2005-10-07-1219.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2005-10-07-1219.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-10-07-1219.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2005-10-07-1219.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2005-10-07-1219.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2005-10-07-1219.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-offentlige-trafikkskilt-vegoppmerking-trafikklyssignaler-og-anvisninger-skiltforskriften">Forskrift om offentlige trafikkskilt, vegoppmerking, trafikklyssignaler og anvisninger (skiltforskriften)</h1>
 <h2 id="kapittel-1-innledning">Kapittel 1. Innledning</h2>
 <h4 id="1-innledende-bestemmelser">§ 1. Innledende bestemmelser</h4>
 <ol>
@@ -293,7 +472,7 @@ Endret ved forskrift 21 nov 2011 nr. 1125 (i kraft 1 jan 2012).</em></p>
 <p>Vegoppmerking skal anlegges på ensfarget dekke. Der det er flere kjørefelt for ulik bruk, herunder parkeringsfelt, kan dekket på de enkelte feltene likevel ha forskjellig farge.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 30 mai 2022 nr. 933 (i kraft 15 juni 2022), 22 juli 2024 nr. 1801 .</em></p>
+<p class="note">Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 30 mai 2022 nr. 933 (i kraft 15 juni 2022), 22 juli 2024 nr. 1801 .</p>
 <h4 id="22-de-enkelte-linjer-og-symboler">§ 22. De enkelte linjer og symboler</h4>
 <p>Langsgående oppmerking nyttes for å dele kjørebanen i kjørefelt eller for å angi kjørebanens ytterkant. Slik oppmerking kan også brukes på sykkelveg og gang- og sykkelveg. 1000 1000 Kjørefeltlinje Kjørefeltlinje kan overskrides når det skjer i samsvar med trafikkreglenes bestemmelser. 1002 1002 Varsellinje Gul varsellinje angir at sikten fremover er for kort til vanlig forbikjøring. Hvit varsellinje angir fare ved å skifte kjørefelt. Slik oppmerking kan også brukes på sykkelveger for å skille forskjellige retninger, samt på korte strekninger på gang- og sykkelveg der det er dårlige siktforhold. 1004 1004 Sperrelinje Linjen skiller kjørefelt. Det må ikke kjøres på eller over sperrelinje, eller til venstre for gul sperrelinje. 1006 1006 Kombinerte linjer Ved kombinerte linjer skal kjørende rette seg etter den linjen som ligger nærmest. Den som har kjørt over i felt for motgående kjørende, kan likevel kjøre tilbake til høyre vegside. Dobbel, gul varsellinje angir skille mellom kjørefelt hvor kjøreretningen kan varieres. 1008 1008 Skillelinje Linjen skiller mellom vanlig kjørefelt og fartsendringsfelt, kollektivfelt, sambruksfelt, tungtrafikkfelt, sykkelfelt eller annet kjørefelt for spesiell bruk. 1010 1010 Ledelinje Ledelinjen angir føring av kjørefelt eller svingebevegelser gjennom vegkryss. 1012 1012 Kantlinje Linjen angir kjørebanens ytterkant. 1014 1014 Sperreområde Det må ikke kjøres på sperreområde begrenset av heltrukken linje. To langsgående parallelle sperrelinjer hvor avstanden mellom dem ikke er over 100 cm og det er foretatt fresing mellom linjene regnes som sperreområde.</p>
 <p><em>A. Langsgående oppmerking
@@ -313,7 +492,7 @@ Endret ved forskrifter 17 juli 2008 nr. 812 , 24 mai 2011 nr. 543 (i kraft 15 ju
 <p>Hvis flere like signaler er synlige i kjøreretningen, gjelder første signal.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrift 21 nov 2011 nr. 1125 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 21 nov 2011 nr. 1125 (i kraft 1 jan 2012).</p>
 <h4 id="24-de-enkelte-signaler">§ 24. De enkelte signaler</h4>
 <p><em>A. Signaler med fast lys 1080 1080 Hovedsignal Ved rødt lys må kjørende ikke passere signal eller stopplinje. Gående må ikke begynne kryssing av kjørebanen hvis dette vil være til hinder for kjørende, eller innebære fare. Rødt lys sammen med gult lys varsler at veksling til grønt lys vil skje straks. Ved grønt lys kan kjørende passere signal eller stopplinje dersom vegen er fri. Gående kan krysse kjørebane. Gult lys alene varsler at veksling til rødt lys vil skje straks, og at kjørende skal stanse. Kjørende kan likevel passere signalet eller stopplinjen hvis kjøretøyet er nådd så langt fram at stans ikke kan skje uten fare. 1082.1 1082.2 1082.3 1082 Pilsignal Signalet gjelder for dem som vil kjøre i den retning pilen viser. Pilsignal kan ha en, to eller tre lysåpninger. 1084 1084 Sykkelsignal Sykkelsignal gjelder for kjørende i sykkelfelt og sykkelkryssing. Sykkelsignal kan ha pilsignal. 1086 1086 Fotgjengersignal Rødt signal betyr at gående ikke må begynne kryssing av kjørebanen hvis dette vil være til hinder for kjørende, eller innebære fare. Gående som allerede er kommet ut i kjørebanen, kan fortsette kryssingen. Grønt signal betyr at gående kan krysse kjørebanen. Blinkende, grønt signal varsler at signalet om kort tid vil skifte til rødt, og har samme betydning som rødt signal. 1088 1088 Signal for kollektivtrafikk Lys i øvre, midtre eller nedre lysåpning eller i kombinasjon av disse har samme betydning som lys i tilsvarende lysåpninger i hovedsignal. 1090 1090 Kjørefeltsignal Rødt kryss angir forbud mot å nytte feltet i retning mot signalet. Grønn pil angir at feltet kan nyttes. Gul pil angir at feltet vil bli stengt, og at kjørende straks må foreta feltskifte i den retning pilen viser. 1092 1092 Tolyssignal Rødt lys betyr at kjørende ikke må passere signal eller stopplinje. Grønt lys betyr at signalet kan passeres. Tolyssignal kan være utført i form av kjøretøysymbol. Overtredelse av tolyssignal kan ikke straffes.
 B. Signaler med blinkende lys 1094 1094 Rødt stoppblinksignal Trafikant må ikke passere signalet. Stans skal skje ved stopplinje eller i betryggende avstand foran signalet. Rødt stoppblinksignal viser ett eller to vekselvis blinkende røde lys. 1096 1096 1096 Blinkende signal foran jernbane Rødt blinksignal angir at trafikant skal stanse ved stopplinje eller i betryggende avstand foran signalet. Hvitt blinksignal angir at planovergang kan passeres i samsvar med trafikkreglenes bestemmelser. Hvitt blinksignal viser at signalanlegget er i drift. 1098 1098 Gult blinksignal Signalet angir at trafikantene må vise særlig aktpågivenhet og varsomhet. 1100.1 1100.2 1100 Blinkende lyspil Lyspilen angir at trafikantene skal passere på den side som pilen peker mot.
@@ -333,7 +512,7 @@ c. Når lykt med rødt lys svinges fram og tilbake, skal trafikant som ferdes i 
 <p>Statens vegvesen kan treffe vedtak om et område skal anses som tettbygd strøk etter vegtrafikkloven § 6 annet ledd og fastsette grensen for det tettbygde strøket. Før Statens vegvesen treffer slikt vedtak, skal politiet og kommunen få uttale seg. Omfatter området bare kommunale veger, treffes slikt vedtak av kommunen etter at Statens vegvesen og politiet har fått uttale seg.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 25 sep 2014 nr. 1241 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 25 sep 2014 nr. 1241 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="27-myndighet-for-forkjrsveg-motorveg-mm">§ 27. Myndighet for forkjørsveg, motorveg m.m.</h4>
 <ol>
 <li>
@@ -343,7 +522,7 @@ c. Når lykt med rødt lys svinges fram og tilbake, skal trafikant som ferdes i 
 <p>Vegdirektoratet kan treffe vedtak om å sette opp eller å ta ned skilt 502 «Motorveg», 503 «Motortrafikkveg», 504 «Slutt på motorveg» og 505 «Slutt på motortrafikkveg» samt skilt 308 «Forbudt for transport av farlig gods».</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020), 19 april 2022 nr. 583 .</em></p>
+<p class="note">Endret ved forskrifter 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020), 19 april 2022 nr. 583 .</p>
 <h4 id="28-myndighet-for-trafikkregulerende-skilt">§ 28. Myndighet for trafikkregulerende skilt</h4>
 <ol>
 <li>For offentlig og privat veg kan Statens vegvesen treffe vedtak om å sette opp eller å ta ned</li>
@@ -360,7 +539,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Dersom vedtak etter nr. 1 eller nr. 2 er av særlig stor betydning eller i særlig grad berører kommunale interesser, skal kommunen få uttale seg før vedtak treffes. Tilsvarende skal ansvarlig for privat veg få uttale seg dersom vedtaket vil gjelde for den private vegen. Før Statens vegvesen treffer vedtak etter nr. 1 og nr. 2 for riksveg, fylkesveg eller kommunal veg, skal politiet få uttale seg. Før Statens vegvesen eller politiet treffer vedtak etter nr. 1 for kommunal veg, skal kommunen få uttale seg. Før kommunen treffer vedtak, skal Statens vegvesen og politiet få uttale seg. Unntatt fra høring som nevnt i dette nummer, er skiltene 324 «Stopp for angitt formål», 326 «Stopp for toll», 406 «Påbudt rundkjøring», 518 «Gangveg», 520 «Sykkelveg», 521 «Sykkelfelt», 522 «Gang- og sykkelveg», 524 «Møteplass», 528 «Valgfritt kjørefelt», 530 «Sammenfletting», 531 «Felt for fartsøkning», 532 «Kjørefelt slutter», 534 «Kjørefelt begynner», 536 «Påkjøring fortsetter i eget kjørefelt», 538 «Kjørefeltinndeling», 539 «Endret kjøremønster» og 560 «Opplysningstavle». Høring kreves heller ikke for skiltene 312 «Breddegrense», 314 «Høydegrense», 316 «Lengdegrense», 318 «Totalvektgrense», 320 «Aksellastgrense», 322 «Boggilastgrense», 402 «Påbudt kjøreretning» eller 404 «Påbudt kjørefelt» når reguleringen er en følge av rent tekniske forhold ved vegen. Det kan treffes midlertidig vedtak for et tidsrom av inntil tre måneder uten at det er innhentet uttalelser som nevnt i nummeret her. Politiet kan regulere vegtrafikken med skilt i samsvar med vegtrafikkloven § 9 . Vedkommende myndighet kan regulere vegtrafikken med skilt i samsvar med vegtrafikkloven § 7 annet ledd. For veger hvor kommunen har fått delegert vedlikeholdsansvar etter vegloven, har kommunen denne myndighet.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 14 jan 2013 nr. 40 , 25 sep 2014 nr. 1241 som endret ved forskrift 10 des 2014 nr. 1553 (i kraft 1 jan 2015), 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 14 jan 2013 nr. 40 , 25 sep 2014 nr. 1241 som endret ved forskrift 10 des 2014 nr. 1553 (i kraft 1 jan 2015), 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="29-myndighet-for-andre-offentlige-trafikkskilt">§ 29. Myndighet for andre offentlige trafikkskilt</h4>
 <ol>
 <li>
@@ -376,7 +555,7 @@ c. eventuelle underskilt til disse.</p>
 <p>For skilt 729 Gate-/vegnavnskilt treffer kommunen vedtak også for privat veg. Før Statens vegvesen eller kommunen fatter vedtak om slikt skilt skal henholdsvis kommunen og Statens vegvesen få uttale seg.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 27 nov 2008 nr. 1262 (i kraft 1 juli 2009 jf. vedtak 17 april 2009 nr. 425 ), 9 des 2009 nr. 1517 (i kraft 1 jan 2010), 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 27 nov 2008 nr. 1262 (i kraft 1 juli 2009 jf. vedtak 17 april 2009 nr. 425 ), 9 des 2009 nr. 1517 (i kraft 1 jan 2010), 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="30-myndighet-for-trafikklyssignal-og-vegoppmerking">§ 30. Myndighet for trafikklyssignal og vegoppmerking</h4>
 <ol>
 <li>
@@ -392,7 +571,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Myndighet som nevnt i § 28 nr. 3 femte ledd kan også treffe vedtak som nevnt i paragrafen her.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 5 mai 2017 nr. 531 , 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="31-overprving-av-skiltvedtak-mm">§ 31. Overprøving av skiltvedtak m.m.</h4>
 <ol>
 <li>
@@ -414,7 +593,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Krav om overprøving av vedtak etter nr. 1 – 4 må framsettes for Vegdirektoratet innen tre måneder etter at vedtaket er truffet.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h2 id="kapittel-14-midlertidig-skilting-mm-ved-varsling-av-arbeid-og-tilstelninger-pa-offentlig-veg">Kapittel 14. Midlertidig skilting m.m. ved varsling av arbeid og tilstelninger på offentlig veg</h2>
 <h4 id="32-alminnelige-bestemmelser">§ 32. Alminnelige bestemmelser</h4>
 <ol>
@@ -425,7 +604,7 @@ c. eventuelle underskilt til disse.</p>
 <p>For riks- og fylkesveg er Statens vegvesen skiltmyndighet for varslingen, og for kommunal veg er kommunen skiltmyndighet. For riks- og fylkesveg hvor kommunen har fått myndighet etter vegloven § 17 og § 18 , er kommunen ansvarlig skiltmyndighet etter denne forskrift. Kommune som har fått slik myndighet, kan overføre myndigheten til annen kommune som også selv har slik myndighet.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="33-ansvar">§ 33. Ansvar</h4>
 <ol>
 <li>
@@ -438,7 +617,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Utførende etat eller entreprenør skal for hvert enkelt arbeidssted utpeke en som er ansvarlig for å påse at varslingen er korrekt og i henhold til planen. Kopi av vedtak, loggbok, arbeidsvarslingsplan og eventuelle vilkår som måtte være fastsatt for vedkommende arbeid skal være tilstede og tilgjengelig på arbeidsstedet. Den ansvarlige skal sørge for at nødvendig varslings- og sikringsmateriell er tilstede, og at varsling og sikring av arbeidsstedet til enhver tid er utført i henhold til godkjent plan. Ved sykdom, ferieavvikling m.m. skal ansvaret overføres til annen kompetent person. Den ansvarliges navn og telefon skal meddeles skiltmyndigheten.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrift 21 nov 2011 nr. 1125 (i kraft 1 jan 2012).</em></p>
+<p class="note">Endret ved forskrift 21 nov 2011 nr. 1125 (i kraft 1 jan 2012).</p>
 <h4 id="34-sanksjoner">§ 34. Sanksjoner</h4>
 <ol>
 <li>
@@ -448,7 +627,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Delegering av ansvar etter § 33 nr. 2 for gjennomføring og oppfølging av skiltplan kan unnlates eller trekkes tilbake for kortere eller lengre tid til den som utfører arbeidsvarsling og som ikke retter seg etter pålegg gitt av skiltmyndigheten, vegmyndigheten eller politiet, eller som i løpet av tolv måneder har mottatt to slike pålegg, uavhengig av om disse i ettertid er fulgt opp.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 25 sep 2014 nr. 1241 .</em></p>
+<p class="note">Endret ved forskrifter 21 nov 2011 nr. 1125 (i kraft 1 jan 2012), 25 sep 2014 nr. 1241 .</p>
 <h2 id="kapittel-15-srlige-bestemmelser">Kapittel 15. Særlige bestemmelser</h2>
 <h4 id="35-tekniske-bestemmelser-normaler-mm">§ 35. Tekniske bestemmelser (normaler) m.m.</h4>
 <p>Nærmere tekniske bestemmelser og retningslinjer (normaler) for anvendelse, utforming, størrelse og plassering av offentlige trafikkskilt, trafikklyssignaler og vegoppmerking, gis av Vegdirektoratet. Slike bestemmelser anses ikke som forskrift etter forvaltningsloven. Bestemmelsene er bindende for vedtaksmyndighetene.</p>
@@ -501,7 +680,7 @@ c. eventuelle underskilt til disse.</p>
 <ol>
 <li>Dersom det benyttes felles skilt eller symbol for flere foretak, deles egenandelen likt mellom foretakene. Vegmyndigheten skal ikke kreve ny, delvis egenandel dersom et nytt foretak kan nyttiggjøre seg eksisterende skilt eller symbol uten øvrige endringer. Det skal derfor ikke tilbakebetales egenandel til de foretak som har betalt egenandel for de samme skiltene.</li>
 </ol>
-<p><em>Endret ved forskrifter 25 sep 2014 nr. 1241 , 22 juli 2024 nr. 1801 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrifter 25 sep 2014 nr. 1241 , 22 juli 2024 nr. 1801 (i kraft 1 jan 2025).</p>
 <h4 id="40-egenandel-for-annen-virksomhetsvisning">§ 40. Egenandel for annen virksomhetsvisning</h4>
 <ol>
 <li>
@@ -520,7 +699,7 @@ c. eventuelle underskilt til disse.</p>
 <ol>
 <li>Dersom det benyttes felles skilt eller symbol for flere foretak, deles egenandelen likt mellom foretakene. Vegmyndigheten skal ikke kreve ny, delvis egenandel dersom et nytt foretak kan nyttiggjøre seg eksisterende skilt eller symbol uten øvrige endringer. Det skal derfor ikke tilbakebetales egenandel til de foretak som har betalt egenandel for de samme skiltene.</li>
 </ol>
-<p><em>Endret ved forskrift 22 juli 2024 nr. 1801 (i kraft 1 jan 2025).</em></p>
+<p class="note">Endret ved forskrift 22 juli 2024 nr. 1801 (i kraft 1 jan 2025).</p>
 <h4 id="41-betaling-av-egenandel">§ 41. Betaling av egenandel</h4>
 <ol>
 <li>
@@ -558,7 +737,7 @@ c. eventuelle underskilt til disse.</p>
 </ol>
 <h4 id="44a-dekning-av-utgifter-til-skilt-590-trafikksikkerhetsinformasjon">§ 44a. Dekning av utgifter til skilt 590 Trafikksikkerhetsinformasjon</h4>
 <p>Alle utgifter til skilt med trafikksikkerhetsinformasjon dekkes av den som er ansvarlig for den aktuelle skiltingen.</p>
-<p><em>Tilføyd ved forskrift 27 nov 2008 nr. 1262 (i kraft 1 juli 2009 jf. vedtak 17 april 2009 nr. 425 ).</em></p>
+<p class="note">Tilføyd ved forskrift 27 nov 2008 nr. 1262 (i kraft 1 juli 2009 jf. vedtak 17 april 2009 nr. 425 ).</p>
 <h4 id="45-trafikkskilting-for-private-veger">§ 45. Trafikkskilting for private veger</h4>
 <ol>
 <li>
@@ -568,7 +747,7 @@ c. eventuelle underskilt til disse.</p>
 <p>Når offentlige trafikkskilt er tillatt eller påbudt brukt for privat veg, skal plassering, anvendelse og utforming av skiltene så vidt mulig skje i samsvar med tekniske retningslinjer etter § 35 . For den vegstrekning skiltene er nyttet, må det ikke plasseres private skilt eller annen oppmerking som kan forveksles med offentlige trafikkskilt, eller hindre den frie sikt langs vegen eller til slike innretninger for den vegfarende.</p>
 </li>
 </ol>
-<p><em>Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</em></p>
+<p class="note">Endret ved forskrift 19 des 2019 nr. 2042 (i kraft 1 jan 2020).</p>
 <h4 id="46-utfyllingsbestemmelser-unntak">§ 46. Utfyllingsbestemmelser, unntak</h4>
 <p>Vegdirektoratet kan gi nærmere utfyllende bestemmelser til denne forskrift. Vegdirektoratet kan gjøre unntak fra forskriften.</p>
 <h4 id="46a-bestemmelser-om-utprving-av-nye-trafikkskilt-mm">§ 46a. Bestemmelser om utprøving av nye trafikkskilt m.m.</h4>
@@ -615,6 +794,8 @@ Tilføyd ved forskrift 12 aug 2026 nr. 1625 .</em></p>
 </ol>
 <p>Nevnte skilt i dette ledd nr. 1 og 2 med gamle symbol og skilt 544 «Tettbygd strøk» og skilt 546 «Slutt på tettbygd strøk» er ugyldige fra 1. januar 2011.</p>
 <p>Vegdirektoratet kan gi nærmere utfyllende bestemmelser om gjennomføringen av overgangsbestemmelsene.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

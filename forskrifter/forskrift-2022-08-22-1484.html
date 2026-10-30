@@ -19,64 +19,229 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2022-08-22-1484.html"/>
 <link rel="alternate" type="application/atom+xml" title="Norges Lover — alle endringer" href="../feed.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>NYTEK23</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2022-08-22-1484</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2023-01-01</dd>
-<dt>Sist endret</dt><dd>—</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2022-08-22-1484" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-geografiske-og-personelle-virkeomrade">§ 2. Forskriftens geografiske og personelle virkeområde</a></li>
+<li class="lvl4"><a href="#3-forskriftens-saklige-virkeomrade">§ 3. Forskriftens saklige virkeområde</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-generelle-bestemmelser">Kapittel 2. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#5-ansvar-etter-denne-forskriften">§ 5. Ansvar etter denne forskriften</a></li>
+<li class="lvl4"><a href="#6-dokumentasjon-for-oppfyllelse-av-krav">§ 6. Dokumentasjon for oppfyllelse av krav</a></li>
+<li class="lvl4"><a href="#7-kompetanse">§ 7. Kompetanse</a></li>
+<li class="lvl4"><a href="#8-overordnet-krav-til-prosjektering-utfrelse-bruk-og-vedlikehold">§ 8. Overordnet krav til prosjektering, utførelse, bruk og vedlikehold</a></li>
+<li class="lvl2"><a href="#kapittel-3-lokalitetsunderskelse">Kapittel 3. Lokalitetsundersøkelse</a></li>
+<li class="lvl4"><a href="#9-krav-til-lokalitetsunderskelse">§ 9. Krav til lokalitetsundersøkelse</a></li>
+<li class="lvl4"><a href="#10-krav-til-inspeksjonsorgan-som-foretar-lokalitetsunderskelse">§ 10. Krav til inspeksjonsorgan som foretar lokalitetsundersøkelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-generelle-krav-til-akvakulturanlegg-og-dets-komponenter">Kapittel 4. Generelle krav til akvakulturanlegg og dets komponenter</a></li>
+<li class="lvl4"><a href="#11-krav-til-utforming-laster-og-kapasitet">§ 11. Krav til utforming, laster og kapasitet</a></li>
+<li class="lvl4"><a href="#12-kontroll-av-prosjektering-og-utfrelse">§ 12. Kontroll av prosjektering og utførelse</a></li>
+<li class="lvl4"><a href="#13-krav-til-materialer">§ 13. Krav til materialer</a></li>
+<li class="lvl4"><a href="#14-krav-til-sporbarhet">§ 14. Krav til sporbarhet</a></li>
+<li class="lvl4"><a href="#15-krav-til-merking">§ 15. Krav til merking</a></li>
+<li class="lvl4"><a href="#16-krav-til-brukerhandbok">§ 16. Krav til brukerhåndbok</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-spesifikke-komponenter-mv">Kapittel 5. Krav til spesifikke komponenter mv.</a></li>
+<li class="lvl4"><a href="#17-krav-til-integrert-hovedkomponent">§ 17. Krav til integrert hovedkomponent</a></li>
+<li class="lvl4"><a href="#18-krav-til-innhegning">§ 18. Krav til innhegning</a></li>
+<li class="lvl4"><a href="#19-krav-til-flyter">§ 19. Krav til flyter</a></li>
+<li class="lvl4"><a href="#20-krav-til-flate">§ 20. Krav til flåte</a></li>
+<li class="lvl4"><a href="#21-krav-til-forankring-og-posisjonering">§ 21. Krav til forankring og posisjonering</a></li>
+<li class="lvl4"><a href="#22-krav-til-forankringsanalyse">§ 22. Krav til forankringsanalyse</a></li>
+<li class="lvl4"><a href="#23-krav-til-utlegg-og-inspeksjon-av-forankringssystem">§ 23. Krav til utlegg og inspeksjon av forankringssystem</a></li>
+<li class="lvl4"><a href="#24-krav-til-ekstrautstyr">§ 24. Krav til ekstrautstyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-krav-om-akkreditering">Kapittel 6. Krav om akkreditering</a></li>
+<li class="lvl4"><a href="#25-krav-til-akkrediterte-sertifiseringsorganer">§ 25. Krav til akkrediterte sertifiseringsorganer</a></li>
+<li class="lvl4"><a href="#26-krav-til-akkrediterte-inspeksjonsorganer">§ 26. Krav til akkrediterte inspeksjonsorganer</a></li>
+<li class="lvl4"><a href="#27-krav-til-akkreditering">§ 27. Krav til akkreditering</a></li>
+<li class="lvl2"><a href="#kapittel-7-produktsertifisering-og-levetidsforlengelse">Kapittel 7. Produktsertifisering og levetidsforlengelse</a></li>
+<li class="lvl4"><a href="#28-krav-om-produktsertifisering">§ 28. Krav om produktsertifisering</a></li>
+<li class="lvl4"><a href="#29-krav-om-produktsertifiseringsbevis">§ 29. Krav om produktsertifiseringsbevis</a></li>
+<li class="lvl4"><a href="#30-krav-til-produktsertifiseringsbeviset">§ 30. Krav til produktsertifiseringsbeviset</a></li>
+<li class="lvl4"><a href="#31-krav-om-produktsertifikat">§ 31. Krav om produktsertifikat</a></li>
+<li class="lvl4"><a href="#32-krav-til-produktsertifikatet">§ 32. Krav til produktsertifikatet</a></li>
+<li class="lvl4"><a href="#33-krav-til-produsentens-kvalitetssystem">§ 33. Krav til produsentens kvalitetssystem</a></li>
+<li class="lvl4"><a href="#34-levetidsforlengelse">§ 34. Levetidsforlengelse</a></li>
+<li class="lvl4"><a href="#35-vilkar-for-levetidsforlengelse">§ 35. Vilkår for levetidsforlengelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-anleggssertifikat">Kapittel 8. Anleggssertifikat</a></li>
+<li class="lvl4"><a href="#36-krav-om-anleggssertifikat">§ 36. Krav om anleggssertifikat</a></li>
+<li class="lvl4"><a href="#37-vilkar-for-utstedelse-av-anleggssertifikatet">§ 37. Vilkår for utstedelse av anleggssertifikatet</a></li>
+<li class="lvl4"><a href="#38-krav-til-anleggssertifikatet">§ 38. Krav til anleggssertifikatet</a></li>
+<li class="lvl4"><a href="#39-dokumentasjon-av-anleggskonfigurasjon">§ 39. Dokumentasjon av anleggskonfigurasjon</a></li>
+<li class="lvl4"><a href="#40-oppdatering-av-eksisterende-anleggssertifikat">§ 40. Oppdatering av eksisterende anleggssertifikat</a></li>
+<li class="lvl4"><a href="#41-anleggssertifikatets-gyldighet">§ 41. Anleggssertifikatets gyldighet</a></li>
+<li class="lvl4"><a href="#42-rapportering">§ 42. Rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-krav-til-bruk-vedlikehold-tiltak-ved-avvik-og-varslingsplikt-mv">Kapittel 9. Krav til bruk, vedlikehold, tiltak ved avvik og varslingsplikt mv.</a></li>
+<li class="lvl4"><a href="#43-montering-tilpasning-bruk-og-vedlikehold">§ 43. Montering, tilpasning, bruk og vedlikehold</a></li>
+<li class="lvl4"><a href="#44-plikt-til-a-iverksette-tiltak-ved-avvik-varslingsplikt-mv">§ 44. Plikt til å iverksette tiltak ved avvik, varslingsplikt mv.</a></li>
+<li class="lvl4"><a href="#45-krav-om-sertifisering-for-kontroll-og-reparasjon-av-notpose-notpanel-dukpose-og-dukpanel">§ 45. Krav om sertifisering for kontroll og reparasjon av notpose, notpanel, dukpose og dukpanel</a></li>
+<li class="lvl4"><a href="#46-krav-til-kontroll-og-reparasjon-av-notpose-notpanel-dukpose-og-dukpanel">§ 46. Krav til kontroll og reparasjon av notpose, notpanel, dukpose og dukpanel</a></li>
+<li class="lvl2"><a href="#kapittel-10-sluttbestemmelser">Kapittel 10. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#47-dispensasjonsadgang">§ 47. Dispensasjonsadgang</a></li>
+<li class="lvl4"><a href="#48-straff-og-andre-reaksjoner-ved-overtredelse">§ 48. Straff og andre reaksjoner ved overtredelse</a></li>
+<li class="lvl4"><a href="#49-ikrafttredelse-og-oppheving-av-forskrift">§ 49. Ikrafttredelse og oppheving av forskrift</a></li>
+<li class="lvl4"><a href="#50-overgangsbestemmelser">§ 50. Overgangsbestemmelser</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: —.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-08-22-1484.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til teknisk standard for akvakulturanlegg for fisk i sjø, innsjø og vassdrag (NYTEK23)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-08-22-1484.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2022-08-22-1484 <code>forskrift/2022-08-22-1484</code></td></tr>
+<tr><th>Korttittel</th><td>NYTEK23</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2023</td></tr>
+<tr><th>Sist endret</th><td>—</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2022-08-22-1484" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#1-formal">§ 1. Formål</a></li>
+<li class="lvl4"><a href="#2-forskriftens-geografiske-og-personelle-virkeomrade">§ 2. Forskriftens geografiske og personelle virkeområde</a></li>
+<li class="lvl4"><a href="#3-forskriftens-saklige-virkeomrade">§ 3. Forskriftens saklige virkeområde</a></li>
+<li class="lvl4"><a href="#4-definisjoner">§ 4. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-generelle-bestemmelser">Kapittel 2. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#5-ansvar-etter-denne-forskriften">§ 5. Ansvar etter denne forskriften</a></li>
+<li class="lvl4"><a href="#6-dokumentasjon-for-oppfyllelse-av-krav">§ 6. Dokumentasjon for oppfyllelse av krav</a></li>
+<li class="lvl4"><a href="#7-kompetanse">§ 7. Kompetanse</a></li>
+<li class="lvl4"><a href="#8-overordnet-krav-til-prosjektering-utfrelse-bruk-og-vedlikehold">§ 8. Overordnet krav til prosjektering, utførelse, bruk og vedlikehold</a></li>
+<li class="lvl2"><a href="#kapittel-3-lokalitetsunderskelse">Kapittel 3. Lokalitetsundersøkelse</a></li>
+<li class="lvl4"><a href="#9-krav-til-lokalitetsunderskelse">§ 9. Krav til lokalitetsundersøkelse</a></li>
+<li class="lvl4"><a href="#10-krav-til-inspeksjonsorgan-som-foretar-lokalitetsunderskelse">§ 10. Krav til inspeksjonsorgan som foretar lokalitetsundersøkelse</a></li>
+<li class="lvl2"><a href="#kapittel-4-generelle-krav-til-akvakulturanlegg-og-dets-komponenter">Kapittel 4. Generelle krav til akvakulturanlegg og dets komponenter</a></li>
+<li class="lvl4"><a href="#11-krav-til-utforming-laster-og-kapasitet">§ 11. Krav til utforming, laster og kapasitet</a></li>
+<li class="lvl4"><a href="#12-kontroll-av-prosjektering-og-utfrelse">§ 12. Kontroll av prosjektering og utførelse</a></li>
+<li class="lvl4"><a href="#13-krav-til-materialer">§ 13. Krav til materialer</a></li>
+<li class="lvl4"><a href="#14-krav-til-sporbarhet">§ 14. Krav til sporbarhet</a></li>
+<li class="lvl4"><a href="#15-krav-til-merking">§ 15. Krav til merking</a></li>
+<li class="lvl4"><a href="#16-krav-til-brukerhandbok">§ 16. Krav til brukerhåndbok</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-spesifikke-komponenter-mv">Kapittel 5. Krav til spesifikke komponenter mv.</a></li>
+<li class="lvl4"><a href="#17-krav-til-integrert-hovedkomponent">§ 17. Krav til integrert hovedkomponent</a></li>
+<li class="lvl4"><a href="#18-krav-til-innhegning">§ 18. Krav til innhegning</a></li>
+<li class="lvl4"><a href="#19-krav-til-flyter">§ 19. Krav til flyter</a></li>
+<li class="lvl4"><a href="#20-krav-til-flate">§ 20. Krav til flåte</a></li>
+<li class="lvl4"><a href="#21-krav-til-forankring-og-posisjonering">§ 21. Krav til forankring og posisjonering</a></li>
+<li class="lvl4"><a href="#22-krav-til-forankringsanalyse">§ 22. Krav til forankringsanalyse</a></li>
+<li class="lvl4"><a href="#23-krav-til-utlegg-og-inspeksjon-av-forankringssystem">§ 23. Krav til utlegg og inspeksjon av forankringssystem</a></li>
+<li class="lvl4"><a href="#24-krav-til-ekstrautstyr">§ 24. Krav til ekstrautstyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-krav-om-akkreditering">Kapittel 6. Krav om akkreditering</a></li>
+<li class="lvl4"><a href="#25-krav-til-akkrediterte-sertifiseringsorganer">§ 25. Krav til akkrediterte sertifiseringsorganer</a></li>
+<li class="lvl4"><a href="#26-krav-til-akkrediterte-inspeksjonsorganer">§ 26. Krav til akkrediterte inspeksjonsorganer</a></li>
+<li class="lvl4"><a href="#27-krav-til-akkreditering">§ 27. Krav til akkreditering</a></li>
+<li class="lvl2"><a href="#kapittel-7-produktsertifisering-og-levetidsforlengelse">Kapittel 7. Produktsertifisering og levetidsforlengelse</a></li>
+<li class="lvl4"><a href="#28-krav-om-produktsertifisering">§ 28. Krav om produktsertifisering</a></li>
+<li class="lvl4"><a href="#29-krav-om-produktsertifiseringsbevis">§ 29. Krav om produktsertifiseringsbevis</a></li>
+<li class="lvl4"><a href="#30-krav-til-produktsertifiseringsbeviset">§ 30. Krav til produktsertifiseringsbeviset</a></li>
+<li class="lvl4"><a href="#31-krav-om-produktsertifikat">§ 31. Krav om produktsertifikat</a></li>
+<li class="lvl4"><a href="#32-krav-til-produktsertifikatet">§ 32. Krav til produktsertifikatet</a></li>
+<li class="lvl4"><a href="#33-krav-til-produsentens-kvalitetssystem">§ 33. Krav til produsentens kvalitetssystem</a></li>
+<li class="lvl4"><a href="#34-levetidsforlengelse">§ 34. Levetidsforlengelse</a></li>
+<li class="lvl4"><a href="#35-vilkar-for-levetidsforlengelse">§ 35. Vilkår for levetidsforlengelse</a></li>
+<li class="lvl2"><a href="#kapittel-8-anleggssertifikat">Kapittel 8. Anleggssertifikat</a></li>
+<li class="lvl4"><a href="#36-krav-om-anleggssertifikat">§ 36. Krav om anleggssertifikat</a></li>
+<li class="lvl4"><a href="#37-vilkar-for-utstedelse-av-anleggssertifikatet">§ 37. Vilkår for utstedelse av anleggssertifikatet</a></li>
+<li class="lvl4"><a href="#38-krav-til-anleggssertifikatet">§ 38. Krav til anleggssertifikatet</a></li>
+<li class="lvl4"><a href="#39-dokumentasjon-av-anleggskonfigurasjon">§ 39. Dokumentasjon av anleggskonfigurasjon</a></li>
+<li class="lvl4"><a href="#40-oppdatering-av-eksisterende-anleggssertifikat">§ 40. Oppdatering av eksisterende anleggssertifikat</a></li>
+<li class="lvl4"><a href="#41-anleggssertifikatets-gyldighet">§ 41. Anleggssertifikatets gyldighet</a></li>
+<li class="lvl4"><a href="#42-rapportering">§ 42. Rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-krav-til-bruk-vedlikehold-tiltak-ved-avvik-og-varslingsplikt-mv">Kapittel 9. Krav til bruk, vedlikehold, tiltak ved avvik og varslingsplikt mv.</a></li>
+<li class="lvl4"><a href="#43-montering-tilpasning-bruk-og-vedlikehold">§ 43. Montering, tilpasning, bruk og vedlikehold</a></li>
+<li class="lvl4"><a href="#44-plikt-til-a-iverksette-tiltak-ved-avvik-varslingsplikt-mv">§ 44. Plikt til å iverksette tiltak ved avvik, varslingsplikt mv.</a></li>
+<li class="lvl4"><a href="#45-krav-om-sertifisering-for-kontroll-og-reparasjon-av-notpose-notpanel-dukpose-og-dukpanel">§ 45. Krav om sertifisering for kontroll og reparasjon av notpose, notpanel, dukpose og dukpanel</a></li>
+<li class="lvl4"><a href="#46-krav-til-kontroll-og-reparasjon-av-notpose-notpanel-dukpose-og-dukpanel">§ 46. Krav til kontroll og reparasjon av notpose, notpanel, dukpose og dukpanel</a></li>
+<li class="lvl2"><a href="#kapittel-10-sluttbestemmelser">Kapittel 10. Sluttbestemmelser</a></li>
+<li class="lvl4"><a href="#47-dispensasjonsadgang">§ 47. Dispensasjonsadgang</a></li>
+<li class="lvl4"><a href="#48-straff-og-andre-reaksjoner-ved-overtredelse">§ 48. Straff og andre reaksjoner ved overtredelse</a></li>
+<li class="lvl4"><a href="#49-ikrafttredelse-og-oppheving-av-forskrift">§ 49. Ikrafttredelse og oppheving av forskrift</a></li>
+<li class="lvl4"><a href="#50-overgangsbestemmelser">§ 50. Overgangsbestemmelser</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-08-22-1484.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2022-08-22-1484.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2022-08-22-1484.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">📡 Atom-feed (alle)</a> ·
-<a href="../observasjoner/forskrift-2022-08-22-1484.html">Observerte kildeutgaver</a> · 
-</div>
+<a href="../feed.xml" title="Ingen endringer registrert siden 2001 — abonner på den globale feeden">Atom-feed (alle)</a> ·
+<a href="../observasjoner/forskrift-2022-08-22-1484.html">Observerte kildeutgaver</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-teknisk-standard-for-akvakulturanlegg-for-fisk-i-sj-innsj-og-vassdrag-nytek23">Forskrift om krav til teknisk standard for akvakulturanlegg for fisk i sjø, innsjø og vassdrag (NYTEK23)</h1>
 <h2 id="kapittel-1-formal-virkeomrade-og-definisjoner">Kapittel 1. Formål, virkeområde og definisjoner</h2>
 <h4 id="1-formal">§ 1. Formål</h4>
 <p>Forskriften skal bidra til å forebygge rømming av fisk fra akvakulturanlegg i sjø, innsjø og vassdrag gjennom å sikre forsvarlig teknisk standard på anleggene.</p>
@@ -421,6 +586,8 @@ g. gyldighetsperiode for servicekort.</p>
 <p>Innehavere og vare- og tjenesteprodusenter kan før 1. januar 2024 velge mellom å oppfylle kravene i denne forskrift eller kravene i forskrift 16. august 2011 nr. 849 .</p>
 <p>Produktsertifikat, hovedkomponentbevis og anleggssertifikat utstedt før 1. januar 2024 etter forskrift 16. august 2011 nr. 849 vil være gyldige med sine begrensninger også etter 1. januar 2024.</p>
 <p>Anleggssertifikat utstedt i medhold av kravene i forskrift 16. august 2011 nr. 849 kan ikke oppdateres etter 31. desember 2023.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

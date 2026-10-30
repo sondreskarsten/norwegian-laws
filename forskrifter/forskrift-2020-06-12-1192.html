@@ -19,71 +19,182 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2020-06-12-1192.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Havenergilovforskrifta" href="../feeds/forskrift-2020-06-12-1192.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-energidepartementet.html">Energidepartementet</a> &rsaquo;
 <span>Havenergilovforskrifta</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2020-06-12-1192</code></dd>
-<dt>Departement</dt><dd>Energidepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2021-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-05-27-870</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2020-06-12-1192" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innleiande-fresegner">Kapittel 1 – Innleiande føresegner</a></li>
+<li class="lvl4"><a href="#1-verkeomrade">§ 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjonar">§ 2. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2a-utlysing-tildeling-og-kvalifikasjonskrav">Kapittel 2A – Utlysing, tildeling og kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#2a-inndeling">§ 2a. Inndeling</a></li>
+<li class="lvl4"><a href="#2b-utlysing-av-konkurranse-og-tildeling-av-prosjektomrader">§ 2b. Utlysing av konkurranse og tildeling av prosjektområder</a></li>
+<li class="lvl4"><a href="#2c-prekvalifisering">§ 2c. Prekvalifisering</a></li>
+<li class="lvl4"><a href="#2d-rett-til-tildelt-prosjektomrade">§ 2d. Rett til tildelt prosjektområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-prosjektspesifikk-konsekvensutgreiing-konsesjon-og-detaljplan">Kapittel 2 – Melding, prosjektspesifikk konsekvensutgreiing, konsesjon og detaljplan</a></li>
+<li class="lvl4"><a href="#3-melding-med-framlegg-til-prosjektspesifikt-utgreiingsprogram">§ 3. Melding med framlegg til prosjektspesifikt utgreiingsprogram</a></li>
+<li class="lvl4"><a href="#4-innhaldet-i-prosjektspesifikt-utgreiingsprogram">§ 4. Innhaldet i prosjektspesifikt utgreiingsprogram</a></li>
+<li class="lvl4"><a href="#5-handsamingsgebyr">§ 5. Handsamingsgebyr</a></li>
+<li class="lvl4"><a href="#6-innhaldet-i-prosjektspesifikk-konsekvensutgreiing">§ 6. Innhaldet i prosjektspesifikk konsekvensutgreiing</a></li>
+<li class="lvl4"><a href="#7-sknad-om-konsesjon">§ 7. Søknad om konsesjon</a></li>
+<li class="lvl4"><a href="#8-vedtak-om-konsesjon-for-energianlegg">§ 8. Vedtak om konsesjon for energianlegg</a></li>
+<li class="lvl4"><a href="#9-sknad-om-godkjenning-av-detaljplan">§ 9. Søknad om godkjenning av detaljplan</a></li>
+<li class="lvl4"><a href="#10-vedtak-om-godkjenning-av-detaljplan-for-utbygging-og-drift-av-energianlegg">§ 10. Vedtak om godkjenning av detaljplan for utbygging og drift av energianlegg</a></li>
+<li class="lvl4"><a href="#11-forlenging-av-fristar">§ 11. Forlenging av fristar</a></li>
+<li class="lvl2"><a href="#kapittel-3-erstatning-til-fiskarar">Kapittel 3 – Erstatning til fiskarar</a></li>
+<li class="lvl4"><a href="#12-nemnd-for-handsaming-av-krav">§ 12. Nemnd for handsaming av krav</a></li>
+<li class="lvl4"><a href="#13-klagenemnd">§ 13. Klagenemnd</a></li>
+<li class="lvl4"><a href="#14-oppnemning-av-nemnd-og-klagenemnd">§ 14. Oppnemning av nemnd og klagenemnd</a></li>
+<li class="lvl4"><a href="#15-bevisvurdering-ved-solidaransvar">§ 15. Bevisvurdering ved solidaransvar</a></li>
+<li class="lvl4"><a href="#16-framsetjing-av-krav">§ 16. Framsetjing av krav</a></li>
+<li class="lvl4"><a href="#17-sekretariat">§ 17. Sekretariat</a></li>
+<li class="lvl2"><a href="#kapittel-4-ymse-fresegner">Kapittel 4 – Ymse føresegner</a></li>
+<li class="lvl4"><a href="#18-vilkar">§ 18. Vilkår</a></li>
+<li class="lvl4"><a href="#19-meteorologiske-data">§ 19. Meteorologiske data</a></li>
+<li class="lvl4"><a href="#20-kontroll">§ 20. Kontroll</a></li>
+<li class="lvl4"><a href="#21-tvangsmulkt">§ 21. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#22-konsekvensutgreiingar-ved-negative-miljverknadar-i-omrade-utanfor-nasjonal-jurisdiksjon">§ 22. Konsekvensutgreiingar ved negative miljøverknadar i område utanfor nasjonal jurisdiksjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikraftsetjing">Kapittel 5 – Ikraftsetjing</a></li>
+<li class="lvl4"><a href="#23-ikraftsetjing">§ 23. Ikraftsetjing</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-05-27-870.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-06-12-1192.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift til havenergilova (havenergilovforskrifta)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-06-12-1192.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2020-06-12-1192 <code>forskrift/2020-06-12-1192</code></td></tr>
+<tr><th>Korttittel</th><td>Havenergilovforskrifta</td></tr>
+<tr><th>Departement</th><td>Energidepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2021</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-05-27-870 <code>forskrift/2025-05-27-870</code> fra 17.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2020-06-12-1192" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innleiande-fresegner">Kapittel 1 – Innleiande føresegner</a></li>
+<li class="lvl4"><a href="#1-verkeomrade">§ 1. Verkeområde</a></li>
+<li class="lvl4"><a href="#2-definisjonar">§ 2. Definisjonar</a></li>
+<li class="lvl2"><a href="#kapittel-2a-utlysing-tildeling-og-kvalifikasjonskrav">Kapittel 2A – Utlysing, tildeling og kvalifikasjonskrav</a></li>
+<li class="lvl4"><a href="#2a-inndeling">§ 2a. Inndeling</a></li>
+<li class="lvl4"><a href="#2b-utlysing-av-konkurranse-og-tildeling-av-prosjektomrader">§ 2b. Utlysing av konkurranse og tildeling av prosjektområder</a></li>
+<li class="lvl4"><a href="#2c-prekvalifisering">§ 2c. Prekvalifisering</a></li>
+<li class="lvl4"><a href="#2d-rett-til-tildelt-prosjektomrade">§ 2d. Rett til tildelt prosjektområde</a></li>
+<li class="lvl2"><a href="#kapittel-2-melding-prosjektspesifikk-konsekvensutgreiing-konsesjon-og-detaljplan">Kapittel 2 – Melding, prosjektspesifikk konsekvensutgreiing, konsesjon og detaljplan</a></li>
+<li class="lvl4"><a href="#3-melding-med-framlegg-til-prosjektspesifikt-utgreiingsprogram">§ 3. Melding med framlegg til prosjektspesifikt utgreiingsprogram</a></li>
+<li class="lvl4"><a href="#4-innhaldet-i-prosjektspesifikt-utgreiingsprogram">§ 4. Innhaldet i prosjektspesifikt utgreiingsprogram</a></li>
+<li class="lvl4"><a href="#5-handsamingsgebyr">§ 5. Handsamingsgebyr</a></li>
+<li class="lvl4"><a href="#6-innhaldet-i-prosjektspesifikk-konsekvensutgreiing">§ 6. Innhaldet i prosjektspesifikk konsekvensutgreiing</a></li>
+<li class="lvl4"><a href="#7-sknad-om-konsesjon">§ 7. Søknad om konsesjon</a></li>
+<li class="lvl4"><a href="#8-vedtak-om-konsesjon-for-energianlegg">§ 8. Vedtak om konsesjon for energianlegg</a></li>
+<li class="lvl4"><a href="#9-sknad-om-godkjenning-av-detaljplan">§ 9. Søknad om godkjenning av detaljplan</a></li>
+<li class="lvl4"><a href="#10-vedtak-om-godkjenning-av-detaljplan-for-utbygging-og-drift-av-energianlegg">§ 10. Vedtak om godkjenning av detaljplan for utbygging og drift av energianlegg</a></li>
+<li class="lvl4"><a href="#11-forlenging-av-fristar">§ 11. Forlenging av fristar</a></li>
+<li class="lvl2"><a href="#kapittel-3-erstatning-til-fiskarar">Kapittel 3 – Erstatning til fiskarar</a></li>
+<li class="lvl4"><a href="#12-nemnd-for-handsaming-av-krav">§ 12. Nemnd for handsaming av krav</a></li>
+<li class="lvl4"><a href="#13-klagenemnd">§ 13. Klagenemnd</a></li>
+<li class="lvl4"><a href="#14-oppnemning-av-nemnd-og-klagenemnd">§ 14. Oppnemning av nemnd og klagenemnd</a></li>
+<li class="lvl4"><a href="#15-bevisvurdering-ved-solidaransvar">§ 15. Bevisvurdering ved solidaransvar</a></li>
+<li class="lvl4"><a href="#16-framsetjing-av-krav">§ 16. Framsetjing av krav</a></li>
+<li class="lvl4"><a href="#17-sekretariat">§ 17. Sekretariat</a></li>
+<li class="lvl2"><a href="#kapittel-4-ymse-fresegner">Kapittel 4 – Ymse føresegner</a></li>
+<li class="lvl4"><a href="#18-vilkar">§ 18. Vilkår</a></li>
+<li class="lvl4"><a href="#19-meteorologiske-data">§ 19. Meteorologiske data</a></li>
+<li class="lvl4"><a href="#20-kontroll">§ 20. Kontroll</a></li>
+<li class="lvl4"><a href="#21-tvangsmulkt">§ 21. Tvangsmulkt</a></li>
+<li class="lvl4"><a href="#22-konsekvensutgreiingar-ved-negative-miljverknadar-i-omrade-utanfor-nasjonal-jurisdiksjon">§ 22. Konsekvensutgreiingar ved negative miljøverknadar i område utanfor nasjonal jurisdiksjon</a></li>
+<li class="lvl2"><a href="#kapittel-5-ikraftsetjing">Kapittel 5 – Ikraftsetjing</a></li>
+<li class="lvl4"><a href="#23-ikraftsetjing">§ 23. Ikraftsetjing</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-06-12-1192.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2020-06-12-1192.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2020-06-12-1192.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2020-06-12-1192.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2020-06-12-1192.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-06-12-1192.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2020-06-12-1192.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2020-06-12-1192.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2020-06-12-1192.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-til-havenergilova-havenergilovforskrifta">Forskrift til havenergilova (havenergilovforskrifta)</h1>
 <h2 id="kapittel-1-innleiande-fresegner">Kapittel 1 – Innleiande føresegner</h2>
 <h4 id="1-verkeomrade">§ 1. Verkeområde</h4>
 <p>Denne forskrifta gjeld fornybar energiproduksjon, omforming og overføring av elektrisk energi til havs, som nemnd i havenergilova § 1-2 .</p>
 <p>For havområde innafor grunnlinja gjeld havenergilova § 2-2 , kapittel 5 –6 og kapittel 9 –10.</p>
 <p>Utenlandskablar med konsesjon etter lov om produksjon, omforming, overføring, omsetning, fordeling og bruk av energi m.m. (energiloven) av 29. juni 1990 nr. 50 § 4-2 treng ikkje konsesjon etter havenergilova § 8-1 .</p>
 <p>Havenergilova gjeld i Noregs økonomiske sone ved Fastlands-Noreg oppretta i medhald av lov 17. desember 1976 nr. 91 om Norges økonomiske sone (økonomiske soneloven) og forskrift 17. desember 1976 nr. 15 om iverksettelse av Norges økonomiske sone .</p>
-<p><em>Endra ved forskrift 20 juni 2023 nr. 994 (i kraft 1 juli 2023).</em></p>
+<p class="note">Endra ved forskrift 20 juni 2023 nr. 994 (i kraft 1 juli 2023).</p>
 <h4 id="2-definisjonar">§ 2. Definisjonar</h4>
 <p><em>Med prosjektspesifikk konsekvensutgreiing er meint konsekvensutgreiing for det aktuelle energianlegget som har som føremål å avdekke relevante fordelar og ulemper ved eit energianlegg før etablering, og vurdere verknadane av ei eventuell utbygging og føreslå avbøtande tiltak. Med prosjektområde er meint eit spesifisert avgrensa geografisk område innanfor eit areal som er opna etter havenergilova § 2-2 . Med melding er meint varsel av eit planlagt tiltak, der tiltakshavar skildrar tiltaket og lokalisering innanfor eit tildelt prosjektområde og legg fram framlegg til utgreiingsprogram. Med tildeling er meint tildeling av eit prosjektområde etter havenergilova § 2-3 og denne forskrifta kapittel 2A, som gjev ein tidsavgrensa einerett til å sende inn melding med forslag til prosjektspesifikt utgreiingsprogram, gjennomføre prosjektspesifikk konsekvensutgreiing, og deretter søke om konsesjon for produksjonsanlegg innanfor det aktuelle prosjektområdet.
 Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
@@ -91,18 +202,18 @@ Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
 <p>Kapittel tilføyd ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="2a-inndeling">§ 2a. Inndeling</h4>
 <p>Departementet kan bestemme at areal som er opna etter havenergilova § 2-2 skal delast inn i fleire mindre prosjektområder. Departementet kan fastsetje inndeling, utstrekning og installert effekt eller anna avgrensing for utbygging for kvart prosjektområde.</p>
-<p><em>Tilføyd ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="2b-utlysing-av-konkurranse-og-tildeling-av-prosjektomrader">§ 2b. Utlysing av konkurranse og tildeling av prosjektområder</h4>
 <p>Departementet avgjer om tildeling av prosjektområde skal skje ved auksjon eller etter andre objektive og ikkje-diskriminerande vilkår, eller ein kombinasjon. Tildelingsmåten og vilkår skal gå fram av utlysinga.</p>
 <p>Departementet skal i utlysinga gje nærare føresegner om korleis konkurransen skal gjennomførast. Utlysinga skal kunngjerast i Norsk lysingsblad med ein rimeleg frist.</p>
 <p>Ved tildeling av prosjektområde etter auksjon skal tildeling skje til den som vinn auksjonen i samsvar med utlysinga og etter dei reglane som departementet har fastsett for auksjonen. I andre tilfelle skal tildeling av prosjektområde skje på grunnlag av ei heilskapleg vurdering av objektive og ikkje-diskriminerande vilkår i samsvar med utlysinga. Departementet kan i særlege tilfelle velje å ikkje tildele prosjektområde etter gjennomført auksjon eller konkurranse.</p>
 <p>Departementet kan stille vilkår for tildeling av prosjektområde.</p>
-<p><em>Tilføyd ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="2c-prekvalifisering">§ 2c. Prekvalifisering</h4>
 <p>Departementet kan i utlysinga setje grense for kor mange av søkjarane som kan bli prekvalifisert. Avgjerd om krav til prekvalifisering skal treffast i samband med avgjerd om utlysing, og kunngjerast i Norsk lysingsblad seinast i samband med utlysinga.</p>
 <p>Søkjarar må i ein prekvalifisering dokumentere at dei har tilfredsstillande teknisk kompetanse og finansiell styrke, og oppfylla relevante krav til helse, miljø og tryggleik. Departementet kan fastsetje utfyllande reglar og andre objektive og ikkje-diskriminerande vilkår.</p>
 <p>Det skal setjast ein rimeleg frist for søknad om prekvalifisering. Søknaden skal innehalde dokumentasjon for at kvalifikasjonskrava er oppfylt og elles innehalde opplysningar og dokumentasjon som fastsett av departementet i utlysinga.</p>
-<p><em>Tilføyd ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="2d-rett-til-tildelt-prosjektomrade">§ 2d. Rett til tildelt prosjektområde</h4>
 <p>Den som får tildelt eit prosjektområde må oppfylle krava i havenergilova § 3-5 fyrste ledd.</p>
 <p>Den som får tildelt eit prosjektområde etter § 2b får einerett til å sende inn og få handsama melding med forslag til prosjektspesifikt utgreiingsprogram etter § 3, gjennomføre eit prosjektspesifikt utgreiingsprogram som fastsett av departementet etter § 4, og deretter sende inn søknad om konsesjon etter § 7, for produksjonsanlegg innanfor det tildelte prosjektområdet.</p>
@@ -111,7 +222,7 @@ Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
 <p>Eineretten til prosjektområde kan ikkje overdragast utan samtykke frå departementet. Det same gjeld ved overdraging av aksje eller anna eigarinteresse i den juridiske eininga som er tildelt eit prosjektområde, og ved overdraging som gir bestemmande innflytelse i ei slik eining.</p>
 <p>Havenergilova § 10-7 fyrste ledd skal gjelde tilsvarande for tildeling av prosjektområde etter dette kapittel 2A.</p>
 <p>Departementet kan i utlysinga gje nærare føresegner om retten til tildelt prosjektområde, blant anna samordna planlegging av nettanlegg og nettilknytning.</p>
-<p><em>Tilføyd ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Tilføyd ved forskrift 29 mars 2023 nr. 442 .</p>
 <h2 id="kapittel-2-melding-prosjektspesifikk-konsekvensutgreiing-konsesjon-og-detaljplan">Kapittel 2 – Melding, prosjektspesifikk konsekvensutgreiing, konsesjon og detaljplan</h2>
 <h4 id="3-melding-med-framlegg-til-prosjektspesifikt-utgreiingsprogram">§ 3. Melding med framlegg til prosjektspesifikt utgreiingsprogram</h4>
 <p>Dersom eit føretak som oppfyller krava i havenergilova § 3-5 ønsker å søke om konsesjon til eit energianlegg, skal det fyrst sendast inn ei melding til departementet, med framlegg til eit prosjektspesifikt utgreiingsprogram.</p>
@@ -124,11 +235,11 @@ c. opplysingar om verksemda til den som søker.</p>
 <p>Departementet sender framlegg til prosjektspesifikt utgreiingsprogram på høyring til relevante myndigheter og interesseorganisasjonar, og gjer framlegget tilgjengeleg for offentligheita på internett. Det skal setjast ein rimeleg frist for fråsegner, som ikkje bør være kortare enn 6 veker.</p>
 <p>Departementet kan fastsetje utgreiingsprogrammet på bakgrunn av framlegget og innkomne høyringsfråsegner.</p>
 <p>Det kan ikkje fastsetjast fleire utgreiingsprogram for same prosjektområde samstundes.</p>
-<p><em>Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Endra ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="5-handsamingsgebyr">§ 5. Handsamingsgebyr</h4>
 <p>For handsaming av kvar melding med utgreiingsprogram, kan det betalast eit gebyr som vert fastsett av Energidepartementet, og som innbetalast staten ved Noregs vassdrags- og energidirektorat.</p>
 <p>Dersom gebyr ikkje er betalt inn, vil meldinga ikkje verte handsama.</p>
-<p><em>Endra ved forskrifter 29 mars 2023 nr. 442 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endra ved forskrifter 29 mars 2023 nr. 442 , 18 des 2023 nr. 2278 (i kraft 1 jan 2024).</p>
 <h4 id="6-innhaldet-i-prosjektspesifikk-konsekvensutgreiing">§ 6. Innhaldet i prosjektspesifikk konsekvensutgreiing</h4>
 <p>Den prosjektspesifikke konsekvensutgreiinga skal tilpassast omfanget på energianlegget, og utarbeidast i tråd med fastsett utgreiingsprogram. Den skal innehalde ein omtale av eventuelle tidlegare konsekvensutgreiingar for prosjektområdet.</p>
 <p>For energiprosjekt som også skal konsekvensutgreiast etter energilova, kan det utarbeidast felles konsekvensutgreiing.</p>
@@ -178,7 +289,7 @@ e. ei skildring av det planlagde prosjektet:
   - potensialet for konflikt med andre interesser.</p>
 <p>Departementet kan krevje ytterlegare opplysingar.</p>
 <p>Departementet sender konsesjonssøknaden med prosjektspesifikk konsekvensutgreiing på høyring til relevante myndigheiter og interesseorganisasjonar, og gjer dette tilgjengeleg for offentlegheita på internett. Det skal setjast ein frist for fråsegner, som ikkje bør være kortare enn 6 veker.</p>
-<p><em>Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Endra ved forskrift 29 mars 2023 nr. 442 .</p>
 <h4 id="8-vedtak-om-konsesjon-for-energianlegg">§ 8. Vedtak om konsesjon for energianlegg</h4>
 <p>Departementet gjer vedtak om tildeling av konsesjon og godkjenning av prosjektspesifikk konsekvensutgreiing etter havenergilova § 3-1 og § 3-2 på bakgrunn av søknad om konsesjon og konsekvensutgreiing for energianlegg. Departementet skal grunngje vedtaket. Konsesjon kan gjevast for inntil 30 år frå anlegget er sett i drift.</p>
 <p>Det skal stillast vilkår for å unngå eller avgrense vesentlege negative verknadar for miljø og samfunn.</p>
@@ -201,7 +312,7 @@ e. endringar i dokumentasjonen som vart brukt for å søke konsesjon.</p>
 <p>Etter søknad kan departementet gje forlenging av fristar som følgjer av § 7 fyrste ledd, § 9 fyrste ledd og § 10 siste ledd. Fristane kan forlengast med inntil to år av gongen.</p>
 <p>Brot på fristar kan føre til bortfall av godkjenning av melding med prosjektspesifikt utgreiingsprogram, konsesjon eller detaljplan.</p>
 <p>Etter søknad kan departementet forlenge fristen etter § 2d tredje ledd for å sende inn melding med forslag til prosjektspesifikt utgreiingsprogram, med inntil 6 veker av gongen.</p>
-<p><em>Endra ved forskrift 29 mars 2023 nr. 442 .</em></p>
+<p class="note">Endra ved forskrift 29 mars 2023 nr. 442 .</p>
 <h2 id="kapittel-3-erstatning-til-fiskarar">Kapittel 3 – Erstatning til fiskarar</h2>
 <h4 id="12-nemnd-for-handsaming-av-krav">§ 12. Nemnd for handsaming av krav</h4>
 <p>Krav etter havenergilova § 9-2 , som følgje av bandlegging av fiskefelt, vert handsama av ei nemnd, som er samansett av ein representant for Fiskeridirektoratet, ein representant frå Noregs vassdrags- og energidirektorat og eitt medlem som fyller krava til dommarar.</p>
@@ -222,7 +333,7 @@ d. forløpet til skadehendinga
 e. røynsle frå tidlegare fiske i området.</p>
 <h4 id="16-framsetjing-av-krav">§ 16. Framsetjing av krav</h4>
 <p>Krav om erstatning vert fremja på nærare fastsett skjema og sendast til nemnda sitt sekretariat.</p>
-<p><em>Endra ved forskrift 19 des 2022 nr. 2336 (i kraft 1 jan 2023).</em></p>
+<p class="note">Endra ved forskrift 19 des 2022 nr. 2336 (i kraft 1 jan 2023).</p>
 <h4 id="17-sekretariat">§ 17. Sekretariat</h4>
 <p>Sekretariatet for nemndene vert lagt til Fiskeridirektoratet.</p>
 <h2 id="kapittel-4-ymse-fresegner">Kapittel 4 – Ymse føresegner</h2>
@@ -240,11 +351,13 @@ e. røynsle frå tidlegare fiske i området.</p>
 <p>Tvangsmulkta kan fastsetjast som ei fortløpande mulkt eller som ein eingongssum. Tvangsmulkta tilfell statskassa. Pålagd tvangsmulkt er tvangsgrunnlag for utlegg.</p>
 <h4 id="22-konsekvensutgreiingar-ved-negative-miljverknadar-i-omrade-utanfor-nasjonal-jurisdiksjon">§ 22. Konsekvensutgreiingar ved negative miljøverknadar i område utanfor nasjonal jurisdiksjon</h4>
 <p>Dersom tiltak som blir handsama etter havenergilova kan forårsake betydeleg forureining av eller vesentlege og skadelege endringar i det marine miljøet i område utanfor nasjonal jurisdiksjon, skal departementet sørge for deling av naudsynt informasjon gjennom Mekanismen for informasjonsutveksling, som er oppretta i medhald av Avtale om bevaring og berekraftig bruk av marint biologisk mangfald i område utanfor nasjonal jurisdiksjon under Havrettskonvensjonen .</p>
-<p><em>Tilføyd ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</em></p>
+<p class="note">Tilføyd ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 ).</p>
 <h2 id="kapittel-5-ikraftsetjing">Kapittel 5 – Ikraftsetjing</h2>
 <h4 id="23-ikraftsetjing">§ 23. Ikraftsetjing</h4>
 <p>Forskrifta trer i kraft 1. januar 2021.</p>
-<p><em>Endra ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 , tidlegare § 22).</em></p>
+<p class="note">Endra ved forskrift 27 mai 2025 nr. 870 (i kraft 17 jan 2026 iflg. meddelelse 2 des 2025 nr. 2375 , tidlegare § 22).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

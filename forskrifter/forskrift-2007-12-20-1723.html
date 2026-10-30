@@ -19,64 +19,325 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2007-12-20-1723.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om målenheter og måling" href="../feeds/forskrift-2007-12-20-1723.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Forskrift om målenheter og måling</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2007-12-20-1723</code></dd>
-<dt>Departement</dt><dd>Nærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2008-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-09-13-1988</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-20-1723" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-malenheter">Kapittel 2 – Målenheter</a></li>
+<li class="lvl4"><a href="#2-1-bruk-av-malenheter">§ 2-1. Bruk av målenheter</a></li>
+<li class="lvl4"><a href="#2-2-tilleggsangivelser-i-ikke-gjeldende-enheter">§ 2-2. Tilleggsangivelser i ikke-gjeldende enheter</a></li>
+<li class="lvl4"><a href="#2-3-si-grunnenhetene">§ 2-3. SI-grunnenhetene</a></li>
+<li class="lvl4"><a href="#2-4-definisjoner-av-si-grunnenhetene">§ 2-4. Definisjoner av SI-grunnenhetene</a></li>
+<li class="lvl4"><a href="#2-5-avledede-si-enheter">§ 2-5. Avledede SI-enheter</a></li>
+<li class="lvl4"><a href="#2-6-desimale-multipler-av-si-enheter-prefikser">§ 2-6. Desimale multipler av SI-enheter (prefikser)</a></li>
+<li class="lvl4"><a href="#2-7-spesielle-navn-pa-visse-desimale-multipler-av-si-enheter">§ 2-7. Spesielle navn på visse desimale multipler av SI-enheter</a></li>
+<li class="lvl4"><a href="#2-8-enheter-som-er-definert-ut-fra-si-enheter-men-som-ikke-er-desimale-multipler">§ 2-8. Enheter som er definert ut fra SI-enheter, men som ikke er desimale multipler</a></li>
+<li class="lvl4"><a href="#2-9-enheter-som-er-definert-uavhengig-av-si-enhetene">§ 2-9. Enheter som er definert uavhengig av SI-enhetene</a></li>
+<li class="lvl4"><a href="#2-10-bruk-av-enhetssymboler-i-skrift-og-trykk">§ 2-10. Bruk av enhetssymboler i skrift og trykk</a></li>
+<li class="lvl2"><a href="#kapittel-3-maleredskaper-malemetoder-og-bruksformal-som-det-stilles-krav-til">Kapittel 3 – Måleredskaper, målemetoder og bruksformål som det stilles krav til</a></li>
+<li class="lvl4"><a href="#3-1-nar-det-stilles-krav-til-maleredskaper">§ 3-1. Når det stilles krav til måleredskaper</a></li>
+<li class="lvl4"><a href="#3-2-produksjon-av-ferdigpakninger">§ 3-2. Produksjon av ferdigpakninger</a></li>
+<li class="lvl4"><a href="#3-3-andre-former-for-overdragelse-av-maleredskaper">§ 3-3. Andre former for overdragelse av måleredskaper</a></li>
+<li class="lvl4"><a href="#3-4-justervesenets-adgang-til-a-vedta-presiseringer-og-unntak-under-bruk">§ 3-4. Justervesenets adgang til å vedta presiseringer og unntak under bruk</a></li>
+<li class="lvl4"><a href="#3-5-opphevet">§ 3-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#3-6-opphevet">§ 3-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-ved-salg-av-maleredskaper">Kapittel 4 – Krav ved salg av måleredskaper</a></li>
+<li class="lvl3"><a href="#avsnitt-1-krav-til-alle-maleredskaper-ved-salg">Avsnitt 1 – Krav til alle måleredskaper ved salg</a></li>
+<li class="lvl5"><a href="#4-1-krav-til-maleredskaper-som-gjres-tilgjengelig-pa-markedet">§ 4-1. Krav til måleredskaper som gjøres tilgjengelig på markedet</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-type-samsvarsvurdering">§ 4-2. Krav til type samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-3-unntak-fra-krav-om-samsvarsvurdering">§ 4-3. Unntak fra krav om samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-4-opplysninger-som-skal-flge-maleredskapet">§ 4-4. Opplysninger som skal følge måleredskapet</a></li>
+<li class="lvl5"><a href="#4-5-rapporteringsplikt-ved-salg-av-maleredskaper">§ 4-5. Rapporteringsplikt ved salg av måleredskaper</a></li>
+<li class="lvl5"><a href="#4-5a-opphevet">§ 4-5a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#avsnitt-2-krav-til-samsvarsvurdering-etter-es-avtalen">Avsnitt 2 – Krav til samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-6-prosedyrer-for-samsvarsvurdering-etter-es-avtalen">§ 4-6. Prosedyrer for samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-7-krav-ved-samsvarsvurdering-etter-es-avtalen">§ 4-7. Krav ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-8-virkning-av-gyldig-samsvarsvurdering-etter-es-avtalen">§ 4-8. Virkning av gyldig samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-9-krav-til-merking-ved-samsvarsvurdering-etter-es-avtalen">§ 4-9. Krav til merking ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-9a-samsvarsmerking">§ 4-9a. Samsvarsmerking</a></li>
+<li class="lvl5"><a href="#4-10-samsvarsvurdering-etter-es-avtalen">§ 4-10. Samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-11-krav-til-eu-samsvarserklring">§ 4-11. Krav til EU-samsvarserklæring</a></li>
+<li class="lvl5"><a href="#4-12-teknisk-dokumentasjon-ved-samsvarsvurdering-etter-es-avtalen">§ 4-12. Teknisk dokumentasjon ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-13-maleredskaper-som-oppfyller-kravene-i-direktiv200923efog200422ef">§ 4-13. Måleredskaper som oppfyller kravene i direktiv2009/23/EFog2004/22/EF</a></li>
+<li class="lvl3"><a href="#avsnitt-3-krav-til-konomiske-aktrers-forpliktelser-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 3 – Krav til økonomiske aktørers forpliktelser ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-14-produsentens-forpliktelser">§ 4-14. Produsentens forpliktelser</a></li>
+<li class="lvl5"><a href="#4-15-autorisert-representants-forpliktelser">§ 4-15. Autorisert representants forpliktelser</a></li>
+<li class="lvl5"><a href="#4-16-importrs-forpliktelser">§ 4-16. Importørs forpliktelser</a></li>
+<li class="lvl5"><a href="#4-17-distributrens-forpliktelser">§ 4-17. Distributørens forpliktelser</a></li>
+<li class="lvl5"><a href="#4-18-tilfeller-hvor-produsentens-forpliktelser-gjelder-for-importr-og-distributr">§ 4-18. Tilfeller hvor produsentens forpliktelser gjelder for importør og distributør</a></li>
+<li class="lvl5"><a href="#4-19-identifisering-av-konomiske-aktrer">§ 4-19. Identifisering av økonomiske aktører</a></li>
+<li class="lvl3"><a href="#avsnitt-4-krav-til-tekniske-kontrollorgan-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 4 – Krav til tekniske kontrollorgan ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-20-utpeking-av-teknisk-kontrollorgan">§ 4-20. Utpeking av teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-21-krav-til-sknad-om-utpeking">§ 4-21. Krav til søknad om utpeking</a></li>
+<li class="lvl5"><a href="#4-22-habilitet-og-upartiskhet-for-teknisk-kontrollorgan">§ 4-22. Habilitet og upartiskhet for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-23-krav-til-underleverandr-og-underselskap">§ 4-23. Krav til underleverandør og underselskap</a></li>
+<li class="lvl5"><a href="#4-24-kompetansekrav-for-teknisk-kontrollorgan">§ 4-24. Kompetansekrav for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-25-krav-til-det-tekniske-kontrollorganets-utfrelse-av-samsvarsvurdering">§ 4-25. Krav til det tekniske kontrollorganets utførelse av samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-26-krav-til-personale-i-teknisk-kontrollorgan">§ 4-26. Krav til personale i teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-27-krav-til-forsikring-for-teknisk-kontrollorgan">§ 4-27. Krav til forsikring for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-28-taushetsplikt-for-teknisk-kontrollorgan">§ 4-28. Taushetsplikt for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-29-krav-om-a-informere-andre">§ 4-29. Krav om å informere andre</a></li>
+<li class="lvl3"><a href="#avsnitt-5-krav-ved-nasjonal-samsvarsvurdering">Avsnitt 5 – Krav ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-30-nasjonal-samsvarsvurdering">§ 4-30. Nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-31-sknad-om-typegodkjenning-ved-nasjonal-samsvarsvurdering">§ 4-31. Søknad om typegodkjenning ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-32-ansvarlig-for-samsvarsvurdering">§ 4-32. Ansvarlig for samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-33-omfanget-av-typegodkjenningen-ved-nasjonal-samsvarsvurdering">§ 4-33. Omfanget av typegodkjenningen ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl3"><a href="#avsnitt-6-avsluttende-bestemmelser">Avsnitt 6 – Avsluttende bestemmelser</a></li>
+<li class="lvl5"><a href="#4-34-overtredelsesgebyr">§ 4-34. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-malinger-og-maleredskaper-under-bruk">Kapittel 5 – Krav til målinger og måleredskaper under bruk</a></li>
+<li class="lvl4"><a href="#5-1-brukerens-ansvar">§ 5-1. Brukerens ansvar</a></li>
+<li class="lvl4"><a href="#5-2-tilsyn">§ 5-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#5-3-dokumentene-som-skal-fremlegges-ved-tilsynet">§ 5-3. Dokumentene som skal fremlegges ved tilsynet</a></li>
+<li class="lvl4"><a href="#5-4-justervesenets-adgang-til-a-palegge-internkontroll">§ 5-4. Justervesenets adgang til å pålegge internkontroll</a></li>
+<li class="lvl4"><a href="#5-5-plikt-til-aktsomhet-retting-og-melding">§ 5-5. Plikt til aktsomhet, retting og melding</a></li>
+<li class="lvl4"><a href="#5-6-brukerens-plikter">§ 5-6. Brukerens plikter</a></li>
+<li class="lvl4"><a href="#5-7-merking-av-maleredskapet">§ 5-7. Merking av måleredskapet</a></li>
+<li class="lvl4"><a href="#5-8-retting-og-midlertidig-brukstillatelse">§ 5-8. Retting og midlertidig brukstillatelse</a></li>
+<li class="lvl4"><a href="#5-9-adgangen-til-a-anvende-brukerens-utstyr-ved-tilsynet">§ 5-9. Adgangen til å anvende brukerens utstyr ved tilsynet</a></li>
+<li class="lvl4"><a href="#5-10-overtredelsesgebyr">§ 5-10. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-gebyrer-og-avgifter">Kapittel 6 – Gebyrer og avgifter</a></li>
+<li class="lvl4"><a href="#6-1-gebyr-for-behandling-av-sknad-om-godkjenning">§ 6-1. Gebyr for behandling av søknad om godkjenning</a></li>
+<li class="lvl4"><a href="#6-2-arsavgift-for-tilsyn">§ 6-2. Årsavgift for tilsyn</a></li>
+<li class="lvl4"><a href="#6-3-arsavgift-for-tilsyn-med-fiskemottak">§ 6-3. Årsavgift for tilsyn med fiskemottak</a></li>
+<li class="lvl4"><a href="#6-4-gebyrer-for-tilsyn">§ 6-4. Gebyrer for tilsyn</a></li>
+<li class="lvl4"><a href="#6-5-tilsyn-med-internkontroll-og-ferdigpakninger">§ 6-5. Tilsyn med internkontroll og ferdigpakninger</a></li>
+<li class="lvl4"><a href="#6-5a-gebyr-for-tilsyn-med-reparatr-installatr-osv">§ 6-5a. Gebyr for tilsyn med reparatør, installatør osv.</a></li>
+<li class="lvl4"><a href="#6-6-gebyr-ved-funn-av-brudd-pa-regelverket-avviksgebyr">§ 6-6. Gebyr ved funn av brudd på regelverket (avviksgebyr)</a></li>
+<li class="lvl4"><a href="#6-7-gebyr-for-tilsyn-etter-5-5-annet-og-fjerde-ledd-for-tungvekter-og-store-malesystem-for-kontinuerlig-og-dynamisk-maling-av-andre-vsker-enn-vann">§ 6-7. Gebyr for tilsyn etter § 5-5 annet og fjerde ledd for tungvekter og store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann</a></li>
+<li class="lvl4"><a href="#6-8-tilleggskostnader">§ 6-8. Tilleggskostnader</a></li>
+<li class="lvl4"><a href="#6-9-gebyr-for-manglende-oppmte">§ 6-9. Gebyr for manglende oppmøte</a></li>
+<li class="lvl4"><a href="#6-10-beregning-av-timebaserte-gebyr">§ 6-10. Beregning av timebaserte gebyr</a></li>
+<li class="lvl4"><a href="#6-11-krav-og-purregebyr">§ 6-11. Krav og purregebyr</a></li>
+<li class="lvl2"><a href="#kapittel-7-regler-om-utmaling-og-saksbehandling-av-overtredelsesgebyr">Kapittel 7 – Regler om utmåling og saksbehandling av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#7-1-utmaling-etter-faste-satser">§ 7-1. Utmåling etter faste satser</a></li>
+<li class="lvl4"><a href="#7-2-utmaling-basert-pa-kriterier-og-maksimumsbelp">§ 7-2. Utmåling basert på kriterier og maksimumsbeløp</a></li>
+<li class="lvl4"><a href="#7-3-betaling">§ 7-3. Betaling</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-opphevet">§ 8-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-2-ikrafttredelse-og-oppheving-av-andre-forskrifter">§ 8-2. Ikrafttredelse og oppheving av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-nr-1-til-forskrift-om-malenheter-og-maling-jf-forskriften-4-6">Vedlegg nr. 1 til forskrift om målenheter og måling, jf. forskriften § 4-6.</a></li>
+<li class="lvl3"><a href="#samsvarsmoduler">Samsvarsmoduler</a></li>
+<li class="lvl3"><a href="#modul-b-eu-typeprving">Modul B – EU-typeprøving</a></li>
+<li class="lvl3"><a href="#modul-d-samsvar-med-type-basert-pa-kvalitetssikring-av-produksjonsprosessen">Modul D – Samsvar med type basert på kvalitetssikring av produksjonsprosessen</a></li>
+<li class="lvl3"><a href="#modul-d1-kvalitetssikring-av-produksjonsprosessen">Modul D1 – Kvalitetssikring av produksjonsprosessen</a></li>
+<li class="lvl3"><a href="#modul-e-samsvar-med-type-basert-pa-kvalitetssikring-av-sluttprodukt">Modul E – Samsvar med type basert på kvalitetssikring av sluttprodukt</a></li>
+<li class="lvl3"><a href="#modul-e1-kvalitetssikring-ved-inspeksjon-og-prving-av-sluttprodukt">Modul E1 – Kvalitetssikring ved inspeksjon og prøving av sluttprodukt</a></li>
+<li class="lvl3"><a href="#modul-f-frstegangsverifikasjon">Modul F – Førstegangsverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-f1-samsvar-basert-pa-produktverifikasjon">Modul F1 – Samsvar basert på produktverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-g-samsvar-basert-pa-enhetsverifikasjon">Modul G – Samsvar basert på enhetsverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-h-samsvar-basert-pa-full-kvalitetssikring">Modul H – Samsvar basert på full kvalitetssikring</a></li>
+<li class="lvl3"><a href="#modul-h1-samsvar-basert-pa-full-kvalitetssikring-og-konstruksjonsunderskelse">Modul H1 – Samsvar basert på full kvalitetssikring og konstruksjonsundersøkelse</a></li>
+<li class="lvl2"><a href="#vedlegg-nr-2-til-forskrift-om-malenheter-og-maling-jf-forskriften-4-11">Vedlegg nr. 2 til forskrift om målenheter og måling, jf. forskriften § 4-11.</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-09-13-1988.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-20-1723.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om målenheter og måling</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-20-1723.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2007-12-20-1723 <code>forskrift/2007-12-20-1723</code></td></tr>
+<tr><th>Korttittel</th><td>—</td></tr>
+<tr><th>Departement</th><td>Nærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2008</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-09-13-1988 <code>forskrift/2026-09-13-1988</code> fra 02.10.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2007-12-20-1723" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-virkeomrade">§ 1-1. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-2-definisjoner">§ 1-2. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-malenheter">Kapittel 2 – Målenheter</a></li>
+<li class="lvl4"><a href="#2-1-bruk-av-malenheter">§ 2-1. Bruk av målenheter</a></li>
+<li class="lvl4"><a href="#2-2-tilleggsangivelser-i-ikke-gjeldende-enheter">§ 2-2. Tilleggsangivelser i ikke-gjeldende enheter</a></li>
+<li class="lvl4"><a href="#2-3-si-grunnenhetene">§ 2-3. SI-grunnenhetene</a></li>
+<li class="lvl4"><a href="#2-4-definisjoner-av-si-grunnenhetene">§ 2-4. Definisjoner av SI-grunnenhetene</a></li>
+<li class="lvl4"><a href="#2-5-avledede-si-enheter">§ 2-5. Avledede SI-enheter</a></li>
+<li class="lvl4"><a href="#2-6-desimale-multipler-av-si-enheter-prefikser">§ 2-6. Desimale multipler av SI-enheter (prefikser)</a></li>
+<li class="lvl4"><a href="#2-7-spesielle-navn-pa-visse-desimale-multipler-av-si-enheter">§ 2-7. Spesielle navn på visse desimale multipler av SI-enheter</a></li>
+<li class="lvl4"><a href="#2-8-enheter-som-er-definert-ut-fra-si-enheter-men-som-ikke-er-desimale-multipler">§ 2-8. Enheter som er definert ut fra SI-enheter, men som ikke er desimale multipler</a></li>
+<li class="lvl4"><a href="#2-9-enheter-som-er-definert-uavhengig-av-si-enhetene">§ 2-9. Enheter som er definert uavhengig av SI-enhetene</a></li>
+<li class="lvl4"><a href="#2-10-bruk-av-enhetssymboler-i-skrift-og-trykk">§ 2-10. Bruk av enhetssymboler i skrift og trykk</a></li>
+<li class="lvl2"><a href="#kapittel-3-maleredskaper-malemetoder-og-bruksformal-som-det-stilles-krav-til">Kapittel 3 – Måleredskaper, målemetoder og bruksformål som det stilles krav til</a></li>
+<li class="lvl4"><a href="#3-1-nar-det-stilles-krav-til-maleredskaper">§ 3-1. Når det stilles krav til måleredskaper</a></li>
+<li class="lvl4"><a href="#3-2-produksjon-av-ferdigpakninger">§ 3-2. Produksjon av ferdigpakninger</a></li>
+<li class="lvl4"><a href="#3-3-andre-former-for-overdragelse-av-maleredskaper">§ 3-3. Andre former for overdragelse av måleredskaper</a></li>
+<li class="lvl4"><a href="#3-4-justervesenets-adgang-til-a-vedta-presiseringer-og-unntak-under-bruk">§ 3-4. Justervesenets adgang til å vedta presiseringer og unntak under bruk</a></li>
+<li class="lvl4"><a href="#3-5-opphevet">§ 3-5. (Opphevet)</a></li>
+<li class="lvl4"><a href="#3-6-opphevet">§ 3-6. (Opphevet)</a></li>
+<li class="lvl2"><a href="#kapittel-4-krav-ved-salg-av-maleredskaper">Kapittel 4 – Krav ved salg av måleredskaper</a></li>
+<li class="lvl3"><a href="#avsnitt-1-krav-til-alle-maleredskaper-ved-salg">Avsnitt 1 – Krav til alle måleredskaper ved salg</a></li>
+<li class="lvl5"><a href="#4-1-krav-til-maleredskaper-som-gjres-tilgjengelig-pa-markedet">§ 4-1. Krav til måleredskaper som gjøres tilgjengelig på markedet</a></li>
+<li class="lvl5"><a href="#4-2-krav-til-type-samsvarsvurdering">§ 4-2. Krav til type samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-3-unntak-fra-krav-om-samsvarsvurdering">§ 4-3. Unntak fra krav om samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-4-opplysninger-som-skal-flge-maleredskapet">§ 4-4. Opplysninger som skal følge måleredskapet</a></li>
+<li class="lvl5"><a href="#4-5-rapporteringsplikt-ved-salg-av-maleredskaper">§ 4-5. Rapporteringsplikt ved salg av måleredskaper</a></li>
+<li class="lvl5"><a href="#4-5a-opphevet">§ 4-5a. (Opphevet)</a></li>
+<li class="lvl3"><a href="#avsnitt-2-krav-til-samsvarsvurdering-etter-es-avtalen">Avsnitt 2 – Krav til samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-6-prosedyrer-for-samsvarsvurdering-etter-es-avtalen">§ 4-6. Prosedyrer for samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-7-krav-ved-samsvarsvurdering-etter-es-avtalen">§ 4-7. Krav ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-8-virkning-av-gyldig-samsvarsvurdering-etter-es-avtalen">§ 4-8. Virkning av gyldig samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-9-krav-til-merking-ved-samsvarsvurdering-etter-es-avtalen">§ 4-9. Krav til merking ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-9a-samsvarsmerking">§ 4-9a. Samsvarsmerking</a></li>
+<li class="lvl5"><a href="#4-10-samsvarsvurdering-etter-es-avtalen">§ 4-10. Samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-11-krav-til-eu-samsvarserklring">§ 4-11. Krav til EU-samsvarserklæring</a></li>
+<li class="lvl5"><a href="#4-12-teknisk-dokumentasjon-ved-samsvarsvurdering-etter-es-avtalen">§ 4-12. Teknisk dokumentasjon ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-13-maleredskaper-som-oppfyller-kravene-i-direktiv200923efog200422ef">§ 4-13. Måleredskaper som oppfyller kravene i direktiv2009/23/EFog2004/22/EF</a></li>
+<li class="lvl3"><a href="#avsnitt-3-krav-til-konomiske-aktrers-forpliktelser-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 3 – Krav til økonomiske aktørers forpliktelser ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-14-produsentens-forpliktelser">§ 4-14. Produsentens forpliktelser</a></li>
+<li class="lvl5"><a href="#4-15-autorisert-representants-forpliktelser">§ 4-15. Autorisert representants forpliktelser</a></li>
+<li class="lvl5"><a href="#4-16-importrs-forpliktelser">§ 4-16. Importørs forpliktelser</a></li>
+<li class="lvl5"><a href="#4-17-distributrens-forpliktelser">§ 4-17. Distributørens forpliktelser</a></li>
+<li class="lvl5"><a href="#4-18-tilfeller-hvor-produsentens-forpliktelser-gjelder-for-importr-og-distributr">§ 4-18. Tilfeller hvor produsentens forpliktelser gjelder for importør og distributør</a></li>
+<li class="lvl5"><a href="#4-19-identifisering-av-konomiske-aktrer">§ 4-19. Identifisering av økonomiske aktører</a></li>
+<li class="lvl3"><a href="#avsnitt-4-krav-til-tekniske-kontrollorgan-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 4 – Krav til tekniske kontrollorgan ved samsvarsvurdering etter EØS-avtalen</a></li>
+<li class="lvl5"><a href="#4-20-utpeking-av-teknisk-kontrollorgan">§ 4-20. Utpeking av teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-21-krav-til-sknad-om-utpeking">§ 4-21. Krav til søknad om utpeking</a></li>
+<li class="lvl5"><a href="#4-22-habilitet-og-upartiskhet-for-teknisk-kontrollorgan">§ 4-22. Habilitet og upartiskhet for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-23-krav-til-underleverandr-og-underselskap">§ 4-23. Krav til underleverandør og underselskap</a></li>
+<li class="lvl5"><a href="#4-24-kompetansekrav-for-teknisk-kontrollorgan">§ 4-24. Kompetansekrav for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-25-krav-til-det-tekniske-kontrollorganets-utfrelse-av-samsvarsvurdering">§ 4-25. Krav til det tekniske kontrollorganets utførelse av samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-26-krav-til-personale-i-teknisk-kontrollorgan">§ 4-26. Krav til personale i teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-27-krav-til-forsikring-for-teknisk-kontrollorgan">§ 4-27. Krav til forsikring for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-28-taushetsplikt-for-teknisk-kontrollorgan">§ 4-28. Taushetsplikt for teknisk kontrollorgan</a></li>
+<li class="lvl5"><a href="#4-29-krav-om-a-informere-andre">§ 4-29. Krav om å informere andre</a></li>
+<li class="lvl3"><a href="#avsnitt-5-krav-ved-nasjonal-samsvarsvurdering">Avsnitt 5 – Krav ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-30-nasjonal-samsvarsvurdering">§ 4-30. Nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-31-sknad-om-typegodkjenning-ved-nasjonal-samsvarsvurdering">§ 4-31. Søknad om typegodkjenning ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-32-ansvarlig-for-samsvarsvurdering">§ 4-32. Ansvarlig for samsvarsvurdering</a></li>
+<li class="lvl5"><a href="#4-33-omfanget-av-typegodkjenningen-ved-nasjonal-samsvarsvurdering">§ 4-33. Omfanget av typegodkjenningen ved nasjonal samsvarsvurdering</a></li>
+<li class="lvl3"><a href="#avsnitt-6-avsluttende-bestemmelser">Avsnitt 6 – Avsluttende bestemmelser</a></li>
+<li class="lvl5"><a href="#4-34-overtredelsesgebyr">§ 4-34. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-5-krav-til-malinger-og-maleredskaper-under-bruk">Kapittel 5 – Krav til målinger og måleredskaper under bruk</a></li>
+<li class="lvl4"><a href="#5-1-brukerens-ansvar">§ 5-1. Brukerens ansvar</a></li>
+<li class="lvl4"><a href="#5-2-tilsyn">§ 5-2. Tilsyn</a></li>
+<li class="lvl4"><a href="#5-3-dokumentene-som-skal-fremlegges-ved-tilsynet">§ 5-3. Dokumentene som skal fremlegges ved tilsynet</a></li>
+<li class="lvl4"><a href="#5-4-justervesenets-adgang-til-a-palegge-internkontroll">§ 5-4. Justervesenets adgang til å pålegge internkontroll</a></li>
+<li class="lvl4"><a href="#5-5-plikt-til-aktsomhet-retting-og-melding">§ 5-5. Plikt til aktsomhet, retting og melding</a></li>
+<li class="lvl4"><a href="#5-6-brukerens-plikter">§ 5-6. Brukerens plikter</a></li>
+<li class="lvl4"><a href="#5-7-merking-av-maleredskapet">§ 5-7. Merking av måleredskapet</a></li>
+<li class="lvl4"><a href="#5-8-retting-og-midlertidig-brukstillatelse">§ 5-8. Retting og midlertidig brukstillatelse</a></li>
+<li class="lvl4"><a href="#5-9-adgangen-til-a-anvende-brukerens-utstyr-ved-tilsynet">§ 5-9. Adgangen til å anvende brukerens utstyr ved tilsynet</a></li>
+<li class="lvl4"><a href="#5-10-overtredelsesgebyr">§ 5-10. Overtredelsesgebyr</a></li>
+<li class="lvl2"><a href="#kapittel-6-gebyrer-og-avgifter">Kapittel 6 – Gebyrer og avgifter</a></li>
+<li class="lvl4"><a href="#6-1-gebyr-for-behandling-av-sknad-om-godkjenning">§ 6-1. Gebyr for behandling av søknad om godkjenning</a></li>
+<li class="lvl4"><a href="#6-2-arsavgift-for-tilsyn">§ 6-2. Årsavgift for tilsyn</a></li>
+<li class="lvl4"><a href="#6-3-arsavgift-for-tilsyn-med-fiskemottak">§ 6-3. Årsavgift for tilsyn med fiskemottak</a></li>
+<li class="lvl4"><a href="#6-4-gebyrer-for-tilsyn">§ 6-4. Gebyrer for tilsyn</a></li>
+<li class="lvl4"><a href="#6-5-tilsyn-med-internkontroll-og-ferdigpakninger">§ 6-5. Tilsyn med internkontroll og ferdigpakninger</a></li>
+<li class="lvl4"><a href="#6-5a-gebyr-for-tilsyn-med-reparatr-installatr-osv">§ 6-5a. Gebyr for tilsyn med reparatør, installatør osv.</a></li>
+<li class="lvl4"><a href="#6-6-gebyr-ved-funn-av-brudd-pa-regelverket-avviksgebyr">§ 6-6. Gebyr ved funn av brudd på regelverket (avviksgebyr)</a></li>
+<li class="lvl4"><a href="#6-7-gebyr-for-tilsyn-etter-5-5-annet-og-fjerde-ledd-for-tungvekter-og-store-malesystem-for-kontinuerlig-og-dynamisk-maling-av-andre-vsker-enn-vann">§ 6-7. Gebyr for tilsyn etter § 5-5 annet og fjerde ledd for tungvekter og store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann</a></li>
+<li class="lvl4"><a href="#6-8-tilleggskostnader">§ 6-8. Tilleggskostnader</a></li>
+<li class="lvl4"><a href="#6-9-gebyr-for-manglende-oppmte">§ 6-9. Gebyr for manglende oppmøte</a></li>
+<li class="lvl4"><a href="#6-10-beregning-av-timebaserte-gebyr">§ 6-10. Beregning av timebaserte gebyr</a></li>
+<li class="lvl4"><a href="#6-11-krav-og-purregebyr">§ 6-11. Krav og purregebyr</a></li>
+<li class="lvl2"><a href="#kapittel-7-regler-om-utmaling-og-saksbehandling-av-overtredelsesgebyr">Kapittel 7 – Regler om utmåling og saksbehandling av overtredelsesgebyr</a></li>
+<li class="lvl4"><a href="#7-1-utmaling-etter-faste-satser">§ 7-1. Utmåling etter faste satser</a></li>
+<li class="lvl4"><a href="#7-2-utmaling-basert-pa-kriterier-og-maksimumsbelp">§ 7-2. Utmåling basert på kriterier og maksimumsbeløp</a></li>
+<li class="lvl4"><a href="#7-3-betaling">§ 7-3. Betaling</a></li>
+<li class="lvl2"><a href="#kapittel-8-avsluttende-bestemmelser">Kapittel 8 – Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#8-1-opphevet">§ 8-1. (Opphevet)</a></li>
+<li class="lvl4"><a href="#8-2-ikrafttredelse-og-oppheving-av-andre-forskrifter">§ 8-2. Ikrafttredelse og oppheving av andre forskrifter</a></li>
+<li class="lvl2"><a href="#vedlegg-nr-1-til-forskrift-om-malenheter-og-maling-jf-forskriften-4-6">Vedlegg nr. 1 til forskrift om målenheter og måling, jf. forskriften § 4-6.</a></li>
+<li class="lvl3"><a href="#samsvarsmoduler">Samsvarsmoduler</a></li>
+<li class="lvl3"><a href="#modul-b-eu-typeprving">Modul B – EU-typeprøving</a></li>
+<li class="lvl3"><a href="#modul-d-samsvar-med-type-basert-pa-kvalitetssikring-av-produksjonsprosessen">Modul D – Samsvar med type basert på kvalitetssikring av produksjonsprosessen</a></li>
+<li class="lvl3"><a href="#modul-d1-kvalitetssikring-av-produksjonsprosessen">Modul D1 – Kvalitetssikring av produksjonsprosessen</a></li>
+<li class="lvl3"><a href="#modul-e-samsvar-med-type-basert-pa-kvalitetssikring-av-sluttprodukt">Modul E – Samsvar med type basert på kvalitetssikring av sluttprodukt</a></li>
+<li class="lvl3"><a href="#modul-e1-kvalitetssikring-ved-inspeksjon-og-prving-av-sluttprodukt">Modul E1 – Kvalitetssikring ved inspeksjon og prøving av sluttprodukt</a></li>
+<li class="lvl3"><a href="#modul-f-frstegangsverifikasjon">Modul F – Førstegangsverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-f1-samsvar-basert-pa-produktverifikasjon">Modul F1 – Samsvar basert på produktverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-g-samsvar-basert-pa-enhetsverifikasjon">Modul G – Samsvar basert på enhetsverifikasjon</a></li>
+<li class="lvl3"><a href="#modul-h-samsvar-basert-pa-full-kvalitetssikring">Modul H – Samsvar basert på full kvalitetssikring</a></li>
+<li class="lvl3"><a href="#modul-h1-samsvar-basert-pa-full-kvalitetssikring-og-konstruksjonsunderskelse">Modul H1 – Samsvar basert på full kvalitetssikring og konstruksjonsundersøkelse</a></li>
+<li class="lvl2"><a href="#vedlegg-nr-2-til-forskrift-om-malenheter-og-maling-jf-forskriften-4-11">Vedlegg nr. 2 til forskrift om målenheter og måling, jf. forskriften § 4-11.</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-20-1723.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2007-12-20-1723.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2007-12-20-1723.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2007-12-20-1723.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2007-12-20-1723.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-20-1723.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2007-12-20-1723.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2007-12-20-1723.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2007-12-20-1723.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-malenheter-og-maling">Forskrift om målenheter og måling</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1 – Innledende bestemmelser</h2>
 <h4 id="1-1-virkeomrade">§ 1-1. Virkeområde</h4>
 <p>Denne forskriften inneholder utfyllende bestemmelser til lov 26. januar 2007 nr. 4 om målenheter, måling og normaltid. Forskriften fastsetter i hvilke tilfeller det stilles krav til måleredskaper og målinger. Forskriften fastsetter også krav til måleredskaper og regler om målenheter, gebyrer og overtredelsesgebyr.</p>
@@ -100,7 +361,7 @@ o. produsent: enhver fysisk eller juridisk person som produserer måleredskap el
 p. samsvarsvurdering: den prosess som påviser hvorvidt et måleredskap oppfyller de kravene som er fastsatt i eller i medhold av lov om målenheter, måling og normaltid
 q. teknisk kontrollorgan: organ som utfører samsvarsvurderingsaktiviteter, og som er utpekt til å foreta samsvarsvurderinger etter bestemmelsene i denne forskriften og i henhold til lov 16. juni 1994 nr. 20 om tekniske kontrollorgan
 r. typegodkjenning: vedtak som fastslår at en type måleredskap er i samsvar med de kravene som er fastsatt i kapittel 4 avsnitt 5 om nasjonal samsvarsvurdering.</p>
-<p><em>Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h2 id="kapittel-2-malenheter">Kapittel 2 – Målenheter</h2>
 <h4 id="2-1-bruk-av-malenheter">§ 2-1. Bruk av målenheter</h4>
 <p>Det er ikke tillatt å bruke andre målenheter enn de gjeldende målenheter som er angitt i forskriften med mindre det er gjort unntak i kapitlet her. Gjeldende målenheter er fastsatt i samsvar med det internasjonale systemet for målenheter (SI-systemet). Definisjonene av SI-enhetene er i samsvar med definisjonene fastsatt av Generalkonferansen for mål og vekt (CGPM). I tillegg til SI-enhetene gjelder enkelte målenheter som er definert uavhengig av SI-systemet.</p>
@@ -121,7 +382,7 @@ f. Enhet for stoffmengde: Mol, symbol mol, er SI-enheten for stoffmengde. Et mol
 g. Stoffmengde, symbol n, av et system er et mål på antallet spesifiserte elementære enheter. En elementær enhet kan være et atom, et molekyl, et ion, et elektron, andre partikler eller spesifiserte grupper av partikler.
 h. Enhet for lysstyrke: Candela, symbol cd, er SI-enheten for lysstyrke i en gitt retning. Den er definert ved å la den faste numeriske verdien av lysstyrken til monokromatisk stråling med frekvens 540 x 1 012 Hz, Kcd , til å være 683 når den er uttrykt i enheten lm W -1 , som er lik cd sr W -1 , eller cd sr kg -1 m -2 s 3 , der kilogram, meter og sekund er definert ut fra h, c og Δv Cs . Tabell 2. Særlig navn og symbol for den avledede SI-enheten for temperatur ved angivelse av celsius-temperatur. Størrelse Enhet Navn Symbol Celsiustemperatur Grad celsius °C
   Celsiustemperatur t er definert som differansen t = T – T 0 mellom de to termodynamiske temperaturene T og T 0 , der T 0 = 273,15 K. Et intervall eller en differanse i temperatur kan uttrykkes enten i kelvin eller i grader celsius . Enheten «grader celsius» er lik enheten «kelvin».</p>
-<p><em>Endret ved forskrift 26 aug 2020 nr. 1681 .</em></p>
+<p class="note">Endret ved forskrift 26 aug 2020 nr. 1681 .</p>
 <h4 id="2-5-avledede-si-enheter">§ 2-5. Avledede SI-enheter</h4>
 <p>Avledede SI-enheter er samstemte (koherente) kombinasjoner av SI-grunnenhetene og/eller supplementenhetene i SI og blir dannet algebraisk ved multiplikasjon eller divisjon av disse. Dette gjelder blant annet:</p>
 <p>Følgende avledede SI-enheter har egne navn og symboler:</p>
@@ -189,30 +450,30 @@ e. bestemme massen ved å fremstille reseptbelagte legemidler i apotek
 f. bestemme massen ved analyser utført i medisinske og farmasøytiske laboratorier
 g. fastsette pris etter masse ved direkte salg til publikum og ved produksjon av ferdigpakninger.</p>
 <p>Hvis de ikke-automatiske vektene angitt i femte ledd er utstyrt med eller knyttet til innretninger som ikke benyttes til slike formål som nevnt i femte ledd, gjelder ikke kravene i forskriften her for disse innretningene.</p>
-<p><em>Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 12 des 2013 nr. 1554 (i kraft 1 jan 2014), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 , 31 aug 2023 nr. 1381 .</em></p>
+<p class="note">Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 12 des 2013 nr. 1554 (i kraft 1 jan 2014), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 , 31 aug 2023 nr. 1381 .</p>
 <h4 id="3-2-produksjon-av-ferdigpakninger">§ 3-2. Produksjon av ferdigpakninger <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-3-2.html" title="Endringshistorikk for § 3-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved produksjon av ferdigpakninger kan kravene i denne forskriften sikres på en av følgende måter:</p>
 <p>a. Det brukes et måleredskap som oppfyller kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid .
 b. Innholdet i ferdigpakningen kontrolleres med et egnet måleredskap som oppfyller kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid .
 c. Ved stikkprøver eller andre kontrollsystem som sikrer at innholdet i ferdigpakningene tilfredsstiller kravene i forskrift om krav til ferdigpakninger.</p>
-<p><em>Endret ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h4 id="3-3-andre-former-for-overdragelse-av-maleredskaper">§ 3-3. Andre former for overdragelse av måleredskaper <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-3-3.html" title="Endringshistorikk for § 3-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet kan i forskrift eller enkeltvedtak fastsette at det også skal gjelde krav til måleredskaper som overdras på annen måte enn ved salg.</p>
-<p><em>Endret ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h4 id="3-4-justervesenets-adgang-til-a-vedta-presiseringer-og-unntak-under-bruk">§ 3-4. Justervesenets adgang til å vedta presiseringer og unntak under bruk <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-3-4.html" title="Endringshistorikk for § 3-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet kan i forskrift eller enkeltvedtak fastsette nærmere når et måleredskap anses å brukes til et angitt bruksformål.</p>
 <p>Justervesenet kan i forskrift bestemme at måleredskaper omfattet av § 3-1 fjerde ledd likevel ikke skal være underlagt nærmere krav under bruk.</p>
-<p><em>Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 12 des 2013 nr. 1554 (i kraft 1 jan 2014), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 12 des 2013 nr. 1554 (i kraft 1 jan 2014), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 .</p>
 <h4 id="3-5-opphevet">§ 3-5. (Opphevet) <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-3-5.html" title="Endringshistorikk for § 3-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Opphevet ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Opphevet ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h4 id="3-6-opphevet">§ 3-6. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Opphevet ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h2 id="kapittel-4-krav-ved-salg-av-maleredskaper">Kapittel 4 – Krav ved salg av måleredskaper</h2>
 <p>Kapitlet endret i sin helhet ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h3 id="avsnitt-1-krav-til-alle-maleredskaper-ved-salg">Avsnitt 1 – Krav til alle måleredskaper ved salg</h3>
 <h5 id="4-1-krav-til-maleredskaper-som-gjres-tilgjengelig-pa-markedet">§ 4-1. Krav til måleredskaper som gjøres tilgjengelig på markedet <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-1.html" title="Endringshistorikk for § 4-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>De økonomiske aktørene skal sørge for at måleredskapene nevnt i § 3-1 første ledd tilfredsstiller kravene i dette kapittelet.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-2-krav-til-type-samsvarsvurdering">§ 4-2. Krav til type samsvarsvurdering <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-2.html" title="Endringshistorikk for § 4-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Følgende måleredskaper skal oppfylle kravene til EØS-samsvarsvurdering i avsnitt 1 og 2 hvis de er underlagt krav i § 3-1 første ledd:</p>
 <p>a. automatiske diskontinuerlige summeringsvekter
@@ -235,18 +496,18 @@ o. varmeenergimålere som brukes i boliger, næringsvirksomhet og lett industri.
 b. lengdemål som måler nivået i tanker.</p>
 <p>Flasker brukt som målebeholdere skal oppfylle kravene ved salg i forskrift om krav til måleflasker .</p>
 <p>Måleredskaper angitt i første ledd som første gang ble gjort tilgjengelige på markedet før 30. oktober 2006, skal tilfredsstille kravene til nasjonal samsvarsvurdering i avsnitt 1 og 5 hvis disse gjøres tilgjengelig på markedet.</p>
-<p><em>Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 25 april 2016 nr. 427 , 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 25 april 2016 nr. 427 , 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-3-unntak-fra-krav-om-samsvarsvurdering">§ 4-3. Unntak fra krav om samsvarsvurdering <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-3.html" title="Endringshistorikk for § 4-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Med unntak for ikke-automatiske vekter kan måleredskaper framvises på messer, utstillinger, demonstrasjoner og lignende uten at samsvarsvurdering er gjennomført dersom tydelig merking klart angir at måleredskapet ikke er i samsvar med fastsatte krav og ikke kan gjøres tilgjengelig på markedet eller tas i bruk før det er brakt i samsvar med de kravene som gjelder for det aktuelle måleredskapet.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-6), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-6), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-4-opplysninger-som-skal-flge-maleredskapet">§ 4-4. Opplysninger som skal følge måleredskapet <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-4.html" title="Endringshistorikk for § 4-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Opplysninger som er nødvendige for å sikre korrekt bruk av måleredskapet, skal være på norsk. Justervesenet kan i det enkelte tilfelle tillate at opplysningene er på svensk, dansk eller engelsk.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-5), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-5), 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-5-rapporteringsplikt-ved-salg-av-maleredskaper">§ 4-5. Rapporteringsplikt ved salg av måleredskaper <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-5.html" title="Endringshistorikk for § 4-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Justervesenet kan gi forskrift om pålegg om at den som selger eller på annen måte overdrar måleredskaper, skal rapportere dette til Justervesenet.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-4), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-4), 26 aug 2020 nr. 1681 , 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-5a-opphevet">§ 4-5a. (Opphevet) <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-5a.html" title="Endringshistorikk for § 4-5a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
-<p><em>Tilføyd ved forskrift 26 aug 2020 nr. 1681 , opphevet ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Tilføyd ved forskrift 26 aug 2020 nr. 1681 , opphevet ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h3 id="avsnitt-2-krav-til-samsvarsvurdering-etter-es-avtalen">Avsnitt 2 – Krav til samsvarsvurdering etter EØS-avtalen</h3>
 <h5 id="4-6-prosedyrer-for-samsvarsvurdering-etter-es-avtalen">§ 4-6. Prosedyrer for samsvarsvurdering etter EØS-avtalen <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-6.html" title="Endringshistorikk for § 4-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Samsvarsvurderingen for de enkelte måleredskaper er bare tillatt utført etter prosedyrene i de modulene som fremgår av tabell 10. Innholdet i modulene er fastsatt i vedlegg 1 til forskriften. Produsenten velger selv hvilken av de følgende prosedyrene for samsvarsvurdering som skal benyttes:</p>
@@ -259,11 +520,11 @@ Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 17 des 2015 nr
 <li>de deler av et normativt dokument som er offentliggjort i en liste i Den europeiske unions tidende.</li>
 </ol>
 <p>Dersom et måleredskap bare er delvis i samsvar med harmonisert standard eller normativt dokument som nevnt i første ledd, skal det antas samsvar med de grunnleggende kravene som tilsvarer de elementer i standarden eller det normative dokumentet, som måleredskapet samsvarer med.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-12).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-12).</p>
 <h5 id="4-8-virkning-av-gyldig-samsvarsvurdering-etter-es-avtalen">§ 4-8. Virkning av gyldig samsvarsvurdering etter EØS-avtalen</h5>
 <p>Måleredskaper som tilfredsstiller kravene gitt i eller i medhold av lov om målenheter, måling og normaltid, skal ikke hindres gjort tilgjengelig på markedet og/eller tatt i bruk under henvisning til forhold som er regulert i eller i medhold av lov om målenheter, måling og normaltid.</p>
 <p>Det er ikke tillatt å gjøre måleredskaper som ikke oppfyller kravene i denne forskriften og den instrumentspesifikke forskriften tilgjengelig på markedet, uansett om måleredskapet for øvrig oppfyller kravene i de aktuelle instrumentspesifikke forskriftene.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-15).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-15).</p>
 <h5 id="4-9-krav-til-merking-ved-samsvarsvurdering-etter-es-avtalen">§ 4-9. Krav til merking ved samsvarsvurdering etter EØS-avtalen <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-9.html" title="Endringshistorikk for § 4-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>CE-merking og supplerende metrologisk merking skal påføres før måleredskapet første gang gjøres tilgjengelig på markedet. CE-merking og supplerende metrologisk merking kan påføres måleredskapet under produksjonsprosessen hvis det er berettiget. Forrige setning gjelder ikke for ikke-automatiske vekter. Samsvarsmerkingen består av</p>
 <p>a. CE-merking
@@ -274,13 +535,13 @@ c. identifikasjonsnummeret til det aktuelle tekniske kontrollorganet.</p>
 <p>Identifikasjonsnummeret til det aktuelle tekniske kontrollorgan skal, dersom organet er involvert i produksjonskontrollfasen som nevnt i vedlegg 1, følge etter CE-merkingen og den supplerende metrologiske merkingen. Forrige setning gjelder ikke for ikke-automatiske vekter. Identifikasjonsnummeret skal påføres av det tekniske kontrollorganet, eller av produsent eller dennes representant etter instruksjon av det tekniske kontrollorganet.</p>
 <p>Dersom måleredskapet består av en rekke komponenter som virker sammen, men som ikke er underenheter, skal CE-merking og supplerende metrologisk merking påføres på målerens hovedkomponent. Dette avsnittet gjelder ikke for ikke-automatiske vekter.</p>
 <p>CE-merkingen og den supplerende metrologiske merkingen skal påføres måleredskapet eller måleredskapets merkeskilt, og være synlig, uutslettelig og varig. Dersom det ikke er mulig eller ønskelig på grunn av måleredskapets art å påføre CE-merking og supplerende metrologisk merking, skal merkingene påføres på eventuell emballasje og i følgedokumenter. Dette gjelder likevel ikke for ikke-automatiske vekter. Det berørte tekniske kontrollorgans identifikasjonsnummer skal være uutslettelig eller selvdestruerende ved fjerning.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-14), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-14), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-9a-samsvarsmerking">§ 4-9a. Samsvarsmerking <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-9a.html" title="Endringshistorikk for § 4-9a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p>Måleredskaper der det er besluttet samsvar etter EØS-avtalen , skal samsvarsmerkes med CE-merking og tilhørende metrologisk merking som angitt i § 4-9 . Det er ikke tillatt å påføre samsvarsmerking hvis kravene til måleredskapet ikke er oppfylt.</p>
-<p><em>Tilføyd ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Tilføyd ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-10-samsvarsvurdering-etter-es-avtalen">§ 4-10. Samsvarsvurdering etter EØS-avtalen</h5>
 <p>Samsvarsvurdering skal foretas av teknisk kontrollorgan. Produsenten kan fritt velge mellom tekniske kontrollorgan som er utpekt til å kunne utføre samsvarsvurderinger for den aktuelle typen måleredskap.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h5 id="4-11-krav-til-eu-samsvarserklring">§ 4-11. Krav til EU-samsvarserklæring <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-11.html" title="Endringshistorikk for § 4-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p><em>EU-samsvarserklæringen skal erklære at kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid er påvist oppfylt. EU-samsvarserklæringen skal ha oppbygging som angitt i vedlegg 2, inneholde de elementer spesifisert i de relevante moduler angitt i vedlegg 1 og kontinuerlig oppdateres. EU-samsvarserklæringen skal oversettes til norsk, svensk, dansk eller engelsk. Dersom et måleredskap omfattes av mer enn én rettsakt hvor EU-samsvarserklæring er påkrevd, skal det utarbeides kun én EU-samsvarserklæring for alle slike rettsakter. EU-samsvarserklæringen skal identifisere de relevante rettsaktene og hvor disse er publisert. Ved å utarbeide EU-samsvarserklæringen, påtar produsenten seg ansvaret for at måleredskapet oppfyller kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid når det første gang gjøres tilgjengelig på EØS-markedet.
 Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
@@ -307,11 +568,11 @@ j. relevante testresultater, om nødvendig, for å påvise at type eller målere
 <p>Det skal antas samsvar med de relevante tester nevnt i bokstav j ovenfor dersom tilsvarende tester er utført i samsvar med relevante dokumenter nevnt i § 4-7 og dersom testresultatene sikrer samsvar med de grunnleggende krav. Dette avsnittet gjelder ikke for ikke-automatiske vekter.</p>
 <p>Produsenten skal angi hvor plomberinger og merker er anbrakt. Produsenten skal også angi vilkårene for kompatibilitet med grensesnitt og underenheter dersom det er relevant.</p>
 <p>Dokumenter og korrespondanse i forbindelse med samsvarsvurderingen skal være på norsk, engelsk, svensk, dansk eller annet språk som godtas av det tekniske kontrollorganet.</p>
-<p><em>Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-13), 29 jan 2016 nr. 124 (i kraft 20 april 2016).</em></p>
+<p class="note">Endret ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-13), 29 jan 2016 nr. 124 (i kraft 20 april 2016).</p>
 <h5 id="4-13-maleredskaper-som-oppfyller-kravene-i-direktiv200923efog200422ef">§ 4-13. Måleredskaper som oppfyller kravene i direktiv2009/23/EFog2004/22/EF</h5>
 <p>Måleredskaper som oppfyller kravene i direktiv 2009/23/EF og direktiv 2004/22/EF og første gang ble gjort tilgjengelig på markedet før 20. april 2016, kan fortsatt gjøres tilgjengelig på markedet og/eller tas i bruk etter denne dato.</p>
 <p>Sertifikater utstedt i henhold til direktiv 2009/23/EF og direktiv 2004/22/EF er gyldig også etter 20. april 2016.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h3 id="avsnitt-3-krav-til-konomiske-aktrers-forpliktelser-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 3 – Krav til økonomiske aktørers forpliktelser ved samsvarsvurdering etter EØS-avtalen</h3>
 <h5 id="4-14-produsentens-forpliktelser">§ 4-14. Produsentens forpliktelser <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-14.html" title="Endringshistorikk for § 4-14" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <ol>
@@ -351,7 +612,7 @@ c. postadresse hvor produsenten kan kontaktes.</p>
 </ol>
 <p>a. skaffe all informasjon og dokumentasjon som er nødvendig for å dokumentere at måleredskapet er i samsvar med kravene ved salg fastsatt i eller i medhold av lov om målenheter, måling og normaltid , på et språk som lett kan forstås av myndigheten
 b. samarbeide med myndigheten om ethvert tiltak som treffes for å redusere risiko fra de måleredskaper som produsenten har gjort tilgjengelig på markedet første gang.</p>
-<p><em>Tilføyd ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), endret ved forskrifter 25 april 2016 nr. 427 , 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Tilføyd ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), endret ved forskrifter 25 april 2016 nr. 427 , 13 aug 2021 nr. 2504 .</p>
 <h5 id="4-15-autorisert-representants-forpliktelser">§ 4-15. Autorisert representants forpliktelser <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-15.html" title="Endringshistorikk for § 4-15" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <ol>
 <li>
@@ -364,7 +625,7 @@ b. samarbeide med myndigheten om ethvert tiltak som treffes for å redusere risi
 <p>a. oppbevare den tekniske dokumentasjonen og EU-samsvarserklæringen i 10 år etter at måleredskapet første gang ble gjort tilgjengelig på markedet, til rådighet for de nasjonale markedstilsynsmyndighetene,
 b. ved forespørsel, å samarbeide med de relevante nasjonale myndigheter om ethvert tiltak som treffes for å redusere risiko fra de måleredskaper som er omfattet av representantens fullmakt,
 c. ved forespørsel gi nasjonale myndigheter alle opplysninger og nødvendig dokumentasjon for å vise at måleinstrumentet er i samsvar med kravene.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved forskrift 26 aug 2020 nr. 1681 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved forskrift 26 aug 2020 nr. 1681 .</p>
 <h5 id="4-16-importrs-forpliktelser">§ 4-16. Importørs forpliktelser <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-16.html" title="Endringshistorikk for § 4-16" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <ol>
 <li>
@@ -407,7 +668,7 @@ c. postadresse hvor importør kan kontaktes.</p>
 <p>§ 4-14 punkt 9 gjelder også for importør.</p>
 </li>
 </ol>
-<p><em>Tilføyd ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), endret ved forskrift 25 april 2016 nr. 427 .</em></p>
+<p class="note">Tilføyd ved forskrifter 17 des 2015 nr. 1887 (i kraft 20 april 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), endret ved forskrift 25 april 2016 nr. 427 .</p>
 <h5 id="4-17-distributrens-forpliktelser">§ 4-17. Distributørens forpliktelser <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-4-17.html" title="Endringshistorikk for § 4-17" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h5>
 <p><em>Distributøren skal handle med rimelig aktsomhet med hensyn til kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid når denne gjør et måleredskap tilgjengelig på markedet og/eller tar det i bruk. Før distributøren gjør et måleredskap tilgjengelig på EØS-markedet og/eller tar det i bruk, skal han verifisere at måleredskapet er påført CE-merking og supplerende metrologisk merking, dokumentene nevnt i § 4-14 punkt 7 første setning samt nødvendige dokumenter er vedlagt måleredskapet. Opplysninger som er nødvendige for å sikre korrekt bruk av måleredskapet skal være på norsk. Justervesenet kan i det enkelte tilfelle tillate at opplysningene er på svensk, dansk eller engelsk, og produsent og importør har oppfylt kravene i henholdsvis § 4-14 punkt 5 og 6 og § 4-16 punkt 3. Dersom en distributøren anser eller har grunn til å tro at et måleredskap som denne har gjort tilgjengelig på EØS-markedet ikke oppfyller kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid, skal ikke måleredskapet gjøres tilgjengelig på EØS-markedet eller tas i bruk før det oppfyller kravene. Dersom måleredskapet medfører risiko, skal distributøren videre informere produsenten eller importøren samt markedstilsynsmyndighetene om dette. Distributøren skal sørge for at måleredskaper han har ansvar for, lagres og transporteres på en slik måte at måleredskapets overensstemmelse med kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid ikke settes i fare. Distributøren skal så raskt som mulig sørge for å overholde § 4-14 punkt 8 for de måleredskaper han har gjort tilgjengelige på markedet eller tatt i bruk. § 4-14 punkt 9 gjelder også for distributør.
 Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved forskrift 25 april 2016 nr. 427 .</em></p>
@@ -415,18 +676,18 @@ Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved 
 <p>Importør eller distributør anses som produsent og er underlagt bestemmelsene som gjelder for denne i § 4-14 dersom denne</p>
 <p>a. gjør et måleredskap tilgjengelig på markedet første gang under sitt navn eller varemerke, eller
 b. gjør endringer på et måleredskap som allerede er gjort tilgjengelig på markedet første gang, på en slik måte at det kan påvirke måleredskapets overensstemmelse med kravene fastsatt i eller i medhold av lov om målenheter, måling og normaltid</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved forskrift 25 april 2016 nr. 427 .</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), endret ved forskrift 25 april 2016 nr. 427 .</p>
 <h5 id="4-19-identifisering-av-konomiske-aktrer">§ 4-19. Identifisering av økonomiske aktører</h5>
 <p>Ved forespørsel skal økonomiske aktører identifisere følgende til markedstilsynsmyndighetene;</p>
 <p>a. enhver økonomisk aktør som de har mottatt et måleredskap fra, og
 b. enhver økonomisk aktør som de har levert et måleredskap til</p>
 <p>Økonomiske aktører skal være i stand til å presentere informasjon nevnt i første ledd i 10 år etter at de har mottatt eller levert måleredskapet.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h3 id="avsnitt-4-krav-til-tekniske-kontrollorgan-ved-samsvarsvurdering-etter-es-avtalen">Avsnitt 4 – Krav til tekniske kontrollorgan ved samsvarsvurdering etter EØS-avtalen</h3>
 <h5 id="4-20-utpeking-av-teknisk-kontrollorgan">§ 4-20. Utpeking av teknisk kontrollorgan</h5>
 <p>Virksomheter som skal utføre oppgaver som teknisk kontrollorgan, skal være utpekt til oppgavene av Nærings- og fiskeridepartementet etter lov 16. juni 1994 nr. 20 om tekniske kontrollorgan eller av utpekende myndighet i et annet EØS-land. Teknisk kontrollorgan skal være meldt og offentliggjort i EØS-området og ha et identifikasjonsnummer.</p>
 <p>Tekniske kontrollorgan som utpekes, skal oppfylle krav til teknisk kontrollorgan i avsnitt 4 og i lov 16. juni 1994 nr. 20 om tekniske kontrollorgan. Organer som oppfyller kriteriene i relevante harmoniserte standarder eller deler av denne som det er offentliggjort en henvisning til i Den europeiske unions tidende, skal antas å oppfylle kravene i avsnitt 4, såfremt kravene er omfattet av standardene.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-17).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-17).</p>
 <h5 id="4-21-krav-til-sknad-om-utpeking">§ 4-21. Krav til søknad om utpeking</h5>
 <p>Søknad om utpeking skal ha vedlagt</p>
 <ol>
@@ -434,25 +695,25 @@ b. enhver økonomisk aktør som de har levert et måleredskap til</p>
 <li>den eller de samsvarsvurderingsmoduler og måleredskaper det tekniske kontrollorganet som organet hevder å være kompetent for, og</li>
 <li>et akkrediteringsbevis utstedt av et nasjonalt akkrediteringsorgan som bekrefter at det tekniske kontrollorganet oppfyller kravene i § 4-22 til § 4-29 , dersom dette eksisterer. Dersom et akkrediteringsbevis ikke kan legges frem, skal det tekniske kontrollorganet gi utpekende myndighet all dokumentasjon som er nødvendig for å kontrollere, bekrefte og regelmessig føre tilsyn med at organet oppfyller kravene i §§ 4-22 til 4-29 .</li>
 </ol>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h5 id="4-22-habilitet-og-upartiskhet-for-teknisk-kontrollorgan">§ 4-22. Habilitet og upartiskhet for teknisk kontrollorgan</h5>
 <p>Teknisk kontrollorgan skal være et tredjepartsorgan som er uavhengig av den organisasjon eller de måleredskaper det vurderer.</p>
 <p>Organet, dets ledelse og personalet som utfører oppgaver i forbindelse med samsvarsvurderingen, skal ikke være konstruktør, produsent, leverandør, installatør, kjøper, eier, bruker eller vedlikeholder av måleredskapene som de inspiserer, og ikke representant for noen av disse. Dette hindrer ikke nødvendig bruk av vurderte måleredskaper for det tekniske kontrollorganet eller bruk av måleredskaper for personlige formål. Organet skal heller ikke tilhøre en fag- eller bransjeforening som representerer foretak som er involvert i konstruksjon, produksjon, anskaffelse, montering, bruk eller vedlikehold av måleredskaper som organet vurderer, med mindre det kan påvises at organet er uavhengig og at det ikke foreligger interessekonflikter knyttet til oppgaven som teknisk kontrollorgan.</p>
 <p>Organet og deres personal, skal være frie fra alle påvirkninger og motiver, særlig finansielle, som kan påvirke deres vurdering eller resultatene av samsvarsvurderingen, særlig fra personer eller grupper av personer med interesse i resultatene av vurderingene.</p>
 <p>Det skal sikres at organet, dets leder og personale er upartiske. Godtgjøringen til organets ledelse og personale som er ansvarlig for å utføre oppgaver i forbindelse med samsvarsvurderingen, skal ikke avhenge av antallet oppgaver som utføres, eller resultatet av slike oppgaver.</p>
 <p>Et teknisk kontrollorgan, dets ledelse og personale som er ansvarlig for å gjennomføre samsvarsvurderingsaktiviteter, skal ikke være direkte involvert i konstruksjon, produksjon, markedsføring, installasjon, bruk eller vedlikehold av måleredskapene, eller representere parter involvert i slike aktiviteter. De skal ikke delta i aktiviteter som kan være i strid med deres objektivitet og integritet i forbindelse med de samsvarsvurderingsaktiviteter som de er utpekt til å gjøre. Med unntak av for ikke-automatiske vekter, utelukker ikke dette muligheten for utveksling av tekniske opplysninger mellom produsenten og organet i forbindelse med samsvarsvurderingsaktiviteter.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-18).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-18).</p>
 <h5 id="4-23-krav-til-underleverandr-og-underselskap">§ 4-23. Krav til underleverandør og underselskap</h5>
 <p>Dersom et teknisk kontrollorgan overdrar bestemte oppgaver i forbindelse med samsvarsvurderingen til en underleverandør eller et underselskap, skal det sikre at underleverandøren eller underselskapet oppfyller kravene i § 4-22 , § 4-23 femte ledd, § 4-24 , § 4-26 , § 4-27 og § 4-28 . Det tekniske kontrollorganet skal underrette utpekende myndighet om dette.</p>
 <p>Tekniske kontrollorgan skal påta seg det fulle ansvar for de oppgaver som blir utført av underleverandør eller underselskap, uansett hvor disse er etablert.</p>
 <p>Oppgaver kan bare overdras til underleverandør eller underselskap dersom kunden har gitt sitt samtykke.</p>
 <p>Tekniske kontrollorgan skal oppbevare de relevante dokumenter angående vurdering av underleverandørens eller underselskapets kvalifikasjoner og arbeidet utført av dem i henhold til vedlegg 1, til rådighet for utpekende myndighet.</p>
 <p>Organet skal sikre at virksomheten til deres underleverandører eller underselskaper ikke påvirker organets taushetsplikt, objektivitet eller upartiskhet i forbindelse med deres samsvarsvurderingsaktiviteter.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h5 id="4-24-kompetansekrav-for-teknisk-kontrollorgan">§ 4-24. Kompetansekrav for teknisk kontrollorgan</h5>
 <p>Samsvarsvurderingen skal utføres i henhold til vedlegg 1 og med høyeste grad av faglig integritet og nødvendig kompetanse innen måleteknikk. Organet skal kunne stille de relevante dokumenter om vurdering av underleverandørens kvalifikasjoner og arbeidet vedkommende utfører i henhold til forskriften her, til rådighet for utpekende myndighet.</p>
 <p>Organet skal være i stand til å utføre alle de samsvarsvurderingsoppgaver som det er utpekt for, enten disse oppgavene utføres av organet selv eller på vegne av det og under dets ansvar. Det skal ha til rådighet nødvendig personale med teknisk kompetanse og nødvendig erfaring for å gjennomføre samsvarsvurderingen, samt egne prosedyrer for hvordan samsvarsvurderingen gjennomføres, som sikrer transparente og reproduserbare vurderinger. Teknisk kontrollorgan skal ha nødvendige midler til å utføre de tekniske og administrative oppgavene som samsvarsvurderingen innebærer på en tilfredsstillende måte, og tilgang til nødvendig utstyr eller lokaler.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-19).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-19).</p>
 <h5 id="4-25-krav-til-det-tekniske-kontrollorganets-utfrelse-av-samsvarsvurdering">§ 4-25. Krav til det tekniske kontrollorganets utførelse av samsvarsvurdering</h5>
 <p>Samsvarsvurderingene skal utføres på en måte som står i forhold til målet, slik at økonomiske aktører ikke pålegges unødvendige byrder. Det tekniske kontrollorganet skal utøve sin virksomhet slik at det tas behørig hensyn til</p>
 <p>a. foretakets størrelse,
@@ -466,7 +727,7 @@ e. produksjonsprosessens masse- eller seriepreg.</p>
 b. korresponderende harmoniserte standarder, normative dokumenter eller andre tekniske spesifikasjoner.</p>
 <p>Et teknisk kontrollorgan som i forbindelse med kontroll av samsvar etter utstedelsen av et sertifikat finner at måleredskapet ikke lengre er i samsvar med kravene, skal kreve at produsenten gjennomfører hensiktsmessige korrigerende tiltak, og om nødvendig midlertidig oppheve eller trekke tilbake sertifikatet.</p>
 <p>Dersom korrigerende tiltak ikke gjennomføres eller ikke har den nødvendige effekt, skal det tekniske kontrollorganet begrense, midlertidig oppheve eller trekke tilbake eventuelle sertifikater, avhengig av hva som er hensiktsmessig.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h5 id="4-26-krav-til-personale-i-teknisk-kontrollorgan">§ 4-26. Krav til personale i teknisk kontrollorgan</h5>
 <p>Organets personale som er ansvarlig for å utføre oppgaver i forbindelse med samsvarsvurderingen skal ha</p>
 <p>a. solid teknisk og faglig opplæring som omfatter alle samsvarsvurderingsoppgaver som organet er utpekt til,
@@ -475,13 +736,13 @@ c. nødvendig evne til å utarbeide sertifikater, protokoller og rapporter som v
 <p>Organet skal delta i, eller sørge for at personalet som er ansvarlig for å utføre oppgaver i forbindelse med samsvarsvurderingen, er informert om</p>
 <p>a. den relevante standardiseringsvirksomhet og
 b. virksomheten til den etablerte koordineringsgruppen for tekniske kontrollorgan. Organet skal anvende de administrative avgjørelser og dokumenter som koordineringsgruppen utarbeider som veiledning.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-20).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-20).</p>
 <h5 id="4-27-krav-til-forsikring-for-teknisk-kontrollorgan">§ 4-27. Krav til forsikring for teknisk kontrollorgan</h5>
 <p>Organet skal tegne ansvarsforsikring dersom dets erstatningsansvar ikke dekkes av staten.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-21).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-21).</p>
 <h5 id="4-28-taushetsplikt-for-teknisk-kontrollorgan">§ 4-28. Taushetsplikt for teknisk kontrollorgan</h5>
 <p>Organets personale er bundet av taushetsplikt med hensyn til alle opplysninger som innhentes i forbindelse med utøvelsen av plikter i henhold til denne forskriften, unntatt de relevante norske myndigheter.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-22).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-22).</p>
 <h5 id="4-29-krav-om-a-informere-andre">§ 4-29. Krav om å informere andre</h5>
 <p>Tekniske kontrollorganer skal informere utpekende myndighet om</p>
 <p>a. ethvert avslag, begrensning, midlertidig opphevelse og forbud mot omsetning av et sertifikat,
@@ -489,7 +750,7 @@ b. enhver omstendighet som påvirker omfanget av eller vilkårene for utpeking,
 c. enhver forespørsel om informasjon som organet har mottatt fra markedstilsynsmyndigheter angående samsvarsvurderingsaktiviteter,
 d. ved forespørsel, gjennomførte samsvarsvurderingsaktiviteter.</p>
 <p>Tekniske kontrollorganer skal gi de andre organer som er utpekt i henhold til direktiv 2014/32/EU og direktiv 2014/31/EU og som utfører lignende samsvarsvurderingsaktiviteter for de samme måleredskaper, relevant informasjon knyttet til negative og, ved forespørsel, positive samsvarsvurderingsresultat.</p>
-<p><em>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</em></p>
+<p class="note">Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <h3 id="avsnitt-5-krav-ved-nasjonal-samsvarsvurdering">Avsnitt 5 – Krav ved nasjonal samsvarsvurdering</h3>
 <h5 id="4-30-nasjonal-samsvarsvurdering">§ 4-30. Nasjonal samsvarsvurdering</h5>
 <p>Nasjonal samsvarsvurdering innebærer at måleredskaper skal være typegodkjent og førstegangsgodkjent av Justervesenet før de tilbys for salg eller selges med mindre Justervesenet har fastsatt noe annet i instrumentspesifikk forskrift. Ny type måleredskap eller måleredskap i ny eller forandret konstruksjon krever egen typegodkjenning.</p>
@@ -498,31 +759,31 @@ d. ved forespørsel, gjennomførte samsvarsvurderingsaktiviteter.</p>
 b. måleredskapet er typegodkjent eller selger har søkt om typegodkjenning, og
 c. selger sørger for nødvendig kontroll og godkjenning så snart som mulig.</p>
 <p>Førstegangsgodkjenning skal uansett gjennomføres før måleredskapet tas i bruk. Justervesenet kan gi unntak fra dette kravet i enkelttilfeller dersom det anses forsvarlig.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-7).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-7).</p>
 <h5 id="4-31-sknad-om-typegodkjenning-ved-nasjonal-samsvarsvurdering">§ 4-31. Søknad om typegodkjenning ved nasjonal samsvarsvurdering</h5>
 <p>Skriftlig søknad om typegodkjenning sendes til Justervesenet. Søknaden skal inneholde nødvendig dokumentasjon slik at Justervesenet kan behandle søknaden.</p>
 <p>Dersom det er nødvendig for å behandle søknaden, kan Justervesenet be om at søker fremviser et eksemplar av måleredskapet for undersøkelse og testing. Måleredskapet skal i så fall framvises med alt det utstyr som normalt er bestemt for det. Gjelder søknaden et måleredskap som etter sin størrelse, montering eller av annen grunn kun kan undersøkes på det stedet hvor den ifølge søknaden befinner seg, skal undersøkelsen foretas der. Søker plikter å besørge eventuelle demonteringer og monteringer og å stille nødvendig arbeidshjelp til disposisjon hvis Justervesenet ber om det.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-8).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-8).</p>
 <h5 id="4-32-ansvarlig-for-samsvarsvurdering">§ 4-32. Ansvarlig for samsvarsvurdering</h5>
 <p>Produsenten eller dennes representant er ansvarlig for at måleredskaper som gjøres tilgjengelig på markedet har gyldig samsvarsvurdering og samsvarsmerking etter kravene i forskriften.</p>
 <p>Enhver som gjør måleredskaper tilgjengelig på markedet, er ansvarlig for at de bare omsetter måleredskaper med samsvarsmerking etter kravene i forskriften.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-3).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-3).</p>
 <h5 id="4-33-omfanget-av-typegodkjenningen-ved-nasjonal-samsvarsvurdering">§ 4-33. Omfanget av typegodkjenningen ved nasjonal samsvarsvurdering</h5>
 <p>Typegodkjenningen kan for hver måleredskapsgruppe begrenses til å gjelde</p>
 <p>a. bestemte typer eller konstruksjoner i sin alminnelighet eller kun slike fra en nærmere angitt tilvirker, eller
 b. kun ett enkelt eller et bestemt antall måleredskaper av en bestemt type.</p>
 <p>Typegodkjenningen kan også begrenses til bare å gjelde anvendelse av måleredskapet til bestemt bruk eller handel, til angitte bedrifter, til visse deler av landet eller i begrenset tid.</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-9).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-9).</p>
 <h3 id="avsnitt-6-avsluttende-bestemmelser">Avsnitt 6 – Avsluttende bestemmelser</h3>
 <h5 id="4-34-overtredelsesgebyr">§ 4-34. Overtredelsesgebyr</h5>
 <p>Overtredelse av bestemmelsene i dette kapittelet kan medføre pålegg av overtredelsesgebyr utmålt etter bestemmelsene i kapittel 7 .</p>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-23).</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016, tidligere § 4-23).</p>
 <h2 id="kapittel-5-krav-til-malinger-og-maleredskaper-under-bruk">Kapittel 5 – Krav til målinger og måleredskaper under bruk</h2>
 <p>Kapitlet endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h4 id="5-1-brukerens-ansvar">§ 5-1. Brukerens ansvar <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-5-1.html" title="Endringshistorikk for § 5-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>En bruker er ansvarlig for at et måleredskap oppfyller kravene i forskriften, samsvarserklæringen, instrumentspesifikk forskrift og andre krav gitt i og med hjemmel i lov om målenheter, måling og normaltid. Måleredskapet kan bare brukes dersom det er godkjent etter bestemmelsene i kapittel 4 før det ble solgt.</p>
 <p>Bruker er ansvarlig for at måleredskapet til enhver tid er sikret slik som beskrevet i samsvarsvurderingen.</p>
-<p><em>Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 31 aug 2023 nr. 1381 .</em></p>
+<p class="note">Endret ved forskrifter 30 sep 2009 nr. 1225 (i kraft 1 jan 2010), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 31 aug 2023 nr. 1381 .</p>
 <h4 id="5-2-tilsyn">§ 5-2. Tilsyn <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-5-2.html" title="Endringshistorikk for § 5-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet avgjør hvor tilsynet skal finne sted. Måleredskapet skal kontrolleres der det er installert når</p>
 <p>a. måleredskapet er faststående eller vanskelig å flytte på grunn av sin størrelse, vekt eller ømfintlighet
@@ -532,46 +793,46 @@ b. måleredskapet må være plassert der det skal brukes for at tilsynet skal ku
 <p>Brukeren skal skaffe det tarermaterialet og den arbeidshjelpen som Justervesenet trenger i tilsynsarbeidet.</p>
 <p>Dersom brukeren ikke medvirker til eller hindrer tilsynet, er måleredskapet ulovlig å bruke som grunnlag for beregning av et økonomisk oppgjør eller til andre formål som er underlagt krav etter kapittel 3 .</p>
 <p>Brukeren eller eieren av et måleredskap er ansvarlig for at utstyret som Justervesenet bruker under en kontroll oppbevares og behandles forsvarlig frem til Justervesenet selv tar hånd om utstyret.</p>
-<p><em>Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 26 aug 2020 nr. 1681 .</em></p>
+<p class="note">Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 26 aug 2020 nr. 1681 .</p>
 <h4 id="5-3-dokumentene-som-skal-fremlegges-ved-tilsynet">§ 5-3. Dokumentene som skal fremlegges ved tilsynet</h4>
 <p>Ved tilsynet skal brukeren legge frem samsvarserklæringen eller den nasjonale typegodkjenningen og annen dokumentasjon som Justervesenet krever. Fremlegger ikke brukeren dokumentene, kan Justervesenet fastsette at måleredskapet ikke kan brukes som grunnlag for beregning av et økonomisk oppgjør eller andre formål som er underlagt krav etter kapittel 3 .</p>
-<p><em>Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h4 id="5-4-justervesenets-adgang-til-a-palegge-internkontroll">§ 5-4. Justervesenets adgang til å pålegge internkontroll <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-5-4.html" title="Endringshistorikk for § 5-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet kan i forskrift eller enkeltvedtak pålegge brukeren krav til internkontroll, når forholdene ligger til rette hos brukeren.</p>
 <p>Justervesenet kan i forskrift eller enkeltvedtak pålegge reparatør, installatør, den som vedlikeholder og andre som har oppgaver i forhold til målinger og måleredskaper som er underlagt krav fastsatt i eller i medhold av lov om målenheter, måling og normaltid § 18 krav til internkontroll når forholdene ligger til rette hos denne.</p>
-<p><em>Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 13 aug 2021 nr. 2504 .</p>
 <h4 id="5-5-plikt-til-aktsomhet-retting-og-melding">§ 5-5. Plikt til aktsomhet, retting og melding <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-5-5.html" title="Endringshistorikk for § 5-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Er det grunn til å tro at et måleredskap ikke lenger oppfyller gjeldende krav, skal brukeren straks klarlegge forholdet og sørge for at feil blir rettet så raskt som mulig. Dersom brudd på kravene kan medføre vesentlig målefeil og ikke straks kan rettes, skal brukeren ta måleredskapet ut av bruk og sikre det slik at det ikke kan forveksles med måleredskaper som oppfyller kravene.</p>
 <p>Er plomberingen brutt, kan måleredskapet ikke brukes til formål som nevnt i § 3-1 før brukeren har meldt fra til Justervesenet om plombebruddet og måleredskapet er plombert. Brukeren skal kunne dokumentere at meldingen er mottatt av Justervesenet. Etter at Justervesenet har mottatt meldingen kan Justervesenet gjennomføre en oppfølgingskontroll.</p>
 <p>Når en beslutning om at et måleredskap er i samsvar med fastsatt krav, er falt bort, jf. lov om målenheter, måling og normaltid § 9 andre ledd, kan ikke måleredskapet brukes til formål som nevnt i § 3-1 .</p>
 <p>Den som reparerer, vedlikeholder eller utfører annet arbeid på et måleredskap, skal melde fra til Justervesenet dersom arbeidet bryter en plombering eller gir risiko for at måleredskapet ikke lenger tilfredsstiller kravene til måleredskapet. Justervesenet kan i forskrift gjøre unntak fra paragrafen her.</p>
-<p><em>Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 13 aug 2021 nr. 2504 , 31 aug 2023 nr. 1381 .</em></p>
+<p class="note">Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 13 aug 2021 nr. 2504 , 31 aug 2023 nr. 1381 .</p>
 <h4 id="5-6-brukerens-plikter">§ 5-6. Brukerens plikter</h4>
 <p>Brukeren plikter å forsikre seg om at måleredskapet kun brukes innenfor den angitte minimums- og maksimumsbelastningen. Justervesenet kan i forskrift eller enkeltvedtak gjøre unntak fra paragrafen her.</p>
 <p>Et måleredskap kan ikke brukes som grunnlag for beregning av økonomisk oppgjør eller andre formål etter kapittel 3 når måleredskapet eller utstyret som er tilknyttet måleredskapet er endret slik at det er mulig å manipulere måleresultatet.</p>
-<p><em>Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h4 id="5-7-merking-av-maleredskapet">§ 5-7. Merking av måleredskapet</h4>
 <p>Justervesenet kan merke måleredskapet med et merke som gir uttrykk for om måleredskapet oppfyller kravene i regelverket.</p>
 <p>Justervesenet kan merke måleredskapet med et merke som identifiserer måleredskapet.</p>
-<p><em>Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h4 id="5-8-retting-og-midlertidig-brukstillatelse">§ 5-8. Retting og midlertidig brukstillatelse <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-5-8.html" title="Endringshistorikk for § 5-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom måleredskapet ikke tilfredsstiller fastsatte krav, kan Justervesenet fastsette en frist for retting, jf. lov om målenheter, måling og normaltid § 26 . Måleredskapet kan midlertidig brukes frem til denne fristen. For å kunne bruke måleredskapet etter fristens utløp, må feilen være rettet og melding om retting være sendt til Justervesenet innen fristen.</p>
-<p><em>Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 31 aug 2023 nr. 1381 .</em></p>
+<p class="note">Endret ved forskrifter 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 31 aug 2023 nr. 1381 .</p>
 <h4 id="5-9-adgangen-til-a-anvende-brukerens-utstyr-ved-tilsynet">§ 5-9. Adgangen til å anvende brukerens utstyr ved tilsynet</h4>
 <p>Det kan avtales at Justervesenet anvender brukerens utstyr for gjennomføringen av tilsynet dersom Justervesenet anser det hensiktsmessig. Justervesenet setter de nødvendige krav.</p>
-<p><em>Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h4 id="5-10-overtredelsesgebyr">§ 5-10. Overtredelsesgebyr</h4>
 <p>Overtredelse av bestemmelsene i dette kapittelet kan medføre pålegg om overtredelsesgebyr utmålt etter bestemmelsene i kapittel 7 .</p>
-<p><em>Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</em></p>
+<p class="note">Endret ved forskrift 5 des 2013 nr. 1416 (i kraft 1 jan 2014).</p>
 <h2 id="kapittel-6-gebyrer-og-avgifter">Kapittel 6 – Gebyrer og avgifter</h2>
 <p>Kapittel 6 endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016).</p>
 <h4 id="6-1-gebyr-for-behandling-av-sknad-om-godkjenning">§ 6-1. Gebyr for behandling av søknad om godkjenning <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-1.html" title="Endringshistorikk for § 6-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som søker om typegodkjenning eller førstegangsgodkjenning etter § 4-30 , skal betale gebyr til Justervesenet med kr 6 010 per oppmøte på brukerstedet og kr 2 790 per time Justervesenet bruker på stedet. Behandles søknaden om godkjenning i Justervesenets lokaler, er gebyret kr 2 380 per time.</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</p>
 <h4 id="6-2-arsavgift-for-tilsyn">§ 6-2. Årsavgift for tilsyn <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-2.html" title="Endringshistorikk for § 6-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som bruker måleredskap eller utfører målinger som angitt i tabellen, og som driver virksomhet per 1. mars, skal betale følgende årsavgift: Tabell 11. Årsavgift Måleredskap/målinger Kategori Årsavgift i kr Vekter i dagligvarebutikker (per butikk) – 1 080 Vekter i post i butikk og postkontor (per butikk/postkontor) 338 Taksametre (per måleredskap) – 1 180 Målesystem for kontinuerlig og dynamisk måling av flytende gass (LPG) (per måleredskap) – 6 000 Elektrisitetsmålere (per nettselskap) med under 10 000 målepunkter 10 640 med 10 000–50 000 målepunkter 37 270 med over 50 000 målepunkter 79 860 Små og mellomstore målesystemer for kontinuerlig og dynamisk måling av andre væsker enn vann på bensinstasjoner og lignende (per drivstoffanlegg) med under 500 000 l omsatt drivstoff per år (unntatt LPG) 280 med 500 000–2 000 999 l omsatt drivstoff per år (unntatt LPG) 1 430 med 2 001 000–4 000 000 l omsatt drivstoff per år (unntatt LPG) 3 530 med mer enn 4 000 000 l omsatt drivstoff per år (unntatt LPG) 7 170 Vannmålere (per vannleverandør) – 3 745</p>
 <p>Bestemmelsen gjelder ikke for måleredskaper som brukes på Svalbard. For måleredskaper som angitt i tabell 11 og som brukes på Svalbard, betales gebyr i henhold til § 6-4 .</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 21 feb 2022 nr. 300 (i kraft 1 mars 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 31 aug 2023 nr. 1381 , 9 okt 2023 nr. 1582 .</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 21 feb 2022 nr. 300 (i kraft 1 mars 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 31 aug 2023 nr. 1381 , 9 okt 2023 nr. 1582 .</p>
 <h4 id="6-3-arsavgift-for-tilsyn-med-fiskemottak">§ 6-3. Årsavgift for tilsyn med fiskemottak <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-3.html" title="Endringshistorikk for § 6-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Mottaker skal betale avgift for tilsyn med målinger i forbindelse med mottak av fisk på fiskemottak.</p>
 <p>Avgiften er 0,75 promille av omsetning, dvs. pris per vektenhet multiplisert med veiet kvantum fisk slik pris og veiet kvantum fremkommer av forrige års utfylte sluttsedler. Avgiften skal likevel ikke være mer enn 300 000 kroner. Årsavgift på mindre enn 1 000 kroner kreves ikke inn.</p>
@@ -581,41 +842,41 @@ b. måleredskapet må være plassert der det skal brukes for at tilsynet skal ku
 <p>Med fisk menes tilsvarende som definert i landingsforskriften § 3 første ledd, med unntak av tang og tare.</p>
 <p>Med landing menes tilsvarende som definert i landingsforskriften § 3 andre ledd, med unntak av landing til fartøy.</p>
 <p>Med sluttseddel menes tilsvarende som i landingsforskriften.</p>
-<p><em>Tilføyd ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016), endret ved forskrifter 22 sep 2017 nr. 1629 , 29 juni 2018 nr. 1202 (i kraft 23 juli 2018), 1 okt 2019 nr. 1355 , 29 aug 2020 nr. 1698 , 29 aug 2021 nr. 2628 , 19 okt 2022 nr. 1775 , 23 okt 2023 nr. 1702 , 11 sep 2024 nr. 2442 , 1 okt 2025 nr. 2049 , 13 sep 2026 nr. 1988 (i kraft 2 okt 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016), endret ved forskrifter 22 sep 2017 nr. 1629 , 29 juni 2018 nr. 1202 (i kraft 23 juli 2018), 1 okt 2019 nr. 1355 , 29 aug 2020 nr. 1698 , 29 aug 2021 nr. 2628 , 19 okt 2022 nr. 1775 , 23 okt 2023 nr. 1702 , 11 sep 2024 nr. 2442 , 1 okt 2025 nr. 2049 , 13 sep 2026 nr. 1988 (i kraft 2 okt 2026).</p>
 <h4 id="6-4-gebyrer-for-tilsyn">§ 6-4. Gebyrer for tilsyn <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-4.html" title="Endringshistorikk for § 6-4" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Den som bruker vekter med kapasitet over 5 000 kg (tungvekter), skal betale følgende gebyr:</p>
 <p>a. kr 14 710 per oppmøte på brukerstedet
 b. kr 4 130 per time Justervesenet bruker på tilsynet der det er behov for vogntog for transport av lodd, og
 c. timeprisen som følger av § 6-1 andre punktum per time Justervesenet bruker på tilsynet dersom det ikke er behov for vogntog for transport av lodd.</p>
 <p>Den som bruker måleredskap og utfører målinger som angitt i tabellen skal betale følgende gebyr per oppmøte på brukerstedet og gebyr per time Justervesenet bruker på tilsynet: Tabell 12. Gebyrsatser Måleredskap/målinger Kapasitet Gebyr per oppmøte i kr Timegebyr i kr Mellomstore vekter Fra 500 kg til 5 000 kg 11 210 2 790 Store målesystemer for kontinuerlig og dynamisk måling av andre væsker enn vann Over 400 l/min 6 550 3 040 Andre måleredskaper og målinger, og tilsyn som ikke medfører transport og bruk av spesielt måleutstyr 6 010 2 790</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-3), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 13 aug 2021 nr. 2504 , 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-3), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 13 aug 2021 nr. 2504 , 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</p>
 <h4 id="6-5-tilsyn-med-internkontroll-og-ferdigpakninger">§ 6-5. Tilsyn med internkontroll og ferdigpakninger <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-5.html" title="Endringshistorikk for § 6-5" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For tilsyn med internkontroll og tilsyn med krav til ferdigpakninger skal brukeren betale gebyr til Justervesenet med kr 6 010 per oppmøte på brukerstedet og kr 2 790 per time Justervesenet bruker på tilsynet. Utføres tilsynet i Justervesenets lokaler, er gebyret kr 2 380 per time.</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-4), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 24 jan 2012 nr. 91 (i kraft 1 feb 2012), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 5 des 2013 nr. 1416 (i kraft 1 jan 2014), 11 april 2014 nr. 565 (i kraft 1 mai 2014), 2 des 2014 nr. 1515 (i kraft 1 jan 2015), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-4), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</p>
 <h4 id="6-5a-gebyr-for-tilsyn-med-reparatr-installatr-osv">§ 6-5a. Gebyr for tilsyn med reparatør, installatør osv. <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-5a.html" title="Endringshistorikk for § 6-5a" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>For tilsyn med reparatør, installatør, den som vedlikeholder og andre som har oppgaver i forhold til målinger og måleredskaper som er underlagt krav fastsatt i eller i medhold av lov om målenheter, måling og normaltid § 18 , skal denne betale gebyr til Justervesenet som fastsatt i § 6-5 .</p>
-<p><em>Tilføyd ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Tilføyd ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h4 id="6-6-gebyr-ved-funn-av-brudd-pa-regelverket-avviksgebyr">§ 6-6. Gebyr ved funn av brudd på regelverket (avviksgebyr) <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-6.html" title="Endringshistorikk for § 6-6" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Avdekker et tilsyn brudd på kravene i eller med hjemmel i lov 26. januar 2007 nr. 4 om målenheter, måling og normaltid som brukeren kan lastes for, skal brukeren betale gebyr for</p>
 <p>a. målinger i forbindelse med fremstilling av ferdigpakninger i fiskemottak og vekter i fiskemottak med kr 7 130 per pakkelinje og per måleredskap
 b. taksametre, vekter i dagligvarebutikker, vekter i post i butikk, mellomstore vekter og tungvekter, målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann på bensinstasjoner, store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann på bensinstasjoner, store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann og andre måleredskaper og målinger med kr 3 760 per måleredskap.</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-5), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 26 aug 2020 nr. 1681 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-5), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 26 aug 2020 nr. 1681 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</p>
 <h4 id="6-7-gebyr-for-tilsyn-etter-5-5-annet-og-fjerde-ledd-for-tungvekter-og-store-malesystem-for-kontinuerlig-og-dynamisk-maling-av-andre-vsker-enn-vann">§ 6-7. Gebyr for tilsyn etter § 5-5 annet og fjerde ledd for tungvekter og store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-7.html" title="Endringshistorikk for § 6-7" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom Justervesenet mottar melding etter § 5-5 annet og fjerde ledd for tungvekter eller store målesystem for kontinuerlig og dynamisk måling av andre væsker enn vann, skal bruker betale gebyr når bruker eller den som har utført reparasjonen, vedlikeholdet eller annet arbeid på måleredskapet, ikke har nødvendig utstyr for å kontrollere at måleredskapet tilfredsstiller kravene til måleredskapet. Gebyret skal betales per oppmøte på brukerstedet og per time Justervesenet bruker på tilsynet, som angitt i § 6-4 .</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-6), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 16 nov 2012 nr. 1232 (i kraft 1 jan 2013), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 29 jan 2016 nr. 124 (i kraft 20 april 2016), 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-6), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 13 aug 2021 nr. 2504 .</p>
 <h4 id="6-8-tilleggskostnader">§ 6-8. Tilleggskostnader <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-8.html" title="Endringshistorikk for § 6-8" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Dersom brukerens virksomhet gjør at Justervesenet blir påført kostnader med å føre tilsyn som gebyret eller avgiften er ment å dekke, kan Justervesenet i tillegg til fastsatt gebyr og/eller avgift i enkeltvedtak pålegge bruker å dekke disse kostnadene.</p>
-<p><em>Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-7).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-7).</p>
 <h4 id="6-9-gebyr-for-manglende-oppmte">§ 6-9. Gebyr for manglende oppmøte <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-9.html" title="Endringshistorikk for § 6-9" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Unnlater en bruker å møte opp til et pålagt tilsyn, skal brukeren betale gebyr på kr 3 330.</p>
-<p><em>Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrifter 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-8), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrifter 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-8), 5 jan 2017 nr. 19 (i kraft 1 jan 2017), 11 des 2017 nr. 1996 (i kraft 1 jan 2018), 20 mars 2019 nr. 317 , 8 jan 2020 nr. 5 , 19 des 2020 nr. 3042 (i kraft 1 jan 2021), 17 des 2021 nr. 3744 (i kraft 1 jan 2022), 20 feb 2023 nr. 223 (i kraft 1 mars 2023), 19 des 2023 nr. 2203 (i kraft 1 jan 2024), 20 des 2024 nr. 3333 (i kraft 1 jan 2025), 21 des 2025 nr. 2856 (i kraft 1 jan 2026).</p>
 <h4 id="6-10-beregning-av-timebaserte-gebyr">§ 6-10. Beregning av timebaserte gebyr <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-10.html" title="Endringshistorikk for § 6-10" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Ved beregning av timebaserte gebyr etter § 6-1 , § 6-4 og § 6-5 betales gebyret for en påbegynt time per påbegynte kvarter.</p>
-<p><em>Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrifter 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-9), 5 jan 2017 nr. 19 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrifter 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-9), 5 jan 2017 nr. 19 (i kraft 1 jan 2017).</p>
 <h4 id="6-11-krav-og-purregebyr">§ 6-11. Krav og purregebyr <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-6-11.html" title="Endringshistorikk for § 6-11" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Gebyrer og avgifter skal betales etter krav fra Justervesenet.</p>
 <p>Betales avgiften eller gebyret for sent og det blir purret på betalingen, påløper det purregebyr etter lov 13. mai 1988 nr. 26 om inkassovirksomhet og annen inndriving av forfalte pengekrav § 19 og forskrift 14. juli 1989 nr. 562 til inkassoloven § 1-2.</p>
-<p><em>Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-10).</em></p>
+<p class="note">Tilføyd ved forskrift 18 des 2015 nr. 1749 (i kraft 1 jan 2016), endret ved forskrift 10 aug 2016 nr. 981 (i kraft 1 sep 2016, tidligere § 6-10).</p>
 <h2 id="kapittel-7-regler-om-utmaling-og-saksbehandling-av-overtredelsesgebyr">Kapittel 7 – Regler om utmåling og saksbehandling av overtredelsesgebyr</h2>
 <h4 id="7-1-utmaling-etter-faste-satser">§ 7-1. Utmåling etter faste satser <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-7-1.html" title="Endringshistorikk for § 7-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet kan pålegge overtredelsesgebyr på 10 ganger timegebyret i § 6-1 andre punktum ved forsettlig eller uaktsom overtredelse av følgende bestemmelser i lov om målenheter, måling og normaltid eller bestemmelser gitt med hjemmel i disse bestemmelsene:</p>
@@ -624,7 +885,7 @@ b. § 18 om plikter for de som har oppgaver med måleredskaper og målinger
 c. § 19 om krav til merking når bruker overtrer kravene
 d. § 22 – § 24 om uhindret adgang, opplysningsplikt og praktisk bistand og tilrettelegging for tilsynet.</p>
 <p>Ved overtredelse av lov om målenheter, måling og normaltid § 25 om opplysningsplikt kan Justervesenet pålegge et overtredelsesgebyr på fem ganger rettsgebyret.</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 18 des 2015 nr. 1749 (i kraft 1 jan 2016).</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 18 des 2015 nr. 1749 (i kraft 1 jan 2016).</p>
 <h4 id="7-2-utmaling-basert-pa-kriterier-og-maksimumsbelp">§ 7-2. Utmåling basert på kriterier og maksimumsbeløp <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-7-2.html" title="Endringshistorikk for § 7-2" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Justervesenet kan pålegge et overtredelsesgebyr på inntil 10 prosent av virksomhetens omsetning, men uansett ikke mindre enn 10 ganger timegebyret fastsatt i § 6-1 andre punktum ved forsettlig eller uaktsom overtredelse av lov om målenheter, måling og normaltid</p>
 <p>a. § 7 , § 8 og § 9
@@ -640,13 +901,13 @@ b. Årsaken til eller motivet for overtredelsen
 c. Virkningene av overtredelsen
 d. Økonomisk fortjeneste eller andre fordeler som følge av overtredelsen
 e. Om det foreligger gjentatte overtredelser.</p>
-<p><em>Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 26 aug 2020 nr. 1681 .</em></p>
+<p class="note">Endret ved forskrifter 15 des 2010 nr. 1741 (i kraft 1 jan 2011), 18 des 2015 nr. 1749 (i kraft 1 jan 2016), 26 aug 2020 nr. 1681 .</p>
 <h4 id="7-3-betaling">§ 7-3. Betaling</h4>
 <p>Fristen for å betale overtredelsesgebyr er fire uker fra pålegget med mindre annet er fastsatt. Dersom overtredelsesgebyret ikke blir betalt ved forfall, påløper forsinkelsesrenter i samsvar med lov 17. desember 1976 nr. 100 om renter ved forsinket betaling m.m.</p>
 <p>Endelig vedtak om overtredelsesgebyr er tvangsgrunnlag for utlegg.</p>
 <h2 id="kapittel-8-avsluttende-bestemmelser">Kapittel 8 – Avsluttende bestemmelser</h2>
 <h4 id="8-1-opphevet">§ 8-1. (Opphevet) <a class="para-history" href="../historikk/forskrift-2007-12-20-1723/para-8-1.html" title="Endringshistorikk for § 8-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
-<p><em>Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), opphevet ved forskrift 13 aug 2021 nr. 2504 .</em></p>
+<p class="note">Endret ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016), opphevet ved forskrift 13 aug 2021 nr. 2504 .</p>
 <h4 id="8-2-ikrafttredelse-og-oppheving-av-andre-forskrifter">§ 8-2. Ikrafttredelse og oppheving av andre forskrifter</h4>
 <p>Forskriften trer i kraft 1. januar 2008.</p>
 <p>Fra samme tidspunkt oppheves</p>
@@ -1106,6 +1367,8 @@ v. forskrift 24. mars 2006 nr. 368 om utvidelse av virkeområdet for lov 31. okt
 <p>Måleredskapets modell/måleredskap (produkt-, type-, parti- eller serienummer). Produsentens navn og adresse og eventuelt dennes autoriserte representant. Denne samsvarserklæringen er utstedt under produsentens ansvar. Erklæringens gjenstand (identifikasjon av måleredskapet som gjør det mulig å spore det; kan ved behov omfatte et bilde for å identifisere måleredskapet). Erklæringens gjenstand beskrevet over er i samsvar med relevante deler av Unionens harmoniseringsregelverk. Henvisninger til de relevante harmoniserte standarder eller normative dokumenter som er anvendt, eller henvisninger til de andre tekniske spesifikasjoner det erklæres samsvar med. Dersom det er relevant, det tekniske kontrollorgans ... (navn, nummer) har utført ... (beskrivelse av inngrepet) og utstedt sertifikatet. Tilleggsinformasjon: Undertegnet for og på vegne av: (sted og dato for utstedelse) (navn, stilling) (underskrift)</p>
 <p>Tilføyd ved forskrift 17 des 2015 nr. 1887 (i kraft 20 april 2016).</p>
 <p>1 Produsent velger selv hvorvidt han ønsker å påføre et nummer på EU-samsvarserklæringen.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

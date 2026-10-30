@@ -91,6 +91,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="icon" type="image/svg+xml" href="https://sondreskarsten.github.io/norwegian-laws/assets/favicon.svg">
 
 
+<link rel="stylesheet" href="../assets/site.css">
 </head>
 
 <body class="nav-sidebar floating quarto-light">
@@ -620,7 +621,7 @@ Vis flere teksttreff
 <div id="no-results" style="display:none;color:#888;padding:20px 0;">
 Ingen treff.
 </div>
-<script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+<script src="../assets/vendor/fuse-7.0.0.min.js"></script>
 <script>
 function loadSearchCatalog() {
   return fetch("../search-catalog.json").then(function(r) {
@@ -668,6 +669,9 @@ document.addEventListener("DOMContentLoaded", function() {
     countDiv.textContent = message;
     moreButton.style.display = "none";
   }
+
+  var initialQuery = new URLSearchParams(window.location.search).get("q");
+  if (initialQuery) { input.value = initialQuery; }
 
   status("Laster titler og referanser...");
   loadSearchCatalog().then(function(catalog) {

@@ -19,64 +19,295 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-09-14-1064.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Animaliebiproduktforskriften" href="../feeds/forskrift-2016-09-14-1064.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-landbruks--og-matdepartementet.html">Landbruks- og matdepartementet</a> · <a href="../book/forskrift-dept-nærings--og-fiskeridepartementet.html">Nærings- og fiskeridepartementet</a> &rsaquo;
 <span>Animaliebiproduktforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-09-14-1064</code></dd>
-<dt>Departement</dt><dd>Landbruks- og matdepartementetNærings- og fiskeridepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-09-14</dd>
-<dt>Sist endret</dt><dd>forskrift/2026-05-04-696</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-09-14-1064" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-alminnelige-bestemmelser">Kapittel I. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-omfang">§ 1. Omfang</a></li>
+<li class="lvl4"><a href="#2-gjennomfring-av-biproduktforordningene">§ 2. Gjennomføring av biproduktforordningene</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelle-utfyllende-nasjonale-bestemmelser">Kapittel II. Generelle utfyllende nasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#3-unntak-fra-registreringsplikt">§ 3. Unntak fra registreringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-om-forskning-diagnostikk-og-undervisning">Kapittel III. Utfyllende nasjonale bestemmelser om forskning, diagnostikk og undervisning</a></li>
+<li class="lvl4"><a href="#4-unntak-fra-registreringskrav-for-driftsansvarlig">§ 4. Unntak fra registreringskrav for driftsansvarlig</a></li>
+<li class="lvl4"><a href="#5-kategorisering-av-forsksdyr">§ 5. Kategorisering av forsøksdyr</a></li>
+<li class="lvl4"><a href="#6-forskning-og-andre-srskilte-formal">§ 6. Forskning og andre særskilte formål</a></li>
+<li class="lvl2"><a href="#kapittel-iv-utfyllende-nasjonale-bestemmelser-om-avhending-og-bruk-av-biprodukter">Kapittel IV. Utfyllende nasjonale bestemmelser om avhending og bruk av biprodukter</a></li>
+<li class="lvl4"><a href="#7-biogassproduksjon-og-kompostering-unntak-fra-krav-om-trykksterilisering-og-merking-av-materiale-i-kategori-2">§ 7. Biogassproduksjon og kompostering – unntak fra krav om trykksterilisering og merking av materiale i kategori 2</a></li>
+<li class="lvl4"><a href="#8-biogassanlegg-unntak-fra-kravet-om-hygieniseringsenhet-for-biogassanlegg-som-behandler-visse-typer-biprodukter">§ 8. Biogassanlegg – unntak fra kravet om hygieniseringsenhet for biogassanlegg som behandler visse typer biprodukter</a></li>
+<li class="lvl4"><a href="#9-opphevet">§ 9. (Opphevet)</a></li>
+<li class="lvl4"><a href="#10-biogass-og-komposteringsanlegg-unntak-fra-hovedkravene-til-standardparametre-for-omdanning">§ 10. Biogass- og komposteringsanlegg – unntak fra hovedkravene til standardparametre for omdanning</a></li>
+<li class="lvl4"><a href="#11-biogass-og-komposteringsanlegg-prvetakingstidspunkt-fr-sammenblanding-med-ikke-animalske-biprodukter">§ 11. Biogass- og komposteringsanlegg – prøvetakingstidspunkt før sammenblanding med ikke-animalske biprodukter</a></li>
+<li class="lvl4"><a href="#12-biprodukter-som-kan-spres-pa-jorder-uten-forutgaende-bearbeiding-materialer-i-kategori-2-og-3">§ 12. Biprodukter som kan spres på jorder uten forutgående bearbeiding – materialer i kategori 2 og 3</a></li>
+<li class="lvl4"><a href="#13-avhending-og-bruk-av-eggeskall-og-skall-fra-skalldyr-i-kategori-3">§ 13. Avhending og bruk av eggeskall og skall fra skalldyr i kategori 3</a></li>
+<li class="lvl4"><a href="#14-bruk-av-fjrfegjdsel-som-brensel">§ 14. Bruk av fjørfegjødsel som brensel</a></li>
+<li class="lvl4"><a href="#15-spesielle-foringsformal-kategori-2-og-3-materiale">§ 15. Spesielle fôringsformål – kategori 2 og 3 materiale</a></li>
+<li class="lvl4"><a href="#16-spesielle-foringsformal-kategori-1-materiale">§ 16. Spesielle fôringsformål – kategori 1 materiale</a></li>
+<li class="lvl4"><a href="#17-spesielle-foringsformal-bearbeidingskrav">§ 17. Spesielle fôringsformål – bearbeidingskrav</a></li>
+<li class="lvl4"><a href="#18-avhending-av-sma-mengder-tidligere-nringsmidler">§ 18. Avhending av små mengder tidligere næringsmidler</a></li>
+<li class="lvl4"><a href="#19-nedgraving-av-dde-kjledyr-og-hest">§ 19. Nedgraving av døde kjæledyr og hest</a></li>
+<li class="lvl4"><a href="#20-brenning-og-nedgraving">§ 20. Brenning og nedgraving</a></li>
+<li class="lvl4"><a href="#21-brenning-og-nedgraving-ved-utbrudd-av-notifiserbare-sykdommer-mm">§ 21. Brenning og nedgraving ved utbrudd av notifiserbare sykdommer m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-v-innsamling-transport-identifikasjon-og-sporbarhet">Kapittel V. Innsamling, transport, identifikasjon og sporbarhet</a></li>
+<li class="lvl4"><a href="#22-krav-om-dokumentasjon-ved-innenlandstransport-handelsdokument-mm">§ 22. Krav om dokumentasjon ved innenlandstransport – handelsdokument m.m.</a></li>
+<li class="lvl4"><a href="#23-krav-om-fargekoding-ved-innenlandstransport">§ 23. Krav om fargekoding ved innenlandstransport</a></li>
+<li class="lvl4"><a href="#24-identifisering-av-husdyrgjdsel-i-norge">§ 24. Identifisering av husdyrgjødsel i Norge</a></li>
+<li class="lvl4"><a href="#25-transport-og-ombruksbeholdere">§ 25. Transport og ombruksbeholdere</a></li>
+<li class="lvl2"><a href="#kapittel-vi-utfyllende-nasjonale-bestemmelser-om-omsetning">Kapittel VI. Utfyllende nasjonale bestemmelser om omsetning</a></li>
+<li class="lvl4"><a href="#26-ubearbeidet-agn-og-for-til-fisk-unntak-og-tilleggsvilkar">§ 26. Ubearbeidet agn og fôr til fisk – unntak og tilleggsvilkår</a></li>
+<li class="lvl4"><a href="#27-ramelk-som-for">§ 27. Råmelk som fôr</a></li>
+<li class="lvl4"><a href="#28-materiale-for-innblanding-i-organisk-gjdsel-og-jordforbedringsmidler">§ 28. Materiale for innblanding i organisk gjødsel og jordforbedringsmidler</a></li>
+<li class="lvl4"><a href="#29-srlige-bearbeidingskrav-for-kjledyrfor">§ 29. Særlige bearbeidingskrav for kjæledyrfôr</a></li>
+<li class="lvl4"><a href="#30-materiale-fra-renskjring-og-spalting-av-huder-og-skinn-for-produksjon-av-gelatin-mm">§ 30. Materiale fra renskjæring og spalting av huder og skinn for produksjon av gelatin m.m.</a></li>
+<li class="lvl4"><a href="#31-trking-av-fjr-mv-unntak">§ 31. Tørking av fjør mv. – unntak</a></li>
+<li class="lvl4"><a href="#32-ubehandlet-ull-og-har-sluttpunkt">§ 32. Ubehandlet ull og hår – sluttpunkt</a></li>
+<li class="lvl2"><a href="#kapittel-vii-import-fra-land-utenfor-es-og-transitt-gjennom-es">Kapittel VII. Import fra land utenfor EØS og transitt gjennom EØS</a></li>
+<li class="lvl4"><a href="#33-biprodukter-til-forskning-og-diagnostisering">§ 33. Biprodukter til forskning og diagnostisering</a></li>
+<li class="lvl4"><a href="#34-enkelte-materialer-til-annen-bruk-enn-for-til-produksjonsdyr">§ 34. Enkelte materialer til annen bruk enn fôr til produksjonsdyr</a></li>
+<li class="lvl2"><a href="#kapittel-viii-administrative-bestemmelser-og-straff">Kapittel VIII. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#35-tilsyn-og-vedtak">§ 35. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#36-straff">§ 36. Straff</a></li>
+<li class="lvl4"><a href="#37-dispensasjon">§ 37. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-ix-ikrafttredelse-og-opphevelse">Kapittel IX. Ikrafttredelse og opphevelse</a></li>
+<li class="lvl4"><a href="#38-ikrafttredelse-og-overgangsordning">§ 38. Ikrafttredelse og overgangsordning</a></li>
+<li class="lvl2"><a href="#vedlegg-1-fjerntliggende-omrader-jf-20">Vedlegg 1 – fjerntliggende områder, jf. § 20</a></li>
+<li class="lvl2"><a href="#vedlegg-2-handelsdokument-ved-innenlands-transport-jf-22">Vedlegg 2 – handelsdokument ved innenlands transport, jf. § 22</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordningef-nr-10692009">Forordning(EF) nr. 1069/2009</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-10692009av-21-oktober-2009om-fastsettelse-av-hygieneregler-for-animalske-biprodukter-og-avledede-produkter-som-ikke-er-beregnet-pa-konsum-og-om-oppheving-av-forordningef-nr-17742002forordningen-om-animalske-biprodukter">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 1069/2009av 21. oktober 2009om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om oppheving av forordning(EF) nr. 1774/2002(forordningen om animalske biprodukter)</a></li>
+<li class="lvl5"><a href="#avdeling-ialminnelige-bestemmelser">AVDELING IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ifelles-bestemmelser">KAPITTEL IFelles bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iidisponering-og-bruk-av-animalske-biprodukter-og-avledede-produkter">KAPITTEL IIDisponering og bruk av animalske biprodukter og avledede produkter</a></li>
+<li class="lvl5"><a href="#avdeling-iidriftsansvarliges-forpliktelser">AVDELING IIDRIFTSANSVARLIGES FORPLIKTELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-forpliktelser">KAPITTEL IAlminnelige forpliktelser</a></li>
+<li class="lvl5"><a href="#kapittel-iiomsetning">KAPITTEL IIOmsetning</a></li>
+<li class="lvl5"><a href="#kapittel-iiiimport-transitt-og-eksport">KAPITTEL IIIImport, transitt og eksport</a></li>
+<li class="lvl5"><a href="#avdeling-iiioffentlig-kontroll-og-sluttbestemmelser">AVDELING IIIOFFENTLIG KONTROLL OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ioffentlig-kontroll">KAPITTEL IOffentlig kontroll</a></li>
+<li class="lvl5"><a href="#kapittel-iisluttbestemmelser">KAPITTEL IISluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg">VEDLEGG</a></li>
+<li class="lvl3"><a href="#forordningeu-20231605">Forordning(EU) 2023/1605</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-20231605av-22-mai-2023om-utfylling-av-europaparlaments-og-radsforordningef-nr-10692009med-hensyn-til-fastsettelse-av-sluttpunkter-i-produksjonskjeden-for-visse-typer-organisk-gjdsel-og-visse-jordforbedringsmidler">DELEGERT KOMMISJONSFORORDNING(EU) 2023/1605av 22. mai 2023om utfylling av europaparlaments- og rådsforordning(EF) nr. 1069/2009med hensyn til fastsettelse av sluttpunkter i produksjonskjeden for visse typer organisk gjødsel og visse jordforbedringsmidler</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1422011">Forordning (EU) nr. 142/2011</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-1422011av-25-februar-2011om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-10692009om-fastsettelse-av-hygieneregler-for-animalske-biprodukter-og-avledede-produkter-som-ikke-er-beregnet-pa-konsum-og-om-gjennomfring-av-radsdirektiv9778efmed-hensyn-til-visse-prver-og-produkter-som-er-unntatt-fra-veterinrkontroll-pa-grensen-i-henhold-til-nevnte-direktiv">KOMMISJONSFORORDNING(EU) nr. 142/2011av 25. februar 2011om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 1069/2009om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om gjennomføring av rådsdirektiv97/78/EFmed hensyn til visse prøver og produkter som er unntatt fra veterinærkontroll på grensen i henhold til nevnte direktiv</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iidisponering-og-bruk-av-animalske-biprodukter-og-avledede-produkter_1">KAPITTEL IIDISPONERING OG BRUK AV ANIMALSKE BIPRODUKTER OG AVLEDEDE PRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-iiiunntak-fra-visse-bestemmelser-i-forordningef-nr-10692009">KAPITTEL IIIUNNTAK FRA VISSE BESTEMMELSER I FORORDNING(EF) NR. 1069/2009</a></li>
+<li class="lvl5"><a href="#kapittel-ivgodkjenning-av-alternative-metoder">KAPITTEL IVGODKJENNING AV ALTERNATIVE METODER</a></li>
+<li class="lvl5"><a href="#kapittel-vinnsamling-transport-identifisering-og-sporbarhet">KAPITTEL VINNSAMLING, TRANSPORT, IDENTIFISERING OG SPORBARHET</a></li>
+<li class="lvl5"><a href="#kapittel-viregistrering-og-godkjenning-av-virksomheter-og-anlegg">KAPITTEL VIREGISTRERING OG GODKJENNING AV VIRKSOMHETER OG ANLEGG</a></li>
+<li class="lvl5"><a href="#kapittel-viiomsetning">KAPITTEL VIIOMSETNING</a></li>
+<li class="lvl5"><a href="#kapittel-viiiimport-transitt-og-eksport">KAPITTEL VIIIIMPORT, TRANSITT OG EKSPORT</a></li>
+<li class="lvl5"><a href="#kapittel-ixoffentlig-kontroll">KAPITTEL IXOFFENTLIG KONTROLL</a></li>
+<li class="lvl5"><a href="#kapittel-xsluttbestemmelser">KAPITTEL XSLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-idefinisjoner-som-nevnt-i-artikkel-2">VEDLEGG IDEFINISJONER SOM NEVNT I ARTIKKEL 2</a></li>
+<li class="lvl5"><a href="#vedlegg-iirestriksjoner-pa-bruken-av-animalske-biprodukter">VEDLEGG IIRESTRIKSJONER PÅ BRUKEN AV ANIMALSKE BIPRODUKTER</a></li>
+<li class="lvl5"><a href="#vedlegg-iiidisponering-gjenvinning-og-bruk-som-brensel">VEDLEGG IIIDISPONERING, GJENVINNING OG BRUK SOM BRENSEL</a></li>
+<li class="lvl5"><a href="#vedlegg-ivbearbeiding">VEDLEGG IVBEARBEIDING</a></li>
+<li class="lvl5"><a href="#vedlegg-vomdanning-av-animalske-biprodukter-og-avledede-produkter-til-biogass-eller-kompost">VEDLEGG VOMDANNING AV ANIMALSKE BIPRODUKTER OG AVLEDEDE PRODUKTER TIL BIOGASS ELLER KOMPOST</a></li>
+<li class="lvl5"><a href="#vedlegg-visrlige-bestemmelser-om-forskning-foring-innsamling-og-disponering">VEDLEGG VISÆRLIGE BESTEMMELSER OM FORSKNING, FÔRING, INNSAMLING OG DISPONERING</a></li>
+<li class="lvl5"><a href="#vedlegg-viistandardformat-for-sknader-om-alternative-metoder">VEDLEGG VIISTANDARDFORMAT FOR SØKNADER OM ALTERNATIVE METODER</a></li>
+<li class="lvl5"><a href="#vedlegg-viiiinnsamling-transport-og-sporbarhet">VEDLEGG VIIIINNSAMLING, TRANSPORT OG SPORBARHET</a></li>
+<li class="lvl5"><a href="#vedlegg-ixkrav-som-gjelder-visse-godkjente-og-registrerte-virksomheter-og-anlegg">VEDLEGG IXKRAV SOM GJELDER VISSE GODKJENTE OG REGISTRERTE VIRKSOMHETER OG ANLEGG</a></li>
+<li class="lvl5"><a href="#vedlegg-xformidler">VEDLEGG XFÔRMIDLER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiorganisk-gjdsel-og-jordforbedringsmidler">VEDLEGG XIORGANISK GJØDSEL OG JORDFORBEDRINGSMIDLER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiihalvfabrikater">VEDLEGG XIIHALVFABRIKATER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiifor-til-kjledyr-og-visse-andre-avledede-produkter">VEDLEGG XIIIFÔR TIL KJÆLEDYR OG VISSE ANDRE AVLEDEDE PRODUKTER</a></li>
+<li class="lvl5"><a href="#vedlegg-xivimport-eksport-og-transitt">VEDLEGG XIVIMPORT, EKSPORT OG TRANSITT</a></li>
+<li class="lvl5"><a href="#vedlegg-xvmodeller-for-hygienesertifikater">VEDLEGG XVMODELLER FOR HYGIENESERTIFIKATER</a></li>
+<li class="lvl5"><a href="#vedlegg-xvioffentlige-kontroller">VEDLEGG XVIOFFENTLIGE KONTROLLER</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2026-05-04-696.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-09-14-1064.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om animalske biprodukter som ikke er beregnet på konsum (animaliebiproduktforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-09-14-1064.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-09-14-1064 <code>forskrift/2016-09-14-1064</code></td></tr>
+<tr><th>Korttittel</th><td>Animaliebiproduktforskriften</td></tr>
+<tr><th>Departement</th><td>Landbruks- og matdepartementetNærings- og fiskeridepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>14.09.2016</td></tr>
+<tr><th>Sist endret</th><td>FOR-2026-05-04-696 <code>forskrift/2026-05-04-696</code> fra 04.05.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-09-14-1064" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-i-alminnelige-bestemmelser">Kapittel I. Alminnelige bestemmelser</a></li>
+<li class="lvl4"><a href="#1-omfang">§ 1. Omfang</a></li>
+<li class="lvl4"><a href="#2-gjennomfring-av-biproduktforordningene">§ 2. Gjennomføring av biproduktforordningene</a></li>
+<li class="lvl2"><a href="#kapittel-ii-generelle-utfyllende-nasjonale-bestemmelser">Kapittel II. Generelle utfyllende nasjonale bestemmelser</a></li>
+<li class="lvl4"><a href="#3-unntak-fra-registreringsplikt">§ 3. Unntak fra registreringsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-iii-utfyllende-nasjonale-bestemmelser-om-forskning-diagnostikk-og-undervisning">Kapittel III. Utfyllende nasjonale bestemmelser om forskning, diagnostikk og undervisning</a></li>
+<li class="lvl4"><a href="#4-unntak-fra-registreringskrav-for-driftsansvarlig">§ 4. Unntak fra registreringskrav for driftsansvarlig</a></li>
+<li class="lvl4"><a href="#5-kategorisering-av-forsksdyr">§ 5. Kategorisering av forsøksdyr</a></li>
+<li class="lvl4"><a href="#6-forskning-og-andre-srskilte-formal">§ 6. Forskning og andre særskilte formål</a></li>
+<li class="lvl2"><a href="#kapittel-iv-utfyllende-nasjonale-bestemmelser-om-avhending-og-bruk-av-biprodukter">Kapittel IV. Utfyllende nasjonale bestemmelser om avhending og bruk av biprodukter</a></li>
+<li class="lvl4"><a href="#7-biogassproduksjon-og-kompostering-unntak-fra-krav-om-trykksterilisering-og-merking-av-materiale-i-kategori-2">§ 7. Biogassproduksjon og kompostering – unntak fra krav om trykksterilisering og merking av materiale i kategori 2</a></li>
+<li class="lvl4"><a href="#8-biogassanlegg-unntak-fra-kravet-om-hygieniseringsenhet-for-biogassanlegg-som-behandler-visse-typer-biprodukter">§ 8. Biogassanlegg – unntak fra kravet om hygieniseringsenhet for biogassanlegg som behandler visse typer biprodukter</a></li>
+<li class="lvl4"><a href="#9-opphevet">§ 9. (Opphevet)</a></li>
+<li class="lvl4"><a href="#10-biogass-og-komposteringsanlegg-unntak-fra-hovedkravene-til-standardparametre-for-omdanning">§ 10. Biogass- og komposteringsanlegg – unntak fra hovedkravene til standardparametre for omdanning</a></li>
+<li class="lvl4"><a href="#11-biogass-og-komposteringsanlegg-prvetakingstidspunkt-fr-sammenblanding-med-ikke-animalske-biprodukter">§ 11. Biogass- og komposteringsanlegg – prøvetakingstidspunkt før sammenblanding med ikke-animalske biprodukter</a></li>
+<li class="lvl4"><a href="#12-biprodukter-som-kan-spres-pa-jorder-uten-forutgaende-bearbeiding-materialer-i-kategori-2-og-3">§ 12. Biprodukter som kan spres på jorder uten forutgående bearbeiding – materialer i kategori 2 og 3</a></li>
+<li class="lvl4"><a href="#13-avhending-og-bruk-av-eggeskall-og-skall-fra-skalldyr-i-kategori-3">§ 13. Avhending og bruk av eggeskall og skall fra skalldyr i kategori 3</a></li>
+<li class="lvl4"><a href="#14-bruk-av-fjrfegjdsel-som-brensel">§ 14. Bruk av fjørfegjødsel som brensel</a></li>
+<li class="lvl4"><a href="#15-spesielle-foringsformal-kategori-2-og-3-materiale">§ 15. Spesielle fôringsformål – kategori 2 og 3 materiale</a></li>
+<li class="lvl4"><a href="#16-spesielle-foringsformal-kategori-1-materiale">§ 16. Spesielle fôringsformål – kategori 1 materiale</a></li>
+<li class="lvl4"><a href="#17-spesielle-foringsformal-bearbeidingskrav">§ 17. Spesielle fôringsformål – bearbeidingskrav</a></li>
+<li class="lvl4"><a href="#18-avhending-av-sma-mengder-tidligere-nringsmidler">§ 18. Avhending av små mengder tidligere næringsmidler</a></li>
+<li class="lvl4"><a href="#19-nedgraving-av-dde-kjledyr-og-hest">§ 19. Nedgraving av døde kjæledyr og hest</a></li>
+<li class="lvl4"><a href="#20-brenning-og-nedgraving">§ 20. Brenning og nedgraving</a></li>
+<li class="lvl4"><a href="#21-brenning-og-nedgraving-ved-utbrudd-av-notifiserbare-sykdommer-mm">§ 21. Brenning og nedgraving ved utbrudd av notifiserbare sykdommer m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-v-innsamling-transport-identifikasjon-og-sporbarhet">Kapittel V. Innsamling, transport, identifikasjon og sporbarhet</a></li>
+<li class="lvl4"><a href="#22-krav-om-dokumentasjon-ved-innenlandstransport-handelsdokument-mm">§ 22. Krav om dokumentasjon ved innenlandstransport – handelsdokument m.m.</a></li>
+<li class="lvl4"><a href="#23-krav-om-fargekoding-ved-innenlandstransport">§ 23. Krav om fargekoding ved innenlandstransport</a></li>
+<li class="lvl4"><a href="#24-identifisering-av-husdyrgjdsel-i-norge">§ 24. Identifisering av husdyrgjødsel i Norge</a></li>
+<li class="lvl4"><a href="#25-transport-og-ombruksbeholdere">§ 25. Transport og ombruksbeholdere</a></li>
+<li class="lvl2"><a href="#kapittel-vi-utfyllende-nasjonale-bestemmelser-om-omsetning">Kapittel VI. Utfyllende nasjonale bestemmelser om omsetning</a></li>
+<li class="lvl4"><a href="#26-ubearbeidet-agn-og-for-til-fisk-unntak-og-tilleggsvilkar">§ 26. Ubearbeidet agn og fôr til fisk – unntak og tilleggsvilkår</a></li>
+<li class="lvl4"><a href="#27-ramelk-som-for">§ 27. Råmelk som fôr</a></li>
+<li class="lvl4"><a href="#28-materiale-for-innblanding-i-organisk-gjdsel-og-jordforbedringsmidler">§ 28. Materiale for innblanding i organisk gjødsel og jordforbedringsmidler</a></li>
+<li class="lvl4"><a href="#29-srlige-bearbeidingskrav-for-kjledyrfor">§ 29. Særlige bearbeidingskrav for kjæledyrfôr</a></li>
+<li class="lvl4"><a href="#30-materiale-fra-renskjring-og-spalting-av-huder-og-skinn-for-produksjon-av-gelatin-mm">§ 30. Materiale fra renskjæring og spalting av huder og skinn for produksjon av gelatin m.m.</a></li>
+<li class="lvl4"><a href="#31-trking-av-fjr-mv-unntak">§ 31. Tørking av fjør mv. – unntak</a></li>
+<li class="lvl4"><a href="#32-ubehandlet-ull-og-har-sluttpunkt">§ 32. Ubehandlet ull og hår – sluttpunkt</a></li>
+<li class="lvl2"><a href="#kapittel-vii-import-fra-land-utenfor-es-og-transitt-gjennom-es">Kapittel VII. Import fra land utenfor EØS og transitt gjennom EØS</a></li>
+<li class="lvl4"><a href="#33-biprodukter-til-forskning-og-diagnostisering">§ 33. Biprodukter til forskning og diagnostisering</a></li>
+<li class="lvl4"><a href="#34-enkelte-materialer-til-annen-bruk-enn-for-til-produksjonsdyr">§ 34. Enkelte materialer til annen bruk enn fôr til produksjonsdyr</a></li>
+<li class="lvl2"><a href="#kapittel-viii-administrative-bestemmelser-og-straff">Kapittel VIII. Administrative bestemmelser og straff</a></li>
+<li class="lvl4"><a href="#35-tilsyn-og-vedtak">§ 35. Tilsyn og vedtak</a></li>
+<li class="lvl4"><a href="#36-straff">§ 36. Straff</a></li>
+<li class="lvl4"><a href="#37-dispensasjon">§ 37. Dispensasjon</a></li>
+<li class="lvl2"><a href="#kapittel-ix-ikrafttredelse-og-opphevelse">Kapittel IX. Ikrafttredelse og opphevelse</a></li>
+<li class="lvl4"><a href="#38-ikrafttredelse-og-overgangsordning">§ 38. Ikrafttredelse og overgangsordning</a></li>
+<li class="lvl2"><a href="#vedlegg-1-fjerntliggende-omrader-jf-20">Vedlegg 1 – fjerntliggende områder, jf. § 20</a></li>
+<li class="lvl2"><a href="#vedlegg-2-handelsdokument-ved-innenlands-transport-jf-22">Vedlegg 2 – handelsdokument ved innenlands transport, jf. § 22</a></li>
+<li class="lvl2"><a href="#forordninger">Forordninger</a></li>
+<li class="lvl3"><a href="#forordningef-nr-10692009">Forordning(EF) nr. 1069/2009</a></li>
+<li class="lvl4"><a href="#europaparlaments-og-radsforordningef-nr-10692009av-21-oktober-2009om-fastsettelse-av-hygieneregler-for-animalske-biprodukter-og-avledede-produkter-som-ikke-er-beregnet-pa-konsum-og-om-oppheving-av-forordningef-nr-17742002forordningen-om-animalske-biprodukter">EUROPAPARLAMENTS- OG RÅDSFORORDNING(EF) nr. 1069/2009av 21. oktober 2009om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om oppheving av forordning(EF) nr. 1774/2002(forordningen om animalske biprodukter)</a></li>
+<li class="lvl5"><a href="#avdeling-ialminnelige-bestemmelser">AVDELING IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ifelles-bestemmelser">KAPITTEL IFelles bestemmelser</a></li>
+<li class="lvl5"><a href="#kapittel-iidisponering-og-bruk-av-animalske-biprodukter-og-avledede-produkter">KAPITTEL IIDisponering og bruk av animalske biprodukter og avledede produkter</a></li>
+<li class="lvl5"><a href="#avdeling-iidriftsansvarliges-forpliktelser">AVDELING IIDRIFTSANSVARLIGES FORPLIKTELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-forpliktelser">KAPITTEL IAlminnelige forpliktelser</a></li>
+<li class="lvl5"><a href="#kapittel-iiomsetning">KAPITTEL IIOmsetning</a></li>
+<li class="lvl5"><a href="#kapittel-iiiimport-transitt-og-eksport">KAPITTEL IIIImport, transitt og eksport</a></li>
+<li class="lvl5"><a href="#avdeling-iiioffentlig-kontroll-og-sluttbestemmelser">AVDELING IIIOFFENTLIG KONTROLL OG SLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-ioffentlig-kontroll">KAPITTEL IOffentlig kontroll</a></li>
+<li class="lvl5"><a href="#kapittel-iisluttbestemmelser">KAPITTEL IISluttbestemmelser</a></li>
+<li class="lvl5"><a href="#vedlegg">VEDLEGG</a></li>
+<li class="lvl3"><a href="#forordningeu-20231605">Forordning(EU) 2023/1605</a></li>
+<li class="lvl4"><a href="#delegert-kommisjonsforordningeu-20231605av-22-mai-2023om-utfylling-av-europaparlaments-og-radsforordningef-nr-10692009med-hensyn-til-fastsettelse-av-sluttpunkter-i-produksjonskjeden-for-visse-typer-organisk-gjdsel-og-visse-jordforbedringsmidler">DELEGERT KOMMISJONSFORORDNING(EU) 2023/1605av 22. mai 2023om utfylling av europaparlaments- og rådsforordning(EF) nr. 1069/2009med hensyn til fastsettelse av sluttpunkter i produksjonskjeden for visse typer organisk gjødsel og visse jordforbedringsmidler</a></li>
+<li class="lvl3"><a href="#forordning-eu-nr-1422011">Forordning (EU) nr. 142/2011</a></li>
+<li class="lvl4"><a href="#kommisjonsforordningeu-nr-1422011av-25-februar-2011om-gjennomfring-av-europaparlaments-og-radsforordningef-nr-10692009om-fastsettelse-av-hygieneregler-for-animalske-biprodukter-og-avledede-produkter-som-ikke-er-beregnet-pa-konsum-og-om-gjennomfring-av-radsdirektiv9778efmed-hensyn-til-visse-prver-og-produkter-som-er-unntatt-fra-veterinrkontroll-pa-grensen-i-henhold-til-nevnte-direktiv">KOMMISJONSFORORDNING(EU) nr. 142/2011av 25. februar 2011om gjennomføring av europaparlaments- og rådsforordning(EF) nr. 1069/2009om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om gjennomføring av rådsdirektiv97/78/EFmed hensyn til visse prøver og produkter som er unntatt fra veterinærkontroll på grensen i henhold til nevnte direktiv</a></li>
+<li class="lvl5"><a href="#kapittel-ialminnelige-bestemmelser">KAPITTEL IALMINNELIGE BESTEMMELSER</a></li>
+<li class="lvl5"><a href="#kapittel-iidisponering-og-bruk-av-animalske-biprodukter-og-avledede-produkter_1">KAPITTEL IIDISPONERING OG BRUK AV ANIMALSKE BIPRODUKTER OG AVLEDEDE PRODUKTER</a></li>
+<li class="lvl5"><a href="#kapittel-iiiunntak-fra-visse-bestemmelser-i-forordningef-nr-10692009">KAPITTEL IIIUNNTAK FRA VISSE BESTEMMELSER I FORORDNING(EF) NR. 1069/2009</a></li>
+<li class="lvl5"><a href="#kapittel-ivgodkjenning-av-alternative-metoder">KAPITTEL IVGODKJENNING AV ALTERNATIVE METODER</a></li>
+<li class="lvl5"><a href="#kapittel-vinnsamling-transport-identifisering-og-sporbarhet">KAPITTEL VINNSAMLING, TRANSPORT, IDENTIFISERING OG SPORBARHET</a></li>
+<li class="lvl5"><a href="#kapittel-viregistrering-og-godkjenning-av-virksomheter-og-anlegg">KAPITTEL VIREGISTRERING OG GODKJENNING AV VIRKSOMHETER OG ANLEGG</a></li>
+<li class="lvl5"><a href="#kapittel-viiomsetning">KAPITTEL VIIOMSETNING</a></li>
+<li class="lvl5"><a href="#kapittel-viiiimport-transitt-og-eksport">KAPITTEL VIIIIMPORT, TRANSITT OG EKSPORT</a></li>
+<li class="lvl5"><a href="#kapittel-ixoffentlig-kontroll">KAPITTEL IXOFFENTLIG KONTROLL</a></li>
+<li class="lvl5"><a href="#kapittel-xsluttbestemmelser">KAPITTEL XSLUTTBESTEMMELSER</a></li>
+<li class="lvl5"><a href="#vedlegg-idefinisjoner-som-nevnt-i-artikkel-2">VEDLEGG IDEFINISJONER SOM NEVNT I ARTIKKEL 2</a></li>
+<li class="lvl5"><a href="#vedlegg-iirestriksjoner-pa-bruken-av-animalske-biprodukter">VEDLEGG IIRESTRIKSJONER PÅ BRUKEN AV ANIMALSKE BIPRODUKTER</a></li>
+<li class="lvl5"><a href="#vedlegg-iiidisponering-gjenvinning-og-bruk-som-brensel">VEDLEGG IIIDISPONERING, GJENVINNING OG BRUK SOM BRENSEL</a></li>
+<li class="lvl5"><a href="#vedlegg-ivbearbeiding">VEDLEGG IVBEARBEIDING</a></li>
+<li class="lvl5"><a href="#vedlegg-vomdanning-av-animalske-biprodukter-og-avledede-produkter-til-biogass-eller-kompost">VEDLEGG VOMDANNING AV ANIMALSKE BIPRODUKTER OG AVLEDEDE PRODUKTER TIL BIOGASS ELLER KOMPOST</a></li>
+<li class="lvl5"><a href="#vedlegg-visrlige-bestemmelser-om-forskning-foring-innsamling-og-disponering">VEDLEGG VISÆRLIGE BESTEMMELSER OM FORSKNING, FÔRING, INNSAMLING OG DISPONERING</a></li>
+<li class="lvl5"><a href="#vedlegg-viistandardformat-for-sknader-om-alternative-metoder">VEDLEGG VIISTANDARDFORMAT FOR SØKNADER OM ALTERNATIVE METODER</a></li>
+<li class="lvl5"><a href="#vedlegg-viiiinnsamling-transport-og-sporbarhet">VEDLEGG VIIIINNSAMLING, TRANSPORT OG SPORBARHET</a></li>
+<li class="lvl5"><a href="#vedlegg-ixkrav-som-gjelder-visse-godkjente-og-registrerte-virksomheter-og-anlegg">VEDLEGG IXKRAV SOM GJELDER VISSE GODKJENTE OG REGISTRERTE VIRKSOMHETER OG ANLEGG</a></li>
+<li class="lvl5"><a href="#vedlegg-xformidler">VEDLEGG XFÔRMIDLER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiorganisk-gjdsel-og-jordforbedringsmidler">VEDLEGG XIORGANISK GJØDSEL OG JORDFORBEDRINGSMIDLER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiihalvfabrikater">VEDLEGG XIIHALVFABRIKATER</a></li>
+<li class="lvl5"><a href="#vedlegg-xiiifor-til-kjledyr-og-visse-andre-avledede-produkter">VEDLEGG XIIIFÔR TIL KJÆLEDYR OG VISSE ANDRE AVLEDEDE PRODUKTER</a></li>
+<li class="lvl5"><a href="#vedlegg-xivimport-eksport-og-transitt">VEDLEGG XIVIMPORT, EKSPORT OG TRANSITT</a></li>
+<li class="lvl5"><a href="#vedlegg-xvmodeller-for-hygienesertifikater">VEDLEGG XVMODELLER FOR HYGIENESERTIFIKATER</a></li>
+<li class="lvl5"><a href="#vedlegg-xvioffentlige-kontroller">VEDLEGG XVIOFFENTLIGE KONTROLLER</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-09-14-1064.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-09-14-1064.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-09-14-1064.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-09-14-1064.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-09-14-1064.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-09-14-1064.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-09-14-1064.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-09-14-1064.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-09-14-1064.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-animalske-biprodukter-som-ikke-er-beregnet-pa-konsum-animaliebiproduktforskriften">Forskrift om animalske biprodukter som ikke er beregnet på konsum (animaliebiproduktforskriften)</h1>
 <h2 id="kapittel-i-alminnelige-bestemmelser">Kapittel I. Alminnelige bestemmelser</h2>
 <h4 id="1-omfang">§ 1. Omfang</h4>
 <p>Animalske biprodukter er hele kropper eller deler av dyr som ikke skal brukes til konsum.</p>
@@ -86,7 +317,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>EØS-avtalens vedlegg I kapittel I del 7.1 nr. 9b (forordning (EF) nr. 1069/2009 som endret ved direktiv 2010/63/EU , forordning (EU) 2017/625 og forordning (EU) 2019/1009 ), om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om oppheving av forordning (EF) nr. 1774/2002 (forordningen om animalske biprodukter) gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I , protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalens vedlegg I kapittel I del 7.1 nr. 9ba forordning (EU) 2023/1605 om utfyllende regler til europaparlaments- og rådsforordning (EF) nr. 1069/2009 om fastsettelse av sluttprodukter i framstillingskjeden for visse organiske gjødsel og jordforbedringsmidler gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
 <p>EØS-avtalens vedlegg I kapittel I del 7.1 nr. 9c (forordning (EU) nr. 142/2011 som endret ved forordning (EU) nr. 749/2011 , forordning (EU) nr. 1063/2012 , forordning (EU) nr. 1097/2012 , forordning (EU) nr. 294/2013 , forordning (EU) nr. 555/2013 , forordning (EU) nr. 717/2013 , forordning (EU) nr. 592/2014 , forordning (EU) 2015/9 , forordning (EU) 2017/172 , forordning (EU) 2017/786 , forordning (EU) 2017/893 , forordning (EU) 2017/1261 , forordning (EU) 2017/1262 , forordning (EU) 2019/319 , forordning (EU) 2019/1084 , forordning (EU) 2019/1177 , forordning (EU) 2019/2124 , (EU) 2020/207 , (EU) 2020/735 , (EU) 2020/757 , (EU) 2020/762 , (EU) 2020/797 , forordning (EU) 2020/1720 , forordning (EU) 2021/899 , forordning (EU) 2021/1699 , forordning (EU) 2021/1891 , forordning (EU) 2021/1925 , forordning (EU) 2021/1929 , forordning (EU) 2021/1973 , forordning (EU) 2022/384 , forordning (EU) 2022/488 , forordning (EU) 2023/2613 , forordning (EU) 2024/1719 , forordning (EU) 2025/1377 , forordning (EU) 2025/1379 , forordning (EU) 2025/2016 , forordning (EU) 2025/2181 og forordning (EU) 2026/176 ) om gjennomføring av europaparlaments- og rådsforordning (EF) nr. 1069/2009 om fastsettelse av hygieneregler for animalske biprodukter og avledede produkter som ikke er beregnet på konsum, og om gjennomføring av rådsdirektiv 97/78/EF med hensyn til visse prøver og produkter som er unntatt fra veterinærkontroll på grensen i henhold til nevnte direktiv gjelder som forskrift med de tilpasninger som følger av vedlegg I kapittel I, protokoll 1 til avtalen og avtalen for øvrig.</p>
-<p><em>Endret ved forskrifter 18 des 2017 nr. 2228 , 19 jan 2018 nr. 62 , 25 april 2018 nr. 628 , 4 mars 2020 nr. 228 , 6 mars 2020 nr. 707 (i kraft 7 april 2020), 9 mars 2020 nr. 722 (i kraft 7 april 2020), 10 juli 2020 nr. 1549 , 14 des 2020 nr. 3211 , 31 mars 2021 nr. 1059 , 7 feb 2022 nr. 186 , 2 mai 2022 nr. 813 , 30 okt 2023 nr. 1732 , 18 mars 2024 nr. 497 , 6 mars 2024 nr. 539 (i kraft 3 april 2024), 8 juli 2024 nr. 1649 , 27 okt 2025 nr. 2127 , 9 feb 2026 nr. 167 , 4 mai 2026 nr. 696 .</em></p>
+<p class="note">Endret ved forskrifter 18 des 2017 nr. 2228 , 19 jan 2018 nr. 62 , 25 april 2018 nr. 628 , 4 mars 2020 nr. 228 , 6 mars 2020 nr. 707 (i kraft 7 april 2020), 9 mars 2020 nr. 722 (i kraft 7 april 2020), 10 juli 2020 nr. 1549 , 14 des 2020 nr. 3211 , 31 mars 2021 nr. 1059 , 7 feb 2022 nr. 186 , 2 mai 2022 nr. 813 , 30 okt 2023 nr. 1732 , 18 mars 2024 nr. 497 , 6 mars 2024 nr. 539 (i kraft 3 april 2024), 8 juli 2024 nr. 1649 , 27 okt 2025 nr. 2127 , 9 feb 2026 nr. 167 , 4 mai 2026 nr. 696 .</p>
 <h2 id="kapittel-ii-generelle-utfyllende-nasjonale-bestemmelser">Kapittel II. Generelle utfyllende nasjonale bestemmelser</h2>
 <h4 id="3-unntak-fra-registreringsplikt">§ 3. Unntak fra registreringsplikt</h4>
 <p>Følgende driftsansvarlige unntas fra registreringskravet i forordning (EF) nr. 1069/2009 artikkel 23 (4):</p>
@@ -116,10 +347,10 @@ e. råmelk.</p>
 <h4 id="8-biogassanlegg-unntak-fra-kravet-om-hygieniseringsenhet-for-biogassanlegg-som-behandler-visse-typer-biprodukter">§ 8. Biogassanlegg – unntak fra kravet om hygieniseringsenhet for biogassanlegg som behandler visse typer biprodukter</h4>
 <p>Biogassanlegg som utelukkende benytter biprodukter klassifisert som sådan av kommersielle grunner, er unntatt fra kravet om hygieniseringsenhet.</p>
 <h4 id="9-opphevet">§ 9. (Opphevet)</h4>
-<p><em>Opphevet ved forskrift 27 sep 2022 nr. 1680 .</em></p>
+<p class="note">Opphevet ved forskrift 27 sep 2022 nr. 1680 .</p>
 <h4 id="10-biogass-og-komposteringsanlegg-unntak-fra-hovedkravene-til-standardparametre-for-omdanning">§ 10. Biogass- og komposteringsanlegg – unntak fra hovedkravene til standardparametre for omdanning</h4>
 <p>Søknad om godkjenning av biogass- og komposteringsanlegg som skal bruke andre prosessparametere enn i forordning (EU) nr. 142/2011 artikkel 10 punkt 1, skal dokumentere at ett av vilkårene er oppfylt i samme forordnings artikkel 10 punkt 3, jf. vedlegg V kapittel III avsnitt 2 punkt 3.</p>
-<p><em>Endret ved forskrifter 19 jan 2018 nr. 62 , 27 sep 2022 nr. 1680 .</em></p>
+<p class="note">Endret ved forskrifter 19 jan 2018 nr. 62 , 27 sep 2022 nr. 1680 .</p>
 <h4 id="11-biogass-og-komposteringsanlegg-prvetakingstidspunkt-fr-sammenblanding-med-ikke-animalske-biprodukter">§ 11. Biogass- og komposteringsanlegg – prøvetakingstidspunkt før sammenblanding med ikke-animalske biprodukter</h4>
 <p>Hvis animalske biprodukter er brukt til omdanning til biogass eller kompost sammen med ikke-animalske biprodukter, kan representative prøver tas etter hygienisering i forordning (EU) nr. 142/2011 vedlegg V kapittel I avsnitt 1 (1)(a) eller kompostering i samme vedlegg kapittel I avsnitt 2 (1) før sammenblanding med ikke-animalske biprodukter</p>
 <h4 id="12-biprodukter-som-kan-spres-pa-jorder-uten-forutgaende-bearbeiding-materialer-i-kategori-2-og-3">§ 12. Biprodukter som kan spres på jorder uten forutgående bearbeiding – materialer i kategori 2 og 3</h4>
@@ -133,7 +364,7 @@ e. Husdyrgjødsel som omsettes etter overgangsbestemmelsene i forskrift 29. janu
 <p>Materiale som nevnt i første ledd bokstav d og e kan spres på jorder uten forutgående bearbeiding på eget areal eller på areal leid for egen landbruksproduksjon, eller spres på jordbruksarealer i nærheten dersom det er inngått skriftlig, flerårig spredeavtale. Dersom slik ubearbeidet husdyrgjødsel er spredt på jordbruksareal kan fôrvekster til produksjonsdyr høstes tidligst 21 dager etter spredningen av gjødselen, og produksjonsdyr kan beite der tidligst seks uker etter spredningen.</p>
 <p>Råtnerest (biorest) fra biogassanlegg der glyserin fra biodieselproduksjon er brukt kan benyttes som gjødselvare dersom trykksterilisert kategori 2 materiale er brukt under biodieselproduksjonen.</p>
 <p>Denne paragrafen gjelder ikke ved risiko for spredning av alvorlige smittsomme dyresykdommer.</p>
-<p><em>Endret ved forskrift 29 jan 2025 nr. 116 (i kraft 1 feb 2025).</em></p>
+<p class="note">Endret ved forskrift 29 jan 2025 nr. 116 (i kraft 1 feb 2025).</p>
 <h4 id="13-avhending-og-bruk-av-eggeskall-og-skall-fra-skalldyr-i-kategori-3">§ 13. Avhending og bruk av eggeskall og skall fra skalldyr i kategori 3</h4>
 <p>Driftsansvarlig må søke Mattilsynet om tillatelse for å avhende eller bruke eggeskall og skall fra skalldyr hvis bløtvev og kjøtt ikke er fjernet.</p>
 <h4 id="14-bruk-av-fjrfegjdsel-som-brensel">§ 14. Bruk av fjørfegjødsel som brensel</h4>
@@ -148,7 +379,7 @@ e. Husdyrgjødsel som omsettes etter overgangsbestemmelsene i forskrift 29. janu
 <p>Driftsansvarlig for innsamlingssentral som leverer animalsk materiale til bruk i samsvar med forordning (EF) nr. 1069/2009 artikkel 18 skal sikre at materialet blir denaturert eller sterilisert i samsvar med kravene i forordning (EU) nr. 142/2011 vedlegg VI kapittel II avsnitt 1 punkt 4 bokstav a og b.</p>
 <p>Driftsansvarlig skal sikre at syrekonserverte biprodukter har maksimum pH 4,3, at ferske biprodukter holdes nedkjølt på 0–4 °C og at frosne biprodukter oppbevares på høyst minus 18 °C. Fôret skal ikke inneholde flere koliforme bakterier enn 10 000 kde/g fôr og fôr som skal anvendes til hunder og katter skal oppfylle de mikrobielle kravene til rått kjæledyrfôr i forordning (EU) nr. 142/2011 vedlegg XIII kapittel II (6).</p>
 <p>Innsamlingssentraler som leverer biprodukter til dyrehager trenger ikke å sterilisere eller denaturere det animalske materialet dersom håndteringen ivaretar kvaliteten til materialet.</p>
-<p><em>Endret ved forskrift 27 sep 2022 nr. 1680 .</em></p>
+<p class="note">Endret ved forskrift 27 sep 2022 nr. 1680 .</p>
 <h4 id="18-avhending-av-sma-mengder-tidligere-nringsmidler">§ 18. Avhending av små mengder tidligere næringsmidler</h4>
 <p>Virksomheter kan avhende inntil 20 kg animalsk materiale i kategori 3 per uke for henting av kommunal renovasjonsetat.</p>
 <h4 id="19-nedgraving-av-dde-kjledyr-og-hest">§ 19. Nedgraving av døde kjæledyr og hest</h4>
@@ -189,7 +420,7 @@ c. ved elektronisk overføring av informasjon om opprinnelse, bestemmelsessted, 
 </ul>
 <p>som har gjennomgått en fryseprosess som dreper parasitter, kan brukes som fôr til villfanget fisk og virvelløse dyr i vann, som holdes midlertidig i påvente av å bli slaktet eller er under tilvenning til bearbeidet fôr. Unntatt fra dette er at ubearbeidede animalske biprodukter fra krepsdyr ikke kan brukes som fôr til krepsdyr.</p>
 <p>Animalske biprodukter av villfanget fisk, villfangede virvelløse dyr som lever i vann og virvelløse landdyr kan brukes som agn, herunder som agn til virvelløse dyr som lever i vann.</p>
-<p><em>Endret ved forskrift 24 juni 2022 nr. 1201 .</em></p>
+<p class="note">Endret ved forskrift 24 juni 2022 nr. 1201 .</p>
 <h4 id="27-ramelk-som-for">§ 27. Råmelk som fôr</h4>
 <p>Bønder kan levere ubearbeidet råmelk til andre bønder i Norge til fôringsformål, forutsatt at råmelken kommer fra sykdomsfrie besetninger.</p>
 <h4 id="28-materiale-for-innblanding-i-organisk-gjdsel-og-jordforbedringsmidler">§ 28. Materiale for innblanding i organisk gjødsel og jordforbedringsmidler</h4>
@@ -2498,6 +2729,8 @@ b. selv om de ikke er blandet med en bestanddel for å utelukke at blandingen se
 <p>Avsnitt 12 Offentlig kontroll med hensyn til anlegg som er godkjent for forbrenning av animalske biprodukter</p>
 <p>Vedkommende myndighet skal foreta dokumentkontroller i samsvar med framgangsmåtene nevnt i artikkel 6 nr. 7 og 8 ved godkjente anlegg som omhandlet i vedlegg III kapittel V.</p>
 <p>◄ M14</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

@@ -19,71 +19,216 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2018-12-20-2054.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Klareringsforskriften" href="../feeds/forskrift-2018-12-20-2054.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-justis--og-beredskapsdepartementet.html">Justis- og beredskapsdepartementet</a> &rsaquo;
 <span>Klareringsforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2018-12-20-2054</code></dd>
-<dt>Departement</dt><dd>Justis- og beredskapsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2019-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-06-20-1133</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2018-12-20-2054" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser-om-sikkerhetsklarering-og-adgangsklarering">Kapittel 1. Generelle bestemmelser om sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#1-klareringsmyndighet">§ 1. Klareringsmyndighet</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-hvem-som-kan-be-om-klarering">§ 3. Hvem som kan be om klarering</a></li>
+<li class="lvl2"><a href="#kapittel-2-personkontroll">Kapittel 2. Personkontroll</a></li>
+<li class="lvl4"><a href="#4-kontroll-og-avvisning-av-en-foresprsel-om-personkontroll">§ 4. Kontroll og avvisning av en forespørsel om personkontroll</a></li>
+<li class="lvl4"><a href="#5-hvilke-personer-som-inngar-i-personkontrollen">§ 5. Hvilke personer som inngår i personkontrollen</a></li>
+<li class="lvl4"><a href="#6-sikkerhetsklarering-krav-til-egenopplysninger">§ 6. Sikkerhetsklarering – krav til egenopplysninger</a></li>
+<li class="lvl4"><a href="#7-adgangsklarering-krav-til-egenopplysninger">§ 7. Adgangsklarering – krav til egenopplysninger</a></li>
+<li class="lvl4"><a href="#8-registeropplysninger-til-personkontrollen-ved-sikkerhetsklarering">§ 8. Registeropplysninger til personkontrollen ved sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#9-registeropplysninger-til-personkontrollen-ved-adgangsklarering">§ 9. Registeropplysninger til personkontrollen ved adgangsklarering</a></li>
+<li class="lvl4"><a href="#10-innhenting-av-personkontrollopplysninger-fra-andre-stater">§ 10. Innhenting av personkontrollopplysninger fra andre stater</a></li>
+<li class="lvl4"><a href="#11-behandlingsansvarliges-plikter-ved-utlevering-av-opplysninger">§ 11. Behandlingsansvarliges plikter ved utlevering av opplysninger</a></li>
+<li class="lvl4"><a href="#12-utlevering-og-bruk-av-opplysninger-mellom-nasjonal-sikkerhetsmyndighet-politiet-og-politiets-sikkerhetstjeneste">§ 12. Utlevering og bruk av opplysninger mellom Nasjonal sikkerhetsmyndighet, politiet og Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#13-vurdering-av-personkontrollopplysninger">§ 13. Vurdering av personkontrollopplysninger</a></li>
+<li class="lvl4"><a href="#14-personer-med-tjeneste-i-utlandet-for-den-norske-stat-og-deres-nrstaende">§ 14. Personer med tjeneste i utlandet for den norske stat og deres nærstående</a></li>
+<li class="lvl2"><a href="#kapittel-3-sikkerhetsklarering-og-adgangsklarering">Kapittel 3. Sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#15-nar-et-departement-kan-fatte-vedtak-om-adgangsklarering-og-utvidet-adgangsklarering">§ 15. Når et departement kan fatte vedtak om adgangsklarering og utvidet adgangsklarering</a></li>
+<li class="lvl4"><a href="#16-forholdet-mellom-adgangsklarering-og-sikkerhetsklarering">§ 16. Forholdet mellom adgangsklarering og sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#17-vurderingsgrunnlaget-for-adgangsklarering">§ 17. Vurderingsgrunnlaget for adgangsklarering</a></li>
+<li class="lvl4"><a href="#18-grunnlaget-for-vurdering-av-tilknytning-og-sikkerhetsmessig-betydning">§ 18. Grunnlaget for vurdering av tilknytning og sikkerhetsmessig betydning</a></li>
+<li class="lvl4"><a href="#19-sikkerhetssamtale">§ 19. Sikkerhetssamtale</a></li>
+<li class="lvl4"><a href="#20-betydningen-av-forhold-som-er-vurdert-ved-en-tidligere-klareringsavgjrelse">§ 20. Betydningen av forhold som er vurdert ved en tidligere klareringsavgjørelse</a></li>
+<li class="lvl4"><a href="#21-vurdering-av-om-lavere-klareringsniva-kan-gis-og-bruk-av-vilkar">§ 21. Vurdering av om lavere klareringsnivå kan gis og bruk av vilkår</a></li>
+<li class="lvl4"><a href="#22-karantenetid-fr-ny-klareringsvurdering">§ 22. Karantenetid før ny klareringsvurdering</a></li>
+<li class="lvl4"><a href="#23-melding-om-klareringsavgjrelse">§ 23. Melding om klareringsavgjørelse</a></li>
+<li class="lvl4"><a href="#24-innsyn-i-opplysninger-fra-politiets-sikkerhetstjeneste-politiet-og-lydopptak-eller-audiovisuelt-opptak-av-egen-sikkerhetssamtale">§ 24. Innsyn i opplysninger fra Politiets sikkerhetstjeneste, politiet og lydopptak eller audiovisuelt opptak av egen sikkerhetssamtale</a></li>
+<li class="lvl4"><a href="#25-oppnevning-av-advokater-ettersikkerhetsloven-8-15">§ 25. Oppnevning av advokater ettersikkerhetsloven § 8-15</a></li>
+<li class="lvl4"><a href="#26-gyldighetstid-for-sikkerhetsklarering-og-adgangsklarering">§ 26. Gyldighetstid for sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#27-unntak-fra-krav-om-klarering">§ 27. Unntak fra krav om klarering</a></li>
+<li class="lvl4"><a href="#28-register-over-avgjrelser-om-personklarering">§ 28. Register over avgjørelser om personklarering</a></li>
+<li class="lvl4"><a href="#29-utlevering-av-opplysninger-om-klarering-og-fra-personkontroll-til-andre-staters-myndigheter">§ 29. Utlevering av opplysninger om klarering og fra personkontroll til andre staters myndigheter</a></li>
+<li class="lvl4"><a href="#30-bevaring-kassasjon-og-avlevering-av-dokumenter-i-klareringssaker">§ 30. Bevaring, kassasjon og avlevering av dokumenter i klareringssaker</a></li>
+<li class="lvl4"><a href="#31-dekning-av-kostnader-ved-klarering">§ 31. Dekning av kostnader ved klarering</a></li>
+<li class="lvl2"><a href="#kapittel-4-leverandrklarering">Kapittel 4. Leverandørklarering</a></li>
+<li class="lvl4"><a href="#32-klareringsmyndighet-for-leverandrklarering">§ 32. Klareringsmyndighet for leverandørklarering</a></li>
+<li class="lvl4"><a href="#33-vurderingsgrunnlaget-for-leverandrklarering">§ 33. Vurderingsgrunnlaget for leverandørklarering</a></li>
+<li class="lvl4"><a href="#34-egenopplysninger-fra-leverandren">§ 34. Egenopplysninger fra leverandøren</a></li>
+<li class="lvl4"><a href="#35-andre-kilder-for-leverandrklarering">§ 35. Andre kilder for leverandørklarering</a></li>
+<li class="lvl4"><a href="#36-kontroll-av-om-leverandren-oppfyller-sikkerhetskravene">§ 36. Kontroll av om leverandøren oppfyller sikkerhetskravene</a></li>
+<li class="lvl4"><a href="#37-tilbakekall-av-leverandrklarering">§ 37. Tilbakekall av leverandørklarering</a></li>
+<li class="lvl4"><a href="#38-leverandrklareringers-gyldighetstid">§ 38. Leverandørklareringers gyldighetstid</a></li>
+<li class="lvl4"><a href="#39-register-over-leverandrklareringer-og-sikkerhetsgraderte-anskaffelser">§ 39. Register over leverandørklareringer og sikkerhetsgraderte anskaffelser</a></li>
+<li class="lvl4"><a href="#40-utlevering-av-opplysninger-om-leverandrklarering-til-andre-staters-myndigheter-eller-internasjonale-organisasjoner">§ 40. Utlevering av opplysninger om leverandørklarering til andre staters myndigheter eller internasjonale organisasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-srbestemmelser-for-domstolene">Kapittel 5. Særbestemmelser for domstolene</a></li>
+<li class="lvl4"><a href="#41-klareringsmyndighet-og-autorisasjonsansvarlig-i-domstolene">§ 41. Klareringsmyndighet og autorisasjonsansvarlig i domstolene</a></li>
+<li class="lvl4"><a href="#42-utpeking-av-domstoler-for-enkeltstaende-rettergangsskritt-i-straffesaker">§ 42. Utpeking av domstoler for enkeltstående rettergangsskritt i straffesaker</a></li>
+<li class="lvl4"><a href="#43-anvendelse-avsikkerhetsloven-3-1-3-4og-3-6">§ 43. Anvendelse avsikkerhetsloven § 3-1,§ 3-4og§ 3-6</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#44-ikrafttredelse">§ 44. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-06-20-1133.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-12-20-2054.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om sikkerhetsklarering og annen klarering (klareringsforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-12-20-2054.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2018-12-20-2054 <code>forskrift/2018-12-20-2054</code></td></tr>
+<tr><th>Korttittel</th><td>Klareringsforskriften</td></tr>
+<tr><th>Departement</th><td>Justis- og beredskapsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2019</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-06-20-1133 <code>forskrift/2025-06-20-1133</code> fra 20.06.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2018-12-20-2054" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser-om-sikkerhetsklarering-og-adgangsklarering">Kapittel 1. Generelle bestemmelser om sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#1-klareringsmyndighet">§ 1. Klareringsmyndighet</a></li>
+<li class="lvl4"><a href="#2-definisjoner">§ 2. Definisjoner</a></li>
+<li class="lvl4"><a href="#3-hvem-som-kan-be-om-klarering">§ 3. Hvem som kan be om klarering</a></li>
+<li class="lvl2"><a href="#kapittel-2-personkontroll">Kapittel 2. Personkontroll</a></li>
+<li class="lvl4"><a href="#4-kontroll-og-avvisning-av-en-foresprsel-om-personkontroll">§ 4. Kontroll og avvisning av en forespørsel om personkontroll</a></li>
+<li class="lvl4"><a href="#5-hvilke-personer-som-inngar-i-personkontrollen">§ 5. Hvilke personer som inngår i personkontrollen</a></li>
+<li class="lvl4"><a href="#6-sikkerhetsklarering-krav-til-egenopplysninger">§ 6. Sikkerhetsklarering – krav til egenopplysninger</a></li>
+<li class="lvl4"><a href="#7-adgangsklarering-krav-til-egenopplysninger">§ 7. Adgangsklarering – krav til egenopplysninger</a></li>
+<li class="lvl4"><a href="#8-registeropplysninger-til-personkontrollen-ved-sikkerhetsklarering">§ 8. Registeropplysninger til personkontrollen ved sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#9-registeropplysninger-til-personkontrollen-ved-adgangsklarering">§ 9. Registeropplysninger til personkontrollen ved adgangsklarering</a></li>
+<li class="lvl4"><a href="#10-innhenting-av-personkontrollopplysninger-fra-andre-stater">§ 10. Innhenting av personkontrollopplysninger fra andre stater</a></li>
+<li class="lvl4"><a href="#11-behandlingsansvarliges-plikter-ved-utlevering-av-opplysninger">§ 11. Behandlingsansvarliges plikter ved utlevering av opplysninger</a></li>
+<li class="lvl4"><a href="#12-utlevering-og-bruk-av-opplysninger-mellom-nasjonal-sikkerhetsmyndighet-politiet-og-politiets-sikkerhetstjeneste">§ 12. Utlevering og bruk av opplysninger mellom Nasjonal sikkerhetsmyndighet, politiet og Politiets sikkerhetstjeneste</a></li>
+<li class="lvl4"><a href="#13-vurdering-av-personkontrollopplysninger">§ 13. Vurdering av personkontrollopplysninger</a></li>
+<li class="lvl4"><a href="#14-personer-med-tjeneste-i-utlandet-for-den-norske-stat-og-deres-nrstaende">§ 14. Personer med tjeneste i utlandet for den norske stat og deres nærstående</a></li>
+<li class="lvl2"><a href="#kapittel-3-sikkerhetsklarering-og-adgangsklarering">Kapittel 3. Sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#15-nar-et-departement-kan-fatte-vedtak-om-adgangsklarering-og-utvidet-adgangsklarering">§ 15. Når et departement kan fatte vedtak om adgangsklarering og utvidet adgangsklarering</a></li>
+<li class="lvl4"><a href="#16-forholdet-mellom-adgangsklarering-og-sikkerhetsklarering">§ 16. Forholdet mellom adgangsklarering og sikkerhetsklarering</a></li>
+<li class="lvl4"><a href="#17-vurderingsgrunnlaget-for-adgangsklarering">§ 17. Vurderingsgrunnlaget for adgangsklarering</a></li>
+<li class="lvl4"><a href="#18-grunnlaget-for-vurdering-av-tilknytning-og-sikkerhetsmessig-betydning">§ 18. Grunnlaget for vurdering av tilknytning og sikkerhetsmessig betydning</a></li>
+<li class="lvl4"><a href="#19-sikkerhetssamtale">§ 19. Sikkerhetssamtale</a></li>
+<li class="lvl4"><a href="#20-betydningen-av-forhold-som-er-vurdert-ved-en-tidligere-klareringsavgjrelse">§ 20. Betydningen av forhold som er vurdert ved en tidligere klareringsavgjørelse</a></li>
+<li class="lvl4"><a href="#21-vurdering-av-om-lavere-klareringsniva-kan-gis-og-bruk-av-vilkar">§ 21. Vurdering av om lavere klareringsnivå kan gis og bruk av vilkår</a></li>
+<li class="lvl4"><a href="#22-karantenetid-fr-ny-klareringsvurdering">§ 22. Karantenetid før ny klareringsvurdering</a></li>
+<li class="lvl4"><a href="#23-melding-om-klareringsavgjrelse">§ 23. Melding om klareringsavgjørelse</a></li>
+<li class="lvl4"><a href="#24-innsyn-i-opplysninger-fra-politiets-sikkerhetstjeneste-politiet-og-lydopptak-eller-audiovisuelt-opptak-av-egen-sikkerhetssamtale">§ 24. Innsyn i opplysninger fra Politiets sikkerhetstjeneste, politiet og lydopptak eller audiovisuelt opptak av egen sikkerhetssamtale</a></li>
+<li class="lvl4"><a href="#25-oppnevning-av-advokater-ettersikkerhetsloven-8-15">§ 25. Oppnevning av advokater ettersikkerhetsloven § 8-15</a></li>
+<li class="lvl4"><a href="#26-gyldighetstid-for-sikkerhetsklarering-og-adgangsklarering">§ 26. Gyldighetstid for sikkerhetsklarering og adgangsklarering</a></li>
+<li class="lvl4"><a href="#27-unntak-fra-krav-om-klarering">§ 27. Unntak fra krav om klarering</a></li>
+<li class="lvl4"><a href="#28-register-over-avgjrelser-om-personklarering">§ 28. Register over avgjørelser om personklarering</a></li>
+<li class="lvl4"><a href="#29-utlevering-av-opplysninger-om-klarering-og-fra-personkontroll-til-andre-staters-myndigheter">§ 29. Utlevering av opplysninger om klarering og fra personkontroll til andre staters myndigheter</a></li>
+<li class="lvl4"><a href="#30-bevaring-kassasjon-og-avlevering-av-dokumenter-i-klareringssaker">§ 30. Bevaring, kassasjon og avlevering av dokumenter i klareringssaker</a></li>
+<li class="lvl4"><a href="#31-dekning-av-kostnader-ved-klarering">§ 31. Dekning av kostnader ved klarering</a></li>
+<li class="lvl2"><a href="#kapittel-4-leverandrklarering">Kapittel 4. Leverandørklarering</a></li>
+<li class="lvl4"><a href="#32-klareringsmyndighet-for-leverandrklarering">§ 32. Klareringsmyndighet for leverandørklarering</a></li>
+<li class="lvl4"><a href="#33-vurderingsgrunnlaget-for-leverandrklarering">§ 33. Vurderingsgrunnlaget for leverandørklarering</a></li>
+<li class="lvl4"><a href="#34-egenopplysninger-fra-leverandren">§ 34. Egenopplysninger fra leverandøren</a></li>
+<li class="lvl4"><a href="#35-andre-kilder-for-leverandrklarering">§ 35. Andre kilder for leverandørklarering</a></li>
+<li class="lvl4"><a href="#36-kontroll-av-om-leverandren-oppfyller-sikkerhetskravene">§ 36. Kontroll av om leverandøren oppfyller sikkerhetskravene</a></li>
+<li class="lvl4"><a href="#37-tilbakekall-av-leverandrklarering">§ 37. Tilbakekall av leverandørklarering</a></li>
+<li class="lvl4"><a href="#38-leverandrklareringers-gyldighetstid">§ 38. Leverandørklareringers gyldighetstid</a></li>
+<li class="lvl4"><a href="#39-register-over-leverandrklareringer-og-sikkerhetsgraderte-anskaffelser">§ 39. Register over leverandørklareringer og sikkerhetsgraderte anskaffelser</a></li>
+<li class="lvl4"><a href="#40-utlevering-av-opplysninger-om-leverandrklarering-til-andre-staters-myndigheter-eller-internasjonale-organisasjoner">§ 40. Utlevering av opplysninger om leverandørklarering til andre staters myndigheter eller internasjonale organisasjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-srbestemmelser-for-domstolene">Kapittel 5. Særbestemmelser for domstolene</a></li>
+<li class="lvl4"><a href="#41-klareringsmyndighet-og-autorisasjonsansvarlig-i-domstolene">§ 41. Klareringsmyndighet og autorisasjonsansvarlig i domstolene</a></li>
+<li class="lvl4"><a href="#42-utpeking-av-domstoler-for-enkeltstaende-rettergangsskritt-i-straffesaker">§ 42. Utpeking av domstoler for enkeltstående rettergangsskritt i straffesaker</a></li>
+<li class="lvl4"><a href="#43-anvendelse-avsikkerhetsloven-3-1-3-4og-3-6">§ 43. Anvendelse avsikkerhetsloven § 3-1,§ 3-4og§ 3-6</a></li>
+<li class="lvl2"><a href="#kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#44-ikrafttredelse">§ 44. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-12-20-2054.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2018-12-20-2054.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2018-12-20-2054.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2018-12-20-2054.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2018-12-20-2054.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-12-20-2054.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2018-12-20-2054.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2018-12-20-2054.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2018-12-20-2054.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-sikkerhetsklarering-og-annen-klarering-klareringsforskriften">Forskrift om sikkerhetsklarering og annen klarering (klareringsforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser-om-sikkerhetsklarering-og-adgangsklarering">Kapittel 1. Generelle bestemmelser om sikkerhetsklarering og adgangsklarering</h2>
 <h4 id="1-klareringsmyndighet">§ 1. Klareringsmyndighet</h4>
 <p>Forsvaret klarerer nødvendige personer i forsvarssektoren. Sivil klareringsmyndighet klarerer nødvendige personer i sivil sektor. Etterretningstjenesten og Politiets sikkerhetstjeneste klarerer personer i eller tilknyttet egen virksomhet.</p>
 <p>Klareringsmyndighetene kan avtale hvem av dem som skal være klareringsmyndighet i enkeltsaker og for grupper av personer.</p>
 <p>Er det tvil om hvem som er rett klareringsmyndighet, fastsetter Nasjonal sikkerhetsmyndighet hvilken klareringsmyndighet som skal behandle saken.</p>
 <p>De som utøver klareringsmyndighet, skal ha klarering for det høyeste klareringsnivået vedkommende kan klarere for.</p>
-<p><em>Endret ved forskrift 20 juni 2025 nr. 1133 . Endres ved forskrift 16 okt 2026 nr. 2069 (i kraft 1 jan 2027).</em></p>
+<p class="note">Endret ved forskrift 20 juni 2025 nr. 1133 . Endres ved forskrift 16 okt 2026 nr. 2069 (i kraft 1 jan 2027).</p>
 <h4 id="2-definisjoner">§ 2. Definisjoner</h4>
 <p>I forskriften menes med</p>
 <p>a. nærstående : personer som er i nær familie eller som har annen nær tilknytning som kan ha betydning for om en person er sikkerhetsmessig skikket
@@ -130,11 +275,11 @@ q. kjennskap om forhold angitt i bokstav f til j om nærstående, jf. § 2 bokst
 <p>Har den som skal klareres, slik kjennskap som angitt i første ledd bokstav q, kan Sivil klareringsmyndighet be om at relasjonen til den nærstående beskrives.</p>
 <p>Sivil klareringsmyndighet kan be den som skal klareres for HEMMELIG, NATO SECRET eller tilsvarende, om opplysninger i første ledd bokstav a til c og i om nåværende ektefelle, partner eller samboere.</p>
 <p>Sivil klareringsmyndighet kan be den som skal klareres for STRENGT HEMMELIG, COSMIC TOP SECRET eller tilsvarende, om opplysninger i første ledd bokstav a til c og i om personer angitt i § 2 bokstav b nr. 1 til 4.</p>
-<p><em>Endret ved forskrift 20 juni 2025 nr. 1133 .</em></p>
+<p class="note">Endret ved forskrift 20 juni 2025 nr. 1133 .</p>
 <h4 id="7-adgangsklarering-krav-til-egenopplysninger">§ 7. Adgangsklarering – krav til egenopplysninger</h4>
 <p>Den som skal adgangsklareres, skal på skjema fastsatt av Sivil klareringsmyndighet samtykke til personkontrollen. På skjemaet kan Sivil klareringsmyndighet be den som skal klareres, opplyse om de forholdene som fremgår av § 6 første ledd bokstav a , c og e .</p>
 <p>Fra den som skal gis utvidet adgangsklarering, kan Sivil klareringsmyndighet be om opplysninger som følger av § 6 første ledd bokstav a til e og i til k .</p>
-<p><em>Endret ved forskrift 20 juni 2025 nr. 1133 .</em></p>
+<p class="note">Endret ved forskrift 20 juni 2025 nr. 1133 .</p>
 <h4 id="8-registeropplysninger-til-personkontrollen-ved-sikkerhetsklarering">§ 8. Registeropplysninger til personkontrollen ved sikkerhetsklarering</h4>
 <p>Som ledd i personkontrollen ved en sikkerhetsklarering, kan Nasjonal sikkerhetsmyndighet innhente og videreformidle til klareringsmyndigheten opplysninger fra</p>
 <p>a. politiets registre
@@ -304,6 +449,8 @@ c. klareringsmyndighet for øvrige ansatte i de lavere rettsinstansene.</p>
 <h2 id="kapittel-6-avsluttende-bestemmelser">Kapittel 6. Avsluttende bestemmelser</h2>
 <h4 id="44-ikrafttredelse">§ 44. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. januar 2019. Samtidig oppheves forskrift 29. juni 2001 nr. 722 om personellsikkerhet.</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

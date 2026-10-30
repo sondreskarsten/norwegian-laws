@@ -19,69 +19,342 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2014-12-10-1572.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Kravforskriften" href="../feeds/forskrift-2014-12-10-1572.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-samferdselsdepartementet.html">Samferdselsdepartementet</a> &rsaquo;
 <span>Kravforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2014-12-10-1572</code></dd>
-<dt>Departement</dt><dd>Samferdselsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2015-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2017-09-08-1363</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-10-1572" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-overordnede-krav-til-sikkerhetsstyring">Kapittel 2. Overordnede krav til sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</a></li>
+<li class="lvl4"><a href="#2-2-krav-om-sikkerhetsstyring">§ 2-2. Krav om sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#2-3-enkeltfeilprinsippet-og-barrierer">§ 2-3. Enkeltfeilprinsippet og barrierer</a></li>
+<li class="lvl2"><a href="#kapittel-3-system-for-sikkerhetsstyring">Kapittel 3. System for sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#3-1-krav-til-sikkerhetsstyringssystem">§ 3-1. Krav til sikkerhetsstyringssystem</a></li>
+<li class="lvl4"><a href="#3-2-dokumentasjon">§ 3-2. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#3-3-prosedyrer-mm">§ 3-3. Prosedyrer m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-ledelsens-ansvar">Kapittel 4. Ledelsens ansvar</a></li>
+<li class="lvl4"><a href="#4-1-ledelsens-ansvar">§ 4-1. Ledelsens ansvar</a></li>
+<li class="lvl4"><a href="#4-2-sikkerhetspolitikk">§ 4-2. Sikkerhetspolitikk</a></li>
+<li class="lvl4"><a href="#4-3-sikkerhetsmal">§ 4-3. Sikkerhetsmål</a></li>
+<li class="lvl4"><a href="#4-4-risikoakseptkriterier">§ 4-4. Risikoakseptkriterier</a></li>
+<li class="lvl4"><a href="#4-5-klare-ansvarsforhold">§ 4-5. Klare ansvarsforhold</a></li>
+<li class="lvl4"><a href="#4-6-informasjonsoverfring">§ 4-6. Informasjonsoverføring</a></li>
+<li class="lvl4"><a href="#4-7-beredskap">§ 4-7. Beredskap</a></li>
+<li class="lvl4"><a href="#4-8-ledelsens-gjennomgaelse">§ 4-8. Ledelsens gjennomgåelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-ressursstyring">Kapittel 5. Ressursstyring</a></li>
+<li class="lvl4"><a href="#5-1-kompetansekrav">§ 5-1. Kompetansekrav</a></li>
+<li class="lvl4"><a href="#5-2-kompetanse">§ 5-2. Kompetanse</a></li>
+<li class="lvl4"><a href="#5-3-opplring">§ 5-3. Opplæring</a></li>
+<li class="lvl4"><a href="#5-4-sikkerhetsmessig-tilrettelegging-av-arbeidsmiljet">§ 5-4. Sikkerhetsmessig tilrettelegging av arbeidsmiljøet</a></li>
+<li class="lvl2"><a href="#kapittel-6-risikovurderinger">Kapittel 6. Risikovurderinger</a></li>
+<li class="lvl4"><a href="#6-1-risikovurderinger">§ 6-1. Risikovurderinger</a></li>
+<li class="lvl4"><a href="#6-2-oppflging-og-oppdatering-av-risikovurderinger">§ 6-2. Oppfølging og oppdatering av risikovurderinger</a></li>
+<li class="lvl2"><a href="#kapittel-7-maling-oppflging-og-forbedring">Kapittel 7. Måling, oppfølging og forbedring</a></li>
+<li class="lvl4"><a href="#7-1-revisjoner">§ 7-1. Revisjoner</a></li>
+<li class="lvl4"><a href="#7-2-oppflging-av-jernbaneulykker-og-jernbanehendelser">§ 7-2. Oppfølging av jernbaneulykker og jernbanehendelser</a></li>
+<li class="lvl4"><a href="#7-3-beredskapsvelser">§ 7-3. Beredskapsøvelser</a></li>
+<li class="lvl4"><a href="#7-4-oppflging-av-avvik">§ 7-4. Oppfølging av avvik</a></li>
+<li class="lvl2"><a href="#kapittel-8-arlig-rapportering-til-tilsynet">Kapittel 8. Årlig rapportering til tilsynet</a></li>
+<li class="lvl4"><a href="#8-1-arlig-rapportering">§ 8-1. Årlig rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-krav-til-forvaltning-av-infrastruktur">Kapittel 9. Krav til forvaltning av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-1-generelle-krav-til-forvaltning-av-infrastruktur">§ 9-1. Generelle krav til forvaltning av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-2-prinsipper-for-trafikkavvikling-romblokkprinsippet">§ 9-2. Prinsipper for trafikkavvikling (romblokkprinsippet)</a></li>
+<li class="lvl4"><a href="#9-3-signalprinsipper">§ 9-3. Signalprinsipper</a></li>
+<li class="lvl4"><a href="#9-4-kontroll-og-vedlikehold-av-infrastruktur">§ 9-4. Kontroll og vedlikehold av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-5-teknisk-dokumentasjon">§ 9-5. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#9-6-register-over-infrastrukturen">§ 9-6. Register over infrastrukturen</a></li>
+<li class="lvl4"><a href="#9-7-kjring-av-tog-i-forbindelse-med-drift-av-infrastruktur">§ 9-7. Kjøring av tog i forbindelse med drift av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-8-trafikkstyring">§ 9-8. Trafikkstyring</a></li>
+<li class="lvl4"><a href="#9-9-bestemmelser-for-sikker-trafikkavvikling">§ 9-9. Bestemmelser for sikker trafikkavvikling</a></li>
+<li class="lvl4"><a href="#9-10-tillatelse-til-kjring-av-tog-og-skifting">§ 9-10. Tillatelse til kjøring av tog og skifting</a></li>
+<li class="lvl4"><a href="#9-11-bestemmelser-for-sikring-av-arbeid-i-spor">§ 9-11. Bestemmelser for sikring av arbeid i spor</a></li>
+<li class="lvl2"><a href="#kapittel-10-krav-til-trafikkutvelse">Kapittel 10. Krav til trafikkutøvelse</a></li>
+<li class="lvl4"><a href="#10-1-generelle-krav-til-trafikkutver">§ 10-1. Generelle krav til trafikkutøver</a></li>
+<li class="lvl4"><a href="#10-2-kontroll-og-vedlikehold-av-kjrety">§ 10-2. Kontroll og vedlikehold av kjøretøy</a></li>
+<li class="lvl4"><a href="#10-3-teknisk-dokumentasjon">§ 10-3. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#10-4-register-over-kjrety">§ 10-4. Register over kjøretøy</a></li>
+<li class="lvl4"><a href="#10-5-bestemmelser-for-togframfring">§ 10-5. Bestemmelser for togframføring</a></li>
+<li class="lvl4"><a href="#10-6-bestemmelser-om-kommunikasjon">§ 10-6. Bestemmelser om kommunikasjon</a></li>
+<li class="lvl4"><a href="#10-7-bestemmelser-om-skifting">§ 10-7. Bestemmelser om skifting</a></li>
+<li class="lvl4"><a href="#10-8-beskrivelse-av-teknisk-funksjonsdyktighet">§ 10-8. Beskrivelse av teknisk funksjonsdyktighet</a></li>
+<li class="lvl4"><a href="#10-9-sammenkobling-av-kjrety">§ 10-9. Sammenkobling av kjøretøy</a></li>
+<li class="lvl4"><a href="#10-10-gjennomgaende-automatisk-bremsesystem">§ 10-10. Gjennomgående automatisk bremsesystem</a></li>
+<li class="lvl4"><a href="#10-11-krav-om-handbrems-eller-parkeringsbrems">§ 10-11. Krav om håndbrems eller parkeringsbrems</a></li>
+<li class="lvl4"><a href="#10-12-krav-til-frer">§ 10-12. Krav til fører</a></li>
+<li class="lvl4"><a href="#10-13-spesielle-bestemmelser-om-kjring-av-tog">§ 10-13. Spesielle bestemmelser om kjøring av tog</a></li>
+<li class="lvl4"><a href="#10-14-fr-kjring-av-tog">§ 10-14. Før kjøring av tog</a></li>
+<li class="lvl4"><a href="#10-15-krav-til-tog-i-trafikk">§ 10-15. Krav til tog i trafikk</a></li>
+<li class="lvl4"><a href="#10-16-sikring-av-tog-som-star-pa-strekningen">§ 10-16. Sikring av tog som står på strekningen</a></li>
+<li class="lvl2"><a href="#kapittel-11-krav-til-infrastruktur">Kapittel 11. Krav til infrastruktur</a></li>
+<li class="lvl4"><a href="#11-1-generelle-krav-til-infrastruktur">§ 11-1. Generelle krav til infrastruktur</a></li>
+<li class="lvl4"><a href="#11-2-trase-mm">§ 11-2. Trasé m.m.</a></li>
+<li class="lvl4"><a href="#11-3-plattformer-mm">§ 11-3. Plattformer m.m.</a></li>
+<li class="lvl4"><a href="#11-4-tunneler-og-broer-mm">§ 11-4. Tunneler og broer m.m.</a></li>
+<li class="lvl4"><a href="#11-5-planoverganger">§ 11-5. Planoverganger</a></li>
+<li class="lvl4"><a href="#11-6-signalanlegg">§ 11-6. Signalanlegg</a></li>
+<li class="lvl4"><a href="#11-7-kommunikasjonssystem">§ 11-7. Kommunikasjonssystem</a></li>
+<li class="lvl4"><a href="#11-8-tillatelse-til-a-ta-i-bruk-infrastruktur">§ 11-8. Tillatelse til å ta i bruk infrastruktur</a></li>
+<li class="lvl4"><a href="#11-9-melding-om-ny-eller-endret-infrastruktur">§ 11-9. Melding om ny eller endret infrastruktur</a></li>
+<li class="lvl4"><a href="#11-10-sknad-om-tillatelse-til-a-ta-infrastruktur-i-bruk">§ 11-10. Søknad om tillatelse til å ta infrastruktur i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-12-krav-til-kjrety">Kapittel 12. Krav til kjøretøy</a></li>
+<li class="lvl4"><a href="#12-1-generelle-krav-til-kjrety">§ 12-1. Generelle krav til kjøretøy</a></li>
+<li class="lvl4"><a href="#12-1a-universell-utforming">§ 12-1a. Universell utforming</a></li>
+<li class="lvl4"><a href="#12-2-kompatibilitet-med-infrastrukturen">§ 12-2. Kompatibilitet med infrastrukturen</a></li>
+<li class="lvl4"><a href="#12-3-bremser">§ 12-3. Bremser</a></li>
+<li class="lvl4"><a href="#12-4-drer-vinduer-og-innredning">§ 12-4. Dører, vinduer og innredning</a></li>
+<li class="lvl4"><a href="#12-5-materialer-og-brannsikkerhet">§ 12-5. Materialer og brannsikkerhet</a></li>
+<li class="lvl4"><a href="#12-6-evakuering">§ 12-6. Evakuering</a></li>
+<li class="lvl4"><a href="#12-7-kontrollrutiner">§ 12-7. Kontrollrutiner</a></li>
+<li class="lvl4"><a href="#12-8-tillatelse-til-a-ta-i-bruk-kjrety">§ 12-8. Tillatelse til å ta i bruk kjøretøy</a></li>
+<li class="lvl4"><a href="#12-9-melding-om-nytt-eller-endret-kjrety">§ 12-9. Melding om nytt eller endret kjøretøy</a></li>
+<li class="lvl4"><a href="#12-10-sknad-om-tillatelse-til-a-ta-i-bruk-kjrety">§ 12-10. Søknad om tillatelse til å ta i bruk kjøretøy</a></li>
+<li class="lvl2"><a href="#kapittel-13-autorisasjon-av-frer">Kapittel 13. Autorisasjon av fører</a></li>
+<li class="lvl4"><a href="#13-1-krav-til-alder-og-frerkort">§ 13-1. Krav til alder og førerkort</a></li>
+<li class="lvl4"><a href="#13-2-overordnede-kompetansekrav">§ 13-2. Overordnede kompetansekrav</a></li>
+<li class="lvl4"><a href="#13-3-krav-til-teknisk-kompetanse">§ 13-3. Krav til teknisk kompetanse</a></li>
+<li class="lvl4"><a href="#13-4-krav-til-kompetanse-om-infrastruktur">§ 13-4. Krav til kompetanse om infrastruktur</a></li>
+<li class="lvl4"><a href="#13-5-krav-til-kompetanse-om-samspill-mellom-kjrety-og-spor">§ 13-5. Krav til kompetanse om samspill mellom kjøretøy og spor</a></li>
+<li class="lvl4"><a href="#13-6-krav-til-kompetanse-i-forhold-til-beredskap-og-ndsituasjoner">§ 13-6. Krav til kompetanse i forhold til beredskap og nødsituasjoner</a></li>
+<li class="lvl4"><a href="#13-7-krav-til-strekningskunnskap">§ 13-7. Krav til strekningskunnskap</a></li>
+<li class="lvl4"><a href="#13-8-krav-om-autorisasjon">§ 13-8. Krav om autorisasjon</a></li>
+<li class="lvl4"><a href="#13-9-tilbaketrekking-av-autorisasjon">§ 13-9. Tilbaketrekking av autorisasjon</a></li>
+<li class="lvl4"><a href="#13-10-krav-om-frerregister">§ 13-10. Krav om førerregister</a></li>
+<li class="lvl2"><a href="#kapittel-14-krav-til-helse">Kapittel 14. Krav til helse</a></li>
+<li class="lvl4"><a href="#14-1-arbeidsoppgaver-av-betydning-for-trafikksikkerheten">§ 14-1. Arbeidsoppgaver av betydning for trafikksikkerheten</a></li>
+<li class="lvl4"><a href="#14-2-helseunderskelse">§ 14-2. Helseundersøkelse</a></li>
+<li class="lvl4"><a href="#14-3-frste-gangs-helseunderskelse">§ 14-3. Første gangs helseundersøkelse</a></li>
+<li class="lvl4"><a href="#14-4-periodiske-underskelser">§ 14-4. Periodiske undersøkelser</a></li>
+<li class="lvl4"><a href="#14-5-minstekrav-til-den-periodiske-helseunderskelsen">§ 14-5. Minstekrav til den periodiske helseundersøkelsen</a></li>
+<li class="lvl4"><a href="#14-6-supplerende-helseunderskelser-ogeller-psykologiske-vurderinger">§ 14-6. Supplerende helseundersøkelser og/eller psykologiske vurderinger</a></li>
+<li class="lvl4"><a href="#14-7-allmenne-krav">§ 14-7. Allmenne krav</a></li>
+<li class="lvl4"><a href="#14-8-synskrav">§ 14-8. Synskrav</a></li>
+<li class="lvl4"><a href="#14-9-hrselskrav">§ 14-9. Hørselskrav</a></li>
+<li class="lvl4"><a href="#14-10-rusmidler-mv">§ 14-10. Rusmidler mv.</a></li>
+<li class="lvl4"><a href="#14-11-overgangsordning">§ 14-11. Overgangsordning</a></li>
+<li class="lvl2"><a href="#kapittel-15-avsluttende-bestemmelser">Kapittel 15. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#15-1-unntak">§ 15-1. Unntak</a></li>
+<li class="lvl4"><a href="#15-2-ikrafttredelse">§ 15-2. Ikrafttredelse</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2017-09-08-1363.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-10-1572.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om krav til sporvei, tunnelbane, forstadsbane m.m. (kravforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-10-1572.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2014-12-10-1572 <code>forskrift/2014-12-10-1572</code></td></tr>
+<tr><th>Korttittel</th><td>Kravforskriften</td></tr>
+<tr><th>Departement</th><td>Samferdselsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.01.2015</td></tr>
+<tr><th>Sist endret</th><td>FOR-2017-09-08-1363 <code>forskrift/2017-09-08-1363</code> fra 08.09.2017</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2014-12-10-1572" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-1-formal">§ 1-1. Formål</a></li>
+<li class="lvl4"><a href="#1-2-virkeomrade">§ 1-2. Virkeområde</a></li>
+<li class="lvl4"><a href="#1-3-definisjoner">§ 1-3. Definisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-2-overordnede-krav-til-sikkerhetsstyring">Kapittel 2. Overordnede krav til sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</a></li>
+<li class="lvl4"><a href="#2-2-krav-om-sikkerhetsstyring">§ 2-2. Krav om sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#2-3-enkeltfeilprinsippet-og-barrierer">§ 2-3. Enkeltfeilprinsippet og barrierer</a></li>
+<li class="lvl2"><a href="#kapittel-3-system-for-sikkerhetsstyring">Kapittel 3. System for sikkerhetsstyring</a></li>
+<li class="lvl4"><a href="#3-1-krav-til-sikkerhetsstyringssystem">§ 3-1. Krav til sikkerhetsstyringssystem</a></li>
+<li class="lvl4"><a href="#3-2-dokumentasjon">§ 3-2. Dokumentasjon</a></li>
+<li class="lvl4"><a href="#3-3-prosedyrer-mm">§ 3-3. Prosedyrer m.m.</a></li>
+<li class="lvl2"><a href="#kapittel-4-ledelsens-ansvar">Kapittel 4. Ledelsens ansvar</a></li>
+<li class="lvl4"><a href="#4-1-ledelsens-ansvar">§ 4-1. Ledelsens ansvar</a></li>
+<li class="lvl4"><a href="#4-2-sikkerhetspolitikk">§ 4-2. Sikkerhetspolitikk</a></li>
+<li class="lvl4"><a href="#4-3-sikkerhetsmal">§ 4-3. Sikkerhetsmål</a></li>
+<li class="lvl4"><a href="#4-4-risikoakseptkriterier">§ 4-4. Risikoakseptkriterier</a></li>
+<li class="lvl4"><a href="#4-5-klare-ansvarsforhold">§ 4-5. Klare ansvarsforhold</a></li>
+<li class="lvl4"><a href="#4-6-informasjonsoverfring">§ 4-6. Informasjonsoverføring</a></li>
+<li class="lvl4"><a href="#4-7-beredskap">§ 4-7. Beredskap</a></li>
+<li class="lvl4"><a href="#4-8-ledelsens-gjennomgaelse">§ 4-8. Ledelsens gjennomgåelse</a></li>
+<li class="lvl2"><a href="#kapittel-5-ressursstyring">Kapittel 5. Ressursstyring</a></li>
+<li class="lvl4"><a href="#5-1-kompetansekrav">§ 5-1. Kompetansekrav</a></li>
+<li class="lvl4"><a href="#5-2-kompetanse">§ 5-2. Kompetanse</a></li>
+<li class="lvl4"><a href="#5-3-opplring">§ 5-3. Opplæring</a></li>
+<li class="lvl4"><a href="#5-4-sikkerhetsmessig-tilrettelegging-av-arbeidsmiljet">§ 5-4. Sikkerhetsmessig tilrettelegging av arbeidsmiljøet</a></li>
+<li class="lvl2"><a href="#kapittel-6-risikovurderinger">Kapittel 6. Risikovurderinger</a></li>
+<li class="lvl4"><a href="#6-1-risikovurderinger">§ 6-1. Risikovurderinger</a></li>
+<li class="lvl4"><a href="#6-2-oppflging-og-oppdatering-av-risikovurderinger">§ 6-2. Oppfølging og oppdatering av risikovurderinger</a></li>
+<li class="lvl2"><a href="#kapittel-7-maling-oppflging-og-forbedring">Kapittel 7. Måling, oppfølging og forbedring</a></li>
+<li class="lvl4"><a href="#7-1-revisjoner">§ 7-1. Revisjoner</a></li>
+<li class="lvl4"><a href="#7-2-oppflging-av-jernbaneulykker-og-jernbanehendelser">§ 7-2. Oppfølging av jernbaneulykker og jernbanehendelser</a></li>
+<li class="lvl4"><a href="#7-3-beredskapsvelser">§ 7-3. Beredskapsøvelser</a></li>
+<li class="lvl4"><a href="#7-4-oppflging-av-avvik">§ 7-4. Oppfølging av avvik</a></li>
+<li class="lvl2"><a href="#kapittel-8-arlig-rapportering-til-tilsynet">Kapittel 8. Årlig rapportering til tilsynet</a></li>
+<li class="lvl4"><a href="#8-1-arlig-rapportering">§ 8-1. Årlig rapportering</a></li>
+<li class="lvl2"><a href="#kapittel-9-krav-til-forvaltning-av-infrastruktur">Kapittel 9. Krav til forvaltning av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-1-generelle-krav-til-forvaltning-av-infrastruktur">§ 9-1. Generelle krav til forvaltning av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-2-prinsipper-for-trafikkavvikling-romblokkprinsippet">§ 9-2. Prinsipper for trafikkavvikling (romblokkprinsippet)</a></li>
+<li class="lvl4"><a href="#9-3-signalprinsipper">§ 9-3. Signalprinsipper</a></li>
+<li class="lvl4"><a href="#9-4-kontroll-og-vedlikehold-av-infrastruktur">§ 9-4. Kontroll og vedlikehold av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-5-teknisk-dokumentasjon">§ 9-5. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#9-6-register-over-infrastrukturen">§ 9-6. Register over infrastrukturen</a></li>
+<li class="lvl4"><a href="#9-7-kjring-av-tog-i-forbindelse-med-drift-av-infrastruktur">§ 9-7. Kjøring av tog i forbindelse med drift av infrastruktur</a></li>
+<li class="lvl4"><a href="#9-8-trafikkstyring">§ 9-8. Trafikkstyring</a></li>
+<li class="lvl4"><a href="#9-9-bestemmelser-for-sikker-trafikkavvikling">§ 9-9. Bestemmelser for sikker trafikkavvikling</a></li>
+<li class="lvl4"><a href="#9-10-tillatelse-til-kjring-av-tog-og-skifting">§ 9-10. Tillatelse til kjøring av tog og skifting</a></li>
+<li class="lvl4"><a href="#9-11-bestemmelser-for-sikring-av-arbeid-i-spor">§ 9-11. Bestemmelser for sikring av arbeid i spor</a></li>
+<li class="lvl2"><a href="#kapittel-10-krav-til-trafikkutvelse">Kapittel 10. Krav til trafikkutøvelse</a></li>
+<li class="lvl4"><a href="#10-1-generelle-krav-til-trafikkutver">§ 10-1. Generelle krav til trafikkutøver</a></li>
+<li class="lvl4"><a href="#10-2-kontroll-og-vedlikehold-av-kjrety">§ 10-2. Kontroll og vedlikehold av kjøretøy</a></li>
+<li class="lvl4"><a href="#10-3-teknisk-dokumentasjon">§ 10-3. Teknisk dokumentasjon</a></li>
+<li class="lvl4"><a href="#10-4-register-over-kjrety">§ 10-4. Register over kjøretøy</a></li>
+<li class="lvl4"><a href="#10-5-bestemmelser-for-togframfring">§ 10-5. Bestemmelser for togframføring</a></li>
+<li class="lvl4"><a href="#10-6-bestemmelser-om-kommunikasjon">§ 10-6. Bestemmelser om kommunikasjon</a></li>
+<li class="lvl4"><a href="#10-7-bestemmelser-om-skifting">§ 10-7. Bestemmelser om skifting</a></li>
+<li class="lvl4"><a href="#10-8-beskrivelse-av-teknisk-funksjonsdyktighet">§ 10-8. Beskrivelse av teknisk funksjonsdyktighet</a></li>
+<li class="lvl4"><a href="#10-9-sammenkobling-av-kjrety">§ 10-9. Sammenkobling av kjøretøy</a></li>
+<li class="lvl4"><a href="#10-10-gjennomgaende-automatisk-bremsesystem">§ 10-10. Gjennomgående automatisk bremsesystem</a></li>
+<li class="lvl4"><a href="#10-11-krav-om-handbrems-eller-parkeringsbrems">§ 10-11. Krav om håndbrems eller parkeringsbrems</a></li>
+<li class="lvl4"><a href="#10-12-krav-til-frer">§ 10-12. Krav til fører</a></li>
+<li class="lvl4"><a href="#10-13-spesielle-bestemmelser-om-kjring-av-tog">§ 10-13. Spesielle bestemmelser om kjøring av tog</a></li>
+<li class="lvl4"><a href="#10-14-fr-kjring-av-tog">§ 10-14. Før kjøring av tog</a></li>
+<li class="lvl4"><a href="#10-15-krav-til-tog-i-trafikk">§ 10-15. Krav til tog i trafikk</a></li>
+<li class="lvl4"><a href="#10-16-sikring-av-tog-som-star-pa-strekningen">§ 10-16. Sikring av tog som står på strekningen</a></li>
+<li class="lvl2"><a href="#kapittel-11-krav-til-infrastruktur">Kapittel 11. Krav til infrastruktur</a></li>
+<li class="lvl4"><a href="#11-1-generelle-krav-til-infrastruktur">§ 11-1. Generelle krav til infrastruktur</a></li>
+<li class="lvl4"><a href="#11-2-trase-mm">§ 11-2. Trasé m.m.</a></li>
+<li class="lvl4"><a href="#11-3-plattformer-mm">§ 11-3. Plattformer m.m.</a></li>
+<li class="lvl4"><a href="#11-4-tunneler-og-broer-mm">§ 11-4. Tunneler og broer m.m.</a></li>
+<li class="lvl4"><a href="#11-5-planoverganger">§ 11-5. Planoverganger</a></li>
+<li class="lvl4"><a href="#11-6-signalanlegg">§ 11-6. Signalanlegg</a></li>
+<li class="lvl4"><a href="#11-7-kommunikasjonssystem">§ 11-7. Kommunikasjonssystem</a></li>
+<li class="lvl4"><a href="#11-8-tillatelse-til-a-ta-i-bruk-infrastruktur">§ 11-8. Tillatelse til å ta i bruk infrastruktur</a></li>
+<li class="lvl4"><a href="#11-9-melding-om-ny-eller-endret-infrastruktur">§ 11-9. Melding om ny eller endret infrastruktur</a></li>
+<li class="lvl4"><a href="#11-10-sknad-om-tillatelse-til-a-ta-infrastruktur-i-bruk">§ 11-10. Søknad om tillatelse til å ta infrastruktur i bruk</a></li>
+<li class="lvl2"><a href="#kapittel-12-krav-til-kjrety">Kapittel 12. Krav til kjøretøy</a></li>
+<li class="lvl4"><a href="#12-1-generelle-krav-til-kjrety">§ 12-1. Generelle krav til kjøretøy</a></li>
+<li class="lvl4"><a href="#12-1a-universell-utforming">§ 12-1a. Universell utforming</a></li>
+<li class="lvl4"><a href="#12-2-kompatibilitet-med-infrastrukturen">§ 12-2. Kompatibilitet med infrastrukturen</a></li>
+<li class="lvl4"><a href="#12-3-bremser">§ 12-3. Bremser</a></li>
+<li class="lvl4"><a href="#12-4-drer-vinduer-og-innredning">§ 12-4. Dører, vinduer og innredning</a></li>
+<li class="lvl4"><a href="#12-5-materialer-og-brannsikkerhet">§ 12-5. Materialer og brannsikkerhet</a></li>
+<li class="lvl4"><a href="#12-6-evakuering">§ 12-6. Evakuering</a></li>
+<li class="lvl4"><a href="#12-7-kontrollrutiner">§ 12-7. Kontrollrutiner</a></li>
+<li class="lvl4"><a href="#12-8-tillatelse-til-a-ta-i-bruk-kjrety">§ 12-8. Tillatelse til å ta i bruk kjøretøy</a></li>
+<li class="lvl4"><a href="#12-9-melding-om-nytt-eller-endret-kjrety">§ 12-9. Melding om nytt eller endret kjøretøy</a></li>
+<li class="lvl4"><a href="#12-10-sknad-om-tillatelse-til-a-ta-i-bruk-kjrety">§ 12-10. Søknad om tillatelse til å ta i bruk kjøretøy</a></li>
+<li class="lvl2"><a href="#kapittel-13-autorisasjon-av-frer">Kapittel 13. Autorisasjon av fører</a></li>
+<li class="lvl4"><a href="#13-1-krav-til-alder-og-frerkort">§ 13-1. Krav til alder og førerkort</a></li>
+<li class="lvl4"><a href="#13-2-overordnede-kompetansekrav">§ 13-2. Overordnede kompetansekrav</a></li>
+<li class="lvl4"><a href="#13-3-krav-til-teknisk-kompetanse">§ 13-3. Krav til teknisk kompetanse</a></li>
+<li class="lvl4"><a href="#13-4-krav-til-kompetanse-om-infrastruktur">§ 13-4. Krav til kompetanse om infrastruktur</a></li>
+<li class="lvl4"><a href="#13-5-krav-til-kompetanse-om-samspill-mellom-kjrety-og-spor">§ 13-5. Krav til kompetanse om samspill mellom kjøretøy og spor</a></li>
+<li class="lvl4"><a href="#13-6-krav-til-kompetanse-i-forhold-til-beredskap-og-ndsituasjoner">§ 13-6. Krav til kompetanse i forhold til beredskap og nødsituasjoner</a></li>
+<li class="lvl4"><a href="#13-7-krav-til-strekningskunnskap">§ 13-7. Krav til strekningskunnskap</a></li>
+<li class="lvl4"><a href="#13-8-krav-om-autorisasjon">§ 13-8. Krav om autorisasjon</a></li>
+<li class="lvl4"><a href="#13-9-tilbaketrekking-av-autorisasjon">§ 13-9. Tilbaketrekking av autorisasjon</a></li>
+<li class="lvl4"><a href="#13-10-krav-om-frerregister">§ 13-10. Krav om førerregister</a></li>
+<li class="lvl2"><a href="#kapittel-14-krav-til-helse">Kapittel 14. Krav til helse</a></li>
+<li class="lvl4"><a href="#14-1-arbeidsoppgaver-av-betydning-for-trafikksikkerheten">§ 14-1. Arbeidsoppgaver av betydning for trafikksikkerheten</a></li>
+<li class="lvl4"><a href="#14-2-helseunderskelse">§ 14-2. Helseundersøkelse</a></li>
+<li class="lvl4"><a href="#14-3-frste-gangs-helseunderskelse">§ 14-3. Første gangs helseundersøkelse</a></li>
+<li class="lvl4"><a href="#14-4-periodiske-underskelser">§ 14-4. Periodiske undersøkelser</a></li>
+<li class="lvl4"><a href="#14-5-minstekrav-til-den-periodiske-helseunderskelsen">§ 14-5. Minstekrav til den periodiske helseundersøkelsen</a></li>
+<li class="lvl4"><a href="#14-6-supplerende-helseunderskelser-ogeller-psykologiske-vurderinger">§ 14-6. Supplerende helseundersøkelser og/eller psykologiske vurderinger</a></li>
+<li class="lvl4"><a href="#14-7-allmenne-krav">§ 14-7. Allmenne krav</a></li>
+<li class="lvl4"><a href="#14-8-synskrav">§ 14-8. Synskrav</a></li>
+<li class="lvl4"><a href="#14-9-hrselskrav">§ 14-9. Hørselskrav</a></li>
+<li class="lvl4"><a href="#14-10-rusmidler-mv">§ 14-10. Rusmidler mv.</a></li>
+<li class="lvl4"><a href="#14-11-overgangsordning">§ 14-11. Overgangsordning</a></li>
+<li class="lvl2"><a href="#kapittel-15-avsluttende-bestemmelser">Kapittel 15. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#15-1-unntak">§ 15-1. Unntak</a></li>
+<li class="lvl4"><a href="#15-2-ikrafttredelse">§ 15-2. Ikrafttredelse</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-10-1572.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2014-12-10-1572.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2014-12-10-1572.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2014-12-10-1572.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2014-12-10-1572.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-12-10-1572.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2014-12-10-1572.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2014-12-10-1572.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2014-12-10-1572.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-krav-til-sporvei-tunnelbane-forstadsbane-mm-kravforskriften">Forskrift om krav til sporvei, tunnelbane, forstadsbane m.m. (kravforskriften)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-1-formal">§ 1-1. Formål <a class="para-history" href="../historikk/forskrift-2014-12-10-1572/para-1-1.html" title="Endringshistorikk for § 1-1" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
 <p>Formålet med denne forskriften er å fastsette minimumskrav for å sikre at virksomhetene arbeider systematisk og proaktivt slik at det etablerte sikkerhetsnivået opprettholdes og i den grad det er nødvendig forbedres, samt at jernbaneulykker, alvorlige jernbanehendelser og jernbanehendelser unngås.</p>
 <p>I tillegg er formålet å fastsette minimumskrav til universell utforming.</p>
-<p><em>Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</p>
 <h4 id="1-2-virkeomrade">§ 1-2. Virkeområde</h4>
 <p>Forskriften gjelder for drift av sporvei, tunnelbane, forstadsbane m.m.</p>
 <h4 id="1-3-definisjoner">§ 1-3. Definisjoner <a class="para-history" href="../historikk/forskrift-2014-12-10-1572/para-1-3.html" title="Endringshistorikk for § 1-3" style="font-size:0.75em;font-weight:normal;color:#2780e3;text-decoration:none;padding-left:0.4em;">⧉ historikk</a></h4>
@@ -111,7 +384,7 @@ v. tog: ett eller flere sammenkoblede kjøretøy som skal framføres fra et best
 w. trafikkstyring: togledelse og andre funksjoner som koordinerer og ivaretar sikkerheten for framføringen,
 x. trafikkutøver: den som har tillatelse til å drive trafikkvirksomhet,
 y. universell utforming: utforming eller tilrettelegging av hovedløsningen i de fysiske forholdene slik at virksomhetens alminnelige funksjon kan benyttes av flest mulig.</p>
-<p><em>Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</p>
 <h2 id="kapittel-2-overordnede-krav-til-sikkerhetsstyring">Kapittel 2. Overordnede krav til sikkerhetsstyring</h2>
 <h4 id="2-1-overordnet-ansvar-for-sikkerhet">§ 2-1. Overordnet ansvar for sikkerhet</h4>
 <p>Jernbanevirksomheten har ansvaret for en sikker drift og kontroll på risikoer der disse oppstår. Jernbanevirksomheten har plikt til å iverksette nødvendig risikohåndtering, og der det er relevant, samarbeide med de øvrige virksomheter.</p>
@@ -339,7 +612,7 @@ d. særskilte forhold med betydning for sikker framføring.</p>
 <p>Tunneler og broer skal utformes og utstyres slik at det gir muligheter for evakuering og selvberging i tilfelle av brann og andre ulykker. Det skal legges til rette for at redningspersonell kan drive effektivt redningsarbeid, herunder av personer med nedsatt funksjonsevne.</p>
 <p>Gangbaner på broer skal være skjermet med rekkverk. Gangbaner skal være fri for hindringer i høyden og bredden slik at evakuering kan foregå på en sikker måte.</p>
 <p>Tunneler skal ikke inneholde lett antennelige materialer. Materialene som skal brukes skal i minst mulig grad avgi røyk og skadelige branngasser ved en eventuell brann.</p>
-<p><em>Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</p>
 <h4 id="11-5-planoverganger">§ 11-5. Planoverganger</h4>
 <p>Planoverganger skal være tilrettelagt for sikker passering for veifarende.</p>
 <p>Det skal ikke bygges nye planoverganger der kjøretøy framføres på eget banelegeme. Det kan likevel bygges planoverganger på verksted- og depotområder som er stengt for alminnelig ferdsel, samt midlertidige planoverganger på anleggsområder.</p>
@@ -392,7 +665,7 @@ g. Kjøretøy skal være utstyrt med et kommunikasjonssystem for kunngjøringer.
 h. Kjøretøy skal være utstyrt med nødanropsinnretning som skal være visuelt og følbart merket og gi et synlig og hørbart tegn på at innretningen er i bruk.
 i. Overflater på gulv og i trapper skal være sklisikre.
 j. Belysning og kontraster skal være slik at sentrale elementer, som for eksempel passasjer, dører, seter, holdestenger, betjeningselementer, informasjon, hindre og merking, framstår tydelig.</p>
-<p><em>Tilføyd ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</em></p>
+<p class="note">Tilføyd ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</p>
 <h4 id="12-2-kompatibilitet-med-infrastrukturen">§ 12-2. Kompatibilitet med infrastrukturen</h4>
 <p>Kjøretøy skal være dokumentert kompatibelt med infrastrukturen det skal brukes på, herunder profil, over- og underbygning, strømforsyningsanlegg, signalanlegg og kommunikasjonsanlegg.</p>
 <p>Kjøretøy skal ha fastmontert utstyr tilpasset infrastrukturens system for nødkommunikasjon, slik at det til enhver tid er gjensidig mulighet for rask kontakt mellom fører og trafikkstyrer.</p>
@@ -411,7 +684,7 @@ j. Belysning og kontraster skal være slik at sentrale elementer, som for eksemp
 <p>Kjøretøy skal være utformet slik at evakuering og selvberging kan skje i tilfelle brann og andre ulykker. Det skal legges til rette for at redningspersonell kan drive effektivt redningsarbeid, herunder av personer med nedsatt funksjonsevne. Nødutganger og rømningsveier skal være plassert, dimensjonert og merket slik at evakuering kan foretas på en forsvarlig måte.</p>
 <p>Kjøretøy skal ha nødutstyr om bord tilpasset kjøretøyets bruk. Nødutstyr og plassering av dette skal være merket.</p>
 <p>Kjøretøy skal ha nødlys.</p>
-<p><em>Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</em></p>
+<p class="note">Endret ved forskrift 4 juni 2015 nr. 591 (i kraft 1 juli 2015).</p>
 <h4 id="12-7-kontrollrutiner">§ 12-7. Kontrollrutiner</h4>
 <p>Trafikkutøver skal ha bestemmelser for prøving av bremser, og kontrollrutiner som sikrer at kjøretøyet til enhver tid er i full driftssikker stand.</p>
 <h4 id="12-8-tillatelse-til-a-ta-i-bruk-kjrety">§ 12-8. Tillatelse til å ta i bruk kjøretøy</h4>
@@ -480,10 +753,10 @@ f. eventuelle begrensninger i autorisasjonen.</p>
 <p>Bestemmelsene i dette kapitlet omfatter operativt personell som utfører arbeidsoppgaver av betydning for trafikksikkerheten, for eksempel fører, trafikkstyrer, sikkerhetsvakt mv. Slikt personell må ha gjennomført helseundersøkelse og oppfylle kravene til helse i dette kapitlet.</p>
 <p>Personell som nevnt i første ledd skal informere jernbanevirksomheten om sin egen helsetilstand dersom vedkommende er kjent med eller mistenker at helsetilstanden er endret slik at kravene ikke lenger er oppfylt.</p>
 <p>Dersom det er tvil om arbeidsoppgavene fortsatt kan utføres uten fare for trafikksikkerheten vises det til § 14-6 .</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-2-helseunderskelse">§ 14-2. Helseundersøkelse</h4>
 <p>Den som skal utføre eller opplæres til å utføre arbeidsoppgaver som nevnt i § 14-1 skal gjennomgå en helseundersøkelse. Helseundersøkelsen skal utføres av en lege.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-3-frste-gangs-helseunderskelse">§ 14-3. Første gangs helseundersøkelse</h4>
 <p>Den som skal utføre eller opplæres til å utføre arbeidsoppgaver som nevnt i § 14-1 skal gjennomgå en helseundersøkelse som minst skal omfatte:</p>
 <p>a. en generell undersøkelse,
@@ -493,24 +766,24 @@ c. en analyse av urin- eller blodprøve for eventuelt å avdekke diabetes og eve
 <p>a. kognitive egenskaper,
 b. psykomotoriske egenskaper,
 c. atferdsmessige og personlige egenskaper.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-4-periodiske-underskelser">§ 14-4. Periodiske undersøkelser</h4>
 <p>Det skal gjennomføres minst en helseundersøkelse:</p>
 <p>a. hvert femte år for personale opp til 40 år,
 b. hvert tredje år for personale mellom 41 og 62 år,
 c. hvert år for personale over 62 år.</p>
 <p>Legen skal gjennomføre hyppigere helseundersøkelser dersom helsetilstanden til den ansatte krever det.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-5-minstekrav-til-den-periodiske-helseunderskelsen">§ 14-5. Minstekrav til den periodiske helseundersøkelsen</h4>
 <p>Periodisk helseundersøkelse skal minst inneholde:</p>
 <p>a. en generell undersøkelse,
 b. undersøkelser av sansefunksjoner (syn, hørsel og fargesans),
 c. en analyse av urin- eller blodprøve for eventuelt å avdekke diabetes og eventuelle andre forhold som måtte følge av den kliniske undersøkelsen, herunder bruk av narkotiske stoffer.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-6-supplerende-helseunderskelser-ogeller-psykologiske-vurderinger">§ 14-6. Supplerende helseundersøkelser og/eller psykologiske vurderinger</h4>
 <p>I tillegg til den regelmessige helseundersøkelsen skal det gjennomføres en særskilt supplerende helseundersøkelse og/eller psykologisk vurdering dersom det foreligger grunn til å tvile på den ansattes fysiske eller psykiske skikkethet, eller dersom det foreligger rimelig grunn til å mistenke misbruk av legemidler, bruk av narkotiske stoffer eller alkohol over de tillatte grensene. Det vil særlig være tilfelle etter en hendelse eller en ulykke.</p>
 <p>Jernbanevirksomheten skal ha systemer for å sikre at slike supplerende undersøkelser og vurderinger blir gjennomført.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-7-allmenne-krav">§ 14-7. Allmenne krav</h4>
 <p>Det skal foreligge fysisk og psykisk skikkethet til å utføre arbeidsoppgavene på en slik måte at det ikke innebærer en fare for trafikksikkerheten.</p>
 <p>Det skal ikke foreligge sykdom, helseplager eller andre forhold som kan føre til:</p>
@@ -519,7 +792,7 @@ b. nedsatt oppmerksomhet eller konsentrasjon,
 c. plutselig arbeidsudyktighet,
 d. nedsatt balanse- eller koordineringsevne,
 e. betydelig begrenset bevegelsesevne.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-8-synskrav">§ 14-8. Synskrav</h4>
 <p>Synsfunksjonen skal være så god at trafikksikkerhetsmessig informasjon kan oppfattes uten vanskelighet.</p>
 <p>Følgende krav gjelder:</p>
@@ -535,29 +808,31 @@ i. kontrastfølsomhet: god,
 j. ingen progressiv øyensykdom,
 k. øyeimplantater, keratotomi og keratektomi er bare tillatt dersom de kontrolleres årlig eller med en hyppighet som legen fastsetter.</p>
 <p>Legen kan i særlige tilfeller tillate verdier som ligger utenfor ovennevnte krav etter å ha innhentet uttalelse fra en øyelege.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-9-hrselskrav">§ 14-9. Hørselskrav</h4>
 <p>Hørselsfunksjonen skal være så god at trafikksikkerhetsmessig informasjon kan oppfattes uten vanskelighet.</p>
 <p>Tilfredsstillende hørsel som bekreftes av et toneaudiogram, det vil si tilstrekkelig god hørsel til å kunne føre en telefonsamtale og høre varsellyder og radiomeldinger.</p>
 <p>Bruk av høreapparat er tillatt.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-10-rusmidler-mv">§ 14-10. Rusmidler mv.</h4>
 <p>Det skal ikke foreligge misbruk av legemidler, bruk av narkotika eller avhengighet av eller misbruk av alkohol.</p>
 <p>Legemidler som kan påvirke reaksjonsevne, konsentrasjonsevne eller vurderingsevne kan bare benyttes etter særskilt vurdering og anvisning av lege.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h4 id="14-11-overgangsordning">§ 14-11. Overgangsordning</h4>
 <p>For personell som omfattes av dette kapitlet og som ved ikrafttredelse oppfyller krav til helse etter forskrift 18. desember 2002 nr. 1678 , gjelder denne forskriftens krav fra og med neste periodiske helseundersøkelse, men senest fra 1. januar 2022.</p>
 <p>Unntak fra krav til helse gitt i medhold av forskrift 18. desember 2002 nr. 1678 før ikrafttredelse av denne forskriften, gjelder til de utløper, men ikke utover 1. januar 2022.</p>
 <p>Jernbanevirksomhetene skal innen 1. april 2017 ha innarbeidet endringene som følge av dette kapittelet i sine sikkerhetsstyringssystemer.</p>
-<p><em>Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</em></p>
+<p class="note">Tilføyd ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017).</p>
 <h2 id="kapittel-15-avsluttende-bestemmelser">Kapittel 15. Avsluttende bestemmelser</h2>
 <p>Endret ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017, tidligere kapittel 14).</p>
 <h4 id="15-1-unntak">§ 15-1. Unntak</h4>
 <p>Statens jernbanetilsyn kan i det enkelte tilfellet gjøre unntak fra denne forskriften dersom særlige grunner tilsier det.</p>
-<p><em>Endret ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017, tidligere § 14-1).</em></p>
+<p class="note">Endret ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017, tidligere § 14-1).</p>
 <h4 id="15-2-ikrafttredelse">§ 15-2. Ikrafttredelse</h4>
 <p>Forskriften trer i kraft 1. januar 2015. Fra samme tidspunkt oppheves forskrift 6. desember 2006 nr. 1356 om krav til sporvei, tunnelbane og forstadsbane, og sidespor m.m. (kravforskriften).</p>
-<p><em>Endret ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017, tidligere § 14-2).</em></p>
+<p class="note">Endret ved forskrift 19 des 2016 nr. 1736 (i kraft 1 jan 2017, tidligere § 14-2).</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

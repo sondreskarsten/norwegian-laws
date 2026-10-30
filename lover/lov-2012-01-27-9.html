@@ -19,64 +19,251 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2012-01-27-9.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Arbeidstvistloven – arbtvl" href="../feeds/lov-2012-01-27-9.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-arbeids--og-inkluderingsdepartementet.html">Arbeids- og inkluderingsdepartementet</a> &rsaquo;
 <span>Arbeidstvistloven – arbtvl</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2012-01-27-9</code></dd>
-<dt>Departement</dt><dd>Arbeids- og inkluderingsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Arbeidstvister\nArbeidsrett &raquo; Tariffavtaler</dd>
-<dt>Ikrafttredelse</dt><dd>2012-03-01</dd>
-<dt>Sist endret</dt><dd>lov/2023-03-17-3</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2012-01-27-9" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-definisjoner">§ 1. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-opplysningsplikt">§ 2. Opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-tariffavtaler">Kapittel 2. Tariffavtaler</a></li>
+<li class="lvl4"><a href="#3-forhandlinger-om-inngaelse-av-tariffavtale">§ 3. Forhandlinger om inngåelse av tariffavtale</a></li>
+<li class="lvl4"><a href="#4-tariffavtalens-form-og-innhold">§ 4. Tariffavtalens form og innhold</a></li>
+<li class="lvl4"><a href="#5-tariffavtalens-varighet-og-oppsigelse">§ 5. Tariffavtalens varighet og oppsigelse</a></li>
+<li class="lvl4"><a href="#6-tariffavtalens-ufravikelighet">§ 6. Tariffavtalens ufravikelighet</a></li>
+<li class="lvl4"><a href="#7-virkning-av-utmeldelse-av-fagforening-eller-arbeidsgiverforening">§ 7. Virkning av utmeldelse av fagforening eller arbeidsgiverforening</a></li>
+<li class="lvl4"><a href="#8-fredsplikt">§ 8. Fredsplikt</a></li>
+<li class="lvl4"><a href="#9-erstatningsansvar-for-brudd-pa-tariffavtale-mv">§ 9. Erstatningsansvar for brudd på tariffavtale mv.</a></li>
+<li class="lvl4"><a href="#10-fastsettelse-av-erstatning-for-brudd-pa-tariffavtale-mv">§ 10. Fastsettelse av erstatning for brudd på tariffavtale mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-mekling">Kapittel 3. Mekling</a></li>
+<li class="lvl4"><a href="#11-meklere">§ 11. Meklere</a></li>
+<li class="lvl4"><a href="#12-meklingsinstitusjonens-oppgaver-og-organisering">§ 12. Meklingsinstitusjonens oppgaver og organisering</a></li>
+<li class="lvl4"><a href="#13-meklerlfte">§ 13. Meklerløfte</a></li>
+<li class="lvl4"><a href="#14-inhabilitet">§ 14. Inhabilitet</a></li>
+<li class="lvl4"><a href="#15-plassoppsigelse">§ 15. Plassoppsigelse</a></li>
+<li class="lvl4"><a href="#16-melding-til-riksmekleren">§ 16. Melding til riksmekleren</a></li>
+<li class="lvl4"><a href="#17-hvem-som-omfattes-av-streik-eller-lockout">§ 17. Hvem som omfattes av streik eller lockout</a></li>
+<li class="lvl4"><a href="#18-tidspunkt-for-iverksettelse-av-streik-eller-lockout">§ 18. Tidspunkt for iverksettelse av streik eller lockout</a></li>
+<li class="lvl4"><a href="#19-midlertidig-forbud-mot-arbeidsstans">§ 19. Midlertidig forbud mot arbeidsstans</a></li>
+<li class="lvl4"><a href="#20-innkalling-til-mekling">§ 20. Innkalling til mekling</a></li>
+<li class="lvl4"><a href="#21-parter-og-partsrepresentanter">§ 21. Parter og partsrepresentanter</a></li>
+<li class="lvl4"><a href="#22-innhenting-av-opplysninger">§ 22. Innhenting av opplysninger</a></li>
+<li class="lvl4"><a href="#23-taushetsplikt">§ 23. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#24-mtebok">§ 24. Møtebok</a></li>
+<li class="lvl4"><a href="#25-meklingens-avslutning">§ 25. Meklingens avslutning</a></li>
+<li class="lvl4"><a href="#26-avstemning-over-meklingsforslag">§ 26. Avstemning over meklingsforslag</a></li>
+<li class="lvl4"><a href="#27-melding-om-avstemningsresultat">§ 27. Melding om avstemningsresultat</a></li>
+<li class="lvl4"><a href="#28-iverksettelse-av-streik-eller-lockout-nar-meklingsforslaget-forkastes">§ 28. Iverksettelse av streik eller lockout når meklingsforslaget forkastes</a></li>
+<li class="lvl4"><a href="#29-senere-vedtakelse-av-et-meklingsforslag">§ 29. Senere vedtakelse av et meklingsforslag</a></li>
+<li class="lvl4"><a href="#30-gjenopptakelse-av-mekling">§ 30. Gjenopptakelse av mekling</a></li>
+<li class="lvl4"><a href="#31-klage">§ 31. Klage</a></li>
+<li class="lvl4"><a href="#32-partenes-kostnader">§ 32. Partenes kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-4-arbeidsretten">Kapittel 4. Arbeidsretten</a></li>
+<li class="lvl4"><a href="#33-arbeidsrettens-sete">§ 33. Arbeidsrettens sete</a></li>
+<li class="lvl4"><a href="#34-arbeidsrettens-domsmyndighet">§ 34. Arbeidsrettens domsmyndighet</a></li>
+<li class="lvl4"><a href="#35-sksmal">§ 35. Søksmål</a></li>
+<li class="lvl4"><a href="#36-krav-til-arbeidsrettens-dommere">§ 36. Krav til Arbeidsrettens dommere</a></li>
+<li class="lvl4"><a href="#37-arbeidsrettens-organisering-oppnevning-og-utnevning-av-dommere-mv">§ 37. Arbeidsrettens organisering. Oppnevning og utnevning av dommere mv.</a></li>
+<li class="lvl4"><a href="#38-arbeidsrettens-sammensetning-i-den-enkelte-sak">§ 38. Arbeidsrettens sammensetning i den enkelte sak</a></li>
+<li class="lvl4"><a href="#39-innstillingsretten">§ 39. Innstillingsretten</a></li>
+<li class="lvl4"><a href="#40-inhabilitet">§ 40. Inhabilitet</a></li>
+<li class="lvl4"><a href="#41-stedfortreder-for-en-dommer-som-er-inhabil-eller-har-forfall">§ 41. Stedfortreder for en dommer som er inhabil eller har forfall</a></li>
+<li class="lvl4"><a href="#42-rettens-forhandlingsdyktighet">§ 42. Rettens forhandlingsdyktighet</a></li>
+<li class="lvl4"><a href="#43-dommerlfte">§ 43. Dommerløfte</a></li>
+<li class="lvl4"><a href="#44-partsrepresentanter-og-prosessfullmektiger">§ 44. Partsrepresentanter og prosessfullmektiger</a></li>
+<li class="lvl4"><a href="#45-forberedelsen-av-saken">§ 45. Forberedelsen av saken</a></li>
+<li class="lvl4"><a href="#46-partshjelp">§ 46. Partshjelp</a></li>
+<li class="lvl4"><a href="#47-forening-av-saker-til-felles-behandling">§ 47. Forening av saker til felles behandling</a></li>
+<li class="lvl4"><a href="#48-saksbehandlingen">§ 48. Saksbehandlingen</a></li>
+<li class="lvl4"><a href="#49-stansing-av-saken">§ 49. Stansing av saken</a></li>
+<li class="lvl4"><a href="#50-fravr-for-parter-partsrepresentanter-og-prosessfullmektiger">§ 50. Fravær for parter, partsrepresentanter og prosessfullmektiger</a></li>
+<li class="lvl4"><a href="#51-mteplikt-for-vitner-parter-og-sakkyndige">§ 51. Møteplikt for vitner, parter og sakkyndige</a></li>
+<li class="lvl4"><a href="#52-innkalling-av-vitner-parter-og-sakkyndige">§ 52. Innkalling av vitner, parter og sakkyndige</a></li>
+<li class="lvl4"><a href="#53-godtgjring-for-vitner-og-sakkyndige">§ 53. Godtgjøring for vitner og sakkyndige</a></li>
+<li class="lvl4"><a href="#54-offentlighet-og-innsynsrett">§ 54. Offentlighet og innsynsrett</a></li>
+<li class="lvl4"><a href="#55-rettsbok">§ 55. Rettsbok</a></li>
+<li class="lvl4"><a href="#56-rettens-avgjrelser">§ 56. Rettens avgjørelser</a></li>
+<li class="lvl4"><a href="#57-rettsforlik">§ 57. Rettsforlik</a></li>
+<li class="lvl4"><a href="#58-sakskostnader">§ 58. Sakskostnader</a></li>
+<li class="lvl4"><a href="#59-virkningen-av-rettens-avgjrelser-rettsmidler">§ 59. Virkningen av rettens avgjørelser. Rettsmidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#60-fornrmelig-oppfrsel-mv">§ 60. Fornærmelig oppførsel mv.</a></li>
+<li class="lvl4"><a href="#61-brudd-pa-taushetsplikt-mv">§ 61. Brudd på taushetsplikt mv.</a></li>
+<li class="lvl4"><a href="#62-fravr-mv">§ 62. Fravær mv.</a></li>
+<li class="lvl4"><a href="#63-ansvar-for-anke">§ 63. Ansvar for anke</a></li>
+<li class="lvl2"><a href="#kapittel-6-ikraftsetting-og-endringer-i-andre-lover">Kapittel 6. Ikraftsetting og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#64-ikraftsetting">§ 64. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#65-endringer-i-andre-lover">§ 65. Endringer i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2023-03-17-3.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2012-01-27-9.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om arbeidstvister (arbeidstvistloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2012-01-27-9.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2012-01-27-9 <code>lov/2012-01-27-9</code></td></tr>
+<tr><th>Korttittel</th><td>Arbeidstvistloven – arbtvl</td></tr>
+<tr><th>Departement</th><td>Arbeids- og inkluderingsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Arbeidstvister\nArbeidsrett &raquo; Tariffavtaler</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.03.2012</td></tr>
+<tr><th>Sist endret</th><td>LOV-2023-03-17-3 <code>lov/2023-03-17-3</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2012-01-27-9" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</a></li>
+<li class="lvl4"><a href="#1-definisjoner">§ 1. Definisjoner</a></li>
+<li class="lvl4"><a href="#2-opplysningsplikt">§ 2. Opplysningsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-2-tariffavtaler">Kapittel 2. Tariffavtaler</a></li>
+<li class="lvl4"><a href="#3-forhandlinger-om-inngaelse-av-tariffavtale">§ 3. Forhandlinger om inngåelse av tariffavtale</a></li>
+<li class="lvl4"><a href="#4-tariffavtalens-form-og-innhold">§ 4. Tariffavtalens form og innhold</a></li>
+<li class="lvl4"><a href="#5-tariffavtalens-varighet-og-oppsigelse">§ 5. Tariffavtalens varighet og oppsigelse</a></li>
+<li class="lvl4"><a href="#6-tariffavtalens-ufravikelighet">§ 6. Tariffavtalens ufravikelighet</a></li>
+<li class="lvl4"><a href="#7-virkning-av-utmeldelse-av-fagforening-eller-arbeidsgiverforening">§ 7. Virkning av utmeldelse av fagforening eller arbeidsgiverforening</a></li>
+<li class="lvl4"><a href="#8-fredsplikt">§ 8. Fredsplikt</a></li>
+<li class="lvl4"><a href="#9-erstatningsansvar-for-brudd-pa-tariffavtale-mv">§ 9. Erstatningsansvar for brudd på tariffavtale mv.</a></li>
+<li class="lvl4"><a href="#10-fastsettelse-av-erstatning-for-brudd-pa-tariffavtale-mv">§ 10. Fastsettelse av erstatning for brudd på tariffavtale mv.</a></li>
+<li class="lvl2"><a href="#kapittel-3-mekling">Kapittel 3. Mekling</a></li>
+<li class="lvl4"><a href="#11-meklere">§ 11. Meklere</a></li>
+<li class="lvl4"><a href="#12-meklingsinstitusjonens-oppgaver-og-organisering">§ 12. Meklingsinstitusjonens oppgaver og organisering</a></li>
+<li class="lvl4"><a href="#13-meklerlfte">§ 13. Meklerløfte</a></li>
+<li class="lvl4"><a href="#14-inhabilitet">§ 14. Inhabilitet</a></li>
+<li class="lvl4"><a href="#15-plassoppsigelse">§ 15. Plassoppsigelse</a></li>
+<li class="lvl4"><a href="#16-melding-til-riksmekleren">§ 16. Melding til riksmekleren</a></li>
+<li class="lvl4"><a href="#17-hvem-som-omfattes-av-streik-eller-lockout">§ 17. Hvem som omfattes av streik eller lockout</a></li>
+<li class="lvl4"><a href="#18-tidspunkt-for-iverksettelse-av-streik-eller-lockout">§ 18. Tidspunkt for iverksettelse av streik eller lockout</a></li>
+<li class="lvl4"><a href="#19-midlertidig-forbud-mot-arbeidsstans">§ 19. Midlertidig forbud mot arbeidsstans</a></li>
+<li class="lvl4"><a href="#20-innkalling-til-mekling">§ 20. Innkalling til mekling</a></li>
+<li class="lvl4"><a href="#21-parter-og-partsrepresentanter">§ 21. Parter og partsrepresentanter</a></li>
+<li class="lvl4"><a href="#22-innhenting-av-opplysninger">§ 22. Innhenting av opplysninger</a></li>
+<li class="lvl4"><a href="#23-taushetsplikt">§ 23. Taushetsplikt</a></li>
+<li class="lvl4"><a href="#24-mtebok">§ 24. Møtebok</a></li>
+<li class="lvl4"><a href="#25-meklingens-avslutning">§ 25. Meklingens avslutning</a></li>
+<li class="lvl4"><a href="#26-avstemning-over-meklingsforslag">§ 26. Avstemning over meklingsforslag</a></li>
+<li class="lvl4"><a href="#27-melding-om-avstemningsresultat">§ 27. Melding om avstemningsresultat</a></li>
+<li class="lvl4"><a href="#28-iverksettelse-av-streik-eller-lockout-nar-meklingsforslaget-forkastes">§ 28. Iverksettelse av streik eller lockout når meklingsforslaget forkastes</a></li>
+<li class="lvl4"><a href="#29-senere-vedtakelse-av-et-meklingsforslag">§ 29. Senere vedtakelse av et meklingsforslag</a></li>
+<li class="lvl4"><a href="#30-gjenopptakelse-av-mekling">§ 30. Gjenopptakelse av mekling</a></li>
+<li class="lvl4"><a href="#31-klage">§ 31. Klage</a></li>
+<li class="lvl4"><a href="#32-partenes-kostnader">§ 32. Partenes kostnader</a></li>
+<li class="lvl2"><a href="#kapittel-4-arbeidsretten">Kapittel 4. Arbeidsretten</a></li>
+<li class="lvl4"><a href="#33-arbeidsrettens-sete">§ 33. Arbeidsrettens sete</a></li>
+<li class="lvl4"><a href="#34-arbeidsrettens-domsmyndighet">§ 34. Arbeidsrettens domsmyndighet</a></li>
+<li class="lvl4"><a href="#35-sksmal">§ 35. Søksmål</a></li>
+<li class="lvl4"><a href="#36-krav-til-arbeidsrettens-dommere">§ 36. Krav til Arbeidsrettens dommere</a></li>
+<li class="lvl4"><a href="#37-arbeidsrettens-organisering-oppnevning-og-utnevning-av-dommere-mv">§ 37. Arbeidsrettens organisering. Oppnevning og utnevning av dommere mv.</a></li>
+<li class="lvl4"><a href="#38-arbeidsrettens-sammensetning-i-den-enkelte-sak">§ 38. Arbeidsrettens sammensetning i den enkelte sak</a></li>
+<li class="lvl4"><a href="#39-innstillingsretten">§ 39. Innstillingsretten</a></li>
+<li class="lvl4"><a href="#40-inhabilitet">§ 40. Inhabilitet</a></li>
+<li class="lvl4"><a href="#41-stedfortreder-for-en-dommer-som-er-inhabil-eller-har-forfall">§ 41. Stedfortreder for en dommer som er inhabil eller har forfall</a></li>
+<li class="lvl4"><a href="#42-rettens-forhandlingsdyktighet">§ 42. Rettens forhandlingsdyktighet</a></li>
+<li class="lvl4"><a href="#43-dommerlfte">§ 43. Dommerløfte</a></li>
+<li class="lvl4"><a href="#44-partsrepresentanter-og-prosessfullmektiger">§ 44. Partsrepresentanter og prosessfullmektiger</a></li>
+<li class="lvl4"><a href="#45-forberedelsen-av-saken">§ 45. Forberedelsen av saken</a></li>
+<li class="lvl4"><a href="#46-partshjelp">§ 46. Partshjelp</a></li>
+<li class="lvl4"><a href="#47-forening-av-saker-til-felles-behandling">§ 47. Forening av saker til felles behandling</a></li>
+<li class="lvl4"><a href="#48-saksbehandlingen">§ 48. Saksbehandlingen</a></li>
+<li class="lvl4"><a href="#49-stansing-av-saken">§ 49. Stansing av saken</a></li>
+<li class="lvl4"><a href="#50-fravr-for-parter-partsrepresentanter-og-prosessfullmektiger">§ 50. Fravær for parter, partsrepresentanter og prosessfullmektiger</a></li>
+<li class="lvl4"><a href="#51-mteplikt-for-vitner-parter-og-sakkyndige">§ 51. Møteplikt for vitner, parter og sakkyndige</a></li>
+<li class="lvl4"><a href="#52-innkalling-av-vitner-parter-og-sakkyndige">§ 52. Innkalling av vitner, parter og sakkyndige</a></li>
+<li class="lvl4"><a href="#53-godtgjring-for-vitner-og-sakkyndige">§ 53. Godtgjøring for vitner og sakkyndige</a></li>
+<li class="lvl4"><a href="#54-offentlighet-og-innsynsrett">§ 54. Offentlighet og innsynsrett</a></li>
+<li class="lvl4"><a href="#55-rettsbok">§ 55. Rettsbok</a></li>
+<li class="lvl4"><a href="#56-rettens-avgjrelser">§ 56. Rettens avgjørelser</a></li>
+<li class="lvl4"><a href="#57-rettsforlik">§ 57. Rettsforlik</a></li>
+<li class="lvl4"><a href="#58-sakskostnader">§ 58. Sakskostnader</a></li>
+<li class="lvl4"><a href="#59-virkningen-av-rettens-avgjrelser-rettsmidler">§ 59. Virkningen av rettens avgjørelser. Rettsmidler</a></li>
+<li class="lvl2"><a href="#kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#60-fornrmelig-oppfrsel-mv">§ 60. Fornærmelig oppførsel mv.</a></li>
+<li class="lvl4"><a href="#61-brudd-pa-taushetsplikt-mv">§ 61. Brudd på taushetsplikt mv.</a></li>
+<li class="lvl4"><a href="#62-fravr-mv">§ 62. Fravær mv.</a></li>
+<li class="lvl4"><a href="#63-ansvar-for-anke">§ 63. Ansvar for anke</a></li>
+<li class="lvl2"><a href="#kapittel-6-ikraftsetting-og-endringer-i-andre-lover">Kapittel 6. Ikraftsetting og endringer i andre lover</a></li>
+<li class="lvl4"><a href="#64-ikraftsetting">§ 64. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#65-endringer-i-andre-lover">§ 65. Endringer i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2012-01-27-9.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2012-01-27-9.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2012-01-27-9.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2012-01-27-9.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2012-01-27-9.html">Observerte kildeutgaver</a> · <a href="../historie/arbeidstvistloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/f447f5c423a997db8e276c313aa74e4b6bd51933/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/3ad57c417fd877a9b2b10ba8b08375febf4be490/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/49e5140096f8b552d3525f1d5cf1228ba003a978/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2012-01-27-9.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2012-01-27-9.html">Observerte kildeutgaver</a> · <a href="../historie/arbeidstvistloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2012/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2012</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2014/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2014</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2016/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2016</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2012-01-27-9.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-arbeidstvister-arbeidstvistloven">Lov om arbeidstvister (arbeidstvistloven)</h1>
 <h2 id="kapittel-1-innledende-bestemmelser">Kapittel 1. Innledende bestemmelser</h2>
 <h4 id="1-definisjoner">§ 1. Definisjoner</h4>
 <p>I denne lov menes med:</p>
@@ -91,7 +278,7 @@ h. plassoppsigelse : oppsigelse av arbeidsavtaler med det formål å iverksette 
 i. rettstvist : tvist mellom en fagforening og en arbeidsgiver eller arbeidsgiverforening om en tariffavtales gyldighet, forståelse eller eksistens eller om krav som bygger på en tariffavtale.
 j. interessetvist : tvist mellom en fagforening og en arbeidsgiver eller arbeidsgiverforening om ordningen av fremtidige arbeids- og lønnsvilkår eller andre arbeidsforhold som ikke omfattes av en tariffavtale eller som skal avløse en tidligere tariffavtale.
 k. virkedag : alle dager som ikke er søndager eller lovbestemte hellig- eller høytidsdager.</p>
-<p><em>Endret ved lover 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ), 17 mars 2023 nr. 3 (i kraft 1 jan 2024 iflg. res. 17 mars 2023 nr. 341 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ), 17 mars 2023 nr. 3 (i kraft 1 jan 2024 iflg. res. 17 mars 2023 nr. 341 ).</p>
 <h4 id="2-opplysningsplikt">§ 2. Opplysningsplikt</h4>
 <p>Fagforening og arbeidsgiverforening eller sammenslutning av slike skal når departementet eller riksmekleren krever det, gi opplysninger om foreningens eller sammenslutningens organisasjon, medlemsforhold mv. En sammenslutning av foreninger plikter å gi slike opplysninger også om sine underavdelinger.</p>
 <h2 id="kapittel-2-tariffavtaler">Kapittel 2. Tariffavtaler</h2>
@@ -151,7 +338,7 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <h4 id="18-tidspunkt-for-iverksettelse-av-streik-eller-lockout">§ 18. Tidspunkt for iverksettelse av streik eller lockout</h4>
 <p>(1) Streik eller lockout må ikke iverksettes før det er gitt plassoppsigelse og oppsigelsesfristen som følger av denne er utløpt, og ikke i noe tilfelle før fire virkedager har gått fra riksmekleren har mottatt melding om at forhandlinger ikke er innledet eller er brutt eller at plassoppsigelsen er utvidet, jf. §§ 16 og 17 .</p>
 <p>(2) Fristen i første ledd starter å løpe første virkedag etter at riksmekleren har mottatt meldingen.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="19-midlertidig-forbud-mot-arbeidsstans">§ 19. Midlertidig forbud mot arbeidsstans</h4>
 <p>(1) Når riksmekleren har fått melding om eller på annen måte er blitt kjent med at forhandlinger ikke er innledet eller er brutt, jf. § 16 , skal riksmekleren midlertidig forby partene å iverksette streik eller lockout som kan medføre skade for allmenne interesser, inntil mekling etter dette kapitlet er avsluttet.</p>
 <p>(2) Blir plassoppsigelsen utvidet, skal riksmekleren på tilsvarende vilkår forby streik eller lockout som følger av utvidelsen.</p>
@@ -159,7 +346,7 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <p>(4) For å være bindende må forbudet være sendt fra riksmekleren innen utløpet av to virkedager etter at riksmekleren mottok melding om at forhandlinger ikke er innledet eller er brutt eller at plassoppsigelsen er utvidet. Fristen i første punktum starter å løpe første virkedag etter at riksmekleren har mottatt meldingen.</p>
 <p>(5) Hvis det nedlegges forbud mot streik eller lockout i tvist hvor kommune, fylkeskommune eller sammenslutning av slike er part, kan riksmekleren samtidig bestemme at de frister som følger av <a href="lov-1958-07-18-2.html">tjenestetvistloven</a> § 14 tredje ledd og § 17 første og andre ledd skal gjelde for meklingen.</p>
 <p>(6) Riksmekleren kan overlate til en annen oppnevnt mekler å forby streik eller lockout.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="20-innkalling-til-mekling">§ 20. Innkalling til mekling</h4>
 <p>(1) Hvis det er nedlagt forbud mot streik eller lockout etter § 19 , skal riksmekleren eller mekleren som saken er overdratt til, straks iverksette mekling.</p>
 <p>(2) Hvis forbud mot streik eller lockout ikke er nedlagt, kan riksmekleren eller en kretsmekler av eget tiltak eller etter begjæring av en part likevel iverksette mekling i en tvist.</p>
@@ -175,7 +362,7 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <p>(2) Enhver som deltar i meklingen, plikter å bevare taushet om det som er fremkommet under meklingen, hvis ikke mekleren tillater offentliggjøring. Taushetsplikten omfatter også en parts egne krav og tilbud.</p>
 <p>(3) Taushetsplikten gjelder ikke ved forklaringer for Arbeidsretten.</p>
 <p>(4) Mekleren har ikke vitneplikt for Arbeidsretten om forhold fremkommet under meklingen.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="24-mtebok">§ 24. Møtebok</h4>
 <p>(1) I møteboken føres inn tid og sted for meklingsmøtet og meklerens, partenes og partsrepresentantenes navn. Møteboken skal angi de bevis som er gjennomgått og meklingens gang i korthet.</p>
 <p>(2) Resultatet av meklingen oppsummeres. Har mekleren lagt frem et endelig forslag til løsning av tvisten, skal forslaget føres inn i møteboken uavhengig av utfallet av meklingen. Eventuell frist etter § 26 første ledd for når et avstemningsresultat skal foreligge, skal gjengis.</p>
@@ -206,7 +393,7 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <h2 id="kapittel-4-arbeidsretten">Kapittel 4. Arbeidsretten</h2>
 <h4 id="33-arbeidsrettens-sete">§ 33. Arbeidsrettens sete</h4>
 <p>Arbeidsretten har sete i Oslo. Ved behov kan retten settes andre steder.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="34-arbeidsrettens-domsmyndighet">§ 34. Arbeidsrettens domsmyndighet</h4>
 <p>(1) Arbeidsretten skal behandle rettstvister som nevnt i § 1 bokstav i, tvister om det foreligger brudd på § 8 om fredsplikt og tvister om erstatningsansvar etter § 9 .</p>
 <p>(2) Arbeidsretten skal likevel ikke behandle tvister om erstatningsansvar etter § 9 når saken kun er anlagt mot arbeidstakere som nevnt i § 9 andre ledd.</p>
@@ -214,13 +401,13 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <p>(4) Partene kan vedta privat voldgift om de tvistene som er nevnt i § 8 første ledd og § 9 .</p>
 <p>(5) I en sak om en tariffavtale kan det også inndras krav som utspringer av en arbeidsavtale, hvis kravet etter arbeidsavtalen vil få sin umiddelbare avgjørelse ved dommen i hovedsaken.</p>
 <p>(6) Domstolloven og <a href="lov-2005-06-17-90.html">tvisteloven</a> får tilsvarende anvendelse for Arbeidsretten så langt de passer og ikke strider mot bestemmelsene i denne loven.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="35-sksmal">§ 35. Søksmål</h4>
 <p>(1) Er en tariffavtale sluttet mellom en fagforening, dens underavdelinger og medlemmer på den ene side og en arbeidsgiver eller en arbeidsgiverforening, dens underavdelinger og medlemmer på den annen side, er det bare den overordnede fagforening eller arbeidsgiverforening eller den enkeltstående arbeidsgiver som har søksmålsrett.</p>
 <p>(2) Den overordnede fagforening eller arbeidsgiverforening kan likevel overdra sin søksmålsrett til en underavdeling som har undertegnet tariffavtalen. Det skal gis skriftlig melding om overdragelsen til Arbeidsretten og tariffmotparten. Overdragelsen kan begrenses til en enkelt tvist eller gis virkning for hele tariffperioden. I sistnevnte tilfelle kan vedkommende underavdeling saksøkes direkte og alene av den annen søksmålsberettigede part i tariffavtalen.</p>
 <p>(3) Før en sak kan bringes inn for Arbeidsretten, skal partene ha gjennomført eller forsøkt gjennomført forhandlinger om tvisten.</p>
 <p>(4) Vil en part nedlegge påstand mot navngitte medlemmer av en forening, skal disse stevnes ved siden av foreningen. Tilsvarende gjelder om det skal nedlegges påstand mot andre navngitte personer, jf. § 9 andre ledd.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="36-krav-til-arbeidsrettens-dommere">§ 36. Krav til Arbeidsrettens dommere</h4>
 <p>(1) Dommere i Arbeidsretten må være norske statsborgere som er vederheftige og som ikke er fradømt stemmerett i offentlige anliggender. De må ikke være medlem av styret i en fagforening eller arbeidsgiverforening eller være fast ansatt i en slik forening.</p>
 <p>(2) Rettens fagdommere skal i tillegg oppfylle de krav som gjelder for høyesterettsdommere.</p>
@@ -235,7 +422,7 @@ e. opplysninger om hvorvidt forhandlinger mellom partene er åpnet og i tilfelle
 <p>(3) De dommere som har begynt hovedforhandlingen av en sak, skal føre saken til ende selv om deres tjenestetid løper ut under behandlingen av saken.</p>
 <p>(4) Arbeidsrettens leder kan ved særlig langvarige saker eller ved andre særlige omstendigheter beslutte at det i tillegg til dommere tilkalt etter første ledd skal tilkalles en varadommer for fagdommerne og en varadommer fra hver side for dommere oppnevnt etter innstilling etter § 39 . Første ledd fjerde punktum gjelder tilsvarende. Varadommerne skal følge forhandlingene og tre inn ved forfall.</p>
 <p>(5) Dersom begge parter samtykker, og retten finner det ubetenkelig, kan retten settes med tre fagdommere eller en fagdommer og en dommer fra hver side oppnevnt etter innstilling etter § 39 . Første ledd fjerde punktum gjelder tilsvarende.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="39-innstillingsretten">§ 39. Innstillingsretten</h4>
 <p>(1) Arbeidsgiverforening som omfatter minst 100 arbeidsgivere som til sammen sysselsetter minst 10 000 arbeidstakere, samt fagforening som har minst 10 000 arbeidstakere som medlemmer, kan hver for seg fremsette forslag til to dommere med varadommere. De som foreslås, må ha sagt seg villige til å motta vervet.</p>
 <p>(2) Blant dem som er foreslått, oppnevnes to dommere med varadommere fra hver side. Er det innkommet konkurrerende forslag fra forskjellige fagforeninger eller arbeidsgiverforeninger, skal de faste dommerne fra hver side oppnevnes blant dem som er foreslått av den fagforening og den arbeidsgiverforening som har flest medlemmer innenfor lovens område.</p>
@@ -274,7 +461,7 @@ h. saksøkerens syn på den videre behandling av saken.</p>
 <p>(5) Når stevningen er i orden, sendes den uten opphold til saksøkte. Retten skal fastsette en frist, som normalt bør være tre uker, til å inngi skriftlig tilsvar. I tilsvaret skal saksøkte fremsette sine bemerkninger til stevningen, eventuelle innsigelser mot at retten behandler saken, nevne de krav som saksøkte vil reise, gi bevisoppgaver svarende til dem som er nevnt under andre ledd bokstav e og f, samt angi saksøktes syn på den videre behandling av saken. Første ledd gjelder tilsvarende.</p>
 <p>(6) Saksforberedende dommer fastsetter tid og sted for hovedforhandlingen, som skal holdes snarest mulig, men tidligst 48 timer etter at innkallingen er bekreftet mottatt av partene. Hovedforhandlingen skal påbegynnes senest seks måneder etter at vilkårene i femte ledd første punktum er oppfylt, med mindre særlige grunner taler for at det brukes lengre tid til saksforberedelsen. Fristen starter å løpe når stevningen er forkynt for motparten. Hovedforhandlingen kan holdes utenfor rettens faste sete.</p>
 <p>(7) Er arrest gjort for å sikre et erstatningskrav hvis avgjørelse hører under Arbeidsretten, må sak om erstatningskravet reises innen seks dager.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="46-partshjelp">§ 46. Partshjelp</h4>
 <p>(1) Partshjelp kan tillates for</p>
 <p>a. den som har reelt behov begrunnet i egen rettsstilling for at den ene parten vinner, og
@@ -282,7 +469,7 @@ b. arbeidsgiver- og arbeidstakerorganisasjoner som har et slikt behov begrunnet 
 <p>(2) Medlem eller underavdeling som ikke har søksmålsrett etter § 35 første ledd, kan ikke opptre som partshjelper med mindre den som har søksmålsrett gir sitt samtykke.</p>
 <p>(3) Partshjelp må erklæres i prosesskriv senest fire uker før hovedforhandlingen. Retten kan i særlige tilfeller tillate partshjelp som erklæres på et senere tidspunkt. Erklæringen skal angi det som er grunnlaget for partshjelpen, og meddeles partene med en frist for å bestride partshjelpen. Bestrides den, avgjøres spørsmålet om retten til partshjelp ved kjennelse. Inntil det er avsagt kjennelse som nekter partshjelp, kan den som har erklært partshjelp, utøve prosessuelle rettigheter etter fjerde ledd.</p>
 <p>(4) Partshjelperen trer inn i saken slik den står. Partshjelperen kan foreta prosesshandlinger på vegne av parten. Prosesshandlingene må ikke stride mot partens prosesshandlinger</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="47-forening-av-saker-til-felles-behandling">§ 47. Forening av saker til felles behandling</h4>
 <p>Saker som reiser likeartede spørsmål, og som skal behandles med samme sammensetning av retten, kan forenes til felles behandling og til felles avgjørelse.</p>
 <h4 id="48-saksbehandlingen">§ 48. Saksbehandlingen</h4>
@@ -329,7 +516,7 @@ b. arbeidsgiver- og arbeidstakerorganisasjoner som har et slikt behov begrunnet 
 <p>(3) Tvisteloven § 19-4 første til tredje ledd om avsigelse og § 19-5 om underretning om avgjørelsen gjelder så langt de passer.</p>
 <p>(4) Retten kan beslutte å rette en avgjørelse som på grunn av skrive- eller regnefeil, misforståelser, forglemmelser eller lignende klare feil har fått en utforming som ikke stemte med rettens mening. Slik retting kan retten foreta av eget tiltak eller på begjæring av en part. Den dommer som ledet forhandlingene, kan foreta rettelsene dersom det ikke er tvil om hvordan de skal utføres. Beslutning om retting skal tilføyes avgjørelsen slik at det fremgår hva som er rettet. Partene skal underrettes straks.</p>
 <p>(5) Saksstyrende kjennelser og andre beslutninger kan retten omgjøre når omgjøringen ikke er uforholdsmessig tyngende for en part som har innrettet seg etter avgjørelsen. Tvisteloven § 19-10 fjerde ledd om omgjøring gjelder tilsvarende så langt den passer.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="57-rettsforlik">§ 57. Rettsforlik</h4>
 <p>(1) Det kan inngås rettsforlik under hovedforhandlingen. Rettsforlik føres inn i rettsboken og undertegnes av partene og rettens medlemmer. Har forliket ikke bestemmelser om sakskostnader, skal retten på begjæring fra partene avgjøre spørsmålet etter skjønn. Tvisteloven § 19-11 tredje ledd om rettens kontroll med forliket gjelder tilsvarende.</p>
 <p>(2) Et rettsforlik har samme virkning som en rettskraftig dom av Arbeidsretten.</p>
@@ -338,21 +525,21 @@ b. arbeidsgiver- og arbeidstakerorganisasjoner som har et slikt behov begrunnet 
 <p>(1) Som hovedregel tilkjennes ikke sakskostnader for Arbeidsretten. Når særlige grunner taler for det, kan retten tilkjenne en part som har vunnet en sak, erstatning for sine sakskostnader fra motparten. Saken anses også vunnet dersom motpartens sak blir avvist eller hevet.</p>
 <p>(2) Heves en sak som forlikt uten at forliket omfatter sakskostnadene, avgjøres spørsmålet om sakskostnader etter rettens skjønn dersom en av partene krever det.</p>
 <p>(3) Arbeidsretten kan i særlige tilfeller pålegge en av partene eller begge å dekke statens utgifter til en rettssak etter denne loven.</p>
-<p><em>Endret ved lover 20 des 2018 nr. 98 (ikr. 1 jan 2019), 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lover 20 des 2018 nr. 98 (ikr. 1 jan 2019), 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h4 id="59-virkningen-av-rettens-avgjrelser-rettsmidler">§ 59. Virkningen av rettens avgjørelser. Rettsmidler</h4>
 <p>(1) Arbeidsrettens dommer og kjennelser som ikke kan ankes etter tredje eller fjerde ledd, er endelige og kan fullbyrdes etter reglene for høyesterettsdommer.</p>
 <p>(2) Har Arbeidsretten i sin domsslutning fastslått en bestemt forståelse av en tariffavtale, gjelder denne forståelsen også for enhver arbeidsavtale som bygger på tariffavtalen.</p>
 <p>(3) En dom kan ankes til Høyesterett til oppheving på det grunnlaget at saken ikke hører under Arbeidsrettens domsmyndighet. En kjennelse som avviser en sak fra Arbeidsretten, kan ankes til Høyesterett. Ankefristen er en måned.</p>
 <p>(4) Den som ikke er part, kan anke en kjennelse eller beslutning som pålegger vedkommende plikter eller ilegger straff- eller omkostningsansvar. Partene kan anke kjennelser som ilegger dem selv straff- og omkostningsansvar etter §§ 60 og 62 .</p>
 <p>(5) Anke etter fjerde ledd må erklæres straks hvis vedkommende er til stede i retten, og ellers senest tre dager etter at vedkommende har fått meddelelse om avgjørelsen. Så fremt noen har opptrådt som motpart eller kan betraktes som motpart, bør vedkommende underrettes om anken. Anken har oppsettende virkning for den som anker.</p>
-<p><em>Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</em></p>
+<p class="note">Endret ved lov 19 juni 2020 nr. 71 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1235 ).</p>
 <h2 id="kapittel-5-avsluttende-bestemmelser">Kapittel 5. Avsluttende bestemmelser</h2>
 <h4 id="60-fornrmelig-oppfrsel-mv">§ 60. Fornærmelig oppførsel mv.</h4>
 <p>(1) Den som i et møte for Arbeidsretten fornærmer retten eller noen som møter for den, forstyrrer møtet, krenker rettens verdighet eller ikke lyder påbud fra retten eller fagdommeren som styrer saken, kan utvises og ilegges bøter. Den som skriver noe usømmelig eller fornærmelig i et prosesskriv, kan ilegges bot. Avgjørelsen treffes ved kjennelse.</p>
 <p>(2) Bestemmelsene i første ledd gjelder også ved saksbehandling for meklingsinstitusjonen.</p>
 <h4 id="61-brudd-pa-taushetsplikt-mv">§ 61. Brudd på taushetsplikt mv.</h4>
 <p>Den som forsettlig eller grovt uaktsomt bryter taushetsplikten etter § 23 eller § 54 andre ledd, straffes med bot etter <a href="lov-2005-05-20-28.html">straffeloven</a> § 209 . På samme måte straffes den som overtrer § 22 andre ledd ved å videreformidle opplysninger som mekleren innhenter under meklingen, § 26 andre ledd ved å videreformidle opplysninger om avstemningen over meklingsforslaget og § 27 tredje ledd ved å videreformidle avstemningsresultatet før riksmekleren har kunngjort hovedresultatet.</p>
-<p><em>Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</em></p>
+<p class="note">Endret ved lov 19 juni 2015 nr. 65 (ikr. 1 okt 2015).</p>
 <h4 id="62-fravr-mv">§ 62. Fravær mv.</h4>
 <p>(1) Hvis et vitne eller noen som ellers har fått særlig pålegg om å møte personlig, uteblir uten gyldig fravær, ikke i tide melder forfall eller uten tillatelse forlater møtet før det er slutt, kan vedkommende ilegges bot og pålegges helt eller delvis å erstatte de omkostninger som er pådratt. Avgjørelsen treffes ved kjennelse.</p>
 <p>(2) Uteblir vedkommende etter ny innkalling eller oppfordring til å møte, kan det enda en gang ilegges bot og omkostningsansvar.</p>
@@ -367,6 +554,8 @@ b. arbeidsgiver- og arbeidstakerorganisasjoner som har et slikt behov begrunnet 
 <p><em>1 Fra 1 mars 2012 iflg. res. 27 jan 2012 nr. 71 .</em></p>
 <h4 id="65-endringer-i-andre-lover">§ 65. Endringer i andre lover</h4>
 <p><em>– – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

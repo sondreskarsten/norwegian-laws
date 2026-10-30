@@ -19,64 +19,215 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/lover/lov-2017-06-16-67.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Statsansatteloven" href="../feeds/lov-2017-06-16-67.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/dept-digitaliserings--og-forvaltningsdepartementet.html">Digitaliserings- og forvaltningsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/dept-digitaliserings--og-forvaltningsdepartementet.html">Digitaliserings- og forvaltningsdepartementet</a> &rsaquo;
 <span>Statsansatteloven</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>lov/2017-06-16-67</code></dd>
-<dt>Departement</dt><dd>Digitaliserings- og forvaltningsdepartementet</dd>
-<dt>Rettsområde</dt><dd>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Offentlige tjenestemenn</dd>
-<dt>Ikrafttredelse</dt><dd>2017-07-01</dd>
-<dt>Sist endret</dt><dd>lov/2025-06-20-43</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-67" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-virkeomrade-personalreglement">Kapittel 1. Lovens virkeområde. Personalreglement.</a></li>
+<li class="lvl4"><a href="#1-lovens-virkeomrade-og-definisjoner">§ 1. Lovens virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-personalreglement">§ 2. Personalreglement</a></li>
+<li class="lvl2"><a href="#kapittel-2-ansettelse-mv">Kapittel 2. Ansettelse mv.</a></li>
+<li class="lvl4"><a href="#3-kvalifikasjonsprinsippet">§ 3. Kvalifikasjonsprinsippet</a></li>
+<li class="lvl4"><a href="#4-utlysning-av-stilling-og-embete">§ 4. Utlysning av stilling og embete</a></li>
+<li class="lvl4"><a href="#5-innstilling">§ 5. Innstilling</a></li>
+<li class="lvl4"><a href="#6-ansettelse">§ 6. Ansettelse</a></li>
+<li class="lvl4"><a href="#7-unntak-fra-reglene-i-3til6">§ 7. Unntak fra reglene i§§ 3til6</a></li>
+<li class="lvl4"><a href="#8-utnevning-av-embetsmenn-og-ansettelse-av-statsansatte-som-beskikkes-av-kongen">§ 8. Utnevning av embetsmenn og ansettelse av statsansatte som beskikkes av Kongen</a></li>
+<li class="lvl4"><a href="#9-fast-og-midlertidig-ansettelse">§ 9. Fast og midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#10-aremal-for-statsansatte">§ 10. Åremål for statsansatte</a></li>
+<li class="lvl4"><a href="#11-innleie-fra-virksomhet-som-har-til-formal-a-drive-utleie-bemanningsforetak">§ 11. Innleie fra virksomhet som har til formål å drive utleie (bemanningsforetak)</a></li>
+<li class="lvl4"><a href="#12-innleie-av-arbeidstakere-fra-virksomhet-som-ikke-har-til-formal-a-drive-utleie">§ 12. Innleie av arbeidstakere fra virksomhet som ikke har til formål å drive utleie</a></li>
+<li class="lvl4"><a href="#13-fortrinnsrett-for-deltidsansatte-mv">§ 13. Fortrinnsrett for deltidsansatte mv.</a></li>
+<li class="lvl4"><a href="#14-adgang-til-aremal-og-konstitusjon-av-embetsmenn">§ 14. Adgang til åremål og konstitusjon av embetsmenn</a></li>
+<li class="lvl2"><a href="#kapittel-3-opphr-av-arbeidsforholdet-ordensstraff-plikt-til-a-overta-andre-arbeidsoppgaver-mv">Kapittel 3. Opphør av arbeidsforholdet, ordensstraff, plikt til å overta andre arbeidsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#15-prvetid-for-statsansatte">§ 15. Prøvetid for statsansatte</a></li>
+<li class="lvl4"><a href="#16-plikt-til-a-overta-andre-arbeidsoppgaver-mv">§ 16. Plikt til å overta andre arbeidsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#17-opphr-av-midlertidig-ansettelse-og-aremal-for-statsansatte">§ 17. Opphør av midlertidig ansettelse og åremål for statsansatte</a></li>
+<li class="lvl4"><a href="#18-opphr-av-konstitusjon">§ 18. Opphør av konstitusjon</a></li>
+<li class="lvl4"><a href="#19-oppsigelse-pa-grunn-av-virksomhetens-forhold">§ 19. Oppsigelse på grunn av virksomhetens forhold</a></li>
+<li class="lvl4"><a href="#20-oppsigelse-pa-grunn-av-den-statsansattes-forhold">§ 20. Oppsigelse på grunn av den statsansattes forhold</a></li>
+<li class="lvl4"><a href="#21-oppsigelse-eller-avskjed-pa-grunn-av-sykdom-mv-for-statsansatte-og-embetsmenn">§ 21. Oppsigelse eller avskjed på grunn av sykdom mv. for statsansatte og embetsmenn</a></li>
+<li class="lvl4"><a href="#22-oppsigelsesfrister">§ 22. Oppsigelsesfrister</a></li>
+<li class="lvl4"><a href="#23-beregning-av-ansettelsestiden">§ 23. Beregning av ansettelsestiden</a></li>
+<li class="lvl4"><a href="#24-fortrinnsrett-til-ansettelse-i-staten">§ 24. Fortrinnsrett til ansettelse i staten</a></li>
+<li class="lvl4"><a href="#25-ordensstraff">§ 25. Ordensstraff</a></li>
+<li class="lvl4"><a href="#26-avskjed-av-statsansatte">§ 26. Avskjed av statsansatte</a></li>
+<li class="lvl4"><a href="#27-avskjed-av-embetsmenn-ved-administrativ-beslutning-eller-dom">§ 27. Avskjed av embetsmenn ved administrativ beslutning eller dom</a></li>
+<li class="lvl4"><a href="#28-avskjed-av-embetsmenn-ved-dom">§ 28. Avskjed av embetsmenn ved dom</a></li>
+<li class="lvl4"><a href="#29-suspensjon">§ 29. Suspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-vedtaksmyndighet-og-saksbehandlingsregler">Kapittel 4. Vedtaksmyndighet og saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#30-vedtaksmyndighet-i-saker-som-gjelder-statsansatte">§ 30. Vedtaksmyndighet i saker som gjelder statsansatte</a></li>
+<li class="lvl4"><a href="#31-vedtaksmyndighet-i-saker-som-gjelder-embetsmenn-og-statsansatte-som-beskikkes-av-kongen-i-statsrad">§ 31. Vedtaksmyndighet i saker som gjelder embetsmenn og statsansatte som beskikkes av Kongen i statsråd</a></li>
+<li class="lvl4"><a href="#32-saksbehandlingsregler">§ 32. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-5-klage-og-sksmal">Kapittel 5. Klage og søksmål</a></li>
+<li class="lvl4"><a href="#33-klage">§ 33. Klage</a></li>
+<li class="lvl4"><a href="#34-sksmal">§ 34. Søksmål</a></li>
+<li class="lvl4"><a href="#35-iverksettelse-av-vedtak-som-gjelder-statsansatte">§ 35. Iverksettelse av vedtak som gjelder statsansatte</a></li>
+<li class="lvl4"><a href="#36-iverksettelse-av-vedtak-som-gjelder-embetsmenn">§ 36. Iverksettelse av vedtak som gjelder embetsmenn</a></li>
+<li class="lvl4"><a href="#37-virkninger-av-ulovlig-ordensstraff-oppsigelse-suspensjon-eller-avskjed">§ 37. Virkninger av ulovlig ordensstraff, oppsigelse, suspensjon eller avskjed</a></li>
+<li class="lvl4"><a href="#38-virkninger-av-ulovlig-midlertidig-ansettelse-eller-innleie">§ 38. Virkninger av ulovlig midlertidig ansettelse eller innleie</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-bestemmelser">Kapittel 6. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#39-forbud-mot-gaver-i-tjenesten-mv">§ 39. Forbud mot gaver i tjenesten mv.</a></li>
+<li class="lvl4"><a href="#39-a-registrering-av-statsansattes-og-embetsmenns-verv-og-konomiske-interesser">§ 39 a. Registrering av statsansattes og embetsmenns verv og økonomiske interesser</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#40-ikrafttredelse">§ 40. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#41-overgangsregler-personalreglement">§ 41. Overgangsregler – personalreglement</a></li>
+<li class="lvl4"><a href="#42-overgangsregler-stillingsvern">§ 42. Overgangsregler – stillingsvern</a></li>
+<li class="lvl4"><a href="#43-overgangsregler-aremal">§ 43. Overgangsregler – åremål</a></li>
+<li class="lvl4"><a href="#44-overgangsregler-innleie">§ 44. Overgangsregler – innleie</a></li>
+<li class="lvl4"><a href="#45-opphevelse-av-og-endring-i-andre-lover">§ 45. Opphevelse av og endring i andre lover</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: lov/2025-06-20-43.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-67.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Lov</p>
+<h1 class="doc-title">Lov om statens ansatte mv. (statsansatteloven)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-67.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>LOV-2017-06-16-67 <code>lov/2017-06-16-67</code></td></tr>
+<tr><th>Korttittel</th><td>Statsansatteloven</td></tr>
+<tr><th>Departement</th><td>Digitaliserings- og forvaltningsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>Arbeidsrett &raquo; Arbeidsforhold. Sysselsetting\nArbeidsrett &raquo; Offentlige tjenestemenn</td></tr>
+<tr><th>Ikrafttredelse</th><td>01.07.2017</td></tr>
+<tr><th>Sist endret</th><td>LOV-2025-06-20-43 <code>lov/2025-06-20-43</code> fra 01.01.2026</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/NL/lov/2017-06-16-67" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-lovens-virkeomrade-personalreglement">Kapittel 1. Lovens virkeområde. Personalreglement.</a></li>
+<li class="lvl4"><a href="#1-lovens-virkeomrade-og-definisjoner">§ 1. Lovens virkeområde og definisjoner</a></li>
+<li class="lvl4"><a href="#2-personalreglement">§ 2. Personalreglement</a></li>
+<li class="lvl2"><a href="#kapittel-2-ansettelse-mv">Kapittel 2. Ansettelse mv.</a></li>
+<li class="lvl4"><a href="#3-kvalifikasjonsprinsippet">§ 3. Kvalifikasjonsprinsippet</a></li>
+<li class="lvl4"><a href="#4-utlysning-av-stilling-og-embete">§ 4. Utlysning av stilling og embete</a></li>
+<li class="lvl4"><a href="#5-innstilling">§ 5. Innstilling</a></li>
+<li class="lvl4"><a href="#6-ansettelse">§ 6. Ansettelse</a></li>
+<li class="lvl4"><a href="#7-unntak-fra-reglene-i-3til6">§ 7. Unntak fra reglene i§§ 3til6</a></li>
+<li class="lvl4"><a href="#8-utnevning-av-embetsmenn-og-ansettelse-av-statsansatte-som-beskikkes-av-kongen">§ 8. Utnevning av embetsmenn og ansettelse av statsansatte som beskikkes av Kongen</a></li>
+<li class="lvl4"><a href="#9-fast-og-midlertidig-ansettelse">§ 9. Fast og midlertidig ansettelse</a></li>
+<li class="lvl4"><a href="#10-aremal-for-statsansatte">§ 10. Åremål for statsansatte</a></li>
+<li class="lvl4"><a href="#11-innleie-fra-virksomhet-som-har-til-formal-a-drive-utleie-bemanningsforetak">§ 11. Innleie fra virksomhet som har til formål å drive utleie (bemanningsforetak)</a></li>
+<li class="lvl4"><a href="#12-innleie-av-arbeidstakere-fra-virksomhet-som-ikke-har-til-formal-a-drive-utleie">§ 12. Innleie av arbeidstakere fra virksomhet som ikke har til formål å drive utleie</a></li>
+<li class="lvl4"><a href="#13-fortrinnsrett-for-deltidsansatte-mv">§ 13. Fortrinnsrett for deltidsansatte mv.</a></li>
+<li class="lvl4"><a href="#14-adgang-til-aremal-og-konstitusjon-av-embetsmenn">§ 14. Adgang til åremål og konstitusjon av embetsmenn</a></li>
+<li class="lvl2"><a href="#kapittel-3-opphr-av-arbeidsforholdet-ordensstraff-plikt-til-a-overta-andre-arbeidsoppgaver-mv">Kapittel 3. Opphør av arbeidsforholdet, ordensstraff, plikt til å overta andre arbeidsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#15-prvetid-for-statsansatte">§ 15. Prøvetid for statsansatte</a></li>
+<li class="lvl4"><a href="#16-plikt-til-a-overta-andre-arbeidsoppgaver-mv">§ 16. Plikt til å overta andre arbeidsoppgaver mv.</a></li>
+<li class="lvl4"><a href="#17-opphr-av-midlertidig-ansettelse-og-aremal-for-statsansatte">§ 17. Opphør av midlertidig ansettelse og åremål for statsansatte</a></li>
+<li class="lvl4"><a href="#18-opphr-av-konstitusjon">§ 18. Opphør av konstitusjon</a></li>
+<li class="lvl4"><a href="#19-oppsigelse-pa-grunn-av-virksomhetens-forhold">§ 19. Oppsigelse på grunn av virksomhetens forhold</a></li>
+<li class="lvl4"><a href="#20-oppsigelse-pa-grunn-av-den-statsansattes-forhold">§ 20. Oppsigelse på grunn av den statsansattes forhold</a></li>
+<li class="lvl4"><a href="#21-oppsigelse-eller-avskjed-pa-grunn-av-sykdom-mv-for-statsansatte-og-embetsmenn">§ 21. Oppsigelse eller avskjed på grunn av sykdom mv. for statsansatte og embetsmenn</a></li>
+<li class="lvl4"><a href="#22-oppsigelsesfrister">§ 22. Oppsigelsesfrister</a></li>
+<li class="lvl4"><a href="#23-beregning-av-ansettelsestiden">§ 23. Beregning av ansettelsestiden</a></li>
+<li class="lvl4"><a href="#24-fortrinnsrett-til-ansettelse-i-staten">§ 24. Fortrinnsrett til ansettelse i staten</a></li>
+<li class="lvl4"><a href="#25-ordensstraff">§ 25. Ordensstraff</a></li>
+<li class="lvl4"><a href="#26-avskjed-av-statsansatte">§ 26. Avskjed av statsansatte</a></li>
+<li class="lvl4"><a href="#27-avskjed-av-embetsmenn-ved-administrativ-beslutning-eller-dom">§ 27. Avskjed av embetsmenn ved administrativ beslutning eller dom</a></li>
+<li class="lvl4"><a href="#28-avskjed-av-embetsmenn-ved-dom">§ 28. Avskjed av embetsmenn ved dom</a></li>
+<li class="lvl4"><a href="#29-suspensjon">§ 29. Suspensjon</a></li>
+<li class="lvl2"><a href="#kapittel-4-vedtaksmyndighet-og-saksbehandlingsregler">Kapittel 4. Vedtaksmyndighet og saksbehandlingsregler</a></li>
+<li class="lvl4"><a href="#30-vedtaksmyndighet-i-saker-som-gjelder-statsansatte">§ 30. Vedtaksmyndighet i saker som gjelder statsansatte</a></li>
+<li class="lvl4"><a href="#31-vedtaksmyndighet-i-saker-som-gjelder-embetsmenn-og-statsansatte-som-beskikkes-av-kongen-i-statsrad">§ 31. Vedtaksmyndighet i saker som gjelder embetsmenn og statsansatte som beskikkes av Kongen i statsråd</a></li>
+<li class="lvl4"><a href="#32-saksbehandlingsregler">§ 32. Saksbehandlingsregler</a></li>
+<li class="lvl2"><a href="#kapittel-5-klage-og-sksmal">Kapittel 5. Klage og søksmål</a></li>
+<li class="lvl4"><a href="#33-klage">§ 33. Klage</a></li>
+<li class="lvl4"><a href="#34-sksmal">§ 34. Søksmål</a></li>
+<li class="lvl4"><a href="#35-iverksettelse-av-vedtak-som-gjelder-statsansatte">§ 35. Iverksettelse av vedtak som gjelder statsansatte</a></li>
+<li class="lvl4"><a href="#36-iverksettelse-av-vedtak-som-gjelder-embetsmenn">§ 36. Iverksettelse av vedtak som gjelder embetsmenn</a></li>
+<li class="lvl4"><a href="#37-virkninger-av-ulovlig-ordensstraff-oppsigelse-suspensjon-eller-avskjed">§ 37. Virkninger av ulovlig ordensstraff, oppsigelse, suspensjon eller avskjed</a></li>
+<li class="lvl4"><a href="#38-virkninger-av-ulovlig-midlertidig-ansettelse-eller-innleie">§ 38. Virkninger av ulovlig midlertidig ansettelse eller innleie</a></li>
+<li class="lvl2"><a href="#kapittel-6-srlige-bestemmelser">Kapittel 6. Særlige bestemmelser</a></li>
+<li class="lvl4"><a href="#39-forbud-mot-gaver-i-tjenesten-mv">§ 39. Forbud mot gaver i tjenesten mv.</a></li>
+<li class="lvl4"><a href="#39-a-registrering-av-statsansattes-og-embetsmenns-verv-og-konomiske-interesser">§ 39 a. Registrering av statsansattes og embetsmenns verv og økonomiske interesser</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#40-ikrafttredelse">§ 40. Ikrafttredelse</a></li>
+<li class="lvl4"><a href="#41-overgangsregler-personalreglement">§ 41. Overgangsregler – personalreglement</a></li>
+<li class="lvl4"><a href="#42-overgangsregler-stillingsvern">§ 42. Overgangsregler – stillingsvern</a></li>
+<li class="lvl4"><a href="#43-overgangsregler-aremal">§ 43. Overgangsregler – åremål</a></li>
+<li class="lvl4"><a href="#44-overgangsregler-innleie">§ 44. Overgangsregler – innleie</a></li>
+<li class="lvl4"><a href="#45-opphevelse-av-og-endring-i-andre-lover">§ 45. Opphevelse av og endring i andre lover</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-67.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/lover/lov-2017-06-16-67.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/lover/lov-2017-06-16-67.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/lov-2017-06-16-67.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/lov-2017-06-16-67.html">Observerte kildeutgaver</a> · <a href="../historie/statsansatteloven.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/03d6d0f2fba897f681fdb7a5371d82267b1bc13e/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/1ce74661c39b1f8addc4b7d753f4f2a05f63968c/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/da5aa7d485eb33be2a319426343ddbb86ce71318/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/861fc8232103bb96b4855c936998e5081d823622/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/78f8e6ad8c63185207809fd85585437d34e93ebc/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/efc47b195e7b4b78c5900e4440b425fcd93c733c/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/096496cd477308d5df2a6573a31ef3ab3a021af6/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2026</a>
-</div>
+<a href="../feeds/lov-2017-06-16-67.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/lov-2017-06-16-67.html">Observerte kildeutgaver</a> · <a href="../historie/statsansatteloven.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2017/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2017</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2018/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2018</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2019/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2019</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2020/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2020</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2021/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2021</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2022/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2022</a> <a href="https://github.com/sondreskarsten/norwegian-laws/blob/v2026/lover/lov-2017-06-16-67.md" title="Uverifisert rekonstruksjon">v2026</a></p>
+</details>
 
-<h1 id="lov-om-statens-ansatte-mv-statsansatteloven">Lov om statens ansatte mv. (statsansatteloven)</h1>
 <h2 id="kapittel-1-lovens-virkeomrade-personalreglement">Kapittel 1. Lovens virkeområde. Personalreglement.</h2>
 <h4 id="1-lovens-virkeomrade-og-definisjoner">§ 1. Lovens virkeområde og definisjoner</h4>
 <p>(1) Loven gjelder for arbeidstakere i staten. Loven gjelder for embetsmenn og for innleie av arbeidstakere i statlig virksomhet der det er uttrykkelig sagt.</p>
@@ -84,7 +235,7 @@ Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
 <p>(3) Loven gjelder ikke for statsråder, statssekretærer og politiske rådgivere.</p>
 <p>(4) Reglene i §§ 4 til 7 , § 11 tredje ledd og § 24 gjelder ikke for ansatte i Stortinget, andre organer under Stortinget, hos Stortingets ombud eller i Sametinget.</p>
 <p>(5) Der det er tvil om hvem som er omfattet av loven, kan Kongen gi forskrift om hvem loven skal gjelde for. Kongen kan også gi forskrift om at grupper av statsansatte helt eller delvis skal være unntatt fra loven når det foreligger særlige grunner for det.</p>
-<p><em>Endret ved lov 20 des 2022 nr. 115 .</em></p>
+<p class="note">Endret ved lov 20 des 2022 nr. 115 .</p>
 <h4 id="2-personalreglement">§ 2. Personalreglement</h4>
 <p>(1) Bestemmelser som etter loven skal fastsettes ved personalreglement, avtales mellom ledelsen for virksomheten og tjenestemannsorganisasjonene i virksomheten som har forhandlingsrett etter lov 18. juli 1958 nr. 2 om offentlige tjenestetvister . Det kan også inngås avtale om personalreglement for grupper av virksomheter.</p>
 <p>(2) Før avtale inngås, skal departementet treffe vedtak om hvilke statsansatte som skal ansettes av departementet eller beskikkes av Kongen.</p>
@@ -95,7 +246,7 @@ b. det inneholder bestemmelsene som etter loven skal fastsettes i personalreglem
 c. det ikke inneholder bestemmelser som strider mot lov eller vedtak fattet med hjemmel i lov, eller avtaler sluttet mellom staten og hovedsammenslutningene.</p>
 <p>(5) Partene kan når som helst kreve at personalreglementet tas opp til revisjon. Den samme retten har departementet.</p>
 <p>(6) Ved opprettelse av ny virksomhet eller sammenslåing eller omorganisering som berører flere virksomheter, kan det ansvarlige departementet fastsette et midlertidig personalreglement. Før et personalreglement fastsettes, skal det innhentes synspunkter fra virksomhetens ledelse og de lokale representantene for tjenestemannsorganisasjonene nevnt i første ledd. Endelig personalreglement for virksomheten fastsettes i avtale som nevnt i første ledd.</p>
-<p><em>Endret ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</em></p>
+<p class="note">Endret ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</p>
 <h2 id="kapittel-2-ansettelse-mv">Kapittel 2. Ansettelse mv.</h2>
 <h4 id="3-kvalifikasjonsprinsippet">§ 3. Kvalifikasjonsprinsippet</h4>
 <p>(1) Den best kvalifiserte søkeren skal ansettes eller utnevnes i ledig stilling eller embete, med mindre det er gjort unntak i lov eller forskrift.</p>
@@ -139,7 +290,7 @@ e. for en periode på inntil seks måneder når det har oppstått et uforutsett 
 <p>(2) Det enkelte departementet kan bestemme at øverste leder i en virksomhet skal ansettes på åremål.</p>
 <p>(3) Ansettelse på åremål kan benyttes for postdoktorstillinger.</p>
 <p>(4) Kongen kan gi forskrift om åremålsstillinger og adgangen til å benytte åremålsstillinger ved tjeneste på Svalbard og Jan Mayen.</p>
-<p><em>Endret ved lov 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</em></p>
+<p class="note">Endret ved lov 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</p>
 <h4 id="11-innleie-fra-virksomhet-som-har-til-formal-a-drive-utleie-bemanningsforetak">§ 11. Innleie fra virksomhet som har til formål å drive utleie (bemanningsforetak)</h4>
 <p>(1) Innleie av arbeidstaker fra virksomhet som har til formål å drive utleie (bemanningsforetak), er tillatt i samme utstrekning som det kan avtales midlertidig ansettelse etter § 9 første ledd bokstav b.</p>
 <p>(2) Arbeidsgiver og tjenestemannsorganisasjoner i virksomheten som har forhandlingsrett etter lov 18. juli 1958 nr. 2 om offentlige tjenestetvister , kan skriftlig avtale tidsbegrenset innleie uten hinder av det som er bestemt i første ledd.</p>
@@ -148,12 +299,12 @@ e. for en periode på inntil seks måneder når det har oppstått et uforutsett 
 <p>(5) Kongen kan i forskrift forby innleie for visse arbeidstakergrupper eller på visse områder når viktige samfunnshensyn tilsier det.</p>
 <p>(6) For øvrig gjelder <a href="lov-2005-06-17-62.html">arbeidsmiljøloven</a> §§ 14-12 a første og annet ledd, 14-12 b og 14-12 c .</p>
 <p>(7) Arbeidstilsynet fører tilsyn med at bestemmelsene i første og annet ledd blir overholdt. Arbeidstilsynet gir de pålegg og treffer de enkeltvedtak ellers som er nødvendige for gjennomføringen av bestemmelsene. Arbeidsmiljøloven § 18-5 , § 18-6 annet, sjette, syvende og åttende ledd og §§ 18-7 , 18-8 og 18-10 får tilsvarende anvendelse.</p>
-<p><em>Endret ved lover 19 juni 2020 nr. 69 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1233 ), 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ), 20 des 2022 nr. 99 (i kraft 1 apr 2023 iflg. res. 20 des 2022 nr. 2300 ), 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</em></p>
+<p class="note">Endret ved lover 19 juni 2020 nr. 69 (ikr. 1 juli 2020 iflg. res. 19 juni 2020 nr. 1233 ), 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ), 20 des 2022 nr. 99 (i kraft 1 apr 2023 iflg. res. 20 des 2022 nr. 2300 ), 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</p>
 <h4 id="12-innleie-av-arbeidstakere-fra-virksomhet-som-ikke-har-til-formal-a-drive-utleie">§ 12. Innleie av arbeidstakere fra virksomhet som ikke har til formål å drive utleie</h4>
 <p>(1) Innleie av arbeidstakere fra virksomhet som ikke har til formål å drive utleie, er tillatt når den innleide arbeidstakeren er fast ansatt hos utleieren. For at virksomheten skal sies ikke å ha til formål å drive utleie, er det et vilkår at utleie skjer innenfor de samme fagområder som utgjør utleierens hovedbeskjeftigelse og at utleieaktiviteten ikke omfatter mer enn 50 prosent av de fast ansatte hos utleier. Arbeidsgiver og tjenestemannsorganisasjoner i virksomheten som har forhandlingsrett etter lov 18. juli 1958 nr. 2 om offentlige tjenestetvister , skal gjennomføre drøftinger før det treffes beslutning om innleie.</p>
 <p>(2) For innleie som overstiger ti prosent av de ansatte, og som har en varighet ut over ett år, skal det inngås avtale med tjenestemannsorganisasjonene i virksomheten. Kravet gjelder likevel ikke ved innleie av inntil to personer.</p>
 <p>(3) Kongen kan i forskrift forby innleie for visse arbeidstakergrupper eller på visse områder når viktige samfunnshensyn tilsier det.</p>
-<p><em>Endret ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</em></p>
+<p class="note">Endret ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</p>
 <h4 id="13-fortrinnsrett-for-deltidsansatte-mv">§ 13. Fortrinnsrett for deltidsansatte mv.</h4>
 <p>(1) Deltidsansatte har fortrinnsrett til utvidet stilling fremfor at arbeidsgiver foretar ny ansettelse eller innleie i virksomheten. Fortrinnsretten kan også gjelde en del av en stilling.</p>
 <p>(2) Deltidsansatte har fortrinnsrett til ekstravakter og lignende i virksomheten fremfor at arbeidsgiver ansetter eller leier inn arbeidstakere til dette arbeidet. Dette gjelder også for midlertidig ansatte. For virksomheter med flere tjenestesteder gjelder fortrinnsretten det enkelte tjenestestedet. Arbeidsgiveren kan etter drøftinger med de tillitsvalgte avgrense virkeområdet for utøvelse av denne fortrinnsretten til én eller flere enheter med til sammen minst 30 ansatte.</p>
@@ -162,7 +313,7 @@ e. for en periode på inntil seks måneder når det har oppstått et uforutsett 
 <p>(5) Kongen kan i forskrift gi nærmere regler om fortrinnsrett etter denne paragrafen.</p>
 <p>(6) Tvister om fortrinnsrett for deltidsansatte etter første ledd avgjøres av tvisteløsningsnemnda, jf. arbeidsmiljøloven § 17-2 .</p>
 <p>(7) Rett til stilling tilsvarende faktisk arbeidstid for statsansatt som er deltidsansatt reguleres av arbeidsmiljøloven § 14-4 a . Virkninger av brudd på denne retten reguleres av arbeidsmiljøloven § 14-4 b .</p>
-<p><em>Endret ved lover 22 juni 2018 nr. 45 (ikr. 1 jan 2019 iflg. res. 22 juni 2018 nr. 945 ), 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</em></p>
+<p class="note">Endret ved lover 22 juni 2018 nr. 45 (ikr. 1 jan 2019 iflg. res. 22 juni 2018 nr. 945 ), 20 juni 2025 nr. 43 (i kraft 1 jan 2026 iflg. res. 20 juni 2025 nr. 1127 ).</p>
 <h4 id="14-adgang-til-aremal-og-konstitusjon-av-embetsmenn">§ 14. Adgang til åremål og konstitusjon av embetsmenn</h4>
 <p>(1) Embetsmann utnevnes fast i embetet, men kan konstitueres</p>
 <p>a. når embetsmannen bare trengs for et begrenset tidsrom eller for å utføre et bestemt oppdrag
@@ -173,7 +324,7 @@ d. for en periode på inntil seks måneder.</p>
 <p>(3) Innleie etter §§ 11 og 12 kan ikke benyttes til embeter.</p>
 <p>(4) Statsforvaltere kan utnevnes på åremål.</p>
 <p>(5) Kongen kan i forskrift gi nærmere regler om utnevning av embetsmenn i åremålsstillinger.</p>
-<p><em>Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</em></p>
+<p class="note">Endret ved lov 7 mai 2021 nr. 34 (ikr. 1 juni 2021 iflg. res. 7 mai 2021 nr. 1416 ).</p>
 <h2 id="kapittel-3-opphr-av-arbeidsforholdet-ordensstraff-plikt-til-a-overta-andre-arbeidsoppgaver-mv">Kapittel 3. Opphør av arbeidsforholdet, ordensstraff, plikt til å overta andre arbeidsoppgaver mv.</h2>
 <h4 id="15-prvetid-for-statsansatte">§ 15. Prøvetid for statsansatte</h4>
 <p>(1) For statsansatte gjelder en prøvetid på seks måneder, med mindre ansettelsesorganet har bestemt at prøvetiden ikke skal gjelde. Det gjelder ikke prøvetid ved ny ansettelse i samme stilling eller ved ansettelse i en stilling som i det vesentlige er likeartet med stillingen den ansatte har hatt i samme virksomhet. Ved fast ansettelse gjelder likevel prøvetid dersom tidligere ansettelsestid og prøvetid i den nye stillingen samlet ikke overstiger seks måneder. Prøvetiden for midlertidig ansettelse kan ikke overstige halvparten av ansettelsesforholdets varighet.</p>
@@ -183,7 +334,7 @@ d. for en periode på inntil seks måneder.</p>
 <p>(5) Adgangen til oppsigelse etter fjerde ledd gjelder bare dersom den ansatte har mottatt skriftlig forhåndsvarsel om oppsigelse innen prøvetidens utløp.</p>
 <p>(6) Ansatte som har plikt til å gjennomgå en bestemt opplæring, er ansatt på prøve inntil opplæringen er avsluttet, eller prøve eller eksamen er bestått. Hvis opplæringen ikke er fullført på tilfredsstillende måte, gjelder en oppsigelsesfrist på én måned. Det kan fastsettes i reglement på hvilken måte og etter hvilke kriterier det skal avgjøres om opplæringen er fullført på en tilfredsstillende måte.</p>
 <p>(7) Bestemmelsen i denne paragrafen innskrenker ikke arbeidsgivers rett til å si opp den ansatte etter §§ 19 og 20 .</p>
-<p><em>Endret ved lov 15 des 2023 nr. 88 (i kraft 1 juli 2024 iflg. res. 15 des 2023 nr. 2066 ).</em></p>
+<p class="note">Endret ved lov 15 des 2023 nr. 88 (i kraft 1 juli 2024 iflg. res. 15 des 2023 nr. 2066 ).</p>
 <h4 id="16-plikt-til-a-overta-andre-arbeidsoppgaver-mv">§ 16. Plikt til å overta andre arbeidsoppgaver mv.</h4>
 <p>(1) Alle statsansatte og embetsmenn i departementene og ved Statsministerens kontor har plikt til å finne seg i omorganiseringer og endringer i arbeidsoppgaver og ansvar.</p>
 <p>(2) Statsansatte og embetsmenn som ikke omfattes av hovedtariffavtalen i staten, og som får sine lønns- og arbeidsvilkår fastsatt i særskilt kontrakt, har plikt til å finne seg i omplassering til andre arbeidsoppgaver i virksomheten eller pålegg om å stå til rådighet for spesielle oppdrag, dersom avtalefestede krav til resultater ikke innfris. Dette gjelder selv om vilkårene for oppsigelse etter §§ 19 eller 20 eller vilkårene for avskjed etter § 27 første ledd bokstav a eller b, ikke er oppfylt. Dette leddet gjelder ikke embetsmenn som omfattes av Grunnloven § 22 annet ledd.</p>
@@ -328,7 +479,7 @@ b. ikke lenger har de kvalifikasjoner som er nødvendige eller foreskrevet for e
 <p>(2) Overtredelse kan medføre ordensstraff, oppsigelse eller avskjed.</p>
 <h4 id="39-a-registrering-av-statsansattes-og-embetsmenns-verv-og-konomiske-interesser">§ 39 a. Registrering av statsansattes og embetsmenns verv og økonomiske interesser</h4>
 <p>For å forebygge interessekonflikter, kan en virksomhet fastsette at ansatte i bestemte stillinger skal registrere sine verv og økonomiske interesser dersom det er nødvendig ut fra virksomhetens ansvars- og arbeidsområder og de ansattes stilling eller funksjon. Det skal da også fastsettes hvilke opplysninger som omfattes av registreringsplikten, og hvordan registreringen skal skje.</p>
-<p><em>Tilføyd ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</em></p>
+<p class="note">Tilføyd ved lov 8 april 2022 nr. 23 (i kraft 1 jan 2023 iflg. res. 8 april 2022 nr. 548 ).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <h4 id="40-ikrafttredelse">§ 40. Ikrafttredelse</h4>
 <p>Loven gjelder fra den tid 1 Kongen bestemmer.</p>
@@ -346,6 +497,8 @@ b. ikke lenger har de kvalifikasjoner som er nødvendige eller foreskrevet for e
 <p>Fra loven trer i kraft gjøres følgende endringer i andre lover:</p>
 <p><em>1. Lov 4. mars 1983 nr. 3 om statens tjenestemenn m.m. oppheves
 – – –</em></p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

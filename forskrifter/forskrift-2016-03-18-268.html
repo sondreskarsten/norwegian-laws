@@ -19,64 +19,193 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2016-03-18-268.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Helsearkivforskriften" href="../feeds/forskrift-2016-03-18-268.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-helse--og-omsorgsdepartementet.html">Helse- og omsorgsdepartementet</a> &rsaquo;
 <span>Helsearkivforskriften</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2016-03-18-268</code></dd>
-<dt>Departement</dt><dd>Helse- og omsorgsdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>2016-03-18, 2018-01-01</dd>
-<dt>Sist endret</dt><dd>forskrift/2023-12-20-2165</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2016-03-18-268" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-etablering-av-helsearkivregisteret">§ 1. Etablering av Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#2-formal">§ 2. Formål</a></li>
+<li class="lvl4"><a href="#3-opplysninger-i-helsearkivregisteret">§ 3. Opplysninger i Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#4-grunnleggende-bestandsopplysninger">§ 4. Grunnleggende bestandsopplysninger</a></li>
+<li class="lvl4"><a href="#5-supplerende-bestandsopplysninger">§ 5. Supplerende bestandsopplysninger</a></li>
+<li class="lvl4"><a href="#6-bevaring-av-helseopplysninger">§ 6. Bevaring av helseopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-2-spesialisthelsetjenestens-plikt-til-a-avlevere-pasientarkiv-til-norsk-helsearkiv">Kapittel 2. Spesialisthelsetjenestens plikt til å avlevere pasientarkiv til Norsk helsearkiv</a></li>
+<li class="lvl4"><a href="#7-avlevering-av-fysisk-pasientarkivmateriale-fra-navngitte-virksomheter">§ 7. Avlevering av fysisk pasientarkivmateriale fra navngitte virksomheter</a></li>
+<li class="lvl4"><a href="#8-avlevering-av-fysisk-pasientarkivmateriale-fra-virksomheter-som-yter-eller-har-ytet-nasjonale-eller-flerregionale-behandlingstjenester">§ 8. Avlevering av fysisk pasientarkivmateriale fra virksomheter som yter eller har ytet nasjonale eller flerregionale behandlingstjenester</a></li>
+<li class="lvl4"><a href="#9-avlevering-av-alt-fysisk-pasientarkivmateriale-fra-eldre-pasientjournaler">§ 9. Avlevering av alt fysisk pasientarkivmateriale fra eldre pasientjournaler</a></li>
+<li class="lvl4"><a href="#10-avlevering-av-vrig-fysisk-pasientarkivmateriale">§ 10. Avlevering av øvrig fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#11-avlevering-av-informasjon-fra-elektroniske-pasientjournaler">§ 11. Avlevering av informasjon fra elektroniske pasientjournaler</a></li>
+<li class="lvl4"><a href="#12-avleveringsplikt-for-private-virksomheter-i-spesialisthelsetjenesten">§ 12. Avleveringsplikt for private virksomheter i spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#13-kartoteker-og-hjelpemidler-for-a-finne-frem-i-arkivmaterialet">§ 13. Kartoteker og hjelpemidler for å finne frem i arkivmaterialet</a></li>
+<li class="lvl4"><a href="#14-avlevering-til-norsk-helsearkiv-etter-vedtak-av-riksarkivaren">§ 14. Avlevering til Norsk helsearkiv etter vedtak av Riksarkivaren</a></li>
+<li class="lvl2"><a href="#kapittel-3-bevarings-og-kassasjonsplaner">Kapittel 3. Bevarings- og kassasjonsplaner</a></li>
+<li class="lvl4"><a href="#15-plikt-til-a-utarbeide-bevarings-og-kassasjonsplan">§ 15. Plikt til å utarbeide bevarings- og kassasjonsplan</a></li>
+<li class="lvl4"><a href="#16-innsending-av-bevarings-og-kassasjonsplan">§ 16. Innsending av bevarings- og kassasjonsplan</a></li>
+<li class="lvl2"><a href="#kapittel-4-gjennomfring-av-avlevering-og-kassasjon">Kapittel 4. Gjennomføring av avlevering og kassasjon</a></li>
+<li class="lvl4"><a href="#17-tidspunkt-for-avlevering-av-pasientarkivmateriale">§ 17. Tidspunkt for avlevering av pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#18-tidligere-avlevering-av-fysisk-pasientarkivmateriale">§ 18. Tidligere avlevering av fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#19-inaktive-pasientjournaler-der-pasientens-ddsar-ikke-er-kjent">§ 19. Inaktive pasientjournaler der pasientens dødsår ikke er kjent</a></li>
+<li class="lvl4"><a href="#20-arkivbegrensning">§ 20. Arkivbegrensning</a></li>
+<li class="lvl4"><a href="#21-digitalisering-og-kassasjon">§ 21. Digitalisering og kassasjon</a></li>
+<li class="lvl4"><a href="#22-avtale-om-avlevering">§ 22. Avtale om avlevering</a></li>
+<li class="lvl4"><a href="#23-avleveringsliste-ved-avlevering-av-fysisk-pasientarkivmateriale">§ 23. Avleveringsliste ved avlevering av fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#24-digital-avlevering">§ 24. Digital avlevering</a></li>
+<li class="lvl4"><a href="#25-avlevering-av-mangelfullt-eller-skadet-materiale">§ 25. Avlevering av mangelfullt eller skadet materiale</a></li>
+<li class="lvl4"><a href="#26-kvittering-for-mottatt-materiale">§ 26. Kvittering for mottatt materiale</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-avlevert-arkivmateriale-i-norsk-helsearkiv-og-helsearkivregisteret">Kapittel 5. Behandling av avlevert arkivmateriale i Norsk helsearkiv og Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#27-digitalisering-av-mottatt-fysisk-arkivmateriale">§ 27. Digitalisering av mottatt fysisk arkivmateriale</a></li>
+<li class="lvl4"><a href="#28-langtidsbevaring">§ 28. Langtidsbevaring</a></li>
+<li class="lvl4"><a href="#29-kvalitetskontroll-av-bestandsopplysninger-i-helsearkivregisteret">§ 29. Kvalitetskontroll av bestandsopplysninger i Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#30-taushetsplikt">§ 30. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilgjengeliggjring-av-opplysninger">Kapittel 6. Tilgjengeliggjøring av opplysninger</a></li>
+<li class="lvl4"><a href="#31-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 31. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#32-sikkerhets-og-forsvarlighetskrav-ved-tilgjengeliggjring">§ 32. Sikkerhets- og forsvarlighetskrav ved tilgjengeliggjøring</a></li>
+<li class="lvl4"><a href="#33-oversikt-over-tilgjengeliggjring">§ 33. Oversikt over tilgjengeliggjøring</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#34-ikraftsetting">§ 34. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#35-endringer-i-andre-forskrifter">§ 35. Endringer i andre forskrifter</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2023-12-20-2165.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-03-18-268.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om Norsk helsearkiv og Helsearkivregisteret (helsearkivforskriften)</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-03-18-268.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2016-03-18-268 <code>forskrift/2016-03-18-268</code></td></tr>
+<tr><th>Korttittel</th><td>Helsearkivforskriften</td></tr>
+<tr><th>Departement</th><td>Helse- og omsorgsdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>18.03.2016, 01.01.2018</td></tr>
+<tr><th>Sist endret</th><td>FOR-2023-12-20-2165 <code>forskrift/2023-12-20-2165</code> fra 01.01.2024</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2016-03-18-268" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</a></li>
+<li class="lvl4"><a href="#1-etablering-av-helsearkivregisteret">§ 1. Etablering av Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#2-formal">§ 2. Formål</a></li>
+<li class="lvl4"><a href="#3-opplysninger-i-helsearkivregisteret">§ 3. Opplysninger i Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#4-grunnleggende-bestandsopplysninger">§ 4. Grunnleggende bestandsopplysninger</a></li>
+<li class="lvl4"><a href="#5-supplerende-bestandsopplysninger">§ 5. Supplerende bestandsopplysninger</a></li>
+<li class="lvl4"><a href="#6-bevaring-av-helseopplysninger">§ 6. Bevaring av helseopplysninger</a></li>
+<li class="lvl2"><a href="#kapittel-2-spesialisthelsetjenestens-plikt-til-a-avlevere-pasientarkiv-til-norsk-helsearkiv">Kapittel 2. Spesialisthelsetjenestens plikt til å avlevere pasientarkiv til Norsk helsearkiv</a></li>
+<li class="lvl4"><a href="#7-avlevering-av-fysisk-pasientarkivmateriale-fra-navngitte-virksomheter">§ 7. Avlevering av fysisk pasientarkivmateriale fra navngitte virksomheter</a></li>
+<li class="lvl4"><a href="#8-avlevering-av-fysisk-pasientarkivmateriale-fra-virksomheter-som-yter-eller-har-ytet-nasjonale-eller-flerregionale-behandlingstjenester">§ 8. Avlevering av fysisk pasientarkivmateriale fra virksomheter som yter eller har ytet nasjonale eller flerregionale behandlingstjenester</a></li>
+<li class="lvl4"><a href="#9-avlevering-av-alt-fysisk-pasientarkivmateriale-fra-eldre-pasientjournaler">§ 9. Avlevering av alt fysisk pasientarkivmateriale fra eldre pasientjournaler</a></li>
+<li class="lvl4"><a href="#10-avlevering-av-vrig-fysisk-pasientarkivmateriale">§ 10. Avlevering av øvrig fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#11-avlevering-av-informasjon-fra-elektroniske-pasientjournaler">§ 11. Avlevering av informasjon fra elektroniske pasientjournaler</a></li>
+<li class="lvl4"><a href="#12-avleveringsplikt-for-private-virksomheter-i-spesialisthelsetjenesten">§ 12. Avleveringsplikt for private virksomheter i spesialisthelsetjenesten</a></li>
+<li class="lvl4"><a href="#13-kartoteker-og-hjelpemidler-for-a-finne-frem-i-arkivmaterialet">§ 13. Kartoteker og hjelpemidler for å finne frem i arkivmaterialet</a></li>
+<li class="lvl4"><a href="#14-avlevering-til-norsk-helsearkiv-etter-vedtak-av-riksarkivaren">§ 14. Avlevering til Norsk helsearkiv etter vedtak av Riksarkivaren</a></li>
+<li class="lvl2"><a href="#kapittel-3-bevarings-og-kassasjonsplaner">Kapittel 3. Bevarings- og kassasjonsplaner</a></li>
+<li class="lvl4"><a href="#15-plikt-til-a-utarbeide-bevarings-og-kassasjonsplan">§ 15. Plikt til å utarbeide bevarings- og kassasjonsplan</a></li>
+<li class="lvl4"><a href="#16-innsending-av-bevarings-og-kassasjonsplan">§ 16. Innsending av bevarings- og kassasjonsplan</a></li>
+<li class="lvl2"><a href="#kapittel-4-gjennomfring-av-avlevering-og-kassasjon">Kapittel 4. Gjennomføring av avlevering og kassasjon</a></li>
+<li class="lvl4"><a href="#17-tidspunkt-for-avlevering-av-pasientarkivmateriale">§ 17. Tidspunkt for avlevering av pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#18-tidligere-avlevering-av-fysisk-pasientarkivmateriale">§ 18. Tidligere avlevering av fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#19-inaktive-pasientjournaler-der-pasientens-ddsar-ikke-er-kjent">§ 19. Inaktive pasientjournaler der pasientens dødsår ikke er kjent</a></li>
+<li class="lvl4"><a href="#20-arkivbegrensning">§ 20. Arkivbegrensning</a></li>
+<li class="lvl4"><a href="#21-digitalisering-og-kassasjon">§ 21. Digitalisering og kassasjon</a></li>
+<li class="lvl4"><a href="#22-avtale-om-avlevering">§ 22. Avtale om avlevering</a></li>
+<li class="lvl4"><a href="#23-avleveringsliste-ved-avlevering-av-fysisk-pasientarkivmateriale">§ 23. Avleveringsliste ved avlevering av fysisk pasientarkivmateriale</a></li>
+<li class="lvl4"><a href="#24-digital-avlevering">§ 24. Digital avlevering</a></li>
+<li class="lvl4"><a href="#25-avlevering-av-mangelfullt-eller-skadet-materiale">§ 25. Avlevering av mangelfullt eller skadet materiale</a></li>
+<li class="lvl4"><a href="#26-kvittering-for-mottatt-materiale">§ 26. Kvittering for mottatt materiale</a></li>
+<li class="lvl2"><a href="#kapittel-5-behandling-av-avlevert-arkivmateriale-i-norsk-helsearkiv-og-helsearkivregisteret">Kapittel 5. Behandling av avlevert arkivmateriale i Norsk helsearkiv og Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#27-digitalisering-av-mottatt-fysisk-arkivmateriale">§ 27. Digitalisering av mottatt fysisk arkivmateriale</a></li>
+<li class="lvl4"><a href="#28-langtidsbevaring">§ 28. Langtidsbevaring</a></li>
+<li class="lvl4"><a href="#29-kvalitetskontroll-av-bestandsopplysninger-i-helsearkivregisteret">§ 29. Kvalitetskontroll av bestandsopplysninger i Helsearkivregisteret</a></li>
+<li class="lvl4"><a href="#30-taushetsplikt">§ 30. Taushetsplikt</a></li>
+<li class="lvl2"><a href="#kapittel-6-tilgjengeliggjring-av-opplysninger">Kapittel 6. Tilgjengeliggjøring av opplysninger</a></li>
+<li class="lvl4"><a href="#31-tilgjengeliggjring-og-annen-behandling-av-helseopplysninger">§ 31. Tilgjengeliggjøring og annen behandling av helseopplysninger</a></li>
+<li class="lvl4"><a href="#32-sikkerhets-og-forsvarlighetskrav-ved-tilgjengeliggjring">§ 32. Sikkerhets- og forsvarlighetskrav ved tilgjengeliggjøring</a></li>
+<li class="lvl4"><a href="#33-oversikt-over-tilgjengeliggjring">§ 33. Oversikt over tilgjengeliggjøring</a></li>
+<li class="lvl2"><a href="#kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</a></li>
+<li class="lvl4"><a href="#34-ikraftsetting">§ 34. Ikraftsetting</a></li>
+<li class="lvl4"><a href="#35-endringer-i-andre-forskrifter">§ 35. Endringer i andre forskrifter</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-03-18-268.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2016-03-18-268.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2016-03-18-268.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2016-03-18-268.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2016-03-18-268.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-03-18-268.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2016-03-18-268.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2016-03-18-268.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2016-03-18-268.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-norsk-helsearkiv-og-helsearkivregisteret-helsearkivforskriften">Forskrift om Norsk helsearkiv og Helsearkivregisteret (helsearkivforskriften)</h1>
 <h2 id="kapittel-1-generelle-bestemmelser">Kapittel 1. Generelle bestemmelser</h2>
 <h4 id="1-etablering-av-helsearkivregisteret">§ 1. Etablering av Helsearkivregisteret</h4>
 <p>Forskriften etablerer Helsearkivregisteret i Norsk helsearkiv. Registeret består av materiale som er avlevert til Norsk helsearkiv og av bestandsopplysninger om dette.</p>
@@ -159,7 +288,7 @@ b. pasientens fødselsår er ukjent, og det er ikke ført noe inn i journalen i 
 c. særlige forhold tilsier svært høy sannsynlighet for at pasienten har vært død i minst 10 år.</p>
 <h4 id="20-arkivbegrensning">§ 20. Arkivbegrensning</h4>
 <p>Før avlevering av pasientjournalarkiver skal det gjennomføres arkivbegrensning. Materiale som ikke er arkivverdig skal skilles ut og kan makuleres eller slettes, jf. forskrift 15. desember 2017 nr. 2105 om offentlege arkiv § 14 .</p>
-<p><em>Endret ved forskrift 15 des 2017 nr. 2105 (i kraft 1 jan 2018).</em></p>
+<p class="note">Endret ved forskrift 15 des 2017 nr. 2105 (i kraft 1 jan 2018).</p>
 <h4 id="21-digitalisering-og-kassasjon">§ 21. Digitalisering og kassasjon</h4>
 <p>Når dokumenter er digitalisert og arkivert i en elektronisk pasientjournal, jf. helsepersonelloven § 39 og § 40 , kan de fysiske originaldokumentene kasseres.</p>
 <p>Virksomheter som skal avlevere fysisk pasientarkivmateriale i sin helhet etter bestemmelsene i § 7 til § 9 kan ikke kassere originalmaterialet selv om dette er digitalisert, hvis ikke Riksarkivaren har fattet vedtak om kassasjon.</p>
@@ -197,7 +326,7 @@ d. henvisninger mellom pasientarkiv og relevante administrative saker i sakarkiv
 <p>Både digitalisert materiale og digitalt skapte arkiver kan overføres til og tilpasses nye lagringsmedier eller lagringsformater når det er hensiktsmessig ut fra formålet i § 2 .</p>
 <h4 id="29-kvalitetskontroll-av-bestandsopplysninger-i-helsearkivregisteret">§ 29. Kvalitetskontroll av bestandsopplysninger i Helsearkivregisteret</h4>
 <p>Norsk helsearkiv skal arbeide systematisk med å forbedre og komplettere bestandsopplysningene i Helsearkivregisteret. Som ledd i kvalitetskontrollen, kan det gjøres rutinemessige samkjøringer mot Folkeregisteret, Dødsårsaksregisteret og Norsk pasientregister.</p>
-<p><em>Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</em></p>
+<p class="note">Endret ved forskrift 15 juni 2018 nr. 876 (i kraft 20 juli 2018).</p>
 <h4 id="30-taushetsplikt">§ 30. Taushetsplikt</h4>
 <p>Enhver som behandler helseopplysninger etter denne forskriften, har taushetsplikt etter helsepersonelloven § 21 flg.</p>
 <h2 id="kapittel-6-tilgjengeliggjring-av-opplysninger">Kapittel 6. Tilgjengeliggjøring av opplysninger</h2>
@@ -206,24 +335,26 @@ d. henvisninger mellom pasientarkiv og relevante administrative saker i sakarkiv
 <p>Helseopplysninger i Helsearkivregisteret skal behandles i samsvar med personvernforordningen , personopplysningsloven og de alminnelige vilkårene i helseregisterloven § 6 og reglene om taushetsplikt i helseregisterloven § 17 , jf. helsepersonelloven §§ 21 flg.</p>
 <p>Søknad om tilgjengeliggjøring av helseopplysninger til pasientens pårørende avgjøres av Norsk helsearkiv.</p>
 <p>Ved tilgjengeliggjøring og sammenstilling av opplysninger i registeret gjelder i tillegg helseregisterloven § 19 til § 19h . Det skal vurderes om pårørende først skal informeres og gis adgang til å motsette seg at opplysninger tilgjengeliggjøres med direkte personidentifiserende kjennetegn, jf. helseregisterloven § 19a andre ledd andre punktum. Norsk helsearkiv kan fastsette nærmere formkrav for søknad om tilgjengeliggjøring av opplysninger.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021), 20 des 2023 nr. 2165 (i kraft 1 jan 2024).</p>
 <h4 id="32-sikkerhets-og-forsvarlighetskrav-ved-tilgjengeliggjring">§ 32. Sikkerhets- og forsvarlighetskrav ved tilgjengeliggjøring</h4>
 <p>Norsk helsearkiv skal sikre at pasientarkivmateriale tilgjengeliggjøres på en slik måte at materialet ikke skades eller utsettes for uforsvarlig slitasje.</p>
 <p>Norsk helsearkiv skal forvisse seg om at utlevering eller tilgjengeliggjøring på annen måte av kopier og digitale uttrekk skjer til rett mottaker.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h4 id="33-oversikt-over-tilgjengeliggjring">§ 33. Oversikt over tilgjengeliggjøring</h4>
 <p>Norsk helsearkiv skal føre oversikt over tilgjengeliggjøring fra Helsearkivregisteret. Oversikten skal omfatte opplysninger om:</p>
 <p>a. hvem som har fått opplysningene
 b. hva som er det rettslige grunnlaget for mottakerens bruk av opplysningene
 c. utvalgskriteriene eller referanser til det arkivmateriale de tilgjengeliggjorte opplysningene er hentet fra
 d. eventuelle vilkår fastsatt etter helseregisterloven § 19a fjerde ledd.</p>
-<p><em>Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</em></p>
+<p class="note">Endret ved forskrifter 15 juni 2018 nr. 876 (i kraft 20 juli 2018), 23 april 2021 nr. 1269 som endret ved forskrift 12 mai 2021 nr. 1902 (i kraft 1 juni 2021).</p>
 <h2 id="kapittel-7-avsluttende-bestemmelser">Kapittel 7. Avsluttende bestemmelser</h2>
 <h4 id="34-ikraftsetting">§ 34. Ikraftsetting</h4>
 <p>Forskriftens kapitler 1, 3, 5 og 7 trer i kraft straks. Forskriftens kapitler 2, 4 og 6 trer i kraft fra den tid departementet bestemmer. 1 Departementet kan bestemme at de enkelte bestemmelsene skal tre i kraft til ulik tid.</p>
 <p><em>1 Kapitlene 2 , 4 og 6 trer i kraft 1 jan 2018 iflg. vedtak 27 okt 2017 nr. 1703 .</em></p>
 <h4 id="35-endringer-i-andre-forskrifter">§ 35. Endringer i andre forskrifter</h4>
 <p>Fra den tid forskriften trer i kraft, gjøres følgende endringer i andre forskrifter: – – –</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>

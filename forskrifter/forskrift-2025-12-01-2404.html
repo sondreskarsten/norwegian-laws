@@ -19,64 +19,325 @@
 <link rel="canonical" href="https://sondreskarsten.github.io/norwegian-laws/forskrifter/forskrift-2025-12-01-2404.html"/>
 <link rel="alternate" type="application/atom+xml" title="Endringer i Forskrift om takseringsregler, 2025" href="../feeds/forskrift-2025-12-01-2404.xml">
 <style>
-body { max-width: 960px; margin: 0 auto; padding: 1.5rem; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: #212529; }
-nav.breadcrumb { background: #f8f9fa; padding: 0.5rem 1rem; border-radius: 4px; margin-bottom: 1rem; font-size: 0.9rem; }
-nav.breadcrumb a { color: #2780e3; text-decoration: none; }
+:root { --ink: #1d2733; --muted: #5c6773; --rule: #d9dee3; --brand: #17365d; --link: #1a4d8f; --panel: #f4f6f8; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; line-height: 1.6; color: var(--ink); background: #fff; }
+a { color: var(--link); }
+.topbar { background: var(--brand); color: #fff; }
+.topbar .inner { max-width: 1240px; margin: 0 auto; padding: 0.55rem 1rem; display: flex; flex-wrap: wrap; align-items: center; gap: 0.75rem 1.25rem; }
+.topbar .brand { color: #fff; font-weight: 700; text-decoration: none; font-size: 1.05rem; white-space: nowrap; }
+.topbar form { display: flex; flex: 1 1 260px; max-width: 520px; margin: 0; }
+.topbar input[type=search] { flex: 1; min-width: 0; padding: 0.4rem 0.6rem; border: 1px solid #0f2744; border-radius: 3px 0 0 3px; font-size: 0.95rem; }
+.topbar button { padding: 0.4rem 0.8rem; border: 1px solid #0f2744; border-left: 0; border-radius: 0 3px 3px 0; background: #e9eef5; color: var(--brand); font-weight: 600; cursor: pointer; }
+nav.breadcrumb { max-width: 1240px; margin: 0 auto; padding: 0.6rem 1rem 0; font-size: 0.9rem; color: var(--muted); }
+nav.breadcrumb a { text-decoration: none; }
 nav.breadcrumb a:hover { text-decoration: underline; }
-.metadata { background: #f8f9fa; border-left: 3px solid #2780e3; padding: 0.75rem 1rem; margin: 1rem 0; font-size: 0.9rem; }
-.metadata dt { font-weight: 600; margin-top: 0.25rem; }
-.metadata dd { margin-left: 0; }
-.history-links { margin: 1rem 0; padding: 0.75rem; background: #fff3cd; border-radius: 4px; }
-.history-links a { margin-right: 0.5rem; }
-.version-banner { margin: 1rem 0; padding: 0.5rem 0.75rem; background: #e7f5ff; border-left: 3px solid #2780e3; border-radius: 4px; font-size: 0.9rem; }
-.version-banner a { color: #1864ab; }
-h1, h2, h3, h4, h5, h6 { margin-top: 1.25em; margin-bottom: 0.5em; }
-h1 { font-size: 1.75rem; border-bottom: 2px solid #dee2e6; padding-bottom: 0.3rem; }
-h2 { font-size: 1.5rem; color: #495057; }
-h3 { font-size: 1.25rem; }
-h4 { font-size: 1.1rem; color: #495057; }
-em { color: #6c757d; font-size: 0.95em; }
-ul li { margin-bottom: 0.25rem; }
-footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #dee2e6; color: #6c757d; font-size: 0.85rem; }
-.search-link { float: right; }
+.page { max-width: 1240px; margin: 0 auto; padding: 0 1rem 2rem; display: grid; grid-template-columns: minmax(0, 1fr); gap: 0 2.5rem; }
+.doc { min-width: 0; max-width: 78ch; }
+h1.doc-title { font-size: 1.7rem; line-height: 1.25; margin: 0.9rem 0 0.4rem; }
+.doc-kind { color: var(--muted); font-size: 0.9rem; margin: 0; }
+table.keyinfo { border-collapse: collapse; width: 100%; margin: 1rem 0 1.25rem; font-size: 0.92rem; background: var(--panel); border: 1px solid var(--rule); }
+table.keyinfo th, table.keyinfo td { text-align: left; vertical-align: top; padding: 0.35rem 0.75rem; border-bottom: 1px solid var(--rule); }
+table.keyinfo th { width: 11rem; font-weight: 600; color: var(--muted); white-space: nowrap; }
+table.keyinfo tr:last-child th, table.keyinfo tr:last-child td { border-bottom: 0; }
+table.keyinfo code { font-size: 0.85em; color: var(--muted); }
+details.about { margin: 0 0 1.25rem; padding: 0.5rem 0.9rem; border: 1px solid var(--rule); border-radius: 3px; font-size: 0.9rem; background: #fff; }
+details.about summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+details.about p { margin: 0.5rem 0; }
+.doc h1 { font-size: 1.45rem; border-bottom: 1px solid var(--rule); padding-bottom: 0.3rem; margin-top: 1.5rem; }
+.doc h2 { font-size: 1.3rem; margin-top: 2rem; color: var(--brand); }
+.doc h3 { font-size: 1.12rem; margin-top: 1.6rem; }
+.doc h4, .doc h5, .doc h6 { font-size: 1.02rem; margin-top: 1.4rem; margin-bottom: 0.35rem; }
+.doc p { margin: 0 0 0.75rem; }
+.doc ul li, .doc ol li { margin-bottom: 0.25rem; }
+.doc blockquote { margin: 0.75rem 0; padding-left: 0.9rem; border-left: 3px solid var(--rule); color: #2f3a45; }
+.doc .note { color: var(--muted); font-size: 0.84rem; margin: 0.15rem 0 1rem; }
+.doc .note em { font-style: normal; }
+a.para-history { font-size: 0.72rem; font-weight: normal; color: var(--link); text-decoration: none; padding-left: 0.5em; }
+aside.toc { display: none; }
+details.toc-mobile { margin: 0.75rem 0 1rem; border: 1px solid var(--rule); border-radius: 3px; padding: 0.4rem 0.8rem; font-size: 0.92rem; }
+details.toc-mobile summary { cursor: pointer; font-weight: 600; color: var(--brand); }
+.toc-list { list-style: none; margin: 0.4rem 0 0; padding: 0; }
+.toc-list li { margin: 0.15rem 0; }
+.toc-list li.lvl3, .toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 0.9rem; }
+.toc-list li.lvl4, .toc-list li.lvl5 { padding-left: 1.8rem; font-size: 0.9em; }
+.toc-list a { text-decoration: none; }
+.toc-list a:hover { text-decoration: underline; }
+footer { max-width: 1240px; margin: 2rem auto 0; padding: 1rem 1rem 2rem; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.85rem; }
+@media (min-width: 992px) {
+  .page { grid-template-columns: 280px minmax(0, 1fr); }
+  aside.toc { display: block; position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 1rem 0.75rem 1rem 0; font-size: 0.88rem; border-right: 1px solid var(--rule); }
+  aside.toc h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--muted); margin: 0 0 0.5rem; }
+  details.toc-mobile { display: none; }
+}
 </style>
 </head>
 <body>
+<div class="topbar"><div class="inner">
+<a class="brand" href="../index.html">Norges Lover</a>
+<form action="../book/sok.html" method="get" role="search">
+<input type="search" name="q" placeholder="Søk i lover og forskrifter" aria-label="Søk i lover og forskrifter">
+<button type="submit">Søk</button>
+</form>
+</div></div>
 <nav class="breadcrumb">
-<a href="../index.html">Norges Lover</a> &raquo;
-<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &raquo;
+<a href="../index.html">Norges Lover</a> &rsaquo;
+<a href="../book/forskrift-dept-finansdepartementet.html">Finansdepartementet</a> &rsaquo;
 <span>Forskrift om takseringsregler, 2025</span>
-<span class="search-link"><a href="../book/sok.html">Søk</a></span>
 </nav>
 
-<div class="metadata">
-<dl>
-<dt>Refid</dt><dd><code>forskrift/2025-12-01-2404</code></dd>
-<dt>Departement</dt><dd>Finansdepartementet</dd>
-<dt>Rettsområde</dt><dd>—</dd>
-<dt>Ikrafttredelse</dt><dd>Inntektsåret 2025</dd>
-<dt>Sist endret</dt><dd>forskrift/2025-12-11-2506</dd>
-<dt>Kilde</dt><dd><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-01-2404" target="_blank" rel="noopener">lovdata.no</a></dd>
-</dl>
-</div>
+<div class="page">
+<aside class="toc" aria-label="Innhold">
+<h2>Innhold</h2>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generell-del-fast-eiendom-lnnstakere-private-forhold-mv">Kapittel 1. Generell del (fast eiendom, lønnstakere, private forhold, mv.)</a></li>
+<li class="lvl4"><a href="#1-1-formuessatser">§ 1-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#1-1-1-bolig-og-fritidseiendommer">§ 1-1-1. Bolig- og fritidseiendommer</a></li>
+<li class="lvl4"><a href="#1-1-2-annen-fast-eiendom-utenfor-virksomhet-herunder-ubebygde-tomter">§ 1-1-2. Annen fast eiendom utenfor virksomhet, herunder ubebygde tomter</a></li>
+<li class="lvl4"><a href="#1-1-3-private-bilermotorsyklersnscooterebobil">§ 1-1-3. Private biler/motorsykler/snøscootere/bobil</a></li>
+<li class="lvl4"><a href="#1-1-4-campingvogner">§ 1-1-4. Campingvogner</a></li>
+<li class="lvl4"><a href="#1-1-5-lystfarty">§ 1-1-5. Lystfartøy</a></li>
+<li class="lvl4"><a href="#1-1-6-innbo-og-annet-lsre-som-ikke-gir-inntekt">§ 1-1-6. Innbo og annet løsøre som ikke gir inntekt</a></li>
+<li class="lvl4"><a href="#1-1-7-festeavgift-til-bolig-og-fritidsformal">§ 1-1-7. Festeavgift til bolig- og fritidsformål</a></li>
+<li class="lvl4"><a href="#1-2-inntektssatser">§ 1-2. Inntektssatser</a></li>
+<li class="lvl3"><a href="#skattepliktig-overskudd-pa-utgiftsgodtgjrelser-til-lnnstakere">Skattepliktig overskudd på utgiftsgodtgjørelser til lønnstakere</a></li>
+<li class="lvl5"><a href="#1-2-1-kostbesparelse">§ 1-2-1. Kostbesparelse</a></li>
+<li class="lvl5"><a href="#1-2-2-godtgjrelse-til-kost-og-losji-ved-yrkes-tjenestereiser-eller-arbeidsopphold-med-overnatting-innenlands-og-utenlands">§ 1-2-2. Godtgjørelse til kost og losji ved yrkes-/tjenestereiser eller arbeidsopphold med overnatting – innenlands og utenlands</a></li>
+<li class="lvl5"><a href="#1-2-3-godtgjrelse-til-kost-og-losji-ved-yrkes-tjenestereiser-eller-arbeidsopphold-med-overnatting-utenlands">§ 1-2-3. Godtgjørelse til kost og losji ved yrkes-/tjenestereiser eller arbeidsopphold med overnatting – utenlands</a></li>
+<li class="lvl5"><a href="#1-2-4-kost-pa-yrkes-tjenestereiser-uten-overnatting">§ 1-2-4. Kost på yrkes-/tjenestereiser uten overnatting</a></li>
+<li class="lvl5"><a href="#1-2-5-langtransportsjafrer-kost-ved-kjring-i-norge-og-i-utlandet">§ 1-2-5. Langtransportsjåfører – kost ved kjøring i Norge og i utlandet</a></li>
+<li class="lvl5"><a href="#1-2-6-fastsetting-av-overskudd-pa-kilometergodtgjrelse-utbetalt-etter-kilometersatser-for-bruk-av-privat-bil-mv">§ 1-2-6. Fastsetting av overskudd på kilometergodtgjørelse utbetalt etter kilometersatser for bruk av privat bil mv.</a></li>
+<li class="lvl5"><a href="#1-2-7-smusstillegg-skattefri-del">§ 1-2-7. Smusstillegg – skattefri del</a></li>
+<li class="lvl5"><a href="#1-2-8-utstyrsgodtgjrelse-til-idrettsdommere">§ 1-2-8. Utstyrsgodtgjørelse til idrettsdommere</a></li>
+<li class="lvl5"><a href="#1-2-9-redskaps-og-verktyhold-mv">§ 1-2-9. Redskaps- og verktøyhold mv.</a></li>
+<li class="lvl3"><a href="#verdsettelse-av-naturalytelser">Verdsettelse av naturalytelser</a></li>
+<li class="lvl5"><a href="#1-2-15-srregler-ved-fastsetting-av-fordel-ved-privat-bruk-av-arbeidsgivers-bil">§ 1-2-15. Særregler ved fastsetting av fordel ved privat bruk av arbeidsgivers bil</a></li>
+<li class="lvl5"><a href="#1-2-16-fordel-ved-erverv-av-datautstyr-og-mobiltelefon-brukt-i-arbeidsforhold">§ 1-2-16. Fordel ved erverv av datautstyr og mobiltelefon brukt i arbeidsforhold</a></li>
+<li class="lvl5"><a href="#1-2-17-fordel-ved-kost-og-losji-nar-fordelen-ikke-er-fastsatt-etter-tariff">§ 1-2-17. Fordel ved kost og losji når fordelen ikke er fastsatt etter tariff</a></li>
+<li class="lvl5"><a href="#1-2-18-leieverdi-av-karbolig-leilighet-utenfor-jord-og-skogbruk">§ 1-2-18. Leieverdi av kårbolig/-leilighet utenfor jord- og skogbruk</a></li>
+<li class="lvl5"><a href="#1-2-20-tariffestet-brenselstilskudd-til-prester">§ 1-2-20. Tariffestet brenselstilskudd til prester</a></li>
+<li class="lvl3"><a href="#avkastning-av-kapital">Avkastning av kapital</a></li>
+<li class="lvl5"><a href="#1-2-30-fordringer">§ 1-2-30. Fordringer</a></li>
+<li class="lvl5"><a href="#1-3-fradragssatser">§ 1-3. Fradragssatser</a></li>
+<li class="lvl3"><a href="#fradrag-for-merkostnader-ved-fravr-fra-hjemmet-grunnet-arbeid">Fradrag for merkostnader ved fravær fra hjemmet grunnet arbeid</a></li>
+<li class="lvl5"><a href="#1-3-1-fradrag-for-merkostnader-til-losji-ved-opphold-i-brakkecampingvogn">§ 1-3-1. Fradrag for merkostnader til losji ved opphold i brakke/campingvogn</a></li>
+<li class="lvl5"><a href="#1-3-2-fradrag-for-merkostnader-til-kost-ved-opphold-pa-hybel-med-kokemuligheter-og-privat-overnatting">§ 1-3-2. Fradrag for merkostnader til kost ved opphold på hybel med kokemuligheter og privat overnatting</a></li>
+<li class="lvl5"><a href="#1-3-3-fradrag-for-merkostnader-til-kost-ved-opphold-pa-hybel-uten-kokemuligheter-eller-pa-pensjonat-eller-brakke">§ 1-3-3. Fradrag for merkostnader til kost ved opphold på hybel uten kokemuligheter eller på pensjonat eller brakke</a></li>
+<li class="lvl5"><a href="#1-3-4-fradrag-for-merkostnader-til-kost-pa-yrkes-tjenestereiser-eller-arbeidsopphold-utenfor-hjemmet-som-varer-ett-dgn-eller-mer-hotellopphold">§ 1-3-4. Fradrag for merkostnader til kost på yrkes-/tjenestereiser eller arbeidsopphold utenfor hjemmet som varer ett døgn eller mer – hotellopphold</a></li>
+<li class="lvl5"><a href="#1-3-5-fradrag-for-merkostnader-til-kost-pa-besksreiser-for-skattepliktig-som-har-fri-kost-pa-arbeidsstedet">§ 1-3-5. Fradrag for merkostnader til kost på besøksreiser for skattepliktig som har fri kost på arbeidsstedet</a></li>
+<li class="lvl5"><a href="#1-3-6-langtransportsjafrer-fradrag-for-merkostnader-til-kost-ved-kjring-i-norge-og-i-utlandet">§ 1-3-6. Langtransportsjåfører – fradrag for merkostnader til kost ved kjøring i Norge og i utlandet</a></li>
+<li class="lvl5"><a href="#1-3-7-beregning-av-antall-fravrsdgn">§ 1-3-7. Beregning av antall fraværsdøgn</a></li>
+<li class="lvl3"><a href="#reiser-mellom-hjem-og-fast-arbeidssted">Reiser mellom hjem og fast arbeidssted</a></li>
+<li class="lvl5"><a href="#1-3-8-fradrag-for-daglig-reise-mellom-hjem-og-fast-arbeidssted-arbeidsreise-og-pendleres-besksreiser-til-hjemmet">§ 1-3-8. Fradrag for daglig reise mellom hjem og fast arbeidssted (arbeidsreise) og pendleres besøksreiser til hjemmet</a></li>
+<li class="lvl3"><a href="#forskjellige-arbeidskostnader-mv">Forskjellige arbeidskostnader mv.</a></li>
+<li class="lvl5"><a href="#1-3-20-fradragssatser-for-privatbil-og-andre-framkomstmidler-som-brukes-noe-i-virksomhetyrke">§ 1-3-20. Fradragssatser for privatbil og andre framkomstmidler som brukes noe i virksomhet/yrke</a></li>
+<li class="lvl5"><a href="#1-3-21-fradragssats-for-redskaps-og-verktyhold-for-bygningsarbeidere-og-skogsarbeidere">§ 1-3-21. Fradragssats for redskaps- og verktøyhold for bygningsarbeidere og skogsarbeidere</a></li>
+<li class="lvl5"><a href="#1-3-22-fradrag-for-uniformskostnader-for-drosjesjafrer">§ 1-3-22. Fradrag for uniformskostnader for drosjesjåfører</a></li>
+<li class="lvl5"><a href="#1-3-23-fradrag-for-faglitteratur">§ 1-3-23. Fradrag for faglitteratur</a></li>
+<li class="lvl5"><a href="#1-3-24-spesielle-fradragssatser-for-journalister-mv">§ 1-3-24. Spesielle fradragssatser for journalister mv.</a></li>
+<li class="lvl5"><a href="#1-3-25-fradragssats-ved-bruk-av-eget-hjem-til-mte-kursvirksomhet">§ 1-3-25. Fradragssats ved bruk av eget hjem til møte-/kursvirksomhet</a></li>
+<li class="lvl5"><a href="#1-3-26-standardfradrag-for-bruk-av-bolig-i-ervervsvirksomhet-hjemmekontor-mv">§ 1-3-26. Standardfradrag for bruk av bolig i ervervsvirksomhet (hjemmekontor mv.)</a></li>
+<li class="lvl3"><a href="#andre-kostnader">Andre kostnader</a></li>
+<li class="lvl5"><a href="#1-3-30-fradrag-for-kostnader-til-doktormiddag">§ 1-3-30. Fradrag for kostnader til doktormiddag</a></li>
+<li class="lvl5"><a href="#1-3-40-fradragssats-for-barnepassere">§ 1-3-40. Fradragssats for barnepassere</a></li>
+<li class="lvl2"><a href="#kapittel-2-innenfor-virksomhet">Kapittel 2. Innenfor virksomhet</a></li>
+<li class="lvl4"><a href="#2-1-formuessatser">§ 2-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#2-1-1-nringseiendom">§ 2-1-1. Næringseiendom</a></li>
+<li class="lvl4"><a href="#2-1-2-driftslsre">§ 2-1-2. Driftsløsøre</a></li>
+<li class="lvl4"><a href="#2-1-3-innkjpt-varelager">§ 2-1-3. Innkjøpt varelager</a></li>
+<li class="lvl4"><a href="#2-1-4-verdsetting-av-skip-fiskefartyer-borefartyer-mv">§ 2-1-4. Verdsetting av skip, fiskefartøyer, borefartøyer mv.</a></li>
+<li class="lvl4"><a href="#2-1-5-kapitaliseringsfaktor">§ 2-1-5. Kapitaliseringsfaktor</a></li>
+<li class="lvl4"><a href="#2-2-inntektssatser">§ 2-2. Inntektssatser</a></li>
+<li class="lvl4"><a href="#2-2-1-uttak">§ 2-2-1. Uttak</a></li>
+<li class="lvl4"><a href="#2-2-2-uttak-av-klr-i-bloggvirksomhet">§ 2-2-2. Uttak av klær i bloggvirksomhet</a></li>
+<li class="lvl4"><a href="#2-3-fradragssatser">§ 2-3. Fradragssatser</a></li>
+<li class="lvl4"><a href="#2-3-1-kostnader-til-kost-og-losji-til-ansatte-nar-disse-ikke-er-fastsatt-etter-tariff">§ 2-3-1. Kostnader til kost og losji til ansatte (når disse ikke er fastsatt etter tariff)</a></li>
+<li class="lvl4"><a href="#2-3-2-lnn-til-hjemmevrende-barn-som-samtidig-gar-pa-skole">§ 2-3-2. Lønn til hjemmeværende barn som samtidig går på skole</a></li>
+<li class="lvl4"><a href="#2-3-3-eierens-private-campingvogn-brukt-av-ansatte-i-virksomheten">§ 2-3-3. Eierens private campingvogn brukt av ansatte i virksomheten</a></li>
+<li class="lvl4"><a href="#2-3-4-diverse-satser-ved-bruk-av-private-formuesobjekter-i-virksomhet">§ 2-3-4. Diverse satser ved bruk av private formuesobjekter i virksomhet</a></li>
+<li class="lvl4"><a href="#2-3-5">§ 2-3-5</a></li>
+<li class="lvl4"><a href="#2-3-6-kostnader-til-sjhyre-mv-for-ikke-bokfringspliktige-fiskere">§ 2-3-6. Kostnader til sjøhyre mv. for ikke bokføringspliktige fiskere</a></li>
+<li class="lvl2"><a href="#kapittel-3-spesielle-verdsettingsregler-og-satser-for-primrnringene">Kapittel 3. Spesielle verdsettingsregler og satser for primærnæringene</a></li>
+<li class="lvl4"><a href="#3-1-formuessatser">§ 3-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#3-1-1-skogbrukseiendommer">§ 3-1-1. Skogbrukseiendommer</a></li>
+<li class="lvl4"><a href="#3-1-2-jordbrukseiendommer">§ 3-1-2. Jordbrukseiendommer</a></li>
+<li class="lvl4"><a href="#3-1-3-bortfestede-tomter-til-bolig-og-fritidsformal">§ 3-1-3. Bortfestede tomter til bolig- og fritidsformål</a></li>
+<li class="lvl4"><a href="#3-1-4-varelager-buskap-og-oppdrettsfisk">§ 3-1-4. Varelager, buskap og oppdrettsfisk</a></li>
+<li class="lvl4"><a href="#3-1-5-akvakulturtillatelse-som-gir-rett-til-oppdrett-i-sj-av-laks-rret-og-regnbuerret">§ 3-1-5. Akvakulturtillatelse som gir rett til oppdrett i sjø av laks, ørret og regnbueørret</a></li>
+<li class="lvl4"><a href="#3-2-inntektssatser">§ 3-2. Inntektssatser</a></li>
+<li class="lvl4"><a href="#3-2-1-veiledende-produksjonsmengder-nar-palitelige-oppgaver-ikke-foreligger">§ 3-2-1. Veiledende produksjonsmengder når pålitelige oppgaver ikke foreligger</a></li>
+<li class="lvl4"><a href="#3-2-2-verdsetting-av-produkter-uttatt-til-husholdning-og-fderad">§ 3-2-2. Verdsetting av produkter uttatt til husholdning og føderåd</a></li>
+<li class="lvl4"><a href="#3-2-3-normer-for-verdsetting-av-uttatte-naturalier-til-eget-bruk">§ 3-2-3. Normer for verdsetting av uttatte naturalier til eget bruk</a></li>
+<li class="lvl4"><a href="#3-2-4-brutto-leieverdi-av-karbolig-pa-gardsbruk">§ 3-2-4. Brutto leieverdi av kårbolig på gårdsbruk</a></li>
+<li class="lvl4"><a href="#3-2-5-netto-fordel-av-egen-utnyttet-jaktrett">§ 3-2-5. Netto fordel av egen utnyttet jaktrett</a></li>
+<li class="lvl4"><a href="#3-2-6-verdi-av-uttatt-brensel-fra-egen-skog">§ 3-2-6. Verdi av uttatt brensel fra egen skog</a></li>
+<li class="lvl4"><a href="#3-2-7-verdien-av-stallplass-og-uttatt-grovfor-til-hester-som-nyttes-utenom-jord-og-skogbruksnringen">§ 3-2-7. Verdien av stallplass og uttatt grovfôr til hester som nyttes utenom jord- og skogbruksnæringen</a></li>
+<li class="lvl4"><a href="#3-2-8-definisjon-av-tre-normalarsverk-i-forskrift-19-november-1999-nr-1158-til-utfylling-og-gjennomfring-mv-av-skatteloven-10-42-3-om-overfring-av-skjerming-mellom-virksomheter">§ 3-2-8. Definisjon av «tre normalårsverk» i forskrift 19. november 1999 nr. 1158 til utfylling og gjennomføring mv. av skatteloven § 10-42-3 «Om overføring av skjerming mellom virksomheter»</a></li>
+<li class="lvl4"><a href="#3-3-fradragssatser">§ 3-3. Fradragssatser</a></li>
+<li class="lvl4"><a href="#3-3-1-kostnader-til-kost-i-forbindelse-med-gardsturisme-grnn-omsorg-og-forpleining">§ 3-3-1. Kostnader til kost i forbindelse med gårdsturisme, grønn omsorg og forpleining</a></li>
+<li class="lvl4"><a href="#3-3-2-kostnader-til-kost-mv-for-ikke-bokfringspliktige-lottfiskere">§ 3-3-2. Kostnader til kost mv. for ikke bokføringspliktige lottfiskere</a></li>
+<li class="lvl4"><a href="#3-3-3-kostnader-ved-brutto-fastsetting-av-egen-utnyttet-jaktrett">§ 3-3-3. Kostnader ved brutto fastsetting av egen utnyttet jaktrett</a></li>
+<li class="lvl4"><a href="#3-3-4-fradrag-for-forkostnader-til-gjeterhund-i-sau-og-reindriftsnring">§ 3-3-4. Fradrag for fôrkostnader til gjeterhund i sau- og reindriftsnæring</a></li>
+<li class="lvl4"><a href="#3-3-5-fradrag-for-merkostnader-til-kost-i-reindriftsnring">§ 3-3-5. Fradrag for merkostnader til kost i reindriftsnæring</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-verdsetting-av-skog">Kapittel 4. Særlig om verdsetting av skog</a></li>
+<li class="lvl4"><a href="#4-1-kapitlets-virkeomrade">§ 4-1. Kapitlets virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-hvem-har-rapporteringsplikt-etter-dette-kapittel">§ 4-2. Hvem har rapporteringsplikt etter dette kapittel</a></li>
+<li class="lvl4"><a href="#4-3-verdsetting">§ 4-3. Verdsetting</a></li>
+<li class="lvl4"><a href="#4-4-arlig-nyttbar-tilvekst">§ 4-4. Årlig nyttbar tilvekst</a></li>
+<li class="lvl4"><a href="#4-5-priser">§ 4-5. Priser</a></li>
+<li class="lvl4"><a href="#4-6-kostnader">§ 4-6. Kostnader</a></li>
+<li class="lvl4"><a href="#4-7-korreksjon-for-spesielt-hye-kostnader">§ 4-7. Korreksjon for spesielt høye kostnader</a></li>
+<li class="lvl4"><a href="#4-8-korreksjon-for-unormal-hogstklassefordeling">§ 4-8. Korreksjon for unormal hogstklassefordeling</a></li>
+<li class="lvl4"><a href="#4-9-kapitalisering">§ 4-9. Kapitalisering</a></li>
+<li class="lvl4"><a href="#4-10-manglende-eller-ufullstendig-rapportering">§ 4-10. Manglende eller ufullstendig rapportering</a></li>
+<li class="lvl4"><a href="#4-11-generelle-revisjoner">§ 4-11. Generelle revisjoner</a></li>
+<li class="lvl4"><a href="#4-12-enkeltrevisjoner">§ 4-12. Enkeltrevisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlig-om-apningsbalanse-og-senere-balanse-i-jord-og-skogbruk">Kapittel 5. Særlig om åpningsbalanse og senere balanse i jord- og skogbruk</a></li>
+<li class="lvl4"><a href="#5-1-apningsbalanse">§ 5-1. Åpningsbalanse</a></li>
+<li class="lvl4"><a href="#5-1-1-overfring-av-formuesobjekter-ved-arv-gave-eller-gavesalg">5-1-1. Overføring av formuesobjekter ved arv, gave eller gavesalg</a></li>
+<li class="lvl4"><a href="#5-1-2-overfring-av-formuesobjekter-uten-kontinuitet">5-1-2. Overføring av formuesobjekter uten kontinuitet</a></li>
+<li class="lvl4"><a href="#5-2-senere-balanse">§ 5-2. Senere balanse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+</ul>
+</aside>
 
-<div class="version-banner">
-Du leser den <strong>gjeldende konsoliderte teksten</strong>. Sist endret: forskrift/2025-12-11-2506.
-<strong>Eksperimentell historikk:</strong> Eldre utgaver er uverifiserte rekonstruksjoner.
-De dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato.
-Se <a href="../book/versjoner.html">versjonsoversikten</a> eller
-<a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-01-2404.md">git-loggen for rekonstruksjonene</a>.
-</div>
+<article class="doc">
+<p class="doc-kind">Forskrift</p>
+<h1 class="doc-title">Forskrift om taksering av formues-, inntekts og fradragsposter mv. som må fastsettes ved skjønn til bruk ved fastsettingen for 2025</h1>
 
-<div class="history-links">
-<strong>Kilder og historikk:</strong>
-<a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-01-2404.md">Kildefil</a> ·
+<table class="keyinfo">
+<tr><th>Dato</th><td>FOR-2025-12-01-2404 <code>forskrift/2025-12-01-2404</code></td></tr>
+<tr><th>Korttittel</th><td>Forskrift om takseringsregler, 2025</td></tr>
+<tr><th>Departement</th><td>Finansdepartementet</td></tr>
+<tr><th>Rettsområde</th><td>—</td></tr>
+<tr><th>Ikrafttredelse</th><td>Inntektsåret 2025</td></tr>
+<tr><th>Sist endret</th><td>FOR-2025-12-11-2506 <code>forskrift/2025-12-11-2506</code> fra 11.12.2025</td></tr>
+<tr><th>Kilde</th><td><a href="https://lovdata.no/dokument/SF/forskrift/2025-12-01-2404" target="_blank" rel="noopener">Dokumentet hos Lovdata</a></td></tr>
+</table>
+
+<details class="toc-mobile">
+<summary>Innhold</summary>
+<ul class="toc-list">
+<li class="lvl2"><a href="#kapittel-1-generell-del-fast-eiendom-lnnstakere-private-forhold-mv">Kapittel 1. Generell del (fast eiendom, lønnstakere, private forhold, mv.)</a></li>
+<li class="lvl4"><a href="#1-1-formuessatser">§ 1-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#1-1-1-bolig-og-fritidseiendommer">§ 1-1-1. Bolig- og fritidseiendommer</a></li>
+<li class="lvl4"><a href="#1-1-2-annen-fast-eiendom-utenfor-virksomhet-herunder-ubebygde-tomter">§ 1-1-2. Annen fast eiendom utenfor virksomhet, herunder ubebygde tomter</a></li>
+<li class="lvl4"><a href="#1-1-3-private-bilermotorsyklersnscooterebobil">§ 1-1-3. Private biler/motorsykler/snøscootere/bobil</a></li>
+<li class="lvl4"><a href="#1-1-4-campingvogner">§ 1-1-4. Campingvogner</a></li>
+<li class="lvl4"><a href="#1-1-5-lystfarty">§ 1-1-5. Lystfartøy</a></li>
+<li class="lvl4"><a href="#1-1-6-innbo-og-annet-lsre-som-ikke-gir-inntekt">§ 1-1-6. Innbo og annet løsøre som ikke gir inntekt</a></li>
+<li class="lvl4"><a href="#1-1-7-festeavgift-til-bolig-og-fritidsformal">§ 1-1-7. Festeavgift til bolig- og fritidsformål</a></li>
+<li class="lvl4"><a href="#1-2-inntektssatser">§ 1-2. Inntektssatser</a></li>
+<li class="lvl3"><a href="#skattepliktig-overskudd-pa-utgiftsgodtgjrelser-til-lnnstakere">Skattepliktig overskudd på utgiftsgodtgjørelser til lønnstakere</a></li>
+<li class="lvl5"><a href="#1-2-1-kostbesparelse">§ 1-2-1. Kostbesparelse</a></li>
+<li class="lvl5"><a href="#1-2-2-godtgjrelse-til-kost-og-losji-ved-yrkes-tjenestereiser-eller-arbeidsopphold-med-overnatting-innenlands-og-utenlands">§ 1-2-2. Godtgjørelse til kost og losji ved yrkes-/tjenestereiser eller arbeidsopphold med overnatting – innenlands og utenlands</a></li>
+<li class="lvl5"><a href="#1-2-3-godtgjrelse-til-kost-og-losji-ved-yrkes-tjenestereiser-eller-arbeidsopphold-med-overnatting-utenlands">§ 1-2-3. Godtgjørelse til kost og losji ved yrkes-/tjenestereiser eller arbeidsopphold med overnatting – utenlands</a></li>
+<li class="lvl5"><a href="#1-2-4-kost-pa-yrkes-tjenestereiser-uten-overnatting">§ 1-2-4. Kost på yrkes-/tjenestereiser uten overnatting</a></li>
+<li class="lvl5"><a href="#1-2-5-langtransportsjafrer-kost-ved-kjring-i-norge-og-i-utlandet">§ 1-2-5. Langtransportsjåfører – kost ved kjøring i Norge og i utlandet</a></li>
+<li class="lvl5"><a href="#1-2-6-fastsetting-av-overskudd-pa-kilometergodtgjrelse-utbetalt-etter-kilometersatser-for-bruk-av-privat-bil-mv">§ 1-2-6. Fastsetting av overskudd på kilometergodtgjørelse utbetalt etter kilometersatser for bruk av privat bil mv.</a></li>
+<li class="lvl5"><a href="#1-2-7-smusstillegg-skattefri-del">§ 1-2-7. Smusstillegg – skattefri del</a></li>
+<li class="lvl5"><a href="#1-2-8-utstyrsgodtgjrelse-til-idrettsdommere">§ 1-2-8. Utstyrsgodtgjørelse til idrettsdommere</a></li>
+<li class="lvl5"><a href="#1-2-9-redskaps-og-verktyhold-mv">§ 1-2-9. Redskaps- og verktøyhold mv.</a></li>
+<li class="lvl3"><a href="#verdsettelse-av-naturalytelser">Verdsettelse av naturalytelser</a></li>
+<li class="lvl5"><a href="#1-2-15-srregler-ved-fastsetting-av-fordel-ved-privat-bruk-av-arbeidsgivers-bil">§ 1-2-15. Særregler ved fastsetting av fordel ved privat bruk av arbeidsgivers bil</a></li>
+<li class="lvl5"><a href="#1-2-16-fordel-ved-erverv-av-datautstyr-og-mobiltelefon-brukt-i-arbeidsforhold">§ 1-2-16. Fordel ved erverv av datautstyr og mobiltelefon brukt i arbeidsforhold</a></li>
+<li class="lvl5"><a href="#1-2-17-fordel-ved-kost-og-losji-nar-fordelen-ikke-er-fastsatt-etter-tariff">§ 1-2-17. Fordel ved kost og losji når fordelen ikke er fastsatt etter tariff</a></li>
+<li class="lvl5"><a href="#1-2-18-leieverdi-av-karbolig-leilighet-utenfor-jord-og-skogbruk">§ 1-2-18. Leieverdi av kårbolig/-leilighet utenfor jord- og skogbruk</a></li>
+<li class="lvl5"><a href="#1-2-20-tariffestet-brenselstilskudd-til-prester">§ 1-2-20. Tariffestet brenselstilskudd til prester</a></li>
+<li class="lvl3"><a href="#avkastning-av-kapital">Avkastning av kapital</a></li>
+<li class="lvl5"><a href="#1-2-30-fordringer">§ 1-2-30. Fordringer</a></li>
+<li class="lvl5"><a href="#1-3-fradragssatser">§ 1-3. Fradragssatser</a></li>
+<li class="lvl3"><a href="#fradrag-for-merkostnader-ved-fravr-fra-hjemmet-grunnet-arbeid">Fradrag for merkostnader ved fravær fra hjemmet grunnet arbeid</a></li>
+<li class="lvl5"><a href="#1-3-1-fradrag-for-merkostnader-til-losji-ved-opphold-i-brakkecampingvogn">§ 1-3-1. Fradrag for merkostnader til losji ved opphold i brakke/campingvogn</a></li>
+<li class="lvl5"><a href="#1-3-2-fradrag-for-merkostnader-til-kost-ved-opphold-pa-hybel-med-kokemuligheter-og-privat-overnatting">§ 1-3-2. Fradrag for merkostnader til kost ved opphold på hybel med kokemuligheter og privat overnatting</a></li>
+<li class="lvl5"><a href="#1-3-3-fradrag-for-merkostnader-til-kost-ved-opphold-pa-hybel-uten-kokemuligheter-eller-pa-pensjonat-eller-brakke">§ 1-3-3. Fradrag for merkostnader til kost ved opphold på hybel uten kokemuligheter eller på pensjonat eller brakke</a></li>
+<li class="lvl5"><a href="#1-3-4-fradrag-for-merkostnader-til-kost-pa-yrkes-tjenestereiser-eller-arbeidsopphold-utenfor-hjemmet-som-varer-ett-dgn-eller-mer-hotellopphold">§ 1-3-4. Fradrag for merkostnader til kost på yrkes-/tjenestereiser eller arbeidsopphold utenfor hjemmet som varer ett døgn eller mer – hotellopphold</a></li>
+<li class="lvl5"><a href="#1-3-5-fradrag-for-merkostnader-til-kost-pa-besksreiser-for-skattepliktig-som-har-fri-kost-pa-arbeidsstedet">§ 1-3-5. Fradrag for merkostnader til kost på besøksreiser for skattepliktig som har fri kost på arbeidsstedet</a></li>
+<li class="lvl5"><a href="#1-3-6-langtransportsjafrer-fradrag-for-merkostnader-til-kost-ved-kjring-i-norge-og-i-utlandet">§ 1-3-6. Langtransportsjåfører – fradrag for merkostnader til kost ved kjøring i Norge og i utlandet</a></li>
+<li class="lvl5"><a href="#1-3-7-beregning-av-antall-fravrsdgn">§ 1-3-7. Beregning av antall fraværsdøgn</a></li>
+<li class="lvl3"><a href="#reiser-mellom-hjem-og-fast-arbeidssted">Reiser mellom hjem og fast arbeidssted</a></li>
+<li class="lvl5"><a href="#1-3-8-fradrag-for-daglig-reise-mellom-hjem-og-fast-arbeidssted-arbeidsreise-og-pendleres-besksreiser-til-hjemmet">§ 1-3-8. Fradrag for daglig reise mellom hjem og fast arbeidssted (arbeidsreise) og pendleres besøksreiser til hjemmet</a></li>
+<li class="lvl3"><a href="#forskjellige-arbeidskostnader-mv">Forskjellige arbeidskostnader mv.</a></li>
+<li class="lvl5"><a href="#1-3-20-fradragssatser-for-privatbil-og-andre-framkomstmidler-som-brukes-noe-i-virksomhetyrke">§ 1-3-20. Fradragssatser for privatbil og andre framkomstmidler som brukes noe i virksomhet/yrke</a></li>
+<li class="lvl5"><a href="#1-3-21-fradragssats-for-redskaps-og-verktyhold-for-bygningsarbeidere-og-skogsarbeidere">§ 1-3-21. Fradragssats for redskaps- og verktøyhold for bygningsarbeidere og skogsarbeidere</a></li>
+<li class="lvl5"><a href="#1-3-22-fradrag-for-uniformskostnader-for-drosjesjafrer">§ 1-3-22. Fradrag for uniformskostnader for drosjesjåfører</a></li>
+<li class="lvl5"><a href="#1-3-23-fradrag-for-faglitteratur">§ 1-3-23. Fradrag for faglitteratur</a></li>
+<li class="lvl5"><a href="#1-3-24-spesielle-fradragssatser-for-journalister-mv">§ 1-3-24. Spesielle fradragssatser for journalister mv.</a></li>
+<li class="lvl5"><a href="#1-3-25-fradragssats-ved-bruk-av-eget-hjem-til-mte-kursvirksomhet">§ 1-3-25. Fradragssats ved bruk av eget hjem til møte-/kursvirksomhet</a></li>
+<li class="lvl5"><a href="#1-3-26-standardfradrag-for-bruk-av-bolig-i-ervervsvirksomhet-hjemmekontor-mv">§ 1-3-26. Standardfradrag for bruk av bolig i ervervsvirksomhet (hjemmekontor mv.)</a></li>
+<li class="lvl3"><a href="#andre-kostnader">Andre kostnader</a></li>
+<li class="lvl5"><a href="#1-3-30-fradrag-for-kostnader-til-doktormiddag">§ 1-3-30. Fradrag for kostnader til doktormiddag</a></li>
+<li class="lvl5"><a href="#1-3-40-fradragssats-for-barnepassere">§ 1-3-40. Fradragssats for barnepassere</a></li>
+<li class="lvl2"><a href="#kapittel-2-innenfor-virksomhet">Kapittel 2. Innenfor virksomhet</a></li>
+<li class="lvl4"><a href="#2-1-formuessatser">§ 2-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#2-1-1-nringseiendom">§ 2-1-1. Næringseiendom</a></li>
+<li class="lvl4"><a href="#2-1-2-driftslsre">§ 2-1-2. Driftsløsøre</a></li>
+<li class="lvl4"><a href="#2-1-3-innkjpt-varelager">§ 2-1-3. Innkjøpt varelager</a></li>
+<li class="lvl4"><a href="#2-1-4-verdsetting-av-skip-fiskefartyer-borefartyer-mv">§ 2-1-4. Verdsetting av skip, fiskefartøyer, borefartøyer mv.</a></li>
+<li class="lvl4"><a href="#2-1-5-kapitaliseringsfaktor">§ 2-1-5. Kapitaliseringsfaktor</a></li>
+<li class="lvl4"><a href="#2-2-inntektssatser">§ 2-2. Inntektssatser</a></li>
+<li class="lvl4"><a href="#2-2-1-uttak">§ 2-2-1. Uttak</a></li>
+<li class="lvl4"><a href="#2-2-2-uttak-av-klr-i-bloggvirksomhet">§ 2-2-2. Uttak av klær i bloggvirksomhet</a></li>
+<li class="lvl4"><a href="#2-3-fradragssatser">§ 2-3. Fradragssatser</a></li>
+<li class="lvl4"><a href="#2-3-1-kostnader-til-kost-og-losji-til-ansatte-nar-disse-ikke-er-fastsatt-etter-tariff">§ 2-3-1. Kostnader til kost og losji til ansatte (når disse ikke er fastsatt etter tariff)</a></li>
+<li class="lvl4"><a href="#2-3-2-lnn-til-hjemmevrende-barn-som-samtidig-gar-pa-skole">§ 2-3-2. Lønn til hjemmeværende barn som samtidig går på skole</a></li>
+<li class="lvl4"><a href="#2-3-3-eierens-private-campingvogn-brukt-av-ansatte-i-virksomheten">§ 2-3-3. Eierens private campingvogn brukt av ansatte i virksomheten</a></li>
+<li class="lvl4"><a href="#2-3-4-diverse-satser-ved-bruk-av-private-formuesobjekter-i-virksomhet">§ 2-3-4. Diverse satser ved bruk av private formuesobjekter i virksomhet</a></li>
+<li class="lvl4"><a href="#2-3-5">§ 2-3-5</a></li>
+<li class="lvl4"><a href="#2-3-6-kostnader-til-sjhyre-mv-for-ikke-bokfringspliktige-fiskere">§ 2-3-6. Kostnader til sjøhyre mv. for ikke bokføringspliktige fiskere</a></li>
+<li class="lvl2"><a href="#kapittel-3-spesielle-verdsettingsregler-og-satser-for-primrnringene">Kapittel 3. Spesielle verdsettingsregler og satser for primærnæringene</a></li>
+<li class="lvl4"><a href="#3-1-formuessatser">§ 3-1. Formuessatser</a></li>
+<li class="lvl4"><a href="#3-1-1-skogbrukseiendommer">§ 3-1-1. Skogbrukseiendommer</a></li>
+<li class="lvl4"><a href="#3-1-2-jordbrukseiendommer">§ 3-1-2. Jordbrukseiendommer</a></li>
+<li class="lvl4"><a href="#3-1-3-bortfestede-tomter-til-bolig-og-fritidsformal">§ 3-1-3. Bortfestede tomter til bolig- og fritidsformål</a></li>
+<li class="lvl4"><a href="#3-1-4-varelager-buskap-og-oppdrettsfisk">§ 3-1-4. Varelager, buskap og oppdrettsfisk</a></li>
+<li class="lvl4"><a href="#3-1-5-akvakulturtillatelse-som-gir-rett-til-oppdrett-i-sj-av-laks-rret-og-regnbuerret">§ 3-1-5. Akvakulturtillatelse som gir rett til oppdrett i sjø av laks, ørret og regnbueørret</a></li>
+<li class="lvl4"><a href="#3-2-inntektssatser">§ 3-2. Inntektssatser</a></li>
+<li class="lvl4"><a href="#3-2-1-veiledende-produksjonsmengder-nar-palitelige-oppgaver-ikke-foreligger">§ 3-2-1. Veiledende produksjonsmengder når pålitelige oppgaver ikke foreligger</a></li>
+<li class="lvl4"><a href="#3-2-2-verdsetting-av-produkter-uttatt-til-husholdning-og-fderad">§ 3-2-2. Verdsetting av produkter uttatt til husholdning og føderåd</a></li>
+<li class="lvl4"><a href="#3-2-3-normer-for-verdsetting-av-uttatte-naturalier-til-eget-bruk">§ 3-2-3. Normer for verdsetting av uttatte naturalier til eget bruk</a></li>
+<li class="lvl4"><a href="#3-2-4-brutto-leieverdi-av-karbolig-pa-gardsbruk">§ 3-2-4. Brutto leieverdi av kårbolig på gårdsbruk</a></li>
+<li class="lvl4"><a href="#3-2-5-netto-fordel-av-egen-utnyttet-jaktrett">§ 3-2-5. Netto fordel av egen utnyttet jaktrett</a></li>
+<li class="lvl4"><a href="#3-2-6-verdi-av-uttatt-brensel-fra-egen-skog">§ 3-2-6. Verdi av uttatt brensel fra egen skog</a></li>
+<li class="lvl4"><a href="#3-2-7-verdien-av-stallplass-og-uttatt-grovfor-til-hester-som-nyttes-utenom-jord-og-skogbruksnringen">§ 3-2-7. Verdien av stallplass og uttatt grovfôr til hester som nyttes utenom jord- og skogbruksnæringen</a></li>
+<li class="lvl4"><a href="#3-2-8-definisjon-av-tre-normalarsverk-i-forskrift-19-november-1999-nr-1158-til-utfylling-og-gjennomfring-mv-av-skatteloven-10-42-3-om-overfring-av-skjerming-mellom-virksomheter">§ 3-2-8. Definisjon av «tre normalårsverk» i forskrift 19. november 1999 nr. 1158 til utfylling og gjennomføring mv. av skatteloven § 10-42-3 «Om overføring av skjerming mellom virksomheter»</a></li>
+<li class="lvl4"><a href="#3-3-fradragssatser">§ 3-3. Fradragssatser</a></li>
+<li class="lvl4"><a href="#3-3-1-kostnader-til-kost-i-forbindelse-med-gardsturisme-grnn-omsorg-og-forpleining">§ 3-3-1. Kostnader til kost i forbindelse med gårdsturisme, grønn omsorg og forpleining</a></li>
+<li class="lvl4"><a href="#3-3-2-kostnader-til-kost-mv-for-ikke-bokfringspliktige-lottfiskere">§ 3-3-2. Kostnader til kost mv. for ikke bokføringspliktige lottfiskere</a></li>
+<li class="lvl4"><a href="#3-3-3-kostnader-ved-brutto-fastsetting-av-egen-utnyttet-jaktrett">§ 3-3-3. Kostnader ved brutto fastsetting av egen utnyttet jaktrett</a></li>
+<li class="lvl4"><a href="#3-3-4-fradrag-for-forkostnader-til-gjeterhund-i-sau-og-reindriftsnring">§ 3-3-4. Fradrag for fôrkostnader til gjeterhund i sau- og reindriftsnæring</a></li>
+<li class="lvl4"><a href="#3-3-5-fradrag-for-merkostnader-til-kost-i-reindriftsnring">§ 3-3-5. Fradrag for merkostnader til kost i reindriftsnæring</a></li>
+<li class="lvl2"><a href="#kapittel-4-srlig-om-verdsetting-av-skog">Kapittel 4. Særlig om verdsetting av skog</a></li>
+<li class="lvl4"><a href="#4-1-kapitlets-virkeomrade">§ 4-1. Kapitlets virkeområde</a></li>
+<li class="lvl4"><a href="#4-2-hvem-har-rapporteringsplikt-etter-dette-kapittel">§ 4-2. Hvem har rapporteringsplikt etter dette kapittel</a></li>
+<li class="lvl4"><a href="#4-3-verdsetting">§ 4-3. Verdsetting</a></li>
+<li class="lvl4"><a href="#4-4-arlig-nyttbar-tilvekst">§ 4-4. Årlig nyttbar tilvekst</a></li>
+<li class="lvl4"><a href="#4-5-priser">§ 4-5. Priser</a></li>
+<li class="lvl4"><a href="#4-6-kostnader">§ 4-6. Kostnader</a></li>
+<li class="lvl4"><a href="#4-7-korreksjon-for-spesielt-hye-kostnader">§ 4-7. Korreksjon for spesielt høye kostnader</a></li>
+<li class="lvl4"><a href="#4-8-korreksjon-for-unormal-hogstklassefordeling">§ 4-8. Korreksjon for unormal hogstklassefordeling</a></li>
+<li class="lvl4"><a href="#4-9-kapitalisering">§ 4-9. Kapitalisering</a></li>
+<li class="lvl4"><a href="#4-10-manglende-eller-ufullstendig-rapportering">§ 4-10. Manglende eller ufullstendig rapportering</a></li>
+<li class="lvl4"><a href="#4-11-generelle-revisjoner">§ 4-11. Generelle revisjoner</a></li>
+<li class="lvl4"><a href="#4-12-enkeltrevisjoner">§ 4-12. Enkeltrevisjoner</a></li>
+<li class="lvl2"><a href="#kapittel-5-srlig-om-apningsbalanse-og-senere-balanse-i-jord-og-skogbruk">Kapittel 5. Særlig om åpningsbalanse og senere balanse i jord- og skogbruk</a></li>
+<li class="lvl4"><a href="#5-1-apningsbalanse">§ 5-1. Åpningsbalanse</a></li>
+<li class="lvl4"><a href="#5-1-1-overfring-av-formuesobjekter-ved-arv-gave-eller-gavesalg">5-1-1. Overføring av formuesobjekter ved arv, gave eller gavesalg</a></li>
+<li class="lvl4"><a href="#5-1-2-overfring-av-formuesobjekter-uten-kontinuitet">5-1-2. Overføring av formuesobjekter uten kontinuitet</a></li>
+<li class="lvl4"><a href="#5-2-senere-balanse">§ 5-2. Senere balanse</a></li>
+<li class="lvl2"><a href="#vedlegg">Vedlegg</a></li>
+</ul>
+</details>
+
+<details class="about">
+<summary>Om denne utgaven, kilder og historikk</summary>
+<p>Du leser den gjeldende konsoliderte teksten slik den sist ble hentet fra Lovdata. Eldre utgaver er uverifiserte rekonstruksjoner og dokumenterer ikke sikkert hvilke regler som gjaldt på en bestemt dato; se <a href="../book/versjoner.html">versjonsoversikten</a> eller <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-01-2404.md">git-loggen for rekonstruksjonene</a>.</p>
+<p><a href="https://github.com/sondreskarsten/norwegian-laws/blob/main/forskrifter/forskrift-2025-12-01-2404.md">Kildefil (Markdown)</a> ·
 <a href="https://github.com/sondreskarsten/norwegian-laws/commits/law-history/forskrifter/forskrift-2025-12-01-2404.md">Git-logg (uverifisert rekonstruksjon)</a> ·
-<a href="../feeds/forskrift-2025-12-01-2404.xml" title="Abonner på endringer i denne loven via Atom">📡 Atom-feed</a> ·
-<a href="../observasjoner/forskrift-2025-12-01-2404.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-12-01-2404.html" title="Endringshistorikk per paragraf siden 2001">📜 Endringshistorikk</a> · 
-</div>
+<a href="../feeds/forskrift-2025-12-01-2404.xml" title="Abonner på endringer i denne loven via Atom">Atom-feed</a> ·
+<a href="../observasjoner/forskrift-2025-12-01-2404.html">Observerte kildeutgaver</a> · <a href="../historie/forskrift-2025-12-01-2404.html" title="Endringshistorikk per paragraf siden 2001">Endringshistorikk</a> · </p>
+</details>
 
-<h1 id="forskrift-om-taksering-av-formues-inntekts-og-fradragsposter-mv-som-ma-fastsettes-ved-skjnn-til-bruk-ved-fastsettingen-for-2025">Forskrift om taksering av formues-, inntekts og fradragsposter mv. som må fastsettes ved skjønn til bruk ved fastsettingen for 2025</h1>
 <h2 id="kapittel-1-generell-del-fast-eiendom-lnnstakere-private-forhold-mv">Kapittel 1. Generell del (fast eiendom, lønnstakere, private forhold, mv.)</h2>
 <h4 id="1-1-formuessatser">§ 1-1. Formuessatser</h4>
 <p>Er ikke annet bestemt i skatteloven eller i den enkelte paragraf nedenfor, skal formuesobjektenes verdi settes til omsetningsverdien 1. januar i skattefastsettingsåret, jf. skatteloven § 4-1 første ledd .</p>
@@ -475,6 +736,8 @@ Endret ved forskrift 11 des 2025 nr. 2506 .</em></p>
 <p>Pris- og kostnadssoner til bruk ved fastsetting av formuesverdier for skog per 1. januar 2025</p>
 <p>Pris- og kostnadssoner Pris Kostnad Avkastningsverdi Sone Kr/m 3 Kr/m 3 (Priskostnad), kr/m 3 A1 315 185 130 A2 315 210 105 A3 315 235 80 B1 300 185 115 B2 300 210 90 B3 300 235 65 C1 260 185 75 C2 260 210 50 C3 260 235 25</p>
 <p>Pris- og kostnadssone for den enkelte kommune Fylke Kommunenr. Kommune Sone Agder 4201 Risør B2 Agder 4202 Grimstad B2 Agder 4203 Arendal B2 Agder 4204 Kristiansand C2 Agder 4205 Lindesnes B2 Agder 4206 Farsund C2 Agder 4207 Flekkefjord C2 Agder 4211 Gjerstad B2 Agder 4212 Vegårshei B2 Agder 4213 Tvedestrand B2 Agder 4214 Froland B2 Agder 4215 Lillesand B2 Agder 4216 Birkenes B2 Agder 4217 Åmli B2 Agder 4218 Iveland B2 Agder 4219 Evje og Hornnes B2 Agder 4220 Bygland B2 Agder 4221 Valle B2 Agder 4222 Bykle C2 Agder 4223 Vennesla B2 Agder 4224 Åseral B2 Agder 4225 Lyngdal B2 Agder 4226 Hægebostad B2 Agder 4227 Kvinesdal C2 Agder 4228 Sirdal C2 Akershus 3201 Bærum A1 Akershus 3203 Asker B1 Akershus 3205 Lillestrøm A1 Akershus 3207 Nordre Follo A1 Akershus 3209 Ullensaker A1 Akershus 3212 Nesodden A1 Akershus 3214 Frogn A1 Akershus 3216 Vestby A1 Akershus 3218 Ås A1 Akershus 3220 Enebakk A1 Akershus 3222 Lørenskog A1 Akershus 3224 Rælingen A1 Akershus 3226 Aurskog-Høland B1 Akershus 3228 Nes A1 Akershus 3230 Gjerdrum A1 Akershus 3232 Nittedal A1 Akershus 3234 Lunner B2 Akershus 3236 Jevnaker B2 Akershus 3238 Nannestad A1 Akershus 3240 Eidsvoll A1 Akershus 3242 Hurdal A1 Buskerud 3051 Rollag B2 Buskerud 3301 Drammen B2 Buskerud 3303 Kongsberg B1 Buskerud 3305 Ringerike B1 Buskerud 3310 Hole B1 Buskerud 3312 Lier B1 Buskerud 3314 Øvre Eiker B1 Buskerud 3316 Modum B1 Buskerud 3318 Krødsherad B1 Buskerud 3320 Flå C2 Buskerud 3322 Nesbyen B2 Buskerud 3324 Gol B2 Buskerud 3326 Hemsedal C2 Buskerud 3328 Ål B2 Buskerud 3330 Hol B3 Buskerud 3332 Sigdal B1 Buskerud 3334 Flesberg A2 Buskerud 3338 Nore og Uvdal B2 Finnmark 5601 Alta Finnmark 5603 Hammerfest Finnmark 5605 Sør-Varanger Finnmark 5607 Vadsø Finnmark 5610 Karasjok Finnmark 5612 Kautokeino Finnmark 5614 Loppa Finnmark 5616 Hasvik Finnmark 5618 Måsøy Finnmark 5620 Nordkapp Finnmark 5622 Porsanger Finnmark 5624 Lebesby Finnmark 5626 Gamvik Finnmark 5628 Tana Finnmark 5630 Berlevåg Finnmark 5632 Båtsfjord Finnmark 5634 Vardø Finnmark 5636 Nesseby Innlandet 3401 Kongsvinger A1 Innlandet 3403 Hamar A1 Innlandet 3405 Lillehammer B1 Innlandet 3407 Gjøvik A1 Innlandet 3411 Ringsaker A1 Innlandet 3412 Løten A1 Innlandet 3413 Stange A1 Innlandet 3414 Nord-Odal A1 Innlandet 3415 Sør-Odal A1 Innlandet 3416 Eidskog A1 Innlandet 3417 Grue A1 Innlandet 3418 Åsnes A1 Innlandet 3419 Våler A1 Innlandet 3420 Elverum B1 Innlandet 3421 Trysil B1 Innlandet 3422 Åmot A1 Innlandet 3423 Stor-Elvdal B1 Innlandet 3424 Rendalen B2 Innlandet 3425 Engerdal B2 Innlandet 3426 Tolga C2 Innlandet 3427 Tynset C2 Innlandet 3428 Alvdal C2 Innlandet 3429 Folldal C2 Innlandet 3430 Os C2 Innlandet 3431 Dovre B2 Innlandet 3432 Lesja C2 Innlandet 3433 Skjåk B2 Innlandet 3434 Lom C2 Innlandet 3435 Vågå C2 Innlandet 3436 Nord-Fron B2 Innlandet 3437 Sel C2 Innlandet 3438 Sør-Fron B2 Innlandet 3439 Ringebu B2 Innlandet 3440 Øyer A1 Innlandet 3441 Gausdal B2 Innlandet 3442 Østre Toten A1 Innlandet 3443 Vestre Toten A1 Innlandet 3446 Gran A2 Innlandet 3447 Søndre Land A1 Innlandet 3448 Nordre Land A2 Innlandet 3449 Sør-Aurdal A2 Innlandet 3450 Etnedal B2 Innlandet 3451 Nord-Aurdal B2 Innlandet 3452 Vestre Slidre C2 Innlandet 3453 Øystre Slidre C2 Innlandet 3454 Vang C2 Møre og Romsdal 1505 Kristiansund C3 Møre og Romsdal 1506 Molde C3 Møre og Romsdal 1508 Ålesund C3 Møre og Romsdal 1511 Vanylven C3 Møre og Romsdal 1514 Sande C3 Møre og Romsdal 1515 Herøy C3 Møre og Romsdal 1516 Ulstein C3 Møre og Romsdal 1517 Hareid C3 Møre og Romsdal 1520 Ørsta C3 Møre og Romsdal 1525 Stranda C3 Møre og Romsdal 1528 Sykkylven C3 Møre og Romsdal 1531 Sula C3 Møre og Romsdal 1532 Giske C3 Møre og Romsdal 1535 Vestnes B3 Møre og Romsdal 1539 Rauma A3 Møre og Romsdal 1547 Aukra C3 Møre og Romsdal 1554 Averøy C3 Møre og Romsdal 1557 Gjemnes B3 Møre og Romsdal 1560 Tingvoll C2 Møre og Romsdal 1563 Sunndal A3 Møre og Romsdal 1566 Surnadal A3 Møre og Romsdal 1573 Smøla Møre og Romsdal 1576 Aure C3 Møre og Romsdal 1577 Volda C3 Møre og Romsdal 1578 Fjord C3 Møre og Romsdal 1579 Hustadvika C3 Møre og Romsdal 1580 Haram C3 Nordland 1804 Bodø B3 Nordland 1806 Narvik C3 Nordland 1811 Bindal B3 Nordland 1812 Sømna C3 Nordland 1813 Brønnøy C2 Nordland 1815 Vega C3 Nordland 1816 Vevelstad B3 Nordland 1818 Herøy Nordland 1820 Alstahaug B2 Nordland 1822 Leirfjord C2 Nordland 1824 Vefsn B2 Nordland 1825 Grane B2 Nordland 1826 Hattfjelldal C2 Nordland 1827 Dønna C3 Nordland 1828 Nesna C2 Nordland 1832 Hemnes B2 Nordland 1833 Rana B2 Nordland 1834 Lurøy B2 Nordland 1835 Træna Nordland 1836 Rødøy B3 Nordland 1837 Meløy B3 Nordland 1838 Gildeskål B3 Nordland 1839 Beiarn B3 Nordland 1840 Saltdal B3 Nordland 1841 Fauske B3 Nordland 1845 Sørfold B3 Nordland 1848 Steigen C3 Nordland 1851 Lødingen B3 Nordland 1853 Evenes C3 Nordland 1856 Røst Nordland 1857 Værøy Nordland 1859 Flakstad Nordland 1860 Vestvågøy B3 Nordland 1865 Vågan B3 Nordland 1866 Hadsel B3 Nordland 1867 Bø B3 Nordland 1868 Øksnes B3 Nordland 1870 Sortland B3 Nordland 1871 Andøy B3 Nordland 1874 Moskenes Nordland 1875 Hamarøy C3 Oslo 301 Oslo kommune A1 Rogaland 1101 Eigersund B3 Rogaland 1103 Stavanger C3 Rogaland 1106 Haugesund C3 Rogaland 1108 Sandnes C3 Rogaland 1111 Sokndal C3 Rogaland 1112 Lund B3 Rogaland 1114 Bjerkreim B3 Rogaland 1119 Hå C3 Rogaland 1120 Klepp C3 Rogaland 1121 Time C3 Rogaland 1122 Gjesdal B3 Rogaland 1124 Sola B3 Rogaland 1127 Randaberg B3 Rogaland 1130 Strand C3 Rogaland 1133 Hjelmeland B3 Rogaland 1134 Suldal B3 Rogaland 1135 Sauda B3 Rogaland 1144 Kvitsøy Rogaland 1145 Bokn C3 Rogaland 1146 Tysvær C3 Rogaland 1149 Karmøy C3 Rogaland 1151 Utsira Rogaland 1160 Vindafjord B3 Telemark 4001 Porsgrunn B2 Telemark 4003 Skien B2 Telemark 4005 Notodden B2 Telemark 4010 Siljan B2 Telemark 4012 Bamble B2 Telemark 4014 Kragerø B2 Telemark 4016 Drangedal B2 Telemark 4018 Nome B2 Telemark 4020 Midt-Telemark B2 Telemark 4022 Seljord B3 Telemark 4024 Hjartdal B2 Telemark 4026 Tinn B2 Telemark 4028 Kviteseid B3 Telemark 4030 Nissedal B2 Telemark 4032 Fyresdal B2 Telemark 4034 Tokke B3 Telemark 4036 Vinje B3 Troms 5501 Tromsø C3 Troms 5503 Harstad C3 Troms 5510 Kvæfjord C3 Troms 5512 Tjeldsund C3 Troms 5512 Bardu C3 Troms 5514 Ibestad C3 Troms 5516 Gratangen C3 Troms 5518 Lavangen C3 Troms 5522 Salangen C3 Troms 5524 Målselv C3 Troms 5526 Sørreisa C3 Troms 5528 Dyrøy C3 Troms 5530 Senja C3 Troms 5532 Balsfjord C3 Troms 5534 Karlsøy C3 Troms 5536 Lyngen C3 Troms 5538 Storfjord C3 Troms 5540 Gáivuotna/Kåfjord C3 Troms 5542 Skjervøy C3 Troms 5544 Nordreisa C3 Troms 5546 Kvænangen C3 Trøndelag 5001 Trondheim B2 Trøndelag 5006 Steinkjer B2 Trøndelag 5007 Namsos C2 Trøndelag 5014 Frøya C3 Trøndelag 5020 Osen C3 Trøndelag 5021 Oppdal A2 Trøndelag 5022 Rennebu A2 Trøndelag 5025 Røros C3 Trøndelag 5026 Holtålen B3 Trøndelag 5027 Midtre Gauldal A2 Trøndelag 5028 Melhus B2 Trøndelag 5029 Skaun B2 Trøndelag 5031 Malvik B2 Trøndelag 5032 Selbu B2 Trøndelag 5033 Tydal B2 Trøndelag 5034 Meråker B2 Trøndelag 5035 Stjørdal A2 Trøndelag 5036 Frosta C2 Trøndelag 5037 Levanger B1 Trøndelag 5038 Verdal B1 Trøndelag 5041 Snåsa B2 Trøndelag 5042 Lierne B1 Trøndelag 5043 Røyrvik B2 Trøndelag 5044 Namsskogan B2 Trøndelag 5045 Grong A2 Trøndelag 5046 Høylandet A2 Trøndelag 5047 Overhalla A1 Trøndelag 5049 Flatanger C2 Trøndelag 5052 Leka C2 Trøndelag 5053 Inderøy B1 Trøndelag 5054 Indre Fosen C3 Trøndelag 5055 Heim C3 Trøndelag 5056 Hitra C3 Trøndelag 5057 Ørland C3 Trøndelag 5058 Åfjord C3 Trøndelag 5059 Orkland C3 Trøndelag 5060 Nærøysund C2 Trøndelag 5061 Rindal A3 Vestfold 3901 Horten B2 Vestfold 3903 Holmestrand B2 Vestfold 3905 Tønsberg B2 Vestfold 3907 Sandefjord B2 Vestfold 3909 Larvik B2 Vestfold 3911 Færder C2 Vestland 4601 Bergen C3 Vestland 4602 Kinn C3 Vestland 4611 Etne B3 Vestland 4612 Sveio C3 Vestland 4613 Bømlo C3 Vestland 4614 Stord C3 Vestland 4615 Fitjar C3 Vestland 4616 Tysnes C3 Vestland 4617 Kvinnherad C3 Vestland 4618 Ullensvang C3 Vestland 4619 Eidfjord C3 Vestland 4620 Ulvik B3 Vestland 4621 Voss B3 Vestland 4622 Kvam C3 Vestland 4623 Samnanger C3 Vestland 4624 Bjørnafjorden C3 Vestland 4625 Austevoll C3 Vestland 4626 Øygarden C3 Vestland 4627 Askøy C3 Vestland 4628 Vaksdal B3 Vestland 4629 Modalen C3 Vestland 4630 Osterøy C3 Vestland 4631 Alver C3 Vestland 4632 Austrheim C3 Vestland 4633 Fedje Vestland 4634 Masfjorden C3 Vestland 4635 Gulen C3 Vestland 4636 Solund C3 Vestland 4637 Hyllestad C3 Vestland 4638 Høyanger C3 Vestland 4639 Vik B3 Vestland 4640 Sogndal C3 Vestland 4641 Aurland B3 Vestland 4642 Lærdal B3 Vestland 4643 Årdal B3 Vestland 4644 Luster C3 Vestland 4645 Askvoll C3 Vestland 4646 Fjaler C3 Vestland 4647 Sunnfjord C3 Vestland 4648 Bremanger C3 Vestland 4649 Stad C3 Vestland 4650 Gloppen C3 Vestland 4651 Stryn B3 Østfold 3101 Halden B1 Østfold 3103 Moss B1 Østfold 3105 Sarpsborg B1 Østfold 3107 Fredrikstad B1 Østfold 3110 Hvaler C1 Østfold 3112 Råde B1 Østfold 3114 Våler A1 Østfold 3116 Skiptvet B1 Østfold 3118 Indre Østfold B1 Østfold 3120 Rakkestad B1 Østfold 3122 Marker B1 Østfold 3124 Aremark B1</p>
+</article>
+</div>
 
 <footer>
 Datakilde: <a href="https://lovdata.no/" target="_blank" rel="noopener">Lovdata</a>
